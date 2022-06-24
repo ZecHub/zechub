@@ -14,7 +14,7 @@ How to make changes to ZecHub
 ---
   1. Go to ZecHub's Github repo.
   2. Create a new Github account or log in with your own.
-  3. Follow this guide to learn how to do a pull request.
+  3. [Follow this guide to learn how to do a pull request.](https://www.youtube.com/watch?v=YTbRzhQju4c&t=1s)
   
 Contributor Guidelines
 ---
@@ -25,4 +25,4 @@ In the interest of maintaing a uniform look to ZecHub, there's a template that y
  
 Donations: zs17h6dthqtgu3phjht9xksjlr6u549va8vdgml0zeejn4sqxpx0ssw6yjkyccvr8prxdhv52ahrwt
 
-DISCLAIMER: ZecHub is a completely independent and open-source initiative founded by Zcash community members. Nothing contained in this Github repository should be considered financial or investment advice - it is for informational purposes only.
+**DISCLAIMER: ZecHub is a completely independent and open-source initiative founded by Zcash community members. Nothing contained in this Github repository should be considered financial or investment advice - it is for informational purposes only.**
