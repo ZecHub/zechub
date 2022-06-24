@@ -22,7 +22,7 @@ We recommend using a [shielded wallet] because these wallets provide the [privac
 
 **Withdraw ZEC**
 
-After you create your wallet, your going to want to withdraw your ZEC into that wallet. Here's a [tutorial]https://twitter.com/decentralistdan/status/1508831570165121033 on how to do that.
+After you create your wallet, your going to want to withdraw your ZEC into that wallet. Here's a [tutorial](https://twitter.com/decentralistdan/status/1508831570165121033) on how to do that.
 
 ---
 
