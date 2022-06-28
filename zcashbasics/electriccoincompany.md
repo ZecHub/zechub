@@ -14,7 +14,7 @@ The Electric Coin Company is wholey owned by the Bootstrap Project. The Bootstra
 
 ## Funding
 
-The Electric Coin Company receives 8% of the [Zcash development fund](https://zips.z.cash/zip-1014). Their use of finances can be seen in their [transparency reports](https://electriccoin.co/blog/ecc-transparency-report-for-q3-2021/) which they release every quarter.
+The Electric Coin Company receives 7% of the [Zcash development fund](https://zips.z.cash/zip-1014). Their use of finances can be seen in their [transparency reports](https://electriccoin.co/blog/ecc-transparency-report-for-q3-2021/) which they release every quarter.
 
 ## Resources
 
