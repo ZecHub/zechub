@@ -1,3 +1,5 @@
+# Zcash Basics
+
 ## What are the economics of Zcash?
 
 Zcash's monetary base is the same as Bitcoin's — a fixed supply of 21 million ZEC currency units. Every 75 seconds, a new [block](https://zcash.readthedocs.io/en/latest/rtd_pages/glossary.html#:~:text=Block,mempool%20in%20an%20unconfirmed%20state.) is mined to the Zcash blockchain and a block reward of 3.125 ZEC comes into circulation. This block reward is distributed to miners and the [Zcash development fund](https://zips.z.cash/zip-1014).
