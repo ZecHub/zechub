@@ -26,6 +26,6 @@ Airtm, Binance, Bitfinex, Coinbase, Exmo, Kraken, Poloniex and Bittrex all suppo
 
 These exchanges support transparent withdrawals. This means when you withdrawal ZEC to your wallet, you need to send it to your transparent address, your public ZEC address. 
 
-When doing this, we recommend using a wallet that autoshields funds. Here's a video that explains how to do that.
+When doing this, we recommend using a wallet that [autoshields funds](https://electriccoin.co/blog/new-releases-to-help-enable-zcash-shielded-by-default/). Here's a [video] that explains how to do that.
 
 _You can also mine ZEC, but that is usually not possible for average consumers. More on that here._
