@@ -30,7 +30,7 @@ After you create your wallet, your going to want to withdraw your ZEC into that 
 
 After you've deposited some ZEC into your wallet, you're ready to send a fully shielded, private transaction. A shielded transaction is an exchange of ZEC that fully protects each participants privacy.
 
-Here's a [video] on how to do a shielded transaction.
+Here's a [video](https://www.youtube.com/watch?v=9WJSMxag2IQ) on how to do a shielded transaction.
 
 ---
 
