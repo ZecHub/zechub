@@ -1,10 +1,10 @@
-# Mobile Shielded Wallets w/ Autoshielding
+# Transparent Wallets
 
 Transparent wallets are wallets that only support transparent addresses. These wallets are not recommended as they do not provide a high level of user privacy.
 
 ---
 
-Mobile Shielded Wallets w/ Autoshielding
+List of Transparent Wallets
 
 - [Cobo](https://cobo.com/)
 - [Coinomi](https://www.coinomi.com/en/)
