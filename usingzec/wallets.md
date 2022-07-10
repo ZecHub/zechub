@@ -22,7 +22,11 @@ Hardware wallets are known for their security. These wallets store funds offline
 
 ## Desktop Wallets
 
-Desktop wallets are wallets that you can access from your web browser. They give a users a web interface to interact with their funds.
+Desktop wallets are downloadable apps that can operate from Windows, MacOS, Linux, etc. These apps allow users to interact with ZEC on their desktop devices.
+
+## Web Wallets
+
+Web wallets are wallets that you can access from your web browser. They give a users a web interface to interact with their funds.
 
 ## Full Node Wallets
 
