@@ -18,4 +18,4 @@ Mobile Shielded Wallets
 
 ---
 
-Here is a list of mobile wallet demos that show how to navigate Zcash mobile wallets.
+Here is a [list of mobile wallet demos](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA) that show how to navigate Zcash mobile wallets.
