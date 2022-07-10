@@ -1,6 +1,6 @@
 # Mobile Shielded Wallets w/ Autoshielding
 
-Shielded wallets are wallets that use shielded Zcash addresses (z-addrs). These wallets provide the highest level of privacy. The majority of these wallet are mobile phone apps.
+Auto-shielding wallets are shielded wallets that also include a transparent receiving address. This address allows users to receive funds from other transparent addresses, and then moves the funds to the shielded address. The majority of these wallet are mobile phone apps.
 
 ---
 
