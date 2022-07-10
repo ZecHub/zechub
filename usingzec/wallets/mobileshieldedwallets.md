@@ -6,15 +6,11 @@ Shielded wallets are wallets that use shielded Zcash addresses (z-addrs). These 
 
 Mobile Shielded Wallets
 
-- Nighthawk
-
-- Unstoppable
-
-- Edge
-
-- Ywallet
-
-- Zecwallet Lite
+- [Nighthawk](https://nighthawkwallet.com/)
+- [Ywallet](https://ywallet.app/)
+- [Unstoppable](https://unstoppable.money/)
+- [Edge](https://edge.app/)
+- [Zecwallet Lite](https://www.zecwallet.co/)
 
 ---
 
