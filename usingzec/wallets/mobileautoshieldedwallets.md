@@ -6,11 +6,9 @@ Auto-shielding wallets are shielded wallets that also include a transparent rece
 
 Mobile Shielded Wallets w/ Autoshielding
 
-- Nighthawk
-
-- Ywallet
-
-- Zecwallet Lite
+- [Nighthawk](https://nighthawkwallet.com/)
+- [Ywallet](https://ywallet.app/)
+- [Zecwallet Lite](https://www.zecwallet.co/)
 
 ---
 
