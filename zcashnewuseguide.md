@@ -16,7 +16,7 @@ One important note is that you do not need to buy 1 full ZEC. ZEC is divisible, 
 
 After you purchase some ZEC, you might want to move it to a Zcash wallet. This [article explains](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) why holding ZEC in a wallet is important. 
 
-We recommend using a [shielded wallet] because these wallets provide the [privacy features](https://www.gemini.com/prices/zcash) that make ZEC unique. Here's a [video](https://www.youtube.com/watch?v=AefftLsENaU) on how to download a shielded walet. Here's a [video] explaining the differences between Zcash's different wallet types.
+We recommend using a [shielded wallet](https://github.com/ZecHub/zechub/blob/main/usingzec/wallets/mobileshieldedwallets.md) because these wallets provide the [privacy features](https://www.gemini.com/prices/zcash) that make ZEC unique. Here's a [video](https://www.youtube.com/watch?v=AefftLsENaU) on how to download a shielded walet. Here's a [video] explaining the differences between Zcash's different wallet types.
 
 ---
 
