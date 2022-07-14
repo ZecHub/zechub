@@ -4,7 +4,7 @@ The Zcash community is a vibrant and passion group of people working towards mak
 
 ----
 
-#### Where you can find community members
+### Where you can find community members
 
 The community active in a number of different places:
 
@@ -27,6 +27,8 @@ The Zcash community forum is a place where long form discussions related to Zcas
 #### Twitter
 
 Just like most crypto projects, the Zcash community is extremely active on Twitter. The conversations are lively, debates are plentiful, and of course, there are memes. Here's a list of the best accounts to follow on Zcash Twitter.
+
+----
 
 #### Resources
 
