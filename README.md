@@ -2,9 +2,10 @@
 A decentralized education hub for Zcash.
 The goal of ZecHub is to provide a educational platform where community members can work together on creating, validating, and promoting content that supports the Zcash ecosystem. We do this through a few mechanisms.
 
-  1. Tutorials. Both video and short-form blogs.
-  2. Podcast. To be named.
-  3. A weekly Zcash newsletter.
+  1. Tutorials. Primarily videos on ZEC UX.
+  2. Docs. Short-form ZEC content for beginners.
+  3. Podcast. To be named.
+  4. A weekly Zcash newsletter.
   
 The tutorials, short-form blogs, and newsletter will be opensourced and hosted on GitHub, meaning anyone from the community can contibute. This is to ensure content is accurate and that the channel itself suffers from no single points of failure.
 
