@@ -25,7 +25,8 @@ Transparent transactions have caused confusion around ZEC privacy in the past. T
 #### Resources
 
 [Sending a shielded ZEC transaction](https://www.youtube.com/watch?v=9WJSMxag2IQ)
-Autoshielding your ZEC in Nighthawk
+
+[Autoshielding your ZEC in Nighthawk](https://www.youtube.com/watch?v=W2msuzrxr3s)
 
 #### Note
 
