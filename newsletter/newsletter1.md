@@ -37,7 +37,7 @@ Enjoy!
 
 #### News & Media
 
-- [Zooko joins Ledger CTO Charles Guillamet for a twitter spaces](https://twitter.com/Ledger/status/1546827967325769729)
+- [Zooko joins Ledger CTO Charles Guillemet for a twitter spaces](https://twitter.com/Ledger/status/1546827967325769729)
 - [ZEC added to Bitcoin of America ATMs](https://twitter.com/iansagstette/status/1547207545378541569)
 - [Byzantine Dreams podcast episode featuring Zooko's ETHDenver fireside chat dropped](https://twitter.com/ElectricCoinCo/status/1547610868023644163)
 - [Zooko's appearence on UpOnlyTV is cut short due to technical difficulties](https://twitter.com/cobie/status/1547664220728094721)
@@ -52,8 +52,8 @@ Enjoy!
 
 ## Zeme of the Week
 
-https://twitter.com/robmarn/status/1546827205426270208?s=20&t=kKCm1PxtQnWqJIOjdJFx6w
-
+[https://twitter.com/robmarn/status/1546827205426270208?s=20&t=kKCm1PxtQnWqJIOjdJFx6w
+](https://twitter.com/robmarn/status/1545455468423815169?s=20&t=HKj-ROKgv7hgJtnctQlbhw)
 ## Jobs in the Ecosystem
 
 - [Core Engineer - Rust, Zcash Foundation](https://zfnd.org/careers/)
