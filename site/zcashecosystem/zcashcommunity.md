@@ -1,6 +1,6 @@
 # Zcash Community
 
-The Zcash community is a vibrant and passion group of people working towards making ZEC one of the most widely used cryptocurrencies in the world. The community is made up of a diverse group of people from all over the world. They come from a variety of different backgrounds and ocupations, but they all work together to help achieve Zcash and ZEC's vision.
+The Zcash community is a vibrant and passion group of people working towards making ZEC one of the most widely used cryptocurrencies in the world. The community is made up of a diverse group of people from all over the world. They come from a variety of different backgrounds and occupations, but they all work together to help achieve Zcash and ZEC's vision.
 
 ----
 
