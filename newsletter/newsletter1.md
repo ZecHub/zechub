@@ -22,30 +22,37 @@ Enjoy!
 
 #### Protocol Updates
 
-ECC releases 5.1.0
+-[ECC releases 5.1.0](https://electriccoin.co/blog/new-release-5-1-0/)
 
 #### Zcash Community Grants Updates
 
-Right to Privacy Foundation applies for grant bringing ZEC to DeFi
-Earthrise's grant to become Zcash Ecosystem Security Lead is approved
-Zcash Media restructures their grant proposal
-Qedit provides ZSA update
+-[Right to Privacy Foundation applies for grant bringing ZEC to DeFi](https://forum.zcashcommunity.com/t/defi-for-zec-shielded-zec-defi-wallet-for-ethereum-bsc-and-polygon/42460/7)
+[Earthrise's grant to become Zcash Ecosystem Security Lead is approved](https://forum.zcashcommunity.com/t/zcash-ecosystem-security-lead/42090/56)
+[Zcash Media restructures their grant proposal](https://forum.zcashcommunity.com/t/zcash-media-2022-2023/42246/204)
+[Qedit provides ZSA update](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153/18)
 
 #### Community Projects
 
-The Cypherpunk Zero DAO shares that the Cypherpunk Zero NFT campaign crosses 150ETH in trading volume
+[The Cypherpunk Zero DAO shares that the Cypherpunk Zero NFT campaign crosses 150ETH in trading volume](https://twitter.com/CypherpunkDAO/status/1546845292649189381)
 
 #### News & Media
 
-Zooko joins Ledger CTO Charles Guillamet for a twitter spaces
-ZEC added to Bitcoin of America ATMs
-Byzantine Dreams podcast episode featuring Zooko's ETHDenver fireside chat dropped
-Zooko's appearence on UpOnlyTV is cut short due to technical difficulties
-Zcash Foundation announces more speakers for Zcon3
+-[Zooko joins Ledger CTO Charles Guillamet for a twitter spaces](https://twitter.com/Ledger/status/1546827967325769729)
+-[ZEC added to Bitcoin of America ATMs](https://twitter.com/iansagstette/status/1547207545378541569)
+-[Byzantine Dreams podcast episode featuring Zooko's ETHDenver fireside chat dropped](https://twitter.com/ElectricCoinCo/status/1547610868023644163)
+-[Zooko's appearence on UpOnlyTV is cut short due to technical difficulties](https://twitter.com/cobie/status/1547664220728094721)
+-[Zcash Foundation announces more speakers for Zcon3](https://forum.zcashcommunity.com/t/zcon3-speaker-announcement-thread/41946/10)
 
 ## Some Zcash Tweets
 
+-[Zcash Arborist Call Notes](https://twitter.com/zksquirrel/status/1547693450828468225)
+-[Zcash Media provides a Zero Knowledge Proof explainer](https://twitter.com/zcashmedia/status/1547284464807469057)
+-[The first end-to-end web app built with Halo. Zordle!](https://twitter.com/nibnalin/status/1547636633037459458)
+-[Don't vilify privacy](https://twitter.com/jswihart/status/1547746442218835970)
+
 ## Zeme of the Week
+
+https://twitter.com/robmarn/status/1546827205426270208?s=20&t=kKCm1PxtQnWqJIOjdJFx6w
 
 ## Jobs in the Ecosystem
 
