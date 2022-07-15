@@ -18,8 +18,11 @@ Another use case for the encrypted memo is to send a message to someone with a z
 
 There was a person who sent their partner a love note in one of the first blocks in the Zcash blockchain. Someone found that their partner had sent them a file via a Zcash memo. This file was a ticket to a special event, overseas, that she and her distant lover had been talking about attending together.
 
-The memo was a love note
+The memo was a love note.
 
 #### Resources
 
 [The Encrypted Memo Field](https://electriccoin.co/blog/encrypted-memo-field/)
+
+https://user-images.githubusercontent.com/82240624/179146268-5c039b0b-034c-438e-9e5a-c661ca06b5e7.mp4
+
