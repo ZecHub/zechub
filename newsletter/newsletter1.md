@@ -22,7 +22,7 @@ Enjoy!
 
 #### Protocol Updates
 
--[ECC releases 5.1.0](https://electriccoin.co/blog/new-release-5-1-0/)
+- [ECC releases 5.1.0](https://electriccoin.co/blog/new-release-5-1-0/)
 
 #### Zcash Community Grants Updates
 
