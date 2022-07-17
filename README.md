@@ -19,11 +19,12 @@ How to make changes to ZecHub
   
 Contributor Guidelines
 ---
-In the interest of maintaing a uniform look to ZecHub, there's a template that you can use when adding pages to the repo.
+In the interest of maintaing a uniform look to ZecHub, there's a [template](https://github.com/ZecHub/zechub/edit/main/template.md) that you can use when adding pages to the repo.
+
   1. All pages should have additional resources (ie. links to z.cash) to support content
   2. No marketing or sponsored content
   3. No inappropriate content.
  
-Donations: zs17h6dthqtgu3phjht9xksjlr6u549va8vdgml0zeejn4sqxpx0ssw6yjkyccvr8prxdhv52ahrwt
+Donations: zs1t2fz22l7sw09ctwu7knymna60aa84fxap86rny6ul4nx007nh3pp5d4u7y4ucyvxwpgzyjz7vgx
 
 **DISCLAIMER: ZecHub is a completely independent and open-source initiative founded by Zcash community members. Nothing contained in this Github repository should be considered financial or investment advice - it is for informational purposes only.**
