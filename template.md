@@ -6,7 +6,7 @@ add body content in plain text
 
 add body content in plain text
 
-#### Sub-section header
+### Sub-section header
 
 1. use numbers
 2. not bullet points
