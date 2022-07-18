@@ -19,7 +19,7 @@ How to make changes to ZecHub
   
 Contributor Guidelines
 ---
-In the interest of maintaing a uniform look to ZecHub, there's a [template](https://github.com/ZecHub/zechub/edit/main/template.md) that you can use when adding pages to the repo.
+In the interest of maintaining a uniform look to ZecHub, there's a [template](https://github.com/ZecHub/zechub/edit/main/template.md) that you can use when adding pages to the repo.
 
   1. All pages should have additional resources (ie. links to z.cash) to support content
   2. No marketing or sponsored content
