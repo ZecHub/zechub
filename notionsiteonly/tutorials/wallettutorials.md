@@ -1,11 +1,23 @@
-Page for wallet tutorials. just a draft right now
+# Zcash Wallet Tutorials
 
-Download a Zcash wallet: https://www.youtube.com/watch?v=AefftLsENaU
+Below are a list of wallet tutorials that can help you get started with ZEC.
 
-Buy Zec and load your wallet: https://www.youtube.com/watch?v=REUbkLzK7J4
+## Download a Zcash wallet
 
-Sending a z2z transaction: https://www.youtube.com/watch?v=9WJSMxag2IQ
+https://www.youtube.com/watch?v=AefftLsENaU
 
-Spend your zec in stores: https://www.youtube.com/watch?v=Mgm_nK3gr7U
+## Buy Zec and load your wallet
 
-Shield funds from transparent withdrawal: https://www.youtube.com/watch?v=W2msuzrxr3s
+https://www.youtube.com/watch?v=REUbkLzK7J4
+
+## Sending a z2z transaction
+
+https://www.youtube.com/watch?v=9WJSMxag2IQ
+
+## Spend your zec in stores
+
+https://www.youtube.com/watch?v=Mgm_nK3gr7U
+
+## Shield funds from transparent withdrawal:
+
+https://www.youtube.com/watch?v=W2msuzrxr3s
