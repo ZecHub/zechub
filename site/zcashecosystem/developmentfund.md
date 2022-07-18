@@ -6,7 +6,7 @@ Zcash is a unique blockchain protocol because it is self-funded. This means that
 
 In blockchains, there are something called a [blocks](https://www.investopedia.com/terms/b/block-bitcoin-block.asp), which are produced to record transactions that are not yet confirmed in the network. Once transactions are validated, the block is closed.
 
-Block producers (aka miners) are tasked with validating transactions in a network and producing new blocks. When producing these blocks, block producers are rewarded with a block reward. In zcash, roughly every 75 seconds a new block is produced, and a block reward of 3.125 ZEC comes into circulation. Block rewards in Zcash will produce new coins until Zcash reaches its 21 million max supply. After reaching max supply, block rewards will be paid for by transaction fees.
+Block producers (aka miners) are tasked with validating transactions in a network and producing new blocks. When producing these blocks, block producers are rewarded with a block reward. In Zcash, roughly every 75 seconds a new block is produced, and a block reward of 3.125 ZEC comes into circulation. Block rewards in Zcash will produce new coins until Zcash reaches its 21 million max supply. After reaching max supply, block rewards will be paid for by transaction fees.
 
 ## Zcash's unique funding mechanism
 
