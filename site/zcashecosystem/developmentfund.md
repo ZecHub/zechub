@@ -19,5 +19,7 @@ In 2020, the Zcash community voted on the development fund and the teams support
 ## Resources
 
 [Establishing a Dev Fund for ECC, ZF, and Major Grants](https://zips.z.cash/zip-1014)
+
 [Zcash development and governance](https://z.cash/zcash-development-and-governance/)
+
 [Zcash's funding vote](https://www.coindesk.com/tech/2020/02/01/zcashs-funding-vote-and-the-woes-of-decentralized-governance/)
