@@ -4,4 +4,6 @@ If you're a member of the Zcash community, and want to contribute builing ZecHub
 2. Fact check the wiki docs, suggest edits, and propose new pages in Github (Please propose pages under current sections. We don't want to overload the homepage of the wiki)
 3. Create video content in the following categories 1) Zcash explainer videos 2) Zcash wallet explainer 3) Third-party application demos (ie. Spedn)
 
+4. Claim a ZecDaily episode in the bounty board (coming soon) and record a news update cover all Zcash news updates from the previous day. See [current episode formats](youtube.com/watch?v=XqsZsaGlTGE&t=146s) for inspiration.
+
 If there are other ways you'd like to contribute, please message Ian Sagstetter ([@iansagstette](https://twitter.com/iansagstette)) on Twitter.
