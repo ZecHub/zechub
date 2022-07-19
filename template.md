@@ -12,6 +12,10 @@ add body content in plain text
 2. not bullet points
 3. for most docs
 
+### Resources
+
+[Link resources text]( )
+
 ---
 
 *Footer*
