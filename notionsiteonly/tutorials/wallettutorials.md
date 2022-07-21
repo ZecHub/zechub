@@ -21,3 +21,7 @@ https://www.youtube.com/watch?v=Mgm_nK3gr7U
 ## Shield funds from transparent withdrawal:
 
 https://www.youtube.com/watch?v=W2msuzrxr3s
+
+## Quick Zecwallet Lite demo on mobile
+
+https://youtube.com/shorts/Jivi5UmfVL0?feature=share
