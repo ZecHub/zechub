@@ -24,4 +24,12 @@ Z.cash is Zcash's main website. It provides content and documentation of Zcash f
 
 Got coding chops and want to dive deeper into the technical side of Zcash? The Zcash Github Repo is the repository for the Zcash codebase.
 
+**[Halo2](https://zcash.github.io/halo2/index.html)**
+
+The concepts behind zero-knowledge proof systems
+
+**[Zcash RPC Docs](https://zcash.github.io/rpc/)**
+
+List of all current commands for zcashd
+
 _This is an unfinished document_
