@@ -10,7 +10,7 @@ The NFT community, mostly active on Twitter, has even created a [decentralized o
 
 ## Who is Stranger Wolf?
 
-https://www.youtube.com/channel/UCFs8hIei9YdOJat7olR8iuQ
+[Stranger Wolf YouTube Channel](https://www.youtube.com/channel/UCFs8hIei9YdOJat7olR8iuQ)
 
 ## Which chain are the NFT's located?
 
