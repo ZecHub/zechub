@@ -2,7 +2,7 @@ There are a number of resources that help users understand Zcash.
 
 **[Zcash Media](https://www.youtube.com/c/ZcashMedia)**
 
-Zcash Media is a third party organization that makes educational documentaries about Zcash. Their first video, "Built to Fix Bitcoin's Fatal Flaw, What is Zcash (ZEC)?", is a great introduction to Zcash.
+Zcash Media is an independent organization that makes educational documentaries about Zcash. Their first video, "Built to Fix Bitcoin's Fatal Flaw, What is Zcash (ZEC)?", is a great introduction to Zcash.
 
 **[Twitter](twitter.com)**
 
@@ -22,7 +22,11 @@ Z.cash is Zcash's main website. It provides content and documentation of Zcash f
 
 **[Zcash Github](https://github.com/zcash/zcash)**
 
-Got coding chops and want to dive deeper into the technical side of Zcash? The Zcash Github Repo is the repository for the Zcash codebase.
+Got coding chops and want to dive deeper into the technical side of Zcash? The Zcash Github Repo is the repository for [zcashd](https://electriccoin.co/zcashd/), the first Zcash node implementation.
+
+**[Zcash Foundation Github](https://github.com/ZcashFoundation)**
+
+Another GitHub repository hosting projects of the Zcash Foundation, including [zebra](https://github.com/ZcashFoundation/zebra), a Zcash node implementation in Rust.
 
 **[Halo2](https://zcash.github.io/halo2/index.html)**
 
