@@ -18,6 +18,7 @@
 14. ZEC Arabic - [@zoznotorious](https://twitter.com/ZozNotorious)
 15. ZcashRu - [@ruzcash](https://twitter.com/RuZcash)
 16. Zcash Africa - [@zcashafrica](https://twitter.com/ZcashAfrica)
+17. Zcash Under Ground - [@zcashug](https://twitter.com/zcashug)
 
 ## YouTube
 
@@ -31,3 +32,4 @@
 1. [Zcash LATAM](https://discord.gg/zf8jvyDDfq)
 2. [Zcash Foundation](https://discord.gg/CuNnq4TDJz)
 3. [Cypherpunk Zero DAO](https://discord.gg/qXn9CZ5Kpm)
+4. [ZUG](https://discord.gg/w8zHgXbgMF)
