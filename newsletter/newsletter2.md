@@ -19,10 +19,13 @@ Hey everyone! Thanks for all of your support this week with ZecHub being announc
 #### ECC & ZF Updates
 
 -[Zcon3 speaker updates](https://forum.zcashcommunity.com/t/zcon3-speaker-announcement-thread/41946/12)
+
 -[ECC's policy breakfast in Washington continues to be a hit](https://twitter.com/DanSpuller/status/1549765053410328578)
+
 -[Zcon3 Covid Updates](https://twitter.com/ZcashFoundation/status/1547977514584141824)
--[ECC employee releases blog regarding ZKPs and FPGAs](https://twitter.com/zooko/status/1548335418264788993?s=21&t=3k9aBe6btrWT5aVBxDuJ9A)
--[ECC drops user survey](https://twitter.com/ElectricCoinCo/status/1549428693407342595)
+
+--[ECC employee releases blog regarding ZKPs and FPGAs](https://twitter.com/zooko/status/1548335418264788993?s=21&t=3k9aBe6btrWT5aVBxDuJ9A)
+--[ECC drops user survey](https://twitter.com/ElectricCoinCo/status/1549428693407342595)
 
 #### Zcash Community Grants Updates
 
