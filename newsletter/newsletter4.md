@@ -1,4 +1,4 @@
-# ZecWeekly #3
+# ZecWeekly #4
 
 ZF releases Zebra 1.0.0-beta.13, ECC proposes the Zcash Posterity Fund and Zcon3!
 
