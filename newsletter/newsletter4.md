@@ -33,6 +33,8 @@ See you all by the (shielded) pool. Cheers!
 - [Nighthawk shares July update](https://forum.zcashcommunity.com/t/nighthawk-update-for-july-2022/42661)
 - [ZGo releases demo video](https://twitter.com/ZGoCashApp/status/1555275351957426177)
 - [ZGo shares feature updates](https://twitter.com/ZGoCashApp/status/1552718097026531331)
+- [ZGo completes milestone 1](https://forum.zcashcommunity.com/t/zgo-milestone-1/42638)
+- [ZecWallet Lite announced beta program for CLI and Orchard](https://forum.zcashcommunity.com/t/add-orchard-to-zecwallet-mobile-and-desktop-apps/42134/26)
 
 #### Community Projects
 
@@ -48,7 +50,7 @@ See you all by the (shielded) pool. Cheers!
 ## Some Zcash Tweets
 
 - [Privacy is a non-partisan issue](https://twitter.com/jswihart/status/1555374205486518272)
-- [Zcash Posterity Fund tl;dr]([https://twitter.com/aleocommunity/status/1551622081510621184](https://twitter.com/least_nathan/status/1555252562768457728)
+- [Zcash Posterity Fund tl;dr](https://twitter.com/least_nathan/status/1555252562768457728)
 - [Catch up on Arborist Call prior to Zcon3](https://twitter.com/zksquirrel/status/1554837969806077953)
 - [Zcon3 online streaming is on YouTube](https://twitter.com/decentralistdan/status/1555240124941844480)
 - [Throwback to Jimmy Fallon singing about Zcash](https://twitter.com/ThorTorrens/status/1555515463546933248)
