@@ -20,7 +20,7 @@ Por lo tanto, dos tipos de direcciones. Privada y transparente.
 
 Estas direcciones pueden interactuar entre sí. Así, como se pueden realizar transacciones de privado a transparente, de transparente a privado, etc., hay cuatro tipos de transacciones. Estos tipos de transacciones se demuestran a continuación.
 
-¿Desblindado? ¿Blindado? ¿Qué? Más jerga... Lo entiendo. Vamos a [K.I.S.S] [K.I.S.S](https://en.wikipedia.org/wiki/KISS_principle).
+¿Desblindado? ¿Blindado? ¿Qué? Más jerga... Lo entiendo. Vamos a [K.I.S.S](https://en.wikipedia.org/wiki/KISS_principle).
 
 Si quieres usar Zcash para tu privacidad, lo **mejor es poner Zcash en una dirección privada, y solo ejecutar transacciones privadas cuando lo necesites**. Aquí hay una [explicación](https://electriccoin.co/blog/maintaining-privacy/) as to why.
 
