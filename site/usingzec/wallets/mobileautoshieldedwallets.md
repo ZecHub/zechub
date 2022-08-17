@@ -1,14 +1,24 @@
 # Mobile Shielded Wallets w/ Autoshielding
 
-Auto-shielding wallets are shielded wallets that also include a transparent receiving address. This address allows users to receive funds from other transparent addresses, and then moves the funds to the shielded address. The majority of these wallet are mobile phone apps.
+Auto-shielding wallets are shielded wallets that also include a transparent receiving address. This address allows users to receive funds from other transparent addresses, and then moves the funds to the shielded address. Mobile adaption of Zcash will require Autoshielding wallets.
 
 ---
 
-Mobile Shielded Wallets w/ Autoshielding
+- [Nighthawk](https://nighthawkwallet.com/) - Private Money in your pocket. Shielded by Default, Unstoppable Domains Support, plus more.
 
-- [Nighthawk](https://nighthawkwallet.com/)
-- [Ywallet](https://ywallet.app/)
-- [Zecwallet Lite](https://www.zecwallet.co/)
+![nighthawk](https://user-images.githubusercontent.com/81990132/185261214-8db4ba87-ccce-4067-b19e-0f31253cab7f.jpg)
+
+
+
+- [Ywallet](https://ywallet.app/) - Privacy oriented wallet and messenger for Ycash and Zcash. Warp Sync supports hundreds of thousands of transactions and received notes, Advanced mode for power users.
+ 
+![ycashMobile](https://user-images.githubusercontent.com/81990132/185260679-d575b43b-f2a8-41dc-995f-adda8cca4797.jpg)
+
+
+- [Zecwallet Lite](https://www.zecwallet.co/) - fully featured shielded wallet for Zcash
+
+![zwlMobile](https://user-images.githubusercontent.com/81990132/185260733-dc356079-48ee-44b9-b33c-4db7402f405d.jpg)
+
 
 ---
 
