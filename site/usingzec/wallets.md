@@ -1,20 +1,20 @@
 # Intro to Zcash Wallets
 
-Wallets allow Zcash users to store ZEC and to use ZEC for payments and sending of encrypted memos. There are a few different ways users can do this. Below is a list of options and a high level overview of what each option is best for.
+Wallets allow users to recieve and spend ZEC for payments. Some also support sending and recieving encrypted memos. Below is a list of available options and a high level overview of what each option is best for.
 
 ---
 
 ## Mobile Shielded Wallets
 
-Shielded wallets are wallets that use shielded Zcash addresses (z-addrs). These wallets provide the highest level of privacy. The majority of these wallet are mobile phone apps.
+Mobile shielded wallets are wallets on mobile phones that support shielded Zcash addresses (z-addrs) and encrypted memos.
 
 ## Mobile Shielded Wallets w/ Auto-Shielding
 
-Auto-shielding wallets are shielded wallets that also include a transparent receiving address. This address allows users to receive funds from other transparent addresses, and then moves the funds to the shielded address. The majority of these wallet are mobile phone apps.
+Mobile Auto-shielding wallets are the same as above except when transparent funds are recieved, the wallet automatically moves the funds into a shielded address.
 
 ## Transparent Wallets
 
-Transparent wallets are wallets that only support transparent addresses. These wallets are not recommended as they do not provide a high level of user privacy.
+Transparent wallets are wallets that only support transparent addresses. These wallets are similar to bitcoin wallets and thus offer the least amount of privacy protection.
 
 ## Hardware Wallets
 
@@ -30,4 +30,4 @@ Web wallets are wallets that you can access from your web browser. They give a u
 
 ## Full Node Wallets
 
-A full-node wallet is for users who may want to mine Zcash and validate transactions and blocks, in addition to sending and receiving ZEC.
+A full-node wallet is special case of desktop wallet for users who may want to mine Zcash and or validate transactions and blocks, in addition to sending and receiving ZEC. It downloads a copy of the Zcash blockchain, enforces rules of the Zcash network, and can execute all functionalities.
