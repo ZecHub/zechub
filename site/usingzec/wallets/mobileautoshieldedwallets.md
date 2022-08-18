@@ -1,6 +1,6 @@
 # Mobile Shielded Wallets w/ Autoshielding
 
-Auto-shielding wallets are shielded wallets that also include a transparent receiving address. This address allows users to receive funds from other transparent addresses, and then moves the funds to the shielded address. Mobile adaption of Zcash will require Autoshielding wallets.
+Mobile adaption of Zcash will require Autoshielding wallets.
 
 ---
 
