@@ -1,9 +1,9 @@
-If you're a member of the Zcash community, and want to contribute builing ZecHub, there a few things that are super helpful.
+Si eres un miembro de la comunidad Zcash, y quieres contribuir a construir ZecHub, hay algunas cosas que son súper útiles.
 
-1. Curate links for the newsletter and add them to the newsletter's github page. Find instructions on how to do that at [@ZecWeekly Newsletter](https://www.notion.so/zechub/ZecWeekly-Newsletter-2063b85a436642768fb6620627cbd804).
-2. Fact check the wiki docs, suggest edits, and propose new pages in Github (Please propose pages under current sections. We don't want to overload the homepage of the wiki)
-3. Create video content in the following categories 1) Zcash explainer videos 2) Zcash wallet explainer 3) Third-party application demos (ie. Spedn)
+1. Curar los enlaces para el boletín y añadirlos a la página de github del boletín. Encuentra las instrucciones sobre cómo hacerlo en [@ZecWeekly Newsletter](https://www.notion.so/zechub/ZecWeekly-Newsletter-2063b85a436642768fb6620627cbd804).
+2. Revisar los documentos de la wiki, sugerir ediciones y proponer nuevas páginas en Github (por favor, propón páginas en las secciones actuales. No queremos sobrecargar la página principal de la wiki).
+3. Crear contenido de vídeo en las siguientes categorías: a) Vídeos explicativos de Zcash b) Vídeos explicativos de las billeteras de Zcash c) Demostraciones de aplicaciones de terceros (por ejemplo, Spedn).
 
-4. Claim a ZecDaily episode in the bounty board (coming soon) and record a news update cover all Zcash news updates from the previous day. See [current episode formats](youtube.com/watch?v=XqsZsaGlTGE&t=146s) for inspiration.
+4. Reclama un episodio del ZecDaily en el tablero de recompensas (próximamente) y graba una actualización de noticias que cubra todas las actualizaciones de noticias de Zcash del día anterior. Ver [current episode formats](youtube.com/watch?v=XqsZsaGlTGE&t=146s) for inspiration.
 
-If there are other ways you'd like to contribute, please message Ian Sagstetter ([@iansagstette](https://twitter.com/iansagstette)) on Twitter.
+Si hay otras formas de contribuir, por favor, envía un mensaje a Ian Sagstetter ([@iansagstette](https://twitter.com/iansagstette)) on Twitter.
