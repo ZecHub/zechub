@@ -29,7 +29,8 @@
 
 ## Discord
 
-1. [Zcash LATAM](https://discord.gg/zf8jvyDDfq)
-2. [Zcash Foundation](https://discord.gg/CuNnq4TDJz)
-3. [Cypherpunk Zero DAO](https://discord.gg/qXn9CZ5Kpm)
-4. [ZUG](https://discord.gg/w8zHgXbgMF)
+1. [ZcashCommunity](https://discord.com/invite/PhJY6Pm)
+2. [Zcash LATAM](https://discord.gg/zf8jvyDDfq)
+3. [Zcash Foundation](https://discord.gg/CuNnq4TDJz)
+4. [Cypherpunk Zero DAO](https://discord.gg/qXn9CZ5Kpm)
+5. [ZUG](https://discord.gg/w8zHgXbgMF)
