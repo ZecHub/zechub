@@ -1,4 +1,4 @@
-# Zcash social media links
+# Enlaces a las redes sociales de Zcash
 
 ## Twitter
 
@@ -13,7 +13,7 @@
 9. Pay with Zcash - [@paywithzcash](https://twitter.com/paywithzcash)
 10. Mine Zcash - [@minezcash](https://twitter.com/mineZcash)
 11. DocumentingZEC - [@documentingzec](https://twitter.com/DocumentingZEC)
-12. Zcash Espanyol - [@zcashesp](https://twitter.com/zcashesp)
+12. Zcash Español - [@zcashesp](https://twitter.com/zcashesp)
 13. Zcash Brasil - [@zcashbrazil](https://twitter.com/zcashbrazil)
 14. ZEC Arabic - [@zoznotorious](https://twitter.com/ZozNotorious)
 15. ZcashRu - [@ruzcash](https://twitter.com/RuZcash)
