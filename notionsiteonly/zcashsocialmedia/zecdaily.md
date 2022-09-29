@@ -1,5 +1,5 @@
-ZecDaily is a morning show that highlights all things Zcash from the previous day. The episodes cover a number of Zcash topics, and are typically shorter than 10 minutes in length.
+ZecDaily es un programa matutino que destaca todas las cosas de Zcash del día anterior. Los episodios cubren una serie de temas de Zcash y suelen durar menos de 10 minutos.
 
-Episodes are released every morning at 9am central. Please subscribe to ZecDaily at our YouTube channel [here](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA).
+Los episodios se publican todas las mañanas a las 9:00 hora central. Por favor, suscríbete a ZecDaily en nuestro canal de YouTube [aquí](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA).
 
 https://www.youtube.com/watch?v=Sa9yNpof5Wc&list=PL6_epn0lASLGVQjz7Xt08sQsPCsmHoe0
