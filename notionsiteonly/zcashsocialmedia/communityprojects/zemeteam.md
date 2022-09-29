@@ -1,3 +1,3 @@
 # Zeme Team
 
-[Zeme Team](https://zeme.team) allows creators to easily receive tips from anyone in the community. They’ll have direct links to their work that they can share to social media to drive more tips.
+[Zeme Team](https://zeme.team) permite a los creadores recibir fácilmente propinas (ZEC) de cualquier persona de la comunidad. Tendrán enlaces directos a tu trabajo que podrán compartir en las redes sociales para impulsar más propinas.
