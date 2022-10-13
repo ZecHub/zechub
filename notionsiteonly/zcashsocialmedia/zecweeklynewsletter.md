@@ -8,10 +8,10 @@ Please subscribe to the newsletter [here](https://zechub.substack.com/).
 
 If you want to contribute to the newsletter, please assist by curating links for the relevant week, and posting them here.
 
-If you want to organize an entire newsletter, please dm ]ZecHub on Twitter](https://twitter.com/ZecHub). The account will get back with the earliest newsletter edition you can create and instruct you to create a PR in the [newsletter section](https://github.com/ZecHub/zechub/tree/main/newsletter) of the ZecHub github repo.
+If you want to organize an entire newsletter, please dm [ZecHub on Twitter](https://twitter.com/ZecHub). The account will get back with the earliest newsletter edition you can create and instruct you to create a PR in the [newsletter section](https://github.com/ZecHub/zechub/tree/main/newsletter) of the ZecHub github repo.
 
 Please use this [template](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md) when creating a newsletter edition.
 
 ## Past editions
 
-[ZecWeekly #1](https://zechub.substack.com/p/zecweekly-1)
+[ZecWeekly Archive](https://zechub.substack.com/p/archive)
