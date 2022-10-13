@@ -14,7 +14,7 @@ The Zcash community is very active in its community telegram. This is a channel 
 
 ## Discord
 
-There are a few of [Zcash-specific discords]((https://www.notion.so/zechub/Social-Media-Links-05b9df645af54de7a1989d9c4ccc4d05)) where members congregate. You have the Zcash LATAM, the Zcash Community discord which is run by community members, and you have the Zcash Foundation discord, which is managed by the Zcash Foundation.
+There are a few of [Zcash-specific discords](https://www.notion.so/zechub/Social-Media-Links-05b9df645af54de7a1989d9c4ccc4d05) where members congregate. You have the Zcash LATAM, the Zcash Community discord which is run by community members, and you have the Zcash Foundation discord, which is managed by the Zcash Foundation.
 
 These places are great options for new community members to join in discussions. Please note that the discord conversations are more often technical conversations than not. It's a great place for developers to join in on the discussion.
 
