@@ -2,4 +2,6 @@ ZecDaily is a morning show that highlights all things Zcash from the previous da
 
 Episodes are released every morning at 9am central. Please subscribe to ZecDaily at our YouTube channel [here](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA).
 
-https://www.youtube.com/watch?v=Sa9yNpof5Wc&list=PL6_epn0lASLGVQjz7Xt08sQsPCsmHoe0
+[ZecDaily Playlist](https://www.youtube.com/playlist?list=PL6_epn0lASLGVQjz7Xt08sQsPCsmHoe0q)
+
+https://www.youtube.com/watch?v=K7WpYZE1NEg&list=PL6_epn0lASLGVQjz7Xt08sQsPCsmHoe0q&index=1
