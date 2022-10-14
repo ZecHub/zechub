@@ -18,7 +18,7 @@ Hello! It's Jason bringing you this weeks newsletter. In its second season Zechu
 
 #### ECC & ZF Updates
 
-[Welcoming Autotunafish as Community Support Coordinator! ](https://forum.zcashcommunity.com/t/welcoming-autotunafish-as-our-new-community-support-coordinator/42912/11)
+[Welcoming Autotunafish as Community Support Coordinator!](https://forum.zcashcommunity.com/t/welcoming-autotunafish-as-our-new-community-support-coordinator/42912/11)
 
 [Nominations for new ZF board member closing October 17th](https://forum.zcashcommunity.com/t/inviting-community-nominations-to-the-zf-board/43023)
 
@@ -29,12 +29,12 @@ Hello! It's Jason bringing you this weeks newsletter. In its second season Zechu
 [Steven Smith's summary on Blockchain growth](https://twitter.com/reldev/status/1578589120024100864)
 
 
-
 #### Zcash Community Grants Updates
 
 [Community Grants Meeting Minutes - October 3rd](https://forum.zcashcommunity.com/t/zcash-community-grants-meeting-minutes-10-3-22/43143)
 
 [Welcoming Global Ambassador - Madison Parks](https://forum.zcashcommunity.com/t/the-global-ambassador-program/41070/120)
+
 
 #### Community Projects
 
@@ -63,13 +63,17 @@ Hello! It's Jason bringing you this weeks newsletter. In its second season Zechu
 
 [US Treasury fines Bittrex 29 Million. (Remember Bittrex delisted Zcash Jan 2021](https://www.theblock.co/post/176182/u-s-treasury-fines-bittrex-29-million-for-sanctions-violations-in-its-largest-action-against-a-crypto-firm)
 
-[KYC Chaos](https://decrypt.co/111451/bankrupt-crypto-lender-celsius-reveals-thousands-of-users-transaction-histories-in-court-filing)
+[KYC Chaos at Celsius](https://decrypt.co/111451/bankrupt-crypto-lender-celsius-reveals-thousands-of-users-transaction-histories-in-court-filing)
 
 [BTC, XMR or any coins that use mixers might think twice](https://www.coindesk.com/policy/2022/10/11/crypto-mixers-havent-slowed-doj-investigations-director-says/)
 
 [Zcash ⇔ Cosmos governance education trade offs](https://forum.cosmos.network/t/moving-beyond-coinholder-governance-what-cosmos-can-learn-from-zcash-and-vice-versa/7342)
 
 [Crypto usage is driven by everyday necessity, as opposed to speculation by the already well-off … especially in countries where the values of local fiat currencies are dropping, as we’ve seen in Nigeria and Kenya](https://www.coindesk.com/business/2022/09/29/crypto-is-quietly-thriving-in-sub-saharan-africa-chainalysis-report/)
+
+[Zooko and Bill Barhydt talk Zcash in this hidden gem](https://www.youtube.com/watch?v=hwk6NoMHiSo)
+
+[Paypal testing the waters](https://www.reuters.com/business/finance/paypal-says-it-never-intended-fine-users-misinformation-bloomberg-news-2022-10-10/)
 
 
 ## Some Zcash Tweets
