@@ -1,4 +1,4 @@
-# ZecWeekly #14
+# ZecWeekly #12
 
 Greetings Autotunafish!, Plethora of Events & Updates regarding the Network 
 
