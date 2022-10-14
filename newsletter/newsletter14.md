@@ -1,6 +1,6 @@
 # ZecWeekly #14
 
-Greetings Autotunafish!, Community Events & Updates regarding the Network 
+Greetings Autotunafish!, Plethora of Events & Updates regarding the Network 
 
 ---
 
@@ -34,6 +34,7 @@ Hello! It's Jason bringing you this weeks newsletter. In its second season Zechu
 
 [Community Grants Meeting Minutes - October 3rd](https://forum.zcashcommunity.com/t/zcash-community-grants-meeting-minutes-10-3-22/43143)
 
+[Welcoming Global Ambassador - Madison Parks](https://forum.zcashcommunity.com/t/the-global-ambassador-program/41070/120)
 
 #### Community Projects
 
@@ -41,7 +42,7 @@ Hello! It's Jason bringing you this weeks newsletter. In its second season Zechu
 
 [Zcash Swag Airdrop Event](https://twitter.com/zaos1004/status/1580528754178551814)
 
-[Welcoming Global Ambassador - Madison Parks](https://forum.zcashcommunity.com/t/the-global-ambassador-program/41070/120)
+[CypherPunkZero Twitter Community created by a holder, join if you hold a CPZ](https://twitter.com/zerodartz/status/1577674954639810560?s=20&t=lKH7crpTv5gVzNfK3AJdNw)
 
 
 #### News & Media
@@ -59,6 +60,16 @@ Hello! It's Jason bringing you this weeks newsletter. In its second season Zechu
 [The Universal Privacy Alliance Launch Event @ ZK House](https://www.youtube.com/watch?v=S7tsyMnqcCU)
 
 [Coin Center files Lawsuit against OFAC](https://twitter.com/jerrybrito/status/1580237327364157440)
+
+[US Treasury fines Bittrex 29 Million. (Remember Bittrex delisted Zcash Jan 2021](https://www.theblock.co/post/176182/u-s-treasury-fines-bittrex-29-million-for-sanctions-violations-in-its-largest-action-against-a-crypto-firm)
+
+[KYC Chaos](https://decrypt.co/111451/bankrupt-crypto-lender-celsius-reveals-thousands-of-users-transaction-histories-in-court-filing)
+
+[BTC, XMR or any coins that use mixers might think twice](https://www.coindesk.com/policy/2022/10/11/crypto-mixers-havent-slowed-doj-investigations-director-says/)
+
+[Zcash ⇔ Cosmos governance education trade offs](https://forum.cosmos.network/t/moving-beyond-coinholder-governance-what-cosmos-can-learn-from-zcash-and-vice-versa/7342)
+
+[Crypto usage is driven by everyday necessity, as opposed to speculation by the already well-off … especially in countries where the values of local fiat currencies are dropping, as we’ve seen in Nigeria and Kenya](https://www.coindesk.com/business/2022/09/29/crypto-is-quietly-thriving-in-sub-saharan-africa-chainalysis-report/)
 
 
 ## Some Zcash Tweets
@@ -85,6 +96,9 @@ Hello! It's Jason bringing you this weeks newsletter. In its second season Zechu
 
 [Zcash Foundation September Newsletter](https://twitter.com/ZcashFoundation/status/1577401295564116007)
 
+[Ledger app v2.1.1 fixes the transaction issue affecting ZEC accounts on desktop](https://twitter.com/Ledger_Support/status/1575467661600980996?s=20&t=lKH7crpTv5gVzNfK3AJdNw)
+
+[Zcash art spotted in the wild](https://twitter.com/vladhzc/status/1576641912458514432?s=20&t=lKH7crpTv5gVzNfK3AJdNw)
 
 
 ## Zeme of the Week
