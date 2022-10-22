@@ -23,7 +23,13 @@ The purpose of this guide is to help educate Zcashers who are interested in runn
 
 
 
-## Step 1: 
+## Contents:
+* Prepare the SD Card
+* Boot Ubuntu Server
+* Setup internet connectivity on the Raspberry Pi 4
+* Connect remotely to your Raspberry Pi 4
+* Install *zcashd*
+* Using *zcashd*
 
 ### Prepare the SD Card
 
@@ -40,6 +46,13 @@ For example in linux you would type:
 
 `sudo dpkg -i imager_latest_amd64.deb`
 
+* Open Raspberry Pi Imager
+
+`rpi-imager`
+
+* Choose OS and Storage Device. Since Raspberry Pi 4's are 64 bit, I recommend choosing "Other general-purpose OS" => Ubuntu => Ubuntu Server 22.10 (64 bit). Next insert your SD card (possibly with the adaptor). Click on Storage and select your SD Card
+
+### Boot Ubuntu Server
 
 1.) https://github.com/adityapk00/zcash/releases
 
