@@ -11,7 +11,7 @@
 
 ## Prerequisites
 
-* [Raspberry Pi 4 Canakit](https://www.canakit.com/raspberry-pi-4-starter-max-kit.html)
+* [Raspberry Pi 4 Canakit](https://www.canakit.com/raspberry-pi-4-starter-max-kit.html) or equivalent
 * A computer with a microSD card drive
 * A Wi-Fi network or an ethernet cable with an internet connection
 
