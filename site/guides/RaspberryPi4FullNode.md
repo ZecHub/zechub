@@ -23,7 +23,9 @@ The purpose of this guide is to help educate Zcashers who are interested in runn
 
 
 
-### Step 1: Prepare the SD Card
+## Step 1: 
+
+### Prepare the SD Card
 
 In this step you will create a *bootable* SD card that will allow your Raspberry Pi 4 to boot.
 
