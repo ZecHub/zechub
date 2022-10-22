@@ -1,3 +1,15 @@
+#Raspberry Pi 4 *zcashd* Full node guide
+
+##Prerequisites
+
+* [Raspberry Pi 4 Canakit] (https://www.canakit.com/raspberry-pi-4-starter-max-kit.html)
+
+
+
+
+
+
+
 1.) https://github.com/adityapk00/zcash/releases
 
      If running 64 bit OS, we want zcash-linux-aarch64-v4.4.0.tar.gz
