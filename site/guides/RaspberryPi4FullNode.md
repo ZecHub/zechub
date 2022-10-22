@@ -16,8 +16,8 @@ The purpose of this guide is to help educate Zcashers who are interested in runn
 * A computer with a microSD card drive
 * A Wi-Fi network or an ethernet cable with an internet connection
 
-
 ##### note: keeping your server secure is *not* simple by any means. Any tips/recommendations/best pratices beyond what is talked about in this guide *please* create a PR and help keep this guide as up-to-date as possible.
+
 
 
 
