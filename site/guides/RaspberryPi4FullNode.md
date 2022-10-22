@@ -1,8 +1,8 @@
-#Raspberry Pi 4 *zcashd* Full node guide
+# Raspberry Pi 4 *zcashd* Full node guide
 
-##Prerequisites
+## Prerequisites
 
-* [Raspberry Pi 4 Canakit] (https://www.canakit.com/raspberry-pi-4-starter-max-kit.html)
+* [Raspberry Pi 4 Canakit](https://www.canakit.com/raspberry-pi-4-starter-max-kit.html)
 
 
 
