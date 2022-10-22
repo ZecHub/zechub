@@ -15,6 +15,7 @@ The purpose of this guide is to help educate Zcashers who are interested in runn
 * [8GB Raspberry Pi 4 Canakit](https://www.canakit.com/raspberry-pi-4-starter-max-kit.html) or equivalent
 * A computer with a microSD card drive
 * A Wi-Fi network or an ethernet cable with an internet connection
+* External SSD/HHD with USB3 support
 
 ##### note: keeping your server secure is *not* simple by any means. Any tips/recommendations/best pratices beyond what is talked about in this guide *please* create a PR and help keep this guide as up-to-date as possible.
 
@@ -36,13 +37,13 @@ The purpose of this guide is to help educate Zcashers who are interested in runn
 In this step you will create a *bootable* SD card that will allow your Raspberry Pi 4 to boot.
 
 * Insert the microSD card into your computer. You may need to use the adapter that comes with the Canakit or any other equivalent adaptor.
-* Install Raspberry Pi Imager for your operating system. Select the OS you currently have access to.
+* Install Raspberry Pi Imager for your operating system. Download the version for the OS you currently have access to.
      
      * [Ubuntu](https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb)
      * [Windows](https://downloads.raspberrypi.org/imager/imager_latest.exe)
      * [macOS](https://downloads.raspberrypi.org/imager/imager_latest.dmg)
 
-For example in linux you would type:
+For example in linux you would type the following after downloading:
 
 `sudo dpkg -i imager_latest_amd64.deb`
 
@@ -52,7 +53,51 @@ For example in linux you would type:
 
 * Choose OS and Storage Device. Since Raspberry Pi 4's are 64 bit, I recommend choosing "Other general-purpose OS" => Ubuntu => Ubuntu Server 22.10 (64 bit). Click on Storage and select your SD Card
 
+* Before writing to SD card, click on Advanced options by clicking on the white gear icon near the bottom right corner. Here you can update:
+
+     * Hostname of your Raspberry Pi 4
+     * Enable SSH
+     * Create a username and pw
+     * Enable and configure your wi-fi if needed
+     
+* Once complete hit Write
+
+
 ### Boot Ubuntu Server
+
+
+* We now need to connect to your Raspberry Pi 4. Things we need:
+
+     * Username and pw (from previous step)
+     * IP address so we can use SSH
+     * Monitor,mouse and keyboard (optional)
+
+If you have an extra Monitor, mouse and keyboard plug those in now. Note: these are optional
+
+
+* Install the SD card you just formatted into the Raspberry Pi 4 and also plug in the External SSD/HHD into the USB3 port. Also plug in the power cord and turn it on.
+
+
+* Connect remotely to your Raspberry Pi
+*
+     * Two ways to find your IP address are via your router admin page, or with nmap. If using the router, it depends on which manufactor and I'll defer those details to a quick google search. 
+     * For nmap, first make sure it is installed:
+
+     `sudo apt-get install nmap`
+     
+     * Find the IP address if your current computer and note the first three sections. This is typically 192.168.1.xxx or 192.168.50.xxx
+     * Plug these details into nmap as follows:
+          
+          * `sudo nmap -sn 192.168.50.0/24` or `sudo nmap -sn 192.168.1.0/24`
+          * This will display all devices connected to your home network, which should reveal your Raspberry Pi 4's IP address / MAC address
+*
+* Using your username, pw, and IP address we can now login using SSH
+
+     * `ssh <username>@<ip address of your pi>` note: you must plugin *your* username and *your* IP address, and *your* pw when promted
+          
+         
+
+
 
 1.) https://github.com/adityapk00/zcash/releases
 
