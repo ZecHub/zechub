@@ -106,6 +106,10 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 
      * For compiling yourself it is highly recommended to cross-compile. Cross-compile is to build on one platform a binary that will run on another platform. One reason for this is Raspberry Pi 4's are low-powered and thus not very fast! Leverage your main computer to help with this.
 
+     * To cross compile we need to make sure we have the needed packages. Install the following:
+
+          * `sudo apt-get install gcc-aarch64-linux-gnu`
+
 
 
 2.) We need to transfer zcashd,zcash-cli, and fetch-params.sh to your pi
