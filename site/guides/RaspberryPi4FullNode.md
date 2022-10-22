@@ -1,7 +1,9 @@
 # Raspberry Pi 4 *zcashd* Full node guide
 
-## What you’ll learn
+The purpose of this guide is to help educate Zcashers who are interested in running a full node on a small, inexspenisve, and low-powered Rasperry Pi 4.
 
+
+## What you’ll learn
 * How to create a bootable Ubuntu Server microSD card
 * How to setup internet connectivity on the Raspberry Pi
 * How to access your Raspberry Pi remotely
@@ -10,7 +12,6 @@
 
 
 ## Prerequisites
-
 * [8GB Raspberry Pi 4 Canakit](https://www.canakit.com/raspberry-pi-4-starter-max-kit.html) or equivalent
 * A computer with a microSD card drive
 * A Wi-Fi network or an ethernet cable with an internet connection
@@ -29,9 +30,9 @@ In this step you will create a *bootable* SD card that will allow your Raspberry
 * Insert the microSD card into your computer. You may need to use the adapter that comes with the Canakit or any other equivalent adaptor.
 * Install Raspberry Pi Imager for your operating system. Select the OS you currently have access to.
      
-     * [Ubuntu] (https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb)
-     * [Windows] (https://downloads.raspberrypi.org/imager/imager_latest.exe)
-     * [macOS] (https://downloads.raspberrypi.org/imager/imager_latest.dmg)
+     * [Ubuntu](https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb)
+     * [Windows](https://downloads.raspberrypi.org/imager/imager_latest.exe)
+     * [macOS](https://downloads.raspberrypi.org/imager/imager_latest.dmg)
 
 For example in linux you would type:
 
