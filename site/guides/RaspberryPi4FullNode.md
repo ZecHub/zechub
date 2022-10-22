@@ -5,8 +5,8 @@ The purpose of this guide is to help educate Zcashers who are interested in runn
 
 ## What you’ll learn
 * How to create a bootable Ubuntu Server microSD card
-* How to setup internet connectivity on the Raspberry Pi
-* How to access your Raspberry Pi remotely
+* How to setup internet connectivity on the Raspberry Pi 4
+* How to access your Raspberry Pi 4 remotely
 * How to install *zcashd*
 * How to use *zcashd*
 
