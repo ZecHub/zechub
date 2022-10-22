@@ -16,7 +16,7 @@
 * A Wi-Fi network or an ethernet cable with an internet connection
 
 
-### note: keeping your server secure is *not* simple by any means. Any tips/requimendations/best pratices *please* create a PR and help keep this guide as up-to-date as possible.
+### note: keeping your server secure is *not* simple by any means. Any tips/recommendations/best pratices *please* create a PR and help keep this guide as up-to-date as possible.
 
 
 
