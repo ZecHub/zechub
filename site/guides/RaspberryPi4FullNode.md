@@ -5,8 +5,8 @@
 * How to create a bootable Ubuntu Server microSD card
 * How to setup internet connectivity on the Raspberry Pi
 * How to access your Raspberry Pi remotely
-* How to install zcashd
-* How to use zcashd
+* How to install *zcashd*
+* How to use *zcashd*
 
 
 ## Prerequisites
