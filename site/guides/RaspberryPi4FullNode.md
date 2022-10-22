@@ -1,6 +1,6 @@
 # Raspberry Pi 4: a *zcashd* Full node guide
 
-The purpose of this guide is to help educate Zcashers who are interested in running a full node on a small, inexpensive, and low-powered Raspberry Pi 4.
+The purpose of this guide is to help educate Zcashers who are interested in running a full node on a low-powered Raspberry Pi 4.
 
 
 ## What you’ll learn
