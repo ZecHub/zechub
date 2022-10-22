@@ -72,7 +72,7 @@ For example in linux you would type the following after downloading:
      * IP address so we can use SSH
      * Monitor,mouse and keyboard (optional)
 
-If you have an extra Monitor, mouse and keyboard plug those in now. Note: these are optional
+If you have an extra monitor, mouse and keyboard plug those in now. Note: these are optional
 
 
 * Install the SD card you just formatted into the Raspberry Pi 4 and also plug in the External SSD/HHD into the USB3 port. Also plug in the power cord and turn it on.
