@@ -1,8 +1,22 @@
 # Raspberry Pi 4 *zcashd* Full node guide
 
+## What you’ll learn
+
+* How to create a bootable Ubuntu Server microSD card
+* How to setup internet connectivity on the Raspberry Pi
+* How to access your Raspberry Pi remotely
+* How to install zcashd
+* How to use zcashd
+
+
 ## Prerequisites
 
 * [Raspberry Pi 4 Canakit](https://www.canakit.com/raspberry-pi-4-starter-max-kit.html)
+* A computer with a microSD card drive
+* A Wi-Fi network or an ethernet cable with an internet connection
+
+
+### note: keeping your server secure is a not simple by any means. Any tips/requimendations/best pratices *please* create a PR and help keep this guide as up-to-date as possible.
 
 
 
