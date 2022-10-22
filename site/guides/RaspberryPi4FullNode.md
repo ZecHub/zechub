@@ -64,13 +64,6 @@ For example in linux you would type the following after downloading:
 
 ### Boot Ubuntu Server
 
-
-* We now need to connect to your Raspberry Pi 4. Things we need:
-
-     * Username and pw (from previous step)
-     * IP address so we can use SSH
-     * Monitor,mouse and keyboard (optional)
-
 If you have an extra monitor, mouse and keyboard plug those in now. Note: these are optional
 
 
@@ -78,6 +71,12 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 
 
 ### Connect remotely to your Raspberry Pi 4
+
+* We now need to connect to your Raspberry Pi 4. Things we need:
+
+     * Username and pw (from previous step)
+     * IP address so we can use SSH
+     * Monitor,mouse and keyboard (optional)
 
      * Two ways to find your IP address are via your router admin page, or with nmap. If using the router, it depends on which manufactor and I'll defer those details to a quick google search. 
      * For nmap, first make sure it is installed:
