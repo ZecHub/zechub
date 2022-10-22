@@ -78,7 +78,8 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
      * IP address so we can use SSH
      * Monitor,mouse and keyboard (optional)
 
-     * Two ways to find your IP address are via your router admin page, or with nmap. If using the router, it depends on which manufactor and I'll defer those details to a quick google search. 
+* Two ways to find your IP address are via your router admin page, or with nmap. If using the router, it depends on which manufactor and I'll defer those details to a quick google search.
+ 
      * For nmap, first make sure it is installed:
 
      `sudo apt-get install nmap`
@@ -97,11 +98,15 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
           
          
 
+### Installing *zcashd*
+
+* Two ways of installing zcashd including downloading a precompiled binary or compiling zcashd from source. I *highly* recommend compiling from source.
+
+     * If downloading a precompiled binary once source would be [adityapk00](https://github.com/adityapk00/zcash/releases) . Note that since we are running a 64 bit OS, we want we want zcash-linux-aarch64-v*.tar.gz. Also note that up-to-date versions of zcashd are rarely precompiled.
+
+     * For compiling yourself it is highly recommended to cross-compile. Cross-compile is to build on one platform a binary that will run on another platform. One reason for this is Raspberry Pi 4's are low-powered and thus not very fast! Leverage your main computer to help with this.
 
 
-1.) https://github.com/adityapk00/zcash/releases
-
-     If running 64 bit OS, we want zcash-linux-aarch64-v4.4.0.tar.gz
 
 2.) We need to transfer zcashd,zcash-cli, and fetch-params.sh to your pi
 
