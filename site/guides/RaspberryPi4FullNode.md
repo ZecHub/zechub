@@ -84,7 +84,7 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 
      `sudo apt-get install nmap`
      
-     * Find the IP address if your current computer and note the first three sections. This is typically 192.168.1.xxx or 192.168.50.xxx
+     * Find the IP address of your current computer and note the first three sections. This is typically 192.168.1.xxx or 192.168.50.xxx
      * Plug these details into nmap as follows:
           
           * `sudo nmap -sn 192.168.50.0/24` or `sudo nmap -sn 192.168.1.0/24`
