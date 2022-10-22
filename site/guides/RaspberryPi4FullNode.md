@@ -22,6 +22,20 @@
 
 
 
+### Step 1: Prepare the SD Card
+
+In this step you will create a *bootable* SD card that will allow your Raspberry Pi 4 to boot.
+
+* Insert the microSD card into your computer. You may need to use the adapter that comes with the Canakit or any other equivalent adaptor.
+* Install Raspberry Pi Imager for your operating system. Select the OS you currently have access to.
+     
+     * [Ubuntu] (https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb)
+     * [Windows] (https://downloads.raspberrypi.org/imager/imager_latest.exe)
+     * [macOS] (https://downloads.raspberrypi.org/imager/imager_latest.dmg)
+
+For example in linux you would type:
+
+`sudo dpkg -i imager_latest_amd64.deb`
 
 
 1.) https://github.com/adityapk00/zcash/releases
