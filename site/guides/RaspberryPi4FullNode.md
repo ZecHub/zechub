@@ -27,7 +27,6 @@ The purpose of this guide is to help educate Zcashers who are interested in runn
 ## Contents:
 * Prepare the SD Card
 * Boot Ubuntu Server
-* Setup internet connectivity on the Raspberry Pi 4
 * Connect remotely to your Raspberry Pi 4
 * Install *zcashd*
 * Using *zcashd*
@@ -78,7 +77,8 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 * Install the SD card you just formatted into the Raspberry Pi 4 and also plug in the External SSD/HHD into the USB3 port. Also plug in the power cord and turn it on.
 
 
-* Connect remotely to your Raspberry Pi
+### Connect remotely to your Raspberry Pi 4
+
      * Two ways to find your IP address are via your router admin page, or with nmap. If using the router, it depends on which manufactor and I'll defer those details to a quick google search. 
      * For nmap, first make sure it is installed:
 
@@ -89,10 +89,12 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
           
           * `sudo nmap -sn 192.168.50.0/24` or `sudo nmap -sn 192.168.1.0/24`
           * This will display all devices connected to your home network, which should reveal your Raspberry Pi 4's IP address / MAC address
-          * 
+          
 * Using your username, pw, and IP address we can now login using SSH
 
      * `ssh <username>@<ip address of your pi>` note: you must plugin *your* username and *your* IP address, and *your* pw when promted
+
+     * For example: `ssh ubuntu@192.168.1.25` where the username is *ubuntu* and IP address is 192.168.1.25.
           
          
 
