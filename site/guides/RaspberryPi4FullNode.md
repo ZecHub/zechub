@@ -209,9 +209,9 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 
      * `nano zcash.conf`
 
-          `addnode=mainnet.z.cash
-           datadir=~/media/portableHD/.zcash
-           server=1`
+          `addnode=mainnet.z.cash`
+          `datadir=~/media/portableHD/.zcash`
+           
           
           
      * notice how we moved the datadir to the External SSD/HDD which has much more space availible.
