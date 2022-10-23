@@ -50,6 +50,7 @@ For example in linux you would type the following after downloading:
 * Open Raspberry Pi Imager
 
 `rpi-imager`
+![rpi-imager](https://user-images.githubusercontent.com/81990132/197372069-fb9f7417-d320-42cf-ad65-38d630512985.png)
 
 * Choose OS and Storage Device. Since Raspberry Pi 4's are 64 bit, I recommend choosing "Other general-purpose OS" => Ubuntu => Ubuntu Server 22.10 (64 bit). Click on Storage and select your SD Card
 
