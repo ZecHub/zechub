@@ -1,3 +1,4 @@
+![raspi](https://user-images.githubusercontent.com/81990132/197372285-1f413bc5-13a0-4671-9c81-760eafdda926.png)
 # Raspberry Pi 4: a *zcashd* Full node guide ![zcashd](https://user-images.githubusercontent.com/81990132/197372224-9016d121-7bee-4e40-8f13-0ac8039486d1.png)
 
 
