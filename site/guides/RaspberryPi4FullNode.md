@@ -30,7 +30,7 @@ The purpose of this guide is to help educate Zcashers who are interested in runn
 
 ## Contents:
 * [Prepare the SD Card](https://github.com/dismad/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#prepare-the-sd-card)
-* Boot Ubuntu Server
+* [Boot Ubuntu Server](https://github.com/dismad/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#boot-ubuntu-server)
 * Connect remotely to your Raspberry Pi 4
 * Install *zcashd*
 * Setup *zcashd*
