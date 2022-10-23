@@ -138,7 +138,7 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 
 ### Setup *zcashd*
 
-* If you cross-compiled binaries on your main computer we now need to transfer them to your Raspberry Pi 4. As of Zcashd v5.3 the needed files include:
+*  We now need to transfer all the zcashd binary files to your Raspberry Pi 4. As of Zcashd v5.3 the needed files include:
      
      `zcashd`
      `zcash-cli`
@@ -148,7 +148,7 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
      `zcashd-wallet-tool`
      `fetch-params.sh`
 
-* These files are found in the /src directory of your latest release download location. 
+* These files are found in the /src directory of your latest release download location if you compiled them yourself. Otherwise, the precompiled files are where you downloaded them. 
          
 * Two ways of achieving the tranfers are either using SFTP, or by using your External drive.
 
