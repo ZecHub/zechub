@@ -181,8 +181,8 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
      
     * Simply run:
 
-     `tar -zcvf blocks.tar.gz`
-     `tar -zcvf chainstate.tar.gz` 
+     `tar -zcvf blocks.tar.gz /blocks`
+     `tar -zcvf chainstate.tar.gz /chainstate` 
      
     * Copy the blocks and chainstate .gz files into your External SSH/HHD.   
 
