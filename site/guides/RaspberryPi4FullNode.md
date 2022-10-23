@@ -112,7 +112,7 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 
           * `sudo apt-get install gcc-aarch64-linux-gnu`
 
-     * Next we need to run the command to cross-compile:
+     * Next we run:
 
           `HOST=aarch64-linux-gnu ./zcutil/build.sh`
 
