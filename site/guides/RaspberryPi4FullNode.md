@@ -121,9 +121,9 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 
      If you cross-compiled your binaries on your main computer we now need to transfer them to your Raspberry Pi 4. The needed files include:
      
-     `zcashd`
-     `zcash-cli`
-     `fetch-params.sh`
+     `zcashd
+      zcash-cli
+      fetch-params.sh`
      
          
      * Using SFTP
