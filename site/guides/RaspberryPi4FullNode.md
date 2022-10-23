@@ -111,7 +111,10 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
      * `ssh <username>@<ip address of your pi>` note: you must plugin *your* username and *your* IP address, and *your* pw when prompted
 
      * For example: `ssh ubuntu@192.168.1.25` where the username is *ubuntu* and IP address is 192.168.1.25.
-          
+
+
+   ![sshLogin](https://user-images.githubusercontent.com/81990132/197372846-e1279388-eaaa-4fbb-8d5d-f9928cb45195.png)
+       
          
 
 ### Installing *zcashd*
