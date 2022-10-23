@@ -56,13 +56,22 @@ For example in linux you would type the following after downloading:
 
 * Choose OS and Storage Device. Since Raspberry Pi 4's are 64 bit, I recommend choosing "Other general-purpose OS" => Ubuntu => Ubuntu Server 22.10 (64 bit). Click on Storage and select your SD Card
 
-* Before writing to SD card, click on Advanced options by clicking on the white gear icon near the bottom right corner. Here you can update:
+* Before writing to SD card, click on Advanced options by clicking on the white gear icon near the bottom right corner.
+
+
+![gear](https://user-images.githubusercontent.com/81990132/197372159-1169c6f4-f6aa-4f44-9679-fe7aa542bbd3.png)
+
+
+* Here you can update:
 
      * Hostname of your Raspberry Pi 4
      * Enable SSH
      * Create a username and pw
      * Enable and configure your wi-fi if needed
-     
+ 
+ ![advanced](https://user-images.githubusercontent.com/81990132/197372149-8b85bfac-e473-4808-87cd-f27f15d05de8.png)
+
+ 
 * Once complete hit Write
 
 
