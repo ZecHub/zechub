@@ -155,12 +155,20 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
      *SFTP*
 
     `sftp username@<ip of RaspberryPi4>`
+    
+    
     `put zcashd`
+    
     `put zcash-cli`
+    
     `put zcash-tx`
+    
     `put zcash-gtest`
+    
     `put zcash-inspect`
+    
     `put zcashd-wallet-tool`
+    
     `put fetch-params.sh`
    
      *OR*
