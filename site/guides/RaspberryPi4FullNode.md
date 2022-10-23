@@ -207,7 +207,8 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 
 * Setup zcash.conf:
 
-         ![zconf](https://user-images.githubusercontent.com/81990132/197373543-6cc16138-5047-472a-960f-96442e76d7dc.png)
+        ![zconf](https://user-images.githubusercontent.com/81990132/197373590-f320318f-d9cc-4ea2-b187-9cd185f44b74.png)
+
  
           
      * notice how we moved the datadir to the External SSD/HDD which has much more space availible.
