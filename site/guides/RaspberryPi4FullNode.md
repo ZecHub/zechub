@@ -161,8 +161,11 @@ Simply run:
 * Since the default .zcash folder location has been moved, we need to work around this using symbolic links:
   
    `cp -rp ~/.zcash/* /new_dir `            // Make copy of datadir or supply with an external HD
+   
    `rm -rf ~/.zcash`                        // Remove default folder
+   
    `ln -s /media/portableHD/ ~/.zcash`     // Symbolic link new data location to the default so zcashd is happy
+   
 
 6.) Run fetch-params.sh script to download needed data for zcashd
    
