@@ -235,9 +235,12 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
      `alias zcash-cli="./zcash-cli -datadir=/media/portableHD/.zcash/"`
 
 
-* Ready to use! try:
+* Ready to use!
 
-      `zcash-cli getblockchaininfo`
+    `zcash-cli getblockchaininfo`
+    
+    ![getBlockchaininfo](https://user-images.githubusercontent.com/81990132/197373098-672aa228-d180-47ea-8a7c-c58dc3882426.png)
+
 
 ### Using *zcashd*
 
