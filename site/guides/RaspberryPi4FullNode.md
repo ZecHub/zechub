@@ -205,9 +205,7 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
           `sudo chmod -R 700 portableHD/`
 
 
-* Setup zcash.conf using nano:
-
-     * `nano zcash.conf`
+* Setup zcash.conf:
 
          ![zconf](https://user-images.githubusercontent.com/81990132/197373543-6cc16138-5047-472a-960f-96442e76d7dc.png)
  
