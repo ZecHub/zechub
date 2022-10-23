@@ -108,7 +108,13 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 
      * To cross compile we need to make sure we have the needed packages. Install the following:
 
+          * `sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python3 python3-zmq zlib1g-dev curl bsdmainutils automake libtinfo5`
+
           * `sudo apt-get install gcc-aarch64-linux-gnu`
+
+     * Next we need to run the command to cross-compile:
+
+          `HOST=aarch64-linux-gnu ./zcutil/build.sh`
 
 
 
