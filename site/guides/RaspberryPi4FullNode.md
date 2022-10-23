@@ -205,13 +205,11 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
           `sudo chmod -R 700 portableHD/`
 
 
-* Setup zcash.conf:
+* Setup zcash.conf
 
-        ![zconf](https://user-images.githubusercontent.com/81990132/197373590-f320318f-d9cc-4ea2-b187-9cd185f44b74.png)
 
  
-          
-     * notice how we moved the datadir to the External SSD/HDD which has much more space availible.
+* notice how we moved the datadir to the External SSD/HDD which has much more space availible.
      
 
 * Since the default .zcash folder location has been moved, we need to tell *zcashd* this by using symbolic links:
