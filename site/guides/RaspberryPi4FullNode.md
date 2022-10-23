@@ -203,6 +203,11 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 
           `sudo chown -R <username>: portableHD`
           `sudo chmod -R 700 portableHD/`
+     
+     * If you copied the blocks and chainstate .gz files from your other computer untar these now.
+
+          `tar - xvzf blocks.tar.gz`
+          `tar - xvzf chainstate.tar.gz`
 
 
 * Setup /media/portableHD/.zcash/zcash.conf
