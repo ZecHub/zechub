@@ -105,7 +105,7 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 
      * If downloading a precompiled binary one source is [adityapk00](https://github.com/adityapk00/zcash/releases) . Note that since we are running a 64 bit OS, we want zcash-linux-aarch64-v*.tar.gz. Also note that up-to-date versions of zcashd are rarely precompiled.
 
-     * For compiling yourself it is highly recommended to cross-compile. Cross-compile is to build on one platform a binary that will run on another platform. One reason for this is Raspberry Pi 4's are low-powered and thus not very fast! Leverage your main computer to help with this.
+     * For compiling yourself it is highly recommended to cross-compile. Cross-compile is to build on one platform a binary that will run on another platform. One reason for this is Raspberry Pi 4's are low-powered and thus not very fast! Leverage your main computer to help with this. You can grab the latest release [here](https://github.com/zcash/zcash/releases)
 
      * To cross compile we need to make sure we have the needed packages. Install the following:
 
@@ -113,7 +113,7 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 
           * `sudo apt-get install gcc-aarch64-linux-gnu`
 
-     * Next we run:
+     * Next change directory into the freshly downloaded zcashd release and run:
 
           `HOST=aarch64-linux-gnu ./zcutil/build.sh`
 
@@ -128,9 +128,12 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
      `zcash-inspect`
      `zcashd-wallet-tool`
      `fetch-params.sh`
-     
+
+* These files are found in the /src directory of your latest release download location. 
          
- * Using SFTP
+* Two ways of achieving the tranfers are either using SFTP, or by using your External drive.
+
+     *SFTP*
 
     `sftp username@<ip of RaspberryPi4>`
     `put zcashd`
@@ -140,23 +143,42 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
     `put zcash-inspect`
     `put zcashd-wallet-tool`
     `put fetch-params.sh`
-
-* If you already have a full node synced on your main computer and want to save time, copy the blocks and chainstate folders into your External SSH/HHD. This is found in:
-
-     ` cd ~/.zcash/`
+   
+     *OR*
      
-Simply run:
+     Simply copy the files onto the External before you plug it into the Raspberry Pi 4.
+     
+* If you already have a fullnode synced and want to save time, you can also copy the blocks and chainstate data.
+   
+    ` cd ~/.zcash/`
+     
+    * Simply run:
 
-`tar -zcvf blocks.tar.gz`
-`tar -zcvf chainstate.tar.gz`
+     `tar -zcvf blocks.tar.gz`
+     `tar -zcvf chainstate.tar.gz` 
+     
+    * Copy the blocks and chainstate folders into your External SSH/HHD.   
+
+
+     
+ * Using External SSH/HHD on your Raspberry Pi 4
+
+     * Mount the External SSD/HDD in the Media folder so you can see it:
+     
+          `lsblk` will display all drives connected. Most will be of the format sda
+          
+          `sudo mount /dev/sda1 /media/portableHD/`  
+
 
 * Setup zcash.conf using nano:
 
      * `nano zcash.conf`
 
-    `addnode=mainnet.z.cash
-    datadir=~/media/portableHD/.zcash
-    server=1`
+          `addnode=mainnet.z.cash`
+          `datadir=~/media/portableHD/.zcash`
+          `server=1`
+     * notice how we moved the datadir to the External SSD/HDD which has much more space availible.
+     
 
 * Since the default .zcash folder location has been moved, we need to work around this using symbolic links:
   
@@ -167,31 +189,28 @@ Simply run:
    `ln -s /media/portableHD/ ~/.zcash`     // Symbolic link new data location to the default so zcashd is happy
    
 
-6.) Run fetch-params.sh script to download needed data for zcashd
+* Run fetch-params.sh script to download needed data for zcashd
    
-    ./fetch-params.sh
+    `./fetch-params.sh`
 
 
-7.) Start a new 'screen' [ program in linux ]. Open zcashd with -datadir set:
-   
-    
-     ./zcashd -datadir=/media/portableHD/.zcash/
+* Start a new 'screen' [ program in linux ]. Open zcashd with -datadir set:
+
+     * screen -S zcashScreen
+     
+     *  `./zcashd -datadir=/media/portableHD/.zcash/`
+     
+     * Detach the screen. `Ctrl+a , Ctrl+d`
 
 
+* Create an alias so you dont have to type out all these extra data location commands
+
+     `alias zcash-cli="./zcash-cli -datadir=/media/portableHD/.zcash/"`
 
 
-8.) Detach the screen. Ctrl+a , Ctrl+d
+* Ready to use! try:
 
-
-9.) Create an alias so you dont have to type out all these extra data location commands
-
-
-
-
-      alias zcash-cli="./zcash-cli -datadir=/media/portableHD/.zcash/"
-
-
-10.) Ready to use! try zcash-cli getblockchaininfo
+      `zcash-cli getblockchaininfo`
 
 
 
