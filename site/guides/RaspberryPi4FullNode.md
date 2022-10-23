@@ -175,7 +175,7 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
      
      Simply copy the files onto the External before you plug it into the Raspberry Pi 4.
      
-* If you already have a fullnode synced and want to save time, you can also copy the blocks and chainstate data.
+* If you already have a full node synced and want to save time, you can also copy the blocks and chainstate data.
    
     ` cd ~/.zcash/`
      
