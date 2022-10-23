@@ -121,17 +121,17 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 
      If you cross-compiled your binaries on your main computer we now need to transfer them to your Raspberry Pi 4. The needed files include:
      
-     `zcashd
-      zcash-cli
-      fetch-params.sh`
+     `zcashd`
+     `zcash-cli`
+     `fetch-params.sh`
      
          
      * Using SFTP
 
-    `sftp username@<ip of pi> 
-     put zcashd
-     put zcash-cli
-     put fetch-params.sh`
+    `sftp username@<ip of your Raspberry Pi 4>`
+    `put zcashd`
+    `put zcash-cli`
+    `put fetch-params.sh``
 
 3.) If you already have a fullnode synced and want to save time, copy the blocks and chainstate data. This is found in ~/.zcash/
 
