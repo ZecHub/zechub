@@ -157,7 +157,7 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
      `tar -zcvf blocks.tar.gz`
      `tar -zcvf chainstate.tar.gz` 
      
-    * Copy the blocks and chainstate folders into your External SSH/HHD.   
+    * Copy the blocks and chainstate .gz files into your External SSH/HHD.   
 
 
      
@@ -167,7 +167,12 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
      
           `lsblk` will display all drives connected. Most will be of the format sda
           
-          `sudo mount /dev/sda1 /media/portableHD/`  
+          `sudo mount /dev/sda1 /media/portableHD/`
+          
+     * Keep an eye on both who owns the folders/files and also the permissions
+
+          `sudo chown -R <username>: portableHD`
+          `sudo chmod -R 700 portableHD/`
 
 
 * Setup zcash.conf using nano:
@@ -177,10 +182,11 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
           `addnode=mainnet.z.cash`
           `datadir=~/media/portableHD/.zcash`
           `server=1`
+          
      * notice how we moved the datadir to the External SSD/HDD which has much more space availible.
      
 
-* Since the default .zcash folder location has been moved, we need to work around this using symbolic links:
+* Since the default .zcash folder location has been moved, we need to tell *zcashd* this by using symbolic links:
   
    `cp -rp ~/.zcash/* /new_dir `            // Make copy of datadir or supply with an external HD
    
@@ -212,6 +218,7 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 
       `zcash-cli getblockchaininfo`
 
+### Using *zcashd*
 
 
 
