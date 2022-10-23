@@ -11,6 +11,7 @@ The purpose of this guide is to help educate Zcashers who are interested in runn
 * How to setup internet connectivity on the Raspberry Pi 4
 * How to access your Raspberry Pi 4 remotely
 * How to install *zcashd*
+* How to setup *zcashd*
 * How to use *zcashd*
 
 
