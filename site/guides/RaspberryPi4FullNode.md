@@ -29,6 +29,7 @@ The purpose of this guide is to help educate Zcashers who are interested in runn
 * Boot Ubuntu Server
 * Connect remotely to your Raspberry Pi 4
 * Install *zcashd*
+* Setup *zcashd*
 * Using *zcashd*
 
 ### Prepare the SD Card
@@ -116,15 +117,21 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 
           `HOST=aarch64-linux-gnu ./zcutil/build.sh`
 
+### Setup *zcashd*
 
+     If you cross-compiled your binaries on your main computer we now need to transfer them to your Raspberry Pi 4. The needed files include:
+     
+     `zcashd`
+     `zcash-cli`
+     `fetch-params.sh`
+     
+         
+     * Using SFTP
 
-2.) We need to transfer zcashd,zcash-cli, and fetch-params.sh to your pi
-
-    sftp username@<ip of pi> 
-    
-    put zcashd
-    put zcash-cli
-    put fetch-params.sh
+    `sftp username@<ip of pi> 
+     put zcashd
+     put zcash-cli
+     put fetch-params.sh`
 
 3.) If you already have a fullnode synced and want to save time, copy the blocks and chainstate data. This is found in ~/.zcash/
 
