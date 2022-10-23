@@ -196,9 +196,9 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 
 * Start a new 'screen' [ program in linux ]. Open zcashd with -datadir set:
 
-     * screen -S zcashScreen
+     * `screen -S zcashScreen`
      
-     *  `./zcashd -datadir=/media/portableHD/.zcash/`
+     * `./zcashd -datadir=/media/portableHD/.zcash/`
      
      * Detach the screen. `Ctrl+a , Ctrl+d`
 
