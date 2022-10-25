@@ -122,7 +122,7 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 
 ### Installing *zcashd*
 
-* Two ways of installing zcashd including downloading a precompiled binary or compiling zcashd from source. I *highly* recommend compiling from source.
+* Two ways of installing zcashd include downloading a precompiled binary or compiling zcashd from source. I *highly* recommend compiling from source.
 
      * If downloading a precompiled binary one source is [adityapk00](https://github.com/adityapk00/zcash/releases) . Note that since we are running a 64 bit OS, we want zcash-linux-aarch64-v*.tar.gz. Also note that up-to-date versions of zcashd are rarely precompiled.
 
