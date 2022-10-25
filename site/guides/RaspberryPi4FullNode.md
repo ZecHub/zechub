@@ -267,6 +267,9 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 
 ### Using *zcashd*
 
+* How do you check the status of your node?
+
+     `tail -n 500 <path to>/.zcash/debug.log`
 
 
 ### Sources
