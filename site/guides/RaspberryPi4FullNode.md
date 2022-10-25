@@ -9,6 +9,7 @@ The purpose of this guide is to help educate Zcashers who are interested in runn
 If you find this guide useful, consider donating some Zcash to support ZecHub:
 
 `zs1t2fz22l7sw09ctwu7knymna60aa84fxap86rny6ul4nx007nh3pp5d4u7y4ucyvxwpgzyjz7vgx`
+![zecHubQR](https://user-images.githubusercontent.com/81990132/197678815-f9092760-c43e-49fe-b15d-c145646bf783.png)
 
 
 ## What you’ll learn
