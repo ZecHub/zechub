@@ -272,6 +272,8 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 ### Sources
 
 * https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview
+* https://github.com/zcash/zcash
+* https://zcash.readthedocs.io/en/latest/rtd_pages/Debian-Ubuntu-build.html
 * https://en.wikipedia.org/wiki/Secure_Shell
 * https://itsfoss.com/how-to-find-what-devices-are-connected-to-network-in-ubuntu/
 * https://youtu.be/YS5Zh7KExvE
