@@ -270,6 +270,9 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 * How do you check the status of your node?
 
      `tail -n 500 <path to>/.zcash/debug.log`
+     
+     ![status](https://user-images.githubusercontent.com/81990132/197684416-9a083de4-4a62-4fe8-9cab-798781b38cd2.png)
+
 
 
 ### Sources
