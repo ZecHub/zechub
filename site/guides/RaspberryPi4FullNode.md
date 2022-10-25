@@ -269,3 +269,5 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 
 
 ### Sources
+
+* https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview
