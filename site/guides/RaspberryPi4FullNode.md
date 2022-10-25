@@ -188,16 +188,17 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 
 
      
- * Using External SSH/HHD on your Raspberry Pi 4
+ * Using External SSD/HHD on your Raspberry Pi 4
 
      * Mount the External SSD/HDD in the Media folder so you can see it:
      
           `lsblk` will display all drives connected. Most will be of the format sda
+          `id` will show your user and group id's.
           
           ![lsblk](https://user-images.githubusercontent.com/81990132/197372643-abef88fd-9177-4bf9-abda-3c221188cd10.png)
 
           
-          `sudo mount /dev/sda1 /media/portableHD/`
+          `sudo mount -o umask=0077,gid=<groupid>,uid=<userid> /dev/sda1 /media/portableHD/`
           
      * Keep an eye on both who owns the folders/files and also the permissions
 
