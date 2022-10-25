@@ -227,7 +227,7 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 ![zconf](https://user-images.githubusercontent.com/81990132/197373699-18cc2c9f-b47d-44e9-9e6b-4c5cccf78d9e.png)
 
  
-* notice how we moved the datadir to the External SSD/HDD which has much more space availible.
+* notice how we moved the datadir to the External SSD/HDD which has much more space available.
      
 
 * Since the default .zcash folder location has been moved, we need to tell *zcashd* this by using symbolic links:
