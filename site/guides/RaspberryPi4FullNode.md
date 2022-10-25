@@ -93,7 +93,9 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 
      * Username and pw (from previous step)
      * IP address so we can use SSH
-     * Monitor,mouse and keyboard (optional)
+     * Monitor,and keyboard (optional)
+
+* If you have a monitor and keyboard connected directly to your pi, the rest of this section can be skipped.
 
 * Two ways to find your IP address are via your router admin page, or with nmap. If using the router, it depends on which manufactor and I'll defer those details to a quick google search.
  
