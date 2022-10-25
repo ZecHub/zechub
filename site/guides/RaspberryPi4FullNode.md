@@ -94,13 +94,6 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 
 * Install the SD card you just formatted into the Raspberry Pi 4 and also plug in the External SSD/HHD into the USB3 port. Also plug in the power cord and turn it on.
 
-* If your curious which version Raspberry Pi you are using, try this command:
-
-     `cat /sys/firmware/devicetree/base/model ; echo`
-     
-     ![which](https://user-images.githubusercontent.com/81990132/197689888-367c8eb3-2667-4c8c-85b3-44d46afe07a7.png)
-
-
 
 ### Connect remotely to your Raspberry Pi 4
 
@@ -133,6 +126,12 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
 
    ![sshLogin](https://user-images.githubusercontent.com/81990132/197372846-e1279388-eaaa-4fbb-8d5d-f9928cb45195.png)
        
+
+* If your curious which version Raspberry Pi you are using, try this command:
+
+     `cat /sys/firmware/devicetree/base/model ; echo`
+     
+     ![which](https://user-images.githubusercontent.com/81990132/197689888-367c8eb3-2667-4c8c-85b3-44d46afe07a7.png)
          
 
 ### Installing *zcashd*
