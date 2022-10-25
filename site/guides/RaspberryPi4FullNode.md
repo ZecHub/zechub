@@ -272,8 +272,16 @@ If you have an extra monitor, mouse and keyboard plug those in now. Note: these 
      `tail -n 500 <path to>/.zcash/debug.log`
      
      ![status](https://user-images.githubusercontent.com/81990132/197684416-9a083de4-4a62-4fe8-9cab-798781b38cd2.png)
+     
+     `zcash-cli getinfo`
 
+* How do you resume your zcashScreen after you detached it?
 
+     `screen -r zcashScreen`
+     
+* How do you stop *zcashd* ?
+
+     `zcash-cli stop`
 
 ### Sources
 
