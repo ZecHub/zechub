@@ -304,6 +304,10 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
      *  Make them executable 
 
           `chmod +x ascii2hex hex2ascii`
+          
+        ![goodd](https://user-images.githubusercontent.com/81990132/199645437-3adaf25d-6c2a-4f63-b33f-24202907a93e.png)
+  
+      
 
 * How do you resume your zcashScreen after you detached it?
 
