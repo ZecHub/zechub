@@ -300,7 +300,7 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
           import sys 
           import codecs
           for x in sys.argv[1:]:
-          print(codecs.encode(bytes(x, 'ascii'), 'hex').decode())```
+          print(codecs.encode(bytes(x, 'ascii'), 'hex').decode())
           
           hex2ascii
           
