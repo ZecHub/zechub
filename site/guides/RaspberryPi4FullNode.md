@@ -294,21 +294,12 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
 
      * As seen [here](https://zcash.readthedocs.io/en/latest/rtd_pages/memos.html), download 
 
-         ascii2hex
+         `ascii2hex`
          
-          >#!/usr/bin/env python3
-          >import sys 
-          >import codecs
-          >for x in sys.argv[1:]:
-          >print(codecs.encode(bytes(x, 'ascii'), 'hex').decode())
+          and
           
-         hex2ascii
-          
-          >#!/usr/bin/env python3
-          >import sys 
-          >import codecs
-          >for x in sys.argv[1:]:
-          >print(codecs.decode(x, 'hex').decode())
+         `hex2ascii`
+         
           
      *  Make them executable 
 
