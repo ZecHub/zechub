@@ -307,7 +307,7 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
           
         ![goodd](https://user-images.githubusercontent.com/81990132/199645437-3adaf25d-6c2a-4f63-b33f-24202907a93e.png)
   
-     * Create a z2z transaction
+     * Create a z2z transaction using the hex version of your memo from above
 
           `zcash-cli z_sendmany "ztestsapling1kg3u0y7szv6509732at34alct46cyn0g26kppgf2a7h5tpqxldtwm7cmhf8rqmhgt" "[{\"address\": \"ztestsapling2kg3u0y7szv6509732at34alct46cyn0g26kppgf2a7h5tpqxldtwm7cmhf8rqmhgtmpakcz5mdv\",\"amount\": 0.0001, \"memo\":\"5A656348756221\"}]"`
 
