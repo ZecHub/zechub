@@ -296,19 +296,19 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
 
          ascii2hex
          
-         ```#!/usr/bin/env python3
-          import sys 
-          import codecs
-          for x in sys.argv[1:]:
-          print(codecs.encode(bytes(x, 'ascii'), 'hex').decode())```
+          >#!/usr/bin/env python3
+          >import sys 
+          >import codecs
+          >for x in sys.argv[1:]:
+          >print(codecs.encode(bytes(x, 'ascii'), 'hex').decode())
           
          hex2ascii
           
-          ```#!/usr/bin/env python3
-          import sys 
-          import codecs
-          for x in sys.argv[1:]:
-          print(codecs.decode(x, 'hex').decode())```
+          >#!/usr/bin/env python3
+          >import sys 
+          >import codecs
+          >for x in sys.argv[1:]:
+          >print(codecs.decode(x, 'hex').decode())
           
      *  Make them executable 
 
