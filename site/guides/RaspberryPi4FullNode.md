@@ -310,7 +310,8 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
           
      * Create a memo and convert it to hex. You can convert back to ascii to test.
           
-        ![goodd](https://user-images.githubusercontent.com/81990132/199645437-3adaf25d-6c2a-4f63-b33f-24202907a93e.png)
+        ![asciiGOOD](https://user-images.githubusercontent.com/81990132/199646812-782142d6-8846-443a-8dd9-4f332e49d3e9.png)
+
   
      * Create a z2z transaction using the hex version of your memo from above
 
