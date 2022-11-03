@@ -282,7 +282,7 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
      
 * To get current height from your log
 
-     `tail -n 10 <path to>/.zcash/debug.log | grep -o  'height=[^b]*'
+     `tail -n 10 <path to>/.zcash/debug.log | grep -o  'height=[^b]*'`
      
      ![logHeight](https://user-images.githubusercontent.com/81990132/199630447-6a6cd491-0cb3-47f8-95f0-45f6b6555870.png)
 
