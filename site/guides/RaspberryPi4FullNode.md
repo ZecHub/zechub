@@ -305,6 +305,8 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
 
           `chmod +x ascii2hex hex2ascii`
           
+     * Create a memo and convert it to hex. You can convert back to ascii to test.
+          
         ![goodd](https://user-images.githubusercontent.com/81990132/199645437-3adaf25d-6c2a-4f63-b33f-24202907a93e.png)
   
      * Create a z2z transaction using the hex version of your memo from above
