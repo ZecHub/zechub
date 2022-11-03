@@ -289,6 +289,9 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
      
      `zcash-cli getinfo`
      
+     ![getinfo](https://user-images.githubusercontent.com/81990132/199646508-132da0eb-899e-49a6-8b31-e9011e159700.png)
+
+     
      
 * How do you send a memo?
 
