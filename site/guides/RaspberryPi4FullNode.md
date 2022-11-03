@@ -288,6 +288,31 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
 
      
      `zcash-cli getinfo`
+     
+     
+* How do you send a memo?
+
+     * As seen [here](https://zcash.readthedocs.io/en/latest/rtd_pages/memos.html), download 
+
+         ascii2hex
+         
+         `#!/usr/bin/env python3
+          import sys 
+          import codecs
+          for x in sys.argv[1:]:
+          print(codecs.encode(bytes(x, 'ascii'), 'hex').decode())`
+          
+          hex2ascii
+          
+          `#!/usr/bin/env python3
+          import sys 
+          import codecs
+          for x in sys.argv[1:]:
+          print(codecs.decode(x, 'hex').decode())`
+          
+     *  Make them executable 
+
+          `chmod +x ascii2hex hex2ascii`
 
 * How do you resume your zcashScreen after you detached it?
 
@@ -302,6 +327,7 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
 * https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview
 * https://github.com/zcash/zcash
 * https://zcash.readthedocs.io/en/latest/rtd_pages/Debian-Ubuntu-build.html
+* https://zcash.readthedocs.io/en/latest/rtd_pages/memos.html
 * https://en.wikipedia.org/wiki/Secure_Shell
 * https://itsfoss.com/how-to-find-what-devices-are-connected-to-network-in-ubuntu/
 * https://youtu.be/YS5Zh7KExvE
