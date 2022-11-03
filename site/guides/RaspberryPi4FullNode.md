@@ -280,6 +280,13 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
      
      ![status](https://user-images.githubusercontent.com/81990132/197684416-9a083de4-4a62-4fe8-9cab-798781b38cd2.png)
      
+* To get current height from your log
+
+     `tail -n 10 <path to>/.zcash/debug.log | grep -o  'height=[^b]*'
+     
+     ![logHeight](https://user-images.githubusercontent.com/81990132/199630447-6a6cd491-0cb3-47f8-95f0-45f6b6555870.png)
+
+     
      `zcash-cli getinfo`
 
 * How do you resume your zcashScreen after you detached it?
