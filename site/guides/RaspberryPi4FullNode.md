@@ -331,7 +331,12 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
      
     ![newAccount](https://user-images.githubusercontent.com/81990132/202352436-04c17be2-e914-4b9b-95d1-00cf6fc496d3.png)
     
-   * Now build a UA according *your needs*. This includes Orchard only, Orchard + Sapling, and finally Orchard + Sapling + Transparent. 
+   * Now build a UA reciever according *your needs*. This includes Orchard only, Orchard + Sapling, and finally Orchard + Sapling + Transparent.
+   
+   * Note you can tell the difference between receivers by how long they are
+
+     ![chars](https://user-images.githubusercontent.com/81990132/202354319-2da6be33-ca95-4b6b-b29c-14805dcb9c21.png)
+
 
      `zcash-cli z_getaddressforaccount 0 '["orchard"]'`
      
