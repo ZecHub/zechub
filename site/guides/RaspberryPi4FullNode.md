@@ -324,6 +324,31 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
 * How do you stop *zcashd* ?
 
      `zcash-cli stop`
+     
+* How do you create a UA?
+
+     `zcash-cli z_getnewaccount`
+     
+    ![newAccount](https://user-images.githubusercontent.com/81990132/202352436-04c17be2-e914-4b9b-95d1-00cf6fc496d3.png)
+    
+   * Now build a UA according *your needs*. This includes Orchard only, Orchard + Sapling, and finally Orchard + Sapling + Transparent. 
+
+     `zcash-cli z_getaddressforaccount 0 '["orchard"]'`
+     
+     ![uaOrchard](https://user-images.githubusercontent.com/81990132/202353642-c36b5fea-de8a-41f6-a27c-d9ff42a0c8d3.png)
+     
+     `zcash-cli z_getaddressforaccount 0 '["orchard","sapling"]'`
+     
+     ![uaOrchardSapling](https://user-images.githubusercontent.com/81990132/202353732-740828e3-77b8-4684-8cf8-fb14256b1e61.png)
+     
+     `zcash-cli z_getaddressforaccount 0 '["orchard","sapling","p2pkh"]'`
+     
+     ![uaFull](https://user-images.githubusercontent.com/81990132/202353793-3331c593-5286-4b84-93a7-adc4928839fd.png)
+
+     
+
+     
+
 
 ### Sources
 
