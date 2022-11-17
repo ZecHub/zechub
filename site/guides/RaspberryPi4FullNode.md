@@ -331,7 +331,7 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
      
     ![newAccount](https://user-images.githubusercontent.com/81990132/202352436-04c17be2-e914-4b9b-95d1-00cf6fc496d3.png)
     
-   * Now build a UA reciever according *your needs*. This includes Orchard only, Orchard + Sapling, and finally Orchard + Sapling + Transparent.
+   * Now build a UA reciever according to *your needs*. This includes Orchard only, Orchard + Sapling, and finally Orchard + Sapling + Transparent.
    
    * Note you can tell the difference between receivers by how long they are
 
