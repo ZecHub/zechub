@@ -341,14 +341,17 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
      `zcash-cli z_getaddressforaccount 0 '["orchard"]'`
      
      ![uaOrchard](https://user-images.githubusercontent.com/81990132/202353642-c36b5fea-de8a-41f6-a27c-d9ff42a0c8d3.png)
-     
+     ![OrchQR](https://user-images.githubusercontent.com/81990132/202355586-eaeb36e7-b000-4b99-8192-81e5002e6f11.png)
+
      `zcash-cli z_getaddressforaccount 0 '["orchard","sapling"]'`
      
      ![uaOrchardSapling](https://user-images.githubusercontent.com/81990132/202353732-740828e3-77b8-4684-8cf8-fb14256b1e61.png)
-     
+     ![OrchSapQR](https://user-images.githubusercontent.com/81990132/202355596-c7b62854-9a9e-4627-ab5d-51091340de71.png)
+
      `zcash-cli z_getaddressforaccount 0 '["orchard","sapling","p2pkh"]'`
      
      ![uaFull](https://user-images.githubusercontent.com/81990132/202353793-3331c593-5286-4b84-93a7-adc4928839fd.png)
+     ![FullQR](https://user-images.githubusercontent.com/81990132/202355607-75de0750-2a57-4e10-883b-e0a626ed892a.png)
 
 
 * How do you send ZEC using a UA?
