@@ -356,7 +356,7 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
 
 * How do you send ZEC using a UA?
 
-     `zcash-cli z_sendmany "<your z or ua address>" '[{"address": "<destination z or ua address>", "amount": <amount>}]' <minconf> <fee> <privacyPolicy>`
+     `zcash-cli z_sendmany "fromOaddress" "[{\"address\": \"dOrchardAddress\",\"amount\": 0.0001, \"memo\":\"yourMemoinHex\"}]" 1 0.00001 FullPrivacy`
      
      
 * Where can I find more info on UA's?
