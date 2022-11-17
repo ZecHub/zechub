@@ -358,7 +358,8 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
 
      `zcash-cli z_sendmany "fromOaddress" "[{\"address\": \"dOrchardAddress\",\"amount\": 0.0001, \"memo\":\"yourMemoinHex\"}]" 1 0.00001 FullPrivacy
      
-     ![UAsuccess](https://user-images.githubusercontent.com/81990132/202365090-e8e4606f-024f-41fe-882d-68adf8de6e9c.png)
+    ![UAsuccess](https://user-images.githubusercontent.com/81990132/202365280-c184f622-eb7e-4095-bc38-90795121c43c.png)
+
 
      
 * Where can I find more info on UA's?
