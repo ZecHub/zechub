@@ -386,3 +386,4 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
 * https://twitter.com/BostonZcash/status/1531798627512877059
 * https://forum.zcashcommunity.com/t/unified-addresses-full-node-rpc-api/41980/2
 * https://medium.com/@hanh425/transaction-privacy-78f80f9f175e
+* https://znewsletter.netlify.app/
