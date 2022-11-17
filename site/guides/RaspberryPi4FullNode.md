@@ -313,7 +313,7 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
         ![asciiGOOD](https://user-images.githubusercontent.com/81990132/199646812-782142d6-8846-443a-8dd9-4f332e49d3e9.png)
 
   
-     * Create a z2z transaction using the hex version of your memo from above
+     * Create a z2z transaction (Sapling) using the hex version of your memo from above
 
           `zcash-cli z_sendmany "ztestsapling1kg3u0y7szv6509732at34alct46cyn0g26kppgf2a7h5tpqxldtwm7cmhf8rqmhgt" "[{\"address\": \"ztestsapling2kg3u0y7szv6509732at34alct46cyn0g26kppgf2a7h5tpqxldtwm7cmhf8rqmhgtmpakcz5mdv\",\"amount\": 0.0001, \"memo\":\"5A656348756221\"}]"`
 
@@ -324,6 +324,55 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
 * How do you stop *zcashd* ?
 
      `zcash-cli stop`
+     
+* How do you create a UA?
+
+     `zcash-cli z_getnewaccount`
+     
+    ![newAccount](https://user-images.githubusercontent.com/81990132/202352436-04c17be2-e914-4b9b-95d1-00cf6fc496d3.png)
+    
+   * Now build a UA reciever according to *your needs*. This includes Orchard only, Orchard + Sapling, and finally Orchard + Sapling + Transparent.
+   
+   * Note you can tell the difference between receivers by how long they are
+
+     ![chars](https://user-images.githubusercontent.com/81990132/202354319-2da6be33-ca95-4b6b-b29c-14805dcb9c21.png)
+
+
+     `zcash-cli z_getaddressforaccount 0 '["orchard"]'`
+     
+     ![uaOrchard](https://user-images.githubusercontent.com/81990132/202353642-c36b5fea-de8a-41f6-a27c-d9ff42a0c8d3.png)
+     ![OrchQR](https://user-images.githubusercontent.com/81990132/202355586-eaeb36e7-b000-4b99-8192-81e5002e6f11.png)
+
+     `zcash-cli z_getaddressforaccount 0 '["orchard","sapling"]'`
+     
+     ![uaOrchardSapling](https://user-images.githubusercontent.com/81990132/202353732-740828e3-77b8-4684-8cf8-fb14256b1e61.png)
+     ![OrchSapQR](https://user-images.githubusercontent.com/81990132/202355596-c7b62854-9a9e-4627-ab5d-51091340de71.png)
+
+     `zcash-cli z_getaddressforaccount 0 '["orchard","sapling","p2pkh"]'`
+     
+     ![uaFull](https://user-images.githubusercontent.com/81990132/202353793-3331c593-5286-4b84-93a7-adc4928839fd.png)
+     ![FullQR](https://user-images.githubusercontent.com/81990132/202355607-75de0750-2a57-4e10-883b-e0a626ed892a.png)
+
+
+* How do you send ZEC using a UA?
+
+     `zcash-cli z_sendmany "fromOaddress" "[{\"address\": \"dOrchardAddress\",\"amount\": 0.0001, \"memo\":\"yourMemoinHex\"}]" <minconf> <fee> <privacyPolicy>`
+     
+    ![UAsuccess](https://user-images.githubusercontent.com/81990132/202365280-c184f622-eb7e-4095-bc38-90795121c43c.png)
+    
+    ![pic](https://user-images.githubusercontent.com/81990132/202366758-40650460-aaeb-4e03-891f-b4bd08e18234.png)
+
+    
+    ##### It should be noted both, *from* AND *destination* addresses can be transparent,sapling, or orchard addresses however you may need to adjust the privacyPolicy flag in order for the transation to be valid. (Some combos wont work if privacyPolicy doesn't make sense!)
+
+
+     
+* Where can I find more info on UA's?
+
+     * Check out [Hanh's](https://medium.com/@hanh425/transaction-privacy-78f80f9f175e) post on transaction privacy. Also [this](https://forum.zcashcommunity.com/t/unified-addresses-full-node-rpc-api/41980/2) post from the zcash forum.
+
+     
+
 
 ### Sources
 
@@ -334,3 +383,7 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
 * https://en.wikipedia.org/wiki/Secure_Shell
 * https://itsfoss.com/how-to-find-what-devices-are-connected-to-network-in-ubuntu/
 * https://youtu.be/YS5Zh7KExvE
+* https://twitter.com/BostonZcash/status/1531798627512877059
+* https://forum.zcashcommunity.com/t/unified-addresses-full-node-rpc-api/41980/2
+* https://medium.com/@hanh425/transaction-privacy-78f80f9f175e
+* https://znewsletter.netlify.app/
