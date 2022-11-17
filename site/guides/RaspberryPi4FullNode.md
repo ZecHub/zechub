@@ -359,7 +359,9 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
      `zcash-cli z_sendmany "<your z or ua address>" '[{"address": "<destination z or ua address>", "amount": <amount>}]' <minconf> <fee> <privacyPolicy>`
      
      
-     
+* Where can I find more info on UA's?
+
+     * Check out [Hanh's](https://medium.com/@hanh425/transaction-privacy-78f80f9f175e) post on transaction privacy. Also [this](https://forum.zcashcommunity.com/t/unified-addresses-full-node-rpc-api/41980/2) post from the zcash forum.
 
      
 
@@ -373,3 +375,6 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
 * https://en.wikipedia.org/wiki/Secure_Shell
 * https://itsfoss.com/how-to-find-what-devices-are-connected-to-network-in-ubuntu/
 * https://youtu.be/YS5Zh7KExvE
+* https://twitter.com/BostonZcash/status/1531798627512877059
+* https://forum.zcashcommunity.com/t/unified-addresses-full-node-rpc-api/41980/2
+* https://medium.com/@hanh425/transaction-privacy-78f80f9f175e
