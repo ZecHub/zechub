@@ -313,7 +313,7 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
         ![asciiGOOD](https://user-images.githubusercontent.com/81990132/199646812-782142d6-8846-443a-8dd9-4f332e49d3e9.png)
 
   
-     * Create a z2z transaction using the hex version of your memo from above
+     * Create a z2z transaction (Sapling) using the hex version of your memo from above
 
           `zcash-cli z_sendmany "ztestsapling1kg3u0y7szv6509732at34alct46cyn0g26kppgf2a7h5tpqxldtwm7cmhf8rqmhgt" "[{\"address\": \"ztestsapling2kg3u0y7szv6509732at34alct46cyn0g26kppgf2a7h5tpqxldtwm7cmhf8rqmhgtmpakcz5mdv\",\"amount\": 0.0001, \"memo\":\"5A656348756221\"}]"`
 
@@ -350,6 +350,12 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
      
      ![uaFull](https://user-images.githubusercontent.com/81990132/202353793-3331c593-5286-4b84-93a7-adc4928839fd.png)
 
+
+* How do you send ZEC using a UA?
+
+     `zcash-cli z_sendmany "<your z or ua address>" '[{"address": "<your destination z or ua address>", "amount": <amount>}]' <minconf> <fee> <privacyPolicy>`
+     
+     
      
 
      
