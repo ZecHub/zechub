@@ -24,6 +24,7 @@ Hello Everyone, A lot has unfolded over the past week - let's jump right into it
 
 [Ian Sagstetter, Josh Swihart & Nate Wilcox workshop at Northeastern University](https://coe.northeastern.edu/event/crypto-event-zcash-researchers-and-development-talk/)
 
+[ECC wants to hear from you! Tuesday Nov 22nd](https://discord.com/events/978714252934258779/1042826422345015426)
 
 
 #### Zcash Community Grants Updates
@@ -45,6 +46,7 @@ Hello Everyone, A lot has unfolded over the past week - let's jump right into it
 [Updated Guide UA's with Raspberry Pi Node](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
 
+
 #### News & Media
 
 [Privacy could be banned under EU plans from leaked report](https://www.coindesk.com/policy/2022/11/15/privacy-enhancing-crypto-coins-could-be-banned-under-leaked-eu-plans/)
@@ -61,6 +63,8 @@ Hello Everyone, A lot has unfolded over the past week - let's jump right into it
 
 [Messari Report on ZKP](https://twitter.com/MessariCrypto/status/1592322099640958976)
 
+[Matt Green on the ZK Podcast - ZK & the compliance debate](https://podcasts.apple.com/ch/podcast/zero-knowledge/id1326503043?i=1000586440038)
+
 
 ## Some Zcash Tweets
 
@@ -73,6 +77,8 @@ Hello Everyone, A lot has unfolded over the past week - let's jump right into it
 [Zcash Foundation and ECC at Zkproof 5th conference](https://twitter.com/zkproof/status/1593251270386589696)
 
 [Trezor Suite + Firmware update now supports UA transactions](https://blog.trezor.io/trezor-suite-and-trezor-model-t-firmware-update-november-2022-a0b30bb0abf5)
+
+[Adi’s gives us a summary of the zkproof conference](https://twitter.com/aiyadt/status/1593554844169768962?cxt=HHwWhMC8jYLsuJ0sAAAA)
 
 [ECC in depth tweet on PoS implementation options for Zcash](https://twitter.com/ElectricCoinCo/status/1592274355526209536)
 
