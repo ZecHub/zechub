@@ -2,6 +2,6 @@ ZecHub's goal is to provide an open-source education hub that anyone in the Zcas
 
 One of the hub's biggest successes is seeing community members translate ZecHub materials into their local language. Check out the resources below.
 
-- Spanish
-- Portuguese
-- Russian
+- Zechub en Español
+- ZecHub em Português
+- ZecHub на русском языке
