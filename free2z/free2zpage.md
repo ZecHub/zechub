@@ -14,7 +14,7 @@ We're creating our Free2z page to act as a Zcash-centric page where we host the 
 
 Our latest content is below:
 
-- The latest ZecWeekly newsletter <embed: https://zechub.substack.com/>
+- The latest ZecWeekly newsletter:
 - The latest zl;dr, a weekly Zcash show: 
 - The latest episode of our podcast: 
 - Our wiki-site with tons of information on Zcash & ZEC:
