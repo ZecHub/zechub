@@ -1,5 +1,5 @@
 # ZecHub
-A decentralized education hub for Zcash.
+An open-source education hub for Zcash.
 The goal of ZecHub is to provide a educational platform where community members can work together on creating, validating, and promoting content that supports the Zcash ecosystem. We do this through a few mechanisms.
 
   1. [Tutorials. Primarily videos on ZEC UX.](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA)
