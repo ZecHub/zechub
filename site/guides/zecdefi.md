@@ -3,6 +3,12 @@
 
 ## RenBridge & renZEC
 
+The Ren 1.0 network will be sunset. Minting new Ren tokens has now been disabled, but users can burn tokens until mid-December.
+
+If you hold renZEC, you should immediately bridge the asset back to native ZEC on the Zcash blockchain.
+
+Please understand the steps in the RenBridge and ZeroBridge sections of this guide should not be followed until the Ren 2.0 network is live and Zcash support is enabled. Please see this [thread](https://forum.zcashcommunity.com/t/ren-1-0-being-sunset-bridge-renzec-to-native-zec-as-soon-as-possible/43393) for more details.
+
 Zcash users are capable of leveraging Ethereum smart contracts and wider DeFi applications while preserving their privacy via [@renprotocol](https://twitter.com/renprotocol) using this 4-Step process:
 
 
