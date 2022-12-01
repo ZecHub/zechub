@@ -9,3 +9,8 @@ Tl;dr
 - Halo is a trustless, recursive zeroknowledge proof
 - It went live into Zcash mainnet with NU5, eliminating Zcash's dependency on zk-SNARKS that required a trusted setup ceremony
 - Other projects are using Halo for a variety of different reasons, from privacy to scalability
+
+## What is Halo
+
+As mentioned above, Halo is a trustless, recursive zero-knowledge proof. What does that mean?
+
