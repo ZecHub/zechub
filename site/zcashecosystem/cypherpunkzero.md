@@ -1,7 +1,4 @@
-
-![header](https://user-images.githubusercontent.com/81990132/205220667-df91428a-7512-43c6-812f-8062f9c70cf4.png)
-
-
+![header](https://user-images.githubusercontent.com/81990132/205220798-c8e51db6-ddad-46ff-b760-4017565318c5.png)
 
 
 # Cypherpunk Zero
