@@ -14,7 +14,7 @@ The NFT community, mostly active on Twitter, has even created a [decentralized o
 
 ## Which chain are the NFT's located?
 
-Ethereum
+[Ethereum](https://etherscan.io/address/0x3e86d6cf041b719c575f57050697c115f0a53758)
 
 ## What are the token allocations?
 
