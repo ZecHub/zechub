@@ -1,3 +1,9 @@
+
+![header](https://user-images.githubusercontent.com/81990132/205220667-df91428a-7512-43c6-812f-8062f9c70cf4.png)
+
+
+
+
 # Cypherpunk Zero
 
 Cypherpunk Zero is a story telling series centered around Zero, a young cypherpunk hacker and freedom fighter. Zero is currently living in a dystopian nightmare and she uses code to fight against the centralized gatekeepers shackling society.
