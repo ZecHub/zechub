@@ -9,7 +9,13 @@ The story was inspired by Zcash and Halo cryptography. The creative work is a co
 
 The creative work has most notably focused on an [NFT series](https://opensea.io/collection/cypherpunk-zero), but a [prologue comic](https://halo.electriccoin.co/#view-prologue) and [collectible toy](https://mightyjaxx.com/products/cypherpunk-zero) have also been released.
 
-The NFT community, mostly active on Twitter, has even created a [decentralized organization (DAO)](https://twitter.com/TakeshiBrock/status/1542580406570164225) to organize and complete projects supporting the campaign, and the broader Zcash community.
+The NFT community, mostly active on Twitter, has even created a [decentralized organization (DAO)](https://twitter.com/CypherpunkDAO) to organize and complete projects supporting the campaign, and the broader Zcash community.
+
+## Anti-roadmap Roadmap
+
+We’ve seen too many projects over-promise and under-deliver on their NFT roadmaps. As such, there is no formal roadmap.
+
+Trust that we’ve got some amazing, exclusive perks in the pipeline for NFT holders—some expected, some unexpected. Buckle up and join us for the ride :slight_smile:
 
 ## Who is Stranger Wolf?
 
@@ -37,3 +43,5 @@ The NFT community, mostly active on Twitter, has even created a [decentralized o
 [Cypherpunk Zero DAO Twitter](https://twitter.com/CypherpunkDAO)
 
 [Cypherpunk Zero DAO Discord](https://discord.com/invite/sjfgXys4Jf)
+
+[Cypherpunk Zero NFT Mega Thread](https://forum.zcashcommunity.com/t/cypherpunk-zero-nft-megathread/41502?u=dismad)
