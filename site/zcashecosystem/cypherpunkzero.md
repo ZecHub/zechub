@@ -19,11 +19,11 @@ Trust that we’ve got some amazing, exclusive perks in the pipeline for NFT hol
 
 ## Governance
 
---[Snapshot](https://vote.cypherpunkzero.com/)--
+  * [Snapshot](https://vote.cypherpunkzero.com/)
 
---[Guild](https://guild.xyz/cypherpunkzerodao)--
+  * [Guild](https://guild.xyz/cypherpunkzerodao)
 
---[Commonwealth](https://commonwealth.im/cypherpunk-zero)--
+  * [Commonwealth](https://commonwealth.im/cypherpunk-zero)
 
 ## Who is Stranger Wolf?
 
