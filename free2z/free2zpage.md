@@ -24,4 +24,4 @@ We are creating our Free2z page to act as a Zcash-centric page where we host the
 
 Check our content, stay up to date on Zcash, and most importantly, contribute! Let us know what you want to build :)
 
-**DISCLAIMER: ZecHub is a completely independent and open-source initiative founded by Zcash community members. Nothing contained in this Github repository should be considered financial or investment advice - it is for informational purposes only.**
+**DISCLAIMER: ZecHub is a completely independent and open-source initiative founded by Zcash community members. None of the content produced by ZecHub should be considered financial or investment advice - it is for informational purposes only.**
