@@ -370,6 +370,7 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
 * Where can I find more info on UA's?
 
      * Check out [Hanh's](https://medium.com/@hanh425/transaction-privacy-78f80f9f175e) post on transaction privacy. Also [this](https://forum.zcashcommunity.com/t/unified-addresses-full-node-rpc-api/41980/2) post from the zcash forum.
+     * [This](https://github.com/zcash/zips/issues/470)
 
      
 
@@ -387,3 +388,5 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
 * https://forum.zcashcommunity.com/t/unified-addresses-full-node-rpc-api/41980/2
 * https://medium.com/@hanh425/transaction-privacy-78f80f9f175e
 * https://znewsletter.netlify.app/
+* https://github.com/zcash/zips/issues/470
+* https://zips.z.cash/protocol/nu5.pdf#unifiedpaymentaddrencoding
