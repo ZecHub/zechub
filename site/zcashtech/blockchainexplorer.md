@@ -12,6 +12,9 @@ Bitcoin: [c839b44a7052393f4672cdc4ec79f8f15d3036565e13bede0fab91f674506a7c](http
 Ethereum: [0x43117fc201f8d3c09a72d42ab4a048003f348917771b9ace64b8944a91807320](https://etherscan.io/tx/0x43117fc201f8d3c09a72d42ab4a048003f348917771b9ace64b8944a91807320)
     
  
+Cosmos: [D0587C76E7689A9EFBDDA587DDB450F6C6E972FCEEA37DD8DA9AF95C23CF8170](https://www.mintscan.io/cosmos/txs/D0587C76E7689A9EFBDDA587DDB450F6C6E972FCEEA37DD8DA9AF95C23CF8170)
+
+
 Zcash (public): [8dd212847a97c5eb9cee5e7e58c4d9e739f4156273ae3b2da1a4ff79ad95ff82](https://zcashblockexplorer.com/transactions/8dd212847a97c5eb9cee5e7e58c4d9e739f4156273ae3b2da1a4ff79ad95ff82)
   
   
@@ -41,6 +44,9 @@ Similar to addresses above, any transaction on a public blockchain has the amoun
 
 ### Visual Guide
 
+Here are four good examples of different blockchain explores:
+
+
 ![bitcoinExlporer](https://user-images.githubusercontent.com/81990132/206279968-a06eb0a1-b3a6-49af-a30f-7d871b906eeb.png)
 
 
@@ -50,6 +56,7 @@ Similar to addresses above, any transaction on a public blockchain has the amoun
 ![zcashExplorer](https://user-images.githubusercontent.com/81990132/206280454-a2c7563f-e82d-47b9-9b58-02eece1c89ee.png)
 
 
+![cosmos](https://user-images.githubusercontent.com/81990132/206315527-92ec5367-83ab-41bb-ba68-901b5544c73b.png)
 
 
 
