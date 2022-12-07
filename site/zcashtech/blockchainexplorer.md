@@ -18,7 +18,7 @@ Zcash (public): [8dd212847a97c5eb9cee5e7e58c4d9e739f4156273ae3b2da1a4ff79ad95ff8
 Zcash (private): [19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa5d](https://zcashblockexplorer.com/transactions/19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa5d)
 
 
-Notice with Zcash how the second transaction has all important details hidden, this is important and has great implications in a digital world.
+#### Notice with Zcash how the second transaction has all important details hidden, this is important and has great implications in a digital world.
 
 
 ## Blockchain Maps
