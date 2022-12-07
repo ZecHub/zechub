@@ -2,7 +2,7 @@
 
 ## Intro
 
-In the traditional business world every transaction includes a reciept for proof of purchase. Similary, in the blockchain world a user recieves a digital reciept in the form of a transaction id for every transaction completed. Most wallets will provide this for you. Blockchain explorers are simply tools that allow one to visualize what has already happened on a blockchain.They take for inputs: transaction id's, addresses, or block hashes, and visually output what took place.
+In the traditional business world every transaction includes a reciept for proof of purchase. Similary, in the blockchain world a user recieves a digital reciept in the form of a transaction id for every transaction completed. Most wallets will provide this for you. Blockchain explorers are simply tools that allow one to visualize what has already happened on a blockchain. They take for inputs: transaction id's, addresses, or block hashes, and visually output what took place.
 
 ## Examples
 
