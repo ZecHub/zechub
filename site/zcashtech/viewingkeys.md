@@ -1,10 +1,12 @@
 # Viewing Keys
 
-What happens when you need to make a shielded Zcash transaction public? You use a viewing key.
+What happens when you need to disclose information around a shielded Zcash transaction to a specific party? You use a viewing key.
 
-Viewing keys were introduced in ZIP 310 and added to the protocol in the Sapling network upgrade.
+Viewing keys were introduced in [ZIP 310](https://zips.z.cash/zip-0310) and added to the protocol in the Sapling network upgrade.
 
 Shielded addresses enable users to transact while revealing as little information as possible on the Zcash blockchain. But, viewing keys are a crucial part of Zcash as they allow users to selectively disclose information about transactions.
+
+## Why use a viewing key?
 
 Why would a user ever want to do this? From Electric Coin Co.'s blog on the matter...
 
