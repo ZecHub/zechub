@@ -25,6 +25,9 @@ Notice with zcash how the second transaction has all important details hidden, t
 
 So we have this long string of charactors as a digital reciept, what now? This is where we use our blockchain explorer, or map, to help us digest what happened on the blockchain. Notice how each chain as its own version of blockchain explorer above. Its important to understand that all these blockchain projects are examples of open source software. That is, anyone can contribute to and or fork the code to their liking. With that understanding, each project specializes in different areas and customizes the blockchain explorer to fit the needs of said project.
 
+Another key concep: transactions are placed into *blocks* and so when a block is mined/validated every transaction inside that block confirmed. You may have seen CEX's neededing a number of *confirmations* before they release your funds, this is the metric they are using to make sure your transction is 
+sufficiently finalized. 
+
 ### Visual Guide
 
 ![bitcoinExlporer](https://user-images.githubusercontent.com/81990132/206279968-a06eb0a1-b3a6-49af-a30f-7d871b906eeb.png)
