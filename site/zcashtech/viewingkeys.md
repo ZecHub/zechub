@@ -6,7 +6,7 @@ Viewing keys were introduced in [ZIP 310](https://zips.z.cash/zip-0310) and adde
 
 Shielded addresses enable users to transact while revealing as little information as possible on the Zcash blockchain. But, viewing keys are a crucial part of Zcash as they allow users to selectively disclose information about transactions.
 
-## Why use a viewing key?
+### Why use a viewing key?
 
 Why would a user ever want to do this? From Electric Coin Co.'s blog on the matter...
 
