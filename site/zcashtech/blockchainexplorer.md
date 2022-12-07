@@ -31,7 +31,7 @@ sufficiently finalized. How does the blockchain determine which transactions get
 
 ### Addresses
 
-A fun way to visually learn blockchain explorers is to use the address of any random transaction and move backward in time! Each transation has both an input and output address.  Armed with this information, one can readily move both forward and backward from any transaction that has been spent. For those that like puzzles, this is the digital equivalent of a huge financial puzzle, and could be used for transparecny purposes. Using a blockchain exlporer makes this not only much easier to visualize, it *also highlights* the need for transaction privacy. Unless you're using shielded Zcash, you can do this with *any* transparent blockchain: BTC, ETH, ATOM, DOGE, VTC, etc ... . This point is critical for using the blockchain safely moving into a digital only future.
+A fun way to visually learn blockchain explorers is to use the address of any random transaction and move backward in time! Each transation has both an input and output address.  Armed with this information, one can readily move both forward and backward from any transaction that has been spent. For those that like puzzles, this is the digital equivalent of a huge financial puzzle, and could be used for transparency purposes. Using a blockchain exlporer makes this not only much easier to visualize, it *also highlights* the need for transaction privacy. Unless you're using shielded Zcash, you can do this with *any* transparent blockchain: BTC, ETH, ATOM, DOGE, VTC, etc ... . This point is critical for using the blockchain safely moving into a digital only future.
 
 ### Amounts
 
