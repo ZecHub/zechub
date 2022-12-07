@@ -6,7 +6,7 @@ In the traditional business world every transaction includes a reciept for proof
 
   Some examples:
   
-     Bitcoin: [c839b44a7052393f4672cdc4ec79f8f15d3036565e13bede0fab91f674506a7c](https://mempool.space/tx/c839b44a7052393f4672cdc4ec79f8f15d3036565e13bede0fab91f674506a7c)
+     Bitcoin: [c839b44a7052393f4672cdc4ec79f8f15d3036565e13bede0fab91f674506a7c] (https://mempool.space/tx/c839b44a7052393f4672cdc4ec79f8f15d3036565e13bede0fab91f674506a7c)
     
     
      Ethereum: `0x43117fc201f8d3c09a72d42ab4a048003f348917771b9ace64b8944a91807320`
