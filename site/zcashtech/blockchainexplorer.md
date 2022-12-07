@@ -61,7 +61,7 @@ Here are four good examples of different blockchain explores:
 ![zcashExplorer](https://user-images.githubusercontent.com/81990132/206280454-a2c7563f-e82d-47b9-9b58-02eece1c89ee.png)
 
 
-![cosmos](https://user-images.githubusercontent.com/81990132/206315527-92ec5367-83ab-41bb-ba68-901b5544c73b.png)
+![cosmos](https://user-images.githubusercontent.com/81990132/206316791-2debfd28-923a-44f4-b7d3-701182112c30.png)
 
 
 
