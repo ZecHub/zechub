@@ -25,7 +25,7 @@ Zcash (private): [19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa
 
 So we have this long string of charactors as a digital reciept, what now? This is where we use a blockchain explorer, or map, to help us digest what happened on the blockchain. Notice how each chain has its own version of blockchain explorer above. It's important to understand that all these blockchain projects are examples of open source software. That is, anyone can contribute to and or fork the code to their liking. With that understanding, each project specializes in different areas and customizes the blockchain explorer to fit the needs of said project.
 ### Blocks
-Transactions are placed into *blocks*. When a block is mined/validated every transaction inside that block is confirmed and a block hash is created. You may have seen CEX's needing a number of *confirmations* before they release your funds, this is the metric they are using to make sure your transction is 
+Transactions are placed into *blocks*. When a block is mined/validated every transaction inside that block is confirmed and a block hash is created. Any hash created can be input into a block explorer. You may have seen CEX's needing a number of *confirmations* before they release your funds, this is the metric they are using to make sure your transction is 
 sufficiently finalized. How does the blockchain determine which transactions get into the next block? Complex topic of research, but most modern chains use the idea of *fees* to determine who gets into the front of the line. The higher the fee, the higher the chance you move up to the front of the queue.
 
 ### Addresses
