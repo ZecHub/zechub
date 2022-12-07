@@ -2,7 +2,7 @@
 
 ## Intro
 
-In the traditional business world every transaction includes a reciept for proof of purchase. Similary, in the blockchain world a user recieves a digital reciept in the form of a transaction id for every transaction completed. Most wallets will provide this for you, and if the
+In the traditional business world every transaction includes a reciept for proof of purchase. Similary, in the blockchain world a user recieves a digital reciept in the form of a transaction id for every transaction completed. Most wallets will provide this for you after completing some transaction.
 
 ## Examples
 
