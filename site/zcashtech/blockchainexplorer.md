@@ -6,13 +6,13 @@ In the traditional business world every transaction includes a reciept for proof
 
   Some examples:
   
-    * Bitcoin: `c839b44a7052393f4672cdc4ec79f8f15d3036565e13bede0fab91f674506a7c`
+     Bitcoin: `c839b44a7052393f4672cdc4ec79f8f15d3036565e13bede0fab91f674506a7c`
     
     
-    * Ethereum: `0x43117fc201f8d3c09a72d42ab4a048003f348917771b9ace64b8944a91807320`
+     Ethereum: `0x43117fc201f8d3c09a72d42ab4a048003f348917771b9ace64b8944a91807320`
     
     
-    * Zcash: `19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa5d` or 
+     Zcash: `19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa5d` or 
     
               `8dd212847a97c5eb9cee5e7e58c4d9e739f4156273ae3b2da1a4ff79ad95ff82`
 
