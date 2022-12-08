@@ -1,4 +1,4 @@
-# Utilizando ZEC, en privado
+# Utilizando ZEC privado
 
 #### Blindado (Privado) vs. Transparente
 
