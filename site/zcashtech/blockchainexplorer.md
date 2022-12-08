@@ -34,7 +34,7 @@ sufficiently finalized. How does the blockchain determine which transactions get
 
 ### Addresses
 
-A fun way to visually learn blockchain explorers is to input the address of any random transaction. Then you can move backward in time and see where the funds originated! Each transation has both an input and output address.  Armed with this information, one can readily move both forward and backward from any transaction that has been spent. For those that like puzzles, this is the digital equivalent of a huge financial puzzle, and could be used for transparency purposes. Using a blockchain explorer makes this not only much easier to visualize, it *also highlights* the need for transaction privacy. Unless you're using shielded Zcash, you can do this with *any* transparent blockchain: BTC, ETH, ATOM, DOGE, VTC, etc ... . This point is critical for using the blockchain safely moving into a digital only future.
+A fun way to visually learn blockchain explorers is to input the address of any random transaction. Then you can move backward in time and see where the funds originated! Each transation has both an input and output address.  Armed with this information, one can readily move both forward and backward from any transaction that has been spent. For those that like puzzles, this is the digital equivalent of a huge financial puzzle, and could be used for transparency purposes. Using a blockchain explorer makes this not only much easier to visualize, it *also highlights* the need for transaction privacy. Unless you're using shielded Zcash, you can do this with *any* transparent blockchain: BTC, ETH, ATOM, DOGE, VTC, etc ... . This point is critical for anyone using the blockchain safely moving into a digital only future.
 
 ### Amounts
 
@@ -45,7 +45,7 @@ Similar to addresses above, any transaction on a public blockchain has the amoun
 
 ### Visual Guide
 
-Here are four good examples of different blockchain explores:
+Here are four good examples of different blockchain explorers:
 
 * [Mempool.space](https://mempool.space)
 * [Ethscan](https://etherscan.io/)
