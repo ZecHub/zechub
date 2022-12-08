@@ -1,1 +1,1 @@
-Create zcash faqs page.
+Crear la página faqs de zcash.
