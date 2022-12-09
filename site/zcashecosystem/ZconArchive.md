@@ -3,6 +3,9 @@ The following is collection of most Zcon related media in an easy to find locati
 # Zcon
 
 ## Zcon0
+https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS
+
+
 [Zcon0 Keynote - State of the Network](https://www.youtube.com/watch?v=IVjHDEDw_DQ)
 
 [Zcash Foundation Grant Program Overview](https://www.youtube.com/watch?v=UrvJA8Gibgg)
