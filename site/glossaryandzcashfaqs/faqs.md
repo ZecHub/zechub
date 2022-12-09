@@ -24,7 +24,7 @@ As a protocol, Zcash is governed by the Zcash Improvement Proposal process. The 
 
 ## Where is my Transaction?
 
-First read [our article](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629) on Block explorers. Then check with [Block Explorer](https://zcashblockexplorer.com) noting that all transactions expire by default after ~25 minutes/20 blocks and funds are returned to the original sending address. 
+First read [our article](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629) on block explorers. Then check with [Zcash block explorer](https://zcashblockexplorer.com) noting that all transactions expire by default after ~25 minutes/20 blocks and funds are returned to the original sending address. 
 
 If your transaction expires, the best thing to do is to try your transaction again with some possible modifications.
 
