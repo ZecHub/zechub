@@ -25,3 +25,4 @@ Zcon2 took place on Tuesday, June 8th and Wednesday, June 9th 2021. Zcon2 was a
 
 Zcon3 took place in Las Vegas from August 7-9th 2022.
 
+[Zcon3 Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
