@@ -1,6 +1,7 @@
 The following is collection of most Zcon related media in an easy to find location.
 
 # Zcon
+Zcon is an annual conference organized by the [Zcash Foundation](https://zfnd.org/).
 
 ## Zcon0: Privacy from A to Zcon
 
