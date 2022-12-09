@@ -18,12 +18,13 @@ You can buy ZEC from cryptocurrency [exchanges](https://z.cash/exchanges). You c
 
 Zcash is fundamentaly more private than other cryptocurrencies such as Bitcoin or Ethereum. Zcash supports fast block times (75 seconds), low fees (default 0.0001 ZEC) and has regular upgrade schedules, which means this protocol is highly adaptable. A key feature is the optional privacy. Users are able to select whether a transaction is made on the Transparent or Shielded part of the blockchain. For more information see [here](https://bitzecbzc.github.io/blog/shielded-ecosystem/index.html)
 
+## How is the Zcash protocol governed?
+
+As a protocol, Zcash is governed by the Zcash Improvement Proposal process. The ZIP process provides an open venue and structure for collectively evaluating changes to Zcash. Anyone can submit a draft ZIP. Draft ZIPs are debated by the community at large, then accepted or rejected by the ZIP editors. Currently there are two ZIP editors — Daira Hopwood represents the Electric Coin Company and Deirdre Connolly represents the Zcash Foundation. Decisions from the ZIP process are written into the Zcash specification, as well as the software that runs the network. The changes are “ratified” on-chain when the majority of the network adopts the upgrade and doesn’t break consensus. 
+
 ## Where is my Transaction?
 
-
-All transactions expire by default after ~25 minutes/20 blocks and funds are returned to the original sending address. 
-
-[Block Explorer](https://zcashblockexplorer.com)
+First read [our article](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629) on block explorers. Then check with [Zcash block explorer](https://zcashblockexplorer.com) noting that all transactions expire by default after ~25 minutes/20 blocks and funds are returned to the original sending address. 
 
 If your transaction expires, the best thing to do is to try your transaction again with some possible modifications.
 
@@ -31,12 +32,9 @@ There may be various reasons why your transaction is not included in a block:
 
 + Loss of connectivity
 
-
 + Transaction fee too low
 
-
 + Network overload
-
 
 + Too many transparent inputs (transaction size too large)
 
@@ -48,9 +46,7 @@ We suggest trying your transaction again with:
 
 + Use the standard fee (0.00001 ZEC)
 
-
 + Try again later, or increase the fee for high priority transactions
-
 
 + Use a minimal amount of inputs to limit the size, or increase the fee for large transactions
 
