@@ -1,4 +1,4 @@
-[Zcashblockexplorer](https://zcashblockexplorer.com/) is a [community funded grant](https://forum.zcashcommunity.com/t/zcash-block-explorer-grant/38141) with the goal to serve the needs of Zcash users who need a reliable source of their Zcash transactions data and the status of the network. It should also be noted the project is open source and can be found [here](https://github.com/nighthawk-apps/zcash-explorer). This means anyone who runs a Zcash node could run their own blockchain explorer!
+[Zcashblockexplorer](https://github.com/nighthawk-apps/zcash-explorer) is an open source [community funded grant](https://forum.zcashcommunity.com/t/zcash-block-explorer-grant/38141) with the goal to serve the needs of Zcash users who need a reliable source of their Zcash transactions data and the status of the network. This means anyone who runs a Zcash node could run their own blockchain explorer!
 
 
 
