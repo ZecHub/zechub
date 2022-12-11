@@ -40,4 +40,5 @@ The governance structure is currently being developed by the founding members an
 
 * https://twitter.com/ZecHub/status/1569827000218537984?s=20&t=v6h3n3P7o7LMbnAG-O8Kug
 * https://forum.zcashcommunity.com/t/zechub-rfi/42778/17
+* https://www.forbes.com/sites/cathyhackl/2021/06/01/what-are-daos-and-why-you-should-pay-attention/?sh=3d34fb2c7305
 
