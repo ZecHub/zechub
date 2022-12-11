@@ -20,7 +20,7 @@ A DAO (Decentralized Autonomous Organization) is an organization represented by 
 DAOs need the following elements for being fully functional: 
 
 * A set of rules to which will operate
-* A funding like tokens that the organization can spend to reward certain activities to their members
+* Funding like tokens that the organization can spend to reward certain activities to their members
 * Provide voting rights for establishing the operation rules. 
 * A well and secure structure that allows every member to configure the organization.  
 
