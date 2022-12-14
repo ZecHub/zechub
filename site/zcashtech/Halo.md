@@ -58,6 +58,8 @@ Recursive proof composition holds the potential for compressing unlimited amount
 
 The Electric Coin Company has entered into an agreement with Protocol Labs, the Filecoin Foundation, and the Ethereum Foundation to explore Halo R&D, including how the technology might be used in their respective networks. The agreement aims to provide better scalability, interoperability and privacy across ecosystems and for Web 3.0.
 
+Additionally, Halo 2 is under the [MIT and Apache 2.0 open-source licenses](https://github.com/zcash/halo2#readme), meaning anyone in the ecosystem can build with the proving system.
+
 ### Filecoin
 
 Since its deployment, the halo2 library has been adopted in projects like the zkEVM, there is potential integration of Halo 2 into the proof system for the Filcoin Virtual Machine. Filecoin requires numerous costly proofs of spacetime / proofs of replication. Halo2 will be pivotal in compressing the space usage, better scaling the network.
@@ -76,6 +78,7 @@ It can be used as a source of general purpose randomness including use in smart 
 
 ECC, the Filecoin Foundation, Protocol Labs, and the Ethereum Foundation will also be working with [SupraNational](https://www.supranational.net/), a vendor specializing in hardware-accelerated cryptography, for potential GPU and ASIC design and development of the VDF.
 
+The [Privacy and Scaling Exploration group](https://appliedzkp.org/) is also researching different ways Halo 2 proofs can improve privacy and scalability for the Ethereum ecosystem. This group rolls up to the Ethereum foundation, and has a broad focus on zero-knowledge proofs and cryptographic primitives. Their work around Halo 2 can be found here, and they have also forked the original codebase to create halo2wrong. halo2wrong consist of a simple PLONK gate and non native arithmetic based applications.
 
 ## Other projects using Halo
 
@@ -97,3 +100,11 @@ ECC, the Filecoin Foundation, Protocol Labs, and the Ethereum Foundation will al
 [Technical Explainer Blog](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)
 
 [Halo 2 Community Showcase - Ying Tong @Zcon3](https://www.youtube.com/watch?v=JJi2TT2Ahp0)
+
+**Documentation**
+
+[Halo 2 resources](https://github.com/adria0/awesome-halo2)
+
+[Halo 2 docs](https://zcash.github.io/halo2/)
+
+[Halo 2 github](https://github.com/zcash/halo2)
