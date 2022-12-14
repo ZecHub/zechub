@@ -4,7 +4,7 @@
 
 ---
 
-Lista de monederos de nodos completos
+Lista de monederos de nodo completo
 
 - [Zcashd](https://electriccoin.co/zcashd/)
 - [Zecwallet Full node](https://www.zecwallet.co/fullnode.html)
