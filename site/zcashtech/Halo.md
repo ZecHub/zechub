@@ -3,20 +3,27 @@
 
 ## What is Halo?
 
-Halo is a trustless, recursive zero-knowledge proof (ZKP) discovered by Sean Bowe at Electric Coin Co. It eliminates the trusted setup and allows greater scalability of the Zcash blockchain. Halo was the first zero-knowledge proof system that is both efficient & recursive widely regarded as a huge scientific breakthrough.
+Halo is a trustless, recursive zero-knowledge proof (ZKP) discovered by Sean Bowe at Electric Coin Co. It eliminates the trusted setup and allows greater scalability of the Zcash blockchain. Halo was the first zero-knowledge proof system that is both efficient & recursive widely regarded as a scientific breakthrough.
+
+Components:
+
+Succinct Polynomial Commitment Scheme: Allows a committer to commit to a polynomial with a short string that can be used by a verifier to confirm claimed evaluations of the committed polynomial.
+
+Polynomial Interactive Oracle Proof: Verifier asks prover (algorithm) to open all commitments at various points of their choosing using polynomial commitment scheme & checks identity holds true between them. 
 
 
 ### No Trusted Setup
 
-Previously Zcash's Sprout & Sapling shielded pools utilised the BCTV14 & Groth 16 zk-proving systems. While these were secure there were limitations. The systems were not scalable as they were tied to a single application, "toxic waste" the remnants from cryptographic material generated during a genesis ceremony could exist and there was an element of trust required by users for this ceremony to be deemed acceptable.
+zkSNARKs rely on a common reference string (CRS) as a public parameter for proving & verifying. This CRS must be generated in advance by a trusted party. Until recently, elaborate secure multi-party computations (MPC) as those performed by Aztec network & Zcash were necesarry to mitigate the risk involved during this [trusted setup ceremony](https://zkproof.org/2021/06/30/setup-ceremonies/amp/). 
+
+Previously Zcash's Sprout & Sapling shielded pools utilised the BCTV14 & Groth 16 zk-proving systems. While these were secure there were limitations. They were not scalable as they were tied to a single application, the "toxic waste" (remnants from cryptographic material generated during a genesis ceremony) could persist and there was an element of trust (albeit minute) for users to deem the ceremony acceptable.
+
+By repeatedly collapsing multiple instances of hard problems together over cycles of elliptic curves so that computational proofs can be used to reason about themselves efficiently (Nested amortization) the need for a trusted setup is eliminated. This also means that the stuctured reference string (output from ceremony) is upgradeable enabling applications such as smart contracts.
 
 Halo allows a user to both prove that no one involved in the initial establishment of the large-scale zero-knowledge proof system has created a secret backdoor with which to execute fraudulent transactions and that the secure state has existed over the course of updates and changes to the system. 
 
-Nested amortization — repeatedly collapsing multiple instances of hard problems together over cycles of elliptic curves so that computational proofs can be used to reason about themselves efficiently, which eliminates the need for a trusted setup. This also means that the stuctured reference string (output from ceremony) is upgradeable enabling applications such as smart contracts to be built.
-
 [Sean Bowes Explainer on Dystopia Labs](https://www.youtube.com/watch?v=KdkVTEHUxgo) 
-
-Until recently the risk during setup meant that zero knowledge proofs often required elaborate secure multi-party computations such as those seen in the Aztec protocol & Zcash ceremonies to instill confidence in the network. 
+ 
 
 
 ### Recursive Proofs
@@ -25,8 +32,6 @@ Recursive proof composition allows a single proof to attest to the correctness o
 
 Prior to Halo, achieving recursive proof composition required large computational expense and a trusted setup. One of the main discoveries was a technique called “nested amortization,”. This technique allows for recursive composition using the polynomial commitment scheme based on inner product argument, massively improving on performance and avoiding the trusted setup.
 
-[image]
-
 In the [Halo paper](https://eprint.iacr.org/2019/1021.pdf), we fully described this polynomial commitment scheme and discovered a new aggregation technique existed in it. The technique allows a large number of independently created proofs to be verified nearly as quickly as verifying a single proof. This alone would offer a better alternative to the earlier zk-SNARKs used in Zcash.
 
 
@@ -34,9 +39,11 @@ In the [Halo paper](https://eprint.iacr.org/2019/1021.pdf), we fully described t
 
 Halo 2, is a high-performance zk-SNARK implementation written in Rust which eliminates the need for a trusted setup while setting the stage for scalability in Zcash. 
 
-[image]
+![halo2image](https://electriccoin.co/wp-content/uploads/2020/09/Halo-puzzle-03-1024x517.jpg "halo2")
 
 It includes a generalization of our approach called an “accumulation scheme”. This new formalization exposes how our nested amortization technique actually works; by adding proofs to an object called an “accumulator,” where the proofs reason about the previous state of the accumulator, we can check that all previous proofs were correct (by induction) simply by checking the current state of the accumulator.
+
+![Accumulatorimage](url "accumulator")
 
 In parallel, many other teams were discovering new Polynomial IOPs that were more efficient than Sonic (used in Halo 1), such as Marlin. 
 
@@ -47,11 +54,11 @@ The most efficient of these new protocols is PLONK, which grants enormous flexib
 
 ### How does this benefit Zcash?
 
-The Orchard Shielded pool activated with NU5 is the implementation of this new proof system on the Zcash Network. Guarded by the same turnstile design as used between Sprout and Sapling with the intent to gradually retire the older shielded pools. This encourages migration to a fully trustless proof system, reinforcing confidence in the soundness of the monetary base, and reducing the implementation complexity and attack surface of Zcash overall.
+The Orchard Shielded pool activated with NU5 is the implementation of this new proof system on the Zcash Network. Guarded by the same turnstile design as used between Sprout and Sapling with the intent to gradually retire the older shielded pools. This encourages migration to a fully trustless proof system, reinforcing confidence in the soundness of the monetary base, and reducing the implementation complexity and attack surface of Zcash overall. Following the activation of Orchard in 2022 several privacy enhancements were made possible. The introduction of 'Actions' to replace inputs/outputs helps in reducing the amount of transaction metadata. 
 
 Trusted setups are generally difficult to coordinate & presented a systemic risk. It would be necessary to repeat them for each major protocol upgrade. Removing them presents a substantial improvement for safely implementing new protocol upgrades. 
 
-Recursive proof composition holds the potential for compressing unlimited amounts of computation, creating auditable distributed systems, making Zcash a highly scalable blockchains and protecting user privacy. The concept is a proof that verifies the correctness of another instance of itself, allowing any amount of computational effort and data to produce a short proof that can be checked quickly. This Nested proof composition is an essential technique for enabling flexibility for extensions such as Zcash Shielded Assets and improving Layer 1 scalability for Zcash.
+Recursive proof composition holds the potential for compressing unlimited amounts of computation, creating auditable distributed systems, making Zcash a highly scalable blockchains and protecting user privacy. This ia an essential technique for enabling flexibility for extensions such as Zcash Shielded Assets and improving Layer 1 capacity for Zcash.
 
 
 ## Halo in the wider ecosystem 
@@ -62,7 +69,7 @@ Additionally, Halo 2 is under the [MIT and Apache 2.0 open-source licenses](http
 
 ### Filecoin
 
-Since its deployment, the halo2 library has been adopted in projects like the zkEVM, there is potential integration of Halo 2 into the proof system for the Filcoin Virtual Machine. Filecoin requires numerous costly proofs of spacetime / proofs of replication. Halo2 will be pivotal in compressing the space usage, better scaling the network.
+Since its deployment, the halo2 library has been adopted in projects like the zkEVM, there is potential integration of Halo 2 into the proof system for the Filecoin Virtual Machine. Filecoin requires numerous costly proofs of spacetime / proofs of replication. Halo2 will be pivotal in compressing the space usage, better scaling the network.
 
 [Filecoin Foundation video with Zooko](https://www.youtube.com/watch?v=t4XOdagc9xw)
 
