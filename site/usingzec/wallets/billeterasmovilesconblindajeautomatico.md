@@ -1,10 +1,10 @@
-# Billeteras móviles blindadas con blindaje automático
+# Billeteras móviles con blindaje automático
 
 Los monederos de blindaje automático son billeteras blindadas que también incluyen una dirección receptora transparente. Esta dirección permite a los usuarios recibir fondos de otras direcciones transparentes, y luego mueve los fondos a la dirección blindada. La mayoría de estos monederos son aplicaciones para teléfonos móviles.
 
 ---
 
-Billeteras móviles blindadas con blindaje automático
+Billeteras móviles con blindaje automático
 
 - [Nighthawk](https://nighthawkwallet.com/)
 - [Ywallet](https://ywallet.app/)
