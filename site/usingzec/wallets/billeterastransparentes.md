@@ -1,10 +1,10 @@
-# Transparent Wallets
+# Billeteras transparentes
 
-Transparent wallets are wallets that only support transparent addresses. These wallets are not recommended as they do not provide a high level of user privacy.
+Los monederos transparentes son carteras que solo admiten direcciones transparentes. Estos monederos no son recomendables, ya que no proporcionan un alto nivel de privacidad al usuario.
 
 ---
 
-List of Transparent Wallets
+Lista de billeteras transparentes
 
 - [Cobo](https://cobo.com/)
 - [Coinomi](https://www.coinomi.com/en/)
