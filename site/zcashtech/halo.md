@@ -5,7 +5,10 @@
 
 Halo is a trustless, recursive zero-knowledge proof (ZKP) discovered by Sean Bowe at Electric Coin Co. It eliminates the trusted setup and allows greater scalability of the Zcash blockchain. Halo was the first zero-knowledge proof system that is both efficient & recursive widely regarded as a scientific breakthrough.
 
-Components:
+![halo](https://electriccoin.co/wp-content/uploads/2021/01/Halo-on-Z-1440x720.png "halo")
+
+
+**Components**
 
 Succinct Polynomial Commitment Scheme: Allows a committer to commit to a polynomial with a short string that can be used by a verifier to confirm claimed evaluations of the committed polynomial.
 
@@ -43,7 +46,7 @@ Halo 2, is a high-performance zk-SNARK implementation written in Rust which elim
 
 It includes a generalization of our approach called an “accumulation scheme”. This new formalization exposes how our nested amortization technique actually works; by adding proofs to an object called an “accumulator,” where the proofs reason about the previous state of the accumulator, we can check that all previous proofs were correct (by induction) simply by checking the current state of the accumulator.
 
-![Accumulatorimage](url "accumulator")
+![Accumulatorimage](https://i.imgur.com/l4HrYgE.png "accumulator")
 
 In parallel, many other teams were discovering new Polynomial IOPs that were more efficient than Sonic (used in Halo 1), such as Marlin. 
 
@@ -54,11 +57,11 @@ The most efficient of these new protocols is PLONK, which grants enormous flexib
 
 ### How does this benefit Zcash?
 
-The Orchard Shielded pool activated with NU5 is the implementation of this new proof system on the Zcash Network. Guarded by the same turnstile design as used between Sprout and Sapling with the intent to gradually retire the older shielded pools. This encourages migration to a fully trustless proof system, reinforcing confidence in the soundness of the monetary base, and reducing the implementation complexity and attack surface of Zcash overall. Following the activation of Orchard in 2022 several privacy enhancements were made possible. The introduction of 'Actions' to replace inputs/outputs helps in reducing the amount of transaction metadata. 
+The Orchard Shielded pool activated with NU5 & is the implementation of this new proof system on the Zcash Network. Guarded by the same turnstile design as used between Sprout and Sapling with the intent to gradually retire the older shielded pools. This encourages migration to a fully trustless proof system, reinforcing confidence in the soundness of the monetary base, and reducing the implementation complexity and attack surface of Zcash overall. Following the activation of NU5 mid 2022, integration of recursive proofs became possible (although this is not complete). Several privacy enhancements were also made tangentially. The introduction of 'Actions' to replace inputs/outputs helped reducing the amount of transaction metadata. 
 
 Trusted setups are generally difficult to coordinate & presented a systemic risk. It would be necessary to repeat them for each major protocol upgrade. Removing them presents a substantial improvement for safely implementing new protocol upgrades. 
 
-Recursive proof composition holds the potential for compressing unlimited amounts of computation, creating auditable distributed systems, making Zcash a highly scalable blockchains and protecting user privacy. This ia an essential technique for enabling flexibility for extensions such as Zcash Shielded Assets and improving Layer 1 capacity for Zcash.
+Recursive proof composition holds the potential for compressing unlimited amounts of computation, creating auditable distributed systems, making Zcash highly capable particularly with the shift to Proof of Stake. This is also useful for extensions such as Zcash Shielded Assets and improving Layer 1 capacity at the higher end of full node usage in the coming years for Zcash.
 
 
 ## Halo in the wider ecosystem 
@@ -85,7 +88,7 @@ It can be used as a source of general purpose randomness including use in smart 
 
 ECC, the Filecoin Foundation, Protocol Labs, and the Ethereum Foundation will also be working with [SupraNational](https://www.supranational.net/), a vendor specializing in hardware-accelerated cryptography, for potential GPU and ASIC design and development of the VDF.
 
-The [Privacy and Scaling Exploration group](https://appliedzkp.org/) is also researching different ways Halo 2 proofs can improve privacy and scalability for the Ethereum ecosystem. This group rolls up to the Ethereum foundation, and has a broad focus on zero-knowledge proofs and cryptographic primitives. Their work around Halo 2 can be found here, and they have also forked the original codebase to create halo2wrong. halo2wrong consist of a simple PLONK gate and non native arithmetic based applications.
+The [Privacy and Scaling Exploration group](https://appliedzkp.org/) is also researching different ways Halo 2 proofs can improve privacy and scalability for the Ethereum ecosystem. This group rolls up to the Ethereum foundation, and has a broad focus on zero-knowledge proofs and cryptographic primitives. 
 
 ## Other projects using Halo
 
