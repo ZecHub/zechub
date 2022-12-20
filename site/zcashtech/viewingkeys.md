@@ -16,6 +16,20 @@ Why would a user ever want to do this? From Electric Coin Co.'s blog on the matt
 
 *- An exchange may need to conduct due diligence checks on a customer who makes deposits from a shielded address. The exchange could request the customer’s viewing key for their shielded address and use it to review the customer’s shielded transaction activity as part of these enhanced due diligence procedures.*
 
+### How to find your viewing key
+
+#### zcashd
+
+* List all known addresses using ` ./zcash-cli listaddresses`
+
+* Then issue the following command for either UA's or Sapling shielded addresses
+
+  `./zcash-cli z_exportviewingkey "<UA or Z address>"
+
+#### ywallet
+
+* On the top right corner select Backup, Authenticate your phone, then simply copy your viewing key that is displayed.
+
 ### Resources
 
 While a great technology, it's recommended that you use viewing keys on an as needed basis.
