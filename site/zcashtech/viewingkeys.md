@@ -34,12 +34,15 @@ Why would a user ever want to do this? From Electric Coin Co.'s blog on the matt
 
 #### zcashd
 
+* Use the following with any vkey or ukey: 
+
+`./zcash-cli z_importviewingkey "vkey/ukey" whenkeyisnew 30000`
+
 #### ywallet
 
 * On the top right corner select Accounts, and click on the green circle on the bottom right to add your *read-only* account
 
 ![myViewKey](https://user-images.githubusercontent.com/81990132/208585568-46065002-6682-4ff4-ae8b-d206205b5d9b.png)
-
 
 
 #### zcashblockexplorer.com
