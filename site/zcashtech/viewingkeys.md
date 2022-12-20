@@ -30,6 +30,22 @@ Why would a user ever want to do this? From Electric Coin Co.'s blog on the matt
 
 * On the top right corner select Backup, Authenticate your phone, then simply copy your viewing key that is displayed.
 
+### How to use your viewing key
+
+#### zcashd
+
+#### ywallet
+
+* On the top right corner select Accounts, and click on the green circle on the bottom right to add your *read-only* account
+
+![myViewKey](https://user-images.githubusercontent.com/81990132/208585568-46065002-6682-4ff4-ae8b-d206205b5d9b.png)
+
+
+
+#### zcashblockexplorer.com
+
+* Simply point your browser to [here](https://zcashblockexplorer.com/vk) and wait for the results! note: this result is now on the zcashblockexplorer node and thus you're trusting this info with the owners of zcashblockexplorer.com
+
 ### Resources
 
 While a great technology, it's recommended that you use viewing keys on an as needed basis.
