@@ -13,7 +13,7 @@ The Global Ambassador Program is designed to identify community members who make
   
 ## Current Ambassadors
 
-  [Currnet list](https://forum.zcashcommunity.com/t/the-global-ambassador-program/41070/120)
+  [Current list](https://forum.zcashcommunity.com/t/the-global-ambassador-program/41070/120)
   
   * `Aiden 2 	      South Korea 	  @AidenZ`
 
