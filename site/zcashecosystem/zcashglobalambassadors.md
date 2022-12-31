@@ -7,7 +7,7 @@ The Global Ambassador Program is designed to identify community members who make
 
   * Hosting physical or virtual meetup events
   * Maintaining an active presence on social media, and creating original content related to Zcash.
-  * Ambassadors to have creative freedom over the activities they plan. 
+  * Ambassadors have creative freedom over the activities they plan. 
   
   #### Note: Ambassadors who successfully fulfill their obligations are eligible to receive a monthly stipend of $1,000 to support and reward their efforts.
   
