@@ -18,30 +18,24 @@ The Global Ambassador Program is designed to identify community members who make
   | Ambassador | Country | Forum name|
 | ----------- | ----------- | ----------- |
 | Aiden 2     | South Korea | @AidenZ     |
-| Paragraph   | Text        |             |
+| Artkor 4    | Russia      | @artkor     |
+| BostonZcash | US          | @BostonZcash|
+| Chidi       | Nigeria     | @lisa001    |
+| Eric        | US          | @_eric      |
+| Aiden 2     | South Korea | @AidenZ     |
+| Artkor 4    | Russia      | @artkor     |
+| BostonZcash | US          | @BostonZcash|
+| Chidi       | Nigeria     | @lisa001    |
+| Eric        | US          | @_eric      |
+| Jacob       | US          |             |
 | Header      | Title       |             |
 | Paragraph   | Text        |             |
 | Header      | Title       |             |
 | Paragraph   | Text        |             |
-| Header      | Title       |             |
-| Paragraph   | Text        |             |
-| Header      | Title       |             |
-| Paragraph   | Text        |             |
 
 
-  * `Aiden 2 	      South Korea 	  @AidenZ`
+ 
 
-
-  * `Artkor 4 	     Russia 	       @artkor`
-
-
-  * `BostonZcash 	  United States 	@BostonZcash`
-
-
-  * `Chidi 	        Nigeria 	      @lisa001`
-
-
-  * `Eric 	         United States 	@_eric`
 
 
   * `Jacob 	        United States 	@readaboutme1991`
