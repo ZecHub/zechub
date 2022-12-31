@@ -20,7 +20,7 @@ The Global Ambassador Program is designed to identify community members who make
 | Aiden 2     | South Korea | @AidenZ     | [Aiden Jeon](https://twitter.com/zaos1004) |
 | Artkor 4    | Russia      | @artkor     | [RuZcash](https://twitter.com/RuZcash) |
 | BostonZcash | US          | @BostonZcash| [BostonZash](https://twitter.com/BostonZcash) |
-| Chidi       | Nigeria     | @lisa001    |             |
+| Chidi       | Nigeria     | @lisa001    | [ZcashNigeria](https://twitter.com/ZcashNigeria) |
 | Eric        | US          | @_eric      |             |
 | Jacob       | US          | @readaboutme1991| [lifeofjacob.eth](https://twitter.com/readaboutme1991) |
 | Madison 2   | US          | @madisonedge| [mad_parks](https://twitter.com/mad_parks) |
