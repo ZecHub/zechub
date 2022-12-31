@@ -17,16 +17,16 @@ The Global Ambassador Program is designed to identify community members who make
   
   | Ambassador | Country | Forum name| Twitter |
 | ----------- | ----------- | ----------- | ----------- |
-| Aiden 2     | South Korea | @AidenZ     | [Aiden Jeon](https://twitter.com/zaos1004) |
-| Artkor 4    | Russia      | @artkor     | [RuZcash](https://twitter.com/RuZcash) |
+| Aiden       | South Korea | @AidenZ     | [Aiden Jeon](https://twitter.com/zaos1004) |
+| Artkor      | Russia      | @artkor     | [RuZcash](https://twitter.com/RuZcash) |
 | BostonZcash | US          | @BostonZcash| [BostonZash](https://twitter.com/BostonZcash) |
 | Chidi       | Nigeria     | @lisa001    | [ZcashNigeria](https://twitter.com/ZcashNigeria) |
 | Eric        | US          | @_eric      | [PayWithZcash](https://twitter.com/paywithzcash) |
 | Jacob       | US          | @readaboutme1991| [lifeofjacob.eth](https://twitter.com/readaboutme1991) |
-| Madison 2   | US          | @madisonedge| [mad_parks](https://twitter.com/mad_parks) |
+| Madison     | US          | @madisonedge| [mad_parks](https://twitter.com/mad_parks) |
 | Michael     | Brazil      | @michae2xl  | [Michael2xl](https://twitter.com/michae2xl) |
 | Yoditar     | Venezuela   | @yoditar    | [Yoditar.zkp](https://twitter.com/yoditarX) |
-| Zoz 2       | Saudi Arabia| @zoz        | [ZECArabic](https://twitter.com/ZozNotorious) |
+| Zoz         | Saudi Arabia| @zoz        | [ZECArabic](https://twitter.com/ZozNotorious) |
 
 
  
