@@ -15,10 +15,10 @@ The Global Ambassador Program is designed to identify community members who make
 
   [Current list](https://forum.zcashcommunity.com/t/the-global-ambassador-program/41070/120)
   
-  | Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+  | Ambassador | Country | Forum name|
+| ----------- | ----------- | ----------- |
+| Header      | Title       |             |
+| Paragraph   | Text        |             |
 
 
   * `Aiden 2 	      South Korea 	  @AidenZ`
