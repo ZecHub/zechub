@@ -18,28 +18,28 @@ The Global Ambassador Program is designed to identify community members who make
   * `Aiden 2 	      South Korea 	  @AidenZ`
 
 
-  * Artkor 4 	     Russia 	       @artkor
+  * `Artkor 4 	     Russia 	       @artkor`
 
 
-  * BostonZcash 	  United States 	@BostonZcash
+  * `BostonZcash 	  United States 	@BostonZcash`
 
 
-  * Chidi 	        Nigeria 	      @lisa001
+  * `Chidi 	        Nigeria 	      @lisa001`
 
 
-  * Eric 	         United States 	@_eric
+  * `Eric 	         United States 	@_eric`
 
 
-  * Jacob 	        United States 	@readaboutme1991
+  * `Jacob 	        United States 	@readaboutme1991`
 
 
-  * Madison 2 	    United States 	@madisonedge
+  * `Madison 2 	    United States 	@madisonedge`
 
 
-  * Michael 	      Brazil 	       @michae2xl
+  * `Michael 	      Brazil 	       @michae2xl`
 
 
-  * Yoditar 	      Venezuela 	    @yoditar
+  * `Yoditar 	      Venezuela 	    @yoditar`
 
 
-  * Zoz 2 	        Saudi Arabia 	 @zoz`
+  * `Zoz 2 	        Saudi Arabia 	 @zoz`
