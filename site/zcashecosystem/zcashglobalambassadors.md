@@ -22,32 +22,12 @@ The Global Ambassador Program is designed to identify community members who make
 | BostonZcash | US          | @BostonZcash|
 | Chidi       | Nigeria     | @lisa001    |
 | Eric        | US          | @_eric      |
-| Aiden 2     | South Korea | @AidenZ     |
-| Artkor 4    | Russia      | @artkor     |
-| BostonZcash | US          | @BostonZcash|
-| Chidi       | Nigeria     | @lisa001    |
-| Eric        | US          | @_eric      |
 | Jacob       | US          | @readaboutme1991|
-| Header      | Title       |             |
-| Paragraph   | Text        |             |
-| Header      | Title       |             |
-| Paragraph   | Text        |             |
+| Madison 2   | US          | @madisonedge|
+| Michael     | Brazil      | @michae2xl  |
+| Yoditar     | Venezuela   | @yoditar    |
+| Zoz 2       | Saudi Arabia| @zoz        |
 
 
  
 
-
-
-  * `Jacob 	        United States 	@readaboutme1991`
-
-
-  * `Madison 2 	    United States 	@madisonedge`
-
-
-  * `Michael 	      Brazil 	       @michae2xl`
-
-
-  * `Yoditar 	      Venezuela 	    @yoditar`
-
-
-  * `Zoz 2 	        Saudi Arabia 	 @zoz`
