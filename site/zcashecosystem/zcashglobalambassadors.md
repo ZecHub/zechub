@@ -13,14 +13,33 @@ The Global Ambassador Program is designed to identify community members who make
   
 ## Current Ambassadors
 
-  `* Ambassador 	   Country 	      [Forum Username](https://forum.zcashcommunity.com/t/the-global-ambassador-program/41070/120)
-  * Aiden 2 	      South Korea 	  @AidenZ
+  [Currnet list](https://forum.zcashcommunity.com/t/the-global-ambassador-program/41070/120)
+  
+  * `Aiden 2 	      South Korea 	  @AidenZ`
+
+
   * Artkor 4 	     Russia 	       @artkor
+
+
   * BostonZcash 	  United States 	@BostonZcash
+
+
   * Chidi 	        Nigeria 	      @lisa001
+
+
   * Eric 	         United States 	@_eric
+
+
   * Jacob 	        United States 	@readaboutme1991
+
+
   * Madison 2 	    United States 	@madisonedge
+
+
   * Michael 	      Brazil 	       @michae2xl
+
+
   * Yoditar 	      Venezuela 	    @yoditar
+
+
   * Zoz 2 	        Saudi Arabia 	 @zoz`
