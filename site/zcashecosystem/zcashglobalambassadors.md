@@ -17,8 +17,8 @@ The Global Ambassador Program is designed to identify community members who make
   
   | Ambassador | Country | Forum name| Twitter |
 | ----------- | ----------- | ----------- | ----------- |
-| Aiden 2     | South Korea | @AidenZ     |             |
-| Artkor 4    | Russia      | @artkor     |             |
+| Aiden 2     | South Korea | @AidenZ     | [Aiden Jeon](https://twitter.com/zaos1004) |
+| Artkor 4    | Russia      | @artkor     | [RuZcash](https://twitter.com/RuZcash) |
 | BostonZcash | US          | @BostonZcash| [BostonZash](https://twitter.com/BostonZcash) |
 | Chidi       | Nigeria     | @lisa001    |             |
 | Eric        | US          | @_eric      |             |
