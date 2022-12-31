@@ -27,7 +27,7 @@ The Global Ambassador Program is designed to identify community members who make
 | BostonZcash | US          | @BostonZcash|
 | Chidi       | Nigeria     | @lisa001    |
 | Eric        | US          | @_eric      |
-| Jacob       | US          |             |
+| Jacob       | US          | @readaboutme1991|
 | Header      | Title       |             |
 | Paragraph   | Text        |             |
 | Header      | Title       |             |
