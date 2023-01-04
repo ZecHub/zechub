@@ -34,3 +34,5 @@
 3. [Zcash Foundation](https://discord.gg/CuNnq4TDJz)
 4. [Cypherpunk Zero DAO](https://discord.gg/qXn9CZ5Kpm)
 5. [ZUG](https://discord.gg/w8zHgXbgMF)
+6. [YWallet](https://discord.gg/3vsgT4M4yB)
+7. [Halo 2 Ecosystem](https://discord.gg/x5qw59pYQ6)
