@@ -74,7 +74,7 @@ Having computed the challenge c, each participant is able to compute the respons
 
 ## Does it benefit Zcash?
 
-Absolutey yes. The introduction of FROST to Zcash will allow multiple parties, seperated geographically to control spend authority of shielded ZEC. An advantage being that transactions broadcast using this signature scheme will be indistinguishable from other transactions on the network, maintaining strong resistance to payment tracking and limiting the amount of blockchain data available for analysis. 
+Absolutely yes. The introduction of FROST to Zcash will allow multiple parties, separated geographically to control spend authority of shielded ZEC. An advantage being that transactions broadcast using this signature scheme will be indistinguishable from other transactions on the network, maintaining strong resistance to payment tracking and limiting the amount of blockchain data available for analysis. 
 
 In practice this allows for an entire host of new applications to be built on the network ranging from escrow providers or other non-custodial services. 
 
@@ -85,7 +85,7 @@ FROST will also become an essential component in the secure issuance and managem
 
 **FROST in [Coinbase](https://github.com/coinbase/kryptology/tree/master/pkg/dkg/frost)**
 
-In order to improve efficiency of Coinbase’s threshold-signing systems they developed a version of FROST. The Coinbase implementation making slight changes from the original FROST draft.
+In order to improve efficiency of Coinbase’s threshold-signing systems they developed a version of FROST. The Coinbase implementation makes slight changes from the original FROST draft.
 
 They opted not use the signature aggregator role. Instead, each participant is a signature aggregator. This design is more secure: all the participants of the protocol verify what others have computed to achieve a higher level of security and reduce risk. The (one-time) preprocessing stage was also removed in order to speed up the implementation, having a third signing round instead.
 
@@ -105,7 +105,7 @@ The Internet Engineering Task Force, founded in 1986, is the premiere standards 
 
 FROST version 11 (two-round variant) has been [submitted to IRTF](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/11/). 
 
-This is an important step for the complete evaluation & of FROST as a new threshold signatture scheme standard for use across the internet, in hardware devices and for other services in the years to come. 
+This is an important step for the complete evaluation & of FROST as a new threshold signature scheme standard for use across the internet, in hardware devices and for other services in the years to come. 
 ___
 
 
