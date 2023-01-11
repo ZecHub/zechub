@@ -1,5 +1,8 @@
 # ZecHub DAO
 
+
+![Governance](https://user-images.githubusercontent.com/81990132/206885452-29b6ff27-c58f-4361-b5a8-1529212def03.png)
+
 The ZecHub DAO currently consists of 8 founding members:
 
 * @squirrel
@@ -29,8 +32,6 @@ DAOs need the following elements for being fully functional:
 ZecHub is one of the first public DAO's in Zcash's history. A unique aspect of the DAO is how its funds are held in Shielded Zcash address, compared to most DAO's that live on Ethereum. We have also created a [NFT](https://opensea.io/collection/zechub) for establishing voting rights.
 
 ## Governance
-
-![Governance](https://user-images.githubusercontent.com/81990132/206885452-29b6ff27-c58f-4361-b5a8-1529212def03.png)
 
 All DAO proposals are public and can be viewed [here](https://snapshot.org/#/zechubdao.eth). Any current member of the ZecHubDAO can create a proposal to vote on.
 
