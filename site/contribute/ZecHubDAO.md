@@ -34,6 +34,9 @@ ZecHub is one of the first public DAO's in Zcash's history. A unique aspect of t
 
 All DAO proposals are public and can be viewed [here](https://snapshot.org/#/zechubdao.eth). Any current member of the ZecHubDAO can create a proposal to vote on.
 
+![Screenshot_2023-01-11_09-39-23](https://user-images.githubusercontent.com/81990132/211878680-468f8c15-99f9-42e1-b773-36847c0973ca.png)
+
+
 
 ## Sources
 
