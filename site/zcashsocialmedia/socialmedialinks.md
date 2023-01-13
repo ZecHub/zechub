@@ -51,4 +51,4 @@
 8. [ZF A/V Club](https://discord.gg/VkAvUZfuXn)
 
 ## Telegram
-1. [Zcash Community] (https://t.me/Zcash_Community)
+1. [Zcash Community](https://t.me/Zcash_Community)
