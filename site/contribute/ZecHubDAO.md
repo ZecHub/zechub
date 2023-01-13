@@ -1,5 +1,8 @@
 # ZecHub DAO
 
+
+![Governance](https://user-images.githubusercontent.com/81990132/206885452-29b6ff27-c58f-4361-b5a8-1529212def03.png)
+
 The ZecHub DAO currently consists of 8 founding members:
 
 * @squirrel
@@ -30,9 +33,9 @@ ZecHub is one of the first public DAO's in Zcash's history. A unique aspect of t
 
 ## Governance
 
-![Governance](https://user-images.githubusercontent.com/81990132/206885452-29b6ff27-c58f-4361-b5a8-1529212def03.png)
+All DAO proposals are public and can be viewed [here](https://snapshot.org/#/zechubdao.eth). Any current member of the ZecHubDAO can create a proposal to vote on. In an effort to support community transparency, the ZecHubDAO will post all governance proposals in [this](https://forum.zcashcommunity.com/t/zechub-is-now-a-dao/43674) forum thread.
 
-The governance structure is currently being developed by the founding members and will be public once completed.
+![Screenshot_2023-01-11_09-39-23](https://user-images.githubusercontent.com/81990132/211878680-468f8c15-99f9-42e1-b773-36847c0973ca.png)
 
 
 

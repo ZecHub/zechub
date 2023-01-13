@@ -19,6 +19,18 @@
 15. ZcashRu - [@ruzcash](https://twitter.com/RuZcash)
 16. Zcash Africa - [@zcashafrica](https://twitter.com/ZcashAfrica)
 17. Zcash Under Ground - [@zcashug](https://twitter.com/zcashug)
+18. Zcash Foundation Audio/Visual Club -[@ZFAVClub](https://twitter.com/ZFAVClub)
+19. Zcash South Korea - [@zeckr97](https://twitter.com/zeckr97)
+20. Zcash Indonesia - [@ZcashID](https://twitter.com/ZcashID)
+21. Zcash Japan - [@ZcashJP](https://twitter.com/ZcashJP)
+22. ZEC Map - [@zecmap](https://twitter.com/zecmap)
+23. ZECMarketCap - [@ZECMarketCap](https://twitter.com/ZECMarketCap)
+24. free2z - [@free2zcash](https://twitter.com/free2zcash)
+25. ZcashNigeria - [@ZcashNigeria](https://twitter.com/ZcashNigeria)
+26. ZGo! - [@ZGoCashApp](https://twitter.com/ZGoCashApp)
+27. Zcash Magazine - [@ZcashMagazine](https://twitter.com/ZcashMagazine)
+28. Zcash Canada - [@ZcashCanada](https://twitter.com/ZcashCanada)
+29. Cypherpunk Zero DAO - [@CypherpunkDAO](https://twitter.com/CypherpunkDAO)
 
 ## YouTube
 
@@ -36,3 +48,4 @@
 5. [ZUG](https://discord.gg/w8zHgXbgMF)
 6. [YWallet](https://discord.gg/3vsgT4M4yB)
 7. [Halo 2 Ecosystem](https://discord.gg/x5qw59pYQ6)
+8. [ZF A/V Club](https://discord.gg/VkAvUZfuXn)
