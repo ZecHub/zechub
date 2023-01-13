@@ -13,6 +13,7 @@ Block producers (aka miners) are tasked with validating transactions in a networ
 In Bitcoin and other cryptocurrencies, all of the block rewards go to block producers. Zcash is unique in the fact that 20% of the block reward is transferred to the [Zcash development fund](https://zips.z.cash/zip-1014). This fund funds the teams working on the Zcash protocol.
 
 Currently, [Zcash Community Grants](https://zcashcommunitygrants.org/) receives 8% of block rewards, Electric Coin Co. receives 7%, and the Zcash Foundation receives 5%. This works out to 40%, 35%, and 25% of the development fund respectively.
+![Dev Fund Recipients ](https://user-images.githubusercontent.com/43553081/212411570-4858a3d6-f7a1-465a-bf0c-d2ef726d41dc.jpeg)
 
 In 2020, the Zcash community voted on the development fund and the teams supported by it. In 2024, the community will vote again to determine who gets funding from the development fund.
 
