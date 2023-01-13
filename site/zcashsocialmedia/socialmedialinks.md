@@ -13,8 +13,8 @@
 9. Pay with Zcash - [@paywithzcash](https://twitter.com/paywithzcash)
 10. Mine Zcash - [@minezcash](https://twitter.com/mineZcash)
 11. DocumentingZEC - [@documentingzec](https://twitter.com/DocumentingZEC)
-12. Zcash Espanyol - [@zcashesp](https://twitter.com/zcashesp)
-13. Zcash Brasil - [@zcashbrazil](https://twitter.com/zcashbrazil)
+12. Zcash Español - [@zcashesp](https://twitter.com/zcashesp)
+13. Zcash Brazil - [@zcashbrazil](https://twitter.com/zcashbrazil)
 14. ZEC Arabic - [@zoznotorious](https://twitter.com/ZozNotorious)
 15. ZcashRu - [@ruzcash](https://twitter.com/RuZcash)
 16. Zcash Africa - [@zcashafrica](https://twitter.com/ZcashAfrica)
@@ -26,7 +26,7 @@
 22. ZEC Map - [@zecmap](https://twitter.com/zecmap)
 23. ZECMarketCap - [@ZECMarketCap](https://twitter.com/ZECMarketCap)
 24. free2z - [@free2zcash](https://twitter.com/free2zcash)
-25. ZcashNigeria - [@ZcashNigeria](https://twitter.com/ZcashNigeria)
+25. Zcash Nigeria - [@ZcashNigeria](https://twitter.com/ZcashNigeria)
 26. ZGo! - [@ZGoCashApp](https://twitter.com/ZGoCashApp)
 27. Zcash Magazine - [@ZcashMagazine](https://twitter.com/ZcashMagazine)
 28. Zcash Canada - [@ZcashCanada](https://twitter.com/ZcashCanada)
@@ -49,3 +49,6 @@
 6. [YWallet](https://discord.gg/3vsgT4M4yB)
 7. [Halo 2 Ecosystem](https://discord.gg/x5qw59pYQ6)
 8. [ZF A/V Club](https://discord.gg/VkAvUZfuXn)
+
+## Telegram
+1. [Zcash Community](https://t.me/Zcash_Community)
