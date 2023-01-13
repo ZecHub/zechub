@@ -36,3 +36,4 @@
 5. [ZUG](https://discord.gg/w8zHgXbgMF)
 6. [YWallet](https://discord.gg/3vsgT4M4yB)
 7. [Halo 2 Ecosystem](https://discord.gg/x5qw59pYQ6)
+8. [ZF A/V Club](https://discord.gg/VkAvUZfuXn)
