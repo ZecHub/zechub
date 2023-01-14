@@ -15,18 +15,18 @@ Stay up to date on future episodes:
 
 **Episode List**
 
-+ Episode 7 - [Zcash FUD with Josh Swihart](https://www.youtube.com/watch?v=a6TQt6rmwXU)
++ Episode 7 - Zcash FUD with Josh Swihart [Youtube](https://www.youtube.com/watch?v=a6TQt6rmwXU) | [Odysee](https://odysee.com/@ZecHub:4/podcast-Josh:9)
 
-+ Episode 6 - [Zcash Brasil's latest grant proposal with Samara](https://www.youtube.com/watch?v=F5_DXXFSEsQ)
++ Episode 6 - Zcash Brasil's latest grant proposal with Samara [Youtube](https://www.youtube.com/watch?v=F5_DXXFSEsQ) | [Odysee](https://odysee.com/@ZecHub:4/zcash-brazil-podcast:e)
 
-+ Episode 5 - [The new Zcash podcast with Joël Valenzuela](https://www.youtube.com/watch?v=TE1ILZankdM)
++ Episode 5 - The new Zcash podcast with Joël Valenzuela [Youtube](https://www.youtube.com/watch?v=TE1ILZankdM) | [Odysee](https://odysee.com/@ZecHub:4/podcast-with-joe%CC%88l:6)
 
-+ Episode 4 - [Zcash narratives with David from Zcash Media](https://www.youtube.com/watch?v=gl5qxA4Q6yk) | [Twitter](https://twitter.com/ZecHub/status/1572230649972400128)
++ Episode 4 - Zcash narratives with David from Zcash Media [Youtube](https://www.youtube.com/watch?v=gl5qxA4Q6yk) | [Odysee](https://odysee.com/@ZecHub:4/z2z-podcast_untitled-recording_david-law50vmad_cfr_2022-sep-15-2320pm-utc-riverside_1:e)
 
-+ Episode 3 - [DeFi and privacy with Railgun](https://www.youtube.com/watch?v=jLd7J5BY_aM) | [Twitter](https://twitter.com/ZecHub/status/1564254194336407553)
++ Episode 3 - DeFi and privacy with Railgun [Youtube](https://www.youtube.com/watch?v=jLd7J5BY_aM) | [Odysee](https://odysee.com/@ZecHub:4/railgun:f)
 
-+ Episode 2 - [Music NFTs, privacy and economic freedom with Xcelencia](https://www.youtube.com/watch?v=nrtoRgb7g28) | [Twitter](https://twitter.com/ZecHub/status/1561834544927592448)
++ Episode 2 - Music NFTs, privacy and economic freedom with Xcelencia [Youtube](https://www.youtube.com/watch?v=nrtoRgb7g28) | [Odysee](https://odysee.com/@ZecHub:4/xcelencia:4)
 
-+ Episode 1 - [Crypto regulation and financial privacy with J.W. Verret](https://www.youtube.com/watch?v=20oCI7XAR08) |  [Twitter](https://twitter.com/iansagstette/status/1557400769862795264)
++ Episode 1 - Crypto regulation and financial privacy with J.W. Verret [Youtube](https://www.youtube.com/watch?v=20oCI7XAR08) |  [Odysee](https://odysee.com/@ZecHub:4/z2zpodcast1:4)
 
 If you have any reccomendations of who you would like to see next on the podcast, feel free to reach out to us!  DM's to @zechub on Twitter
