@@ -15,8 +15,13 @@ Stay up to date on future episodes:
 
 **Episode List**
 
++ Episode 7 - [Zcash FUD with Josh Swihart](https://www.youtube.com/watch?v=a6TQt6rmwXU)
+
++ Episode 6 - [Zcash Brasil's latest grant proposal with Samara](https://www.youtube.com/watch?v=F5_DXXFSEsQ)
+
++ Episode 5 - [The new Zcash podcast with Joël Valenzuela](https://www.youtube.com/watch?v=TE1ILZankdM)
+
 + Episode 4 - [Zcash narratives with David from Zcash Media](https://www.youtube.com/watch?v=gl5qxA4Q6yk) | [Twitter](https://twitter.com/ZecHub/status/1572230649972400128)
-            
 
 + Episode 3 - [DeFi and privacy with Railgun](https://www.youtube.com/watch?v=jLd7J5BY_aM) | [Twitter](https://twitter.com/ZecHub/status/1564254194336407553)
 
