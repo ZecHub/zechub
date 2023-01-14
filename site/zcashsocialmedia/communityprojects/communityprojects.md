@@ -20,6 +20,10 @@ Free2z is a tool for anonymous content and private donations.
 
 Private money in your wallet using ZEC & capable of autoshielding funds.  
 
+[Ywallet](https://ywallet.app/)
+
+A multi-feature privacy wallet supporting Zcash and Ycash utilising the fast syncing algorithm: warp-sync.
+
 [Zbay](https://www.zbay.app/index.html)
 
 Zbay lets you send messages, build online communities and marketplaces, and buy & sell products privately using Zcash.
