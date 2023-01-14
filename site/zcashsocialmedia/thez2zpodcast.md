@@ -29,4 +29,4 @@ Stay up to date on future episodes:
 
 + Episode 1 - Crypto regulation and financial privacy with J.W. Verret [Youtube](https://www.youtube.com/watch?v=20oCI7XAR08) |  [Odysee](https://odysee.com/@ZecHub:4/z2zpodcast1:4)
 
-If you have any reccomendations of who you would like to see next on the podcast, feel free to reach out to us!  DM's to @zechub on Twitter
+If you have any recommendations of who you would like to see next on the podcast, feel free to reach out to us!  DM's to @zechub on Twitter
