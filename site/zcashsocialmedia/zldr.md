@@ -6,4 +6,4 @@ Episodes are released every 2 weeks. Please subscribe to zl:dr at our YouTube ch
 
 [zl;dr Playlist](https://www.youtube.com/playlist?list=PL6_epn0lASLG4cC2Se_KwbYJx-nd3EbDC)
 
-Watch the latest zl;dr on Youtube [here](https://www.youtube.com/watch?v=rt4Qx7gABiA)
+Watch the latest zl;dr [here](https://www.youtube.com/watch?v=rt4Qx7gABiA)
