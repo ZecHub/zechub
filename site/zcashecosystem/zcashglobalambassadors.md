@@ -23,6 +23,7 @@ The Global Ambassador Program is designed to identify community members who make
 | Chidi       | Nigeria     | @lisa001    | [ZcashNigeria](https://twitter.com/ZcashNigeria) |
 | Eric        | US          | @_eric      | [PayWithZcash](https://twitter.com/paywithzcash) |
 | Jacob       | US          | @readaboutme1991| [lifeofjacob.eth](https://twitter.com/readaboutme1991) |
+| Ksenya      | Germany     | @j32804      | [j32804](https://twitter.com/j32804) |
 | Madison     | US          | @madisonedge| [mad_parks](https://twitter.com/mad_parks) |
 | Michael     | Brazil      | @michae2xl  | [Michael2xl](https://twitter.com/michae2xl) |
 | Yoditar     | Venezuela   | @yoditar    | [Yoditar.zkp](https://twitter.com/yoditarX) |
