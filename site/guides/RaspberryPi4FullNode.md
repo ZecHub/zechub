@@ -28,7 +28,7 @@ If you find this guide useful, consider donating ZEC to support ZecHub:
 * A Wi-Fi network or an ethernet cable with an internet connection
 * External SSD/HHD with USB3 support
 
-##### note: keeping your server secure is *not* simple by any means. Any tips/recommendations/best pratices beyond what is talked about in this guide *please* create a PR and help keep this guide as up-to-date as possible.
+##### note: keeping your server secure is *not* simple by any means. Any tips/recommendations/best practices beyond what is talked about in this guide *please* create a PR and help keep this guide as up-to-date as possible.
 
 
 
@@ -101,11 +101,11 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
 
      * Username and pw (from previous step)
      * IP address so we can use SSH
-     * Monitor,and keyboard (optional)
+     * Monitor, and keyboard (optional)
 
 * If you have a monitor and keyboard connected directly to your pi, the rest of this section can be skipped.
 
-* Two ways to find your IP address are via your router admin page, or with nmap. If using the router, it depends on which manufactor and I'll defer those details to a quick google search.
+* Two ways to find your IP address are via your router admin page, or with nmap. If using the router, it depends on which manufacture and I'll defer those details to a quick google search.
  
      * For nmap, first make sure it is installed:
 
@@ -127,7 +127,7 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
    ![sshLogin](https://user-images.githubusercontent.com/81990132/197372846-e1279388-eaaa-4fbb-8d5d-f9928cb45195.png)
        
 
-* If your curious which version Raspberry Pi you are using, try this command:
+* If you’re curious which version Raspberry Pi you are using, try this command:
 
      `cat /sys/firmware/devicetree/base/model ; echo`
      
@@ -331,7 +331,7 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
      
     ![newAccount](https://user-images.githubusercontent.com/81990132/202352436-04c17be2-e914-4b9b-95d1-00cf6fc496d3.png)
     
-   * Now build a UA reciever according to *your needs*. This includes Orchard only, Orchard + Sapling, and finally Orchard + Sapling + Transparent.
+   * Now build a UA receiver according to *your needs*. This includes Orchard only, Orchard + Sapling, and finally Orchard + Sapling + Transparent.
    
    * Note you can tell the difference between receivers by how long they are
 
