@@ -350,10 +350,10 @@ ___
 |  **Zcash Developer Alliance (ZDA)**:  |   Prioritising cross-chain interoperability as the first deliverable, it brings together a variety of teams to work towards a common goal. [Zcash Developer Alliance](https://electriccoin.co/zcash-developer-alliance/) |  
 | **Zcash Foundation**: |  A 501(c)(3) public charity that builds financial privacy infrastructure for the public good, primarily serving users of the Zcash protocol and blockchain. [website](https://zfnd.org) |  
 |  **Zcon**: |  A yearly in-person conference centered on the Zcash ecosystem. [Zcon3 Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)|  
-|  **Zebra**: |    An Independant full node implementation of the Zcash Protocol. - [The Zebra Book](https://zebra.zfnd.org) |  
+|  **Zebra**: |    An Independent full node implementation of the Zcash Protocol. - [The Zebra Book](https://zebra.zfnd.org) |  
 |  **Zecwallet Lite**:  |   A fully-featured wallet for Zcash [website](https://zecwallet.co) |  
 |  **ZecPages**: |  A censorship resistant, Zcash blockchain-powered social media. It includes a directory of zcash users and an anonymous message board powered by Zcash. [website](https://zecpages.com/ambimorph) |  
-| **ZIP**: |  Zcash Improvement Proposal. Method for community proposals of new features for the Zcash cryptocurrency, implementation details anddocument design decisions. [ZIP Site](https://zips.z.cash) |
+| **ZIP**: |  Zcash Improvement Proposal. Method for community proposals of new features for the Zcash cryptocurrency, implementation details and document design decisions. [ZIP Site](https://zips.z.cash) |
 | **zk-SNARK**:|  Zero-knowledge Succinct Argument of Knowledge. A proof used in the Zcash protocol which allows Shielded Addresses to prove the validity of associated transactions without revealing the address or value transacted. [More information](https://zkp.science)|  
 
 
