@@ -22,7 +22,7 @@ Zcash is an implementation of the "Zerocash" protocol. It is an open-source, blo
 
 #### Why does it matter?
 
-Zcash solves Bitcoin's biggest flaw; private ownership and transfer of data. In a world where blockchain applications and cryptocurrencies are becoming more widly accepted, pseudononymous transactions are no longer a viable option to protect user privacy. Surveillance applications are becoming more widely used to analyze blockchain transactions.
+Zcash solves Bitcoin's biggest flaw; private ownership and transfer of data. In a world where blockchain applications and cryptocurrencies are becoming more widely accepted, pseudonymous transactions are no longer a viable option to protect user privacy. Surveillance applications are becoming more widely used to analyze blockchain transactions.
 
 #### Resources
 

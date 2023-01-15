@@ -6,11 +6,11 @@ Today, billions of people in the world do not have access to a fair and open cur
 
 ## People and Teams
 
-The Electric Coin Company has nearly 30 employees that are distributed across the world. They work on various things such as protocol development, applicatuion development, protocol security, business development and regulatory relations.
+The Electric Coin Company has nearly 30 employees that are distributed across the world. They work on various things such as protocol development, application development, protocol security, business development and regulatory relations.
 
 ## Organizational Structure
 
-The Electric Coin Company is wholey owned by the Bootstrap Project. The Bootstrap Project is a 501(c)(3) dedicated to the uplift of humanity through technology, scientific discovery, education and human organization. Both Bootstrap and the Electric Coin Company have a board of directors, and the Eletric Coin Company also has a Scientific Advisory Group.
+The Electric Coin Company is wholly owned by the Bootstrap Project. The Bootstrap Project is a 501(c)(3) dedicated to the uplift of humanity through technology, scientific discovery, education and human organization. Both Bootstrap and the Electric Coin Company have a board of directors, and the Electric Coin Company also has a Scientific Advisory Group.
 
 ## Funding
 

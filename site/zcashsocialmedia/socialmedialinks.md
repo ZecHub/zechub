@@ -52,3 +52,6 @@
 
 ## Telegram
 1. [Zcash Community](https://t.me/Zcash_Community)
+
+## Mastodon
+1. [Zeal Center](https://zeal.center/) - Register to join [here](https://blog.zeal.center/registration.html)
