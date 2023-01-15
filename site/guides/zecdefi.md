@@ -16,7 +16,7 @@ Zcash users are capable of leveraging Ethereum smart contracts and wider DeFi ap
 
 Purchase ZEC from any Exchange & Proceed to withdraw to your personal non-custodial wallet such as Nighthawk, ZecWallet Lite or Ywallet.  
 
-If withdrawal was deposited to a T-adddress, Auto-shield funds or make an additional transaction to Z-address.
+If withdrawal was deposited to a T-address, Auto-shield funds or make an additional transaction to Z-address.
 
 This means that the money within your wallet is no longer tied back to your identity.
 
@@ -93,7 +93,7 @@ Once the ETH has been deposited to your fresh address you are now able to access
 
 **Note**: It is also possible to bridge any ETH you already have to private store as Shielded Zcash using the "Release" Tab & entering your Transparent address. You may then use the 'Autoshield' in your mobile/desktop wallet.
 
-   For this application to remain private it is recomended not to swap from ZEC > ETH and back from ETH > ZEC. 
+   For this application to remain private it is recommended not to swap from ZEC > ETH and back from ETH > ZEC. 
 
 
       
@@ -115,7 +115,7 @@ Continuing research into Proof-of-Stake & the Cosmos Interblockchain Communicati
 
 **ZSA/UDA's**
 
-Zcash Shielded Assets / User Defined Assets have been in developement with the assistance of a dedicated team. Following the NU5 protocol upgrade they are significantly closer to fruition. Mechanisms for trustless & private cross-chain bridging of these assets enabling interoperability are currently in the works. A link to the Zcon3 presentation on this below. 
+Zcash Shielded Assets / User Defined Assets have been in development with the assistance of a dedicated team. Following the NU5 protocol upgrade they are significantly closer to fruition. Mechanisms for trustless & private cross-chain bridging of these assets enabling interoperability are currently in the works. A link to the Zcon3 presentation on this below. 
 
 
 ### Resources:
