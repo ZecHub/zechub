@@ -8,7 +8,7 @@ When sending a Z2Z (shielded-to-shielded) transaction, you're able to include a 
 
 Memos are primarily used for singing payments. Since shielded transactions encrypt your data, you're not able to see who sent you ZEC, and what the ZEC might've been for.
 
-Users can use the memo field to sign their name or psuedonym to let their counterpart know who the transaction was from. They can also describe what the transaction was for.
+Users can use the memo field to sign their name or pseudonym to let their counterpart know who the transaction was from. They can also describe what the transaction was for.
 
 #### Sending a Message
 
