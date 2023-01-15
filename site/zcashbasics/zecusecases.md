@@ -4,7 +4,7 @@
 
 #### Payments
 
-People use ZEC to transact efficiently and safely with low fees. Shielded Zcash ensures transactions remain confidential, while also giving them the option to share address and transaction information should they choose to. Private, "Z-Z" transactions appear on the public blockchain so it is known that they occured and that fees were paid. But, the addresses, transaction amount and memo field are all encrypted and not publicly visible. 
+People use ZEC to transact efficiently and safely with low fees. Shielded Zcash ensures transactions remain confidential, while also giving them the option to share address and transaction information should they choose to. Private, "Z-Z" transactions appear on the public blockchain so it is known that they occurred and that fees were paid. But, the addresses, transaction amount and memo field are all encrypted and not publicly visible. 
 
 #### Store of Value
 
