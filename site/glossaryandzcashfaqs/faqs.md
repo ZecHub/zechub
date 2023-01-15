@@ -16,7 +16,7 @@ You can buy ZEC from cryptocurrency [exchanges](https://z.cash/exchanges). You c
 
 ## What is the difference between Zcash & other cryptocurrencies?
 
-Zcash is fundamentaly more private than other cryptocurrencies such as Bitcoin or Ethereum. Zcash supports fast block times (75 seconds), low fees (default 0.0001 ZEC) and has regular upgrade schedules, which means this protocol is highly adaptable. A key feature is the optional privacy. Users are able to select whether a transaction is made on the Transparent or Shielded part of the blockchain. For more information see [here](https://bitzecbzc.github.io/blog/shielded-ecosystem/index.html)
+Zcash is fundamentally more private than other cryptocurrencies such as Bitcoin or Ethereum. Zcash supports fast block times (75 seconds), low fees (default 0.0001 ZEC) and has regular upgrade schedules, which means this protocol is highly adaptable. A key feature is the optional privacy. Users are able to select whether a transaction is made on the Transparent or Shielded part of the blockchain. For more information see [here](https://bitzecbzc.github.io/blog/shielded-ecosystem/index.html)
 
 ## How is the Zcash protocol governed?
 
@@ -70,13 +70,13 @@ ___
 
 + Zcash is controlled by corporate interests?
 
-   Incorrect. While Zcash has partnered with large companies and banks for research and outreach programs we remain committed to achieving its goal of    economic freedom & resiliency through decentralisation. Zcash has several organisations that retain a level of autonomy & therefore are not beholdant to any single party. Instead working in together to promote self-custody of assets, funding independant node implementations and leading in regulatory education around defending digital privacy and protecting human rights. 
+   Incorrect. While Zcash has partnered with large companies and banks for research and outreach programs we remain committed to achieving its goal of    economic freedom & resiliency through decentralisation. Zcash has several organisations that retain a level of autonomy & therefore are not beholden to any single party. Instead working in together to promote self-custody of assets, funding independent node implementations and leading in regulatory education around defending digital privacy and protecting human rights. 
 
 
 
 
 + Zcash has limited privacy compared to other privacy coins
    
-    No, the privacy gained from a privacy coin like Monero is reliant on it's use of decoys that obfuscate the source and destination of transactions. The transaction data is still accessible however. If an adversary were to spend enough time & resources monitoring the chain this type of privacy can be defeated. Zcash encrypts all transaction data and the same method of attack would not work. All transactions are indistringuishable within the shielded pool and therefore Zcash has a larger privacy set than any other digital currency. 
+    No, the privacy gained from a privacy coin like Monero is reliant on it's use of decoys that obfuscate the source and destination of transactions. The transaction data is still accessible however. If an adversary were to spend enough time & resources monitoring the chain this type of privacy can be defeated. Zcash encrypts all transaction data and the same method of attack would not work. All transactions are indistinguishable within the shielded pool and therefore Zcash has a larger privacy set than any other digital currency. 
 
    [more information](https://electriccoin.co/blog/not-private-enough-mixers-and-decoys-wont-protect-you-for-long/)
