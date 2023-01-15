@@ -1,6 +1,6 @@
 # Intro to Zcash Wallets
 
-Wallets allow users to recieve and spend ZEC for payments. Some also support sending and recieving encrypted memos. Below is a list of available options and a high level overview of what each option is best for.
+Wallets allow users to receive and spend ZEC for payments. Some also support sending and receiving encrypted memos. Below is a list of available options and a high level overview of what each option is best for.
 
 ---
 
