@@ -55,3 +55,6 @@
 
 ## Mastodon
 1. [Zeal Center](https://zeal.center/) - Register to join [here](https://blog.zeal.center/registration.html)
+
+## Reddit
+1. [r/zec](https://www.reddit.com/r/zec/)
