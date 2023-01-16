@@ -1,6 +1,6 @@
 # Zcash social media links
 
-## Twitter
+## Twitter <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/twitter.svg" width="20" height="20"> 
 
 1. Zcash - [@zcash](https://twitter.com/zcash)
 2. ZecHub - [@zechub](https://twitter.com/ZecHub)
@@ -32,14 +32,14 @@
 28. Zcash Canada - [@ZcashCanada](https://twitter.com/ZcashCanada)
 29. Cypherpunk Zero DAO - [@CypherpunkDAO](https://twitter.com/CypherpunkDAO)
 
-## YouTube
+## YouTube <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/youtube.svg" width="20" height="20"> 
 
 1. [Zcash Media](https://www.youtube.com/c/ZcashMedia)
 2. [ZecHub](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA)
 3. [Zcash Foundation](https://www.youtube.com/channel/UCi01v05DNTUEC_eB0c9rpgQ)
 4. [Electric Coin Co.](https://www.youtube.com/c/ZcashCo)
 
-## Discord
+## Discord <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/discord.svg" width="20" height="20"> 
 
 1. [ZcashCommunity](https://discord.com/invite/PhJY6Pm)
 2. [Zcash LATAM](https://discord.gg/zf8jvyDDfq)
@@ -50,8 +50,14 @@
 7. [Halo 2 Ecosystem](https://discord.gg/x5qw59pYQ6)
 8. [ZF A/V Club](https://discord.gg/VkAvUZfuXn)
 
-## Telegram
+## Telegram <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/telegram.svg" width="20" height="20"> 
+
 1. [Zcash Community](https://t.me/Zcash_Community)
 
-## Mastodon
+## Mastodon <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/mastodon.svg" width="20" height="20"> 
+
 1. [Zeal Center](https://zeal.center/) - Register to join [here](https://blog.zeal.center/registration.html)
+
+## Reddit <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/reddit.svg" width="20" height="20"> 
+
+1. [r/zec](https://www.reddit.com/r/zec/)

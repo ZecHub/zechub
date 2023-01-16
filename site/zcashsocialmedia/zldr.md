@@ -1,6 +1,6 @@
 ZecDaily is a now zl;dr
 
-zl;dr is a show that highlights all things Zcash in a video format. The episodes cover a number of Zcash topics, community, eco-system updates and news.
+zl;dr is a show that highlights all things Zcash in video format. The episodes cover a number of Zcash topics, community, eco-system updates and news.
 
 Episodes are released every 2 weeks. Please subscribe to zl:dr at our YouTube channel [here](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA).
 
