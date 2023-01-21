@@ -15,6 +15,8 @@ Stay up to date on future episodes:
 
 **Episode List**
 
++ Episode 8 - Zcash Security and Lightwalletd with Taylor Hornby [YouTube](https://www.youtube.com/watch?v=18-xowScNpw) | [Odysee](https://odysee.com/@ZecHub:4/Taylor-Podcast:e)
+
 + Episode 7 - Zcash FUD with Josh Swihart [Youtube](https://www.youtube.com/watch?v=a6TQt6rmwXU) | [Odysee](https://odysee.com/@ZecHub:4/podcast-Josh:9)
 
 + Episode 6 - Zcash Brasil's latest grant proposal with Samara [Youtube](https://www.youtube.com/watch?v=F5_DXXFSEsQ) | [Odysee](https://odysee.com/@ZecHub:4/zcash-brazil-podcast:e)
