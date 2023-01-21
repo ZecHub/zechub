@@ -14,6 +14,20 @@ If you would like to make next weeks newsletter, head over to our [site](https:/
 
 ---
 
+## This week's education piece
+
+We released a podcast with Zcash Ecosystem Security Lead, Taylor Hornby, this week. We talked through a number of historical topics, but most importantly, we talked through security practices that can help new users.
+
+There was a ton of nuance in the conversation, and every person will need to assess their own situation before deciding how they want to securely use ZEC. But, the biggest takeaway is that you shouldn’t use ZEC as a pass-through.
+
+https://twitter.com/ZecHub/status/1615784262761857033
+
+What does that mean? Basically, if you receive some ZEC to a shielded wallet, you shouldn’t de-shield all of it within a short amount of time. Every ZEC transaction, shielded or unshielded, leaks a bit of data about you, so to minimize that, you want to store an amount of ZEC in the shielded pool over a decent period of time. This will strengthen your privacy set, so when you do run transactions, there will be minimum data leakage about your transactions.
+
+Tl;dr? Always have a little bit of ZEC in the shielded pool. It gives you the best privacy, especially when you’re spending ZEC.
+
+Watch the episode [here](https://www.youtube.com/watch?v=18-xowScNpw).
+
 ## Zcash Updates
 
 #### ECC & ZF Updates
