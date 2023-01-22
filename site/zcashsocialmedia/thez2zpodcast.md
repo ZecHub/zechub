@@ -1,4 +1,4 @@
-## The Z2Z Podcast
+# The Z2Z Podcast
 
 The Z2Z Podcast hosts long form conversations between Ian Sagstetter (from the Electric Coin Company) and other members of the Zcash community.
 

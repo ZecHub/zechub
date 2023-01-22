@@ -1,4 +1,4 @@
-## ZecWeekly
+# ZecWeekly
 
 ZecWeekly is a newsletter that goes out every Friday morning. It includes all the news that happened during the week in the Zcash ecosystem.
 
