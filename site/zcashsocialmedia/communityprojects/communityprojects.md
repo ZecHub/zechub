@@ -1,9 +1,9 @@
-## Zcash Community Projects 
+## Zcash Community Projects
 
 
 [Block Explorer](https://zcashblockexplorer.com)
 
-The Zcash Block Explorer provides dinformations such as transaction data / block information / Addresses / Mempool Blocks etc. Also allows for Transaction Payment Disclosure Viewing Key to be used. 
+The Zcash Block Explorer provides information such as transaction data / block information / Addresses / Mempool Blocks etc. Also allows for Transaction Payment Disclosure Viewing Key to be used.
 
 
 [Frost](https://eprint.iacr.org/2020/852)
@@ -22,14 +22,14 @@ Private money in your wallet using ZEC & capable of autoshielding funds.
 
 [Ywallet](https://ywallet.app/)
 
-A multi-feature privacy wallet supporting Zcash and Ycash utilising the fast syncing algorithm: warp-sync.
+A multi-feature privacy wallet supporting Zcash and Ycash utilizing the fast syncing algorithm: warp-sync.
 
 [Zbay](https://www.zbay.app/index.html)
 
 Zbay lets you send messages, build online communities and marketplaces, and buy & sell products privately using Zcash.
 
 
-[Zebra](https://zfnd.org/zebra/) 
+[Zebra](https://zfnd.org/zebra/)
 
 Zebra is the Foundation’s independent, consensus-compatible implementation of a Zcash node, currently under development. Zebra can be used to join the Zcash peer-to-peer network, which helps keep Zcash working by validating and broadcasting transactions, and maintaining the Zcash blockchain state in a distributed manner.
 
@@ -52,12 +52,12 @@ Zeme Team allows creators to easily receive tips from anyone in the community. T
 ZGo is a Zcash Register. Enabling vendors and merchants to accept Zcash. Currently testing the app to get high quality feedback on the usability and features of ZGo.
 
 ___
-## Applications that Utilize Zcash 
+## Applications that Utilize Zcash
 
 
 [aftok](https://aftok.com)
 
-An aftok is a radical new kind of cooperative, bottom-up business organization. It's a way for you and some trusted friends to build things together and get paid for your efforts, without the hiearchy or overhead of a traditional company.
+An aftok is a radical new kind of cooperative, bottom-up business organization. It's a way for you and some trusted friends to build things together and get paid for your efforts, without the hierarchy or overhead of a traditional company.
 
 [Atomic DEX](https://atomicdex.io/en/)
 
@@ -85,7 +85,7 @@ ZeroBridge is a decentralized client of the Zero DAO protocol, enabling cross-ch
 
 [Zcash CoinHolder Polling](https://forum.zcashcommunity.com/t/coin-holder-polling-instructions/40170)
 
-A method by which coin-weighted polling took place on the Zcash blockchain using T-addresses and arranged via the community forum. 
+A method by which coin-weighted polling took place on the Zcash blockchain using T-addresses and arranged via the community forum.
 
 
 ___
@@ -126,7 +126,7 @@ The RAILGUN smart contract is already deployed on Ethereum and other blockchains
 
 [Scroll](https://scroll.io)
 
-Scroll will build a fully EVM-compatible zk-Rollup. Supporting the direct verification of a Ethereum block through one succinct proof. Verification of the consistency and integrity of each opcode in EVM execution trace. L1 smart contracts can be seamlessly migrated to Scroll supporting native EVM using customized optimizations. 
+Scroll will build a fully EVM-compatible zk-Rollup. Supporting the direct verification of a Ethereum block through one succinct proof. Verification of the consistency and integrity of each opcode in EVM execution trace. L1 smart contracts can be seamlessly migrated to Scroll supporting native EVM using customized optimizations.
 
 Scroll will enable and standardize Layer-2 proof outsourcing & adopt a new hierarchical zero-knowledge proof system. The first layer will be prover efficient (customized circuit optimization and hardware efficient proving algorithm). The second layer will be verifier efficient (succinct proof and EVM-friendly verification algorithm).
 
