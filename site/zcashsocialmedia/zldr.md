@@ -1,4 +1,4 @@
-ZecDaily is a now zl;dr
+## zl;dr (formerly ZecDaily)
 
 zl;dr is a show that highlights all things Zcash in video format. The episodes cover a number of Zcash topics, community, eco-system updates and news.
 
