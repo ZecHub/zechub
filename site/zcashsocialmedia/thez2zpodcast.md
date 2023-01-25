@@ -17,6 +17,8 @@ Stay up to date on future episodes:
 
 **Episode List**
 
++ Episode 9 - The ZFAV Club with Ryan Taylor (aka AdjyLeak) [Youtube](https://www.youtube.com/watch?v=BYnhTNkQ-3M) | [Odysee](https://odysee.com/@ZecHub:4/podcast-ryan-taylor:c)
+
 + Episode 8 - Zcash Security and Lightwalletd with Taylor Hornby [YouTube](https://www.youtube.com/watch?v=18-xowScNpw) | [Odysee](https://odysee.com/@ZecHub:4/Taylor-Podcast:e)
 
 + Episode 7 - Zcash FUD with Josh Swihart [Youtube](https://www.youtube.com/watch?v=a6TQt6rmwXU) | [Odysee](https://odysee.com/@ZecHub:4/podcast-Josh:9)
