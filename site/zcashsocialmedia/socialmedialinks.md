@@ -19,7 +19,7 @@
 15. ZcashRu - [@ruzcash](https://twitter.com/RuZcash)
 16. Zcash Africa - [@zcashafrica](https://twitter.com/ZcashAfrica)
 17. Zcash Under Ground - [@zcashug](https://twitter.com/zcashug)
-18. Zcash Foundation Audio/Visual Club -[@ZFAVClub](https://twitter.com/ZFAVClub)
+18. Zcash Foundation Audio/Visual Club - [@ZFAVClub](https://twitter.com/ZFAVClub)
 19. Zcash South Korea - [@zeckr97](https://twitter.com/zeckr97)
 20. Zcash Indonesia - [@ZcashID](https://twitter.com/ZcashID)
 21. Zcash Japan - [@ZcashJP](https://twitter.com/ZcashJP)
