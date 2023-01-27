@@ -8,7 +8,7 @@ Curated by "squirrel" ([zksquirrel](https://twitter.com/zksquirrel))
 
 #### Welcome to ZecWeekly
 
-Hi Zcashland! Today we will run through the important work being done within the ecosystem We've had the Zcash Foundation AV club first meet, new features on Free2Z and more!
+Hi Zcashers! Today we will run through the important work being done within the ecosystem We've had the Zcash Foundation AV club first meet, new features on Free2Z and more!
 
 If you would like to make next weeks newsletter, head over to our [site](https://zechub.notion.site/Help-Build-ZecHub-9f4aaa45f37d438dac56025449604d96). We'll be happy to guide you through the process, it's a great way to learn about the ecosystem and earn ZEC.
 
@@ -18,7 +18,7 @@ If you would like to make next weeks newsletter, head over to our [site](https:/
 
 [Cypherpunk Underground](https://twitter.com/Cypherpunk_Anon) returns in Chapter 12 - Mobile Phone Pinging
 
-The page explores the concept of cell phone "pinging", how its done, what is possible, how it is used by governments and law enforcement, and what it means for citizens. To introduce this is a video with Edward Snowden. Some further reading is provided in the form of internal fbi documentation on what might be one of the more complex and interesting topics in the underground series! 
+The page explores the concept of cell phone "pinging", how its done & used by governments and law enforcement, and also what it means for citizens. To introduce this is a video with Edward Snowden. Some further reading is provided in the form of internal fbi documentation on what might be one of the more complex and interesting topics in the underground series! 
 In closing it's clarified that the information is meant to serve as a good first step in understanding the methods & tools in use. 
 
 Read the full piece [here](https://free2z.com/CypherpunkUnderground/zpage/cypherpunkunderground14)
