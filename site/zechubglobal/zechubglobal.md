@@ -5,3 +5,4 @@ One of the hub's biggest successes is seeing community members translate ZecHub 
 - Zechub en Español
 - ZecHub em Português
 - ZecHub на русском языке
+- ZecHub 한국어로
