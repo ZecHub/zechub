@@ -19,8 +19,6 @@ The ZecHub DAO currently consists of :
 * @vito
 * @ZcashRU
 
-*test*
-
 The DAO will serve as an experiment for future Zcash organizations who are interested in new forms of decentralized governance models, and ZEC’s utility cross-chain.
 
 ## What is a DAO
