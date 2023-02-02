@@ -3,7 +3,7 @@
 
 ![Governance](https://user-images.githubusercontent.com/81990132/206885452-29b6ff27-c58f-4361-b5a8-1529212def03.png)
 
-The ZecHub DAO currently consists of 8 founding members:
+The ZecHub DAO currently consists of :
 
 * @squirrel
 * @yoditar.zkp 
@@ -13,6 +13,11 @@ The ZecHub DAO currently consists of 8 founding members:
 * @tokidoki 
 * @decentralistdan
 * @janusz
+* @RedNosedGnome
+* @Mine
+* @Edicksonjga
+* @vito
+* @ZcashRU
 
 *test*
 
