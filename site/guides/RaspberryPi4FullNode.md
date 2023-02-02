@@ -151,6 +151,8 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
      * Next change directory into the freshly downloaded zcashd release and run:
 
           `HOST=aarch64-linux-gnu ./zcutil/build.sh`
+          
+     * https://www.youtube.com/watch?v=MIgkTW9Rfzs
 
 ### Setup *zcashd*
 
