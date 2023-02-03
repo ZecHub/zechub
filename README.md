@@ -13,9 +13,17 @@ If you're new to Zcash, use [this guide](https://github.com/ZecHub/zechub/blob/m
 
 How to make changes to ZecHub
 ---
-  1. Go to ZecHub's Github repo.
-  2. Create a new Github account or log in with your own.
-  3. [Follow this guide to learn how to do a pull request.](https://www.youtube.com/watch?v=YTbRzhQju4c&t=1s)
+  1. Create a new Github account or log in with your own.
+  2. Go to [ZecHub's](https://github.com/ZecHub/zechub) Github repo.
+  3. Fork the official ZecHub repository
+   
+   ![fork](https://user-images.githubusercontent.com/81990132/216483838-fab47f18-1364-496b-9119-fa4506d813d5.png)
+   
+  4. Make edits / Add new material
+  5. Contribute by creating a *PR*, or Pull Request
+
+
+  6. [Follow this guide to learn how to do a pull request.](https://www.youtube.com/watch?v=YTbRzhQju4c&t=1s)
   
 Contributor Guidelines
 ---
