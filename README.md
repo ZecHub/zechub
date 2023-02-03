@@ -28,7 +28,7 @@ How to make changes to ZecHub
   
   [![Watch the video](https://img.youtube.com/vi/e-g0l6X-MB8/default.jpg)](https://youtu.be/e-g0l6X-MB8)
   
-  7. Any PR's that get approved will be pushed to the offical ZecHub repository and also be prodcast into the #operations channel of our discord.
+  7. Any PR's that get approved will be pushed to the offical ZecHub repository and also be brodcast into the #operations channel of our discord.
   
    ![operations](https://user-images.githubusercontent.com/81990132/216485907-3ad7f866-7a9d-4846-b3ae-c4f2803c27d0.png)
 
