@@ -25,7 +25,12 @@ How to make changes to ZecHub
   ![contribute](https://user-images.githubusercontent.com/81990132/216484842-7bebe333-21a1-43c5-ae8e-6618561ca98c.png)
 
   6. Insert Short howto PR request video
-  8. For further details on how to use Github, [here](https://www.youtube.com/watch?v=YTbRzhQju4c&t=1s) is another video to help.
+  7. Any PR's that get approved will be pushed to the offical ZecHub repository and also be prodcast into the #operations channel of our discord.
+  
+   ![operations](https://user-images.githubusercontent.com/81990132/216485907-3ad7f866-7a9d-4846-b3ae-c4f2803c27d0.png)
+
+
+  9. For further details on how to use Github, [here](https://www.youtube.com/watch?v=YTbRzhQju4c&t=1s) is another video to help.
   
 Contributor Guidelines
 ---
