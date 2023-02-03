@@ -22,8 +22,10 @@ How to make changes to ZecHub
   4. Make edits / Add new material
   5. Contribute by creating a *PR*, or Pull Request
 
+  ![contribute](https://user-images.githubusercontent.com/81990132/216484842-7bebe333-21a1-43c5-ae8e-6618561ca98c.png)
 
-  6. [Follow this guide to learn how to do a pull request.](https://www.youtube.com/watch?v=YTbRzhQju4c&t=1s)
+  6. Insert Short howto PR request video
+  8. For further details on how to use Github, [here](https://www.youtube.com/watch?v=YTbRzhQju4c&t=1s) is another video to help.
   
 Contributor Guidelines
 ---
