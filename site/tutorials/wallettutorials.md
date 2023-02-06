@@ -25,3 +25,7 @@ https://www.youtube.com/watch?v=W2msuzrxr3s
 ## Quick Zecwallet Lite demo on mobile
 
 https://youtube.com/shorts/Jivi5UmfVL0?feature=share
+
+## Zclimate setup demo
+
+https://www.youtube.com/watch?v=N9vBTtv1now
