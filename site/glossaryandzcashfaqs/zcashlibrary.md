@@ -13,7 +13,7 @@ ___
 |--------------|-----------|
 | **Actions**: |  Instead of creating several individual proofs for each Spend and Output, Orchard protocol merges them into a single 'Actions'.        |   
 |  **Addresses**: | Zcash has Shielded (Z/zaddr) & Transparent (T/taddr) addresses. Unified addresses (UA) are phasing in to replace Z & T following the NU5 upgrade. |   
-|  **Arborist Call**: | A Bi-Monthly call around Protocol & Research development updates. [Register here](https://zoom.us/webinar/register/WN_vdjDVeyMRn2BjFW80AjZcA) / [Notes](https://github.com/ZcashCommunityGrants/arboretum-notes)          |   
+|  **Arborist Call**: | A Bi-Monthly call around Protocol & Research development updates. Register here [15:00 UTC](https://us06web.zoom.us/webinar/register/WN_Vk7WMz9sRkiIr_hqH_x3LA) / [22:30 UTC](https://us06web.zoom.us/webinar/register/WN_z0k1ipsnRkS4-DGqDhULdA) / [Notes](https://github.com/ZcashCommunityGrants/arboretum-notes)          |   
 | **Auto-shielding**: | Enables users (more specifically their wallets) to automatically move funds from a transparent address to the latest shielded ZEC pool. |   
 
 
@@ -130,7 +130,7 @@ ___
 |--------------|-----------|
 |  **Halo**:  |  Enables circuit upgrades without the need for trusted setups, making the Zcash shielded protocol more agile for future improvements and extensions, see unified addresses/user defined assets. [Technical Explainer](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)  |  
 |  **HD Wallet**:  |   Hierarchical deterministic wallets generate a series of key pairs from one seed, providing convenience and manageability as well as high-level security. Zcash wallets enable several shielded public keys to be created from the root private key within a wallet. |  
-|  **Heartwood**: |    The 4th Major Network Upgrade of Zcash. [More Info](https://z.cash/upgrade/heartwood/) |  
+|  **Heartwood**: |  The 4th Major Network Upgrade of Zcash. [More Info](https://z.cash/upgrade/heartwood/) |  
 
 
 
@@ -170,6 +170,7 @@ ___
 |          |            | 
 |--------------|-----------|
 |  **Layer-1**: | Refers to a base network and its underlying infrastructure. Layer-1 blockchains can validate and finalize transactions without the need for another network. Zcash is an L1 blockchain.|  
+|  **librustzcash**:  |  A Rust workspace containing all crates & dependencies for working with Zcash. [repo](https://github.com/zcash/librustzcash)  |
 |  **Lightwalletd**: |  A stateless server that serves light clients with blockchain information. It fetches blockchain data from zcashd, processes them to reduce data, and stores it in a database. This allows light clients to get relevant data without interacting with zcashd directly. [Lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html)|  
 
 
@@ -230,7 +231,9 @@ ___
 
 ## Q 
 
-
+|          |            | 
+|--------------|-----------|
+| **QEDIT**: |   The development team working to build & integrate the Zcash Shielded Assets protocol |
 
 
 
@@ -257,6 +260,7 @@ ___
 |  **Selective Disclosure**: |    A feature of Shielded Addresses where the owner may disclose shielded transaction data. A user may share a viewing key or payment disclosure with any third party, allowing them to access shielded data while maintaining privacy from others.|  
 |  **Sensimilla**: | A collision-resistant hash function and commitment scheme designed to be efficient in algebraic circuit models that support lookups, such as PLONK or Halo 2. |  
 |  **Shielded Transaction**: |  A transaction exclusively between shielded addresses. The addresses, value and optional encrypted memo are shielded using zk-SNARK cryptography before the transaction is recorded in the blockchain. (also known as 'z2z')|  
+| **Shielded Labs**:  |  The first Zcash Organisation announced to be formed outside of the United States. Purpose is to support Protocol development & Zcash adoption in the coming years  |
 | **Sol/s**:  |   Solutions Per Second. A measure of the rate at which Equihash solutions are found while mining. Each one of those solutions is tested against the current target (after adding to the block header and hashing).  |  
 |  **Sprout**: |  The first version of Zcash, launched on October 28, 2016. [Launch Blog](https://electriccoin.co/blog/zcash-begins/) |  
 
@@ -297,10 +301,6 @@ ___
 
 
 
- 
-
-
-
 
 
 
@@ -315,8 +315,6 @@ ___
 
 
  
-
-
 ## W
 
 |          |            | 
@@ -328,11 +326,13 @@ ___
 
 ## X
 
+
+
 ## Y
 
 |          |            | 
 |--------------|-----------|
-|   **Youtube**:  | [Zcash Foundation Channel](https://www.youtube.com/channel/UCi01v05DNTUEC_eB0c9rpgQ) / [ECC Channel](https://www.youtube.com/c/ZcashCo) / [ZECHub](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA) |  
+|   **Youtube**:  | [Zcash Foundation Channel](https://www.youtube.com/channel/UCi01v05DNTUEC_eB0c9rpgQ) / [ECC Channel](https://www.youtube.com/c/ZcashCo) / [ZECHub](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA) / [ZF A/V Club](https://www.youtube.com/@zfavclub) / [Zcash Media](https://www.youtube.com/@ZcashMedia) |  
 |  **Ywallet**: |  A mobile wallet that supports both Ycash & Zcash - [website](https://ywallet.app) |  
 
 
@@ -352,11 +352,10 @@ ___
 |  **Zcon**: |  A yearly in-person conference centered on the Zcash ecosystem. [Zcon3 Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)|  
 |  **Zebra**: |    An Independent full node implementation of the Zcash Protocol. - [The Zebra Book](https://zebra.zfnd.org) |  
 |  **Zecwallet Lite**:  |   A fully-featured wallet for Zcash [website](https://zecwallet.co) |  
+| **ZecHub**:  |  An open-source education hub for Zcash. Community-driven initiative producing content on privacy technologies including Zcash. Contributors are able to earn ZEC.      |
 |  **ZecPages**: |  A censorship resistant, Zcash blockchain-powered social media. It includes a directory of zcash users and an anonymous message board powered by Zcash. [website](https://zecpages.com/ambimorph) |  
+| **ZF A/V Club**: |  Empowering local Zcash communities with global support through building a network of capable, ready and funded content creators broadcasting and sharing fresh news about Zcash and online privacy.  |
 | **ZIP**: |  Zcash Improvement Proposal. Method for community proposals of new features for the Zcash cryptocurrency, implementation details and document design decisions. [ZIP Site](https://zips.z.cash) |
+|  **Zingo Wallet**    |  A Mobile wallet that supports Unified Addresses and Orchard enabled. Maintained by Zingo Labs |
 | **zk-SNARK**:|  Zero-knowledge Succinct Argument of Knowledge. A proof used in the Zcash protocol which allows Shielded Addresses to prove the validity of associated transactions without revealing the address or value transacted. [More information](https://zkp.science)|  
-
-
-
-
 
