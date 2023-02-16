@@ -27,7 +27,7 @@ The protocol is governed by the Zcash Improvement Proposal process. The ZIP proc
 
 Anyone can submit a draft ZIP. Draft ZIPs are debated by the community at large, then accepted or rejected by the ZIP editors. 
 
-Currently there are two ZIP editors — Daira Hopwood represents the Electric Coin Company & Deirdre Connolly represents the Zcash Foundation. 
+Currently there are two ZIP editors — [Daira Hopwood](https://twitter.com/feministPLT) represents the Electric Coin Company & [Deirdre Connolly](https://twitter.com/durumcrustulum) represents the Zcash Foundation. 
 
 Decisions from the ZIP process are written into the Zcash specification, as well as the software that runs the network. The changes are “ratified” on-chain when the majority of the network adopts the upgrade and doesn’t break consensus. 
 
