@@ -40,7 +40,7 @@ It is important to note:
 ## Unified Address receivers
 
 As discussed [here](https://medium.com/@hanh425/transaction-privacy-78f80f9f175e) one can build UA's with different receivers -- some combination of transparent,sapling, and orchard address types.
-Besides a full UA, here are the most common that you will find the wild:
+Besides a full UA, here are the most common that you will find in the wild:
 
 * transparent + sapling
 
