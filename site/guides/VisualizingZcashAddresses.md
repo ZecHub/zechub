@@ -25,7 +25,7 @@ Currently there are three main types of addresses in use to date. These include
 ![fullUA](https://user-images.githubusercontent.com/81990132/219261794-bcc79db6-4dc6-4c6a-867b-3717b81e6b71.png)
 
 
-First thing to notice is how the length of each type of address is different. You can see this visually by the number of charactars in the address string *or* by looking at the associated QR codes. As length of the address increases, the QR code tends to zoom out and fit more data into the square.
+First thing to notice is how the length of each type of address is different. You can see this visually by the number of characters in the address string *or* by looking at the associated QR codes. As length of the address increases, the QR code tends to zoom out and fit more data into the square.
 
 * `t1goiSyw2JinFCmUnfiwwp72LEZzD42TyYu` is 35 characters long
 * `zs1cpf4prtmnqpg6x2ngcrwelu9a39z9l9lqukq9fwagnaqrknk34a7n3szwxpjuxfjdxkuzykel53` is 78 characters long
