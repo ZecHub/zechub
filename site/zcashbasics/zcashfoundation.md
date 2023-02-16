@@ -4,9 +4,17 @@
 
 The Zcash Foundation's mission is to be a public charity dedicated to building Internet payment and privacy infrastructure for the public good, primarily serving the users of the Zcash protocol and blockchain.
 
+
 ## People and Teams
 
-The Zcash Foundation has nearly 15 employees that are distributed across the world. They work on various things such as protocol development, protocol security, business development and managing Zcash community events.
+The Zcash Foundation has nearly 15 employees that are distributed across the world. They work on various things such as protocol development, protocol security, business development and managing Zcash community events. 
+
+The ZF team consists of a board of directors, the engineering team and an operations team, more info [here](https://zfnd.org/about/).
+
+Zcash Foundation Grants provides the ecosystem with a means to fund projects that contribute to the privacy ecosystem such as Zebra (an independant node implementation for Zcash) & FROST. 
+
+The Foundation also holds Zcon, a yearly in-person conference centered on the Zcash ecosystem and supports community initiatives such as the [Zcash Foundation A/V Club](https://discord.gg/WGEVenUq).
+
 
 ## Organizational Structure
 
