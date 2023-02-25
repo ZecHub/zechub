@@ -9,7 +9,7 @@ The goal of ZecHub is to provide a educational platform where community members 
   
 The tutorials, short-form blogs, and newsletter will be open sourced and hosted on GitHub, meaning anyone from the community can contribute. This is to ensure content is accurate and that the channel itself suffers from no single points of failure.
 
-If you're new to Zcash, use [this guide](https://zcash.readthedocs.io/en/latest/rtd_pages/basics.html).
+If you're new to Zcash, use [this guide](https://zechub.notion.site/Zcash-New-User-Guide-78c340cd6b18485f945e2bce4b6a8748).
 
 How to make changes to ZecHub
 ---
