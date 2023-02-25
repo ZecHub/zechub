@@ -1,6 +1,6 @@
 # ZecHub Style Guide
 
-> This is the ZecHub writing style guide. ZecHub style is simple and approachable. We welcome everyone and focus on the Zcash community.
+> ZecHub style is simple and approachable. We welcome everyone and focus on the Zcash community.
 
 ## Principles
 
@@ -18,7 +18,7 @@
 
 - **Be brief**. Give users enough information for them to solve a problem or make a choice.
 
-- **Skip periods in titles**. Remove periods from titles. Skip the end punctuation on titles, headings, subheads, UI titles, and list items with three or fewer words. Periods are used to separate paragraphs and body copy.
+- **Skip periods in titles**. Remove periods from titles. Skip the end punctuation on titles, headings, subheads, UI titles, and list items with three or fewer words. Periods are used in paragraphs and body copy.
 
   - Examples: Press the Send button. → Press the Send button
 
@@ -39,4 +39,12 @@
     | for example | e.g.            |
     | that is     | i.e.            |
 
-> ZecHub style guide is adapted from [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/) with modifications. Consult this guide when you need to.
+## Tweets
+
+> This general style guide is for writing articles or user guides for ZecHub. For tweets or short statements, use the [tweets style guide](./tweets.md).
+
+---
+
+<small>
+ZecHub style guide is adapted from <a href="https://learn.microsoft.com/en-us/style-guide/">Microsoft Writing Style Guide</a> with modifications. Consult Microsoft guide when you need to.
+</small>
