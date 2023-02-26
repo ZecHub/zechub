@@ -13,7 +13,7 @@ To get an overview of ZecHub, read the [README](/README.md).
 
 ## Getting started
 
-If you're new to GitHub, don't worry! We're going to break down how you can get involved as a community contributor to ZecHub. We pay out tips in ZEC for every contribution completed.
+ZecHub uses GitHub to manage community contribution. If you're new to GitHub, don't worry! We're going to break down how you can get involved as a community contributor to ZecHub. We pay out tips in ZEC for accepted contribution.
 
 In this guide you will get an overview of the contribution workflow from opening an issue, creating a pull request (PR), reviewing, and merging the PR.
 
@@ -27,17 +27,47 @@ First, join the conversation in the [Zcash LATAM discord](https://discord.gg/zca
 
 ## Ways you can contribute
 
-ZecHub is broken down into a few parts. Let's review how you can get involved:
+ZecHub is a community-driven project that aims to provide support and resources for Zcash users and developers. There are many ways to get involved with ZecHub, including writing for our weekly newsletter, contributing to our knowledge base, or helping out with development projects.
+
+These are the types of contribution that ZecHub currently accepts:
+
+### ZecHub Wiki - up to 1 ZEC per new page published
+
+Our wiki-docs page provides Zcash education materials in an easy and digestible format. Zcash is a very advanced technology with a vibrant community, so there's still more documentation we need to build. Our goal is to build documentation on:
+
+- Zcash and its related technologies
+- ZEC (Zcash currency) use cases
+- New user guides
+- Zcash community and ecosystem
+- Docs in other languages
+
+These are pretty broad areas, so there's a lot to work from. If you want some inspiration, check out our current [wiki-docs site](https://zechub.notion.site/zechub/ZecHub-Wiki-d74acc14d9c04887be52486db86da0ba) and see what's missing. Once you determine what you want to write, [start to make your changes](#make-changes) and learn how to submit a PR to the ZecHub repo. All of our docs are created and maintained in this repo. Use the [docs template](https://github.com/ZecHub/zechub/blob/main/template.md) when writing a wiki page.
+
+After you submit a PR, please message @dismad in the #zecwiki section of the discord, and he will review your PR and merge if it is ready to be added to the site. If merged, he will add the doc to the ZecHub website. If the doc is not ready, he will suggest edits for you in the PR.
+
+Include your unified address (UA) in the PR so we can send you a tip!
+
+### ZecHub Wiki - 0.1 ZEC per accepted edit to docs
+
+Sometimes our information in the docs isn't spot on. That's okay. That's why we open-source them! If you find something that needs a change in a wiki-doc, please go to the footer of the doc (which links to its Github page) and suggest a change via a PR.
+
+Include your UA in the PR so we can send you a tip!
+
+### ZecHub Wiki - 0.05 ZEC per broken link fixed
+
+If you find that a link is broken, or something important is mispelled, please go to the footer of the doc (which links to its Github page) and suggest the change via a PR.
+
+Include your UA in the PR so we can send you a tip!
 
 ### Newsletter - 0.5 ZEC per edition
 
-We produce the ecosystem's weekly newsletter. This is a super low lift / easy way to get involved! The newsletter goes out every Friday or Saturday. If you want to write a newsletter, message @janusz or @squirrel in the #zecweekly section of the Discord to let them know.
+We produce the ecosystem's weekly newsletter. This is a super low lift / easy way to get involved! The newsletter goes out every Friday or Saturday. If you want to write a newsletter, message @squirrel or @tokidoki in the #zecweekly section of the Discord to let them know.
 
 After you do that, you can go to the [newsletter section of this repository](/newsletter/newsletterbasics.md) and submit a pull-request to create a new edition of the newsletter. Please follow the format used in this [template](/newsletter/newslettertemplate.md).
 
-After you do this @janusz or @squirell (in Discord) will see that your new edition of the newsletter available, and they'll review and then merge it to the repository. After it's been merged, they'll take the content and post it via Substack.
+After you do this @squirrel or @tokidoki (in Discord) will see that your new edition of the newsletter available, and they'll review and then merge it to the repository. After it's been merged, they'll take the content and post it via Substack.
 
-After you submit the PR, please make sure you comment your unified address (UA) so we can send you a tip!
+Include your UA in the PR so we can send you a tip!
 
 ### Translating Newsletter - 0.2 ZEC per translation
 
@@ -45,41 +75,11 @@ We'd love for you to contribute the next edition of the ZecWeekly newsletter, or
 
 If you want to translate the newsletter into your local language, we send tips for that too. Let us know what channel you would share it from and the language you would publish the newsletter in, so we can coordinate its release.
 
-### ZecHub Wiki - 1 ZEC per new page published
-
-We have a wiki-docs page that aims to provide Zcash education materials in an easy and digestible format. Zcash is a very advanced technology and virbrant community, so there's a lot more documentation we need to build. We aim to build documentation on:
-
-- Zcash Tech
-- ZEC (Zcash currency) use cases
-- New user guides
-- Zcash community and ecosystem
-- Docs in other languages
-
-These are pretty broad areas, so there's a lot to work from. If you want some inspiration, check out our current [wiki-docs site](https://zechub.notion.site/zechub/ZecHub-Wiki-d74acc14d9c04887be52486db86da0ba) and see what's missing. Once you determine what you want to write, [start to make your changes](#make-changes) to learn how to submit a PR to the ZecHub repo. All of our docs are created and maintained in this repo. Please use this [template](https://github.com/ZecHub/zechub/blob/main/template.md) when building out docs.
-
-After you submit a PR, please message @dismad in the #zecwiki section of the discord, and he will review your PR and merge if it is ready to be added to the site. If merged, he will add the doc to the ZecHub website. If the doc is not ready, he will suggest edits for you in the PR.
-
-Please comment your z-addr in the PR so we can send you a tip!
-
-### ZecHub Wiki - 0.1 ZEC per accepted edit to docs
-
-Sometimes our information in the docs isn't spot on. That's okay. That's why we open-source them! If you find something that needs a change in a wiki-doc, please go to the footer of the doc (which links to its Github page) and suggest a change via a PR.
-
-Please comment your z-addr in the PR so we can send you a tip!
-
-### ZecHub Wiki - 0.05 ZEC per broken link fixed or spelling error corrected
-
-If you find that a link is broken, or something is mispelled, please go to the footer of the doc (which links to its Github page) and suggest the change via a PR.
-
-Please comment your z-addr in the PR so we can send you a small tip for finding the error.
-
 ### Video content - 2.5 ZEC per video and/or audio posted on ZecHub socials
 
-ZecHub has expirmented with video content in the past, mainly a [weekly news show](https://www.youtube.com/watch?v=frTzwCWRNLs&t=434s). Those efforts are currently on pause, so there's an opportunity here! If you have an idea for a weekly news show, short-form podcast, Twitter spaces series, or any another video/audio content piece, let us know in the #video-content channel in Discord and we'll discuss. 
+ZecHub has experimented with video content in the past, including a [weekly news show](https://www.youtube.com/watch?v=frTzwCWRNLs&t=434s). Those efforts are currently on pause, so there's an opportunity here! If you have an idea for a weekly news show, short-form podcast, Twitter spaces series, or any another video/audio content piece, let us know in the #video-content channel in Discord and we'll talk.
 
-These bounties are a bit larger, and we'd hope for some consistency with this type of content (minimum five content pieces created), so a proposal would need to be submitted to ZecHub's DAO before approving the spend. That process usually takes a week.
-
-Potentially 12.5 ZEC for anyone with ideas here! We have budget for funding video content series at this moment in time. If you have an idea, join the conversation in the #video-content channel in our Discord so we can get moving on it :)
+Rewards for this type of content are a bit larger, so a proposal would need to be submitted to ZecHub's DAO before approving the spend. That process usually takes a week.
 
 ### Zcash Tutorials (with audio) - up to 1.5 ZEC per tutorial
 
@@ -87,7 +87,7 @@ We sometimes release tutorials on how to use Zcash-related apps. Here's an [exam
 
 The best way to do this is to either 1) submit a PR to the zechub/tutorials section of the ZecHub repo or 2) send the tutorial video to the #video-content channel in the ZecHub section of the Discord.
 
-If the video meets our content moderation standards, we'll post it to our socials and send you a tip :) Please send your z-addr to the #video-content channel so we can send you the tip.
+If the video meets our content moderation standards, we'll post it to our socials and send you a tip :) Please send your UA to the #video-content channel so we can send you the tip.
 
 ### Creative content for social - up to .75 ZEC per creative posted on ZecHub socials
 
@@ -129,11 +129,11 @@ Click **Make a contribution** at the bottom of any docs page to make small chang
 - Using the command line:
   - [Fork the repo](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository) so that you can make your changes without affecting the original project until you're ready to merge them.
 
-2. Create a working branch and start with your changes !
+2. Create a working branch and start with your changes!
 
 ### Commit your update
 
-Commit the changes once you are happy with them. Don't forget to self-review to speed up the review process:zap:.
+Commit the changes once you are happy with them. Don't forget to self-review to speed up the review process :zap:
 
 ## Pull Request
 
