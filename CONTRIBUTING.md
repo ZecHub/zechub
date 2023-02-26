@@ -43,7 +43,7 @@ Our wiki-docs page provides Zcash education materials in an easy and digestible 
 
 These are pretty broad areas, so there's a lot to work from. If you want some inspiration, check out our current [wiki-docs site](https://zechub.notion.site/zechub/ZecHub-Wiki-d74acc14d9c04887be52486db86da0ba) and see what's missing. Once you determine what you want to write, [start to make your changes](#make-changes) and learn how to submit a PR to the ZecHub repo. All of our docs are created and maintained in this repo. Use the [docs template](https://github.com/ZecHub/zechub/blob/main/template.md) when writing a wiki page.
 
-After you submit a PR, please message @dismad in the #zecwiki section of the discord, and he will review your PR and merge if it is ready to be added to the site. If merged, he will add the doc to the ZecHub website. If the doc is not ready, he will suggest edits for you in the PR.
+After you submit a PR, please message @dismad or @tokidoki in the #zecwiki section of the discord, and he will review your PR and merge if it is ready to be added to the site. If merged, he will add the doc to the ZecHub website. If the doc is not ready, he will suggest edits for you in the PR.
 
 Include your unified address (UA) in the PR so we can send you a tip!
 
