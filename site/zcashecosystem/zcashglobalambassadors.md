@@ -9,8 +9,6 @@ The Global Ambassador Program is designed to identify community members who make
   * Maintaining an active presence on social media, and creating original content related to Zcash.
   * Ambassadors have creative freedom over the activities they plan. 
   
-  #### Note: Ambassadors who successfully fulfill their obligations are eligible to receive a monthly stipend of $1,000 to support and reward their efforts.
-  
 ## Current Ambassadors
 
   [Current list](https://forum.zcashcommunity.com/t/the-global-ambassador-program/41070/120)
@@ -28,7 +26,6 @@ The Global Ambassador Program is designed to identify community members who make
 | Michael     | Brazil      | @michae2xl  | [Michael2xl](https://twitter.com/michae2xl) |
 | Yoditar     | Venezuela   | @yoditar    | [Yoditar.zkp](https://twitter.com/yoditarX) |
 | Zoz         | Saudi Arabia| @zoz        | [ZECArabic](https://twitter.com/ZozNotorious) |
-
-
+| Tim         | Ukraine     | @zoz        | [Tim_ukrainian](https://twitter.com/tim_ukrainian) |
  
 
