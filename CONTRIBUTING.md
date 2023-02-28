@@ -45,19 +45,13 @@ These are pretty broad areas, so there's a lot to work from. If you want some in
 
 After you submit a PR, please message @dismad or @tokidoki in the #zecwiki section of the discord, and he will review your PR and merge if it is ready to be added to the site. If merged, he will add the doc to the ZecHub website. If the doc is not ready, he will suggest edits for you in the PR.
 
-Include your unified address (UA) in the PR so we can send you a tip!
-
 ### ZecHub Wiki - 0.1 ZEC per accepted edit to docs
 
 Sometimes our information in the docs isn't spot on. That's okay. That's why we open-source them! If you find something that needs a change in a wiki-doc, please go to the footer of the doc (which links to its Github page) and suggest a change via a PR.
 
-Include your UA in the PR so we can send you a tip!
-
 ### ZecHub Wiki - 0.05 ZEC per broken link fixed
 
 If you find that a link is broken, or something important is mispelled, please go to the footer of the doc (which links to its Github page) and suggest the change via a PR.
-
-Include your UA in the PR so we can send you a tip!
 
 ### Newsletter - 0.5 ZEC per edition
 
@@ -66,8 +60,6 @@ We produce the ecosystem's weekly newsletter. This is a super low lift / easy wa
 After you do that, you can go to the [newsletter section of this repository](/newsletter/newsletterbasics.md) and submit a pull-request to create a new edition of the newsletter. Please follow the format used in this [template](/newsletter/newslettertemplate.md).
 
 After you do this @squirrel or @tokidoki (in Discord) will see that your new edition of the newsletter available, and they'll review and then merge it to the repository. After it's been merged, they'll take the content and post it via Substack.
-
-Include your UA in the PR so we can send you a tip!
 
 ### Translating Newsletter - 0.2 ZEC per translation
 
@@ -81,23 +73,19 @@ ZecHub has experimented with video content in the past, including a [weekly news
 
 Rewards for this type of content are a bit larger, so a proposal would need to be submitted to ZecHub's DAO before approving the spend. That process usually takes a week.
 
-### Zcash Tutorials (with audio) - up to 1.5 ZEC per tutorial
+### Zcash tutorials (video) - up to 1.5 ZEC per tutorial
 
-We sometimes release tutorials on how to use Zcash-related apps. Here's an [example](https://www.youtube.com/watch?v=Mgm_nK3gr7U&list=PL6_epn0lASLGc_YALzxbMH0-dNyhFufus&index=7) of one of the tutorials. There's always room for doing more of these, and we also need tutorials in other languages.
+Create and share tutorials on Zcash apps and get rewarded. Example tutorial [here](https://www.youtube.com/watch?v=Mgm_nK3gr7U&list=PL6_epn0lASLGc_YALzxbMH0-dNyhFufus&index=7). Submit PR to zechub/tutorials or send video to #video-content channel in Discord. If video meets our criteria, we’ll post it and tip you :smile:
 
-The best way to do this is to either 1) submit a PR to the zechub/tutorials section of the ZecHub repo or 2) send the tutorial video to the #video-content channel in the ZecHub section of the Discord.
+### Creative social media posts
 
-If the video meets our content moderation standards, we'll post it to our socials and send you a tip :) Please send your UA to the #video-content channel so we can send you the tip.
+We want to explore new ways of creating engaging content for our social media channels. You can get up to .75 ZEC for each piece of content you create and post on ZecHub socials. For example, you can make a short video with a quote from our podcast, a Zcash GIF, or a clever Zcash meme.
 
-### Creative content for social - up to .75 ZEC per creative posted on ZecHub socials
-
-Something we haven't expiremented with is creative pieces for our social media! Think creating a TikTok like video with a quote from ZecHub's podcast, Zcash GIFs, or a really solid Zcash meme. We also need thumbnails for our newsletter and Podcast, so there's an opportunity to build those as well.
-
-If you've got design chops, let us know in the #design channel in the ZecHub section of the Discord. Once the piece is complete, you can send us your UA in the #design channel so we can send you a tip.
+You can also help us create thumbnails for our newsletter and podcast. If you have design talent, please contact us in the #design channel in the ZecHub section of the Discord.
 
 ### Other ideas? Let us know!
 
-If you believe there's a way that you could add value to ZecHub, and it's not listed above, please let us know in the #general channel in the ZecHub channel of the Discord. We can disucss your idea, and if there's a need, we can create a proposal for ZecHub's DAO to see if it can get funding.
+Do you have other suggestions? Please let us know in the #general channel in the ZecHub section of the Discord. We can discuss your suggestion and see if it can get support from ZecHub’s DAO.
 
 ## Issues
 
@@ -107,7 +95,7 @@ If you spot a problem with the docs, [search if an issue already exists](https:/
 
 ### Solve an issue
 
-Scan through our [existing issues](https://github.com/zechub/zechub/issues) to find one that interests you. You can narrow down the search using `labels` as filters. See [Labels](/contributing/how-to-use-labels.md) for more information. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix.
+Scan through our [existing issues](https://github.com/zechub/zechub/issues) to find one that interests you. You can narrow down the search using `labels` as filters. See [Labels](/site/contribute/issue-labels.md) for more information. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix.
 
 ## Make Changes
 
@@ -137,7 +125,7 @@ Commit the changes once you are happy with them. Don't forget to self-review to 
 
 ## Pull Request
 
-When you're finished with the changes, create a pull request, also known as a PR.
+When you're finished with the changes, create a pull request, also known as a PR. Include your unified address (UA) in the PR so we can send you a tip!
 
 ### To Finish
 
