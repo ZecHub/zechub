@@ -1,6 +1,6 @@
 # Contributing to ZecHub
 
-> ZecHub exists to create Zcash educational materials for everyone
+> ZecHub helps people learn about Zcash
 
 If you're reading this page, we're really excited that you're considering contributing! Any contribution you make will be reflected on [zechub.xyz](https://www.zechub.xyz/) and other ZecHub social media :sparkles:
 
@@ -67,7 +67,7 @@ We'd love for you to contribute the next edition of the ZecWeekly newsletter, or
 
 If you want to translate the newsletter into your local language, we send tips for that too. Let us know what channel you would share it from and the language you would publish the newsletter in, so we can coordinate its release.
 
-### Video content - 2.5 ZEC per video and/or audio posted on ZecHub socials
+### Podcast - 2.5 ZEC per video or audio podcast posted on ZecHub socials
 
 ZecHub has experimented with video content in the past, including a [weekly news show](https://www.youtube.com/watch?v=frTzwCWRNLs&t=434s). Those efforts are currently on pause, so there's an opportunity here! If you have an idea for a weekly news show, short-form podcast, Twitter spaces series, or any another video/audio content piece, let us know in the #video-content channel in Discord and we'll talk.
 
