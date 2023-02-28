@@ -11,6 +11,7 @@ The tutorials, short-form blogs, and newsletter will be open sourced and hosted 
 
 If you're new to Zcash, use [this guide](https://zechub.notion.site/Zcash-New-User-Guide-78c340cd6b18485f945e2bce4b6a8748).
 
+<!--
 How to make changes to ZecHub
 ---
   1. Create a new Github account or log in with your own.
@@ -34,5 +35,6 @@ In the interest of maintaining a uniform look to ZecHub, there's a [template](ht
   3. No inappropriate content.
  
 Donations: zs1t2fz22l7sw09ctwu7knymna60aa84fxap86rny6ul4nx007nh3pp5d4u7y4ucyvxwpgzyjz7vgx
+-->
 
 **DISCLAIMER: ZecHub is a completely independent and open-source initiative founded by Zcash community members. Nothing contained in this Github repository should be considered financial or investment advice - it is for informational purposes only.**
