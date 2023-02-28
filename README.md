@@ -1,8 +1,10 @@
 # ZecHub
-An open-source education hub for Zcash.
-The goal of ZecHub is to provide a educational platform where community members can work together on creating, validating, and promoting content that supports the Zcash ecosystem. We do this through a few mechanisms.
 
-  1. [Tutorials. Primarily videos on ZEC UX.](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA)
+> ZecHub helps people learn about Zcash
+
+ZecHub is a place where anyone can share and learn about Zcash. We want to help people understand and use Zcash better. We have different ways to do this:
+
+  1. [Tutorials. Videos on how to use ZEC.](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA)
   2. [Wiki-docs. Short-form ZEC content for beginners.](https://zechub.notion.site/ZecHub-d74acc14d9c04887be52486db86da0ba)
   3. [A podcast interviewing community members.](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O)
   4. [A weekly Zcash newsletter.](https://zechub.substack.com/)
@@ -11,6 +13,7 @@ The tutorials, short-form blogs, and newsletter will be open sourced and hosted 
 
 If you're new to Zcash, use [this guide](https://zechub.notion.site/Zcash-New-User-Guide-78c340cd6b18485f945e2bce4b6a8748).
 
+<!--
 How to make changes to ZecHub
 ---
   1. Create a new Github account or log in with your own.
@@ -32,7 +35,10 @@ In the interest of maintaining a uniform look to ZecHub, there's a [template](ht
   1. All pages should have additional resources (ie. links to z.cash) to support content
   2. No marketing or sponsored content
   3. No inappropriate content.
- 
-Donations: zs1t2fz22l7sw09ctwu7knymna60aa84fxap86rny6ul4nx007nh3pp5d4u7y4ucyvxwpgzyjz7vgx
+-->
 
-**DISCLAIMER: ZecHub is a completely independent and open-source initiative founded by Zcash community members. Nothing contained in this Github repository should be considered financial or investment advice - it is for informational purposes only.**
+<!-- TODO: Add contact UA to receive shielded memos -->
+
+---
+
+**DISCLAIMER: ZecHub is an independent and open-source initiative founded by Zcash community members. Nothing contained in this Github repository should be considered financial or investment advice - it is for informational purposes only.**
