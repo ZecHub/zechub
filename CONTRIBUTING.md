@@ -31,6 +31,10 @@ ZecHub is a community-driven project that aims to provide support and resources 
 
 These are the types of contribution that ZecHub currently accepts:
 
+### Zcash tutorials (video) - up to 1.5 ZEC per tutorial
+
+Create and share tutorials on Zcash apps and get rewarded. Example tutorial [here](https://www.youtube.com/watch?v=Mgm_nK3gr7U&list=PL6_epn0lASLGc_YALzxbMH0-dNyhFufus&index=7). Submit PR to zechub/tutorials or send video to #video-content channel in Discord. If video meets our criteria, we’ll post it and tip you :smile:
+
 ### ZecHub Wiki - up to 1 ZEC per new page published
 
 Our wiki-docs page provides Zcash education materials in an easy and digestible format. Zcash is a very advanced technology with a vibrant community, so there's still more documentation we need to build. Our goal is to build documentation on:
@@ -67,15 +71,11 @@ We'd love for you to contribute the next edition of the ZecWeekly newsletter, or
 
 If you want to translate the newsletter into your local language, we send tips for that too. Let us know what channel you would share it from and the language you would publish the newsletter in, so we can coordinate its release.
 
-### Podcast - 2.5 ZEC per video or audio podcast posted on ZecHub socials
+### Podcast - 2.5 ZEC per episode posted on ZecHub socials
 
-ZecHub has experimented with video content in the past, including a [weekly news show](https://www.youtube.com/watch?v=frTzwCWRNLs&t=434s). Those efforts are currently on pause, so there's an opportunity here! If you have an idea for a weekly news show, short-form podcast, Twitter spaces series, or any another video/audio content piece, let us know in the #video-content channel in Discord and we'll talk.
+ZecHub made videos before, like a [news show](https://www.youtube.com/watch?v=frTzwCWRNLs&t=434s). They stopped for now, but you can help. Do you have an idea for a news show, podcast, Twitter talk, or other video/audio thing? Tell us in Discord #video-content and we’ll talk :smile:
 
 Rewards for this type of content are a bit larger, so a proposal would need to be submitted to ZecHub's DAO before approving the spend. That process usually takes a week.
-
-### Zcash tutorials (video) - up to 1.5 ZEC per tutorial
-
-Create and share tutorials on Zcash apps and get rewarded. Example tutorial [here](https://www.youtube.com/watch?v=Mgm_nK3gr7U&list=PL6_epn0lASLGc_YALzxbMH0-dNyhFufus&index=7). Submit PR to zechub/tutorials or send video to #video-content channel in Discord. If video meets our criteria, we’ll post it and tip you :smile:
 
 ### Creative social media posts
 
