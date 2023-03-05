@@ -1,6 +1,6 @@
 # ZecHub на русском языке
 
-## Newsletters
+## Новости обновлений
 
 * https://prozcash.ru/zecweekly-12
 * https://prozcash.ru/zecweekly-13
@@ -22,7 +22,7 @@
 
 
 
-## Podcasts
+## видео
 
 * [ZecDaily 13](https://youtu.be/q66tmBl40jo)
 * [Взгляд на Zcash с Дэвидом из Zcash Media](https://youtu.be/N4u-_DC3EL4)
