@@ -52,4 +52,5 @@ Os tutoriais, blogs curtos e boletim informativo serão de código aberto e hosp
 ## Videos
 
 * [ZecHub - Como Criar uma Carteira NightHawk](https://odysee.com/@zechubr:c/nighthawk:c)
-* 
+* [O que são Endereços Unificados (UAs) - Zcash](https://odysee.com/@zcashbrasil:a/uas:6)
+* [Como Instalar a Carteira Zingo](https://odysee.com/@zcashbrasil:a/Zingo!:b)
