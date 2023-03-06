@@ -2,7 +2,7 @@
 
 ## Usando ZEC
 
-[Comprar ZEC](https://github.com/ZecHub/zechub/blob/main/site/zechubglobal/zcashesp/usandozec/buyingzec.md) | [Transactions](https://github.com/ZecHub/zechub/blob/main/site/zechubglobal/zcashesp/usandozec/transactions.md)
+[Comprar ZEC](https://github.com/ZecHub/zechub/blob/main/site/zechubglobal/zcashesp/usandozec/buyingzec.md) | [Transactions](https://github.com/ZecHub/zechub/blob/main/site/zechubglobal/zcashesp/usandozec/transactions.md) | [Tutoriales](https://github.com/ZecHub/zechub/blob/main/site/zechubglobal/zcashesp/tutoriales/tutoriales.md)
 
 ## Boletines
 
