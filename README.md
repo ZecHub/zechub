@@ -1,5 +1,28 @@
-# ZecHub
-An open-source education hub for Zcash.
+# [ZecHub](https://zechub.org/)
+
+<div align="center">
+
+<h3>
+    <em>
+      An open-source education hub for <a href="https://z.cash/">Zcash</a>
+    </em>
+</h3>
+
+<p>
+    <a href="https://discord.gg/zcash">
+        <img src="https://img.shields.io/discord/978714252934258779?style=social">
+    </a>
+</p>
+
+<p>
+    <a href="https://twitter.com/zechub">
+        <img src="https://img.shields.io/twitter/follow/zechub?label=Follow">
+    </a>
+</p>
+
+</div>
+
+
 The goal of ZecHub is to provide a educational platform where community members can work together on creating, validating, and promoting content that supports the Zcash ecosystem. We do this through a few mechanisms.
 
   1. [Tutorials. Primarily videos on ZEC UX.](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA)
