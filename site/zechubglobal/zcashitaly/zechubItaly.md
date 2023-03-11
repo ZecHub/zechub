@@ -17,7 +17,7 @@ Se sei alle prime armi con Zcash, consulta questa guida.
 
 1. Vai alla repo di Github di ZecHub.
 2. Crea un nuovo account Github o accedi con il tuo.
-2. Segui questa guida per imparare come fare una pull request.
+3. Segui questa guida per imparare come fare una pull request.
 
 Linee guida per i contributori
 
@@ -25,4 +25,4 @@ Per mantenere un aspetto uniforme su ZecHub, c'è un template che puoi utilizzar
 
 1. Tutte le pagine dovrebbero avere risorse aggiuntive (ad esempio, link a z.cash) per supportare i contenuti.
 2. Nessun contenuto di marketing o sponsorizzato.
-2. Nessun contenuto inappropriato.
+3. Nessun contenuto inappropriato.
