@@ -1,6 +1,6 @@
 ## ZecHub in Italiano
 
-Cos'è ZecHub?
+<h2>Cos'è ZecHub?</h2>
 
 ZecHub è un centro educativo decentralizzato per Zcash. Lo scopo di ZecHub è fornire una piattaforma educativa dove i membri della comunità possono collaborare nella creazione, validazione e promozione di contenuti che supportano l'ecosistema di Zcash. Facciamo questo tramite alcuni meccanismi.
 
@@ -13,7 +13,7 @@ I tutorial, i blog in formato breve e la newsletter saranno open source e ospita
 
 Se sei alle prime armi con Zcash, consulta questa guida.
 
-Come apportare modifiche ad un conenuto ZecHub
+<h2>Come apportare modifiche ad un conenuto ZecHub</h2>
 
 1. Vai alla repo di Github di ZecHub.
 2. Crea un nuovo account Github o accedi con il tuo.
