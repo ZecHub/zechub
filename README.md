@@ -1,4 +1,4 @@
-# [ZecHub](https://zechub.org/)
+# [ZecHub](https://repo.zechub.org/)
 
 <div align="center">
 
