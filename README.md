@@ -26,7 +26,7 @@
 The goal of ZecHub is to provide a educational platform where community members can work together on creating, validating, and promoting content that supports the Zcash ecosystem. We do this through a few mechanisms.
 
   1. [Tutorials. Primarily videos on ZEC UX.](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA)
-  2. [Wiki-docs. Short-form ZEC content for beginners.](https://zechub.notion.site/ZecHub-d74acc14d9c04887be52486db86da0ba)
+  2. [Wiki-docs. Short-form ZEC content for beginners.](https://wiki.zechub.xyz)
   3. [A podcast interviewing community members.](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O)
   4. [A weekly Zcash newsletter.](https://zechub.substack.com/)
   
