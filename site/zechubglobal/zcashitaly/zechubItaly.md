@@ -1,4 +1,4 @@
-## ZecHub in Italiano
+# ZecHub in Italiano
 
 <h2>Cos'è ZecHub?</h2>
 
