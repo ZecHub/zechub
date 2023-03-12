@@ -35,7 +35,7 @@ The tutorials, short-form blogs, and newsletter will be open sourced and hosted 
 If you're new to Zcash, use [this guide](https://zechub.notion.site/Zcash-New-User-Guide-78c340cd6b18485f945e2bce4b6a8748).
 
 <!--
-How to make changes to ZecHub
+How to make changes to ZecHub 
 ---
   1. Create a new Github account or log in with your own.
   2. Go to [ZecHub's](https://github.com/ZecHub/zechub) Github repo.
