@@ -1,9 +1,11 @@
-If you're a member of the Zcash community, and want to contribute builing ZecHub, there a few things that are super helpful.
+If you're a member of the Zcash community, and want to contribute building ZecHub, there a few things that are super helpful.
 
-1. Curate links for the newsletter and add them to the newsletter's github page. Find instructions on how to do that at [@ZecWeekly Newsletter](https://www.notion.so/zechub/ZecWeekly-Newsletter-2063b85a436642768fb6620627cbd804).
-2. Fact check the wiki docs, suggest edits, and propose new pages in Github (Please propose pages under current sections. We don't want to overload the homepage of the wiki)
-3. Create video content in the following categories 1) Zcash explainer videos 2) Zcash wallet explainer 3) Third-party application demos (ie. Spedn)
+1. Curate links for the newsletter and add them to the newsletter's github page. Find instructions on how to do that at [@ZecWeekly Newsletter](https://wiki.zechub.xyz/zecweekly-newsletter).
+2. Fact check the wiki docs, suggest edits, and propose new pages in Github (Please propose pages under existing sections. We don't want to overload the homepage of the wiki)
+3. Create video content in the following categories 1) Zcash explainer videos 2) Zcash wallet guide/tutorials 3) Third-party application demos (ie. Spedn)
+4. Produce designs such as posters/graphics/animations for Zcash & Privacy ecosystem 
+5. Translate any of the existing wiki pages via ZecHub Global.
 
-4. Claim a ZecDaily episode in the bounty board (coming soon) and record a news update cover all Zcash news updates from the previous day. See [current episode formats](youtube.com/watch?v=XqsZsaGlTGE&t=146s) for inspiration.
+We post issues for tasks that we currently have bounties open. Primarily these are found as [Github Issues](https://github.com/ZecHub/zechub/issues). You can also find them on [Dework](https://app.dework.xyz/zechub-2424). ZecHub Quests are posted on [Crew3](https://crew3.xyz/c/zechub/)
 
-If there are other ways you'd like to contribute, please message Ian Sagstetter ([@iansagstette](https://twitter.com/iansagstette)) on Twitter.
+If there are other ways you'd like to contribute, please message ZecHub ([@ZecHub](https://twitter.com/zechub)) on Twitter or Join our [Discord](https://discord.gg/zcash).
