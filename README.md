@@ -1,11 +1,32 @@
-# ZecHub
+# [ZecHub](https://repo.zechub.org/)
 
-> ZecHub helps people learn about Zcash
+<div align="center">
 
-ZecHub is a place where anyone can share and learn about Zcash. We want to help people understand and use Zcash better. We have different ways to do this:
+<h3>
+    <em>
+      An open-source education hub for <a href="https://z.cash/">Zcash</a>
+    </em>
+</h3>
 
-  1. [Tutorials. Videos on how to use ZEC.](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA)
-  2. [Wiki-docs. Short-form ZEC content for beginners.](https://zechub.notion.site/ZecHub-d74acc14d9c04887be52486db86da0ba)
+<p>
+    <a href="https://discord.gg/zcash">
+        <img src="https://img.shields.io/discord/978714252934258779?style=social">
+    </a>
+</p>
+
+<p>
+    <a href="https://twitter.com/zechub">
+        <img src="https://img.shields.io/twitter/follow/zechub?label=Follow">
+    </a>
+</p>
+
+</div>
+
+
+The goal of ZecHub is to provide a educational platform where community members can work together on creating, validating, and promoting content that supports the Zcash ecosystem. We do this through a few mechanisms.
+
+  1. [Tutorials. Primarily videos on ZEC UX.](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA)
+  2. [Wiki-docs. Short-form ZEC content for beginners.](https://wiki.zechub.xyz)
   3. [A podcast interviewing community members.](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O)
   4. [A weekly Zcash newsletter.](https://zechub.substack.com/)
   
@@ -14,7 +35,7 @@ The tutorials, short-form blogs, and newsletter will be open sourced and hosted 
 If you're new to Zcash, use [this guide](https://zechub.notion.site/Zcash-New-User-Guide-78c340cd6b18485f945e2bce4b6a8748).
 
 <!--
-How to make changes to ZecHub
+How to make changes to ZecHub 
 ---
   1. Create a new Github account or log in with your own.
   2. Go to [ZecHub's](https://github.com/ZecHub/zechub) Github repo.

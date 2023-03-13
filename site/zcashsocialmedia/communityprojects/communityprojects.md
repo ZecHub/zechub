@@ -51,6 +51,10 @@ Zeme Team allows creators to easily receive tips from anyone in the community. T
 
 ZGo is a Zcash Register. Enabling vendors and merchants to accept Zcash. Currently testing the app to get high quality feedback on the usability and features of ZGo.
 
+
+[Zlink]((https://zlink.click)
+Zlink is the simplest way to find any link, tool, information you need about Zcash's ecosystem.
+
 ___
 ## Applications that Utilize Zcash
 
