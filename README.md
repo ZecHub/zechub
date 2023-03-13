@@ -37,7 +37,7 @@ The tutorials, short-form blogs, and newsletter will be open sourced and hosted 
 
 ### Contribute
 
-If you want to contribute to ZecHub, we would love to have you. Just make sure you follow our [contributing guide](/CONTRIBUTING.md).
+If you want to contribute, follow our [contributing guide](/CONTRIBUTING.md).
 
 ---
 
