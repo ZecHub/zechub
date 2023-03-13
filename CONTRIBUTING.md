@@ -21,9 +21,13 @@ Use the table of contents icon ![table of contents icon dark theme](/assets/icon
 
 ## Join the conversation
 
-First, join the conversation in the [Zcash LATAM discord](https://discord.gg/zcash). There's a ZecHub section where we chat about all things ZecHub :smile:
+First, join the conversation in the [Zcash Global discord](https://discord.gg/zcash). There's a ZecHub section where we chat about all things ZecHub :smile:
 
 <small> Don’t forget to add the ZecHub role in <a href="https://discord.com/channels/978714252934258779/983468150861484093">#lang-menu channel</a>! </small>
+
+## Style guides
+
+Any contribution to ZecHub should follow the [ZecHub style guides](/styles/guide.md). This includes wikis, docs and social media contents.
 
 ## Ways you can contribute
 
@@ -45,7 +49,7 @@ Our wiki-docs page provides Zcash education materials in an easy and digestible 
 - Zcash community and ecosystem
 - Docs in other languages
 
-These are pretty broad areas, so there's a lot to work from. If you want some inspiration, check out our current [wiki-docs site](https://zechub.notion.site/zechub/ZecHub-Wiki-d74acc14d9c04887be52486db86da0ba) and see what's missing. Once you determine what you want to write, [start to make your changes](#make-changes) and learn how to submit a PR to the ZecHub repo. All of our docs are created and maintained in this repo. Use the [docs template](https://github.com/ZecHub/zechub/blob/main/template.md) when writing a wiki page.
+These are pretty broad areas, so there's a lot to work from. If you want some inspiration, check out our current [wiki-docs site](https://zechub.notion.site/zechub/ZecHub-Wiki-d74acc14d9c04887be52486db86da0ba) and see what's missing. Once you determine what you want to write, [start to make your changes](#make-changes) and learn how to submit a PR to the ZecHub repo. All of our docs are created and maintained in this repo. Use the [docs template](https://github.com/ZecHub/zechub/blob/main/template.md) and follow the [ZecHub style](#style-guides) when writing a wiki page.
 
 After you submit a PR, please message @dismad or @tokidoki in the #zecwiki section of the discord, and he will review your PR and merge if it is ready to be added to the site. If merged, he will add the doc to the ZecHub website. If the doc is not ready, he will suggest edits for you in the PR.
 
@@ -61,7 +65,7 @@ If you find that a link is broken, or something important is mispelled, please g
 
 We produce the ecosystem's weekly newsletter. This is a super low lift / easy way to get involved! The newsletter goes out every Friday or Saturday. If you want to write a newsletter, message @squirrel or @tokidoki in the #zecweekly section of the Discord to let them know.
 
-After you do that, you can go to the [newsletter section of this repository](/newsletter/newsletterbasics.md) and submit a pull-request to create a new edition of the newsletter. Please follow the format used in this [template](/newsletter/newslettertemplate.md).
+After you do that, you can go to the [newsletter section of this repository](/newsletter/newsletterbasics.md) and submit a pull request to create a new edition of the newsletter. Please follow the format used in this [template](/newsletter/newslettertemplate.md).
 
 After you do this @squirrel or @tokidoki (in Discord) will see that your new edition of the newsletter available, and they'll review and then merge it to the repository. After it's been merged, they'll take the content and post it via Substack.
 
@@ -79,33 +83,25 @@ Rewards for this type of content are a bit larger, so a proposal would need to b
 
 ### Creative social media posts
 
-We want to explore new ways of creating engaging content for our social media channels. You can get up to .75 ZEC for each piece of content you create and post on ZecHub socials. For example, you can make a short video with a quote from our podcast, a Zcash GIF, or a clever Zcash meme.
+We want new engaging content for our social media. You can get up to .75 ZEC for short videos, GIFs, memes or other creative posts. Follow the [ZecHub style](#style-guides) when creating a social media post.
 
-You can also help us create thumbnails for our newsletter and podcast. If you have design talent, please contact us in the #design channel in the ZecHub section of the Discord.
+You can also design thumbnails for our newsletter and podcast. If you have design talent, message us in #design on Discord.
 
 ### Other ideas? Let us know!
 
-Do you have other suggestions? Please let us know in the #general channel in the ZecHub section of the Discord. We can discuss your suggestion and see if it can get support from ZecHub’s DAO.
+Have another suggestion? Tell us in #general on Discord. We can discuss it and see if ZecHub's DAO will support it.
 
 ## Issues
 
 ### Create a new issue
 
-If you spot a problem with the docs, [search if an issue already exists](https://docs.github.com/en/github/searching-for-information-on-github/searching-on-github/searching-issues-and-pull-requests#search-by-the-title-body-or-comments). If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/zechub/zechub/issues/new/choose).
+If you spot a problem with ZecHub contents, [search if an issue already exists](https://github.com/ZecHub/zechub/issues). If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/zechub/zechub/issues/new/choose).
 
 ### Solve an issue
 
-Scan through our [existing issues](https://github.com/zechub/zechub/issues) to find one that interests you. You can narrow down the search using `labels` as filters. See [Labels](/site/contribute/issue-labels.md) for more information. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix.
+Scan through our [existing issues](https://github.com/zechub/zechub/issues) to find one that interests you. You can narrow down the search using `labels` as filters. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix.
 
 ## Make Changes
-
-### Make changes in the UI
-
-Click **Make a contribution** at the bottom of any docs page to make small changes such as a typo, sentence fix, or a broken link. This takes you to the `.md` file where you can make your changes and [create a pull request](#pull-request) for a review.
-
- <img src="./assets/images/contribution_cta.png" width="300" height="150" />
-
-### Make changes locally
 
 1. Fork the repository.
 
@@ -125,10 +121,10 @@ Commit the changes once you are happy with them. Don't forget to self-review to 
 
 ## Pull Request
 
-When you're finished with the changes, create a pull request, also known as a PR. Include your unified address (UA) in the PR so we can send you a tip!
+When you're finished with the changes, [create a pull request](https://github.com/ZecHub/zechub/pulls), also known as a PR. Include your unified address (UA) in the PR so we can send you a tip!
 
 ### To Finish
 
-Please don't hesistate on getting started. If you want to contribute to one of the industry's most respected protocols, this is a great way to get involved. If you have any questions on contributing to ZecHub, please let us know in Discord.
+Please don't hesistate on getting started. If you want to contribute to one of the industry's most respected protocols, this is a great way to get involved. If you have any questions on contributing to ZecHub, please let us know in [Discord](#join-the-conversation).
 
 Thanks!
