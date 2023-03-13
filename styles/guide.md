@@ -18,7 +18,7 @@
 
 - **Be brief**. Give users enough information for them to solve a problem or make a choice.
 
-- **Skip periods in titles**. Remove periods from titles. Skip the end punctuation on titles, headings, subheads, UI titles, and list items with three or fewer words. Periods are used in paragraphs and body copy.
+- **Skip periods in titles**. Remove the end punctuation on titles, headings, subheads, UI titles, and list items with three or fewer words. Periods are used in paragraphs and body copy.
 
   - Examples: Press the Send button. → Press the Send button
 
