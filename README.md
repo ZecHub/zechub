@@ -12,11 +12,14 @@
     <a href="https://discord.gg/zcash">
         <img src="https://img.shields.io/discord/978714252934258779?style=social">
     </a>
+    <a href="https://www.youtube.com/@zechub7755">
+        <img src="https://img.shields.io/youtube/channel/views/UC3-KM00kjCUheRzO5cq3PAA?style=social&label=Subscribe">
+    </a>
 </p>
 
 <p>
     <a href="https://twitter.com/zechub">
-        <img src="https://img.shields.io/twitter/follow/zechub?label=Follow">
+        <img src="https://img.shields.io/twitter/follow/zechub?style=social&label=Follow">
     </a>
 </p>
 
@@ -32,34 +35,14 @@ The goal of ZecHub is to provide a educational platform where community members 
   
 The tutorials, short-form blogs, and newsletter will be open sourced and hosted on GitHub, meaning anyone from the community can contribute. This is to ensure content is accurate and that the channel itself suffers from no single points of failure.
 
-If you're new to Zcash, use [this guide](https://zechub.notion.site/Zcash-New-User-Guide-78c340cd6b18485f945e2bce4b6a8748).
+### Contribute
 
-<!--
-How to make changes to ZecHub 
----
-  1. Create a new Github account or log in with your own.
-  2. Go to [ZecHub's](https://github.com/ZecHub/zechub) Github repo.
-  3. Fork the official ZecHub repository  
-  4. Make edits / Add new material
-  5. Contribute by creating a *PR*, or Pull Request
-  6. Visual example (Click to watch!)
-  
-  [![Watch the video](https://img.youtube.com/vi/e-g0l6X-MB8/default.jpg)](https://youtu.be/e-g0l6X-MB8)
-  
-  7. Any PR's that get approved will be pushed to the offical ZecHub repository and also be broadcast into the #operations channel of our discord.
-  8. For further details on how to use Github, [here](https://www.youtube.com/watch?v=YTbRzhQju4c&t=1s) is another video to help.
-  
-Contributor Guidelines
----
-In the interest of maintaining a uniform look to ZecHub, there's a [template](https://github.com/ZecHub/zechub/blob/main/template.md) that you can use when adding pages to the repo.
-
-  1. All pages should have additional resources (ie. links to z.cash) to support content
-  2. No marketing or sponsored content
-  3. No inappropriate content.
--->
-
-<!-- TODO: Add contact UA to receive shielded memos -->
+If you want to contribute, follow our [contributing guide](/CONTRIBUTING.md).
 
 ---
 
-**DISCLAIMER: ZecHub is an independent and open-source initiative founded by Zcash community members. Nothing contained in this Github repository should be considered financial or investment advice - it is for informational purposes only.**
+If you're new to Zcash, use [this new user guide](https://zechub.notion.site/Zcash-New-User-Guide-78c340cd6b18485f945e2bce4b6a8748).
+
+<small>
+  DISCLAIMER: ZecHub is an independent and open-source initiative founded by Zcash community members. Nothing contained in this Github repository should be considered financial or investment advice - it is for informational purposes only.
+</small>
