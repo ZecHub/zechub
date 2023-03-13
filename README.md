@@ -56,8 +56,10 @@ In the interest of maintaining a uniform look to ZecHub, there's a [template](ht
   1. All pages should have additional resources (ie. links to z.cash) to support content
   2. No marketing or sponsored content
   3. No inappropriate content.
- 
-Donations: zs1t2fz22l7sw09ctwu7knymna60aa84fxap86rny6ul4nx007nh3pp5d4u7y4ucyvxwpgzyjz7vgx
 -->
 
-**DISCLAIMER: ZecHub is a completely independent and open-source initiative founded by Zcash community members. Nothing contained in this Github repository should be considered financial or investment advice - it is for informational purposes only.**
+<!-- TODO: Add contact UA to receive shielded memos -->
+
+---
+
+**DISCLAIMER: ZecHub is an independent and open-source initiative founded by Zcash community members. Nothing contained in this Github repository should be considered financial or investment advice - it is for informational purposes only.**
