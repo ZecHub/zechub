@@ -4,21 +4,21 @@
 
 <h3>
     <em>
-      An open-source education hub for <a href="https://z.cash/">Zcash</a>
+      An open-source education hub for <a href="https://z.cash/" target="_blank">Zcash</a>
     </em>
 </h3>
 
 <p>
-    <a href="https://twitter.com/zechub">
+    <a href="https://twitter.com/zechub" target="_blank">
         <img src="https://img.shields.io/twitter/follow/zechub?style=social&label=Follow">
     </a>
 </p>
 
 <p>
-    <a href="https://discord.gg/zcash">
+    <a href="https://discord.gg/zcash" target="_blank">
         <img src="https://img.shields.io/discord/978714252934258779?style=social&label=Discord">
     </a>
-    <a href="https://www.youtube.com/@zechub7755">
+    <a href="https://www.youtube.com/@zechub7755" target="_blank">
         <img src="https://img.shields.io/youtube/channel/views/UC3-KM00kjCUheRzO5cq3PAA?style=social&label=Subscribe">
     </a>
 </p>
@@ -37,7 +37,7 @@ The tutorials, short articles, and newsletter will be open sourced and hosted on
 
 ### Contribute
 
-> Help build a more private and secure financial ecosystem for all. Follow our [contributing guide](/CONTRIBUTING.md)
+> Help build a more private and secure financial ecosystem for all. Follow our [contributing guide.](/CONTRIBUTING.md)
 
 ---
 

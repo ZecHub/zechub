@@ -125,6 +125,6 @@ When you're finished with the changes, [create a pull request](https://github.co
 
 ### To Finish
 
-Please don't hesistate on getting started. If you want to contribute to one of the industry's most respected protocols, this is a great way to get involved. If you have any questions on contributing to ZecHub, please let us know in [Discord](#join-the-conversation).
+Please do not hesitate to get started contributing to one of the industry's most respected protocols. This is a great way to get involved with Zcash. If you have any questions about contributing, please let us know on [Discord](#join-the-conversation).
 
 Thanks!
