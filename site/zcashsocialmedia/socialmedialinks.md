@@ -23,14 +23,15 @@
 19. Zcash South Korea - [@zeckr97](https://twitter.com/zeckr97)
 20. Zcash Indonesia - [@ZcashID](https://twitter.com/ZcashID)
 21. Zcash Japan - [@ZcashJP](https://twitter.com/ZcashJP)
-22. ZEC Map - [@zecmap](https://twitter.com/zecmap)
-23. ZECMarketCap - [@ZECMarketCap](https://twitter.com/ZECMarketCap)
-24. free2z - [@free2zcash](https://twitter.com/free2zcash)
-25. Zcash Nigeria - [@ZcashNigeria](https://twitter.com/ZcashNigeria)
-26. ZGo! - [@ZGoCashApp](https://twitter.com/ZGoCashApp)
-27. Zcash Magazine - [@ZcashMagazine](https://twitter.com/ZcashMagazine)
-28. Zcash Canada - [@ZcashCanada](https://twitter.com/ZcashCanada)
-29. Cypherpunk Zero DAO - [@CypherpunkDAO](https://twitter.com/CypherpunkDAO)
+22. Zcash France - [@ZcashEclaireur](https://twitter.com/ZcashEclaireur)
+23. ZEC Map - [@zecmap](https://twitter.com/zecmap)
+24. ZECMarketCap - [@ZECMarketCap](https://twitter.com/ZECMarketCap)
+25. free2z - [@free2zcash](https://twitter.com/free2zcash)
+26. Zcash Nigeria - [@ZcashNigeria](https://twitter.com/ZcashNigeria)
+27. ZGo! - [@ZGoCashApp](https://twitter.com/ZGoCashApp)
+28. Zcash Magazine - [@ZcashMagazine](https://twitter.com/ZcashMagazine)
+29. Zcash Canada - [@ZcashCanada](https://twitter.com/ZcashCanada)
+30. Cypherpunk Zero DAO - [@CypherpunkDAO](https://twitter.com/CypherpunkDAO)
 
 ## YouTube <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/youtube.svg" width="20" height="20"> 
 
@@ -41,8 +42,8 @@
 
 ## Discord <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/discord.svg" width="20" height="20"> 
 
-1. [ZcashCommunity](https://discord.com/invite/PhJY6Pm)
-2. [Zcash LATAM](https://discord.gg/zf8jvyDDfq)
+1. [Zcash Community](https://discord.com/invite/PhJY6Pm)
+2. [Zcash Global](https://discord.gg/zf8jvyDDfq)
 3. [Zcash Foundation](https://discord.gg/CuNnq4TDJz)
 4. [Cypherpunk Zero DAO](https://discord.gg/qXn9CZ5Kpm)
 5. [ZUG](https://discord.gg/w8zHgXbgMF)
