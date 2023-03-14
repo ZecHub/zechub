@@ -24,12 +24,12 @@ Use informal but professional tone in announcement tweets. Make it friendly and 
 
 ZecHub tweet threads should be:
 - Scannable through simple language, short sentences and strategic use of formatting (line breaks, bold text, etc.)
-• Shareable by providing interesting or useful content, advice and insights
-• Personalized with an informal, friendly tone as if speaking directly to followers
-• Timely by commenting on current events, trending topics or things that are relevant to your audience
-• Visual whenever possible through images, GIFs, videos, emojis, etc. to capture attention and increase engagement
-• Engaging through questions, polls, contests and other interactive content that prompts replies and discussion
-• On-brand by including the ZecHub name, logo and consistent profile photo, color scheme, etc. in all tweets
+- Shareable by providing interesting or useful content, advice and insights
+- Personalized with an informal, friendly tone as if speaking directly to followers
+- Timely by commenting on current events, trending topics or things that are relevant to your audience
+- Visual whenever possible through images, GIFs, videos, emojis, etc. to capture attention and increase engagement
+- Engaging through questions, polls, contests and other interactive content that prompts replies and discussion
+- On-brand by including the ZecHub name, logo and consistent profile photo, color scheme, etc. in all tweets
 
 ---
 
