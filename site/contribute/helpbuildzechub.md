@@ -9,3 +9,5 @@ If you're a member of the Zcash community, and want to contribute building ZecHu
 We post issues for tasks that we currently have bounties open. Primarily these are found as [Github Issues](https://github.com/ZecHub/zechub/issues). You can also find them on [Dework](https://app.dework.xyz/zechub-2424). ZecHub Quests are posted on [Crew3](https://crew3.xyz/c/zechub/)
 
 If there are other ways you'd like to contribute, please message ZecHub ([@ZecHub](https://twitter.com/zechub)) on Twitter or Join our [Discord](https://discord.gg/zcash).
+
+In order to make payouts ZecHub requires all contributors to complete a declaration form with their Name & Shielded Z-address/Unified address:
