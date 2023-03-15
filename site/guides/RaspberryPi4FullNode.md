@@ -89,7 +89,7 @@ For example in linux you would type the following after downloading:
 
 ### Boot Ubuntu Server
 
-If you have an extra monitor and keyboard plug those in now. Note: these are optional
+If you have an extra monitor and keyboard plug those in now. Note: these are optional.
 
 
 * Install the SD card you just formatted into the Raspberry Pi 4 and also plug in the External SSD/HHD into the USB3 port. Also plug in the power cord and turn it on.
@@ -119,7 +119,7 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
           
 * Using your username, pw, and IP address we can now login using SSH
 
-     * `ssh <username>@<ip address of your pi>` note: you must plugin *your* username and *your* IP address, and *your* pw when prompted
+     * `ssh <username>@<ip address of your pi>` note: you must plugin *your* username and *your* IP address, and *your* pw when prompted.
 
      * For example: `ssh ubuntu@192.168.1.25` where the username is *ubuntu* and IP address is 192.168.1.25.
 
@@ -219,7 +219,7 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
           
           `sudo mount -o umask=0077,gid=<groupid>,uid=<userid> /dev/sda1 /media/portableHD/`
           
-     * Keep an eye on both who owns the folders/files and also the permissions
+     * Keep an eye on both who owns the folders/files and also the permissions.
 
           `sudo chown -R <username>: portableHD`
           `sudo chmod -R 700 portableHD/`

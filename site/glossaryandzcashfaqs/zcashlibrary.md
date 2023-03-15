@@ -26,8 +26,8 @@ ___
 |          |              | 
 |--------------|-----------|
 |  **Benchmarking**:  |  Miners are able to submit metrics on the efficiency of various hardware used to mine Zcash. Available to view [here](https://zcashbenchmarks.info) |  
-|  **Block**: |   A Block is a record in the Zcash blockchain that contains a set of transactions sent on the network. Roughly every 2.5 minutes, on average, a new block is appended to the blockchain. |  
-|  **Block Explorer**: |  An online tool to view all transactions, past and current, on the blockchain. They provide useful information such as network hashrate and transaction growth. [Zcash Block Explorer](https://explorer.zcashfr.io/#!)      |  
+|  **Block**: |   A Block is a record in the Zcash blockchain that contains a set of transactions sent on the network. Roughly every 75 seconds, on average, a new block is appended to the blockchain. |  
+|  **Block Explorer**: |  An online tool to view all transactions, past and current, on the blockchain. They provide useful information such as network hashrate and transaction growth. [Zcash Block Explorer](https://zcashblockexplorer.com/)      |  
 |   **Blogs**: |    [ECC Blog](https://electriccoin.co/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [Zcash Community Blog](https://www.zcashcommunity.com/blog/)      |  
 |    **Blossom**:      |      The 3rd Major Network Upgrade for Zcash. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |  
 
