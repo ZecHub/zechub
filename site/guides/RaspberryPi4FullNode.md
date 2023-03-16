@@ -36,13 +36,13 @@ If you find this guide useful, consider donating ZEC to support ZecHub:
 
 
 ## Contents:
-* [Prepare the SD Card](https://github.com/dismad/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#prepare-the-sd-card)
-* [Boot Ubuntu Server](https://github.com/dismad/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#boot-ubuntu-server)
-* [Connect remotely to your Raspberry Pi 4](https://github.com/dismad/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#connect-remotely-to-your-raspberry-pi-4)
-* [Install *zcashd*](https://github.com/dismad/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#installing-zcashd)
-* [Setup *zcashd*](https://github.com/dismad/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#setup-zcashd)
-* [Using *zcashd*](https://github.com/dismad/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#using-zcashd)
-* [Sources](https://github.com/dismad/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#sources)
+* [Prepare the SD Card](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#prepare-the-sd-card)
+* [Boot Ubuntu Server](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#boot-ubuntu-server)
+* [Connect remotely to your Raspberry Pi 4](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#connect-remotely-to-your-raspberry-pi-4)
+* [Install *zcashd*](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#installing-zcashd)
+* [Setup *zcashd*](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#setup-zcashd)
+* [Using *zcashd*](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#using-zcashd)
+* [Sources](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#sources)
 
 ### Prepare the SD Card
 
