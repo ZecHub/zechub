@@ -39,4 +39,4 @@ Questa lista è stata compilata dalle raccomandazioni fornite dai developer dell
 
 Se hai ulteriori risorse (link, libri, canali, ecc.) da aggiungere alla lista, sentiti libero di includerli!
 
-*I team non hanno sempre le risorse per mantenere tutto completamente aggiornato, ma segnalare i problemi che incontri aiuterà a orientare la direzione delle guide e delle risorse disponibili.*
+*I team non hanno sempre le risorse per mantenere tutto completamente aggiornato. Segnalare i problemi che incontri aiuterà a orientare la direzione delle guide e delle risorse disponibili.*
