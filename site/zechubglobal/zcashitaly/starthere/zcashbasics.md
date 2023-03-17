@@ -14,8 +14,3 @@ Dai un'occhiata alle pagine qui sotto per imparare su Zcash, ZEC e le squadre ch
 
 [Quali sono i casi d'uso di ZEC?](https://www.notion.so/What-are-ZEC-s-use-cases-18bcbe414a8c45d8b5ae495ce072f793)
 
-[Cos'è l'Electric Coin Company?](https://www.notion.so/What-is-the-Electric-Coin-Company-438d9bc603764192bfdce6ab8d5697db)
-
-[Cos'è la Zcash Foundation?](https://www.notion.so/What-is-the-Zcash-Foundation-c95d2d60ef534972a97b4ac6c5a79442)
-
-[Cos'è Zcash Community Grants program?](https://www.notion.so/What-is-the-Zcash-Community-Grants-program-a1081b9fce8f48719d91f00714558588)
