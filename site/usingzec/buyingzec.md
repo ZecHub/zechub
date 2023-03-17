@@ -20,7 +20,7 @@ Sideshift is a no sign-up crypto exchange, meaning you don't have to give out pe
 
 Flyp.me is a no sign-up crypto exchange. It was one of the safest and most private ways to exchange 30+ cryptocurrencies straight to your wallet. You can buy ZEC with other cryptocurrencies.
 
-## Exchanges that support transparent withdrawals.
+## Exchanges that support transparent withdrawals
 
 Airtm, Binance, Bitfinex, Coinbase, Exmo, Kraken, Poloniex and Bittrex all support buying ZEC with fiat or cryptocurrencies.
 
