@@ -2,14 +2,14 @@
 # ![raspi](https://user-images.githubusercontent.com/81990132/197372285-1f413bc5-13a0-4671-9c81-760eafdda926.png)Raspberry Pi 4: a *zcashd* Full node guide 
 
 
-Lo scopo di questa guida è quello di aiutare a istruire gli utenti di Zcash che sono interessati ad eseguire un nodo completo su un Raspberry Pi 4 a basso consumo energetico.![zcashdPI](https://user-images.githubusercontent.com/81990132/197372541-dcd886ab-a3d0-4614-b490-0294ddf3ffae.png)
+Lo scopo di questa guida è quello di aiutare a istruire gli utenti di Zcash che sono interessati ad eseguire un nodo completo su un Raspberry Pi 4 a basso consumo energetico.
+
+![zcashdPI](https://user-images.githubusercontent.com/81990132/197372541-dcd886ab-a3d0-4614-b490-0294ddf3ffae.png)
 
 
 Se trovi utile questa guida, considera di donare ZEC per sostenere ZecHub:
 
-`zs1t2fz22l7sw09ctwu7knymna60aa84fxap86rny6ul4nx007nh3pp5d4u7y4ucyvxwpgzyjz7vgx`
-
-![zecHubQR](https://user-images.githubusercontent.com/81990132/197678815-f9092760-c43e-49fe-b15d-c145646bf783.png)
+`zs1txa9wzxsc46w4940c4t76wjlylhntyp7vcppsp8re32z02srqse038melgglew4jwsh3qes4m4n`
 
 
 ## Cosa imparerai
