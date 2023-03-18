@@ -37,7 +37,7 @@ The tutorials, short articles, and newsletter will be open sourced and hosted on
 
 ### Contribute
 
-> Help build a more private and secure financial ecosystem for all. Follow our [contributing guide.](/CONTRIBUTING.md)
+> Help build a more private and secure financial ecosystem for all. Follow our **[contributing guide.](/CONTRIBUTING.md)**
 
 ---
 
