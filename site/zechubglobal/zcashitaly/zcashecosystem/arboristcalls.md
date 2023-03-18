@@ -1,6 +1,6 @@
-# Chiamate degli Arboristi Zcash
+# Chiamate degli Arborist
 
-Le Chiamate degli Arboristi Zcash sono incontri bisettimanali di sviluppo del protocollo incentrati sul monitoraggio della logistica di implementazione del protocollo imminente, dei problemi di implementazione del nodo di consenso e della ricerca di protocollo.
+Le Chiamate degli Arborist sono incontri bisettimanali di sviluppo del protocollo incentrati sul monitoraggio della logistica di implementazione del protocollo imminente, dei problemi di implementazione del nodo di consenso e della ricerca di protocollo.
 
 Chiunque voglia contribuire allo sviluppo del protocollo Zcash e condividere notizie sui progetti di nodo Zcash. Registrati qui: [15:00 UTC](https://us06web.zoom.us/webinar/register/WN_Vk7WMz9sRkiIr_hqH_x3LA) / [22:30 UTC](https://us06web.zoom.us/webinar/register/WN_z0k1ipsnRkS4-DGqDhULdA)
 
