@@ -15,7 +15,7 @@ The NFT community, mostly active on Twitter, has even created a [decentralized o
 
 We’ve seen too many projects over-promise and under-deliver on their NFT roadmaps. As such, there is no formal roadmap.
 
-Trust that we’ve got some amazing, exclusive perks in the pipeline for NFT holders—some expected, some unexpected. Buckle up and join us for the ride
+Trust that we’ve got some amazing, exclusive perks in the pipeline for NFT holders—some expected, some unexpected. Buckle up and join us for the ride.
 
 ## Governance
 
