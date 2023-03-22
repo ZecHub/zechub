@@ -1,21 +1,21 @@
-# Zero to Zero Knowledge | Educational Series 
+# Zero to Zero Knowledge | Serie Educativa
 
 
-## Hash Functions 
+## Funzioni di Hash
 
 https://twitter.com/ZecHub/status/1621240109663227906
 
 
-## Recovery Seed Phrases 
+## Frasi di ripristino seed
 
 https://twitter.com/ZecHub/status/1624125037945946145
 
 
-## Zcash Addresses 
+## Indirizzi
 
 https://twitter.com/ZecHub/status/1628498645627666432
 
 
-## Trusted Execution Environments 
+## Ambienti di esecuzione affidabili
 
 https://twitter.com/ZecHub/status/1633579659282587651

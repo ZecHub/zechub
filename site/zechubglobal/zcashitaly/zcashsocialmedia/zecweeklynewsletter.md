@@ -1,19 +1,19 @@
 # ZecWeekly
 
-ZecWeekly is a newsletter that goes out every Friday morning. It includes all the news that happened during the week in the Zcash ecosystem.
+ZecWeekly è una newsletter che esce ogni venerdì mattina. Include tutte le notizie che sono accadute durante la settimana nell'ecosistema di Zcash.
 
-The news is curated weekly by community members and all relevant links are added to the newsletter.
+Le notizie sono selezionate settimanalmente da membri della comunità e tutti i link rilevanti vengono aggiunti alla newsletter.
 
-Please subscribe to the newsletter [here](https://zechub.substack.com/).
+Per favore iscriviti alla newsletter [qui](https://zechub.substack.com/).
 
-## Contribute
+## Contribuisci
 
-If you want to contribute to the newsletter, please assist by curating links for the relevant week, and posting them here.
+Se vuoi contribuire alla newsletter, puoi aiutare selezionando i link per la settimana rilevante e postandoli qui.
 
-If you want to organize an entire newsletter, please dm [ZecHub on Twitter](https://twitter.com/ZecHub). The account will get back with the earliest newsletter edition you can create and instruct you to create a PR in the [newsletter section](https://github.com/ZecHub/zechub/tree/main/newsletter) of the ZecHub github repo.
+Se vuoi organizzare un'intera newsletter, invia un messaggio diretto a [ZecHub su Twitter](https://twitter.com/ZecHub). The account will get back with the earliest newsletter edition you can create and instruct you to create a PR in the [newsletter](https://github.com/ZecHub/zechub/tree/main/newsletter) del repository di ZecHub su Github.
 
-Please use this [template](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md) when creating a newsletter edition.
+Per favore, utilizza questo [template](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md) quando crei un'edizione della newsletter.
 
-## Past editions
+## Edizioni passate
 
-[ZecWeekly Archive](https://zechub.substack.com/p/archive)
+[Archivio di ZecWeekly](https://zechub.substack.com/p/archive)

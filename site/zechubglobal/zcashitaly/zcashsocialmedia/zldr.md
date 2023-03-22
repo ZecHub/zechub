@@ -1,9 +1,9 @@
-# zl;dr (formerly ZecDaily)
+# zl;dr (in precedenza ZecDaily)
 
-zl;dr is a show that highlights all things Zcash in video format. The episodes cover a number of Zcash topics, community, eco-system updates and news.
+zl;dr è uno spettacolo che evidenzia tutto ciò che riguarda Zcash in formato video. Gli episodi coprono diversi argomenti di Zcash, aggiornamenti della comunità, dell'ecosistema e delle notizie.
 
-Episodes are released every 2 weeks. Please subscribe to zl:dr at our YouTube channel [here](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA).
+Gli episodi vengono pubblicati ogni 2 settimane. Si prega di iscriversi a zl:dr sul nostro canale YouTube [qui](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA).
 
-[zl;dr Playlist](https://www.youtube.com/playlist?list=PL6_epn0lASLG4cC2Se_KwbYJx-nd3EbDC)
+[Playlist zl;dr](https://www.youtube.com/playlist?list=PL6_epn0lASLG4cC2Se_KwbYJx-nd3EbDC)
 
-Watch the latest zl;dr [here](https://www.youtube.com/watch?v=rt4Qx7gABiA)
+Guarda l'ultimo zl;dr [qui](https://www.youtube.com/watch?v=rt4Qx7gABiA)

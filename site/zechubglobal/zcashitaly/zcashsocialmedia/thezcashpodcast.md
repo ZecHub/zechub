@@ -1,21 +1,21 @@
 
-# The Zcash Podcast on the Digital Cash Network
+# The Zcash Podcast sul Network di Denaro Digitale
 ![Screenshot_2023-01-22_21-50-14](https://user-images.githubusercontent.com/81990132/213973803-b0629c92-08d4-459b-99f1-594854a7db3a.png)
 
-The Zcash Podcast hosts content such as updates, specific subject deep dives, etc. for the existing Zcash community to consume and share, as well as give an opportunity for existing Digital Cash Network channel subscribers to become more deeply familiar with Zcash. 
+The Zcash Podcast offre contenuti come aggiornamenti, approfondimenti su temi specifici, ecc. per la comunità esistente di Zcash, così come per dare l'opportunità ai sottoscrittori del canale esistente di Digital Cash Network di diventare più profondamente familiari con Zcash.
 
-Specifically, this channel focuses on:
+In particolare, questo canale si concentra su:
 
-* the perspective of living unbanked off of cryptocurrency and decentralizing your whole life
-* curating a community much more likely to be interested in Zcash's principles and technology compared to the average crypto audience.
+* la prospettiva di vivere senza banche grazie alle criptovalute e di decentralizzare completamente la propria vita.
+* la cura di una comunità molto più propensa ad essere interessata ai principi e alla tecnologia di Zcash rispetto al pubblico medio delle criptovalute.
 
-Additionally, the live format creates a sense of connection with the audience, who are able to participate and ask questions live of the host and guests, ideal for reaching new fans, while still allowing the long-form content to be consumed later.
-
-
-[Current Playlist](https://youtube.com/playlist?list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w)
+Inoltre, il formato live crea un senso di connessione con il pubblico, che è in grado di partecipare e porre domande in diretta all'host e agli ospiti, ideale per raggiungere nuovi fan, pur consentendo comunque di consumare il contenuto di lunga durata in seguito.
 
 
-  * Zcash Podcast 1 with Nathan Wilcox: Zcash's Evolution Past to Present [ [YouTube](https://youtu.be/tCrFmK-5Enc) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-2:a) ]
-  * Zcash Podcast 2 with Aditya Bharadwaj: End-User Apps and Zcash Adoption [ [YouTube](https://youtu.be/sK13gwtTaCQ)| [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-1:8) ]
-  * Zcash Podcast 3 with Ian Sagstetter: ZecHub and Zcash's Growing Community Initiatives [ [YouTube](https://www.youtube.com/watch?v=0tIK6vBM3-s)| [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-3:a) ]
+[Playlist attuale](https://youtube.com/playlist?list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w)
+
+
+  * Zcash Podcast 1 con Nathan Wilcox: L'evoluzione di Zcash dal passato al presente [ [YouTube](https://youtu.be/tCrFmK-5Enc) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-2:a) ]
+  * Zcash Podcast 2 con Aditya Bharadwaj: App per utenti finali e adozione di Zcash [ [YouTube](https://youtu.be/sK13gwtTaCQ)| [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-1:8) ]
+  * Zcash Podcast 3 con Ian Sagstetter: ZecHub e le iniziative della crescente comunità di Zcash [ [YouTube](https://www.youtube.com/watch?v=0tIK6vBM3-s)| [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-3:a) ]
 
