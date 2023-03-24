@@ -25,16 +25,16 @@ Stay up to date on future episodes:
 
 + Episode 7 - Zcash FUD with Josh Swihart [Youtube](https://www.youtube.com/watch?v=a6TQt6rmwXU) | [Odysee](https://odysee.com/@ZecHub:4/podcast-Josh:9) | [Spotify](https://open.spotify.com/episode/5GGUGjYQWgxwe5y1PGzMLJ)
 
-+ Episode 6 - Zcash Brasil's latest grant proposal with Samara [Youtube](https://www.youtube.com/watch?v=F5_DXXFSEsQ) | [Odysee](https://odysee.com/@ZecHub:4/zcash-brazil-podcast:e) | [Spotify](https://open.spotify.com/episode/5t3lz27CrWFvIWN2K3hKSN)
++ Puntata 6 - La nuova proposta di sovvenzione di Zcash Brasil con Samara [Youtube](https://www.youtube.com/watch?v=F5_DXXFSEsQ) | [Odysee](https://odysee.com/@ZecHub:4/zcash-brazil-podcast:e) | [Spotify](https://open.spotify.com/episode/5t3lz27CrWFvIWN2K3hKSN)
 
-+ Episode 5 - The new Zcash podcast with Joël Valenzuela [Youtube](https://www.youtube.com/watch?v=TE1ILZankdM) | [Odysee](https://odysee.com/@ZecHub:4/podcast-with-joe%CC%88l:6) | [Spotify](https://open.spotify.com/episode/1GHzC6aNA8DIxA84yDtQ8W)
++ Puntata 5 - Il nuovo podcast su Zcash con Joël Valenzuela [Youtube](https://www.youtube.com/watch?v=TE1ILZankdM) | [Odysee](https://odysee.com/@ZecHub:4/podcast-with-joe%CC%88l:6) | [Spotify](https://open.spotify.com/episode/1GHzC6aNA8DIxA84yDtQ8W)
 
-+ Episode 4 - Zcash narratives with David from Zcash Media [Youtube](https://www.youtube.com/watch?v=gl5qxA4Q6yk) | [Odysee](https://odysee.com/@ZecHub:4/z2z-podcast_untitled-recording_david-law50vmad_cfr_2022-sep-15-2320pm-utc-riverside_1:e) | [Spotify](https://open.spotify.com/episode/1tgtIAGiOLnb1toGj2cmDQ)
++ Puntata 4 - Narrazioni su Zcash con David di Zcash Media [Youtube](https://www.youtube.com/watch?v=gl5qxA4Q6yk) | [Odysee](https://odysee.com/@ZecHub:4/z2z-podcast_untitled-recording_david-law50vmad_cfr_2022-sep-15-2320pm-utc-riverside_1:e) | [Spotify](https://open.spotify.com/episode/1tgtIAGiOLnb1toGj2cmDQ)
 
-+ Episode 3 - DeFi and privacy with Railgun [Youtube](https://www.youtube.com/watch?v=jLd7J5BY_aM) | [Odysee](https://odysee.com/@ZecHub:4/railgun:f) | [Spotify](https://open.spotify.com/episode/6dlRiUjEzFOogTrwdVhnhd)
++ Puntata 3 - DeFi e privacy con Railgun [Youtube](https://www.youtube.com/watch?v=jLd7J5BY_aM) | [Odysee](https://odysee.com/@ZecHub:4/railgun:f) | [Spotify](https://open.spotify.com/episode/6dlRiUjEzFOogTrwdVhnhd)
 
-+ Episode 2 - Music NFTs, privacy and economic freedom with Xcelencia [Youtube](https://www.youtube.com/watch?v=nrtoRgb7g28) | [Odysee](https://odysee.com/@ZecHub:4/xcelencia:4) | [Spotify](https://open.spotify.com/episode/0a0Fad1H2vJ4JO1edJCKuC)
++ Puntata 2 - NFT musicali, privacy e libertà economica con Xcelencia [Youtube](https://www.youtube.com/watch?v=nrtoRgb7g28) | [Odysee](https://odysee.com/@ZecHub:4/xcelencia:4) | [Spotify](https://open.spotify.com/episode/0a0Fad1H2vJ4JO1edJCKuC)
 
-+ Episode 1 - Crypto regulation and financial privacy with J.W. Verret [Youtube](https://www.youtube.com/watch?v=20oCI7XAR08) |  [Odysee](https://odysee.com/@ZecHub:4/z2zpodcast1:4) | [Spotify](https://open.spotify.com/episode/4bgn6g1vcVXOqTZ71IN6HE)
++ Puntata 1 - Regolamentazione delle criptovalute e privacy finanziaria con J.W. Verret [Youtube](https://www.youtube.com/watch?v=20oCI7XAR08) |  [Odysee](https://odysee.com/@ZecHub:4/z2zpodcast1:4) | [Spotify](https://open.spotify.com/episode/4bgn6g1vcVXOqTZ71IN6HE)
 
-If you have any recommendations of who you would like to see next on the podcast, feel free to reach out to us!  DM's to @zechub on Twitter
+Se hai delle raccomandazioni su chi ti piacerebbe vedere nel prossimo episodio del podcast, sentiti libero di contattarci! Mandaci un messaggio diretto su Twitter a @zechub.

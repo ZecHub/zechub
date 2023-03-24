@@ -57,7 +57,7 @@
 
 ## Mastodon <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/mastodon.svg" width="20" height="20"> 
 
-1. [Zeal Center](https://zeal.center/) - Register to join [here](https://blog.zeal.center/registration.html)
+1. [Zeal Center](https://zeal.center/) - Registrati [qui](https://blog.zeal.center/registration.html) per unirti
 
 ## Reddit <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/reddit.svg" width="20" height="20"> 
 

@@ -6,7 +6,7 @@ The Zcash Podcast hosts content such as updates, specific subject deep dives, et
 
 Specifically, this channel focuses on:
 
-* the perspective of living unbanked off of cryptocurrency and decentralizing your whole life
+* the perspective of living unbanked off of cryptocurrency and decentralizing your whole life.
 * curating a community much more likely to be interested in Zcash's principles and technology compared to the average crypto audience.
 
 Additionally, the live format creates a sense of connection with the audience, who are able to participate and ask questions live of the host and guests, ideal for reaching new fans, while still allowing the long-form content to be consumed later.

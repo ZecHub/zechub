@@ -1,146 +1,145 @@
-## Zcash Community Projects
+## Progetti della Comunità Zcash
 
 
 [Block Explorer](https://zcashblockexplorer.com)
 
-The Zcash Block Explorer provides information such as transaction data / block information / Addresses / Mempool Blocks etc. Also allows for Transaction Payment Disclosure Viewing Key to be used.
+Il Block Explorer di Zcash fornisce informazioni come dati di transazione, informazioni sui blocchi, indirizzi, blocchi mempool, ecc. Consente anche di utilizzare la chiave di visualizzazione del pagamento di una transazioni schermata.
 
 
 [Frost](https://eprint.iacr.org/2020/852)
 
-Researchers at the Zcash Foundation are collaborating on an IETF informational draft for FROST with researchers at the University of Waterloo and several other organizations, and it’s on the path towards greater adoption within the Zcash ecosystem and beyond.
+I ricercatori della Zcash Foundation stanno collaborando alla stesura di una bozza informativa IETF per FROST con ricercatori dell'Università di Waterloo e diverse altre organizzazioni, ed è sulla strada verso una maggiore adozione all'interno dell'ecosistema Zcash e oltre.
 
 
 [Free2z](https://free2z.cash)
 
-Free2z is a tool for anonymous content and private donations.
+Free2z è uno strumento per contenuti anonimi e donazioni private.
 
 
 [Nighthawk Wallet](https://nighthawkwallet.com/)
 
-Private money in your wallet using ZEC & capable of autoshielding funds.  
+Denaro privato nel tuo portafoglio utilizzando ZEC e in grado di auto-schermare i fondi.
 
 [Ywallet](https://ywallet.app/)
 
-A multi-feature privacy wallet supporting Zcash and Ycash utilizing the fast syncing algorithm: warp-sync.
+Un portafoglio per la privacy a funzionalità multiple che supporta Zcash e Ycash, utilizzando l'algoritmo di sincronizzazione rapida: warp-sync.
 
 [Zbay](https://www.zbay.app/index.html)
 
-Zbay lets you send messages, build online communities and marketplaces, and buy & sell products privately using Zcash.
+Zbay consente di inviare messaggi, costruire comunità e mercati online, e acquistare e vendere prodotti in modo privato utilizzando Zcash.
 
 
 [Zebra](https://zfnd.org/zebra/)
 
-Zebra is the Foundation’s independent, consensus-compatible implementation of a Zcash node, currently under development. Zebra can be used to join the Zcash peer-to-peer network, which helps keep Zcash working by validating and broadcasting transactions, and maintaining the Zcash blockchain state in a distributed manner.
+Zebra è un'implementazione indipendente e compatibile con il consenso di un nodo Zcash della Fondazione, attualmente in fase di sviluppo. Zebra può essere utilizzato per unirsi alla rete peer-to-peer di Zcash, che aiuta a mantenere Zcash funzionante convalidando e trasmettendo transazioni e mantenendo lo stato della blockchain di Zcash in modo distribuito.
 
 
 [ZECpages](https://www.zecpages.com/z/all)
 
-ZECpages is a censorship resistant, Zcash blockchain-powered social media. It includes a directory of zcash users and an anonymous message board powered by Zcash.
+ZECpages è un social media resistente alla censura basato sulla blockchain di Zcash. Include una directory degli utenti di zcash e una bacheca anonima alimentata da Zcash.
 
 [ZECwallet Lite](https://zecwallet.co)
 
-A fully-featured wallet for Zcash.
+Un portafoglio a 360° per Zcash.
 
 [Zeme Team](https://zeme.team/)
 
-Zeme Team allows creators to easily receive tips from anyone in the community. They’ll have direct links to their work that they can share to social media to drive more tips.
+Zeme Team consente ai creatori di ricevere facilmente mance da chiunque nella comunità. Avranno link diretti al loro lavoro che possono condividere sui social media per ottenere maggiori mance.
 
 
 [ZGo](https://zgo.cash)
 
-ZGo is a Zcash Register. Enabling vendors and merchants to accept Zcash. Currently testing the app to get high quality feedback on the usability and features of ZGo.
-
+ZGo è un registratore di Zcash che consente ai venditori e ai commercianti di accettare Zcash. Attualmente si sta testando l'app per ottenere feedback di alta qualità sull'usabilità e le funzionalità di ZGo.
 
 [Zlink](https://zlink.click)
 
-Zlink is the simplest way to find any link, tool, information you need about Zcash's ecosystem.
+Zlink è il modo più semplice per trovare qualsiasi link, strumento, informazione di cui hai bisogno sull'ecosistema di Zcash.
 
 ___
-## Applications that Utilize Zcash
+## Applicazioni che utilizzano Zcash
 
 
 [aftok](https://aftok.com)
 
-An aftok is a radical new kind of cooperative, bottom-up business organization. It's a way for you and some trusted friends to build things together and get paid for your efforts, without the hierarchy or overhead of a traditional company.
+Un aftok è un nuovo tipo radicale di cooperativa, organizzazione aziendale dal basso verso l'alto. È un modo per te e alcuni amici fidati di costruire insieme e essere pagati per i vostri sforzi, senza la gerarchia o gli oneri di un'azienda tradizionale.
 
 [Atomic DEX](https://atomicdex.io/en/)
 
-AtomicDEX is a multi-coin wallet, bridge, and DEX rolled into one app. Mobile/Desktop versions available.
+AtomicDEX è un'applicazione che include un portafoglio multi-coin, un bridge e un DEX (decentralized exchange). Sono disponibili versioni per dispositivi mobili e desktop.
 
 
 [DCRDEX](https://dex.decred.org)
 
-DCRDEX is a decentralized exchange built by the Decred Project. Desktop Client Only.
+DCRDEX è uno scambio decentralizzato costruito dal progetto Decred. Disponibile solo come client desktop.
 
 [Sideshift](https://sideshift.ai)
 
-SideShift.ai is a no sign-up cryptocurrency exchange supporting over fifty coins and tokens across multiple blockchains. Users value our focus on privacy, ease of use and minimizing third-party risk, all of which are hard to come by on traditional crypto exchanges.
+SideShift.ai è un exchange di criptovalute senza registrazione che supporta oltre cinquanta coin e token su più blockchain. Gli utenti apprezzano il nostro focus sulla privacy, la facilità d'uso e la minimizzazione del rischio di terze parti, tutti aspetti difficili da trovare sui tradizionali scambi di criptovalute.
 
 
 [RenBridge](https://bridge.renproject.io/welcome)
 
-Using RenVM, a universal translator, it converts digital assets to the format needed by its destination chain. For example, RenVM takes ZEC, holds it, and then converts it to an ERC-20 with a 1:1 ratio to ensure your renZEC is always backed by the same amount of ZEC.
+Utilizzando RenVM, un ponte universale, converte gli asset digitali nel formato richiesto dalla blockchain di destinazione. Ad esempio, RenVM prende ZEC, lo detiene e lo converte in un ERC-20 con un rapporto 1:1 per garantire che il tuo renZEC sia sempre garantito dalla stessa quantità di ZEC.
 
 
 [ZeroBridge](https://bridge.zerodao.com/#/transfer/ETH)
 
-ZeroBridge is a decentralized client of the Zero DAO protocol, enabling cross-chain asset scripting in a browser with your existing wallet, @zerodaoHQ makes it possible to fund a fresh ETH address with Shielded ZEC.
+ZeroBridge è un client decentralizzato del protocollo Zero DAO, che consente lo scripting di asset cross-chain in un browser con il tuo portafoglio esistente, @zerodaoHQ rende possibile finanziare un nuovo indirizzo ETH con ZEC schermati.
 
 
 [Zcash CoinHolder Polling](https://forum.zcashcommunity.com/t/coin-holder-polling-instructions/40170)
 
-A method by which coin-weighted polling took place on the Zcash blockchain using T-addresses and arranged via the community forum.
+Un metodo con cui si è svolto il polling ponderato in base alle coin, sulla blockchain Zcash utilizzando indirizzi T e organizzato tramite il forum della comunità.
 
 
 ___
-## Wider Ecosystem Utilizing Zero-Knowledge Proofs
+## Utilizzo più ampio dell'Ecosistema tramite le Prove a Conoscenza Zero (ZK)
 
 
 [Aztec](https://aztec.network/index.html)
 
-The Aztec Connect SDK allows any Ethereum protocol to be integrated in Aztec’s private rollup with a simple Solidity interface and front-end SDK. Aztec Connect allows users to confidentially access world-class DeFi services on Ethereum with up to 100x cost savings, all while strengthening Aztec’s existing privacy guarantees.
+L'Aztec Connect SDK consente l'integrazione di qualsiasi protocollo Ethereum nel rollup privato di Aztec con un'interfaccia Solidity semplice e un front-end SDK. Aztec Connect consente agli utenti di accedere in modo confidenziale ai servizi DeFi di classe mondiale su Ethereum con un risparmio di costo fino a 100x, il tutto rafforzando le garanzie di privacy esistenti di Aztec.
 
 [Darkfi](https://dark.fi)
 
-DarkFi is an environment with a language for writing zero-knowledge smart contracts. A global decentralized economic network operating fully anonymously.
+DarkFi è un ambiente con un linguaggio per scrivere gli smart contract a conoscenza zero. Una rete economica decentralizzata globale che opera completamente in modo anonimo.
 
-DarkFi is an anonymous Layer 1 DeFi network. Its objective is to offer flexible private primitives that can be wielded to create any kind of application. DarkFi uses advances in zero-knowledge cryptography and creates a contracting language and developer toolkits aimed to make anonymous engineering highly accessible to developers.
+DarkFi è un network Layer 1 di DeFi anonima. Il suo obiettivo è offrire "flexible private primitives" che possano essere impiegate per creare qualsiasi tipo di applicazione. DarkFi utilizza avanzamenti nella crittografia a conoscenza zero e crea un linguaggio di contrattazione e toolkit per sviluppatori volti a rendere l'ingegneria anonima altamente accessibile ai developer.
 
 [Espresso Systems](https://www.espressosys.com)
 
-Bring low-fees and better privacy to your Web3 applications with Espresso Systems' high-throughput EVM-compatible blockchain.
+Porta tariffe basse e una maggiore privacy alle tue applicazioni Web3 con la blockchain ad alta velocità compatibile con EVM di Espresso Systems.
 
-Addresses, asset types, transaction amounts, and credentials can be hidden from the world. Asset creators can define policies and programs around the assets they mint or move over from Ethereum. Viewing keys can be customized to reveal any combination of transaction details relating to sender and recipient addresses, input and output amounts, and identity attestations.
+Indirizzi, tipi di asset, importi di transazione e credenziali possono essere nascosti al mondo. Gli autori degli asset possono definire politiche e programmi relativi agli asset che emettono o spostano da Ethereum. Le chiavi di visualizzazione possono essere personalizzate per rivelare qualsiasi combinazione di dettagli di transazione relativi agli indirizzi del mittente e del destinatario, agli importi di input e output e alle attestazioni di identità.
 
 
 [ETHdos](https://ethdos.xyz)
 
-ETHdos is a first-of-its-kind social experiment leveraging unique composability properties of recursive SNARKs.
+ETHdos è un esperimento sociale unico che sfrutta le proprietà di componibilità uniche degli SNARK ricorsivi.
 
 
 [OffShift](https://offshift.io/#top)
 
-The Offshift Ecosystem is a fully on-chain, non-custodial platform designed to provide protections for user privacy without compromising yield potential or decentralization. The Offshift Ecosystem is developed by Offshift Core, the ecosystem's core development team, and powered by XFT, a public ERC20 token that confers access to ecosystem applications via Burn-and-Mint Tokenomics. Users interact with applications through a process called Shifting, whereby XFT is burned to mint synthetics in various protocols, and vice versa.
+L'Ecosistema Offshift è una piattaforma completamente on-chain e non-custodial progettata per fornire protezioni alla privacy degli utenti senza compromettere il potenziale di rendimento o la decentralizzazione. L'Ecosistema Offshift è sviluppato da Offshift Core, il team di sviluppo principale dell'ecosistema, e alimentato da XFT, un token pubblico ERC20 che conferisce accesso alle applicazioni dell'ecosistema tramite la tokenomics Burn-and-Mint. Gli utenti interagiscono con le applicazioni attraverso un processo chiamato Shifting, mediante il quale XFT viene bruciato per emettere sintetici in vari protocolli, e viceversa.
 
 [RAILGUN](https://railgun.org/#/)
 
-Through zero-knowledge proof (zk-SNARKs) technology, RAILGUN users enjoy full privacy. Their identifying information is kept private when making transfers, trading, using leverage platforms, adding liquidity or using decentralized applications (dApps) any way they like. RAILGUN is compatible with all standard ERC-20 tokens by default.
+Attraverso la tecnologia di prova a conoscenza zero (zk-SNARKs), gli utenti di RAILGUN godono della piena privacy. Le loro informazioni sono mantenute private durante i trasferimenti, il trading, l'utilizzo di piattaforme di leva finanziaria, l'aggiunta di liquidità o l'utilizzo di applicazioni decentralizzate (dApp) in qualsiasi modo desiderino. RAILGUN è compatibile con tutti i token standard ERC-20 per impostazione predefinita.
 
-The RAILGUN smart contract is already deployed on Ethereum and other blockchains. It can be used by crypto wallets, such as Railway.xyz, or by protocols themselves that want to give their users privacy.
+Il contratto intelligente di RAILGUN è già implementato su Ethereum e su altre blockchain. Può essere utilizzato da portafogli crittografici, come Railway.xyz, o dai protocolli stessi che desiderano dare privacy ai loro utenti.
 
 [Scroll](https://scroll.io)
 
-Scroll will build a fully EVM-compatible zk-Rollup. Supporting the direct verification of a Ethereum block through one succinct proof. Verification of the consistency and integrity of each opcode in EVM execution trace. L1 smart contracts can be seamlessly migrated to Scroll supporting native EVM using customized optimizations.
+Scroll costruirà un zk-Rollup completamente compatibile con EVM, supportando la verifica diretta di un blocco Ethereum attraverso una prova succinta. La verifica della coerenza e integrità di ogni opcode nella traccia di esecuzione EVM. Gli smart contract L1 possono essere migrati senza problemi a Scroll che supporta EVM nativo utilizzando ottimizzazioni personalizzate.
 
-Scroll will enable and standardize Layer-2 proof outsourcing & adopt a new hierarchical zero-knowledge proof system. The first layer will be prover efficient (customized circuit optimization and hardware efficient proving algorithm). The second layer will be verifier efficient (succinct proof and EVM-friendly verification algorithm).
+Scroll consentirà e standardizzerà l'outsourcing della prova Layer-2 e adotterà un nuovo sistema di prova a conoscenza zero gerarchica. Il primo livello sarà efficiente per il prover (ottimizzazione del circuito personalizzato e algoritmo efficiente per la prova hardware). Il secondo livello sarà efficiente per il verificatore (prova succinta e algoritmo di verifica compatibile con EVM)..
 
 [zk-Link](https://www.zk.link)
 
-zkLink is the first multi-chain integration DEX based on ZK-Rollup technology, which aggregates the liquidity of different ecosystems, and makes it possible for native assets on different chains to interact and pair with each other.
+zkLink è il primo DEX di integrazione multi-chain basato sulla tecnologia ZK-Rollup, che aggrega la liquidità di diverse ecosistemi e rende possibile l'interazione e la combinazione di asset nativi su diverse blockchain.
 
-The platform adopts zero-knowledge technology and the DAO governance model to ensure the security and consistency of multi-chain asset interoperability, creating multi-chain DeFi scenarios such as swapping, loaning and revenue aggregating with a secure, efficient and low-cost user experience.
+La piattaforma adotta la tecnologia a conoscenza zero e il modello di governance DAO per garantire la sicurezza e la coerenza dell'interoperabilità degli asset multi-chain, creando scenari DeFi multi-chain come scambi, prestiti e aggregazione di ricavi con un'esperienza utente sicura, efficiente e a basso costo.
 
 [ZK-Sync](https://zksync.io)
 
-zkSync is a scaling and privacy engine for Ethereum. Its current functionality scope includes low gas transfers of ETH and ERC20 tokens in the Ethereum network, atomic swaps & limit orders as well as native L2 NFT support.
+zkSync è un motore di scalabilità e privacy per Ethereum. Il suo attuale ambito di funzionalità include trasferimenti a basso costo di gas di ETH e token ERC20 nella rete Ethereum, scambi atomici e ordini limite, nonché il supporto nativo di NFT L2.
