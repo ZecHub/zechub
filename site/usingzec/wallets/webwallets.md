@@ -6,5 +6,4 @@ Web wallets are wallets that you can access from your web browser. They give a u
 
 List of Web Wallets
 
-- [Jaxx](https://jaxx.io/)
 - [Safepay](https://safepay.safecoin.org/)
