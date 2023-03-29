@@ -134,7 +134,7 @@ Questo documento wiki non intende essere una guida approfondita a Free2z o Free2
 
 Nella parte inferiore sinistra dello schermo, vediamo alcuni pulsanti.
 
-![Pulsanti in basso a sinistra](assets/free2z-live-left.png)
+![Pulsanti in basso a sinistra](../../../assets/free2z-live-left.png)
 
 Una bella funzione qui è la possibilità di condividere lo schermo in modo che gli altri utenti possano vedere quello che stai facendo.
 
