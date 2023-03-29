@@ -25,6 +25,6 @@ The Global Ambassador Program is designed to identify community members who make
 | Michael     | Brazil      | @michae2xl  | [Michael2xl](https://twitter.com/michae2xl) |
 | Yoditar     | Venezuela   | @yoditar    | [Yoditar.zkp](https://twitter.com/yoditarX) |
 | Zoz         | Saudi Arabia| @zoz        | [ZECArabic](https://twitter.com/ZozNotorious) |
-| Tim         | Ukraine     | @tim_ukrainian | [Tim_ukrainian](https://twitter.com/tim_ukrainian) |
+| Tim         | France      | @tim_ukrainian |[ZcashEclaireur](https://twitter.com/ZcashEclaireur)) |
  
 
