@@ -4,7 +4,7 @@ La comunidad de Zcash es un grupo vibrante y apasionado de personas que trabajan
 
 ----
 
-## ¿Dónde encontrar a los miembros de la comunidad?
+## Dónde encontrar a los miembros de la comunidad
 
 La comunidad está activa en diferentes lugares:
 
