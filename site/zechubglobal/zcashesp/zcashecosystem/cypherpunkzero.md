@@ -11,7 +11,7 @@ El trabajo creativo se ha centrado principalmente en una [serie de NFTs](https:/
 
 La comunidad de NFTs, mayormente activa en Twitter, incluso ha creado una [organización descentralizada (DAO)](https://twitter.com/CypherpunkDAO) para organizar y completar proyectos que apoyan la campaña y la comunidad más amplia de Zcash.
 
-## Anti-roadmap Roadmap
+## Plan de acción no convencional
 
 Hemos visto demasiados proyectos prometer demasiado y cumplir poco en sus hojas de ruta de NFT. Por lo tanto, no hay una hoja de ruta formal.
 
@@ -37,8 +37,8 @@ Confía en que tenemos algunas sorpresas increíbles y exclusivas en el camino p
 
 *Suministro total*: 10,000 NFT generativos únicos en la red principal de Ethereum
 - El 4% del suministro (los primeros 400 NFTs) fue entregado a los primeros seguidores del proyecto que compraron el juguete Zcash X Mighty Jaxx: Cypherpunk Zero Genesis Edition 59.
-- El 72% del suministro (7,200 NFT) se lanzará al público mediante un mecanismo de lista blanca novedoso que requiere el uso de una billetera de Zcash que admite memos cifrados (más detalles a continuación).
-- El 24% del suministro (2,400 NFT) será retenido por ECC en la Reserva Cypherpunk, para su uso en futuras iniciativas que promuevan Zcash y la privacidad en el espacio Web3.
+- El 72% del suministro (7,200 NFTs) se lanzará al público mediante un mecanismo de lista blanca novedoso que requiere el uso de una billetera de Zcash que admite memos cifrados (más detalles a continuación).
+- El 24% del suministro (2,400 NFTs) será retenido por ECC en la Reserva Cypherpunk, para su uso en futuras iniciativas que promuevan Zcash y la privacidad en el espacio Web3.
 
 ## Recursos
 
