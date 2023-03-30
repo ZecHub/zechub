@@ -1,10 +1,10 @@
 # ZecWeekly #33
 
-Zcash Minor Grants Program, Stablecoins Lose Peg & Shielded Labs proposes a Zcash Posterity Fund!
+Zcash Minor Grants 프로그램, Stablecoins Pegging이 풀리다 & Shielded Labs이 Zcash Posterity 자금을 제안하다!
 
 ---
 
-Curated by "squirrel" ([zksquirrel](https://twitter.com/zksquirrel))
+"Aiden Jeon"에 의해 번역 ([Aiden Jeon](https://twitter.com/zaos1004))
 
 ---
 
