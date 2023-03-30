@@ -58,6 +58,8 @@ After you submit a PR, please message @dismad or @tokidoki in the #zecwiki secti
 
 ZecHub's goal is to provide an open-source education hub that anyone in the Zcash community can contribute to. One of the hub's biggest successes is seeing community members translate ZecHub materials into their local language.
 
+Note* ZecHub Global page translation rate limit is 10 pages per week.
+
 ### ZecHub Wiki - 0.1 ZEC per accepted edit to docs
 
 Sometimes our information in the docs isn't spot on. That's okay. That's why we open-source them! If you find something that needs a change in a wiki-doc, please go to the footer of the doc (which links to its Github page) and suggest a change via a PR.
