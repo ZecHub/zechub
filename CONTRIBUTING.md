@@ -47,11 +47,16 @@ Our wiki-docs page provides Zcash education materials in an easy and digestible 
 - ZEC (Zcash currency) use cases
 - New user guides
 - Zcash community and ecosystem
-- Docs in other languages
 
-These are pretty broad areas, so there's a lot to work from. If you want some inspiration, check out our current [wiki-docs site](https://zechub.notion.site/zechub/ZecHub-Wiki-d74acc14d9c04887be52486db86da0ba) and see what's missing. Once you determine what you want to write, [start to make your changes](#make-changes) and learn how to submit a PR to the ZecHub repo. All of our docs are created and maintained in this repo. Use the [docs template](https://github.com/ZecHub/zechub/blob/main/template.md) and follow the [ZecHub style](#style-guides) when writing a wiki page.
+These are pretty broad areas, so there's a lot to work from. If you want some inspiration, check out our current [wiki-docs site](https://wiki.zechub.xyz/) and see what's missing. Once you determine what you want to write, [start to make your changes](#make-changes) and learn how to submit a PR to the ZecHub repo. All of our docs are created and maintained in this repo. Use the [docs template](https://github.com/ZecHub/zechub/blob/main/template.md) and follow the [ZecHub style](#style-guides) when writing a wiki page.
 
-After you submit a PR, please message @dismad or @tokidoki in the #zecwiki section of the discord, and he will review your PR and merge if it is ready to be added to the site. If merged, he will add the doc to the ZecHub website. If the doc is not ready, he will suggest edits for you in the PR.
+After you submit a PR, please message @dismad or @tokidoki in the #zecwiki section of the discord, and they will review your PR and merge if it is ready to be added to the site. If merged, they will add the doc to the ZecHub website. If the doc is not ready, they will suggest edits for you in the PR.
+
+[Here](https://youtu.be/r0hC_-VNdd8) is an example tutorial of adding a translated wiki page.
+
+### ZecHub Wiki - 0.15 ZEC per accepted translated wiki page
+
+ZecHub's goal is to provide an open-source education hub that anyone in the Zcash community can contribute to. One of the hub's biggest successes is seeing community members translate ZecHub materials into their local language.
 
 ### ZecHub Wiki - 0.1 ZEC per accepted edit to docs
 
