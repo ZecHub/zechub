@@ -1,7 +1,7 @@
-# Ambasciatori Globali di Zcash
+# Ambasciatori globali di Zcash
 
 
-Il programma degli Ambasciatori Globali è stato progettato per identificare i membri della comunità che offrono contributi di alta qualità alla comunità di Zcash ed emponderarli affinché diventino leader. Gli ambasciatori promuovono attività che fanno crescere la comunità di Zcash, favoriscono l'adozione dell'utente e promuovono la consapevolezza della tecnologia di Zcash che protegge la privacy.
+Il Programma di Ambasciatori Globali è stato progettato per identificare i membri della comunità che apportano contributi di alta qualità alla comunità di Zcash ed abilitarli a diventare leader. Gli ambasciatori conducono attività che fanno crescere la comunità di Zcash, promuovono l'adozione da parte degli utenti e aumentano la consapevolezza della tecnologia di Zcash che preserva la privacy.
 
 ## Cosa fa un Ambasciatore?
 
@@ -11,7 +11,7 @@ Il programma degli Ambasciatori Globali è stato progettato per identificare i m
   
 ## Attuali Ambasciatori
 
-  [Lista](https://forum.zcashcommunity.com/t/the-global-ambassador-program/41070/120)
+  [Lista attuale](https://forum.zcashcommunity.com/t/the-global-ambassador-program/41070/120)
   
   | Ambassador | Country | Forum name| Twitter |
 | ----------- | ----------- | ----------- | ----------- |
@@ -26,6 +26,6 @@ Il programma degli Ambasciatori Globali è stato progettato per identificare i m
 | Michael     | Brazil      | @michae2xl  | [Michael2xl](https://twitter.com/michae2xl) |
 | Yoditar     | Venezuela   | @yoditar    | [Yoditar.zkp](https://twitter.com/yoditarX) |
 | Zoz         | Saudi Arabia| @zoz        | [ZECArabic](https://twitter.com/ZozNotorious) |
-| Tim         | Ukraine     | @zoz        | [Tim_ukrainian](https://twitter.com/tim_ukrainian) |
+| Tim         | Ukraine     | @tim_ukrainian        | [Tim_ukrainian](https://twitter.com/tim_ukrainian) |
  
 

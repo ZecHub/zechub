@@ -11,10 +11,10 @@ ___
 
 |          |            | 
 |--------------|-----------|
-| **Azioni**: |  Invece di creare diverse prove individuali per ogni Spend e Output, il protocollo Orchard le unisce in un singolo "Actions".      |   
-|  **Addresses (Indirizzi)**: | Zcash ha indirizzi schermati (Z/zaddr) e trasparenti (T/taddr). Gli indirizzi unificati (UA) stanno gradualmente sostituendo Z e T dopo l'aggiornamento NU5. |   
+| **Actions**: |  Invece di creare diverse prove individuali per ogni Spend e Output, il protocollo Orchard le unisce in un singolo "Actions".      |   
+|  **Indirizzi**: | Zcash ha indirizzi schermati (Z/zaddr) e trasparenti (T/taddr). Gli indirizzi unificati (UA) stanno gradualmente sostituendo Z e T dopo l'aggiornamento NU5. |   
 |  **Arborist Call**: | Una chiamata bimensile riguardo agli aggiornamenti sullo sviluppo del protocollo e della ricerca. Iscriviti qui [15:00 UTC](https://us06web.zoom.us/webinar/register/WN_Vk7WMz9sRkiIr_hqH_x3LA) / [22:30 UTC](https://us06web.zoom.us/webinar/register/WN_z0k1ipsnRkS4-DGqDhULdA) / [Note](https://github.com/ZcashCommunityGrants/arboretum-notes)          |   
-| **Auto-shielding**: | Permette agli utenti (più specificamente ai loro portafogli) di spostare automaticamente i fondi da un indirizzo trasparente all'ultimo pool di ZEC schermato. |   
+| **Auto-shermamento**: | Permette agli utenti (più specificamente ai loro portafogli) di spostare automaticamente i fondi da un indirizzo trasparente all'ultimo pool di ZEC schermato. |   
 
 
 
@@ -25,10 +25,10 @@ ___
 
 |          |              | 
 |--------------|-----------|
-|  **Benchmarking**:  |  I minatori sono in grado di inviare metriche sull'efficienza delle varie apparecchiature utilizzate per il mining di Zcash. Sono disponibili per la visualizzazione qui. [qui](https://zcashbenchmarks.info) |  
-|  **Block (Blocco)**: |   Un Blocco è un registro nella blockchain di Zcash che contiene un insieme di transazioni inviate sulla rete. In media ogni 75 secondi, un nuovo blocco viene aggiunto alla blockchain. |  
+|  **Benchmarking**:  |  I minatori sono in grado di inviare metriche sull'efficienza delle varie apparecchiature utilizzate per il mining di Zcash. Sono disponibili per la visualizzazione [qui](https://zcashbenchmarks.info). |  
+|  **Blocco**: |   Un blocco è un registro nella blockchain di Zcash che contiene un insieme di transazioni inviate sulla rete. In media ogni 75 secondi, un nuovo blocco viene aggiunto alla blockchain. |  
 |  **Block Explorer**: |  Uno strumento online per visualizzare tutte le transazioni, passate e presenti, sulla blockchain. Fornisce informazioni utili come l'hashrate di rete e la crescita delle transazioni [Zcash Block Explorer](https://zcashblockexplorer.com/)      |  
-|   **Blogs**: |    [ECC Blog](https://electriccoin.co/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [Zcash Community Blog](https://www.zcashcommunity.com/blog/)      |  
+|   **Blog**: |    [ECC Blog](https://electriccoin.co/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [Zcash Community Blog](https://www.zcashcommunity.com/blog/)      |  
 |    **Blossom**:      |      Il terzo importante aggiornamento per Zcash. [Più informazioni](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |  
 
   
@@ -47,7 +47,7 @@ ___
 |--------------|-----------|
 |  **Canopy**:  |     Il quinto grande aggiornamento di rete per Zcash. [Ulteriori informazioni](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy)  |  
 | **Commitment Scheme**: |  Permette a un committer di impegnarsi in un polinomio con una stringa breve che può essere utilizzata da un verificatore per confermare le valutazioni rivendicate del polinomio impegnato. Utile per ridurre i costi di comunicazione nel protocollo Zcash.|
-|  **Community**:   |    [Il forum ufficiale della comunità Zcash](https://forum.zcashcommunity.com) / [Comunità Discord di Zcash](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zcash/) / [Telegram](https://t.me/Zcash_Community) |  
+|  **Comunità**:   |    [Il forum ufficiale della comunità Zcash](https://forum.zcashcommunity.com) / [Comunità Discord di Zcash](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zcash/) / [Telegram](https://t.me/Zcash_Community) |  
 |    **Cypherpunk Zero**:  |   Un universo creativo e un'impresa collaborativa tra ECC, l'illustratore Stranger Wolf, Mighty Jaxx e alcuni partner dell'ecosistema. Consiste in una prossima serie di webcomic, NFT e collezionabili fisici, il progetto esplora la relazione tra privacy, sovranità individuale e libertà creativa. [Sito di Cypherpunk Zero](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Opensea Collection](https://opensea.io/collection/cypherpunk-zero) |  
 
 
@@ -64,7 +64,7 @@ ___
 |  **DeFi**:  |  Progetti che integrano ZEC con DeFi:  [RenBridge](https://bridge.renproject.io/mint) / [ZeroDAO](https://bridge.zerodao.com/#/transfer/ETH)  | 
 |   **Deshielding**:   |    Si riferisce a una transazione inviata da un indirizzo zaddr (indirizzo schermato) a un indirizzo taddr (indirizzo trasparente). L'origine della transazione non è visibile, tuttavia i fondi entrano in un pool di valore pubblicamente visibile. [Anatomia della transazione](https://electriccoin.co/blog/anatomy-of-zcash/)       |  
 |    **Developer Resources**:  |    [Risorse per gli sviluppatori](https://www.zcashcommunity.com/developers/)   |  
-|  **Documentation**:  |   [Documenti ufficiali](https://zcash.readthedocs.io/en/latest/)|  
+|  **Documentazione**:  |   [Documentazioni ufficiali](https://zcash.readthedocs.io/en/latest/)|  
 
 
 
@@ -76,12 +76,12 @@ ___
 
 |          |            | 
 |--------------|-----------|
-|    **ECC**: |   L'Electric Coin Company, è il team dietro il protocollo Zcash, precedentemente conosciuta come Zcash Company. |  
+|    **ECC**: |   La Electric Coin Company, è il team dietro il protocollo Zcash, precedentemente conosciuta come Zcash Company. |  
 | **ECDSA**: | Elliptic Curve Digital Signature Algorithm  è uno schema di firma digitale crittograficamente sicuro. L'algoritmo di firma/verifica ECDSA si basa sulla moltiplicazione di punti di curve ellittiche. |
 |  **Education**: |  Video orientati all'apprendimento che spiegano Zcash [qui](https://www.zcashcommunity.com/zcash-education/) |  
 |   **Encrypted Memos**: |    Un campo aggiuntivo per le transazioni inviate agli indirizzi protetti che è visibile al destinatario del pagamento. La nota criptata è visibile solo al mittente e al destinatario, a meno che la chiave di visualizzazione o la divulgazione del pagamento venga condivisa con una terza parte. |  
 |  **Equihash**: |  L'algoritmo di proof-of-work orientato alla memoria utilizzato da Zcash. |  
-| **Events**:  |    Il calendario degli eventi correlati a Zcash [qui](https://electriccoin.co/events/)  |  
+| **Eventi**:  |    Il calendario degli eventi correlati a Zcash [qui](https://electriccoin.co/events/)  |  
 |  **Exchanges**:|    [Lista degli Exchange che supportano Zcash](https://z.cash/exchanges/)  |  
 
 
@@ -128,7 +128,7 @@ ___
 
 |          |            | 
 |--------------|-----------|
-|  **Halo**:  |  Consente aggiornamenti ai circuiti senza la necessità di set up affidabili, rendendo il protocollo protetto di Zcash più agile per future migliorie ed estensioni, come ad esempio gli indirizzi unificati/gli asset definiti dall'utente. [Spiegazione tecnica](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)  |  
+|  **Halo**:  |  Consente aggiornamenti ai circuiti senza la necessità di set up affidabili, rendendo il protocollo schermato di Zcash più agile per future migliorie ed estensioni, come ad esempio gli indirizzi unificati/gli asset definiti dall'utente. [Spiegazione tecnica](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)  |  
 |  **HD Wallet**:  |   Gli "Hierarchical deterministic wallets" generano una serie di coppie di chiavi a partire da un unico seed, offrendo convenienza, gestibilità e un elevato livello di sicurezza. I portafogli Zcash consentono di creare diverse chiavi pubbliche protette a partire dalla chiave privata principale all'interno di un unico portafoglio. |  
 |  **Heartwood**: |  Il quarto grande aggiornamento di rete di Zcash. [Maggiori informazioni](https://z.cash/upgrade/heartwood/) |  
 
@@ -169,9 +169,9 @@ ___
 
 |          |            | 
 |--------------|-----------|
-|  **Layer-1**: | Si riferisce a una rete di base e alla sua infrastruttura sottostante. Le blockchain di Layer 1 possono convalidare e finalizzare le transazioni senza la necessità di un'altra rete. Zcash è una blockchain Layer 1.|  
+|  **Layer-1**: | Si riferisce a una rete di base e alla sua infrastruttura sottostante. Le blockchain Layer 1 possono convalidare e finalizzare le transazioni senza la necessità di un'altra rete. Zcash è una blockchain Layer 1.|  
 |  **librustzcash**:  |  Un ambiente di lavoro Rust contenente tutte le casse (crates) e le dipendenze per lavorare con Zcash. [repo](https://github.com/zcash/librustzcash)  |
-|  **Lightwalletd**: |  Un server senza stato che fornisce ai client leggeri le informazioni sulla blockchain. Recupera i dati della blockchain da zcashd, li elabora per ridurre i dati e li memorizza in un database. Ciò consente ai client leggeri di ottenere dati rilevanti senza interagire direttamente con zcashd. [Lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html)|  
+|  **Lightwalletd**: |  Un server senza stato che fornisce ai light client le informazioni sulla blockchain. Recupera i dati della blockchain da zcashd, li elabora per ridurre i dati e li memorizza in un database. Ciò consente ai client leggeri di ottenere dati rilevanti senza interagire direttamente con zcashd. [Lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html)|  
 
 
 
@@ -182,7 +182,7 @@ ___
 
 |          |            | 
 |--------------|-----------|
-|  **Metrics**: |  Le metriche di rete sono disponibili [qui](https://electriccoin.co/zcash-metrics/) |  
+|  **Metriche**: |  Le metriche di rete sono disponibili [qui](https://electriccoin.co/zcash-metrics/) |  
 | **Metadata**:  |    I dati generati insieme alla transazione di Zcash di un utente. Questi possono includere l'altezza del blocco, la versione della transazione o l'altezza di scadenza, ecc.  |  
 |**Mobile SDK**: | Un SDK leggero che collega Android a Zcash, consentendo alle app di terze parti per Android di inviare e ricevere transazioni protette. [Github](https://github.com/zcash/zcash-android-wallet-sdk)|
 |  **Mining**: |   Il processo in cui, per ogni blocco, i nodi nella rete Zcash competono effettuando calcoli matematici complessi per trovare una soluzione basata su una difficoltà autoregolante. I minatori di Zcash vengono ricompensati sia con le commissioni delle transazioni che confermano, sia con le ricompense dei blocchi. [Guida](https://z.cash/mining-zcash/) |  
@@ -200,7 +200,7 @@ ___
 
 |          |            | 
 |--------------|-----------|
-|   **Nighthawk**: |   Un portafoglio mobile per Zcash. - [Site](https://nighthawkwallet.com)|  
+|   **Nighthawk**: |   Un portafoglio mobile per Zcash. - [Sito](https://nighthawkwallet.com)|  
 |  **NU5**: | Il sesto importante aggiornamento di rete per Zcash. [Ulteriori informazioni](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5)|  
 
 
@@ -222,10 +222,10 @@ ___
 
 |          |            | 
 |--------------|-----------|
-|  **Payments**: | È possibile utilizzare Zcash per acquisti quotidiani attraverso diversi provider di pagamento; [Applicazioni di pagamento](https://z.cash/pay-with-zcash/) |  
+|  **Pagamenti**: | È possibile utilizzare Zcash per acquisti quotidiani attraverso diversi provider di pagamento; [Applicazioni di pagamento](https://z.cash/pay-with-zcash/) |  
 |   **Peer-to-Peer Network**:        |  Le reti P2P (Peer-to-Peer) si basano sul concetto di decentralizzazione. Questa architettura fondamentale della tecnologia blockchain permette agli utenti di trasferire criptovalute in tutto il mondo senza la necessità di intermediari. Inoltre, gli utenti possono partecipare alla rete come nodi o verificatori senza dover fare affidamento su un'autorità centrale.|  
 |  **Podcast**:  | [Radiolab](https://archive.org/details/radiolab_podcast17crypto_zcash_ceremony) / [RealVisionFinance](https://www.youtube.com/watch?v=ibA_4kwd_YI) / [EthDenver](https://www.youtube.com/watch?v=t62isi58XcQ) / [UpOnlyPodcast](https://www.youtube.com/watch?v=AjC9T938o3Q) / [ZEC Daily](https://www.youtube.com/playlist?list=PL6_epn0lASLGVQjz7Xt08sQsPCsmHoe0q) |  
-| **Proof-of-Stake (PoS)**: |    Il meccanismo di consenso attraverso cui i partecipanti effettuano uno stake di crypto per convalidare le transazioni. PoS è l'alternativa principale al mining proof-of-work che richiede una grande quantità di energia. Zcash sta formulando approcci per una futura transizione a PoS. [ECC PoS Overview](https://electriccoin.co/blog/proof-of-stake-research-overview-1/) |  
+| **Proof-of-Stake (PoS)**: |    Il meccanismo di consenso attraverso cui i partecipanti effettuano uno stake di crypto per convalidare le transazioni. PoS è l'alternativa principale al mining proof-of-work che richiede una grande quantità di energia. Zcash sta formulando approcci per una futura transizione a PoS. [ECC PoS Panoramica](https://electriccoin.co/blog/proof-of-stake-research-overview-1/) |  
 
 
 
@@ -356,6 +356,6 @@ ___
 |  **ZecPages**: |  Un social media basato sulla blockchain di Zcash resistente alla censura. Include una directory di utenti zcash e una bacheca anonima alimentata da Zcash. [sito](https://zecpages.com/ambimorph) |  
 | **ZF A/V Club**: |  Potenziare le comunità locali di Zcash con supporto globale attraverso la creazione di una rete di creatori di contenuti capaci, pronti e finanziati, che diffondono e condividono notizie fresche su Zcash e la privacy online.  |
 | **ZIP**: |  Zcash Improvement Proposal. Metodo per le proposte della comunità di nuove funzionalità per la criptovaluta Zcash, i dettagli di implementazione e la documentazione delle decisioni di design. [Sito ZIP](https://zips.z.cash) |
-|  **Zingo Wallet**    |  Un portafoglio mobile che supporta gli Unified Addresses e Orchard abilitato. Gestito da Zingo Labs. |
+|  **Zingo Wallet:**    |  Un portafoglio mobile che supporta gli indirizzi unificati (Unified Addresses e Orchard). Gestito da Zingo Labs. |
 | **zk-SNARK**:|  Zero-knowledge Succinct Argument of Knowledge (zk-SNARK) è una prova utilizzata nel protocollo Zcash che consente agli indirizzi protetti di dimostrare la validità delle transazioni associate senza rivelare l'indirizzo o il valore transato. In altre parole, un zk-SNARK consente di dimostrare di avere il diritto di spendere un determinato importo senza rivelare l'importo o l'indirizzo di provenienza. Questa tecnologia consente di preservare la privacy degli utenti della blockchain Zcash. Per ulteriori informazioni, si può fare riferimento alla documentazione ufficiale del protocollo. [Ulteriori informazioni](https://zkp.science)|  
 
