@@ -28,7 +28,7 @@ https://twitter.com/zksquirrel/status/1629021480372641800
 
 https://twitter.com/zksquirrel/status/1623787846661246976?cxt=HHwWgMC47a-c7YgtAAAA
 
-https://www.youtube.com/watch?v=moNEaJVZp2A
+https://youtu.be/xcqGXgXoyXo
 
 ## Arborist #44
 
