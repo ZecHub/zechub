@@ -17,10 +17,10 @@ We are creating our Free2z page to act as a Zcash-centric page where we host the
 
 ## Our latest content:
 
-- [The latest ZecWeekly Newsletter](https://zechub.substack.com/p/zecweekly-17)
+- [The latest ZecWeekly Newsletter](https://zechub.substack.com/p/zecweekly-35)
 - [The latest zl;dr, a weekly Zcash show](https://www.youtube.com/watch?v=frTzwCWRNLs&list=PL6_epn0lASLG4cC2Se_KwbYJx-nd3EbDC&index=3)
 - [The latest episode of our Podcast](https://www.youtube.com/watch?v=20oCI7XAR08&list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O&index=4)
-- [Our wiki-site with tons of information on Zcash & ZEC](https://zechub.notion.site/ZecHub-d74acc14d9c04887be52486db86da0ba)
+- [Our wiki-site with tons of information on Zcash & ZEC](https://wiki.zechub.xyz/)
 
 Check our content, stay up to date on Zcash, and most importantly, contribute! Let us know what you want to build :)
 
