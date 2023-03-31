@@ -6,5 +6,4 @@ I portafogli web sono portafogli a cui puoi accedere dal tuo browser web. Fornis
 
 Lista dei portafogli web
 
-- [Jaxx](https://jaxx.io/)
 - [Safepay](https://safepay.safecoin.org/)
