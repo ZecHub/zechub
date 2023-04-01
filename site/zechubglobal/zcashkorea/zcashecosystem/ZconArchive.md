@@ -11,7 +11,7 @@ Zcon0은 Zcash Foundation(ZF)의 첫 번째 컨퍼런스였으며, 성공적으�
 
 ## Zcon1: Zero to Privacy Hero
 
-ZF 재단이 주최하는 두 번째 컨퍼런스가 2019년 6월 22-24일까지 크로아티아 스플리트에서 개최되었습니다.
+ZF 재단이 주최하는 두 번째 컨퍼런스가 2019년 6월 22-24일까지 크로아티아 스플리트에서 진행되었습니다.
 
 [Zcon1 재생 목록](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
 
@@ -23,6 +23,6 @@ Zcon2는 2021년 6월 8-9일에 온라인으로 진행되었습니다.
 
 ## Zcon3: Code Alone Doesn't Cut It
 
-Zcon3는 2022년 8월 7-9일까지 미국 라스베이거스에서 열렸습니다.
+Zcon3는 2022년 8월 7-9일까지 미국 라스베이거스에서 진행되었습니다.
 
 [Zcon3 재생 목록](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
