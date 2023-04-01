@@ -10,7 +10,7 @@ Electric Coin Company(ECC)에는 전 세계에 분산되어 있는 거의 30명�
 
 ## 조직 구조
 
-ECC는 부트스트랩 프로젝트가 전적으로 소유하고 있습니다. 부트스트랩 프로젝트는 기술, 과학적 발견, 교육 및 인간 조직을 통해 인류의 향상에 전념하는 501(c)(3)입니다. Bootstrap과 Electric Coin Company에는 모두 이사회가 있으며 ECC에는 Scientific Advisory Group도 있습니다.
+ECC는 부트스트랩 프로젝트가 전적으로 소유하고 있습니다. 부트스트랩 프로젝트는 기술, 과학적 발견, 교육 및 인간 조직을 통해 인류의 향상에 전념하는 501(c)(3)입니다. Bootstrap과 ECC에는 모두 이사회가 있으며 ECC에는 Scientific Advisory Group도 있습니다.
 
 ### 규제
 
@@ -36,7 +36,7 @@ R&D 팀은 영지식 SNARK 응용 프로그램을 세계 최초로 상업적으�
 
 ## 자금
 
-Electric Coin Company는 [Zcash development fund](https://zips.z.cash/zip-1014)의 7%를 받습니다. ECC의 재정 사용은 분기마다 발표하는 [투명성 보고서](https://electriccoin.co/blog/ecc-transparency-report-for-q3-2021/) 에서 볼 수 있습니다.
+ECC는 [Zcash development fund](https://zips.z.cash/zip-1014)의 7%를 받습니다. ECC의 재정 사용은 분기마다 발표하는 [투명성 보고서](https://electriccoin.co/blog/ecc-transparency-report-for-q3-2021/) 에서 볼 수 있습니다.
 
 ## Resources
 
