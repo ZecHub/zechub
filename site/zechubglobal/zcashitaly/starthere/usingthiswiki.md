@@ -2,7 +2,7 @@ Ci sono molte informazioni qui. Parte di queste potrebbero risultare difficili d
 
 Ecco una semplice guida passo a passo che evidenzia come navigare nella wiki.
 
-## Nuovo su Zcash
+## Nuovo su Zcash?
 
 Se sei nuovo su Zcash, questo è un ottimo posto per metterti al passo. La prima cosa che dovresti fare è controllare queste pagine:
 
