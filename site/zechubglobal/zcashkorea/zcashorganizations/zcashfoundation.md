@@ -1,9 +1,8 @@
 # Zcash Foundation
 
-## Mission Statement
+## 미션
 
-The Zcash Foundation's mission is to be a public charity dedicated to building Internet payment and privacy infrastructure for the public good, primarily serving the users of the Zcash protocol and blockchain.
-
+Zcash Foundation의 사명은 주로 Zcash 프로토콜 및 블록체인 사용자에게 서비스를 제공하는 공익을 위한 인터넷 지불 및 개인 정보 보호 인프라를 구축하는데 전념하는 공공 자선 단체가 되는 것입니다.
 
 ## 팀 구성원
 
