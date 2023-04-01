@@ -28,6 +28,6 @@ Zcash Community Grants는 Electric Coin Company와 Zcash Foundation 외의 독�
 
 Zcash Community Grants는 [Zcash development fund](https://zips.z.cash/zip-1014) 의 8%를 받습니다. 
 
-## 참고 자료
+## Resources
 
 [Zcash development and governance](https://z.cash/zcash-development-and-governance/)
