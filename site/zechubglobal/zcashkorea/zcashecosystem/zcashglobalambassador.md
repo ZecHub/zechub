@@ -17,12 +17,10 @@
 | ----------- | ----------- | ----------- | ----------- |
 | Aiden       | 대한민국     | @AidenZ     | [Aiden Jeon](https://twitter.com/zaos1004) |
 | Artkor      | 러시아       | @artkor     | [RuZcash](https://twitter.com/RuZcash) |
-| BostonZcash | 미국         | @BostonZcash| [BostonZash](https://twitter.com/BostonZcash) |
 | Chidi       | 나이지리아   | @lisa001    | [ZcashNigeria](https://twitter.com/ZcashNigeria) |
 | Eric        | 미국         | @_eric      | [PayWithZcash](https://twitter.com/paywithzcash) |
 | Jacob       | 미국         | @readaboutme1991| [lifeofjacob.eth](https://twitter.com/readaboutme1991) |
 | Madison     | 미국          | @madisonedge| [mad_parks](https://twitter.com/mad_parks) |
-| Michael     | 브라질      | @michae2xl  | [Michael2xl](https://twitter.com/michae2xl) |
 | Yoditar     | 베네수엘라   | @yoditar    | [Yoditar.zkp](https://twitter.com/yoditarX) |
 | Zoz         | 사우디 아라비아| @zoz        | [ZECArabic](https://twitter.com/ZozNotorious) |
 | Tim         | 프랑스      | @tim_ukrainian |[ZcashEclaireur](https://twitter.com/ZcashEclaireur)) |
