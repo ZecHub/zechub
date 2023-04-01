@@ -1,46 +1,46 @@
 # Shielded Labs 
 
-Shielded Labs was founded as a Swiss Association in December 2022, and has no affiliation with Zcash Community Grants (ZCG) and has no plans to apply for ZCG funding.
+Shielded Labs는 2022년 12월 스위스 협회로 설립되었으며 Zcash Community Grants(ZCG)와 제휴 관계가 없으며 ZCG 자금 지원을 신청할 계획도 없습니다.
 
-Zcash is currently supported by 2 US organizations, the Electric Coin Company (ECC) and Zcash Foundation, that are the sole recipients of the development fund. ZCG is not an organization, but a grants committee under the Foundation, which custodies and administers its funds. More independent organizations contributing to the Zcash ecosystem are needed in order to diffuse power and become more decentralized.
+Zcash는 현재 2개의 미국 조직인 Electric Coin Company(ECC)와 Zcash Foundation의 지원을 받고 있으며, 이들은 개발 기금의 단독 수혜자입니다. ZCG는 조직이 아니라 기금을 관리하고 관리하는 재단 산하 보조금 위원회입니다. 힘을 분산시키고 보다 분산화되기 위해서는 Zcash 생태계에 기여하는 더 많은 독립적인 조직이 필요합니다.
 
-Zcash is building critical privacy-protecting financial infrastructure, and there’s a risk that the work being done could be hindered by regulation. In particular, Zcash’s exposure to the US is a potential single point of failure, and we need to urgently build an ecosystem that is resistant to capture.  
+Zcash는 중요한 개인 정보 보호 금융 인프라를 구축하고 있으며 수행 중인 작업이 규제로 인해 방해받을 위험이 있습니다. 특히, Zcash를 관리하는 기관이 미국에만 존재함으로 미국 외의 국가에서 강한 생태계 구축이 시급합니다.
 
-Shielded Labs is domiciled in Switzerland because it’s a country that is both crypto-friendly and has a long history of preserving privacy rights.
+Shielded Labs는 스위스에 주소를 두고 있습니다. 왜냐하면 스위스는 암호 친화적이고 프라이버시 권리를 유지한 오랜 역사를 가지고 있기 때문입니다.
 
-## Vision
+## 비전
 
-Shielded Labs aims to increase user adoption, develop new use cases for Zcash, and contribute to protocol development. 
+Shielded Labs는 사용자 채택을 늘리고 Zcash의 새로운 사용 사례를 만들며 프로토콜 개발에 기여하는 것을 목표로 합니다.
 
-**Overview of areas of strategic focus:** 
+**전략적 초점 영역 개요:** 
 
-### User Adoption: 
+### 사용자 채택: 
 
-Shielded Labs will work to increase user adoption by getting Zcash listed on more exchanges, working with companies on payments integration, and increasing Zcash’s availability on DEXs and Defi applications. It will prioritize projects that advance the usability of Zcash, such as Zcash Shielded Assets, and support the development of bridges, AMMs, and fiat on/off-ramps.
+Shielded Labs는 Zcash를 더 많은 거래소에 등록하고, 지불 통합에 대해 회사와 협력하고, DEX 및 Defi 애플리케이션에서 Zcash의 가용성을 높임으로써 사용자 채택을 늘리기 위해 노력할 것입니다. Zcash Shielded Assets와 같은 Zcash의 유용성을 향상하고 브리지, AMM 및 피아트 온/오프 램프의 개발을 지원하는 프로젝트의 우선 순위를 정합니다.
 
-### Human Rights and Freedom: 
+### 인권과 자유: 
 
-Shielded Labs will partner with human rights and civil liberties organizations to get Zcash into the hands of those who need it the most.
+Shielded Labs는 인권 및 시민 자유 단체와 협력하여 Zcash를 가장 필요로 하는 사람들에게 제공할 것입니다.
 
-### Protocol Development: 
+### 프로토콜 개발: 
 
-To date, all network upgrades have been implemented by ECC. Resilience requires decentralization, and Shielded Labs will help Zcash decentralize by contributing to core protocol development.
+현재까지 모든 네트워크 업그레이드는 ECC에 의해 구현되었습니다. 문제가 생겼을 시, 프로토콜의 빠른 회복을 위해서는 탈중앙화가 필요하며 Shielded Labs는 핵심 프로토콜 개발에 기여함으로써 Zcash 탈중앙화를 도울 것입니다.
 
-## Launch
+## Shielded Labs 시작
 
-Shielded Labs will fork the Zcash GitHub repository, implement the new source code, and create a pull request for a merge. Assuming it has sufficient funding and developer resources, Shielded Labs would be responsible for ongoing support as the maintainer of the forked codebase repository.
+Shielded Labs는 Zcash GitHub 리포지토리를 포크하고 새 소스 코드를 구현하며 병합을 위한 풀 요청을 생성합니다. 충분한 자금과 개발자 리소스가 있다고 가정하면 Shielded Labs는 포크된 코드베이스 저장소의 유지 관리자로서 지속적인 지원을 담당하게 됩니다.
 
-It would be the first time a network upgrade was initiated by an independent developer demonstrating that Zcash is truly a permissionless network.
+Zcash가 진정으로 무허가 네트워크임을 입증하는 독립 개발자가 네트워크 업그레이드를 시작한 것은 이번이 처음입니다.
 
-Initial part-time, project-based support will be needed to help lay the groundwork for the organization to grow.
+초기 시간제 프로젝트 기반 지원은 조직이 성장할 수 있는 토대를 마련하는 데 도움이 될 것입니다.
 
-## Funding
+## 자금
 
-Initially, Shielded Labs is funded entirely by donations & aims to raise funds to bootstrap the first year of operations. 
+처음에 Shielded Labs는 전적으로 기부금으로 자금을 지원받으며 운영 첫 해를 부트스트랩하기 위한 기금 마련을 목표로 합니다.
 
-With regard to long-term funding, Shielded Labs has outlined a proposal to be a recipient of Zcash’s development fund via the block reward after the next halving in Q4 2024. 
+장기 자금 조달과 관련하여 Shielded Labs는 2024년 4분기 다음 반감기 이후 블록 보상을 통해 Zcash의 개발 자금을 받는 제안을 고려 중입니다.
 
-This will involve development of a modified issuance schedule and the mechanism to direct funds to the Sustainability Fund & plans for implemention on zcashd/zebrad. 
+여기에는 수정된 발행 일정의 개발과 자금을 지속 가능성 기금으로 보내는 메커니즘 및 zcashd/zebrad의 구현 계획이 포함됩니다.
 
-You can read the full proposal here:
+아래의 링크에서 전체 제안을 읽을 수 있습니다:
 https://forum.zcashcommunity.com/t/the-zcash-posterity-fund/42703/26
