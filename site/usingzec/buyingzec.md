@@ -28,4 +28,4 @@ These exchanges support transparent withdrawals. This means when you withdrawal 
 
 When doing this, we recommend using a wallet that [autoshields funds](https://electriccoin.co/blog/new-releases-to-help-enable-zcash-shielded-by-default/). Here's a [video] that explains how to do that.
 
-_You can also mine ZEC, but that is usually not possible for average consumers. More on that [here](https://www.genesis-mining.com/zcash-mining-guide).
+_You can also mine ZEC, but that is usually not possible for average consumers. More on that [here](https://www.genesis-mining.com/zcash-mining-guide)._
