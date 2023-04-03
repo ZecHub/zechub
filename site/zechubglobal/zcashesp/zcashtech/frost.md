@@ -74,7 +74,7 @@ Habiendo calculado el desafío c, cada participante es capaz de calcular la resp
 
 ## ¿Beneficia a Zcash?
 
-Absolutamente sí. La introducción de FROST en Zcash permitirá que múltiples partes, separadas geográficamente, controlen la autoridad de gasto de ZEC protegido. Una ventaja es que las transacciones transmitidas utilizando este esquema de firma serán indistinguibles de otras transacciones en la red, manteniendo una fuerte resistencia al seguimiento de pagos y limitando la cantidad de datos de la cadena de bloques disponibles para su análisis.
+Absolutamente sí. La introducción de FROST en Zcash permitirá que múltiples partes, separadas geográficamente, controlen la autoridad de gasto de ZEC protegido. Una ventaja es que las transacciones transmitidas utilizando este esquema de firma serán indistinguibles de otras transacciones en la red, manteniendo una fuerte resistencia al seguimiento de pagos y limitando la cantidad de datos de la blockchain disponibles para su análisis.
 
 En la práctica, esto permite la construcción de una serie de nuevas aplicaciones en la red, desde proveedores de custodia hasta otros servicios no custodiales.
 
