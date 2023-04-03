@@ -1,6 +1,6 @@
 # Claves de visualización
 
-Las direcciones protegidas permiten a los usuarios realizar transacciones revelando la menor cantidad de información posible en la cadena de bloques de Zcash. ¿Qué sucede cuando necesitas divulgar información sensible sobre una transacción protegida de Zcash a una parte específica? Cada dirección protegida incluye una clave de visualización. Las claves de visualización se introdujeron en [ZIP 310](https://zips.z.cash/zip-0310) y se agregaron al protocolo en la actualización de red Sapling. Las claves de visualización son una parte crucial de Zcash ya que permiten a los usuarios divulgar selectivamente información sobre transacciones.
+Las direcciones protegidas permiten a los usuarios realizar transacciones revelando la menor cantidad de información posible en la blockchain de Zcash. ¿Qué sucede cuando necesitas divulgar información sensible sobre una transacción protegida de Zcash a una parte específica? Cada dirección protegida incluye una clave de visualización. Las claves de visualización se introdujeron en [ZIP 310](https://zips.z.cash/zip-0310) y se agregaron al protocolo en la actualización de red Sapling. Las claves de visualización son una parte crucial de Zcash ya que permiten a los usuarios divulgar selectivamente información sobre transacciones.
 
 ### ¿Por qué usar una clave de visualización?
 
