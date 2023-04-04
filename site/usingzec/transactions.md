@@ -30,8 +30,6 @@ Transparent transactions have caused confusion around ZEC privacy in the past. T
 
 [Sending a shielded ZEC transaction](https://www.youtube.com/watch?v=9WJSMxag2IQ)
 
-
-
 #### Note
 
 Please note that the safest way to use ZEC is using only shielded transactions. Some wallets are in the process of implementing [unified addresses](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) which allows users and exchanges to combine transparent and shielded addresses together. 
