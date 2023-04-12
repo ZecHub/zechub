@@ -56,6 +56,10 @@ ZGo is a Zcash Register. Enabling vendors and merchants to accept Zcash. Current
 
 Zlink is the simplest way to find any link, tool, information you need about Zcash's ecosystem.
 
+[Zcash CLI JSON RPC](https://zcash-rpc.vercel.app/)
+
+ZcashRPC is an opensource automated documentation website for zcashd.
+
 ___
 ## Applications that Utilize Zcash
 
