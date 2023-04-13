@@ -13,7 +13,7 @@ Il Programma di Ambasciatori Globali è stato progettato per identificare i memb
 
   [Lista attuale](https://forum.zcashcommunity.com/t/the-global-ambassador-program/41070/120)
   
-  | Ambassador | Country | Forum name| Twitter |
+  | Ambasciatore | Paese | Nome nel forum| Twitter |
 | ----------- | ----------- | ----------- | ----------- |
 | Aiden       | Corea del Sud | @AidenZ     | [Aiden Jeon](https://twitter.com/zaos1004) |
 | Artkor      | Russia      | @artkor     | [RuZcash](https://twitter.com/RuZcash) |
