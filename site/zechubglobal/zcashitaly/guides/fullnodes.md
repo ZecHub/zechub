@@ -1,4 +1,4 @@
-# Full Nodes
+# I Full Node
 
 Un Full Node (Nodo completo) è un software che esegue una copia completa della blockchain di qualsiasi criptovaluta dando accesso alle funzionalità dei protocolli.
 

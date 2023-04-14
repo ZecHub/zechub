@@ -8,7 +8,7 @@ Quando le persone iniziano a usare ZEC, potrebbero non rendersi conto di quale t
 
 Quindi, ad esempio, se qualcuno utilizza Coinbase e acquista ZEC, acquisterà ZEC trasparenti e potrà solo prelevare quel ZEC su un indirizzo trasparente. Per risolvere questo problema, portafogli come [Nighthawk](https://www.youtube.com/watch?v=W2msuzrxr3s), possono automaticamente schermare i fondi inviati dal indirizzo trasparente di un exchangeper. Molte persone, semplicemente, utilizzano ZEC nel modo in cui il loro exchange o portafoglio primario lo consente.
 
-#### Assicursi che i propri ZEC siano protetti
+#### Assicursi che i propri ZEC siano schermati
 
 Innanzitutto, consigliamo a tutti di costudire i propri ZEC in autonomia, ovvero spostarli da un exchange a un portafoglio personale. Il modo migliore per sapere se si sta utilizzando ZEC schermato, ovvero privato, è guardando l'indirizzo in cui si trova il saldo. Se l'indirizzo inizia con la lettera "z", allora il saldo è schermato. Se l'indirizzo inizia con la lettera "t", allora il saldo è trasparente.
 
