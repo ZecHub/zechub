@@ -4,6 +4,6 @@ Web wallets are wallets that you can access from your web browser. They give a u
 
 ---
 
-There is no web wallet extenstion that supports Zcash
+There are no web wallet extenstions that supports Zcash
 
 
