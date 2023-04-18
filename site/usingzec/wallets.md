@@ -4,29 +4,26 @@ Wallets allow users to receive and spend ZEC for payments. Some also support sen
 
 ---
 
-## Mobile Shielded Wallets
+## Mobile Wallets
 
-Mobile shielded wallets are wallets on mobile phones that support shielded Zcash addresses (z-addrs) and encrypted memos.
-
-## Mobile Shielded Wallets w/ Auto-Shielding
-
-Mobile Auto-shielding wallets are the same as above except when transparent funds are recieved, the wallet automatically moves the funds into a shielded address.
-
-## Transparent Wallets
-
-Transparent wallets are wallets that only support transparent addresses. These wallets are similar to bitcoin wallets and thus offer the least amount of privacy protection.
-
-## Hardware Wallets
-
-Hardware wallets are known for their security. These wallets store funds offline. Hardware wallets currently only support transparent addresses. Users must make a security and privacy tradeoff when using hardware wallets.
+Mobile wallets allow you access you Zcash anywhere and on the go
 
 ## Desktop Wallets
 
 Desktop wallets are downloadable apps that can operate from Windows, MacOS, Linux, etc. These apps allow users to interact with ZEC on their desktop devices.
 
+## Hardware Wallets
+
+Hardware wallets are known for their security. These wallets store funds offline. Hardware wallets currently only support transparent addresses. Users must make a security and privacy tradeoff when using hardware wallets.
+
 ## Web Wallets
 
 Web wallets are wallets that you can access from your web browser. They give a users a web interface to interact with their funds.
+
+## Web Exstentions
+
+Browser wallets are web applications that let you interact with your account directly in the browser
+
 
 ## Full Node Wallets
 
