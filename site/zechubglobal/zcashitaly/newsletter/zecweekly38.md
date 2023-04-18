@@ -5,7 +5,7 @@ Namada propone il primo airdrop schermato nella storia per i detentori di ZCash,
 
 ---
 
-Curato da "Hardaeborla" ([Hardaeborla](https://twitter.com/ayanlajaadebola)), tradotto da Olek.
+Curato da "Hardaeborla" ([Hardaeborla](https://twitter.com/ayanlajaadebola)), tradotto da [Olek](https://twitter.com/an_Olek).
 
 ---
 
@@ -69,32 +69,41 @@ Puoi approfondire CoinJoin tramite il seguente link tutorial creato da ZecHub Ze
 
 
 ## Alcuni tweet su Zcash
-[Aiyadt condivide la sua esperienza dopo essere stato invitato a parlare di Zero Knowledge Proofs e Zcash in un college di ingegneria di Pune.](https://twitter.com/aiyadt/status/1646123717741912064?t=-z7fAfIR8kS4kuzNj7Wy4g&s=19)
+[Christopher Goes "......Nessuno saprà mai che hai richiesto l'Airdrop"](https://twitter.com/cwgoes/status/1646615074256060416?cxt=HHwWgICw7fLr-dktAAAA) 
 
+[Aiyadt invitato al College di Ingegneria di Pune](https://twitter.com/aiyadt/status/1646123717741912064?t=-z7fAfIR8kS4kuzNj7Wy4g&s=19)
 
-[Zooko condivide ulteriori approfondimenti e tutorial sul suo precedente tweet su ZCash che ha suscitato molto clamore online](https://twitter.com/zooko/status/1646570323800903680?t=yhcSxruk_2xXL-wbfjeFHw&s=19) 
+[Zcash Japan spiega la transazione schermata e la privacy in un unico tweet](https://twitter.com/ZcashJP/status/1645072958262763520?t=85_moRx6XtvHO_k4pnjIdg&s=19)
 
-[Un appassionato di Web3 consiglia a Trezor di adottare le transazioni schermate di ZCash se considera davvero la privacy degli utenti come sostiene](https://twitter.com/_nickweb3/status/1646111867667120128?t=KIZH4qxdDBXXh_om5Bx7-Q&s=19) 
+[Zooko controlla le statistiche su Tornado Cash dopo le sanzioni](https://twitter.com/zooko/status/1646570323800903680?t=yhcSxruk_2xXL-wbfjeFHw&s=19) 
 
-[Tokidoki mostra il suo Cypherpunk ZCash NFT](https://twitter.com/luckytokidoki/status/1646839233636896769?t=LMgy0gNB1-6TNin7DmdK3Q&s=19) 
+[Un appassionato di Web3 consiglia a Trezor di adottare le transazioni schermate Zcash](https://twitter.com/_nickweb3/status/1646111867667120128?t=KIZH4qxdDBXXh_om5Bx7-Q&s=19) 
 
-[Un possessore di Zec condivide un grande consiglio con la comunità ZCash](https://twitter.com/magical_zodler/status/1646161086977126400?t=JU4sJBd65Lex81tUp0-dQA&s=19)
+[Zcash Espanol - video tutorial su Free2z in spagnolo](https://twitter.com/Zcashesp/status/1647028948092477441?t=9z4HD46JYCQmR3hH2TXUfw&s=19)
 
-[Un'illustrazione dei progressi tecnologici e della crescente decentralizzazione da parte di ZecHub](https://twitter.com/ZecHub/status/1645779191596736514?t=H9hNUND6KxN1-DWGtAlclA&s=19) 
+[Tokidoki mostra il suo Cypherpunk Zcash NFT](https://twitter.com/luckytokidoki/status/1646839233636896769?t=LMgy0gNB1-6TNin7DmdK3Q&s=19) 
 
+[Un possessore di Zec condivide grandi consigli alla comunità Zcash](https://twitter.com/magical_zodler/status/1646161086977126400?t=JU4sJBd65Lex81tUp0-dQA&s=19)
 
+[Tokidoki mostra il suo Cypherpunk Zcash NFT](https://twitter.com/luckytokidoki/status/1646839233636896769?t=LMgy0gNB1-6TNin7DmdK3Q&s=19)
 
+[Un possessore di Zec condivide grandi consigli con la comunità Zcash](https://twitter.com/magical_zodler/status/1646161086977126400?t=JU4sJBd65Lex81tUp0-dQA&s=19)
 
+[La timeline di Zcash di ZecHub](https://twitter.com/ZecHub/status/1645779191596736514?t=H9hNUND6KxN1-DWGtAlclA&s=19)
 
+[Il numero di investitori in cripto cresce del 50% in Brasile durante il bear market](https://twitter.com/michae2xl/status/1646660663001980928?t=9TjwBXkxpkWRcw3u5JaZMw&s=19)
 
-
-
+[Zcash Russia - guida su come costruire la vostra turbina idroelettrica personale](https://twitter.com/ZcashRussia/status/1645104475047178244?t=zoWkbWiXCDjGGGJ06IdKJQ&s=19)
 
 ## Zeme della settimana
+
+![zeeme](https://pbs.twimg.com/media/FtoBj0iXwAEmZ7_?format=jpg)
 
 [https://twitter.com/mbbevilacqua/status/1646630330563010561?t=lhqJQGS6FxrKuLOvdpnK-w&s=19](https://twitter.com/mbbevilacqua/status/1646630330563010561?t=lhqJQGS6FxrKuLOvdpnK-w&s=19) 
 
 ## Lavori nell'ecosistema
+
+- [Responsabile delle comunicazioni e della comunità, ECC](https://apply.workable.com/electric-coin-company/j/0EB27EE759/)
 
 - [Responsabile esecutivo del prodotto, ECC](https://apply.workable.com/electric-coin-company/j/6ACEC09B90/)
 

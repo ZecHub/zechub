@@ -6,23 +6,23 @@ Le criptovalute hanno rivoluzionato il mondo finanziario, offrendo una soluzione
 
 ## Cos'è Zcash?
 
-Zcash è stata creata nel 2016 dal team di sviluppo di Electric Coin Company (ECC), e si distingue per la sua privacy. Zcash si basa sul protocollo Bitcoin, ma con una differenza cruciale: l'uso di una tecnologia chiamata zk-SNARKs (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge), una tecnologia innovativa che garantisce la privacy degli utenti. Grazie a questa tecnologia, Zcash permette agli utenti di effettuare transazioni in modo privato e sicuro.
+Zcash è stata creata nel 2016 dal team di sviluppo di Electric Coin Company (ECC), e si distingue per la sua privacy. Zcash si basa sul protocollo Bitcoin, ma con una differenza cruciale: l'uso di una tecnologia chiamata zk-SNARKs (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge), una tecnologia innovativa che garantisce la privacy degli utenti. Grazie a questa tecnologia, Zcash permette di effettuare transazioni in modo privato e sicuro.
 
-## Come funziona Zcash?
+## Come funziona Zcash e quali sono i suoi vantaggi
 
-La tecnologia zk-SNARKs consente agli utenti di effettuare transazioni completamente anonime. Quando un utente effettua una transazione con Zcash, ha la possibilità di inviare i fondi a un indirizzo Z-address, che è completamente privato e non tracciabile. Grazie alla crittografia avanzata utilizzata da Zcash, i dati delle transazioni rimangono al sicuro e protetti da eventuali hacker o curiosi.
+Uno dei principali vantaggi di ZCash è quello di offrire ai propri utenti sia indirizzi schermati (Z-address) che quelli trasparenti (T-address), permettendo così di scegliere liberamente la propria preferenza sulla privacy. Questo vantaggio si traduce nella possibilità di effettuare transazioni trasparenti, simili a quelle di Bitcoin, ma anche di transare privatamente utilizzando gli indirizzi schermati. Tuttavia, è importante tenere a mente che le transazioni effettuate attraverso gli indirizzi trasparenti non sono anonime, in quanto tracciabili e pubbliche.
 
-Inoltre, Zcash offre anche la possibilità di effettuare transazioni trasparenti, simili a quelle di Bitcoin, attraverso gli indirizzi T-address. Questi indirizzi sono tracciabili e pubblici, il che significa che le transazioni effettuate attraverso di essi non sono anonime.
+La privacy offerta ai suoi utenti è un'altro grande vantaggio perche è la migliore della categoria. La tecnologia zk-SNARKs infatti, consente agli utenti di effettuare transazioni anonime senza dover rivelare alcuna informazione personale o finanziaria. Ciò significa che le transazioni sono al sicuro da eventuali hacker o curiosi, e che la privacy degli utenti è garantita.
 
-## Quali sono i vantaggi di Zcash?
+Grazie alle prove a conoscenza zero, implementate per la prima volta da Zcash, è stato possibile garantire la privacy delle transazioni in modo innovativo e sicuro. Questa tecnologia ha rapidamente attirato l'attenzione della comunità internazionale delle criptovalute, e attualmente molti progetti sulla privacy hanno avuto origine da Zcash o stanno esplorando la tecnologia zk-SNARKs.
 
-Uno dei principali vantaggi di Zcash è ovviamente la privacy offerta ai suoi utenti. La tecnologia zk-SNARKs consente agli utenti di effettuare transazioni anonime senza dover rivelare alcuna informazione personale o finanziaria. Ciò significa che le transazioni sono al sicuro da eventuali hacker o curiosi, e che la privacy degli utenti è garantita.
+che consente a Zcash di nascondere completamente tutte le informazioni su una transazione (e quindi le tue abitudini di spesa, il saldo e da dove viene il tuo denaro).
 
 Inoltre, Zcash utilizza un algoritmo di proof-of-work (PoW) per garantire la sicurezza della rete, ma a differenza di Bitcoin, offre la possibilità di scegliere tra due algoritmi: Equihash e ProgPoW.
 
 Questo significa che gli utenti possono effettuare il mining di Zcash con l'hardware che preferiscono, rendendo la criptovaluta più accessibile a un pubblico più ampio.
 
-Infine il suo sistema di auto finanziamento rende l’ecosistema ed il team di sviluppo di Zcash estremamente qualificato e proiettato alla crescita del ecosistema, infatti il 20% di tutte le ricompense dei minatori viene distribuita tra la Electric Coin Company (5%), Zcash Fundation (7%), e la Community Garants (8%), facendo diventare Zcash una delle criptovalute più interessanti sul mercato.
+Infine il sistema di auto finanziamento rende l’ecosistema ed il team di sviluppo di Zcash estremamente qualificato e proiettato alla crescita.Infatti il 20% di tutte le ricompense dei miners viene distribuita tra la Electric Coin Company (5%), Zcash Fundation (7%), e la Community Garants (8%), facendo diventare Zcash una delle criptovalute più interessanti sul mercato.
 
 ## Conclusioni
 
@@ -34,7 +34,7 @@ In definitiva, Zcash è una criptovaluta da tenere d'occhio per coloro che desid
 
 ### Approfondimenti
 
-[Nozioni di basse su Zcash](https://wiki.zechub.xyz/global/italiano/nozioni-di-base-su-zcash)
+[Nozioni di base su Zcash](https://wiki.zechub.xyz/global/italiano/nozioni-di-base-su-zcash)
 [Utilizzare ZEC in modo privato](https://wiki.zechub.xyz/global/italiano/utilizzare-zec-in-modo-privato)
 [Tutto ciò che devi sapere su ZKP e ZK-SNARKS](../zcashtech/zksnarks.md)
 
