@@ -16,11 +16,11 @@ Se você é novo no Zcash, este é um ótimo lugar para se atualizar. A primeira
 
 ## Pronto para usar o Zcash
 
-Depois de ler os documentos de introdução e os recursos associados a eles, confira os [Usando Zec](https://www.notion.so/Using-ZEC-6e0c1b5182f34abdba476185f63fde9d) e os [Tutoriais](https://www .notion.so/Tutorials-291d67ff451f43209d889bcb632feb37) para se familiarizar com o uso do ZEC.
+Depois de ler os documentos de introdução e os recursos associados a eles, confira os [Usando Zec](https://www.notion.so/Using-ZEC-6e0c1b5182f34abdba476185f63fde9d) e os [Tutoriais](https://www.notion.so/Tutorials-291d67ff451f43209d889bcb632feb37) para se familiarizar com o uso do ZEC.
 
 ## Sou membro da comunidade Zcash
 
-Se você é um membro da comunidade, incrível! A melhor coisa que você pode fazer é seguir o [Boletim ZecWeekly](https://www.notion.so/ZecWeekly-Newsletter-2063b85a436642768fb6620627cbd804), as [Atualizações ZecDaily YouTube](https://www.notion.so/ZecDaily- YouTube-Updates-e3cb81f65554478ba1c169b412237672) e siga todas as contas associadas à [Lista de páginas de mídia social do ZecHub](https://www.notion.so/List-of-ZecHub-social-media-pages-60ff04ab84e4450da30facdf77067afb).
+Se você é um membro da comunidade, incrível! A melhor coisa que você pode fazer é seguir o [Boletim ZecWeekly](https://www.notion.so/ZecWeekly-Newsletter-2063b85a436642768fb6620627cbd804), as [Atualizações ZecDaily YouTube](https://www.notion.so/ZecDaily-YouTube-Updates-e3cb81f65554478ba1c169b412237672) e siga todas as contas associadas à [Lista de páginas de mídia social do ZecHub](https://www.notion.so/List-of-ZecHub-social-media-pages-60ff04ab84e4450da30facdf77067afb).
 
 ## Quero contribuir com o ZecHub
 
