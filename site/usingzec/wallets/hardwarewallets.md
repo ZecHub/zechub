@@ -16,3 +16,5 @@ Hardware Wallets
 
 
 ![trezor](https://user-images.githubusercontent.com/81990132/185267639-d458344c-c457-47a5-ae5b-5b9f78914b3c.png)
+
+### Safepal [Link](https://www.safepal.com/)
