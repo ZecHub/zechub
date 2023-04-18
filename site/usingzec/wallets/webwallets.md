@@ -4,6 +4,12 @@ Web wallets are wallets that you can access from your web browser. They give a u
 
 ---
 
-List of Web Wallets
+### Trezor
+| Web (! only with hardware wallet) |
 
-- [Safepay](https://safepay.safecoin.org/)
+#### Pools (create a info icon to explain pools)
+| Transparent (i) |
+
+#### Features
+| Synchronizer | Memo (i) |
+
