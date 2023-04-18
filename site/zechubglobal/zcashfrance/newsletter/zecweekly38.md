@@ -55,6 +55,8 @@ Mises à jour #### ECC et ZF
 
 #### Des projets de communauté
 
+[ZcashFR reprend vie avec un article sur ZIP 317](https://twitter.com/zcashfr/status/1646959290719129612?s=61&t=tYI2bj-IfyGvxsVNf6jhdw)
+
 [1ère année du site Web de Zcash in Spanish](https://free2z.cash/gordonesroo/zpage/1st-year-of-the-Zcash-in-spanish-website)
 
 [L'état de confidentialité sur Free2Z](https://free2z.com/free2z/zpage/the-state-of-privacy-on-free2z)
