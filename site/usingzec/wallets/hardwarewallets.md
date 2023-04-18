@@ -6,13 +6,13 @@ A hardware wallet is a special type of wallet that stores the user's private key
 
 Hardware Wallets
 
-### [Ledger](https://www.ledger.com/zcash-wallet)
+### Ledger [Link](https://www.ledger.com/zcash-wallet)
 
 
 
 
 
-### [Trezor](https://wiki.trezor.io/Zcash_(ZEC)) 
+### Trezor [Link](https://wiki.trezor.io/Zcash_(ZEC)) 
 
 - Trezor devices are hardware wallets. The Trezor hardware architecture is public and the Trezor bootloader and firmware are completely open-source, which allows the user to independently verify the functionality and security of Trezor devices. With Trezor Suite and Trezor Bridge, using your Trezor device is as convenient as using a web wallet. 
 
