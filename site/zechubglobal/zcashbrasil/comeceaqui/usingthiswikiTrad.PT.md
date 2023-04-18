@@ -24,6 +24,6 @@ Se você é um membro da comunidade, incrível! A melhor coisa que você pode fa
 
 ## Quero contribuir com o ZecHub
 
-Ótimo! Leia [O que é o ZecHub](https://www.notion.so/What-is-ZecHub-c81d245a9b31410fa8aaf06c6301c180) e depois consulte [Ajuda a construir o ZecHub](https://www.notion.so/Help-Build-ZecHub -9f4aaa45f37d438dac56025449604d96) para saber como contribuir.
+Ótimo! Leia [O que é o ZecHub](https://www.notion.so/What-is-ZecHub-c81d245a9b31410fa8aaf06c6301c180) e depois consulte [Ajuda a construir o ZecHub](https://www.notion.so/Help-Build-ZecHub-9f4aaa45f37d438dac56025449604d96) para saber como contribuir.
 
 
