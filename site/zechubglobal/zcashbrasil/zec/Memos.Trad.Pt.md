@@ -23,5 +23,8 @@ O memorando era um bilhete de amor.
 ## Recursos
 
 [O campo de memorando criptografado](https://electriccoin.co/blog/encrypted-memo-field/)
+
+https://youtu.be/vSLmoOd_s_8
+
 Se você gostaria de adicionar ou sugerir edições a esta página wiki, vá para o [ZecHub](https://github.com/ZecHub/zechub/blob/main/site/usingzec/memos.md) [repositório github](https://github.com/ZecHub/zechub/blob/main/site/usingzec/memos.md) e enviar uma solicitação pull.
 
