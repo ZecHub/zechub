@@ -12,7 +12,6 @@ The ZecHub DAO currently consists of :
 * @dismad 
 * @tokidoki 
 * @decentralistdan
-* @janusz
 * @RedNosedGnome
 * @Mine
 * @Edicksonjga
