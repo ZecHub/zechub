@@ -1,5 +1,5 @@
 # Blogs
 
-Here are some community submitted blogs. If you would like ZecHub to feature one of your blog posts, please create a PR.
+Ecco alcuni blog inviati dalla community. Se desideri che ZecHub presenti uno dei tuoi post sul blog, crea un PR.
 
 
