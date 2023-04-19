@@ -4,7 +4,7 @@ Web wallets are wallets that you can access from your web browser. They give a u
 
 ---
 
-### Safepal [Link](https://www.safepal.com/)
+### Safepal [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://www.safepal.com/)
 | Chromium | Firefox | MS Edge | <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/triangle-exclamation.svg" width="18" height="18">
 
 
