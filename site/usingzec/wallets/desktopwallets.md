@@ -2,7 +2,7 @@ TO FIX Transparent wallets are wallets that only support transparent addresses. 
 
 ---
 
-### Ywallet [Link](https://ywallet.app/installation/)
+### Ywallet [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://ywallet.app/installation/)
 | Windows | macOS | Linux |
 
 #### Pools
@@ -14,7 +14,7 @@ TO FIX Transparent wallets are wallets that only support transparent addresses. 
 #### Shielded Sync Speed <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18"> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18"> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18">
 
 
-### ZecWallet Lite (! deriviation issue and unmaintained) [Link](https://www.zecwallet.co/)
+### ZecWallet Lite (! deriviation issue and unmaintained) [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://www.zecwallet.co/)
 | Windows | Linux | macOS |
 
 #### Pools 
@@ -27,7 +27,7 @@ TO FIX Transparent wallets are wallets that only support transparent addresses. 
 
 
 
-### Exodus [Link](https://www.exodus.com/zcash-wallet-zec)
+### Exodus [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://www.exodus.com/zcash-wallet-zec)
 | Windows | Linux | macOS |
 
 #### Pools 
@@ -37,7 +37,7 @@ TO FIX Transparent wallets are wallets that only support transparent addresses. 
 | | |
 
 
-### Coinomi [Link](https://www.coinomi.com/en/)
+### Coinomi [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://www.coinomi.com/en/)
 | Windows | Linux | macOS |
 
 #### Pools 
