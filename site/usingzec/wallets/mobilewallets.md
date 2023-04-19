@@ -11,7 +11,7 @@ Mobile wallets allow you to use ZEC anywhere and on the go
 | Transparent <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/shield-halved.svg" width="18" height="18"> | Sapling <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/shield.svg" width="18" height="18"> | Orchard <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/shield.svg" width="18" height="18"> |
 
 #### Features
-| WarpSync | Shielded Memo | Automatic Shielding |
+| WarpSync <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-info.svg" width="18" height="18"> | Shielded Memo | Automatic Shielding |
 
 #### Shielded Sync Speed <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18"> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18"> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18">
 
