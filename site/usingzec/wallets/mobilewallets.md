@@ -4,7 +4,7 @@ Mobile wallets allow you to use ZEC anywhere and on the go
 
 ---
 
-### Ywallet [Link](https://ywallet.app/installation/)
+### Ywallet [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://ywallet.app/installation/)
 | Android | iOS |
 
 #### Pools
@@ -17,7 +17,7 @@ Mobile wallets allow you to use ZEC anywhere and on the go
 
 
 
-### Zingo [Link](https://www.zingolabs.org/)
+### Zingo [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://www.zingolabs.org/)
 | Android | iOS |
 
 #### Pools
@@ -30,7 +30,7 @@ Mobile wallets allow you to use ZEC anywhere and on the go
 
 
 
-### NightHawk [Link](https://nighthawkwallet.com/)
+### NightHawk [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://nighthawkwallet.com/)
 | Android | iOS |
 
 #### Pools
@@ -43,7 +43,7 @@ Mobile wallets allow you to use ZEC anywhere and on the go
 
 
 
-### Zecwallet Lite [Link](https://zecwallet.co/)
+### Zecwallet Lite [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://zecwallet.co/)
 | Android | iOS |
 
 #### Pools
@@ -57,7 +57,7 @@ Mobile wallets allow you to use ZEC anywhere and on the go
 
 
 
-### Edge [Link](https://edge.app/)
+### Edge [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://edge.app/)
 | Android | iOS |
 
 #### Pools
@@ -70,7 +70,7 @@ Mobile wallets allow you to use ZEC anywhere and on the go
 
 
 
-### Unstoppable [Link](https://unstoppable.money/)
+### Unstoppable [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://unstoppable.money/)
 | Android | iOS |
 
 #### Pools
@@ -83,7 +83,7 @@ Mobile wallets allow you to use ZEC anywhere and on the go
 
 
 
-### Exodus [Link](https://www.exodus.com/zcash-wallet-zec)
+### Exodus [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://www.exodus.com/zcash-wallet-zec)
 | Android | iOS |
 
 #### Pools
@@ -96,7 +96,7 @@ Mobile wallets allow you to use ZEC anywhere and on the go
 
 
 
-### Coinomi [Link](https://www.coinomi.com/en/)
+### Coinomi [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://www.coinomi.com/en/)
 | Android | iOS |
 
 #### Pools
@@ -110,7 +110,7 @@ Mobile wallets allow you to use ZEC anywhere and on the go
 
 
 
-### Safepay [Link](https://www.safepal.com/)
+### Safepay [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://www.safepal.com/)
 | Android | iOS |
 
 #### Pools
