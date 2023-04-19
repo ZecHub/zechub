@@ -4,6 +4,17 @@ Web wallets are wallets that you can access from your web browser. They give a u
 
 ---
 
-There are no web wallet extenstions that supports Zcash
+### Safepal
+| Chromium | Firefox | MS Edge | <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/triangle-exclamation.svg" width="18" height="18">
+
+
+#### Pools (create a info icon to explain pools)
+| Transparent (i) |
+
+#### Features
+| Synchronizer |
+
+
+
 
 
