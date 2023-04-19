@@ -22,5 +22,5 @@ Web wallets are wallets that you can access from your web browser. They give a u
 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="20" height="20">
 
 
-
+<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/microchip.svg" width="20" height="20">
 
