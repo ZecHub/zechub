@@ -1,3 +1,6 @@
+# Desktop Wallets
+
+
 TO FIX Transparent wallets are wallets that only support transparent addresses. These wallets are not recommended as they do not provide a high level of user privacy.
 
 ---
