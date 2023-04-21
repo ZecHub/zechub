@@ -1,6 +1,6 @@
 # Zcash Value Pools
 
-We will be looking at the four value pools in Zcash which include Sprout, Sapling, Orchard and Transparent. This wiki page will also cover the improvements in technology and some pool transfer best practices.
+We will be looking at the four value pools in Zcash which include the Sprout, Sapling, Orchard and Transparent pools. This wiki page will also cover the improvements in technology and some pool transfer best practices.
 
 
 ## Shielded Pools
