@@ -1,12 +1,12 @@
 # Intro to Zcash Wallets
 
-Wallets allow you to receive and spend ZEC. Some also support encrypted memos. Only you should have access to your wallet.
+Wallets allow you to receive and spend Zcash. Some also support encrypted memos. Only you should have access to your wallet.
 
 ---
 
 ## Mobile Wallets
 
-Mobile wallets allow you access you Zcash anywhere and on the go
+Mobile wallets allow you access your Zcash anywhere and on the go
 
 ## Desktop Wallets
 
@@ -14,7 +14,7 @@ Desktop wallets are downloadable apps if you want that access you ZEC from Windo
 
 ## Hardware Wallets
 
-Hardware wallets are known for their security. These wallets store funds offline. Hardware wallets currently only support transparent addresses. Users must make a security and privacy tradeoff when using hardware wallets.
+Hardware wallets stores your Zcash securely offline. Hardware wallets currently only support transparent addresses. Users must make a security and privacy tradeoff when using hardware wallets.
 
 ## Web Wallets
 
