@@ -1,6 +1,6 @@
 # Intro to Zcash Wallets
 
-Wallets allow users to receive and spend ZEC for payments. Some also support sending and receiving encrypted memos. Below is a list of available options and a high level overview of what each option is best for.
+Wallets allow you to receive and spend ZEC. Some also support encrypted memos. Only you should have access to your wallet.
 
 ---
 
@@ -10,7 +10,7 @@ Mobile wallets allow you access you Zcash anywhere and on the go
 
 ## Desktop Wallets
 
-Desktop wallets are downloadable apps that can operate from Windows, MacOS, Linux, etc. These apps allow users to interact with ZEC on their desktop devices.
+Desktop wallets are downloadable apps if you want that access you ZEC from Windows, MacOS, or Linux.
 
 ## Hardware Wallets
 
@@ -20,7 +20,7 @@ Hardware wallets are known for their security. These wallets store funds offline
 
 Web wallets are wallets that you can access from your web browser. They give a users a web interface to interact with their funds.
 
-## Web Exstentions
+## Web Extensions
 
 Browser wallets are web applications that let you interact with your account directly in the browser
 
