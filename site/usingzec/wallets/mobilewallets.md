@@ -114,6 +114,5 @@ Mobile wallets allow you to use ZEC anywhere and on the go
 | Transparent |
 
 #### Features
-| Synchronizer | Shielded Memo verify ? |
+| Synchronizer |  |
 
-#### Shielded Sync Speed <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18">
