@@ -4,7 +4,7 @@ Web wallets are wallets that you can access from your web browser. They give a u
 
 ---
 
-### Trezor
+### Trezor <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">
 | Web (! requires hardware wallet) |
 
 #### Pools
