@@ -5,11 +5,10 @@ Web wallets are wallets that you can access from your web browser. They give a u
 ---
 
 ### Trezor
-| Web (! only with hardware wallet) |
+| Web (! requires hardware wallet) |
 
-#### Pools (create a info icon to explain pools)
-| Transparent (i) |
+#### Pools
+| Transparent |
 
 #### Features
-| Synchronizer | Memo (i) |
-
+| Synchronizer |
