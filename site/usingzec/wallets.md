@@ -14,7 +14,7 @@ Desktop wallets are downloadable apps if you want that access you ZEC from Windo
 
 ## Hardware Wallets
 
-Hardware wallets stores your Zcash securely offline. Hardware wallets currently only support transparent addresses. Users must make a security and privacy tradeoff when using hardware wallets.
+Hardware wallets stores your Zcash securely offline physical device. Hardware wallets currently only support transparent addresses. Users must make a security and privacy tradeoff when using hardware wallets.
 
 ## Web Wallets
 
