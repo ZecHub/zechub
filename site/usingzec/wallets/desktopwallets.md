@@ -18,7 +18,7 @@ Desktop wallets are downloadable apps if you want that access you ZEC from Windo
 
 
 ### ZecWallet Lite (! deriviation issue and unmaintained) [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://www.zecwallet.co/)
-| Windows | Linux | macOS |
+| Windows | macOS | Linux |
 
 #### Pools 
 | Transparent | Sapling | Orchard |
@@ -31,7 +31,7 @@ Desktop wallets are downloadable apps if you want that access you ZEC from Windo
 
 
 ### Exodus [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://www.exodus.com/zcash-wallet-zec)
-| Windows | Linux | macOS |
+| Windows | macOS | Linux |
 
 #### Pools 
 | Transparent |
@@ -41,7 +41,7 @@ Desktop wallets are downloadable apps if you want that access you ZEC from Windo
 
 
 ### Coinomi [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://www.coinomi.com/en/)
-| Windows | Linux | macOS |
+| Windows | macOS | Linux |
 
 #### Pools 
 | Transparent |
