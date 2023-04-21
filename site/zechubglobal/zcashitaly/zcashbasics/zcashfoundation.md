@@ -21,7 +21,7 @@ La Fondazione tiene anche Zcon, una conferenza annuale di persona incentrata sul
 La Zcash Foundation è un'organizzazione senza scopo di lucro 501(c)(3). Oltre al loro team, hanno un consiglio di amministrazione.
 
 ## Finanziamento
-La Zcash Foundation riceve il 5% del [fondo di sviluppo di Zcash](https://zips.z.cash/zip-1014). L'uso delle loro risorse finanziarie può essere visto nei loro [rapporti di trasparenza](https://electriccoin.co/blog/ecc-transparency-report-for-q3-2021/) che pubblicano ogni trimestre.
+La Zcash Foundation riceve il 5% del [fondo di sviluppo di Zcash](https://zips.z.cash/zip-1014). L'uso delle loro risorse finanziarie può essere visto nei loro [rapporti di trasparenza](https://electriccoin.co/blog/ecc-transparency-report-for-q3-2022/) che pubblicano ogni trimestre.
 
 ## Risorse
 

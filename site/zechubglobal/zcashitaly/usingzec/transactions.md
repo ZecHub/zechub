@@ -12,7 +12,7 @@ Quando si preleva ZEC da un exchange, è necessario sapere se l'exchange support
 
 Puoi farlo inviando ZEC al tuo indirizzo (T) trasparente in YWallet e poi criptando il tutto [inviandolo in un pool schermato]. 
 
-All'interno delle impostazioni di Ywallet è possibile visualizzare le componenti S (sapling) T (trasparente) O (orchard) che compongono il tuo indirizzo unificato (che inizia con U) - Vedi [Guida].(https://zechub.notion.site/Visualizing-Zcash-Addresses-27c0bcc423fa48f68374a0d6c317213b).
+All'interno delle impostazioni di Ywallet, è possibile visualizzare le componenti S (sapling), T (trasparente), ed O (orchard) che compongono il tuo indirizzo unificato (che inizia con U) - Vedi [Guida].(https://zechub.notion.site/Visualizing-Zcash-Addresses-27c0bcc423fa48f68374a0d6c317213b).
 
 Inviare la transazione è in realtà molto facile. Devi semplicemente conoscere l'indirizzo blindato dell'altra parte. Quando esegui la transazione, selezioni la quantità di ZEC che desideri inviare, inserisci l'indirizzo blindato, scrivi una [memo](https://zechub.notion.site/Memos-6e7a6d0e02ed48acbbc715a7f35a4719) (messaggio crittografato), e quindi invii la transazione. Tutto ciò che devi assicurarti quando esegui una transazione blindata è che la persona a cui stai inviando ZEC ti dia il suo **Indirizzo Schermato**.
 

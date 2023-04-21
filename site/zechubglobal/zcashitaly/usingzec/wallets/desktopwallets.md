@@ -9,5 +9,4 @@ Ecco una lista di portafogli desktop:
 - [Zecwallet Lite](https://www.zecwallet.co/)
 - [Ywallet](https://ywallet.app/installation/)
 - [Exodus](https://www.exodus.com/zcash-wallet-zec)
-- [Jaxx](https://jaxx.io/)
 - [Safepay](https://safepay.safecoin.org/)
