@@ -1,6 +1,6 @@
 # Zcash Value Pools
 
-We will be looking at the four value pools in Zcash which include the Sprout, Sapling, Orchard and Transparent pools. This wiki page will also cover the improvements in technology and some pool transfer best practices.
+We will be looking at the four [value pools](https://zcash.readthedocs.io/en/latest/rtd_pages/addresses.html) in Zcash which include the Sprout, Sapling, Orchard and Transparent pools. This wiki page will also cover the improvements in technology and some pool transfer best practices.
 
 
 ## Shielded Pools
@@ -55,19 +55,32 @@ The ZCash Transparent are mostly used by centralized exchanges to ensure there's
 ---
 ### 
 
-# Pool Transfer Recommended Practice
+## Pool Transfer Recommended Practice
 When it comes to considering high level of privacy during transaction on the ZCash Network, it's recommended you follow the below practices;
 
+![20230420_051415_0000.png](https://user-images.githubusercontent.com/38798812/233546739-e9076b2d-bcb5-40a1-96a8-25284dff0786.png)
 
-![20230420-051415-0000](https://user-images.githubusercontent.com/81990132/233535812-ccb41fdd-a552-4930-b136-b65dc12e0d0d.png)
+Transaction occurring between "z to z" wallets on the ZCash blockchain are mostly shielded and it is sometimes called Private Transaction due to the high level of Privacy generated. This is usually the best and the most recommended way of sending and receiving $ZEC when privacy is required. 
 
-![20230420-091225-0000](https://user-images.githubusercontent.com/81990132/233535882-1b3aa4e5-5022-48cf-b311-96aa8b8328ce.png)
+---
+![20230421_070131_0000.png](https://user-images.githubusercontent.com/38798812/233552931-d69f4ef3-b065-4d61-8e6b-adbc2edc4d70.png)
+
+When you send ZEC from "z-address" to "t-address", it simply connotes a form of Deshielding transaction. In this type of transaction, the privacy level is not always high as some information will be visible on the blockchain due to the effect of sending ZEC on a Transparent Address. Deshielding transaction is not always recommended when high privacy is required. 
+
+---
+
+![20230421_071247_0000.png](https://user-images.githubusercontent.com/38798812/233555082-455fbcbd-c685-4c1d-91f2-2d911e6a6273.png)
+
+Transferring ZEC from a Transparent Address (t-address) to a z-address is simply known as Shielding. In this type of transaction the level of privacy is not always high when compared to that of a z-z transaction but it is also recommended when privacy is required. 
 
 
-![20230420-091701-0000](https://user-images.githubusercontent.com/81990132/233535945-09a8ce02-d4d4-4c73-99fa-14b438963a45.png)
 
+---
 
-![20230420-091346-0000](https://user-images.githubusercontent.com/81990132/233536122-6429d010-1ffa-424a-83d6-6e94eb8252e8.png)
+![20230420_091346_0000.png](https://user-images.githubusercontent.com/38798812/233546890-5580a7b9-e8c5-4e2c-a248-3f6338bbe0d1.png)
+
+Sending ZEC from a Transparent Address (t-address) to another Transparent Address (t-address) on ZCash Network (T-T transaction) is very similar to that of Bitcoin transaction and this is why T-T transactions on ZCash are always called Public transactions because both the sender and the receiver transaction details becomes visible to the public which makes the level of Privacy very low in such transaction. Most Cryptocurrency Centralized exchanges make use of Transparent Address ("t-address) when it comes to transacting on the ZCash blockchain but this type of transaction (T-T) is not always recommended for high privacy. 
+
 
 
 
