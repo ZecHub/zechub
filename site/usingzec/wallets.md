@@ -10,7 +10,7 @@ Mobile wallets allow you access your Zcash anywhere and on the go
 
 ## Desktop Wallets
 
-Desktop wallets are downloadable apps if you want that access you ZEC from Windows, MacOS, or Linux.
+Desktop wallets are downloadable apps if you want that access you Zcash from Windows, MacOS, or Linux.
 
 ## Hardware Wallets
 
