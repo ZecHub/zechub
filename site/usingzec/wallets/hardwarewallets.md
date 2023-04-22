@@ -13,7 +13,7 @@ Hardware Wallets
 | Transparent |
 
 #### Features
-| Synchronizer |
+| Synchronizer | Multi Coin |
 
 
 
@@ -25,7 +25,7 @@ Hardware Wallets
 | Transparent |
 
 #### Features
-| Synchronizer | Web App |
+| Synchronizer | Multi Coin | Web App |
 
 
 - Trezor devices are hardware wallets. The Trezor hardware architecture is public and the Trezor bootloader and firmware are completely open-source, which allows the user to independently verify the functionality and security of Trezor devices. With Trezor Suite and Trezor Bridge, using your Trezor device is as convenient as using a web wallet. 
@@ -40,4 +40,4 @@ Hardware Wallets
 | Transparent |
 
 #### Features
-| Synchronizer |
+| Synchronizer | Multi Coin |
