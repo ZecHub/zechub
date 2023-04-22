@@ -64,7 +64,7 @@ Mobile wallets allow you to use Zcash anywhere and on the go
 | Sapling |
 
 #### Features
-| Synchronizer |
+| Synchronizer | Multi Coin |
 
 #### Shielded Sync Speed <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18">
 
@@ -90,7 +90,7 @@ Mobile wallets allow you to use Zcash anywhere and on the go
 | Transparent |
 
 #### Features
-| Synchronizer |
+| Synchronizer | Multi Coin |
 
 
 
@@ -101,7 +101,7 @@ Mobile wallets allow you to use Zcash anywhere and on the go
 | Transparent |
 
 #### Features
-| Synchronizer |
+| Synchronizer | Multi Coin |
 
 
 
@@ -114,5 +114,5 @@ Mobile wallets allow you to use Zcash anywhere and on the go
 | Transparent |
 
 #### Features
-| Synchronizer |
+| Synchronizer | Multi Coin |
 
