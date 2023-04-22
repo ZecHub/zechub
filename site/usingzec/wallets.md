@@ -27,4 +27,4 @@ Browser wallets are web applications that let you interact with your account dir
 
 ## Full Node Wallets
 
-A full-node wallet is special case of desktop wallet for users who may want to mine Zcash and or validate transactions and blocks, in addition to sending and receiving ZEC. It downloads a copy of the Zcash blockchain, enforces rules of the Zcash network, and can execute all functionalities.
+A full-node wallet is special case of desktop wallet for users who may want to mine Zcash and or validate transactions and blocks, in addition to sending and receiving Zcash. It downloads a copy of the Zcash blockchain, enforces rules of the Zcash network, and can execute all functionalities.
