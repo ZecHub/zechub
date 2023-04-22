@@ -13,19 +13,19 @@ Il Programma di Ambasciatori Globali è stato progettato per identificare i memb
 
   [Lista attuale](https://forum.zcashcommunity.com/t/the-global-ambassador-program/41070/120)
   
-  | Ambassador | Country | Forum name| Twitter |
+  | Ambasciatore | Paese | Nome nel forum| Twitter |
 | ----------- | ----------- | ----------- | ----------- |
-| Aiden       | South Korea | @AidenZ     | [Aiden Jeon](https://twitter.com/zaos1004) |
+| Aiden       | Corea del Sud | @AidenZ     | [Aiden Jeon](https://twitter.com/zaos1004) |
 | Artkor      | Russia      | @artkor     | [RuZcash](https://twitter.com/RuZcash) |
 | BostonZcash | US          | @BostonZcash| [BostonZash](https://twitter.com/BostonZcash) |
 | Chidi       | Nigeria     | @lisa001    | [ZcashNigeria](https://twitter.com/ZcashNigeria) |
 | Eric        | US          | @_eric      | [PayWithZcash](https://twitter.com/paywithzcash) |
 | Jacob       | US          | @readaboutme1991| [lifeofjacob.eth](https://twitter.com/readaboutme1991) |
-| Ksenya      | Germany     | @j32804      | [j32804](https://twitter.com/j32804) |
+| Ksenya      | Germania     | @j32804      | [j32804](https://twitter.com/j32804) |
 | Madison     | US          | @madisonedge| [mad_parks](https://twitter.com/mad_parks) |
-| Michael     | Brazil      | @michae2xl  | [Michael2xl](https://twitter.com/michae2xl) |
+| Michael     | Brasile      | @michae2xl  | [Michael2xl](https://twitter.com/michae2xl) |
 | Yoditar     | Venezuela   | @yoditar    | [Yoditar.zkp](https://twitter.com/yoditarX) |
-| Zoz         | Saudi Arabia| @zoz        | [ZECArabic](https://twitter.com/ZozNotorious) |
-| Tim         | Ukraine     | @tim_ukrainian        | [Tim_ukrainian](https://twitter.com/tim_ukrainian) |
+| Zoz         | Arabia Saudita| @zoz        | [ZECArabic](https://twitter.com/ZozNotorious) |
+| Tim         | Francia    | @tim_ukrainian        | [Tim_ukrainian](https://twitter.com/tim_ukrainian) |
  
 

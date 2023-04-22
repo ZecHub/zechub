@@ -12,4 +12,8 @@ Sentirete interviste con leader del settore, funzionari governativi e accademici
 * [PGP per Crypto Podcast #1 - Amanda Wick](https://www.youtube.com/watch?v=m7tvz-U1kJU)
 * [PGP per Crypto Podcast #2 - Kristin Smith](https://www.youtube.com/watch?v=fpT-f82Wzc8)
 * [PGP per Crypto Podcast #3 - Luke Hogg](https://www.youtube.com/watch?v=467EFsIx4yg)
+* [PGP per Crypto Podcast #4 - Jennifer Schulp](https://www.youtube.com/watch?v=Cgnye-QYV7Q)
+* [PGP per Crypto Podcast #5 - Cleve Mesidor](https://www.youtube.com/watch?v=sS35aykvf6E)
+* [PGP per Crypto Podcast #6 - Brett Quick](https://www.youtube.com/watch?v=im0sXlnaGmU)
+* [PGP per Crypto Podcast #7 - Miller Whitehouse-Levine](https://www.youtube.com/watch?v=-utatp0lK6s)
 

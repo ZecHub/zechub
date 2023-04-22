@@ -16,4 +16,4 @@ Per favore, utilizza questo [template](https://github.com/ZecHub/zechub/blob/mai
 
 ## Edizioni passate
 
-[Archivio di ZecWeekly](https://zechub.substack.com/p/archive)
+[Archivio di ZecWeekly](https://zechubit.substack.com/p/archive)

@@ -1,4 +1,4 @@
-# Le vasi di Zcash
+# Le basi di Zcash
 
 ## Cos'è ZEC?
 

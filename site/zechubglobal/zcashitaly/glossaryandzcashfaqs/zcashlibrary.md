@@ -79,7 +79,7 @@ ___
 |    **ECC**: |   La Electric Coin Company, è il team dietro il protocollo Zcash, precedentemente conosciuta come Zcash Company. |  
 | **ECDSA**: | Elliptic Curve Digital Signature Algorithm  è uno schema di firma digitale crittograficamente sicuro. L'algoritmo di firma/verifica ECDSA si basa sulla moltiplicazione di punti di curve ellittiche. |
 |  **Education**: |  Video orientati all'apprendimento che spiegano Zcash [qui](https://www.zcashcommunity.com/zcash-education/) |  
-|   **Encrypted Memos**: |    Un campo aggiuntivo per le transazioni inviate agli indirizzi protetti che è visibile al destinatario del pagamento. La nota criptata è visibile solo al mittente e al destinatario, a meno che la chiave di visualizzazione o la divulgazione del pagamento venga condivisa con una terza parte. |  
+|   **Encrypted Memos**: |    Un campo aggiuntivo per le transazioni inviate agli indirizzi schermati che è visibile al destinatario del pagamento. La nota criptata è visibile solo al mittente e al destinatario, a meno che la chiave di visualizzazione o la divulgazione del pagamento venga condivisa con una terza parte. |  
 |  **Equihash**: |  L'algoritmo di proof-of-work orientato alla memoria utilizzato da Zcash. |  
 | **Eventi**:  |    Il calendario degli eventi correlati a Zcash [qui](https://electriccoin.co/events/)  |  
 |  **Exchanges**:|    [Lista degli Exchange che supportano Zcash](https://z.cash/exchanges/)  |  
@@ -104,7 +104,7 @@ ___
 |          |            | 
 |--------------|-----------|
 | **Fiat-Shamir**: | Una tecnica per acquisire una prova di conoscenza interattiva e creare una firma digitale basata su di essa. In questo modo, alcuni fatti (ad esempio, la conoscenza di un segreto) possono essere dimostrati pubblicamente senza rivelare informazioni sottostanti. |
-| **Founders Reward**: | La ricompensa del fondatore rappresenta il 20% della ricompensa totale per blocco ed è detratta dal valore di ogni blocco e distribuita trasparentemente per sostenere lo sviluppo e la crescita del protocollo.  |  
+| **Founders Reward**: | La ricompensa dei fondatori rappresenta il 20% della ricompensa totale per blocco ed è detratta dal valore di ogni blocco e distribuita trasparentemente per sostenere lo sviluppo e la crescita del protocollo.  |  
 | **Free2z**:|  Uno strumento per contenuti anonimi e donazioni private basato su Zcash [Free2z](https://free2z.com)         |  
 |  **FROST**: |  "FROST" è l'acronimo di "Flexible Round-Optimized Schnorr Threshold", ovvero uno schema di firma digitale basato su soglia e ottimizzato per le operazioni di round. FROST è progettato per ridurre l'interazione tra i partecipanti che possiedono congiuntamente una chiave privata di firma e desiderano utilizzare questa chiave privata per firmare un messaggio (nel caso di Zcash, FROST verrà utilizzato per firmare le transazioni da parte di proprietari congiunti di una chiave di firma). [Documento di ricerca](https://eprint.iacr.org/2020/852) |  
 
@@ -129,7 +129,7 @@ ___
 |          |            | 
 |--------------|-----------|
 |  **Halo**:  |  Consente aggiornamenti ai circuiti senza la necessità di set up affidabili, rendendo il protocollo schermato di Zcash più agile per future migliorie ed estensioni, come ad esempio gli indirizzi unificati/gli asset definiti dall'utente. [Spiegazione tecnica](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)  |  
-|  **HD Wallet**:  |   Gli "Hierarchical deterministic wallets" generano una serie di coppie di chiavi a partire da un unico seed, offrendo convenienza, gestibilità e un elevato livello di sicurezza. I portafogli Zcash consentono di creare diverse chiavi pubbliche protette a partire dalla chiave privata principale all'interno di un unico portafoglio. |  
+|  **HD Wallet**:  |   Gli "Hierarchical deterministic wallets" generano una serie di coppie di chiavi a partire da un unico seed, offrendo convenienza, gestibilità e un elevato livello di sicurezza. I portafogli Zcash consentono di creare diverse chiavi pubbliche schermate a partire dalla chiave privata principale all'interno di un unico portafoglio. |  
 |  **Heartwood**: |  Il quarto grande aggiornamento di rete di Zcash. [Maggiori informazioni](https://z.cash/upgrade/heartwood/) |  
 
 
@@ -184,7 +184,7 @@ ___
 |--------------|-----------|
 |  **Metriche**: |  Le metriche di rete sono disponibili [qui](https://electriccoin.co/zcash-metrics/) |  
 | **Metadata**:  |    I dati generati insieme alla transazione di Zcash di un utente. Questi possono includere l'altezza del blocco, la versione della transazione o l'altezza di scadenza, ecc.  |  
-|**Mobile SDK**: | Un SDK leggero che collega Android a Zcash, consentendo alle app di terze parti per Android di inviare e ricevere transazioni protette. [Github](https://github.com/zcash/zcash-android-wallet-sdk)|
+|**Mobile SDK**: | Un SDK leggero che collega Android a Zcash, consentendo alle app di terze parti per Android di inviare e ricevere transazioni schermate. [Github](https://github.com/zcash/zcash-android-wallet-sdk)|
 |  **Mining**: |   Il processo in cui, per ogni blocco, i nodi nella rete Zcash competono effettuando calcoli matematici complessi per trovare una soluzione basata su una difficoltà autoregolante. I minatori di Zcash vengono ricompensati sia con le commissioni delle transazioni che confermano, sia con le ricompense dei blocchi. [Guida](https://z.cash/mining-zcash/) |  
 |   **Multisignature**:  |  Un indirizzo che richiede la firma di più chiavi private per poter spendere i fondi. Questo è un meccanismo di sicurezza per proteggere contro il furto o la perdita di una chiave privata. Attualmente, la funzionalità multisig è supportata solo dagli indirizzi trasparenti. |  
 
@@ -257,7 +257,7 @@ ___
 |          |            | 
 |--------------|-----------|
 |  **Sapling**: | L'aggiornamento di rete che introduce significativi miglioramenti di efficienza per le transazioni schermate che hanno aperto la strada ad una vasta adozione mobile, da parte degli exchange e dei fornitori di indirizzi schermati di Zcash. Attivato al blocco 419200. [Ulteriori informazioni](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#sapling) |  
-|  **Selective Disclosure**: |    Una caratteristica degli indirizzi protetti in cui il proprietario può divulgare i dati della transazione protetta. Un utente può condividere una chiave di visualizzazione o una divulgazione di pagamento con qualsiasi terza parte, consentendo loro di accedere ai dati protetti mantenendo la privacy da altri.|  
+|  **Selective Disclosure**: |    Una caratteristica degli indirizzi schermati in cui il proprietario può divulgare i dati della transazione schermata. Un utente può condividere una chiave di visualizzazione o una divulgazione di pagamento con qualsiasi terza parte, consentendo loro di accedere ai dati schermati mantenendo la privacy da altri.|  
 |  **Sensimilla**: | Una funzione di hash resistente alle collisioni e uno schema di impegno progettati per essere efficienti nei modelli di circuito algebrico che supportano ricerche, come PLONK o Halo 2. |  
 |  **Shielded Transaction**: |  Una transazione esclusivamente tra indirizzi schermati. Gli indirizzi, il valore e una memo opzionale cifrata sono schermati utilizzando la crittografia zk-SNARK prima che la transazione sia registrata nella blockchain. (anche nota come "z2z")|  
 | **Shielded Labs**:  |  La prima organizzazione Zcash annunciata di essere formata al di fuori degli Stati Uniti. Lo scopo è quello di sostenere lo sviluppo del protocollo e l'adozione di Zcash nei prossimi anni.  |
@@ -357,5 +357,5 @@ ___
 | **ZF A/V Club**: |  Potenziare le comunità locali di Zcash con supporto globale attraverso la creazione di una rete di creatori di contenuti capaci, pronti e finanziati, che diffondono e condividono notizie fresche su Zcash e la privacy online.  |
 | **ZIP**: |  Zcash Improvement Proposal. Metodo per le proposte della comunità di nuove funzionalità per la criptovaluta Zcash, i dettagli di implementazione e la documentazione delle decisioni di design. [Sito ZIP](https://zips.z.cash) |
 |  **Zingo Wallet:**    |  Un portafoglio mobile che supporta gli indirizzi unificati (Unified Addresses e Orchard). Gestito da Zingo Labs. |
-| **zk-SNARK**:|  Zero-knowledge Succinct Argument of Knowledge (zk-SNARK) è una prova utilizzata nel protocollo Zcash che consente agli indirizzi protetti di dimostrare la validità delle transazioni associate senza rivelare l'indirizzo o il valore transato. In altre parole, un zk-SNARK consente di dimostrare di avere il diritto di spendere un determinato importo senza rivelare l'importo o l'indirizzo di provenienza. Questa tecnologia consente di preservare la privacy degli utenti della blockchain Zcash. Per ulteriori informazioni, si può fare riferimento alla documentazione ufficiale del protocollo. [Ulteriori informazioni](https://zkp.science)|  
+| **zk-SNARK**:|  Zero-knowledge Succinct Argument of Knowledge (zk-SNARK) è una prova utilizzata nel protocollo Zcash che consente agli indirizzi schermati di dimostrare la validità delle transazioni associate senza rivelare l'indirizzo o il valore transato. In altre parole, un zk-SNARK consente di dimostrare di avere il diritto di spendere un determinato importo senza rivelare l'importo o l'indirizzo di provenienza. Questa tecnologia consente di preservare la privacy degli utenti della blockchain Zcash. Per ulteriori informazioni, si può fare riferimento alla documentazione ufficiale del protocollo. [Ulteriori informazioni](https://zkp.science)|  
 

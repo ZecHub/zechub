@@ -1,4 +1,4 @@
-# Zcash social media links
+# Link ai social media
 
 ## Twitter <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/twitter.svg" width="20" height="20"> 
 

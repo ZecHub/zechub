@@ -8,24 +8,24 @@ The complete list with full notes & agendas can be found [here](https://github.c
 
 List of recent Zcash development calls:
 
-## Arborist #47  
+## Arborist #49
 
-https://twitter.com/zksquirrel/status/1633999586023944199
+[Jason R 🛡️ on Twitter](https://twitter.com/zksquirrel/status/1644115391575105537?cxt=HHwWgoCxyZuPidEtAAAA)
 
+## Arborist #48
 
-## Arborist #46  
+[Jason R 🛡️ on Twitter](https://twitter.com/zksquirrel/status/1639157209962541058?cxt=HHwWhMCz7Yezur8tAAAA)
 
-https://twitter.com/zksquirrel/status/1629021480372641800 
+[Zcash Arborist Call - March 23 2023](https://www.youtube.com/watch?v=k9bd3KCUoNs)
 
+## Arborist #47
 
-## Arborist #45  
+[Jason R 🛡️ on Twitter](https://twitter.com/zksquirrel/status/1633999586023944199)
 
-https://twitter.com/zksquirrel/status/1623787846661246976?cxt=HHwWgMC47a-c7YgtAAAA
+[Zcash Arborist Call - March 9 2023](https://www.youtube.com/watch?v=_FQlSvlukmU)
 
-https://youtu.be/xcqGXgXoyXo
+## Arborist #46
 
-## Arborist #44  
+[Jason R 🛡️ on Twitter](https://twitter.com/zksquirrel/status/1629021480372641800)
 
-https://twitter.com/zksquirrel/status/1618843246914068481 
-
-https://www.youtube.com/watch?v=KO_TET2oAzc
+[Zcash Arborist Call - February 23 2023](https://www.youtube.com/watch?v=iw5bAyLFpf4)

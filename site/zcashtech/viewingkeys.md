@@ -24,7 +24,7 @@ Why would a user ever want to do this? From Electric Coin Co.'s blog on the matt
 
 #### ywallet
 
-* On the top right corner select Backup, Authenticate your phone, then simply copy your viewing key that is displayed.
+* On the top right corner select "Backup", Authenticate your phone, then simply copy your viewing key that is displayed.
 
 ### How to use your viewing key
 
@@ -36,7 +36,7 @@ Why would a user ever want to do this? From Electric Coin Co.'s blog on the matt
 
 #### ywallet
 
-* On the top right corner select Accounts, and click on the green circle on the bottom right to add your *read-only* account
+* In the top right corner, select "Account", click on "+" in the bottom right corner to add and import your viewing key to add your 'read-only' account.
 
 ![myViewKey](https://user-images.githubusercontent.com/81990132/208585568-46065002-6682-4ff4-ae8b-d206205b5d9b.png)
 

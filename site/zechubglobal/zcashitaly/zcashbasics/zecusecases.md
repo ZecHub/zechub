@@ -12,7 +12,7 @@ Le persone possono anche utilizzare ZEC per preservare ricchezza in un asset pro
 
 #### Messaggistica
 
-Le persone possono utilizzare il campo memo in una transazione Z-Z schermata per inviare messaggi completamente criptati. Per inviare un memo, gli utenti devono eseguire una transazione e pagare una commissione, che è inferiore a $0,01.
+Le persone possono utilizzare il campo memo in una transazione schermata Z-Z per inviare messaggi completamente criptati. Per inviare un memo, gli utenti devono effettuare una transazione e pagare una commissione di transazione, che è inferiore a $0,01.
 
 #### Risorse
 

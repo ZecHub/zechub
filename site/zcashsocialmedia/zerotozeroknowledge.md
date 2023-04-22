@@ -27,5 +27,3 @@ https://twitter.com/ZecHub/status/1636473585781948416
 ## Lelantus
 
 https://twitter.com/ZecHub/status/1641902859800150017
-
-
