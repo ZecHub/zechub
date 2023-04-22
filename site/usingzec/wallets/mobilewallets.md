@@ -1,6 +1,6 @@
 # Mobile Wallets
 
-Mobile wallets allow you to use ZEC anywhere and on the go
+Mobile wallets allow you to use Zcash anywhere and on the go
 
 ---
 
