@@ -38,7 +38,7 @@ Desktop wallets are downloadable apps if you want to access your Zcash from Wind
 | Transparent |
 
 #### Features
-| Synchronizer |
+| Synchronizer | Multi Coin |
 
 
 ### Coinomi [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://www.coinomi.com/en/)
@@ -48,4 +48,4 @@ Desktop wallets are downloadable apps if you want to access your Zcash from Wind
 | Transparent |
 
 #### Features
-| Synchronizer |
+| Synchronizer | Multi Coin |
