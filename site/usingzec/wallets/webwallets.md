@@ -11,4 +11,4 @@ Web wallets are wallets that you can access from your web browser. They give a u
 | Transparent |
 
 #### Features
-| Synchronizer |
+| Synchronizer | Multi Coin |
