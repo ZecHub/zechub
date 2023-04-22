@@ -109,6 +109,6 @@ Puoi approfondire CoinJoin tramite il seguente link tutorial creato da ZecHub Ze
 
 - [Direttore della sicurezza, ECC](https://apply.workable.com/electric-coin-company/j/E68A4C20E2/)
 
-#### Unisciti alle comunità ufficiali di Zcash Italia!
+#### Social Italiani
 
-[Gruppo Telegram](https://t.me/ZcashItalia) | [Gruppo Discord](https://discord.com/channels/978714252934258779/1091806217359347802) 
+[Gruppo Telegram](https://t.me/zcashita) | [Gruppo Discord](https://discord.com/channels/978714252934258779/1091806217359347802) | [Twitter](https://twitter.com/InsideZcash)

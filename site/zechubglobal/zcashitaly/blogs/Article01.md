@@ -38,6 +38,6 @@ In definitiva, Zcash è una criptovaluta da tenere d'occhio per coloro che desid
 [Utilizzare ZEC in modo privato](https://wiki.zechub.xyz/global/italiano/utilizzare-zec-in-modo-privato)
 [Tutto ciò che devi sapere su ZKP e ZK-SNARKS](../zcashtech/zksnarks.md)
 
-### Social ufficiali
+### Social Italiani
 
-[Gruppo Telegram](https://t.me/ZcashItalia) | [Gruppo Discord](https://discord.com/channels/978714252934258779/1091806217359347802)
+[Gruppo Telegram](https://t.me/zcashita) | [Gruppo Discord](https://discord.com/channels/978714252934258779/1091806217359347802) | [Twitter](https://twitter.com/InsideZcash)
