@@ -1,4 +1,5 @@
-# Web Wallet Extensions
+# Browser Extension
+
 
 Browser extension wallets are extensions you download that let you interact with your account through the browser
 
