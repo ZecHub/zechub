@@ -18,8 +18,9 @@ Grazie per il vostro supporto e speriamo che apprezzerete la lettura della nostr
 
 ---
 
-## Il pezzo educativo di questa settimana
-In questo pezzo educativo della settimana, esamineremo una strategia anonima utilizzata da Bitcoin per proteggere la privacy degli utenti ogni volta che viene effettuata una transazione sulla Blockchain di Bitcoin. Il processo di anonimato delle transazioni tra gli utenti sulla rete Bitcoin è noto come CoinJoin. Questa strategia richiede talvolta che più parti firmino congiuntamente un contratto digitale intelligente per mescolare le loro monete in una nuova transazione Bitcoin.
+## Il pezzo didattico di questa settimana
+
+In questo pezzo didattico della settimana, esamineremo una strategia anonima utilizzata da Bitcoin per proteggere la privacy degli utenti ogni volta che viene effettuata una transazione sulla Blockchain di Bitcoin. Il processo di anonimato delle transazioni tra gli utenti sulla rete Bitcoin è noto come CoinJoin. Questa strategia richiede talvolta che più parti firmino congiuntamente un contratto digitale intelligente per mescolare le loro monete in una nuova transazione Bitcoin.
 
 Puoi approfondire CoinJoin tramite il seguente link tutorial creato da ZecHub Zero to Zero Knowledge Weekly Tutorial;
 [Apprendimento su CoinJoin](https://twitter.com/ZecHub/status/1646609568879763456?s=19) 

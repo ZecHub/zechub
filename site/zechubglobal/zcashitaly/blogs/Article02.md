@@ -30,7 +30,7 @@ Le diverse funzionalità di privacy di Zcash includono la privacy del saldo e de
 
 Per affrontare questo problema, Zcash offre la possibilità di creare un numero illimitato di indirizzi di ricezione unici legati a un singolo account Zcash. Tutti questi indirizzi convoglieranno ZEC nello stesso account Zcash. In questo modo, non c'è modo per parti esterne di correlare questi indirizzi e capire che appartengono alla stessa persona, a meno che tu non lo dica loro.
 
-L'app YWallet chiama questi indirizzi "snap address" e basta un clic per ottenere un nuovo indirizzo che puoi fornire a chiunque ne abbia bisogno, e che quindi puoi essere sicuro che ogni volta che lo tocchi, avrai un nuovo indirizzo fresco.
+Questi indirizzi vengono chiamati "snap address" ed in tutti i portafogli più avanzati, è sufficiente fare pochi clic per generare un nuovo indirizzo che puoi condividere in sicurezza con chiunque ne abbia bisogno.
 
 ## Conclusione
 
