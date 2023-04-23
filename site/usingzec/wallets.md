@@ -20,7 +20,7 @@ Hardware wallets stores your Zcash securely offline physical device. Hardware wa
 
 Web wallets are wallets that you can access from your web browser. They give a users a web interface to interact with their funds.
 
-# Browser Extension Wallets
+## Browser Extension Wallets
 
 Browser wallets are web applications that let you interact with your account directly in the browser
 
