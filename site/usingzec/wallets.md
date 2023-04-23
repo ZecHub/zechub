@@ -6,7 +6,7 @@ Wallets allow you to receive and spend Zcash. Some also support encrypted memos.
 
 ## Mobile Wallets
 
-Mobile wallets allow you access your Zcash anywhere and on the go
+Mobile wallets allow you to access your Zcash anywhere and on the go
 
 ## Desktop Wallets
 
