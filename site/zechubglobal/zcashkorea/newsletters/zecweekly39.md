@@ -1,6 +1,6 @@
 # ZecWeekly #39
 
-EU 의회 MICA 찬성하다, Zcashd 5.5.0 출시 임박 & Ledger Nano에서 Shielded address 데모 확인! 
+EU 의회 MICA 승인하다, Zcashd 5.5.0 출시 임박 & Ledger Nano에서 Shielded address 데모 확인! 
 
 ---
 
