@@ -10,9 +10,9 @@ EU 의회 MICA 승인하다, Zcashd 5.5.0 출시 임박 & Ledger Nano에서 Shie
 
 ### ZecWeekly에 오신 것을 환영합니다
 
-우리는 FROST 릴리스, Zcashd 5.5.0 업데이트 등을 자세히 설명하는 Zcash Arborist Call의 최근 업데이트 및 개발을 확인할 것입니다.
+FROST 릴리스, Zcashd 5.5.0 업데이트 등을 자세히 설명하는 Zcash Arborist Call의 최근 업데이트 및 개발을 확인해보세요.
 
-또한 ZCAP에서 선택한 Zcash Minor Grants 수령인을 확인하고 Crypto Space에서 최근 발생한 몇가지 사건을 검토해보려 합니다.
+또한 ZCAP의 투표로 선택된 Zcash Minor Grants 수령인을 확인하고 Crypto Space에서 최근 발생한 몇가지 사건을 검토해보세요.
 
 ---
 
