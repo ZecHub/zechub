@@ -4,7 +4,7 @@
 
 Gli indirizzi e le transazioni sono elementi fondamentali di qualsiasi criptovaluta, ma particolarmente in Zcash. In questo articolo, esploreremo gli aspetti chiave degli indirizzi e delle transazioni di Zcash, e come la tecnologia di privacy avanzata di Zcash garantisce la sicurezza e la riservatezza delle transazioni.
 
-## Transazioni di Zcash
+## Le transazioni di Zcash
 
 Le transazioni di Zcash sono simili a quelle di altre criptovalute, ma con un'importante differenza: la privacy e la riservatezza sono garantite dalla tecnologia zk-SNARKs di Zcash.
 
@@ -14,7 +14,7 @@ D'altra parte, le transazioni trasparenti di Zcash funzionano esattamente come q
 
 L'insieme delle tecnologie è combinato e reso semplice, rendendo Zcash un network di complesse ed avanzate funzionalità, ma allo stesso tempo semplice da comprendere ed utilizzare per l'utente finale.
 
-## Indirizzi di Zcash
+## Gli indirizzi di Zcash
 
 Come molte altre criptovalute, gli indirizzi di Zcash sono simili a un numero di conto bancario, e quindi sono utilizzati per inviare e ricevere ZEC. Tuttavia, a differenza di altre criptovalute, gli indirizzi di Zcash possono essere di più tipi: indirizzi trasparenti, indirizzi schermati ed indirizzi unificati.
 
