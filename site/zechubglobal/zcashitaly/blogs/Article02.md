@@ -34,12 +34,12 @@ L'app YWallet chiama questi indirizzi "snap address" e basta un clic per ottener
 
 ## Conclusione
 
-In conclusione, gli indirizzi e le transazioni sono elementi essenziali di qualsiasi criptovaluta, ma in modo unico e speciale in Zcash. La tecnologia di privacy avanzata di Zcash, garantisce la massima riservatezza delle transazioni schermate di Zcash, rendendola una scelta ideale per chi desidera mantenere la privacy finanziaria. Tuttavia, gli utenti di Zcash devono prestare attenzione al tipo di indirizzo che utilizzano, poiché gli indirizzi trasparenti non offrono la stessa privacy e riservatezza delle transazioni protette.
+In conclusione, gli indirizzi e le transazioni sono elementi essenziali di qualsiasi criptovaluta, ma in modo unico e speciale in Zcash. La tecnologia di privacy avanzata di Zcash, garantisce la massima riservatezza delle transazioni schermate di Zcash, rendendola una scelta ideale per chi desidera mantenere la privacy finanziaria. Tuttavia, gli utenti di Zcash devono prestare attenzione al tipo di indirizzo che utilizzano, poiché gli indirizzi trasparenti non offrono la stessa privacy e riservatezza delle transazioni schermate.
 
 ### Approfondimenti
 
 [Le transazioni ed indirizzi in Zcash](https://wiki.zechub.xyz/global/italiano/transazioni)
 
-### Social ufficiali
+### Social Italiani
 
-[Gruppo Telegram](https://t.me/ZcashItalia) | [Gruppo Discord](https://discord.com/channels/978714252934258779/1091806217359347802)
+[Gruppo Telegram](https://t.me/zcashita) | [Gruppo Discord](https://discord.com/channels/978714252934258779/1091806217359347802) | [Twitter](https://twitter.com/InsideZcash)
