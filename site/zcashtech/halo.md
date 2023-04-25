@@ -19,11 +19,11 @@ Polynomial Interactive Oracle Proof: Verifier asks prover (algorithm) to open al
 
 zkSNARKs rely on a common reference string (CRS) as a public parameter for proving & verifying. This CRS must be generated in advance by a trusted party. Until recently, elaborate secure multi-party computations (MPC) as those performed by Aztec network & Zcash were necesarry to mitigate the risk involved during this [trusted setup ceremony](https://zkproof.org/2021/06/30/setup-ceremonies/amp/). 
 
-Previously Zcash's Sprout & Sapling shielded pools utilised the BCTV14 & Groth 16 zk-proving systems. While these were secure there were limitations. They were not scalable as they were tied to a single application, the "toxic waste" (remnants from cryptographic material generated during a genesis ceremony) could persist and there was an element of trust (albeit minute) for users to deem the ceremony acceptable.
+Previously Zcash's Sprout & Sapling shielded pools utilised the BCTV14 & Groth 16 zk-proving systems. While these were secure there were limitations. They were not scalable as they were tied to a single application, the "toxic waste" (remnants from cryptographic material generated during the genesis ceremony) could persist, and there was an element of trust (albeit minute) for users to deem the ceremony acceptable.
 
 By repeatedly collapsing multiple instances of hard problems together over cycles of elliptic curves so that computational proofs can be used to reason about themselves efficiently (Nested amortization) the need for a trusted setup is eliminated. This also means that the stuctured reference string (output from ceremony) is upgradeable enabling applications such as smart contracts.
 
-Halo allows a user to both prove that no one involved in the initial establishment of the large-scale zero-knowledge proof system has created a secret backdoor with which to execute fraudulent transactions and that the secure state has existed over the course of updates and changes to the system. 
+Halo provides users with two important assurances regarding the security of the large-scale zero-knowledge proof system. Firstly, it enables users to prove that no one who was involved in the genesis ceremony has created a secret backdoor to execute fraudulent transactions. Secondly, it allows users to demonstrate that the system has remained secure over time, even as it has undergone updates and changes.
 
 [Sean Bowes Explainer on Dystopia Labs](https://www.youtube.com/watch?v=KdkVTEHUxgo) 
  

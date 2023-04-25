@@ -15,4 +15,4 @@ You’ll hear interviews with industry leaders, government officials, and academ
 * [PGP for Crypto Podcast #4 - Jennifer Schulp](https://www.youtube.com/watch?v=Cgnye-QYV7Q)
 * [PGP for Crypto Podcast #5 - Cleve Mesidor](https://www.youtube.com/watch?v=sS35aykvf6E)
 * [PGP for Crypto Podcast #6 - Brett Quick](https://www.youtube.com/watch?v=im0sXlnaGmU)
-
+* [PGP for Crypto Podcast #7 - Miller Whitehouse-Levine](https://www.youtube.com/watch?v=-utatp0lK6s)

@@ -18,7 +18,7 @@ ZGo sta sviluppando un sistema di pagamento schermato e di punto vendita a un cl
 
 Il programma di ambasciatori globali aiuta Zcash a ottenere una rappresentanza più ampia a livello internazionale e ad organizzare eventi di comunità dal vivo in tutto il mondo.
 
-Il comitato delle sovvenzioni di Zcash ha esaminato molti altri progetti, vedere la [lista completa].(https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d) of submitted projects.
+Il comitato delle sovvenzioni di Zcash ha esaminato molti altri progetti, vedere la [lista completa].(https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d) dei progetti presentati.
 
 ## Struttura Organizzativa
 

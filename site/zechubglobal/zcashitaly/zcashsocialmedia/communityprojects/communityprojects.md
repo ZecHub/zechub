@@ -55,6 +55,10 @@ ZGo è un registratore di Zcash che consente ai venditori e ai commercianti di a
 
 Zlink è il modo più semplice per trovare qualsiasi link, strumento, informazione di cui hai bisogno sull'ecosistema di Zcash.
 
+[Zcash CLI JSON RPC](https://zcash-rpc.vercel.app/)
+
+ZcashRPC è un sito web di documentazione automatizzata ed opensource per zcashd.
+
 ___
 ## Applicazioni che utilizzano Zcash
 

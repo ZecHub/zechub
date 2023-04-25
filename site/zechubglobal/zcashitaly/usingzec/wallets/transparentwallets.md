@@ -9,7 +9,6 @@ Lista dei portafogli trasparenti
 - [Cobo](https://cobo.com/)
 - [Coinomi](https://www.coinomi.com/en/)
 - [Exodus](https://www.exodus.com/)
-- [Jaxx](https://jaxx.io/)
 - [Metal](https://metalpay.com/)
 - [Ownbit](https://ownbit.io/en/)
 - [Safepay](https://safepay.safecoin.org/)

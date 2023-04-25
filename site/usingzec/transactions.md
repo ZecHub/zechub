@@ -12,9 +12,9 @@ When withdrawing ZEC from an exchange, you need to know whether the exchange sup
 
 You do this by sending the ZEC to your (T)transparent address in YWallet, then shielding it [sending it into a private shielded pool]. 
 
-Within Ywallet settings you can expose the S (sapling) T (transparent) O (orchard) components that make your Unified Address (that starts with U) - See [Guide](https://zechub.notion.site/Visualizing-Zcash-Addresses-27c0bcc423fa48f68374a0d6c317213b).
+Within Ywallet settings, you can expose the S (sapling), T (transparent), and O (orchard) components that make your Unified Address (that starts with U) - See [Guide](https://zechub.notion.site/Visualizing-Zcash-Addresses-27c0bcc423fa48f68374a0d6c317213b).
 
-Sending the transaction is actually very easy. You simply just need to know the other parties shielded address. When running the transaction, you select the amount of ZEC you want to send, enter the shielded address, write a [memo](https://zechub.notion.site/Memos-6e7a6d0e02ed48acbbc715a7f35a4719) (encrypted message), and then send the transaction. All you have to ensure when running a shielded transaction is that person you're sending ZEC to gives you their **shielded address**.
+When running the transaction, you select the amount of ZEC you want to send, enter the shielded address, write a [memo](https://zechub.notion.site/Memos-6e7a6d0e02ed48acbbc715a7f35a4719) (encrypted message), and then send the transaction. All you have to ensure when running a shielded transaction is that person you're sending ZEC to gives you their **shielded address**.
 
 *Using only shielded transactions to send and receive funds is the best way maintain privacy and reduce the risk of leaking data*
 
@@ -29,8 +29,6 @@ Transparent transactions have caused confusion around ZEC privacy in the past. T
 #### Resources
 
 [Sending a shielded ZEC transaction](https://www.youtube.com/watch?v=9WJSMxag2IQ)
-
-
 
 #### Note
 

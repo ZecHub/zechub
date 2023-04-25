@@ -19,3 +19,11 @@ https://twitter.com/ZecHub/status/1628498645627666432
 ## Trusted Execution Environments 
 
 https://twitter.com/ZecHub/status/1633579659282587651
+
+## Cryptonote
+
+https://twitter.com/ZecHub/status/1636473585781948416
+
+## Lelantus
+
+https://twitter.com/ZecHub/status/1641902859800150017

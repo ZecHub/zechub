@@ -28,4 +28,4 @@ Questi exchange supportano i prelievi trasparenti. Ciò significa che, quando si
 
 In tal caso, si consiglia di utilizzare un portafoglio che [auto-scherma i fondi].(https://electriccoin.co/blog/new-releases-to-help-enable-zcash-shielded-by-default/). Qui puoi trovar un [video] che spiega come farlo.
 
-_È possibile anche minare ZEC, ma di solito non è possibile per i consumatori medi. Maggiori informazioni a riguardo [qui](https://www.genesis-mining.com/zcash-mining-guide).
+_È possibile anche minare ZEC, ma di solito non è possibile per i consumatori medi. Maggiori informazioni a riguardo [qui](https://www.genesis-mining.com/zcash-mining-guide)._
