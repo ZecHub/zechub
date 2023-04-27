@@ -18,7 +18,7 @@ La newsletter di questa settimana coprirà l'esito della chiamata Zcash Aborist 
 
 ---
 
-## Il pezzo educativo di questa settimana
+## Il pezzo didattico di questa settimana
 
 Non c'è dubbio che l'ecosistema Zcash stia crescendo drasticamente, più di quanto possiamo immaginare, con molte applicazioni in sviluppo sulla blockchain di Zcash. L'adozione della crittografia Zero Knowledge (Zk) ha portato il team di Zingolabs a sviluppare un’applicazione Zcash completamente protetta chiamata Zingo Wallet.
 
