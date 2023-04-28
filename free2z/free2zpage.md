@@ -18,7 +18,7 @@ Tasks are posted via [Github](https://github.com/zechub/zechub/issues) to severa
 
 ## Our latest content:
 
-- [The latest ZecWeekly Newsletter](https://zechub.substack.com/p/zecweekly-37) | [ZecWeekly em português](https://zechubrazil.substack.com/p/zecweekly-37) | [ZecWeekly по-русски](https://prozcash.ru/novosti-zcash-37) | [ZecHub in Italiano](https://zechubit.substack.com/p/zecweekly-37) 
+- [The latest ZecWeekly Newsletter](https://zechub.substack.com/p/zecweekly-39) | [ZecWeekly em português](https://zechubrazil.substack.com/p/zecweekly-39) | [ZecWeekly по-Русски](https://ruzcash.substack.com/p/zcash-39) | [ZecHub in Italiano](https://zechubit.substack.com/p/zecweekly-39) | [Zecweekly en Français](https://zcashfr.io/2023/04/25/bienvenue-a-zecweekly/)
 - [The latest episode of our Podcast](https://www.youtube.com/watch?v=ILdMTGtVOD4)
 - [Our wiki-site with tons of information on Zcash & ZEC](https://wiki.zechub.xyz/)
 
