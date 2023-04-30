@@ -36,7 +36,6 @@ ZecHub에 대한 같은 Form을 유지하기 위해 페이지를 추가할 때 �
 zs1txa9wzxsc46w4940c4t76wjlylhntyp7vcppsp8re32z02srqse038melgglew4jwsh3qes4m4n
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/53389a9f-af17-4412-bd25-42cad32eb2b6/Untitled.png)
 
 **DISCLAIMER: ZecHub는 Zcash 커뮤니티 구성원이 설립한 완전히 독립적인 오픈 소스입니다. 이 Github에 포함된 어떠한 내용도 재정 또는 투자 조언으로 간주되어서는 안 됩니다. 이는 정보 제공의 목적으로만 제공됩니다.**
 
