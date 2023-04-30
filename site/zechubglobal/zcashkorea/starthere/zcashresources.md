@@ -1,6 +1,9 @@
 # Zcash 관련 정보
 ---
 
+지캐시 생태계에는 다양한 Resource가 존재합니다.
+
+
 **[Zcash 미디어](https://www.youtube.com/c/ZcashMedia)**
 
 Zcash Media는 Zcash에 대한 교육 다큐멘터리를 만드는 독립 조직입니다. 그들의 첫 번째 비디오인 "Bitcoin의 치명적인 결함을 수정하기 위해 제작된 Zcash(ZEC)는 무엇입니까?"는 Zcash에 대한 훌륭한 소개입니다.
