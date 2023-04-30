@@ -68,7 +68,7 @@ In conclusion diverse approaches to ensuring security and managing keys in the c
 
 #### News & Media
 
-[ZkSync-Based DEX Merlin Drained of $1.8M During Public Token Sale Despite ‘Audit’](https://www.coindesk.com/tech/2023/04/26/zksync-based-dex-merlin-drained-of-1m-during-public-token-sale-despite-audit/)
+[ZkSync-Based DEX Merlin Drained of $1.8M](https://www.coindesk.com/tech/2023/04/26/zksync-based-dex-merlin-drained-of-1m-during-public-token-sale-despite-audit/)
 
 [Coinbase posts 'Shields Up'](https://twitter.com/coinbase/status/1651001240627875841)
 
@@ -82,11 +82,9 @@ In conclusion diverse approaches to ensuring security and managing keys in the c
 
 
 ## Some Zcash Tweets
-[Retrieving private keys](https://twitter.com/ZecHub/status/1652013925959909376)
 
-[Zero to Zero knowledge](https://twitter.com/ZecHub/status/1652011133186785282)
 
-[Shielded Hardware Wallets](https://twitter.com/ZecHub/status/1652019811759603721)
+[Zero to Zero knowledge - Hardware Security Modules](https://twitter.com/ZecHub/status/1652011133186785282)
 
 [ZecHub quests are back!](https://twitter.com/ZecHub/status/1651002181116391424)
 
@@ -110,11 +108,10 @@ In conclusion diverse approaches to ensuring security and managing keys in the c
 
 [RuZcash - "The privacy attributes of some tools are exxagerated"](https://twitter.com/RuZcash/status/1651149123372961793)
 
-[]()
+[J.W Verret -“For the uninformed academics who think crypto has no use”](https://twitter.com/JWVerret/status/1652287338817413120)
 
-[]()
+[How to use Ywallet with a Ledger Device - Video](https://www.youtube.com/watch?v=_o-1UzQRP-8)
 
-[]()
 
 ## Zeme of the Week
 
