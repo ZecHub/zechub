@@ -3,6 +3,8 @@
 
 Desktop wallets are downloadable apps if you want to access your Zcash from Windows, MacOS, or Linux.
 
+Learn more about the different types of Zcash pools [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="18" height="18">](https://wiki.zechub.xyz/zcash-value-pools)
+
 ---
 
 ### Ywallet [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://ywallet.app/installation/)
@@ -12,7 +14,7 @@ Desktop wallets are downloadable apps if you want to access your Zcash from Wind
 | Transparent | Sapling | Orchard |
 
 #### Features
-| WarpSync | Shielded Memo | Automatic Shielding |
+| WarpSync | Shielded Memo | Automatic Shielding | Unified Address |
 
 #### Shielded Sync Speed <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18"> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18"> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18">
 
@@ -25,7 +27,7 @@ Desktop wallets are downloadable apps if you want to access your Zcash from Wind
 | Transparent | Sapling | Orchard |
 
 #### Features
-| BlazeSync | Shielded Memo |
+| BlazeSync | Shielded Memo |  Unified Address |
 
 #### Shielded Sync Speed <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18"> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18">
 

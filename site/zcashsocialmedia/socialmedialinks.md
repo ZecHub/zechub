@@ -54,6 +54,7 @@
 ## Telegram <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/telegram.svg" width="20" height="20"> 
 
 1. [Zcash Community](https://t.me/Zcash_Community)
+2. [Zcash Italia](https://t.me/zcashita)
 
 ## Mastodon <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/mastodon.svg" width="20" height="20"> 
 
