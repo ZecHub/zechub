@@ -1,6 +1,6 @@
 # Zcash Pool di valori
 
-Studieremo i quattro pool di valori in Zcash, che includono i pool di Sprout, Sapling, Orchard e Transparent. Questa pagina wiki coprirà anche le migliorie nella tecnologia e alcune pratiche migliori per il trasferimento dei pool.
+Esamineremo i 4 [pool di valore] (https://zcash.readthedocs.io/en/latest/rtd_pages/addresses.html) di Zcash, che comprendono i pool Sprout, Sapling, Orchard e Transparent. Questa pagina wiki tratterà anche i miglioramenti tecnologici e alcune buone pratiche per i trasferimenti tra i pool.
 
 
 ## I Shielded Pools (Pool schermati)
@@ -12,7 +12,6 @@ Studieremo i quattro pool di valori in Zcash, che includono i pool di Sprout, Sa
 
 
 Sprout è stato il primo protocollo di privacy Zero Knowledge su Zcash ed è talvolta chiamato Zcash 1.0 o "Zcash Ordinario". Il suo lancio è avvenuto il 28 ottobre 2016 ed è stata la prima versione di Zcash che utilizza la tecnologia a prova di conoscenza zero, importante caratteristica della crittografia di ZCash.
-
 
 Gli indirizzi Sprout sono identificati dalle prime due lettere, sempre "zc", e sono stati chiamati "Sprout" con l'obiettivo di enfatizzare che il software era un giovane blockchain in crescita con un grande potenziale di sviluppo, aperto a nuove implementazioni. La serie Sprout è stata utilizzata come strumento iniziale per [Mining a lento avvio di Zcash](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) which brought about the distribution of ZEC and Block rewards for Miners. 
 
@@ -27,43 +26,61 @@ Con l'espansione dell'ecosistema di Zcash e il crescente numero di transazioni s
 
 Alcuni degli aggiornamenti includono prestazioni migliorate per gli indirizzi schermati, chiavi di visualizzazione migliorate per consentire agli utenti di visualizzare le transazioni in entrata e in uscita senza esporre le chiavi private dell'utente e chiavi indipendenti a conoscenza zero per il portafoglio hardware durante la firma delle transazioni.
 
-(zero-knowledge succinct non-interactive arguments of knowledge), che consente transazioni private molto più veloci ed efficienti sulla blockchain di Zcash. Zcash Sapling consente inoltre agli utenti di eseguire transazioni private in pochi secondi, rispetto al tempo più lungo richiesto da Sprout Series. 
+Zcash Sapling consente agli utenti di eseguire transazioni private in pochi secondi rispetto alla durata più lunga della serie Sprout.
 
-Zcash Sapling si avvale anche di funzioni di schermatura delle transazioni per migliorare la privacy, rendendo difficile per terzi collegare le transazioni Zcash e determinare la quantità di ZEC trasferita dagli utenti. Inoltre, ZSapling migliora l'usabilità riducendo i requisiti computazionali per la generazione di transazioni private, rendendola più accessibile agli utenti.
+La schermatura delle transazioni migliora la privacy, rendendo impossibile a terzi collegare le transazioni e determinare la quantità di ZEC trasferita. Sapling migliora anche l'usabilità, riducendo i requisiti computazionali per la generazione di transazioni private e rendendola più accessibile agli utenti.
 
-L'indirizzo del portafoglio ZSapling inizia sempre con "zs" e questo può essere osservato in tutti i portafogli schermati ZCash supportati (Y-Wallet, Zingo Wallet, ecc.) che hanno indirizzi ZSapling integrati. Zcash Sapling rappresenta uno sviluppo significativo nella tecnologia ZCash per quanto riguarda la privacy e l'efficienza delle transazioni Zcash, che la rende una criptovaluta più pratica ed efficace per gli utenti che tengono alla privacy e alla sicurezza.
+Gli indirizzi Sapling iniziano con "zs" e questo può essere notato in tutti i portafogli Zcash Shielded supportati (YWallet, Zingo Wallet Nighthawk ecc.) che hanno indirizzi Sapling integrati. Zcash Sapling rappresenta un significativo sviluppo tecnologico per quanto riguarda la privacy e l'efficienza delle transazioni, che rende Zcash una criptovaluta pratica ed efficace per gli utenti che tengono alla privacy e alla sicurezza.
 
 ### Orchard Pool
-Orchard è una nuova tecnologia ad alta protezione della privacy che viene sviluppata per la rete Zcash. L'Orchard Shielded Pool è stato lanciato il 31 maggio 2022. L'indirizzo Orchard è talvolta chiamato indirizzo unificato (UA) e il pool schermato Orchard rappresenta un miglioramento significativo dei pool schermati esistenti e costituisce un set di anonimato separato dai pool schermati Sprout e Sapling, che contribuisce ad aumentare la privacy e l'anonimato degli utenti consentendo loro di inviare e ricevere ZEC in modo anonimo sulla rete ZCash. 
+Orchard è una nuova tecnologia ad alta protezione della privacy che viene sviluppata per la rete Zcash. L'Orchard Shielded Pool è stato lanciato il 31 maggio 2022. Gli indirizzi Orchard sono noti anche come indirizzi unificati (UA). 
 
-Le transazioni effettuate all'interno di Orchard aumenteranno più rapidamente le dimensioni dell'insieme di anonimato rispetto alle transazioni effettuate con Sapling, grazie alla natura di arity-hiding. L'aggiornamento di Orchard aiuterà a portare ulteriori miglioramenti alla rete Zcash, incluso transazioni più veloci ed efficienti, maggiore privacy e anonimato, maggiore sicurezza e maggiore flessibilità per gli sviluppatori che vogliono creare applicazioni decentralizzate sulla Blockchain di Zcash.
+Poiché gli indirizzi unificati combinano le pool Sapling e Transparent, si prevede che la quantità di fondi conservati all'interno del pool schermato aumenterà in modo significativo. Non c'è modo di distinguere tra i fondi inviati ai pool trasparenti e quelli schermati. 
+
+Le transazioni all'interno di Orchard aumenteranno le dimensioni dell'insieme di anonimato più rapidamente rispetto alle transazioni effettuate con Sapling, a causa della natura di occultamento arity-hiding di Orchard rispetto agli input e agli output di UTXO. 
+
+L'aggiornamento di Orchard contribuirà ad apportare ulteriori miglioramenti alla rete Zcash, tra cui transazioni più rapide ed efficienti, un maggiore anonimato, una maggiore sicurezza e una maggiore flessibilità per gli sviluppatori nel creare applicazioni decentralizzate sulla blockchain Zcash.
 
 ![IMG-20230419-221707](https://user-images.githubusercontent.com/81990132/233535609-6bf85926-567d-42ff-8b3f-9123afe98f65.jpg)
 
-I portafogli schermati di Zcash in questo momento stanno integrando gli i Pool Orchard nella loro opzione di Pool di Fondi. Un buon esempio si trova nell'app Zingo Wallet.
+I portafogli schermati di Zcash in questo momento stanno integrando gli i Pool Orchard tra le loro opzioni di Pool. Un buon esempio si trova nell'app Zingo Wallet.
 
 ## Transparent Pool
 
-Gli "ZCash Transparent" sono transazioni non schermate e non private sulla Blockchain di ZCash. Gli indirizzi del portafoglio trasparente su ZCash iniziano con la lettera "t" e la privacy in questo tipo di transazione è molto bassa. Le transazioni trasparenti in Zcash sono simili alle transazioni di Bitcoin che supportano transazioni multi-firma e utilizzano indirizzi pubblici standard che possono essere tracciati da chiunque nella rete.
+Il pool Zcash Transparent è non schermato né privato. Gli indirizzi dei portafogli trasparenti su Zcash iniziano con la lettera "T"; la privacy è considerata molto bassa in questo tipo di transazioni. 
+
+Le transazioni trasparenti in Zcash sono simili a quelle di Bitcoin, che supporta le transazioni a firma multipla e fa uso di indirizzi pubblici standard che possono essere inviati e ricevuti da chiunque sulla rete.
 
 
 ![IMG-20230420-100149](https://user-images.githubusercontent.com/81990132/233535663-bc536044-2537-41b2-9acb-69b3613e9ab6.jpg)
 
-Gli indirizzi Transparent (o trasparenti) sono utilizzati soprattutto dagli exchange centralizzati per garantire un'elevata trasparenza e la conferma della rete durante l'invio e la ricezione di ZEC tra gli utenti. È importante notare che gli indirizzi Zcash Shielded, pur garantendo un'elevata privacy durante le transazioni, richiedono anche maggiori risorse computazionali per elaborare le transazioni. Pertanto, alcuni utenti possono utilizzare indirizzi trasparenti per transazioni che non richiedono lo stesso livello di privacy.
+Gli indirizzi Transparent (o trasparenti) sono utilizzati soprattutto dagli exchange centralizzati per garantire un'elevata trasparenza e la conferma della rete durante l'invio e la ricezione di ZEC tra gli utenti. 
+
+È importante notare che gli indirizzi Zcash Shielded, pur garantendo un'elevata privacy durante le transazioni, richiedono anche maggiori risorse computazionali per elaborare le transazioni. Pertanto, alcuni utenti possono utilizzare indirizzi trasparenti per transazioni che non richiedono lo stesso livello di privacy.
 
 ---
 ### 
 
-# Si consiglia il trasferimento del pool
-Quando si tratta di considerare un alto livello di privacy durante le transazioni sulla rete Zcash, si raccomanda di seguire le seguenti pratiche;
+# Pratiche consigliate per il trasferimento tra i pool
+Quando si tratta di considerare un elevato livello di privacy durante le transazioni sulla rete Zcash, si raccomanda di seguire le seguenti pratiche;
 
+![20230420_051415_0000.png](https://user-images.githubusercontent.com/38798812/233546739-e9076b2d-bcb5-40a1-96a8-25284dff0786.png)
 
-![20230420-051415-0000](https://user-images.githubusercontent.com/81990132/233535812-ccb41fdd-a552-4930-b136-b65dc12e0d0d.png)
+Le transazioni che avvengono tra portafogli "Z-Z" sono schermate e vengono talvolta chiamate transazioni schermate a causa dell'elevato livello di privacy generato. Questo è solitamente il modo migliore e più consigliato per inviare e ricevere $ZEC quando è richiesta la privacy.
 
-![20230420-091225-0000](https://user-images.githubusercontent.com/81990132/233535882-1b3aa4e5-5022-48cf-b311-96aa8b8328ce.png)
+---
+![20230421_070131_0000.png](https://user-images.githubusercontent.com/38798812/233552931-d69f4ef3-b065-4d61-8e6b-adbc2edc4d70.png)
 
+L'invio di ZEC da un "indirizzo Z" a un "indirizzo T" indica una transazione di Deshielding. In questo tipo di transazione, il livello di privacy non è sempre elevato, poiché alcune informazioni saranno visibili sulla blockchain a causa dell'invio di ZEC su un indirizzo trasparente. La transazione Deshielding non è sempre raccomandata quando è richiesta un'elevata privacy.
 
-![20230420-091701-0000](https://user-images.githubusercontent.com/81990132/233535945-09a8ce02-d4d4-4c73-99fa-14b438963a45.png)
+---
 
+![20230421_071247_0000.png](https://user-images.githubusercontent.com/38798812/233555082-455fbcbd-c685-4c1d-91f2-2d911e6a6273.png)
+Il trasferimento di ZEC da un indirizzo trasparente (indirizzo T) a un indirizzo Z è noto come schermatura. In questo tipo di transazione il livello di privacy non è sempre molto elevato rispetto a quello di una transazione z-z, ma è ugualmente consigliato quando la privacy è necessaria.
+
+---
 
 ![20230420-091346-0000](https://user-images.githubusercontent.com/81990132/233536122-6429d010-1ffa-424a-83d6-6e94eb8252e8.png)
+L'invio di ZEC da un indirizzo trasparente (indirizzo T) a un altro indirizzo trasparente (indirizzo T) sulla rete Zcash (transazione T-T) è molto simile a quello delle transazioni Bitcoin ed è per questo che le transazioni T-T su Zcash sono sempre chiamate transazioni pubbliche perché i dettagli della transazione sia del mittente che del destinatario diventano visibili al pubblico, il che rende il livello di privacy molto basso in queste transazioni. 
+
+La maggior parte degli exchange centralizzati di criptovalute fa uso dei indirizzi trasparenti ("T-address") quando si tratta di transazioni sulla blockchain di Zcash, ma questo tipo di transazione (T-T) non avrà alcun anonimato.

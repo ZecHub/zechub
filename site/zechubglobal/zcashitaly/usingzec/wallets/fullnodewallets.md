@@ -1,7 +1,8 @@
-# Portafogli Full Node
+# Portafogli Full Node (Nodo Completo)
 
-"I nodi completi (Full Node) offrono il miglior modello di privacy. Se stai usando un portafoglio centralizzato, non hai alcuna privacy - il provider del portafoglio conosce tutte le tue transazioni e gli indirizzi. Con un nodo completo, scarichi tutti i dati del blockchain e fai query solo per gli indirizzi / le transazioni a livello locale. Quando hai una copia del registro che hai convalidato personalmente, non devi più fidarti di un terzo per essere onesto sullo stato del registro." - Jameson Lopp
+"I nodi completi (Full Node) offrono il miglior modello di privacy. Se stai usando un portafoglio centralizzato, non hai alcuna privacy - il provider del portafoglio conosce tutte le tue transazioni e gli indirizzi. Con un nodo completo, invece, si scaricano tutti i dati della blockchain e si possono cercare gli indirizzi e le transazioni a livello locale. Quando hai una copia del registro che hai convalidato personalmente, non ci si deve più fidare dell'onestà di una terza parte sullo stato del registro." - Jameson Lopp
 
+Per saperne di più sui diversi tipi di pool Zcash [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="18" height="18">](https://wiki.zechub.xyz/zcash-value-pools)
 
 ---
 
