@@ -12,7 +12,7 @@ Marta Belcher는 Gensler가 Zcash와 커뮤니티 이벤트를 지지한다고 �
 
 이번 주에는 MiCA 및 Marta Belcher의 증언과 같은 규제 이벤트가 포함됩니다.
 
-또한 브라질에서 텔레그램 금지, Unstopable Wallet의 지원, Free2z Noches, Zcash Bonfire 및 ZecHub Quests와 같은 새로운 Zcash 릴리에 대해서도 다룹니다.
+또한 브라질에서 텔레그램 금지, Unstopable Wallet의 지원, Free2z Noches, Zcash Bonfire 및 ZecHub Quests와 같은 새로운 Zcash 릴리즈에 대해서도 다룹니다.
 
 향후 뉴스레터 제작에 참여하고 싶으시면 [site](https://wiki.zechub.xyz/zecweekly-newsletter)로 이동하십시오. 이 과정을 안내해 드리겠습니다. 생태계에 대해 배우고 ZEC를 획득할 수 있는 좋은 방법입니다.
 
@@ -105,7 +105,7 @@ Marta Belcher는 Gensler가 Zcash와 커뮤니티 이벤트를 지지한다고 �
 
 [RuZcash - "일부 도구의 개인 정보 속성이 과장되었습니다."](https://twitter.com/RuZcash/status/1651149123372961793)
 
-[J.W Verret - "암호가 쓸모없다고 생각하는 지식이 없는 학자들을 위해"](https://twitter.com/JWVerret/status/1652287338817413120)
+[J.W Verret - "가상자산이 쓸모없다고 생각하는 지식이  학자들을 위해"](https://twitter.com/JWVerret/status/1652287338817413120)
 
 [Ledger를 이용한 Ywallet 이용방법 - 동영상](https://www.youtube.com/watch?v=_o-1UzQRP-8)
 
