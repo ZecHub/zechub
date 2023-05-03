@@ -1,4 +1,5 @@
 # [ZecHub](https://repo.zechub.org/)
+[![CC BY 4.0][cc-by-shield]][cc-by]
 
 <div align="center">
 
@@ -44,3 +45,14 @@ The tutorials, short articles, and newsletter will be open sourced and hosted on
 <sub>
   DISCLAIMER: ZecHub is an independent, open-source initiative created by members of the Zcash community. The information in this GitHub repository is for informational purposes only and should not be considered financial or investment advice.
 </sub>
+
+---
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License.][cc-by]
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
