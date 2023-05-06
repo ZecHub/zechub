@@ -26,7 +26,7 @@ Mfumo wa Zcash unatawaliwa na mchakato wa Zcash Improvement Proposal. Mchakato w
 
 Mtu yeyote anaweza kuwasilisha rasimu ya ZIP. Rasimu za ZIP hujadiliwa na jamii kwa ujumla, halafu kukubaliwa au kukataliwa na wahariri wa ZIP.
 
-Kwa sasa kuna wahariri wawili wa ZIP — [Daira Hopwood](https://twitter.com/feministPLT) anawakilisha Electric Coin Company & [Deirdre Connolly](https://twitter.com/durumcrustulum) anawakilisha Msingi wa Zcash.
+Kwa sasa kuna wahariri wawili wa ZIP — [Daira Hopwood](https://twitter.com/feministPLT) anawakilisha Electric Coin Company & [Deirdre Connolly](https://twitter.com/durumcrustulum) anawakilisha Msingi wa Zcash
 
 Maamuzi kutoka kwenye mchakato wa ZIP huandikwa kwenye maelezo ya Zcash, vilevile kwenye programu inayotumika katika mtandao. Mabadiliko hayo yanaidhinishwa kwenye mtandao pale watumiaji wengi wanapoyakubali na hayavurugi muafaka (consensus).
 
