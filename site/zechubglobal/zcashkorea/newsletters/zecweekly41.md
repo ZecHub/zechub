@@ -74,6 +74,7 @@
 [짐바브웨, 금 기반 디지털 토큰 판매 가격 책정](https://cointelegraph.com/news/zimbabwe-sets-price-to-sell-gold-backed-digital-tokens)
 
 [BTC내기로 100만 달러를 태우는 Balaji](https://decrypt.co/138632/balaji-srinivasan-burns-1-million-bitcoin)
+
 [베를린, '가장 중요한 Crypto Hub' 공동 2위](https://decrypt.co/138706/new-york-berlin-tied-second-place-globe-most-important-crypto-hub-survey)
 
 [Bidden, 암호화폐 채굴세 30% 요구](https://www.investopedia.com/biden-wants-30-percent-crypto-mining-tax-but-can-it-work-7488297)
