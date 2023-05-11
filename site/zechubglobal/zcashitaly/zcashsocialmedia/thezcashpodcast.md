@@ -15,7 +15,9 @@ Inoltre, il formato live crea un senso di connessione con il pubblico, che è in
 [Playlist attuale](https://youtube.com/playlist?list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w)
 
 
-  * Zcash Podcast 1 con Nathan Wilcox: L'evoluzione di Zcash dal passato al presente [ [YouTube](https://youtu.be/tCrFmK-5Enc) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-2:a) ]
-  * Zcash Podcast 2 con Aditya Bharadwaj: App per utenti finali e adozione di Zcash [ [YouTube](https://youtu.be/sK13gwtTaCQ)| [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-1:8) ]
-  * Zcash Podcast 3 con Ian Sagstetter: ZecHub e le iniziative della crescente comunità di Zcash [ [YouTube](https://www.youtube.com/watch?v=0tIK6vBM3-s)| [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-3:a) ]
+  * Zcash Podcast 1 con Nathan Wilcox: L'evoluzione di Zcash dal passato al presente | [YouTube](https://youtu.be/tCrFmK-5Enc) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-2:a) |
+  * Zcash Podcast 2 con Aditya Bharadwaj: App per utenti finali e adozione di Zcash | [YouTube](https://youtu.be/sK13gwtTaCQ)| [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-1:8) |
+  * Zcash Podcast 3 con Ian Sagstetter: ZecHub e le iniziative della crescente comunità di Zcash | [YouTube](https://www.youtube.com/watch?v=0tIK6vBM3-s)| [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-3:a) |
+  * Zcash Podcast 4 con Seth per la privacy: Una prospettiva esterna su Zcash e la privacy | [YouTube](https://www.youtube.com/watch?v=C8ItmDFjczQ&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=4) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-4:3) |
 
+  * Zcash Podcast 5 con Naomi Brockwell: Come vivere uno stile di vita moderno attento alla privacy | [YouTube](https://www.youtube.com/watch?v=GpZAY5O2nJQ&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=6) | [Odysee](https://odysee.com/@DigitalCashNetwork:c?view=content) |

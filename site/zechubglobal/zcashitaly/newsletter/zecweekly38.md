@@ -112,4 +112,4 @@ Puoi approfondire CoinJoin tramite il seguente link tutorial creato da ZecHub Ze
 
 #### Social Italiani
 
-[Gruppo Telegram](https://t.me/zcashita) | [Gruppo Discord](https://discord.com/channels/978714252934258779/1091806217359347802) | [Twitter](https://twitter.com/InsideZcash)
+[Gruppo Telegram](https://t.me/zcashita) | [Gruppo Discord](https://discord.com/channels/978714252934258779/1091806217359347802) | [Twitter](https://twitter.com/InsideZcash) | [Facebook](https://www.facebook.com/groups/zecitalia)
