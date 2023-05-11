@@ -1,10 +1,10 @@
-# Zcash Media
 
-"Il nostro ruolo in questo sforzo collettivo è quello di educare, ispirare ed entusiasmare gli attuali e futuri Zcashers, costruendo una base di sostenitori in grado di rivaleggiare con i progetti più grandi e non solo".
+Qui troverai gli aggiornamenti sul progetto [Zcash Ecosystem Security grant](https://forum.zcashcommunity.com/t/zcash-ecosystem-security-lead/42090)!
+
+## Rimanere aggiornati!
+
+Questa pagina serve come panoramica dell'ecosistema Zcash dal punto di vista di un revisore della sicurezza. Elenca tutti i progetti che rientrano nel campo di applicazione del progetto ZecSec, nonché rapporti di audit passati, bug di sicurezza notevoli e sfide aperte di sicurezza / privacy nell'ecosistema Zcash. Puoi pensare a questa pagina come "la guida del revisore della sicurezza per Zcash."
 
 
-## Background
 
-Prodotto da [37 LAINES](https://www.37laines.com/) per il bene pubblico, i video educativi di Zcash Media riguardano Zcash e le criptovalute. È finanziato dal programma [Zcash Community Grants](https://wiki.zechub.xyz/zcash-community-grants) ed è diventato un attore importante nell'ecosistema Zcash.
-
-## Videos
+https://zecsec.com/overview/
