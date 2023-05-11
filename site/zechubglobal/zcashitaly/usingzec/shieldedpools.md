@@ -1,6 +1,6 @@
 # Zcash Pool di valori
 
-Esamineremo i 4 [pool di valore] (https://zcash.readthedocs.io/en/latest/rtd_pages/addresses.html) di Zcash, che comprendono i pool Sprout, Sapling, Orchard e Transparent. Questa pagina wiki tratterà anche i miglioramenti tecnologici e alcune buone pratiche per i trasferimenti tra i pool.
+Esamineremo i 4 [pool di valore](https://zcash.readthedocs.io/en/latest/rtd_pages/addresses.html) di Zcash, che comprendono i pool Sprout, Sapling, Orchard e Transparent. Questa pagina wiki tratterà anche i miglioramenti tecnologici e alcune buone pratiche per i trasferimenti tra i pool.
 
 
 ## I Shielded Pools (Pool schermati)
