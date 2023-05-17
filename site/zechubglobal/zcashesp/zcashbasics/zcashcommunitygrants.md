@@ -8,7 +8,7 @@ El programa **Zcash Community Grants** o **Subvenciones de la Comunidad Zcash** 
 
 Las Subvenciones de la Comunidad Zcash están gestionadas por un comité, que actualmente está formado por cinco personas. Esta comunidad revisa y aprueba las solicitudes de subvención de equipos de terceros que quieren construir sobre el protocolo Zcash. Más información sobre el [Equipo](https://zcashcommunitygrants.org/committee/)
 
-Los proyectos recientes que han sido aprobados por el ZCG son:
+Los proyectos recientes que han sido aprobados por la ZCG son:
 
 - Zcash Shielded Assets (ZSA) liderado por el equipo QEDIT. 
 
