@@ -1,3 +1,5 @@
+# Recursos de Zcash
+
 Hay una serie de recursos que ayudan a los usuarios a entender Zcash.
 
 **[Zcash Media](https://www.youtube.com/c/ZcashMedia)**
