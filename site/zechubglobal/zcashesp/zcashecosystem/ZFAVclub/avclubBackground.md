@@ -12,7 +12,7 @@ El objetivo a largo plazo del ZF A/V Club es establecer una red de productores d
 
 ### **Potenciar y Amplificar**
 
-**Somos una comunidad global de voces y experiencias. A través de la comunidad potenciaremos y amplificaremos a cada individuo para que cuente la historia de Zcash desde su propia perspectiva, en sus propios términos. Fomentaremos recursos y conexiones que motiven y apoyen a los creadores de contenidos para que puedan aportar su voz única a la conversación global sobre la privacidad.
+Somos una comunidad global de voces y experiencias. A través de la comunidad potenciaremos y amplificaremos a cada individuo para que cuente la historia de Zcash desde su propia perspectiva, en sus propios términos. Fomentaremos recursos y conexiones que motiven y apoyen a los creadores de contenidos para que puedan aportar su voz única a la conversación global sobre la privacidad.
 
 Imaginamos una red de conexiones hablando y creando en diferentes idiomas, todos alimentándose de, y contribuyendo a, la información y el contenido compartido por el ZF A/V Club. Nos levantaremos unos a otros y juntos construiremos el impulso necesario para llevar a Zcash y la privacidad al mundo. ¡Únete a nosotros!
 
