@@ -53,8 +53,11 @@
 
 ## Telegram <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/telegram.svg" width="20" height="20"> 
 
-1. [Zcash Community](https://t.me/Zcash_Community)
-2. [Zcash Italia](https://t.me/zcashita)
+1. [Zcash Community](https://t.me/Zcash_Community) - English Global
+2. [Zcash Italia](https://t.me/zcashita) - Italian
+3. [Zcash Brazil](https://t.me/brzcash) - Portuguese
+4. [Zcash en Español Chat](https://t.me/zcashespchat) - Spanish
+5. [Zcash Ru [Чат]](https://t.me/zcash1000) - Russian
 
 ## Mastodon <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/mastodon.svg" width="20" height="20"> 
 
