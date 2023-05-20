@@ -17,4 +17,5 @@ You’ll hear interviews with industry leaders, government officials, and academ
 * [PGP for Crypto Podcast #6 - Brett Quick](https://www.youtube.com/watch?v=im0sXlnaGmU)
 * [PGP for Crypto Podcast #7 - Miller Whitehouse-Levine](https://www.youtube.com/watch?v=-utatp0lK6s)
 * [PGP for Crypto Podcast #8 - Peter Van Valkenburgh](https://www.youtube.com/watch?v=mMoAph6CBWA)
+* [PGP for Crypto Podcast #9 - Seth Hertlein and Ian Rogers](https://www.youtube.com/watch?v=1tgNKdiKUHQ)
 
