@@ -184,4 +184,3 @@ Aprendizaje continuo:
 
 [Scalability is Boring, Privacy is Dead: ZK-Proofs, What are They Good for?](https://www.youtube.com/watch?v=AX7eAzfSB6w)
 
-![image](https://github.com/ZecHub/zechub/assets/27905787/f263db93-a39c-4f8b-873c-88a0cf79f629)
