@@ -35,7 +35,7 @@ A composição de Recursive Proofs permite que uma única prova ateste a correç
 
 Antes do Halo, obter composição de prova recursiva exigia grandes despesas computacionais e uma configuração confiável. Uma das principais descobertas foi uma técnica chamada “nested amortization”. Essa técnica permite a composição recursiva usando o esquema de compromisso polinomial baseado no argumento do produto interno, melhorando massivamente o desempenho e evitando a Trusted setup.
 
-No [documento Halo](https://eprint.iacr.org/2019/1021.pdf), descrevemos completamente esse esquema de compromisso polinomial e descobrimos que existia uma nova técnica de agregação nele. A técnica permite que um grande número de provas criadas independentemente sejam verificadas quase tão rapidamente quanto a verificação de uma única prova. Isso por si só ofereceria uma alternativa melhor aos zk-SNARKs anteriores usados ​​no Zcash.
+No [documento Halo](https://eprint.iacr.org/2019/1021.pdf), descrevemos completamente esse esquema de compromisso polinomial e descobrimos que existia uma nova técnica de agregação nele. A técnica permite que um grande número de provas criadas independentemente sejam verificadas quase tão rapidamente quanto a verificação de uma única prova. Isso por si só ofereceria uma alternativa melhor aos zk-SNARKs anteriores usados ​​na Zcash.
 
 
 ### Halo 2
