@@ -37,7 +37,7 @@ Fique por dentro dos próximos episódios:
 
 + Episódio 1 - Regulação criptográfica e privacidade financeira com J.W. Verret [Youtube](https://www.youtube.com/watch?v=20oCI7XAR08) | [Odysee](https://odysee.com/@ZecHub:4/z2zpodcast1:4) | [Spotify](https://open.spotify.com/episode/4bgn6g1vcVXOqTZ71IN6HE)
 
-Se você tiver alguma recomendação de quem gostaria de ver a seguir no podcast, sinta-se à vontade para entrar em contato conosco! DM para @zechub no Twitter
+Se você tiver alguma recomendação de quem gostaria de ver a seguir no podcast, sinta-se à vontade para entrar em contato conosco! Envie uma mensagem direta para @zechub no Twitter
 
 
 
