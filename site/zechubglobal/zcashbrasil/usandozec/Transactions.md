@@ -6,7 +6,7 @@ ZEC é usado principalmente para pagamentos. Pense em retribuir a um amigo, comp
 
 As transações protegidas ocorrem quando você move a ZEC para sua carteira protegida. O endereço da sua carteira blindada começa com "U" ou "Z". Ao enviar transações protegidas, você garante que você e as pessoas com quem está negociando mantêm um nível de privacidade que não é possível em outras redes de pagamento P2P.
 
-Enviar uma transação blindada é muito fácil, você só precisa se certificar de duas coisas. A primeira é que você está usando o tipo certo de carteira. A maneira mais fácil de garantir que você está usando o tipo certo de carteira é baixando uma carteira destacada no site oficial: https://z.cash/wallets. A segunda coisa importante é mover o ZEC para uma carteira blindada.
+Enviar uma transação blindada é muito fácil, você só precisa se certificar de duas coisas. A primeira é que você está usando o tipo certo de carteira. A maneira mais fácil de garantir que você está usando o tipo certo de carteira é baixando uma carteira destacada no site oficial: https://z.cash/wallets. A segunda coisa importante é mover a ZEC para uma carteira blindada.
 
 Ao retirar a ZEC de uma Exchange, você precisa saber se a Exchange oferece suporte a saques blindados ou transparentes. Se eles oferecerem suporte a saques blindados, você pode simplesmente retirar a ZEC para seu endereço blindado. Se a Exchange oferecer suporte apenas a saques transparentes, você precisará usar **[YWallet](https://ywallet.app)** e proteger automaticamente suas ZEC assim que o receber.
 
