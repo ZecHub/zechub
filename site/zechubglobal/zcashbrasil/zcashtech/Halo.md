@@ -3,23 +3,23 @@
 
 ## O que é Halo?
 
-Halo é uma prova de conhecimento zero recursiva e sem confiança (ZKP) descoberta por Sean Bowe na Electric Coin Co. Ele elimina a configuração confiável e permite maior escalabilidade do blockchain Zcash. Halo foi o primeiro sistema de prova de conhecimento zero que é eficiente e recursivo amplamente considerado como um avanço científico.
+Halo é uma zero-knowledge proof (ZKP) descoberta por Sean Bowe na Electric Coin Co. Ele elimina a configuração confiável e permite maior escalabilidade da blockchain Zcash. Halo foi o primeiro sistema zero-knowledge proof que é eficiente e recursivo amplamente considerado como um avanço científico.
 
 ![halo](https://electriccoin.co/wp-content/uploads/2021/01/Halo-on-Z-1440x720.png "halo")
 
 
 **Componentes**
 
-Sucinct Polynomial Commitment Scheme: permite que um committer se comprometa com um polinômio com uma string curta que pode ser usada por um verificador para confirmar as avaliações reivindicadas do polinômio confirmado.
+Succinct Polynomial Commitment Scheme: permite que um colaborador se comprometa com um polinômio com uma string curta que pode ser usada por um verificador para confirmar as avaliações reivindicadas do polinômio confirmado.
 
 Polynomial Interactive Oracle Proof: O verificador pede ao provador (algoritmo) para abrir todos os compromissos em vários pontos de sua escolha usando o esquema de compromisso polinomial e verifica se a identidade é verdadeira entre eles.
 
 
-### Nenhuma configuração confiável
+### No Trusted Setup
 
-zkSNARKs dependem de uma string de referência comum (CRS) como um parâmetro público para provar e verificar. Este CRS deve ser gerado antecipadamente por uma parte confiável. Até recentemente, era necessário elaborar cálculos multipartidários seguros (MPC) como aqueles executados pela rede Aztec e Zcash para mitigar o risco envolvido durante esta [cerimônia de configuração confiável](https://zkproof.org/2021/06/30/setup-cerimônias/amp/).
+zkSNARKs dependem de uma string de referência comum (CRS) como um parâmetro público para provar e verificar. Este CRS deve ser gerado antecipadamente por uma parte confiável. Até recentemente, era necessário elaborar cálculos multipartidários seguros (MPC) como aqueles executados pela rede Aztec e Zcash para mitigar o risco envolvido durante a [Configuração trusted ceremony](https://zkproof.org/2021/06/30/setup-cerimônias/amp/).
 
-Anteriormente, as piscinas blindadas Sprout & Sapling da Zcash utilizavam os sistemas BCTV14 & Groth 16 zk-proving. Embora estes fossem seguros, havia limitações. Eles não eram escaláveis, pois estavam vinculados a um único aplicativo, o "resíduo tóxico" (restos de material criptográfico gerado durante a cerimônia de gênese) poderia persistir e havia um elemento de confiança (embora mínimo) para os usuários considerarem a cerimônia aceitável .
+Anteriormente, as pools blindadas Sprout & Sapling da Zcash utilizavam os sistemas BCTV14 & Groth 16 zk-proving. Embora estes fossem seguros, havia limitações. Eles não eram escaláveis, pois estavam vinculados a um único aplicativo, o "resíduo tóxico" (restos de material criptográfico gerado durante a cerimônia de gênese) poderia persistir e havia um elemento de confiança (embora mínimo) para os usuários considerarem a cerimônia aceitável .
 
 Ao agrupar repetidamente várias instâncias de problemas difíceis em ciclos de curvas elípticas, de modo que as provas computacionais possam ser usadas para raciocinar sobre si mesmas com eficiência (amortização aninhada), a necessidade de uma configuração confiável é eliminada. Isso também significa que a string de referência estruturada (saída da cerimônia) pode ser atualizada, permitindo aplicativos como contratos inteligentes.
 
@@ -29,11 +29,11 @@ O Halo fornece aos usuários duas garantias importantes em relação à seguran�
  
 
 
-### Provas Recursivas
+### Recursive Proofs
 
-A composição de prova recursiva permite que uma única prova ateste a correção de outras provas praticamente ilimitadas, permitindo que uma grande quantidade de computação (e informação) seja comprimida. Este é um componente essencial para a escalabilidade, até porque nos permite dimensionar horizontalmente a rede enquanto ainda permite que bolsões de participantes confiem na integridade do restante da rede.
+A composição de Recursive Proofs permite que uma única prova ateste a correção de outras provas praticamente ilimitadas, permitindo que uma grande quantidade de computação (e informação) seja comprimida. Este é um componente essencial para a escalabilidade, até porque nos permite dimensionar horizontalmente a rede enquanto ainda permite que bolsões de participantes confiem na integridade do restante da rede.
 
-Antes do Halo, obter composição de prova recursiva exigia grandes despesas computacionais e uma configuração confiável. Uma das principais descobertas foi uma técnica chamada “nested amortization”. Essa técnica permite a composição recursiva usando o esquema de compromisso polinomial baseado no argumento do produto interno, melhorando massivamente o desempenho e evitando a configuração confiável.
+Antes do Halo, obter composição de prova recursiva exigia grandes despesas computacionais e uma configuração confiável. Uma das principais descobertas foi uma técnica chamada “nested amortization”. Essa técnica permite a composição recursiva usando o esquema de compromisso polinomial baseado no argumento do produto interno, melhorando massivamente o desempenho e evitando a Trusted setup.
 
 No [documento Halo](https://eprint.iacr.org/2019/1021.pdf), descrevemos completamente esse esquema de compromisso polinomial e descobrimos que existia uma nova técnica de agregação nele. A técnica permite que um grande número de provas criadas independentemente sejam verificadas quase tão rapidamente quanto a verificação de uma única prova. Isso por si só ofereceria uma alternativa melhor aos zk-SNARKs anteriores usados ​​no Zcash.
 
@@ -55,9 +55,9 @@ O mais eficiente desses novos protocolos é o PLONK, que concede enorme flexibil
 [Visão geral do PLONK](https://www.youtube.com/watch?v=P1JeN30RdwQ)
 
 
-### Como isso beneficia o Zcash?
+### Como isso beneficia a Zcash?
 
-O pool Orchard Shielded ativado com NU5 & é a implementação deste novo sistema de prova na Rede Zcash. Protegido pelo mesmo design de catraca usado entre Sprout e Sapling com a intenção de retirar gradualmente as piscinas blindadas mais antigas. Isso incentiva a migração para um sistema de prova totalmente confiável, reforçando a confiança na solidez da base monetária e reduzindo a complexidade da implementação e a superfície de ataque do Zcash em geral. Após a ativação do NU5 em meados de 2022, a integração de provas recursivas tornou-se possível (embora isso não esteja completo). Vários aprimoramentos de privacidade também foram feitos tangencialmente. A introdução de 'Ações' para substituir entradas/saídas ajudou a reduzir a quantidade de metadados da transação.
+A Pool Orchard Blindada ativado com NU5 & é a implementação deste novo sistema de prova na Rede Zcash. Protegido pelo mesmo design de catraca usado entre Sprout e Sapling com a intenção de retirar gradualmente as Pools blindadas mais antigas. Isso incentiva a migração para um sistema de prova totalmente confiável, reforçando a confiança na solidez da base monetária e reduzindo a complexidade da implementação e a superfície de ataque da Zcash em geral. Após a ativação do NU5 em meados de 2022, a integração de provas recursivas tornou-se possível (embora isso não esteja completo). Vários aprimoramentos de privacidade também foram feitos tangencialmente. A introdução de 'Ações' para substituir entradas/saídas ajudou a reduzir a quantidade de metadados da transação.
 
 As configurações confiáveis ​​geralmente são difíceis de coordenar e apresentam um risco sistêmico. Seria necessário repeti-los para cada grande atualização de protocolo. Removê-los apresenta uma melhoria substancial para a implementação segura de novas atualizações de protocolo.
 
