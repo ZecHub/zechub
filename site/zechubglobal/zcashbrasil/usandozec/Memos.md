@@ -4,15 +4,15 @@
 
 Ao enviar uma transação Z2Z (shielded-to-shielded), você pode incluir um memorando (mensagem) na transação. Este memorando pode ser usado para várias coisas diferentes.
 
-#### Transações de Assinatura
+#### Assinatura de Transações
 
-Os memorandos são usados ​​principalmente para pagamentos de canto. Como as transações protegidas criptografam seus dados, você não consegue ver quem lhe enviou o ZEC e para que serve o ZEC.
+Memorandos são principalmente usados para registrar pagamentos. Como as transações protegidas criptografam seus dados, você não consegue ver quem lhe enviou a ZEC e para que serve a ZEC.
 
 Os usuários podem usar o campo de memorando para assinar seu nome ou pseudônimo para que sua contraparte saiba de quem foi a transação. Eles também podem descrever para que serve a transação.
 
 #### Enviando uma mensagem
 
-Outro caso de uso para o memorando criptografado é enviar uma mensagem para alguém com um z-addr. Essas mensagens podem ser sobre qualquer coisa, seja um [lembrete para um amigo](https://twitter.com/iansagstette/status/1542142468505870336) ou uma [mensagem delicada que precisa permanecer o mais privada possível](https://twitter.com/InsideZcash/status/1545800146352578560).
+Outro caso de uso para o memorando criptografado é enviar uma mensagem para alguém com um endereço Blindado. Essas mensagens podem ser sobre qualquer coisa, seja um [lembrete para um amigo](https://twitter.com/iansagstette/status/1542142468505870336) ou uma [mensagem delicada que precisa permanecer o mais privada possível](https://twitter.com/InsideZcash/status/1545800146352578560).
 
 #### Notas de Amor na Blockchain
 
