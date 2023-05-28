@@ -3,7 +3,7 @@
 
 ## O que é Halo?
 
-Halo é uma zero-knowledge proof (ZKP) descoberta por Sean Bowe na Electric Coin Co. Ele elimina a configuração confiável e permite maior escalabilidade da blockchain Zcash. Halo foi o primeiro sistema zero-knowledge proof que é eficiente e recursivo amplamente considerado como um avanço científico.
+Halo é uma zero-knowledge proof (ZKP) descoberta por Sean Bowe na Electric Coin Co. Ele elimina a Trusted Setup e permite maior escalabilidade da blockchain Zcash. Halo foi o primeiro sistema zero-knowledge proof que é eficiente e recursivo amplamente considerado como um avanço científico.
 
 ![halo](https://electriccoin.co/wp-content/uploads/2021/01/Halo-on-Z-1440x720.png "halo")
 
@@ -23,7 +23,7 @@ Anteriormente, as pools blindadas Sprout & Sapling da Zcash utilizavam os sistem
 
 Ao agrupar repetidamente várias instâncias de problemas difíceis em ciclos de curvas elípticas, de modo que as provas computacionais possam ser usadas para raciocinar sobre si mesmas com eficiência (amortização aninhada), a necessidade de uma configuração confiável é eliminada. Isso também significa que a string de referência estruturada (saída da cerimônia) pode ser atualizada, permitindo aplicativos como contratos inteligentes.
 
-O Halo fornece aos usuários duas garantias importantes em relação à segurança do sistema de prova de conhecimento zero em larga escala. Em primeiro lugar, permite que os usuários provem que ninguém que esteve envolvido na cerimônia de gênese criou um backdoor secreto para executar transações fraudulentas. Em segundo lugar, permite que os usuários demonstrem que o sistema permaneceu seguro ao longo do tempo, mesmo com atualizações e alterações.
+O Halo fornece aos usuários duas garantias importantes em relação à segurança do sistema zero-knowledge proof em larga escala. Em primeiro lugar, permite que os usuários provem que ninguém que esteve envolvido na cerimônia de gênese criou um backdoor secreto para executar transações fraudulentas. Em segundo lugar, permite que os usuários demonstrem que o sistema permaneceu seguro ao longo do tempo, mesmo com atualizações e alterações.
 
 [Explicador de Sean Bowes no Dystopia Labs](https://www.youtube.com/watch?v=KdkVTEHUxgo)
  
