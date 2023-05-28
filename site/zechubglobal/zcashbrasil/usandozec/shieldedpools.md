@@ -1,6 +1,6 @@
 # Zcash Pools
 
-Estaremos olhando para os quatro pools de valor na Zcash, que incluem os pools Sprout, Sapling, Orchard e Transparent. Esta página wiki também cobrirá as melhorias na tecnologia e algumas práticas recomendadas de transferência de pool.
+Olharemos para os quatro pools de valor na Zcash, que incluem os pools Sprout, Sapling, Orchard e Transparent. Esta página wiki também cobrirá as melhorias na tecnologia e algumas práticas recomendadas de transferência de pool.
 
 
 ## pools blindadas
