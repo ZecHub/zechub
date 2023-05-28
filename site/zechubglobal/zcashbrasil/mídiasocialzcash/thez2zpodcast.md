@@ -1,8 +1,8 @@
-# O Podcast Z2Z
+# Z2Z Podcast 
 
 O Z2Z Podcast hospeda longas conversas entre Ian Sagstetter (da Electric Coin Company) e outros membros da comunidade Zcash.
 
-O podcast cobre uma variedade de assuntos diferentes, mas foca principalmente no Zcash e na experiência de seus usuários.
+O podcast cobre uma variedade de assuntos diferentes, mas foca principalmente na Zcash e na experiência de seus usuários.
 
 Fique por dentro dos próximos episódios:
 
