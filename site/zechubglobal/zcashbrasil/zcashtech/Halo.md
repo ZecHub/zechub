@@ -17,11 +17,11 @@ Polynomial Interactive Oracle Proof: O verificador pede ao provador (algoritmo) 
 
 ### No Trusted Setup
 
-zkSNARKs dependem de uma string de referência comum (CRS) como um parâmetro público para provar e verificar. Este CRS deve ser gerado antecipadamente por uma parte confiável. Até recentemente, era necessário elaborar cálculos multipartidários seguros (MPC) como aqueles executados pela rede Aztec e Zcash para mitigar o risco envolvido durante a [Configuração trusted ceremony](https://zkproof.org/2021/06/30/setup-cerimônias/amp/).
+zkSNARKs dependem de uma string de referência comum (CRS) como um parâmetro público para provar e verificar. Este CRS deve ser gerado antecipadamente por uma parte confiável. Até recentemente, era necessário elaborar cálculos multipartidários seguros (MPC) como aqueles executados pela rede Aztec e Zcash para mitigar o risco envolvido durante a [Trusted Setup ceremony](https://zkproof.org/2021/06/30/setup-cerimônias/amp/).
 
 Anteriormente, as pools blindadas Sprout & Sapling da Zcash utilizavam os sistemas BCTV14 & Groth 16 zk-proving. Embora estes fossem seguros, havia limitações. Eles não eram escaláveis, pois estavam vinculados a um único aplicativo, o "resíduo tóxico" (restos de material criptográfico gerado durante a cerimônia de gênese) poderia persistir e havia um elemento de confiança (embora mínimo) para os usuários considerarem a cerimônia aceitável .
 
-Ao agrupar repetidamente várias instâncias de problemas difíceis em ciclos de curvas elípticas, de modo que as provas computacionais possam ser usadas para raciocinar sobre si mesmas com eficiência (amortização aninhada), a necessidade de uma configuração confiável é eliminada. Isso também significa que a string de referência estruturada (saída da cerimônia) pode ser atualizada, permitindo aplicativos como contratos inteligentes.
+Ao agrupar repetidamente várias instâncias de problemas difíceis em ciclos de curvas elípticas, de modo que as provas computacionais possam ser usadas para raciocinar sobre si mesmas com eficiência (amortização aninhada), a necessidade de um Trusted Setup é eliminada. Isso também significa que a string de referência estruturada (saída da cerimônia) pode ser atualizada, permitindo aplicativos como contratos inteligentes.
 
 O Halo fornece aos usuários duas garantias importantes em relação à segurança do sistema zero-knowledge proof em larga escala. Em primeiro lugar, permite que os usuários provem que ninguém que esteve envolvido na cerimônia de gênese criou um backdoor secreto para executar transações fraudulentas. Em segundo lugar, permite que os usuários demonstrem que o sistema permaneceu seguro ao longo do tempo, mesmo com atualizações e alterações.
 
@@ -33,14 +33,14 @@ O Halo fornece aos usuários duas garantias importantes em relação à seguran�
 
 A composição de Recursive Proofs permite que uma única prova ateste a correção de outras provas praticamente ilimitadas, permitindo que uma grande quantidade de computação (e informação) seja comprimida. Este é um componente essencial para a escalabilidade, até porque nos permite dimensionar horizontalmente a rede enquanto ainda permite que bolsões de participantes confiem na integridade do restante da rede.
 
-Antes do Halo, obter composição de Recursive Proofs exigia grandes despesas computacionais e uma configuração confiável. Uma das principais descobertas foi uma técnica chamada “nested amortization”. Essa técnica permite a composição recursiva usando o esquema de compromisso polinomial baseado no argumento do produto interno, melhorando massivamente o desempenho e evitando a Trusted setup.
+Antes do Halo, obter composição de Recursive Proofs exigia grandes despesas computacionais e uma Trusted Setup. Uma das principais descobertas foi uma técnica chamada “nested amortization”. Essa técnica permite a composição recursiva usando o esquema de compromisso polinomial baseado no argumento do produto interno, melhorando massivamente o desempenho e evitando a Trusted setup.
 
 No [documento Halo](https://eprint.iacr.org/2019/1021.pdf), descrevemos completamente esse esquema de compromisso polinomial e descobrimos que existia uma nova técnica de agregação nele. A técnica permite que um grande número de provas criadas independentemente sejam verificadas quase tão rapidamente quanto a verificação de uma única prova. Isso por si só ofereceria uma alternativa melhor aos zk-SNARKs anteriores usados ​​na Zcash.
 
 
 ### Halo 2
 
-Halo 2 é uma implementação zk-SNARK de alto desempenho escrita em Rust que elimina a necessidade de uma configuração confiável enquanto prepara o cenário para escalabilidade em Zcash.
+Halo 2 é uma implementação zk-SNARK de alto desempenho escrita em Rust que elimina a necessidade de um Trusted Setup enquanto prepara o cenário para escalabilidade em Zcash.
 
 ![halo2image](https://electriccoin.co/wp-content/uploads/2020/09/Halo-puzzle-03-1024x517.jpg "halo2")
 
@@ -57,11 +57,11 @@ O mais eficiente desses novos protocolos é o PLONK, que concede enorme flexibil
 
 ### Como isso beneficia a Zcash?
 
-A Pool Orchard Blindada ativado com NU5 & é a implementação deste novo sistema de prova na Rede Zcash. Protegido pelo mesmo design de catraca usado entre Sprout e Sapling com a intenção de retirar gradualmente as Pools blindadas mais antigas. Isso incentiva a migração para um sistema de prova totalmente confiável, reforçando a confiança na solidez da base monetária e reduzindo a complexidade da implementação e a superfície de ataque da Zcash em geral. Após a ativação do NU5 em meados de 2022, a integração de provas recursivas tornou-se possível (embora isso não esteja completo). Vários aprimoramentos de privacidade também foram feitos tangencialmente. A introdução de 'Ações' para substituir entradas/saídas ajudou a reduzir a quantidade de metadados da transação.
+A Pool Orchard Blindada ativado com NU5 & é a implementação deste novo sistema de prova na Rede Zcash. Protegido pelo mesmo design de catraca usado entre Sprout e Sapling com a intenção de retirar gradualmente as Pools blindadas mais antigas. Isso incentiva a migração para um sistema de prova totalmente confiável, reforçando a confiança na solidez da base monetária e reduzindo a complexidade da implementação e a superfície de ataque da Zcash em geral. Após a ativação do NU5 em meados de 2022, a integração de Recursive Proofs tornou-se possível (embora isso não esteja completo). Vários aprimoramentos de privacidade também foram feitos tangencialmente. A introdução de 'Ações' para substituir entradas/saídas ajudou a reduzir a quantidade de metadados da transação.
 
-As configurações confiáveis ​​geralmente são difíceis de coordenar e apresentam um risco sistêmico. Seria necessário repeti-los para cada grande atualização de protocolo. Removê-los apresenta uma melhoria substancial para a implementação segura de novas atualizações de protocolo.
+Os Trusted Setup ​​geralmente são difíceis de coordenar e apresentam um risco sistêmico. Seria necessário repeti-los para cada grande atualização de protocolo. Removê-los apresenta uma melhoria substancial para a implementação segura de novas atualizações de protocolo.
 
-A composição de prova recursiva tem o potencial de comprimir quantidades ilimitadas de computação, criando sistemas distribuídos auditáveis, tornando o Zcash altamente capaz, especialmente com a mudança para Proof of Stake. Isso também é útil para extensões como Zcash Shielded Assets e para melhorar a capacidade da Camada 1 na extremidade superior do uso de nó completo nos próximos anos para Zcash.
+A composição Recursive Proofs tem o potencial de comprimir quantidades ilimitadas de computação, criando sistemas distribuídos auditáveis, tornando o Zcash altamente capaz, especialmente com a mudança para Proof of Stake. Isso também é útil para extensões como Zcash Shielded Assets e para melhorar a capacidade da Camada 1 na extremidade superior do uso de nó completo nos próximos anos para Zcash.
 
 
 ## Halo no ecossistema mais amplo
@@ -76,7 +76,7 @@ Desde a sua implantação, a biblioteca halo2 foi adotada em projetos como o zkE
 
 [Filecoin Foundation video with Zooko](https://www.youtube.com/watch?v=t4XOdagc9xw)
 
-Além disso, seria altamente benéfico para os ecossistemas Filecoin e Zcash se os pagamentos de armazenamento Filecoin pudessem ser feitos no ZEC, proporcionando o mesmo nível de privacidade para compras de armazenamento que existe nas transferências blindadas Zcash. Esse suporte adicionaria a capacidade de criptografar arquivos no armazenamento Filecoin e adicionar suporte a clientes móveis para que eles pudessem “anexar” mídia ou arquivos a um memorando criptografado Zcash.
+Além disso, seria altamente benéfico para os ecossistemas Filecoin e Zcash se os pagamentos de armazenamento Filecoin pudessem ser feitos na ZEC, proporcionando o mesmo nível de privacidade para compras de armazenamento que existe nas transferências blindadas Zcash. Esse suporte adicionaria a capacidade de criptografar arquivos no armazenamento Filecoin e adicionar suporte a clientes móveis para que eles pudessem “anexar” mídia ou arquivos a um memorando criptografado Zcash.
 
 [Postagem do blog ECC x Filecoin](https://electriccoin.co/blog/ethereum-zcash-filecoin-collab/)
 
