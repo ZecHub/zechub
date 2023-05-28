@@ -16,7 +16,7 @@ Além disso, o formato ao vivo cria uma sensação de conexão com o público, q
 
 
   * Zcash Podcast 1 com Nathan Wilcox: A Evolução da Zcash,do passado ao presente [[YouTube](https://youtu.be/tCrFmK-5Enc) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-2:a)]
-  * Zcash Podcast 2 com Aditya Bharadwaj: Aplicativos do usuário final e adoção da Zcash [[YouTube](https://youtu.be/sK13gwtTaCQ) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-1:8)]
+  * Zcash Podcast 2 com Aditya Bharadwaj: Aplicativos de usuário final e adoção da Zcash [[YouTube](https://youtu.be/sK13gwtTaCQ) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-1:8)]
   * Zcash Podcast 3 com Ian Sagstetter: Iniciativas comunitárias crescentes da ZecHub e Zcash [[YouTube](https://www.youtube.com/watch?v=0tIK6vBM3-s)| [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-3:a)]
 
 
