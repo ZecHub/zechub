@@ -27,7 +27,7 @@ Os endereços do Sprout são identificados por suas duas primeiras letras, que �
 
 Algumas das atualizações incluem desempenho aprimorado para endereços blindados, chaves de visualização aprimoradas para permitir que os usuários visualizem transações de entrada e saída sem expor as chaves privadas do usuário e chaves Zero Knowledge independentes para carteira de hardware durante a assinatura da transação.
 
-O ZSapling usa um novo sistema de prova de conhecimento zero chamado zk-SNARKs (argumentos de conhecimento sucintos e não interativos de conhecimento zero), que permite transações privadas muito mais rápidas e eficientes na blockchain ZCash. a ZCash Sapling também permite que os usuários realizem transações privadas em apenas alguns segundos em comparação com a duração mais longa que levava no Sprout Series.
+O ZSapling usa um novo sistema de Zero Knowledge proof chamado zk-SNARKs (argumentos de conhecimento sucintos e não interativos de conhecimento zero), que permite transações privadas muito mais rápidas e eficientes na blockchain ZCash. a ZCash Sapling também permite que os usuários realizem transações privadas em apenas alguns segundos em comparação com a duração mais longa que levava no Sprout Series.
 
 A ZCash Sapling também faz uso de recursos de blindagem de transação para aumentar a privacidade, tornando difícil para terceiros vincular as transações da ZCash e determinar a quantidade de ZEC sendo transferida pelos usuários. Além disso, o ZSapling melhora a usabilidade reduzindo os requisitos computacionais para gerar transações privadas, tornando-o mais acessível aos usuários.
 
@@ -36,7 +36,7 @@ O endereço da carteira ZSapling sempre começa com "zs" e isso pode ser observa
 ### Orchad
 Orchard é uma nova tecnologia de alta preservação de privacidade que está sendo desenvolvida para a Zcash Cryptocurrency Network. O Orchard Shielded Pool foi lançado em 31 de maio de 2022. O endereço do Orchard às vezes é chamado de Endereço Unificado (UA) e o Orchard Shielded Pool serve como um aprimoramento significativo para as Pools blindados existentes e forma um conjunto de anonimato separado do Sprout e Sapling Shielded Pools, que ajuda a aumentar a privacidade e o anonimato do usuário, permitindo que os usuários enviem e recebam ZEC anonimamente na rede ZCash.
 
-As transações dentro da Orchard aumentarão o tamanho do conjunto de anonimato mais rapidamente do que as transações feitas com o Sapling, devido à natureza de ocultação de aridade das ações da Orchard. A atualização da Orchard ajudará a trazer mais melhorias para a rede Zcash, incluindo transações mais rápidas e eficientes, maior privacidade e anonimato, segurança aprimorada e maior flexibilidade para os desenvolvedores criarem aplicativos descentralizados na ZCash Blockchain.
+As transações dentro da Orchard aumentarão o tamanho do conjunto de anonimato mais rapidamente do que as transações feitas com o Sapling, devido à natureza de ocultação de aridade das ações do Orchard. A atualização do Orchard ajudará a trazer mais melhorias para a rede Zcash, incluindo transações mais rápidas e eficientes, maior privacidade e anonimato, segurança aprimorada e maior flexibilidade para os desenvolvedores criarem aplicativos descentralizados na ZCash Blockchain.
 
 ![IMG-20230419-221707](https://user-images.githubusercontent.com/81990132/233535609-6bf85926-567d-42ff-8b3f-9123afe98f65.jpg)
 
