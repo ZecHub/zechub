@@ -4,7 +4,7 @@
 
 Bem-vindo ao "PGP* (Pretty Good Policy) para Crypto Podcast", uma iniciativa da Electric Coin Co.!
 
-Exploramos a interseção da tecnologia blockchain, políticas públicas e tópicos regulatórios globais. Nosso objetivo é fornecer ao nosso público informações detalhadas e perspectivas de especialistas sobre as principais questões que moldam o futuro do blockchain e da criptomoeda.
+Exploramos a interseção da tecnologia blockchain, políticas públicas e tópicos regulatórios globais. Nosso objetivo é fornecer ao nosso público informações detalhadas e perspectivas de especialistas sobre as principais questões que moldam o futuro da blockchain e da criptomoeda.
 
 Você ouvirá entrevistas com líderes do setor, funcionários do governo e acadêmicos na vanguarda da formação do ambiente de políticas públicas para a tecnologia blockchain. Nossos convidados compartilharão suas perspectivas únicas sobre os desafios e oportunidades enfrentados pelo setor e o impacto das regulamentações atuais e propostas e abordagens políticas sobre o crescimento e desenvolvimento do ecossistema blockchain.
 
