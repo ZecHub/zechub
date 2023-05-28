@@ -33,7 +33,7 @@ O Halo fornece aos usuários duas garantias importantes em relação à seguran�
 
 A composição de Recursive Proofs permite que uma única prova ateste a correção de outras provas praticamente ilimitadas, permitindo que uma grande quantidade de computação (e informação) seja comprimida. Este é um componente essencial para a escalabilidade, até porque nos permite dimensionar horizontalmente a rede enquanto ainda permite que bolsões de participantes confiem na integridade do restante da rede.
 
-Antes do Halo, obter composição de prova recursiva exigia grandes despesas computacionais e uma configuração confiável. Uma das principais descobertas foi uma técnica chamada “nested amortization”. Essa técnica permite a composição recursiva usando o esquema de compromisso polinomial baseado no argumento do produto interno, melhorando massivamente o desempenho e evitando a Trusted setup.
+Antes do Halo, obter composição de Recursive Proofs exigia grandes despesas computacionais e uma configuração confiável. Uma das principais descobertas foi uma técnica chamada “nested amortization”. Essa técnica permite a composição recursiva usando o esquema de compromisso polinomial baseado no argumento do produto interno, melhorando massivamente o desempenho e evitando a Trusted setup.
 
 No [documento Halo](https://eprint.iacr.org/2019/1021.pdf), descrevemos completamente esse esquema de compromisso polinomial e descobrimos que existia uma nova técnica de agregação nele. A técnica permite que um grande número de provas criadas independentemente sejam verificadas quase tão rapidamente quanto a verificação de uma única prova. Isso por si só ofereceria uma alternativa melhor aos zk-SNARKs anteriores usados ​​na Zcash.
 
