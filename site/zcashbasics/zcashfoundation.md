@@ -80,21 +80,21 @@ For more information about Minor Grants, you can consult the [Zcash Forum](https
 
 ## Important videos for ZF
 
-A History of Zcash at Zcon0 (2018) by Nathan Wilcox
+**Zcash Foundation Board of Directors Members: Marta Belcher & J.W. Verret**
 
-https://www.youtube.com/watch?v=sDeDNDh-1ko&feature=youtu.be
+https://www.youtube.com/watch?v=D_M1QqhRk8E&list=PL40dyJ0UYTLI4cD6vfIZ8wt_8mUwPpXkH
 
-Motivations of Proof of Stake: Zooko Wilcox at Zcon3
+**Arti: ZF + ZCG Call w/ the Tor Project**
 
-https://www.youtube.com/watch?v=IB9Vh1kEeWs&feature=youtu.be
+https://www.youtube.com/watch?v=E7g9dKBOYEI&list=PL40dyJ0UYTLLA3t2bIBqorYsbtnX-kEyq&index=1
 
-Explaining the Security of Zcash - Daira Hopwood at Zcon3
+**Zcash Community Grants Candidates for December 2022 ZCG Elections**
 
-https://www.youtube.com/watch?v=f6UToqiIdeY
+https://www.youtube.com/watch?v=ZsB4KkPltTw&list=PL40dyJ0UYTLLcfeghHf_2u-2qc26k9GEA&index=4
 
-State of Electric Coin Company - Zooko Wilcox
+**AMA with ZF Executive Director Jack Gavigan**
 
-https://www.youtube.com/watch?v=LrcA4vh_uxM&feature=youtu.be
+https://www.youtube.com/watch?v=S3uGdNEMymI
 
 
 ## Resources
