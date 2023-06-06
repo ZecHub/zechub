@@ -1,6 +1,6 @@
 # Buying Zcash
 
-In order to use Zcash in private (shielded) transactions, you need to have ZEC. To acquire ZEC, you'll need to buy it. You can buy ZEC from a number of different exchanges, which we will list below. It is recommended that you use an exchange that supports shielded withdrawals.
+In order to use Zcash in private (shielded) transactions, you need to have ZEC. To get ZEC, you'll need to buy it. You can buy ZEC from a number of different exchanges, which we will list below. It is recommended that you use an exchange that supports shielded withdrawals.
 
 ## Exchanges that support shielded withdrawals
 
