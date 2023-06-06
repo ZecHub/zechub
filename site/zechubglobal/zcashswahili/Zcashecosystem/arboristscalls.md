@@ -1,4 +1,3 @@
-
 # Mikutano ya Arborist Calls
 
 Mikutano ya Zcash Arborist ni mikutano ya kila wiki mbili ya maendeleo ya itifaki inayojikita katika kufuatilia mipango ya uwekaji wa itifaki inayokuja, masuala ya utekelezaji wa nodi za makubaliano, na utafiti wa itifaki.
