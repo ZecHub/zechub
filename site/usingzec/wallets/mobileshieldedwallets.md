@@ -1,3 +1,5 @@
+# *Legacy Page*
+
 # Mobile Shielded Wallets
 
 Shielded wallets are wallets that use shielded Zcash addresses (z-addrs). These wallets provide the highest level of privacy. The majority of these wallet are mobile phone apps.
