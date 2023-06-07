@@ -35,11 +35,11 @@ Applications should be submitted through the ZF concessions platform and applica
 
 The deadline for submitting a grant application is 22 February 2023, 9:00 am UTC on Monday 20 March 2023.
 
-**voting process**
+**The Voting Process**
 
-on April 17 We have published the list of grant applications that will be submitted to ZCAP for approval
+On April 17, we published the list of grant applications that will be submitted to ZCAP for approval.
 
-**list of grant applications**
+**List of Grant Applications**
 
 [Algorithmic Anthropometry](https://zfnd.org/wp-content/uploads/2023/04/Algorithmic_Anthropometry.pdf)
 
@@ -78,7 +78,15 @@ The voting process was done by Zcap members,and [102 people voted](https://vote.
 
 For more information about Minor Grants, you can consult the [Zcash Forum](https://forum.zcashcommunity.com/t/zcash-minor-grants-program-by-zfnd/44075/29?u=dismad), or the [Minor Grants Page](https://zfnd.org/launching-the-zcash-minor-grants-program/).
 
-## Important videos for ZF
+## Highlighted Zcash Foundation Videos
+
+**How to Zcash**
+
+https://www.youtube.com/playlist?list=PL40dyJ0UYTLKyRbrz0sVLSWUh6bdVsQE1
+
+**Zcon Vozes: Brasil 2023**
+
+https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm_hwYzpEPOOafwihL_mIu
 
 **Zcash Foundation Board of Directors Members: Marta Belcher & J.W. Verret**
 
