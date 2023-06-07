@@ -96,9 +96,9 @@ https://www.youtube.com/watch?v=D_M1QqhRk8E&list=PL40dyJ0UYTLI4cD6vfIZ8wt_8mUwPp
 
 https://www.youtube.com/watch?v=E7g9dKBOYEI&list=PL40dyJ0UYTLLA3t2bIBqorYsbtnX-kEyq&index=1
 
-**Zcash Community Grants Candidates for December 2022 ZCG Elections**
+**Community Calls for ZCAP Votes**
 
-https://www.youtube.com/watch?v=ZsB4KkPltTw&list=PL40dyJ0UYTLLcfeghHf_2u-2qc26k9GEA&index=4
+[Community Calls for ZCAP Votes](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLcfeghHf_2u-2qc26k9GEA)
 
 **AMA with ZF Executive Director Jack Gavigan**
 
