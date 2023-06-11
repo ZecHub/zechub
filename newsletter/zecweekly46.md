@@ -1,6 +1,6 @@
 # ZecWeekly #46
 
-*ECC is in the process of transitioning to a narrowed focus on proof-of-stake ZEC, a mobile SDK and accompanying wallet, and US-based policy work.*
+Zcashd 5.6.0 release candidate, Zcast Episode 002 & Anoma to contribute to Zcash!
 
 ---
 
@@ -43,6 +43,8 @@ In conclusion, depending on the specific use case scenario, both Tor and I2P tec
 
 [Zcash Foundation Release Zebra 1.0.0-rc.9!](https://github.com/ZcashFoundation/zebra/releases/tag/v1.0.0-rc.9) 
 
+
+
 #### Zcash Community Grants Updates
 
 [Trezor Support for Shielded Transactions](https://forum.zcashcommunity.com/t/trezor-support-for-zcash-shielded-transactions/39420/63)
@@ -50,6 +52,8 @@ In conclusion, depending on the specific use case scenario, both Tor and I2P tec
 [The Zcash Posterity Fund](https://forum.zcashcommunity.com/t/the-zcash-posterity-fund/42703/58)
 
 [Grant Request For Tali-AI (AI-Driven Bot)](https://forum.zcashcommunity.com/t/grant-request-tali-ai-ai-driven-bot-designed-to-enhance-developer-relations/44830)
+
+
 
 #### Community Projects
 
@@ -73,6 +77,8 @@ In conclusion, depending on the specific use case scenario, both Tor and I2P tec
 
 [Zcast the zcash podcast in Spanish](https://www.youtube.com/@ZcastEsp)
 
+
+
 #### News & Media
 
 [Africa Can Enhance Governance Structures With Blockchain](https://guardian.ng/technology/africa-can-enhance-governance-structures-with-blockchain-says-jassy-kabanihiza-ebwanyu/)
@@ -92,6 +98,8 @@ In conclusion, depending on the specific use case scenario, both Tor and I2P tec
 [Crypto ownership doubles in UK before new rules kick in](https://www.ft.com/content/0de17dc3-5f70-45c2-a933-2f914bac32d2)
 
 [Kenya considers tax on crypto, NFT transfers and online influencers](https://cointelegraph.com/news/kenya-considers-tax-on-crypto-nft-transfers-and-online-influencers)
+
+
 
 ## Some Zcash Tweets
 
@@ -121,18 +129,16 @@ In conclusion, depending on the specific use case scenario, both Tor and I2P tec
 
 [The Need to Include Podcasts in Audio Format on Free2z Platform](https://twitter.com/mbbevilacqua/status/1666590725222400000?s=20)
 
-[]()
+[Crypto Unity - Building Decentralised Bonds - State of the market](https://www.youtube.com/watch?v=CPQpP7K6EN8)
 
+[Hanh demos native BTC support in Ywallet](https://twitter.com/hhanh072/status/1667050064978792448)
 
-
-[]()
-
-
-
-[]()
+[Zcash community wins THORchain poll](https://twitter.com/ello_matty/status/1666068107188682752)
 
 
 ## Zeme of the Week
+
+
 
 ## Jobs in the Ecosystem
 
@@ -141,4 +147,3 @@ In conclusion, depending on the specific use case scenario, both Tor and I2P tec
 - [Executive Head of Product, ECC](https://apply.workable.com/electric-coin-company/j/6ACEC09B90/)
 
 - [Director of Security, ECC](https://apply.workable.com/electric-coin-company/j/E68A4C20E2/)
-
