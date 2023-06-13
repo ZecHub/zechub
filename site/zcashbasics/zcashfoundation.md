@@ -22,7 +22,7 @@ The Zcash Foundation is a 501(c)(3) not for profit organization. In addition to 
 
 ## Funding
 
-The Zcash Foundation receives 5% of the [Zcash development fund](https://zips.z.cash/zip-1014). Their use of finances can be seen in their [transparency reports](https://electriccoin.co/blog/ecc-transparency-report-for-q3-2022/) which they release every quarter.
+The Zcash Foundation receives 5% of the [Zcash development fund](https://zips.z.cash/zip-1014). Their use of finances can be seen in their [transparency reports](https://zfnd.org/the-zcash-foundations-q3-2022-report/) which they release every quarter.
 
 ## Zcash Minor Grants Program
 ![image](https://global.discourse-cdn.com/zcash/optimized/3X/6/8/68ad4ceeb7ad5df77ebff311c2580ceda3ecef10_2_690x172.jpeg)
