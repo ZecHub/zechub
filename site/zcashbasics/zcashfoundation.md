@@ -92,6 +92,9 @@ The voting process was done by Zcap members,and [102 people voted](https://vote.
 For more information about Minor Grants, you can consult the [Zcash Forum](https://forum.zcashcommunity.com/t/zcash-minor-grants-program-by-zfnd/44075/29?u=dismad), or the [Minor Grants Page](https://zfnd.org/launching-the-zcash-minor-grants-program/).
 
 ## Highlighted Zcash Foundation Videos
+  
+**Zebrad for Linux Tutorials**
+https://www.youtube.com/playlist?list=PL40dyJ0UYTLI671cVldA_DhFSYxNwUJeQ
 
 **How to Zcash**
 
