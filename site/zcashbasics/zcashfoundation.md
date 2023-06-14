@@ -6,7 +6,7 @@ Our goal at ZF is to create tools that help sustain open networks, enabling anyo
 
 ## People and Teams
 
-The Zcash Foundation has nearly 15 employees that are distributed across the world. They work on various things such as protocol development, protocol security, business development and managing Zcash community events. 
+The Zcash Foundation has nearly 15 employees that are distributed across the world. They work on various things such as protocol development, protocol security, protocol governance, business development and managing Zcash community events. 
 
 The ZF team consists of a board of directors, the engineering team and an operations team, more info [here](https://zfnd.org/about/).
 
@@ -27,7 +27,8 @@ The Zcash Foundation receives 5% of the [Zcash development fund](https://zips.z.
 
 ## Zcash Community Grants Program
 
-![image](https://zcashcommunitygrants.org/images/logos/yellow/ZCG%20Circle%20Logo-10.png)
+<image src="https://zcashcommunitygrants.org/images/logos/yellow/ZCG%20Circle%20Logo-10.png" height=25% width=25%>
+  
 [https://zcashgrants.org/submit](https://zcashgrants.org/submit)
 
 This program funds independent teams to perform major ongoing development (or other work) that benefits the Zcash ecosystem. Grants are chosen by a five-person committee elected by the Zcash community. Teams and organizations that are interested in advancing the usability, security, privacy and adoption of Zcash are strongly encouraged to apply for a Zcash Community Grant.
