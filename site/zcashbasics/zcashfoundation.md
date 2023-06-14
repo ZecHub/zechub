@@ -10,7 +10,7 @@ The Zcash Foundation has nearly 15 employees that are distributed across the wor
 
 The ZF team consists of a board of directors, the engineering team and an operations team, more info [here](https://zfnd.org/about/).
 
-Zcash Foundation Grants provides the ecosystem with a means to fund projects that contribute to the privacy ecosystem such as [Zebra](https://zebra.zfnd.org/) (an independant node implementation for Zcash) & [FROST](https://eprint.iacr.org/2020/852) as well as [various](https://www.coindesk.com/tech/2021/06/08/tor-project-receives-670k-from-zcash-open-major-grants-for-coding-language-upgrade/) other projects through [Zcash Open Major Grants](https://zcashcommunitygrants.org/) , now [Zcash Community Grants Committee](https://zcashgrants.org/submit). 
+Zcash Foundation Grants provides the ecosystem with a means to fund projects that contribute to the privacy ecosystem such as [Zebra](https://zebra.zfnd.org/) (an independant node implementation for Zcash) & [FROST](https://frost.zfnd.org/) as well as [various](https://www.coindesk.com/tech/2021/06/08/tor-project-receives-670k-from-zcash-open-major-grants-for-coding-language-upgrade/) other projects through [Zcash Open Major Grants](https://zcashcommunitygrants.org/) , now [Zcash Community Grants Committee](https://zcashgrants.org/submit). 
 
 The Foundation also holds [Zcon](https://zfnd.org/zcon/), a yearly in-person conference centered on the Zcash ecosystem and supports grassroots, community initiatives such as [Zcon Vozes](https://zfnd.org/zcon-voices/) regional specific conferences, the [Zcash Foundation A/V Club](https://discord.gg/WGEVenUq) and various other [open community calls](https://github.com/ZcashCommunityGrants/arboretum-notes) and AMA's.
 
