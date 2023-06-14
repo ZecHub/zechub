@@ -94,6 +94,7 @@ For more information about Minor Grants, you can consult the [Zcash Forum](https
 ## Highlighted Zcash Foundation Videos
   
 **Zebrad for Linux Tutorials**
+  
 https://www.youtube.com/playlist?list=PL40dyJ0UYTLI671cVldA_DhFSYxNwUJeQ
 
 **How to Zcash**
