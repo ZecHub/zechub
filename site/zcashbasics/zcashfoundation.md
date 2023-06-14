@@ -25,9 +25,15 @@ The Zcash Foundation is a [501(c)(3)](https://projects.propublica.org/nonprofits
 The Zcash Foundation receives 5% of the [Zcash development fund](https://zips.z.cash/zip-1014). Their use of finances can be seen in their quarterly 
 [Transparency Reports](https://zfnd.org/category/transparency-reports/).
 
-##
+## Zcash Community Grants Program
+
+![image](https://zcashcommunitygrants.org/images/logos/yellow/ZCG%20Circle%20Logo-10.png)
+[https://zcashgrants.org/submit](https://zcashgrants.org/submit)
+
+This program funds independent teams to perform major ongoing development (or other work) that benefits the Zcash ecosystem. Grants are chosen by a five-person committee elected by the Zcash community. Teams and organizations that are interested in advancing the usability, security, privacy and adoption of Zcash are strongly encouraged to apply for a Zcash Community Grant.
 
 ## Zcash Minor Grants Program
+
 (Currently closed)
 [https://zfnd.org/zcash-minor-grants-april-2023/](https://zfnd.org/zcash-minor-grants-april-2023/)
 
