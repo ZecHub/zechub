@@ -1,9 +1,9 @@
-# Zcash Pool di valori
+# Le pool di valori
 
-Esamineremo i 4 [pool di valore](https://zcash.readthedocs.io/en/latest/rtd_pages/addresses.html) di Zcash, che comprendono i pool Sprout, Sapling, Orchard e Transparent. Questa pagina wiki tratterà anche i miglioramenti tecnologici e alcune buone pratiche per i trasferimenti tra i pool.
+Esamineremo le 4 [pool di valori](https://zcash.readthedocs.io/en/latest/rtd_pages/addresses.html) di Zcash, che comprendono i pool Sprout, Sapling, Orchard e Transparent. Questa pagina wiki tratterà anche i miglioramenti tecnologici e alcune buone pratiche per i trasferimenti tra i pool.
 
 
-## I Shielded Pools (Pool schermati)
+## Shielded pools (Pool schermate)
 
 ### Sprout
 
@@ -43,20 +43,18 @@ L'aggiornamento di Orchard contribuirà ad apportare ulteriori miglioramenti all
 
 ![IMG-20230419-221707](https://user-images.githubusercontent.com/81990132/233535609-6bf85926-567d-42ff-8b3f-9123afe98f65.jpg)
 
-I portafogli schermati di Zcash in questo momento stanno integrando gli i Pool Orchard tra le loro opzioni di Pool. Un buon esempio si trova nell'app Zingo Wallet.
+## Transparent Pool (Pool trasparente)
 
-## Transparent Pool
+La pool trasparente non è schermata. Gli indirizzi dei portafogli trasparenti su Zcash iniziano con la lettera "T", e la privacy è considerata molto bassa in questo tipo di transazioni. 
 
-Il pool Zcash Transparent è non schermato né privato. Gli indirizzi dei portafogli trasparenti su Zcash iniziano con la lettera "T"; la privacy è considerata molto bassa in questo tipo di transazioni. 
-
-Le transazioni trasparenti in Zcash sono simili a quelle di Bitcoin, che supporta le transazioni a firma multipla e fa uso di indirizzi pubblici standard che possono essere inviati e ricevuti da chiunque sulla rete.
+Le transazioni trasparenti in Zcash sono simili a quelle di Bitcoin, che supporta le transazioni multi-firma e fa uso di indirizzi pubblici standard che possono essere inviati e ricevuti da chiunque sulla rete.
 
 
 ![IMG-20230420-100149](https://user-images.githubusercontent.com/81990132/233535663-bc536044-2537-41b2-9acb-69b3613e9ab6.jpg)
 
-Gli indirizzi Transparent (o trasparenti) sono utilizzati soprattutto dagli exchange centralizzati per garantire un'elevata trasparenza e la conferma della rete durante l'invio e la ricezione di ZEC tra gli utenti. 
+Gli indirizzi Transparent (o trasparenti) sono utilizzati soprattutto dagli exchange centralizzati per garantire un'elevata trasparenza e la conferma della rete durante l'invio e la ricezione di ZEC con i propri utenti. 
 
-È importante notare che gli indirizzi Zcash Shielded, pur garantendo un'elevata privacy durante le transazioni, richiedono anche maggiori risorse computazionali per elaborare le transazioni. Pertanto, alcuni utenti possono utilizzare indirizzi trasparenti per transazioni che non richiedono lo stesso livello di privacy.
+È importante notare che gli indirizzi Zcash Shielded, pur garantendo un'elevata privacy durante le transazioni, richiedono anche maggiori risorse computazionali per elaborare le transazioni. Pertanto, anche per questo motivo alcuni utenti potrebbero scegliere di utilizzare indirizzi trasparenti.
 
 ---
 ### 
@@ -66,7 +64,7 @@ Quando si tratta di considerare un elevato livello di privacy durante le transaz
 
 ![20230420_051415_0000.png](https://user-images.githubusercontent.com/38798812/233546739-e9076b2d-bcb5-40a1-96a8-25284dff0786.png)
 
-Le transazioni che avvengono tra portafogli "Z-Z" sono schermate e vengono talvolta chiamate transazioni schermate a causa dell'elevato livello di privacy generato. Questo è solitamente il modo migliore e più consigliato per inviare e ricevere $ZEC quando è richiesta la privacy.
+Le transazioni che avvengono tra portafogli "Z-Z" sono schermate e vengono chiamate in tal modo a causa dell'elevato livello di privacy. Questo è solitamente il modo migliore e più consigliato per inviare e ricevere $ZEC quando è richiesta la privacy.
 
 ---
 ![20230421_070131_0000.png](https://user-images.githubusercontent.com/38798812/233552931-d69f4ef3-b065-4d61-8e6b-adbc2edc4d70.png)
@@ -81,6 +79,6 @@ Il trasferimento di ZEC da un indirizzo trasparente (indirizzo T) a un indirizzo
 ---
 
 ![20230420-091346-0000](https://user-images.githubusercontent.com/81990132/233536122-6429d010-1ffa-424a-83d6-6e94eb8252e8.png)
-L'invio di ZEC da un indirizzo trasparente (indirizzo T) a un altro indirizzo trasparente (indirizzo T) sulla rete Zcash (transazione T-T) è molto simile a quello delle transazioni Bitcoin ed è per questo che le transazioni T-T su Zcash sono sempre chiamate transazioni pubbliche perché i dettagli della transazione sia del mittente che del destinatario diventano visibili al pubblico, il che rende il livello di privacy molto basso in queste transazioni. 
+L'invio di ZEC da un indirizzo trasparente (indirizzo T) ad un'altro indirizzo trasparente (transazione T-T) è molto simile a quello delle transazioni Bitcoin ed è per questo che le transazioni T-T su Zcash sono sempre chiamate transazioni pubbliche perché i dettagli della transazione sia del mittente che del destinatario diventano visibili al pubblico, il che rende il livello di privacy molto basso in queste transazioni. 
 
 La maggior parte degli exchange centralizzati di criptovalute fa uso dei indirizzi trasparenti ("T-address") quando si tratta di transazioni sulla blockchain di Zcash, ma questo tipo di transazione (T-T) non avrà alcun anonimato.

@@ -1,4 +1,4 @@
-# Transazioni
+# Le transazioni
 
 ZEC viene utilizzato principalmente per i pagamenti. Pensate a restituire un debito a un amico, comprare un caffè o donare a una causa che vi sta a cuore. Questo è il caso d'uso più forte di ZEC grazie alle sue potenti funzionalità di privacy. Esistono diversi modi per eseguire una transazione con Zcash e, per preservare la privacy dell'utente, è importante capire quale tipo di transazione si sta eseguendo.
 
