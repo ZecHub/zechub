@@ -21,3 +21,4 @@ Additionally, the live format creates a sense of connection with the audience, w
   * Zcash Podcast 4 with Seth For Privacy: An Outside Perspective on Zcash and Privacy | [Youtube](https://www.youtube.com/watch?v=C8ItmDFjczQ&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=4) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-4:3) |
 
   * Zcash Podcast 5 with Naomi Brockwell: How to Live a Modern Privacy-Conscious Lifestyle | [Youtube](https://www.youtube.com/watch?v=GpZAY5O2nJQ&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=6) | [Odysee](https://odysee.com/@DigitalCashNetwork:c?view=content) |
+  * Zcash Podcast 6 with Zooko Wilcox: Governance and Zcash's Path Ahead | [Youtube](https://www.youtube.com/watch?v=VZeM7bvWWPg&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=6&pp=iAQB) | [Odysee](https://t.co/MDW7FoXgxm)|
