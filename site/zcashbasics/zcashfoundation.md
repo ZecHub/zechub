@@ -2,29 +2,42 @@
 
 ## Mission Statement
 
-The Zcash Foundation's mission is to be a public charity dedicated to building Internet payment and privacy infrastructure for the public good, primarily serving the users of the Zcash protocol and blockchain.
-
+Our goal at ZF is to create tools that help sustain open networks, enabling anyone and everyone to protect their own privacy on their own terms. The essence of privacy itself is being able to choose what is or isn't shared with others. Privacy comprises both autonomy and consent; it is essential to human dignity and the healthy continuation of civil society.
 
 ## People and Teams
 
-The Zcash Foundation has nearly 15 employees that are distributed across the world. They work on various things such as protocol development, protocol security, business development and managing Zcash community events. 
+The Zcash Foundation has nearly 15 employees that are distributed across the world. They work on various things such as protocol development, protocol security, protocol governance, business development and managing Zcash community events. 
 
 The ZF team consists of a board of directors, the engineering team and an operations team, more info [here](https://zfnd.org/about/).
 
-Zcash Foundation Grants provides the ecosystem with a means to fund projects that contribute to the privacy ecosystem such as Zebra (an independant node implementation for Zcash) & FROST. 
+Zcash Foundation Grants provides the ecosystem with a means to fund projects that contribute to the privacy ecosystem such as [Zebra](https://zebra.zfnd.org/) (an independant node implementation for Zcash) & [FROST](https://frost.zfnd.org/) as well as [various](https://www.coindesk.com/tech/2021/06/08/tor-project-receives-670k-from-zcash-open-major-grants-for-coding-language-upgrade/) other projects through [Zcash Open Major Grants](https://zcashcommunitygrants.org/) , now [Zcash Community Grants Committee](https://zcashgrants.org/submit). 
 
-The Foundation also holds Zcon, a yearly in-person conference centered on the Zcash ecosystem and supports community initiatives such as the [Zcash Foundation A/V Club](https://discord.gg/WGEVenUq).
+The Foundation also holds [Zcon](https://zfnd.org/zcon/), a yearly in-person conference centered on the Zcash ecosystem and supports grassroots, community initiatives such as [Zcon Vozes](https://zfnd.org/zcon-voices/) regional specific conferences, the [Zcash Foundation A/V Club](https://discord.gg/WGEVenUq) and various other [open community calls](https://github.com/ZcashCommunityGrants/arboretum-notes) and AMA's.
 
+The Zcash Foundation enforces the [Zcash Trademark policy](https://zfnd.org/protecting-the-zcash-trademarks/) per the conditions of it's [donation](https://zfnd.org/wp-content/uploads/2022/06/Trademark-Agreement-ZF_ECC_notarized-pages-and-signed.pdf) by the Electric Coin Co. which helps "Protect the reputation of Zcash, its associated entities, and the Zcash community" by "identify(ing) official sources of information, reducing the likelihood of fraudulent or incorrect information" and "Identify(ing) official apps and services, reducing the likelihood of fraudulent activities." 
 
 ## Organizational Structure
 
-The Zcash Foundation is a 501(c)(3) not for profit organization. In addition to their team, they have a board of directors.
+The Zcash Foundation is a [501(c)(3)](https://projects.propublica.org/nonprofits/organizations/820707962) not for profit organization. In addition to their team, they have a board of directors.
 
 ## Funding
 
-The Zcash Foundation receives 5% of the [Zcash development fund](https://zips.z.cash/zip-1014). Their use of finances can be seen in their [transparency reports](https://electriccoin.co/blog/ecc-transparency-report-for-q3-2022/) which they release every quarter.
+The Zcash Foundation receives 5% of the [Zcash development fund](https://zips.z.cash/zip-1014). Their use of finances can be seen in their quarterly 
+[Transparency Reports](https://zfnd.org/category/transparency-reports/).
+
+## Zcash Community Grants Program
+
+<image src="https://zcashcommunitygrants.org/images/logos/yellow/ZCG%20Circle%20Logo-10.png" height=25% width=25%>
+  
+[https://zcashgrants.org/submit](https://zcashgrants.org/submit)
+
+This program funds independent teams to perform major ongoing development (or other work) that benefits the Zcash ecosystem. Grants are chosen by a five-person committee elected by the Zcash community. Teams and organizations that are interested in advancing the usability, security, privacy and adoption of Zcash are strongly encouraged to apply for a Zcash Community Grant.
 
 ## Zcash Minor Grants Program
+
+(Currently closed)
+[https://zfnd.org/zcash-minor-grants-april-2023/](https://zfnd.org/zcash-minor-grants-april-2023/)
+
 ![image](https://global.discourse-cdn.com/zcash/optimized/3X/6/8/68ad4ceeb7ad5df77ebff311c2580ceda3ecef10_2_690x172.jpeg)
 
 On February 22, 2023, a new experimental credit program from the Zcash Foundation (ZF) was announced, which we call “Minor Grants”. It is intended to complement the Major Grants program (also known as Zcash Community Grants) by providing a source of funding for smaller grants. Hopefully, this will reduce the number of minor grant grants that are submitted to the ZCG, allowing them to focus their attention on larger, more controlled grants that are more in line with what the Major Grants program financially intends. Additionally, I would like to create a channel for subordinating titles that are not directly related to Zcash, but that explore broader applications of zero-knowledge proofs or other approaches to financial privacy, in line with our charitable purpose.
@@ -79,6 +92,10 @@ The voting process was done by Zcap members,and [102 people voted](https://vote.
 For more information about Minor Grants, you can consult the [Zcash Forum](https://forum.zcashcommunity.com/t/zcash-minor-grants-program-by-zfnd/44075/29?u=dismad), or the [Minor Grants Page](https://zfnd.org/launching-the-zcash-minor-grants-program/).
 
 ## Highlighted Zcash Foundation Videos
+  
+**Zebrad for Linux Tutorials**
+  
+https://www.youtube.com/playlist?list=PL40dyJ0UYTLI671cVldA_DhFSYxNwUJeQ
 
 **How to Zcash**
 

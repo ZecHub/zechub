@@ -3,7 +3,7 @@
 
 ## Cos'è Halo?
 
-Halo è una prova ricorsiva a conoscenza zero (ZKP) senza fiducia scoperta da Sean Bowe presso Electric Coin Co. Elimina la configurazione di fiducia (Trusted setup) e consente una maggiore scalabilità della blockchain di Zcash. Halo è stato il primo sistema di dimostrazione a conoscenza zero efficiente e ricorsivo, ampiamente considerato una svolta scientifica.
+Halo è una prova ricorsiva a conoscenza zero che non richiede fiducia, scoperta da Sean Bowe presso Electric Coin Co.  che elimina la configurazione di fiducia (Trusted setup) e consente una maggiore scalabilità della blockchain di Zcash. Halo è stato il primo sistema di dimostrazione a conoscenza zero efficiente e ricorsivo, ampiamente considerato una svolta scientifica.
 
 ![halo](https://electriccoin.co/wp-content/uploads/2021/01/Halo-on-Z-1440x720.png "halo")
 
@@ -17,7 +17,7 @@ Polynomial Interactive Oracle Proof: Il verifier chiede al prover (algoritmo) di
 
 ### Nessuna configurazione di fiducia
 
-Gli zkSNARK si basano su una stringa di riferimento comune (CRS) come parametro pubblico per la dimostrazione e la verifica. Questa CRS deve essere generata in anticipo da una parte fidata. Fino a poco tempo fa, elaborare calcoli multi-party sicuri (MPC) come quelli eseguiti da Aztec network & Zcash erano necessari per mitigare il rischio durante questa [cerimonia di configurazione di fiducia](https://zkproof.org/2021/06/30/setup-ceremonies/amp/) (trusted setup ceremony). 
+I zk-SNARKs si basano su una stringa di riferimento comune (CRS) come parametro pubblico per la dimostrazione e la verifica. Questa CRS deve essere generata in anticipo da una parte fidata. Fino a poco tempo fa, elaborare calcoli multi-party sicuri (MPC) come quelli eseguiti da Aztec network & Zcash erano necessari per mitigare il rischio durante questa [cerimonia di configurazione di fiducia](https://zkproof.org/2021/06/30/setup-ceremonies/amp/) (trusted setup ceremony). 
 
 In precedenza, i pool schermati Sprout e Sapling di Zcash utilizzavano i sistemi di prova zk BCTV14 e Groth 16. Sebbene fossero sicuri, avevano limitazioni. Non erano scalabili poiché erano legati a una singola applicazione, il "rifiuto tossico" (resti di materiale crittografico generato durante la cerimonia di genesi) poteva persistere, e c'era un elemento di fiducia (seppur minimo) che gli utenti dovevano avere per considerare accettabile la cerimonia.
 
@@ -35,16 +35,16 @@ La composizione delle dimostrazioni ricorsive consente a una singola dimostrazio
 
 Prima di Halo, la composizione di dimostrazioni ricorsive richiedeva un grande costo computazionale e un setup di fiducia. Una delle principali scoperte è stata una tecnica chiamata "amortizzazione nidificata". Questa tecnica consente la composizione ricorsiva utilizzando lo schema di impegno polinomiale (polynomial commitment scheme) basato su un argomento di prodotto interno, migliorando notevolmente le prestazioni ed evitando il setup di fiducia.
 
-Nel [paper di Halo](https://eprint.iacr.org/2019/1021.pdf), abbiamo descritto completamente questo schema di impegno polinomiale e scoperto che esisteva una nuova tecnica di aggregazione al suo interno. La tecnica consente di verificare un gran numero di dimostrazioni create indipendentemente quasi alla stessa velocità di una singola dimostrazione. Questo da solo offrirebbe un'alternativa migliore alle precedenti zk-SNARK utilizzate in Zcash.
+Nel [paper di Halo](https://eprint.iacr.org/2019/1021.pdf), abbiamo descritto completamente questo schema di impegno polinomiale e scoperto che esisteva una nuova tecnica di aggregazione al suo interno. La tecnica consente di verificare un gran numero di dimostrazioni create indipendentemente quasi alla stessa velocità di una singola dimostrazione. Questo da solo offrirebbe un'alternativa migliore ai precedenti zk-SNARKs utilizzatI in Zcash.
 
 
 ### Halo 2
 
-Halo 2 è una implementazione ad alte prestazioni di zk-SNARK scritta in Rust che elimina la necessità di un setup di fiducia, ponendo le basi per la scalabilità in Zcash.
+Halo 2 è una implementazione ad alte prestazioni di zk-SNARKs scritto in Rust che elimina la necessità di un setup di fiducia, ponendo le basi per la scalabilità in Zcash.
 
 ![halo2image](https://electriccoin.co/wp-content/uploads/2020/09/Halo-puzzle-03-1024x517.jpg "halo2")
 
-Include una generalizzazione del nostro approccio chiamata "schema di accumulazione". Questa nuova formalizzazione mostra come funziona effettivamente la nostra tecnica di ammortizzazione nidificata; aggiungendo dimostrazioni a un oggetto chiamato "accumulatore", dove le prove riguardano lo stato precedente dell'accumulatore, possiamo verificare che tutte le prove precedenti fossero corrette (per induzione) semplicemente controllando lo stato corrente dell'accumulatore.
+Include una generalizzazione del nostro approccio chiamato "schema di accumulazione". Questa nuova formalizzazione mostra come funziona effettivamente la nostra tecnica di ammortizzazione nidificata; aggiungendo dimostrazioni a un oggetto chiamato "accumulatore", dove le prove riguardano lo stato precedente dell'accumulatore, possiamo verificare che tutte le prove precedenti fossero corrette (per induzione) semplicemente controllando lo stato corrente dell'accumulatore.
 
 ![Accumulatorimage](https://i.imgur.com/l4HrYgE.png "accumulator")
 
@@ -103,7 +103,7 @@ Il [Privacy and Scaling Exploration group](https://appliedzkp.org/) sta anche ce
 
 **Per ulteriori informazioni**:
 
-[Introduzione a zkp e halo 2 - Hanh Huynh Huu](https://www.youtube.com/watch?v=jDHWJLjQ9oA)
+[Introduzione a ZKP e Halo 2 - Hanh Huynh Huu](https://www.youtube.com/watch?v=jDHWJLjQ9oA)
 
 [Halo 2 con Daira & Str4d - ZKPodcast](https://www.youtube.com/watch?v=-lZH8T5i-K4)
 

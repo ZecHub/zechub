@@ -6,7 +6,7 @@ Zcashd v5.5.1 upgrade, Podcast Episodes & Community Events!
 
 ---
 
-Curatoda "fog254" ([@FOG1893](https://twitter.com/FOG1893)) & [Olek](https://twitter.com/an_Olek).
+Curato da "fog254" ([@FOG1893](https://twitter.com/FOG1893)) & [Olek](https://twitter.com/an_Olek).
 
 ---
 
