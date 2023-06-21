@@ -112,4 +112,4 @@ https://www.youtube.com/watch?v=S3uGdNEMymI
 ## Recursos
  
 [Desarrollo y Gobernanza de Zcash](https://z.cash/zcash-development-and-governance/)
-![image](https://github.com/Jahlexis/zechub/assets/27905787/7debd866-c509-4379-a606-fc1ec9525503)
+
