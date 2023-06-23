@@ -1,24 +1,31 @@
-Para usar zcash en transacciones privadas (blindadas), necesitas poseer ZEC. Para poseer ZEC, necesitarás comprarlo. Puedes comprar ZEC en diferentes plataformas de intercambio que listaremos a continuación. Te recomendamos usar una que soporte retiros blindados.
+# Comprando Zcash
 
-## Plataformas de intercambio que soportan retiros blindados ##
+Para utilizar Zcash en transacciones privadas (blindadas), necesitas tener ZEC. Para adquirir ZEC, necesitarás comprarlo. Puedes comprar ZEC en diferentes *exchanges*, que listaremos más abajo. Es recomendado que uses un *exchange* que soporte retiros blindados.
 
-### Gemini ###
-Gemini es un _intercambio_ regulado y billetera custodiada que hace sencillo y seguro el proceso de comprar ZEC, Ether y otras criptomonedas.
+## Exchanges que soportan retiros blindados
 
-### The Rock Trading ###
-The Rock Trading es el primer _intercambio_ de criptomonedas europeo. Puedes comprar criptomonedas de una forma simple y segura y en total cumplimiento con las leyes europeas. Puedes comprar ZEC con dinero fiduciario y otras criptomonedas.
+**Gemini**
 
-### Sideshift.ai ###
-Sideshift es una plataforma de intercambio cripto que no requiere registro, lo que significa que no tienes que entregar tu información personal, lo que se conoce como (KYC). Puedes intercambiar entre ZEC, BTC, ETH y otras 50+ criptomonedas. También puedees comprar ZEC con otras cripto.
+Gemini es un *exchange* de criptomonedas regulado, billetera y custodio que hace que comprar ZEC, Ether, y otras criptomonedas sea simple y seguro. Puedes comprar ZEC y otras criptomonedas por Fiat.
 
-###Flyp.me ###
-Plyp.me es otra plataforma de intercambio cripto que no requiere registro. Es una de las formas más seguras y privadas de intercambiar más de 30 criptodivisas directamente a tu billetera. Puedes comprar ZEC usando otras criptomonedas.
+**The Rock Trading**
 
-## Intercambios que soportan retiros transparentes ##
-Airtm, Binance, Coinbase, Exmo, Kraken, Poloniex y Bittrex soportan, todos, la compra de ZEC con dinero fiat.
+The Rock trading es el primer *criptoexchange* Europeo. Puedes comprar criptomonedas de forma sencilla, segura y respetando plenamente la legislación Europea. Puedes comprar ZEC con Fiat y otras criptomonedas.
 
-Éstos soportan retiros transparentes, lo que significa que cuando retires ZEC a tu billetera, necesitarás enviarlo a través de tu dirección ZEC pública.
+**Sideshift.ai**
 
-Cuando hagas esto, te recomendamos usar una billetera que pueda blindar tus fondos automáticamente. Te dejamos un [video] que explica cómo hacerlo.
+Sideshift es un *criptoexchange* sin registro, lo que significa que no tienes que entregar tu infomación personal (KYC), Puedes intercambiar entre ZEC, BTC, ETH y más de 50 criptomonedas. Puedes comprar ZEC con otras criptomonedas.
 
-También puedes minar ZEC, pero eso usualmente no es posible para usuarios promedio. Más sobre eso en éste enlace.
+**Flyp.me**
+
+Flyp.me es un *criptoexchange* sin registro. Es una de las formas más seguras y privadas de intercambiar más de 30 criptomonedas directo a tu billetera. Puedes comprar ZEC con otras criptomonedas.
+
+## Intercambios que soportan retiros transparentes
+
+Airtm, Binance, Bitfinex, Coinbase, Exmo, Kraken, Poloniex and Bittrex todos soportan la compra de ZEC con Fiat o criptomonedas.
+
+Estos *exchanges* soportan retiros transparentes. Esto significa que cuando retiras ZEC a tu billetera, tienes que enviarlo a tu dirección transparente, tu dirección ZEC pública.
+
+Al hacer esto, te recomendamos usar una billetera que [autoproteja los fondos] [de autocustodia y blindaje de fondos](https://electriccoin.co/blog/new-releases-to-help-enable-zcash-shielded-by-default/). Aquí tienes un [video] que explica cómo hacer esto.
+
+Tambien puedes minar ZEC, pero usualmente no es posible para usuarios promedio. Mas sobre esto [aquí](https://www.genesis-mining.com/zcash-mining-guide).
