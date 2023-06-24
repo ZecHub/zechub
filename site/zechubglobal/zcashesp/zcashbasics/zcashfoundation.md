@@ -129,4 +129,3 @@ https://www.youtube.com/watch?v=S3uGdNEMymI
 
 [Desarrollo y Gobernanza de Zcash](https://z.cash/zcash-development-and-governance/)
 
-![image](https://github.com/ZecHub/zechub/assets/27905787/3207adf9-6b42-4854-a41e-78a2c045353d)
