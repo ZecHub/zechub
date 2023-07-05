@@ -6,25 +6,25 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 
 ---
 
-### Ledger [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://www.ledger.com/zcash-wallet)
+## Ledger [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://www.ledger.com/zcash-wallet)
 | Hardware |
 
-#### Pools
+### Pools
 | Transparent |
 
-#### Features
+### Features
 | Synchronizer | Multi Coin |
 
 
 
 
-### Trezor [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://wiki.trezor.io/Zcash_(ZEC))
+## Trezor [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://wiki.trezor.io/Zcash_(ZEC))
 | Hardware |
 
-#### Pools
+### Pools
 | Transparent |
 
-#### Features
+### Features
 | Synchronizer | Multi Coin | Web App |
 
 
@@ -33,11 +33,11 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 
 ![trezor](https://user-images.githubusercontent.com/81990132/185267639-d458344c-c457-47a5-ae5b-5b9f78914b3c.png)
 
-### Safepal [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://www.safepal.com/)
+## Safepal [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://www.safepal.com/)
 | Hardware |
 
-#### Pools
+### Pools
 | Transparent |
 
-#### Features
+### Features
 | Synchronizer | Multi Coin |

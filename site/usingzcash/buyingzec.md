@@ -1,6 +1,6 @@
 # Buying Zcash
 
-In order to use Zcash in private (shielded) transactions, you need to have ZEC. To acquire ZEC, you'll need to buy it. You can buy ZEC from a number of different exchanges, which we will list below. It is recommended that you use an exchange that supports shielded withdrawals.
+In order to use Zcash in private (shielded) transactions, you need to have ZEC. To get ZEC, you'll need to buy it. You can buy ZEC from a number of different exchanges, which we will list below. It is recommended that you use an exchange that supports shielded withdrawals.
 
 ## Exchanges that support shielded withdrawals
 
@@ -16,7 +16,7 @@ The Rock trading is the first European crypto exchange. You can buy cryptocurren
 
 Sideshift is a no sign-up crypto exchange, meaning you don't have to give out personal information (KYC). You can exchange between ZEC, BTC, ETH, and 50+ other cryptocurrencies. You can buy ZEC with other cryptocurrencies.
 
-**Flyp.me**
+**Flyp.me**	
 
 Flyp.me is a no sign-up crypto exchange. It was one of the safest and most private ways to exchange 30+ cryptocurrencies straight to your wallet. You can buy ZEC with other cryptocurrencies.
 
