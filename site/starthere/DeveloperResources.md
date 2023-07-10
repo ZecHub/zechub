@@ -32,7 +32,7 @@ Building understanding of how dependencies are reviewed & maintained by the team
 
 [Halo Crate]() / [Orchard Crate](https://docs.rs/orchard/latest/orchard/)
 
-[Zcash R&D Discord](https://discord.com/invite/xRVCHQT6)
+[Zcash R&D Discord](https://discord.gg/6AK7keWFaK)
 
 
 This list was compiled from reccomendations developers from the Zcash Foundation & ECC provided. 
