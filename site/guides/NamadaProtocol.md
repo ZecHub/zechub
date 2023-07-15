@@ -60,6 +60,8 @@ The proposed alliance encompasses three primary elements. Firstly, there is a gr
 ## Reference Links 
 You can learn more about Namada Protocol via the links below 👇👇
 
+https://www.youtube.com/watch?v=Wg_WtPdBig0
+
 [Namada Protocol Official Website](https://namada.net/) 
 
 [Namada Blog](https://blog.namada.net/) 
