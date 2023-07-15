@@ -18,7 +18,7 @@ Sideshift è un convertitore di criptovalute senza registrazione, il che signifi
 
 **Flyp.me**
 
-Flyp.me è un convertitore di criptovalute senza registrazione. È uno dei modi più sicuri e privati per scambiare oltre 30 criptovalute direttamente nel tuo portafoglio. Puoi acquistare ZEC tramite altre criptovalute.
+Flyp.me è uno scambio di criptovalute senza registrazione. È uno dei modi più sicuri e privati per scambiare 30+ criptovalute direttamente dal proprio portafoglio. È possibile acquistare ZEC con altre criptovalute.
 
 ## Exchange che supportano prelievi trasparenti.
 

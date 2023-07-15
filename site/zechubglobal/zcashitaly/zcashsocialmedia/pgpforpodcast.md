@@ -9,11 +9,14 @@ Esploriamo l'intersezione tra tecnologia blockchain, politiche pubbliche e argom
 Sentirete interviste con leader del settore, funzionari governativi e accademici all'avanguardia nella definizione dell'ambiente delle politiche pubbliche per la tecnologia blockchain. I nostri ospiti condivideranno le loro prospettive uniche sulle sfide e le opportunità che si presentano all'industria e sull'impatto delle attuali e proposte normative e approcci politici sulla crescita e lo sviluppo dell'ecosistema blockchain.
 
 
-* [PGP per Crypto Podcast #1 - Amanda Wick](https://www.youtube.com/watch?v=m7tvz-U1kJU)
-* [PGP per Crypto Podcast #2 - Kristin Smith](https://www.youtube.com/watch?v=fpT-f82Wzc8)
-* [PGP per Crypto Podcast #3 - Luke Hogg](https://www.youtube.com/watch?v=467EFsIx4yg)
-* [PGP per Crypto Podcast #4 - Jennifer Schulp](https://www.youtube.com/watch?v=Cgnye-QYV7Q)
-* [PGP per Crypto Podcast #5 - Cleve Mesidor](https://www.youtube.com/watch?v=sS35aykvf6E)
-* [PGP per Crypto Podcast #6 - Brett Quick](https://www.youtube.com/watch?v=im0sXlnaGmU)
-* [PGP per Crypto Podcast #7 - Miller Whitehouse-Levine](https://www.youtube.com/watch?v=-utatp0lK6s)
-* [PGP per Crypto Podcast #8 - Peter Van Valkenburgh](https://www.youtube.com/watch?v=mMoAph6CBWA)
+* [PGP Crypto Podcast #1 - Amanda Wick](https://www.youtube.com/watch?v=m7tvz-U1kJU)
+* [PGP Crypto Podcast #2 - Kristin Smith](https://www.youtube.com/watch?v=fpT-f82Wzc8)
+* [PGP Crypto Podcast #3 - Luke Hogg](https://www.youtube.com/watch?v=467EFsIx4yg)
+* [PGP Crypto Podcast #4 - Jennifer Schulp](https://www.youtube.com/watch?v=Cgnye-QYV7Q)
+* [PGP Crypto Podcast #5 - Cleve Mesidor](https://www.youtube.com/watch?v=sS35aykvf6E)
+* [PGP Crypto Podcast #6 - Brett Quick](https://www.youtube.com/watch?v=im0sXlnaGmU)
+* [PGP Crypto Podcast #7 - Miller Whitehouse-Levine](https://www.youtube.com/watch?v=-utatp0lK6s)
+* [PGP Crypto Podcast #8 - Peter Van Valkenburgh](https://www.youtube.com/watch?v=mMoAph6CBWA)
+* [PGP Crypto Podcast #9 - Ron Hammond](https://youtu.be/wdODEjbi41o)
+* [PGP Crypto Podcast #10 - Seth Hertlein e Ian Rogers](https://www.youtube.com/watch?v=1tgNKdiKUHQ)
+* [PGP Crypto Podcast #11 - Miller Whitehouse-Levine e Amanda Tuminelli](https://youtu.be/VwRJ1Ia3h6A)
