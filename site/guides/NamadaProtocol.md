@@ -12,7 +12,7 @@ Namada Protocol serves as a Level 1 (L1) platform based on proof-of-stake consen
 Namada prioritizes privacy by implementing an enhanced iteration of the Multi-Asset Shielded Pool (MASP) circuit. This upgraded version enables all types of assets, including both fungible and non-fungible tokens, to utilize a shared shielded set just exactly as that of Zcash. As a result, the act of transferring supported assets on Namada becomes distinct as it becomes difficult to identify due to the high level of privacy involved. Also, the latest update to the Multi Asset Shielded Pool circuit enables shielded set rewards which is a groundbreaking feature or incentive that allocates resources to promote privacy as a public good.
 
 
-## Etherium Bridge + IBC Compatible 
+## Ethereum Bridge + IBC Compatible 
 The integration of the Ethereum bridge into Namada eliminates the need for a separate protocol, as it becomes an integral part of the Namada ecosystem. Validators within Namada are entrusted with running the bridge alongside the core Namada protocol. These validators also serve as relayers when it comes to transferring assets to Namada, making the involvement of additional actors unnecessary. On the other hand, when transferring assets to Ethereum, external parties (known as relayers) are involved, although they bear no responsibility for validating or securing the bridge.
 
 ![ethBridge](https://github.com/ZecHub/zechub/assets/81990132/f85cc11b-13bc-4550-bb92-0fa91b17359d)
