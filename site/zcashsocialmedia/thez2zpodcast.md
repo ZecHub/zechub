@@ -12,7 +12,7 @@ Stay up to date on future episodes:
 
 [Spotify](https://open.spotify.com/show/3teWxE0EQaeohCM268Lpnf)
 
-[Anchor FM](https://anchor.fm/zec-hub/episodes/Zcash-narratives-with-David-from-Zcash-Media-e1o2b36)
+[Spotify for Podcaster](https://podcasters.spotify.com/pod/show/zec-hub/episodes/Zcash-narratives-with-David-from-Zcash-Media-e1o2b36)
 
 
 **Episode List**
