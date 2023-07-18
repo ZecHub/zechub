@@ -2,14 +2,16 @@
 #  Visualizing the Zcash Network
 
 The following is a guide on how to run the Ziggurat 3.0 Crawler for Zcash as well as the associated programs Crunchy and P2P-Viz on Ubuntu 22.04 for gathering and visualizing Zcash network information.  
-The linked video [Here](https://www.youtube.com/watch?v=Nq5cLiAHxPI) follows the same process.
+The linked video below follows the same process.
+
 https://www.youtube.com/watch?v=Nq5cLiAHxPI
 
 ----------------
-#  Install Requirements: 
+## Install Requirements: 
+
 Rust [https://rustup.rs/](https://rustup.rs/)
 
-#  Optional:
+## Optional:
 jq [https://jqlang.github.io/jq/download/](https://jqlang.github.io/jq/download/)
 (for displaying json information in the terminal)
 
@@ -47,7 +49,7 @@ sudo apt upgrade
 
 ----------------
 
-#  Zcash Network Crawler
+## Zcash Network Crawler
 
 The Zcash Crawler lives inside of a folder named 'zcash' so it may be advisable to create a new directory before cloning the crawler (runziggurat/zcash repo).
 
@@ -152,7 +154,7 @@ At this point, the Crawler may be stopped with 'ctrl+c' if no more data is requi
 
 ----------------
 
-#  Crunchy
+## Crunchy
 
 Crunchy is required to aggregate the output json file for use with P2P-Viz.
 
@@ -175,7 +177,7 @@ This will create a Zcash node filtered 'state.json' file in the 'crunchy/testdat
 
 ----------------
 
-#  P2P-Viz
+## P2P-Viz
 
 To build P2P-Viz, it is required to have npm. 
 
