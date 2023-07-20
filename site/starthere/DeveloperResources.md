@@ -38,6 +38,8 @@ Other Zcash related technologies:
 
 [Zcash wallet Warp-Sync by Hanh](https://hhanh00.github.io/zcash-sync/)
 
+[Zcash Testnet Explorer](https://testnet.zcashblockexplorer.com/)
+
 This list was compiled from recommendations developers from the Zcash Foundation & ECC provided. 
 
 If you have any additional resources (links, books, channels etc.) to update the list feel free to include them!
