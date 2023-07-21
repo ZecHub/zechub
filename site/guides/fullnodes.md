@@ -10,7 +10,7 @@ Zcashd is currently the main Full Node implementation used by Zcash developed an
 
 Zcashd exposes a set of API's via its RPC interface. These API's provide functions that allow external applications to interact with the node.
 
-Lightwalletd is an example of an application that uses a full node to enable developers to build and maintain mobile-friendly shielded light wallets without having to interact directly with Zcashd. 
+[Lightwalletd](https://github.com/zcash/lightwalletd) is an example of an application that uses a full node to enable developers to build and maintain mobile-friendly shielded light wallets without having to interact directly with Zcashd.
 
 [Full list](https://zcash.github.io/rpc/)
 
