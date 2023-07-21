@@ -12,7 +12,7 @@ Zcashd exposes a set of API's via its RPC interface. These API's provide functio
 
 [Lightwalletd](https://github.com/zcash/lightwalletd) is an example of an application that uses a full node to enable developers to build and maintain mobile-friendly shielded light wallets without having to interact directly with Zcashd.
 
-[Full list](https://zcash.github.io/rpc/)
+[Full list of supported RPC commands](https://zcash.github.io/rpc/)
 
 [The Zcashd book](https://zcash.github.io/zcash/)
 
