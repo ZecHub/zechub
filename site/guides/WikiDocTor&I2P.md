@@ -62,7 +62,7 @@ Follow these instructions below to Connect Tor to Zcash Wallet *(Ywallet)*:
 
 ## Install Zcashd wallet
 
-Zcashd is the official linux-based full-node wallet which is updated and maintained by core developers from the Electric coin Co. It is intentded for users who may want to mine and validate zcash transactions, as well as sending and receing Zcash.
+Zcashd is the official linux-based full-node wallet which is updated and maintained by core developers from the Electric coin Co. It is intended for users who may want to mine and validate zcash transactions, as well as sending and receing Zcash.
 
 * The official website to download Zcashd Wallet can be found [here](https://electriccoin.co/zcashd/) 
 
