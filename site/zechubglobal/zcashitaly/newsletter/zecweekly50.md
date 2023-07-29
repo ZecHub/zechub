@@ -64,7 +64,7 @@ Guardatelo [qui](https://www.youtube.com/watch?v=Wg_WtPdBig0)
 
 [Calendario del club ZF A/V](https://wiki.zechub.xyz/zfav/calendar)
 
-[Esecuzione di Ziggurat Zcash network explorer - Tripleyouwu]()https://www.youtube.com/watch?v=Nq5cLiAHxPI
+[Esecuzione di Ziggurat Zcash network explorer - Tripleyouwu](https://www.youtube.com/watch?v=Nq5cLiAHxPI)
 
 
 
