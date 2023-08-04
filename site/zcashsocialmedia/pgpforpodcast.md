@@ -21,4 +21,5 @@ You’ll hear interviews with industry leaders, government officials, and academ
 * [PGP for Crypto Podcast #10 - Seth Hertlein and Ian Rogers](https://www.youtube.com/watch?v=1tgNKdiKUHQ)
 * [PGP for Crypto Podcast #11 - Miller Whitehouse-Levine and Amanda Tuminelli](https://youtu.be/VwRJ1Ia3h6A)
 * [PGP for Crypto Podcast #12 - Bart Stephens, Founder and Managing Partner, Blockchain Capital](https://youtu.be/Ce58qD5SXzw)
+* [PGP for Crypto Pdocast #13 - Marisa Coppel, Senior Counsel, Blockchain Association](https://youtu.be/etqA9xwuCOg)
 
