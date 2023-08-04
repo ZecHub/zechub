@@ -10,3 +10,4 @@
 * [🎙️ El perfil de un verdadero Zcasher 💪 - EP 003](https://www.youtube.com/watch?v=uBeE1p3dDJw)
 * [ 😎 #ZookoEnZcast ¡Lo logramos! 💪 - EP 004 ](https://www.youtube.com/watch?v=M5qkbFPeISw)
 * [🎙️ Rumbo a la Zcon4 ✈️ - EP 005](https://www.youtube.com/watch?v=Svi0GyQ2JJc)
+* [🎙️ Cómo aprovechar el ecosistema de Zcash 💪 - EP 006](https://youtu.be/eecILLGwHrQ)
