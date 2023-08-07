@@ -17,5 +17,9 @@ You’ll hear interviews with industry leaders, government officials, and academ
 * [PGP for Crypto Podcast #6 - Brett Quick](https://www.youtube.com/watch?v=im0sXlnaGmU)
 * [PGP for Crypto Podcast #7 - Miller Whitehouse-Levine](https://www.youtube.com/watch?v=-utatp0lK6s)
 * [PGP for Crypto Podcast #8 - Peter Van Valkenburgh](https://www.youtube.com/watch?v=mMoAph6CBWA)
-* [PGP for Crypto Podcast #9 - Seth Hertlein and Ian Rogers](https://www.youtube.com/watch?v=1tgNKdiKUHQ)
+* [PGP for Crypto Podcast #9 - Ron Hammond](https://youtu.be/wdODEjbi41o)
+* [PGP for Crypto Podcast #10 - Seth Hertlein and Ian Rogers](https://www.youtube.com/watch?v=1tgNKdiKUHQ)
+* [PGP for Crypto Podcast #11 - Miller Whitehouse-Levine and Amanda Tuminelli](https://youtu.be/VwRJ1Ia3h6A)
+* [PGP for Crypto Podcast #12 - Bart Stephens, Founder and Managing Partner, Blockchain Capital](https://youtu.be/Ce58qD5SXzw)
+* [PGP for Crypto Pdocast #13 - Marisa Coppel, Senior Counsel, Blockchain Association](https://youtu.be/etqA9xwuCOg)
 

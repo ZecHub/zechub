@@ -1,3 +1,5 @@
+# *Legacy Page*
+
 # Mobile Shielded Wallets w/ Autoshielding
 
 Mobile adaption of Zcash will require Autoshielding wallets.

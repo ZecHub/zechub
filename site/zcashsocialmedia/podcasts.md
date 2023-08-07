@@ -1,8 +1,7 @@
 
 # Podcasts
 
-
-[ZL;DR](https://github.com/ZecHub/zechub/blob/main/site/zcashsocialmedia/zldr.md)
+[Zcast Podcast](https://github.com/ZecHub/zechub/blob/main/site/zcashsocialmedia/zcastpodcast.md)
 
 [The Z2Z Podcast](https://github.com/ZecHub/zechub/blob/main/site/zcashsocialmedia/thez2zpodcast.md)
 
@@ -11,4 +10,6 @@
 [The ZK Podcast](https://github.com/ZecHub/zechub/blob/main/site/zcashsocialmedia/zkpodcast.md)
 
 [PGP* For Crypto](https://github.com/ZecHub/zechub/blob/main/site/zcashsocialmedia/pgpforpodcast.md)
+
+[ZL;DR](https://github.com/ZecHub/zechub/blob/main/site/zcashsocialmedia/zldr.md)
 
