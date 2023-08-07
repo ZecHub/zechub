@@ -25,5 +25,6 @@ The Global Ambassador Program is designed to identify community members who make
 | Yoditar     | Venezuela   | @yoditar    | [Yoditar.zkp](https://twitter.com/yoditarX) |
 | Tim         | France      | @tim_ukrainian |[ZcashEclaireur](https://twitter.com/ZcashEclaireur) |
 | ZecMec      | France      | @zecmec        | [Zec Mec🛡💤🦓🛡21](https://twitter.com/@zecmec21)|
+
  
 
