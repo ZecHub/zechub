@@ -62,7 +62,7 @@ Follow these instructions below to Connect Tor to Zcash Wallet *(Ywallet)*:
 
 ## Install Zcashd wallet
 
-Zcashd is the official linux-based full-node wallet which is updated and maintained by core developers from the Electric coin Co. It is intentded for users who may want to mine and validate zcash transactions, as well as sending and receing Zcash.
+Zcashd is the official linux-based full-node wallet which is updated and maintained by core developers from the Electric coin Co. It is intended for users who may want to mine and validate zcash transactions, as well as sending and receing Zcash.
 
 * The official website to download Zcashd Wallet can be found [here](https://electriccoin.co/zcashd/) 
 
@@ -70,11 +70,18 @@ Zcashd is the official linux-based full-node wallet which is updated and maintai
 
 ##  Run Zcashd over Tor 
 
-* In order to Configure Zcashd to use Tor SOCKS proxy, you will be required to modify the Zcash.conf file. Follow the instructions below:
+* In order to Configure Zcashd to use Tor SOCKS proxy, you can append the -proxy command line argument to the daemon command.
 
- To enable Tor SOCKS proxy add the following line: 
+ For example:
 
   $ zcashd -proxy=127.0.0.1:9050
       
-For configuration changes to take effect,it is advised to restart zcashd. 
+Alternatively, add the following line to the zcash.conf file:
 
+  proxy=127.0.0.1:9050
+
+For configuration changes to take effect, it is advised to restart zcashd.
+
+Note that this assumes that the Tor daemon is being used. In case the Tor Browser Bundle is being used, replace 9050 with 9150.
+
+Additionally, you can append the command line argument -listenonion to make the daemon generate an .onion address at which your node can be reached.
