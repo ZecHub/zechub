@@ -27,3 +27,9 @@ Zcon2 took place on Tuesday, June 8th and Wednesday, June 9th 2021. Zcon2 was a
 Zcon3 took place in Las Vegas from August 7-9th 2022.
 
 [Zcon3 Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
+
+## Zcon4: The Future Has Not Been Written
+
+The in person conference is in Barcelona, Spain July 30-31, 2023 and will be live streamed from the venue. 
+
+[Zcon4 Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)

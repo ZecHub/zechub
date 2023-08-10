@@ -20,12 +20,11 @@ The Global Ambassador Program is designed to identify community members who make
 | BostonZcash | US          | @BostonZcash| [BostonZash](https://twitter.com/BostonZcash) |
 | Chidi       | Nigeria     | @lisa001    | [ZcashNigeria](https://twitter.com/ZcashNigeria) |
 | Eric        | US          | @_eric      | [PayWithZcash](https://twitter.com/paywithzcash) |
-| Jacob       | US          | @readaboutme1991| [lifeofjacob.eth](https://twitter.com/readaboutme1991) |
 | Madison     | US          | @madisonedge| [mad_parks](https://twitter.com/mad_parks) |
 | Michael     | Brazil      | @michae2xl  | [Michael2xl](https://twitter.com/michae2xl) |
 | Yoditar     | Venezuela   | @yoditar    | [Yoditar.zkp](https://twitter.com/yoditarX) |
-| Zoz         | Saudi Arabia| @zoz        | [ZECArabic](https://twitter.com/ZozNotorious) |
 | Tim         | France      | @tim_ukrainian |[ZcashEclaireur](https://twitter.com/ZcashEclaireur) |
 | ZecMec      | France      | @zecmec        | [Zec Mec🛡💤🦓🛡21](https://twitter.com/@zecmec21)|
+
  
 

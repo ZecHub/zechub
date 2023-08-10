@@ -1,6 +1,6 @@
 # Developer Resources 
 
-**A list of the reccomended resources for new developers to Zcash**
+**A list of the recommended resources for new developers to Zcash**
 
 Broad Overview of how Blockchains & Zcash works:
 
@@ -34,8 +34,13 @@ Building understanding of how dependencies are reviewed & maintained by the team
 
 [Zcash R&D Discord](https://discord.gg/6AK7keWFaK)
 
+Other Zcash related technologies:
 
-This list was compiled from reccomendations developers from the Zcash Foundation & ECC provided. 
+[Zcash wallet Warp-Sync by Hanh](https://hhanh00.github.io/zcash-sync/)
+
+[Zcash Testnet Explorer](https://testnet.zcashblockexplorer.com/)
+
+This list was compiled from recommendations developers from the Zcash Foundation & ECC provided. 
 
 If you have any additional resources (links, books, channels etc.) to update the list feel free to include them!
 
