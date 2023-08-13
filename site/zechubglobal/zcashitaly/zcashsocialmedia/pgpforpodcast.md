@@ -20,3 +20,6 @@ Sentirete interviste con leader del settore, funzionari governativi e accademici
 * [PGP Crypto Podcast #9 - Ron Hammond](https://youtu.be/wdODEjbi41o)
 * [PGP Crypto Podcast #10 - Seth Hertlein e Ian Rogers](https://www.youtube.com/watch?v=1tgNKdiKUHQ)
 * [PGP Crypto Podcast #11 - Miller Whitehouse-Levine e Amanda Tuminelli](https://youtu.be/VwRJ1Ia3h6A)
+* [PGP Crypto Podcast #12 - Bart Stephens, Fondatore e Managing Partner, Blockchain Capital](https://youtu.be/Ce58qD5SXzw)
+* [PGP Crypto Podcast #13 - Marisa Coppel, Senior Counsel, Blockchain Association](https://youtu.be/etqA9xwuCOg)
+* [PGP Crypto Podcast #14 - Edizione speciale Zcon4 con Jay Stanley (ACLU), Kurt Opsahl (Filecoin) e Jake Wiener](https://www.youtube.com/watch?v=Ior4r0YtBUE)
