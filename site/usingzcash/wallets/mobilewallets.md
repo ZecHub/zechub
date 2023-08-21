@@ -109,7 +109,7 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 
 
 
-### Safepay [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://www.safepal.com/)
+### Safepal [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://www.safepal.com/)
 | Android [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15">](https://play.google.com/store/apps/details?id=io.safepal.wallet) | iOS [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15">](https://apps.apple.com/app/apple-store/id1548297139?mt=8) |
 
 #### Pools
