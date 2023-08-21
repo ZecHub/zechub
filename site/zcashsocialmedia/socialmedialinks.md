@@ -67,6 +67,6 @@
 
 1. [r/zec](https://www.reddit.com/r/zec/)
 
-## Bitcointalk <img src="???" width="20" height="20"> 
+## Bitcointalk <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/bitcoin.svg" width="20" height="20">
 
 1. [Bitcointalk profile](https://bitcointalk.org/index.php?topic=1626185.0)
