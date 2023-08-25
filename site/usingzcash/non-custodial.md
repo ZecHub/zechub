@@ -19,7 +19,7 @@
 
  * Website: [PancakeSwap](https://pancakeswap.finance/)  
  * Pair: ZEC/ETH
- * Supports Transparent/Shielded Zcash: No Specify
+ * Supports Transparent/Shielded Zcash: Transparent 
 
 ![image](https://github.com/ManyRios/zechub/assets/34518489/0f9323c3-2fdf-4af4-b38b-a478946159c3)
 
@@ -29,7 +29,7 @@
 
 * Website: [ApeSwap](https://apeswap.finance/swap)
 * Pair: ZEC/WBNB
-* Supports Transparent/Shielded Zcash: No Specify
+* Supports Transparent/Shielded Zcash: Transparent
 
 ![image](https://github.com/ManyRios/zechub/assets/34518489/af9a73d7-5ec0-43f3-8dde-60ddb3abbe2a)
 
@@ -39,8 +39,7 @@
 
 * Website: [4Swap](https://app.4swap.org/#/swap?input=c6d0c728-2624-429b-8e0d-d9d19b6592fa&output=c996abc9-d94e-4494-b1cf-2a3fd3ac5714)
 * Pairs: BTC/ZEC | pUSD/ZEC
-* Supports Transparent/Shielded Zcash: No Specify
-
+* Supports Transparent/Shielded Zcash: Transparent
 ![image](https://github.com/ManyRios/zechub/assets/34518489/a5b57bd1-38f8-481e-9e67-7d7004466bfb)
 
 --- 
@@ -49,7 +48,7 @@
 
 * Website: [StealthEX](https://stealthex.io/?to=zec)
 * Pair: BTC/ZEC
-* Supports Transparent/Shielded Zcash: No Specify
+* Supports Transparent/Shielded Zcash: Transparent
 
 ![image](https://github.com/ManyRios/zechub/assets/34518489/e8f622c5-471e-4659-a75f-533134a0346f)
 
@@ -59,7 +58,7 @@
 
 * Website: [Changelly](https://changelly.com/)
 * Pair: BTC/ZEC | ETH/ZEC | XRP/ZEC | USDT/ZEC 
-* Supports Transparent/Shielded Zcash: No Specify
+* Supports Transparent/Shielded Zcash: Transparent
 
 ![image](https://github.com/ManyRios/zechub/assets/34518489/14e78c60-b588-4a53-8465-4398dd4eca21)
 
@@ -69,7 +68,7 @@
 
 * Website: [ChangeNow](https://changenow.io/?from=usdterc20&to=zec)
 * Pairs: All/ZEC
-* Supports Transparent/Shielded Zcash: No Specify
+* Supports Transparent/Shielded Zcash: Transparent
 
 ![image](https://github.com/ManyRios/zechub/assets/34518489/f8838b07-8897-480a-8ac6-a861e82b93f9)
 
@@ -79,7 +78,7 @@
 
 * Website: [AtomicDEX](https://app.atomicdex.io/#/dex)
 * Pairs: ZEC/ALL
-* Supports Transparent/Shielded Zcash: No Specify
+* Supports Transparent/Shielded Zcash: Transparent
 
 ![image](https://github.com/ManyRios/zechub/assets/34518489/9e0bd6cf-1ceb-4871-bd2a-8878c0f9aac2)
 
@@ -89,7 +88,7 @@
 
 * Website: [SideShift](https://sideshift.ai/usdcpolygon/zec)
 * Pairs: ALL/ZEC
-* Supports Transparent/Shielded Zcash: Yes
+* Supports Transparent/Shielded Zcash: Transparent
 
 ![image](https://github.com/ManyRios/zechub/assets/34518489/df4d01be-b7e4-4e3d-ba1d-a65682fdc2bc)
 
@@ -99,7 +98,7 @@
 
 * Website: [SimpleSwap](https://simpleswap.io/?to=zec)
 * Pairs: BTC/ZEC | ETH/ZEC | LTC/ZEC | XMR/ZEC
-* Supports Transparent/Shielded Zcash: No Specify
+* Supports Transparent/Shielded Zcash: Transparent
 
 ![image](https://github.com/ManyRios/zechub/assets/34518489/4fb8bdf4-a55e-4db3-b41a-a0331ec1841c)
 
@@ -109,7 +108,7 @@
 
 * Website: [Flyp]([Flyp](https://flyp.me/en/#/)https://flyp.me/en/#/)
 * Pairs: All/ZEC
-* Supports Transparent/Shielded Zcash: No Specify
+* Supports Transparent/Shielded Zcash: Transparent
 
 ![image](https://github.com/ManyRios/zechub/assets/34518489/95fd9b9a-8578-4f98-a11f-f6c649d69103)
 
@@ -119,7 +118,7 @@
 
 * Website: [FixedFloat](https://fixedfloat.com/en/)
 * Pairs: All/ZEC
-* Supports Transparent/Shielded Zcash: No Specify
+* Supports Transparent/Shielded Zcash: Transparent
 
 ![image](https://github.com/ManyRios/zechub/assets/34518489/0e1a9803-2ec6-4d55-90de-a5998b5abbc6)
 
@@ -129,7 +128,7 @@
 
 * Website: [Xchange](https://xchange.me/)
 * Pairs: All/ZEC
-* Supports Transparent/Shielded Zcash: No Specify
+* Supports Transparent/Shielded Zcash: Transparent
 
 ![image](https://github.com/ManyRios/zechub/assets/34518489/3ebfb62f-b92a-41c1-8ff3-617e824cc019)
 
@@ -139,7 +138,7 @@
 
 * Website: [Droidex](https://droidex.io/)
 * Pairs: All/ZEC in BSC
-* Supports Transparent/Shielded Zcash: No Specify
+* Supports Transparent/Shielded Zcash: Transparent
 
 ![image](https://github.com/ManyRios/zechub/assets/34518489/692c2d04-0fd3-464b-b151-9b65735691ce)
 
@@ -149,6 +148,6 @@
 
 * Website: [BabySwap](https://babyswap.finance/)
 * Pairs: All/ZEC
-* Supports Transparent/Shielded Zcash: No Specify
+* Supports Transparent/Shielded Zcash: Transparent
 
 ![image](https://github.com/ManyRios/zechub/assets/34518489/f72a5d0f-80ef-4836-8709-874fcb644dbd)
