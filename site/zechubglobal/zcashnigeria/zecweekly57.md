@@ -89,7 +89,7 @@ Pipinpin awọn iyatọ laarin awọn adagun-omi Idabobo Imọ Zero ati ailoruk�
 
 [Ṣe awọn spammers n ṣe rere fun nẹtiwọọki naa?](https://twitter.com/ZcashForum/status/1693430229044445287) 
 
-[Awọn iwe afọwọkọ oluranlọwọ Zcasd lati Dismad :)] (https://twitter.com/ZcashForum/status/1693385561116164360) 
+[Awọn iwe afọwọkọ oluranlọwọ Zcasd lati Dismad :)](https://twitter.com/ZcashForum/status/1693385561116164360) 
 
 [A wa fun ominira - @zcash](https://twitter.com/zcash/status/1669397156212375583) 
 
