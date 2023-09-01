@@ -1,4 +1,4 @@
-#Iwe Iroyin Osẹ-ọsẹ Zec #57
+# Iwe Iroyin Osẹ-ọsẹ Zec #57
 
 Àwọn ifunni Zcash Kékeré Ṣí fún Àwọn olubẹwẹ, Àwọn imudojuiwọn Agbègbè àti Rántí Wípé “Aṣiri jẹ Deede”
 
