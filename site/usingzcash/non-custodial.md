@@ -12,35 +12,23 @@
 
 ---
 
-## Dex where you can buy ZEC: 
+## DEX where you can buy ZEC: 
 
-### ![image](https://github.com/ManyRios/zechub/assets/34518489/3ef31e59-7e74-46da-93f4-fc70ae169a10) [PancakeSwap](https://pancakeswap.finance/)
+### ![image](https://github.com/ManyRios/zechub/assets/34518489/6556c74e-f86c-452d-9f71-090d02af86fb) [SideShift](https://sideshift.ai/usdcpolygon/zec)
 
-
- * Website: [PancakeSwap](https://pancakeswap.finance/)  
- * Pair: ZEC/ETH
- * Supports Transparent/Shielded Zcash: Transparent 
-
-![image](https://github.com/ManyRios/zechub/assets/34518489/0f9323c3-2fdf-4af4-b38b-a478946159c3)
-
---- 
-
-### ![image](https://github.com/ManyRios/zechub/assets/34518489/2afb423e-1699-4021-b14b-c595a024f2d0). [ApeSwap](https://apeswap.finance/swap) 
-
-* Website: [ApeSwap](https://apeswap.finance/swap)
-* Pair: ZEC/WBNB
+* Website: [SideShift](https://sideshift.ai/usdcpolygon/zec)
+* Pairs: ALL/ZEC
 * Supports Transparent/Shielded Zcash: Transparent
 
-![image](https://github.com/ManyRios/zechub/assets/34518489/af9a73d7-5ec0-43f3-8dde-60ddb3abbe2a)
+![image](https://github.com/ManyRios/zechub/assets/34518489/df4d01be-b7e4-4e3d-ba1d-a65682fdc2bc)
 
---- 
+---
 
-### ![image](https://github.com/ManyRios/zechub/assets/34518489/5754fd39-c976-45ce-a168-42dfa00ad9a6) [4Swap](https://app.4swap.org/#/swap?input=c6d0c728-2624-429b-8e0d-d9d19b6592fa&output=c996abc9-d94e-4494-b1cf-2a3fd3ac5714)
+### ![image](https://i.ibb.co/rbxrjFP/image-2023-09-05-202420036.png) [Trocodor](https://trocador.app/en/)
 
-* Website: [4Swap](https://app.4swap.org/#/swap?input=c6d0c728-2624-429b-8e0d-d9d19b6592fa&output=c996abc9-d94e-4494-b1cf-2a3fd3ac5714)
-* Pairs: BTC/ZEC | pUSD/ZEC
+* Website: [Trocodor](https://trocador.app)
+* Pairs: All/ZEC
 * Supports Transparent/Shielded Zcash: Transparent
-![image](https://github.com/ManyRios/zechub/assets/34518489/a5b57bd1-38f8-481e-9e67-7d7004466bfb)
 
 --- 
 
@@ -84,16 +72,6 @@
 
 --- 
 
-### ![image](https://github.com/ManyRios/zechub/assets/34518489/6556c74e-f86c-452d-9f71-090d02af86fb) [SideShift](https://sideshift.ai/usdcpolygon/zec)
-
-* Website: [SideShift](https://sideshift.ai/usdcpolygon/zec)
-* Pairs: ALL/ZEC
-* Supports Transparent/Shielded Zcash: Transparent
-
-![image](https://github.com/ManyRios/zechub/assets/34518489/df4d01be-b7e4-4e3d-ba1d-a65682fdc2bc)
-
----
-
 ### ![image](https://github.com/ManyRios/zechub/assets/34518489/2caa5808-9131-4e0b-8c5a-17c97537b008) [SimpleSwap](https://simpleswap.io/?to=zec)
 
 * Website: [SimpleSwap](https://simpleswap.io/?to=zec)
@@ -132,22 +110,11 @@
 
 ![image](https://github.com/ManyRios/zechub/assets/34518489/3ebfb62f-b92a-41c1-8ff3-617e824cc019)
 
---- 
+---
 
-### ![image](https://github.com/ManyRios/zechub/assets/34518489/7acdc9af-3b63-48d6-8a67-c025d539a033) [Droidex](https://droidex.io/)
+### ![image](https://github.com/ManyRios/zechub/assets/34518489/5754fd39-c976-45ce-a168-42dfa00ad9a6) [4Swap](https://app.4swap.org/#/swap?input=c6d0c728-2624-429b-8e0d-d9d19b6592fa&output=c996abc9-d94e-4494-b1cf-2a3fd3ac5714)
 
-* Website: [Droidex](https://droidex.io/)
-* Pairs: All/ZEC in BSC
+* Website: [4Swap](https://app.4swap.org/#/swap?input=c6d0c728-2624-429b-8e0d-d9d19b6592fa&output=c996abc9-d94e-4494-b1cf-2a3fd3ac5714)
+* Pairs: BTC/ZEC | pUSD/ZEC
 * Supports Transparent/Shielded Zcash: Transparent
-
-![image](https://github.com/ManyRios/zechub/assets/34518489/692c2d04-0fd3-464b-b151-9b65735691ce)
-
---- 
-
-### ![image](https://github.com/ManyRios/zechub/assets/34518489/967eb73f-4d27-4372-a472-ca45322b1da4) [BabySwap](https://babyswap.finance/)
-
-* Website: [BabySwap](https://babyswap.finance/)
-* Pairs: All/ZEC
-* Supports Transparent/Shielded Zcash: Transparent
-
-![image](https://github.com/ManyRios/zechub/assets/34518489/f72a5d0f-80ef-4836-8709-874fcb644dbd)
+![image](https://github.com/ManyRios/zechub/assets/34518489/a5b57bd1-38f8-481e-9e67-7d7004466bfb)
