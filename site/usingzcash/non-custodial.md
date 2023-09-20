@@ -32,6 +32,13 @@
 
 --- 
 
+### ![image](https://i.ibb.co/Px2BbMH/image-2023-09-18-184017404.png) [DCRDEX](https://dex.decred.org)
+
+* Website: [DCRDEX](https://dex.decred.org)
+* Pairs: BTC/ZEC | USDC/ZEC
+* Supports Transparent/Shielded Zcash: Transparent
+
+--- 
 ### ![image](https://github.com/ManyRios/zechub/assets/34518489/6d2f987e-1a14-46fe-8734-c3da8d563db6) [StealthEX](https://stealthex.io/?to=zec)
 
 * Website: [StealthEX](https://stealthex.io/?to=zec)
