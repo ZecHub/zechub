@@ -5,7 +5,7 @@ Pretty Good Privacy (PGP) is a cryptographic software package that provides secu
 ## Available Tools
 There are many different PGP tools available, but some of the most popular ones include:
 
-* [GPG](https://gpgtools.org/: GPG is a free and open-source PGP implementation that is available for Windows, macOS, and Linux.
+* [GPG](https://gpgtools.org/): GPG is a free and open-source PGP implementation that is available for Windows, macOS, and Linux.
 
 ![1](https://github.com/ZecHub/zechub/assets/81990132/89689cb0-f4b4-490c-b381-bfcf54b7b269)
 
