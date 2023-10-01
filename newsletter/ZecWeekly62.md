@@ -1,6 +1,6 @@
 # ZecWeekly #62 
 
-ECC Transparency Report, New Mobile SDK's in Beta and ZCAP grows! 
+ECC Transparency Report, New Mobile SDK's in Beta and ZCAP adds 21 Members! 
 ---
 
 Curated by "Technopapi" ([Tecnopapapi](https://twitter.com/tecnopapapi))
@@ -9,7 +9,9 @@ Curated by "Technopapi" ([Tecnopapapi](https://twitter.com/tecnopapapi))
 
 #### Welcome to ZecWeekly
 
-This week we bring exciting news about the updated Mobile SDK v2.0 for iOS and Android developers, a list of Zcash Minor Grants proposals and will learn everything Zcash with Zechub's *Zcash 101*
+This week we bring exciting news about the updated Mobile SDK v2.0 for iOS and Android developers, a list of Zcash Minor Grants proposals and will learn everything Zcash with Zechub:
+
+[Zcash 101 - Free2Z](https://free2z.cash/ZecHub/zpage/zcash-101)
 
 ---
 
@@ -17,19 +19,23 @@ This week we bring exciting news about the updated Mobile SDK v2.0 for iOS and A
 
 #### ECC and Zcash Foundation Updates
 
- [ECC announced the release of the Zcash Mobile Wallet SKD 2.0 for Android and iOS developers](https://forum.zcashcommunity.com/t/all-ecc-teams-focused-on-wallet-performance/42860/160)
+[ECC release Mobile Wallet SKD 2.0](https://forum.zcashcommunity.com/t/all-ecc-teams-focused-on-wallet-performance/42860/160)
 
-[ECC September Transparency Report released](https://electriccoin.co/blog/ecc-transparency-report-for-q1-2023/)
+[ECC Q1 Transparency Report](https://electriccoin.co/blog/ecc-transparency-report-for-q1-2023/)
 
-[Nighthawk Wallet launches V2 Beta version implementing the SDK 2.0 improvements](https://forum.zcashcommunity.com/t/nighthawk-apps-announces-the-revamped-nighthawk-wallet/45731)
+[ZFAV Club Dweb recap in Discord](https://twitter.com/ZFAVClub/status/1707393422200369639)
+
+[Secret Network joins PGP for Crypto Briefing on Capitol Hill October 17th](https://twitter.com/SecretNetwork/status/1707804067810902305)
 
 
 #### Zcash Community Grants Updates
 
-[ZCAP has 21 new members](https://forum.zcashcommunity.com/t/expanding-zcap/41710/79)
+[ZCAP now has 21 new members!](https://forum.zcashcommunity.com/t/expanding-zcap/41710/79)
 
 
 #### Community Projects
+
+[Nighthawk Wallet launches V2 Beta version](https://forum.zcashcommunity.com/t/nighthawk-apps-announces-the-revamped-nighthawk-wallet/45731)
 
 [Gitopia, A Zechub Experiment](https://free2z.cash/ZecHub/zpage/gitopia-a-zechub-experiment)
 
@@ -38,6 +44,8 @@ This week we bring exciting news about the updated Mobile SDK v2.0 for iOS and A
 [Free2Z writing contest](https://free2z.cash/zcashesp/zpage/mes-aniversario-de-zcash) 
 
 [A Spanish video guide to start up on Free2Z](https://free2z.cash/podcast/zpage/guia-para-tus-primeros-pasos-en-free2z) 
+
+[Zerodartz made a recap page for Zcon4](https://free2z.com/zerodartz/zpage/do-not-read-zerodartz-longass-zcon4-story-it-will-take-a-while-to-read-it-lmeow)
 
 
 #### News & Media
@@ -58,9 +66,13 @@ This week we bring exciting news about the updated Mobile SDK v2.0 for iOS and A
 
 ## Some Zcash Tweets
 
-[FROST Demo and Q&A](https://x.com/ZcashFoundation/status/1707455401229172898)
+[FROST Demo and Q&A - October 5th, 6pm UTC](https://x.com/ZcashFoundation/status/1707455401229172898)
 
 [Zcash Code of Conduct](https://x.com/gordonesTV/status/1707011523514601851)
+
+[Zpace with Privacy Maps - Twitter Spaces](https://twitter.com/zcashesp/status/1707168427641655399)
+
+[Zerodartz starts Nighthawk app + syncs in 2mins!](https://twitter.com/zerodartz/status/1707776853392441821)
 
 [A Zingo Poem in spanish](https://x.com/Lexaleth/status/1707209980581945697)
 
@@ -69,6 +81,15 @@ This week we bring exciting news about the updated Mobile SDK v2.0 for iOS and A
 [Criptoneros on Zcash anniversary](https://x.com/Criptoneros/status/1707536202671206527)
 
 [Zcash Private Wallets](https://x.com/ZecHub/status/1706387020409450806)
+
+[The integration has everyone with the 'nervous nerves' - Zcast](https://twitter.com/robmarn/status/1707921094642929927)
+
+[Zcash bday 10/28, mine is 10/30 Double the party this year](https://twitter.com/gordonesTV/status/1707915471364788243)
+
+[Job opening for infosec pro to be on cutting edge of privacy](https://twitter.com/zooko/status/1707410918727151979)
+
+[The Brave x ECC x Filecoin partnership announcement](https://twitter.com/TrendsXBT/status/1707860529656574221)
+
 
 
 ## Zeme of the Week
