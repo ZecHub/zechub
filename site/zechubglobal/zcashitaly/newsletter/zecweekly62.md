@@ -4,7 +4,7 @@
 
 Rapporto sulla trasparenza dell'ECC, nuovo SDK mobile in beta e ZCAP aggiunge 20 membri!
 
-Curated by "Technopapi" ([Tecnopapapi](https://twitter.com/tecnopapapi)), tradotto da [Olek](https://twitter.com/an_Olek).
+A cura di "Technopapi" ([Tecnopapapi](https://twitter.com/tecnopapapi)), tradotto da [Olek](https://twitter.com/an_Olek).
 
 ---
 
