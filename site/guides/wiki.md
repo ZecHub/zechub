@@ -28,19 +28,13 @@ __Efficient Synchronization__: Lightwalletd enables efficient synchronization fo
 
 Here is a list of some current Zcash Lightwallet Nodes that users can connect to:
 
-1. [Zingo](https://www.zingolabs.org/)
+[North America](https://na.lightwalletd.com/)
 
-2. [Ywallet](https://ywallet.app/)
+[South America](https://sa.lightwalletd.com/)
 
-3. [Ledger](https://www.ledger.com/coin/wallet/zcash)
+[Europe & Africa](https://eu.lightwalletd.com/)
 
-4. [Nighthawk](https://nighthawkwallet.com/)
-
-5. [Flexa](https://app.flexa.network/explore/transformer/zcash)
-
-6. [Trezor](https://trezor.io/coins/detail/zcash)
-
-7. [Unstoppable](https://unstoppable.money/)
+[Asia & Oceania](https://ai.lightwalletd.com/)
 
 ## Changing Servers in Ywallet/Zingo
 
