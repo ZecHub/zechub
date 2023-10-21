@@ -9,9 +9,7 @@ The Global Ambassador Program is designed to identify community members who make
   * Maintaining an active presence on social media, and creating original content related to Zcash.
   * Ambassadors have creative freedom over the activities they plan. 
   
-## Current Ambassadors
-
-  [Current list](https://forum.zcashcommunity.com/t/the-global-ambassador-program/41070/120)
+## [Global Ambassador Website](https://zcashambassadors.com)
   
 
 
