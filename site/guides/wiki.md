@@ -47,7 +47,7 @@ __Access Settings__: Find and access the settings or preferences menu within the
 __Select Server__: Look for the option to change the lightwallet node server. This option is usually named "Change server" or "Node settings."
 
 __Enter Server Information__: You will be prompted to enter the new server's address. Input the URL of the desired server from the current list or any other server you prefer.
-__
+
 __Save or Confirm__: Save the changes, and the application should now connect to the new server.
 
 Remember to ensure that the new server is active and reliable to maintain seamless communication with the Zcash network.
