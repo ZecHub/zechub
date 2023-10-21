@@ -1,18 +1,7 @@
-# Non-Custodial Exchanges
-
-## Differences between Dex & Cex: 
-
-* Ownership and control: A DEX is owned and controlled by its users, while a CEX is owned and controlled by a central authority. This means that users have full control of their funds on a DEX, while their funds are held by the central authority on a CEX.
-* Liquidity: DEXs typically have lower liquidity than CEXs. This is because DEXs rely on users to provide liquidity, while CEXs have their own liquidity pools.
-* Security: DEXs are generally considered to be more secure than CEXs. This is because DEXs do not store user funds, and they use smart contracts to facilitate trading. However, DEXs can still be vulnerable to hacks, so it is important to do your research before using one.
-* User experience: DEXs are typically more difficult to use than CEXs. This is because DEXs require users to interact with smart contracts, which can be complex. CEXs, on the other hand, have a more user-friendly interface that is designed for beginners.
-* Fees: DEXs typically have lower fees than CEXs. This is because DEXs do not need to charge fees to cover the costs of operating a central authority.
-* Regulation: CEXs are often regulated by governments, while DEXs are not. This means that CEXs may be subject to more scrutiny and oversight, but they may also be more vulnerable to government interference.
-* Innovation: DEXs are often at the forefront of innovation in the cryptocurrency space. This is because they are not subject to the same regulatory constraints as CEXs.
+# DEX where you can buy ZEC: 
 
 ---
 
-## DEX where you can buy ZEC: 
 
 ### ![image](https://github.com/ManyRios/zechub/assets/34518489/6556c74e-f86c-452d-9f71-090d02af86fb) [SideShift](https://sideshift.ai/usdcpolygon/zec)
 
