@@ -22,19 +22,18 @@
 - Pairs: All/ZEC
 - Supports Transparent/Shielded Zcash: Transparent
 
-![Untitled](Non-Custodial%20Exchanges%20that%20list%20Zcash%20a5602f3c5104420f9f35d24d774a6385/Untitled.png)
+![](https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/69b9eaab-9b40-49db-b153-ae711b716bdd/Untitled/w=1200,quality=80)
 
 ---
 
 ### [DCRDEX](https://dex.decred.org)
 
-![https://i.ibb.co/Px2BbMH/image-2023-09-18-184017404.png](https://i.ibb.co/Px2BbMH/image-2023-09-18-184017404.png)
 
 - Website: [DCRDEX](https://dex.decred.org)
 - Pairs: BTC/ZEC  |  USDC/ZEC
 - Supports Transparent/Shielded Zcash: Transparent
 
-![Untitled](Non-Custodial%20Exchanges%20that%20list%20Zcash%20a5602f3c5104420f9f35d24d774a6385/Untitled%201.png)
+![](https://i.ibb.co/Px2BbMH/image-2023-09-18-184017404.png)
 
 ---
 
