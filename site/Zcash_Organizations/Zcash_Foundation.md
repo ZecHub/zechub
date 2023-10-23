@@ -27,7 +27,7 @@ The Zcash Foundation receives 5% of the [Zcash development fund](https://zips.z.
 
 ## Zcash Community Grants Program
 
-<image src="https://zcashcommunitygrants.org/images/logos/yellow/ZCG%20Circle%20Logo-10.png" height=25% width=25%>
+<image src="https://zcashcommunitygrants.org/images/logos/yellow/ZCG%20Circle%20Logo-10.png" height="250" width="250" />
   
 [https://zcashgrants.org/submit](https://zcashgrants.org/submit)
 
