@@ -1,4 +1,4 @@
-# WHY PRIVACY MATTERS
+# Why Privacy Matters
 
 In the digital era, safeguarding your [privacy](https://www.privacyguides.org/en/) has become increasingly vital. While some may view privacy as a lost cause, it is not. Your privacy is at stake and should be a concern. Privacy holds significant value as it relates to power, and ensuring that power is wielded responsibly is crucial.
 
