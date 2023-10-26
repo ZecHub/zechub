@@ -21,7 +21,7 @@ Currently there are three main types of addresses in use to date. These include
 
 * Unified Address (Full)
 
-<img src="https://user-images.githubusercontent.com/81990132/219261794-bcc79db6-4dc6-4c6a-867b-3717b81e6b71.png" alt="fullUA" width="250" height="200" />
+<img src="https://user-images.githubusercontent.com/81990132/219261794-bcc79db6-4dc6-4c6a-867b-3717b81e6b71.png" alt="fullUA" width="260" height="200" />
 
 
 First thing to notice is how the length of each type of address is different. You can see this visually by the number of characters in the address string *or* by looking at the associated QR codes. As length of the address increases, the QR code tends to zoom out and fit more data into the square.
