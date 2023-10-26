@@ -12,17 +12,16 @@ Currently there are three main types of addresses in use to date. These include
 
 * transparent
 
-![trans1](https://user-images.githubusercontent.com/81990132/219261771-a9957ec3-2841-4073-9cfd-1db9d6356693.png)
-
+<img src="https://user-images.githubusercontent.com/81990132/219261771-a9957ec3-2841-4073-9cfd-1db9d6356693.png" alt="trans1" width="250" height="200" />
 
 * sapling
 
-![Sapling](https://user-images.githubusercontent.com/81990132/219261784-1a617e70-f588-4eed-96bf-f0789d7af58a.png)
+<img src="https://user-images.githubusercontent.com/81990132/219261784-1a617e70-f588-4eed-96bf-f0789d7af58a.png" alt="Sapling" width="250" height="200" />
 
 
 * Unified Address (Full)
 
-![fullUA](https://user-images.githubusercontent.com/81990132/219261794-bcc79db6-4dc6-4c6a-867b-3717b81e6b71.png)
+<img src="https://user-images.githubusercontent.com/81990132/219261794-bcc79db6-4dc6-4c6a-867b-3717b81e6b71.png" alt="fullUA" width="250" height="200" />
 
 
 First thing to notice is how the length of each type of address is different. You can see this visually by the number of characters in the address string *or* by looking at the associated QR codes. As length of the address increases, the QR code tends to zoom out and fit more data into the square.
@@ -44,23 +43,19 @@ Besides a full UA, here are the most common that you will find in the wild:
 
 * transparent + sapling
 
-![TransSaplingUA](https://user-images.githubusercontent.com/81990132/219267475-38ad1419-0aac-4205-b18e-6873283f9d85.png)
-
+<img src="https://user-images.githubusercontent.com/81990132/219267475-38ad1419-0aac-4205-b18e-6873283f9d85.png" alt="TransSaplingUA" width="250" height="200" />
 
 * transparent + orchard
 
-![TransOrchUA](https://user-images.githubusercontent.com/81990132/219267496-90db21ff-f4e1-4a50-8f2a-1a71d995652a.png)
-
+<img src="https://user-images.githubusercontent.com/81990132/219267496-90db21ff-f4e1-4a50-8f2a-1a71d995652a.png" alt="TransOrchUA" width="250" height="200" />
 
 * sapling + orchard
 
-![SapOrcUA](https://user-images.githubusercontent.com/81990132/219267520-6b731ec2-e911-4469-acc5-c39d4addcac2.png)
-
+<img src="https://user-images.githubusercontent.com/81990132/219267520-6b731ec2-e911-4469-acc5-c39d4addcac2.png" alt="SapOrcUA" width="250" height="200" />
 
 * orchard
-
-![OrchUA](https://user-images.githubusercontent.com/81990132/219267538-1a748fff-4034-4559-96ac-182723409b3a.png)
-
+  
+<img src="https://user-images.githubusercontent.com/81990132/219267538-1a748fff-4034-4559-96ac-182723409b3a.png" alt="OrchUA" width="250" height="200" />
 
 First thing to note is that each of these UA's are from the same private key! Second thing to note is the lengths of each type of UA:
 
