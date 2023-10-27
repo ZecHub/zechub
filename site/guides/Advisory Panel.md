@@ -1,6 +1,6 @@
 # Zcash Community Advisory Panel
  
- !(Zcash logo)[aasets/Zcash-Logo-for-STH.png] 
+ ![Zcash logo](assets/Zcash-Logo-for-STH.png)
 
 The __Zcash Community Advisory Panel (ZCAP)__ is a group of individuals dedicated to ensuring the continued development, security, and success of Zcash, a privacy-focused cryptocurrency. ZCAP plays a crucial role in the Zcash ecosystem by providing advice, feedback, and voting on proposals related to the Zcash blockchain and its development.
 
