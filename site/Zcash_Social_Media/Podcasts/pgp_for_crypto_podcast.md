@@ -23,4 +23,8 @@ You’ll hear interviews with industry leaders, government officials, and academ
 * [PGP for Crypto Podcast #12 - Bart Stephens, Founder and Managing Partner, Blockchain Capital](https://youtu.be/Ce58qD5SXzw)
 * [PGP for Crypto Podcast #13 - Marisa Coppel, Senior Counsel, Blockchain Association](https://youtu.be/etqA9xwuCOg)
 * [PGP for Crypto Podcast #14 - Zcon4 Special Edition featuring Jay Stanley (ACLU), Kurt Opsahl (Filecoin), and Jake Wiener](https://www.youtube.com/watch?v=Ior4r0YtBUE)
+* [PGP for Crypto Podcast #15 - Vitalik Buterin, Co-Creator of Ethereum, and Zooko Wilcox, Founder and CEO, Electric Coin Co.](https://www.youtube.com/watch?v=52DlSLx0_lY)
+* [PGP for Crypto Podcast #16 - Christopher Edwards, Head of Coinbase Institute, and Nick Carr, Stand with Crypto Alliance](https://www.youtube.com/watch?v=YG211M_w9pw)
+* [PGP for Crypto Podcast #17 - Ryan Polk, Director of Internet Policy at Internet Society](https://youtu.be/N-R_cex5Qw0?si=UEKbb3C-JRxmX05r)
+* [PGP for Crypto Podcast #18 - Global Encryption Day 2023: Congressional Briefing and Panel](https://www.youtube.com/watch?v=XUEDjndJvBU)
 
