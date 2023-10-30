@@ -2,15 +2,15 @@
 
 In the digital age, maintaining online privacy and security is of paramount importance. Virtual Private Networks (VPNs) and decentralized VPNs (dVPNs) play a crucial role in safeguarding your online activities and data. This wiki page explores the key differences between traditional VPNs and emerging dVPNs, security considerations when selecting a VPN, and a list of VPN services that accept the privacy-centric cryptocurrency, Zcash.
 
-# VPN vs. dVPN: What's the Difference?
+# VPN vs. DVPN: What's the Difference?
 
 __Virtual Private Networks (VPNs)__: Traditional VPNs create a secure, encrypted tunnel between your device and a remote server controlled by the VPN provider. This tunnel conceals your online activities from prying eyes, such as hackers, ISPs, or government agencies. VPNs are widely used for purposes like anonymous browsing, accessing geo-restricted content, and protecting against cyber threats.
 
-![VPN](assets/image-223.png)
+![VPN](guides/assets/image-223.png)
 
 __Decentralized VPNs (dVPNs)__: In contrast, dVPNs leverage blockchain and peer-to-peer technology to create a decentralized network of nodes. Users' traffic is routed through these nodes, making it difficult for any single entity to monitor or control the entire network. dVPNs are typically more resistant to censorship, as there is no centralized authority overseeing the network. They are well-suited for users seeking enhanced privacy and security.
 
-![DVPN](assets/dvpn.png)
+![DVPN](guides/assets/dvpn.png)
 
 # Security Considerations When Selecting a VPN
 
@@ -41,4 +41,4 @@ Zcash (ZEC) is a cryptocurrency designed for enhanced privacy, making it a favor
 
 Keep in mind that the availability of cryptocurrency payment options may change, so it's advisable to check the VPN provider's website or contact their customer support for the most current information on accepted payment methods, including Zcash.
 
-![blockchain](assets/Illustrative-Network-Diagram-of-the-Layer-3-Federation-Connection.ppm)
+![blockchain](guides/assets/Illustrative-Network-Diagram-of-the-Layer-3-Federation-Connection.ppm)
