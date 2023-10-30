@@ -23,3 +23,7 @@ Additionally, the live format creates a sense of connection with the audience, w
   * Zcash Podcast 5 with Naomi Brockwell: How to Live a Modern Privacy-Conscious Lifestyle | [YouTube](https://www.youtube.com/watch?v=GpZAY5O2nJQ&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=6) | [Odysee](https://odysee.com/@DigitalCashNetwork:c?view=content) |
   * Zcash Podcast 6 with Zooko Wilcox: Governance and Zcash's Path Ahead | [YouTube](https://www.youtube.com/watch?v=VZeM7bvWWPg&list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w&index=6&pp=iAQB) | [Odysee](https://t.co/MDW7FoXgxm)|
   * Zcash Podcast 7 with Jake of ZecSpends: Using Zcash As Digital Cash Today | [YouTube](https://www.youtube.com/live/yZ1Y1qMu3UE) | [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-7:0)|
+  * Zcash Podcast 8 with Ryan Taylor of Zcash Foundation A/V Club: #ZCon4 Recap! |  [YouTube](https://www.youtube.com/live/hO4M_bojzho?si=GhmTZmyp95DZZlYX)  |  [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-8:f) |
+  * Zcash Podcast 9 with Allan Scott and Kieran Mesquita of Railgun |  [YouTube](https://www.youtube.com/live/K73xAlaflKU?si=xWOUTWpE5vvJ-6lc)  |  [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-9:7) |
+  * Zcash Podcast 10 with Aditya Bharadwaj of Nighthawk and Aaluxx of the Maya Protocol
+ |  [YouTube](https://www.youtube.com/live/E7NmqiGU-48?si=eXu6MGtkte2I17Ob)  |  [Odysee](https://odysee.com/@DigitalCashNetwork:c/Zcash-Podcast-10:7) |
