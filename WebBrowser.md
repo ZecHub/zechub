@@ -1,3 +1,4 @@
+
 **INTRODUCTION**
 
 First things first, it is worth mentioning that Zcash has become a global sensation since its debut; 2024 is shaping up to be an exceptional year for ZecHub as we hope to reach great milestones. In this article, we will discuss about Web Browsers! We basically use them almost every day. We’d also take a sneak peek at some security considerations to keep in mind while using them. So, I’ll kick things off by defining what a web browser really is.
