@@ -21,16 +21,8 @@ When selecting a web browser there are a few things to keep in mind: Just so you
 
 While security is a pivotal topic in the light of web browsers, it is also at the forefront of blockchain technology! Using zero-knowledge proof, the individual's wallet balance and transaction history are not displayed publicly. That's where Zcash comes in! 
 
-## What Is Zcash?
-
-Zcash is one of the most groundbreaking, yet simple and secure currencies that protects the user’s privacy; it allows for the purchasing, and sending of money to friends and crypto applications as well. 
-
-### Important Security Considerations For "ZecHub Privacy Tools Section"
-For individuals to get the most out of ZecHub privacy tools, the community should ensure the tool uses robust encryption methods to protect data both in transit and at rest. Most time, we don't pay attention to the terms and privacy side of things; it is also important that we read and understand the tool's privacy policies and terms of service to see whether they truly align with our privacy expectations or not. While also exploring ZecHub's privacy tool section, be sure to select tools that give you control over your data, allowing you to customize privacy settings to your preferences.
-
+ 
 ## Brave Browser Integration
 
-Brave browser is paving the way for the web3 ecosystem. How? More than 2 million unstoppable domains can now be leveraged for displaying decentralized websites. With Brave’s robust security feature, people can explore the internet without being tracked. The Brave browser team is deepening the Brave integration beyond .crypto domain to include more top-level domains like .wallet, .ntf, .dao, and much more to explore. 
+Brave browser is paving the way for the web3 ecosystem. How? More than 2 million unstoppable domains can now be leveraged for displaying decentralized websites. With Brave’s robust security feature, people can explore the internet without being tracked. Brave and Zcash are joining forces to bring new privacy tools to Web3 ecosysem. For greater benefits, Brave would integrate swiftly with Zcash protocol via Brave's built-in crypto wallet - This integration would enable users to safely store, send , and receive ZEC very easily plus other crypto currencies as well.
 
-Momentarily, there is a huge list of  Brave browser integrations and software that integrates with Brave browser. They are 
-1inch Wallet, Kasm Workspaces, BitPay, BlockWallet, Brave Search, MetaMask, and much more!
