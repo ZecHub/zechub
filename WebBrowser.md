@@ -18,10 +18,15 @@ A web browser is a special type of software application that allows people to fi
 
 ## What Are The Security Considerations When Selecting A Web Browser?
 
-When selecting a web browser there are a few things to keep in mind: Just so you know, security vulnerabilities and exploits are usually discovered regularly so, choose a web browser that consistently receives security updates and patches. More so, when selecting that browser that you feel might suit your needs, make sure it provides robust privacy features and essential features such as built-in ad blockers and whatnot. Additionally, many of these web browsers support extensions plus add-ons, and sometimes these extensions may pose security risks, be sure to always install these extensions from a secured ecosystem or trusted sources. 
+When selecting a web browser there are a few things to keep in mind: Just so you know, security vulnerabilities and exploits are usually discovered regularly. Some browsers are traceable in some manner, but, there are browsers that allow users to browse anonymously - [Tor browser](https://www.torproject.org/download/) for example. 
 
-While security is a pivotal topic in the light of web browsers, it is also at the forefront of blockchain technology! Using zero-knowledge proof, the individual's wallet balance and transaction history are not displayed publicly. That's where Zcash comes in! 
+**Fingerprinting**: If you want to keep things private like, softwares installed on your machine, hardware configuration, and more, consider looking out for web browser that supports fingerprinting resistance feature. 
 
+**HTTPS Test**: Another security consideration to look out for when selecting a web browser is the HTTPS Test protocol that helps to encrypt website connection and hides cookies, URLs and other types of sensitive metadata. With HTTPS, connection is encrypted and no third parties on the network can read content being transferred between the server and your browser. 
+
+**Tracking Cookie Protection**: More so, a large portion of web pages in the world wide web has hidden third-party trackers; these trackers read and write cookies in your browser. These cookies can pose malicious treats because they can be used to track your browsing across websites; to prevent this tracking, select a web browser that blocks unknown browsing cookies.
+
+**Navigation Test**: As you navigate from one web page to another, you will come across many links (some are internal links while others are linking to another website). As you click these links, certain browser APIs allow the first site to communicate with the second site. To resolve this, select a web browser that prevents websites from sharing tracking data when you click on a link. When selecting that browser that you feel might suit your need, make sure it provides robust privacy features and essential features such as built-in ad blockers and what not. Additionally, many of these web browsers support extensions plus add-ons and sometimes these extensions may pose security risks, be sure to always install these extensions from a secured ecosystem or trusted sources.
  
 ## Brave Browser Integration
 
