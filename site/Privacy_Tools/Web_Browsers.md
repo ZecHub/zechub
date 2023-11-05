@@ -1,5 +1,4 @@
-
-**INTRODUCTION**
+**Introduction**
 
 First things first, it is worth mentioning that Zcash has become a global sensation since its debut; 2024 is shaping up to be an exceptional year for ZecHub as we hope to reach great milestones. In this article, we will discuss about Web Browsers! We basically use them almost every day. We’d also take a sneak peek at some security considerations to keep in mind while using them. So, I’ll kick things off by defining what a web browser really is.
 
@@ -7,14 +6,13 @@ First things first, it is worth mentioning that Zcash has become a global sensat
 
 A web browser is a special type of software application that allows people to find, view content, access, and display websites on the Internet. There are many different web browsers out there, I’ll discuss some of the top options used by individuals.
 
-1. **BRAVE:** is one of the most prominent and safest browsers on the market today. It blocks privacy-invasive ads & trackers. It blocks third-party data storage. 
+1. **Brave:** is one of the most prominent and safest browsers on the market today. It blocks privacy-invasive ads & trackers. It blocks third-party data storage. 
 ![Brave.png](https://images.app.goo.gl/BvjTC5yyNkpb5Qkb8)
 
-2. **Google Chrome:** is another exceptional web browser that was built by the tech giant itself - Google. Chrome is known to be fast, secure, and customizable as well. 
-![Chrome.png](https://images.app.goo.gl/WA9yoA781SH6MdCbA)
+2. **Mulvad**:
 
-3. **Microsoft Edge**: coming in hot at number 3 is Microsoft Edge, it is the default browser for all Windows 10 devices and highly compatible with the modern web - One of the most fascinating things about Microsoft Edge is that it offers the most comprehensive set of built-in learning and accessibility tools on the web and much more.
-![MicrosoftEdge.png](https://images.app.goo.gl/Vc81hPAtVxsjsPaJ9)
+3. **Tor**:
+4. 
 
 ## What Are The Security Considerations When Selecting A Web Browser?
 
