@@ -34,10 +34,42 @@ When choosing a VPN service, it's important to consider the following security f
 
 Zcash (ZEC) is a cryptocurrency designed for enhanced privacy, making it a favored choice for individuals seeking anonymity in their financial transactions. While not all VPN services accept Zcash directly, some may accept cryptocurrency payments through intermediary services. However, it's essential to check with the VPN provider directly for the most up-to-date payment options. Here are a few VPN services known to accept cryptocurrency payments:
 
-1. __ExpressVPN__
-2. __NordVPN__
-3. __CyberGhost__
-4. __Private Internet Access (PIA)__
+1. [__Mullvad VPN__](https://mullvad.net/en)
+   
+   Mullvad VPN is a highly regarded VPN service known for its strong commitment to user privacy and security. It is one of the few VPN providers that accepts cryptocurrency, including 
+   Zcash, as a payment method. Mullvad's core features include:
+
+   __No-Logs Policy__: Mullvad follows a strict no-logs policy, meaning it does not store any data related to your online activities.
+
+   __Strong Encryption__: The service employs robust encryption protocols, including WireGuard, to protect your data.
+
+   __Multi-Hop VPN__: Mullvad offers the option for multi-hop connections, which route your traffic through multiple servers to enhance privacy and security.
+
+   __Bridge Mode__: It has a bridge mode that can help bypass certain censorship measures.
+
+   __Anonymous Account Creation__: Users are assigned a randomly generated account number, eliminating the need for personal information during signup.
+
+   __Zcash Payment__: Mullvad accepts Zcash as a payment option, allowing users to pay for their subscription with enhanced privacy.Mullvad VPN.
+
+3. [__Nym VPN (dVPN)__](https://nymtech.net/)
+   
+   Nym VPN is a decentralized VPN (dVPN) that focuses on enhancing user privacy and security through a privacy-centric network. Nym VPN operates differently from traditional VPNs by 
+   utilizing a mixnet, where user traffic is routed through a network of nodes. Key features of Nym VPN include:
+
+   __Decentralization__: Nym VPN is decentralized and open-source, reducing the risk of central control and censorship.
+
+   __Privacy Mixnet__: The service routes user traffic through a mixnet, making it challenging for any single entity to monitor or analyze network traffic.
+
+   __Node Operation__: Users can operate nodes to contribute to the network and earn rewards, further decentralizing the infrastructure.
+
+   __Strong Privacy__: Nym VPN is designed with privacy in mind, and it does not require users to provide personal information during account creation.
+
+## Other VPN's supporting zcash payment:-
+
+ 3. [__ExpressVPN__](https://www.expressvpn.com/)
+ 4. [__NordVPN__](https://nordvpn.com/)
+ 5. [__CyberGhost__](https://www.cyberghostvpn.com/en_US/)
+ 6. [__Private Internet Access (PIA)__](https://www.privateinternetaccess.com/)
 
 Keep in mind that the availability of cryptocurrency payment options may change, so it's advisable to check the VPN provider's website or contact their customer support for the most current information on accepted payment methods, including Zcash.
 
