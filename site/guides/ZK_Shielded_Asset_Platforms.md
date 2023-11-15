@@ -1,0 +1,187 @@
+# Zero Knowledge Asset Platforms
+
+
+
+1. **[Firn Protocol](https://app.firn.cash/)**: Firn is the first-ever zero-knowledge privacy platform in the account-based model, and introduces pluggable, flexible privacy to Ethereum-based chains.Using zero-knowledge proofs, Firn delivers secure, efficient funds privacy for users of Ethereum and Ethereum-based L2s. **HOW IT WORKS?**
+To use Firn, deposit ETH into the protocol. Once you have a Firn balance, you can privately transfer funds to other Firn users, or engage with other protocols, like Uniswap. You can also privately withdraw funds back to the network. Firn charges a small fee, of 0.79%, on all ETH with drawals. These fees are disbursed proportionally to holders of FIRN Token - **Asset Swap**: Yes - [Whitepaper](https://firn.cash/whitepaper.pdf) - ![Firn Logo png](https://images.app.goo.gl/nbvuxLsGfS63kd5C8)
+***
+
+2. **[RAILGUN](https://railgun.org/):** As a layer-1 smart contract,Railgun exists to be a Private transfers and DeFi infrastructure owing its existence to Ethereum, Polygon, Binance Smart Chain, and Arbitrum.
+Setup your non-custodial RAILGUN Wallet, Shield any ERC-20 token into a 0zk address of your choice, Once shielded, tokens, balances, and transactions are encrypted - **Asset Swap**: Yes - [Whitepaper](https://docs.railgun.org/wiki) - ![RailGun Logo](https://images.app.goo.gl/sdW7zwBHv9Tjuabd6)
+***
+
+3. **[StarkEX](https://starkware.co/starkex/):** A Layer-2 scalability engine, live on Ethereum Mainnet. Transactions are batched off-chain and sent to StarEX services. StarEX validates transactions and relevant balances are updated;it generates STARK proofs based on the validity of the transaction. An on-chain verifier smart contracts receive and verify the STARK proof - **Asset Swap**: No - [Whitepaper](https://docs.starkware.co/starkex-v4/) - ![StarkEX Logo](https://images.app.goo.gl/RtgvKynozNUszECc9)
+***
+
+4. **[Manta Network](https://www.manta.network/):** On-Chain Privacy for Web 3, DeFi and more.  Manta Atlantic, the fastest ZK L1 chain, brings programmable privacy to web3 through compliant on-chain privacy and identity. $MANTA has a fixed supply of 1,000,000,000 with no inflation schedule. The $MANTA tokens will be burned automatically as soon as they are redeemed - **Asset Swap**: Yes - [Whitepaper](https://docs.manta.network/) - ![Manta Network Logo](https://images.app.goo.gl/qSSpn8tqMMa9sWpQ7)
+***
+
+5. **[Boltz](https://boltz.exchange/):**  Boltz is a Layer 2 solution. Boltz is a privacy-first, non-custodial bitcoin exchange built to bridge different layers of Bitcoin like the liquid and lightning network. With Boltz, users can seamlessly swap their bitcoin between layers. Boltz Swaps are non-custodial, which means users can always rest assured to be in full control of their bitcoin throughout the entire flow of a swap - **Asset Swap**: - Yes - [Whitepaper](https://docs.boltz.exchange/en/latest/) - ![Boltz Logo](https://images.app.goo.gl/rgFN4BY474bUaLEW9)
+***
+
+6. **[ZERO](https://zero.directory/)** With Zero, your transactions are your business. ZERO FEES, private transactions, DeFi, Open Source & available to all. Zero offers total payment confidentiality, while still maintaining a decentralized network using a public blockchain. Zero combines Bitcoin’s security with Zcash’s anonymity and privacy. Zero is a network operating by the three fundamental principles of technological freedom: Decentralization, Open Source code and true Peer-to-Peer technology. With Privacy being a fundamental human right. [Download Zero Wallet](https://github.com/zerocurrencycoin/Zero-Wallets/releases)
+. Download one of our wallets, or one of the third-party applications that support Zero in order to send and receive you coins. Purchase & Create a Wallet
+Once your wallet is downloaded and activated you can add some Zero via one of our exchanges or swap services, you can even use your Credit/Debit card to purchase, and Send/Receive with Wallet; the process of sending Zero is very easy. In two words, you need to send the receiver's public Zero t or z address in your wallet, specify the amount, confirm the address and send. - **Asset Swap**: Yes - [Whitepaper](https://zero.directory/about-zero/)
+***
+
+7. **[ShadeProtocol](https://shadeprotocol.io/)**: Shade Protocol is a layer-2 array of connected privacy-preserving DeFi applications built on Secret Network. These key applications are stablecoins, governance, bonds, staking derivatives, insurance, synthetics, lending, DEXs, and more - **Asset Swap**: Yes - [Whitepaper](https://framerusercontent.com/modules/assets/aAMeX7kkaxljkFRXRIN4CElVJbo~pEHSkrNceWvWuHWRiNuOD_CQEuYf_tS-dLtgATuz0QY.pdf) - ![ShadeLogo](https://images.app.goo.gl/BYQjbG3x8STBQdau9)
+***
+
+8. **[PantherProtocol](https://www.pantherprotocol.io/)**: A zero-knowledge, cross-protocol layer protecting your on-chain data and enabling compliant DeFi access. **How it works?** Deposit your assets into Panther to use 1:1 collateralized shielded assets called zAssets. Store multiple asset types in Panther Pools, whilst protecting your on-chain data with zero-knowledge proofs. With many Layer-1 and 2 blockchains, all proposing different values, ideas, and mechanisms, Panther creates the infrastructure to connect them privately, rather than expecting one of them to take over everything - **Asset Swap**: Yes - [Whitepaper](https://docs.pantherprotocol.io/) - ![PantherProtocol](https://images.app.goo.gl/ucyVF8TDKShxMwBT9)
+***
+
+9. **[Webb Network](https://app.webb.tools/#/bridge/deposit?dest=1099511670889&pool=1&source=1099511627781&token=3)**: At Webb, we regard privacy as a fundamental human right. As we increasingly participate in the multi-chain world, from transferring assets to buying NFTs, it becomes crucial that our activities are not exposed to just anyone with an internet connection, just as our day-to-day activities are private to the world. Webb is dedicated to changing this status quo by building and contributing to privacy tools for blockchains - **Asset Swap**: Yes - [Whitepaper]( https://eprint.iacr.org/2023/260)
+***
+
+10. **[Sienna Network](https://sienna.network/)**: Sienna.network is a privacy-first decentralized open source frontend where you can interact with swap and lending contracts on the Secret Network chain. Earn yield by providing secret tokens for others to borrow, or borrow tokens by providing against collateral. Markets launching are sBTC, sETH, sSCRT, sXMR, sLUNA, sUST, sUSDT, sUSDC and more. Sienna Network (Layer-2 protocol) was developed. SiennaLend is the first private lending protocol to enable private lending for multiple blockchain ecosystems while maintaining your privacy. It is permissionless and has no signup requirements, no limit to deposits, no centralized party to freeze your account, and is governed by the SIENNA governance token - **Asset Swap**: Yes - [Whitepaper](https://sienna.network/whitepaper/) - ![Sienna Logo](https://images.app.goo.gl/mHDQ7vKN1xcoaBY77)
+***
+
+11. **[Evanesco](https://www.eva.finance/#/Home)**: Evanesco is based on the privacy layered network, and protects the privacy of users' asset behaviors by constructing privacy assets and privacy transactions. [Evanesco Network](https://www.evanesco.org/index.html) is a financial protocol platform in the Web3 ecology that combines a Layer zero network with a privacy computing framework and is based on the Polkadot ecosystem. It supports private asset issuance, management, transfer, cross-chain interoperability, and a standardized smart contract framework. **Asset Swap**: Yes - [Whitepaper](https://evanesco.org/assets/whitepaper.pdf) - ![Evanesco Logo](https://images.app.goo.gl/mM5TJtFha5VfcsVg6)
+***
+
+12. **[Light Shield](https://shield.lightprotocol.com/)**: Light is an open-source layer 2 zkLayer enabling private program execution, purpose-built for Solana. Light Protocol allows the on-chain state to be encrypted. Only the user can decrypt their private state; hence they essentially "own" it. The private state can be owned by a single user or a set of users sharing a decryption key.
+For example, consider an NFT listing on Solana; its public state (e.g., price) is visible to all, including the fact that it's up for sale. But offers and trades should remain private - **Asset Swap**: Yes - [Whitepaper](https://shield.lightprotocol.com/) - ![Light Shield Logo](https://images.app.goo.gl/S4tFzL5hQ5GsMNb76)
+***
+
+13. **[Horizon](https://messier.gitbook.io/catalogue-de-messier/messier-applications/horizon)**: Our main goal is to create decentralized applications that will provide both consumers and businesses with tools designed to make cryptocurrency transactions more confidential, secure, and viable than conventional currencies. For greater benefits, Horizon offers fixed pools for users to deposit and withdraw from. Horizon is a privacy-focused solution for anonymizing cryptocurrency transactions, It enhances blockchain security and privacy by severing the on-chain link between a depositing address and a receiving address. Powered by zk-SNARKs, Horizon's unique shielded accounts are crafted from a 12-keychain seed phrase. Using this shielded account, the user can deposit and withdraw from any device, as long as their account is imported into Horizon. Utilizing zk-SNARKs, we shield transaction details while validating them, preserving transaction privacy. With shielded accounts, only the sender has access to the deposited amount - **Asset Swap**: Yes - [Whitepaper](https://messier.gitbook.io/catalogue-de-messier/messier-litepaper) - ![Horizon Logo](https://images.app.goo.gl/pVwZ8iSd4sPzsN247)
+***
+
+14. **[Sacred Finance](https://sacred.finance/)**: Sacred Finance is a layer2 multi-chain DeFi platform designed to offer private yield-bearing deposits to DeFi users is a decentralized protocol that enables private yield redemption and the private transfer of funds. Sacred enables you to deposit funds into a mixer with one address, and redeem it with a different address, breaking the on-chain link and obscuring the record on the blockchain from observers. This is possible thanks to zero-knowledge proofs - **Asset Swap**: Yes - [Whitepaper](https://sacred.gitbook.io/sacred-finance/how-sacred-works/sacred-information) - ![Sacred Finance Logo](https://images.app.goo.gl/rsdTBBQqUMKr5QVt5)
+***
+
+15. **[Definer](https://definer.org/)**: Definer is a permission-less and configurable decentralized layer-2 lending protocol with a privacy 100% protected. It fosters a limitlessly lending, borrowing, and staking of any token. What more? It allows for the encrypting of balance transfer with zero knowledge-proof traceability protection. Users can experience the next evolution of DeFi deposit of crypto assets to passively earn high interest - **Asset Swap**: Yes - [Whitepaper](https://github.com/DeFinerOrg/DeFiner-2.0-whitepaper/wiki/DeFiner-2.0-Whitepaper) - ![Definer Logo](https://images.app.goo.gl/vbpVgBTyi4QBiYTb8)
+***
+
+16. **[Hurricane](https://hurricane.money/)**: Hurricane is an Ethereum layer 2 network. Here, we have Hurricane, A decentralized protocol based on zero-knowledge proofs. Only the user possessing the 'NoteString' is able to link deposit and withdraw. Hurricane improves transaction privacy by breaking the on-chain link between deposit and receive addresses. Huricane uses smart contracts that utilize zkSNARK and zero-knowledge technology to enable private transactions on the  Terra network. **Asset Swap**: Yes - [Whitepaper](https://docs.hurricane.money/how-hurricane-works) - ![Hurricane.png](https://images.app.goo.gl/Cach4ogweVpDQL889)
+***
+
+17. **[Hinkal Protocol](https://hinkal.pro/)**: Before the inception of Hinkal, privacy came at the cost of high fees and friction to adoption. L1/L2 privacy infrastructure requires migrating from the current user experience and exposure to new trust factors such as bridges and sequencers.
+Hinkal solves both problems by introducing the concept of a private DeFi hub, a smart contract where liquid funds and retail users create a private account(s) and run DeFi strategies on their favorite dApps entirely untraceable (the origin and destination of transaction, value and private mem pools) and almost free, from 0.5 - 3bps per transaction, depending on number and value of transactions (more transactions - lower fees).  - **Asset Swap**: Yes - [Whitepaper](https://hinkal-team.gitbook.io/hinkal-protocol/introduction/preface) - ![Hinkal.png](https://images.app.goo.gl/sbqP1wrJ1V,SFUWoZ7)
+***
+
+18. **[Conceal Network](https://conceal.network/wiki/doku.php)**: The Conceal Network was built to provide the ability for individuals to communicate and financially interact with each other in an anonymous and decentralized manner. With Conceal, transactions can't be linked between the sender and the recipient. Additionally, Conceal uses ring signatures and one-time addresses for truly anonymous payments - **Asset Swap**: Yes - [Whitepaper](https://conceal.network/wiki/doku.php) - ![Conceal.png](https://images.app.goo.gl/EoUTbYBx3TH4dUG29)
+***
+
+19. **[Namada TestNet](https://namada.net/testnets)**: TLDR: Namada is a proof-of-stake Layer 1 for interchain asset-agnostic privacy. Namada natively interoperates with fast-finality chains via IBC and with Ethereum via a trustless two-way bridge. For privacy, Namada deploys an upgraded version of the multi-asset shielded pool (MASP) circuit that allows all assets (fungible and non-fungible) to share a common shielded set – this way, transferring a CryptoKitty is indistinguishable from transferring ETH, DAI, ATOM, OSMO, NAM (Namada's native asset) or any other asset on Namada. **Asset Swap**: Yes - [Whitepaper](https://docs.namada.net/) - ![Namada.png](https://images.app.goo.gl/WnjA4hWbEYrUGFXf6)
+***
+
+20. **[CIA Protocol](https://ciaprotocol.com/)**: Conspiracy is a privacy-centric Automated Market Maker (AMM) and our first project as the CIACollective. It uses ZK-SNARKs, a well-researched and documented zero knowledge proofing system, to obscure the link between a trader and a decentralized liquidity pool on-chain. CIA protocol is working tirelessly to build the truest form of DeFi with privacy by default - **Asset Swap**: Yes - [Whitepaper](https://ciaprotocol.com/wp-content/uploads/2022/08/CIA-MANIFESTO.pdf) - ![CIA.png](https://images.app.goo.gl/Z3Ht5hGh5xHoCSkE9)
+***
+
+21. **[Spiral Finance](https://www.spiralfi.io/)**: Spiral finance is a fully decentralized non-custodial protocol allowing private transactions on-chain. 
+ Spiral finance smart contracts have been implemented within the ZK-Sync ERA blockchain, making them immutable. They can neither be changed nor tampered with. Therefore, nobody - including the original developers - can modify or shut them down. Users are provided with the private key enabling access to the deposited funds, which gives users complete control over their assets- **Asset Swap**: Yes - [Whitepaper](https://docs.spiralfi.io/introduction/spiral-finance) - ![Spiral.png](https://images.app.goo.gl/A7mtVCDaZ7BCus6EA)
+***
+
+22. **[FairySwap](https://fairyswap.finance/swap)**: Fairyswap is a Layer 1 next-generation, community-driven privacy DEX that is committed to being permissionless and decentralized. By leveraging the zero-knowledge proof technology built into Findora, privacy DEXs, and Dapps like FairySwap give users the ability to choose what information they want to be visible on a public blockchain, and what they would rather shield. The information they want to be invisible can still be publicly verified with zero-knowledge proofs without revealing any details - **Asset Swap**: Yes - [Whitepaper](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](https://images.app.goo.gl/g8E1D4eEMahTBSX46)
+***
+
+23. **[ZKSync](https://zksync.io/)**: zkSync is a Layer 2 scaling solution on Ethereum that offers low gas and fast transactions, without compromising on security. People can withdraw assets to Layer 1 at any time. To access the entire zkSync ecosystem and to benefit from cheap and instant transactions, you first need a [wallet like Argent](https://argent.link/zksync). Without a wallet, you are unable to onboard to the network as it's not possible to access zkSync through an exchange like Coinbase or Binance. Wallets give you an easy way to buy, sell, and store crypto and experience the exciting world of DeFi, NFTs, and much more - **Asset Swap**: Yes - [Whitepaper](https://era.zksync.io/docs/) - ![ZKSync.png](https://images.app.goo.gl/7A6vP8Rc3YFVSpSs6)
+***
+
+24. **[Penumbra Testnet](https://penumbra.zone/blog/valetudo-testnet/)**: Penumbra is a fully shielded layer-1 network within the Cosmos ecosystem. It is a shielded, cross-chain network allowing anyone to securely transact, stake, swap, or market make without broadcasting their personal information to the world. As a fully shielded blockchain, Penumbra records all values in a single shielded pool that can record any kind of asset. Penumbra has privacy by default, with no transparent transactions or transparent value pool - **Asset Swap**: Yes - ![Penumbra.png](https://images.app.goo.gl/swgmG547nMbFdmCMA)
+***
+
+25. **[Cyclone Protocol](https://cyclone.xyz/)**: Cyclone is a cross-chain, non-custodial, universal privacy-preserving protocol with decentralized governance. Cyclone applies zkSNARKs to enable transactional privacy for all DeFi components by breaking the on-chain link between depositor and recipient addresses. **Asset Swap**: Yes - [Whitepaper](https://docs.cyclone.xyz/) - ![Cyclone.png](https://images.app.goo.gl/CMbtokqv2JAx54Zj6)
+***
+
+26. **[Ironfish Network](https://ironfish.network/)**: Ironfish encrypts every transaction, shielding your sensitive asset information from public view. With read-only view keys, you remain compliant and in control. Iron Fish is a decentralized layer 1 blockchain, proof-of-work (PoW) based, censorship-resistant, and publicly accessible blockchain project. It is designed to support strong privacy guarantees on every transaction - **Asset Swap**: Yes - [Whitepaper](https://ironfish.network/learn/whitepaper) - ![Ironfish.png](https://images.app.goo.gl/oZvgMEhquQB3Joo26)
+***
+
+27.  **[Monero](https://www.getmonero.org/)**: Monero is a layer 1 solution that fosters a private, decentralized cryptocurrency that keeps your finances confidential and secure with privacy at its peak. Users must be able to trust Monero with their transactions, without risk of error or attack. Monero gives the full block reward to the miners, who are the most critical members of the network who provide this security. Transactions are cryptographically secure using the latest and most resilient encryption tools available - **Asset Swap** Yes - ![Monero.png](https://images.app.goo.gl/fzPq9MfKrgnx9SKC9)
+***
+
+28.  **[Grin](https://grin.mw/)**: Grin aims to serve as digital cash. To provide electronic transactions for all, without censorship or restrictions. With GRin, privacy is by default; Transactions have no amount, no addresses, and can be trivially aggregated. This enables complete fungibility without precluding the ability to selectively disclose information as needed, it is also a layer 2 solution - **Asset Swap**: Yes - [Whitepaper](https://docs.grin.mw/) - ![GRin.png](https://images.app.goo.gl/f9mKzKk87wsYEqPcA)
+***
+
+29.  **[Epic Cash](https://epic.tech/)**: The Epic Cash is a layer 1 blockchain that assures transaction privacy by obscuring amounts and the sender-receiver relationship of a transaction. No one can interfere with Epic transactions. They cannot be blocked, blacklisted, filtered, or data-mined. The network itself is exceptionally resilient, with a proven history of resisting significant challenges - **Asset Swap**: Yes - [Whitepaper](https://epic.tech/whitepaper/) -  ![Epic.png](https://images.app.goo.gl/i1eUioipkqDY7FLLA)
+***
+
+30. **[ZKBOB](https://zkbob.com/)**: Protect your privacy with zkBob smart contract wallet. With zkBob, the contents of your wallet and the amounts you spend and receive are completely private. Use zkBob to send or receive salary, payments, donations, and more with privacy and built-in compliance. It also allows for private P2P transfers using zero-knowledge proof technology to protect recipients and anonymize amounts - **Asset Swap**: Yes -  ![ZKBOB.png](https://images.app.goo.gl/xTvi8nKC48WNCBGU7) - [Whitepaper](https://docs.zkbob.com/zkbob-overview/basic-concepts)
+***
+
+31. **[Decred](https://decred.org/)**: The Lightning Network of Decred is a layer 2 scaling solution that runs on the Bitcoin blockchain. The Decred blockchain contains a public ledger of all Decred transactions, including the amount sent in each transaction, as well as its senders and recipients. The senders and recipients are not identified by any real-world personal identity, only by cryptographic public keys. This provides a level of pseudonymity, but not necessarily true anonymity. It is possible to use this public information to build a transaction graph, a representation of how Decred has been moved between the various network participants - **Asset Swap**: Yes - [Whitepaper](https://docs.decred.org/) - ![Decred.png](https://images.app.goo.gl/8yaVZauuzAKWDzKdA)
+***
+
+32. **[Firo](https://firo.org/)**: Firo, formerly known as Zcoin, is a Layer 1 privacy blockchain catering to cryptocurrency privacy and mining. Firo is at the forefront of cryptocurrency privacy with Lelantus and Lelantus Spark providing trustless, on-chain privacy with high anonymity sets. Dandelion++ technology also provides network-layer privacy. Firo is at the forefront of cryptocurrency privacy with Lelantus and Lelantus Spark providing trustless, on-chain privacy with high anonymity sets. Dandelion++ technology also provides network-layer privacy - **Asset Swap**: Yes - ![Firo.png](https://images.app.goo.gl/fZMhAvVYZhJrRTkSA)
+***
+
+33. **[PIVX](https://pivx.org/)**: PIVX Utilizes a Tier Two layer to its network, deploying masternodes to help participate in the governance. PIVX is an open-source and decentralized peer-to-peer currency featuring advanced user data protection features, community governance mechanisms, Proof of Stake consensus algorithm, and multi-purpose Masternodes. With PIVX, users will seamlessly experience the freedom of global digital cash with SHIELD User Data Protection. Be your own bank with full control of your digital assets - **Asset Swap**: Yes -[Whitepaper](https://pivx.org/whitepaper) - ![PIVX.png](https://images.app.goo.gl/4i6DodHomto6mQe18)
+***
+
+34. **[BEAM](https://beam.mw/)**: Beam is the top Mimblewimble L1 privacy blockchain, completely concealing transactions. Download Beam Wallet for the ultimate confidential DeFi experience - **Asset Swap**: Yes - [Whitepaper](https://beam.mw/en/docs) - ![BEAM.png](https://images.app.goo.gl/ZFsdQpJnQV22ad7k9)
+***
+
+35. **[Oxen](https://oxen.io/)**: Oxen (formerly known as LOKI) is a privacy tech project with a mission. It's a private cryptocurrency with instant transactions. An enormous and powerful PoS network. A secure messaging platform. The app is in the process of transitioning from the layer-1 Oxen chain to an EVM-compatible chain, and the OXEN coin will become Session Token: a new ERC-20 token that will run on a layer 2 chain and be compatible with most Web3 applications - **Asset Swap**: Yes - [Whitepaper](https://docs.oxen.io/) - ![Oxen.png](https://images.app.goo.gl/KrZVhjP3P8ARHHzMA)
+***
+
+36. **[Particl](https://particl.io/coin)**: Particl, a layer 1 solution designed to enable individuals to privately send and receive money with no restrictions and no middleman. It's easy, fast, and safe. It’s just like cash, but digital! Keep your finances private. With PART, you can choose to make public transactions or private ones that are completely untraceable. The choice is yours; regardless of your needs, there's a solution for you - **Asset Swap**: Yes - [Whitepaper](https://raw.githubusercontent.com/particl/whitepaper/master/Particl%20Whitepaper%20Draft%20v0.3.pdf) - ![Particl.png](https://images.app.goo.gl/ytXwRcAWUDfryMVv9)
+***
+
+37. **[Zano](https://zano.org/)**: Zano, a layer 1 solution and an open-source cryptocurrency and ecosystem with enterprise-grade privacy, security, and scalability that operates as a robust foundation for confidential assets and decentralized applications (dApps).Your privacy matters. Choose Zano, the leading blockchain platform that prioritizes confidentiality and security. The transactions between Zano network members are made untraceable with ring signatures and stealth addresses. Also, the way transaction data is stored on the blockchain allows access by parties who authorized the transactions only, and none of the private data is ever publicly published. The confidentiality of all Zano transactions is hard-coded into the core. By concealing all sending and receiving addresses we have maximalized the level of privacy for every Zano user - **Asset Swap**: Yes - [Whitepaper](https://docs.zano.org/) - ![Zano.png](https://images.app.goo.gl/LgrZS42Xo9xL5LZb7)
+***
+
+38. **[NAVcoin](https://navcoin.org/)**: An open-sourced digital currency offering fast and reliable payments with innovative technological and privacy features. You can buy NAV from decentralized exchanges such as [AtomicDEX-CE](https://komodian.org/products/atomicdex-desktop-ce/) [(guide)](https://navcoin.medium.com/74590dbca8e3) and [PancakeSwap](https://pancakeswap.finance/swap?inputCurrency=0xbfef6ccfc830d3baca4f6766a0d4aaa242ca9f3d&outputCurrency=0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c) [(guide)](https://medium.com/nav-coin/how-to-trade-navcoin-on-pancakeswap-b89a8b873a61), or centralized exchanges like [SouthXchange](https://main.southxchange.com/Market/Book/NAV/BTC) and [Bittrex](https://global.bittrex.com/trade/nav-btc). If you wish to acquire xNAV instead, it's possible to swap NAV to xNAV at a 1 to 1 rate using one of our wallets. NavCoin also claims their testing of the NavCoin payment network can process over 260 transactions per second with active layer 2 scaling solutions in place - **Asset Swap**: Yes - Whitepaper - ![NAVcoin](https://images.app.goo.gl/tVKUFsybqh5q4JNRA)
+***
+
+39. **[ColossusXT](https://www.colossusxt.io/)**: A privacy-centric, energy-efficient, decentralized, open-source, peer-to-peer (P2P) digital currency with instant and anonymous transactions. A **two-tier** network based on the popular Bitcoin core software, utilizes Masternodes and Proof of Stake 3.0 protocol for securing its network which gives it unmatched stability and easy accessibility - **ASSET Swap**: Yes - [Whitepaper](https://www.colossusxt.io/whitepaper) - ![ColossusXT.png](https://images.app.goo.gl/ose9brAM8kiBJj8YA)
+***
+
+40. **[Beldex](https://www.beldex.io/)**: Beldex is a layer platform. It is a privacy-enabled coin, giving power and control to its holders to perform public and private transactions. The transactions can range from traceable publically available and traceable transactions to untraceable private transactions - **Asset Swap**: Yes - ![Beldex.png](https://images.app.goo.gl/7U6UuyCkA4gi2Y7y8)
+***
+
+41. **[Ghost Coin](https://ipfs.ghostbyjohnmcafee.com/#/)**: Proof of Stake privacy coin to help make you nothing but a "ghost" when transacting online! The mission for the Ghost project is to create a privacy-focused, anonymous, and decentralized payment network that is based on a sustainable proof-of-stake consensus algorithm with incentivized operators. Ghost transactions all fully anonymous by Ring Confidential Transactions (Ring-CT), hiding the sender, receiver, and the amount - **Asset Swap**: Yes - [Whitepaper](https://ipfs.ghostbyjohnmcafee.com/static/media/Ghost_by_McAfee_Whitepaper.727767db5411381be148.pdf) - ![Ghost.png](https://images.app.goo.gl/bm6DHSiXzUokrEk76)
+***
+
+42. **[BlackHat Coin](https://blackhatco.in/)** : Blach Hat is a privacy-focused decentralized cryptocurrency providing truly anonymous untraceable transactions based on PoS consensus and zk-SNARKs data protection protocol (Zero Knowledge Proof). The privacy layer of BlackHat coin implemented on zk-SNARK Sapling protocol by Electric Coin Company (ZCash) which provides fast, anonymous, and untraceable payments with Zero Knowledge Proof without revealing your transaction amounts and balance to anyone - **Asset  Swap**: Yes - [Whitepaper](https://blackhatco.in/resources/whitepaper.pdf?v092) - ![BlackHat.png](https://images.app.goo.gl/pppTUJPCMzxoLvwy8)
+***
+
+43. **[Evolution](https://evolution-network.org/)**: Evolution is a fully Decentralized Cryptocurrency. We have developed a private and secure coin with hybrid crypto note blockchain PoW + PoS, scalable where you can send and receive money, and not just that only. With a block time of 60 seconds, low fees, hybrid blockchain to secure the privacy of your transaction, are some of the features that make EvoX efficient, fast, and secure peer-2-peer transactions. All transactions are made with ring signatures and stealth addresses (default), making it impossible to trace transactions to a particular user or real-world identity - **Asset Swap**: Yes - [Whitepaper](https://docs.evolution-network.org/) 
+***
+
+44. **[Dark.fi](https://dark.fi/)**: DarkFi is an anonymous L1 based on zero-knowledge, multi-party computation, and homomorphic encryption. Anonymous proof-of-stake ensures validators are hidden. DarkFi offers an anti-fragile environment to create and run anonymous apps - **Asset Swap**: Yes - [Whitepaper](https://darkrenaissance.github.io/darkfi/) - ![Darkfi.png](https://images.app.goo.gl/2patqJb5Xm8wzmjXA)
+***
+
+45. **[eCash](https://e.cash/)**: eCash is a Layer-1 blockchain developed by Bitcoin ABC. eCash is a leading digital-based system that has facilitated the process of transferring funds anonymously. eCash is quite famous in the Cryptocurrency Industry. Its main objective is to secure the overall privacy of the individuals who might be making use of the web for ensuring micropayments - **Asset Swap**: Yes - [Whitepaper](https://www.bitcoinabc.org/doc/) - ![eCash.png](https://images.app.goo.gl/dcni9rFfeJUcWi779)
+***
+
+46. **[Secret Network](https://scrt.network/)**: Secret Network is a layer 1 blockchain built using the Cosmos SDK and is part of the broader interconnected Cosmos universe (IBC). Secret Network is the first mainnet blockchain with privacy-preserving smart contracts, launched in 2020. This makes it possible to build apps that are decentralized and permissionless—yet private - **Asset Swap**: Yes - [Whitepaper](https://docs.scrt.network/) -
+![Secret.png](https://images.app.goo.gl/vn6rg2ofmdJYJspT8)
+***
+
+47. **[Findora](https://findora.org/)**: Findora is a layer 1 blockchain and a zero-knowledge-based decentralized financial network that enables users and businesses to conduct transactions in a transparent manner while preserving privacy - **Asset Swap**: Yes - [Whitepaper](https://findora.org/wp-content/uploads/2020/12/Findora_Litepaper_3.2_Final_Clean.pdf) - ![Findora.png](https://images.app.goo.gl/raZNpPCtwornEdBMA)
+***
+
+48. **[Suterusu](https://suterusu.io/)**: Suterusu offers complete privacy protection for both user identities and transaction details within layer-2 The Suterusu Protocol is a second-layer private payment infrastructure for smart contract platforms. The Suterusu Protocol uses the original and most advanced ZK-ConSnark algorithm that does not require a trusted setup - **Asset Swap**: Yes - [Whitepaper](https://github.com/suterusu-team/suterusu-documents/blob/master/Suterusu_whitepaper%202.0.pdf) - ![Suterusu.png](https://images.app.goo.gl/QuqrTXCVgEc13hQX7)
+***
+
+49. **[HOPR](https://hoprnet.org/protocol)**: Whether it’s individuals, companies or institutions – the HOPR protocol provides full control over privacy, data and metadata. HOPR lays the groundwork for a more sovereign and safe internet. For everyone. HOPR’s custom layer-two scaling solution is based on probabilistic payment channels. This ensures fully decentralized settlement without unnecessary blockchain transaction fees, all while protecting node runners’ metadata - **Asset Swap**: Yes - ![HOPR.png](https://images.app.goo.gl/V3QDu9RtxsbNFVBf7)
+***
+
+50. **[Concordium](https://www.concordium.com/)**: Concordium is a layer 1 public blockchain platform that prioritizes privacy and accountability. It utilizes an identity layer to associate real-world identities with wallets, allowing for trust and privacy in transactions. With a focus on security and verification, Concordium aims to unlock the potential of a global economy on the blockchain - **Asset Swap**: Yes - [Whitepaper](https://www.concordium.com/technology#whitepapers) - ![Concordium.png](https://images.app.goo.gl/RedGW3ReayoGhFkS8)
+***
+
+51. **[Mystiko.Network](https://mystiko.network/)**: Mystiko is excited to be the first L2 privacy solution; Users deposit assets on one chain and withdraw from another chain privately, without exposing transaction details to anyone. Mystiko Protocol can be implemented on any cross-chain bridge. Users could trade on private DEX just like on Uniswap while users' financial privacy is protected. Existing DEX could add such features to their users by implementing Mystiko Protocol - **Asset Swap**: Yes - [Whitepaper](https://mystiko.network/whitepaper.pdf) - ![Mystiko.png](https://images.app.goo.gl/GfEX9AfpGy2xcNQT9)
+***
+
+52. **[Raze.Network](https://raze.network/)**: Raze Network is an EVM-compatible layer 2 privacy protocol. It is built as a native privacy layer that can provide end-to-end anonymity for the entire DeFi and Web3.0 stack. The Raze Network applies zkSNARKs to the Zether framework to build a second-layer decentralized anonymous module. The objective of Raze Network is to enable multichain privacy-preserving payment and trading systems, while protecting the transparency of your assets and behaviours from surveillance - **Asset Swap**: Yes - [Whitepaper](https://docsend.com/view/nea4rj23f28z5b98) - ![Raze.png](https://images.app.goo.gl/CvuWyworsP81b6AU8) 
+***
+
+53. **[Omniatech](https://omniatech.io/)**: This is a layer 2 solution company that offers secure blockchain transactions and allows users to track the transaction even before they are mined or traded, allowing users to generate a secure connection for their wallet - **Asset Swap**: Yes - [Whitepaper](https://docs.omniatech.io/) 
+***
+
+54. **[Partisia](https://partisiablockchain.com/)**: Partisia Blockchain is a web 3.0 blockchain built for trust, transparency, privacy, and speed of light finalization by combining secure multiparty computation (MPC) and blockchain; it is a powered Layer 1 blockchain achieves unparalleled scalability, interoperability, and privacy - **Asset Swap**: Yes - [Whitepaper](https://drive.google.com/file/d/1_doKDtMuY1YPDJ8LgKCiOqZvjoYkTmx4/view) - ![Partisia.png](https://images.app.goo.gl/XyW2ufwCHpj8Vg6F9)
+***
+
+55. **[Calamari](https://calamari.network/)**: Calamari Network is the canary network of Manta Network, and empowers web2 and web3 applications with trustless, private on-chain identity and transaction services. Calamari Network is Manta Network's canary network, which is deployed as a layer 1 network leveraging Substrate to connect to the entire Kusama ecosystem - **Asset Swap**: Yes - [Whitepaper](https://docs.manta.network/) - ![Calamari.png](https://images.app.goo.gl/fKHw9VjRkSLhMrgFA)
+***
+
+56. **[TomoChain](https://tomochain.com/ecosystem/)**: TOMO is a layer 1 public blockchain. Tomochain is a privacy protocol developed on TomoChain and designed to create safe and untraceable transactions -**Asset Swap**: Yes- [Whitepaper](https://tomochain.com/files/technical-whitepaper-1.0.pdf) - ![TomoChain.png](https://images.app.goo.gl/8VS4LKcnMBHjSkAj9)
+***
+
+57. **[ZeroPool](https://zeropool.network/#what-is)**: ZeroPool is a multi-blockchain privacy engine, providing anonymous account-based transactions for blockchains. ZeroPool is a fully private multi-blokchain solution. Low transaction fees, atomic swaps and common anonymity set. Balances and transaction graphs are hidden and compatible with network identity-hiding technologies - **Asset Swap**: Yes - [Whitepaper](https://zeropool.network/docs/intro) 
+***
+
+58. **[Tusima.Network](https://tusima.network/)**: Tusima is a zk-rollup-based multi-chain privacy financial network that integrates zero-knowledge proof and multi-chain interoperability. Its goal is to become a privacy financial infrastructure for Web 3.0. Tusima is a Layer 2 privacy financial infrastructure for blockchain; it exists to protect the privacy of user transactions and help developers build private financial applications - **Asset Swap**: Yes - [Whitepaper](https://tusima.gitbook.io/tusima_en/tusima-introduction/what-is-tusima) - ![Tusima.png](https://images.app.goo.gl/6uVRpsiRtSBNJi7c8)
+***
+
+59. **[Polybase](https://polybase.xyz/)**: Polybase is a public L2 blockchain with private transactions and MEV-resistance powered by zero knowledge proofs. Our vision is to build a blockchain that combines the ethos of permissionless innovation and decentralization with the practical needs of privacy and regulation - **Asset Swap**: No - [Whitepaper](https://polybase.xyz/whitepaper) - ![Polybase.png](https://images.app.goo.gl/monAD3X1Ru3got9y7)
