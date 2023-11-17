@@ -15,7 +15,6 @@ Another potential use of ZSAs would be for the issuing of governance tokens. For
 ZSAs are being developed by [QEDIT](https://qed-it.com/), under a major grant from the [Zcash Foundation](https://wiki.zechub.xyz/zcash-foundation) in collaboration with the [Electric Coin Company](https://wiki.zechub.xyz/electric-coin-company). As this project is still being actively developed, updates are posted on [this thread](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153) of the Zcash forum. The [ZSA grant application](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/) by QEDIT is available from the Zcash Foundation grants website.
 
 > As a reference, QEDIT’s original forum post about their proposal can be found [here](https://forum.zcashcommunity.com/t/a-proposal-for-shielded-assets-zsa-uda-for-defi-on-zcash/40520).
-</br></br>
 
 </br></br>
 ![Grant Milestones](../../assets/images/milestone.png "Grant Milestones as of April 28th, 2023")
