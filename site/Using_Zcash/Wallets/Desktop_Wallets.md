@@ -16,7 +16,7 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ### Features
 | WarpSync | Shielded Memo | Automatic Shielding | Unified Address |
 
-### Shielded Sync Speed <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18"> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18"> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18">
+### Shielded Sync Speed <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18"/> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18"/> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18"/>
 
 
 
@@ -30,11 +30,11 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ### Features
 | BlazeSync | Shielded Memo | Live Sync Dashboard |
 
-### Shielded Sync Speed <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18"> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18">
+### Shielded Sync Speed <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18"/> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18"/>
 
 
 
-## ZecWallet Lite [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20">](https://www.zecwallet.co/)
+## ZecWallet Lite [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20"/>](https://www.zecwallet.co/)
 | Windows [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" alt="win" width="15" height="15"/>](https://zecwallet.co/#download) | macOS [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" alt="macos3" width="15" height="15"/>](https://zecwallet.co/#download) | Linux [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" alt="lin2" width="15" height="15"/>](https://zecwallet.co/#download) | <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/triangle-exclamation.svg" alt="img2" width="18" height="18"/> Not under active development
 
 ### Pools 
@@ -47,7 +47,7 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 
 
 ## Exodus [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20"/>](https://www.exodus.com/zcash-wallet-zec)
-| Windows [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15"/>](https://www.exodus.com/download/) | macOS [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15">](https://www.exodus.com/download/) | Linux [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15"/>](https://www.exodus.com/download/) |
+| Windows [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15"/>](https://www.exodus.com/download/) | macOS [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15"/>](https://www.exodus.com/download/) | Linux [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15"/>](https://www.exodus.com/download/) |
 
 ### Pools 
 | Transparent |
