@@ -1,3 +1,5 @@
+![](https://i.ibb.co/NN3XxrG/Zcash-logo-1.png)
+
 # Zcash Basics
 
 ## What is ZEC?
