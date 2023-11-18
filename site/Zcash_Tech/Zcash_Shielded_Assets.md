@@ -1,4 +1,4 @@
-![speed limit sign](../../assets/images/zcash-shielded-assets.png "Defi-is-coming-to-zcash-ecosystem")
+![](https://i.ibb.co/0VfMFB5/image-2023-11-18-160742427.png)
 
 # Zcash Shielded Assets
 
@@ -18,7 +18,7 @@ ZSAs are being developed by [QEDIT](https://qed-it.com/), under a major grant fr
 
 ___
 
-![Grant Milestones](../../assets/images/milestone.png "Grant Milestones as of April 28th, 2023")
+![Grant Milestones](https://i.ibb.co/6Zq0ry6/image-2023-11-18-160923363.png)
 
 ___
 
