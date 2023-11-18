@@ -10,7 +10,7 @@ ZecHub is a decentralized education hub for Zcash. The goal of [ZecHub](http://z
 
 The tutorials, short-form blogs, and newsletter will be open sourced and hosted on GitHub, meaning anyone from the community can contribute. This is to ensure content is accurate and that the channel itself suffers from no single points of failure.
 
-If you're new to Zcash, use [this guide](https://www.notion.so/Zcash-New-User-Guide-78c340cd6b18485f945e2bce4b6a8748).****
+If you're new to Zcash, use [this guide](/site/Start_Here/New_User_Guide).****
 
 ## How to make changes to ZecHub
 
@@ -32,7 +32,7 @@ In the interest of maintaining a uniform look to ZecHub, there's a template that
 
 Donations: [here](https://zcashblockexplorer.com/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
-![Screenshot_2023-07-18_23-19-14](https://github.com/ZecHub/zechub/assets/81990132/90c7879b-2b19-4fb3-a730-64066d266a86)
+![](https://i.ibb.co/pfBM1z9/image-2023-11-18-141228046.png)
 
 
 **DISCLAIMER: ZecHub is a completely independent and open-source initiative founded by Zcash community members. Nothing contained in this Github repository should be considered financial or investment advice - it is for informational purposes only.**
