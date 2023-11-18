@@ -40,11 +40,10 @@ Below is the list of grant milestones status as of April 28th, 2023
 | 10 | Strengthening Protocol Security and Efficiency       | ✅  |
 | 11 | Preparing Protocol for Integration and Deployment       | ✅    |
 
-> NOTE:</br></br> ✅ -> Completed </br> ❌ -> Not completed </br> TBD -> To be determined
-</br>
+> NOTE:<br></br> ✅ -> Completed </br> ❌ -> Not completed </br> TBD -> To be determined
+<br>
 </br>
 
-</br>
 
 ## The ZSA Proposal
 
