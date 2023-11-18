@@ -16,9 +16,11 @@ ZSAs are being developed by [QEDIT](https://qed-it.com/), under a major grant fr
 
 > As a reference, QEDIT’s original forum post about their proposal can be found [here](https://forum.zcashcommunity.com/t/a-proposal-for-shielded-assets-zsa-uda-for-defi-on-zcash/40520).
 
-</br></br>
+___
+
 ![Grant Milestones](../../assets/images/milestone.png "Grant Milestones as of April 28th, 2023")
-</br></br>
+
+___
 
 ## Grant Milestones
 
