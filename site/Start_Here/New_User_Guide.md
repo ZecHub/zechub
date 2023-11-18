@@ -1,7 +1,5 @@
 # Zcash new user guide
 
-![](https://i.ibb.co/4ZbjGBV/zcash-logo-horizontal-transparent.png)
-
 New to Zcash? This guide will walk you through getting onboarded as a Zcash user and ZEC holder.
 
 ---
@@ -41,3 +39,5 @@ Here's a [video](https://www.youtube.com/watch?v=9WJSMxag2IQ) on how to do a shi
 The [Zcash Community Forum](https://forum.zcashcommunity.com/) is the place where members of the Zcash community discuss all things related to Zcash. The community is passionate and very welcoming of new members. Sometimes conversations can be technical, but don't worry! If you ever have a question, you can ask.
 
 Though, we do recommend trying to google your question and finding the answer before asking the forum's out of respect for everyone's time :) 
+
+![](https://i.ibb.co/4ZbjGBV/zcash-logo-horizontal-transparent.png)
