@@ -16,7 +16,7 @@ One important note is that you do not need to buy 1 full ZEC. ZEC is divisible, 
 
 After you purchase some ZEC, you might want to move it to a Zcash wallet. This [article explains](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) why holding ZEC in a wallet is important. 
 
-We recommend using a [shielded wallet](https://github.com/ZecHub/zechub/blob/main/usingzec/wallets/mobileshieldedwallets.md) because these wallets provide the [privacy features](https://www.gemini.com/prices/zcash) that make ZEC unique. Here's a [video](https://www.youtube.com/watch?v=AefftLsENaU) on how to download a shielded walet. Here's a [blog](https://zechub.substack.com/p/private-vs-transparent) explaining the differences between Zcash's different wallet types.
+We recommend using a [shielded wallet](/site/Using_Zcash/Wallets/Mobile_Wallets) because these wallets provide the [privacy features](https://www.gemini.com/prices/zcash) that make ZEC unique. Here's a [video](https://www.youtube.com/watch?v=AefftLsENaU) on how to download a shielded walet. Here's a [blog](https://zechub.substack.com/p/private-vs-transparent) explaining the differences between Zcash's different wallet types.
 
 ---
 
@@ -39,3 +39,5 @@ Here's a [video](https://www.youtube.com/watch?v=9WJSMxag2IQ) on how to do a shi
 The [Zcash Community Forum](https://forum.zcashcommunity.com/) is the place where members of the Zcash community discuss all things related to Zcash. The community is passionate and very welcoming of new members. Sometimes conversations can be technical, but don't worry! If you ever have a question, you can ask.
 
 Though, we do recommend trying to google your question and finding the answer before asking the forum's out of respect for everyone's time :) 
+
+![](https://i.ibb.co/4ZbjGBV/zcash-logo-horizontal-transparent.png)

@@ -1,4 +1,4 @@
-![speed limit sign](../../assets/images/zcash-shielded-assets.png "Defi-is-coming-to-zcash-ecosystem")
+![](https://i.ibb.co/0VfMFB5/image-2023-11-18-160742427.png)
 
 # Zcash Shielded Assets
 
@@ -15,11 +15,12 @@ Another potential use of ZSAs would be for the issuing of governance tokens. For
 ZSAs are being developed by [QEDIT](https://qed-it.com/), under a major grant from the [Zcash Foundation](https://wiki.zechub.xyz/zcash-foundation) in collaboration with the [Electric Coin Company](https://wiki.zechub.xyz/electric-coin-company). As this project is still being actively developed, updates are posted on [this thread](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153) of the Zcash forum. The [ZSA grant application](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/) by QEDIT is available from the Zcash Foundation grants website.
 
 > As a reference, QEDIT’s original forum post about their proposal can be found [here](https://forum.zcashcommunity.com/t/a-proposal-for-shielded-assets-zsa-uda-for-defi-on-zcash/40520).
-</br></br>
 
-</br></br>
-![Grant Milestones](../../assets/images/milestone.png "Grant Milestones as of April 28th, 2023")
-</br></br>
+___
+
+![Grant Milestones](https://i.ibb.co/6Zq0ry6/image-2023-11-18-160923363.png)
+
+___
 
 ## Grant Milestones
 
@@ -39,11 +40,8 @@ Below is the list of grant milestones status as of April 28th, 2023
 | 10 | Strengthening Protocol Security and Efficiency       | ✅  |
 | 11 | Preparing Protocol for Integration and Deployment       | ✅    |
 
-> NOTE:</br></br> ✅ -> Completed </br> ❌ -> Not completed </br> TBD -> To be determined
-</br>
-</br>
+NOTE: <br /> ✅ -> Completed <br /> ❌ -> Not completed <br /> TBD -> To be determined
 
-</br>
 
 ## The ZSA Proposal
 
