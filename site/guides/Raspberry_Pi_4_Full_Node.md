@@ -3,7 +3,9 @@
 
 
 The purpose of this guide is to help educate Zcashers who are interested in running a full node on a low-powered Raspberry Pi 4.
-![zcashdPI](https://user-images.githubusercontent.com/81990132/197372541-dcd886ab-a3d0-4614-b490-0294ddf3ffae.png)
+
+<img src="https://user-images.githubusercontent.com/81990132/197372541-dcd886ab-a3d0-4614-b490-0294ddf3ffae.png" alt="zcashd" width="300" height="200">
+
 
 
 If you find this guide useful, consider donating ZEC to support ZecHub:
@@ -61,15 +63,15 @@ For example in linux you would type the following after downloading:
 
 `rpi-imager`
 
-
-![rpi-imager](https://user-images.githubusercontent.com/81990132/197372069-fb9f7417-d320-42cf-ad65-38d630512985.png)
+<img src="https://user-images.githubusercontent.com/81990132/197372069-fb9f7417-d320-42cf-ad65-38d630512985.png" alt="rpi imager" width="300" height="200">
 
 * Choose OS and Storage Device. Since Raspberry Pi 4's are 64 bit, I recommend choosing "Other general-purpose OS" => Ubuntu => Ubuntu Server 22.10 (64 bit). Click on Storage and select your SD Card
 
 * Before writing to SD card, click on Advanced options by clicking on the white gear icon near the bottom right corner.
 
 
-![gear](https://user-images.githubusercontent.com/81990132/197372159-1169c6f4-f6aa-4f44-9679-fe7aa542bbd3.png)
+<img src="https://user-images.githubusercontent.com/81990132/197372159-1169c6f4-f6aa-4f44-9679-fe7aa542bbd3.png" alt="gear" width="300" height="200">
+
 
 
 * Here you can update:
@@ -79,7 +81,7 @@ For example in linux you would type the following after downloading:
      * Create a username and pw
      * Enable and configure your wi-fi if needed
  
- ![advanced](https://user-images.githubusercontent.com/81990132/197372149-8b85bfac-e473-4808-87cd-f27f15d05de8.png)
+<img src="https://user-images.githubusercontent.com/81990132/197372149-8b85bfac-e473-4808-87cd-f27f15d05de8.png" alt="advanced" width="300" height="200">
 
  
 * Once complete hit Write
@@ -122,14 +124,15 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
      * For example: `ssh ubuntu@192.168.1.25` where the username is *ubuntu* and IP address is 192.168.1.25.
 
 
-   ![sshLogin](https://user-images.githubusercontent.com/81990132/197372846-e1279388-eaaa-4fbb-8d5d-f9928cb45195.png)
+  <img src="https://user-images.githubusercontent.com/81990132/197372846-e1279388-eaaa-4fbb-8d5d-f9928cb45195.png" alt="sshLogin" width="300" height="200">
        
 
 * If you’re curious which version Raspberry Pi you are using, try this command:
 
      `cat /sys/firmware/devicetree/base/model ; echo`
-     
-     ![which](https://user-images.githubusercontent.com/81990132/197689888-367c8eb3-2667-4c8c-85b3-44d46afe07a7.png)
+
+  <img src="https://user-images.githubusercontent.com/81990132/197689888-367c8eb3-2667-4c8c-85b3-44d46afe07a7.png" alt="which" width="300" height="200">
+
          
 
 ### Installing *zcashd*
@@ -212,7 +215,8 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
           
           `id` will show your user and group id's.
           
-          ![lsblk](https://user-images.githubusercontent.com/81990132/197372643-abef88fd-9177-4bf9-abda-3c221188cd10.png)
+   <img src="https://user-images.githubusercontent.com/81990132/197372643-abef88fd-9177-4bf9-abda-3c221188cd10.png" alt="lsblk" width="300" height="200">
+
 
           
           `sudo mount -o umask=0077,gid=<groupid>,uid=<userid> /dev/sda1 /media/portableHD/`
@@ -230,8 +234,8 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
 
 * Setup /media/portableHD/.zcash/zcash.conf
 
+<img src="https://user-images.githubusercontent.com/81990132/197373699-18cc2c9f-b47d-44e9-9e6b-4c5cccf78d9e.png" alt="zconf" width="300" height="200">
 
-![zconf](https://user-images.githubusercontent.com/81990132/197373699-18cc2c9f-b47d-44e9-9e6b-4c5cccf78d9e.png)
 
  
 * notice how we moved the datadir to the External SSD/HDD which has much more space available.
@@ -268,8 +272,9 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
 * Ready to use!
 
     `zcash-cli getblockchaininfo`
-    
-    ![getBlockchaininfo](https://user-images.githubusercontent.com/81990132/197373098-672aa228-d180-47ea-8a7c-c58dc3882426.png)
+
+  <img src="https://user-images.githubusercontent.com/81990132/197373098-672aa228-d180-47ea-8a7c-c58dc3882426.png" alt="getblockchaininfo" width="300" height="200">
+
 
 
 ### Using *zcashd*
@@ -277,19 +282,23 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
 * How do you check the status of your node?
 
      `tail -n 500 <path to>/.zcash/debug.log`
-     
-     ![status](https://user-images.githubusercontent.com/81990132/197684416-9a083de4-4a62-4fe8-9cab-798781b38cd2.png)
+
+  <img src="https://user-images.githubusercontent.com/81990132/197684416-9a083de4-4a62-4fe8-9cab-798781b38cd2.png" alt="status" width="300" height="200">
+
+
+  
      
 * To get current height from your log
 
      `tail -n 10 <path to>/.zcash/debug.log | grep -o  'height=[^b]*'`
-     
-     ![logHeight](https://user-images.githubusercontent.com/81990132/199630447-6a6cd491-0cb3-47f8-95f0-45f6b6555870.png)
+
+  <img src="https://user-images.githubusercontent.com/81990132/199630447-6a6cd491-0cb3-47f8-95f0-45f6b6555870.png" alt="logHeight" width="300" height="200">
+
 
      
      `zcash-cli getinfo`
-     
-     ![getinfo](https://user-images.githubusercontent.com/81990132/199646508-132da0eb-899e-49a6-8b31-e9011e159700.png)
+  
+<img src="https://user-images.githubusercontent.com/81990132/199646508-132da0eb-899e-49a6-8b31-e9011e159700.png" alt="getInfo" width="300" height="200">
 
      
      
@@ -310,7 +319,8 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
           
      * Create a memo and convert it to hex. You can convert back to ascii to test.
           
-        ![asciiGOOD](https://user-images.githubusercontent.com/81990132/199646812-782142d6-8846-443a-8dd9-4f332e49d3e9.png)
+<img src="[path/to/your/image.jpg](https://user-images.githubusercontent.com/81990132/199646812-782142d6-8846-443a-8dd9-4f332e49d3e9.png)" alt="asciiGOOD" width="300" height="200">
+
 
   
      * Create a z2z transaction (Sapling) using the hex version of your memo from above
@@ -329,38 +339,40 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
 
      `zcash-cli z_getnewaccount`
      
-    ![newAccount](https://user-images.githubusercontent.com/81990132/202352436-04c17be2-e914-4b9b-95d1-00cf6fc496d3.png)
+  <img src="https://user-images.githubusercontent.com/81990132/202352436-04c17be2-e914-4b9b-95d1-00cf6fc496d3.png" alt="newAccount" width="300" height="200">
+
     
    * Now build a UA receiver according to *your needs*. This includes Orchard only, Orchard + Sapling, and finally Orchard + Sapling + Transparent.
    
-   * Note you can tell the difference between receivers by how long they are
-
-     ![chars](https://user-images.githubusercontent.com/81990132/202354319-2da6be33-ca95-4b6b-b29c-14805dcb9c21.png)
+   * Note you can tell the difference between receivers by how long they are.
+     
+<img src="https://user-images.githubusercontent.com/81990132/202354319-2da6be33-ca95-4b6b-b29c-14805dcb9c21.png" alt="chars" width="300" height="200">
 
 
      `zcash-cli z_getaddressforaccount 0 '["orchard"]'`
      
-     ![uaOrchard](https://user-images.githubusercontent.com/81990132/202353642-c36b5fea-de8a-41f6-a27c-d9ff42a0c8d3.png)
-     ![OrchQR](https://user-images.githubusercontent.com/81990132/202355586-eaeb36e7-b000-4b99-8192-81e5002e6f11.png)
+<img src="[path/to/your/image.jpg](https://user-images.githubusercontent.com/81990132/202353642-c36b5fea-de8a-41f6-a27c-d9ff42a0c8d3.png)" alt="uaOrchard" width="300" height="200">
+
+<img src="[path/to/your/image.jpg](https://user-images.githubusercontent.com/81990132/202355586-eaeb36e7-b000-4b99-8192-81e5002e6f11.png)" alt="OrchQR" width="300" height="200">
 
      `zcash-cli z_getaddressforaccount 0 '["orchard","sapling"]'`
      
-     ![uaOrchardSapling](https://user-images.githubusercontent.com/81990132/202353732-740828e3-77b8-4684-8cf8-fb14256b1e61.png)
-     ![OrchSapQR](https://user-images.githubusercontent.com/81990132/202355596-c7b62854-9a9e-4627-ab5d-51091340de71.png)
+<img src="[path/to/your/image.jpg](https://user-images.githubusercontent.com/81990132/202353732-740828e3-77b8-4684-8cf8-fb14256b1e61.png)" alt="uaOrchardSapling" width="300" height="200">
+<img src="https://user-images.githubusercontent.com/81990132/202355596-c7b62854-9a9e-4627-ab5d-51091340de71.png" alt="OrchSapQR" width="300" height="200">
+
 
      `zcash-cli z_getaddressforaccount 0 '["orchard","sapling","p2pkh"]'`
      
-     ![uaFull](https://user-images.githubusercontent.com/81990132/202353793-3331c593-5286-4b84-93a7-adc4928839fd.png)
-     ![FullQR](https://user-images.githubusercontent.com/81990132/202355607-75de0750-2a57-4e10-883b-e0a626ed892a.png)
+<img src="[path/to/your/image.jpg](https://user-images.githubusercontent.com/81990132/202353793-3331c593-5286-4b84-93a7-adc4928839fd.png)" alt="uaFull" width="300" height="200">
+<img src="https://user-images.githubusercontent.com/81990132/202355607-75de0750-2a57-4e10-883b-e0a626ed892a.png" alt="FullQR" width="300" height="200">
 
 
 * How do you send ZEC using a UA?
 
      `zcash-cli z_sendmany "fromOaddress" "[{\"address\": \"dOrchardAddress\",\"amount\": 0.0001, \"memo\":\"yourMemoinHex\"}]" <minconf> <fee> <privacyPolicy>`
-     
-    ![UAsuccess](https://user-images.githubusercontent.com/81990132/202365280-c184f622-eb7e-4095-bc38-90795121c43c.png)
-    
-    ![pic](https://user-images.githubusercontent.com/81990132/202366758-40650460-aaeb-4e03-891f-b4bd08e18234.png)
+
+<img src="https://user-images.githubusercontent.com/81990132/202365280-c184f622-eb7e-4095-bc38-90795121c43c.png" alt="UAsuccess" width="300" height="200">
+<img src="[path/to/your/image.jpg](https://user-images.githubusercontent.com/81990132/202366758-40650460-aaeb-4e03-891f-b4bd08e18234.png)" alt="pic" width="300" height="200">
 
     
     ##### It should be noted both, *from* AND *destination* addresses can be transparent,sapling, or orchard addresses however you may need to adjust the privacyPolicy flag in order for the transation to be valid. (Some combos wont work if privacyPolicy doesn't make sense!)
