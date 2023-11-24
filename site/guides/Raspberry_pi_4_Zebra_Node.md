@@ -63,7 +63,7 @@ Running the Zebra node software on a Raspberry Pi 4 allows you to participate in
 7. __Monitoring__
    You can monitor the progress and status of your Zebra node by opening a web browser and navigating to __http://127.0.0.1:8233/status__.
 
-<img src="/site/guides/assets/daeacb227c9b3a9e448d6e0e61f9641e9b233b80.png" alt="zebra logo" width="300" height="200">
+<img src="/site/guides/assets/daeacb227c9b3a9e448d6e0e61f9641e9b233b80.png" alt="zebra logo" width="200" height="200">
 
 ## Troubleshooting
 
