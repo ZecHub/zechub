@@ -6,11 +6,13 @@ In the digital age, maintaining online privacy and security is of paramount impo
 
 __Virtual Private Networks (VPNs)__: Traditional VPNs create a secure, encrypted tunnel between your device and a remote server controlled by the VPN provider. This tunnel conceals your online activities from prying eyes, such as hackers, ISPs, or government agencies. VPNs are widely used for purposes like anonymous browsing, accessing geo-restricted content, and protecting against cyber threats.
 
-![VPN](assets/image-223.png)
+<img src="/site/Privacy_Tools/assets/image-223.png" alt="VPN" width="500" height="500"/>
+
 
 __Decentralized VPNs (dVPNs)__: In contrast, dVPNs leverage blockchain and peer-to-peer technology to create a decentralized network of nodes. Users' traffic is routed through these nodes, making it difficult for any single entity to monitor or control the entire network. dVPNs are typically more resistant to censorship, as there is no centralized authority overseeing the network. They are well-suited for users seeking enhanced privacy and security.
 
-![DVPN](assets/dvpn.png)
+<img src="/site/Privacy_Tools/assets/dvpn.png" alt="DVPN" width="500" height="500"/>
+
 
 # Security Considerations When Selecting a VPN
 
