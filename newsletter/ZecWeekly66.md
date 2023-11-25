@@ -1,126 +1,125 @@
-# ZecWeekly (Episode 66)
+# ZecWeekly #66
+
+Zcash 7th Anniversary! Nighthawk, Edge & Unstoppable Wallets Update and Zebra v1.3.0 released
 
 
-The Zebra book, Zcash enhanced privacy, ZecHub Extras, Zcash 7th Anniversary , Ywallet Upgrade. 
-
-
-Curated by "TonyAkins"[TonyAkin01](https://twitter.com/TonyAkins01))
+Curated by "TonyAkins"[TonyAkin01](https://twitter.com/TonyAkins01)
 
 ---
 
-#### Welcome to ZecWeekly Episode 66
+## Welcome to ZecWeekly 
 
-
-Welcome to the thrilling episode of ZecWeekly, as we explore Zcash's implementation of FROST using Schnorr , Zcash 7th Anniversary celebrated with lots of merches and prizes, release of Zebra updated 1.3.0, and the introduction of UniFFi for Developer's use cases. 
+Welcome to ZecWeekly, as we explore Zcash's implementation of FROST using Schnorr, Zcash 7th Anniversary celebrated with lots of merch and prizes, release of Zebra updated 1.3.0, and the introduction of UniFFi for Developer's use cases. 
 
 –
 ### This Week Education's Pieces.
 
-This week's education pieces will educate and refine us with all details about Zcash addresses, both shielded and transparent addresses and other the latest development in the Zcash payment system. 
+This week's education piece is a new video tutorial from ZF Community Support Coordinator @Tripleyouwu! 
+A demo of how to set up your Ledger with the Ywallet Zcash applet. For the technically savvy this is a great opportunity to test out shielded Zcash in a hardware secure environment. 
 
-Click  the link below to access the resource :
-
-https://wiki.zechub.xyz/visualizing-zcash-addresses
-
+https://www.youtube.com/watch?v=HRVNpDDoh1Y
 
 
 
-### Zcash Updates
+## Zcash Updates
 
-Zcash and ECC updates. 
+#### ECC & ZF Updates
 
 [NowNodes features Zcash for upgraded Privacy ecosystem](https://twitter.com/NOWNodes/status/1716463761777680713)
 
-[Ywallet Zcash Ledger app on Nano S Plus w/ Orchard tx](https://www.youtube.com/watch?v=HRVNpDDoh1Y&t=34s) 
-
-[Zcash Digitals Decentralized](https://twitter.com/ElectricCoinCo/status/1717570088771952811)
-
-[tECC DAYS 2023 celebrated](https://twitter.com/ECCIntegrator/status/1718035043736547504)
-
+[Zcash Decentralized Digital Task Force is formed](https://twitter.com/ElectricCoinCo/status/1717570088771952811)
 
 [Announcing Zebra 1.3.0](https://twitter.com/ZcashFoundation/status/1716524342853476576)
 
-[Implementation of UniFFi on Zcash Network](https://twitter.com/eiger_co/status/1716801431510851824)
-
 [Zcash SDK fixes now live](https://twitter.com/EdgeWallet/status/1716530980499128578)
+
+["Release the SNARKS!" - @Zcash](https://twitter.com/zcash/status/1718334126858682543)
+
 
 #### Zcash Community Grants Updates
 
-[WalletD Community Grant Application](https://forum.zcashcommunity.com/t/walletd-community-grant-application/45876?utm_source=dlvr.it&utm_medium=twitter)
+[Zcash Community Grant minutes](https://twitter.com/ZcashCommGrants/status/1717556482344907090)
 
-[Security assessment for Zcash FROST published](https://twitter.com/ZecHub/status/1716930299140169764)
+[ZCG funded @eiger_co's Zcash UniFFi library](https://twitter.com/ZcashCommGrants/status/1717273970922123392)
 
-[Zcash Community funded @eiger_co to create UniFFi library](https://twitter.com/ZcashCommGrants/status/1717273970922123392)
+
 
 #### Community Projects
 
-[Zcash 7th Anniversary celebrated in grande style](https://free2z.cash/ZecHub/zpage/zcash-7th-anniversary-challenge)
-
 [Post Comments on Free2Z using Zenith CLI! Go check it out!](https://www.youtube.com/watch?v=HtorP8TJ5vk)
+
+[Implementation of UniFFi on Zcash Network](https://twitter.com/eiger_co/status/1716801431510851824)
+
+[The Zcash 7th Anniversary Radio Show - Robmar](https://twitter.com/robmarn/status/1716863470128222366)
+
+[A call to Nigeria web3 developers to participate in Taking Zcash to Schools - Ogasky](https://twitter.com/OGA4SKY/status/1718329934572077365)
+
+[Follow @ZFAVClubEsp on twitter!](https://twitter.com/ZFAVClubEsp)
+
+
 
 #### News & Media
 
-[Binance founder CZ’s fortune gets slashed $12B, while SBF is still at $0](https://cointelegraph.com/news/binance-ceo-changpeng-zhao-fortune-slashed-billionaires-index)
+[Kraken to suspend trading for USDT, DAI, WBTC, WETH, and WAXL in Canada - Cointelegraph](https://cointelegraph.com/news/kraken-suspend-trading-usdt-dai-wbtc-weth-and-waxl-stablecoin-canada)
 
-[Google to invest another $2B in AI firm Anthropic: Report](https://cointelegraph.com/news/google-to-invest-another-two-billion-in-ai-firm-anthropic)
+[How major German firms like Mercedes and Lufthansa are using NFTs - Cointelegraph](https://cointelegraph.com/news/germany-mercedes-lufthansa-nfts)
 
-[Kraken to suspend trading for USDT, DAI, WBTC, WETH, and WAXL in Canada](https://cointelegraph.com/news/kraken-suspend-trading-usdt-dai-wbtc-weth-and-waxl-stablecoin-canada)
+[Kraken warns users trading data to be shared with IRS - Decrypt](https://decrypt.co/203507/kraken-warns-users-bitcoin-trading-data-irs)
 
-[AI Girlfriend Amouranth Wants to Use Her 'Vaginal Yeast' to Brew Beer](https://decrypt.co/203517)
+[ChatGPT creator OpenAI builds new team to check AI risks - Cointelegraph](https://cointelegraph.com/news/chatgpt-openai-new-team-ai-risks)
 
-[Audits and rug-pulled projects, a $650B token burn, and major DeFi protocol quits UK: Finance Redefined](https://cointelegraph.com/news/audits-and-rug-pulled-projects-a-650b-token-burn-and-major-defi-protocol-quits-uk-finance-redefined)
+[Social Media Data Collection, Does it matter? - Cypherpunk Times](https://www.cypherpunktimes.com/social-media-data-collection-does-it-matter/)
 
-[Bitcoin's 14% Weekly Gain Signals 'End of an Era' as Big Tech Dumps, Analyst Says](https://www.coindesk.com/markets/2023/10/27/bitcoins-14-weekly-gain-signals-end-of-an-era-as-big-tech-dumps-analyst-says/?utm_medium=referral&utm_source=rss&utm_campaign=headlines)
+[Digital Pound responses have major privacy concern - Coindesk](https://www.coindesk.com/policy/2023/10/27/digital-pound-consultation-received-over-50000-responses-with-privacy-a-major-concern)
 
-[Binance Founder CZ's Wealth Falls About $12B as Trading Revenue Slumps: Bloomberg](https://www.coindesk.com/business/2023/10/27/binance-founder-czs-wealth-falls-about-12b-as-trading-revenue-slumps-bloomberg/?utm_medium=referral&utm_source=rss&utm_campaign=headlines)
-
-[How major German firms like Mercedes and Lufthansa are using NFTs](https://cointelegraph.com/news/germany-mercedes-lufthansa-nfts)
-
-[ChatGPT creator OpenAI builds new team to check AI risks](https://cointelegraph.com/news/chatgpt-openai-new-team-ai-risks)
-
-[Bitcoin restarting 2023 uptrend after 26% Uptober BTC price gains — research](https://cointelegraph.com/news/bitcoin-2023-uptober-btc-price-research)
+[Can Twitter OSINT outperform WSJ's chain analysis? - @nic_carter](https://twitter.com/nic__carter/status/1717622001014067417)
 
 
 
 ## Some Zcash Tweets
 
+[Unstoppable Wallet updates with Spend before Sync!](https://twitter.com/unstoppablebyhs/status/1717515613571096856)
 
-[Central bank of Brazil account heard about Zcash today](https://x.com/anarchychains/status/1717288641288921272)
+[Central bank of Brazil account heard about Zcash today](https://twitter.com/anarchychains/status/1717288641288921272)
 
-[Happy Birthday Zcash!!!](https://twitter.com/ZforZcash/status/1718085318543376404)
+[Happy Birthday Zcash - ZforZcash](https://twitter.com/ZforZcash/status/1718085318543376404)
+
+[Zcash isn't a cryptocurrency, its a privacy movement - @mad_paiement](https://twitter.com/mad_paiement/status/1718246736957731089)
 
 [ZcashFoundation and NCCGroupInfosec conduct a security assessment of the Foundation’s FROST](https://twitter.com/ZcashFoundation/status/1716849796315512935)
 
-[What are Zero-knowledge Proofs](https://twitter.com/NighthawkWallet/status/1717730883933806958)
-
-[Zcash Community Grant minutes](https://twitter.com/ZcashCommGrants/status/1717556482344907090)
+[What are Zero-knowledge Proofs - Nighthawk Wallet](https://twitter.com/NighthawkWallet/status/1717730883933806958)
 
 [Keep yourself safe from hack with a Zcash wallet](https://twitter.com/NighthawkWallet/status/1717007699592851702)
 
-[Metrics should be updated](https://twitter.com/ZcashForum/status/1716786643171225726)
-
 [Join our UPA friends if you're at EFDevconnect](https://twitter.com/ElectricCoinCo/status/1716886693444530195)
-
-
-[Social media Data collection, does it matter?](https://twitter.com/ZecHub/status/1716850588942577890)
 
 [Follow NighthawkWallet for crypto privacy education](https://twitter.com/NighthawkWallet/status/1716625185623728248)
 
 [Privacy is normal!](https://twitter.com/ZcashNigeria/status/1716755151497707660)
 
+[Proud to be part of the Community and celebrate 7 years - @gordonesTV](https://twitter.com/gordonesTV/status/1718601403956887691)
+
+[Crypto's pseudonymity protected its users...those days are over - Zcash Podcast](https://twitter.com/TheDesertLynx/status/1717629225023205811)
+
+[Community Journalism on World Events - alberdioni8406](https://twitter.com/alberdioni8406_/status/1718578406676210031)
+
+[Ywallet Messages UI redesigned!](https://twitter.com/hhanh072/status/1717338219996672113)
+
+[Zcash FROST Information Sheet](https://twitter.com/ZecHub/status/1716930299140169764)
+
+[Blockprof - Happy birthday to Zcash!](https://twitter.com/JWVerret/status/1718451347517751702)
+
+[The history of Zcash Genesis - @ruzcash](https://twitter.com/ruzcash/status/1718200984504070519)
+
+
 
 ## Zeme of the Week
 
-[https://twitter.com/ZcashNigeria/status/1718151545324200002](https://twitter.com/ZcashNigeria/status/1718151545324200002)
-
-[https://twitter.com/zcashbrazil/status/1717609507432337754](https://twitter.com/zcashbrazil/status/1717609507432337754)
-
-[https://twitter.com/zcashbrazil/status/1717225798019567621](https://twitter.com/zcashbrazil/status/1717225798019567621)
+[https://twitter.com/pedamerico/status/1718304279226700076/photo/1]
 
 
 
 ## Jobs in the Ecosystem
 
-[Zcash needs graphic designers,writers, and privacy advocate in its ecosystem](https://twitter.com/ZecHub/status/1713947885220344234)
-
-[Create Video HOWTO - Setup WSL in windows, and compile lastest zcashd](https://github.com/ZecHub/zechub/issues/567)
+[ZecHub Tasks (posted on mondays)](https://dework.zechub.org)
