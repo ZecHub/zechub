@@ -4,6 +4,6 @@
 
 [Wallpapers](https://www.wiki.zechub.xyz/gallery/wallpapers)
 
-[Posters](https://www.wiki.zechub.xyz/gallery/posters)
+[Infographics](/site/Glossary_and_FAQs/Gallery/Inforgraphics)
 
 [Logos](https://www.wiki.zechub.xyz/gallery/logos)
