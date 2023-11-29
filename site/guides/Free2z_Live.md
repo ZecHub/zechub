@@ -24,29 +24,29 @@ Click ‘Authorize app’ to connect your twitter account to free2z.
 ## Personalize you profile
 After your account is created, you will be redirected to your Free2Z profile page. If you created your account by connecting your Twitter, most of the fields will be automatically filled. If you created an account by entering a username and password, you should input your information here. You can use a pseudonym instead of your real name.
 
-![Deafult free2z header](/site/guides/assets/default-header.png)
+![Deafult free2z header](https://i.ibb.co/GxyHz1D/default-header.png)
 
 It's quite boring right now, so let's make it more interesting by setting up an avatar and a banner. The Free2Z interface makes this step very easy using the upload button (the up arrow on the right).
 
-![Upload avatar and banner](/site/guides/assets/avatar-and-banner.png)
+![Upload avatar and banner](https://i.ibb.co/5jsjfZV/avatar-and-banner.png)
 
 You can see the result at the top of the page.
 
-![Cool header](/site/guides/assets/cool-hheader.png)
+![Cool header](https://i.ibb.co/7y542gp/resultatpage.png)
 
 Ah, much better! If you have some artistic skills, you can make your Free2Z profile page look amazing!
 
 Write a nice description for your page. You can talk about yourself or describe the type of content that others can expect from you. (Tip: Use markdown syntax to personalize your description!)
 
-![Talk about yourself](/site/guides/assets/edit-description.png)
+![Talk about yourself](https://i.ibb.co/cD1DFXw/edit-description.png)
 
 Don't forget to provide your Zcash shielded address, so supporters can donate directly to you!
 
-![Provide your shielded address](/site/guides/assets/p2p-address.png)
+![Provide your shielded address](https://i.ibb.co/8zRYgFS/p2p-address.png)
 
 The last step to complete your page setup is to set a 'Member Price'. This is the price in 2Zs (Tuzies) that other users will pay to subscribe to your page! (More on 2Zs later).
 
-![Member subscription price](/site/guides/assets/member-price.png)
+![Member subscription price](https://i.ibb.co/VW9sYYz/member-price.png)
 
 Finally, click the 'Update Profile' button to finalize your profile setup!
 
@@ -59,35 +59,35 @@ Free2Z allows users to subscribe to their favorite creators and get access to ex
 
 You can see your 2Zs credits in the header of your profile page.
 
-![Your 2sz balance](/site/guides/assets/tuzis-balance.png)
+![Your 2sz balance](https://i.ibb.co/2dBPyPb/tuzis-balance.png)
 
 You can buy more 2Zs with Zcash by clicking on your 2Zs balance. The minimum amount for buying is 0.05 ZEC, and the current conversion rate is 0.05 ZEC = 10 2Zs.
 
-![Buy 2sz](https://github.com/ZecHub/zechub/blob/main/site/guides/assets/buy-tuzies.png)
+![Buy 2sz](https://i.ibb.co/MgZb9rg/buy-tuzies.png)
 
 ## Donating and subscribing
 Once you find a creator you like, you can show your appreciation by donating and subscribing to them. All donations go directly to the creator's wallet.
 
 As an example, let's subscribe to [Free2Z's own page](https://free2z.cash/free2z).
 
-![Free2z page](/site/guides/assets/free2z-page.png)
+![Free2z page](https://i.ibb.co/C2T6txY/free2z-page.png)
 
 To subscribe to a page, all you need to do is click on the subscribe icon on the page header.
 
-![Subscribe to creator](/site/guides/assets/subscribe-to-creator.png)
+![Subscribe to creator](https://i.ibb.co/k5Hbdfr/subscribe-to-creator.png)
 
 You will see the minimum amount for subscribing. Verify if you have enough 2Zs and click 'subscribe'.
 
-![Confirm subscription](/site/guides/assets/confirm-subscribe.png)
+![Confirm subscription](https://i.ibb.co/8j4p73J/confirm-subscribe.png)
 
 ### Donate using 2zs or Zcash.
 You can donate directly on their page, by clicking the “Fund creator” icon. 
 
-![Fund creator](/site/guides/assets/fund-creator.png)
+![Fund creator](https://i.ibb.co/xCz5X92/fund-creator.png)
 
 Or, from inside a post, look for the floating 'plus' button. From here, you can donate to the creator or promote the post on Free2Z.
 
-![Support creator](/site/guides/assets/post-floating-buttons.png)
+![Support creator](https://i.ibb.co/Rzs7ST1/post-floating-buttons.png)
 
 ## Free2z Live
 The Free2z platform offers an awesome feature called Free2z Live. With this tool, creators can start live streams for subscribed members. Some key features of Free2z Live include:
@@ -112,19 +112,19 @@ t’s very easy to start a live stream with Free2z Live. But there are a few req
 2. The creator **must** have a balance of at least 150 2zs in their account.
 If the creator meets **both** of the conditions above, an icon named ‘Go Live’ will be available to them on their profile page.
 
-![Go live](/site/guides/assets/go-live.png)
+![Go live](https://i.ibb.co/7RFywwK/go-live.png)
 
 To start a live stream, just click the ‘Go Live’ button, and the Free2z app will ask for permission to use your microphone and webcam (if you have one). After you grant the necessary permissions, Free2z will ask you to enter a nickname that you want to use during the live stream. Once you have selected a nickname, click ‘Join’ to start your live stream.
 
-![Select nickname](/site/guides/assets/select-nickname.png)
+![Select nickname](https://i.ibb.co/4VMbCrW/select-nickname.png)
 
 And done! When you start a live stream, your profile will show an icon indicating that you are live, so your subscribers can join the live stream.
 
-![Joining a livestream](/site/guides/assets/join-livestream.png)
+![Joining a livestream](https://i.ibb.co/qpBLcKr/join-livestream.pn)
 
 When people join the live stream, they can chat, ask to join the stage, interact by voting in polls, and more.
 
-![Example of a Free2z Live](/site/guides/assets/free2z-live-example.png)
+![Example of a Free2z Live](https://i.ibb.co/r3XTY8M/free2z-live-example.png)
 _(Example of Free2z Live session)_
 
 Free2z Live is versatile and powerful. In the next section, I’ll provide an overview of its functionalities and tools.
@@ -134,13 +134,13 @@ This wiki-doc is not intended to be an in-depth guide to Free2z or Free2z Live. 
 
 In the bottom left of the screen, we see a few buttons.
 
-![Bottom left buttons](/site/guides/assets/free2z-live-left.png)
+![Bottom left buttons](https://i.ibb.co/XLQBDk1/free2z-live-left.png)
 
 A nice function here is the ability to share your screen so other users can see what you're doing.
 
 At the bottom we can find the live stream options.
 
-![Bottom buttons](/site/guides/assets/free2z-live-bottom.png)
+![Bottom buttons](https://i.ibb.co/7JbmDXc/free2z-live-bottom.pn)
 
 Some of the key options here are:
 - Mute / unmute microphone
