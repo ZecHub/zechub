@@ -54,7 +54,7 @@ Web wallets are wallets that you can access from your web browser. They give a u
 ---
 
 <a href="/site/Using_Zcash/Wallets/Full_Node_Wallets">
-    <img src="[https://i.ibb.co/GCfnVDM/Full-Node-Card.png](https://i.ibb.co/xLdmmfP/Full-Node-Card.png)" alt="" width="700" height="400"/>
+    <img src="https://i.ibb.co/xLdmmfP/Full-Node-Card.png" alt="" width="700" height="400"/>
 </a>
 
 
