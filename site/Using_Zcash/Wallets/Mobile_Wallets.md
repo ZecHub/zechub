@@ -6,66 +6,70 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 
 ---
 
-## Ywallet [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" alt="arrow-right" width="20" height="20" />](https://ywallet.app/)
-| Android [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15" alt="" />](https://play.google.com/store/apps/details?id=me.hanh.ywallet) | iOS [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15" alt="" />](https://apps.apple.com/us/app/ywallet/id1583859229)|
+<a href="https://ywallet.app/installation/">
+    <img src="https://i.ibb.co/Fm9K8Xx/ywalletcard.png" alt="" width="700" height="400"/>
+</a>
 
-### Pools
-| Transparent | Sapling  | Orchard |
-
+<aside>
+  
 ### Features
 | WarpSync | Shielded Memo | Automatic Shielding | Unified Address |
 
+</aside>
 
-## Zingo [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20" />](https://www.zingolabs.org/)
-| Android [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" alt="imgFor" width="15" height="15" />](https://play.google.com/store/apps/details?id=org.ZingoLabs.Zingo) | iOS [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15"/>](https://apps.apple.com/app/zingo/id1668209531) |
+---
 
+<a href="https://play.google.com/store/apps/details?id=org.ZingoLabs.Zingo">
+    <img src="https://i.ibb.co/MssGcyq/zingocard.png" alt="" width="700" height="400"/>
+</a>
 
-### Pools
-| Transparent | Sapling | Orchard | Unified Address |
-
+<aside>
+  
 ### Features
 | BlazeSync | Shielded Memo | Live Sync Dashboard |
 
+</aside>
 
+---
 
-## NightHawk [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20" alt="" />](https://nighthawkwallet.com/)
-| Android [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15" alt="" />](https://play.google.com/store/apps/details?id=com.nighthawkapps.wallet.android) | iOS [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15" alt="" />](https://apps.apple.com/us/app/nighthawk-wallet/id1524708337?uo=4) |
+<a href="https://nighthawkwallet.com">
+    <img src="https://i.ibb.co/CKycwgD/zingocard-4.png" alt="" width="700" height="400"/>
+</a>
 
-### Pools
-| Transparent | Sapling |
-
+<aside>
+  
 ### Features
 | Syncronizer | Shielded Memo | Automatic Shielding |
 
+</aside>
 
-## Zecwallet Lite [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20"/>](https://zecwallet.co/)
-| Android [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15"/>](https://play.google.com/store/apps/details?id=com.zecwalletmobile) | iOS [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15"/>](https://apps.apple.com/us/app/id1516128405) | <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/triangle-exclamation.svg" width="18" height="18"/> Not under active development
+---
 
-### Pools
-| Transparent | Sapling | Orchard |
+<a href="https://edge.app">
+    <img src="https://i.ibb.co/Hh7vQFt/zingocard-2.png" alt="" width="700" height="400"/>
+</a>
 
-### Features
-| BlazeSync | Shielded Memo | Unified Address |
-
-
-## Edge [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20"/>](https://edge.app/)
-| Android [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15"/>](https://play.google.com/store/apps/details?id=co.edgesecure.app) | iOS [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15"/>](https://apps.apple.com/us/app/edge-bitcoin-wallet/id1344400091) |
-
-### Pools
-| Sapling |
-
+<aside>
+  
 ### Features
 | Synchronizer | Multi Coin |
 
+</aside>
 
-## Unstoppable [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20"/>](https://unstoppable.money/)
-| Android [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15"/>](https://play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet) | iOS [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15"/>](https://apps.apple.com/app/bank-bitcoin-wallet/id1447619907?ls=1) |
+---
 
-### Pools
-| Sapling |
+<a href="https://unstoppable.money">
+    <img src="https://i.ibb.co/F4kCSBd/zingocard-3.png" alt="" width="700" height="400"/>
+</a>
 
+<aside>
+  
 ### Features
-| Synchronizer |
+| Synchronizer | Multi Coin |
+
+</aside>
+
+---
 
 
 ## Exodus [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20"/>](https://www.exodus.com/)
