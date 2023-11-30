@@ -4,7 +4,7 @@ Wallets allow you to receive and spend Zcash. Some also support encrypted memos.
 
 ---
 
-[![](https://i.ibb.co/txYyQpx/Mobile-Card.png)](/site/Using_Zcash/Wallets/Mobile_Wallets){ width=50% height=50% }
+[![](https://i.ibb.co/mF3rXgM/Mobile-Card.png)](/site/Using_Zcash/Wallets/Mobile_Wallets)
 
 
 <aside>
@@ -14,7 +14,7 @@ Mobile wallets allow you to access your Zcash anywhere and on the go
 
 ---
 
-[![](https://i.ibb.co/92K0WwQ/Desktop-Card.png)](/site/Using_Zcash/Wallets/Desktop_Wallets){ width=50% height=50% }
+[![](https://i.ibb.co/jWR6Fg4/Desktop-Card.png)](/site/Using_Zcash/Wallets/Desktop_Wallets)
 
 <aside>
 Desktop wallets are downloadable apps if you want that access you Zcash from Windows, MacOS, or Linux.
@@ -25,7 +25,7 @@ Desktop wallets are downloadable apps if you want that access you Zcash from Win
 
 [Hardware Wallets]()
 
-[![](https://i.ibb.co/J3xph9x/Hardware-Card.png)](/site/Using_Zcash/Wallets/Hardware_Wallets){ width=50% height=50% }
+[![](https://i.ibb.co/bzmSD5N/Hardware-Card.png)](/site/Using_Zcash/Wallets/Hardware_Wallets)
 
 
 <aside>
@@ -36,7 +36,7 @@ Hardware wallets stores your Zcash securely offline physical device. Hardware wa
 ---
 
 
-[![](https://i.ibb.co/d6gzqJN/WebCard.png)](/site/Using_Zcash/Wallets/Web_Wallets){ width=50% height=50% }
+[![](https://i.ibb.co/McjgsLM/WebCard.png)](/site/Using_Zcash/Wallets/Web_Wallets)
 
 
 <aside>
@@ -47,7 +47,7 @@ Web wallets are wallets that you can access from your web browser. They give a u
 ---
 
 
-[![](https://i.ibb.co/s2RgYfP/Full-Node-Card.png)](/site/Using_Zcash/Wallets/Full_Node_Wallets){ width=50% height=50% }
+[![](https://i.ibb.co/GCfnVDM/Full-Node-Card.png)](/site/Using_Zcash/Wallets/Full_Node_Wallets)
 
 
 <aside>
