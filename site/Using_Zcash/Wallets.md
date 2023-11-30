@@ -4,7 +4,11 @@ Wallets allow you to receive and spend Zcash. Some also support encrypted memos.
 
 ---
 
-[![](https://i.ibb.co/mF3rXgM/Mobile-Card.png)](/site/Using_Zcash/Wallets/Mobile_Wallets)
+
+<a href="/site/Using_Zcash/Wallets/Mobile_Wallets">
+    <img src="https://i.ibb.co/mF3rXgM/Mobile-Card.png" alt="" width="700" height="400">
+</a>
+
 
 
 <aside>
@@ -14,7 +18,10 @@ Mobile wallets allow you to access your Zcash anywhere and on the go
 
 ---
 
-[![](https://i.ibb.co/jWR6Fg4/Desktop-Card.png)](/site/Using_Zcash/Wallets/Desktop_Wallets)
+
+<a href="/site/Using_Zcash/Wallets/Desktop_Wallets">
+    <img src="https://i.ibb.co/jWR6Fg4/Desktop-Card.png" alt="" width="700" height="400">
+</a>
 
 <aside>
 Desktop wallets are downloadable apps if you want that access you Zcash from Windows, MacOS, or Linux.
@@ -23,10 +30,9 @@ Desktop wallets are downloadable apps if you want that access you Zcash from Win
 
 ---
 
-[Hardware Wallets]()
-
-[![](https://i.ibb.co/bzmSD5N/Hardware-Card.png)](/site/Using_Zcash/Wallets/Hardware_Wallets)
-
+<a href="/site/Using_Zcash/Wallets/Hardware_Wallets">
+    <img src="https://i.ibb.co/bzmSD5N/Hardware-Card.png" alt="" width="700" height="400">
+</a>
 
 <aside>
 Hardware wallets stores your Zcash securely offline physical device. Hardware wallets currently only support transparent addresses. Users must make a security and privacy tradeoff when using hardware wallets.
@@ -35,8 +41,9 @@ Hardware wallets stores your Zcash securely offline physical device. Hardware wa
 
 ---
 
-
-[![](https://i.ibb.co/McjgsLM/WebCard.png)](/site/Using_Zcash/Wallets/Web_Wallets)
+<a href="/site/Using_Zcash/Wallets/Web_Wallets">
+    <img src="https://i.ibb.co/McjgsLM/WebCard.png" alt="" width="700" height="400">
+</a>
 
 
 <aside>
@@ -46,8 +53,11 @@ Web wallets are wallets that you can access from your web browser. They give a u
 
 ---
 
+<a href="/site/Using_Zcash/Wallets/Full_Node_Wallets">
+    <img src="https://i.ibb.co/GCfnVDM/Full-Node-Card.png" alt="" width="700" height="400">
+</a>
 
-[![](https://i.ibb.co/GCfnVDM/Full-Node-Card.png)](/site/Using_Zcash/Wallets/Full_Node_Wallets)
+[![]()]()
 
 
 <aside>
