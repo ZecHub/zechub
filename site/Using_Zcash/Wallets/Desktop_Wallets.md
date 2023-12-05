@@ -7,59 +7,54 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 
 ---
 
-## Ywallet [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" alt="ywallet" width="20" height="20"/>](https://ywallet.app/installation/)
-| Windows [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" alt="windows" width="15" height="15"/>](https://ywallet.app/installation/) | macOS [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" alt="macos" width="15" height="15"/>](https://ywallet.app/installation/) | Linux [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" alt="linux" width="15" height="15"/>](https://ywallet.app/installation/) |
+<a href="https://ywallet.app/installation/">
+    <img src="https://i.ibb.co/smL2cCW/ywalletcard.png" alt="" width="700" height="400"/>
+</a>
 
-### Pools
-| Transparent | Sapling | Orchard |
-
-### Features
+<aside>
+  
+#### Features
 | WarpSync | Shielded Memo | Automatic Shielding | Unified Address |
 
-### Shielded Sync Speed <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18"/> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18"/> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18"/>
+</aside>
 
+---
 
+<a href="https://github.com/zingolabs/zingo-pc">
+    <img src="https://i.ibb.co/r7ptfgS/zingocard.png" alt="" width="700" height="400"/>
+</a>
 
-## Zingo [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" alt="zingo" width="20" height="20"/>](https://www.zingolabs.org/)
-| Windows [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" alt="windows2" width="15" height="15"/>](https://github.com/zingolabs/zingo-pc/releases) | macOS [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" alt="macos2" width="15" height="15"/>](https://github.com/zingolabs/zingo-pc/releases) | Linux [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" alt="linux" width="15" height="15"/>](https://github.com/zingolabs/zingo-pc/releases) |
-
-
-### Pools
-| Transparent | Sapling | Orchard | Unified Address |
-
-### Features
+<aside>
+  
+#### Features
 | BlazeSync | Shielded Memo | Live Sync Dashboard |
 
-### Shielded Sync Speed <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18"/> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18"/>
+</aside>
 
+---
 
+<a href="https://www.exodus.com/zcash-wallet-zec">
+    <img src="https://i.ibb.co/j4zgMS1/exoduscard.png" alt="" width="700" height="400"/>
+</a>
 
-## ZecWallet Lite [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20"/>](https://www.zecwallet.co/)
-| Windows [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" alt="win" width="15" height="15"/>](https://zecwallet.co/#download) | macOS [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" alt="macos3" width="15" height="15"/>](https://zecwallet.co/#download) | Linux [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" alt="lin2" width="15" height="15"/>](https://zecwallet.co/#download) | <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/triangle-exclamation.svg" alt="img2" width="18" height="18"/> Not under active development
+<aside>
+  
+#### Features
+| Syncronizer | Multicoin |
 
-### Pools 
-| Transparent | Sapling | Orchard |
+</aside>
 
-### Features
-| BlazeSync | Shielded Memo |  Unified Address |
+---
 
-### Shielded Sync Speed <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18"> <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bolt.svg" width="18" height="18">
+<a href="https://www.coinomi.com/en/">
+    <img src="https://i.ibb.co/9HPtFfL/coinomicard.png" alt="" width="700" height="400"/>
+</a>
 
-
-## Exodus [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20"/>](https://www.exodus.com/zcash-wallet-zec)
-| Windows [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15"/>](https://www.exodus.com/download/) | macOS [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15"/>](https://www.exodus.com/download/) | Linux [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15"/>](https://www.exodus.com/download/) |
-
-### Pools 
-| Transparent |
-
-### Features
+<aside>
+  
+#### Features
 | Synchronizer | Multi Coin |
 
+</aside>
 
-## Coinomi [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" alt="" width="20" height="20"/>](https://www.coinomi.com/en/)
-| Windows [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15"/>](https://www.coinomi.com/en/downloads/) | macOS [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15"/>](https://www.coinomi.com/en/downloads/) | Linux [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15"/>](https://www.coinomi.com/en/downloads/) | <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/triangle-exclamation.svg" width="18" height="18"/> Users have reported problems with this wallet
-### Pools 
-| Transparent |
-
-### Features
-| Synchronizer | Multi Coin |
+---
