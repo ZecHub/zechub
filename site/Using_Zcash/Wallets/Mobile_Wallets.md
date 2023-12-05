@@ -7,12 +7,12 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ---
 
 <a href="https://ywallet.app/installation/">
-    <img src="https://i.ibb.co/Fm9K8Xx/ywalletcard.png" alt="" width="700" height="400"/>
+    <img src="https://i.ibb.co/vX41yfN/ywalletcard.png" alt="" width="700" height="400"/>
 </a>
 
 <aside>
   
-### Features
+#### Features
 | WarpSync | Shielded Memo | Automatic Shielding | Unified Address |
 
 </aside>
@@ -20,12 +20,12 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ---
 
 <a href="https://play.google.com/store/apps/details?id=org.ZingoLabs.Zingo">
-    <img src="https://i.ibb.co/MssGcyq/zingocard.png" alt="" width="700" height="400"/>
+    <img src="https://i.ibb.co/zFm6xLq/zingocard.png" alt="" width="700" height="400"/>
 </a>
 
 <aside>
   
-### Features
+#### Features
 | BlazeSync | Shielded Memo | Live Sync Dashboard |
 
 </aside>
@@ -33,12 +33,12 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ---
 
 <a href="https://nighthawkwallet.com">
-    <img src="https://i.ibb.co/CKycwgD/zingocard-4.png" alt="" width="700" height="400"/>
+    <img src="https://i.ibb.co/dmw7TD4/nighthawkcard.png" alt="" width="700" height="400"/>
 </a>
 
 <aside>
   
-### Features
+#### Features
 | Syncronizer | Shielded Memo | Automatic Shielding |
 
 </aside>
@@ -46,12 +46,12 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ---
 
 <a href="https://edge.app">
-    <img src="https://i.ibb.co/Hh7vQFt/zingocard-2.png" alt="" width="700" height="400"/>
+    <img src="https://i.ibb.co/jV0YqYD/edgecard.png" alt="" width="700" height="400"/>
 </a>
 
 <aside>
   
-### Features
+#### Features
 | Synchronizer | Multi Coin |
 
 </aside>
@@ -59,48 +59,50 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ---
 
 <a href="https://unstoppable.money">
-    <img src="https://i.ibb.co/F4kCSBd/zingocard-3.png" alt="" width="700" height="400"/>
+    <img src="https://i.ibb.co/CHgSpmk/unstoppablecard.png" alt="" width="700" height="400"/>
 </a>
 
 <aside>
   
-### Features
+#### Features
 | Synchronizer | Multi Coin |
 
 </aside>
 
 ---
+<a href="https://www.exodus.com/download/">
+    <img src="https://i.ibb.co/DKJmQkm/exoduscard.png" alt="" width="700" height="400"/>
+</a>
 
-
-## Exodus [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20"/>](https://www.exodus.com/)
-| Android [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15"/>](https://play.google.com/store/apps/details?id=exodusmovement.exodus) | iOS [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15"/>](https://apps.apple.com/app/apple-store/id1414384820?mt=8) |
-
-### Pools
-| Transparent |
-
-### Features
-| Synchronizer | Multi Coin |
-
-
-
-## Coinomi [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20" alt="" />](https://www.coinomi.com/en/)
-| Android [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15" alt="" />](https://play.google.com/store/apps/details?id=com.coinomi.wallet) | iOS [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15" alt="" />](https://apps.apple.com/app/coinomi-wallet/id1333588809) | <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/triangle-exclamation.svg" width="18" height="18" alt="" /> Users have reported problems with this wallet
-
-### Pools 
-
-### Pools
-| Transparent |
-
-### Features
-| Synchronizer | Multi Coin |
-
-
-### Safepal [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/arrow-up-right-from-square.svg" width="20" height="20" alt="" />](https://www.safepal.com/)
-| Android [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15" alt="" />](https://play.google.com/store/apps/details?id=io.safepal.wallet) | iOS [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" width="15" height="15" alt="" />](https://apps.apple.com/app/apple-store/id1548297139?mt=8) |
-
-#### Pools
-| Transparent |
+<aside>
 
 #### Features
 | Synchronizer | Multi Coin |
 
+</aside>
+
+----
+
+<a href="https://www.coinomi.com/en/downloads">
+    <img src="https://i.ibb.co/Yb4Qp5S/coinomicard.png" alt="" width="700" height="400"/>
+</a>
+
+<aside>
+    
+#### Features
+| Synchronizer | Multi Coin |
+
+</aside>
+
+----
+
+<a href="https://safepal.com">
+    <img src="https://i.ibb.co/0ZP54QY/safepalcard.png" alt="" width="700" height="400"/>
+</a>
+
+<aside>
+
+#### Features
+| Synchronizer | Multi Coin |
+
+</aside>
