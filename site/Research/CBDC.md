@@ -109,6 +109,7 @@ For those venturing into the uncharted territory of CBDCs, resources become your
 3. central bank websites
 4. academic journals ([journal](https://www.bis.org/publ/work976.pdf))
 5. government reports
+
 These resources offer a glimpse into the evolving landscape, providing insights, research, and updates on the digital odyssey.
 
 ## Conclusion: Navigating the Uncharted Waters with Wisdom
