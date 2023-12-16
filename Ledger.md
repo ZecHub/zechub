@@ -33,7 +33,7 @@ On the other hand, ShapeShift exists to be a multi-chain crypto platform that fa
 * Navigate to the ShapeShift Platform to verify your account then, create or connect a wallet. Confirm the details of the trade on the popup modal Boom! 
 * You've traded your asset to USDC
 
-  ###Connecting Ledger to Shapeshift Individuals can swiftly connect their Ledger hardware wallet to app.shapeshift.com via WalletConnect.
+  ### Connecting Ledger to Shapeshift Individuals can swiftly connect their Ledger hardware wallet to app.shapeshift.com via WalletConnect.
   
    1. Visit the Shapeshift website “app.shapeshift.com” and click "**Connect Wallet**".
    2. Then, click on WalletConnect from the wallet drop down list; click the Desktop tap to select Ledger.
