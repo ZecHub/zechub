@@ -2,7 +2,7 @@
 
 Welcome back to yet another interesting article centered on the Ledger Hardware Wallets. In the world of crypto, zero-knowledge proofs are cementing the future of transactions with its cutting-edge technology which provides true privacy and anonymity for monetary transactions. That brings us to Ledger Live Software! 
 
-## What is the Ledger Live Software? 
+## What is the Ledger Live Software? - [Ledger Live.png](https://images.app.goo.gl/pBn632kRFVtSWLhT9)
 Ledger Live is a cutting-edge software designed and also allows for the set up of user-owned devices while enabling them to manage their crypto assets swiftly. To start exploring this innovative software, users can open the app and follow on-screen instructions to set up, restore, or even back up their new device. 
 
 ### The Ledger Live Privacy Concerns 
@@ -23,7 +23,7 @@ While using Ledger, there are some security measures to keep in mind:
 
 * If you already have an existing hardware wallet, then restore your device using the wallet recovery phrase. Whether you just created your new device or you've just recovered an existing hardware wallet, you can start enjoying the benefits - sending and receiving cryptos is on the go! You can also buy, sell, stake, and access dApps. 
 
-### Alternative method using Shapeshift
+### Alternative method using Shapeshift - [ShapeShift.png](https://images.app.goo.gl/9zQWXtxB3WSjoANs5)
 
 On the other hand, ShapeShift exists to be a multi-chain crypto platform that facilitates trading, tracking, buying, and earning services. Shapeshift is a community-owned, private, and non-custodial platform that allows users to manage their portfolios and DeFi positions.
 
