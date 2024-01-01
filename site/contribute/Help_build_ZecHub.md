@@ -1,5 +1,6 @@
 import ContributorForm from '../src/components/ContributorForm';
 
+# Help Build ZecHub 
 
 If you're a member of the Zcash community, and want to contribute building ZecHub, there a few things that are super helpful.
 
