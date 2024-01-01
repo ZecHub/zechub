@@ -18,4 +18,4 @@ If there are other ways you'd like to contribute, please message ZecHub ([@ZecHu
 
 In order to make payouts ZecHub requires all contributors to complete a declaration form with their Name & Shielded Z-address/Unified address:
 
-<iframe style="border:none;width:100%;" height="540px" src="https://noteforms.com/forms/zechub-contributor-form"></iframe>
+<ContributorForm />
