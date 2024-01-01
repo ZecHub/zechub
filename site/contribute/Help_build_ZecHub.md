@@ -1,3 +1,6 @@
+import ContributorForm from '../src/components/ContributorForm';
+
+
 If you're a member of the Zcash community, and want to contribute building ZecHub, there a few things that are super helpful.
 
 1. Curate links for the newsletter and add them to the newsletter's github page. Find instructions on how to do that at [@ZecWeekly Newsletter](https://wiki.zechub.xyz/zecweekly-newsletter).
