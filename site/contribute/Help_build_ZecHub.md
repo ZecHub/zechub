@@ -1,5 +1,3 @@
-import ContributorForm from '../src/components/ContributorForm';
-
 # Help Build ZecHub 
 
 If you're a member of the Zcash community, and want to contribute building ZecHub, there a few things that are super helpful.
@@ -22,4 +20,10 @@ If there are other ways you'd like to contribute, please message ZecHub ([@ZecHu
 
 In order to make payouts ZecHub requires all contributors to complete a declaration form with their Name & Shielded Z-address/Unified address:
 
-<ContributorForm />
+<div>
+    <iframe
+      style={{ border: 'none', width: '100%' }}
+      height="540px"
+      src="https://noteforms.com/forms/zechub-contributor-form"
+    />
+  </div>
