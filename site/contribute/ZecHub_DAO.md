@@ -21,9 +21,9 @@ The ZecHub DAO currently consists of:
 * @aquietinvestor
 * @Olek
 
-<br>
+
 The DAO will serve as an experiment for future Zcash organizations who are interested in new forms of decentralized governance models, and ZEC’s utility cross-chain.
-<br/>
+
 
 ## What is a DAO
 
@@ -76,10 +76,9 @@ All DAO proposals are public and can be viewed [here](https://vote.zechub.xyz). 
 |A2 |  ✅  | [Increase Quorum to 50%](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals/A2)|
 |A1 |  ✅  | [Create Cross-Chain Account : Osmosis](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals/A1)|
 
-<br/>
-
 > NOTE: ✅ -> Executed, ❌ -> Not Executed
 
+___
 
 ## Sources
 
