@@ -1,7 +1,7 @@
 # ZecHub DAO
 
 ![Governance](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f9c810c-61ae-47c1-b5e4-bd4265e60d7c_5259x1667.png)
-<br/><br/>
+
 The ZecHub DAO currently consists of:
 
 * @squirrel
@@ -21,7 +21,7 @@ The ZecHub DAO currently consists of:
 * @aquietinvestor
 * @Olek
 
-<br/>
+<br>
 The DAO will serve as an experiment for future Zcash organizations who are interested in new forms of decentralized governance models, and ZEC’s utility cross-chain.
 <br/>
 
@@ -38,18 +38,17 @@ DAOs need the following elements for being fully functional:
 
 ## What makes ZecHub unique?
 
-ZecHub is one of the first public DAO's in Zcash's history. A unique aspect of the DAO is how its funds are held in Shielded Zcash address, compared to most DAO's that live on Ethereum. We have also created a [NFT](https://opensea.io/collection/zechub) for establishing voting rights.
+ZecHub is one of the first public DAO's in Zcash's history. A unique aspect of the DAO is that its funds are held primarily in a Shielded Zcash address, compared to most DAO's that live on Ethereum. 
 
 ## Governance
 
-All DAO proposals are public and can be viewed [here](https://snapshot.org/#/zechubdao.eth). Any current member of the ZecHubDAO can create a proposal to vote on. In an effort to support community transparency, the ZecHubDAO will post all governance proposals in [this](https://forum.zcashcommunity.com/t/zechub-is-now-a-dao/43674) forum thread.
-
-![Screenshot_2023-01-11_09-39-23](https://user-images.githubusercontent.com/81990132/211878680-468f8c15-99f9-42e1-b773-36847c0973ca.png)
+All DAO proposals are public and can be viewed [here](https://vote.zechub.xyz). Anyone can create a proposal to vote on. In an effort to support community transparency, the ZecHubDAO will post all governance proposals in the Zcash Community Forum [ZecHub Governance thread](https://forum.zcashcommunity.com/t/zechub-governance-updates/43674).
 
 ## Website links
 
 * [ZecHub Wiki](https://zechub.wiki)
-* [DAO Zone](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals)
+* [DAODAO](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals)
+* [Ethereum DAO (deprecated)](https://snapshot.org/#/zechubdao.eth)
 
 ## Previous Proposals
 
@@ -79,9 +78,8 @@ All DAO proposals are public and can be viewed [here](https://snapshot.org/#/zec
 
 <br/>
 
-> NOTE:</br></br> ✅ -> Executed </br> ❌ -> Not Executed
-</br>
-</br>
+> NOTE: ✅ -> Executed, ❌ -> Not Executed
+
 
 ## Sources
 
