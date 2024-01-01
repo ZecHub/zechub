@@ -59,7 +59,7 @@ All DAO proposals are public and can be viewed [here](https://vote.zechub.xyz). 
 |A19 |  ✅  | [Recognize Zcash Design SubDAO](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals/A19)|
 |A18 |  ✅  | [Stake portion of ZecHub Treasury](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals/A18)|
 |A17 |  ✅  | [Proposal to Add Multiple Choice Question Feature to the ZecHub DAO [with ACTION]](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals/A17)|
-|A16 |  ❌  | [Proposal to Add Multiple Choice Question Feature to the ZecHub DAO](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals/A16)|
+|A16 |  ✘  | [Proposal to Add Multiple Choice Question Feature to the ZecHub DAO](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals/A16)|
 |A15 |  ✅  | [Apply for Zcash Foundation Minor Grant amount $7000](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals/A15)|
 |A14 |  ✅  | [Educational Video Explainers on Zcash Shielded Assets (ZSAs)](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals/A14)|
 |A13 |  ✅  | [Associate the ZecHub DAO Stargaze multisig address with the Stargaze name: `zechub`](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals/A13)|
@@ -68,15 +68,15 @@ All DAO proposals are public and can be viewed [here](https://vote.zechub.xyz). 
 |A10 |  ✅  | [Reinstate Roosevelt Gordones & add Chidi to ZecHub DAO](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals/A10)|
 |A9 |  ✅  | [Add Jason McGee to the ZecHub DAO](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals/A9)|
 |A8 |  ✅  | [Creation of ZecHUB DAO logo](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals/A8)|
-|A7 |  ❌  | [Criation of ZecHub DAO logo](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals/A7)|
-|A6 |  ❌  | [Criation of ZecHub DAO logo](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals/A6)|
+|A7 |  ✘  | [Criation of ZecHub DAO logo](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals/A7)|
+|A6 |  ✘  | [Criation of ZecHub DAO logo](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals/A6)|
 |A5 |  ✅  | [Becoming a DAO member](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals/A5)|
-|A4 |  ❌  | [Becoming a DAO member](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals/A4)|
-|A3 |  ❌  | [Criation of ZecHub DAO logo](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals/A3)|
+|A4 |  ✘  | [Becoming a DAO member](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals/A4)|
+|A3 |  ✘  | [Criation of ZecHub DAO logo](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals/A3)|
 |A2 |  ✅  | [Increase Quorum to 50%](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals/A2)|
 |A1 |  ✅  | [Create Cross-Chain Account : Osmosis](https://daodao.zone/dao/juno1nktrulhakwm0n3wlyajpwxyg54n39xx4y8hdaqlty7mymf85vweq7m6t0y/proposals/A1)|
 
-> NOTE: ✅ -> Executed, ❌ -> Not Executed
+> NOTE: ✅ -> Executed, ✘ -> Not Executed
 
 ___
 
