@@ -4,25 +4,25 @@
 
 The ZecHub DAO currently consists of:
 
-* @squirrel
-* @yoditar.zkp
-* @gordonesroo
-* @michae2xl
-* @dismad
-* @tokidoki
-* @decentralistdan
+* [@squirrel](https://twitter.com/zksquirrel)
+* [@yoditar.zkp](https://twitter.com/yoditarX)
+* [@gordonesroo](https://twitter.com/gordonesTV)
+* [@michae2xl](https://twitter.com/Michae2xl)
+* [@dismad](https://twitter.com/dismad)
+* [@tokidoki](https://twitter.com/luckytokidoki)
+* [@decentralistdan](https://twitter.com/decentralistdan)
 * @RedNosedGnome
-* @Mine
-* @Edicksonjga
-* @vito
-* @ZcashRU
-* @Tecnopapapi
-* @chidi
-* @aquietinvestor
-* @Olek
+* [@Mine](https://twitter.com/taminevg)
+* [@Edicksonjga](https://twitter.com/Edicksonjga)
+* [@vito](vitozkp)
+* [@RUZcash](https://twitter.com/ruzcash)
+* [@Tecnopapapi](https://twitter.com/tecnopapapi)
+* [@chidi](https://twitter.com/ZcashNigeria)
+* [@aquietinvestor](https://twitter.com/aquietinvestor)
+* [@Olek](https://twitter.com/an_Olek)
 
 
-The DAO will serve as an experiment for future Zcash organizations who are interested in new forms of decentralized governance models, and ZEC’s utility cross-chain.
+The DAO will serve as an experiment for future Zcash organizations who are interested in new forms of decentralized governance models, and ZECs utility cross-chain.
 
 
 ## What is a DAO
@@ -34,7 +34,7 @@ DAOs need the following elements for being fully functional:
 * A set of rules to which will operate
 * Funding like tokens that the organization can spend to reward certain activities to their members
 * Provide voting rights for establishing the operation rules.
-* A well and secure structure that allows every member to configure the organization.  
+* A well and secure structure that allows every member to configure the organization.  
 
 ## What makes ZecHub unique?
 
