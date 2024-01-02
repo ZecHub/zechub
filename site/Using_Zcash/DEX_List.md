@@ -16,8 +16,8 @@
     <img src="https://github.com/ManyRios/zechub/assets/34518489/df4d01be-b7e4-4e3d-ba1d-a65682fdc2bc" alt="" width="500" height="300"/>
 </a>
 
-
----
+___
+___
 
 ### [Trocodor](https://trocador.app/en/)
 
@@ -34,7 +34,8 @@
 </a>
 
 
----
+___
+___
 
 ### [DCRDEX](https://dex.decred.org)
 
@@ -50,7 +51,8 @@
     <img src="https://i.ibb.co/z6xdM8s/dcrdex.png" alt="" width="500" height="300"/>
 </a>
 
----
+___
+___
 
 ### [StealthEX](https://stealthex.io/?to=zec)
 
@@ -66,7 +68,8 @@
     <img src="https://github.com/ManyRios/zechub/assets/34518489/e8f622c5-471e-4659-a75f-533134a0346f" alt="" width="500" height="300"/>
 </a>
 
----
+___
+___
 
 ### [Changelly](https://changelly.com/)
 
@@ -84,7 +87,8 @@
 </a>
 
 
----
+___
+___
 
 ### [ChangeNow](https://changenow.io/?from=usdterc20&to=zec)
 
@@ -100,7 +104,8 @@
     <img src="https://github.com/ManyRios/zechub/assets/34518489/f8838b07-8897-480a-8ac6-a861e82b93f9" alt="" width="500" height="300"/>
 </a>
 
----
+___
+___
 
 ### [AtomicDEX](https://app.atomicdex.io/#/dex)
 
@@ -117,7 +122,8 @@
 </a>
 
 
----
+___
+___
 
 ### [SimpleSwap](https://simpleswap.io/?to=zec)
 
@@ -134,7 +140,8 @@
 </a>
 
 
----
+___
+___
 
 ### [Flyp](%5BFlyp%5D(https://flyp.me/en/#/)https://flyp.me/en/#/)
 
@@ -151,8 +158,9 @@
 </a>
 
 
+___
+___
 
----
 
 ### [FixedFloat](https://fixedfloat.com/en/)
 
@@ -169,7 +177,8 @@
 </a>
 
 
----
+___
+___
 
 ### [Xchange](https://xchange.me/)
 
