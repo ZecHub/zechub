@@ -12,7 +12,7 @@ Non-custodial exchanges, also known as Decentralized Exchanges (DEXs) are platfo
 
 This approach enhances security and privacy, as users are not reliant on the exchange to hold their assets which also reduces the risk of hacks or mismanagement. Transactions on non-custodial exchanges often leverage smart contracts to ensure trustless and transparent trading.
 
-A key advantage of non-custodial cryptocurrency exchanges lies in the increased control they provide to users over their assets. As these exchanges don’t retain the assets, users enjoy complete ownership and authority over their digital currencies.
+A key advantage of non-custodial cryptocurrency exchanges lies in the increased control they provide to users over their assets. As these exchanges do not retain the assets, users enjoy complete ownership and authority over their digital currencies.
 
 ### **Non Custodial Exchanges Vs Custodial Exchanges**
 
@@ -36,8 +36,8 @@ Now, let’s explore a few of the accessible non-custodial exchanges that facili
 
 ### **Summary**
 
-Non-custodial exchanges, or DEXs, are decentralized platforms enabling direct cryptocurrency trading from users’ wallets. Users retain control of their private keys, enhancing security and privacy.
+Non-custodial exchanges, or DEXs, are decentralized platforms enabling direct cryptocurrency trading from users wallets. Users retain control of their private keys, enhancing security and privacy.
 
-While non-custodial exchanges offer compelling advantages, it’s important to acknowledge that they might come with drawbacks, such as potential liquidity issues and a steeper learning curve for less experienced users.
+While non-custodial exchanges offer compelling advantages, it is important to acknowledge that they might come with drawbacks, such as potential liquidity issues and a steeper learning curve for less experienced users.
 
 As with any financial decision, traders should carefully assess their priorities, risk tolerance, and familiarity with the technology before choosing between non-custodial and custodial exchange options.
