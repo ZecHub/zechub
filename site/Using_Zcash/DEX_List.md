@@ -13,7 +13,7 @@
 - Supports: Shielded
 
 <a href="https://sideshift.ai/usdcpolygon/zec">
-    <img src="https://github.com/ManyRios/zechub/assets/34518489/df4d01be-b7e4-4e3d-ba1d-a65682fdc2bc](https://github.com/ManyRios/zechub/assets/34518489/df4d01be-b7e4-4e3d-ba1d-a65682fdc2bc" alt="" width="500" height="500"/>
+    <img src="https://github.com/ManyRios/zechub/assets/34518489/df4d01be-b7e4-4e3d-ba1d-a65682fdc2bc" alt="" width="500" height="300"/>
 </a>
 
 
@@ -22,7 +22,7 @@
 ### [Trocodor](https://trocador.app/en/)
 
 <a href="https://trocador.app/">
-    <img src="https://i.ibb.co/rbxrjFP/image-2023-09-05-202420036.png" alt="" width="400" height="400"/>
+    <img src="https://i.ibb.co/rbxrjFP/image-2023-09-05-202420036.png" alt="" width="70" height="70"/>
 </a>
 
 - Website: [Trocodor](https://trocador.app/)
@@ -38,15 +38,16 @@
 
 ### [DCRDEX](https://dex.decred.org)
 
+<a href="https://dex.decred.org">
+    <img src="https://i.ibb.co/Px2BbMH/image-2023-09-18-184017404.png" alt="" width="400" height="400"/>
+</a>
 
 - Website: [DCRDEX](https://dex.decred.org)
 - Pairs: BTC/ZEC  |  USDC/ZEC
 - Supports: Transparent 
 
-![]()
-
 <a href="https://dex.decred.org">
-    <img src="https://i.ibb.co/Px2BbMH/image-2023-09-18-184017404.png" alt="" width="400" height="400"/>
+    <img src="https://i.ibb.co/z6xdM8s/dcrdex.png" alt="" width="500" height="300"/>
 </a>
 
 ---
@@ -54,7 +55,7 @@
 ### [StealthEX](https://stealthex.io/?to=zec)
 
 <a href="https://stealthex.io/?to=zec">
-    <img src="https://github.com/ManyRios/zechub/assets/34518489/6d2f987e-1a14-46fe-8734-c3da8d563db6" alt="" width="400" height="400"/>
+    <img src="https://en.bitcoinwiki.org/upload/en/images/6/62/StealthEX_logo.png" alt="" width="500" height="350"/>
 </a>
 
 - Website: [StealthEX](https://stealthex.io/?to=zec)
@@ -70,7 +71,7 @@
 ### [Changelly](https://changelly.com/)
 
 <a href="https://changelly.com/">
-    <img src="https://github.com/ManyRios/zechub/assets/34518489/e22bad6f-d59f-4e4d-a450-b367c8c1f02a" alt="" width="400" height="400"/>
+    <img src="https://changelly.com/blog/wp-content/uploads/2018/12/changelly-logo-vertical-darkfont1.png" alt="" width="400" height="300"/>
 </a>
 
 
@@ -88,7 +89,7 @@
 ### [ChangeNow](https://changenow.io/?from=usdterc20&to=zec)
 
 <a href="https://changenow.io/?from=usdterc20&to=zec">
-    <img src="https://github.com/ManyRios/zechub/assets/34518489/bb26cfbc-b6e7-4c1f-b7b5-18980d0701a1" alt="" width="400" height="400"/>
+    <img src="https://s32659.pcdn.co/wp-content/uploads/2023/05/ChangeNOW-logo.jpeg.optimal.jpeg" alt="" width="400" height="400"/>
 </a>
 
 - Website: [ChangeNow](https://changenow.io/?from=usdterc20&to=zec)
@@ -104,7 +105,7 @@
 ### [AtomicDEX](https://app.atomicdex.io/#/dex)
 
 <a href="https://app.atomicdex.io/#/dex">
-    <img src="https://github.com/ManyRios/zechub/assets/34518489/2a71fced-8524-4344-b231-7982806bb435" alt="" width="400" height="400"/>
+    <img src="https://github.com/ManyRios/zechub/assets/34518489/2a71fced-8524-4344-b231-7982806bb435" alt="" width="100" height="100"/>
 </a>
 
 - Website: [AtomicDEX](https://app.atomicdex.io/#/dex)
