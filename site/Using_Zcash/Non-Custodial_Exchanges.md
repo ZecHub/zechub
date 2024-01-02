@@ -1,4 +1,4 @@
-# Non Custodial Exchanges  
+# Non-Custodial Exchanges  
 
 [Non-Custodial Exchanges that list Zcash](/site/usingzcash/DEXList)
 
