@@ -14,15 +14,14 @@ ZecHub uses GitHub to manage community contribution. If you're new to GitHub, do
 
 In this guide you will get an overview of the contribution workflow from opening an issue, creating a pull request (PR), reviewing, and merging the PR.
 
-Use the table of contents icon ![table of contents icon dark theme](/assets/icons/contents-dark.png) ![table of contents icon light theme](/assets/icons/contents-light.png) on the top left corner of this document to get to a specific section of this guide quickly.
 
 ## Join the conversation
 
 First, join the conversation in the [Zcash Global discord](https://discord.gg/zcash). There's a ZecHub section where we chat about all things ZecHub :smile:
 
-<small> Don’t forget to add the ZecHub role in <a href="https://discord.com/channels/978714252934258779/983468150861484093">#lang-menu channel</a>! </small>
+<small> Do not forget to add the ZecHub role in <a href="https://discord.com/channels/978714252934258779/983468150861484093">#lang-menu channel</a>! </small>
 
-## Style guides
+## Style Guides
 
 Any contribution to ZecHub should follow the [ZecHub style guides](/styles/guide.md). This includes wikis, docs and social media contents.
 
@@ -32,18 +31,19 @@ ZecHub is a community-driven project that aims to provide support and resources 
 
 These are the types of contribution that ZecHub currently accepts:
 
-### Zcash tutorials (video) - up to 1.5 ZEC per tutorial
+### Zcash Tutorials (video) - up to 1.5 ZEC per tutorial
 
-Create and share tutorials on Zcash apps and get rewarded. Example tutorial [here](https://www.youtube.com/watch?v=Mgm_nK3gr7U&list=PL6_epn0lASLGc_YALzxbMH0-dNyhFufus&index=7). Submit PR to zechub/tutorials or send video to #video-content channel in Discord. If video meets our criteria, we’ll post it and tip you :smile:
+Create and share tutorials on Zcash apps and get rewarded. Example tutorial [here](https://www.youtube.com/watch?v=Mgm_nK3gr7U&list=PL6_epn0lASLGc_YALzxbMH0-dNyhFufus&index=7). Submit PR to zechub/tutorials or send video to #video-content channel in Discord. If video meets our criteria, we will post it and tip you.
 
 ### ZecHub Wiki - up to 1 ZEC per new page published
 
-Our wiki-docs page provides Zcash education materials in an easy and digestible format. Zcash is a very advanced technology with a vibrant community, so there's still more documentation we need to build. Our goal is to build documentation on:
+Our wiki site provides Zcash education materials in an easy and digestible format. Zcash is a very advanced technology with a vibrant community, so there's still more documentation we need to build. Our goal is to build documentation on:
 
 - Zcash and its related technologies
-- ZEC (Zcash currency) use cases
-- New user guides
-- Zcash community and ecosystem
+- ZEC (Zcash currency) Use cases
+- New User Guides
+- Zcash Community and Ecosystem
+- Privacy Ecosystem & Tools
 
 These are pretty broad areas, so there's a lot to work from. If you want some inspiration, check out our current [wiki-docs site](https://wiki.zechub.xyz/) and see what's missing. Once you determine what you want to write, [start to make your changes](#make-changes) and learn how to submit a PR to the ZecHub repo. All of our docs are created and maintained in this repo. Use the [docs template](https://github.com/ZecHub/zechub/blob/main/template.md) and follow the [ZecHub style](#style-guides) when writing a wiki page.
 
@@ -81,7 +81,7 @@ If you want to translate the newsletter into your local language, we send tips f
 
 ### Podcast - 2.5 ZEC per episode posted on ZecHub socials
 
-ZecHub made videos before, like a [News Show](https://www.youtube.com/watch?v=frTzwCWRNLs&t=434s). They stopped for now, but you can help. Do you have an idea for a news show, podcast, Twitter talk, or other video/audio thing? Tell us in Discord #video-content and we’ll talk :smile:
+ZecHub made videos before, like a [News Show](https://www.youtube.com/watch?v=frTzwCWRNLs&t=434s). They stopped for now, but you can help. Do you have an idea for a news show, podcast, Twitter talk, or other video/audio thing? Tell us in Discord #video-content and we will talk.
 
 Rewards for this type of content are a bit larger, so a proposal would need to be submitted to ZecHub's DAO before approving the spend. That process usually takes a week.
 
@@ -103,7 +103,7 @@ If you spot a problem with ZecHub contents, [search if an issue already exists](
 
 ### Solve an issue
 
-Scan through our [existing issues](https://github.com/zechub/zechub/issues) to find one that interests you. You can narrow down the search using `labels` as filters. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix.
+Scan through our [existing issues](https://github.com/zechub/zechub/issues) to find one that interests you. You can narrow down the search using `labels` as filters. As a general rule, we do not assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix.
 
 ## Make Changes
 
