@@ -1,8 +1,8 @@
 # [ZecHub](https://repo.zechub.org/)
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
-<div align="center">
-
+<div style="text-align: center;">
+    <img src="path/to/your/logo.png" alt="Your Logo" style="max-width: 40%; height: auto;">
 <h3>
     <em>
       An open-source education hub for <a href="https://z.cash/" target="_blank">Zcash</a>
