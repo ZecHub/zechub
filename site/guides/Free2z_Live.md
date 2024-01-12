@@ -1,52 +1,75 @@
 # Free2z: Account setup + Livestream tutorial
+
 ## Introduction
 Free2Z is a platform for creators and supporters to connect and achieve their goals. Free2Z provides tools for creators to showcase their talents and raise funds for their projects without compromising privacy. Supporters can find and support causes they believe in.
 
 ## Create your account
+
 Currently, there are two ways to create your account on Free2Z:
 1. Choose a username and password.
 2. Connect your Twitter account.
 
 To create an account or log in, visit https://free2z.cash/ and click the 'CREATE' button.
 
-![Free2z Landing Page](https://i.ibb.co/6rz0YPM/image-2023-11-19-133101013.png)
+<a href="">
+    <img src="https://i.ibb.co/6rz0YPM/image-2023-11-19-133101013.png" alt="" width="90" height="200"/>
+</a>
 
 The login/signup form will appear in your browser. Choose your username and a strong password - this will be your login information. Solve the captcha and click the 'Enter' button to create your account.
 
-![Login / Create account form](https://i.ibb.co/d47k50g/image-2023-11-19-133141052.png)
+<a href="">
+    <img src="https://i.ibb.co/d47k50g/image-2023-11-19-133141052.png" alt="" width="120" height="200"/>
+</a>
 
 Alternatively, you can create a Free2Z account by connecting your Twitter account. To do this, click on the Twitter logo next to 'Login With', and you will be asked to connect your Twitter account."
 
-![Connect twitter](https://i.ibb.co/kc6QN7Z/image-2023-11-19-133210103.png)
+<a href="">
+    <img src="https://i.ibb.co/kc6QN7Z/image-2023-11-19-133210103.png" alt="" width="120" height="200"/>
+</a>
 
-Click ‘Authorize app’ to connect your twitter account to free2z.
+Click **Authorize app to connect** your twitter account to free2z.
 
 ## Personalize you profile
 After your account is created, you will be redirected to your Free2Z profile page. If you created your account by connecting your Twitter, most of the fields will be automatically filled. If you created an account by entering a username and password, you should input your information here. You can use a pseudonym instead of your real name.
 
-![Deafult free2z header](https://i.ibb.co/GxyHz1D/default-header.png)
+<a href="">
+    <img src="https://i.ibb.co/GxyHz1D/default-header.png" alt="" width="200" height="70"/>
+</a>
 
 It's quite boring right now, so let's make it more interesting by setting up an avatar and a banner. The Free2Z interface makes this step very easy using the upload button (the up arrow on the right).
 
-![Upload avatar and banner](https://i.ibb.co/5jsjfZV/avatar-and-banner.png)
+<a href="">
+    <img src="https://i.ibb.co/5jsjfZV/avatar-and-banner.png" alt="" width="200" height="70"/>
+</a>
 
 You can see the result at the top of the page.
 
-![Cool header](https://i.ibb.co/7y542gp/resultatpage.png)
+<a href="">
+    <img src="https://i.ibb.co/7y542gp/resultatpage.png" alt="" width="200" height="70"/>
+</a>
 
 Ah, much better! If you have some artistic skills, you can make your Free2Z profile page look amazing!
 
 Write a nice description for your page. You can talk about yourself or describe the type of content that others can expect from you. (Tip: Use markdown syntax to personalize your description!)
 
-![Talk about yourself](https://i.ibb.co/cD1DFXw/edit-description.png)
+
+<a href="">
+    <img src="https://i.ibb.co/cD1DFXw/edit-description.png" alt="" width="150" height="100"/>
+</a>
 
 Don't forget to provide your Zcash shielded address, so supporters can donate directly to you!
 
-![Provide your shielded address](https://i.ibb.co/8zRYgFS/p2p-address.png)
+<a href="">
+    <img src="https://i.ibb.co/8zRYgFS/p2p-address.png" alt="" width="200" height="60"/>
+</a>
 
 The last step to complete your page setup is to set a 'Member Price'. This is the price in 2Zs (Tuzies) that other users will pay to subscribe to your page! (More on 2Zs later).
 
-![Member subscription price](https://i.ibb.co/VW9sYYz/member-price.png)
+
+<a href="">
+    <img src="https://i.ibb.co/VW9sYYz/member-price.png" alt="" width="100" height="60"/>
+</a>
+
 
 Finally, click the 'Update Profile' button to finalize your profile setup!
 
