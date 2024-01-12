@@ -110,7 +110,7 @@ ___
 ### [AtomicDEX](https://app.atomicdex.io/#/dex)
 
 <a href="https://app.atomicdex.io/#/dex">
-    <img src="https://github.com/ManyRios/zechub/assets/34518489/2a71fced-8524-4344-b231-7982806bb435" alt="" width="100" height="100"/>
+    <img src="https://github.com/ManyRios/zechub/assets/34518489/2a71fced-8524-4344-b231-7982806bb435" alt="" width="70" height="70"/>
 </a>
 
 - Website: [AtomicDEX](https://app.atomicdex.io/#/dex)
