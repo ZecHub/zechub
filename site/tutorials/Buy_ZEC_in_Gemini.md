@@ -1,3 +1,16 @@
-This [video](https://twitter.com/iansagstette/status/1545427814421340165) was created to show users how to buy ZEC in Gemini and withdraw it to their shielded wallet.
+# Buy ZEC in Gemini Exchange 
 
-If you feel that this video is incorrect in any way, please submit a pull request explaining why.
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/watch?v=REUbkLzK7J4"
+  title="Buy and withdraw ZEC to a shielded wallet from Gemini"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
+
+
+This video was created to show users how to buy ZEC in Gemini and withdraw it to their shielded wallet.
+
+Subscribe to Zechub on Youtube! 
