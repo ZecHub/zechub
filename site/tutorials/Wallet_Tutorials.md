@@ -44,7 +44,7 @@ ____
 
 _____
 
-- Unstoppable Wallet Tutotial (Shielded by Default)
+- Unstoppable Wallet Tutorial (Shielded by Default)
 
 <iframe
   width="560"
