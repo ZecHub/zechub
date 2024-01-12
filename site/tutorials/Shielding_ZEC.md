@@ -1,3 +1,17 @@
-This [video](https://twitter.com/iansagstette/status/1543971796059394048) was created to show users how to shield zec from a transparent address to a shielded address in the Nighthawk wallet app.
+# Shielding ZEC 
 
-If you feel that this video is incorrect in any way, please submit a pull request explaining why.
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/v=3xyKKer1Qvk"
+  title="Shielding your Zcash"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
+
+This video was created to show users how to shield their ZEC. Once your ZEC is shielded the amount stored within your wallet is not publically known or searchable. Neither the addresses or amounts sent between shielded addresses is revealed. 
+
+Learn more about [zk-SNARKs](/site/Zcash_Tech/zkSNARKS)
+
+Subscribe to Zechub on Youtube!
