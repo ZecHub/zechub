@@ -24,5 +24,4 @@ The memo was a love note.
 
 [The Encrypted Memo Field](https://electriccoin.co/blog/encrypted-memo-field/)
 
-https://user-images.githubusercontent.com/82240624/179146268-5c039b0b-034c-438e-9e5a-c661ca06b5e7.mp4
 
