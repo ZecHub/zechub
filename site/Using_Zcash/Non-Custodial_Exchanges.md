@@ -32,7 +32,7 @@ When it comes to Custodial Exchanges, the level of Decentralization is often qui
 
 **#7 No KYC Requirements**: Many non-custodial exchanges do not require users to undergo extensive know-your-customer (KYC) procedures, offering a level of privacy and inclusivity that is absent in some custodial platforms.
 
-Now, let’s explore a few of the accessible non-custodial exchanges that facilitate Zcash trading. Utilizing these platforms will provide you with a convenient means to acquire more Zcash coins.
+Now, let us explore a few of the accessible non-custodial exchanges that facilitate Zcash trading. Utilizing these platforms will provide you with a convenient means to acquire more Zcash coins.
 
 ### **Summary**
 
