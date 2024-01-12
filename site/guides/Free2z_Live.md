@@ -82,35 +82,53 @@ Free2Z allows users to subscribe to their favorite creators and get access to ex
 
 You can see your 2Zs credits in the header of your profile page.
 
-![Your 2sz balance](https://i.ibb.co/2dBPyPb/tuzis-balance.png)
+<a href="">
+    <img src="https://i.ibb.co/2dBPyPb/tuzis-balance.png" alt="" width="120" height="70"/>
+</a>
+
 
 You can buy more 2Zs with Zcash by clicking on your 2Zs balance. The minimum amount for buying is 0.05 ZEC, and the current conversion rate is 0.05 ZEC = 10 2Zs.
 
-![Buy 2sz](https://i.ibb.co/MgZb9rg/buy-tuzies.png)
+<a href="">
+    <img src="https://i.ibb.co/MgZb9rg/buy-tuzies.png" alt="" width="110" height="250"/>
+</a>
+
 
 ## Donating and subscribing
 Once you find a creator you like, you can show your appreciation by donating and subscribing to them. All donations go directly to the creator's wallet.
 
 As an example, let's subscribe to [Free2Z's own page](https://free2z.cash/free2z).
 
-![Free2z page](https://i.ibb.co/C2T6txY/free2z-page.png)
+
+<a href="">
+    <img src="https://i.ibb.co/C2T6txY/free2z-page.png" alt="" width="300" height="100"/>
+</a>
 
 To subscribe to a page, all you need to do is click on the subscribe icon on the page header.
 
-![Subscribe to creator](https://i.ibb.co/k5Hbdfr/subscribe-to-creator.png)
+<a href="">
+    <img src="https://i.ibb.co/k5Hbdfr/subscribe-to-creator.png" alt="" width="300" height="100"/>
+</a
 
 You will see the minimum amount for subscribing. Verify if you have enough 2Zs and click 'subscribe'.
 
-![Confirm subscription](https://i.ibb.co/8j4p73J/confirm-subscribe.png)
+<a href="">
+    <img src="https://i.ibb.co/8j4p73J/confirm-subscribe.png" alt="" width="300" height="100"/>
+</a
 
 ### Donate using 2zs or Zcash.
 You can donate directly on their page, by clicking the “Fund creator” icon. 
 
-![Fund creator](https://i.ibb.co/xCz5X92/fund-creator.png)
+<a href="">
+    <img src="https://i.ibb.co/xCz5X92/fund-creator.png" alt="" width="200" height="70"/>
+</a
 
 Or, from inside a post, look for the floating 'plus' button. From here, you can donate to the creator or promote the post on Free2Z.
 
-![Support creator](https://i.ibb.co/Rzs7ST1/post-floating-buttons.png)
+<a href="">
+    <img src="https://i.ibb.co/Rzs7ST1/post-floating-buttons.png" alt="" width="90" height="200"/>
+</a
+
 
 ## Free2z Live
 The Free2z platform offers an awesome feature called Free2z Live. With this tool, creators can start live streams for subscribed members. Some key features of Free2z Live include:
@@ -130,14 +148,14 @@ Free2z Live is a powerful tool, allowing creators to stream any type of content.
 - Your creativity is the limit!
 
 ### How to go live
-t’s very easy to start a live stream with Free2z Live. But there are a few requirements before you can start your stream.
-1. The creator **must** have a minimum ‘member price’ of 10 2zs.
+it is very easy to start a live stream with Free2z Live. But there are a few requirements before you can start your stream.
+1. The creator **must** have a minimum **member price** of 10 2zs.
 2. The creator **must** have a balance of at least 150 2zs in their account.
-If the creator meets **both** of the conditions above, an icon named ‘Go Live’ will be available to them on their profile page.
+If the creator meets **both** of the conditions above, an icon named **Go Live** will be available to them on their profile page.
 
 ![Go live](https://i.ibb.co/7RFywwK/go-live.png)
 
-To start a live stream, just click the ‘Go Live’ button, and the Free2z app will ask for permission to use your microphone and webcam (if you have one). After you grant the necessary permissions, Free2z will ask you to enter a nickname that you want to use during the live stream. Once you have selected a nickname, click ‘Join’ to start your live stream.
+To start a live stream, just click the **Go Live** button, and the Free2z app will ask for permission to use your microphone and webcam (if you have one). After you grant the necessary permissions, Free2z will ask you to enter a nickname that you want to use during the live stream. Once you have selected a nickname, click **Join** to start your live stream.
 
 ![Select nickname](https://i.ibb.co/4VMbCrW/select-nickname.png)
 
