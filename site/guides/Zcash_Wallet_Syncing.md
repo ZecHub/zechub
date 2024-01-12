@@ -15,19 +15,20 @@ However, even decrypting and processing these compact blocks can take a signific
 ### Warp Sync
 Warp sync is a feature of YWallet that allows it to skip the intermediate steps of decrypting and processing each compact block, and instead jump directly to the final result.
 
-To do so it uses some clever mathematics and cryptography to calculate the final result without having to go through each step. It’s like solving a puzzle without looking at all the pieces, but only at the final picture. It’s not magic, but it’s very smart.
+To do so it uses some clever mathematics and cryptography to calculate the final result without having to go through each step. 
 
 Warp sync can process thousands of blocks per second, much faster than the usual synchronization method. This means that YWallet users can enjoy fast and smooth performance, even with hundreds of thousands of transactions and received notes in their accounts.
 
-Aside from this "step skipping" technique, YWallet is also capable of processing various blocks at the same time, distributing the load on your available hardware, making the process even faster.
+Aside from this **step skipping** technique, YWallet is also capable of processing various blocks at the same time, distributing the load on your available hardware making the process even faster.
 
 ## Spend-before-sync
-Spend-before-sync is a new feature implemented in Zcash Mobile Wallet SDK V2, that allows users to instantly spend funds upon opening their wallet, without having to wait for a full wallet synchronization. This feature speeds up discovering the wallet’s spendable balance and improves the user experience.
+Spend-before-sync is a new feature implemented in Zcash Mobile Wallet SDK V2, that allows users to instantly spend funds upon opening their wallet, without having to wait for a full wallet synchronization. This feature speeds up discovering the wallet spendable balance and improves the user experience.
 
 Spend-before-sync works by using a compact blocks synchronization algorithm that processes blocks from the lightwalletd server in non-linear order, this means that instead of waiting for a block to be processed before moving to the other, wallets can now use a bit more memory and processing power to scan different sections of the blockchain. Usually it will scan in different ranges, looking for newer transactions at the same time the older blocks are downloaded and processed. If a recent, unspent note is discovered, it will be made available inmediately.
 
-![Spend Before Spend](https://github.com/ZecHub/zechub/assets/9355622/363d08df-b7b7-461b-a386-251d9ad702ca)
-
+<a href="">
+    <img src="https://github.com/ZecHub/zechub/assets/9355622/363d08df-b7b7-461b-a386-251d9ad702ca" alt="" width="140" height="150"/>
+</a>
 
 ### Blaze Sync
 Developed by Zecwallet team, Blaze sync is a syncronization algorithm for light wallets that starts scanning the blockchain "backwards", starting from the highest, most recent block, and going back from there.
@@ -44,8 +45,9 @@ It is based on [the idea of using a Directed Acyclic Graph](https://words.str4d.
 
 A DAG is a data structure that consists of nodes and edges, where each edge has a direction that indicates a relationship between two nodes. A DAG has no cycles, meaning that there is no way to start from a node and follow the edges back to the same node.
 
-![DAGSync](https://github.com/ZecHub/zechub/assets/9355622/eee7e08d-5c98-4c88-a48e-12f7a92a195f)
-
+<a href="">
+    <img src="https://github.com/ZecHub/zechub/assets/9355622/eee7e08d-5c98-4c88-a48e-12f7a92a195f" alt="" width="110" height="230"/>
+</a>
 
 ---
 
