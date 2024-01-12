@@ -13,7 +13,8 @@ Below are a list of wallet tutorials that can help you get started with ZEC.
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen
 ></iframe>
-___
+
+____
 
 - Ywallet Batch Backup
 
