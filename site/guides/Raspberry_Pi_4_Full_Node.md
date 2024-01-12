@@ -13,7 +13,7 @@ If you find this guide useful, consider donating ZEC to support ZecHub:
 `zs1txa9wzxsc46w4940c4t76wjlylhntyp7vcppsp8re32z02srqse038melgglew4jwsh3qes4m4n`
 
 
-## What you’ll learn
+## What you will learn
 * How to create a bootable Ubuntu Server microSD card
 * How to setup internet connectivity on the Raspberry Pi 4
 * How to access your Raspberry Pi 4 remotely
