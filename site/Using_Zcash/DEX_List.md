@@ -40,7 +40,7 @@ ___
 ### [DCRDEX](https://dex.decred.org)
 
 <a href="https://dex.decred.org">
-    <img src="https://i.ibb.co/Px2BbMH/image-2023-09-18-184017404.png" alt="" width="400" height="300"/>
+    <img src="https://i.ibb.co/Px2BbMH/image-2023-09-18-184017404.png" alt="" width="100" height="70"/>
 </a>
 
 - Website: [DCRDEX](https://dex.decred.org)
@@ -57,7 +57,7 @@ ___
 ### [StealthEX](https://stealthex.io/?to=zec)
 
 <a href="https://stealthex.io/?to=zec">
-    <img src="https://i.ibb.co/fr3SG2F/stealthex.jpg" alt="" width="500" height="350"/>
+    <img src="https://i.ibb.co/fr3SG2F/stealthex.jpg" alt="" width="100" height="70"/>
 </a>
 
 - Website: [StealthEX](https://stealthex.io/?to=zec)
@@ -74,7 +74,7 @@ ___
 ### [Changelly](https://changelly.com/)
 
 <a href="https://changelly.com/">
-    <img src="https://changelly.com/blog/wp-content/uploads/2018/12/changelly-logo-vertical-darkfont1.png" alt="" width="400" height="300"/>
+    <img src="https://changelly.com/blog/wp-content/uploads/2018/12/changelly-logo-vertical-darkfont1.png" alt="" width="70" height="70"/>
 </a>
 
 
