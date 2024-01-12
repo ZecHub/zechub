@@ -7,7 +7,7 @@ Below are a list of wallet tutorials that can help you get started with ZEC.
 <iframe
   width="560"
   height="315"
-  src="https://www.youtube.com/watch?v=hJaAccp-77k"
+  src="https://www.youtube.com/embed/v=hJaAccp-77k"
   title="Ywallet Cold Storage"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -42,6 +42,17 @@ ____
   allowfullscreen
 ></iframe>
 
+_____
 
 - Unstoppable Wallet Tutotial (Shielded by Default)
-https://www.youtube.com/watch?v=B9tpkgVRsq4
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/v=B9tpkgVRsq4"
+  title="Unstoppable Wallet Tutotial (Shielded by Default)"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
+
