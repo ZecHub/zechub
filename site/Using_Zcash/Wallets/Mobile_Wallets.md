@@ -33,7 +33,7 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ### [Zingo!](https://play.google.com/store/apps/details?id=org.ZingoLabs.Zingo)
 
 #### Pools
-| Transparent | Sapling | Orchard
+| Transparent | Sapling | Orchard |
   
 #### Features
 | BlazeSync | Shielded Memo | Live Sync Dashboard |
@@ -51,10 +51,10 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ### [Nighthawk](https://nighthawkwallet.com)
 
 #### Pools
-| Transparent | Sapling 
+| Transparent | Sapling |
   
 #### Features
-| Syncronizer | Shielded Memo | Automatic Shielding |
+| Synchronizer | Shielded Memo | Automatic Shielding |
 
 </aside>
 
