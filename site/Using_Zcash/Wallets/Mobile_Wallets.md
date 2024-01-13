@@ -120,7 +120,7 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 <aside>
 
 
-## #Coinomi
+### Coinomi
 
 #### Pools
 | Transparent |
