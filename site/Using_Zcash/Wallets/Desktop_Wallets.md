@@ -8,10 +8,15 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ---
 
 <a href="https://ywallet.app/installation/">
-    <img src="https://i.ibb.co/smL2cCW/ywalletcard.png" alt="" width="700" height="400"/>
+    <img src="https://i.ibb.co/r6gPvFw/ywalletcard.png" alt="" width="150" height="100"/>
 </a>
 
 <aside>
+
+### Ywallet 
+
+#### Pools
+| Transparent | Sapling | Orchard |
   
 #### Features
 | WarpSync | Shielded Memo | Automatic Shielding | Unified Address |
@@ -21,10 +26,15 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ---
 
 <a href="https://github.com/zingolabs/zingo-pc">
-    <img src="https://i.ibb.co/r7ptfgS/zingocard.png" alt="" width="700" height="400"/>
+    <img src="https://i.ibb.co/bdJ49Ld/zingocard.png" alt="" width="150" height="100"/>
 </a>
 
 <aside>
+
+### Zingo PC
+
+#### Pools
+| Transparent | Sapling | Orchard |
   
 #### Features
 | BlazeSync | Shielded Memo | Live Sync Dashboard |
@@ -34,10 +44,15 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ---
 
 <a href="https://www.exodus.com/zcash-wallet-zec">
-    <img src="https://i.ibb.co/j4zgMS1/exoduscard.png" alt="" width="700" height="400"/>
+    <img src="https://i.ibb.co/w0NNZNp/exoduscard.png" alt="" width="150" height="100"/>
 </a>
 
 <aside>
+
+### Exodus Desktop
+
+#### Pools
+| Transparent |
   
 #### Features
 | Syncronizer | Multicoin |
@@ -47,10 +62,15 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ---
 
 <a href="https://www.coinomi.com/en/">
-    <img src="https://i.ibb.co/9HPtFfL/coinomicard.png" alt="" width="700" height="400"/>
+    <img src="https://i.ibb.co/QfHmjWY/coinomicard.png" alt="" width="150" height="100"/>
 </a>
 
 <aside>
+
+### Coinomi Desktop
+
+#### Pools
+| Transparent |
   
 #### Features
 | Synchronizer | Multi Coin |
