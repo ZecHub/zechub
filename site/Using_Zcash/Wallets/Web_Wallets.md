@@ -34,10 +34,10 @@ ______
     
 ### [Trezor]()
 
-### Pools
+#### Pools
 | Transparent |
 
-### Features
+#### Features
 | Synchronizer | Multi Coin |
 
 </aside>
