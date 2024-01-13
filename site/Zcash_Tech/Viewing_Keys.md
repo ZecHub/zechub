@@ -6,11 +6,11 @@ Shielded addresses enable users to transact while revealing as little informatio
 
 Why would a user ever want to do this? From Electric Coin Co.'s blog on the matter...
 
-*- An exchange wants to detect when a customer deposits ZEC to a shielded address, while keeping the “spend authority” keys on secure hardware (e.g., HSMs). The exchange could generate an incoming viewing key and load it onto an Internet-connected “detection” node, while the spending key remains on the more secure system.*
+*- An exchange wants to detect when a customer deposits ZEC to a shielded address, while keeping the **spend authority** keys on secure hardware. The exchange could generate an incoming viewing key and load it onto an Internet-connected “detection” node, while the spending key remains on the more secure system.*
 
 *- A custodian needs to provide visibility of their Zcash holdings to auditors. The custodian may generate a full viewing key for each of their shielded addresses and share that key with their auditor. The auditor will be able to verify the balance of those addresses and review past transaction activity to and from those addresses.* 
 
-*- An exchange may need to conduct due diligence checks on a customer who makes deposits from a shielded address. The exchange could request the customer’s viewing key for their shielded address and use it to review the customer’s shielded transaction activity as part of these enhanced due diligence procedures.*
+*- An exchange may need to conduct due diligence checks on a customer who makes deposits from a shielded address. The exchange could request the customers viewing key for their shielded address and use it to review the customers shielded transaction activity as part of these enhanced due diligence procedures.*
 
 ### How to find your viewing key
 
@@ -22,7 +22,7 @@ Why would a user ever want to do this? From Electric Coin Co.'s blog on the matt
 
   `./zcash-cli z_exportviewingkey "<UA or Z address>"`
 
-#### ywallet
+#### Ywallet
 
 * On the top right corner select "Backup", Authenticate your phone, then simply copy your viewing key that is displayed.
 
@@ -38,7 +38,9 @@ Why would a user ever want to do this? From Electric Coin Co.'s blog on the matt
 
 * In the top right corner, select "Account", click on "+" in the bottom right corner to add and import your viewing key to add your 'read-only' account.
 
-![myViewKey](https://user-images.githubusercontent.com/81990132/208585568-46065002-6682-4ff4-ae8b-d206205b5d9b.png)
+<a href="">
+    <img src="https://i.ibb.co/r6gPvFw/ywalletcard.png" alt="" width="200" height="280"/>
+</a>
 
 
 #### zcashblockexplorer.com
