@@ -7,12 +7,15 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ---
 
 <a href="https://ywallet.app/installation/">
-    <img src="https://i.ibb.co/vX41yfN/ywalletcard.png" alt="" width="100" height="100"/>
+    <img src="https://i.ibb.co/r6gPvFw/ywalletcard.png" alt="" width="150" height="100"/>
 </a>
 
 <aside>
-  
-#### Features
+    
+Pools
+Transparent | Sapling | Orchard
+
+Features
 | WarpSync | Shielded Memo | Automatic Shielding | Unified Address |
 
 </aside>
@@ -20,12 +23,15 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ---
 
 <a href="https://play.google.com/store/apps/details?id=org.ZingoLabs.Zingo">
-    <img src="https://i.ibb.co/zFm6xLq/zingocard.png" alt="" width="100" height="100"/>
+    <img src="https://i.ibb.co/bdJ49Ld/zingocard.png" alt="" width="150" height="100"/>
 </a>
 
 <aside>
+
+Pools
+Transparent | Sapling | Orchard
   
-#### Features
+Features
 | BlazeSync | Shielded Memo | Live Sync Dashboard |
 
 </aside>
@@ -33,10 +39,13 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ---
 
 <a href="https://nighthawkwallet.com">
-    <img src="https://i.ibb.co/dmw7TD4/nighthawkcard.png" alt="" width="100" height="100"/>
+    <img src="https://i.ibb.co/7yvM8vq/nighthawkcard.png" alt="" width="150" height="100"/>
 </a>
 
 <aside>
+
+Pools
+Transparent | Sapling 
   
 #### Features
 | Syncronizer | Shielded Memo | Automatic Shielding |
@@ -46,12 +55,15 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ---
 
 <a href="https://edge.app">
-    <img src="https://i.ibb.co/jV0YqYD/edgecard.png" alt="" width="100" height="100"/>
+    <img src="https://i.ibb.co/qCmmHk4/edgecard.png" alt="" width="150" height="100"/>
 </a>
 
 <aside>
+
+Pools
+Sapling 
   
-#### Features
+Features
 | Synchronizer | Multi Coin |
 
 </aside>
@@ -59,24 +71,30 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ---
 
 <a href="https://unstoppable.money">
-    <img src="https://i.ibb.co/CHgSpmk/unstoppablecard.png" alt="" width="100" height="100"/>
+    <img src="https://i.ibb.co/KXnS26y/unstoppablecard.png" alt="" width="150" height="100"/>
 </a>
 
 <aside>
-  
-#### Features
+    
+Pools
+Transparent | Sapling 
+
+Features
 | Synchronizer | Multi Coin |
 
 </aside>
 
 ---
 <a href="https://www.exodus.com/download/">
-    <img src="https://i.ibb.co/DKJmQkm/exoduscard.png" alt="" width="100" height="100"/>
+    <img src="https://i.ibb.co/w0NNZNp/exoduscard.png" alt="" width="150" height="100"/>
 </a>
 
 <aside>
 
-#### Features
+Pools
+Transparent
+
+Features
 | Synchronizer | Multi Coin |
 
 </aside>
@@ -84,12 +102,15 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ----
 
 <a href="https://www.coinomi.com/en/downloads">
-    <img src="https://i.ibb.co/Yb4Qp5S/coinomicard.png" alt="" width="100" height="100"/>
+    <img src="https://i.ibb.co/QfHmjWY/coinomicard.png" alt="" width="150" height="100"/>
 </a>
 
 <aside>
-    
-#### Features
+
+Pools
+Transparent 
+
+Features
 | Synchronizer | Multi Coin |
 
 </aside>
@@ -97,12 +118,15 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ----
 
 <a href="https://safepal.com">
-    <img src="https://i.ibb.co/0ZP54QY/safepalcard.png" alt="" width="100" height="100"/>
+    <img src="https://i.ibb.co/h29h6d0/safepalcard.png" alt="" width="150" height="100"/>
 </a>
 
 <aside>
 
-#### Features
+Pools
+Transparent
+
+Features
 | Synchronizer | Multi Coin |
 
 </aside>
