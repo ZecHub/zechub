@@ -40,4 +40,6 @@ The [Zcash Community Forum](https://forum.zcashcommunity.com/) is the place wher
 
 Though, we do recommend trying to google your question and finding the answer before asking the forum's out of respect for everyone's time :) 
 
-![](https://i.ibb.co/4ZbjGBV/zcash-logo-horizontal-transparent.png)
+<a href="">
+    <img src="https://i.ibb.co/4ZbjGBV/zcash-logo-horizontal-transparent.png" alt="" width="auto" height="200"/>
+</a>
