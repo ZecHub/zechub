@@ -7,7 +7,7 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ---
 
 
-## zcashd 
+## [zcashd](https://zcash.readthedocs.io/en/latest/rtd_pages/zcashd.html)
 
 The official, Linux-based, full-node wallet, updated and maintained by core developers from the Electric Coin Co.
 
@@ -17,8 +17,6 @@ The official, Linux-based, full-node wallet, updated and maintained by core deve
 
 <aside>
     
-### [zcashd](https://zcash.readthedocs.io/en/latest/rtd_pages/zcashd.html)
-
 #### Pools
 | Transparent | Sapling | Orchard |
 
