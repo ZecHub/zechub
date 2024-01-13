@@ -26,7 +26,7 @@ ____
 
 
 <a href="https://trezor.io/learn/a/zcash-zec">
-    <img src="https://i.ibb.co/q7wLFHv/image-2024-01-13-170134062.png" alt="" width="150" height="100"/>
+    <img src="https://i.ibb.co/wcD52Kk/image-2024-01-13-170332340.png" alt="" width="150" height="100"/>
 </a>
 
 <aside>
