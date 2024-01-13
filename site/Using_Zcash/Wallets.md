@@ -1,6 +1,6 @@
 # Zcash Wallets
 
-Wallets allow you to receive and spend Zcash. Some also support encrypted memos. Only you should have access to your wallet.
+Wallets allow you to receive and spend Zcash. Different wallets offer unique features such as encrypted memos or faster synchronisation. Only you should have access to your wallet.
 
 ---
 
@@ -16,7 +16,7 @@ Mobile wallets allow you to access your Zcash anywhere and on the go.
 
 ### [Desktop Wallets](/site/Using_Zcash/Wallets/Desktop_Wallets)
 <aside>
-Desktop wallets are downloadable apps if you want that access you Zcash from Windows, MacOS, or Linux.
+Desktop wallets are downloadable applications that provide access to Zcash from Windows, MacOS, or Linux.
 
 </aside>
 
@@ -25,7 +25,7 @@ Desktop wallets are downloadable apps if you want that access you Zcash from Win
 ### [Hardware Wallets](/site/Using_Zcash/Wallets/Hardware_Wallets)
 
 <aside>
-Hardware wallets stores your Zcash securely offline physical device. Hardware wallets currently only support transparent addresses. Users must make a security and privacy tradeoff when using hardware wallets.
+Hardware wallets stores your Zcash securely offline physical device.
 
 </aside>
 
@@ -34,7 +34,7 @@ Hardware wallets stores your Zcash securely offline physical device. Hardware wa
 ### [Web Wallets](/site/Using_Zcash/Wallets/Web_Wallets)
 
 <aside>
-Web wallets are wallets that you can access from your web browser. They give a users a web interface to interact with their funds.
+Web wallets are wallets that you can access from your browser. They give a users a web interface to interact with their funds.
 
 </aside>
 
