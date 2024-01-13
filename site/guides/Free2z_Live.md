@@ -117,13 +117,13 @@ You will see the minimum amount for subscribing Verify if you have enough 2Zs an
 </a
 
 ### Donate using 2zs or Zcash.
-You can donate directly on their page, by clicking the “Fund creator” icon. 
+You can donate directly on their page, by clicking the Fund creator icon. 
 
 <a href="">
     <img src="https://i.ibb.co/xCz5X92/fund-creator.png" alt="" width="200" height="70"/>
 </a
 
-Or, from inside a post, look for the floating 'plus' button. From here, you can donate to the creator or promote the post on Free2Z.
+Or, from inside a post, look for the floating plus button. From here, you can donate to the creator or promote the post on Free2Z.
 
 <a href="">
     <img src="https://i.ibb.co/Rzs7ST1/post-floating-buttons.png" alt="" width="90" height="200"/>
