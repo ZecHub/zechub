@@ -110,7 +110,7 @@ To subscribe to a page, all you need to do is click on the subscribe icon on the
     <img src="https://i.ibb.co/k5Hbdfr/subscribe-to-creator.png" alt="" width="300" height="100"/>
 </a
 
-You will see the minimum amount for subscribing, Verify if you have enough 2Zs and click subscribe.
+You will see the minimum amount for subscribing Verify if you have enough 2Zs and click subscribe.
 
 <a href="">
     <img src="https://i.ibb.co/8j4p73J/confirm-subscribe.png" alt="" width="300" height="100"/>
