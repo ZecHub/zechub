@@ -12,10 +12,12 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 
 <aside>
     
-Pools
-Transparent | Sapling | Orchard
+### Ywallet    
 
-Features
+#### Pools
+| Transparent | Sapling | Orchard |
+
+#### Features
 | WarpSync | Shielded Memo | Automatic Shielding | Unified Address |
 
 </aside>
@@ -26,12 +28,14 @@ Features
     <img src="https://i.ibb.co/bdJ49Ld/zingocard.png" alt="" width="150" height="100"/>
 </a>
 
-<aside>
+<aside> 
+    
+### Zingo!
 
-Pools
-Transparent | Sapling | Orchard
+#### Pools
+| Transparent | Sapling | Orchard
   
-Features
+#### Features
 | BlazeSync | Shielded Memo | Live Sync Dashboard |
 
 </aside>
@@ -44,8 +48,10 @@ Features
 
 <aside>
 
-Pools
-Transparent | Sapling 
+### Nighthawk
+
+#### Pools
+| Transparent | Sapling 
   
 #### Features
 | Syncronizer | Shielded Memo | Automatic Shielding |
@@ -60,10 +66,12 @@ Transparent | Sapling
 
 <aside>
 
-Pools
-Sapling 
+### Edge
+
+#### Pools
+| Sapling |
   
-Features
+#### Features
 | Synchronizer | Multi Coin |
 
 </aside>
@@ -75,11 +83,13 @@ Features
 </a>
 
 <aside>
-    
-Pools
-Transparent | Sapling 
 
-Features
+### Unstoppable
+    
+#### Pools
+| Transparent | Sapling |
+
+#### Features
 | Synchronizer | Multi Coin |
 
 </aside>
@@ -91,10 +101,12 @@ Features
 
 <aside>
 
-Pools
-Transparent
+### Exodus
 
-Features
+#### Pools
+| Transparent |
+
+#### Features
 | Synchronizer | Multi Coin |
 
 </aside>
@@ -107,10 +119,13 @@ Features
 
 <aside>
 
-Pools
-Transparent 
 
-Features
+## #Coinomi
+
+#### Pools
+| Transparent |
+
+#### Features
 | Synchronizer | Multi Coin |
 
 </aside>
@@ -123,8 +138,10 @@ Features
 
 <aside>
 
-Pools
-Transparent
+### Safepal
+
+#### Pools
+| Transparent | 
 
 Features
 | Synchronizer | Multi Coin |
