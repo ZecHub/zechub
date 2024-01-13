@@ -12,7 +12,7 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 
 <aside>
     
-### Ywallet    
+### [Ywallet](https://ywallet.app/installation/)
 
 #### Pools
 | Transparent | Sapling | Orchard |
@@ -30,7 +30,7 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 
 <aside> 
     
-### Zingo!
+### [Zingo!](https://play.google.com/store/apps/details?id=org.ZingoLabs.Zingo)
 
 #### Pools
 | Transparent | Sapling | Orchard
@@ -48,7 +48,7 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 
 <aside>
 
-### Nighthawk
+### [Nighthawk](https://nighthawkwallet.com)
 
 #### Pools
 | Transparent | Sapling 
@@ -66,7 +66,7 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 
 <aside>
 
-### Edge
+### [Edge](https://edge.app)
 
 #### Pools
 | Sapling |
@@ -84,7 +84,7 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 
 <aside>
 
-### Unstoppable
+### [Unstoppable](https://unstoppable.money)
     
 #### Pools
 | Transparent | Sapling |
@@ -101,7 +101,7 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 
 <aside>
 
-### Exodus
+### [Exodus](https://www.exodus.com/download/)
 
 #### Pools
 | Transparent |
@@ -120,7 +120,7 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 <aside>
 
 
-### Coinomi
+### [Coinomi](https://www.coinomi.com/en/downloads)
 
 #### Pools
 | Transparent |
@@ -138,12 +138,12 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 
 <aside>
 
-### Safepal
+### [Safepal](https://safepal.com)
 
 #### Pools
 | Transparent | 
 
-Features
+#### Features
 | Synchronizer | Multi Coin |
 
 </aside>
