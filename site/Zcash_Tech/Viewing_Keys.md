@@ -6,7 +6,7 @@ Shielded addresses enable users to transact while revealing as little informatio
 
 Why would a user ever want to do this? From Electric Coin Co.'s blog on the matter...
 
-*- An exchange wants to detect when a customer deposits ZEC to a shielded address, while keeping the **spend authority** keys on secure hardware. The exchange could generate an incoming viewing key and load it onto an Internet-connected “detection” node, while the spending key remains on the more secure system.*
+*- An exchange wants to detect when a customer deposits ZEC to a shielded address, while keeping the **spend authority** keys on secure hardware. The exchange could generate an incoming viewing key and load it onto an Internet-connected **detection** node, while the spending key remains on the more secure system.*
 
 *- A custodian needs to provide visibility of their Zcash holdings to auditors. The custodian may generate a full viewing key for each of their shielded addresses and share that key with their auditor. The auditor will be able to verify the balance of those addresses and review past transaction activity to and from those addresses.* 
 
