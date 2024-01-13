@@ -13,7 +13,7 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 
 <aside>
     
-### [Brave (in-development](https://brave.com/web3-privacy/)
+### [Brave (in-development)](https://brave.com/web3-privacy/)
 
 #### Pools
 | Orchard |
