@@ -36,7 +36,7 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 | Transparent | Sapling | Orchard |
   
 #### Features
-| BlazeSync | Shielded Memo | Live Sync Dashboard |
+| BlazeSync | Shielded Memo | Live Sync Dashboard | Unified Address |
 
 </aside>
 
@@ -54,7 +54,7 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 | Transparent | Sapling |
   
 #### Features
-| Synchronizer | Shielded Memo | Automatic Shielding |
+| Synchronizer | Shielded Memo | Automatic Shielding | Unified Address |
 
 </aside>
 
@@ -69,10 +69,10 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ### [Edge](https://edge.app)
 
 #### Pools
-| Sapling |
+| Transparent | Sapling |
   
 #### Features
-| Synchronizer | Multi Coin |
+| Synchronizer | Multi Coin | Unified Address |
 
 </aside>
 
@@ -90,7 +90,7 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 | Transparent | Sapling |
 
 #### Features
-| Synchronizer | Multi Coin |
+| Synchronizer | Multi Coin | Unified Address |
 
 </aside>
 
