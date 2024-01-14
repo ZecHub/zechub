@@ -46,7 +46,7 @@ Hardware wallets stores your Zcash securely offline physical device.
 ### [Web Wallets](/site/Using_Zcash/Wallets/Web_Wallets)
 
 <a href="/site/Using_Zcash/Wallets/Web_Wallets">
-    <img src="https://i.ibb.co/GQkK2VY/Web-Wallets.png" alt="" width="200" height="250"/>
+    <img src="https://i.ibb.co/GQkK2VY/Web-Wallets.png" alt="" width="200" height="270"/>
 </a>
 
 <aside>
