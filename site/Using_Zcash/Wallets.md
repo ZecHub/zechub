@@ -12,7 +12,6 @@ Wallets allow you to receive and spend Zcash. Different wallets offer unique fea
 </a>
 
 <aside>
-<aside>
 Mobile wallets allow you to access your Zcash anywhere and on the go.
 </aside>
 
@@ -22,12 +21,11 @@ Mobile wallets allow you to access your Zcash anywhere and on the go.
 ### [Desktop Wallets](/site/Using_Zcash/Wallets/Desktop_Wallets)
 
 <a href="/site/Using_Zcash/Wallets/Desktop_Wallets">
-    <img src="https://i.ibb.co/D1YLnTy/Desktop-Wallets-1.png" alt="" width="200" height="200"/>
+    <img src="https://i.ibb.co/D1YLnTy/Desktop-Wallets-1.png" alt="" width="200" height="230"/>
 </a>
 
 <aside>
 Desktop wallets are downloadable applications that provide access to Zcash from Windows, MacOS, or Linux.
-
 </aside>
 
 ---
@@ -48,7 +46,7 @@ Hardware wallets stores your Zcash securely offline physical device.
 ### [Web Wallets](/site/Using_Zcash/Wallets/Web_Wallets)
 
 <a href="/site/Using_Zcash/Wallets/Web_Wallets">
-    <img src="https://i.ibb.co/GQkK2VY/Web-Wallets.png" alt="" width="200" height="200"/>
+    <img src="https://i.ibb.co/GQkK2VY/Web-Wallets.png" alt="" width="200" height="250"/>
 </a>
 
 <aside>
