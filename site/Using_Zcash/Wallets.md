@@ -8,7 +8,7 @@ Wallets allow you to receive and spend Zcash. Different wallets offer unique fea
 ### [Mobile Wallets](/site/Using_Zcash/Wallets/Mobile_Wallets)
 
 <a href="/site/Using_Zcash/Wallets/Mobile_Wallets">
-    <img src="https://i.ibb.co/xjDWdyn/Mobile-Phones.png" alt="" width="300" height="300"/>
+    <img src="https://i.ibb.co/xjDWdyn/Mobile-Phones.png" alt="" width="200" height="250"/>
 </a>
 
 <aside>
