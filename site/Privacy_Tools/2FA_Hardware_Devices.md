@@ -58,7 +58,7 @@ Here are some examples of 2FA Hardware available in the market.
 
 
 Manufactured by Yubico, co-developer of the FIDO U2F open authentication standard used by many security keys, the YubiKey 5 NFC is in safe hands to protect your devices. As its name suggests, it works using USB-A (or USB-C using an adapter) or NFC.
-It offers out-of-the-box compatibility with many services including Google Chrome, Facebook, Dropbox, LastPass, 1Password and more. The YubiKey 5 is compact, durable and lightweight - and it is even waterproof. With a black and gold design, it is one of the best security keys to display attached to a key ring.
+It offers out-of-the-box compatibility with many services including Google Chrome, Facebook, Dropbox, LastPass, 1Password and more. The YubiKey 5 is compact, durable and lightweight - and it is even waterproof. 
 You can configure the YubiKey as a second U2F factor without any problems by following the service instructions and inserting the key into the USB slot when prompted. Tapping or pressing the gold circle on the key will register your key, so the next time you log in, just enter the password, insert the key, and tap it.
 
 
@@ -71,9 +71,9 @@ You can configure the YubiKey as a second U2F factor without any problems by fol
 
 
 
-If you're looking for the best bang-for-buck in a security key, this model from Thetis should be on your list. There’s no Bluetooth onboard (it’s available on a more expensive model), and it only supports the FIDO U2F standard – so there’s no UAF or OTP compatibility. However, it will provide secure website access if you use Chrome or Opera as a browser on Windows, macOS, or Linux. 
-Handily, this affordable security key sports a compact folding design with a rotating aluminum casing that prevents the connector from being exposed to potential damage while transporting. It comes in three attractive colors — black, gold, and silver. 
-The plastic casing feels sturdy and relatively durable, but you'll want to avoid placing it with heavy objects in your bag. The hole punch on the key isn't large enough, so you'll have limited options for attaching keychains or lanyards.
+If you are looking for the best bang-for-buck in a security key, this model from Thetis should be on your list. There is no Bluetooth onboard (it is available on a more expensive model), and it only supports the FIDO U2F standard – so there’s no UAF or OTP compatibility. However, it will provide secure website access if you use Chrome or Opera as a browser on Windows, macOS, or Linux. 
+Handily, this affordable security key sports a compact folding design with a rotating aluminum casing that prevents the connector from being exposed to potential damage while transporting. It comes in three attractive colors. Black, Gold, and Silver. 
+The plastic casing feels sturdy and relatively durable, but you will want to avoid placing it with heavy objects in your bag. The hole punch on the key isn't large enough, so you'll have limited options for attaching keychains or lanyards.
 
 **CryptoTrust OnlyKey**
 
@@ -84,13 +84,13 @@ The plastic casing feels sturdy and relatively durable, but you'll want to avoid
 
 
 As its name suggests, OnlyKey has some nifty features its rivals lack. Thanks to an onboard keypad that can bypass keyloggers that find their way onto computers, it can keep online accounts safe if a computer or website is compromised. It supports multiple methods of 2FA, including FIDO 2 U2F, Yubico OTP, and TOTP. 
-While it isn't the best password manager for mainstream purposes, OnlyKey can store 24 OTP accounts, 24 passwords, and 24 usernames/URLs, on a single key. This feature is pretty handy if you're not keen on memorizing multiple passwords and want the key to handle it for you. 
-It offers features such as encrypted backup, self-destruct (which wipes the device after a certain number of incorrect attempts), and the ability to update the firmware to access new features. On the downside, its user interface is far from the prettiest we’ve ever seen.
+While it is not the best password manager for mainstream purposes, OnlyKey can store 24 OTP accounts, 24 passwords, and 24 usernames/URLs, on a single key. This feature is pretty handy if you're not keen on memorizing multiple passwords and want the key to handle it for you. 
+It offers features such as encrypted backup, self-destruct (which wipes the device after a certain number of incorrect attempts), and the ability to update the firmware to access new features. On the downside, its user interface is far from ideal.
 
 
 ## Binding your 2FA Hardware Key to your Google account
 
-Now that you know what 2FA Hardware keys are and how they work, I'll teach you how to connect your key to your Google account.
+Now that you know what 2FA Hardware keys are and how they work, here is how to connect your key to your Google account.
 
 **Step 1**
 
