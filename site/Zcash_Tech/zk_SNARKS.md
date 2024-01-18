@@ -12,7 +12,10 @@ Prover ---> Makes Claim ---> Verifier Chooses ---> Accept/Reject
 
 In computer science the term for efficiently verifiable proofs is NP proofs. These short proofs can be verified in polynomial time. The broad idea being "There exists a solution to a theorem & it is passed over to the verifier to check it"
 
-![NP proofs](https://cdn.discordapp.com/attachments/860525418008674327/1070395089559494716/NPlanguage.jpg  "NP Language")
+
+<a href="">
+    <img src="https://cdn.discordapp.com/attachments/860525418008674327/1070395089559494716/NPlanguage.jpg" alt="" width="600" height="400"/>
+</a>
 
 
 In an NP-language = two conditions must hold: 
@@ -28,7 +31,11 @@ Soundness: False claims will have no proofs (for all cheating prover strategy th
 
 **Randomness**: Verifier's requests to prover are randomised and prover must be able to answer correctly to each. 
 
-![IP proofs](https://cdn.discordapp.com/attachments/860525418008674327/1070395089194594345/IPmodel.jpg  "IP protocol")
+
+<a href="">
+    <img src="https://cdn.discordapp.com/attachments/860525418008674327/1070395089194594345/IPmodel.jpg" alt="" width="600" height="400"/>
+</a>
+
 
 Using interaction and randomness together it is possible to prove a claim to a blind verifier in Probabilistic Polynomial Time (PPT). 
 
@@ -64,7 +71,9 @@ Real View: All possible histories of interactions between Prover & Verifier (P,V
 
 Simulated View: The verifier simulates all possible interactions between Prover & Verifier 
 
-![simulation paradigm](https://cdn.discordapp.com/attachments/860525418008674327/1070395090259947520/simulation.jpg  "Simulation Paradigm")
+<a href="">
+    <img src="https://cdn.discordapp.com/attachments/860525418008674327/1070395090259947520/simulation.jpg" alt="" width="600" height="400"/>
+</a>
 
 A polynomial-time distinguisher makes an attempt to determine whether they are looking at the real or simulated view and requests a sample from both repeatedly.
 
@@ -92,7 +101,10 @@ example: "3x² + 8x + 17"
 
 **Arithmetic Circuit**: A model for computing polynomials. More generally it can be defined as a Directed Acyclic Graph on which at each node of the graph an arithmetic operation is performed. The circuit consists of addition gates, multiplication gates and some constant gates. In the same way Boolean circuits carry bits in wires, Arithmetic circuits carry integers.
 
-![circuit](https://cdn.discordapp.com/attachments/860525418008674327/1070405388048011305/circuit.jpg  "DAG")
+
+<a href="">
+    <img src="https://cdn.discordapp.com/attachments/860525418008674327/1070405388048011305/circuit.jpg" alt="" width="300" height="200"/>
+</a>
 
 In this example, the prover wants to convince the verifier that he knows a solution to the arithmetic circuit.  
 
@@ -116,7 +128,9 @@ Polynomial interactive oracle: Verifier asks prover (algorithm) to open all comm
 
 Setup procedures help the verifier by summarizing a circuit & outputting public parameters. 
 
-![Setup](https://cdn.discordapp.com/attachments/860525418008674327/1070395089899229245/setup.jpg  "Setup")
+<a href="">
+    <img src="https://cdn.discordapp.com/attachments/860525418008674327/1070395089899229245/setup.jpg" alt="" width="600" height="300"/>
+</a>
 
 **Types of pre-processing setup**:
 
@@ -157,7 +171,10 @@ zk-SNARKS provide several advantages in a variety of different applications. Let
 
 The advantage of a proof based Rollup (zk-Rollup) service is to process a batch of hundreds/thousands of transactions & the L1 is able to verify a succinct proof that all transactions were processed correctly, scaling the networks transaction throughput by a factor of 100 or 1000.
 
-![zkvm](https://cdn.discordapp.com/attachments/860525418008674327/1070395090612265000/zkvm.jpg  "ZKVM")
+<a href="">
+    <img src="https://cdn.discordapp.com/attachments/860525418008674327/1070395090612265000/zkvm.jpg" alt="" width="600" height="300"/>
+</a>
+
 
 **Interoperability**: This is achieved on a zk-Bridge by 'locking' assets on a source chain and proving to the target chain the assets have been locked (proof of consensus).
 
