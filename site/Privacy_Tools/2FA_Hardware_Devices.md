@@ -108,7 +108,7 @@ log into your Gmail account and click on **Manage Your Google Account**
 click on **Security**
 
 <a href="">
-    <img src="https://github.com/ZecHub/zechub/assets/81990132/246db235-6596-41ff-bd7a-f8ee4f80962b" alt="" width="600" height="500"/>
+    <img src="https://github.com/ZecHub/zechub/assets/81990132/246db235-6596-41ff-bd7a-f8ee4f80962b" alt="" width="600" height="450"/>
 </a>
 
 
@@ -118,7 +118,7 @@ click on **Security**
 click on **2 Step verification**
 
 <a href="">
-    <img src="https://github.com/ZecHub/zechub/assets/81990132/19cd202a-1a70-47e6-a02a-aa24f6e199fa" alt="" width="600" height="500"/>
+    <img src="https://github.com/ZecHub/zechub/assets/81990132/19cd202a-1a70-47e6-a02a-aa24f6e199fa" alt="" width="600" height="450"/>
 </a>
 
 **Step 4**
@@ -126,7 +126,7 @@ click on **2 Step verification**
 Select **Show More Options**
 
 <a href="">
-    <img src="https://github.com/ZecHub/zechub/assets/81990132/2ade9531-1cf6-48e8-b9a8-178d41a4cd30" alt="" width="600" height="500"/>
+    <img src="https://github.com/ZecHub/zechub/assets/81990132/2ade9531-1cf6-48e8-b9a8-178d41a4cd30" alt="" width="600" height="450"/>
 </a>
 
 **Step 5**
@@ -134,7 +134,7 @@ Select **Show More Options**
 Now select **Security Key** and then click on **advance**
 
 <a href="">
-    <img src="https://github.com/ZecHub/zechub/assets/81990132/763a1f7b-6c52-498b-a345-0b0a88e9dc71" alt="" width="600" height="500"/>
+    <img src="https://github.com/ZecHub/zechub/assets/81990132/763a1f7b-6c52-498b-a345-0b0a88e9dc71" alt="" width="600" height="450"/>
 </a>
 
 **Step 6**
