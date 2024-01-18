@@ -41,7 +41,7 @@ First, n participants run a *distributed key generation (DKG) protocol* to gener
 Afterwards, any t-out-of-n participants can run a *threshold signing protocol* to collaboratively generate a valid Schnorr signature. 
 
 <a href="">
-    <img src="https://static.cryptohopper.com/images/news/uploads/1634081807-frost-flexible-round-optimized-schnorr-threshold-signatures-1.jpg" alt="" width="300" height="300"/>
+    <img src="https://static.cryptohopper.com/images/news/uploads/1634081807-frost-flexible-round-optimized-schnorr-threshold-signatures-1.jpg" alt="" width="400" height="300"/>
 </a>
 
 **Distributed key generation (DKG)**
@@ -59,7 +59,7 @@ This phase builds upon known techniques that employ additive secret sharing and 
 Preprocessing: In the preprocessing stage, each participant prepares a fixed number of Elliptic Curve (EC) point pairs for further use, which is run for a single time for multiple threshold signing phases.
 
 <a href="">
-    <img src="https://i.ibb.co/nQD1c3n/preprocess.png" alt="" width="300" height="300"/>
+    <img src="https://i.ibb.co/nQD1c3n/preprocess.png" alt="" width="400" height="300"/>
 </a>
 
 Signing Round 1: Each participant Pᵢ begins by generating a single private nonce pair (dᵢ, eᵢ) and corresponding pair of EC points (Dᵢ, Eᵢ) and broadcasts this pair of points to all other participants. Each participant stores these pairs of EC points received for use later. Signing rounds 2 and 3 are the actual operations in which t-out-of-n participants cooperate to create a valid Schnorr signature.
@@ -69,7 +69,7 @@ Signing Round 2: To create a valid Schnorr signature, any t participants work to
 This step prevents forgery attack because attackers cannot combine signature shares across distinct signing operations or permute the set of signers or published points for each signer. 
 
 <a href="">
-    <img src="https://i.ibb.co/b5rJbXx/sign.png" alt="" width="300" height="300"/>
+    <img src="https://i.ibb.co/b5rJbXx/sign.png" alt="" width="400" height="300"/>
 </a>
 
 Having computed the challenge c, each participant is able to compute the response zᵢ to the challenge using the single-use nonces and the long-term secret shares, which are t-out-of-n (degree t-1) Shamir secret shares of the groups long-lived key. At the end of signing round 2, each participant broadcasts zᵢ to other participants.
