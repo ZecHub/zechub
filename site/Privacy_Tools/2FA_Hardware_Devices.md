@@ -1,6 +1,6 @@
 # 2FA Hardware Devices
 
-In today's digital age, data security and privacy are critical concerns for individuals and businesses alike. Cyberattacks and data breaches are becoming more and more common, and it's essential to take proactive steps to protect sensitive data and maintain your privacy. One such measure is using hardware security keys, which provide an extra layer of protection to protect your devices and data.
+Data security and privacy are critical concerns for individuals and businesses alike. Cyberattacks and data breaches are becoming more and more common, and it is essential to take proactive steps to protect sensitive data and maintain your privacy. One such measure is using hardware security keys, which provide an extra layer of protection to protect your devices and data.
 
 ## What are hardware security keys?
 
@@ -58,7 +58,7 @@ Here are some examples of 2FA Hardware available in the market.
 
 
 Manufactured by Yubico, co-developer of the FIDO U2F open authentication standard used by many security keys, the YubiKey 5 NFC is in safe hands to protect your devices. As its name suggests, it works using USB-A (or USB-C using an adapter) or NFC.
-It offers out-of-the-box compatibility with many services – including Google Chrome, Facebook, Dropbox, LastPass, 1Password and more. The YubiKey 5 is compact, durable and lightweight - and it's even waterproof. With a black and gold design, it's one of the best security keys to display attached to a key ring.
+It offers out-of-the-box compatibility with many services including Google Chrome, Facebook, Dropbox, LastPass, 1Password and more. The YubiKey 5 is compact, durable and lightweight - and it is even waterproof. With a black and gold design, it is one of the best security keys to display attached to a key ring.
 You can configure the YubiKey as a second U2F factor without any problems by following the service instructions and inserting the key into the USB slot when prompted. Tapping or pressing the gold circle on the key will register your key, so the next time you log in, just enter the password, insert the key, and tap it.
 
 
@@ -86,13 +86,15 @@ The plastic casing feels sturdy and relatively durable, but you'll want to avoid
 As its name suggests, OnlyKey has some nifty features its rivals lack. Thanks to an onboard keypad that can bypass keyloggers that find their way onto computers, it can keep online accounts safe if a computer or website is compromised. It supports multiple methods of 2FA, including FIDO 2 U2F, Yubico OTP, and TOTP. 
 While it isn't the best password manager for mainstream purposes, OnlyKey can store 24 OTP accounts, 24 passwords, and 24 usernames/URLs, on a single key. This feature is pretty handy if you're not keen on memorizing multiple passwords and want the key to handle it for you. 
 It offers features such as encrypted backup, self-destruct (which wipes the device after a certain number of incorrect attempts), and the ability to update the firmware to access new features. On the downside, its user interface is far from the prettiest we’ve ever seen.
+
+
 ## Binding your 2FA Hardware Key to your Google account
 
 Now that you know what 2FA Hardware keys are and how they work, I'll teach you how to connect your key to your Google account.
 
 **Step 1**
 
-log into your Gmail account and click on “Manage Your Google Account”
+log into your Gmail account and click on **Manage Your Google Account**
 
 ![Design sem nome](https://github.com/ZecHub/zechub/assets/81990132/995fc955-791a-4456-9218-7e5964da48b5)
 
@@ -103,36 +105,36 @@ log into your Gmail account and click on “Manage Your Google Account”
 
 **Step 2**
 
-click on “Security”
+click on **Security**
 
 <a href="">
-    <img src="https://github.com/ZecHub/zechub/assets/81990132/246db235-6596-41ff-bd7a-f8ee4f80962b" alt="" width="300" height="300"/>
+    <img src="https://github.com/ZecHub/zechub/assets/81990132/246db235-6596-41ff-bd7a-f8ee4f80962b" alt="" width="600" height="500"/>
 </a>
 
 
 
 **step 3**
 
-click on “2-Step verification”
+click on **2 Step verification**
 
 <a href="">
-    <img src="https://github.com/ZecHub/zechub/assets/81990132/19cd202a-1a70-47e6-a02a-aa24f6e199fa" alt="" width="300" height="300"/>
+    <img src="https://github.com/ZecHub/zechub/assets/81990132/19cd202a-1a70-47e6-a02a-aa24f6e199fa" alt="" width="600" height="500"/>
 </a>
 
 **Step 4**
 
-Select “Show More Options”
+Select **Show More Options**
 
 <a href="">
-    <img src="https://github.com/ZecHub/zechub/assets/81990132/2ade9531-1cf6-48e8-b9a8-178d41a4cd30" alt="" width="300" height="300"/>
+    <img src="https://github.com/ZecHub/zechub/assets/81990132/2ade9531-1cf6-48e8-b9a8-178d41a4cd30" alt="" width="600" height="500"/>
 </a>
 
 **Step 5**
 
-Now select “Security Key” and then click on “advance”
+Now select **Security Key** and then click on **advance**
 
 <a href="">
-    <img src="https://github.com/ZecHub/zechub/assets/81990132/763a1f7b-6c52-498b-a345-0b0a88e9dc71" alt="" width="400" height="300"/>
+    <img src="https://github.com/ZecHub/zechub/assets/81990132/763a1f7b-6c52-498b-a345-0b0a88e9dc71" alt="" width="600" height="500"/>
 </a>
 
 **Step 6**
@@ -145,7 +147,7 @@ Connect your 2FA security key
 
 **Step 7**
 
-Write the name you want for the device and click “Done”
+Write the name you want for the device and click **Done**
 
 
 <a href="">
