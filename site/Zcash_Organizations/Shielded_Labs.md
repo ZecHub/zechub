@@ -4,9 +4,9 @@ Shielded Labs was founded as a Swiss Association in December 2022, and has no af
 
 Zcash is currently supported by 2 US organizations, the Electric Coin Company (ECC) and Zcash Foundation, that are the sole recipients of the development fund. ZCG is not an organization, but a grants committee under the Foundation, which custodies and administers its funds. More independent organizations contributing to the Zcash ecosystem are needed in order to diffuse power and become more decentralized.
 
-Zcash is building critical privacy-protecting financial infrastructure, and there’s a risk that the work being done could be hindered by regulation. In particular, Zcash’s exposure to the US is a potential single point of failure, and we need to urgently build an ecosystem that is resistant to capture.  
+Zcash is building critical privacy-protecting financial infrastructure, and there is a risk that the work being done could be hindered by regulation. In particular, Zcash exposure to the US is a potential single point of failure, and we need to urgently build an ecosystem that is resistant to capture.  
 
-Shielded Labs is domiciled in Switzerland because it’s a country that is both crypto-friendly and has a long history of preserving privacy rights.
+Shielded Labs is domiciled in Switzerland because it is a country that is both crypto-friendly and has a long history of preserving privacy rights.
 
 ## Vision
 
@@ -16,7 +16,7 @@ Shielded Labs aims to increase user adoption, develop new use cases for Zcash, a
 
 ### User Adoption: 
 
-Shielded Labs will work to increase user adoption by getting Zcash listed on more exchanges, working with companies on payments integration, and increasing Zcash’s availability on DEXs and Defi applications. It will prioritize projects that advance the usability of Zcash, such as Zcash Shielded Assets, and support the development of bridges, AMMs, and fiat on/off-ramps.
+Shielded Labs will work to increase user adoption by getting Zcash listed on more exchanges, working with companies on payments integration, and increasing Zcash availability on DEXs and Defi applications. It will prioritize projects that advance the usability of Zcash, such as Zcash Shielded Assets, and support the development of bridges, AMMs, and fiat on/off-ramps.
 
 ### Human Rights and Freedom: 
 
@@ -38,7 +38,7 @@ Initial part-time, project-based support will be needed to help lay the groundwo
 
 Initially, Shielded Labs is funded entirely by donations & aims to raise funds to bootstrap the first year of operations. 
 
-With regard to long-term funding, Shielded Labs has outlined a proposal to be a recipient of Zcash’s development fund via the block reward after the next halving in Q4 2024. 
+With regard to long-term funding, Shielded Labs has outlined a proposal to be a recipient of Zcash development fund via the block reward after the next halving in Q4 2024. 
 
 This will involve development of a modified issuance schedule and the mechanism to direct funds to the Sustainability Fund & plans for implemention on zcashd/zebrad. 
 
