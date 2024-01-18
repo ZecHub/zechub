@@ -14,9 +14,9 @@ The Electric Coin Company is wholly owned by the Bootstrap Project. The Bootstra
 
 ### Regulation
 
-ECC’s insight and leadership around on-chain privacy and its implications for personal and national security is incredibly valuable for policy makers. Consistent efforts to appropriately guide policy wherever possible have been made since the ECC was founded. 
+ECCs insight and leadership around on-chain privacy and its implications for personal and national security is incredibly valuable for policy makers. Consistent efforts to appropriately guide policy wherever possible have been made since the ECC was founded. 
 
-Examples of outreach include dialogue with Financial Action Task Force (FATF) taking part in meetings which resulted in the organization’s recommendations for the cryptocurrency sector. As a result of these efforts Zcash became approved by the New York State Department of Financial Services (NYDFS), the only privacy-protecting cryptocurrency to do so. 
+Examples of outreach include dialogue with Financial Action Task Force (FATF) taking part in meetings which resulted in the organizations recommendations for the cryptocurrency sector. As a result of these efforts Zcash became approved by the New York State Department of Financial Services (NYDFS), the only privacy-protecting cryptocurrency to do so. 
 
 ### Partner Engagement 
 
