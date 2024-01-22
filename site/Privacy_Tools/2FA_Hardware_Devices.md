@@ -57,8 +57,8 @@ Here are some examples of 2FA Hardware available in the market.
 
 
 
-Manufactured by Yubico, co-developer of the FIDO U2F open authentication standard used by many security keys, the YubiKey 5 NFC is in safe hands to protect your devices. As its name suggests, it works using USB-A (or USB-C using an adapter) or NFC.
-It offers out-of-the-box compatibility with many services including Google Chrome, Facebook, Dropbox, LastPass, 1Password and more. The YubiKey 5 is compact, durable and lightweight - and it is even waterproof. 
+Manufactured by Yubico, co-developer of the FIDO U2F open authentication standard used by many security keys, the YubiKey 5 NFC is in safe hands to protect your devices. As its name suggests, it works using USB A (or USB C using an adapter) or NFC.
+It offers out of the box compatibility with many services including Google Chrome, Facebook, Dropbox, LastPass, 1Password and more. The YubiKey 5 is compact, durable and lightweight - and it is even waterproof. 
 You can configure the YubiKey as a second U2F factor without any problems by following the service instructions and inserting the key into the USB slot when prompted. Tapping or pressing the gold circle on the key will register your key, so the next time you log in, just enter the password, insert the key, and tap it.
 
 
