@@ -1,8 +1,8 @@
 # Graphene OS
 
-GrapheneOS is a non-profit, open-source project dedicated to enhancing privacy and security on mobile devices while maintaining compatibility with Android apps. This Operating system places a strong emphasis on advancing privacy and security technologies, with a particular focus on bolstering sandboxing, exploit mitigations, and refining the permission model. Born in 2014 under the moniker “CopperheadOS,” it has since evolved into the formidable guardian of your digital privacy and security.
+GrapheneOS is a non-profit, open-source project dedicated to enhancing privacy and security on mobile devices while maintaining compatibility with Android apps. This Operating system places a strong emphasis on advancing privacy and security technologies, with a particular focus on bolstering sandboxing, exploit mitigations, and refining the permission model. Born in 2014 under the moniker **CopperheadOS**. it has since evolved into the formidable guardian of your digital privacy and security.
 
-GrapheneOS’s primary objective is to reinforce the security boundaries, such as the app sandbox, without adversely affecting the user experience. 
+The GrapheneOS primary objective is to reinforce the security boundaries, such as the app sandbox, without adversely affecting the user experience. 
 
 GrapheneOS may introduce various toggles for specific features, such as Network permissions, Sensors permissions, or restrictions when the device is locked (covering aspects like USB peripherals, camera access, and quick tiles). Additionally, more intricate user-facing privacy and security features are thoughtfully designed to maintain a user-friendly experience, each with its own user interface enhancements.
 
@@ -32,7 +32,7 @@ GrapheneOS may introduce various toggles for specific features, such as Network 
 
 **Focused on Privacy** The OS is designed with a strong emphasis on user privacy, minimizing data collection and exposure.
 
-**Open Source** It’s an open-source project, allowing for transparency and community contributions to improve security.
+**Open Source** It is an open-source project, allowing for transparency and community contributions to improve security.
 
 **Customizable Security Policies** Users have the ability to customize various security policies to suit their preferences.
 
@@ -53,7 +53,7 @@ Check out the installation Guide via the link below and follow the installation 
 
 [GrapheneOS Web Installer Guide](https://grapheneos.org/install/web#prerequisites)
 
-**Command Line installation** The command line installation is not recommended for users who aren’t technically oriented and the below tools and resources are required for the Command Line Installation;
+**Command Line installation** The command line installation is not recommended for users who are not technically oriented and the below tools and resources are required for the Command Line Installation;
 
 - You should have at least 2GB of free memory available and 32GB of free storage space
 - USB Cable (A or C)
@@ -74,7 +74,7 @@ Check out the installation Guide via the link below and follow the installation 
 
 **Regular Backups** Perform regular backups of your data in case of device loss or data corruption.
 
-**Encrypt Storage** If not enabled by default, encrypt your device’s storage to protect your data if the device is lost or stolen.
+**Encrypt Storage** If not enabled by default, encrypt your device storage to protect your data if the device is lost or stolen.
 
 **Secure Lock Screen** Use a secure lock screen, such as a PIN, password, or biometric authentication, to prevent unauthorized access.
 
@@ -102,4 +102,4 @@ Check out the installation Guide via the link below and follow the installation 
 
 ## **Conclusion**
 
-In essence, GrapheneOS is all about providing an alternative mobile operating system that prioritizes the privacy and security of its users, giving them greater control over their digital lives while offering compatibility with the apps they rely on. It’s a project that aims to set a high standard for mobile device security and privacy in an age where these concerns are paramount.
+In essence, GrapheneOS is all about providing an alternative mobile operating system that prioritizes the privacy and security of its users, giving them greater control over their digital lives while offering compatibility with the apps they rely on. It is a project that aims to set a high standard for mobile device security and privacy in an age where these concerns are paramount.
