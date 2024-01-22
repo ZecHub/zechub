@@ -5,8 +5,6 @@
 </a>
 
 
-Blockchain Privacy has been one of the most adopted system by most Web3 projects in world of Cryptocurrency and Blockchain Technology today. In today’s guide, we will be looking at an Interchain privacy protocol known as Namada Protocol which also cares about user privacy by making use of it Layer - 1 Proof-of-Stake for Interchain assets agnostic privacy
-
 ## What is Namada?
 
 Namada Protocol serves as a Layer 1 platform based on proof-of-stake consensus, designed to provide interchain asset-agnostic privacy. Through the Inter-Blockchain Communication (IBC) protocol, Namada seamlessly integrates with fast-finality chains, enabling smooth interoperability. Additionally, Namada establishes a trustless two-way bridge with Ethereum, facilitating secure and reliable communication between the two networks.
