@@ -1,12 +1,8 @@
-# INTRODUCTION
-
-From a bird's-eye view, it is clear that social media has a lot more in the bag to unravel. Yes! Since its inception, it has been a force to be reckon ed with. This article is centered on "secure messengers." From Telegram to Whatsapp to imessage, these messengers are empowering connectivity across the world. Prior to the blockchain technology, the entire world was already used to web1.0 and web2.0 - Just so you know, there has been a sudden surge of interest in web3.0. In web3.0, we believe in decentralization - users will have control over their data and private keys.
+# Secure Messengers
 
 ## End-to-end encryption
 
-Alright, let's reminisce! We know how daunting sending a message was in the early days; assume you want to send a secret letter to your friend but, you don't want anyone else to read it, not even the mailman that would deliver the message. That is where end-to-end encryption comes in - Simply put, End-to-end encryption is like locking the secret letter inside a magical box that only you and your friend have a private key for. Not even the mailman can have a peek at what the letter reads.
-
-In view of the secure messengers, end-to-end encryption exists to be a security method that keeps a conversation secured. As messages travel from one device to another, no one, including the communication application you're sending the message from, and third parties won't be able to read eligible messages. Additionally, many groundbreaking and prominent messaging service providers like Facebook, Whatsapp, and Zoom are already leveraging end-to-end encryption technology. Over the past few years, some of these providers have faced controversy with regard to the decision to adopt E2EE. With end-to-end encryption technology, messaging service providers won't be able to disclose user information from their services to authorities and essentially provide private messaging to individuals involved in illicit activities.
+In view of the secure messengers, end-to-end encryption exists to be a security method that keeps a conversation secured. As messages travel from one device to another, no one, including the communication application you're sending the message from, and third parties won't be able to read eligible messages. Additionally, many groundbreaking and prominent messaging service providers like Facebook, Whatsapp, and Zoom are already leveraging end-to-end encryption technology. 
 
 ## Reasons why E2EE is necessary?
 
@@ -27,30 +23,52 @@ Zcash Desktop & Mobile wallets have an in-built feature that allows users to sen
 
 Try it: https://z.cash/wallets 
 
-![](https://i.ibb.co/n8HbQZC/Zcash-1177103374.png)
+<a href="https://z.cash/wallets">
+    <img src="https://i.ibb.co/n8HbQZC/Zcash-1177103374.png" alt="" width="400" height="150"/>
+</a>
+
+____
 
 
 **Signal app**
 
-![](https://i.ibb.co/7RbbxSs/signal-app-logo-scaled-454032876.jpg)
+<a href="https://signal.org/download/">
+    <img src="https://i.ibb.co/7RbbxSs/signal-app-logo-scaled-454032876.jpg" alt="" width="200" height="140"/>
+</a>
+
 
 The Signal private messenger is a secure messaging app with data privacy at its peak. The Signal private messenger app is free and easy to use, users do not need any prior experience. The Signal app has an end-to-end encryption technology that ensures your communication is completely private. Anyone looking to send private messages securely should consider using the Signal private messenger app because it will exponentially reduce both your cybersecurity vulnerabilities and your data footprint.
 
+Try it: [https://signal.org/download](https://signal.org/download)
+
+____
+
 **BisonRelay**
 
-![](https://i.ibb.co/ZxpBVNv/ogimg-v1-1000556235.jpg)
+
+<a href="https://bisonrelay.org/download">
+    <img src="https://i.ibb.co/ZxpBVNv/ogimg-v1-1000556235.jpg" alt="" width="230" height="140"/>
+</a>
+
 
 The Bison Relay app made its debut in 2022. Bison Relay is not dependent on users having accounts - Insanely unbelievable! Here, every message that is sent and received is individually paid for over the Decred Lightning Network. The sole purpose of this app is to completely eliminate the need for accounts whilst minimizing metadata. On the other hand, Bison Relay put a stop to the way censorship is typically implemented. 
 
-Try it: https://bisonrelay.org/download
+Try it: [https://bisonrelay.org/download](https://bisonrelay.org/download)
+
+____
 
 
 **Session App**
 
-![](https://i.ibb.co/gdpwb1v/logo-black.png)
+
+<a href="https://getsession.org">
+    <img src="https://i.ibb.co/gdpwb1v/logo-black.png" alt="" width="150" height="160"/>
+</a>
 
 If you don't already know what Session app is, don't fret! Here is a glimpse, Session is one of the vying end-to-end encrypted messengers. The app was built to minimize sensitive metadata. The session app was designed for individuals who want absolute privacy, and freedom from any form of surveillance. On the Session app, users can create an account without phone numbers or email addresses which means it is completely anonymous. Users can send messages safely via their network without any trace so, there's nothing to leak.
 
-## In Summary
+Try it: [https://getsession.org](https://getsession.org)
+
+## Summary
 
 End-to-End encryption is important because it fosters robust privacy protection, reinforces data security to its core, and enables users to hand full control over their own information as they travel over networks and devices, thereby addressing critical concerns in the digital age.
