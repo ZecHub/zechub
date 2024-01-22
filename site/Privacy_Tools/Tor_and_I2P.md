@@ -38,15 +38,6 @@ Follow these instructions below to Connect Tor to Zcash Wallet *(Ywallet)*:
 
 *Note: If Tor is blocked by your mobile network, you may use a Bridge Server as an alternative way to connect.*
 
-![download Orbot](https://i.ibb.co/sbTLtGz/Download-Orbot.jpg/img)
-![Welcomemessage](https://i.ibb.co/7t7FVHB/Welcome-message.jpg/img)
-![OrbotHomePage](https://i.ibb.co/jkZDbq6/Orbotmainpage.jpg/img)
-![YwalletinTor](https://i.ibb.co/CQK6fST/Zcashywallet.jpg/img)
-![ConnectionRequest](https://i.ibb.co/zX7WhWM/Connection-Request.jpg/img)
-![Orbotisstarting](https://i.ibb.co/g4SrDWv/Orbotis-Starting.jpg/img)
-![ActiveconnectionbetweenYwallet&Tor](https://i.ibb.co/2qRp0xh/Ywallet-Tor.jpg/img)
-![Activeconnectionontaskbar](https://i.ibb.co/xDKFC7f/Activeconnection.jpg/img)
-![Bridges](https://i.ibb.co/CM8GjbC/Bridges.jpg/img)
 
 ## How to set up a Zcash wallet with Torbot on PC/Desktop
 

@@ -57,8 +57,8 @@ Here are some examples of 2FA Hardware available in the market.
 
 
 
-Manufactured by Yubico, co-developer of the FIDO U2F open authentication standard used by many security keys, the YubiKey 5 NFC is in safe hands to protect your devices. As its name suggests, it works using USB-A (or USB-C using an adapter) or NFC.
-It offers out-of-the-box compatibility with many services including Google Chrome, Facebook, Dropbox, LastPass, 1Password and more. The YubiKey 5 is compact, durable and lightweight - and it is even waterproof. 
+Manufactured by Yubico, co-developer of the FIDO U2F open authentication standard used by many security keys, the YubiKey 5 NFC is in safe hands to protect your devices. As its name suggests, it works using USB A (or USB C using an adapter) or NFC.
+It offers out of the box compatibility with many services including Google Chrome, Facebook, Dropbox, LastPass, 1Password and more. The YubiKey 5 is compact, durable and lightweight - and it is even waterproof. 
 You can configure the YubiKey as a second U2F factor without any problems by following the service instructions and inserting the key into the USB slot when prompted. Tapping or pressing the gold circle on the key will register your key, so the next time you log in, just enter the password, insert the key, and tap it.
 
 
@@ -71,7 +71,7 @@ You can configure the YubiKey as a second U2F factor without any problems by fol
 
 
 
-If you are looking for the best bang-for-buck in a security key, this model from Thetis should be on your list. There is no Bluetooth onboard (it is available on a more expensive model), and it only supports the FIDO U2F standard – so there’s no UAF or OTP compatibility. However, it will provide secure website access if you use Chrome or Opera as a browser on Windows, macOS, or Linux. 
+If you are looking for the best bang-for-buck in a security key, this model from Thetis should be on your list. There is no Bluetooth onboard (it is available on a more expensive model), and it only supports the FIDO U2F standard so there is no UAF or OTP compatibility. However, it will provide secure website access if you use Chrome or Opera as a browser on Windows, macOS, or Linux. 
 Handily, this affordable security key sports a compact folding design with a rotating aluminum casing that prevents the connector from being exposed to potential damage while transporting. It comes in three attractive colors. Black, Gold, and Silver. 
 The plastic casing feels sturdy and relatively durable, but you will want to avoid placing it with heavy objects in your bag. The hole punch on the key isn't large enough, so you'll have limited options for attaching keychains or lanyards.
 

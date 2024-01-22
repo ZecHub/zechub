@@ -7,19 +7,20 @@ There are many different PGP tools available, but some of the most popular ones 
 
 * [GPG](https://gpgtools.org/): GPG is a free and open-source PGP implementation that is available for Windows, macOS, and Linux.
 
-![1](https://github.com/ZecHub/zechub/assets/81990132/89689cb0-f4b4-490c-b381-bfcf54b7b269)
+
 
 * [PGPMail](https://www.openpgp.org/software/): PGPMail is a commercial PGP email client that is available for Windows and macOS. 
 
-
-![2](https://github.com/ZecHub/zechub/assets/81990132/834655b3-0f97-4b17-9994-5d8fb8d003f8)
 
 
 
 * [Mailvelope](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/): Mailvelope is a free and open-source PGP extension for Gmail and Thunderbird.
 
 
-![3](https://github.com/ZecHub/zechub/assets/81990132/44984a75-800a-4f7a-94a5-88827e39b431)
+<a href="">
+    <img src="https://github.com/ZecHub/zechub/assets/81990132/44984a75-800a-4f7a-94a5-88827e39b431" alt="" width="400" height="250"/>
+</a>
+
 
 
 ## How to Generate Keys
@@ -32,7 +33,10 @@ Choose the key length. The longer the key length, the more secure your keys will
 Click on the "Generate" button.
 Your PGP key pair will be generated.
 
-![4](https://github.com/ZecHub/zechub/assets/81990132/15721ce1-0a77-4ebe-87f4-33e1455f2a40)
+<a href="">
+    <img src="https://github.com/ZecHub/zechub/assets/81990132/15721ce1-0a77-4ebe-87f4-33e1455f2a40" alt="" width="400" height="250"/>
+</a>
+
 
 
 ## How to Use PGP for Email
@@ -40,7 +44,10 @@ Once you have generated a PGP key pair, you can use it to encrypt and decrypt em
 The encrypted email will be unreadable to anyone who does not have the recipient's private key. To decrypt the email, the recipient can use their private key to decrypt the email. 
 
 
-![5](https://github.com/ZecHub/zechub/assets/81990132/dafb761d-f399-40c9-9323-526ba3bd0bc4)
+<a href="">
+    <img src="https://github.com/ZecHub/zechub/assets/81990132/dafb761d-f399-40c9-9323-526ba3bd0bc4" alt="" width="400" height="250"/>
+</a>
+
 
 
 ## Best Practices
@@ -48,10 +55,17 @@ Here are some best practices for using PGP:
 
 * Keep your private key safe. The private key is the most important part of your PGP key pair. If someone gets your private key, they can decrypt any messages that have been encrypted with your public key.
 
-![6](https://github.com/ZecHub/zechub/assets/81990132/39a6fae4-a9a1-4061-a97c-4a9b975f6383)
+
+<a href="">
+    <img src="https://github.com/ZecHub/zechub/assets/81990132/39a6fae4-a9a1-4061-a97c-4a9b975f6383" alt="" width="400" height="220"/>
+</a>
 
 
-![7](https://github.com/ZecHub/zechub/assets/81990132/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd)
+
+<a href="">
+    <img src="https://github.com/ZecHub/zechub/assets/81990132/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd" alt="" width="400" height="220"/>
+</a>
+
 
 * Share your public key with people you trust. You can share your public key by sending it to them directly, or by uploading it to a PGP keyserver. 
 * Use strong passwords for your PGP keyring. Your PGP keyring is a file that stores your PGP keys. It is important to use a strong password to protect this file.
@@ -67,10 +81,15 @@ Here are some best practices for using PGP:
 * Click on the "Encrypt" button.
 * The email will be encrypted.
 
-![8](https://github.com/ZecHub/zechub/assets/81990132/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e)
+<a href="">
+    <img src="https://github.com/ZecHub/zechub/assets/81990132/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e" alt="" width="400" height=250"/>
+</a>
 
 
-![9](https://github.com/ZecHub/zechub/assets/81990132/da1499e9-fc87-46b2-93ed-28d43cf1fd86)
+<a href="">
+    <img src="https://github.com/ZecHub/zechub/assets/81990132/da1499e9-fc87-46b2-93ed-28d43cf1fd86" alt="" width="400" height="250"/>
+</a>
+
 
 
 ## How to decrypt an email with PGP
@@ -82,7 +101,10 @@ Here are some best practices for using PGP:
 * Click on the "Decrypt" button.
 * The email will be decrypted.
 
-![10](https://github.com/ZecHub/zechub/assets/81990132/beae714c-020f-4c1e-aa4f-3dd9430670cc)
+
+<a href="">
+    <img src="https://github.com/ZecHub/zechub/assets/81990132/beae714c-020f-4c1e-aa4f-3dd9430670cc" alt="" width="400" height="230"/>
+</a>
 
 
 
