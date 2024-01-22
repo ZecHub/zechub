@@ -71,7 +71,7 @@ You can configure the YubiKey as a second U2F factor without any problems by fol
 
 
 
-If you are looking for the best bang-for-buck in a security key, this model from Thetis should be on your list. There is no Bluetooth onboard (it is available on a more expensive model), and it only supports the FIDO U2F standard – so there’s no UAF or OTP compatibility. However, it will provide secure website access if you use Chrome or Opera as a browser on Windows, macOS, or Linux. 
+If you are looking for the best bang-for-buck in a security key, this model from Thetis should be on your list. There is no Bluetooth onboard (it is available on a more expensive model), and it only supports the FIDO U2F standard so there is no UAF or OTP compatibility. However, it will provide secure website access if you use Chrome or Opera as a browser on Windows, macOS, or Linux. 
 Handily, this affordable security key sports a compact folding design with a rotating aluminum casing that prevents the connector from being exposed to potential damage while transporting. It comes in three attractive colors. Black, Gold, and Silver. 
 The plastic casing feels sturdy and relatively durable, but you will want to avoid placing it with heavy objects in your bag. The hole punch on the key isn't large enough, so you'll have limited options for attaching keychains or lanyards.
 
