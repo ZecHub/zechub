@@ -1,10 +1,6 @@
-[Zcashblockexplorer](https://github.com/nighthawk-apps/zcash-explorer) is an open source [community funded grant](https://forum.zcashcommunity.com/t/zcash-block-explorer-grant/38141) with the goal to serve the needs of Zcash users who need a reliable source of their Zcash transactions data and the status of the network. This means anyone who runs a Zcash node could run their own blockchain explorer!
-
-
-
 # Blockchain Explorers
 
-## Intro
+## Introduction
 
 In the traditional business world every transaction includes a receipt for proof of purchase. Similarly, in the blockchain world a user receives a digital receipt in the form of a transaction id for every transaction completed. Most wallets will provide this for you. Blockchain explorers are simply tools that allow one to visualize what has already happened on a blockchain. They take for inputs: transaction id's, addresses, or block hashes, and visually output what took place.
 
