@@ -24,31 +24,41 @@ The VOD.Ninja interface is simple, just open the VDO.Ninja in your mobile device
 
 Start by going to [VDO.ninja](http://VDO.ninja) with your web browser on a desktop/laptop.
 
-![Screenshot 2023-08-23 162222.png](Community%20Broadcasting%20using%20VDO%20Ninja%20and%20OBS%20Stu%20fb45e527473240549baa12996510650d/Screenshot_2023-08-23_162222.png)
+<a href="">
+    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8ded1b54-602b-4e66-af92-127990eff723/Screenshot_2023-08-23_162222/w=3840,quality=80" alt="" width="300" height="400"/>
+</a>
+
 
 To create a new room and direct your own community call livestream, click Create a Room.
 
 The next screen will ask for basic information to setup your room.
 
-![Screenshot 2023-08-23 183900.png](Community%20Broadcasting%20using%20VDO%20Ninja%20and%20OBS%20Stu%20fb45e527473240549baa12996510650d/Screenshot_2023-08-23_183900.png)
+<a href="">
+    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ae698696-7b4d-458e-8de0-58a198c36e73/Screenshot_2023-08-23_183900/w=3840,quality=80" alt="" width="400" height="400"/>
+</a>
 
 Once a room is created, the director has a lot of control options available on the following screen.
 
-![Screenshot 2023-08-23 184015.png](Community%20Broadcasting%20using%20VDO%20Ninja%20and%20OBS%20Stu%20fb45e527473240549baa12996510650d/Screenshot_2023-08-23_184015.png)
+<a href="">
+    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/35b43544-5114-4e74-ac41-9e8993fe62ea/Screenshot_2023-08-23_184015/w=3840,quality=80" alt="" width="400" height="400"/>
+</a>
+
 
 When people join your room then you, the director, will see all of the source options and controls appear with their video and audio.
 
-![Screenshot 2023-08-23 194136.png](Community%20Broadcasting%20using%20VDO%20Ninja%20and%20OBS%20Stu%20fb45e527473240549baa12996510650d/Screenshot_2023-08-23_194136.png)
+<a href="">
+    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2247f187-b005-478e-9e5e-471cb8f070d3/Screenshot_2023-08-23_194136/w=3840,quality=80" alt="" width="400" height="300"/>
+</a>
+
 
 ## FAQ
 
 - What types of video graphic cards are required for OBS Studio ?
 
-You can use a personal computer with good graphic card and lots of memory or alternatively you can use a hardware encoders (Teradek VidiU) [https://www.bhphotovideo.com/c/product/1609186-REG/teradek_10_0235_vidiu_x_modem.html?gclid=EAIaIQobChMIl4aIo7zX_wIVDhqtBh0PgwhxEAAYAiAAEgInufD_BwE](https://www.bhphotovideo.com/c/product/1609186-REG/teradek_10_0235_vidiu_x_modem.html?gclid=EAIaIQobChMIl4aIo7zX_wIVDhqtBh0PgwhxEAAYAiAAEgInufD_BwE)
-
+You can use a personal computer with good graphic card and lots of memory or alternatively you can use a hardware encoders [Teradek VidiU](https://www.bhphotovideo.com/c/product/1609186-REG/teradek_10_0235_vidiu_x_modem.html?gclid=EAIaIQobChMIl4aIo7zX_wIVDhqtBh0PgwhxEAAYAiAAEgInufD_BwE)
 - Does OBS allow you to do live translation and captioning?
 
-There are some community contributed plugins that seems to be provide such a feature.     [https://github.com/eddieoz/OBS-live-translation](https://github.com/eddieoz/OBS-live-translation)
+There are some community contributed plugins that seems to be provide such a feature. [https://github.com/eddieoz/OBS-live-translation](https://github.com/eddieoz/OBS-live-translation)
 
 - Could you develop your own plugins for OBS Studio?
 
@@ -56,11 +66,11 @@ Yes,  OBS has support lua, python scripting. Also JavaScript for Overlays and we
 
 - Do we use live fade to black or transitions?
 
-That’s up to you, the producer!
+That is up to you, the producer!
 
 - Is there a latency when you are streaming?
 
-This depends mostly on the destination to where you are streaming. For example, YouTube might have a delay of a minute or more due to video processing that’s done on their servers before being broadcast.
+This depends mostly on the destination to where you are streaming. For example, YouTube might have a delay of a minute or more due to video processing that is done on their servers before being broadcast.
 
 - Audio drops when using OBS on slow machine and while doing green-screening
 
