@@ -11,7 +11,7 @@ Start but importing the final edit of your video into CapCut. Alternatively, you
 
 With the final video loaded in CapCut, use the [CapCut SRT Export](https://www.biyaoyun.com/capcutsrt) to get the subtitle file, with timestamps, from the CapCut project.
 
-Open the SRT file in a text editor and watch through the video, while reading along in the SRT file, making changes to the SRT file when errors are found. Use search and replace to “replace all” for each mistake.
+Open the SRT file in a text editor and watch through the video, while reading along in the SRT file, making changes to the SRT file when errors are found. Use search and replace to **replace all** for each mistake.
 
 Tip: Watch the video at 2x while checking the subs
 

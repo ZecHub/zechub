@@ -1,11 +1,11 @@
 # AI tools (local, offline)
 
 <aside>
-💡 Still writing and building here.
+*Still writing and building here...*
 
 </aside>
 
-# Image generating
+### Image generating
 
 Where to download models for image generation? 
 On [**HuggingFace**](https://huggingface.co/models?pipeline_tag=text-to-image&sort=trending) and [**Civitai](https://civitai.com/)** are a lot of different models.
@@ -20,7 +20,7 @@ Nvida GPUs work the best.
 - [NMKD Stable Diffusion GUI](https://nmkd.itch.io/t2i-gui)
 - [EasyDiffusion 3.0](https://github.com/easydiffusion/easydiffusion)
 
-## Mac OS - download custom models
+### Mac OS - download custom models
 
 - [Draw Things: AI Generation](https://apps.apple.com/ee/app/draw-things-ai-generation/id6444050820) from AppStore - free
 (Can use many different StableDiffusion models)
@@ -28,17 +28,17 @@ Nvida GPUs work the best.
 (Can use many different StableDiffusion models)
 - [InvokeAI](https://invoke-ai.github.io/InvokeAI/) (requires 4GB GPU memory)
 
-## Linux - download custom models
+### Linux - download custom models
 
 - [InvokeAI](https://invoke-ai.github.io/InvokeAI/) (requires 4GB GPU memory)
 
-# Text generating
+## Text generating
 
-## Windows - download custom models
+### Windows - download custom models
 
 - [GPT4All](https://gpt4all.io/index.html) (min 8gb RAM required)
 
-## Mac OS - download custom models
+### Mac OS - download custom models
 
 - [GPT4All](https://gpt4all.io/index.html) - (works quite fast on M1 macs, depending on GPT model used)
 

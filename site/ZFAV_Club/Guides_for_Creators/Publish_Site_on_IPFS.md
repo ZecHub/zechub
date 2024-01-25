@@ -1,6 +1,10 @@
 # Publish a Site on IPFS
 
-![https://blog.desdelinux.net/wp-content/uploads/2020/04/IPFS-.jpg](https://blog.desdelinux.net/wp-content/uploads/2020/04/IPFS-.jpg)
+<a href="">
+    <img src="https://blog.desdelinux.net/wp-content/uploads/2020/04/IPFS-.jpg" alt="" width="800" height="400"/>
+</a>
+
+
 
 ## Introduction to IPFS
 
@@ -34,19 +38,22 @@ Download and install IPFS from the [Official website](https://docs.ipfs.tech/ins
 
 ### Initialise IPFS:
 
-If you’re using the Desktop Application you will not have to initialise.
+If you are using the Desktop Application you will not have to initialise.
 
-Using a Terminal or command prompt, Run command: ipfs init .
+Using a Terminal or command prompt, Run command: ipfs init
 
 ### **Add Site Folder to IPFS**:
 
 Select the folder with your website files and navigate to the Add Folder option.
 
-![https://i.ibb.co/ZHW4zsY/ipfs-site-folder.png](https://i.ibb.co/ZHW4zsY/ipfs-site-folder.png)
+
+<a href="">
+    <img src="https://i.ibb.co/ZHW4zsY/ipfs-site-folder.png" alt="" width="400" height="200"/>
+</a>
 
 –
 
-If using Terminal, Run command: ipfs add -r “folder_name” to add the entire folder recursively to IPFS.
+If using Terminal, Run command: ipfs add -r folder_name to add the entire folder recursively to IPFS.
 
 ### Pin Site on IPFS:
 
@@ -54,9 +61,9 @@ Once your website files are added to IPFS, you need to **pin** them to ensure th
 
 –
 
-If using Terminal, Run command: If using Terminal, Run command: ipfs pin add “hash”
+If using Terminal, Run command: If using Terminal, Run command: ipfs pin add **hash**
 
-“hash” = CID of the folder you added in the previous step.
+**hash** = CID of the folder you added in the previous step.
 
 Alternatively, you are also able to pin directories using services such as [Pinata](https://pinata.cloud/) or [Dolpin](https://dolpin.io/)
 
@@ -66,21 +73,28 @@ It saves a lot of time!
 
 ### Access your website on IPFS:
 
-Your website is now published on IPFS and can be accessed using the hash of the folder. To access your website, you can visit https://ipfs.io/ipfs/“hash”
+Your website is now published on IPFS and can be accessed using the hash of the folder. To access your website, you can visit https://ipfs.io/ipfs/**hash**
 
-“hash” = CID of the folder.
+**hash** = CID of the folder.
 
-In our case the CID = “QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3”
+In our case the CID = QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3
 
 ## IPNS
 
-Interplanetary Naming System (IPNS) allows you to update the IPFS CID’s associated with your website and still serve a static link. It is provided as a key.
+Interplanetary Naming System (IPNS) allows you to update the IPFS CIDs associated with your website and still serve a static link. It is provided as a key.
 
-![https://dnslink.io/assets/dns-query.a0134a75.png](https://dnslink.io/assets/dns-query.a0134a75.png)
+
+<a href="">
+    <img src="https://dnslink.io/assets/dns-query.a0134a75.png" alt="" width="400" height="100"/>
+</a>
+
 
 In the settings menu for your site folder on IPFS desktop application select Publish to IPNS.
 
-![https://i.ibb.co/Ch25dKf/IPNS.png](https://i.ibb.co/Ch25dKf/IPNS.png)
+<a href="">
+    <img src="https://i.ibb.co/Ch25dKf/IPNS.png" alt="" width="400" height="200"/>
+</a>
+
 
 Key: “k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n”
 
@@ -90,9 +104,13 @@ It can also be used to view our site via a gateway: https://ipfs.io/ipns/k51qzi5
 
 The site has been created, now we need a way to point a URL to the content.
 
-If you already own a web address you are able to add a new record using the TXT record "_dnslink(your domain)". Depending on provider it may auto populate.
+If you already own a web address you are able to add a new record using the TXT record _dnslink(your domain). Depending on provider it may auto populate.
 
-![https://i.ibb.co/MgRxBHj/example.png](https://i.ibb.co/MgRxBHj/example.png)
+
+<a href="">
+    <img src="https://i.ibb.co/MgRxBHj/example.png" alt="" width="400" height="100"/>
+</a>
+
 
 It will take time to propagate through the network before you can view it.
 
