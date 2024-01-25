@@ -2,7 +2,7 @@
 
 Here is a list to make life easier. How to use them is another thing.
 
-Writing the best prompts has a learning curve. It’s possible to master basics pretty fast.
+Writing the best prompts has a learning curve. It is possible to master basics pretty fast.
 
 ## Text generating/ Assistants
 
