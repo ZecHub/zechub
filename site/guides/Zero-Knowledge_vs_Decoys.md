@@ -1,12 +1,15 @@
-
-
-## Introduction
+# Zero Knowledge vs Decoy based Systems
 
 "Cryptocurrency exposes all your spending activities to the public since it's just like a twitter to your Bank account and this is a great issue that must be solved by adopting on chain privacy." - Ian Miers at [Devcon4](https://youtube.com/watch?v=9s3EbSKDA3o&feature=share9).
 
 Certain crypto projects have gained recognition for their privacy-centric approaches. Zcash is renowned for employing Zero Knowledge Proofs (ZK) to protect transaction amounts and addresses. Monero stands out for its utilization of a Decoy-based sender obfuscation in combination with other encryption schemes to attain user privacy on the blockchain.
 
-![](https://user-images.githubusercontent.com/38798812/257773807-af8ae27d-0805-4a60-a5ba-749e2fea2490.png)
+
+<a href="">
+    <img src="https://user-images.githubusercontent.com/38798812/257773807-af8ae27d-0805-4a60-a5ba-749e2fea2490.png" alt="" width="400" height="300"/>
+</a>
+
+
 ## Understanding ZK Proofs and Decoy Based Systems
 
 Zero Knowledge Proofs are cryptographic systems that allow one party (the prover) to demonstrate to another party (the verifier) the validity of a statement without revealing *any underlying information about the statement itself*. In the context of Zcash, ZK proofs are employed to verify the validity of a transaction without disclosing transaction details such as the SENDER, RECEIVER or transaction AMOUNT. 
@@ -29,7 +32,12 @@ Here are some advantages of Zcash's zero-knowledge proofs (ZK) over Monero's dec
 1) **Selective Disclosure**: With Zcash ZK feature set, users have the option to reveal transaction details to specific parties [Read ECC Blog on Selective Disclosure](https://electriccoin.co/blog/viewing-keys-selective-disclosure/). In Zcash, shielded transactions' encrypted contents allow individuals to selectively reveal data from a particular transfer. Additionally, a viewing key can be provided to disclose all transactions associated with a specific shielded address. This feature allows for regulatory compliance and auditability without compromising the overall privacy of the network. 
 
 While Monero's decoy algorithm (ring signature) helps in providing privacy, it does not offer *selective* disclosure in the same way.
-![](https://user-images.githubusercontent.com/38798812/257793324-2dcc6047-300e-4fa7-a28d-2e6cbbadf1df.png)
+
+
+<a href="">
+    <img src="https://user-images.githubusercontent.com/38798812/257793324-2dcc6047-300e-4fa7-a28d-2e6cbbadf1df.png" alt="" width="400" height="80"/>
+</a>
+
 
 2) **Optional Visibility**: Zcash allows users to choose between transparent (non-private) and shielded (private) transactions. This connotes that Zcash offers users the flexibility to either keep their financial information private (shielded) or make it transparent and publicly available similar to most other blockchains as explained on [Zcash official website](https://z.cash/learn/what-is-the-difference-between-shielded-and-transparent-zcash/). This opt-in privacy allows for greater flexibility and business/organisational relevant use cases, as some transactions may require less privacy for public scrutiny, while others benefit from enhanced privacy.
 
@@ -47,7 +55,11 @@ There are a number of instances in which bugs have been identified in Monero's d
 
 In summary what really matters the most is to reduce or eliminate the leak of user information and data as explained by Zooko at the [Orchid (priv8) AMA live session](https://youtube.com/watch?v=XpRzKqEfpP4&feature=share9) 
 
-![](https://user-images.githubusercontent.com/38798812/257788813-509f1139-7daa-4f95-bbb4-c535641962f6.png)
+
+<a href="">
+    <img src="https://user-images.githubusercontent.com/38798812/257788813-509f1139-7daa-4f95-bbb4-c535641962f6.png" alt="" width="400" height="200"/>
+</a>
+
 
 ____
 
