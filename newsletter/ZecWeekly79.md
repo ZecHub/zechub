@@ -1,7 +1,7 @@
 ###ZecWeekly 79
 
 
-Zebra 1.5.2 Release, Zcash-Avalanche Elastic Subnet Bridge, Zcash Pursues Maya Protocol Integration, Zcash introduces Blockchain Scanning. 
+Nate Wilcox leaves ECC, Zcash Pursues Maya Protocol Integration, Zcash introduces Blockchain Scanning. 
 
  
 
