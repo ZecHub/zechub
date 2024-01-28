@@ -59,8 +59,6 @@ Here's the video link:
 
 [Airdrop season? Protocols offer $700M in token airdrops over a week](https://cointelegraph.com/news/airdrop-season-protocols-offer-700m-token-airdrops-altlayer)
 
-[How to Farm the Drift Protocol Airdrop on Solana](https://decrypt.co/214157/how-farm-drift-protocol-airdrop-solana)
-
 [Ethereum Developers Set Timeline for Final ‘Dencun’ Testnet Upgrades](https://www.coindesk.com/tech/2024/01/25/ethereum-developers-set-timeline-for-final-dencun-testnet-upgrades/?utm_medium=referral&utm_source=rss&utm_campaign=headlines)
 
 ### Tweets about Zcash
