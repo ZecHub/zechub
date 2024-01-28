@@ -30,11 +30,6 @@ Here's the video link:
 
 [Introducing Blockchain Scanning with Zebra](https://zfnd.org/introducing-blockchain-scanning-with-zebra/)
 
-
-#### Zcash Community Grants Updates.
-
-[Zebra 1.5.2 Release & Introducing Blockchain Scanning with Zebra](https://zfnd.org/zebra-1-5-2-release/)
-
 [ Zcash Arborist Call Update - 25/01/2024](https://www.youtube.com/watch?v=wREfP2QAFCc)
 
 [Serious consideration of changing the 21M cap](https://forum.zcashcommunity.com/t/serious-consideration-of-changing-the-21m-cap/46649)
