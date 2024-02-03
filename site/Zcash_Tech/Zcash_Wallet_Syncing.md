@@ -21,7 +21,9 @@ Warp sync can process thousands of blocks per second, much faster than the usual
 
 Aside from this **step skipping** technique, YWallet is also capable of processing various blocks at the same time, distributing the load on your available hardware making the process even faster.
 
-## Spend-before-sync
+Read More on [Warp Sync](https://ywallet.app/warp/)
+
+### Spend-before-sync
 Spend-before-sync is a new feature implemented in Zcash Mobile Wallet SDK V2, that allows users to instantly spend funds upon opening their wallet, without having to wait for a full wallet synchronization. This feature speeds up discovering the wallet spendable balance and improves the user experience.
 
 Spend-before-sync works by using a compact blocks synchronization algorithm that processes blocks from the lightwalletd server in non-linear order, this means that instead of waiting for a block to be processed before moving to the other, wallets can now use a bit more memory and processing power to scan different sections of the blockchain. Usually it will scan in different ranges, looking for newer transactions at the same time the older blocks are downloaded and processed. If a recent, unspent note is discovered, it will be made available inmediately.
