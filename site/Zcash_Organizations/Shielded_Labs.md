@@ -1,4 +1,5 @@
-# Shielded Labs 
+# <img src="https://i.ibb.co/B31jLSb/image-2024-02-03-170120205.png" alt="Alt Text" width="50"/>    Shielded Labs
+
 
 Shielded Labs was founded as a Swiss Association in December 2022, and has no affiliation with Zcash Community Grants (ZCG) and has no plans to apply for ZCG funding.
 
