@@ -7,8 +7,8 @@ Wallets allow you to receive and spend Zcash. Different wallets offer unique fea
 
 ### [Mobile Wallets](/site/Using_Zcash/Wallets/Mobile_Wallets)
 
-<a href="/site/Using_Zcash/Wallets/Mobile_Wallets">
-    <img src="https://i.ibb.co/xjDWdyn/Mobile-Phones.png" alt="" width="200" height="250"/>
+<a href="Using_Zcash/Wallets/Mobile_Wallets">
+    <img src="https://i.ibb.co/RCJ1TyF/Mobile-Phones.png" alt="" width="300" height="450"/>
 </a>
 
 <aside>
@@ -20,8 +20,8 @@ Mobile wallets allow you to access your Zcash anywhere and on the go.
 
 ### [Desktop Wallets](/site/Using_Zcash/Wallets/Desktop_Wallets)
 
-<a href="/site/Using_Zcash/Wallets/Desktop_Wallets">
-    <img src="https://i.ibb.co/D1YLnTy/Desktop-Wallets-1.png" alt="" width="200" height="230"/>
+<a href="Using_Zcash/Wallets/Desktop_Wallets">
+    <img src="hhttps://i.ibb.co/dr0b9K0/Desktop-Wallets.png" alt="" width="200" height="230"/>
 </a>
 
 <aside>
@@ -32,8 +32,8 @@ Desktop wallets are downloadable applications that provide access to Zcash from 
 
 ### [Hardware Wallets](/site/Using_Zcash/Wallets/Hardware_Wallets)
 
-<a href="/site/Using_Zcash/Wallets/Hardware_Wallets">
-    <img src="https://i.ibb.co/ZKkdBWf/Hardware-Wallets.png" alt="" width="200" height="200"/>
+<a href="Using_Zcash/Wallets/Hardware_Wallets">
+    <img src="https://i.ibb.co/4Yn6Svg/Hardware-Wallets.png" alt="" width="200" height="200"/>
 </a>
 
 <aside>
@@ -45,8 +45,8 @@ Hardware wallets stores your Zcash securely offline physical device.
 
 ### [Web Wallets](/site/Using_Zcash/Wallets/Web_Wallets)
 
-<a href="/site/Using_Zcash/Wallets/Web_Wallets">
-    <img src="https://i.ibb.co/GQkK2VY/Web-Wallets.png" alt="" width="200" height="270"/>
+<a href="Using_Zcash/Wallets/Web_Wallets">
+    <img src="https://i.ibb.co/b5WZhkX/Web-Wallets.png" alt="" width="200" height="290"/>
 </a>
 
 <aside>
@@ -58,8 +58,8 @@ Web wallets are wallets that you can access from your browser. They give a users
 
 ### [Full Node Wallets](/site/Using_Zcash/Wallets/Full_Node_Wallets)
 
-<a href="/site/Using_Zcash/Wallets/Full_Node_Wallets">
-    <img src="https://i.ibb.co/QnTnfxh/Full-Node-Wallets.png" alt="" width="200" height="200"/>
+<a href="Using_Zcash/Wallets/Full_Node_Wallets">
+    <img src="https://i.ibb.co/HxKf5Qv/Full-Node-Wallets.png" alt="" width="200" height="200"/>
 </a>
 
 <aside>
