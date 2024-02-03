@@ -1,4 +1,4 @@
-# Non-Custodial Exchanges that list Zcash
+# <img src="https://i.ibb.co/bmS65xV/image-2024-02-03-173258092.png" alt="Alt Text" width="50"/>   Zcash Non-Custodial Exchanges
 
 ---
 
@@ -110,7 +110,7 @@ ___
 ### [AtomicDEX](https://app.atomicdex.io/#/dex)
 
 <a href="https://app.atomicdex.io/#/dex">
-    <img src="https://github.com/ManyRios/zechub/assets/34518489/2a71fced-8524-4344-b231-7982806bb435" alt="" width="70" height="70"/>
+    <img src="https://github.com/ManyRios/zechub/assets/34518489/2a71fced-8524-4344-b231-7982806bb435" alt="" width="50" height="50"/>
 </a>
 
 - Website: [AtomicDEX](https://app.atomicdex.io/#/dex)
