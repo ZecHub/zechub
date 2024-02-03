@@ -2,13 +2,13 @@
 
 ### How Zcash syncing works
 
-To understand how warp sync works, let me explain a bit more about Zcash and Ycash. These are privacy-oriented cryptocurrencies that use a technology called zero-knowledge proofs to shield the details of transactions from anyone who is not authorized to see them. This means that the transactions recorded on the blockchain are encrypted or hidden, and only the sender and receiver can decrypt them with their private keys.
+To understand how warp sync works, let me explain a bit more about Zcash. It is a privacy-oriented cryptocurrencies that use a technology called zero-knowledge proofs to shield the details of transactions from anyone who is not authorized to see them. This means that the transactions recorded on the blockchain are encrypted or hidden, and only the sender and receiver can decrypt them with their private keys.
 
 However, this also poses a challenge for light wallets, which are applications that do not store the entire blockchain data on the device, but rely on a server to provide them with the necessary information. With non-privacy coins, such as Bitcoin or Ethereum, the server can easily index the blockchain and keep a database of every account. When a light wallet asks for its specific account data, the server can quickly return it.
 
 But with  Zcash, the server cannot do that, because it cannot see the details of the transactions. So how can a light wallet synchronize its account balance and transaction history without downloading and decrypting the entire blockchain data itself?
 
-Zcash solves this problem by using a mixed approach. It has a specialized server called lightwalletd that filters the data from a full zcashd node and keeps only the data needed for transaction identification. This data is called compact blocks, and it is much smaller than the original blocks. Light wallets only have to download these compact blocks from the lightwalletd server, and then decrypt them themselves with their private keys.
+Zcash solves this problem by using a mixed approach. It has a specialized server called lightwalletd that filters the data from a full node and keeps only the data needed for transaction identification. This data is called compact blocks, and it is much smaller than the original blocks. Light wallets only have to download these compact blocks from the lightwalletd server, and then decrypt them themselves with their private keys.
 
 However, even decrypting and processing these compact blocks can take a significant amount of time, especially if there are many transactions in each block. So every wallet has its own alternative method to speed up the syncronization process so you can use your funds as soon as possible.
 
