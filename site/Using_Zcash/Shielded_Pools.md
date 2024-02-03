@@ -1,11 +1,11 @@
-# Zcash Value Pools
+# Zcash Value Pools 
 
 There are 4 [value pools](https://zcash.readthedocs.io/en/latest/rtd_pages/addresses.html) in Zcash. Sprout, Sapling, Orchard and Transparent. 
 
 
 ## Shielded Pools
 
-### Orchard 
+![Zcash Orchard](https://i.ibb.co/tZ9zVVx/image-2024-02-03-172700611.png)
 
 The Orchard Shielded Pool was launched on the 31st of May, 2022. Orchard addresses are also known as Unified Addresses (UA). 
 
@@ -20,7 +20,7 @@ Transactions within Orchard will improve the reduction of transaction metadata &
 [Zcash Shielded wallets](/site/Using_Zcash/Wallets) now support Orchard. 
 
 
-### Sapling 
+![Sapling](https://i.ibb.co/5c5Wp1G/image-2024-02-03-172752332.png)
 
 [Zcash Sapling](https://z.cash/upgrade/sapling) was an upgrade to the Zcash protocol introduced on 28th of October, 2018. It is a major improvement over the earlier version of the known as Sprout which had some limitations in terms of privacy, efficiency and usability. 
 
@@ -44,7 +44,7 @@ The Zcash Transparent are mostly used by centralized exchanges to ensure there's
 It's also important to note that while Zcash Shielded addresses provides high privacy during transactions, they also require more computational resources to process transactions. Therefore, some users may adopt Transparent addresses for transactions which doesn't require the same level of privacy.
 
 
-### Sprout (deprecated)
+![Sprout](https://i.ibb.co/7StKLRT/image-2024-02-03-172822692.png)
 
 Sprout was the first ever open permissionless Zero Knowledge privacy protocol ever launched. It was launched on the 28th of October, 2016.
 
