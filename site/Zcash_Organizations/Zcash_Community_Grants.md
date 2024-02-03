@@ -1,4 +1,4 @@
-# Zcash Community Grants
+# <img src="https://i.ibb.co/870wzGW/image-2024-02-03-165944364.png" alt="Alt Text" width="50"/>  Zcash Community Grants
 
 ## Mission Statement
 
