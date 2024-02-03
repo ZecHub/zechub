@@ -1,4 +1,4 @@
-# Electric Coin Company
+# <img src="https://i.ibb.co/2MghCyb/image-2024-02-03-164918723.png" alt="Alt Text" width="50"/>    Electric Coin Company
 
 ## Mission Statement
 

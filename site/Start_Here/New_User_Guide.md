@@ -1,4 +1,4 @@
-# Zcash new user guide
+# Zcash New User Guide
 
 New to Zcash? This guide will walk you through getting onboarded as a Zcash user and ZEC holder.
 
