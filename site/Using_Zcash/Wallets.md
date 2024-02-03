@@ -21,7 +21,7 @@ Mobile wallets allow you to access your Zcash anywhere and on the go.
 ### [Desktop Wallets](/site/Using_Zcash/Wallets/Desktop_Wallets)
 
 <a href="Using_Zcash/Wallets/Desktop_Wallets">
-    <img src="hhttps://i.ibb.co/dr0b9K0/Desktop-Wallets.png" alt="" width="200" height="230"/>
+    <img src="https://i.ibb.co/dr0b9K0/Desktop-Wallets.png" alt="" width="200" height="230"/>
 </a>
 
 <aside>
