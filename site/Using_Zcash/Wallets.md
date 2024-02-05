@@ -20,7 +20,7 @@ Mobile wallets allow you to access your Zcash anywhere and on the go.
 
 ### [Desktop Wallets](/Wallets/Desktop_Wallets)
 
-<a href="/Wallets/Desktop_Wallets">
+<a href="Wallets/Desktop_Wallets">
     <img src="https://i.ibb.co/dr0b9K0/Desktop-Wallets.png" alt="" width="200" height="230"/>
 </a>
 
@@ -32,7 +32,7 @@ Desktop wallets are downloadable applications that provide access to Zcash from 
 
 ### [Hardware Wallets](/Wallets/Hardware_Wallets)
 
-<a href="/Wallets/Hardware_Wallets">
+<a href="Wallets/Hardware_Wallets">
     <img src="https://i.ibb.co/4Yn6Svg/Hardware-Wallets.png" alt="" width="200" height="200"/>
 </a>
 
@@ -45,7 +45,7 @@ Hardware wallets stores your Zcash securely offline physical device.
 
 ### [Web Wallets](/Wallets/Web_Wallets)
 
-<a href="/Wallets/Web_Wallets">
+<a href="Wallets/Web_Wallets">
     <img src="https://i.ibb.co/b5WZhkX/Web-Wallets.png" alt="" width="200" height="290"/>
 </a>
 
@@ -56,9 +56,9 @@ Web wallets are wallets that you can access from your browser. They give a users
 
 ---
 
-### [Full Node Wallets](/Using_Zcash/Wallets/Full_Node_Wallets)
+### [Full Node Wallets](/Wallets/Full_Node_Wallets)
 
-<a href="Using_Zcash/Wallets/Full_Node_Wallets">
+<a href="Wallets/Full_Node_Wallets">
     <img src="https://i.ibb.co/HxKf5Qv/Full-Node-Wallets.png" alt="" width="200" height="200"/>
 </a>
 
