@@ -1,4 +1,3 @@
-**INTRODUCTION**
 One of the most intriguing aspects of Decentralized Autonomous Organizations (DAOs) is that they allow their community members to participate in their decision-making processes. Many of these organizations have their own governance platforms while a few of them leverage voting tools like Snapshot.
 But, hey! Our very own Zcash is no different.
 
