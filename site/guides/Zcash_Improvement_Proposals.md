@@ -21,26 +21,25 @@ For every ZIP that comes in, it must undergo the review process, such as checkin
 * Aditya Bharadwaj, associated with Nighthawk Apps.
 
 ## Notable Current Draft ZIPs
-- Draft: [Transarent Zcash Extensions](https://github.com/zcash/zips/blob/main/zip-0222.rst)
+- Draft: [Transarent Zcash Extensions](https://github.com/zcash/zips/blob/main/zip-0222)
 
-- Draft: [Transfer and Burn of Zcash Shielded Assets](https://github.com/zcash/zips/blob/main/zip-0226.rst)
+- Draft: [Transfer and Burn of Zcash Shielded Assets](https://github.com/zcash/zips/blob/main/zip-0226)
 
-- Draft: [Issuance of Zcash Shielded Assets](https://github.com/zcash/zips/blob/main/zip-0227.rst)
+- Draft: [Issuance of Zcash Shielded Assets](https://github.com/zcash/zips/blob/main/zip-0227)
 
-- Draft: [Version 6 Transaction Format](https://github.com/zcash/zips/blob/main/zip-0230.rst)
+- Draft: [Version 6 Transaction Format](https://github.com/zcash/zips/blob/main/zip-0230)
 
-- Draft: [Transaction Identifier Digests & Signature Validation for Transparent Zcash Extensions](https://github.com/zcash/zips/blob/main/zip-0245.rst)
+- Draft: [Transaction Identifier Digests & Signature Validation for Transparent Zcash Extensions](https://github.com/zcash/zips/blob/main/zip-0245)
 
-- Draft: [Standardized Memo Field Format](https://github.com/zcash/zips/blob/main/zip-0302.rst)
+- Draft: [Standardized Memo Field Format](https://github.com/zcash/zips/blob/main/zip-0302)
 
-- Draft: [Sapling Address Signatures](https://github.com/zcash/zips/blob/main/zip-0304.rst)
+- Draft: [Sapling Address Signatures](https://github.com/zcash/zips/blob/main/zip-0304)
 
-- Draft: [Light Client Protocol for Payment Detection](https://github.com/zcash/zips/blob/main/zip-0307.rst)
+- Draft: [Light Client Protocol for Payment Detection](https://github.com/zcash/zips/blob/main/zip-0307.)
 
-- Draft: [Security Properties of Sapling Viewing Keys](https://github.com/zcash/zips/blob/main/zip-0310.rst)
+- Draft: [Security Properties of Sapling Viewing Keys](https://github.com/zcash/zips/blob/main/zip-0310)
 
-- Draft: [Defining an Address Type to which funds can only be sent from Transparent Addresses](https://github.com/zcash/zips/blob/main/zip-0320.rst)
+- Draft: [Defining an Address Type to which funds can only be sent from Transparent Addresses](https://github.com/zcash/zips/blob/main/zip-0320)
 
-- Draft: [Wallet.dat format](https://github.com/zcash/zips/blob/main/zip-0400.rst)
+- Draft: [Wallet.dat format](https://github.com/zcash/zips/blob/main/zip-0400)
 
-- Draft: [{Something Short and To the Point}](https://github.com/zcash/zips/blob/main/zip-guide.rst)
