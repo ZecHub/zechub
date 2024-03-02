@@ -1,28 +1,28 @@
-###ZecWeekly 84
+# ZecWeekly 84
 
 ECC March Roadmap, Update on Potential Binance Delisting of $ZEC, Shielded Asset Protocol (ZSA), ZecHub Proposal 2024. Arborist Call #71  Update, Brave & Zcash Brasil Talks Privacy. 
 
-###Curated by
+Curated by "TonyAkins"[TonyAkins01](https://twitter.com/TonyAkins01)
 
-"TonyAkins"[TonyAkin01](https://twitter.com/TonyAkins01)
-
-###Welcome to ZecWeekly Episode 81
+## Welcome to ZecWeekly
 
 Hey Zcashers! Welcome to another exciting edition of our own community newsletter edition. It has been a green week as the bullish season approaches.
 
 We will explore various news about $ZEC potential delisting on Binance, Arborist call discussions, news innovation from ZSA( Zcash Shielded Asset) to other use cases of shielded $ZEC on major crypto platforms. 
 
-###This Week's Education Pieces.
+#### This Week's Education Piece
 
 Zcash Ecosystem has witnessed  huge updates lately, with new innovations. Let's broaden our scope on Zcash Shielded Asset Protocol. 
 
 Zcash is a cryptocurrency that uses zero-knowledge proofs to provide privacy for transactions. The Shielded Asset Protocol is an extension of Zcash that allows for the creation of new assets on the Zcash blockchain. These assets can be used to represent a variety of things, such as loyalty points or stablecoins.
 
-[Here's a video link that explore this deeply](https://www.youtube.com/watch?v=RcHwLaFyzQQ)
+https://www.youtube.com/watch?v=RcHwLaFyzQQ
 
-### Zcash Update
 
-###Zcash and ECC Updates
+
+# Zcash Update
+
+## Zcash and ECC Updates
 
 [Josh Swihart drops ECC update for March 1, Roadmap Edition](https://forum.zcashcommunity.com/t/ecc-update-for-march-1-roadmap-edition/46963)
 
@@ -32,7 +32,7 @@ Zcash is a cryptocurrency that uses zero-knowledge proofs to provide privacy for
 
 [Arborist Call #71 Update](https://t.co/0K6mvVkrt0)
 
-###Zcash Community Grants Updates.
+## Zcash Community Grants Updates
 
 [ZecHub: Proposal 2024](https://forum.zcashcommunity.com/t/zechub-proposal-2024/46077/32)
 
@@ -43,7 +43,7 @@ Zcash is a cryptocurrency that uses zero-knowledge proofs to provide privacy for
 [Zingo Wallet Adopters hangout in Caracas! Open your first crypto wallet.](https://twitter.com/ZingoLabs/status/1763714731594879174)
 
 
-###Community Projects
+## Community Projects
 
 [Community Call on YWallet 1.5 Q&A](https://www.youtube.com/live/zViCDgMZEFM?si=up9tl_XJyTaAxil3)
 
@@ -56,7 +56,7 @@ Zcash is a cryptocurrency that uses zero-knowledge proofs to provide privacy for
 [Brave & Zcash Brasil Collaborate](https://free2z.cash/ZcashBR/zpage/zcash-and-brave-brasil)
 
 
-### News and Media
+## News and Media
 
 [SEC's Hester Peirce Says Regulator's Approach to Crypto Has Been ’Strange’](https://decrypt.co/219959?p=219959)
 
@@ -68,28 +68,21 @@ Zcash is a cryptocurrency that uses zero-knowledge proofs to provide privacy for
 
 [US Government Now Owns $12 Billion Worth of Bitcoin—Here's Why](https://decrypt.co/219720/us-government-owns-12-billion-worth-bitcoin-heres-why)
 
-
 [What the Bitcoin halving means for BTC mining centralization](https://cointelegraph.com/news/bitcoin-halving-btc-mining-centralization)
-
-[OKX adds Uniswap API on DEX, launches gas-free trading](https://cointelegraph.com/news/okx-dex-uniswap-gas-free-trading-wallet)
 
 [Are privacy tokens under attack? Aleph Zero co-founder explains](https://cointelegraph.com/news/privacy-tokens-under-attack-aleph-zero)
 
 [Nigeria denies report of $10 billion Binance fine](https://cointelegraph.com/news/nigeria-denies-report-of-10-billion-binance-fine)
 
-[Sam Bankman-Fried Doesn't Want to Go to Prison for 100 Years](https://www.coindesk.com/policy/2024/02/28/sam-bankman-fried-doesnt-want-to-go-to-prison-for-100-years/?utm_medium=referral&utm_source=rss&utm_campaign=headlines)
 
 
-
-
-###Tweets about Zcash
+## Tweets about Zcash
 
 [Stay Private! Happy New Month!](https://twitter.com/zcashesp/status/1763564861383143731)
 
 [Zcash Accurately Described 24 years by the greatest radio show host](https://twitter.com/zksquirrel/status/1762513742426669210)
 
 [Zcash’ rebirth and a season of dominance here already! Don't miss it.](https://twitter.com/cryptobink/status/1762909190287450158)
-
 
 [Purchase Gift cards on Coinbase using Shielded $ZEC](https://twitter.com/ZecHub/status/1761993899931816012)
 
@@ -109,10 +102,9 @@ Zcash is a cryptocurrency that uses zero-knowledge proofs to provide privacy for
 
 
 
-###Zeme of the week
+### Zeme of the week
 
 [https://twitter.com/Tchareto/status/1760328483002048894](https://twitter.com/Tchareto/status/1760328483002048894)
-
 
 [https://twitter.com/euro_vieira/status/1763231691403829744](https://twitter.com/euro_vieira/status/1763231691403829744)
 
