@@ -40,6 +40,8 @@ Trust that we’ve got some amazing, exclusive perks in the pipeline for NFT hol
 - 72% of supply (7,200 NFTs) will be released to the public using a novel whitelisting mechanism that requires using a Zcash wallet supporting encrypted memos (more details below).
 - 24% of supply (2,400 NFTs) will be held by ECC in the Cypherpunk Reserve, for use in future initiatives that advance Zcash and privacy within the Web3 space.
 
+<iframe src="https://blocksurvey.io/copy-of-cypherpunk-v2-whitelist-KgRTgcGRTLePbNqIKRRuMA?v=o" style="width:100%; height:50vh;" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
 ## Resources
 
 [Cypherpunk Zero Website](https://halo.electriccoin.co/)
