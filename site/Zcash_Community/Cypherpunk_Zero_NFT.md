@@ -13,9 +13,9 @@ The NFT community, mostly active on Twitter, has even created a [decentralized o
 
 ## Anti-roadmap Roadmap
 
-We’ve seen too many projects over-promise and under-deliver on their NFT roadmaps. As such, there is no formal roadmap.
+We have seen too many projects over-promise and under deliver on their NFT roadmaps. As such, there is no formal roadmap.
 
-Trust that we’ve got some amazing, exclusive perks in the pipeline for NFT holders—some expected, some unexpected. Buckle up and join us for the ride.
+Trust that we have got some amazing, exclusive perks in the pipeline for NFT holders some expected, some unexpected. Buckle up and join us for the ride.
 
 ## Governance
 
@@ -36,7 +36,7 @@ Trust that we’ve got some amazing, exclusive perks in the pipeline for NFT hol
 ## What are the token allocations?
 
 *Total supply*: 10,000 unique generative NFTs on Ethereum Mainnet
-- 4% of supply (the first 400 NFTs) was airdropped to the project’s early supporters who purchased the Zcash X Mighty Jaxx: Cypherpunk Zero Genesis Edition Toy 59.
+- 4% of supply (the first 400 NFTs) was airdropped to the projects early supporters who purchased the Zcash X Mighty Jaxx: Cypherpunk Zero Genesis Edition Toy 59.
 - 72% of supply (7,200 NFTs) will be released to the public using a novel whitelisting mechanism that requires using a Zcash wallet supporting encrypted memos (more details below).
 - 24% of supply (2,400 NFTs) will be held by ECC in the Cypherpunk Reserve, for use in future initiatives that advance Zcash and privacy within the Web3 space.
 
