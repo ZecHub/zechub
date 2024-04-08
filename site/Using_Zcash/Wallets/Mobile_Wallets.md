@@ -147,3 +147,21 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 | Synchronizer | Multi Coin |
 
 </aside>
+
+----
+
+<a href="https://electriccoin.co/zashi/">
+    <img src="https://i.ibb.co/NyjCPrX/zashi.png" alt="zashi" width="150" height="100"/>
+</a>
+
+<aside>
+
+### [Zashi](https://electriccoin.co/zashi/)
+
+#### Pools
+| Transparent | Sapling | Orchard |
+
+#### Features
+| Synchronizer | Unified Address | Shielded Memo |
+
+</aside>
