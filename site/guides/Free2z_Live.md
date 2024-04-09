@@ -110,7 +110,7 @@ To subscribe to a page, all you need to do is click on the subscribe icon on the
     <img src="https://i.ibb.co/k5Hbdfr/subscribe-to-creator.png" alt="" width="300" height="100"/>
 </a
 
-You will see the minimum amount for subscribing Verify if you have enough 2Zs and click subscribe.
+You will see the minimum amount for subscribing Verify if you have enough tuzis and click subscribe.
 
 <a href="">
     <img src="https://i.ibb.co/8j4p73J/confirm-subscribe.png" alt="" width="300" height="100"/>
@@ -130,7 +130,7 @@ Or, from inside a post, look for the floating plus button. From here, you can do
 </a
 
 
-## Free2z Live
+## Live Streaming
 The Free2z platform offers an awesome feature called Free2z Live. With this tool, creators can start live streams for subscribed members. Some key features of Free2z Live include:
 - Audio and video
 - Screen sharing
