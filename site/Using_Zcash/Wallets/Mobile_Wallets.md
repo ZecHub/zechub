@@ -35,7 +35,7 @@ Synchronizer | Unified Address | Shielded Memo
 Transparent | Sapling | Orchard 
 
 #### Features
-| WarpSync | Shielded Memo | Automatic Shielding | Unified Address |
+WarpSync | Shielded Memo | Automatic Shielding | Unified Address 
 
 </aside>
 
