@@ -6,6 +6,23 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 
 ---
 
+<a href="https://electriccoin.co/zashi/">
+    <img src="https://i.ibb.co/NyjCPrX/zashi.png" alt="zashi" width="150" height="100"/>
+</a>
+
+<aside>
+
+### [Zashi](https://electriccoin.co/zashi/)
+
+#### Pools
+Transparent | Sapling 
+
+#### Features
+Synchronizer | Unified Address | Shielded Memo 
+
+</aside>
+
+---
 <a href="https://ywallet.app/installation/">
     <img src="https://i.ibb.co/r6gPvFw/ywalletcard.png" alt="" width="150" height="100"/>
 </a>
@@ -15,7 +32,7 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ### [Ywallet](https://ywallet.app/installation/)
 
 #### Pools
-| Transparent | Sapling | Orchard |
+Transparent | Sapling | Orchard 
 
 #### Features
 | WarpSync | Shielded Memo | Automatic Shielding | Unified Address |
@@ -33,10 +50,10 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ### [Zingo!](https://play.google.com/store/apps/details?id=org.ZingoLabs.Zingo)
 
 #### Pools
-| Transparent | Sapling | Orchard |
+Transparent | Sapling | Orchard 
   
 #### Features
-| BlazeSync | Shielded Memo | Live Sync Dashboard | Unified Address |
+BlazeSync | Shielded Memo | Live Sync Dashboard | Unified Address 
 
 </aside>
 
@@ -51,10 +68,10 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ### [Nighthawk](https://nighthawkwallet.com)
 
 #### Pools
-| Transparent | Sapling |
+Transparent | Sapling 
   
 #### Features
-| Synchronizer | Shielded Memo | Automatic Shielding | Unified Address |
+Synchronizer | Shielded Memo | Automatic Shielding | Unified Address 
 
 </aside>
 
@@ -69,10 +86,10 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ### [Edge](https://edge.app)
 
 #### Pools
-| Transparent | Sapling |
+Transparent | Sapling 
   
 #### Features
-| Synchronizer | Multi Coin | Unified Address |
+Synchronizer | Multi Coin | Unified Address 
 
 </aside>
 
@@ -87,10 +104,10 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ### [Unstoppable](https://unstoppable.money)
     
 #### Pools
-| Transparent | Sapling |
+Transparent | Sapling 
 
 #### Features
-| Synchronizer | Multi Coin | Unified Address |
+Synchronizer | Multi Coin | Unified Address 
 
 </aside>
 
@@ -104,10 +121,10 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ### [Exodus](https://www.exodus.com/download/)
 
 #### Pools
-| Transparent |
+Transparent 
 
 #### Features
-| Synchronizer | Multi Coin |
+Synchronizer | Multi Coin 
 
 </aside>
 
@@ -123,10 +140,10 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ### [Coinomi](https://www.coinomi.com/en/downloads)
 
 #### Pools
-| Transparent |
+Transparent 
 
 #### Features
-| Synchronizer | Multi Coin |
+Synchronizer | Multi Coin 
 
 </aside>
 
@@ -141,27 +158,11 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ### [Safepal](https://safepal.com)
 
 #### Pools
-| Transparent | 
+Transparent 
 
 #### Features
-| Synchronizer | Multi Coin |
+Synchronizer | Multi Coin 
 
 </aside>
 
 ----
-
-<a href="https://electriccoin.co/zashi/">
-    <img src="https://i.ibb.co/NyjCPrX/zashi.png" alt="zashi" width="150" height="100"/>
-</a>
-
-<aside>
-
-### [Zashi](https://electriccoin.co/zashi/)
-
-#### Pools
-| Transparent | Sapling | Orchard |
-
-#### Features
-| Synchronizer | Unified Address | Shielded Memo |
-
-</aside>
