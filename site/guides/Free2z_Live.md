@@ -108,26 +108,26 @@ To subscribe to a page, all you need to do is click on the subscribe icon on the
 
 <a href="">
     <img src="https://i.ibb.co/k5Hbdfr/subscribe-to-creator.png" alt="" width="300" height="100"/>
-</a
+</a>
 
-You will see the minimum amount for subscribing Verify if you have enough tuzis and click subscribe.
+You will see the minimum amount for subscribing Verify if you have enough tuzis and click subscribe
 
 <a href="">
     <img src="https://i.ibb.co/8j4p73J/confirm-subscribe.png" alt="" width="300" height="100"/>
-</a
+</a>
 
 ### Donate using 2zs or Zcash.
 You can donate directly on their page, by clicking the Fund creator icon. 
 
 <a href="">
     <img src="https://i.ibb.co/xCz5X92/fund-creator.png" alt="" width="200" height="70"/>
-</a
+</a>
 
 Or, from inside a post, look for the floating plus button. From here, you can donate to the creator or promote the post on Free2Z.
 
 <a href="">
     <img src="https://i.ibb.co/Rzs7ST1/post-floating-buttons.png" alt="" width="90" height="200"/>
-</a
+</a>
 
 
 ## Live Streaming
