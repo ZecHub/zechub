@@ -7,7 +7,7 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ---
 
 <a href="https://electriccoin.co/zashi/">
-    <img src="https://i.ibb.co/NyjCPrX/zashi.png" alt="zashi" width="150" height="100"/>
+    <img src="https://i.ibb.co/wQjbhgH/492x0w.webp" alt="zashi" width="150" height="100"/>
 </a>
 
 <aside>
