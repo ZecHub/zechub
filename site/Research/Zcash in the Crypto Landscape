@@ -1,0 +1,65 @@
+The Need for Privacy in Blockchain Transactions: Zcash Pioneering Role in Enhancing Privacy
+
+TL;DR:
+This article talks about the revolutionary impact of privacy in blockchain transactions and how Zcash is pioneering and pushing forward the boundaries of private transactions. It also features discussions centered around zk-SNARKs, a novel technology that Zcash uses to make private transactions. This piece also sighted some key implications of transparent and shielded blockchain transactions, and how this centric coin has open-sourced its technology to a wider landscape. Enjoy your reading!
+
+![Zcash role in privacy enhancement ](https://drive.google.com/file/d/14p9_epBc8O5l31f4nAXv5Z5lO68EUlUA/view?usp=drive_link)
+
+Zcash role in privacy enhancement 
+Since the inception of blockchain technology, it has piqued the interest of many individuals across borders, it is revolutionizing the landscape of transactions, data record keeping, and storage. Decentralization and transparency is one of its core principles. However, the main strengths that make blockchain revolutionary also present challenges, notably in combating fraud, money laundering, and much more!
+
+Notable questions within the crypto landscape
+Will cryptocurrencies be a risky investment due to their volatile nature? One major problem delaying the widespread adoption of crypto-based transactions is because of its irreversible nature which can be problematic if something goes wrong. Momentarily, ![Losing access to your wallet](https://www.quora.com/What-are-some-of-the-biggest-problems-with-cryptocurrency-adoption-for-countries-and-how-can-they-be-solved?top_ans=1477743710267431) is a nightmare you wouldn’t want to get involved with; anyone looking to hold any crypto must keep multiple backups of their wallet's private keys or recovery phrases in secure locations. 
+Just so you know, many governments are working tirelessly to capitalize on the technology that powers cryptocurrencies by investing in their own digital currencies - Insanely unbelievable!
+
+Transparent and shielded blockchain transactions
+![Transparent and Shielded Blockchain Transactions](https://drive.google.com/file/d/1GYxuvhIa1S2ZwHKZUd-qPIUVWlqyZoqP/view)
+Anytime you make transactions with a transparent blockchain e.g. Ethereum or Solana, you’re revealing an individual’s data such as account balances, wallet address, spending habits, and more! On the other hand, a shielded blockchain transaction offers users the flexibility to choose when and how to reveal the transactions; transaction details like the sender, receipt, and amount can be verified as valid without revealing them on-chain.
+
+Limitations of transparent blockchain
+By revealing transaction details such as the sender, recipient, amount, and timestamp, it ensures trust among participants in the network. Following that, a transparent blockchain allows anyone to verify transactions without relying on centralized entities - this helps to eliminate the risk of fraud or manipulation within the network. Speaking of eliminating risks and fraud within blockchain networks, ![Arkham](https://www.arkhamintelligence.com/announcements/arkham-intel-exchange) is one of the AI-powered tools that systematically analyzes and deanonymizes blockchain transactions, unveiling the people and companies behind the crypto activity. Another organization that explores suspicious activity like money laundering, tracing of stolen funds, and illicit payments is ![CipherTrace](https://ciphertrace.com/).
+
+Limitations of shielded blockchain
+Shielded blockchain transactions allow for the hiding of sensitive details, and private transactions help to reduce the risk of financial fraud, identifying theft, and targeted attacks. As great as they come, privacy transactions provide a full-fledged degree of privacy compared to transparent transactions. They typically hide sensitive transaction details like the sender, recipient, timestamp, and transaction amount from the public view, thus ensuring financial privacy. In that same light, ![Christopher Goes](https://x.com/cwgoes/status/1775897996540170714?s=46&t=x0IHBx8NWn05gX8UvSlxlQ), took to his Twitter to announce that Zcash is the only privacy coin he uses nowadays due to its privacy-preserving nature.
+![Screenshot of a Shielded tx](https://drive.google.com/file/d/1bkQ6ggJ38D2_ZfNsve-xB6ptnMJiCifn/view?usp=drive_link)
+
+The effects of MEV smart contract chains
+Miner Extractable Value (MEV) is like an invisible tax that comes at the expense of regular users. On blockchains, some few entities run nodes called validators - validators are responsible for verifying transactions on-chain. In a transparent blockchain like Solana, 30% of validators control 33% of the network stake and could theoretically collude to halt the network. Solana’s MEV landscape is still in its infancy; the most common forms of MEV extraction are done via arbitrage, liquidations, and NFT minting.
+
+EVM has some diverse effects on Solana, spam has plagued Solana and potentially caused numerous outages which has also led to several network outages in the past. On Solana, block production occurs every 400ms, searchers must compete over latency rather than fees, reading this state first means being the one to successfully execute a profitable trade. 
+
+Tornado cash in the news
+It is worth mentioning that while the Tornado Cash smart contract, owing its existence to the Ethereum blockchain, enhances privacy, it does not provide complete anonymity. Tornado Cash works under the proof-of-stake (PoS) consensus mechanism. Unlike shielded blockchains, transparent Layer 1 chains will always be vulnerable to state censorship. In the block validator censorship side of things, government and centralized bodies can impose restrictions on exchanges, and mining pools, operators could also be pressured by the government to restrict certain transactions on the blockchain. Tornado Cash enables users to perform private transactions by mixing their Ethereum cryptos with others.  Due to its potential use in facilitating money laundering, and illicit activities, Tornado was sanctioned by the US Department of the Treasury's Office of Foreign Assets Control (OFAC). While Tornado Cash is enhancing financial confidentiality,  the application can still be exploited for illicit activities. 
+
+How Zcash is pioneering zero-knowledge cryptography?
+Zcash is one of the most prominent and groundbreaking privacy-centric coins that mankind has ever witnessed. Over the last couple of years, this remarkable crypto has offered the crypto ecosystem with enhanced privacy features; more so, it is at the forefront of privacy, with Zcash privacy technology, individuals can transact anonymously while leveraging shielded addresses. Another cornerstone benefit of this centric coin is that it doesn’t display any metadata on-chain.
+
+The entire world is shifting its focus to Zcash, the privacy coins zk-SNARKs mechanism to facilitate and protect transactions. ![Zk-SNARKs is a cutting-edge technology at the heart of Zcash’s privacy feature](https://fastercapital.com/topics/the-future-of-online-payments-with-zcash.html) - the admittance of zk-SNARKs in Zcash has cemented the way for innovative and prominent privacy solutions in the cryptocurrency ecosystem.
+
+How Zcash has open-sourced its tech to the broader landscape:
+zero-knowledge proof cryptography is creating a new era of paradigm shift; this has been the crypto’s driving force since it was birthed in the ecosystem, enabling the cryptocurrency to break boundaries and to offer seamless open-source technology to the broader landscape for beneficial financial services.
+
+Zcash Shielded Assets
+ZSA is still in development, however, ZSA will enable users to transact on-chain in a privacy-preserving manner. Unlike other blockchains where users would have to perform some series of complex actions to make their transactions private, ZSA offers privacy by design, privacy is user-friendly and accessible - Yes! It has been seamlessly integrated into the Zcash blockchain.
+
+Projects that are leveraging Zcash technology
+![Projects that are leveraging Zcash technology](https://drive.google.com/file/d/1GYxuvhIa1S2ZwHKZUd-qPIUVWlqyZoqP/view) 
+
+Many projects are beginning to see the potential Zcash holds - here are a few privacy projects that are already leveraging Zcash technology:
+
+Namada: A new privacy-oriented blockchain that leverages Zcash technology, ![Namada](https://namada.net/) works under the same concept as Zcash - zero-knowledge proofs (ZK-proofs), a type of cryptography that verifies transactions without revealing the sender, receiver, or the transaction amount.
+
+Nym: Nym is another privacy project that recently ![joined forces with Zcash](https://www.newsbtc.com/analysis/zec/zcash-to-enhance-user-protection-with-privacy-focused-partnership/amp/) to close the gap of data leakage and enhance data confidentiality. Nym seems to leverage the privacy-preserving infrastructure of Zcash to provide end-to-end protection for users.
+
+Brave Browser: Brave exists to protect your privacy as you surf the web. ![Brave is one of the privacy projects that formed an alliance with Zcash to integrate Zcash protocol into the browser’s built-in crypto wallet](https://brave.com/blog/web3-privacy), this build will enable users to securely store, send, and receive ZEC alongside other cryptocurrencies.
+
+J.P Morgan: J.P Morgan is one of the leading global financial services, from asset management to investment banking to financial transaction processing. However, the need for financial privacy has become increasingly urgent, so they’re ![ntegrating the Zcash Zero-knowledge Security Layer into their system](https://www.forbes.com/sites/laurashin/2017/05/22/jpmorgan-chase-to-integrate-zcash-technology-to-its-enterprise-blockchain-platform/amp/) - Quorum, to enhance the next generation of financial services.
+
+Conclusion:
+I am thrilled to share this piece with crypto enthusiasts, if you weren’t exploring financial privacy I’m sure you’d do already! Zcash's privacy protocol is a novel technology that plays a pivotal role and also provides valuable resources for new privacy projects that envision incorporating high levels of privacy features into their systems. One of the most intriguing functionalities of ZSA is that it supports a wide range of assets from private Bitcoins to stable currencies, governance tokens, and non-fungible tokens (NFTs). Transactions on the Zcash network are tamper-proof because none of the organizations involved in the creation of the network can interfere with the asset.
+
+Sources:
+![ntroducing Zcash Shielded Asset Protocol](https://youtu.be/RcHwLaFyzQQ?si=N-96dRSmPJ2llc7n)
+https://brave.com/blog/web3-privacy
+![The crypto questions and the future of money](https://www.cfr.org/backgrounder/crypto-question-bitcoin-digital-dollars-and-future-money)
+
