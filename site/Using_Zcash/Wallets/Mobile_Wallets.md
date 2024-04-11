@@ -3,8 +3,8 @@
 Mobile wallets allow you to use Zcash anywhere and on the go
 
 [Learn about the different types of Zcash pools](/site/guides/Using_Zcash/Shielded_Pools)
----
 
+---
 <a href="https://electriccoin.co/zashi/">
     <img src="https://i.ibb.co/HgsHnpN/zashiwallet.png" alt="zashi" width="150" height="100"/>
 </a>
