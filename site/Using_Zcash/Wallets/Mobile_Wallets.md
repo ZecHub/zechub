@@ -6,8 +6,26 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 
 ---
 
+<a href="https://trustwallet.com/download">
+    <img src="https://i.ibb.co/cNqxBJ1/trustwallet.png" alt="" width="150" height="100"/>
+</a>
+
+<aside>
+    
+### [Trust Wallet](https://trustwallet.com/download)
+
+#### Pools
+Transparent
+
+#### Features
+Multi Coin
+
+</aside>
+
+---
+
 <a href="https://electriccoin.co/zashi/">
-    <img src="https://i.ibb.co/nn0nB6c/zashi-logo.png" alt="zashi" width="150" height="100"/>
+    <img src="https://i.ibb.co/HgsHnpN/zashiwallet.png" alt="zashi" width="150" height="100"/>
 </a>
 
 <aside>
@@ -23,6 +41,7 @@ Synchronizer | Unified Address | Shielded Memo
 </aside>
 
 ---
+
 <a href="https://ywallet.app/installation/">
     <img src="https://i.ibb.co/r6gPvFw/ywalletcard.png" alt="" width="150" height="100"/>
 </a>
