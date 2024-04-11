@@ -2,8 +2,7 @@
 
 Mobile wallets allow you to use Zcash anywhere and on the go
 
-Learn more about the different types of Zcash pools [<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/square-arrow-up-right.svg" alt="arrow" width="18" height="18"/>](/site/guides/Using_Zcash/Shielded_Pools)
-
+[Learn about the different types of Zcash pools](/site/guides/Using_Zcash/Shielded_Pools)
 ---
 
 <a href="https://electriccoin.co/zashi/">
@@ -18,7 +17,7 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 Transparent | Sapling 
 
 #### Features
-Synchronizer | Unified Address | Shielded Memo 
+Spend before Sync | Unified Address | Shielded Memo 
 
 </aside>
 
@@ -72,7 +71,7 @@ BlazeSync | Shielded Memo | Live Sync Dashboard | Unified Address
 Transparent | Sapling 
   
 #### Features
-Synchronizer | Shielded Memo | Automatic Shielding | Unified Address 
+Spend before Sync | Shielded Memo | Automatic Shielding | Unified Address 
 
 </aside>
 
@@ -90,7 +89,7 @@ Synchronizer | Shielded Memo | Automatic Shielding | Unified Address
 Transparent | Sapling 
   
 #### Features
-Synchronizer | Multi Coin | Unified Address 
+Spend before Sync | Multi Coin | Unified Address | Shielded memo
 
 </aside>
 
@@ -108,7 +107,7 @@ Synchronizer | Multi Coin | Unified Address
 Transparent | Sapling 
 
 #### Features
-Synchronizer | Multi Coin | Unified Address 
+Spend before Sync | Multi Coin | Unified Address 
 
 </aside>
 
@@ -143,7 +142,7 @@ Multi Coin
 Transparent 
 
 #### Features
-Synchronizer | Multi Coin 
+Multi Coin 
 
 </aside>
 
@@ -162,7 +161,7 @@ Synchronizer | Multi Coin
 Transparent 
 
 #### Features
-Synchronizer | Multi Coin 
+Multi Coin 
 
 </aside>
 
@@ -180,7 +179,7 @@ Synchronizer | Multi Coin
 Transparent 
 
 #### Features
-Synchronizer | Multi Coin 
+Multi Coin 
 
 </aside>
 
