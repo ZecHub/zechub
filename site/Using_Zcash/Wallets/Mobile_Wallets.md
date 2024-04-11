@@ -18,14 +18,14 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 Transparent
 
 #### Features
-Synchronizer | Multi Coin
+Multi Coin
 
 </aside>
 
 ---
 
 <a href="https://electriccoin.co/zashi/">
-    <img src="https://i.ibb.co/nn0nB6c/zashi-logo.png" alt="zashi" width="150" height="100"/>
+    <img src="https://i.ibb.co/HgsHnpN/zashiwallet.png" alt="zashi" width="150" height="100"/>
 </a>
 
 <aside>
