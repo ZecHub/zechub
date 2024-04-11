@@ -6,24 +6,6 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 
 ---
 
-<a href="https://trustwallet.com/download">
-    <img src="https://i.ibb.co/cNqxBJ1/trustwallet.png" alt="" width="150" height="100"/>
-</a>
-
-<aside>
-    
-### [Trust Wallet](https://trustwallet.com/download)
-
-#### Pools
-Transparent
-
-#### Features
-Multi Coin
-
-</aside>
-
----
-
 <a href="https://electriccoin.co/zashi/">
     <img src="https://i.ibb.co/HgsHnpN/zashiwallet.png" alt="zashi" width="150" height="100"/>
 </a>
@@ -127,6 +109,24 @@ Transparent | Sapling
 
 #### Features
 Synchronizer | Multi Coin | Unified Address 
+
+</aside>
+
+---
+
+<a href="https://trustwallet.com/download">
+    <img src="https://i.ibb.co/cNqxBJ1/trustwallet.png" alt="" width="150" height="100"/>
+</a>
+
+<aside>
+    
+### [Trust Wallet](https://trustwallet.com/download)
+
+#### Pools
+Transparent
+
+#### Features
+Multi Coin
 
 </aside>
 
