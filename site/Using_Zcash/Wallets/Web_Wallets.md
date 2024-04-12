@@ -13,13 +13,13 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 
 <aside>
     
-### [Brave (in-development)](https://brave.com/web3-privacy/)
+### [Brave](https://brave.com/web3-privacy/)
 
 #### Pools
-| Orchard |
+Transparent | Orchard (in-development)
 
 #### Features
-| Spend before Sync | Shielded Memo | Automatic Shielding | Unified Address |
+Spend before Sync | Shielded Memo | Automatic Shielding | Unified Address | Secure File Transfer
 
 </aside>
 
