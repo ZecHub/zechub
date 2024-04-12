@@ -1,4 +1,5 @@
 # Podcasts
+Want to learn more about the Zcash ecosystem? Here's a list of podcasts you can follow:
 
 <ul class="podcast-list">
 <li><a href="https://zechub.notion.site/Zcast-Podcast-26031a2e953b4f73ba475af17e5b9c20?pvs=25"><img class="podcast-img" src="https://zechub.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc5e5e7d2-f2f7-4db7-815c-adba35a6bb78%2Fzcast.jpg?table=block&amp;id=26031a2e-953b-4f73-ba47-5af17e5b9c20&amp;spaceId=38cc715a-cc23-4f85-9429-2b9e6dd2c3b9&amp;width=40&amp;userId=&amp;cache=v2" alt="" />Zcast Podcast</a></li>
@@ -10,4 +11,5 @@
 <li><a href="https://zechub.notion.site/ZL-DR-e3cb81f65554478ba1c169b412237672?pvs=25"><img class="podcast-img" src="https://notion-emojis.s3-us-west-2.amazonaws.com/prod/svg-twitter/1f4fa.svg" alt="" width="40" height="41" />ZL;DR</a></li>
 </ul>
 
+Are we missing a good podcast? Contact us on [Discord](https://discord.gg/zcash) and we'll add it to the list.
 
