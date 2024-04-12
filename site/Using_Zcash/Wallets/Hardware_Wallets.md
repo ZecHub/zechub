@@ -15,7 +15,7 @@ Learn more about the different types of Zcash pools [<img src="https://raw.githu
 ### [Ledger](https://www.ledger.com/coin/wallet/zcash)
 
 #### Pools
-| Transparent | Sapling |
+| Transparent | Sapling (coming soon)|
 
 #### Features
 | Synchronizer | Multi Coin |
