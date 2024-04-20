@@ -14,7 +14,7 @@ Follow installation instructions provided [here](https://docs.ipfs.tech/install/
 
 In this example we use Linux, other OS versions are available.
 
-Check installation was successful using “ipfs –version”
+Check installation was successful using   ipfs –version
 
 ## Clone Repository
 
@@ -56,7 +56,7 @@ Brilliant! Now your repository is uploaded to the network.
 
 You should now be able to retrieve the GitHub repository using:
 
-git clone http://ipfs.io/ipfs/“yourCID”
+git clone http://ipfs.io/ipfs/yourCID
 
 Alternatively you are able to search & retrieve using your local IPFS node.
 
