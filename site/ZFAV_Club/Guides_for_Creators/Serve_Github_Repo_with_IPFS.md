@@ -6,7 +6,7 @@ In this guide we learn how to create a git cloneable URL for your GitHub reposit
 
 This is useful to ensure content availability regardless of geographic region, censorship resistance and as a persistent backup of valuable information!
 
-Note: Data uploaded to IPFS is available to *all* network users. You may wish to locally encrypt personal/sensitive data.
+Note: Data uploaded to IPFS is available to all network users. You may wish to locally encrypt personal/sensitive data.
 
 ## Install IPFS Kubo
 
@@ -28,21 +28,21 @@ Now, to get it ready to be cloned via IPFS.
 
 cd zechub git update-server-info
 
-Unpack Git’s objects:
+Unpack Gits objects:
 
-mv objects/pack/*.pack . git unpack-objects <* .pack rm -f *.pack objects/pack/*
+![](https://i.ibb.co/25RwyWz/image-2024-04-20-175848513.png)
 
 Doing this will allow IPFS to deduplicate objects if you update the Git repository later on.
 
 ## Add to IPFS
 
-Once you’ve done that, that repository is ready to be served. All that’s left to do is to add it to IPFS:
+Once you have done that, that repository is ready to be served. All that is left to do is to add it to IPFS:
 
 $ pwd
 
 /code/myrepo
 
-$ ipfs add -r .
+$ ipfs add -r 
 
 ![https://i.ibb.co/LJgK1q3/Screenshot-from-2023-05-20-14-22-38.png](https://i.ibb.co/LJgK1q3/Screenshot-from-2023-05-20-14-22-38.png)
 
