@@ -9,16 +9,12 @@ Curated by ([Gorga Siagian](https://twitter.com/GianGorga))
 
 ##  Welcome to ZecWeekly
 
-Welcome to ZecWeekly, today we take another walk around the Zcash ecosystem latest news, with a new weekly ECC update, Arborist Call Update, and Dedicated Arborist Call. We'll also learn  Coin Voting using Proof of Balance. Don't forget to tell your Zcash Story to My First Zcash e-book.
+Welcome to ZecWeekly, today we take another walk around the Zcash ecosystem latest news, with a new weekly ECC update, Arborist Call Update, and Dedicated Arborist Call. We'll also learn about Coin Voting using Proof of Balance. 
 
 ### This week's Education Piece 
-This week's education piece will discuss the future of the zcash government and some of the toiyang that Free2Z organized along with GGguy. Interested? Let's check it out!
+Do you think your financial relationship with your bank is private? That the institution you trust your money to has your data covered? In this week's educational piece Naomi Brockwell unveils the truth about bank privacy and how everything you do with your account is being watched by 3rd parties.
 
-[The Future of the Zcash Government and Some Other ](https://free2z.com/free2z/zpage/2024-04-15-free2z-live-with-gguy)
-
-This week's Education piece talks about ZSAs, Sustainabillity Fund, zcashd depreciation, NU6, NU7, Gauging Community Sentiment, NU5 Retro. Interested in taking a look? Check it out below! 
-
-https://www.youtube.com/watch?v=C_S5e2WNIe8&t=37s
+[https://www.youtube.com/watch?v=C0CyuDEuLsE](https://www.youtube.com/watch?v=C0CyuDEuLsE)
 
 
 ## Zcash Updates
@@ -37,16 +33,23 @@ https://www.youtube.com/watch?v=C_S5e2WNIe8&t=37s
 - [Zebra 1.6.1 Release](https://zfnd.org/zebra-1-6-1-release/)
 - [Zcash Español: Halving of Bitcoin: reward reduction and the dark side of Fiat](https://zcashesp.com/halving-de-bitcoin-reduccion-de-la-recompensa-y-el-lado-oscuro-del-fiat/)
 - [Arborist Call to discuss NU6 and NU7](https://forum.zcashcommunity.com/t/arborist-call-to-discuss-nu6-and-nu7/47428/14)
-- [Zingo Spanyol: Masterclass: Expand your online payment options ](https://www.youtube.com/watch?v=VZVKSn1KuNk)
-- [Hanh tells us about Coin Voting use Proof of Balance](https://www.youtube.com/watch?v=hBU3uBIzDfU)
+- [Zingo en Español - Masterclass: Expand your online payment options ](https://www.youtube.com/watch?v=VZVKSn1KuNk)
+- [Hanh tells us about Coin Voting using Proof of Balance](https://www.youtube.com/watch?v=hBU3uBIzDfU)
+- [Free2Z Live talks with GGuy about the future of Zcash governance and other interesting topics](https://free2z.cash/free2z/zpage/2024-04-15-free2z-live-with-gguy)
 
 ### News & Media
 - [Bitcoin halving 2024 — Done and dusted! - Coin Telegraph](https://cointelegraph.com/news/bitcoin-halving-2024-completion-confirmed) 
 - [Google Searches for 'Bitcoin Halving' Get Higher Than 4/20 - Coindesk](https://www.coindesk.com/consensus-magazine/2024/04/19/google-searches-for-bitcoin-halving-get-higher-than-420/?_gl=1*9an8a3*_up*MQ..*_ga*MTY1MzQ5MjMzNy4xNzEzNjEzNDE2*_ga_VM3STRYVN8*MTcxMzYxMzQxNi4xLjAuMTcxMzYxMzQxNi4wLjAuMTAwMTQwNzQ1Mg..) 
 - [The Runes protocol will ignite a new season for Bitcoin after the halving  - Coin Telegraph](https://cointelegraph.com/news/runes-protocol-ignite-new-season-bitcoin-after-halving)
--  [Tether announces restructuring to go beyond stablecoins - CoinTelegraph](https://cointelegraph.com/news/tether-restructuring-go-beyond-stablecoin)
+-  [Tether announces restructuring to go beyond stablecoins - Coin Telegraph](https://cointelegraph.com/news/tether-restructuring-go-beyond-stablecoin)
 -  [The Week in Polkadot: Gavin Wood Unveils ‘Major Upgrade’ JAM at Token2049 - Decrypt.co](https://decrypt.co/227221/the-week-in-polkadot-gavin-wood-unveils-major-upgrade-jam-at-token2049)
 -  [Meta Pushes AI Chatbot Into Instagram, Facebook, WhatsApp - Decrypt.co](https://decrypt.co/227119/meta-ai-assistant-chatbot-instagram-facebook-whatsapp-llama-3)
+-  [IRS Releases Draft of 2025 Digital Asset Reporting Form for US Taxpayers - Cryptonews
+](https://cryptonews.com/news/irs-releases-draft-of-2025-digital-asset-reporting-form-for-us-taxpayers.htm)
+- [Binance Co-founder Says Former CEO CZ Is in a "Positive Situation" Awaiting Sentencing in U.S - Decrypt.co](https://decrypt.co/news-explorer?pinned=562301&title=binance-co-founder-says-former-ceo-cz-is-in-a-positive-situation-awaiting-sentencing-in-us)
+- [Indian Man Pleads Guilty to Creating Spoofed Coinbase Website, Stealing $9.5M in Crypto - Coindesk](https://www.coindesk.com/policy/2024/04/19/indian-man-pleads-guilty-to-creating-spoofed-coinbase-website-stealing-95m-in-crypto/)
+- [Securing Bitcoin Transactions: The Importance and Impact of CoinJoin - Cypherpunk Times](https://www.cypherpunktimes.com/securing-bitcoin-transactions-the-importance-and-impact-of-coinjoin/)
+
 
 ## Some Zcash Tweets
 
@@ -72,7 +75,7 @@ https://www.youtube.com/watch?v=C_S5e2WNIe8&t=37s
 
 ## Zeme of the Week
 
-[Dude, I Just Zashi Steaks](https://discord.com/channels/978714252934258779/1164618932150349974/1230566007681319012)
+[Dude, I Just Zashi Steaks (by Z...)](https://discord.com/channels/978714252934258779/1164618932150349974/1230566007681319012)
 
 ## Jobs in the Ecosystem
 
