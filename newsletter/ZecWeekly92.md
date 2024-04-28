@@ -1,5 +1,5 @@
 # ZecWeekly #92
-Vitalik shares his view on Zcash, FBI Targets Samourai Wallet in Money Transmitter Warning & UK police authorized to seize criminal crypto holdings without arrests
+Vitalik shares his view on Zcash, FBI Targets Samourai Wallet in Money Transmitter Warning & ZconV Speakers Announced!
 
 Curated by "Hardaeborla" ([Hardaeborla](https://twitter.com/ayanlajaadebola))
 
