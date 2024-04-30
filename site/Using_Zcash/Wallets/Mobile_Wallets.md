@@ -14,7 +14,7 @@ Mobile wallets allow you to use Zcash anywhere and on the go
 ### [Zashi](https://electriccoin.co/zashi/)
 
 #### Pools
-Transparent | Sapling 
+Transparent | Sapling | Orchard
 
 #### Features
 Spend before Sync | Unified Address | Shielded Memo 
