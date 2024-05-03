@@ -6,7 +6,7 @@
 
 ---
 
-## [Trezor](https://brave.com/web3-privacy/)
+## [Trezor](https://trezor.io/learn/a/zcash-zec)
 ![logo](https://i.ibb.co/wcD52Kk/image-2024-01-13-170332340.png "Trezor")
 - Devices: Web 
 - Pools: Transparent
