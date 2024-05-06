@@ -7,7 +7,7 @@
 ---
 
 ## [Ywallet](https://ywallet.app/installation/)
-![logo](https://i.ibb.co/r6gPvFw/ywalletcard.png "Ywallet")
+![logo](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
 - Features: WarpSync | Shielded Memo | Automatic Shielding | Unified Address
@@ -31,7 +31,15 @@
 ---
 
 ## [Nighthawk](https://nighthawkwallet.com)
-![logo](https://i.ibb.co/qCmmHk4/edgecard.png "Nighthawk")
+![logo](https://i.ibb.co/vL2FxGk/nighthawkcard.png "Nighthawk")
+- Devices: Mobile 
+- Pools: Transparent | Sapling
+- Features: Spend before Sync | Unified Address | Shielded memo | Automatic Shielding
+
+---
+
+## [Edge](https://edge.app)
+![logo](https://i.ibb.co/qCmmHk4/edgecard.png "Edge")
 - Devices: Mobile 
 - Pools: Transparent | Sapling
 - Features: Spend before Sync | Multi Coin | Unified Address | Shielded memo | Automatic Shielding
