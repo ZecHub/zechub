@@ -58,7 +58,7 @@
 ![logo](https://i.ibb.co/w0NNZNp/exoduscard.png "Exodus")
 - Devices: Mobile | Desktop | Web
 - Pools: Transparent
-- Features: Syncronizer | Multi Coin
+- Features: Synchronizer | Multi Coin
 
 ---
 
@@ -66,7 +66,7 @@
 ![logo](https://i.ibb.co/QfHmjWY/coinomicard.png "Coinomi")
 - Devices: Mobile | Desktop
 - Pools: Transparent
-- Features: Syncronizer | Multi Coin
+- Features: Synchronizer | Multi Coin
 
 ---
 
