@@ -10,7 +10,7 @@
 ![logo](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: WarpSync | Shielded Memo | Automatic Shielding | Unified Address
+- Features: WarpSync | Shielded Memo | Unified Address
 
 ---
 
@@ -18,15 +18,7 @@
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
 - Devices: Mobile 
 - Pools: Transparent | Sapling | Orchard
-- Features: BlazeSync | Shielded Memo | Live Sync Dashboard | Unified Address
-
----
-
-## [Zingo! PC](https://github.com/zingolabs/zingo-pc)
-![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
-- Devices: Desktop 
-- Pools: Transparent | Sapling | Orchard
-- Features: BlazeSync | Shielded Memo | Live Sync Dashboard | Unified Address | Automatic Shielding
+- Features: BlazeSync | Shielded Memo | Financial Insights | Unified Address
 
 ---
 
@@ -34,7 +26,7 @@
 ![logo](https://i.ibb.co/vL2FxGk/nighthawkcard.png "Nighthawk")
 - Devices: Mobile 
 - Pools: Transparent | Sapling
-- Features: Spend before Sync | Unified Address | Shielded memo | Automatic Shielding
+- Features: Spend before Sync | Unified Address | Shielded memo 
 
 ---
 
@@ -54,6 +46,14 @@
 
 ---
 
+## [Zingo! PC](https://github.com/zingolabs/zingo-pc)
+![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
+- Devices: Desktop 
+- Pools: Transparent | Sapling | Orchard
+- Features: BlazeSync | Shielded Memo | Financial Insights | Unified Address |
+
+---
+
 ## [Trust Wallet](https://trustwallet.com/download)
 ![logo](https://i.ibb.co/cNqxBJ1/trustwallet.png "Trust Wallet")
 - Devices: Mobile | Web
@@ -66,7 +66,7 @@
 ![logo](https://i.ibb.co/w0NNZNp/exoduscard.png "Exodus")
 - Devices: Mobile | Desktop | Web
 - Pools: Transparent
-- Features: Synchronizer | Multi Coin
+- Features: Multi Coin
 
 ---
 
@@ -74,7 +74,7 @@
 ![logo](https://i.ibb.co/QfHmjWY/coinomicard.png "Coinomi")
 - Devices: Mobile | Desktop
 - Pools: Transparent
-- Features: Synchronizer | Multi Coin
+- Features: Multi Coin
 
 ---
 
@@ -82,7 +82,7 @@
 ![logo](https://i.ibb.co/h29h6d0/safepalcard.png "Safepal")
 - Devices: Mobile | Web | Hardware
 - Pools: Transparent
-- Features: Synchronizer | Multi Coin
+- Features: Multi Coin
 
 ---
 
@@ -98,7 +98,7 @@
 ![logo](https://i.ibb.co/wcD52Kk/image-2024-01-13-170332340.png "Trezor")
 - Devices: Web | Hardware
 - Pools: Transparent
-- Features: Synchronizer | Multi Coin | Web App
+- Features: Multi Coin | Web App
 
 ---
 
