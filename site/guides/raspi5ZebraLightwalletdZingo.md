@@ -91,18 +91,18 @@ add:
 
 # Sources
 
-https://github.com/ZcashFoundation/zebra
-https://github.com/zcash/lightwalletd
-https://askubuntu.com/questions/1278447/installing-fpm-on-ubuntu-20-04
-https://github.com/oxen-io/session-desktop/issues/1635
-https://askubuntu.com/questions/1363783/cant-run-an-appimage-on-ubuntu-20-04
-https://www.beekeeperstudio.io/blog/electron-apps-for-arm-and-raspberry-pi
-https://github.com/electron-userland/electron-builder/issues/3901
-https://askubuntu.com/questions/1278447/installing-fpm-on-ubuntu-20-04
-https://yarnpkg.com/getting-started/install
-https://pimylifeup.com/raspberry-pi-nodejs/
-https://go.dev/dl/#stable
-https://askubuntu.com/questions/1177492/openssl-installed-but-no-openssl-pc-needed-by-pkg-config
+* https://github.com/ZcashFoundation/zebra
+* https://github.com/zcash/lightwalletd
+* https://askubuntu.com/questions/1278447/installing-fpm-on-ubuntu-20-04
+* https://github.com/oxen-io/session-desktop/issues/1635
+* https://askubuntu.com/questions/1363783/cant-run-an-appimage-on-ubuntu-20-04
+* https://www.beekeeperstudio.io/blog/electron-apps-for-arm-and-raspberry-pi
+* https://github.com/electron-userland/electron-builder/issues/3901
+* https://askubuntu.com/questions/1278447/installing-fpm-on-ubuntu-20-04
+* https://yarnpkg.com/getting-started/install
+* https://pimylifeup.com/raspberry-pi-nodejs/
+* https://go.dev/dl/#stable
+* https://askubuntu.com/questions/1177492/openssl-installed-but-no-openssl-pc-needed-by-pkg-config
 
 
 
