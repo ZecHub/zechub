@@ -14,7 +14,7 @@
 - Supports: Transparent
 
 <a href="https://coinbase.com">
-    <img src="https://i.ibb.co/1QM8jzf/share-ZEC-764815628.png" alt="" width="500" height="300"/>
+    <img src="https://i.ibb.co/1QM8jzf/share-ZEC-764815628.png" alt="" width="600" height="500"/>
 </a>
 
 ___
