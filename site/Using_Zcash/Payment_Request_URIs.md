@@ -6,15 +6,15 @@ URI stands for Universal Resource Identifier. They are QR codes that act to pref
 
 ## Use Cases of Payment Requests 
 
-Online Shopping Checkout: Payment requests are initiated by customers during online purchases.
+Online Shopping. Checkout Payment requests are initiated by customers during online purchases.
 
-Hotel and Accommodation Bookings: Various booking platforms leverage payment request URLs for hotel reservations.
+Hotel and Accommodation Bookings. Various booking platforms leverage payment request URLs for hotel reservations.
 
-Online Bill Payments: Utility companies use payment request URLs to enable customers to offset their bills seamlessly. 
+Online Bill Payments. Utility companies use payment request URLs to enable customers to offset their bills seamlessly. 
 
-Event Ticket Purchases: Event organizers across borders use this mechanism to make ticket purchases easier.
+Event Ticket Purchases. Event organizers across borders use this mechanism to make ticket purchases easier.
 
-P2P Payments: Individuals can easily send payment requests to family and friends via messaging apps, with payment links embedded in the messages.
+P2P Payments. Individuals can easily send payment requests to family and friends via messaging apps, with payment links embedded in the messages.
 
 ## Code Example
 
@@ -23,17 +23,17 @@ P2P Payments: Individuals can easily send payment requests to family and friends
 
 ### Mobile Wallet Guide
 
-Below is a step-by-step guide to creating a unique QR code; this method is exclusively for YWallet users:
+Below is a step by step guide to creating a unique QR code; this method is exclusively for YWallet users.
 
 Firstly, open your YWallet then hit the QR code button.
 
-![step-1](https://i.ibb.co/cNZXj6b/Screenshot-2024-1.png)
+![](https://i.ibb.co/cNZXj6b/Screenshot-2024-1.png)
 
 Check the following address types, fill in your desired amount, and enter your memo preferences.
 
-![step-2](https://i.ibb.co/MVpDHMK/Screenshot-3.png)
+![](https://i.ibb.co/MVpDHMK/Screenshot-3.png)
 
 Finally, click the QR code, then hit save - boom! You can now share your QR code with friends or social media communities to initiate transactions.
 
-![step-3](https://i.ibb.co/rpLgJ7P/Screenshot-4.png)
+![](https://i.ibb.co/rpLgJ7P/Screenshot-4.png)
 
