@@ -32,7 +32,7 @@ Note: if you held funds in a wallet that does not support shielded addresses (Tr
 
 ### Sweep Funds
 
-1. Download Ywallet
+1. Download Ywallet (https://ywallet.app)
 
 2. Once open, on the bottom right click 'More'
 
