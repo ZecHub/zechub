@@ -4,9 +4,10 @@
 
 ### [Coinbase](https://coinbase.com)
 
-<a href="https://coinbase.com>
-    <img src="https://i.ibb.co/XWkqhdY/coinbase.png" alt="" width="100" height="50"/>
+<a href="https://coinbase.com">
+    <img src="https://i.ibb.co/XWkqhdY/coinbase.png" alt="" width="200" height="100"/>
 </a>
+
 
 - Website: [Coinbase](https://coinbase.com)
 - Pairs: ALL/ZEC
