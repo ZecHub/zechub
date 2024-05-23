@@ -10,10 +10,11 @@ Because the ZIPs are maintained as text files in a versioned repository, their r
 Website: https://zips.z.cash
 
 
-## The Current ZIP Editors
-For every ZIP that comes in, it must undergo the review process, such as checking that the title accurately describes the content - there are a few people who are continually pushing forward the boundaries of what's possible within the Zcash foundation, they are as follows:
+## ZIP Editors
 
-* Daira Emma Hopwood and Jack Grigg, associated with the Electric Coin Company.
+For every ZIP that comes in, it must undergo the review process, such as checking that the title accurately describes the content there are a few people who are continually pushing forward the boundaries of what's possible within the Zcash foundation, they are as follows:
+
+* Jack Grigg, associated with the Electric Coin Company.
 
 * Teor, Conrado Gouvea, and Arya, associated with the Zcash Foundation.
 
