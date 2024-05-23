@@ -14,22 +14,27 @@ Online Bill Payments: Utility companies use payment request URLs to enable custo
 
 Event Ticket Purchases: Event organizers across borders use this mechanism to make ticket purchases easier.
 
-Peer-to-Peer Payments: Individuals can easily send payment requests to family and friends via messaging apps, with payment links embedded in the messages.
+P2P Payments: Individuals can easily send payment requests to family and friends via messaging apps, with payment links embedded in the messages.
 
-## Code Samples
+## Code Example
 
-There’s a [Zcash improvement proposal](https://zips.z.cash/zip-0321) that defines what payment URIs are; visit this web page to get a sneak peek of all Zcash amazing features there is - Having done that, navigate to  [ZIP 321: Payment Request URIs](https://zips.z.cash/zip-0321). Ultimately, anyone looking to create their own QR codes can use this [sample code ](https://zips.z.cash/zip-0321#uri-syntax)as a guide to building their own. 
+[ZIP 321](https://zips.z.cash/zip-0321) defines how to construct your own custom payment URI. 
 
-**Valid Example**: `zcash:ztestsapling10yy2ex5dcqkclhc7z7yrnjq2z6feyjad56ptwlfgmy77dmaqqrl9gyhprdx59qgmsnyfska2kez?amount=1&memo=VGhpcyBpcyBhIHNpbXBsZSBtZW1vLg&message=Thank%20you%20for%20your%20purchas`
+**Valid Example**: zcash:address?amount=1&memo=base64urlencodedtext&message=Thank%20you%20for%20your%20purchase
 
 ### Mobile Wallet Guide
+
 Below is a step-by-step guide to creating a unique QR code; this method is exclusively for YWallet users:
 
 Firstly, open your YWallet then hit the QR code button.
+
 ![step-1](https://i.ibb.co/cNZXj6b/Screenshot-2024-1.png)
 
 Check the following address types, fill in your desired amount, and enter your memo preferences.
+
 ![step-2](https://i.ibb.co/MVpDHMK/Screenshot-3.png)
 
 Finally, click the QR code, then hit save - boom! You can now share your QR code with friends or social media communities to initiate transactions.
+
 ![step-3](https://i.ibb.co/rpLgJ7P/Screenshot-4.png)
+
