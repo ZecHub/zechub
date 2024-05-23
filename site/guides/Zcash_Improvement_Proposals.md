@@ -12,7 +12,7 @@ Website: https://zips.z.cash
 
 ## ZIP Editors
 
-For every ZIP that comes in, it must undergo the review process, such as checking that the title accurately describes the content there are a few people who are continually pushing forward the boundaries of what's possible within the Zcash foundation, they are as follows:
+For every ZIP that comes in, it must undergo the review process. ZIP editors are tasked with ensuring the format and content of any ZIP adequately describes terms, rationale and technical changes made. 
 
 * Jack Grigg, associated with the Electric Coin Company.
 
