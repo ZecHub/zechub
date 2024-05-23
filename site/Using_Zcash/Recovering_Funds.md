@@ -18,8 +18,6 @@ YWallet is recognized as one of the best options for recovering inaccessible fun
 
 2. Once open, on the bottom right click 'More'
 
-![more](https://i.postimg.cc/7CRybD1g/more.png)
-
 3. Select 'Accounts'
 
 4. On top right corner click plus sign 
