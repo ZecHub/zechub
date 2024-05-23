@@ -1,8 +1,8 @@
-# Exploring Zcash Payment Request URIs
+# Zcash Payment Request URIs
 
 ## Overview of Dynamic QR Codes
 
-URI stands for Universal Resource Identifier. They are QR codes that act as unique sequence characters that identify an abstract or physical resource like resources on a web page, mail address, books, etc.Zcash wallets that recognize this format and construct transactions by either clicking links on web pages or scanning QR codes. Say you have an online coffee shop, your customers can make purchases by scanning these QR codes with their Zcash wallet with a prefilled price and order number.
+URI stands for Universal Resource Identifier. They are QR codes that act to prefill information about a transaction within a Zcash wallet. Wallets that recognize this format can construct transactions by either clicking links on web pages or scanning QR codes. Say you have an online coffee shop, your customers can make purchases by scanning these QR codes with their Zcash wallet with a prefilled price and order number.
 
 ## Use Cases of Payment Requests 
 
@@ -20,7 +20,6 @@ P2P Payments: Individuals can easily send payment requests to family and friends
 
 [ZIP 321](https://zips.z.cash/zip-0321) defines how to construct your own custom payment URI. 
 
-**Valid Example**: zcash:address?amount=1&memo=base64urlencodedtext&message=Thank%20you%20for%20your%20purchase
 
 ### Mobile Wallet Guide
 
