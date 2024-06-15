@@ -1,70 +1,109 @@
-# Zcash Wallets
-
-Wallets allow you to receive and spend Zcash. Different wallets offer unique features such as encrypted memos or faster synchronisation. Only you should have access to your wallet.
-
----
-
-
-### [Mobile Wallets](/Wallets/Mobile_Wallets)
-
-<a href="Wallets/Mobile_Wallets">
-    <img src="https://i.ibb.co/RCJ1TyF/Mobile-Phones.png" alt="" width="300" height="450"/>
-</a>
-
-<aside>
-Mobile wallets allow you to access your Zcash anywhere and on the go.
-</aside>
+## [Zashi](https://electriccoin.co/zashi/)
+![logo](https://i.ibb.co/HgsHnpN/zashiwallet.png "Zashi")
+- Devices: Mobile 
+- Pools: Transparent | Sapling | Orchard 
+- Features: Spend before Sync | Unified Address | Shielded Memo
 
 ---
 
-
-### [Desktop Wallets](/Wallets/Desktop_Wallets)
-
-<a href="Wallets/Desktop_Wallets">
-    <img src="https://i.ibb.co/dr0b9K0/Desktop-Wallets.png" alt="" width="200" height="230"/>
-</a>
-
-<aside>
-Desktop wallets are downloadable applications that provide access to Zcash from Windows, MacOS, or Linux.
-</aside>
+## [Ywallet](https://ywallet.app/installation/)
+![logo](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
+- Devices: Mobile | Desktop
+- Pools: Transparent | Sapling | Orchard 
+- Features: WarpSync | Shielded Memo | Unified Address
 
 ---
 
-### [Hardware Wallets](/Wallets/Hardware_Wallets)
-
-<a href="Wallets/Hardware_Wallets">
-    <img src="https://i.ibb.co/4Yn6Svg/Hardware-Wallets.png" alt="" width="200" height="200"/>
-</a>
-
-<aside>
-Hardware wallets stores your Zcash securely offline physical device.
-
-</aside>
+## [Zingo!](https://www.zingolabs.org/)
+![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
+- Devices: Mobile 
+- Pools: Transparent | Sapling | Orchard 
+- Features: BlazeSync | Shielded Memo | Financial Insights | Unified Address
 
 ---
 
-### [Web Wallets](/Wallets/Web_Wallets)
-
-<a href="Wallets/Web_Wallets">
-    <img src="https://i.ibb.co/b5WZhkX/Web-Wallets.png" alt="" width="200" height="290"/>
-</a>
-
-<aside>
-Web wallets are wallets that you can access from your browser. They give a users a web interface to interact with their funds.
-
-</aside>
+## [Nighthawk](https://nighthawkwallet.com)
+![logo](https://i.ibb.co/vL2FxGk/nighthawkcard.png "Nighthawk")
+- Devices: Mobile 
+- Pools: Transparent | Sapling 
+- Features: Spend before Sync | Unified Address | Shielded memo 
 
 ---
 
-### [Full Node Wallets](/Wallets/Full_Node_Wallets)
-
-<a href="Wallets/Full_Node_Wallets">
-    <img src="https://i.ibb.co/HxKf5Qv/Full-Node-Wallets.png" alt="" width="200" height="200"/>
-</a>
-
-<aside>
-A full-node wallet is special case of desktop wallet for users who may want to mine Zcash and or validate transactions and blocks, in addition to sending and receiving Zcash. It downloads a copy of the Zcash blockchain, enforces rules of the Zcash network, and can execute all functionalities.
-
-</aside>
+## [Edge](https://edge.app)
+![logo](https://i.ibb.co/qCmmHk4/edgecard.png "Edge")
+- Devices: Mobile 
+- Pools: Transparent | Sapling 
+- Features: Spend before Sync | Multi Coin | Unified Address | Shielded memo | Automatic Shielding
 
 ---
+
+## [Unstoppable](https://unstoppable.money)
+![logo](https://i.ibb.co/KXnS26y/unstoppablecard.png "Unstoppable")
+- Devices: Mobile 
+- Pools: Transparent | Sapling 
+- Features: Spend before Sync | Multi Coin | Unified Address
+
+---
+
+## [Zingo! PC](https://github.com/zingolabs/zingo-pc)
+![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
+- Devices: Desktop 
+- Pools: Transparent | Sapling | Orchard 
+- Features: BlazeSync | Shielded Memo | Financial Insights | Unified Address 
+
+---
+
+## [Trust Wallet](https://trustwallet.com/download)
+![logo](https://i.ibb.co/cNqxBJ1/trustwallet.png "Trust Wallet")
+- Devices: Mobile | Web
+- Pools: Transparent
+- Features: Multi Coin
+
+---
+
+## [Exodus](https://www.exodus.com/zcash-wallet-zec)
+![logo](https://i.ibb.co/w0NNZNp/exoduscard.png "Exodus")
+- Devices: Mobile | Desktop | Web
+- Pools: Transparent
+- Features: Multi Coin
+
+---
+
+## [Coinomi](https://www.coinomi.com/en/downloads)
+![logo](https://i.ibb.co/QfHmjWY/coinomicard.png "Coinomi")
+- Devices: Mobile | Desktop
+- Pools: Transparent
+- Features: Multi Coin
+
+---
+
+## [Safepal](https://safepal.com)
+![logo](https://i.ibb.co/h29h6d0/safepalcard.png "Safepal")
+- Devices: Mobile | Web | Hardware
+- Pools: Transparent
+- Features: Multi Coin
+
+---
+
+## [Brave](https://brave.com/web3-privacy/)
+![logo](https://i.ibb.co/6yqMNwZ/image-2024-01-13-170934865.png "Brave")
+- Devices: Web 
+- Pools: Transparent | (in-development) 
+- Features: Spend before Sync | Unified Address | Secure File Transfer
+
+---
+
+## [Trezor](https://trezor.io/learn/a/zcash-zec)
+![logo](https://i.ibb.co/wcD52Kk/image-2024-01-13-170332340.png "Trezor")
+- Devices: Web | Hardware
+- Pools: Transparent
+- Features: Multi Coin | Web App
+
+---
+
+## [Ledger](https://www.ledger.com/coin/wallet/zcash)
+![logo](https://i.ibb.co/2qX6WCF/Desktop-Wallets.png "Ledger")
+- Devices: Hardware
+- Pools: Transparent | (in-development) 
+- Features: Synchronizer | Multi Coin
