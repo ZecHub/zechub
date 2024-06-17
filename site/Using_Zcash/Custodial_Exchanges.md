@@ -13,7 +13,7 @@
 - Supports: Transparent and Shielded
 
 <a href="https://binance.com">
-
+</a>
 ___
 ___
 
