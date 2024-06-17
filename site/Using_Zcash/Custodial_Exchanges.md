@@ -12,9 +12,6 @@
 - Pairs: ALL/ZEC
 - Supports: Transparent and Shielded
 
-<a href="https://binance.com">
-</a>
-___
 ___
 
 ### [Bitfinex](https://bitfinex.com)
@@ -27,9 +24,6 @@ ___
 - Pairs: ALL/ZEC
 - Supports: Transparent
 
-<a href="https://bitfinex.com">
-
-___
 ___
 
 ### [Coinbase](https://coinbase.com)
@@ -38,14 +32,10 @@ ___
     <img src="https://i.ibb.co/XWkqhdY/coinbase.png" alt="" width="200" height="100"/>
 </a>
 
-
 - Website: [Coinbase](https://coinbase.com)
 - Pairs: ALL/ZEC
 - Supports: Transparent
 
-<a href="https://coinbase.com">
-    
-___
 ___
 
  ### [Gemini](https://gemini.com)
@@ -58,9 +48,6 @@ ___
 - Pairs: ALL/ZEC
 - Supports: Transparent
 
-<a href="https://gemini.com">
-
-___
 ___
 
 ### [Huobi](https://huobi.com)
@@ -73,11 +60,8 @@ ___
 - Pairs: ALL/ZEC
 - Supports: Transparent
 
-<a href="https://huobi.com">
+___
 
-___
-___
-    
 ### [Kraken](https://kraken.com)
 
 <a href="https://kraken.com">
@@ -88,9 +72,6 @@ ___
 - Pairs: ALL/ZEC
 - Supports: Transparent
 
-<a href="https://kraken.com">
-
-___
 ___
 
 ### [KuCoin](https://kucoin.com)
@@ -103,9 +84,6 @@ ___
 - Pairs: ALL/ZEC
 - Supports: Transparent
 
-<a href="https://kucoin.com">
-
-___
 ___
 
 ## [OKEx](https://okex.com)
@@ -118,4 +96,4 @@ ___
 - Pairs: ALL/ZEC
 - Supports: Transparent
 
-<a href="https://okex.com">
+___
