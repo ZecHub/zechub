@@ -50,7 +50,15 @@
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
 - Devices: Desktop 
 - Pools: Transparent | Sapling | Orchard 
-- Features: BlazeSync | Shielded Memo | Financial Insights | Unified Address 
+- Features: BlazeSync | Shielded Memo | Financial Insights | Unified Address
+
+---
+
+## [SSP Wallet](https://sspwallet.io)
+![logo](https://i.ibb.co/PzfKRN5/ssp.png "SSP Wallet")
+- Devices: Mobile | Web
+- Pools: Transparent
+- Features: Multi Coin
 
 ---
 
