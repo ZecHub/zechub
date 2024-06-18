@@ -1,20 +1,20 @@
 # Zcash Improvement Proposals
 
-One of the most intriguing aspects of Decentralized Autonomous Organizations (DAOs) is that they allow their community members to participate in their decision making processes. Many of these organizations have their own governance platforms while a few of them leverage voting tools like Snapshot.
-But, hey! Our very own Zcash is no different.
-
 # What is ZIP
-ZIPs is the short for Zcash Improvement Proposals; they pave a way for the Zcash community, ZIPs enable the community to propose new features for the Zcash cryptocurrency and their rationale, also, specify the implementation details of the feature, facilitate the collection of community input on the proposal, and much more! How to contribute? At Zcash, anyone can write a ZIP, you're free to unleash your creativity - ideas are welcomed with open arms! These ZIP authors are solely responsible for building consensus within the Zcash community, and addressing opposing opinions.
+A Zcash Improvement Proposal (ZIP) is a design document providing information to the Zcash community, or describing a new feature for Zcash or its processes or environment. The ZIP should provide a concise technical specification of the feature and a rationale for the feature.
 
-## Explain Purpose of ZIP Process
+We intend ZIPs to be the primary mechanism for proposing new features, for collecting community input on an issue, and for documenting the design decisions that have gone into Zcash. The Owner(s) of the ZIP (usually the authors(s)) are responsible for building consensus within the community and documenting dissenting opinions.
 
-There are a few manners in which ZIPs is helping to build consensus within the Zcash and also levitating the community throughput.
-The ZIP process begins with a new idea for Zcash. For claritys sake, ZIP process serves as a template that guides the writing of Zcash proposals; its like having a form of uniformity in the community, a roadmap for everyone to follow. For greater benefits, one major purpose of the ZIP process is to provide a structured way to introduce and discuss new ideas and improvements for the Zcash ecosystem. On the other hand, ZIP editors act as middlemen for Zcash foundation, they are responsible for proposal edits and ensuring that changes are thoroughly evaluated before implementation. By so doing, the community can collectively contribute swiftly to the development side of things.
+Because the ZIPs are maintained as text files in a versioned repository, their revision history is the historical record of the feature proposal.
 
-## The Current ZIP Editors
-For every ZIP that comes in, it must undergo the review process, such as checking that the title accurately describes the content - there are a few people who are continually pushing forward the boundaries of what's possible within the Zcash foundation, they are as follows:
+Website: https://zips.z.cash
 
-* Daira Emma Hopwood and Jack Grigg, associated with the Electric Coin Company.
+
+## ZIP Editors
+
+For every ZIP that comes in, it must undergo the review process. ZIP editors are tasked with ensuring the format and content of any ZIP adequately describes terms, rationale and technical changes made. 
+
+* Jack Grigg, associated with the Electric Coin Company.
 
 * Teor, Conrado Gouvea, and Arya, associated with the Zcash Foundation.
 

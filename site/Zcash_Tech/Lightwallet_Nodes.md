@@ -5,9 +5,9 @@
 
 Zcash, a privacy-focused cryptocurrency, supports a feature called "lightwallet nodes" that enables users to interact with the Zcash blockchain without downloading the entire blockchain history. This wiki page provides an overview of lightwallet nodes, the role of the "lightwalletd" service in the Zcash ecosystem, a current list of lightwallet node servers, and instructions on how to change servers in popular wallets like Ywallet and Zingo.
 
-[status.lightwalletd.com](https://status.lightwalletd.com)
+[status.lightwalletd.com](https://status.lightwalletd.com) (currently inactive)
 
-[status.zcash-infra.com](https://status.zcash-infra.com)
+[status.zcash-infra.com](https://status.zcash-infra.com) (currently inactive)
 
 
 
@@ -28,25 +28,27 @@ __Efficient Synchronization__: Lightwalletd enables efficient synchronization fo
 
 Here is a list of some current Zcash Lightwallet Nodes that users can connect to:
 
-North America: https://na.lightwalletd.com
+Auto Detect Region: https://zec.rocks:443
 
-South America: https://sa.lightwalletd.com
+North America: https://na.zec.rocks:443
 
-Europe & Africa: https://eu.lightwalletd.com
+South America: https://sa.zec.rocks:443
 
-Asia & Oceania: https://ai.lightwalletd.com
+Europe & Africa: https://eu.zec.rocks:443
+
+Asia Pacific: https://ap.zec.rocks:443
 
 ## Changing Servers in Ywallet/Zingo
 
 Changing the lightwallet node server in Ywallet or Zingo is relatively straightforward:
 
-__Open Ywallet/Zingo__: Launch the Ywallet or Zingo application on your device.
+__Open Ywallet/Zingo/Zashi__: Launch the Ywallet or Zingo application on your device.
 
-__Access Settings__: Find and access the settings or preferences menu within the application.
+__Access Settings__: Find and access the advanced settings in Zashi or settings menu within the application. For Ywallet it is the cog on the top left corner - Go to the Zcash tab. 
 
-__Select Server__: Look for the option to change the lightwallet node server. This option is usually named "Change server" or "Node settings."
+__Select Server__: Look for the option to select the lightwallet node server. This option is named "Change server".
 
-__Enter Server Information__: You will be prompted to enter the new server's address. Input the URL of the desired server from the current list or any other server you prefer.
+__Enter Server Information__: You will be prompted to enter the new server's address. Input the URL of the desired server from the current list or enter your personal lightwalletd server if you have one. 
 
 __Save or Confirm__: Save the changes, and the application should now connect to the new server.
 
@@ -54,4 +56,4 @@ Remember to ensure that the new server is active and reliable to maintain seamle
 
 ## Conclusion
 
-Zcash's lightwallet nodes and the lightwalletd service provide a convenient and privacy-preserving way for users to interact with the blockchain. The ability to change servers offers flexibility in selecting a node that best suits your needs. Stay updated with the latest server information for optimal functionality and privacy when using Zcash lightwallets.
+Zcash's lightwallet nodes and the lightwalletd service provide a convenient and privacy-preserving way for users to interact with the blockchain. The ability to change servers offers flexibility in selecting a node that best suits your needs. 
