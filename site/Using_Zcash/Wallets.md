@@ -55,7 +55,7 @@
 ---
 
 ## [SSP Wallet](https://sspwallet.io)
-![logo](https://i.ibb.co/PzfKRN5/ssp.png "SSP Wallet")
+![logo](https://i.ibb.co/X3hdfSY/ssp-1.png "SSP Wallet")
 - Devices: Mobile | Web
 - Pools: Transparent
 - Features: Multi Coin
