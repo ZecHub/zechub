@@ -1,4 +1,4 @@
-**By**: Cjfrankie
+
 **Date**: 17.06.2024
 
 # PENUMBRA  
