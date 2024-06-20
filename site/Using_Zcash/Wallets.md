@@ -46,6 +46,15 @@
 
 ---
 
+## [eZcash!](https://blog.nerdbank.net/ezcash-app)
+![logo](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
+- Devices: Desktop 
+- Pools: Transparent | Sapling | Orchard 
+- Features: Shielded Memo | Address Check | Unified Address
+
+---
+
+
 ## [Zingo! PC](https://github.com/zingolabs/zingo-pc)
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
 - Devices: Desktop 
