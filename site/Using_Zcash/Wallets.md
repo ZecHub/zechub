@@ -46,7 +46,7 @@
 
 ---
 
-## [eZcash!](https://blog.nerdbank.net/ezcash-app)
+## [eZcash](https://blog.nerdbank.net/ezcash-app)
 ![logo](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
 - Devices: Desktop 
 - Pools: Transparent | Sapling | Orchard 
