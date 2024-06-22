@@ -3,7 +3,7 @@
 
 ### Community Infrastructure 
 
-All nodes, lightwalletd instances and other infrastructure is freely accessible and exists to increase developer access to the Zcash network. This allow the ZecHub bounty program to cater to developers in a more free & streamlined process versus individual tasks on [Dework](https://dework.zechub.org). 
+All nodes, lightwalletd instances and other infrastructure is freely accessible and exists to increase developer access to the Zcash network. This allows the ZecHub bounty program to cater to developers in a more free & streamlined alternative to individual tasks on [Dework](https://dework.zechub.org). 
 
 
 ## Application 
