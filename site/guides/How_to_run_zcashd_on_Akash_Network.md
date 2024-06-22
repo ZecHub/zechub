@@ -45,7 +45,7 @@ Recommended Hardware: 4 CPU cores, 8 GB RAM, 300 GB Persistent* Storage - be sur
 > vi mnt/data/zcash.conf
 
 >  addnode=mainnet.z.cash
-   datadir=/
+   datadir=/mnt/data/.zcash
 
 > [ESC] + wq + Enter
 
