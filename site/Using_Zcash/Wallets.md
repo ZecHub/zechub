@@ -61,6 +61,24 @@
 - Pools: Transparent | Sapling | Orchard 
 - Features: BlazeSync | Shielded Memo | Financial Insights | Unified Address
 
+
+---
+
+## [Zenith](https://git.vergara.tech/Vergara_Tech/zenith)
+![logo](https://i.ibb.co/K57vmjN/image-2024-06-22-181939314.png "Zenith")
+- Devices: Full Node | Desktop
+- Pools: Transparent | Sapling | Orchard
+- Features: Text Interface | Unified Address | Shielded Memo
+
+---
+
+## [Brave](https://brave.com/web3-privacy/)
+![logo](https://i.ibb.co/6yqMNwZ/image-2024-01-13-170934865.png "Brave")
+- Devices: Web 
+- Pools: Transparent | (in-development) 
+- Features: Spend before Sync | Unified Address | Secure File Transfer
+
+
 ---
 
 ## [SSP Wallet](https://sspwallet.io)
@@ -101,13 +119,6 @@
 - Pools: Transparent
 - Features: Multi Coin
 
----
-
-## [Brave](https://brave.com/web3-privacy/)
-![logo](https://i.ibb.co/6yqMNwZ/image-2024-01-13-170934865.png "Brave")
-- Devices: Web 
-- Pools: Transparent | (in-development) 
-- Features: Spend before Sync | Unified Address | Secure File Transfer
 
 ---
 
