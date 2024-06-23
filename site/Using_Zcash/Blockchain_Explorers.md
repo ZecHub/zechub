@@ -6,7 +6,7 @@ Blockchain explorers are simply tools that allow one to visualize what has alrea
 
 ## List of Zcash Block Explorers:
 
-- [Zcash Block Explorer](https://zcashblockexplorer.com/)
+- [Zcash Block Explorer](https://mainnet.zcashexplorer.app/)
 
 - [Blockchair](https://blockchair.com)
 
