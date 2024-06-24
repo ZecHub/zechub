@@ -5,10 +5,7 @@
 
 Zcash, a privacy-focused cryptocurrency, supports a feature called "lightwallet nodes" that enables users to interact with the Zcash blockchain without downloading the entire blockchain history. This wiki page provides an overview of lightwallet nodes, the role of the "lightwalletd" service in the Zcash ecosystem, a current list of lightwallet node servers, and instructions on how to change servers in popular wallets like Ywallet and Zingo.
 
-[status.lightwalletd.com](https://status.lightwalletd.com) (currently inactive)
-
-[status.zcash-infra.com](https://status.zcash-infra.com) (currently inactive)
-
+[status.zec,rocks](https://status.zec.rocks/) 
 
 
 ## Lightwalletd Service
