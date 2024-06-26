@@ -72,6 +72,14 @@
 
 ---
 
+## [Zcashd](https://github.com/zcash/zcash)
+![logo](https://i.ibb.co/Xz2NskW/zcashd.png "Zcashd")
+- Devices: Full Node | Desktop
+- Pools: Transparent | Sapling | Orchard
+- Features: Command Line Interface | Unified Address | Shielded Memo
+
+---
+
 ## [Brave](https://brave.com/web3-privacy/)
 ![logo](https://i.ibb.co/6yqMNwZ/image-2024-01-13-170934865.png "Brave")
 - Devices: Web 
