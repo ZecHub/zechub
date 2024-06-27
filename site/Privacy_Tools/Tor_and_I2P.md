@@ -1,3 +1,8 @@
+<a href="https://github.com/henryquincy/zechub/edit/main/site/Privacy_Tools/Tor_and_I2P.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
+
 # Why Privacy Matters
 
 In the digital era, safeguarding your [privacy](https://www.privacyguides.org/en/) has become increasingly vital. While some may view privacy as a lost cause, it is not. Your privacy is at stake and should be a concern. Privacy holds significant value as it relates to power, and ensuring that power is wielded responsibly is crucial.
