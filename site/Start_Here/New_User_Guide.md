@@ -1,3 +1,7 @@
+<a href="https://github.com/henryquincy/zechub/edit/main/site/Start_Here/New_User_Guide.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Zcash New User Guide
 
 New to Zcash? This guide will walk you through getting onboarded as a Zcash user and ZEC holder.
