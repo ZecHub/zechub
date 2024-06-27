@@ -1,3 +1,8 @@
+<a href="https://github.com/henryquincy/zechub/edit/main/site/Privacy_Tools/Web_Browsers.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
+
 # Web Browsers
 
 1. **Brave:** One of the most prominent and safest browsers on the market today. It blocks privacy-invasive ads & trackers. It blocks third-party data storage. 
