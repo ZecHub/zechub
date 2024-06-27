@@ -1,3 +1,7 @@
+<a href="https://github.com/henryquincy/zechub/edit/main/site/ZFAV_Club/AV_Club_Background.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # <img src="https://i.ibb.co/tYvwnCW/image-2024-02-03-170636194.png" alt="Alt Text" width="50"/>    ZFAV Club Background
 
 *Supported by The Zcash Foundation this ambitious grassroots project aims to have global impact through local and regional actions. Inviting a community of creators to learn and work together to elevate and disseminate news and stories that inspire, educate, and share the promise of Zcash and financial privacy*.
