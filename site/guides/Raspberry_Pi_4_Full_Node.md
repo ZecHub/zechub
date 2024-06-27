@@ -1,3 +1,7 @@
+<a href="https://github.com/henryquincy/zechub/edit/main/site/guides/Raspberry_Pi_4_Full_Node.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 
 # Raspberry Pi 4: a *zcashd* Full node guide 
 
