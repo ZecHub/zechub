@@ -1,3 +1,7 @@
+<a href="https://github.com/henryquincy/zechub/edit/main/site/zechubglobal/zcashrussia/zcashmonetarypolicy.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Основы Zcash
 
 ## Какова экономика Zcash?
