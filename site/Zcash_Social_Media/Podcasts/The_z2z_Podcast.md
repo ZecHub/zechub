@@ -1,3 +1,7 @@
+<a href="https://github.com/henryquincy/zechub/edit/main/site/Zcash_Social_Media/Podcasts/The_z2z_Podcast.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # The Z2Z Podcast
 
 The Z2Z Podcast hosts long form conversations between Ian Sagstetter (from the Electric Coin Company) and other members of the Zcash community.
