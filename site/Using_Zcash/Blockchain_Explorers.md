@@ -1,3 +1,8 @@
+<a href="https://github.com/henryquincy/zechub/edit/main/site/Using_Zcash/Blockchain_Explorers.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
+
 # Blockchain Explorers
 
 ## What is an Explorer?
