@@ -1,3 +1,7 @@
+<a href="https://github.com/henryquincy/zechub/edit/main/site/Using_Zcash/Custodial_Exchanges.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # <img src="https://i.ibb.co/bmS65xV/image-2024-02-03-173258092.png" alt="Alt Text" width="50"/>   Custodial Exchanges
 
 ---
