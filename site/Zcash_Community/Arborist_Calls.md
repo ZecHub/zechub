@@ -1,3 +1,7 @@
+<a href="https://github.com/henryquincy/zechub/edit/main/site/Zcash_Community/Arborist_Calls.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Arborist Calls
 
 [](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0d708fde-0a74-440d-8cf0-e782d984415d_831x468.webp)
