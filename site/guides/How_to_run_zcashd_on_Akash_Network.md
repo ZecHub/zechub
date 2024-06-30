@@ -1,3 +1,7 @@
+<a href="https://github.com/henryquincy/zechub/edit/main/site/guides/How_to_run_zcashd_on_Akash_Network.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # How to run Zcashd on Akash Network 
 
 ### 1. Initial Setup 
