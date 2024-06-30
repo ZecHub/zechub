@@ -1,3 +1,7 @@
+<a href="https://github.com/henryquincy/zechub/edit/main/site/Using_Zcash/Shielded_Pools.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Zcash Value Pools 
 
 There are currently 4 [value pools](https://zcash.readthedocs.io/en/latest/rtd_pages/addresses.html) in Zcash. Sprout, Sapling, Orchard and Transparent. 
