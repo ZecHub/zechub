@@ -1,5 +1,5 @@
 <a href="https://github.com/henryquincy/zechub/edit/main/site/Privacy_Tools/2FA_Hardware_Devices.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit%20Here-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # 2FA Hardware Devices
