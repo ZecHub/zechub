@@ -1,3 +1,7 @@
+<a href="https://github.com/henryquincy/zechub/edit/main/site/contribute/ZecWeekly_Newsletter.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # ZecWeekly Newsletter
 
 ZecWeekly is a newsletter that goes out every Friday morning. It includes all the news that happened during the week in the Zcash ecosystem.
