@@ -1,3 +1,7 @@
+<a href="https://github.com/henryquincy/zechub/edit/main/site/Zcash_Community/Zcash_Ecosystem_Security.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 
 Here is where you will find updates on the [Zcash Ecosystem Security grant](https://forum.zcashcommunity.com/t/zcash-ecosystem-security-lead/42090) project!
 
