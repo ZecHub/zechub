@@ -1,4 +1,7 @@
 
+<a href="https://github.com/henryquincy/zechub/edit/main/site/Zcash_Tech/Zcash_Shielded_Assets.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
 <a href="">
     <img src="https://i.ibb.co/0VfMFB5/image-2023-11-18-160742427.png" alt="" width="800" height="500"/>
 </a>
