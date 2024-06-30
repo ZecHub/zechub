@@ -1,3 +1,7 @@
+<a href="https://github.com/henryquincy/zechub/edit/main/site/Zcash_Community/Community_Links.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # <img src="https://i.ibb.co/qYhRbJM/image-2024-02-03-174147713.png" alt="Alt Text" width="400"/> Zcash Community Links
 
 The Zcash community is a vibrant and passion group of people working towards making ZEC one of the most widely used cryptocurrencies in the world. The community is made up of a diverse group of people from all over the world. They come from a variety of different backgrounds and occupations, but they all work together to help achieve Zcash and ZEC's vision.
