@@ -1,3 +1,7 @@
+<a href="https://github.com/henryquincy/zechub/edit/main/site/Zcash_Organizations/Financial Privacy Foundation.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Financial Privacy Foundation (FPF)
 [![FPF](https://static.wixstatic.com/media/9ba471_bfd631f54ee14af5a2942e211c73c42e~mv2.png/v1/fill/w_320,h_208,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9ba471_bfd631f54ee14af5a2942e211c73c42e~mv2.png)](https://www.financialprivacyfoundation.org/grants)
 
