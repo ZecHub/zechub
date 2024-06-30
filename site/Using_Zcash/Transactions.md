@@ -1,3 +1,7 @@
+<a href="https://github.com/henryquincy/zechub/edit/main/site/site/Using_Zcash/Transactions.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Transactions
 
 ZEC is primarily used for payments. Think paying back a friend, buying a coffee, or donating to a cause you care about. This is ZEC's strongest use case due to its strong privacy features. There are a number of different ways to run a transaction with Zcash, and to preserve user privacy, it is important to understand which transaction you're running.
