@@ -1,3 +1,7 @@
+<a href="https://github.com/henryquincy/zechub/edit/main/site/tutorials/Full_Node_Tutorials.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Full Node Tutorials
 
 Zcash Full Nodes validate transparent and shielded transactions on the Network. By running a full node you contribute to network resilience & stability. Additionally operating a full node provides enhanced safety and security guarantees to the user. Below are video guides for setting up/upgrading zcashd or zebrad Full Nodes.
