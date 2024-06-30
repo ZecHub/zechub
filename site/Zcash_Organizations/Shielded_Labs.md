@@ -1,3 +1,7 @@
+<a href="https://github.com/henryquincy/zechub/edit/main/site/Zcash_Organizations/Shielded_Labs.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # <img src="https://i.ibb.co/B31jLSb/image-2024-02-03-170120205.png" alt="Alt Text" width="50"/>    Shielded Labs
 
 
