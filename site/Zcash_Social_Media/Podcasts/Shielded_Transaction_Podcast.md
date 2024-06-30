@@ -1,3 +1,7 @@
+<a href="https://github.com/henryquincy/zechub/edit/main/site/Zcash_Social_Media/Podcasts/Shielded_Transaction_Podcast.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Shielded Transactions Podcast by Forsight Institute
 
 Foresight Institute is a research organization and non-profit that supports the beneficial development of high-impact technologies. Since our founding in 1987 on a vision of guiding powerful technologies, we have continued to evolve into a many-armed organization that focuses on several fields of science and technology that are too ambitious for legacy institutions to support. 
