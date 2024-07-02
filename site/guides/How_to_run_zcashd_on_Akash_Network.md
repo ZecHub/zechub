@@ -34,6 +34,7 @@ Recommended Hardware: 4 CPU cores, 8 GB RAM, 300 GB Persistent* Storage - be sur
 > apt-get update && apt-get install apt-transport-https wget gnupg2
 
 > wget -qO - https://apt.z.cash/zcash.asc | gpg --import
+
 > gpg --export B1C9095EAA1848DBB54D9DDA1D05FDC66B372CFE | apt-key add -
 
 > echo "deb [arch=amd64] https://apt.z.cash/ buster main" | tee /etc/apt/sources.list.d/zcash.list
@@ -46,10 +47,11 @@ Recommended Hardware: 4 CPU cores, 8 GB RAM, 300 GB Persistent* Storage - be sur
 
 > mkdir ./zcash
 
-> vi mnt/data/zcash.conf
+> vi ~/.zcash/zcash.conf
 
 >  addnode=mainnet.z.cash
-   datadir=/mnt/data/.zcash
+
+>  datadir=/mnt/data/.zcash
 
 > [ESC] + wq + Enter
 
