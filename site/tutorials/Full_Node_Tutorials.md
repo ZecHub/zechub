@@ -1,4 +1,4 @@
-<a href="https://github.com/henryquincy/zechub/edit/main/site/tutorials/Full_Node_Tutorials.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/tutorials/Full_Node_Tutorials.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
@@ -28,7 +28,9 @@ ____
 https://www.youtube.com/embed/v=YjAkaseEqAE
 _____
 
+- Using Lightwalletd Server with Zebra
 
+https://www.youtube.com/watch?v=FfH5jiX8pT0
 
 
 
