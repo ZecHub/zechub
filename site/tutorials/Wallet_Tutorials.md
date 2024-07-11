@@ -1,4 +1,4 @@
-<a href="https://github.com/henryquincy/zechub/edit/main/site/tutorials/Wallet_Tutorials.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/tutorials/Wallet_Tutorials.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
@@ -6,57 +6,46 @@
 
 Below are a list of wallet tutorials that can help you get started with ZEC.
 
+
+- Zashi Wallet 
+
+https://www.youtube.com/watch?v=G92zBIr-Wms
+
+____
+
+
+- Comparing Zcash Wallet
+
+https://www.youtube.com/watch?v=ao4ORC_VNcY
+
+____ 
+
 - Ywallet Cold Storage
 
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/v=hJaAccp-77k"
-  title="Ywallet Cold Storage"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-></iframe>
+https://www.youtube.com/embed/v=hJaAccp-77k
 
 ____
 
 - Ywallet Batch Backup
 
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/v=0skM-RziBv8"
-  title="Ywallet Batch Backup"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-></iframe>
+https://www.youtube.com/embed/v=0skM-RziBv8
+
 
 ____
 
-- How to make Zcash Payment Requests
+- Ywallet Multipay Feature
 
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/v=l5auYQIzYsQ"
-  title="How to make Zcash Payment Requests"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-></iframe>
+https://www.youtube.com/watch?v=ovlNktpxURI
 
-_____
 
-- Unstoppable Wallet Tutorial (Shielded by Default)
+____
 
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/v=B9tpkgVRsq4"
-  title="Unstoppable Wallet Tutotial (Shielded by Default)"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-></iframe>
+- Unstoppable Wallet Tutorial 
+
+https://www.youtube.com/embed/v=B9tpkgVRsq4
+
+____
+
+
+
 
