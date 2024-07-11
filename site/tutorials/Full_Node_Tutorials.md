@@ -10,22 +10,22 @@ Please read our [guides](/site/Guides/Full_Nodes) for more information.
 
 - How to Compile Zcashd on Raspberry Pi 4
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v=SGYrzhs1l2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+https://www.youtube.com/embed/v=SGYrzhs1l2k
 ____
 
 - Zcashd Wallet Tool
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v=9t2LX3HFldw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+https://www.youtube.com/embed/v=9t2LX3HFldw
 ____
 
 - The Practical for Using Zcashd 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v=KNhd1KC0Bqk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+https://www.youtube.com/embed/v=KNhd1KC0Bqk
 ____
 
 - How to Upgrade Zcashd Node
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v=YjAkaseEqAE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+https://www.youtube.com/embed/v=YjAkaseEqAE
 _____
 
 
