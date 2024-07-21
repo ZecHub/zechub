@@ -14,7 +14,7 @@
 ![logo](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard 
-- Features: WarpSync | Shielded Memo | Unified Address
+- Features: WarpSync | Shielded Memo | Unified Address | Cold Storage
 
 ---
 
@@ -54,7 +54,7 @@
 ![logo](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
 - Devices: Desktop 
 - Pools: Transparent | Sapling | Orchard 
-- Features: Shielded Memo | Address Check | Unified Address
+- Features: Shielded Memo | Address Check | Unified Address | Automatic Shielding
 
 ---
 
