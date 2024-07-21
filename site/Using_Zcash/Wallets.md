@@ -14,7 +14,15 @@
 ![logo](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard 
-- Features: WarpSync | Shielded Memo | Unified Address | Cold Storage
+- Features: WarpSync | Shielded Memo | Unified Address | Cold Storage | Voting | Pool Transfer
+
+---
+
+## [Dizzy](https://url.com)
+![logo](https://i.ibb.co/FH918w9/Dizzy-3.png)
+- Devices: Mobile | Desktop
+- Pools: Sapling | Orchard
+- Features: Discord | Unified Address
 
 ---
 
