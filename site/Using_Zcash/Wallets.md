@@ -66,13 +66,11 @@
 
 ---
 
-
 ## [Zingo! PC](https://github.com/zingolabs/zingo-pc)
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
 - Devices: Desktop 
 - Pools: Transparent | Sapling | Orchard 
 - Features: BlazeSync | Shielded Memo | Financial Insights | Unified Address
-
 
 ---
 
@@ -97,7 +95,6 @@
 - Devices: Web 
 - Pools: Transparent | (in-development) 
 - Features: Spend before Sync | Unified Address | Secure File Transfer
-
 
 ---
 
@@ -138,7 +135,6 @@
 - Devices: Mobile | Web | Hardware
 - Pools: Transparent
 - Features: Multi Coin
-
 
 ---
 
