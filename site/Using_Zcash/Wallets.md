@@ -18,7 +18,7 @@
 
 ---
 
-## [Dizzy](https://url.com)
+## [Dizzy](https://youtu.be/IVkuo1CGPBU)
 ![logo](https://i.ibb.co/FH918w9/Dizzy-3.png)
 - Devices: Mobile | Desktop
 - Pools: Sapling | Orchard
