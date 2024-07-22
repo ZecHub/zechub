@@ -34,7 +34,8 @@
 
 ---
 
-## [Nighthawk](https://nighthawkwallet.com)
+## Nighthawk - Not Maintained Anymore!
+### Restore you wallet in Zashi
 ![logo](https://i.ibb.co/vL2FxGk/nighthawkcard.png "Nighthawk")
 - Devices: Mobile 
 - Pools: Transparent | Sapling 
