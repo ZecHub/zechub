@@ -1,6 +1,3 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Wallets.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
-</a>
 
 ## [Zashi](https://electriccoin.co/zashi/)
 ![logo](https://i.ibb.co/HgsHnpN/zashiwallet.png "Zashi")
@@ -146,8 +143,7 @@
 
 ---
 
-## Nighthawk - Not Maintained Anymore!
-### Restore you wallet in Zashi
+## [Nighthawk - Not Maintained](https://nighthawkwallet.com)
 ![logo](https://i.ibb.co/vL2FxGk/nighthawkcard.png "Nighthawk")
 - Devices: Mobile
 - Pools: Transparent | Sapling
