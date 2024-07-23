@@ -17,9 +17,9 @@
 
 ## [Dizzy](https://youtu.be/IVkuo1CGPBU)
 ![logo](https://i.ibb.co/FH918w9/Dizzy-3.png "Dizzy")
-- Devices: Discord Bot
+- Devices: Mobile | Desktop
 - Pools: Sapling | Orchard
-- Features: Unified Address
+- Features: Discord Bot | Unified Address
 
 ---
 
@@ -64,10 +64,10 @@
 ---
 
 ## [Zenith](https://git.vergara.tech/Vergara_Tech/zenith)
-![logo](https://i.ibb.co/K57vmjN/image-2024-06-22-181939314.png "Zenith")
+![logo](https://i.ibb.co/VtPBnm6/zenith-2.png "Zenith")
 - Devices: Full Node | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Text Interface | Unified Address | Shielded Memo
+- Features: Graphical Interface | Unified Address | Shielded Memo
 
 ---
 
