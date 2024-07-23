@@ -20,9 +20,9 @@
 
 ## [Dizzy](https://youtu.be/IVkuo1CGPBU)
 ![logo](https://i.ibb.co/FH918w9/Dizzy-3.png "Dizzy")
-- Devices: Mobile | Desktop
+- Devices: Discord Bot
 - Pools: Sapling | Orchard
-- Features: Discord Bot | Unified Address
+- Features: Unified Address
 
 ---
 
