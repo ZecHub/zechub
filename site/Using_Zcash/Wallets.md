@@ -3,7 +3,7 @@
 ![logo](https://i.ibb.co/HgsHnpN/zashiwallet.png "Zashi")
 - Devices: Mobile
 - Pools: Transparent | Sapling | Orchard
-- Features: Spend before Sync | Unified Address | Shielded Memo
+- Features: Spend before Sync | Unified Address | Shielded Memo | Payment Request 
 
 ---
 
@@ -11,7 +11,7 @@
 ![logo](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: WarpSync | Shielded Memo | Unified Address | Cold Storage | Voting | Pool Transfer
+- Features: WarpSync | Shielded Memo | Unified Address | Cold Storage | Voting | Pool Transfer | Payment Request | TEX Address
 
 ---
 
@@ -27,7 +27,7 @@
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
 - Devices: Mobile
 - Pools: Transparent | Sapling | Orchard
-- Features: BlazeSync | Shielded Memo | Financial Insights | Unified Address
+- Features: BlazeSync | Shielded Memo | Financial Insights | Unified Address | Payment Request
 
 ---
 
@@ -51,7 +51,7 @@
 ![logo](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
 - Devices: Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Shielded Memo | Address Check | Unified Address | Automatic Shielding
+- Features: Shielded Memo | Address Check | Unified Address | Automatic Shielding | Payment Request
 
 ---
 
@@ -59,7 +59,7 @@
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
 - Devices: Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: BlazeSync | Shielded Memo | Financial Insights | Unified Address
+- Features: BlazeSync | Shielded Memo | Financial Insights | Unified Address | Payment Request
 
 ---
 
