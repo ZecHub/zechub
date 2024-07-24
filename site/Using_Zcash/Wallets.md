@@ -139,7 +139,7 @@
 ![logo](https://i.ibb.co/2qX6WCF/Desktop-Wallets.png "Ledger")
 - Devices: Hardware
 - Pools: Transparent | (in-development)
-- Features: Synchronizer | Multi Coin
+- Features: Multi Coin
 
 ---
 
