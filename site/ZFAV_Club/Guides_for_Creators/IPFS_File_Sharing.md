@@ -1,4 +1,4 @@
-<a href="https://github.com/henryquincy/zechub/edit/main/site/ZFAV_Club/Guides_for_Creators/IPFS_File_Sharing.md" target="_blank">
+<a href="https://github.com/Zechub/zechub/edit/main/site/ZFAV_Club/Guides_for_Creators/IPFS_File_Sharing.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
