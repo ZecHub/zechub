@@ -1,5 +1,5 @@
 
-<a href="https://github.com/henryquincy/zechub/edit/main/site/Zcash_Tech/Zcash_Shielded_Assets.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Zcash_Shielded_Assets.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 <a href="">
