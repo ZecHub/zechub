@@ -1,4 +1,4 @@
-<a href="https://github.com/henryquincy/zechub/edit/main/site/Privacy_Tools/PGP_Encryption.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/PGP_Encryption.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
