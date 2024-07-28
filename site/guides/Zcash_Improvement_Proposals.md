@@ -1,4 +1,4 @@
-<a href="https://github.com/henryquincy/zechub/edit/main/site/guides/Zcash_Improvement_Proposals.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Zcash_Improvement_Proposals.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
