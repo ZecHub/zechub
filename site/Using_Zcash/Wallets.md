@@ -11,7 +11,7 @@
 ![logo](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: WarpSync | Shielded Memo | Unified Address | Cold Storage | Voting | Pool Transfer | Payment Request | TEX Address
+- Features: WarpSync | Shielded Memo | Cold Storage | Voting | Pool Transfer | Payment Request | TEX Address
 
 ---
 
