@@ -11,7 +11,7 @@
 ![logo](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: WarpSync | Shielded Memo | Cold Storage | Voting | Pool Transfer | Payment Request | TEX Address
+- Features: WarpSync | Shielded Memo | Cold Storage | Voting | Pool Transfer | Payment Request | TEX Address | Diversified Address
 
 ---
 
@@ -51,7 +51,7 @@
 ![logo](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
 - Devices: Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Shielded Memo | Address Check | Unified Address | Automatic Shielding | Payment Request
+- Features: Shielded Memo | Address Check | Unified Address | Automatic Shielding | Payment Request | Diversified Address
 
 ---
 
@@ -75,7 +75,7 @@
 ![logo](https://i.ibb.co/Xz2NskW/zcashd.png "Zcashd")
 - Devices: Full Node | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Command Line Interface | Unified Address | Shielded Memo
+- Features: Command Line Interface | Unified Address | Shielded Memo | Diversified Address
 
 ---
 
