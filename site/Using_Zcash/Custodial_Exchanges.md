@@ -15,7 +15,7 @@
 - Website: [Binance](https://binance.com)
 - Pairs: ALL/ZEC
 - Supports: Transparent and Shielded
-
+- Deposit Time:
 ___
 
 ### [Bitfinex](https://bitfinex.com)
@@ -27,7 +27,7 @@ ___
 - Website: [Bitfinex](https://bitfinex.com)
 - Pairs: ALL/ZEC
 - Supports: Transparent
-
+- Deposit Time:
 ___
 
 ### [Coinbase](https://coinbase.com)
@@ -39,7 +39,7 @@ ___
 - Website: [Coinbase](https://coinbase.com)
 - Pairs: ALL/ZEC
 - Supports: Transparent
-
+- Deposit Time:
 ___
 
  ### [Gemini](https://gemini.com)
@@ -50,8 +50,8 @@ ___
 
 - Website: [Gemini](https://gemini.com)
 - Pairs: ALL/ZEC
-- Supports: Transparent
-
+- Supports: Transparent | Shielded Withdrawal
+- Deposit Time:
 ___
 
 ### [Huobi](https://huobi.com)
@@ -63,7 +63,7 @@ ___
 - Website: [Huobi](https://huobi.com)
 - Pairs: ALL/ZEC
 - Supports: Transparent
-
+- Deposit Time:
 ___
 
 ### [Kraken](https://kraken.com)
@@ -75,7 +75,7 @@ ___
 - Website: [Kraken](https://kraken.com)
 - Pairs: ALL/ZEC
 - Supports: Transparent
-
+- Deposit Time: 60 minutes
 ___
 
 ### [KuCoin](https://kucoin.com)
@@ -87,7 +87,7 @@ ___
 - Website: [KuCoin](https://kucoin.com)
 - Pairs: ALL/ZEC
 - Supports: Transparent
-
+- Deposit Time:
 ___
 
 ## [OKEx](https://okex.com)
@@ -99,5 +99,5 @@ ___
 - Website: [OKEx](https://okex.com)
 - Pairs: ALL/ZEC
 - Supports: Transparent
-
+- Deposit Time:
 ___
