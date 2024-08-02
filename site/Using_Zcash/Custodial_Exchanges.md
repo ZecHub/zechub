@@ -15,7 +15,7 @@
 - Website: [Binance](https://binance.com)
 - Pairs: ALL/ZEC
 - Supports: Transparent and Shielded
-- Deposit Time:
+- Deposit Time: 20 minutes
 ___
 
 ### [Bitfinex](https://bitfinex.com)
