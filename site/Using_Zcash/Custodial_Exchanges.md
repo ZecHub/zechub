@@ -39,7 +39,7 @@ ___
 - Website: [Coinbase](https://coinbase.com)
 - Pairs: ALL/ZEC
 - Supports: Transparent
-- Deposit Time: 120 minutes
+- Deposit Time: 150 minutes
 ___
 
  ### [Gemini](https://gemini.com)
