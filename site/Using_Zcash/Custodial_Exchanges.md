@@ -99,5 +99,5 @@ ___
 - Website: [OKEx](https://okex.com)
 - Pairs: ALL/ZEC
 - Supports: Transparent
-- Deposit Time:
+- Deposit Time: 25 Minutes 
 ___
