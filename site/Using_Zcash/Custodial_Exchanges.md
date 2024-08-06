@@ -14,7 +14,7 @@
 
 - Website: [Binance](https://binance.com)
 - Pairs: ALL/ZEC
-- Supports: Transparent and Shielded
+- Supports: Transparent (TEX Address Deposit)
 - Deposit Time: 20 minutes
 ___
 
