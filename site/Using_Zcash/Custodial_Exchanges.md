@@ -27,7 +27,7 @@ ___
 - Website: [Bitfinex](https://bitfinex.com)
 - Pairs: ALL/ZEC
 - Supports: Transparent
-- Deposit Time:
+- Deposit Time: 25 Minutes 
 ___
 
 ### [Coinbase](https://coinbase.com)
@@ -51,7 +51,7 @@ ___
 - Website: [Gemini](https://gemini.com)
 - Pairs: ALL/ZEC
 - Supports: Transparent | Shielded Withdrawal
-- Deposit Time:
+- Deposit Time: 50 Minutes 
 ___
 
 ### [Huobi](https://huobi.com)
@@ -63,7 +63,7 @@ ___
 - Website: [Huobi](https://huobi.com)
 - Pairs: ALL/ZEC
 - Supports: Transparent
-- Deposit Time:
+- Deposit Time: 35 Minutes 
 ___
 
 ### [Kraken](https://kraken.com)
