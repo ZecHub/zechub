@@ -87,7 +87,7 @@ ___
 - Website: [KuCoin](https://kucoin.com)
 - Pairs: ALL/ZEC
 - Supports: Transparent
-- Deposit Time:
+- Deposit Time: 20 Minutes 
 ___
 
 ## [OKEx](https://okex.com)
