@@ -7,14 +7,14 @@
 
 - Useful Tips when using Zcash
 
-https://www.youtube.com/watch?v=tEfQaYPV0UE
+[![Video Thumbnail](https://img.youtube.com/vi/tEfQaYPV0UE/hqdefault.jpg)](https://www.youtube.com/watch?v=tEfQaYPV0UE)
 
 
 ____
 
 - How to make Zcash Payment Requests
 
-https://www.youtube.com/embed/v=l5auYQIzYsQ
+[![Video Thumbnail](https://img.youtube.com/vi/l5auYQIzYsQ/hqdefault.jpg)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
 
 
 ____ 
@@ -22,7 +22,7 @@ ____
 
 - Adding a Zcash Donation Widget to your Website
 
-https://www.youtube.com/watch?v=NbP4BcHC0uM
+[![Video Thumbnail](https://img.youtube.com/vi/NbP4BcHC0uM/hqdefault.jpg)](https://www.youtube.com/watch?v=NbP4BcHC0uM)
 
 
 ___ 
@@ -30,7 +30,7 @@ ___
 
 - How to perform a Shielded Transaction
 
-https://www.youtube.com/watch?v=5bx4GhQTi_8
+[![Video Thumbnail](https://img.youtube.com/vi/5bx4GhQTi_8/hqdefault.jpg)](https://www.youtube.com/watch?v=5bx4GhQTi_8)
 
 ___
 
