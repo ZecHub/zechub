@@ -10,32 +10,32 @@ Please read our [guides](/site/Guides/Full_Nodes) for more information.
 
 - How to Compile Zcashd on Raspberry Pi 4
 
-https://www.youtube.com/embed/v=SGYrzhs1l2k
+[![Video Thumbnail](https://img.youtube.com/vi/SGYrzhs1l2k/hqdefault.jpg)](https://www.youtube.com/watch?v=SGYrzhs1l2k)
 ____
 
 - Zcashd Wallet Tool
 
-https://www.youtube.com/embed/v=9t2LX3HFldw
+[![Video Thumbnail](https://img.youtube.com/vi/9t2LX3HFldw/hqdefault.jpg)](https://www.youtube.com/watch?v=9t2LX3HFldw)
 ____
 
 - The Practical for Using Zcashd 
 
-https://www.youtube.com/embed/v=KNhd1KC0Bqk
+[![Video Thumbnail](https://img.youtube.com/vi/KNhd1KC0Bqk/hqdefault.jpg)](https://www.youtube.com/watch?v=KNhd1KC0Bqk)
 ____
 
 - How to Upgrade Zcashd Node
 
-https://www.youtube.com/embed/v=YjAkaseEqAE
+[![Video Thumbnail](https://img.youtube.com/vi/YjAkaseEqAE/hqdefault.jpg)](https://www.youtube.com/watch?v=YjAkaseEqAE)
 _____
 
 - Using Lightwalletd Server with Zebra
 
-https://www.youtube.com/watch?v=FfH5jiX8pT0
+[![Video Thumbnail](https://img.youtube.com/vi/FfH5jiX8pT0/hqdefault.jpg)](https://www.youtube.com/watch?v=FfH5jiX8pT0)
 
 
 ____
 
 - Post Comments on Free2Z with Zenith CLI
 
-https://www.youtube.com/watch?v=HtorP8TJ5vk
+[![Video Thumbnail](https://img.youtube.com/vi/HtorP8TJ5vk/hqdefault.jpg)](https://www.youtube.com/watch?v=HtorP8TJ5vk)
 
