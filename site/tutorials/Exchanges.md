@@ -32,3 +32,8 @@ ___
 
 
 ____
+
+- How to Compile Zcashd on Raspberry Pi 4
+
+[![Video Thumbnail](https://img.youtube.com/vi/SGYrzhs1l2k/hqdefault.jpg)](https://www.youtube.com/watch?v=SGYrzhs1l2k)
+____
