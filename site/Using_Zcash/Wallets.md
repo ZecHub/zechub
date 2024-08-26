@@ -3,7 +3,7 @@
 ![logo](https://i.ibb.co/HgsHnpN/zashiwallet.png "Zashi")
 - Devices: Mobile
 - Pools: Transparent | Sapling | Orchard
-- Features: Spend before Sync | Unified Address | Shielded Memo | Payment Request 
+- Features: Spend before Sync | Unified Address | Shielded Memo | Payment Request | TEX Address | Tor Currency Rates
 
 ---
 
@@ -49,7 +49,7 @@
 
 ## [eZcash](https://blog.nerdbank.net/ezcash-app)
 ![logo](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
-- Devices: Desktop
+- Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
 - Features: Shielded Memo | Address Check | Unified Address | Automatic Shielding | Payment Request | Diversified Address
 
