@@ -1,5 +1,4 @@
-
-# SHADE PROTOCOL 
+# Shade Protocol
 
 <a href="">
     <img src="https://framerusercontent.com/images/Af8EzlNiwGr4FTFX7oqdBuE.png" alt="" width="400" height="250"/>
@@ -10,7 +9,7 @@
 
 Shade Protocol is a privacy preserving DeFi (Decentralized Finance) ecosystem that aims to offer a suite of financial products while ensuring user privacy and security. Built on Secret Network, Shade Protocol focuses on creating a privacy centric financial environment, providing users with tools like stablecoins, synthetic assets, lending platforms, and more. The flagship product of Shade Protocol is the Silk Stablecoin, which combines privacy features with price stability.
 
-## Technology Used by Shade Protocol
+## Technology Used 
 
 **Secret Network**
 
@@ -40,7 +39,7 @@ For consensus and network security, Shade Protocol employs Tendermint Core, whic
 Privacy preserving DeFi leverages advanced cryptographic techniques like encrypted transactions, zero knowledge proofs, and private smart contracts to maintain user privacy and data confidentiality on blockchain networks. By using technologies such as Secret Network's secret contracts and Cosmos SDK for interoperability, these solutions enable confidential transactions, private asset management, and selective disclosure, ensuring financial activities remain secure and compliant with privacy regulations. This approach protects users from tracking and fraud, offering decentralized financial freedom while adhering to privacy standards.
 
 
-##  Why Users May Wish to Use Shade Protocol
+##  Applications
 
 **Shade and Silk Tokens**
 
@@ -57,21 +56,21 @@ Shade Protocol utilizes viewing keys for its two main tokens: Shade ($SHD) and S
 </a>
 <br><br>
 
-**Privacy**
+### Privacy
 
 One of the main reasons users might prefer Shade Protocol is the privacy it offers. Transactions on Shade are shielded from public view, ensuring that financial data remains confidential. Unlike traditional public blockchains where transaction details are visible to all, Shade Protocol tokens utilize encrypted inputs, outputs, and states, meaning that sensitive information remains hidden from prying eyes. This enhances user privacy and security, allowing individuals to engage in financial activities without exposing their personal information or transaction history, thereby protecting against potential threats and preserving financial confidentiality.
 
 
-**Stable Value**
+### Stable Value
 
 The Silk Stablecoin provides price stability, which is crucial for users who want to avoid the volatility often associated with cryptocurrencies. Silk is pegged to a basket of assets, which helps maintain its value over time. Every stablecoin derives its value from a specific source, typically being pegged to the US dollar. However, this approach carries significant, often unrecognized risks. Silk mitigates these risks by maintaining stability amidst global volatility without relying on a single value peg like the US dollar. Instead, Silk's value is based on a weighted index known as the Silk Currency Basket. This basket includes a selection of global currencies (USD, CAD, EUR, JPY) and commodities such as Bitcoin and gold. By incorporating multiple currencies and assets, Silk achieves greater peg stability compared to individual currencies. Extensive research and testing have shown that gold and Bitcoin, as reliable stores of value, outperform traditional currencies, justifying their inclusion in the basket.
 
 
-**Decentralization**
+### Decentralization
 
 As a DeFi platform, Shade Protocol operates without central control, providing users with financial autonomy. Shade Protocol's decentralized governance allows its community of token holders to participate directly in the decision making process. Token holders can propose changes, vote on initiatives, and contribute to the development and direction of the protocol. This ensures that control is distributed across a diverse group of stakeholders rather than being held by a central authority. By leveraging blockchain technology, the governance process is transparent, secure, and immutable, fostering a more inclusive and resilient ecosystem.
 
-**Interoperability**
+### Interoperability
 
 Being part of the Cosmos ecosystem means that Shade Protocol can easily interact with other blockchains, enhancing liquidity and providing more opportunities for users to leverage their assets across different networks. By utilizing privacy preserving technologies from the Secret Network, Shade Protocol ensures that these cross chain activities maintain confidentiality and integrity. This interoperability not only enhances the flexibility and functionality of decentralized applications but also fosters a more interconnected and robust blockchain ecosystem, reducing reliance on isolated networks and promoting broader adoption of decentralized finance solutions.
 
@@ -86,7 +85,7 @@ Shade Protocol is a pioneering project in the DeFi space, offering privacy focus
 
 Shade Protocol's principles of cohesiveness and value capture provide a solid foundation for stability and a seamless user experience, positioning it as a future leader in DeFi protocols. With adaptive, scalable governance and a well defined roadmap for introducing new Shade Protocol primitives, the potential for rapid growth is undoubtedly immense.
 
-## Reference Links
+#### Reference Links
  
 [Shade Protocol website](https://shadeprotocol.com)
 
