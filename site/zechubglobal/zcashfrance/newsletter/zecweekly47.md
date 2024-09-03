@@ -99,7 +99,8 @@ Si vous êtes nouveau dans l'exécution de nœuds sur Zcash, alors vous n'avez r
 
 ## Zeme de la Semaine
 
- [https://twitter.com/gordonesroo/status/1669580115670446080?t=Af53oZj-vg9Lz3MXoCJdPA&s=19](https://twitter.com/gordonesroo/status/1669580115670446080?t=Af53oZj-vg9Lz3MXoCJdPA&s=19) 
+ [https://twitter.com/gordonesroo/status/1669580115670446080?t=Af53oZj-vg9Lz3MXoCJdPA&s=19](https://twitter.com/gordonesroo/status/1669580115670446080?t=Af53oZj-vg9Lz3MXo
+ CJdPA&s=19) 
 
 ## Emplois dans l'écosystème
 
