@@ -4,7 +4,7 @@ Uma lista de tópicos com as perguntas mais frequentes sobre a Zcash. Para soluc
 
 ## O que é a Zcash?
 
-Zcash é uma moeda digital com baixas taxas, rápida e confidencial. A privacidade é a característica central da Zcash. Ele pioneirou o uso de provas de conhecimento zero (ou zero knowledge proof) para proteger as informações dos usuários, criptografando todas as transações. Existem várias carteiras que você pode baixar para pagamentos instantâneos, móveis, seguros e privados.
+Zcash é uma moeda digital com baixas taxas, rápida e confidencial. A privacidade é a característica central da Zcash. Ela pioneirou o uso de provas de conhecimento zero (ou zero knowledge proof) para proteger as informações dos usuários, criptografando todas as transações. Existem várias carteiras que você pode baixar para pagamentos instantâneos, móveis, seguros e privados.
 
 [Carteiras Mobile](https://z.cash/wallets/)
 
