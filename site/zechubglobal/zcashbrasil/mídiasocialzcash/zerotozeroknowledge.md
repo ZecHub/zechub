@@ -1,7 +1,7 @@
 # Zero to Zero Knowledge | Série Educacional
 
 
-## Funções Hash
+## Funções de Hash
 
 - https://twitter.com/ZecHub/status/1621240109663227906
 
