@@ -18,11 +18,11 @@
 
 ## Ambientes de Execução Confiáveis
 
-= https://twitter.com/ZecHub/status/1633579659282587651
+-  https://twitter.com/ZecHub/status/1633579659282587651
 
 ## Cryptonote
 
-= https://twitter.com/ZecHub/status/1636473585781948416
+-  https://twitter.com/ZecHub/status/1636473585781948416
 
 ## Leilão
 
