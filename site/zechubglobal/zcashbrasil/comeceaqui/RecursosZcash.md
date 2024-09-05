@@ -4,7 +4,7 @@ Existem vários recursos que ajudam os usuários a entender a Zcash.
 
 **[Zcash Media](https://www.youtube.com/c/ZcashMedia)**
 
-A Zcash Media é uma organização independente que produz documentários educacionais sobre a Zcash. Seu primeiro vídeo, "Construído para Resolver a Falha Fatal do Bitcoin, O que é Zcash (ZEC)?", é uma ótima introdução ao Zcash.
+A Zcash Media é uma organização independente que produz documentários educacionais sobre a Zcash. Seu primeiro vídeo, **"Construída para Resolver a Falha Fatal do Bitcoin, O que é a Zcash (ZEC)?"**, é uma ótima introdução ao Zcash.
 
 **[Twitter](twitter.com/zcash)**
 
