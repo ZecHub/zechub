@@ -1,12 +1,12 @@
-# Z2Z Podcast 
+# ZecHub Podcast
 
-O Z2Z Podcast hospeda longas conversas entre Ian Sagstetter (da Electric Coin Company) e outros membros da comunidade Zcash.
+O ZecHub Podcast hospeda longas conversas entre os membros principais da ZecHub e outros membros da comunidade Zcash.
 
 O podcast cobre uma variedade de assuntos diferentes, mas foca principalmente na Zcash e na experiência de seus usuários.
 
 Fique por dentro dos próximos episódios:
 
-[z2z lista de reprodução do Youtube](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O)
+[ZecHub Podcast - Playlist](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O)
 
 [Odysee](https://odysee.com/@ZecHub:4)
 
@@ -19,7 +19,7 @@ Fique por dentro dos próximos episódios:
 
 + Episódio 10 - Privacidade para o bem público com Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6) | [Spotify]()
 
-+ Episódio 9 - The ZFAV Club com Ryan Taylor (também conhecido como AdjyLeak) [Youtube](https://www.youtube.com/watch?v=BYnhTNkQ-3M) | [Odysee](https://odysee.com/@ZecHub:4/podcast-ryan-taylor:c) | [Spotify](https://open.spotify.com/episode/1TJ6Nycq9nyW2b62ytI3O2)
++ Episódio 9 - The ZKAV Club com Ryan Taylor (também conhecido como AdjyLeak) [Youtube](https://www.youtube.com/watch?v=BYnhTNkQ-3M) | [Odysee](https://odysee.com/@ZecHub:4/podcast-ryan-taylor:c) | [Spotify](https://open.spotify.com/episode/1TJ6Nycq9nyW2b62ytI3O2)
 
 + Episódio 8 - Zcash Security e Lightwalletd com Taylor Hornby [YouTube](https://www.youtube.com/watch?v=18-xowScNpw) | [Odysee](https://odysee.com/@ZecHub:4/Taylor-Podcast:e) | [Spotify](https://open.spotify.com/episode/2KMp034ipnkdLOXmGVTXfu)
 
