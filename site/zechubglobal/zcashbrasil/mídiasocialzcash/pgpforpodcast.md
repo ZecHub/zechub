@@ -3,7 +3,7 @@
 
 ![bannerpgp](https://user-images.githubusercontent.com/81990132/221758326-06cea3f5-4c9e-4466-b9ee-73854628a6aa.png)
 
-Bem-vindo ao "PGP* (Pretty Good Policy) para Cripto, uma iniciativa da [Electric Coin Co.!](https://electriccoin.co/)
+Bem-vindo ao "PGP* (Pretty Good Policy) for Crypto, uma iniciativa da [Electric Coin Co.!](https://electriccoin.co/)
 
 Nesse projeto é explorado a interseção da tecnologia blockchain, políticas públicas e tópicos regulatórios globais. O objetivo principal do PGP é fornecer ao público informações detalhadas e perspectivas de especialistas sobre as principais questões que moldam o futuro da blockchain e da criptomoeda.
 
