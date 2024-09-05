@@ -6,13 +6,13 @@ O podcast cobre uma variedade de assuntos diferentes, mas foca principalmente na
 
 Fique por dentro dos próximos episódios:
 
-[ZecHub Podcast - Playlist](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O)
+- [ZecHub Podcast - Playlist](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O)
 
-[Odysee](https://odysee.com/@ZecHub:4)
+- [Odysee](https://odysee.com/@ZecHub:4)
 
-[Spotify](https://open.spotify.com/show/3teWxE0EQaeohCM268Lpnf)
+- [Spotify](https://open.spotify.com/show/3teWxE0EQaeohCM268Lpnf)
 
-[Anchor FM](https://anchor.fm/zec-hub/episodes/Zcash-narratives-with-David-from-Zcash-Media-e1o2b36)
+- [Anchor FM](https://anchor.fm/zec-hub/episodes/Zcash-narratives-with-David-from-Zcash-Media-e1o2b36)
 
 
 **Lista de episódios**
