@@ -70,7 +70,7 @@ Além de um UA completo, aqui estão os mais comuns que você encontrará na red
 
 ---
 
-*orchard**
+*orchard*
 
 ![OrchUA](https://user-images.githubusercontent.com/81990132/219267538-1a748fff-4034-4559-96ac-182723409b3a.png)
 
