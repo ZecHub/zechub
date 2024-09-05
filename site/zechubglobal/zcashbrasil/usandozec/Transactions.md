@@ -4,6 +4,8 @@ ZEC é usado principalmente para pagamentos. Pense em retribuir a um amigo, comp
 
 Este é o caso de uso mais forte do ZEC devido aos seus fortes recursos de privacidade. Existem várias maneiras diferentes de executar uma transação com a Zcash e, para preservar a privacidade do usuário, é importante entender qual transação você está executando.
 
+---
+
 #### Transações Blindadas
 
 As transações blindadas (shieldeds) ocorrem quando você move o ZEC para sua carteira blindada. O endereço da sua carteira blindada começa com "U" ou "Z". Ao enviar transações blindadas, você garante que você e as pessoas com quem está negociando mantenham um nível de privacidade que não é possível em outras redes de pagamento P2P.
@@ -19,6 +21,8 @@ Nas configurações da Ywallet, você pode expor os componentes S (sapling), T (
 Ao executar a transação, você seleciona a quantidade de ZEC que deseja enviar, digita o endereço blindado, escreve um [memorando](https://zechub.wiki/using-zcash/memos#content) (mensagem criptografada) e, em seguida, finaliza a transação. Tudo o que você precisa garantir ao executar uma transação blindada é que a pessoa para quem você está enviando o ZEC forneça seu **endereço blindado**.
 
 *Usar apenas transações blidnadas para enviar e receber fundos é a melhor maneira de manter a privacidade e reduzir o risco de vazamento de dados*
+
+---
 
 #### Transações Transparentes
 
