@@ -17,8 +17,6 @@ Atualmente,
 
 Atualmente, o ZCG recebe 8% das recompensas do bloco, a Electric Coin Co. 7% e a Zcash Foundation 5%. Isso equivale a 40%, 35% e 25% do fundo de desenvolvimento, respectivamente.
 
-![imagem](https://assets.super.so/23b0f636-ac45-4903-bde9-86133a698b1a/images/559640f6-15a7-4944-8b47-8900bf4aa592/212411570-4858a3d6-f7a1-465a-bf0c-d2ef726d41dc.jpeg?w=1500&f=webp)
-
 Em 2020, a comunidade Zcash votou no fundo de desenvolvimento e nas equipes apoiadas por ele. Em 2024, a comunidade votará novamente para determinar quem receberá o financiamento do fundo de desenvolvimento.
 
 ## Recursos
