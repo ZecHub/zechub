@@ -18,14 +18,19 @@ Atualmente existem três principais tipos de endereços em uso até o momento. E
 
 - ![trans1](https://user-images.githubusercontent.com/81990132/219261771-a9957ec3-2841-4073-9cfd-1db9d6356693.png)
 
+---
+
 * Sapling
 
 - ![Sapling](https://user-images.githubusercontent.com/81990132/219261784-1a617e70-f588-4eed-96bf-f0789d7af58a.png)
+
+---
 
 EndereçoS UnificadoS/UAs (Completo)
 
 - ![fullUA](https://user-images.githubusercontent.com/81990132/219261794-bcc79db6-4dc6-4c6a-867b-3717b81e6b71.png)
 
+---
 
 A primeira coisa a se notar é como o comprimento de cada tipo de endereço é diferente. Isso pode ser visto visualmente pelo número de caracteres na string do endereço ou olhando para os códigos QR associados. À medida que o comprimento do endereço aumenta, o código QR tende a dar zoom e caber mais dados no quadrado.
 
