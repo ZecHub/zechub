@@ -1,6 +1,6 @@
 # ZecHub Podcast
 
-O ZecHub Podcast hospeda longas conversas entre os membros principais da ZecHub e outros membros da comunidade Zcash.
+O ZecHub Podcast hospeda longas conversas entre os membros principais da ZecHub e outros membros da comunidade Zcash, incluindo entusiastas da privacidade.
 
 O podcast cobre uma variedade de assuntos diferentes, mas foca principalmente na Zcash e na experiência de seus usuários.
 
