@@ -17,6 +17,13 @@ A ZecHub DAO (Organização Autônoma Descentralizada) atualmente é composta po
 * [@Edicksonjga](https://twitter.com/Edicksonjga)
 * [@vito](https://twitter.com/vitozkp)
 * [@ZcashRU](https://twitter.com/search?q=zcashru&src=typed_query)
+* [Jason McGee](https://twitter.com/aquietinvestor)
+* [Lowo88](https://twitter.com/LadaleLowo)
+* [AidenZ](https://cafe.naver.com/zcashcommunity)
+* [zerodartz](https://twitter.com/zerodartz)
+* [Chidi](https://twitter.com/ZcashNigeria)
+* [Tecnopapapi](https://twitter.com/tecnopapapi)
+* [Wizard](https://blog.zeal.center/)
 * @RedNosedGnome
 
 A DAO servirá como um experimento para futuras organizações Zcash interessadas em novas formas de modelos de governança descentralizada e a utilidade do ZEC cross-chain.
