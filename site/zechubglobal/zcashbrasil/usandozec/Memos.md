@@ -1,4 +1,4 @@
-# Memorandos ou MEMOS
+# Memorandos (Memos)
 
 #### Enviando Memorandos Criptografados
 
