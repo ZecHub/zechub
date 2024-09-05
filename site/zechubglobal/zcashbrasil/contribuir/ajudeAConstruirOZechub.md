@@ -4,9 +4,9 @@ Se você é um membro da comunidade Zcash e quer contribuir para a construção 
 
 Você pode:
 
-1. Selecionar as notícias (links) para as Newsletters semanais e adicioná-las à página do Github da Newsletter. Encontre as instruções sobre como fazer isso aqui: [Newsletter - ZecWeekly](https://wiki.zechub.xyz/zecweekly-newsletter).
+1. Selecionar as notícias (links) para as Newsletters semanais e adicioná-las à página do Github da Newsletter. Encontre as instruções sobre como fazer isso aqui: [Newsletter - Zcash Ecosystem Digest](https://wiki.zechub.xyz/zecweekly-newsletter).
 
-2. Verifique a precisão dos documentos da Wiki, sugira edições e proponha novas páginas no [Github](https://github.com/zechub/zechub) (por favor, proponha páginas sob seções existentes. Não queremos sobrecarregar a página inicial da wiki).
+2. Verificar a precisão dos documentos da Wiki e sugerir edições e proponha novas páginas no [Github](https://github.com/zechub/zechub) (por favor, proponha páginas sob seções existentes. Não queremos sobrecarregar a página inicial da wiki).
 
 3. Crie conteúdo em vídeo nas seguintes categorias:
 
@@ -14,7 +14,7 @@ Você pode:
 - Guia/tutoriais de carteiras Zcash
 - Demonstrações de aplicativos de terceiros (ou seja, tutoriais rapidos.)
 
-4. Elabore designs, como pôsteres/imagens/animados, sobre o ecossistema Zcash & assuntos relacionados a privacidade.
+4. Elabore designs, como pôsteres/imagens/animações, sobre o ecossistema Zcash & assuntos relacionados a privacidade.
 
 5. Traduza quaisquer das páginas da wiki existentes por meio da [ZecHub Global](https://wiki.zechub.xyz/zechub-global).
 
@@ -30,7 +30,7 @@ Se houver maneiras alternativas pelas quais você gostaria de contribuir, envie 
 
 ***Nota Importante***:
 
-***Para fazer pagamentos, o ZecHub exige que todos os colaboradores preencham o formulário de declaração abaixo. Isso será necessário apenas uma vez para qualquer colaborador***.
+***Para fazer pagamentos, a ZecHub exige que todos os colaboradores preencham o formulário de declaração abaixo. Isso será necessário apenas uma vez para qualquer colaborador***.
 
 ## **Formulário de Colaborador da ZecHub**
 
