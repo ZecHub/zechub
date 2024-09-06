@@ -42,7 +42,7 @@ Confie que temos algumas vantagens incríveis e exclusivas no pipeline para os h
 
 Fornecimento total: 10.000 NFTs gerativos exclusivos na rede principal da Ethereum
 
-= 4% do fornecimento (os primeiros 400 NFTs) foram distribuídos para os primeiros apoiadores do projeto que compraram o brinquedo Zcash X Mighty Jaxx: Edição Gênesis do Cypherpunk Zero 59.
+- 4% do fornecimento (os primeiros 400 NFTs) foram distribuídos para os primeiros apoiadores do projeto que compraram o brinquedo Zcash X Mighty Jaxx: Edição Gênesis do Cypherpunk Zero 59.
 - 72% do fornecimento (7.200 NFTs) serão lançados ao público usando um mecanismo de whitelist inovador que requer o uso de uma carteira Zcash que suporte memos criptografados (mais detalhes abaixo).
 - 24% do fornecimento (2.400 NFTs) serão mantidos pela ECC na Cypherpunk Reserve, para uso em iniciativas futuras que avancem a Zcash e a privacidade no espaço Web3.
 
