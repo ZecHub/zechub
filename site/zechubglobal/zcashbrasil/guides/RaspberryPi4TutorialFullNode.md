@@ -3,13 +3,13 @@
 
 
 
-O objetivo deste guia é ajudar a educar os Zchers interessados em executar um nó completo em um Raspberry Pi 4 de baixa potência.
+O objetivo deste guia é ajudar a educar os Zcashers interessados em executar um nó completo em um Raspberry Pi 4 de baixa potência.
 
 ![zcashdPI](https://user-images.githubusercontent.com/81990132/197372541-dcd886ab-a3d0-4614-b490-0294ddf3ffae.png)
 
 
 
-Se você achar este guia útil, considere doar ZEC para apoiar o ZecHub:
+Se você achar este guia útil, considere doar ZEC para apoiar a ZecHub:
 
 
 `zs1txa9wzxsc46w4940c4t76wjlylhntyp7vcppsp8re32z02srqse038melgglew4jwsh3qes4m4n`
@@ -24,11 +24,11 @@ Se você achar este guia útil, considere doar ZEC para apoiar o ZecHub:
 
 * Como acessar seu Raspberry Pi 4 remotamente
 
-* Como instalar * zcashd*
+* Como instalar o *zcashd*
 
-* Como configurar * zcashd*
+* Como configurar o *zcashd*
 
-* Como usar * zcashd*
+* Como usar o * zcashd*
 
 
 
@@ -38,7 +38,7 @@ Se você achar este guia útil, considere doar ZEC para apoiar o ZecHub:
 
 * Um computador com uma unidade de cartão microSD
 
-* Uma rede Wi-Fi ou um cabo Ethernet com conexão à Internet
+* Uma rede Wi-Fi ou um cabo com conexão à Internet
 
 * SSD / HD externo com suporte USB3
 
@@ -130,7 +130,7 @@ Por exemplo, no linux, você digitaria o seguinte após o download:
 ### Boot Ubuntu Server
 
 
-Se você tiver um monitor extra e um teclado, conecte-os agora. Nota: estes são opcionais.
+Se você tiver um monitor extra e um teclado, conecte-os agora. **Nota**: estes são opcionais.
 
 
 
@@ -204,10 +204,10 @@ Se você tiver um monitor extra e um teclado, conecte-os agora. Nota: estes são
          
 
 
-### Instalando * zcashd*
+### Instalando o *zcashd*
 
 
-* Duas maneiras de instalar o zcashd incluem o download de um binário pré-compilado ou a compilação do zcashd da fonte. Eu * recomendo * compilar a partir da fonte.
+* Duas maneiras de instalar o zcashd incluem o download de um binário pré-compilado ou a compilação do zcashd da fonte. Eu *recomendo* compilar a partir da fonte.
 
 
      * Se o download de uma fonte binária pré-compilada for [adityapk00](https://github.com/adityapk00/zcash/releases) . Observe que, como estamos executando um sistema operacional de 64 bits, queremos zcash-linux-aarch64-v * .tar.gz. Observe também que as versões atualizadas do zcashd raramente são pré-compiladas.
@@ -552,7 +552,7 @@ Se você tiver um monitor extra e um teclado, conecte-os agora. Nota: estes são
 
    
 
-   * Agora construa um receptor UA de acordo com * suas necessidades*. Isso inclui apenas pomar, pomar + mudas e, finalmente, pomar + mudas + Transparente.
+   * Agora construa um receptor UA de acordo com * suas necessidades*. Isso inclui apenas Orchard, Orchard + Sapling e, finalmente, Orchard + Sapling + Transparente.
 
    
 
@@ -591,7 +591,7 @@ Se você tiver um monitor extra e um teclado, conecte-os agora. Nota: estes são
 
 
 
-* Como você envia o ZEC usando um UA?
+* Como você envia o ZEC usando um Endereço Unificado (UA)?
 
 
      `zcash-cli z_sendmany "fromOaddress" "[ { \" endereço \ ":" dOrchardAddress \ ", \" quantidade \ ": 0,0001, \" memorando \ ": \" yourMemoinHex \ " } ] <
@@ -609,7 +609,7 @@ Se você tiver um monitor extra e um teclado, conecte-os agora. Nota: estes são
 
    
 
-    ##### Deve-se notar que os dois endereços * from * AND * destination * podem ser transparentes, de sapling, ou endereços de pomar, no entanto, pode ser necessário ajustar a bandeira privacyPolicy para que a transação seja válida. ( Alguns combos não funcionam se a política de privacidade não fizer sentido! )
+    ##### Deve-se notar que os dois endereços * from * AND * destination * podem ser transparentes, sapling, ou endereços Orchard, no entanto, pode ser necessário ajustar a bandeira privacyPolicy para que a transação seja válida. ( Alguns combos não funcionam se a política de privacidade não fizer sentido! )
 
 
 
@@ -618,7 +618,7 @@ Se você tiver um monitor extra e um teclado, conecte-os agora. Nota: estes são
 * Onde posso encontrar mais informações sobre UA's?
 
 
-     * Confira a postagem [ Hanh's ]( https://medium.com/@hanh425/transaction-privacy-78f80f9f175e) sobre privacidade de transações. Também postou [ este ]( https://forum.zcashcommunity.com/t/unified-addresses-full-node-rpc-api/41980/2) do fórum zcash.
+     * Confira a postagem de [ Hanh ]( https://medium.com/@hanh425/transaction-privacy-78f80f9f175e) sobre privacidade de transações. Ele também postou [ este link ]( https://forum.zcashcommunity.com/t/unified-addresses-full-node-rpc-api/41980/2) n[](url)o fórum zcash.
 
      * [ Este ]( https://github.com/zcash/zips/issues/470)
 
