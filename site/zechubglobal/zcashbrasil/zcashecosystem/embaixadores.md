@@ -2,14 +2,14 @@
 
 O Programa de Embaixadores Globais foi criado para identificar membros da comunidade que fazem contribuições de alta qualidade para a comunidade Zcash e capacitá-los a se tornarem líderes.
 
-Os embaixadores lideram atividades que fazem crescer a comunidade Zcash, impulsionam a adoção pelos usuários e avançam a conscientização sobre a tecnologia de privacidade do Zcash.
+Os embaixadores lideram atividades que fazem crescer a comunidade Zcash, impulsionam a adoção pelos usuários e avançam a conscientização sobre a tecnologia de privacidade da Zcash.
 
 ---
 
 ## O que um Embaixador faz?
 
 - Organiza eventos de encontro físicos ou virtuais
-- Mantém uma presença ativa nas redes sociais e cria conteúdo original relacionado ao Zcash.
+- Mantém uma presença ativa nas redes sociais e cria conteúdo original relacionado a Zcash.
 - Os embaixadores têm liberdade criativa sobre as atividades que planejam.
 
 ---
