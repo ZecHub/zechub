@@ -5,7 +5,7 @@
 
 Halo é um zero-knowledge proof (ZKP) descoberta por Sean Bowe na Electric Coin Co. Ele elimina o Trusted Setup e permite maior escalabilidade da blockchain Zcash. Halo foi o primeiro sistema zero-knowledge proof que é eficiente e recursivo amplamente considerado como um avanço científico.
 
-![halo](https://electriccoin.co/wp-content/uploads/2021/01/Halo-on-Z-1440x720.png "halo")
+- [halo](https://electriccoin.co/wp-content/uploads/2021/01/Halo-on-Z-1440x720.png "halo")
 
 ---
 
@@ -55,7 +55,7 @@ Paralelamente, muitas outras equipes foram descobrindo novos IOPs polinomiais qu
 
 O mais eficiente desses novos protocolos é o PLONK, que concede enorme flexibilidade no design de implementações eficientes com base nas necessidades específicas do aplicativo e fornece tempo de prova 5x melhor do Sonic.
 
-[Visão geral do PLONK](https://www.youtube.com/watch?v=P1JeN30RdwQ)
+- [Visão geral do PLONK](https://www.youtube.com/watch?v=P1JeN30RdwQ)
 
 ---
 
