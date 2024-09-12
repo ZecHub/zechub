@@ -13,7 +13,7 @@
 
 - Click - Deploy Now
 
-- On the Left Menu select- Deplyments
+- On the Left Menu select- Deployments
 
 - Top right corner click Deploy - Select Ubuntu
 
