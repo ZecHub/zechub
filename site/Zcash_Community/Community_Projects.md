@@ -3,58 +3,56 @@
 </a>
 
 ## Zcash Community Projects
-
-
-[Block Explorer](https://zcashblockexplorer.com)
+[Exblo](https://testnet.exblo.app/#/)
+A block explorer specially design for apps testing transactions over the Zcash Testnet. Currently in active development
 
 The Zcash Block Explorer provides information such as transaction data / block information / Addresses / Mempool Blocks etc. Also allows for Transaction Payment Disclosure Viewing Key to be used.
 
+[Dizzy Wallet](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
+
+Dizzy Wallet is a Discord bot that provides seamless and secure access to Zcash transactions. 
 
 [Frost](https://eprint.iacr.org/2020/852)
 
 Researchers at the Zcash Foundation are collaborating on an IETF informational draft for FROST with researchers at the University of Waterloo and several other organizations, and it’s on the path towards greater adoption within the Zcash ecosystem and beyond.
 
-
 [Free2z](https://free2z.cash)
 
 Free2z is a tool for anonymous content and private donations.
 
+[Ezcash](https://blog.nerdbank.net/ezcash-app)
+An easy to use and fully-feature Zcash wallet multiplatform Zcash Wallet with autoshielding support.
 
 [Nighthawk Wallet](https://nighthawkwallet.com/)
 
 Private money in your wallet using ZEC & capable of autoshielding funds.  
 
+
 [Ywallet](https://ywallet.app/)
 
 A multi-feature privacy wallet supporting Zcash and Ycash utilizing the fast syncing algorithm: warp-sync.
 
-[Zbay](https://www.zbay.app/index.html)
+[Zashi](https://z.cash/ecosystem/zashi-wallet/)
+Zachi is a Zcash Wallet developed by the Electric Coin Company that aims to offer simplicity, privacy and ease of use to every ZEC holder.
 
-Zbay lets you send messages, build online communities and marketplaces, and buy & sell products privately using Zcash.
-
+[Zcash Block Explorer](https://mainnet.zcashexplorer.app/)
+A well detailed, comprehensive Zcash block explorer from Nighthawk Apps.
 
 [Zebra](https://zfnd.org/zebra/)
 
 Zebra is the Foundation’s independent, consensus-compatible implementation of a Zcash node, currently under development. Zebra can be used to join the Zcash peer-to-peer network, which helps keep Zcash working by validating and broadcasting transactions, and maintaining the Zcash blockchain state in a distributed manner.
 
-
 [ZECpages](https://www.zecpages.com/z/all)
 
 ZECpages is a censorship resistant, Zcash blockchain-powered social media. It includes a directory of zcash users and an anonymous message board powered by Zcash.
 
-[ZECwallet Lite](https://zecwallet.co)
+[Zingo](https://www.zingolabs.org/)
 
-A fully-featured wallet for Zcash.
-
-[Zeme Team](https://zeme.team/)
-
-Zeme Team allows creators to easily receive tips from anyone in the community. They’ll have direct links to their work that they can share to social media to drive more tips.
-
+A fully-featured Zcash Wallet for the more advanced Zcash user. Available on Mobile and Desktop platforms.
 
 [ZGo](https://zgo.cash)
 
 ZGo is a Zcash Register. Enabling vendors and merchants to accept Zcash. Currently testing the app to get high quality feedback on the usability and features of ZGo.
-
 
 [Zlink](https://zlink.click)
 
@@ -64,9 +62,10 @@ Zlink is the simplest way to find any link, tool, information you need about Zca
 
 ZcashRPC is an opensource automated documentation website for zcashd.
 
+[ZK Radio](https://zcashesp.com/zk-radio/)
+An online Radio Station to inform, educate and entertain the Zcash Community, developed by Zcash en Español and the ZKAV Club.
 ___
 ## Applications that Utilize Zcash
-
 
 [aftok](https://aftok.com)
 
@@ -76,25 +75,21 @@ An aftok is a radical new kind of cooperative, bottom-up business organization. 
 
 AtomicDEX is a multi-coin wallet, bridge, and DEX rolled into one app. Mobile/Desktop versions available.
 
+[Brave Wallet](https://brave.com/es/wallet/)
+
+A secure crypto wallet directly integrated into Brave Browser that supports Zcash transparent transactions.
 
 [DCRDEX](https://dex.decred.org)
 
 DCRDEX is a decentralized exchange built by the Decred Project. Desktop Client Only.
 
-[Sideshift](https://sideshift.ai)
+[Sideshift](https://sideshift.ai) (Temporarily Suspended)
 
 SideShift.ai is a no sign-up cryptocurrency exchange supporting over fifty coins and tokens across multiple blockchains. Users value our focus on privacy, ease of use and minimizing third-party risk, all of which are hard to come by on traditional crypto exchanges.
-
-
-[RenBridge](https://bridge.renproject.io/welcome)
-
-Using RenVM, a universal translator, it converts digital assets to the format needed by its destination chain. For example, RenVM takes ZEC, holds it, and then converts it to an ERC-20 with a 1:1 ratio to ensure your renZEC is always backed by the same amount of ZEC.
-
 
 [ZeroBridge](https://bridge.zerodao.com/#/transfer/ETH)
 
 ZeroBridge is a decentralized client of the Zero DAO protocol, enabling cross-chain asset scripting in a browser with your existing wallet, @zerodaoHQ makes it possible to fund a fresh ETH address with Shielded ZEC.
-
 
 [Zcash CoinHolder Polling](https://forum.zcashcommunity.com/t/coin-holder-polling-instructions/40170)
 
