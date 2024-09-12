@@ -1,7 +1,3 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/guides/How_to_run_zcashd_on_Akash_Network.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
-</a>
-
 # How to run Zcashd on Akash Network 
 
 ### 1. Initial Setup 
@@ -15,17 +11,17 @@
 
 ### 2. Setup Deployment
 
-- Click 'Deploy Now'
+- Click - Deploy Now
 
-- On the Left Menu select 'Deplyments'
+- On the Left Menu select- Deplyments
 
-- Top right corner click Deploy - Select 'Ubuntu'
+- Top right corner click Deploy - Select Ubuntu
 
 - Use the builder to enter deployment specs
 
 - Set path for node to /mnt/data
 
-Recommended Hardware: 4 CPU cores, 8 GB RAM, 300 GB Persistent* Storage - be sure to check the box. By default it displays ephemeral storage. 
+Recommended Hardware: 4 CPU cores, 8 GB RAM, 300 GB Persistent Storage - be sure to check the box. By default it displays ephemeral storage. 
 
 
 
