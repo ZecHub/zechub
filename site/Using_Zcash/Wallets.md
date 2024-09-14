@@ -51,7 +51,7 @@
 ![logo](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Shielded Memo | Address Check | Unified Address | Automatic Shielding | Payment Request | Diversified Address
+- Features: Shielded Memo | Address Check | Unified Address | Automatic Shielding | Payment Request | Diversified Address | TEX Address
 
 ---
 
