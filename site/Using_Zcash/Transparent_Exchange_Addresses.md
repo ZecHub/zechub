@@ -1,6 +1,6 @@
 # What are Zcash TEX addresses?
 
-ZCash TEX addresses represent a unique type of receiving address. To send funds to a TEX address, they must first come from Transparent Addresses. Importantly, it is not possible to send funds directly from a Shielded Address to a TEX address. In practical terms, you will need to transfer funds from your Shielded Balance to one of your Transparent Addresses and then onward to the recipients TEX address. 
+Zcash TEX addresses represent a unique type of receiving address. To send funds to a TEX address, they must first come from Transparent Addresses. Importantly, it is not possible to send funds directly from a Shielded Address to a TEX address. In practical terms, you will need to transfer funds from your Shielded Balance to one of your Transparent Addresses and then onward to the recipients TEX address. 
 
 Upon detecting a TEX Address, Zashi wallet is able to send funds from the shielded pool to an ephemeral (temporary transparent address) to then automatically deposit into the TEX Address. 
 
