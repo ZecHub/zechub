@@ -143,8 +143,8 @@
 
 ---
 
-## [Nighthawk - Not Maintained](https://nighthawkwallet.com)
+## [Nighthawk](https://nighthawkwallet.com)
 ![logo](https://i.ibb.co/vL2FxGk/nighthawkcard.png "Nighthawk")
 - Devices: Mobile
-- Pools: Transparent | Sapling
+- Pools: Transparent | Sapling | Orchard
 - Features: Spend before Sync | Unified Address | Shielded memo
