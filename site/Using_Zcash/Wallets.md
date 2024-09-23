@@ -3,7 +3,7 @@
 ![logo](https://i.ibb.co/HgsHnpN/zashiwallet.png "Zashi")
 - Devices: Mobile
 - Pools: Transparent | Sapling | Orchard
-- Features: Spend before Sync | Unified Address | Shielded Memo | Payment Request | TEX Address | Tor Currency Rates
+- Features: Spend before Sync | Unified Address | Shielded Memo | Payment Request | TEX Address | Tor Currency Rates | Coinbase Onramp
 
 ---
 
