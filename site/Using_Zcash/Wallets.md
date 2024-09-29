@@ -3,7 +3,7 @@
 ![logo](https://i.ibb.co/HgsHnpN/zashiwallet.png "Zashi")
 - Devices: Mobile
 - Pools: Transparent | Sapling | Orchard
-- Features: Spend before Sync | Unified Address | Shielded Memo | Payment Request | TEX Address | Tor Currency Rates
+- Features: Spend before Sync | Unified Address | Shielded Memo | Payment Request | TEX Address | Tor Currency Rates | Coinbase Onramp
 
 ---
 
@@ -143,8 +143,8 @@
 
 ---
 
-## [Nighthawk - Not Maintained](https://nighthawkwallet.com)
+## [Nighthawk](https://nighthawkwallet.com)
 ![logo](https://i.ibb.co/vL2FxGk/nighthawkcard.png "Nighthawk")
 - Devices: Mobile
-- Pools: Transparent | Sapling
+- Pools: Transparent | Sapling | Orchard
 - Features: Spend before Sync | Unified Address | Shielded memo
