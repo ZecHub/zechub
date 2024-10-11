@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.desktop-12 {
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.desktop-12 .screenshot-3151 {
+    filter: blur(10px);
+    background: url('../../zcash/assets/images/screenshot_3151.png') 50% / cover no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.login {
+    z-index: 1;
+    margin: 70px auto;
+}
+
+.form-title {
+    padding-bottom: 24px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+}
+
+.login-form input {
+    /* margin-bottom: 8px; */
+    width: 100%;
+    min-width: 300px;
+}
+
+#btn-form {
+    background-color: #F3B724;
+}
+
+#btn-form:hover {
+  background-color: rgb(255, 184, 52); 
+}

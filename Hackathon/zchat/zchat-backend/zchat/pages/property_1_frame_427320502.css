@@ -1,0 +1,25 @@
+.property-1-frame-427320502 .union {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 150px;
+  height: 150px;
+}
+.property-1-frame-427320502 .union-1 {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+.property-1-frame-427320502 .brandmark-yellow-2 {
+  background: url('../assets/images/brandmark_yellow_2.png') 50% / cover no-repeat;
+  position: absolute;
+  left: 4px;
+  top: 2px;
+  right: 2px;
+  height: 145px;
+}
+.property-1-frame-427320502 {
+  display: flex;
+  padding-left: 1px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,307 @@
+* {
+  margin: 0px;
+}
+
+.desktop-12 .screenshot-3151 {
+  filter: blur(10px);
+  background: url('assets/images/screenshot_3151.png') 50% / cover no-repeat;
+  background-position: center;
+  background-size: contain; /* Keeps the original size */
+  position: absolute;
+  /* right: -268px;
+  bottom: -69px; */
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Ensures anything outside the container is hidden */
+}
+.desktop-12 .zcash-logo-1 {
+  background: url('assets/images/zcash_logo_11.gif');
+  background-position: center;
+  background-size: 200%; /* Increase to zoom in on the Z */
+  margin-right: 1.8px;
+  width: 36px;
+  height: 45px;
+}
+.desktop-12 .chat {
+  margin: 4px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #F3B724;
+}
+.desktop-12 .group-274 {
+  margin: 0 31.9px 28px 0;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+  align-items: center;
+}
+.desktop-12 .vector {
+  margin: 0 10px 2px 0;
+  width: 18px;
+  height: 18px;
+}
+.desktop-12 .dashboard {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #2D2626;
+}
+.desktop-12 .container {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background: #F2EFEF;
+  position: relative;
+  margin-bottom: 17px;
+  display: flex;
+  flex-direction: row;
+  padding: 22px 0 18px 0;
+  width: 220px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.desktop-12 .vector-1 {
+  margin: 0 10px 2px 0;
+  width: 18px;
+  height: 18px;
+}
+.desktop-12 .profile {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #2D2626;
+}
+.desktop-12 .profile-1 {
+  margin: 0 42.9px 34px 0;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.desktop-12 .vector-3 {
+  margin: 0 10px 3px 0;
+  width: 18px;
+  height: 18px;
+}
+.desktop-12 .messages {
+  margin-top: 1px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #2D2626;
+}
+.desktop-12 .messages-1 {
+  margin: 0 15.5px 34px 0;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.desktop-12 .vector-6 {
+  margin: 0 10px 4px 0;
+  width: 18px;
+  height: 18px;
+}
+.desktop-12 .wallet {
+  margin-top: 2px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #2D2626;
+}
+.desktop-12 .wallet-1 {
+  margin: 0 42.9px 34px 0;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.desktop-12 .vector-2 {
+  margin: 0 10px 3px 0;
+  width: 18px;
+  height: 18px;
+}
+.desktop-12 .markets {
+  margin-top: 1px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #2D2626;
+}
+.desktop-12 .market {
+  margin: 0 29.7px 35px 0;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.desktop-12 .vector-4 {
+  margin: 1px 10px 3px 0;
+  width: 20px;
+  height: 16px;
+}
+.desktop-12 .transactions {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #2D2626;
+}
+.desktop-12 .transactions-1 {
+  margin: 0 0 34px 8.7px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.desktop-12 .vector-5 {
+  margin: 0 10px 3px 0;
+  width: 18px;
+  height: 18px;
+}
+.desktop-12 .settings {
+  margin-top: 1px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #2D2626;
+}
+.desktop-12 .settings-1 {
+  margin-right: 27.8px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.desktop-12 .component-14 {
+  margin: 0 0 42px 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 220px;
+  box-sizing: border-box;
+}
+.desktop-12 .rectangle-1232 {
+  border-radius: 28px;
+  background: #F0EBEB;
+  margin: 0 7px 29px 0;
+  width: 220px;
+  height: 5px;
+}
+.desktop-12 .help-icon {
+  margin: 2px 10px 1px 0;
+  width: 17px;
+  height: 17px;
+}
+.desktop-12 .help {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #1C1919;
+}
+.desktop-12 .help-btn {
+  margin-bottom: 35px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.desktop-12 .vector-10 {
+  margin: 1px 10px 1px 0;
+  width: 18px;
+  height: 18px;
+}
+.desktop-12 .log-out {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #1C1919;
+}
+.desktop-12 .log-out-btn {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.desktop-12 .component-15 {
+  margin-right: 13.8px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.desktop-12 .container-1 {
+  background: #F1FCFD;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 98px 0;
+  width: 321px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.desktop-12 {
+  display: flex;
+  flex-direction: row;
+  background: #FFFFFF;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.login {
+  z-index: 1;
+  margin: 200px auto;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+
+.login-form input {
+  /* margin-bottom: 8px; */
+  width: 300px;
+  /* border-radius: 20px;
+  border-width: .5px;
+  padding: 8px; */
+}
+
+.form-title {
+  padding-bottom: 24px;
+}
+
+#btn-form {
+  background-color: #F3B724; 
+}
+
+#btn-form:hover {
+  background-color: rgb(255, 184, 52); 
+}

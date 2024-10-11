@@ -1,0 +1,22 @@
+.verified-or-not .verified {
+  margin-bottom: 1.9px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 10px;
+  color: #000000;
+}
+.verified-or-not .vector {
+  width: 13.9px;
+  height: 13.9px;
+}
+.verified-or-not {
+  border-radius: 10px;
+  background: #2BAEBA;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 0;
+  box-sizing: border-box;
+}
