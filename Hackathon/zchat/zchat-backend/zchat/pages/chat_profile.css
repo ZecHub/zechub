@@ -1,0 +1,20 @@
+.chat-profile .container {
+  border-radius: 10px;
+  background: url('../assets/images/image.jpeg') 50% / cover no-repeat;
+  margin: 0 6.5px 9px 6.5px;
+  width: 60px;
+  height: 60px;
+}
+.chat-profile .quincy {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+.chat-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}

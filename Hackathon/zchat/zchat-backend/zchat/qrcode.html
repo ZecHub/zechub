@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code for Wallet Address</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+</head>
+<body>
+    <div>
+        <canvas id="qrcode"></canvas>
+    </div>
+
+    <script>
+        // Replace this with your wallet address
+        const walletAddress = "t1HzECD85n8ZFentm4Z3yyJuEmPWZCsekHX";
+
+        // Create a new QRious instance to generate the QR code
+        const qr = new QRious({
+            element: document.getElementById('qrcode'),
+            value: walletAddress,
+            size: 200 // Size of the QR code in pixels
+        });
+    </script>
+</body>
+</html>

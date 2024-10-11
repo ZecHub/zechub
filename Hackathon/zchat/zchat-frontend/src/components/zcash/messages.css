@@ -1,0 +1,1419 @@
+* {
+  margin: 0px;
+}
+
+input {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.desktop-13 .screenshot-3151 {
+  filter: blur(10px);
+  background: url('assets/images/screenshot_3151.png') 50% / cover no-repeat;
+  background-position: center;
+  background-size: contain; /* Keeps the original size */
+  position: absolute;
+  /* right: -268px;
+  bottom: -69px; */
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Ensures anything outside the container is hidden */
+}
+.desktop-13 .vector-3165 {
+  border-radius: 4px;
+  background: #000000;
+  position: absolute;
+  left: 361px;
+  top: 263px;
+  width: 337px;
+  height: 0px;
+}
+.desktop-13 .zcash-logo-1 {
+  background: url('assets/images/zcash_logo_11.gif');
+  background-position: center;
+  background-size: 200%; /* Increase to zoom in on the Z */
+  margin-right: 1.8px;
+  width: 36px;
+  height: 45px;
+}
+.desktop-13 .chat {
+  margin: 4px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #F3B724;
+}
+/* .desktop-13 .group-274 {
+  margin: 0 30.9px 28px 0;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+} */
+.desktop-13 .group-274 {
+  margin: 0 31.9px 28px 0;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+  align-items: center;
+}
+.desktop-13 .vector-7 {
+  margin: 1px 10px 1px 0;
+  width: 18px;
+  height: 18px;
+}
+.desktop-13 .dashboard {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #2D2626;
+}
+.desktop-13 .dashboard-btn {
+  /* margin: 0 5.4px 35px 0; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+}
+.desktop-13 .vector-8 {
+  margin: 1px 10px 1px 0;
+  width: 18px;
+  height: 18px;
+}
+.desktop-13 .profile-1 {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #2D2626;
+}
+.desktop-13 .profile {
+  /* margin: 0 42.9px 15px 0; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+}
+.desktop-13 .transactions-nav {
+  /* margin: 0 42.9px 15px 0; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+}
+.desktop-13 .vector-10 {
+  margin: 0 10px 2px 0;
+  width: 18px;
+  height: 18px;
+}
+.desktop-13 .messages-1 {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #2D2626;
+}
+.desktop-13 .messages-3 {
+  /* margin: 0 15.5px 34px 0; */
+  /* margin: 0 5.4px 35px 0; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* .desktop-13 .container-11 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background: #F2EFEF;
+  position: relative;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0;
+  width: 220px;
+  box-sizing: border-box;
+  justify-content: center;
+} */
+.desktop-13 .active-nav {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background: #F2EFEF;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding-top: 22px;
+  padding-bottom: 18px;
+  width: 220px;
+  box-sizing: border-box;
+}
+.desktop-13 .vector-13 {
+  margin: 0 10px 3px 0;
+  width: 18px;
+  height: 18px;
+}
+.desktop-13 .wallet-1 {
+  margin-top: 1px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #2D2626;
+}
+.desktop-13 .wallet {
+  /* margin: 0 42.9px 35px 0; */
+  display: flex;
+  flex-direction: row;
+  /* width: fit-content; */
+  box-sizing: border-box;
+  align-items: center;
+}
+.desktop-13 .vector-9 {
+  margin: 0 10px 2px 0;
+  width: 18px;
+  height: 18px;
+}
+.desktop-13 .markets {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #2D2626;
+}
+.desktop-13 .market {
+  /* margin: 0 29.7px 35px 0; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+}
+.desktop-13 .vector-11 {
+  margin: 2px 10px 2px 0;
+  width: 20px;
+  height: 16px;
+}
+.desktop-13 .transactions-1 {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #2D2626;
+}
+.desktop-13 .vector-12 {
+  margin: 0 10px 2px 0;
+  width: 18px;
+  height: 18px;
+}
+.desktop-13 .settings-1 {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #2D2626;
+}
+.desktop-13 .settings {
+  /* margin-right: 27.8px; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+}
+/* .desktop-13 .component-14 {
+  margin-bottom: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 220px;
+  box-sizing: border-box;
+} */
+.desktop-13 .component-14 {
+  margin-bottom: 42px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: 220px;
+  box-sizing: border-box;
+}
+.desktop-13 .rectangle-1232 {
+  border-radius: 28px;
+  background: #F0EBEB;
+  margin-bottom: 32px;
+  width: 220px;
+  height: 5px;
+}
+.desktop-13 .help-icon {
+  margin: 2px 10px 1px 0;
+  width: 17px;
+  height: 17px;
+}
+.desktop-13 .help {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #1C1919;
+}
+.desktop-13 .help-btn {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+}
+.desktop-13 .vector-17 {
+  margin: 1px 10px 1px 0;
+  width: 18px;
+  height: 18px;
+}
+.desktop-13 .log-out {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #1C1919;
+}
+.desktop-13 .log-out-btn {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+}
+.desktop-13 .component-15 {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+  width: 220px;
+}
+/* .desktop-13 .container-3 {
+  background: #F1FCFD;
+  position: absolute;
+  left: 0px;
+  bottom: -64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 126px;
+  width: 321px;
+  height: 1275px;
+  box-sizing: border-box;
+} */
+.desktop-13 .container-3 {
+  background: #F1FCFD;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 16px;
+  width: 250px;
+  height: fit-content;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.desktop-13 .messages {
+  margin-right: 11px;
+  width: 91px;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #2D2626;
+}
+.desktop-13 .edit-icon {
+  margin: 1.5px 0;
+  width: 19px;
+  height: 19px;
+}
+.desktop-13 .frame-427320485 {
+  border-radius: 14px;
+  border-bottom: 0.8px solid rgba(0, 0, 0, 0.5);
+  background: #2BAEBA;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 22px 19.2px 10px;
+  width: 381px;
+  box-sizing: border-box;
+}
+.desktop-13 .search-icon {
+  margin-right: 9px;
+  width: 15px;
+  height: 15px;
+}
+.desktop-13 .search-for-chats {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 12px;
+  color: #2D2626;
+}
+.desktop-13 .search-bar {
+  border-radius: 33px;
+  background: #F6F6F6;
+  position: relative;
+  margin-right: 14px;
+  display: flex;
+  flex-direction: row;
+  padding: 13px 0 13px 16px;
+  width: 281px;
+  box-sizing: border-box;
+}
+.desktop-13 .add-icon {
+  margin: 12px 0;
+  width: 17px;
+  height: 17px;
+}
+.desktop-13 .searchbar-container-8 {
+  margin: 0 29px 12px 29px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.desktop-13 .container-chat-3 {
+  border-radius: 10px;
+  /* background: url('assets/images/image_1.jpeg') 50% / cover no-repeat; */
+  /* margin: 6.5px 17px 6.5px 0; */
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  min-width: 592px;
+}
+.desktop-13 .container {
+  border-radius: 10px;
+  background: url('assets/images/image_1.jpeg') 50% / cover no-repeat;
+  margin: 6.5px 17px 6.5px 0;
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+}
+.desktop-13 .damnedest {
+  margin-bottom: 7px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+.desktop-13 .its-been-along-day-bud-ill-send-you-some-zto-get-some-refre {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 11px;
+  color: #000000;
+  max-width: 240px;
+}
+.desktop-13 .frame-427320486 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.desktop-13 .container-9 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.desktop-13 .mins-ago {
+  position: absolute;
+  top: 13px;
+  right: 10.2px;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 9px;
+  color: #000000;
+}
+.desktop-13 .container-1 {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 9px;
+  color: #FFFFFF;
+}
+.desktop-13 .unread {
+  border-radius: 9px;
+  background: #2BAEBA;
+  position: absolute;
+  right: 25px;
+  bottom: 22.5px;
+  display: flex;
+  padding: 3px 7.5px 4px 7px;
+  box-sizing: border-box;
+}
+.desktop-13 .frame-427320487 {
+  
+}
+.desktop-13 .vector-3166 {
+  border-radius: 4px;
+  background: #F0EBEB;
+  margin-bottom: 9px;
+  width: 381px;
+  height: 0px;
+}
+.desktop-13 .container-2 {
+  border-radius: 10px;
+  background: url('assets/images/image.jpeg') 50% / cover no-repeat;
+  margin: 6.5px 17px 6.5px 0;
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+}
+.desktop-13 .quincy {
+  margin-bottom: 7px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+.desktop-13 .ijust-need-to-get-some-sleep-btw-did-you-see-the-pump-on-zlatel {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 11px;
+  color: #000000;
+  width: 88%;
+}
+.desktop-13 .frame-4273204861 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.desktop-13 .container-4 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.desktop-13 .mins-ago-1 {
+  position: absolute;
+  top: 13px;
+  right: 11.7px;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 9px;
+  color: #000000;
+}
+.desktop-13 .frame-427320488 {
+  border-radius: 10px;
+  background: #F2EFEF;
+  position: relative;
+  margin: 0 30px 10px 31px;
+  padding: 10px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.desktop-13 .vector-3167 {
+  border-radius: 4px;
+  background: #F0EBEB;
+  margin-bottom: 9px;
+  width: 381px;
+  height: 0px;
+}
+.desktop-13 .avatar-profile {
+  border-radius: 10px;
+  background: url('assets/images/image_2.jpeg') 50% / cover no-repeat;
+  margin: 6.5px 17px 6.5px 0;
+  width: 40px;
+  height: 40px;
+}
+
+.desktop-13 .carina {
+  margin-bottom: 7px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+.desktop-13 .you-just-kept-sending-me-zthats-sweet-ill-talk-to-you-later {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 11px;
+  color: #000000;
+  width: 88%;
+}
+.desktop-13 .frame-4273204862 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.desktop-13 .container-5 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.desktop-13 .mins-ago-2 {
+  position: absolute;
+  top: 13px;
+  right: 12px;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 9px;
+  color: #000000;
+}
+.desktop-13 .container-4 {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 9px;
+  color: #FFFFFF;
+}
+.desktop-13 .unread-1 {
+  border-radius: 9px;
+  background: #2BAEBA;
+  position: absolute;
+  right: 25px;
+  bottom: 23px;
+  display: flex;
+  padding: 3px 6.7px 4px 6px;
+  box-sizing: border-box;
+}
+.desktop-13 .frame-427320489 {
+  border-radius: 10px;
+  background: #F1FCFD;
+  position: relative;
+  margin: 0 30px 10px 31px;
+  padding: 10px;
+  width: 320px;
+  box-sizing: border-box;
+}
+.desktop-13 .vector-3168 {
+  border-radius: 4px;
+  background: #F0EBEB;
+  margin-bottom: 9px;
+  width: 381px;
+  height: 0px;
+}
+.desktop-13 .drender-avatar-character-2321506117681 {
+  border-radius: 10px;
+  background: url('assets/images/drender_avatar_character_2321506117681.jpeg') 50% / cover no-repeat;
+  margin: 6.5px 17px 6.5px 0;
+  width: 40px;
+  height: 40px;
+}
+.desktop-13 .james {
+  margin-bottom: 7px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+.desktop-13 .you-just-kept-sending-me-zthats-sweet-ill-talk-to-you-later-1 {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 11px;
+  color: #000000;
+  width: 88%;
+}
+.desktop-13 .frame-4273204863 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.desktop-13 .container-12 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.desktop-13 .mins-ago-3 {
+  position: absolute;
+  top: 13px;
+  right: 12.2px;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 9px;
+  color: #000000;
+}
+.desktop-13 .vector-3169 {
+  border-radius: 4px;
+  background: #F0EBEB;
+  margin-bottom: 9px;
+  width: 381px;
+  height: 0px;
+}
+.desktop-13 .drender-avatar-character-2321506117101 {
+  border-radius: 10px;
+  background: url('assets/images/drender_avatar_character_2321506117101.jpeg') 50% / cover no-repeat;
+  margin: 6.5px 17px 6.5px 0;
+  width: 40px;
+  height: 40px;
+}
+.desktop-13 .jethro {
+  margin-bottom: 7px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+.desktop-13 .you-just-kept-sending-me-zthats-sweet-ill-talk-to-you-later-2 {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 11px;
+  color: #000000;
+  width: 88%;
+}
+.desktop-13 .frame-4273204864 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.desktop-13 .container-2 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.desktop-13 .mins-ago-4 {
+  position: absolute;
+  top: 13px;
+  right: 14px;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 9px;
+  color: #000000;
+}
+.desktop-13 .container-5 {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 9px;
+  color: #FFFFFF;
+}
+.desktop-13 .unread-2 {
+  border-radius: 9px;
+  background: #2BAEBA;
+  position: absolute;
+  right: 25px;
+  bottom: 23px;
+  display: flex;
+  padding: 3px 6.7px 4px 6px;
+  box-sizing: border-box;
+}
+.desktop-13 .vector-3170 {
+  border-radius: 4px;
+  background: #F0EBEB;
+  margin-bottom: 9px;
+  width: 381px;
+  height: 0px;
+}
+.desktop-13 .profile-picture {
+  border-radius: 10px;
+  background: url('assets/images/image_3.jpeg') 50% / cover no-repeat;
+  margin: 6.5px 17px 6.5px 0;
+  width: 40px;
+  height: 40px;
+}
+.desktop-13 .coin-king {
+  margin-bottom: 7px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+.desktop-13 .you-just-kept-sending-me-zthats-sweet-ill-talk-to-you-later-3 {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 11px;
+  color: #000000;
+  width: 88%;
+}
+.desktop-13 .frame-4273204865 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.desktop-13 .container-1 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.desktop-13 .hour-ago {
+  position: absolute;
+  top: 13px;
+  right: 15.9px;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 9px;
+  color: #000000;
+}
+.desktop-13 .container-7 {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 9px;
+  color: #FFFFFF;
+}
+.desktop-13 .unread-3 {
+  border-radius: 9px;
+  background: #2BAEBA;
+  position: absolute;
+  right: 25px;
+  bottom: 23px;
+  display: flex;
+  padding: 3px 6.3px 4px 6px;
+  box-sizing: border-box;
+}
+.desktop-13 .vector-3171 {
+  border-radius: 4px;
+  background: #F0EBEB;
+  margin-bottom: 9px;
+  width: 381px;
+  height: 0px;
+}
+.desktop-13 .drender-avatar-character-2321506116981 {
+  border-radius: 10px;
+  background: url('assets/images/drender_avatar_character_2321506116981.jpeg') 50% / cover no-repeat;
+  margin: 6.5px 17px 6.5px 0;
+  width: 40px;
+  height: 40px;
+}
+.desktop-13 .master-zcasher {
+  margin-bottom: 7px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+.desktop-13 .you-just-kept-sending-me-zthats-sweet-ill-talk-to-you-later-4 {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 11px;
+  color: #000000;
+  width: 88%;
+}
+.desktop-13 .frame-4273204866 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.desktop-13 .profile-picture {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.desktop-13 .hours-ago {
+  position: absolute;
+  top: 13px;
+  right: 9.6px;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 9px;
+  color: #000000;
+}
+.desktop-13 .container-8 {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 9px;
+  color: #FFFFFF;
+}
+.desktop-13 .unread-4 {
+  border-radius: 9px;
+  background: #2BAEBA;
+  position: absolute;
+  right: 25px;
+  bottom: 23px;
+  display: flex;
+  padding: 3px 8.5px 4px 6px;
+  box-sizing: border-box;
+}
+.desktop-13 .vector-3172 {
+  border-radius: 4px;
+  background: #F0EBEB;
+  margin-bottom: 92px;
+  width: 381px;
+  height: 0px;
+}
+.desktop-13 .vector-3173 {
+  border-radius: 4px;
+  background: #F0EBEB;
+  margin-bottom: 92px;
+  width: 381px;
+  height: 0px;
+}
+.desktop-13 .vector-3174 {
+  border-radius: 4px;
+  background: #F0EBEB;
+  width: 381px;
+  height: 0px;
+}
+.desktop-13 .chat-list {
+  margin: 0 auto;
+  border-radius: 36px;
+  background: #FFFFFF;
+  /* position: absolute; */
+  left: 341px;
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 48px 0 97px 0;
+  box-sizing: border-box;
+  max-width: 381px;
+  z-index: 2;
+}
+.desktop-13 .container-9 {
+  border-radius: 10px;
+  background: url('assets/images/image.jpeg') 50% / cover no-repeat;
+  margin-right: 9px;
+  width: 40px;
+  height: 40px;
+}
+.desktop-13 .quincy-1 {
+  margin: 10px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+.desktop-13 .chat-profile {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.desktop-13 .trash {
+  width: 17px;
+  height: 17px;
+}
+.desktop-13 .vuesaxlineartrash {
+  margin-right: 4px;
+  display: flex;
+  width: 17px;
+  height: 17px;
+  box-sizing: border-box;
+}
+.desktop-13 .clear {
+  margin: 1px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.4;
+  color: #FF4141;
+}
+.desktop-13 .group-3095 {
+  margin: 11.5px 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.desktop-13 .frame-427320500 {
+  border-radius: 10px;
+  background: #F4B728;
+  /* margin-bottom: 67px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 18px 15.3px 18px 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.desktop-13 .hi-there-ill-like-to-know-if-icould-get-adiscount-on-five-plates-of-fried-rice-iwould-really-love-to {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.58;
+  color: #000000;
+}
+.desktop-13 .frame-427320497 {
+  border-radius: 12px;
+  background: #F2EFEF;
+  margin-bottom: 4px;
+  display: flex;
+  padding: 10px 20.5px 10px 10px;
+  box-sizing: border-box;
+}
+.desktop-13 .pm {
+  margin: 0 1.9px;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 1.37;
+  color: var(--black, #1F1F1F);
+}
+.desktop-13 .group-5384 {
+  border-radius: 12px;
+  margin: 0 0.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.desktop-13 .hello-absolutely-wed-be-delighted-to-give-a-10-discount-on-six-plates-we-would-send-abarcode-to-make-payment-other-going-the-normal-payment-process-when-would-you-like-to-get-it-and-how-do-you-want-it-to-be-delivered {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.58;
+  color: #000000;
+}
+.desktop-13 .frame-427320494 {
+  border-radius: 12px 12px 12px 0;
+  background: #F1FCFD;
+  margin-bottom: 3px;
+  display: flex;
+  padding: 10px 18.9px 10px 10px;
+  box-sizing: border-box;
+}
+.desktop-13 .pm-1 {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 1.37;
+  color: var(--black, #1F1F1F);
+}
+.desktop-13 .group-5385 {
+  margin: 0 2.5px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: unset;
+  box-sizing: border-box;
+  padding: 8px 0;
+}
+.desktop-13 .id-like-to-get-it-today-before-4-pm-and-with-express-delivery {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.58;
+  color: #000000;
+}
+.desktop-13 .frame-427320495 {
+  border-radius: 12px 12px 0 12px;
+  background: #F2EFEF;
+  margin-right: 0.1px;
+  display: flex;
+  padding: 10px 25.4px 10px 10px;
+  box-sizing: border-box;
+}
+.desktop-13 .pm-2 {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 1.37;
+  color: var(--black, #1F1F1F);
+}
+.desktop-13 .group-5386 {
+  margin-bottom: 164px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.desktop-13 .thats-impressive-ill-like-to-try-the-pair-delivery-some-other-time {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.58;
+  color: #000000;
+}
+.desktop-13 .frame-427320498 {
+  border-radius: 12px 12px 0 12px;
+  background: #F2EFEF;
+  padding: 10px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.desktop-13 .pm-3 {
+  margin: 0 2.6px;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 1.37;
+  color: var(--black, #1F1F1F);
+}
+.desktop-13 .group-5388 {
+  margin: 0 2.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px 0;
+}
+.desktop-13 .ijust-need-to-get-some-sleep-btw-did-you-see-the-pump-on-zlately-it-was-massive-iwish-icould-get-some-zec-right-now {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.desktop-13 .frame-427320499 {
+  border-radius: 12px 12px 12px 0;
+  background: #F1FCFD;
+  margin-bottom: 1px;
+  display: flex;
+  padding: 10px 10.7px 10px 10px;
+  box-sizing: border-box;
+}
+.desktop-13 .pm-5 {
+  margin: 0 7.6px;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 1.37;
+  color: var(--black, #1F1F1F);
+}
+.desktop-13 .group-5389 {
+  margin: 0 0.9px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.desktop-13 .container-7 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+.desktop-13 .sounds-great-we-are-sorry-about-the-increase-in-the-delivery-fee-it-is-just-because-of-the-current-economic-situation-of-the-country-so-we-have-provided-an-option-of-paired-delivery-if-you-would-like-to-this-option-can-be-also-accessed-by-using-ourpaired-delivery-barcode {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.58;
+  color: #000000;
+}
+.desktop-13 .frame-427320496 {
+  border-radius: 12px 12px 12px 0;
+  background: #F1FCFD;
+  margin-bottom: 2px;
+  display: flex;
+  padding: 10px 23.6px 10px 10px;
+  box-sizing: border-box;
+}
+.desktop-13 .pm-4 {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 1.37;
+  color: var(--black, #1F1F1F);
+}
+.desktop-13 .group-5387 {
+  position: absolute;
+  left: 0.9px;
+  bottom: 145px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.desktop-13 .chat-page {
+  /* position: relative; */
+  /* margin: 0 48.7px 72px 48.7px; */
+  /* display: flex; */
+  box-sizing: border-box;
+  max-height: 400px;
+  overflow-y: scroll;
+  padding-bottom: 10px;
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+  padding: 0 56px;
+  /* margin-bottom: 72px; */
+}
+
+.desktop-13 .chat-page::-webkit-scrollbar {
+  display: none;
+}
+
+.desktop-13 .type-your-message {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #626262;
+}
+.desktop-13 .textbox {
+  border-radius: 100px;
+  background: #F6F6F6;
+  position: relative;
+  /* margin-right: 19.8px; */
+  margin: 0px 19.8px;
+  padding: 20px 29.3px;
+  width: 415.4px;
+  box-sizing: border-box;
+}
+.desktop-13 .ellipse-1267 {
+  border-radius: 22.5px;
+  background: #2BAEBA;
+  position: absolute;
+  right: -2.5px;
+  bottom: 0px;
+  width: 45px;
+  height: 45px;
+}
+.desktop-13 .send-2 {
+  width: 21px;
+  height: 21px;
+}
+.desktop-13 .vuesaxlinearsend-2 {
+  position: absolute;
+  right: 9.5px;
+  bottom: 12px;
+  display: flex;
+  width: 21px;
+  height: 21px;
+  box-sizing: border-box;
+}
+.desktop-13 .frame-427320484 {
+  position: relative;
+  margin: 6px 0;
+  width: 42.5px;
+  height: 45px;
+  cursor: pointer;
+}
+.desktop-13 .container-13 {
+  display: flex;
+  flex-direction: row;
+  /* width: 100%; */
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 4px;
+  position: absolute;
+  top: 250px;
+  right: 20px;
+}
+.desktop-13 .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+.desktop-13 .brandmark-yellow-1 {
+  background: url('assets/images/brandmark_yellow_2.png') 50% / cover no-repeat;
+  position: relative;
+  /* left: 27.4px;
+  bottom: 24px; */
+  /* width: 103.9px;
+  height: 110px; */
+  width: 42.5px;
+  height: 45px;
+  background-size: 200%;
+  cursor: pointer;
+}
+.desktop-13 .message-group-container {
+  border-radius: 41px;
+  background: #FFFFFF;
+  position: relative;
+  display: flex;
+  padding: 48px 16px;
+  box-sizing: border-box;
+}
+.desktop-13 .vector-3175 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  background: #F0EBEB;
+  position: absolute;
+  top: 117px;
+  right: 0px;
+  width: 642.9px;
+  height: 0px;
+}
+.desktop-13 .group-5393 {
+  /* position: absolute; */
+  margin: 0 auto;
+  top: 50%;
+  right: -55.2px;
+  /* translate: 0 -50%; */
+  display: flex;
+  padding-right: 1.9px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.desktop-13 .group-5390 {
+  margin: 0 3.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  box-sizing: border-box;
+}
+.desktop-13 .successful-transactions {
+  margin: 0 0.2px 4px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 186px;
+  box-sizing: border-box;
+}
+.desktop-13 .zec {
+  margin-bottom: 12px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 30px;
+  color: #000000;
+}
+.desktop-13 .frame-427320502 {
+  border-radius: 15px;
+  background: #F4B728;
+  display: flex;
+  padding: 20px 0;
+  width: 186px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.desktop-13 .view-transaction-receipt {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.desktop-13 .pm-6 {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 1.37;
+  color: var(--black, #1F1F1F);
+}
+
+button {
+  border: none;           /* Remove border */
+  padding: 0;             /* Remove padding */
+  background: none;       /* Remove background */
+  cursor: pointer;        /* Show pointer on hover */
+  display: inline-block;  /* Keep button inline like a div */
+}
+
+button:focus {
+  outline: none;          /* Remove focus outline */
+}
+
+button div {
+  display: inline-block;  /* Keep div structure inside button */
+}
+
+.cursor {
+  cursor: pointer;
+  padding: 22px 20px 18px;
+  margin: 4px 0;
+  align-items: center;
+}
+
+.cursor:hover {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background: #F2EFEF;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding-top: 22px;
+  padding-bottom: 18px;
+  width: 220px;
+  box-sizing: border-box;
+}
+
+.message-tile-cursor {
+  cursor: pointer;
+}
+.message-tile {
+  width: unset;
+  height: unset;
+}
+
+.desktop-13 {
+  background: #FFFFFF;
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.active-nav,
+.dashboard-btn,
+.profile,
+.messages-3,
+.wallet,
+.market,
+.transactions-nav,
+.settings,
+.help-btn,
+.log-out-btn {
+  text-decoration: none; /* Removes underline */
+}
+
+
+.coming-soon {
+  z-index: 1;
+  margin: 50vh auto;
+}

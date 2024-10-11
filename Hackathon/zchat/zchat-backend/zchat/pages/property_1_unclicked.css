@@ -1,0 +1,46 @@
+.property-1-unclicked .help-icon {
+  margin: 2px 10px 1px 0;
+  width: 17px;
+  height: 17px;
+}
+.property-1-unclicked .help {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.property-1-unclicked .help-btn {
+  margin-bottom: 35px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.property-1-unclicked .vector-3 {
+  margin: 1px 0;
+  width: 18px;
+  height: 18px;
+}
+.property-1-unclicked .log-out {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.property-1-unclicked .log-out-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.property-1-unclicked {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}

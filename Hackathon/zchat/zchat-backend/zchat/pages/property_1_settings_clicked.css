@@ -1,0 +1,153 @@
+.property-1-settings-clicked .vector {
+  margin: 1px 10px 1px 0;
+  width: 18px;
+  height: 18px;
+}
+.property-1-settings-clicked .dashboard {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.property-1-settings-clicked .dashboard-btn {
+  margin: 0 5.4px 35px 0;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.property-1-settings-clicked .vector-1 {
+  margin: 1px 10px 1px 0;
+  width: 18px;
+  height: 18px;
+}
+.property-1-settings-clicked .profile-1 {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.property-1-settings-clicked .profile {
+  margin: 0 42.9px 35px 0;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.property-1-settings-clicked .vector-3 {
+  margin: 0 10px 2px 0;
+  width: 18px;
+  height: 18px;
+}
+.property-1-settings-clicked .messages-1 {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.property-1-settings-clicked .messages {
+  margin: 0 15.5px 35px 0;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.property-1-settings-clicked .vector-6 {
+  margin: 0 10px 3px 0;
+  width: 18px;
+  height: 18px;
+}
+.property-1-settings-clicked .wallet-1 {
+  margin-top: 1px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.property-1-settings-clicked .wallet {
+  margin: 0 42.9px 35px 0;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.property-1-settings-clicked .vector-2 {
+  margin: 0 10px 2px 0;
+  width: 18px;
+  height: 18px;
+}
+.property-1-settings-clicked .markets {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.property-1-settings-clicked .market {
+  margin: 0 29.7px 35px 0;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.property-1-settings-clicked .vector-4 {
+  margin: 2px 10px 2px 0;
+  width: 20px;
+  height: 16px;
+}
+.property-1-settings-clicked .transactions-1 {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.property-1-settings-clicked .transactions {
+  margin: 0 0 15px 8.7px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.property-1-settings-clicked .vector-5 {
+  margin-bottom: 2px;
+  width: 18px;
+  height: 18px;
+}
+.property-1-settings-clicked .settings {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.property-1-settings-clicked .container {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background: #D9D9D9;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.property-1-settings-clicked {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}

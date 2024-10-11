@@ -1,0 +1,4 @@
+ZCASH_RPC_USER = "fortunethedev"
+ZCASH_RPC_PASSWORD = "D@t4knid9"
+ZCASH_RPC_URL = "http://127.0.0.1:8232/"
+# ZCASH_RPC_URL = "http://185.193.125.42:8232/" 

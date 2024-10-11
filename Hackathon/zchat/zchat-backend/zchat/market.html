@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zcash Dynamic Candlestick Chart (CoinMarketCap)</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+    <h1>Zcash (ZEC) Dynamic Candlestick Chart</h1>
+    <div id="chart"></div>
+
+    <script>
+        const API_KEY = '4e7768a1-449d-40c2-8048-c3dbe16a2170';
+        let chart;
+        let currentDays = 30;
+
+        // Function to fetch Zcash OHLC data from CoinMarketCap
+        function fetchZcashData(startDate, endDate, callback) {
+            const url = `https://pro-api.coinmarketcap.com/v1/cryptocurrency/ohlcv/historical?symbol=ZEC&convert=USD&time_start=${startDate}&time_end=${endDate}`;
+            
+            fetch(url, {
+                method: 'GET',
+                headers: {
+                    'X-CMC_PRO_API_KEY': API_KEY,
+                    'Accept': 'application/json'
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                const chartData = data.data.quotes.map(entry => ({
+                    x: new Date(entry.time_open),
+                    y: [entry.quote.USD.open, entry.quote.USD.high, entry.quote.USD.low, entry.quote.USD.close] // [Open, High, Low, Close]
+                }));
+                callback(chartData);
+            })
+            .catch(error => console.error('Error fetching data:', error));
+        }
+
+        // Function to initialize and draw the candlestick chart
+        function drawCandlestickChart(seriesData) {
+            const options = {
+                chart: {
+                    type: 'candlestick',
+                    height: 350,
+                    id: 'zcashChart',
+                    events: {
+                        zoomed: (chartContext, { xaxis }) => {
+                            const zoomedRange = xaxis.max - xaxis.min;
+                            // If the zoom level is more than 30 days, load more data
+                            if (zoomedRange > 30 * 24 * 60 * 60 * 1000) {
+                                loadMoreHistory();
+                            }
+                        }
+                    }
+                },
+                series: [{
+                    name: 'Zcash (ZEC)',
+                    data: seriesData
+                }],
+                xaxis: {
+                    type: 'datetime',
+                    title: {
+                        text: 'Date'
+                    }
+                },
+                yaxis: {
+                    title: {
+                        text: 'Price (USD)'
+                    }
+                },
+                title: {
+                    text: 'Zcash Price Movement',
+                    align: 'center'
+                }
+            };
+
+            chart = new ApexCharts(document.querySelector("#chart"), options);
+            chart.render();
+        }
+
+        // Function to update the chart data dynamically
+        function updateCandlestickChart(newData) {
+            chart.updateSeries([{
+                data: newData
+            }]);
+        }
+
+        // Function to load more history when zoomed out
+        function loadMoreHistory() {
+            const newEndDate = new Date();
+            const newStartDate = new Date();
+            newStartDate.setDate(newEndDate.getDate() - currentDays - 30);
+            currentDays += 30; // Increase days
+
+            fetchZcashData(newStartDate.toISOString().split('T')[0], newEndDate.toISOString().split('T')[0], updateCandlestickChart);
+        }
+
+        // Initial fetch and chart rendering
+        const endDate = new Date();
+        const startDate = new Date();
+        startDate.setDate(endDate.getDate() - currentDays);
+
+        fetchZcashData(startDate.toISOString().split('T')[0], endDate.toISOString().split('T')[0], drawCandlestickChart);
+    </script>
+</body>
+</html>
