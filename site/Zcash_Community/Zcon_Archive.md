@@ -37,3 +37,9 @@ Zcon3 took place in Las Vegas from August 7-9th 2022.
 The in person conference is in Barcelona, Spain July 30-31, 2023 and will be live streamed from the venue. 
 
 [Zcon4 Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)
+
+## ZconV: Zcash Unified
+
+[ZconV Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJ41e2uSOJItvbW1YVR49aR)
+
+ZconV took place on May 6th-10th, 2024. ZconV was a virtual conference
