@@ -7,7 +7,7 @@
   <a href="https://zechub.wiki/using-zcash/shielded-pools"><button>Sapling</button></a> | 
   <a href="https://zechub.wiki/using-zcash/shielded-pools"><button>Orchard</button></a>
 - Features: Spend before Sync | Unified Address | Shielded Memo | Payment Request | TEX Address | Tor Currency Rates | Coinbase Onramp
-- Sync-speed: <img src="https://github.com/user-attachments/assets/96096b46-6a9b-4e43-82c1-6f63eeb36fe6" width="40" height="32">
+- Sync-speed: <img src="https://github.com/user-attachments/assets/eee4bd79-86fe-4ce6-83e1-3fa5a5393d84" width="42" height="32">
 
 
 
@@ -24,7 +24,7 @@
   <a href="https://zechub.wiki/using-zcash/shielded-pools"><button>Sapling</button></a> | 
   <a href="https://zechub.wiki/using-zcash/shielded-pools"><button>Orchard</button></a>
 - Features: WarpSync | Shielded Memo | Cold Storage | Voting | Pool Transfer | Payment Request | TEX Address | Diversified Address
-- Sync-speed: <img src="https://github.com/user-attachments/assets/716e361a-1ab3-451a-8940-9179c9c392ca" alt="sync speed" width="32" height="32">
+- Sync-speed: <img src="https://github.com/user-attachments/assets/1e9cf3ea-3563-4d9a-a362-e1d5b1ae0858" alt="sync speed" width="42" height="32">
 
 ---
 
@@ -35,7 +35,7 @@
   <a href="https://zechub.wiki/using-zcash/shielded-pools"><button>Sapling</button></a> | 
   <a href="https://zechub.wiki/using-zcash/shielded-pools"><button>Orchard</button></a>
 - Features: Discord Bot | Unified Address
-- Sync-speed: <img src="https://github.com/user-attachments/assets/91832145-2137-4827-a7d4-ffcc1b3fd79d" alt="sync speed" width="40" height="32">
+- Sync-speed: <img src="https://github.com/user-attachments/assets/5d6bf308-b0e2-4008-acfe-9b8130d91795" alt="sync speed" width="42" height="32">
 
 ---
 
@@ -47,7 +47,7 @@
   <a href="https://zechub.wiki/using-zcash/shielded-pools"><button>Sapling</button></a> | 
   <a href="https://zechub.wiki/using-zcash/shielded-pools"><button>Orchard</button></a>
 - Features: BlazeSync | Shielded Memo | Financial Insights | Unified Address | Payment Request
-- Sync-speed: <img src="https://github.com/user-attachments/assets/ad3c747f-104d-4bd9-8e51-864a36bf5013" alt="sync speed" width="40" height="32">
+- Sync-speed: <img src="https://github.com/user-attachments/assets/4e3b4712-ac2f-4e67-b9dc-97dc0cac74ef" alt="sync speed" width="42" height="32">
 
 ---
 
@@ -58,7 +58,7 @@
   <a href="https://zechub.wiki/using-zcash/shielded-pools"><button>Transparent</button></a> | 
   <a href="https://zechub.wiki/using-zcash/shielded-pools"><button>Sapling</button></a>
 - Features: Spend before Sync | Multi Coin | Unified Address | Shielded memo | Automatic Shielding
-- Sync-speed: <img src="https://github.com/user-attachments/assets/ca64d96f-6b1b-4252-81c0-99ab608b8b84" alt="sync speed" width="42" height="32">
+- Sync-speed: <img src="https://github.com/user-attachments/assets/59044d59-9995-4199-895a-60577491caa8" alt="sync speed" width="42" height="32">
 
 ---
 
@@ -69,7 +69,8 @@
   <a href="https://zechub.wiki/using-zcash/shielded-pools"><button>Transparent</button></a> | 
   <a href="https://zechub.wiki/using-zcash/shielded-pools"><button>Sapling</button></a>
 - Features: Spend before Sync | Multi Coin | Unified Address
-- Sync-speed: <img src="https://github.com/user-attachments/assets/91832145-2137-4827-a7d4-ffcc1b3fd79d" alt="sync speed" width="40" height="32">
+- Sync-speed: <img src="https://github.com/user-attachments/assets/1306136b-92b4-4914-bed2-e3ca8e96bbd4" alt="sync speed" width="42" height="32">
+
 ---
 
 ## [eZcash](https://blog.nerdbank.net/ezcash-app)
@@ -80,7 +81,7 @@
   <a href="https://zechub.wiki/using-zcash/shielded-pools"><button>Sapling</button></a> | 
   <a href="https://zechub.wiki/using-zcash/shielded-pools"><button>Orchard</button></a>
 - Features: Shielded Memo | Address Check | Unified Address | Automatic Shielding | Payment Request | Diversified Address | TEX Address
-- Sync-speed: <img src="https://github.com/user-attachments/assets/6def4611-c33c-40c2-95ed-23337d2db253" alt="sync speed" width="40" height="32">
+- Sync-speed: <img src="https://github.com/user-attachments/assets/13a2e736-feb6-438a-aab9-2cee02e3f7e2" alt="sync speed" width="42" height="32">
 
 ---
 
@@ -92,7 +93,7 @@
   <a href="https://zechub.wiki/using-zcash/shielded-pools"><button>Sapling</button></a> | 
   <a href="https://zechub.wiki/using-zcash/shielded-pools"><button>Orchard</button></a>
 - Features: BlazeSync | Shielded Memo | Financial Insights | Unified Address | Payment Request
-- Sync-speed: <img src="https://github.com/user-attachments/assets/ad3c747f-104d-4bd9-8e51-864a36bf5013" alt="sync speed" width="40" height="32">
+- Sync-speed: <img src="https://github.com/user-attachments/assets/4e3b4712-ac2f-4e67-b9dc-97dc0cac74ef" alt="sync speed" width="42" height="32">
 
 ---
 
@@ -104,7 +105,7 @@
   <a href="https://zechub.wiki/using-zcash/shielded-pools"><button>Sapling</button></a> | 
   <a href="https://zechub.wiki/using-zcash/shielded-pools"><button>Orchard</button></a>
 - Features: Graphical Interface | Unified Address | Shielded Memo
-- Sync-speed: <img src="https://github.com/user-attachments/assets/91832145-2137-4827-a7d4-ffcc1b3fd79d" alt="sync speed" width="40" height="32">
+- Sync-speed: <img src="https://github.com/user-attachments/assets/1306136b-92b4-4914-bed2-e3ca8e96bbd4" alt="sync speed" width="42" height="32">
 
 ---
 
@@ -116,7 +117,7 @@
   <a href="https://zechub.wiki/using-zcash/shielded-pools"><button>Sapling</button></a> | 
   <a href="https://zechub.wiki/using-zcash/shielded-pools"><button>Orchard</button></a>
 - Features: Command Line Interface | Unified Address | Shielded Memo | Diversified Address
-- Sync-speed: <img src="https://github.com/user-attachments/assets/91832145-2137-4827-a7d4-ffcc1b3fd79d" alt="sync speed" width="40" height="32">
+- Sync-speed: <img src="https://github.com/user-attachments/assets/1306136b-92b4-4914-bed2-e3ca8e96bbd4" alt="sync speed" width="42" height="32">
 
 ---
 
@@ -192,4 +193,4 @@
   <a href="https://zechub.wiki/using-zcash/shielded-pools"><button>Sapling</button></a> | 
   <a href="https://zechub.wiki/using-zcash/shielded-pools"><button>Orchard</button></a>
 - Features: Spend before Sync | Unified Address | Shielded memo
-- Sync-speed: <img src="https://github.com/user-attachments/assets/91832145-2137-4827-a7d4-ffcc1b3fd79d" alt="sync speed" width="40" height="32">
+- Sync-speed: <img src="https://github.com/user-attachments/assets/1306136b-92b4-4914-bed2-e3ca8e96bbd4" alt="sync speed" width="42" height="32">
