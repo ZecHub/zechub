@@ -27,7 +27,7 @@
 ## [Zingo!](https://www.zingolabs.org/)
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
 - Devices: Mobile
-- Pools: Transp | Sapling | Orchard
+- Pools: Transparent | Sapling | Orchard
 - Features: BlazeSync | Shielded Memo | Financial Insights | Unified Address | Payment Request
 ![syncspeed](https://github.com/user-attachments/assets/c6c6da74-d4ff-4cdf-ba72-55a82bb4165d "Zingo!")
 
@@ -89,7 +89,7 @@
 ## [Brave](https://brave.com/web3-privacy/)
 ![logo](https://i.ibb.co/6yqMNwZ/image-2024-01-13-170934865.png "Brave")
 - Devices: Web
-- Pools:<a href="https://zechub.wiki/using-zcash/shielded-pools"><button>Transparent | (in-development)
+- Pools: Transparent | (in-development)
 - Features: Spend before Sync | Unified Address | Secure File Transfer
 
 ---
@@ -97,7 +97,7 @@
 ## [SSP Wallet](https://sspwallet.io)
 ![logo](https://i.ibb.co/X3hdfSY/ssp-1.png "SSP Wallet")
 - Devices: Mobile | Web
-- Pools:Transparent
+- Pools: Transparent
 - Features: Multi Coin
 
 ---
@@ -105,7 +105,7 @@
 ## [Trust Wallet](https://trustwallet.com/download)
 ![logo](https://i.ibb.co/cNqxBJ1/trustwallet.png "Trust Wallet")
 - Devices: Mobile | Web
-- Pools:Transparent
+- Pools: Transparent
 - Features: Multi Coin
 
 ---
@@ -113,7 +113,7 @@
 ## [Exodus](https://www.exodus.com/zcash-wallet-zec)
 ![logo](https://i.ibb.co/w0NNZNp/exoduscard.png "Exodus")
 - Devices: Mobile | Desktop | Web
-- Pools:Transparent
+- Pools: Transparent
 - Features: Multi Coin
 
 ---
@@ -121,7 +121,7 @@
 ## [Coinomi](https://www.coinomi.com/en/downloads)
 ![logo](https://i.ibb.co/QfHmjWY/coinomicard.png "Coinomi")
 - Devices: Mobile | Desktop
-- Pools:Transparent
+- Pools: Transparent
 - Features: Multi Coin
 
 ---
@@ -129,7 +129,7 @@
 ## [Safepal](https://safepal.com)
 ![logo](https://i.ibb.co/h29h6d0/safepalcard.png "Safepal")
 - Devices: Mobile | Web | Hardware
-- Pools:Transparent
+- Pools: Transparent
 - Features: Multi Coin
 
 ---
@@ -137,7 +137,7 @@
 ## [Trezor](https://trezor.io/learn/a/zcash-zec)
 ![logo](https://i.ibb.co/wcD52Kk/image-2024-01-13-170332340.png "Trezor")
 - Devices: Web | Hardware
-- Pools:Transparent
+- Pools: Transparent
 - Features: Multi Coin | Web App
 
 ---
@@ -145,7 +145,7 @@
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](https://i.ibb.co/2qX6WCF/Desktop-Wallets.png "Ledger")
 - Devices: Hardware
-- Pools:Transparent | (in-development)
+- Pools: Transparent | (in-development)
 - Features: Multi Coin
 
 ---
