@@ -12,7 +12,7 @@
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
 - Features: WarpSync | Shielded Memo | Cold Storage | Voting | Pool Transfer | Payment Request | TEX Address | Diversified Address
-![syncspeed](https://github.com/user-attachments/assets/405ffdc4-0ca7-4854-a048-d9d5fffa0eab "Ywallet")
+![syncspeed](https://github.com/user-attachments/assets/750d3b0e-af0a-4599-b78e-cea9ac8e8eca "Ywallet")
 
 ---
 
@@ -21,6 +21,7 @@
 - Devices: Mobile | Desktop
 - Pools: Sapling | Orchard
 - Features: Discord Bot | Unified Address
+![syncspeed](https://github.com/user-attachments/assets/750d3b0e-af0a-4599-b78e-cea9ac8e8eca "Ywallet")
 
 ---
 
@@ -49,7 +50,7 @@
 - Devices: Mobile
 - Pools: Transparent | Sapling
 - Features: Spend before Sync | Multi Coin | Unified Address
-
+![syncspeed](https://github.com/user-attachments/assets/c6207f4b-75ea-452d-8197-fba47622b2aa "Unstoppable")
 ---
 
 ## [eZcash](https://blog.nerdbank.net/ezcash-app)
@@ -156,3 +157,4 @@
 - Devices: Mobile
 - Pools: Transparent | Sapling | Orchard
 - Features: Spend before Sync | Unified Address | Shielded memo
+![syncspeed](https://github.com/user-attachments/assets/cd3e7676-dced-4580-8af4-f93839699d11 "Nighthawk")
