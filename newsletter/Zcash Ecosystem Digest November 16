@@ -1,45 +1,71 @@
 # Zcash Ecosystem Digest | November 16th
-Dizzy 2.0 update release with enhanced features and more agile processing
-Z|ECC Summit: January 13-16th in Cancun, Mexico
-The Z|ECC Summit brings together Zcash community contributors with ECC team members for workshops & planning sessions centered on roadmap planning, Zcash development, & growing adoption.
-Participate in the "My First Zcash" viral video contest to stand a chance to win out of the 15 ZEC prize pool
 
-ECC & ZF Updates:
-[Z|ECC Summit](https://docs.google.com/forms/d/e/1FAIpQLSd9Dxug50ewxnZpHYQ9efhi6ak1_BkLcdwSPzaqm-DxGfDDdA/viewform)
-[Zcashd Depreciation updates](https://forum.zcashcommunity.com/t/zcashd-deprecation-updates/48965)
-[Controlled Burn](https://forum.zcashcommunity.com/t/controlled-burn-ecc-update/49282)
-[Zebra NU6 Audit](https://zfnd.org/zebra-nu6-audit/)
-[The color of jaaz](https://forum.zcashcommunity.com/t/the-color-of-jazz-ecc-update/49231)
+Shielded Zcash now on Ledger, Dizzy 2.0 release, Z|ECC Summit in January, MFZ video contest & Keytone Hardware Wallet design contest! 
 
 
-Zcash Community Grants:
-[[Grant Update] Zcash Ecosystem Security Lead](https://forum.zcashcommunity.com/t/grant-update-zcash-ecosystem-security-lead/47541)
+### ECC & ZF Updates:
+
+[Z|ECC Summit - January 11-12th](https://docs.google.com/forms/d/e/1FAIpQLSd9Dxug50ewxnZpHYQ9efhi6ak1_BkLcdwSPzaqm-DxGfDDdA/viewform)
+
+[ECC & ZF Zcashd Depreciation updates](https://forum.zcashcommunity.com/t/zcashd-deprecation-updates/48965)
+
+[Controlled Burn - ECC Update](https://forum.zcashcommunity.com/t/controlled-burn-ecc-update/49282)
+
+[Zebra NU6 Audit Report - Zcash Foundation](https://zfnd.org/zebra-nu6-audit/)
+
+[Arborist R&D Call - 14th Nov](https://www.youtube.com/watch?v=JldVJO79Qlk&feature=youtu.be)
+
+
+
+### Zcash Community Grants:
+
+[Ledger releases Shielded Zcash App!](https://forum.zcashcommunity.com/t/official-shielded-support-for-zcash-in-ledger-hw-wallet/45965/149)
+
+[Zcash Full Node Wallet update - Pitmutt](https://forum.zcashcommunity.com/t/zenith-full-node-wallet/46523/40)
+
 [Grant Application for the Development of the Board Game “Crypto Trader: Zcash Edition” for Zcash](https://forum.zcashcommunity.com/t/grant-application-for-the-development-of-the-board-game-crypto-trader-zcash-edition-for-zcash/49100)
-[Zcash Browser Wallet Library](https://forum.zcashcommunity.com/t/zcash-browser-wallet-library/47897)
-[Zcash Turkey Grant Application: Increasing the awareness of Zcash in Turkey](https://forum.zcashcommunity.com/t/zcash-turkey-grant-application/49278)
-[Coin Voting 2.0](https://forum.zcashcommunity.com/t/coin-voting-2-0/49177)
-[Community Grant Punchlist Proposal](https://forum.zcashcommunity.com/t/community-grant-punchlist-proposal/49254)
-[Block explorer + Testnet infrastructure](https://forum.zcashcommunity.com/t/block-explorer-testnet-infrastructure/47656)
-[Official Shielded Support for Zcash In Ledger HW Wallet](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/44638019/)
-[Grant application to upstream enhancements to librustzcash](https://forum.zcashcommunity.com/t/grant-application-to-upstream-enhancements-to-librustzcash/49203)
-[WordPress Plugin for Embedding dApps](https://forum.zcashcommunity.com/t/proposal-wordpress-plugin-for-embedding-dapps/49194)
 
-Community Projects:
-[ZSAs are in the plan for NU7](https://forum.zcashcommunity.com/t/zsa-update-on-release/43660/3)
-[Zcash and Keystone co-branded wallet design contest](https://sulfuric-spring-586.notion.site/Keystone-Hardware-Wallet-Zcash-Co-branded-Design-Contest-13f1e727f66e80159ff4f5ce798c334c)
+[Zcash Browser Wallet Library update](https://forum.zcashcommunity.com/t/zcash-browser-wallet-library/47897)
+
+[Zcash Turkey Grant Application: Increasing the awareness of Zcash in Turkey](https://forum.zcashcommunity.com/t/zcash-turkey-grant-application/49278)
+
+[Community Grant Punchlist Proposal](https://forum.zcashcommunity.com/t/community-grant-punchlist-proposal/49254)
+
+[Block explorer + Testnet infrastructure update](https://forum.zcashcommunity.com/t/block-explorer-testnet-infrastructure/47656)
+
+[New Zingo PC release](https://github.com/zingolabs/zingo-pc/releases/tag/zingo-pc-1.9.0)
+
+
+### Community Projects:
+
+[Zcash and Keystone co-branded wallet design contest](https://x.com/KeystoneWallet/status/1857438408026542203)
+
 [Tutorial showing all steps for running Zcash web wallet demo](https://x.com/zechub/status/1856797866657997311?s=46)
 
+[Earthrise for ZF Board](https://forum.zcashcommunity.com/t/earthrise-for-the-zf-board/49274)
 
-Community Tweets:
-[Zcash's Mission: Economic Freedom for all](https://x.com/zcashmedia/status/1857139857874653238?s=46)
-[Selective Privacy: How Viewing Keys Enable Secure Audits](https://x.com/zcashmedia/status/1857813623558508919?s=46)
-[Why Bitcoin’s Fixed Supply Makes It a Strong Store of Value](https://x.com/zcashmedia/status/1856380507057205439?s=46)
-[Zcash: The Altcoin Set to Explode](https://x.com/zcashmedia/status/1856358736756892097?s=46)
+[Zcash: The Altcoin Set to Explode - Zcash Media](https://x.com/zcashmedia/status/1856358736756892097?s=46)
+
+[Shielded News Vol. 5 - Zcash Brazil](https://x.com/zcashbrazil/status/1857561793897337161)
+
+[Zcast Podcast Ep3T3 Con todo el resumen de lo que ha sucedido en octubre y noviembre](https://x.com/ZcastEsp/status/1857902264934904290)
+
+[Important change for Zcash users, ZIP 317 is fully enforced - thecodebuffet](https://x.com/thecodebuffet/status/1858166002824958327)
+
+[ZSAs are in the plan for NU7](https://forum.zcashcommunity.com/t/zsa-update-on-release/43660/3)
+
+[Would you be suprised if you could communicate secretly onchain? - Antics](https://x.com/Antics_777/status/1857027409255551268)
+
+[Zcash is on fire and is not slowing down - MineZcash](https://x.com/mineZcash/status/1856033313464688703)
+
+[Decidí preguntarle a Grok qué es Zcash y esta fue la respuesta que obtuve.. - YoditarX](https://x.com/yoditarX/status/1857901586061861257)
+
+[Zepe hearing things...](https://x.com/Zepememe/status/1857505717755818128)
+
+[Do you think privacy is important? If yes give interest to Zcash - Yoshi](https://x.com/yoshi_v1/status/1858117057155400029)
+
+
 
 
 Memes:
-https://cdn.discordapp.com/attachments/1164618932150349974/1306994913472155749/video6167680033281282607.mp4?ex=673a02de&is=6738b15e&hm=668c7c3f615b807c7b5ec7b9f380d929365fe6b16718eba85c49743f86ebdd40&
-https://cdn.discordapp.com/attachments/1164618932150349974/1307210831175483423/7f53772fdc5aba4aa35a175f6249957047a250c9.gif?ex=673a2334&is=6738d1b4&hm=03534404490dc66f59eaa3544a5b7250b12c0663cedf9b1fe02071f1bc8e3dad&
-https://tenor.com/view/bomb-asian-lab-explosion-gif-12647683
-https://cdn.discordapp.com/attachments/1164618932150349974/1306253552653570108/oppenheimer-halving-3.gif?ex=6739f36b&is=6738a1eb&hm=a7e1d4f47869aebb274f347e802ca375fbd28d21f807921b02c17f96b5906f53&
-https://x.com/boldleonidas/status/1855927886815117399
+
