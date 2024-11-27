@@ -4,7 +4,7 @@
 
 # Transactions
 
-ZEC is a widely-used digital asset for payments, offering strong privacy features that make it suitable for various transactions like paying friends, making purchases, or donating. To maximize privacy and security, it’s essential to understand how different types of transactions work within Zcash.
+ZEC is a widely-used digital asset for payments, offering strong privacy features that make it suitable for various transactions like paying friends, making purchases, or donating. To maximize privacy and security, it is essential to understand how different types of transactions work within Zcash.
 
 ## Shielded Transactions
 
@@ -14,7 +14,7 @@ Sending a shielded transaction is very easy, you just have to make sure of two t
 
 When withdrawing ZEC from an exchange, you need to know whether the exchange supports shielded or transparent withdrawals. If they support shielded withdrawals, you can simply withdraw ZEC to your shielded address. If the exchange only supports transparent withdrawals, then you need to use YWallet and autoshield your ZEC once received.
 
-You do this by sending the ZEC to your T transparent address in YWallet, then shielding it [sending it into a private shielded pool].
+You do this by sending the ZEC to your (T) transparent address in YWallet, then shielding it [sending it into a private shielded pool].
 
 Within Ywallet settings, you can expose the S (sapling), T (transparent), and O (orchard) components that make your Unified Address (that starts with U) - See Guide.
 
