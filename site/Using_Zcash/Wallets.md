@@ -51,6 +51,7 @@
 - Pools: Transparent | Sapling
 - Features: Spend before Sync | Multi Coin | Unified Address
 ![syncspeed](https://github.com/user-attachments/assets/c6207f4b-75ea-452d-8197-fba47622b2aa "Unstoppable")
+
 ---
 
 ## [eZcash](https://blog.nerdbank.net/ezcash-app)
