@@ -35,7 +35,6 @@
 ---
 
 ## [Edge](https://edge.app)
-
 ![logo](https://i.ibb.co/4FVQLS9/image-2024-11-28-091312254.png "Edge")
 - Devices: Mobile
 - Pools: Transparent | Sapling
@@ -45,7 +44,6 @@
 ---
 
 ## [Unstoppable](https://unstoppable.money)
-
 ![logo](https://i.ibb.co/C68mFCx/image-2024-11-28-091200540.png "Unstoppable")
 - Devices: Mobile
 - Pools: Transparent | Sapling
