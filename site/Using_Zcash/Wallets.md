@@ -145,7 +145,7 @@
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](https://i.ibb.co/2qX6WCF/Desktop-Wallets.png "Ledger")
 - Devices: Hardware
-- Pools: Transparent | (in-development)
+- Pools: Transparent | Sapling
 - Features: Multi Coin
 
 ---
