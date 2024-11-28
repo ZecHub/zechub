@@ -36,7 +36,7 @@
 
 ## [Edge](https://edge.app)
 
-![logo](https://i.ibb.co/qCmmHk4/edgecard.png "Edge")
+![logo](https://i.ibb.co/4FVQLS9/image-2024-11-28-091312254.png "Edge")
 - Devices: Mobile
 - Pools: Transparent | Sapling
 - Features: Spend before Sync | Multi Coin | Unified Address | Shielded memo | Automatic Shielding
@@ -46,7 +46,7 @@
 
 ## [Unstoppable](https://unstoppable.money)
 
-![logo](https://i.ibb.co/KXnS26y/unstoppablecard.png "Unstoppable")
+![logo](https://i.ibb.co/C68mFCx/image-2024-11-28-091200540.png "Unstoppable")
 - Devices: Mobile
 - Pools: Transparent | Sapling
 - Features: Spend before Sync | Multi Coin | Unified Address
