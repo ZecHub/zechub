@@ -34,6 +34,16 @@
 
 ---
 
+## [Nighthawk](https://nighthawkwallet.com)
+![logo](https://i.ibb.co/vL2FxGk/nighthawkcard.png "Nighthawk")
+
+- Devices: Mobile
+- Pools: Transparent | Sapling | Orchard
+- Features: Spend before Sync | Unified Address | Shielded memo | Flexa Payments
+![syncspeed](https://github.com/user-attachments/assets/cd3e7676-dced-4580-8af4-f93839699d11 "Nighthawk")
+
+---
+
 ## [Edge](https://edge.app)
 ![logo](https://i.ibb.co/4FVQLS9/image-2024-11-28-091312254.png "Edge")
 - Devices: Mobile
@@ -126,6 +136,14 @@
 
 ---
 
+## [Ledger](https://www.ledger.com/coin/wallet/zcash)
+![logo](https://i.ibb.co/2qX6WCF/Desktop-Wallets.png "Ledger")
+- Devices: Hardware
+- Pools: Transparent | Sapling
+- Features: Multi Coin
+
+---
+
 ## [Safepal](https://safepal.com)
 ![logo](https://i.ibb.co/h29h6d0/safepalcard.png "Safepal")
 - Devices: Mobile | Web | Hardware
@@ -142,18 +160,7 @@
 
 ---
 
-## [Ledger](https://www.ledger.com/coin/wallet/zcash)
-![logo](https://i.ibb.co/2qX6WCF/Desktop-Wallets.png "Ledger")
-- Devices: Hardware
-- Pools: Transparent | Sapling
-- Features: Multi Coin
 
----
 
-## [Nighthawk](https://nighthawkwallet.com)
-![logo](https://i.ibb.co/vL2FxGk/nighthawkcard.png "Nighthawk")
 
-- Devices: Mobile
-- Pools: Transparent | Sapling | Orchard
-- Features: Spend before Sync | Unified Address | Shielded memo
-![syncspeed](https://github.com/user-attachments/assets/cd3e7676-dced-4580-8af4-f93839699d11 "Nighthawk")
+
