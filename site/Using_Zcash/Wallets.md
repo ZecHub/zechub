@@ -36,11 +36,10 @@
 
 ## [Nighthawk](https://nighthawkwallet.com)
 ![logo](https://i.ibb.co/vL2FxGk/nighthawkcard.png "Nighthawk")
-
 - Devices: Mobile
 - Pools: Transparent | Sapling | Orchard
 - Features: Spend before Sync | Unified Address | Shielded memo | Flexa Payments
-![syncspeed](https://github.com/user-attachments/assets/cd3e7676-dced-4580-8af4-f93839699d11 "Nighthawk")
+![syncspeed](https://github.com/user-attachments/assets/c6c6da74-d4ff-4cdf-ba72-55a82bb4165d "Nighthawk")
 
 ---
 
