@@ -27,7 +27,7 @@
 
 ## [Zingo!](https://www.zingolabs.org/)
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
-- Devices: Mobile
+- Devices: Mobile | Desktop 
 - Pools: Transparent | Sapling | Orchard
 - Features: BlazeSync | Shielded Memo | Financial Insights | Unified Address | Payment Request
 ![syncspeed](https://github.com/user-attachments/assets/c6c6da74-d4ff-4cdf-ba72-55a82bb4165d "Zingo!")
@@ -68,15 +68,6 @@
 - Pools: Transparent | Sapling | Orchard
 - Features: Shielded Memo | Address Check | Unified Address | Automatic Shielding | Payment Request | Diversified Address | TEX Address
 ![syncspeed](https://github.com/user-attachments/assets/cd3e7676-dced-4580-8af4-f93839699d11 "eZcash")
-
----
-
-## [Zingo! PC](https://github.com/zingolabs/zingo-pc)
-![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
-- Devices: Desktop
-- Pools: Transparent | Sapling | Orchard
-- Features: BlazeSync | Shielded Memo | Financial Insights | Unified Address | Payment Request
-![syncspeed](https://github.com/user-attachments/assets/c6c6da74-d4ff-4cdf-ba72-55a82bb4165d "Zingo!")
 
 ---
 
