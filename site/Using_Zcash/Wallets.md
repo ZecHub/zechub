@@ -74,7 +74,7 @@
 ![logo](https://i.ibb.co/VtPBnm6/zenith-2.png "Zenith")
 - Devices: Full Node | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Graphical Interface | Unified Address | Shielded Memo
+- Features: Graphical Interface | Unified Address | Shielded Memo | Address Book
 
 ---
 
