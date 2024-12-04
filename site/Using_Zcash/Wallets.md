@@ -78,6 +78,14 @@
 
 ---
 
+## [Zingo-CLI](https://github.com/zingolabs/zingolib)
+![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo-CLI")
+- Devices: Full Node | Desktop
+- Pools: Transparent | Sapling | Orchard
+- Features: Command Line Interface | Unified Address | Shielded Memo
+
+---
+
 ## [Zcashd](https://github.com/zcash/zcash)
 ![logo](https://i.ibb.co/Xz2NskW/zcashd.png "Zcashd")
 - Devices: Full Node | Desktop
