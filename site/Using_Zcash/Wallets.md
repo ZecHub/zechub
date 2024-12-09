@@ -134,8 +134,8 @@
 
 ---
 
-## [Keystone](https://www.ledger.com/coin/wallet/zcash)
-![logo](https://i.ibb.co/x2mfptW/Keystone.png "Keystone")
+## [Keystone](https://shop.keyst.one)
+![logo](https://i.ibb.co/c1gn635/Keystone-1.png "Keystone")
 - Devices: Hardware
 - Pools: Transparent | Sapling | Orchard
 - Features: Multi Coin
