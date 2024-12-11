@@ -59,7 +59,7 @@ note: this will need to fully sync!
 git clone https://github.com/zingolabs/zaino.git
 cd zaino
 cargo build --release
-PATH=$PATH:~/zaino/target/release/
+PATH=$PATH:~/Desktop/zaino/target/release/
 ```
 
 *optional* (create a screen session for zaino)
