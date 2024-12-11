@@ -14,7 +14,7 @@ The app allows players to connect their Zcash shielded wallet in order to use 
 
 Sending Messages and Processing Payments
 
-• Sending Messages: Players can send messages by selecting their preferred user to chat with from the list of users. Each message is cryptographically encrypted and it is end to end. On the backend, it is also cryptographically encrypted hence a different message hash is stored in the database so if it is leaked, it will useless as another layer of encryption is present. As messeges are sent it is updated in real time with the help of websocketsthachat transaction includes a memo field with a specially crafted JSON payload. The memo format helps the backend system process and verify the bet.
+• Sending Messages: Players can send messages by selecting their preferred user to chat with from the list of users. Each message is cryptographically encrypted and it is end to end. On the backend, it is also cryptographically encrypted hence a different message hash is stored in the database so if it is leaked, it will useless as another layer of encryption is present. As messages are sent it is updated in real time with the help of websocketsthachat transaction includes a memo field with a specially crafted JSON payload. The memo format helps the backend system process and verify the bet.
 
 • Processing Payments: Payments are initiated with two options: Request and Send. On Request, users can scan a QR Code to quickly transfer the payment details to their wallet address. On send, users can send funds only requiring and amount input and then quickly processes it as soon as transactions enter the mempool, without waiting for full confirmations.
 
