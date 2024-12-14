@@ -1,17 +1,17 @@
-Zcash<>Avalanche Red-Bridge
+# Zcash<>Avalanche Red-Bridge
 
 The Zcash-Avalanche Red-Bridge is a decentralized bridge that enables interoperability between the Zcash (ZEC) and Avalanche (AVAX) blockchains. This bridge is designed to facilitate the seamless transfer of ZEC onto the Avalanche blockchain, leveraging the high throughput, low fees, and eco-friendly consensus mechanisms of Avalanche while preserving the privacy-centric features of Zcash.
 
 The Red-Bridge supports a wide array of use cases, including cross-chain decentralized finance (DeFi), private transactions, and liquidity sharing, empowering Zcash holders with expanded accessibility to the Avalanche ecosystem. This bridge is operated through a set of decentralized nodes and an oracle, known as **ZavaX**, which ensures reliable data transfer and price verification between Zcash and Avalanche.
 
-Key Features
+### Key Features
 
 - Privacy-Preserving Interoperability: Allows Zcash users to maintain privacy while utilizing DeFi applications on Avalanche.
 - Decentralized Oracle - ZavaX: Integrates an oracle system to ensure accurate ZEC/AVAX price data, allowing trustless cross-chain operations.
--Scalable and Eco-Friendly: Utilizes Avalanche’s consensus model, providing high-speed transactions with minimal environmental impact.
+-Scalable and Eco-Friendly: Utilizes Avalanches consensus model, providing high-speed transactions with minimal environmental impact.
 - Support for DeFi and DApps: Zcash holders can now participate in various DeFi platforms on Avalanche without compromising on privacy.
 
- Technical Components
+### Technical Components
 
 1. Decentralized ZavaX Oracle
    - Description: The ZavaX oracle is crucial to the bridge, providing cross-chain price feeds and enabling trustless ZEC-to-AVAX conversions.
@@ -21,7 +21,7 @@ Key Features
    - Description: The smart contract architecture supporting the Zcash<>Avalanche bridge, handling deposits, conversions, and withdrawals of ZEC.
 
 3. Privacy Layer Integration
-   - Description: Ensures that Zcash’s privacy features are preserved throughout the bridging process, allowing for private cross-chain transactions.
+   - Description: Ensures that Zcash privacy features are preserved throughout the bridging process, allowing for private cross-chain transactions.
 
  Deliverables and Documentation
 
@@ -67,7 +67,7 @@ Usage Instructions
 3. Privacy Settings:
    - Users have access to optional privacy settings to ensure their transactions retain confidentiality, in alignment with Zcash’s privacy-preserving technology.
 
-FAQs
+#### FAQs
 
 - How is privacy maintained on Avalanche?
   The bridge uses Zcash's privacy protocols to ensure transactions remain confidential during and after the bridging process.
