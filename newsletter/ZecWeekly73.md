@@ -78,7 +78,7 @@ https://youtu.be/SeWcFUrOiAk?feature=shared
 
 [Zondax Zcash Ledger App in Audit phase!](https://twitter.com/inh0a/status/1734330399910686975)
 
-[People dont want to understand SNARKs, but there is a way out!- ruzcash](https://twitter.com/ruzcash/status/1736273218074206688)
+[People don't want to understand SNARKs, but there is a way out!- ruzcash](https://twitter.com/ruzcash/status/1736273218074206688)
 
 [The differences between Centralised & Decentralised exchange - papelesacolor](https://twitter.com/Lexaleth/status/1735507038656970813)
 
