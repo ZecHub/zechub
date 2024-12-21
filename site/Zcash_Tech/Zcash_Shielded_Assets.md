@@ -20,38 +20,29 @@ Another potential use of ZSAs would be for the issuing of governance tokens. For
 
 ZSAs are being developed by [QEDIT](https://qed-it.com/), under a major grant from the [Zcash Foundation](https://wiki.zechub.xyz/zcash-foundation) in collaboration with the [Electric Coin Company](https://wiki.zechub.xyz/electric-coin-company). As this project is still being actively developed, updates are posted on [this thread](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153) of the Zcash forum. The [ZSA grant application](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/) by QEDIT is available from the Zcash Foundation grants website.
 
-> As a reference, QEDITs original forum post about their proposal can be found [here](https://forum.zcashcommunity.com/t/a-proposal-for-shielded-assets-zsa-uda-for-defi-on-zcash/40520).
+
+### ZSA Demo on Zebra 
+
+
+[![Video Thumbnail](https://i.ytimg.com/vi/1MZMGC9ViyA/hqdefault.jpg?)](https://youtu.be/1MZMGC9ViyA)
+
+
+**Run the demo for yourself!** 
+
+Clone the zcash-tx-tool repository:
+[https://github.com/QED-it/zcash_tx_tool](https://github.com/QED-it/zcash_tx_tool)
+
 
 ___
 
-<a href="">
-    <img src="https://i.ibb.co/6Zq0ry6/image-2023-11-18-160923363.png" alt="" width="600" height="170"/>
-</a>
+## Zcash Improvement Proposals (ZIPs)
 
-___
-
-## Grant Milestones
-
-Below is the list of grant milestones status as of April 28th, 2023
-
-| Milestone  | Feature | Status |
-| -------- | --------- | --------- |
-| 1 | Transfer Functionality ZIP        | ✅ - Paid - 2/18/22      |
-| 2 | Issuance Mechanism ZIP        | ✅ - Paid - 5/18/22      |
-| 3 | Issuance Mechanism Implementation        | ✅ - Paid - 10/24/22      |
-| 4 | Fees Structure ZIP       | ✅      |
-| 5 | Transfer Protocol Implementation PR        | ✅      |
-| 6 | Transfer Circuit Implementation PR        | ❌     |
-| 7 | ZSA Protocol Specification        | ✅ |
-| 8 |  Fees Structure Implementation PR        | ❌    |
-| 9 | Node Wallet State Implementation on Zcashd        | ❌      |
-| 10 | Strengthening Protocol Security and Efficiency       | ✅  |
-| 11 | Preparing Protocol for Integration and Deployment       | ✅    |
-
-NOTE: <br /> ✅ -> Completed <br /> ❌ -> Not completed <br /> TBD -> To be determined
+[ZIP 226](https://zips.z.cash/zip-0226): Transfer and Burn of Zcash Shielded Assets
+[ZIP 227](https://zips.z.cash/zip-0227): Issuance of Zcash Shielded Assets
+[ZIP 230](https://zips.z.cash/zip-0230): Version 6 Transaction Format
 
 
-## The ZSA Proposal
+## ZSA Grant Proposal
 
 The ZSA proposal for Shielded Assets (ZSA/UDA) was presented by the [QEDIT](https://qed-it.com/) team to build generic shielded assets on the Zcash blockchain. These are usually referred to as User Defined Assets (UDA) or as Zcash Shielded Assets (ZSA).
 
