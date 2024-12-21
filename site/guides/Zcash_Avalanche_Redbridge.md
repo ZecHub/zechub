@@ -1,4 +1,4 @@
-# Zcash<>Avalanche Red-Bridge
+# Zcash-Avalanche Red-Bridge
 
 The Zcash-Avalanche Red-Bridge is a decentralized bridge that enables interoperability between the Zcash (ZEC) and Avalanche (AVAX) blockchains. This bridge is designed to facilitate the seamless transfer of ZEC onto the Avalanche blockchain, leveraging the high throughput, low fees, and eco-friendly consensus mechanisms of Avalanche while preserving the privacy-centric features of Zcash.
 
@@ -70,10 +70,10 @@ Usage Instructions
 #### FAQs
 
 - How is privacy maintained on Avalanche?
-  The bridge uses Zcash's privacy protocols to ensure transactions remain confidential during and after the bridging process.
+  The bridge uses Zcash privacy protocols to ensure transactions remain confidential during and after the bridging process.
 
 - What fees are associated with the bridge?
-  The Red-Bridge aims to offer minimal fees, leveraging Avalanche's low transaction cost structure.
+  The Red-Bridge aims to offer minimal fees, leveraging Avalanche low transaction cost structure.
 
 - Is there a limit on the amount of ZEC that can be transferred?
   Limits may vary based on liquidity; refer to the bridge interface for up-to-date information.
