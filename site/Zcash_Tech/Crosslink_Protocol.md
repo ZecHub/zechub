@@ -1,6 +1,6 @@
 
 
-### Wiki Page: Crosslink Protocol
+### Crosslink Protocol
 
 #### **Introduction: Zcash Hybrid PoS and the Crosslink Protocol**
 
