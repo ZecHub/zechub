@@ -6,7 +6,7 @@ Zaino offers essential features for both light clients, such as wallets and appl
 
 ## Why a new Indexer?
 
-The main reason is getting ready for the future. Zcashd and lightwalletd were built in 2016 forked from bitcoind code, using C++. The platform and code used to build both services is starting to get old, difficult to scalate, maintain and to build modern features on.
+The main reason is getting ready for the future. Zcashd and lightwalletd were built in 2016 forked from bitcoind code, using C plus. The platform and code used to build both services is starting to get old, difficult to scalate, maintain and to build modern features on.
 
 Rust is a modern, robust and secure language that allows Zcash to be prepared for future development, inviting new developers to build plenty of new functionality on and around the Zcash ecosystem.
 
