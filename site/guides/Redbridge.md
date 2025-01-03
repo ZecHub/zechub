@@ -65,7 +65,7 @@ https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/
    - Once ZEC is transferred to Avalanche, users can connect their wallet to any DeFi application supporting AVAX assets and begin participating in yield farming, liquidity pools, or other services.
 
 3. Privacy Settings:
-   - Users have access to optional privacy settings to ensure their transactions retain confidentiality, in alignment with Zcash’s privacy-preserving technology.
+   - Users have access to optional privacy settings to ensure their transactions retain confidentiality, in alignment with Zcash privacy preserving technology.
 
 #### FAQs
 
