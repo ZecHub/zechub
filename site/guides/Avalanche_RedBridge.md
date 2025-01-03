@@ -6,26 +6,26 @@ The RedBridge supports a wide array of use cases, including crosschain decentral
 
 ### Key Features
 
-Privacy-Preserving Interoperability: Allows Zcash users to maintain privacy while utilizing DeFi applications on Avalanche.
+Privacy Preserving Interoperability: Allows Zcash users to maintain privacy while utilizing DeFi applications on Avalanche.
 Decentralized Oracle ZavaX: Integrates an oracle system to ensure accurate ZEC/AVAX price data, allowing trustless crosschain operations.
 Scalable and Eco Friendly: Utilizes Avalanches consensus model, providing high speed transactions with minimal environmental impact.
 Support for DeFi and DApps: Zcash holders can now participate in various DeFi platforms on Avalanche without compromising on privacy.
 
 ### Technical Components
 
-Decentralized ZavaX Oracle
+**Decentralized ZavaX Oracle**
 Description: The ZavaX oracle is crucial to the bridge, providing crosschain price feeds and enabling trustless ZEC to AVAX conversions.
-[Link](https://zavax-oracle.red.dev)
+[Link to Oracle](https://zavax-oracle.red.dev)
 
-Cross Chain Bridge Contract
-Description: The smart contract architecture supporting the Zcash<>Avalanche bridge, handling deposits, conversions, and withdrawals of ZEC.
+**Cross Chain Bridge Contract**
+Description: The smart contract architecture supporting the Zcash Avalanche bridge, handling deposits, conversions, and withdrawals of ZEC.
 
-Privacy Layer Integration
+**Privacy Layer Integration**
 Description: Ensures that Zcash privacy features are preserved throughout the bridging process, allowing for private cross-chain transactions.
 
 ## Deliverables and Documentation
 
-Zcash Elastic Subnet Bridge on Avalanche: [Grant Proposal](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
+**Zcash Elastic Subnet Bridge on Avalanche**: [Grant Proposal](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
 Below are the key deliverables and technical resources completed for the Zcash<>Avalanche RedBridge project:
 
 Deliverable 1.1: Preliminary PoC that supports querying testnet Zcash transactions from a testnet Avalanche subnet with a CLI, published on Github and with a one node subnet on the Avalanche testnet. https://github.com/red-dev-inc/zavax-oracle
@@ -34,9 +34,10 @@ Deliverable 2.1: [Architecture](https://github.com/red-dev-inc/zavax-bridge/tree
 
 
 ### Milestone 3 March 31, 2024
+
 Deliverable 3.1 is complete, presenting our analysis on adopting FROST over BLS for threshold signatures in the ZavaX bridge. This shift leverages audited libraries from the Zcash Foundation and facilitates better integration and security. https://github.com/ZcashFoundation/frost
 
-Deliverable 3.2 - UX and UI design for GUI completed, detailing our security enhancements for the ZavaX Oracle subnet, supported by penetration testing results. For more details, including server configuration and testing outcomes [Security Assesment](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/deployment-notes.md  )
+Deliverable 3.2 UX and UI design for GUI completed, detailing our security enhancements for the ZavaX Oracle subnet, supported by penetration testing results. For more details, including server configuration and testing outcomes [Security Assesment](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/deployment-notes.md  )
 [Audit Report](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/pen-testing-report-2024-09.md)
 Additionally, the team rebranded from ZavaX to redbridge and changing our staking token from ZAX to RBR.
 
@@ -44,7 +45,7 @@ Additionally, the team rebranded from ZavaX to redbridge and changing our stakin
 Deliverable 4.1 Fully functional deployment to Zcash and Avalanche testnets, with a 3 validator Subnet, with CLI support
 
 ### Milestone 5 May 31, 2024
-Deliverable 5.1 GUI: bridge integration into Core or webapp
+Deliverable 5.1 GUI: bridge integration into Core or Webapp
 
 Milestone 6 June 30, 2024
 Deliverable 6.1 Successful pass of software audit
