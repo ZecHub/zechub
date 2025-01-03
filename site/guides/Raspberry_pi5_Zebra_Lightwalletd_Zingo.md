@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# RPi5ZebraLightwalletdZingo.md
+# RPi5 Zebra Lightwalletd with Zingo
 
 ## Dependecies
 
