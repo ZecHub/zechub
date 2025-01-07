@@ -37,8 +37,8 @@ Warp is YWallet's upcoming synchronization engine with improved synchronization 
 
 A multi-feature privacy wallet supporting Zcash and Ycash utilizing the fast syncing algorithm: warp-sync.
 
-[Zashi](https://z.cash/ecosystem/zashi-wallet/)
-Zachi is a Zcash Wallet developed by the Electric Coin Company that aims to offer simplicity, privacy and ease of use to every ZEC holder.
+[Zashi](https://electriccoin.co/zashi/)
+Zashi is an open source, self custodial, shielded Zcash Wallet built for private payments. Developed by the Electric Coin Company.
 
 [Zcash Block Explorer](https://mainnet.zcashexplorer.app/)
 A well detailed, comprehensive Zcash block explorer from Nighthawk Apps.
