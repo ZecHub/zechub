@@ -1,0 +1,95 @@
+# ZCASH SHIELDED NEWS | VOL. 11
+
+## • La encuesta de elecciones del Comité de ZCG cerró el 1 de enero
+[Foro Zcash](https://forum.zcashcommunity.com/t/zcg-committee-election-december-2024/49593/16)
+
+### Zcash Community Grants | Nuevos Miembros
+Diciembre fue el mes en que ZCG abrió 3 nuevas posiciones para que los miembros de la comunidad se postularan para el comité.  
+Entre ellos, tuvimos los términos de Amber O’Hearn, Jason McGee y Michael Harms, quienes fueron una inspiración. De ellos, solo Amber y Jason se postularon para la reelección.  
+Sin embargo, otros miembros de la comunidad se sintieron libres de presentar sus candidaturas por primera vez, lo que definitivamente fue una de las convocatorias comunitarias más relevantes hasta la fecha.
+
+- [Zerodartz](https://twitter.com/zerodartz)  
+- [Jason McGee](https://x.com/aquietinvestor)  
+- [Arktor](https://x.com/ruZCASH)  
+
+Recibieron la mayoría de los votos a través de ZCAP y asumieron sus nuevos puestos en el comité, relevando así a Amber y Michael de sus términos.  
+
+| Candidato     | Votos |
+|---------------|-------|
+| Arktor        | 68    |
+| Tokidoki      | 61    |
+| Jason McGee   | 100   |
+| Zerodartz     | 86    |
+| Kworks        | 29    |
+| Chidi         | 35    |
+| Ambimorph     | 62    |
+
+#### Compensación para los miembros del comité
+La compensación de cada miembro fue sometida a votación:  
+
+- $1,722 por mes (status quo) - **44 votos**  
+- $1,725 por mes + 10 ZEC por mes - **64 votos**  
+- $2,275 por mes - **21 votos**  
+- $1,775 por mes - **20 votos**  
+- 20 ZEC por mes con un límite en USD de $2,000 - **45 votos**
+
+**Resultado:**  
+Cada miembro recibirá **$1,725 + 10 ZEC por mes** para llevar a cabo el trabajo en el comité.  
+
+¡Felicitaciones a los 3 nuevos miembros electos, quienes también forman parte de la DAO de ZecHub!  
+**¡Adelante!**
+
+---
+
+## Deprecación de Zcashd | Actualizaciones (27/12/2024)
+El 27 de diciembre, Pacu nos proporcionó las últimas actualizaciones sobre la deprecación de Zcashd:  
+
+- **Outreach (Pili, Decentralistdan y Pacu):** El progreso de Zcashd está en marcha; sin embargo, la temporada de fiestas ha causado una desaceleración en las respuestas de las empresas.  
+- **Zebra:** El equipo de ingeniería estuvo de descanso la semana pasada.  
+- **Zaino (ZingoLabs):** El progreso del nuevo sistema está bien avanzado, aunque con algunos desafíos típicos de nuevos proyectos. Zingo está probando el Zebra Regtest y documentando los problemas encontrados. Invitaciones están siendo enviadas a la comunidad para ayudar, probar y sugerir mejoras. PRs disponibles para revisión.  
+- **Backend en Memoria:** El progreso está en marcha, pero ha habido algunos retrasos. La revisión de un PR importante aún está en curso.  
+- **Zallet (anteriormente Zcashd Wallet CLI):** Se espera que el proyecto se complete para finales de enero, con un cronograma ajustado. Se está trabajando para mejorar el soporte para ZEC Transparent e implementar el límite de brecha.  
+- **Formato de Exportación de Carteras:** El programa de Zcash Community Grants aprobó un proyecto de financiamiento. La investigación sobre el formato y la actualización al ZIP-400 ya han comenzado. El equipo de Blockchain Commons empezará a trabajar en el proyecto el próximo año.  
+
+Finalmente, Pacu agradeció a la comunidad por su confianza y colaboración, destacando el crecimiento de la cooperación en el ecosistema de Zcash y los pasos hacia un entorno de desarrollo más descentralizado y amigable para los desarrolladores, deseando la creación de proyectos relacionados con Zcash el próximo verano.  
+
+---
+
+## Debate Sobre Prioridades En NU7
+Con el inicio del año y la implementación de NU6 ya en marcha, la comunidad ha centrado su atención en discutir los próximos ZIPs que se incluirán en NU7, basándose en la encuesta realizada en [Helios Voting](https://heliosvoting.org/helios/elections).
+
+Trasladando la discusión al foro, los debates continúan surgiendo sobre los ZIPs que se implementarán.  
+
+### Estrategias sugeridas:
+1. **Simplificación de la información:** Desglosar la información en partes más pequeñas, con descripciones claras y concisas para cada tema.  
+2. **Encuestas por fases:** Dividir las encuestas en múltiples fases. Por ejemplo:  
+   - **Fase 1:** ZIP 233 (Mecanismo de quema)  
+   - **Fase 2:** ZIP 234 (Suavizado de emisión)  
+   - **Fase 3:** ZIP 235 (Quema de tarifas de transacción)  
+3. **Extender fechas:** Considerar las fiestas para asegurar mayor participación.  
+4. **Sesiones de Q&A:** Ofrecer resúmenes o sesiones de discusión para contexto adicional antes de votar.  
+
+[Más detalles →](https://forum.zcashcommunity.com/t/polling-zcap-on-nu7-priorities/49766)  
+
+---
+
+## Keystone se pone en marcha 🚀
+Para cerrar 2024 con broche de oro, ECC lanzó su última integración del año con Keystone.  
+
+### ¿Qué es Keystone?
+Keystone es una billetera hardware con integración directa con la billetera Zashi, permitiendo realizar transacciones protegidas desde Keystone.  
+- **Avances clave:** Habilitar almacenamiento protegido, superando barreras técnicas para soportar ZEC protegido.  
+- **Colaboración:** Keystone trabajó en conjunto con ECC, recibiendo una subvención de ZCG para impulsar su trabajo.  
+
+### Nota práctica:
+ECC recomienda **crear una nueva billetera** y transferir los fondos, en lugar de importar frases semilla antiguas, para mantener la seguridad de los fondos.  
+
+[¡Ordena tu Keystone ahora! 😊](https://shop.keyst.one/)  
+
+---
+
+## Medios 📱
+- [Twitter](https://twitter.com/ZecHub)  
+- [Discord](https://discord.gg/zcash)  
+- [Bluesky](https://bsky.app/profile/zechub.bsky.social)  
+- [Free2Z](https://free2z.cash/profile)
