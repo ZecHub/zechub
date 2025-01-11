@@ -1,3 +1,8 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/PGP_Encryption.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
+
 # Pretty Good Privacy (PGP)
 
 Pretty Good Privacy (PGP) is a cryptographic software package that provides secure communication over insecure channels. PGP uses a combination of encryption and digital signatures to ensure that only the intended recipient can read a message and that the sender is who they say they are.

@@ -1,12 +1,16 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Organizations/Electric_Coin_Company.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # <img src="https://i.ibb.co/2MghCyb/image-2024-02-03-164918723.png" alt="Alt Text" width="50"/>    Electric Coin Company
 
 ## Mission Statement
 
-Today, billions of people in the world do not have access to a fair and open currency or supporting financial services. We build and support Zcash to drive greater freedom and opportunity for everyone.
+The mission at ECC is to empower economic freedom. Financial privacy is core to this endeavor, and essential to protect human dignity, security, self-sovereignty, and consent.
 
 ## People and Teams
 
-The Electric Coin Company has nearly 30 employees that are distributed across the world. They work on various things such as protocol development, application development, protocol security, business development and regulatory relations. More [info](https://electriccoin.co/team/)
+The Electric Coin Company team is distributed across the world. They work on various things such as protocol development, application development (Zashi), protocol security, business development and regulatory relations.
 
 ## Organizational Structure
 
@@ -20,9 +24,7 @@ Examples of outreach include dialogue with Financial Action Task Force (FATF) ta
 
 ### Partner Engagement 
 
-The ECC supports and contributes to the efforts of organizations like Coin Center, the Blockchain Alliance, the Blockchain Association and Global Digital Finance as wekk as organising PGP Crypto Breakfasts. These are monthly gatherings for policy professionals, think tank scholars and academics to engage in informal discussions around policy for cryptocurrency. 
-
-Another program arranged by the ECC is 'Crypto in Context'. This exists to create opportunities for industry leaders to engage in dialog and discovery, networking and collaborative workshops focused on cryptocurrencies and financial literacy. 
+The ECC supports and contributes to the efforts of organizations like Coin Center, the Blockchain Alliance, and the Blockchain Association. 
 
 Partnerships with Gemini, enabling shielded transactions on their platform and Flexa allowing for easy Zcash mobile payments among several others, demonstrating Zcash as a industry accepted form of Web3 Payment with clear potential for further accessibility in the payments space.
 
@@ -37,7 +39,7 @@ The most significant breakthrough being the most recent. The creation of the hal
 
 ## Funding
 
-The Electric Coin Company receives 7% of the [Zcash development fund](https://zips.z.cash/zip-1014). Their use of finances can be seen in their [transparency reports](https://electriccoin.co/blog/ecc-transparency-report-for-q3-2021/) which they release every quarter.
+Their use of finances can be seen in their [transparency reports](https://electriccoin.co/blog/ecc-transparency-report-for-q3-2021/) which they release every quarter.
 
 ## Resources
 

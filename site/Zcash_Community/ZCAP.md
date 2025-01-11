@@ -1,3 +1,7 @@
+<a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/ZCAP.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Zcash Community Advisory Panel 
 
 The Zcash Community Advisory Panel, or ZCAP, is a panel conformed by members of the Zcash Community, established as a means to involve the community and soliciting their advisory input whenever the Zcash Foundation needs to make a decision involving or afecting said community.

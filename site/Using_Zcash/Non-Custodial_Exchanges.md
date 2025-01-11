@@ -1,3 +1,7 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Non-Custodial_Exchanges.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # <img src="https://i.ibb.co/BN7SxwY/ZEC-USD.png" alt="Alt Text" width="50"/>   Non-Custodial Exchanges
 
 [Zcash Non-Custodial Exchanges](/site/Using_Zcash/DEX_List)

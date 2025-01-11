@@ -1,3 +1,7 @@
+<a href="https://github.com/Zechub/zechub/edit/main/site/ZFAV_Club/Guides_for_Creators/Video_Subtitle_Generation_with_Translation.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Video subtitle generation and translation
 
 Tools used in this guide:

@@ -1,0 +1,52 @@
+.property-1-help-clicked .help-icon {
+  margin: 2px 0 1px 0;
+  width: 17px;
+  height: 17px;
+}
+.property-1-help-clicked .help {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.property-1-help-clicked .container {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background: #F2EFEF;
+  position: relative;
+  margin-bottom: 19px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24px 0 16px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.property-1-help-clicked .vector-3 {
+  margin: 1px 10px 1px 0;
+  width: 18px;
+  height: 18px;
+}
+.property-1-help-clicked .log-out {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.property-1-help-clicked .log-out-btn {
+  margin-left: 21.2px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.property-1-help-clicked {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}

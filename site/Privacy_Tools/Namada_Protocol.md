@@ -1,3 +1,8 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Namada_Protocol.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
+
 # Namada Protocol
 
 <a href="">

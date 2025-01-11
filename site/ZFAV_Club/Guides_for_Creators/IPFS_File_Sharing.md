@@ -1,3 +1,7 @@
+<a href="https://github.com/Zechub/zechub/edit/main/site/ZFAV_Club/Guides_for_Creators/IPFS_File_Sharing.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # P2P File Sharing with IPFS and Brave Browser
 
 We can use IPFS to share large media files between us in a Peer to-Peer way.

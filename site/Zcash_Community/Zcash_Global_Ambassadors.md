@@ -1,3 +1,7 @@
+<a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Zcash_Global_Ambassadors.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Zcash Global Ambassadors
 
 

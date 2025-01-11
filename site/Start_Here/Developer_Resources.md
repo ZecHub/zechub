@@ -1,3 +1,8 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/Developer_Resources.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
+
 # Developer Resources 
 
 **A list of the recommended resources for new developers to Zcash**

@@ -1,3 +1,7 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Social_Media/Podcasts/Zcast_Podcast.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Zcast Podcast
 
 [Zcast - Zcash en Español](https://zcashesp.com/zcast/)

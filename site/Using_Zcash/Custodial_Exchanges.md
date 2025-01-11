@@ -1,3 +1,7 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Custodial_Exchanges.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # <img src="https://i.ibb.co/bmS65xV/image-2024-02-03-173258092.png" alt="Alt Text" width="50"/>   Custodial Exchanges
 
 ---
@@ -10,8 +14,8 @@
 
 - Website: [Binance](https://binance.com)
 - Pairs: ALL/ZEC
-- Supports: Transparent and Shielded
-
+- Supports: Transparent (TEX Address Deposit)
+- Deposit Time: 20 minutes
 ___
 
 ### [Bitfinex](https://bitfinex.com)
@@ -23,7 +27,7 @@ ___
 - Website: [Bitfinex](https://bitfinex.com)
 - Pairs: ALL/ZEC
 - Supports: Transparent
-
+- Deposit Time: 25 Minutes 
 ___
 
 ### [Coinbase](https://coinbase.com)
@@ -35,7 +39,7 @@ ___
 - Website: [Coinbase](https://coinbase.com)
 - Pairs: ALL/ZEC
 - Supports: Transparent
-
+- Deposit Time: 150 minutes
 ___
 
  ### [Gemini](https://gemini.com)
@@ -46,8 +50,8 @@ ___
 
 - Website: [Gemini](https://gemini.com)
 - Pairs: ALL/ZEC
-- Supports: Transparent
-
+- Supports: Transparent | Shielded Withdrawal
+- Deposit Time: 50 Minutes 
 ___
 
 ### [Huobi](https://huobi.com)
@@ -59,7 +63,7 @@ ___
 - Website: [Huobi](https://huobi.com)
 - Pairs: ALL/ZEC
 - Supports: Transparent
-
+- Deposit Time: 35 Minutes 
 ___
 
 ### [Kraken](https://kraken.com)
@@ -71,7 +75,7 @@ ___
 - Website: [Kraken](https://kraken.com)
 - Pairs: ALL/ZEC
 - Supports: Transparent
-
+- Deposit Time: 60 minutes
 ___
 
 ### [KuCoin](https://kucoin.com)
@@ -83,7 +87,7 @@ ___
 - Website: [KuCoin](https://kucoin.com)
 - Pairs: ALL/ZEC
 - Supports: Transparent
-
+- Deposit Time: 20 Minutes 
 ___
 
 ## [OKEx](https://okex.com)
@@ -95,5 +99,5 @@ ___
 - Website: [OKEx](https://okex.com)
 - Pairs: ALL/ZEC
 - Supports: Transparent
-
+- Deposit Time: 25 Minutes 
 ___

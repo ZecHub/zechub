@@ -1,3 +1,7 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Organizations/Zcash_Foundation.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # <img src="https://i.ibb.co/Nr9xqgX/image-2024-02-03-165803028.png" alt="Alt Text" width="50"/>  Zcash Foundation
 
 ## Mission Statement
@@ -12,7 +16,7 @@ The ZF team consists of a board of directors, the engineering team and an operat
 
 Zcash Foundation Grants provides the ecosystem with a means to fund projects that contribute to the privacy ecosystem such as [Zebra](https://zebra.zfnd.org/) (an independant node implementation for Zcash) & [FROST](https://frost.zfnd.org/) as well as [various](https://www.coindesk.com/tech/2021/06/08/tor-project-receives-670k-from-zcash-open-major-grants-for-coding-language-upgrade/) other projects through [Zcash Open Major Grants](https://zcashcommunitygrants.org/) , now [Zcash Community Grants Committee](https://zcashgrants.org/submit). 
 
-The Foundation also holds [Zcon](https://zfnd.org/zcon/), a yearly in-person conference centered on the Zcash ecosystem and supports grassroots, community initiatives such as [Zcon Vozes](https://zfnd.org/zcon-voices/) regional specific conferences, the [Zcash Foundation A/V Club](https://discord.gg/WGEVenUq) and various other [open community calls](https://github.com/ZcashCommunityGrants/arboretum-notes) and AMA's.
+The Foundation also holds [Zcon](https://zfnd.org/zcon/), a yearly in-person conference centered on the Zcash ecosystem and supports grassroots, community initiatives such as [Zcon Vozes](https://zfnd.org/zcon-voices/) regional specific conferences, the [Zcash Foundation A/V Club](https://forum.zcashcommunity.com/t/the-zero-knowledge-audiovisual-club/43733) and various other [open community calls](https://github.com/ZcashCommunityGrants/arboretum-notes) and AMA's.
 
 The Zcash Foundation enforces the [Zcash Trademark policy](https://zfnd.org/protecting-the-zcash-trademarks/) per the conditions of it's [donation](https://zfnd.org/wp-content/uploads/2022/06/Trademark-Agreement-ZF_ECC_notarized-pages-and-signed.pdf) by the Electric Coin Co. which helps "Protect the reputation of Zcash, its associated entities, and the Zcash community" by "identify(ing) official sources of information, reducing the likelihood of fraudulent or incorrect information" and "Identify(ing) official apps and services, reducing the likelihood of fraudulent activities." 
 

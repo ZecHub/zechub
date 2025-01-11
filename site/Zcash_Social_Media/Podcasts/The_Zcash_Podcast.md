@@ -1,3 +1,7 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Social_Media/Podcasts/The_Zcash_Podcast.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 
 # The Zcash Podcast on the Digital Cash Network
 ![Screenshot_2023-01-22_21-50-14](https://user-images.githubusercontent.com/81990132/213973803-b0629c92-08d4-459b-99f1-594854a7db3a.png)

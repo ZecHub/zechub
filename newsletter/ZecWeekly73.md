@@ -11,7 +11,7 @@ Hi everyone, its been a while since i've written one of these! Eventful week, co
 
 #### This Week's Education Piece
 
-Today's education piece is a recent video posted by Hanh. Here he describes the challenges in maintaining adequete transaction privacy when transferring funds between pools. Each wallet 'builds' transactions differently and this will become important when finding solutions for exchanges to consider for Zcash deposits in future. 
+Today's education piece is a recent video posted by Hanh. Here he describes the challenges in maintaining adequate transaction privacy when transferring funds between pools. Each wallet 'builds' transactions differently and this will become important when finding solutions for exchanges to consider for Zcash deposits in future. 
 
 https://youtu.be/SeWcFUrOiAk?feature=shared
 
@@ -55,7 +55,7 @@ https://youtu.be/SeWcFUrOiAk?feature=shared
 
 [Bitcoin fees hit 20 month high, Avg fee $40 - Cointelegraph](https://cointelegraph.com/news/bitcoin-fees-20-month-high-miner-revenues-match-69k-btc-price)
 
-[Arbirtrum hit by outage due to Traffic surge - Coindesk](https://www.coindesk.com/tech/2023/12/15/arbitrum-hit-by-partial-outage-due-to-traffic-surge)
+[Arbitrum hit by outage due to Traffic surge - Coindesk](https://www.coindesk.com/tech/2023/12/15/arbitrum-hit-by-partial-outage-due-to-traffic-surge)
 
 [Ledger exploit now fixed - Trustnodes](https://www.trustnodes.com/2023/12/14/ledger-exploit-now-fixed)
 
@@ -78,7 +78,7 @@ https://youtu.be/SeWcFUrOiAk?feature=shared
 
 [Zondax Zcash Ledger App in Audit phase!](https://twitter.com/inh0a/status/1734330399910686975)
 
-[People dont want to understand SNARKs, but there is a way out!- ruzcash](https://twitter.com/ruzcash/status/1736273218074206688)
+[People don't want to understand SNARKs, but there is a way out!- ruzcash](https://twitter.com/ruzcash/status/1736273218074206688)
 
 [The differences between Centralised & Decentralised exchange - papelesacolor](https://twitter.com/Lexaleth/status/1735507038656970813)
 

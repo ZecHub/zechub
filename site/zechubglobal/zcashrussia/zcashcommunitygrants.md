@@ -1,3 +1,7 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/zechubglobal/zcashrussia/zcashcommunitygrants.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Гранты сообщества Zcash
 
 ## Миссия

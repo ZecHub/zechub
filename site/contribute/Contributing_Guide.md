@@ -1,3 +1,7 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/contribute/Contributing_Guide.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Contributing to ZecHub
 
 > ZecHub helps people learn about Zcash

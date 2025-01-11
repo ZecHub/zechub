@@ -1,3 +1,7 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Zebra_Full_Node.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 ## Introduction to Zebra Node
 
 Introducing Zebra: Revolutionizing Zcash Node Infrastructure with Rust

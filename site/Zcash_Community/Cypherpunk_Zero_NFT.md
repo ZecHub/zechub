@@ -1,3 +1,7 @@
+<a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Cypherpunk_Zero_NFT.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 ![header](https://user-images.githubusercontent.com/81990132/205220798-c8e51db6-ddad-46ff-b760-4017565318c5.png)
 
 

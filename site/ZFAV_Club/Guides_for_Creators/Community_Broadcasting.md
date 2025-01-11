@@ -1,3 +1,7 @@
+<a href="https://github.com/Zechub/zechub/edit/main/site/ZFAV_Club/Guides_for_Creators/Community_Broadcasting.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Community Broadcasting using VDO.Ninja and OBS Studio
 
 This short tutorial was created during the [DWeb Camp 2023](https://dwebcamp.org/) by group of fellows and volunteers. The goal of this exercise is to leverage on using smart phone devices connected to offline MESH network for collaborative video recording and streaming.

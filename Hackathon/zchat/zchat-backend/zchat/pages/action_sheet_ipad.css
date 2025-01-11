@@ -1,0 +1,180 @@
+.action-sheet-ipad .ashort-title-is-best {
+  margin-bottom: 4px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--footnote-emphasized-font-family, 'SF Pro', 'Roboto Condensed');
+  font-weight: var(--footnote-emphasized-font-weight, 600);
+  font-size: var(--footnote-emphasized-font-size, 13px);
+  letter-spacing: var(--footnote-emphasized-letter-spacing, -0.1px);
+  line-height: var(--footnote-emphasized-line-height, 1.385);
+  background: linear-gradient(#3D3D3D, #3D3D3D), linear-gradient(rgba(127, 127, 127, 0.5), rgba(127, 127, 127, 0.5));
+  color: var(--vibrant-labels-vibrant-secondary, transparent);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.action-sheet-ipad .amessage-should-be-ashort-complete-sentence {
+  overflow-wrap: break-word;
+  font-family: var(--footnote-regular-font-family, 'SF Pro', 'Roboto Condensed');
+  font-weight: var(--footnote-regular-font-weight, 400);
+  font-size: var(--footnote-regular-font-size, 13px);
+  letter-spacing: var(--footnote-regular-letter-spacing, -0.1px);
+  line-height: var(--footnote-regular-line-height, 1.385);
+  background: linear-gradient(#3D3D3D, #3D3D3D), linear-gradient(rgba(127, 127, 127, 0.5), rgba(127, 127, 127, 0.5));
+  color: var(--vibrant-labels-vibrant-secondary, transparent);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.action-sheet-ipad .title-and-description {
+  border-bottom: 0.3px solid rgba(128, 128, 128, 0.55);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 0 13.7px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.action-sheet-ipad .title {
+  overflow-wrap: break-word;
+  font-family: var(--body-regular-font-family, 'SF Pro', 'Roboto Condensed');
+  font-weight: var(--body-regular-font-weight, 400);
+  font-size: var(--body-regular-font-size, 17px);
+  letter-spacing: var(--body-regular-letter-spacing, -0.4px);
+  line-height: var(--body-regular-line-height, 1.294);
+  color: #007AFF;
+}
+.action-sheet-ipad .button-1 {
+  border-bottom: 0.3px solid rgba(128, 128, 128, 0.55);
+  display: flex;
+  padding: 17px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.action-sheet-ipad .title-1 {
+  overflow-wrap: break-word;
+  font-family: var(--body-regular-font-family, 'SF Pro', 'Roboto Condensed');
+  font-weight: var(--body-regular-font-weight, 400);
+  font-size: var(--body-regular-font-size, 17px);
+  letter-spacing: var(--body-regular-letter-spacing, -0.4px);
+  line-height: var(--body-regular-line-height, 1.294);
+  color: #007AFF;
+}
+.action-sheet-ipad .button-2 {
+  border-bottom: 0.3px solid rgba(128, 128, 128, 0.55);
+  display: flex;
+  padding: 17px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.action-sheet-ipad .title-2 {
+  overflow-wrap: break-word;
+  font-family: var(--body-regular-font-family, 'SF Pro', 'Roboto Condensed');
+  font-weight: var(--body-regular-font-weight, 400);
+  font-size: var(--body-regular-font-size, 17px);
+  letter-spacing: var(--body-regular-letter-spacing, -0.4px);
+  line-height: var(--body-regular-line-height, 1.294);
+  color: #007AFF;
+}
+.action-sheet-ipad .button-3 {
+  border-bottom: 0.3px solid rgba(128, 128, 128, 0.55);
+  display: flex;
+  padding: 17px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.action-sheet-ipad .title-3 {
+  overflow-wrap: break-word;
+  font-family: var(--body-regular-font-family, 'SF Pro', 'Roboto Condensed');
+  font-weight: var(--body-regular-font-weight, 400);
+  font-size: var(--body-regular-font-size, 17px);
+  letter-spacing: var(--body-regular-letter-spacing, -0.4px);
+  line-height: var(--body-regular-line-height, 1.294);
+  color: #007AFF;
+}
+.action-sheet-ipad .button-4 {
+  border-bottom: 0.3px solid rgba(128, 128, 128, 0.55);
+  display: flex;
+  padding: 17px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.action-sheet-ipad .title-4 {
+  overflow-wrap: break-word;
+  font-family: var(--body-regular-font-family, 'SF Pro', 'Roboto Condensed');
+  font-weight: var(--body-regular-font-weight, 400);
+  font-size: var(--body-regular-font-size, 17px);
+  letter-spacing: var(--body-regular-letter-spacing, -0.4px);
+  line-height: var(--body-regular-line-height, 1.294);
+  color: #007AFF;
+}
+.action-sheet-ipad .button-5 {
+  border-bottom: 0.3px solid rgba(128, 128, 128, 0.55);
+  display: flex;
+  padding: 17px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.action-sheet-ipad .title-5 {
+  overflow-wrap: break-word;
+  font-family: var(--body-regular-font-family, 'SF Pro', 'Roboto Condensed');
+  font-weight: var(--body-regular-font-weight, 400);
+  font-size: var(--body-regular-font-size, 17px);
+  letter-spacing: var(--body-regular-letter-spacing, -0.4px);
+  line-height: var(--body-regular-line-height, 1.294);
+  color: var(--grays-gray-2, #AEAEB2);
+}
+.action-sheet-ipad .button-6 {
+  border-bottom: 0.3px solid rgba(128, 128, 128, 0.55);
+  display: flex;
+  padding: 17px 1px 17px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.action-sheet-ipad .title-6 {
+  overflow-wrap: break-word;
+  font-family: var(--body-regular-font-family, 'SF Pro', 'Roboto Condensed');
+  font-weight: var(--body-regular-font-weight, 400);
+  font-size: var(--body-regular-font-size, 17px);
+  letter-spacing: var(--body-regular-letter-spacing, -0.4px);
+  line-height: var(--body-regular-line-height, 1.294);
+  color: #FF3B30;
+}
+.action-sheet-ipad .button-7 {
+  border-bottom: 0.3px solid rgba(128, 128, 128, 0.55);
+  display: flex;
+  padding: 17px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.action-sheet-ipad .buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+.action-sheet-ipad .frame {
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+.action-sheet-ipad .container {
+  width: 47px;
+  height: 13px;
+}
+.action-sheet-ipad .popover {
+  backdrop-filter: blur(25px);
+  background: linear-gradient(#5C5C5C, #5C5C5C), linear-gradient(rgba(153, 153, 153, 0.97), rgba(153, 153, 153, 0.97));
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  box-sizing: border-box;
+}
+.action-sheet-ipad {
+}

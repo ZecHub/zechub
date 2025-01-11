@@ -1,3 +1,7 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/ZEC_Use_Cases.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Zcash Basics
 
 ## ZEC Use Cases

@@ -1,0 +1,116 @@
+.property-1-hide-balance .vector-1 {
+  width: 20px;
+  height: 20px;
+}
+.property-1-hide-balance .balance-icon {
+  border-radius: 10px;
+  background: #D9D9D9;
+  position: relative;
+  margin-right: 8.5px;
+  display: flex;
+  padding: 12px 14px;
+  width: 48px;
+  height: 44px;
+  box-sizing: border-box;
+}
+.property-1-hide-balance .balance {
+  margin: 14px 0 13px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 14px;
+  color: #000000;
+}
+.property-1-hide-balance .balance-dashboard {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.property-1-hide-balance .vector {
+  margin: 8px 0 21px 0;
+  width: 20px;
+  height: 15px;
+}
+.property-1-hide-balance .container {
+  margin: 0 10px 8px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 10px);
+  box-sizing: border-box;
+}
+.property-1-hide-balance .container-3 {
+  margin: 0 14px 4px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 45px;
+  color: #000000;
+}
+.property-1-hide-balance .container {
+  margin: 5.5px 12px 5.5px 0;
+  display: inline-block;
+  width: 44px;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+.property-1-hide-balance .profit {
+  margin: 10px 5.7px 10px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 12px;
+  color: #000000;
+}
+.property-1-hide-balance .container-1 {
+  margin: 10px 5.3px 10px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 12px;
+  color: #2BAEBA;
+}
+.property-1-hide-balance .container-2 {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 12px;
+  color: #2BAEBA;
+}
+.property-1-hide-balance .frame-427320504 {
+  border-radius: 18px;
+  background: rgba(43, 174, 186, 0.26);
+  display: flex;
+  padding: 10px 10.1px;
+  box-sizing: border-box;
+}
+.property-1-hide-balance .frame-427320505 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.property-1-hide-balance .frame-427320506 {
+  margin-left: 0.4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 0.4px);
+  box-sizing: border-box;
+}
+.property-1-hide-balance {
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background: #F9EED6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 26px 6px 28px 20px;
+  box-sizing: border-box;
+}

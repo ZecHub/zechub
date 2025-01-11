@@ -1,3 +1,7 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Full_Nodes.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Full Nodes
 
 A Full Node is software that runs a full copy of any cryptocurrency's blockchain giving access to the protocols features.

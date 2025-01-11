@@ -1,3 +1,8 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/VPN_and_DVPN.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
+
 # VPN & dVPN
 
 In the digital age, maintaining online privacy and security is of paramount importance. Virtual Private Networks (VPNs) and decentralized VPNs (dVPNs) play a crucial role in safeguarding your online activities and data. This wiki page explores the key differences between traditional VPNs and emerging dVPNs, security considerations when selecting a VPN, and a list of VPN services that accept the privacy-centric cryptocurrency, Zcash.

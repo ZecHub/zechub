@@ -1,0 +1,78 @@
+.property-1-sending-coins-3 .close-btn {
+  transform: rotate(43.65deg);
+  width: 20px;
+  height: 20px;
+}
+.property-1-sending-coins-3 .close-button {
+  border-radius: 25px;
+  background: #D9D9D9;
+  position: relative;
+  margin-bottom: 16px;
+  display: flex;
+  padding: 11.7px 10.5px 10.1px 11.2px;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+}
+.property-1-sending-coins-3 .transaction-processing-pop-up {
+  margin-bottom: 30px;
+  width: 173px;
+  height: 192px;
+}
+.property-1-sending-coins-3 .transaction-is-being-processed {
+  margin-bottom: 236px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+.property-1-sending-coins-3 .view-transaction-receipt {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+.property-1-sending-coins-3 .frame-427320502 {
+  border-radius: 10px;
+  background: #F4B728;
+  margin: 0 1px 31px 0;
+  display: flex;
+  padding: 15px 20.2px;
+  box-sizing: border-box;
+}
+.property-1-sending-coins-3 .return-to-chat {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+.property-1-sending-coins-3 .frame-427320503 {
+  border-radius: 10px;
+  background: rgba(43, 174, 186, 0.65);
+  margin-right: 1px;
+  display: flex;
+  padding: 15px 0;
+  width: 160px;
+  box-sizing: border-box;
+}
+.property-1-sending-coins-3 .container-2 {
+  border-radius: 40px;
+  background: #F1FCFD;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 95px 0 73px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.property-1-sending-coins {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}

@@ -1,38 +1,42 @@
-# Recursos do desenvolvedor
+# Recursos de Desenvolvimento
 
-Uma lista dos recursos recomendados para novos desenvolvedores do Zcash
+Uma lista dos recursos recomendados para novos desenvolvedores Zcash
 
 **Visão geral ampla de como Blockchains e Zcash funcionam:**
 
-[Documentos Zcash ](https://zcash.readthedocs.io/en/latest/)
+- [Documentos Zcash ](https://zcash.readthedocs.io/en/latest/)
 
-[Dominando o Bitcoin: Programando a Blockchain Aberta](https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4)
+- [Dominando o Bitcoin: Programando a Blockchain Aberta](https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4)
 
-[RPCs do Zcashd](https://zcash.github.io/rpc/)
+- [RPCs do Zcashd](https://zcash.github.io/rpc/)
 
-[O Livro Zcashd](https://zcash.github.io/zcash/)
+- [Zcashd Book](https://zcash.github.io/zcash/)
 
-[Protocolo Light Client](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html)
+- [Zebrad](https://zebra.zfnd.org/)
 
-[Kit de Desenvolvimento de Software para Dispositivos Móveis Android](https://github.com/zcash/zcash-android-wallet-sdk) / [Kit de Desenvolvimento de Software para Dispositivos Móveis IOS](https://github.com/zcash/ZcashLightClientKit)
+- [FROST](https://zfnd.org/frost/)
+
+- [Protocolo Light Client](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html)
+
+- [Kit de Desenvolvimento de Software para Dispositivos Móveis Android](https://github.com/zcash/zcash-android-wallet-sdk) / [Kit de Desenvolvimento de Software para Dispositivos Móveis IOS](https://github.com/zcash/ZcashLightClientKit)
 
 **Construindo a compreensão de como as dependências são revisadas e mantidas pelas equipes:**
 
-[Lista ZIP](https://zips.z.cash)
+- [Lista de ZIPs](https://zips.z.cash)
 
-[Codificação de endereço](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys)
+- [Codificação de Endereço](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys)
 
-[Principais Pedidos de Pull do Zcashd](https://github.com/zcash/zcash/pulls) / [Principais Pedidos de Pull do ZebraD](https://github.com/ZcashFoundation/zebra/pulls)
+- [Principais Pull Requests (PR) do Zcashd](https://github.com/zcash/zcash/pulls) / [Principais Pedidos de Pull do ZebraD](https://github.com/ZcashFoundation/zebra/pulls)
 
-[Bibliotecas de assinatura criptográfica](https://github.com/orgs/ZcashFoundation/repositories?type=all)
+- [Bibliotecas de Assinaturas Criptográficas](https://github.com/orgs/ZcashFoundation/repositories?type=all)
 
-[O Livro Halo 2](https://zcash.github.io/halo2/index.html)
+- [Halo 2 Book](https://zcash.github.io/halo2/index.html)
 
-[O livro do Orchard](https://zcash.github.io/orchard/)
+- [Orchard Book](https://zcash.github.io/orchard/)
 
-[Halo Crate]() / [Orchard Crate](https://docs.rs/orchard/latest/orchard/)
+- [Halo Crate]() / [Orchard Crate](https://docs.rs/orchard/latest/orchard/)
 
-[Zcash R&D Discord](https://discord.com/invite/xRVCHQT6)
+- [Zcash R&D Discord](https://discord.com/invite/xRVCHQT6)
 
 
 Esta lista foi compilada a partir de recomendações fornecidas pelos desenvolvedores da Zcash Foundation & ECC.

@@ -1,3 +1,7 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/contribute/Help_build_ZecHub.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Help Build ZecHub 
 
 If you're a member of the Zcash community, and want to contribute building ZecHub, there a few things that are super helpful.

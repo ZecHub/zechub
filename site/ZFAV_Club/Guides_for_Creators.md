@@ -1,3 +1,7 @@
+<a href="https://github.com/Zechub/zechub/edit/main/site/ZFAV_Club/Guides_for_Creators.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 ![](https://i.ibb.co/x1nSS7b/image-2023-11-18-152209271.png)
 
 # Guides for Creators

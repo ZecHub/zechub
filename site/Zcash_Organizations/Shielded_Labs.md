@@ -1,7 +1,11 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Organizations/Shielded_Labs.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # <img src="https://i.ibb.co/B31jLSb/image-2024-02-03-170120205.png" alt="Alt Text" width="50"/>    Shielded Labs
 
 
-Shielded Labs was founded as a Swiss Association in December 2022, and has no affiliation with Zcash Community Grants (ZCG) and has no plans to apply for ZCG funding.
+[Shielded Labs](https://shieldedlabs.net) was founded as a Swiss Association in December 2022, and has no affiliation with Zcash Community Grants (ZCG) and has no plans to apply for ZCG funding.
 
 Zcash is currently supported by 2 US organizations, the Electric Coin Company (ECC) and Zcash Foundation, that are the sole recipients of the development fund. ZCG is not an organization, but a grants committee under the Foundation, which custodies and administers its funds. More independent organizations contributing to the Zcash ecosystem are needed in order to diffuse power and become more decentralized.
 
@@ -39,9 +43,9 @@ Initial part-time, project-based support will be needed to help lay the groundwo
 
 Initially, Shielded Labs is funded entirely by donations & aims to raise funds to bootstrap the first year of operations. 
 
-With regard to long-term funding, Shielded Labs has outlined a proposal to be a recipient of Zcash development fund via the block reward after the next halving in Q4 2024. 
+With regard to long-term funding, Shielded Labs has outlined a proposal "Network Sustainability Fund" to be a recipient of Zcash development fund via the block reward after the next halving in Q4 2024. 
 
 This will involve development of a modified issuance schedule and the mechanism to direct funds to the Sustainability Fund & plans for implemention on zcashd/zebrad. 
 
 You can read the full proposal here:
-https://forum.zcashcommunity.com/t/the-zcash-posterity-fund/42703/26
+https://shieldedlabs.net/nsm

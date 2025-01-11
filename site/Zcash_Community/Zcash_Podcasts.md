@@ -1,3 +1,7 @@
+<a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Zcash_Podcasts.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Podcasts
 Want to learn more about the Zcash ecosystem? Here's a list of podcasts you can follow:
 

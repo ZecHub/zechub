@@ -1,42 +1,46 @@
 # Projetos da Comunidade Zcash
 
-[Block Explorer](https://zcashblockexplorer.com)
+- [Block Explorer](https://mainnet.zcashexplorer.app/)
 
 O Zcash Block Explorer fornece informações como dados de transações, informações de blocos, endereços, blocos de mempool, etc. Também permite o uso da chave de visualização de divulgação de pagamento de transações.
 
-[Frost](https://eprint.iacr.org/2020/852)
+- [FROST](https://zfnd.org/frost/)
 
 Pesquisadores da Zcash Foundation estão colaborando em um rascunho informativo do IETF para FROST com pesquisadores da Universidade de Waterloo e várias outras organizações, e está no caminho para uma maior adoção dentro do ecossistema Zcash e além.
 
-[Free2z](https://free2z.cash)
+- [Free2z](https://free2z.cash)
 
-Free2z é uma ferramenta para conteúdo anônimo e doações privadas.
+Free2z é uma plataforma para conteúdo anônimo e doações privadas.
 
-[Nighthawk Wallet](https://nighthawkwallet.com/)
+- [Zashi Wallet](https://electriccoin.co/zashi/)
 
-Dinheiro privado em sua carteira usando ZEC e capaz de autoprogramar fundos.
+Carteira desenvolvida pela Electric Coin Company para transações e interações de forma privada.
 
-[Ywallet](https://ywallet.app/)
+- [Ywallet](https://ywallet.app/)
 
 Uma carteira de privacidade multi-recursos que suporta Zcash e Ycash utilizando o algoritmo de sincronização rápida: warp-sync.
 
-[Zbay](https://www.zbay.app/index.html)
+- [Zingo Wallet](https://z.cash/ecosystem/zingo/)
+
+A carteira Zingo é uma carteira desenvolvida pela Zingo Labs para transações Zcash. 
+
+- [Zbay](https://www.zbay.app/index.html)
 
 Zbay permite que você envie mensagens, crie comunidades e mercados online e compre e venda produtos de forma privada usando Zcash.
 
-[Zebra](https://zfnd.org/zebra/)
+- [Zebra](https://zfnd.org/zebra/)
 
 O Zebra é uma implementação independente e compatível com o consenso do nó Zcash da Fundação, atualmente em desenvolvimento. O Zebra pode ser usado para se juntar à rede peer-to-peer do Zcash, que ajuda a manter o Zcash funcionando validando e transmitindo transações e mantendo o estado do blockchain do Zcash de maneira distribuída.
 
-[ZECpages](https://www.zecpages.com/z/all)
+- [ZECpages](https://www.zecpages.com/z/all)
 
 O ZECpages é uma mídia social à prova de censura alimentada pelo blockchain do Zcash. Inclui um diretório de usuários de Zcash e um quadro de mensagens anônimo alimentado pelo Zcash.
 
-[ZECwallet Lite](https://zecwallet.co)
+- [ZECwallet Lite](https://zecwallet.co)
 
 Uma carteira totalmente equipada para Zcash.
 
-[Zeme Team](https://zeme.team/)
+- [Zeme Team](https://zeme.team/)
 
 O Zeme Team permite que criadores recebam facilmente gorjetas de qualquer pessoa na comunidade. Eles terão links diretos para o seu trabalho que podem ser compartilhados nas redes sociais para obter mais gorjetas.
 

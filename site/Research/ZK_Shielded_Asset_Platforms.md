@@ -1,3 +1,8 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Research/ZK_Shielded_Asset_Platforms.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
+
 # Zero Knowledge Asset Platforms
 
 

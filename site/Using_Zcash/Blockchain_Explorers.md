@@ -1,3 +1,8 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Blockchain_Explorers.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
+
 # Blockchain Explorers
 
 ## What is an Explorer?
@@ -6,7 +11,7 @@ Blockchain explorers are simply tools that allow one to visualize what has alrea
 
 ## List of Zcash Block Explorers:
 
-- [Zcash Block Explorer](https://zcashblockexplorer.com/)
+- [Zcash Block Explorer](https://mainnet.zcashexplorer.app/)
 
 - [Blockchair](https://blockchair.com)
 

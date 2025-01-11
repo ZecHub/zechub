@@ -1,3 +1,7 @@
+<a href="https://github.com/Zechub/zechub/edit/main/site/Privacy_Tools/2FA_Hardware_Devices.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # 2FA Hardware Devices
 
 Data security and privacy are critical concerns for individuals and businesses alike. Cyberattacks and data breaches are becoming more and more common, and it is essential to take proactive steps to protect sensitive data and maintain your privacy. One such measure is using hardware security keys, which provide an extra layer of protection to protect your devices and data.

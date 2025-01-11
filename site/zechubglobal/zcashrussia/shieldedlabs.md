@@ -1,3 +1,7 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/zechubglobal/zcashrussia/shieldedlabs.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Защищенная лаборатория Shielded Labs
 
 **Shielded Labs** была основана как швейцарская ассоциация в декабре 2022 года, но не имеет отношения к [Zcash Community Grants (ZCG)](https://zcashcommunitygrants.org/) и не планирует подавать заявки на финансирование ZCG.

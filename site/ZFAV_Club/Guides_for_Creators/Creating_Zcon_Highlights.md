@@ -1,3 +1,7 @@
+<a href="https://github.com/Zechub/zechub/edit/main/site/ZFAV_Club/Guides_for_Creators/Creating_Zcon_Highlights.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Quick Start: Creating Zcon Highlights
 
 This guide will walk you through the process of editing and publishing short clips using historical Zcon videos as source content.

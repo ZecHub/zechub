@@ -1,3 +1,8 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Secure_Messengers.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
+
 # Secure Messengers
 
 ## End-to-end encryption

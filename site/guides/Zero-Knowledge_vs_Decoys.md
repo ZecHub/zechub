@@ -1,3 +1,7 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Zero-Knowledge_vs_Decoys.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Zero Knowledge vs Decoy based Systems
 
 "Cryptocurrency exposes all your spending activities to the public since it's just like a twitter to your Bank account and this is a great issue that must be solved by adopting on chain privacy." - Ian Miers at [Devcon4](https://youtube.com/watch?v=9s3EbSKDA3o&feature=share9).

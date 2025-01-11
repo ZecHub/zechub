@@ -1,3 +1,7 @@
+<a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Community_Blogs.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Blogs
 
 [James Katz](https://free2z.cash/James_Katz/)
