@@ -58,17 +58,22 @@
   cd ~/Zenith
   mkdir assets
   
->  cp ~/zenith/dist-newstyle/build/aarch64-linux/ghc-9.6.5/zenith-0.7.2.0/build/zenith/zenith ~/Zenith
+> cp ~/zenith/dist-newstyle/build/aarch64-linux/ghc-9.6.5/zenith-0.7.2.0/build/zenith/zenith ~/Zenith
 > cp ~/zenith/zenith.cfg ~/Zenith
 > cp -r ~/zenith/assets ~/Zenith/assets
 
 - adjust zenith.cfg
 
 nodeUser = "yourusername"
+
 nodePwd = "superSecret"
+
 nodePort = 8234
+
 dbFileName = "zenith.db"
+
 zebraHost = "127.0.0.1"
+
 zebraPort = 8232
 
 > cd ~/Zenith
