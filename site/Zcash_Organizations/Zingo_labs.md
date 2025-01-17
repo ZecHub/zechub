@@ -13,7 +13,7 @@ Zingo Wallet is a fully featured Zcash wallet designed for user friendliness, al
 
 One of the main features of Zingo! is its ability to use the Memo field to offer valuable insights about your transactions.
 
-Zingo! is available for mobile devices and PC's. You'll find all downloads [here](https://zingolabs.org/)
+Zingo! is available for mobile devices and PCs. You will find all downloads [here](https://zingolabs.org/)
 
 ### Zingolib ([Github](https://github.com/zingolabs/zingolib))
 An API and test-app that exposes zcash functionality for app consumption. Zingolib provides both a library for zingo-mobile, as well as an included cli application to interact with zcashd via lightwalletd called Zingo-cli, a command line lightwalletd-proxy client.
@@ -21,7 +21,7 @@ An API and test-app that exposes zcash functionality for app consumption. Zingol
 ### Zaino Indexer ([Github](https://github.com/zingolabs/zaino))
 Zaino is an Indexer developed in Rust by the Zingo team, that aims to replace lightwalletd and to push forward the zcashd deprecation project.
 
-Zaino offers essential features for both 'light' clients, such as wallets and applications that do not require the full blockchain history, and 'full' clients or wallets. It also supports block explorers, granting access to both the finalized blockchain and the non-finalized best chain and mempool managed by a Zebra or Zcashd full validator.
+Zaino offers essential features for both light clients, such as wallets and applications that do not require the full blockchain history, and full clients or wallets. It also supports block explorers, granting access to both the finalized blockchain and the non-finalized best chain and mempool managed by a Zebra or Zcashd full validator.
 
 ###  ZLN (zcash-local-net) ([Github](https://github.com/zingolabs/zcash-local-net))
 A set of utilities that launch and manage Zcash processes. This is used for integration testing in the development of:
