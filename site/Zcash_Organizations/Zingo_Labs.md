@@ -1,6 +1,6 @@
 #  <img src="https://github.com/user-attachments/assets/e38b13a9-d410-426a-a1e6-2dde105d56c4" alt="Alt Text" width="50"/> ZingoLabs
 
-🌐[Official Website](https://zingolabs.org/)  💼 [Github](https://github.com/zingolabs)  🐦 [X/Twitter](https://x.com/ZingoLabs)  📷 [Instagram](https://www.instagram.com/zingolabesp/)
+[Official Website](https://zingolabs.org/)   [Github](https://github.com/zingolabs)   [X/Twitter](https://x.com/ZingoLabs)  [Instagram](https://www.instagram.com/zingolabesp/)
 
 ZingoLabs is a team of visionaries dedicated to enhancing the human experience. We believe that technology should benefit humanity and that we thrive through consensual interactions. We are identifying the patterns that make this possible.
 
