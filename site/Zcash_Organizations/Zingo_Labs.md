@@ -1,6 +1,6 @@
 #  <img src="https://github.com/user-attachments/assets/e38b13a9-d410-426a-a1e6-2dde105d56c4" alt="Alt Text" width="50"/> ZingoLabs
 
-🌐 [Official Website](https://zingolabs.org/) | 💼 [Github](https://github.com/zingolabs) | 🐦 [X/Twitter](https://x.com/ZingoLabs) | 📷 [Instagram](https://www.instagram.com/zingolabesp/)
+🌐[Official Website](https://zingolabs.org/)  💼 [Github](https://github.com/zingolabs)  🐦 [X/Twitter](https://x.com/ZingoLabs)  📷 [Instagram](https://www.instagram.com/zingolabesp/)
 
 ZingoLabs is a team of visionaries dedicated to enhancing the human experience. We believe that technology should benefit humanity and that we thrive through consensual interactions. We are identifying the patterns that make this possible.
 
@@ -9,7 +9,7 @@ Zingo Lab Cyan operates as a Shielded DAO. We store our funds in a treasury wher
 ## Projects
 
 ### Zingo! Wallet ([Github](https://github.com/zingolabs/zingo-mobile))
-Zingo Wallet is a fully featured Zcash wallet designed for user friendliness, although it includes some advanced features for more advanced users. It supports transparent, Sappling and Orchard pools, has an address book for recurrent payments and is available in various languages. It was the first wallet to support Orchard and to implement NU5 formats.
+Zingo Wallet is a fully featured Zcash wallet designed for user friendliness, although it includes some advanced features for more advanced users. It supports transparent, Sapling and Orchard pools, has an address book for recurrent payments and is available in various languages. It was the first wallet to support Orchard and to implement NU5 formats.
 
 One of the main features of Zingo! is its ability to use the Memo field to offer valuable insights about your transactions.
 
