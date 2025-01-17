@@ -33,5 +33,5 @@ Its goal is to offer a highly adaptable and sturdy testing environment for core 
 
 This repository is designed to compare the functionality of various validators (like Zcashd and Zebrad) and indexers (such as Lightwalletd and Zaino) to facilitate the migration during the Zcashd deprecation process.
 
-In addition to providing tools to start, cache, and load Zcash chain data (for mainnet, testnet, and regtest), zcash-zocal-net includes a series of tests to compare the capabilities of Lightwalletd and Zaino across all Lightwallet RPC services. These tests can be executed directly from Zaino (see docs/testing.md]) to assess the Lightwallet RPC services hosted in Zaino.
+In addition to providing tools to start, cache, and load Zcash chain data (for mainnet, testnet, and regtest), zcash-zocal-net includes a series of tests to compare the capabilities of Lightwalletd and Zaino across all Lightwallet RPC services. These tests can be executed directly from Zaino (see [https://github.com/zingolabs/zaino/blob/dev/docs/testing.md](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)]) to assess the Lightwallet RPC services hosted in Zaino.
 
