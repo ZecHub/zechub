@@ -16,6 +16,14 @@
 
 ---
 
+### ZGo
+- **Support**: Transparent and Shielded Transactions
+- **Description**: ZGo is an electronic payment platform that goes directly from your customer to you, with no third parties involved. The payment information is encrypted by the state-of-the-art Zcash blockchain. Any laptop, tablet, or smartphone with a modern web browser can now be your point-of-sale.
+- **URL**: [ZGo](https://zgo.cash/)
+- ![ZGo Logo](https://zgo.cash/images/logo-new-transparent.png)
+
+---
+
 ## NOWPayments
 - **Support Type**: Transparent Transactions  
 - **Description**: NOWPayments is a crypto payment gateway that enables merchants to accept Zcash payments and donations easily. It supports over 300 cryptocurrencies and offers tools like APIs, plugins, and invoices.  
@@ -86,13 +94,6 @@
 - **URL**: [CoinGate](https://coingate.com/)  
 ![CoinGate Logo](https://coingate.com/app/themes/coingate/dist/images/coingate/logo-full.svg)
 
----
-
-### ZGo
-- **Support**: Transparent and Shielded Transactions
-- **Description**: ZGo is an electronic payment platform that goes directly from your customer to you, with no third parties involved. The payment information is encrypted by the state-of-the-art Zcash blockchain. Any laptop, tablet, or smartphone with a modern web browser can now be your point-of-sale.
-- **URL**: [ZGo](https://zgo.cash/)
-- ![ZGo Logo](https://zgo.cash/images/logo-new-transparent.png)
 
 ---
 
@@ -112,29 +113,6 @@
 
 ---
 
-### Zcashd
-- **Support**: Transparent and Shielded Transactions
-- **Description**: Zcashd is a platform that can be used to send and receive ZEC digital currency, mine Zcash, and verify network transactions. It can be installed on a computer that meets the following requirements: running a Linux OS, with a 64-bit processor, 5 GB of free RAM, and 25 GB of free disk space. Maintained by the Electric Coin Company.
-- **URL**: [Zcashd](https://zcash.readthedocs.io/en/latest/rtd_pages/zcashd.html)
-- ![Interface](https://zcash.readthedocs.io/en/latest/_images/zcashd_and_zcashcli.png)
-
----
-
-### Kraken
-- **Support**: Transparent Transactions
-- **Description**: Kraken is a cryptocurrency exchange that allows users to buy, sell, and trade Zcash. It supports a diverse network of payment processors, making it easy to sell Zcash and convert it to fiat currencies.
-- **URL**: [Kraken](https://www.kraken.com/learn/what-is-zcash-zec)
-- ![Kraken Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ37DolLQN2FbnECkKZavOeiUYUks0cUMZMSw&s)
-
----
-
-### StealthEX
-- **Support**: Transparent and Shielded Transactions
-- **Description**: StealthEX is a custody-free cryptocurrency exchange that allows you to buy cryptocurrencies instantly without requiring any registration. Instantly exchange Zcash at the best price and with the lowest fees on StealthEX. Free from registration, fast, and limitless ZEC swaps.
-- **URL**: [StealthEX](https://stealthex.io/coin/zcash/)
-- ![StealthEX Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-e-ZidGvlUXDh01bpXYqPUmUHJaXCnb3rcQ&s)
-
----
 
 ### Paytomat
 - **Support**: Transparent Transactions
