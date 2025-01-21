@@ -39,7 +39,7 @@ The tutorials, short articles, and newsletter will be open sourced and hosted on
 > Help build a more private and secure financial ecosystem for all. Follow our **[contributing guide.](/CONTRIBUTING.md)**
 
 ---
-
+<a href="https://zecub.social/@ZecHub" rel="me">.</a>
 <sub>
   DISCLAIMER: ZecHub is an independent, open-source initiative created by members of the Zcash community. The information in this GitHub repository is for informational purposes only and should not be considered financial or investment advice.
 </sub>
