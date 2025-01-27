@@ -1,5 +1,21 @@
 # Ywallet FROST demo
 
+## Compile FROST bins
+
+https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign
+
+Use the above repo and follow directions on compiling: 
+
+`cargo build --bin trusted-dealer`
+
+`cargo build --bin dkg`
+
+`cargo build --bin coordinator`
+
+`cargo build --bin participants`
+
+Bins will be the the target folder.
+
 
 ## Create FROST UA
 
