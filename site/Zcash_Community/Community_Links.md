@@ -24,9 +24,9 @@ The Zcash community is very active in its community telegram. This is a channel 
 
 [Zcash Foundation](https://discord.gg/na6QZNd)
 
-These places are great options for new community members to join in discussions.
+[Electric Coin Co](https://discord.gg/ftkKEHNtYp)
 
-*There is also a Cypherpunk Zero DAO discord, but you need a Cypherpunk Zero NFT in order to join that.*
+These places are great options for new community members to join in discussions.
 
 #### <ins>Zcash Community Forum</ins>
 
