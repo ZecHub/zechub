@@ -4,7 +4,7 @@
 ## Gather public keys from needed individuals
 
 * https://github.com/iancoleman/bip39
-* If using zcashd, you can create a UA and use your transparent reciever as well. Then use getPubkey.sh to extract your public key.
+* If using zcashd, you can create a UA and use your transparent reciever as well. Then use `getPubkey.sh` to extract your public key.
 
 
 ## Create 2x Multisig (2 of 3) t3 addresses
@@ -29,6 +29,7 @@ Use any wallet/facuet to fund address
 
 where,
 
+```
         txid: a transaction ID of the transaction that sent money into your new t3
    voutIndex: the index of the output in vout which has the largest value
 scriptPubKey: The P2SH locking script contains the hash of another locking script (Script Hash), surrounded by the HASH160 and EQUAL opcodes. This is in hex, and is found via getrawtransaction rpc, look for scriptPubKey
@@ -38,8 +39,11 @@ redeemScript: The hex value of the redeemScript that was output when creating ou
       amount: The amount of ZEC to send to tAddy
  changeTaddy: Change address (new t3 with a new redeemScript!)
 
+```
 
 `./txDetails.sh txid`   => will help you find the needed information
+
+```
 
 txid              : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed37e253de9869b549530 | jq .txid
 
@@ -48,6 +52,8 @@ valueInitialTX    : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed
 voutIndex         : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed37e253de9869b549530 | jq .vout[].n
 
 scriptPubKey      : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed37e253de9869b549530 | jq .vout[].scriptPubKey.hex
+
+```
 
 
 
@@ -78,7 +84,7 @@ For this demo, I have used iancoleman's bip39 to quickly isolate the needed priv
 
 ## Broadcast signed TX
 
-./sendMultiSignedTX.sh signedTXfromLastStep
+`./sendMultiSignedTX.sh signedTXfromLastStep`
 
 
 
