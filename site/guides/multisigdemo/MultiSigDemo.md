@@ -1,5 +1,6 @@
 # MultiSig Demo
 
+This demo requires a synced zcashd
 
 ## Gather public keys from needed individuals
 
