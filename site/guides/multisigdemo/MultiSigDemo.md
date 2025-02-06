@@ -12,11 +12,12 @@
 run createMultiSig.sh to generate your multisig address and redeem script. What's needed are 3 public keys
 
 `./createMultiSig.sh pubk1 pubk2 pubk3`      # 1st t3
+
 `./createMultiSig.sh pubk4 pubk5 pubk6`      # 2nd t3 for the change address. 
 
-NOTE: in this example pubk1,pubk4 are the same person, pubk2,pubk5 are the same person and so on ...
+#### NOTE: in this example pubk1,pubk4 are the same person, pubk2,pubk5 are the same person and so on ...
 
-NOTE2: the ORDER of your pubkeys matters! Pay attention to this!!!!
+#### NOTE2: the ORDER of your pubkeys matters! Pay attention to this!!!!
 
 
 ## Fund t3 address
