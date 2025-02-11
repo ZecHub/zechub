@@ -112,6 +112,7 @@ This will route all traffic from your applications through the **Tor network** u
 
 Here’s a simplified diagram to illustrate how Arti works in conjunction with the Tor network:
 
+
 ```plaintext
 [Application] --(SOCKS5)--> [Arti SOCKS Proxy] --(Tor Protocol)--> [Tor Network]
 ```
