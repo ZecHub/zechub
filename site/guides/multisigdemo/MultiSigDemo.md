@@ -90,7 +90,11 @@ For this demo, I have used iancoleman's bip39 to quickly isolate the needed priv
 
 
 
+# Sources
 
+* https://learnmeabitcoin.com/technical/script/p2sh/
+* https://bitcoin.stackexchange.com/questions/6100/how-will-multisig-addresses-work
+* https://zcash.github.io/rpc/
 
 
 
