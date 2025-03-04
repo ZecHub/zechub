@@ -1,6 +1,6 @@
 ![CBDC](https://blogs.worldbank.org/sites/default/files/styles/hero/public/2022-12/cbdc_illustration_hero_image.jpg.webp?itok=fWANE5--)
 # Unveiling the Dark Side: Navigating the Central Bank Digital Currency (CBDC) Odyssey Amidst Financial Shadows
-By :- [**Abhishek Tiwari**]
+By : [**Abhishek Tiwari**]
 
 In the ever-shifting landscape of global finance, a new chapter is unfolding—one that raises more than a few eyebrows. Central Bank Digital Currencies (CBDCs) emerge not just as protagonists but as potential agents of financial upheaval, casting shadows on the traditional understanding of money and triggering concerns about privacy, surveillance, and governmental interference.
 
@@ -24,7 +24,7 @@ And what of traditional banking structures? The stability we've known for decade
 
 The HRF’s just-launched Central Bank Digital Currency Tracker profiles each country taking steps toward a CBDC, and links these moves on a web page with information on that country’s record on human rights and corruption. In compiling the tracker, HRF found that “dictatorships are leading the charge in CBDC deployment.” HRF estimates that 3.7 billion people – 46% of the world population – live under dictatorships experimenting with CBDCs.
 
-CBDCs are vulnerable to electricity outages and insufficient internet connections 
+CBDCs are vulnerable to electricity outages and insufficient internet connectivity 
 
 Implementing CBDCs becomes our hero's quest, a journey fraught with technical, regulatory, and logistical challenges. The call to create a digital currency is not just an innovation but a potential invitation for government interference and manipulation within the financial system.
 
