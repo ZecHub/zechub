@@ -28,7 +28,7 @@ This [article explains](https://www.ledger.com/academy/not-your-keys-not-your-co
 
 We recommend using a [shielded wallet](https://zechub.wiki/wallets) because these wallets provide the privacy features that make `ZEC` unique. 
 
-Here's a [video](https://www.youtube.com/watch?v=AefftLsENaU) on how to download a shielded walet. 
+Here's a [video](https://www.youtube.com/watch?v=AefftLsENaU) on how to download a shielded wallet. 
 
 Here's a [blog](https://zechub.substack.com/p/private-vs-transparent) explaining the differences between Zcash's different wallet types.
 
