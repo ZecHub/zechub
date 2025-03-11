@@ -7,16 +7,16 @@ The following is collection of most Zcon related media in an easy to find locati
 # Zcon
 Zcon is an annual conference organized by the [Zcash Foundation](https://zfnd.org/).
 
-## Zcon0: Privacy from A to Zcon
+## Zcon0: Privacy from A to Zcon
 
-Zcon0 was our first annual conference, and it went incredibly well. We spent June 26 – 28, 2018 in beautiful Montréal
+Zcon0 was our first annual conference, and it went incredibly well. We spent June 26-28th 2018 in beautiful Montréal
 
 [Zcon0 Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
 
 
 ## Zcon1: Zero to Privacy Hero
 
-the second annual privacy and technology conference hosted by the Zcash Foundation, was held in Split, Croatia on June 22 – 24, 2019.
+the second annual privacy and technology conference hosted by the Zcash Foundation, was held in Split, Croatia on June 22 to 24th 2019.
 
 [Zcon1 Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
 
