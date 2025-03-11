@@ -44,4 +44,10 @@ ZconV took place on May 6th-10th, 2024. ZconV was a virtual conference
 
 [ZconV Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJ41e2uSOJItvbW1YVR49aR)
 
+## ZconVI: Synergy Through Decentralization
+
+ZconVI took playce on March 4th-7th, 2025. ZconVI was a virutal conference
+
+[ZconVI Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLIIhRk8vu2hkPL_q7OWO7wk)
+
 
