@@ -9,9 +9,6 @@
 
 Zcash, a privacy-focused cryptocurrency, supports a feature called "lightwallet nodes" that enables users to interact with the Zcash blockchain without downloading the entire blockchain history. This wiki page provides an overview of lightwallet nodes, the role of the "lightwalletd" service in the Zcash ecosystem, a current list of lightwallet node servers, and instructions on how to change servers in popular wallets like Ywallet and Zingo.
 
-[status.zec,rocks](https://status.zec.rocks/) 
-
-
 ## Lightwalletd Service
 
 The "lightwalletd" service, short for "lightwallet daemon," plays a critical role in Zcash's lightwallet node ecosystem. It acts as an intermediary that provides lightweight clients (lightwallets) with the information they need to function effectively. Here's a brief explainer of the lightwalletd service:
@@ -27,33 +24,39 @@ __Efficient Synchronization__: Lightwalletd enables efficient synchronization fo
 
 ## Current List of Lightwalletd Servers
 
-Here is a list of some current Zcash Lightwallet Nodes that users can connect to:
+* [status.zec.rocks](https://status.zec.rocks/)
+* [hosh.zec.rocks](https://hosh.zec.rocks/zec)
 
-Auto Detect Region: https://zec.rocks:443
+## Changing Servers in Mobile Wallets
 
-North America: https://na.zec.rocks:443
+Changing the lightwallet node server is relatively straightforward. Find and access the advanced settings within the application.
 
-South America: https://sa.zec.rocks:443
+__Open Ywallet/Zingo/Zashi/eZcash__: Launch your wallet of choice on your device.
 
-Europe & Africa: https://eu.zec.rocks:443
+#### Ywallet:
 
-Asia Pacific: https://ap.zec.rocks:443
+For Ywallet it is the cog on the top right corner - Go to the Zcash tab. 
 
-## Changing Servers in Ywallet/Zingo
+![SmartSelect_20250313_105128](https://github.com/user-attachments/assets/b0a2910b-dbdf-4292-8e69-af5a386aa183)
 
-Changing the lightwallet node server in Ywallet or Zingo is relatively straightforward:
+#### Zingo:
 
-__Open Ywallet/Zingo/Zashi__: Launch the Ywallet or Zingo application on your device.
+For Zingo it is in the hamburger menu on the top left corner, then click on settings and scroll down
 
-__Access Settings__: Find and access the advanced settings in Zashi or settings menu within the application. For Ywallet it is the cog on the top left corner - Go to the Zcash tab. 
+![SmartSelect_20250313_105737_Zingo](https://github.com/user-attachments/assets/ea8f7672-e644-41a5-a422-db131740404a)
 
-__Select Server__: Look for the option to select the lightwallet node server. This option is named "Change server".
+#### Zashi:
 
-__Enter Server Information__: You will be prompted to enter the new server's address. Input the URL of the desired server from the current list or enter your personal lightwalletd server if you have one. 
+For Zashi it is the cog on the top right corner - Go to Advanced Settings, and then Choose a server
 
-__Save or Confirm__: Save the changes, and the application should now connect to the new server.
+![SmartSelect_20250313_110200_Zashi](https://github.com/user-attachments/assets/5a9d050a-8308-4cc2-907e-513072066aed)
 
-Remember to ensure that the new server is active and reliable to maintain seamless communication with the Zcash network.
+#### eZcash
+
+For eZcash it is in the hamburger menu on the top left corner, then click on Settings, tap on Advanced
+
+![SmartSelect_20250313_110616](https://github.com/user-attachments/assets/655c0172-61a0-4322-b8cf-4eee4bb53b51)
+
 
 ## Conclusion
 
