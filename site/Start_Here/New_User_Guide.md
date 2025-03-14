@@ -12,7 +12,7 @@ New to Zcash? This guide will walk you through getting onboarded as a Zcash user
 
 To use the Zcash network, you will need to purchase its currency, `ZEC`.
 
-The easiest way to acquire ZEC is to [buy it on Gemini](https://www.gemini.com/prices/zcash) or [any of these exchanges](https://z.cash/exchanges/).
+The easiest way to acquire ZEC is to [buy it on Gemini](https://www.gemini.com/prices/zcash) or [any of these exchanges](https://zechub.wiki/using-zcash/non-custodial-exchanges).
 
 One important note is that you do not need to buy 1 full `ZEC`.
 
