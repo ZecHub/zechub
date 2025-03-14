@@ -7,7 +7,7 @@
 
 In order to use Zcash in private (shielded) transactions, you need to have ZEC. To get ZEC, you'll need to buy it. You can buy ZEC from a number of different exchanges, which we will list below. It is recommended that you use an exchange that supports shielded withdrawals.
 
-_You can also mine ZEC, but that is usually not possible for average consumers. More on that [here](https://www.genesis-mining.com/zcash-mining-guide)._
+_You can also mine ZEC, but that is usually not possible for average consumers. More on that [here](https://forum.zcashcommunity.com/t/mining-to-shielded-addresses-community-mining-pool/50281). and [here](https://zec.suprnova.cc/StartMining)_
 
 ## Buy ZEC directly in [Zashi](https://electriccoin.co/zashi/) w/ Coinbase Integration
 
