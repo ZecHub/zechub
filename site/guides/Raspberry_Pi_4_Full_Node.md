@@ -157,7 +157,7 @@ If you have an extra monitor and keyboard plug those in now. Note: these are opt
 
           `HOST=aarch64-linux-gnu ./zcutil/build.sh`
           
-     * https://www.youtube.com/watch?v=MIgkTW9Rfzs
+     * https://youtu.be/SGYrzhs1l2k
 
 ### Setup *zcashd*
 
