@@ -38,7 +38,7 @@ If there are other ways you'd like to contribute, please message ZecHub ([@ZecHu
 
 ____
 
-**In order to make payouts ZecHub requires all contributors to complete a declaration form with their Name & Shielded Z-address/Unified address**
+**In order to make payouts ZecHub requires all contributors to complete a declaration form with their Name & Shielded Zcash or Penumbra address**
 
 ____
 
