@@ -9,7 +9,7 @@
         </em>
     </h3>
     <p>
-        <a href="https://follow.zechub.org/" target="_blank">
+        <a href="https://twitter.com/zechub" target="_blank">
             <img src="https://img.shields.io/twitter/follow/zechub?style=social&label=Follow">
         </a>
     </p>
