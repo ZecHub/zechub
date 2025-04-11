@@ -1,5 +1,5 @@
 [Zashi + Keystone Hardware Wallet Integration](https://x.com/zashi_app/status/1869793574880973144) 
-======================
+
 This integration marks a significant evolution in Zcash usability by enabling cold storage of shielded ZEC. The Zcash community has faced setbacks with other hardware wallet platforms in the past, but Keystone emerged as a collaborative partner willing to push boundaries and innovate alongside the Electric Coin Company. The Keystone team received a ZCG grant to fuel their side of the work.
 
 ## Preparation
