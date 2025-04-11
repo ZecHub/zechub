@@ -11,7 +11,7 @@ This integration marks a significant evolution in Zcash usability by enabling co
    - USB cable for firmware Update (included).
    - Micro SD card (under 1 TB) for upgrades (purchase separately).
 
-4. Access to Keystone's official website for Verification and Firmware Update.
+4. Access to Keystones official website for Verification and Firmware Update.
 
 5. Zashi app setup on your mobile device.
 
@@ -29,19 +29,19 @@ This integration marks a significant evolution in Zcash usability by enabling co
   - Update via MicroSD card
     - Make sure your Keystone wallet has at least 20% battery charge.
     - Insert the SD card into your computer and format it as FAT32.
-    - Download the latest "Cypherpunk firmware" version from the [Keystone Firmware Update page](https://keyst.one/firmware) and save the "keystone3.bin" file to the root of your MicroSD card.
+    - Download the latest Cypherpunk firmware version from the [Keystone Firmware Update page](https://keyst.one/firmware) and save the keystone3.bin file to the root of your MicroSD card.
     - Place the SD card with the firmware into your Keystone wallet.
     - Access the "Upgrade" option on your Keystone wallet, then follow the on-screen instructions to initiate the update process.
   - Update via USB Cable
     - If your firmware version is below 1.0.4, you will need to perform the initial update using a MicroSD card before you can proceed with USB updates.
     - Ensure your Keystone wallet has at least 20% battery charge.
     - Tap on [via USB] and use the USB cable to connect your Keystone wallet to your computer. Tap [Approve] to grant your Keystone wallet USB access, as it might otherwise only allow charging.
-    - Open your computer's web browser and go to the [Keystone Firmware Update page](https://keyst.one/firmware)
-    - On the update page, click the "Install Update" button and follow the provided instructions to install the latest firmware.
+    - Open your computers web browser and go to the [Keystone Firmware Update page](https://keyst.one/firmware)
+    - On the update page, click the Install Update button and follow the provided instructions to install the latest firmware.
 - Create Wallet:
     - Secure Password: Choose a strong PIN or password to protect your wallet.
     - Name Your Wallet (Optional): Optionally, give your wallet a name for easy identification or skip this step.
-    - Select "Create New Wallet" if you are setting up a wallet for the first time.
+    - Select Create New Wallet if you are setting up a wallet for the first time.
     - Your device will generate a 24-word seed phrase.
     - Write down this seed phrase and store it securely.
     - Confirm the seed phrase by verifying the words in the correct order as displayed on the screen.
