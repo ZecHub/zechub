@@ -3,67 +3,72 @@
 
 ## Install Haskell
 
-curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
+> curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
 
 
 ## Install Rust
 
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+> curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 
 ## Install Zebra
 
-sudo apt install libclang-dev
-cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.1.0 zebrad
-zebrad generate -o ~/.config/zebrad.toml
-nano ~/.config/zebrad.toml
+> sudo apt install libclang-dev
+
+> cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.1.0 zebrad
+
+> zebrad generate -o ~/.config/zebrad.toml
+
+> nano ~/.config/zebrad.toml
 
 
 #### listen for RPC queries on localhost
 
-listen_addr = "127.0.0.1:8232"
+> listen_addr = "127.0.0.1:8232"
 
- #### automatically use multiple CPU threads
+#### automatically use multiple CPU threads
+
 parallel_cpu_threads = 0
- enable_cookie_auth = false
+
+enable_cookie_auth = false
 
 ## Install Zenith
 
-- Download tar.gz and untar into your home directory
+**Download tar.gz and untar into your home directory**
 
-- wget https://code.vergara.tech/Vergara_Tech/zenith/archive/0.7.2.0-beta.tar.gz
+> wget https://code.vergara.tech/Vergara_Tech/zenith/archive/0.7.2.0-beta.tar.gz
 
-- tar -C ~ -xvzf 0.7.2.0-beta.tar.gz
+> tar -C ~ -xvzf 0.7.2.0-beta.tar.gz
 
-- cd zenith
+> cd zenith
 
-- rmdir zcash-haskell
+> rmdir zcash-haskell
 
-- git clone https://git.vergara.tech/Vergara_Tech/zcash-haskell.git
+> git clone https://git.vergara.tech/Vergara_Tech/zcash-haskell.git
 
 
 ### Install Depedencies
 
-- sudo apt install libssl-dev libgmp-dev libsecp256k1-dev libtinfo-dev libsdl2-dev libfreetype-dev libglew-dev gdk-pixbuf-tests raspi-config
+> sudo apt install libssl-dev libgmp-dev libsecp256k1-dev libtinfo-dev libsdl2-dev libfreetype-dev libglew-dev gdk-pixbuf-tests raspi-config
   
-- cargo install cargo-c
+> cargo install cargo-c
 
-- stack install c2hs
+> stack install c2hs
 
-- mousepad ~/.bashrc
+> mousepad ~/.bashrc
 
-- export PATH="/home/zebra5/.local/bin:$PATH"
+> export PATH="/home/zebra5/.local/bin:$PATH"
 
-- source ~/.bashrc
+> source ~/.bashrc
 
 
 ### Adjust source for aarch64
 
-- nano configure
+> nano configure
 
 **change triple to: "aarch64-unknown-linux-gnu" on both lines.**
 
- - nano Setup.hs
+> nano Setup.hs
  
  **Modify Setup.hs in both the zcash-haskell folder and zenith folder**
 
@@ -88,28 +93,28 @@ parallel_cpu_threads = 0
 
 ### Adjust zenith.cfg
 
-nodeUser = "yourusername"
+nodeUser = yourusername
 
-nodePwd = "superSecret"
+nodePwd = superSecret
 
 nodePort = 8234
 
-dbFileName = "zenith.db"
+dbFileName = zenith.db
 
-zebraHost = "127.0.0.1"
+zebraHost = 127.0.0.1
 
 zebraPort = 8232
 
 
-- cd ~/Zenith
+> cd ~/Zenith
 
 ## Raspi-config
 
-- [download latest gldriver-test](https://archive.raspberrypi.org/debian/pool/main/g/gldriver-test/)
+> [download latest gldriver-test](https://archive.raspberrypi.org/debian/pool/main/g/gldriver-test/)
   
-- sudo dpkg - gldriver-test_0.15_all.deb
+> sudo dpkg - gldriver-test_0.15_all.deb
   
-- sudo raspi-config
+> sudo raspi-config
 
   **go to advance and select opengl => GL (Full KMS)**
 
@@ -127,15 +132,15 @@ zebraPort = 8232
 
 ## RPC's
 
-./toCurl.sh getinfo
+> ./toCurl.sh getinfo
 
-./toCurl.sh listwallets
+> ./toCurl.sh listwallets
 
-./toCurl.sh listaccounts 1
+> ./toCurl.sh listaccounts 1
 
-./toCurl.sh listaddresses 1
+> ./toCurl.sh listaddresses 1
 
-./toCurl.sh getbalance 1
+> ./toCurl.sh getbalance 1
 
-./toCurl.sh listreceived \"2\"
+> ./toCurl.sh listreceived \"2\"
 
