@@ -1,11 +1,10 @@
 # Instructions for setting up Zingolib CLI wallet with Zaino
 
-
 ## Z3: (zebrad)(zaino)(zingo-cli)
 
-* zebrad    : zcash full node
-* zaino     : zcash blockchain indexer
-* zingo-cli : zcash command line zaino-proxy client (subset of Zingolib)
+**zebrad**    : zcash full node
+**zaino**     : zcash blockchain indexer
+**zingo-cli** : zcash command line zaino-proxy client (subset of Zingolib)
 
 
 ## Big Picture
@@ -13,16 +12,16 @@
 [System Architecture](https://github.com/zingolabs/zaino/blob/dev/docs/live_system_architecture.pdf)
 
 - Zcash User Installs/Compiles Zingolib Which gives access to zingo-cli. They can send/recieve ZEC as needed.
-- zingo-cli connects to zaino either locally or via a secure channel online (Zcash user doesnt care how this works!)
-- zaino allows access to either zebrad or zcashd            
-- fully synced zebrad is source of truth (no more wallets here!)
+- Zingo-cli connects to zaino either locally or via a secure channel online (Zcash user doesnt care how this works!)
+- Zaino allows access to either zebrad or zcashd            
+- Fully synced zebrad is source of truth (no more wallets here!)
 
 
 
 ## Installation
 
 You will need to intall 3 things for this to work correctly.
-I also recommending screen or something similar to help with screen management
+I also recommend screen or something similar to help with screen management
 
 - sudo apt install screen
 
@@ -50,8 +49,6 @@ note: this will need to fully sync!
 *optional* (create a screen session for zaino)
 
 - screen -S zaino
-
-
 - cd ~/zaino/zainod
 - nano zindexer.toml  => Adjust port to 8232 for mainnet
 - zainod --config zindexer.toml
