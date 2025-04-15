@@ -3,7 +3,9 @@
 ## Z3: (zebrad)(zaino)(zingo-cli)
 
 **zebrad**    : zcash full node
+
 **zaino**     : zcash blockchain indexer
+
 **zingo-cli** : zcash command line zaino-proxy client (subset of Zingolib)
 
 
