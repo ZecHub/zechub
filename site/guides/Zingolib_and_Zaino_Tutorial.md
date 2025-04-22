@@ -11,7 +11,7 @@
 
 ## Big Picture
 
-[System Architecture](https://github.com/zingolabs/zaino/blob/dev/docs/live_system_architecture.pdf)
+[System Architecture](https://github.com/zingolabs/zaino/blob/dev/docs/zaino_live_system_architecture.pdf)
 
 - Zcash User Installs/Compiles Zingolib Which gives access to zingo-cli. They can send/recieve ZEC as needed.
 - Zingo-cli connects to zaino either locally or via a secure channel online (Zcash user doesnt care how this works!)
