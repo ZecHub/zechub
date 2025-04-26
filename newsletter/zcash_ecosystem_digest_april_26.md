@@ -1,9 +1,8 @@
-
 # ZCASH ECOSYSTEM DIGEST | APRIL 26TH
 
-Discover the latest updates from the Zcash ecosystem including ECC & ZF updates, community grants, and project highlights. Explore insightful discussions, engineering progress, and vibrant community initiatives strengthening the privacy-focused future of Zcash.
+ElectricCoinCo x $BAT community call on brave, Extension on Zcash coinholder community poll, ZF engineering update, Shielded Labs new crosslink protocol for Zcash, Zcash x Maya Protocol on StageNet and Zkav_club Workshop!
 
-**Curated by uknowzork**
+.[Curated by uknowzork](https://x.com/uknow_zork?s=21)
 
 ## ECC & ZF UPDATES
 
@@ -67,8 +66,8 @@ Discover the latest updates from the Zcash ecosystem including ECC & ZF updates,
 
 ## ZEME OF THE WEEK
 
-[Zcash Fan Account](https://x.com/zcashfanaccount/status/1915420825760485619?s=46)
+[meme of the week](https://x.com/zcashfanaccount/status/1915420825760485619?s=46)
 
 ## JOBS IN THE ECOSYSTEM
 
-[Zcash Jobs](https://app.dework.xyz/zechub-2424)
+[Dework task posted every Monday - Zechub](https://app.dework.xyz/zechub-2424)
