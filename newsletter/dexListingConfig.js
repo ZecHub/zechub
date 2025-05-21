@@ -1,10 +1,10 @@
 export const dexListingConfig = [
   {
-    title: 'LetsExchange',
+    title: 'Maya Protocol',
     description:
-      'A crypto exchange hub with 4,500+ cryptocurrencies, deep liquidity, cross-chain swaps, on- & off-ramp, DEX, swift and secure transactions.',
-    url: 'https://letsexchange.io/',
-    image: 'https://i.ibb.co/JxzSyx6/1500x500-1.jpg',
+      'A decentralized cross-chain liquidity protocol for native swaps without wrapped tokens or bridges.',
+    url: 'https://www.mayaprotocol.com/',
+    image: 'https://www.mayaprotocol.com/assets/img/logo.png',
   },
   {
     title: 'Near Intents',
@@ -19,6 +19,13 @@ export const dexListingConfig = [
       'StealthEX is an instant cryptocurrency exchange for limitless swaps. No registration is required, and user funds are never stored.',
     url: 'https://stealthex.io/',
     image: '/stealth_ex.png',
+  },
+  {
+    title: 'Lets Exchange',
+    description:
+      'A crypto exchange hub with 4,500+ cryptocurrencies, deep liquidity, cross-chain swaps, on- & off-ramp, DEX, swift and secure transactions.',
+    url: 'https://letsexchange.io/',
+    image: 'https://i.ibb.co/JxzSyx6/1500x500-1.jpg',
   },
   {
     title: 'Changelly',
@@ -90,12 +97,6 @@ export const dexListingConfig = [
     url: 'https://bitcoinvn.io/?deposit=xmr&settle=zec',
     image: '/Bitcoinvn.png',
   },
-  {
-    title: 'Maya Protocol',
-    description:
-      'A decentralized cross-chain liquidity protocol for native swaps without wrapped tokens or bridges.',
-    url: 'https://www.mayaprotocol.com/',
-    image: 'https://www.mayaprotocol.com/assets/img/logo.png',
-  },
+
 ];
 
