@@ -2,8 +2,6 @@
 
 
 
----
-
 ## 🌱 Zcash Update
 
 ### 🧪 ECC & Zcash Foundation
@@ -14,7 +12,7 @@
 
 - [ZF Engineering Update: 2025 Sprint 10 (May 12 - May 23) - by pili](https://forum.zcashcommunity.com/t/zf-engineering-update-2025-sprint-10-may-12-may-23/51345)
 
----
+
 
 ## 💰 Zcash Community Grants
 
@@ -24,7 +22,7 @@
 
 - [Grant Proposal: Research on Algebraic Anomalies in ECDSA Signatures for Zcash Transactions](https://forum.zcashcommunity.com/t/grant-proposal-research-on-algebraic-anomalies-in-ecdsa-signatures-for-zcash-transactions/51389)
 
----
+
 
 ## 🌍 Community Projects
 
@@ -58,7 +56,7 @@
 
 - [@Zcash Yapper Leaderboard is now live! - @KaitoAI](https://x.com/KaitoAI/status/1930958641382805945)
 
----
+
 
 ## 🖼️ Meme of the Week
 
