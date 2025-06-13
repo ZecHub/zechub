@@ -11,7 +11,7 @@
 ![logo](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: WarpSync | Shielded Memo | Address Book | Cold Storage | Voting | Pool Transfer | Payment Request | TEX Address | Diversified Address
+- Features: Graphical Interface | WarpSync | Shielded Memo | Address Book | Cold Storage | Voting | Pool Transfer | Payment Request | TEX Address | Diversified Address
 ![syncspeed](https://github.com/user-attachments/assets/750d3b0e-af0a-4599-b78e-cea9ac8e8eca "Ywallet")
 
 ---
@@ -29,7 +29,7 @@
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
 - Devices: Mobile | Desktop 
 - Pools: Transparent | Sapling | Orchard
-- Features: BlazeSync | Shielded Memo | Financial Insights | Unified Address | Address Book | Payment Request
+- Features: Graphical Interface | BlazeSync | Shielded Memo | Financial Insights | Unified Address | Address Book | Payment Request
 ![syncspeed](https://github.com/user-attachments/assets/c6c6da74-d4ff-4cdf-ba72-55a82bb4165d "Zingo!")
 
 ---
@@ -65,7 +65,7 @@
 ![logo](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Shielded Memo | Address Check | Unified Address | Automatic Shielding | Address Book | Payment Request | Diversified Address | TEX Address
+- Features: Graphical Interface | Shielded Memo | Address Check | Unified Address | Automatic Shielding | Address Book | Payment Request | Diversified Address | TEX Address
 ![syncspeed](https://github.com/user-attachments/assets/750d3b0e-af0a-4599-b78e-cea9ac8e8eca "eZcash")
 
 ---
