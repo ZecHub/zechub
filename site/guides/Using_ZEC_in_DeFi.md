@@ -13,7 +13,7 @@
 
 **Please understand the steps in the RenBridge and ZeroBridge sections of this guide should not be followed until the Ren 2.0 network is live and Zcash support is enabled. Please see this [thread](https://forum.zcashcommunity.com/t/ren-1-0-being-sunset-bridge-renzec-to-native-zec-as-soon-as-possible/43393) for more details.**
 
-Zcash users are capable of leveraging Ethereum smart contracts and wider DeFi applications while preserving their privacy via [@renprotocol](https://twitter.com/renprotocol) using this 4-Step process:
+Zcash users are capable of leveraging Ethereum smart contracts and wider [DeFi applications](https://nym.com/blog/what-is-defi) while preserving their privacy via [@renprotocol](https://twitter.com/renprotocol) using this 4-Step process:
 
 
 ### Step 1: Acquire Shielded ZEC 
