@@ -52,7 +52,7 @@ Curated by [onikhe_biss](x.com/onikhe-biss)
 
 - [Zcash Brazil - Zcash Shielded Call | Vol.13 📞](https://x.com/zcashbrazil/status/1927772481332334805)
 
-- [Da Web 2 para a Web 3 - Responsabilidade e Autonomia - Zcash Nigeria](https://x.com/zcashbrazil/status/1927862432053219440)
+- [Da Web 2 para a Web 3 - Responsabilidade e Autonomia - Zcash Brazil](https://x.com/zcashbrazil/status/1927862432053219440)
 
 - [Zk Av Club Foundry #4: Contests for live events](https://x.com/ZkAv_Club/status/1927056085682180305)
 
