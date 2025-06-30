@@ -60,4 +60,4 @@
 
 ## 🖼️ Meme of the Week
 
-https://x.com/UnicornGonad/status/1931015043400782086
+[https://x.com/UnicornGonad/status/1931015043400782086](https://x.com/genzcash/status/1931786432432992419?t=JL11Oby-6PpQRm1C-nMLCQ&s=19)
