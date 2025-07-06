@@ -9,9 +9,9 @@
 
 ## [Ywallet](https://ywallet.app/installation/)
 ![logo](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
-- Devices: Mobile | Desktop
+- Devices: Mobile | Desktop | Windows | Linux
 - Pools: Transparent | Sapling | Orchard
-- Features: Graphical Interface | WarpSync | Shielded Memo | Address Book | Cold Storage | Voting | Pool Transfer | Payment Request | TEX Address | Diversified Address
+- Features: Graphical Interface | WarpSync | Shielded Memo | Address Book | Cold Storage | Voting | Pool Transfer | Payment Request | TEX Address | Diversified Address | Viewing key
 ![syncspeed](https://github.com/user-attachments/assets/750d3b0e-af0a-4599-b78e-cea9ac8e8eca "Ywallet")
 
 ---
