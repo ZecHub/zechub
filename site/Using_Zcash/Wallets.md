@@ -2,7 +2,6 @@
 ![logo](https://i.ibb.co/HgsHnpN/zashiwallet.png "Zashi")
 - Devices: Mobile
 - Pools: Transparent | Sapling | Orchard
-- Wallet Support: Viewing Key
 - Features: Spend before Sync | Unified Address | Shielded Memo | Address Book | Payment Request | TEX Address | Tor Currency Rates | Coinbase Onramp | Flexa Payments
 ![syncspeed](https://github.com/user-attachments/assets/750d3b0e-af0a-4599-b78e-cea9ac8e8eca "Zashi")
 
@@ -32,6 +31,7 @@
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
 - Devices: Mobile | Desktop 
 - Pools: Transparent | Sapling | Orchard
+- Wallet Support: Viewing Key
 - Features: Graphical Interface | BlazeSync | Shielded Memo | Financial Insights | Unified Address | Address Book | Payment Request
 ![syncspeed](https://github.com/user-attachments/assets/c6c6da74-d4ff-4cdf-ba72-55a82bb4165d "Zingo!")
 
