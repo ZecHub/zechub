@@ -9,9 +9,11 @@
 
 ## [Ywallet](https://ywallet.app/installation/)
 ![logo](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
-- Devices: Mobile | Desktop | Windows | Linux
+- Devices: Mobile | Desktop
+- Operating System: Windows | Linux
 - Pools: Transparent | Sapling | Orchard
-- Features: Graphical Interface | WarpSync | Shielded Memo | Address Book | Cold Storage | Voting | Pool Transfer | Payment Request | TEX Address | Diversified Address | Viewing key
+- Wallet Support: Viewing Key
+- Features: Graphical Interface | WarpSync | Shielded Memo | Address Book | Cold Storage | Voting | Pool Transfer | Payment Request | TEX Address | Diversified Address
 ![syncspeed](https://github.com/user-attachments/assets/750d3b0e-af0a-4599-b78e-cea9ac8e8eca "Ywallet")
 
 ---
@@ -29,6 +31,7 @@
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
 - Devices: Mobile | Desktop 
 - Pools: Transparent | Sapling | Orchard
+- Wallet Support: Viewing Key
 - Features: Graphical Interface | BlazeSync | Shielded Memo | Financial Insights | Unified Address | Address Book | Payment Request
 ![syncspeed](https://github.com/user-attachments/assets/c6c6da74-d4ff-4cdf-ba72-55a82bb4165d "Zingo!")
 
@@ -89,7 +92,9 @@
 ## [Zcashd](https://github.com/zcash/zcash)
 ![logo](https://i.ibb.co/Xz2NskW/zcashd.png "Zcashd")
 - Devices: Full Node | Desktop
+- Operating System: Linux
 - Pools: Transparent | Sapling | Orchard
+- Wallet Support: Viewing Key
 - Features: Command Line Interface | Unified Address | Shielded Memo | Diversified Address
 
 ---
