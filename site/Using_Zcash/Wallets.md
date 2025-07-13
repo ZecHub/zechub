@@ -2,6 +2,7 @@
 ![logo](https://i.ibb.co/HgsHnpN/zashiwallet.png "Zashi")
 - Devices: Mobile
 - Pools: Transparent | Sapling | Orchard
+- Wallet Support: Viewing Key
 - Features: Spend before Sync | Unified Address | Shielded Memo | Address Book | Payment Request | TEX Address | Tor Currency Rates | Coinbase Onramp | Flexa Payments
 ![syncspeed](https://github.com/user-attachments/assets/750d3b0e-af0a-4599-b78e-cea9ac8e8eca "Zashi")
 
@@ -9,9 +10,11 @@
 
 ## [Ywallet](https://ywallet.app/installation/)
 ![logo](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
-- Devices: Mobile | Desktop | Windows | Linux
+- Devices: Mobile | Desktop
+- Operating System: Windows | Linux
 - Pools: Transparent | Sapling | Orchard
-- Features: Graphical Interface | WarpSync | Shielded Memo | Address Book | Cold Storage | Voting | Pool Transfer | Payment Request | TEX Address | Diversified Address | Viewing key
+- Wallet Support: Viewing Key
+- Features: Graphical Interface | WarpSync | Shielded Memo | Address Book | Cold Storage | Voting | Pool Transfer | Payment Request | TEX Address | Diversified Address
 ![syncspeed](https://github.com/user-attachments/assets/750d3b0e-af0a-4599-b78e-cea9ac8e8eca "Ywallet")
 
 ---
@@ -89,7 +92,9 @@
 ## [Zcashd](https://github.com/zcash/zcash)
 ![logo](https://i.ibb.co/Xz2NskW/zcashd.png "Zcashd")
 - Devices: Full Node | Desktop
+- Operating System: Linux
 - Pools: Transparent | Sapling | Orchard
+- Wallet Support: Viewing Key
 - Features: Command Line Interface | Unified Address | Shielded Memo | Diversified Address
 
 ---
