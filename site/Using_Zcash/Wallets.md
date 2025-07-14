@@ -30,6 +30,7 @@
 ## [Zingo!](https://www.zingolabs.org/)
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
 - Devices: Mobile | Desktop 
+- Operating System: Windows | Linux
 - Pools: Transparent | Sapling | Orchard
 - Wallet Support: Viewing Key
 - Features: Graphical Interface | BlazeSync | Shielded Memo | Financial Insights | Unified Address | Address Book | Payment Request
@@ -67,6 +68,7 @@
 ## [eZcash](https://blog.nerdbank.net/ezcash-app)
 ![logo](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
 - Devices: Mobile | Desktop
+- Operating System: Windows 
 - Pools: Transparent | Sapling | Orchard
 - Features: Graphical Interface | Shielded Memo | Address Check | Unified Address | Automatic Shielding | Address Book | Payment Request | Diversified Address | TEX Address
 ![syncspeed](https://github.com/user-attachments/assets/750d3b0e-af0a-4599-b78e-cea9ac8e8eca "eZcash")
@@ -76,6 +78,7 @@
 ## [Zenith](https://git.vergara.tech/Vergara_Tech/zenith)
 ![logo](https://i.ibb.co/VtPBnm6/zenith-2.png "Zenith")
 - Devices: Full Node | Desktop
+- Operating System: Linux
 - Pools: Transparent | Sapling | Orchard
 - Features: Graphical Interface | Unified Address | Shielded Memo | Address Book
 
@@ -84,6 +87,7 @@
 ## [Zingo-CLI](https://github.com/zingolabs/zingolib)
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo-CLI")
 - Devices: Full Node | Desktop
+- Operating System: Linux
 - Pools: Transparent | Sapling | Orchard
 - Features: Command Line Interface | Unified Address | Shielded Memo
 
