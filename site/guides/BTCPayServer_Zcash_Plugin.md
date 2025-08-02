@@ -178,7 +178,7 @@ The best option depends on your server location and how much independence you wa
 
 ---
 
-### ✅ Recommended VPS Configuration
+### Recommended VPS Configuration
 
 Before installing, make sure you have:
 
