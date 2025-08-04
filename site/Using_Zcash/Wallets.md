@@ -89,7 +89,7 @@
 - Devices: Full Node | Desktop
 - Operating System: Linux
 - Pools: Transparent | Sapling | Orchard
-- Features: Command Line Interface | Unified Address | Shielded Memo
+- Features: Command Line Interface | Unified Address | PepperSync | Shielded Memo
 
 ---
 
@@ -108,6 +108,14 @@
 - Devices: Web
 - Pools: Transparent | Orchard
 - Features: Spend before Sync | Unified Address | Secure File Transfer
+
+---
+
+## [Metamask Snap](https://snaps.metamask.io)
+![logo](https://i.ibb.co/m5hNn655/metamask.png  "Metamask")
+- Devices: Web
+- Pools: Transparent | Sapling | Orchard
+- Features: Multi Coin | Unified Address 
 
 ---
 
