@@ -189,6 +189,68 @@ Before installing, make sure you have:
 
 ---
 
+## Preparing Your Server (hidden part)
+
+<details>
+  <summary>Click to expand</summary>
+
+To deploy BTCPay Server with Zcash support, you will need the following:
+
+### 1. VPS with Ubuntu 22.04 or newer
+
+We recommend using a minimal installation of **Ubuntu Server 22.04 LTS**.  
+Any VPS provider that offers a dedicated IP address will work.  
+
+**Minimum requirements**:  
+- 2 CPU cores  
+- 4 GB RAM  
+- 40 GB disk space  
+
+This setup is sufficient if you’re using lightwalletd for Zcash.  
+If you plan to run a **full Zcash node**, you’ll need **at least 300 GB** of free disk space.
+
+---
+
+### 2. Domain name pointing to your server
+
+In your DNS provider’s dashboard, create an `A` record for a subdomain  
+(e.g. `btcpay.example.com`) that points to your VPS IP address.  
+
+This domain will be used to access BTCPay Server from the browser  
+and to automatically generate a **free SSL certificate** via Let’s Encrypt.
+
+---
+
+### 3. SSH access to the server
+
+To install BTCPay Server, you must connect to your VPS via SSH.  
+From your terminal, run:
+
+```bash
+ssh root@YOUR_SERVER_IP
+````
+
+If you use macOS, Linux, or WSL on Windows, SSH is already available in the terminal.
+On plain Windows, use an SSH client like **PuTTY**.
+
+---
+
+### 4. Install git, Docker, and docker-compose
+
+Once connected via SSH, update your packages and install the required components:
+
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install git curl docker.io docker-compose -y
+sudo systemctl enable docker
+```
+
+</details> 
+
+Your server environment is now ready for installing BTCPay Server.
+
+---
+
 ### Step 1: Clone the Repository
 
 Create a working directory and download the BTCPay Server Docker deployment:
