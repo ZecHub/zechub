@@ -33,7 +33,7 @@
 - Operating System: Windows | Linux
 - Pools: Transparent | Sapling | Orchard
 - Wallet Support: Viewing Key
-- Features: Graphical Interface | BlazeSync | Shielded Memo | Financial Insights | Unified Address | Address Book | Payment Request
+- Features: Graphical Interface | PepperSync | Shielded Memo | Financial Insights | Unified Address | Address Book | Payment Request
 ![syncspeed](https://github.com/user-attachments/assets/c6c6da74-d4ff-4cdf-ba72-55a82bb4165d "Zingo!")
 
 ---
