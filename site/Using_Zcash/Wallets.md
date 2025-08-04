@@ -3,7 +3,7 @@
 - Devices: Mobile
 - Pools: Transparent | Sapling | Orchard
 - Features: Spend before Sync | Unified Address | Shielded Memo | Address Book | Payment Request | TEX Address | Tor Currency Rates | Coinbase Onramp | Flexa Payments
-![syncspeed](https://github.com/user-attachments/assets/750d3b0e-af0a-4599-b78e-cea9ac8e8eca "Zashi")
+
 
 ---
 
@@ -14,7 +14,7 @@
 - Pools: Transparent | Sapling | Orchard
 - Wallet Support: Viewing Key
 - Features: Graphical Interface | WarpSync | Shielded Memo | Address Book | Cold Storage | Voting | Pool Transfer | Payment Request | TEX Address | Diversified Address
-![syncspeed](https://github.com/user-attachments/assets/750d3b0e-af0a-4599-b78e-cea9ac8e8eca "Ywallet")
+
 
 ---
 
@@ -23,7 +23,7 @@
 - Devices: Mobile | Desktop
 - Pools: Sapling | Orchard
 - Features: Discord Bot | Unified Address
-![syncspeed](https://github.com/user-attachments/assets/750d3b0e-af0a-4599-b78e-cea9ac8e8eca "Ywallet")
+
 
 ---
 
@@ -34,7 +34,6 @@
 - Pools: Transparent | Sapling | Orchard
 - Wallet Support: Viewing Key
 - Features: Graphical Interface | PepperSync | Shielded Memo | Financial Insights | Unified Address | Address Book | Payment Request
-![syncspeed](https://github.com/user-attachments/assets/c6c6da74-d4ff-4cdf-ba72-55a82bb4165d "Zingo!")
 
 ---
 
@@ -43,7 +42,7 @@
 - Devices: Mobile
 - Pools: Transparent | Sapling | Orchard
 - Features: Spend before Sync | Unified Address | Shielded memo | Flexa Payments
-![syncspeed](https://github.com/user-attachments/assets/c6c6da74-d4ff-4cdf-ba72-55a82bb4165d "Nighthawk")
+
 
 ---
 
@@ -52,7 +51,6 @@
 - Devices: Mobile
 - Pools: Transparent | Sapling
 - Features: Spend before Sync | Multi Coin | Unified Address | Shielded memo | Automatic Shielding
-![syncspeed](https://github.com/user-attachments/assets/c6207f4b-75ea-452d-8197-fba47622b2aa "Edge")
 
 ---
 
@@ -61,7 +59,7 @@
 - Devices: Mobile
 - Pools: Transparent | Sapling
 - Features: Spend before Sync | Multi Coin | Unified Address
-![syncspeed](https://github.com/user-attachments/assets/c6207f4b-75ea-452d-8197-fba47622b2aa "Unstoppable")
+
 
 ---
 
@@ -71,7 +69,7 @@
 - Operating System: Windows 
 - Pools: Transparent | Sapling | Orchard
 - Features: Graphical Interface | Shielded Memo | Address Check | Unified Address | Automatic Shielding | Address Book | Payment Request | Diversified Address | TEX Address
-![syncspeed](https://github.com/user-attachments/assets/750d3b0e-af0a-4599-b78e-cea9ac8e8eca "eZcash")
+
 
 ---
 
@@ -162,7 +160,7 @@
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](https://i.ibb.co/2qX6WCF/Desktop-Wallets.png "Ledger")
 - Devices: Hardware
-- Pools: Transparent | Sapling
+- Pools: Transparent 
 - Features: Multi Coin
 
 ---
