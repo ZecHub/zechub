@@ -110,7 +110,7 @@
 ---
 
 ## [Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
-![logo](https://i.ibb.co/m5hNn655/metamask.png  "Metamask")
+![logo](https://i.ibb.co/jn5t9Gy/metamask.png  "Metamask")
 - Devices: Web
 - Pools: Transparent | Sapling | Orchard
 - Features: Multi Coin | Unified Address 
@@ -182,7 +182,7 @@
 ---
 
 ## [Vultisig](https://vultisig.com)
-![logo](https://i.ibb.co/LDBqXx1h/3l-T9i-MEk-400x400.jpg "Vultisig")
+![logo](https://i.ibb.co/93wSrxCc/vultisig.png "Vultisig")
 - Devices: Web | Mobile | Desktop
 - Pools: Transparent
 - Features: Multi Coin | Web App
