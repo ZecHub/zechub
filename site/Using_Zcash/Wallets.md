@@ -10,8 +10,8 @@
 ## [Ywallet](https://ywallet.app/installation/)
 ![logo](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
 - Devices: Mobile | Desktop
-- Operating System: Windows | Linux
 - Pools: Transparent | Sapling | Orchard
+- Operating System: Windows | Linux
 - Wallet Support: Viewing Key
 - Features: Graphical Interface | WarpSync | Shielded Memo | Address Book | Cold Storage | Voting | Pool Transfer | Payment Request | TEX Address | Diversified Address
 
@@ -29,9 +29,9 @@
 
 ## [Zingo!](https://www.zingolabs.org/)
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
-- Devices: Mobile | Desktop 
-- Operating System: Windows | Linux
+- Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
+- Operating System: Windows | Linux
 - Wallet Support: Viewing Key
 - Features: Graphical Interface | PepperSync | Shielded Memo | Financial Insights | Unified Address | Address Book | Payment Request
 
@@ -66,8 +66,8 @@
 ## [eZcash](https://blog.nerdbank.net/ezcash-app)
 ![logo](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
 - Devices: Mobile | Desktop
-- Operating System: Windows 
 - Pools: Transparent | Sapling | Orchard
+- Operating System: Windows 
 - Features: Graphical Interface | Shielded Memo | Address Check | Unified Address | Automatic Shielding | Address Book | Payment Request | Diversified Address | TEX Address
 
 
@@ -76,8 +76,8 @@
 ## [Zenith](https://git.vergara.tech/Vergara_Tech/zenith)
 ![logo](https://i.ibb.co/VtPBnm6/zenith-2.png "Zenith")
 - Devices: Full Node | Desktop
-- Operating System: Linux
 - Pools: Transparent | Sapling | Orchard
+- Operating System: Linux
 - Features: Graphical Interface | Unified Address | Shielded Memo | Address Book
 
 ---
@@ -85,8 +85,8 @@
 ## [Zingo-CLI](https://github.com/zingolabs/zingolib)
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo-CLI")
 - Devices: Full Node | Desktop
-- Operating System: Linux
 - Pools: Transparent | Sapling | Orchard
+- Operating System: Linux
 - Features: Command Line Interface | Unified Address | PepperSync | Shielded Memo
 
 ---
@@ -94,8 +94,8 @@
 ## [Zcashd](https://github.com/zcash/zcash)
 ![logo](https://i.ibb.co/Xz2NskW/zcashd.png "Zcashd")
 - Devices: Full Node | Desktop
-- Operating System: Linux
 - Pools: Transparent | Sapling | Orchard
+- Operating System: Linux
 - Wallet Support: Viewing Key
 - Features: Command Line Interface | Unified Address | Shielded Memo | Diversified Address
 
