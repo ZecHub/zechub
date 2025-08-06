@@ -24,7 +24,7 @@
 
 ---
 
-### ZGo
+## ZGo
 - **Support**: Transparent and Shielded   
 - **Description**: ZGo is an electronic payment platform that goes directly from your customer to you, with no third parties involved.  
 - **URL**: [ZGo](https://zgo.cash/)  
