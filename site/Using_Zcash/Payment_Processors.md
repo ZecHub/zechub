@@ -16,6 +16,13 @@
 
 ---
 
+## BTCPay Server
+- **Support Type**: Shielded Transactions  
+- **Description**: BTCPay Server is an open-source, self-hosted cryptocurrency payment processor.  
+- **URL**: [BTCPay Server](https://btcpayserver.org/)  
+<img src="https://docs.btcpayserver.org/img/btcpay-logo.svg" alt="BTCPay Server Logo" width="200"/>
+---
+
 ### ZGo
 - **Support**: Transparent and Shielded Transactions  
 - **Description**: ZGo is an electronic payment platform that goes directly from your customer to you, with no third parties involved.  
@@ -70,13 +77,6 @@
 - **URL**: [Acceptcoin.io](https://www.acceptcoin.io/coin-list/accept-zcash-zec-payments)  
 <img src="https://www.facebook.com/share/15xwxgWWJ8/" alt="Acceptcoin.io Logo" width="200"/>
 
----
-
-## BTCPay Server
-- **Support Type**: Transparent Transactions  
-- **Description**: BTCPay Server is an open-source, self-hosted cryptocurrency payment processor.  
-- **URL**: [BTCPay Server](https://btcpayserver.org/)  
-<img src="https://docs.btcpayserver.org/img/btcpay-logo.svg" alt="BTCPay Server Logo" width="200"/>
 
 ---
 
