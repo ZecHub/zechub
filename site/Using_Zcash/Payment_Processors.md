@@ -9,7 +9,7 @@
 ---
 
 ## Flexa
-- **Support Type**: Transparent and Shielded   
+- **Support Type**: Transparent 
 - **Description**: Flexa is a cryptocurrency payment processor that enables merchants to accept digital assets, including Zcash (ZEC), for everyday transactions.  
 - **URL**: [Flexa](https://flexa.co/)  
 <img src="https://framerusercontent.com/images/7D7WwOyaY4PFVW3ZiBzGggx13Xo.svg" alt="Flexa Logo" width="200"/>
@@ -25,7 +25,7 @@
 ---
 
 ## ZGo
-- **Support**: Transparent and Shielded   
+- **Support Type**: Transparent and Shielded   
 - **Description**: ZGo is an electronic payment platform that goes directly from your customer to you, with no third parties involved.  
 - **URL**: [ZGo](https://zgo.cash/)  
 <img src="https://zgo.cash/images/logo-new-transparent.png" alt="ZGo Logo" width="200"/>
@@ -72,14 +72,6 @@
 
 ---
 
-## MyCryptoCheckout
-- **Support Type**: Transparent   
-- **Description**: MyCryptoCheckout is a cryptocurrency payment gateway for WooCommerce and Easy Digital Downloads.  
-- **URL**: [MyCryptoCheckout](https://mycryptocheckout.com/coins/zcash/)  
-<img src="https://mycryptocheckout.com/wp-content/uploads/2021/06/mycryptocheckout.svg" alt="MyCryptoCheckout Logo" width="200"/>
-
----
-
 ## PayKassa
 - **Support Type**: Transparent   
 - **Description**: PayKassa is a popular Zcash online payment gateway that allows users to safely store, receive, send, and exchange cryptocurrency.  
@@ -94,20 +86,8 @@
 - **URL**: [Acceptcoin.io](https://www.acceptcoin.io/coin-list/accept-zcash-zec-payments)  
 <img src="https://acceptcoin.io/ogImage512.png" alt="Acceptcoin.io Logo" width="200"/>
 
----
 
-### KUNA Pay
-- **Support**: Transparent   
-- **Description**: KUNA Pay allows businesses to accept Zcash payments with ease.  
-- **URL**: [KUNA Pay](https://kunapay-landing.webflow.io/accept-crypto/zec?lng=en)  
-<img src="https://cdn.prod.website-files.com/644662297773aa29e226ab03/64612ccceda5705de891374b_Logo%20Kuna_Pay.svg" alt="KUNA Pay Logo" width="200"/>
 
----
 
-### Paytomat
-- **Support**: Transparent   
-- **Description**: Paytomat is a cryptocurrency payment gateway that allows businesses to accept Zcash.  
-- **URL**: [Paytomat](https://paytomat.com/#)  
-<img src="https://paytomat.com/wp-content/uploads/2024/02/paytomat-logo-2.png" alt="Paytomat Logo" width="200"/>
 
 
