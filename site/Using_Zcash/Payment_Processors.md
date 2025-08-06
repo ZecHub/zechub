@@ -88,14 +88,6 @@
 
 ---
 
-## Edge Wallet
-- **Support Type**: Shielded Transactions Only  
-- **Description**: Edge is a user-friendly platform that prioritizes security, user privacy, and ease of use.  
-- **URL**: [Edge Wallet](https://edge.app/)  
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3xnR8UC2s_45h_g6cEOjCxG9GHjOCjd2FcQ&s" alt="Edge Wallet Logo" width="200"/>
-
----
-
 ## Acceptcoin.io
 - **Support Type**: Transparent Transactions  
 - **Description**: Acceptcoin.io enables businesses to accept Zcash payments on their websites.  
