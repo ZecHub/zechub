@@ -19,7 +19,7 @@
 ## BTCPay Server
 - **Support Type**: Shielded   
 - **Description**: BTCPay Server is an open-source, self-hosted cryptocurrency payment processor.  
-- **URL**: [BTCPay Server]([https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)  
+- **URL**: [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)  
 <img src="https://docs.btcpayserver.org/img/btcpay-logo.svg" alt="BTCPay Server Logo" width="200"/>
 
 ---
