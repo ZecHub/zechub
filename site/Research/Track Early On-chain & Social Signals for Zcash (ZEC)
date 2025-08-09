@@ -1,0 +1,198 @@
+https://docs.google.com/document/d/1bj6JPfeNKHZ7TQs-D9ZjZVvwmaGo_SYI41QK1j3hJZo/edit?usp=drivesdk
+
+
+## Tracking Early On-chain & Social Signals for Zcash(ZEC)
+
+# Introduction
+
+This research article analyzes how early on-chain signals for Zcash, especially whale
+movements and social sentiment signals on platforms like X have important implications on the
+momentum of ZEC. Zcash is a privacy-focused cryptocurrency derived from Bitcoin's codebase,
+with the major innovation of adding an encrypted ledger using zero-knowledge proofs.
+
+Messari ZEC Dashboard and analyzing X discussions is one of the tools used to see if big
+Zcash moves are connected to more tweets and growing interest online. Another area of
+interest is how the activities of the Zcash community such as wallets, events and development
+influence the movement of Zcash in the market.
+
+According to the Messari ZEC Dashboard, CoinMetrics and Blockchair, analysis of ZEC’s
+network activity provides actionable insight into whether large whale movements correspond
+with spikes in social activity such as tweet volume and broader interest online. Specifically,
+Messari charts reveal a clear surge in daily on-chain transaction volume and exchange inflows
+during the period from July 1 to 22, 2025, peaking around July 22; coinciding with elevated
+social chatter and price movement .
+
+Blockchair data shows that the share of ZEC held in shielded addresses rose from
+approximately 18 % to 20 % during the same window, indicating growing use of
+privacy-preserving transactions. And then, CoinMetrics public network series confirm that daily
+active addresses and shielded-supply metrics both trended upward in mid-July, enabling
+quantitative comparisons between on-chain behavior and social indicators .
+
+All these data show coin movement, privacy adoption and user engagement; the spike in large
+on-chain volumes and exchange inflows that suggests whales were active, possibly relocating
+funds or preparing for market impact; the increase in shielded-supply demonstrates continued
+preference for privacy-enhanced transactions, even during periods of heightened attention and
+the rising active address counts indicate that network usage was expanding alongside these
+whale movements and privacy demand.
+
+Past trends of ZEC are also monitored and compared to other privacy coins; how recognized
+and accepted they are by different sectors and businesses help to provide context to base the
+dynamics on. It is not about taking wild guesses about ZEC’s price or making effortless
+predictions but analyzing signals early to show growing interest, big changes or community
+activity before the wider public sees them.
+
+Blockchain technology works in an innovative manner and the operations in cryptocurrency lead
+to quite an experience. From how transactions happen to how they cause significant changes in
+market behavior and sentiment, the interesting dynamics of the market can be studied; the
+gains and losses being first hand experiences.
+
+The early on-chain metrics in activity stands as one of the earliest activities and powerful metrics
+that reveals the direction and movement of the market as well as the investor’s activities and
+possible changes that will occur in the near future in the crypto world. Moreover, if timely
+detected, these signals can help investors access profit, particularly when combined with
+off-chain factors like social media sentiment analysis.
+
+
+
+### Zcash as a privacy coin
+
+Zcash is one of the cryptocurrencies developed with user privacy in mind which uses zero
+knowledge proofs (zk-SNARKs) and is derived from the Bitcoin code as a fork; users can now
+perform both transparent and shielded transactions. While the aim is to help protect user
+privacy, having too much of it makes it harder to monitor signals that can make trading and
+investing much easier. It is however not impossible.
+
+Unlike Monero and DASH, which are often grouped as “privacy coins,
+” DASH has officially
+moved away from privacy coin classification following feature changes and evolving regulatory
+definitions (CoinTelegraph, 2024) . ZEC still faces competition and scrutiny, but its momentum
+can be measured through on-chain activity, whale movement correlation, tweet volume, and
+network engagement without relying solely on price speculation.
+
+On-chain activity refers to all the interactions that occur directly on a blockchain, such as
+wallet-to-wallet transfers, token swaps, smart contract interactions, deposits and withdrawals
+from exchanges, NFT minting or transfers and staking/unlocking events. Behavior patterns of
+key players, especially whales, retail clusters, developers, or institutional wallets can be inferred
+when this data is analyzed and it will be possible to fully understand how they relate in
+determining the market.
+
+According to the Messari ZEC Dashboard (Messari), between July 1 and July 22, 2025, there
+were 12 transactions exceeding 1,000 ZEC, the largest equaling 5,200 ZEC (CoinMetrics,
+2025). These capped ZEC volumes were accompanied by notable exchange inflow activity,
+suggesting potential sell-off or portfolio reshuffle activity.
+
+At the same time, shielded transactions, an essential part of Zcash’s privacy framework were
+still seeing meaningful uptake. By July, about 20% of the total ZEC supply was in shielded
+addresses. (Blockchair 2025) (see Figure 1)
+
+Figure 1. Shielded Transactions Growth – July 2025
+(Source: Blockchair (2025). Shielded supply percentage from July 1–22, 2025, showing growth from
+~18% to ~20%.)
+
+Interestingly, the volume of shielded transactions went up by 8% from the previous month,
+highlighting a steady demand for greater financial privacy. All in all, these trends point to a
+growing privacy-driven ecosystem, where both businesses and privacy-minded users are
+actively influencing how the network operates.
+
+# Public Sentiment
+
+The average Tweet Volume mentioning ZEC was around 450 posts a day with a peak of 1,200
+on July 22, the date of the largest whale transaction. ZEC’s technical upgrades and privacy
+features drew positive sentiment, as voiced by influencer accounts like @MarcoPoloMaps. This
+data offers evidence that whale activity could spur online community interaction.
+
+The privacy features and recent technical upgrades, namely the Zcash 6.2.0 protocol upgrade
+and Zashi 2.0 wallet release (Zcash Foundation Blog, Electric Coin Co. Release Notes), brought
+a positive sentiment to 55% of the 13,500 tweets analyzed. 30% of the tweets were neutral,
+focusing on either news or tech analysis, while 15% were negative, tethered largely to the
+speculative regulatory climate like the proposed privacy coin ban by the EU for 2027.
+
+With more than 10,000 followers, accounts like @MarcoPoloMaps contributed a quarter of the
+total tweet volume, and thus, were significant to the trend. As Zcash’s 6.2.0 upgrade and Zashi
+2.0 release garnered attention, their discussion around these events amplified community
+positivity. On-chain data supported the observed rise in user activity, with the number of daily
+active addresses peaking at 3,200; a 15% increase that closely aligned with periods of
+heightened whale transactions.
+
+Other platforms like Discord, Reddit, and the Zcash Community Hub were observed to get a
+sense of user sentiment and how active people were. How merchants are adopting ZEC were
+checked out , especially with its use in payment solutions like Brave Wallet and Zashi. On top of
+that, the project's development progress through GitHub contributions and the recent upgrades
+to the network, including the Zcash v6.2.0 release was monitored.
+
+### Correlations Between On-Chain and Social Signals
+
+A pretty strong connection was noticed between large transactions and a spike in tweet activity.
+This seems to indicate that when whales make moves, it catches a lot of people’s attention in
+the market. There was also a moderate correlation showing that when social sentiment is
+positive, shielded transactions tend to grow, suggesting that conversations about privacy can
+really boost actual on-chain activity.
+
+Looking at Community, Adoption, and Development, the Zcash Community Hub highlighted a
+surge of grassroots excitement, with over 2,800 active members on Discord and 2,000
+subscribers on Reddit. Interestingly, community engagement jumped by 12% after the launch of
+Zashi 2.0, with a lot of discussions focusing on privacy innovations and how to deal with
+regulatory hurdles. (See Figure 2)
+
+Figure 2. Zcash Site Traffic and Signups Snapshot since Zashi 2.0 was released April 28, 2025.
+(Source : Shawn; Lead moderator Zcash Community Forum (2025). Chart covering April 9 to May 9,
+2025. )
+
+Community, Adoption, and Development in which the Zcash Community Hub showcased
+growing grassroots enthusiasm. On the adoption front, merchant integration remains limited but
+notable. Although usage among global merchants is low, estimated at 120, the integration of
+ZEC into the Brave Wallet and the zk-proof experiment in Google Wallet in April and May 2025
+respectively, boosted exposure.
+
+The Electric Coin Company and Zcash Foundation's work showcased in the second quarter of
+2025 demonstrated sustained activity. Over 350 Github commits revealed significant
+collaboration on important infrastructure projects like the Zedrab codebase and Zallet wallet,
+showcasing the Zcash ecosystem's active technical community.
+
+To really analyze Zcash's current dynamics, it is best to examine the user's viewpoint over time
+and compare Zcash's historical context with other privacy coins. This analysis will declare ZEC's
+historical price movements, like the market high from 2017 and the block halving event of 2020,
+and comparison of on-chain and social indicators with Monero (XMR) and DASH (DASH) (ex.,
+transaction volume, market cap rank, and social activity).
+
+The record high of market prices at the end of 2017 coincided with a general market surge in
+the crypto markets, and Zcash's 2020 halving event was a major factor limiting ZEC supply. In
+terms of some whale movement in July of 2025, it not much compared to previous market
+cycles in terms of visible on-chain activity (i.e., they have obviously exchanged value, we just
+can only see what they are up to through social chatter or monthly state recording). Among the
+privacy coins, Monero has the edge with a vibrant user community with satisfactory daily user
+interaction. Zcash is getting notice through a steep increase in shielded transactions.
+
+# Conclusion
+To bring it all together, this study shows that Zcash’s on-chain and social signals, while
+sometimes subtle, reveal a dynamic and evolving ecosystem.
+
+There are limitations; the anonymity surrounding whale wallets that makes it difficult to
+determine whether or not major on-chain transactions were a market sell or simply market
+moving and the shifting regulatory policy, such as the EU privacy coin ban for 2027, which may
+already be affecting user sentiment; plus, the reliance on socials like X probably that does not
+encapsulate the views of privacy-centered individuals, who may be inclined to choose other
+anonymity-based or safe communication methods.
+
+Zcash may not boast of a community as large as Monero or an extensive merchant base just
+yet but its ongoing technical advancements, particularly with recent upgrades and vigorous
+development, sets it apart. It is worthy of note that July 2025 marked a resurgence for Zcash,
+sparking conversations on X with substantial whale transactions. Additionally, the consistent
+increase in shielded transactions demonstrates that privacy still holds significant value for users.
+There is a distinct correlation between on-chain events and social discourse, revealing how both
+realms impact each other. Though navigating regulatory hurdles remains a challenge, keeping
+an eye on these initial signals will enhance our understanding of ZEC's potential trajectory,
+without needing to forecast prices.
+
+# References
+• Blockchair. (2025). Zcash shielded transactions data.
+https://blockchair.com/zcash/charts/shielded-supply
+• CoinMetrics. (2025). Zcash network data metrics. https://coinmetrics.io/
+• CoinTelegraph. (2024). Dash is no longer a privacy coin under evolving regulations.
+https://cointelegraph.com/news/dash-no-longer-privacy-coin
+• Electric Coin Company. (2025). Zcash 6.2.0 release notes. https://electriccoin.co/blog/
+• Messari. (2025). Messari ZEC dashboard. https://messari.io/asset/zcash
+• Shawn; Lead moderator Zcash Community Forum. (2025).
+• Zcash Community Hub. (2025). Community updates and engagement statistics. https://z.cash
+• Zcash Foundation. (2025). Zashi 2.0 wallet release. https://zcashfoundation.org/blog/
+• X Platform Sentiment Analysis. (2025, July). Internal dataset.
