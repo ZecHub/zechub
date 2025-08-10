@@ -250,6 +250,8 @@ sudo systemctl enable docker
 
 Your server environment is now ready for installing BTCPay Server.
 
+</details>
+
 ---
 
 ### Step 1: Clone the Repository
