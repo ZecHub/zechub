@@ -21,7 +21,7 @@ BTCPay Server allows online businesses to accept cryptocurrency payments directl
 - [Integrating BTCPay Server with Your Website](#Integrating-BTCPay-Server-with-Your-Website)
   - [API Integration](#API-Integration)
     - [Generating an API Key](#Generating-an-API-Key)
-    - [Example: Creating an Invoice via API](#Generating-an-API-Key)
+    - [Example: Creating an Invoice via API](#Example-Creating-an-Invoice-via-API)
     - [Setting Up a Webhook](#Setting-Up-a-Webhook-Optional)
   - [CMS Integration](#CMS-Integration)
   - [Payment Button or Iframe](#Payment-Button-or-Iframe-No-CMS-or-API-Needed)
@@ -235,17 +235,18 @@ On plain Windows, use an SSH client like **PuTTY**.
 
 ---
 
-### 4. Install git, Docker, and docker-compose
+### 4. Install Git, Docker, and Docker Compose
 
-Once connected via SSH, update your packages and install the required components:
+Once connected via SSH, update your system packages and install the required components:
 
 ```bash
 sudo apt update && sudo apt upgrade -y
-sudo apt install git curl docker.io docker-compose -y
+sudo apt install git curl docker.io docker-compose-plugin -y
 sudo systemctl enable docker
 ```
 
-</details> 
+> ⚠️ On Ubuntu 22.04 and newer, `docker-compose` from APT is deprecated.
+> The recommended package is `docker-compose-plugin`, which provides the `docker compose` command (note the space instead of a dash).
 
 Your server environment is now ready for installing BTCPay Server.
 
@@ -260,7 +261,7 @@ mkdir BTCPayServer
 cd BTCPayServer
 git clone https://github.com/btcpayserver/btcpayserver-docker
 cd btcpayserver-docker
-````
+```
 
 ---
 
@@ -353,8 +354,8 @@ Breakdown:
 Append the following to your environment setup to activate the full node configuration:
 
 ```bash
-export BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCLUDE_FRAGMENTS;zcash"
-export BTCPAYGEN_ADDITIONAL_FRAGMENTS="$BTCPAYGEN_ADDITIONAL_FRAGMENTS;zcash-fullnode"
+export BTCPAYGEN_EXCLUDE_FRAGMENTS="zcash"
+export BTCPAYGEN_ADDITIONAL_FRAGMENTS="zcash-fullnode"
 ````
 
 This will include the `zcash-fullnode` fragment, which launches both `zebrad` and `lightwalletd` inside BTCPay Server.
@@ -386,7 +387,7 @@ The default endpoint is:
 
 ```
 
-[https://zec.rocks](https://zec.rocks)
+https://zec.rocks:443
 
 ```
 
@@ -394,7 +395,7 @@ However, you can configure BTCPay Server to connect to **any external `lightwall
 
 ```
 
-[https://lightwalletd.example:443](https://lightwalletd.example:443)
+https://lightwalletd.example:443
 
 ````
 
@@ -407,22 +408,24 @@ This section shows how to do that using a **custom Docker fragment**.
 
 ### Step 1: Create a Custom Docker Fragment
 
-In your BTCPayServer project directory:
+In your BTCPayServer project directory, create a custom fragment file:
 
 ```bash
 cd ~/BTCPayServer/btcpayserver-docker
 mkdir -p docker-compose-generator/docker-fragments
 nano docker-compose-generator/docker-fragments/zcash-lightwalletd.custom.yml
-````
+```
 
-Paste the following content into the file:
+Add the following content:
 
 ```yaml
 exclusive:
 - zcash
 ```
 
-This tells BTCPay Server **not** to run the default `zcash-fullnode` or internal `lightwalletd` containers, so you can use your own external node.
+The `exclusive` directive ensures that only one fragment with the same label (`zcash` in this case) can be active at a time.
+This prevents configuration conflicts — for example, you cannot run both the `zcash-fullnode` fragment and this custom external `lightwalletd` fragment simultaneously.
+By marking it as `exclusive: zcash`, BTCPay Server will automatically disable the default `zcash-fullnode` and internal `lightwalletd` containers, allowing you to connect to your own external node instead.
 
 ---
 
@@ -494,7 +497,7 @@ It also helps you **avoid the cost of renting a VPS**, which is ideal if cryptoc
 
 ```bash
 sudo apt update
-sudo apt install cloudflared
+sudo apt install cloudflared --legacy
 ````
 
 3. Authenticate with Cloudflare:
