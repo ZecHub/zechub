@@ -70,6 +70,15 @@
 - Operating System: Windows 
 - Features: Graphical Interface | Shielded Memo | Address Check | Unified Address | Automatic Shielding | Address Book | Payment Request | Diversified Address | TEX Address
 
+---
+
+## [Zkool](https://github.com/hhanh00/zkool2/)
+![logo](https://i.ibb.co/SXc25W0d/logo.png "Zkool")
+- Devices: Mobile | Desktop
+- Pools: Transparent | Sapling | Orchard
+- Operating System: Windows | Linux
+- Wallet Support: Viewing Key | MultiSignature (FROST)
+- Features: Multi-Account Sync | Broad Key Support | FROST Multisig | Encrypted Exports | Address Rotation
 
 ---
 
@@ -186,9 +195,3 @@
 - Devices: Web | Mobile | Desktop
 - Pools: Transparent
 - Features: Multi Coin | Web App
-
----
-
-
-
-
