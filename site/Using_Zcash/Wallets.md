@@ -15,6 +15,15 @@
 - Wallet Support: Viewing Key
 - Features: Graphical Interface | WarpSync | Shielded Memo | Address Book | Cold Storage | Voting | Pool Transfer | Payment Request | TEX Address | Diversified Address
 
+---
+
+## [Zkool](https://github.com/hhanh00/zkool2/)
+![logo]( "Zkool")
+- Devices: Mobile | Desktop
+- Pools: Sapling | Orchard
+- Operating System: Windows | Linux
+- Features: Unified Address | Shielded Multisig
+
 
 ---
 
