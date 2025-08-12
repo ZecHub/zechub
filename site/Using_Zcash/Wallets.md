@@ -68,7 +68,7 @@
 ---
 
 ## [Zkool](https://github.com/hhanh00/zkool2/)
-![logo](https://i.ibb.co/PzDKRS9k/zkool.png "Zkool")
+![logo](https://i.ibb.co/SpQT62M/zkool.png "Zkool")
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
 - Features: Windows | Linux | Viewing Key | MultiSignature (FROST) | Multi-Account Sync | Broad Key Support | FROST Multisig | Encrypted Exports | Address Rotation | Shielded Memo
