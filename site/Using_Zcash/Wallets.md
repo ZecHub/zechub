@@ -71,7 +71,7 @@
 ![logo](https://i.ibb.co/PzDKRS9k/zkool.png "Zkool")
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Windows | Linux | Viewing Key | MultiSignature (FROST) | Multi-Account Sync | Broad Key Support | FROST Multisig | Encrypted Exports | Address Rotation
+- Features: Windows | Linux | Viewing Key | MultiSignature (FROST) | Multi-Account Sync | Broad Key Support | FROST Multisig | Encrypted Exports | Address Rotation | Shielded Memo
 
 ---
 
@@ -103,7 +103,7 @@
 ![logo](https://i.ibb.co/6yqMNwZ/image-2024-01-13-170934865.png "Brave")
 - Devices: Web
 - Pools: Transparent | Orchard
-- Features: Spend before Sync | Unified Address | Encrypted Memo
+- Features: Spend before Sync | Unified Address | Shielded Memo
 
 ---
 
