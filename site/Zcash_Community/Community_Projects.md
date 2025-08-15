@@ -3,7 +3,17 @@
 </a>
 
 ## Zcash Community Projects
+
+[ZECping](https://github.com/emersonian/zecping)
+
+See the gRPC response times of Zcash [Lightwalletd](https://github.com/zcash/lightwalletd) nodes.
+
+[Ziggurat](https://github.com/runziggurat/zcash)
+
+Ziggurat is network test suite that provides zcashd and zebra devs with this reliable foundation. Included in this suite is a Zcash [crawler](https://github.com/runziggurat/zcash/tree/main/src/tools/crawler).
+
 [Exblo](https://testnet.exblo.app/#/)
+
 A block explorer specially design for apps testing transactions over the Zcash Testnet. Currently in active development
 
 The Zcash Block Explorer provides information such as transaction data / block information / Addresses / Mempool Blocks etc. Also allows for Transaction Payment Disclosure Viewing Key to be used.
@@ -21,9 +31,11 @@ Researchers at the Zcash Foundation are collaborating on an IETF informational d
 Free2z is a tool for anonymous content and private donations.
 
 [Ezcash](https://blog.nerdbank.net/ezcash-app)
+
 An easy to use and fully-feature Zcash wallet multiplatform Zcash Wallet with autoshielding support.
 
 [My First Zcash](https://github.com/massadoptionorg/My-First-Zcash)
+
 An educational workbook created by a team of talented and dedicated content creators and graphic designers from across the Zcash global community.
 
 [Nighthawk Wallet](https://nighthawkwallet.com/)
@@ -31,16 +43,19 @@ An educational workbook created by a team of talented and dedicated content crea
 Private money in your wallet using ZEC & capable of autoshielding funds.  
 
 [Warp Engine](https://forum.zcashcommunity.com/t/warp-the-next-engine-for-ywallet/48722)
+
 Warp is YWallet's upcoming synchronization engine with improved synchronization and transaction building components, and a totally new/updated code base.
 
 [Ywallet](https://ywallet.app/)
 
 A multi-feature privacy wallet supporting Zcash and Ycash utilizing the fast syncing algorithm: warp-sync.
 
-[Zashi](https://z.cash/ecosystem/zashi-wallet/)
-Zachi is a Zcash Wallet developed by the Electric Coin Company that aims to offer simplicity, privacy and ease of use to every ZEC holder.
+[Zashi](https://electriccoin.co/zashi/)
+
+Zashi is an open source, self custodial, shielded Zcash Wallet built for private payments. Developed by the Electric Coin Company.
 
 [Zcash Block Explorer](https://mainnet.zcashexplorer.app/)
+
 A well detailed, comprehensive Zcash block explorer from Nighthawk Apps.
 
 [Zebra](https://zfnd.org/zebra/)
@@ -68,6 +83,7 @@ Zlink is the simplest way to find any link, tool, information you need about Zca
 ZcashRPC is an opensource automated documentation website for zcashd.
 
 [ZK Radio](https://zcashesp.com/zk-radio/)
+
 An online Radio Station to inform, educate and entertain the Zcash Community, developed by Zcash en Español and the ZKAV Club.
 ___
 ## Applications that Utilize Zcash

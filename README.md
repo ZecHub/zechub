@@ -9,7 +9,7 @@
         </em>
     </h3>
     <p>
-        <a href="https://follow.zechub.org/" target="_blank">
+        <a href="https://twitter.com/zechub" target="_blank">
             <img src="https://img.shields.io/twitter/follow/zechub?style=social&label=Follow">
         </a>
     </p>
@@ -39,7 +39,6 @@ The tutorials, short articles, and newsletter will be open sourced and hosted on
 > Help build a more private and secure financial ecosystem for all. Follow our **[contributing guide.](/CONTRIBUTING.md)**
 
 ---
-
 <sub>
   DISCLAIMER: ZecHub is an independent, open-source initiative created by members of the Zcash community. The information in this GitHub repository is for informational purposes only and should not be considered financial or investment advice.
 </sub>
