@@ -1,6 +1,10 @@
-# Zcash Updates:
+# Zcash Ecosystem Digest | August 16th
+
 ZEC in the Zcash shielded pools went over 3.5M for the first time in Zcash history.Lead your own Zk Av Club foundry workshop! - @ZkAv_Club, Zero to zero knowledge | payment processors
  Zcash Ghana Meetup #1 onboarding to Zcash.
+ Curated by [Rems_gk](https://x.com/rems_gk?s=21)
+
+## Zcash Updates:
 ## ECC, Zcash Foundation & Shielded Labs
 
 - [Unstoppable private money that scales to billions of users is the most important and powerful narrative in crypto. - @Shieldedlabs](https://x.com/shieldedlabs/status/1955965515374952513?s=46)
@@ -19,13 +23,14 @@ ZEC in the Zcash shielded pools went over 3.5M for the first time in Zcash histo
 ## Zcash Community Grants 🏛️
 
 - [AdPriva - privacy - privacy-first advertising power by Zcash Shielded Transaction](https://forum.zcashcommunity.com/t/adpriva-privacy-first-advertising-powered-by-zcash-shielded-transactions/51949)
-- [Grant application - [Lead your own Zk Av Club foundry workshop! - @ZkAv_Club](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/72)
+- [Grant application - Lead your own Zk Av Club foundry workshop! - @ZkAv_Club](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/72)
 - [We migrated to a different platform early this year, this is the new location: Zenith Full Node Wallet Proposal - @pitmutt](https://forum.zcashcommunity.com/t/zenith-full-node-wallet/46523/53)
 
 ---
 
 ## Community Projects 🌐
 
+- [At Zingo!, we are preparing important improvements, and your opinion is essential.](https://surveyjs.io/published?id=6a37f2df-fe5a-4fb7-8bc5-2dda349188a4)
 - [Zcash Ghana Meetup #1 onboarding to Zcash - @ogasky](https://forum.zcashcommunity.com/t/zcash-ghana-meetup-1-onboarding-to-zcash/51917)
 - [In this video, we’ll show you how to install and use the latest ZenithServer to run RPCs with Zebrad and Zenith. - @ZecHub](https://x.com/zechub/status/1956381112554737954?s=46)
 - [Zero to zero knowledge | payment processors - @ZecHub](https://x.com/zechub/status/1956076315464864130?s=46)
