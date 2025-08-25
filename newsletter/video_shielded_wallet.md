@@ -1,0 +1,4 @@
+## Task: Create Video – What is Shielded Wallet? How to Send ZEC from Shielded Wallet with Memo Using Zingo wallet
+
+**Task Description:**  
+Create an instructional video that introduces viewers to the concept of a **Shielded Wallet** in the Zcash (ZEC) ecosystem. The video should explain what a shielded wallet is, its privacy benefits, and how it differs from transparent wallets. After the introduction, provide a step-by-step demonstration on how to **send ZEC from a shielded wallet with a memo using the Zingo wallet**. The walkthrough should highlight key actions such as accessing the wallet, entering recipient details, adding a memo, confirming the transaction, and verifying it on the app. The video should be clear, beginner-friendly, and visually demonstrate each step for easy understanding.
