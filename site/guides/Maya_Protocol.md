@@ -2,7 +2,7 @@
 
 ## What is Maya Protocol?
 
-Maya is a decentralized exchange (DEX) system that enables trading of cryptocurrencies across different blockchains. You can, for example, swap Bitcoin (BTC) on the Bitcoin blockchain with Ethereum (ETH) on the Ethereum blockchain in an easy way, without holding the assets or involving any centralized authorities or Know Your Customer (KYC) procedures.
+Maya is a [decentralized exchange](https://nym.com/blog/what-is-dex) (DEX) system that enables trading of cryptocurrencies across different blockchains. You can, for example, swap Bitcoin (BTC) on the Bitcoin blockchain with Ethereum (ETH) on the Ethereum blockchain in an easy way, without holding the assets or involving any centralized authorities or Know Your Customer (KYC) procedures.
 
 Maya Protocol was developed using the Cosmos Software Development Kit (Cosmos SDK) and operates on a Proof of Bond (PoB) consensus mechanism. The protocol is upheld by "Node Operators," who stake capital into the system and earn returns as a reward for their contribution and efforts. Essentially, nodes are computers running software that validates user swaps and oversees assets in designated addresses across different blockchains.
 

@@ -22,9 +22,9 @@ Currently, [Zcash Community Grants](https://zcashcommunitygrants.org/) receives 
 In 2020, the Zcash community voted on the development fund and the teams supported by it. In 2024, the community will vote again to determine who gets funding from the development fund.
 
 
-# Zcash Hybrid Deffered Dev Fund Lockbox (NU6)
+# Zcash Hybrid Deferred Dev Fund Lockbox (NU6)
 
-The Hybrid Deffered Dev Fund Lockbox is the funding mechanism chosen for the next generation of the Zcash development fund. This option allocates of the 20% total Zcash block rewards, 60% to the Zcash Grants Comittee and 40% to a protocol lockbox, guaranteeing that resources are available to support the Zcash ecosystem's future while continuing development and upkeep.
+The Hybrid Deferred Dev Fund Lockbox is the funding mechanism chosen for the next generation of the Zcash development fund. This option allocates of the 20% total Zcash block rewards, 60% to the Zcash Grants Committee and 40% to a protocol lockbox, guaranteeing that resources are available to support the Zcash ecosystem's future while continuing development and upkeep.
 
 ## Decision-Making Process
 
@@ -32,7 +32,7 @@ The decision to implement the 20% Dev Fund Lockbox was reached through a compreh
 
 ![](https://global.discourse-cdn.com/zcash/original/3X/f/d/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd.png)
 
-As the dev fund lockbox is deffered (meaning funds will be unlocked via network upgrade at a later date), the Zcash Community will soon decide on a distribution mechanim for funds. One proposed option being the 'Zbloc' decentralised governance mechanism. 
+As the dev fund lockbox is deferred (meaning funds will be unlocked via network upgrade at a later date), the Zcash Community will soon decide on a distribution mechanism for funds. One proposed option being the 'Zbloc' decentralised governance mechanism. 
 
 ![Potential new form of decentralised governance](https://global.discourse-cdn.com/zcash/original/3X/9/9/99588d6f43a3143cb3616e8a89df5125e855ba39.png)
 

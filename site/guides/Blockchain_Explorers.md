@@ -30,7 +30,7 @@ Zcash (private): [19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa
 
 ## Blockchain Maps
 
-So we have this long string of characters as a digital receipt, what now? This is where we use a blockchain explorer, or map, to help us digest what happened on the blockchain. Notice how each chain has its own version of blockchain explorer above. It's important to understand that all these blockchain projects are examples of open source software. That is, anyone can contribute to and or fork the code to their liking. With that understanding, each project specializes in different areas and customizes the blockchain explorer to fit the needs of said project.
+So we have this long string of characters as a digital receipt, what now? This is where we use a [blockchain explorer](https://nym.com/blog/using-blockchain-privately), or map, to help us digest what happened on the blockchain. Notice how each chain has its own version of [blockchain explorer](https://nym.com/blog/using-blockchain-privately) above. It's important to understand that all these blockchain projects are examples of open source software. That is, anyone can contribute to and or fork the code to their liking. With that understanding, each project specializes in different areas and customizes the blockchain explorer to fit the needs of said project.
 
 ### Blocks
 Transactions are placed into *blocks*. When a block is mined/validated every transaction inside that block is confirmed and a block hash is created. Any hash created can be input into a block explorer. You may have seen CEX's needing a number of *confirmations* before they release your funds, this is the metric they are using to make sure your transaction is 
@@ -38,7 +38,7 @@ sufficiently finalized. How does the blockchain determine which transactions get
 
 ### Addresses
 
-A fun way to visually learn blockchain explorers is to input the address of any random transaction. Then you can move backward in time and see where the funds originated! Each transaction has both an input and output address.  Armed with this information, one can readily move both forward and backward from any transaction that has been spent. For those that like puzzles, this is the digital equivalent of a huge financial puzzle, and could be used for transparency purposes. Using a blockchain explorer makes this not only much easier to visualize, it *also highlights* the need for transaction privacy. Unless you're using shielded Zcash, you can do this with *any* transparent blockchain: BTC, ETH, ATOM, DOGE, VTC, etc ... . This point is critical for anyone using the blockchain safely moving into a digital only future.
+A fun way to visually learn [blockchain explorers](https://nym.com/blog/using-blockchain-privately) is to input the address of any random transaction. Then you can move backward in time and see where the funds originated! Each transaction has both an input and output address.  Armed with this information, one can readily move both forward and backward from any transaction that has been spent. For those that like puzzles, this is the digital equivalent of a huge financial puzzle, and could be used for transparency purposes. Using a blockchain explorer makes this not only much easier to visualize, it *also highlights* the need for transaction privacy. Unless you're using shielded Zcash, you can do this with *any* transparent blockchain: BTC, ETH, ATOM, DOGE, VTC, etc ... . This point is critical for anyone using the blockchain safely moving into a digital only future.
 
 ### Amounts
 
@@ -53,7 +53,7 @@ Here are four good examples of different blockchain explorers:
 
 * [Mempool.space](https://mempool.space)
 * [Ethscan](https://etherscan.io/)
-* [Zcashblockexplorer](https://zcashblockexplorer.com/)
+* [Zcash Block Explorer](https://mainnet.zcashexplorer.com)
 * [Mintscan](https://hub.mintscan.io/chains/ibc-network)
 
 
