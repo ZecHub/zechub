@@ -1,39 +1,35 @@
 # Zkool Multisig Guide
 
-This guide provides a step by step walkthrough on how to perform multisig transactions using Zkool. It includes creating accounts, sending/receiving funds, and setting up distributed key generation (DKG) for multisig. Screenshots are included for each major step.
+This guide provides a step by step walkthrough on how to perform multisig transactions using Zkool. It includes creating accounts, sending or receiving funds, and setting up distributed key generation (DKG) for multisig. Screenshots are included for each major step.
 
 ## 1. Creating an Account
 
 
-
 1. Open the **Zkool app** and go to **New Account**.  
-   ![Screenshot: New Account](https://i.ibb.co/bMjdXDXv/zkool1.png)
+   ![New Account](https://i.ibb.co/bMjdXDXv/zkool1.png)
 
 
-
-2. Enter an **Account Name** (e.g., *Anabelle*).  
-   ![Screenshot: Enter Account Name](https://i.ibb.co/NgxHcb6R/zkool2.png)
-
-
+2. Enter an **Account Name** (eg *Anabelle*).  
+   ![Enter Account Name](https://i.ibb.co/NgxHcb6R/zkool2.png)
 
 
 3. Optionally toggle **Use Internal Change** or **Restore Account** if needed.
 
 
-
 4. After creation, the account will appear in your **Account List**.  
-   ![Screenshot: Account List](https://i.ibb.co/Xxjhwppy/zkool3.png)
+   ![Account List](https://i.ibb.co/Xxjhwppy/zkool3.png)
 
 
 ## 2. Receiving Funds
 
-
-
 Each account generates multiple address types:
 
-- **Unified Address**  
-- **Orchard-only Address**  
-- **Sapling Address**  
+- **Unified Address**
+  
+- **Orchard only Address**
+   
+- **Sapling Address**
+  
 - **Transparent Address**
 
 
@@ -46,7 +42,7 @@ Select the type you want to use and share it to receive funds.
 ## 3. Sending Funds
 
 1. Go to the **Recipient** section.  
-![Screenshot: Recipient Section](https://i.ibb.co/8nhg1TPm/zkool5.png)
+![Recipient Section](https://i.ibb.co/8nhg1TPm/zkool5.png)
 
 2. Enter the **recipients address**.  
 
@@ -56,7 +52,7 @@ Select the type you want to use and share it to receive funds.
 
 
 Once complete, the balance updates in your account list.  
-![Screenshot: Transaction Confirmation](https://i.ibb.co/60PnV6jg/zkool6.png)
+![Transaction Confirmation](https://i.ibb.co/60PnV6jg/zkool6.png)
 
 
 
@@ -67,12 +63,17 @@ Multisig in Zkool uses **Distributed Key Generation (DKG)** to ensure multiple p
 
 
 ### Step 1: Initiate DKG
-- Choose a **Name** for the shared wallet (e.g., *Anabelle*).  
-- Set the **Number of Participants**.  
-- Choose your **Participant ID**.  
-- Define the **Number of Signers Required (Threshold)**.  
-- Select the **Funding Account**.  
-![Screenshot: DKG Setup](https://i.ibb.co/9m9V8nMg/zkool7.png)
+- Choose a **Name** for the shared wallet (eg *Anabelle*).
+
+- Set the **Number of Participants**.
+  
+- Choose your **Participant ID**.
+  
+- Define the **Number of Signers Required (Threshold)**.
+    
+- Select the **Funding Account**.
+  
+![DKG Setup](https://i.ibb.co/9m9V8nMg/zkool7.png)
 
 
 
@@ -81,12 +82,9 @@ Multisig in Zkool uses **Distributed Key Generation (DKG)** to ensure multiple p
 - Enter each participants **Unified Address** (recommended).
 
 
-⚠️ **Note:** If you use an Orchard-only or Sapling-only address, the multisig will be limited to that pool only (Orchard or Sapling).  
+⚠️ **Note:** If you use an Orchard only or Sapling only address, the multisig will be limited to that pool only (Orchard or Sapling).  
 This means the shared wallet cannot receive funds from other pools.  
 For maximum compatibility and flexibility, always use **Unified Addresses**.  
-
-
-
 
 
 ### Step 3: Run DKG Rounds
@@ -105,8 +103,10 @@ For maximum compatibility and flexibility, always use **Unified Addresses**.
 
 Using Zkool, you can:
 
-- Create accounts  
-- Send and receive funds  
+- Create accounts
+  
+- Send and receive funds
+  
 - Set up a **multisig wallet** using Distributed Key Generation  
 
 This ensures **enhanced security** and **collaborative and private fund management**.  
