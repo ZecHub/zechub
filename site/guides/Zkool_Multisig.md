@@ -9,7 +9,7 @@ This guide provides a step by step walkthrough on how to perform multisig transa
    ![New Account](https://i.ibb.co/bMjdXDXv/zkool1.png)
 
 
-2. Enter an **Account Name** (eg *Anabelle*).  
+2. Enter an **Account Name** (eg Anabelle).  
    ![Enter Account Name](https://i.ibb.co/NgxHcb6R/zkool2.png)
 
 
@@ -24,13 +24,13 @@ This guide provides a step by step walkthrough on how to perform multisig transa
 
 Each account generates multiple address types:
 
-- **Unified Address**
+**Unified Address**
+
+**Orchard only Address**
+
+**Sapling Address**
   
-- **Orchard only Address**
-   
-- **Sapling Address**
-  
-- **Transparent Address**
+**Transparent Address**
 
 
 Select the type you want to use and share it to receive funds.  
@@ -63,15 +63,15 @@ Multisig in Zkool uses **Distributed Key Generation (DKG)** to ensure multiple p
 
 
 ### Step 1: Initiate DKG
-- Choose a **Name** for the shared wallet (eg *Anabelle*).
+Choose a **Name** for the shared wallet (eg Anabelle).
 
-- Set the **Number of Participants**.
+Set the **Number of Participants**.
   
-- Choose your **Participant ID**.
+Choose your **Participant ID**.
   
-- Define the **Number of Signers Required (Threshold)**.
+Define the **Number of Signers Required (Threshold)**.
     
-- Select the **Funding Account**.
+Select the **Funding Account**.
   
 ![DKG Setup](https://i.ibb.co/9m9V8nMg/zkool7.png)
 
@@ -88,13 +88,13 @@ For maximum compatibility and flexibility, always use **Unified Addresses**.
 
 
 ### Step 3: Run DKG Rounds
-- Wait for all participants to exchange **round 1** and **round 2** packages.  
+Wait for all participants to exchange **round 1** and **round 2** packages.  
 ![Screenshot: DKG Rounds](https://i.ibb.co/HpP44wgG/zkool8.png)
 
 
 
 ### Step 4: Finalize Shared Address
-- Once complete, a **shared address** is generated.  
+Once complete, a **shared address** is generated.  
 ![Screenshot: Shared Address](https://i.ibb.co/VZDpy0k/zkool9.png)
 
 
@@ -103,11 +103,11 @@ For maximum compatibility and flexibility, always use **Unified Addresses**.
 
 Using Zkool, you can:
 
-- Create accounts
+Create accounts
   
-- Send and receive funds
+Send and receive funds
   
-- Set up a **multisig wallet** using Distributed Key Generation  
+Set up a **multisig wallet** using Distributed Key Generation  
 
 This ensures **enhanced security** and **collaborative and private fund management**.  
 
