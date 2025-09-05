@@ -1,6 +1,6 @@
 # Zkool Multisig Guide
 
-This guide provides a step-by-step walkthrough on how to perform multisig transactions using Zkool. It includes creating accounts, sending/receiving funds, and setting up distributed key generation (DKG) for multisig. Screenshots are included for each major step.
+This guide provides a step by step walkthrough on how to perform multisig transactions using Zkool. It includes creating accounts, sending/receiving funds, and setting up distributed key generation (DKG) for multisig. Screenshots are included for each major step.
 
 ## 1. Creating an Account
 
@@ -78,7 +78,7 @@ Multisig in Zkool uses **Distributed Key Generation (DKG)** to ensure multiple p
 
 
 ### Step 2: Add Participant Addresses
-- Enter each participant’s **Unified Address** (recommended).
+- Enter each participants **Unified Address** (recommended).
 
 
 ⚠️ **Note:** If you use an Orchard-only or Sapling-only address, the multisig will be limited to that pool only (Orchard or Sapling).  
@@ -111,4 +111,3 @@ Using Zkool, you can:
 
 This ensures **enhanced security** and **collaborative and private fund management**.  
 
----
