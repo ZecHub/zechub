@@ -148,4 +148,8 @@ For For a full walkthrough and visual explanation, watch this [**YouTube guide**
   Zechub: How to use ZEC on Metamask
 </video>
 
+<iframe width="640" height="360" src="https://www.youtube.com/embed/UJh9Ilkohdw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 
