@@ -192,7 +192,7 @@ Before installing, make sure you have:
 ## Preparing Your Server (hidden part)
 
 <details>
-  <summary>Click to expand</summary><br>
+  <summary>Click to expand</summary>
 
 To deploy BTCPay Server with Zcash support, you will need the following:
 
