@@ -144,7 +144,8 @@ This enables network info and explorer links.
 
 For For a full walkthrough and visual explanation, watch this [**YouTube guide**](https://www.youtube.com/watch?v=UJh9Ilkohdw): 
 <video width="640" height="360" controls>
-  <source src="https://www.youtube.com/watch?v=UJh9Ilkohdw" type="video/mp4">
+  <source src="https://www.youtube.com/watch?v=UJh9Ilkohdw" type="video/mp4" />
   Zechub: How to use ZEC on Metamask
 </video>
+
 
