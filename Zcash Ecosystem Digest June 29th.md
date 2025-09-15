@@ -1,4 +1,4 @@
-# Zcash Ecosysytem Digest | June 29th
+# Zcash Ecosystem Digest | June 29th
 
 Zcash to Millions? from Zcash Media, ZCAP votes on ZCG election, ZEC reaches $1.2M TVL on Maya & Zcash Turkey at Instanbul Blockchain Week!
 
