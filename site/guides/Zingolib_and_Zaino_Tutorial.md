@@ -8,6 +8,10 @@
 
 **zingo-cli** : zcash command line zaino-proxy client (subset of Zingolib)
 
+## Video
+
+https://www.youtube.com/watch?v=b5dIuGstMvI
+
 
 ## Big Picture
 
