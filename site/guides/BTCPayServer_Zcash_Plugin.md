@@ -452,7 +452,7 @@ nano .env
 
 Add the following line, replacing the URL with your chosen endpoint:
 
-```dotenv
+```bash
 ZCASH_LIGHTWALLETD=https://lightwalletd.example:443
 ```
 
