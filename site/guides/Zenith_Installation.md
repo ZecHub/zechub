@@ -1,5 +1,8 @@
 # Zenith GUI Full Node Wallet Installation  
 
+## Video Tutorial
+
+https://www.youtube.com/watch?v=zu8nvr4FlXE
 
 ## Install Haskell
 
