@@ -1,0 +1,26 @@
+[workspace]
+members = [
+    "components/equihash",
+    "components/f4jumble",
+    "components/zcash_address",
+    "components/zcash_encoding",
+    "components/zcash_note_encryption",
+    "zcash_client_backend",
+    "zcash_client_sqlite",
+    "zcash_extensions",
+    "zcash_history",
+    "zcash_primitives",
+    "zcash_proofs",
+]
+
+[profile.release]
+lto = true
+panic = 'abort'
+codegen-units = 1
+
+[patch.crates-io]
+zcash_encoding = { path = "components/zcash_encoding" }
+zcash_note_encryption = { path = "components/zcash_note_encryption" }
+orchard = { git = "https://github.com/zcash/orchard.git", rev = "6cbde279e90974201bedbd9b5ddf155e8f8b1e8e" }
+halo2_gadgets = { git = "https://github.com/zcash/halo2.git", rev = "642924d614305d882cc122739c59144109f4bd3f" }
+halo2_proofs = { git = "https://github.com/zcash/halo2.git", rev = "642924d614305d882cc122739c59144109f4bd3f" }

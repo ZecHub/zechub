@@ -1,0 +1,7 @@
+/target
+../../.env
+.idea/
+docs/_site/
+*.db
+Cargo.lock
+node_modules/

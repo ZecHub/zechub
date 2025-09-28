@@ -1,0 +1,9 @@
+[default]
+allow_backup = true
+allow_send = true
+
+yec = { db_path = "./yec.db", lwd_url = "https://lite.ycash.xyz:9067" }
+arrr = { db_path = "./arrr.db", lwd_url = "https://lightd1.pirate.black:9067" }
+zec = { db_path = "./zec.db", lwd_url = "https://lwd.hanh00.fun:9067" }
+# zec = { db_path = "./zec.db", lwd_url = "https://zuul.free2z.cash:9067" }
+# zec = { db_path = "./zec.db", lwd_url = "https://lwdv3.zecwallet.co:443" }
