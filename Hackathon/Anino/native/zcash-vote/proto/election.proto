@@ -1,0 +1,16 @@
+syntax = "proto3";
+package pb;
+
+message Candidate {
+    string address = 1;
+    string choice = 2;
+}
+
+message Election {
+    string name = 1;
+    uint32 start_height = 2;
+    uint32 end_height = 3;
+    string question = 4;
+    repeated Candidate candidates = 5;
+    bool signature_required = 6;
+}

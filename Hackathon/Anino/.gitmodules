@@ -1,0 +1,18 @@
+[submodule "native/zcash-sync"]
+	path = native/zcash-sync
+	url = https://github.com/hhanh00/zcash-sync.git
+[submodule "native/zcash-params"]
+	path = native/zcash-params
+	url = https://github.com/hhanh00/zcash-params.git
+[submodule "misc/flathub"]
+	path = misc/flathub
+	url = https://github.com/flathub/app.ywallet.Ywallet.git
+[submodule "librustzcash"]
+	path = librustzcash
+	url = https://github.com/hhanh00/librustzcash.git
+[submodule "orchard"]
+	path = orchard
+	url = https://github.com/hhanh00/orchard.git
+[submodule "native/zcash-vote"]
+	path = native/zcash-vote
+	url = https://github.com/hhanh00/zcash-vote.git

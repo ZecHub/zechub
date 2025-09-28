@@ -1,0 +1,15 @@
+#syntax=docker/dockerfile:1.2
+FROM hhanh00/zwallet_builder_flatpak
+
+RUN mkdir -p /root/misc
+COPY misc /root/misc
+COPY build-scripts/build-flatpak.sh /root/misc
+COPY assets/icon.png /root/misc
+
+COPY zwallet.tgz /root/misc/root/
+COPY libwarp_api_ffi.so /root/misc/root/
+
+RUN mkdir /root/repo
+
+WORKDIR /root/misc
+ENTRYPOINT ["/root/misc/build-flatpak.sh"]

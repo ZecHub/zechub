@@ -1,0 +1,207 @@
+name: YWallet
+description: Z/Ycash Wallet
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.13.4+559
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  warp_api:
+    path: packages/warp_api_ffi
+  logger: ^2.0.2+1
+  go_router: ^11.1.3
+  flutter_mobx: ^2.0.2
+  mobx: ^2.2.1
+  google_fonts: ^4.0.4
+  qr_flutter:
+    git:
+      url: https://github.com/hhanh00/qr.flutter.git
+      ref: 4bdb1126e553b474b80c8c91e9f9e43baf1e9c4e
+  http: ^0.13.3
+  intl: ^0.18.0
+  path: ^1.8.0
+  easy_debounce: ^2.0.3
+  gap: ^3.0.1
+  material_design_icons_flutter: ^5.0.5955-rc.1
+  rflutter_alert: ^2.0.7
+  tuple: ^2.0.1
+  local_auth: ^2.1.2
+  key_guardmanager: ^1.0.0
+  shared_preferences: ^2.0.7
+  shared_preferences_android:
+  shared_preferences_ios:
+  window_manager: ^0.3.0
+  flutter_markdown: ^0.6.6
+  decimal: ^2.1.0
+  binary: ^3.0.1
+  flutter_form_builder: ^9.1.1
+  form_builder_validators: ^9.1.0
+  settings_ui: ^2.0.2
+  url_launcher: ^6.3.1
+  flex_color_scheme: ^7.3.1
+  another_flushbar: ^1.12.30
+  bip39: ^1.0.6
+  timeago: ^3.5.0
+  graphic: ^2.2.1
+  loading_animation_widget: ^1.2.0
+  get_it: ^7.6.4
+  rxdart: ^0.27.7
+  bubble: ^1.2.1
+  share_plus: ^7.2.1
+  path_provider: ^2.0.3
+  file_picker: ^7.1.0
+  cross_file: ^0.3.3
+  gallery_saver: ^2.3.2
+  mustache_template: ^2.0.0
+  flutter_palette: ^1.1.0+1
+  mobile_scanner: ^5.1.1
+  zxing2: ^0.2.4
+  image: ^4.1.7
+  sensors_plus: ^4.0.0
+  connectivity_plus: ^2.2.1
+  app_links: ^3.5.0
+  quick_actions: ^0.6.0
+  csv: ^5.0.0
+  badges: ^2.0.2
+  network_info_plus : ^2.0.2
+  flutter_localizations:
+    sdk: flutter
+  workmanager: ^0.5.2
+  awesome_notifications_core: ^0.9.0
+  awesome_notifications: ^0.9.0
+  font_awesome_flutter: ^10.5.0
+  getwidget: ^2.0.4
+  reflectable: ^4.0.5
+  freezed_annotation: any
+  carousel_slider: ^5.1.1
+  json_annotation: ^4.9.0
+  showcaseview: ^4.0.1
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.3
+  flutter_svg: ^2.0.9
+  rust_lib_YWallet:
+    path: rust_builder
+  flutter_rust_bridge: 2.9.0
+  file_selector: ^1.0.3
+
+dependency_overrides:
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_gen: ^5.3.1
+  build_runner: ^2.1.2
+  # build_version disabled for local desktop dev (requires git repo root)
+  mobx_codegen: ^2.0.3
+  json_serializable: ^6.1.5
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.2.16
+  intl_utils: ^2.8.1
+  msix: ^3.16.7
+  integration_test:
+    sdk: flutter
+  freezed: ^2.4.6
+
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icon.png"
+
+flutter_native_splash:
+  color_dark: "#FFFFFF"
+  color: "#000000"
+  image: "assets/icon.png"
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  generate: true
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/sapling-spend.params
+    - assets/sapling-output.params
+    - assets/welcome.png
+    - assets/self-custody.png
+    - assets/icon.png
+    - assets/about.md
+    - assets/wallet.svg
+    - assets/contacts.svg
+    - assets/multipay.svg
+    - assets/ycash.png
+    - assets/zcash.png
+    - assets/success.mp3
+    - assets/fail.mp3
+    - assets/ding.mp3
+    - assets/ledger.png
+    - assets/stealthex.png
+    - assets/icons/send_quick.svg
+    - assets/icons/receive_quick.svg
+    - assets/icons/scan_quick.svg
+    - assets/icons/more_quick.svg
+    - assets/icons/zec_glyph.svg
+    - assets/icons/shield_check.svg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+flutter_intl:
+  enabled: true
+
+msix_config:
+  display_name: Ywallet
+  publisher_display_name: Parallax Scroll
+  identity_name: 38664ParallaxScroll.Ywallet
+  publisher: CN=DF596492-B1AD-4B42-9ECB-4E6208B6D8CD
+  #logo_path: assets\icon.png
+  store: true
+  capabilities: internetClient
