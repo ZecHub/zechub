@@ -1,0 +1,13 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rounded-corner scan icon: brackets with rounded joins and a solid scan bar; half‑pixel aligned -->
+  <g transform="translate(0.5,0.5)">
+    <!-- rounded corners (top-left, top-right, bottom-left, bottom-right) -->
+    <path d="M6 5.5 H4.5 V7.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M18 5.5 H19.5 V7.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M4.5 16.5 V18.5 H6.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M19.5 16.5 V18.5 H17.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- solid scan bar with rounded ends -->
+    <path d="M7 12.5 H17" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+  </g>
+</svg>
+

@@ -1,0 +1,19 @@
+[package]
+name = "warpsync-rust-example"
+version = "1.2.15"
+authors = ["Hanh <hanh425@gmail.com>"]
+edition = "2021"
+
+[[bin]]
+name = "warp-example"
+path = "src/main.rs"
+
+[dependencies]
+tokio = { version = "^1.6", features = ["macros", "rt-multi-thread"] }
+lazy_static = "1.4.0"
+env_logger = "0.9"
+log = "0.4"
+
+[dependencies.zcash-warpsync]
+path = "../.."
+

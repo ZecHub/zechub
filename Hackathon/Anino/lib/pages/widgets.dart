@@ -1,0 +1,1097 @@
+import 'dart:async';
+import 'dart:convert';
+import 'dart:io';
+import 'dart:math';
+
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_form_builder/flutter_form_builder.dart';
+import 'package:flutter_palette/flutter_palette.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:form_builder_validators/form_builder_validators.dart';
+import 'package:gap/gap.dart';
+import 'package:go_router/go_router.dart';
+import 'package:intl/intl.dart';
+import 'package:loading_animation_widget/loading_animation_widget.dart';
+import 'package:qr_flutter/qr_flutter.dart';
+import 'package:warp_api/data_fb_generated.dart';
+import 'package:warp_api/warp_api.dart';
+
+import '../accounts.dart';
+import '../appsettings.dart';
+import '../coin/coins.dart';
+import '../generated/intl/messages.dart';
+import '../store2.dart';
+import 'scan.dart';
+import 'utils.dart';
+import '../theme/zashi_tokens.dart';
+
+class Panel extends StatelessWidget {
+  final String title;
+  final String? text;
+  final int? maxLines;
+  final Widget? child;
+  final bool save;
+  Panel(this.title, {this.text, this.maxLines, this.child, this.save = false});
+
+  @override
+  Widget build(BuildContext context) {
+    return InputDecorator(
+        decoration:
+            InputDecoration(label: Text(title), border: OutlineInputBorder()),
+        child: text != null
+            ? Row(children: [
+                Expanded(child: SelectableText(text!, maxLines: maxLines)),
+                SizedBox(
+                    width: 40,
+                    child: IconButton(
+                        onPressed: () => _copy(context),
+                        icon: Icon(Icons.copy))),
+                if (save)
+                  SizedBox(
+                      width: 40,
+                      child: IconButton(
+                          onPressed: () => _save(context),
+                          icon: Icon(Icons.save))),
+              ])
+            : child);
+  }
+
+  _copy(BuildContext context) {
+    final s = S.of(context);
+    Clipboard.setData(ClipboardData(text: text!));
+    showSnackBar(s.copiedToClipboard);
+  }
+
+  _save(BuildContext context) {
+    GoRouter.of(context).push('/showqr?title=$title', extra: text!);
+  }
+}
+
+class LoadingWrapper extends StatelessWidget {
+  final bool loading;
+  final Widget child;
+
+  LoadingWrapper(this.loading, {super.key, required this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    if (!loading) return child;
+    final t = Theme.of(context);
+    final size = MediaQuery.of(context).size;
+    return Stack(
+      children: [
+        Container(
+            height: size.height,
+            width: size.width,
+            color: t.colorScheme.surface),
+        Opacity(opacity: 0.4, child: child),
+        Container(
+          height: size.height - 200,
+          child: Align(
+              alignment: Alignment.center,
+              child: LoadingAnimationWidget.hexagonDots(
+                  color: const Color(0xFFF4B728), size: 100)),
+        )
+      ],
+    );
+  }
+}
+
+class RecipientWidget extends StatelessWidget {
+  final RecipientT recipient;
+  final bool? selected;
+  late final ZMessage message;
+  RecipientWidget(this.recipient, {this.selected}) {
+    message = ZMessage(
+      0,
+      0,
+      false,
+      '',
+      recipient.address!,
+      recipient.address!,
+      recipient.subject!,
+      recipient.memo!,
+      DateTime.now(),
+      0,
+      false,
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final s = S.of(context);
+    final t = Theme.of(context);
+    final select = selected ?? false;
+    return Card(
+        color: select ? t.primaryColor : null,
+        child: Padding(
+          padding: EdgeInsets.all(8),
+          child: Column(
+            children: [
+              if (recipient.replyTo)
+                Text(s.includeReplyTo, style: t.textTheme.labelSmall),
+              MessageContentWidget(
+                  recipient.address!, message, recipient.memo!),
+              Align(
+                  alignment: Alignment.centerRight,
+                  child: Text(amountToString2(recipient.amount))),
+            ],
+          ),
+        ));
+  }
+}
+
+class MosaicWidget extends StatelessWidget {
+  final List<MoreTile> buttons;
+  MosaicWidget(this.buttons);
+
+  @override
+  Widget build(BuildContext context) {
+    final t = Theme.of(context);
+    final palette = getPalette(t.colorScheme.inversePrimary, buttons.length);
+    return ListView.builder(
+        itemBuilder: (BuildContext context, int index) {
+          final button = buttons[index];
+          return ListTile(
+            leading: SizedBox(width: 40, child: button.icon),
+            title: Text(button.text, style: t.textTheme.headlineSmall),
+            tileColor: palette.colors[index].toColor(),
+            trailing: Icon(Icons.chevron_right),
+            onTap: () => _onMenu(context, button),
+          );
+        },
+        itemCount: buttons.length);
+  }
+
+  _onMenu(BuildContext context, MoreTile button) async {
+    final onPressed = button.onPressed;
+    if (onPressed != null) {
+      await onPressed();
+    } else {
+      if (button.secured) {
+        final s = S.of(context);
+        final auth = await authenticate(context, s.secured);
+        if (!auth) return;
+      }
+      GoRouter.of(context).push(button.url);
+    }
+  }
+}
+
+class MoreSection {
+  final Widget title;
+  final List<MoreTile> tiles;
+  MoreSection({
+    required this.title,
+    required this.tiles,
+  });
+}
+
+class MoreTile {
+  final String url;
+  final String text;
+  final Widget icon;
+  final bool secured;
+  final Future<void> Function()? onPressed;
+
+  MoreTile(
+      {required this.url,
+      required this.text,
+      required this.icon,
+      this.secured = false,
+      this.onPressed});
+}
+
+class MediumTitle extends StatelessWidget {
+  final String title;
+  MediumTitle(this.title);
+
+  @override
+  Widget build(BuildContext context) {
+    final t = Theme.of(context);
+    return Container(
+        padding: EdgeInsets.all(8),
+        decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(8),
+            color: t.colorScheme.primary),
+        child: Text(title,
+            style:
+                t.textTheme.bodyLarge!.copyWith(color: t.colorScheme.surface)));
+  }
+}
+
+class InputTextQR extends StatefulWidget {
+  final String initialValue;
+  final String? label;
+  final void Function(String?)? onChanged;
+  final String? Function(String?)? validator;
+  final int? lines;
+  final List<Widget> Function(BuildContext context,
+      {Function(String) onChanged})? buttonsBuilder;
+
+  InputTextQR(this.initialValue,
+      {super.key,
+      this.label,
+      this.onChanged,
+      this.validator,
+      this.lines,
+      this.buttonsBuilder});
+
+  @override
+  State<StatefulWidget> createState() => InputTextQRState();
+}
+
+class InputTextQRState extends State<InputTextQR> {
+  final fieldKey =
+      GlobalKey<FormBuilderFieldState<FormBuilderField<String>, String>>();
+  late final controller = TextEditingController(text: widget.initialValue);
+
+  @override
+  Widget build(BuildContext context) {
+    return FormBuilderField<String>(
+      key: fieldKey,
+      name: 'text',
+      initialValue: widget.initialValue,
+      validator: widget.validator,
+      onChanged: widget.onChanged,
+      builder: (field) {
+        final buttons = widget.buttonsBuilder?.call(
+              context,
+              onChanged: (v) => _onChanged(v, field),
+            ) ??
+            [];
+        // Inline suffix icons: contacts + QR inside the text field
+        final suffixIcons = <Widget>[
+          ...buttons.map((w) => Padding(padding: const EdgeInsets.symmetric(horizontal: 2), child: w)),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 2),
+            child: IconButton(
+              onPressed: () => qr(context, field),
+              icon: const Icon(Icons.qr_code),
+              tooltip: 'Scan QR',
+            ),
+          ),
+        ];
+
+        return TextFormField(
+          controller: controller,
+          minLines: widget.lines,
+          maxLines: widget.lines,
+          decoration: InputDecoration(
+            label: widget.label?.let((label) => Text(label)),
+            errorText: field.errorText,
+            suffixIcon: Row(mainAxisSize: MainAxisSize.min, children: suffixIcons),
+            suffixIconConstraints: const BoxConstraints(minWidth: 0, minHeight: 0),
+          ),
+          onChanged: (v) => field.didChange(v),
+        );
+      },
+    );
+  }
+
+  qr(BuildContext context, FormFieldState<String> field) async {
+    final text = await scanQRCode(context, validator: widget.validator);
+    _onChanged(text, field);
+  }
+
+  _onChanged(String v, FormFieldState<String> field) {
+    controller.text = v;
+    field.didChange(v);
+  }
+
+  setValue(String v) {
+    _onChanged(v, fieldKey.currentState!);
+  }
+}
+
+class PoolSelection extends StatefulWidget {
+  final PoolBalanceT balances;
+  final void Function(int? pools)? onChanged;
+  final int initialValue;
+  PoolSelection(this.initialValue,
+      {super.key, required this.balances, this.onChanged});
+  @override
+  State<StatefulWidget> createState() => PoolSelectionState();
+}
+
+class PoolSelectionState extends State<PoolSelection> {
+  final fieldKey =
+      GlobalKey<FormBuilderFieldState<FormBuilderField<Set<int>>, Set<int>>>();
+
+  @override
+  Widget build(BuildContext context) {
+    final t = Theme.of(context);
+    final txtStyle = t.textTheme.labelLarge!;
+
+    final initialPools = PoolBitSet.toSet(widget.initialValue);
+
+    return FormBuilderField(
+      key: fieldKey,
+      name: 'pool_select',
+      initialValue: initialPools.toSet(),
+      onChanged: (v) => widget.onChanged?.call(PoolBitSet.fromSet(v!)),
+      builder: (field) => SegmentedButton<int>(
+        segments: [
+          ButtonSegment(
+              value: 0,
+              label: Text(
+                '${amountToString2(widget.balances.transparent)}',
+                style: txtStyle.apply(color: Colors.red),
+              )),
+          ButtonSegment(
+              value: 1,
+              label: Text(
+                '${amountToString2(widget.balances.sapling)}',
+                style: txtStyle.apply(color: Colors.orange),
+              )),
+          if (aa.hasUA)
+            ButtonSegment(
+                value: 2,
+                label: Text(
+                  '${amountToString2(widget.balances.orchard)}',
+                  style: txtStyle.apply(color: Colors.green),
+                )),
+        ],
+        selected: field.value!,
+        onSelectionChanged: (v) => field.didChange(v),
+        multiSelectionEnabled: true,
+        showSelectedIcon: false,
+      ),
+    );
+  }
+
+  void setPools(int p) {
+    fieldKey.currentState!.didChange(PoolBitSet.toSet(p));
+  }
+}
+
+enum AmountSource {
+  None,
+  External,
+  Crypto,
+  Fiat,
+  Slider,
+}
+
+class AmountPicker extends StatefulWidget {
+  final int? spendable;
+  final Amount initialAmount;
+  final bool canDeductFee;
+  final void Function(Amount?)? onChanged;
+  final bool custom;
+  AmountPicker(
+    this.initialAmount, {
+    super.key,
+    this.spendable,
+    this.canDeductFee = true,
+    this.onChanged,
+    this.custom = false,
+  });
+  @override
+  State<StatefulWidget> createState() => AmountPickerState();
+}
+
+class AmountPickerState extends State<AmountPicker> {
+  late final s = S.of(context);
+  final fieldKey =
+      GlobalKey<FormBuilderFieldState<FormBuilderField<Amount>, Amount>>();
+  final formKey = GlobalKey<FormBuilderState>();
+  double? fxRate;
+  double _sliderValue = 0;
+  late final amountController =
+      TextEditingController(text: amountToString2(widget.initialAmount.value));
+  late final nformat = NumberFormat.decimalPatternDigits(
+      locale: Platform.localeName,
+      decimalDigits: decimalDigits(appSettings.fullPrec));
+  late final fiatController = TextEditingController(text: nformat.format(0.0));
+
+  @override
+  void initState() {
+    super.initState();
+    Future(updateFxRate);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final customSendSettings = appSettings.customSendSettings;
+    final c = coins[aa.coin];
+    final spendable = widget.spendable;
+    return FormBuilderField<Amount>(
+      key: fieldKey,
+      name: 'amount_form',
+      initialValue: widget.initialAmount,
+      onChanged: widget.onChanged,
+      validator: FormBuilderValidators.compose([
+        (a) => a!.value <= 0 ? s.amountMustBePositive : null,
+        if (spendable != null)
+          (a) => a!.value > spendable ? s.notEnoughBalance : null,
+      ]),
+      builder: (field) {
+        return FormBuilder(
+          key: formKey,
+          child: Column(
+            children: [
+              Gap(16),
+              if (spendable != null)
+                Text('${s.spendable}  ${amountToString2(spendable)}'),
+              Gap(8),
+              Row(
+                children: [
+                  Expanded(
+                    child: FormBuilderTextField(
+                      name: 'amount',
+                      decoration: InputDecoration(
+                        label: Text(c.ticker),
+                        errorText: field.errorText,
+                      ),
+                      keyboardType:
+                          TextInputType.numberWithOptions(decimal: true),
+                      controller: amountController,
+                      onChanged: (v0) {
+                        final v = v0 == null || v0.isEmpty ? '0' : v0;
+                        try {
+                          final value = stringToAmount(v);
+                          _update(field, value, AmountSource.Crypto);
+                        } on FormatException {}
+                      },
+                    ),
+                  ),
+                  if (widget.canDeductFee &&
+                      spendable != null &&
+                      widget.custom &&
+                      customSendSettings.max)
+                    IconButton(
+                      onPressed: () => _max(field),
+                      icon: FaIcon(FontAwesomeIcons.maximize),
+                    ),
+                ],
+              ),
+              if (!widget.custom || customSendSettings.amountCurrency)
+                FormBuilderTextField(
+                  name: 'fiat',
+                  decoration:
+                      InputDecoration(label: Text(appSettings.currency)),
+                  keyboardType: TextInputType.numberWithOptions(decimal: true),
+                  enabled: fxRate != null,
+                  controller: fiatController,
+                  onChanged: (v0) {
+                    final v = v0 == null || v0.isEmpty ? '0' : v0;
+                    try {
+                      final fiat = nformat.parse(v).toDouble();
+                      final zec = fiat / fxRate!;
+                      final value = (zec * ZECUNIT).toInt();
+                      _update(field, value, AmountSource.Fiat);
+                    } on FormatException {}
+                  },
+                ),
+              if (spendable != null &&
+                  widget.custom &&
+                  customSendSettings.amountSlider)
+                Slider(
+                  value: _sliderValue,
+                  min: 0,
+                  max: 100,
+                  divisions: 10,
+                  onChanged: (v) {
+                    final value = spendable * v ~/ 100;
+                    _sliderValue = v;
+                    _update(field, value, AmountSource.Slider);
+                  },
+                ),
+              if (widget.canDeductFee &&
+                  widget.custom &&
+                  customSendSettings.deductFee)
+                FormBuilderSwitch(
+                    name: 'deduct_fee',
+                    initialValue: widget.initialAmount.deductFee,
+                    title: Text(s.deductFee),
+                    onChanged: (v) {
+                      var a = field.value!;
+                      a.deductFee = v!;
+                      field.didChange(a);
+                    }),
+            ],
+          ),
+        );
+      },
+    );
+  }
+
+  AmountSource? _source;
+
+  _update(FormFieldState<Amount> field, int v, AmountSource source) {
+    if (_source != null) return;
+    var amount = field.value ?? Amount(0, false);
+    try {
+      _source = source;
+      amount.value = v;
+      if (source != AmountSource.Crypto) {
+        amountController.text = amountToString2(amount.value);
+      }
+      final spendable = widget.spendable;
+      if (source != AmountSource.Fiat) {
+        fxRate?.let((fx) {
+          final fiat = (v * fx).toInt();
+          fiatController.text = amountToString2(fiat);
+        });
+      }
+      if (source != AmountSource.Slider && spendable != null && spendable > 0) {
+        final p = amount.value / spendable * 100;
+        _sliderValue = p.clamp(0.0, 100.0);
+      }
+      field.didChange(amount);
+    } finally {
+      _source = null;
+    }
+    setState(() {});
+  }
+
+  _max(FormFieldState<Amount> field) {
+    final value = widget.spendable!;
+    formKey.currentState!.fields['deduct_fee']?.setValue(true);
+    var amount = field.value!;
+    amount.value = value;
+    amount.deductFee = true;
+    _update(field, value, AmountSource.External);
+  }
+
+  void setAmount(int amount) {
+    final field = fieldKey.currentState!;
+    _update(field, amount, AmountSource.External);
+  }
+
+  Future<void> updateFxRate() async {
+    final c = coins[aa.coin];
+    fxRate = await getFxRate(c.currency, appSettings.currency);
+    setState(() {});
+  }
+}
+
+class InputMemo extends StatefulWidget {
+  final MemoData memo;
+  final void Function(MemoData?)? onChanged;
+  final bool custom;
+  final String? hintText;
+  InputMemo(this.memo, {super.key, this.onChanged, this.custom = false, this.hintText});
+
+  @override
+  State<StatefulWidget> createState() => InputMemoState();
+}
+
+class InputMemoState extends State<InputMemo> {
+  final fieldKey =
+      GlobalKey<FormBuilderFieldState<FormBuilderField<MemoData>, MemoData>>();
+  final formKey = GlobalKey<FormBuilderState>();
+  late MemoData value = widget.memo.clone();
+  late final subjectController =
+      TextEditingController(text: widget.memo.subject);
+  late final memoController = TextEditingController(text: widget.memo.memo);
+  int _memoCharCount = 0;
+  // Number of bytes reserved for hidden header (e.g., v1; type=payment ... + blank line)
+  int _reservedBytes = 0;
+
+  @override
+  void initState() {
+    super.initState();
+    _memoCharCount = memoController.text.length;
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final s = S.of(context);
+    final customSendSettings = appSettings.customSendSettings;
+    final t = Theme.of(context);
+    final balanceTextColor = t.extension<ZashiThemeExt>()?.balanceAmountColor ?? const Color(0xFFBDBDBD);
+    final addressFillColor = const Color(0xFF2E2C2C);
+    final balanceFontFamily = t.textTheme.displaySmall?.fontFamily;
+    final baseTextStyle = (t.textTheme.bodyMedium ?? const TextStyle()).copyWith(
+      fontFamily: balanceFontFamily,
+      color: t.colorScheme.onSurface,
+    );
+    final hintTextStyle = baseTextStyle.copyWith(
+      fontWeight: FontWeight.w400,
+      color: t.colorScheme.onSurface.withOpacity(0.7),
+    );
+    return FormBuilderField<MemoData>(
+        key: fieldKey,
+        name: 'memo',
+        initialValue: value,
+        validator: (MemoData? v) {
+          if (v == null) return null;
+          // Allow up to and including 512 bytes as per Zcash memo limit
+          if (utf8.encode(v.memo).length > 512) return s.memoTooLong;
+          return null;
+        },
+        onChanged: widget.onChanged,
+        builder: (field) {
+          return FormBuilder(
+            key: formKey,
+            child: Column(
+              children: [
+                if (widget.custom && customSendSettings.replyAddress)
+                  FormBuilderSwitch(
+                    name: 'reply',
+                    title: Text(s.includeReplyTo),
+                    initialValue: value.reply,
+                    onChanged: (v) {
+                      value.reply = v!;
+                      field.didChange(value);
+                    },
+                  ),
+                if (widget.custom && customSendSettings.memoSubject)
+                  FormBuilderTextField(
+                    name: 'subject',
+                    controller: subjectController,
+                    cursorColor: balanceTextColor,
+                    style: baseTextStyle,
+                    decoration: InputDecoration(
+                      label: Text(s.subject, style: hintTextStyle),
+                      filled: true,
+                      fillColor: addressFillColor,
+                      contentPadding:
+                          const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(14),
+                        borderSide: BorderSide.none,
+                      ),
+                      enabledBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(14),
+                        borderSide: BorderSide.none,
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(14),
+                        borderSide: BorderSide.none,
+                      ),
+                    ),
+                    enableSuggestions: true,
+                    onChanged: (v) {
+                      value.subject = v!;
+                      field.didChange(value);
+                    },
+                  ),
+                Stack(
+                  children: [
+                    FormBuilderTextField(
+                      name: 'body',
+                      controller: memoController,
+                      cursorColor: balanceTextColor,
+                      style: baseTextStyle,
+                      maxLength: 512,
+                      decoration: InputDecoration(
+                        // external label provided by caller; keep hint subtle inside if needed
+                        hintText: widget.hintText ?? 'Write encrypted message here...',
+                        hintStyle: hintTextStyle,
+                        filled: true,
+                        fillColor: addressFillColor,
+                        // Reserve a full-width bottom line for the counter and let text use full width above
+                        contentPadding: const EdgeInsets.fromLTRB(16, 12, 16, 32),
+                        border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(14),
+                          borderSide: BorderSide.none,
+                        ),
+                        enabledBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(14),
+                          borderSide: BorderSide.none,
+                        ),
+                        focusedBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(14),
+                          borderSide: BorderSide.none,
+                        ),
+                        counterText: '',
+                      ),
+                      minLines: 5,
+                      maxLines: 5,
+                      enableSuggestions: true,
+                      onTap: () {
+                        // Ensure TextEditingController is in sync so backspace applies correctly
+                        // (sometimes stale value can interfere if programmatically changed elsewhere)
+                        memoController.selection = TextSelection.fromPosition(
+                          TextPosition(offset: memoController.text.length),
+                        );
+                      },
+                      onChanged: (v) {
+                        value.memo = v!;
+                        field.didChange(value);
+                        setState(() => _memoCharCount = v.length);
+                      },
+                    ),
+                    Positioned(
+                      left: 0,
+                      right: 0,
+                      bottom: 0,
+                      child: IgnorePointer(
+                        ignoring: true,
+                        child: Container(
+                          height: 28,
+                          alignment: Alignment.centerRight,
+                          padding: const EdgeInsets.only(right: 12),
+                          child: Text(
+                            '${_memoCharCount}/${(512 - _reservedBytes).clamp(0, 512)}',
+                            style: (Theme.of(context).textTheme.bodySmall ?? const TextStyle())
+                                .copyWith(color: Theme.of(context).colorScheme.onSurface.withOpacity(0.6)),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
+                )
+              ],
+            ),
+          );
+        });
+  }
+
+  void setMemoBody(String body) {
+    final m = MemoData(false, '', body);
+    formKey.currentState!.fields['reply']?.setValue(false);
+    subjectController.text = m.subject;
+    memoController.text = m.memo;
+    fieldKey.currentState!.didChange(m);
+  }
+
+  // Allow caller to reserve bytes for a hidden header; counter shows reduced capacity
+  void setReservedBytes(int bytes) {
+    setState(() => _reservedBytes = bytes.clamp(0, 512));
+  }
+}
+
+class Jumbotron extends StatelessWidget {
+  final Severity severity;
+  final String? title;
+  final String message;
+  Jumbotron(this.message, {this.title, this.severity = Severity.Info});
+
+  @override
+  Widget build(BuildContext context) {
+    final t = Theme.of(context);
+    final cs = t.colorScheme;
+    final Color color;
+    switch (severity) {
+      case Severity.Error:
+        color = Colors.red;
+        break;
+      case Severity.Warning:
+        color = Colors.orange;
+        break;
+      default:
+        color = cs.primary;
+        break;
+    }
+    return Stack(
+      children: [
+        Align(
+          child: Container(
+            padding: EdgeInsets.all(16),
+            margin: EdgeInsetsDirectional.all(15),
+            decoration: BoxDecoration(
+                color: cs.primary,
+                border: Border.all(color: color, width: 4),
+                borderRadius: BorderRadius.all(Radius.circular(32))),
+            child: SelectableText(message,
+                style:
+                    t.textTheme.headlineMedium!.copyWith(color: cs.onPrimary)),
+          ),
+        ),
+        if (title != null)
+          Align(
+            alignment: Alignment.topCenter,
+            child: DecoratedBox(
+              decoration: BoxDecoration(
+                  border: Border.all(color: color, width: 4), color: color),
+              child: Padding(
+                  padding: EdgeInsets.all(8),
+                  child: Text(title!, style: TextStyle(color: cs.onPrimary))),
+            ),
+          )
+      ],
+    );
+  }
+}
+
+enum Severity {
+  Info,
+  Warning,
+  Error,
+}
+
+class AnimatedQR extends StatefulWidget {
+  final String title;
+  final String caption;
+  final String data;
+  final List<String> chunks;
+
+  AnimatedQR.init(String title, String caption, String data)
+      : this(
+            title,
+            caption,
+            data,
+            WarpApi.splitData(DateTime.now().millisecondsSinceEpoch ~/ 1000,
+                base64Encode(ZLibCodec().encode(utf8.encode(data)))));
+
+  AnimatedQR(this.title, this.caption, this.data, this.chunks);
+
+  @override
+  State<StatefulWidget> createState() => _AnimatedQRState();
+}
+
+class _AnimatedQRState extends State<AnimatedQR> {
+  var index = 0;
+  Timer? _timer;
+
+  @override
+  void initState() {
+    super.initState();
+    _timer = new Timer.periodic(Duration(seconds: 3), (Timer timer) {
+      setState(() {
+        index += 1;
+      });
+    });
+  }
+
+  @override
+  void dispose() {
+    _timer?.cancel();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final idx = index % widget.chunks.length;
+    final qrSize = getScreenSize(context) * 0.8;
+    return Center(
+        child: Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        QrImage(
+            key: ValueKey(idx),
+            data: widget.chunks[idx],
+            size: qrSize,
+            backgroundColor: Colors.white),
+        Gap(8),
+        Text(widget.caption, style: theme.textTheme.titleMedium),
+      ],
+    ));
+  }
+}
+
+class HorizontalBarChart extends StatelessWidget {
+  final List<double> values;
+  final double height;
+
+  HorizontalBarChart(this.values, {this.height = 32});
+
+  @override
+  Widget build(BuildContext context) {
+    final palette = getPalette(Theme.of(context).primaryColor, values.length);
+
+    final sum = values.fold<double>(0, ((acc, v) => acc + v));
+    final stacks = values.asMap().entries.map((e) {
+      final i = e.key;
+      final color = palette[i];
+      final v = NumberFormat.compact().format(values[i]);
+      final flex = sum != 0 ? max((values[i] / sum * 100).round(), 1) : 1;
+      return Flexible(
+          child: Container(
+              child: Center(
+                  child: Text(v,
+                      textAlign: TextAlign.center,
+                      style: TextStyle(color: Colors.white))),
+              color: color,
+              height: height),
+          flex: flex);
+    }).toList();
+
+    return IntrinsicHeight(
+        child: Row(
+            crossAxisAlignment: CrossAxisAlignment.stretch, children: stacks));
+  }
+}
+
+class MessageContentWidget extends StatelessWidget {
+  final String address;
+  final ZMessage? message;
+  final String memo;
+  final String? displayLabel;
+  final Widget? inlineIcon;
+  final DateTime? timestamp;
+
+  MessageContentWidget(this.address, this.message, this.memo,
+      {this.displayLabel, this.inlineIcon, this.timestamp});
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final zashi = theme.extension<ZashiThemeExt>();
+    final primaryTitleStyle = theme.textTheme.bodyMedium?.copyWith(
+      fontWeight: FontWeight.w700,
+      color: zashi?.balanceAmountColor ?? theme.colorScheme.onSurface,
+    );
+
+    final m = message;
+    final addressWidget = Text('${centerTrim(address)}',
+        style: theme.textTheme.labelMedium);
+
+    // When a displayLabel is provided, render it as the primary title, with an
+    // optional inline icon, and then any supporting text (memo/body) below.
+    if (displayLabel != null) {
+      return Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Flexible(
+                child: Text(
+                  displayLabel!,
+                  style: primaryTitleStyle,
+                  overflow: TextOverflow.ellipsis,
+                ),
+              ),
+              if (inlineIcon != null)
+                Padding(padding: EdgeInsets.only(left: 4), child: inlineIcon!),
+            ],
+          ),
+          if (timestamp != null)
+            Text(relativeWhen(timestamp!), style: theme.textTheme.bodySmall),
+        ],
+      );
+    }
+
+    if (m != null) {
+      final isIncoming = m.incoming;
+      final titleStyle = theme.textTheme.bodyMedium
+          ?.copyWith(fontWeight: FontWeight.w700);
+      return Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          addressWidget,
+          Text(isIncoming ? 'Received' : 'Sent', style: titleStyle),
+          Text(relativeWhen(m.timestamp), style: theme.textTheme.bodySmall),
+        ],
+      );
+    } else {
+      return Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          addressWidget,
+          if (timestamp != null)
+            Text(relativeWhen(timestamp!), style: theme.textTheme.bodySmall)
+          else
+            Text(memo, style: theme.textTheme.bodySmall),
+        ],
+      );
+    }
+  }
+}
+
+class SwapAmountWidget extends StatefulWidget {
+  final String name;
+  final SwapAmount initialValue;
+  final bool readOnly;
+  final List<String>? currencies;
+  final void Function(SwapAmount)? onChanged;
+
+  const SwapAmountWidget({
+    super.key,
+    required this.name,
+    required this.initialValue,
+    this.readOnly = false,
+    this.currencies,
+    this.onChanged,
+  });
+
+  @override
+  State<StatefulWidget> createState() => SwapAmountState();
+}
+
+class SwapAmountState extends State<SwapAmountWidget> {
+  var formKey = GlobalKey<FormBuilderState>();
+  var fieldKey = GlobalKey<
+      FormBuilderFieldState<FormBuilderField<SwapAmount>, SwapAmount>>();
+
+  @override
+  Widget build(BuildContext context) {
+    final t = Theme.of(context);
+    final items = widget.currencies
+        ?.map((c) => DropdownMenuItem(value: c, child: Text(c)))
+        .toList();
+
+    logger.d('build -> ${widget.initialValue}');
+
+    return FormBuilderField<SwapAmount>(
+      key: fieldKey,
+      name: widget.name,
+      initialValue: widget.initialValue,
+      onChanged: (v) => widget.onChanged?.call(v!),
+      builder: (FormFieldState<SwapAmount> field) {
+        return FormBuilder(
+          key: formKey,
+          child: SizedBox(
+            height: 100,
+            child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.baseline,
+                textBaseline: TextBaseline.alphabetic,
+                children: [
+                  SizedBox(
+                      width: 180,
+                      child: FormBuilderTextField(
+                        name: 'amount',
+                        decoration: InputDecoration(
+                          border: InputBorder.none,
+                          errorText: field.errorText,
+                        ),
+                        readOnly: widget.readOnly,
+                        validator: FormBuilderValidators.compose([
+                          FormBuilderValidators.required(),
+                          FormBuilderValidators.numeric(),
+                        ]),
+                        initialValue: value.amount.toString(),
+                        onChanged: (v) {
+                          field.didChange(value.copyWith(amount: v!));
+                        },
+                      )),
+                  items != null
+                      ? SizedBox(
+                          width: 140,
+                          child: FormBuilderDropdown(
+                            name: 'currency',
+                            decoration:
+                                InputDecoration(border: InputBorder.none),
+                            items: items,
+                            initialValue: value.currency,
+                            onChanged: (v) =>
+                                field.didChange(value.copyWith(currency: v!)),
+                          ))
+                      : Text(value.currency, style: t.textTheme.bodyLarge),
+                ]),
+          ),
+        );
+      },
+    );
+  }
+
+  void update(SwapAmount value) {
+    logger.d('update $value');
+    final f = formKey.currentState!;
+    f.fields['amount']!.didChange(value.amount);
+    f.fields['currency']!.didChange(value.currency);
+  }
+
+  bool validate() {
+    return formKey.currentState!.validate();
+  }
+
+  void invalidate(String error) {
+    formKey.currentState!.fields['amount']!.invalidate(error);
+  }
+
+  void resetAmount() {
+    logger.d('reset amount');
+    formKey.currentState!.fields['amount']!.didChange('0');
+  }
+
+  SwapAmount get value => fieldKey.currentState!.value!;
+}

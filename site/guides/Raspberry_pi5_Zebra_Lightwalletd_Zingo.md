@@ -4,6 +4,10 @@
 
 # RPi5 Zebra Lightwalletd with Zingo
 
+## Video Tutorial
+
+https://www.youtube.com/watch?v=FfH5jiX8pT0
+
 ## Dependecies
 
 * `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`

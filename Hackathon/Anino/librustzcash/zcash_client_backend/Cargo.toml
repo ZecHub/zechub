@@ -1,0 +1,104 @@
+[package]
+name = "zcash_client_backend"
+description = "APIs for creating shielded Zcash light clients"
+version = "0.7.0"
+authors = [
+    "Jack Grigg <jack@z.cash>",
+    "Kris Nuttycombe <kris@electriccoin.co>"
+]
+homepage = "https://github.com/zcash/librustzcash"
+repository = "https://github.com/zcash/librustzcash"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+edition = "2021"
+rust-version = "1.60"
+
+# Exclude proto files so crates.io consumers don't need protoc.
+exclude = ["*.proto"]
+
+[package.metadata.cargo-udeps.ignore]
+development = ["zcash_proofs"]
+
+[dependencies]
+zcash_address = { version = "0.2", path = "../components/zcash_address" }
+zcash_encoding = { version = "0.2", path = "../components/zcash_encoding" }
+zcash_note_encryption = { version = "0.2", path = "../components/zcash_note_encryption" }
+zcash_primitives = { version = "0.10", path = "../zcash_primitives", default-features = false }
+
+# Dependencies exposed in a public API:
+# (Breaking upgrades to these require a breaking upgrade to this crate.)
+# - Data Access API
+time = "0.2"
+
+# - Encodings
+base64 = "0.13"
+bech32 = "0.8"
+bs58 = { version = "0.4", features = ["check"] }
+
+# - Errors
+hdwallet = { version = "0.3.1", optional = true }
+
+# - Logging and metrics
+memuse = "0.2"
+tracing = "0.1"
+
+# - Protobuf interfaces and gRPC bindings
+prost = "0.11"
+tonic = { version = "0.8", optional = true }
+
+# - Secret management
+secrecy = "0.8"
+subtle = "2.2.3"
+
+# - Shielded protocols
+bls12_381 = "0.8"
+group = "0.13"
+orchard = { version = "0.3", default-features = false }
+
+# - Test dependencies
+proptest = { version = "1.0.0", optional = true }
+
+# - ZIP 321
+nom = "7"
+
+# Dependencies used internally:
+# (Breaking upgrades to these are usually backwards-compatible, but check MSRVs.)
+# - Encodings
+byteorder = { version = "1", optional = true }
+percent-encoding = "2.1.0"
+
+# - Scanning
+crossbeam-channel = "0.5"
+rayon = "1.5"
+
+[build-dependencies]
+tonic-build = "0.8"
+which = "4"
+
+[dev-dependencies]
+assert_matches = "1.5"
+gumdrop = "0.8"
+hex = "0.4"
+jubjub = "0.10"
+proptest = "1.0.0"
+rand_core = "0.6"
+rand_xorshift = "0.3"
+tempfile = "3.1.0"
+zcash_proofs = { version = "0.10", path = "../zcash_proofs", default-features = false }
+zcash_address = { version = "0.2", path = "../components/zcash_address", features = ["test-dependencies"] }
+
+[features]
+lightwalletd-tonic = ["tonic"]
+transparent-inputs = ["hdwallet", "zcash_primitives/transparent-inputs"]
+test-dependencies = [
+    "proptest",
+    "orchard/test-dependencies",
+    "zcash_primitives/test-dependencies",
+]
+unstable = ["byteorder"]
+
+[lib]
+bench = false
+
+[badges]
+maintenance = { status = "actively-developed" }

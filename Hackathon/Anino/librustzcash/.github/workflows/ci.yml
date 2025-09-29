@@ -1,0 +1,143 @@
+name: CI checks
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    name: Test on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macOS-latest]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Fetch path to Zcash parameters
+        working-directory: ./zcash_proofs
+        shell: bash
+        run: echo "ZCASH_PARAMS=$(cargo run --release --example get-params-path --features directories)" >> $GITHUB_ENV
+      - name: Cache Zcash parameters
+        id: cache-params
+        uses: actions/cache@v3.2.4
+        with:
+          path: ${{ env.ZCASH_PARAMS }}
+          key: ${{ runner.os }}-params
+      - name: Fetch Zcash parameters
+        if: steps.cache-params.outputs.cache-hit != 'true'
+        working-directory: ./zcash_proofs
+        run: cargo run --release --example download-params --features download-params
+
+      - name: Run tests
+        run: cargo test  --all-features --verbose --release --all
+      - name: Run slow tests
+        run: cargo test --all-features --verbose --release --all -- --ignored
+      - name: Verify working directory is clean
+        run: git diff --exit-code
+
+  build:
+    name: Build target ${{ matrix.target }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        target:
+          - wasm32-wasi
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Add target
+        run: rustup target add ${{ matrix.target }}
+      - run: cargo fetch
+      - name: Build zcash_proofs for target
+        working-directory: ./zcash_proofs
+        run: cargo build --verbose --no-default-features --target ${{ matrix.target }}
+      - name: Build zcash_client_backend for target
+        working-directory: ./zcash_client_backend
+        run: cargo build --verbose --no-default-features --target ${{ matrix.target }}
+
+  bitrot:
+    name: Bitrot check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      # Build benchmarks to prevent bitrot
+      - name: Build benchmarks
+        run: cargo build --all --benches
+
+  clippy:
+    name: Clippy (MSRV)
+    timeout-minutes: 30
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run clippy
+        uses: actions-rs/clippy-check@v1
+        with:
+          name: Clippy (MSRV)
+          token: ${{ secrets.GITHUB_TOKEN }}
+          args: --all-features --all-targets -- -D warnings
+
+  clippy-beta:
+    name: Clippy (beta)
+    timeout-minutes: 30
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v3
+      - uses: dtolnay/rust-toolchain@beta
+        id: toolchain
+      - run: rustup override set ${{steps.toolchain.outputs.name}}
+      - name: Run Clippy (beta)
+        uses: actions-rs/clippy-check@v1
+        continue-on-error: true
+        with:
+          name: Clippy (beta)
+          token: ${{ secrets.GITHUB_TOKEN }}
+          args: --all-features --all-targets -- -W clippy::all
+
+  codecov:
+    name: Code coverage
+    runs-on: ubuntu-latest
+    container:
+      image: xd009642/tarpaulin:develop-nightly
+      options: --security-opt seccomp=unconfined
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Fetch path to Zcash parameters
+        working-directory: ./zcash_proofs
+        shell: bash
+        run: echo "ZCASH_PARAMS=$(cargo run --release --example get-params-path --features directories)" >> $GITHUB_ENV
+      - name: Cache Zcash parameters
+        id: cache-params
+        uses: actions/cache@v3.2.4
+        with:
+          path: ${{ env.ZCASH_PARAMS }}
+          key: ${{ runner.os }}-params
+      - name: Fetch Zcash parameters
+        if: steps.cache-params.outputs.cache-hit != 'true'
+        working-directory: ./zcash_proofs
+        run: cargo run --release --example download-params --features download-params
+
+      - name: Generate coverage report
+        run: cargo tarpaulin --engine llvm --all-features --release --timeout 600 --out Xml
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3.1.1
+
+  doc-links:
+    name: Intra-doc links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: cargo fetch
+      # Requires #![deny(rustdoc::broken_intra_doc_links)] in crates.
+      - name: Check intra-doc links
+        run: cargo doc --all --document-private-items
+
+  fmt:
+    name: Rustfmt
+    timeout-minutes: 30
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check formatting
+        run: cargo fmt --all -- --check

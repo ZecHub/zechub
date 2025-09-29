@@ -11,9 +11,7 @@
 ![logo](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Operating System: Windows | Linux
-- Wallet Support: Viewing Key
-- Features: Graphical Interface | WarpSync | Shielded Memo | Address Book | Cold Storage | Voting | Pool Transfer | Payment Request | TEX Address | Diversified Address
+- Features: Windows | Linux | WarpSync | Shielded Memo | Address Book | Cold Storage | Voting | Viewing Key | Pool Transfer | Payment Request | TEX Address | Diversified Address
 
 ---
 
@@ -40,9 +38,7 @@
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Operating System: Windows | Linux
-- Wallet Support: Viewing Key
-- Features: Graphical Interface | PepperSync | Shielded Memo | Financial Insights | Unified Address | Address Book | Payment Request
+- Features: Windows | Linux | Viewing Key | PepperSync | Shielded Memo | Financial Insights | Unified Address | Address Book | Payment Request
 
 ---
 
@@ -76,18 +72,23 @@
 ![logo](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Operating System: Windows 
-- Features: Graphical Interface | Shielded Memo | Address Check | Unified Address | Automatic Shielding | Address Book | Payment Request | Diversified Address | TEX Address
-
+- Features: Windows | Shielded Memo | Address Check | Unified Address | Automatic Shielding | Address Book | Payment Request | Diversified Address | TEX Address
 
 ---
 
-## [Zenith](https://git.vergara.tech/Vergara_Tech/zenith)
+## [Zkool](https://github.com/hhanh00/zkool2/)
+![logo](https://i.ibb.co/SpQT62M/zkool.png "Zkool")
+- Devices: Mobile | Desktop
+- Pools: Transparent | Sapling | Orchard
+- Features: Windows | Linux | Viewing Key | MultiSignature (FROST) | Multi-Account Sync | Broad Key Support | FROST Multisig | Encrypted Exports | Address Rotation | Shielded Memo
+
+---
+
+## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
 ![logo](https://i.ibb.co/VtPBnm6/zenith-2.png "Zenith")
 - Devices: Full Node | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Operating System: Linux
-- Features: Graphical Interface | Unified Address | Shielded Memo | Address Book
+- Features: Linux | Graphical Interface | Unified Address | Shielded Memo | Address Book
 
 ---
 
@@ -95,8 +96,7 @@
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo-CLI")
 - Devices: Full Node | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Operating System: Linux
-- Features: Command Line Interface | Unified Address | PepperSync | Shielded Memo
+- Features: Linux | Command Line Interface | Unified Address | PepperSync | Shielded Memo
 
 ---
 
@@ -104,9 +104,7 @@
 ![logo](https://i.ibb.co/Xz2NskW/zcashd.png "Zcashd")
 - Devices: Full Node | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Operating System: Linux
-- Wallet Support: Viewing Key
-- Features: Command Line Interface | Unified Address | Shielded Memo | Diversified Address
+- Features:  Linux | Command Line Interface | Unified Address | Shielded Memo | Diversified Address
 
 ---
 
@@ -114,7 +112,7 @@
 ![logo](https://i.ibb.co/6yqMNwZ/image-2024-01-13-170934865.png "Brave")
 - Devices: Web
 - Pools: Transparent | Orchard
-- Features: Spend before Sync | Unified Address | Secure File Transfer
+- Features: Spend before Sync | Unified Address | Shielded Memo
 
 ---
 
@@ -195,9 +193,3 @@
 - Devices: Web | Mobile | Desktop
 - Pools: Transparent
 - Features: Multi Coin | Web App
-
----
-
-
-
-

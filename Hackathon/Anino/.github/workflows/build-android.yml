@@ -1,0 +1,54 @@
+name: Build and Release Android/FDroid
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "v*"
+
+env:
+  JKS_PASSWORD: ${{ secrets.JKS_PASSWD }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: env
+        run: cat build.env >> $GITHUB_ENV
+
+      - name: Clean
+        id: clean
+        run: ./build-scripts/clean-runner.sh
+
+      - name: Build
+        id: build
+        run: ./build-scripts/build-android.sh
+
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/v')
+        with:
+          files: |
+            ${{ steps.build.outputs.BUILD_DIR }}/app-fdroid.aab
+            ${{ steps.build.outputs.BUILD_DIR }}/app-fdroid.apk
+
+      - name: publish
+        uses: r0adkll/upload-google-play@v1
+        if: startsWith(github.ref, 'refs/tags/v')
+        continue-on-error: true
+        with:
+          serviceAccountJsonPlainText: ${{ secrets.SERVICE_ACCOUNT_JSON }}
+          packageName: me.hanh.ywallet
+          releaseFiles: ${{ steps.build.outputs.BUILD_DIR }}/app-fdroid.aab
+          track: internal
+          status: completed
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: APK
+          path: ${{ steps.build.outputs.BUILD_DIR }}/app-fdroid.apk
+          retention-days: 3

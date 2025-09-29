@@ -1,0 +1,12 @@
+{
+  "name": "test-scripts",
+  "version": "1.0.0",
+  "main": "test.js",
+  "license": "MIT",
+  "devDependencies": {
+    "chakram": "^1.5.0"
+  },
+  "dependencies": {
+    "mocha": "^10.0.0"
+  }
+}

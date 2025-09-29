@@ -192,7 +192,7 @@ Before installing, make sure you have:
 ## Preparing Your Server (hidden part)
 
 <details>
-  <summary>Click to expand</summary><br>
+  <summary>Click to expand</summary>
 
 To deploy BTCPay Server with Zcash support, you will need the following:
 
@@ -452,7 +452,7 @@ nano .env
 
 Add the following line, replacing the URL with your chosen endpoint:
 
-```dotenv
+```bash
 ZCASH_LIGHTWALLETD=https://lightwalletd.example:443
 ```
 
@@ -838,7 +838,7 @@ To receive real-time notifications when invoice statuses change (e.g. when a pay
 2. Add the URL of your backend endpoint that will handle `POST` requests from BTCPay Server
 3. BTCPay will automatically send notifications when an invoice is paid or expires
 
-Webhook payloads and retry logic are described in the [official webhook documentation](https://docs.btcpayserver.org/Development/Webhooks/).
+Webhook payloads and retry logic are described in the [official webhook documentation](https://docs.btcpayserver.org/FAQ/General/#how-to-create-a-webhook-).
 
 > 🧩 Example integrations are available for various programming languages in the BTCPay docs and GitHub repositories.
 
