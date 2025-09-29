@@ -1,0 +1,122 @@
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+enum UserRole {
+  CLIENT
+  ADMIN
+}
+
+enum Status {
+  TO_DO
+  IN_PROGRESS
+  IN_REVIEW
+  DONE
+  CANCELLED
+}
+
+model User {
+  id         String   @id @default(cuid())
+  name       String
+  email      String   @unique
+  password   String?  // allow password login for testing (nullable in prod)
+  role       UserRole @default(CLIENT)
+  createdAt  DateTime @default(now())
+  z_address  String?
+  avatar     String?
+  githubId   String?
+  isTest     Boolean  @default(false)   // 🔑 mark test users
+
+  createdBounties      Bounty[] @relation("CreatedBounties")
+  assignedBounties     Bounty[] @relation("AssignedBounties")
+  bountyApplications   BountyApplication[] @relation("ApplicantUser")
+  reviewedApplications BountyApplication[] @relation("UserReviews")
+  
+  // Work submissions
+  submittedWork  WorkSubmission[] @relation("SubmittedWork")
+  reviewedWork   WorkSubmission[] @relation("ReviewedWork")
+}
+
+model Bounty {
+  id              String   @id @default(cuid())
+  title           String
+  description     String                      // renamed from details
+  bountyAmount    Float                       // renamed from bountyAmountZec
+  dateCreated     DateTime @default(now())    // created at
+  timeToComplete  DateTime                    // renamed from deadline
+  status          String   @default("To Do")  // ["To Do","In Progress","In Review","Done","Cancelled"]
+  isApproved      Boolean  @default(false)
+  isPaid          Boolean  @default(false)
+  paymentAuthorized Boolean @default(false)
+  
+  // New payment scheduling fields
+  paymentScheduled String?  // JSON string containing payment schedule info
+  paymentBatchId   String?  // ID of the batch this payment was processed in
+  paidAt          DateTime? // When the payment was actually processed
+
+  // Relations
+  createdBy        String
+  createdByUser    User     @relation("CreatedBounties", fields: [createdBy], references: [id])
+
+  assignee         String?
+  assigneeUser     User?    @relation("AssignedBounties", fields: [assignee], references: [id])
+
+  // relation to applications
+  applications     BountyApplication[]
+  
+  // Work submissions
+  workSubmissions WorkSubmission[]
+}
+
+model BountyApplication {
+  id          String   @id @default(cuid())
+  bountyId    String
+  applicantId String
+  message     String
+  status      String   @default("pending") // pending, accepted, rejected
+  appliedAt   DateTime @default(now())
+  reviewedAt  DateTime?
+  reviewedBy  String?
+
+  // relations
+  bounty       Bounty @relation(fields: [bountyId], references: [id], onDelete: Cascade)
+  applicantUser User   @relation("ApplicantUser", fields: [applicantId], references: [id])
+  reviewerUser User?  @relation("UserReviews", fields: [reviewedBy], references: [id])
+
+  // Compound unique constraint to prevent duplicate applications
+  @@unique([bountyId, applicantId])
+  @@map("bounty_applications")
+}
+
+model Transaction {
+  id        Int      @id @default(autoincrement())
+  txHash    String
+  amount    Float    // Amount in ZEC
+  createdAt DateTime @default(now())
+  status    String   @default("completed")
+}
+
+model WorkSubmission {
+  id            String   @id @default(cuid())
+  bountyId      String
+  submittedBy   String
+  description   String
+  deliverableUrl String? // The main deliverable link (GitHub, Google Drive, etc.)
+  submittedAt   DateTime @default(now())
+  reviewedAt    DateTime?
+  reviewedBy    String?
+  reviewNotes   String?
+  status        String   @default("pending") // pending, approved, rejected, needs_revision
+  
+  // Relations
+  bounty        Bounty   @relation(fields: [bountyId], references: [id], onDelete: Cascade)
+  submitterUser User     @relation("SubmittedWork", fields: [submittedBy], references: [id])
+  reviewerUser  User?    @relation("ReviewedWork", fields: [reviewedBy], references: [id])
+  
+  @@map("work_submissions")
+}
