@@ -1,4 +1,3 @@
-
 Zchat MessagingApp: ZecHub 2024 Hackathon
 
 Introduction
