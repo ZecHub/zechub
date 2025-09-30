@@ -1,0 +1,89 @@
+/* General Styles for Zcash Palette */
+
+/* Background and general styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #F4E3BC; /* Light beige background for readability */
+  color: #4E4637; /* Dark brown for general text */
+  height: 100%; /* Ensure the body takes full height */
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #C89D29; /* Golden yellow for headings */
+}
+
+/* Buttons */
+button {
+  background-color: #C89D29; /* Golden yellow for buttons */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #A87E22; /* Darker yellow on hover */
+}
+
+/* Footer */
+footer {
+  background-color: #806A3D; /* Dark brown for footer */
+  color: #FFF8DB; /* Light beige for footer text */
+  padding: 10px 0;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+/* General Text */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+/* Links */
+a {
+  color: #C89D29; /* Golden yellow for links */
+}
+
+a:hover {
+  color: #A87E22; /* Darker yellow on hover */
+}
+
+/* Container for centering content */
+.container {
+  max-width: 1271px;
+  margin: 0 auto;
+  /* padding: 20px; */
+}
+
+/* Fullscreen container for Phaser game */
+#phaser-game {
+  display: flex;
+  justify-content: center;  /* Centers horizontally */
+  align-items: center;      /* Centers vertically */
+  height: calc(100vh - 60px);  /* Full height minus the navbar */
+  background-color: #f9f3e3;  /* Adjust background color as needed */
+}
+
+/* Ensure the canvas stays within its container */
+canvas {
+  display: block;
+  max-width: 100%;    /* Ensures canvas scales with container width */
+  max-height: 100%;   /* Ensures canvas scales with container height */
+  object-fit: contain; /* Makes sure the canvas content scales proportionally */
+}
+
