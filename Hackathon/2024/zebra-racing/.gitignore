@@ -1,0 +1,9 @@
+# Ignore node_modules directories
+/frontend/node_modules/
+/server/node_modules/
+
+# Ignore zingolib-wrapper directory
+/server/zingolib-wrapper/
+
+# Ignore everything inside the database directory
+/server/database/*
