@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zcash Donation Platform</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        .header { text-align: center; margin-bottom: 40px; }
+        .auth-section { text-align: center; margin: 40px 0; }
+        .btn { padding: 10px 20px; background: #5865F2; color: white; text-decoration: none; border-radius: 5px; }
+        .campaigns { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .campaign { border: 1px solid #ddd; padding: 20px; border-radius: 10px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎉 Zcash Donation Platform</h1>
+        <p>Create and manage donation campaigns with Zcash privacy</p>
+    </div>
+
+    <div class="auth-section" id="authSection">
+        <h2>Get Started with Discord</h2>
+        <p>Login with Discord to create and manage your donation campaigns</p>
+        <a href="/api/auth/discord" class="btn">Login with Discord</a>
+    </div>
+
+    <div id="userInfo" style="display: none;">
+        <h2>Welcome, <span id="username"></span>!</h2>
+        <a href="/dashboard" class="btn">Go to Dashboard</a>
+        <a href="/api/auth/logout" class="btn">Logout</a>
+    </div>
+
+    <h2>Featured Campaigns</h2>
+    <div id="campaignsList" class="campaigns">
+        <!-- Campaigns will be loaded here -->
+    </div>
+
+    <script>
+        // Check if user is logged in
+        fetch('/api/auth/user')
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    document.getElementById('authSection').style.display = 'none';
+                    document.getElementById('userInfo').style.display = 'block';
+                    document.getElementById('username').textContent = data.user.username;
+                }
+            });
+
+        // Load public campaigns
+        fetch('/api/campaigns')
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    const container = document.getElementById('campaignsList');
+                    data.campaigns.forEach(campaign => {
+                        container.innerHTML += `
+                            <div class="campaign">
+                                <h3>${campaign.title}</h3>
+                                <p>${campaign.description}</p>
+                                <p><strong>Raised:</strong> ${campaign.current_amount} / ${campaign.target_amount} ZEC</p>
+                                <p><strong>By:</strong> ${campaign.username}</p>
+                                <a href="/donate/${campaign.campaign_id}" class="btn">Donate</a>
+                            </div>
+                        `;
+                    });
+                }
+            });
+    </script>
+</body>
+</html>
