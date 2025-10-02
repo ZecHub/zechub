@@ -1,0 +1,18 @@
+[package]
+name = "gtn-common"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+description.workspace = true
+
+[dependencies]
+bincode = "2.0.1"
+chrono = { workspace = true, features = ["serde"] }
+libp2p.workspace = true
+orchard = "0.11.0"
+rust_decimal = "1.37.2"
+serde.workspace = true
+tokio.workspace = true
+zcash_keys = "0.10.1"

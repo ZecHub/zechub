@@ -1,0 +1,35 @@
+[package]
+name = "gtn-relay"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+description.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+axum = { version = "0.8.4", features = ["ws", "macros"] }
+dotenvy = "0.15.7"
+serde.workspace = true
+thiserror.workspace = true
+tokio = { workspace = true, features = ["full"] }
+trace = "0.1.7"
+tracing = "0.1.41"
+gtn-dht = { path = "../gtn-dht" }
+tracing-subscriber = { version = "0.3.20", features = ["env-filter", "json"] }
+tracing-appender = "0.2.3"
+libp2p.workspace = true
+gtn-common = { path = "../gtn-common" }
+gtn-payment = { path = "../gtn-payment" }
+bincode = { version = "2.0.1", features = ["serde"] }
+uuid = { workspace = true, features = ["v4"] }
+serde_json.workspace = true
+tonic = "0.14.2"
+clap = { version = "4.5.47", features = ["derive"] }
+zcash_address = "0.9.0"
+http = "1.3.1"
+tower-http = { version = "0.6.6", features = ["cors"] }
+futures-util = { version = "0.3.31", features = ["sink", "tokio-io", "futures-sink"] }
+rust_decimal = "1.38.0"
+chrono.workspace = true
