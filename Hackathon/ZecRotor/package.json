@@ -1,0 +1,38 @@
+{
+  "name": "my-shade-agent-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "docker:build": "sudo docker build --platform linux/amd64 -t pivortex/my-app:latest .",
+    "docker:build:no-cache": "sudo docker build --no-cache --platform linux/amd64 -t pivortex/my-app:latest .",
+    "docker:push": "sudo docker push pivortex/my-app",
+    "docker:prune": "sudo docker system prune",
+    "phala:deploy": "phala cvms create --name my-app --vcpu 1 --compose ./docker-compose.yaml --env-file ./.env.development.local"
+  },
+  "dependencies": {
+    "@defuse-protocol/one-click-sdk-typescript": "^0.1.1-0.2",
+    "@hono/node-server": "^1.15.0",
+    "@near-js/accounts": "^2.3.3",
+    "@near-js/providers": "^2.3.3",
+    "@near-js/signers": "^2.3.3",
+    "@neardefi/shade-agent-js": "^1.0.0",
+    "chainsig.js": "^1.1.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "ethers": "^6.11.1",
+    "framer-motion": "^12.23.22",
+    "hono": "^4.8.4",
+    "@near-js/crypto": "^2.2.4",
+    "@near-js/tokens": "^2.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "packageManager": "pnpm@10.11.1+sha512.e519b9f7639869dc8d5c3c5dfef73b3f091094b0a006d7317353c72b124e80e1afd429732e28705ad6bfa1ee879c1fce46c128ccebd3192101f43dd67c667912"
+}

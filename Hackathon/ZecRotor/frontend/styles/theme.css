@@ -1,0 +1,37 @@
+/**
+ * Global theme variables for Zcash × NEAR palette
+ */
+:root {
+  --color-foreground: #f5f5f7;         /* main text (light neutral) */
+  --color-muted-foreground: #a1a1aa;   /* secondary text (gray-400) */
+  --color-border: #2a2b33;             /* card borders */
+  --color-muted: #1a1b23;              /* card surface */
+  --color-snow: #ffffff;               /* pure white if needed */
+  --color-zcash-gold: #f4b728;         /* accent gold */
+  --color-accent-mint: #59f0c0;        /* accent mint */
+}
+
+@layer utilities {
+  .card-surface {
+    background: rgba(26, 27, 35, 0.6);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--color-border);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3),
+      0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  }
+
+  .transition-smooth {
+    transition: all 120ms ease-in-out;
+  }
+
+  .transition-lift {
+    transition: transform 150ms ease-in-out,
+      box-shadow 150ms ease-in-out;
+  }
+
+  .hover-lift:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 12px -2px rgba(0, 0, 0, 0.4),
+      0 4px 6px -1px rgba(0, 0, 0, 0.3);
+  }
+}
