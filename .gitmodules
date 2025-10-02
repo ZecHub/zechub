@@ -1,0 +1,3 @@
+[submodule "Hackathon/zecdonations-teslasdev"]
+	path = Hackathon/zecdonations-teslasdev
+	url = https://github.com/teslasdev/zecdonations.git
