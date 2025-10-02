@@ -1,0 +1,24 @@
+[network]
+zingo_server = "http://localhost:9067"
+polling_interval_secs = 1
+
+[storage]
+data_dir = "./coordinator_data"
+database_file = "filesystem.db"
+cache_ttl_secs = 10
+
+[fees]
+enabled = false
+per_command_zatoshi = 1000
+chat_message_zatoshi = 500
+file_upload_zatoshi = 5000
+
+[api]
+enable_json_rpc = true
+bind_address = "127.0.0.1"
+bind_port = 8080
+
+[logging]
+level = "info"
+log_file = "coordinator.log"
+enable_console = true
