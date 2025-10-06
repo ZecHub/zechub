@@ -3,9 +3,9 @@
 
 ## Setup
 
-Zebrad node running and fully synced with RPC's on and configured to use cookies
-Zainod fully synced
-Zallet setup to run RPC's
+ * Zebrad node running and fully synced with RPC's on and configured to use cookies
+ * Zainod fully synced
+ * Zallet setup to run RPC's
 
 
 ### Start Zallet
