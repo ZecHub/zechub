@@ -75,7 +75,7 @@ bind = ["127.0.0.1:8237"]
 modify the correct zebrad RPC (8232) port and include username and pw from zebrad cookie
 
 
-__cookie__:yourpasswordhere
+`__cookie__:yourpasswordhere`
 
 
 ### Test RPC
