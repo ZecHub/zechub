@@ -70,7 +70,7 @@ bind = ["127.0.0.1:8237"]
 
 ### toCurl.sh
 
-chmod +x toCurl.sh
+`chmod +x toCurl.sh`
 
 modify the correct zebrad RPC (8232) port and include username and pw from zebrad cookie
 
@@ -80,7 +80,7 @@ __cookie__:yourpasswordhere
 
 ### Test RPC
 
-./target/release/zallet -c /home/zktails/.zallet/zallet.toml rpc help
+`./target/release/zallet -c /home/zktails/.zallet/zallet.toml rpc help`
 
 Should output
 
@@ -111,7 +111,7 @@ Note: make sure you have a copy of the zallet executable in the folder where you
 
 ### Run scripts
 
-chmod +x ascii2hex hex2ascii shieldNewsletter.sh txBuilderFromFile.sh toCurl.sh 
+`chmod +x ascii2hex hex2ascii shieldNewsletter.sh txBuilderFromFile.sh toCurl.sh`
 
 Update daoAddress.md with the UA's you want to use
 
@@ -119,7 +119,7 @@ Open txBuilderFromFile.sh and update the "from" variable to the funded UA that i
 
 Then,
 
-./shieldNewsletter.sh yourNewsletterHere.md
+`./shieldNewsletter.sh yourNewsletterHere.md`
 
 
 
