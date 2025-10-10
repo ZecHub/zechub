@@ -1,0 +1,10 @@
+{
+  "substitution": {
+    "title": "Why this works",
+    "text": "Simple substitution ciphers are vulnerable to frequency analysis. Modern privacy systems (like ZK proofs) rely on strong cryptography, not letter tricks."
+  },
+  "xor": {
+    "title": "Why XOR matters",
+    "text": "XOR is a primitive used in many constructions. By itself it’s simple, but combined with modern cryptography it becomes a powerful building block."
+  }
+}
