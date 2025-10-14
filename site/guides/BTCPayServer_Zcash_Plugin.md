@@ -40,9 +40,9 @@ When placing an order, the customer typically provides personal information: nam
 Anyone, even without knowing what was ordered, can:
 
 
- - see when and how much was paid  
- - trace where the funds came from and where they went  
- - link a cryptocurrency address to a real person if there’s any point of correlation (for example, a leaked email or shipping name)
+ * see when and how much was paid  
+ * trace where the funds came from and where they went  
+ * link a cryptocurrency address to a real person if there’s any point of correlation (for example, a leaked email or shipping name)
 
 
 This means that a single purchase may reveal a customer’s entire financial history.
@@ -58,7 +58,7 @@ This can be a personal wallet or a multisig setup within an organization.
 
 The server handles coordination tasks:
 
-- generates a unique address for each order  
+ generates a unique address for each order  
 - tracks when payment is received and links it to the order  
 - issues receipts and notifications  
 - provides a payment interface for the customer  
