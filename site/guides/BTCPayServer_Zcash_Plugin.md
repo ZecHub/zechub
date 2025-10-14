@@ -39,9 +39,11 @@ When placing an order, the customer typically provides personal information: nam
 
 Anyone, even without knowing what was ordered, can:
 
-- see when and how much was paid  
-- trace where the funds came from and where they went  
-- link a cryptocurrency address to a real person if there’s any point of correlation (for example, a leaked email or shipping name)
+
+> - see when and how much was paid  
+> - trace where the funds came from and where they went  
+> - link a cryptocurrency address to a real person if there’s any point of correlation (for example, a leaked email or shipping name)
+
 
 This means that a single purchase may reveal a customer’s entire financial history.
 
