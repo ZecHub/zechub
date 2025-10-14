@@ -101,7 +101,7 @@ BTCPay Server acts as a payment processing bridge between your e-commerce platfo
 2. **The store requests a payment invoice** from BTCPay Server. The server generates a unique invoice with:
    - The order amount
    - A countdown timer
-   - A Zcash address (e.g. a shielded `zs...` address)
+   - A Zcash Unified Address (UA) — e.g., `u1...` — which includes an Orchard (shielded) receiver by default.
 
 3. **The customer sees the payment page** and sends ZEC to the provided address.
 
@@ -175,6 +175,11 @@ The best option depends on your server location and how much independence you wa
 
 > 🧭 Official plugin documentation:  
 > [https://github.com/btcpay-zcash/btcpayserver-zcash-plugin](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
+>
+> **Warning — one wallet per instance:**  
+> The Zcash plugin uses **one shared wallet** across **all stores** in the BTCPay instance.  
+> If you host multiple independent stores on one instance, they will share the same Zcash wallet.  
+> Use separate instances if you need strict wallet isolation.
 
 ---
 
@@ -636,6 +641,9 @@ https://btcpay.example.com
 
 ## Configuring the Zcash Plugin in the BTCPay Server Web Interface
 
+> **Important for multi-store setups:**  
+> The Zcash wallet configured here is **global** to the instance. All stores will use this wallet unless you run separate BTCPay instances.
+
 After successfully deploying your BTCPay Server instance, you’ll need to perform some basic configuration via the admin web interface.  
 The official documentation provides full instructions in English — here, we'll walk through the essential steps and focus specifically on configuring the Zcash plugin.
 
@@ -687,13 +695,16 @@ Zcash → Settings
 
 ```
 
-2. Paste your **viewing key** — this allows BTCPay to detect incoming shielded payments.
+2. Paste your **Unified Full Viewing Key (UFVK)** — BTCPay will derive a Unified Address for each invoice and detect incoming shielded payments.
+
+> **Note:** Legacy Sapling viewing keys are supported, but to use Orchard/Unified Addresses you should provide a **UFVK**.
+
 
    Example format:
 
 ```
 
-zxviewtestsapling1q0hl2...
+uview184syv9wftwngkay8d...
 
 ```
 
@@ -712,7 +723,26 @@ These keys support **automatic address rotation**, meaning:
 - Every customer gets a **unique** payment address
 - You see a **single, unified** balance
 
-You can find a full wallet compatibility list on [ZecHub → Wallets](https://zechub.wiki/wallets)
+
+---
+
+**3. Block height**
+
+* **First-time setup with a new wallet (new seed phrase):** enter the current Zcash block height (you can check it at 3xpl.com/zcash) — this speeds up initial scanning.
+* **Migrating on the same server from a legacy Sapling-only setup to Unified Addresses / Orchard:** leave this field empty.
+* **Moving your store to a new server with the same wallet/UFVK:** optionally enter the birth height — an approximate height of your store’s first paid order (match the order date on 3xpl to narrow the scan). If unsure, leave it empty.
+
+> 💡 Not all wallets support **Unified Full Viewing Key (UFVK)** export yet.
+> Recommended options:
+> – [**YWallet**](https://ywallet.app/installation)
+> – [**Zingo! Wallet (version for PC)**](https://zingolabs.org/)
+> In both apps, look for UFVK export in the backup/export section.
+
+These keys support **automatic address rotation**, meaning:
+- Every customer gets a **unique** payment address
+- You see a **single, unified** balance
+
+You can find a broader compatibility list on [ZecHub → Wallets](https://zechub.wiki/wallets).
 
 Once all fields are filled out, click **Save**.
 
