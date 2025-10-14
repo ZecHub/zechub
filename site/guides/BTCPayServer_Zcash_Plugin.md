@@ -708,34 +708,16 @@ uview184syv9wftwngkay8d...
 
 ```
 
-3. Enter the **current Zcash block height** — syncing will begin from this block to speed up initialization and skip unnecessary transaction history.
-
-> 💡 Not all Zcash wallets currently support viewing key export.  
-> Recommended options:
->
-> - [**YWallet**](https://ywallet.app/installation)
-> - [**Zingo! Wallet**](https://zingolabs.org/)
->
-> In both apps, you’ll find viewing keys in the backup section.  
-> In **Zingo!**, make sure to use the **Sapling viewing key** — this is the type supported by BTCPay Server.
-
-These keys support **automatic address rotation**, meaning:
-- Every customer gets a **unique** payment address
-- You see a **single, unified** balance
-
-
----
-
-**3. Block height**
+3. Enter a value in the Block height field
 
 * **First-time setup with a new wallet (new seed phrase):** enter the current Zcash block height (you can check it at 3xpl.com/zcash) — this speeds up initial scanning.
 * **Migrating on the same server from a legacy Sapling-only setup to Unified Addresses / Orchard:** leave this field empty.
 * **Moving your store to a new server with the same wallet/UFVK:** optionally enter the birth height — an approximate height of your store’s first paid order (match the order date on 3xpl to narrow the scan). If unsure, leave it empty.
 
-> 💡 Not all wallets support **Unified Full Viewing Key (UFVK)** export yet.
-> Recommended options:
-> – [**YWallet**](https://ywallet.app/installation)
-> – [**Zingo! Wallet (version for PC)**](https://zingolabs.org/)
+> 💡 Not all wallets support **Unified Full Viewing Key (UFVK)** export yet.  
+> Recommended options:  
+> – [**YWallet**](https://ywallet.app/installation)  
+> – [**Zingo! Wallet (version for PC)**](https://zingolabs.org/)  
 > In both apps, look for UFVK export in the backup/export section.
 
 These keys support **automatic address rotation**, meaning:
