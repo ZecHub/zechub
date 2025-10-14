@@ -200,7 +200,7 @@ In these cases, we check that $\textsf{nk}_{0..=253} < t_\mathbb{P}$:
 
     b) $0 \leq b_2 + 2^5 \cdot c + 2^{140} - t_\mathbb{P} < 2^{140}$. To check this, we
        decompose ${b_2}c' = b_2 + 2^5 \cdot c + 2^{140} - t_\mathbb{P}$ into fourteen
-       10-bit words (little-endian) using a running sum $z_{{b_2}c'}$, looking up each
+     
        word in a $10$-bit lookup table. We then enforce in the custom gate that
        $$d_1 \cdot z_{{b_2}c',14} = 0.$$
 
