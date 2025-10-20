@@ -1,0 +1,29 @@
+# Build output
+dist/
+build/
+
+#Node.js dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-deug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment
+.env 
+.env.local
+
+#Databases
+zec-wallet.db 
+database.sqlite
+
+#IDE / Editor settings
+.vscode/
+.idea/
+
+#OS
+
+.DS_Store
+Thumbs.db 

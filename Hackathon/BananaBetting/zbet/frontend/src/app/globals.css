@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&family=Comic+Neue:wght@300;400;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: #fffdf0;
+  --foreground: #171717;
+  
+  /* Savannah Bananas Color Palette */
+  --banana-50: #fffdf0;
+  --banana-100: #fffadd;
+  --banana-200: #fff3ba;
+  --banana-300: #ffe788;
+  --banana-400: #ffd545;
+  --banana-500: #ffbf00;
+  --banana-600: #e6a800;
+  --banana-700: #cc9500;
+  --banana-800: #b38200;
+  --banana-900: #996f00;
+  
+  --baseball-50: #f9f9f9;
+  --baseball-100: #f0f0f0;
+  --baseball-200: #d9d9d9;
+  --baseball-300: #bfbfbf;
+  --baseball-400: #8c8c8c;
+  --baseball-500: #595959;
+  --baseball-600: #404040;
+  --baseball-700: #262626;
+  --baseball-800: #1a1a1a;
+  --baseball-900: #0d0d0d;
+  
+  --grass-50: #f0fff4;
+  --grass-100: #dcfce7;
+  --grass-200: #bbf7d0;
+  --grass-300: #86efac;
+  --grass-400: #4ade80;
+  --grass-500: #22c55e;
+  --grass-600: #16a34a;
+  --grass-700: #15803d;
+  --grass-800: #166534;
+  --grass-900: #14532d;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  
+  /* Banana color scale */
+  --color-banana-50: var(--banana-50);
+  --color-banana-100: var(--banana-100);
+  --color-banana-200: var(--banana-200);
+  --color-banana-300: var(--banana-300);
+  --color-banana-400: var(--banana-400);
+  --color-banana-500: var(--banana-500);
+  --color-banana-600: var(--banana-600);
+  --color-banana-700: var(--banana-700);
+  --color-banana-800: var(--banana-800);
+  --color-banana-900: var(--banana-900);
+  
+  /* Baseball color scale */
+  --color-baseball-50: var(--baseball-50);
+  --color-baseball-100: var(--baseball-100);
+  --color-baseball-200: var(--baseball-200);
+  --color-baseball-300: var(--baseball-300);
+  --color-baseball-400: var(--baseball-400);
+  --color-baseball-500: var(--baseball-500);
+  --color-baseball-600: var(--baseball-600);
+  --color-baseball-700: var(--baseball-700);
+  --color-baseball-800: var(--baseball-800);
+  --color-baseball-900: var(--baseball-900);
+  
+  /* Grass color scale */
+  --color-grass-50: var(--grass-50);
+  --color-grass-100: var(--grass-100);
+  --color-grass-200: var(--grass-200);
+  --color-grass-300: var(--grass-300);
+  --color-grass-400: var(--grass-400);
+  --color-grass-500: var(--grass-500);
+  --color-grass-600: var(--grass-600);
+  --color-grass-700: var(--grass-700);
+  --color-grass-800: var(--grass-800);
+  --color-grass-900: var(--grass-900);
+  
+  /* Font families */
+  --font-fun: 'Nunito', sans-serif;
+  --font-baseball: 'Comic Neue', cursive;
+  --font-sans: 'Nunito', sans-serif;
+  
+  /* Custom animations */
+  --animate-wiggle: wiggle 1s ease-in-out infinite;
+  --animate-bounce-fun: bounce 2s infinite;
+  --animate-banana-spin: spin 3s linear infinite;
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-3deg); }
+  50% { transform: rotate(3deg); }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0d1421;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+}
+
+/* Universal input styling for better text visibility */
+input[type="text"],
+input[type="email"], 
+input[type="password"],
+input[type="number"],
+input[type="search"],
+textarea,
+select {
+  color: var(--baseball-800) !important;
+  font-weight: 500 !important;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder, 
+input[type="number"]::placeholder,
+input[type="search"]::placeholder,
+textarea::placeholder {
+  color: var(--baseball-500) !important;
+  font-weight: 400 !important;
+}
+
+/* Fun banana-themed utilities */
+.banana-gradient {
+  background: linear-gradient(135deg, var(--banana-300), var(--banana-500), var(--banana-700));
+}
+
+.baseball-texture {
+  background-image: 
+    radial-gradient(circle at 25% 25%, var(--baseball-100) 2px, transparent 2px),
+    radial-gradient(circle at 75% 75%, var(--baseball-200) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.wiggle {
+  animation: wiggle 1s ease-in-out infinite;
+}
+
+.banana-spin {
+  animation: spin 3s linear infinite;
+}

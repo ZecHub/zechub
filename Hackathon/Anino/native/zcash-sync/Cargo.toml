@@ -1,0 +1,167 @@
+[package]
+name = "zcash-warpsync"
+version = "1.2.15"
+authors = ["Hanh <hanh425@gmail.com>"]
+edition = "2021"
+
+[[bin]]
+name = "warp-rpc"
+path = "src/main/rpc.rs"
+required-features = ["rpc"]
+
+[[bin]]
+name = "wallet"
+path = "src/main/wallet.rs"
+required-features = ["dotenv"]
+
+#[[bin]]
+#name = "ledger"
+#path = "src/main/ledger.rs"
+
+#[[bin]]
+#name = "sign"
+#path = "src/main/sign.rs"
+
+[lib]
+name = "warp_api_ffi"
+crate-type = ["rlib", "cdylib"]
+
+[dependencies]
+nonempty = "0.7"
+env_logger = "0.9.0"
+anyhow = "1.0.40"
+thiserror = "1.0.25"
+log = "0.4.14"
+flexi_logger = {version="0.22.3", features = ["compress"]}
+parking_lot = "0.12"
+ambassador = "0.3.5"
+assert_matches = "1.5"
+async-trait = "0.1.68"
+serde = {version = "1.0.126", features = ["derive"]}
+serde_json = "1.0.64"
+serde_with = { version = "2", features = ["hex"] }
+serde-hex = "0.1.0"
+bincode = "1.3.3"
+flatbuffers = { git = "https://github.com/google/flatbuffers", tag = "v24.3.7" }
+# flatbuffers = "23"
+tokio = { version = "^1.6", features = ["macros", "rt-multi-thread", "time"] }
+tokio-util = "0.7.0"
+tokio-stream = "0.1.7"
+protobuf = "3.0.2"
+hex = "0.4.3"
+futures = "0.3.15"
+tonic = {version = "0.7.2", features = ["tls", "tls-roots"]}
+prost = "0.10.3"
+rayon = "1.5.1"
+tiny-bip39 = "0.8"
+rand = "0.8.4"
+rusqlite = { version = "0.29.0", features = ["bundled", "modern_sqlite", "backup"] }
+r2d2_sqlite = "0.22"
+r2d2 = "0.8"
+zip = "0.6"
+# Workaround for https://github.com/gyscos/zstd-rs/issues/177
+zstd-sys = "=2.0.1+zstd.1.5.2"
+age = "0.9"
+jubjub = "0.10.0"
+bls12_381 = "0.7"
+ff = "0.13"
+group = "0.13.0"
+byteorder = "^1.4"
+secp256k1 = "0.21.3"
+tiny-hderive = "0.3.0"
+ripemd = "0.1.1"
+sha2 = "0.10.2"
+lazy_static = "1.4.0"
+rustyline = "9.1.2"
+clap = { version = "4.3.0", features = [ "derive" ] }
+chrono = "0.4.19"
+lazycell = "1.3.0"
+reqwest = { version = "0.11.4", features = ["json", "rustls-tls"], default-features = false }
+ureq = { version = "2.6", optional = true }
+hex-literal = "0.4"
+pasta_curves = "0.5"
+f4jumble = "0.1.0"
+
+# Halo
+orchard = "0.3.0"
+halo2_proofs = "0.2"
+halo2_gadgets = "0.2"
+
+bech32 = "0.8.1"
+rand_chacha = "0.3.1"
+blake2b_simd = "1.0.0"
+chacha20poly1305 = "0.9.0"
+base64 = "^0.13"
+base58check = "0.1.0"
+raptorq = "1.7.0"
+sysinfo = "0.28"
+incrementalmerkletree = "0.5.1"
+
+ledger-transport-hid = { version = "0.10", optional = true }
+ledger-apdu = { version = "0.10", optional = true }
+
+allo-isolate = { version = "0.1", optional = true }
+once_cell = { version = "1.8.0", optional = true }
+android_logger = { version = "0.10.0", optional = true }
+rocket = { version = "0.5.0-rc.3", features = ["json"], optional = true }
+dotenv = { version = "0.15.0", optional = true }
+
+node-bindgen = { version = "4.0", optional = true }
+
+rustacuda = { version = "0.1.3", optional = true }
+rustacuda_core = { version = "0.1.2", optional = true }
+metal = { version = "0.24", optional = true }
+objc = { version = "0.2", features = [ "objc_exception" ], optional = true }
+block = { version = "0.1.6", optional = true }
+rust_decimal = "1.35.0"
+zcash_note_encryption = "0.2.0"
+
+[features]
+ledger = ["ledger-apdu", "ledger-transport-hid", "dotenv", "ureq" ]
+dart_ffi = ["allo-isolate", "once_cell", "android_logger"]
+rpc = ["rocket", "dotenv"]
+nodejs = ["node-bindgen"]
+cuda = ["rustacuda", "rustacuda_core"]
+apple_metal = ["metal", "objc", "block"]
+sqlcipher = ["rusqlite/bundled-sqlcipher-vendored-openssl"]
+
+[dependencies.zcash_params]
+git = "https://github.com/hhanh00/zcash-params.git"
+rev = "e122ef6"
+
+[dependencies.zcash_client_backend]
+git = "https://github.com/hhanh00/librustzcash.git"
+rev = "d5c3fbcc"
+#path = "../../librustzcash/zcash_client_backend"
+
+[dependencies.zcash_primitives]
+git = "https://github.com/hhanh00/librustzcash.git"
+rev = "d5c3fbcc"
+#path = "../../librustzcash/zcash_primitives"
+features = [ "transparent-inputs" ]
+
+[dependencies.zcash_proofs]
+git = "https://github.com/hhanh00/librustzcash.git"
+rev = "d5c3fbcc"
+#path = "../../librustzcash/zcash_proofs"
+
+[dependencies.zcash_address]
+git = "https://github.com/hhanh00/librustzcash.git"
+rev = "d5c3fbcc"
+#path = "../../librustzcash/components/zcash_address"
+
+[dependencies.zcash_encoding]
+git = "https://github.com/hhanh00/librustzcash.git"
+rev = "d5c3fbcc"
+#path = "../../librustzcash/components/zcash_encoding"
+
+#[build-dependencies]
+#tonic-build = "0.7.2"
+#cbindgen = "0.19.0"
+
+[dev-dependencies]
+criterion = "0.3.4"
+
+#These patch overrides must be included in your workspace root Cargo.toml
+#[patch.crates-io]
+#zcash_note_encryption = { git = "https://github.com/hhanh00/librustzcash.git", rev = "d5c3fbcc" }

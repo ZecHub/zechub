@@ -4,6 +4,10 @@
 
 This integration marks a significant evolution in Zcash usability by enabling cold storage of shielded ZEC. The Zcash community has faced setbacks with other hardware wallet platforms in the past, but Keystone emerged as a collaborative partner willing to push boundaries and innovate alongside the Electric Coin Company. The Keystone team received a ZCG grant to fuel their side of the work.
 
+## Keystone X Zashi Tutorial
+https://www.youtube.com/watch?v=ktYf7josJKM
+
+
 ## Preparation
 1. [Order & Receive Your Keystone 3 Pro or Keystone 3](https://keyst.one) 
 
@@ -62,3 +66,4 @@ This integration marks a significant evolution in Zcash usability by enabling co
 [Sign an Outgoing Transaction with Keystone (Video)](https://www.youtube.com/watch?v=t_OHb1KqrRg)
 
 ## Enjoy Cold Storage of Shielded ZEC w/ Zashi + Keystone
+

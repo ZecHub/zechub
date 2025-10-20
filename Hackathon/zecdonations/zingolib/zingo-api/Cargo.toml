@@ -1,0 +1,20 @@
+[package]
+name = "zingo-api"
+version = "0.1.0"
+edition = "2021"
+
+# Add this to specify it's a binary
+[[bin]]
+name = "zingo-api"
+path = "src/main.rs"
+
+[dependencies]
+# Remove workspace references and specify versions directly
+actix-web = "4.4"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+uuid = { version = "1.0", features = ["v4"] }
+tokio = { version = "1.0", features = ["macros", "rt-multi-thread"] }
+
+# If you need zingolib functionality, add it:
+# zingolib = { git = "https://github.com/zingolabs/zingolib" }

@@ -1,0 +1,10 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Crisp Z with notches: half-pixel alignment, integer stroke for sharp rendering -->
+  <path d="M6 4.5 H18" stroke="currentColor" stroke-width="3" stroke-linecap="butt"/>
+  <path d="M12 1.5 V4.5" stroke="currentColor" stroke-width="3" stroke-linecap="butt"/>
+  <path d="M6 19.5 H18" stroke="currentColor" stroke-width="3" stroke-linecap="butt"/>
+  <path d="M12 19.5 V22.5" stroke="currentColor" stroke-width="3" stroke-linecap="butt"/>
+  <path d="M18 4.5 L6 19.5" stroke="currentColor" stroke-width="3" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2"/>
+</svg>
+
+

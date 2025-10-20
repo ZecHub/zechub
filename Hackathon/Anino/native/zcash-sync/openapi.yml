@@ -1,0 +1,629 @@
+openapi: 3.0.0
+info:
+  title: Warp Sync API
+  version: 1.2.15
+  description: |-
+    This is the fast synchronization, multi account and multi currency 
+    wallet for Ycash and Zcash.
+  contact:
+    name: Hanh Huynh Huu
+    url: "https://ywallet.app"
+tags:
+  - name: config
+    description: |-
+      Set the current account. Account methods use the current account.
+      - Zcash: coin = 0
+      - Ycash: coin = 1
+  - name: sync
+    description: Blockchain Synchronization
+  - name: account
+    description: Account Management
+  - name: payment_uri
+    description: Payment URI
+
+paths:
+  /set_active:
+    post:
+      tags: [ config ]
+      operationId: set_active
+      description: set the current account for a given coin
+      parameters:
+        - name: coin
+          in: query
+          required: true
+          schema:
+            type: integer
+            format: uint8
+            minimum: 0
+        - name: id_account
+          in: query
+          required: true
+          schema:
+            type: integer
+            format: uint32
+            minimum: 1
+      responses:
+        '200':
+          description: ''
+  /new_account:
+    post:
+      tags: [ account ]
+      operationId: new_account
+      description: create a new account from a given seed/secret key/viewing key
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AccountSeed'
+        required: true
+      responses:
+        '200':
+          description: 'account id'
+          content:
+            text/plain:
+              schema:
+                type: string
+        '500':
+          description: 'error message'
+  /accounts:
+    get:
+      operationId: list_accounts
+      tags: [ account ]
+      description: get a list of all accounts
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/AccountRec'
+        '500':
+          description: 'error message'
+  /sync:
+    post:
+      operationId: sync
+      tags: [ sync ]
+      description: Synchronizes with the tip of the blockchain
+      parameters:
+        - name: offset
+          in: query
+          description: |-
+            Number of blocks to synchronize from the tip of the blockchain.
+            For example:
+            - If 0, sync catches up with the latest block
+            - If 1, sync synchronizes up to the latest block height - 1
+            
+            Creates a new checkpoint
+          schema:
+            type: integer
+            format: uint32
+            minimum: 0
+            nullable: true
+      responses:
+        '200':
+          description: ''
+        '500':
+          description: 'error message'
+  /rewind:
+    post:
+      operationId: rewind
+      tags: [ sync ]
+      description: Rewind the blockchain to a previous height
+      parameters:
+        - name: height
+          in: query
+          description: |-
+            Requested height to rewind to. Note that this will be rounded
+            to the nearest checkpoint before this height.
+          required: true
+          schema:
+            type: integer
+            format: uint32
+            minimum: 0
+      responses:
+        '200':
+          description: ''
+        '500':
+          description: 'error message'
+  /latest_height:
+    get:
+      operationId: get_latest_height
+      tags: [ sync ]
+      description: Latest block height and current synced height
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Heights'
+        '500':
+          description: 'error message'
+  /backup:
+    get:
+      operationId: get_backup
+      tags: [ account ]
+      description: |- 
+        Get the account information needed to make a backup. 
+        The `allow_backup` option must be set in the config file
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Backup'
+        '500':
+          description: 'error message'
+  /balance:
+    get:
+      operationId: get_balance
+      tags: [ account ]
+      description: Get the account balance in zats
+      responses:
+        '200':
+          description: 'zats'
+          content:
+            text/plain:
+              schema:
+                type: string
+        '500':
+          description: 'error message'
+  /address:
+    get:
+      operationId: get_address
+      tags: [ account ]
+      description: Get the account address (z-addr)
+      responses:
+        '200':
+          description: 'zaddr'
+          content:
+            text/plain:
+              schema:
+                type: string
+        '500':
+          description: 'error message'
+  /tx_history:
+    get:
+      operationId: get_tx_history
+      tags: [ account ]
+      description: Get the account history
+      responses:
+        '200':
+          description: 'transactions'
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/TxRec'
+        '500':
+          description: 'error message'
+  /pay:
+    post:
+      operationId: pay
+      tags: [ account ]
+      description: Make a payment. The `allow_send` flag must be set in the config file
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Payment'
+        required: true
+      responses:
+        '200':
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+        '500':
+          description: 'error message'
+  /mark_synced:
+    post:
+      operationId: mark_synced
+      tags: [ sync ]
+      description: |-
+        Create a checkpoint at the current latest height without actually
+        doing any synchronization work. Only use it if you have a new account
+        and you are sure there are no prior transactions.
+      responses:
+        '200':
+          description: ''
+        '500':
+          description: 'error message'
+  /create_offline_tx:
+    post:
+      operationId: create_offline_tx
+      tags: [ account ]
+      description: Create a transaction for offline signing
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Payment'
+        required: true
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Tx'
+        '500':
+          description: 'error message'
+  /sign_offline_tx:
+    post:
+      operationId: sign_offline_tx
+      tags: [ account ]
+      description: |-
+        Sign an offline transaction. Tx object must be created by calling
+        `create_offline_tx` and the secret key must be available in the current
+        account
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Tx'
+        required: true
+      responses:
+        '200':
+          description: 'signed raw transaction'
+          content:
+            text/plain:
+              schema:
+                type: string
+        '500':
+          description: 'error message'
+  /broadcast_tx:
+    post:
+      operationId: broadcast_tx
+      tags: [ account ]
+      parameters:
+        - name: tx_hex
+          in: query
+          required: true
+          description: 'signed raw transaction'
+          schema:
+            type: string
+      responses:
+        '200':
+          description: 'txid'
+          content:
+            text/plain:
+              schema:
+                type: string
+        '500':
+          description: 'error message'
+  /new_diversified_address:
+    get:
+      operationId: new_diversified_address
+      tags: [ account ]
+      description: get a new diversified address
+      responses:
+        '200':
+          description: 'diversified address'
+          content:
+            text/plain:
+              schema:
+                type: string
+        '500':
+          description: 'error message'
+  /make_payment_uri:
+    post:
+      operationId: make_payment_uri
+      tags: [ payment_uri ]
+      description: create a payment uri
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PaymentURI'
+        required: true
+      responses:
+        '200':
+          description: 'payment uri'
+          content:
+            text/plain:
+              schema:
+                type: string
+        '500':
+          description: 'error message'
+  /parse_payment_uri:
+    get:
+      operationId: parse_payment_uri
+      tags: [ payment_uri ]
+      description: decode a payment uri
+      parameters:
+        - name: uri
+          in: query
+          description: 'payment uri'
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaymentURI'
+        '500':
+          description: 'error message'
+components:
+  schemas:
+    AccountSeed:
+      type: object
+      required:
+        - coin
+        - name
+      properties:
+        coin:
+          type: integer
+          format: uint8
+          minimum: 0
+          description: |-
+            - 0 for zcash,
+            - 1 for ycash
+        name:
+          type: string
+          description: account name
+        key:
+          type: string
+          nullable: true
+          description: |-
+            seed phrase, secret key or viewing key. null for a new account
+            from a random seed phrase.
+        index:
+          type: integer
+          format: uint32
+          minimum: 0
+          nullable: true
+          description: |-
+            if key is a seed phrase, this is the index of the sub account.
+            0 by default
+    AccountRec:
+      type: object
+      required:
+        - address
+        - id_account
+        - name
+      properties:
+        id_account:
+          type: integer
+          format: uint32
+          minimum: 1
+          description: account id
+        name:
+          type: string
+          description: account name
+        address:
+          type: string
+          description: z-address
+    Heights:
+      type: object
+      required:
+        - latest
+        - synced
+      properties:
+        latest:
+          description: Latest block height
+          type: integer
+          format: uint32
+          minimum: 0
+        synced:
+          description: Latest checkpoint height
+          type: integer
+          format: uint32
+          minimum: 0
+    Backup:
+      type: object
+      required:
+        - fvk
+      properties:
+        seed:
+          type: string
+          nullable: true
+          description: Seed phrase
+        sk:
+          type: string
+          nullable: true
+          description: Secret key
+        fvk:
+          type: string
+          description: Full viewing key
+    TxRec:
+      type: object
+      required:
+        - address
+        - height
+        - memo
+        - timestamp
+        - txid
+        - value
+      properties:
+        txid:
+          type: string
+          description: transaction id
+        height:
+          type: integer
+          format: uint32
+          minimum: 0
+          description: block height
+        timestamp:
+          type: integer
+          format: uint32
+          minimum: 0
+          description: timestamp in secs since epoch
+        value:
+          type: integer
+          format: int64
+          description: value in zats
+        address:
+          type: string
+          description: zaddr
+        memo:
+          type: string
+          description: memo text
+    Payment:
+      type: object
+      required:
+        - confirmations
+        - recipients
+      properties:
+        recipients:
+          type: array
+          items:
+            $ref: '#/components/schemas/Recipient'
+        confirmations:
+          type: integer
+          format: uint32
+          minimum: 0
+          description: number of confirmations required for a note to be eligible for spending
+    Recipient:
+      type: object
+      required:
+        - address
+        - amount
+        - max_amount_per_note
+        - memo
+        - reply_to
+        - subject
+      properties:
+        address:
+          type: string
+          description: destination z-addr
+        amount:
+          type: integer
+          format: uint64
+          minimum: 0
+          description: amount in zats
+        reply_to:
+          type: boolean
+          description: if true, include sender addr in memo
+        subject:
+          type: string
+          description: subject included in the memo
+        memo:
+          type: string
+          description: memo text
+        max_amount_per_note:
+          type: integer
+          format: uint64
+          minimum: 0
+          description: split note if it exceeds this amount
+    Tx:
+      type: object
+      required:
+        - change
+        - height
+        - inputs
+        - outputs
+        - ovk
+        - t_inputs
+      properties:
+        height:
+          type: integer
+          format: uint32
+          minimum: 0
+          description: tx height
+        t_inputs:
+          description: transparent inputs
+          type: array
+          items:
+            $ref: '#/components/schemas/TTxIn'
+        inputs:
+          description: shielded inputs
+          type: array
+          items:
+            $ref: '#/components/schemas/TxIn'
+        outputs:
+          description: outputs
+          type: array
+          items:
+            $ref: '#/components/schemas/TxOut'
+        change:
+          description: change addr
+          type: string
+        ovk:
+          description: outgoing viewing key
+          type: string
+    TTxIn:
+      type: object
+      required:
+        - amount
+        - 'n'
+        - op
+        - script
+      properties:
+        op:
+          type: string
+        'n':
+          type: integer
+          format: uint32
+          minimum: 0
+        amount:
+          type: integer
+          format: uint64
+          minimum: 0
+        script:
+          type: string
+    TxIn:
+      type: object
+      required:
+        - amount
+        - diversifier
+        - fvk
+        - rseed
+        - witness
+      properties:
+        diversifier:
+          type: string
+        fvk:
+          type: string
+        amount:
+          type: integer
+          format: uint64
+          minimum: 0
+        rseed:
+          type: string
+        witness:
+          type: string
+    TxOut:
+      type: object
+      required:
+        - addr
+        - amount
+        - memo
+        - ovk
+      properties:
+        addr:
+          type: string
+        amount:
+          type: integer
+          format: uint64
+          minimum: 0
+        ovk:
+          type: string
+        memo:
+          type: string
+    PaymentURI:
+      type: object
+      required:
+        - address
+        - amount
+        - memo
+      properties:
+        address:
+          description: recipient address (taddr or zaddr)
+          type: string
+        amount:
+          description: amount in zats
+          type: integer
+          format: uint64
+          minimum: 0
+        memo:
+          description: memo text
+          type: string

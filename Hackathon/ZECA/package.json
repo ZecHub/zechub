@@ -1,0 +1,32 @@
+{
+  "name": "zecanony",
+  "version": "1.0.0",
+  "description": "Privacy-focused discord bot using the Zcash ecosystem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Paow4n/ZECAnony.git"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "zcash",
+    "chat"
+  ],
+  "author": "paow4n",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Paow4n/ZECAnony/issues"
+  },
+  "homepage": "https://github.com/Paow4n/ZECAnony#readme",
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "dotenv": "^17.2.2",
+    "qrcode": "^1.5.4",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
+  }
+}

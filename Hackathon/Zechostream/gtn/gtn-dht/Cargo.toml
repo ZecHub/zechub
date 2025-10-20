@@ -1,0 +1,22 @@
+[package]
+name = "gtn-dht"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+description.workspace = true
+
+[dependencies]
+bincode = { version = "2.0.1", features = ["serde"] }
+chrono.workspace = true
+libp2p.workspace = true
+rust_decimal = "1.37.2"
+serde = { workspace = true, features = ["derive"] }
+tokio.workspace = true
+trace = "0.1.7"
+tracing = "0.1.41"
+uuid.workspace = true
+gtn-common = { path = "../gtn-common" }
+serde_json.workspace = true
+tower-http = "0.6.6"
