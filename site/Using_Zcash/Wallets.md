@@ -91,6 +91,14 @@
 
 ---
 
+## [Zallet](https://github.com/zcash/wallet)
+![logo](https://i.ibb.co/3mCrR0dN/Brandmark-Yellow.png "Zallet")
+- Devices: Full Node | Desktop
+- Pools: Transparent | Sapling | Orchard
+- Features: Rust-based | Replacement for zcashd Wallet | Unified Address | Shielded Memo | JSON-RPC Interface | Alpha Release
+
+---
+
 ## [Zcashd](https://github.com/zcash/zcash)
 ![logo](https://i.ibb.co/Xz2NskW/zcashd.png "Zcashd")
 - Devices: Full Node | Desktop
