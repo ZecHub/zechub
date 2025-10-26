@@ -94,16 +94,16 @@ myBal=$(echo -e "$(eval ./zallet rpc z_gettotalbalance 0 true)" | jq .total)
 
 echo -e "${LIGHTBLUE}Zallet working${NC}..."
 echo
-echo -e "=>  ${GREEN}$OPID${NC}... "
+echo -e "=>  ${GREEN}$OPID${NC} ... "
 sleep 1s
-echo -e "=> ${GREEN}$myResult${NC}... "
+echo -e "=> ${GREEN}$myResult${NC} ... "
 sleep 1s
-echo -e "=>  ${GREEN}$myTx${NC}..."
+echo -e "=>  ${GREEN}$myTx${NC} ..."
 sleep 1s
-echo -e "=>  ${GREEN}Remaining balance: ${NC}${RED}$myBal${NC}..."
+echo -e "=>  ${GREEN}Remaining balance: ${NC}${RED}$myBal${NC} ..."
 sleep 1s
 echo 
-echo -e "${LIGHTBLUE}Waiting for TX to be mined${NC}..."
+echo -e "${LIGHTBLUE}Waiting for TX to be mined${NC} ..."
 echo
 echo
 

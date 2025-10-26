@@ -16,45 +16,56 @@ NC='\033[0m'
 
 declare -a memos
 
-echo
-echo -e "${GREEN}Reading newsletter into 512 char chunks${NC}..."
+bytesInFile=$(cat $location | wc -c)
 
-sleep 2s
+if [[ bytesInFile -lt 512 ]]
+then
+	echo
+	echo -e "${GREEN}Reading data into single 512 char memo${NC}..."
+	result=$(cat $location)
+	# create new memo with result
+        myMemo=$(./ascii2hex "$result")
+        memos[count]=$myMemo
+        count=1
+else
 
-while IFS= read -r line; do
+	echo
+	echo -e "${GREEN}Reading data into 512 char memo chunks${NC}..."
 
-    length=$(echo $line | wc -c)
-    size=$(( $index + $length))
-    #size=$length
+	sleep 2s
+
+	while IFS= read -r line; do
+
+    	#echo "$line"
+    	length=$(echo "$line" | wc -c)
+    	size=$(( $index + $length))
+    	#size=$length
   
-    if [[ size -gt 512 ]]
-        then 
+    		if [[ size -gt 512 ]]
+    		then 
 
-            # create new memo here, memo size limit hit
-            myMemo=$(./ascii2hex "$myMemo")
-	    memos[count]=$myMemo
+        		# create new memo here, memo size limit hit
+            		myMemo=$(./ascii2hex "$myMemo")
+	    		memos[count]=$myMemo
 
-
-
-            # create new memo with result
-            myMemo=$(./ascii2hex "$line")
+            		# create new memo with result
+            		myMemo=$(./ascii2hex "$line")
           
-            count=$(( $count + 1 ))
-            memos[count]=$myMemo
+            		count=$(( $count + 1 ))
+            		memos[count]=$myMemo
   
-            #Reset for next line
-            myMemo=""
-            test=""
-            index=0
-	    count=$(( $count + 1 ))
-
-        else
-            # add to current memo
-            index=$(( $index + $length))
-            myMemo+=$line
-    fi
-    #count=$(( $count +1 ))
-done < $location
+            		#Reset for next line
+            		myMemo=""
+            		test=""
+            		index=0
+	    		count=$(( $count + 1 ))
+               else
+			# add to current memo
+            		index=$(( $index + $length))
+            		myMemo+=$line
+    	       fi
+	done < $location
+fi
 
 
 echo -e "${GREEN}Converting into hex${NC} ..."
@@ -64,13 +75,19 @@ echo -e "${CYAN}${memos[@]}${NC}"
 echo
 
 max=$count
-count=0
 
+
+echo "Count: $count "
+echo "Max  : $max   "
+echo "Size : $size  "
+echo
+
+count=0
 
 while [[ count -lt max ]]
 do
      memoPart=$(./hex2ascii "${memos[count]}")
-     echo -e "${GREEN}Memo $count of $max is: ${NC}"
+     echo -e "${GREEN}Memo $(( $count + 1)) of $max is: ${NC}"
      echo
      echo -e "${ORANGE}$memoPart${NC}"
      echo
@@ -81,6 +98,7 @@ do
      count=$(( $count +1 ))
 done
 
+	
 echo
 echo "Shielded Newsletter sent successfully!"
 echo
