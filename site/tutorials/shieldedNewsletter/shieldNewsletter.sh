@@ -75,13 +75,6 @@ echo -e "${CYAN}${memos[@]}${NC}"
 echo
 
 max=$count
-
-
-echo "Count: $count "
-echo "Max  : $max   "
-echo "Size : $size  "
-echo
-
 count=0
 
 while [[ count -lt max ]]
