@@ -1,0 +1,11 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(0.5,0.5)">
+    <!-- ring with a crisp top gap (11→1 o'clock) using bottom arc only -->
+    <path d="M 16 4.5 A 8 8 0 1 1 8 4.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="square" stroke-linejoin="miter" fill="none"/>
+    <!-- sharp down arrow -->
+    <path d="M12 9.5 V14.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="square"/>
+    <path d="M12 14.5 L10.5 13" stroke="currentColor" stroke-width="1.4" stroke-linecap="square"/>
+    <path d="M12 14.5 L13.5 13" stroke="currentColor" stroke-width="1.4" stroke-linecap="square"/>
+  </g>
+</svg>
+

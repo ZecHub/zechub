@@ -10,7 +10,7 @@ As it currently stands, there are two addresses and transaction types in Zcash, 
 
 When people first start using ZEC, they might not realize which type of address they are using. This is because not all exchanges support shielded ZEC and/or shielded ZEC withdrawals. 
 
-So, for example, if someone uses Coinbase and they buy ZEC, they would buy transparent ZEC and only be able to withdraw that ZEC to a transparent address in a wallet. Wallet's, like [Nighthawk](https://www.youtube.com/watch?v=W2msuzrxr3s), can shield funds sent to a transparent address to solve this, but not everyone is aware of that. A lot of people, simply put, use ZEC in the way their exchange or primary wallet allows them to.
+So, for example, if someone uses Coinbase and they buy ZEC, they would buy transparent ZEC and only be able to withdraw that ZEC to a transparent address in a wallet. Wallet's, like [Zashi](https://electriccoin.co/zashi/), can shield funds sent to a transparent address to solve this, but not everyone is aware of that. A lot of people, simply put, use ZEC in the way their exchange or primary wallet allows them to.
 
 #### Making sure your ZEC is shielded
 

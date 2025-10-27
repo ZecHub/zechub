@@ -1,0 +1,1166 @@
+{
+  "openrpc": "1.0.0-rc1",
+  "info": {
+    "version": "0.9.0.0-beta",
+    "title": "Zenith RPC",
+    "description": "The RPC methods to interact with the Zenith Zcash wallet",
+    "license": {
+      "name": "MIT",
+      "url": "https://choosealicense.com/licenses/mit/"
+    }
+  },
+  "servers": [
+    {
+      "name": "Zenith RPC",
+      "summary": "The Zenith wallet RPC server",
+      "description": "This is the server that allows programmatic interaction with the Zenith Zcash wallet via RPC",
+      "url": "http://localhost:8234"
+    }
+  ],
+  "methods": [
+    {
+      "name": "getinfo",
+      "summary": "Get basic Zenith information",
+      "description": "Get basic information about Zenith, such as the network it is running on and the version of Zebra it is connected to",
+      "tags": [],
+      "result" : {
+        "name": "Zenith information",
+        "schema": { "$ref": "#/components/schemas/ZenithInfo" }
+      },
+      "params" : [],
+      "examples": [
+        {
+          "name": "GetInfo example",
+          "summary": "Get information from Zenith",
+          "description": "Gets the status of the Zenith wallet server",
+          "params": [],
+          "result": {
+            "name": "GetInfo result",
+            "value": {
+              "version": "0.7.0.0-beta",
+              "network": "TestNet",
+              "zebraVersion": "v1.8.0"
+            }
+          }
+
+        }
+      ],
+      "errors": [
+        { "$ref": "#/components/errors/ZebraNotAvailable" }
+      ]
+    },
+    {
+      "name": "listwallets",
+      "summary": "Get the list of available wallets",
+      "description": "Returns a list of available wallets per the network that the Zebra node is running on.",
+      "tags": [],
+      "result": {
+        "name": "Wallets",
+        "schema": {
+          "type": "array",
+          "items": {
+            "$ref": "#/components/schemas/ZcashWallet"
+          }
+        }
+      },
+      "params": [],
+      "examples": [
+        {
+          "name": "ListWallets example",
+          "summary": "Get list of wallets",
+          "description": "Get the list of wallets available in Zenith for the current network (Mainnet/Testnet)",
+          "params": [],
+          "result": {
+            "name": "ListWallets result",
+            "value": [
+              {
+                "birthday": 2762066,
+                "index": 1,
+                "lastSync": 2919374,
+                "name": "Main",
+                "network": "TestNet"
+              },
+              {
+                "birthday": 2798877,
+                "index": 2,
+                "lastSync": 2894652,
+                "name": "zcashd",
+                "network": "TestNet"
+              }
+            ]
+          }
+
+        }
+      ],
+      "errors": [
+        { "$ref": "#/components/errors/ZebraNotAvailable" },
+        { "$ref": "#/components/errors/NoWallets" }
+      ]
+    },
+    {
+      "name": "getnewwallet",
+      "summary": "Create a new wallet",
+      "description": "Create a new wallet for Zenith.",
+      "tags": [],
+      "params": [
+        { "$ref": "#/components/contentDescriptors/Name"} 
+      ],
+      "paramStructure": "by-position",
+      "result": {
+        "name": "Wallet",
+        "schema": {
+          "$ref": "#/components/contentDescriptors/WalletId"
+        }
+      },
+      "examples": [
+        {
+          "name": "GetNewWallet example",
+          "summary": "Create a wallet",
+          "description": "Creates a new wallet with the given name",
+          "params": [
+            {
+              "name": "Wallet name",
+              "summary": "The user-friendly name for the wallet",
+              "value": "Main"
+            }
+          ],
+          "result": {
+            "name": "GetNewWallet result",
+            "value": 1
+          }
+        }
+      ],
+      "errors": [
+        { "$ref": "#/components/errors/ZebraNotAvailable" },
+        { "$ref": "#/components/errors/ZenithBusy" },
+        { "$ref": "#/components/errors/DuplicateName" }
+      ]
+    },
+    {
+      "name": "listaccounts",
+      "summary": "List existing accounts for a wallet ID",
+      "description": "List existing accounts for the given wallet ID or provide an error if none",
+      "tags": [],
+      "result": {
+        "name": "Accounts",
+        "schema": {
+          "type": "array",
+          "items": {
+            "$ref": "#/components/schemas/ZcashAccount"
+          }
+        }
+      },
+      "params": [{ "$ref": "#/components/contentDescriptors/WalletId"}],
+      "paramStructure": "by-position",
+      "examples": [
+        {
+          "name": "ListAccounts example",
+          "summary": "Get list of accounts",
+          "description": "Get the list of accounts available in Zenith for the given wallet ID",
+          "params": [
+            {
+              "name": "walletId", 
+              "summary": "The integer ID of the wallet to use",
+              "value": 1
+            }
+          ],
+          "result": {
+            "name": "ListAccounts result",
+            "value": [
+              {
+                "index": 3,
+                "name": "Business",
+                "wallet": 1
+              },
+              {
+                "index": 1,
+                "name": "Savings",
+                "wallet": 1
+              }
+            ]
+          }
+
+        }
+      ],
+      "errors": [
+        { "$ref": "#/components/errors/ZebraNotAvailable" },
+        { "$ref": "#/components/errors/NoAccounts" }
+      ]
+    },
+    {
+      "name": "getnewaccount",
+      "summary": "Create a new account",
+      "description": "Create a new account in the given wallet.",
+      "tags": [],
+      "params": [
+        { "$ref": "#/components/contentDescriptors/Name"},
+        { "$ref": "#/components/contentDescriptors/WalletId"} 
+      ],
+      "paramStructure": "by-position",
+      "result": {
+        "name": "Account",
+        "schema": {
+          "$ref": "#/components/contentDescriptors/AccountId"
+        }
+      },
+      "examples": [
+        {
+          "name": "GetNewAccount example",
+          "summary": "Create an account",
+          "description": "Creates a new account with the given name",
+          "params": [
+            {
+              "name": "Account name",
+              "summary": "The user-friendly name for the Account",
+              "value": "Personal"
+            },
+            {
+              "name": "Wallet Id",
+              "summary": "The internal index of the Wallet to use",
+              "value": 1
+            }
+          ],
+          "result": {
+            "name": "GetNewAccount result",
+            "value": 1
+          }
+        }
+      ],
+      "errors": [
+        { "$ref": "#/components/errors/ZebraNotAvailable" },
+        { "$ref": "#/components/errors/DuplicateName" },
+        { "$ref": "#/components/errors/ZenithBusy" },
+        { "$ref": "#/components/errors/InvalidWallet" },
+        { "$ref": "#/components/errors/NotLocal" }
+      ]
+    },
+    {
+      "name": "listaddresses",
+      "summary": "List existing addresses for an account ID",
+      "description": "List existing addresses for the given account ID or provide an error if none",
+      "tags": [],
+      "result": {
+        "name": "Addresses",
+        "schema": {
+          "type": "array",
+          "items": {
+            "$ref": "#/components/schemas/ZcashAddress"
+          }
+        }
+      },
+      "params": [{ "$ref": "#/components/contentDescriptors/AccountId"}],
+      "paramStructure": "by-position",
+      "examples": [
+        {
+          "name": "ListAddresses example",
+          "summary": "Get list of addresses",
+          "description": "Get the list of addresses available in Zenith for the given account ID",
+          "params": [
+            {
+              "name": "accountId", 
+              "summary": "The integer ID of the account to use",
+              "value": 1
+            }
+          ],
+          "result": {
+            "name": "ListAddresses result",
+            "value": [
+              {
+                "index": 3,
+                "account": 1,
+                "name": "Clothes",
+                "ua": "utest13dq4u4dnf3yddw8lq2n6zdclshra6xsp8zgkc5ydyu6k20zrsscmuex46qa4vh84rgd78sqnlleapznnz7mnzx9wv0unts8pv32paj8se5ca3kves2u4a89uy6e8cf4hnarxydxh7hq2e9uu39punfmm53k5h45xn9k3dx35la8j7munh9td7774m8gkqgc4mn40t69w20uu2gtks7a",
+                "legacy": "ztestsapling188csdsvhdny25am8ume03qr2026hdy03zpg5pq7jmmfxtxtct0e93p0rg80yfxvynqd4gwlwft5",
+                "transparent": "tmMouLwVfRYrF91fWjDJToivmsTWBhxfX4E"
+              },
+              {
+                "index": 2,
+                "account": 1,
+                "name": "Vacation",
+                "ua": "utest1hhggl4nxfdx63evps6r7qz50cgacgtdpt9k7dl0734w63zn5qmrp6c2xdv9rkqyfkj6kgau4kz48xtm80e67l534qp02teqq86zuzetxql6z5v32yglg9n2un5zsu0hwcvaunzdfg5qnry6syh2dh9x8eu27de03j9pjfvrqda6acgtc6f0emdfh6r5jvfanmjml4ms5wwj9wfqmamq",
+                "legacy": "ztestsapling1mpup3xv2k9clxaf9wjcr0dt5gnmkprz9s9qsn298mqs356pf39wmh30q3pgsp0w5vyrmj6mrzw2",
+                "transparent": "tmX8qCB96Dq49YZkww3bSty7eZDA4Fq6F4R"
+              }
+            ]
+          }
+
+        }
+      ],
+      "errors": [
+        { "$ref": "#/components/errors/NoAddress" }
+      ]
+    },
+    {
+      "name": "getnewaddress",
+      "summary": "Add a new address",
+      "description": "Derive a new address in the given account.",
+      "tags": [],
+      "params": [
+        { "$ref": "#/components/contentDescriptors/AccountId"},
+        { "$ref": "#/components/contentDescriptors/Name"},
+        { "$ref": "#/components/contentDescriptors/ExcludeSapling"},
+        { "$ref": "#/components/contentDescriptors/ExcludeTransparent"}
+      ],
+      "result": {
+        "name": "Address",
+        "schema": {
+          "$ref": "#/components/schemas/ZcashAddress"
+        }
+      },
+      "examples": [
+        {
+          "name": "GetNewAddress example",
+          "summary": "Get a new address for the given account",
+          "description": "Get a new address for the given account with an Orchard receiver, a Sapling receiver and a transparent receiver (default)",
+          "params": [
+            {
+              "name": "Account Id",
+              "summary": "The account index",
+              "value": 1
+            },
+            {
+              "name": "Name",
+              "summary": "User-friendly name for the address",
+              "value": "AllRecvs"
+            }
+          ],
+          "result":
+          {
+            "name": "Default receivers",
+            "value": {
+              "index": 14,
+              "account": 1,
+              "name": "AllRecvs",
+              "ua": "utest1as2fhusjt5r7xl8963jnkkums6gue6qvu7fpw2cvrctwnwrku9r4av9zmmjt7mmet927cq9z4z0hq2w7tpm7qa8lzl5fyj6d83un6v3q78c76j7thpuzyzr260apm8xvjua5fvmrfzy59mpurec7tfamp6nd6eq95pe8vzm69hfsfea29u4v3a6lyuaah20c4k6rvf9skz35ct2r54z",
+              "legacy": "ztestsapling1esn0wamf8w3nz2juwryscc3l8e5xtll6aewx0r2h5xtmrpnzsw2k23lec65agn8v59r72v2krrh",
+              "transparent": "tmMteg5HxFnmn4mbm2UNEGzWgLX16bGLg16"
+            }
+          }
+        },
+        {
+          "name": "GetNewAddress - no transparent",
+          "summary": "Get a new address for the given account with no transparent receiver",
+          "description": "Get a new address for the given account with an Orchard receiver, a Sapling receiver and *no* transparent receiver (default)",
+          "params": [
+            {
+              "name": "Account Id",
+              "summary": "The account index",
+              "value": 1
+            },
+            {
+              "name": "Name",
+              "summary": "User-friendly name for the address",
+              "value": "NoTransparent"
+            },
+            {
+              "name": "ExcludeTransparent",
+              "summary": "Option to exclude transparent receivers from the address",
+              "value": "ExcludeTransparent"
+            }
+          ],
+          "result":
+          {
+            "name": "NoTransparent",
+            "value": {
+              "index": 15,
+              "account": 1,
+              "name": "NoTransparent",
+              "ua": "utest1l0t3uzadaxa4jg7qatsfwqdvfp0qtedyyall65hm2nzwnwdmcvd7j4z6wdrftpsjxv8aw4qh0hka3wdqj0z48xrhg356dlapy36ug6tt20tkzavwccjfup8wy8sdkcc60rpf400mwek73n0ph9jyw9ae60rm5jt8rx75nzhyuymern2t",
+              "legacy": "ztestsapling1vp3kzw7rqldfvaw5edfgqq66qm0xnexmscwnys220403mqqh9uyl0sqsye37aelrese42y8ecnx",
+              "transparent": null
+            }
+          }
+        },
+        {
+          "name": "GetNewAddress - no Sapling",
+          "summary": "Get a new address for the given account with no Sapling receiver",
+          "description": "Get a new address for the given account with an Orchard receiver and a transparent receiver, and *no* Sapling receiver.",
+          "params": [
+            {
+              "name": "Account Id",
+              "summary": "The account index",
+              "value": 1
+            },
+            {
+              "name": "Name",
+              "summary": "User-friendly name for the address",
+              "value": "NoSapling"
+            },
+            {
+              "name": "ExcludeSapling",
+              "summary": "Option to exclude Sapling receivers from the address",
+              "value": "ExcludeSapling"
+            }
+          ],
+          "result":
+          {
+            "name": "NoSapling",
+            "value": {
+              "index": 16,
+              "account": 3,
+              "name": "NoSapling",
+              "ua": "utest14yvw4msvn9r5nggv2s0yye8phqwrhsx8ddfvpg30zp4gtf928myaua8jwxssl7frr8eagvcrsa8tuu9dlh7cvksv3lkudvyrq2ysrtzate0dud7x0zhgz26wqccn8w7346v4kfagv3e",
+              "legacy": null,
+              "transparent": "tmQ7z6q46NLQXpeNkfeRL6wJwJWA4picf6b"
+            }
+          }
+        },
+        {
+          "name": "GetNewAddress - Orchard only",
+          "summary": "Get a new address for the given account with only an Orchard receiver",
+          "description": "Get a new address for the given account with an Orchard receiver and *no* transparent receiver, and *no* Sapling receiver.",
+          "params": [
+            {
+              "name": "Account Id",
+              "summary": "The account index",
+              "value": 1
+            },
+            {
+              "name": "Name",
+              "summary": "User-friendly name for the address",
+              "value": "OrchardOnly"
+            },
+            {
+              "name": "ExcludeSapling",
+              "summary": "Option to exclude Sapling receivers from the address",
+              "value": "ExcludeSapling"
+            },
+            {
+              "name": "ExcludeTransparent",
+              "summary": "Option to exclude transparent receivers from the address",
+              "value": "ExcludeTransparent"
+            }
+          ],
+          "result":
+          {
+            "name": "OrchardOnly",
+            "value": {
+            "index": 17,
+            "account": 3,
+            "name": "OrchardOnly",
+            "ua": "utest1890l0xjxcsapk0u7jnqdglzwp04rt4r8zfvh7qx6a76fq96fyxg9xysvklwjymm9xuxzk0578pvv3yzv0w8l5x4run96mahky5defw0m",
+            "legacy": null,
+            "transparent": null
+            }
+          }
+        }
+      ],
+      "errors": [
+        { "$ref": "#/components/errors/InvalidAccount" },
+        { "$ref": "#/components/errors/ZenithBusy" },
+        { "$ref": "#/components/errors/DuplicateName" }
+      ]
+    },
+    {
+      "name": "getbalance",
+      "summary": "Get the balance of the given account",
+      "description": "Get the balance of the given account, including any unconfirmed balance.",
+      "tags": [],
+      "params": [{ "$ref": "#/components/contentDescriptors/AccountId"}],
+      "result": {
+        "name": "Balance",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "confirmed": {"$ref": "#/components/schemas/Balance" },
+            "unconfirmed": {"$ref": "#/components/schemas/Balance" }
+          }
+        }
+      },
+      "examples": [
+        {
+          "name": "GetBalance example",
+          "summary": "Get account balance",
+          "description": "Provides the balance for the current account, showing the balance for the transparent, Sapling and Orchard pools, both for confirmed notes and unconfirmed notes",
+          "params": [
+            {
+              "name": "accountId", 
+              "summary": "The integer ID of the account to use",
+              "value": 1
+            }
+          ],
+          "result": {
+            "name": "GetBalance result",
+            "value":{
+              "confirmed": {
+                "orchard": 22210259,
+                "sapling": 0,
+                "transparent": 0
+              },
+              "unconfirmed": {
+                "orchard": 0,
+                "sapling": 0,
+                "transparent": 0
+              }
+            }
+          }
+        }
+      ],
+      "errors": [
+        { "$ref": "#/components/errors/InvalidAccount" },
+        { "$ref": "#/components/errors/ReadOnly" }
+      ]
+    },
+    {
+      "name": "listreceived",
+      "summary": "List received transactions",
+      "description": "List transactions received by the given address.",
+      "tags": [],
+      "params": [{ "$ref": "#/components/contentDescriptors/Address"}],
+      "paramStructure": "by-position",
+      "result": {
+        "name": "Transactions",
+        "schema": {
+          "type": "array",
+          "items": {
+            "$ref": "#/components/schemas/ZcashNote"
+          }
+        }
+      },
+      "examples": [
+        {
+          "name": "ListReceived by Id",
+          "summary": "Get list of notes received by the address ID",
+          "description": "Provides the list of notes received by the address identified by the index provided as a parameter",
+          "params": [
+            {
+              "name": "Address index", 
+              "summary": "The index for the address to use",
+              "value": "1"
+            }
+          ],
+          "result": {
+            "name": "ListReceived by Id result",
+            "value": [
+              {
+                "txid": "987fcdb9bd37cbb5b205a8336de60d043f7028bebaa372828d81f3da296c7ef9",
+                "pool": "p2pkh",
+                "amount": 0.13773064,
+                "amountZats": 13773064,
+                "memo": "",
+                "confirmed": true,
+                "blockheight": 2767099,
+                "blocktime": 1711132723,
+                "outindex": 0,
+                "change": false
+              },
+              {
+                "txid": "186bdbc64f728c9d0be96082e946a9228153e24a70e20d8a82f0601da679e0c2",
+                "pool": "orchard",
+                "amount": 0.0005,
+                "amountZats": 50000,
+                "memo": "�",
+                "confirmed": true,
+                "blockheight": 2801820,
+                "blocktime": 1713399060,
+                "outindex": 0,
+                "change": false
+              }
+            ]
+          }
+        },
+        {
+          "name": "ListReceived by Address",
+          "summary": "Get list of notes received by the address",
+          "description": "Provides the list of notes received by the address provided as a parameter",
+          "params": [
+            {
+              "name": "Address", 
+              "summary": "The address to use",
+              "value": "ztestsapling1mpup3xv2k9clxaf9wjcr0dt5gnmkprz9s9qsn298mqs356pf39wmh30q3pgsp0w5vyrmj6mrzw2"
+            }
+          ],
+          "result": {
+            "name": "ListReceived by Address result",
+            "value": [
+              {
+                "txid": "2a104393d72d1e62c94654950a92931e786a1f04aa732512597638b5c4a69a91",
+                "pool": "sapling",
+                "amount": 0.11447195,
+                "amountZats": 11447195,
+                "memo": "�",
+                "confirmed": true,
+                "blockheight": 2800319,
+                "blocktime": 1713301802,
+                "outindex": 0,
+                "change": false
+              }
+            ]
+          }
+        }
+      ],
+      "errors": [
+        { "$ref": "#/components/errors/ZebraNotAvailable" },
+        { "$ref": "#/components/errors/UnknownAddress" },
+        { "$ref": "#/components/errors/InvalidAddress" }
+      ]
+    },
+    {
+      "name": "sendmany",
+      "summary": "Send transaction(s)",
+      "description": "Send one transaction by specifying the source account, the privacy policy (optional, default 'Full') and an array of proposed outputs. Each output needs a recipient address, an amount and an optional shielded memo.",
+      "tags": [],
+      "params": [
+        { "$ref": "#/components/contentDescriptors/AccountId"},
+        { "$ref": "#/components/contentDescriptors/PrivacyPolicy"},
+        { "$ref": "#/components/contentDescriptors/TxRequestArray"}
+      ],
+      "paramStructure": "by-position",
+      "result": {
+        "name": "Operation ID",
+        "schema": {
+          "$ref": "#/components/contentDescriptors/OperationId"
+        }
+      },
+      "examples": [
+        {
+          "name": "Send a transaction",
+          "summary": "Send a transaction",
+          "description": "Send a transaction with one output",
+          "params": [
+            {
+              "name": "Account index", 
+              "summary": "The index for the account to use",
+              "value": 1
+            },
+            {
+              "name": "Privacy Policy",
+              "summary": "The selected privacy policy",
+              "value": "Full"
+            },
+            {
+              "name": "Transaction request",
+              "summary": "The transaction to attempt",
+              "value": [
+                {
+                  "address": "utest13dq4u4dnf3yddw8lq2n6zdclshra6xsp8zgkc5ydyu6k20zrsscmuex46qa4vh84rgd78sqnlleapznnz7mnzx9wv0unts8pv32paj8se5ca3kves2u4a89uy6e8cf4hnarxydxh7hq2e9uu39punfmm53k5h45xn9k3dx35la8j7munh9td7774m8gkqgc4mn40t69w20uu2gtks7a",
+                  "amount": 2.45,
+                  "memo": "Simple transaction"
+                }
+              ]
+            }
+          ],
+          "result": {
+            "name": "SendMany result",
+            "value": "3cc31c07-07cf-4a6e-9190-156c4b8c4088"
+            
+          }
+        }
+      ],
+      "errors": [
+        { "$ref": "#/components/errors/ZebraNotAvailable" },
+        { "$ref": "#/components/errors/ZenithBusy" },
+        { "$ref": "#/components/errors/InvalidAccount" },
+        { "$ref": "#/components/errors/ReadOnly" }
+      ]
+    },
+    {
+      "name": "getoperationstatus",
+      "summary": "Get the status of a Zenith operation",
+      "description": "Get the status of the given operation",
+      "tags": [],
+      "params": [{ "$ref": "#/components/contentDescriptors/OperationId"}],
+      "paramStructure": "by-position",
+      "result": {
+        "name": "Operation",
+        "schema": {
+          "$ref": "#/components/schemas/Operation"
+        }
+      },
+      "errors": [
+        { "$ref": "#/components/errors/OpNotFound" }
+      ]
+    },
+    {
+      "name": "shieldnotes",
+      "summary": "Shield all transparent notes into the Orchard pool for the given account",
+      "description": "Creates one or more transactions, grouping all the unspent transparent notes for the given account by their transparent address to avoid associating different transparent addresses. These notes are sent to the given account's internal change address as shielded Orchard notes.",
+      "tags": [],
+      "params": [
+        { "$ref": "#/components/contentDescriptors/AccountId"}
+      ],
+      "paramStructure": "by-position",
+      "result": {
+        "name": "Operation ID(s)",
+        "schema": {
+          "type": "array",
+          "items": { "$ref": "#/components/contentDescriptors/OperationId"}
+        }
+      },
+      "examples": [
+        {
+          "name": "Shield transparent notes",
+          "summary": "Shield transparent notes",
+          "description": "Shield the transparent notes in a given account",
+          "params": [
+            {
+              "name": "Account index", 
+              "summary": "The index for the account to use",
+              "value": "3"
+            }
+          ],
+          "result": {
+            "name": "ShieldNotes result",
+            "value": [
+              "ab350df0-9f57-44c0-9e0d-f7b8af1f4231",
+              "8c6f2656-22ef-4f9d-b465-80ddd13fc485"
+            ]
+          }
+        },
+        {
+          "name": "No transparent funds",
+          "summary": "Shield transparent notes with no transparent funds",
+          "description": "Attempt to shield the transparent notes in a given account, when account has none",
+          "params": [
+            {
+              "name": "Account index", 
+              "summary": "The index for the account to use",
+              "value": "3"
+            }
+          ],
+          "result": {
+            "name": "ShieldNotes result",
+            "value": [
+              "InsufficientFunds"
+            ]
+          }
+        }
+      ],
+      "errors": [
+        { "$ref": "#/components/errors/ZebraNotAvailable" },
+        { "$ref": "#/components/errors/ZenithBusy" },
+        { "$ref": "#/components/errors/InvalidAccount" }
+      ]
+    },
+    {
+      "name": "deshieldfunds",
+      "summary": "De-shield the given amount of ZEC from the given account",
+      "description": "Creates a new internal transaction with the requested amount of ZEC to the transparent pool. The fee is not included in the given amount.",
+      "tags": [],
+      "params": [
+        { "$ref": "#/components/contentDescriptors/AccountId"},
+        { "$ref": "#/components/contentDescriptors/Amount"}
+      ],
+      "paramStructure": "by-position",
+      "result": {
+        "name": "Operation ID",
+        "schema": {
+          "$ref": "#/components/contentDescriptors/OperationId"
+        }
+      },
+      "examples": [
+        {
+          "name": "De-Shield funds",
+          "summary": "De-shield funds",
+          "description": "Move the given amount of ZEC for the given acount from the shielded pool to the transparent pool",
+          "params": [
+            {
+              "name": "Account index", 
+              "summary": "The index for the account to use",
+              "value": "3"
+            },
+            {
+              "name": "Amount",
+              "summary": "The amount of ZEC to use",
+              "value": 1.23
+            }
+          ],
+          "result": {
+            "name": "Deshield funds result",
+            "value": "ab350df0-9f57-44c0-9e0d-f7b8af1f4231"
+          }
+        },
+        {
+          "name": "No transparent funds",
+          "summary": "Shield transparent notes with no transparent funds",
+          "description": "Attempt to shield the transparent notes in a given account, when account has none",
+          "params": [
+            {
+              "name": "Account index", 
+              "summary": "The index for the account to use",
+              "value": "3"
+            }
+          ],
+          "result": {
+            "name": "ShieldNotes result",
+            "value": [
+              "InsufficientFunds"
+            ]
+          }
+        }
+      ],
+      "errors": [
+        { "$ref": "#/components/errors/ZebraNotAvailable" },
+        { "$ref": "#/components/errors/ZenithBusy" },
+        { "$ref": "#/components/errors/InvalidAccount" }
+      ]
+    },
+    {
+      "name": "getfullvk",
+      "summary": "Derive the full viewing key for the given account.",
+      "description": "Derive the full viewing key for the given account, encoded per ZIP-316.",
+      "tags": [],
+      "params": [
+        { "$ref": "#/components/contentDescriptors/AccountId"}
+      ],
+      "paramStructure": "by-position",
+      "result": {
+        "name": "Full viewing key",
+        "schema": {
+          "$ref": "#/components/schemas/ViewingKey"
+        }
+      },
+      "examples": [
+        {
+          "name": "Get full viewing key",
+          "summary": "Get the full viewing key",
+          "description": "Get the full viewing key for the give account, encoded per ZIP-316",
+          "params": [
+            {
+              "name": "Account index", 
+              "summary": "The index for the account to use",
+              "value": 1
+            }
+          ],
+          "result": {
+            "name": "Full Viewing key",
+            "value": "uview16qdhd9e283s4y53gmw72ag7adzdrj9f9v96dw89ggv9el0yrf7vkappau69j8luq7uf540sr78ncslnqk6kwpc4qeqgfg5vn4xcmllynyfr32cgq6nx5ptku44kfxtsj99px2g9yp7kyc32quun0elakgltqmqflprwmryuelcfwwt58vqap065as7qwljg02l6mkutsh2y9aefd284dsrj0246fd2n4hra3r03uftsh4njh3w590z78tpnfqhjvvwhgus476zrw3fd69qekru709ghr0zr7h8majy9aclwg7uhakt24lmuec8dd7t270kamcs99rz8jasj3jl6m9y77dvkdn23e2kwuc6kyagpstzrdjnlzdldmgsu4k056v80ucajcjvl99pcf2znjg37vztdp4zr5qrphxs4y7wppxmankmdwwgjxhlmyrjd68z80q0n0t2cyqge6mlc7pd5wre4392pjtdaqvtyeg0denh4ekynnjxnm"
+          }
+        }
+      ],
+      "errors": [
+        { "$ref": "#/components/errors/InvalidAccount" }
+      ]
+    },
+    {
+      "name": "getincomingvk",
+      "summary": "Get the incoming viewing key for the given account.",
+      "description": "Derives the incoming viewing key for the given account per ZIP-316.",
+      "tags": [],
+      "params": [
+        { "$ref": "#/components/contentDescriptors/AccountId"}
+      ],
+      "paramStructure": "by-position",
+      "result": {
+        "name": "Incoming viewing key",
+        "schema": {
+          "$ref": "#/components/schemas/ViewingKey"
+        }
+      },
+      "examples": [
+        {
+          "name": "Get incoming viewing key",
+          "summary": "Get the incoming viewing key",
+          "description": "Get the incoming viewing key for the give account, encoded per ZIP-316",
+          "params": [
+            {
+              "name": "Account index", 
+              "summary": "The index for the account to use",
+              "value": 1
+            }
+          ],
+          "result": {
+            "name": "Incoming Viewing key",
+            "value": "uivk199qcjxrj73n7fapg79a2ltah6f3j83haljcux5t5kvn5unn7rpfmvglttdt9g6na3llkefnd3pn0x9ky6lh8s42trj0vfg5wtv0nrerq0wsq5v4q7lt5j4l9svppspr6h7407ztgsuvkfk977c3tj408nx5phxap8fn3ecdmdrah9spp76md9tel89tuqz6m0xplqp83wj33qf7s3hwfe79t04rq49g24nr3emlpm298wpqla2dvh4rr584kwdtxc9ahse5x0drcjr95tt4k0hxr32l6yturje7dptlgjnr4cm6uk29ysu9l5xwgz40p6alyedzzqltqf5nswy48ekru4ahapw"
+          }
+        }
+      ],
+      "errors": [
+        { "$ref": "#/components/errors/InvalidAccount" }
+      ]
+    },
+    {
+      "name": "importvk",
+      "summary": "Import the given Unified Viewing Key",
+      "description": "Imports the given Unified Viewing Key, autodetecting if it is Full or Incoming. Caution: If the given birthday height is lower than the lowest birthday height in the wallet, this will trigger a full re-scan of the wallet.",
+      "tags": [
+      ],
+      "params": [
+        { "$ref": "#/components/contentDescriptors/Name"},
+        { "$ref": "#/components/contentDescriptors/ViewingKey"},
+        { "$ref": "#/components/contentDescriptors/BirthdayHeight"}
+      ],
+      "paramStructure": "by-position",
+      "result": {
+        "name": "Account Identifier",
+        "schema": { "$ref": "#/components/contentDescriptors/AccountId"}
+      },
+      "errors": [
+        { "$ref": "#/components/errors/ZebraNotAvailable" },
+        { "$ref": "#/components/errors/DuplicateName" },
+        { "$ref": "#/components/errors/ZenithBusy" }
+      ]
+    }
+  ],
+  "components": {
+	  "contentDescriptors": {
+      "WalletId": {
+        "name": "Wallet ID",
+        "summary": "The wallet's internal index used for unique identification",
+        "description": "An Integer value that uniquely identifies a wallet in Zenith",
+        "required": true,
+        "schema": {
+          "type": "integer"
+        }
+      },
+      "AccountId": {
+        "name": "Account ID",
+        "summary": "The account's internal index used for unique identification",
+        "description": "An Integer value that uniquely identifies an account in Zenith",
+        "required": true,
+        "schema": {
+          "type": "integer"
+        }
+      },
+      "Address": {
+        "name": "Address identifier",
+        "summary": "The address identifier",
+        "description": "A string that identifies a specific address, either by its index or the [ZIP-316](https://zips.z.cash/zip-0316) encoded address itself",
+        "required": true,
+        "schema": {
+          "type": "string"
+        }
+      },
+      "Amount": {
+        "name": "A numeric amount",
+        "summary": "A numeric amount",
+        "description": "A number that represents an amount to be used by a function as an input",
+        "required": true,
+        "schema": {
+          "type": "number"
+        }
+      },
+      "Name": {
+        "name": "Name",
+        "summary": "A user-friendly name",
+        "description": "A string that represents an entity in Zenith, like a wallet, an account or an address.",
+        "required": true,
+        "schema": {
+          "type": "string"
+        }
+      },
+      "ExcludeSapling": {
+        "name": "ExcludeSapling",
+        "summary": "Setting that indicates that the new address requested should not contain a Sapling component",
+        "description": "When this parameter is present, Zenith will generate an address with no Sapling receiver",
+        "required": false,
+        "schema" : {
+          "type": "string"
+        }
+      },
+      "ExcludeTransparent": {
+        "name": "ExcludeTransparent",
+        "summary": "Setting that indicates that the new address requested should not contain a Transparent component",
+        "description": "When this parameter is present, Zenith will generate an address with no Transparent receiver",
+        "required": false,
+        "schema" : {
+          "type": "string"
+        }
+      },
+      "OperationId": {
+        "name": "Operation ID",
+        "summary": "A unique identifier for Zenith operations",
+        "description": "A [UUID](http://en.wikipedia.org/wiki/UUID) assigned to an operation (like sending a transaction) that can be used to query Zenith to see the status and outcome of the operation.",
+        "required": true,
+        "schema" : {
+          "type": "string"
+        }
+      },
+      "TxRequestArray": {
+        "name": "Transaction Request Array",
+        "summary": "An array of proposed transactions",
+        "description": "An array of proposed new outgoing transactions, including the recipient's address, the amount in ZEC, the optional shielded memo, and the optional privacy level.",
+        "required": true,
+        "schema": {
+          "type": "array",
+          "items": { "$ref": "#/components/schemas/TxRequest"}
+        }
+      },
+      "PrivacyPolicy": { 
+        "name": "Privacy Policy",
+        "summary": "The chosen privacy policy to use for the transaction",
+        "description": "The privacy policy to use for the transaction. `Full` policy allows shielded funds to be transferred within their shielded pools. `Medium` policy allows shielded funds to cross shielded pools. `Low` allows deshielding transactions into transparent receivers but not to exchange addresses. `None` allows for transparent funds to be spent to transparent addresses and exchange addresses.",
+        "required": false,
+        "schema": {
+          "type": "string", 
+          "enum": ["None", "Low", "Medium", "Full"]
+        }
+      },
+      "BirthdayHeight": {
+        "name": "Birthday Height",
+        "summary": "The block height at which a wallet was created.",
+        "description": "The block height where a wallet was created. The wallet will not scan blocks at a lower block height than this, assuming there are no transactions on-chain before this point.",
+        "required": true,
+        "schema": {
+          "type": "integer"
+        }
+      },
+      "ViewingKey": {
+        "name": "Viewing Key",
+        "summary": "A Unified viewing key.",
+        "description": "A Unified viewing key encoded per [ZIP-316](https://zips.z.cash/zip-0316). Zenith supports both full and incoming viewing keys.",
+        "required": true,
+        "schema": {
+          "type": "string"
+        }
+      }
+    },
+	  "schemas": {
+      "ZenithInfo": {
+        "type": "object",
+        "properties": {
+          "version": { "type": "string", "description": "Zenith's version"},
+          "network": { "type": "string", "description": "The network the wallet is connected to"},
+          "zebraVersion": { "type": "string", "description": "The version of the Zebra node used by Zenith"}
+        }
+      },
+      "ZcashWallet": {
+        "type": "object",
+        "properties": {
+          "index": { "type": "integer", "description": "Internal index of wallet"},
+          "name": { "type": "string", "description": "User-friendly name of the wallet" },
+          "network": { "type": "string", "description": "Network the wallet is for. Testnet or MainNet" },
+          "birthday": { "type": "integer", "description": "Wallet's birthday height" },
+          "lastSync": { "type": "integer", "description": "Last block the wallet is synced to" },
+          "local": { "type": "boolean", "description": "True for wallets belonging to this Zenith instance, False for wallets created to manage viewing keys"}
+        }
+      },
+      "ZcashAccount": {
+        "type": "object",
+        "properties": {
+          "index": { "type": "integer", "description": "Internal index for account"},
+          "wallet": { "type": "integer", "description": "ID of the wallet this account belongs to"},
+          "name": { "type": "string", "description": "User-friendly name of the account"},
+          "type": { "type": "string", "description": "Local for accounts belonging to the wallet, FullViewKey for full viewing keys, IncomingViewKey for incoming"}
+        }
+      },
+      "ZcashAddress": {
+        "type": "object",
+        "properties": {
+          "index": { "type": "integer", "description": "Internal index for address"},
+          "account": { "type": "integer", "description": "ID of the account this address belongs to"},
+          "name": { "type": "string", "description": "User-friendly name of the address"},
+          "ua": { "type": "string", "description": "Unified address"},
+          "legacy": { "type": "string", "description": "Legacy Sapling address"},
+          "transparent": { "type": "string", "description": "Transparent address"}
+        }
+      },
+      "ZcashNote": {
+        "type": "object",
+        "properties": {
+          "txid": { "type": "string", "description": "Transaction ID"},
+          "pool": { "type": "string", "description": "Orchard, Sapling, or Transparent" },
+          "amount" : { "type": "number", "description": "The amount of the note in ZEC"},
+          "amountZats": { "type": "integer", "description": "The amount of the note in zats"},
+          "memo": { "type": "string", "description": "The memo corresponding to the note, if any"},
+          "confirmed": { "type": "boolean", "description": "If the note is confirmed per the thresholds in the configuration"},
+          "blockheight": { "type": "integer", "description": "The block height containing the transaction"},
+          "blocktime": { "type": "integer", "description": "The transaction time in seconds since epoch"},
+          "outindex": { "type": "integer", "description": "The Sapling output index, or the Orchard action index"},
+          "change": { "type": "boolean", "description": "True if this output was received by a change address"}
+        }
+      },
+      "Balance": {
+        "type": "object",
+        "properties": {
+              "transparent": { "type": "integer", "description": "Confirmed transparent balance in zats." },
+              "sapling": { "type": "integer", "description": "Confirmed Sapling balance in zats." },
+              "orchard": { "type": "integer", "description": "Confirmed Orchard balance in zats." }
+        }
+      },
+      "Operation": {
+        "type": "object",
+        "properties": {
+          "uuid": {"type": "string", "description": "Operation Identifier"},
+          "start": {"type": "string", "description": "The date and time the operation started"},
+          "end": {"type": ["string", "null"], "description": "The date and time the operation ended. If the operation is still running, this field is null"},
+          "status": {"type": "string", "enum": ["Processing", "Failed", "Successful"], "description": "If the operation has started it will show Processing, once it completes it will show Failed or Successful depending on the outcome"},
+          "result": {"type": ["string", "null"], "description": "For a succesful transaction operation, the transaction ID. For failed operations, the error message. For pending operations, this field is null."}
+        }
+      },
+      "TxRequest": {
+        "type": "object",
+        "properties": {
+          "address": { "type": "string", "description": "Recipient's address (unified, Sapling or transparent)" },
+          "amount": { "type": "number", "description": "The amount to send in ZEC"},
+          "memo": { "type": "string", "description": "The shielded memo to include, if applicable"}
+        }
+      },
+      "ViewingKey": {
+        "type": "string",
+        "description": "The viewing key, encoded per ZIP-316"
+      }
+    },
+	  "examples": {},
+    "tags": {
+      "draft": {"name": "Draft"},
+      "wip": {"name": "WIP"}
+    },
+    "errors": {
+      "ZebraNotAvailable": {
+        "code": -32000,
+        "message": "Zebra not available"
+      },
+      "NoWallets": {
+        "code": -32001,
+        "message": "No wallets available. Please create one first"
+      },
+      "NoAccounts": {
+        "code": -32002,
+        "message": "No accounts available. Please create one first"
+      },
+      "NoAddress": {
+        "code": -32003,
+        "message": "No addresses available for this account. Please create one first"
+      },
+      "UnknownAddress": {
+        "code": -32004,
+        "message": "Address does not belong to the wallet"
+      },
+      "InvalidAddress": {
+        "code": -32005,
+        "message": "Unable to parse address"
+      },
+      "InvalidAccount": {
+        "code": -32006,
+        "message": "Account does not exist."
+      },
+      "DuplicateName": {
+        "code": -32007,
+        "message": "Entity with that name already exists."
+      },
+      "InvalidWallet": {
+        "code": -32008,
+        "message": "Wallet does not exist."
+      },
+      "OpNotFound": {
+        "code": -32009,
+        "message": "Operation ID not found."
+      },
+      "InternalError": {
+        "code": -32010,
+        "message": "Varies"
+      },
+      "InvalidRecipient": {
+        "code": -32011,
+        "message": "The provided recipient address is not valid."
+      },
+      "ZenithBusy": {
+        "code": -32012,
+        "message": "The Zenith server is syncing, please try again later."
+      },
+      "InvalidVK": {
+        "code": -32013,
+        "message": "The viewing key provided is not valid."
+      },
+      "ReadOnly": {
+        "code": -32014,
+        "message": "Read-only account, operation is not valid."
+      },
+      "NotLocal": {
+        "code": -32015,
+        "message": "The wallet is not local, cannot create new accounts."
+      }
+    }
+  }
+}

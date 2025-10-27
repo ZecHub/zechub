@@ -1,0 +1,47 @@
+id: app.ywallet.Ywallet
+runtime: org.freedesktop.Platform
+runtime-version: "22.08"
+sdk: org.freedesktop.Sdk
+command: ywallet
+finish-args:
+  - --share=ipc
+  - --share=network
+  - --socket=fallback-x11
+  - --socket=wayland
+  - --device=dri
+modules:
+  - name: zwallet_build
+    buildsystem: simple
+    sources:
+      - type: archive
+        url: https://github.com/hhanh00/zwallet/releases/download/v1.5.4/zwallet.tgz
+        sha256: 5f3cc2331b31dd107aa9b470a161ce85723a7cb5f50d5f2a77c0e96e39f643e1
+        strip-components: 0
+    build-commands:
+      - mkdir /app/bin
+      - cp -r * /app/bin
+  - name: warp_api_ffi
+    buildsystem: simple
+    sources:
+      - type: file
+        url: https://github.com/hhanh00/zwallet/releases/download/v1.5.4/libwarp_api_ffi.so
+        sha256: b4127ed3a3da14bdb3e491aed4b09eb1675bd756c132570e09315ee8353a18c8
+    build-commands:
+      - cp libwarp_api_ffi.so /app/lib
+  - name: misc
+    buildsystem: simple
+    sources:
+      - type: file
+        path: ywallet.desktop
+      - type: file
+        path: ywallet.metainfo.xml
+      - type: file
+        path: icon.png
+    build-commands:
+      - install -Dp -m 644 icon.png /app/share/icons/hicolor/256x256/apps/app.ywallet.Ywallet.png
+      - install -Dp -m 644 ywallet.desktop /app/share/applications/app.ywallet.Ywallet.desktop
+      - install -Dp -m 644 ywallet.metainfo.xml /app/share/metainfo/app.ywallet.Ywallet.metainfo.xml
+  - name: zwallet
+    buildsystem: simple
+    build-commands:
+      - mkdir -p /app/bin/.dart_tool/sqflite_common_ffi

@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tema base (dark) */
+:root { 
+  color-scheme: dark;
+
+  /* Tokens ZyberQuest */
+  --zx-green: #00FF9C;   /* primario */
+  --zx-cyan:  #00E5FF;   /* secundario */
+  --zx-yellow:#FFD60A;   /* acento Zcash */
+  --zx-magenta:#FF3DBE;  /* alerta */
+  --zx-ink:   #0A0D0A;   /* bg */
+  --zx-ink-true:#000000; /* negro puro para overlays */
+}
+
+/* Reset mínimo + base */
+html, body { height: 100%; }
+body { background: var(--zx-ink); color: white; }
+
+/* Tipografías (ya definidas por Next Font) */
+.font-sans { font-family: var(--font-inter); }
+.font-mono  { font-family: var(--font-plex-mono); }
+
+/* ⚠️ Accesibilidad: en vez de quitar outline global, usa una clase utilitaria */
+:focus-visible { outline: none; }
+.focus-ring:focus-visible {
+  outline: 2px solid var(--zx-yellow);
+  outline-offset: 3px;
+  border-radius: .5rem;
+}
+
+/* Contenedor fluido */
+.container-zx {
+  width: min(1120px, 100%);
+  margin-inline: auto;
+  padding-inline: 0.75rem; /* ~12px en mobile */
+}
+@media (min-width: 768px) {
+  .container-zx { padding-inline: 1rem; } /* ~16px en tablet */
+}
+@media (min-width: 1280px) {
+  .container-zx { padding-inline: 1.5rem; } /* ~24px en desktop grande */
+}
+
+/* ------ Estética / efectos ------ */
+.zx-scanline::before{
+  content:"";
+  position:fixed; inset:0;
+  pointer-events:none;
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      rgba(255,255,255,0.045) 0px,
+      rgba(255,255,255,0.045) 1px,
+      transparent 2px,
+      transparent 3px
+    );
+  mix-blend-mode:soft-light;
+  opacity:.14;
+  z-index: 50;
+}
+
+/* Lluvia de código sutil (se aplicará a wrappers de la Intro) */
+.zx-coderain{
+  background-image: radial-gradient(ellipse at top, rgba(0,229,255,0.05), transparent 60%);
+}
+.zx-glow-yellow { text-shadow: 0 0 .45rem var(--zx-yellow); }
+.zx-glow-green  { text-shadow: 0 0 .45rem var(--zx-green); }
+
+/* Botón con halo amarillo al hover */
+.btn-zx {
+  @apply inline-flex items-center justify-center rounded-xl px-5 py-3 transition;
+  border: 1px solid var(--zx-yellow);
+}
+.btn-zx:hover {
+  background: var(--zx-yellow);
+  color: #111;
+  box-shadow: 0 0 24px rgba(244,183,40,.35), inset 0 0 0 9999px rgba(0,0,0,0.0);
+}
+
+/* Prefiere menos movimiento */
+@media (prefers-reduced-motion: reduce){
+  *{ 
+    animation-duration: 0.001ms !important; 
+    animation-iteration-count: 1 !important; 
+    transition-duration: 0.001ms !important; 
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Utilidades varias */
+.visually-hidden {
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden; clip: rect(1px,1px,1px,1px);
+  white-space: nowrap; border: 0; padding: 0; margin: -1px;
+}
+
+/* Selección de texto con marca ZyberQuest */
+::selection{
+  background: rgba(0,255,156,.35);
+  color: #111;
+}
+
+/* Scrollbar sutil en navegadores soportados */
+*{
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0,229,255,.4) rgba(10,13,10,.6);
+}
+*::-webkit-scrollbar{ height: 8px; width: 8px; }
+*::-webkit-scrollbar-thumb{
+  background: rgba(0,229,255,.35);
+  border-radius: 8px;
+}
+*::-webkit-scrollbar-track{ background: rgba(10,13,10,.6); }

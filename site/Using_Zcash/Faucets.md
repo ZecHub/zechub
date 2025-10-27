@@ -8,4 +8,4 @@ Faucets are services that dispense small amounts of cryptocurrency for free. The
 
 Zcash Faucet: https://zecfaucet.com
 
-Here is a ZEC faucet for testnet: https://faucet.zecpages.com/
+Here is a ZEC faucet for testnet: https://testnet.zecfaucet.com

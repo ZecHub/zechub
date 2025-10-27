@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonts loaded via next/font; map CSS variables to families */
+
+@layer base {
+  :root {
+    /* Midnight Blue background */
+    --background: 213 44% 11%; /* #0D1B2A approx in HSL */
+    --foreground: 210 33% 90%; /* Text Primary #E5E7EB */
+
+    --card: 215 32% 14%;
+    --card-foreground: 210 33% 90%;
+
+    --popover: 215 32% 14%;
+    --popover-foreground: 210 33% 90%;
+
+    /* Accents */
+    --primary: 173 100% 38%; /* Teal #00C2A8 */
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 266 83% 57%; /* Purple #7C3AED */
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217 19% 27%; /* Gray surface */
+    --muted-foreground: 215 14% 65%; /* Text Secondary #9CA3AF */
+
+    --accent: 173 100% 38%;
+    --accent-foreground: 213 44% 11%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 215 28% 22%;
+    --input: 215 28% 22%;
+    --ring: 173 100% 38%;
+
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 213 44% 11%;
+    --foreground: 210 33% 90%;
+
+    --card: 215 32% 14%;
+    --card-foreground: 210 33% 90%;
+
+    --popover: 215 32% 14%;
+    --popover-foreground: 210 33% 90%;
+
+    --primary: 173 100% 38%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 266 83% 57%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217 19% 27%;
+    --muted-foreground: 215 14% 65%;
+
+    --accent: 173 100% 38%;
+    --accent-foreground: 213 44% 11%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 215 28% 22%;
+    --input: 215 28% 22%;
+    --ring: 173 100% 38%;
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+  html { @apply scroll-smooth; }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-inter), system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-space-grotesk), ui-sans-serif, system-ui;
+  }
+}
+
+/* Clanker-inspired crypto-native touches */
+@layer components {
+  .glass-card { @apply bg-card/70 backdrop-blur-md border border-border shadow-lg; }
+  .gradient-teal-purple { background-image: linear-gradient(135deg, #00C2A8 0%, #7C3AED 100%); }
+}
+

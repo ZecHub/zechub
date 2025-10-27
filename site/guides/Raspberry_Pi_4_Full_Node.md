@@ -11,10 +11,15 @@ The purpose of this guide is to help educate Zcashers who are interested in runn
 <img src="https://user-images.githubusercontent.com/81990132/197372541-dcd886ab-a3d0-4614-b490-0294ddf3ffae.png" alt="zcashd" width="700" height="700"/>
 
 
+## Video
+
+https://www.youtube.com/watch?v=SGYrzhs1l2k
+
+## Support
 
 If you find this guide useful, consider donating ZEC to support ZecHub:
 
-`zs1txa9wzxsc46w4940c4t76wjlylhntyp7vcppsp8re32z02srqse038melgglew4jwsh3qes4m4n`
+`u1rl2zw85dmjc8m4dmqvtstcyvdjn23n0ad53u5533c97affg9jq208du0vf787vfx4vkd6cd0ma4pxkkuc6xe6ue4dlgjvn9dhzacgk9peejwxdn0ksw3v3yf0dy47znruqftfqgf6xpuelle29g2qxquudxsnnen3dvdx8az6w3tggalc4pla3n4jcs8vf4h29ach3zd8enxulush89`
 
 
 ## What you will learn

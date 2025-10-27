@@ -9,13 +9,11 @@
         </em>
     </h3>
     <p>
-        <a href="https://follow.zechub.org/" target="_blank">
-            <img src="https://img.shields.io/twitter/follow/zechub?style=social&label=Follow">
-        </a>
-    </p>
-<p>
+        <a href="https://x.com/zechub" target="_blank">
+            <img src="https://img.shields.io/twitter/follow/ZecHub">
+    </a>
     <a href="https://chat.zechub.org/" target="_blank">
-        <img src="https://img.shields.io/discord/978714252934258779?style=social&label=Discord">
+        <img src="https://img.shields.io/discord/978714252934258779">
     </a>
     <a href="https://youtube.com/@zechub" target="_blank">
         <img src="https://img.shields.io/youtube/channel/views/UC3-KM00kjCUheRzO5cq3PAA?style=social&label=Subscribe">
@@ -52,4 +50,4 @@ This work is licensed under a
 
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
 [cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
-[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+[cc-by-sa-shield]: https://img.shields.io/github/license/ZecHub/zechub

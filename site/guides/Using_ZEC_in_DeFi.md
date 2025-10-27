@@ -5,94 +5,25 @@
 # Using Zcash in DeFi
 
 
-## RenBridge & renZEC
+## Near Intents 
 
-**The Ren 1.0 network will be sunset. Minting new Ren tokens has now been disabled, but users can burn tokens until mid-December.**
+Zcash and NEAR Intents have been integrated, allowing users to swap Zcash (ZEC) with other top altcoins, including Bitcoin, Solana, NEAR, and XRP, without paying any fees.
+This integration is part of NEAR Protocol's efforts to create an infrastructure of autonomous and verifiable AI bots, which also brings benefits to Zcash by enabling AI-powered payment rails.
 
-**If you hold renZEC, you should immediately bridge the asset back to native ZEC on the Zcash blockchain.**
+Zcash users are now capable of accessing smart contracts and wider [DeFi applications](https://nym.com/blog/what-is-defi) while preserving their privacy via [Near Intents](https://app.near-intents.org).
 
-**Please understand the steps in the RenBridge and ZeroBridge sections of this guide should not be followed until the Ren 2.0 network is live and Zcash support is enabled. Please see this [thread](https://forum.zcashcommunity.com/t/ren-1-0-being-sunset-bridge-renzec-to-native-zec-as-soon-as-possible/43393) for more details.**
-
-Zcash users are capable of leveraging Ethereum smart contracts and wider DeFi applications while preserving their privacy via [@renprotocol](https://twitter.com/renprotocol) using this 4-Step process:
-
-
-### Step 1: Acquire Shielded ZEC 
-
-Purchase ZEC from any Exchange & Proceed to withdraw to your personal non-custodial wallet such as Nighthawk, ZecWallet Lite or Ywallet.  
-
-If withdrawal was deposited to a T-address, Auto-shield funds or make an additional transaction to Z-address.
-
-This means that the money within your wallet is no longer tied back to your identity.
-
-Similar to withdrawing cash from a bank, once withdrawn the bank can no longer monitor your transactions. 
-
-___
-
-### Step 2: Convert Zcash to Ether 
-
-Using an Exchange swap your Shielded ZEC for ETH:
-
-[SideshiftAI](https://sideshift.ai)
-
-[Changelly](https://changelly.com)
-
-[LetsExchange](https://letsexchange.io)
-
-___
-
-### Step 3: Using DeFi 
-
-Now you have received ETH you are capable of interacting with the multitude of Web3 applications & services via Metamask & Trust wallet for DeFi, NFT's, DAOs etc!
-
-___
-
-### Step 4: Convert ETH back to ZEC using RenBridge
-
-Once you're ready to cash out, convert your ETH to renZEC using:
-
-   [Uniswap](https://app.uniswap.org/#/swap?chain=mainnet)
- 
-   [SushiSwap](https://app.sushi.com/swap)
-
-
-Now head over to [RenBridge](https://bridge.renproject.io/mint) 
-
--Select "Releasing" 
-
--Paste your destination address and convert your renZEC back to Transparent ZEC (Only T-address currently available).
-
-Within your non-custodial wallet auto-convert your Transparent ZEC to Shielded ZEC.
-
-
-### Congratulations!! you have successfully used your Zcash to onboard to & use DeFi applications in a privacy-preserving way with renZEC.
-
-___
+[Watch Demo](https://www.youtube.com/watch?v=mKVvXY4yjjA)
 ___
 
 
-## ZeroBridge & ZeroDAO
+## Maya Protocol 
 
+Maya Protocol has integrated Zcash to enhance its decentralization, liquidity, and transaction privacy.
+This integration allows Zcash users to benefit from decentralized swaps, giving them greater flexibility and liquidity while preserving privacy.
 
-ZeroBridge is a decentralized client of the Zero DAO protocol, enabling cross-chain asset scripting in a browser with your existing wallet, [@zerodaoHQ](https://twitter.com/zerodaoHQ) makes it possible to fund a fresh ETH address with Shielded ZEC.
-
-### Step 1: Convert Shielded ZEC to ETH
-
-Visit [ZeroDAO](https://bridge.zerodao.com/#/transfer/ETH) 
-
-Connect to your wallet of choice
-
-Now head over to the "Transfer" tab, select $ZEC as your "from asset" and select to transfer to $ETH.
-
-Proceed to send your $ZEC to the T-address noting any transaction fees included. 
-
-
-### Step 2: 
-
-
-Under "Manage Transactions" you can view ongoing transactions and history. This information is stored client side so even if you refresh or close your tab, you will still be able to view it.
-
-Once the ETH has been deposited to your fresh address you are now able to access DeFi, NFT marketplaces and more. 
-
+Learn More: [https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya](https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya)
+___
+___
 
 
 **Note**: It is also possible to bridge any ETH you already have to private store as Shielded Zcash using the "Release" Tab & entering your Transparent address. You may then use the 'Autoshield' in your mobile/desktop wallet.

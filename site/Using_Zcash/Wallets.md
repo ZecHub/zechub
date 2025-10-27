@@ -3,7 +3,7 @@
 - Devices: Mobile
 - Pools: Transparent | Sapling | Orchard
 - Features: Spend before Sync | Unified Address | Shielded Memo | Address Book | Payment Request | TEX Address | Tor Currency Rates | Coinbase Onramp | Flexa Payments
-![syncspeed](https://github.com/user-attachments/assets/750d3b0e-af0a-4599-b78e-cea9ac8e8eca "Zashi")
+
 
 ---
 
@@ -11,8 +11,8 @@
 ![logo](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: WarpSync | Shielded Memo | Address Book | Cold Storage | Voting | Pool Transfer | Payment Request | TEX Address | Diversified Address
-![syncspeed](https://github.com/user-attachments/assets/750d3b0e-af0a-4599-b78e-cea9ac8e8eca "Ywallet")
+- Features: Windows | Linux | WarpSync | Shielded Memo | Address Book | Cold Storage | Voting | Viewing Key | Pool Transfer | Payment Request | TEX Address | Diversified Address
+
 
 ---
 
@@ -21,16 +21,15 @@
 - Devices: Mobile | Desktop
 - Pools: Sapling | Orchard
 - Features: Discord Bot | Unified Address
-![syncspeed](https://github.com/user-attachments/assets/750d3b0e-af0a-4599-b78e-cea9ac8e8eca "Ywallet")
+
 
 ---
 
 ## [Zingo!](https://www.zingolabs.org/)
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
-- Devices: Mobile | Desktop 
+- Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: BlazeSync | Shielded Memo | Financial Insights | Unified Address | Address Book | Payment Request
-![syncspeed](https://github.com/user-attachments/assets/c6c6da74-d4ff-4cdf-ba72-55a82bb4165d "Zingo!")
+- Features: Windows | Linux | Viewing Key | PepperSync | Shielded Memo | Financial Insights | Unified Address | Address Book | Payment Request
 
 ---
 
@@ -39,7 +38,7 @@
 - Devices: Mobile
 - Pools: Transparent | Sapling | Orchard
 - Features: Spend before Sync | Unified Address | Shielded memo | Flexa Payments
-![syncspeed](https://github.com/user-attachments/assets/c6c6da74-d4ff-4cdf-ba72-55a82bb4165d "Nighthawk")
+
 
 ---
 
@@ -48,7 +47,6 @@
 - Devices: Mobile
 - Pools: Transparent | Sapling
 - Features: Spend before Sync | Multi Coin | Unified Address | Shielded memo | Automatic Shielding
-![syncspeed](https://github.com/user-attachments/assets/c6207f4b-75ea-452d-8197-fba47622b2aa "Edge")
 
 ---
 
@@ -57,7 +55,7 @@
 - Devices: Mobile
 - Pools: Transparent | Sapling
 - Features: Spend before Sync | Multi Coin | Unified Address
-![syncspeed](https://github.com/user-attachments/assets/c6207f4b-75ea-452d-8197-fba47622b2aa "Unstoppable")
+
 
 ---
 
@@ -65,16 +63,23 @@
 ![logo](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Shielded Memo | Address Check | Unified Address | Automatic Shielding | Address Book | Payment Request | Diversified Address | TEX Address
-![syncspeed](https://github.com/user-attachments/assets/750d3b0e-af0a-4599-b78e-cea9ac8e8eca "eZcash")
+- Features: Windows | Shielded Memo | Address Check | Unified Address | Automatic Shielding | Address Book | Payment Request | Diversified Address | TEX Address
 
 ---
 
-## [Zenith](https://git.vergara.tech/Vergara_Tech/zenith)
+## [Zkool](https://github.com/hhanh00/zkool2/)
+![logo](https://i.ibb.co/SpQT62M/zkool.png "Zkool")
+- Devices: Mobile | Desktop
+- Pools: Transparent | Sapling | Orchard
+- Features: Windows | Linux | Viewing Key | MultiSignature (FROST) | Multi-Account Sync | Broad Key Support | FROST Multisig | Encrypted Exports | Address Rotation | Shielded Memo
+
+---
+
+## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
 ![logo](https://i.ibb.co/VtPBnm6/zenith-2.png "Zenith")
 - Devices: Full Node | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Graphical Interface | Unified Address | Shielded Memo | Address Book
+- Features: Linux | Graphical Interface | Unified Address | Shielded Memo | Address Book
 
 ---
 
@@ -82,7 +87,15 @@
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo-CLI")
 - Devices: Full Node | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Command Line Interface | Unified Address | Shielded Memo
+- Features: Linux | Command Line Interface | Unified Address | PepperSync | Shielded Memo
+
+---
+
+## [Zallet](https://github.com/zcash/wallet)
+![logo](https://i.ibb.co/3mCrR0dN/Brandmark-Yellow.png "Zallet")
+- Devices: Full Node | Desktop
+- Pools: Transparent | Sapling | Orchard
+- Features: Rust-based | Replacement for zcashd Wallet | Unified Address | Shielded Memo | JSON-RPC Interface | Alpha Release
 
 ---
 
@@ -90,15 +103,23 @@
 ![logo](https://i.ibb.co/Xz2NskW/zcashd.png "Zcashd")
 - Devices: Full Node | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Command Line Interface | Unified Address | Shielded Memo | Diversified Address
+- Features:  Linux | Command Line Interface | Unified Address | Shielded Memo | Diversified Address
 
 ---
 
 ## [Brave](https://brave.com/web3-privacy/)
 ![logo](https://i.ibb.co/6yqMNwZ/image-2024-01-13-170934865.png "Brave")
 - Devices: Web
-- Pools: Transparent | (in-development)
-- Features: Spend before Sync | Unified Address | Secure File Transfer
+- Pools: Transparent | Orchard
+- Features: Spend before Sync | Unified Address | Shielded Memo
+
+---
+
+## [Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
+![logo](https://i.ibb.co/jn5t9Gy/metamask.png  "Metamask")
+- Devices: Web
+- Pools: Transparent | Sapling | Orchard
+- Features: Multi Coin | Unified Address 
 
 ---
 
@@ -145,7 +166,7 @@
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](https://i.ibb.co/2qX6WCF/Desktop-Wallets.png "Ledger")
 - Devices: Hardware
-- Pools: Transparent | Sapling
+- Pools: Transparent 
 - Features: Multi Coin
 
 ---
@@ -166,7 +187,8 @@
 
 ---
 
-
-
-
-
+## [Vultisig](https://vultisig.com)
+![logo](https://i.ibb.co/93wSrxCc/vultisig.png "Vultisig")
+- Devices: Web | Mobile | Desktop
+- Pools: Transparent
+- Features: Multi Coin | Web App
