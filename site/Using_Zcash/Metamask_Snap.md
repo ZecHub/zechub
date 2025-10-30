@@ -44,21 +44,21 @@ In MetaMask, choose **Add Network** and enter:
 
 For **BNB SmartChain**;
 ```markdown
--  **Name**: BNB Smart Chain
--  **RPC URL**: https://bsc-dataseed.binance.org
--  **Chain ID**: 56
--  **Symbol**: BNB
--  **Block Explorer URL**: https://bscscan.com
+-  Name: BNB Smart Chain
+-  RPC URL: https://bsc-dataseed.binance.org
+-  Chain ID: 56
+-  Symbol: BNB
+-  Block Explorer URL: https://bscscan.com
 ```
-
-For **Zcash Mainnet**;
-- **Name:** Zcash Mainnet  
-- **RPC URL:** `https://mainnet.lightwalletd.com:9067`  
-- **Symbol:** ZEC  
-
 This enables network info and explorer links.
 ![Add-a-custom-Net....](https://hackmd.io/_uploads/S1hq7f2Oel.png)
 
+For **Zcash Mainnet**;
+```markdown
+- Name: Zcash Mainnet  
+- RPC URL: https://mainnet.lightwalletd.com:9067 
+- Symbol: ZEC
+```
 
 ---
 
@@ -91,7 +91,7 @@ This enables network info and explorer links.
 ![LEODEX-SWAP](https://hackmd.io/_uploads/HyLQ0G2ugg.png)
 
 
-> 🔒 Use shielded (z) addresses for **full privacy**.
+> => Use shielded (z) addresses for **full privacy**.
 
 ---
 
@@ -112,8 +112,8 @@ This enables network info and explorer links.
 
 ## **6. Verify / Troubleshoot**
 
-- Check **WebZjs** for updated balances **(MetaMask has not listed ZEC directly)** .  
-- If issues occur:
+> Check **WebZjs** for updated balances **(MetaMask has not listed ZEC directly)** .  
+> If issues occur:
   ```
   - Confirm you have the official ChainSafe Snap.  
   - Check correct network settings.  
@@ -150,6 +150,7 @@ This enables network info and explorer links.
 > Recovery is simple,install MetaMask and the Snap, then import your existing seed.  
 > The Snap defaults to **shielded ZEC**, transparent addresses are **not the focus**.  
 > Use [zcashblockexplorer.com](https://zcashblockexplorer.com) for transaction confirmations.
+
 
 
 
