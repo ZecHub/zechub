@@ -1,6 +1,6 @@
 # MetaMask Zcash Snap Integration Guide
 
-For For a full walkthrough and visual explanation, watch this [**YouTube guide**](https://www.youtube.com/watch?v=UJh9Ilkohdw): 
+For a full walkthrough and visual explanation, watch this [**YouTube guide**](https://www.youtube.com/watch?v=UJh9Ilkohdw): 
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/UJh9Ilkohdw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -150,6 +150,7 @@ For **Zcash Mainnet**;
 > Recovery is simple,install MetaMask and the Snap, then import your existing seed.  
 > The Snap defaults to **shielded ZEC**, transparent addresses are **not the focus**.  
 > Use [zcashblockexplorer.com](https://zcashblockexplorer.com) for transaction confirmations.
+
 
 
 
