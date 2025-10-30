@@ -72,8 +72,5 @@ ZExCavator is a tool that recovers (excavates!) possibly lost ZEC:
 <a href="https://zexcavator.com/">ZExCavator</a> | <a href="https://github.com/zingolabs/zexcavator">Github</a>
 
 
-**Security and Responsibility:**
-
-It is crucial for users to understand the risks involved in dealing with private keys and to keep these keys protected from unauthorized access. The security of funds depends on the user's responsibility to safeguard their private keys.
 
 
