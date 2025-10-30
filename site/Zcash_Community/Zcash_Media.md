@@ -12,3 +12,5 @@
 Produced by [37 LAINES](https://www.37laines.com/) for the public good, Zcash Media's educational videos are all about Zcash and crypto. It is funded by the [Zcash Community Grants](https://wiki.zechub.xyz/zcash-community-grants) program, and has become an important player in the Zcash ecosystem.
 
 ## Videos
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?si=e8-nsKxIHdk9YGY2&amp;list=PLCBF_Zq-SbAL19zav5LPfNzXNPNP9IOeb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
