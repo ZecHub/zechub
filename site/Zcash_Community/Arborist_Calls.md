@@ -19,5 +19,5 @@ The complete list with full notes & agendas can be found [here](https://github.c
 
 ## Playlist
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?si=lFFtNRmUsdmSQ1qM&amp;list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
