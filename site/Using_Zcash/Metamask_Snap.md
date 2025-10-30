@@ -14,14 +14,10 @@ Audited by **Hacken** and listed in the **official MetaMask Snaps Directory**, i
 ## **Prerequisites**
 
 
-- [**MetaMask Extension**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) (desktop only) – Chrome, Edge, or Firefox.  
-- **MetaMask Account** - Seed phrase secured; Snap derives Zcash keys from it.  
-- **Stable Internet Connection** - For syncing with the Zcash network.  
-- **Funds** - ETH to swap for ZEC or ZEC from an exchange.
-
-
-
-
+> [**MetaMask Extension**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) (desktop only) - Chrome, Edge, or Firefox.
+> MetaMask Account - Seed phrase secured; Snap derives Zcash keys from it.  
+> Stable Internet Connection - For syncing with the Zcash network.  
+> Funds - ETH to swap for ZEC or ZEC from an exchange.
 
 > **Tip:** Protect your MetaMask recovery phrase - it controls both ETH and ZEC.
 
@@ -46,11 +42,11 @@ Audited by **Hacken** and listed in the **official MetaMask Snaps Directory**, i
 In MetaMask, choose **Add Network** and enter:
 
 For **BNB SmartChain**;
--  Network Name: BNB Smart Chain
--  New RPC URL: https://bsc-dataseed.binance.org/
--  Chain ID: 56
--  Symbol: BNB
--  Block Explorer URL: https://bscscan.com
+-  **Name**: BNB Smart Chain
+-  **RPC URL**: `https://bsc-dataseed.binance.org`
+-  **Chain ID**: `56`
+-  **Symbol**: `BNB`
+-  **Block Explorer URL**: `https://bscscan.com`
 
 For **Zcash Mainnet**;
 - **Name:** Zcash Mainnet  
@@ -86,7 +82,7 @@ This enables network info and explorer links.
 
 ## **4. Fund Your Wallet**
 
-- **Swap ETH -> ZEC** – Use services like **LeoDex** and send to your shielded address.  
+- **Swap ETH -> ZEC** - Use services like **LeoDex** and send to your shielded address.  
 - **Exchange Withdrawal** - Withdraw purchased ZEC to your WebZjs shielded address.  
 
 ![LEODEX-SWAP](https://hackmd.io/_uploads/HyLQ0G2ugg.png)
@@ -140,11 +136,12 @@ This enables network info and explorer links.
 
 ## **Additional Notes**
 
-- Use the [**latest MetaMask version**](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) — public release supports Snaps.  
-- Shielded proofs may take time; WebAssembly handles computation in-browser.  
-- Recovery is simple — install MetaMask and the Snap, then import your existing seed.  
-- The Snap defaults to **shielded ZEC**; transparent addresses are **not the focus**.  
-- Use [zcashblockexplorer.com](https://zcashblockexplorer.com) for transaction confirmations.
+> Use the [**latest MetaMask version**](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) - public release supports Snaps.  
+> Shielded proofs may take time; WebAssembly handles computation in-browser.  
+> Recovery is simple — install MetaMask and the Snap, then import your existing seed.  
+> The Snap defaults to **shielded ZEC**; transparent addresses are **not the focus**.  
+> Use [zcashblockexplorer.com](https://zcashblockexplorer.com) for transaction confirmations.
+
 
 
 
