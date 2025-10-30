@@ -10,7 +10,14 @@ The Zcash Arborist Calls are bi-weekly protocol development meetings focused on 
 
 Offical Site: [https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)
 
-Anyone who wants to contribute to Zcash protocol development and to share news on Zcash node projects. Register here: [15:00 UTC](https://us06web.zoom.us/webinar/register/WN_Vk7WMz9sRkiIr_hqH_x3LA) / [22:30 UTC](https://us06web.zoom.us/webinar/register/WN_z0k1ipsnRkS4-DGqDhULdA)
+Anyone who wants to contribute to Zcash protocol development and to share news on Zcash node projects. 
+
+Register here: [15:00 UTC](https://us06web.zoom.us/webinar/register/WN_Vk7WMz9sRkiIr_hqH_x3LA) / [22:30 UTC](https://us06web.zoom.us/webinar/register/WN_z0k1ipsnRkS4-DGqDhULdA)
 
 The complete list with full notes & agendas can be found [here](https://github.com/ZcashCommunityGrants/arboretum-notes). 
+
+
+## Playlist
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
