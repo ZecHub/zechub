@@ -111,7 +111,7 @@ For more information about Minor Grants, you can consult the [Zcash Forum](https
 
 **Zcash Foundation Board of Directors Members: Marta Belcher & J.W. Verret**
 
-https://www.youtube.com/watch?v=D_M1QqhRk8E&list=PL40dyJ0UYTLI4cD6vfIZ8wt_8mUwPpXkH
+<iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?si=-WAPUBOExiYuQsVF&amp;list=PL40dyJ0UYTLI4cD6vfIZ8wt_8mUwPpXkH" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Arti: ZF + ZCG Call w/ the Tor Project**
 
@@ -124,8 +124,7 @@ https://www.youtube.com/watch?v=D_M1QqhRk8E&list=PL40dyJ0UYTLI4cD6vfIZ8wt_8mUwPp
 
 **AMA with ZF Executive Director Jack Gavigan**
 
-https://www.youtube.com/watch?v=S3uGdNEMymI
-
+<iframe width="640" height="360" src="https://www.youtube.com/embed/S3uGdNEMymI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Resources
 
