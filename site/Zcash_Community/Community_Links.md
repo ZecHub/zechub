@@ -35,18 +35,22 @@ The [Zcash community forum](https://forum.zcashcommunity.com/) is a place where 
 #### <img src="https://i.ibb.co/mqKfr62/image-2024-02-03-174240928.png" alt="Alt Text" width="50"/>   <ins>Twitter / X</ins>
 
 Just like most crypto projects, the Zcash community is extremely active on Twitter. The conversations are lively, debates are plentiful, and of course, there are memes. Here are some interesting accounts to follow
-- [@Zcash](https://x.com/zcash)
-- [@Zcash_community](https://x.com/zcash_community)
-- [@Zechub](https://x.com/zechub)
-- [@Zcashesp](https://x.com/zcashesp) (Zcash en español)
-- [@Zcash Brazil](https://x.com/zcashbrazil)
-- [@zerodartz](https://x.com/Zerodartz) (for the memes!)
+[@Zcash](https://x.com/zcash)
 
-  
+[@Zcash_community](https://x.com/zcash_community)
+
+[@Zechub](https://x.com/zechub)
+
+[@Zcashesp](https://x.com/zcashesp) (Zcash en espanol)
+
+[@Zcash Brazil](https://x.com/zcashbrazil)
+
+[@zerodartz](https://x.com/Zerodartz) (for the memes!)
+
+
 #### <ins>Mastodon</ins>
 
-
-<a rel="me" href="https://zechub.social/@Zechub">ZecHub.Social</a>
+[ZecHub.Social](https://zechub.social/@Zechub">ZecHub.Social)
 
 [Zeal.Center](https://zeal.center)
 
