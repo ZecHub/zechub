@@ -110,7 +110,7 @@ SideShift.ai is a no sign-up cryptocurrency exchange supporting over fifty coins
 
 [ZeroBridge](https://bridge.zerodao.com/#/transfer/ETH)
 
-ZeroBridge is a decentralized client of the Zero DAO protocol, enabling cross-chain asset scripting in a browser with your existing wallet, @zerodaoHQ makes it possible to fund a fresh ETH address with Shielded ZEC.
+ZeroBridge is a decentralized client of the Zero DAO protocol, enabling cross-chain asset scripting in a browser with your existing wallet, @zerodaoHQ makes it possible to fund a fresh ETH address with Shielded ZEC.
 
 [Zcash CoinHolder Polling](https://forum.zcashcommunity.com/t/coin-holder-polling-instructions/40170)
 
@@ -123,7 +123,7 @@ ___
 
 [Aztec](https://aztec.network/index.html)
 
-The Aztec Connect SDK allows any Ethereum protocol to be integrated in Aztec’s private rollup with a simple Solidity interface and front-end SDK. Aztec Connect allows users to confidentially access world-class DeFi services on Ethereum with up to 100x cost savings, all while strengthening Aztec’s existing privacy guarantees.
+The Aztec Connect SDK allows any Ethereum protocol to be integrated in Aztec's private rollup with a simple Solidity interface and front-end SDK. Aztec Connect allows users to confidentially access world-class DeFi services on Ethereum with up to 100x cost savings, all while strengthening Aztec's existing privacy guarantees.
 
 [Darkfi](https://dark.fi)
 
