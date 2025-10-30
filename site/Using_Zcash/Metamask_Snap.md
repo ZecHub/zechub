@@ -6,8 +6,7 @@ For For a full walkthrough and visual explanation, watch this [**YouTube guide**
 
 
 
-MetaMask now supports **shielded Zcash (ZEC)** via the **ChainSafe-developed Zcash Snap**, allowing you to send, receive, and manage private ZEC directly in your browser wallet.  
-Audited by **Hacken** and listed in the **official MetaMask Snaps Directory**, it requires **no separate Zcash software** - only MetaMask and the Snap.
+MetaMask now supports **shielded Zcash (ZEC)** via the **ChainSafe-developed Zcash Snap**, allowing you to send, receive, and manage private ZEC directly in your browser wallet. Audited by **Hacken** and listed in the **official MetaMask Snaps Directory**, it requires **no separate Zcash software** - only MetaMask and the Snap.
 
 ---
 
@@ -29,8 +28,10 @@ Audited by **Hacken** and listed in the **official MetaMask Snaps Directory**, i
 2. Search for [**"Zcash Shielded Wallet"**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) or [**"WebZjs Zcash Snap"**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/).  
 3. Click **Install/Add to MetaMask**.
 4. Approve permissions such as:
-   - Manage Zcash accounts  
-   - Store data on your device  
+   ```
+      Manage Zcash accounts 
+      Store data on your device
+   ```
 
 ![Zcash-snap-install](https://hackmd.io/_uploads/Hy5MSG2Oex.png)
 
@@ -42,11 +43,13 @@ Audited by **Hacken** and listed in the **official MetaMask Snaps Directory**, i
 In MetaMask, choose **Add Network** and enter:
 
 For **BNB SmartChain**;
+```markdown
 -  **Name**: BNB Smart Chain
--  **RPC URL**: `https://bsc-dataseed.binance.org`
--  **Chain ID**: `56`
--  **Symbol**: `BNB`
--  **Block Explorer URL**: `https://bscscan.com`
+-  **RPC URL**: https://bsc-dataseed.binance.org
+-  **Chain ID**: 56
+-  **Symbol**: BNB
+-  **Block Explorer URL**: https://bscscan.com
+```
 
 For **Zcash Mainnet**;
 - **Name:** Zcash Mainnet  
@@ -82,8 +85,8 @@ This enables network info and explorer links.
 
 ## **4. Fund Your Wallet**
 
-- **Swap ETH -> ZEC** - Use services like **LeoDex** and send to your shielded address.  
-- **Exchange Withdrawal** - Withdraw purchased ZEC to your WebZjs shielded address.  
+> **Swap ETH -> ZEC** - Use services like **LeoDex** and send to your shielded address.  
+> **Exchange Withdrawal** - Withdraw purchased ZEC to your WebZjs shielded address.  
 
 ![LEODEX-SWAP](https://hackmd.io/_uploads/HyLQ0G2ugg.png)
 
@@ -96,12 +99,14 @@ This enables network info and explorer links.
 
 1. In **WebZjs**, go to **Transfer Balance**.  
 2. Enter:
+```
    - Shielded recipient address  
-   - Amount  
+   - Amount
+```
    ![Transfer-Balance](https://hackmd.io/_uploads/rkvcFfhdex.png)
 
-3. Confirm transaction in MetaMask (sign the transaction).  
-4. Received funds will appear in WebZjs after confirmation.
+4. Confirm transaction in MetaMask (sign the transaction).  
+5. Received funds will appear in WebZjs after confirmation.
 
 ---
 
@@ -109,10 +114,12 @@ This enables network info and explorer links.
 
 - Check **WebZjs** for updated balances **(MetaMask has not listed ZEC directly)** .  
 - If issues occur:
+  ```
   - Confirm you have the official ChainSafe Snap.  
   - Check correct network settings.  
   - Ensure correct address format.  
-  - Reconnect via **Connect Snap** if needed.  
+  - Reconnect via **Connect Snap** if needed.
+  ``` 
 
 > **Security Tip:** Only install the **audited ChainSafe Snap**; review permissions before approval.
 
@@ -123,10 +130,12 @@ This enables network info and explorer links.
 1. Go to the **Receive** section - your Unified Address will be displayed by default.  
 2. Copy the Unified Address and visit the [Zcash Block Explorer](https://mainnet.zcashexplorer.app/).  
 3. Paste your Unified Address into the search bar.  
-4. You will now see all the components of the Unified Address, which include:  
-   - Orchard Address  
-   - Sapling Address  
-   - Transparent Address  
+4. You will now see all the components of the Unified Address, which include:
+``` 
+   Orchard Address  
+   Sapling Address  
+   Transparent Address
+``` 
 
 ![Address-components](https://hackmd.io/_uploads/SyPR2f2_gg.png)
 
@@ -137,10 +146,11 @@ This enables network info and explorer links.
 ## **Additional Notes**
 
 > Use the [**latest MetaMask version**](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) - public release supports Snaps.  
-> Shielded proofs may take time; WebAssembly handles computation in-browser.  
-> Recovery is simple — install MetaMask and the Snap, then import your existing seed.  
-> The Snap defaults to **shielded ZEC**; transparent addresses are **not the focus**.  
+> Shielded proofs may take time, WebAssembly handles computation in-browser.  
+> Recovery is simple,install MetaMask and the Snap, then import your existing seed.  
+> The Snap defaults to **shielded ZEC**, transparent addresses are **not the focus**.  
 > Use [zcashblockexplorer.com](https://zcashblockexplorer.com) for transaction confirmations.
+
 
 
 
