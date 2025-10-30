@@ -7,31 +7,23 @@
 
 # Cypherpunk Zero
 
-Cypherpunk Zero is a story telling series centered around Zero, a young cypherpunk hacker and freedom fighter. Zero is currently living in a dystopian nightmare and she uses code to fight against the centralized gatekeepers shackling society.
-
-The story was inspired by Zcash and Halo cryptography. The creative work is a collaborative effort between ECC, Stranger World, Might Jaxx and select ecosystem partners.
-
-The creative work has most notably focused on an [NFT series](https://opensea.io/collection/cypherpunk-zero), but a [prologue comic](https://halo.electriccoin.co/#view-prologue) and [collectible toy](https://mightyjaxx.com/products/cypherpunk-zero) have also been released.
-
-The NFT community, mostly active on Twitter, has even created a [decentralized organization (DAO)](https://twitter.com/CypherpunkDAO) to organize and complete projects supporting the campaign, and the broader Zcash community.
+Cypherpunk Zero is a story telling series centered around Zero, a young cypherpunk hacker and freedom fighter. Zero is currently living in a dystopian nightmare and she uses code to fight against the centralized gatekeepers shackling society. The story was inspired by Zcash and Halo cryptography. The creative work is a collaborative effort between ECC, Stranger World, Might Jaxx and select ecosystem partners. The creative work has most notably focused on an [NFT series](https://opensea.io/collection/cypherpunk-zero), but a [prologue comic](https://halo.electriccoin.co/#view-prologue) and [collectible toy](https://mightyjaxx.com/products/cypherpunk-zero) have also been released. The NFT community, mostly active on Twitter, has even created a [decentralized organization (DAO)](https://twitter.com/CypherpunkDAO) to organize and complete projects supporting the campaign, and the broader Zcash community.
 
 ## Anti-roadmap Roadmap
 
-We have seen too many projects over-promise and under deliver on their NFT roadmaps. As such, there is no formal roadmap.
-
-Trust that we have got some amazing, exclusive perks in the pipeline for NFT holders some expected, some unexpected. Buckle up and join us for the ride.
+We have seen too many projects over-promise and under deliver on their NFT roadmaps. As such, there is no formal roadmap. Trust that we have got some amazing, exclusive perks in the pipeline for NFT holders some expected, some unexpected. Buckle up and join us for the ride.
 
 ## Governance
 
-  * [Snapshot](https://vote.cypherpunkzero.com/)
+[Snapshot](https://vote.cypherpunkzero.com/)
 
-  * [Guild](https://guild.xyz/cypherpunkzerodao)
+[Guild](https://guild.xyz/cypherpunkzerodao)
 
-  * [Commonwealth](https://commonwealth.im/cypherpunk-zero)
+[Commonwealth](https://commonwealth.im/cypherpunk-zero)
 
 ## Who is Stranger Wolf?
 
-[Stranger Wolf YouTube Channel](https://www.youtube.com/channel/UCFs8hIei9YdOJat7olR8iuQ)
+<iframe width="640" height="360" src="https://www.youtube.com/channel/UCFs8hIei9YdOJat7olR8iuQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Which chain are the NFT's located?
 
@@ -40,15 +32,16 @@ Trust that we have got some amazing, exclusive perks in the pipeline for NFT hol
 ## What are the token allocations?
 
 *Total supply*: 10,000 unique generative NFTs on Ethereum Mainnet
-- 4% of supply (the first 400 NFTs) was airdropped to the projects early supporters who purchased the Zcash X Mighty Jaxx: Cypherpunk Zero Genesis Edition Toy 59.
-- 72% of supply (7,200 NFTs) will be released to the public using a novel whitelisting mechanism that requires using a Zcash wallet supporting encrypted memos (more details below).
-- 24% of supply (2,400 NFTs) will be held by ECC in the Cypherpunk Reserve, for use in future initiatives that advance Zcash and privacy within the Web3 space.
+4% of supply (the first 400 NFTs) was airdropped to the projects early supporters who purchased the Zcash X Mighty Jaxx: Cypherpunk Zero Genesis Edition Toy 59.
+
+72% of supply (7,200 NFTs) will be released to the public using a novel whitelisting mechanism that requires using a Zcash wallet supporting encrypted memos (more details below).
+
+24% of supply (2,400 NFTs) will be held by ECC in the Cypherpunk Reserve, for use in future initiatives that advance Zcash and privacy within the Web3 space.
+
 
 # Cypherpunk Zero v2 Whitelist 
 
-Yes the original collection got hacked, that is why we are making it even better! 
-
-<iframe style={{ border: 'none', width: '100%' }} height="540px" src="https://blocksurvey.io/copy-of-cypherpunk-v2-whitelist-KgRTgcGRTLePbNqIKRRuMA?v=o" />
+Yes the original collection got hacked, the future is unwritten.
 
 ## Resources
 
