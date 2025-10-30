@@ -6,9 +6,16 @@
 
 **Why keep your private key?** 
 
-Private keys are the secret to the security of your digital assets. Keeping them safe and never sharing them with third parties is essential.
+Private keys are the secret to the security of your digital assets. Keeping them safe and never sharing them with third parties is essential. 
+
+> In this context a **Seed Phrase** can be seen as the equivalent of a private key.
 
 By maintaining control over your private keys, the recovery process is always possible. There are 2 types of Zcash private keys (transparent and shielded), you can easily import them into your wallet, whether by using the Sweep Funds function or importing them as a new account. By keeping control over your private keys, you maintain total control over your assets, ensuring ownership, security and peace of mind.
+
+
+# Security and Responsibility
+
+It is crucial for users to understand the risks involved in dealing with private keys and to keep these keys protected from unauthorized access. The security of funds depends on the user's responsibility to safeguard their private keys.
 
 
 ## Fund Recovery with Ywallet
@@ -49,6 +56,20 @@ Note: if you held funds in a wallet that does not support shielded addresses (Tr
 5. Enter the Value Pool for the destination you wish to use (Exchanges use Transparent)
 
 6. Enter the Destination Address for where you wish to deposit funds. 
+
+
+## Zkool
+
+Please check out the detailed Zkool documentation for another avenue for fund recovery:
+
+<a href="https://hhanh00.github.io/zkool2/guide/start.html">Zkool Docs</a> | <a href="https://github.com/hhanh00/zkool2/">Github</a>
+
+
+## ZExCavator
+
+ZExCavator is a tool that recovers (excavates!) possibly lost ZEC:
+
+<a href="https://zexcavator.com/">ZExCavator</a> | <a href="https://github.com/zingolabs/zexcavator">Github</a>
 
 
 **Security and Responsibility:**
