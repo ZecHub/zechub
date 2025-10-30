@@ -12,7 +12,7 @@ The technical proposal for TEX addresses is outlined in Zcash [ZIP 320](https://
 
 You need a TEX address when you are to send funds to a centralized exchange, that only supports funds coming from a **transparent source**. 
 
-With a TEX, a user's wallet has the possibilty to "understand" that all the funds sent to that address must be transparent, and exclude every shielded value from being sent to said address.
+With a TEX, a user's wallet has the possibilty to understand that all the funds sent to that address must be transparent, and exclude every shielded value from being sent to said address.
 
 That way, if an exchange like Binance rejects the sent value, it has the necessary means to return said value back to the address it came from. It also helps entities like Binance to comply with the laws and regulations imposed by governments or other authorities.
 
