@@ -10,9 +10,7 @@ When sending a Z2Z (shielded-to-shielded) transaction, you're able to include a 
 
 #### Signing Transactions
 
-Memos are primarily used for singing payments. Since shielded transactions encrypt your data, you're not able to see who sent you ZEC, and what the ZEC might've been for.
-
-Users can use the memo field to sign their name or pseudonym to let their counterpart know who the transaction was from. They can also describe what the transaction was for.
+Memos are primarily used for singing payments. Since shielded transactions encrypt your data, you're not able to see who sent you ZEC, and what the ZEC might've been for. Users can use the memo field to sign their name or pseudonym to let their counterpart know who the transaction was from. They can also describe what the transaction was for.
 
 #### Sending a Message
 
@@ -20,9 +18,13 @@ Another use case for the encrypted memo is to send a message to someone with a z
 
 #### Love Notes on the Blockchain
 
-There was a person who sent their partner a love note in one of the first blocks in the Zcash blockchain. Someone found that their partner had sent them a file via a Zcash memo. This file was a ticket to a special event, overseas, that she and her distant lover had been talking about attending together.
+There was a person who sent their partner a love note in one of the first blocks in the Zcash blockchain. Someone found that their partner had sent them a file via a Zcash memo. This file was a ticket to a special event, overseas, that she and her distant lover had been talking about attending together. The memo was a love note.
 
-The memo was a love note.
+#### Advanced
+
+Here is how to use Zcash Shielded Memos with the Magic-Wormhole CLI and zcashd to securely send files from one computer to another!: 
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/8iqPCza9o6A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Resources
 
