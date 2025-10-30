@@ -5,11 +5,11 @@
 The following is collection of most Zcon related media in an easy to find location.
 
 # Zcon
-Zcon is an annual conference organized by the [Zcash Foundation](https://zfnd.org/).
+Zcon is an annual conference organized by the [Zcash Foundation](https://zfnd.org/).
 
 ## Zcon0: Privacy from A to Zcon
 
-Zcon0 was our first annual conference, and it went incredibly well. We spent June 26-28th 2018 in beautiful Montréal
+Zcon0 was our first annual conference, and it went incredibly well. We spent June 26-28th 2018 in beautiful Montreal
 
 [Zcon0 Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
 
@@ -46,7 +46,7 @@ ZconV took place on May 6th-10th, 2024. ZconV was a virtual conference
 
 ## ZconVI: Synergy Through Decentralization
 
-ZconVI took playce on March 4th-7th, 2025. ZconVI was a virutal conference
+ZconVI took place on March 4th-7th, 2025. ZconVI was a virutal conference
 
 [ZconVI Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLIIhRk8vu2hkPL_q7OWO7wk)
 
