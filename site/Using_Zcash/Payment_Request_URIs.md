@@ -10,34 +10,25 @@ URI stands for Universal Resource Identifier. They are QR codes that act to pref
 
 ## Use Cases of Payment Requests 
 
-Online Shopping. Checkout Payment requests are initiated by customers during online purchases.
+```markdown
+- Online Shopping.                    Checkout Payment requests are initiated by customers during online purchases.
+- Hotel and Accommodation Bookings.   Various booking platforms leverage payment request URLs for hotel reservations.
+- Online Bill Payments.               Utility companies use payment request URLs to enable customers to offset their bills seamlessly. 
+- Event Ticket Purchases.             Event organizers across borders use this mechanism to make ticket purchases easier.
+- P2P Payments.                       Individuals can easily send payment requests to family and friends via messaging apps, with payment links embedded in the messages.
+```
 
-Hotel and Accommodation Bookings. Various booking platforms leverage payment request URLs for hotel reservations.
-
-Online Bill Payments. Utility companies use payment request URLs to enable customers to offset their bills seamlessly. 
-
-Event Ticket Purchases. Event organizers across borders use this mechanism to make ticket purchases easier.
-
-P2P Payments. Individuals can easily send payment requests to family and friends via messaging apps, with payment links embedded in the messages.
-
-## Code Example
+## Details
 
 [ZIP 321](https://zips.z.cash/zip-0321) defines how to construct your own custom payment URI. 
 
+How to make Payment Requests with Zcash: 
 
-### Mobile Wallet Guide
+<iframe width="640" height="360" src="https://www.youtube.com/embed/l5auYQIzYsQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Below is a step by step guide to creating a unique QR code; this method is exclusively for YWallet users.
 
-Firstly, open your YWallet then hit the QR code button.
+### Code Example
 
-![](https://i.ibb.co/cNZXj6b/Screenshot-2024-1.png)
+Adding a Zcash Donation Widget to your Website: 
 
-Check the following address types, fill in your desired amount, and enter your memo preferences.
-
-![](https://i.ibb.co/MVpDHMK/Screenshot-3.png)
-
-Finally, click the QR code, then hit save - boom! You can now share your QR code with friends or social media communities to initiate transactions.
-
-![](https://i.ibb.co/rpLgJ7P/Screenshot-4.png)
-
+<iframe width="640" height="360" src="https://www.youtube.com/embed/NbP4BcHC0uM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
