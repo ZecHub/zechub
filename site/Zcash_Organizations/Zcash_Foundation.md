@@ -98,16 +98,16 @@ For more information about Minor Grants, you can consult the [Zcash Forum](https
 ## Highlighted Zcash Foundation Videos
   
 **Zebrad for Linux Tutorials**
-  
-https://www.youtube.com/playlist?list=PL40dyJ0UYTLI671cVldA_DhFSYxNwUJeQ
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?si=SZKFP5eAFDJ0MjJj&amp;list=PL40dyJ0UYTLI671cVldA_DhFSYxNwUJeQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **How to Zcash**
 
-https://www.youtube.com/playlist?list=PL40dyJ0UYTLKyRbrz0sVLSWUh6bdVsQE1
+<iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?si=fIbX-UP6HCMET0R2&amp;list=PL40dyJ0UYTLKyRbrz0sVLSWUh6bdVsQE1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Zcon Vozes: Brasil 2023**
 
-https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm_hwYzpEPOOafwihL_mIu
+<iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?si=2h0YZZuRvayZ34Fb&amp;list=PL40dyJ0UYTLJm_hwYzpEPOOafwihL_mIu" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Zcash Foundation Board of Directors Members: Marta Belcher & J.W. Verret**
 
@@ -115,11 +115,12 @@ https://www.youtube.com/watch?v=D_M1QqhRk8E&list=PL40dyJ0UYTLI4cD6vfIZ8wt_8mUwPp
 
 **Arti: ZF + ZCG Call w/ the Tor Project**
 
-https://www.youtube.com/watch?v=E7g9dKBOYEI&list=PL40dyJ0UYTLLA3t2bIBqorYsbtnX-kEyq&index=1
+<iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?si=x7WXFi3JMGrYVY4l&amp;list=PL40dyJ0UYTLLA3t2bIBqorYsbtnX-kEyq" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 **Community Calls for ZCAP Votes**
 
-[Community Calls for ZCAP Votes](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLcfeghHf_2u-2qc26k9GEA)
+<iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?si=3_ccLKMzaNbBUxNm&amp;list=PL40dyJ0UYTLLcfeghHf_2u-2qc26k9GEA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **AMA with ZF Executive Director Jack Gavigan**
 
