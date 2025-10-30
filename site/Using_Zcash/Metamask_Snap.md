@@ -1,33 +1,37 @@
 # MetaMask Zcash Snap Integration Guide
 
-![How-to-use Zec-...](https://hackmd.io/_uploads/SkHNgznOle.png)
+For For a full walkthrough and visual explanation, watch this [**YouTube guide**](https://www.youtube.com/watch?v=UJh9Ilkohdw): 
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/UJh9Ilkohdw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
 MetaMask now supports **shielded Zcash (ZEC)** via the **ChainSafe-developed Zcash Snap**, allowing you to send, receive, and manage private ZEC directly in your browser wallet.  
-Audited by **Hacken** and listed in the **official MetaMask Snaps Directory**, it requires **no separate Zcash software** — only MetaMask and the Snap.
+Audited by **Hacken** and listed in the **official MetaMask Snaps Directory**, it requires **no separate Zcash software** - only MetaMask and the Snap.
 
 ---
 
 ## **Prerequisites**
 
+
 - [**MetaMask Extension**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) (desktop only) – Chrome, Edge, or Firefox.  
-- **MetaMask Account** – Seed phrase secured; Snap derives Zcash keys from it.  
-- **Stable Internet Connection** – For syncing with the Zcash network.  
-- **Funds** – ETH to swap for ZEC or ZEC from an exchange.
+- **MetaMask Account** - Seed phrase secured; Snap derives Zcash keys from it.  
+- **Stable Internet Connection** - For syncing with the Zcash network.  
+- **Funds** - ETH to swap for ZEC or ZEC from an exchange.
 
 
 
 
-> 💡 **Tip:** Protect your MetaMask recovery phrase — it controls both ETH and ZEC.
+
+> **Tip:** Protect your MetaMask recovery phrase - it controls both ETH and ZEC.
 
 ---
 
 ## **1. Install the Zcash Snap**
 
 1. Go to the [**MetaMask Snaps Directory**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/).  
-2. Search for [**“Zcash Shielded Wallet”**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) or [**“WebZjs Zcash Snap”**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/).  
-3. Click **Install/Add to MetaMask**.  
+2. Search for [**"Zcash Shielded Wallet"**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) or [**"WebZjs Zcash Snap"**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/).  
+3. Click **Install/Add to MetaMask**.
 4. Approve permissions such as:
    - Manage Zcash accounts  
    - Store data on your device  
@@ -82,8 +86,8 @@ This enables network info and explorer links.
 
 ## **4. Fund Your Wallet**
 
-- **Swap ETH → ZEC** – Use services like **LeoDex** and send to your shielded address.  
-- **Exchange Withdrawal** – Withdraw purchased ZEC to your WebZjs shielded address.  
+- **Swap ETH -> ZEC** – Use services like **LeoDex** and send to your shielded address.  
+- **Exchange Withdrawal** - Withdraw purchased ZEC to your WebZjs shielded address.  
 
 ![LEODEX-SWAP](https://hackmd.io/_uploads/HyLQ0G2ugg.png)
 
@@ -114,13 +118,13 @@ This enables network info and explorer links.
   - Ensure correct address format.  
   - Reconnect via **Connect Snap** if needed.  
 
-> ⚠️ **Security Tip:** Only install the **audited ChainSafe Snap**; review permissions before approval.
+> **Security Tip:** Only install the **audited ChainSafe Snap**; review permissions before approval.
 
 ---
 
 ## **7. Check Address Components**
 
-1. Go to the **Receive** section — your Unified Address will be displayed by default.  
+1. Go to the **Receive** section - your Unified Address will be displayed by default.  
 2. Copy the Unified Address and visit the [Zcash Block Explorer](https://mainnet.zcashexplorer.app/).  
 3. Paste your Unified Address into the search bar.  
 4. You will now see all the components of the Unified Address, which include:  
@@ -142,9 +146,7 @@ This enables network info and explorer links.
 - The Snap defaults to **shielded ZEC**; transparent addresses are **not the focus**.  
 - Use [zcashblockexplorer.com](https://zcashblockexplorer.com) for transaction confirmations.
 
-For For a full walkthrough and visual explanation, watch this [**YouTube guide**](https://www.youtube.com/watch?v=UJh9Ilkohdw): 
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/UJh9Ilkohdw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
