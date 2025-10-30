@@ -23,7 +23,7 @@ We have seen too many projects over-promise and under deliver on their NFT roadm
 
 ## Who is Stranger Wolf?
 
-<iframe width="640" height="360" src="https://www.youtube.com/channel/UCFs8hIei9YdOJat7olR8iuQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/KF-VwIOYDlE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Which chain are the NFT's located?
 
