@@ -6,10 +6,17 @@
 
 There are currently 4 [value pools](https://zcash.readthedocs.io/en/latest/rtd_pages/addresses.html) in Zcash. Sprout, Sapling, Orchard and Transparent. 
 
+<img width="1740" height="876" alt="pools" src="https://github.com/user-attachments/assets/4ba8cca2-cea5-42d2-8ec2-2122b26f5144" />
+
+
 
 ## Shielded Pools
 
-![Zcash Orchard](https://i.ibb.co/tZ9zVVx/image-2024-02-03-172700611.png)
+
+### Orchard
+
+<img width="1754" height="854" alt="Orchard" src="https://github.com/user-attachments/assets/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72" />
+
 
 The Orchard Shielded Pool was launched on the 31st of May, 2022. Orchard addresses are also known as Unified Addresses (UA). 
 
@@ -25,7 +32,10 @@ Transactions within Orchard will improve the reduction of transaction metadata &
 
 ____
 
-![Sapling](https://i.ibb.co/5c5Wp1G/image-2024-02-03-172752332.png)
+### Sapling
+
+<img width="1756" height="854" alt="sapling" src="https://github.com/user-attachments/assets/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae" />
+
 
 [Zcash Sapling](https://z.cash/upgrade/sapling) was an upgrade to the Zcash protocol introduced on 28th of October, 2018. It is a major improvement over the earlier version of the known as Sprout which had some limitations in terms of privacy, efficiency and usability. 
 
@@ -39,20 +49,10 @@ Sapling wallet addresses begin with "zs" and this can be observed in all support
 
 ____
 
-## Transparent 
+### Sprout
 
-The Zcash Transparent pool is unshielded and non-private. Transparent wallet address on Zcash start with the letter "t", privacy is very low in using this address type for transactions.
+<img width="1758" height="870" alt="sprout" src="https://github.com/user-attachments/assets/956eceed-f4d6-4087-99d0-32a770449dda" />
 
-Transparent transactions in Zcash are similar to Bitcoin transactions which supports multi-signature transactions and make use of standard public addresses.
-
-The Zcash Transparent are mostly used by centralized exchanges to ensure there's high transparency and network confirmation when sending and receiving ZEC between users.
-
-It's also important to note that while Zcash Shielded addresses provides high privacy during transactions, they also require more computational resources to process transactions. Therefore, some users may adopt Transparent addresses for transactions which doesn't require the same level of privacy.
-____
-
-
-
-![Sprout](https://i.ibb.co/7StKLRT/image-2024-02-03-172822692.png)
 
 Sprout was the first ever open permissionless Zero Knowledge privacy protocol ever launched. It was launched on the 28th of October, 2016.
 
@@ -63,6 +63,18 @@ Sprout was used as an early tool for [Zcash slow start Mining](https://electricc
 As the Zcash ecosystem continued  to expand with increasing number of shielded transactions, it was observed that the Zcash Sprout Series became limited and less efficient when it comes to user privacy, transaction scalability and processing. This led to the modification of the network and Sapling Upgrade. 
 
 
+## Transparent 
+
+<img width="1760" height="880" alt="transparent" src="https://github.com/user-attachments/assets/01de2907-b62d-4421-83d7-ea4908faa828" />
+
+
+The Zcash Transparent pool is unshielded and non-private. Transparent wallet address on Zcash start with the letter "t", privacy is very low in using this address type for transactions.
+
+Transparent transactions in Zcash are similar to Bitcoin transactions which supports multi-signature transactions and make use of standard public addresses.
+
+The Zcash Transparent are mostly used by centralized exchanges to ensure there's high transparency and network confirmation when sending and receiving ZEC between users.
+
+It's also important to note that while Zcash Shielded addresses provides high privacy during transactions, they also require more computational resources to process transactions. Therefore, some users may adopt Transparent addresses for transactions which doesn't require the same level of privacy.
 ____
 
 
