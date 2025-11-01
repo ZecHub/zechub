@@ -4,7 +4,7 @@
 
 # Contributing to ZecHub
 
-ZecHub helps people learn about Zcash. If you're reading this page, we're really excited that you're considering contributing! Any contribution you make will be reflected on [zechub.wiki](https://www.zechub.wiki/) and other ZecHub social media.
+ZecHub helps people learn about Zcash. If you are reading this page, we are really excited that you're considering contributing! Any contribution you make will be reflected on [zechub.wiki](https://www.zechub.wiki/) and other ZecHub social media.
 
 ### New contributors
 
@@ -13,7 +13,7 @@ To get an overview of ZecHub, read the [README](https://github.com/ZecHub/zechub
 
 ### Getting started
 
-ZecHub uses GitHub to manage community contribution. If you're new to GitHub, don't worry! We're going to break down how you can get involved as a community contributor to ZecHub. We pay out tips in ZEC for accepted contribution. In this guide you will get an overview of the contribution workflow from opening an issue, creating a pull request (PR), reviewing, and merging the PR.
+ZecHub uses GitHub to manage community contribution. If you are new to GitHub, not to worry! We are going to break down how you can get involved as a community contributor to ZecHub. We pay out tips in ZEC for accepted contribution. In this guide you will get an overview of the contribution workflow from opening an issue, creating a pull request (PR), reviewing, and merging the PR.
 
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/8eYDTyV39a4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -29,7 +29,7 @@ Any contribution to ZecHub should follow the [ZecHub style guides](https://githu
 
 ### Ways you can contribute
 
-ZecHub is a community-driven project that aims to provide support and resources for Zcash users and developers. There are many ways to get involved with ZecHub, including writing for our weekly newsletter, contributing to our knowledge base, or helping out with development projects.
+ZecHub is a community driven project that aims to provide support and resources for Zcash users and developers. There are many ways to get involved with ZecHub, including writing for our weekly newsletter, contributing to our knowledge base, or helping out with development projects.
 
 These are the types of contribution that ZecHub currently accepts:
 
@@ -57,11 +57,11 @@ Our wiki site provides Zcash education materials in an easy and digestible forma
 - Privacy Ecosystem & Tools
 ```
 
-These are pretty broad areas, so there's a lot to work from. If you want some inspiration, check out our current [wiki-docs site](https://zechub.wiki/) and see what's missing. Once you determine what you want to write, start to make your changes and learn how to submit a PR to the ZecHub repo. All of our docs are created and maintained in this repo. Use the [docs template](https://github.com/ZecHub/zechub/blob/main/template.md) and follow the [ZecHub style](https://zechub.wiki/contribute/style-guide) when writing a wiki page. After you submit a PR, please message @dismad, @squirrel, or @vito in the #zechub section of the discord, and they will review your PR and merge if it is ready to be added to the site. If merged, they will add the doc to the ZecHub website. If the doc is not ready, they will suggest edits for you in the PR.
+These are pretty broad areas, so there is a lot to work from. If you want some inspiration, check out our current [wiki-docs site](https://zechub.wiki/) and see what's missing. Once you determine what you want to write, start to make your changes and learn how to submit a PR to the ZecHub repo. All of our docs are created and maintained in this repo. Use the [docs template](https://github.com/ZecHub/zechub/blob/main/template.md) and follow the [ZecHub style](https://zechub.wiki/contribute/style-guide) when writing a wiki page. After you submit a PR, please message @dismad, @squirrel, or @vito in the #zechub section of the discord, and they will review your PR and merge if it is ready to be added to the site. If merged, they will add the doc to the ZecHub website. If the doc is not ready, they will suggest edits for you in the PR.
 
 #### ZecHub Wiki - 0.015 ZEC per accepted edit to docs
 
-Sometimes our information in the docs isn't spot on. That's okay. That's why we open-source them! If you find something that needs a change in a wiki-doc, please go to the footer of the doc (which links to its Github page) and suggest a change via a PR.
+Sometimes our information in the docs is not spot on. Thats okay. That is why we open-source them! If you find something that needs a change in a wiki-doc, please go to the footer of the doc (which links to its Github page) and suggest a change via a PR.
 
 #### ZecHub Wiki - 0.005 ZEC per broken link fixed
 
@@ -69,11 +69,11 @@ If you find that a link is broken, or something important is mispelled, please g
 
 #### Newsletter - 0.05 ZEC per edition
 
-We produce the ecosystem's weekly newsletter. This is a super low lift / easy way to get involved! The newsletter goes out every Friday or Saturday. If you want to write a newsletter, message @squirrel or @tokidoki in the #zecweekly section of the Discord to let them know.
+We produce the ecosystems weekly newsletter. This is a super low lift / easy way to get involved! The newsletter goes out every Friday or Saturday. If you want to write a newsletter, message @squirrel in the #zecweekly section of the Discord to let them know.
 
 After you do that, you can go to the [newsletter section of this repository](/newsletter/newsletterbasics.md) and submit a pull request to create a new edition of the newsletter. Please follow the format used in this [template](/newsletter/newslettertemplate.md).
 
-After you do this @squirrel or @tokidoki (in Discord) will see that your new edition of the newsletter available, and they'll review and then merge it to the repository. After it's been merged, they'll take the content and post it via Substack.
+After you do this @squirrel or (in Discord) will see that your new edition of the newsletter available, and they'll review and then merge it to the repository. After it's been merged, they'll take the content and post it via Substack.
 
 
 #### Podcast - .25 ZEC per episode posted on ZecHub socials
