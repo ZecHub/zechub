@@ -9,36 +9,44 @@ Nym is an evolving mix network (mixnet), a type of computer network infrastructu
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/gSeECj4ddYA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## What to use NymVPN for:
+
 
 ### Access geo restricted content
+
 Bypass geo-restrictions to access streaming services, websites, or content unavailable in your region.
 
 ### Enhance your security on public WiFi
+
 Protect your data from hackers when using public Wi-Fi in cafes, airports, or hotels.
 
 ### Advanced Privacy In One 
+
 Protect your privacy
 Encrypt your internet connection to hide your online activities from ISPs, advertisers, and data trackers.
 
 ### Be anonymous online
+
 Mask your IP address to remain anonymous while browsing, avoiding profiling or targeted ads.
 
 ### Avoid bandwidth throttling
+
 Prevent ISPs from slowing down your internet connection when streaming or gaming.
 
 ### Prevent surveillance and censorship
+
 Bypass censorship and access blocked websites or social media in restrictive countries.
 
 ### Secure online banking
+
 Protect sensitive financial information when accessing online banking or making payments.
 
 ### Avoid dynamic pricing
+
 Hide your location to avoid price discrimination based on location for flights, hotels, or products.
 
 ### Protect your crypto transactions
-Protect your cryptocurrency activities with NymVPN's unlinkable payments and advanced metadata protection.
 
+Protect your cryptocurrency activities with NymVPN's unlinkable payments and advanced metadata protection.
 
 
 ## Nym VPN Installation Guides:
