@@ -12,9 +12,13 @@ If you're reading this page, we're really excited that you're considering contri
 
 To get an overview of ZecHub, read the [README](https://github.com/ZecHub/zechub/blob/main/README.md).
 
+
 ### Getting started
 
 ZecHub uses GitHub to manage community contribution. If you're new to GitHub, don't worry! We're going to break down how you can get involved as a community contributor to ZecHub. We pay out tips in ZEC for accepted contribution. In this guide you will get an overview of the contribution workflow from opening an issue, creating a pull request (PR), reviewing, and merging the PR.
+
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/8eYDTyV39a4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### Join the conversation
@@ -23,7 +27,7 @@ First, join the conversation in our [community links](https://zechub.wiki/zcash-
 
 ### Style Guides
 
-Any contribution to ZecHub should follow the [ZecHub style guides](/styles/guide.md). This includes wikis, docs and social media contents.
+Any contribution to ZecHub should follow the [ZecHub style guides](https://github.com/ZecHub/zechub/blob/main/styles/guide.md). This includes wikis, docs and social media contents.
 
 ### Ways you can contribute
 
@@ -74,35 +78,16 @@ After you do that, you can go to the [newsletter section of this repository](/ne
 After you do this @squirrel or @tokidoki (in Discord) will see that your new edition of the newsletter available, and they'll review and then merge it to the repository. After it's been merged, they'll take the content and post it via Substack.
 
 
-### Podcast - .25 ZEC per episode posted on ZecHub socials
+#### Podcast - .25 ZEC per episode posted on ZecHub socials
 
 Do you have an idea for a news show, podcast, Twitter talk, or other video/audio thing? Tell us in Discord #video-content and we will talk.
 
 Rewards for this type of content are a bit larger, so a proposal would need to be submitted to ZecHub's DAO before approving the spend.
 
-### Creative social media posts
 
-We want new engaging content for our social media. You can get up to .75 ZEC for short videos, GIFs, memes or other creative posts. Follow the [ZecHub style](#style-guides) when creating a social media post.
-
-You can also design thumbnails for our newsletter and podcast. If you have design talent, message us in #design on Discord.
-
-### Other ideas? Let us know!
+#### Other ideas? Let us know!
 
 Have another suggestion? Tell us in #general on Discord. We can discuss it and see if ZecHub's DAO will support it.
-
-## Issues
-
-### Create a new issue
-
-If you spot a problem with ZecHub contents, [search if an issue already exists](https://github.com/ZecHub/zechub/issues). If a related issue doesn't exist, you can open a new issue using a relevant [issue form](https://github.com/zechub/zechub/issues/new/choose).
-
-### Solve an issue
-
-Scan through our [existing issues](https://github.com/zechub/zechub/issues) to find one that interests you. You can narrow down the search using labels as filters. As a general rule, we do not assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix.
-
-## Make Changes
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/8eYDTyV39a4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### To Finish
 
