@@ -1,8 +1,6 @@
 # How to Send and Receive Shielded Zcash (ZEC) with Brave Wallet: A Step-by-Step Privacy Guide
 
-
-## What is Brave Wallet?
-A secure, native crypto wallet built directly into the Brave browser - no extensions required.
+Brave Wallet is a secure, native crypto wallet built directly into the Brave browser - no extensions required.
 
 
 ## Why Shielded ZEC Support Matters
@@ -13,6 +11,7 @@ Zcash is one of the only cryptocurrencies offering privacy by default with shiel
 Brave Wallet now supports Orchard shielded ZEC, enabling private transactions without third-party software.
 
 Users can now send/receive ZEC without revealing balances or metadata - all within the Brave browser.
+
 
 ## Tutorial
 
