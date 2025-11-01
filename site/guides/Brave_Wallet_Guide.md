@@ -14,7 +14,10 @@ Brave Wallet now supports Orchard shielded ZEC, enabling private transactions wi
 
 Users can now send/receive ZEC without revealing balances or metadata - all within the Brave browser.
 
+## Tutorial
 
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/TNcHY-GXFVo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Part 1: Setting Up Brave Wallet
@@ -99,7 +102,9 @@ Here’s an explanation for each Zcash address type:
 
 
 
+## Advanced
 
+<iframe width="640" height="360" src="https://www.youtube.com/embed/AmTMa5HXa2w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Conclusion: Privacy Made Practical
 
