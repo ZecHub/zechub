@@ -1,5 +1,10 @@
 # Maya Decentralised Exchange
 
+## Tutorial
+
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/f1k6xhNfTV8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## What is Maya Protocol?
 
 Maya is a [decentralized exchange](https://nym.com/blog/what-is-dex) (DEX) system that enables trading of cryptocurrencies across different blockchains. You can, for example, swap Bitcoin (BTC) on the Bitcoin blockchain with Ethereum (ETH) on the Ethereum blockchain in an easy way, without holding the assets or involving any centralized authorities or Know Your Customer (KYC) procedures.
@@ -48,10 +53,16 @@ Also, Maya's goal is to become a *backend* for other services to build upon, in 
 Acting as a *backend*, Maya needs to be supported by different UI's and wallets to be used. 
 Here's a list with some of the services already supporting Maya:
 
-- [Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, Metamask, Keystore
--  [El Dorado](https://www.eldorado.market/): XDEFI, Keystore
--  [CacaoSwap](https://cacaoswap.app/): Keystore, MetaMask, XDEFI, Keplr, Leap
--  [Asgardex](https://www.asgardex.com/): Keystore, Ledger
--  [DefiSpot](https://www.defispot.com/t): XDEFI, Metamask, Keplr, Phantom, Walletconnect, Leap Wallet, Argeentx, Braavos, Trustwallet, and Rabby.
--  [XDEFI](https://www.xdefi.io/): a multi-ecosystem self-custody wallet with support for 30+ native blockchains, and all EVM and Cosmos chains, including Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, and more.
--  [KeepKey ](https://keepkey.com/): A hardware wallet for securely storing digital assets.
+[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, Metamask, Keystore
+
+[El Dorado](https://www.eldorado.market/): XDEFI, Keystore
+
+[CacaoSwap](https://cacaoswap.app/): Keystore, MetaMask, XDEFI, Keplr, Leap
+
+[Asgardex](https://www.asgardex.com/): Keystore, Ledger
+
+[DefiSpot](https://www.defispot.com/t): XDEFI, Metamask, Keplr, Phantom, Walletconnect, Leap Wallet, Argeentx, Braavos, Trustwallet, and Rabby.
+
+[XDEFI](https://www.xdefi.io/): a multi-ecosystem self-custody wallet with support for 30+ native blockchains, and all EVM and Cosmos chains, including Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, and more.
+
+[KeepKey ](https://keepkey.com/): A hardware wallet for securely storing digital assets.
