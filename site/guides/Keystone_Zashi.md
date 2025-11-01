@@ -1,30 +1,32 @@
 # Keystone Zashi User Guide
 
-[Zashi x Keystone Hardware Wallet Integration](https://x.com/zashi_app/status/1869793574880973144) 
+Twitter Guide:  => [Zashi x Keystone Hardware Wallet Integration Twitter Guide](https://x.com/zashi_app/status/1869793574880973144) 
 
 This integration marks a significant evolution in Zcash usability by enabling cold storage of shielded ZEC. The Zcash community has faced setbacks with other hardware wallet platforms in the past, but Keystone emerged as a collaborative partner willing to push boundaries and innovate alongside the Electric Coin Company. The Keystone team received a ZCG grant to fuel their side of the work.
 
 ## Keystone X Zashi Tutorial
-https://www.youtube.com/watch?v=ktYf7josJKM
 
+<iframe width="640" height="360" src="https://www.youtube.com/embed/ktYf7josJKM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Preparation
-1. [Order & Receive Your Keystone 3 Pro or Keystone 3](https://keyst.one) 
+[Order & Receive Your Keystone 3 Pro or Keystone 3](https://keyst.one) 
 
-2. Battery Level: Ensure your keystone device has a battery level above 20%.
+Battery Level: Ensure your keystone device has a battery level above 20%.
 
-3. USB Cable or SD Card:
-   - USB cable for firmware Update (included).
-   - Micro SD card (under 1 TB) for upgrades (purchase separately).
+USB Cable or SD Card:
+```markdown
+- USB cable for firmware Update (included).
+- Micro SD card (under 1 TB) for upgrades (purchase separately).
+```
+Access to Keystones official website for Verification and Firmware Update.
 
-4. Access to Keystones official website for Verification and Firmware Update.
-
-5. Zashi app setup on your mobile device.
+Zashi app setup on your mobile device.
 
 ## [Step by Step Guide(Keystone Device)](https://keyst.one/get-started) 
-- **Choose Your Language**
-- Device Verification(via QR): Device Verification is crucial to detect potential contamination during transportation, prevent supply chain attacks, and ensure the safety of installed firmware.
 
+```markdown
+**Choose Your Language**
+-Device Verification(via QR): Device Verification is crucial to detect potential contamination during transportation, prevent supply chain attacks, and ensure the safety of installed firmware.
   - Visit the Device Verification page on the Keystone website.
   - Click on Scan QR Code on the official website.
   - Use your Keystone camera to scan the QR code shown on the website.
@@ -60,10 +62,14 @@ https://www.youtube.com/watch?v=ktYf7josJKM
     - Scan the QR displayed on Keystone Device
     - In Zashi App: Confirm Keystone Wallet Account by tapping displayed account
     - Tap Connect on bottom of screen
+```
 
-[Connect Keystone Hardware Wallet to Zashi (Video)](https://www.youtube.com/watch?v=Jr6LqtD1W0s)
+## Extra Help
 
-[Sign an Outgoing Transaction with Keystone (Video)](https://www.youtube.com/watch?v=t_OHb1KqrRg)
+<iframe width="640" height="360" src="https://www.youtube.com/embed/Jr6LqtD1W0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Enjoy Cold Storage of Shielded ZEC w/ Zashi + Keystone
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/t_OHb1KqrRg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
