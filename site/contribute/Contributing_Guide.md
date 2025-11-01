@@ -4,9 +4,7 @@
 
 # Contributing to ZecHub
 
-> ZecHub helps people learn about Zcash
-
-If you're reading this page, we're really excited that you're considering contributing! Any contribution you make will be reflected on [zechub.wiki](https://www.zechub.wiki/) and other ZecHub social media 
+ZecHub helps people learn about Zcash. If you're reading this page, we're really excited that you're considering contributing! Any contribution you make will be reflected on [zechub.wiki](https://www.zechub.wiki/) and other ZecHub social media.
 
 ### New contributors
 
