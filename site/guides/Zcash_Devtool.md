@@ -20,7 +20,7 @@ The app has not been written with security in mind. It does however have afforda
 
 ### Advanced (librustzcash tutorial )
 
-<iframe width="640" height="360" src="https://free2z.cash/uploadz/public/ZcashTutorial/librustzcash-a-rust-crates.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://free2z.cash/uploadz/public/ZcashTutorial/librustzcash-a-rust-crates.mp4"></iframe>
 
 [view video here](https://free2z.cash/uploadz/public/ZcashTutorial/librustzcash-a-rust-crates.mp4)
 
