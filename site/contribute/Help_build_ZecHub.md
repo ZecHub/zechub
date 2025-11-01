@@ -23,7 +23,7 @@ Translate any of the existing wiki pages.
 
 Reporting bugs
 
-#### For details on bounty amounts, please read our contributing page -> [here](https://github.com/ZecHub/zechub/blob/main/CONTRIBUTING.md).
+#### For details on bounty amounts, please read our contributing page -> [here](https://zechub.wiki/contribute/contributing-guide#content).
 
 We post issues for tasks that we currently have bounties open. Primarily these are found as
 
