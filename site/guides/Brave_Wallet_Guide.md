@@ -2,7 +2,7 @@
 
 
 ## What is Brave Wallet?
-A secure, native crypto wallet built directly into the Brave browser — no extensions required.
+A secure, native crypto wallet built directly into the Brave browser - no extensions required.
 
 
 ## Why Shielded ZEC Support Matters
@@ -12,7 +12,7 @@ Zcash is one of the only cryptocurrencies offering privacy by default with shiel
 
 Brave Wallet now supports Orchard shielded ZEC, enabling private transactions without third-party software.
 
-Users can now send/receive ZEC without revealing balances or metadata — all within the Brave browser.
+Users can now send/receive ZEC without revealing balances or metadata - all within the Brave browser.
 
 
 
@@ -37,7 +37,7 @@ Users can now send/receive ZEC without revealing balances or metadata — all wi
 
 **Steps covered:**
 
-1. In the Wallet dashboard, click “Manage Assets”
+1. In the Wallet dashboard, click "Manage Assets"
 
 2. Search for ZEC and enable it
 
@@ -54,9 +54,9 @@ Users can now send/receive ZEC without revealing balances or metadata — all wi
 
 1. Click ZEC in your assets
 
-2. Select “Receive”
+2. Select "Receive"
 
-3. Brave generates a Unified Address (UA) — one address that supports both shielded and transparent transactions
+3. Brave generates a Unified Address (UA) - one address that supports both shielded and transparent transactions
 
 4. Copy or scan the QR code
 
@@ -71,7 +71,7 @@ Users can now send/receive ZEC without revealing balances or metadata — all wi
 
 **Steps covered:**
 
-1. Select ZEC > Send
+1. Select ZEC -> Send
 
 2. Paste the recipient's Unified Address or shielded address
 
@@ -91,11 +91,11 @@ Users can now send/receive ZEC without revealing balances or metadata — all wi
 
 Here’s an explanation for each Zcash address type:
 
-**t-addr (t1...)** – Transparent addresses work like Bitcoin addresses, meaning transactions are public on the blockchain. They are easier to use with non-Zcash wallets but do not provide privacy.
+**t-addr (t1...)** - Transparent addresses work like Bitcoin addresses, meaning transactions are public on the blockchain. They are easier to use with non-Zcash wallets but do not provide privacy.
 
-**z-addr (zs...)** – Shielded addresses use Zcash’s privacy tech (Sprout/Sapling) to hide the sender, receiver, and amount. Only view keys or the owner can reveal details.
+**z-addr (zs...)** - Shielded addresses use Zcash’s privacy tech (Sprout/Sapling) to hide the sender, receiver, and amount. Only view keys or the owner can reveal details.
 
-**UA (u... or QR)** – Unified Addresses combine multiple address types (transparent, shielded, Orchard) into one. This allows maximum compatibility while preferring privacy where possible.
+**UA (u... or QR)** - Unified Addresses combine multiple address types (transparent, shielded, Orchard) into one. This allows maximum compatibility while preferring privacy where possible.
 
 
 
