@@ -862,15 +862,26 @@ BTCPay was built as an open-source alternative to centralized payment providers.
 
 
 [BTCPay Server Official Website](https://btcpayserver.org/)
+
 [BTCPay FAQ](https://docs.btcpayserver.org/FAQ/)
+
 [BTCPay Server GitHub Repository](https://github.com/btcpayserver/btcpayserver)
+
 [BTCPay Server Mainnet Demo](https://mainnet.demo.btcpayserver.org/login?ReturnUrl=%2F)
+
 [Zcash Plugin for BTCPay (GitHub)](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
+
 [Zcash Plugin Installation Guide](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
+
 [Custom zcash-lightwalletd.custom.yml Example](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml)
+
 [Lightwalletd Docker Compose File (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
+
 [BTCPay API Key Docs (Greenfield API)](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
+
 [Create a Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
+
 [Zcash Wallet Compatibility List (ZecHub)](https://zechub.wiki/wallets)
+
 [Zebra + Lightwalletd on Raspberry Pi 5 (ZecHub)](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)
 
