@@ -10,7 +10,7 @@ If you're reading this page, we're really excited that you're considering contri
 
 ### New contributors
 
-To get an overview of ZecHub, read the [README](/README.md).
+To get an overview of ZecHub, read the [README](https://github.com/ZecHub/zechub/blob/main/README.md).
 
 ### Getting started
 
@@ -19,9 +19,7 @@ ZecHub uses GitHub to manage community contribution. If you're new to GitHub, do
 
 ### Join the conversation
 
-First, join the conversation in the [Zcash Global discord](https://discord.gg/zcash). There's a ZecHub section where we chat about all things ZecHub :smile:
-
-<small> Do not forget to add the ZecHub role in <a href="https://discord.com/channels/978714252934258779/983468150861484093">#lang-menu channel</a>! </small>
+First, join the conversation in our [community links](https://zechub.wiki/zcash-community/community-links)
 
 ### Style Guides
 
