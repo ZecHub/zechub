@@ -82,7 +82,7 @@ Users can now send/receive ZEC without revealing balances or metadata - all with
 
 4. Confirm the transaction details
 
-5. Click Send — funds are now transferred privately, using the Orchard pool
+5. Click Send - funds are now transferred privately, using the Orchard pool
 
 
 ![main](https://raw.githubusercontent.com/Kellyjoe8/zechub/refs/heads/main/Internet_20250808_172118_4.webp)
