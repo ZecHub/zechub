@@ -21,7 +21,7 @@ ZecHub uses GitHub to manage community contribution. If you're new to GitHub, do
 
 ### Join the conversation
 
-First, join the conversation in our [community links](https://zechub.wiki/zcash-community/community-links)
+First, join the conversation in our [community links](https://zechub.wiki/zcash-community/community-links).
 
 ### Style Guides
 
