@@ -6,6 +6,11 @@
 
 ## What is ZEC?
 
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/J1Nr1VL5dGU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
 ZEC is a digital currency that is based on the Zcash blockchain. It is the closest approximation to cash on the web. While it shares many similar features to bitcoin, it solves bitcoin's biggest flaw by enabling users to run fully private monetary transactions.
 
 #### Why is a private currency important?
@@ -35,8 +40,6 @@ Zcash solves Bitcoin's biggest flaw; private ownership and transfer of data. In 
 #### Resources
 
 [The Basics](https://z.cash/the-basics/)
-
-[What is Zcash](https://www.youtube.com/watch?v=J1Nr1VL5dGU&t=751s)
 
 [How It Works](https://z.cash/technology/)
 
