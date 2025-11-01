@@ -45,6 +45,11 @@ Here's a tutorial for how to shield your ZEC from a transparent address to a shi
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/W2msuzrxr3s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+---
+Here's a tutorial for how to buy ZEC on Coinbase and send to Zashi.
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/Avweu5V9QRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 #### Transactions
 
