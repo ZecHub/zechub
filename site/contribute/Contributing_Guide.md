@@ -41,7 +41,7 @@ Any approved dev work that helps build the Zcash ecoystem. This can include our 
 
 #### Zcash Tutorials (video) - up to 0.15 ZEC per tutorial
 
-Here is an Eexample tutorial below:
+Here is an example tutorial below:
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/qz4KzDjkqu8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
