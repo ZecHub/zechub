@@ -86,8 +86,7 @@ BTCPay Server is **not** a wallet and does **not require private keys**. All fun
 
 ### How It Works
 
-**The wallet is created in advance.**  
-The merchant uses a Zcash wallet that supports viewing keys - such as [YWallet](https://ywallet.app/installation) or [Zingo! Wallet](https://zingolabs.org/). A full list is available at [ZecHub.wiki](https://zechub.wiki/wallets). **BTCPay Server connects via a viewing key.** A viewing key is a **read-only key**: it can detect incoming payments and generate new receiving addresses, but it cannot spend funds. The server does not store seed phrases or private keys. **Blockchain data is accessed through a lightwalletd server.** You can use a public node like https://zec.rocks, or run your own Zebra + lightwalletd stack for full sovereignty. **Each order gets a unique address.** Viewing keys allow the server to derive new Zcash shielded addresses for every invoice, enabling secure payment tracking and preventing address reuse. **You retain full control over the funds.** Even if the server is compromised, no one can steal your money - only payment metadata could be exposed. This design separates **infrastructure** from **asset control**. You can update, migrate, or reinstall BTCPay Server without putting any funds at risk.
+**The wallet is created in advance.** The merchant uses a Zcash wallet that supports viewing keys - such as [YWallet](https://ywallet.app/installation) or [Zingo! Wallet](https://zingolabs.org/). A full list is available at [ZecHub.wiki](https://zechub.wiki/wallets). **BTCPay Server connects via a viewing key.** A viewing key is a **read-only key**: it can detect incoming payments and generate new receiving addresses, but it cannot spend funds. The server does not store seed phrases or private keys. **Blockchain data is accessed through a lightwalletd server.** You can use a public node like https://zec.rocks, or run your own Zebra + lightwalletd stack for full sovereignty. **Each order gets a unique address.** Viewing keys allow the server to derive new Zcash shielded addresses for every invoice, enabling secure payment tracking and preventing address reuse. **You retain full control over the funds.** Even if the server is compromised, no one can steal your money - only payment metadata could be exposed. This design separates **infrastructure** from **asset control**. You can update, migrate, or reinstall BTCPay Server without putting any funds at risk.
 
 ## How to Set Up BTCPay Server for Accepting Zcash
 
@@ -117,13 +116,10 @@ We'll walk through the following:
 
 Let's move on to the actual setup. In this section, we'll install BTCPay Server with Zcash support - either on a fresh VPS or by adding ZEC support to an existing instance. If you already have BTCPay Server running (e.g. for BTC or Lightning), you don't need to reinstall everything - just enable the ZEC plugin. Well walk through various configurations, from minimal setups using a public lightwalletd node to fully sovereign installations with your own full node. The best option depends on your server location and how much independence you want from external infrastructure.
 
-> Official plugin documentation:  
-> [https://github.com/btcpay-zcash/btcpayserver-zcash-plugin](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
+> Official plugin documentation: [https://github.com/btcpay-zcash/btcpayserver-zcash-plugin](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
 >
 > **Warning - one wallet per instance:**  
-> The Zcash plugin uses **one shared wallet** across **all stores** in the BTCPay instance.  
-> If you host multiple independent stores on one instance, they will share the same Zcash wallet.  
-> Use separate instances if you need strict wallet isolation.
+> The Zcash plugin uses **one shared wallet** across **all stores** in the BTCPay instance. If you host multiple independent stores on one instance, they will share the same Zcash wallet. Use separate instances if you need strict wallet isolation.
 
 ---
 
@@ -216,7 +212,7 @@ cd btcpayserver-docker
 
 ### Step 2: Export Environment Variables
 
-Replace `btcpay.example.com` with your actual domain:
+Replace btcpay.example.com with your actual domain:
 
 ```bash
 export BTCPAY_HOST="btcpay.example.com"
@@ -272,7 +268,7 @@ Then proceed to the next section to configure Zcash in the BTCPay Server web int
 
 ## Running Your Own Zcash Full Node (Zebra + Lightwalletd)
 
-If you prefer **not** to rely on public `lightwalletd` nodes, you can deploy your own full Zcash node along with Lightwalletd on the same server. This gives you **full autonomy** - no external dependencies, no trust required.
+If you prefer **not** to rely on public lightwalletd nodes, you can deploy your own full Zcash node along with Lightwalletd on the same server. This gives you **full autonomy** - no external dependencies, no trust required.
 
 ---
 
@@ -305,7 +301,7 @@ export BTCPAYGEN_EXCLUDE_FRAGMENTS="zcash"
 export BTCPAYGEN_ADDITIONAL_FRAGMENTS="zcash-fullnode"
 ````
 
-This will include the `zcash-fullnode` fragment, which launches both `zebrad` and `lightwalletd` inside BTCPay Server.
+This will include the zcash-fullnode fragment, which launches both zebrad and lightwalletd inside BTCPay Server.
 
 ---
 
@@ -327,15 +323,13 @@ The script will:
 > Until synchronization completes, shielded payments will not be available.
 
 
-## Connecting to an External `lightwalletd` Node (Custom Configuration)
+## Connecting to an External lightwalletd Node (Custom Configuration)
 
-In most cases, full autonomy isn't required - and merchants may not want to spend time and disk space running a full Zcash node. By default, BTCPay Server connects to a public `lightwalletd` node to handle shielded payments without downloading the entire blockchain.
-
-The default endpoint is:
+In most cases, full autonomy isn't required - and merchants may not want to spend time and disk space running a full Zcash node. By default, BTCPay Server connects to a public lightwalletd node to handle shielded payments without downloading the entire blockchain. The default endpoint is:
 
 `https://zec.rocks:443`
 
-However, you can configure BTCPay Server to connect to **any external `lightwalletd` node**, such as:
+However, you can configure BTCPay Server to connect to **any external lightwalletd node**, such as:
 
 `https://lightwalletd.example:443`
 
@@ -363,7 +357,7 @@ exclusive:
 - zcash
 ```
 
-The `exclusive` directive ensures that only one fragment with the same label (`zcash` in this case) can be active at a time. This prevents configuration conflicts - for example, you cannot run both the `zcash-fullnode` fragment and this custom external `lightwalletd` fragment simultaneously.By marking it as `exclusive: zcash`, BTCPay Server will automatically disable the default `zcash-fullnode` and internal `lightwalletd` containers, allowing you to connect to your own external node instead.
+The exclusive directive ensures that only one fragment with the same label (zcash in this case) can be active at a time. This prevents configuration conflicts - for example, you cannot run both the zcash-fullnode fragment and this custom external lightwalletd fragment simultaneously.By marking it as exclusive: zcash, BTCPay Server will automatically disable the default zcash-fullnode and internal lightwalletd containers, allowing you to connect to your own external node instead.
 
 ---
 
@@ -380,7 +374,7 @@ export BTCPAYGEN_ADDITIONAL_FRAGMENTS="$BTCPAYGEN_ADDITIONAL_FRAGMENTS;zcash-lig
 
 ### Step 3: Define the External Node Address
 
-Open your `.env` file:
+Open your .env file:
 
 ```bash
 nano .env
@@ -394,14 +388,16 @@ ZCASH_LIGHTWALLETD=https://lightwalletd.example:443
 
 You can use:
 
-* A **public node**, such as `https://lightwalletd.zcash-infra.com`
+```markdown
+* A **public node**, such as https://lightwalletd.zcash-infra.com
 * Your own self-hosted node, deployed separately from BTCPay Server
+```
 
-> If the external `lightwalletd` becomes unavailable or overloaded, shielded payments will fail.
-> For critical services, choose a **stable and proven endpoint** (like the default `zec.rocks`).
+> If the external lightwalletd becomes unavailable or overloaded, shielded payments will fail.
+> For critical services, choose a **stable and proven endpoint** (like the default zec.rocks).
 
-> Want to self-host `lightwalletd`?
-> You can use the `docker-compose.lwd.yml` from the [Zebra repository](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml).
+> Want to self-host lightwalletd?
+> You can use the docker-compose.lwd.yml from the [Zebra repository](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml).
 > **Warning:** This setup is not officially documented and requires manual TLS setup, port forwarding, and firewall configuration - recommended for advanced users only.
 
 ---
@@ -412,7 +408,7 @@ You can use:
 . ./btcpay-setup.sh -i
 ```
 
-BTCPay Server will apply your custom config and connect to the specified `lightwalletd` node. From now on, the Zcash plugin will use that external endpoint for handling shielded transactions.
+BTCPay Server will apply your custom config and connect to the specified lightwalletd node. From now on, the Zcash plugin will use that external endpoint for handling shielded transactions.
 
 
 ## Hosting BTCPay Server at Home with Cloudflare Tunnel
@@ -437,9 +433,9 @@ sudo apt install cloudflared --legacy
 cloudflared tunnel login
 ```
 
-This command will open a browser window. Log in and authorize access to your domain. Cloudflare will automatically create a `credentials` file with a token on your server.
+This command will open a browser window. Log in and authorize access to your domain. Cloudflare will automatically create a credentials file with a token on your server.
 
-4. Create a new tunnel (you can name it `btcpay` or anything else):
+4. Create a new tunnel (you can name it btcpay or anything else):
 
 ```bash
 cloudflared tunnel create btcpay
@@ -502,7 +498,7 @@ Add a new CNAME record:
    - **Proxy status**: Enabled (orange cloud)
 ```
 
-> This record ensures that all requests to `btcpay.example.com` are routed through the Cloudflare Tunnel, hiding your real IP address from the public.
+> This record ensures that all requests to btcpay.example.com are routed through the Cloudflare Tunnel, hiding your real IP address from the public.
 
 ---
 
@@ -527,7 +523,7 @@ Check the status:
 sudo systemctl status cloudflared
 ```
 
-You should see a message like `Active: active (running)` and confirmation that `btcpay.example.com` is online.
+You should see a message like Active: active (running) and confirmation that btcpay.example.com is online.
 
 > From now on, the tunnel will start automatically on every reboot, and your BTCPay Server will be publicly accessible - without port forwarding and without exposing your real IP.
 
@@ -556,8 +552,8 @@ The setup will regenerate configs and apply the new domain. You should now be ab
 https://btcpay.example.com
 ```
 
-> Whether you're using a public `lightwalletd` or your own full node, this does not affect the tunnel.
-> All that matters is that BTCPay Server is listening on `127.0.0.1:80` locally.
+> Whether you're using a public lightwalletd or your own full node, this does not affect the tunnel.
+> All that matters is that BTCPay Server is listening on 127.0.0.1:80 locally.
 
 
 ## Configuring the Zcash Plugin in the BTCPay Server Web Interface
@@ -587,7 +583,7 @@ Visit your instance at:
 
 In the main menu, go to:
 
-`Plugins → Browse Plugins`
+`Plugins -> Browse Plugins`
 
 Locate the **Zcash (ZEC)** plugin. Use the search bar if needed.
 Click **Install** and confirm.
@@ -603,7 +599,7 @@ After installing the plugin, a new **Zcash** section will appear in the settings
 
 Go to:
 
-`Zcash → Settings`
+`Zcash -> Settings`
 
 Paste your **Unified Full Viewing Key (UFVK)** - BTCPay will derive a Unified Address for each invoice and detect incoming shielded payments.
 
@@ -626,19 +622,19 @@ uview184syv9wftwngkay8d...
 
 > Not all wallets support **Unified Full Viewing Key (UFVK)** export yet.  
 > Recommended options:  
-> – [**YWallet**](https://ywallet.app/installation)  
-> – [**Zingo! Wallet (version for PC)**](https://zingolabs.org/)  
+> - [**YWallet**](https://ywallet.app/installation)  
+> - [**Zingo! Wallet (version for PC)**](https://zingolabs.org/)  
 > In both apps, look for UFVK export in the backup/export section.
 
 These keys support **automatic address rotation**, meaning:
 Every customer gets a **unique** payment address
 You see a **single, unified** balance
 
-You can find a broader compatibility list on [ZecHub → Wallets](https://zechub.wiki/wallets). Once all fields are filled out, click **Save**.
+You can find a broader compatibility list on [ZecHub -> Wallets](https://zechub.wiki/wallets). Once all fields are filled out, click **Save**.
 
 ---
 
-### ✅ Test Your ZEC Payment Flow
+### Test Your ZEC Payment Flow
 
 Congratulations - your Zcash wallet is now connected to BTCPay Server. Let's run a test:
 
