@@ -57,9 +57,7 @@ Our wiki site provides Zcash education materials in an easy and digestible forma
 - Privacy Ecosystem & Tools
 ```
 
-These are pretty broad areas, so there's a lot to work from. If you want some inspiration, check out our current [wiki-docs site](https://zechub.wiki/) and see what's missing. Once you determine what you want to write, [start to make your changes](#make-changes) and learn how to submit a PR to the ZecHub repo. All of our docs are created and maintained in this repo. Use the [docs template](https://github.com/ZecHub/zechub/blob/main/template.md) and follow the [ZecHub style](https://zechub.wiki/contribute/style-guide) when writing a wiki page.
-
-After you submit a PR, please message @dismad or @tokidoki in the #zecwiki section of the discord, and they will review your PR and merge if it is ready to be added to the site. If merged, they will add the doc to the ZecHub website. If the doc is not ready, they will suggest edits for you in the PR.
+These are pretty broad areas, so there's a lot to work from. If you want some inspiration, check out our current [wiki-docs site](https://zechub.wiki/) and see what's missing. Once you determine what you want to write, start to make your changes and learn how to submit a PR to the ZecHub repo. All of our docs are created and maintained in this repo. Use the [docs template](https://github.com/ZecHub/zechub/blob/main/template.md) and follow the [ZecHub style](https://zechub.wiki/contribute/style-guide) when writing a wiki page. After you submit a PR, please message @dismad, @squirrel, or @vito in the #zechub section of the discord, and they will review your PR and merge if it is ready to be added to the site. If merged, they will add the doc to the ZecHub website. If the doc is not ready, they will suggest edits for you in the PR.
 
 #### ZecHub Wiki - 0.015 ZEC per accepted edit to docs
 
