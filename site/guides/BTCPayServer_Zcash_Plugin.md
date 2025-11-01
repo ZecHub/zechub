@@ -622,17 +622,13 @@ uview184syv9wftwngkay8d...
 
 **Moving your store to a new server with the same wallet/UFVK:** optionally enter the birth height - an approximate height of your store's first paid order (match the order date on 3xpl to narrow the scan). If unsure, leave it empty.
 
-> Not all wallets support **Unified Full Viewing Key (UFVK)** export yet.  
-> Recommended options:  
-> - [**YWallet**](https://ywallet.app/installation)  
-> - [**Zingo! Wallet (version for PC)**](https://zingolabs.org/)  
-> In both apps, look for UFVK export in the backup/export section.
+Not all wallets support **Unified Full Viewing Key (UFVK)** export yet. Recommended options:
 
-These keys support **automatic address rotation**, meaning:
-Every customer gets a **unique** payment address
-You see a **single, unified** balance
+[**YWallet**](https://ywallet.app/installation)
 
-You can find a broader compatibility list on [ZecHub -> Wallets](https://zechub.wiki/wallets). Once all fields are filled out, click **Save**.
+[**Zingo! Wallet (version for PC)**](https://zingolabs.org/)  
+
+In both apps, look for UFVK export in the backup/export section.These keys support **automatic address rotation**, meaning: Every customer gets a **unique** payment address, and you see a **single, unified** balance. You can find a broader compatibility list on [ZecHub -> Wallets](https://zechub.wiki/wallets). Once all fields are filled out, click **Save**.
 
 ---
 
