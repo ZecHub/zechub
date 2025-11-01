@@ -51,11 +51,13 @@ Create and share tutorials on Zcash apps and get rewarded. Submit PR to zechub/t
 
 Our wiki site provides Zcash education materials in an easy and digestible format. Zcash is a very advanced technology with a vibrant community, so there's still more documentation we need to build. Our goal is to build documentation on:
 
+```markdown
 - Zcash and its related technologies
 - ZEC (Zcash currency) Use cases
 - New User Guides
 - Zcash Community and Ecosystem
 - Privacy Ecosystem & Tools
+```
 
 These are pretty broad areas, so there's a lot to work from. If you want some inspiration, check out our current [wiki-docs site](https://zechub.wiki/) and see what's missing. Once you determine what you want to write, [start to make your changes](#make-changes) and learn how to submit a PR to the ZecHub repo. All of our docs are created and maintained in this repo. Use the [docs template](https://github.com/ZecHub/zechub/blob/main/template.md) and follow the [ZecHub style](https://zechub.wiki/contribute/style-guide) when writing a wiki page.
 
