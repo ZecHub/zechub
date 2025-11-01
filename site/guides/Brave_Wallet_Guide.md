@@ -31,8 +31,7 @@ Users can now send/receive ZEC without revealing balances or metadata - all with
 
 4. Access the crypto dashboard
 
-![main](https://github.com/Kellyjoe8/zechub/blob/main/Screenshot%202025-08-09%20074007.png)
-
+<img width="1901" height="1001" alt="Screenshot 2025-08-09 074007" src="https://github.com/user-attachments/assets/f54cd1a1-8569-4925-ba1c-7597d030593e" />
 
 
 ## Part 2: Adding Zcash (ZEC) to Brave Wallet
@@ -45,9 +44,7 @@ Users can now send/receive ZEC without revealing balances or metadata - all with
 
 3. ZEC now appears in your wallet
 
-
-![main](https://github.com/Kellyjoe8/zechub/blob/main/Screenshot%202025-08-09%20074608.png)
-
+<img width="1911" height="943" alt="Screenshot 2025-08-09 074608" src="https://github.com/user-attachments/assets/6f2b2190-cf55-4394-9d5f-29ff9b5bb525" />
 
 
 ## Part 3: Receiving Shielded ZEC (Unified Address)
@@ -65,7 +62,7 @@ Users can now send/receive ZEC without revealing balances or metadata - all with
 5. Share your UA with the sender
 
 
-![main](https://github.com/Kellyjoe8/zechub/blob/main/Screenshot%202025-08-09%20075018.png)
+<img width="1916" height="949" alt="Screenshot 2025-08-09 075018" src="https://github.com/user-attachments/assets/53c940b6-1a03-4fa7-aefa-d3478f678a88" />
 
 
 
