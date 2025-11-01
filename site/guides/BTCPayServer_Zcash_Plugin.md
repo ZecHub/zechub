@@ -285,8 +285,9 @@ Breakdown:
 
 #### Recommended storage:
 
-- **400 GB** if the server is used **only** for Zcash payments
-- **800 GB+** if the server also runs BTCPay Server, PostgreSQL, Nginx, etc.
+ **400 GB** if the server is used **only** for Zcash payments
+  
+ **800 GB+** if the server also runs BTCPay Server, PostgreSQL, Nginx, etc.
 
 > Ideally use an SSD/NVMe disk with **1 TB capacity**, especially if you don't plan to prune data regularly.
 
