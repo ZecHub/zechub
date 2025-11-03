@@ -35,7 +35,7 @@ Paste in any UA and send a tx. Save the file.
 
 ## Start the FROST signing proceedure 
 
-`./signFROST_tx.sh` rawtxs/mytx signedtxs/mysignedtx`
+`./signFROST_tx.sh rawtxs/mytx signedtxs/mysignedtx`
 
 first input is the location of the raw tx from the step above
 second input is the location and name of the signed tx you want to broadcast
