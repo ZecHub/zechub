@@ -4,6 +4,11 @@
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zu8nvr4FlXE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+---
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/-gawirv0L_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## Install Haskell
 
 > curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
@@ -135,15 +140,6 @@ zebraPort = 8232
 
 ## RPC's
 
-> ./toCurl.sh getinfo
-
-> ./toCurl.sh listwallets
-
-> ./toCurl.sh listaccounts 1
-
-> ./toCurl.sh listaddresses 1
-
-> ./toCurl.sh getbalance 1
-
+[howto](https://github.com/ZecHub/zechub/blob/main/site/tutorials/zenithserver/zenithBeta.md)
 > ./toCurl.sh listreceived \"2\"
 
