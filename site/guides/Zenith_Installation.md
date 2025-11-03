@@ -2,7 +2,7 @@
 
 ## Video Tutorial
 
-https://www.youtube.com/watch?v=zu8nvr4FlXE
+<iframe width="640" height="360" src="https://www.youtube.com/embed/zu8nvr4FlXE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Install Haskell
 
