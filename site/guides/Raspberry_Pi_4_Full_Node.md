@@ -49,25 +49,14 @@ If you find this guide useful, consider donating ZEC to support ZecHub:
 
 
 
-
-
-
-## Contents:
-
-> [Prepare the SD Card](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#prepare-the-sd-card)
-> [Boot Ubuntu Server](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#boot-ubuntu-server)
-> [Connect remotely to your Raspberry Pi 4](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#connect-remotely-to-your-raspberry-pi-4)
-> [Install *zcashd*](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#installing-zcashd)
-> [Setup *zcashd*](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#setup-zcashd)
-> [Using *zcashd*](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#using-zcashd)
-> [Sources](https://github.com/ZecHub/zechub/blob/main/site/guides/RaspberryPi4FullNode.md#sources)
-
 ### Prepare the SD Card
 
 In this step you will create a *bootable* SD card that will allow your Raspberry Pi 4 to boot. Insert the microSD card into your computer. You may need to use the adapter that comes with the Canakit or any other equivalent adaptor. Install Raspberry Pi Imager for your operating system. Download the version for the OS you currently have access to.
      
      > [Ubuntu](https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb)
+     
      > [Windows](https://downloads.raspberrypi.org/imager/imager_latest.exe)
+     
      > [macOS](https://downloads.raspberrypi.org/imager/imager_latest.dmg)
 
 For example in linux you would type the following after downloading:
@@ -367,10 +356,10 @@ How do you send ZEC using a UA?
 ##### It should be noted both, *from* AND *destination* addresses can be transparent,sapling, or orchard addresses however you may need to adjust the privacyPolicy flag in order for the transation to be valid. (Some combos wont work if privacyPolicy doesn't make sense!)
 
 
-     
 Where can I find more info on UA's?
 
 > Check out [Hanh's](https://medium.com/@hanh425/transaction-privacy-78f80f9f175e) post on transaction privacy. Also [this](https://forum.zcashcommunity.com/t/unified-addresses-full-node-rpc-api/41980/2) post from the zcash forum.
+
 > [This](https://github.com/zcash/zips/issues/470)
 
      
