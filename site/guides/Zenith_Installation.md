@@ -141,5 +141,5 @@ zebraPort = 8232
 ## RPC's
 
 [howto](https://github.com/ZecHub/zechub/blob/main/site/tutorials/zenithserver/zenithBeta.md)
-> ./toCurl.sh listreceived \"2\"
+
 
