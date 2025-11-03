@@ -13,7 +13,7 @@ The purpose of this guide is to help educate Zcashers who are interested in runn
 
 ## Video
 
-https://www.youtube.com/watch?v=SGYrzhs1l2k
+<iframe width="640" height="360" src="https://www.youtube.com/embed/SGYrzhs1l2k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Support
 
