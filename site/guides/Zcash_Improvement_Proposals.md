@@ -23,9 +23,9 @@ Because the ZIPs are maintained as text files in a versioned repository, their r
 For every ZIP that comes in, it must undergo the review process. ZIP editors are tasked with ensuring the format and content of any ZIP adequately describes terms, rationale and technical changes made. 
 
 ```markdown
-* Jack Grigg, Kris Nuttycombe and Daira-Emma Hopwood associated with the Electric Coin Company.
-* Conrado, and Arya, associated with the Zcash Foundation.
-* Sam and Mark, associated with Shielded Labs.
+* Jack Grigg, Kris Nuttycombe and Daira-Emma Hopwood associated with the ECC.
+* Conrado, and Arya, associated with the ZF.
+* Sam and Mark, associated with SL.
 ```
 
 ## Notable Current Draft ZIPs
