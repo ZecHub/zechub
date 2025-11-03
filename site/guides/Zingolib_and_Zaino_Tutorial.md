@@ -1,6 +1,4 @@
-# Instructions for setting up Zingolib CLI wallet with Zaino
-
-## Z3: (zebrad)(zaino)(zingo-cli)
+# Z3: (zebrad)(zaino)(zingo-cli)
 
 **zebrad**    : zcash full node
 
@@ -46,6 +44,7 @@ cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.0.1 zebrad
 ```bash
 screen -S zebra
 zebrad start
+```
 
 note: this will need to fully sync! 
 
