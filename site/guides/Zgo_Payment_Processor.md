@@ -10,7 +10,8 @@ There's definitely no doubt Zgo stands out as one of the foremost payment proces
 
 Zgo offers a secure, confidential and autonomous method for making payments by harnessing the power of Zcash technology which makes it accessible to all users. ZGo boasts seamless integration with a wide array of popular business applications, enhancing its versatility and usability for a range of professional purposes. This compatibility enables users to effortlessly incorporate ZGo into their existing software ecosystems, streamlining processes and promoting efficiency when it comes to making and processing payment with Zcash. ZGo's integration capabilities ensure that it can seamlessly adapt to the diverse needs of various organizations, fostering a more interconnected and productive digital environment.
 
-<img width="640" height="400" alt="1" src="https://github.com/user-attachments/assets/a7dfd3ac-8e94-4968-9cb3-979f7e482d16" />
+<img width="672" height="378" alt="1" src="https://github.com/user-attachments/assets/de50885b-b068-4157-bbda-0981ca23efc8" />
+
 
 
 **ZGo And Xero** 
@@ -23,7 +24,8 @@ Want to set up ZGo with Xero for the first time? Follow the guide below:
 
 **ZGo and WooCommerce**
 
-<img width="640" height="400" alt="2" src="https://github.com/user-attachments/assets/3f213a90-6129-4619-b3c8-80bdebbf03a7" />
+<img width="672" height="378" alt="2" src="https://github.com/user-attachments/assets/55a791bb-1947-4f55-b5b9-55083be8ed49" />
+
 
 
 ZGo has taken a significant step by developing a dedicated plugin for [WooCommerce](https://woocommerce.com/), a widely acclaimed e-commerce platform seamlessly integrated with [WordPress](https://wordpress.org/). This innovative plugin equips e-commerce store owners with the capability to extend Zcash payment options to their customers, enhancing the flexibility and choice available at checkout.Upon implementation, ZGo's plugin engages customers through a user-friendly interface, presenting them with a QR code for Zcash payment. Simultaneously, it vigilantly tracks the Zcash blockchain for payment confirmation and efficiently relays this information to the WooCommerce store. This streamlined process ensures that shop owners enjoy a smooth and hassle-free experience akin to using any other traditional payment processor. What sets ZGo apart is its commitment to providing comprehensive solutions. The plugin includes an administrative dashboard tailored to the needs of shop owners. This dashboard offers valuable insights and control, enabling store operators to effortlessly monitor orders and payments facilitated through the ZGo plugin. This dual-pronged approach enriches the customer experience and empowers shop owners with the tools needed to manage their e-commerce operations efficiently.
