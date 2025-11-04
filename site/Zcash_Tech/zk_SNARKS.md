@@ -18,7 +18,7 @@ In computer science the term for efficiently verifiable proofs is NP proofs. The
 
 
 <a href="">
-    <img src="https://cdn.discordapp.com/attachments/860525418008674327/1070395089559494716/NPlanguage.jpg" alt="" width="600" height="400"/>
+    <img width="853" height="396" alt="NPlanguage1" src="https://github.com/user-attachments/assets/d25345cf-e958-4ce2-b01d-f4e7f2db9551" alt="" width="600" height="400"/>
 </a>
 
 
@@ -37,7 +37,7 @@ Soundness: False claims will have no proofs (for all cheating prover strategy th
 
 
 <a href="">
-    <img src="https://cdn.discordapp.com/attachments/860525418008674327/1070395089194594345/IPmodel.jpg" alt="" width="600" height="400"/>
+ <img width="855" height="399" alt="IPmodel1" src="https://github.com/user-attachments/assets/1542be12-d3fd-4934-8413-0d16f95b8d10" alt="" width="600" height="400"/>
 </a>
 
 
@@ -76,7 +76,7 @@ Real View: All possible histories of interactions between Prover & Verifier (P,V
 Simulated View: The verifier simulates all possible interactions between Prover & Verifier 
 
 <a href="">
-    <img src="https://cdn.discordapp.com/attachments/860525418008674327/1070395090259947520/simulation.jpg" alt="" width="600" height="400"/>
+    <img width="850" height="397" alt="simulation1" src="https://github.com/user-attachments/assets/0e68649d-a231-44d8-a76a-25a307f68b9e"  alt="" width="600" height="400"/>
 </a>
 
 A polynomial-time distinguisher makes an attempt to determine whether they are looking at the real or simulated view and requests a sample from both repeatedly.
@@ -107,7 +107,7 @@ example: "3x² + 8x + 17"
 
 
 <a href="">
-    <img src="https://cdn.discordapp.com/attachments/860525418008674327/1070405388048011305/circuit.jpg" alt="" width="300" height="200"/>
+<img width="785" height="368" alt="circuit1" src="https://github.com/user-attachments/assets/be1de1d6-60d3-4fd1-b9a2-5094c65d696f" alt="" width="300" height="200"/>
 </a>
 
 In this example, the prover wants to convince the verifier that he knows a solution to the arithmetic circuit.  
@@ -133,7 +133,7 @@ Polynomial interactive oracle: Verifier asks prover (algorithm) to open all comm
 Setup procedures help the verifier by summarizing a circuit & outputting public parameters. 
 
 <a href="">
-    <img src="https://cdn.discordapp.com/attachments/860525418008674327/1070395089899229245/setup.jpg" alt="" width="600" height="300"/>
+<img width="845" height="398" alt="setup1" src="https://github.com/user-attachments/assets/c41212ca-b5e9-4ac8-8695-be612c45a679" alt="" width="600" height="300"/>
 </a>
 
 **Types of pre-processing setup**:
@@ -176,7 +176,7 @@ zk-SNARKS provide several advantages in a variety of different applications. Let
 The advantage of a proof based Rollup (zk-Rollup) service is to process a batch of hundreds/thousands of transactions & the L1 is able to verify a succinct proof that all transactions were processed correctly, scaling the networks transaction throughput by a factor of 100 or 1000.
 
 <a href="">
-    <img src="https://cdn.discordapp.com/attachments/860525418008674327/1070395090612265000/zkvm.jpg" alt="" width="600" height="300"/>
+  <img width="606" height="336" alt="zkvm1" src="https://github.com/user-attachments/assets/a3cbb5c9-8767-4b34-9fcb-868ca421838f" width="600" height="300"/>
 </a>
 
 
