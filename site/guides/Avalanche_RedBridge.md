@@ -55,8 +55,8 @@ Take a look at the [Github repo](https://github.com/red-dev-inc/zavax-bridge/tre
   
 For more technical details, users are encouraged to review the repository and documentation for the RedBridge project to [explore](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) the integration specifics, testing frameworks, and security protocols.
 
+<img width="1916" height="607" alt="Screenshot-2025-10-25-230619" src="https://github.com/user-attachments/assets/b8c5d267-1711-458a-8a32-1df9d56fae8a" />
 
-![alt](https://ibb.co/fGq1Pbgq)
 
 * Deliverables: 
 In Q1 2025, the team announced the launch of the [red·bridge demo website](https://redbridge-demo.red.dev/index.html), where anyone can try the user experience, give feedback, and suggest improvements. It also serves as an easy way to introduce non-technical people to the project.
