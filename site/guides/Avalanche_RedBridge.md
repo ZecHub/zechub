@@ -56,25 +56,19 @@ Take a look at the [Github repo](https://github.com/red-dev-inc/zavax-bridge/tre
 For more technical details, users are encouraged to review the repository and documentation for the RedBridge project to [explore](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) the integration specifics, testing frameworks, and security protocols.
 
 
-#### Usage Instructions
+![alt](https://ibb.co/fGq1Pbgq)
 
-Connecting Zcash to Avalanche:
-Connect a compatible Zcash wallet and navigate to the bridge interface.
-Select the desired amount of ZEC to transfer and follow the bridge instructions to convert it into AVAX compatible tokens.
-   
-Utilizing the Bridge for DeFi:
-Once ZEC is transferred to Avalanche, users can connect their wallet to any DeFi application supporting AVAX assets and begin participating in yield farming, liquidity pools, or other services.
+* Deliverables: 
+In Q1 2025, the team announced the launch of the [red·bridge demo website](https://redbridge-demo.red.dev/index.html), where anyone can try the user experience, give feedback, and suggest improvements. It also serves as an easy way to introduce non-technical people to the project.
 
-Privacy Settings:
-Users have access to optional privacy settings to ensure their transactions retain confidentiality, in alignment with Zcash privacy preserving technology.
+* The team used Zebra for the final version of red·bridge. To test it, they upgraded two of the three nodes in their test blockchain, ZavaX Oracle, which runs on Avalanche’s Fuji testnet. The last node was upgraded successfully, now [Zavax Oracle](https://zavax-oracle.red.dev/) now runs on ZEBRA!
 
-#### FAQs
+* In Q1 of 2025, the red.bridge website was coded to offer four views from red, Dark, Light, and Zebra as opposed to the initial version, which was red.
 
-**How is privacy maintained on Avalanche?**
-The bridge uses Zcash privacy protocols to ensure transactions remain confidential during and after the bridging process.
+* Another point is that the team will activate the red·bridge L1 live on the Avalanche mainnet in December 2025. Initially, it will serve as an oracle for the Zcash blockchain and then, soon after, for Bitcoin as well. Wherein, each request will cost 0.001 AVAX in gas token. This build will enable any L1 or smart contract on Avalanche to inexpensively query data from Zcash and Bitcoin in a decentralized manner.
 
-**What fees are associated with the bridge?**
-The RedBridge aims to offer minimal fees, leveraging Avalanche low transaction cost structure.
+* In Q2, the team submitted a milestone ACP-77 (known as Avalanche9000) to the Avalanche Foundation to make the running of a red.bridge guardian earlier and more affordable for everyone. Initially, validators needed to stake around 2000 AVAX; however, with the Avalanche9000costs, validators only needed 1 AVAX (month). Additionally, this milestone also finalizes the plan to use ZF’s FROST implementation, which gives each Guardian a signing share for secure, distributed control of the bridge wallet.
 
-**Is there a limit on the amount of ZEC that can be transferred?**
-Limits may vary based on liquidity; refer to the bridge interface for up to date information.
+* Come Q1 and Q2 of 2026, red.bridge would host its RBR token (formerly ZAX) airdrop for the Zcash and Avalanche community members. According to the founder of red.dev, they shall host an incentivized testnet where users will have a chance to earn RBR while helping to test out the bridge.
+
+
