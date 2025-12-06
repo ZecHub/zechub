@@ -8,38 +8,36 @@
 The following is a guide on how to run the Ziggurat 3.0 Crawler for Zcash as well as the associated programs Crunchy and P2P-Viz on Ubuntu 22.04 for gathering and visualizing Zcash network information.  
 The linked video below follows the same process.
 
-https://www.youtube.com/watch?v=Nq5cLiAHxPI
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/Nq5cLiAHxPI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ----------------
 ## Install Requirements: 
 
-Rust [https://rustup.rs/](https://rustup.rs/)
+Rust -> [https://rustup.rs/](https://rustup.rs/)
 
 ## Optional:
-jq [https://jqlang.github.io/jq/download/](https://jqlang.github.io/jq/download/)
+jq -> [https://jqlang.github.io/jq/download/](https://jqlang.github.io/jq/download/)
 (for displaying json information in the terminal)
 
-curl [https://everything.curl.dev/get/linux](https://everything.curl.dev/get/linux)
+curl -> [https://everything.curl.dev/get/linux](https://everything.curl.dev/get/linux)
 (for querying the crawler RPC)
 
-npm (with nvm) [https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1](https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1)
+npm (with nvm) -> [https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1](https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1)
 (for displaying P2P-Viz in the browser)
 
 ----------------
 
 
 ----------------
-Ziggurat 3.0 Repository
-[https://github.com/runziggurat](https://github.com/runziggurat)
+Ziggurat 3.0 Repository | [https://github.com/runziggurat](https://github.com/runziggurat)
 
-Crawler Repo
-[https://github.com/runziggurat/zcash.git](https://github.com/runziggurat/zcash.git)
+Crawler Repo | [https://github.com/runziggurat/zcash.git](https://github.com/runziggurat/zcash.git)
 
-Crunchy Repo
-[https://github.com/runziggurat/crunchy.git](https://github.com/runziggurat/crunchy.git)
+Crunchy Repo | [https://github.com/runziggurat/crunchy.git](https://github.com/runziggurat/crunchy.git)
 
-P2P-Viz Repo
-[https://github.com/runziggurat/p2p-viz.git](https://github.com/runziggurat/p2p-viz.git)
+P2P-Viz Repo | [https://github.com/runziggurat/p2p-viz.git](https://github.com/runziggurat/p2p-viz.git)
 
 ----------------
 

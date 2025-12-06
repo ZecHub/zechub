@@ -160,7 +160,7 @@ This setup is sufficient if you're using lightwalletd for Zcash. If you plan to 
 
 ### 2. Domain name pointing to your server
 
-In your DNS provider's dashboard, create an `A` record for a subdomain (e.g. btcpay.example.com) that points to your VPS IP address. This domain will be used to access BTCPay Server from the browser and to automatically generate a **free SSL certificate** via
+In your DNS provider's dashboard, create an *A* record for a subdomain (e.g. btcpay.example.com) that points to your VPS IP address. This domain will be used to access BTCPay Server from the browser and to automatically generate a **free SSL certificate** via
 Let's Encrypt.
 
 ---
@@ -279,16 +279,17 @@ A full Zcash node (Zebra + Lightwalletd) currently requires **300+ GB** of disk 
 Breakdown:
 
 ```markdown
-- The Zebra blockchain database: ~260–270 GB
-- Lightwalletd indexing: ~15–20 GB
+- The Zebra blockchain database: ~260-270 GB
+- Lightwalletd indexing: ~15-20 GB
 ```
 
 #### Recommended storage:
 
-- **400 GB+** if the server is used **only** for Zcash payments
-- **800 GB+** if the server also runs BTCPay Server, PostgreSQL, Nginx, etc.
+ **400 GB** if the server is used **only** for Zcash payments
+  
+ **800 GB+** if the server also runs BTCPay Server, PostgreSQL, Nginx, etc.
 
-> Ideally use an SSD/NVMe disk with **1 TB capacity**, especially if you don't plan to prune data regularly.
+> Ideally use an SSD/NVMe disk with **1 TB capacity**, especially if you don't plan to prune data regularly.
 
 ---
 
@@ -316,7 +317,7 @@ The script will:
 ```markdown
 * Download the Docker images for Zebra and Lightwalletd
 * Set up the services inside the BTCPay stack
-* Link the Zcash plugin to the **local** `lightwalletd` instance
+* Link the Zcash plugin to the **local** lightwalletd instance
 ```
 
 > **Full blockchain sync may take several days**, especially on low-resource VPS servers.
@@ -441,7 +442,7 @@ This command will open a browser window. Log in and authorize access to your dom
 cloudflared tunnel create btcpay
 ```
 
-This generates a `btcpay.json` file containing the tunnel ID and credentials - you'll need it in the next step.
+This generates a btcpay.json file containing the tunnel ID and credentials - you'll need it in the next step.
 
 ---
 
@@ -482,7 +483,7 @@ ingress:
 
 After creating the tunnel, Cloudflare will usually **automatically add a CNAME DNS record** for your domain. It should look like this:
 
-`btcpay.example.com → <UUID>.cfargotunnel.com`
+`btcpay.example.com -> <UUID>.cfargotunnel.com`
 
 If it doesn't appear automatically, add it manually:
 
@@ -617,20 +618,18 @@ uview184syv9wftwngkay8d...
 3. Enter a value in the Block height field
 
 **First-time setup with a new wallet (new seed phrase):** enter the current Zcash block height (you can check it at 3xpl.com/zcash) - this speeds up initial scanning.
+
 **Migrating on the same server from a legacy Sapling-only setup to Unified Addresses / Orchard:** leave this field empty.
+
 **Moving your store to a new server with the same wallet/UFVK:** optionally enter the birth height - an approximate height of your store's first paid order (match the order date on 3xpl to narrow the scan). If unsure, leave it empty.
 
-> Not all wallets support **Unified Full Viewing Key (UFVK)** export yet.  
-> Recommended options:  
-> - [**YWallet**](https://ywallet.app/installation)  
-> - [**Zingo! Wallet (version for PC)**](https://zingolabs.org/)  
-> In both apps, look for UFVK export in the backup/export section.
+Not all wallets support **Unified Full Viewing Key (UFVK)** export yet. Recommended options:
 
-These keys support **automatic address rotation**, meaning:
-Every customer gets a **unique** payment address
-You see a **single, unified** balance
+[**YWallet**](https://ywallet.app/installation)
 
-You can find a broader compatibility list on [ZecHub -> Wallets](https://zechub.wiki/wallets). Once all fields are filled out, click **Save**.
+[**Zingo! Wallet (version for PC)**](https://zingolabs.org/)  
+
+In both apps, look for UFVK export in the backup/export section.These keys support **automatic address rotation**, meaning: Every customer gets a **unique** payment address, and you see a **single, unified** balance. You can find a broader compatibility list on [ZecHub -> Wallets](https://zechub.wiki/wallets). Once all fields are filled out, click **Save**.
 
 ---
 
@@ -640,7 +639,7 @@ Congratulations - your Zcash wallet is now connected to BTCPay Server. Let's run
 
 Go to:
 
-`Invoices → Create New`
+`Invoices -> Create New`
 
 Generate a test invoice for a small amount in ZEC.
 
@@ -748,7 +747,7 @@ You'll receive a JSON object with:
 * A payment URL that you can embed on your website or send to the customer
 
 See full documentation:
-[Greenfield API – Create Invoice](https://docs.btcpayserver.org/API/Greenfield/v1/#operation/CreateInvoice)
+[Greenfield API - Create Invoice](https://docs.btcpayserver.org/API/Greenfield/v1/#operation/CreateInvoice)
 
 ---
 
@@ -757,7 +756,7 @@ See full documentation:
 To receive real-time notifications when invoice statuses change (e.g. when a payment is received):
 
 ```markdown
-1. Go to your store settings → **Webhooks**
+1. Go to your store settings -> **Webhooks**
 2. Add the URL of your backend endpoint that will handle `POST` requests from BTCPay Server
 3. BTCPay will automatically send notifications when an invoice is paid or expires
 ```
@@ -782,7 +781,7 @@ BTCPay Server officially supports a plugin for WooCommerce. Steps to integrate:
 1. Install the **BTCPay for WooCommerce** plugin from the WordPress plugin directory or from GitHub.
 2. In your WordPress admin panel, go to:
 
-    `WooCommerce → Settings → Payments`
+    `WooCommerce -> Settings -> Payments`
 
 3. Find **BTCPay** in the list and click **Set up**
 4. Enter your BTCPay Server URL and follow the authorization instructions  
@@ -858,17 +857,28 @@ BTCPay was built as an open-source alternative to centralized payment providers.
 
 ## Resources
 
-```markdown
-* [BTCPay Server Official Website](https://btcpayserver.org/)
-* [BTCPay FAQ](https://docs.btcpayserver.org/FAQ/)
-* [BTCPay Server GitHub Repository](https://github.com/btcpayserver/btcpayserver)
-* [BTCPay Server Mainnet Demo](https://mainnet.demo.btcpayserver.org/login?ReturnUrl=%2F)
-* [Zcash Plugin for BTCPay (GitHub)](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
-* [Zcash Plugin Installation Guide](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
-* [Custom zcash-lightwalletd.custom.yml Example](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml)
-* [Lightwalletd Docker Compose File (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
-* [BTCPay API Key Docs (Greenfield API)](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
-* [Create a Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
-* [Zcash Wallet Compatibility List (ZecHub)](https://zechub.wiki/wallets)
-* [Zebra + Lightwalletd on Raspberry Pi 5 (ZecHub)](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)
-```
+
+[BTCPay Server Official Website](https://btcpayserver.org/)
+
+[BTCPay FAQ](https://docs.btcpayserver.org/FAQ/)
+
+[BTCPay Server GitHub Repository](https://github.com/btcpayserver/btcpayserver)
+
+[BTCPay Server Mainnet Demo](https://mainnet.demo.btcpayserver.org/login?ReturnUrl=%2F)
+
+[Zcash Plugin for BTCPay (GitHub)](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
+
+[Zcash Plugin Installation Guide](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
+
+[Custom zcash-lightwalletd.custom.yml Example](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml)
+
+[Lightwalletd Docker Compose File (Zebra)](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
+
+[BTCPay API Key Docs (Greenfield API)](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
+
+[Create a Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
+
+[Zcash Wallet Compatibility List (ZecHub)](https://zechub.wiki/wallets)
+
+[Zebra + Lightwalletd on Raspberry Pi 5 (ZecHub)](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)
+

@@ -7,34 +7,23 @@
 
 ## Near Intents 
 
-Zcash and NEAR Intents have been integrated, allowing users to swap Zcash (ZEC) with other top altcoins, including Bitcoin, Solana, NEAR, and XRP, without paying any fees.
-This integration is part of NEAR Protocol's efforts to create an infrastructure of autonomous and verifiable AI bots, which also brings benefits to Zcash by enabling AI-powered payment rails.
+Zcash and NEAR Intents have been integrated, allowing users to swap Zcash (ZEC) with other top altcoins, including Bitcoin, Solana, NEAR, and XRP, without paying any fees. This integration is part of NEAR Protocol's efforts to create an infrastructure of autonomous and verifiable AI bots, which also brings benefits to Zcash by enabling AI-powered payment rails. Zcash users are now capable of accessing smart contracts and wider [DeFi applications](https://nym.com/blog/what-is-defi) while preserving their privacy via [Near Intents](https://app.near-intents.org).
 
-Zcash users are now capable of accessing smart contracts and wider [DeFi applications](https://nym.com/blog/what-is-defi) while preserving their privacy via [Near Intents](https://app.near-intents.org).
+<iframe width="640" height="360" src="https://www.youtube.com/embed/mKVvXY4yjjA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Watch Demo](https://www.youtube.com/watch?v=mKVvXY4yjjA)
-___
-
+---
 
 ## Maya Protocol 
 
-Maya Protocol has integrated Zcash to enhance its decentralization, liquidity, and transaction privacy.
-This integration allows Zcash users to benefit from decentralized swaps, giving them greater flexibility and liquidity while preserving privacy.
-
-Learn More: [https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya](https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya)
-___
-___
+Maya Protocol has integrated Zcash to enhance its decentralization, liquidity, and transaction privacy. This integration allows Zcash users to benefit from decentralized swaps, giving them greater flexibility and liquidity while preserving privacy. Learn More: [https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya](https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya)
 
 
-**Note**: It is also possible to bridge any ETH you already have to private store as Shielded Zcash using the "Release" Tab & entering your Transparent address. You may then use the 'Autoshield' in your mobile/desktop wallet.
-
-   For this application to remain private it is recommended not to swap from ZEC > ETH and back from ETH > ZEC. 
+<iframe width="640" height="360" src="https://www.youtube.com/embed/f1k6xhNfTV8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-      
+**Note**: It is also possible to bridge any ETH you already have to private store as Shielded Zcash using the "Release" Tab & entering your Transparent address. You may then use the 'Autoshield' in your mobile/desktop wallet. For this application to remain private it is recommended not to swap from ZEC > ETH and back from ETH > ZEC. 
 
-___
-___
+---
 
 ## Innovation around Zcash DeFi 
 

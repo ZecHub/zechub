@@ -5,9 +5,7 @@
 
 # Using this Wiki
 
-Some of this might be overwhelming. We get it! There’s a lot of information here.
-
-Here is a simple step guide that highlights how you should navigate the wiki.
+Some of this might be overwhelming. We get it! There's a lot of information here. Here is a simple step guide that highlights how you should navigate the wiki.
 
 ## New to Zcash
 
@@ -25,7 +23,7 @@ After you have read the intro docs, and the resources associated with them, chec
 
 ## I am a Zcash community member
 
-If you’re a community member, amazing! The best thing you can do to stay up to date is to follow the Weekly newsletter [Zcash Ecosystem Digest](https://zechub.substack.com/s/zcash-ecosystem-digest) and follow all the accounts on the [List of Zcash community pages](https://zechub.wiki/zcash-community/community-links#content).
+If you're a community member, amazing! The best thing you can do to stay up to date is to follow the Weekly newsletter [Zcash Ecosystem Digest](https://zechub.substack.com/s/zcash-ecosystem-digest) and follow all the accounts on the [List of Zcash community pages](https://zechub.wiki/zcash-community/community-links#content).
 
 ## I want to contribute to ZecHub
 

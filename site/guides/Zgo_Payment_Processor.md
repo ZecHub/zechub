@@ -4,25 +4,19 @@
 
 # Zgo Payment Processor 
 
-<a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/1f7b96a0-1289-4152-8d65-994032b6b20c/Screenshot_2023-09-20_20-47-14/w=3840,quality=80" alt="" width="70" height="70"/>
-</a>
-
-There's definitely no doubt Zgo stands out as one of the foremost payment processors in the Zcash ecosystem, serving users by enabling seamless payment transactions with the Zcash cryptocurrency.
-
-Even though Payment processors  are known for their services to facilitate transactions and payments using supported cryptocurrencies like Zcash.They often provide tools and APIs for businesses and individuals to accept and manage cryptocurrency payments.
+There's definitely no doubt Zgo stands out as one of the foremost payment processors in the Zcash ecosystem, serving users by enabling seamless payment transactions with the Zcash cryptocurrency. Even though Payment processors  are known for their services to facilitate transactions and payments using supported cryptocurrencies like Zcash.They often provide tools and APIs for businesses and individuals to accept and manage cryptocurrency payments.
 
 ***"The Zcash Register"***
 
 Zgo offers a secure, confidential and autonomous method for making payments by harnessing the power of Zcash technology which makes it accessible to all users. ZGo boasts seamless integration with a wide array of popular business applications, enhancing its versatility and usability for a range of professional purposes. This compatibility enables users to effortlessly incorporate ZGo into their existing software ecosystems, streamlining processes and promoting efficiency when it comes to making and processing payment with Zcash. ZGo's integration capabilities ensure that it can seamlessly adapt to the diverse needs of various organizations, fostering a more interconnected and productive digital environment.
 
+<img width="672" height="378" alt="1" src="https://github.com/user-attachments/assets/de50885b-b068-4157-bbda-0981ca23efc8" />
+
+
+
 **ZGo And Xero** 
 
-[ZGo's](https://zgo.cash/) integration with the [Xero](https://www.xero.com/) marks a significant advancement in financial management for businesses. This integration empowers business owners by providing a convenient avenue for their customers to settle invoices using Zcash, a cryptocurrency known for its privacy and security features. 
-
-Beyond simplifying the payment process, [ZGo's](https://zgo.cash/) integration actively monitors the [Zcash blockchain](https://z.cash/), ensuring that every Zcash payment is tracked and reported seamlessly to [Xero](https://www.xero.com/). This bridge between cryptocurrency and conventional accounting systems allows business owners to maintain their existing workflow and financial processes without disruption.
-
-The result is that Business owners can now seamlessly accept Zcash payments directly into their wallets while enjoying the benefits of reliable accounting software. This integration simplifies cryptocurrency adoption for businesses & also demonstrates ZGo's commitment to bridging the gap between the traditional financial world and the exciting possibilities of cryptocurrencies. 
+[ZGo's](https://zgo.cash/) integration with the [Xero](https://www.xero.com/) marks a significant advancement in financial management for businesses. This integration empowers business owners by providing a convenient avenue for their customers to settle invoices using Zcash, a cryptocurrency known for its privacy and security features. Beyond simplifying the payment process, [ZGo's](https://zgo.cash/) integration actively monitors the [Zcash blockchain](https://z.cash/), ensuring that every Zcash payment is tracked and reported seamlessly to [Xero](https://www.xero.com/). This bridge between cryptocurrency and conventional accounting systems allows business owners to maintain their existing workflow and financial processes without disruption. The result is that Business owners can now seamlessly accept Zcash payments directly into their wallets while enjoying the benefits of reliable accounting software. This integration simplifies cryptocurrency adoption for businesses & also demonstrates ZGo's commitment to bridging the gap between the traditional financial world and the exciting possibilities of cryptocurrencies. 
 
 Want to set up ZGo with Xero for the first time? Follow the guide below:
 [Xero Integration Configuration](https://hedgedoc.vergara.tech/s/4iXC67fmb) 
@@ -30,13 +24,11 @@ Want to set up ZGo with Xero for the first time? Follow the guide below:
 
 **ZGo and WooCommerce**
 
-ZGo has taken a significant step by developing a dedicated plugin for [WooCommerce](https://woocommerce.com/), a widely acclaimed e-commerce platform seamlessly integrated with [WordPress](https://wordpress.org/). This innovative plugin equips e-commerce store owners with the capability to extend Zcash payment options to their customers, enhancing the flexibility and choice available at checkout.
+<img width="672" height="378" alt="2" src="https://github.com/user-attachments/assets/55a791bb-1947-4f55-b5b9-55083be8ed49" />
 
-Upon implementation, ZGo's plugin engages customers through a user-friendly interface, presenting them with a QR code for Zcash payment. Simultaneously, it vigilantly tracks the Zcash blockchain for payment confirmation and efficiently relays this information to the WooCommerce store. 
 
-This streamlined process ensures that shop owners enjoy a smooth and hassle-free experience akin to using any other traditional payment processor.
 
-What sets ZGo apart is its commitment to providing comprehensive solutions. The plugin includes an administrative dashboard tailored to the needs of shop owners. This dashboard offers valuable insights and control, enabling store operators to effortlessly monitor orders and payments facilitated through the ZGo plugin. This dual-pronged approach enriches the customer experience and empowers shop owners with the tools needed to manage their e-commerce operations efficiently.
+ZGo has taken a significant step by developing a dedicated plugin for [WooCommerce](https://woocommerce.com/), a widely acclaimed e-commerce platform seamlessly integrated with [WordPress](https://wordpress.org/). This innovative plugin equips e-commerce store owners with the capability to extend Zcash payment options to their customers, enhancing the flexibility and choice available at checkout.Upon implementation, ZGo's plugin engages customers through a user-friendly interface, presenting them with a QR code for Zcash payment. Simultaneously, it vigilantly tracks the Zcash blockchain for payment confirmation and efficiently relays this information to the WooCommerce store. This streamlined process ensures that shop owners enjoy a smooth and hassle-free experience akin to using any other traditional payment processor. What sets ZGo apart is its commitment to providing comprehensive solutions. The plugin includes an administrative dashboard tailored to the needs of shop owners. This dashboard offers valuable insights and control, enabling store operators to effortlessly monitor orders and payments facilitated through the ZGo plugin. This dual-pronged approach enriches the customer experience and empowers shop owners with the tools needed to manage their e-commerce operations efficiently.
 
 ### Zgo for E-commerce
 
@@ -58,7 +50,7 @@ At the heart of this payment flow is the verification of the transaction itself.
 
 **#5 Reporting to ZGo Payment Gateway Plugin**
 
-Once the payment transaction achieves the required five confirmations, the ZGo system communicates this information to the ZGo Payment Gateway plugin. This plugin serves as the bridge between the Zcash blockchain and the WooCommerce store, facilitating the integration of cryptocurrency paymen
+Once the payment transaction achieves the required five confirmations, the ZGo system communicates this information to the ZGo Payment Gateway plugin. This plugin serves as the bridge between the Zcash blockchain and the WooCommerce store, facilitating the integration of cryptocurrency payment.
 
 
 The payment flow illustrated in the image is a well-orchestrated process that not only confirms cryptocurrency transactions but also seamlessly updates the WooCommerce store database. The monitoring, confirmation, and reporting mechanisms ensure the reliability and security of Zcash payments, making it a robust solution for businesses and customers alike.

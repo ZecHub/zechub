@@ -6,39 +6,47 @@
 
 If you're a member of the Zcash community, and want to contribute building ZecHub, there a few things that are super helpful.
 
-1. Curate links for the newsletter and add them to the newsletter's github page.
-     * Find instructions on how to do that at [@ZecWeekly Newsletter](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md).
+Curate links for the newsletter and add them to the newsletter's github page: -> [Click here for instructions](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md)
 
-3. Fact check the wiki docs, suggest edits, and propose new pages in Github (Please propose pages under existing sections. We don't want to overload the homepage of the wiki)
+Fact check the wiki docs, suggest edits, and propose new pages in Github
 
-4. Create video content in the following categories:
+Create video content in the following categories:
+```markdown
+* Zcash explainer videos
+* Zcash wallet guide/tutorials
+* Third-party application demos
+```
 
-    * Zcash explainer videos
-    * Zcash wallet guide/tutorials
-    * Third-party application demos
+Produce designs such as posters/graphics/animations for Zcash & Privacy ecosystem 
 
+Translate any of the existing wiki pages.
 
-5. Produce designs such as posters/graphics/animations for Zcash & Privacy ecosystem 
+Reporting bugs
 
-6. Translate any of the existing wiki pages via ZecHub Global.
-
-7. Reporting bugs
-
-#### For details on bounty amounts, please read our [contributing page](https://github.com/ZecHub/zechub/blob/main/CONTRIBUTING.md).
+#### For details on bounty amounts, please read our contributing page -> [here](https://zechub.wiki/contribute/contributing-guide#content).
 
 We post issues for tasks that we currently have bounties open. Primarily these are found as
 
-* [ZecHub Github Issues](https://github.com/ZecHub/zechub/issues).
-* [ZecHub-Wiki Github Issues](https://github.com/ZecHub/zechub-wiki/issues).
-* [Dework](https://app.dework.xyz/zechub-2424).
-* [Crew3](https://crew3.xyz/c/zechub/)
+<img width="2768" height="838" alt="Screenshot_2025-11-01_11-13-39" src="https://github.com/user-attachments/assets/dd7dc989-3449-4a12-a919-9333a31cbb5a" />
+
+
+[Dework](https://app.dework.xyz/zechub-2424)
+
+[ZecHub Github Issues](https://github.com/ZecHub/zechub/issues)
+
+[ZecHub-Wiki Github Issues](https://github.com/ZecHub/zechub-wiki/issues)
+
+[ZecHub-Namada Github Issues](https://app.dework.xyz/zechub-2424)
+
 
 
 If there are other ways you'd like to contribute, please message ZecHub ([@ZecHub](https://twitter.com/zechub)) on Twitter or Join our [Discord](https://discord.gg/zcash).
 
 ____
 
-**In order to make payouts ZecHub requires all contributors to complete a declaration form with their Name & Shielded Zcash or Penumbra address**
+**In order to make payouts ZecHub requires all contributors to complete a declaration form with their Name & Shielded:**
+
+**( Zcash | Namada | Penumbra | Ycash ) address**
 
 ____
 

@@ -4,18 +4,23 @@
 
 The Zcash Devtool is a platform for hacking on Zcash. It is built by developers, for developers, for testing & development of new Zcash functionality; and should not be considered production-ready. The command line API that this tool exposes can & will change at any time and without warning. DO NOT commit significant funds to the management of the zcash-devtool embedded wallet.
 
-[Walkthrough](https://github.com/zcash/zcash-devtool/blob/main/doc/walkthrough.md) 
-
-For a step by step guide for how to get started using these tools, see [this walkthrough](doc/walkthrough.md). It documents a full walkthrough of how to set up and use the
-zcash devtool tooling. It is intended to serve as a guide for how to get set
-up and how to add your own functionality to the tool.
-
 ### Video tutorial of Zcash Devtool:
-Kris Nuttycombe (@nuttycom) presented this tool during ZconVI. The session is available
-on Youtube [here](https://www.youtube.com/watch?v=5gvQF5oFT8E)
+Kris Nuttycombe (@nuttycom) presented this tool during ZconVI.
 
-[![Youtube preview of the ZconVI presentation Zcash-devtool: the Zcash development multitool](https://img.youtube.com/vi/5gvQF5oFT8E/0.jpg)](https://www.youtube.com/watch?v=5gvQF5oFT8E)
+<iframe width="640" height="360" src="https://www.youtube.com/embed/5gvQF5oFT8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+For a step by step guide for how to get started using these tools, see [this walkthrough](https://github.com/zcash/zcash-devtool/blob/main/doc/walkthrough.md). It documents a full walkthrough of how to set up and use the zcash devtool tooling. It is intended to serve as a guide for how to get setup and how to add your own functionality to the tool.
+
 
 **Security Warnings:**
 DO NOT USE THIS IN PRODUCTION!!!
 The app has not been written with security in mind. It does however have affordances such as encryption of the mnemonic seed phrases that should make it viable for small scale experimentation, at your own risk.
+
+### Advanced (librustzcash tutorial )
+
+
+[view video here](https://free2z.cash/uploadz/public/ZcashTutorial/librustzcash-a-rust-crates.mp4)
+
+

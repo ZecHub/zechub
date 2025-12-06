@@ -1,12 +1,27 @@
 # Ywallet FROST demo
 
-## Tutorial Video
 
-https://www.youtube.com/watch?v=3IZgxDqQNbw
+<iframe width="640" height="360" src="https://www.youtube.com/embed/3IZgxDqQNbw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## Compile FROST bins
+
+[Github link](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+
+Use the above repo and follow directions on compiling: 
+
+```bash
+cargo build --bin trusted-dealer
+cargo build --bin dkg
+cargo build --bin coordinator
+cargo build --bin participants
+```
+
+Bins will be the the target folder.
 
 ## Create FROST UA
 
-./generateFROST_UA
+`./generateFROST_UA.sh`
 
 
 
@@ -20,7 +35,7 @@ Paste in any UA and send a tx. Save the file.
 
 ## Start the FROST signing proceedure 
 
-./signFROST_tx.sh rawtxs/mytx signedtxs/mysignedtx
+`./signFROST_tx.sh rawtxs/mytx signedtxs/mysignedtx`
 
 first input is the location of the raw tx from the step above
 second input is the location and name of the signed tx you want to broadcast
@@ -28,14 +43,16 @@ This is part where you tell FROST which transction you want everyone to sign
 
 ## Start Coordinator
 
-./runCoordinator.sh
+`./runCoordinator.sh`
 
 This coordinates each participants signature and creates a group signature
 
 ## Have each Participant sign for this transaction
 
+```bash
 ./participantSign.sh key-package-1.json
 ./participantSign.sh key-package-2.json
+```
 
 ## Finalize signed Transaction
 
