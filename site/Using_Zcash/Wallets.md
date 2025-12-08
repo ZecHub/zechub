@@ -2,7 +2,7 @@
 ![logo](https://i.ibb.co/HgsHnpN/zashiwallet.png "Zashi")
 - Devices: Mobile
 - Pools: Transparent | Sapling | Orchard
-- Features: Spend before Sync | Unified Address | Shielded Memo | Address Book | Payment Request | TEX Address | Tor Currency Rates | Coinbase Onramp | Flexa Payments
+- Features: Spend before Sync | Unified Address | Shielded Memo | Address Book | Payment Request | TEX Address | Tor Support | Flexa Payments | Near Swaps
 
 
 ---
@@ -31,14 +31,6 @@
 - Pools: Transparent | Sapling | Orchard
 - Features: Windows | Linux | Viewing Key | PepperSync | Shielded Memo | Financial Insights | Unified Address | Address Book | Payment Request
 
----
-
-## [Nighthawk](https://nighthawkwallet.com)
-![logo](https://i.ibb.co/vL2FxGk/nighthawkcard.png "Nighthawk")
-- Devices: Mobile
-- Pools: Transparent | Sapling | Orchard
-- Features: Spend before Sync | Unified Address | Shielded memo | Flexa Payments
-
 
 ---
 
@@ -53,8 +45,8 @@
 ## [Unstoppable](https://unstoppable.money)
 ![logo](https://i.ibb.co/C68mFCx/image-2024-11-28-091200540.png "Unstoppable")
 - Devices: Mobile
-- Pools: Transparent | Sapling
-- Features: Spend before Sync | Multi Coin | Unified Address
+- Pools: Transparent | Sapling | Orchard
+- Features: Spend before Sync | Multi Coin | Unified Address | Maya Swaps
 
 
 ---
