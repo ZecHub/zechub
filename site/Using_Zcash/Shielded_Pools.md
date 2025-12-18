@@ -10,10 +10,10 @@ There are currently 4 [value pools](https://zcash.readthedocs.io/en/latest/rtd_p
 
 
 
-## Shielded Pools
+## Shielded Pools 
 
 
-### Orchard
+<h3 id="orchard" class="text-3xl font-bold my-4">Orchard</h3>
 
 <img width="1754" height="854" alt="Orchard" src="https://github.com/user-attachments/assets/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72" />
 
@@ -32,7 +32,7 @@ Transactions within Orchard will improve the reduction of transaction metadata &
 
 ____
 
-### Sapling
+<h3 id="sapling" class="text-3xl font-bold my-4">Sapling</h3>
 
 <img width="1756" height="854" alt="sapling" src="https://github.com/user-attachments/assets/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae" />
 
@@ -49,7 +49,7 @@ Sapling wallet addresses begin with "zs" and this can be observed in all support
 
 ____
 
-### Sprout
+<h3 id="sprout" class="text-3xl font-bold my-4">Sprout</h3>
 
 <img width="1758" height="870" alt="sprout" src="https://github.com/user-attachments/assets/956eceed-f4d6-4087-99d0-32a770449dda" />
 
@@ -63,7 +63,7 @@ Sprout was used as an early tool for [Zcash slow start Mining](https://electricc
 As the Zcash ecosystem continued  to expand with increasing number of shielded transactions, it was observed that the Zcash Sprout Series became limited and less efficient when it comes to user privacy, transaction scalability and processing. This led to the modification of the network and Sapling Upgrade. 
 
 
-## Transparent 
+<h3 id="transparent" class="text-3xl font-bold my-4">Transparent</h3>
 
 <img width="1760" height="880" alt="transparent" src="https://github.com/user-attachments/assets/01de2907-b62d-4421-83d7-ea4908faa828" />
 
