@@ -69,7 +69,7 @@ Open Raspberry Pi Imager
 
 <img src="https://user-images.githubusercontent.com/81990132/197372069-fb9f7417-d320-42cf-ad65-38d630512985.png" alt="rpi imager" width="400" height="400"/>
 
-Choose OS and Storage Device. Since Raspberry Pi 4's are 64 bit, I recommend choosing "Other general-purpose OS" => Ubuntu => Ubuntu Server 22.10 (64 bit). Click on Storage and select your SD Card. Before writing to SD card, click on Advanced options by clicking on the white gear icon near the bottom right corner.
+Choose OS and Storage Device. Since Raspberry Pi 4's are 64 bit, I recommend choosing "Other general-purpose OS" => Ubuntu => Ubuntu Server 24.04.3 LTS (64 bit). Click on Storage and select your SD Card. Before writing to SD card, click on Advanced options by clicking on the white gear icon near the bottom right corner.
 
 
 <img src="https://user-images.githubusercontent.com/81990132/197372159-1169c6f4-f6aa-4f44-9679-fe7aa542bbd3.png" alt="gear" width="200" height="200"/>
