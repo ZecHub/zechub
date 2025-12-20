@@ -20,7 +20,7 @@ sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 
 [Zebra Github](https://github.com/ZcashFoundation/zebra)
 
-* `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v1.6.0 zebrad`
+* `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v3.1.0 zebrad`
 
 ## Configure zebrad.toml
 
@@ -39,8 +39,8 @@ add:
 * install go
 
 ```bash
-wget https://go.dev/dl/go1.22.1.linux-arm64.tar.gz
-sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.22.1.linux-arm64.tar.gz go/
+wget https://go.dev/dl/go1.25.5.linux-arm64.tar.gz
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.25.5.linux-arm64.tar.gz go/
 export PATH=$PATH:/usr/local/go/bin
 ```
 
@@ -64,13 +64,12 @@ export PATH=$PATH:~/go/bin/`
 ## Install NodeJS
 
 ```bash
- sudo apt install -y ca-certificates curl gnupg
- curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /usr/share/keyrings/nodesource.gpg
- NODE_MAJOR=20
- echo "deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | sudo tee /etc/apt/sources.list.d/nodesource.list
+ curl -fsSL https://deb.nodesource.com/setup_23.x -o nodesource_setup.sh
+ sudo -E bash nodesource_setup.sh
  sudo apt update
  sudo apt install nodejs
 ```
+If you experience any errors, [here](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04) are some alternative ways to install NodeJS.
 
 ## Install Yarn
 
