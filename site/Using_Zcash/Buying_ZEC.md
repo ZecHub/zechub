@@ -42,13 +42,6 @@ When doing this, we recommend using one of the following [wallets](https://zechu
 
 ![mobile](https://github.com/user-attachments/assets/8b7618f5-dec6-4e6b-9804-db75be5c1e2f)
 
-## Ztarknet
-
-![ztarknet](https://github.com/TheRhipper/Images/blob/main/100171.jpg)
-
-In November 2025, the "Ztarknet" Layer-2 (L2) launched on testnet. Ztarknet introduces programmable smart contracts to Zcash using Cairo-based applications and Circle-STARK proofs. This development allows users to acquire ZEC and immediately use it within private DeFi rollups for lending, borrowing, and yield farming, all while keeping the transaction details shielded from the base layer.
-learn more [here](https://www.ztarknet.cash/)
-
 
 Here is a [video](https://www.youtube.com/watch?v=6IIRRZ17Q74&t=230s) that explores that latest mobile shielded wallets as of 2025.
 
