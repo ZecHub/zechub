@@ -26,10 +26,14 @@ Gemini is a regulated cryptocurrency exchange, wallet, and custodian that makes 
 
 Flyp.me is a no sign-up crypto exchange. It was one of the safest and most private ways to exchange 30+ cryptocurrencies straight to your wallet. You can buy ZEC with other cryptocurrencies.
 
+**[Luno](https://www.luno.com)**
+
+Luno is a centralized cryptocurrency exchange where users can buy, sell, and store digital currencies like Zcash (ZEC). ZEC is available in certain regions (e.g., South Africa, Nigeria).
+
 ## Decentralized Exchanges that support transparent withdrawals
 
 These exchanges support transparent withdrawals. This means when you withdrawal ZEC to your wallet, you need to send it to your transparent address, your public ZEC address. 
-Click [here](https://zechub.wiki/using-zcash/non-custodial-exchanges) for me details.
+Click [here](https://zechub.wiki/using-zcash/non-custodial-exchanges) for more details.
 
 ![dex](https://github.com/user-attachments/assets/bfe2e9cf-2def-4593-b790-152e14b23da3)
 
@@ -37,6 +41,13 @@ Click [here](https://zechub.wiki/using-zcash/non-custodial-exchanges) for me det
 When doing this, we recommend using one of the following [wallets](https://zechub.wiki/wallets). 
 
 ![mobile](https://github.com/user-attachments/assets/8b7618f5-dec6-4e6b-9804-db75be5c1e2f)
+
+## Ztarknet
+
+![ztarknet](https://github.com/TheRhipper/Images/blob/main/100171.jpg)
+
+In November 2025, the "Ztarknet" Layer-2 (L2) launched on testnet. Ztarknet introduces programmable smart contracts to Zcash using Cairo-based applications and Circle-STARK proofs. This development allows users to acquire ZEC and immediately use it within private DeFi rollups for lending, borrowing, and yield farming, all while keeping the transaction details shielded from the base layer.
+learn more [here](https://www.ztarknet.cash/)
 
 
 Here is a [video](https://www.youtube.com/watch?v=6IIRRZ17Q74&t=230s) that explores that latest mobile shielded wallets as of 2025.
