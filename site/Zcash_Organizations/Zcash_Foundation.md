@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="https://i.ibb.co/Nr9xqgX/image-2024-02-03-165803028.png" alt="Alt Text" width="80"/>  Zcash Foundation
+# <img src="https://i.ibb.co/Nr9xqgX/image-2024-02-03-165803028.png" alt="Alt Text" width="50"/>  Zcash Foundation
 
 ## Mission Statement
 
@@ -28,7 +28,7 @@ The Zcash Foundation no longer receives funding from the Zcash development [fund
 
 ## Zcash Community Grants Program
 
-<image src="https://zcashcommunitygrants.org/images/logos/yellow/ZCG%20Circle%20Logo-10.png" height="250" width="250" />
+<image src="https://zcashcommunitygrants.org/images/logos/yellow/ZCG%20Circle%20Logo-10.png" height="50" width="50" />
   
 [https://zcashcommunitygrants.org/](https://zcashcommunitygrants.org/)
 
