@@ -10,7 +10,7 @@ Our goal at ZF is to create tools that help sustain open networks, enabling anyo
 
 ## People and Teams
 
-The Zcash Foundation has ~12 employees that are distributed across the world. They focus on protocol development, protocol security, protocol governance, infrastructure development and managing Zcash community events. The Zcash Foundation is not restricted to only working on Zcash and so also engages in developing privacy preserving technologies for [humanitarian aid](https://zfnd.org/zcash-foundation-launches-new-initiative-to-champion-privacy-preserving-humanitarian-aid/) and for the general public good.
+The Zcash Foundation has ~12 employees that are distributed across the world. They focus on protocol development, protocol security, protocol governance, infrastructure development and managing Zcash community events. The Zcash Foundation is not restricted to only working on Zcash and so also engages in developing privacy preserving technologies for [humanitarian aid](https://zfnd.org/sai/) and for the general public good.
 
 Zcash Foundation Grants provides the ecosystem with a means to fund projects that contribute to the privacy ecosystem such as [Zebra](https://zebra.zfnd.org/) (an independant node implementation for Zcash) & [FROST](https://frost.zfnd.org/) as well as [various](https://www.coindesk.com/tech/2021/06/08/tor-project-receives-670k-from-zcash-open-major-grants-for-coding-language-upgrade/) other projects through [Zcash Community Grants Committee](https://zcashcommunitygrants.org/). 
 
