@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-#<img src="https://i.ibb.co/Nr9xqgX/image-2024-02-03-165803028.png" alt="Alt Text" width="50"/>  Zcash Foundation
+# <img src="https://i.ibb.co/Nr9xqgX/image-2024-02-03-165803028.png" alt="Alt Text" width="50"/>  Zcash Foundation
 
 ## Mission Statement
 
