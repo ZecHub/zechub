@@ -1,8 +1,8 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Organizations/Zcash_Foundation.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
-
-# <img src="https://i.ibb.co/Nr9xqgX/image-2024-02-03-165803028.png" alt="Alt Text" width="50"/>  Zcash Foundation
+#
+<img src="https://i.ibb.co/Nr9xqgX/image-2024-02-03-165803028.png" alt="Alt Text" width="50"/>  Zcash Foundation
 
 ## Mission Statement
 
@@ -10,92 +10,48 @@ Our goal at ZF is to create tools that help sustain open networks, enabling anyo
 
 ## People and Teams
 
-The Zcash Foundation has nearly 15 employees that are distributed across the world. They work on various things such as protocol development, protocol security, protocol governance, business development and managing Zcash community events. 
-
-The ZF team consists of a board of directors, the engineering team and an operations team, more info [here](https://zfnd.org/about/).
+The Zcash Foundation has ~12 employees that are distributed across the world. They focus on protocol development, protocol security, protocol governance, infrastructure development and managing Zcash community events. The Zcash Foundation is not restricted to only working on Zcash and so also engages in developing privacy preserving technologies for [humanitarian aid](https://zfnd.org/zcash-foundation-launches-new-initiative-to-champion-privacy-preserving-humanitarian-aid/) and for the general public good as well.
 
 Zcash Foundation Grants provides the ecosystem with a means to fund projects that contribute to the privacy ecosystem such as [Zebra](https://zebra.zfnd.org/) (an independant node implementation for Zcash) & [FROST](https://frost.zfnd.org/) as well as [various](https://www.coindesk.com/tech/2021/06/08/tor-project-receives-670k-from-zcash-open-major-grants-for-coding-language-upgrade/) other projects through [Zcash Open Major Grants](https://zcashcommunitygrants.org/) , now [Zcash Community Grants Committee](https://zcashgrants.org/submit). 
 
-The Foundation also holds [Zcon](https://zfnd.org/zcon/), a yearly in-person conference centered on the Zcash ecosystem and supports grassroots, community initiatives such as [Zcon Vozes](https://zfnd.org/zcon-voices/) regional specific conferences, the [Zcash Foundation A/V Club](https://forum.zcashcommunity.com/t/the-zero-knowledge-audiovisual-club/43733) and various other [open community calls](https://github.com/ZcashCommunityGrants/arboretum-notes) and AMA's.
+The Foundation also holds [Zcon](https://zfnd.org/zcon/), a yearly in-person conference centered on the Zcash ecosystem and supports grassroots, community initiatives such as [Zcon Vozes](https://zfnd.org/zcon-voices/) [regional specific conferences](https://zfnd.org/zcash-dev-summits/), the [Zcash Foundation A/V Club](https://forum.zcashcommunity.com/t/the-zero-knowledge-audiovisual-club/43733), now [Zero Knowledge Audio Visual Club](https://www.zkav.club/) and various other [open community calls](https://zfnd.org/arborist-calls/) and [AMA's](https://forum.zcashcommunity.com/t/community-call-with-the-zcg-candidates-december-2024/49707).
 
-The Zcash Foundation enforces the [Zcash Trademark policy](https://zfnd.org/protecting-the-zcash-trademarks/) per the conditions of it's [donation](https://zfnd.org/wp-content/uploads/2022/06/Trademark-Agreement-ZF_ECC_notarized-pages-and-signed.pdf) by the Electric Coin Co. which helps "Protect the reputation of Zcash, its associated entities, and the Zcash community" by "identify(ing) official sources of information, reducing the likelihood of fraudulent or incorrect information" and "Identify(ing) official apps and services, reducing the likelihood of fraudulent activities." 
+The Zcash Foundation enforces the [Zcash Trademark policy](https://zfnd.org/zcash-trademark-policy/) per the *updated conditions of it's [donation](https://zfnd.org/new-zcash-trademark-policy/) by the Electric Coin Co. which helps "Protect the reputation of Zcash, its associated entities, and the Zcash community" by "identify(ing) official sources of information, reducing the likelihood of fraudulent or incorrect information" and "Identify(ing) official apps and services, reducing the likelihood of fraudulent activities." 
 
 ## Organizational Structure
 
-The Zcash Foundation is a [501(c)(3)](https://projects.propublica.org/nonprofits/organizations/820707962) not for profit organization. In addition to their team, they have a board of directors.
+The Zcash Foundation is a [501(c)(3)](https://projects.propublica.org/nonprofits/organizations/820707962) tax-exempt, non-profit [charity](https://zfnd.org/#:~:text=Committed%20to%20Transparency). In addition to their [Team](https://zfnd.org/#:~:text=Our%20Team), they have a [Board of Directors](https://zfnd.org/#:~:text=Board%20of%20Directors) and facilitate community governance elections by polling the [Zcash Community Advisory Panel](https://zfnd.org/zcash-community-advisory-panel/).
 
 ## Funding
 
-The Zcash Foundation receives 5% of the [Zcash development fund](https://zips.z.cash/zip-1014). Their use of finances can be seen in their quarterly 
-[Transparency Reports](https://zfnd.org/category/transparency-reports/).
+The Zcash Foundation no longer receives funding from the [Zcash development fund](https://zips.z.cash/zip-1014) as of November, 2024. Funding for The Foundation is now appropriated through traditional, tax-deductable [donations](https://www.jotform.com/form/251874383638065). Their use of finances can be seen in their quarterly [Transparency Reports](https://zfnd.org/category/transparency-reports/).
 
 ## Zcash Community Grants Program
 
 <image src="https://zcashcommunitygrants.org/images/logos/yellow/ZCG%20Circle%20Logo-10.png" height="250" width="250" />
   
-[https://zcashgrants.org/submit](https://zcashgrants.org/submit)
+[https://zcashcommunitygrants.org/](https://zcashcommunitygrants.org/)
 
-This program funds independent teams to perform major ongoing development (or other work) that benefits the Zcash ecosystem. Grants are chosen by a five-person committee elected by the Zcash community. Teams and organizations that are interested in advancing the usability, security, privacy and adoption of Zcash are strongly encouraged to apply for a Zcash Community Grant.
+This program funds independent teams to perform major ongoing development (or other work) that benefits the Zcash ecosystem. Grants are chosen by a five-person committee elected by the Zcash Community Advisory Panel. Teams and organizations that are interested in advancing the usability, security, privacy and adoption of Zcash are strongly encouraged to apply for a Zcash Community Grant!
 
-## Zcash Minor Grants Program
-
-(Currently closed)
-[https://zfnd.org/zcash-minor-grants-april-2023/](https://zfnd.org/zcash-minor-grants-april-2023/)
-
-![image](https://global.discourse-cdn.com/zcash/optimized/3X/6/8/68ad4ceeb7ad5df77ebff311c2580ceda3ecef10_2_690x172.jpeg)
-
-On February 22, 2023, a new experimental credit program from the Zcash Foundation (ZF) was announced, which we call **Minor Grants**. It is intended to complement the Major Grants program (also known as Zcash Community Grants) by providing a source of funding for smaller grants. Hopefully, this will reduce the number of minor grant grants that are submitted to the ZCG, allowing them to focus their attention on larger, more controlled grants that are more in line with what the Major Grants program financially intends. Additionally, I would like to create a channel for subordinating titles that are not directly related to Zcash, but that explore broader applications of zero-knowledge proofs or other approaches to financial privacy, in line with our charitable purpose.
-
-**The Application Process**
-
-Applications should be submitted through the ZF concessions platform and applicants should agree to sign the ZF concession agreement and go through the ZF KYC process if the application is successful.
-
-The deadline for submitting a grant application is 22 February 2023, 9:00 am UTC on Monday 20 March 2023.
-
-**The Voting Process**
-
-On April 17, we published the list of grant applications that will be submitted to ZCAP for approval.
-
-**List of Grant Applications**
-
-[Algorithmic Anthropometry](https://zfnd.org/wp-content/uploads/2023/04/Algorithmic_Anthropometry.pdf)
-
-[Aprendamos de Criptos y Blockchain](https://zfnd.org/wp-content/uploads/2023/04/Aprendamos_de_Criptos_y_Blockchain.pdf) (trans. Lets learn about Crypto and Blockchain)
-
-[Crew3 technician](https://zfnd.org/wp-content/uploads/2023/04/Crew3_technician.pdf) 
-
-[Dizzy Wallet: A Dedicated Zcash Wallet for Discord](https://zfnd.org/wp-content/uploads/2023/04/Dizzy_Wallet_A_Dedicated_Zcash_Wallet_for_Discord.pdf) 
-
-[Preparing and publishing a web novel dealing with financial privacy in crypto](https://zfnd.org/wp-content/uploads/2023/04/Web_novel_dealing_with_financial_privacy_in_crypto.pdf) 
-
-[Research on Zcash KYC-Free Infrastructure](https://zfnd.org/wp-content/uploads/2023/04/Research_on_Zcashs_KYC-Free_Infrastructure.pdf) 
-
-[Uang di Masa Depan: A Personal Finance Course for Under-privileged Youth](https://zfnd.org/wp-content/uploads/2023/04/Personal_Finance_Course_for_Under-privileged_Youth.pdf)
-
-[Unified Address parsing and construction library for .NET](https://zfnd.org/wp-content/uploads/2023/04/Unified_Address_library_for_NET.pdf)
-
-[Zcash Zeitgeist 02 14](https://zfnd.org/wp-content/uploads/2023/04/Zcash_Zeitgeist_02.pdf)
-
-[Zcast, el podcast de Zcash en Espanol](https://zfnd.org/wp-content/uploads/2023/04/Zcast_el_podcast_de_Zcash_en_Espanol.pdf)
-
-The [ZCAP poll](https://vote.heliosvoting.org/helios/elections/98ab74d8-d22f-11ed-ba5a-420e8d4c05c8/voters/list?limit=165) opened on April 3 and closed at 09:00 UTC on April 17, 2023.
-
-The voting process was done by Zcap members,and [102 people voted](https://vote.heliosvoting.org/helios/elections/98ab74d8-d22f-11ed-ba5a-420e8d4c05c8/view) , at the end of the poll, 4 projects were chosen to receive Minor Grants
-
-**List of selected projects**
-
-[Unified Address parsing and construction library for .NET](https://zfnd.org/wp-content/uploads/2023/04/Unified_Address_library_for_NET.pdf) (68 votes)
-
-[Research on Zcash KYC-Free Infrastructure](https://zfnd.org/wp-content/uploads/2023/04/Research_on_Zcashs_KYC-Free_Infrastructure.pdf) (65 votes)
-
-[Dizzy Wallet: A Dedicated Zcash Wallet for Discord](https://zfnd.org/wp-content/uploads/2023/04/Dizzy_Wallet_A_Dedicated_Zcash_Wallet_for_Discord.pdf)  (61 votes)
-
-[Zcast, el podcast de Zcash en Español](https://zfnd.org/wp-content/uploads/2023/04/Zcast_el_podcast_de_Zcash_en_Espanol.pdf) (55 votes)
-
-
-For more information about Minor Grants, you can consult the [Zcash Forum](https://forum.zcashcommunity.com/t/zcash-minor-grants-program-by-zfnd/44075/29?u=dismad), or the [Minor Grants Page](https://zfnd.org/launching-the-zcash-minor-grants-program/).
 
 ## Highlighted Zcash Foundation Videos
+
+**Zcon Events**
+[Zcon0]<iframe width="640" height="360" src="https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Zcon1]<iframe width="640" height="360" src="https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Zcon2 Lite]<iframe width="640" height="360" src="https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Zcon3]<iframe width="640" height="360" src="https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Zcon4]<iframe width="640" height="360" src="https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[ZconV]<iframe width="640" height="360" src="https://www.youtube.com/playlist?list=PL40dyJ0UYTLJ41e2uSOJItvbW1YVR49aR" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[ZconVI]<iframe width="640" height="360" src="https://www.youtube.com/playlist?list=PL40dyJ0UYTLIIhRk8vu2hkPL_q7OWO7wk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
   
 **Zebrad for Linux Tutorials**
 
