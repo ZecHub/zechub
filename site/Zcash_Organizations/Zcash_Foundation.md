@@ -28,7 +28,7 @@ The Zcash Foundation no longer receives funding from the Zcash development [fund
 
 ## Zcash Community Grants Program
 
-<image src="https://zcashcommunitygrants.org/images/logos/yellow/ZCG%20Circle%20Logo-10.png" height="50" width="50" />
+<image src="https://zcashcommunitygrants.org/images/logos/yellow/ZCG%20Circle%20Logo-10.png" height="100" width="100" />
   
 [https://zcashcommunitygrants.org/](https://zcashcommunitygrants.org/)
 
