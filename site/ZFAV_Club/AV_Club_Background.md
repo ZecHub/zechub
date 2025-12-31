@@ -4,6 +4,8 @@
 
 # <img src="https://i.ibb.co/tYvwnCW/image-2024-02-03-170636194.png" alt="Alt Text" width="50"/>    ZFAV Club Background
 
+[Website](https://zkav.club) - [Github](https://github.com/copernicus-mogley/zkav.club) - [X/Twitter](https://x.com/ZkAv_Club) - [Youtube](https://www.youtube.com/@ZkAv_Club)
+
 *Supported by The Zcash Foundation this ambitious grassroots project aims to have global impact through local and regional actions. Inviting a community of creators to learn and work together to elevate and disseminate news and stories that inspire, educate, and share the promise of Zcash and financial privacy*.
 
 We are a global collective of content creators who care about privacy, Zcash, and building community. Together we will build a space to share information, skills and resources to aid production and publishing of content that covers the topics we care about. We want stories told by the people who are closest to the action, sharing their passion and lived experiences to bring privacy education and Zcash to every part of the world.
