@@ -2,8 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="https://i.ibb.co/tYvwnCW/image-2024-02-03-170636194.png" alt="Alt Text" width="50"/>    ZKAV Club Background
-
+# <img src="https://i.ibb.co/tYvwnCW/image-2024-02-03-170636194.png" alt="Alt Text" width="50"/>    ZKAV Club
 [Website](https://zkav.club) - [Github](https://github.com/copernicus-mogley/zkav.club) - [X/Twitter](https://x.com/ZkAv_Club) - [Youtube](https://www.youtube.com/@ZkAv_Club)
 
 *Supported by The Zcash Foundation this ambitious grassroots project aims to have global impact through local and regional actions. Inviting a community of creators to learn and work together to elevate and disseminate news and stories that inspire, educate, and share the promise of Zcash and financial privacy*.
