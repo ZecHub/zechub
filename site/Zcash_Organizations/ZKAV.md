@@ -29,12 +29,10 @@ We will foster resources and connections that motivate and support content creat
 We envision a web of connections speaking and creating in different languages, all feeding off of, and contributing to, the information and content shared by the Zk Av Club. We will lift each other up and together we will build the momentum needed to bring Zcash and privacy to the world. Join us!
 Everyone is invited and welcome to be a part of the Zk Av Club! Anyone with a passion for privacy who is interested in exploring new audio/visual and internet technology can attend meetups and participate to the degree of their own comfort. 
 
-## Funding
-The Zk Av Club is being launched and organized by Ryan Taylor with support from the Zcash Foundation. 
+## Guides for Creators
+[Link](https://github.com/ZecHub/zechub/blob/main/site/ZFAV_Club/Guides_for_Creators.md)
 
 ## Past Events
-A [link](https://forum.zcashcommunity.com/t/zk-av-club-2025-wrap-up/54044) to a summary of all ZKAV activity in 2025.
-
-
+A [link](https://forum.zcashcommunity.com/t/zk-av-club-2025-wrap-up/54044) to a recap of all ZKAV activity in 2025.
 
 [Zcon Sessions](https://www.youtube.com/playlist?list=PL9eB_cR4oMehVbHMbia-IPPtO4H1UEMy7) from Zcon4 as well [Here](https://www.youtube.com/live/S-Obx1mWFB4?si=yE54LktZT4Uv244u) and [Here](https://youtu.be/z7SXAhYh7Bk?si=Pmw09w2KvLcPPQmL)
