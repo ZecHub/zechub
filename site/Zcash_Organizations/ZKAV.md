@@ -1,9 +1,12 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/ZKAV.md" target="_blank">
+<a href="https://github.com/Zechub/zechub/edit/main/site/ZFAV_Club/AV_Club_Background.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="https://free2z.com/uploadz/public/ZFAVClub/Logo-zfav-refresh-2023-Red-White.webp" alt="Alt Text" width="50"/>    Zero Knowledge Audio Visual Club
+# <img src="https://i.ibb.co/tYvwnCW/image-2024-02-03-170636194.png" alt="Alt Text" width="50"/>    ZFAV Club Background
+
 [Website](https://zkav.club) - [Github](https://github.com/copernicus-mogley/zkav.club) - [X/Twitter](https://x.com/ZkAv_Club) - [Youtube](https://www.youtube.com/@ZkAv_Club)
+
+*Supported by The Zcash Foundation this ambitious grassroots project aims to have global impact through local and regional actions. Inviting a community of creators to learn and work together to elevate and disseminate news and stories that inspire, educate, and share the promise of Zcash and financial privacy*.
 
 ## Mission Statement
 We are a global collective of content creators who care about privacy, Zcash, and building community. 
