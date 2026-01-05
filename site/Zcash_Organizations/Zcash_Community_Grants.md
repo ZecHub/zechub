@@ -35,3 +35,50 @@ The Electric Coin Company receives 8% of the [Zcash development fund](https://zi
 ## Resources
 
 [Zcash development and governance](https://z.cash/zcash-development-and-governance/)
+
+
+
+
+## How to Submit a Grant Application via ZCG (GitHub + Community Forum)
+
+### Step 1: Prepare Your Proposal
+Create a clear proposal including:
+- Project title and applicant details
+- Problem statement and proposed solution
+- Deliverables, timeline, and milestones
+- Budget and funding request
+- Relevant experience and risks
+
+---
+
+### Step 2: Submit on GitHub
+1. Go to the **Zcash Community Grants GitHub repository**
+2. Open the **Issues** tab and click **New Issue**
+3. Select the appropriate **grant application template**
+4. Complete all required fields and submit
+
+The GitHub issue is the **official application record**.
+
+---
+
+### Step 3: Create a Community Forum Post
+1. Go to the **Zcash Community Forum**
+2. Create a new thread in the **Zcash Community Grants** category
+3. Use the same title as the GitHub issue
+4. Add a short summary and include a **link to the GitHub issue**
+
+---
+
+### Step 4: Engage in Review
+- Monitor the GitHub issue and forum thread
+- Respond to questions and feedback from the ZCG Committee and community
+
+---
+
+### Step 5: Outcome
+- Approved proposals proceed to funding and reporting
+- Unapproved proposals **MAY** be revised and resubmitted
+
+---
+
+**Note:** GitHub is the source of record; the forum is for public discussion.
