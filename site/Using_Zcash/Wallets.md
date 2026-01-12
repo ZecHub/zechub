@@ -120,7 +120,7 @@
 ![logo](https://i.ibb.co/05B4mBb/unnamed.png)
 - Devices: Web 
 - Pools: Transparent | Sapling | Orchard
-- Features:  DEX Swaps| Unified Address
+- Features:  DEX Swaps | Unified Address
 
 ---
 
