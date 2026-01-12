@@ -7,23 +7,33 @@ In this guide, you’ll learn how to buy airtime with ZEC:
 1. First things first: visit[ Coinsbee.com](https://www.coinsbee.com/en/shop/mobile-top-ups/) and create an account.
 
 2. Scroll to the top left corner and select your country; in that manner, choose mobile phone credit — select the network that you’d like to top up! I’m using MTN.
-![](https://cdn-images-1.medium.com/max/1200/0*qvB7ZCWaVWa-C2d8)
 
-3. Fill in the correct details and hit the “Buy Now” button. Open the cart to view your order, click continue, and confirm the purchase with $ZEC.
-![](https://cdn-images-1.medium.com/max/1200/0*ikF-ooBc9W7olfNt)
+<img width="480" height="480" alt="IMG_20251018_090935" src="https://cdn-images-1.medium.com/max/1200/0*qvB7ZCWaVWa-C2d8" />
 
-4. The equivalent in $ZEC will be provided, and a transparent address where the funds will be sent.
-![](https://cdn-images-1.medium.com/max/1200/0*6_YhAhQnsLbrMvHN)
+4. Fill in the correct details and hit the “Buy Now” button. Open the cart to view your order, click continue, and confirm the purchase with $ZEC.
 
-5. Copy and paste the amount and address correctly; in the memo field, add your YWallet address in case there will be a refund.
-![](https://cdn-images-1.medium.com/max/1200/0*DNnpyemsKcW-k-u-)
+<img width="480" height="480" alt="IMG_20251018_090935" src="https://cdn-images-1.medium.com/max/1200/0*ikF-ooBc9W7olfNt" />
 
-7. Once the funds have been sent, your request will be processed within a few minutes.
-![](https://cdn-images-1.medium.com/max/1200/0*LgXuUVLVecqrUW5G)
+6. The equivalent in $ZEC will be provided, and a transparent address where the funds will be sent.
 
-8. Hey… My line has been credited! You could also confirm your email during the payment process so you’ll get notified via email once the transaction is completed.
-![](https://cdn-images-1.medium.com/max/1200/0*TJKIcqznQ4Y8_jgo) 
-![](https://cdn-images-1.medium.com/max/1200/0*Jn7tD9lb2xtMBpIw)
+
+<img width="480" height="480" alt="IMG_20251018_090935" src="https://cdn-images-1.medium.com/max/1200/0*6_YhAhQnsLbrMvHN" />
+
+8. Copy and paste the amount and address correctly; in the memo field, add your YWallet address in case there will be a refund.
+
+<img width="480" height="480" alt="IMG_20251018_090935" src="https://cdn-images-1.medium.com/max/1200/0*DNnpyemsKcW-k-u-" />
+
+10. Once the funds have been sent, your request will be processed within a few minutes.
+
+<img width="480" height="480" alt="IMG_20251018_090935" src="https://cdn-images-1.medium.com/max/1200/0*LgXuUVLVecqrUW5G" />
+
+12. Hey… My line has been credited! You could also confirm your email during the payment process so you’ll get notified via email once the transaction is completed.
+
+<img width="480" height="480" alt="IMG_20251018_090935" src="https://cdn-images-1.medium.com/max/1200/0*TJKIcqznQ4Y8_jgo" />
+
+---
+
+<img width="480" height="480" alt="IMG_20251018_090935" src="https://cdn-images-1.medium.com/max/1200/0*Jn7tD9lb2xtMBpIw" />
 
 ### Other Places to Spend ZEC
 
