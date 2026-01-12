@@ -185,3 +185,11 @@
 - Devices: Web | Mobile | Desktop
 - Pools: Transparent
 - Features: Multi Coin | Web App
+
+---
+
+## [Zucchini](https://zucchinifi.xyz)
+![logo](https://zucchinifi.xyz/logo.png "Zucchini Wallet")
+- Devices: Browser Extension  
+- Pools: Transparent | Sapling | Orchard  
+- Features: Self-custody ZEC storage | Shielded & transparent balances | Built-in swap support | Persistent sidebar UI  
