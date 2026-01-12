@@ -10,7 +10,7 @@ Visit[ Coinsbee.com](https://www.coinsbee.com/en/shop/mobile-top-ups/) and creat
 
 ### 2
 
-Scroll to the top left corner and select your country; in that manner, choose mobile phone credit - select the network that you'd like to top up! I'm using MTN.
+Scroll to the top left corner and select your country; in that manner, choose mobile phone credit - select the network that you'd like to top up! I'm using MTN.
 
 <img width="480" height="480" alt="IMG_20251018_090935" src="https://cdn-images-1.medium.com/max/1200/0*qvB7ZCWaVWa-C2d8" />
 
