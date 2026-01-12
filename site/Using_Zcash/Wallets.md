@@ -116,6 +116,14 @@
 
 ---
 
+## [Zucchini](https://zucchinifi.xyz/)
+![logo](https://i.ibb.co/05B4mBb/unnamed.png)
+- Devices: Web 
+- Pools: Transparent | Sapling | Orchard
+- Features:  DEX Swaps| Unified Address
+
+---
+
 ## [SSP Wallet](https://sspwallet.io)
 ![logo](https://i.ibb.co/X3hdfSY/ssp-1.png "SSP Wallet")
 - Devices: Mobile | Web
@@ -164,13 +172,6 @@
 
 ---
 
-## [Zucchini](https://zucchinifi.xyz/)
-![logo](https://i.ibb.co/05B4mBb/unnamed.png)
-- Devices: Web 
-- Pools: Transparent | Sapling | Orchard
-- Features:  Multi Coin | Unified Address
-
----
 
 ## [Safepal](https://safepal.com)
 ![logo](https://i.ibb.co/h29h6d0/safepalcard.png "Safepal")
