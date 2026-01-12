@@ -61,7 +61,7 @@ Tap **Swap Settings** to:
 
 ---
 
-## 📊 **Step 7: Monitor Status**  
+## **Step 7: Monitor Status**  
 - Track your swap in the **Recent Activity** tab.  
 - For cross-chain swaps, use your **transaction ID** with **Li.Fi Scanner** for real-time updates. 
 
