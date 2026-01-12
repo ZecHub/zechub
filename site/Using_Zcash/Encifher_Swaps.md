@@ -21,6 +21,7 @@ Visit [encrypt.trade](https://app.encifher.io/zec) using **Chrome or Firefox**, 
 
 <img width="480" height="480" alt="IMG_20251018_090935" src="https://hackmd.io/_uploads/SyVOs6lRxx.jpg" />
 
+---
 
 <img width="480" height="480" alt="IMG_20251018_090847" src="https://hackmd.io/_uploads/Bkh_jTgCex.jpg" />
 
@@ -32,6 +33,7 @@ Navigate to the **Wrap** section. Choose **SOL** or **USDC**, enter the amount, 
 
 <img width="480" height="480" alt="IMG_20251018_091140" src="https://hackmd.io/_uploads/S10J26xCxg.jpg" />
 
+---
 
 <img width="480" height="480" alt="IMG_20251018_091117" src="https://hackmd.io/_uploads/Sk0y3Te0gl.jpg" />
 
@@ -52,6 +54,8 @@ Back on **encrypt.trade**, go to **Swap**. Select **eSOL/eUSDC -> ZEC**, paste y
 
 
 <img width="480" height="270" alt="IMG_20251018_091613" src="https://hackmd.io/_uploads/SJkI6pl0ge.jpg" />
+
+---
 
 <img width="480" height="270" alt="IMG_20251018_091555" src="https://hackmd.io/_uploads/S1yoapgRle.jpg" />
 
