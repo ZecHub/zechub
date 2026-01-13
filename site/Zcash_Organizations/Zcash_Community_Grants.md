@@ -22,7 +22,7 @@ An Easy one-click shielded payment and Point-of-sale system for brick and mortar
 
 The Global Ambassador program helps Zcash gain broader representation internationally and for in-person community events around the world. 
 
-Several more projects have been reviewed by the Zcash Grants Committee, see a [Full list](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d) of submitted projects.
+Several more projects have been reviewed by the Zcash Grants Committee, see a [Full, Updated List](https://docs.google.com/spreadsheets/d/1FQ28rDCyRW0TiNxrm3rgD8ai2KGUsXAjPieQmI1kKKg/edit?gid=135980745#gid=135980745) of submitted projects.
 
 ## Organizational Structure
 
