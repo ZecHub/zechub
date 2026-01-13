@@ -117,7 +117,7 @@
 ---
 
 ## [Zucchini](https://zucchinifi.xyz/)
-![logo](https://i.ibb.co/05B4mBb/unnamed.png)
+![logo](https://github.com/user-attachments/assets/91a1005a-3daf-4747-9442-c178cbe50e49 "Zucchini")
 - Devices: Web 
 - Pools: Transparent | Sapling | Orchard
 - Features:  DEX Swaps | Unified Address
