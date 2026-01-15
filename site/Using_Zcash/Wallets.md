@@ -2,7 +2,7 @@
 ![logo](https://i.ibb.co/HgsHnpN/zashiwallet.png "Zashi")
 - Devices: Mobile
 - Pools: Transparent | Sapling | Orchard
-- Features: Spend before Sync | Unified Address | Shielded Memo | Address Book | Payment Request | TEX Address | Tor Support | Flexa Payments | Near Swaps
+- Features: Spend before Sync | Unified Address | Shielded Memo | Address Book | Payment Request | TEX Address | Tor Support | Flexa Payments | DEX Swaps
 
 
 ---
@@ -38,7 +38,7 @@
 ![logo](https://i.ibb.co/4FVQLS9/image-2024-11-28-091312254.png "Edge")
 - Devices: Mobile
 - Pools: Transparent | Sapling
-- Features: Spend before Sync | Multi Coin | Unified Address | Shielded memo | Automatic Shielding
+- Features: Spend before Sync | Multi Coin | Unified Address | Shielded memo | Automatic Shielding | DEX Swaps
 
 ---
 
@@ -46,7 +46,7 @@
 ![logo](https://i.ibb.co/C68mFCx/image-2024-11-28-091200540.png "Unstoppable")
 - Devices: Mobile
 - Pools: Transparent | Sapling | Orchard
-- Features: Spend before Sync | Multi Coin | Unified Address | Maya Swaps
+- Features: Spend before Sync | Multi Coin | Unified Address | DEX Swaps
 
 
 ---
@@ -65,6 +65,15 @@
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
 - Features: Windows | Linux | Viewing Key | MultiSignature (FROST) | Multi-Account Sync | Broad Key Support | FROST Multisig | Encrypted Exports | Address Rotation | Shielded Memo
+
+---
+
+## [Cake](https://cakewallet.com/install/)
+![logo](https://github.com/user-attachments/assets/a8234c70-3714-4e80-b918-8739d45aea00 "Cake")
+
+- Devices: Mobile 
+- Pools: Transparent | Sapling | Orchard
+- Features: Address Rotation | Shielded Memo | DEX Swaps
 
 ---
 
@@ -88,7 +97,7 @@
 ![logo](https://i.ibb.co/3mCrR0dN/Brandmark-Yellow.png "Zallet")
 - Devices: Full Node | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Rust-based | Replacement for zcashd Wallet | Unified Address | Shielded Memo | JSON-RPC Interface | Alpha Release
+- Features: Unified Address | Shielded Memo | JSON-RPC Interface | Alpha Release 
 
 ---
 
@@ -96,7 +105,7 @@
 ![logo](https://i.ibb.co/Xz2NskW/zcashd.png "Zcashd")
 - Devices: Full Node | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features:  Linux | Command Line Interface | Unified Address | Shielded Memo | Diversified Address
+- Features:  Linux | Command Line Interface | Unified Address | Shielded Memo | Diversified Address | Testnet
 
 ---
 
@@ -104,7 +113,7 @@
 ![logo](https://i.ibb.co/6yqMNwZ/image-2024-01-13-170934865.png "Brave")
 - Devices: Web
 - Pools: Transparent | Orchard
-- Features: Spend before Sync | Unified Address | Shielded Memo
+- Features: Spend before Sync | Unified Address | Shielded Memo | Testnet
 
 ---
 
