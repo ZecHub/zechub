@@ -194,3 +194,12 @@
 - Devices: Web | Mobile | Desktop
 - Pools: Transparent
 - Features: Multi Coin | Web App
+
+---
+
+## [Cake Wallet](https://cakewallet.com)
+![logo](https://i.ibb.co/C3fgkdXH/cake-wallet.png "Cake Wallet")
+- Devices: Mobile | Desktop
+- Pools: Transparent | Sapling | Orchard 
+- Features: Unified Address | Shielded memo | Automatic Shielding | Address Book | Rotating t-address | Passphrase Support | Near Intents DEX Swaps
+
