@@ -1,6 +1,6 @@
 # What Are Zcash TEX Addresses?
 
-Zcash TEX addresses represent a unique type of receiving address. An acronym for "Transparent Exchange" address, it is a Unified-type (bech32m) encoding of a single p2pkh Transparent address. 
+Zcash TEX addresses represent a unique type of receiving address. An acronym for "Transparent Exchange" address, it is a **Unique**, Unified-type (bech32m) encoding of a single p2pkh Transparent address. 
 
 Its sole purpose is to inform a compatible wallet to make a Transparent-Only (T -> T) transaction. 
 
