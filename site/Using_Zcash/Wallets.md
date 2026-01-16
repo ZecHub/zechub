@@ -56,7 +56,6 @@
 
 ## [Zkool](https://github.com/hhanh00/zkool2/)
 ![logo](https://i.ibb.co/BHGPff0K/zkool-1.png "Zkool")
-
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
 - Features: Windows | Linux | Viewing Key | MultiSignature (FROST) | Multi-Account Sync | Broad Key Support | FROST Multisig | Encrypted Exports | Address Rotation | Shielded Memo
@@ -65,7 +64,6 @@
 
 ## [Cake](https://cakewallet.com/install/)
 ![logo](https://github.com/user-attachments/assets/a8234c70-3714-4e80-b918-8739d45aea00 "Cake")
-
 - Devices: Mobile | Desktop 
 - Pools: Transparent | Sapling | Orchard
 - Features: Address Rotation | Shielded Memo | DEX Swaps | Automatic Shielding | Address Book | Tor Support | Multi Coin
