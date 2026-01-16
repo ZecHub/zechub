@@ -71,9 +71,9 @@
 ## [Cake](https://cakewallet.com/install/)
 ![logo](https://github.com/user-attachments/assets/a8234c70-3714-4e80-b918-8739d45aea00 "Cake")
 
-- Devices: Mobile 
+- Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Address Rotation | Shielded Memo | DEX Swaps
+- Features: Address Rotation | Shielded Memo | DEX Swaps | Automatic Shielding | Address Book | Tor Support | Multi Coin
 
 ---
 
