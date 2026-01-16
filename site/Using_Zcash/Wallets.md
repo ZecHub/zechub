@@ -4,7 +4,6 @@
 - Pools: Transparent | Sapling | Orchard
 - Features: Spend before Sync | Unified Address | Shielded Memo | Address Book | Payment Request | TEX Address | Tor Support | Flexa Payments | DEX Swaps
 
-
 ---
 
 ## [Ywallet](https://ywallet.app/installation/)
@@ -12,7 +11,6 @@
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
 - Features: Windows | Linux | WarpSync | Shielded Memo | Address Book | Cold Storage | Voting | Viewing Key | Pool Transfer | Payment Request | TEX Address | Diversified Address
-
 
 ---
 
@@ -22,7 +20,6 @@
 - Pools: Sapling | Orchard
 - Features: Discord Bot | Unified Address
 
-
 ---
 
 ## [Zingo!](https://www.zingolabs.org/)
@@ -30,7 +27,6 @@
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
 - Features: Windows | Linux | Viewing Key | PepperSync | Shielded Memo | Financial Insights | Unified Address | Address Book | Payment Request
-
 
 ---
 
@@ -47,7 +43,6 @@
 - Devices: Mobile
 - Pools: Transparent | Sapling | Orchard
 - Features: Spend before Sync | Multi Coin | Unified Address | DEX Swaps
-
 
 ---
 
@@ -71,7 +66,7 @@
 ## [Cake](https://cakewallet.com/install/)
 ![logo](https://github.com/user-attachments/assets/a8234c70-3714-4e80-b918-8739d45aea00 "Cake")
 
-- Devices: Mobile | Desktop
+- Devices: Mobile | Desktop 
 - Pools: Transparent | Sapling | Orchard
 - Features: Address Rotation | Shielded Memo | DEX Swaps | Automatic Shielding | Address Book | Tor Support | Multi Coin
 
@@ -180,7 +175,6 @@
 - Features: Multi Coin
 
 ---
-
 
 ## [Safepal](https://safepal.com)
 ![logo](https://i.ibb.co/h29h6d0/safepalcard.png "Safepal")
