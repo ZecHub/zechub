@@ -36,30 +36,6 @@ This program funds independent teams to perform major ongoing development (or ot
 
 
 ## Highlighted Zcash Foundation Videos
-
-**Zcon Events**
-
-**Zcon0** 
-<iframe width="640" height="360" src="https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-**Zcon1** 
-<iframe width="640" height="360" src="https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-**Zcon2 Lite** 
-<iframe width="640" height="360" src="https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-**Zcon3** 
-<iframe width="640" height="360" src="https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-**Zcon4** 
-<iframe width="640" height="360" src="https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-**ZconV** 
-<iframe width="640" height="360" src="https://www.youtube.com/playlist?list=PL40dyJ0UYTLJ41e2uSOJItvbW1YVR49aR" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-**ZconVI** 
-<iframe width="640" height="360" src="https://www.youtube.com/playlist?list=PL40dyJ0UYTLIIhRk8vu2hkPL_q7OWO7wk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
   
 **Zebrad for Linux Tutorials**
 
