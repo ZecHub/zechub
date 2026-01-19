@@ -1,5 +1,7 @@
 # My First Zcash Workbook
 
+---
+
 ## Introduction
 
 *My First Zcash* is an educational workbook created to help new learners, especially young people and beginners in crypto understand the fundamentals of Zcash, financial privacy, digital money, and the systems behind the technology. It was developed by a diverse and passionate group of contributors from across the global Zcash community, combining software development, design, research, education, and privacy advocacy.
