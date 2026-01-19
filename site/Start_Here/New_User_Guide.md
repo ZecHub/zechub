@@ -28,7 +28,7 @@ This [article explains](https://www.ledger.com/academy/not-your-keys-not-your-co
 
 We recommend using a [shielded wallet](https://zechub.wiki/wallets) because these wallets provide the privacy features that make *ZEC* unique. 
 
-Here's a video reviewing modern shieldeded wallets:
+Here's a video reviewing modern shielded wallets:
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/6IIRRZ17Q74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -37,7 +37,7 @@ Here's a video reviewing modern shieldeded wallets:
 
 **Withdraw ZEC**
 
-After you create your wallet, your going to want to withdraw your ZEC into that wallet. 
+After you create your wallet, you're going to want to withdraw your ZEC into that wallet. 
 
 Here's a tutorialon how to do that.
 
