@@ -6,14 +6,14 @@
 # What is ZecHub?
 ---
 
-ZecHub is a decentralized education hub for Zcash. The goal of [ZecHub](http://zechub.xyz) is to provide a educational platform where community members can work together on creating, validating, and promoting content that supports the Zcash ecosystem. We do this through a few mechanisms.
+ZecHub is a decentralized education hub for Zcash. The goal of [ZecHub](http://zechub.xyz) is to provide an educational platform where community members can work together on creating, validating, and promoting content that supports the Zcash ecosystem. We do this through a few mechanisms.
 
 1. [Tutorials](https://www.youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O)
 2. [Wiki-docs](https://zechub.wiki/)
 3. [A Podcast interviewing community members](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O).
 4. [A Weekly Zcash newsletter.](https://zechub.substack.com/)
 
-The tutorials, short-form blogs, and newsletter are open sourced and hosted on GitHub, meaning anyone from the community can contribute. This is to ensure content is accurate and that the channel itself suffers from no single points of failure.
+The tutorials, short-form blogs, and newsletter are open sourced and hosted on GitHub, meaning anyone from the community can contribute. This is to ensure content is accurate and that the channel itself suffers from no single point of failure.
 
 If you're new to Zcash, use [this guide](/site/Start_Here/New_User_Guide).****
 

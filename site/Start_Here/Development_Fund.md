@@ -4,11 +4,11 @@
 
 # Zcash Development Fund
 
-Zcash is a unique blockchain protocol because it is self-funded. This means that teams working on Zcash do not need to take money from outsider investors, and can remain focused on driving adoption while also staying aligned with Zcash's broader ethos and mission.
+Zcash is a unique blockchain protocol because it is self-funded. This means that teams working on Zcash do not need to take money from outside investors, and can remain focused on driving adoption while also staying aligned with Zcash's broader ethos and mission.
 
 ## Block Rewards
 
-In blockchains, there are something called a [blocks](https://www.investopedia.com/terms/b/block-bitcoin-block.asp), which are produced to record transactions that are not yet confirmed in the network. Once transactions are validated, the block is closed.
+In blockchains, there is something called a [block](https://www.investopedia.com/terms/b/block-bitcoin-block.asp), which is produced to record transactions that are not yet confirmed in the network. Once transactions are validated, the block is closed.
 
 Block producers (aka miners) are tasked with validating transactions in a network and producing new blocks. When producing these blocks, block producers are rewarded with a block reward. In Zcash, roughly every 75 seconds a new block is produced, and a block reward of 3.125 ZEC comes into circulation. Block rewards in Zcash will produce new coins until Zcash reaches its 21 million max supply. After reaching max supply, block rewards will be paid for by transaction fees.
 
@@ -24,7 +24,7 @@ In 2020, the Zcash community voted on the development fund and the teams support
 
 # Zcash Hybrid Deferred Dev Fund Lockbox (NU6)
 
-The Hybrid Deferred Dev Fund Lockbox is the funding mechanism chosen for the next generation of the Zcash development fund. This option allocates of the 20% total Zcash block rewards, 60% to the Zcash Grants Committee and 40% to a protocol lockbox, guaranteeing that resources are available to support the Zcash ecosystem's future while continuing development and upkeep.
+The Hybrid Deferred Dev Fund Lockbox is the funding mechanism chosen for the next generation of the Zcash development fund. This option allocates the 20% total Zcash block rewards, 60% to the Zcash Grants Committee and 40% to a protocol lockbox, guaranteeing that resources are available to support the Zcash ecosystem's future while continuing development and upkeep.
 
 ## Decision-Making Process
 

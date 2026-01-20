@@ -20,7 +20,7 @@ One important note is that you do not need to buy 1 full *ZEC*.
 
 ---
 
-**Setup a wallet**
+**Set up a wallet**
 
 After you purchase some *ZEC*, you might want to move it to a Zcash wallet. 
 
@@ -39,7 +39,7 @@ Here's a video reviewing modern shielded wallets:
 
 After you create your wallet, you're going to want to withdraw your ZEC into that wallet. 
 
-Here's a tutorialon how to do that.
+Here's a tutorial on how to do that.
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Avweu5V9QRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -47,7 +47,7 @@ Here's a tutorialon how to do that.
 
 **Send a shielded transaction**
 
-After you've deposited some ZEC into your wallet, you're ready to send a fully shielded, private transaction. A shielded transaction is an exchange of ZEC that fully protects each participants privacy.Here's some useful tips when using shielded ZEC.
+After you've deposited some ZEC into your wallet, you're ready to send a fully shielded, private transaction. A shielded transaction is an exchange of ZEC that fully protects each participant's privacy. Here's some useful tips when using shielded ZEC.
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/tEfQaYPV0UE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
