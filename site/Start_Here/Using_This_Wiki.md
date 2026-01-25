@@ -5,7 +5,7 @@
 
 # Using this Wiki
 
-Some of this might be overwhelming. We get it! There's a lot of information here. Here is a simple step guide that highlights how you should navigate the wiki.
+Some of this might be overwhelming. We get it! There's a lot of information here. Here is a simple step-by-step guide that highlights how you should navigate the wiki.
 
 ## New to Zcash
 

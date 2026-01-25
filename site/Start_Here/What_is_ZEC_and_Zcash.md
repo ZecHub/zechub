@@ -11,7 +11,7 @@
 
 ---
 
-ZEC is a digital currency that is based on the Zcash blockchain. It is the closest approximation to cash on the web. While it shares many similar features to bitcoin, it solves bitcoin's biggest flaw by enabling users to run fully private monetary transactions.
+ZEC is a digital currency that is based on the Zcash blockchain. It is the closest approximation to cash on the web. While it shares many similar features to Bitcoin, it solves Bitcoin's biggest flaw by enabling users to run fully private monetary transactions.
 
 #### Why is a private currency important?
 
@@ -27,7 +27,7 @@ ZEC gives people the opportunity to transfer data permissionlessly. Having a pee
 
 ## What is Zcash?
 
-Zcash is an implementation of the "Zerocash" protocol. It is an open-source, blockchain-based ledger that features a sophisticated zero knowledge proving system. Based on Bitcoin's code, it specializes in offering a higher standard of privacy through its proving system preserving confidentiality of [transaction metadata](https://nym.com/blog/what-is-metadata). At its core, Zcash is private data ownership that is permissionlessly transferred when transactions are made. 
+Zcash is an implementation of the "Zerocash" protocol. It is an open-source, blockchain-based ledger that features a sophisticated zero-knowledge proving system. Based on Bitcoin's code, it specializes in offering a higher standard of privacy through its proving system preserving confidentiality of [transaction metadata](https://nym.com/blog/what-is-metadata). At its core, Zcash is private data ownership that is permissionlessly transferred when transactions are made. 
 
 #### Why does it matter?
 

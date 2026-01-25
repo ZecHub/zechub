@@ -11,7 +11,7 @@ ___
 
 |          |            | 
 |--------------|-----------|
-| **Actions**: |  Instead of creating several individual proofs for each Spend and Output, Orchard protocol merges them into a single 'Actions'.        |   
+| **Actions**: |  Instead of creating several individual proofs for each Spend and Output, Orchard protocol merges them into a single 'Action'.        |   
 |  **Addresses**: | Zcash has Shielded (Z/zaddr) & Transparent (T/taddr) addresses. Unified addresses (UA) are phasing in to replace Z & T following the NU5 upgrade. |   
 |  **Arborist Call**: | A Bi-Monthly call around Protocol & Research development updates. Register here [15:00 UTC](https://us06web.zoom.us/webinar/register/WN_Vk7WMz9sRkiIr_hqH_x3LA) / [22:30 UTC](https://us06web.zoom.us/webinar/register/WN_z0k1ipsnRkS4-DGqDhULdA) / [Notes](https://github.com/ZcashCommunityGrants/arboretum-notes)          |   
 | **Auto-shielding**: | Enables users (more specifically their wallets) to automatically move funds from a transparent address to the latest shielded ZEC pool. |   

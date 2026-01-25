@@ -12,7 +12,7 @@ People use ZEC to transact efficiently and safely with low fees. Shielded Zcash 
 
 #### Store of Value
 
-People can also use ZEC to store wealth in a hard, privacy protecting, asset. There will only ever be 21 million ZEC units, meaning that the asset has a fixed supply. Once the 21 millionth ZEC is [mined into circulation](https://z.cash/mining-zcash/), the asset will become anti-inflationary. Anti-inflationary assets are a good hedge against inflation in the event that centralized gatekeepers inflate national money supplies.
+People can also use ZEC to store wealth in a hard, privacy-protecting, asset. There will only ever be 21 million ZEC units, meaning that the asset has a fixed supply. Once the 21 millionth ZEC is [mined into circulation](https://z.cash/mining-zcash/), the asset will become anti-inflationary. Anti-inflationary assets are a good hedge against inflation in the event that centralized gatekeepers inflate national money supplies.
 
 #### Messaging
 

@@ -5,7 +5,7 @@ A list of topics with the most frequently asked questions about Zcash. For troub
 
 ## What is Zcash?
 
-Zcash is a digital currency with fast and confidential with low fees. Privacy is the central feature of Zcash. It has pioneered the use zero-knowledge proofs to protect users information by encrypting all transactions. There are several wallets you can download for instant, mobile, secure & private payments.
+Zcash is a digital currency with fast, confidential transactions with low fees. Privacy is the central feature of Zcash. It has pioneered the use of zero-knowledge proofs to protect users information by encrypting all transactions. There are several wallets you can download for instant, mobile, secure & private payments.
 
 [Mobile Wallets](https://z.cash/wallets/)
 
@@ -76,7 +76,7 @@ ___
 + Is Zcash a centralised coin?
  
 
-   No, there is a trademark agreement in place prevents the Zcash Foundation or the ECC from taking any action contrary to the clear consensus of the Zcash community.
+   No, there is a trademark agreement in place that prevents the Zcash Foundation or the ECC from taking any action contrary to the clear consensus of the Zcash community.
 
    Clear consensus is determined through community polling within and outside of the Community Advisory Panel, a group of ~90 volunteers with extensive interest or knowledge of the Zcash ecosystem. 
 
@@ -102,14 +102,14 @@ ___
 
    Incorrect. While Zcash has partnered with large companies and banks for research and outreach programs we remain committed to achieving its goal of economic freedom & resiliency through decentralisation. 
    
-   Zcash has several organisations that retain a level of autonomy & therefore are not beholdent to any single party. Instead, work together to promote self-custody of assets, funding independent node implementations and leading in regulatory education related to defending digital privacy and protecting human rights. 
+   Zcash has several organisations that retain a level of autonomy & therefore are not beholden to any single party. Instead, work together to promote self-custody of assets, funding independent node implementations and leading in regulatory education related to defending digital privacy and protecting human rights. 
 
 
 
 
 + Zcash has limited privacy compared to other privacy coins
    
-    No, the privacy gained from a privacy coin like Monero or Grin/Litecoin is primarily reliant on it's use of decoys that obfuscate the source and destination of transactions. Transaction graph data is still accessible. 
+    No, the privacy gained from a privacy coin like Monero or Grin/Litecoin is primarily reliant on its use of decoys that obfuscate the source and destination of transactions. Transaction graph data is still accessible. 
     
     If an adversary were to spend enough time & resources monitoring the chain this type of privacy can be defeated. Zcash encrypts all transaction data so the same method of attack would not work. All transactions are indistinguishable within a shielded pool. 
 

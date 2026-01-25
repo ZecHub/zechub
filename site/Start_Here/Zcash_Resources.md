@@ -12,7 +12,7 @@ Zcash Media is an independent organization that makes educational documentaries 
 
 **[Twitter](twitter.com)**
 
-Twitter is the de facto communication hub for the Zcash community, and the broader cryptocurrency as well. It's a great place to get a pulse check on all things Zcash, and also follow prominent community members. Here's a [document](https://www.notion.so/zechub/Social-Media-Links-05b9df645af54de7a1989d9c4ccc4d05) that lists the top accounts to follow.
+Twitter is the de facto communication hub for the Zcash community, and the broader cryptocurrency space as well. It's a great place to get a pulse check on all things Zcash, and also follow prominent community members. Here's a [document](https://www.notion.so/zechub/Social-Media-Links-05b9df645af54de7a1989d9c4ccc4d05) that lists the top accounts to follow.
 
 **[Zcash Community](zcashcommunity.com)**
 
