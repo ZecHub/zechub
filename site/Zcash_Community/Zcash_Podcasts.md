@@ -53,9 +53,6 @@ Want to learn more about the Zcash ecosystem? Here's a list of podcasts you can 
 
 ---
 
-<li><a href="https://zechub.notion.site/ZL-DR-e3cb81f65554478ba1c169b412237672?pvs=25"><img class="podcast-img" src="https://notion-emojis.s3-us-west-2.amazonaws.com/prod/svg-twitter/1f4fa.svg" alt="" width="40" height="41" />ZL;DR</a></li>
-
-
 </ul>
 
 Are we missing a good podcast? Contact us on [Discord](https://discord.gg/zcash) and we'll add it to the list.
