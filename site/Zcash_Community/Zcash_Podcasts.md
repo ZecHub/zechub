@@ -5,7 +5,7 @@
 # Podcasts
 Want to learn more about the Zcash ecosystem? Here's a list of podcasts you can follow:
 
-<ul class="podcast-list grid grid-cols-1 imd:grid-cols-2 xl:grid-cols-3 gap-6">
+<ul class="podcast-list grid grid-cols-1 imd:grid-cols-2 md:grid-cols-3 gap-6">
 <li>
 <a href="https://www.youtube.com/playlist?list=PL8avDn0zigvoWqj_f7MrO5mx8JhsLY4kT"><img class="podcast-img" src="https://zechub.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc5e5e7d2-f2f7-4db7-815c-adba35a6bb78%2Fzcast.jpg?table=block&amp;id=26031a2e-953b-4f73-ba47-5af17e5b9c20&amp;spaceId=38cc715a-cc23-4f85-9429-2b9e6dd2c3b9&amp;width=40&amp;userId=&amp;cache=v2" alt="" width="40" height="41" />Zcast Podcast Playlist</a>
 <iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=vG5H6UhCHpS0r546&amp;list=PL8avDn0zigvoWqj_f7MrO5mx8JhsLY4kT" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
