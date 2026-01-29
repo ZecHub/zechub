@@ -41,8 +41,7 @@ The Electric Coin Company receives 8% of the [Zcash development fund](https://zi
 
 ## How to Submit a Grant Application via ZCG (GitHub + Community Forum)
 
-
-<iframe width="320" height="200" src="https://www.youtube.com/watch?v=ItEwc1lzvzc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="320" height="200" src="https://www.youtube.com/embed/ItEwc1lzvzc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
