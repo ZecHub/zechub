@@ -7,7 +7,7 @@ Step-by-step guide for deploying a Zebra Zcash full node using [Akash Console](h
 A full Zebra node that will:
 
 - Sync the entire Zcash blockchain (100GB+ for mainnet, ~40GB for testnet)
-- Cost roughly $50-80/month depending on AKT token prices
+- Cost roughly $15/month depending on AKT token prices
 - Take several hours to days to fully sync
 - Use 4 vCPUs, 16GB RAM, 350GB storage (mainnet) or 2 vCPUs, 8GB RAM, 50GB (testnet)
 
