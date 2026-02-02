@@ -1,28 +1,37 @@
-# How to run Zebra on Akash Network
+# Deploying zcashd to Akash via Console
 
-Step-by-step guide for deploying a Zebra Zcash full node using [Akash Console](https://console.akash.network).
+Guide for deploying a zcashd Zcash full node (Electric Coin Co implementation) using [Akash Console](https://console.akash.network).
 
 ## What You're Deploying
 
-A full Zebra node that will:
+A full zcashd node that will:
 
 - Sync the entire Zcash blockchain (100GB+ for mainnet, ~40GB for testnet)
 - Cost roughly $50-80/month depending on AKT token prices
 - Take several hours to days to fully sync
-- Use 4 vCPUs, 16GB RAM, 150GB storage (mainnet) or 2 vCPUs, 8GB RAM, 50GB (testnet)
+- Use 4 vCPUs, 16GB RAM, 350GB storage (mainnet) or 2 vCPUs, 8GB RAM, 50GB (testnet)
+- Download cryptographic parameters on first run (~2GB, one-time)
+
+**zcashd vs Zebra:**
+
+- zcashd is the original Zcash node implementation by Electric Coin Co
+- Zebra is the Zcash Foundation's alternative implementation
+- Both are compatible with the Zcash network
+- zcashd has more features (mining, wallet, Insight Explorer API)
+- Use zcashd if you need wallet functionality or specific RPC APIs
 
 **Important: Port Mapping on Akash**
 
-When you expose a port on Akash (e.g., port 8233 for Zebra P2P), it **does NOT bind to that exact port** on the provider's public IP. Instead, the provider assigns a random high port (like 31234 or 42567) and reverse-proxies it to your container's port 8233.
+When you expose a port on Akash (e.g., port 8233 for zcashd P2P), it **does NOT bind to that exact port** on the provider's public IP. Instead, the provider assigns a random high port (like 31234 or 42567) and reverse-proxies it to your container's port 8233.
 
 This is by design — providers run multiple deployments, and they'd have conflicts if everyone tried to use port 8233 directly.
 
 **What this means for you:**
 
-- You configure port 8233 in the SDL (Zebra's standard P2P port)
+- You configure port 8233 in the SDL (zcashd's standard P2P port)
 - Akash gives you a URI like `provider.com:31234`
 - Other Zcash nodes connect to you at `provider.com:31234`
-- Inside your container, Zebra still listens on 8233
+- Inside your container, zcashd still listens on 8233
 
 This is handled automatically. Just use the URI that Akash gives you.
 
@@ -48,13 +57,13 @@ Your AKT balance should appear in the top right. If it's zero, go fund your wall
 
 ### Option A: Upload SDL File (Recommended)
 
-[![Deploy on Akash](https://raw.githubusercontent.com/akash-network/console/refs/heads/main/apps/deploy-web/public/images/deploy-with-akash-btn.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
+[![Deploy on Akash](https://raw.githubusercontent.com/akash-network/console/refs/heads/main/apps/deploy-web/public/images/deploy-with-akash-btn.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
 
 ### Option B: Use SDL Editor
 
-If you want to manually paste [the SDL](https://github.com/permissionlessweb/awesome-akash/blob/master/zcash-zebra/deploy.yaml):
+If you want to manually paste the SDL:
 
-1. Copy the contents of `zebra-akash.yml`
+1. Copy the contents of `zcashd-akash.yml`
 2. Paste into the SDL editor
 3. Modify as needed (see configuration section below)
 4. Click **"Create Deployment"**
@@ -98,20 +107,23 @@ This takes 1-2 minutes. You'll see status updates in the UI.
 
 Once deployed, you'll see:
 
-- **Services** tab: Shows your `zebra` service with status
-- **Logs** tab: Live logs from your Zebra node
+- **Services** tab: Shows your `zcashd` service with status
+- **Logs** tab: Live logs from your zcashd node
 - **Leases** tab: Details about your deployment (DSEQ, provider, cost)
 
 ### Check the Logs
 
-Click on **Logs** and you should see Zebra starting up:
+Click on **Logs** and you should see zcashd starting up:
 
 ```
-Loading config from environment variables
-Mainnet network selected
-Listening for peer connections on [::]:8233
-Starting initial sync...
+zcash-fetch-params: Downloading cryptographic parameters...
+Starting: zcashd -printtoconsole -addnode=mainnet.z.cash -showmetrics=1
+Zcash version v5.x.x
+Loading block index...
+Opening LevelDB in /srv/zcashd/.zcash/blocks/index
 ```
+
+**First run will download zcash-params (~2GB).** This is a one-time operation and takes 5-10 minutes depending on provider bandwidth. Subsequent restarts will skip this.
 
 The sync will take **hours to days** depending on the network. Watch for:
 
@@ -126,7 +138,7 @@ Click on the **Leases** tab, then **URIs**.
 You'll see something like:
 
 ```
-zebra-8233: provider-hostname.com:31234
+zcashd-8233: provider-hostname.com:31234
 ```
 
 This is your node's **public P2P endpoint**. Other Zcash nodes will connect to you at this address.
@@ -141,21 +153,14 @@ If you enabled RPC (commented out by default in the SDL), you'll also see the RP
 
 The SDL defaults to Mainnet. To use Testnet instead:
 
-1. **Comment out Mainnet config** in the `env` section:
+1. **Change network in the `env` section:**
 
    ```yaml
-   # - "ZEBRA_NETWORK__NETWORK=Mainnet"
-   # - "ZEBRA_NETWORK__LISTEN_ADDR=[::]:8233"
+   # - "ZCASHD_NETWORK=mainnet"
+   - "ZCASHD_NETWORK=testnet"
    ```
 
-2. **Uncomment Testnet config**:
-
-   ```yaml
-   - "ZEBRA_NETWORK__NETWORK=Testnet"
-   - "ZEBRA_NETWORK__LISTEN_ADDR=[::]:18233"
-   ```
-
-3. **Update the exposed port** in the `expose` section:
+2. **Update the exposed port** in the `expose` section:
 
    ```yaml
    # Comment out Mainnet port:
@@ -173,7 +178,7 @@ The SDL defaults to Mainnet. To use Testnet instead:
      proto: tcp
    ```
 
-4. **Optional: Reduce resources** for Testnet in `profiles.compute.zebra.resources`:
+3. **Optional: Reduce resources** for Testnet in `profiles.compute.zcashd.resources`:
 
    ```yaml
    cpu:
@@ -184,7 +189,7 @@ The SDL defaults to Mainnet. To use Testnet instead:
      - size: 50Gi  # Down from 150Gi
    ```
 
-5. **Optional: Lower pricing** in `profiles.placement.akash.pricing`:
+4. **Optional: Lower pricing** in `profiles.placement.akash.pricing`:
 
    ```yaml
    amount: 5000  # Down from 10000
@@ -194,16 +199,22 @@ The SDL defaults to Mainnet. To use Testnet instead:
 
 RPC is disabled by default for security. To enable it:
 
-**For Mainnet:**
+**CRITICAL: Set strong credentials.** zcashd RPC transmits username/password over HTTP (not HTTPS). Only expose RPC if you understand the security implications.
 
 1. Uncomment in `env` section:
 
    ```yaml
-   - "ZEBRA_RPC__LISTEN_ADDR=0.0.0.0:8232"
-   - "ZEBRA_RPC__COOKIE_DIR=/home/zebra/.cache/zebra"
+   - "ZCASHD_RPCUSER=yourusername"
+   - "ZCASHD_RPCPASSWORD=your_very_strong_password_here"  # Use a real password
+   - "ZCASHD_RPCBIND=0.0.0.0"
+   - "ZCASHD_RPCPORT=8232"  # Mainnet
+   # - "ZCASHD_RPCPORT=18232"  # Testnet
+   - "ZCASHD_ALLOWIP=0.0.0.0/0"  # Allow from anywhere (use with caution)
    ```
 
-2. Uncomment the Mainnet RPC port in `expose`:
+2. Uncomment the RPC port in `expose`:
+
+   **For Mainnet:**
 
    ```yaml
    - port: 8232
@@ -213,16 +224,7 @@ RPC is disabled by default for security. To enable it:
      proto: tcp
    ```
 
-**For Testnet:**
-
-1. Uncomment in `env` section:
-
-   ```yaml
-   - "ZEBRA_RPC__LISTEN_ADDR=0.0.0.0:18232"
-   - "ZEBRA_RPC__COOKIE_DIR=/home/zebra/.cache/zebra"
-   ```
-
-2. Uncomment the Testnet RPC port in `expose`:
+   **For Testnet:**
 
    ```yaml
    - port: 18232
@@ -232,35 +234,62 @@ RPC is disabled by default for security. To enable it:
      proto: tcp
    ```
 
-**Warning**: If you set `global: true` for RPC, you're exposing it to the internet. Zebra uses cookie auth by default, but still — don't do this unless you know what you're doing.
+**Warning**: If you set `global: true` for RPC, you're exposing it to the internet with basic auth. This is a bad idea. Use `global: false` and access RPC through Akash's internal network or set up a secure tunnel.
 
 **Port mapping reminder**: Even if you expose RPC globally, Akash will map it to a random high port (not 8232/18232). Check the URIs in your deployment to see the actual public endpoint. For `global: false` (recommended), the RPC endpoint is only accessible within the Akash deployment network, not from the public internet.
 
-### Enable Metrics (Prometheus)
+### Enable Transaction Index
+
+Transaction index allows you to query any transaction by its ID via RPC. Uses more storage (~20% increase).
+
+Uncomment in `env`:
+
+```yaml
+- "ZCASHD_TXINDEX=1"
+```
+
+**Warning**: Enabling txindex on an existing synced node requires re-indexing the entire blockchain, which takes hours.
+
+### Enable Insight Explorer
+
+Insight Explorer provides additional REST API endpoints for blockchain data (useful for block explorers).
+
+Uncomment in `env`:
+
+```yaml
+- "ZCASHD_INSIGHTEXPLORER=1"
+```
+
+This automatically enables txindex and adds extra RPC methods.
+
+### Enable Prometheus Metrics
 
 To scrape metrics for monitoring:
 
 1. Uncomment in `env`:
 
    ```yaml
-   - "ZEBRA_METRICS__ENDPOINT_ADDR=0.0.0.0:9999"
+   - "ZCASHD_PROMETHEUSPORT=9969"
+   - "ZCASHD_METRICSIP=0.0.0.0/0"
    ```
 
 2. Uncomment the metrics port in `expose`:
 
    ```yaml
-   - port: 9999
-     as: 9999
+   - port: 9969
+     as: 9969
      to:
        - global: false
      proto: tcp
    ```
 
+Metrics will be available at `http://<endpoint>:9969/metrics` in Prometheus format.
+
 ### Adjust Resources/Pricing
 
 If you're not getting bids or want to optimize cost:
 
-**For lower-spec providers**, reduce in the `profiles.compute.zebra.resources` section:
+**For lower-spec providers**, reduce in the `profiles.compute.zcashd.resources` section:
 
 - CPU: `units: 2` (minimum for reasonable sync speed)
 - Memory: `size: 12Gi` (minimum for stability)
@@ -278,7 +307,7 @@ The SDL values are set conservatively high. Most providers will bid lower.
 Need to change configuration after deploying?
 
 1. Go to **My Deployments** in Console
-2. Find your Zebra deployment
+2. Find your zcashd deployment
 3. Click **"Update Deployment"**
 4. Edit the SDL
 5. Click **"Update"** and approve in Keplr
@@ -295,18 +324,31 @@ Need to change configuration after deploying?
 
 ### Via RPC (if enabled)
 
-If you enabled RPC, you can query your node:
+If you enabled RPC, you can query your node using `zcash-cli` commands:
 
 ```bash
 # Get blockchain info
-curl -X POST http://<your-rpc-endpoint>:8232 \
+curl -u yourusername:yourpassword \
+  -X POST http://<your-rpc-endpoint>:8232 \
   -H "Content-Type: application/json" \
-  -d '{"jsonrpc":"2.0","id":"1","method":"getblockchaininfo","params":[]}'
+  -d '{"jsonrpc":"1.0","id":"1","method":"getblockchaininfo","params":[]}'
 
-# Check sync status
-curl -X POST http://<your-rpc-endpoint>:8232 \
+# Get peer info
+curl -u yourusername:yourpassword \
+  -X POST http://<your-rpc-endpoint>:8232 \
   -H "Content-Type: application/json" \
-  -d '{"jsonrpc":"2.0","id":"1","method":"getinfo","params":[]}'
+  -d '{"jsonrpc":"1.0","id":"1","method":"getpeerinfo","params":[]}'
+```
+
+### zcash-cli Alternative
+
+If you have shell access via Console, you can use `zcash-cli` directly:
+
+```bash
+# From the Shell tab in Console
+zcash-cli getblockchaininfo
+zcash-cli getpeerinfo
+zcash-cli getinfo
 ```
 
 ## Closing Your Deployment
@@ -314,7 +356,7 @@ curl -X POST http://<your-rpc-endpoint>:8232 \
 When you're done or want to stop paying:
 
 1. Go to **My Deployments**
-2. Find your Zebra deployment
+2. Find your zcashd deployment
 3. Click **"Close Deployment"**
 4. Confirm and sign in Keplr
 
@@ -338,9 +380,9 @@ Either:
 
 The provider might be having issues. Close the deployment and try a different provider.
 
-### Zebra logs show "No peers connected"
+### zcashd logs show "No peers connected"
 
-This is normal for the first few minutes. Zebra will discover peers automatically. If it persists after 10+ minutes, you might have a networking issue (unlikely on Akash).
+This is normal for the first few minutes. zcashd will discover peers automatically. If it persists after 10+ minutes, you might have a networking issue (unlikely on Akash).
 
 ### "Out of memory" errors in logs
 
@@ -355,6 +397,16 @@ Define "forever":
 - **Weeks**: Something's wrong, check logs for errors
 
 Check current sync progress in the logs — look for block height. Compare to current Zcash block height at [https://explorer.zcha.in/](https://explorer.zcha.in/).
+
+### "Error fetching zcash-params"
+
+The provider might have network issues or slow bandwidth. This usually resolves itself. If it persists for more than 30 minutes, try redeploying to a different provider.
+
+### RPC authentication failures
+
+- Check that `ZCASHD_RPCUSER` and `ZCASHD_RPCPASSWORD` are set correctly
+- Verify you're using the correct port (8232 for mainnet, 18232 for testnet)
+- Remember ports are mapped by Akash — use the URI from your deployment, not 8232 directly
 
 ## Cost Management
 
@@ -371,26 +423,68 @@ When your balance runs low, Akash will auto-close your deployment. **Top up your
 2. **Lower CPU/memory** if you don't need fast sync
 3. **Choose cheaper providers** (not always wise — uptime matters)
 4. **Use USDC instead of AKT** if AKT price is volatile (requires SDL pricing change)
+5. **Disable txindex** if you don't need it (saves ~20% storage)
 
 ## Mainnet vs Testnet
 
 | | Mainnet (default) | Testnet |
 |---|---|---|
 | **Purpose** | Production Zcash blockchain | Testing and development |
-| **Network** | `ZEBRA_NETWORK__NETWORK=Mainnet` | `ZEBRA_NETWORK__NETWORK=Testnet` |
+| **Network** | `ZCASHD_NETWORK=mainnet` | `ZCASHD_NETWORK=testnet` |
 | **P2P Port** | 8233 | 18233 |
 | **RPC Port** | 8232 | 18232 |
 | **Sync time** | Days | Hours |
-| **Storage** | 150GB+ | 50GB |
+| **Storage** | 350GB+ | 50GB |
 | **Resources** | 4 CPU / 16GB RAM | 2 CPU / 8GB RAM |
 | **Cost** | ~$60-80/month | ~$25-40/month |
 
 Start with Testnet if you're just testing the deployment process. See "Switching to Testnet" section above for configuration.
 
+## zcashd vs Zebra
+
+Both are valid Zcash node implementations. Choose based on your needs:
+
+| Feature | zcashd | Zebra |
+|---------|--------|-------|
+| **Developer** | Electric Coin Co | Zcash Foundation |
+| **Language** | C++ | Rust |
+| **Wallet** | Yes | No |
+| **Mining** | Yes | Experimental |
+| **RPC API** | Full Bitcoin-style RPC | Compatible subset |
+| **Insight Explorer** | Yes | No |
+| **Memory usage** | Higher | Lower |
+| **Configuration** | zcash.conf + env vars | Environment variables |
+
+**Use zcashd if:**
+
+- You need wallet functionality
+- You need full RPC API compatibility
+- You need Insight Explorer for a block explorer
+- You're mining Zcash
+
+**Use Zebra if:**
+
+- You just need a full node
+- You want lower memory usage
+- You prefer Rust over C++
+- You don't need wallet features
+
 ## Additional Resources
 
 - **Akash Console**: <https://console.akash.network>
 - **Akash Docs**: <https://akash.network/docs/>
-- **Zebra Docs**: <https://zebra.zfnd.org/>
+- **zcashd Docs**: <https://zcash.readthedocs.io/>
+- **Zcash RPC API**: <https://zcash.github.io/rpc/>
 - **Zcash Explorer**: <https://explorer.zcha.in/>
 - **Akash Discord**: <https://discord.akash.network> (for provider issues)
+
+## Final Notes
+
+- **Persistent storage matters.** Don't skip `persistent: true` or use `beta2` class. Use `beta3`.
+- **Initial sync is slow.** Be patient. This is normal for blockchain nodes.
+- **Keep your wallet funded.** Deployments auto-close when you run out of AKT.
+- **Backups aren't automatic.** If you care about the data, assume it can disappear and plan accordingly.
+- **RPC security is critical.** Don't expose RPC to the internet without proper security measures.
+- **zcash-params are cached.** First run downloads ~2GB of cryptographic parameters. This is normal and only happens once.
+
+Now go deploy your node. The Console handles the ugly parts.
