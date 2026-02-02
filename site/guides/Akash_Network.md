@@ -1,55 +1,58 @@
-# How to run Zcashd on Akash Network 
+# How to Run Zcashd on Akash Network
 
 ## Tutorial
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/SVekeNU6_-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Initial Setup
 
-### Initial Setup 
-
-```markdown
-- Install Keplr Wallet https://keplr.app
-- Fund Wallet (minimum 5 AKT) | https://osmosis.zone 
-- Navigate to https://akash.network 
-```
+- Install Keplr Wallet: https://keplr.app
+- Fund your wallet with a minimum of 5 AKT: https://osmosis.zone
+- Navigate to the Akash Console: https://console.akash.network
 
 ### Setup Deployment
 
-```markdown
-- Click 'Deploy Now'
-- On the Left Menu select 'Deplyments'
-- Top right corner click Deploy - Select 'Ubuntu'
-- Use the builder to enter deployment specs
-- Set path for node to /mnt/data
-```
+- Connect your Keplr wallet to the console.
+- Click 'New Deployment' or 'Deploy Now' to start the process.
+- Select the 'Ubuntu' template (or a similar basic Linux container template).
+- Use the builder/editor to configure your deployment specifications.
+- Set the mount path for persistent storage to `/mnt/data`.
+- Recommended Hardware:
+  - 4 CPU cores
+  - 8 GB RAM
+  - 300 GB Persistent Storage - ensure persistent storage is enabled by selecting an available class like beta3 (by default, it may show ephemeral storage).
+- Approve the deployment transaction via Keplr (this includes a small network fee).
+- Review bids from providers, select the most suitable one, and accept it (approve the transaction).
+- Wait for the deployment status to update to 'Running'.
+- Access the web shell for the container via the console interface.
 
-#### Recommended Hardware: 
+### Install Dependencies & zcashd
 
-```markdown
-4 CPU cores
-8 GB RAM
-300 GB Persistent* Storage - be sure to check the box. By default it displays ephemeral storage.
-```
-
-
-### Install Dependencies & zcashd 
+In the web shell:
 
 ```bash
-apt-get update && apt-get install apt-transport-https wget gnupg2
-wget -qO - https://apt.z.cash/zcash.asc | gpg --import
-gpg --export B1C9095EAA1848DBB54D9DDA1D05FDC66B372CFE | apt-key add -
-echo "deb [arch=amd64] https://apt.z.cash/ buster main" | tee /etc/apt/sources.list.d/zcash.list
-apt-get update && apt-get install zcash
+apt-get update && apt-get install -y apt-transport-https wget gnupg2
+wget -qO - https://apt.z.cash/zcash.asc | sudo tee /etc/apt/trusted.gpg.d/zcash.asc > /dev/null
+echo "deb [arch=amd64 signed-by=/etc/apt/trusted.gpg.d/zcash.asc] https://apt.z.cash/ jammy main" | sudo tee /etc/apt/sources.list.d/zcash.list
+apt-get update && apt-get install -y zcash
+zcash-fetch-params
 mkdir -p ~/.zcash
 cd /mnt/data
-mkdir ./zcash
+mkdir .zcash
 vi ~/.zcash/zcash.conf
-addnode=mainnet.z.cash
-datadir=/mnt/data/.zcash
-[ESC] + wq + Enter
 ```
 
-### 4. Start Zcashd & Sync
+Add the following to `zcash.conf` (edit as needed):
 
-`zcashd`
+```
+addnode=mainnet.z.cash
+datadir=/mnt/data/.zcash
+```
 
-Estimated time for full sync 3 Days, then start experimenting! 
+Save and exit (press ESC, then type `:wq` and press Enter).
+
+### Start Zcashd & Sync
+
+```bash
+zcashd
+```
+
+Estimated time for full sync: 3 days (depending on network conditions and hardware). Once synced, you can experiment with the node using `zcash-cli` commands, such as `zcash-cli getinfo` to check status.
