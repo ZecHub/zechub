@@ -1,3 +1,11 @@
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/SVekeNU6_-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
 # How to run a Zcash Node (Zebra) on Akash Network
 
 **Note:** This guide has been updated to use **Zebra (`zebrad`)**, the modern, efficient Zcash node implementation written in Rust. The legacy `zcashd` node is being deprecated. This guide also utilizes **Akash SDL** for a native, persistent deployment, replacing the outdated manual Ubuntu installation method.
