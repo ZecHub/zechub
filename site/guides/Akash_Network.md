@@ -1,55 +1,101 @@
-# How to run Zcashd on Akash Network 
+# How to run a Zcash Node (Zebra) on Akash Network
 
-## Tutorial
+**Note:** This guide has been updated to use **Zebra (`zebrad`)**, the modern, efficient Zcash node implementation written in Rust. The legacy `zcashd` node is being deprecated. This guide also utilizes **Akash SDL** for a native, persistent deployment, replacing the outdated manual Ubuntu installation method.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/SVekeNU6_-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Prerequisites
+1.  **Install a Wallet:** [Keplr](https://keplr.app) or [Leap Wallet](https://www.leapwallet.io/).
+2.  **Fund Wallet:** You will need **AKT** tokens.
+    * Buy on an exchange (Kraken, Coinbase, Gate.io) or swap on [Osmosis](https://osmosis.zone).
+    * *Recommendation:* Hold at least **20-30 AKT** to cover the storage deposit and lease costs.
+3.  **Akash Console:** Access the dashboard at [console.akash.network](https://console.akash.network).
 
-### Initial Setup 
+---
 
-```markdown
-- Install Keplr Wallet https://keplr.app
-- Fund Wallet (minimum 5 AKT) | https://osmosis.zone 
-- Navigate to https://akash.network 
+## Deployment Guide
+
+### 1. Create Deployment
+1.  Connect your wallet to [Akash Console](https://console.akash.network).
+2.  Click **"Deploy"** or **"Create Deployment"**.
+3.  Select the **"Empty"** or **"Build your own"** option.
+4.  Switch the editor to **YAML** mode.
+5.  **Copy and paste** the following SDL (Stack Definition Language) configuration into the editor. This configuration handles the software, networking, and persistent storage automatically.
+
+```yaml
+---
+version: "2.0"
+
+services:
+  zebra:
+    image: zfnd/zebra:latest
+    env:
+      - ZEBRA_LOG_FILTER=info
+      - ZEBRA_NETWORK__NETWORK=Mainnet
+    expose:
+      - port: 8233
+        as: 8233
+        to:
+          - global: true
+    # Mounts persistent storage so blockchain data survives restarts
+    params:
+      storage:
+        data:
+          mount: /home/zebra/.local/share/zebra
+
+profiles:
+  compute:
+    zebra:
+      resources:
+        cpu:
+          units: 4.0
+        memory:
+          size: 8Gi
+        storage:
+          - size: 300Gi
+            name: data
+            attributes:
+              persistent: true
+              class: beta3 # Requests SSD/NVMe for faster syncing
+
+  placement:
+    dcloud:
+      attributes:
+        host: akash
+      signedBy:
+        anyOf:
+          - "akash1365yvmc4s7awdyj3n2sav7xfx76adc6dnmlx63"
+      pricing:
+        zebra:
+          denom: uakt
+          amount: 10000
+
+deployment:
+  zebra:
+    dcloud:
+      profile: zebra
+      count: 1
+
 ```
 
-### Setup Deployment
+### 2. Launch Lease
+* **Name your Deployment:** e.g., `zcash-zebra-mainnet`.
+* **Create Lease:** Click the button to request bids from the network.
+* **Choose a Provider:**
+    * Look for providers with the **Audit shield icon** (verified providers).
+    * Ensure they have **Persistent Storage** enabled (indicated by a disk icon).
+    * *Note:* The monthly cost is an estimate based on the provider's specific bid.
+* **Approve Transaction:** Select your preferred bid and approve the transaction in your wallet to start the deployment.
 
-```markdown
-- Click 'Deploy Now'
-- On the Left Menu select 'Deplyments'
-- Top right corner click Deploy - Select 'Ubuntu'
-- Use the builder to enter deployment specs
-- Set path for node to /mnt/data
-```
+### 3. Verification & Syncing
+Once your deployment status is **Active**:
+1.  Navigate to the **Logs** tab in the deployment details.
+2.  You should see logs indicating that Zebra is initializing and downloading blocks:
+    > `INFO zebrad::components::sync::progress: synced_headers=...`
+3.  **Sync Time:** A full sync typically takes **12 to 48 hours** depending on the provider's connection speed and allocated resources.
 
-#### Recommended Hardware: 
+---
 
-```markdown
-4 CPU cores
-8 GB RAM
-300 GB Persistent* Storage - be sure to check the box. By default it displays ephemeral storage.
-```
-
-
-### Install Dependencies & zcashd 
-
-```bash
-apt-get update && apt-get install apt-transport-https wget gnupg2
-wget -qO - https://apt.z.cash/zcash.asc | gpg --import
-gpg --export B1C9095EAA1848DBB54D9DDA1D05FDC66B372CFE | apt-key add -
-echo "deb [arch=amd64] https://apt.z.cash/ buster main" | tee /etc/apt/sources.list.d/zcash.list
-apt-get update && apt-get install zcash
-mkdir -p ~/.zcash
-cd /mnt/data
-mkdir ./zcash
-vi ~/.zcash/zcash.conf
-addnode=mainnet.z.cash
-datadir=/mnt/data/.zcash
-[ESC] + wq + Enter
-```
-
-### 4. Start Zcashd & Sync
-
-`zcashd`
-
-Estimated time for full sync 3 Days, then start experimenting! 
+### Technical Details
+* **Software:** [Zebra (Zebrad)](https://zebra.zfnd.org/) — The official Zcash Foundation consensus node.
+* **Docker Image:** `zfnd/zebra:latest`
+* **Storage:** 300GB Persistent Volume (Required to store the Mainnet chain history).
+* **Network:** Mainnet (P2P Port `8233`).
