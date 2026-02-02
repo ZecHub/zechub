@@ -6,7 +6,7 @@ Guide for deploying a zcashd Zcash full node (Electric Coin Co implementation) u
 
 A full zcashd node that will:
 
-- Sync the entire Zcash blockchain (100GB+ for mainnet, ~40GB for testnet)
+- Sync the entire Zcash blockchain (350GB+ for mainnet, ~40GB for testnet)
 - Cost roughly $15/month depending on AKT token prices
 - Take several hours to days to fully sync
 - Use 4 vCPUs, 16GB RAM, 350GB storage (mainnet) or 2 vCPUs, 8GB RAM, 50GB (testnet)
@@ -20,7 +20,7 @@ A full zcashd node that will:
 - zcashd has more features (mining, wallet, Insight Explorer API)
 - Use zcashd if you need wallet functionality or specific RPC APIs
 
-**Important: Port Mapping on Akash**
+### **Important: Port Mapping on Akash**
 
 When you expose a port on Akash (e.g., port 8233 for zcashd P2P), it **does NOT bind to that exact port** on the provider's public IP. Instead, the provider assigns a random high port (like 31234 or 42567) and reverse-proxies it to your container's port 8233.
 
@@ -115,12 +115,10 @@ Once deployed, you'll see:
 
 Click on **Logs** and you should see zcashd starting up:
 
-```
-zcash-fetch-params: Downloading cryptographic parameters...
-Starting: zcashd -printtoconsole -addnode=mainnet.z.cash -showmetrics=1
-Zcash version v5.x.x
-Loading block index...
-Opening LevelDB in /srv/zcashd/.zcash/blocks/index
+```sh
+[zcashd]: ZCASHD_NETWORK=mainnet
+[zcashd]: Starting: zcashd -printtoconsole -showmetrics=1
+...
 ```
 
 **First run will download zcash-params (~2GB).** This is a one-time operation and takes 5-10 minutes depending on provider bandwidth. Subsequent restarts will skip this.
@@ -194,6 +192,8 @@ The SDL defaults to Mainnet. To use Testnet instead:
    ```yaml
    amount: 5000  # Down from 10000
    ```
+
+> note lowering prices may filter our providers form bidding. experiement with this value, or use the provider endpiont to check if they would bid. (review provider api documentation)
 
 ### Enable RPC Access
 
@@ -324,21 +324,7 @@ Need to change configuration after deploying?
 
 ### Via RPC (if enabled)
 
-If you enabled RPC, you can query your node using `zcash-cli` commands:
-
-```bash
-# Get blockchain info
-curl -u yourusername:yourpassword \
-  -X POST http://<your-rpc-endpoint>:8232 \
-  -H "Content-Type: application/json" \
-  -d '{"jsonrpc":"1.0","id":"1","method":"getblockchaininfo","params":[]}'
-
-# Get peer info
-curl -u yourusername:yourpassword \
-  -X POST http://<your-rpc-endpoint>:8232 \
-  -H "Content-Type: application/json" \
-  -d '{"jsonrpc":"1.0","id":"1","method":"getpeerinfo","params":[]}'
-```
+If you enabled RPC, you can query your node as a normal zcashd full node (because it is!)
 
 ### zcash-cli Alternative
 
@@ -396,8 +382,6 @@ Define "forever":
 - **Days**: Also normal for mainnet from scratch
 - **Weeks**: Something's wrong, check logs for errors
 
-Check current sync progress in the logs — look for block height. Compare to current Zcash block height at [https://explorer.zcha.in/](https://explorer.zcha.in/).
-
 ### "Error fetching zcash-params"
 
 The provider might have network issues or slow bandwidth. This usually resolves itself. If it persists for more than 30 minutes, try redeploying to a different provider.
@@ -425,50 +409,6 @@ When your balance runs low, Akash will auto-close your deployment. **Top up your
 4. **Use USDC instead of AKT** if AKT price is volatile (requires SDL pricing change)
 5. **Disable txindex** if you don't need it (saves ~20% storage)
 
-## Mainnet vs Testnet
-
-| | Mainnet (default) | Testnet |
-|---|---|---|
-| **Purpose** | Production Zcash blockchain | Testing and development |
-| **Network** | `ZCASHD_NETWORK=mainnet` | `ZCASHD_NETWORK=testnet` |
-| **P2P Port** | 8233 | 18233 |
-| **RPC Port** | 8232 | 18232 |
-| **Sync time** | Days | Hours |
-| **Storage** | 350GB+ | 50GB |
-| **Resources** | 4 CPU / 16GB RAM | 2 CPU / 8GB RAM |
-| **Cost** | ~$60-80/month | ~$25-40/month |
-
-Start with Testnet if you're just testing the deployment process. See "Switching to Testnet" section above for configuration.
-
-## zcashd vs Zebra
-
-Both are valid Zcash node implementations. Choose based on your needs:
-
-| Feature | zcashd | Zebra |
-|---------|--------|-------|
-| **Developer** | Electric Coin Co | Zcash Foundation |
-| **Language** | C++ | Rust |
-| **Wallet** | Yes | No |
-| **Mining** | Yes | Experimental |
-| **RPC API** | Full Bitcoin-style RPC | Compatible subset |
-| **Insight Explorer** | Yes | No |
-| **Memory usage** | Higher | Lower |
-| **Configuration** | zcash.conf + env vars | Environment variables |
-
-**Use zcashd if:**
-
-- You need wallet functionality
-- You need full RPC API compatibility
-- You need Insight Explorer for a block explorer
-- You're mining Zcash
-
-**Use Zebra if:**
-
-- You just need a full node
-- You want lower memory usage
-- You prefer Rust over C++
-- You don't need wallet features
-
 ## Additional Resources
 
 - **Akash Console**: <https://console.akash.network>
@@ -486,5 +426,3 @@ Both are valid Zcash node implementations. Choose based on your needs:
 - **Backups aren't automatic.** If you care about the data, assume it can disappear and plan accordingly.
 - **RPC security is critical.** Don't expose RPC to the internet without proper security measures.
 - **zcash-params are cached.** First run downloads ~2GB of cryptographic parameters. This is normal and only happens once.
-
-Now go deploy your node. The Console handles the ugly parts.

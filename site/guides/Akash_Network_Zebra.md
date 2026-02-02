@@ -52,7 +52,7 @@ Your AKT balance should appear in the top right. If it's zero, go fund your wall
 
 ### Option B: Use SDL Editor
 
-If you want to manually paste [the SDL](https://github.com/permissionlessweb/awesome-akash/blob/master/zcash-zebra/deploy.yaml):
+If you want to manually paste [the SDL](https://github.com/akash-network/awesome-akash/blob/master/zcash-zebra/deploy.yaml):
 
 1. Copy the contents of `zebra-akash.yml`
 2. Paste into the SDL editor
@@ -268,10 +268,8 @@ If you're not getting bids or want to optimize cost:
 
 **To attract more bids**, increase in `profiles.placement.akash.pricing`:
 
-- Mainnet: Try `amount: 15000` uakt/block
-- Testnet: Try `amount: 7500` uakt/block
-
-The SDL values are set conservatively high. Most providers will bid lower.
+- Mainnet: Try `amount: 1000000` uakt/block
+- Testnet: Try `amount: 1000000` uakt/block
 
 ## Updating Your Deployment
 
@@ -295,19 +293,7 @@ Need to change configuration after deploying?
 
 ### Via RPC (if enabled)
 
-If you enabled RPC, you can query your node:
-
-```bash
-# Get blockchain info
-curl -X POST http://<your-rpc-endpoint>:8232 \
-  -H "Content-Type: application/json" \
-  -d '{"jsonrpc":"2.0","id":"1","method":"getblockchaininfo","params":[]}'
-
-# Check sync status
-curl -X POST http://<your-rpc-endpoint>:8232 \
-  -H "Content-Type: application/json" \
-  -d '{"jsonrpc":"2.0","id":"1","method":"getinfo","params":[]}'
-```
+If you enabled RPC, you can query your node as a normal zebrad full node (because it is!)
 
 ## Closing Your Deployment
 
@@ -354,8 +340,6 @@ Define "forever":
 - **Days**: Also normal for mainnet from scratch
 - **Weeks**: Something's wrong, check logs for errors
 
-Check current sync progress in the logs — look for block height. Compare to current Zcash block height at [https://explorer.zcha.in/](https://explorer.zcha.in/).
-
 ## Cost Management
 
 Monitor your spending in the Console:
@@ -370,7 +354,6 @@ When your balance runs low, Akash will auto-close your deployment. **Top up your
 1. **Use Testnet** for non-production testing (50% cheaper)
 2. **Lower CPU/memory** if you don't need fast sync
 3. **Choose cheaper providers** (not always wise — uptime matters)
-4. **Use USDC instead of AKT** if AKT price is volatile (requires SDL pricing change)
 
 ## Mainnet vs Testnet
 
@@ -383,7 +366,7 @@ When your balance runs low, Akash will auto-close your deployment. **Top up your
 | **Sync time** | Days | Hours |
 | **Storage** | 350GB+ | 50GB |
 | **Resources** | 4 CPU / 16GB RAM | 2 CPU / 8GB RAM |
-| **Cost** | ~$60-80/month | ~$25-40/month |
+| **Cost** | ~$15/month | ~$5/month |
 
 Start with Testnet if you're just testing the deployment process. See "Switching to Testnet" section above for configuration.
 
