@@ -21,7 +21,7 @@ echo
 EOF
 
 
-docker cp zechub:/mylog ~/
+docker cp $CONTAINER_NAME:/mylog ~/
 echo
 
 ./displayCurrentResults.sh mylog | column -t
