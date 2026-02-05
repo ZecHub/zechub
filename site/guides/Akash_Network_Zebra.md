@@ -11,7 +11,7 @@ A full Zebra node that will:
 - Take several hours to days to fully sync
 - Use 4 vCPUs, 16GB RAM, 350GB storage (mainnet) or 2 vCPUs, 8GB RAM, 50GB (testnet)
 
-**Important: Port Mapping on Akash**
+## Important: Port Mapping on Akash
 
 When you expose a port on Akash (e.g., port 8233 for Zebra P2P), it **does NOT bind to that exact port** on the provider's public IP. Instead, the provider assigns a random high port (like 31234 or 42567) and reverse-proxies it to your container's port 8233.
 
@@ -99,14 +99,14 @@ This takes 1-2 minutes. You'll see status updates in the UI.
 Once deployed, you'll see:
 
 - **Services** tab: Shows your `zebra` service with status
-- **Logs** tab: Live logs from your Zebra node
+- **Logs** tab: Live container logs
 - **Leases** tab: Details about your deployment (DSEQ, provider, cost)
 
 ### Check the Logs
 
 Click on **Logs** and you should see Zebra starting up:
 
-```
+```text
 Loading config from environment variables
 Mainnet network selected
 Listening for peer connections on [::]:8233
@@ -125,7 +125,7 @@ Click on the **Leases** tab, then **URIs**.
 
 You'll see something like:
 
-```
+```text
 zebra-8233: provider-hostname.com:31234
 ```
 
@@ -372,8 +372,8 @@ Start with Testnet if you're just testing the deployment process. See "Switching
 
 ## Additional Resources
 
-- **Akash Console**: <https://console.akash.network>
-- **Akash Docs**: <https://akash.network/docs/>
-- **Zebra Docs**: <https://zebra.zfnd.org/>
-- **Zcash Explorer**: <https://explorer.zcha.in/>
-- **Akash Discord**: <https://discord.akash.network> (for provider issues)
+- **Akash Console**: [https://console.akash.network](https://console.akash.network)
+- **Akash Docs**: [https://akash.network/docs/](https://akash.network/docs/)
+- **Zebra Docs**: [https://zebra.zfnd.org/](https://zebra.zfnd.org/)
+- **Zcash Explorer**: [https://explorer.zcha.in/](https://explorer.zcha.in/)
+- **Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (for provider issues)
