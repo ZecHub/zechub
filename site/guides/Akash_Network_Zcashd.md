@@ -8,19 +8,28 @@ Guide for deploying a zcashd Zcash full node (Electric Coin Co implementation) u
 
 A full zcashd node that will:
 
-- Sync the entire Zcash blockchain (350GB+ for mainnet, ~ 40GB for testnet)
-- Cost roughly $15/month depending on AKT token prices
-- Take several hours to days to fully sync
-- Use 4 vCPUs, 16GB RAM, 350GB storage (mainnet) or 2 vCPUs, 8GB RAM, 50GB (testnet)
-- Download cryptographic parameters on first run (~ 2GB, one-time)
+-> Sync the entire Zcash blockchain (350GB+ for mainnet, ~ 40GB for testnet)
+
+-> Cost roughly $15/month depending on AKT token prices
+
+-> Take several hours to days to fully sync
+
+-> Use 4 vCPUs, 16GB RAM, 350GB storage (mainnet) or 2 vCPUs, 8GB RAM, 50GB (testnet)
+
+-> Download cryptographic parameters on first run (~ 2GB, one-time)
 
 **zcashd vs Zebra:**
 
-- zcashd is the original Zcash node implementation by Electric Coin Co
-- Zebra is the Zcash Foundation's alternative implementation
-- Both are compatible with the Zcash network
-- zcashd has more features (mining, wallet, Insight Explorer API)
-- Use zcashd if you need wallet functionality or specific RPC APIs
+-> zcashd is the original Zcash node implementation by Electric Coin Co
+
+-> Zebra is the Zcash Foundation's alternative implementation
+
+-> Both are compatible with the Zcash network
+
+-> zcashd has more features (mining, wallet, Insight Explorer API)
+
+-> Use zcashd if you need wallet functionality or specific RPC APIs
+
 
 ### **Important: Port Mapping on Akash**
 
@@ -30,32 +39,44 @@ This is by design - providers run multiple deployments, and they'd have conflict
 
 **What this means for you:**
 
-- You configure port 8233 in the SDL (zcashd's standard P2P port)
-- Akash gives you a URI like *provider.com:31234*
-- Other Zcash nodes connect to you at *provider.com:31234*
-- Inside your container, zcashd still listens on 8233
+-> You configure port 8233 in the SDL (zcashd's standard P2P port)
+
+-> Akash gives you a URI like *provider.com:31234*
+
+-> Other Zcash nodes connect to you at *provider.com:31234*
+
+-> Inside your container, zcashd still listens on 8233
+
 
 This is handled automatically. Just use the URI that Akash gives you.
 
 ## Prerequisites
 
-1. **Keplr Wallet** browser extension installed (Chrome/Brave/Firefox)
-2. **AKT tokens** - Get 50-100 AKT from an exchange (Coinbase, Kraken, Osmosis)
-3. **5 minutes** to click through the Console UI
+-> **Keplr Wallet** browser extension installed (Chrome/Brave/Firefox)
+
+-> **AKT tokens** - Get 50-100 AKT from an exchange (Coinbase, Kraken, Osmosis)
+
+-> **5 minutes** to click through the Console UI
+
 
 ## Step 1: Connect Your Wallet
 
-1. Go to [https://console.akash.network](https://console.akash.network)
-2. Click **"Connect Wallet"** in the top right
-3. Choose **Keplr** (or your preferred Cosmos wallet)
-4. Approve the connection when Keplr pops up
+-> Go to [https://console.akash.network](https://console.akash.network)
+
+-> Click **"Connect Wallet"** in the top right
+
+-> Choose **Keplr** (or your preferred Cosmos wallet)
+
+-> Approve the connection when Keplr pops up
+
 
 Your AKT balance should appear in the top right. If it's zero, go fund your wallet first.
 
 ## Step 2: Create Deployment
 
-1. Click **"Deploy"** button (big blue button, center of page)
-2. Choose **"Build your template"** (or skip directly to uploading SDL)
+-> Click **"Deploy"** button (big blue button, center of page)
+
+-> Choose **"Build your template"** (or skip directly to uploading SDL)
 
 ### Option A: Upload SDL File (Recommended)
 
@@ -65,17 +86,23 @@ Your AKT balance should appear in the top right. If it's zero, go fund your wall
 
 If you want to manually paste the SDL:
 
-1. Copy the contents of *zcashd-akash.yml*
-2. Paste into the SDL editor
-3. Modify as needed (see configuration section below)
-4. Click **"Create Deployment"**
+-> Copy the contents of *zcashd-akash.yml*
+
+-> Paste into the SDL editor
+
+-> Modify as needed (see configuration section below)
+
+-> Click **"Create Deployment"**
+
 
 ## Step 3: Review and Approve Deposit
 
 The Console will show you:
 
-- **Deployment deposit**: ~ 5 AKT (you get this back when you close the deployment)
-- **Estimated cost**: Based on your SDL pricing
+-> **Deployment deposit**: ~ 5 AKT (you get this back when you close the deployment)
+
+-> **Estimated cost**: Based on your SDL pricing
+
 
 Click **"Approve"** and sign the transaction in Keplr.
 
@@ -83,15 +110,21 @@ Click **"Approve"** and sign the transaction in Keplr.
 
 After ~ 30 seconds, you'll see bids from providers. Each bid shows:
 
-- **Price per block** (in AKT or USDC)
-- **Monthly estimated cost**
-- **Provider details** (uptime, region, etc.)
+-> **Price per block** (in AKT or USDC)
+
+-> **Monthly estimated cost**
+
+-> **Provider details** (uptime, region, etc.)
+
 
 **Don't just pick the cheapest.** Check:
 
-- Uptime % (aim for > 95%)
-- Region (closer to you = better latency, but doesn't matter much for blockchain nodes)
-- Audited status (green checkmark = more trustworthy)
+-> Uptime % (aim for > 95%)
+
+-> Region (closer to you = better latency, but doesn't matter much for blockchain nodes)
+
+-> Audited status (green checkmark = more trustworthy)
+
 
 Click **"Accept Bid"** on your chosen provider and sign in Keplr.
 
@@ -99,9 +132,12 @@ Click **"Accept Bid"** on your chosen provider and sign in Keplr.
 
 Console will:
 
-1. Create the lease with your chosen provider
-2. Send the manifest (tells the provider what to run)
-3. Start your container
+-> Create the lease with your chosen provider
+
+-> Send the manifest (tells the provider what to run)
+
+-> Start your container
+
 
 This takes 1-2 minutes. You'll see status updates in the UI.
 
@@ -109,9 +145,12 @@ This takes 1-2 minutes. You'll see status updates in the UI.
 
 Once deployed, you'll see:
 
-- **Services** tab: Shows your *zcashd* service with status
-- **Logs** tab: Live logs from your zcashd node
-- **Leases** tab: Details about your deployment (DSEQ, provider, cost)
+-> **Services** tab: Shows your *zcashd* service with status
+
+-> **Logs** tab: Live logs from your zcashd node
+
+-> **Leases** tab: Details about your deployment (DSEQ, provider, cost)
+
 
 ### Check the Logs
 
@@ -127,9 +166,12 @@ Click on **Logs** and you should see zcashd starting up:
 
 The sync will take **hours to days** depending on the network. Watch for:
 
-- Increasing block heights
-- Peer connections (should be 10-30 peers)
-- No repeated errors
+-> Increasing block heights
+
+-> Peer connections (should be 10-30 peers)
+
+-> No repeated errors
+
 
 ## Step 7: Get Your Node's Address
 
@@ -153,14 +195,14 @@ If you enabled RPC (commented out by default in the SDL), you'll also see the RP
 
 The SDL defaults to Mainnet. To use Testnet instead:
 
-1. **Change network in the *env* section:**
+-> **Change network in the *env* section:**
 
    ```yaml
    # - "ZCASHD_NETWORK=mainnet"
    - "ZCASHD_NETWORK=testnet"
    ```
 
-2. **Update the exposed port** in the *expose* section:
+-> **Update the exposed port** in the *expose* section:
 
    ```yaml
    # Comment out Mainnet port:
@@ -178,7 +220,7 @@ The SDL defaults to Mainnet. To use Testnet instead:
      proto: tcp
    ```
 
-3. **Optional: Reduce resources** for Testnet in *profiles.compute.zcashd.resources*:
+-> **Optional: Reduce resources** for Testnet in *profiles.compute.zcashd.resources*:
 
    ```yaml
    cpu:
@@ -189,7 +231,7 @@ The SDL defaults to Mainnet. To use Testnet instead:
      - size: 50Gi  # Down from 150Gi
    ```
 
-4. **Optional: Lower pricing** in *profiles.placement.akash.pricing*:
+-> **Optional: Lower pricing** in *profiles.placement.akash.pricing*:
 
    ```yaml
    amount: 5000  # Down from 10000
@@ -203,7 +245,7 @@ RPC is disabled by default for security. To enable it:
 
 **CRITICAL: Set strong credentials.** zcashd RPC transmits username/password over HTTP (not HTTPS). Only expose RPC if you understand the security implications.
 
-1. Uncomment in *env* section:
+-> Uncomment in *env* section:
 
    ```yaml
    - "ZCASHD_RPCUSER=yourusername"
@@ -214,7 +256,7 @@ RPC is disabled by default for security. To enable it:
    - "ZCASHD_ALLOWIP=0.0.0.0/0"  # Allow from anywhere (use with caution)
    ```
 
-2. Uncomment the RPC port in *expose*:
+-> Uncomment the RPC port in *expose*:
 
    **For Mainnet:**
 
@@ -268,14 +310,14 @@ This automatically enables txindex and adds extra RPC methods.
 
 To scrape metrics for monitoring:
 
-1. Uncomment in *env*:
+-> Uncomment in *env*:
 
    ```bash
    - "ZCASHD_PROMETHEUSPORT=9969"
    - "ZCASHD_METRICSIP=0.0.0.0/0"
    ```
 
-2. Uncomment the metrics port in *expose*:
+-> Uncomment the metrics port in *expose*:
 
    ```bash
    - port: 9969
@@ -293,14 +335,19 @@ If you're not getting bids or want to optimize cost:
 
 **For lower-spec providers**, reduce in the *profiles.compute.zcashd.resources* section:
 
-- CPU: *units: 2* (minimum for reasonable sync speed)
-- Memory: *size: 12Gi* (minimum for stability)
-- Storage: *size: 120Gi* (minimum for mainnet)
+-> CPU: *units: 2* (minimum for reasonable sync speed)
+
+-> Memory: *size: 12Gi* (minimum for stability)
+
+-> Storage: *size: 120Gi* (minimum for mainnet)
+
 
 **To attract more bids**, increase in *profiles.placement.akash.pricing*:
 
-- Mainnet: Try *amount: 15000* uakt/block
-- Testnet: Try *amount: 7500* uakt/block
+-> Mainnet: Try *amount: 15000* uakt/block
+
+-> Testnet: Try *amount: 7500* uakt/block
+
 
 The SDL values are set conservatively high. Most providers will bid lower.
 
@@ -308,11 +355,16 @@ The SDL values are set conservatively high. Most providers will bid lower.
 
 Need to change configuration after deploying?
 
-1. Go to **My Deployments** in Console
-2. Find your zcashd deployment
-3. Click **"Update Deployment"**
-4. Edit the SDL
-5. Click **"Update"** and approve in Keplr
+-> Go to **My Deployments** in Console
+
+-> Find your zcashd deployment
+
+-> Click **"Update Deployment"**
+
+-> Edit the SDL
+
+-> Click **"Update"** and approve in Keplr
+
 
 **Note**: Updating will restart your container. The node will resume from its saved state (persistent storage), but expect 1-2 minutes of downtime.
 
@@ -320,9 +372,12 @@ Need to change configuration after deploying?
 
 ### Via Console
 
-- **Logs tab**: Live container logs
-- **Shell tab**: Get a shell inside the container (useful for debugging)
-- **Events tab**: Kubernetes events (mostly useless unless something's broken)
+-> **Logs tab**: Live container logs
+
+-> **Shell tab**: Get a shell inside the container (useful for debugging)
+
+-> **Events tab**: Kubernetes events (mostly useless unless something's broken)
+
 
 ### Via RPC (if enabled)
 
@@ -343,10 +398,14 @@ zcash-cli getinfo
 
 When you're done or want to stop paying:
 
-1. Go to **My Deployments**
-2. Find your zcashd deployment
-3. Click **"Close Deployment"**
-4. Confirm and sign in Keplr
+-> Go to **My Deployments**
+
+-> Find your zcashd deployment
+
+-> Click **"Close Deployment"**
+
+-> Confirm and sign in Keplr
+
 
 Your 5 AKT deposit will be refunded. **Persistent storage** should be preserved by the provider, but don't rely on it - treat it like any other cloud provider.
 
@@ -360,9 +419,12 @@ You need more AKT. Fund your Keplr wallet.
 
 Either:
 
-- Your pricing is too low (increase *amount* in SDL)
-- Your resource requirements are too high for available providers (reduce CPU/memory/storage)
-- Wait longer (sometimes takes 60-90 seconds for bids to appear)
+-> Your pricing is too low (increase *amount* in SDL)
+
+-> Your resource requirements are too high for available providers (reduce CPU/memory/storage)
+
+-> Wait longer (sometimes takes 60-90 seconds for bids to appear)
+
 
 ### Deployment stuck in "pending"
 
@@ -380,9 +442,12 @@ You cheaped out on RAM. Close the deployment and redeploy with at least 12Gi mem
 
 Define "forever":
 
-- **Hours**: Normal
-- **Days**: Also normal for mainnet from scratch
-- **Weeks**: Something's wrong, check logs for errors
+-> **Hours**: Normal
+
+-> **Days**: Also normal for mainnet from scratch
+
+-> **Weeks**: Something's wrong, check logs for errors
+
 
 ### "Error fetching zcash-params"
 
@@ -390,26 +455,36 @@ The provider might have network issues or slow bandwidth. This usually resolves 
 
 ### RPC authentication failures
 
-- Check that *ZCASHD_RPCUSER* and *ZCASHD_RPCPASSWORD* are set correctly
-- Verify you're using the correct port (8232 for mainnet, 18232 for testnet)
-- Remember ports are mapped by Akash - use the URI from your deployment, not 8232 directly
+-> Check that *ZCASHD_RPCUSER* and *ZCASHD_RPCPASSWORD* are set correctly
+
+-> Verify you're using the correct port (8232 for mainnet, 18232 for testnet)
+
+-> Remember ports are mapped by Akash - use the URI from your deployment, not 8232 directly
+
 
 ## Cost Management
 
 Monitor your spending in the Console:
 
-- **My Deployments** -> Your deployment -> Shows "Cost per month" estimate
-- Your Keplr wallet balance will decrease over time
+-> **My Deployments** -> Your deployment -> Shows "Cost per month" estimate
+
+-> Your Keplr wallet balance will decrease over time
+
 
 When your balance runs low, Akash will auto-close your deployment. **Top up your wallet periodically** or set up alerts.
 
 ### Reducing Costs
 
-1. **Use Testnet** for non-production testing (50% cheaper)
-2. **Lower CPU/memory** if you don't need fast sync
-3. **Choose cheaper providers** (not always wise - uptime matters)
-4. **Use USDC instead of AKT** if AKT price is volatile (requires SDL pricing change)
-5. **Disable txindex** if you don't need it (saves ~ 20% storage)
+-> **Use Testnet** for non-production testing (50% cheaper)
+
+-> **Lower CPU/memory** if you don't need fast sync
+
+-> **Choose cheaper providers** (not always wise - uptime matters)
+
+-> **Use USDC instead of AKT** if AKT price is volatile (requires SDL pricing change)
+
+-> **Disable txindex** if you don't need it (saves ~ 20% storage)
+
 
 ### Additional Resources
 
