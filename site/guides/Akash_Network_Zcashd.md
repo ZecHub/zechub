@@ -286,7 +286,7 @@ To scrape metrics for monitoring:
      proto: tcp
    ```
 
-Metrics will be available at *http://<endpoint>:9969/metrics* in Prometheus format.
+Metrics will be available at http://<endpoint>:9969/metrics in Prometheus format.
 
 ### Adjust Resources/Pricing
 
