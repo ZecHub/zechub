@@ -1,10 +1,6 @@
 # How to run Zebra on Akash Network
 
-Step-by-step guide for deploying a Zebra Zcash full node using [Akash Console](https://console.akash.network). Here is a video tutorial covering the basics. For a more in-depth guide, read below.
-
-<iframe width="320" height="200" src="https://www.youtube.com/watch?v=SVekeNU6_-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
+Step-by-step guide for deploying a Zebra Zcash full node using [Akash Console](https://console.akash.network).
 
 ### What You're Deploying
 
