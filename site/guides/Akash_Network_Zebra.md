@@ -40,7 +40,7 @@ This is handled automatically. Just use the URI that Akash gives you.
 2. **AKT tokens** - Get 50-100 AKT from an exchange (Coinbase, Kraken, Osmosis)
 3. **5 minutes** to click through the Console UI
 
-## Step 1: Connect Your Wallet
+#### Step 1: Connect Your Wallet
 
 -> Go to [https://console.akash.network](https://console.akash.network)
 
@@ -53,18 +53,18 @@ This is handled automatically. Just use the URI that Akash gives you.
 
 Your AKT balance should appear in the top right. If it's zero, go fund your wallet first.
 
-### Step 2: Create Deployment
+#### Step 2: Create Deployment
 
 -> Click **"Deploy"** button (big blue button, center of page)
 
 -> Choose **"Build your template"** (or skip directly to uploading SDL)
 
 
-#### Option A: Upload SDL File (Recommended)
+##### Option A: Upload SDL File (Recommended)
 
 [![Deploy on Akash](https://raw.githubusercontent.com/akash-network/console/refs/heads/main/apps/deploy-web/public/images/deploy-with-akash-btn.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
 
-#### Option B: Use SDL Editor
+##### Option B: Use SDL Editor
 
 If you want to manually paste [the SDL](https://github.com/akash-network/awesome-akash/blob/master/zcash-zebra/deploy.yaml):
 
@@ -77,7 +77,7 @@ If you want to manually paste [the SDL](https://github.com/akash-network/awesome
 -> Click **"Create Deployment"**
 
 
-### Step 3: Review and Approve Deposit
+#### Step 3: Review and Approve Deposit
 
 The Console will show you:
 
@@ -87,7 +87,7 @@ The Console will show you:
 
 Click **"Approve"** and sign the transaction in Keplr.
 
-## Step 4: Choose a Provider
+#### Step 4: Choose a Provider
 
 After ~ 30 seconds, you'll see bids from providers. Each bid shows:
 
@@ -109,7 +109,7 @@ After ~ 30 seconds, you'll see bids from providers. Each bid shows:
 
 Click **"Accept Bid"** on your chosen provider and sign in Keplr.
 
-### Step 5: Wait for Deployment
+#### Step 5: Wait for Deployment
 
 Console will:
 
@@ -121,7 +121,7 @@ Console will:
 
 This takes 1-2 minutes. You'll see status updates in the UI.
 
-### Step 6: Verify It's Running
+#### Step 6: Verify It's Running
 
 Once deployed, you'll see:
 
@@ -132,7 +132,7 @@ Once deployed, you'll see:
 -> **Leases** tab: Details about your deployment (DSEQ, provider, cost)
 
 
-#### Check the Logs
+##### Check the Logs
 
 Click on **Logs** and you should see Zebra starting up:
 
@@ -152,7 +152,7 @@ The sync will take **hours to days** depending on the network. Watch for:
 -> No repeated errors
 
 
-### Step 7: Get Your Node's Address
+#### Step 7: Get Your Node's Address
 
 Click on the **Leases** tab, then **URIs**.
 
