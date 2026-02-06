@@ -271,21 +271,21 @@ To scrape metrics for monitoring:
 
 1. Uncomment in *env*:
 
-   ```yaml
+   ```bash
    - "ZCASHD_PROMETHEUSPORT=9969"
    - "ZCASHD_METRICSIP=0.0.0.0/0"
    ```
 
 2. Uncomment the metrics port in *expose*:
 
-   ```yaml
+   ```bash
    - port: 9969
      as: 9969
      to:
        - global: false
      proto: tcp
    ```
-
+   
 Metrics will be available at http://<endpoint>:9969/metrics in Prometheus format.
 
 ### Adjust Resources/Pricing
