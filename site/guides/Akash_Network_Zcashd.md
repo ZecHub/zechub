@@ -2,8 +2,7 @@
 
 Guide for deploying a zcashd Zcash full node (Electric Coin Co implementation) using [Akash Console](https://console.akash.network). Here is a video tutorial below. A more in-depth guide can be found below.
 
-
-<iframe width="320" height="200" src="https://www.youtube.com/watch?v=SVekeNU6_-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="320" height="200" src="https://www.youtube.com/embed/SVekeNU6_-g?si=HMX_bUg0PVkXv7hN" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## What You're Deploying
 
