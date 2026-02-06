@@ -125,7 +125,7 @@ This takes 1-2 minutes. You'll see status updates in the UI.
 
 Once deployed, you'll see:
 
--> **Services** tab: Shows your `zebra` service with status
+-> **Services** tab: Shows your *zebra* service with status
 
 -> **Logs** tab: Live container logs
 
@@ -362,7 +362,7 @@ You need more AKT. Fund your Keplr wallet.
 
 Either:
 
--> Your pricing is too low (increase `amount` in SDL)
+-> Your pricing is too low (increase *amount* in SDL)
 
 -> Your resource requirements are too high for available providers (reduce CPU/memory/storage)
 
