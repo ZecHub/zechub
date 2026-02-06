@@ -412,14 +412,15 @@ When your balance runs low, Akash will auto-close your deployment. **Top up your
 4. **Use USDC instead of AKT** if AKT price is volatile (requires SDL pricing change)
 5. **Disable txindex** if you don't need it (saves ~ 20% storage)
 
-## Additional Resources
+### Additional Resources
 
-- **Akash Console**: <https://console.akash.network>
-- **Akash Docs**: <https://akash.network/docs/>
-- **zcashd Docs**: <https://zcash.readthedocs.io/>
-- **Zcash RPC API**: <https://zcash.github.io/rpc/>
-- **Zcash Explorers**: <https://zechub.wiki/using-zcash/blockchain-explorers>
-- **Akash Discord**: <https://discord.akash.network> (for provider issues)
+**Akash Console**: [https://console.akash.network](https://console.akash.network)
+
+**Akash Docs**: [https://akash.network/docs/](https://akash.network/docs/)
+
+**Zcash Explorers**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+
+**Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (for provider issues)
 
 ## Final Notes
 
