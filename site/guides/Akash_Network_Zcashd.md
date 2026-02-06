@@ -110,7 +110,7 @@ This takes 1-2 minutes. You'll see status updates in the UI.
 
 Once deployed, you'll see:
 
-- **Services** tab: Shows your `zcashd` service with status
+- **Services** tab: Shows your *zcashd* service with status
 - **Logs** tab: Live logs from your zcashd node
 - **Leases** tab: Details about your deployment (DSEQ, provider, cost)
 
@@ -257,7 +257,7 @@ Uncomment in *env*:
 
 Insight Explorer provides additional REST API endpoints for blockchain data (useful for block explorers).
 
-Uncomment in `env`:
+Uncomment in *env*:
 
 ```yaml
 - "ZCASHD_INSIGHTEXPLORER=1"
@@ -269,7 +269,7 @@ This automatically enables txindex and adds extra RPC methods.
 
 To scrape metrics for monitoring:
 
-1. Uncomment in `env`:
+1. Uncomment in *env*:
 
    ```yaml
    - "ZCASHD_PROMETHEUSPORT=9969"
