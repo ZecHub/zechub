@@ -1,0 +1,278 @@
+# Zcash Ecosystem Digest | February 7th 
+
+Dive into the Zcash Arborist Call 02/05/2026, Vitalik Buterin Donates to Shielded Labs to Support Crosslink Development, Hackmas 2025 Summary, Introducing zcash_dart, Shielded Labs Publishes First Independent Crosslink Security Audit, CipherScan New Update, NozyWallet February Update, New Token Holder Voting Implementation, Zcash Community Grants Meeting Minutes 2/3/2026, ZecHub Sync Meeting 02/03/2026 
+
+
+Curated by [Gorga](https://x.com/GianGorga)
+
+## Shielded Labs, Electric Coin Company, Zcash Foundation , and Zcash Updates 🛠️
+
+[Zcash Arborist Call 02/05/2026 - @ZcashFoundation](https://x.com/ZcashFoundation/status/2019462379642187901?s=20)
+
+[Vitalik Buterin Donates to Shielded Labs to Support Crosslink Development - @ShieldedLabs ](https://x.com/ShieldedLabs/status/2019810516810785042)
+
+[Hackmas 2025 Summary - @ZcashFoundation](https://x.com/ZcashFoundation/status/2019112329040818542?s=20)
+
+[Introducing zcash_dart](https://forum.zcashcommunity.com/t/introducing-zcash-dart-a-dart-library-for-zcash-transactions-zero-knowledge-proofs/54561/2)
+
+[Shielded Labs Publishes First Independent Crosslink Security Audit](https://forum.zcashcommunity.com/t/shielded-labs-engages-nicolas-della-penna-for-crosslink-design-review/53806/2)
+
+[CipherScan New Update](https://forum.zcashcommunity.com/t/cipherscan-not-another-block-explorer-please-no/53694/21)
+
+[NozyWallet February Update ](https://forum.zcashcommunity.com/t/nozywallet-development-roadmap/53745/7)
+
+[[Technical Discussion] TLA+ Verified Safety Invariants for Rust-based BFT Consensus](https://forum.zcashcommunity.com/t/technical-discussion-tla-verified-safety-invariants-for-rust-based-bft-consensus-sharing-my-implementation/54579)
+
+[Zcash Z3 February 6th Updates](https://forum.zcashcommunity.com/t/zcash-z3-updates-formerly-zcashd-deprecation/48965/134)
+
+[Hackmas: FROST Support in zcash-devtool](https://forum.zcashcommunity.com/t/hackmas-frost-support-in-zcash-devtool/54586)
+
+[Hackmas: Towards a Unified RPC Interface for the Z3 Stack](https://forum.zcashcommunity.com/t/hackmas-towards-a-unified-rpc-interface-for-the-z3-stack/54572)
+
+[Coinholder: Protocol Feature Sentiment Poll Latest Update](https://forum.zcashcommunity.com/t/coinholder-protocol-feature-sentiment-poll/54487/21)
+
+[New Token Holder Voting Implementation ](https://forum.zcashcommunity.com/t/new-token-holder-voting-implementation/54547)
+
+[Zcash: The Privacy Bitcoin Left Behind - @Delphi_Digital](https://x.com/Delphi_Digital/status/2019800778005721286?s=20)
+
+---
+
+
+## Zcash Community Grants 🏛️
+
+[Zcash Community Grants Meeting Minutes 2/3/2026  ](https://forum.zcashcommunity.com/t/zcash-community-grants-meeting-minutes-2-3-2026/54548)
+
+[Grant Application: ZecDev Launchpad - One-Command Zebra Devnet + Reusable CI UPDATE ](https://forum.zcashcommunity.com/t/grant-application-zecdev-launchpad-one-command-zebra-devnet-reusable-ci/52472/8)
+
+[Zenith Full Node Wallet New Release: 0.11.2.1-beta](https://forum.zcashcommunity.com/t/zenith-full-node-wallet/46523/61)
+
+[OrchardZSA Finalization UPDATE ](https://forum.zcashcommunity.com/t/orchardzsa-finalization/53732/6)
+
+[OneKey x Zcash (Long-Term, Recoverable, and Maintainable Zcash Hardware Wallet Support) ](https://forum.zcashcommunity.com/t/onekey-x-zcash-long-term-recoverable-and-maintainable-zcash-hardware-wallet-support/54540)
+
+[Zchat - Shielded Messenger Retroactive Grant](https://forum.zcashcommunity.com/t/zchat-shielded-messenger-retroactive-grant/54543)
+
+[Zcash India 2026 Grant Application]( https://forum.zcashcommunity.com/t/zcash-india-2026-grant-application/54544)
+
+[Grant Proposal: ZEX for Zcash: CEX Speed, DEX Security, Simple and Global Access to ZEC](https://forum.zcashcommunity.com/t/grant-proposal-zex-for-zcash-cex-speed-dex-security-simple-and-global-access-to-zec/54551)
+
+[Zcash Elastic Subnet Bridge on Avalanche red·bridge UPDATE](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220/101)
+
+[Q4 2025 Coinholder-Directed Retroactive Grants Program disbursements Completed](https://forum.zcashcommunity.com/t/coinholder-directed-retroactive-grants-program-results-nov-2025/53487/19)
+
+[Grant Application - ZEC-NAM shielded airdrop protocol Monthly Update](https://forum.zcashcommunity.com/t/grant-application-zec-nam-shielded-airdrop-protocol/52759/25)
+
+[Zcash Global en Español 2026 January Report](https://forum.zcashcommunity.com/t/zcash-global-en-espanol-2026/53815/25)
+
+[[RFC] Order out of Chaos: A Neutral Verification Layer for Zcash Update](https://forum.zcashcommunity.com/t/rfc-order-out-of-chaos-a-neutral-verification-layer-for-zcash/54302/7)
+
+[Successfully submitted proposals to be included in vote for Coinholder-Directed Retroactive Grants Program (Q1 2026) ](https://forum.zcashcommunity.com/t/call-for-proposals-coinholder-directed-retroactive-grants-program-q1-2026/54208/6)
+
+[Block explorer + Testnet infrastructure 2025 brief recap of last months](https://forum.zcashcommunity.com/t/block-explorer-testnet-infrastructure-2025/51451/26)
+
+[[Grant Proposal] Mnemosyne: Thermodynamic AI Verification on Zcash ](https://forum.zcashcommunity.com/t/grant-proposal-mnemosyne-thermodynamic-ai-verification-on-zcash/54534)
+
+[Complete Zaino! UPDATE](https://forum.zcashcommunity.com/t/complete-zaino/50708/20)
+
+[Febuary 5th Arborist call summary Updates has landed](https://forum.zcashcommunity.com/t/zcg-rfp-community-note-taker-2025/50450/41)
+
+[NEAR Intents](https://forum.zcashcommunity.com/t/near-intents/54588)
+
+[Zingo Labs Hackfest, Grant Proposal ](https://forum.zcashcommunity.com/t/zingo-labs-hackfest-grant-proposal/54602)
+
+[[Grant Application] Wrapped Zcash (WZEC)](https://forum.zcashcommunity.com/t/grant-application-wrapped-zcash-wzec/54575)
+
+[Maya Protocol Advanced Shielded ZEC Support (Retroactive Grant) ](https://forum.zcashcommunity.com/t/maya-protocol-advanced-shielded-zec-support-retroactive-grant/54593)
+
+[Proposal: Lower Zcash block target spacing to 25s](https://forum.zcashcommunity.com/t/proposal-lower-zcash-block-target-spacing-to-25s/54577)
+
+---
+
+
+
+## Community Projects 🌐
+
+[Zcash Ecosystem Digest | February 1st  - @ZecHub](https://x.com/ZecHub/status/2018092611026788598?s=20)
+
+[Privacy is coming to ibadan !   - @NesthubEdu ](https://x.com/NesthubEdu/status/2013213766096146451?s=20)
+
+[Tachyon is one of the most anticipated Zcash upgrades.- @ZecHub](https://x.com/ZecHub/status/2018678261065109946?s=20)
+
+[Zcash Shielded News | Vol.4 - @ZecHub](https://x.com/ZecHub/status/2019447625020285055?s=20)
+
+[Quick demo from .@joy_jhei showing .@Zucchinifi Wallet for in-browser Shielded ZEC payments.  - @ZecHub](https://x.com/ZecHub/status/2019763348292751688?s=20)
+
+[Gm Let's have a great day  - @thedrekal](https://x.com/thedrekal/status/2020078721831710844?s=20)
+
+[Live @Zcash Meetup Ibadan - @blingzweb3_](https://x.com/blingzweb3_/status/2020080877200633919?s=20)
+
+[Missing alerts here?? Join our TG channel to get alerts of prices - @zypherscan](https://x.com/zypherscan/status/2019118540884963731?s=20)
+
+[Here’s a short recap of everything that happened in @zcash ecosystem this week.  - @OmegaOnChain](https://x.com/OmegaOnChain/status/2018219175680803163?s=20)
+
+[📢 Zingo! Recap🛡 - @ZingoLabs](https://x.com/ZingoLabs/status/2019675500247928900?s=20)
+
+[#Zcash and #ZingoWallet were born to protect what matters: your freedom. - @ZingoLabs ](https://x.com/ZingoLabs/status/2018708713981247983?s=20)
+
+[Zingo Recap - Enero 2026 - @ZingoLabEsp](https://x.com/ZingoLabEsp/status/2019758092188098645?s=20)
+
+[Testnet'n .@ZingoLabs's zingo-cli. - @dismad8](https://x.com/dismad8/status/2020169525963243621?s=20)
+
+[Интересные видео о Zcash на русском языке](https://forum.zcashcommunity.com/t/zcash/41380/28)
+
+[@nikete has completed the first independent security and mechanism-design review of Shielded Labs’ implementation of Crosslink. - @ShieldedLabs](https://x.com/ShieldedLabs/status/2019547550009946528?s=20)
+
+[Zcash good - @VitalikButerin](https://x.com/VitalikButerin/status/2019812188962299951?s=20)
+
+[I think its wild that on the backdrop of our huge run up in price only *300* $ZEC - @dismad8](https://x.com/dismad8/status/2019838682367422549?s=20)
+
+[🎙️ Zebra Talk AO VIVO | 11/02 às 19h no Youtube e X  - @zcashbrazil](https://x.com/zcashbrazil/status/2019862233702863215?s=20)
+
+[Shielded Magazine #04 📑  - @zcashbrazil](https://x.com/zcashbrazil/status/2019748942783648017?s=20)
+
+[ZEC Insider | Call Comunitária  - @zcashbrazil ](https://x.com/zcashbrazil/status/2018723355344712156?s=20)
+
+[Zcash Dynamic Fees, votado na pesquisa de sentimento - @zcashbrazil](https://x.com/zcashbrazil/status/2019421855493615855?s=20)
+
+[Privacidade na era digital - Núcleo de Estudos | #001 - @LetsCoCreate0x ](https://x.com/LetsCoCreate0x/status/2018832354563981743?s=20)
+
+[ZONA Z 🧠 - Edição #23 com @AAmandita_ - @zcashbrazil](https://x.com/zcashbrazil/status/2018679681826885818?s=20)
+
+[Uma das 11 questões votadas na pesquisa de sentimento para a atualização NU7 da Zcash - @zcashbrazil](https://x.com/zcashbrazil/status/2018420252141338653?s=20)
+
+[zillions - @cypherpunk](https://x.com/cypherpunk/status/2018434318884823107?s=20)
+
+[Zcash's shielded pool went from 11% to 30% of total supply in a single year. - @Delphi_Digital](https://x.com/Delphi_Digital/status/2019547466668863546?s=20)
+
+[How I’m voting in the ongoing Zcash coinholder poll: - @arjunkhemani](https://x.com/arjunkhemani/status/2019353565756813351?s=20)
+
+[We’re excited to be on the path to becoming the first chain to fully support shielded swaps in and out. 🛡️ - @Maya_Protocol](https://x.com/Maya_Protocol/status/2019129384750457281?s=20)
+
+[zcash's past is full of dumb errors via crippling bureaucracy and leadership - @mert](https://x.com/mert/status/2018775193636815194?s=20)
+
+[Product-market fit. Zcash 🛡️ - @maxdesalle](https://x.com/maxdesalle/status/2018434642706124934?s=20)
+
+[the greatest edge you can have is time arbitrage - @cypherpunk](https://x.com/cypherpunk/status/2018793391539015984?s=20)
+
+[zcash - @cypherpunk](https://x.com/cypherpunk/status/2018323951382925455?s=20)
+
+[Privacy is not about hiding: it's about avoiding being profiled. #Zcash  solves it. - @InsideZcash](https://x.com/InsideZcash/status/2019449587950403673?s=20)
+
+
+[Thank you to @VitalikButerin for supporting Shielded Labs and Crosslink! - @aquietinvestor](https://x.com/aquietinvestor/status/2019811434738376762?s=20)
+
+[Treasury Update 2/2/2026: - @zec_fi](https://x.com/zec_fi/status/2018349857681949045?s=20)
+
+[unbothered. moisturized. happy. inmylane. focused. flourishing - @zec_fi ](https://x.com/zec_fi/status/2019843900652024164?s=20)
+
+[Zcash is encrypted gold. - @zec_fi](https://x.com/zec_fi/status/2018415841490895243?s=20)
+
+[Let's try this. For the next Zcash Engineering Office Hours - @shieldedmark](https://x.com/shieldedmark/status/2018338548219322660?s=20)
+
+[Shielded Labs good- @zooko](https://x.com/zooko/status/2019893118758453753?s=20)
+
+[Hey Zcash fam!  We've created Zchat - @zchat_app ](https://x.com/zchat_app/status/2018700802710208798?s=20)
+
+[.@VitalikButerin 🤝 $ZEC - @Grayscale](https://x.com/Grayscale/status/2019871509041615274?s=20)
+
+[Financial privacy in general to me is something that's totally obvious and shouldn't be in any way controversial. - @Grayscale](https://x.com/Grayscale/status/2020165851618607386?s=20)
+
+
+[A decentralized network needs nodes everywhere. - @cipherscan_app](https://x.com/cipherscan_app/status/2020050212274991467?s=20)
+
+[Текущее голосование держателей #Zcash фактически отражает раскол на два подхода к биткоину. - @ruZCASH](https://x.com/ruZCASH/status/2019994079086657716?s=20)
+
+[RHEA allows you to supply $ZEC on Solana to earn up to 3.5% APY. - @rhea_finance](https://x.com/rhea_finance/status/2018697285048172786?s=20)
+
+[Blockworks now track @Zcash - @Blockworks_](https://x.com/Blockworks_/status/2018346286139965891?s=20)
+
+[blood in the streets but my man @simononchain with *the* zcash $zec report- @ceterispar1bus](https://x.com/ceterispar1bus/status/2019491576334999574?s=20)
+
+[zec is a better btc. - @sacha](https://x.com/sacha/status/2019506041524834307?s=20)
+
+[99% of crypto will be stripped naked by quantum computers Not $ZEC  - @ThorTorrens](https://x.com/ThorTorrens/status/2018308454134280243?s=20)
+
+
+[An aspect of encrypted electronic cash on a single asset network is you can always tell when a ZEC payment occurs.  - @zksquirrel ](https://x.com/zksquirrel/status/2018428899525288356?s=20)
+
+[Sapling back to 2020 levels, wild! 👀. Orchard is the new king of the shielded pools. $ZEC - @dismad8](https://x.com/dismad8/status/2018419963888025643?s=20)
+
+
+[ZOLD - @michael2xl](https://x.com/michael2xl/status/2019467755368349860?s=20)
+
+[📃 Zcash Shielded News |  @ZecHub en 🇪🇸 - @zcashesp](https://x.com/zcashesp/status/2020167419453427804?s=20)
+
+[¿Es posible ser una estrella global sin que nadie sepa quién eres realmente? - @zcashesp](https://x.com/zcashesp/status/2020138982085214421?s=20)
+
+[🧵1/ Zcash ha tenido diversas actualizaciones de red y otras que se encuentran en su hoja de ruta. 📄 - @zcashesp](https://x.com/zcashesp/status/2019848019026538554?s=20)
+
+[¡Se viene! Ya estamos preparando los meetups del #ClubZcashBarcelona 2026 - @gordonesTV](https://x.com/gordonesTV/status/2019763912535638036?s=20)
+
+[📣 QQSZ 2.0 EP 17 - @zcashesp](https://x.com/zcashesp/status/2019778103850250747?s=20)
+
+[ZINGO! RECAP en X Spaces! - @ZingoLabEsp](https://x.com/ZingoLabEsp/status/2019547517386387607?s=20)
+
+[📣 Cambiar al Modo Avanzado en Zingo Wallet - @zcashesp](https://x.com/zcashesp/status/2019493730571657550?s=20)
+
+[📣 Configuración de seguridad en Unstoppable Wallet - @zcashesp](https://x.com/zcashesp/status/2016953240873570755?s=20)
+
+[📣 QQSZ 2.0 EP 16 - @zcashesp](https://x.com/zcashesp/status/2019053076334706749?s=20)
+
+[📣 Configuración de Ajustes en Unstoppable Wallet - @zcashesp](https://x.com/zcashesp/status/2018771250987069875?s=20)
+
+[Noticiero Cripto - @zkradioz](https://x.com/zkradioz/status/2019103455663505648?s=20)
+
+[📣 QQSZ 2.0 EP 15 - @zcashesp](https://x.com/zcashesp/status/2018328049045938349?s=20)
+
+
+[Zcash Z3 Güncellemeleri  - @ZcashTR](https://x.com/ZcashTR/status/2020170839069503970?s=20)
+
+[Zcash’te Konsensüs Güvenliğine Güçlü Bir Adım 🛡️ - @ZcashTR](https://x.com/ZcashTR/status/2020052172033978739?s=20)
+
+[🧠🔐 Zooko Wilcox, Bankless’ta net konuştu: - @ZcashTR](https://x.com/ZcashTR/status/2019808474377363728?s=20)
+
+[🛡️ Zcash Korumalı Haberler | Cilt 4 - @ZcashTR](https://x.com/ZcashTR/status/2019688754814779776?s=20)
+
+[Zcash Topluluk Hibeleri Toplantısı | 2–3 Şubat 2026 - @ZcashTR](https://x.com/ZcashTR/status/2019081139030306965?s=20)
+
+[Yes! More devs showing up with Zcash improvement proposals. - @nate_zec](https://x.com/nate_zec/status/2019794653831176441?s=20)
+
+[🔐 Finansal Mahremiyet Neden Önemlidir? ( Zcash’in Yaklaşımı )  - @ZcashTR](https://x.com/ZcashTR/status/2018724602617475359?s=20)
+
+[Finansal gizliliğin tadını çıkarın 💛 - @ZcashTR](https://x.com/ZcashTR/status/2018570893929168899?s=20)
+
+[Zcash Kullanırken Gizliliğinizi Güçlendirin! 🛡️ - @ZcashTR](https://x.com/ZcashTR/status/2018361765013118989?s=20)
+
+[🌳 Zcash Arborist Call — Feb 5, 2026 - @ZcashNigeria](https://x.com/ZcashNigeria/status/2020036534011932912?s=20)
+
+[🛡️ Shielded coinbase progress - @ZcashNigeria](https://x.com/ZcashNigeria/status/2020036556233331059?s=20)
+
+[The Zcash Ecosystem Digest for this week is now available in the Yoruba language! 🎉 - @ZcashNigeria ](https://x.com/ZcashNigeria/status/2019119048806601059?s=20)
+
+
+[Your store of value must scale. - @zkDragon](https://x.com/zkDragon/status/2019727155345912201?s=20)
+
+[#비탈릭 이 지캐시 Crosslink (하이브리드 POS) 개발에 기부를 하였고 아래와 같이 #지캐시 를 언급합니다. Zcash is good - @Insightnerd](https://x.com/Insightnerd/status/2019897307802845258?s=20)
+
+
+---
+
+## Meme of the week 😊
+
+[The Discount is Melting](https://forum.zcashcommunity.com/t/zcash-content-farm-memetics-department/29765/277)
+
+---
+
+## Jobs in the Ecosystem
+
+[Executive Assistant - Electric Coin Company](https://apply.workable.com/electric-coin-company/j/7E628E6C3C/)
+
+[Core Engineer - Electric Coin Company](https://apply.workable.com/electric-coin-company/j/DDA59608EE/)
+
+[Senior Brand & Creative Designer - Electric Coin Company](https://apply.workable.com/electric-coin-company/j/35E3EA7C7B/)
+
+[Director of Security - Electric Coin Company](https://apply.workable.com/electric-coin-company/j/0D89DA7F28/)
+
+[Marketing Analytics & Optimization Specialist](https://apply.workable.com/electric-coin-company/j/15AF3791BD/)
+
+[Dework tasks posted every Monday - ZecHub](https://app.dework.xyz/zechub-2424)
