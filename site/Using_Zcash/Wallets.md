@@ -1,5 +1,5 @@
-## [Zashi](https://electriccoin.co/zashi/)
-![logo](https://i.ibb.co/HgsHnpN/zashiwallet.png "Zashi")
+## [Zodl](https://zodl.com)
+![logo](https://zodl.com/wp-content/uploads/2026/01/logo-zodl-black-768x158.png "Zodl")
 - Devices: Mobile
 - Pools: Transparent | Sapling | Orchard
 - Features: Spend before Sync | Unified Address | Shielded Memo | Address Book | Payment Request | TEX Address | Tor Support | Flexa Payments | DEX Swaps
