@@ -1,3 +1,11 @@
+## [Zodl Wallet](https://zodl.me)
+![logo-zodl-black-removebg-preview](https://hackmd.io/_uploads/SkUPabmdWl.png)
+
+- Devices: Mobile | Web
+- Pools: Transparent | Sapling | Orchard
+- Features: Spend before Sync | Unified Address | Shielded Memo | Address Book | Payment Request | DEX Swaps | Multi Coin | Tor Support
+
+
 ## [Zashi](https://electriccoin.co/zashi/)
 ![logo](https://i.ibb.co/HgsHnpN/zashiwallet.png "Zashi")
 - Devices: Mobile
