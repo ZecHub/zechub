@@ -35,4 +35,4 @@ By bridging the gap between Dash’s operational efficiency and Zcash’s crypto
 
 ---
 **Bounty Submission by Pitrat-wav**
-*Payout Address:* `t1YourZcashAddressGoesHere` (Placeholder - contact for actual address)
+*Payout Address:* `u1egd9w4dg2el8zwm3zy40uyapuaux3fkcjldz6q0ay40zwm5n4j0umeunf84r6p9j2szpssxv72srdlfghtzq5lh7q064x7wkrtuqf5cetw8gaed8vajv0d4sdfqclfznadpe985gpxtfe0nleqsjn2nux5mqrnjs2l8h0uxt35hp3sde8sd35dj5ap2c3mxhvukw86pgse5uxdfkf7k` (Placeholder - contact for actual address)
