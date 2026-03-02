@@ -1,0 +1,47 @@
+# Zcash Tools for Creators (Tipping)
+
+Creators can receive tips and donations using tools built on the **Zcash network**. These platforms allow audiences to support creators directly using **ZEC**, while preserving strong financial privacy through shielded transactions.
+
+This page highlights tools that enable **Zcash-based tipping for creators**.
+
+---
+
+## Zcash.me
+
+![Zcash.me Logo](https://zcash.me/favicon.ico)
+
+**Website:**  
+https://zcash.me
+
+### Description
+**Zcash.me** is a public directory of Zcash users that allows creators to associate a simple identity with their Zcash address. It makes it easier for supporters to discover and tip creators directly.
+
+### Features
+- Public directory of Zcash users
+- Simple identity linked to a Zcash address
+- Enables discovery of creators within the Zcash ecosystem
+- Allows direct ZEC tipping
+- Creator profiles and community leaderboards
+- Social discovery features
+
+---
+
+## TipZ
+
+![TipZ Logo](https://tipz.cash/favicon.ico)
+
+**Website:**  
+https://tipz.cash
+
+### Description
+**TipZ** is a creator tipping platform that enables supporters to send **private ZEC tips** to creators through dedicated tip pages. Tips are delivered using shielded Zcash transactions to ensure strong privacy.
+
+### Features
+- Dedicated creator tip pages (`tipz.cash/[username]`)
+- Private ZEC tipping using shielded transactions
+- ZIP-321 payment QR codes for easy wallet payments
+- Cross-chain tipping (ETH, USDC, USDT, SOL converted to ZEC)
+- Real-time creator dashboard
+- Encrypted messages attached to tips
+- Creator discovery directory
+- 0% platform fees
