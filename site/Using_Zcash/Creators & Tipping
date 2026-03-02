@@ -1,0 +1,58 @@
+# Creators & Tipping
+
+Zcash tools that empower creators to receive **private, shielded ZEC tips** directly from their audience. No platform fees, full self-custody, and maximum privacy using Zcash shielded transactions.
+
+These platforms integrate with X (Twitter) for easy discovery and tipping, and support shielded Zcash unified addresses.
+
+## 1. Zcash.me
+
+**Website:** [https://zcash.me](https://zcash.me)
+
+**Description:**  
+Zcash.me is a simple profile directory and tipping platform for creators. Verify your X account, add your Zcash unified address, and get a public profile that makes it effortless for supporters to send shielded ZEC tips — including direct in-browser tipping on X via integrated wallets like Zucchini.
+
+**Key Features:**
+- X (Twitter) account verification + profile creation
+- Add shielded Zcash unified address for receiving tips
+- Public directory of verified creators (partial addresses shown for privacy)
+- Easy discovery and tipping from social media
+- In-browser shielded ZEC payments (powered by wallets like Zucchini)
+- Fully non-custodial — tips go straight to your wallet
+
+![Zcash.me](https://z.cash/wp-content/themes/zcash/assets/images/zcash-logo.svg)
+
+---
+
+## 2. TipZ (tipz.cash)
+
+**Website:** [https://tipz.cash](https://tipz.cash)  
+**Creator Directory:** [https://tipz.cash/creators](https://tipz.cash/creators)  
+**Creator Dashboard:** [https://tipz.cash/my](https://tipz.cash/my)  
+**GitHub (MIT license):** [https://github.com/tipz-cash/tipz.cash](https://github.com/tipz-cash/tipz.cash)
+
+**Description:**  
+TipZ is a live, non-custodial tipping platform built for creators and cypherpunks. Every tip arrives as shielded ZEC (100% to the creator). Supporters can send from any asset (ETH, USDC, USDT, SOL) — the platform bridges and shields it automatically. Zero platform fees, end-to-end encrypted messages, and powerful creator tools.
+
+**Key Features:**
+- Permissionless signup: connect X account + enter Zcash unified address (2 steps)
+- Shareable tip page: `tipz.cash/yourhandle`
+- Fully private ZEC-to-ZEC tipping (direct send or bridged)
+- 0% platform fees + instant self-custody settlement (\~5 min)
+- Encrypted private messages (only creator can decrypt)
+- Real-time dashboard: total earnings (ZEC + USD), tip history, live updates
+- Promotion tools: copy link, pre-filled tweets, image stamp generator
+- Any-asset input bridged via NEAR Intents to shielded ZEC output
+- Creator directory for easy discovery
+- Powered by Zodl wallet & NEAR Intents
+ 
+![TipZ](https://z.cash/wp-content/themes/zcash/assets/images/zcash-logo.svg)
+
+---
+
+## How to Get Started (for Creators)
+1. Choose a platform above.
+2. Verify your X account and add your **Zcash unified address** (shielded by default).
+3. Share your tip page/link on social media.
+4. Receive 100% of tips privately in your wallet (use Zashi, Zodl, Zecwallet, or any shielded-capable wallet).
+
+**Pro Tip:** Always use shielded addresses for maximum privacy. Tips are non-custodial — the platforms never hold your funds.
