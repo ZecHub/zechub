@@ -1,0 +1,37 @@
+# Zcash Open Development Lab (ZODL)
+
+**Zcash Open Development Lab (ZODL)** is an independent development organization building privacy-focused tools and applications for the Zcash ecosystem. The team consists largely of former members of the Electric Coin Company (ECC), including engineers who previously worked on the Zcash protocol.
+
+ZODL focuses on improving usability and expanding adoption of shielded ZEC, with the goal of bringing private digital payments to a global audience.
+
+## Background
+
+In 2026, the former ECC team transitioned to ZODL, marking a new phase of independent development within the Zcash ecosystem. The move was announced by **[Josh Swihart](chatgpt://generic-entity?number=0)**, former CEO of **[Electric Coin Company](chatgpt://generic-entity?number=1)**, who described the transition as “a new day for Zcash.”
+
+As part of this transition, the Zcash mobile wallet **Zashi** was rebranded to **Zodl**. The update required no action from users, and existing wallets, seed phrases, and funds remained unchanged.
+
+## Zodl Wallet
+
+**Zodl** is the flagship product developed by ZODL. It is a mobile wallet designed for private transactions on the **[Zcash](chatgpt://generic-entity?number=2)** network.
+
+Key features include:
+
+- **Shielded ZEC transactions** enabling private payments  
+- **Self-custody**, allowing users to control their private keys and funds  
+- **CrossPay**, which enables cross-chain payments using shielded ZEC  
+- **Private swaps** between ZEC and other cryptocurrencies  
+- **Hardware wallet support** via **[Keystone Wallet](chatgpt://generic-entity?number=3)**  
+- **Retail payments** through integration with **[Flexa](chatgpt://generic-entity?number=4)**  
+- **Shielded notes**, allowing encrypted messages to be attached to transactions  
+
+The wallet follows a privacy-first design and does not collect user transaction data or personal information.
+
+## Mission
+
+ZODL aims to expand access to private financial tools and promote financial sovereignty. The organization advocates for a future where individuals can transact freely without mass financial surveillance.
+
+> “There is no sovereignty without privacy.”
+
+## External Links
+
+- Official website: https://zodl.com/
