@@ -49,6 +49,7 @@ ___
 | **Commitment Scheme**: |  Allows a committer to commit to a polynomial with a short string that can be used by a verifier to confirm claimed evaluations of the committed polynomial. Useful for reducing communication costs in the Zcash protocol.|
 |  **Community**:   |    [The Official Zcash Community Forum ](https://forum.zcashcommunity.com) / [Zcash Community Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://old.reddit.com/r/zcash/) / [Telegram](https://t.me/Zcash_Community) |  
 |    **Cypherpunk Zero**:  |   A Creative Universe & collaborative effort between ECC, illustrator Stranger Wolf, Mighty Jaxx and select ecosystem partners. Consisting of a forthcoming series of webcomics, NFTs and physical collectibles, the project explores the relationship between privacy, self-sovereignty and creative freedom. [Cypherpunk Zero Site](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Opensea Collection](https://opensea.io/collection/cypherpunk-zero) |  
+|  **cipherPay**: |  A Zcash-enabled payment experience focused on practical merchant and peer payment flows, helping reduce friction for everyday ZEC usage. |  
 
 
 
@@ -117,7 +118,7 @@ ___
 
 |          |            | 
 |--------------|-----------|
-|  **Governance**: |   Decisions from the ZIP process are written into the Zcash specification, as well as the software that runs the network. The changes are "ratified" on-chain when the majority of the network adopts the upgrade and doesn't break consensus. [Full Protocol History](https://zfnd.org/protocol-governance/)|  
+|  **Governance**: |   Zcash governance combines ZIPs (technical change proposals), community signaling through forums/calls, and stewardship organizations such as ECC, ZF, and ZCG. Post-NU5 governance work includes planning for NU6-era priorities like wallet UX, interoperability, and decentralization of core infrastructure. [Full Protocol History](https://zfnd.org/protocol-governance/)|  
 
 
 
@@ -171,7 +172,7 @@ ___
 |--------------|-----------|
 |  **Layer-1**: | Refers to a base network and its underlying infrastructure. Layer-1 blockchains can validate and finalize transactions without the need for another network. Zcash is an L1 blockchain.|  
 |  **librustzcash**:  |  A Rust workspace containing all crates & dependencies for working with Zcash. [repo](https://github.com/zcash/librustzcash)  |
-|  **Lightwalletd**: |  A stateless server that serves light clients with blockchain information. It fetches blockchain data from zcashd, processes them to reduce data, and stores it in a database. This allows light clients to get relevant data without interacting with zcashd directly. [Lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html)|  
+|  **Lightwalletd**: |  A compact-block server used by light wallets to sync chain data without running a full node locally. It historically relied on zcashd, and ecosystem efforts now increasingly pair lightwalletd-style services with Zebra-based infrastructure and Zaino indexing pipelines. [Lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html)|  
 
 
 
@@ -201,7 +202,8 @@ ___
 |          |            | 
 |--------------|-----------|
 |   **Nighthawk**: |   A Mobile wallet for Zcash - [Website](https://nighthawkwallet.com)|  
-|  **NU5**: | The 6th Major Network Upgrade for Zcash. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5)|  
+|  **NU5**: | The 6th major Zcash network upgrade (activated in 2022), introducing Orchard, Halo proving updates, and Unified Addresses. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5)|  
+|  **NU6**: | The next major upgrade track after NU5, focused on continued protocol hardening and ecosystem readiness (wallets, infra, governance process, and deployment coordination). [Network Upgrade Guide](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html)|  
 
 
 
@@ -333,7 +335,7 @@ ___
 |          |            | 
 |--------------|-----------|
 |   **Youtube**:  | [Zcash Foundation Channel](https://www.youtube.com/channel/UCi01v05DNTUEC_eB0c9rpgQ) / [ECC Channel](https://www.youtube.com/c/ZcashCo) / [ZECHub](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA) / [ZF A/V Club](https://www.youtube.com/@zfavclub) / [Zcash Media](https://www.youtube.com/@ZcashMedia) |  
-|  **Ywallet**: |  A mobile wallet that supports both Ycash & Zcash - [website](https://ywallet.app) |  
+|  **Ywallet**: |  A mobile wallet that supports both Ycash and Zcash, with strong shielded UX and frequent ecosystem feature support. [website](https://ywallet.app) |  
 
 
  
@@ -350,8 +352,11 @@ ___
 |  **Zcash Developer Alliance (ZDA)**:  |   Prioritising cross-chain interoperability as the first deliverable, it brings together a variety of teams to work towards a common goal. [Zcash Developer Alliance](https://electriccoin.co/zcash-developer-alliance/) |  
 | **Zcash Foundation**: |  A 501(c)(3) public charity that builds financial privacy infrastructure for the public good, primarily serving users of the Zcash protocol and blockchain. [website](https://zfnd.org) |  
 |  **Zcon**: |  A yearly in-person conference centered on the Zcash ecosystem. [Zcon3 Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)|  
-|  **Zebra**: |    An Independent full node implementation of the Zcash Protocol. - [The Zebra Book](https://zebra.zfnd.org) |  
-|  **Zecwallet Lite**:  |   A fully-featured wallet for Zcash [website](https://zecwallet.co) |  
+|  **Zebra**: |    An independent Rust full-node implementation of the Zcash protocol, now a key part of modern infra and the broader Z3 stack direction. [The Zebra Book](https://zebra.zfnd.org) |  
+|  **Z3 Stack**: |  Community shorthand for the modern Zebra-centered stack: Zebra (node), Zaino (indexing/service layer), and Zallet/ZODL-class wallet UX components working together to improve reliability and sync performance. |  
+|  **ZODL Wallet**: |  Wallet branding update in the ecosystem (formerly referred to as Zashi in some contexts), representing newer user-facing wallet direction and naming. |  
+|  **ZecHub Sync**: |  A community coordination process used by contributors to align on current ecosystem updates, editorial priorities, and educational outputs. |  
+|  **Zecwallet Lite**:  |   A legacy wallet brand in the ecosystem (historically important, but many users have moved to actively maintained options such as Ywallet, Zingo, and ZODL). [website](https://zecwallet.co) |  
 | **ZecHub**:  |  An open-source education hub for Zcash. Community-driven initiative producing content on privacy technologies including Zcash. Contributors are able to earn ZEC.      |
 |  **ZecPages**: |  A censorship resistant, Zcash blockchain-powered social media. It includes a directory of zcash users and an anonymous message board powered by Zcash. [website](https://zecpages.com/ambimorph) |  
 | **ZF A/V Club**: |  Empowering local Zcash communities with global support through building a network of capable, ready and funded content creators broadcasting and sharing fresh news about Zcash and online privacy.  |
