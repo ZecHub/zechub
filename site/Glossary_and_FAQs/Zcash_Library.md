@@ -201,7 +201,8 @@ ___
 |          |            | 
 |--------------|-----------|
 |   **Nighthawk**: |   A Mobile wallet for Zcash - [Website](https://nighthawkwallet.com)|  
-|  **NU5**: | The 6th Major Network Upgrade for Zcash. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5)|  
+|  **NU5**: | The 6th Major Network Upgrade for Zcash. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5)|
+|  **NU6**: | The 7th Major Network Upgrade for Zcash, introducing post-NU5 governance improvements and protocol enhancements. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6)|  
 
 
 
@@ -345,10 +346,12 @@ ___
 
 |          |            | 
 |--------------|-----------|
+|  **Z3 Stack**: |  The modern Zcash full-node stack consisting of Zebra (independent full node), Zaino (lightweight client framework), and Zallet (user-friendly wallet interface). [Zaino](https://zaino.io) / [Zallet](https://zallet.io) |
 |  **Zcash Community Grants**: |   A community-elected grants committee that funds projects that advance the usability, security, privacy, and adoption of Zcash - [ZCG website](https://zcashcommunitygrants.org)  |  
 | **Zcashd**:  |  The Zcashd full node downloads a copy of the Zcash blockchain, enforces rules of the Zcash network, and can execute all functionalities. The zcash-cli allows interactions with the node (e.g. to tell it to send a transaction). [Docs](https://zcash.readthedocs.io/en/latest/rtd_pages/zcashd.html)  |  
 |  **Zcash Developer Alliance (ZDA)**:  |   Prioritising cross-chain interoperability as the first deliverable, it brings together a variety of teams to work towards a common goal. [Zcash Developer Alliance](https://electriccoin.co/zcash-developer-alliance/) |  
-| **Zcash Foundation**: |  A 501(c)(3) public charity that builds financial privacy infrastructure for the public good, primarily serving users of the Zcash protocol and blockchain. [website](https://zfnd.org) |  
+| **Zcash Foundation**: |  A 501(c)(3) public charity that builds financial privacy infrastructure for the public good, primarily serving users of the Zcash protocol and blockchain. [website](https://zfnd.org) |
+|  **Zcash Sync**: |  A community-driven synchronization process for Zcash ecosystem coordination and information sharing. Part of the ongoing community decentralization efforts. |  
 |  **Zcon**: |  A yearly in-person conference centered on the Zcash ecosystem. [Zcon3 Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)|  
 |  **Zebra**: |    An Independent full node implementation of the Zcash Protocol. - [The Zebra Book](https://zebra.zfnd.org) |  
 |  **Zecwallet Lite**:  |   A fully-featured wallet for Zcash [website](https://zecwallet.co) |  
@@ -357,5 +360,7 @@ ___
 | **ZF A/V Club**: |  Empowering local Zcash communities with global support through building a network of capable, ready and funded content creators broadcasting and sharing fresh news about Zcash and online privacy.  |
 | **ZIP**: |  Zcash Improvement Proposal. Method for community proposals of new features for the Zcash cryptocurrency, implementation details and document design decisions. [ZIP Site](https://zips.z.cash) |
 |  **Zingo Wallet**    |  A Mobile wallet that supports Unified Addresses and Orchard enabled. Maintained by Zingo Labs |
-| **zk-SNARK**:|  Zero-knowledge Succinct Argument of Knowledge. A proof used in the Zcash protocol which allows Shielded Addresses to prove the validity of associated transactions without revealing the address or value transacted. [More information](https://zkp.science)|  
+| **ZODL Wallet**: |  A Zcash mobile wallet (formerly known as Zashi). Built with a focus on user experience and privacy. [Website](https://zodl.io) |
+| **zk-SNARK**:|  Zero-knowledge Succinct Argument of Knowledge. A proof used in the Zcash protocol which allows Shielded Addresses to prove the validity of associated transactions without revealing the address or value transacted. [More information](https://zkp.science)|
+| **cipherPay**: |  A Zcash payment solution enabling private, secure transactions for merchants and users. [Website](https://cipherpay.io) |  
 
