@@ -1,0 +1,47 @@
+![ZODL Logo](https://zodl.com/wp-content/uploads/2026/01/logo-zodl-black.png)
+# Zcash Open Development Lab (ZODL)
+## Overview
+**ZODL** (Zcash Open Development Lab) is a Zcash-powered mobile wallet application designed for financial sovereignty and privacy-first cryptocurrency transactions. The platform enables users to make private payments using shielded ZEC (Zcash) and facilitates cross-chain transactions to other cryptocurrencies.
+ZODL represents a rebrand of the former **Zashi** wallet application, continuing its legacy with enhanced features and a renewed focus on mainstream adoption.
+---
+## Mission
+> *"Bringing unstoppable private money to billions."*
+ZODL aims to make cryptocurrency privacy accessible to mainstream users without requiring technical blockchain knowledge, empowering individuals with true financial freedom.
+---
+## Core Principles
+| Principle | Description |
+|-----------|-------------|
+| **Privacy** | Built from the ground up for shielded Zcash with best-in-class privacy as its foundation |
+| **Self-Custody** | Users maintain complete control of their funds—no intermediaries or gatekeepers |
+| **Consent** | Informed choice as a first-class principle, empowering users with information to make decisions |
+| **No Tracking** | No collection of wallet activity, analytics, transaction history, or personal data |
+---
+## Key Features
+### ZEC-to-ZEC Payments
+Private transactions using Zcash's shielded technology, keeping transaction details hidden on the blockchain while extending protection at the wallet level.
+### CrossPay
+Cross-chain payment functionality allowing users to send shielded ZEC while recipients receive their preferred asset (BTC, stablecoins, etc.), preserving sender privacy throughout the process.
+### Swaps
+Built-in private swap functionality powered by **NEAR Intents**, connecting Zcash to other crypto ecosystems without relying on centralized exchanges.
+### Cold Storage Integration
+Partnership with **Keystone Wallet**—the first hardware wallet to support shielded ZEC—offering air-gapped security for managing funds through the ZODL app.
+### Real-World Purchases
+Integration with **Flexa** enabling Zcash payments at major retail merchants including:
+- GameStop
+- Sheetz
+- Chipotle
+- And other participating retailers
+### 1-Click Shielding
+Instantly shield transparent ZEC received from exchanges with a single tap, converting public funds to private.
+### Shielded Notes
+Encrypted private messages that can be attached to transactions or sent independently, enabling secure communication alongside payments.
+---
+## Development Team
+ZODL was created by **original inventors and core protocol developers of Zcash**—described as "Zcash OGs" who established the standard for on-chain privacy. The team combines deep protocol expertise with product developers who previously redefined the Zcash user experience through the Zashi wallet.
+---
+## Transition from Zashi
+ZODL is the successor brand to the **Zashi** wallet. Existing Zashi users will transition automatically to ZODL through a standard app update with no manual action required. All wallet data, balances, and settings are preserved during the transition.
+---
+## External Links
+- **Official Website:** [zodl.com](https://zodl.com/)
+---
