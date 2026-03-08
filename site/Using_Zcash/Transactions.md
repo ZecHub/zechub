@@ -8,11 +8,11 @@
 ZEC is a widely-used digital asset for payments, offering strong privacy features that make it suitable for various transactions like paying friends, making purchases, or donating. To maximize privacy and security, it is essential to understand how different types of transactions work within Zcash.
 
 
-#### Zcash transactions are denominated in ZEC. 'ZATS' are the smallest monetary units of Zcash, they are the base unit of account in the Zcash protocol. 
-
-# ZEC to ZAT Converter
+## ZEC to ZAT Converter
 
 <ZecToZatsConverter />
+
+Zats (also called Zatoshi) are the smallest unit of Zcash. There are exactly 100,000,000 Zats in 1 ZEC.
 
 ## Shielded Transactions
 
@@ -49,3 +49,4 @@ This version incorporates fee management guidance, dynamic fee options, and cust
 #### Note
 
 Please note that the safest way to use ZEC is using only shielded transactions. Some wallets are in the process of implementing [unified addresses](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) which allows users and exchanges to combine transparent and shielded addresses together. 
+
