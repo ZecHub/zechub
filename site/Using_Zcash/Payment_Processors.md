@@ -70,8 +70,6 @@
 - **URL**: [Plisio](https://plisio.net/accept-zcash)  
 <img src="https://plisio.net/v2/images/logo-color.svg" alt="Plisio Logo" width="200"/>
 
----
-
 
 
 
