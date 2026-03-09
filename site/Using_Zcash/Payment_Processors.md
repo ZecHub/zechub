@@ -56,14 +56,6 @@
 
 ---
 
-### B2BinPay
-- **Support**: Transparent   
-- **Description**: B2BinPay offers cryptocurrency payment solutions for businesses.  
-- **URL**: [B2BinPay](https://b2binpay.com/en)  
-<img src="https://pbs.twimg.com/profile_images/1877674665696440320/x4KHI0ys.jpg" alt="B2BinPay Logo" width="200"/>
-
----
-
 ## CoinGate
 - **Support Type**: Transparent   
 - **Description**: CoinGate provides a payment gateway for businesses to accept Zcash.  
