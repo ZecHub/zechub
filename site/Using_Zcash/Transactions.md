@@ -10,10 +10,6 @@ ZEC is a widely-used digital asset for payments, offering strong privacy feature
 
 ## ZEC to ZAT Converter
 
-<ZecToZatsConverter />
-
-Zats (also called Zatoshi) are the smallest unit of Zcash. There are exactly 100,000,000 Zats in 1 ZEC.
-
 ## Shielded Transactions
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/bZM3o_eIovU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
