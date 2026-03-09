@@ -36,7 +36,7 @@
 - **Support Type**: Transparent and Shielded   
 - **Description**: ZGo is an electronic payment platform that goes directly from your customer to you, with no third parties involved.  
 - **URL**: [ZGo](https://zgo.cash/)  
-<img src="https://zgo.cash/images/logo-new-transparent.png" alt="ZGo Logo" width="200"/>
+<img src="https://github.com/user-attachments/assets/a53aafbb-b38e-4cd0-9463-93b25c81b9f6" alt="ZGo Logo" width="200"/>
 
 ---
 
@@ -79,21 +79,6 @@
 <img src="https://plisio.net/v2/images/logo-color.svg" alt="Plisio Logo" width="200"/>
 
 ---
-
-## PayKassa
-- **Support Type**: Transparent   
-- **Description**: PayKassa is a popular Zcash online payment gateway that allows users to safely store, receive, send, and exchange cryptocurrency.  
-- **URL**: [PayKassa](https://paykassa.pro/en/landing/zec/)  
-<img src="https://cdn-main.paykassa.pro/theme/wallet/assets/common/img/svg/logo-icon_payment_colored_paykassa.svg" alt="PayKassa Logo" width="200"/>
-
----
-
-## Acceptcoin.io
-- **Support Type**: Transparent   
-- **Description**: Acceptcoin.io enables businesses to accept Zcash payments on their websites.  
-- **URL**: [Acceptcoin.io](https://www.acceptcoin.io/coin-list/accept-zcash-zec-payments)  
-<img src="https://acceptcoin.io/ogImage512.png" alt="Acceptcoin.io Logo" width="200"/>
-
 
 
 
