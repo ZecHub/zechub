@@ -1,9 +1,9 @@
 # Zcash Payment Processors
 
 ## CipherPay
-- **Support Type**: Shielded
-- **Description**: Accept Zcash in minutes, Non-custodial, Zero buyer data, No middleman.
-- **URL**: [CipherPay](https://cipherpay.app)  
+- **Support Type**: Shielded   
+- **Description**: Accept Zcash in minutes, Non-custodial, Zero buyer data, No middleman.  
+- **URL**: [CipherPay](https://www.cipherpay.app)  
 <img src="https://github.com/user-attachments/assets/7e5854d1-3118-487e-99b1-a7d0584e5cb2" alt="CipherPay Logo" width="200"/>
 
 ---
