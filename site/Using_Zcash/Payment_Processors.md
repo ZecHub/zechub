@@ -4,7 +4,7 @@
 - **Support Type**: Shielded   
 - **Description**: Accept Zcash in minutes, Non-custodial, Zero buyer data, No middleman.  
 - **URL**: [CipherPay](https://www.cipherpay.app)  
-<img src="https://github.com/user-attachments/assets/7e5854d1-3118-487e-99b1-a7d0584e5cb2" alt="CipherPay Logo" width="200"/>
+<img src="https://i.ibb.co/3YprqHWG/cipherpay.png" alt="CipherPay Logo" width="200"/>
 
 ---
 
@@ -36,7 +36,7 @@
 - **Support Type**: Transparent and Shielded   
 - **Description**: ZGo is an electronic payment platform that goes directly from your customer to you, with no third parties involved.  
 - **URL**: [ZGo](https://zgo.cash/)  
-<img src="https://github.com/user-attachments/assets/a53aafbb-b38e-4cd0-9463-93b25c81b9f6" alt="ZGo Logo" width="200"/>
+<img src="https://i.ibb.co/FLhpwnz5/zgo-prp2.png" alt="ZGo Logo" width="200"/>
 
 ---
 
