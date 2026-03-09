@@ -4,7 +4,7 @@
 - **Support Type**: Shielded   
 - **Description**: Accept Zcash in minutes, Non-custodial, Zero buyer data, No middleman.  
 - **URL**: [CipherPay](https://www.cipherpay.app)  
-<img src="https://i.ibb.co/3YprqHWG/cipherpay.png" alt="CipherPay Logo" width="200"/>
+![](https://i.ibb.co/3YprqHWG/cipherpay.png)
 
 ---
 
