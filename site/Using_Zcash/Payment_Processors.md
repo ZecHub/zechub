@@ -1,5 +1,13 @@
 # Zcash Payment Processors
 
+## CipherPay
+- **Support Type**: Shielded
+- **Description**: Accept Zcash in minutes. Non-custodial. Zero buyer data. No middleman.
+- **URL**: [CipherPay](https://cipherpay.app)  
+<img src="https://github.com/user-attachments/assets/7e5854d1-3118-487e-99b1-a7d0584e5cb2" alt="CoinPayments Logo" width="200"/>
+
+---
+
 ## CoinPayments
 - **Support Type**: Transparent   
 - **Description**: A global cryptocurrency payment gateway that supports over 100 cryptocurrencies, including Zcash. Offers simple integration for online stores.  
