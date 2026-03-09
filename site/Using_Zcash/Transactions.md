@@ -7,9 +7,6 @@
 
 ZEC is a widely-used digital asset for payments, offering strong privacy features that make it suitable for various transactions like paying friends, making purchases, or donating. To maximize privacy and security, it is essential to understand how different types of transactions work within Zcash.
 
-
-## ZEC to ZAT Converter
-
 ## Shielded Transactions
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/bZM3o_eIovU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -46,3 +43,4 @@ This version incorporates fee management guidance, dynamic fee options, and cust
 
 Please note that the safest way to use ZEC is using only shielded transactions. Some wallets are in the process of implementing [unified addresses](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) which allows users and exchanges to combine transparent and shielded addresses together. 
 
+## ZEC to ZAT Converter
