@@ -19,5 +19,15 @@ The complete list with full notes & agendas can be found [here](https://github.c
 
 ## Playlist
 
-<iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=lFFtNRmUsdmSQ1qM&amp;list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/videoseries?si=lFFtNRmUsdmSQ1qM&list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G"
+    title="Zcash Arborist Call Playlist"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
 
