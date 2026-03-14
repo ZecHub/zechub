@@ -23,7 +23,6 @@ The purpose of this guide is to help educate Zcashers who are interested in runn
     loading="lazy"
   />
 </div>
-<iframe class="w-full h-auto md:h-96" src="https://www.youtube.com/embed/SGYrzhs1l2k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Support
 
@@ -173,8 +172,6 @@ Next change directory into the freshly downloaded zcashd release and run:
     loading="lazy"
   />
 </div>
-    
-<iframe class="w-full h-auto md:h-96" src="https://www.youtube.com/embed/9t2LX3HFldw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
