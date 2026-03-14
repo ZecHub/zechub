@@ -4,7 +4,17 @@ This guide provides a step by step walkthrough on how to perform multisig transa
 
 ## Tutorial
 
-<iframe class="w-full h-auto md:h-96" src="https://www.youtube.com/embed/eagkCIv3BlQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/eagkCIv3BlQ"
+    title="Zkool Demo | The Successor to Ywallet"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
 
 ## 1. Creating an Account
 
