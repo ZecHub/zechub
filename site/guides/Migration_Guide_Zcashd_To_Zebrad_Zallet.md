@@ -22,10 +22,10 @@ This guide walks you through the migration from **zcashd** to **Zebrad** and **Z
 **Why Migrate - Beyond Deprecation**
 
 Even leaving deprecation aside, there are compelling reasons to move:
-- Security & Robustness: Rust’s memory-safety and modern tooling reduce risks of vulnerabilities.
+- Security & Robustness: Rust's memory-safety and modern tooling reduce risks of vulnerabilities.
 - Performance & Efficiency: Zebrad is designed for parallelism, more efficient resource usage, and faster sync.
 - Modular Architecture: Separating node logic (Zebrad) from wallet UI (Zallet) offers clearer boundaries and better upgrade paths.
-- Future Ecosystem Compatibility: Tools, enhancements, and the rest of Zcash’s ecosystem will increasingly target Zebrad/Zallet.
+- Future Ecosystem Compatibility: Tools, enhancements, and the rest of Zcash's ecosystem will increasingly target Zebrad/Zallet.
 - Peace of Mind: Avoid being stuck running a deprecated, unsupported component.
 
 ### Now let's dive into the Migration guide
@@ -137,7 +137,7 @@ On zcashd, export your private keys:
 Once imported, Zallet will connect to your Zebrad node and rescan the blockchain.
 When synchronization completes, your balances and transactions should appear exactly as before.
 
-You can verify your node’s sync status by running:
+You can verify your node's sync status by running:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![image](https://hackmd.io/_uploads/SyIyVDY6xl.png)
@@ -162,9 +162,9 @@ Or check logs.
     </thead>
     <tbody>
       <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
-        <td className="px-6 py-4">Zebrad won’t start</td>
+        <td className="px-6 py-4">Zebrad won't start</td>
         <td className="px-6 py-4">Port in use or bad config</td>
-        <td className="px-6 py-4">Check <code>zebrad.toml</code> and use a free port</td>
+        <td className="px-6 py-4">Check **zebrad.toml** and use a free port</td>
       </tr>
       <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
         <td className="px-6 py-4">Slow sync</td>
@@ -177,7 +177,7 @@ Or check logs.
         <td className="px-6 py-4">Re-import keys or rescan in Zallet</td>
       </tr>
       <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
-        <td className="px-6 py-4">Zallet can’t connect to node</td>
+        <td className="px-6 py-4">Zallet can't connect to node</td>
         <td className="px-6 py-4">Node not running or wrong endpoint</td>
         <td className="px-6 py-4">Start Zebrad and verify correct RPC port</td>
       </tr>
@@ -195,5 +195,5 @@ Or check logs.
 Migrating from zcashd to Zebrad and Zallet gives you a faster, safer, and more modern Zcash experience.
 With Rust-based security, modular design, and better tooling, this setup ensures your node and wallet remain future-ready as the Zcash ecosystem continues to evolve.
 
-💡 Tip: Keep your wallet keys offline and regularly back up your Zallet data.
+Tip: Keep your wallet keys offline and regularly back up your Zallet data.
 Visit [zebra.zfnd.org](https://zebra.zfnd.org) and [zallet.zfnd.org](https://zallet.zfnd.org) for updates and community support.
