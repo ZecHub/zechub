@@ -9,13 +9,6 @@ In order to use Zcash in private (shielded) transactions, you need to have ZEC. 
 
 _You can also mine ZEC, but that is usually not possible for average consumers. More on that [here](https://forum.zcashcommunity.com/t/mining-to-shielded-addresses-community-mining-pool/50281) and [here](https://zec.suprnova.cc/StartMining)_.
 
-## Buy ZEC directly in [Zodl](https://zodl.com/) (formerly zashi) w/ Coinbase Integration
-
-If you already have a Coinbase account, you can now enjoy the convenience of topping up your ZEC balance right from the wallet. **The Buy or transfer with Coinbase** feature allows you to log into your Coinbase account and complete the purchase or transfer in minutes, all without leaving the Zodl app. For Zashi users in the U.S. without a Coinbase account, the **Buy with debit card** option introduces an unprecedented level of accessibility, enabling users to purchase up to $500 of ZEC per week with just a U.S. phone number and a debit card. Both buying options offered by Zodl Coinbase Onramp seamlessly facilitate self-custody of ZEC, which is crucial to realizing the full potential of Zcash. In addition to that, ZEC stored in Zodl must be shielded in order to be spent. This ensures the highest level of privacy for every outgoing transaction. Zodl users can shield the transparent ZEC they receive from Coinbase with a click of a button inside the wallet. Just go to your Balances screen and tap the Shield and Consolidate Funds button.
-
-[Learn More](https://x.com/ElectricCoinCo/status/1836792480001388765)
-
-
 ## Exchanges that support shielded withdrawals
 
 **[Gemini](https://www.gemini.com)**
@@ -25,6 +18,24 @@ Gemini is a regulated cryptocurrency exchange, wallet, and custodian that makes 
 **[Flyp.me](https://flyp.me)**	
 
 Flyp.me is a no sign-up crypto exchange. It was one of the safest and most private ways to exchange 30+ cryptocurrencies straight to your wallet. You can buy ZEC with other cryptocurrencies.
+
+## Exchanges that support transparent withdrawals
+
+Most major exchanges support Zcash. See here for a detailed list: [here](https://zechub.wiki/using-zcash/custodial-exchanges).
+
+
+**[Coinbase](https://www.coinbase.com)**
+
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/Avweu5V9QRc"
+    title="Coinbase + Zodl: Buy Zcash & Shield Instantly"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
 
 ## Decentralized Exchanges that support transparent withdrawals
 
