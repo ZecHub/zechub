@@ -9,7 +9,16 @@
 
 Zcash and NEAR Intents have been integrated, allowing users to swap Zcash (ZEC) with other top altcoins, including Bitcoin, Solana, NEAR, and XRP, without paying any fees. This integration is part of NEAR Protocol's efforts to create an infrastructure of autonomous and verifiable AI bots, which also brings benefits to Zcash by enabling AI-powered payment rails. Zcash users are now capable of accessing smart contracts and wider [DeFi applications](https://nym.com/blog/what-is-defi) while preserving their privacy via [Near Intents](https://app.near-intents.org).
 
-<iframe class="w-full h-auto md:h-96" src="https://www.youtube.com/embed/mKVvXY4yjjA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/mKVvXY4yjjA"
+    title="Crosschain Swaps with Zcash x NEAR Intents"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
 
 ---
 
@@ -18,7 +27,16 @@ Zcash and NEAR Intents have been integrated, allowing users to swap Zcash (ZEC) 
 Maya Protocol has integrated Zcash to enhance its decentralization, liquidity, and transaction privacy. This integration allows Zcash users to benefit from decentralized swaps, giving them greater flexibility and liquidity while preserving privacy. Learn More: [https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya](https://www.mayaprotocol.com/blog-maya-academy/zcash-integrates-maya)
 
 
-<iframe class="w-full h-auto md:h-96" src="https://www.youtube.com/embed/f1k6xhNfTV8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/f1k6xhNfTV8"
+    title="How to Swap Ethereum to Zcash on LeoDex"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
 
 
 **Note**: It is also possible to bridge any ETH you already have to private store as Shielded Zcash using the "Release" Tab & entering your Transparent address. You may then use the 'Autoshield' in your mobile/desktop wallet. For this application to remain private it is recommended not to swap from ZEC > ETH and back from ETH > ZEC. 
