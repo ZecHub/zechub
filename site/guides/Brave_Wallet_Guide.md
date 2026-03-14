@@ -15,8 +15,16 @@ Users can now send/receive ZEC without revealing balances or metadata - all with
 
 ## Tutorial
 
-
-<iframe class="w-full h-auto" src="https://www.youtube.com/embed/TNcHY-GXFVo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/TNcHY-GXFVo"
+    title="How to use ZEC on Brave"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
 
 
 ## Part 1: Setting Up Brave Wallet
