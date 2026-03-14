@@ -8,10 +8,17 @@
 The following is a guide on how to run the Ziggurat 3.0 Crawler for Zcash as well as the associated programs Crunchy and P2P-Viz on Ubuntu 22.04 for gathering and visualizing Zcash network information.  
 The linked video below follows the same process.
 
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/Nq5cLiAHxPI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/Nq5cLiAHxPI"
+    title="ziggurat 3.0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+    
 ----------------
 ## Install Requirements: 
 
