@@ -4,7 +4,7 @@ This guide provides a step by step walkthrough on how to perform multisig transa
 
 ## Tutorial
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/eagkCIv3BlQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="w-full h-auto md:h-96" src="https://www.youtube.com/embed/eagkCIv3BlQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 1. Creating an Account
 
