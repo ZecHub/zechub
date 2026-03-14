@@ -7,7 +7,17 @@ The Zcash Devtool is a platform for hacking on Zcash. It is built by developers,
 ### Video tutorial of Zcash Devtool:
 Kris Nuttycombe (@nuttycom) presented this tool during ZconVI.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/5gvQF5oFT8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/5gvQF5oFT8E"
+    title="zcash-devtool: the Zcash development multitool with Kris Nuttycombe - ZconVI"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
 
 ---
 
@@ -20,7 +30,17 @@ The app has not been written with security in mind. It does however have afforda
 
 ### Advanced (librustzcash tutorial )
 
-
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://free2z.cash/uploadz/public/ZcashTutorial/librustzcash-a-rust-crates.mp4"
+    title="librustzcash tutorial "
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+    
 [view video here](https://free2z.cash/uploadz/public/ZcashTutorial/librustzcash-a-rust-crates.mp4)
 
 
