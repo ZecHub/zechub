@@ -5,7 +5,17 @@
 ## Tutorial
 
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/f1k6xhNfTV8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/f1k6xhNfTV8"
+    title="How to Swap Ethereum to Zcash on LeoDex"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
 
 ## What is Maya Protocol?
 
