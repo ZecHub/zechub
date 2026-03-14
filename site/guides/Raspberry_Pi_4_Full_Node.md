@@ -13,7 +13,7 @@ The purpose of this guide is to help educate Zcashers who are interested in runn
 
 ## Video
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/SGYrzhs1l2k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="w-full h-auto md:h-96" src="https://www.youtube.com/embed/SGYrzhs1l2k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Support
 
@@ -153,7 +153,7 @@ Next change directory into the freshly downloaded zcashd release and run:
 
 ### Setup *zcashd*
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/9t2LX3HFldw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="w-full h-auto md:h-96" src="https://www.youtube.com/embed/9t2LX3HFldw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -266,7 +266,7 @@ Ready to use!
 
 ### Using *zcashd*
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/KNhd1KC0Bqk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="w-full h-auto md:h-96" src="https://www.youtube.com/embed/KNhd1KC0Bqk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
