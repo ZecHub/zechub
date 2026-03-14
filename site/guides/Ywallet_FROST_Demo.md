@@ -1,7 +1,7 @@
 # Ywallet FROST demo
 
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/3IZgxDqQNbw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="w-full h-auto md:h-96" src="https://www.youtube.com/embed/3IZgxDqQNbw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Compile FROST bins
