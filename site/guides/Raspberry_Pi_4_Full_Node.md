@@ -13,6 +13,16 @@ The purpose of this guide is to help educate Zcashers who are interested in runn
 
 ## Video
 
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/SGYrzhs1l2k"
+    title="How to compile Zcash Node on Raspberry Pi!"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
 <iframe class="w-full h-auto md:h-96" src="https://www.youtube.com/embed/SGYrzhs1l2k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Support
@@ -153,6 +163,17 @@ Next change directory into the freshly downloaded zcashd release and run:
 
 ### Setup *zcashd*
 
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/9t2LX3HFldw"
+    title="Zcashd Wallet Tool - Generate & Import Private Key"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+    
 <iframe class="w-full h-auto md:h-96" src="https://www.youtube.com/embed/9t2LX3HFldw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
