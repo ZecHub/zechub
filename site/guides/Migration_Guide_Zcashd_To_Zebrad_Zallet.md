@@ -151,14 +151,43 @@ Or check logs.
 
 **8. Troubleshooting**
 
-<div className="overflow-x-auto my-8">
-| Issue                          | Possible Cause                | Solution |
-| ------------------------------ | ----------------------------- | -------- |
-| Zebrad won’t start             | Port in use or bad config     | Check `zebrad.toml` and use a free port |
-| Slow sync                      | Network congestion            | Ensure stable internet, restart Zebrad |
-| Wallet missing transactions    | Partial key import            | Re-import keys or rescan in Zallet |
-| Zallet can’t connect to node   | Node not running or wrong endpoint | Start Zebrad and verify correct RPC port |
-| Zallet crashes                 | Outdated build                | Update to latest release from GitHub |
+<div className="overflow-x-auto my-8 rounded-2xl border border-slate-200 dark:border-slate-700">
+  <table className="w-full min-w-full border-collapse text-sm">
+    <thead className="bg-slate-100 dark:bg-slate-800">
+      <tr>
+        <th className="px-6 py-4 text-left font-semibold text-slate-900 dark:text-white">Issue</th>
+        <th className="px-6 py-4 text-left font-semibold text-slate-900 dark:text-white">Possible Cause</th>
+        <th className="px-6 py-4 text-left font-semibold text-slate-900 dark:text-white">Solution</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
+        <td className="px-6 py-4">Zebrad won’t start</td>
+        <td className="px-6 py-4">Port in use or bad config</td>
+        <td className="px-6 py-4">Check <code>zebrad.toml</code> and use a free port</td>
+      </tr>
+      <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
+        <td className="px-6 py-4">Slow sync</td>
+        <td className="px-6 py-4">Network congestion</td>
+        <td className="px-6 py-4">Ensure stable internet, restart Zebrad</td>
+      </tr>
+      <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
+        <td className="px-6 py-4">Wallet missing transactions</td>
+        <td className="px-6 py-4">Partial key import</td>
+        <td className="px-6 py-4">Re-import keys or rescan in Zallet</td>
+      </tr>
+      <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
+        <td className="px-6 py-4">Zallet can’t connect to node</td>
+        <td className="px-6 py-4">Node not running or wrong endpoint</td>
+        <td className="px-6 py-4">Start Zebrad and verify correct RPC port</td>
+      </tr>
+      <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
+        <td className="px-6 py-4">Zallet crashes</td>
+        <td className="px-6 py-4">Outdated build</td>
+        <td className="px-6 py-4">Update to latest release from GitHub</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 **9. Conclusion**
