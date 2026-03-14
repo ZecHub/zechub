@@ -1,6 +1,6 @@
 # Migration Guide: From zcashd to Zebrad/Zallet
 
-The Zcash ecosystem is evolving. The traditional zcashd full node, maintained by the *Electric Coin Company (ECC)*, is gradually being complemented by Zebra — a modern, efficient Rust implementation of the Zcash protocol developed by the Zcash Foundation — and Zallet, a lightweight wallet built to interface seamlessly with Zebra nodes.
+The Zcash ecosystem is evolving. The traditional zcashd full node, maintained by the *Electric Coin Company (ECC)*, is gradually being complemented by Zebra - a modern, efficient Rust implementation of the Zcash protocol developed by the Zcash Foundation - and Zallet, a lightweight wallet built to interface seamlessly with Zebra nodes.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![ChatGPTImageOct12202508_15_20A](https://hackmd.io/_uploads/SJNBsSYTel.jpg)
@@ -16,10 +16,10 @@ This guide walks you through the migration from **zcashd** to **Zebrad** and **Z
 
 - The Zcash project has formally announced that zcashd will be deprecated in 2025.
 - Full nodes are being migrated to Zebrad, a Rust implementation, while Zallet is intended to succeed the wallet component of zcashd. 
-- In response, the Zebra project tracks a “Zcashd Deprecation” milestone to ensure compatibility, RPC migration, and ecosystem support.
+- In response, the Zebra project tracks a "Zcashd Deprecation" milestone to ensure compatibility, RPC migration, and ecosystem support.
 - For many RPC methods, Zebrad/Zallet will aim to be drop-in replacements (emulating or matching behavior). Others will change or may not be supported.
 
-**Why Migrate — Beyond Deprecation**
+**Why Migrate - Beyond Deprecation**
 
 Even leaving deprecation aside, there are compelling reasons to move:
 - Security & Robustness: Rust’s memory-safety and modern tooling reduce risks of vulnerabilities.
@@ -57,7 +57,7 @@ You can either download a prebuilt binary or build from source.
 * Note that in recent Zebra versions, [the RPC endpoint is no longer enabled by default in Docker.](https://zfnd.org/zebra-2-3-0-release/?utm_source=chatgpt.com)
 
 **Option A: Install via prebuilt binary**  
-On `Linux`/`macOS`:
+On **Linux**/**macOS**:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![bash (2)](https://hackmd.io/_uploads/HJhYu8Y6el.svg)
@@ -84,7 +84,7 @@ Generate a default config:
 ![migration2](https://hackmd.io/_uploads/HJV1C8tTxx.png)
 </div>
 
-Edit `zebrad.toml` to your preferences (listen address, ports, state directory, caching).
+Edit **zebrad.toml** to your preferences (listen address, ports, state directory, caching).
 
 **Start the node:**
 
@@ -92,7 +92,7 @@ Edit `zebrad.toml` to your preferences (listen address, ports, state directory, 
 ![image](https://hackmd.io/_uploads/H1KPkvt6gl.png)
 </div>
 
-The node will begin syncing from genesis — expect several hours (or more) depending on hardware and network.
+The node will begin syncing from genesis - expect several hours (or more) depending on hardware and network.
 
 **5. Install / Setup Zallet (Wallet)**
 
@@ -119,7 +119,7 @@ On zcashd, export your private keys:
 </div>
 
 * In Zallet, choose Import Keys or similar option.
-* Point it to `zcashd_keys.txt`. 
+* Point it to **zcashd_keys.txt**. 
 * Zallet should parse and import ZEC addresses and associated keys.
 
 **Via Seed Phrase** (if applicable)
