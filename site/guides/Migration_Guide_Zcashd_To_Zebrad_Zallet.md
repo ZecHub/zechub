@@ -1,6 +1,6 @@
 # Migration Guide: From zcashd to Zebrad/Zallet
 
-The Zcash ecosystem is evolving. The traditional zcashd full node, maintained by the *Electric Coin Company (ECC)*, is gradually being replaced by Zebra and Zallet.
+The Zcash ecosystem is evolving. The traditional Zcashd full node, maintained by the *Electric Coin Company (ECC)*, is gradually being replaced by Zebra and Zallet.
 
 - Zebra is a modern Rust implementation of the Zcash protocol developed by the Zcash Foundation
 - Zallet is a lightweight wallet built to interface seamlessly with Zebra nodes.
@@ -9,7 +9,7 @@ The Zcash ecosystem is evolving. The traditional zcashd full node, maintained by
 ![ChatGPTImageOct12202508_15_20A](https://hackmd.io/_uploads/SJNBsSYTel.jpg)
 </div>
 
-This guide walks you through the migration from **zcashd** to **Zebrad** and **Zallet**, including setup, wallet import, and troubleshooting common migration issues.
+This guide walks you through the migration from **Zcashd** to **Zebrad** and **Zallet**, including setup, wallet import, and troubleshooting common migration issues.
 
 ---
 
