@@ -30,17 +30,7 @@ The app has not been written with security in mind. It does however have afforda
 
 ### Advanced (librustzcash tutorial )
 
-<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
-  <iframe
-    className="w-full h-full"
-    src="https://free2z.cash/uploadz/public/ZcashTutorial/librustzcash-a-rust-crates.mp4"
-    title="librustzcash tutorial "
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowFullScreen
-    loading="lazy"
-  />
-</div>
-    
+
 [view video here](https://free2z.cash/uploadz/public/ZcashTutorial/librustzcash-a-rust-crates.mp4)
 
 
