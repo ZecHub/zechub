@@ -3,7 +3,7 @@
 The Zcash ecosystem is evolving. The traditional Zcashd full node, maintained by *Electric Coin Company (ECC)* / *Zodl*, is gradually being replaced by Zebra and Zallet.
 
 - Zebra is a modern Rust implementation of the Zcash protocol developed by the Zcash Foundation
-- Zallet is a lightweight wallet built to interface seamlessly with Zebra nodes.
+- Zallet is a lightweight wallet built to interface seamlessly with Zebra nodes developed by Zodl
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![ChatGPTImageOct12202508_15_20A](https://hackmd.io/_uploads/SJNBsSYTel.jpg)
