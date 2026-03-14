@@ -9,7 +9,16 @@ ZEC is a widely-used digital asset for payments, offering strong privacy feature
 
 ## Shielded Transactions
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/bZM3o_eIovU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/bZM3o_eIovU"
+    title="Zcash Explained: Zcash Shielded Transactions"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
 
 ---
 
@@ -19,8 +28,16 @@ Shielded transactions occur when you move ZEC into your shielded wallet. Your sh
 
 Transparent transactions work similarly but lack privacy protections, making transaction details publicly visible on the blockchain. Transparent transactions should be avoided when privacy is a priority. Note: Transparent wallets may encounter issues due to ZIP-317, which requires fees proportional to transaction complexity. Default fees may lead to rejection or delays, making fee customization crucial.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/R-krX1UpsIg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/R-krX1UpsIg"
+    title="Learn 🛡️Zcash shielded wallets!"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
 
 
 ### Managing Fees for Transparent Transactions
