@@ -39,6 +39,16 @@ When doing this, we recommend using one of the following [wallets](https://zechu
 ![mobile](https://github.com/user-attachments/assets/8b7618f5-dec6-4e6b-9804-db75be5c1e2f)
 
 
-Here is a [video](https://www.youtube.com/watch?v=6IIRRZ17Q74&t=230s) that explores that latest mobile shielded wallets as of 2025.
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/6IIRRZ17Q74"
+    title="Reviewing all Zcash Shielded Wallets"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
 
 
