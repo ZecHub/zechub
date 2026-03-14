@@ -27,7 +27,16 @@ If you're new to Zcash, use [this guide](/site/Start_Here/New_User_Guide).****
    
 3. Follow this guide to learn how to do a pull request:
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/8eYDTyV39a4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/8eYDTyV39a4"
+    title="How to Contribute to ZecHub!"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
 
 
 ## Contributor Guidelines
