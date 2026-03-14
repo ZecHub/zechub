@@ -12,7 +12,7 @@ ___
 |          |            | 
 |--------------|-----------|
 | **Actions**: |  Instead of creating several individual proofs for each Spend and Output, Orchard protocol merges them into a single 'Action'.        |   
-|  **Addresses**: | Zcash has Shielded (Z/zaddr) & Transparent (T/taddr) addresses. Unified addresses (UA) are phasing in to replace Z & T following the NU5 upgrade. |   
+|  **Addresses**: | Zcash has Shielded (Z/zaddr) & Transparent (T/taddr) addresses. Unified Addresses (UA) are the standard address format since NU5, combining transparent, Sapling, and Orchard receivers into a single address. All modern wallets (ZODL, Zingo, etc.) generate UAs by default. |   
 |  **Arborist Call**: | A Bi-Monthly call around Protocol & Research development updates. Register here [15:00 UTC](https://us06web.zoom.us/webinar/register/WN_Vk7WMz9sRkiIr_hqH_x3LA) / [22:30 UTC](https://us06web.zoom.us/webinar/register/WN_z0k1ipsnRkS4-DGqDhULdA) / [Notes](https://github.com/ZcashCommunityGrants/arboretum-notes)          |   
 | **Auto-shielding**: | Enables users (more specifically their wallets) to automatically move funds from a transparent address to the latest shielded ZEC pool. |   
 
@@ -45,9 +45,10 @@ ___
 
 |          |            | 
 |--------------|-----------|
-|  **Canopy**:  |     The 5th Major Network Upgrade for Zcash. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy)  |  
+|  **Canopy**:  |     The 5th Major Network Upgrade for Zcash. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy)  |
+| **cipherPay**: |  A privacy-focused Zcash payment processor enabling merchants to accept ZEC with no KYC and no middleman. Supports invoice creation, product management, webhooks, WordPress plugin integration, and embeddable payment scripts. [Website](https://www.cipherpay.app) |
 | **Commitment Scheme**: |  Allows a committer to commit to a polynomial with a short string that can be used by a verifier to confirm claimed evaluations of the committed polynomial. Useful for reducing communication costs in the Zcash protocol.|
-|  **Community**:   |    [The Official Zcash Community Forum ](https://forum.zcashcommunity.com) / [Zcash Community Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://old.reddit.com/r/zcash/) / [Telegram](https://t.me/Zcash_Community) |  
+|  **Community**:   |    [The Official Zcash Community Forum ](https://forum.zcashcommunity.com) / [Zcash Community Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://old.reddit.com/r/zcash/) / [Telegram](https://t.me/Zcash_Community) |
 |    **Cypherpunk Zero**:  |   A Creative Universe & collaborative effort between ECC, illustrator Stranger Wolf, Mighty Jaxx and select ecosystem partners. Consisting of a forthcoming series of webcomics, NFTs and physical collectibles, the project explores the relationship between privacy, self-sovereignty and creative freedom. [Cypherpunk Zero Site](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Opensea Collection](https://opensea.io/collection/cypherpunk-zero) |  
 
 
@@ -61,7 +62,8 @@ ___
 
 |          |            | 
 |--------------|-----------|
-|  **DeFi**:  |  Projects integrating ZEC with DeFi:  [RenBridge](https://bridge.renproject.io/mint) / [ZeroDAO](https://bridge.zerodao.com/#/transfer/ETH)  | 
+|  **DeFi**:  |  Projects integrating ZEC with decentralized finance. The DeFi landscape for Zcash continues to evolve with cross-chain bridges and swap protocols.  |
+| **Dev Fund (Post-NU6)**: |  The NU6 upgrade restructured Zcash's development funding. 8% of block rewards go to Zcash Community Grants (ZCG), while 12% accrues to a Lockbox governed by coinholder votes, requiring a quorum of 420,000 ZEC and a simple majority to disburse. [More Info](https://z.cash/upgrade/nu6/) | 
 |   **Deshielding**:   |    Refers to a transaction being sent from a zaddr(shielded address) to a taddr(transparent address). The origin of the transaction is not visible however the funds enter a publicly visible value pool. [Transaction Anatomy](https://electriccoin.co/blog/anatomy-of-zcash/)       |  
 |    **Developer Resources**:  |    [Developer Resources](https://www.zcashcommunity.com/developers/)   |  
 |  **Documentation**:  |   [Official Docs](https://zcash.readthedocs.io/en/latest/)|  
@@ -76,7 +78,7 @@ ___
 
 |          |            | 
 |--------------|-----------|
-|    **ECC**: |   The Electric Coin Company, the team behind the Zcash protocol, previously known as the Zcash Company. |  
+|    **ECC**: |   The Electric Coin Company, a founding team behind the Zcash protocol (previously known as the Zcash Company). In early 2026, the ECC engineering and product team departed to form ZODL (Zcash Open Development Lab), an independent entity continuing Zcash development. |  
 | **ECDSA**: | Elliptic Curve Digital Signature Algorithm is a cryptographically secure digital signature scheme. The ECDSA sign/verify algorithm relies on elliptic curve point multiplication. |
 |  **Education**: |  Learning oriented videos explaining Zcash [here](https://www.zcashcommunity.com/zcash-education/) |  
 |   **Encrypted Memos**: |    An additional field for transactions sent to shielded addresses that is visible to the recipient of a payment. The encrypted memo is visible only the to the sender and recipient, unless the viewing key or payment disclosure gets shared with a third party. |  
@@ -117,7 +119,7 @@ ___
 
 |          |            | 
 |--------------|-----------|
-|  **Governance**: |   Decisions from the ZIP process are written into the Zcash specification, as well as the software that runs the network. The changes are "ratified" on-chain when the majority of the network adopts the upgrade and doesn't break consensus. [Full Protocol History](https://zfnd.org/protocol-governance/)|  
+|  **Governance**: |   Decisions from the ZIP process are written into the Zcash specification, as well as the software that runs the network. The changes are "ratified" on-chain when the majority of the network adopts the upgrade and doesn't break consensus. Post-NU6, governance includes coinholder-directed funding through the Lockbox mechanism, where 12% of block rewards are allocated via on-chain voting. [Full Protocol History](https://zfnd.org/protocol-governance/)|  
 
 
 
@@ -128,7 +130,7 @@ ___
 
 |          |            | 
 |--------------|-----------|
-|  **Halo**:  |  Enables circuit upgrades without the need for trusted setups, making the Zcash shielded protocol more agile for future improvements and extensions, see unified addresses/user defined assets. [Technical Explainer](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)  |  
+|  **Halo / Halo 2**:  |  A recursive zero-knowledge proof system that eliminates the need for trusted setups, making the Zcash shielded protocol more agile for future improvements and extensions. Halo 2 powers the Orchard shielded pool (since NU5) and underpins Unified Addresses and future User Defined Assets. [Technical Explainer](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)  |  
 |  **HD Wallet**:  |   Hierarchical deterministic wallets generate a series of key pairs from one seed, providing convenience and manageability as well as high-level security. Zcash wallets enable several shielded public keys to be created from the root private key within a wallet. |  
 |  **Heartwood**: |  The 4th Major Network Upgrade of Zcash. [More Info](https://z.cash/upgrade/heartwood/) |  
 
@@ -171,7 +173,8 @@ ___
 |--------------|-----------|
 |  **Layer-1**: | Refers to a base network and its underlying infrastructure. Layer-1 blockchains can validate and finalize transactions without the need for another network. Zcash is an L1 blockchain.|  
 |  **librustzcash**:  |  A Rust workspace containing all crates & dependencies for working with Zcash. [repo](https://github.com/zcash/librustzcash)  |
-|  **Lightwalletd**: |  A stateless server that serves light clients with blockchain information. It fetches blockchain data from zcashd, processes them to reduce data, and stores it in a database. This allows light clients to get relevant data without interacting with zcashd directly. [Lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html)|  
+|  **Lightwalletd**: |  A stateless server that historically served light clients with blockchain information by fetching data from zcashd. Being superseded by Zaino as part of the Z3 Stack transition. Zaino provides the same light client functionality but is built in Rust and integrates natively with Zebra. [Legacy Docs](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html)|
+| **Lockbox**: |  A governance mechanism introduced in NU6 where 12% of block rewards accrue to a fund controlled by coinholder votes. Disbursing grants requires a quorum of 420,000 ZEC and a simple majority. Part of the post-NU5 decentralized funding model. [NU6 Info](https://z.cash/upgrade/nu6/) |  
 
 
 
@@ -201,8 +204,9 @@ ___
 |          |            | 
 |--------------|-----------|
 |   **Nighthawk**: |   A Mobile wallet for Zcash - [Website](https://nighthawkwallet.com)|  
-|  **NU5**: | The 6th Major Network Upgrade for Zcash. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5)|
-|  **NU6**: | The 7th Major Network Upgrade for Zcash, introducing post-NU5 governance improvements and protocol enhancements. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6)|  
+|  **NU5**: | The 6th Major Network Upgrade for Zcash, activated in 2022. Introduced the Orchard shielded pool, Halo 2 proving system (eliminating trusted setups), and Unified Addresses. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5)|
+|  **NU6**: | The 7th Major Network Upgrade for Zcash, endorsed by both ECC and the Zcash Foundation. Restructured the development fund: 8% of block rewards to ZCG for community grants, 12% to a Lockbox governed by coinholder votes. [More Info](https://z.cash/upgrade/nu6/) |
+|  **NU6.1**: | The 8th Major Network Upgrade, activated at block height 3146400 on November 24, 2025. Institutes a coinholder-directed retroactive grants program, giving the community direct voice in determining grant allocations from the Lockbox. [More Info](https://z.cash/upgrade/nu6-1/) |  
 
 
 
@@ -261,7 +265,7 @@ ___
 |  **Selective Disclosure**: |    A feature of Shielded Addresses where the owner may disclose shielded transaction data. A user may share a viewing key or payment disclosure with any third party, allowing them to access shielded data while maintaining privacy from others.|  
 |  **Sensimilla**: | A collision-resistant hash function and commitment scheme designed to be efficient in algebraic circuit models that support lookups, such as PLONK or Halo 2. |  
 |  **Shielded Transaction**: |  A transaction exclusively between shielded addresses. The addresses, value and optional encrypted memo are shielded using zk-SNARK cryptography before the transaction is recorded in the blockchain. (also known as 'z2z')|  
-| **Shielded Labs**:  |  The first Zcash Organisation announced to be formed outside of the United States. Purpose is to support Protocol development & Zcash adoption in the coming years  |
+| **Shielded Labs**:  |  The first Zcash Organisation formed outside of the United States (based in Switzerland). Supports protocol development and Zcash adoption, contributing to the decentralized multi-org governance model alongside ECC, ZF, and ZCG.  |
 | **Sol/s**:  |   Solutions Per Second. A measure of the rate at which Equihash solutions are found while mining. Each one of those solutions is tested against the current target (after adding to the block header and hashing).  |  
 |  **Sprout**: |  The first version of Zcash, launched on October 28, 2016. [Launch Blog](https://electriccoin.co/blog/zcash-begins/) |  
 
@@ -320,7 +324,7 @@ ___
 
 |          |            | 
 |--------------|-----------|
-|  **Wallets**:   | [Please refer to the full list of wallets](https://z.cash/wallets/)|  
+|  **Wallets**:   | Current recommended wallets include ZODL (formerly Zashi), Zingo, Ywallet, and Nighthawk. [Full list of wallets](https://z.cash/wallets/)|  
 
  
 
@@ -346,21 +350,22 @@ ___
 
 |          |            | 
 |--------------|-----------|
-|  **Z3 Stack**: |  The modern Zcash full-node stack consisting of Zebra (independent full node), Zaino (lightweight client framework), and Zallet (user-friendly wallet interface). [Zaino](https://zaino.io) / [Zallet](https://zallet.io) |
+|  **Z3 Stack**: |  The modern Zcash infrastructure stack, built entirely in Rust for improved security, performance, and scalability. Comprises three interoperable components: Zebra (consensus validator/full node), Zaino (blockchain indexer replacing lightwalletd), and Zallet (wallet replacing zcashd wallet functionality). Includes built-in Tor support for network-level anonymity. Developed by the Zcash Foundation as the complete replacement for the legacy zcashd stack. [Z3 Repo](https://github.com/ZcashFoundation/z3) |
 |  **Zcash Community Grants**: |   A community-elected grants committee that funds projects that advance the usability, security, privacy, and adoption of Zcash - [ZCG website](https://zcashcommunitygrants.org)  |  
-| **Zcashd**:  |  The Zcashd full node downloads a copy of the Zcash blockchain, enforces rules of the Zcash network, and can execute all functionalities. The zcash-cli allows interactions with the node (e.g. to tell it to send a transaction). [Docs](https://zcash.readthedocs.io/en/latest/rtd_pages/zcashd.html)  |  
+| **Zcashd** *(deprecated)*:  |  The original Zcash full node implementation in C++. Downloads a copy of the Zcash blockchain, enforces rules of the Zcash network, and can execute all functionalities. Being deprecated and replaced by the Z3 Stack (Zebra + Zaino + Zallet). Node operators should migrate to Zebra. [Deprecation Info](https://z.cash/support/zcashd-deprecation/) / [Legacy Docs](https://zcash.readthedocs.io/en/latest/rtd_pages/zcashd.html)  |  
 |  **Zcash Developer Alliance (ZDA)**:  |   Prioritising cross-chain interoperability as the first deliverable, it brings together a variety of teams to work towards a common goal. [Zcash Developer Alliance](https://electriccoin.co/zcash-developer-alliance/) |  
 | **Zcash Foundation**: |  A 501(c)(3) public charity that builds financial privacy infrastructure for the public good, primarily serving users of the Zcash protocol and blockchain. [website](https://zfnd.org) |
-|  **Zcash Sync**: |  A community-driven synchronization process for Zcash ecosystem coordination and information sharing. Part of the ongoing community decentralization efforts. |  
+|  **ZecHub Sync**: |  A weekly community coordination meeting hosted by ZecHub every Monday at 4pm UTC. Serves as a synchronization point for ecosystem updates, contributor onboarding, and project coordination across the Zcash community. [Meeting Notes](https://zechub.substack.com) |  
 |  **Zcon**: |  A yearly in-person conference centered on the Zcash ecosystem. [Zcon3 Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)|  
-|  **Zebra**: |    An Independent full node implementation of the Zcash Protocol. - [The Zebra Book](https://zebra.zfnd.org) |  
-|  **Zecwallet Lite**:  |   A fully-featured wallet for Zcash [website](https://zecwallet.co) |  
+|  **Zebra**: |    The primary Zcash consensus validator and full node, written in Rust by the Zcash Foundation. Replaces zcashd as the reference node implementation. Part of the Z3 Stack alongside Zaino and Zallet. - [The Zebra Book](https://zebra.zfnd.org) |
+|  **Zaino**: |    A Zcash blockchain indexer implemented in Rust, replacing lightwalletd. Serves all non-miner clients (wallets, block explorers) with blockchain data from Zebra. Provides functionality for both light clients and full clients while prioritizing security and privacy. Part of the Z3 Stack. [GitHub](https://github.com/zingolabs/zaino) |
+|  **Zallet**: |    The wallet component of the Z3 Stack, replacing the zcashd built-in wallet. Provides zcashd-compatible JSON-RPC methods for a smooth migration path. Built in Rust as part of the unified Z3 infrastructure. |  
+|  **Zecwallet Lite** *(legacy)*:  |   A desktop/mobile wallet for Zcash. Users are encouraged to migrate to actively maintained wallets such as ZODL or Zingo for the latest protocol support. [website](https://zecwallet.co) |  
 | **ZecHub**:  |  An open-source education hub for Zcash. Community-driven initiative producing content on privacy technologies including Zcash. Contributors are able to earn ZEC.      |
 |  **ZecPages**: |  A censorship resistant, Zcash blockchain-powered social media. It includes a directory of zcash users and an anonymous message board powered by Zcash. [website](https://zecpages.com/ambimorph) |  
 | **ZF A/V Club**: |  Empowering local Zcash communities with global support through building a network of capable, ready and funded content creators broadcasting and sharing fresh news about Zcash and online privacy.  |
 | **ZIP**: |  Zcash Improvement Proposal. Method for community proposals of new features for the Zcash cryptocurrency, implementation details and document design decisions. [ZIP Site](https://zips.z.cash) |
 |  **Zingo Wallet**    |  A Mobile wallet that supports Unified Addresses and Orchard enabled. Maintained by Zingo Labs |
-| **ZODL Wallet**: |  A Zcash mobile wallet (formerly known as Zashi). Built with a focus on user experience and privacy. [Website](https://zodl.io) |
-| **zk-SNARK**:|  Zero-knowledge Succinct Argument of Knowledge. A proof used in the Zcash protocol which allows Shielded Addresses to prove the validity of associated transactions without revealing the address or value transacted. [More information](https://zkp.science)|
-| **cipherPay**: |  A Zcash payment solution enabling private, secure transactions for merchants and users. [Website](https://cipherpay.io) |  
+| **ZODL (Zcash Open Development Lab)**: |  An independent organization formed in early 2026 by the former ECC engineering and product team. Raised $25M+ in seed funding from Paradigm, a16z crypto, Winklevoss Capital, Coinbase Ventures, and others. Develops the ZODL wallet (formerly Zashi), a self-custodial mobile wallet for shielded ZEC transactions. Since launch, the wallet has expanded Zcash's shielded pool activity by over 400% and processed $600M+ in ZEC swaps. [Website](https://zodl.com) / [Google Play](https://play.google.com/store/apps/details?id=co.electriccoin.zcash) |
+| **zk-SNARK**:|  Zero-knowledge Succinct Non-interactive Argument of Knowledge. A proof used in the Zcash protocol which allows Shielded Addresses to prove the validity of associated transactions without revealing the address or value transacted. Zcash uses Halo 2 (since NU5) which eliminates the need for trusted setups. [More information](https://zkp.science)|  
 
