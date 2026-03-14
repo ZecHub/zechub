@@ -365,28 +365,20 @@ Where can I find more info on UA's?
      
 ### Sources
 
-https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview
+<div>
 
-https://github.com/zcash/zcash
+- https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview
+- https://github.com/zcash/zcash
+- https://zcash.readthedocs.io/en/latest/rtd_pages/Debian-Ubuntu-build.html
+- https://zcash.readthedocs.io/en/latest/rtd_pages/memos.html
+- https://en.wikipedia.org/wiki/Secure_Shell
+- https://itsfoss.com/how-to-find-what-devices-are-connected-to-network-in-ubuntu/
+- https://youtu.be/YS5Zh7KExvE
+- https://twitter.com/BostonZcash/status/1531798627512877059
+- https://forum.zcashcommunity.com/t/unified-addresses-full-node-rpc-api/41980/2
+- https://medium.com/@hanh425/transaction-privacy-78f80f9f175e
+- https://znewsletter.netlify.app/
+- https://github.com/zcash/zips/issues/470
+- https://zips.z.cash/protocol/nu5.pdf#unifiedpaymentaddrencoding
 
-https://zcash.readthedocs.io/en/latest/rtd_pages/Debian-Ubuntu-build.html
-
-https://zcash.readthedocs.io/en/latest/rtd_pages/memos.html
-
-https://en.wikipedia.org/wiki/Secure_Shell
-
-https://itsfoss.com/how-to-find-what-devices-are-connected-to-network-in-ubuntu/
-
-https://youtu.be/YS5Zh7KExvE
-
-https://twitter.com/BostonZcash/status/1531798627512877059
-
-https://forum.zcashcommunity.com/t/unified-addresses-full-node-rpc-api/41980/2
-
-https://medium.com/@hanh425/transaction-privacy-78f80f9f175e
-
-https://znewsletter.netlify.app/
-
-https://github.com/zcash/zips/issues/470
-
-https://zips.z.cash/protocol/nu5.pdf#unifiedpaymentaddrencoding
+</div>
