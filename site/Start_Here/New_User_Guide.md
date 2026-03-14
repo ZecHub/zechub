@@ -55,7 +55,7 @@ Here's a tutorial on how to do that.
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/Avweu5V9QRc"
-    title="Zcash Shielded Wallets Explained"
+    title="Coinbase + Zashi: Buy Zcash & Shield Instantly"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -73,7 +73,7 @@ After you've deposited some ZEC into your wallet, you're ready to send a fully s
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/tEfQaYPV0UE"
-    title="Zcash Shielded Wallets Explained"
+    title="Useful Tips when using Zcash 🔒"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
