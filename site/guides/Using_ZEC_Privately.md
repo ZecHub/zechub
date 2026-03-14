@@ -38,17 +38,46 @@ From an exchange that supports **transparent** withdrawals:
 
 Here's a tutorial for how to withdraw ZEC from an exchange. Note that this is a shielded withdrawal.
 
-<iframe class="w-full h-auto md:h-96" src="https://www.youtube.com/embed/REUbkLzK7J4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/REUbkLzK7J4"
+    title="Buy and withdraw ZEC to a shielded wallet from Gemini"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+    
 
 ---
 Here's a tutorial for how to shield your ZEC from a transparent address to a shielded address.
 
-<iframe class="w-full h-auto md:h-96" src="https://www.youtube.com/embed/W2msuzrxr3s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/W2msuzrxr3s"
+    title="Shield your ZEC from a transparent to shielded address"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
 
 ---
 Here's a tutorial for how to buy ZEC on Coinbase and send to Zashi.
 
-<iframe class="w-full h-auto md:h-96" src="https://www.youtube.com/embed/Avweu5V9QRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/Avweu5V9QRc"
+    title="Coinbase + Zashi: Buy Zcash & Shield Instantly"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
 
 
 #### Transactions
