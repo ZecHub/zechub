@@ -6,7 +6,7 @@ The Zcash ecosystem is evolving. The traditional zcashd full node, maintained by
 ![ChatGPTImageOct12202508_15_20A](https://hackmd.io/_uploads/SJNBsSYTel.jpg)
 </div>
 
-This guide walks you through the migration from **`zcashd`** to **`Zebrad`** and **`Zallet`**, including setup, wallet import, and troubleshooting common migration issues.
+This guide walks you through the migration from **zcashd** to **Zebrad** and **Zallet**, including setup, wallet import, and troubleshooting common migration issues.
 
 ---
 
