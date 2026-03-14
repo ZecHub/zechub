@@ -96,11 +96,11 @@ Users can now send/receive ZEC without revealing balances or metadata - all with
 
 ## Address Types
 
-Here’s an explanation for each Zcash address type:
+Here's an explanation for each Zcash address type:
 
 **t-addr (t1...)** - Transparent addresses work like Bitcoin addresses, meaning transactions are public on the blockchain. They are easier to use with non-Zcash wallets but do not provide privacy.
 
-**z-addr (zs...)** - Shielded addresses use Zcash’s privacy tech (Sprout/Sapling) to hide the sender, receiver, and amount. Only view keys or the owner can reveal details.
+**z-addr (zs...)** - Shielded addresses use Zcash's privacy tech (Sprout/Sapling) to hide the sender, receiver, and amount. Only view keys or the owner can reveal details.
 
 **UA (u... or QR)** - Unified Addresses combine multiple address types (transparent, shielded, Orchard) into one. This allows maximum compatibility while preferring privacy where possible.
 
@@ -122,7 +122,7 @@ Here’s an explanation for each Zcash address type:
 
 ## Conclusion: Privacy Made Practical
 
-With Brave Wallet and shielded ZEC, privacy is now accessible to everyone — no special software or advanced knowledge needed.
+With Brave Wallet and shielded ZEC, privacy is now accessible to everyone - no special software or advanced knowledge needed.
 
 Ideal for journalists, activists, or privacy-conscious individuals.
 
