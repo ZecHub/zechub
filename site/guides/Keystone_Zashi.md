@@ -6,7 +6,17 @@ This integration marks a significant evolution in Zcash usability by enabling co
 
 ## Keystone X Zashi Tutorial
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/ktYf7josJKM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/ktYf7josJKM"
+    title="Keystone X Zashi Tutorial"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+    
 
 ## Preparation
 [Order & Receive Your Keystone 3 Pro or Keystone 3](https://keyst.one) 
