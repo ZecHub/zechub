@@ -30,7 +30,17 @@ We recommend using a [shielded wallet](https://zechub.wiki/wallets) because thes
 
 Here's a video reviewing modern shielded wallets:
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/6IIRRZ17Q74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/6IIRRZ17Q74"
+    title="Zcash Shielded Wallets Explained"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
 
 
 ---
@@ -41,7 +51,17 @@ After you create your wallet, you're going to want to withdraw your ZEC into tha
 
 Here's a tutorial on how to do that.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/Avweu5V9QRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/Avweu5V9QRc"
+    title="Zcash Shielded Wallets Explained"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
 
 ---
 
@@ -49,7 +69,16 @@ Here's a tutorial on how to do that.
 
 After you've deposited some ZEC into your wallet, you're ready to send a fully shielded, private transaction. A shielded transaction is an exchange of ZEC that fully protects each participant's privacy. Here's some useful tips when using shielded ZEC.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/tEfQaYPV0UE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/tEfQaYPV0UE"
+    title="Zcash Shielded Wallets Explained"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
 
 ---
 
