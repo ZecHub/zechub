@@ -38,17 +38,17 @@ From an exchange that supports **transparent** withdrawals:
 
 Here's a tutorial for how to withdraw ZEC from an exchange. Note that this is a shielded withdrawal.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/REUbkLzK7J4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="w-full h-auto" src="https://www.youtube.com/embed/REUbkLzK7J4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 Here's a tutorial for how to shield your ZEC from a transparent address to a shielded address.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/W2msuzrxr3s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="w-full h-auto" src="https://www.youtube.com/embed/W2msuzrxr3s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 Here's a tutorial for how to buy ZEC on Coinbase and send to Zashi.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/Avweu5V9QRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="w-full h-auto" src="https://www.youtube.com/embed/Avweu5V9QRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 #### Transactions
