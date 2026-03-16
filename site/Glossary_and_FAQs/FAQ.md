@@ -79,25 +79,25 @@ Further reading: [A Shielded Ecosystem](https://electriccoin.co/blog/shielded-ec
 <div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
   <table className="w-full border-collapse">
     <thead>
-      <tr className="border-b border-border bg-muted">
-        <th className="py-4 px-6 text-left font-semibold text-foreground">Misconception</th>
-        <th className="py-4 px-6 text-left font-semibold text-foreground">Correct Answer</th>
+      <tr className="border-b border-border bg-amber-50 dark:bg-amber-950">
+        <th className="py-4 px-6 text-left font-semibold text-amber-700 dark:text-amber-300">Misconception</th>
+        <th className="py-4 px-6 text-left font-semibold text-amber-700 dark:text-amber-300">Correct Answer</th>
       </tr>
     </thead>
     <tbody>
-      <tr className="border-b border-border hover:bg-muted/50">
+      <tr className="border-b border-border hover:bg-amber-100 dark:hover:bg-amber-900/50">
         <td className="py-4 px-6 font-medium text-foreground">Is Zcash a centralised coin?</td>
         <td className="py-4 px-6 text-foreground">No. A trademark agreement prevents the Zcash Foundation or ECC from acting against community consensus. Governance is proven decentralised (see [Messari report](https://messari.io/report/decentralizing-zcash)). Community polls, ZecHub, and Zcash Foundation A/V Club all enable broad participation.</td>
       </tr>
-      <tr className="border-b border-border hover:bg-muted/50">
+      <tr className="border-b border-border hover:bg-amber-100 dark:hover:bg-amber-900/50">
         <td className="py-4 px-6 font-medium text-foreground">Does Zcash have a backdoor?</td>
         <td className="py-4 px-6 text-foreground">No. Neither Zcash nor any cryptographic software we have built contains a backdoor, and never will.</td>
       </tr>
-      <tr className="border-b border-border hover:bg-muted/50">
+      <tr className="border-b border-border hover:bg-amber-100 dark:hover:bg-amber-900/50">
         <td className="py-4 px-6 font-medium text-foreground">Is Zcash controlled by a corporation?</td>
         <td className="py-4 px-6 text-foreground">Incorrect. While we partner with companies for research, Zcash remains committed to decentralisation. Multiple autonomous organisations work together toward self-custody and privacy rights.</td>
       </tr>
-      <tr className="hover:bg-muted/50">
+      <tr className="hover:bg-amber-100 dark:hover:bg-amber-900/50">
         <td className="py-4 px-6 font-medium text-foreground">Zcash has limited privacy compared to other privacy coins</td>
         <td className="py-4 px-6 text-foreground">No. Monero/Grin-style privacy relies on decoys (which can be defeated). Zcash encrypts all shielded transaction data so every transaction in the pool is indistinguishable. See [Not Private Enough?](https://electriccoin.co/blog/not-private-enough-mixers-and-decoys-wont-protect-you-for-long/).</td>
       </tr>
