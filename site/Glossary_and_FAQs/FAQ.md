@@ -7,24 +7,24 @@ A list of the most common questions about Zcash. For troubleshooting the Zcash c
 
 ---
 
-## What is Zcash? {#what-is-zcash}
+## What is Zcash?
 
 Zcash is a digital currency with fast, confidential transactions and low fees. Privacy is the central feature of Zcash. It pioneered the use of zero-knowledge proofs to encrypt all transactions.  
 
 Several wallets are available for instant, mobile, secure & private payments: [Mobile Wallets](https://z.cash/wallets/)
 
-## How can I acquire Zcash? {#acquire}
+## How can I acquire Zcash?
 
 You can buy ZEC on cryptocurrency [exchanges](https://z.cash/exchanges).  
 You can also purchase Zcash peer-to-peer or acquire it by mining.
 
-## What is the difference between Zcash & other cryptocurrencies? {#difference}
+## What is the difference between Zcash & other cryptocurrencies?
 
 Zcash is fundamentally more private than Bitcoin or Ethereum. It offers fast block times (75 seconds), low fees, and regular upgrades.  
 
 Users can choose between **Transparent** or **Shielded** transactions. For more information see [A Shielded Ecosystem](https://bitzecbzc.github.io/blog/shielded-ecosystem/index.html).
 
-## How is the Zcash protocol governed? {#governance}
+## How is the Zcash protocol governed?
 
 The protocol is governed by the **Zcash Improvement Proposal (ZIP)** process. Anyone can submit a draft ZIP. Drafts are debated by the community and accepted or rejected by the ZIP editors:
 
@@ -33,7 +33,7 @@ The protocol is governed by the **Zcash Improvement Proposal (ZIP)** process. An
 
 Decisions are written into the specification and ratified on-chain when the network adopts them.
 
-## Where is my Transaction? {#transaction}
+## Where is my Transaction?
 
 First read [our guide to block explorers](https://zechub.notion.site/Zcash-Blockchain-Explorer-4b4d970cb53e474989932c6e1a78b629). Then check [Zcash Block Explorer](https://zcashblockexplorer.com).  
 
@@ -51,7 +51,7 @@ Transactions expire after ~25 minutes (20 blocks) and funds are returned automat
 - Wait and retry later
 - Use fewer inputs to keep the transaction small
 
-## Is Zcash really Private? {#privacy}
+## Is Zcash really Private?
 
 **Yes.** Zcash encrypts sender, amount, and recipient data for shielded transactions.  
 
@@ -64,7 +64,7 @@ Further reading: [A Shielded Ecosystem](https://electriccoin.co/blog/shielded-ec
 
 ---
 
-## A few common misconceptions {#misconceptions}
+## A few common misconceptions
 
 | Misconception                          | Correct Answer |
 |----------------------------------------|----------------|
