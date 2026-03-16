@@ -139,7 +139,76 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | **Peer-to-Peer Network** | P2P networks are based on the concept of decentralization. The foundational architecture of blockchain technology. |
 | **Podcast**           | [Radiolab](https://archive.org/details/radiolab_podcast17crypto_zcash_ceremony) / [RealVisionFinance](https://www.youtube.com/watch?v=ibA_4kwd_YI) / [EthDenver](https://www.youtube.com/watch?v=t62isi58XcQ) / [UpOnlyPodcast](https://www.youtube.com/watch?v=AjC9T938o3Q) / [ZEC Daily](https://www.youtube.com/playlist?list=PL6_epn0lASLGVQjz7Xt08sQsPC...) |
 
-*(Q–Z sections are currently empty — add terms here using the same table format when ready)*
+## Q
+
+*(No terms yet — feel free to add any)*
+
+## R
+
+*(No terms yet — feel free to add any)*
+
+## S
+
+| Term                  | Definition |
+|-----------------------|------------|
+| **Sapling**           | A major network upgrade that introduced significant efficiency improvements for shielded transactions and paved the way for mobile adoption. Activated at block 419200. |
+| **Selective Disclosure** | Allows the owner of a shielded address to selectively share viewing keys or payment disclosures with third parties while keeping data private from everyone else. |
+| **Shielded Address**  | Also called zaddr. Starts with "z". Hides sender, receiver, amount, and memo using zk-SNARKs. |
+| **Shielded Transaction** | A transaction exclusively between shielded addresses. Fully private on the blockchain. |
+| **Sol/s**             | Solutions per second — measures Equihash mining performance. |
+| **Spending Key**      | The private key that allows spending from a shielded address (also lets you view balance and history). |
+| **Sprout**            | The original shielded protocol version of Zcash (launched 2016). |
+
+## T
+
+| Term                  | Definition |
+|-----------------------|------------|
+| **TAZ**               | Testnet Zcash (valueless test currency). |
+| **Testnet**           | A separate blockchain for testing upgrades and features before mainnet. |
+| **Transaction**       | A payment between users, submitted to the network and eventually confirmed in a block. |
+| **Transaction Expiry**| Transactions expire after ~25 minutes (20 blocks) if unconfirmed; funds return automatically. |
+| **Transaction Fee**   | Default fee is 0.0001 ZEC. Higher fees get priority; very low fees may cause delays or expiry. |
+| **Transparent Address** | Also called taddr. Starts with "t". Fully public (like Bitcoin). |
+| **Transparent Transaction** | A transaction exclusively between transparent addresses — everything is publicly visible. |
+
+## U
+
+| Term                  | Definition |
+|-----------------------|------------|
+| **Unified Address**   | Modern address format (introduced in NU5) that works for both transparent and shielded payments in one string. |
+| **Upgrade Activation**| The specific block height where a network upgrade (e.g. NU5, NU6) automatically activates. |
+
+## V
+
+| Term           | Definition |
+|----------------|------------|
+| **Viewing Key** | A private key that lets you view the balance and transaction history of a shielded address without being able to spend the funds. |
+
+## W
+
+| Term     | Definition |
+|----------|------------|
+| **Wallet** | Software or hardware that stores private keys and lets you send/receive ZEC. Examples: Zecwallet, Nighthawk, YWallet, Zingo!. |
+
+## X
+
+*(No terms yet — feel free to add any)*
+
+## Y
+
+*(No terms yet — feel free to add any)*
+
+## Z
+
+| Term                  | Definition |
+|-----------------------|------------|
+| **Zcash**             | Privacy-focused cryptocurrency using zk-SNARKs. Bridges transparent (Bitcoin-style) and fully shielded payments. |
+| **Zcash Foundation**  | Independent non-profit that supports the Zcash ecosystem, funds development, and promotes privacy. |
+| **Zcash Network**     | Peer-to-peer network of nodes that validates transactions and maintains the blockchain. |
+| **ZEC**               | The official currency code for Zcash (some exchanges still show XZC). |
+| **Zerocash**          | The academic protocol (2014) that Zcash is based on. |
+| **zk-SNARKs**         | Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge — the cryptography that makes shielded transactions private yet verifiable. |
+| **ZIP**               | Zcash Improvement Proposal — the community governance process used to propose and ratify protocol changes. |
 
 ---
 
