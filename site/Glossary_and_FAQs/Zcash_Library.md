@@ -3,11 +3,11 @@
 A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 
 ### Quick Navigation
-[A](#a) • [B](#b) • [C](#c) • [D](#d) • [E](#e) • [F](#f) • [G](#g) • [H](#h) • [I](#i) • [J](#j) • [K](#k) • [L](#l) • [M](#m) • [N](#n) • [O](#o) • [P](#p)
+[A](#a) • [B](#b) • [C](#c) • [D](#d) • [E](#e) • [F](#f) • [G](#g) • [H](#h) • [I](#i) • [J](#j) • [K](#k) • [L](#l) • [M](#m) • [N](#n) • [O](#o) • [P](#p) • [Q](#q) • [R](#r) • [S](#s) • [T](#t) • [U](#u) • [V](#v) • [W](#w) • [X](#x) • [Y](#y) • [Z](#z)
 
 ---
 
-## A {#a}
+## A
 
 | Term              | Definition |
 |-------------------|------------|
@@ -16,7 +16,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | **Arborist Call** | A Bi-Monthly call around Protocol & Research development updates. Register here [15:00 UTC](https://us06web.zoom.us/webinar/register/WN_Vk7WMz9sRkiIr_hqH_x3LA) / [22:30 UTC](https://us06web.zoom.us/webinar/register/WN_z0k1ipsnRkS4-DGqDhULdA) / [Notes](https://github.com/ZcashCommunityGrants/arboretum-notes) |
 | **Auto-shielding**| Enables users (more specifically their wallets) to automatically move funds from a transparent address to the latest shielded ZEC pool. |
 
-## B {#b}
+## B
 
 | Term              | Definition |
 |-------------------|------------|
@@ -26,7 +26,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | **Blogs**         | [ECC Blog](https://electriccoin.co/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [Zcash Community Blog](https://www.zcashcommunity.com/blog/) |
 | **Blossom**       | The 3rd Major Network Upgrade for Zcash. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
-## C {#c}
+## C
 
 | Term                  | Definition |
 |-----------------------|------------|
@@ -35,7 +35,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | **Community**         | [The Official Zcash Community Forum](https://forum.zcashcommunity.com) / [Zcash Community Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://old.reddit.com/r/zcash/) / [Telegram](https://t.me/Zcash_Community) |
 | **Cypherpunk Zero**   | A Creative Universe & collaborative effort between ECC, illustrator Stranger Wolf, Mighty Jaxx and select ecosystem partners. [Cypherpunk Zero Site](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Opensea Collection](https://opensea.io/collection/cypherpunk-zero) |
 
-## D {#d}
+## D
 
 | Term                | Definition |
 |---------------------|------------|
@@ -44,7 +44,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | **Developer Resources** | [Developer Resources](https://www.zcashcommunity.com/developers/) |
 | **Documentation**   | [Official Docs](https://zcash.readthedocs.io/en/latest/) |
 
-## E {#e}
+## E
 
 | Term                | Definition |
 |---------------------|------------|
@@ -56,7 +56,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | **Events**          | The Calendar of Zcash related Events [here](https://electriccoin.co/events/) |
 | **Exchanges**       | [List of Exchanges supporting Zcash](https://z.cash/exchanges/) |
 
-## F {#f}
+## F
 
 | Term                | Definition |
 |---------------------|------------|
@@ -65,13 +65,13 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | **Free2z**          | A tool for anonymous content and private donations powered by Zcash [Free2z](https://free2z.com) |
 | **FROST**           | Flexible Round-Optimized Schnorr Threshold signature scheme. [Research Paper](https://eprint.iacr.org/2020/852) |
 
-## G {#g}
+## G
 
 | Term          | Definition |
 |---------------|------------|
 | **Governance**| Decisions from the ZIP process are written into the Zcash specification, as well as the software that runs the network. The changes are "ratified" on-chain when the majority of the network adopts the upgrade and doesn't break consensus. [Full Protocol History](https://zfnd.org/protocol-governance/) |
 
-## H {#h}
+## H
 
 | Term          | Definition |
 |---------------|------------|
@@ -79,7 +79,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | **HD Wallet** | Hierarchical deterministic wallets generate a series of key pairs from one seed, providing convenience and manageability as well as high-level security. |
 | **Heartwood** | The 4th Major Network Upgrade of Zcash. [More Info](https://z.cash/upgrade/heartwood/) |
 
-## I {#i}
+## I
 
 | Term                      | Definition |
 |---------------------------|------------|
@@ -88,17 +88,17 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | **Interactive Proof System** | An abstract machine that models computation as the exchange of messages between two parties: a Prover and a Verifier. |
 | **Investment**            | A number of Financial options are available for institutional investors or family offices who want to gain exposure to Zcash. [Full list](https://z.cash/investors/) |
 
-## J {#j}
+## J
 
 | Term     | Definition |
 |----------|------------|
 | **JubJub**| An elliptic curve designed to be efficiently implementable in zk-SNARK circuits. |
 
-## K {#k}
+## K
 
 *(No terms yet — feel free to add any)*
 
-## L {#l}
+## L
 
 | Term            | Definition |
 |-----------------|------------|
@@ -106,7 +106,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | **librustzcash**| A Rust workspace containing all crates & dependencies for working with Zcash. [repo](https://github.com/zcash/librustzcash) |
 | **Lightwalletd**| A stateless server that serves light clients with blockchain information. [Lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
 
-## M {#m}
+## M
 
 | Term           | Definition |
 |----------------|------------|
@@ -116,7 +116,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | **Mining**     | The process where for each block, nodes in the Zcash network compete by doing complex mathematical calculations to find a solution based on a self-adjusting difficulty. [Guide](https://z.cash/mining-zcash/) |
 | **Multisignature** | An address which requires multiple private key signatures in order to spend funds. Currently, multisig functionality is only supported by transparent addresses. |
 
-## N {#n}
+## N
 
 | Term       | Definition |
 |------------|------------|
@@ -124,20 +124,22 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | **NU5**    | The 6th Major Network Upgrade for Zcash. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | **NU6**    | The 7th Major Network Upgrade for Zcash, introducing post-NU5 governance improvements and protocol enhancements. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
 
-## O {#o}
+## O
 
 | Term                  | Definition |
 |-----------------------|------------|
 | **Orchard Shielded Pool** | The third shielded pool for Zcash and represents the continued evolution of our zk-SNARK technology stack. [Full details](https://electriccoin.co/blog/explaining-halo-2/) |
 | **Overwinter**        | The 1st Network Upgrade for Zcash. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
-## P {#p}
+## P
 
 | Term                  | Definition |
 |-----------------------|------------|
 | **Payments**          | It is possible to use Zcash for everyday purchases through a number of different payment providers. [Payment Apps](https://z.cash/pay-with-zcash/) |
 | **Peer-to-Peer Network** | P2P networks are based on the concept of decentralization. The foundational architecture of blockchain technology. |
 | **Podcast**           | [Radiolab](https://archive.org/details/radiolab_podcast17crypto_zcash_ceremony) / [RealVisionFinance](https://www.youtube.com/watch?v=ibA_4kwd_YI) / [EthDenver](https://www.youtube.com/watch?v=t62isi58XcQ) / [UpOnlyPodcast](https://www.youtube.com/watch?v=AjC9T938o3Q) / [ZEC Daily](https://www.youtube.com/playlist?list=PL6_epn0lASLGVQjz7Xt08sQsPC...) |
+
+*(Q–Z sections are currently empty — add terms here using the same table format when ready)*
 
 ---
 
