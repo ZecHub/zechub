@@ -26,7 +26,7 @@
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Windows | Linux | Viewing Key | PepperSync | Shielded Memo | Financial Insights | Unified Address | Address Book | Payment Request
+- Features: Windows | Linux | Viewing Key | PepperSync | Shielded Memo | Financial Insights | Unified Address | Address Book | Payment Request | Testnet
 
 ---
 
@@ -50,7 +50,7 @@
 ![logo](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Windows | Shielded Memo | Address Check | Unified Address | Automatic Shielding | Address Book | Payment Request | Diversified Address | TEX Address
+- Features: Windows | Shielded Memo | Address Check | Unified Address | Automatic Shielding | Address Book | Payment Request | Diversified Address | TEX Address | Testnet
 
 ---
 
@@ -58,7 +58,7 @@
 ![logo](https://i.ibb.co/BHGPff0K/zkool-1.png "Zkool")
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Windows | Linux | Viewing Key | MultiSignature (FROST) | Multi-Account Sync | Broad Key Support | FROST Multisig | Encrypted Exports | Address Rotation | Shielded Memo
+- Features: Windows | Linux | Viewing Key | MultiSignature (FROST) | Multi-Account Sync | Broad Key Support | FROST Multisig | Encrypted Exports | Address Rotation | Shielded Memo | Testnet
 
 ---
 
@@ -74,7 +74,7 @@
 ![logo](https://i.ibb.co/VtPBnm6/zenith-2.png "Zenith")
 - Devices: Full Node | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Linux | Graphical Interface | Unified Address | Shielded Memo | Address Book
+- Features: Linux | Graphical Interface | Unified Address | Shielded Memo | Address Book | Testnet
 
 ---
 
@@ -82,7 +82,7 @@
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo-CLI")
 - Devices: Full Node | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Linux | Command Line Interface | Unified Address | PepperSync | Shielded Memo
+- Features: Linux | Command Line Interface | Unified Address | PepperSync | Shielded Memo | Testnet
 
 ---
 
@@ -90,7 +90,7 @@
 ![logo](https://i.ibb.co/3mCrR0dN/Brandmark-Yellow.png "Zallet")
 - Devices: Full Node | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Unified Address | Shielded Memo | JSON-RPC Interface | Alpha Release 
+- Features: Unified Address | Shielded Memo | JSON-RPC Interface | Alpha Release | Testnet
 
 ---
 
