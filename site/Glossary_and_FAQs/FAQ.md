@@ -80,8 +80,8 @@ Further reading: [A Shielded Ecosystem](https://electriccoin.co/blog/shielded-ec
   <table className="w-full border-collapse rounded-2xl overflow-hidden">
     <thead>
       <tr className="border-b border-border bg-amber-100 dark:bg-zinc-950">
-        <th className="py-5 px-6 text-left font-bold text-amber-800 dark:text-white">Misconception</th>
-        <th className="py-5 px-6 text-left font-bold text-amber-800 dark:text-white">Correct Answer</th>
+        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Misconception</th>
+        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Correct Answer</th>
       </tr>
     </thead>
     <tbody>
