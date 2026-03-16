@@ -2,7 +2,7 @@
 ![logo](https://github.com/user-attachments/assets/198608b2-9059-4cb7-aeb8-9354971376fd "ZODL")
 - Devices: Mobile
 - Pools: Transparent | Sapling | Orchard
-- Features: Spend before Sync | Unified Address | Shielded Memo | Address Book | Payment Request | TEX Address | Tor Support | Flexa Payments | DEX Swaps | CrossPay | MultiSignature
+- Features: Address Book | CrossPay | DEX Swaps | Flexa Payments | MultiSignature | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | Unified Address
 
 ---
 
@@ -10,7 +10,7 @@
 ![logo](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Windows | Linux | WarpSync | Shielded Memo | Address Book | Cold Storage | Voting | Viewing Key | Pool Transfer | Payment Request | TEX Address | Diversified Address
+- Features: Address Book | Cold Storage | Diversified Address | Linux | Payment Request | Pool Transfer | Shielded Memo | TEX Address | Viewing Key | Voting | WarpSync | Windows
 
 ---
 
@@ -26,7 +26,7 @@
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Windows | Linux | Viewing Key | PepperSync | Shielded Memo | Financial Insights | Unified Address | Address Book | Payment Request
+- Features: Address Book | Financial Insights | Linux | Payment Request | PepperSync | Shielded Memo | Testnet Support | Unified Address | Viewing Key | Windows
 
 ---
 
@@ -34,7 +34,7 @@
 ![logo](https://i.ibb.co/4FVQLS9/image-2024-11-28-091312254.png "Edge")
 - Devices: Mobile
 - Pools: Transparent | Sapling
-- Features: Spend before Sync | Multi Coin | Unified Address | Shielded memo | Automatic Shielding | DEX Swaps
+- Features: Automatic Shielding | DEX Swaps | Multi Coin | Shielded Memo | Spend before Sync | Unified Address
 
 ---
 
@@ -42,7 +42,7 @@
 ![logo](https://i.ibb.co/C68mFCx/image-2024-11-28-091200540.png "Unstoppable")
 - Devices: Mobile
 - Pools: Transparent | Sapling | Orchard
-- Features: Spend before Sync | Multi Coin | Unified Address | DEX Swaps
+- Features: DEX Swaps | Multi Coin | Spend before Sync | Unified Address
 
 ---
 
@@ -50,7 +50,7 @@
 ![logo](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Windows | Shielded Memo | Address Check | Unified Address | Automatic Shielding | Address Book | Payment Request | Diversified Address | TEX Address
+- Features: Address Book | Address Check | Automatic Shielding | Diversified Address | Payment Request | Shielded Memo | TEX Address | Testnet Support | Unified Address | Windows
 
 ---
 
@@ -58,7 +58,7 @@
 ![logo](https://i.ibb.co/BHGPff0K/zkool-1.png "Zkool")
 - Devices: Mobile | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Windows | Linux | Viewing Key | MultiSignature (FROST) | Multi-Account Sync | Broad Key Support | FROST Multisig | Encrypted Exports | Address Rotation | Shielded Memo
+- Features: Address Rotation | Broad Key Support | Encrypted Exports | FROST Multisig | Linux | Multi-Account Sync | Shielded Memo | Testnet Support | Viewing Key | Windows
 
 ---
 
@@ -66,7 +66,7 @@
 ![logo](https://github.com/user-attachments/assets/a8234c70-3714-4e80-b918-8739d45aea00 "Cake")
 - Devices: Mobile | Desktop 
 - Pools: Transparent | Sapling | Orchard
-- Features: Address Rotation | Shielded Memo | DEX Swaps | Automatic Shielding | Address Book | Tor Support | Multi Coin
+- Features: Address Book | Address Rotation | Automatic Shielding | DEX Swaps | Multi Coin | Shielded Memo | Tor Support
 
 ---
 
@@ -74,7 +74,7 @@
 ![logo](https://i.ibb.co/VtPBnm6/zenith-2.png "Zenith")
 - Devices: Full Node | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Linux | Graphical Interface | Unified Address | Shielded Memo | Address Book
+- Features: Address Book | Graphical Interface | Linux | Shielded Memo | Testnet Support | Unified Address
 
 ---
 
@@ -82,7 +82,7 @@
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo-CLI")
 - Devices: Full Node | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Linux | Command Line Interface | Unified Address | PepperSync | Shielded Memo
+- Features: Command Line Interface | Linux | PepperSync | Shielded Memo | Testnet Support | Unified Address
 
 ---
 
@@ -90,7 +90,7 @@
 ![logo](https://i.ibb.co/3mCrR0dN/Brandmark-Yellow.png "Zallet")
 - Devices: Full Node | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features: Unified Address | Shielded Memo | JSON-RPC Interface | Alpha Release 
+- Features: Alpha Release | JSON-RPC Interface | Shielded Memo | Testnet Support | Unified Address
 
 ---
 
@@ -98,7 +98,7 @@
 ![logo](https://i.ibb.co/Xz2NskW/zcashd.png "Zcashd")
 - Devices: Full Node | Desktop
 - Pools: Transparent | Sapling | Orchard
-- Features:  Linux | Command Line Interface | Unified Address | Shielded Memo | Diversified Address | Testnet
+- Features: Command Line Interface | Diversified Address | Linux | Shielded Memo | Testnet Support | Unified Address
 
 ---
 
@@ -106,7 +106,7 @@
 ![logo](https://i.ibb.co/6yqMNwZ/image-2024-01-13-170934865.png "Brave")
 - Devices: Web
 - Pools: Transparent | Orchard
-- Features: Spend before Sync | Unified Address | Shielded Memo | Testnet
+- Features: Shielded Memo | Spend before Sync | Testnet Support | Unified Address
 
 ---
 
@@ -122,7 +122,7 @@
 ![logo](https://github.com/user-attachments/assets/91a1005a-3daf-4747-9442-c178cbe50e49 "Zucchini")
 - Devices: Web 
 - Pools: Transparent | Sapling | Orchard
-- Features:  DEX Swaps | Unified Address
+- Features: DEX Swaps | Unified Address
 
 ---
 
