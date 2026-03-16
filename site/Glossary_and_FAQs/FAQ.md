@@ -3,7 +3,7 @@
 A list of the most common questions about Zcash. For troubleshooting the Zcash client, please see the [official troubleshooting guide](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html).
 
 ### Quick Navigation
-[What is Zcash?](#what-is-zcash) • [How to acquire Zcash?](#acquire) • [Difference from other cryptocurrencies?](#difference) • [Protocol governance?](#governance) • [Where is my transaction?](#transaction) • [Is Zcash really private?](#privacy) • [Common Misconceptions](#misconceptions)
+[What is Zcash?](#what-is-zcash) * [How to acquire Zcash?](#acquire) * [Difference from other cryptocurrencies?](#difference) * [Protocol governance?](#governance) * [Where is my transaction?](#transaction) * [Is Zcash really private?](#privacy) * [Common Misconceptions](#misconceptions)
 
 ---
 
