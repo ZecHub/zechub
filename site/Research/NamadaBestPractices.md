@@ -90,7 +90,7 @@ Even the strongest on-chain privacy can be undermined by user behavior or off-ch
 ## Contribute
 
 Have additional best practices or feedback?  
-[Join the discussion on Discord →](https://discord.gg/srC76aE6)
+[Join the discussion on Discord](https://discord.gg/srC76aE6)
 
 ---
 *Last updated: March 2026*
