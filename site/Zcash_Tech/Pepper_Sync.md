@@ -78,7 +78,6 @@ Instead of rescanning the blockchain in huge, clunky chunks, Pepper Sync works i
 5. Update Balances - Wallet refreshes securely.
 6. Save Progress - Stops and resumes seamlessly.
 7. Finish - Wallet is ready to transact.
-
 ### VISUAL GUIDES:
 - Detailed Flow - Shows the full process. ![Detailed Flow](file:///C:/Users/User/Downloads/visual)
  
