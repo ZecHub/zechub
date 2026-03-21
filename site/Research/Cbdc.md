@@ -1,4 +1,4 @@
-![CBDC](https://blogs.worldbank.org/sites/default/files/styles/hero/public/2022-12/cbdc_illustration_hero_image.jpg.webp?itok=fWANE5--)
+![CBDC](https://github.com/ZecHub/zechub-wiki/blob/main/public/cbdc.webp)
 # Unveiling the Dark Side: Navigating the Central Bank Digital Currency (CBDC) Odyssey Amidst Financial Shadows
 By : [**Abhishek Tiwari**]
 
