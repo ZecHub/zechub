@@ -18,34 +18,34 @@ Pepper Sync introduces several improvements:
 ## WHAT'S BETTER THAN BEFORE
 Older versions of Zingo often frustrated users with long syncing times, unclear error handling, and heavy resource usage. Pepper Sync fixes these common issues:
 
-<table style="width: 100%; max-width: 950px; border-collapse: collapse; margin: 24px 0; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1); border-radius: 12px; overflow: hidden;">
+<table border="1" cellpadding="12" cellspacing="0" width="100%">
   <thead>
     <tr>
-      <th style="background-color: #15803d; color: white; padding: 18px 24px; text-align: left; font-weight: 700; font-size: 1.05rem;">Feature</th>
-      <th style="background-color: #15803d; color: white; padding: 18px 24px; text-align: left; font-weight: 700; font-size: 1.05rem;">Previous Zingo Versions</th>
-      <th style="background-color: #15803d; color: white; padding: 18px 24px; text-align: left; font-weight: 700; font-size: 1.05rem;">Zingo 2.0 with Pepper Sync</th>
+      <th>Feature</th>
+      <th>Previous Zingo Versions</th>
+      <th>Zingo 2.0 with Pepper Sync</th>
     </tr>
   </thead>
   <tbody>
-    <tr style="background-color: #f8fafc;">
-      <td style="padding: 18px 24px; border-bottom: 1px solid #e2e8f0; font-weight: 600; color: #1e2937;">Sync Speed</td>
-      <td style="padding: 18px 24px; border-bottom: 1px solid #e2e8f0;">Slower, especially on first setup</td>
-      <td style="padding: 18px 24px; border-bottom: 1px solid #e2e8f0; background-color: #f0fdf4; font-weight: 500; color: #166534;">Much faster initial and ongoing sync</td>
+    <tr>
+      <td><strong>Sync Speed</strong></td>
+      <td>Slower, especially on first setup</td>
+      <td><strong>Much faster initial and ongoing sync</strong></td>
     </tr>
-    <tr style="background-color: #ffffff;">
-      <td style="padding: 18px 24px; border-bottom: 1px solid #e2e8f0; font-weight: 600; color: #1e2937;">Error Handling</td>
-      <td style="padding: 18px 24px; border-bottom: 1px solid #e2e8f0;">Occasional stalls and unclear failures</td>
-      <td style="padding: 18px 24px; border-bottom: 1px solid #e2e8f0; background-color: #f0fdf4; font-weight: 500; color: #166534;">Improved stability with automatic recovery</td>
+    <tr>
+      <td><strong>Error Handling</strong></td>
+      <td>Occasional stalls and unclear failures</td>
+      <td><strong>Improved stability with automatic recovery</strong></td>
     </tr>
-    <tr style="background-color: #f8fafc;">
-      <td style="padding: 18px 24px; border-bottom: 1px solid #e2e8f0; font-weight: 600; color: #1e2937;">User Experience</td>
-      <td style="padding: 18px 24px; border-bottom: 1px solid #e2e8f0;">Sync felt “opaque” to newcomers</td>
-      <td style="padding: 18px 24px; border-bottom: 1px solid #e2e8f0; background-color: #f0fdf4; font-weight: 500; color: #166534;">Transparent, with clearer status and updates</td>
+    <tr>
+      <td><strong>User Experience</strong></td>
+      <td>Sync felt “opaque” to newcomers</td>
+      <td><strong>Transparent, with clearer status and updates</strong></td>
     </tr>
-    <tr style="background-color: #ffffff;">
-      <td style="padding: 18px 24px; font-weight: 600; color: #1e2937;">Device Performance</td>
-      <td style="padding: 18px 24px;">High CPU/memory usage</td>
-      <td style="padding: 18px 24px; background-color: #f0fdf4; font-weight: 500; color: #166534;">Optimized for smooth resource use</td>
+    <tr>
+      <td><strong>Device Performance</strong></td>
+      <td>High CPU/memory usage</td>
+      <td><strong>Optimized for smooth resource use</strong></td>
     </tr>
   </tbody>
 </table>
