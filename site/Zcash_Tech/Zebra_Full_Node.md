@@ -37,7 +37,7 @@ Building Zebra mandates Rust, libclang, and a C++ compiler.
 - Necessary build dependencies include:
   - libclang (also known as libclang-dev or llvm-dev)
   - clang or another C++ compiler (such as g++ for all platforms or Xcode for macOS)
-  - protoc (Protocol Buffers compiler) with the `--experimental_allow_proto3_optional` flag, introduced in Protocol Buffers v3.12.0 (released on May 16, 2020).
+  - protoc (Protocol Buffers compiler) with the *--experimental_allow_proto3_optional* flag, introduced in Protocol Buffers v3.12.0 (released on May 16, 2020).
 
 
 
@@ -71,19 +71,19 @@ zebrad start
   
   ```
 
-  - The generated `zebrad.toml` will be placed in the default preferences directory of Linux. For alternative OS default locations, refer to our documentation.
+  - The generated *zebrad.toml* will be placed in the default preferences directory of Linux. For alternative OS default locations, refer to our documentation.
 
 
 
 ### - Configuring Progress Bars:
 
-  - Configure `tracing.progress_bar` in your `zebrad.toml` to display crucial metrics in the terminal using progress bars. Note: A known issue exists where progress bar estimates can become exceedingly large.
+  - Configure *tracing.progress_bar* in your *zebrad.toml* to display crucial metrics in the terminal using progress bars. Note: A known issue exists where progress bar estimates can become exceedingly large.
 
 
 
 ### - Configuring Mining:
 
-  - Zebra can be tailored for mining by specifying a `MINER_ADDRESS` and port mapping in Docker. Further details can be found in our [Mining support documentation](https://zebra.zfnd.org/user/mining-docker.html).
+  - Zebra can be tailored for mining by specifying a *MINER_ADDRESS* and port mapping in Docker. Further details can be found in our [Mining support documentation](https://zebra.zfnd.org/user/mining-docker.html).
 
 
 ### - Custom Build Features:
