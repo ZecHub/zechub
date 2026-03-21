@@ -36,7 +36,7 @@ Why would a user ever want to do this? From Electric Coin Co.'s blog on the matt
 
 * Use the following with any vkey or ukey: 
 
-`./zcash-cli z_importviewingkey "vkey/ukey" whenkeyisnew 30000`
+*./zcash-cli z_importviewingkey "vkey/ukey" whenkeyisnew 30000*
 
 #### ywallet
 
