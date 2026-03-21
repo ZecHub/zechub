@@ -16,7 +16,16 @@ To get an overview of ZecHub, read the [README](https://github.com/ZecHub/zechub
 ZecHub uses GitHub to manage community contribution. If you are new to GitHub, not to worry! We are going to break down how you can get involved as a community contributor to ZecHub. We pay out tips in ZEC for accepted contribution. In this guide you will get an overview of the contribution workflow from opening an issue, creating a pull request (PR), reviewing, and merging the PR.
 
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/8eYDTyV39a4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/8eYDTyV39a4"
+    title="How to Contribute to ZecHub!"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
 
 
 ### Join the conversation
@@ -41,7 +50,17 @@ Any approved dev work that helps build the Zcash ecoystem. This can include our 
 
 Here is an example tutorial below:
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/qz4KzDjkqu8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/qz4KzDjkqu8"
+    title="WSL Install + Zcashd Compile/Transaction Tutorial"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
 
 Create and share tutorials on Zcash apps and get rewarded. Submit PR to zechub/tutorials or send video to #video-content channel in Discord. If video meets our criteria, we will post it and tip you.
 
