@@ -20,11 +20,11 @@ Why would a user ever want to do this? From Electric Coin Co.'s blog on the matt
 
 #### zcashd
 
-* List all known addresses using ` ./zcash-cli listaddresses`
+* List all known addresses using *./zcash-cli listaddresses*
 
 * Then issue the following command for either UA's or Sapling shielded addresses
 
-  `./zcash-cli z_exportviewingkey "<UA or Z address>"`
+  *./zcash-cli z_exportviewingkey "<UA or Z address>"*
 
 #### Ywallet
 
