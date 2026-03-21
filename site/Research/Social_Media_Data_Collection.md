@@ -3,6 +3,8 @@
 </a>
 
 
+# Social Media Data Collection
+
 Currently, it is difficult to find a person who is not exposed to the reach of social networks. They have become popular for their ease of use and their speed and effectiveness in spreading a message.
 
 Unfortunately, this same convenience has also made us, as users, careless about the amount of information that social media platforms collect about us and what they can do with it, or what a malicious third party could do if they were to gain access to it.
