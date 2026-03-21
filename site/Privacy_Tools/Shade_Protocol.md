@@ -54,7 +54,6 @@ Shade Protocol utilizes viewing keys for its two main tokens: Shade ($SHD) and S
 <a href="">
     <img src="https://framerusercontent.com/images/IUC9YWfErTebCBsMkdbCnjSWGEY.png" alt="" width="400" height="200"/>
 </a>
-<br><br>
 
 ### Privacy
 
