@@ -58,7 +58,7 @@ For example, consider an NFT listing on Solana; its public state (e.g., price) i
 ***
 
 
-**[ZKBOB](https://zkbob.com/)**: Protect your privacy with zkBob smart contract wallet. With zkBob, the contents of your wallet and the amounts you spend and receive are completely private. Use zkBob to send or receive salary, payments, donations, and more with privacy and built-in compliance. It also allows for private P2P transfers using zero-knowledge proof technology to protect recipients and anonymize amounts - **Asset Swap**: Yes -  ![ZKBOB.png](https://images.app.goo.gl/xTvi8nKC48WNCBGU7) - [Whitepaper](https://docs.zkbob.com/zkbob-overview/basic-concepts)
+**[ZKBOB](https://zkbob.com/)**: Protect your privacy with zkBob smart contract wallet. With zkBob, the contents of your wallet and the amounts you spend and receive are completely private. Use zkBob to send or receive salary, payments, donations, and more with privacy and built-in compliance. It also allows for private P2P transfers using zero-knowledge proof technology to protect recipients and anonymize amounts - **Asset Swap**: Yes -  ![ZKBOB.png](https://pbs.twimg.com/profile_images/1704381974700515328/aalptltf_400x400.jpg) - [Whitepaper](https://docs.zkbob.com/zkbob-overview/basic-concepts)
 ***
 
 **[Firo](https://firo.org/)**: Firo, formerly known as Zcoin, is a Layer 1 privacy blockchain catering to cryptocurrency privacy and mining. Firo is at the forefront of cryptocurrency privacy with Lelantus and Lelantus Spark providing trustless, on-chain privacy with high anonymity sets. Dandelion++ technology also provides network-layer privacy. Firo is at the forefront of cryptocurrency privacy with Lelantus and Lelantus Spark providing trustless, on-chain privacy with high anonymity sets. Dandelion++ technology also provides network-layer privacy - **Asset Swap**: Yes - ![Firo.png](https://avatars.githubusercontent.com/u/22083410?s=200&v=4)
@@ -91,5 +91,5 @@ For example, consider an NFT listing on Solana; its public state (e.g., price) i
 
 
 
-**[TomoChain](https://tomochain.com/ecosystem/)**: TOMO is a layer 1 public blockchain. Tomochain is a privacy protocol developed on TomoChain and designed to create safe and untraceable transactions -**Asset Swap**: Yes- [Whitepaper](https://tomochain.com/files/technical-whitepaper-1.0.pdf) - ![TomoChain.png](https://images.app.goo.gl/8VS4LKcnMBHjSkAj9)
+**[TomoChain](https://tomochain.com/ecosystem/)**: TOMO is a layer 1 public blockchain. Tomochain is a privacy protocol developed on TomoChain and designed to create safe and untraceable transactions -**Asset Swap**: Yes- [Whitepaper](https://tomochain.com/files/technical-whitepaper-1.0.pdf) - ![TomoChain.png](https://s1.coincarp.com/logo/1/tomochain.png?style=200)
 ***
