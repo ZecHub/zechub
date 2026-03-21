@@ -87,7 +87,7 @@ Here are some best practices for using PGP:
 * The email will be encrypted.
 
 <a href="">
-    <img src="https://github.com/ZecHub/zechub/assets/81990132/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e" alt="" width="400" height=250"/>
+    <img src="https://github.com/ZecHub/zechub/assets/81990132/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e" alt="" width="400" height="250"/>
 </a>
 
 ____
