@@ -33,25 +33,25 @@ BTCPay Server allows online businesses to accept cryptocurrency payments directl
 
 ## Why Use BTCPay Server with Zcash
 
-Online commerce increasingly accepts cryptocurrency. It’s fast, global, and works without banks. This benefits both merchants and customers. But there’s an important detail that many overlook.
+Online commerce increasingly accepts cryptocurrency. It's fast, global, and works without banks. This benefits both merchants and customers. But there's an important detail that many overlook.
 
-When placing an order, the customer typically provides personal information: name, shipping address, and phone number. If the payment is made using a public blockchain — such as Bitcoin, Ethereum, or stablecoins on Ethereum or Tron — the transaction becomes permanently visible for analysis.
+When placing an order, the customer typically provides personal information: name, shipping address, and phone number. If the payment is made using a public blockchain - such as Bitcoin, Ethereum, or stablecoins on Ethereum or Tron - the transaction becomes permanently visible for analysis.
 
 Anyone, even without knowing what was ordered, can:
 
 - see when and how much was paid  
 - trace where the funds came from and where they went  
-- link a cryptocurrency address to a real person if there’s any point of correlation (for example, a leaked email or shipping name)
+- link a cryptocurrency address to a real person if there's any point of correlation (for example, a leaked email or shipping name)
 
-This means that a single purchase may reveal a customer’s entire financial history.
+This means that a single purchase may reveal a customer's entire financial history.
 
-And it works the other way as well. If a merchant’s address has ever appeared on-chain, they become exposed. Competitors and third-party observers can track payment volumes, supplier activity, and the structure of business flows.
+And it works the other way as well. If a merchant's address has ever appeared on-chain, they become exposed. Competitors and third-party observers can track payment volumes, supplier activity, and the structure of business flows.
 
 ### The combination of BTCPay Server and Zcash can solve this.
 
 
 BTCPay Server is a free and decentralized system for receiving cryptocurrency payments.  
-It is not a payment intermediary and does not hold any funds. All payments go directly to the merchant’s wallet.  
+It is not a payment intermediary and does not hold any funds. All payments go directly to the merchant's wallet.  
 This can be a personal wallet or a multisig setup within an organization.
 
 The server handles coordination tasks:
@@ -81,13 +81,13 @@ An attacker only needs to link one order to the address to gain long-term visibi
 
 Now imagine the same situation with Zcash.  
 BTCPay Server generates a shielded address. The buyer sends the payment.  
-From the blockchain’s perspective, nothing happens. There is no public data to analyze.  
+From the blockchain's perspective, nothing happens. There is no public data to analyze.  
 The server receives confirmation, links it to the order, and completes the process.
 
 For any outsider, it looks like nothing occurred.  
-All logic remains between the store and the customer — as it should.
+All logic remains between the store and the customer - as it should.
 
-This solution doesn’t compromise automation or usability.  
+This solution doesn't compromise automation or usability.  
 Everything works the same as with other cryptocurrencies, just without the risk of data leaks.
 
 
@@ -101,7 +101,7 @@ BTCPay Server acts as a payment processing bridge between your e-commerce platfo
 2. **The store requests a payment invoice** from BTCPay Server. The server generates a unique invoice with:
    - The order amount
    - A countdown timer
-   - A Zcash Unified Address (UA) — e.g., `u1...` — which includes an Orchard (shielded) receiver by default.
+   - A Zcash Unified Address (UA) - e.g., `u1...` - which includes an Orchard (shielded) receiver by default.
 
 3. **The customer sees the payment page** and sends ZEC to the provided address.
 
@@ -115,16 +115,16 @@ BTCPay Server acts as a payment processing bridge between your e-commerce platfo
 6. **The customer receives a payment confirmation.** Optionally, the server can send a receipt via email.
 
 This entire process happens **automatically**, with no intermediaries or custodians.  
-BTCPay Server does **not hold any funds** — it simply connects the order system to the blockchain securely and privately.
+BTCPay Server does **not hold any funds** - it simply connects the order system to the blockchain securely and privately.
 ## Where Are Funds Stored? Who Controls the Private Keys?
 
 BTCPay Server is **not** a wallet and does **not require private keys**.  
-All funds go **directly** to the merchant’s wallet. Security is ensured by using a **viewing key-based architecture**.
+All funds go **directly** to the merchant's wallet. Security is ensured by using a **viewing key-based architecture**.
 
 ### How It Works
 
 - **The wallet is created in advance.**  
-  The merchant uses a Zcash wallet that supports viewing keys — such as [YWallet](https://ywallet.app/installation) or [Zingo! Wallet](https://zingolabs.org/).  
+  The merchant uses a Zcash wallet that supports viewing keys - such as [YWallet](https://ywallet.app/installation) or [Zingo! Wallet](https://zingolabs.org/).  
   A full list is available at [ZecHub.wiki](https://zechub.wiki/wallets).
 
 - **BTCPay Server connects via a viewing key.**  
@@ -139,14 +139,14 @@ All funds go **directly** to the merchant’s wallet. Security is ensured by usi
   enabling secure payment tracking and preventing address reuse.
 
 - **You retain full control over the funds.**  
-  Even if the server is compromised, no one can steal your money — only payment metadata could be exposed.
+  Even if the server is compromised, no one can steal your money - only payment metadata could be exposed.
 
 This design separates **infrastructure** from **asset control**.  
 You can update, migrate, or reinstall BTCPay Server without putting any funds at risk.
 
 ## How to Set Up BTCPay Server for Accepting Zcash
 
-In the previous sections, we explained how BTCPay Server works with Zcash and why it matters for privacy-preserving payments. Now it’s time to get hands-on.
+In the previous sections, we explained how BTCPay Server works with Zcash and why it matters for privacy-preserving payments. Now it's time to get hands-on.
 
 Your exact setup will depend on several factors:
 
@@ -154,9 +154,9 @@ Your exact setup will depend on several factors:
 - Do you want to use a public lightwalletd or run your own full node?
 - Will the server run on a VPS or at home?
 
-This chapter covers all current configuration scenarios — from minimal setups to fully sovereign deployments.
+This chapter covers all current configuration scenarios - from minimal setups to fully sovereign deployments.
 
-We’ll walk through the following:
+We'll walk through the following:
 
 - How to deploy everything from scratch on a VPS, including the full node (Zebra)
 - How to run BTCPay Server at home while keeping your IP hidden using **Cloudflare Tunnel**
@@ -166,17 +166,17 @@ We’ll walk through the following:
 
 ## Deploying BTCPay Server with Zcash Support
 
-Let’s move on to the actual setup. In this section, we’ll install BTCPay Server with Zcash support — either on a fresh VPS or by adding ZEC support to an existing instance.
+Let's move on to the actual setup. In this section, we'll install BTCPay Server with Zcash support - either on a fresh VPS or by adding ZEC support to an existing instance.
 
-If you already have BTCPay Server running (e.g. for BTC or Lightning), you don’t need to reinstall everything — just enable the ZEC plugin.
+If you already have BTCPay Server running (e.g. for BTC or Lightning), you don't need to reinstall everything - just enable the ZEC plugin.
 
-We’ll walk through various configurations, from minimal setups using a public `lightwalletd` node to fully sovereign installations with your own full node.  
+We'll walk through various configurations, from minimal setups using a public `lightwalletd` node to fully sovereign installations with your own full node.  
 The best option depends on your server location and how much independence you want from external infrastructure.
 
 > Official plugin documentation:  
 > [https://github.com/btcpay-zcash/btcpayserver-zcash-plugin](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
 >
-> **Warning — one wallet per instance:**  
+> **Warning - one wallet per instance:**  
 > The Zcash plugin uses **one shared wallet** across **all stores** in the BTCPay instance.  
 > If you host multiple independent stores on one instance, they will share the same Zcash wallet.  
 > Use separate instances if you need strict wallet isolation.
@@ -188,7 +188,7 @@ The best option depends on your server location and how much independence you wa
 Before installing, make sure you have:
 
 - A VPS with **Ubuntu 22.04+**
-- A domain name pointing to your server’s IP address (via DNS)
+- A domain name pointing to your server's IP address (via DNS)
 - `git`, `docker`, and `docker-compose` installed
 - SSH access to the server
 
@@ -211,18 +211,18 @@ Any VPS provider that offers a dedicated IP address will work.
 - 4 GB RAM  
 - 40 GB disk space  
 
-This setup is sufficient if you’re using lightwalletd for Zcash.  
-If you plan to run a **full Zcash node**, you’ll need **at least 300 GB** of free disk space.
+This setup is sufficient if you're using lightwalletd for Zcash.  
+If you plan to run a **full Zcash node**, you'll need **at least 300 GB** of free disk space.
 
 ---
 
 ### 2. Domain name pointing to your server
 
-In your DNS provider’s dashboard, create an `A` record for a subdomain  
+In your DNS provider's dashboard, create an `A` record for a subdomain  
 (e.g. `btcpay.example.com`) that points to your VPS IP address.  
 
 This domain will be used to access BTCPay Server from the browser  
-and to automatically generate a **free SSL certificate** via Let’s Encrypt.
+and to automatically generate a **free SSL certificate** via Let's Encrypt.
 
 ---
 
@@ -298,7 +298,7 @@ You can add new coins at any time by exporting the appropriate variables and rer
 . ./btcpay-setup.sh -i
 ```
 
-For this guide, we’ll focus on **Zcash only**.
+For this guide, we'll focus on **Zcash only**.
 
 ---
 
@@ -319,7 +319,7 @@ Once complete, your BTCPay Server instance will be available at:
 https://btcpay.example.com
 ```
 
-> If you’re modifying an existing installation (e.g. adding ZEC), be sure to stop and restart the server with new settings:
+> If you're modifying an existing installation (e.g. adding ZEC), be sure to stop and restart the server with new settings:
 
 ```bash
 cd ~/BTCPayServer/btcpayserver-docker
@@ -334,7 +334,7 @@ Then proceed to the next section to configure Zcash in the BTCPay Server web int
 ## Running Your Own Zcash Full Node (Zebra + Lightwalletd)
 
 If you prefer **not** to rely on public `lightwalletd` nodes, you can deploy your own full Zcash node along with Lightwalletd on the same server.  
-This gives you **full autonomy** — no external dependencies, no trust required.
+This gives you **full autonomy** - no external dependencies, no trust required.
 
 ---
 
@@ -352,7 +352,7 @@ Breakdown:
 - **400 GB+** if the server is used **only** for Zcash payments
 - **800 GB+** if the server also runs BTCPay Server, PostgreSQL, Nginx, etc.
 
-> Ideally use an SSD/NVMe disk with **1 TB capacity**, especially if you don’t plan to prune data regularly.
+> Ideally use an SSD/NVMe disk with **1 TB capacity**, especially if you don't plan to prune data regularly.
 
 ---
 
@@ -387,7 +387,7 @@ The script will:
 
 ## Connecting to an External `lightwalletd` Node (Custom Configuration)
 
-In most cases, full autonomy isn’t required — and merchants may not want to spend time and disk space running a full Zcash node.  
+In most cases, full autonomy isn't required - and merchants may not want to spend time and disk space running a full Zcash node.  
 By default, BTCPay Server connects to a public `lightwalletd` node to handle shielded payments without downloading the entire blockchain.
 
 The default endpoint is:
@@ -431,7 +431,7 @@ exclusive:
 ```
 
 The `exclusive` directive ensures that only one fragment with the same label (`zcash` in this case) can be active at a time.
-This prevents configuration conflicts — for example, you cannot run both the `zcash-fullnode` fragment and this custom external `lightwalletd` fragment simultaneously.
+This prevents configuration conflicts - for example, you cannot run both the `zcash-fullnode` fragment and this custom external `lightwalletd` fragment simultaneously.
 By marking it as `exclusive: zcash`, BTCPay Server will automatically disable the default `zcash-fullnode` and internal `lightwalletd` containers, allowing you to connect to your own external node instead.
 
 ---
@@ -471,7 +471,7 @@ You can use:
 
 > Want to self-host `lightwalletd`?
 > You can use the `docker-compose.lwd.yml` from the [Zebra repository](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml).
-> **Warning:** This setup is not officially documented and requires manual TLS setup, port forwarding, and firewall configuration — recommended for advanced users only.
+> **Warning:** This setup is not officially documented and requires manual TLS setup, port forwarding, and firewall configuration - recommended for advanced users only.
 
 ---
 
@@ -488,10 +488,10 @@ From now on, the Zcash plugin will use that external endpoint for handling shiel
 
 ## Hosting BTCPay Server at Home with Cloudflare Tunnel
 
-Want to accept Zcash payments while hosting BTCPay Server on a home device — like a Raspberry Pi 5 or any local server **without a static IP**?  
+Want to accept Zcash payments while hosting BTCPay Server on a home device - like a Raspberry Pi 5 or any local server **without a static IP**?  
 You can securely expose your instance to the internet using **Cloudflare Tunnel**.
 
-This method avoids port forwarding and hides your real IP address from the public — while keeping your server accessible over HTTPS.
+This method avoids port forwarding and hides your real IP address from the public - while keeping your server accessible over HTTPS.
 
 It also helps you **avoid the cost of renting a VPS**, which is ideal if cryptocurrency payments are an optional feature rather than the core of your business.
 
@@ -522,13 +522,13 @@ Cloudflare will automatically create a `credentials` file with a token on your s
 cloudflared tunnel create btcpay
 ```
 
-This generates a `btcpay.json` file containing the tunnel ID and credentials — you’ll need it in the next step.
+This generates a `btcpay.json` file containing the tunnel ID and credentials - you'll need it in the next step.
 
 ---
 
 ### Step 2: Create Tunnel Configuration File
 
-Create the configuration directory (if it doesn’t exist) and open the config file:
+Create the configuration directory (if it doesn't exist) and open the config file:
 
 ```bash
 sudo mkdir -p /etc/cloudflared
@@ -549,10 +549,10 @@ ingress:
 
 #### Explanation:
 
-* `tunnel` — name of the tunnel you created earlier
-* `credentials-file` — path to the token file generated during `cloudflared tunnel login`
-* `hostname` — your domain registered with Cloudflare (e.g. `btcpay.example.com`)
-* `service` — local address of your BTCPay Server (usually `http://127.0.0.1:80` for Nginx)
+* `tunnel` - name of the tunnel you created earlier
+* `credentials-file` - path to the token file generated during `cloudflared tunnel login`
+* `hostname` - your domain registered with Cloudflare (e.g. `btcpay.example.com`)
+* `service` - local address of your BTCPay Server (usually `http://127.0.0.1:80` for Nginx)
 
 > Cloudflare will proxy traffic securely to your local server, without exposing your home IP.
 
@@ -567,7 +567,7 @@ btcpay.example.com → <UUID>.cfargotunnel.com
 
 ````
 
-If it doesn’t appear automatically, add it manually:
+If it doesn't appear automatically, add it manually:
 
 1. Go to your [Cloudflare Dashboard](https://dash.cloudflare.com/)
 2. Navigate to the **DNS** section
@@ -607,7 +607,7 @@ sudo systemctl status cloudflared
 
 You should see a message like `Active: active (running)` and confirmation that `btcpay.example.com` is online.
 
-> From now on, the tunnel will start automatically on every reboot, and your BTCPay Server will be publicly accessible — without port forwarding and without exposing your real IP.
+> From now on, the tunnel will start automatically on every reboot, and your BTCPay Server will be publicly accessible - without port forwarding and without exposing your real IP.
 
 ---
 
@@ -644,8 +644,8 @@ https://btcpay.example.com
 > **Important for multi-store setups:**  
 > The Zcash wallet configured here is **global** to the instance. All stores will use this wallet unless you run separate BTCPay instances.
 
-After successfully deploying your BTCPay Server instance, you’ll need to perform some basic configuration via the admin web interface.  
-The official documentation provides full instructions in English — here, we'll walk through the essential steps and focus specifically on configuring the Zcash plugin.
+After successfully deploying your BTCPay Server instance, you'll need to perform some basic configuration via the admin web interface.  
+The official documentation provides full instructions in English - here, we'll walk through the essential steps and focus specifically on configuring the Zcash plugin.
 
 ---
 
@@ -660,7 +660,7 @@ Visit your instance at:
 ```
 
 - Enter your administrator login and password.
-- If this is your first time logging in, you’ll be prompted to create an account.
+- If this is your first time logging in, you'll be prompted to create an account.
 - The first account you register will automatically be assigned admin privileges.
 
 ---
@@ -695,7 +695,7 @@ Zcash → Settings
 
 ```
 
-2. Paste your **Unified Full Viewing Key (UFVK)** — BTCPay will derive a Unified Address for each invoice and detect incoming shielded payments.
+2. Paste your **Unified Full Viewing Key (UFVK)** - BTCPay will derive a Unified Address for each invoice and detect incoming shielded payments.
 
 > **Note:** Legacy Sapling viewing keys are supported, but to use Orchard/Unified Addresses you should provide a **UFVK**.
 
@@ -710,9 +710,9 @@ uview184syv9wftwngkay8d...
 
 3. Enter a value in the Block height field
 
-* **First-time setup with a new wallet (new seed phrase):** enter the current Zcash block height (you can check it at 3xpl.com/zcash) — this speeds up initial scanning.
+* **First-time setup with a new wallet (new seed phrase):** enter the current Zcash block height (you can check it at 3xpl.com/zcash) - this speeds up initial scanning.
 * **Migrating on the same server from a legacy Sapling-only setup to Unified Addresses / Orchard:** leave this field empty.
-* **Moving your store to a new server with the same wallet/UFVK:** optionally enter the birth height — an approximate height of your store’s first paid order (match the order date on 3xpl to narrow the scan). If unsure, leave it empty.
+* **Moving your store to a new server with the same wallet/UFVK:** optionally enter the birth height - an approximate height of your store's first paid order (match the order date on 3xpl to narrow the scan). If unsure, leave it empty.
 
 > Not all wallets support **Unified Full Viewing Key (UFVK)** export yet.  
 > Recommended options:  
@@ -732,9 +732,9 @@ Once all fields are filled out, click **Save**.
 
 ### Test Your ZEC Payment Flow
 
-Congratulations — your Zcash wallet is now connected to BTCPay Server.
+Congratulations - your Zcash wallet is now connected to BTCPay Server.
 
-Let’s run a test:
+Let's run a test:
 
 1. Go to:
 
@@ -749,14 +749,14 @@ Invoices → Create New
 4. Once the transaction is detected, the invoice page will display a visual celebration 🎉.
 5. Confirm that the invoice status changes to **Paid**.
 
-If everything works — you're ready to integrate ZEC payments into your website using the API or CMS plugins.
+If everything works - you're ready to integrate ZEC payments into your website using the API or CMS plugins.
 
 
 
 ## Integrating BTCPay Server with Your Website
 
 Once your Zcash wallet is connected to BTCPay Server, you can integrate the payment system into your website.  
-There are several ways to do this — from direct API access to ready-to-use plugins for popular CMS platforms.
+There are several ways to do this - from direct API access to ready-to-use plugins for popular CMS platforms.
 
 ---
 
@@ -764,12 +764,12 @@ There are several ways to do this — from direct API access to ready-to-use plu
 
 - **API Integration**  
   Ideal for custom-built websites or systems without a CMS.  
-  Gives you full control over invoice creation, payment tracking, and notifications — all within your own interface and logic.  
+  Gives you full control over invoice creation, payment tracking, and notifications - all within your own interface and logic.  
   Requires basic programming knowledge, so this task is best handled by your developer.
 
 - **CMS Plugins**  
   Available for platforms like **WooCommerce**, **PrestaShop**, and others.  
-  These plugins allow you to accept payments in just a few minutes — no coding required.
+  These plugins allow you to accept payments in just a few minutes - no coding required.
 
 - **Payment Button or Iframe**  
   The simplest method.  
@@ -798,11 +798,11 @@ To integrate BTCPay Server with your website or app, you'll need to generate an 
 5. In the **Permissions** section, enable:
    - `Can create invoice`
    - `Can view invoice`
-   - *(Optional)* `Can modify store settings` — only if you need store-level management
+   - *(Optional)* `Can modify store settings` - only if you need store-level management
 
-6. Click **Generate**. Your personal API key will be displayed — copy and store it securely.
+6. Click **Generate**. Your personal API key will be displayed - copy and store it securely.
 
-> This key grants access to your store’s invoices.  
+> This key grants access to your store's invoices.  
 > Do **not** share it publicly or expose it in client-side code.
 
 ---
@@ -832,7 +832,7 @@ Content-Type: application/json
 
 **Response:**
 
-You’ll receive a JSON object with:
+You'll receive a JSON object with:
 
 * `invoiceId`
 * A payment URL that you can embed on your website or send to the customer
@@ -885,13 +885,13 @@ WooCommerce → Settings → Payments
 
 > Detailed instructions, video tutorials, and troubleshooting guides are available in the plugin documentation.
 
-You’ll also find other CMS integration options in that same section of the BTCPay docs.
+You'll also find other CMS integration options in that same section of the BTCPay docs.
 
 ---
 
 ### Payment Button or Iframe (No CMS or API Needed)
 
-If you don’t use a CMS and don’t want to work with APIs, the easiest way to accept ZEC payments is to **embed a payment link or widget** directly on your website.
+If you don't use a CMS and don't want to work with APIs, the easiest way to accept ZEC payments is to **embed a payment link or widget** directly on your website.
 
 This method is ideal for:
 
@@ -931,18 +931,18 @@ To display the invoice directly on your site, use an iframe:
 <iframe src="https://btcpay.example.com/i/abc123" width="600" height="350" frameborder="0"></iframe>
 ```
 
-> You can style the button or iframe container to match your site’s design — BTCPay Server allows flexible theming of the invoice page.
+> You can style the button or iframe container to match your site's design - BTCPay Server allows flexible theming of the invoice page.
 
 ## Conclusion
 
-This guide was long — but it only covers the foundational aspects of integrating Zcash payments with BTCPay Server.
+This guide was long - but it only covers the foundational aspects of integrating Zcash payments with BTCPay Server.
 
 The BTCPay Server interface offers far more functionality than we've shown here. Luckily, the UI is available in multiple languages (including Russian), making it easy to explore and experiment further.
 
 BTCPay is a highly flexible tool. You can:
 
 * Host multiple independent stores on a single instance
-* Define custom roles and permissions for team members — from order view-only to full admin
+* Define custom roles and permissions for team members - from order view-only to full admin
 * Use your own domains and branding
 * Set up webhooks, fallback wallets, and even Tor access
 * Configure advanced settings such as tax rules, discount codes, checkout page customization, payment method restrictions, and more
