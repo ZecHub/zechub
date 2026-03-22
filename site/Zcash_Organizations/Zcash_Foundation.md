@@ -39,32 +39,100 @@ This program funds independent teams to perform major ongoing development (or ot
   
 **Zebrad for Linux Tutorials**
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?si=SZKFP5eAFDJ0MjJj&amp;list=PL40dyJ0UYTLI671cVldA_DhFSYxNwUJeQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/videoseries?si=fIbX-UP6HCMET0R2&amp;list=PL40dyJ0UYTLKyRbrz0sVLSWUh6bdVsQE1"
+    title="Zebrad for Linux Tutorials"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+    
 **How to Zcash**
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?si=fIbX-UP6HCMET0R2&amp;list=PL40dyJ0UYTLKyRbrz0sVLSWUh6bdVsQE1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/videoseries?si=fIbX-UP6HCMET0R2&amp;list=PL40dyJ0UYTLKyRbrz0sVLSWUh6bdVsQE1"
+    title="How to Zcash"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
 
 **Zcon Vozes: Brasil 2023**
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?si=2h0YZZuRvayZ34Fb&amp;list=PL40dyJ0UYTLJm_hwYzpEPOOafwihL_mIu" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/videoseries?si=2h0YZZuRvayZ34Fb&amp;list=PL40dyJ0UYTLJm_hwYzpEPOOafwihL_mIu"
+    title="Zcon Vozes: Brasil 2023"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
 
 **Zcash Foundation Board of Directors Members: Marta Belcher & J.W. Verret**
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?si=-WAPUBOExiYuQsVF&amp;list=PL40dyJ0UYTLI4cD6vfIZ8wt_8mUwPpXkH" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/videoseries?si=-WAPUBOExiYuQsVF&amp;list=PL40dyJ0UYTLI4cD6vfIZ8wt_8mUwPpXkH"
+    title="Zcash Foundation Board of Directors Members: Marta Belcher & J.W. Verret"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
 
 **Arti: ZF + ZCG Call w/ the Tor Project**
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?si=x7WXFi3JMGrYVY4l&amp;list=PL40dyJ0UYTLLA3t2bIBqorYsbtnX-kEyq" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/videoseries?si=x7WXFi3JMGrYVY4l&amp;list=PL40dyJ0UYTLLA3t2bIBqorYsbtnX-kEyq"
+    title="Arti: ZF + ZCG Call w/ the Tor Project"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
 
 
 **Community Calls for ZCAP Votes**
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?si=3_ccLKMzaNbBUxNm&amp;list=PL40dyJ0UYTLLcfeghHf_2u-2qc26k9GEA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/videoseries?si=3_ccLKMzaNbBUxNm&amp;list=PL40dyJ0UYTLLcfeghHf_2u-2qc26k9GEA"
+    title="Community Calls for ZCAP Votes"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
 
 **AMA with ZF Executive Director Jack Gavigan**
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/S3uGdNEMymI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/S3uGdNEMymI"
+    title="AMA with ZF Executive Director Jack Gavigan"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
 
 ## Resources
 
