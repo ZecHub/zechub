@@ -104,10 +104,10 @@ Once your ZEC arrives, use your Zcash wallet's **shield** function (available in
 
 ShapeShift enables ZEC swaps across multiple blockchain ecosystems, including:
 
-- **Bitcoin** (BTC) <-> ZEC
-- **Ethereum** (ETH) <-> ZEC
-- **Arbitrum** assets <-> ZEC
-- **Cosmos** ecosystem tokens <-> ZEC
+- **Bitcoin** (BTC) &lt;-&gt; ZEC
+- **Ethereum** (ETH) &lt;-&gt; ZEC
+- **Arbitrum** assets &lt;-&gt; ZEC
+- **Cosmos** ecosystem tokens &lt;-&gt; ZEC
 
 ---
 
