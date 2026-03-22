@@ -1,4 +1,4 @@
-# Zingo 2.0 - Pepper Sync
+# Zingo 2.0 - PepperSync
 
 ## INTRODUCTION
 Zingo 2.0 is the latest version of the Zingo! wallet, a lightweight, open-source wallet built for the Zcash community. The star of this release is Pepper Sync, a major upgrade that completely rethinks how wallets connect with the blockchain.
