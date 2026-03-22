@@ -11,7 +11,7 @@ Curate links for the newsletter and add them to the newsletter's github page: ->
 Fact check the wiki docs, suggest edits, and propose new pages in Github
 
 Create video content in the following categories:
-```markdown
+```
 * Zcash explainer videos
 * Zcash wallet guide/tutorials
 * Third-party application demos
