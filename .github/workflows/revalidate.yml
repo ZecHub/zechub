@@ -1,0 +1,17 @@
+name: Auto Revalidate Vercel Cache
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "**/*.md"
+      - "**/*.mdx"
+
+jobs:
+  revalidate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel revalidation
+        run: |
+          curl -X GET "https://zechub.wiki/api/revalidate?secret=${{ secrets.REVALIDATE_SECRET }}" \
+            -H "Content-Type: application/json"
