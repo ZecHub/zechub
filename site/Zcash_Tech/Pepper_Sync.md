@@ -45,7 +45,7 @@ Older versions of Zingo often frustrated users with long syncing times, unclear 
       </tr>
       <tr className="bg-slate-50 hover:bg-slate-100 dark:bg-slate-800 dark:hover:bg-slate-700">
         <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 font-semibold text-slate-800 dark:text-slate-200">User Experience</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Sync felt “opaque” to newcomers</td>
+        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Sync felt "opaque" to newcomers</td>
         <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 bg-emerald-50 dark:bg-emerald-950 font-medium text-emerald-800 dark:text-emerald-300">Transparent, with clearer status and updates</td>
       </tr>
       <tr className="hover:bg-slate-100 dark:hover:bg-slate-700">
