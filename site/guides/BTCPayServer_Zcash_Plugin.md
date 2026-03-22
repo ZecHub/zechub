@@ -321,7 +321,7 @@ https://btcpay.example.com
 
 > If you're modifying an existing installation (e.g. adding ZEC), be sure to stop and restart the server with new settings:
 
-```bash
+```
 cd ~/BTCPayServer/btcpayserver-docker
 btcpay-down.sh
 . ./btcpay-setup.sh -i
