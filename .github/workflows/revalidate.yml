@@ -4,8 +4,8 @@ on:
   push:
     branches: [ main ]
     paths:
-      - "**/*.md"
-      - "**/*.mdx"
+      - "site/**/*.md"
+      - "site/**/*.mdx"
 
 jobs:
   revalidate:
@@ -13,5 +13,6 @@ jobs:
     steps:
       - name: Trigger Vercel revalidation
         run: |
-          curl -X GET "https://zechub.wiki/api/revalidate?secret=${{ secrets.REVALIDATE_SECRET }}" \
+          curl -G "https://zechub.wiki/api/revalidate" \
+            --data-urlencode "secret=${{ secrets.REVALIDATE_SECRET }}" \
             -H "Content-Type: application/json"
