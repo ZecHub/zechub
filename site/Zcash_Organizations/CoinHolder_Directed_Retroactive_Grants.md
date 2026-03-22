@@ -20,11 +20,10 @@ Completed, publicly verifiable work benefiting Zcash (privacy, adoption, tooling
 
 **Criteria** (coinholders evaluate):
 
-```markdown
   - Demonstrated impact and delivered value.
   - Alignment with Zcash values (privacy, decentralization).
   - Transparent evidence (code, reports, metrics).
-```
+
 
 **No restrictions**: 
 
@@ -42,26 +41,25 @@ By Key-Holders for legal issues or harm to users/community (rare, with rationale
 
 **Prepare Proposal**:
 
-```markdown
 - Describe completed work, impact, evidence (links, deliverables).
 - Specify requested amount (ZEC/USD equivalent) and justification.
 - Include payout address and contact.
-```
+
 
 **Submit**:
 
-```markdown
+
 - Post on Zcash Community Forum (forum.zcashcommunity.com) in the Grants section.
 - Title: "[Retroactive Grant] - [Project Name]".
 - Use clear markdown format.
-```
+
 
 **Deadline**:
 
-```markdown
+
 - Quarterly; announced on forum/X (e.g., Q4 2025: October 12, 2025, 11:59 PM UTC).
 - Late submissions: Resubmit next round or apply to ZCG.
-```
+
 
 **Engage**:
 
@@ -91,13 +89,12 @@ Soon after; approved grants paid per terms (KYC for >$50k).
 
 **Voting**:
 
-```markdown
   - Coinholders vote with ZEC holdings (no lockup; Orchard pool eligible).
   - Mechanism: Decentralized polling (e.g., via voting authorities).
   - **Approval**: at least 420,000 ZEC quorum + simple majority yes.
   - Independent votes; coins reusable across proposals.
   - Public, transparent results.
-```
+
 
 #### note: **Current Round (as of January 5, 2026)**: Q4 2025 completed (November vote); Q1 2026 submissions expected soon - monitor forum for announcements.
 
