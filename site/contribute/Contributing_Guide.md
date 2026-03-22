@@ -68,7 +68,7 @@ Create and share tutorials on Zcash apps and get rewarded. Submit PR to zechub/t
 
 Our wiki site provides Zcash education materials in an easy and digestible format. Zcash is a very advanced technology with a vibrant community, so there's still more documentation we need to build. Our goal is to build documentation on:
 
-```markdown
+```
 - Zcash and its related technologies
 - ZEC (Zcash currency) Use cases
 - New User Guides
