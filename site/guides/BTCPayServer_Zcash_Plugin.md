@@ -344,8 +344,8 @@ A full Zcash node (Zebra + Lightwalletd) currently requires **300+ GB** of disk 
 
 Breakdown:
 
-- The Zebra blockchain database: ~260–270 GB
-- Lightwalletd indexing: ~15–20 GB
+- The Zebra blockchain database: ~260-270 GB
+- Lightwalletd indexing: ~15-20 GB
 
 #### Recommended storage:
 
