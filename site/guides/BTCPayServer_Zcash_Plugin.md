@@ -231,7 +231,7 @@ and to automatically generate a **free SSL certificate** via Let's Encrypt.
 To install BTCPay Server, you must connect to your VPS via SSH.  
 From your terminal, run:
 
-```bash
+```
 ssh root@YOUR_SERVER_IP
 ````
 
@@ -244,7 +244,7 @@ On plain Windows, use an SSH client like **PuTTY**.
 
 Once connected via SSH, update your system packages and install the required components:
 
-```bash
+```
 sudo apt update && sudo apt upgrade -y
 sudo apt install git curl docker.io docker-compose-plugin -y
 sudo systemctl enable docker
@@ -263,7 +263,7 @@ Your server environment is now ready for installing BTCPay Server.
 
 Create a working directory and download the BTCPay Server Docker deployment:
 
-```bash
+```
 mkdir BTCPayServer
 cd BTCPayServer
 git clone https://github.com/btcpayserver/btcpayserver-docker
@@ -276,7 +276,7 @@ cd btcpayserver-docker
 
 Replace `btcpay.example.com` with your actual domain:
 
-```bash
+```
 export BTCPAY_HOST="btcpay.example.com"
 export NBITCOIN_NETWORK="mainnet"
 export BTCPAYGEN_CRYPTO1="btc"
@@ -287,14 +287,14 @@ export BTCPAYGEN_LIGHTNING="none"
 
 > If you plan to add Monero or Litecoin later, you can include them now:
 
-```bash
+```
 export BTCPAYGEN_CRYPTO3="ltc"
 export BTCPAYGEN_CRYPTO4="xmr"
 ```
 
 You can add new coins at any time by exporting the appropriate variables and rerunning the setup script:
 
-```bash
+```
 . ./btcpay-setup.sh -i
 ```
 
@@ -306,7 +306,7 @@ For this guide, we'll focus on **Zcash only**.
 
 Run the setup script to build and launch the server:
 
-```bash
+```
 . ./btcpay-setup.sh -i
 ```
 
@@ -360,7 +360,7 @@ Breakdown:
 
 Append the following to your environment setup to activate the full node configuration:
 
-```bash
+```
 export BTCPAYGEN_EXCLUDE_FRAGMENTS="zcash"
 export BTCPAYGEN_ADDITIONAL_FRAGMENTS="zcash-fullnode"
 ````
@@ -371,7 +371,7 @@ This will include the `zcash-fullnode` fragment, which launches both `zebrad` an
 
 ### Step 3: Re-run the Installer
 
-```bash
+```
 . ./btcpay-setup.sh -i
 ```
 
@@ -417,7 +417,7 @@ This section shows how to do that using a **custom Docker fragment**.
 
 In your BTCPayServer project directory, create a custom fragment file:
 
-```bash
+```
 cd ~/BTCPayServer/btcpayserver-docker
 mkdir -p docker-compose-generator/docker-fragments
 nano docker-compose-generator/docker-fragments/zcash-lightwalletd.custom.yml
@@ -440,7 +440,7 @@ By marking it as `exclusive: zcash`, BTCPay Server will automatically disable th
 
 In the terminal:
 
-```bash
+```
 export BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCLUDE_FRAGMENTS;zcash"
 export BTCPAYGEN_ADDITIONAL_FRAGMENTS="$BTCPAYGEN_ADDITIONAL_FRAGMENTS;zcash-lightwalletd.custom"
 ```
@@ -451,13 +451,13 @@ export BTCPAYGEN_ADDITIONAL_FRAGMENTS="$BTCPAYGEN_ADDITIONAL_FRAGMENTS;zcash-lig
 
 Open your `.env` file:
 
-```bash
+```
 nano .env
 ```
 
 Add the following line, replacing the URL with your chosen endpoint:
 
-```bash
+```
 ZCASH_LIGHTWALLETD=https://lightwalletd.example:443
 ```
 
@@ -477,7 +477,7 @@ You can use:
 
 ### Step 4: Re-run the Installer
 
-```bash
+```
 . ./btcpay-setup.sh -i
 ```
 
@@ -502,14 +502,14 @@ It also helps you **avoid the cost of renting a VPS**, which is ideal if cryptoc
 1. Create an account at [cloudflare.com](https://www.cloudflare.com) and add your domain.
 2. On your **home server**, install Cloudflare Tunnel:
 
-```bash
+```
 sudo apt update
 sudo apt install cloudflared --legacy
 ````
 
 3. Authenticate with Cloudflare:
 
-```bash
+```
 cloudflared tunnel login
 ```
 
@@ -518,7 +518,7 @@ Cloudflare will automatically create a `credentials` file with a token on your s
 
 4. Create a new tunnel (you can name it `btcpay` or anything else):
 
-```bash
+```
 cloudflared tunnel create btcpay
 ```
 
@@ -530,7 +530,7 @@ This generates a `btcpay.json` file containing the tunnel ID and credentials - y
 
 Create the configuration directory (if it doesn't exist) and open the config file:
 
-```bash
+```
 sudo mkdir -p /etc/cloudflared
 sudo nano /etc/cloudflared/config.yml
 ```
@@ -575,7 +575,7 @@ If it doesn't appear automatically, add it manually:
    - **Name**: `btcpay`
    - **Target**: `<UUID>.cfargotunnel.com`  
      You can find the exact value in your `btcpay.json` file or by running:
-     ```bash
+     ```
      cloudflared tunnel list
      ```
    - **Proxy status**: Enabled (orange cloud)
@@ -588,20 +588,20 @@ If it doesn't appear automatically, add it manually:
 
 To make the tunnel run automatically at boot, install it as a system service:
 
-```bash
+```
 sudo cloudflared service install
 ````
 
 Then enable and start the service:
 
-```bash
+```
 sudo systemctl enable cloudflared
 sudo systemctl start cloudflared
 ```
 
 Check the status:
 
-```bash
+```
 sudo systemctl status cloudflared
 ```
 
@@ -615,7 +615,7 @@ You should see a message like `Active: active (running)` and confirmation that `
 
 If you're about to install BTCPay Server for the first time, set your domain before running the setup script:
 
-```bash
+```
 export BTCPAY_HOST="btcpay.example.com"
 ```
 
@@ -623,7 +623,7 @@ This ensures the correct domain is used when generating the **Nginx configuratio
 
 If BTCPay Server is already installed and you're just adding the tunnel:
 
-```bash
+```
 cd ~/BTCPayServer/btcpayserver-docker
 . ./btcpay-setup.sh -i
 ```
