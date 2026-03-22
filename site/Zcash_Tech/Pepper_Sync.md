@@ -24,34 +24,34 @@ Pepper Sync introduces several improvements:
 Older versions of Zingo often frustrated users with long syncing times, unclear error handling, and heavy resource usage. Pepper Sync fixes these common issues:
 
 <div className="overflow-x-auto my-8">
-  <table className="w-full min-w-[640px] max-w-[950px] mx-auto border-collapse shadow-xl rounded-2xl overflow-hidden">
+  <table className="w-full min-w-[640px] max-w-[950px] mx-auto border-collapse shadow-xl rounded-2xl overflow-hidden dark:shadow-2xl">
     <thead>
       <tr>
-        <th className="bg-emerald-400 text-emerald-950 px-4 py-4 sm:px-6 sm:py-5 text-left font-bold text-base sm:text-lg tracking-tight">Feature</th>
-        <th className="bg-emerald-400 text-emerald-950 px-4 py-4 sm:px-6 sm:py-5 text-left font-bold text-base sm:text-lg tracking-tight">Previous Zingo Versions</th>
-        <th className="bg-emerald-400 text-emerald-950 px-4 py-4 sm:px-6 sm:py-5 text-left font-bold text-base sm:text-lg tracking-tight">Zingo 2.0 with Pepper Sync</th>
+        <th className="bg-emerald-400 dark:bg-emerald-700 text-white px-4 py-4 sm:px-6 sm:py-5 text-left font-bold text-base sm:text-lg tracking-tight">Feature</th>
+        <th className="bg-emerald-400 dark:bg-emerald-700 text-white px-4 py-4 sm:px-6 sm:py-5 text-left font-bold text-base sm:text-lg tracking-tight">Previous Zingo Versions</th>
+        <th className="bg-emerald-400 dark:bg-emerald-700 text-white px-4 py-4 sm:px-6 sm:py-5 text-left font-bold text-base sm:text-lg tracking-tight">Zingo 2.0 with Pepper Sync</th>
       </tr>
     </thead>
     <tbody>
-      <tr className="bg-slate-50 hover:bg-slate-100">
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 font-semibold text-slate-800">Sync Speed</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200">Slower, especially on first setup</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 bg-emerald-50 font-medium text-emerald-800">Much faster initial and ongoing sync</td>
+      <tr className="bg-slate-50 hover:bg-slate-100 dark:bg-slate-800 dark:hover:bg-slate-700">
+        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 font-semibold text-slate-800 dark:text-slate-200">Sync Speed</td>
+        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Slower, especially on first setup</td>
+        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 bg-emerald-50 dark:bg-emerald-950 font-medium text-emerald-800 dark:text-emerald-300">Much faster initial and ongoing sync</td>
       </tr>
-      <tr className="hover:bg-slate-100">
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 font-semibold text-slate-800">Error Handling</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200">Occasional stalls and unclear failures</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 bg-emerald-50 font-medium text-emerald-800">Improved stability with automatic recovery</td>
+      <tr className="hover:bg-slate-100 dark:hover:bg-slate-700">
+        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 font-semibold text-slate-800 dark:text-slate-200">Error Handling</td>
+        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Occasional stalls and unclear failures</td>
+        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 bg-emerald-50 dark:bg-emerald-950 font-medium text-emerald-800 dark:text-emerald-300">Improved stability with automatic recovery</td>
       </tr>
-      <tr className="bg-slate-50 hover:bg-slate-100">
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 font-semibold text-slate-800">User Experience</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200">Sync felt "opaque" to newcomers</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 bg-emerald-50 font-medium text-emerald-800">Transparent, with clearer status and updates</td>
+      <tr className="bg-slate-50 hover:bg-slate-100 dark:bg-slate-800 dark:hover:bg-slate-700">
+        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 font-semibold text-slate-800 dark:text-slate-200">User Experience</td>
+        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Sync felt “opaque” to newcomers</td>
+        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 bg-emerald-50 dark:bg-emerald-950 font-medium text-emerald-800 dark:text-emerald-300">Transparent, with clearer status and updates</td>
       </tr>
-      <tr className="hover:bg-slate-100">
-        <td className="px-4 py-4 sm:px-6 sm:py-5 font-semibold text-slate-800">Device Performance</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5">High CPU/memory usage</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 bg-emerald-50 font-medium text-emerald-800">Optimized for smooth resource use</td>
+      <tr className="hover:bg-slate-100 dark:hover:bg-slate-700">
+        <td className="px-4 py-4 sm:px-6 sm:py-5 font-semibold text-slate-800 dark:text-slate-200">Device Performance</td>
+        <td className="px-4 py-4 sm:px-6 sm:py-5 text-slate-700 dark:text-slate-300">High CPU/memory usage</td>
+        <td className="px-4 py-4 sm:px-6 sm:py-5 bg-emerald-50 dark:bg-emerald-950 font-medium text-emerald-800 dark:text-emerald-300">Optimized for smooth resource use</td>
       </tr>
     </tbody>
   </table>
@@ -93,9 +93,9 @@ Instead of rescanning the blockchain in huge, clunky chunks, Pepper Sync works i
 7. Finish - Wallet is ready to transact.
 
 ### VISUAL GUIDES:
-- Detailed Flow - Shows the full process. ![Detailed Flow](file:///C:/Users/User/Downloads/visual)
- 
-- Simplified Flow - Quick view for everyday users. ![Simplified Flow](file:///C:/Users/User/Downloads/simplified)
+- Detailed Flow - Shows the full process. ![Detailed Flow](https://github.com/user-attachments/assets/119c13ec-76be-42bd-b558-762d09275a1b)
+
+- Simplified Flow - Quick view for everyday users. ![Simplified Flow](https://github.com/user-attachments/assets/9b612cbd-f24d-4472-9b87-0f2c908bb368)
 
 ---
 
