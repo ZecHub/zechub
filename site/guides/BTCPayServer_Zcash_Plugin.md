@@ -344,15 +344,15 @@ A full Zcash node (Zebra + Lightwalletd) currently requires **300+ GB** of disk 
 
 Breakdown:
 
-- The Zebra blockchain database: ~260–270 GB
-- Lightwalletd indexing: ~15–20 GB
+- The Zebra blockchain database: ~260–270 GB
+- Lightwalletd indexing: ~15–20 GB
 
 #### Recommended storage:
 
-- **400 GB+** if the server is used **only** for Zcash payments
-- **800 GB+** if the server also runs BTCPay Server, PostgreSQL, Nginx, etc.
+- **400 GB+** if the server is used **only** for Zcash payments
+- **800 GB+** if the server also runs BTCPay Server, PostgreSQL, Nginx, etc.
 
-> Ideally use an SSD/NVMe disk with **1 TB capacity**, especially if you don't plan to prune data regularly.
+> Ideally use an SSD/NVMe disk with **1 TB capacity**, especially if you don't plan to prune data regularly.
 
 ---
 
@@ -563,7 +563,7 @@ After creating the tunnel, Cloudflare will usually **automatically add a CNAME D
 
 ```
 
-btcpay.example.com → <UUID>.cfargotunnel.com
+btcpay.example.com -> <UUID>.cfargotunnel.com
 
 ````
 
@@ -671,7 +671,7 @@ Visit your instance at:
 
 ```
 
-Plugins → Browse Plugins
+Plugins -> Browse Plugins
 
 ```
 
@@ -691,7 +691,7 @@ After installing the plugin, a new **Zcash** section will appear in the settings
 
 ```
 
-Zcash → Settings
+Zcash -> Settings
 
 ```
 
@@ -724,7 +724,7 @@ These keys support **automatic address rotation**, meaning:
 - Every customer gets a **unique** payment address
 - You see a **single, unified** balance
 
-You can find a broader compatibility list on [ZecHub → Wallets](https://zechub.wiki/wallets).
+You can find a broader compatibility list on [ZecHub -> Wallets](https://zechub.wiki/wallets).
 
 Once all fields are filled out, click **Save**.
 
@@ -740,7 +740,7 @@ Let's run a test:
 
 ```
 
-Invoices → Create New
+Invoices -> Create New
 
 ```
 
@@ -846,7 +846,7 @@ See full documentation:
 
 To receive real-time notifications when invoice statuses change (e.g. when a payment is received):
 
-1. Go to your store settings → **Webhooks**
+1. Go to your store settings -> **Webhooks**
 2. Add the URL of your backend endpoint that will handle `POST` requests from BTCPay Server
 3. BTCPay will automatically send notifications when an invoice is paid or expires
 
@@ -874,7 +874,7 @@ Steps to integrate:
 
 ```
 
-WooCommerce → Settings → Payments
+WooCommerce -> Settings -> Payments
 
 ```
 
