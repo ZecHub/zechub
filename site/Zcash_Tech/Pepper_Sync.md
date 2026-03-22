@@ -23,37 +23,39 @@ Pepper Sync introduces several improvements:
 ## WHAT'S BETTER THAN BEFORE
 Older versions of Zingo often frustrated users with long syncing times, unclear error handling, and heavy resource usage. Pepper Sync fixes these common issues:
 
-<table className="w-full max-w-[950px] mx-auto my-8 border-collapse shadow-xl rounded-2xl overflow-hidden">
-  <thead>
-    <tr>
-      <th className="bg-green-400 !text-white px-6 py-6 text-left font-bold text-lg tracking-tight">Feature</th>
-      <th className="bg-green-400 !text-white px-6 py-6 text-left font-bold text-lg tracking-tight">Previous Zingo Versions</th>
-      <th className="bg-green-400 !text-white px-6 py-6 text-left font-bold text-lg tracking-tight">Zingo 2.0 with Pepper Sync</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr className="bg-slate-50 hover:bg-slate-100">
-      <td className="px-6 py-5 border-b border-slate-200 font-semibold text-slate-800">Sync Speed</td>
-      <td className="px-6 py-5 border-b border-slate-200">Slower, especially on first setup</td>
-      <td className="px-6 py-5 border-b border-slate-200 bg-emerald-50 font-medium text-emerald-800">Much faster initial and ongoing sync</td>
-    </tr>
-    <tr className="hover:bg-slate-100">
-      <td className="px-6 py-5 border-b border-slate-200 font-semibold text-slate-800">Error Handling</td>
-      <td className="px-6 py-5 border-b border-slate-200">Occasional stalls and unclear failures</td>
-      <td className="px-6 py-5 border-b border-slate-200 bg-emerald-50 font-medium text-emerald-800">Improved stability with automatic recovery</td>
-    </tr>
-    <tr className="bg-slate-50 hover:bg-slate-100">
-      <td className="px-6 py-5 border-b border-slate-200 font-semibold text-slate-800">User Experience</td>
-      <td className="px-6 py-5 border-b border-slate-200">Sync felt “opaque” to newcomers</td>
-      <td className="px-6 py-5 border-b border-slate-200 bg-emerald-50 font-medium text-emerald-800">Transparent, with clearer status and updates</td>
-    </tr>
-    <tr className="hover:bg-slate-100">
-      <td className="px-6 py-5 font-semibold text-slate-800">Device Performance</td>
-      <td className="px-6 py-5">High CPU/memory usage</td>
-      <td className="px-6 py-5 bg-emerald-50 font-medium text-emerald-800">Optimized for smooth resource use</td>
-    </tr>
-  </tbody>
-</table>
+<div className="overflow-x-auto my-8">
+  <table className="w-full min-w-[640px] max-w-[950px] mx-auto border-collapse shadow-xl rounded-2xl overflow-hidden">
+    <thead>
+      <tr>
+        <th className="bg-emerald-400 text-emerald-950 px-4 py-4 sm:px-6 sm:py-5 text-left font-bold text-base sm:text-lg tracking-tight">Feature</th>
+        <th className="bg-emerald-400 text-emerald-950 px-4 py-4 sm:px-6 sm:py-5 text-left font-bold text-base sm:text-lg tracking-tight">Previous Zingo Versions</th>
+        <th className="bg-emerald-400 text-emerald-950 px-4 py-4 sm:px-6 sm:py-5 text-left font-bold text-base sm:text-lg tracking-tight">Zingo 2.0 with Pepper Sync</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr className="bg-slate-50 hover:bg-slate-100">
+        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 font-semibold text-slate-800">Sync Speed</td>
+        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200">Slower, especially on first setup</td>
+        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 bg-emerald-50 font-medium text-emerald-800">Much faster initial and ongoing sync</td>
+      </tr>
+      <tr className="hover:bg-slate-100">
+        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 font-semibold text-slate-800">Error Handling</td>
+        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200">Occasional stalls and unclear failures</td>
+        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 bg-emerald-50 font-medium text-emerald-800">Improved stability with automatic recovery</td>
+      </tr>
+      <tr className="bg-slate-50 hover:bg-slate-100">
+        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 font-semibold text-slate-800">User Experience</td>
+        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200">Sync felt “opaque” to newcomers</td>
+        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 bg-emerald-50 font-medium text-emerald-800">Transparent, with clearer status and updates</td>
+      </tr>
+      <tr className="hover:bg-slate-100">
+        <td className="px-4 py-4 sm:px-6 sm:py-5 font-semibold text-slate-800">Device Performance</td>
+        <td className="px-4 py-4 sm:px-6 sm:py-5">High CPU/memory usage</td>
+        <td className="px-4 py-4 sm:px-6 sm:py-5 bg-emerald-50 font-medium text-emerald-800">Optimized for smooth resource use</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 In short: syncing is now faster, more reliable, and easier to understand.
 
