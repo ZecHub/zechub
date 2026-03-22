@@ -30,6 +30,7 @@ Before you can build Arti from source, you need to have the latest stable versio
 1. Visit the official [Rust website](https://www.rust-lang.org/).
 2. Follow the installation instructions for your operating system.
 3. Verify the installation by running:
+   
    ```sh
    rustc --version
    ```
@@ -37,21 +38,23 @@ Before you can build Arti from source, you need to have the latest stable versio
 This will confirm that you have the latest stable version of Rust installed on your system.
 
 #### **Note for Windows Users**:
-- Rust can be installed on Windows via [**Rustup**](https://rustup.rs/), a toolchain installer. Ensure that you’ve also set up a compatible build environment (you may need **Visual Studio Build Tools** on Windows).
+- Rust can be installed on Windows via [**Rustup**](https://rustup.rs/), a toolchain installer. Ensure that you've also set up a compatible build environment (you may need **Visual Studio Build Tools** on Windows).
   
 ---
 
 ### **Step 2: Clone the Arti Repository**
 
-To get the latest version of the Arti client, you’ll need to clone the repository from [**GitLab**](https://gitlab.torproject.org/tpo/core/arti).
+To get the latest version of the Arti client, you'll need to clone the repository from [**GitLab**](https://gitlab.torproject.org/tpo/core/arti).
 
 #### Steps:
 1. Open your terminal (Command Prompt, PowerShell, or Git Bash on Windows).
 2. Run the following command to clone the repository:
+   
    ```sh
    git clone https://gitlab.torproject.org/tpo/core/arti.git
    ```
-3. Navigate to the newly created `arti` directory:
+4. Navigate to the newly created `arti` directory:
+   
    ```sh
    cd arti
    ```
@@ -62,7 +65,7 @@ This will pull the source code of Arti to your local machine.
 
 ### **Step 3: Build the Arti Binary**
 
-Once you’ve cloned the repository, you need to build Arti using **Cargo**, which is Rust’s package manager and build tool.
+Once you've cloned the repository, you need to build Arti using **Cargo**, which is Rust's package manager and build tool.
 
 #### To Build Arti:
 1. In the terminal, run the following command:
@@ -70,7 +73,7 @@ Once you’ve cloned the repository, you need to build Arti using **Cargo**, whi
    cargo build --release
    ```
 
-This command compiles the Arti code and optimizes it for production (the `--release` flag). The binary will be created in the `target/release` directory.
+This command compiles the Arti code and optimizes it for production (the *--release* flag). The binary will be created in the *target/release* directory.
 
 #### Location of the Compiled Binary:
 - After building, the Arti binary will be located at:  
@@ -102,7 +105,7 @@ Once Arti is running as a SOCKS proxy, you need to configure your applications t
 
 #### Steps:
 1. In your application settings (e.g., web browser, terminal application), look for the **proxy settings**.
-2. Set the **SOCKS5 proxy** to `localhost:9150`.
+2. Set the **SOCKS5 proxy** to *localhost:9150*.
 
 This will route all traffic from your applications through the **Tor network** using Arti as the intermediary.
 
@@ -110,7 +113,7 @@ This will route all traffic from your applications through the **Tor network** u
 
 ## **Arti Integration with the Tor Network**
 
-Here’s a simplified diagram to illustrate how Arti works in conjunction with the Tor network:
+Here's a simplified diagram to illustrate how Arti works in conjunction with the Tor network:
 
 
 ```plaintext
@@ -139,7 +142,7 @@ If you're interested in contributing to the development of **Arti**, you can exp
    git remote add _name_ git@gitlab.torproject.org:_name_/arti.git
    git fetch _name_
    ```
-   Replace `_name_` with your GitLab username.
+   Replace *_name_* with your GitLab username.
 
 3. **Push changes** to your fork:
    ```sh
@@ -154,7 +157,7 @@ If you're interested in contributing to the development of **Arti**, you can exp
 
 ### **Merge Request Guidelines**:
 - **Do not rebase and squash commits during review**.
-- If necessary, use `fixup!` or `squash!` for auto-squashing commits.
+- If necessary, use *fixup!* or *squash!* for auto-squashing commits.
 - Aim to **add new commits** instead of squashing during the review cycle.
 
 ---
@@ -168,8 +171,8 @@ If you're interested in contributing to the development of **Arti**, you can exp
 
 
 
-If you’re interested in contributing to the project, feel free to check out the code, fork the repository, and submit a Merge Request. For more information, updates, and troubleshooting, refer to the [Arti GitLab Repository](https://gitlab.torproject.org/tpo/core/arti). 
+If you're interested in contributing to the project, feel free to check out the code, fork the repository, and submit a Merge Request. For more information, updates, and troubleshooting, refer to the [Arti GitLab Repository](https://gitlab.torproject.org/tpo/core/arti). 
 
-Enjoy your experience with **Arti** and happy hacking! 🚀
+Enjoy your experience with **Arti** and happy hacking!
 
 --- 
