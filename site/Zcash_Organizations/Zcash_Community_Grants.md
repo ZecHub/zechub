@@ -41,9 +41,16 @@ The Electric Coin Company receives 8% of the [Zcash development fund](https://zi
 
 ## How to Submit a Grant Application via ZCG (GitHub + Community Forum)
 
-<iframe width="320" height="200" src="https://www.youtube.com/embed/ItEwc1lzvzc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/ItEwc1lzvzc"
+    title="How to Submit a Grant Application via ZCG"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
 
 
 ### Step 1: Prepare Your Proposal
