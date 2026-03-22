@@ -42,7 +42,7 @@ This program funds independent teams to perform major ongoing development (or ot
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
-    src="https://www.youtube.com/embed/videoseries?si=fIbX-UP6HCMET0R2&amp;list=PL40dyJ0UYTLKyRbrz0sVLSWUh6bdVsQE1"
+    src="https://www.youtube.com/embed/videoseries?si=SZKFP5eAFDJ0MjJj&amp;list=PL40dyJ0UYTLI671cVldA_DhFSYxNwUJeQ"
     title="Zebrad for Linux Tutorials"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
