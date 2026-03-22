@@ -26,9 +26,9 @@ Older versions of Zingo often frustrated users with long syncing times, unclear 
 <table className="w-full max-w-[950px] mx-auto my-8 border-collapse shadow-xl rounded-2xl overflow-hidden">
   <thead>
     <tr>
-      <th className="bg-emerald-800 text-white px-6 py-5 text-left font-bold text-[1.05rem]">Feature</th>
-      <th className="bg-emerald-800 text-white px-6 py-5 text-left font-bold text-[1.05rem]">Previous Zingo Versions</th>
-      <th className="bg-emerald-800 text-white px-6 py-5 text-left font-bold text-[1.05rem]">Zingo 2.0 with Pepper Sync</th>
+      <th className="bg-emerald-950 !text-white px-6 py-6 text-left font-bold text-lg tracking-tight">Feature</th>
+      <th className="bg-emerald-950 !text-white px-6 py-6 text-left font-bold text-lg tracking-tight">Previous Zingo Versions</th>
+      <th className="bg-emerald-950 !text-white px-6 py-6 text-left font-bold text-lg tracking-tight">Zingo 2.0 with Pepper Sync</th>
     </tr>
   </thead>
   <tbody>
