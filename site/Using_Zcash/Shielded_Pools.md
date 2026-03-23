@@ -4,10 +4,9 @@
 
 # Zcash Value Pools 
 
-There are currently 4 [value pools](https://zcash.readthedocs.io/en/latest/rtd_pages/addresses.html) in Zcash. Sprout, Sapling, Orchard and Transparent. 
+There are currently 4 [value pools](https://zcash.readthedocs.io/en/latest/rtd_pages/addresses.html) in Zcash. Sprout, Sapling, Orchard and Transparent.
 
-<img width="1740" height="876" alt="pools" src="https://github.com/user-attachments/assets/4ba8cca2-cea5-42d2-8ec2-2122b26f5144" />
-
+![img1](https://github.com/user-attachments/assets/4ba8cca2-cea5-42d2-8ec2-2122b26f5144)
 
 
 ## Shielded Pools 
@@ -15,7 +14,8 @@ There are currently 4 [value pools](https://zcash.readthedocs.io/en/latest/rtd_p
 
 <h3 id="orchard" class="text-3xl font-bold my-4">Orchard</h3>
 
-<img width="1754" height="854" alt="Orchard" src="https://github.com/user-attachments/assets/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72" />
+
+![img2](https://github.com/user-attachments/assets/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72)
 
 
 The Orchard Shielded Pool was launched on the 31st of May, 2022. Orchard addresses are also known as Unified Addresses (UA). 
@@ -34,7 +34,8 @@ ____
 
 <h3 id="sapling" class="text-3xl font-bold my-4">Sapling</h3>
 
-<img width="1756" height="854" alt="sapling" src="https://github.com/user-attachments/assets/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae" />
+
+![img3](https://github.com/user-attachments/assets/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae)
 
 
 [Zcash Sapling](https://z.cash/upgrade/sapling) was an upgrade to the Zcash protocol introduced on 28th of October, 2018. It is a major improvement over the earlier version of the known as Sprout which had some limitations in terms of privacy, efficiency and usability. 
@@ -51,7 +52,8 @@ ____
 
 <h3 id="sprout" class="text-3xl font-bold my-4">Sprout</h3>
 
-<img width="1758" height="870" alt="sprout" src="https://github.com/user-attachments/assets/956eceed-f4d6-4087-99d0-32a770449dda" />
+
+![img4](https://github.com/user-attachments/assets/956eceed-f4d6-4087-99d0-32a770449dda)
 
 
 Sprout was the first ever open permissionless Zero Knowledge privacy protocol ever launched. It was launched on the 28th of October, 2016.
@@ -65,7 +67,8 @@ As the Zcash ecosystem continued  to expand with increasing number of shielded t
 
 <h3 id="transparent" class="text-3xl font-bold my-4">Transparent</h3>
 
-<img width="1760" height="880" alt="transparent" src="https://github.com/user-attachments/assets/01de2907-b62d-4421-83d7-ea4908faa828" />
+
+![img5](https://github.com/user-attachments/assets/01de2907-b62d-4421-83d7-ea4908faa828)
 
 
 The Zcash Transparent pool is unshielded and non-private. Transparent wallet address on Zcash start with the letter "t", privacy is very low in using this address type for transactions.
