@@ -2,9 +2,9 @@
 
 ## What Is the Zcash Testnet?
 
-**Zcash Testnet** is a parallel blockchain to the real Zcash main network (Mainnet) that replicates the exact protocol, rules, and transaction logic — but with two key differences:
+**Zcash Testnet** is a parallel blockchain to the real Zcash main network (Mainnet) that replicates the exact protocol, rules, and transaction logic - but with two key differences:
 
-1. **Coins have no real monetary value** — they’re called **TAZ**, not ZEC, and are used only for testing.  
+1. **Coins have no real monetary value** - they're called **TAZ**, not ZEC, and are used only for testing.  
 2. **Network upgrades, tools, and software are tested here first** before deployment on the real Zcash blockchain.  
 
 In other words, the Testnet is like a **sandbox or experimental environment** where developers, auditors, and builders can try ideas without risking real money.
@@ -12,7 +12,7 @@ In other words, the Testnet is like a **sandbox or experimental environment** wh
 
 ## Why Does Testnet Exist?
 
-Testnet is crucial for blockchain development because **real blockchains like Zcash are immutable** — once transactions are confirmed on the main network, they cannot be undone. Testnet provides a **safe replica** to experiment, test, and debug features before deploying to Mainnet.
+Testnet is crucial for blockchain development because **real blockchains like Zcash are immutable** - once transactions are confirmed on the main network, they cannot be undone. Testnet provides a **safe replica** to experiment, test, and debug features before deploying to Mainnet.
 
 ### Uses of Testnet
 
@@ -29,7 +29,7 @@ Developers building wallets, exchanges, mining software, or privacy tools can sa
 Tools like [`zcash_tx_tool`](https://github.com/QED-it/zcash_tx_tool) use Testnet to generate transactions and test Zcash shielded asset functionalities.  
 
 **Real-world scenario:**  
-A wallet developer can connect software to a Testnet RPC endpoint and simulate the full lifecycle — creating addresses, sending shielded transactions, and validating balances — before going live on Mainnet.
+A wallet developer can connect software to a Testnet RPC endpoint and simulate the full lifecycle - creating addresses, sending shielded transactions, and validating balances - before going live on Mainnet.
 
 #### 2. Testing Network Upgrades
 
@@ -40,7 +40,7 @@ A new consensus rule or transaction type is first pushed to Testnet. After succe
 
 #### 3. Testing Node Implementations
 
-Zcash supports multiple node software implementations — `zcashd` and **Zebra** (Rust-based node maintained by the Zcash Foundation). Testnet enables testing of nodes in real conditions without financial risk.  
+Zcash supports multiple node software implementations - `zcashd` and **Zebra** (Rust-based node maintained by the Zcash Foundation). Testnet enables testing of nodes in real conditions without financial risk.  
 
 Node developers can:
 
@@ -103,11 +103,11 @@ Advanced users can also run **custom Testnets or regtest environments** for spec
 
 - **Testnet coins are worth something** → False, TAZ have zero value.  
 - **Losing Testnet coins matters** → False, no real value is lost.  
-- **Testnet and Mainnet are identical** → False, Testnet resets often and isn’t economically secured like Mainnet.
+- **Testnet and Mainnet are identical** → False, Testnet resets often and isn't economically secured like Mainnet.
 
 ---
 
-## 🪙 What Is TAZ?
+## What Is TAZ?
 
 **TAZ** is the Testnet version of Zcash coins:  
 
