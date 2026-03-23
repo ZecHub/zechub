@@ -24,17 +24,17 @@ This integration marks a significant evolution in Zcash usability by enabling co
 Battery Level: Ensure your keystone device has a battery level above 20%.
 
 USB Cable or SD Card:
-```markdown
+
 - USB cable for firmware Update (included).
 - Micro SD card (under 1 TB) for upgrades (purchase separately).
-```
+
 Access to Keystones official website for Verification and Firmware Update.
 
 Zashi app setup on your mobile device.
 
 ## [Step by Step Guide(Keystone Device)](https://keyst.one/get-started) 
 
-```markdown
+
 **Choose Your Language**
 -Device Verification(via QR): Device Verification is crucial to detect potential contamination during transportation, prevent supply chain attacks, and ensure the safety of installed firmware.
   - Visit the Device Verification page on the Keystone website.
@@ -72,7 +72,7 @@ Zashi app setup on your mobile device.
     - Scan the QR displayed on Keystone Device
     - In Zashi App: Confirm Keystone Wallet Account by tapping displayed account
     - Tap Connect on bottom of screen
-```
+
 
 ## Extra Help
 
