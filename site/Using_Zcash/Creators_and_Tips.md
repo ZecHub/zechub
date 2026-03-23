@@ -19,7 +19,7 @@
 
 ### Overview
 
-**Zcash.me** is a profile directory and discovery platform that makes it easy for anyone to find and send ZEC to Zcash users. It serves as the “Linktree for Zcash” — a simple way to share your shielded address and social presence with a single link.
+**Zcash.me** is a profile directory and discovery platform that makes it easy for anyone to find and send ZEC to Zcash users. It serves as the "Linktree for Zcash" - a simple way to share your shielded address and social presence with a single link.
 
 | Item              | Details |
 |-------------------|---------|
@@ -31,12 +31,12 @@
 ### Key Features
 
 #### Currently Available
-- **Custom Profile Pages** — Personalized page with username, bio, avatar, and location
-- **Shielded Address Display** — One-click copy button for your unified address
-- **Social Link Integration** — X, LinkedIn, Telegram, and custom websites
-- **Verification System** — Verified badge for community trust
-- **Referral Leaderboard** — Track top referrers and community leaders
-- **Activity Status** — Shows last active time
+- **Custom Profile Pages** - Personalized page with username, bio, avatar, and location
+- **Shielded Address Display** - One-click copy button for your unified address
+- **Social Link Integration** - X, LinkedIn, Telegram, and custom websites
+- **Verification System** - Verified badge for community trust
+- **Referral Leaderboard** - Track top referrers and community leaders
+- **Activity Status** - Shows last active time
 
 #### Coming Soon
 | Feature            | Description |
