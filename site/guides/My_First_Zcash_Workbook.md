@@ -100,7 +100,7 @@ The workbook also describes the organizations involved in the ecosystem, includi
 
 ---
 
-## 8. Meet the Creators — “The Peeps Who Did It!”
+## 8. Meet the Creators - "The Peeps Who Did It!"
 
 This section highlights the talented contributors who made *My First Zcash* possible. They include:
 
