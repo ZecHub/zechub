@@ -9,7 +9,7 @@ In this series we will learn the fundamentals on a wide range of technologies th
 
 ## Part 1: Hash Functions
 
-Today we start with **Hash Functions** – a key piece of cryptography used in blockchains. Later in this series we’ll cover some topics that rely on their properties.
+Today we start with **Hash Functions** – a key piece of cryptography used in blockchains. Later in this series we'll cover some topics that rely on their properties.
 
 ### What is a Hash Function?
 
@@ -24,7 +24,7 @@ Hash Functions take an input of any length and produce an output of a fixed leng
 
 ### Try it yourself!
 
-Let’s get a hands-on understanding using this tool!  
+Let's get a hands-on understanding using this tool!  
 Enter any arbitrary text to produce a fixed-length output. Observe how the output varies depending on the different hashing algorithm.
 
 **Try it out:** https://cryptii.com/pipes/hash-function
@@ -56,7 +56,7 @@ There are several classes of Hash Functions. Some examples:
 ### Real-World Uses of Hash Functions
 
 #### 1. Integrity Hashing (Data Integrity Checks)
-Data integrity checks are an example of “Integrity Hashing”. They are used to generate checksums on data files and provide assurance of correctness to a user.
+Data integrity checks are an example of "Integrity Hashing". They are used to generate checksums on data files and provide assurance of correctness to a user.
 
 ![Integrity Hashing example](https://pbs.twimg.com/media/Fn_Or0MWIAI6sgx.png)
 
@@ -73,12 +73,12 @@ They verify data stored or transferred on P2P networks, ensuring data received f
 In Zcash **Sapling** & **Orchard** shielded pools, the **Note Commitment Tree** is used to verify transactions are valid against consensus while perfectly hiding the sender, recipient & amounts consumed.
 
 #### 4. Signature Hash (Bitcoin-style blocks)
-**SHA256** is an example of a “Signature hash” used to enforce immutability of each block in the Bitcoin chain. Miners use the hash of previous block + A hash of all transactions in the current block (hashMerkleRoot) + Timestamp + random value / network difficulty for new blocks.
+**SHA256** is an example of a "Signature hash" used to enforce immutability of each block in the Bitcoin chain. Miners use the hash of previous block + A hash of all transactions in the current block (hashMerkleRoot) + Timestamp + random value / network difficulty for new blocks.
 
 ![SHA256 block diagram](https://pbs.twimg.com/media/Fn_PaVZXoAApHPf.jpg)
 
 #### 5. Equihash (Zcash Mining)
-**Equihash** is the hashing algorithm used in mining Zcash. It’s also used by networks such as Komodo & Horizen.
+**Equihash** is the hashing algorithm used in mining Zcash. It's also used by networks such as Komodo & Horizen.
 
 **Original Zcash Blog on Equihash**: https://electriccoin.co/blog/equihash/
 
