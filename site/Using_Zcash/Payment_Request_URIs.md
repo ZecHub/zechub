@@ -10,13 +10,13 @@ URI stands for Universal Resource Identifier. They are QR codes that act to pref
 
 ## Use Cases of Payment Requests 
 
-```markdown
+
 - Online Shopping.                    Checkout Payment requests are initiated by customers during online purchases.
 - Hotel and Accommodation Bookings.   Various booking platforms leverage payment request URLs for hotel reservations.
 - Online Bill Payments.               Utility companies use payment request URLs to enable customers to offset their bills seamlessly. 
 - Event Ticket Purchases.             Event organizers across borders use this mechanism to make ticket purchases easier.
 - P2P Payments.                       Individuals can easily send payment requests to family and friends via messaging apps, with payment links embedded in the messages.
-```
+
 
 ## Details
 
@@ -24,11 +24,31 @@ URI stands for Universal Resource Identifier. They are QR codes that act to pref
 
 How to make Payment Requests with Zcash: 
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/l5auYQIzYsQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/l5auYQIzYsQ"
+    title="How to make Payment Requests with Zcash"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
 
-
+    
 ### Code Example
 
 Adding a Zcash Donation Widget to your Website: 
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/NbP4BcHC0uM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/NbP4BcHC0uM"
+    title="Adding a Zcash Donation Widget to your Website"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
