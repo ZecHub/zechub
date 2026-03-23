@@ -161,9 +161,9 @@ Some of the key options here are:
 - Mute all speakers  
 - Leave  
 
-To end a live stream, you should click the ‘Leave’ button, and then click ‘End meeting for all’ to stop the meeting for all participants.
+To end a live stream, you should click the 'Leave' button, and then click 'End meeting for all' to stop the meeting for all participants.
 
-![Bottom right interaction panel](/site/guides/assets/free2z-live-right.png)
+![Bottom right interaction panel](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/free2z-live-right.png)
 
 The bottom right buttons contain functions related to the live stream interaction, such as:  
 - **Chat**: This allows participants to chat with each other and the host during the live stream.  
@@ -171,9 +171,9 @@ The bottom right buttons contain functions related to the live stream interactio
 - **List of participants**: This shows the list of participants in the live stream.  
 - **Plugins**: This allows the host to add plugins and extensions to enhance the live stream experience.
 
-![Plugins panel](/site/guides/assets/free2z-live-plugins.png)
+![Plugins panel](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/free2z-live-plugins.png)
 
-It’s not the purpose of this wiki-doc to explain all the plugins, but I really encourage you to try every one, as they all offer great interaction value between creators and viewers. To launch a plugin, simply click the ‘rocket’ button on the right.
+It's not the purpose of this wiki-doc to explain all the plugins, but I really encourage you to try every one, as they all offer great interaction value between creators and viewers. To launch a plugin, simply click the 'rocket' button on the right.
 
 ## Conclusion
 
