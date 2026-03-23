@@ -4,7 +4,9 @@
 
 # Zcash social media links
 
-## Twitter <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/twitter.svg" width="20" height="20"> 
+## Twitter
+
+![img1](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/twitter.svg)
 
 1. Zcash - [@zcash](https://twitter.com/zcash)
 2. ZecHub - [@zechub](https://twitter.com/ZecHub)
@@ -37,14 +39,18 @@
 29. Zcash Canada - [@ZcashCanada](https://twitter.com/ZcashCanada)
 30. Cypherpunk Zero DAO - [@CypherpunkDAO](https://twitter.com/CypherpunkDAO)
 
-## YouTube <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/youtube.svg" width="20" height="20"> 
+## YouTube
+
+![img2](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/youtube.svg)
 
 1. [Zcash Media](https://www.youtube.com/c/ZcashMedia)
 2. [ZecHub](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA)
 3. [Zcash Foundation](https://www.youtube.com/channel/UCi01v05DNTUEC_eB0c9rpgQ)
 4. [Electric Coin Co.](https://www.youtube.com/c/ZcashCo)
 
-## Discord <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/discord.svg" width="20" height="20"> 
+## Discord
+
+![img3](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/discord.svg)
 
 1. [Zcash Community](https://discord.com/invite/PhJY6Pm)
 2. [Zcash Global](https://discord.gg/zf8jvyDDfq)
@@ -55,7 +61,10 @@
 7. [Halo 2 Ecosystem](https://discord.gg/x5qw59pYQ6)
 8. [ZF A/V Club](https://discord.gg/VkAvUZfuXn)
 
-## Telegram <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/telegram.svg" width="20" height="20"> 
+## Telegram
+
+![img4](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/telegram.svg)
+
 
 1. [Zcash Community](https://t.me/Zcash_Community) - English Global
 2. [Zcash Italia](https://t.me/zcashita) - Italian
@@ -63,14 +72,20 @@
 4. [Zcash en Español Chat](https://t.me/zcashespchat) - Spanish
 5. [Zcash Ru [Чат]](https://t.me/zcash1000) - Russian
 
-## Mastodon <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/mastodon.svg" width="20" height="20"> 
+## Mastodon
 
-1. [Zeal Center](https://zeal.center/) - Register to join [here](https://blog.zeal.center/registration.html)
+![img5](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/mastodon.svg)
 
-## Reddit <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/reddit.svg" width="20" height="20"> 
+1. [ZecHub Social](https://zechub.social/)
+
+## Reddit
+
+![img6](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/reddit.svg)
 
 1. [r/zec](https://www.reddit.com/r/zec/)
 
-## Bitcointalk <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/bitcoin.svg" width="20" height="20">
+## Bitcointalk
+
+![img7](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/bitcoin.svg)
 
 1. [Bitcointalk profile](https://bitcointalk.org/index.php?topic=1626185.0)
