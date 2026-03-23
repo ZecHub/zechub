@@ -79,7 +79,7 @@ Daira explains Anchor positions (zcon3):
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
-    src="https://www.youtube.com/watch?v=f6UToqiIdeY&t=3556s"
+    src="https://www.youtube.com/embed/f6UToqiIdeY&t=3556s"
     title="Zcon3"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
@@ -106,7 +106,7 @@ The ECC team is working on new RPC methods in `zcashd` (replacing `z_sendmany`) 
 ## Recommendation
 
 Try the latest version of **YWallet**!  
-It already shows a “Transaction Plan” on screen before you hit send, helping you make more private choices.
+It already shows a "Transaction Plan" on screen before you hit send, helping you make more private choices.
 
 Great article on transaction privacy: https://medium.com/@hanh.huynh/
 
