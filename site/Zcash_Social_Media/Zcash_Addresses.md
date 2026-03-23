@@ -79,7 +79,7 @@ Daira explains Anchor positions (zcon3):
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
-    src="https://www.youtube.com/embed/f6UToqiIdeY&t=3556s"
+    src="https://www.youtube.com/embed/f6UToqiIdeY"
     title="Zcon3"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
