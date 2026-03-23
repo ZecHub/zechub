@@ -117,4 +117,4 @@ https://x.com/ZecHub/status/1628498645627666432
 
 ---
 
-*This page was compiled from the original Zero to Zero Knowledge thread for the ZecHub wiki. Perfect for HackMD or direct upload to the repo.*
+*This page was compiled from the original Zero to Zero Knowledge thread for the ZecHub wiki.*
