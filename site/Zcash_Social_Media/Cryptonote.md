@@ -27,7 +27,7 @@ The CryptoNote Protocol provides three main features:
 
 ---
 
-## 1. Untraceability – Ring Signatures
+## 1. Untraceability - Ring Signatures
 
 Untraceability is primarily achieved using **Ring Signatures**.
 
