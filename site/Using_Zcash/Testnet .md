@@ -130,7 +130,7 @@ A **faucet** is a service that gives free TAZ coins for testing:
 - Avoids the need to mine TAZ manually  
 
 **Example:**  
-1. Visit a Testnet faucet (e.g., [https://faucet.z.cash](https://faucet.z.cash))  
+1. Visit a Testnet faucet (e.g., [testnet.zecaucet.com](https://testnet.zecaucet.com))  
 2. Enter your Testnet address  
 3. Request TAZ  
 4. Receive TAZ instantly to start testing  
@@ -160,11 +160,16 @@ A **faucet** is a service that gives free TAZ coins for testing:
 
 ### Zkool Wallet
 
-1. Open **Settings**  
-2. Navigate to **Network / Node Configuration**  
-3. Switch from Mainnet to **Testnet**  
-4. Sync wallet to download Testnet chain  
-5. Request TAZ from a Testnet faucet  
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/watch?v=XCGwwqLZILg"
+    title="Zkool Testnet"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
 
 **Tips:**  
 - Wallet may restart when switching networks  
@@ -173,11 +178,16 @@ A **faucet** is a service that gives free TAZ coins for testing:
 
 ### Zingo! Wallet
 
-1. Open the app and go to **Settings / Network Options**  
-2. Select **Testnet**  
-3. Toggle Testnet ON  
-4. Restart wallet if prompted  
-5. Request TAZ from a faucet  
+ <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src=""
+    title="Zingo Testnet"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
 
 Once enabled, wallets can send and receive TAZ, test shielded transactions, and experiment safely.
 
