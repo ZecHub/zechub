@@ -24,12 +24,12 @@
 
 [System Architecture](https://github.com/zingolabs/zaino/blob/dev/docs/zaino_live_system_architecture.pdf)
 
-```markdown
+
 - Zcash User Installs/Compiles Zingolib Which gives access to zingo-cli. They can send/recieve ZEC as needed.
 - Zingo-cli connects to zaino either locally or via a secure channel online (Zcash user doesnt care how this works!)
 - Zaino allows access to either zebrad or zcashd            
 - Fully synced zebrad is source of truth (no more wallets here!)
-```
+
 
 
 ## Installation
@@ -40,7 +40,7 @@ You will need to intall 3 things for this to work correctly. I also recommend sc
 
 ### zebrad
 
-```bash
+```
 git clone https://github.com/ZcashFoundation/zebra.git
 cd zebra
 cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.0.1 zebrad
@@ -49,7 +49,7 @@ cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.0.1 zebrad
  
 *optional* (create a screen session for zebrad)
 
-```bash
+```
 screen -S zebra
 zebrad start
 ```
@@ -58,7 +58,7 @@ note: this will need to fully sync!
 
 ### zaino
 
-```bash
+```
 git clone https://github.com/zingolabs/zaino.git
 cd zaino
 cargo build --release
@@ -68,7 +68,7 @@ PATH=$PATH:~/Desktop/zaino/target/release/
 
 *optional* (create a screen session for zaino)
 
-```bash
+```
 screen -S zaino
 cd ~/zaino/zainod
 nano zindexer.toml  => Adjust port to 8232 for mainnet
@@ -78,7 +78,7 @@ zainod --config zindexer.toml
 
 ### zingo-cli
 
-```bash
+```
 git clone https://github.com/zingolabs/zingolib.git
 cd zingolib
 cargo build --release --package zingo-cli
@@ -86,7 +86,7 @@ cargo build --release --package zingo-cli
 
 *optional* (create a screen session for zingo-cli)
 
-```bash
+```
 screen -S zingo
 ./zingo-cli --server http://127.0.0.1:8137 --data-dir /media/zebra5/zebra/.cache/lightwalletd
 ```
@@ -96,4 +96,4 @@ note: this will need to fully sync, just like lightwalletd did. I recommend usin
 
 ## Running
 
-If your running these in screens, screen -r will list each screen for you to move to as needed
+If your running these in screens, `screen -r` will list each screen for you to move to as needed
