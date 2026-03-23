@@ -14,8 +14,8 @@ BTCPay Server allows online businesses to accept cryptocurrency payments directl
 - [Where Are Funds Stored? Who Controls the Private Keys?](#Where-Are-Funds-Stored-Who-Controls-the-Private-Keys)
 - [How to Set Up BTCPay Server for Accepting Zcash](#How-to-Set-Up-BTCPay-Server-for-Accepting-Zcash)
   - [Deploying BTCPay Server with Zcash Support](#Deploying-BTCPay-Server-with-Zcash-Support)
-  - [Running Your Own Zcash Full Node (Zebra + Lightwalletd)](#Running-Your-Own-Zcash-Full-Node-Zebra--Lightwalletd)
-  - [Connecting to an External `lightwalletd` Node (Custom Configuration)](#Connecting-to-an-External-lightwalletd-Node-Custom-Configuration)
+  - [Running Your Own Zcash Full Node (Zebra + Lightwalletd)](#Running-Your-Own-Zcash-Full-Node)
+  - [Connecting to an External lightwalletd Node (Custom Configuration)](#Connecting-to-an-External-Lightwalletd-Node)
   - [Hosting BTCPay Server at Home with Cloudflare Tunnel](#Hosting-BTCPay-Server-at-Home-with-Cloudflare-Tunnel)
 - [Configuring the Zcash Plugin in the BTCPay Server Web Interface](#Configuring-the-Zcash-Plugin-in-the-BTCPay-Server-Web-Interface)
 - [Integrating BTCPay Server with Your Website](#Integrating-BTCPay-Server-with-Your-Website)
@@ -231,9 +231,7 @@ and to automatically generate a **free SSL certificate** via Let's Encrypt.
 To install BTCPay Server, you must connect to your VPS via SSH.  
 From your terminal, run:
 
-```
-ssh root@YOUR_SERVER_IP
-````
+`ssh root@YOUR_SERVER_IP`
 
 If you use macOS, Linux, or WSL on Windows, SSH is already available in the terminal.
 On plain Windows, use an SSH client like **PuTTY**.
@@ -294,9 +292,7 @@ export BTCPAYGEN_CRYPTO4="xmr"
 
 You can add new coins at any time by exporting the appropriate variables and rerunning the setup script:
 
-```
-. ./btcpay-setup.sh -i
-```
+`. ./btcpay-setup.sh -i`
 
 For this guide, we'll focus on **Zcash only**.
 
@@ -306,18 +302,14 @@ For this guide, we'll focus on **Zcash only**.
 
 Run the setup script to build and launch the server:
 
-```
-. ./btcpay-setup.sh -i
-```
+`. ./btcpay-setup.sh -i`
 
 The script will install dependencies, generate the `docker-compose.yml`, start services, and configure `systemd`.
 This takes about 5 minutes.
 
 Once complete, your BTCPay Server instance will be available at:
 
-```
-https://btcpay.example.com
-```
+`https://btcpay.example.com`
 
 > If you're modifying an existing installation (e.g. adding ZEC), be sure to stop and restart the server with new settings:
 
@@ -331,7 +323,7 @@ Then proceed to the next section to configure Zcash in the BTCPay Server web int
 
 
 
-## Running Your Own Zcash Full Node (Zebra + Lightwalletd)
+## Running Your Own Zcash Full Node
 
 If you prefer **not** to rely on public `lightwalletd` nodes, you can deploy your own full Zcash node along with Lightwalletd on the same server.  
 This gives you **full autonomy** - no external dependencies, no trust required.
@@ -363,7 +355,7 @@ Append the following to your environment setup to activate the full node configu
 ```
 export BTCPAYGEN_EXCLUDE_FRAGMENTS="zcash"
 export BTCPAYGEN_ADDITIONAL_FRAGMENTS="zcash-fullnode"
-````
+```
 
 This will include the `zcash-fullnode` fragment, which launches both `zebrad` and `lightwalletd` inside BTCPay Server.
 
@@ -371,9 +363,7 @@ This will include the `zcash-fullnode` fragment, which launches both `zebrad` an
 
 ### Step 3: Re-run the Installer
 
-```
-. ./btcpay-setup.sh -i
-```
+`. ./btcpay-setup.sh -i`
 
 The script will:
 
@@ -385,26 +375,18 @@ The script will:
 > Until synchronization completes, shielded payments will not be available.
 
 
-## Connecting to an External `lightwalletd` Node (Custom Configuration)
+## Connecting to an External Lightwalletd Node
 
 In most cases, full autonomy isn't required - and merchants may not want to spend time and disk space running a full Zcash node.  
 By default, BTCPay Server connects to a public `lightwalletd` node to handle shielded payments without downloading the entire blockchain.
 
 The default endpoint is:
 
-```
-
-https://zec.rocks:443
-
-```
+`https://zec.rocks:443`
 
 However, you can configure BTCPay Server to connect to **any external `lightwalletd` node**, such as:
 
-```
-
-https://lightwalletd.example:443
-
-````
+`https://lightwalletd.example:443`
 
 This section shows how to do that using a **custom Docker fragment**.
 
@@ -425,7 +407,7 @@ nano docker-compose-generator/docker-fragments/zcash-lightwalletd.custom.yml
 
 Add the following content:
 
-```yaml
+```
 exclusive:
 - zcash
 ```
@@ -451,15 +433,11 @@ export BTCPAYGEN_ADDITIONAL_FRAGMENTS="$BTCPAYGEN_ADDITIONAL_FRAGMENTS;zcash-lig
 
 Open your `.env` file:
 
-```
-nano .env
-```
+`nano .env`
 
 Add the following line, replacing the URL with your chosen endpoint:
 
-```
-ZCASH_LIGHTWALLETD=https://lightwalletd.example:443
-```
+`ZCASH_LIGHTWALLETD=https://lightwalletd.example:443`
 
 You can use:
 
@@ -477,9 +455,7 @@ You can use:
 
 ### Step 4: Re-run the Installer
 
-```
-. ./btcpay-setup.sh -i
-```
+`. ./btcpay-setup.sh -i`
 
 BTCPay Server will apply your custom config and connect to the specified `lightwalletd` node.
 
@@ -505,22 +481,18 @@ It also helps you **avoid the cost of renting a VPS**, which is ideal if cryptoc
 ```
 sudo apt update
 sudo apt install cloudflared --legacy
-````
+```
 
 3. Authenticate with Cloudflare:
 
-```
-cloudflared tunnel login
-```
+`cloudflared tunnel login`
 
 This command will open a browser window. Log in and authorize access to your domain.
 Cloudflare will automatically create a `credentials` file with a token on your server.
 
 4. Create a new tunnel (you can name it `btcpay` or anything else):
 
-```
-cloudflared tunnel create btcpay
-```
+`cloudflared tunnel create btcpay`
 
 This generates a `btcpay.json` file containing the tunnel ID and credentials - you'll need it in the next step.
 
@@ -537,7 +509,7 @@ sudo nano /etc/cloudflared/config.yml
 
 Paste the following configuration:
 
-```yaml
+```
 tunnel: btcpay    # your tunnel name
 credentials-file: /root/.cloudflared/btcpay.json
 
@@ -561,11 +533,7 @@ ingress:
 
 After creating the tunnel, Cloudflare will usually **automatically add a CNAME DNS record** for your domain. It should look like this:
 
-```
-
-btcpay.example.com -> <UUID>.cfargotunnel.com
-
-````
+`btcpay.example.com -> <UUID>.cfargotunnel.com`
 
 If it doesn't appear automatically, add it manually:
 
@@ -575,9 +543,9 @@ If it doesn't appear automatically, add it manually:
    - **Name**: `btcpay`
    - **Target**: `<UUID>.cfargotunnel.com`  
      You can find the exact value in your `btcpay.json` file or by running:
-     ```
-     cloudflared tunnel list
-     ```
+     
+     `cloudflared tunnel list`
+     
    - **Proxy status**: Enabled (orange cloud)
 
 > This record ensures that all requests to `btcpay.example.com` are routed through the Cloudflare Tunnel, hiding your real IP address from the public.
@@ -588,9 +556,7 @@ If it doesn't appear automatically, add it manually:
 
 To make the tunnel run automatically at boot, install it as a system service:
 
-```
-sudo cloudflared service install
-````
+`sudo cloudflared service install`
 
 Then enable and start the service:
 
@@ -601,9 +567,7 @@ sudo systemctl start cloudflared
 
 Check the status:
 
-```
-sudo systemctl status cloudflared
-```
+`sudo systemctl status cloudflared`
 
 You should see a message like `Active: active (running)` and confirmation that `btcpay.example.com` is online.
 
@@ -615,9 +579,7 @@ You should see a message like `Active: active (running)` and confirmation that `
 
 If you're about to install BTCPay Server for the first time, set your domain before running the setup script:
 
-```
-export BTCPAY_HOST="btcpay.example.com"
-```
+`export BTCPAY_HOST="btcpay.example.com"`
 
 This ensures the correct domain is used when generating the **Nginx configuration** and **SSL certificates**.
 
@@ -631,9 +593,7 @@ cd ~/BTCPayServer/btcpayserver-docker
 The setup will regenerate configs and apply the new domain.
 You should now be able to access your server at:
 
-```
-https://btcpay.example.com
-```
+`https://btcpay.example.com`
 
 > Whether you're using a public `lightwalletd` or your own full node, this does not affect the tunnel.
 > All that matters is that BTCPay Server is listening on `127.0.0.1:80` locally.
@@ -653,11 +613,7 @@ The official documentation provides full instructions in English - here, we'll w
 
 Visit your instance at:
 
-```
-
-[https://btcpay.example.com](https://btcpay.example.com)
-
-```
+`[https://btcpay.example.com](https://btcpay.example.com)`
 
 - Enter your administrator login and password.
 - If this is your first time logging in, you'll be prompted to create an account.
@@ -669,11 +625,7 @@ Visit your instance at:
 
 1. In the main menu, go to:
 
-```
-
-Plugins -> Browse Plugins
-
-```
+`Plugins -> Browse Plugins`
 
 2. Locate the **Zcash (ZEC)** plugin. Use the search bar if needed.
 3. Click **Install** and confirm.
@@ -689,11 +641,7 @@ After installing the plugin, a new **Zcash** section will appear in the settings
 
 1. Go to:
 
-```
-
-Zcash -> Settings
-
-```
+`Zcash -> Settings`
 
 2. Paste your **Unified Full Viewing Key (UFVK)** - BTCPay will derive a Unified Address for each invoice and detect incoming shielded payments.
 
@@ -702,11 +650,7 @@ Zcash -> Settings
 
    Example format:
 
-```
-
-uview184syv9wftwngkay8d...
-
-```
+`uview184syv9wftwngkay8d...`
 
 3. Enter a value in the Block height field
 
@@ -738,15 +682,11 @@ Let's run a test:
 
 1. Go to:
 
-```
-
-Invoices -> Create New
-
-```
+`Invoices -> Create New`
 
 2. Generate a test invoice for a small amount in ZEC.
 3. Send funds from **a different wallet** (not the one connected to BTCPay).
-4. Once the transaction is detected, the invoice page will display a visual celebration 🎉.
+4. Once the transaction is detected, the invoice page will display a visual celebration.
 5. Confirm that the invoice status changes to **Paid**.
 
 If everything works - you're ready to integrate ZEC payments into your website using the API or CMS plugins.
@@ -811,15 +751,15 @@ To integrate BTCPay Server with your website or app, you'll need to generate an 
 
 **Endpoint:**
 
-```http
+```
 POST /api/v1/stores/{storeId}/invoices
 Authorization: token {apiKey}
 Content-Type: application/json
-````
+```
 
 **Request body:**
 
-```json
+```
 {
   "amount": 5,
   "currency": "ZEC",
@@ -872,11 +812,7 @@ Steps to integrate:
 1. Install the **BTCPay for WooCommerce** plugin from the WordPress plugin directory or from GitHub.
 2. In your WordPress admin panel, go to:
 
-```
-
-WooCommerce -> Settings -> Payments
-
-```
+`WooCommerce -> Settings -> Payments`
 
 3. Find **BTCPay** in the list and click **Set up**
 4. Enter your BTCPay Server URL and follow the authorization instructions  
@@ -907,19 +843,15 @@ This method is ideal for:
 1. In BTCPay Server, manually create an invoice in the **Invoices** section
 2. Copy the payment link, e.g.:
 
-```
-
-[https://btcpay.example.com/i/abc123](https://btcpay.example.com/i/abc123)
-
-````
+`[https://btcpay.example.com/i/abc123](https://btcpay.example.com/i/abc123)`
 
 3. Add the link to your HTML:
 
-```html
+```
 <a href="https://btcpay.example.com/i/abc123" target="_blank">
   Pay with ZEC
 </a>
-````
+```
 
 ---
 
@@ -927,9 +859,7 @@ This method is ideal for:
 
 To display the invoice directly on your site, use an iframe:
 
-```html
-<iframe src="https://btcpay.example.com/i/abc123" width="600" height="350" frameborder="0"></iframe>
-```
+`<iframe src="https://btcpay.example.com/i/abc123" width="600" height="350" frameborder="0"></iframe>`
 
 > You can style the button or iframe container to match your site's design - BTCPay Server allows flexible theming of the invoice page.
 
