@@ -91,8 +91,8 @@ The Crosslink Protocol is being actively developed and deployed by Shielded Labs
 - Establishing secure staking mechanisms for PoS participants.
 - Modifying the reward structure to balance incentives between miners and stakers.
 - Ensuring backward compatibility and a seamless user experience during the transition.
-- Notary System: The protocol incorporates notaries who sign off on blocks. Initially, static notaries are used, transitioning to a dynamic system where notaries are elected based on staked ZEC​
-​- Activation Logic: The introduction of Crosslink requires changes to the Zcash consensus rules, including defining the stake distribution process and updating network protocol rules to support hybrid consensus​
+- Notary System: The protocol incorporates notaries who sign off on blocks. Initially, static notaries are used, transitioning to a dynamic system where notaries are elected based on staked ZEC.​
+- Activation Logic: The introduction of Crosslink requires changes to the Zcash consensus rules, including defining the stake distribution process and updating network protocol rules to support hybrid consensus​
 - Phased Deployment: The protocol will roll out in stages to ensure network stability and community adaptation. Initial phases focus on technical implementation, followed by governance integration for selecting notaries​
 ​
 
