@@ -104,11 +104,11 @@ Zcash is actively researching a migration to Proof-of-Stake.
 
 - Read the research: https://electriccoin.co/blog/zcash-proof-of-stake-research/  
 - Watch this segment from a Zcash Foundation Community Call explaining different PoS designs and their privacy implications:
-- 
+  
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
-    src="https://www.youtube.com/embed/22a-ROcb3AQ&t=2742s"
+    src="https://www.youtube.com/embed/22a-ROcb3AQ"
     title="PoS designs"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
