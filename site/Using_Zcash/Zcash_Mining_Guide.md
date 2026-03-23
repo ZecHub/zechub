@@ -102,7 +102,7 @@ Mining pools distribute work and share rewards based on your contributed hashrat
 3. Payouts: Most pools pay automatically when you reach the minimum (e.g., 0.05 ZEC). Check pool rules.
 
    
-![Zcash Mining Monitoring Setup](https://github.com/ZecHub/zechub/blob/aac601cf85076960d334f4c841867a646a5a2f29/assets/images/zcashMining.jpg)
+![Zcash Mining Monitoring Setup](https://raw.githubusercontent.com/ZecHub/zechub/aac601cf85076960d334f4c841867a646a5a2f29/assets/images/zcashMining.jpg)
 
 
 ## Tips and Best Practices
