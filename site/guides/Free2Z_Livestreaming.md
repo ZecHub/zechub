@@ -1,6 +1,6 @@
 # Livestreaming on Free2Z
 
-Hey there, how’s it going? ZecHub really delivers when it comes to wikis. Today, we’re thrilled to share some updates on the Free2Z platform with you. If you haven’t heard about it already, this guide will give you insight into the platform and how it works.
+Hey there, how's it going? ZecHub really delivers when it comes to wikis. Today, we're thrilled to share some updates on the Free2Z platform with you. If you haven't heard about it already, this guide will give you insight into the platform and how it works.
 
 **What is Free2Z?**
 
@@ -13,7 +13,7 @@ Free2Z emerged as a privacy-centric platform built to empower creatives to showc
 
 ![](https://i.ibb.co/VWhmwy4s/IMG-9351.jpg)
 
-* Big congrats on becoming part of the community\! Now it’s time to personalize your profile by uploading an avatar, a banner, and a description of who you are and what you do.
+* Big congrats on becoming part of the community\! Now it's time to personalize your profile by uploading an avatar, a banner, and a description of who you are and what you do.
 
 ![](https://i.ibb.co/yBFPnr17/IMG-9360.jpg)
 
@@ -40,7 +40,7 @@ Through donations, subscriptions, and pay-per-view live streams, you can earn 2Z
 
 **How to Start a Livestream**
 
-Click on your profile icon, and a drop-down list will appear. Select “Stream,” and you should see four livestream options. Simply select the one that suits your needs and hit the start stream button. Allow Free2Z to use your camera and microphone. Free2Z will ask you to input a nickname you’d like to use during the live stream. After that, hit the Join button to kick off the live stream. Your subscribers can join the live stream. You can also copy the live stream URL from your browser and share it with friends to join.
+Click on your profile icon, and a drop-down list will appear. Select "Stream" and you should see four livestream options. Simply select the one that suits your needs and hit the start stream button. Allow Free2Z to use your camera and microphone. Free2Z will ask you to input a nickname you'd like to use during the live stream. After that, hit the Join button to kick off the live stream. Your subscribers can join the live stream. You can also copy the live stream URL from your browser and share it with friends to join.
 
 [https://free2z.cash/Cjfrankie/broadcast](https://free2z.cash/Cjfrankie/broadcast)
 
