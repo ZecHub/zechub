@@ -1,6 +1,6 @@
 # Zcash Testnet
 
-## 🧠 What Is the Zcash Testnet?
+## What Is the Zcash Testnet?
 
 **Zcash Testnet** is a parallel blockchain to the real Zcash main network (Mainnet) that replicates the exact protocol, rules, and transaction logic — but with two key differences:
 
@@ -10,11 +10,11 @@
 In other words, the Testnet is like a **sandbox or experimental environment** where developers, auditors, and builders can try ideas without risking real money.
 
 
-## 🪙 Why Does Testnet Exist?
+## Why Does Testnet Exist?
 
 Testnet is crucial for blockchain development because **real blockchains like Zcash are immutable** — once transactions are confirmed on the main network, they cannot be undone. Testnet provides a **safe replica** to experiment, test, and debug features before deploying to Mainnet.
 
-### ✅ Uses of Testnet
+### Uses of Testnet
 
 #### 1. Software Development & Integration
 
@@ -26,7 +26,7 @@ Developers building wallets, exchanges, mining software, or privacy tools can sa
 - Testing transaction privacy features (transparent vs shielded)  
 
 **Example:**  
-Tools like `zcash_tx_tool` use Testnet to generate transactions and test shielded asset functionalities.  
+Tools like [`zcash_tx_tool`](https://github.com/QED-it/zcash_tx_tool) use Testnet to generate transactions and test Zcash shielded asset functionalities.  
 
 **Real-world scenario:**  
 A wallet developer can connect software to a Testnet RPC endpoint and simulate the full lifecycle — creating addresses, sending shielded transactions, and validating balances — before going live on Mainnet.
@@ -55,9 +55,9 @@ Beginners can learn Zcash features such as mining, creating shielded transaction
 Community tutorials and documentation provide access to **Testnet faucets, explorers, and guides**.
 
 
-## 📌 Real Testnet Use Cases
+## Real Testnet Use Cases
 
-### 🧪 1. Developer Testing (Wallet / App)
+### 1. Developer Testing (Wallet / App)
 
 - Connect to Zcash Testnet  
 - Request TAZ from a faucet  
@@ -66,7 +66,7 @@ Community tutorials and documentation provide access to **Testnet faucets, explo
 
 No real ZEC is lost even if mistakes occur.
 
-### 🤝 2. Exchange Integration Testing
+### 2. Exchange Integration Testing
 
 - Run a Testnet node  
 - Use Zebrad JSON-RPC endpoints to process transactions  
@@ -74,7 +74,7 @@ No real ZEC is lost even if mistakes occur.
 
 Ensures safe production code and prevents financial loss.
 
-### ⛏️ 3. Mining Setup Trials
+### 3. Mining Setup Trials
 
 - Use mining templates  
 - Test block validation  
@@ -83,13 +83,13 @@ Ensures safe production code and prevents financial loss.
 
 Prevents downtime or lost earnings when moving to Mainnet.
 
-### 🧠 4. Academic / Protocol Research
+### 4. Academic / Protocol Research
 
 Researchers can test innovations like **stateless verification**, **zero-knowledge proof optimization**, or other protocol experiments using Testnet.  
 Advanced users can also run **custom Testnets or regtest environments** for specialized experiments.
 
 
-## 🔧 Key Differences Between Mainnet and Testnet
+## Key Differences Between Mainnet and Testnet
 
 | Feature               | Mainnet           | Testnet                  |
 |-----------------------|-----------------|--------------------------|
@@ -99,11 +99,11 @@ Advanced users can also run **custom Testnets or regtest environments** for spec
 | Mining rewards        | Real issuance    | Test reward only         |
 | Network utility       | Live transactions| Testing and development  |
 
-## 📜 Common Misconceptions
+## Common Misconceptions
 
-- ❌ **Testnet coins are worth something** → False, TAZ have zero value.  
-- ❌ **Losing Testnet coins matters** → False, no real value is lost.  
-- ❌ **Testnet and Mainnet are identical** → False, Testnet resets often and isn’t economically secured like Mainnet.
+- **Testnet coins are worth something** → False, TAZ have zero value.  
+- **Losing Testnet coins matters** → False, no real value is lost.  
+- **Testnet and Mainnet are identical** → False, Testnet resets often and isn’t economically secured like Mainnet.
 
 ---
 
@@ -121,7 +121,7 @@ A developer can send 100 TAZ from one Testnet address to another to test a walle
 Think of TAZ as **“play money” for the Zcash Testnet**.
 
 
-## 💧 What Are Faucets?
+## What Are Faucets?
 
 A **faucet** is a service that gives free TAZ coins for testing:
 
@@ -142,21 +142,21 @@ A **faucet** is a service that gives free TAZ coins for testing:
 
 
 
-## 📌 Zkool and Zingo! Wallets
+## Zkool and Zingo! Wallets
 
-### 🔹 Zkool
+### Zkool
 
 - Multi-account wallet for advanced Zcash users  
 - Supports seed phrases, viewing keys, transparent and shielded addresses  
 - Can connect to Mainnet, Testnet, or Regtest via full nodes or lightwallet servers
 
-### 🔹 Zingo!
+### Zingo!
 
 - Mobile wallet focused on privacy and simplicity  
 - Supports shielded and unified addresses  
 - Updated to support Testnet protocols (including NU6 Testnet)
 
-## 📌 Enabling Testnet in Wallets
+## Enabling Testnet in Wallets
 
 ### Zkool Wallet
 
@@ -178,28 +178,18 @@ A **faucet** is a service that gives free TAZ coins for testing:
 
 ### Zingo! Wallet
 
- <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
-  <iframe
-    className="w-full h-full"
-    src=""
-    title="Zingo Testnet"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowFullScreen
-    loading="lazy"
-  />
-</div>
 
 Once enabled, wallets can send and receive TAZ, test shielded transactions, and experiment safely.
 
 
-## 📌 After Enabling Testnet
+## After Enabling Testnet
 
 - Transactions behave like Mainnet but with **zero-value TAZ**  
 - Shielded transactions, multiple addresses, and privacy features can be tested  
 - Developers can debug and test features without risking real ZEC
 
 
-## 📌 Quick Summary
+## Quick Summary
 
 - **Zcash Testnet** is a safe sandbox environment for building, testing, and experimenting  
 - Use cases: developer testing, node testing, exchange integration, research, and education  
