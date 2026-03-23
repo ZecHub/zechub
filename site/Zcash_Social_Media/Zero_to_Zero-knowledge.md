@@ -7,10 +7,7 @@
 
 ## Hash Functions 
 
-<blockquote class="twitter-tweet">
-<p lang="en" dir="ltr">Welcome to a new series: Zero to Zero Knowledge!<br><br>In this series we will learn the fundamentals on a wide range of technologies that go into our privacy preserving protocols.</p>
-&mdash; ZecHub (@ZecHub) <a href="https://x.com/ZecHub/status/1621240109663227906">February 2, 2023</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Welcome to a new series: Zero to Zero Knowledge!⁰<br>In this series we will learn the fundamentals on a wide range of technologies that go into our privacy preserving protocols. <a href="https://t.co/sRqg1PCyJ7">pic.twitter.com/sRqg1PCyJ7</a></p>&mdash; ZecHub (@ZecHub) <a href="https://twitter.com/ZecHub/status/1621240109663227906?ref_src=twsrc%5Etfw">February 2, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 ## Recovery Seed Phrases 
