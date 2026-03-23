@@ -1,6 +1,8 @@
 # **How to Swap for ZEC in Phantom Wallet**
 
-<img width="480" height="480" alt="IMG_20250831_094614" src="https://hackmd.io/_uploads/SJOlnt-ceg.png" />
+
+
+![img1](https://hackmd.io/_uploads/SJOlnt-ceg.png)
 
 ---
 
@@ -8,21 +10,24 @@
 Launch the **Phantom app** and tap on the **Swap** button,  
 or visit **[solswap.org](https://solswap.org/)** from your Phantom browser.  
 
-<img width="320" height="480" alt="IMG_20250831_094614" src="https://hackmd.io/_uploads/S1Cp-KWqxe.jpg" />
+
+![img2](https://hackmd.io/_uploads/S1Cp-KWqxe.jpg)
 
 ---
 
 ##  **Step 2: Select Networks and Tokens for Depositing**  
 - Choose your **source network** (e.g., *Ethereum* or *Solana*) then deposit for swapping.  
 
-<img width="320" height="480" alt="IMG_20250831_090540" src="https://hackmd.io/_uploads/S1SaGYZ9xx.jpg" />
+
+![img3](https://hackmd.io/_uploads/S1SaGYZ9xx.jpg)
 
 - Select a base token like **SOL, USDT, or USDC**.  
 - Choose **ZEC** as your **destination token**.  
 - Ensure that Zcash is available through the swap interface.  
 
 
-<img width="320" height="480" alt="IMG_20250831_090832" src="https://hackmd.io/_uploads/ry4QQF-5gx.jpg" />
+
+![img4](https://hackmd.io/_uploads/ry4QQF-5gx.jpg)
 
 ---
 
@@ -30,7 +35,8 @@ or visit **[solswap.org](https://solswap.org/)** from your Phantom browser.
 - Enter the amount you’d like to swap.  
 - Phantom will display an **estimated receive amount** after fees.  
 
-<img width="320" height="480" alt="IMG_20250831_091104" src="https://hackmd.io/_uploads/B1U1NYW5xe.jpg" />
+
+![img5](https://hackmd.io/_uploads/B1U1NYW5xe.jpg)
 
 ---
 
@@ -57,7 +63,7 @@ Tap **Swap Settings** to:
 - Tap **Swap Now** to initiate the transaction.  
 
 
-<img width="320" height="480" alt="IMG_20250831_091007" src="https://hackmd.io/_uploads/HkU1UKZ5gx.jpg" />
+![img6](https://hackmd.io/_uploads/HkU1UKZ5gx.jpg)
 
 ---
 
@@ -65,6 +71,7 @@ Tap **Swap Settings** to:
 - Track your swap in the **Recent Activity** tab.  
 - For cross-chain swaps, use your **transaction ID** with **Li.Fi Scanner** for real-time updates. 
 
-<img width="320" height="480" alt="IMG_20250831_092556" src="https://hackmd.io/_uploads/S1NBwKbcxe.jpg" />
+
+![img7](https://hackmd.io/_uploads/S1NBwKbcxe.jpg)
 
 ## Next you can begin shielding your [ZEC with this guide](https://zechub.wiki/guides/using-zec-privately)
