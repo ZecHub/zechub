@@ -178,6 +178,17 @@ A **faucet** is a service that gives free TAZ coins for testing:
 
 ### Zingo! Wallet
 
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/watch?v=To7WAkiBldA"
+    title="Zingo Testnet"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
 
 Once enabled, wallets can send and receive TAZ, test shielded transactions, and experiment safely.
 
