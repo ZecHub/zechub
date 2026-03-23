@@ -9,7 +9,7 @@ In this series we will learn the fundamentals on a wide range of technologies th
 
 ## Part 1: Hash Functions
 
-Today we start with **Hash Functions** – a key piece of cryptography used in blockchains. Later in this series we'll cover some topics that rely on their properties.
+Today we start with **Hash Functions** - a key piece of cryptography used in blockchains. Later in this series we'll cover some topics that rely on their properties.
 
 ### What is a Hash Function?
 
@@ -35,9 +35,9 @@ Enter any arbitrary text to produce a fixed-length output. Observe how the outpu
 
 Cryptographic Hash Functions must have these **3 properties**:
 
-1. **One-way** – It should be infeasible to reverse a hash function  
-2. **Collision Resistant** – Two different inputs must not hash to the same output  
-3. **Deterministic** – For any input, a hash function must always give the same result
+1. **One-way** - It should be infeasible to reverse a hash function  
+2. **Collision Resistant** - Two different inputs must not hash to the same output  
+3. **Deterministic** - For any input, a hash function must always give the same result
 
 ---
 
@@ -47,7 +47,7 @@ There are several classes of Hash Functions. Some examples:
 
 - Secure Hashing Algorithm (**SHA-3**)  
 - Message Digest Algorithm 5 (**MD5**)  
-- **BLAKE2b** – Used in Zcash key derivation
+- **BLAKE2b** - Used in Zcash key derivation
 
 **An introduction to BLAKE2 by Zooko**: https://www.zfnd.org/blog/blake2/
 
