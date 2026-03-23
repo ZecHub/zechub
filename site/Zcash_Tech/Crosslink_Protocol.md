@@ -24,7 +24,7 @@ The general approach has been demonstrated by Ethereum in Production
 ### CROSSLINK
 The Crosslink protocol is a proposed design for Zcash hybrid Proof-of-Work/Proof-of-Stake (PoW/PoS) stage. It integrates PoW with a Byzantine Fault Tolerance (BFT) protocol, enabling assured finality as long as either PoW or PoS remains secure. The design aims to strengthen network security and decentralization by incorporating staked validation while maintaining miner participation. A key feature of the proposal, called Crosslink 2, simplifies the architecture by unifying BFT proposers and miners. This streamlined approach minimizes structural changes and allows the use of a "dummy" BFT layer, making it easier to prototype and deploy while maintaining high-security standards.
 
-The implementation plan includes a roadmap with estimated engineering costs for integrating Crosslink 2* into Zcash’s Zebra client. This phased deployment focuses on balancing stakeholder incentives, reducing disruption, and aligning with Zcash goals for scalability, usability, and decentralization. Growing confidence in the protocol’s robust security properties further solidifies its potential as a key step in Zcash evolution. By addressing energy efficiency and enhancing consensus mechanisms, Crosslink offers a forward looking solution to evolving blockchain challenges. For more details, refer to the [GitHub repository](https://github.com/ShieldedLabs/crosslink-deployment) and the [Zcash Community Forum](https://forum.zcashcommunity.com).
+The implementation plan includes a roadmap with estimated engineering costs for integrating Crosslink 2* into Zcash's Zebra client. This phased deployment focuses on balancing stakeholder incentives, reducing disruption, and aligning with Zcash goals for scalability, usability, and decentralization. Growing confidence in the protocol's robust security properties further solidifies its potential as a key step in Zcash evolution. By addressing energy efficiency and enhancing consensus mechanisms, Crosslink offers a forward looking solution to evolving blockchain challenges. For more details, refer to the [GitHub repository](https://github.com/ShieldedLabs/crosslink-deployment) and the [Zcash Community Forum](https://forum.zcashcommunity.com).
 
 ![image](https://github.com/user-attachments/assets/b34afda4-fe33-448f-b0dd-279fd6cef1f5)
 
@@ -39,7 +39,7 @@ The Crosslink Protocol is designed to address several strategic goals crucial fo
    - By introducing staked validation, the protocol ensures that economic participants play an active role in consensus, reducing reliance on mining alone.
 
 2. **Enhanced Governance**:
-   - Coinholders gain voting rights through staking, enabling them to influence decisions about network upgrades, funding allocations, and ecosystem priorities. This democratic mechanism aligns the protocol’s evolution with community interests.
+   - Coinholders gain voting rights through staking, enabling them to influence decisions about network upgrades, funding allocations, and ecosystem priorities. This democratic mechanism aligns the protocol's evolution with community interests.
 
 3. **Energy Efficiency**:
    - Transitioning partially to PoS significantly lowers energy demands, aligning Zcash with global sustainability initiatives. PoS is inherently less resource-intensive compared to the computationally heavy PoW. Hybrid systems aim to lower energy use compared to PoW-only systems while maintaining high security​
@@ -67,7 +67,7 @@ Crosslink incorporates a **Safety Mode** to address risks associated with the lo
 
 ---
 
-#### **Impact on PoW Miners’ Revenue**
+#### **Impact on PoW Miners' Revenue**
 
 Crosslink acknowledges the foundational role of PoW miners in Zcash early development while preparing for a gradual shift:
 
@@ -87,7 +87,7 @@ Crosslink acknowledges the foundational role of PoW miners in Zcash early develo
 
 #### **Technical Details and Deployment**
 
-The Crosslink Protocol is being actively developed and deployed by Shielded Labs in collaboration with key ecosystem partners such as the Electric Coin Company (ECC). The protocol’s implementation includes:
+The Crosslink Protocol is being actively developed and deployed by Shielded Labs in collaboration with key ecosystem partners such as Zodl. The protocol's implementation includes:
 - Establishing secure staking mechanisms for PoS participants.
 - Modifying the reward structure to balance incentives between miners and stakers.
 - Ensuring backward compatibility and a seamless user experience during the transition.
