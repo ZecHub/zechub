@@ -111,7 +111,7 @@ You can explore the technical details and track its progress via the [Crosslink 
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/O4wQi_i7k0I"
-    title="Crosslink and Possible Futures of Proof-of-Stake in Zcash with Daira"
+    title="Crosslink"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
