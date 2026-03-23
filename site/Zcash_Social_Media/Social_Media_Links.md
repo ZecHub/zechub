@@ -6,7 +6,7 @@
 
 ## Twitter
 
-![img1](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/twitter.svg)
+![img1](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/twitter.svg =24x)
 
 1. Zcash - [@zcash](https://twitter.com/zcash)
 2. ZecHub - [@zechub](https://twitter.com/ZecHub)
