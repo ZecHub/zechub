@@ -34,7 +34,7 @@ This gives us a unique fingerprint for our entropy.
 The total 132 bits (128 entropy + 4 checksum) are separated into chunks of 11 bits.
 
 ### 4. Map to Wordlist
-Each 11-bit sequence is converted to a decimal number (0–2047).  
+Each 11-bit sequence is converted to a decimal number (0-2047).  
 BIP-39 wordlists contain exactly **2048 words** (English, Spanish, Chinese, etc.).
 
 These numbers are used to find the corresponding word in the wordlist.
