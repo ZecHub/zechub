@@ -163,7 +163,7 @@ A **faucet** is a service that gives free TAZ coins for testing:
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
-    src="https://www.youtube.com/watch?v=XCGwwqLZILg"
+    src="https://www.youtube.com/embed/XCGwwqLZILg"
     title="Zkool Testnet"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
@@ -181,7 +181,7 @@ A **faucet** is a service that gives free TAZ coins for testing:
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
-    src="https://www.youtube.com/watch?v=To7WAkiBldA"
+    src="https://www.youtube.com/embed/To7WAkiBldA"
     title="Zingo Testnet"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
