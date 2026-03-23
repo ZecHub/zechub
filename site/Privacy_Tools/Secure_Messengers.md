@@ -1,7 +1,4 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Secure_Messengers.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
-</a>
-
+[![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Secure_Messengers.md)
 
 # Secure Messengers
 
@@ -24,51 +21,31 @@ As data travels over servers or the internet, they are exposed to many factors t
 
 **Zcash Encrypted Memos**
 
-Zcash Desktop & Mobile wallets have an in-built feature that allows users to send encrypted messages with private shielded transactions. The memo/message size can be up to 512 bytes long per transactions with transaction fees being less than 1 US cent. Due to the privacy preserving way transactions are detected and the block time of the netwoek, messages may take up to 1 minute or more to be received. 
+Zcash Desktop & Mobile wallets have an in-built feature that allows users to send encrypted messages with private shielded transactions. The memo/message size can be up to 512 bytes long per transactions with transaction fees being less than 1 US cent. Due to the privacy preserving way transactions are detected and the block time of the network, messages may take up to 1 minute or more to be received. 
 
 Try it: https://z.cash/wallets 
 
-<a href="https://z.cash/wallets">
-    <img src="https://i.ibb.co/n8HbQZC/Zcash-1177103374.png" alt="" width="400" height="150"/>
-</a>
-
-____
-
+![Zcash Encrypted Memos](https://i.ibb.co/n8HbQZC/Zcash-1177103374.png)
 
 **Signal app**
 
-<a href="https://signal.org/download/">
-    <img src="https://i.ibb.co/7RbbxSs/signal-app-logo-scaled-454032876.jpg" alt="" width="200" height="140"/>
-</a>
-
+![Signal App](https://i.ibb.co/7RbbxSs/signal-app-logo-scaled-454032876.jpg)
 
 The Signal private messenger is a secure messaging app with data privacy at its peak. The Signal private messenger app is free and easy to use, users do not need any prior experience. The Signal app has an end-to-end encryption technology that ensures your communication is completely private. Anyone looking to send private messages securely should consider using the Signal private messenger app because it will exponentially reduce both your cybersecurity vulnerabilities and your data footprint.
 
 Try it: [https://signal.org/download](https://signal.org/download)
 
-____
-
 **BisonRelay**
 
-
-<a href="https://bisonrelay.org/download">
-    <img src="https://i.ibb.co/ZxpBVNv/ogimg-v1-1000556235.jpg" alt="" width="230" height="140"/>
-</a>
-
+![Bison Relay](https://i.ibb.co/ZxpBVNv/ogimg-v1-1000556235.jpg)
 
 The Bison Relay app made its debut in 2022. Bison Relay is not dependent on users having accounts - Insanely unbelievable! Here, every message that is sent and received is individually paid for over the Decred Lightning Network. The sole purpose of this app is to completely eliminate the need for accounts whilst minimizing metadata. On the other hand, Bison Relay put a stop to the way censorship is typically implemented. 
 
 Try it: [https://bisonrelay.org/download](https://bisonrelay.org/download)
 
-____
-
-
 **Session App**
 
-
-<a href="https://getsession.org">
-    <img src="https://i.ibb.co/gdpwb1v/logo-black.png" alt="" width="150" height="160"/>
-</a>
+![Session App](https://i.ibb.co/gdpwb1v/logo-black.png)
 
 If you don't already know what Session app is, don't fret! Here is a glimpse, Session is one of the vying end-to-end encrypted messengers. The app was built to minimize sensitive metadata. The session app was designed for individuals who want absolute privacy, and freedom from any form of surveillance. On the Session app, users can create an account without phone numbers or email addresses which means it is completely anonymous. Users can send messages safely via their network without any trace so, there's nothing to leak.
 
