@@ -103,21 +103,9 @@
 ### How It Works
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                        TipZ Payment Flow                        │
-└─────────────────────────────────────────────────────────────────┘
-  ┌──────────┐      ┌──────────────┐      ┌─────────────────────┐
-  │   Fan    │ ──── │  tipz.cash   │ ──── │  Creator's Wallet   │
-  │ (Tipper) │      │   Protocol   │      │   (Shielded ZEC)    │
-  └──────────┘      └──────────────┘      └─────────────────────┘
-       │                   │                        │
-       │  Sends ETH/       │  Auto-converts         │  Receives
-       │  USDC/SOL/ZEC     │  to shielded ZEC       │  private tip
-       │                   │                        │
-       ▼                   ▼                        ▼
-  ┌──────────┐      ┌──────────────┐      ┌─────────────────────┐
-  │ Selects  │      │   Routes &   │      │  Balance remains    │
-  │ amount & │      │    Swaps     │      │     private         │
-  │ message  │      │              │      │                     │
-  └──────────┘      └──────────────┘      └─────────────────────┘
+TipZ Payment Flow
+
+Fan -> tipz.cash Protocol -> Creator's Wallet (Shielded ZEC)
+
+Fan selects amount + message -> Protocol auto-converts -> Creator receives private shielded ZEC
 ```
