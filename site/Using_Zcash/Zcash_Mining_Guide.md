@@ -101,7 +101,9 @@ Mining pools distribute work and share rewards based on your contributed hashrat
    - Tools: Use HiveOS or SimpleMining OS for remote rig management.
 3. Payouts: Most pools pay automatically when you reach the minimum (e.g., 0.05 ZEC). Check pool rules.
 
-![Zcash Mining Monitoring Setup](/assets/images/zcashMining.jpg)
+   
+![Zcash Mining Monitoring Setup](https://github.com/ZecHub/zechub/blob/aac601cf85076960d334f4c841867a646a5a2f29/assets/images/zcashMining.jpg)
+
 
 ## Tips and Best Practices
 - **Profitability:** Use calculators like whattomine.com/coins/166-zec-equihash. Example: A RTX 3060 (~300 Sol/s) earns ~0.001 ZEC/day at $50/ZEC, minus ~$0.50 electricity.
