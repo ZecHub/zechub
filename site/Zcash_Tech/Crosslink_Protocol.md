@@ -105,7 +105,18 @@ You can explore the technical details and track its progress via the [Crosslink 
 - Community insights: [Zcash Community Forum - Crosslink Discussions](https://forum.zcashcommunity.com)
 - Official updates: [Electric Coin Company Blog](https://electriccoin.co)
 - Sustainability focus: [Why Hybrid PoS Matters for Zcash](https://forum.zcashcommunity.com)
-- Reference: https://www.youtube.com/watch?v=O4wQi_i7k0I
+- Reference: 
+
+  <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/O4wQi_i7k0I"
+    title="Crosslink and Possible Futures of Proof-of-Stake in Zcash with Daira - ZconV: Zcash Unified 2024"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
 
 This dual-consensus mechanism reinforces Zcash commitment to privacy, sustainability, and decentralization, positioning it as a forward-looking leader in the blockchain space.
 
