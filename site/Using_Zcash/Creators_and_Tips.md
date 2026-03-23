@@ -74,7 +74,7 @@
 
 > *"tipz.cash is a private tipping protocol for creators and cypherpunks."*
 
-### Key Features
+### Why Privacy Matters for Creators
 
 #### Financial Freedom
 - 0% platform fees
@@ -100,7 +100,7 @@
 - Censorship resistant
 - No KYC required
 
-### How It Works
+### Additional Resources
 
 ```
 TipZ Payment Flow
