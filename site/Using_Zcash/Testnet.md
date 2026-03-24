@@ -101,9 +101,9 @@ Advanced users can also run **custom Testnets or regtest environments** for spec
 
 ## Common Misconceptions
 
-- **Testnet coins are worth something** → False, TAZ have zero value.  
-- **Losing Testnet coins matters** → False, no real value is lost.  
-- **Testnet and Mainnet are identical** → False, Testnet resets often and isn't economically secured like Mainnet.
+- **Testnet coins are worth something** -> False, TAZ have zero value.  
+- **Losing Testnet coins matters** -> False, no real value is lost.  
+- **Testnet and Mainnet are identical** -> False, Testnet resets often and isn't economically secured like Mainnet.
 
 ---
 
