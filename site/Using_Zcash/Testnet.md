@@ -118,7 +118,7 @@ Advanced users can also run **custom Testnets or regtest environments** for spec
 **Example:**  
 A developer can send 100 TAZ from one Testnet address to another to test a wallet feature without risking real ZEC.  
 
-Think of TAZ as **“play money” for the Zcash Testnet**.
+Think of TAZ as **"play money" for the Zcash Testnet**.
 
 
 ## What Are Faucets?
