@@ -15,7 +15,11 @@ _You can also mine ZEC, but that is usually not possible for average consumers. 
 
 Gemini is a regulated cryptocurrency exchange, wallet, and custodian that makes it simple and secure to buy ZEC, Ether, and other cryptocurrencies. You can buy ZEC with fiat or other cryptocurrencies.
 
-**[Flyp.me](https://flyp.me)**	
+**[BitcoinVN](https://bitcoinvn.io)**
+
+BitcoinVN is a non-custodial instant exchange that supports shielded (z-address) deposits and withdrawals for ZEC — one of very few exchanges globally with full z-address support. Operating since 2014, you can swap BTC, ETH, USDT, and other cryptocurrencies for ZEC directly to your shielded wallet.
+
+**[Flyp.me](https://flyp.me)**
 
 Flyp.me is a no sign-up crypto exchange. It was one of the safest and most private ways to exchange 30+ cryptocurrencies straight to your wallet. You can buy ZEC with other cryptocurrencies.
 
@@ -60,6 +64,5 @@ When doing this, we recommend using one of the following [wallets](https://zechu
     loading="lazy"
   />
 </div>
-
 
 
