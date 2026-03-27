@@ -18,6 +18,18 @@
 - Deposit Time: 20 minutes
 ___
 
+### [BitcoinVN](https://bitcoinvn.io)
+
+<a href="https://bitcoinvn.io">
+    <img src="https://bitcoinvn.io/img/bitcoinvn-logo.png" alt="BitcoinVN Logo" width="200" height="100"/>
+</a>
+
+- Website: [BitcoinVN](https://bitcoinvn.io)
+- Pairs: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
+- Supports: Transparent | Shielded (z-address Deposit & Withdrawal)
+- Deposit Time: Instant (non-custodial swap)
+___
+
 ### [Bitfinex](https://bitfinex.com)
 
 <a href="https://bitfinex.com">
