@@ -110,7 +110,7 @@ EOF
 sudo systemctl daemon-reload
 ```
 
-## Daily Usage – Single-Command Workflow
+## Daily Usage - Single-Command Workflow
 
 | Action                  | Command                                      | Notes |
 |-------------------------|----------------------------------------------|-------|
