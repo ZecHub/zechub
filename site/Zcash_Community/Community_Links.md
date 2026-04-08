@@ -26,11 +26,11 @@ The Zcash community is very active in its community telegram. This is a channel 
 
 [ZODL](https://discord.gg/ftkKEHNtYp)
 
-#### Mastodon
+### Mastodon
 
 [ZecHub.Social](https://zechub.social/)
 
-#### Matrix
+### Matrix
 
 [ZecHub](https://matrix.to/#/#zechub:matrix.org)
 
