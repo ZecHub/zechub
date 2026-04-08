@@ -26,6 +26,14 @@ The Zcash community is very active in its community telegram. This is a channel 
 
 [Electric Coin Co](https://discord.gg/ftkKEHNtYp)
 
+#### <ins>Mastodon</ins>
+
+[ZecHub.Social](https://zechub.social/)
+
+#### <ins>Matrix</ins>
+
+[ZecHub](https://matrix.to/#/#zechub:matrix.org)
+
 These places are great options for new community members to join in discussions.
 
 #### <ins>Zcash Community Forum</ins>
@@ -47,12 +55,6 @@ Just like most crypto projects, the Zcash community is extremely active on Twitt
 
 [@zerodartz](https://x.com/Zerodartz) (for the memes!)
 
-
-#### <ins>Mastodon</ins>
-
-[ZecHub.Social](https://zechub.social/@Zechub">ZecHub.Social)
-
-[Zeal.Center](https://zeal.center)
 
 ----
 
