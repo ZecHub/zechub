@@ -24,7 +24,7 @@ The Zcash community is very active in its community telegram. This is a channel 
 
 [Zcash Foundation](https://discord.gg/na6QZNd)
 
-[Electric Coin Co](https://discord.gg/ftkKEHNtYp)
+[ZODL](https://discord.gg/ftkKEHNtYp)
 
 #### <ins>Mastodon</ins>
 
