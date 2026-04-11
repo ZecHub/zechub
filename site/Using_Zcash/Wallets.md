@@ -90,9 +90,9 @@
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
 ![logo](https://i.ibb.co/VtPBnm6/zenith-2.png "Zenith")
-- Devices: Full Node | Desktop
+- Devices: Desktop
 - Operating System: Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
 - Pools: Transparent | Sapling | Orchard
 - Features: Address Book | Graphical Interface | Shielded Memo | Testnet Support
 
@@ -100,9 +100,9 @@
 
 ## [Zingo-CLI](https://github.com/zingolabs/zingolib)
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo-CLI")
-- Devices: Full Node | Desktop
+- Devices: Desktop
 - Operating System: Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
 - Pools: Transparent | Sapling | Orchard
 - Features: Command Line Interface | PepperSync | Shielded Memo | Testnet Support 
 
@@ -110,9 +110,9 @@
 
 ## [Zallet](https://github.com/zcash/wallet)
 ![logo](https://i.ibb.co/3mCrR0dN/Brandmark-Yellow.png "Zallet")
-- Devices: Full Node | Desktop
+- Devices: Desktop
 - Operating System: Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
 - Pools: Transparent | Sapling | Orchard
 - Features: Alpha Release | JSON-RPC Interface | Shielded Memo | Testnet Support
 
@@ -120,9 +120,9 @@
 
 ## [Zcashd](https://github.com/zcash/zcash)
 ![logo](https://i.ibb.co/Xz2NskW/zcashd.png "Zcashd")
-- Devices: Full Node | Desktop
+- Devices: Desktop
 - Operating System: Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
 - Pools: Transparent | Sapling | Orchard
 - Features: Command Line Interface | Diversified Address | Shielded Memo | Testnet Support
 
