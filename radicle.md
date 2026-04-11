@@ -27,9 +27,11 @@ rad seed rad:z4Wg7andG6uee1EAyWEhCuivji41V    # namada
 ### Clone the repos
 
 ```
-rad clone rad:z2cawajJ9dAqR35UhHQvSxuFNA6SL --timeout 10m     # zechub-wiki
-rad clone rad:zad2NSrsw3NYdkvx1sTn6EYAqRHc --timeout 10m      # zechub
-rad clone rad:z4Wg7andG6uee1EAyWEhCuivji41V --timeout 10m     # namada
+rad clone rad:z2cawajJ9dAqR35UhHQvSxuFNA6SL    # zechub-wiki
+rad clone rad:zad2NSrsw3NYdkvx1sTn6EYAqRHc     # zechub
+rad clone rad:z4Wg7andG6uee1EAyWEhCuivji41V    # namada
+
+note: add --timeout 10m if you get a timeout error
 ```
 
 ### Connecting to Public Seed Nodes
@@ -57,8 +59,5 @@ rad node status
 
 # check your current version
 rad --version
-
-# update if a newer version is available      
-rad self-update
 
 ```
