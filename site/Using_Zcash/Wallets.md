@@ -2,7 +2,7 @@
 ![logo](https://github.com/user-attachments/assets/198608b2-9059-4cb7-aeb8-9354971376fd "ZODL")
 - Devices: Mobile
 - Operating System: Android | iOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard
 - Features: Address Book | CrossPay | DEX Swaps | Flexa Payments | MultiSignature | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | F-droid
 
@@ -12,7 +12,7 @@
 ![logo](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard
 - Features: Address Book | Cold Storage | Diversified Address | Payment Request | Pool Transfer | Shielded Memo | TEX Address | Voting | WarpSync
 
@@ -72,7 +72,7 @@
 ![logo](https://i.ibb.co/BHGPff0K/zkool-1.png "Zkool")
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux
-- Wallet Support: Seed Phrase | Viewing Key | Hardware
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard
 - Features: Address Rotation | Broad Key Support | Encrypted Exports | FROST Multisig | Multi-Account Sync | Shielded Memo | Testnet Support
 
@@ -82,7 +82,7 @@
 ![logo](https://github.com/user-attachments/assets/a8234c70-3714-4e80-b918-8739d45aea00 "Cake")
 - Devices: Mobile | Desktop 
 - Operating System: Android | iOS | Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Transparent | Sapling | Orchard
 - Features: Address Book | Address Rotation | Automatic Shielding | DEX Swaps | Multi Coin | Shielded Memo | Tor Support
 
@@ -92,9 +92,9 @@
 ![logo](https://i.ibb.co/VtPBnm6/zenith-2.png "Zenith")
 - Devices: Full Node | Desktop
 - Operating System: Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Transparent | Sapling | Orchard
-- Features: Address Book | Graphical Interface | Shielded Memo | Testnet Support | Unified Address
+- Features: Address Book | Graphical Interface | Shielded Memo | Testnet Support
 
 ---
 
