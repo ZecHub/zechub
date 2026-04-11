@@ -200,8 +200,8 @@
 
 ## [Keystone](https://shop.keyst.one)
 ![logo](https://i.ibb.co/c1gn635/Keystone-1.png "Keystone")
-- Devices: Hardware
-- Operating System: Hardware
+- Devices:
+- Operating System:
 - Wallet Support: Hardware | Unified Address
 - Pools: Transparent | Sapling | Orchard
 - Features: Multi Coin
@@ -210,8 +210,8 @@
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](https://i.ibb.co/2qX6WCF/Desktop-Wallets.png "Ledger")
-- Devices: Hardware
-- Operating System: Hardware
+- Devices: 
+- Operating System:
 - Wallet Support: Hardware
 - Pools: Transparent 
 - Features: Multi Coin
@@ -220,8 +220,8 @@
 
 ## [Safepal](https://safepal.com)
 ![logo](https://i.ibb.co/h29h6d0/safepalcard.png "Safepal")
-- Devices: Mobile | Web | Hardware
-- Operating System: Android | iOS | Browser | Hardware
+- Devices: Mobile | Web
+- Operating System: Android | iOS | Browser
 - Wallet Support: Seed Phrase | Hardware
 - Pools: Transparent
 - Features: Multi Coin
@@ -230,8 +230,8 @@
 
 ## [Trezor](https://trezor.io/learn/a/zcash-zec)
 ![logo](https://i.ibb.co/wcD52Kk/image-2024-...)
-- Devices: Hardware
-- Operating System: Hardware
+- Devices:
+- Operating System:
 - Wallet Support: Hardware
 - Pools: Transparent
 - Features: Multi Coin
