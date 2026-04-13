@@ -50,6 +50,10 @@ Warp is YWallet's upcoming synchronization engine with improved synchronization 
 
 A multi-feature privacy wallet supporting Zcash and Ycash utilizing the fast syncing algorithm: warp-sync.
 
+[Zapp](https://www.justzappit.xyz/)
+
+Zapp is a privacy-first messenger that connects ZEC chats to real‑world payments. [Join for early access](https://www.justzappit.xyz/app)
+
 [Zashi](https://electriccoin.co/zashi/)
 
 Zashi is an open source, self custodial, shielded Zcash Wallet built for private payments. Developed by the Electric Coin Company.
