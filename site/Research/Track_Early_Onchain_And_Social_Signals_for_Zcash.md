@@ -1,4 +1,6 @@
-https://docs.google.com/document/d/1nabBvmnGdxgKWZ4pbh1IVZQtdY5jEwINNVui9ldA0Wg/edit?usp=sharing
+---
+published: 2025-08-19 
+---
 
 # Tracking Early On-chain & Social Signals for Zcash (ZEC)
 
