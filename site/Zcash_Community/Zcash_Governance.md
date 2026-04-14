@@ -23,7 +23,7 @@ Zcash is a Proof-of-Work cryptocurrency. Every block mined distributes its **blo
   - 5% -> Zcash Foundation (ZF)  
   - 8% -> Zcash Community Grants (ZCG)
 
-This 20% “dev fund” was replaced by the 8% ZCG + 12% lockbox model via [ZIP 1015](https://zips.z.cash/zip-1015).
+This 20% "dev fund" was replaced by the 8% ZCG + 12% lockbox model via [ZIP 1015](https://zips.z.cash/zip-1015).
 
 ## 2. The Core Organizations & Their Funding Sources
 
@@ -103,7 +103,7 @@ Zcash governance is a mix of **on-chain protocol rules** and **off-chain social 
 - Zcash Improvement Proposals -> [zips.z.cash](https://zips.z.cash)  
 - Zcash Community Grants portal -> [grants.zcashcommunity.com](https://grants.zcashcommunity.com) (or current FPF site)
 
-## Lockbox Dashboard
+## 6. Lockbox Dashboard
 
 The ZecHub Dashboard as the current amount of `ZEC` in the Lockbox and Coinholders fund [here](https://zechub.wiki/dashboard?tab=lockbox).
 
