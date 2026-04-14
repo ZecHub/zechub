@@ -1,3 +1,7 @@
+---
+published: 2023-12-07
+---
+
 ![CBDC](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/cbdc.webp)
 # Unveiling the Dark Side: Navigating the Central Bank Digital Currency (CBDC) Odyssey Amidst Financial Shadows
 By : [**Abhishek Tiwari**]
