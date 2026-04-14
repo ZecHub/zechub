@@ -4,6 +4,8 @@
 
 # Dash Integration of Zcash Orchard
 
+Published: March 14th 2026
+
 ## Introduction
 
 In February 2026, the Dash network announced the integration of Zcash's Orchard shielded pool into the Dash Evolution chain. This marked one of the most significant cross-chain privacy collaborations in the cryptocurrency space, as Dash adopted Zcash's cutting-edge zero-knowledge cryptography to complement its existing CoinJoin-based privacy model. The integration validates Zcash's position as a leader in privacy technology and opens a new chapter for cross-chain privacy collaboration.
