@@ -24,7 +24,7 @@ Zcash is a Proof-of-Work cryptocurrency. Every block mined distributes its **blo
 
 This 20% "dev fund" was replaced by the 8% ZCG + 12% lockbox model via [ZIP 1015](https://zips.z.cash/zip-1015).
 
-### Proposed Evolution: ZIP 1016 – Community and Coinholder Funding Model
+### Proposed Evolution: ZIP 1016 - Community and Coinholder Funding Model
 ZIP 1016 (proposed February 2025, status: Proposed) introduces a more decentralized funding model. It would:
 - Continue the 8% allocation to ZCG.
 - Convert the 12% lockbox into a "Coinholder-Controlled Fund" (seeded by existing lockbox funds + ongoing 12% block subsidy).
@@ -84,7 +84,7 @@ This proposal aims to shift from organization-controlled to direct coin-holder g
 -> See full profile: [Shielded Labs](https://zechub.wiki/zcash-organizations/shielded-labs)  
 -> Official site: [shieldedlabs.net](https://shieldedlabs.net/)
 
-## 3. Governance – How Decisions Are Made
+## 3. Governance - How Decisions Are Made
 
 Zcash governance is a mix of "on-chain protocol rules" and "off-chain social consensus":
 
@@ -107,11 +107,11 @@ Zcash governance is a mix of "on-chain protocol rules" and "off-chain social con
 4. **On-chain Ratification**  
    - Once a network upgrade is deployed, the majority of the network hash rate must adopt it (no hard-fork risk if consensus is reached).
 
-5. **Future Direction – The Lockbox & ZIP 1016**  
+5. **Future Direction - The Lockbox & ZIP 1016**  
    - The 12% lockbox funds are accumulating in the protocol.  
    - ZIP 1016 proposes converting this into a Coinholder-Controlled Fund with quarterly coin-holder voting and multisig administration by Key-Holder Organizations (ZF and Shielded Labs currently noted).
 
-## 4. Quick Reference Table – Funding Evolution
+## 4. Quick Reference Table - Funding Evolution
 
 | Period           | Miners | ECC/Bootstrap | ZF   | ZCG  | Lockbox | Notes                                      |
 |------------------|--------|---------------|------|------|---------|--------------------------------------------|
