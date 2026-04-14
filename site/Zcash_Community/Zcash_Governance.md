@@ -51,7 +51,8 @@ This proposal aims to shift from organization-controlled to direct coin-holder g
 - The team, consisting of the original inventors and developers of the Zcash protocol, continues core protocol development, ZIP contributions, and privacy-focused tools including the Zodl mobile wallet (rebranded from Zashi).  
 - No direct on-chain protocol funding; operates as a VC-backed independent lab focused on advancing Zcash privacy infrastructure.  
 -> See full profile: [ZODL](https://zechub.wiki/zcash-organizations/ZODL)
-
+-> Official site: [zodl.com](https://zodl.com/)
+  
 **Zcash Foundation (ZF)**  
 - Independent 501(c)(3) nonprofit focused on infrastructure, node software, research, and ecosystem health.  
 - Historically received 5% of the dev fund.  
@@ -60,6 +61,7 @@ This proposal aims to shift from organization-controlled to direct coin-holder g
 - Runs the Zcash Community Advisory Panel (ZCAP) and helps facilitate community polling.  
 - Acts as a Key-Holder Organization under proposed ZIP 1016.  
 -> See full profile: [Zcash Foundation](https://zechub.wiki/zcash-organizations/zcash-foundation)
+-> Official site: [zfnd.org](https://zfnd.org/)
 
 **Zcash Community Grants (ZCG)**  
 - The Zcash Community Grants program funds independent teams and projects to perform major ongoing development and other work for the public good of the Zcash ecosystem.  
@@ -67,6 +69,7 @@ This proposal aims to shift from organization-controlled to direct coin-holder g
 - Continues to receive the full 8% of block rewards (post-NU6), administered through the Financial Privacy Foundation.  
 - Grants are awarded through a transparent application and voting process open to the community.  
 -> See full profile: [Zcash Community Grants](https://zechub.wiki/zcash-organizations/zcash-community-grants)
+-> Official site: [zcashcommunitygrants.org/](https://zcashcommunitygrants.org/)
 
 **Financial Privacy Foundation (FPF)**  
 - A non-profit organization incorporated in the Cayman Islands.  
@@ -74,6 +77,7 @@ This proposal aims to shift from organization-controlled to direct coin-holder g
 - Provides the umbrella structure and administrative support for ZCG operations, including disbursement, contracts, and compliance.  
 - ZCG operates as an autonomous community-elected entity under the FPF umbrella.  
 -> See full profile: [Financial Privacy Foundation](https://zechub.wiki/zcash-organizations/financial-privacy-foundation)
+-> Official site: [financialprivacyfoundation.org/](https://www.financialprivacyfoundation.org/)
 
 **Shielded Labs**  
 - Independent, donation-funded Zcash support organization based in Switzerland.  
