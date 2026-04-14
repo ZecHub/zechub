@@ -1,10 +1,12 @@
+---
+published: 2025-08-02
+---
+
 <a href="https://github.com/Zechub/zechub/edit/main/site/Research/Namada_Best_Practices.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Namada Privacy Best Practices
-
-Published: August 2nd, 2025
 
 > Practical, actionable guidance for achieving maximum privacy on Namada - and understanding exactly where its protections end.
 
