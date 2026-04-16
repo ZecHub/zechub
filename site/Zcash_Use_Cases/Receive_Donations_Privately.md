@@ -9,6 +9,15 @@
 
 ---
 
+## 👤 Who is this for?
+
+- Creators accepting donations
+- Open-source contributors
+- Communities raising funds
+- Anyone who wants private financial support
+
+---
+
 ## The Problem
 
 Most cryptocurrencies expose everything:
