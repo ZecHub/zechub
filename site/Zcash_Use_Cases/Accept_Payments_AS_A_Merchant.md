@@ -106,3 +106,16 @@ You can:
 
 - /wallets
 - /privacy/best-practices
+
+
+## ✅ Progress
+
+**Step 4 of 6**
+
+You can now run private payment flows for business.
+
+
+## ▶️ Next Step
+
+→ 🏛️ Run a Private Community Treasury  
+/use-cases/private-community-treasury

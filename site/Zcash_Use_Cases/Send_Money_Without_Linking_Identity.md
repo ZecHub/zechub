@@ -89,3 +89,17 @@ You can:
 
 - /privacy/shielded-vs-transparent
 - /privacy/best-practices
+
+
+## ✅ Progress
+
+**Step 2 of 6**
+
+You can now send funds privately without exposing identity.
+
+
+
+## ▶️ Next Step
+
+→ 🧑‍💻 Freelancer Privacy Setup  
+/use-cases/freelancer-privacy-setup

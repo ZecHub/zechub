@@ -112,3 +112,18 @@ Your community can:
 
 - /privacy/best-practices
 - /use-cases/send-money-without-linking-identity
+
+ 
+
+## ✅ Progress
+
+**Step 5 of 6**
+
+You understand how to manage shared funds privately.
+
+ 
+
+## ▶️ Next Step
+
+→ 📰 Journalist Privacy Setup  
+/use-cases/journalist-privacy-setup

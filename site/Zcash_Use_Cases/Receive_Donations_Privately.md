@@ -107,3 +107,20 @@ You can:
 - /privacy/shielded-vs-transparent
 - /privacy/best-practices
 - /wallets
+
+
+
+## ✅ Progress
+
+**Step 1 of 6**
+
+You’ve learned how to receive funds privately.
+
+---
+
+## ▶️ Next Step
+
+Continue your journey:
+
+→ 🔐 Send Money Without Linking Identity  
+/use-cases/send-money-without-linking-identity

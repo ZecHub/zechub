@@ -101,3 +101,17 @@ You can:
 - /privacy/best-practices
 - /wallets
 - /privacy/shielded-vs-transparent
+
+ 
+
+## ✅ Progress
+
+**Step 3 of 6**
+
+You now understand how to receive income privately.
+
+
+## ▶️ Next Step
+
+→ 🛒 Accept Payments as a Merchant  
+/use-cases/accept-payments-as-a-merchant
