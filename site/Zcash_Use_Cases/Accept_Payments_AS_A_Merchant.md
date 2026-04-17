@@ -1,5 +1,7 @@
 # 🛒 Accept Payments as a Merchant with Zcash
 
+🟢 Beginner • ⏱ 5 min
+
 ## TL;DR
 
 - Accept payments using a shielded address

@@ -1,5 +1,7 @@
 # 📰 Journalist Privacy Setup with Zcash
 
+🔴 Advanced • ⏱ 7 min
+
 ## TL;DR
 
 - Use shielded addresses for all transactions

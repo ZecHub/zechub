@@ -1,5 +1,7 @@
 # 🧑‍💻 Freelancer Privacy Setup with Zcash
 
+🟢 Beginner • ⏱ 6 min
+
 ## TL;DR
 
 - Receive payments via shielded addresses

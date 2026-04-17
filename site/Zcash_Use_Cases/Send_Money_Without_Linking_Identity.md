@@ -1,5 +1,7 @@
 # 🔐 Send Money Without Linking Your Identity
 
+🟡 Intermediate • ⏱ 6 min
+
 ## TL;DR
 
 - Always send from a **shielded address**

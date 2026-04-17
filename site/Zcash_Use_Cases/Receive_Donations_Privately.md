@@ -1,5 +1,7 @@
 #  💸 Receive Donations Privately with Zcash
 
+🟢 Beginner • ⏱ 5 min
+
 ## TL;DR
 
 - Use a **shielded (z) address**

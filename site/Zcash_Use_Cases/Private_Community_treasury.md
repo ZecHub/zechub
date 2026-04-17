@@ -1,5 +1,7 @@
 # 🏛️ Run a Private Community Treasury with Zcash
 
+🟡 Intermediate • ⏱ 7 min
+
 ## TL;DR
 
 - Use shielded addresses to hold shared funds
