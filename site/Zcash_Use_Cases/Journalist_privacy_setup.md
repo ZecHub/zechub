@@ -1,4 +1,4 @@
-# Journalist Privacy Setup with Zcash
+# 📰 Journalist Privacy Setup with Zcash
 
 ## TL;DR
 
@@ -7,9 +7,15 @@
 - Protect sources by avoiding traceable payments
 - Use memos carefully for secure communication
 
----
+## 👤 Who is this for?
 
-## The Problem
+- Journalists
+- Investigators
+- Activists
+- High-risk individuals handling sensitive payments
+
+
+## ⚠️ The Problem
 
 Journalists face:
 - Surveillance
@@ -23,7 +29,7 @@ Using transparent crypto can reveal:
 
 ---
 
-## Why Zcash
+## 🔐 Why Zcash
 
 Zcash provides:
 - Strong financial privacy
@@ -32,7 +38,7 @@ Zcash provides:
 
 ---
 
-## What You Need
+##  🧰 What You Need
 
 - A Zcash wallet with shielded support
 - Secure communication channel (outside blockchain)
@@ -40,21 +46,18 @@ Zcash provides:
 
 ---
 
-## Step-by-Step Guide
+## 🪜 Step-by-Step Guide
 
 ### Step 1 — Create a Dedicated Wallet
 
 - Use a wallet only for sensitive work
 - Do not mix with personal transactions
 
----
-
 ### Step 2 — Use Shielded Addresses Only
 
 - Always transact using z-addresses
 - Avoid transparent transactions entirely
 
----
 
 ### Step 3 — Protect Source Payments
 
@@ -63,14 +66,12 @@ If paying sources:
 - Avoid predictable timing patterns
 - Do not reuse addresses
 
----
 
 ### Step 4 — Be Careful with Memos
 
 - Do NOT include sensitive information in memos
 - Use neutral or coded references if needed
 
----
 
 ### Step 5 — Maintain Operational Security
 
@@ -78,18 +79,17 @@ If paying sources:
 - Do not publicly confirm transactions
 - Use separate channels for communication
 
+
+## ❌ Common Mistakes to Avoid
+
+- Using transparent addresses  
+- Reusing addresses across sources  
+- Including sensitive data in memos  
+- Linking wallet to public identity  
+
 ---
 
-## Common Mistakes to Avoid
-
-❌ Using transparent addresses  
-❌ Reusing addresses across sources  
-❌ Including sensitive data in memos  
-❌ Linking wallet to public identity  
-
----
-
-## Result
+## ✅ Result
 
 You can:
 - Protect your sources
@@ -98,7 +98,7 @@ You can:
 
 ---
 
-## Related
+## 🔗 Related
 
 - /privacy/best-practices
 - /use-cases/send-money-without-linking-identity

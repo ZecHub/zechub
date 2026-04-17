@@ -1,4 +1,4 @@
-# Accept Payments as a Merchant with Zcash
+# 🛒 Accept Payments as a Merchant with Zcash
 
 ## TL;DR
 
@@ -7,9 +7,15 @@
 - Use memos or off-chain systems for order tracking
 - Keep business revenue private
 
----
 
-## The Problem
+## 👤 Who is this for?
+
+- Online merchants
+- Service providers
+- Small businesses
+- Crypto-friendly shops
+
+## ⚠️ The Problem
 
 Traditional crypto payments expose:
 - Customer purchase behavior
@@ -21,33 +27,31 @@ This leads to:
 - Competitive intelligence leaks
 - Financial transparency you may not want
 
----
 
-## Why Zcash
+
+## 🔐 Why Zcash
 
 Zcash enables:
 - Private customer payments
 - Confidential revenue tracking
 - Protection of business activity
 
----
 
-## What You Need
+## 🧰 What You Need
 
 - A Zcash wallet supporting shielded transactions
 - A simple payment flow (manual or integrated)
 - Optional: order tracking system
 
----
 
-## Step-by-Step Guide
+
+## 🪜 Step-by-Step Guide
 
 ### Step 1 — Set Up a Payment Address
 
 - Generate a shielded (z) address
 - Use this for receiving payments
 
----
 
 ### Step 2 — Display Payment Instructions
 
@@ -55,8 +59,6 @@ For each transaction:
 - Show your z-address
 - Provide payment amount
 - Optionally include a memo reference
-
----
 
 ### Step 3 — Track Orders
 
@@ -69,14 +71,11 @@ Example:
 - Order #4821
 
 
----
-
 ### Step 4 — Confirm Payment
 
 - Monitor incoming shielded transactions
 - Match memo or amount to order
 
----
 
 ### Step 5 — Maintain Privacy Hygiene
 
@@ -84,27 +83,24 @@ Example:
 - Do not expose transaction history
 - Separate wallets for different business units if needed
 
----
 
-## Common Mistakes to Avoid
+## ❌ Common Mistakes to Avoid
 
-❌ Using transparent addresses for payments  
-❌ Publishing transaction proofs publicly  
-❌ Linking customer identity to blockchain data  
-❌ Not tracking payments properly  
+- Using transparent addresses for payments  
+- Publishing transaction proofs publicly  
+- Linking customer identity to blockchain data  
+- Not tracking payments properly  
 
----
 
-## Result
+## ✅ Result
 
 You can:
 - Accept payments privately
 - Protect your customers
 - Keep your business data confidential
 
----
 
-## Related
+## 🔗 Related
 
 - /wallets
 - /privacy/best-practices

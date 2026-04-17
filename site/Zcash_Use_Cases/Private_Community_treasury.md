@@ -1,4 +1,4 @@
-# Run a Private Community Treasury with Zcash
+# 🏛️ Run a Private Community Treasury with Zcash
 
 ## TL;DR
 
@@ -7,9 +7,15 @@
 - Separate operational roles from public identity
 - Use memos for internal accountability
 
----
+## 👤 Who is this for?
 
-## The Problem
+- DAOs and communities
+- Grant programs
+- Open-source teams
+- Crypto collectives
+  
+
+## ⚠️ The Problem
 
 Community funds in public blockchains expose:
 - Total treasury balance
@@ -23,7 +29,7 @@ This creates risks:
 
 ---
 
-## Why Zcash
+## 🔐 Why Zcash
 
 Zcash allows communities to:
 - Hold funds privately
@@ -32,7 +38,7 @@ Zcash allows communities to:
 
 ---
 
-## What You Need
+## 🧰 What You Need
 
 - A Zcash wallet (or multiple wallets for role separation)
 - Clear internal processes for managing funds
@@ -40,14 +46,13 @@ Zcash allows communities to:
 
 ---
 
-## Step-by-Step Guide
+## 🪜 Step-by-Step Guide
 
 ### Step 1 — Create a Shielded Treasury Address
 
 - Generate a **z-address** for the treasury
 - This becomes the main holding account
 
----
 
 ### Step 2 — Define Roles
 
@@ -58,14 +63,14 @@ Separate responsibilities:
 
 Avoid linking these roles to public identities.
 
----
+
 
 ### Step 3 — Receive Funds Privately
 
 - Accept contributions via the shielded address
 - Encourage contributors to send from shielded wallets
 
----
+
 
 ### Step 4 — Track Transactions Internally
 
@@ -77,34 +82,31 @@ Example memo:
  - Grant #12 - Developer Payment
 
 
----
 
 ### Step 5 — Execute Payments Privately
 
 - Send funds via shielded transactions (z → z)
 - Avoid exposing recipient identities publicly
 
----
 
-## Common Mistakes to Avoid
 
-❌ Using transparent addresses for treasury  
-❌ Publishing wallet balances publicly  
-❌ Not tracking transactions internally  
-❌ Linking treasury address to identifiable individuals  
+## ❌ Common Mistakes to Avoid
 
----
+- Using transparent addresses for treasury  
+- Publishing wallet balances publicly  
+- Not tracking transactions internally  
+- Linking treasury address to identifiable individuals  
 
-## Result
+
+## ✅ Result
 
 Your community can:
 - Manage funds securely
 - Protect contributors and recipients
 - Operate without exposing financial strategy
 
----
 
-## Related
+## 🔗 Related
 
 - /privacy/best-practices
 - /use-cases/send-money-without-linking-identity

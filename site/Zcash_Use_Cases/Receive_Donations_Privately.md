@@ -1,4 +1,4 @@
-# Receive Donations Privately with Zcash
+#  💸 Receive Donations Privately with Zcash
 
 ## TL;DR
 
@@ -18,7 +18,7 @@
 
 ---
 
-## The Problem
+## ⚠️ The Problem
 
 Most cryptocurrencies expose everything:
 - Your wallet balance
@@ -32,7 +32,7 @@ This creates serious risks:
 
 ---
 
-## Why Zcash
+## 🔐 Why Zcash
 
 Zcash shielded transactions hide:
 - Sender address
@@ -43,7 +43,7 @@ This allows you to receive funds **without exposing your financial graph**.
 
 ---
 
-## What You Need
+## 🧰 What You Need
 
 - A Zcash wallet that supports shielded addresses:
   - Zashi
@@ -52,15 +52,13 @@ This allows you to receive funds **without exposing your financial graph**.
 
 ---
 
-## Step-by-Step Guide
+## 🪜 Step-by-Step Guide
 
 ### Step 1 — Create a Shielded Address
 Open your wallet and generate a **z-address**.
 
 This usually starts with: `zs...`
 
-
----
 
 ### Step 2 — Share Only Your Shielded Address
 
@@ -71,15 +69,11 @@ This usually starts with: `zs...`
 
 **Do NOT share a transparent (t) address.**
 
----
-
 ### Step 3 — Guide Donors (Optional but Recommended)
 
 Encourage donors to:
 - Use wallets that support shielded transactions
 - Send from shielded pools (not transparent)
-
----
 
 ### Step 4 — Maintain Basic Privacy Hygiene
 
@@ -88,16 +82,16 @@ Encourage donors to:
 
 ---
 
-## Common Mistakes to Avoid
+## ❌ Common Mistakes to Avoid
 
-❌ Sharing a transparent (t) address  
-❌ Posting your wallet alongside personal identity  
-❌ Accepting funds from transparent sources without shielding  
-❌ Reusing the same address across multiple contexts  
+- Sharing a transparent (t) address  
+- Posting your wallet alongside personal identity  
+- Accepting funds from transparent sources without shielding  
+- Reusing the same address across multiple contexts  
 
 ---
 
-## Result
+## ✅ Result
 
 You can:
 - Receive donations privately
@@ -106,7 +100,7 @@ You can:
 
 ---
 
-## Related
+## 🔗 Related
 
 - /privacy/shielded-vs-transparent
 - /privacy/best-practices
