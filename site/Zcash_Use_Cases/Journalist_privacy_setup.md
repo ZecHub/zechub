@@ -102,8 +102,8 @@ You can:
 
 ## 🔗 Related
 
-- /privacy/best-practices
-- /use-cases/send-money-without-linking-identity
+- [Privacy - Best practices](/privacy/best-practices)
+- [Send money without linking identity](/use-cases/send-money-without-linking-identity)
 
  
 
@@ -122,6 +122,6 @@ You now understand:
 
 ## 🔁 What Next?
 
-- Revisit any guide
-- Explore developer paths /developers  
-- Contribute to ZecHub /contribute
+- [Go to home page](/)
+- [Explore developer paths](/developers)
+- [Contribute to ZecHub](/contribute)

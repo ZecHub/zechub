@@ -104,9 +104,8 @@ You can:
 
 ## 🔗 Related
 
-- /privacy/shielded-vs-transparent
-- /privacy/best-practices
-- /wallets
+- [Privacy - Shielded vs Transparent](/privacy/shielded-vs-transparent)
+- [Wallets](/wallets)
 
 
 
@@ -122,5 +121,4 @@ You’ve learned how to receive funds privately.
 
 Continue your journey:
 
-→ 🔐 Send Money Without Linking Identity  
-/use-cases/send-money-without-linking-identity
+→ 🔐 [Send Money Without Linking Identity](/zcash-use-cases/send-money-without-linking-identity)

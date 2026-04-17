@@ -98,10 +98,8 @@ You can:
 
 ##  🔗 Related
 
-- /privacy/best-practices
-- /wallets
-- /privacy/shielded-vs-transparent
-
+- [Wallets](/wallets)
+- [Privacy - Shielded vs Transparent](/privacy/shielded-vs-transparent)
  
 
 ## ✅ Progress
@@ -113,5 +111,4 @@ You now understand how to receive income privately.
 
 ## ▶️ Next Step
 
-→ 🛒 Accept Payments as a Merchant  
-/use-cases/accept-payments-as-a-merchant
+→ 🛒 [Accept Payments as a Merchant](/use-cases/accept-payments-as-a-merchant)
