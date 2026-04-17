@@ -21,28 +21,28 @@ Each playbook is:
 If you're new, start here: [What is Zcash](/start-here/what-is-zcash)
 
 
-## 🚀 Recommended Path
+##  Recommended Path
 
 Follow this step-by-step journey to master real-world Zcash usage:
 
-### 💸 [Receive Donations Privately](/zcash-use-cases/receive-donations-privately)
+###  [Receive Donations Privately](/zcash-use-cases/receive-donations-privately)
 Learn how to accept funds without exposing your identity or financial history.
 
 
-### 🔐 [Send Money Without Linking Identity](/zcash-use-cases/send-money-without-linking-identity) 
+###  [Send Money Without Linking Identity](/zcash-use-cases/send-money-without-linking-identity) 
 Avoid exposing your wallet, identity, or transaction graph when sending funds.
 
 
-### 🧑‍💻 [Freelancer Privacy Setup](/zcash-use-cases/freelancer-privacy-setup)  
+###  [Freelancer Privacy Setup](/zcash-use-cases/freelancer-privacy-setup)  
 Get paid in Zcash while keeping your clients and income private.
 
 
-### 🛒 [Accept Payments as a Merchant](/zcash-use-cases/accept-payment-as-a-merchant)  
+###  [Accept Payments as a Merchant](/zcash-use-cases/accept-payment-as-a-merchant)  
 Accept payments using a shielded address and avoid exposing customer transaction data
 
 
-### 🏛️ [Run a Private Community Treasury](/zcash-use-cases/run-a-private-community-treasury)
+###  [Run a Private Community Treasury](/zcash-use-cases/run-a-private-community-treasury)
 Use shielded addresses to hold shared funds and limit visibility of balances and transactions
 
-### 📰 [Journalist Privacy Setup](/zcash-use-cases/journalist-privacy-setup)   
+###  [Journalist Privacy Setup](/zcash-use-cases/journalist-privacy-setup)   
 Use shielded addresses for all transactions and protect sources by avoiding traceable payments. Use memos carefully for secure communication
