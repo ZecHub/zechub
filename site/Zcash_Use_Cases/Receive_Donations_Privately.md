@@ -123,6 +123,6 @@ You’ve learned how to receive funds privately.
 
 Continue your journey:
 
-- [Send Money Without Linking Identity](/zcash-use-cases/send-money-without-linking-identity)
+
 
 <br/>
