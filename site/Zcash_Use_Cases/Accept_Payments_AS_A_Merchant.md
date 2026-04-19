@@ -1,6 +1,9 @@
-# 🛒 Accept Payments as a Merchant with Zcash
+# <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/shopping-cart-free-15-svgrepo-com.svg" width="24" height="24" alt="finance icon"/> Accept Payments as a Merchant with Zcash
 
-🟢 Beginner • ⏱ 5 min
+<span class="inline-flex items-center gap-[6px]">
+  <span class="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
+  Beginner - 5 min
+</span>
 
 ## TL;DR
 
@@ -9,15 +12,18 @@
 - Use memos or off-chain systems for order tracking
 - Keep business revenue private
 
+<br/>
 
-## 👤 Who is this for?
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
 
 - Online merchants
 - Service providers
 - Small businesses
 - Crypto-friendly shops
 
-## ⚠️ The Problem
+<br/>
+
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
 
 Traditional crypto payments expose:
 - Customer purchase behavior
@@ -29,9 +35,9 @@ This leads to:
 - Competitive intelligence leaks
 - Financial transparency you may not want
 
+<br/>
 
-
-## 🔐 Why Zcash
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash?
 
 Zcash enables:
 - Private customer payments
@@ -39,30 +45,33 @@ Zcash enables:
 - Protection of business activity
 
 
-## 🧰 What You Need
+<br/>
+
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
 - A Zcash wallet supporting shielded transactions
 - A simple payment flow (manual or integrated)
 - Optional: order tracking system
 
 
+<br/>
 
-## 🪜 Step-by-Step Guide
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
 
-### Step 1 — Set Up a Payment Address
+### Step 1: Set Up a Payment Address
 
 - Generate a shielded (z) address
 - Use this for receiving payments
 
 
-### Step 2 — Display Payment Instructions
+### Step 2: Display Payment Instructions
 
 For each transaction:
 - Show your z-address
 - Provide payment amount
 - Optionally include a memo reference
 
-### Step 3 — Track Orders
+### Step 3: Track Orders
 
 Use:
 - Memos (e.g., Order ID)
@@ -73,20 +82,22 @@ Example:
 - Order #4821
 
 
-### Step 4 — Confirm Payment
+### Step 4: Confirm Payment
 
 - Monitor incoming shielded transactions
 - Match memo or amount to order
 
 
-### Step 5 — Maintain Privacy Hygiene
+### Step 5: Maintain Privacy Hygiene
 
 - Avoid reusing addresses publicly if possible
 - Do not expose transaction history
 - Separate wallets for different business units if needed
 
 
-## ❌ Common Mistakes to Avoid
+<br/>
+
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
 
 - Using transparent addresses for payments  
 - Publishing transaction proofs publicly  
@@ -94,7 +105,9 @@ Example:
 - Not tracking payments properly  
 
 
-## ✅ Result
+<br/>
+
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
 
 You can:
 - Accept payments privately
@@ -102,18 +115,25 @@ You can:
 - Keep your business data confidential
 
 
-## 🔗 Related
+<br/>
+
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
+
 
 - [Wallets](/wallets)
 - [Privacy - Best Practices](/privacy/best-practices)
 
-## ✅ Progress
+<br/>
+
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/progress-arrows-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
 
 **Step 4 of 6**
 
 You can now run private payment flows for business.
 
+<br/>
 
-## ▶️ Next Step
+## Next Step
 
-→ 🏛️ [Run a Private Community Treasury](/use-cases/private-community-treasury)
+- [Run a Private Community Treasury](/use-cases/private-community-treasury)
+<br/>

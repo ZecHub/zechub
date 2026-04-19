@@ -1,6 +1,9 @@
-# 🧑‍💻 Freelancer Privacy Setup with Zcash
+# <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/programmer-software-engineer-coder-software-developer-svgrepo-com.svg" width="24" height="24" alt="Freelancer icon"/> Freelancer Privacy Setup with Zcash
 
-🟢 Beginner • ⏱ 6 min
+<span class="inline-flex items-center gap-[6px]">
+  <span class="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
+  Beginner - 6 min
+</span>
 
 ## TL;DR
 
@@ -10,15 +13,17 @@
 - Keep your income private
 
 
+<br/>
 
-## 👤 Who is this for?
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
 
 - Freelancers and contractors
 - Remote workers paid in crypto
 - Privacy-conscious professionals
 
+<br/>
 
-## ⚠️ The Problem
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
 
 Freelancers using public crypto expose:
 - Their income
@@ -31,23 +36,28 @@ This can lead to:
 - Unwanted visibility
   
 
-##  🔐  Why Zcash
+<br/>
+
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash?
 
 Zcash allows you to:
 - Receive payments privately
 - Hide your earnings
 - Protect client relationships
 
+<br/>
 
-## 🧰 What You Need
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
 - A Zcash wallet with memo support
 - Basic understanding of shielded addresses
 
 
-## 🪜 Step-by-Step Guide
+<br/>
 
-### Step 1 — Create a Payment Address
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
+
+### Step 1: Create a Payment Address
 
 Generate a shielded (z) address.
 
@@ -55,14 +65,14 @@ Optionally:
 - Use different addresses for different clients
 
 
-### Step 2 — Share Address with Client
+### Step 2: Share Address with Client
 
 Send your z-address directly to your client.
 
 Avoid:
 - Posting it publicly if not necessary
 
-### Step 3 — Use Memos for Tracking
+### Step 3: Use Memos for Tracking
 
 When receiving payments:
 - Ask clients to include a memo (e.g., invoice ID)
@@ -71,15 +81,15 @@ This helps you:
 - Track payments without exposing data publicly
 
 
-### Step 4 — Maintain Identity Separation
+### Step 4: Maintain Identity Separation
 
 If needed:
 - Use separate wallets or addresses per client
 - Avoid linking identities together
 
----
+<br/>
 
-## ❌ Common Mistakes to Avoid
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
 
 - Using transparent addresses for payments  
 - Reusing the same address across all clients  
@@ -87,28 +97,30 @@ If needed:
 - Not tracking payments (leading to confusion)
 
 
-## ✅ Result
+<br/>
+
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
 
 You can:
 - Receive payments privately
 - Protect your income data
 - Maintain professional flexibility
 
----
+<br/>
 
-##  🔗 Related
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Wallets](/wallets)
-- [Privacy - Shielded vs Transparent](/privacy/shielded-vs-transparent)
- 
+<br/>
 
-## ✅ Progress
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/progress-arrows-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
 
 **Step 3 of 6**
 
 You now understand how to receive income privately.
 
+<br/>
 
-## ▶️ Next Step
+## Next Step
 
-→ 🛒 [Accept Payments as a Merchant](/use-cases/accept-payments-as-a-merchant)
+- [Accept Payments as a Merchant](/use-cases/accept-payments-as-a-merchant)
+<br/>
