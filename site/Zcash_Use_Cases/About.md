@@ -13,7 +13,7 @@ This section shows you **exactly how to use Zcash in real-life scenarios**, with
 ## How to Use These Guides
 
 Each playbook is:
-- Short (5–7 minutes)
+- Short (5-7 minutes)
 - Step-by-step
 - Focused on real-world 
 
