@@ -1,6 +1,6 @@
 # <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/money-business-and-finance-svgrepo-com.svg" width="24" height="24" alt="finance icon"/> Receive Donations Privately with Zcash
 
-<span style="display: inline-flex; align-items: center; gap: 6px;"><span style="width:14px; height:14px; display:inline-block; background-color: #22c55e; border-radius:50%; box-shadow: 0 0 0 1px rgba(0,0,0,0.05);"></span> Beginner • ⏱ 5 min </span>
+<span className="inline-flex align-middle mr-1 p-[2px]"><span className="inline-block w-[14px] h-[14px] bg-green-500 rounded-full shadow-[0_0_0_1px_rgba(0,0,0,0.05)]"></span> Beginner • ⏱ 5 min </span>
 
 ## TL;DR
 
@@ -11,7 +11,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" style="vertical-align: middle; margin-right: 6px; padding:2px" alt="user icon"/> Who is this for?
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
 
 - Creators accepting donations
 - Open-source contributors
@@ -20,7 +20,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" style="vertical-align: middle; margin-right: 6px; padding:2px" alt="warning icon"/> The Problem
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
 
 Most cryptocurrencies expose everything:
 - Your wallet balance
@@ -34,7 +34,7 @@ This creates serious risks:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" style="vertical-align: middle; margin-right: 6px" alt="toolbox icon"/> Why Zcash
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash
 
 Zcash shielded transactions hide:
 - Sender address
@@ -45,7 +45,7 @@ This allows you to receive funds **without exposing your financial graph**.
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" style="vertical-align: middle; margin-right: 6px" alt="toolbox icon"/> What You Need
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
 - A Zcash wallet that supports shielded addresses:
   - Zashi
@@ -54,7 +54,7 @@ This allows you to receive funds **without exposing your financial graph**.
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" style="vertical-align: middle; margin-right: 6px" alt="step icon"/> Step-by-Step Guide
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
 
 ### Step 1 — Create a Shielded Address
 Open your wallet and generate a **z-address**.
@@ -83,7 +83,7 @@ Encourage donors to:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" style="vertical-align: middle; margin-right: 6px; " alt="cancel icon"/> Common Mistakes to Avoid
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
 
 - Sharing a transparent (t) address  
 - Posting your wallet alongside personal identity  
@@ -92,7 +92,7 @@ Encourage donors to:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" style="vertical-align: middle; margin-right: 6px; " alt="done icon"/> Result
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
 
 You can:
 - Receive donations privately
@@ -101,14 +101,14 @@ You can:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" style="vertical-align: middle; margin-right: 6px; " alt="chain-links icon"/> Related
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
 - [Privacy - Shielded vs Transparent](/privacy/shielded-vs-transparent)
 - [Wallets](/wallets)
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/progress-arrows-svgrepo-com.svg" width="24" height="24" style="vertical-align: middle; margin-right: 6px; " alt="progress icon"/> Progress
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/progress-arrows-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
 
 **Step 1 of 6**
 
@@ -120,6 +120,6 @@ You’ve learned how to receive funds privately.
 
 Continue your journey:
 
-
-
+- [Send Money Without Linking Identity](/zcash-use-cases/send-money-without-linking-identity)
+- 
 <br/>
