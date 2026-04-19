@@ -2,6 +2,8 @@
 
 <span className="inline-flex align-middle mr-1 p-[2px]"><span className="inline-block w-[14px] h-[14px] bg-green-500 rounded-full shadow-[0_0_0_1px_rgba(0,0,0,0.05)]"></span> Beginner • ⏱ 5 min </span>
 
+<span className="inline-flex items-center gap-[6px]"><span width="12px" height="12px" className="inline-block w-[14px] h-[14px] border bg-green-500 rounded-full shadow-[0_0_0_1px_rgba(0,0,0,0.05)]"></span>Beginner • ⏱ 5 min</span>
+
 ## TL;DR
 
 - Use a **shielded (z) address**
@@ -56,12 +58,12 @@ This allows you to receive funds **without exposing your financial graph**.
 
 ## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
 
-### Step 1 -  Create a Shielded Address
+### Step 1: Create a Shielded Address
 Open your wallet and generate a **z-address**.
 This usually starts with: `zs...`
 
 
-### Step 2 - Share Only Your Shielded Address
+### Step 2: Share Only Your Shielded Address
 
 - Publish your z-address on:
   - Website
@@ -70,13 +72,13 @@ This usually starts with: `zs...`
 
 **Do NOT share a transparent (t) address.**
 
-### Step 3 — Guide Donors (Optional but Recommended)
+### Step 3: Guide Donors (Optional but Recommended)
 
 Encourage donors to:
 - Use wallets that support shielded transactions
 - Send from shielded pools (not transparent)
 
-### Step 4 — Maintain Basic Privacy Hygiene
+### Step 4: Maintain Basic Privacy Hygiene
 
 - Avoid reusing the same address across unrelated identities
 - Do not publicly associate your address with personal identity unless necessary
