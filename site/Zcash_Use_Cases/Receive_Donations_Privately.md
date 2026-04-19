@@ -5,11 +5,6 @@
   Beginner - 5 min
 </span>
 
-<span style="display:inline-flex;align-items:center;gap:6px;">
-  <span style="width:12px;height:12px;background:#22c55e;border-radius:9999px;"></span>
-  Beginner - 5 min
-</span>
-
 ## TL;DR
 
 - Use a **shielded (z) address**
@@ -20,12 +15,12 @@
 <br/>
 
 ## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
-
 - Creators accepting donations
 - Open-source contributors
 - Communities raising funds
 - Anyone who wants private financial support
 
+---
 <br/>
 
 ## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
