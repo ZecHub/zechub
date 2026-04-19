@@ -56,12 +56,12 @@ This allows you to receive funds **without exposing your financial graph**.
 
 ## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
 
-### Step 1 — Create a Shielded Address
+### Step 1 -  Create a Shielded Address
 Open your wallet and generate a **z-address**.
 This usually starts with: `zs...`
 
 
-### Step 2 — Share Only Your Shielded Address
+### Step 2 - Share Only Your Shielded Address
 
 - Publish your z-address on:
   - Website
@@ -112,14 +112,14 @@ You can:
 
 **Step 1 of 6**
 
-You’ve learned how to receive funds privately.
+You have learned how to receive funds privately.
 
 <br/>
 
-## → Next Step
+## Next Step
 
 Continue your journey:
 
 - [Send Money Without Linking Identity](/zcash-use-cases/send-money-without-linking-identity)
-- 
+  
 <br/>
