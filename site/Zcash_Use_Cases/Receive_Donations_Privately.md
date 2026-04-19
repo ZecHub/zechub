@@ -1,8 +1,14 @@
 # <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/money-business-and-finance-svgrepo-com.svg" width="24" height="24" alt="finance icon"/> Receive Donations Privately with Zcash
 
-<span className="inline-flex align-middle mr-1 p-[2px]"><span className="inline-block w-[14px] h-[14px] bg-green-500 rounded-full shadow-[0_0_0_1px_rgba(0,0,0,0.05)]"></span> Beginner • ⏱ 5 min </span>
+<span class="inline-flex items-center gap-[6px]">
+  <span class="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
+  Beginner - 5 min
+</span>
 
-<span className="inline-flex items-center gap-[6px]"><span width="12px" height="12px" className="inline-block w-[14px] h-[14px] border bg-green-500 rounded-full shadow-[0_0_0_1px_rgba(0,0,0,0.05)]"></span>Beginner • ⏱ 5 min</span>
+<span style="display:inline-flex;align-items:center;gap:6px;">
+  <span style="width:12px;height:12px;background:#22c55e;border-radius:9999px;"></span>
+  Beginner - 5 min
+</span>
 
 ## TL;DR
 
