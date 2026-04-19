@@ -1,6 +1,6 @@
 # <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/send-svgrepo-com.svg" width="24" height="24" alt="Journalist icon"/> Send Money Without Linking Your Identity
 
-<span class="inline-flex items-center gap-[6px]"><span class="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>Intermediate - 7 min</span>
+<span className="inline-flex items-center gap-[6px]"><span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>Intermediate - 7 min</span>
 
 ## TL;DR
 

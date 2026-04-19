@@ -1,7 +1,7 @@
 # <img src="https://raw.githubusercontent.com/amochuko/zechub/68acdb6f311bff85fe8ded7b47b2e362d7712474/assets/icons/shopping-cart-free-15-svgrepo-com.svg" width="24" height="24" alt="finance icon"/> Accept Payments as a Merchant with Zcash
 
-<span class="inline-flex items-center gap-[6px]">
-  <span class="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
+<span className="inline-flex items-center gap-[6px]">
+  <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
   Beginner - 5 min
 </span>
 
