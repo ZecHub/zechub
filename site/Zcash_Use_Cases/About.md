@@ -18,7 +18,7 @@ Each playbook is:
 - Focused on real-world 
 
 
-If you're new, start here: [What is Zcash](/start-here/what-is-zcash)
+If you're new, start here: [What is Zcash](/start-here/what-is-zec-and-zcash)
 
 
 ##  Recommended Path
