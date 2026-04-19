@@ -5,7 +5,7 @@
 ## TL;DR
 
 - Always send from a **shielded address**
-- Avoid direct t → t transactions
+- Avoid direct t to t transactions
 - Break linkability between identities
 - Be mindful of timing and patterns
 
@@ -55,9 +55,9 @@ This breaks:
 If your funds are in a transparent address:
 - Move them into a shielded address first
 
-### Step 2: Send from Shielded to Shielded
 
-Always prefer `z → z` transaction
+### Step 2: Send from Shielded to Shielded
+Always prefer `z to z` transaction
 
 This ensures maximum privacy.
 
@@ -108,6 +108,6 @@ You can now send funds privately without exposing identity.
 
 <br/>
 
-## → Next Step
+## Next Step
 
 - [Freelancer Privacy Setup](/use-cases/freelancer-privacy-setup)

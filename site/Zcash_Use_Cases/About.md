@@ -46,3 +46,5 @@ Use shielded addresses to hold shared funds and limit visibility of balances and
 
 ###  [Journalist Privacy Setup](/zcash-use-cases/journalist-privacy-setup)   
 Use shielded addresses for all transactions and protect sources by avoiding traceable payments. Use memos carefully for secure communication
+
+<br/>
