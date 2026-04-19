@@ -5,6 +5,9 @@
   Beginner - 5 min
 </span>
 
+#  <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/money-business-and-finance-svgrepo-com.svg" width="18" height="18" style="vertical-align: middle; margin-right: 6px;"/>  Run a Private Community Treasury
+##  <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/money-business-and-finance-svgrepo-com.svg" width="18" height="18" style="vertical-align: middle; margin-right: 6px;"/>  Run a Private Community Treasury
+
 ## TL;DR
 
 - Use a **shielded (z) address**
