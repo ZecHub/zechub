@@ -9,7 +9,7 @@
 - Encourage donors to send from shielded wallets
 - Avoid linking your identity to transactions
 
-<br>
+<br/>
 
 ## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" style="vertical-align: middle; margin-right: 6px; padding:2px" alt="user icon"/> Who is this for?
 
@@ -32,7 +32,7 @@ This creates serious risks:
 - Targeting or surveillance
 - Public exposure of donors
 
-<br>
+<br/>
 
 ## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" style="vertical-align: middle; margin-right: 6px" alt="toolbox icon"/> Why Zcash
 
@@ -43,7 +43,7 @@ Zcash shielded transactions hide:
 
 This allows you to receive funds **without exposing your financial graph**.
 
-<br>
+<br/>
 
 ## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" style="vertical-align: middle; margin-right: 6px" alt="toolbox icon"/> What You Need
 
@@ -52,7 +52,7 @@ This allows you to receive funds **without exposing your financial graph**.
   - YWallet
   - Other supported wallets
 
-<br>
+<br/>
 
 ## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" style="vertical-align: middle; margin-right: 6px" alt="step icon"/> Step-by-Step Guide
 
@@ -81,7 +81,7 @@ Encourage donors to:
 - Avoid reusing the same address across unrelated identities
 - Do not publicly associate your address with personal identity unless necessary
 
-<br>
+<br/>
 
 ## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" style="vertical-align: middle; margin-right: 6px; " alt="cancel icon"/> Common Mistakes to Avoid
 
@@ -90,7 +90,7 @@ Encourage donors to:
 - Accepting funds from transparent sources without shielding  
 - Reusing the same address across multiple contexts  
 
-<br>
+<br/>
 
 ## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" style="vertical-align: middle; margin-right: 6px; " alt="done icon"/> Result
 
@@ -99,14 +99,14 @@ You can:
 - Protect your supporters
 - Avoid exposing your financial activity
 
-<br>
+<br/>
 
 ## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" style="vertical-align: middle; margin-right: 6px; " alt="chain-links icon"/> Related
 
 - [Privacy - Shielded vs Transparent](/privacy/shielded-vs-transparent)
 - [Wallets](/wallets)
 
-<br>
+<br/>
 
 ## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/progress-arrows-svgrepo-com.svg" width="24" height="24" style="vertical-align: middle; margin-right: 6px; " alt="progress icon"/> Progress
 
@@ -114,7 +114,7 @@ You can:
 
 You’ve learned how to receive funds privately.
 
-<br>
+<br/>
 
 ## → Next Step
 
