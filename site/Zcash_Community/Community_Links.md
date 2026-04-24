@@ -38,7 +38,7 @@ These places are great options for new community members to join in discussions.
 
 The [Zcash community forum](https://forum.zcashcommunity.com/) is a place where long form discussions related to Zcash take place. It's where members voice their support for various proposals in the community, debate specific topics, and also a place where projects seeking grants funding can go to announce their intention for applying to the Zcash Community Grants program. These are not the only topics for discussion, but they are some of the most common.
 
-### <img src="https://i.ibb.co/mqKfr62/image-2024-02-03-174240928.png" alt="Alt Text" width="50"/>   Twitter / X
+### <img src="https://i.ibb.co/mqKfr62/image-2024-02-03-174240928.png" alt="Alt Text" width="50"/>   <span translate="no" class="notranslate">Twitter / X</span>
 
 Just like most crypto projects, the Zcash community is extremely active on Twitter. The conversations are lively, debates are plentiful, and of course, there are memes. Here are some interesting accounts to follow
 [@Zcash](https://x.com/zcash)
