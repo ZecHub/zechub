@@ -12,11 +12,11 @@ The Zcash community is a vibrant and passion group of people working towards mak
 
 The community active in a number of different places:
 
-### <img src="https://i.ibb.co/qBrb4qK/image-2024-02-03-173937048.png" alt="Alt Text" width="50"/>  Telegram
+### <img src="https://i.ibb.co/qBrb4qK/image-2024-02-03-173937048.png" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Telegram</span>
 
 The Zcash community is very active in its community telegram. This is a channel where zcashers talk about the day-to-day, discuss news and updates, and is also a good place for community members to get acquainted with each other. The link to join is [here](https://t.me/Zcash_Community).
 
-### <img src="https://i.ibb.co/kxVwQxM/image-2024-02-03-174056252.png" alt="Alt Text" width="50"/>   Discord
+### <img src="https://i.ibb.co/kxVwQxM/image-2024-02-03-174056252.png" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Discord</span>
 
 [Zcash Global](https://discord.gg/zcash) 
 
@@ -24,11 +24,11 @@ The Zcash community is very active in its community telegram. This is a channel 
 
 [Zcash Foundation](https://discord.gg/na6QZNd)
 
-### Mastodon
+### <span translate="no" class="notranslate">Mastodon</span>
 
 [ZecHub.Social](https://zechub.social/public/local)
 
-### Matrix
+### <span translate="no" class="notranslate">Matrix</span>
 
 [ZecHub](https://matrix.to/#/#zechub:matrix.org)
 
