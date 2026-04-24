@@ -1,0 +1,365 @@
+# Ìwé Ìròyìn Ọsẹ Ọsẹ Lórí Zcash Àti Agbègbè Rẹ | Oṣù Kẹrin, Ọjọ́ Kọkàndínlógún 
+
+Àwọn Àtúnṣe Ààbò fún Zebra 4.3.1 + zcashd 6.12.1, Zodl ń gba òṣìṣẹ́, Pípàṣípààrọ̀ Zcash ní ìkọ̀kọ̀ (Private Offramp) nípasẹ̀ Loofta, Foundry ṣe ìfilọ́lẹ̀ Block Explorer tuntun, àti pé Ipele Karùn-ún Crosslink  ti parí ní àṣeyọrí!"
+
+
+
+
+Atunto nipasẹ [Rems](https://x.com/rems_gk) ati Itumọ si ede Yoruba nipasẹ [be_liev_er22](https://x.com/be_liev_er22)
+
+
+
+# Àwọn Imudojuiwọn Zcash ⓩ
+### ECC, ZODL, Zcash Foundation àti Shielded Labs 🛠️
+
+
+[Zebra 4.3.1: Àwọn ìtúnṣe aabo pàtàkì, Mining Dockerized àti ìmúlò CL líle síi - @ZcashFoundation](https://x.com/zcashfoundation/status/2045268818105081945?s=46)
+
+[Ìpàdé Zcash Arborist, Ọṣu Kẹrin Ọjọ́ Kẹrindínlógún ti Ọdún 2026 - @ZcashFounfation](https://x.com/zcashfoundation/status/2045127715678830628?s=46)
+
+[Ìkìlọ̀ Aabo: Dín àyè ìkólu zcashd rẹ kù nípa fífi sílẹ̀ lẹ́yìn Zebra - @ShieldedLabs](https://x.com/shieldedlabs/status/2045270746302484843?s=46)
+
+[Àwọn olùdábòbò cybersecurity Zcash kì í sun rárá. - @zooko](https://x.com/zooko/status/2045296119547404456?s=46)
+
+[A ń gba oṣiṣẹ tuntun ní @zodl_co. Àwọn àyè iṣẹ́ wà níbí: jobs.ashbyhq.com/zodl - @jswihart](https://x.com/jswihart/status/2045273888922423539?s=46)
+
+[Ṣe ìkọkọ owó rẹ  - @zodl_app](https://x.com/zodl_app/status/2045110804056309763?s=46)
+
+[Ìṣòwò tí a fi ìkọkọ bo ti bẹ̀rẹ̀ tán. 😎🛡️ - @BostonZcash](https://x.com/bostonzcash/status/2044472902670541111?s=46)
+
+[Aláìní àárín (decentralized), tí ìwọ fúnra rẹ ń ṣàkóso, tí a sì ti fi ìkọkọ bo. Boya ìwọ ló ní í, tàbí wọn ló ní ìwọ. - @jswihart](https://x.com/jswihart/status/2044632386152096148?s=46)
+
+
+[NEAR ti padà ṣiṣẹ́, bẹ́ẹ̀ ni Swaps àti Crosspay @Zodl_app tún ṣiṣẹ́ - @BostonZcash](https://x.com/bostonzcash/status/2045157385220628716?s=46)
+
+
+[A ń rí ayé kan tí kò ní ìtẹ̀lé owó gbogbo ènìyàn, níbi tí àwọn ènìyàn tó ń tẹ̀lé òfin lè ṣe ìṣúná lọ́fẹ̀ẹ́ àti ní ìkọkọ, láì bẹ̀rù pé a máa lo, tà tà, tàbí yí data wọn padà sí ohun ìjà láti ọwọ́ ọ̀daràn, ilé-iṣẹ́ tàbí ìjọba. - @zodl_app](https://x.com/zodl_app/status/2043757188976435636?s=46)
+
+[Ìtẹ̀jáde Aabo: A ti tú zcashd v6.12.1 jáde, Zcash Foundation sì ti tú Zebra v4.3.1 jáde, tí wọ́n ń ṣètúnṣe ìṣòro mẹ́rin—pẹ̀lú àṣìṣe kan nínú Orchard action-encoding tí ó lè fa kí àwọn node dá ṣiṣẹ́, àti ìṣòro ìyapa ìfaramọ́ láàárín àwọn client méjèèjì. - @zodl_co](https://x.com/zodl_co/status/2045242438647009418?s=46)
+
+[Ipele Kàrún Crosslink : Ti parí ní àṣeyọrí — @ShieldedLabs](https://forum.zcashcommunity.com/t/shielded-labs-crosslink-deployment-updates/49706/18)
+
+
+
+
+
+
+
+### Awọn Owo Ifúnni Fún Agbègbè Zcash 🏛️
+
+[Àwọn ìkọ̀wé ìpàdé Zcash Community Grants 4/13/2026 — ZCG](https://forum.zcashcommunity.com/t/zcash-community-grants-meeting-minutes-4-13-2026/55349)
+
+[Ṣe àtúnṣe  àwọn node Zcash rẹ — @ZcashCommGrants](https://x.com/zcashcommgrants/status/2045449572714000771?s=46)
+
+[ZPrivDEX — ń kọ AMM tí a fi ìkọkọ bo lórí Zcash — @startersplugs](https://forum.zcashcommunity.com/t/zprivdex-building-a-shielded-amm-on-zcash/55368)
+
+[Zebra PR tí a ṣe àtúnṣe ti jáde níkẹyìn — @antonleviathan](https://forum.zcashcommunity.com/t/bootstrapped-and-deterministic-builds-a-la-stagex/53040/16)
+
+[Ìbéèrè fún ìfèsì: Zcash Grant Hub — @gorusys](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267/18)
+
+[A ti ṣètò àwọn 'PRs' fún ìgbékalẹ̀ tí a lè tún mú jáde (reproducible builds) lórí àwọn ibi-àkójọ kóòdù (repos) mẹ́fà, bẹ́ẹ̀ sì ni àwọn èyí tí ó ṣì wà ní ipele àkọ́kọ́ ni a óò ṣí sílẹ̀ fún gbogbo ènìyàn láìpẹ́. Àfojúsùn wa ni láti pọkàn pọ̀ sárí àwọn iṣẹ́-àkànṣe (projects) tó ní ipa ńlá káàkiri oríṣiríṣi àwọn ilé-iṣẹ́ àti àjọ aṣáájú." - @Distrust Affiliate](https://forum.zcashcommunity.com/t/bootstrapped-and-deterministic-builds-a-la-stagex/53040/17)
+
+[Zcash network school | @andr9froes ZCG ti dìbò láti fọwọ́ sí àbá yìí. Ẹ ku oríire! — ZcashCommunityGrants](https://forum.zcashcommunity.com/t/zcash-network-school/55269/4)
+
+[Ìtajà Zcash ní Istanbul Blockchain Week àti ìmúlò àwùjọ | àbá ti fọwọ́ sí — @Batuhan](https://forum.zcashcommunity.com/t/zcash-marketing-at-istanbul-blockchain-week-community-activation/55271/14)
+
+[Ìtajà ní ETHCC+ Exxxotica, Chicago | @fabacab àti èmi ṣẹ̀ṣẹ̀ padà láti Exxxotica Chicago pẹ̀lú Bianca Stone àti Kat. Ìṣẹ̀lẹ̀ yìí jẹ́ àpéjọ ilé-iṣẹ́ ìdárayá àgbà àti àwọn olùdá akoonu — @readymouse](https://forum.zcashcommunity.com/t/marketing-at-ethcc-exxxotica-chicago/54832/6)
+
+[Eto ìránwọ́ retroactive tí àwọn coinholder ń darí Q2 2026 — a ti bẹ̀rẹ̀ sí í gba àwọn àbá — ZCG](https://forum.zcashcommunity.com/t/coinholder-directed-retroactive-grants-program-q2-2026-now-accepting-proposals/55328)
+
+[Ìbéèrè fún grant retroactive — Zcash Grants Hub (eto coinholder) — @gorusys](https://forum.zcashcommunity.com/t/retroactive-grant-application-zcash-grants-hub-coinholder-program/55372)
+
+
+[Àwọn agbari Key Holder (SL àti ZF) ti ṣàṣeyọrí pín owó sí olùgbà Owó Iffuni kan ṣoṣo (Maya) — ZCG](https://forum.zcashcommunity.com/t/polling-closed-coinholder-directed-grants-program-q1-round/55048/23)
+
+
+[Ilé-ìkàwé wallet aṣàwákiri Zcash: Ẹ kú àbọ̀ gbogbo yín, mo padà pẹ̀lú àtúnṣe míì lórí iṣẹ́ ìtọju wa: WebZ.js pẹlu snapu MetaMask  — Oṣu Keji pẹlu Oṣù Kẹta, Ọdún 2026 — @ColinSchwarz](https://forum.zcashcommunity.com/t/zcash-browser-wallet-library/47897/64)
+
+[Ìbéèrè grant: BTCPayServer Zcash Plugin — ìṣètò Zcash lọ́tọ̀ fún ọkọọkan store nínú multi-store BTCPay — @boummy](https://forum.zcashcommunity.com/t/grant-application-btcpayserver-zcash-plugin-per-store-zcash-configuration-for-multi-store-btcpay-instances/55335)
+
+[Ìbéèrè Owo Ifunni — Castle Labs Research — @francesco_castlelabs](https://forum.zcashcommunity.com/t/grant-application-castle-labs-research/55348)
+
+[ZCG ní ayọ̀ láti pín pé a máa ṣe inawo fún @squirrel àti @Kenzo láti ṣoju Zcash ní DWeb Camp ọdún yìí — ZCG](https://forum.zcashcommunity.com/t/call-for-representatives-zcash-dweb/55231/11)
+
+
+
+
+### Ìṣe Agbeṣe Tí Àwùjọ Zcash 🌐
+
+[Ìfojúrí ọkọ̀ òfurufú ti pé? Stake kí o sì rìnàjò!! Ẹgbẹ́ @ShieldedLabs ti mú ìlérí náà ṣẹ láti jẹ́ kí Zcash dùn. Ẹya crosslink net ti ṣàṣeyọrí pátápátá. - @thecodebuffet](https://x.com/thecodebuffet/status/2045196740442358134?s=46)
+
+
+[Zcash: Àwọn bulọọki yára síi ní ìgbà mẹ́ta láì pọ̀ sí ìnáwó sync wallet - @spartablock](https://x.com/spartablock/status/2045672072509272144)
+
+[Lónìí a ṣe ifilọlẹ oju opo wẹẹbu tuntun wa àti dashboard olùdokoowo pẹ̀lú àwọn metrics pàtàkì. A tún rà ZEC 9,163.32 míì ní owó apapọ $234.63 fún ZEC kan. - @cypherpunk](https://x.com/cypherpunk/status/2044452973640560708?s=46)
+
+
+[Offramp P2P ikọkọ Zcash ti wà láàyè báyìí. Ó sì kọ́ ní ọna tó yàtọ̀. Kò sí ilé ìfowópamọ́. Kò sí exchange. - @looftaxyz](https://x.com/looftaxyz/status/2044461649801752791?s=46)
+
+
+[Zcash Engineering Office Hours #8 [Protocol Study Series] Ìkàwé ìtọ́sọ́nà ti session mẹ́tàlá ti Zcash Protocol Specification, bẹ̀rẹ̀ láti Ọjọ́ Kẹrin 21. Pẹ̀lú @shieldedmark àti @nate_zec | Tuesday, April 21 - @zcashbrazil](https://x.com/zcashbrazil/status/2045480135365628215?s=46)
+
+
+[Ọjọ́rú, Ọjọ́ Kẹrin 15, 2026, a gbé ìgbésẹ̀ ńlá kan síwájú ní Zcash Ghana 🇬🇭 - @ZcashGH](https://x.com/zcashgh/status/2045113841676177667?s=46)
+
+[Àtúnṣe Zcash Z3 | Oṣu Kẹrin, Ọjọ́ 17 - @pacu](https://forum.zcashcommunity.com/t/zcash-z3-updates-formerly-zcashd-deprecation/48965/150)
+
+[ZcashIND Live #01 ti wá sí ìparí. Ènìyàn mẹ́tàdínlọ́gọ́rin  ló péjú sí ìpàdé orí ayélujára Zcash India àkọ́kọ́ pátápátá. Ìṣẹ́jú ògójì gbáko. Ẹnì kankan kò fi ìpàdé náà sílẹ̀. A fojú sùn pé àwọn ènìyàn márùndínláàádọ́rin tàbí jù bẹ́ẹ̀ lọ máa wá. Ṣùgbọ́n a ré kọjá rẹ̀ pátápátá. - @zcashIND](https://x.com/zcashind/status/2044495654509285645?s=46)
+
+
+[Ọsẹ̀ yìí! Darapọ̀ mọ́ wa fún EP7T6 wa, pẹ̀lú @thecodebuffet — zcastEsp](https://x.com/zcastesp/status/2043574906680692961?s=46)
+
+[Zcash 360º - Ipele Mokanlelaadọta- @Zcashesp](https://x.com/zcashesp/status/2044129992871932268?s=46)
+
+[Àkíyèsí lórí X-Space | Zcash Ghana “Ọrọ̀ Ajé Àdáàbòbò: Kíkọ́ pẹ̀lú Ìpamọ́ Zero-Knowledge lórí Zcash” Ọjọ́ Kọkànlélógún Oṣù Kẹrin (April 21st)](https://x.com/ZcashGH/status/2045655566064738730)
+
+[Ìròyìn Zcash fún Idámẹ́rin Àkọ́kọ́ (Q1) ti Ọdún 2026 - @PineAnalytics] (https://x.com/pineanalytics/status/2045131794886889623?s=46)
+
+[Ìròyìn Zcash fún Idámẹ́rin Àkọ́kọ́ (Q1) ti Ọdún 2026 láti ọwọ́ Blockworks Advisory - Blockworks](https://x.com/blockworks/status/2045182180830142976?s=46)
+
+[Àkókò Ìfọ̀rọ̀wánilẹ́nuwò fún Ẹ̀ka Ìmọ̀ Ẹ̀rọ Zcash #8 - @zcashbrazil](https://x.com/zcashbrazil/status/2045480135365628215?s=46)
+
+
+[A fi ìgbéraga gba @Zcash àti @ZcashFoundation wọlé gẹ́gẹ́ bí Onígbọ̀wọ́ Oníwúrà fún Àpéjọ Àwọn Obìnrin nínú DeFi ti ọdún 2026. - @womenindefi_org](https://x.com/womenindefi_org/status/2044810430845968421?s=46)
+
+[Ó dùn gan-an láti rí ìfọ̀rọ̀wánilẹ́nuwò yìí pẹ̀lú Pacu! - @Yoditar](https://x.com/yoditarzk/status/2045511668575437184?s=46)
+
+[Ohun tí a ń kọ́, ibiti ó ń lọ, àti ibiti o lè darapọ̀ mọ́ bí o bá ń wo láti ìta. Darapọ̀ mọ́ wa bí o bá ní ìfẹ́. Dúró tí o bá fẹ́ kópa. - @ZkAv_Club](https://x.com/zkav_club/status/2044681485681123476?s=46)
+
+
+[Ìpàdé Arborist Zcash ti Ọjọ́ Kẹrìndínlógún Oṣù Kẹrin kún fún ìtẹ̀síwájú gidi kárí gbogbo ìpele ìmọ̀ ẹ̀rọ wọn - @ZcashNigeria](https://x.com/zcashnigeria/status/2045468981394301148?s=46)
+
+[Bí ó ṣe ń hàn gbangba síi, bẹ́ẹ̀ ni ó ń buru síi pẹ̀lú àkókò. - @theroplupco](https://x.com/therollupco/status/2044884842597564730?s=46)
+
+[Mert kilọ pé crypto tí ó ṣí gbangba máa buru síi pẹ̀lú àkókò - @TheRollup](https://x.com/therollupco/status/2044884842597564730)
+
+[Ìdíje náà ti bẹ̀rẹ̀ 🔥 Tábilì ipò Engage ń gbóná fẹlifẹli, àti pé àwọn olùkópa tí kò bá dẹwọ́ rárá nìkan ni yóò lè dúró lókè. - @thedrakel](https://x.com/thedrekal/status/2045188385539510521?s=46)
+
+
+[ÌWÁDÌÍ: Ipin ìṣúná shielded Zcash dé 59.3% ní February 2026, láti 30% ọdún tó kọjá, apapọ 2026 sì jẹ́ 40.2%, tí ń fi ìdagbasoke hàn. - @CoinDesk](https://x.com/coindesk/status/2044071963723993197?s=46)
+
+[Àkúnya pàtàkì jẹ́ ipinnu ọja kan ṣoṣo. @zodl_app bẹ̀rẹ̀ sí í darí àwọn olumulo sí pool tí a fi ìkọkọ bo ní aiyipada. Nígbà tí ìkọkọ bá di ọna àkọ́kọ́, ìfarahàn máa tẹ̀lé. - @CoinDesk](https://x.com/coindesk/status/2044071983688888609?s=46)
+
+[Foundry Zcash Pool ti wà láàyè ní ìmúṣẹ! Láti ìkede wa oṣù tó kọjá, a ti rí ìdagbasoke hashrate dé ~30% ti networki. Àwọn miner ilé-iṣẹ́ ń wá amáyédẹrùn tó pé fún $ZEC, a sì fi hàn. - @FoundryService](https://x.com/foundryservices/status/2043677773516968077?s=46)
+
+[Èyí ni ètò sísẹ̀-n-tẹ̀lé Zcash láti di post-quantum ní ẹ̀kúnrẹ́rẹ́. - @arjunkhemani](https://x.com/arjunkhemani/status/2044396084626407918?s=46)
+
+[Kì í ṣe Zcash. Nígbà tí ó bá scale, darapọ̀ ìsanwó tí a fi ìkọkọ bo sínú X. Agbara láti ṣe ìṣúná ní ìkọkọ jẹ́ apakan òmìnira ọ̀rọ̀. - @arjunkhemani](https://x.com/arjunkhemani/status/2043899031324352615?s=46)
+
+[CypherScan - Crosslink Explorer - @ZecHub](https://x.com/zechub/status/2045228746060537939?s=46)
+
+
+[Crosslink Incentivised Feature Net Ipele Ìkíni ti wà bẹ̀rẹ̀! - @ZecHub](https://x.com/zechub/status/2044898797159870791?s=46)
+
+[Mo lọ sí ìṣẹ̀lẹ̀ offline àkọ́kọ́ @ZcashIND ní AITR INDORE. - @Ritikdhanotiya0](https://x.com/ritikdhanotiya0/status/2044736135277289929?s=46)
+
+[Mo lọ sí ìṣẹ̀lẹ̀ offline @ZcashIND ní ACROPOLIS. Mo kọ́ ẹ̀kọ́ nípa Zcash àti ìkọkọ nínú web3. 🔥 - @krunverma](https://x.com/krunverma/status/2044678912471650589?s=46)
+
+[Ṣètò ara rẹ fún Crosslink Incentivized Feature Net @ShieldedLabs 🚀 - @ZecHub](https://x.com/zechub/status/2044053337285276084?s=46)
+
+
+[Eto ìdìbò Zcash ní gbongbo rẹ ní Cosmos. @ZecHub ń ṣiṣẹ́ polling pẹ̀lú DAODAO. Ìgbésẹ̀ àkọ́kọ́ ni ṣiṣẹ́da account Osmosis - @zkDragon](https://x.com/zkdragon/status/2043797148001796227?s=46)
+
+[Kí ni ìdí pàtàkì @web3privacy? láti ọwọ́ @PG_CDG ní Zcomm 2026. - @ZecHub](https://x.com/zechub/status/2043753850662707501?s=46)
+
+[Crosslink Feature Nets 🚀 Ipele akọkọ▶️ Fífi apẹrẹ ìpilẹ̀ hàn nínú stack iṣẹ́ gidi pẹ̀lú demo UX. Eto yẹ kí o fi hàn pé gbogbo ẹya ṣiṣẹ́ pọ̀. - @ZecHub](https://x.com/zechub/status/2043714167085928620?s=46)
+
+[Àtúnṣe Zcash Z3: Akopọ ìdàgbàsókè tuntun nínú ecosystem Zcash - @ZcashTR](https://x.com/zcashtr/status/2045425567470600620?s=46)
+
+
+[Àtúnṣe Red-Bridge: Ìlọsíwájú ńlá nínú amáyédẹrùn àti aabo! - @ZcashTR](https://x.com/zcashtr/status/2045175102753391009?s=46)
+
+
+[Ìyípadà Fiat sí Zcash (ìṣọkan Peer) - @ZcashTR](https://x.com/zcashtr/status/2045030259825737896?s=46)
+
+[Ipê Village 2026 - Àsọyé: Ipele Tí Ó Ga Jùlọ nínú Ìfọwọ́sowọ́pọ̀! Ìtọ́sọ́nà láti di olùkópa nínú àwùjọ Zcash - @ipecity] (https://x.com/ipecity/status/2044825513294991621?s=46)
+
+
+[Zcash kì í ṣe coin nìkan — ó jẹ́ àgbègbè tó lagbara tí ń dagba pẹ̀lú owó iffuni, Ìṣàkóso àti atilẹyin fún olùkópa - @ZcashTR](https://x.com/zcashtr/status/2044800531697434628?s=46)
+
+
+[Ìkàwé jinlẹ̀ Zcash Protocol ti bẹ̀rẹ̀! Àǹfààní tó dára fún àwọn olùfẹ́ cryptography àti ìkọkọ - @ZcashTR](https://x.com/zcashtr/status/2044668662431273011?s=46)
+
+
+[Ọ̀la, mo máa sọ bí a ṣe lè kópa nínú ecosystem Zcash fún dev àti non-dev - @ZcashTR](https://x.com/zcashtr/status/2044668309191217402?s=46)
+
+
+[Akopọ ìpàdé Zcash Community Grants - @ZcashTR](https://x.com/zcashtr/status/2044450625014858185?s=46)
+
+
+[Ìyípadà ìkọkọ blockchaini: Irin-ajo Zcash ní ipele mẹ́rin - @ZcashTR](https://x.com/zcashtr/status/2044424326594572739?s=46)
+
+
+[Eto grant retroactive tí coinholder darí (Q2 2026) ti ṣí! - @ZcashTR](https://x.com/zcashtr/status/2044342129309122671?s=46)
+
+
+[Akopọ ìmúdójúìwọ̀n ìpàdé ZecHub - @ZcashTR](https://x.com/zcashtr/status/2044088877900530082?s=46)
+
+
+[🛠️ Àtúnṣe Core Zcash (pẹ̀lú R&D) - @ZcashTR](https://x.com/zcashtr/status/2043970842715975945?s=46)
+
+
+[Àtúnṣe Zodl ń tẹ̀síwájú láì dá dúró 🚀 - @ZcashTR](https://x.com/zcashtr/status/2043727090986487898?s=46)
+
+
+[Akopọ Agbègbè Zcash Tíì Ọsẹ̀ Yìí - @ZcashTR](https://x.com/zcashtr/status/2043606840148115710?s=46)
+
+[Ọ̀la Zcash: láti monolithic sí modular (Z3 Stack) - @ZcashTR](https://x.com/zcashtr/status/2043398119035953362?s=46)
+
+[Ìfọ̀rọ̀wánilẹ́nuwò tàbí ààbò gidi? - @ZcashTR](https://x.com/zcashtr/status/2043362293216408045?s=46)
+
+[Àkókò láti ní ìdárayá pẹ̀lú crosslink! - @dwillem42](https://x.com/dwillems42/status/2044929808371511580?s=46)
+
+[Ìbéèrè ẹya: Mo fẹ́ san Brave pẹ̀lú Zcash. Ó dáàbò bo mi kúrò lọ́wọ́ hackers àti kidnappers, ó sì rọrùn ju. - @zooko](https://x.com/zooko/status/2044882882901221535?s=46)
+
+[Àwọn àmì ìfowosowopo lágbára láti ọdọ àwùjọ - @ZcashNigeria](https://x.com/zcashnigeria/status/2045469077980799236?s=46)
+
+[Ìpàdé Arborist ti parí, ìlọsíwájú dúróṣinṣin kọjá Zebra, Z3, Crosslink àti research - @ZcashNigeria](https://x.com/zcashnigeria/status/2045469084272165356?s=46)
+
+[Halo Arc kí ni? Àtúnṣe tuntun Zcash ń yí ìkọkọ padà 👇 - @Godsboyfrosh](https://x.com/godsboyfrosh/status/2045243074364772527?s=46)
+
+[Nígbà tí o bá padanu ìkọkọ rẹ, o mọ̀ pé o ti padanu ohun pàtàkì gan-an. — Billy Graham - @ZcashNigeria](https://x.com/zcashnigeria/status/2045018511232192772?s=46)
+
+[Ìbéèrè kan dúró jade ní Meetup Bayelsa: bí blockchain ṣe jẹ́ transparent, kí ló dé tí Zcash kò fi ṣí identities? - @Tmoney](https://x.com/iam_t_money/status/2044182322191221181?s=46)
+
+[Alẹ́ Ọtí Bía àti Ìpamọ́ Zcash: Ẹ̀dà ti Madrid - @gordonesTV](https://forum.zcashcommunity.com/t/club-zcash-barcelona-the-journey-begins/51247/49)
+
+[Dáàbò bo àlàáfíà rẹ àti ohun-ini rẹ. Ìkọkọ jẹ́ òmìnira - @ZcashNigeria](https://x.com/zcashnigeria/status/2043946265147281902?s=46)
+
+
+[O lè jẹ́ anonymous, ṣùgbọ́n o kì í ṣe invisible bí o kò bá gba ìkọkọ - @ZcashNigeria](https://x.com/zcashnigeria/status/2043735937377530257?s=46)
+
+
+[Àṣìṣe $230M - @ZcashNigeria](https://x.com/zcashnigeria/status/2043734085357404420?s=46)
+
+
+[Ìwọ ọjọ́ iwájú rẹ ń wo ọ 👀 o rí $ZEC din owó, o ní ‘máa dúró’… - @ZcashNigeria](https://x.com/zcashnigeria/status/2043443492970475997?s=46)
+
+
+[O ní kò sí ohun tí o fẹ́ tọju? Kí ló dé tí o fi ń bo foonu rẹ ní gbangba? - @ZcashNigeria](https://x.com/zcashnigeria/status/2043359664478245273?s=46)
+
+[Tí AI àti quantum bá jẹ́ ileri, bẹ́ẹ̀ ni Zcash náà jẹ́ ileri - @zcashesp](https://x.com/zcashesp/status/2045502617263145080?s=46)
+
+[Àwọn Wallet Zcash: @unstoppablebyhs Wallet fún ìkọkọ àti decentralization - @zcashesp](https://x.com/zcashesp/status/2045222764811002251?s=46)
+
+[A bẹ̀rẹ̀ workshop @Blakiat lórí bí a ṣe lè setup node Zcash pẹ̀lú Zebra - @zcashesp](https://x.com/zcashesp/status/2045205239326765134?s=46)
+
+[Mọ̀ Block Explorer tuntun: Cipherscan - @ZingoLabEsp](https://x.com/zingolabesp/status/2045125310832927204?s=46)
+
+[Cipherscan jẹ́ irinṣẹ́ pàtàkì láti tọ́pa iṣẹ́ nínú network crypto - @ZingoLabEsp](https://x.com/zingolabesp/status/2044752427664994368?s=46)
+
+[Zcash Shielded Flow ní Telegram fún ìkìlọ̀ flows - @zcashesp](https://x.com/zcashesp/status/2044909953794662576?s=46)
+
+[Òmìnira ọ̀rọ̀, àìsí ìtọ́pa, àti agbára láti kọ ìjọba. Zcash jẹ́ Bill of Rights digital - @zcashesp](https://x.com/zcashesp/status/2044540017058390489?s=46)
+
+
+[Ìkópa àwùjọ Hispanic fún nodes Zcash - @zcashesp](https://x.com/zcashesp/status/2044519961419239740?s=46)
+
+
+[Ìṣẹ̀lẹ̀ fún àwùjọ Zcash India 🇮🇳 - @zcashesp](https://x.com/zcashesp/status/2044448916213776663?s=46)
+
+[Ìkọkọ jẹ́ ẹ̀tọ́ àti irinṣẹ́. A ṣe ifilọlẹ campaign donation CipherPay - @zcashesp](https://x.com/zcashesp/status/2044417962338328624?s=46)
+
+
+[Fiat sí Zcash wà láàyè pẹ̀lú Peer, kò sí KYC tàbí CEX - @zcashesp](https://x.com/zcashesp/status/2044179138236559581?s=46)
+
+[Ìṣirò poolu àti karatara Zcash - @zcashesp](https://x.com/zcashesp/status/2044132353233023423?s=46)
+
+
+[Àtúnṣe Wallet - @zcashesp](https://x.com/zcashesp/status/2044132546867319103?s=46)
+
+
+[Àtúnṣe ZODL - @zcashesp](https://x.com/zcashesp/status/2044132674088911157?s=46)
+
+[Zcash Names: ìdánimọ̀ tuntun - @zcashesp](https://x.com/zcashesp/status/2044096846046396755?s=46)
+
+[Gbogbo ọjọ́ 15, a máa sọ gbogbo ohun tó ń ṣẹlẹ̀ nínú ecosystem - @zcashesp](https://x.com/zcashesp/status/2043807187273953707?s=46)
+
+[Jẹ́ ká ṣeré ZEC Trivia! - @zcastEsp](https://x.com/zcastesp/status/2043642602994462746?s=46)
+
+[Ìtàn owó àti bí a ṣe ń lo Zcash - Palmar](https://x.com/palmarzk/status/2043782815230165018?s=46)
+
+[Foundry Zcash pool ti ṣiṣẹ́ - @zcastEsp](https://x.com/zcashesp/status/2043788564916588553?s=46)
+
+[Àwọn task Spanish lórí Dework ZecHub - @zcastEsp](https://x.com/zcashesp/status/2043759039012544544?s=46)
+
+[Ètò Ìṣúnná Owó Tí A Bò Lásírí - @Zerodartz](https://x.com/zerodartz/status/2044805904005026116?s=46)
+
+[Workshop Git pẹ̀lú ZK AV Club - @ZkAv_Club](https://x.com/zkav_club/status/2044366998746849574?s=46)
+
+[Zcash jẹ́ amáyédẹrùn fún òmìnira - @zcashbrazil](https://x.com/zcashbrazil/status/2045150838142730557?s=46)
+
+[Ìwé-ìròyìn Àdáàbòbò #14 - @zcashbrazil](https://x.com/zcashbrazil/status/2044925424761745599?s=46)
+
+
+[Zcash kì í ṣe fífi ohun burú pamọ́ — ó jẹ́ ààbò ìgbé ayé rẹ - @rafaelando_](https://x.com/rafaelando__/status/2044808731805049070?s=46)
+
+
+[Ìkìlọ̀: Crosslink testnet incentivized bẹ̀rẹ̀ lónìí - @zcashbrazil](https://x.com/zcashbrazil/status/2044403128760318761?s=46)
+
+
+[ZONA Z 🧠 Edition #33 - @zcashbrazil](https://x.com/zcashbrazil/status/2044038478728433947?s=46)
+
+
+[ÌKÌLỌ̀: Email èké nipa wallet @zodl_app - @zcashbrazil](https://x.com/zcashbrazil/status/2043846432944275702?s=46)
+
+[Ìkọkọ kì í ṣe ìkọ̀kọ̀, ó jẹ́ sovereignty - @zcashbrazil](https://x.com/zcashbrazil/status/2043761916460351843?s=46)
+
+[​Eré Ìbéèrè ZEC  - @zcashbrazil](https://x.com/zcashbrazil/status/2043750953510416469?s=46)
+
+[Networki Zcash gba miner US tuntun àti website tuntun - @zcashbrazil](https://x.com/zcashbrazil/status/2043706932398055719?s=46)
+
+[Ìkọkọ gẹ́gẹ́ bí ẹ̀tọ́! Ẹ̀kọ́ gẹ́gẹ́ bí ọ̀nà! - @michael2xL](https://x.com/michael2xl/status/2043399591911886979?s=46)
+
+[Foundry ti ṣe ifilọlẹ poolu Zcash, ~30% hashrate - elzz](https://x.com/cq_elzz/status/2044476224882327806?s=46)
+
+[Ìpèsè  Zcash tí a dabobo : -300.01 ZEC - @Shielded_Zec](https://x.com/shielded_zec/status/2045532866109476953?s=46)
+
+[Iwuwasi àwọn olùdarí Zcash dá gan-an - @Kenbak](https://x.com/k6nb4k/status/2045444108785700909?s=46)
+
+[Ìkọkọ kì í ṣe àṣàyàn mọ́, ó jẹ́ ìpìlẹ̀ - @womenindefi_org](https://x.com/womenindefi_org/status/2045054281351328033?s=46)
+
+[Meetup pẹ̀lú Logos - @gordonesTV](https://forum.zcashcommunity.com/t/club-zcash-barcelona-the-journey-begins/51247/50)
+
+[Darapọ̀ mọ́ wa fún akopọ April - @gordonesTV](https://forum.zcashcommunity.com/t/zcast-the-zcash-podcast-in-spanish-a-new-phase/54291/16)
+
+[Alias ọrọ mẹ́rin fún address Zcash - @gorusys](https://forum.zcashcommunity.com/t/deterministic-4-word-aliases-for-zcash-addresses-anti-spoofing-ux-aid/55383)
+
+[A ń fún $100 ZEC fún meme tó dára jù - @zcashIND](https://x.com/zcashind/status/2045092503670722965?s=46)
+
+
+
+
+
+
+
+
+
+#### Àwòrán Tí Ọ̀sẹ̀ Yìí 😊
+
+[https://x.com/Anonymistxyz/status/2044119245278036408](https://x.com/Anonymistxyz/status/2044119245278036408) 
+
+
+
+
+
+
+
+### Awọn Iṣẹ Tí ó Wà Nílẹ́ Ní Ṣíṣe 
+
+
+[Àwọn Ìṣe Ní Ṣíṣe Lórí Deeworki Lọ́jọ́ Ajé](https://dework.zechub.org/) 
+
+[Onímọ̀-Ẹrọ Àkọ́kọ́ nínú Cryptography àti Protocol - Zodl](https://jobs.ashbyhq.com/zodl/90e2d813-02d9-4273-8809-ea097d4dde32)
+
+[Onímọ̀-Ẹrọ Àkọ́kọ́ - Zodl](https://jobs.ashbyhq.com/zodl/3cc7aac7-9d53-49c9-bdc4-94c2b9c6a5e4)
+
+[Onímọ̀-Ẹrọ Àkọ́kọ́, R&D - Zodl](https://jobs.ashbyhq.com/zodl/2aabc8e5-8220-42a2-a653-f930c1be1a36)
+
+[Olórí QA Mobile Agba - Zodl](https://jobs.ashbyhq.com/zodl/744c7d02-7573-4dcd-98f0-3c64e545e287)
+
+[Olùrànlọ́wọ́ Marketing - Zodl](https://jobs.ashbyhq.com/zodl/3e4b3945-fdf5-4c98-a916-d95bddd79be7)
+
+[Àwọn iṣẹ́ Dework ni a máa ń fi síta lọ́sẹ̀ kọọkan ní Ọjọ́ Ajé - ZecHub](https://dework.zechub.org/)
+
+[Awọn Anfani Ẹgbẹ ZKAV](https://zkav.club/opportunities/) 
