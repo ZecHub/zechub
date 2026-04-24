@@ -41,6 +41,7 @@ The [Zcash community forum](https://forum.zcashcommunity.com/) is a place where 
 ### <img src="https://i.ibb.co/mqKfr62/image-2024-02-03-174240928.png" alt="Alt Text" width="50"/>   <span translate="no" class="notranslate">Twitter / X</span>
 
 Just like most crypto projects, the Zcash community is extremely active on Twitter. The conversations are lively, debates are plentiful, and of course, there are memes. Here are some interesting accounts to follow
+
 [@Zcash](https://x.com/zcash)
 
 [@Zcash_community](https://x.com/zcash_community)
