@@ -59,11 +59,11 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
       </tr>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Block Explorer</td>
-        <td className="py-5 px-6 text-foreground">An online tool to view all transactions, past and current, on the blockchain. [Zcash Block Explorer](https://zcashblockexplorer.com/)</td>
+        <td className="py-5 px-6 text-foreground">An online tool to view all transactions, past and current, on the blockchain. [Zcash Block Explorer](https://zcashexplorer.app/)</td>
       </tr>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Blogs</td>
-        <td className="py-5 px-6 text-foreground">[ECC Blog](https://electriccoin.co/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [Zcash Community Blog](https://www.zcashcommunity.com/blog/)</td>
+        <td className="py-5 px-6 text-foreground">[Zodl Blog(formerly ECC)](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [Zcash Community Blog](https://www.zcashcommunity.com/blog/)</td>
       </tr>
       <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Blossom</td>
@@ -94,7 +94,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
       </tr>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Community</td>
-        <td className="py-5 px-6 text-foreground">[The Official Zcash Community Forum](https://forum.zcashcommunity.com) / [Zcash Community Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://old.reddit.com/r/zcash/) / [Telegram](https://t.me/Zcash_Community)</td>
+        <td className="py-5 px-6 text-foreground">[The Official Zcash Community Forum](https://forum.zcashcommunity.com) / [Zcash Community Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash)</td>
       </tr>
       <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Cypherpunk Zero</td>
@@ -168,7 +168,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
       </tr>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Events</td>
-        <td className="py-5 px-6 text-foreground">The Calendar of Zcash related Events [here](https://electriccoin.co/events/)</td>
+        <td className="py-5 px-6 text-foreground">The calendar of Zcash-related events can be viewed on [Luma](https://luma.com/zcash) and [Zcash Foundation](https://zfnd.org/zf-events/)</td>
       </tr>
       <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Exchanges</td>
@@ -241,7 +241,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
     <tbody>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Halo</td>
-        <td className="py-5 px-6 text-foreground">Enables circuit upgrades without the need for trusted setups, making the Zcash shielded protocol more agile for future improvements and extensions. [Technical Explainer](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)</td>
+        <td className="py-5 px-6 text-foreground">Enables circuit upgrades without the need for trusted setups, making the Zcash shielded protocol more agile for future improvements and extensions. [Technical Explainer](https://z.cash/learn/what-is-halo-for-zcash/)</td>
       </tr>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">HD Wallet</td>
@@ -459,7 +459,20 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 ## R
 
 <div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  *(No terms yet - feel free to add any)*
+<table className="w-full border-collapse rounded-2xl overflow-hidden">
+    <thead>
+      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
+        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
+        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
+        <td className="py-5 px-6 font-medium text-foreground">Recovery Phrase</td>
+        <td className="py-5 px-6 text-foreground">A sequence of 12 or 24 letters and numbers used to back up and restore a wallet. In Zcash, this phrase regenerates spending and viewing keys, making it critical for fund recovery and security.</td>
+      </tr>
+       </tbody>
+  </table>
 </div>
 
 ## S
@@ -603,7 +616,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
     <tbody>
       <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Wallet</td>
-        <td className="py-5 px-6 text-foreground">Software or hardware that stores private keys and lets you send/receive ZEC. Examples: Zecwallet, Nighthawk, YWallet, Zingo!.</td>
+        <td className="py-5 px-6 text-foreground">Software or hardware that stores private keys and lets you send/receive ZEC. Examples include Zecwallet, Nighthawk, YWallet, Zingo!. For more wallets, you can view them [here](https://z.cash/ecosystem/?wallets=#tag-wallets)</td>
       </tr>
     </tbody>
   </table>
