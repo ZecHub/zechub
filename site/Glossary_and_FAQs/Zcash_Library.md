@@ -117,11 +117,13 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
     <tbody>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">DeFi</td>
-        <td className="py-5 px-6 text-foreground">Projects integrating ZEC with DeFi: [RenBridge](https://bridge.renproject.io/mint) / [ZeroDAO](https://bridge.zerodao.com/#/transfer/ETH)</td>
+        <td className="py-5 px-6 text-foreground">Projects integrating ZEC with DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / 
+[ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap](https://app.thorswap.finance/)
+</td>
       </tr>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Deshielding</td>
-        <td className="py-5 px-6 text-foreground">Refers to a transaction being sent from a zaddr (shielded address) to a taddr (transparent address). The origin of the transaction is not visible however the funds enter a publicly visible value pool. [Transaction Anatomy](https://electriccoin.co/blog/anatomy-of-zcash/)</td>
+        <td className="py-5 px-6 text-foreground">Refers to a transaction being sent from a zaddr (shielded address) to a taddr (transparent address). The origin of the transaction is not visible however the funds enter a publicly visible value pool.</td>
       </tr>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Developer Resources</td>
@@ -351,7 +353,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
     <tbody>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Metrics</td>
-        <td className="py-5 px-6 text-foreground">Network metrics are available [here](https://electriccoin.co/zcash-metrics/)</td>
+        <td className="py-5 px-6 text-foreground">Network metrics are available [here](https://tokenterminal.com/explorer/projects/zcash/metrics/all)</td>
       </tr>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Metadata</td>
