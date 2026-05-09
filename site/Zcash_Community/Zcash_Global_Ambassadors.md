@@ -13,7 +13,7 @@ The Global Ambassador Program is designed to identify community members who make
   * Maintaining an active presence on social media, and creating original content related to Zcash.
   * Ambassadors have creative freedom over the activities they plan. 
   
-## [Global Ambassador Website](https://zcashambassadors.com)
+## [Global Ambassador Website](https://zechub.wiki/zcash-global-ambassadors)
   
 
 
