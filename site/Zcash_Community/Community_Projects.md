@@ -54,9 +54,9 @@ A multi-feature privacy wallet supporting Zcash and Ycash utilizing the fast syn
 
 Zapp is a privacy-first messenger that connects ZEC chats to real‑world payments. [Join for early access](https://www.justzappit.xyz/app)
 
-[Zashi](https://electriccoin.co/zashi/)
+[Zodl Wallet (formerly Zashi)](https://zodl.com/)
 
-Zashi is an open source, self custodial, shielded Zcash Wallet built for private payments. Developed by the Electric Coin Company.
+Zodl Wallet is an open source, self custodial, shielded Zcash Wallet built for private payments. Developed by Zcash Open Development Lab (ZODL formerly ECC)
 
 [Zcash Block Explorer](https://mainnet.zcashexplorer.app/)
 
