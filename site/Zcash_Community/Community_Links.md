@@ -24,6 +24,12 @@ The Zcash community is very active in its community <span translate="no" class="
 
 [Zcash Foundation](https://discord.gg/na6QZNd)
 
+### <span translate="no" class="notranslate">Reddit</span>
+
+The Zcash Reddit community is another place where users discuss ecosystem news, wallet support, mining, privacy technology, and community updates.
+
+[r/zec](https://www.reddit.com/r/zec/)
+
 ### <span translate="no" class="notranslate">Mastodon</span>
 
 [ZecHub.Social](https://zechub.social/public/local)
@@ -51,6 +57,8 @@ Just like most crypto projects, the Zcash community is extremely active on Twitt
 [@Zcashesp](https://x.com/zcashesp) (Zcash en espanol)
 
 [@Zcash Brazil](https://x.com/zcashbrazil)
+
+[@Zcash Nigeria](https://x.com/ZcashNigeria)
 
 [@zerodartz](https://x.com/Zerodartz) (for the memes!)
 
