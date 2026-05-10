@@ -8,13 +8,24 @@
 
 The Zcash Arborist Calls are bi-weekly protocol development meetings focused on tracking upcoming protocol deployment logistics, consensus node implementation issues, and protocol research.
 
-Offical Site: [https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)
+Official Site: [https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)
 
 Anyone who wants to contribute to Zcash protocol development and to share news on Zcash node projects. 
 
 Register here: [15:00 UTC](https://us06web.zoom.us/webinar/register/WN_Vk7WMz9sRkiIr_hqH_x3LA) / [22:30 UTC](https://us06web.zoom.us/webinar/register/WN_z0k1ipsnRkS4-DGqDhULdA)
 
 The complete list with full notes & agendas can be found [here](https://github.com/ZcashCommunityGrants/arboretum-notes). 
+
+## Recent Calls and Notes
+
+| Date | Resource | Link |
+|------|----------|------|
+| April 30, 2026 | Zcash Arborist Call recording | [Watch ->](https://x.com/ZcashFoundation/status/2049913064313491476?s=20) |
+| April 30, 2026 | Community note-taker summary update | [Read ->](https://forum.zcashcommunity.com/t/zcg-rfp-community-note-taker-2025/50450/49) |
+| April 16, 2026 | Community call notes and discussion | [Read ->](https://x.com/zcashfoundation/status/2045127715678830628?s=46) |
+| March 19, 2026 | Arborist Call #120 community summary | [Read ->](https://x.com/zcashbrazil/status/2033617310427091218?s=20) |
+
+Typical Arborist Call topics include Zebra, Zaino, Zcashd deprecation, network upgrade planning, wallet infrastructure, protocol research, and open engineering questions from node and wallet teams.
 
 
 ## Playlist
@@ -29,5 +40,4 @@ The complete list with full notes & agendas can be found [here](https://github.c
     loading="lazy"
   />
 </div>
-
 

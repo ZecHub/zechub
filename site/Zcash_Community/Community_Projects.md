@@ -159,6 +159,17 @@ Zecmap is The global map of businesses accepting Zcash. Discover, verify, and co
 
 [Visit Site](https://zecmap.com/)
 
+## Recently Active Projects and Initiatives
+
+| Project | Description | Link |
+|---------|-------------|------|
+| Zafu | Light client development work for Zcash wallets and infrastructure | [Read update](https://forum.zcashcommunity.com/t/zafu-client-development/54933/4) |
+| Rhea Finance Zcash Gateway | Browser wallet and cross-chain DeFi gateway work for Zcash | [Read update](https://forum.zcashcommunity.com/t/rhea-finance-zcash-gateway-browser-wallet-cross-chain-defi/55073/4) |
+| ZecVault | Goal-based savings wallet built on Zcash shielded transactions | [Read update](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464/3) |
+| ZcashGrantHub | Community-built interface for browsing and tracking Zcash Community Grants | [Read update](https://forum.zcashcommunity.com/t/zcashgranthub-a-better-ui-for-zcg-grants-built-fast-with-ai-tools-seeking-feedback/55267) |
+| Open-source Orchard Wallet Service | Wallet service for enterprises seeking Orchard-based Zcash support | [Read update](https://forum.zcashcommunity.com/t/open-source-orchard-based-wallet-service-for-enterprises-looking-for-users-feedback/54417/10) |
+| Zcash Spanish-speaking node | Community infrastructure work bringing a node to the Spanish-speaking Zcash community | [Read update](https://forum.zcashcommunity.com/t/the-spanish-speaking-zcash-community-now-has-its-own-node/55530) |
+
 
 ___
 
