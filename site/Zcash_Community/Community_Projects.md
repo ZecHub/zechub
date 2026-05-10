@@ -172,3 +172,62 @@ The platform adopts zero-knowledge technology and the DAO governance model to en
 [ZK-Sync](https://zksync.io)
 
 zkSync is a scaling and privacy engine for Ethereum. Its current functionality scope includes low gas transfers of ETH and ERC20 tokens in the Ethereum network, atomic swaps & limit orders as well as native L2 NFT support.
+
+## Zimppy.xyz
+[![Zimppy.xyz Logo](https://github.com/betterclever/zimppy/blob/main/site/og.png?raw=true)](https://zimppy.xyz/)
+The Zcash payment method for the Machine Payments Protocol. Shielded by default.
+---
+[Visit Site](https://zimppy.xyz/)
+
+## Cypherpunk
+./cypherpunk
+A company dedicated to privacy and self-sovereignty.
+[Visit Site](https://cypherpunk.com/)
+
+## Cipherpay
+[![Cipherpay](https://github.com/atmospherelabs-dev/cipherpay-web/blob/main/public/logo-mark.png?raw=true)](https://www.cipherpay.app/en)
+
+Private payments for the internet. Accept Zcash in minutes. Non-custodial.
+[Visit Site](https://www.cipherpay.app/en)
+
+## Cipherscan
+[![Cipherscan](https://github.com/Kenbak/cipherscan/blob/main/public/logo-small.png?raw=true)](https://cipherscan.app/)
+
+Zcash Blockchain Explorer 🛡️ Decode the blockchain. Privacy meets transparency.
+[Visit Site](https://cipherscan.app/)
+
+## ZcashNames
+[![ZcashNames](https://github.com/zcashme/zcashnames/blob/main/public/brandkit/zcashnames-brand-banner-primary-logo-monochrome-green-monochrome-green-background-377x403.png?raw=true)](https://www.zcashnames.com/)
+
+Personal names
+for
+shielded addresses. A name is all you need to transact privately.
+
+[Visit Site](https://www.zcashnames.com/)
+
+## Zero-knowledge Audiovisual Club
+[![Zero-knowledge Audiovisual Club](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS95FffUJjEeUHAZZ04xRHp9FW1Z0Gzef2UUg&s?raw=true)](https://zkav.club/#additional-reading)
+
+Privacy-first audiovisual (AV) collective for open-source & decentralized tech communities. We train, co-create & run volunteer AV support at community events.
+
+[Visit Site](https://zkav.club/#additional-reading)
+
+## Shielded Labs
+[![Shielded Labs](https://camo.githubusercontent.com/0244df9f30a80c45adfd80c448985f17a6c71cdc9fd0eccd7bf47dec157c0dd4/68747470733a2f2f736869656c6465646c6162732e6e65742f77702d636f6e74656e742f75706c6f6164732f323032342f31312f66617669636f6e5f37325f322e706e67?raw=true)](https://shieldedlabs.net/)
+
+Shielded Labs is an independent, donation-funded Zcash support organization based in Switzerland. It is the first organization in the Zcash ecosystem that has never received direct or indirect funding from the Development Fund or block rewards.
+
+[Visit Site](https://shieldedlabs.net/)
+
+## JustZappIt
+
+JustZappIt is a private messaging app for iOS and Android. In-chat Zcash (ZEC) sending is coming and you'll use an external wallet like Zodl to send ZEC to contacts directly in conversation. No KYC. No middlemen.
+
+[Visit Site](https://www.justzappit.xyz/)
+[Visit Github](https://github.com/JustZappIt/justZappIt/tree/main)
+
+
+
+
+
+
