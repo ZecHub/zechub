@@ -4,6 +4,10 @@
 
 ## Zcash Community Projects
 
+Discover tools, wallets, applications, libraries, and ecosystem initiatives built by the Zcash community.
+
+For broader project discovery, see the [z.cash ecosystem directory](https://z.cash/ecosystem/), the [ZecHub Zcash Projects page](https://zechub.wiki/zcash-projects), and the community-run [Zcash Community](https://www.zcashcommunity.com/) site.
+
 [ZECping](https://github.com/emersonian/zecping)
 
 See the gRPC response times of Zcash [Lightwalletd](https://github.com/zcash/lightwalletd) nodes.
@@ -42,21 +46,21 @@ An educational workbook created by a team of talented and dedicated content crea
 
 Zapp is a privacy-first messenger that connects ZEC chats to real‑world payments. [Join for early access](https://www.justzappit.xyz/app)
 
+[Zodl](https://zodl.com/)
+
+Zodl, formerly Zashi, is a self-custody mobile wallet built for private ZEC payments.
+
 [Zcash Block Explorer](https://mainnet.zcashexplorer.app/)
 
 A well detailed, comprehensive Zcash block explorer from Nighthawk Apps.
 
-[ZECPublish](https://www.zecpublish.com)
+[ZECPublish](https://zecpublish.com)
 
 ZECPublish is a censorship resistant, Zcash blockchain-powered social media. It includes a directory of zcash users and an anonymous message board powered by Zcash.
 
 [ZGo](https://zgo.cash)
 
 ZGo is a Zcash Register. Enabling vendors and merchants to accept Zcash. Currently testing the app to get high quality feedback on the usability and features of ZGo.
-
-[Zlink](https://zlink.click)
-
-Zlink is the simplest way to find any link, tool, information you need about Zcash's ecosystem.
 
 [ZK Radio](https://zcashesp.com/zk-radio/)
 
@@ -136,9 +140,10 @@ Zebra Coverage-Guided Fuzzing Infrastructure focuses on systematically testing Z
 
 ## ZecDev
 
-ZecDev Launchpad is a Linux first toolkit that brings up a Zebra regtest network with a faucet, Unified Address fixtures, and your choice of lightwalletd or Zaino, plus a reusable GitHub Action that runs golden end to end shielded flows on every pull request. It closes a critical gap as zcashd is deprecated by giving every wallet, SDK, and service a fast repeatable path for local development and CI that catches breakage before users do.
+ZecDev hosts projects, resources, and tools created in the context of the Zcash Developer Relations Engineer grant, including developer resources for the Zcash Z3 stack.
 
-[Visit Site](https://github.com/zecdev)
+[Visit Site](https://www.zecdev.org/)
+[Visit Github](https://github.com/zecdev)
 
 ## TIPZ
 
@@ -149,13 +154,13 @@ TIPZ is a live, non-custodial tipping platform where every tip arrives as shield
 
 ## Zectastic.com
 
-Zectastic.com is Launch the Zcash rocket, Play the memory game, and Follow the live flippening party
+Zectastic.com lets visitors launch the Zcash rocket, play the memory game, and follow the live flippening party.
 
 [Visit Site](https://zectastic.com/)
 
 ## Zecmap
 
-Zecmap is The global map of businesses accepting Zcash. Discover, verify, and contribute to places that support privacy-focused payments.
+Zecmap is the global map of businesses accepting Zcash. Discover, verify, and contribute new locations that support privacy-focused payments.
 
 [Visit Site](https://zecmap.com/)
 
@@ -168,7 +173,7 @@ ___
 
 An aftok is a radical new kind of cooperative, bottom-up business organization. It's a way for you and some trusted friends to build things together and get paid for your efforts, without the hierarchy or overhead of a traditional company.
 
-[Atomic DEX](https://atomicdex.io/en/)
+[Atomic DEX](https://atomicdex.io/)
 
 AtomicDEX is a multi-coin wallet, bridge, and DEX rolled into one app. Mobile/Desktop versions available.
 

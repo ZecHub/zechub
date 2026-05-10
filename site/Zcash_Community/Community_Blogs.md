@@ -2,22 +2,28 @@
 
 # Community Blogs
 
-Community members run many excellent blogs covering Zcash, privacy, cryptocurrency, and related topics.
+Community members and ecosystem teams publish blogs, newsletters, and notes about Zcash, privacy, cryptocurrency, and related topics.
 
-Here are some of the active ones:
+## Community voices
 
-| Blog / Author              | Description                                              | Link |
-|----------------------------|----------------------------------------------------------|------|
-| James Katz                 | Personal writings and thoughts on Zcash and privacy      | [Visit ->](https://free2z.cash/James_Katz/) |
-| Thumbs' Update             | Regular ecosystem updates and insights                   | [Visit ->](https://thumbsup.substack.com) |
-| roomatemusing              | Musings and community content                            | [Visit ->](https://free2z.cash/roommatemusing) |
-| NerdBank Blog              | Technical blog focused on Zcash development and tools    | [Visit ->](https://blog.nerdbank.net/) |
-| Thor Likes                 | News, opinions, and commentary on Zcash                  | [Visit ->](https://www.thorlikes.com/) |
-| ZecMec                     | Zcash-focused articles on Medium                         | [Visit ->](https://zecmec21.medium.com/) |
-| Ian Sagstetter             | In-depth articles and newsletter                         | [Visit ->](https://iansagstetter.substack.com/) |
-| Naomi Brockwell (NBTV)     | High-profile interviews and content                      | [Visit ->](https://naomibrockwell.com/highprofileinterviews) |
-| Sqribbles                  | Creative and community-driven Zcash content              | [Visit ->](https://free2z.cash/sqribbles) |
-| Str4d                      | Technical writings from Zcash core developer             | [Visit ->](https://words.str4d.xyz/) |
+| Blog / Author          | Description                                           | Link |
+|------------------------|-------------------------------------------------------|------|
+| James Katz             | Personal writings and thoughts on Zcash and privacy   | [Visit ->](https://free2z.cash/James_Katz) |
+| roomatemusing          | Musings and community content                         | [Visit ->](https://free2z.cash/roommatemusing) |
+| NerdBank Blog          | Technical blog focused on Zcash development and tools | [Visit ->](https://blog.nerdbank.net/) |
+| ZecMec                 | Zcash-focused articles on Medium                      | [Visit ->](https://zecmec21.medium.com/) |
+| Naomi Brockwell (NBTV) | High-profile interviews and privacy content           | [Visit ->](https://naomibrockwell.com/highprofileinterviews) |
+| Sqribbles              | Creative and community-driven Zcash content           | [Visit ->](https://free2z.cash/sqribbles) |
+| Str4d                  | Technical writings from a Zcash core developer        | [Visit ->](https://words.str4d.xyz/) |
+
+## Ecosystem news feeds
+
+| Source | Description | Link |
+|--------|-------------|------|
+| ZecHub Substack | Weekly ecosystem digests and community updates | [Visit ->](https://zechub.substack.com/) |
+| Zcash Community | Community project listings, education, and aggregated Zcash news | [Visit ->](https://www.zcashcommunity.com/) |
+| Zodl Blog | Wallet and product updates from the Zodl team | [Visit ->](https://zodl.com/blog/) |
+| Zcash Foundation Blog | Foundation, Zebra, governance, and ecosystem updates | [Visit ->](https://zfnd.org/blog/) |
 
 ---
 

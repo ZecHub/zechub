@@ -4,13 +4,13 @@
 
 # <img src="https://i.ibb.co/qYhRbJM/image-2024-02-03-174147713.png" alt="Alt Text" width="400"/> Zcash Community Links
 
-The Zcash community is a vibrant and passion group of people working towards making ZEC one of the most widely used cryptocurrencies in the world. The community is made up of a diverse group of people from all over the world. They come from a variety of different backgrounds and occupations, but they all work together to help achieve Zcash and ZEC's vision.
+The Zcash community is a vibrant group of people working toward private, user-controlled digital money. Community members come from many countries, backgrounds, and occupations, and they work together across public forums, chat rooms, events, and open-source projects.
 
 ----
 
 ## Where you can find community members?
 
-The community active in a number of different places:
+The community is active in a number of different places:
 
 ### <img src="https://i.ibb.co/qBrb4qK/image-2024-02-03-173937048.png" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Telegram</span>
 
@@ -18,11 +18,17 @@ The Zcash community is very active in its community <span translate="no" class="
 
 ### <img src="https://i.ibb.co/kxVwQxM/image-2024-02-03-174056252.png" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Discord</span>
 
-[Zcash Global](https://discord.gg/zcash) 
+[Zcash Global](https://discord.gg/zcash)
 
 [Zcash R&D](https://discord.gg/xpzPR53xtU)
 
 [Zcash Foundation](https://discord.gg/na6QZNd)
+
+### <span translate="no" class="notranslate">Reddit</span>
+
+The Zcash subreddit is another place where users discuss ecosystem news, wallets, mining, privacy technology, and community updates.
+
+[r/zec](https://www.reddit.com/r/zec/)
 
 ### <span translate="no" class="notranslate">Mastodon</span>
 
@@ -60,3 +66,9 @@ Just like most crypto projects, the Zcash community is extremely active on Twitt
 ### Resources
 
 [Zcash Community Website](https://www.zcashcommunity.com/)
+
+[ZecHub Wiki](https://zechub.wiki/)
+
+[Zcash Ecosystem Directory](https://z.cash/ecosystem/)
+
+[Zcash Community Grants](https://zcashcommunitygrants.org/)
