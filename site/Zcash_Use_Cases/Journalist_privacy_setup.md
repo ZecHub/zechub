@@ -113,8 +113,8 @@ You can:
 
 ## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Privacy - Best practices](/privacy/best-practices)
-- [Send money without linking identity](/use-cases/send-money-without-linking-identity)
+- [Shielded Pools](../Using_Zcash/Shielded_Pools.md)
+- [Send Money Without Linking Identity](Send_Money_Without_Linking_Identity.md)
 
  <br/>
 
@@ -133,8 +133,8 @@ You now understand:
 
 ## What Next?
 
-- [Go to home page](/)
-- [Explore developer paths](/developers)
-- [Contribute to ZecHub](/contribute/help-build-zechub)
+- [Review Wallets](../Using_Zcash/Wallets.md)
+- [Learn about Shielded Pools](../Using_Zcash/Shielded_Pools.md)
+- [Return to the Real World Use Cases index](About.md)
 
 <br/> 

@@ -96,7 +96,7 @@ You can:
 <br/>
 
 ## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
-- [Privacy - Shielded vs Transparent](/privacy/shielded-vs-transparent)
+- [Shielded Pools](../Using_Zcash/Shielded_Pools.md)
 
 <br/>
 
@@ -110,4 +110,4 @@ You can now send funds privately without exposing identity.
 
 ## Next Step
 
-- [Freelancer Privacy Setup](/use-cases/freelancer-privacy-setup)
+- [Freelancer Privacy Setup](Freelance_Privacy_Setup.md)
