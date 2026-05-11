@@ -4,18 +4,43 @@
 
 # Zcash Global Ambassadors
 
+Zcash Global Ambassadors are community leaders dedicated to promoting privacy-focused cryptocurrency adoption and education worldwide. Ambassador projects focus on awareness, onboarding, local-language education, events, and regional community building.
 
-The Global Ambassador Program is designed to identify community members who make high-quality contributions to the Zcash community and empower them to become leaders. Ambassadors lead activities that grow the Zcash community, drive user adoption, and advance awareness of Zcash’s privacy-preserving technology.
+Last reviewed: May 2026
+
+## Program overview
+
+The Global Ambassador Program was created to identify community members who make high-quality contributions to the Zcash community and empower them to become leaders. Ambassadors lead activities that grow the Zcash community, drive user adoption, and advance awareness of Zcash's privacy-preserving technology.
 
 ## What does an Ambassador do?
 
-  * Hosting physical or virtual meetup events
-  * Maintaining an active presence on social media, and creating original content related to Zcash.
-  * Ambassadors have creative freedom over the activities they plan. 
-  
-## [Global Ambassador Website](https://zcashambassadors.com)
-  
+- Host physical or virtual meetup events
+- Maintain an active presence on social media
+- Create original Zcash-related content
+- Translate educational material for local communities
+- Help new users understand wallets, shielded payments, privacy, and ecosystem resources
+- Coordinate with other regional community projects
 
+Ambassadors have creative freedom over the activities they plan while contributing to the broader Zcash ecosystem.
 
- 
+## Active Global Ambassador Projects
 
+The current ZecHub ambassador page lists regional projects including:
+
+- Zcash Korea
+- Zcash Russia
+- Zcash Arabia
+- Zcash Brazil
+- Zcash Ghana
+- Zcash Espanol
+- Zcash Nigeria
+- Zcash Ukraine
+- Zcash Turkey
+- Zcash Kenya
+- Zcash India
+
+## Links
+
+- [ZecHub Global Ambassadors page](https://zechub.wiki/zcash-global-ambassadors)
+- [Original ZCG Global Ambassador Program announcement](https://zcashcommunitygrants.org/news/2022/02/24/the-global-ambassador-program/)
+- [Global Ambassador forum thread](https://forum.zcashcommunity.com/t/the-global-ambassador-program/41070)

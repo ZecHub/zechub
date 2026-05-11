@@ -4,6 +4,18 @@
 
 ## Zcash Community Projects
 
+Zcash community projects include wallets, explorers, developer tooling, education, events, merchant adoption, media, and public-good infrastructure.
+
+Last reviewed: May 2026
+
+[Zcash Community](https://www.zcashcommunity.com/)
+
+The Zcash Community hub collects ecosystem news, social links, community projects, blog feeds, wallets, grants, and onboarding resources.
+
+[ZecHub Wiki](https://zechub.wiki/)
+
+ZecHub is the community-driven education hub for Zcash, with guides, visualizers, tutorials, global resources, and contribution pathways for new and experienced community members.
+
 [ZECping](https://github.com/emersonian/zecping)
 
 See the gRPC response times of Zcash [Lightwalletd](https://github.com/zcash/lightwalletd) nodes.
@@ -14,7 +26,7 @@ Ziggurat is network test suite that provides zcashd and zebra devs with this rel
 
 [Exblo](https://testnet.exblo.app/#/)
 
-A block explorer specially design for apps testing transactions over the Zcash Testnet. Currently in active development
+A block explorer designed for testing apps that transact over the Zcash testnet. Currently in active development.
 
 The Zcash Block Explorer provides information such as transaction data / block information / Addresses / Mempool Blocks etc. Also allows for Transaction Payment Disclosure Viewing Key to be used.
 
@@ -32,7 +44,7 @@ Free2z is a tool for anonymous content and private donations.
 
 [Ezcash](https://blog.nerdbank.net/ezcash-app)
 
-An easy to use and fully-feature Zcash wallet multiplatform Zcash Wallet with autoshielding support.
+An easy to use, fully featured, multi-platform Zcash wallet with autoshielding support.
 
 [My First Zcash](https://github.com/massadoptionorg/My-First-Zcash)
 
@@ -57,6 +69,10 @@ ZGo is a Zcash Register. Enabling vendors and merchants to accept Zcash. Current
 [Zlink](https://zlink.click)
 
 Zlink is the simplest way to find any link, tool, information you need about Zcash's ecosystem.
+
+[Pay With Zcash](https://paywithz.cash/)
+
+Pay With Zcash is a community directory for discovering businesses, services, and tools that accept ZEC.
 
 [ZK Radio](https://zcashesp.com/zk-radio/)
 
@@ -155,7 +171,7 @@ Zectastic.com is Launch the Zcash rocket, Play the memory game, and Follow the l
 
 ## Zecmap
 
-Zecmap is The global map of businesses accepting Zcash. Discover, verify, and contribute to places that support privacy-focused payments.
+Zecmap is the global map of businesses accepting Zcash. Discover, verify, and contribute places that support privacy-focused payments.
 
 [Visit Site](https://zecmap.com/)
 
