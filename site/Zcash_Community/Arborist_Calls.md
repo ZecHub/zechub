@@ -4,30 +4,35 @@
 
 # Arborist Calls
 
-[](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0d708fde-0a74-440d-8cf0-e782d984415d_831x468.webp)
+Last reviewed: May 2026.
 
-The Zcash Arborist Calls are bi-weekly protocol development meetings focused on tracking upcoming protocol deployment logistics, consensus node implementation issues, and protocol research.
+Zcash Arborist Calls are recurring protocol development meetings focused on network upgrade planning, consensus node implementation work, wallet and infrastructure dependencies, and protocol research.
 
-Offical Site: [https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)
+The official Arborist Calls page is maintained by the Zcash Foundation:
 
-Anyone who wants to contribute to Zcash protocol development and to share news on Zcash node projects. 
+[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)
 
-Register here: [15:00 UTC](https://us06web.zoom.us/webinar/register/WN_Vk7WMz9sRkiIr_hqH_x3LA) / [22:30 UTC](https://us06web.zoom.us/webinar/register/WN_z0k1ipsnRkS4-DGqDhULdA)
+## How to Join
 
-The complete list with full notes & agendas can be found [here](https://github.com/ZcashCommunityGrants/arboretum-notes). 
+The calls alternate between two recurring time slots so that contributors in different regions can participate. Use the official Zcash Foundation page for the current calendar files and Zoom links:
 
+- 15:00 UTC timeslot
+- 21:00 UTC timeslot
 
-## Playlist
+The Foundation page should be treated as the source of truth for registration links, calendar files, and meeting access because meeting links can change.
 
-<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
-  <iframe
-    className="w-full h-full"
-    src="https://www.youtube.com/embed/videoseries?si=lFFtNRmUsdmSQ1qM&list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G"
-    title="Zcash Arborist Call Playlist"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowFullScreen
-    loading="lazy"
-  />
-</div>
+## Notes, Agendas, and Recordings
 
+- Full agendas and minutes: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
+- Recent recordings: [Zcash Arborist Call playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
+- Zcash R&D discussion: [Zcash R&D Discord](https://discord.gg/xpzPR53xtU)
+- Long-form discussion: [Zcash Community Forum](https://forum.zcashcommunity.com/)
 
+## Who Should Attend
+
+Arborist Calls are useful for:
+
+- protocol engineers and researchers;
+- node, wallet, SDK, and lightwallet infrastructure developers;
+- grant recipients whose work touches consensus, network upgrades, or protocol dependencies;
+- community members who want to follow technical decision-making in public.
