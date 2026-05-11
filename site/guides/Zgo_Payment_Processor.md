@@ -4,19 +4,19 @@
 
 # Zgo Payment Processor 
 
-There's definitely no doubt ZGo stands out as one of the foremost payment processors in the Zcash ecosystem, serving users by enabling seamless payment transactions with the Zcash cryptocurrency. Even though Payment processors  are known for their services to facilitate transactions and payments using supported cryptocurrencies like Zcash. They often provide tools and APIs for businesses and individuals to accept and manage cryptocurrency payments.
+There's definitely no doubt ZGo stands out as one of the foremost payment processors in the Zcash ecosystem, serving users by enabling seamless payment transactions with the Zcash cryptocurrency. Payment processors are known for facilitating transactions using supported cryptocurrencies like Zcash. They often provide tools and APIs for businesses and individuals to accept and manage cryptocurrency payments.
 
 ***"The Zcash Register"***
 
 ZGo offers a secure, confidential and autonomous method for making payments by harnessing the power of Zcash technology which makes it accessible to all users. ZGo boasts seamless integration with a wide array of popular business applications, enhancing its versatility and usability for a range of professional purposes. This compatibility enables users to effortlessly incorporate ZGo into their existing software ecosystems, streamlining processes and promoting efficiency when it comes to making and processing payments with Zcash. ZGo's integration capabilities ensure that it can seamlessly adapt to the diverse needs of various organizations, fostering a more interconnected and productive digital environment.
 
-<img width="672" height="378" alt="1" src="https://github.com/user-attachments/assets/de50885b-b068-4157-bbda-0981ca23efc8" />
+<img width="672" height="378" alt="ZGo payment processor interface" src="https://github.com/user-attachments/assets/de50885b-b068-4157-bbda-0981ca23efc8" />
 
 
 
 **ZGo And Xero** 
 
-[ZGo's](https://zgo.cash/) integration with the [Xero](https://www.xero.com/) marks a significant advancement in financial management for businesses. This integration empowers business owners by providing a convenient avenue for their customers to settle invoices using Zcash, a cryptocurrency known for its privacy and security features. Beyond simplifying the payment process, [ZGo's](https://zgo.cash/) integration actively monitors the [Zcash blockchain](https://z.cash/), ensuring that every Zcash payment is tracked and reported seamlessly to [Xero](https://www.xero.com/). This bridge between cryptocurrency and conventional accounting systems allows business owners to maintain their existing workflow and financial processes without disruption. The result is that business owners can now seamlessly accept Zcash payments directly into their wallets while enjoying the benefits of reliable accounting software. This integration simplifies cryptocurrency adoption for businesses & also demonstrates ZGo's commitment to bridging the gap between the traditional financial world and the exciting possibilities of cryptocurrencies.
+[ZGo's](https://zgo.cash/) integration with [Xero](https://www.xero.com/) marks a significant advancement in financial management for businesses. This integration empowers business owners by providing a convenient avenue for their customers to settle invoices using Zcash, a cryptocurrency known for its privacy and security features. Beyond simplifying the payment process, [ZGo's](https://zgo.cash/) integration actively monitors the [Zcash blockchain](https://z.cash/), ensuring that every Zcash payment is tracked and reported seamlessly to [Xero](https://www.xero.com/). This bridge between cryptocurrency and conventional accounting systems allows business owners to maintain their existing workflow and financial processes without disruption. The result is that business owners can now seamlessly accept Zcash payments directly into their wallets while enjoying the benefits of reliable accounting software. This integration simplifies cryptocurrency adoption for businesses & also demonstrates ZGo's commitment to bridging the gap between the traditional financial world and the exciting possibilities of cryptocurrencies.
 
 Want to set up ZGo with Xero for the first time? Follow the guide below:
 [Xero Integration Configuration](https://hedgedoc.vergara.tech/s/4iXC67fmb) 
@@ -24,7 +24,7 @@ Want to set up ZGo with Xero for the first time? Follow the guide below:
 
 **ZGo and WooCommerce**
 
-<img width="672" height="378" alt="2" src="https://github.com/user-attachments/assets/55a791bb-1947-4f55-b5b9-55083be8ed49" />
+<img width="672" height="378" alt="ZGo payment processor interface" src="https://github.com/user-attachments/assets/55a791bb-1947-4f55-b5b9-55083be8ed49" />
 
 
 
@@ -58,7 +58,7 @@ The payment flow illustrated in the image is a well-orchestrated process that no
 
 **Features of ZGo**
 
-**Non Custodial/Decentralized**
+**Non-Custodial/Decentralized**
 ZGo operates on a non-custodial basis, emphasizing the security and privacy of your financial transactions. With ZGo, Zcash payments follow a path from your customer to your wallet through the use of shielded transactions, ensuring that your funds remain under your control throughout the entire process. 
 
 **Flexibility**
