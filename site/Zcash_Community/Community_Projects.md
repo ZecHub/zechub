@@ -20,9 +20,6 @@ Community projects are wallets, payment tools, explorers, developer infrastructu
 ### TIPZ
 [TIPZ](https://tipz.cash/) is a non-custodial tipping platform where tips arrive as shielded ZEC. It also supports cross-chain on-ramps through NEAR Intents.
 
-### Zecmap
-[Zecmap](https://zecmap.com/) is a community map of businesses and places that accept Zcash.
-
 ## Wallets, Messaging, and User Apps
 
 ### Dizzy Wallet
