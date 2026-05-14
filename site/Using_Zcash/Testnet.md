@@ -130,7 +130,7 @@ A **faucet** is a service that gives free TAZ coins for testing:
 - Avoids the need to mine TAZ manually  
 
 **Example:**  
-1. Visit a Testnet faucet (e.g., [testnet.zecaucet.com](https://testnet.zecaucet.com))  
+1. Visit a Testnet faucet (e.g., [testnet.zecfaucet.com](https://testnet.zecfaucet.com))  
 2. Enter your Testnet address  
 3. Request TAZ  
 4. Receive TAZ instantly to start testing  
