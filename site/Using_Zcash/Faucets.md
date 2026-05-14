@@ -12,3 +12,5 @@ Faucets are services that dispense small amounts of cryptocurrency for free. The
 Mainnet: <a href="https://zecfaucet.com">zecfaucet</a>
 
 Testnet: <a href="https://testnet.zecfaucet.com">testnet.zecaucet.com</a>
+
+Testnet: <a href="https://fauzec.com/">fauzec.com</a>
