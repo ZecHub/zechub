@@ -4,13 +4,13 @@
 
 # <img src="https://i.ibb.co/qYhRbJM/image-2024-02-03-174147713.png" alt="Alt Text" width="400"/> Zcash Community Links
 
-The Zcash community is a vibrant and passion group of people working towards making ZEC one of the most widely used cryptocurrencies in the world. The community is made up of a diverse group of people from all over the world. They come from a variety of different backgrounds and occupations, but they all work together to help achieve Zcash and ZEC's vision.
+The Zcash community is a vibrant and passionate group of people working towards making ZEC one of the most widely used cryptocurrencies in the world. The community is made up of people from many countries, backgrounds, and occupations who work together to advance financial privacy.
 
 ----
 
-## Where you can find community members?
+## Where can you find community members?
 
-The community active in a number of different places:
+The community is active in a number of different places:
 
 ### <img src="https://i.ibb.co/qBrb4qK/image-2024-02-03-173937048.png" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Telegram</span>
 
@@ -53,6 +53,17 @@ Just like most crypto projects, the Zcash community is extremely active on Twitt
 [@Zcash Brazil](https://x.com/zcashbrazil)
 
 [@zerodartz](https://x.com/Zerodartz) (for the memes!)
+
+### Regional and Project Communities
+
+| Community | Link |
+|-----------|------|
+| Zcash en Espanol | [Visit ->](https://x.com/zcashesp) |
+| Zcash Brazil | [Visit ->](https://x.com/zcashbrazil) |
+| Zcash Nigeria | [Visit ->](https://x.com/ZcashNigeria) |
+| Zcash Global en Espanol forum updates | [Read ->](https://forum.zcashcommunity.com/t/zcash-global-en-espanol-2026/53815/27) |
+| Zcash Nigeria activity reports | [Read ->](https://forum.zcashcommunity.com/t/zcash-nigeria-2026/53654/15) |
+| ZODL Support | [Visit ->](https://x.com/zodl_support/status/2048872443985506434?s=20) |
 
 
 ----
