@@ -110,7 +110,7 @@ You can:
 
 ## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Wallets](/wallets)
+- [Wallets](../Using_Zcash/Wallets.md)
 
 <br/>
 
@@ -124,5 +124,5 @@ You now understand how to receive income privately.
 
 ## Next Step
 
-- [Accept Payments as a Merchant](/use-cases/accept-payments-as-a-merchant)
+- [Accept Payments as a Merchant](Accept_Payments_AS_A_Merchant.md)
 <br/>
