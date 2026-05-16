@@ -2,133 +2,171 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# FROST 
+# FROST and Private Multi-Signature Tools in Zcash
 
+FROST stands for **Flexible Round-Optimized Schnorr Threshold Signatures**. It is a threshold signature protocol that lets a group of participants jointly control one signing key without any single participant holding the complete private key.
 
-## What is a Schnorr signature?
+In Zcash, FROST is important because it can make shared control of funds more practical while preserving the privacy properties users expect from shielded transactions. A group can require, for example, 2 of 3 or 3 of 5 trusted participants to approve a spend, while the final signature can still look like a normal signature to outside observers.
 
-A Schnorr digital signature is a set of algorithms: (KeyGen, Sign, Verify).
+## What FROST Is
 
-Schnorr signatures have several advantages. One key advantage is that when multiple keys are used to sign the same message, the resulting signatures can be combined into a single signature. This can be used to significantly reduce the size of multisig payments and other multisig related transactions.
+A normal digital signature is created by one private key. If that key is lost, the funds are lost. If it is stolen, the funds can be stolen.
 
+FROST changes that model. Instead of one person holding one complete private key, the key is split into shares. Each participant holds only their own share. A valid signature can be produced only when a required threshold of participants cooperate.
 
-## What is FROST?
+For example:
 
-**Flexible Round-Optimized Schnorr Threshold Signatures** -
-*Created by Chelsea Komlo (University of Waterloo, Zcash Foundation) & Ian Goldberg (University of Waterloo).*
+- In a 2-of-3 setup, any 2 of the 3 participants can sign.
+- In a 3-of-5 setup, any 3 of the 5 participants can sign.
+- Participants who do not meet the threshold cannot spend funds.
+- A single compromised participant does not reveal the full key.
 
-FROST is a threshold signature and distributed key generation protocol that offers minimal rounds of communication and is secure to be run in parallel. FROST protocol is a threshold version of the Schnorr signature scheme.
+This is called a **threshold signature**. The group behaves like one signer from the outside, but internally the signing authority is distributed.
 
-Unlike signatures in a single-party setting, threshold signatures require cooperation among a threshold number of signers each holding a share of a common private key. 
+FROST was designed to reduce the number of communication rounds needed for threshold signing. RFC 9591 specifies a two-round FROST protocol for Schnorr signatures. The Zcash Foundation has also maintained FROST research, documentation, and implementations for Zcash-related use cases.
 
-[What are Threshold Signatures? Chelsea Komlo - Zcon3](https://youtu.be/cAfTTfblzoU?t=110)
+## Why FROST Matters for Privacy
 
-Consequently, generating signatures in a threshold setting imposes overhead due to network rounds among signers, proving costly when secret shares are stored on network-limited devices or when coordination occurs over unreliable networks.
+Traditional multi-signature systems often reveal extra information on-chain. Observers may be able to see that a transaction used multisig, how many keys were involved, or what policy was used.
 
-Network overhead during signing operations is reduced by employing a novel technique to protect against forgery attacks applicable to other schemes.
- 
-FROST improves upon threshold signature protocols as an unlimited number of signature operations can be performed safely in parallel (concurrency).
- 
-It can be used as either a 2-round protocol where signers send and receive 2 messages in total, or optimized to a single-round signing protocol with a pre-processing stage. 
+FROST is different because the group produces one final Schnorr-style signature under one group public key. The signature can verify like a single-party signature. That helps avoid exposing the internal signing policy to the public chain.
 
-FROST achieves its efficiency improvements in part by allowing the protocol to abort in the presence of a misbehaving participant (who is then identified and excluded from future operations).
- 
-Proofs of security demonstrating that FROST is secure against chosen-message attacks assuming the discrete logarithm problem is hard and the adversary controls fewer participants than the threshold are provided [here](https://eprint.iacr.org/2020/852.pdf#page=16).
+For Zcash, this matters because shielded transactions are designed to reduce information leakage. A privacy-preserving multisig tool should not add avoidable metadata that makes shared wallets easier to identify. FROST is valuable because it can support shared control while keeping the external transaction footprint closer to a normal spend.
 
+There is an important scope note: Zcash transparent addresses use ECDSA, so FROST is not a drop-in replacement for transparent t-address multisig. Its strongest relevance is for shielded Zcash workflows and future wallet infrastructure that can use compatible Schnorr-based signing.
 
-## How does FROST work?
+## How FROST Works
 
-The FROST protocol contains two important components:
+FROST has two major phases: key generation and signing.
 
-First, n participants run a *distributed key generation (DKG) protocol* to generate a common verification key; at the end, each participant obtains a private secret key share and a public verification key share. 
+### Key Generation
 
-Afterwards, any t-out-of-n participants can run a *threshold signing protocol* to collaboratively generate a valid Schnorr signature. 
+Participants create or receive shares of a common signing key. In a distributed key generation setup, the full private key does not need to exist in one place. Each participant ends with:
 
-<a href="">
-    <img src="https://static.cryptohopper.com/images/news/uploads/1634081807-frost-flexible-round-optimized-schnorr-threshold-signatures-1.jpg" alt="" width="400" height="300"/>
-</a>
+- A private key share
+- A public verification share
+- A shared group public key
 
-**Distributed key generation (DKG)**
+The group public key is what outside verifiers use. Individual private shares remain with the participants.
 
-The goal of this phase is to generate long-lived secret key shares and a joint verification key. This phase is run by n participants. 
+### Signing
 
-FROST builds its own key generation phase upon [Pedersens DKG (GJKR03)](https://blog.gtank.cc/notes-on-threshold-signatures/)  in which it uses both Shamir secret sharing and Feldmans verifiable secret sharing schemes as subroutines. In addition, Each participant is required to demonstrate knowledge of their own secret by sending to other participants a zero-knowledge proof, which itself is a Schnorr signature. This additional step protects against rogue-key attacks in the setting where t ≥ n/2.
+When the group wants to authorize a transaction, a threshold of participants cooperate through the FROST signing rounds.
 
-At the end of the DKG protocol, a joint verification key vk is generated. Also, each participant P ᵢ holds a value (i, sk ᵢ ) that is their long-lived secret share and a verification key share vk ᵢ = sk ᵢ *G. Participant P ᵢs verification key share vk ᵢis used by other participants to verify the correctness of P ᵢs signature shares in the signing phase, while the verification key vk is used by external parties to verify signatures issued by the group.
+At a high level:
 
-**Threshold Signing**
+1. Participants create one-time commitments for the signing session.
+2. The signing message is prepared.
+3. Each selected participant creates a signature share.
+4. The shares are checked and aggregated.
+5. The final output is one valid signature from the group key.
 
-This phase builds upon known techniques that employ additive secret sharing and share conversion to non-interactively generate the nonce for each signature. This phase also leverages binding techniques to avoid known forgery attacks without limiting concurrency.
+The protocol is designed so that invalid or malicious signature shares can be detected. This makes FROST useful for real-world groups where some devices may go offline, participants may make mistakes, or one signer may behave incorrectly.
 
-Preprocessing: In the preprocessing stage, each participant prepares a fixed number of Elliptic Curve (EC) point pairs for further use, which is run for a single time for multiple threshold signing phases.
+## FROST vs Traditional Multisig
 
-<a href="">
-    <img src="https://i.ibb.co/nQD1c3n/preprocess.png" alt="" width="400" height="300"/>
-</a>
+FROST and traditional multisig both let multiple people control funds, but they do it differently.
 
-Signing Round 1: Each participant Pᵢ begins by generating a single private nonce pair (dᵢ, eᵢ) and corresponding pair of EC points (Dᵢ, Eᵢ) and broadcasts this pair of points to all other participants. Each participant stores these pairs of EC points received for use later. Signing rounds 2 and 3 are the actual operations in which t-out-of-n participants cooperate to create a valid Schnorr signature.
+### Traditional Multisig
 
-Signing Round 2: To create a valid Schnorr signature, any t participants work together to execute this round. The core technique behind this round is t-out-of-t additive secret sharing.
+Traditional multisig usually publishes a policy such as 2-of-3 or 3-of-5. On transparent chains, this can reveal:
 
-This step prevents forgery attack because attackers cannot combine signature shares across distinct signing operations or permute the set of signers or published points for each signer. 
+- That the funds are controlled by a group
+- The number of signers
+- The spending threshold
+- A larger transaction footprint
 
-<a href="">
-    <img src="https://i.ibb.co/b5rJbXx/sign.png" alt="" width="400" height="300"/>
-</a>
+This model is useful and battle-tested, but it can leak information.
 
-Having computed the challenge c, each participant is able to compute the response zᵢ to the challenge using the single-use nonces and the long-term secret shares, which are t-out-of-n (degree t-1) Shamir secret shares of the groups long-lived key. At the end of signing round 2, each participant broadcasts zᵢ to other participants.
+### FROST Threshold Signatures
 
-[Read the full paper](https://eprint.iacr.org/2020/852.pdf)
+FROST creates a single aggregated signature. The chain does not need to see each participant's signature separately. This can provide:
 
+- Smaller transaction data
+- Less visible policy information
+- A single group public key
+- Better privacy for shared-control wallets
 
-## Does it benefit Zcash?
+The internal policy still exists, but it is enforced by the participants and wallet software rather than being fully exposed as transaction metadata.
 
-Absolutely yes. The introduction of FROST to Zcash will allow multiple parties, separated geographically to control spend authority of shielded ZEC. An advantage being that transactions broadcast using this signature scheme will be indistinguishable from other transactions on the network, maintaining strong resistance to payment tracking and limiting the amount of blockchain data available for analysis. 
+## Real-World Use Cases
 
-In practice this allows for an entire host of new applications to be built on the network ranging from escrow providers or other non-custodial services. 
+### DAO Treasury Management
 
-FROST will also become an essential component in the secure issuance and management of Zcash Shielded Assets (ZSA) enabling safer management of spend authority within development orgs & ZEC custodians such as exchanges by further distributing trust while providing this capability to Zcash users as well. 
+A Zcash-focused DAO or community fund may want shared control over its treasury. FROST can allow several trusted members to approve spending without giving one person unilateral control.
 
+A 3-of-5 treasury could continue operating even if one member is unavailable. At the same time, an attacker would need to compromise multiple participants before funds could be moved.
 
-## FROST use in the wider ecosystem
+### Institutional Custody
 
-**FROST in [Coinbase](https://github.com/coinbase/kryptology/tree/master/pkg/dkg/frost)**
+Institutions need both security and operational continuity. A custodian could split signing authority across departments, devices, or geographic locations.
 
-In order to improve efficiency of the Coinbase threshold-signing systems they developed a version of FROST. The Coinbase implementation makes slight changes from the original FROST draft.
+FROST helps reduce single-key risk while keeping the spending flow more efficient than requiring every signer to be online for every transaction.
 
-They opted not use the signature aggregator role. Instead, each participant is a signature aggregator. This design is more secure: all the participants of the protocol verify what others have computed to achieve a higher level of security and reduce risk. The (one-time) preprocessing stage was also removed in order to speed up the implementation, having a third signing round instead.
+### Shared Wallets
 
-___
+Families, teams, grant committees, and small organizations can use threshold control to avoid a single point of failure. A shared wallet can require more than one person to approve spending, reducing the risk of mistakes, theft, or lost devices.
 
-**[ROAST](https://eprint.iacr.org/2022/550.pdf) by Blockstream** 
+### Advanced Governance
 
-An application specific improvement on FROST proposed for use on [Blockstream Liquid Sidechain](https://blog.blockstream.com/roast-robust-asynchronous-schnorr-threshold-signatures/) for Bitcoin.
+Governance systems can use FROST to separate authority across roles. For example, an organization could require approval from finance, operations, and technical representatives before large transfers.
 
-"ROAST is a simple wrapper around threshold signature schemes like FROST. It guarantees that a quorum of honest signers, e.g., the Liquid functionaries, can always obtain a valid signature even in the presence of disruptive signers when network connections have arbitrarily high latency." 
+This creates a practical bridge between human governance and cryptographic enforcement.
 
-___
+## Why FROST Is Important for Zcash
 
-**FROST in IETF**
+Zcash is strongest when users can protect both financial privacy and operational security. FROST supports both goals.
 
-The Internet Engineering Task Force, founded in 1986, is the premiere standards development organization for the Internet. The IETF makes voluntary standards that are often adopted by Internet users, network operators, and equipment vendors, and it thus helps shape the trajectory of the development of the Internet.
+### Better Shared Custody
 
-FROST version 11 (two-round variant) has been [submitted to IRTF](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/11/). 
+Many users and organizations do not want one person to hold the full key. FROST lets control be distributed without making the final transaction look like a visibly complex multisig spend.
 
-This is an important step for the complete evaluation & of FROST as a new threshold signature scheme standard for use across the internet, in hardware devices and for other services in the years to come. 
-___
+### Stronger Privacy
 
+If shielded multisig reveals too much metadata, it weakens the privacy story. FROST helps keep group signing compatible with the idea that transactions should not reveal unnecessary details.
 
-Further Learning:
+### Better Usability
 
-[Coinbase Article - Threshold Signatures](https://www.coinbase.com/blog/threshold-digital-signatures)
+Round efficiency matters. Threshold systems can be hard to use if they require too much coordination. FROST reduces communication overhead, making shared signing more realistic for wallets, hardware devices, and organizations.
 
-[Shamir Secret Sharing - Explainer & Example](https://www.geeksforgeeks.org/shamirs-secret-sharing-algorithm-cryptography/)
+### Future Wallet Infrastructure
 
-[Short Video on Schnorr Digital Signatures](https://youtu.be/r9hJiDrtukI?t=19)
+FROST can become a foundation for advanced Zcash wallets: shared accounts, organizational wallets, recovery groups, DAO treasuries, and institutional custody tools.
 
-___
-___
+It is best understood as an enabling layer. The protocol alone is not the whole user experience. Wallet software still needs clear interfaces, safe backups, signer coordination, recovery flows, and education.
 
+## Practical Security Notes
 
+FROST improves key management, but it does not remove all risk.
 
+Groups should still plan for:
 
+- Secure storage of each key share
+- Clear signer identity and role management
+- Backup and recovery procedures
+- What happens if a signer disappears
+- How to rotate participants
+- How to verify transaction details before signing
+- Protection against phishing and malicious signing requests
+
+The most important rule is that no participant should sign blindly. A threshold system is only as strong as the participants' ability to understand what they are approving.
+
+## Current Status
+
+FROST has moved from research into standardization and implementation work. RFC 9591 describes the two-round FROST signing protocol, and the Zcash Foundation maintains educational and technical resources for FROST in the Zcash context.
+
+For Zcash users, the practical takeaway is that FROST is an emerging building block for private shared custody. It is not just a theory paper. It is part of the toolkit that can make shielded multi-party wallets and treasury systems more usable over time.
+
+## Conclusion
+
+FROST is one of the most important cryptographic tools for the future of private shared custody in Zcash. It lets multiple participants jointly control funds, reduces single-key risk, and can preserve privacy by producing one final group signature rather than exposing a visible multisig policy.
+
+For individuals, FROST can support safer shared wallets and recovery designs. For organizations, it can enable private treasury management, institutional custody, and governance systems. For the Zcash ecosystem, it is a step toward making privacy-preserving multisig practical, efficient, and easier to use.
+
+## Further Learning
+
+- [RFC 9591: The FROST Protocol](https://www.rfc-editor.org/rfc/rfc9591)
+- [Zcash Foundation: FROST](https://zfnd.org/frost/)
+- [ZF FROST Book](https://frost.zfnd.org/)
+- [FROST paper](https://eprint.iacr.org/2020/852)
+- [Hackmas: FROST Support in zcash-devtool](https://forum.zcashcommunity.com/t/hackmas-frost-support-in-zcash-devtool/54586)
