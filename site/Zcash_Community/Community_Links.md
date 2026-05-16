@@ -4,17 +4,25 @@
 
 # <img src="https://i.ibb.co/qYhRbJM/image-2024-02-03-174147713.png" alt="Alt Text" width="400"/> Zcash Community Links
 
-The Zcash community is a vibrant and passion group of people working towards making ZEC one of the most widely used cryptocurrencies in the world. The community is made up of a diverse group of people from all over the world. They come from a variety of different backgrounds and occupations, but they all work together to help achieve Zcash and ZEC's vision.
+The Zcash community is a global group of developers, educators, researchers, artists, advocates, merchants, and users working to make private digital cash practical and widely available.
+
+Last reviewed: May 2026
 
 ----
 
-## Where you can find community members?
+## Start here
 
-The community active in a number of different places:
+- [Zcash Community](https://www.zcashcommunity.com/) - community hub with projects, news, resources, and onboarding links.
+- [ZecHub Wiki](https://zechub.wiki/) - community-maintained Zcash education hub.
+- [Zcash Community Forum](https://forum.zcashcommunity.com/) - long-form community discussion, grants, governance, ecosystem updates, and technical threads.
+
+## Where can you find community members?
+
+The community is active in a number of different places:
 
 ### <img src="https://i.ibb.co/qBrb4qK/image-2024-02-03-173937048.png" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Telegram</span>
 
-The Zcash community is very active in its community <span translate="no" class="notranslate">Telegram</span>. This is a channel where zcashers talk about the day-to-day, discuss news and updates, and is also a good place for community members to get acquainted with each other. The link to join is [here](https://t.me/Zcash_Community).
+The Zcash community is active in its community <span translate="no" class="notranslate">Telegram</span>. This is a channel where zcashers talk day-to-day, discuss news and updates, and help new community members get acquainted. The link to join is [here](https://t.me/Zcash_Community).
 
 ### <img src="https://i.ibb.co/kxVwQxM/image-2024-02-03-174056252.png" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Discord</span>
 
@@ -34,10 +42,6 @@ The Zcash community is very active in its community <span translate="no" class="
 
 These places are great options for new community members to join in discussions.
 
-### Zcash Community Forum
-
-The [Zcash community forum](https://forum.zcashcommunity.com/) is a place where long form discussions related to Zcash take place. It's where members voice their support for various proposals in the community, debate specific topics, and also a place where projects seeking grants funding can go to announce their intention for applying to the Zcash Community Grants program. These are not the only topics for discussion, but they are some of the most common.
-
 ### <img src="https://i.ibb.co/mqKfr62/image-2024-02-03-174240928.png" alt="Alt Text" width="50"/>   <span translate="no" class="notranslate">Twitter / X</span>
 
 Just like most crypto projects, the Zcash community is extremely active on Twitter. The conversations are lively, debates are plentiful, and of course, there are memes. Here are some interesting accounts to follow
@@ -54,6 +58,17 @@ Just like most crypto projects, the Zcash community is extremely active on Twitt
 
 [@zerodartz](https://x.com/Zerodartz) (for the memes!)
 
+### Project and grant links
+
+[Zcash Community Grants](https://zcashcommunitygrants.org/)
+
+[Zcash Foundation](https://zfnd.org/)
+
+[Electric Coin Company](https://electriccoin.co/)
+
+[Zcash Foundation Arborist Calls](https://zfnd.org/arborist-calls/)
+
+[Zcash Community Grants Forum Category](https://forum.zcashcommunity.com/c/zcash-community-grants/13)
 
 ----
 
