@@ -4,19 +4,21 @@
 
 ## Zcash Community Projects
 
+This page highlights projects, tools, and resources built by Zcash community members.
+
 [ZECping](https://github.com/emersonian/zecping)
 
 See the gRPC response times of Zcash [Lightwalletd](https://github.com/zcash/lightwalletd) nodes.
 
 [Ziggurat](https://github.com/runziggurat/zcash)
 
-Ziggurat is network test suite that provides zcashd and zebra devs with this reliable foundation. Included in this suite is a Zcash [crawler](https://github.com/runziggurat/zcash/tree/main/src/tools/crawler).
+Ziggurat is a network test suite that provides zcashd and Zebra developers with a reliable testing foundation. Included in this suite is a Zcash [crawler](https://github.com/runziggurat/zcash/tree/main/src/tools/crawler).
 
 [Exblo](https://testnet.exblo.app/#/)
 
-A block explorer specially design for apps testing transactions over the Zcash Testnet. Currently in active development
+A block explorer specially designed for apps testing transactions over the Zcash testnet. Currently in active development.
 
-The Zcash Block Explorer provides information such as transaction data / block information / Addresses / Mempool Blocks etc. Also allows for Transaction Payment Disclosure Viewing Key to be used.
+The Zcash Block Explorer provides transaction data, block information, addresses, mempool blocks, and support for transaction payment disclosure viewing keys.
 
 [Dizzy Wallet](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 
@@ -32,7 +34,7 @@ Free2z is a tool for anonymous content and private donations.
 
 [Ezcash](https://blog.nerdbank.net/ezcash-app)
 
-An easy to use and fully-feature Zcash wallet multiplatform Zcash Wallet with autoshielding support.
+An easy-to-use, fully featured, multi-platform Zcash wallet with autoshielding support.
 
 [My First Zcash](https://github.com/massadoptionorg/My-First-Zcash)
 
@@ -48,15 +50,15 @@ A well detailed, comprehensive Zcash block explorer from Nighthawk Apps.
 
 [ZECPublish](https://www.zecpublish.com)
 
-ZECPublish is a censorship resistant, Zcash blockchain-powered social media. It includes a directory of zcash users and an anonymous message board powered by Zcash.
+ZECPublish is censorship-resistant, Zcash blockchain-powered social media. It includes a directory of Zcash users and an anonymous message board powered by Zcash.
 
 [ZGo](https://zgo.cash)
 
-ZGo is a Zcash Register. Enabling vendors and merchants to accept Zcash. Currently testing the app to get high quality feedback on the usability and features of ZGo.
+ZGo is a Zcash point-of-sale register that enables vendors and merchants to accept Zcash. The app is currently being tested to collect high-quality usability and feature feedback.
 
 [Zlink](https://zlink.click)
 
-Zlink is the simplest way to find any link, tool, information you need about Zcash's ecosystem.
+Zlink is a simple way to find links, tools, and information about the Zcash ecosystem.
 
 [ZK Radio](https://zcashesp.com/zk-radio/)
 
@@ -130,13 +132,13 @@ Zcast is the Spanish-language Zcash podcast, where you can find all the latest a
 
 ## Zebra Coverage-Guided Fuzzing Infrastructure
 
-Zebra Coverage-Guided Fuzzing Infrastructure focuses on systematically testing Zebra’s critical parsing, networking, and cryptographic components against malformed inputs, enabling continuous, automated discovery of security vulnerabilities and edge-case bugs.
+Zebra Coverage-Guided Fuzzing Infrastructure focuses on systematically testing Zebra's critical parsing, networking, and cryptographic components against malformed inputs, enabling continuous, automated discovery of security vulnerabilities and edge-case bugs.
 
 [Visit Site](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/234)
 
 ## ZecDev
 
-ZecDev Launchpad is a Linux first toolkit that brings up a Zebra regtest network with a faucet, Unified Address fixtures, and your choice of lightwalletd or Zaino, plus a reusable GitHub Action that runs golden end to end shielded flows on every pull request. It closes a critical gap as zcashd is deprecated by giving every wallet, SDK, and service a fast repeatable path for local development and CI that catches breakage before users do.
+ZecDev Launchpad is a Linux-first toolkit that brings up a Zebra regtest network with a faucet, Unified Address fixtures, and your choice of lightwalletd or Zaino, plus a reusable GitHub Action that runs golden end-to-end shielded flows on every pull request. It closes a critical gap as zcashd is deprecated by giving every wallet, SDK, and service a fast, repeatable path for local development and CI that catches breakage before users do.
 
 [Visit Site](https://github.com/zecdev)
 
@@ -149,13 +151,13 @@ TIPZ is a live, non-custodial tipping platform where every tip arrives as shield
 
 ## Zectastic.com
 
-Zectastic.com is Launch the Zcash rocket, Play the memory game, and Follow the live flippening party
+Zectastic.com lets visitors launch the Zcash rocket, play the memory game, and follow the live flippening party.
 
 [Visit Site](https://zectastic.com/)
 
 ## Zecmap
 
-Zecmap is The global map of businesses accepting Zcash. Discover, verify, and contribute to places that support privacy-focused payments.
+Zecmap is the global map of businesses accepting Zcash. Discover, verify, and contribute to places that support privacy-focused payments.
 
 [Visit Site](https://zecmap.com/)
 
