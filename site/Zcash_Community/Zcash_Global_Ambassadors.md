@@ -4,18 +4,39 @@
 
 # Zcash Global Ambassadors
 
+Last reviewed: May 2026.
 
-The Global Ambassador Program is designed to identify community members who make high-quality contributions to the Zcash community and empower them to become leaders. Ambassadors lead activities that grow the Zcash community, drive user adoption, and advance awareness of Zcash’s privacy-preserving technology.
+The Zcash Global Ambassador Program recognizes community members who make sustained, high-quality contributions to Zcash and helps them grow into local and regional leaders.
 
-## What does an Ambassador do?
+Ambassadors support adoption, education, and awareness of Zcash's privacy-preserving technology. Activities may be online, local, regional, or language-specific.
 
-  * Hosting physical or virtual meetup events
-  * Maintaining an active presence on social media, and creating original content related to Zcash.
-  * Ambassadors have creative freedom over the activities they plan. 
-  
-## [Global Ambassador Website](https://zcashambassadors.com)
-  
+## What Ambassadors Do
 
+- host physical or virtual meetups;
+- create educational content, tutorials, videos, articles, or translations;
+- help new users learn how to use Zcash safely;
+- represent Zcash at local events and community spaces;
+- maintain an active presence on social media and community channels;
+- connect builders, merchants, educators, and users with relevant Zcash resources.
 
- 
+## Useful Links
 
+- Global Ambassador website: [zcashambassadors.com](https://zcashambassadors.com)
+- Community discussion: [Zcash Community Forum](https://forum.zcashcommunity.com/)
+- ZecHub resources: [zechub.wiki](https://zechub.wiki/)
+- Main community links: [Zcash Community Links](./Community_Links.md)
+
+## Good Ambassador Activities
+
+Strong ambassador work is practical, public, and easy for others to build on. Examples include:
+
+- running a meetup and sharing photos, notes, or a recap;
+- translating important Zcash resources into another language;
+- helping local merchants understand shielded payments;
+- onboarding new users with wallet safety basics;
+- publishing explainers about privacy, self-custody, and Zcash use cases;
+- coordinating with other community groups before major events.
+
+## Updating This Page
+
+Add new ambassador resources when they are public, current, and useful for future contributors. Remove links that are inactive or no longer represent the program.
