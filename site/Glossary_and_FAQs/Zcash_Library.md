@@ -24,11 +24,11 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
       </tr>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Addresses</td>
-        <td className="py-5 px-6 text-foreground">Zcash has Shielded (Z/zaddr) and Transparent (T/taddr) addresses. Unified addresses (UA) are phasing in to replace Z and T following the NU5 upgrade.</td>
+        <td className="py-5 px-6 text-foreground">Zcash has shielded addresses, transparent addresses, and Unified Addresses (UA). Unified Addresses can bundle multiple receiver types, helping wallets choose shielded receivers when supported while preserving compatibility.</td>
       </tr>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Arborist Call</td>
-        <td className="py-5 px-6 text-foreground">A Bi-Monthly call around Protocol and Research development updates. Register here [15:00 UTC](https://us06web.zoom.us/webinar/register/WN_Vk7WMz9sRkiIr_hqH_x3LA) / [22:30 UTC](https://us06web.zoom.us/webinar/register/WN_z0k1ipsnRkS4-DGqDhULdA) / [Notes](https://github.com/ZcashCommunityGrants/arboretum-notes)</td>
+        <td className="py-5 px-6 text-foreground">A recurring Zcash protocol and research call focused on network upgrades, wallet infrastructure, cryptography, and ecosystem engineering. Follow [Zcash Foundation events](https://zfnd.org/zf-events/) and the [Arboretum notes](https://github.com/ZcashCommunityGrants/arboretum-notes) for current schedules and archives.</td>
       </tr>
       <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Auto-shielding</td>
@@ -59,7 +59,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
       </tr>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Block Explorer</td>
-        <td className="py-5 px-6 text-foreground">An online tool to view all transactions, past and current, on the blockchain. [Zcash Block Explorer](https://zcashexplorer.app/)</td>
+        <td className="py-5 px-6 text-foreground">An online tool for viewing public blockchain data such as blocks, transparent addresses, and transaction metadata. Examples include [Zcash Block Explorer](https://zcashexplorer.app/) and [CipherScan](https://cipherscan.app/).</td>
       </tr>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Blogs</td>
@@ -98,7 +98,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
       </tr>
       <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Cypherpunk Zero</td>
-        <td className="py-5 px-6 text-foreground">A Creative Universe and collaborative effort between ECC, illustrator Stranger Wolf, Mighty Jaxx and select ecosystem partners. [Cypherpunk Zero Site](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Opensea Collection](https://opensea.io/collection/cypherpunk-zero)</td>
+        <td className="py-5 px-6 text-foreground">A creative universe originally developed with ECC, illustrator Stranger Wolf, Mighty Jaxx, and ecosystem partners. Historical collections and references may still exist, but users should verify current official links before interacting with marketplace listings.</td>
       </tr>
     </tbody>
   </table>
@@ -117,8 +117,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
     <tbody>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">DeFi</td>
-        <td className="py-5 px-6 text-foreground">Projects integrating ZEC with DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / 
-[ShapeShift](https://app.shapeshift.com/) / [LeoDex](https://leodex.io/) / [ThorSwap](https://app.thorswap.finance/)
+        <td className="py-5 px-6 text-foreground">Projects integrating ZEC with DeFi and cross-chain liquidity include [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/), [NEAR Intents](https://app.near-intents.org/), [ShapeShift](https://app.shapeshift.com/), [LeoDex](https://leodex.io/), and [THORSwap](https://app.thorswap.finance/).
 </td>
       </tr>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
@@ -197,7 +196,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
       </tr>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Founders Reward</td>
-        <td className="py-5 px-6 text-foreground">The Founder reward represents 20 percent of the total block reward and it is deducted from every block's value and transparently distributed to drive protocol development and growth.</td>
+        <td className="py-5 px-6 text-foreground">The Founders Reward was the original Zcash launch funding mechanism. It allocated a portion of early block rewards to founders, investors, employees, and advisors during the first four years. It ended at Canopy and was replaced by later development funding mechanisms.</td>
       </tr>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Free2z</td>
@@ -243,7 +242,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
     <tbody>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Halo</td>
-        <td className="py-5 px-6 text-foreground">Enables circuit upgrades without the need for trusted setups, making the Zcash shielded protocol more agile for future improvements and extensions. [Technical Explainer](https://z.cash/learn/what-is-halo-for-zcash/)</td>
+        <td className="py-5 px-6 text-foreground">A recursive proof composition technique that removed the need for a new trusted setup for Orchard and made future shielded protocol upgrades more agile. [Technical Explainer](https://z.cash/learn/what-is-halo-for-zcash/)</td>
       </tr>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">HD Wallet</td>
@@ -415,7 +414,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
     <tbody>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Orchard Shielded Pool</td>
-        <td className="py-5 px-6 text-foreground">The third shielded pool for Zcash and represents the continued evolution of our zk-SNARK technology stack. [Full details](https://electriccoin.co/blog/explaining-halo-2/)</td>
+        <td className="py-5 px-6 text-foreground">The third shielded pool for Zcash, activated with NU5. Orchard uses the Halo proving system and does not require a new trusted setup. [Orchard details](https://z.cash/learn/what-is-halo-for-zcash/)</td>
       </tr>
       <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Overwinter</td>
@@ -446,7 +445,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
       </tr>
       <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Podcast</td>
-        <td className="py-5 px-6 text-foreground">[Radiolab](https://archive.org/details/radiolab_podcast17crypto_zcash_ceremony) / [RealVisionFinance](https://www.youtube.com/watch?v=ibA_4kwd_YI) / [EthDenver](https://www.youtube.com/watch?v=t62isi58XcQ) / [UpOnlyPodcast](https://www.youtube.com/watch?v=AjC9T938o3Q) / [ZEC Daily](https://www.youtube.com/playlist?list=PL6_epn0lASLGVQjz7Xt08sQsPC...)</td>
+        <td className="py-5 px-6 text-foreground">[Radiolab](https://archive.org/details/radiolab_podcast17crypto_zcash_ceremony) / [RealVisionFinance](https://www.youtube.com/watch?v=ibA_4kwd_YI) / [EthDenver](https://www.youtube.com/watch?v=t62isi58XcQ) / [UpOnlyPodcast](https://www.youtube.com/watch?v=AjC9T938o3Q) / [Zcash Podcasts](/site/Zcash_Social_Media/Podcasts/Podcasts)</td>
       </tr>
     </tbody>
   </table>
@@ -498,7 +497,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
       </tr>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Shielded Address</td>
-        <td className="py-5 px-6 text-foreground">Also called zaddr. Starts with z. Hides sender, receiver, amount, and memo using zk-SNARKs.</td>
+        <td className="py-5 px-6 text-foreground">A Zcash address that receives to a shielded pool, such as Sapling or Orchard. Shielded transactions can hide sender, receiver, amount, and memo data using zero-knowledge proofs.</td>
       </tr>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Shielded Transaction</td>
@@ -576,7 +575,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
     <tbody>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Unified Address</td>
-        <td className="py-5 px-6 text-foreground">Modern address format (introduced in NU5) that works for both transparent and shielded payments in one string.</td>
+        <td className="py-5 px-6 text-foreground">Modern Zcash address format introduced with NU5. A Unified Address can contain multiple receiver types, such as Orchard, Sapling, and transparent receivers, allowing wallets to choose the best supported receiver.</td>
       </tr>
       <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Upgrade Activation</td>
@@ -661,7 +660,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
       </tr>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">ZEC</td>
-        <td className="py-5 px-6 text-foreground">The official currency code for Zcash (some exchanges still show XZC).</td>
+        <td className="py-5 px-6 text-foreground">The official currency code for Zcash. ZEC is the ticker used for Zcash across wallets, exchanges, and ecosystem documentation.</td>
       </tr>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Zerocash</td>
