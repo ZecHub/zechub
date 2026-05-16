@@ -64,7 +64,9 @@ An online Radio Station to inform, educate and entertain the Zcash Community, de
 
 ## Zimppy.xyz
 [![Zimppy.xyz Logo](https://github.com/betterclever/zimppy/blob/main/site/og.png?raw=true)](https://zimppy.xyz/)
-The Zcash payment method for the Machine Payments Protocol. Shielded by default.
+
+Zimppy is a Zcash payment method for the Machine Payments Protocol (MPP). It uses shielded Zcash payments by default so agents and services can complete HTTP 402 payment flows without exposing sender, receiver, amount, or memo data on a public chain.
+
 ---
 [Visit Site](https://zimppy.xyz/)
 
@@ -76,23 +78,29 @@ A company dedicated to privacy and self-sovereignty.
 ## Cipherpay
 [![Cipherpay](https://github.com/atmospherelabs-dev/cipherpay-web/blob/main/public/logo-mark.png?raw=true)](https://www.cipherpay.app/en)
 
-Private payments for the internet. Accept Zcash in minutes. Non-custodial.
+CipherPay helps merchants accept shielded Zcash payments on the web. It verifies payments with a read-only viewing key, routes funds directly to the merchant's shielded address, and does not custody ZEC.
+
 [Visit Site](https://www.cipherpay.app/en)
 
 ## Cipherscan
 [![Cipherscan](https://github.com/Kenbak/cipherscan/blob/main/public/logo-small.png?raw=true)](https://cipherscan.app/)
 
-Zcash Blockchain Explorer 🛡️ Decode the blockchain. Privacy meets transparency.
+CipherScan is a Zcash block explorer with mainnet and testnet views, developer APIs, mempool tools, and privacy-focused educational resources for understanding transparent, Sapling, and Orchard activity.
+
 [Visit Site](https://cipherscan.app/)
 
 ## ZcashNames
 [![ZcashNames](https://github.com/zcashme/zcashnames/blob/main/public/brandkit/zcashnames-brand-banner-primary-logo-monochrome-green-monochrome-green-background-377x403.png?raw=true)](https://www.zcashnames.com/)
 
-Personal names
-for
-shielded addresses. A name is all you need to transact privately.
+ZcashNames maps human-readable names such as `alice.zcash` to Zcash unified addresses. Registrations are stored through standard Zcash shielded transactions, and claimed names can also create matching zcash.me profiles.
 
 [Visit Site](https://www.zcashnames.com/)
+
+## ZECDEX
+
+ZECDEX is an early-stage peer-to-peer fiat exchange concept for Zcash. The public discussion describes a desktop application with Tor support and shielded escrow workflows using FROST, aimed at private ZEC exchange without relying on transparent payment rails.
+
+[Read Forum Discussion](https://forum.zcashcommunity.com/t/zcash-applications-lab-open-source-builder-initiative/55410)
 
 ## Zero-knowledge Audiovisual Club
 [![Zero-knowledge Audiovisual Club](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS95FffUJjEeUHAZZ04xRHp9FW1Z0Gzef2UUg&s?raw=true)](https://zkav.club/#additional-reading)
