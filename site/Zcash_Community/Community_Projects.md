@@ -160,6 +160,56 @@ Zecmap is The global map of businesses accepting Zcash. Discover, verify, and co
 [Visit Site](https://zecmap.com/)
 
 
+## ZODL
+
+[![ZODL](https://github.com/Electric-Coin-Company/zashi-android/blob/main/assets/logos/Zashi_Logo_green_lg.png?raw=true)](https://zodl.app/)
+
+ZODL (formerly Zashi) is the flagship Zcash wallet from Shielded Labs. Available on iOS and Android, ZODL offers a simple, elegant experience for sending and receiving shielded ZEC. It also enables [NU7 coinholder voting](https://forum.zcashcommunity.com/t/nu7-sentiment-polling-questions-for-community-review-coinholder-voting-via-zodl/55713) for protocol governance.
+
+[Visit Site](https://zodl.app/)
+
+## Overpay.com
+
+Overpay.com lets you spend ZEC anywhere — converting shielded ZEC to real-world purchases. Currently in alpha.
+
+[Forum Announcement](https://forum.zcashcommunity.com/t/introducing-overpay-com-spend-zec-anywhere-alpha/54798)
+
+## Noir Wallet
+
+Noir Wallet is a new privacy-focused Zcash wallet unveiled in May 2026, designed for simple and private ZEC transactions.
+
+[First Look Thread](https://forum.zcashcommunity.com/t/first-look-at-noir-wallet/55667)
+
+## ZecVault
+
+ZecVault is a goal-based savings wallet built on Zcash shielded transactions. Set savings goals, track progress, and achieve financial milestones — all with full privacy.
+
+[Forum Thread](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
+
+## Rhea Finance
+
+Rhea Finance is a Zcash Gateway providing a browser wallet and cross-chain DeFi access. It connects ZEC holders to the broader DeFi ecosystem.
+
+[Forum Thread](https://forum.zcashcommunity.com/t/rhea-finance-zcash-gateway-browser-wallet-cross-chain-defi/55073)
+
+## BazaarSwap
+
+BazaarSwap brings ZEC to Web3 DeFi through a Zcash-native DEX. It integrates WalletConnect v2 and enables decentralized swaps using shielded ZEC.
+
+[Forum Thread](https://forum.zcashcommunity.com/t/introducing-bazaarswap-bringing-zec-to-web3-defi/55479)
+
+## Zkool
+
+Zkool is the successor to Ywallet, supporting the latest Zcash protocol features including Orchard shielded transactions.
+
+[Forum Thread](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
+
+## Zcash Network School
+
+The Zcash Network School provides structured educational content for new Zcash users and developers.
+
+[Forum Thread](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
+
 ___
 
 ## Applications that Utilize Zcash
