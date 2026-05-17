@@ -34,6 +34,22 @@ This last point is crucial for privacy.
 
 ---
 
+## Security Properties of FROST
+
+FROST offers formal security guarantees that make it suitable for high-value custody:
+
+**Unforgeability**: An adversary who corrupts fewer than t participants cannot forge a valid signature. This holds even if the adversary controls the network and can observe all protocol messages.
+
+**No single point of failure**: The complete private key never exists in one place. This is true both during key generation (if DKG is used) and during signing (no participant ever reconstructs the full key — aggregation is done mathematically on partial signatures).
+
+**Participant accountability**: If a signer submits an invalid share, FROST identifies them. The group can remove the misbehaving participant and reconstitute with a new threshold signing session. Honest participants are never penalized.
+
+**Concurrency-safe**: FROST can run multiple signing sessions in parallel without security degradation. Other threshold protocols require sessions to be strictly sequential, creating operational bottlenecks.
+
+**Secure against chosen-message attacks**: FROST security is proven under standard cryptographic assumptions — specifically the hardness of the discrete logarithm problem.
+
+---
+
 ## Why FROST is Different from Traditional Multisig
 
 Most people are familiar with multisig from Bitcoin — where a transaction can require M-of-N signatures. This works, but it has a significant drawback: **it's visible on-chain**.
@@ -46,9 +62,24 @@ When a 2-of-3 Bitcoin multisig transaction is broadcast, anyone looking at the b
 | Reveals spending policy? | Yes (e.g., "2-of-3") | No |
 | Key size overhead | Linear in M | Constant |
 | Compatible with privacy? | Limited | Yes |
+| Can abort bad participant? | No | Yes — with accountability |
+| Concurrent sessions safe? | Yes (separate signing) | Yes |
 | Requires all rounds live? | Usually | No — can abort misbehaving participants |
 
 FROST produces a **single Schnorr signature** from the group. An observer cannot tell whether the transaction was signed by one person or ten. The internal structure — how many participants, what the threshold is — stays private.
+
+### Choosing Your Threshold
+
+The right t-of-n configuration depends on your security model:
+
+| Setup | Trade-off | Good for |
+|---|---|---|
+| 2-of-3 | Any two of three can sign; one loss is recoverable | Personal wallets, small teams |
+| 3-of-5 | Majority required; two losses are survivable | Medium organizations |
+| 5-of-9 | Strong majority; resilient to multiple simultaneous failures | Large DAOs, institutional custody |
+| 7-of-12 | Near-supermajority for high-value decisions | Protocol-level governance |
+
+A higher threshold improves security against collusion but increases coordination cost. For Zcash use cases where privacy is the goal, any t-of-n configuration is equally private on-chain — the threshold is never revealed.
 
 ---
 
@@ -56,21 +87,33 @@ FROST produces a **single Schnorr signature** from the group. An observer cannot
 
 You don't need to understand the cryptography to understand the concept.
 
-**Step 1: Key Setup (Distributed Key Generation)**
+**Step 1: Key Setup — Two Approaches**
 
-The group runs a setup protocol. At the end:
-- Each participant holds a *private key share* (only they see it).
-- Everyone knows the *group public key* (this is what verifies signatures).
-- The complete private key never exists in one place — it's split before it's ever assembled.
+There are two ways to set up a FROST wallet:
+
+*Trusted dealer setup*: One trusted process generates the full secret and splits it into shares, one per participant. Simpler to implement, but the dealer must be trusted to delete the master secret after splitting.
+
+*Distributed key generation (DKG)*: Participants jointly create the group key without the full private key ever existing in one place. This is the stronger approach — no single participant or coordinator can learn the complete key. FROST builds its DKG on Pedersen's scheme, using Shamir secret sharing and verifiable secret sharing as subroutines.
+
+At the end of setup, each participant holds:
+- A *private key share* (unique to them — never shared)
+- The *group public key* (shared publicly — verifies signatures)
+- Verification key shares for each other participant (allows them to check each other's partial signatures)
+- A participant identifier and backup data
 
 **Step 2: Signing (Threshold Signing)**
 
-When the group wants to sign something:
-1. The required threshold of participants each compute a *partial signature* using their private share.
-2. These partial signatures are combined into one final Schnorr signature.
-3. This single signature is broadcast — it verifies against the group public key exactly like a normal signature.
+When the group wants to sign something, t-of-n participants join a signing session:
 
-If a participant misbehaves or goes offline, FROST can identify them and abort, then retry with different participants (as long as the threshold can still be met).
+1. Each selected participant publishes a **one-time signing commitment** — a pair of EC points generated from fresh private nonces. These commitments are collected by a coordinator.
+2. The transaction or message to be signed is agreed upon.
+3. Each participant generates a **signature share** using their key share, their nonce, and the commitments from all other signers.
+4. The coordinator collects signature shares, verifies each one against the corresponding verification key share, and **aggregates them into one final Schnorr signature**.
+5. The final signature is broadcast — it verifies against the group public key exactly like a normal single-party signature.
+
+FROST is *round-optimized*: it can operate in two communication rounds, or even one if nonces are pre-committed in a preprocessing stage. This minimizes the chance a signing ceremony fails because a participant goes offline mid-session.
+
+If a participant sends an invalid commitment or share, FROST identifies the misbehaving party and aborts. A new session with a fresh set of t participants can then proceed.
 
 ---
 
