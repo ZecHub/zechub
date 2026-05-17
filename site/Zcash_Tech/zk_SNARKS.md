@@ -4,6 +4,16 @@
 
 # ZKP & ZK-SNARKS
 
+## TL;DR
+
+- **ZK-SNARKs** = Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge
+- They let one party **prove they know something** without revealing the information itself
+- Zcash uses ZK-SNARKs to prove a transaction is valid (correct amounts, unspent inputs) **without revealing sender, receiver, or amount**
+- "Succinct" means the proof is tiny and fast to verify even for complex statements
+- The Orchard pool uses Halo 2, a ZK-SNARK system with **no trusted setup required**
+
+---
+
 ## What is a Proof?
 
 Proofs are the basis for all mathematics. A proof is a claim or theorem you are trying to prove & sequence of derivations made to declare the theorem has been proved. eg. all angles in a triangle total 180° can be independently checked by anyone (verifier).
@@ -207,3 +217,13 @@ Further Learning:
 [Simple Explanation of Arithmetic Circuits - Medium](https://medium.com/web3studio/simple-explanations-of-arithmetic-circuits-and-zero-knowledge-proofs-806e59a79785)
 
 [Scalability is Boring, Privacy is Dead: ZK-Proofs, What are They Good for?](https://www.youtube.com/watch?v=AX7eAzfSB6w)
+
+---
+
+## Related Pages
+
+- [Shielded Pools](/using-zcash/shielded-pools) — How ZK-SNARKs are used in Zcash value pools
+- [Halo](/zcash-tech/halo) — Zcash's ZK-SNARK system that eliminates trusted setups
+- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — ZSAs built on ZK-SNARK technology
+- [What is ZEC and Zcash](/start-here/what-is-zec-and-zcash) — Introduction to Zcash and its privacy model
+- [Privacy as a Core Principle](/privacy/privacy-as-a-core-principle) — Why financial privacy matters

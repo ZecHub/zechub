@@ -5,6 +5,15 @@
 
 # Obtaining Zcash
 
+## TL;DR
+
+- Buy ZEC on an exchange that supports **shielded withdrawals** (Gemini, BitcoinVN, Flyp.me) when possible
+- Most major centralized exchanges (Coinbase, Kraken, Binance) support **transparent withdrawals** only — shield your ZEC after receiving it
+- Decentralized exchanges allow non-custodial swaps but typically withdraw to transparent addresses
+- You do **not** need to buy a full ZEC — fractions work fine
+
+---
+
 In order to use Zcash in private (shielded) transactions, you need to have ZEC. To get ZEC, you'll need to buy it. You can buy ZEC from a number of different exchanges, which we will list below. It is recommended that you use an exchange that supports shielded withdrawals.
 
 _You can also mine ZEC, but that is usually not possible for average consumers. More on that [here](https://forum.zcashcommunity.com/t/mining-to-shielded-addresses-community-mining-pool/50281) and [here](https://zec.suprnova.cc/StartMining)_.
@@ -65,4 +74,18 @@ When doing this, we recommend using one of the following [wallets](https://zechu
   />
 </div>
 
+## Common Mistakes to Avoid
 
+- **Withdrawing to a transparent address** when the exchange supports shielded withdrawals — always use your z-address if available
+- **Skipping the shielding step** after receiving to a transparent address — use your wallet's "Shield Funds" feature immediately
+- **Buying more than needed initially** — start small to learn the flow before larger purchases
+
+---
+
+## Related Pages
+
+- [Wallets](/using-zcash/wallets) — Choose a wallet before withdrawing from an exchange
+- [Non-Custodial Exchanges](/using-zcash/non-custodial-exchanges) — Full list of DEXes supporting ZEC
+- [Custodial Exchanges](/using-zcash/custodial-exchanges) — Full list of CEXes supporting ZEC
+- [Shielded Pools](/using-zcash/shielded-pools) — Why shielded withdrawals matter
+- [New User Guide](/start-here/new-user-guide) — Full onboarding checklist for new Zcash users
