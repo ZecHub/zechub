@@ -4,6 +4,15 @@
 
 # Zcash Basics
 
+## TL;DR
+
+- **ZEC** is a privacy-first digital currency built on the Zcash blockchain
+- Unlike Bitcoin, ZEC supports fully **shielded (private) transactions** using zero-knowledge proofs
+- You control your financial privacy: choose what to reveal, and to whom
+- Zcash is open-source, permissionless, and decentralized
+
+---
+
 ## What is ZEC?
 
 
@@ -44,3 +53,13 @@ Zcash solves Bitcoin's biggest flaw; private ownership and transfer of data. In 
 [How It Works](https://z.cash/technology/)
 
 [The HTTPS of Blockchains](https://nakamoto.com/zcash-the-https-of-blockchains/)
+
+---
+
+## Related Pages
+
+- [New User Guide](/start-here/new-user-guide) — Step-by-step onboarding for new ZEC holders
+- [Wallets](/using-zcash/wallets) — Choose a shielded wallet to hold your ZEC
+- [Buying ZEC](/using-zcash/buying-zec) — Where and how to acquire ZEC
+- [Shielded Pools](/using-zcash/shielded-pools) — How Zcash pools keep transactions private
+- [ZK-SNARKs](/zcash-tech/zk-snarks) — The cryptography behind Zcash privacy

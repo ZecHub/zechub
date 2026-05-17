@@ -1,5 +1,18 @@
-# [Zimppy.xyz Wiki Page](https://zimppy.xyz/)
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/zimppy.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
 
+# Zimppy.xyz
+
+## TL;DR
+
+- **Zimppy** is a privacy-first payment infrastructure for AI agents using Zcash's Machine Payment Protocol (MPP)
+- **Deposit once** on-chain (~75 seconds), then make **unlimited instant requests** with no per-request blockchain interaction
+- Supports **fully shielded Zcash (Orchard)** payments — sender, receiver, amount, and memo are all encrypted
+- Works with **TypeScript and Rust SDKs** for easy integration into AI pipelines and API servers
+- Perfect for **LLM APIs, data marketplaces, MCP tool servers**, and any M2M payment use case
+
+---
 
 > **Zimppy** is the Machine Payment Protocol (MPP) payment method for Zcash supporting both shielded and transparent payments. Deposit once on-chain, then make unlimited instant bearer requests with no per-request chain interaction.
 
@@ -475,3 +488,13 @@ packages/
 ---
 
 *For more information, visit [zimppy.xyz](https://zimppy.xyz)*
+
+---
+
+## Related Pages
+
+- [Wallets](/using-zcash/wallets) — Zcash wallets that support shielded transactions
+- [Shielded Pools](/using-zcash/shielded-pools) — How Orchard shielded transactions protect payment data
+- [Payment Processors](/using-zcash/payment-processors) — Other ways to accept Zcash payments
+- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — ZSAs and the future of Zcash programmability
+- [Community Projects](/zcash-community/community-projects) — More Zcash ecosystem projects

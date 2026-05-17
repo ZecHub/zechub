@@ -64,19 +64,44 @@ An online Radio Station to inform, educate and entertain the Zcash Community, de
 
 ## Zimppy.xyz
 [![Zimppy.xyz Logo](https://github.com/betterclever/zimppy/blob/main/site/og.png?raw=true)](https://zimppy.xyz/)
-The Zcash payment method for the Machine Payments Protocol. Shielded by default.
+
+Zimppy is the Machine Payment Protocol (MPP) payment method for Zcash, designed for AI agents and automated machine-to-machine workflows. Deposit once on-chain, then make unlimited instant bearer requests with no per-request blockchain interaction. Supports fully shielded Zcash (Orchard) payments — sender, receiver, and amount remain encrypted.
+
+[Visit Site](https://zimppy.xyz/) | [Full Wiki Page](/using-zcash/zimppy)
+
 ---
-[Visit Site](https://zimppy.xyz/)
+
+## CipherScan
+[![CipherScan](https://github.com/Kenbak/cipherscan/blob/main/public/logo-small.png?raw=true)](https://cipherscan.app/)
+
+CipherScan is a privacy-first Zcash blockchain explorer. Built with Next.js 15, TypeScript, and Rust/WASM, it lets users look up blocks, transactions, and addresses without leaking query metadata. Designed for privacy-conscious users who need blockchain transparency without surveillance.
+
+[Visit Site](https://cipherscan.app/)
+
+---
+
+## ZcashNames
+[![ZcashNames](https://github.com/zcashme/zcashnames/blob/main/public/brandkit/zcashnames-brand-banner-primary-logo-monochrome-green-monochrome-green-background-377x403.png?raw=true)](https://www.zcashnames.com/)
+
+ZcashNames provides human-readable names for Zcash shielded addresses. Instead of sharing a long z-address, users register a memorable name (e.g., `alice.zec`) that resolves to their Unified Address. Simplifies receiving ZEC privately without exposing raw addresses.
+
+[Visit Site](https://www.zcashnames.com/)
+
+---
 
 ## Cypherpunk
-./cypherpunk
-A company dedicated to privacy and self-sovereignty.
+
+A company dedicated to privacy, self-sovereignty, and cypherpunk values. Builds tools for individuals who need to protect their digital lives.
+
 [Visit Site](https://cypherpunk.com/)
+
+---
 
 ## Cipherpay
 [![Cipherpay](https://github.com/atmospherelabs-dev/cipherpay-web/blob/main/public/logo-mark.png?raw=true)](https://www.cipherpay.app/en)
 
-Private payments for the internet. Accept Zcash in minutes. Non-custodial.
+CipherPay enables private payments for the internet. Accept Zcash in minutes — non-custodial, no KYC required. Merchants receive ZEC directly to shielded addresses, protecting both buyer and seller financial privacy.
+
 [Visit Site](https://www.cipherpay.app/en)
 
 ## Cipherscan

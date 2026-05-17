@@ -4,6 +4,16 @@
 
 # Zcash New User Guide
 
+## TL;DR
+
+- **Buy ZEC** on a supported exchange (Gemini, BitcoinVN, etc.)
+- **Set up a shielded wallet** (Zashi, YWallet, or ZODL recommended)
+- **Withdraw** your ZEC from the exchange to your shielded wallet
+- **Send a shielded transaction** — your first private payment on Zcash
+- **Join the community** on the forum or Discord
+
+---
+
 New to Zcash? This guide will walk you through getting onboarded as a Zcash user and *ZEC* holder.
 
 ---
@@ -93,3 +103,13 @@ The community is passionate and very welcoming of new members. Sometimes convers
 <a href="">
     <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="https://github.com/user-attachments/assets/c1d40441-4336-4754-b3bf-5a746b19a9d5" />
 </a>
+
+---
+
+## Related Pages
+
+- [What is ZEC and Zcash](/start-here/what-is-zec-and-zcash) — Understand the basics before you start
+- [Buying ZEC](/using-zcash/buying-zec) — Full list of exchanges supporting shielded withdrawals
+- [Wallets](/using-zcash/wallets) — Compare all Zcash wallets by features and platform
+- [Shielded Pools](/using-zcash/shielded-pools) — Learn why shielded transactions matter
+- [Transactions](/using-zcash/transactions) — How to send and receive ZEC privately

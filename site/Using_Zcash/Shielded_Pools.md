@@ -4,6 +4,16 @@
 
 # Zcash Value Pools 
 
+## TL;DR
+
+- Zcash has **4 value pools**: Sprout (legacy), Sapling, Orchard, and Transparent
+- **Orchard** (Unified Addresses / z-addresses starting with `u1`) is the current recommended shielded pool
+- **Sapling** (z-addresses starting with `zs`) is the previous shielded pool, still widely supported
+- **Transparent** (t-addresses) offers no privacy — similar to Bitcoin
+- Always prefer **z → z** (shielded-to-shielded) transactions for maximum privacy
+
+---
+
 There are currently 4 [value pools](https://zcash.readthedocs.io/en/latest/rtd_pages/addresses.html) in Zcash. Sprout, Sapling, Orchard and Transparent.
 
 ![img1](https://github.com/user-attachments/assets/4ba8cca2-cea5-42d2-8ec2-2122b26f5144)
@@ -99,6 +109,25 @@ Transferring ZEC from a Transparent Address (T-address) to a Z-address is simply
 
 Sending ZEC from a Transparent Address (T-address) to another Transparent Address (T-address) on Zcash Network (T-T transaction) is very similar to that of Bitcoin transaction and this is why T-T transactions on Zcash are always called Public transactions because both the sender and the receiver transaction details becomes visible to the public which makes the level of Privacy very low in such transaction. 
 
-Most Cryptocurrency Centralized exchanges make use of Transparent Address ("T-address) when it comes to transacting on the Zcash blockchain but this type of transaction (T-T) will not have any private properties. 
+Most Cryptocurrency Centralized exchanges make use of Transparent Address ("T-address) when it comes to transacting on the Zcash blockchain but this type of transaction (T-T) will not have any private properties.
+
+---
+
+## Common Mistakes to Avoid
+
+- **Sending from t-address to t-address** — fully public, no privacy. Always shield funds first.
+- **Confusing Sapling and Orchard addresses** — Sapling addresses start with `zs`, Orchard/Unified addresses start with `u1`
+- **Leaving funds in the Sprout pool** — Sprout is deprecated; migrate funds to Orchard
+- **Assuming t → z (shielding) is fully private** — the act of shielding itself is visible on-chain; the contents are not
+
+---
+
+## Related Pages
+
+- [Wallets](/using-zcash/wallets) — Which wallets support Orchard and Sapling pools
+- [Transactions](/using-zcash/transactions) — How to send shielded transactions
+- [Buying ZEC](/using-zcash/buying-zec) — Acquiring ZEC before using it in pools
+- [ZK-SNARKs](/zcash-tech/zk-snarks) — The cryptographic foundation of shielded pools
+- [What is ZEC and Zcash](/start-here/what-is-zec-and-zcash) — Background on Zcash privacy
 
 
