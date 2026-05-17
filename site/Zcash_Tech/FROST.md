@@ -120,6 +120,8 @@ As ZSAs bring new asset types to the Zcash network, managing issuance authority 
 The Zcash Foundation has been a leader in FROST research and implementation:
 - Chelsea Komlo co-created FROST while at the Zcash Foundation.
 - The Foundation has developed and maintained a [FROST library for Zcash](https://frost.zfnd.org/) with real test implementations.
+- **`frost-client`** — a command-line reference client for signing Zcash transactions with FROST.
+- **`frostd`** — a communication server that helps FROST participants coordinate signing messages securely.
 - [Ywallet](https://ywallet.app/) has shipped a working FROST demo for shielded multisig on mainnet — the first of its kind.
 
 This isn't theoretical. FROST is already running on Zcash.
