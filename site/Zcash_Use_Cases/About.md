@@ -1,50 +1,74 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Use_Cases/About.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Use Zcash in the Real World
 
-Zcash is not just about privacy in theory — it's about **practical, everyday financial freedom**.
+Zcash privacy is most valuable when it becomes practical. This section turns the concepts behind shielded ZEC into step-by-step playbooks for everyday situations — from receiving your first private donation to running an operationally secure journalist setup.
 
-This section shows you **exactly how to use Zcash in real-life scenarios**, with step-by-step guides and best practices.
+## Before You Start
 
-## What You'll Learn
+Three basics matter throughout every guide:
 
-- How to protect your financial privacy
-- How to avoid common mistakes that expose your data
-- How to apply Zcash in real-world situations
+- **Shielded addresses** (`u1...` Unified or `zs1...` Sapling) protect sender, receiver, amount, and memo from all outside observers
+- **Transparent addresses** (`t1...`) are fully public — equivalent to Bitcoin
+- **Operational privacy** also depends on behavior: where you post your address, how you manage your device, how you separate identities
 
-## How to Use These Guides
+If you are new to Zcash, read [What is Zcash](/start-here/what-is-zec-and-zcash) first. All you need to start is a wallet like [Zashi](https://electriccoin.co/zashi/) (mobile) or [Ywallet](https://ywallet.app/) (desktop/advanced).
 
-Each playbook is:
-- Short (5-7 minutes)
-- Step-by-step
-- Focused on real-world 
+## Recommended Path
 
+Follow the guides in order. Each one builds on the habits from the previous page, moving from beginner to advanced.
 
-If you're new, start here: [What is Zcash](/start-here/what-is-zec-and-zcash)
+### 1. [💸 Receive Donations Privately](Receive_Donations_Privately.md)
+**Beginner · 6 min**
 
+Publish a shielded address to accept ZEC donations. Donor identities and amounts are hidden from all outside observers. Includes viewing key setup for donation reporting.
 
-##  Recommended Path
+---
 
-Follow this step-by-step journey to master real-world Zcash usage:
+### 2. [🔐 Send Money Without Linking Identity](Send_Money_Without_Linking_Identity.md)
+**Intermediate · 7 min**
 
-###  [Receive Donations Privately](/zcash-use-cases/receive-donations-privately)
-Learn how to accept funds without exposing your identity or financial history.
+Shield any transparent funds, verify recipient addresses, and send privately. Covers timing patterns, address types, and how to prove payment without exposing history.
 
+---
 
-###  [Send Money Without Linking Identity](/zcash-use-cases/send-money-without-linking-identity) 
-Avoid exposing your wallet, identity, or transaction graph when sending funds.
+### 3. [🧑‍💻 Freelancer Privacy Setup](Freelance_Privacy_Setup.md)
+**Beginner–Intermediate · 8 min**
 
+Get paid by clients without publishing your income or client list. Covers per-client address separation, invoice memo standards, viewing key accounting, and fiat conversion paths.
 
-###  [Freelancer Privacy Setup](/zcash-use-cases/freelancer-privacy-setup)  
-Get paid in Zcash while keeping your clients and income private.
+---
 
+### 4. [🛒 Accept Payments as a Merchant](Accept_Payments_AS_A_Merchant.md)
+**Intermediate · 8 min**
 
-###  [Accept Payments as a Merchant](/zcash-use-cases/accept-payment-as-a-merchant)  
-Accept payments using a shielded address and avoid exposing customer transaction data
+Set up a repeatable business payment flow with ZEC. Covers payment processor integration (ZGo, Zimppy), order reconciliation via memos, refund handling, and customer privacy.
 
+---
 
-###  [Run a Private Community Treasury](/zcash-use-cases/run-a-private-community-treasury)
-Use shielded addresses to hold shared funds and limit visibility of balances and transactions
+### 5. [🏛️ Run a Private Community Treasury](Private_Community_treasury.md)
+**Intermediate · 8 min**
 
-###  [Journalist Privacy Setup](/zcash-use-cases/journalist-privacy-setup)   
-Use shielded addresses for all transactions and protect sources by avoiding traceable payments. Use memos carefully for secure communication
+Hold shared community funds with a hidden balance and private payment history. Covers custody models (single-custodian, shared-seed, FROST multi-sig), viewing key governance, and custodian rotation.
+
+---
+
+### 6. [📰 Journalist Privacy Setup](Journalist_privacy_setup.md)
+**Advanced · 10 min**
+
+The most sensitive workflow: protecting sources, payments, and operational metadata. Covers dedicated wallet discipline, shielded-only transaction enforcement, memo security, source payment flows, and legal disclosure via viewing keys.
+
+---
+
+## Completion Goal
+
+After working through all six guides you should be able to:
+
+- Choose between shielded and transparent ZEC intentionally, knowing the privacy implications of each
+- Receive, send, and track ZEC without unnecessary public exposure
+- Explain the privacy tradeoffs in each workflow — donation, freelance, merchant, treasury, high-stakes
+- Build a simple payment process for personal, professional, or source-protection use
 
 <br/>
