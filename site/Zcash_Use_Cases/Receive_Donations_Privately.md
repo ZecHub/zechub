@@ -1,128 +1,162 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Use_Cases/Receive_Donations_Privately.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/money-business-and-finance-svgrepo-com.svg" width="24" height="24" alt="finance icon"/> Receive Donations Privately with Zcash
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  Beginner - 5 min
+  Beginner · 6 min
 </span>
-
 
 ## TL;DR
 
-- Use a **shielded (z) address**
-- Never share a transparent (t) address publicly
-- Encourage donors to send from shielded wallets
-- Avoid linking your identity to transactions
+- Publish a Unified Address (`u1...`) to receive donations — not a transparent address
+- Donors' identities and amounts are hidden from all outside observers in shielded transactions
+- Use a dedicated donation wallet, separate from personal funds
+- Export a viewing key to verify donation totals for reporting without exposing donors
 
-<br/>
+---
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
-- Creators accepting donations
-- Open-source contributors
-- Communities raising funds
-- Anyone who wants private financial support
+## Who is this for?
 
-<br/>
+- Independent journalists, writers, and researchers accepting reader support
+- Open-source developers accepting ZEC tips for their projects
+- Nonprofits and advocacy organizations accepting private contributions
+- Content creators who want to receive support without publishing their income
+- Anyone who currently has a Bitcoin tip address and wants to protect donors
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
+---
 
-Most cryptocurrencies expose everything:
-- Your wallet balance
-- Who sent you money
-- Your entire transaction history
+## The Problem
 
-This creates serious risks:
-- Loss of financial privacy
-- Targeting or surveillance
-- Public exposure of donors
+Accepting donations via a Bitcoin or Ethereum address means every donation is permanently public. Anyone can:
 
-<br/>
+- See how many people donated and the exact amounts
+- Identify repeat donors if they use the same wallet across donations
+- Correlate donation timing with your publishing activity
+- Calculate your total income from donations
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash?
+For donors, this creates risk: their charitable or political giving is permanently on-chain and can be used against them in regimes where certain views are criminalized. For recipients, it means your total income from donations is public information.
 
-Zcash shielded transactions hide:
-- Sender address
-- Receiver address
-- Transaction amount
+---
 
-This allows you to receive funds **without exposing your financial graph**.
+## Why Zcash?
 
-<br/>
+Zcash shielded (z-to-z) donations are functionally private cash gifts. When a donor sends ZEC from a shielded address to your shielded donation address:
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
+- The donor's wallet address is not visible on-chain
+- The donation amount is encrypted
+- No outside observer can see who donated, how much, or when
+- The recipient (you) sees the funds arrive, the amount, and any encrypted memo
 
-- A Zcash wallet that supports shielded addresses:
-  - Zashi
-  - YWallet
-  - Other supported wallets
+Both parties have what they need — you know you received a donation, the donor knows it was sent — and no third party learns anything.
 
-<br/>
+---
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
+## What You Need
 
-### Step 1: Create a Shielded Address
-Open your wallet and generate a **z-address**.
-This usually starts with: `zs...`
+| Item | Recommended | Notes |
+|------|-------------|-------|
+| Zcash wallet | [Zashi](https://electriccoin.co/zashi/) (mobile) or [Ywallet](https://ywallet.app/) | Both support Orchard shielded |
+| Unified Address | Generated by wallet | Share this with donors |
+| Optional: donation page | Website, Free2Z, or direct share | Where you publish the address |
+| Optional: viewing key | Export from wallet settings | For donation reporting |
 
+---
 
-### Step 2: Share Only Your Shielded Address
+## Step-by-Step Guide
 
-- Publish your z-address on:
-  - Website
-  - Social media
-  - Donation pages
+### Step 1: Create a Dedicated Donation Wallet
 
-**Do NOT share a transparent (t) address.**
+Create a separate wallet or account specifically for donations. This keeps donations separate from personal spending and makes reporting cleaner.
 
-### Step 3: Guide Donors (Optional but Recommended)
+- **Zashi**: install the app, complete setup, and use the generated address
+- **Ywallet**: install, go to Accounts → Add Account for a dedicated donation account
 
-Encourage donors to:
-- Use wallets that support shielded transactions
-- Send from shielded pools (not transparent)
+Write down the seed phrase and store it securely offline.
 
-### Step 4: Maintain Basic Privacy Hygiene
+### Step 2: Copy Your Unified Address
 
-- Avoid reusing the same address across unrelated identities
-- Do not publicly associate your address with personal identity unless necessary
+Open your wallet and find your **Unified Address** — it starts with `u1` and is a long alphanumeric string. This is the address you will share with donors.
 
-<br/>
+You can also display a **QR code** from your wallet for in-person or visual donation prompts.
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
+### Step 3: Publish Your Donation Address
 
-- Sharing a transparent (t) address  
-- Posting your wallet alongside personal identity  
-- Accepting funds from transparent sources without shielding  
-- Reusing the same address across multiple contexts  
+You can publish your Unified Address anywhere:
 
-<br/>
+- On your website or blog as a ZEC donation button
+- On your [Free2Z](https://free2z.cash) creator page — Free2Z is built for Zcash-native creator support with shielded address integration
+- In a newsletter or article
+- On social media profiles (X, Mastodon, GitHub)
+- In your project's README file
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
+**Note:** Publishing a Unified Address links your identity to that address. All amounts and senders remain private, but the address itself is associated with you. If you want to accept anonymous donations from donors who don't want even you to know their identity, this is still the right setup — you see the funds but not who sent them.
 
-You can:
-- Receive donations privately
-- Protect your supporters
-- Avoid exposing your financial activity
+### Step 4: Tell Donors How to Send
 
-<br/>
+Many potential donors may not yet have Zcash. Include a brief note with your donation link:
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
+> "To donate in ZEC: download [Zashi](https://electriccoin.co/zashi/) (iOS/Android), acquire ZEC through an exchange, and send to the address above. Your donation is fully private — your identity and amount are not visible to anyone."
 
-- [Privacy - Shielded vs Transparent](/privacy/shielded-vs-transparent)
-- [Wallets](/wallets)
+Donors who already hold Bitcoin or Ethereum can swap to ZEC without KYC via [THORChain](https://app.thorswap.finance).
+
+### Step 5: Receive and Verify Donations
+
+When a donor sends ZEC to your Unified Address:
+
+1. The transaction confirms on-chain (typically 1–2 minutes for initial detection, 10+ confirmations for high confidence)
+2. Your wallet displays the ZEC amount received and any memo the donor included
+3. The transaction ID (txid) appears in your wallet — this is a public record that a transaction occurred, but reveals no details about sender, receiver, or amount for shielded transactions
+
+If a donor wants to prove they donated (e.g., for a matching campaign), they can share their **outgoing viewing key** which lets you verify the specific transaction came from their wallet.
+
+### Step 6: Report Donations Without Exposing Donors
+
+If you need to report donation totals (for legal, tax, or transparency purposes):
+
+1. Export your **Incoming Viewing Key (IVK)** from wallet settings
+2. Share the IVK with your accountant or auditor
+3. They can use [CipherScan](https://cipherscan.app) to calculate total inflows without exposing donor identities
+
+The IVK lets a trusted party see all incoming amounts and memos — but not who sent them (shielded sender addresses are not exposed even with the IVK, by design).
+
+---
+
+## Common Mistakes
+
+| Mistake | Consequence | Fix |
+|---------|-------------|-----|
+| Using a transparent t-address for donations | All donors, amounts, and timing are public | Switch to Unified Address (u1...) |
+| Reusing one address forever | Builds a permanent public profile linked to your identity | Rotate donation addresses annually or per campaign |
+| Mixing donation funds with personal spending | Makes reporting harder | Dedicated donation wallet |
+| Not sharing instructions for new ZEC users | Donors don't know how to send | Include wallet setup link with your donation address |
+
+---
+
+## Result
+
+After this setup you can:
+
+- Receive donations with amounts and donor identities invisible to the public
+- Acknowledge donations privately via encrypted memo replies
+- Report total donation amounts to an accountant using a viewing key
+- Accept donations from donors in sensitive contexts without creating a public record of their giving
+
+---
+
+## Related Pages
+
+- [Wallets](/Using_Zcash/Wallets)
+- [Free2Z Creator Platform](https://free2z.cash)
+- [THORChain Cross-Chain Swaps](/Using_Zcash/THORChain)
+- [Send Money Without Linking Identity](Send_Money_Without_Linking_Identity.md)
 
 <br/>
 
 ## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/progress-arrows-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
 
-**Step 1 of 6**
+**Step 1 of 6 — Start here**
 
-You have learned how to receive funds privately.
-
-<br/>
-
-## Next Step
-
-Continue your journey:
-
-- [Send Money Without Linking Identity](/zcash-use-cases/send-money-without-linking-identity)
-  
-<br/>
+→ Next: [Send Money Without Linking Identity](Send_Money_Without_Linking_Identity.md)

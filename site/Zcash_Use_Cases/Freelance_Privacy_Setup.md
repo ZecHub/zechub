@@ -1,128 +1,184 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Use_Cases/Freelance_Privacy_Setup.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # <img src="https://raw.githubusercontent.com/amochuko/zechub/68acdb6f311bff85fe8ded7b47b2e362d7712474/assets/icons/programmer-software-engineer-coder-software-developer-svgrepo-com.svg" width="24" height="24" alt="Freelancer icon"/> Freelancer Privacy Setup with Zcash
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  Beginner - 6 min
+  Beginner–Intermediate · 8 min
 </span>
 
 ## TL;DR
 
-- Receive payments via shielded addresses
-- Separate identities per client (if needed)
-- Use memos for internal tracking
-- Keep your income private
+- Use a shielded z-address for client payments — keeps income and client list private
+- Add an invoice memo to every payment request so you can reconcile without a public ledger
+- Never reuse the same address across different clients — it links them together
+- Use a viewing key to prove payment receipt for tax or accounting without exposing your full wallet
 
+---
 
-<br/>
+## Who is this for?
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
+- Freelancers and independent contractors paid in crypto
+- Remote workers across multiple clients or platforms
+- Privacy-conscious professionals who don't want income or counterparties visible on-chain
+- Anyone transitioning from transparent-chain crypto to private payments
 
-- Freelancers and contractors
-- Remote workers paid in crypto
-- Privacy-conscious professionals
+---
 
-<br/>
+## The Problem
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
+When freelancers receive payment in Bitcoin, Ethereum, or other transparent cryptocurrencies, every transaction is publicly visible and permanently searchable. Anyone who learns your wallet address — from a payment link, a public invoice, or a marketplace listing — can see:
 
-Freelancers using public crypto expose:
-- Their income
-- Their clients
-- Their financial history
+- **Every payment you've ever received**: clients, amounts, timing
+- **Every payment you've sent**: vendors, platforms, subscriptions
+- **Your current balance**: whether you're in a strong or weak negotiating position
+- **Your full payment history with every client**: enabling competitors or future employers to profile your career
 
-This can lead to:
-- Loss of negotiation power
-- Privacy risks
-- Unwanted visibility
-  
+For a freelancer, this means the client you're currently negotiating with can see what every other client paid you. A prospective employer can see your total freelance income. A marketplace can see if you have competing clients.
 
-<br/>
+Zcash's shielded transactions hide sender, receiver, amount, and memo from all outside observers while still settling on a public, decentralized blockchain.
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash?
+---
 
-Zcash allows you to:
-- Receive payments privately
-- Hide your earnings
-- Protect client relationships
+## Why Zcash?
 
-<br/>
+Zcash's **Orchard shielded pool** (z-to-z transactions) provides:
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
+- **Sender privacy**: the client's identity is not visible on-chain
+- **Receiver privacy**: your wallet address and balance are not revealed
+- **Amount privacy**: the payment size is encrypted
+- **Memo privacy**: the encrypted 512-byte memo field is visible only to you and the sender
 
-- A Zcash wallet with memo support
-- Basic understanding of shielded addresses
+This is the functional equivalent of receiving a bank wire: you see the funds arrive, the sender can confirm it left, and no third party can read the details.
 
+---
 
-<br/>
+## What You Need
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
+| Item | Recommended | Purpose |
+|------|-------------|---------|
+| Zcash wallet | [Zashi](https://electriccoin.co/zashi/) (mobile) or [Ywallet](https://ywallet.app/) (advanced) | Generate shielded addresses, receive payments |
+| Unified Address | Generated by your wallet | Share with clients for payment |
+| Incoming Viewing Key (IVK) | Exported from wallet settings | Prove payment receipt to accountant |
+| Invoice memo standard | Text format you define | Reconcile payments without public ledger |
 
-### Step 1: Create a Payment Address
+---
 
-Generate a shielded (z) address.
+## Step-by-Step Guide
 
-Optionally:
-- Use different addresses for different clients
+### Step 1: Install a Wallet and Generate Your Address
 
+Download [Zashi](https://electriccoin.co/zashi/) on iOS or Android, or [Ywallet](https://ywallet.app/) on desktop.
 
-### Step 2: Share Address with Client
+After setup, your wallet will generate a **Unified Address** (starts with `u1...`). This is the address you share with clients. Unified Addresses automatically route payments to the most private pool available (Orchard shielded by default when the sender's wallet supports it).
 
-Send your z-address directly to your client.
+**Do not use** a transparent address (starts with `t1...`) for client payments — all data would be public.
 
-Avoid:
-- Posting it publicly if not necessary
+### Step 2: Define an Invoice Memo Format
 
-### Step 3: Use Memos for Tracking
+Zcash shielded transactions support a 512-byte encrypted memo. This is only visible to the sender and receiver — it is not on any public ledger.
 
-When receiving payments:
-- Ask clients to include a memo (e.g., invoice ID)
+Use the memo for invoice tracking:
 
-This helps you:
-- Track payments without exposing data publicly
+```
+INV-2026-042 | Project: API integration | Due: 2026-05-20
+```
 
+Ask clients to include this reference when they send payment. This lets you match payments to invoices without storing any financial data publicly.
 
-### Step 4: Maintain Identity Separation
+If your client doesn't know how to add a memo, provide these instructions:
+- **Zashi**: tap the memo field below the amount when sending
+- **Ywallet**: memo field is in the send screen
+- **Any Zcash wallet**: look for "Memo" or "Message" field in the send flow
 
-If needed:
-- Use separate wallets or addresses per client
-- Avoid linking identities together
+### Step 3: Use a Separate Address Per Client (Optional but Recommended)
 
-<br/>
+For maximum separation, generate a fresh z-address for each major client:
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
+1. In Ywallet, go to **Accounts → Add Account** — each account has its own address
+2. In Zashi, you can use account-level separation if you manage multiple clients
 
-- Using transparent addresses for payments  
-- Reusing the same address across all clients  
-- Publicly linking wallet to identity  
-- Not tracking payments (leading to confusion)
+This ensures that if one client's address ever becomes known, it cannot be linked to your other clients. Your negotiating position with each client remains independently protected.
 
+### Step 4: Share Your Address Securely
 
-<br/>
+Share your Unified Address through a private channel (email, encrypted message), not by posting it publicly on your website or LinkedIn profile.
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
+**If you need a public tip address**, use a separate dedicated address that you don't mind being linked to your public identity — and keep it separate from your client-payment addresses.
 
-You can:
-- Receive payments privately
-- Protect your income data
-- Maintain professional flexibility
+### Step 5: Request Payment and Receive
 
-<br/>
+When a client sends ZEC to your shielded address, the funds appear in your wallet once confirmed (typically 5–20 minutes, 10+ confirmations for large amounts).
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
+Your wallet will show:
+- The ZEC amount received
+- The memo (if the client included one)
+- The transaction ID (txid) for your records
 
-- [Wallets](/wallets)
+The txid is public, but with a shielded transaction, the txid reveals nothing about the sender, receiver, or amount. You can share the txid with a client as confirmation that a transaction exists on-chain.
 
-<br/>
+### Step 6: Prove Receipt for Accounting Without Exposing Your Wallet
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/progress-arrows-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
+If your accountant or a client needs proof of payment receipt, export your **Incoming Viewing Key (IVK)** from wallet settings:
+
+- **Zashi**: Settings → Wallet → Export Viewing Key
+- **Ywallet**: Accounts → your account → Show Viewing Key
+
+The IVK allows the recipient (your accountant) to see all incoming transactions to your addresses — amounts, memos, timestamps — without being able to spend funds. Share it only with trusted parties.
+
+You can also use [CipherScan](https://cipherscan.app) to decrypt specific memos using your IVK for verification, without exposing your full wallet.
+
+### Step 7: Convert to Fiat (If Needed)
+
+To convert ZEC to fiat:
+1. Send ZEC to an exchange that supports shielded Zcash deposits (Gemini supports shielded withdrawals)
+2. Sell on the exchange
+3. Withdraw to your bank account
+
+Note: the exchange knows your identity (KYC), but they only see the ZEC you sent to them — not your full client list or income history.
+
+Alternatively, swap ZEC to other assets natively via [THORChain](https://app.thorswap.finance) without KYC.
+
+---
+
+## Common Mistakes to Avoid
+
+| Mistake | Why it matters | Fix |
+|---------|----------------|-----|
+| Using a t-address for client payments | All income, amounts, and timing are public | Switch to Unified Address (u1...) |
+| Reusing one address across all clients | Links all clients together in the transaction graph | One address or account per client |
+| Posting your z-address publicly | Links your on-chain identity to your public identity | Use a separate throwaway address for public tips |
+| Not including a memo reference | Hard to reconcile payments without accounting trail | Set a memo standard before first invoice |
+| Sending ZEC to an exchange from a transparent address | Exposes your income to anyone who traces the exchange's deposit address | Shield funds first, then send to exchange |
+
+---
+
+## Result
+
+After this setup you can:
+
+- Receive client payments with income and counterparties hidden from the public ledger
+- Track payment reconciliation via encrypted memos without any public exposure
+- Prove payment receipt to an accountant using a viewing key — without revealing your full financial history
+- Negotiate with multiple clients without any one client knowing what others paid you
+
+---
+
+## Related Pages
+
+- [Wallets](/Using_Zcash/Wallets)
+- [Send Money Without Linking Identity](Send_Money_Without_Linking_Identity.md)
+- [Accept Payments as a Merchant](Accept_Payments_AS_A_Merchant.md)
+- [CipherScan Explorer](/Using_Zcash/CipherScan)
+
+---
+
+## Progress
 
 **Step 3 of 6**
 
-You now understand how to receive income privately.
+← Previous: [Send Money Without Linking Identity](Send_Money_Without_Linking_Identity.md)
 
-<br/>
-
-## Next Step
-
-- [Accept Payments as a Merchant](/use-cases/accept-payments-as-a-merchant)
-<br/>
+→ Next: [Accept Payments as a Merchant](Accept_Payments_AS_A_Merchant.md)
