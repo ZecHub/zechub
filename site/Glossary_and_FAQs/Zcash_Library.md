@@ -28,7 +28,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
       </tr>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Arborist Call</td>
-        <td className="py-5 px-6 text-foreground">A Bi-Monthly call around Protocol and Research development updates. Register here [15:00 UTC](https://us06web.zoom.us/webinar/register/WN_Vk7WMz9sRkiIr_hqH_x3LA) / [22:30 UTC](https://us06web.zoom.us/webinar/register/WN_z0k1ipsnRkS4-DGqDhULdA) / [Notes](https://github.com/ZcashCommunityGrants/arboretum-notes)</td>
+        <td className="py-5 px-6 text-foreground">A bi-weekly call covering Zcash protocol and research development updates. Hosted on the Zcash Community Forum and Discord. [Meeting Notes](https://github.com/ZcashCommunityGrants/arboretum-notes) / [Forum Announcements](https://forum.zcashcommunity.com)</td>
       </tr>
       <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Auto-shielding</td>
@@ -63,7 +63,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
       </tr>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Blogs</td>
-        <td className="py-5 px-6 text-foreground">[Zodl Blog(formerly ECC)](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [Zcash Community Blog](https://www.zcashcommunity.com/blog/)</td>
+        <td className="py-5 px-6 text-foreground">[ZODL Blog (formerly Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [ZecHub Blog](https://zechub.wiki/zechub-dao)</td>
       </tr>
       <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Blossom</td>
@@ -310,7 +310,20 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 ## K
 
 <div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  *(No terms yet - feel free to add any)*
+  <table className="w-full border-collapse rounded-2xl overflow-hidden">
+    <thead>
+      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
+        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
+        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
+        <td className="py-5 px-6 font-medium text-foreground">Keystone Wallet</td>
+        <td className="py-5 px-6 text-foreground">An air-gapped hardware wallet with native Zcash (Orchard shielded) support, compatible with ZODL for cold signing. [Keystone](https://keyst.one)</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 ## L
@@ -392,11 +405,15 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
       </tr>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">NU5</td>
-        <td className="py-5 px-6 text-foreground">The 6th Major Network Upgrade for Zcash. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5)</td>
+        <td className="py-5 px-6 text-foreground">The 6th Major Network Upgrade for Zcash, introducing the Orchard shielded pool and Unified Addresses. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5)</td>
+      </tr>
+      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
+        <td className="py-5 px-6 font-medium text-foreground">NU6</td>
+        <td className="py-5 px-6 text-foreground">The 7th Major Network Upgrade for Zcash, adjusting the block subsidy to fund the Zcash Community Grants program and Shielded Labs. Activated in late 2024. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6)</td>
       </tr>
       <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">NU6</td>
-        <td className="py-5 px-6 text-foreground">The 7th Major Network Upgrade for Zcash, introducing post-NU5 governance improvements and protocol enhancements. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6)</td>
+        <td className="py-5 px-6 font-medium text-foreground">NU7</td>
+        <td className="py-5 px-6 text-foreground">The upcoming 8th Major Network Upgrade for Zcash. Community sentiment polling is open via ZODL in 2026. Expected to include further shielded pool improvements and governance updates. [Forum Discussion](https://forum.zcashcommunity.com/t/nu7-sentiment-polling-questions-for-community-review-coinholder-voting-via-zodl/55713)</td>
       </tr>
     </tbody>
   </table>
@@ -446,7 +463,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
       </tr>
       <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Podcast</td>
-        <td className="py-5 px-6 text-foreground">[Radiolab](https://archive.org/details/radiolab_podcast17crypto_zcash_ceremony) / [RealVisionFinance](https://www.youtube.com/watch?v=ibA_4kwd_YI) / [EthDenver](https://www.youtube.com/watch?v=t62isi58XcQ) / [UpOnlyPodcast](https://www.youtube.com/watch?v=AjC9T938o3Q) / [ZEC Daily](https://www.youtube.com/playlist?list=PL6_epn0lASLGVQjz7Xt08sQsPC...)</td>
+        <td className="py-5 px-6 text-foreground">[Radiolab (Zcash Ceremony)](https://archive.org/details/radiolab_podcast17crypto_zcash_ceremony) / [RealVisionFinance](https://www.youtube.com/watch?v=ibA_4kwd_YI) / [EthDenver](https://www.youtube.com/watch?v=t62isi58XcQ) / [UpOnlyPodcast](https://www.youtube.com/watch?v=AjC9T938o3Q) / [Zcast en Español](https://www.youtube.com/@ZcastEsp)</td>
       </tr>
     </tbody>
   </table>
@@ -455,7 +472,20 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 ## Q
 
 <div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  *(No terms yet - feel free to add any)*
+  <table className="w-full border-collapse rounded-2xl overflow-hidden">
+    <thead>
+      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
+        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
+        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
+        <td className="py-5 px-6 font-medium text-foreground">QR Code</td>
+        <td className="py-5 px-6 text-foreground">A machine-readable code used to encode Zcash addresses for easy scanning. Unified Addresses (UAs) are typically shared via QR codes in modern Zcash wallets.</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 ## R
@@ -618,7 +648,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
     <tbody>
       <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Wallet</td>
-        <td className="py-5 px-6 text-foreground">Software or hardware that stores private keys and lets you send/receive ZEC. Examples include Zecwallet, Nighthawk, YWallet, Zingo!. For more wallets, you can view them [here](https://z.cash/ecosystem/?wallets=#tag-wallets)</td>
+        <td className="py-5 px-6 text-foreground">Software or hardware that stores private keys and lets you send/receive ZEC. Active wallets include ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android), YWallet, Zallet (upcoming), and Keystone (hardware). For a full list, see [Zcash Ecosystem Wallets](https://z.cash/ecosystem/?wallets=#tag-wallets)</td>
       </tr>
     </tbody>
   </table>
@@ -627,13 +657,39 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 ## X
 
 <div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  *(No terms yet - feel free to add any)*
+  <table className="w-full border-collapse rounded-2xl overflow-hidden">
+    <thead>
+      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
+        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
+        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
+        <td className="py-5 px-6 font-medium text-foreground">XZC</td>
+        <td className="py-5 px-6 text-foreground">An older ticker symbol for Zcash used on some legacy exchanges. The official ticker is ZEC.</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 ## Y
 
 <div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  *(No terms yet - feel free to add any)*
+  <table className="w-full border-collapse rounded-2xl overflow-hidden">
+    <thead>
+      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
+        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
+        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
+        <td className="py-5 px-6 font-medium text-foreground">YWallet</td>
+        <td className="py-5 px-6 text-foreground">A high-performance, privacy-focused Zcash wallet supporting Orchard, Sapling, and transparent addresses. Known for fast sync speeds. Available for iOS and Android. [YWallet](https://ywallet.app)</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 ## Z
@@ -668,12 +724,28 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
         <td className="py-5 px-6 text-foreground">The academic protocol (2014) that Zcash is based on.</td>
       </tr>
       <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">zk-SNARKs</td>
-        <td className="py-5 px-6 text-foreground">Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge - the cryptography that makes shielded transactions private yet verifiable.</td>
+        <td className="py-5 px-6 font-medium text-foreground">Zaino</td>
+        <td className="py-5 px-6 text-foreground">The next-generation Zcash indexer replacing lightwalletd, built by the Zcash Foundation. Enables light clients to sync faster and more privately. Part of the Zcash Z3 infrastructure upgrade.</td>
+      </tr>
+      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
+        <td className="py-5 px-6 font-medium text-foreground">Zallet</td>
+        <td className="py-5 px-6 text-foreground">The upcoming official Zcash wallet by the Electric Coin Co / ZODL team, built on Zaino. Zallet Alpha is in active development as of 2026. [Forum](https://forum.zcashcommunity.com/t/zcash-z3-updates-formerly-zcashd-deprecation/48965)</td>
+      </tr>
+      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
+        <td className="py-5 px-6 font-medium text-foreground">Zebra</td>
+        <td className="py-5 px-6 text-foreground">The Zcash Foundation's Rust-based full node implementation (alternative to zcashd). Production-ready and actively maintained. [GitHub](https://github.com/ZcashFoundation/zebra)</td>
+      </tr>
+      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
+        <td className="py-5 px-6 font-medium text-foreground">ZIP</td>
+        <td className="py-5 px-6 text-foreground">Zcash Improvement Proposal - the community governance process used to propose and ratify protocol changes. [ZIP Repository](https://github.com/zcash/zips)</td>
+      </tr>
+      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
+        <td className="py-5 px-6 font-medium text-foreground">ZODL</td>
+        <td className="py-5 px-6 text-foreground">The rebranded name for the Electric Coin Company's consumer products, including the ZODL wallet app (formerly called ECC Wallet) and ZODL governance platform for Coinholder polling. [zodl.com](https://zodl.com)</td>
       </tr>
       <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">ZIP</td>
-        <td className="py-5 px-6 text-foreground">Zcash Improvement Proposal - the community governance process used to propose and ratify protocol changes.</td>
+        <td className="py-5 px-6 font-medium text-foreground">zk-SNARKs</td>
+        <td className="py-5 px-6 text-foreground">Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge — the cryptography powering Zcash shielded transactions. Allows proving a statement (e.g., valid spend) without revealing any secret information.</td>
       </tr>
     </tbody>
   </table>
@@ -681,5 +753,5 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 
 ---
 
-**Last updated:** March 2026  
+**Last updated:** May 2026  
 **Want to contribute?** [Edit this page on GitHub](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/Zcash_Library.md)
