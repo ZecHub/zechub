@@ -242,3 +242,49 @@
 - Operating System: Android | iOS | Windows | Linux | macOS | Browser
 - Pools: Transparent
 - Features: Multi Coin | Web App
+
+
+---
+
+## [Vizor Wallet](https://vizorwallet.com)
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Transparent | Sapling | Orchard
+- Features: Multi Coin | Shielded Memo | DEX Swaps
+
+---
+
+## [Noir Wallet](https://noir.xyz)
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Transparent | Sapling | Orchard
+- Features: Address Book | Shielded Memo | Payment Request
+
+---
+
+## [Leodex Wallet](https://leodex.io)
+- Devices: Mobile | Web
+- Operating System: Android | iOS | Browser
+- Wallet Support: Seed Phrase | Unified Address
+- Pools: Transparent | Sapling
+- Features: Multi Coin | Shielded Memo | Easy Sync
+
+---
+
+## [ChainSafe Wallet](https://chainsafe.io)
+- Devices: Mobile | Desktop | Web
+- Operating System: Android | iOS | Windows | Linux | macOS | Browser
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Transparent | Sapling | Orchard
+- Features: Multi Coin | NFT Support | Shielded Memo | DApp Browser
+
+---
+
+## [Zcash Web Wallet](https://z.cash/wallet)
+- Devices: Web
+- Operating System: Browser
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Transparent | Sapling
+- Features: Shielded Memo | Testnet Support
