@@ -8,6 +8,56 @@
 
 ---
 
+## [Vizor](https://vizor.cash/)
+![logo](https://vizor.cash/assets/OG/og-1200-630.png "Vizor")
+- Devices: Desktop
+- Operating System: macOS
+- Wallet Support: Seed Phrase | Unified Address | Hardware
+- Pools: Transparent | Sapling | Orchard
+- Features: Keystone Support | Multi-Account Sync | Open Source | Shielded Transactions
+
+---
+
+## [Noir Wallet](https://forum.zcashcommunity.com/t/first-look-at-noir-wallet/55667)
+![logo](https://global.discourse-cdn.com/zcash/optimized/3X/6/7/67dde4674230fb9adc04eec329d339d53e6b9602_2_1024x409.jpeg "Noir Wallet")
+- Devices: Web
+- Operating System: Browser Extension
+- Wallet Support: Seed Phrase | Unified Address
+- Pools: Transparent | Sapling | Orchard
+- Features: Browser Extension | Cross-Chain Swaps | DEX Swaps | Privacy-Preserving Intents | Shielded Transactions | ZECFi
+
+---
+
+## [LeoDex](https://leodex.io/)
+![logo](https://z.cash/wp-content/uploads/2025/10/leodex.png "LeoDex")
+- Devices: Web
+- Operating System: Browser
+- Wallet Support: External Wallet | Keystore
+- Pools: Transparent
+- Features: Cross-Chain Swaps | DEX Swaps | Multi Coin | No Account | Non-Custodial | Portfolio Dashboard
+
+---
+
+## [ChainSafe WebZjs](https://webzjs.chainsafe.dev/)
+![logo](https://avatars.githubusercontent.com/u/49853980?s=200&v=4 "ChainSafe WebZjs")
+- Devices: Web
+- Operating System: Browser
+- Wallet Support: Seed Phrase | Unified Address | MetaMask Snap
+- Pools: Transparent | Sapling | Orchard
+- Features: Browser Wallet | Client-Side Sync | Open Source | Shielded Transactions | WebAssembly
+
+---
+
+## [Zcash Web Wallet](https://leakix.github.io/zcash-web-wallet/)
+![logo](https://avatars.githubusercontent.com/u/167028110?s=200&v=4 "Zcash Web Wallet")
+- Devices: Web
+- Operating System: Browser
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Transparent | Sapling | Orchard
+- Features: Address Book | Client-Side Crypto | Multi-Wallet | No Backend | Open Source | Testnet Support
+
+---
+
 ## [Ywallet](https://ywallet.app/installation/)
 ![logo](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
 - Devices: Mobile | Desktop
