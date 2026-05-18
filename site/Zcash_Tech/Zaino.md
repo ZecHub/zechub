@@ -1,5 +1,15 @@
 # Zaino Indexer
 
+## TL;DR
+
+- **Zaino** is a Rust-based blockchain indexer built by Zingo Labs to replace the aging C++ lightwalletd service
+- It supports both **light clients** (wallets without full blockchain history) and **full clients** (block explorers, full wallets)
+- Connects to **Zebra** (the Rust full node) rather than zcashd, supporting the zcashd deprecation project
+- Backwards-compatible by design — existing wallets can adopt Zaino without major rewrites
+- Provides RPC access and a client library, so wallets can query Zaino directly without depending on a separate server
+
+---
+
 Zaino is an Indexer, developed in Rust by the Zingo team, that aims to replace lightwalletd and to push forward the zcashd deprecation project.
 
 Zaino offers essential features for both light clients, such as wallets and applications that do not require the full blockchain history, and full clients or wallets. It also supports block explorers, granting access to both the finalized blockchain and the non-finalized best chain and mempool managed by a Zebra or Zcashd full validator.
@@ -28,3 +38,13 @@ Also, Zaino will allow to separate light client functionality from the full node
 
 ## Where Can I learn more?
 You can read more about Zaino Indexer in the official [Zcash Community Forum thread](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation/48545/38) or in its official [Github page](https://github.com/zingolabs/zaino)
+
+---
+
+## Related Pages
+
+- [Zebra Full Node](/zcash-tech/zebra-full-node) — The Rust full node that Zaino connects to
+- [Zcash Wallet Syncing](/zcash-tech/zcash-wallet-syncing) — Overview of syncing methods (including lightwalletd, which Zaino replaces)
+- [Pepper Sync](/zcash-tech/pepper-sync) — Zingo! wallet's sync engine, built on top of Zaino
+- [Full Nodes](/zcash-tech/full-nodes) — What full nodes do and why they matter
+- [What is ZEC and Zcash](/start-here/what-is-zec-and-zcash) — Introduction to the Zcash ecosystem

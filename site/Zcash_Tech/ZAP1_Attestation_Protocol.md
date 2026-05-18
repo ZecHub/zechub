@@ -1,5 +1,15 @@
 # ZAP1 Attestation Protocol
 
+## TL;DR
+
+- **ZAP1** is an open-source attestation protocol that anchors lifecycle event proofs on the Zcash blockchain via shielded memos
+- Events (deployments, payments, transfers) are hashed into a **BLAKE2b Merkle tree**; only the tree root goes on-chain
+- **Anyone can verify** an event happened without trusting the operator — just a leaf hash + chain access
+- Written in Rust; available as a crate (`zap1-verify`) and JavaScript SDK on npm
+- Converging toward a ZIP 302 partType for standardized on-chain attestation payloads
+
+---
+
 ZAP1 is an open-source attestation protocol for Zcash. It writes structured lifecycle events to a BLAKE2b Merkle tree and anchors the tree root on-chain via Orchard shielded memos. Proofs are publicly verifiable. Event data stays private.
 
 ## How it works
@@ -46,3 +56,13 @@ Each operator runs their own ZAP1 instance with their own keys, Merkle tree, and
 - ZIP draft: [PR #1243](https://github.com/zcash/zips/pull/1243)
 - Live API: [pay.frontiercompute.io/protocol/info](https://pay.frontiercompute.io/protocol/info)
 - Operator guide: [frontiercompute.io/operators.html](https://frontiercompute.io/operators.html)
+
+---
+
+## Related Pages
+
+- [Viewing Keys](/zcash-tech/viewing-keys) — Selective disclosure mechanism that complements ZAP1 attestations
+- [ZK-SNARKs](/zcash-tech/zk-snarks) — The zero-knowledge proof system underlying Zcash privacy
+- [FROST](/zcash-tech/frost) — Threshold signing used in ZAP1's multi-party anchor broadcasting design
+- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — Other on-chain capability built on Zcash's memo field
+- [Privacy as a Core Principle](/privacy/privacy-as-a-core-principle) — Why anchoring proofs privately matters

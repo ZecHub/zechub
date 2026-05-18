@@ -1,5 +1,15 @@
 # Zingo 2.0 - Pepper Sync
 
+## TL;DR
+
+- **Pepper Sync** is the syncing engine in Zingo! 2.0 — the open-source Zcash wallet built by Zingo Labs
+- Replaces the older full-rescan approach with **incremental, resumable block fetching** — minutes, not hours
+- **Privacy-preserving**: shielded Orchard and Sapling transactions remain fully private throughout sync
+- Works by processing blockchain data in small chunks and saving progress between sessions
+- Particularly beneficial for mobile users and devices with limited CPU/memory
+
+---
+
 ## INTRODUCTION
 Zingo 2.0 is the latest version of the Zingo! wallet, a lightweight, open-source wallet built for the Zcash community. The star of this release is Pepper Sync, a major upgrade that completely rethinks how wallets connect with the blockchain.
 
@@ -139,3 +149,13 @@ With Zingo 2.0 Pepper Sync, syncing is no longer the biggest pain point of shiel
 For users, it means less waiting and more privacy. For developers, it means a stronger foundation to build on. For the Zcash ecosystem, it's another step toward making shielded transactions accessible to everyone.
 
 Zingo 2.0 with Pepper Sync isn't just an upgrade, it's a leap forward for private, usable crypto.
+
+---
+
+## Related Pages
+
+- [Zcash Wallet Syncing](/zcash-tech/zcash-wallet-syncing) — Overview of how wallets sync with the Zcash blockchain
+- [Zaino](/zcash-tech/zaino) — The Rust-based indexer that replaces lightwalletd (which Zingo 2.0 connects to)
+- [Halo](/zcash-tech/halo) — The ZK-SNARK proving system that powers the Orchard shielded pool Pepper Sync processes
+- [Viewing Keys](/zcash-tech/viewing-keys) — Selective disclosure feature available after syncing completes
+- [What is ZEC and Zcash](/start-here/what-is-zec-and-zcash) — Introduction to Zcash and shielded transactions

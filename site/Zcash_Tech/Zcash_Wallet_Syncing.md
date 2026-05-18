@@ -4,6 +4,16 @@
 
 # Zcash Wallet Syncing
 
+## TL;DR
+
+- **Shielded wallets can't be indexed server-side** — servers can't see encrypted transactions, so wallets must download compact blocks and decrypt them locally with their own private keys
+- **Warp Sync** (YWallet): uses cryptographic shortcuts to skip block-by-block decryption, processing thousands of blocks per second
+- **Spend-before-sync** (ECC SDK V2): scans blocks in non-linear order so recently received funds become spendable immediately, before full sync completes
+- **Blaze Sync** (Zecwallet): starts from the newest blocks and works backwards, using parallel out-of-order processing for ~5× speed improvement
+- **DAGSync**: proposed algorithm that models note/witness/nullifier dependencies as a directed acyclic graph for smarter, more efficient syncing
+
+---
+
 ### How Zcash syncing works
 
 To understand how warp sync works, let me explain a bit more about Zcash. It is a privacy-oriented cryptocurrencies that use a technology called zero-knowledge proofs to shield the details of transactions from anyone who is not authorized to see them. This means that the transactions recorded on the blockchain are encrypted or hidden, and only the sender and receiver can decrypt them with their private keys.
@@ -60,3 +70,13 @@ A DAG is a data structure that consists of nodes and edges, where each edge has 
 Interestingly enough, all these mechanism try to solve the inquiries proposed by Zcash Security in its post about [Scalable Private Messaging](https://zecsec.com/posts/scalable-private-money-needs-scalable-private-messaging/) and its relationship with private payment systems, some even taking the extra step of downloading all memo data from servers, except for those exclusive to an address, increasing privacy at the cost of a bit of extra resources.
 
 Also, the Zcash Foundation has been looking at other alternatives to improve the performance of light wallets. That's the case with [Oblivious Message Retrieval (OMR](https://zfnd.org/oblivious-message-retrieval/)), a construction the foundation has been studying "to determine whether it offers a potential solution to the recent performance problems that have affected Zcash wallet users"
+
+---
+
+## Related Pages
+
+- [Zaino](/zcash-tech/zaino) — The Rust-based indexer replacing lightwalletd that compact-block wallets connect to
+- [Pepper Sync](/zcash-tech/pepper-sync) — Zingo! 2.0's incremental sync engine built on top of Zaino
+- [Full Nodes](/zcash-tech/full-nodes) — What full nodes like Zebra do and why light wallets depend on them
+- [ZK-SNARKs](/zcash-tech/zk-snarks) — The zero-knowledge proof system that makes shielded transactions private (and wallet syncing complex)
+- [What is ZEC and Zcash](/start-here/what-is-zec-and-zcash) — Introduction to the Zcash ecosystem
