@@ -246,45 +246,50 @@
 
 ---
 
-## [Vizor Wallet](https://vizorwallet.com)
-- Devices: Mobile | Desktop
-- Operating System: Android | iOS | Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+## [Vizor](https://vizor.cash/)
+![logo](https://vizor.cash/assets/OG/og-1200-630.png "Vizor")
+- Devices: Desktop
+- Operating System: macOS
+- Wallet Support: Seed Phrase | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard
-- Features: Multi Coin | Shielded Memo | DEX Swaps
+- Features: Keystone Support | Multi-Account Sync | Open Source | Shielded Transactions
 
 ---
 
-## [Noir Wallet](https://noir.xyz)
-- Devices: Mobile | Desktop
-- Operating System: Android | iOS | Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address
-- Pools: Transparent | Sapling | Orchard
-- Features: Address Book | Shielded Memo | Payment Request
-
----
-
-## [Leodex Wallet](https://leodex.io)
-- Devices: Mobile | Web
-- Operating System: Android | iOS | Browser
+## [Noir Wallet](https://forum.zcashcommunity.com/t/first-look-at-noir-wallet/55667)
+![logo](https://global.discourse-cdn.com/zcash/optimized/3X/6/7/67dde4674230fb9adc04eec329d339d53e6b9602_2_1024x409.jpeg "Noir Wallet")
+- Devices: Web
+- Operating System: Browser Extension
 - Wallet Support: Seed Phrase | Unified Address
-- Pools: Transparent | Sapling
-- Features: Multi Coin | Shielded Memo | Easy Sync
-
----
-
-## [ChainSafe Wallet](https://chainsafe.io)
-- Devices: Mobile | Desktop | Web
-- Operating System: Android | iOS | Windows | Linux | macOS | Browser
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Transparent | Sapling | Orchard
-- Features: Multi Coin | NFT Support | Shielded Memo | DApp Browser
+- Features: Browser Extension | Cross-Chain Swaps | DEX Swaps | Privacy-Preserving Intents | Shielded Transactions | ZECFi
 
 ---
 
-## [Zcash Web Wallet](https://z.cash/wallet)
+## [LeoDex](https://leodex.io/)
+![logo](https://z.cash/wp-content/uploads/2025/10/leodex.png "LeoDex")
+- Devices: Web
+- Operating System: Browser
+- Wallet Support: External Wallet | Keystore
+- Pools: Transparent
+- Features: Cross-Chain Swaps | DEX Swaps | Multi Coin | No Account | Non-Custodial | Portfolio Dashboard
+
+---
+
+## [ChainSafe WebZjs](https://webzjs.chainsafe.dev/)
+![logo](https://avatars.githubusercontent.com/u/49853980?s=200&v=4 "ChainSafe WebZjs")
+- Devices: Web
+- Operating System: Browser
+- Wallet Support: Seed Phrase | Unified Address | MetaMask Snap
+- Pools: Transparent | Sapling | Orchard
+- Features: Browser Wallet | Client-Side Sync | Open Source | Shielded Transactions | WebAssembly
+
+---
+
+## [Zcash Web Wallet](https://leakix.github.io/zcash-web-wallet/)
+![logo](https://avatars.githubusercontent.com/u/167028110?s=200&v=4 "Zcash Web Wallet")
 - Devices: Web
 - Operating System: Browser
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
-- Pools: Transparent | Sapling
-- Features: Shielded Memo | Testnet Support
+- Pools: Transparent | Sapling | Orchard
+- Features: Address Book | Client-Side Crypto | Multi-Wallet | No Backend | Open Source | Testnet Support
