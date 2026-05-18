@@ -8,7 +8,19 @@
 
 # Zcash Shielded Assets
 
-Zcash Shielded Assets (ZSA) are a proposed improvement to the the Zcash protocol that would enable the creation, transfer, and burn of custom assets on the Zcash chain.
+## TL;DR
+
+- **Zcash Shielded Assets (ZSA)** are custom tokens on the Zcash blockchain, analogous to ERC-20 tokens on Ethereum
+- Unlike Ethereum tokens, ZSAs benefit from Zcash's **shielded transactions** — sender, receiver, and amount are private
+- Enables private stablecoins, governance tokens, and DeFi on Zcash without sacrificing privacy
+- ZSAs are defined in [ZIP 226](https://zips.z.cash/zip-0226) (transfer/burn) and [ZIP 227](https://zips.z.cash/zip-0227) (issuance)
+- Developed by [QEDIT](https://qed-it.com/) under a Zcash Foundation grant
+
+---
+
+## Core Explanation
+
+Zcash Shielded Assets (ZSA) are a proposed improvement to the Zcash protocol that would enable the creation, transfer, and burn of custom assets on the Zcash chain.
 
 If you are familiar with the [ERC-20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) token standard on the Ethereum blockchain, ZSAs are to Zcash as ERC-20 tokens are to Ethereum.
 
@@ -52,3 +64,13 @@ This proposals are technically adherant to the [Zcash Improvement Proposal (ZIP)
 
 1. [ZIP 226](https://qed-it.github.io/zips/zip-0226): Transfer and Burn of Zcash Shielded Assets
 2. [ZIP 227](https://qed-it.github.io/zips/zip-0227): Issuance of Zcash Shielded Assets
+
+---
+
+## Related Pages
+
+- [Halo](/zcash-tech/halo) — The ZK-SNARK system powering ZSA privacy (Halo 2 / Orchard)
+- [ZK-SNARKs](/zcash-tech/zk-snarks) — Cryptographic foundation for shielded asset privacy
+- [Using ZEC Privately](/using-zcash/using-zec-privately) — How to transact with shielded assets today
+- [Zcash Community Grants](/zcash-organizations/zcash-community-grants) — Funding source for ZSA development
+- [What is ZEC and Zcash](/start-here/what-is-zec-and-zcash) — Introduction to Zcash's privacy model

@@ -4,6 +4,15 @@
 
 # Halo
 
+## TL;DR
+
+- **Halo** is a zero-knowledge proof system discovered by Sean Bowe at Electric Coin Co. that requires **no trusted setup**
+- It enables **recursive proof composition** — one proof can verify the correctness of unlimited other proofs
+- Zcash's **Orchard shielded pool** (activated in NU5) uses the Halo 2 implementation
+- Eliminating the trusted setup removes a systemic security risk from Zcash protocol upgrades
+- Halo 2 is open-source (MIT + Apache 2.0) and has been adopted by Filecoin, Ethereum, and other ecosystems
+
+---
 
 ## What is Halo?
 
@@ -128,3 +137,13 @@ The [Privacy and Scaling Exploration group](https://appliedzkp.org/) is also res
 [Halo 2 docs](https://zcash.github.io/halo2/)
 
 [Halo 2 github](https://github.com/zcash/halo2)
+
+---
+
+## Related Pages
+
+- [ZK-SNARKs](/zcash-tech/zk-snarks) — The zero-knowledge proof family that Halo improves upon
+- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — Token protocol built on Halo 2 and the Orchard pool
+- [Network Upgrades](/start-here/network-upgrades) — NU5 is when Halo 2 (Orchard) activated on Zcash mainnet
+- [FROST](/zcash-tech/frost) — Another cryptographic protocol from the Zcash Foundation
+- [What is ZEC and Zcash](/start-here/what-is-zec-and-zcash) — Introduction to Zcash and its privacy model

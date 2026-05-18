@@ -4,6 +4,15 @@
 
 # Viewing Keys
 
+## TL;DR
+
+- A **viewing key** lets you (or a trusted third party) see the contents of your shielded transactions — without granting the ability to spend
+- Zcash has two types: **incoming viewing key** (see received transactions) and **full viewing key** (see both sent and received)
+- Use cases: exchange deposit detection, compliance audits, tax reporting, and regulatory due diligence — all without exposing spend authority
+- Viewing keys are part of every shielded Zcash address by design; you opt in to sharing them
+
+---
+
 Shielded addresses enable users to transact while revealing as little information as possible on the Zcash blockchain. What happens when you need to disclose sensitive information around a shielded Zcash transaction to a specific party? Every shielded address includes a viewing key. Viewing keys were introduced in [ZIP 310](https://zips.z.cash/zip-0310) and added to the protocol in the Sapling network upgrade. Viewing keys are a crucial part of Zcash as they allow users to selectively disclose information about transactions.
 
 ### Why use a viewing key?
@@ -61,3 +70,13 @@ Check out this tutorial on viewing keys. A list of resources on the subject is b
 - [ECC, Selective Disclosure and Viewing Keys](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
 - [ECC, Zcash Viewing Key Video Presentation](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
 - [ZIP 310](https://zips.z.cash/zip-0310)
+
+---
+
+## Related Pages
+
+- [What is ZEC and Zcash](/start-here/what-is-zec-and-zcash) — Introduction to Zcash and its shielded address model
+- [Privacy as a Core Principle](/privacy/privacy-as-a-core-principle) — Why selective disclosure matters
+- [ZK-SNARKs](/zcash-tech/zk-snarks) — The cryptographic foundation that makes shielded transactions possible
+- [Zcash Compliance](/using-zcash/zcash-compliance) — Using viewing keys to meet regulatory requirements
+- [FROST](/zcash-tech/frost) — Threshold signing for shielded addresses, complementary to viewing keys
