@@ -2,6 +2,8 @@
 
 Penumbra exists to be a cutting-edge, fully shielded layer-1 network vying in the Cosmos ecosystem. It enables its users to transact securely, stake and swap tokens, and market make without revealing their metadata on-chain. As a fully shielded blockchain, it also offers shielded transactions on the web without compromising on privacy or decentralization — Penumbra has privacy by default, with no transparent transactions or transparent value pool.
 
+For command-line wallet setup, see the [Penumbra `pcli` beginner guide](/guides/penumbra-pcli-beginner-guide). For a user-facing comparison with Zcash and Namada, see [Shielded ecosystems comparison](/research/shielded-ecosystems-comparison).
+
 ![image.png](https://drive.google.com/file/d/16CcFQ1ZhG_pi4ENQuhFKPwN-J1diELRX/view?usp=drive_link)
 
 ## Technology used in Penumbra IBC 

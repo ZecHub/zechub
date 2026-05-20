@@ -7,6 +7,8 @@
 
 ZEC is a widely-used digital asset for payments, offering strong privacy features that make it suitable for various transactions like paying friends, making purchases, or donating. To maximize privacy and security, it is essential to understand how different types of transactions work within Zcash.
 
+For a focused explanation of transaction fees, ZIP 317, and stuck-payment troubleshooting, see [Zcash transaction fees](/using-zcash/zcash-transaction-fees).
+
 ## Shielded Transactions
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">

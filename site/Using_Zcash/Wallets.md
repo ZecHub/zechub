@@ -1,3 +1,10 @@
+## Wallet planning guides
+
+- [Zcash wallet privacy decision tree](/using-zcash/zcash-wallet-privacy-decision-tree)
+- [Wallet backup checklist](/using-zcash/wallet-backup-checklist)
+
+---
+
 ## [ZODL](https://zodl.com)
 ![logo](https://github.com/user-attachments/assets/198608b2-9059-4cb7-aeb8-9354971376fd "ZODL")
 - Devices: Mobile

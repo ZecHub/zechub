@@ -8,6 +8,8 @@
 
 When sending a Z2Z (shielded-to-shielded) transaction, you're able to include a memo (message) in the transaction. This memo can be used for a number of different things.
 
+For practical memo hygiene, merchant references, and what not to put in a memo, see [shielded memo practices](/using-zcash/shielded-memo-practices).
+
 #### Signing Transactions
 
 Memos are primarily used for singing payments. Since shielded transactions encrypt your data, you're not able to see who sent you ZEC, and what the ZEC might've been for. Users can use the memo field to sign their name or pseudonym to let their counterpart know who the transaction was from. They can also describe what the transaction was for.
@@ -38,5 +40,4 @@ Here is how to use Zcash Shielded Memos with the Magic-Wormhole CLI and zcashd t
 #### Resources
 
 [The Encrypted Memo Field](https://electriccoin.co/blog/encrypted-memo-field/)
-
 

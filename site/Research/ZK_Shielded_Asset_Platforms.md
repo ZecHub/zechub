@@ -9,6 +9,8 @@ published: 2024-01-12
 
 # Zero Knowledge Asset Platforms
 
+For a focused comparison of Zcash, Namada, and Penumbra from a user perspective, see [Shielded ecosystems comparison](/research/shielded-ecosystems-comparison).
+
 
 
 **[Firn Protocol](https://app.firn.cash/)**: Firn is the first-ever zero-knowledge privacy platform in the account-based model, and introduces pluggable, flexible privacy to Ethereum-based chains.Using zero-knowledge proofs, Firn delivers secure, efficient funds privacy for users of Ethereum and Ethereum-based L2s. **HOW IT WORKS?**

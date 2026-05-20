@@ -1,5 +1,7 @@
 # Zcash Payment Processors
 
+For help designing a checkout flow around shielded ZEC, see the [shielded merchant checklist](/using-zcash/shielded-merchant-checklist).
+
 ## CoinPayments
 - **Support Type**: Transparent   
 - **Description**: A global cryptocurrency payment gateway that supports over 100 cryptocurrencies, including Zcash. Offers simple integration for online stores.  
@@ -69,7 +71,6 @@
 - **Description**: Plisio is a cryptocurrency payment gateway that allows businesses to accept Zcash payments.  
 - **URL**: [Plisio](https://plisio.net/accept-zcash)  
 <img src="https://plisio.net/v2/images/logo-color.svg" alt="Plisio Logo" width="200"/>
-
 
 
 
