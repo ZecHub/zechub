@@ -129,7 +129,7 @@
 ---
 
 ## [Vizor](https://vizor.cash/)
-![logo](https://i.imgur.com/Zu650T3.png "Vizor")
+![logo](https://i.imgur.com/YVQhHoV.png "Vizor")
 - Devices: Desktop
 - Operating System: macOS
 - Wallet Support: Seed Phrase | Unified Address | Hardware
