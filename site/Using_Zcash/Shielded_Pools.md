@@ -126,8 +126,8 @@ Most Cryptocurrency Centralized exchanges make use of Transparent Address ("T-ad
 
 - [Wallets](/using-zcash/wallets) — Which wallets support Orchard and Sapling pools
 - [Transactions](/using-zcash/transactions) — How to send shielded transactions
+- [Diversified addresses](/using-zcash/diversified-addresses) — How to avoid reusing shielded receiving addresses
 - [Buying ZEC](/using-zcash/buying-zec) — Acquiring ZEC before using it in pools
 - [ZK-SNARKs](/zcash-tech/zk-snarks) — The cryptographic foundation of shielded pools
 - [What is ZEC and Zcash](/start-here/what-is-zec-and-zcash) — Background on Zcash privacy
-
 

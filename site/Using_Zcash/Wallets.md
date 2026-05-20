@@ -14,7 +14,7 @@
 - Operating System: Android | iOS | Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard
-- Features: Address Book | Cold Storage | Diversified Address | Payment Request | Pool Transfer | Shielded Memo | TEX Address | Voting | WarpSync
+- Features: Address Book | Cold Storage | [Diversified Address](/using-zcash/diversified-addresses) | Payment Request | Pool Transfer | Shielded Memo | TEX Address | Voting | WarpSync
 
 ---
 
@@ -64,7 +64,7 @@
 - Operating System: Android | iOS | Windows
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Transparent | Sapling | Orchard
-- Features: Address Book | Address Check | Automatic Shielding | Diversified Address | Payment Request | Shielded Memo | TEX Address | Testnet Support
+- Features: Address Book | Address Check | Automatic Shielding | [Diversified Address](/using-zcash/diversified-addresses) | Payment Request | Shielded Memo | TEX Address | Testnet Support
 
 ---
 
@@ -124,7 +124,7 @@
 - Operating System: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
 - Pools: Transparent | Sapling | Orchard
-- Features: Command Line Interface | Diversified Address | Shielded Memo | Testnet Support
+- Features: Command Line Interface | [Diversified Address](/using-zcash/diversified-addresses) | Shielded Memo | Testnet Support
 
 ---
 
