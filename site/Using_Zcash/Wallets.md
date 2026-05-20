@@ -88,6 +88,16 @@
 
 ---
 
+## [Vizor Wallet](https://vizor.cash/)
+![logo](https://vizor.cash/assets/logo.svg "Vizor Wallet")
+- Devices: Desktop
+- Operating System: macOS
+- Wallet Support: Seed Phrase | Unified Address | Hardware
+- Pools: Transparent | Sapling | Orchard
+- Features: Custom Lightwalletd | Keystone Support | Multiple Accounts | Privacy Mode | Shield Funds | Shielded Memo
+
+---
+
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
 ![logo](https://i.ibb.co/VtPBnm6/zenith-2.png "Zenith")
 - Devices: Desktop
@@ -138,13 +148,43 @@
 
 ---
 
-## [Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
-![logo](https://i.ibb.co/jn5t9Gy/metamask.png  "Metamask")
+## [ChainSafe Wallet](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
+![logo](https://snaps.metamask.io/static/b466d58c5b6d114965a20145c1bc1a4c/banner.png "ChainSafe Wallet")
 - Devices: Web
 - Operating System: Browser
-- Wallet Support: Seed Phrase | Unified Address
-- Pools: Transparent | Sapling | Orchard
-- Features: Multi Coin
+- Wallet Support: MetaMask | Seed Phrase
+- Pools: Sapling
+- Features: Browser Extension | In-Browser Sync | MetaMask Snap | PCZT Transactions | Shielded Transactions | WebZjs
+
+---
+
+## [Zcash Web Wallet](https://webzjs.chainsafe.dev/)
+![logo](https://blog.chainsafe.io/content/images/2025/06/zcashbrowser.png "Zcash Web Wallet")
+- Devices: Web
+- Operating System: Browser
+- Wallet Support: Seed Phrase
+- Pools: Sapling
+- Features: Browser Wallet | In-Browser Sync | Lightwalletd Proxy | Multiple Accounts | WebAssembly | WebZjs
+
+---
+
+## [Noir Wallet](https://forum.zcashcommunity.com/t/first-look-at-noir-wallet/55667)
+![logo](https://global.discourse-cdn.com/zcash/original/3X/6/7/67dde4674230fb9adc04eec329d339d53e6b9602.jpeg "Noir Wallet")
+- Devices: Web
+- Operating System: Browser
+- Wallet Support: Seed Phrase
+- Pools: Shielded
+- Features: Browser Extension | Cross-chain DeFi | Intents | Self-Custody | Shielded Transactions | ZECFi
+
+---
+
+## [LeoDex Wallet](https://leodex.io/download)
+![logo](https://leodex.io/assets/logo.webp "LeoDex Wallet")
+- Devices: Desktop | Web
+- Operating System: Windows | macOS | Browser
+- Wallet Support: Seed Phrase
+- Pools: Transparent | Shielded
+- Features: AnyPay | Cross-chain Swaps | DEX Aggregator | Portfolio Tracking | Self-Custody | Shield Funds
 
 ---
 
