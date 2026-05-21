@@ -4,58 +4,117 @@
 
 # Viewing Keys
 
-Shielded addresses enable users to transact while revealing as little information as possible on the Zcash blockchain. What happens when you need to disclose sensitive information around a shielded Zcash transaction to a specific party? Every shielded address includes a viewing key. Viewing keys were introduced in [ZIP 310](https://zips.z.cash/zip-0310) and added to the protocol in the Sapling network upgrade. Viewing keys are a crucial part of Zcash as they allow users to selectively disclose information about transactions.
+Viewing keys let a Zcash user selectively disclose shielded transaction information without handing over spending authority. They are one of the main tools that make Zcash privacy practical for exchanges, custodians, auditors, businesses, and users who need limited transparency for a specific purpose.
 
-### Why use a viewing key?
+## TL;DR
 
-Why would a user ever want to do this? From Electric Coin Co.'s blog on the matter...
+- A viewing key gives read access to shielded activity for an address or account.
+- A viewing key does not allow anyone to spend funds.
+- Viewing keys support selective disclosure: a user can reveal transaction history to a chosen party without making it public to everyone.
+- Incoming viewing keys are useful for detecting received payments while keeping spend keys offline.
+- Full viewing keys can reveal broader activity and should only be shared with trusted parties when needed.
 
-*- An exchange wants to detect when a customer deposits ZEC to a shielded address, while keeping the **spend authority** keys on secure hardware. The exchange could generate an incoming viewing key and load it onto an Internet-connected **detection** node, while the spending key remains on the more secure system.*
+## Core Explanation
 
-*- A custodian needs to provide visibility of their Zcash holdings to auditors. The custodian may generate a full viewing key for each of their shielded addresses and share that key with their auditor. The auditor will be able to verify the balance of those addresses and review past transaction activity to and from those addresses.* 
+Shielded Zcash addresses hide transaction details on-chain. That privacy is useful by default, but sometimes a user needs to prove something about shielded activity to another party. Examples include confirming deposits, providing audit visibility, or supporting enhanced due diligence.
 
-*- An exchange may need to conduct due diligence checks on a customer who makes deposits from a shielded address. The exchange could request the customers viewing key for their shielded address and use it to review the customers shielded transaction activity as part of these enhanced due diligence procedures.*
+Viewing keys solve this by separating read access from spend authority. A party with the right viewing key can scan the blockchain and see the shielded information that key is authorized to reveal, but cannot create transactions or move funds.
 
-### How to find your viewing key
+Viewing keys became a core part of Zcash's selective disclosure model through Sapling-era shielded addresses, and [ZIP 310](https://zips.z.cash/zip-0310) defines unified viewing keys for Unified Addresses.
 
-#### zcashd
+## Why Use a Viewing Key?
 
-* List all known addresses using *./zcash-cli listaddresses*
+Electric Coin Co. describes several common use cases:
 
-* Then issue the following command for either UA's or Sapling shielded addresses
+**Exchange deposit detection.** An exchange can keep spend authority on secure hardware while loading an incoming viewing key onto an Internet-connected detection node. The node can detect customer deposits to a shielded address without being able to spend the funds.
 
-  *./zcash-cli z_exportviewingkey "<UA or Z address>"*
+**Custodian audits.** A custodian can give an auditor a full viewing key for each relevant shielded address. The auditor can verify balances and review past transaction activity without taking control of the funds.
 
-#### Ywallet
+**Customer due diligence.** An exchange or regulated service may ask a customer to provide a viewing key for a shielded address so the service can review shielded transaction activity for a specific compliance workflow.
 
-* On the top right corner select "Backup", Authenticate your phone, then simply copy your viewing key that is displayed.
+The key tradeoff is scope. Viewing keys are powerful disclosure tools. Share them only when the recipient needs that information and you understand what the key reveals.
 
-### How to use your viewing key
+## How to Find Your Viewing Key
 
-#### zcashd
+### zcashd
 
-* Use the following with any vkey or ukey: 
+First list all known addresses:
 
-*./zcash-cli z_importviewingkey "vkey/ukey" whenkeyisnew 30000*
+```bash
+./zcash-cli listaddresses
+```
 
-#### ywallet
+Then export the viewing key for a Unified Address or Sapling shielded address:
 
-* In the top right corner, select "Account", click on "+" in the bottom right corner to add and import your viewing key to add your 'read-only' account.
+```bash
+./zcash-cli z_exportviewingkey "<UA or Z address>"
+```
+
+### YWallet
+
+1. Open the account in YWallet.
+2. Select **Backup** in the top-right corner.
+3. Authenticate on the device.
+4. Copy the viewing key shown by the wallet.
+
+## How to Use Your Viewing Key
+
+### zcashd
+
+Import a viewing key with:
+
+```bash
+./zcash-cli z_importviewingkey "vkey/ukey" whenkeyisnew 30000
+```
+
+The `whenkeyisnew` option tells `zcashd` how far back to rescan. The example block height `30000` comes from the original command example; choose a height that fits the age of the wallet or address you are importing.
+
+### YWallet
+
+1. Select **Account** in the top-right corner.
+2. Click **+** in the bottom-right corner.
+3. Choose the option to import a viewing key.
+4. Add the viewing key as a read-only account.
 
 <a href="">
-    <img src="https://i.ibb.co/C0b002N/image-2024-01-13-175554676.png" alt="" width="200" height="280"/>
+    <img src="https://i.ibb.co/C0b002N/image-2024-01-13-175554676.png" alt="YWallet viewing key import screen" width="200" height="280"/>
 </a>
 
+### zcashblockexplorer.com
 
-#### zcashblockexplorer.com
+You can also use the viewing-key tool at [zcashblockexplorer.com/vk](https://zcashblockexplorer.com/vk).
 
-* Simply point your browser to [here](https://zcashblockexplorer.com/vk) and wait for the results! note: this result is now on the zcashblockexplorer node and thus you're trusting this info with the owners of zcashblockexplorer.com
+This is convenient, but it changes the trust model. When a viewing key is entered into a third-party explorer, that service can see the information revealed by the key. Use this only when you are comfortable trusting the operator with that disclosure.
 
-### Resources
+## Practical Implications
 
-While a great technology, it's recommended that you use viewing keys on an as needed basis.
+**Viewing keys are for transparency, not custody.** They allow someone to see authorized shielded activity, but they do not move ZEC.
 
-Check out this tutorial on viewing keys. A list of resources on the subject is below if you want to dive deeper:
+**They are useful for operational separation.** A business can run online monitoring infrastructure with viewing-key access while keeping spend keys offline or on more secure hardware.
+
+**They can satisfy targeted disclosure needs.** A user can prove information to one counterparty without publishing transaction details to the whole blockchain.
+
+**They should be rotated or limited by account design when possible.** If a viewing key is no longer needed by a third party, stop relying on that address or account for new activity where that party should not retain visibility.
+
+## Common Mistakes
+
+**Sharing a viewing key publicly.** Anyone with the key can see the information it reveals. Treat it as sensitive data.
+
+**Confusing viewing keys with spending keys.** A viewing key cannot spend funds. A spending key or seed phrase can. Never share the seed phrase or spending key for audit or deposit detection use cases.
+
+**Using a web explorer without considering trust.** A third-party explorer may be useful for quick checks, but entering a viewing key gives that service access to the disclosed information.
+
+**Sharing more scope than needed.** If a party only needs incoming payment detection, do not provide broader viewing access unless that broader disclosure is intentional.
+
+## Related Pages
+
+- [Shielded Pools](/site/Using_Zcash/Shielded_Pools)
+- [Wallets](/site/Using_Zcash/Wallets)
+- [Zcash Wallet Syncing](/site/Zcash_Tech/Zcash_Wallet_Syncing)
+- [What is ZEC and Zcash?](/site/Start_Here/What_is_ZEC_and_Zcash)
+- [Halo](/site/Zcash_Tech/Halo)
+
+## Resources
 
 - [ECC, Explaining Viewing Keys](https://electriccoin.co/blog/explaining-viewing-keys/)
 - [ECC, Selective Disclosure and Viewing Keys](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
