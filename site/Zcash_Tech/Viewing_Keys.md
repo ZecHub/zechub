@@ -4,60 +4,127 @@
 
 # Viewing Keys
 
-Shielded addresses enable users to transact while revealing as little information as possible on the Zcash blockchain. What happens when you need to disclose sensitive information around a shielded Zcash transaction to a specific party? Every shielded address includes a viewing key. Viewing keys were introduced in [ZIP 310](https://zips.z.cash/zip-0310) and added to the protocol in the Sapling network upgrade. Viewing keys are a crucial part of Zcash as they allow users to selectively disclose information about transactions.
+## TL;DR
+
+- **Viewing keys** let someone see selected shielded Zcash transaction information without getting spending authority.
+- They are useful when a user, exchange, custodian, auditor, or compliance team needs read-only visibility into shielded activity.
+- A viewing key is not a private spending key. It cannot move funds by itself.
+- Sharing a viewing key still reveals sensitive financial information, so it should only be shared with a trusted party and for a clear purpose.
+- Some tools support incoming, full, Sapling, or unified viewing keys differently, so always check wallet and `zcashd` support before importing one.
+
+---
+
+## Core Explanation
+
+Shielded Zcash addresses are designed to reveal as little information as possible on the public blockchain. That privacy is powerful, but sometimes a user needs to disclose specific shielded transaction information to another party.
+
+A viewing key is the read-only tool for that job. It allows someone to inspect shielded transaction activity associated with an address or account without receiving the private spending key. In other words, a viewing key can help someone see relevant transaction data, but it should not let them spend the ZEC.
+
+Viewing keys are an important part of selective disclosure in Zcash. They make it possible to use shielded addresses while still supporting auditing, exchange deposit detection, accounting, or enhanced due diligence when those workflows are needed.
+
+Viewing-key behavior is documented in [ZIP 310](https://zips.z.cash/zip-0310), and the capability was added to the protocol in the Sapling network upgrade. Unified viewing keys are specified separately in [ZIP 316](https://zips.z.cash/zip-0316).
+
+## Practical Implications
 
 ### Why use a viewing key?
 
-Why would a user ever want to do this? From Electric Coin Co.'s blog on the matter...
+Electric Coin Co. gives several useful examples:
 
-*- An exchange wants to detect when a customer deposits ZEC to a shielded address, while keeping the **spend authority** keys on secure hardware. The exchange could generate an incoming viewing key and load it onto an Internet-connected **detection** node, while the spending key remains on the more secure system.*
+- **Exchange deposit detection.** An exchange can keep spending keys on secure hardware while loading an incoming viewing key onto an Internet-connected detection node. The detection node can see when a customer deposits ZEC to a shielded address without holding the spend authority.
+- **Custody and audits.** A custodian can provide auditors with a full viewing key for shielded addresses so the auditor can verify balances and review transaction activity.
+- **Due diligence.** An exchange or regulated service may ask a customer to share a viewing key so it can review shielded transaction activity as part of enhanced due diligence.
 
-*- A custodian needs to provide visibility of their Zcash holdings to auditors. The custodian may generate a full viewing key for each of their shielded addresses and share that key with their auditor. The auditor will be able to verify the balance of those addresses and review past transaction activity to and from those addresses.* 
+In each case, the viewing key gives visibility without giving control of funds.
 
-*- An exchange may need to conduct due diligence checks on a customer who makes deposits from a shielded address. The exchange could request the customers viewing key for their shielded address and use it to review the customers shielded transaction activity as part of these enhanced due diligence procedures.*
+## How to Find Your Viewing Key
 
-### How to find your viewing key
+### zcashd
 
-#### zcashd
+List all known addresses:
 
-* List all known addresses using *./zcash-cli listaddresses*
+```bash
+./zcash-cli listaddresses
+```
 
-* Then issue the following command for either UA's or Sapling shielded addresses
+Export the viewing key for a supported Unified Address or Sapling shielded address:
 
-  *./zcash-cli z_exportviewingkey "<UA or Z address>"*
+```bash
+./zcash-cli z_exportviewingkey "<UA or Z address>"
+```
 
-#### Ywallet
+### YWallet
 
-* On the top right corner select "Backup", Authenticate your phone, then simply copy your viewing key that is displayed.
+1. Open the account in YWallet.
+2. Select **Backup** in the top-right corner.
+3. Authenticate on your device.
+4. Copy the viewing key shown by the wallet.
 
-### How to use your viewing key
+## How to Use Your Viewing Key
 
-#### zcashd
+### zcashd
 
-* Use the following with any vkey or ukey: 
+Use `z_importviewingkey` with a supported viewing key type:
 
-*./zcash-cli z_importviewingkey "vkey/ukey" whenkeyisnew 30000*
+```bash
+./zcash-cli z_importviewingkey "vkey/ukey" whenkeyisnew 30000
+```
 
-#### ywallet
+Support for different viewing-key formats can vary by `zcashd` version. Check the current RPC documentation for your version before relying on unified viewing-key import.
 
-* In the top right corner, select "Account", click on "+" in the bottom right corner to add and import your viewing key to add your 'read-only' account.
+### YWallet
+
+1. Select **Account** in the top-right corner.
+2. Click **+** in the bottom-right corner.
+3. Import the viewing key to add a read-only account.
 
 <a href="">
-    <img src="https://i.ibb.co/C0b002N/image-2024-01-13-175554676.png" alt="" width="200" height="280"/>
+    <img src="https://i.ibb.co/C0b002N/image-2024-01-13-175554676.png" alt="YWallet viewing key import screen" width="200" height="280"/>
 </a>
 
+### zcashblockexplorer.com
 
-#### zcashblockexplorer.com
+Open [zcashblockexplorer.com/vk](https://zcashblockexplorer.com/vk) and enter the viewing key to inspect compatible shielded activity.
 
-* Simply point your browser to [here](https://zcashblockexplorer.com/vk) and wait for the results! note: this result is now on the zcashblockexplorer node and thus you're trusting this info with the owners of zcashblockexplorer.com
+Important: this sends viewing-key information to the block explorer service. Only use this option if you are comfortable trusting the operator of that service with the information the viewing key reveals.
 
-### Resources
+## Deep Dive
 
-While a great technology, it's recommended that you use viewing keys on an as needed basis.
+### Viewing keys vs spending keys
 
-Check out this tutorial on viewing keys. A list of resources on the subject is below if you want to dive deeper:
+A spending key controls funds. Anyone with the spending key can authorize transactions. A viewing key is different: it is intended for read access.
+
+That difference makes viewing keys useful, but it does not make them harmless. A viewing key can reveal sensitive information such as transaction history, balances, or counterparties depending on the type of key and the transactions involved.
+
+### Incoming, full, and unified viewing keys
+
+Zcash tooling can expose different kinds of viewing keys:
+
+- **Incoming viewing keys** are focused on detecting incoming payments.
+- **Full viewing keys** can reveal broader shielded activity for an address or account.
+- **Unified viewing keys** bundle viewing information for a Unified Address across supported receiver types.
+
+Wallets and node software do not all expose these formats in the same way. When sharing or importing a viewing key, confirm which type you have and what the receiving tool supports.
+
+## Common Mistakes
+
+- **Sharing a spending key instead of a viewing key.** A spending key can move funds. Never share it for read-only access.
+- **Treating viewing keys as public.** Viewing keys are disclosure tools, not public identifiers. Share them only with parties that should see the associated activity.
+- **Assuming a viewing key shows everything.** What it reveals depends on the key type, address type, wallet support, and transaction direction.
+- **Entering a viewing key into a third-party website without trust.** A block explorer can be useful, but it also learns what the viewing key can reveal.
+- **Forgetting operational separation.** Exchanges and custodians should keep spend authority on secure systems and use viewing keys only for detection or auditing workflows.
+
+## Related Pages
+
+- [Shielded Pools](/using-zcash/shielded-pools) - Orchard, Sapling, Sprout, and transparent value pools
+- [Wallets](/using-zcash/wallets) - Wallets that expose shielded-address and viewing-key workflows
+- [Transactions](/using-zcash/transactions) - How Zcash transactions move between address types
+- [ZK-SNARKs](/zcash-tech/zk-snarks) - The proof system background behind shielded Zcash
+- [Halo](/zcash-tech/halo) - The proving-system upgrade behind Orchard
+
+## Resources
 
 - [ECC, Explaining Viewing Keys](https://electriccoin.co/blog/explaining-viewing-keys/)
 - [ECC, Selective Disclosure and Viewing Keys](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
 - [ECC, Zcash Viewing Key Video Presentation](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
-- [ZIP 310](https://zips.z.cash/zip-0310)
+- [ZIP 310: Security Properties of Sapling Viewing Keys](https://zips.z.cash/zip-0310)
+- [ZIP 316: Unified Addresses and Unified Viewing Keys](https://zips.z.cash/zip-0316)
