@@ -182,7 +182,7 @@ Zectastic.com is Launch the Zcash rocket, Play the memory game, and Follow the l
 
 Zecmap is The global map of businesses accepting Zcash. Discover, verify, and contribute to places that support privacy-focused payments.
 
-[Visit Site](https://zecmap.com/)
+[Visit Site](https://zecmap.com/) | [Full Wiki Page](/using-zcash/zecmap)
 
 
 ## ZODL
