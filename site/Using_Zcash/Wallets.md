@@ -128,6 +128,16 @@
 
 ---
 
+## [Vizor](https://vizor.cash/)
+![logo](https://i.imgur.com/YVQhHoV.png "Vizor")
+- Devices: Desktop
+- Operating System: macOS
+- Wallet Support: Seed Phrase | Unified Address | Hardware
+- Pools: Transparent | Sapling | Orchard
+- Features: Automatic Shielding | Shielded Memo | Testnet Support
+
+---
+
 ## [Brave](https://brave.com/web3-privacy/)
 ![logo](https://i.ibb.co/6yqMNwZ/image-2024-01-13-170934865.png "Brave")
 - Devices: Web
