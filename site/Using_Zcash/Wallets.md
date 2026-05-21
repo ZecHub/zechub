@@ -129,12 +129,12 @@
 ---
 
 ## [Vizor](https://vizor.cash/)
-![logo](https://i.imgur.com/YVQhHoV.png "Vizor")
+![logo](https://i.ibb.co/zhW2d2fV/Vizorphoto.png "Vizor")
 - Devices: Desktop
 - Operating System: macOS
 - Wallet Support: Seed Phrase | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard
-- Features: Automatic Shielding | Shielded Memo | Testnet Support
+- Features: Automatic Shielding | Shielded Memo | Testnet Support | FROST Multisig
 
 ---
 
