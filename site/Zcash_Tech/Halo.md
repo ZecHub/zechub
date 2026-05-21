@@ -22,7 +22,7 @@ The trusted-setup problem matters because older proving systems required a commo
 
 Halo also supports recursive proof composition. Recursion allows one proof to verify other proofs, so a large amount of computation can be compressed into a small proof that is still fast to check. In a blockchain context, that is useful because many participants need to verify the correctness of the system without redoing all of the underlying work themselves.
 
-![Halo overview](https://electriccoin.co/wp-content/uploads/2021/01/Halo-on-Z-1440x720.png "Halo overview")
+![Halo overview](https://electriccoin.co/wp-content/uploads/2024/03/Halo-on-Z-EX-1024x512.png "Halo overview")
 
 Key components:
 
@@ -120,10 +120,9 @@ The [Privacy and Scaling Exploration group](https://appliedzkp.org/) has researc
 
 ### Other projects using Halo
 
-- [Anoma, a privacy-preserving multichain atomic swap protocol](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
+- [Taiga, Anoma's resource-machine proving system](https://specs.anoma.net/main/arch/node/ordering/execution/taiga.html)
 - [Orbis, an L2 zkRollup on Cardano](https://docs.orbisprotocol.com/orbis/technology/halo-2)
-- [DarkFi, a private L1 zkEVM blockchain](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
-- [Scroll, an L2 zkRollup on Ethereum](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
+- [DarkFi, a private L1 zkVM blockchain](https://dark.fi/book/arch/overview.html)
 
 ## Common Mistakes
 

@@ -81,9 +81,9 @@ Support for different viewing-key formats can vary by `zcashd` version. Check th
     <img src="https://i.ibb.co/C0b002N/image-2024-01-13-175554676.png" alt="YWallet viewing key import screen" width="200" height="280"/>
 </a>
 
-### zcashblockexplorer.com
+### Zcash viewing-key explorer
 
-Open [zcashblockexplorer.com/vk](https://zcashblockexplorer.com/vk) and enter the viewing key to inspect compatible shielded activity.
+Open [mainnet.zcashexplorer.app/vk](https://mainnet.zcashexplorer.app/vk) and enter the viewing key to inspect compatible shielded activity.
 
 Important: this sends viewing-key information to the block explorer service. Only use this option if you are comfortable trusting the operator of that service with the information the viewing key reveals.
 
