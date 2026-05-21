@@ -4,6 +4,10 @@
 
 ## Zcash Community Projects
 
+[ZShieldHer](https://zshieldher.com/)
+
+ a Zcash education site for domestic violence survivors
+
 [ZECping](https://github.com/emersonian/zecping)
 
 See the gRPC response times of Zcash [Lightwalletd](https://github.com/zcash/lightwalletd) nodes.
