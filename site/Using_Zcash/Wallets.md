@@ -128,16 +128,6 @@
 
 ---
 
-## [Vizor](https://vizor.cash/)
-![logo](https://i.ibb.co/zhW2d2fV/Vizorphoto.png "Vizor")
-- Devices: Desktop
-- Operating System: macOS
-- Wallet Support: Seed Phrase | Unified Address | Hardware
-- Pools: Transparent | Sapling | Orchard
-- Features: Automatic Shielding | Shielded Memo | Testnet Support | FROST Multisig
-
----
-
 ## [Brave](https://brave.com/web3-privacy/)
 ![logo](https://i.ibb.co/6yqMNwZ/image-2024-01-13-170934865.png "Brave")
 - Devices: Web
@@ -252,3 +242,48 @@
 - Operating System: Android | iOS | Windows | Linux | macOS | Browser
 - Pools: Transparent
 - Features: Multi Coin | Web App
+
+## [Vizor](https://vizor.cash/)
+![logo](https://i.ibb.co/zhW2d2fV/Vizorphoto.png "Vizor")
+- Devices: Desktop
+- Operating System: macOS
+- Wallet Support: Seed Phrase | Unified Address | Hardware
+- Pools: Transparent | Sapling | Orchard
+- Features: Automatic Shielding | Shielded Memo | Testnet Support | FROST Multisig
+
+## [Noir wallet](https://www.zknoir.com/)
+![logo](https://global.discourse-cdn.com/zcash/original/3X/3/b/3b88be907de788f367f7993bc24eed726d63a0c6.jpeg)
+- Devices: Web | Desktop
+- Operating System: Browser
+- Pools: Shielded | Transparent
+- Features: Zcash | Browser Extension | Private Beta | Shielded Transactions | Cross-chain Swaps | Lending & Borrowing | DApp Connections | Native ZECFi
+
+## [Leodex Wallet](https://leodex.io/)
+![logo](https://leodex.io/assets/logo.webp)
+- Devices: Web | Desktop
+- Operating System: Browser | Windows | macOS
+- Wallet Support: Seed Phrase | External Wallet | Receive Address | QR Code | Hardware
+- Pools: Shielded | Transparent
+- Features: Multi Coin | Cross-chain Swap | No KYC | Non-Custodial | Web App | Desktop App | Shielded ZEC | AnyPay
+
+## [ChainSafe Wallet](https://chainsafe.io/)
+![logo](https://cdn.prod.website-files.com/681b30cba1950e210362e39a/6821c357005c916ce058f86d_fullwordmark-white.avif)
+- Devices: Web | Mobile | Desktop
+- Operating System: Browser | Android | iOS | Windows | macOS
+- Wallet Support: External Wallet | MetaMask | WalletConnect/Reown | Web3Auth | HyperPlay
+- Pools: Shielded | Transparent
+- Features: Web3 SDK | Gaming SDK | EVM Compatible | Wallet Login | Infrastructure
+
+## [Zcash Web Wallet](https://leakix.github.io/zcash-web-wallet/)
+![logo](https://github.com/LeakIX/zcash-web-wallet/blob/develop/frontend/favicon.svg)
+- Devices: Web
+- Operating System: Browser
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Transparent | Sapling | Orchard
+- Features: Zcash | Web App | Open Source | Transaction Viewer | Wallet Generator | Local Keys | CLI | Experimental
+
+
+
+
+
+
