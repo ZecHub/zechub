@@ -4,8 +4,11 @@
 
 # Using Zcash in DeFi
 
+## THORChain, THORSwap, NEAR Intents, and Maya
 
-## Near Intents 
+Cross-chain liquidity routes help ZEC users move between Zcash and assets such as BTC or ETH without relying on a centralized exchange account. Read the ZecHub explainer: [ZEC cross-chain liquidity with THORChain](/site/Using_Zcash/ZEC_THORChain_Cross_Chain_Liquidity).
+
+## Near Intents
 
 Zcash and NEAR Intents have been integrated, allowing users to swap Zcash (ZEC) with other top altcoins, including Bitcoin, Solana, NEAR, and XRP, without paying any fees. This integration is part of NEAR Protocol's efforts to create an infrastructure of autonomous and verifiable AI bots, which also brings benefits to Zcash by enabling AI-powered payment rails. Zcash users are now capable of accessing smart contracts and wider [DeFi applications](https://nym.com/blog/what-is-defi) while preserving their privacy via [Near Intents](https://app.near-intents.org).
 
