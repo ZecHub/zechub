@@ -40,6 +40,9 @@ Get paid in Zcash while keeping your clients and income private.
 ###  [Accept Payments as a Merchant](/zcash-use-cases/accept-payment-as-a-merchant)  
 Accept payments using a shielded address and avoid exposing customer transaction data
 
+###  [Privacy in Play: Zcash in Gaming](/zcash-use-cases/privacy-in-play-zcash-gaming)
+Use shielded ZEC for gaming payments, creator tips, tournament payouts, and private community economies.
+
 
 ###  [Run a Private Community Treasury](/zcash-use-cases/run-a-private-community-treasury)
 Use shielded addresses to hold shared funds and limit visibility of balances and transactions
