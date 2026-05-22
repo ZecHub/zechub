@@ -24,7 +24,7 @@ The Zcash community is very active in its community <span translate="no" class="
 ### <span translate="no" class="notranslate">Mastodon / Decentralized Social</span>
 
 - [ZecHub.Social](https://zechub.social/public/local) - Mastodon instance for the Zcash community
-- [Bluesky @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social) - Zcash en Español on Bluesky (moved from X after account suspension)
+- [Bluesky @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social) - Zcash en Espanol on Bluesky (moved from X after account suspension)
 
 ### <span translate="no" class="notranslate">Matrix</span>
 
@@ -57,7 +57,7 @@ Zcash has an active global presence on X. Key accounts to follow:
 
 ## Regional Community Hubs
 
-- [Zcash en Español](https://zcashesp.com) - Spanish-speaking community (also on Bluesky after X suspension)
+- [Zcash en Espanol](https://zcashesp.com) - Spanish-speaking community (also on Bluesky after X suspension)
 - [Zcash Brazil](https://x.com/zcashbrazil) - Brazilian community
 - [Zcash Turkey](https://x.com/ZcashTR) - Turkish community
 - [Zcash Arabia](https://x.com/ZcashArabia) - Arabic-speaking community
