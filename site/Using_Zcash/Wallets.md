@@ -266,21 +266,7 @@
 - Pools: Shielded | Transparent
 - Features: Multi Coin | Cross-chain Swap | No KYC | Non-Custodial | Web App | Desktop App | Shielded ZEC | AnyPay
 
-## [ChainSafe Wallet](https://chainsafe.io/)
-![logo](https://cdn.prod.website-files.com/681b30cba1950e210362e39a/6821c357005c916ce058f86d_fullwordmark-white.avif)
-- Devices: Web | Mobile | Desktop
-- Operating System: Browser | Android | iOS | Windows | macOS
-- Wallet Support: External Wallet | MetaMask | WalletConnect/Reown | Web3Auth | HyperPlay
-- Pools: Shielded | Transparent
-- Features: Web3 SDK | Gaming SDK | EVM Compatible | Wallet Login | Infrastructure
 
-## [Zcash Web Wallet](https://leakix.github.io/zcash-web-wallet/)
-![logo](https://github.com/LeakIX/zcash-web-wallet/blob/develop/frontend/favicon.svg)
-- Devices: Web
-- Operating System: Browser
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address
-- Pools: Transparent | Sapling | Orchard
-- Features: Zcash | Web App | Open Source | Transaction Viewer | Wallet Generator | Local Keys | CLI | Experimental
 
 
 
