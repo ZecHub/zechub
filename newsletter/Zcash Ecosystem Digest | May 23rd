@@ -1,0 +1,353 @@
+# Zcash Ecosystem Digest | May 23rd
+
+Dive into the  Zcash Foundation Q1 2026 Report, ZF Engineering Update (May 4–17), Zcash foundation Developer Win Zama Developer Program Winner, NU7-rc0 Testnet is Live, Pacu joins zodl team as Developer Relations & Integrations Engineer,  Zodl v3.4.1 for Android and iOS has been released, Bitstamp just listed $ZEC, Noir wallet just entered private beta, ZODL Summit July: Community Applications Are Now Open, THERE IS NO ORCHARD BACKDOOR :: Zcash Office Hours Special Edition, ZShieldHer,  Zcash vs. Shielded Zcash: BitcoinVN Exchange Stats - BV Insights, Recovering ZEC from an old uncompressed WIF private key using zcashd, Zcash Z3 updates, The Path to Billions. Update on Zcash, Zcash Community Grants (ZCG) Nominations Now Open for June Election!, Releasing ZecTime, ZODL Hiring Analytics & Optimization Specialis
+
+Curated by [Gorga](https://x.com/GianGorga)
+
+## Shielded Labs, Electric Coin Company, Zcash Foundation , and Zcash Updates 🛠️
+
+[Zcash Foundation Q1 2026 Report - @ZcashFoundation](https://x.com/ZcashFoundation/status/2056732143229751578?s=20)
+
+[ZF Engineering Update (May 4–17) - @ZcashFoundation](https://x.com/ZcashFoundation/status/2057125774579085348?s=20)
+
+[Zcash foundation Developer Win Zama Developer Program Winner - @zama](https://x.com/zama/status/2054208221519237487?s=20)
+
+[NU7-rc0 Testnet is Live - @evansforbes](https://x.com/evansforbes/status/2057677017840025836?s=20)
+
+[Pacu joins zodl team as Developer Relations & Integrations Engineer - @thecodebuffet](https://x.com/thecodebuffet/status/2057585698866163799?s=20)
+
+[Zodl v3.4.1 for Android and iOS has been released - @zodl_support](https://x.com/zodl_support/status/2057457410613158222?s=20)
+
+[Bitstamp just listed $ZEC  - @Bitstamp](https://x.com/Bitstamp/status/2057099082900902102?s=20)
+
+[Noir wallet just entered private beta - @noir_wallet](https://x.com/noir_wallet/status/2056750442412204239?s=20)
+
+[ZODL Summit July: Community Applications Are Now Open - @joshs](https://forum.zcashcommunity.com/t/zodl-summit-july-8-10-in-prague-czech-republic/55716)
+
+[THERE IS NO ORCHARD BACKDOOR :: Zcash Office Hours Special Edition - @shieldedmark](https://forum.zcashcommunity.com/t/there-is-no-orchard-backdoor-zcash-office-hours-special-edition/55751)
+
+[ZShieldHer - @hyperlander](https://forum.zcashcommunity.com/t/zshieldher-a-zcash-education-site-for-domestic-violence-survivors-built-live-seeking-feedback-zcg-interest/55765)
+
+[Zcash vs. Shielded Zcash: BitcoinVN Exchange Stats - BV Insights - @lien.bitcoinvn ](https://forum.zcashcommunity.com/t/bitcoinvn-zec-infrastructure-upgrade-q3-2025/52092/4)
+
+[Recovering ZEC from an old uncompressed WIF private key using zcashd - @jimwillis](https://forum.zcashcommunity.com/t/recovering-zec-from-an-old-uncompressed-wif-private-key-using-zcashd/55715)
+
+[Sprout Funds Clarification - @joshs](https://forum.zcashcommunity.com/t/nu7-sentiment-polling-questions-for-community-review-coinholder-voting-via-zodl/55713/41)
+
+[Zcash Z3 updates 22nd May - @pacu](https://forum.zcashcommunity.com/t/zcash-z3-updates-formerly-zcashd-deprecation/48965/155)
+
+[The Path to Billions. Update on Zcash. - @jswihart](https://x.com/jswihart/status/2056135283616452613?s=20)
+
+
+
+
+
+
+
+---
+
+
+## Zcash Community Grants 🏛️
+
+[Zcash Community Grants (ZCG) Nominations Now Open for June Election!   - @FPF](https://forum.zcashcommunity.com/t/zcash-community-grants-zcg-nominations-now-open-for-june-election/55720)
+
+[Grant Application - Zcash CIS Educational Media Initiative 2026 (3 month)   - @gptvinccorp](https://forum.zcashcommunity.com/t/grant-application-zcash-cis-educational-media-initiative-2026-3-month/55718)
+
+[Grant Application - Educational Campaign by Incrypted  - @pishenin ](https://forum.zcashcommunity.com/t/grant-application-educational-campaign-by-incrypted/55721)
+
+[Zcash Global Turkish 2026 Q1-2 New Report  - @Batuhan](https://forum.zcashcommunity.com/t/zcash-global-turkish-2026-q1-2/53945/25)
+
+[[Grant proposal] Using Zcash in an internet freedom crowdfunding campaign IS LIVE  - @alsmith](https://forum.zcashcommunity.com/t/grant-proposal-using-zcash-in-an-internet-freedom-crowdfunding-campaign/55538/6)
+
+[Complete Zaino!  - @zancas](https://forum.zcashcommunity.com/t/complete-zaino/50708/22)
+
+[Zcash Arabia (May to September 2026)   - @ZArabia](https://forum.zcashcommunity.com/t/zcash-arabia-may-to-september-2026/55769)
+
+[Khalani: Reducing ZEC Cross-Chain Dependency with a Second Intent-Based Rail  - @ChaseOx](https://forum.zcashcommunity.com/t/khalani-reducing-zec-cross-chain-dependency-with-a-second-intent-based-rail/55776)
+
+[Zcash Elastic Subnet Bridge on Avalanche UPDATE - @mrkit2u](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220/109)
+
+[Grant Application - Zcash MCP Server for AI Agent Integration - @enok1111](https://forum.zcashcommunity.com/t/grant-application-zcash-mcp-server-for-ai-agent-integration/55756)
+
+[Quick ZAP1 implementation update for review clarity.  - @zk_nd3r](https://forum.zcashcommunity.com/t/retroactive-grant-application-zap1-attestation-protocol-and-verification-tooling/55664/2)
+
+[Grant Application - Zcash Privacy Capsule - @orbism](https://forum.zcashcommunity.com/t/grant-application-zcash-privacy-capsule/55801)
+
+[[Grant Proposal] Zcash Name Service - @craftsoldier](https://forum.zcashcommunity.com/t/grant-proposal-zcash-name-service/55737)
+
+[Paul Brigner for ZCG (June 2026) - @paulbrigner ](https://forum.zcashcommunity.com/t/paul-brigner-for-zcg-june-2026/55738)
+
+[USCMigs for ZCG (June 2026) - @Uscmigs](https://forum.zcashcommunity.com/t/uscmigs-for-zcg-june-2026/55806)
+
+---
+
+
+
+## Community Projects 🌐
+
+
+[Holding $ZECon a CEX and calling yourself a privacy advocate? 👀 -@KeystoneWallet ](https://x.com/KeystoneWallet/status/2057793602986864988?s=20)
+
+[Zk Av Club Presents: Zcash Weekend Watchparty!  - @ryan.taylor](https://forum.zcashcommunity.com/t/zk-av-club-presents-zcash-weekend-watchparty/55770)
+
+[ZecVault UPDATE - @gorusys](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464/18)
+
+[The Blockspäti Pwered By Zcash - @readymouse](https://forum.zcashcommunity.com/t/berlin-blockchain-week-and-dweb-camp-2026-zk-av-club/55047/10)
+
+
+[Zcash Ecosystem Digest | May 17th       - @ZecHub](https://x.com/ZecHub/status/2056099816694796669?s=20)
+
+[Zcash Quantum Recoverability ZIP 2005 merged as Proposed. - @ebfull](https://x.com/ebfull/status/2056841715127062664?s=20)
+
+[ZecHub DAO Proposal A147 passed 🎉  - @ZecHub](https://x.com/ZecHub/status/2056416195092303902?s=20)
+
+[Zcash Hackathon 3.0 is Live!  - @ZecHub](https://x.com/ZecHub/status/2056738718392754511?s=20)
+
+[Zebrad Node Windows Guide - @ZecHub](https://x.com/ZecHub/status/2057149555372896313?s=20)
+
+[2 Days to Zcash Pizza Day! - @BlockchainLAUT1](https://x.com/BlockchainLAUT1/status/2056993597308678423?s=20)
+
+[LeoDex x ZecHub Live on X Spaces - @leodexio](https://x.com/leodexio/status/2057234360655380484?s=20)
+
+[Zcash Shielded News | Vol.19  - @ZecHub](https://x.com/ZecHub/status/2057184923430359512?s=20)
+
+[Zcash Dev Workshop Recap - @thedrekal](https://x.com/thedrekal/status/2057416122027180191?s=20)
+
+[Turkey Brings Zcash to IBW - @Batuzec](https://x.com/Batuzec/status/2058242952393110008?s=20)
+
+[Ledger Shielded Support Could Shift ZEC Flows - @dismad8](https://x.com/dismad8/status/2058203605417824669?s=20)
+
+[ZecMap Chooses Real Zcash Merchants - @ZecMap](https://x.com/ZecMap/status/2058143581408292959?s=20)
+
+[tik tak tik tak 🤓 - @ZecMap](https://x.com/ZecMap/status/2057422228040409553?s=20)
+
+[ZecMap Roadmap Coming Soon - @ZecMap](https://x.com/ZecMap/status/2056847624901181792?s=20)
+
+[Zcash vs CBDCs Live on Zcast - @ZcastEsp](https://x.com/ZcastEsp/status/2056712078518354296?s=20)
+
+[🎧 Zcast Live #10 - @ZcastEsp](https://x.com/ZcastEsp/status/2056786256101888124?s=20)
+
+[In this episode of #NoticieroCripto I analyze the news - @gordonesTV](https://x.com/gordonesTV/status/2057177041355542843?s=20)
+
+[Zodl Now Available for GrapheneOS Users - @zodl_support](https://x.com/zodl_support/status/2055662191471124872?s=20)
+
+
+[#Zcash takes Berlin! - @gordonesTV ](https://x.com/gordonesTV/status/2056729992822702371?s=20)
+
+[Bridging to ZEC is bridging off the radar. - @cipherscan_app](https://x.com/cipherscan_app/status/2056796592846287345?s=20)
+
+[Sunday reading 📰 CipherScan Weekly #9 is live.- @cipherscan_app](https://x.com/cipherscan_app/status/2056129975942512988?s=20)
+
+[Freedom depends on many open source projects.  - @ZcashCommGrants ](https://x.com/ZcashCommGrants/status/2056822223860625655?s=20)
+
+[The more the merrier. Zcash. - @cipherscan_app](https://x.com/cipherscan_app/status/2058150187311284358?s=20)
+
+
+[If you participated in our last beta, you can use your name in @EdgeWallet (and @ZingoLabs PC) right now!    - @ZcashNames](https://x.com/ZcashNames/status/2056863535544840353?s=20)
+
+[When you purchase your Zcash Name, you own it FOREVER - @ZcashNames](https://x.com/ZcashNames/status/2056835631226188105?s=20)
+
+
+[New ad just dropped for self-custody Zcash in @zodl_app 🛡 - @tonymargarit](https://x.com/tonymargarit/status/2057584198395781532?s=20)
+
+
+[El Bloque x Zcash Live - @zkradioz](https://x.com/zkradioz/status/2057842063018729954?s=20)
+
+[ zcash mentioned - @mert](https://x.com/mert/status/2057718676187414775?s=20)
+
+[Digital Self-Defense - @zkradioz](https://x.com/zkradioz/status/2057175740655735091?s=20)
+
+[Crypto News Broadcast - @zkradioz](https://x.com/zkradioz/status/2057153105070850264?s=20)
+
+[Come work with us. - @zodl_co](https://x.com/zodl_app/status/2057547051685274093?s=20)
+
+
+[Beyond XMR and ZEC: Privacy Coins OGs Know - @unstoppablebyhs](https://x.com/unstoppablebyhs/status/2057720829178520008?s=20)
+
+[ZEC Privacy Starts With the Right Wallet - @unstoppablebyhs](https://x.com/unstoppablebyhs/status/2056876806825988236?s=20)
+
+[ZEC and the Private Money Narrative - @scottmelker](https://x.com/scottmelker/status/2058291883072516577?s=20)
+
+
+[Privacy Means Nothing to Reconstruct - @cipherpay_app](https://x.com/cipherpay_app/status/2056420317484998775?s=20)
+
+
+[Use @cipherpay_app, zcash payments for digital and real world commerce! - @k6nb4k](https://x.com/k6nb4k/status/2054098722498208208?s=20)
+
+[Zcash Is the Cash They Fear- @cipherpay_app](https://x.com/cipherpay_app/status/2056798801860411578?s=20)
+
+[Zcash has the strongest investment thesis in crypto. - @arjunkhemani](https://x.com/arjunkhemani/status/2057863693694820636?s=20)
+
+
+
+[New version of #ZingoPC  - @ZingoLabs](https://x.com/ZingoLabs/status/2056422696049607101?s=20)
+
+
+[.@chamath on why sovereign nations will seek a cryptographic paradigm that is private, fungible, and resilient against quantum adversaries. - @arjunkhemani](https://x.com/arjunkhemani/status/2057850364272013320?s=20)
+
+
+[Zcash Reflexivity Builds Real Privacy  - @cypherpunk](https://x.com/cypherpunk/status/2057466693128200652?s=20)
+
+[Zcash as the World’s Payment Layer - @cypherpunk](https://x.com/cypherpunk/status/2057420388116881524?s=20)
+
+[Sergey Brin on Zcash’s ZK Breakthrough - @will__mcevoy](https://x.com/will__mcevoy/status/2057814434915991579?s=20)
+
+[Privacy is normal. - @cypherpunk](https://x.com/cypherpunk/status/2057387432400593129?s=20)
+
+[Don’t mid-curve it - @will__mcevoy](https://x.com/will__mcevoy/status/2054911545327386955?s=20)
+
+[Zcash Shielded Multisigs Are Coming- @cypherpunk](https://x.com/cypherpunk/status/2057091639311466938?s=20)
+
+[Guess what happens when @ledger launches its shielded ZEC integration. - @cypherpunk](https://x.com/cypherpunk/status/2054517259498901948?s=20)
+
+[Something nice about Zcash is that many different camps agree that it's truly crucial for the world. - @cypherpunk](https://x.com/cypherpunk/status/2057081140922454170?s=20)
+
+
+[Our meme bounty got 22 submissions.  - @ZcashIND](https://x.com/ZcashIND/status/2058163539466936488?s=20)
+
+[IVE NOW - Crypto Without Privacy Isn’t Crypto: The $ZEC Bull Case -@Bankless](https://x.com/Bankless/status/2056706435195748564?s=20)
+
+[In our new episode we tell you about the new capsules from @zkradioz and the community of @zcashesp - @ZcastEsp](https://x.com/ZcastEsp/status/2058269231372796038?s=20)
+
+
+[#Zcash present! In our new episode, we tell you about this event in Nigeria.- @ZcastEsp ](https://x.com/ZcastEsp/status/2057543700905927078?s=20)
+
+
+[We also talked about this new #Zcash list in our new episode: - @ZcastEsp](https://x.com/ZcastEsp/status/2053554162626081264?s=20)
+
+[In our new episode we talk a little bit about this innovative service: #Zcash Name. - @ZcastEsp](https://x.com/ZcastEsp/status/2057365274933047358?s=20)
+
+
+[Get your wallet with your name on Zcash ✨ - @ZcashArabia](https://x.com/ZcashArabia/status/2057129432083501173?s=20)
+
+[Zcash News - Issue 19 from ZecHub is now available on our website in Arabic  - @ZcashArabia](https://x.com/ZcashArabia/status/2057200453671153863?s=20)
+
+[Engineering Update from @ZcashFoundation, May 4 to 17.  - @ZcashArabia](https://x.com/ZcashArabia/status/2057115017669947793?s=20)
+
+[@ZecHub announced the launch of the Zcash Hackathon.     -  @ZcashArabia](https://x.com/ZcashArabia/status/2056742302584889425?s=20)
+
+[A call to all ZEC holders! You have one vote for each ZEC you own.  -  @ZcashArabia ](https://x.com/ZcashArabia/status/2056114037562261785?s=20)
+
+[The ZODL Summit is an event held twice a year that brings together contributors to the Zcash ecosystem and its supporting partners. - @ZcashArabia](https://x.com/ZcashArabia/status/2056111121208070315?s=20)
+
+[Those who know how to analyze are already switching to #Zcash.  - @ruZCASH](https://x.com/ruZCASH/status/2058497380727611428?s=20)
+
+[Average daily hash rate #Zcash for 24/05 – 16,1431 GSol/s. - @ruZCASH](https://x.com/ruZCASH/status/2058435650819387678?s=20)
+
+[Even though zec is not an altcoin - @capitao_cripto](https://x.com/capitao_cripto/status/2058228504408342938?s=20)
+
+[The FIAP stage is going to shake at Zcon Vozes 2, with Education in the spotlight! - @AAmandita_](https://x.com/AAmandita_/status/2057559628464947402?s=20)
+
+[ZEC Insider | Community Call 🛡️  - @zcashbrazil](  https://x.com/zcashbrazil/status/2056416887970414863?s=20 )
+
+[ZONA Z 🧠 - Edition #38 with @AAmandita_ - @zcashbrazil](https://x.com/zcashbrazil/status/2056723252970418461?s=20)
+
+[Zcash Engineering Office Hours #10  [Protocol Studies Series] Guided Reading of 12 Sessions of the Zcash Protocol Specification  With @shieldedmark - @zcashbrazil](https://x.com/zcashbrazil/status/2056732204546371969?s=20)
+
+[Zcash Brasil is hosting Zcon Vozes 2 at FIAP Paulista with talks, workshops, networking, and a raffle for tickets to @tokennation_io 2026.- @zcashbrazil](https://x.com/zcashbrazil/status/2056886657861750808?s=20)
+
+[Protocol Study #3: Notes, commitments and nullifier | Engineering #10  - @pedamerico](https://x.com/pedamerico/status/2057206076852867576?s=20)
+
+[Privacy marking its presence on the stage of @BHonchain  - @zcashbrazil](https://x.com/zcashbrazil/status/2057232291936530855?s=20)
+
+[Cronus, Zeus, and the Next Crypto Order - @beary_wood](https://x.com/beary_wood/status/2058313528852041774)
+
+[Releasing ZecTime: - @michael2xl](https://x.com/michael2xl/status/2058049088474460482?s=20)
+
+[A true legend of education confirmed at Zcon Vozes 2. - @zcashbrazil](https://x.com/zcashbrazil/status/2057544032021303604?s=20)
+
+
+[Zcon Voices 2 presents: Introduction to Zcash - @zcashbrazil](https://x.com/zcashbrazil/status/2057918086376808682?s=20)
+
+[To everyone who held $ZEC before it was obvious. - @Ledger](https://x.com/Ledger/status/2057721463625392603?s=20)
+
+[Welcome @akhtariev from @Zcash to our Founder Village 🇧🇷😎🖖🏼 - @palomalecheta](https://x.com/palomalecheta/status/2058234242560135473?s=20)
+
+[Feliz Pizza Day! - @zcashbrazil](https://x.com/zcashbrazil/status/2057957050739536147?s=20)
+
+
+
+[Its important to remember the why 🛡️- @zec_fi](https://x.com/zec_fi/status/2055279818992677222?s=20)
+
+[Life. Liberty. & The pursuit of happiness. 🛡️ - @zec_fi](https://x.com/zec_fi/status/2056727914616390109?s=20)
+
+[buying $ZEC at $670 is like buying $BTC at $670 - @wallstreetbets](https://x.com/wallstreetbets/status/2057546612239458754?s=20)
+
+[From Nothing to Freedom: My ZEC Story - @ShieldedMonk](https://x.com/ShieldedMonk/status/2005008622045077531?s=20)
+
+[we have spent 6 months accumulating zcash.   - @zec_fi](https://x.com/zec_fi/status/2057160394066571654?s=20)
+
+[Crypto’s earliest believers are rotating into $ZEC. Up ~1,140% in a year. SEC probe closed @FortitudeCrypto](https://x.com/FortitudeCrypto/status/2054919432171143523?s=20)
+
+[ZecFi Treasury Update: 05/20/2026- @zec_fi](https://x.com/zec_fi/status/2057212800246661346?s=20)
+
+
+[🚨 Ordinary people only see "money." - @ZcashTR](https://x.com/ZcashTR/status/2054598284530880525?s=20)
+
+[🚨 As the quantum computing era approaches, Zcash has made a critical move.- @ZcashTR](https://x.com/ZcashTR/status/2054478236202000540?s=20)
+
+[If you need a reliable VPN, you can choose @nym. You can also make your payment using $ZEC. - @ZecMap](https://x.com/ZecMap/status/2055239732959809718?s=20)
+
+
+[🚀 ZODL Update - @ZcashTR](https://x.com/ZcashTR/status/2056408997343707310?s=20)
+
+[The flame of independence ignited in Samsun on May 19, 1919, was the first step that changed the fate of a nation. - @ZcashTR](https://x.com/ZcashTR/status/2056605980482310244?s=20)
+
+[🚀 Zcash Core Developments (R&D & Infrastructure) - @ZcashTR](https://x.com/ZcashTR/status/2056622211490869685?s=20)
+
+[📢 NU7 Sentiment Survey: Community Review and Coin Holder Voting via Zodl Begins- @ZcashTR](https://x.com/ZcashTR/status/2056773514921640331?s=20)
+
+[🚨 ZODL Summit 2026 Officially Announced! - @ZcashTR](https://x.com/ZcashTR/status/2057016415970897988?s=20)
+
+[🚨 Zcash Community Grants (ZCG) June election candidacy applications are now open! - @ZcashTR](https://x.com/ZcashTR/status/2057091620781093303?s=20)
+
+[Building the Real-World Utility Layer for Zcash - @Zecmap](https://x.com/ZecMap/status/2057099586318074114?s=20)
+
+[🚀 Zechub Hackathon 3.0 has begun!  - @ZcashTR](https://x.com/ZcashTR/status/2057137108234490142?s=20)
+
+[🚨 Zcash NU7 Voting Has Begun! The Community Is Shaping the Future - @ZcashTR](https://x.com/ZcashTR/status/2057203101157773691?s=20)
+
+
+[After the Zcash Meetup at McPherson University yesterday, I spoke with some of the attendees, and here's what they had to say!   - @ZcashNigeria](https://x.com/ZcashNigeria/status/2058119839181332494?s=20)
+
+[In honor of Bitcoin Pizza Day, @thedrekal organized a @Zcash event. - @ZcashNigeria](https://x.com/ZcashNigeria/status/2058118125116092863?s=20)
+
+[🔥LATEST: $ZEC is building quantum recovery into its shielded protocol. - @coinbureau](https://x.com/coinbureau/status/2056113778442527050?s=20)
+
+[Discussing - Privacy Meets Payments - @ZcashGH](https://x.com/ZcashGH/status/2055362959065395647?s=20)
+
+[.@CryptoMichNL says fully private coins like Zcash are becoming too risky to invest in as governments, especially in Europe, continue tightening restrictions around privacy-focused crypto. - @CoinDesk](https://x.com/CoinDesk/status/2058271626064458109?s=20)
+
+[Privacy is hot. Is private DeFi next? - @WallStreetMrkts](https://x.com/WallStreetMrkts/status/2058299575962595691?s=20)
+
+[Join @ZcashIND at GITS Udaipur on 27 May for an introduction to @Zcash, financial privacy, and zero-knowledge proofs. - @ZcashIND](https://x.com/ZcashIND/status/2058121526239461588?s=20)
+
+
+
+
+
+
+
+
+
+
+---
+
+## Meme of the week 😊
+
+["you've changed we're supposed to"- @BTCTurtle](https://x.com/BTCTurtle/status/2057836318969700686?s=20)
+
+---
+
+# Video Of the week 
+
+[Encrypted money for a free people. - @genzcash](https://x.com/genzcash/status/2057903793602253184?s=20)
+
+## Jobs in the Ecosystem
+
+[We’re hiring an Analytics & Optimization Specialist at ZODL. - @peacemongerZ](https://x.com/peacemongerZ/status/2057461087856165315?s=20)
+
+[ZODL Co—makers of a super excellent Zcash wallet—are hiring for five new positions - @zooko](https://x.com/zooko/status/2045985692350878174?s=20)
+
+
+[Dework tasks posted every Monday - ZecHub](https://app.dework.xyz/zechub-2424)
