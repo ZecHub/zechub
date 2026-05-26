@@ -24,6 +24,8 @@ Before you start writing:
 - Search open pull requests for the issue number and the edition date before starting. For example, search `is:pr is:open "May 30th" repo:ZecHub/zechub`.
 - If the task is unclear, ask in the issue, the ZecHub Discord, or by messaging [ZecHub on Twitter](https://twitter.com/ZecHub) before preparing the full edition.
 
+![Open GitHub issues filtered for current ZecWeekly newsletter tasks](assets/zecweekly-current-task-search.png)
+
 ### 2. Fork the repository
 
 If you are new to GitHub, use this workflow:
@@ -94,6 +96,8 @@ Use these merged newsletter pull requests as examples of accepted submissions:
 - [Zcash Ecosystem Digest | April 11th](https://github.com/ZecHub/zechub/pull/1551)
 - [Zcash Ecosystem Digest | March 28th](https://github.com/ZecHub/zechub/pull/1544)
 - [Zcash Ecosystem Digest | February 14th](https://github.com/ZecHub/zechub/pull/1474)
+
+![Merged ZecWeekly newsletter pull request example](assets/zecweekly-example-pr.png)
 
 When comparing your work with an example, focus on the file location, title format, section order, link descriptions, and whether the pull request connects back to the correct task.
 
