@@ -252,18 +252,18 @@
 - Features: Automatic Shielding | Shielded Memo | Testnet Support | FROST Multisig
 
 ## [Noir wallet](https://www.zknoir.com/)
-![logo](https://i.ibb.co/23RkRZZS/Noirwallet.png)
+![logo](https://i.ibb.co/23RkRZZS/Noirwallet.png "Noir")
 - Devices: Web | Desktop
 - Operating System: Browser
 - Pools: Shielded | Transparent
 - Features: Zcash | Browser Extension | Private Beta | Shielded Transactions | Cross-chain Swaps | Lending & Borrowing | DApp Connections | Native ZECFi
 
-## [Leodex Wallet](https://leodex.io/)
-![logo](https://i.ibb.co/3YjpzYnH/Leo-Dexwallet.png)
+## [LeoDex](https://leodex.io/)
+![logo](https://i.ibb.co/3YjpzYnH/Leo-Dexwallet.png "LeoDex")
 - Devices: Web | Desktop
 - Operating System: Browser | Windows | macOS
 - Wallet Support: Seed Phrase | External Wallet | Receive Address | QR Code | Hardware
-- Pools: Shielded | Transparent
+- Pools: Sapling | Transparent
 - Features: Multi Coin | Cross-chain Swap | No KYC | Non-Custodial | Web App | Desktop App | Shielded ZEC | AnyPay
 
 
