@@ -229,7 +229,7 @@
 ---
 
 ## [Trezor](https://trezor.io/learn/a/zcash-zec)
-![logo](https://i.ibb.co/wcD52Kk/image-2024-...)
+![logo](https://i.ibb.co/twLMCgzW/trezor1.png "Trezor")
 - Devices:
 - Operating System:
 - Wallet Support: Hardware
