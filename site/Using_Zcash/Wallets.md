@@ -236,12 +236,16 @@
 - Pools: Transparent
 - Features: Multi Coin
 
+---
+
 ## [Vultisig](https://vultisig.com)
 ![logo](https://i.ibb.co/93wSrxCc/vultisig.png "Vultisig")
 - Devices: Web | Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS | Browser
 - Pools: Transparent
 - Features: Multi Coin | Web App
+
+---
 
 ## [Vizor](https://vizor.cash/)
 ![logo](https://i.ibb.co/zhW2d2fV/Vizorphoto.png "Vizor")
@@ -251,12 +255,16 @@
 - Pools: Transparent | Sapling | Orchard
 - Features: Automatic Shielding | Shielded Memo | Testnet Support | FROST Multisig
 
+---
+
 ## [Noir wallet](https://www.zknoir.com/)
 ![logo](https://i.ibb.co/23RkRZZS/Noirwallet.png "Noir")
 - Devices: Web | Desktop
 - Operating System: Browser
 - Pools: Shielded | Transparent
 - Features: Zcash | Browser Extension | Private Beta | Shielded Transactions | Cross-chain Swaps | Lending & Borrowing | DApp Connections | Native ZECFi
+
+---
 
 ## [LeoDex](https://leodex.io/)
 ![logo](https://i.ibb.co/3YjpzYnH/Leo-Dexwallet.png "LeoDex")
