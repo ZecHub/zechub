@@ -78,18 +78,6 @@ ___
 - Deposit Time: 35 Minutes 
 ___
 
-### [Kraken](https://kraken.com)
-
-<a href="https://kraken.com">
-    <img src="https://assets.kraken.com/marketing/static/kraken-logo.jpg" alt="Kraken Promotional" width="200" height="100"/>
-</a>
-
-- Website: [Kraken](https://kraken.com)
-- Pairs: ALL/ZEC
-- Supports: Transparent
-- Deposit Time: 60 minutes
-___
-
 ### [KuCoin](https://kucoin.com)
 
 <a href="https://kucoin.com">
@@ -113,3 +101,81 @@ ___
 - Supports: Transparent
 - Deposit Time: 25 Minutes 
 ___
+
+## [Robinhood](https://robinhood.com/us/en/crypto/ZEC/) 
+
+<a href="https://robinhood.com">
+  <img src="https://avatars.githubusercontent.com/u/18473991?s=200&v=4" alt="Robinhood Logo" width="200" height="100"/>
+</a>
+
+- Website: [Robinhood](https://robinhood.com)
+- Pairs: ZEC/USD
+- Supports: Transparent
+- Deposit Time: Not supported
+
+___
+
+## [Bitstamp](https://www.bitstamp.net/)
+
+<a href="https://www.bitstamp.net/">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Bitstamp-vector-logo.svg/1280px-Bitstamp-vector-logo.svg.png?_=20210126161449" alt="Bitstamp Logo" width="200" height="100"/>
+</a>
+
+- Website: [Bitstamp](https://www.bitstamp.net/)
+- Pairs: ZEC/USD
+- Supports: Transparent
+- Deposit Time: Not officially stated
+
+___
+
+## [KuCoin](https://www.kucoin.com/trade/ZEC-USDT) 
+
+<a href="https://www.kucoin.com/">
+  <img src="https://avatars.githubusercontent.com/u/6188901?s=200&v=4" alt="KuCoin Logo" width="200" height="100"/>
+</a>
+
+- Website: [KuCoin](https://www.kucoin.com/)
+- Pairs: ZEC/USDT, ZEC/BTC
+- Supports: Transparent, Shielded (z-address Deposit & Withdrawal)
+- Deposit Time: 30 Minutes
+
+___
+
+## [YoBit](https://yobit.net/)
+
+<a href="https://yobit.net/">
+  <img src="https://images.seeklogo.com/logo-png/42/1/yobit-yo-logo-png_seeklogo-423593.png" alt="YoBit Logo" width="200" height="100"/>
+</a>
+
+- Website: [YoBit](https://yobit.net/)
+- Pairs: ZEC/BTC, ZEC/ETH, ZEC/USDT
+- Supports: Transparent
+- Deposit Time: Up to 24 - 48 hours
+
+___
+
+### [Kraken](https://kraken.com)
+
+<a href="https://kraken.com">
+    <img src="https://assets.kraken.com/marketing/static/kraken-logo.jpg" alt="Kraken Promotional" width="200" height="100"/>
+</a>
+
+- Website: [Kraken](https://kraken.com)
+- Pairs: ALL/ZEC
+- Supports: Transparent
+- Deposit Time: 60 minutes
+___
+
+## [Backpack](https://backpack.exchange/)
+
+<a href="https://backpack.exchange/">
+  <img src="https://github.com/backpack-exchange/bpx-api-client/blob/master/img/backpack.png?raw=true" alt="Backpack Logo" width="200" height="100"/>
+</a>
+
+- Website: [Backpack](https://backpack.exchange/)
+- Pairs: ZEC/USD (spot) + ZEC perpetual futures (ZEC‑PERP) live
+- Supports: Transparent
+- Deposit Time: 30 Minutes
+
+
+
