@@ -6,7 +6,7 @@
 
 If you're a member of the Zcash community, and want to contribute to building ZecHub, there are a few things that are super helpful.
 
-Curate links for the newsletter and add them to the newsletter's github page: -> [Click here for instructions](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md)
+Curate links for the newsletter and add them to the newsletter's GitHub page: -> [Click here for instructions](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
 Fact check the wiki docs, suggest edits, and propose new pages in Github
 
