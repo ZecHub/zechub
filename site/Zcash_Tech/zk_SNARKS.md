@@ -224,6 +224,7 @@ Further Learning:
 
 - [Shielded Pools](/using-zcash/shielded-pools) — How ZK-SNARKs are used in Zcash value pools
 - [Halo](/zcash-tech/halo) — Zcash's ZK-SNARK system that eliminates trusted setups
+- [Post-Quantum Security in Zcash](/zcash-tech/post-quantum-security) - How future quantum risks relate to Zcash cryptography
 - [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — ZSAs built on ZK-SNARK technology
 - [What is ZEC and Zcash](/start-here/what-is-zec-and-zcash) — Introduction to Zcash and its privacy model
 - [Privacy as a Core Principle](/privacy/privacy-as-a-core-principle) — Why financial privacy matters
