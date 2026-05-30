@@ -1,4 +1,3 @@
-cat > ~/zechub/site/Research/Fact_Checking_Arkham_Intelligence_Zcash_Privacy.md << 'EOF'
 ---
 published: 2026-05-26
 ---
@@ -185,4 +184,3 @@ This report was produced using ZecLedger — an open-source AI-powered Zcash acc
 - [Halo 2 Documentation](https://zcash.github.io/halo2/)
 - [ZecLedger GitHub](https://github.com/vancube2/zecledger)
 - [Arkham Intelligence Zcash Guide](https://info.arkm.com/research/how-to-track-zcash-transactions)
-EOF
