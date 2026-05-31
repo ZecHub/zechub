@@ -1,138 +1,81 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/zechubglobal/zcashbrasil/zcashtech/Halo.md" target="_blank">
+  <img src="https://img.shields.io/badge/Editar-blue" alt="Editar Página"/>
+</a>
+
 # Halo
 
+> 🇺🇸 [English version](/zcash-tech/halo)
 
-## O que é Halo?
+Halo é um sistema de prova de conhecimento zero confiável e recursivo descoberto por Sean Bowe na Electric Coin Co. Ele elimina a necessidade de uma configuração confiável (trusted setup) e torna a composição recursiva de provas prática. O Halo foi o primeiro sistema de prova de conhecimento zero a combinar essas duas propriedades de forma eficiente, sendo amplamente reconhecido como um avanço científico. O pool blindado Orchard do Zcash, ativado com a Atualização de Rede 5 (NU5), usa o sistema de prova Halo 2.
 
-Halo é um zero-knowledge proof (ZKP) descoberta por Sean Bowe na Electric Coin Co. Ele elimina o Trusted Setup e permite maior escalabilidade da blockchain Zcash. Halo foi o primeiro sistema zero-knowledge proof que é eficiente e recursivo amplamente considerado como um avanço científico.
+![Visão geral do Halo](https://electriccoin.co/wp-content/uploads/2021/01/Halo-on-Z-1440x720.png "Visão geral do Halo")
 
-- [halo](https://electriccoin.co/wp-content/uploads/2021/01/Halo-on-Z-1440x720.png "halo")
+## TL;DR
 
----
-
-**Componentes**
-
-Succinct Polynomial Commitment Scheme: permite que um colaborador se comprometa com um polinômio com uma string curta que pode ser usada por um verificador para confirmar as avaliações reivindicadas do polinômio confirmado.
-
-Polynomial Interactive Oracle Proof: O verificador pede ao provador (algoritmo) para abrir todos os compromissos em vários pontos de sua escolha usando o esquema de compromisso polinomial e verifica se a identidade é verdadeira entre eles.
-
----
-
-### No Trusted Setup
-
-zkSNARKs dependem de uma string de referência comum (CRS) como um parâmetro público para provar e verificar. Este CRS deve ser gerado antecipadamente por uma parte confiável. Até recentemente, era necessário elaborar cálculos multipartidários seguros (MPC) como aqueles executados pela rede Aztec e Zcash para mitigar o risco envolvido durante a [cerimônia do Trusted Setup](https://zkproof.org/2021/06/30/setup-cerimônias/amp/).
-
-Anteriormente, as pools blindadas Sprout & Sapling da Zcash utilizavam os sistemas BCTV14 & Groth 16 zk-proving. Embora estes fossem seguros, havia limitações. Eles não eram escaláveis, pois estavam vinculados a um único aplicativo, o "resíduo tóxico" (restos de material criptográfico gerado durante a cerimônia do Block Genesis) poderia persistir e havia um elemento de confiança (embora mínimo) para os usuários considerarem a cerimônia aceitável.
-
-Ao agrupar repetidamente várias instâncias de problemas difíceis em ciclos de curvas elípticas, de modo que as provas computacionais possam ser usadas para raciocinar sobre si mesmas com eficiência (amortização aninhada), a necessidade de um Trusted Setup é eliminada. Isso também significa que a string de referência estruturada (saída da cerimônia) pode ser atualizada, permitindo aplicativos como contratos inteligentes.
-
-O Halo fornece aos usuários duas garantias importantes em relação à segurança do sistema zero-knowledge proof em larga escala. Em primeiro lugar, permite que os usuários provem que ninguém que esteve envolvido na cerimônia criou um backdoor secreto para executar transações fraudulentas. Em segundo lugar, permite que os usuários demonstrem que o sistema permaneceu seguro ao longo do tempo, mesmo com atualizações e alterações.
-
-- [Explicação de Sean Bowes na Dystopia Labs](https://www.youtube.com/watch?v=KdkVTEHUxgo)
- 
----
-
-### Recursive Proofs
-
-A composição de Recursive Proofs permite que uma única prova ateste a correção de outras provas praticamente ilimitadas, permitindo que uma grande quantidade de computação (e informação) seja comprimida. Este é um componente essencial para a escalabilidade, até porque nos permite dimensionar horizontalmente a rede enquanto ainda permite que bolsões de participantes confiem na integridade do restante da rede.
-
-Antes do Halo, obter composição de Recursive Proofs exigia grandes despesas computacionais e um Trusted Setup. Uma das principais descobertas foi uma técnica chamada “nested amortization”. Essa técnica permite a composição recursiva usando o esquema de compromisso polinomial baseado no argumento do produto interno, melhorando massivamente o desempenho e evitando o Trusted setup.
-
-No [documento Halo](https://eprint.iacr.org/2019/1021.pdf), descrevemos completamente esse esquema de compromisso polinomial e descobrimos que existia uma nova técnica de agregação nele. A técnica permite que um grande número de provas criadas independentemente sejam verificadas quase tão rapidamente quanto a verificação de uma única prova. Isso por si só ofereceria uma alternativa melhor aos zk-SNARKs anteriores usados ​​na Zcash.
+- O Halo elimina a **configuração confiável** que os sistemas de prova anteriores do Zcash (Sprout, Sapling) exigiam.
+- Ele permite **provas recursivas**: uma prova pode verificar a correção de muitas outras provas.
+- O **Halo 2** é a implementação em produção, escrita em Rust, usada pelo pool blindado Orchard desde a NU5.
+- Remover a configuração confiável significa que as atualizações de protocolo não precisam mais de uma nova cerimônia multi-partes.
+- A mesma pesquisa influenciou o Ethereum, a Filecoin e vários projetos de zkRollup.
 
 ---
 
-### Halo 2
+## Explicação Principal
 
-Halo 2 é uma implementação zk-SNARK de alto desempenho escrita em Rust que elimina a necessidade de um Trusted Setup enquanto prepara o cenário de escalabilidade para a  Zcash.
+O Zcash usa provas de conhecimento zero para que transações blindadas provem sua validade sem revelar remetente, destinatário ou valor na blockchain pública. Os sistemas de prova anteriores do Zcash (Sprout usava BCTV14; Sapling usava Groth16) eram seguros e eficientes, mas dependiam de uma **cerimônia de configuração confiável**.
 
-![halo2image](https://electriccoin.co/wp-content/uploads/2020/09/Halo-puzzle-03-1024x517.jpg "halo2")
+Em uma configuração confiável, os participantes geram conjuntamente uma aleatoriedade secreta. Se algum material secreto — frequentemente chamado de "lixo tóxico" — não for destruído, uma parte desonesta poderia criar provas falsas. O Zcash reduziu esse risco por meio de cerimônias multi-partes elaboradas, mas os usuários ainda precisavam confiar que pelo menos um participante destruiu sua parte.
 
-Ele inclui uma generalização de nossa abordagem chamada de “esquema de acumulação”. Essa nova formalização expõe como nossa técnica de amortização aninhada realmente funciona; adicionando provas a um objeto chamado “acumulador”, onde as provas raciocinam sobre o estado anterior do acumulador, podendo verificar se todas as provas anteriores estavam corretas (por indução) simplesmente verificando o estado atual do acumulador.
-
-![Accumulatorimage](https://i.imgur.com/l4HrYgE.png "acumulador")
-
-Paralelamente, muitas outras equipes foram descobrindo novos IOPs polinomiais que eram mais eficientes que o Sonic (usado no Halo 1), como o Marlin.
-
-O mais eficiente desses novos protocolos é o PLONK, que concede enorme flexibilidade no design de implementações eficientes com base nas necessidades específicas do aplicativo e fornece tempo de prova 5x melhor do Sonic.
-
-- [Visão geral do PLONK](https://www.youtube.com/watch?v=P1JeN30RdwQ)
+**O Halo remove completamente esse requisito.** Em vez de depender de uma string de referência comum fixa, o Halo usa compromissos polinomiais e amortização aninhada. As provas raciocinam sobre provas anteriores, eliminando o lixo tóxico e a confiança em participantes da configuração.
 
 ---
 
-### Como isso beneficia a Zcash?
+## Aprofundamento
 
-A Pool Orchard Blindada ativada na NU5 é a implementação deste novo sistema na rede Zcash. Protegido pelo mesmo design de catraca usado entre Sprout e Sapling com a intenção de retirar gradualmente as Pools Blindadas mais antigas. 
+### Sem Configuração Confiável
 
-Isso incentiva a migração para um sistema de prova totalmente confiável, reforçando a confiança na solidez da base monetária e reduzindo a complexidade da implementação e a superfície de ataque da Zcash em geral. Após a ativação da NU5 em meados de 2022, a integração de Recursive Proofs tornou-se possível (embora isso não esteja completo). Vários aprimoramentos de privacidade também foram feitos tangencialmente. A introdução de 'Ações' para substituir inputs/outputs ajudou a reduzir a quantidade de metadados da transação.
+O Halo evita a configuração confiável com dois primitivos:
 
-Os Trusted Setup ​​geralmente são difíceis de coordenar e apresentam um risco sistêmico. Seria necessário repeti-los para cada grande atualização de protocolo. Removê-los apresenta uma melhoria substancial para a implementação segura de novas atualizações de protocolo.
+**Esquema de compromisso polinomial sucinto.** Um provador se compromete com um polinômio com uma string curta. Um verificador pode verificar avaliações reivindicadas sem ver toda a computação.
 
-A composição Recursive Proofs tem o potencial de comprimir quantidades ilimitadas de computação, criando sistemas distribuídos auditáveis, tornando a Zcash altamente capaz, especialmente com a mudança para Proof of Stake. Isso também é útil para extensões como Zcash Shielded Assets e para melhorar a capacidade da Layer 1 na extremidade superior do uso de um full node nos próximos anos para a Zcash.
+**Prova interativa de oráculo polinomial.** O verificador pede ao provador que abra compromissos em pontos escolhidos e verifica se as identidades esperadas se mantêm.
 
----
+Ao colapsar múltiplas instâncias de problemas difíceis sobre ciclos de curvas elípticas (**amortização aninhada**), o sistema permite que as provas raciocinem sobre provas anteriores sem material secreto.
 
-## Halo no ecossistema mais amplo
+Garantias concretas para usuários do Zcash:
+1. Nenhum participante de cerimônias anteriores pode usar lixo tóxico para forjar provas no sistema Halo.
+2. Futuras atualizações de protocolo não requerem nova cerimônia de configuração confiável.
 
-A Electric Coin Company firmou um acordo com a Protocol Labs, Filecoin Foundation e a Ethereum Foundation para explorar o Halo R&D, incluindo como a tecnologia pode ser usada em suas respectivas redes. O acordo visa fornecer melhor escalabilidade, interoperabilidade e privacidade entre os ecossistemas e para a Web 3.0.
+[Explicação de Sean Bowe no Dystopia Labs](https://www.youtube.com/watch?v=KdkVTEHUxgo)
 
-Além disso, o Halo 2 está sob as [licenças de código aberto MIT e Apache 2.0](https://github.com/zcash/halo2#readme), o que significa que qualquer pessoa no ecossistema pode construir com o sistema de teste.
+### Provas Recursivas
 
----
+A composição recursiva permite que uma prova ateste a correção de muitas outras provas. O [artigo do Halo](https://eprint.iacr.org/2019/1021.pdf) descreve uma técnica de agregação em que muitas provas independentes podem ser verificadas quase tão rapidamente quanto uma única prova.
 
-### Filecoin
+Para o Zcash, a recursão cria a base para escalabilidade horizontal, compressão de computação blindada e futuros contratos inteligentes.
 
-Desde a sua implantação, a biblioteca halo2 foi adotada em projetos como o zkEVM, há potencial de integração do Halo 2 no sistema de prova para a máquina virtual Filecoin. Filecoin requer inúmeras provas caras de espaço-tempo/provas de replicação. O Halo2 será fundamental na compactação do uso do espaço, dimensionando melhor a rede.
+### Halo 2 e o Pool Orchard
 
-- [Filecoin Foundation -  Zooko](https://www.youtube.com/watch?v=t4XOdagc9xw)
+O Halo 2 é uma implementação de alto desempenho em Rust com um **esquema de acumulação**: provas são adicionadas a um acumulador, e cada nova prova raciocina sobre o estado anterior. Verificar o acumulador atual garante confiança em toda a cadeia de provas anteriores.
 
-Além disso, seria altamente benéfico para os ecossistemas Filecoin & Zcash se os pagamentos de armazenamento Filecoin pudessem ser feitos em ZEC, proporcionando o mesmo nível de privacidade para compras de armazenamento que existe nas transferências blindadas Zcash. Esse suporte adicionaria a capacidade de criptografar arquivos no armazenamento Filecoin e adicionar suporte a clients móveis para que eles pudessem “anexar” mídia ou arquivos a um memorando Zcash.
+O **pool blindado Orchard**, ativado com a NU5 em maio de 2022, é o primeiro deployment em produção do Halo 2 no Zcash. Usa Endereços Unificados começando com `u1`.
 
-- [Blog ECC x Filecoin](https://electriccoin.co/blog/ethereum-zcash-filecoin-collab/)
-
----
-
-### Ethereum
-
-Implementação de uma Halo 2 Proof para a eficiente função de atraso verificável (VDF) que está sendo desenvolvida. Um VDF é um primitivo criptográfico que tem muitos casos de uso em potencial.
-
-Ele pode ser usado como uma fonte de aleatoriedade de propósito geral, incluindo o uso em aplicativos de contrato inteligente, bem como eleição de líder em Proof of Stake na Ethereum e outros protocolos.
-
-A ECC, Filecoin Foundation, Protocol Labs e a Ethereum Foundation também trabalharão com a [SupraNational](https://www.supranational.net/), um fornecedor especializado em criptografia acelerada por hardware, para possíveis projetos de GPU e ASIC e desenvolvimento do VDF.
-
-O [grupo de exploração de privacidade e escala](https://appliedzkp.org/) também está pesquisando diferentes maneiras pelas quais as Halo 2 Proofs podem melhorar a privacidade e a escalabilidade do ecossistema Ethereum. Este grupo se estende até a Ethereum Foundation e tem um amplo foco em Zero-knowledge Proof e primitivas criptográficas.
+O Halo 2 é lançado sob as **licenças open-source MIT e Apache 2.0**.
 
 ---
 
-## Outros projetos usando Halo
+## Páginas Relacionadas
 
-+ [Anoma, um protocolo que preserva a privacidade](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
+- [zk-SNARKs](/zcash-tech/zk-snarks)
+- [Pools Blindados](/using-zcash/shielded-pools)
+- [Chaves de Visualização](/zcash-tech/viewing-keys)
+- [FROST](/zcash-tech/frost)
+- [Segurança Pós-Quântica](/zcash-tech/post-quantum-security)
 
-+ [Oribis, uma L2 zkRollup na Cardano](https://docs.orbisprotocol.com/orbis/technology/halo-2)
+## Recursos
 
-+ [Darkfi, uma blockchain privada L1 zkEVM](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
-
-+ [Scroll, um L2 zkRollup na Ethereum](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
-
----
-
-**Aprendizagem Adicional**:
-
-- [Uma introdução ao zkp e halo 2 - Hanh Huynh Huu](https://www.youtube.com/watch?v=jDHWJLjQ9oA)
-
-- [Halo 2 com Daira & Str4d - ZKPodcast](https://www.youtube.com/watch?v=-lZH8T5i-K4)
-
-- [Blog - Explicação Técnica](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)
-
-- [Halo 2 Community Showcase - Ying Tong @Zcon3](https://www.youtube.com/watch?v=JJi2TT2Ahp0)
-
----
-
-**Documentação**
-
-- [Recursos do Halo 2](https://github.com/adria0/awesome-halo2)
-
-- [Documentos do Halo 2](https://zcash.github.io/halo2/)
-
-- [Halo 2 github](https://github.com/zcash/halo2)
-
-
+- [Artigo do Halo (eprint)](https://eprint.iacr.org/2019/1021.pdf)
+- [GitHub do Halo 2](https://github.com/zcash/halo2)
+- [Documentação do Halo 2](https://zcash.github.io/halo2/)
+- [Blog explicativo — ECC](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)
+- [Explicação de Sean Bowe — Dystopia Labs](https://www.youtube.com/watch?v=KdkVTEHUxgo)
