@@ -8,6 +8,8 @@ A visual map of the ZecHub wiki sorted by experience level. If you are new and
 not sure where to start, use **Level 1**. If you already hold ZEC and want to
 use it well, move to **Level 2**. Builders and researchers start at **Level 3**.
 
+> 🇧🇷 [Versão em Português](/zechubglobal/zcashbrasil/guides/mapa-iniciantes)
+
 ---
 
 ## Visual Map
