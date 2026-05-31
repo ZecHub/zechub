@@ -4,7 +4,7 @@ A visual map of ZecHub sorted by experience level. If you are new and not
 sure where to start, or you have used Zcash for a while and want the deeper
 material, this page points you to the right section of the wiki.
 
-![ZecHub Knowledge Roadmap](PASTE_GITHUB_IMAGE_URL_HERE)
+![ZecHub Knowledge Roadmap](https://github.com/user-attachments/assets/53793816-097a-4642-a028-a95a7d901d7f)
 
 ## How to read the map
 
