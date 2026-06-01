@@ -18,3 +18,5 @@ Blockchain explorers are simply tools that allow one to visualize what has alrea
 - [3xpl](https://3xpl.com/zcash)
 
 - [Bitquery](https://explorer.bitquery.io/zcash)
+
+- [Zexplorer (testnet)](https://zexplorer.app/testnet)
