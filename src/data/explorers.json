@@ -1,0 +1,318 @@
+typescript
+import { z } from 'zod';
+import { Logger } from 'winston';
+import { createLogger, format, transports } from 'winston';
+import { URL } from 'url';
+
+// Type definitions
+interface Explorer {
+  name: string;
+  url: string;
+  description: string;
+}
+
+interface ExplorerConfig {
+  explorer: Explorer;
+  retryAttempts: number;
+  timeout: number;
+}
+
+interface CacheEntry {
+  data: Explorer;
+  timestamp: number;
+}
+
+// Zod schema for validation
+const ExplorerSchema = z.object({
+  name: z.string()
+    .min(1, 'Name is required')
+    .max(100, 'Name must be less than 100 characters')
+    .regex(/^[a-zA-Z0-9\s\-_]+$/, 'Name must contain only alphanumeric characters, spaces, hyphens, or underscores'),
+  url: z.string()
+    .url('Must be a valid URL')
+    .regex(/^https?:\/\//, 'URL must start with http:// or https://')
+    .max(500, 'URL must be less than 500 characters'),
+  description: z.string()
+    .min(10, 'Description must be at least 10 characters')
+    .max(1000, 'Description must be less than 1000 characters')
+    .regex(/^[a-zA-Z0-9\s\-_.,!?()]+$/, 'Description contains invalid characters')
+});
+
+// Logger configuration
+const logger: Logger = createLogger({
+  level: process.env.LOG_LEVEL || 'info',
+  format: format.combine(
+    format.timestamp(),
+    format.errors({ stack: true }),
+    format.json()
+  ),
+  defaultMeta: { service: 'explorer-service' },
+  transports: [
+    new transports.Console({
+      format: format.combine(
+        format.colorize(),
+        format.simple()
+      )
+    }),
+    new transports.File({ 
+      filename: 'error.log', 
+      level: 'error',
+      maxsize: 5242880, // 5MB
+      maxFiles: 5
+    }),
+    new transports.File({ 
+      filename: 'combined.log',
+      maxsize: 5242880,
+      maxFiles: 5
+    })
+  ]
+});
+
+// Performance optimization: Cache explorer data
+const explorerCache = new Map<string, CacheEntry>();
+const CACHE_TTL = 5 * 60 * 1000; // 5 minutes
+
+// Default configuration
+const DEFAULT_CONFIG: ExplorerConfig = {
+  explorer: {
+    name: 'Zexplorer',
+    url: 'https://zexplorer.io',
+    description: 'A comprehensive Zcash blockchain explorer providing real-time transaction tracking, block details, and network statistics.'
+  },
+  retryAttempts: 3,
+  timeout: 5000
+};
+
+/**
+ * Validates and sanitizes explorer data
+ * @param explorer - Raw explorer data to validate
+ * @returns Validated Explorer object
+ * @throws {Error} If validation fails
+ */
+function validateExplorerData(explorer: unknown): Explorer {
+  logger.debug('Validating explorer data', { data: explorer });
+  
+  try {
+    const validatedData = ExplorerSchema.parse(explorer);
+    logger.info('Explorer data validated successfully');
+    return validatedData;
+  } catch (error) {
+    if (error instanceof z.ZodError) {
+      const validationErrors = error.errors.map(e => ({
+        field: e.path.join('.'),
+        message: e.message
+      }));
+      logger.error('Explorer data validation failed', { errors: validationErrors });
+      throw new Error(`Invalid explorer data: ${JSON.stringify(validationErrors)}`);
+    }
+    logger.error('Unexpected validation error', { error });
+    throw new Error('Failed to validate explorer data');
+  }
+}
+
+/**
+ * Sanitizes URL to prevent security issues
+ * @param url - URL to sanitize
+ * @returns Sanitized URL string
+ * @throws {Error} If URL is invalid or contains unsafe components
+ */
+function sanitizeUrl(url: string): string {
+  logger.debug('Sanitizing URL', { url });
+  
+  try {
+    const parsedUrl = new URL(url);
+    
+    // Only allow HTTP and HTTPS protocols
+    if (!['http:', 'https:'].includes(parsedUrl.protocol)) {
+      throw new Error('Invalid protocol');
+    }
+    
+    // Remove any authentication credentials
+    parsedUrl.username = '';
+    parsedUrl.password = '';
+    
+    // Remove fragment identifiers
+    parsedUrl.hash = '';
+    
+    const sanitizedUrl = parsedUrl.toString();
+    logger.debug('URL sanitized successfully', { sanitizedUrl });
+    return sanitizedUrl;
+  } catch (error) {
+    logger.error('URL sanitization failed', { url, error });
+    throw new Error('Invalid URL provided');
+  }
+}
+
+/**
+ * Checks if explorer is reachable
+ * @param url - Explorer URL to check
+ * @param timeout - Request timeout in milliseconds
+ * @returns Promise resolving to boolean indicating reachability
+ */
+async function checkExplorerReachability(url: string, timeout: number = DEFAULT_CONFIG.timeout): Promise<boolean> {
+  logger.info('Checking explorer reachability', { url, timeout });
+  
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), timeout);
+  
+  try {
+    const response = await fetch(url, {
+      method: 'HEAD',
+      signal: controller.signal,
+      headers: {
+        'User-Agent': 'ZcashExplorerValidator/1.0'
+      }
+    });
+    
+    clearTimeout(timeoutId);
+    const isReachable = response.ok || response.status < 500;
+    logger.info(`Explorer reachability check completed`, { url, status: response.status, isReachable });
+    return isReachable;
+  } catch (error) {
+    clearTimeout(timeoutId);
+    
+    if (error instanceof Error) {
+      if (error.name === 'AbortError') {
+        logger.warn('Explorer reachability check timed out', { url, timeout });
+        return false;
+      }
+      logger.error('Explorer reachability check failed', { url, error: error.message });
+    }
+    return false;
+  }
+}
+
+/**
+ * Adds explorer to the explorer page with retry logic
+ * @param explorer - Explorer data to add
+ * @param config - Optional configuration overrides
+ * @returns Promise resolving to the added Explorer
+ * @throws {Error} If addition fails after all retries
+ */
+export async function addExplorerToPage(
+  explorer: unknown,
+  config: Partial<ExplorerConfig> = {}
+): Promise<Explorer> {
+  const mergedConfig: ExplorerConfig = { ...DEFAULT_CONFIG, ...config };
+  const cacheKey = `explorer_${JSON.stringify(explorer)}`;
+  
+  logger.info('Starting explorer addition process', { 
+    explorerName: mergedConfig.explorer.name,
+    retryAttempts: mergedConfig.retryAttempts 
+  });
+  
+  // Check cache first
+  const cachedExplorer = explorerCache.get(cacheKey);
+  if (cachedExplorer && (Date.now() - cachedExplorer.timestamp) < CACHE_TTL) {
+    logger.info('Returning cached explorer data');
+    return cachedExplorer.data;
+  }
+  
+  // Validate explorer data
+  let validatedExplorer: Explorer;
+  try {
+    validatedExplorer = validateExplorerData(explorer);
+  } catch (error) {
+    logger.error('Explorer validation failed, aborting addition', { error });
+    throw error;
+  }
+  
+  // Sanitize URL
+  const sanitizedUrl = sanitizeUrl(validatedExplorer.url);
+  validatedExplorer = { ...validatedExplorer, url: sanitizedUrl };
+  
+  // Check reachability with retries
+  let isReachable = false;
+  for (let attempt = 1; attempt <= mergedConfig.retryAttempts; attempt++) {
+    logger.info(`Reachability check attempt ${attempt}/${mergedConfig.retryAttempts}`);
+    
+    try {
+      isReachable = await checkExplorerReachability(
+        validatedExplorer.url,
+        mergedConfig.timeout
+      );
+      
+      if (isReachable) {
+        logger.info('Explorer is reachable');
+        break;
+      }
+      
+      if (attempt < mergedConfig.retryAttempts) {
+        const backoffDelay = Math.min(1000 * Math.pow(2, attempt), 10000);
+        logger.warn(`Explorer not reachable, retrying in ${backoffDelay}ms`);
+        await new Promise(resolve => setTimeout(resolve, backoffDelay));
+      }
+    } catch (error) {
+      logger.error(`Reachability check attempt ${attempt} failed`, { error });
+      if (attempt === mergedConfig.retryAttempts) {
+        throw new Error(`Failed to verify explorer reachability after ${mergedConfig.retryAttempts} attempts`);
+      }
+    }
+  }
+  
+  if (!isReachable) {
+    logger.warn('Adding explorer despite unreachability', { url: validatedExplorer.url });
+  }
+  
+  // Cache the validated explorer
+  explorerCache.set(cacheKey, {
+    data: validatedExplorer,
+    timestamp: Date.now()
+  });
+  
+  logger.info('Explorer added successfully', { 
+    name: validatedExplorer.name,
+    url: validatedExplorer.url 
+  });
+  
+  return validatedExplorer;
+}
+
+/**
+ * Clears the explorer cache
+ */
+export function clearExplorerCache(): void {
+  logger.info('Clearing explorer cache');
+  explorerCache.clear();
+}
+
+/**
+ * Removes an explorer from the cache
+ * @param explorer - Explorer data to remove from cache
+ */
+export function removeExplorerFromCache(explorer: Explorer): void {
+  const cacheKey = `explorer_${JSON.stringify(explorer)}`;
+  explorerCache.delete(cacheKey);
+  logger.debug('Removed explorer from cache', { name: explorer.name });
+}
+
+/**
+ * Gets the current cache size
+ * @returns Number of cached explorers
+ */
+export function getCacheSize(): number {
+  return explorerCache.size;
+}
+
+/**
+ * Validates and adds Zexplorer to the explorer page
+ * @returns Promise resolving to the added Explorer
+ */
+export async function addZexplorerToPage(): Promise<Explorer> {
+  logger.info('Adding Zexplorer to explorer page');
+  
+  const zexplorerData: Explorer = {
+    name: 'Zexplorer',
+    url: 'https://zexplorer.io',
+    description: 'A comprehensive Zcash blockchain explorer providing real-time transaction tracking, block details, and network statistics.'
+  };
+  
+  try {
+    const result = await addExplorerToPage(zexplorerData);
+    logger.info('Zexplorer added successfully', { result });
+    return result;
+  } catch (error) {
+    logger.error('Failed to add Zexplorer', { error });
+    throw error;
+  }
+}
