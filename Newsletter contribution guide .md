@@ -1,12 +1,12 @@
-# How to Contribute to the Zcash Ecosystem Weekly Newsletter
+# Updated Guide to Contributing to the ZecHub Weekly Newsletter
 
-This guide is to help you contribute to the Zcash Weekly Newsletter without wasting your time. I am going to explain it step by step and as plainly as possible.
+This guide is to help you contribute to the ZecHub Weekly Newsletter without wasting your time. I am going to explain it step by step and as plainly as possible.
 
 This guide will help you understand how to start collecting links across the ecosystem. You can find updates on different global ambassadors Zcash X, the [Zcash Forum](https://forum.zcashcommunity.com/), [Zcash Discord](https://discord.gg/zcash), [ZecHub TikTok](https://www.tiktok.com/@itszechub?_r=1&_t=ZS-96vSJy1vvRI), [ZecHub YouTube](https://youtube.com/@zechub?sub_confirmation=1), [ZecHub Instagram](https://www.instagram.com/itszechub?igsh=MW5mNHlpdmtnbWpscg==), and other Zcash websites that provide updated information.
 
 The goal is to make sure that all links are accurate and relevant to the week you are covering. Links from X must be updated links from the same week. Do not use links from previous weeks, as those have already been included in earlier newsletters.
 
-The next thing to do is to open a separate document on your phone or laptop, whichever you are using to work. The Ecosystem Digest is always organized in sections.
+The next thing to do is to open a separate document on your phone or laptop, whichever you are using to work. Collect the links from monday to saturday, you are to submit your final work on saturday too early and you will miss the important updates. Make sure you read the task description the due date is always there. The Ecosystem Digest is always organized in sections.
 
 We have a section for [ZODL](https://x.com/zodl_app?s=21), [ShieldedLabs](https://x.com/shieldedlabs?s=21), and the [ZcashFoundation](https://x.com/zcashfoundation?s=21). Every link related to these organizations should be placed in the appropriate section.
 
