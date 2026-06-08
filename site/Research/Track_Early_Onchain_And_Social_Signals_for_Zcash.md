@@ -18,19 +18,19 @@ The early on-chain metrics in activity stands as one of the earliest activities 
 According to the Messari ZEC Dashboard, CoinMetrics and Blockchair, analysis of ZEC’s network activity provides actionable insight into whether large whale movements correspond with spikes in social activity such as tweet volume and broader interest online. Specifically, Messari charts reveal a clear surge in daily on-chain transaction volume and exchange inflows during the period from July 1 to 22, 2025, peaking around July 22; coinciding with elevated social chatter and price movement .
 Blockchair data shows that the share of ZEC held in shielded addresses rose from approximately 18 % to 20 % during the same window, indicating growing use of privacy-preserving transactions.  (See Figure 1)
 
-# Figure 1. Share of ZEC held in Shielded Address – July 2025
-(Source: Blockchair (2025). Shielded supply percentage for July 1–22, 2025.)
+# Figure 1. Share of ZEC held in Shielded Address - July 2025
+(Source: Blockchair (2025). Shielded supply percentage for July 1-22, 2025.)
 
 Additionally, CoinMetrics public network series confirm that daily active addresses and shielded-supply metrics both trended upward in mid-July, enabling quantitative comparisons between on-chain behavior and social indicators.  (See Figure 2)
 
 
 # Figure 2. Zcash Daily Active Addresses and Shielded Supply - Mid July 2025
-(Source: CoinMetrics (2025). Daily active addresses for July 1–22, 2025.)
+(Source: CoinMetrics (2025). Daily active addresses for July 1-22, 2025.)
 
 All these data show coin movement, privacy adoption and user engagement; the spike in large on-chain volumes and exchange inflows suggests whales were active, possibly relocating funds or preparing for market impact; the increase in shielded-supply demonstrates continued preference for privacy-enhanced transactions, even during periods of heightened attention and the rising active address counts indicate that network usage was expanding alongside these whale movements and privacy demand.  (See Figure 3)
 
 
-# Figure 3. Share of ZEC held in Shielded Address – July 2025
+# Figure 3. Share of ZEC held in Shielded Address - July 2025
 (Source: Zechub (2025). Zechub dashboard chart for 2016- 2025)
 
 ### Zcash as a privacy coin
@@ -46,8 +46,8 @@ According to the Messari ZEC Dashboard (Messari), between July 1 and July 22, 20
 At the same time, shielded transactions, an  essential part of Zcash’s privacy framework were still seeing meaningful uptake. By July, about 20% of the total ZEC supply was in shielded addresses. (Blockchair 2025) (see Figure 4) 
 
 
-# Figure 4. Shielded Transactions Growth – July 2025
-(Source: Blockchair (2025). Shielded supply percentage from July 1–22, 2025, showing growth from ~18% to ~20%.)
+# Figure 4. Shielded Transactions Growth - July 2025
+(Source: Blockchair (2025). Shielded supply percentage from July 1-22, 2025, showing growth from ~18% to ~20%.)
 
 
 Interestingly, the volume of shielded transactions went up by 8% from the previous month, highlighting a steady demand for greater financial privacy. All in all, these trends point to a growing privacy-driven ecosystem, where both businesses and privacy-minded users are actively influencing how the network operates.
@@ -94,14 +94,14 @@ Zcash may not boast of a community as large as Monero or an extensive merchant b
 
 
 # References
-• Blockchair. (2025). Zcash shielded transactions data. https://blockchair.com/zcash/charts/shielded-supply
-• CoinMetrics. (2025). Zcash network data metrics. https://coinmetrics.io/
-• CoinTelegraph. (2024). Dash is no longer a privacy coin under evolving regulations. https://cointelegraph.com/news/dash-no-longer-privacy-coin
-• Electric Coin Company. (2025). Zcash 6.2.0 release notes. https://electriccoin.co/blog/
-• Messari. (2025). Messari ZEC dashboard. https://messari.io/asset/zcash
-• Shawn; Lead moderator Zcash Community Forum. (2025). 
-• X Platform Sentiment Analysis. (2025, July). Internal dataset. 
-• Zcash Community Hub. (2025). Community updates and engagement statistics. https://z.cash
-• Zcash Foundation. (2025). Zashi 2.0 wallet release. https://zcashfoundation.org/blog/
-• Zechub. (2025).  Zechub dashboard chart.
+- Blockchair. (2025). Zcash shielded transactions data. https://blockchair.com/zcash/charts/shielded-supply
+- CoinMetrics. (2025). Zcash network data metrics. https://coinmetrics.io/
+- CoinTelegraph. (2024). Dash is no longer a privacy coin under evolving regulations. https://cointelegraph.com/news/dash-no-longer-privacy-coin
+- Electric Coin Company. (2025). Zcash 6.2.0 release notes. https://electriccoin.co/blog/
+- Messari. (2025). Messari ZEC dashboard. https://messari.io/asset/zcash
+- Shawn; Lead moderator Zcash Community Forum. (2025). 
+- X Platform Sentiment Analysis. (2025, July). Internal dataset. 
+- Zcash Community Hub. (2025). Community updates and engagement statistics. https://z.cash
+- Zcash Foundation. (2025). Zashi 2.0 wallet release. https://zcashfoundation.org/blog/
+- Zechub. (2025).  Zechub dashboard chart.
 
