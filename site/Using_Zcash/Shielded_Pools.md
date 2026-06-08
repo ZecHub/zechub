@@ -6,15 +6,15 @@
 
 ## TL;DR
 
-- Zcash has **4 value pools**: Sprout (legacy), Sapling, Orchard, and Transparent
-- **Orchard** (Unified Addresses / z-addresses starting with `u1`) is the current recommended shielded pool
-- **Sapling** (z-addresses starting with `zs`) is the previous shielded pool, still widely supported
-- **Transparent** (t-addresses) offers no privacy — similar to Bitcoin
-- Always prefer **z → z** (shielded-to-shielded) transactions for maximum privacy
+- Zcash currently has **4 active value pools**: Sprout (legacy), Sapling, Orchard, and Transparent
+- **Orchard** (Unified Addresses / z-addresses starting with `u1`) is the current recommended shielded pool today
+- **Ironwood** is a proposed fresh Orchard-based shielded pool for a future network upgrade; its purpose is to audit and migrate away from the old Orchard pool without changing the user-facing payment model`n- **Sapling** (z-addresses starting with `zs`) is the previous shielded pool, still widely supported
+- **Transparent** (t-addresses) offers no privacy - similar to Bitcoin
+- Always prefer **z ? z** (shielded-to-shielded) transactions for maximum privacy
 
 ---
 
-There are currently 4 [value pools](https://zcash.readthedocs.io/en/latest/rtd_pages/addresses.html) in Zcash. Sprout, Sapling, Orchard and Transparent.
+There are currently 4 active [value pools](https://zcash.readthedocs.io/en/latest/rtd_pages/addresses.html) in Zcash: Sprout, Sapling, Orchard and Transparent. Ironwood is a proposed new shielded pool for a future network upgrade, so it is described below as an upcoming pool rather than an active pool.
 
 ![img1](https://github.com/user-attachments/assets/4ba8cca2-cea5-42d2-8ec2-2122b26f5144)
 
@@ -38,9 +38,29 @@ The Orchard Shielded Pool serves as a significant enhancement to the existing po
 
 Transactions within Orchard will improve the reduction of transaction metadata & anonymity with Orchard 'Actions' versus UTXO inputs & outputs. 
 
-[Zcash Shielded wallets](/site/Using_Zcash/Wallets) now support Orchard. 
+[Zcash Shielded wallets](/using-zcash/wallets) now support Orchard. 
+
 
 ____
+
+<h3 id="ironwood" class="text-3xl font-bold my-4">Ironwood (proposed)</h3>
+
+Ironwood is a proposed shielded pool for a future Zcash network upgrade. It uses the same Orchard protocol, but starts as a fresh pool.
+
+The goal is not to create a new everyday wallet concept for users. The goal is to give the network a clean Orchard-based pool that can help audit the old Orchard pool's supply after a patched Orchard soundness bug. In the proposed upgrade, wallets would stop sending new payments into the old Orchard pool and would send Orchard receiver payments into Ironwood instead.
+
+Ironwood's purpose is tied to Zcash's turnstile accounting model. When funds enter or leave a shielded pool, the public chain can tally the amount crossing the pool boundary without revealing individual shielded payment details. By forcing old Orchard funds to move through that turnstile before they can circulate economically, the network can gain stronger evidence about whether the old Orchard pool contained counterfeit notes.
+
+For users, the intended experience should be simple:
+
+- New shielded payments continue to use Orchard-style wallet flows.
+- Wallets guide users to migrate old Orchard funds into Ironwood.
+- The distinction between old Orchard and Ironwood should not need to appear in normal payment UX.
+- Old Orchard would no longer receive funds from outside the pool after the upgrade.
+
+This makes Ironwood different from Sapling or Sprout migrations that users may remember historically. Ironwood is best understood as a fresh Orchard-based pool designed to protect circulating ZEC and improve confidence in shielded supply integrity.
+
+Reference: [Ironwood: Auditing the Orchard Pool's Supply](https://tachyon.z.cash/blog/auditing-orchard-supply/)
 
 <h3 id="sapling" class="text-3xl font-bold my-4">Sapling</h3>
 
@@ -115,19 +135,19 @@ Most Cryptocurrency Centralized exchanges make use of Transparent Address ("T-ad
 
 ## Common Mistakes to Avoid
 
-- **Sending from t-address to t-address** — fully public, no privacy. Always shield funds first.
-- **Confusing Sapling and Orchard addresses** — Sapling addresses start with `zs`, Orchard/Unified addresses start with `u1`
-- **Leaving funds in the Sprout pool** — Sprout is deprecated; migrate funds to Orchard
-- **Assuming t → z (shielding) is fully private** — the act of shielding itself is visible on-chain; the contents are not
+- **Sending from t-address to t-address** - fully public, no privacy. Always shield funds first.
+- **Confusing Sapling and Orchard addresses** - Sapling addresses start with `zs`, Orchard/Unified addresses start with `u1`
+- **Leaving funds in the Sprout pool** - Sprout is deprecated; migrate funds to Orchard
+- **Assuming t ? z (shielding) is fully private** - the act of shielding itself is visible on-chain; the contents are not
 
 ---
 
 ## Related Pages
 
-- [Wallets](/using-zcash/wallets) — Which wallets support Orchard and Sapling pools
-- [Transactions](/using-zcash/transactions) — How to send shielded transactions
-- [Buying ZEC](/using-zcash/buying-zec) — Acquiring ZEC before using it in pools
-- [ZK-SNARKs](/zcash-tech/zk-snarks) — The cryptographic foundation of shielded pools
-- [What is ZEC and Zcash](/start-here/what-is-zec-and-zcash) — Background on Zcash privacy
+- [Wallets](/using-zcash/wallets) - Which wallets support Orchard and Sapling pools
+- [Transactions](/using-zcash/transactions) - How to send shielded transactions
+- [Buying ZEC](/using-zcash/buying-zec) - Acquiring ZEC before using it in pools
+- [ZK-SNARKs](/zcash-tech/zk-snarks) - The cryptographic foundation of shielded pools
+- [What is ZEC and Zcash](/start-here/what-is-zec-and-zcash) - Background on Zcash privacy
 
 
