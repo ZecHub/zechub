@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zexplorer Explorer Page</title>
+    <!-- Link to your CSS file for consistent styling -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Zexplorer Explorer Page</h1>
+    </header>
+    <main>
+        <section id="explorer-listings">
+            {% for listing in listings %}
+                <div class="listing">
+                    <h2>{{ listing.title }}</h2>
+                    <p>{{ listing.description }}</p>
+                    <a href="{{ listing.url }}" target="_blank">Read more</a>
+                </div>
+            {% endfor %}
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Zexplorer. All rights reserved.</p>
+    </footer>
+</body>
+</html>
