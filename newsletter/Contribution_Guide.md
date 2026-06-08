@@ -1,4 +1,4 @@
-# Updated Guide to Contributing to the ZecHub Weekly Newsletter
+# Contributing to the ZecHub Weekly Newsletter
 
 This guide is to help you contribute to the ZecHub Weekly Newsletter without wasting your time. I am going to explain it step by step and as plainly as possible.
 
@@ -12,7 +12,7 @@ We have a section for [ZODL](https://x.com/zodl_app?s=21), [ShieldedLabs](https:
 
 The next section is the [Zcash Community Grants](https://x.com/zcashcommgrants?s=21) section. Every link related to Zcash Community Grants, including proposals and updates, should be added here. Most proposal links can be found on the Zcash Forum, so make sure to check it regularly.
 
-The next section is the Community Projects section. This section usually contains the most links from community members. The Zcash Ambassadors, Global Ambassadors, X Ambassadors, and other community members frequently post about Zcash. Some write articles, some create videos, and some provide updates about projects they are working on.
+The next section is the Community Projects section. This section usually contains the most links from community members. The [Global Ambassadors](https://zechub.wiki/zcash-global-ambassadors), X Accounts, and other community members frequently post about Zcash. Some write articles, some create videos, and some provide updates about projects they are working on.
 
 All relevant links from X and other platforms relating to Zcash and privacy-focused content should be included in this section.
 
