@@ -1,6 +1,6 @@
 # Use Zcash in the Real World
 
-Zcash is not just about privacy in theory — it's about **practical, everyday financial freedom**.
+Zcash is not just about privacy in theory - it's about **practical, everyday financial freedom**.
 
 This section shows you **exactly how to use Zcash in real-life scenarios**, with step-by-step guides and best practices.
 
@@ -33,18 +33,20 @@ Learn how to accept funds without exposing your identity or financial history.
 Avoid exposing your wallet, identity, or transaction graph when sending funds.
 
 
-###  [Freelancer Privacy Setup](/zcash-use-cases/freelancer-privacy-setup)  
+###  [Freelancer Privacy Setup](/zcash-use-cases/freelance-privacy-setup)  
 Get paid in Zcash while keeping your clients and income private.
 
 
-###  [Accept Payments as a Merchant](/zcash-use-cases/accept-payment-as-a-merchant)  
+###  [Accept Payments as a Merchant](/zcash-use-cases/accept-payments-as-a-merchant)  
 Accept payments using a shielded address and avoid exposing customer transaction data
 
 
-###  [Run a Private Community Treasury](/zcash-use-cases/run-a-private-community-treasury)
+###  [Run a Private Community Treasury](/zcash-use-cases/private-community-treasury)
 Use shielded addresses to hold shared funds and limit visibility of balances and transactions
 
 ###  [Journalist Privacy Setup](/zcash-use-cases/journalist-privacy-setup)   
 Use shielded addresses for all transactions and protect sources by avoiding traceable payments. Use memos carefully for secure communication
 
-<br/>
+
+### [Privacy in Play: Zcash in the Global Gaming Ecosystem](/zcash-use-cases/privacy-in-play-zcash-gaming)
+Apply Zcash privacy patterns to in-game purchases, creator tips, tournament payouts, guild treasuries, marketplaces, and studio settlement.<br/>
