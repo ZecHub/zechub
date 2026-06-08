@@ -32,7 +32,7 @@ LEVEL 3: BUILDER OR POWER USER
   |
   v
 ECOSYSTEM CONTEXT
-  Organizations -> Community -> Global Ambassadors -> Development Fund
+  Zcash Foundation -> Community -> Global Ambassadors -> Development Fund
 ```
 
 ---
@@ -134,7 +134,7 @@ These pages help readers understand the people, organizations, and funding struc
 
 | Page | Why it matters |
 |---|---|
-| [Zcash Organizations](/zcash-community/zcash-organizations) | Explains organizations that support the ecosystem. |
+| [Zcash Foundation](/zcash-organizations/zcash-foundation) | Introduces one of the core organizations supporting the ecosystem. |
 | [Zcash Community](/zcash-community) | Points to community spaces and participation paths. |
 | [ZecHub Global](/zechubglobal) | Introduces regional ZecHub communities. |
 | [Development Fund](/start-here/development-fund) | Explains ecosystem funding. |
