@@ -6,6 +6,18 @@
 
 ---
 
+### [Backpack](https://backpack.exchange)
+
+<a href="https://backpack.exchange">
+    <img src="https://logo.svgcdn.com/token-branded/backpack.png" alt="Backpack Logo" width="200" height="100"/>
+</a>
+
+- Website: [Backpack](https://backpack.exchange)
+- Pairs: USDC/ZEC
+- Supports: Transparent
+- Deposit Time: N/A
+___
+
 ### [Binance](https://binance.com)
 
 <a href="https://binance.com">
@@ -28,6 +40,18 @@ ___
 - Pairs: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
 - Supports: Transparent | Shielded (z-address Deposit & Withdrawal)
 - Deposit Time: Instant (non-custodial swap)
+___
+
+### [Bitstamp](https://www.bitstamp.net)
+
+<a href="https://www.bitstamp.net">
+    <img src="https://assets.coingecko.com/markets/images/9/small/bitstamp.jpg" alt="Bitstamp Logo" width="200" height="100"/>
+</a>
+
+- Website: [Bitstamp](https://www.bitstamp.net)
+- Pairs: USD/ZEC
+- Supports: Transparent
+- Deposit Time: N/A
 ___
 
 ### [Bitfinex](https://bitfinex.com)
@@ -112,4 +136,28 @@ ___
 - Pairs: ALL/ZEC
 - Supports: Transparent
 - Deposit Time: 25 Minutes 
+___
+
+### [Robinhood](https://robinhood.com)
+
+<a href="https://robinhood.com">
+    <img src="https://i.ibb.co/gLsHYNQ3/IMG-5725.png" alt="Robinhood Logo" width="200" height="100"/>
+</a>
+
+- Website: [Robinhood](https://robinhood.com)
+- Pairs: USD/ZEC | EUR/ZEC
+- Supports: Transparent
+- Deposit Time: N/A
+___
+
+### [YoBit](https://yobit.net)
+
+<a href="https://yobit.net">
+    <img src="https://assets.coingecko.com/markets/images/46/small/yobit.png" alt="YoBit Logo" width="200" height="100"/>
+</a>
+
+- Website: [YoBit](https://yobit.net)
+- Pairs: ALL/ZEC
+- Supports: Transparent
+- Deposit Time: N/A
 ___
