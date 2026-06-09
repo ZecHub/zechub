@@ -42,11 +42,13 @@ Fig 1: A chart showing the current 4 pools as of October, 2025
 ## The Shielded Pools 
 
 
-<h3 id="orchard" class="text-3xl font-bold my-4">Orchard</h3>
+1. <h3 id="orchard" class="text-3xl font-bold my-4">Orchard Pool</h3>
 
 
 ![img2](https://github.com/user-attachments/assets/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72)
 Fig 2: A chart showing the Orchard pool as of October, 2025
+
+<br/>
 
 The Orchard Shielded Pool was activated on May 31, 2022 as part of the NU5 network upgrade. Orchard introduced a new shielded protocol that eliminated the need for a trusted setup and became the primary shielded pool used by Unified Addresses (UAs).
 
@@ -58,11 +60,13 @@ Today, Orchard remains the primary shielded pool for Zcash. However, the communi
 
 ____
 
-<h3 id="sapling" class="text-3xl font-bold my-4">Sapling</h3>
+2. <h3 id="sapling" class="text-3xl font-bold my-4">Sapling Pool</h3>
 
 
 ![img3](https://github.com/user-attachments/assets/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae)
 Fig 3: A chart showing the Sapling pool as of October, 2025
+
+<br/>
 
 [Zcash Sapling](https://z.cash/upgrade/sapling) was an upgrade to the Zcash protocol introduced on 28th of October, 2018. It is a major improvement over the earlier version of the known as Sprout which had some limitations in terms of privacy, efficiency and usability. 
 
@@ -76,7 +80,7 @@ Sapling wallet addresses begin with "zs" and this can be observed in all support
 
 ____
 
-<h3 id="sprout" class="text-3xl font-bold my-4">Sprout</h3>
+3. <h3 id="sprout" class="text-3xl font-bold my-4">Sprout Pool</h3>
 
 
 ![img4](https://github.com/user-attachments/assets/956eceed-f4d6-4087-99d0-32a770449dda)
@@ -90,12 +94,14 @@ Sprout was used as an early tool for [Zcash slow start Mining](https://electricc
 
 As the Zcash ecosystem continued  to expand with increasing number of shielded transactions, it was observed that the Zcash Sprout Series became limited and less efficient when it comes to user privacy, transaction scalability and processing. This led to the modification of the network and Sapling Upgrade. 
 
-
-<h3 id="transparent" class="text-3xl font-bold my-4">Transparent</h3>
-
+---
+4. <h3 id="transparent" class="text-3xl font-bold my-4">Transparent Pool</h3>
+<br/>
 
 ![img5](https://github.com/user-attachments/assets/01de2907-b62d-4421-83d7-ea4908faa828)
 Fig 5: A chart showing the Transparent pool as of October, 2025
+
+<br/>
 
 The Zcash Transparent pool is unshielded and non-private. Transparent wallet address on Zcash start with the letter "t", privacy is very low in using this address type for transactions.
 
@@ -104,8 +110,8 @@ Transparent transactions in Zcash are similar to Bitcoin transactions which supp
 The Zcash Transparent are mostly used by centralized exchanges to ensure there's high transparency and network confirmation when sending and receiving ZEC between users.
 
 It's also important to note that while Zcash Shielded addresses provides high privacy during transactions, they also require more computational resources to process transactions. Therefore, some users may adopt Transparent addresses for transactions which doesn't require the same level of privacy.
-____
 
+<br/>
 
 ## Pool Transfer Recommended Practice
 
@@ -127,9 +133,9 @@ Sending ZEC from a Transparent Address (T-address) to another Transparent Addres
 
 Most Cryptocurrency Centralized exchanges make use of Transparent Address ("T-address) when it comes to transacting on the Zcash blockchain but this type of transaction (T-T) will not have any private properties.
 
----
+<br/>
 
-## The Future: Ironwood
+## The Future: Ironwood Pool
 
 The Zcash community is currently evaluating a proposed shielded pool called Ironwood.
 
@@ -139,13 +145,15 @@ The goal is not to replace Zcash privacy, but to strengthen confidence in the in
 
 ## Under the proposal:
 
-New shielded activity would gradually move into Ironwood.
-Existing Orchard funds could be migrated privately.
-Public turnstile accounting would provide stronger evidence that all shielded funds remain fully backed.
-Users would retain the same privacy protections they expect from Zcash.
+1. New shielded activity would gradually move into Ironwood.
+2. Existing Orchard funds could be migrated privately.
+3. Public turnstile accounting would provide stronger evidence that all shielded funds remain fully backed.
+4. Users would retain the same privacy protections they expect from Zcash.
 
+<br/>
 If activated through future network upgrades, Ironwood would become the next generation of Zcash's shielded ecosystem while preserving compatibility with existing shielded funds.
 
+<br/>
 
 ## Common Mistakes to Avoid
 
