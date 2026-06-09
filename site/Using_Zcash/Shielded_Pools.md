@@ -16,7 +16,23 @@
 
 
 <br/>
- 
+
+## Understanding Zcash Value Pools
+
+Zcash separates funds into distinct accounting systems known as value pools. Each pool has its own cryptographic rules and privacy properties, while the protocol tracks the total value moving between them.
+
+Today, the network contains four primary value pools:
+
+- Transparent — Public and fully visible on-chain.
+- Sapling — The first widely adopted modern shielded pool.
+- Orchard — The current primary shielded pool introduced with Unified Addresses.
+- Sprout — The original shielded pool launched with Zcash in 2016.
+  
+
+
+As Zcash evolves, new shielded pools may be introduced to improve security, privacy, usability, and auditability while maintaining compatibility with existing funds.
+
+<br/>
 
 ![img1](https://github.com/user-attachments/assets/4ba8cca2-cea5-42d2-8ec2-2122b26f5144)
 
