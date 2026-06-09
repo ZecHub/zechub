@@ -35,7 +35,7 @@ As Zcash evolves, new shielded pools may be introduced to improve security, priv
 <br/>
 
 ![img1](https://github.com/user-attachments/assets/4ba8cca2-cea5-42d2-8ec2-2122b26f5144)
-
+Fig 1: A chart showing the current 4 pools as of October, 2025
 
 <br/>
 
@@ -46,7 +46,7 @@ As Zcash evolves, new shielded pools may be introduced to improve security, priv
 
 
 ![img2](https://github.com/user-attachments/assets/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72)
-
+Fig 2: A chart showing the Orchard pool as of October, 2025
 
 The Orchard Shielded Pool was activated on May 31, 2022 as part of the NU5 network upgrade. Orchard introduced a new shielded protocol that eliminated the need for a trusted setup and became the primary shielded pool used by Unified Addresses (UAs).
 
@@ -62,7 +62,7 @@ ____
 
 
 ![img3](https://github.com/user-attachments/assets/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae)
-
+Fig 3: A chart showing the Sapling pool as of October, 2025
 
 [Zcash Sapling](https://z.cash/upgrade/sapling) was an upgrade to the Zcash protocol introduced on 28th of October, 2018. It is a major improvement over the earlier version of the known as Sprout which had some limitations in terms of privacy, efficiency and usability. 
 
@@ -80,7 +80,7 @@ ____
 
 
 ![img4](https://github.com/user-attachments/assets/956eceed-f4d6-4087-99d0-32a770449dda)
-
+Fig 4: A chart showing the Sprout pool as of October, 2025
 
 Sprout was the first ever open permissionless Zero Knowledge privacy protocol ever launched. It was launched on the 28th of October, 2016.
 
@@ -95,7 +95,7 @@ As the Zcash ecosystem continued  to expand with increasing number of shielded t
 
 
 ![img5](https://github.com/user-attachments/assets/01de2907-b62d-4421-83d7-ea4908faa828)
-
+Fig 5: A chart showing the Transparent pool as of October, 2025
 
 The Zcash Transparent pool is unshielded and non-private. Transparent wallet address on Zcash start with the letter "t", privacy is very low in using this address type for transactions.
 
