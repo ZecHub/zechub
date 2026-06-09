@@ -6,8 +6,9 @@
 
 ## TL;DR
 
-- Zcash has **4 value pools**: Sprout (legacy), Sapling, Orchard, and Transparent
+- Zcash has **4 value pools** today: Sprout (legacy), Sapling, Orchard, and Transparent
 - **Orchard** (Unified Addresses / z-addresses starting with `u1`) is the current recommended shielded pool
+- **Ironwood / NU7** is expected to expand Orchard with Zcash Shielded Assets (ZSAs), but its activation height is not set yet
 - **Sapling** (z-addresses starting with `zs`) is the previous shielded pool, still widely supported
 - **Transparent** (t-addresses) offers no privacy — similar to Bitcoin
 - Always prefer **z → z** (shielded-to-shielded) transactions for maximum privacy
@@ -40,6 +41,20 @@ Transactions within Orchard will improve the reduction of transaction metadata &
 
 [Zcash Shielded wallets](/site/Using_Zcash/Wallets) now support Orchard. 
 
+### Ironwood / NU7 and the Future of Shielded Assets
+
+Ironwood is the community name currently associated with the planned NU7 network upgrade. NU7 has not activated yet, and the official activation height has not been set. The upgrade is expected to build on Orchard by adding support for Zcash Shielded Assets (ZSAs), so assets other than ZEC can be issued, transferred, and burned inside the shielded protocol.
+
+The main NU7 candidate ZIPs relevant to shielded pools are:
+
+- **ZIP 218** — 25-second block target spacing and per-pool action limits
+- **ZIP 226** — transfer and burn of Zcash Shielded Assets
+- **ZIP 227** — issuance of Zcash Shielded Assets
+- **ZIP 230** — version 6 transaction format
+- **ZIP 231** — memo bundles
+- **ZIP 246** — digests for version 6 transactions
+
+For users, Orchard remains the recommended shielded pool today. Ironwood/NU7 should be treated as an upcoming protocol upgrade until activation details are finalized.
 ____
 
 <h3 id="sapling" class="text-3xl font-bold my-4">Sapling</h3>
