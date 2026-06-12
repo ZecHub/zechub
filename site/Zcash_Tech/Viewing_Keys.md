@@ -24,7 +24,9 @@ Why would a user ever want to do this? From Electric Coin Co.'s blog on the matt
 
 * Then issue the following command for either UA's or Sapling shielded addresses
 
-  *./zcash-cli z_exportviewingkey "<UA or Z address>"*
+  ```bash
+  ./zcash-cli z_exportviewingkey "<UA or Z address>"
+  ```
 
 #### Ywallet
 
@@ -36,7 +38,9 @@ Why would a user ever want to do this? From Electric Coin Co.'s blog on the matt
 
 * Use the following with any vkey or ukey: 
 
-*./zcash-cli z_importviewingkey "vkey/ukey" whenkeyisnew 30000*
+```bash
+./zcash-cli z_importviewingkey "vkey/ukey" whenkeyisnew 30000
+```
 
 #### ywallet
 
