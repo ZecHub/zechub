@@ -59,13 +59,13 @@ Zcash has more than one kind of address, and an explorer treats them very differ
 
 Transparent addresses, starting with `t`, work like Bitcoin. An explorer shows the sender, the receiver, the amount, and the trail back to where the funds came from.
 
-Shielded addresses are the private side. Funds in the Sapling or Orchard [shielded pools](https://github.com/ZecHub/zechub/blob/main/site/Using_Zcash/Shielded_Pools.md) are protected by zero knowledge proofs. Look up a fully shielded transaction and the explorer cannot show the amount, the addresses, or the memo. It can confirm only that a valid transaction happened and was recorded in a block. This is the hidden private example shown near the top of this page.
+Shielded addresses are the private side. Funds in the Sapling or Orchard [shielded pools](https://zechub.wiki/using-zcash/shielded-pools#content) are protected by zero knowledge proofs. Look up a fully shielded transaction and the explorer cannot show the amount, the addresses, or the memo. It can confirm only that a valid transaction happened and was recorded in a block. This is the hidden private example shown near the top of this page.
 
 One detail does stay visible even for fully shielded transactions: the fee. Zcash consensus rules require the transparent fee to be stated explicitly, so an explorer can always show it, even when the amounts are masked. For that reason it is good practice to use the standard wallet fee, so your transaction does not stand out by paying an unusual amount.
 
 The explorer can also see when funds cross between the transparent and shielded sides. Moving `t` funds into a pool is shielding, moving them back out is deshielding. Those crossings are partly visible because one side is transparent. Only fully private z to z activity, which never touches a `t` address, keeps everything but the fee hidden.
 
-The takeaway: privacy depends on staying inside the shielded pools. Once funds touch a `t` address, that part of their history is as public as Bitcoin. To prove your own shielded activity to someone you choose, such as an accountant, share a viewing key instead of making it public. See the [Viewing Keys](https://github.com/ZecHub/zechub/blob/main/site/Zcash_Tech/Viewing_Keys.md) page.
+The takeaway: privacy depends on staying inside the shielded pools. Once funds touch a `t` address, that part of their history is as public as Bitcoin. To prove your own shielded activity to someone you choose, such as an accountant, share a viewing key instead of making it public. See the [Viewing Keys](https://zechub.wiki/zcash-tech/viewing-keys#content) page.
 
 
 ### Visual Guide
