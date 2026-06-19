@@ -1,0 +1,13 @@
+flowchart LR
+  %% INITIALIZATION
+  START([Start initialization]) --> I1["Launch mempool monitor"]
+  I1 --> I2["Transparent address discovery"]
+  I2 --> I3["Fetch subtree metadata for shard-range scanning and add initial frontiers to wallet's shard trees"]
+  I3 --> I4{First-time sync?}
+  I4 -- Yes --> I4Y["Set wallet height = [wallet birthday - 1]"] --> I5
+  I4 -- No  --> I4N["Keep existing wallet height"] --> I5
+  I5["Create scan range: [wallet height + 1] -> chain height"] --> I6["Update wallet height -> chain height"]
+  I6 --> I7["Set 'found note' priority ranges (transparent discovery + targeted scanning)"]
+  I7 --> I8["Find latest orchard and sapling shard upper bounds; split at the lowest height; set upper split to 'chain tip' priority"]
+  I8 --> I9["Set first 10 blocks after highest previously scanned -> 'verify' (re-org check)"]
+  I9 --> END([Proceed to verification])

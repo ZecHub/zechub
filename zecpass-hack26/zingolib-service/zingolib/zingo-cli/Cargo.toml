@@ -1,0 +1,35 @@
+[package]
+name = "zingo-cli"
+version = "0.2.0"
+edition = "2024"
+
+[dependencies]
+pepper-sync = { workspace = true }
+zingo_common_components = { workspace = true }
+zingo-netutils = { workspace = true }
+zingolib = { workspace = true }
+
+zcash_address = { workspace = true }
+zcash_client_backend = { workspace = true }
+zcash_keys = { workspace = true }
+zcash_protocol = { workspace = true }
+
+bip0039 = { workspace = true }
+clap = { workspace = true }
+http = { workspace = true }
+indoc = { workspace = true }
+json = { workspace = true }
+log = { workspace = true }
+rustls = { workspace = true }
+rustyline = { workspace = true }
+shellwords = { workspace = true }
+tokio = { workspace = true }
+tracing-subscriber = { workspace = true }
+zip32 = { workspace = true }
+
+[dev-dependencies]
+tempfile = { workspace = true }
+tokio = { workspace = true, features = ["rt-multi-thread", "net", "macros"] }
+tokio-stream = "0.1"
+tonic = { workspace = true }
+zingo_grpc_proxy = { git = "https://github.com/zingolabs/grpc_proxy.git", rev = "bad24e29529a0bb381f71f02f977752c20c26613" }

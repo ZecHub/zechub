@@ -1,0 +1,35 @@
+{
+  "name": "zecpass",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Privacy-preserving Zcash-based authentication SDK and platform",
+  "scripts": {
+    "dev": "pnpm run --parallel --filter './apps/*' --filter './zingolib-service' dev",
+    "build": "pnpm run --filter './packages/*' build && pnpm run --filter './apps/*' --filter './zingolib-service' build",
+    "test": "pnpm run --recursive test",
+    "lint": "pnpm run --recursive lint",
+    "clean": "pnpm run --recursive clean && rm -rf node_modules"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@9.15.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zecpass/zecpass"
+  },
+  "keywords": [
+    "zcash",
+    "authentication",
+    "privacy",
+    "zk-proof",
+    "shielded",
+    "web3"
+  ],
+  "devDependencies": {
+    "vitest": "^2.1.8",
+    "typescript": "^5.7.3",
+    "@types/node": "^22.10.5"
+  }
+}

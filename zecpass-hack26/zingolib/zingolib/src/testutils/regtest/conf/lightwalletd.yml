@@ -1,0 +1,11 @@
+# # Default zingo lib lightwalletd conf YAML for regtest mode # #
+# # Log file and conf path are explicitly passed in regtest mode # #
+bind-addr: 127.0.0.1:9067
+cache-size: 10
+# log-file: ../logs/lwd.log
+log-level: 10
+# zcash-conf-path: ../conf/zcash.conf
+
+# example config for TLS
+#tls-cert: /secrets/lightwallted/example-only-cert.pem
+#tls-key: /secrets/lightwallted/example-only-cert.key

@@ -1,0 +1,88 @@
+name: Test
+
+on:
+  workflow_call:
+    inputs:
+      nextest-flags:
+        required: false
+        type: string
+
+env:
+  NEXTEST-FLAGS: ${{ inputs.nextest-flags }}
+  NEXTEST_VERSION: "0.9.132"
+
+jobs:
+  build-test-artifacts:
+    name: Build test artifacts
+    container:
+      image: zingodevops/ci-build:009
+    runs-on: ubuntu-24.04
+    if: github.event.pull_request.draft == false
+    env:
+      RUSTFLAGS: -D warnings
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - uses: actions-rust-lang/setup-rust-toolchain@v1
+
+      - name: Install nextest
+        uses: taiki-e/install-action@v2
+        with:
+          tool: nextest@${{ env.NEXTEST_VERSION }}
+
+      - name: Install system deps
+        run: |
+         apt-get update
+         apt-get install -y libsqlite3-dev pkg-config
+
+      - name: Cargo cache
+        uses: Swatinem/rust-cache@v2
+
+      - name: Build and archive tests
+        run: cargo nextest archive --verbose --workspace --archive-file nextest-archive.tar.zst
+
+      - name: Upload archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: nextest-archive
+          path: nextest-archive.tar.zst
+          overwrite: true
+
+  run-tests:
+    name: Run tests
+    runs-on: ubuntu-24.04
+    if: github.event.pull_request.draft == false
+    needs: build-test-artifacts
+    env:
+      RUSTFLAGS: -D warnings
+    container:
+      image: zingodevops/ci-build:009
+      options: --security-opt seccomp=unconfined
+    strategy:
+      matrix:
+        partition: [1, 2, 3, 4, 5, 6, 7, 8]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: create binaries dir
+        run: mkdir -p ./test_binaries/bins
+
+      - name: Symlink lightwalletd and zcash binaries
+        run: ln -s /usr/bin/lightwalletd /usr/bin/zcashd /usr/bin/zcash-cli ./test_binaries/bins/
+
+      - name: Install nextest
+        uses: taiki-e/install-action@v2
+        with:
+          tool: nextest@${{ env.NEXTEST_VERSION }}
+
+      - name: Download archive
+        uses: actions/download-artifact@v4
+        with:
+          name: nextest-archive
+
+      - name: Run tests
+        run: |
+          cargo nextest run --verbose --profile ci --retries 2 --archive-file nextest-archive.tar.zst \
+            --workspace-remap ./ --partition count:${{ matrix.partition }}/8 ${{ env.NEXTEST-FLAGS }}

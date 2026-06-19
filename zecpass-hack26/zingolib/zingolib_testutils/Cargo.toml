@@ -1,0 +1,34 @@
+[package]
+name = "zingolib_testutils"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+test_zainod_zcashd = []
+test_lwd_zebrad = []
+test_lwd_zcashd = []
+
+[dependencies]
+
+# zingolib
+zingolib = { workspace = true, features = ["testutils"] }
+pepper-sync.workspace = true
+zingo_common_components.workspace = true
+
+# zingo infrastructure
+zcash_local_net.workspace = true
+zingo_test_vectors.workspace = true
+
+# zcash
+zcash_protocol.workspace = true
+
+# bitcoin
+
+bip0039.workspace = true
+
+# utilties
+
+portpicker.workspace = true
+tempfile.workspace = true
+http.workspace = true
+zip32.workspace = true

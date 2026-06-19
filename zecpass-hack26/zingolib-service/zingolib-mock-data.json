@@ -1,0 +1,28 @@
+{
+  "memos": [
+    {
+      "tx_id": "a1b2c3d4e5f6789012345678901234567890abcdef1234567890abcdef123456",
+      "memo_text": "ZECPASS:v1:3679064d-4948-4a5e-b70f-589cc1cfe466:91524a0d048f8733ea0a347ef04dd7f94a14dd3018d2b4aad7085761e424cab8:1779858235",
+      "received_at": "2026-05-27T06:01:00.000Z",
+      "amount_zat": 10000
+    },
+    {
+      "tx_id": "c3d4e5f678901234567890123456789012abcdef3456789012abcdef345678",
+      "memo_text": "ZECPASS:v1:expired-id-0000-0000-0000-000000000000:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:1700000000",
+      "received_at": "2026-05-27T06:02:00.000Z",
+      "amount_zat": 10000
+    },
+    {
+      "tx_id": "a1b2c3d4e5f6789012345678901234567890abcdef1234567890abcdef123456",
+      "memo_text": "ZECPASS:v1:7e5ae89e-087f-4c63-bd2c-6575146534a0:dfc848705b6244c6a3e26205be8f296d8f052ad47855912fb74a070ecb8d53ea:1780084059",
+      "received_at": "2026-05-29T23:59:00.000Z",
+      "amount_zat": 10000
+    }
+  ],
+  "balance": {
+    "shielded": 1500000,
+    "transparent": 0
+  },
+  "synced": true,
+  "block_height": 2850000
+}
