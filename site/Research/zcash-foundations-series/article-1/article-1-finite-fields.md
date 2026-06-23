@@ -3,7 +3,7 @@
 
 ### Why "wrapping around" is the secret foundation of Zcash
 
-> **Series:** *Zcash from First Principles* · **Article 1 · Finite Fields**
+> **Series:** *Zcash from First Principles* . **Article 1 . Finite Fields**
 > **Audience:** newcomers. We assume only ordinary school arithmetic (adding, multiplying, dividing). No prior cryptography or higher mathematics.
 > **What you'll leave with:** an intuitive and correct understanding of finite fields, why cryptographers use them, and where they show up inside Zcash.
 
@@ -67,9 +67,9 @@ So `F_7 = {0, 1, 2, 3, 4, 5, 6}` with clock-style arithmetic mod 7 is a genuine 
 
 ### Multiplication in F_7 (verified)
 
-Every entry is `(row × column) mod 7`:
+Every entry is `(row x column) mod 7`:
 
-| × | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
+| x | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
 |---|---|---|---|---|---|---|---|
 | **0** | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | **1** | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
@@ -83,13 +83,13 @@ Look at the rows for `1` through `6`: each one contains every nonzero value `1..
 
 ### Division: the magic that needs a prime
 
-Division is just "multiply by the reciprocal." In `F_7`, the reciprocal (or **inverse**) of a number `a` is the value `a⁻¹` for which `a × a⁻¹ = 1`. Reading them straight off the table:
+Division is just "multiply by the reciprocal." In `F_7`, the reciprocal (or **inverse**) of a number `a` is the value `a⁻¹` for which `a x a⁻¹ = 1`. Reading them straight off the table:
 
 | `a` | 1 | 2 | 3 | 4 | 5 | 6 |
 |---|---|---|---|---|---|---|
 | `a⁻¹` | 1 | 4 | 5 | 2 | 3 | 6 |
 
-Check one: `2 × 4 = 8 = 1 (mod 7)`. ✅ So "divide by 2" in `F_7` means "multiply by 4." Every nonzero element has a partner. **That is what makes `F_7` a field.**
+Check one: `2 x 4 = 8 = 1 (mod 7)`.  So "divide by 2" in `F_7` means "multiply by 4." Every nonzero element has a partner. **That is what makes `F_7` a field.**
 
 ---
 
@@ -99,9 +99,9 @@ This is the single most important idea in the article, so let's make it concrete
 
 Watch what breaks if we naively try to build a "field" mod `6` (and `6` is *not* prime):
 
-> Is there any `x` with `2 × x = 1 (mod 6)`? Checking all of them: `2×0=0, 2×1=2, 2×2=4, 2×3=0, 2×4=2, 2×5=4`. **The answer `1` never appears.** So `2` has no reciprocal mod 6. Worse, `2 × 3 = 6 = 0 (mod 6)`: two nonzero numbers multiplied to give zero.
+> Is there any `x` with `2 x x = 1 (mod 6)`? Checking all of them: `2x0=0, 2x1=2, 2x2=4, 2x3=0, 2x4=2, 2x5=4`. **The answer `1` never appears.** So `2` has no reciprocal mod 6. Worse, `2 x 3 = 6 = 0 (mod 6)`: two nonzero numbers multiplied to give zero.
 
-That second sentence is a catastrophe for arithmetic. Two nonzero things multiplying to zero (called a **zero divisor**) means division is broken, and a system with broken division is not a field. It happens precisely because `6` factors as `2 × 3`.
+That second sentence is a catastrophe for arithmetic. Two nonzero things multiplying to zero (called a **zero divisor**) means division is broken, and a system with broken division is not a field. It happens precisely because `6` factors as `2 x 3`.
 
 A prime, by definition, has no such factors. So mod a prime, no zero divisors can appear, every nonzero element gets a clean reciprocal, and the structure is a proper field.
 
@@ -127,7 +127,7 @@ Rearrange it (peel off one factor of `a`) and you get the inverse for free:
 a^(-1) = a^(p-2)   (mod p)
 ```
 
-Test in `F_7` (`p = 7`, so `p - 2 = 5`): the inverse of `2` should be `2⁵ = 32 = 4 (mod 7)`. And indeed our table said `2⁻¹ = 4`. ✅ Computers raise to large powers extremely fast, so this turns "find the reciprocal" into a quick, exact computation even for gigantic primes.
+Test in `F_7` (`p = 7`, so `p - 2 = 5`): the inverse of `2` should be `2⁵ = 32 = 4 (mod 7)`. And indeed our table said `2⁻¹ = 4`.  Computers raise to large powers extremely fast, so this turns "find the reciprocal" into a quick, exact computation even for gigantic primes.
 
 You do not need to memorize this. You need to know that **division in a finite field is a fast, exact operation**, which is exactly why cryptographers are happy to build on it.
 
@@ -174,7 +174,7 @@ To stay newcomer-friendly we simplified a few true things. Finite fields don't o
 - Cryptography needs a number system that is **finite, exact, size-blind, fully invertible, and enormous.** That system is a **finite field**.
 - The intuition is a **clock**: arithmetic that **wraps around** (modular arithmetic), which conveniently erases the "size" of a number.
 - Doing arithmetic with the numbers `0..p-1` mod a **prime** `p` gives a real field `F_p`, where you can also **divide** because every nonzero element has an inverse.
-- The modulus **must be prime**: a composite modulus creates zero divisors (like `2 × 3 = 0 mod 6`) and breaks division.
+- The modulus **must be prime**: a composite modulus creates zero divisors (like `2 x 3 = 0 mod 6`) and breaks division.
 - Computers find inverses fast via **Fermat's Little Theorem** (`a⁻¹ = a^(p-2)`).
 - In **Zcash**, every key, commitment, nullifier, and proof element is ultimately an element of a large finite field (255-bit Pasta fields for Orchard, a 381-bit field for Sapling's BLS12-381).
 
@@ -188,7 +188,7 @@ To stay newcomer-friendly we simplified a few true things. Finite fields don't o
 | **mod p** | "Divide by `p` and keep the remainder" |
 | **Field** | A number system where add, subtract, multiply, and divide all work |
 | **Finite field `F_p`** | The numbers `0..p-1` with arithmetic done mod a prime `p` |
-| **Inverse (reciprocal)** | The element `a⁻¹` with `a × a⁻¹ = 1`; "dividing by `a`" means multiplying by it |
+| **Inverse (reciprocal)** | The element `a⁻¹` with `a x a⁻¹ = 1`; "dividing by `a`" means multiplying by it |
 | **Zero divisor** | Two nonzero values whose product is zero; the thing that ruins composite moduli |
 | **Prime** | A whole number greater than 1 with no factors except 1 and itself |
 
@@ -223,6 +223,6 @@ In `F_7`, what is `5 - 6`? (Remember: stay inside `{0,...,6}` by wrapping around
 
 ### What's next
 
-**Article 2 · Elliptic curves:** we take the finite field we just built and use it to draw a strange kind of curve whose points can be "added" together. Those points become Zcash's keys and commitments, and they hide a one-way trapdoor that makes the whole privacy system possible. Intuition first, as always.
+**Article 2 . Elliptic curves:** we take the finite field we just built and use it to draw a strange kind of curve whose points can be "added" together. Those points become Zcash's keys and commitments, and they hide a one-way trapdoor that makes the whole privacy system possible. Intuition first, as always.
 
 *Part of the* Zcash from First Principles *series for [ZecHub](https://zechub.org). Licensed CC BY-SA 4.0.*
