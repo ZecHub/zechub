@@ -4,7 +4,7 @@
 
 ### The curtain that lets the world verify what it can never see
 
-> **Series:** *Zcash from First Principles* · **Article 5 · Zero-Knowledge Proofs**
+> **Series:** *Zcash from First Principles* . **Article 5 . Zero-Knowledge Proofs**
 > **Audience:** newcomers. We draw on every earlier article (finite fields, curves, commitments, Merkle trees), but each idea is recalled as we need it.
 > **What you'll leave with:** an intuitive, correct understanding of what a zero-knowledge proof is, the three guarantees it makes, how arbitrary statements get proven, and what powers Zcash's Sapling and Orchard.
 
@@ -172,6 +172,6 @@ If the verifier announced the side first, a bluffer who doesn't know the word co
 
 ### What's next
 
-**Article 6 · The shielded protocol, end to end:** the finale. We take every piece, notes, commitments, the note commitment tree, nullifiers, value balance, and the zero-knowledge proof, and assemble a complete Zcash shielded transaction, closing every single loop opened back in Article 0.
+**Article 6 . The shielded protocol, end to end:** the finale. We take every piece, notes, commitments, the note commitment tree, nullifiers, value balance, and the zero-knowledge proof, and assemble a complete Zcash shielded transaction, closing every single loop opened back in Article 0.
 
 *Part of the* Zcash from First Principles *series for [ZecHub](https://zechub.org). Licensed CC BY-SA 4.0.*
