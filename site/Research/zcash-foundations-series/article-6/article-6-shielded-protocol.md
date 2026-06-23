@@ -4,7 +4,7 @@
 
 ### Assembling every piece into one private Zcash transaction
 
-> **Series:** *Zcash from First Principles* · **Article 6 · The Shielded Protocol** (finale)
+> **Series:** *Zcash from First Principles* . **Article 6 . The Shielded Protocol** (finale)
 > **Audience:** newcomers who've read Articles 0 through 5. This is where everything connects.
 > **What you'll leave with:** a complete, correct mental model of a shielded Zcash transaction, with every concept from the series in its proper place, and every loop from Article 0 closed.
 
@@ -61,9 +61,9 @@ The proof reveals **none** of the underlying facts (which note, whose key, what 
 
 ## 5. The value-balance trick (the payoff we saved)
 
-Back in Articles 2 and 3 we noted that Pedersen commitments **add up**: the commitment to `v₁` plus the commitment to `v₂` is a commitment to `v₁ + v₂`. Here's where that pays off.
+Back in Articles 2 and 3 we noted that Pedersen commitments **add up**: the commitment to `v_1` plus the commitment to `v_2` is a commitment to `v_1 + v_2`. Here's where that pays off.
 
-Every input and output note carries a **value commitment**: a Pedersen commitment `v·G + r·H` that hides its amount `v`. Because these add, the network can compute:
+Every input and output note carries a **value commitment**: a Pedersen commitment `v.G + r.H` that hides its amount `v`. Because these add, the network can compute:
 
 ```
 (sum of input value commitments) − (sum of output value commitments)
@@ -204,6 +204,8 @@ flowchart LR
     style A0 fill:#1f6feb,color:#fff
     style A6 fill:#1f6feb,color:#fff
 ```
+![alt text](https://github.com/user-attachments/assets/cd8bbb40-57b8-4854-b9cf-97f2485d126a)
+
 
 From here, the natural next arc goes deeper: the inner workings of Groth16 and Halo 2, trusted-setup ceremonies, the Sapling and Orchard circuits in detail, key derivation and diversified addresses, and the protocol's evolution across network upgrades. But the foundation is now in place, and every one of those topics has a home to attach to.
 
