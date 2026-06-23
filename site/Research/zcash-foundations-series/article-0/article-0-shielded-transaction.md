@@ -3,7 +3,7 @@
 
 ### The intuition before the math: a no-formula walkthrough of private payments
 
-> **Series:** *Zcash from First Principles* · **Article 0 · The Anchor**
+> **Series:** *Zcash from First Principles* . **Article 0 . The Anchor**
 > **Audience:** complete newcomers. No cryptography, no blockchain background, and no mathematics assumed.
 > **What you'll leave with:** a correct mental model of how Zcash hides *who paid whom, and how much*, while still letting the whole world verify that no money was forged or spent twice.
 
@@ -226,7 +226,7 @@ You now hold the map. The rest of the series fills it in.
 ## FAQ
 
 **Is Zcash always private?**
-No. Privacy applies to the *shielded* world (`z…`/`u…` addresses). Transparent (`t…`) transactions are public, like Bitcoin.
+No. Privacy applies to the *shielded* world (`z...`/`u...` addresses). Transparent (`t...`) transactions are public, like Bitcoin.
 
 **If everything is hidden, what stops someone printing free money?**
 The zero-knowledge proof. It mathematically forces every transaction's outputs to be backed by real, unspent inputs, *while* keeping the amounts secret.
@@ -247,6 +247,6 @@ If the nullifier were computed *only* from the note, with no secret key, then **
 
 ### What's next
 
-**Article 1 · Finite fields:** the strange, beautiful number system where arithmetic "wraps around," and the reason every piece of cryptography in this series lives there. We'll start, as always, with intuition, no formulas until they're earned.
+**Article 1 . Finite fields:** the strange, beautiful number system where arithmetic "wraps around," and the reason every piece of cryptography in this series lives there. We'll start, as always, with intuition, no formulas until they're earned.
 
 *Part of the* Zcash from First Principles *series for [ZecHub](https://zechub.org). Licensed CC BY-SA 4.0.*
