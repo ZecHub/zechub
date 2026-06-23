@@ -3,7 +3,7 @@
 
 ### A one-way street built from points on a curve
 
-> **Series:** *Zcash from First Principles* · **Article 2 · Elliptic Curves**
+> **Series:** *Zcash from First Principles* . **Article 2 . Elliptic Curves**
 > **Audience:** newcomers. We assume only [Article 1 (finite fields)](article-1-finite-fields.md): arithmetic that wraps around mod a prime. No other background needed.
 > **What you'll leave with:** an intuitive and correct picture of elliptic curves, the "trapdoor" that makes them useful, and exactly how Zcash turns them into keys and commitments.
 
@@ -19,8 +19,8 @@ Here's why. Your **secret key** is a number you keep hidden. Your **public key**
 
 So we need a mathematical operation where:
 
-- going **forwards** (secret → public) is fast and easy, but
-- going **backwards** (public → secret) is so hard that all the computers on Earth working for the lifetime of the universe wouldn't finish.
+- going **forwards** (secret -> public) is fast and easy, but
+- going **backwards** (public -> secret) is so hard that all the computers on Earth working for the lifetime of the universe wouldn't finish.
 
 Plain finite-field multiplication isn't good enough; division undoes it instantly (that was the whole point of Article 1). We need something with no easy "undo" button. Elliptic curves provide exactly that, and as a bonus, their points combine in a way that's perfect for building commitments. Let's see how.
 
@@ -31,7 +31,7 @@ Plain finite-field multiplication isn't good enough; division undoes it instantl
 Forget cryptography for a moment. An **elliptic curve** is just the set of points `(x, y)` satisfying an equation of the shape:
 
 ```
-y² = x³ + ax + b
+y^2 = x^3 + ax + b
 ```
 
 Over ordinary numbers it looks like a smooth, swooping curve, often with a rounded loop and two tails:
@@ -64,7 +64,7 @@ Every number system needs a `0`, the thing that changes nothing when you add it.
 
 ## 3. From pictures to a finite field
 
-The smooth curve above is the *intuition*. But Zcash doesn't use real numbers (they round and leak size, per Article 1). It uses an elliptic curve **over a finite field**: the same equation `y² = x³ + ax + b`, but with all arithmetic done mod a prime.
+The smooth curve above is the *intuition*. But Zcash doesn't use real numbers (they round and leak size, per Article 1). It uses an elliptic curve **over a finite field**: the same equation `y^2 = x^3 + ax + b`, but with all arithmetic done mod a prime.
 
 When you do that, the pretty curve shatters into a **scatter of disconnected dots**, one dot for each `(x, y)` pair that satisfies the equation mod `p`. It stops looking like a curve at all. But here is the crucial thing:
 
@@ -74,7 +74,7 @@ Let's make this real with a tiny, fully verified example.
 
 ### A complete curve, computed exactly
 
-Take `y² = x³ + 2x + 2` over the finite field `F_17`. Computing every valid point gives exactly **18 points, plus the point at infinity = 19 total.** A few of them:
+Take `y^2 = x^3 + 2x + 2` over the finite field `F_17`. Computing every valid point gives exactly **18 points, plus the point at infinity = 19 total.** A few of them:
 
 ```
 (0,6) (0,11) (3,1) (3,16) (5,1) (5,16) (6,3) (6,14) (7,6) (7,11) ...
@@ -98,7 +98,7 @@ Now pick the point `G = (5, 1)` and keep adding it to itself. Watch what happens
 Two things to notice:
 
 - It **visits all 18 finite points and then lands on `O`** at step 19, then it would repeat forever. The starting point `G` "generates" the whole group, so we call it a **generator**.
-- It's a verified group: for instance `1G + 2G = (5,1) + (6,3) = (10,6)`, which is exactly `3G`. ✅ The addition is internally consistent, just as a group demands.
+- It's a verified group: for instance `1G + 2G = (5,1) + (6,3) = (10,6)`, which is exactly `3G`.  The addition is internally consistent, just as a group demands.
 
 ---
 
@@ -143,7 +143,7 @@ This is a **Pedersen commitment**, and it has both properties we wanted:
 - **Hiding:** the random `r` smears the result across the whole curve, so the point reveals nothing about `v`.
 - **Binding:** the ECDLP makes it infeasible to find a *different* `(v, r)` giving the same point, so you can't change your mind about what you committed to.
 
-A bonus property turns out to be priceless later: these commitments **add up**. The commitment to `v₁` plus the commitment to `v₂` is a valid commitment to `v₁ + v₂`. That "homomorphic" behaviour is how Zcash will later prove that the money going *into* a transaction equals the money coming *out*, without revealing any amount. We'll cash that in around Article 6.
+A bonus property turns out to be priceless later: these commitments **add up**. The commitment to `v_1` plus the commitment to `v_2` is a valid commitment to `v_1 + v_2`. That "homomorphic" behaviour is how Zcash will later prove that the money going *into* a transaction equals the money coming *out*, without revealing any amount. We'll cash that in around Article 6.
 
 ---
 
@@ -164,7 +164,7 @@ The reasons one curve gets "embedded" inside another's field, and why a *cycle* 
 
 ## 7. An honest disclaimer
 
-A few simplifications kept this readable. We used **short Weierstrass** form (`y² = x³ + ax + b`); Zcash's curves are often written in other equivalent forms (Jubjub is a *twisted Edwards* curve) chosen for efficiency and safety, but the group idea is identical. We didn't define the exact point-addition formulas (they're the algebraic version of "third intersection, then reflect"), and we set aside subtleties like curve order, cofactors, and "pairings," which become important in the proof-system articles. None of this changes the intuition; it sharpens it.
+A few simplifications kept this readable. We used **short Weierstrass** form (`y^2 = x^3 + ax + b`); Zcash's curves are often written in other equivalent forms (Jubjub is a *twisted Edwards* curve) chosen for efficiency and safety, but the group idea is identical. We didn't define the exact point-addition formulas (they're the algebraic version of "third intersection, then reflect"), and we set aside subtleties like curve order, cofactors, and "pairings," which become important in the proof-system articles. None of this changes the intuition; it sharpens it.
 
 ---
 
@@ -172,7 +172,7 @@ A few simplifications kept this readable. We used **short Weierstrass** form (`y
 
 - A privacy system needs a **one-way street**: easy forwards, infeasible backwards. Elliptic curves provide one.
 - An **elliptic curve** is the set of points satisfying `y² = x³ + ax + b`, and its points can be **added** via the geometric **chord-and-tangent** rule, with a special **point at infinity** acting as zero.
-- Over a **finite field** the curve becomes a scatter of dots, but the same addition still works and the points form a **group**. (Verified example: `y² = x³ + 2x + 2` over `F_17` has 19 points, and `G = (5,1)` generates all of them.)
+- Over a **finite field** the curve becomes a scatter of dots, but the same addition still works and the points form a **group**. (Verified example: `y^2 = x^3 + 2x + 2` over `F_17` has 19 points, and `G = (5,1)` generates all of them.)
 - **Scalar multiplication** `kG` is easy to compute but infeasible to reverse: the **ECDLP**. That is the trapdoor.
 - **Keys:** private key `k`, public key `kG`. **Commitments:** Pedersen form `v·G + r·H`, which hides, binds, and conveniently **adds up**.
 - In **Zcash**, Sapling uses **BLS12-381 + Jubjub** and Orchard uses the **Pallas/Vesta (Pasta)** curves; every key and commitment lives on these.
@@ -183,13 +183,13 @@ A few simplifications kept this readable. We used **short Weierstrass** form (`y
 
 | Term | Plain-English meaning |
 |---|---|
-| **Elliptic curve** | Points satisfying `y² = x³ + ax + b`, with a special "addition" of points |
+| **Elliptic curve** | Points satisfying `y^2 = x^3 + ax + b`, with a special "addition" of points |
 | **Point addition** | The chord-and-tangent rule: line through two points, take the third hit, reflect |
 | **Point at infinity (`O`)** | The curve's "zero"; adding it changes nothing |
 | **Generator (`G`)** | A base point whose multiples eventually cover the whole group |
 | **Scalar multiplication (`kG`)** | Adding `G` to itself `k` times; easy forwards, hard to reverse |
 | **ECDLP** | The hard problem of recovering `k` from `kG`; the security foundation |
-| **Pedersen commitment** | `v·G + r·H`; a sealed envelope that hides, binds, and adds up |
+| **Pedersen commitment** | `v.G + r.H`; a sealed envelope that hides, binds, and adds up |
 
 ---
 
@@ -222,6 +222,6 @@ Using the verified table in Section 3, what is `9G + 10G` on our toy curve? And 
 
 ### What's next
 
-**Article 3 · Hashing and commitments:** we'll open up the "magic sealed envelope" properly. You've now seen one way to build a commitment from curve points; next we ask what hiding and binding really mean, meet hash functions, and connect both to the note commitments that anchor every Zcash payment.
+**Article 3 . Hashing and commitments:** we'll open up the "magic sealed envelope" properly. You've now seen one way to build a commitment from curve points; next we ask what hiding and binding really mean, meet hash functions, and connect both to the note commitments that anchor every Zcash payment.
 
 *Part of the* Zcash from First Principles *series for [ZecHub](https://zechub.org). Licensed CC BY-SA 4.0.*
