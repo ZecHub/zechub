@@ -83,7 +83,7 @@ Look at the rows for `1` through `6`: each one contains every nonzero value `1..
 
 ### Division: the magic that needs a prime
 
-Division is just "multiply by the reciprocal." In `F_7`, the reciprocal (or **inverse**) of a number `a` is the value `a⁻¹` for which `a x a⁻¹ = 1`. Reading them straight off the table:
+Division is just "multiply by the reciprocal." In `F_7`, the reciprocal (or **inverse**) of a number `a` is the value `a^(-1)` for which `a x a^(-1) = 1`. Reading them straight off the table:
 
 | `a` | 1 | 2 | 3 | 4 | 5 | 6 |
 |---|---|---|---|---|---|---|
@@ -127,7 +127,7 @@ Rearrange it (peel off one factor of `a`) and you get the inverse for free:
 a^(-1) = a^(p-2)   (mod p)
 ```
 
-Test in `F_7` (`p = 7`, so `p - 2 = 5`): the inverse of `2` should be `2⁵ = 32 = 4 (mod 7)`. And indeed our table said `2⁻¹ = 4`.  Computers raise to large powers extremely fast, so this turns "find the reciprocal" into a quick, exact computation even for gigantic primes.
+Test in `F_7` (`p = 7`, so `p - 2 = 5`): the inverse of `2` should be `2^5 = 32 = 4 (mod 7)`. And indeed our table said `2^(-1) = 4`.  Computers raise to large powers extremely fast, so this turns "find the reciprocal" into a quick, exact computation even for gigantic primes.
 
 You do not need to memorize this. You need to know that **division in a finite field is a fast, exact operation**, which is exactly why cryptographers are happy to build on it.
 
@@ -165,7 +165,7 @@ So the answer to Article 0's open question, *"where do the secret recipes come f
 
 ## 8. An honest disclaimer
 
-To stay newcomer-friendly we simplified a few true things. Finite fields don't only come in the `F_p` flavour; you can also build fields with `pⁿ` elements (called **extension fields**), and those matter for the "pairings" that Sapling's proof system relies on. We also skipped the full list of field axioms and glossed over how primes of this size are chosen and validated. None of that changes the intuition you now hold; it refines it. We'll add the precision back, with flags, when a later article needs it.
+To stay newcomer-friendly we simplified a few true things. Finite fields don't only come in the `F_p` flavour; you can also build fields with `p^n` elements (called **extension fields**), and those matter for the "pairings" that Sapling's proof system relies on. We also skipped the full list of field axioms and glossed over how primes of this size are chosen and validated. None of that changes the intuition you now hold; it refines it. We'll add the precision back, with flags, when a later article needs it.
 
 ---
 
@@ -188,7 +188,7 @@ To stay newcomer-friendly we simplified a few true things. Finite fields don't o
 | **mod p** | "Divide by `p` and keep the remainder" |
 | **Field** | A number system where add, subtract, multiply, and divide all work |
 | **Finite field `F_p`** | The numbers `0..p-1` with arithmetic done mod a prime `p` |
-| **Inverse (reciprocal)** | The element `a⁻¹` with `a x a⁻¹ = 1`; "dividing by `a`" means multiplying by it |
+| **Inverse (reciprocal)** | The element `a^(-1)` with `a x a^(-1) = 1`; "dividing by `a`" means multiplying by it |
 | **Zero divisor** | Two nonzero values whose product is zero; the thing that ruins composite moduli |
 | **Prime** | A whole number greater than 1 with no factors except 1 and itself |
 
