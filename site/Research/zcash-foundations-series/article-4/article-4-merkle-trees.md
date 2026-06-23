@@ -4,7 +4,7 @@
 
 ### Summarizing millions of commitments in one tiny fingerprint
 
-> **Series:** *Zcash from First Principles* · **Article 4 · Merkle Trees**
+> **Series:** *Zcash from First Principles* . **Article 4 . Merkle Trees**
 > **Audience:** newcomers. We build on [Article 3 (hashing and commitments)](article-3-hashing-commitments.md). If you know what a fingerprint and a commitment are, you're ready.
 > **What you'll leave with:** an intuitive, correct picture of Merkle trees, how to prove membership without revealing which item you mean, and exactly how this becomes Zcash's note commitment tree.
 
@@ -74,13 +74,13 @@ step 1:  H(hC , hD)        = hCD       (combine C with its sibling)
 step 2:  H(hAB , hCD)      = ROOT?     (combine with the uncle)
 ```
 
-Computed for real: this yields `1b3faa3fcc5e...`, which **matches the root.** ✅ The leaf is proven to be in the tree.
+Computed for real: this yields `1b3faa3fcc5e...`, which **matches the root.**  The leaf is proven to be in the tree.
 
 ![alt text](image-21.png)
 
 Two things make this powerful:
 
-- **It's tiny.** For 4 leaves you supplied 2 hashes. For a tree of `n` leaves you supply only about **log₂(n)** hashes. For a billion leaves, that's roughly **30 hashes**, not a billion. The proof barely grows as the tree explodes in size.
+- **It's tiny.** For 4 leaves you supplied 2 hashes. For a tree of `n` leaves you supply only about **log_2(n)** hashes. For a billion leaves, that's roughly **30 hashes**, not a billion. The proof barely grows as the tree explodes in size.
 - **It's the seed of privacy.** The proof shows your leaf is *somewhere* in the tree. When this same check is performed *inside a zero-knowledge proof* (Article 5), even the path itself is hidden, so you prove "my note is in the tree" while revealing neither the note nor its position. That fully solves Problem two.
 
 ---
@@ -95,7 +95,7 @@ A few real specifics:
 
 - **It only grows.** Leaves are appended, never removed. This is called an **incremental Merkle tree.** (It matches Article 0's "the board never tears anything down.")
 - **The root is called the *anchor*.** When you spend, your transaction references a recent anchor and proves, in zero knowledge, that your note's commitment sits in the tree with that root.
-- **Fixed depth.** Zcash's shielded trees have depth **32**, meaning they can hold up to `2³²` (over four billion) notes.
+- **Fixed depth.** Zcash's shielded trees have depth **32**, meaning they can hold up to `2^(32)` (over four billion) notes.
 - **ZK-friendly hashing.** The tree isn't built with SHA-256. Sapling hashes the tree with **Pedersen hashes** and Orchard uses **Sinsemilla** (both from Article 3), precisely so the membership climb is cheap to prove inside a circuit.
 
 ![alt text](image-22.png)
@@ -123,7 +123,7 @@ Simplifications, as usual. Real incremental Merkle trees track "frontier" nodes 
 
 - A **Merkle tree** hashes data into **leaves**, then hashes **pairs upward** until a single **root** remains.
 - Thanks to the avalanche effect, the **root is a fingerprint of the entire list**: change one leaf and the root changes. One small value certifies a huge dataset.
-- A **membership proof (authentication path)** is just the siblings along the climb to the root, about **log₂(n)** hashes, so proofs stay tiny even for billions of leaves.
+- A **membership proof (authentication path)** is just the siblings along the climb to the root, about **log_2(n)** hashes, so proofs stay tiny even for billions of leaves.
 - Performed **inside a zero-knowledge proof**, that membership check hides *which* leaf you mean, proving "my note is in the tree" without revealing the note or its position.
 - Zcash's **note commitment tree** is an **incremental** Merkle tree of note commitments, depth **32**, whose root is the **anchor**; Sapling hashes it with **Pedersen** and Orchard with **Sinsemilla**.
 - The tree proves **existence**; the separate **nullifier set** prevents **double-spends**. Keeping them apart is what unlinks a note's birth from its death.
@@ -173,6 +173,6 @@ Changing `C` changes `hC` (avalanche effect), which changes `hCD = H(hC, hD)`, w
 
 ### What's next
 
-**Article 5 · Zero-knowledge proofs:** the crescendo. We've now built notes, commitments, and the tree, and we keep saying "proven in zero knowledge." Article 5 finally explains how you can prove a statement is true, that your note is in the tree, that your nullifier is correct, that money balances, while revealing none of it.
+**Article 5 . Zero-knowledge proofs:** the crescendo. We've now built notes, commitments, and the tree, and we keep saying "proven in zero knowledge." Article 5 finally explains how you can prove a statement is true, that your note is in the tree, that your nullifier is correct, that money balances, while revealing none of it.
 
 *Part of the* Zcash from First Principles *series for [ZecHub](https://zechub.org). Licensed CC BY-SA 4.0.*
