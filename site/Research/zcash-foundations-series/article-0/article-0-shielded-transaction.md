@@ -36,7 +36,7 @@ Before anything else, clear up a common misconception: **Zcash is not "the priva
 | | **Transparent world** | **Shielded world** |
 |---|---|---|
 | Privacy | Public, just like Bitcoin | Private |
-| Addresses start with | `t…` | `z…` or `u…` |
+| Addresses start with | `t...` | `z...` or `u...` |
 | Sender / receiver / amount | **Visible** to everyone | **Hidden** from everyone |
 | Underlying tech | Bitcoin-style public ledger | Cryptographic commitments + zero-knowledge proofs |
 
@@ -100,7 +100,7 @@ How can a seal do both at once? That's a real and answerable question. It's the 
 When you spend a note, you publish its **nullifier**, the "void token." This token is computed from *the note itself* **and** *your secret key*. That recipe buys three properties simultaneously, and each one matters:
 
 1. **Only the owner can create it.** You need the secret key to compute it, so nobody can spend your notes for you.
-2. **It's always the *same* token for a given note.** Try to spend the same note twice and you'd produce the *identical* void token both times, and the public "spent" bin already contains it. Double-spend rejected. ✅
+2. **It's always the *same* token for a given note.** Try to spend the same note twice and you'd produce the *identical* void token both times, and the public "spent" bin already contains it. Double-spend rejected. 
 3. **Nobody can trace it back to its envelope.** The void token looks completely unrelated to the envelope it came from.
 
 That third property is the **heart of Zcash privacy**, and it deserves its own section below.
@@ -146,12 +146,12 @@ Notice the asymmetry that makes the privacy work:
 
 | Fact about the payment | Visible to the public? |
 |---|---|
-| That *a* shielded transaction occurred | ✅ Yes |
-| That it obeyed all the rules (no forgery, no double-spend) | ✅ Yes (via the proof) |
-| **Who** sent the money | ❌ Hidden |
-| **Who** received it | ❌ Hidden |
-| **How much** was sent | ❌ Hidden |
-| **Which** earlier note was spent | ❌ Hidden |
+| That *a* shielded transaction occurred |  Yes |
+| That it obeyed all the rules (no forgery, no double-spend) |  Yes (via the proof) |
+| **Who** sent the money |  Hidden |
+| **Who** received it |  Hidden |
+| **How much** was sent |  Hidden |
+| **Which** earlier note was spent |  Hidden |
 
 This is the resolution of the paradox from Section 1. The public verifies the *rules*, not the *contents*. Verification and privacy stop fighting, because the zero-knowledge proof lets you check the former without touching the latter.
 
