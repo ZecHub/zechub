@@ -175,7 +175,7 @@ To stay newcomer-friendly we simplified a few true things. Finite fields don't o
 - The intuition is a **clock**: arithmetic that **wraps around** (modular arithmetic), which conveniently erases the "size" of a number.
 - Doing arithmetic with the numbers `0..p-1` mod a **prime** `p` gives a real field `F_p`, where you can also **divide** because every nonzero element has an inverse.
 - The modulus **must be prime**: a composite modulus creates zero divisors (like `2 x 3 = 0 mod 6`) and breaks division.
-- Computers find inverses fast via **Fermat's Little Theorem** (`a⁻¹ = a^(p-2)`).
+- Computers find inverses fast via **Fermat's Little Theorem** (`a^(-1) = a^(p-2)`).
 - In **Zcash**, every key, commitment, nullifier, and proof element is ultimately an element of a large finite field (255-bit Pasta fields for Orchard, a 381-bit field for Sapling's BLS12-381).
 
 ---
