@@ -54,11 +54,11 @@ Here's the single mental picture to carry through the rest of the article. We'll
 
 Picture one enormous **public bulletin board** that everyone on Earth can see at all times.
 
-🟦 **Receiving money** means someone pins a **sealed, opaque envelope** to the board. Inside the envelope is *how much money it holds* and *a secret that only the recipient can read*, because the envelope is locked to that recipient's personal key. The whole world sees that *an envelope appeared*. Nobody but the owner can see what's inside.
+* **Receiving money** means someone pins a **sealed, opaque envelope** to the board. Inside the envelope is *how much money it holds* and *a secret that only the recipient can read*, because the envelope is locked to that recipient's personal key. The whole world sees that *an envelope appeared*. Nobody but the owner can see what's inside.
 
-🟦 **The board only ever grows.** Envelopes are never torn down or erased. New ones are pinned on top, forever.
+* **The board only ever grows.** Envelopes are never torn down or erased. New ones are pinned on top, forever.
 
-🟦 **Spending money** means stepping behind a curtain, proving *"I own one of the unspent envelopes on this board, and I'm allowed to open it"*, then dropping a unique **void token** into a public "spent" bin and pinning **new envelopes** for whoever you're paying.
+* **Spending money** means stepping behind a curtain, proving *"I own one of the unspent envelopes on this board, and I'm allowed to open it"*, then dropping a unique **void token** into a public "spent" bin and pinning **new envelopes** for whoever you're paying.
 
 That little ritual (pin a void token, pin new envelopes, all from behind a curtain) *is* a Zcash payment. Everything else is detail.
 
