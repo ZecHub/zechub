@@ -4,7 +4,7 @@
 
 ### How to lock a secret in public and never be able to lie about it
 
-> **Series:** *Zcash from First Principles* · **Article 3 · Hashing and Commitments**
+> **Series:** *Zcash from First Principles* . **Article 3 . Hashing and Commitments**
 > **Audience:** newcomers. We build on [Article 1 (finite fields)](article-1-finite-fields.md) and [Article 2 (elliptic curves)](article-2-elliptic-curves.md), but the intuition stands on its own.
 > **What you'll leave with:** a clear understanding of hash functions, what "hiding" and "binding" really mean, and how Zcash builds the note commitments that anchor every private payment.
 
@@ -82,12 +82,12 @@ There are two common recipes, and Zcash uses both.
 
 | | **Hash-based commitment** | **Pedersen commitment** (from Article 2) |
 |---|---|---|
-| Recipe | `H(v, r)` | `v·G + r·H` (points on a curve) |
+| Recipe | `H(v, r)` | `v.G + r.H` (points on a curve) |
 | Hiding from | the random `r` | the random `r` |
 | Binding from | collision resistance | the elliptic-curve trapdoor (ECDLP) |
 | Special power | simple and fast | the commitments **add up** (homomorphic) |
 
-That last row is why Pedersen commitments matter so much in Zcash. Because `commit(v₁) + commit(v₂)` is a valid `commit(v₁ + v₂)`, the protocol can later prove that **money in equals money out** by adding commitments together, all without revealing a single amount. We're stockpiling that fact for Article 6.
+That last row is why Pedersen commitments matter so much in Zcash. Because `commit(v_1) + commit(v_2)` is a valid `commit(v_1 + v_2)`, the protocol can later prove that **money in equals money out** by adding commitments together, all without revealing a single amount. We're stockpiling that fact for Article 6.
 
 ---
 
@@ -181,6 +181,6 @@ With only two outcomes, your friend can simply compute `H("win")` and `H("lose")
 
 ### What's next
 
-**Article 4 · Merkle trees:** we now have millions of commitments piling up. Article 4 shows how Zcash organizes them into a single tree whose tiny root fingerprint stands in for the entire history, and how you can prove your note is in that tree without revealing which one. That's the real shape of Article 0's "public board."
+**Article 4 . Merkle trees:** we now have millions of commitments piling up. Article 4 shows how Zcash organizes them into a single tree whose tiny root fingerprint stands in for the entire history, and how you can prove your note is in that tree without revealing which one. That's the real shape of Article 0's "public board."
 
 *Part of the* Zcash from First Principles *series for [ZecHub](https://zechub.org). Licensed CC BY-SA 4.0.*
