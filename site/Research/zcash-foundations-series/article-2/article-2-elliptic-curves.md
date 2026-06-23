@@ -117,7 +117,7 @@ That asymmetry is the **one-way street** we needed in Section 1. The backward pr
 
 ![alt text](image-12.png)
 
-> In our toy `F_17` curve you *could* just read `k` off the table, because it only has 19 points. Real curves have around `2²⁵⁵` points. The table would have more rows than there are atoms in the universe, so "reading it off" is not an option. The smallness is what makes the toy curve teachable and also why it isn't secure.
+> In our toy `F_17` curve you *could* just read `k` off the table, because it only has 19 points. Real curves have around `2^(255)` points. The table would have more rows than there are atoms in the universe, so "reading it off" is not an option. The smallness is what makes the toy curve teachable and also why it isn't secure.
 
 ---
 
@@ -135,7 +135,7 @@ This single idea, *a public key is a secret scalar times a fixed generator*, is 
 Recall the "sealed envelope" (commitment) from Article 0, which had to **hide** its contents yet be **impossible to forge**. Elliptic curves hand us a clean way to build one. Take two fixed, public generator points `G` and `H`, a secret value `v`, and a random blinding number `r`, and form:
 
 ```
-Commitment  =  v·G  +  r·H
+Commitment  =  v.G  +  r.H
 ```
 
 This is a **Pedersen commitment**, and it has both properties we wanted:
@@ -171,10 +171,10 @@ A few simplifications kept this readable. We used **short Weierstrass** form (`y
 ## 8. Summary
 
 - A privacy system needs a **one-way street**: easy forwards, infeasible backwards. Elliptic curves provide one.
-- An **elliptic curve** is the set of points satisfying `y² = x³ + ax + b`, and its points can be **added** via the geometric **chord-and-tangent** rule, with a special **point at infinity** acting as zero.
+- An **elliptic curve** is the set of points satisfying `y^2 = x^3 + ax + b`, and its points can be **added** via the geometric **chord-and-tangent** rule, with a special **point at infinity** acting as zero.
 - Over a **finite field** the curve becomes a scatter of dots, but the same addition still works and the points form a **group**. (Verified example: `y^2 = x^3 + 2x + 2` over `F_17` has 19 points, and `G = (5,1)` generates all of them.)
 - **Scalar multiplication** `kG` is easy to compute but infeasible to reverse: the **ECDLP**. That is the trapdoor.
-- **Keys:** private key `k`, public key `kG`. **Commitments:** Pedersen form `v·G + r·H`, which hides, binds, and conveniently **adds up**.
+- **Keys:** private key `k`, public key `kG`. **Commitments:** Pedersen form `v.G + r.H`, which hides, binds, and conveniently **adds up**.
 - In **Zcash**, Sapling uses **BLS12-381 + Jubjub** and Orchard uses the **Pallas/Vesta (Pasta)** curves; every key and commitment lives on these.
 
 ---
