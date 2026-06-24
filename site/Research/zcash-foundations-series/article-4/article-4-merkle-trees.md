@@ -1,4 +1,5 @@
 # Merkle Trees: How the Blockchain Remembers Every Note
+##### Original Research from [Annkkitaaa](https://github.com/Annkkitaaa)
 
 ![alt text](image-19.png)
 
