@@ -198,13 +198,6 @@ The amounts are hidden, but each is wrapped in a homomorphic value commitment, a
 
 You've now traveled from a single paradox to a full private payment:
 
-```mermaid
-flowchart LR
-    A0["0 · the picture"] --> A1["1 · fields"] --> A2["2 · curves"] --> A3["3 · commitments"] --> A4["4 · trees"] --> A5["5 · proofs"] --> A6["6 · the protocol"]
-    A6 -.->|"every loop closed"| A0
-    style A0 fill:#1f6feb,color:#fff
-    style A6 fill:#1f6feb,color:#fff
-```
 ![alt text](https://github.com/user-attachments/assets/cd8bbb40-57b8-4854-b9cf-97f2485d126a)
 
 
