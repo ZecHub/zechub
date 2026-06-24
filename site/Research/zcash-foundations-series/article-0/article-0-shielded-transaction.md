@@ -1,4 +1,6 @@
 # How a Shielded Zcash Transaction Actually Works
+##### Original Research from [Annkkitaaa](https://github.com/Annkkitaaa)
+
 ![alt text](image.png)
 
 ### The intuition before the math: a no-formula walkthrough of private payments
