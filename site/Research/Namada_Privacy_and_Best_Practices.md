@@ -8,6 +8,8 @@ published: 2025-08-02
 
 # Namada Privacy Best Practices
 
+![Namada Logo](https://i.ibb.co/BZcZHS1/logo.png)
+
 > Practical, actionable guidance for achieving maximum privacy on Namada - and understanding exactly where its protections end.
 
 **Privacy is a fundamental right.** Namada was purpose-built to protect it through advanced zero-knowledge cryptography. This guide distills the most effective practices used by privacy-conscious users and developers.
