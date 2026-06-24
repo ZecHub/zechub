@@ -1,4 +1,5 @@
 # Hashing and Commitments: The Magic Sealed Envelope
+##### Original Research from [Annkkitaaa](https://github.com/Annkkitaaa)
 
 ![alt text](image-15.png)
 
