@@ -6,9 +6,9 @@ published: 2025-08-02
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Namada Privacy Best Practices
-
 ![Namada Logo](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/nam.png)
+
+# Namada Privacy Best Practices
 
 > Practical, actionable guidance for achieving maximum privacy on Namada - and understanding exactly where its protections end.
 
