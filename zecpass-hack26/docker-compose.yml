@@ -1,0 +1,62 @@
+version: '3.8'
+
+services:
+  # Next.js web application (frontend + API routes)
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - MONGODB_URI=${MONGODB_URI}
+      - JWT_SECRET=${JWT_SECRET}
+      - JWT_PUBLIC_KEY=${JWT_PUBLIC_KEY}
+      - JWT_EXPIRES_IN=${JWT_EXPIRES_IN:-86400}
+      - ZINGOLIB_SERVICE_URL=http://zingolib:3001
+      - ZINGOLIB_API_KEY=${ZINGOLIB_API_KEY}
+      - ZECPASS_RECEIVE_ADDRESS=${ZECPASS_RECEIVE_ADDRESS}
+      - NEXT_PUBLIC_APP_URL=${NEXT_PUBLIC_APP_URL:-http://localhost:3000}
+      - NEXT_PUBLIC_ZECPASS_APP_ID=${NEXT_PUBLIC_ZECPASS_APP_ID}
+      - MEMO_POLL_INTERVAL_MS=${MEMO_POLL_INTERVAL_MS:-15000}
+      - BCRYPT_ROUNDS=${BCRYPT_ROUNDS:-12}
+      - CHALLENGE_TTL_SECONDS=${CHALLENGE_TTL_SECONDS:-600}
+      - SESSION_TTL_SECONDS=${SESSION_TTL_SECONDS:-86400}
+      - IP_HASH_SALT=${IP_HASH_SALT}
+      - WEBHOOK_SECRET=${WEBHOOK_SECRET}
+    depends_on:
+      - zingolib
+    restart: unless-stopped
+
+  # ZingoLib REST wrapper service (memo reading)
+  zingolib:
+    build:
+      context: ./zingolib-service
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3001"
+    volumes:
+      - zingolib-data:/data/zingolib
+    environment:
+      - ZINGOLIB_API_KEY=${ZINGOLIB_API_KEY}
+      - ZCASH_NETWORK=${ZCASH_NETWORK:-mainnet}
+      - ZECPASS_RECEIVE_ADDRESS=${ZECPASS_RECEIVE_ADDRESS}
+    depends_on:
+      - zebrad
+    restart: unless-stopped
+
+  # Zebrad — Zcash full node
+  zebrad:
+    image: electriccoinco/zebrad:latest
+    ports:
+      - "8232:8232"
+    volumes:
+      - zebrad-data:/data/zebrad
+    command: ["start", "--network=mainnet"]
+    restart: unless-stopped
+
+volumes:
+  zingolib-data:
+    driver: local
+  zebrad-data:
+    driver: local

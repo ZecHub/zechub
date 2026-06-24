@@ -1,0 +1,9 @@
+.helix
+cobertura.xml
+target
+wallets/*
+zingolib/proptest-regressions
+test_binaries/bins/*
+libtonode-tests/tests/chain_generics.proptest-regressions
+libtonode-tests/store_all_checkpoints_test
+.zingo-cli/

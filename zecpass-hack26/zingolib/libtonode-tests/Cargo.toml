@@ -1,0 +1,44 @@
+[package]
+name = "libtonode-tests"
+version = "0.2.0"
+edition = "2024"
+publish = false
+
+[features]
+default = ["chain_generic_tests", "proptests"]
+proptests = ["proptest"]
+chain_generic_tests = []
+ci = ["zingolib/ci"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+zingolib = { workspace = true, features = ["darkside_tests", "testutils"] }
+zingo_common_components = { workspace = true }
+pepper-sync = { workspace = true }
+zingo-status = { workspace = true }
+
+zingolib_testutils = { path = "../zingolib_testutils", features = ["test_lwd_zcashd"]}
+zcash_local_net.workspace = true
+zingo_test_vectors.workspace = true
+
+zip32 = { workspace = true }
+zcash_address = { workspace = true, features = ["test-dependencies"] }
+zcash_client_backend = { workspace = true }
+zcash_primitives = { workspace = true }
+zcash_protocol = { workspace = true }
+zcash_transparent = { workspace = true }
+shardtree.workspace = true
+bip0039.workspace = true
+
+tokio = { workspace = true, features = ["full"] }
+json = { workspace = true }
+itertools = { workspace = true }
+proptest = { workspace = true, optional = true }
+tracing.workspace = true
+tracing-subscriber.workspace = true
+
+http = { workspace = true }
+
+[dev-dependencies]
+rustls.workspace = true
+test-log.workspace = true
