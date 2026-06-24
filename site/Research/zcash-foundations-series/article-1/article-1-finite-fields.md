@@ -1,4 +1,6 @@
 # Finite Fields: The Number System Cryptography Lives In
+##### Original Research from [Annkkitaaa](https://github.com/Annkkitaaa)
+
 ![alt text](image-5.png)
 
 ### Why "wrapping around" is the secret foundation of Zcash
