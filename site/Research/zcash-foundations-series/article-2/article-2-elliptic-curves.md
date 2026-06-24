@@ -1,4 +1,6 @@
 # Elliptic Curves: Where Zcash's Keys and Commitments Are Born
+##### Original Research from [Annkkitaaa](https://github.com/Annkkitaaa)
+
 ![alt text](image-10.png)
 
 ### A one-way street built from points on a curve
