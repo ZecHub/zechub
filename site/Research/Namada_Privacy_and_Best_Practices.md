@@ -8,7 +8,7 @@ published: 2025-08-02
 
 # Namada Privacy Best Practices
 
-![Namada Logo](https://i.ibb.co/BZcZHS1/logo.png)
+![Namada Logo](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/nam.png)
 
 > Practical, actionable guidance for achieving maximum privacy on Namada - and understanding exactly where its protections end.
 
