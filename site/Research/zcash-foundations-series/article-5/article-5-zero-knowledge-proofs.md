@@ -1,4 +1,5 @@
 # Zero-Knowledge Proofs: Proving You're Right Without Saying Why
+##### Original Research from [Annkkitaaa](https://github.com/Annkkitaaa)
 
 ![alt text](image-23.png)
 
