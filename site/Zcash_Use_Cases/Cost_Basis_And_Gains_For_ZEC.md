@@ -12,6 +12,14 @@ Most tax authorities that have published guidance treat cryptocurrency as proper
 
 Zcash adds one wrinkle that transparent chains do not have. On a public chain, anyone can look up the historical record of a transaction. With shielded ZEC, the amount, sender, and receiver are encrypted, which is the whole point. That privacy is a feature, but it means the data a tax calculation needs is not sitting on a public explorer waiting to be pulled. You hold that information, so you are the one who has to capture it at the time, while you still remember the details.
 
+## The simplest case: when there is nothing to calculate
+
+The section above hides a simple corollary worth stating plainly. If holding ZEC is usually not a taxable event and only disposing of it is, then the simplest possible position is the one where you never dispose at all. ZEC that you acquire and simply keep, without selling, swapping, or spending it, generally creates no realised gain and therefore nothing to compute. One unit of ZEC is still one unit of ZEC. There is a secondary point here too: value that stays in the shielded pool rather than being moved out also keeps contributing to the network's privacy set, which is good for everyone using shielded Zcash.
+
+It would be dishonest, though, to present "just never sell" as practical advice for everyone. For many people, converting some ZEC to local currency is not optional. In places where the surrounding infrastructure for spending or earning in crypto is still thin, people need to cover real costs and are effectively forced to sell at some point. That reality does not disappear because it is inconvenient for a tax calculation. And the workarounds that promise to unlock value without selling, such as borrowing against your holdings through a lending protocol, carry their own risks that can be larger than the tax they help defer; they are not a free way around a disposal and should not be treated as one.
+
+So the honest takeaway is twofold. Not transacting is genuinely the cleanest path from a record-keeping and tax standpoint, and it is worth knowing that the option exists. But most people will dispose of some ZEC eventually, which is exactly why the rest of this page is here: to make that case as understandable and well-recorded as the simple one.
+
 ## The two numbers behind every gain
 
 A realised gain or loss comes from comparing two values.
