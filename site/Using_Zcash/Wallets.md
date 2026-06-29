@@ -4,7 +4,7 @@
 - Operating System: Android | iOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard
-- Features: Address Book | CrossPay | DEX Swaps | Flexa Payments | MultiSignature | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | F-droid
+- Features: Address Book | CrossPay | Near Intents | Flexa Payments | MultiSignature | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | F-droid
 
 ---
 
@@ -272,14 +272,14 @@
 - Operating System: Browser | Windows | macOS
 - Wallet Support: Seed Phrase | External Wallet | Receive Address | QR Code | Hardware
 - Pools: Sapling | Transparent
-- Features: Multi Coin | Cross-chain Swap | No KYC | Non-Custodial | Web App | Desktop App | Shielded ZEC | AnyPay
+- Features: Multi Coin | Near Intents | Maya DEX | No KYC | Non-Custodial | Web App | Desktop App | Shielded ZEC | AnyPay
 
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
-![logo](/assets/images/zapp_logo.png "Zapp")
-- Devices: Android 
+![logo](https://i.ibb.co/Q3t8F1T0/zapp.png "Zapp")
+- Devices: Mobile 
 - Operating System: Android 
-- Wallet Support: Built-in Zcash Wallet  with planned in-chat ZEC payments. The wallet is currently in Beta and is integrated with the messaging experience rather than being a standalone wallet.
+- Wallet Support: Unified Address 
 - Pools: Transparent | Sapling | Orchard
-- Features: End-to-end encrypted Messenger | SWAP by NEAR Intents | P2P.me Offramp | Beta
+- Features: End-to-end encrypted Messenger | NEAR Intents | P2P.me Offramp | Beta
