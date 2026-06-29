@@ -28,6 +28,15 @@
 
 ---
 
+## [Zapp](https://www.justzappit.xyz/app)
+![logo](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/community-projects/zapp.png "Zapp")
+- Devices: Web | Mobile
+- Pools: Sapling | Orchard
+- Features: Beta phase | Messenger | Privacy-first Messenger | ZEC Chats | Real-world Payments | Early Access
+
+
+---
+
 ## [Zingo!](https://www.zingolabs.org/)
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
 - Devices: Mobile | Desktop
