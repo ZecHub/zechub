@@ -277,7 +277,7 @@
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
-![logo](https://i.ibb.co/Q3t8F1T0/zapp.png "Zapp")
+![logo](https://i.ibb.co/mr8rF8y2/zapp-1.png "Zapp")
 - Devices: Mobile 
 - Operating System: Android 
 - Wallet Support: Unified Address 
