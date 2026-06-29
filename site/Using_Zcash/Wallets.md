@@ -249,7 +249,7 @@
 
 ## [Vizor](https://vizor.cash/)
 ![logo](https://i.ibb.co/zhW2d2fV/Vizorphoto.png "Vizor")
-- Devices: Desktop
+- Devices: Desktop | Mobile
 - Operating System: macOS
 - Wallet Support: Seed Phrase | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard
