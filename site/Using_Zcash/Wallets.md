@@ -274,13 +274,12 @@
 - Pools: Sapling | Transparent
 - Features: Multi Coin | Cross-chain Swap | No KYC | Non-Custodial | Web App | Desktop App | Shielded ZEC | AnyPay
 
-
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
 ![logo](/assets/images/zapp_logo.png "Zapp")
-- Devices: Android (iOS planned / coming soon)
-- Operating System: Android (current), iOS (planned)
+- Devices: Android 
+- Operating System: Android 
 - Wallet Support: Built-in Zcash Wallet  with planned in-chat ZEC payments. The wallet is currently in Beta and is integrated with the messaging experience rather than being a standalone wallet.
-- Pools: Sapling/Orchard
-- Features: End-to-end encrypted Messenger | NO KYC | No phone number/email required for registration | Built-in Zcash Wallet (shielded) | SWAP by NEAR Intents | Offramp by P2P.me (On-chain escrow)
+- Pools: Transparent | Sapling | Orchard
+- Features: End-to-end encrypted Messenger | SWAP by NEAR Intents | P2P.me Offramp | Beta
