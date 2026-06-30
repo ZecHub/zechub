@@ -111,7 +111,7 @@ La maggior parte degli exchange centralizzati di criptovalute utilizza indirizzi
 
 ## Errori comuni da evitare
 
-- **Inviare da t-address a t-address** — completamente pubblico, nessuna privacy. Scherma sempre i fondi per primi.
+- **Inviare da indirizzo-t a indirizzo-t** — completamente pubblico, nessuna privacy. Scherma sempre i fondi per primi.
 - **Confondere gli indirizzi Sapling e Orchard** — gli indirizzi Sapling iniziano con `zs`, gli indirizzi Orchard / Unified Address iniziano con `u1`
 - **Lasciare i fondi nella pool Sprout** — Sprout è deprecata; trasferisci i fondi su Orchard
 - **Pensare che il t → z (shielding) sia completamente privato** — l'atto di schermare è visibile on-chain; il contenuto invece no
