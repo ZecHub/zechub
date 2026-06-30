@@ -3,15 +3,15 @@
 
 **Sovright** is a US 501(c3) non-profit dedicated to supporting human autonomy. Starting with a focus on Zcash infrastructure, mining, protocol development, and ecosystem support the project builds tools and services intended to strengthen private digital currency infrastructure and support the long-term resilience of the Zcash network.
 
-Sovright was previously known as **Bootstrap**. The original name reflected the organization’s early goal of bootstrapping a Zcash infrastructure company from the ground up.
+Sovright was previously known as **Bootstrap**. The original name reflected the organizations early goal of bootstrapping a Zcash infrastructure company from the ground up.
 
 [Visit site](https://sovright.com/)
 
 ## Name
 
-The name **Sovright** is a compound of **sovereign** and **right**. It reflects the organization’s focus on individual sovereignty, privacy, and the right to choose how personal data, money, communications, compute, and online activity are controlled.
+The name **Sovright** is a compound of **sovereign** and **right**. It reflects the organizations focus on individual sovereignty, privacy, and the right to choose how personal data, money, communications, compute, and online activity are controlled.
 
-Sovright’s work began with Zcash, a privacy-preserving cryptocurrency that uses zero-knowledge cryptography to support shielded transactions. Over time, the organization’s focus expanded beyond private money to include broader infrastructure concerns, including secure communications, resilient networks, private compute, and secure AI interactions.
+Sovrights work began with Zcash, a privacy-preserving cryptocurrency that uses zero-knowledge cryptography to support shielded transactions. Over time, the organizations focus expanded beyond private money to include broader infrastructure concerns, including secure communications, resilient networks, private compute, and secure AI interactions.
 
 ## Mining Pool
 
@@ -25,7 +25,7 @@ The Sovright Mining Pool is intended for solo miners, small operators, and other
 
 The current testnet version does not provide payouts and is intended for testing only.
 
-## Coming Soon
+## (Coming Soon)
 
 ### Network Resilience
 
