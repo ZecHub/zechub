@@ -24,7 +24,7 @@ Attualmente esistono 4 [pool di valori](https://zcash.readthedocs.io/en/latest/r
 ![img2](https://github.com/user-attachments/assets/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72)
 
 
-L'Orchard Shielded Pool è stata lanciata il 31 maggio 2022. Gli indirizzi Orchard sono noti anche come Unified Address (UA).
+L'Orchard Shielded Pool è stata lanciata il 31 maggio 2022 come parte del network upgrade NU5. Gli indirizzi Orchard sono noti anche come Unified Address (UA).
 
 Orchard non ha richiesto alcun trusted setup ed è quindi tra i sistemi di pagamento a conoscenza zero più avanzati, sicuri e verificabili, grazie alla svolta tecnologica realizzata da Sean Bowe e dagli ingegneri della Electric Coin Company.
 
@@ -111,7 +111,7 @@ La maggior parte degli exchange centralizzati di criptovalute utilizza indirizzi
 
 ## Errori comuni da evitare
 
-- **Inviare da indirizzo-t a indirizzo-t** — completamente pubblico, nessuna privacy. Scherma sempre i fondi per primi.
+- **Inviare da t-address a t-address** — completamente pubblico, nessuna privacy. Scherma sempre i fondi per primi.
 - **Confondere gli indirizzi Sapling e Orchard** — gli indirizzi Sapling iniziano con `zs`, gli indirizzi Orchard / Unified Address iniziano con `u1`
 - **Lasciare i fondi nella pool Sprout** — Sprout è deprecata; trasferisci i fondi su Orchard
 - **Pensare che il t → z (shielding) sia completamente privato** — l'atto di schermare è visibile on-chain; il contenuto invece no

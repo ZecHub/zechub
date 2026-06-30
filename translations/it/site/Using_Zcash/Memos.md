@@ -22,7 +22,7 @@ Una persona ha inviato al proprio partner un biglietto d'amore in uno dei primi 
 
 #### Avanzato
 
-Ecco come usare Zcash Shielded Memos con la CLI Magic-Wormhole e Zcashd per trasferire file in modo sicuro da un computer all'altro!:
+Ecco come usare Zcash Shielded Memos con la CLI Magic-Wormhole e zcashd per trasferire file in modo sicuro da un computer all'altro!:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
