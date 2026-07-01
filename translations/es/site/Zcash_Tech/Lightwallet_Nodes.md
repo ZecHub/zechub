@@ -7,7 +7,7 @@
 
 ## Introducción
 
-Zcash, una criptomoneda centrada en la privacidad, admite una función llamada "nodos lightwallet" que permite a los usuarios interactuar con la blockchain de Zcash sin descargar todo el historial de la blockchain. Esta página wiki ofrece una visión general de los nodos lightwallet, el papel del servicio "lightwalletd" en el ecosistema de Zcash, una lista actual de servidores de nodos lightwallet e instrucciones sobre cómo cambiar de servidor en billeteras populares como YWallet y Zingo.
+Zcash, una criptomoneda centrada en la privacidad, admite una función llamada "nodos lightwallet" que permite a los usuarios interactuar con la blockchain de Zcash sin descargar todo el historial de la blockchain. Esta página wiki ofrece una visión general de los nodos lightwallet, el papel del servicio "lightwalletd" en el ecosistema de Zcash, una lista actual de servidores de nodos lightwallet e instrucciones sobre cómo cambiar de servidor en billeteras populares como Ywallet y Zingo.
 
 ## Servicio Lightwalletd
 

@@ -77,7 +77,7 @@ PSPACE  - Demostrar una alternancia de diferentes afirmaciones
 
 Lo que un verificador puede calcular después de una interacción es idéntico a lo que podía demostrar antes. La interacción durante múltiples rondas entre el demostrador y el verificador no ha incrementado la potencia computacional del verificador.
 
-**El paradigma de simulación**
+**El paradigma de simulación (Simulation Paradigm)**
 
 Este experimento existe en toda la criptografía. Presenta una "Vista real" y una "Vista simulada". 
 

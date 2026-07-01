@@ -8,7 +8,7 @@ Presentamos Zebra: revolucionando la infraestructura de nodos de Zcash con Rust
 
 Conoce Zebra, un logro innovador como el nodo de Zcash inaugural creado completamente en Rust. Integrado sin problemas en la red peer-to-peer de Zcash, Zebra sirve como una herramienta fundamental que fortalece la resiliencia de la red. A través de sus funciones principales de validar y difundir transacciones, y de mantener meticulosamente el estado de la blockchain de Zcash, Zebra contribuye a una infraestructura de red más descentralizada.
 
-## Ventajas sobre la implementación del nodo zcashd
+## Ventajas sobre la implementación del nodo Zcashd
 A diferencia del nodo original de Zcash, zcashd, que remonta su linaje al código base fundacional de Bitcoin y es desarrollado por Electric Coin Company, nuestra implementación se presenta como una entidad autónoma. Desarrollado desde cero con un enfoque en la seguridad y la eficiencia, Zebra aprovecha la potencia del lenguaje Rust, seguro en memoria.
 
 A pesar de sus orígenes distintos, tanto zcashd como Zebra se adhieren al mismo protocolo, lo que facilita una comunicación e interoperabilidad fluidas entre ambos. Esta innovación no solo amplía el ecosistema de Zcash, sino que también establece un nuevo estándar para el desarrollo de nodos de blockchain.
