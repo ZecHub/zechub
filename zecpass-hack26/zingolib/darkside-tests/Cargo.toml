@@ -1,0 +1,45 @@
+[package]
+name = "darkside-tests"
+version = "0.1.0"
+edition = "2024"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[features]
+chain_generic_tests = []
+
+[dependencies]
+zingolib = { workspace = true, features = ["darkside_tests", "testutils"] }
+zingo-netutils = { workspace = true }
+zingo_common_components = { workspace = true }
+
+zingolib_testutils = { path = "../zingolib_testutils" }
+zcash_local_net.workspace = true
+zingo_test_vectors.workspace = true
+
+orchard = { workspace = true }
+sapling-crypto = { workspace = true }
+incrementalmerkletree = { workspace = true }
+zcash_primitives = { workspace = true }
+zcash_protocol = { workspace = true }
+bip0039.workspace = true
+zip32.workspace = true
+
+tokio = { workspace = true, features = ["full"] }
+http = { workspace = true }
+tonic = { workspace = true }
+tonic-prost = { workspace = true }
+prost = { workspace = true }
+hex = { workspace = true }
+futures-util = { workspace = true }
+serde_json = { workspace = true }
+proptest = { workspace = true }
+
+# Logging
+tracing.workspace = true
+tracing-subscriber.workspace = true
+
+[build-dependencies]
+tonic-prost-build = { workspace = true }
+
+[package.metadata.cargo-shear]
+ignored = ["prost", "tonic-prost", "futures-util"]

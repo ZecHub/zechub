@@ -1,0 +1,80 @@
+name: CI
+
+on:
+  workflow_call:
+  workflow_dispatch:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    paths:
+      - "**/*.rs"
+      - "**/Cargo.toml"
+      - "**/Cargo.lock"
+      - ".cargo/**"
+      - "rust-toolchain.toml"
+      - ".github/workflows/**"
+  push:
+    branches: [stable, dev]
+
+jobs:
+  reject-trailing-whitespace:
+    uses: zingolabs/infrastructure/.github/workflows/trailing-whitespace.yaml@20485fed7a080e381130ed8120419dc81acae641
+
+  cargo-checkmate:
+    uses: ./.github/workflows/cargo-checkmate.yaml
+
+  cargo-hack-check:
+    name: Cargo Hack Check
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Rust toolchain
+        uses: actions-rust-lang/setup-rust-toolchain@v1
+        with:
+          toolchain: ${{ inputs.toolchain }}
+
+      - name: Cache cargo
+        uses: Swatinem/rust-cache@v2
+
+      - name: Install protoc
+        run: |
+          if ! command -v protoc; then
+            sudo apt-get update
+            sudo apt-get install -y protobuf-compiler
+          fi
+
+      - name: Run cargo-hack
+        uses: zingolabs/infrastructure/.github/actions/cargo-hack@20485fed7a080e381130ed8120419dc81acae641
+        with:
+          hack-subcommand: check
+
+  run-doc-tests:
+    name: Run doc tests
+    runs-on: ubuntu-24.04
+    if: github.event.pull_request.draft == false
+    env:
+      RUSTFLAGS: -D warnings
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - uses: actions-rust-lang/setup-rust-toolchain@v1
+
+      - name: Install protoc
+        run: |
+          if ! command -v protoc; then
+             sudo apt-get update
+             sudo apt-get install -y protobuf-compiler
+          fi
+
+      - name: Cargo cache
+        uses: Swatinem/rust-cache@v2
+
+      - name: Run doc tests
+        run: cargo test --doc
+
+  test:
+    uses: ./.github/workflows/test.yaml
+    with:
+      nextest-flags: "-E 'not test(slow)'"

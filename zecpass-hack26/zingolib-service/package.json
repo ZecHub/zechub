@@ -1,0 +1,23 @@
+{
+  "name": "@zecpass/zingolib-service",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ZingoLib REST wrapper service for ZecPass memo polling",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsup src/index.ts --format esm --clean",
+    "start": "node dist/index.js",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "hono": "^4.6.14",
+    "@hono/node-server": "^1.13.7"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "@types/node": "^22.10.5",
+    "tsup": "^8.3.5"
+  }
+}

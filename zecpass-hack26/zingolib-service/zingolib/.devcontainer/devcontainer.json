@@ -1,0 +1,19 @@
+{
+    "dockerFile": "Dockerfile",
+    "hostRequirements": {
+        "cpus": 4,
+        "memory": "16gb",
+        "storage": "32gb"
+    },
+    "postCreateCommand": "ln -s /usr/bin/lightwalletd /usr/bin/zcashd /usr/bin/zcash-cli ./zingocli/regtest/bin/",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "EditorConfig.EditorConfig",
+                "github.vscode-github-actions",
+                "Swellaby.rust-pack",
+                "pflannery.vscode-versionlens"
+            ]
+        }
+    }
+}

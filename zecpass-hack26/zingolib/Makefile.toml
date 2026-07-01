@@ -1,0 +1,322 @@
+env_files = [".env.testing-artifacts"]
+
+[config]
+default_to_workspace = false
+
+[env]
+NEXTEST_EXPERIMENTAL_LIBTEST_JSON = "1"
+ZINGOLIB_NEXTEST_PROFILE = "ci"
+ZINGOLIB_NEXTEST_RETRIES = "2"
+ZINGOLIB_NEXTEST_FILTER = "not test(slow)"
+IMAGE_NAME = "zingodevops/ci-build"
+RUST_VERSION = { script = ["sed -n 's/^[[:space:]]*channel[[:space:]]*=[[:space:]]*\"\\([0-9.]*\\)\".*/\\1/p' rust-toolchain.toml | head -n1"] }
+
+[tasks.default]
+alias = "help"
+
+[tasks.help]
+description = "List Zingolib cargo-make tasks"
+script_runner = "bash"
+script = '''
+set -euo pipefail
+
+cat <<'HELP'
+Zingolib test tasks
+-------------------
+
+Common usage:
+  makers run
+  cargo make run
+
+The run task runs tests inside a reproducible container image:
+  cargo nextest run --verbose --workspace --profile ci --retries 2 -E 'not test(slow)'
+
+Build or refresh the local image:
+  makers build-image
+
+Run the same nextest command on the host:
+  makers local-run
+
+The local-run task mirrors the PR test defaults:
+  cargo nextest run --verbose --workspace --profile ci --retries 2 -E 'not test(slow)'
+
+Forward extra nextest flags after the task name:
+  makers run -p zingo-memo
+
+Override the default nextest filter:
+  ZINGOLIB_NEXTEST_FILTER='package(zingolib) & not test(slow)' makers run
+
+Reproduce the latest failing or incomplete nextest run:
+  makers rerun
+
+Run ignored tests explicitly:
+  makers run-ignored
+
+Install cargo-make if these commands are unavailable:
+  cargo install cargo-make
+HELP
+'''
+
+[tasks.base-script]
+script_runner = "bash"
+script.pre = '''
+set -euo pipefail
+
+container_runtime() {
+  if [[ -n "${CONTAINER_RUNTIME:-}" ]]; then
+    printf '%s\n' "${CONTAINER_RUNTIME}"
+  elif command -v podman >/dev/null 2>&1; then
+    printf '%s\n' "podman"
+  elif command -v docker >/dev/null 2>&1; then
+    printf '%s\n' "docker"
+  else
+    echo "Neither podman nor docker was found. Install one or set CONTAINER_RUNTIME." >&2
+    exit 1
+  fi
+}
+
+container_mount_suffix() {
+  case "$(container_runtime)" in
+    podman) printf '%s\n' ":U" ;;
+    *) printf '%s\n' "" ;;
+  esac
+}
+
+container_dir_hash() {
+  {
+    for path in .env.testing-artifacts rust-toolchain.toml; do
+      printf '%s %s\n' "${path}" "$(git hash-object "${path}")"
+    done
+    find docker-ci -type f | LC_ALL=C sort | while IFS= read -r path; do
+      printf '%s %s\n' "${path}" "$(git hash-object "${path}")"
+    done
+  } | git hash-object --stdin | cut -c1-14
+}
+
+container_image_tag() {
+  printf 'RUST_%s-LIGHTWALLETD_%s-ZCASH_%s-ZAINO_%s-NEXTEST_%s-CONTAINER_%s' \
+    "${RUST_VERSION}" \
+    "${LIGHTWALLETD_VERSION}" \
+    "${ZCASH_VERSION}" \
+    "${ZAINO_IMAGE_TAG}" \
+    "${NEXTEST_VERSION}" \
+    "$(container_dir_hash)" \
+    | git hash-object --stdin \
+    | cut -c1-14
+}
+
+append_workspace_default() {
+  local use_default_workspace=1
+  for arg in "$@"; do
+    case "${arg}" in
+      -p|--package|--package=*|--workspace|--all|--exclude|--exclude=*|--manifest-path|--manifest-path=*)
+        use_default_workspace=0
+        ;;
+    esac
+  done
+
+  if [[ "${use_default_workspace}" -eq 1 ]]; then
+    printf '%s\n' "--workspace"
+  fi
+}
+'''
+script.main = "true"
+
+[tasks.prepare-test-binaries-dir]
+description = "Ensure the local test binary directory exists"
+script_runner = "bash"
+script = '''
+set -euo pipefail
+mkdir -p test_binaries/bins
+'''
+
+[tasks.compute-image-tag]
+description = "Print the reproducible local test image tag"
+extend = "base-script"
+script.main = '''
+echo "$(container_image_tag)"
+'''
+
+[tasks.init-container-volumes]
+description = "Initialize named volumes used by containerized tests"
+extend = "base-script"
+script.main = '''
+runtime="$(container_runtime)"
+for volume in zingolib-container-target zingolib-cargo-git zingolib-cargo-registry; do
+  "${runtime}" volume inspect "${volume}" >/dev/null 2>&1 || "${runtime}" volume create "${volume}" >/dev/null
+done
+mkdir -p target test_binaries/bins
+'''
+
+[tasks.build-image]
+description = "Build the reproducible local test image from .env.testing-artifacts"
+extend = "base-script"
+dependencies = ["init-container-volumes"]
+script.main = '''
+runtime="$(container_runtime)"
+tag="$(container_image_tag)"
+
+echo "Building ${IMAGE_NAME}:${tag}"
+echo "  RUST_VERSION=${RUST_VERSION}"
+echo "  LIGHTWALLETD_VERSION=${LIGHTWALLETD_VERSION}"
+echo "  ZCASH_VERSION=${ZCASH_VERSION}"
+echo "  ZAINO_IMAGE_TAG=${ZAINO_IMAGE_TAG}"
+echo "  NEXTEST_VERSION=${NEXTEST_VERSION}"
+
+"${runtime}" build \
+  -f docker-ci/Dockerfile \
+  --build-arg "RUST_VERSION=${RUST_VERSION}" \
+  --build-arg "LIGHTWALLETD_VERSION=${LIGHTWALLETD_VERSION}" \
+  --build-arg "ZCASH_VERSION=${ZCASH_VERSION}" \
+  --build-arg "ZAINO_IMAGE_TAG=${ZAINO_IMAGE_TAG}" \
+  --build-arg "NEXTEST_VERSION=${NEXTEST_VERSION}" \
+  -t "${IMAGE_NAME}:${tag}" \
+  docker-ci
+'''
+
+[tasks.ensure-image-exists]
+description = "Build the reproducible test image if it is not present locally"
+extend = "base-script"
+dependencies = ["init-container-volumes"]
+script.main = '''
+runtime="$(container_runtime)"
+tag="$(container_image_tag)"
+
+echo "Checking for ${IMAGE_NAME}:${tag} with ${runtime}..."
+
+if "${runtime}" image inspect "${IMAGE_NAME}:${tag}" >/dev/null 2>&1; then
+  echo "Image ${IMAGE_NAME}:${tag} already exists."
+else
+  echo "Image ${IMAGE_NAME}:${tag} not found; building it now."
+  export CONTAINER_RUNTIME="${runtime}"
+  makers build-image
+fi
+'''
+
+[tasks.local-run]
+clear = true
+description = "Run reproducible workspace tests on the host with the same defaults used by PR CI"
+dependencies = ["prepare-test-binaries-dir"]
+script_runner = "bash"
+extend = "base-script"
+script.main = '''
+args=(
+  --verbose
+  --profile "${ZINGOLIB_NEXTEST_PROFILE}"
+  --retries "${ZINGOLIB_NEXTEST_RETRIES}"
+)
+
+workspace_arg="$(append_workspace_default "$@")"
+if [[ -n "${workspace_arg}" ]]; then
+  args+=("${workspace_arg}")
+fi
+
+if [[ -n "${ZINGOLIB_NEXTEST_FILTER:-}" ]]; then
+  args+=(-E "${ZINGOLIB_NEXTEST_FILTER}")
+fi
+
+cargo nextest run "${args[@]}" "${@}"
+'''
+
+[tasks.run]
+clear = true
+description = "Run reproducible workspace tests inside the local test container"
+dependencies = ["ensure-image-exists"]
+script_runner = "bash"
+extend = "base-script"
+script.main = '''
+runtime="$(container_runtime)"
+mount_suffix="$(container_mount_suffix)"
+tag="$(container_image_tag)"
+
+args=(
+  --verbose
+  --profile "${ZINGOLIB_NEXTEST_PROFILE}"
+  --retries "${ZINGOLIB_NEXTEST_RETRIES}"
+)
+
+workspace_arg="$(append_workspace_default "$@")"
+if [[ -n "${workspace_arg}" ]]; then
+  args+=("${workspace_arg}")
+fi
+
+if [[ -n "${ZINGOLIB_NEXTEST_FILTER:-}" ]]; then
+  args+=(-E "${ZINGOLIB_NEXTEST_FILTER}")
+fi
+
+"${runtime}" run --rm --init \
+  -v "${PWD}:/workspace" \
+  -v "zingolib-container-target:/workspace/target${mount_suffix}" \
+  -v "zingolib-cargo-git:/root/.cargo/git${mount_suffix}" \
+  -v "zingolib-cargo-registry:/root/.cargo/registry${mount_suffix}" \
+  -e "NEXTEST_EXPERIMENTAL_LIBTEST_JSON=${NEXTEST_EXPERIMENTAL_LIBTEST_JSON}" \
+  -e "TEST_BINARIES_DIR=/workspace/test_binaries/bins" \
+  -w /workspace \
+  "${IMAGE_NAME}:${tag}" \
+  bash -lc 'mkdir -p test_binaries/bins && ln -sf /usr/bin/lightwalletd /usr/bin/zcashd /usr/bin/zcash-cli /usr/bin/zainod test_binaries/bins/ && exec "$@"' \
+  bash \
+  cargo nextest run "${args[@]}" "${@}"
+'''
+
+[tasks.rerun]
+clear = true
+description = "Rerun tests that failed or did not complete in the latest recorded nextest run"
+dependencies = ["ensure-image-exists"]
+script_runner = "bash"
+extend = "base-script"
+script.main = '''
+runtime="$(container_runtime)"
+mount_suffix="$(container_mount_suffix)"
+tag="$(container_image_tag)"
+
+args=(
+  --verbose
+  --profile "${ZINGOLIB_NEXTEST_PROFILE}"
+  --retries "${ZINGOLIB_NEXTEST_RETRIES}"
+  --rerun latest
+)
+
+workspace_arg="$(append_workspace_default "$@")"
+if [[ -n "${workspace_arg}" ]]; then
+  args+=("${workspace_arg}")
+fi
+
+if [[ -n "${ZINGOLIB_NEXTEST_FILTER:-}" ]]; then
+  args+=(-E "${ZINGOLIB_NEXTEST_FILTER}")
+fi
+
+"${runtime}" run --rm --init \
+  -v "${PWD}:/workspace" \
+  -v "zingolib-container-target:/workspace/target${mount_suffix}" \
+  -v "zingolib-cargo-git:/root/.cargo/git${mount_suffix}" \
+  -v "zingolib-cargo-registry:/root/.cargo/registry${mount_suffix}" \
+  -e "NEXTEST_EXPERIMENTAL_LIBTEST_JSON=${NEXTEST_EXPERIMENTAL_LIBTEST_JSON}" \
+  -e "TEST_BINARIES_DIR=/workspace/test_binaries/bins" \
+  -w /workspace \
+  "${IMAGE_NAME}:${tag}" \
+  bash -lc 'mkdir -p test_binaries/bins && ln -sf /usr/bin/lightwalletd /usr/bin/zcashd /usr/bin/zcash-cli /usr/bin/zainod test_binaries/bins/ && exec "$@"' \
+  bash \
+  cargo nextest run "${args[@]}" "${@}"
+'''
+
+[tasks.run-ignored]
+clear = true
+description = "Run ignored tests with the reproducible nextest profile"
+dependencies = ["prepare-test-binaries-dir"]
+script_runner = "bash"
+extend = "base-script"
+script.main = '''
+args=(
+  --verbose
+  --profile "${ZINGOLIB_NEXTEST_PROFILE}"
+  --retries "${ZINGOLIB_NEXTEST_RETRIES}"
+  --run-ignored all
+)
+
+workspace_arg="$(append_workspace_default "$@")"
+if [[ -n "${workspace_arg}" ]]; then
+  args+=("${workspace_arg}")
+fi
+
+cargo nextest run "${args[@]}" "${@}"
+'''
