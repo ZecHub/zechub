@@ -1,0 +1,26 @@
+name: Validate Translated Content
+
+on:
+  push:
+    paths:
+      - "site/**/*.md"
+      - "translations/**/*.md"
+      - "translation/**"
+      - "scripts/check-protected-terms.mjs"
+  pull_request:
+    paths:
+      - "site/**/*.md"
+      - "translations/**/*.md"
+      - "translation/**"
+      - "scripts/check-protected-terms.mjs"
+
+jobs:
+  protected-terms:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validate protected terminology
+        run: node scripts/check-protected-terms.mjs
