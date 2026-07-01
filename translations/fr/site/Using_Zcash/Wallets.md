@@ -4,7 +4,7 @@
 - Système d’exploitation : Android | iOS
 - Prise en charge du portefeuille : Phrase de récupération | Viewing Key | Unified Address | Matériel
 - Pools : Transparent | Sapling | Orchard
-- Fonctionnalités : Carnet d’adresses | CrossPay | Échanges DEX | Paiements Flexa | MultiSignature | Demande de paiement | Mémo blindé | Dépenser avant la synchronisation | Adresse TEX | Prise en charge de Tor | F-droid
+- Fonctionnalités : Carnet d’adresses | CrossPay | Near Intents | Paiements Flexa | Signature multiple | Demande de paiement | Mémo blindé | Dépenser avant la synchronisation | Adresse TEX | Prise en charge de Tor | F-droid
 
 ---
 
@@ -34,7 +34,7 @@
 - Système d’exploitation : Android | iOS | Windows | Linux
 - Prise en charge du portefeuille : Phrase de récupération | Viewing Key | Unified Address
 - Pools : Transparent | Sapling | Orchard
-- Fonctionnalités : Carnet d’adresses | Aperçus financiers | Demande de paiement | PepperSync | Mémo blindé | Prise en charge du testnet
+- Fonctionnalités : Carnet d’adresses | Analyses financières | Demande de paiement | PepperSync | Mémo blindé | Prise en charge du testnet
 
 ---
 
@@ -44,7 +44,7 @@
 - Système d’exploitation : Android | iOS
 - Prise en charge du portefeuille : Phrase de récupération | Unified Address
 - Pools : Transparent | Sapling
-- Fonctionnalités : Blindage automatique | Échanges DEX | Multi-actifs | Mémo blindé | Dépenser avant la synchronisation
+- Fonctionnalités : Blindage automatique | Swaps DEX | Multi-coin | Mémo blindé | Dépenser avant la synchronisation
 
 ---
 
@@ -54,7 +54,7 @@
 - Système d’exploitation : Android | iOS
 - Prise en charge du portefeuille : Phrase de récupération | Unified Address
 - Pools : Transparent | Sapling | Orchard
-- Fonctionnalités : Échanges DEX | Multi-actifs | Dépenser avant la synchronisation
+- Fonctionnalités : Swaps DEX | Multi-coin | Dépenser avant la synchronisation
 
 ---
 
@@ -84,7 +84,7 @@
 - Système d’exploitation : Android | iOS | Windows | Linux | macOS
 - Prise en charge du portefeuille : Phrase de récupération | Viewing Key | Unified Address
 - Pools : Transparent | Sapling | Orchard
-- Fonctionnalités : Carnet d’adresses | Rotation d’adresses | Blindage automatique | Échanges DEX | Multi-actifs | Mémo blindé | Prise en charge de Tor
+- Fonctionnalités : Carnet d’adresses | Rotation d’adresses | Blindage automatique | Swaps DEX | Multi-coin | Mémo blindé | Prise en charge de Tor
 
 ---
 
@@ -127,14 +127,13 @@
 - Fonctionnalités : Interface en ligne de commande | Adresse diversifiée | Mémo blindé | Prise en charge du testnet
 
 ---
-
 ## [Brave](https://brave.com/web3-privacy/)
 ![logo](https://i.ibb.co/6yqMNwZ/image-2024-01-13-170934865.png "Brave")
 - Appareils : Web
 - Système d’exploitation : Navigateur
 - Prise en charge du portefeuille : Phrase de récupération | Unified Address
 - Pools : Transparent | Orchard
-- Fonctionnalités : Mémo blindé | Dépenser avant la synchronisation | Prise en charge du testnet
+- Fonctionnalités : Mémo protégé | Dépenser avant la synchronisation | Prise en charge du testnet
 
 ---
 
@@ -154,7 +153,7 @@
 - Système d’exploitation : Navigateur
 - Prise en charge du portefeuille : Phrase de récupération | Unified Address
 - Pools : Transparent | Sapling | Orchard
-- Fonctionnalités : Échanges DEX
+- Fonctionnalités : Swaps DEX
 
 ---
 
@@ -202,7 +201,7 @@
 ![logo](https://i.ibb.co/c1gn635/Keystone-1.png "Keystone")
 - Appareils :
 - Système d’exploitation :
-- Prise en charge du portefeuille : Matériel | Unified Address
+- Prise en charge du portefeuille : Hardware | Unified Address
 - Pools : Transparent | Sapling | Orchard
 - Fonctionnalités : Multi-actifs
 
@@ -212,7 +211,7 @@
 ![logo](https://i.ibb.co/2qX6WCF/Desktop-Wallets.png "Ledger")
 - Appareils : 
 - Système d’exploitation :
-- Prise en charge du portefeuille : Matériel
+- Prise en charge du portefeuille : Hardware
 - Pools : Transparent 
 - Fonctionnalités : Multi-actifs
 
@@ -222,7 +221,7 @@
 ![logo](https://i.ibb.co/h29h6d0/safepalcard.png "Safepal")
 - Appareils : Mobile | Web
 - Système d’exploitation : Android | iOS | Navigateur
-- Prise en charge du portefeuille : Phrase de récupération | Matériel
+- Prise en charge du portefeuille : Phrase de récupération | Hardware
 - Pools : Transparent
 - Fonctionnalités : Multi-actifs
 
@@ -232,7 +231,7 @@
 ![logo](https://i.ibb.co/twLMCgzW/trezor1.png "Trezor")
 - Appareils :
 - Système d’exploitation :
-- Prise en charge du portefeuille : Matériel
+- Prise en charge du portefeuille : Hardware
 - Pools : Transparent
 - Fonctionnalités : Multi-actifs
 
@@ -243,17 +242,17 @@
 - Appareils : Web | Mobile | Bureau
 - Système d’exploitation : Android | iOS | Windows | Linux | macOS | Navigateur
 - Pools : Transparent
-- Fonctionnalités : Multi-actifs | Application web
+- Fonctionnalités : Multi-actifs | Application Web
 
 ---
 
 ## [Vizor](https://vizor.cash/)
 ![logo](https://i.ibb.co/zhW2d2fV/Vizorphoto.png "Vizor")
-- Appareils : Bureau
+- Appareils : Bureau | Mobile
 - Système d’exploitation : macOS
-- Prise en charge du portefeuille : Phrase de récupération | Unified Address | Matériel
+- Prise en charge du portefeuille : Phrase de récupération | Unified Address | Hardware
 - Pools : Transparent | Sapling | Orchard
-- Fonctionnalités : Blindage automatique | Mémo blindé | Prise en charge du testnet | Multisig FROST
+- Fonctionnalités : Shielding automatique | Mémo protégé | Prise en charge du testnet | Multisig FROST
 
 ---
 
@@ -261,8 +260,8 @@
 ![logo](https://i.ibb.co/23RkRZZS/Noirwallet.png "Noir")
 - Appareils : Web | Bureau
 - Système d’exploitation : Navigateur
-- Pools : Blindé | Transparent
-- Fonctionnalités : Zcash | Extension de navigateur | Bêta privée | Transactions blindées | Échanges cross-chain | Prêt et emprunt | Connexions DApp | ZECFi natif
+- Pools : Shielded | Transparent
+- Fonctionnalités : Zcash | Extension de navigateur | Bêta privée | Transactions protégées | Swaps cross-chain | Prêt et emprunt | Connexions DApp | ZECFi natif
 
 ---
 
@@ -270,17 +269,16 @@
 ![logo](https://i.ibb.co/3YjpzYnH/Leo-Dexwallet.png "LeoDex")
 - Appareils : Web | Bureau
 - Système d’exploitation : Navigateur | Windows | macOS
-- Prise en charge du portefeuille : Phrase de récupération | Portefeuille externe | Adresse de réception | QR Code | Matériel
+- Prise en charge du portefeuille : Phrase de récupération | Portefeuille externe | Adresse de réception | Code QR | Hardware
 - Pools : Sapling | Transparent
-- Fonctionnalités : Multi-actifs | Échange cross-chain | Sans KYC | Non dépositaire | Application web | Application de bureau | ZEC blindé | AnyPay
-
+- Fonctionnalités : Multi-actifs | Near Intents | Maya DEX | Sans KYC | Non-custodial | Application Web | Application de bureau | ZEC protégé | AnyPay
 
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
-![logo](/assets/images/zapp_logo.png "Zapp")
-- Appareils : Android (iOS prévu / bientôt disponible)
-- Système d’exploitation : Android (actuel), iOS (prévu)
-- Prise en charge du portefeuille : Portefeuille Zcash intégré avec paiements ZEC prévus dans le chat. Le portefeuille est actuellement en bêta et est intégré à l’expérience de messagerie plutôt que d’être un portefeuille autonome.
-- Pools : Sapling/Orchard
-- Fonctionnalités : Messagerie chiffrée de bout en bout | PAS DE KYC | Aucun numéro de téléphone/e-mail requis pour l’inscription | Portefeuille Zcash intégré (blindé) | SWAP par NEAR Intents | Offramp par P2P.me (escrow on-chain)
+![logo](https://i.ibb.co/mr8rF8y2/zapp-1.png "Zapp")
+- Appareils : Mobile 
+- Système d’exploitation : Android 
+- Prise en charge du portefeuille : Unified Address 
+- Pools : Transparent | Sapling | Orchard
+- Fonctionnalités : Messagerie chiffrée de bout en bout | NEAR Intents | P2P.me Offramp | Bêta
