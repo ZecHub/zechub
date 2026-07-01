@@ -7,7 +7,7 @@
 
 ## Introduction
 
-Zcash, une cryptomonnaie axée sur la confidentialité, prend en charge une fonctionnalité appelée « nœuds lightwallet » qui permet aux utilisateurs d’interagir avec la blockchain Zcash sans télécharger l’historique complet de la blockchain. Cette page du wiki fournit un aperçu des nœuds lightwallet, du rôle du service « lightwalletd » dans l’écosystème Zcash, une liste actuelle des serveurs de nœuds lightwallet, ainsi que des instructions sur la manière de changer de serveur dans des portefeuilles populaires comme YWallet et Zingo.
+Zcash, une cryptomonnaie axée sur la confidentialité, prend en charge une fonctionnalité appelée « nœuds lightwallet » qui permet aux utilisateurs d’interagir avec la blockchain Zcash sans télécharger l’historique complet de la blockchain. Cette page du wiki fournit un aperçu des nœuds lightwallet, du rôle du service « lightwalletd » dans l’écosystème Zcash, une liste actuelle des serveurs de nœuds lightwallet, ainsi que des instructions sur la manière de changer de serveur dans des portefeuilles populaires comme Ywallet et Zingo.
 
 ## Service Lightwalletd
 

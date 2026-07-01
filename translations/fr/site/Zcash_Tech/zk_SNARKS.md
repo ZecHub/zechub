@@ -77,7 +77,7 @@ PSPACE  - Prouver une alternance de différents énoncés
 
 Ce qu’un vérificateur peut calculer après une interaction est identique à ce qu’il pouvait prouver auparavant. L’interaction en plusieurs tours entre le prouveur et le vérificateur n’a pas augmenté la puissance de calcul du vérificateur.
 
-**Le paradigme de simulation**
+**Le paradigme de simulation (Simulation Paradigm)**
 
 Cette expérience existe dans toute la cryptographie. Elle présente une « vue réelle » et une « vue simulée ». 
 

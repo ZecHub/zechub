@@ -28,7 +28,7 @@ Tous les nœuds, les instances de lightwalletd et les autres infrastructures son
 
 - [Documentation Akash Network](https://akash.network/docs/)
 
-- [Configuration de zcashd sur Akash Network](https://zechub.wiki/guides/how-to-run-zcashd-on-akash-network)
+- [Configuration de Zcashd sur Akash Network](https://zechub.wiki/guides/how-to-run-zcashd-on-akash-network)
 
 - [Explication des demandes de paiement Zcash (vidéo)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
 
