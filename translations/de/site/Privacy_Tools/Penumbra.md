@@ -1,0 +1,25 @@
+# Penumbra 
+
+Penumbra existiert als hochmodernes, vollständig abgeschirmtes Layer-1-Netzwerk, das im Cosmos-Ökosystem konkurriert. Es ermöglicht seinen Nutzern, sicher Transaktionen durchzuführen, Tokens zu staken und zu tauschen sowie als Market Maker zu agieren, ohne ihre Metadaten on-chain offenzulegen. Als vollständig abgeschirmte Blockchain bietet es zudem abgeschirmte Transaktionen im Web, ohne Kompromisse bei Privatsphäre oder Dezentralisierung einzugehen — Penumbra bietet standardmäßig Privatsphäre, ohne transparente Transaktionen oder einen transparenten Wertpool.
+
+![image.png](https://drive.google.com/file/d/16CcFQ1ZhG_pi4ENQuhFKPwN-J1diELRX/view?usp=drive_link)
+
+## In Penumbra IBC verwendete Technologie 
+
+IBC-Integration: Ganz vorne steht das Inter-Blockchain Communication (IBC)-Protokoll, eine bahnbrechende und innovative Technologie, die den Betrieb von Penumbra ermöglicht. Es ist entscheidend für die Verbesserung der Interoperabilität innerhalb des Netzwerks. IBC funktioniert außerdem, indem es verschiedenen Blockchain-Netzwerken erlaubt, miteinander zu kommunizieren und Daten auszutauschen. Darüber hinaus spielt IBC eine Schlüsselrolle bei der nahtlosen Übertragung von Vermögenswerten, dem Teilen von Daten und der Interaktion innerhalb von Penumbra. Diese Interoperabilität und Technologie helfen Nutzern, Tokens und Vermögenswerte problemlos über verschiedene Blockchains hinweg zu bewegen. Andererseits trägt IBC auch zur Skalierbarkeit bei, indem es schnelle Transaktionen verbessert, die Leistung optimiert und Verzögerungen im Netzwerk von Penumbra reduziert.
+
+Zero-Knowledge Proofs (ZKPs): Penumbra nutzt die Kryptografie-Technologie der Zero-Knowledge Proofs, um sicherzustellen, dass alle Transaktionen verifiziert und validiert werden, ohne Details wie Absender, Empfänger oder den übertragenen Betrag offenzulegen.
+
+![image.png](https://drive.google.com/file/d/1BxY5PlHBdV5iwZDgi86Z4Jz6CEesSjvO/view?usp=drive_link)
+
+Dezentrale Börse mit Privatsphäre: Im Kern des Panumbra-Netzwerks steht die Privatsphäre. Das Netzwerk kann einen dezentralen Börsenmechanismus nutzen, der die Privatsphäre von Trades und Krypto-Transaktionen fördert, gleichzeitig Finanzdaten schützt und Nutzern das Recht gibt, die Offenlegung ihrer Handelsstrategien zu kontrollieren.
+
+## Anwendungsfälle
+
+Sichere Transaktionen: Penumbra ermöglicht es Nutzern, mit abgeschirmten Transaktionen in jedem Krypto-Asset zu experimentieren. Da Penumbra eine vollständig abgeschirmte Blockchain ist, können Nutzer privat Transaktionen durchführen und dabei Absender, Empfänger, Betrag und Asset-Typen schützen, während diese sich über Chains hinweg bewegen; es stellt sicher, dass Transaktionen privat sind und ohne die Erlaubnis eines Nutzers weder nachverfolgt noch entschlüsselt werden können. Erwähnenswert ist, dass jede Adresse von Penumbra eine Einsichtsfunktion unterstützt - dieser Aufbau ermöglicht es Nutzern, ihre Aktivitäten gegenüber autorisierten Dritten aus Compliance- oder anderen Gründen offenzulegen. Interessanterweise arbeiten Penumbra-Transaktionen mit Lichtgeschwindigkeit und niedrigen Transaktionsgebühren. Dank des Proof-of-Stake-Konsenses. 
+
+Staking: Aus der Vogelperspektive betrachtet will Penumbra an der Spitze der Nahrungskette bleiben. Als weltweit erstes abgeschirmtes Proof-of-Stake-Netzwerk besteht sein einziger Zweck darin, Privatsphäre für Delegatoren und Rechenschaftspflicht für Validatoren sicherzustellen. Ein weiteres faszinierendes Merkmal, das Penumbra bietet, ist der Staking-Token PEN, der das Netzwerk absichert und Token-Inhabern gleichzeitig das Recht gibt, über On-Chain-Abstimmungsprozesse an der Projekt-Governance teilzunehmen. Jeder Delegierte im Netzwerk erhält einen nativen Token namens dPEN. Nur damit du es weißt: dPENs werden in den abgeschirmten Pools erfasst und können wie jedes andere Asset gehandelt werden. Aus Sicht der On-Chain-Governance liegt die Zukunft des Netzwerks in den Händen der Stakeholder, die über Vorschläge abstimmen und an Entscheidungsprozessen teilnehmen, während sichergestellt wird, dass das Projekt nicht von einer zentralisierten Entität kontrolliert wird. 
+
+Token-Swap: Token-Swap ist ein weiterer Anwendungsfall für Penumbra. Das Netzwerk unterstützt abgeschirmte Swaps zwischen jeder Art von Krypto-Asset — nach der Einreichung werden alle Swaps versiegelt! Durch die Nutzung von ZSwap können Nutzer beliebige Paare von Krypto-Assets tauschen, ohne sensible Details wie Handelsverlauf oder Zeitstempel offenzulegen, was potenziell bei der Bekämpfung von Finanzbetrug helfen kann. Während Maximal Extractable Value (MEV) gleichbedeutend mit transparenten Chains ist, haben vollständig abgeschirmte Chains wie Penumbra kein MEV, da die Transaktionen des Netzwerks keine Daten über Nutzeraktivitäten preisgeben.
+
+Market Making: Die vollständig abgeschirmte Chain — Penumbra, gibt Market Makern die Kontrolle darüber, Informationen über ihre Handelsstrategien und Merkmale offenzulegen, anstatt ihre gesamte Aktivität der Welt preiszugeben.
