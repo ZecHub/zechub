@@ -4,7 +4,7 @@
 - Operating System: Android | iOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard
-- Features: Address Book | CrossPay | DEX Swaps | Flexa Payments | MultiSignature | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | F-droid
+- Features: Address Book | CrossPay | Near Intents | Flexa Payments | MultiSignature | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | F-droid
 
 ---
 
@@ -249,7 +249,7 @@
 
 ## [Vizor](https://vizor.cash/)
 ![logo](https://i.ibb.co/zhW2d2fV/Vizorphoto.png "Vizor")
-- Devices: Desktop
+- Devices: Desktop | Mobile
 - Operating System: macOS
 - Wallet Support: Seed Phrase | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard
@@ -272,15 +272,14 @@
 - Operating System: Browser | Windows | macOS
 - Wallet Support: Seed Phrase | External Wallet | Receive Address | QR Code | Hardware
 - Pools: Sapling | Transparent
-- Features: Multi Coin | Cross-chain Swap | No KYC | Non-Custodial | Web App | Desktop App | Shielded ZEC | AnyPay
-
+- Features: Multi Coin | Near Intents | Maya DEX | No KYC | Non-Custodial | Web App | Desktop App | Shielded ZEC | AnyPay
 
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
-![logo](/assets/images/zapp_logo.png "Zapp")
-- Devices: Android (iOS planned / coming soon)
-- Operating System: Android (current), iOS (planned)
-- Wallet Support: Built-in Zcash Wallet  with planned in-chat ZEC payments. The wallet is currently in Beta and is integrated with the messaging experience rather than being a standalone wallet.
-- Pools: Sapling/Orchard
-- Features: End-to-end encrypted Messenger | NO KYC | No phone number/email required for registration | Built-in Zcash Wallet (shielded) | SWAP by NEAR Intents | Offramp by P2P.me (On-chain escrow)
+![logo](https://i.ibb.co/mr8rF8y2/zapp-1.png "Zapp")
+- Devices: Mobile 
+- Operating System: Android 
+- Wallet Support: Unified Address 
+- Pools: Transparent | Sapling | Orchard
+- Features: End-to-end encrypted Messenger | NEAR Intents | P2P.me Offramp | Beta
