@@ -1,0 +1,1 @@
+const e={today:"Today",last7Days:"Last 7 Days",last30Days:"Last 30 Days",yesterday:"Yesterday",thisWeek:"This Week",thisMonth:"This Month",lastWeek:"Last Week",lastMonth:"Last Month",beginTime:"Begin Time",endTime:"End Time"},s={rangePicker:e};export{s as default,e as rangePicker};

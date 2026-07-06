@@ -1,0 +1,1 @@
+import{as as r}from"./bootstrap-BMlj7q7P.js";function t(){return r.get("/system/user/profile/get")}function u(e){return r.put("/system/user/profile/update",e)}function o(e){return r.put("/system/user/profile/update-password",e)}export{o as a,t as g,u};

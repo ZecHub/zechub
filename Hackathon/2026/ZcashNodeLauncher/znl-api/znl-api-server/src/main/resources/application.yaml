@@ -1,0 +1,177 @@
+spring:
+  application:
+    name: znl-server
+
+  profiles:
+    active: local
+
+  main:
+    allow-circular-references: true # Allow circular dependencies because the project uses a three‑layer architecture and this situation is unavoidable.
+
+  # Servlet configuration
+  servlet:
+    # File upload related configuration items
+    multipart:
+      max-file-size: 16MB # Maximum size of a single file
+      max-request-size: 32MB # Maximum total upload size
+
+  # Jackson configuration items
+  jackson:
+    serialization:
+      write-dates-as-timestamps: true # Format Date using timestamps
+      write-date-timestamps-as-nanoseconds: false # Do not use nanoseconds format. For example, avoid 1611460870.401 and use 1611460870401 instead
+      write-durations-as-timestamps: true # Format Duration using timestamps
+      fail-on-empty-beans: false # Allow serialization of Beans without properties
+
+  # Cache configuration items
+  cache:
+    type: REDIS
+    redis:
+      time-to-live: 1h # Set expiration time to 1 hour
+
+server:
+  servlet:
+    encoding:
+      enabled: true
+      charset: UTF-8 # Must be UTF‑8 to avoid garbled characters in WebFlux streaming responses (AI scenarios)
+      force: true
+
+--- #################### API Documentation Configuration ####################
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /v3/api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui
+  default-flat-param-object: true # See documentation: https://doc.xiaominfo.com/docs/faq/v4/knife4j-parameterobject-flat-param
+
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn
+
+# MyBatis Plus configuration items
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true # Although true by default, explicitly specifying it is safer.
+  global-config:
+    db-config:
+      id-type: NONE # “Smart” mode. Based on IdTypeEnvironmentPostProcessor + data source type, automatically adapts to AUTO or INPUT mode.
+#      id-type: AUTO # Auto-increment ID, suitable for MySQL and other databases with native auto-increment
+#      id-type: INPUT # User-provided ID, suitable for Oracle, PostgreSQL, Kingbase, DB2, H2
+#      id-type: ASSIGN_ID # Assigned ID, default Snowflake algorithm. Note: For Oracle, PostgreSQL, Kingbase, DB2, H2, remove @KeySequence annotation from entity classes
+      logic-delete-value: 1 # Logical deleted value (default 1)
+      logic-not-delete-value: 0 # Logical not-deleted value (default 0)
+    banner: false # Disable console banner printing
+  type-aliases-package: ${znl.info.base-package}.module.*.dal.dataobject
+
+mybatis-plus-join:
+  banner: false # Whether to print mybatis-plus-join banner, default true
+  sub-table-logic: true # Enable sub-table logical deletion globally, default true. If disabled, associated queries will not apply sub-table logical deletion
+  ms-cache: true # MappedStatement cache for interceptor, default true
+  table-alias: t # Table alias (default t)
+  logic-del-type: on # Position of sub-table logical deletion condition: WHERE or ON, default ON
+
+# Spring Data Redis configuration
+spring:
+  data:
+    redis:
+      repositories:
+        enabled: false # The project does not use Spring Data Redis Repository, so disable it to improve startup speed
+
+--- #################### Captcha Related Configuration ####################
+
+aj:
+  captcha:
+    jigsaw: classpath:images/jigsaw # Sliding puzzle captcha background image path. If not configured, default images are used. Starts with classpath:, meaning resource directory.
+    pic-click: classpath:images/pic-click # Click captcha background image path. Same rules as above.
+    cache-type: redis # Cache type: local/redis...
+    cache-number: 1000 # Threshold for local cache; when reached, cache is cleared
+    timing-clear: 180 # Local cache expiration cleanup interval (seconds). 0 means disabled
+    type: blockPuzzle # Captcha type. default instantiates all three. blockPuzzle = slider puzzle, clickWord = click text, pictureWord = text input
+    water-mark: ZcashJava # Bottom-right watermark text. Convert Chinese to Unicode if needed: https://tool.chinaz.com/tools/unicode.aspx. Linux may require Unicode.
+    interference-options: 0 # Slider interference options (0/1/2)
+    req-frequency-limit-enable: false # Whether to enable per-minute request frequency limit
+    req-get-lock-limit: 5 # Lock get API after 5 failed validations
+    req-get-lock-seconds: 10 # Lock duration after failure
+    req-get-minute-limit: 30 # Per-minute request limit for get API
+    req-check-minute-limit: 60 # Per-minute request limit for check API
+    req-verify-minute-limit: 60 # Per-minute request limit for verify API
+
+spring:
+  # Kafka configuration items, corresponding to KafkaProperties
+  kafka:
+    # Kafka Producer configuration
+    producer:
+      acks: 1 # 0 = no ack, 1 = leader ack, all = leader + follower ack
+      retries: 3 # Retry count when sending fails
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer # Serializer for message value
+    # Kafka Consumer configuration
+    consumer:
+      auto-offset-reset: earliest # Set initial consumer group offset to earliest. See blog for explanation.
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: '*'
+    # Kafka Consumer Listener configuration
+    listener:
+      missing-topics-fatal: false # If a topic does not exist, do not throw an error
+
+--- #################### Project Related Configuration ####################
+
+znl:
+  zcash:
+    server-password-cipher-key: 94274281424264566212791959924623
+    node-info-update-interval: 20000
+    idel-node-client-alive-time: 60000
+  dbip:
+    bin-file-path: 
+  info:
+    version: 1.0.0
+    base-package: com.zcashjava.znl
+  web:
+    admin-ui:
+      url: http://127.0.0.1 # Address of Admin UI
+  xss:
+    enable: false
+    exclude-urls: # The following two URLs are only examples; removing them is fine
+      - ${spring.boot.admin.context-path}/** # Do not process Spring Boot Admin requests
+      - ${management.endpoints.web.base-path}/** # Do not process Actuator requests
+  security:
+    permit-all_urls:
+      - /admin-api/zcash/index/getRandomGlobeData
+      - /css/**
+      - /js/**
+      - /jse/**
+      - /static/**
+      - /tinymce/**
+      - _app.config.js
+      - /index.html
+      - /
+      - /favicon.ico
+  api-encrypt:
+    enable: true # Enable API encryption
+    algorithm: AES # Encryption algorithm, supports AES, RSA, etc.
+    request-key: 09647183183327834701750001540661 # AES request encryption key; must be 16, 24, or 32 characters
+    response-key: 49110498548205794001503592055244 # AES response encryption key; must be 16, 24, or 32 characters
+  tenant: # Multi-tenant configuration items
+    enable: true
+    ignore-urls:
+      - /jmreport/* # JmReport cannot carry tenant ID
+    ignore-visit-urls:
+      - /admin-api/system/user/profile/**
+      - /admin-api/system/auth/**
+    ignore-tables:
+    ignore-caches:
+      - user_role_ids
+      - permission_menu_ids
+      - oauth_client
+      - notify_template
+      - mail_account
+      - mail_template
+      - sms_template
+      - iot:device
+      - iot:thing_model_list
+
+debug: false

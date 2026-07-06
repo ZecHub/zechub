@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.zcashjava.znl</groupId>
+        <artifactId>znl-framework</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>znl-starter-biz-data-permission</artifactId>
+    <packaging>jar</packaging>
+
+    <name>${project.artifactId}</name>
+    <description></description>
+    <url>https://github.com/zcashjava/ZcashNodeLauncher</url>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.zcashjava.znl</groupId>
+            <artifactId>znl-common</artifactId>
+        </dependency>
+
+        <!-- Web Related-->
+        <dependency>
+            <groupId>com.zcashjava.znl</groupId>
+            <artifactId>znl-starter-security</artifactId>
+            <optional>true</optional> <!-- optional if using DeptDataPermissionRile-->
+        </dependency>
+
+        <!-- DB Related-->
+        <dependency>
+            <groupId>com.zcashjava.znl</groupId>
+            <artifactId>znl-starter-mybatis</artifactId>
+        </dependency>
+
+        <!-- Test relevance for Test-->
+        <dependency>
+            <groupId>com.zcashjava.znl</groupId>
+            <artifactId>znl-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>

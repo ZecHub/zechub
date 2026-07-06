@@ -1,0 +1,9 @@
+{"properties": [
+
+	{
+		"name": "znl.dbip", 
+		"type": "com.zcashjava.znl.framework.dbip.DbIpProperties",
+		"sourceType": "com.zcashjava.znl.framework.dbip.DbIpProperties"
+	}
+
+]}

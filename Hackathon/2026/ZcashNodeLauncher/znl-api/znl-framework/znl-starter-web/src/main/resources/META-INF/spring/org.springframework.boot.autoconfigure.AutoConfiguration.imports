@@ -1,0 +1,7 @@
+com.zcashjava.znl.framework.apilog.config.ZnlApiLogAutoConfiguration
+com.zcashjava.znl.framework.jackson.config.ZnlJacksonAutoConfiguration
+com.zcashjava.znl.framework.swagger.config.ZnlSwaggerAutoConfiguration
+com.zcashjava.znl.framework.web.config.ZnlWebAutoConfiguration
+com.zcashjava.znl.framework.xss.config.ZnlXssAutoConfiguration
+com.zcashjava.znl.framework.banner.config.ZnlBannerAutoConfiguration
+com.zcashjava.znl.framework.encrypt.config.ZnlApiEncryptAutoConfiguration

@@ -1,0 +1,1 @@
+import{_ as a}from"./fallback.vue_vue_type_script_setup_true_lang-DNe6XzPY.js";import{L as e,ab as r,b2 as o,J as t}from"../jse/index-index-Dclld8gQ.js";import"./bootstrap-BMlj7q7P.js";import"./rotate-cw-7tCfIyd4.js";const f=e({name:"Fallback500Demo",__name:"internal-error",setup(n){return(s,m)=>(o(),r(t(a),{status:"500"}))}});export{f as default};

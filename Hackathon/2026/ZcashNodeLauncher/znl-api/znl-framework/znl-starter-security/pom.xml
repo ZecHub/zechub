@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.zcashjava.znl</groupId>
+        <artifactId>znl-framework</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>znl-starter-security</artifactId>
+    <packaging>jar</packaging>
+
+    <name>${project.artifactId}</name>
+    <description>
+    </description>
+    <url>https://github.com/zcashjava/ZcashNodeLauncher</url>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.zcashjava.znl</groupId>
+            <artifactId>znl-common</artifactId>
+        </dependency>
+
+        <!-- Spring Core-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+
+        <!-- Web Related-->
+        <dependency>
+            <groupId>com.zcashjava.znl</groupId>
+            <artifactId>znl-starter-web</artifactId>
+        </dependency>
+        <!-- Reliance required for Spring Boot configuration-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
+        <!-- Tools class-related-->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+        </dependency>
+
+        <dependency>
+            <!-- Spring Boot common operating log component, achieved on the basis of notes-->
+            <!-- The problem with this component is, "Who did what to what in what time?"-->
+            <groupId>io.github.mouzt</groupId>
+            <artifactId>bizlog-sdk</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.zcashjava.znl</groupId>
+    <artifactId>znl-dependencies</artifactId>
+    <version>${revision}</version>
+    <packaging>pom</packaging>
+
+    <name>${project.artifactId}</name>
+    <description>BOM file</description>
+    <url>https://github.com/zcashjava/ZcashNodeLauncher</url>
+
+    <properties>
+        <revision>1.0.0</revision>
+        <flatten-maven-plugin.version>1.6.0</flatten-maven-plugin.version>
+        <!-- Harmonization of dependency management-->
+        <spring.framework.version>5.3.39</spring.framework.version>
+        <spring.security.version>5.8.16</spring.security.version>
+        <spring.boot.version>2.7.18</spring.boot.version>
+        <!-- Web Related-->
+        <springdoc.version>1.8.0</springdoc.version>
+        <knife4j.version>4.5.0</knife4j.version>
+        <servlet.versoin>2.5</servlet.versoin>
+        <!-- DB Related-->
+        <druid.version>1.2.27</druid.version>
+        <mybatis.version>3.5.19</mybatis.version>
+        <mybatis-plus.version>3.5.14</mybatis-plus.version>
+        <mybatis-plus-join.version>1.5.4</mybatis-plus-join.version>
+        <dynamic-datasource.version>4.3.1</dynamic-datasource.version>
+        <easy-trans.version>3.0.6</easy-trans.version>
+        <redisson.version>3.51.0</redisson.version>
+        <dm8.jdbc.version>8.1.3.140</dm8.jdbc.version>
+        <kingbase.jdbc.version>8.6.0</kingbase.jdbc.version>
+        <opengauss.jdbc.version>5.1.0</opengauss.jdbc.version>
+        <taos.version>3.7.3</taos.version>
+        <!-- Message Queue-->
+        <rocketmq-spring.version>2.3.4</rocketmq-spring.version>
+        <!-- Service security-related-->
+        <lock4j.version>2.2.7</lock4j.version>
+        <!-- Surveillance-related-->
+        <skywalking.version>8.12.0</skywalking.version>
+        <spring-boot-admin.version>2.7.15</spring-boot-admin.version>
+        <opentracing.version>0.33.0</opentracing.version>
+        <!-- Test relevance for Test-->
+        <podam.version>7.2.11.RELEASE</podam.version> <!-- Spring Boot 2.X maximum use of version 7.2.11-->
+        <jedis-mock.version>1.1.11</jedis-mock.version>
+        <mockito-inline.version>4.11.0</mockito-inline.version>
+        <!-- Bpm Workstream Related-->
+        <flowable.version>6.8.0</flowable.version>
+        <!-- Tools class-related-->
+        <anji-plus-captcha.version>1.4.0</anji-plus-captcha.version>
+        <jsoup.version>1.21.2</jsoup.version>
+        <lombok.version>1.18.38</lombok.version>
+        <mapstruct.version>1.6.3</mapstruct.version>
+        <hutool-5.version>5.8.40</hutool-5.version>
+        <fastexcel.version>1.3.0</fastexcel.version>
+        <velocity.version>2.4</velocity.version> <!-- JDK8 can't upgrade from 2.4 to 2.4.1, the bag doesn't exist!-->
+        <fastjson.version>1.2.83</fastjson.version>
+        <guava.version>33.4.8-jre</guava.version>
+        <transmittable-thread-local.version>2.14.5</transmittable-thread-local.version>
+        <commons-net.version>3.11.1</commons-net.version>
+        <commons-lang3.version>3.18.0</commons-lang3.version>
+        <jsch.version>2.27.3</jsch.version>
+        <tika-core.version>2.9.3</tika-core.version> <!-- JDK8 cannot be upgraded from 2.9.3 to 3.X, report JDK8 not supported-->
+        <ip2region.version>2.7.0</ip2region.version>
+        <bizlog-sdk.version>3.0.6</bizlog-sdk.version>
+        <netty.version>4.2.4.Final</netty.version>
+        <mqtt.version>1.2.5</mqtt.version>
+        <pf4j-spring.version>0.9.0</pf4j-spring.version>
+        <vertx.version>4.5.13</vertx.version>
+        <!-- Triangular cloud service-related-->
+        <awssdk.version>2.30.14</awssdk.version>
+        <justauth.version>1.16.7</justauth.version>
+        <justauth-starter.version>1.4.0</justauth-starter.version>
+        <jimureport.version>2.1.1</jimureport.version>
+        <jimubi.version>2.1.0</jimubi.version>
+        <weixin-java.version>4.7.7-20250808.182223</weixin-java.version>
+        <!-- Specialized for JDK8 security breach escalation-->
+        <logback.version>1.2.13</logback.version> <!-- Unable to use version 1.3.X. Start will be misreported-->
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- Harmonization of dependency management-->
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-bom</artifactId>
+                <version>${netty.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-framework-bom</artifactId> <!-- JDK8 unique: Make sure Spring Framewerk is as high as possible-->
+                <version>${spring.framework.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.security</groupId>
+                <artifactId>spring-security-bom</artifactId> <!-- JDK8 unique: Guarantee Spring Security as high as possible-->
+                <version>${spring.security.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring.boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- Operational component-->
+            <dependency>
+                <groupId>io.github.mouzt</groupId>
+                <artifactId>bizlog-sdk</artifactId>
+                <version>${bizlog-sdk.version}</version>
+                <exclusions>
+                    <exclusion> <!-- Exclude Springboot from use projects-->
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-starter</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>com.zcashjava.znl</groupId>
+                <artifactId>znl-starter-biz-tenant</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.zcashjava.znl</groupId>
+                <artifactId>znl-starter-biz-data-permission</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.zcashjava.znl</groupId>
+                <artifactId>znl-starter-biz-ip</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- Spring Core-->
+            <dependency>
+                <!-- A description file to generate custom Spring @ConfigurationProperties profiles-->
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-configuration-processor</artifactId>
+                <version>${spring.boot.version}</version>
+            </dependency>
+
+            <!-- Web Related-->
+            <dependency>
+                <groupId>com.zcashjava.znl</groupId>
+                <artifactId>znl-starter-web</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.zcashjava.znl</groupId>
+                <artifactId>znl-starter-security</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.zcashjava.znl</groupId>
+                <artifactId>znl-starter-websocket</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.xiaoymin</groupId>
+                <artifactId>knife4j-openapi3-spring-boot-starter</artifactId>
+                <version>${knife4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springdoc</groupId>
+                <artifactId>springdoc-openapi-ui</artifactId>
+                <version>${springdoc.version}</version>
+            </dependency>
+
+            <!-- DB Related-->
+            <dependency>
+                <groupId>com.zcashjava.znl</groupId>
+                <artifactId>znl-starter-mybatis</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
+            <dependency>
+                <!-- Note: A statement must be made that the version of mybatis is not consistent with mybatis-plus!-->
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>${mybatis.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-jsqlparser-4.9</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-generator</artifactId> <!-- Code Generator, use it to interpret table structure-->
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>dynamic-datasource-spring-boot-starter</artifactId> <!-- Multi-data sources-->
+                <version>${dynamic-datasource.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.yulichang</groupId>
+                <artifactId>mybatis-plus-join-boot-starter</artifactId> <!-- MyBatis matrix query-->
+                <version>${mybatis-plus-join.version}</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>com.zcashjava.znl</groupId>
+                <artifactId>znl-starter-redis</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.redisson</groupId>
+                <artifactId>redisson-spring-boot-starter</artifactId>
+                <version>${redisson.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-starter-actuator</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.redisson</groupId>
+                        <!-- Replace redisson-spring-data-27 with Tuple NoClassDeffoundError-->
+                        <artifactId>redisson-spring-data-35</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.redisson</groupId>
+                <artifactId>redisson-spring-data-27</artifactId>
+                <version>${redisson.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.dameng</groupId>
+                <artifactId>DmJdbcDriver18</artifactId>
+                <version>${dm8.jdbc.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.opengauss</groupId>
+                <artifactId>opengauss-jdbc</artifactId>
+                <version>${opengauss.jdbc.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.com.kingbase</groupId>
+                <artifactId>kingbase8</artifactId>
+                <version>${kingbase.jdbc.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.taosdata.jdbc</groupId>
+                <artifactId>taos-jdbcdriver</artifactId>
+                <version>${taos.version}</version>
+            </dependency>
+
+            <!-- Job Timed Task Related-->
+            <dependency>
+                <groupId>com.zcashjava.znl</groupId>
+                <artifactId>znl-starter-job</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.rocketmq</groupId>
+                <artifactId>rocketmq-spring-boot-starter</artifactId>
+                <version>${rocketmq-spring.version}</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>lock4j-redisson-spring-boot-starter</artifactId>
+                <version>${lock4j.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <artifactId>redisson-spring-boot-starter</artifactId>
+                        <groupId>org.redisson</groupId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <!-- Surveillance-related-->
+            <dependency>
+                <groupId>com.zcashjava.znl</groupId>
+                <artifactId>znl-starter-monitor</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.skywalking</groupId>
+                <artifactId>apm-toolkit-trace</artifactId>
+                <version>${skywalking.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.skywalking</groupId>
+                <artifactId>apm-toolkit-logback-1.x</artifactId>
+                <version>${skywalking.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.skywalking</groupId>
+                <artifactId>apm-toolkit-opentracing</artifactId>
+                <version>${skywalking.version}</version>
+                <!--                <exclusions>-->
+                <!--                    <exclusion>-->
+                <!--                        <artifactId>opentracing-api</artifactId>-->
+                <!--                        <groupId>io.opentracing</groupId>-->
+                <!--                    </exclusion>-->
+                <!--                    <exclusion>-->
+                <!--                        <artifactId>opentracing-util</artifactId>-->
+                <!--                        <groupId>io.opentracing</groupId>-->
+                <!--                    </exclusion>-->
+                <!--                </exclusions>-->
+            </dependency>
+            <dependency>
+                <groupId>io.opentracing</groupId>
+                <artifactId>opentracing-api</artifactId>
+                <version>${opentracing.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.opentracing</groupId>
+                <artifactId>opentracing-util</artifactId>
+                <version>${opentracing.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.opentracing</groupId>
+                <artifactId>opentracing-noop</artifactId>
+                <version>${opentracing.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>de.codecentric</groupId>
+                <artifactId>spring-boot-admin-starter-server</artifactId> <!-- Implement Spring Boot Admin Server-->
+                <version>${spring-boot-admin.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>de.codecentric</groupId>
+                        <artifactId>spring-boot-admin-server-cloud</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>de.codecentric</groupId>
+                <artifactId>spring-boot-admin-starter-client</artifactId> <!-- Implement Spring Boot Admin Server-->
+                <version>${spring-boot-admin.version}</version>
+            </dependency>
+
+            <!-- Test relevance for Test-->
+            <dependency>
+                <groupId>com.zcashjava.znl</groupId>
+                <artifactId>znl-starter-test</artifactId>
+                <version>${revision}</version>
+                <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-inline</artifactId>
+                <version>${mockito-inline.version}</version> <!-- Lock to support mockito's final class and state method-->
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <version>${spring.boot.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <artifactId>asm</artifactId>
+                        <groupId>org.ow2.asm</groupId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.mockito</groupId>
+                        <artifactId>mockito-core</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.fppt</groupId> <!-- Unit testing, we use the embedded Redis database-->
+                <artifactId>jedis-mock</artifactId>
+                <version>${jedis-mock.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>uk.co.jemos.podam</groupId> <!-- Unit Test, Randomly Generate POJO Class-->
+                <artifactId>podam</artifactId>
+                <version>${podam.version}</version>
+            </dependency>
+
+            <!-- Workstream Related-->
+            <dependency>
+                <groupId>org.flowable</groupId>
+                <artifactId>flowable-spring-boot-starter-process</artifactId>
+                <version>${flowable.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.flowable</groupId>
+                <artifactId>flowable-spring-boot-starter-actuator</artifactId>
+                <version>${flowable.version}</version>
+            </dependency>
+            <!-- End of workflow-related closure-->
+
+            <!-- Tools class-related-->
+            <dependency>
+                <groupId>com.zcashjava.znl</groupId>
+                <artifactId>znl-common</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            
+            <dependency>
+                <groupId>com.zcashjava.znl</groupId>
+                <artifactId>znl-ssh</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.zcashjava.znl</groupId>
+                <artifactId>znl-dbip</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.zcashjava.znl</groupId>
+                <artifactId>znl-starter-excel</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mapstruct</groupId>
+                <artifactId>mapstruct</artifactId> <!-- use mapstruct-jdk8 for Java 8 or higher -->
+                <version>${mapstruct.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mapstruct</groupId>
+                <artifactId>mapstruct-jdk8</artifactId>
+                <version>${mapstruct.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mapstruct</groupId>
+                <artifactId>mapstruct-processor</artifactId>
+                <version>${mapstruct.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool-5.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.idev.excel</groupId>
+                <artifactId>fastexcel</artifactId>
+                <version>${fastexcel.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.tika</groupId>
+                <artifactId>tika-core</artifactId> <!-- Identification of file type-->
+                <version>${tika-core.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.velocity</groupId>
+                <artifactId>velocity-engine-core</artifactId>
+                <version>${velocity.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>transmittable-thread-local</artifactId> <!-- Resolve the value of the ThreadLocal parent-child thread-->
+                <version>${transmittable-thread-local.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-net</groupId>
+                <artifactId>commons-net</artifactId> <!-- Solve ftp connection-->
+                <version>${commons-net.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.mwiede</groupId>
+                <artifactId>jsch</artifactId> <!-- Resolve sftp connections-->
+                <version>${jsch.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version> <!-- Address CVE-2025-48924 Leaks-->
+            </dependency>
+
+            <dependency>
+                <groupId>com.anji-plus</groupId>
+                <artifactId>captcha-spring-boot-starter</artifactId> <!-- -->
+                <version>${anji-plus-captcha.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.lionsoul</groupId>
+                <artifactId>ip2region</artifactId>
+                <version>${ip2region.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jsoup</groupId>
+                <artifactId>jsoup</artifactId>
+                <version>${jsoup.version}</version>
+            </dependency>
+
+            <!-- Triangular cloud service-related-->
+            <dependency>
+                <groupId>software.amazon.awssdk</groupId>
+                <artifactId>s3</artifactId>
+                <version>${awssdk.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>me.zhyd.oauth</groupId>
+                <artifactId>JustAuth</artifactId> <!-- Social landing (e.g., personal micro-mail, corporate micro-mail, etc.)-->
+                <version>${justauth.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.xkcoding.justauth</groupId>
+                <artifactId>justauth-spring-boot-starter</artifactId>
+                <version>${justauth-starter.version}</version>
+                <exclusions>
+                    <!-- Remove, avoid conflict with the hutool-all in the project-->
+                    <exclusion>
+                        <groupId>cn.hutool</groupId>
+                        <artifactId>hutool-core</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.binarywang</groupId>
+                <artifactId>weixin-java-pay</artifactId>
+                <version>${weixin-java.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.binarywang</groupId>
+                <artifactId>wx-java-mp-spring-boot-starter</artifactId>
+                <version>${weixin-java.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.binarywang</groupId>
+                <artifactId>wx-java-miniapp-spring-boot-starter</artifactId>
+                <version>${weixin-java.version}</version>
+            </dependency>
+
+            <!-- Building blocks report-->
+            <dependency>
+                <groupId>org.jeecgframework.jimureport</groupId>
+                <artifactId>jimureport-spring-boot-starter</artifactId>
+                <version>${jimureport.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.jeecgframework.jimureport</groupId>
+                <artifactId>jimubi-spring-boot-starter</artifactId>
+                <version>${jimubi.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>com.github.jsqlparser</groupId>
+                        <artifactId>jsqlparser</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>cn.hutool</groupId>
+                        <artifactId>hutool-core</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <!-- PF4J -->
+            <dependency>
+                <groupId>org.pf4j</groupId>
+                <artifactId>pf4j-spring</artifactId>
+                <version>${pf4j-spring.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.slf4j</groupId>
+                        <artifactId>slf4j-log4j12</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <!-- Vert.x -->
+            <dependency>
+                <groupId>io.vertx</groupId>
+                <artifactId>vertx-core</artifactId>
+                <version>${vertx.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.vertx</groupId>
+                <artifactId>vertx-web</artifactId>
+                <version>${vertx.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.vertx</groupId>
+                <artifactId>vertx-mqtt</artifactId>
+                <version>${vertx.version}</version>
+            </dependency>
+
+            <!-- MQTT -->
+            <dependency>
+                <groupId>org.eclipse.paho</groupId>
+                <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
+                <version>${mqtt.version}</version>
+            </dependency>
+
+            <!-- Specialized for JDK8 security breach escalation-->
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-core</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <!-- Harmonize version of reference-->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>flatten-maven-plugin</artifactId>
+                <version>${flatten-maven-plugin.version}</version>
+                <configuration>
+                    <flattenMode>bom</flattenMode>
+                    <updatePomFile>true</updatePomFile>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>flatten</goal>
+                        </goals>
+                        <id>flatten</id>
+                        <phase>process-resources</phase>
+                    </execution>
+                    <execution>
+                        <goals>
+                            <goal>clean</goal>
+                        </goals>
+                        <id>flatten.clean</id>
+                        <phase>clean</phase>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
