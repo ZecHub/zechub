@@ -1,0 +1,11 @@
+{"properties": [
+
+	
+	
+	{
+		"name": "znl.node", 
+		"type": "com.zcashjava.znl.module.zcash.config.ZnlProperties", 
+		"sourceType": "com.zcashjava.znl.module.zcash.config.ZnlProperties"
+	}
+
+]}

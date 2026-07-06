@@ -1,0 +1,30 @@
+{
+  "recommendations": [
+    // Vue 3 Language support
+    "Vue.volar",
+    // Combine ESLint JavaScript into VS Code.
+    "dbaeumer.vscode-eslint",
+    // Official Stylelint Extension for Visual Studio Code
+    "stylelint.vscode-stylelint",
+    // Format program using Prettier code
+    "esbenp.prettier-vscode",
+    // Support dotenv file syntax
+    "mikestead.dotenv",
+    // Spell checker for source code
+    "streetsidesoftware.code-spell-checker",
+    // Official VS Code plugin for Tailwind CSS
+    "bradlc.vscode-tailwindcss",
+    // icony icon plugin
+    "antfu.iconify",
+    // i18n Plugin
+    "Lokalise.i18n-ally",
+    // CSS Variable Tips
+    "vunguyentuan.vscode-css-variables",
+    // Show versions of PNPM catalog in package.json
+    "antfu.pnpm-catalog-lens"
+  ],
+  "unwantedRecommendations": [
+    // Conflict with volar
+    "octref.vetur"
+  ]
+}
