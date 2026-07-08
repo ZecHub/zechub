@@ -283,3 +283,4 @@
 - Wallet Support: Unified Address 
 - Pools: Transparent | Sapling | Orchard
 - Features: End-to-end encrypted Messenger | NEAR Intents | P2P.me Offramp | Beta
+Zapp (https://www.justzappit.xyz/app) — Mobile (Android). Mobile wallet supporting unified addresses and Transparent/Sapling/Orchard pools; features end-to-end encrypted messaging, NEAR Intents, and P2P.offramp (Beta).
