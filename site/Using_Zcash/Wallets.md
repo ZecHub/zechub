@@ -283,3 +283,33 @@
 - Wallet Support: Unified Address 
 - Pools: Transparent | Sapling | Orchard
 - Features: End-to-end encrypted Messenger | NEAR Intents | P2P.me Offramp | Beta
+
+---
+
+## [Zecd](https://zecd.org)
+![logo](https://zecd.org/favicon.png "Zecd")
+- Devices: Desktop
+- Operating System: Linux
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Transparent | Sapling | Orchard
+- Features: Bitcoin Core RPC | JSON-RPC Interface | Shielded First | Watch-only Wallets | Docker Support
+
+---
+
+## [Nozy](https://github.com/LEONINE-DAO/Nozy-wallet)
+![logo](https://raw.githubusercontent.com/LEONINE-DAO/Nozy-wallet/master/assets/logo.png "Nozy")
+- Devices: Desktop
+- Operating System: Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Orchard
+- Features: Command Line Interface | Shielded Memo | Tor Support | Multi Coin | Testnet Support
+
+---
+
+## [Zipher](https://zipher.to/)
+![logo](https://zipher.to/zipher-logo.png "Zipher")
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Linux
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Transparent | Sapling | Orchard
+- Features: Automatic Shielding | DEX Swaps | Near Intents | Shielded Memo | Agent Tooling | Testnet Support
