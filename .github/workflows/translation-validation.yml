@@ -24,3 +24,35 @@ jobs:
           node-version: 20
       - name: Validate protected terminology
         run: node scripts/check-protected-terms.mjs
+
+  hash-lib-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Unit-test the normalized-hash library
+        run: node --test translation/lib/normalize-hash.test.mjs
+
+  manifest-invariants:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Full history so change-tracking can read the manifest at the base.
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Determine base ref
+        id: base
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            git fetch --no-tags --quiet origin "${{ github.base_ref }}"
+            echo "ref=origin/${{ github.base_ref }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "ref=${{ github.event.before }}" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Check manifest invariants
+        run: node translation/check-invariants.mjs --base "${{ steps.base.outputs.ref }}"
