@@ -34,6 +34,21 @@ jobs:
           node-version: 20
       - name: Unit-test the normalized-hash library
         run: node --test translation/lib/normalize-hash.test.mjs
+      - name: Unit-test the title-extraction library
+        run: node --test translation/lib/extract-title.test.mjs
+
+  menu-titles-fresh:
+    # Freshness gate: the menu-titles manifests must match a from-scratch
+    # regeneration. This enforces Option C's atomicity — localized side-menu
+    # labels always land in the same commit as the translations they describe.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Menu-titles manifests are up to date
+        run: node translation/gen-menu-titles.mjs --check
 
   manifest-invariants:
     runs-on: ubuntu-latest
