@@ -61,7 +61,7 @@ A ṣe afihan iṣẹlẹ tuntun ti Zcash Ṣalaye: Namada<>Zcash Strategic Alli
 
 #### Iroyin ati Media 
 
-[Awọn Egbe Olowo Asiri Ṣẹgun Lori Binance-Cointelegraph](http://ttps//cointelegraph.com/news/privacy-advocates-win-binance-buckles-under-pressure) 
+[Awọn Egbe Olowo Asiri Ṣẹgun Lori Binance-Cointelegraph](https://cointelegraph.com/news/privacy-advocates-win-binance-buckles-under-pressure) 
 
 [Namibia 🇳🇦 gba iwe-owo lati ṣe ilana crypto ati awọn ohun-ini oni-nọmba - Cointelegraph](https://cointelegraph.com/news/crypto-namibia-passes-bill-to-regulate-crypto-and-virtual-assets) 
 
