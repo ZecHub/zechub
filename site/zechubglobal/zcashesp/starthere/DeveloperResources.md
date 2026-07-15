@@ -22,7 +22,7 @@ Comprensión de cómo los equipos revisan y mantienen las dependencias:
 
 [Address Encoding](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys)
 
-[Zcashd Main Pull Requests]() / [Zebrad Main Pull Requests](https://github.com/ZcashFoundation/zebra/pulls)
+[Zcashd Main Pull Requests](https://github.com/zcash/zcash/pulls) / [Zebrad Main Pull Requests](https://github.com/ZcashFoundation/zebra/pulls)
 
 [Bibliotecas de firmas criptográficas](https://github.com/orgs/ZcashFoundation/repositories?type=all)
 
@@ -30,7 +30,7 @@ Comprensión de cómo los equipos revisan y mantienen las dependencias:
 
 [The orchard Book](https://zcash.github.io/orchard/)
 
-[Halo Crate]() / [Orchard Crate](https://docs.rs/orchard/latest/orchard/)
+[Halo Crate](https://docs.rs/halo2_proofs/latest/halo2_proofs/) / [Orchard Crate](https://docs.rs/orchard/latest/orchard/)
 
 [Zcash R&D Discord](https://discord.com/invite/xRVCHQT6)
 

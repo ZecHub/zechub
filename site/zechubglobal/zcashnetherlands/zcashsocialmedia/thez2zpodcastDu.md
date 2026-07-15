@@ -35,7 +35,7 @@ Blijf op de hoogte van toekomstige afleveringen:
 
 + Aflevering 9 - De ZFAV Club met Ryan Taylor (ook bekend als AdjyLeak) [Youtube](https://www.youtube.com/watch?v=BYnhTNkQ-3M) | [Odysee](https://odysee.com/@ZecHub:4/podcast-ryan-taylor:c) | [Spotify](https://open.spotify.com/episode/1TJ6Nycq9nyW2b62ytI3O2)
 
-+ Aflevering 10 - Privacy voor het algemeen belang met Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6) | [Spotify]()
++ Aflevering 10 - Privacy voor het algemeen belang met Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
 Als je aanbevelingen hebt over wie je de volgende keer in de podcast zou willen zien, neem dan gerust contact met ons op! DM's naar @zechub op Twitter
 

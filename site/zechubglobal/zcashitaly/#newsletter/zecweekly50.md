@@ -94,7 +94,7 @@ Guardatelo [qui](https://www.youtube.com/watch?v=Wg_WtPdBig0)
 
 [Podcast su Zcash con Jake di ZecSpends](https://twitter.com/zooko/status/1676009051895877632?s=20)
 
-[J.W Verret - "Il dollaro è un toast, comprate Bitcoin, Ethereum, Filecoin e Zcash..."]()
+J.W Verret - "Il dollaro è un toast, comprate Bitcoin, Ethereum, Filecoin e Zcash..."
 
 [Zcash per il commercio elettronico](https://twitter.com/NOWPayments_io/status/1677621547174072321?s=20)
 

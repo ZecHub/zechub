@@ -17,7 +17,7 @@ Restez à jour sur les prochains épisodes:
 
 **Liste des épisodes**
 
-+ Épisode 10 - La vie privée pour le bien public avec Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6) | [Spotifier]()
++ Épisode 10 - La vie privée pour le bien public avec Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
 + Épisode 9 - Le ZFAV Club avec Ryan Taylor (alias AdjyLeak) [Youtube](https://www.youtube.com/watch?v=BYnhTNkQ-3M) | [Odysee](https://odysee.com/@ZecHub:4/podcast-ryan-taylor:c) | [Spotify](https://open.spotify.com/episode/1TJ6Nycq9nyW2b62ytI3O2)
 

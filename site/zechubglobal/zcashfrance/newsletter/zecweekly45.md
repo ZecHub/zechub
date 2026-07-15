@@ -116,7 +116,7 @@ Dans la pièce éducative de cette semaine, nous plongerons dans le monde de Zca
 
 ## Emplois dans l'Écosystème
 
-- [Communications and Community Manager , ECC]()
+- Communications and Community Manager , ECC
 
 - [Executive Head of Product, ECC](https://apply.workable.com/electric-coin-company/j/6ACEC09B90/)
 

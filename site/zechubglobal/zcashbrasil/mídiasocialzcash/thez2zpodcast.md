@@ -17,7 +17,7 @@ Fique por dentro dos próximos episódios:
 
 **Lista de episódios**
 
-+ Episódio 10 - Privacidade para o bem público com Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6) | [Spotify]()
++ Episódio 10 - Privacidade para o bem público com Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
 + Episódio 9 - The ZKAV Club com Ryan Taylor (também conhecido como AdjyLeak) [Youtube](https://www.youtube.com/watch?v=BYnhTNkQ-3M) | [Odysee](https://odysee.com/@ZecHub:4/podcast-ryan-taylor:c) | [Spotify](https://open.spotify.com/episode/1TJ6Nycq9nyW2b62ytI3O2)
 
