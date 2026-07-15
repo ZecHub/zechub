@@ -29,7 +29,7 @@ Building understanding of how dependencies are reviewed & maintained by the team
 
 [Address Encoding](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys)
 
-[Zebrad Main Pull Requests]() / [Zebrad Main Pull Requests](https://github.com/ZcashFoundation/zebra/pulls)
+[Zebrad Repository](https://github.com/ZcashFoundation/zebra) / [Zebrad Pull Requests](https://github.com/ZcashFoundation/zebra/pulls)
 
 [Cryptographic Signature libraries](https://github.com/orgs/ZcashFoundation/repositories?type=all)
 
@@ -37,11 +37,11 @@ Building understanding of how dependencies are reviewed & maintained by the team
 
 [The orchard Book](https://zcash.github.io/orchard/)
 
-[Halo Crate]() / [Orchard Crate](https://docs.rs/orchard/latest/orchard/)
+[Halo2 Crate](https://docs.rs/halo2_proofs/latest/halo2_proofs/) / [Orchard Crate](https://docs.rs/orchard/latest/orchard/)
 
 [Zcash R&D Discord](https://discord.gg/6AK7keWFaK)
 
-[Other Zcash related Technologies]() / [The Frost Book](https://frost.zfnd.org/)
+[The Frost Book](https://frost.zfnd.org/)
 
 [Zechub Hackathon 2024 Results](https://x.com/ZecHub/status/1845212469809033489)
 
