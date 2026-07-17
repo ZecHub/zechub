@@ -1,0 +1,326 @@
+# Zakura Node 
+
+![Zakura Logo](https://zakura.com/favicon.ico)
+
+---
+
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Definition and Zakura’s Position](#definition-and-zakuras-position)
+3. [Origins and Development Background](#origins-and-development-background)
+4. [Main Objectives of the Project](#main-objectives-of-the-project)
+5. [Key Features](#key-features)
+6. [Performance and Synchronization](#performance-and-synchronization)
+7. [Pruning and Snapshots](#pruning-and-snapshots)
+8. [Compatibility with `zcashd`](#compatibility-with-zcashd)
+9. [Experimental P2P Layer](#experimental-p2p-layer)
+10. [Relationship to Ironwood and Zcash Scalability](#relationship-to-ironwood-and-zcash-scalability)
+11. [Team and Developer Organizations](#team-and-developer-organizations)
+12. [Releases, Distribution, and Installation](#releases-distribution-and-installation)
+13. [Release Authenticity Verification](#release-authenticity-verification)
+14. [Available Snapshots and Their Characteristics](#available-snapshots-and-their-characteristics)
+15. [Practical Uses of Zakura Node](#practical-uses-of-zakura-node)
+16. [Current Strengths and Limitations](#current-strengths-and-limitations)
+17. [Conclusion](#conclusion)
+
+---
+
+## Overview
+
+**[Zakura](https://zakura.com/)** is a **full node** implementation for the **Zcash** network, designed with a focus on **scalability**, **faster synchronization**, **storage efficiency through pruning**, **snapshot support**, and **consensus compatibility** with the existing Zcash network. The project is **free and open source**, and is positioned as a new generation of Zcash node software built for significantly higher performance requirements. 
+
+Zakura’s initial release already supports **Ironwood (NU6.3)**, the next Zcash network upgrade. Zakura is being developed as a collaboration between **Valar Group** and **Project Tachyon**, two teams deeply involved in Zcash scalability work and the coordination of the Ironwood upgrade. 
+
+---
+
+## Definition and Zakura’s Position
+
+In simple terms, Zakura is a **consensus-compatible Zcash full node**, meaning it follows Zcash network rules and can operate as a full participant in validating and synchronizing the Zcash blockchain. Its official website emphasizes that Zakura is built “**for scale**,” meaning it is intended from the outset to support significantly larger throughput and infrastructure demands than previous node approaches. 
+
+Zakura is not a separate blockchain and not a standalone new network. It is a **node implementation** for the Zcash ecosystem. In this context, its role is similar to core infrastructure software: receiving blocks, verifying consensus rules, storing blockchain state, serving RPC interfaces, and providing a foundation for wallets and other integrations. 
+
+---
+
+## Origins and Development Background
+
+Zakura is described as a *fork* of **Zebra**, the pre-existing Zcash full node implementation. From that base, Zakura has been rebuilt and enhanced to pursue better performance, efficiency, and readiness for future Zcash technologies. 
+
+The main reason for the fork is explained clearly by the team: they see Zcash’s long-term vision as a global payments system, so its scalability needs must approach those of world-class payment networks. In the official explanation, the team notes that networks such as Mastercard and Visa handle more than **50 thousand transactions per second**, and they view that number as the floor rather than the ceiling of their ambitions. 
+
+They argue that the current technology stack is not sufficient to reach that level of capacity. Therefore, beyond cryptographic innovation, a consensus node implementation capable of handling **high-performance networking** at large scale is also needed. Zakura emerged from that need. 
+
+---
+
+## Main Objectives of the Project
+
+Zakura’s core goals can be summarized as follows:
+
+- Provide a **faster Zcash full node** for blockchain synchronization. 
+- Reduce disk requirements through **native pruning** with configurable retention. 
+- Accelerate new node bootstrap through **chain-state snapshots**. 
+- Preserve compatibility with legacy software through **`zcashd` RPC compatibility mode**. 
+- Serve as a foundation for the **next generation of Zcash scalability**, including integration with work from Project Tachyon and Valar Group. 
+
+In other words, Zakura is not merely intended as a “faster” alternative node, but as a **core node platform** for a much larger and more complex future Zcash ecosystem. 
+
+---
+
+## Key Features
+
+The main features highlighted in Zakura’s official references include **faster synchronization**, **pruning**, **snapshots**, **`zcashd` compatibility**, and an **experimental P2P layer**. 
+
+### Faster synchronization
+
+Zakura is claimed to synchronize the blockchain nearly **5 times faster** than Zebra in the published testing. This is one of its strongest selling points, because full-node synchronization is often the largest barrier for new node operators. 
+
+### Native pruning
+
+Zakura supports **native pruning of historical blocks**, with configurable block retention. This significantly lowers storage requirements while still preserving the state needed for the node to operate. 
+
+### Chain-state snapshots
+
+The Zakura team publishes **snapshots** so users do not have to begin synchronization from genesis. Snapshots allow a node to be restored from a relatively recent block height, drastically reducing bootstrap time. 
+
+### `zcashd` compatibility mode
+
+For wallets or legacy integrations that still communicate with the `zcashd` RPC interface, Zakura provides a **compatibility mode** that reproduces that interface. This is important because it eases migration without requiring an immediate full rewrite of client applications. 
+
+### New P2P layer
+
+Zakura is also developing a **new P2P transport layer** that is currently **experimental** and **disabled by default**. Its design goals include very fast block propagation, mempool aggregation, and a gossip protocol more resistant to DoS attacks. 
+
+---
+
+## Performance and Synchronization
+
+One of the most frequently repeated claims in Zakura’s official materials is its synchronization speed. In the release announcement, blockchain synchronization over the standard P2P network is said to complete in about **4 hours 20 minutes**, compared with **20 hours 46 minutes** for Zebra in their published test results. 
+
+Furthermore, when using snapshots, bootstrap time can be reduced dramatically. In the official illustration, an *archive snapshot* can cut the time down to around **37 minutes 9 seconds**, while a *pruned snapshot* can make the node ready in only about **1 minute 50 seconds**. 
+
+It is worth noting that these figures were published by the project team and reflect their testing conditions. Still, the overall message is clear: **Zakura treats fast synchronization as a major differentiator**. 
+
+---
+
+## Pruning and Snapshots
+
+### What pruning means in Zakura
+
+In Zakura, **pruning** means the node stores the state it needs to operate, but does not retain all historical blocks in full. This allows the node to remain functional as a consensus full node while using far less disk space. 
+
+On the snapshots page, pruned mode is described as storing “**all the state the node needs to operate, without the historic blocks**.” In other words, Zakura separates active operational needs from complete archival history. 
+
+### What a snapshot is
+
+A **snapshot** is a copy of the *chain state* at a specific block height that can be downloaded and extracted into the node cache, so the node does not need to verify and download the entire history from genesis. The snapshots page explicitly describes snapshots as a way to bootstrap a node from a **recent block height** rather than from the beginning of the chain. 
+
+### Benefits of snapshots
+
+Snapshots are useful for:
+
+- speeding up *initial sync*,
+- shortening node recovery time,
+- reducing P2P bandwidth load,
+- making new node operation more practical. 
+
+---
+
+## Compatibility with `zcashd`
+
+One of the major challenges in blockchain infrastructure is compatibility with legacy software. Many wallets, backend services, or third-party integrations were built under the assumption that they communicate with the **`zcashd` RPC interface**. 
+
+To address this, Zakura provides a **compatibility mode** that reproduces the `zcashd` RPC interface. The goal is to allow existing wallets and integrations to **continue working** without large-scale rewrites. In this way, Zakura aims not only to be technically superior, but also realistic in terms of adoption. 
+
+---
+
+## Experimental P2P Layer
+
+The Zakura team is also building a **new P2P transport layer** for Zakura nodes. At the time these references were taken, the feature was still **off by default**, so it had not yet become standard behavior for general production nodes. 
+
+The technical goals of this layer are ambitious:
+
+- **worst-case block propagation under 500 ms**,
+- **mempool aggregation** used in Tachyon,
+- a **future-proof gossip protocol**,
+- and **DoS resistance** designed in from the start. 
+
+The About page also mentions work on a **QUIC P2P stack** and readiness for **25-second Zcash blocks**, providing context that this networking innovation is part of a broader scalability agenda. 
+
+---
+
+## Relationship to Ironwood and Zcash Scalability
+
+Zakura is closely tied to **Ironwood**, the next Zcash network upgrade. Zakura’s initial release is said to already support **Ironwood (NU6.3)**, and the main site states that Zakura “ships its consensus and state changes.” 
+
+Ironwood itself is briefly described as introducing a **new shielded pool** and a **verifiable supply boundary** for Zcash. Zakura serves as one of the node-level vehicles for implementing those consensus and state changes. 
+
+Beyond Ironwood, the broader scalability vision also involves cryptographic work from the two developer organizations:
+
+- **Project Tachyon** is developing *recursive proofs* to reduce node throughput requirements from more than **500 MB/sec** to around **100 MB/sec** in very high-scale scenarios. 
+- **Valar Group** is developing a **PIR** (*Private Information Retrieval*) solution intended to let wallets support effectively unlimited throughput, far beyond the limitations of the current stack, which their material describes as being around **1 TPS**. 
+
+Accordingly, Zakura should be understood as part of a combined strategy: **new cryptography + high-performance node software + new P2P networking**. 
+
+---
+
+## Team and Developer Organizations
+
+Zakura is being developed as a collaboration between **Valar Group** and **Project Tachyon** by veteran protocol engineers from the **Zcash, Cosmos, and Celestia** ecosystems. 
+
+### Sean Bowe
+
+Sean Bowe is a **Zcash cofounder** and the project’s first engineer. He leads **Project Tachyon** and has led work on Zcash zk-SNARK cryptography since the network launched in 2016, as well as multiple subsequent upgrades. He is also listed as one of the leaders of the Ironwood effort. 
+
+### Dev Ojha
+
+Dev Ojha is a cofounder of **Osmosis** and the leader of **Valar Group**. According to the official About page, he has deep experience in zk-SNARKs, BFT consensus, and DeFi, and leads Valar’s work on scale, PIR, post-quantum systems, and Zakura. 
+
+### Other team members mentioned
+
+The About page also mentions several other engineers from Valar Group, including:
+
+- a Principal Engineer at Osmosis focused on Merkle database performance bottlenecks and Zakura synchronization,
+- a former Celestia *consensus lead* who built high-throughput block propagation systems and contributed to the QUIC P2P stack,
+- and a former U.S. Army officer involved in testing, release reliability, wallet issue resolution, and Ironwood integration across the stack. 
+
+At the organizational level, these two teams are described as being **primarily responsible** for Zcash scalability improvements and for **most of the implementation and coordination of Ironwood**. 
+
+---
+
+## Releases, Distribution, and Installation
+
+According to the Download page, the latest release mentioned at the time these references were captured was **version 1.0.0**, dated **2026-07-15**. 
+
+### Official distribution channels
+
+The official Zakura distribution channels explicitly mentioned are:
+
+- **crates.io** for installation via Cargo,
+- the **GitHub Releases page** for prebuilt binaries and other downloads,
+- **Docker Hub** under the `zakuracore/zakura` repository for official Docker images. 
+
+The site also stresses that **outside of those three channels, any packages or binaries offered elsewhere are not from this project**. 
+
+### Installation via Cargo
+
+The recommended installation method is to install Zakura from crates.io using Cargo:
+
+cargo install --locked zakura
+
+This command fetches the latest source release and builds it with the user’s Rust toolchain, while `--locked` ensures dependency versions remain exactly as tested for the release. If the user does not already have a Rust toolchain installed, it must be installed first. 
+
+### Prebuilt binaries and Docker
+
+For users who do not want to build from source, **prebuilt binaries** are available on GitHub Releases and **official Docker images** are available on Docker Hub. Additional channels such as BitTorrent are mentioned as planned for the future. 
+
+---
+
+## Release Authenticity Verification
+
+Zakura places strong emphasis on release verification. Each `SHA256SUMS.txt` file for a release is signed by the *lead maintainer* using **minisign**. The public key published on the Download page is:
+
+RWTZkHOmfhxdQf43RZJyOawUNvMSlbPH539O9Y2Sir/ZHTihqnSO1RZn
+
+
+
+In addition, every release asset carries a **GitHub artifact attestation**, which provides evidence that the asset was built unmodified by the official repository CI. The authoritative verification guide is available in `VERIFY.md` in the Zakura GitHub repository. 
+
+In summary, verification involves downloading the release, checking the minisign signature, verifying the SHA-256 checksum, and checking the GitHub attestation. If any check fails, the team advises deleting the download and reporting it. 
+
+An important note: **Docker images were not yet signed** at the time these references were captured, so users are advised to verify the binary archive or build the image from source. 
+
+---
+
+## Available Snapshots and Their Characteristics
+
+The Snapshots page distinguishes between two main categories: **Pruned** and **Archive**. 
+
+### Pruned snapshot
+
+Pruned snapshots are intended for most nodes, storing only the state needed to operate without the full historical block set. An example snapshot shown on the page includes:
+
+- block height **3,415,297**,
+- published on **2026-07-17**,
+- size of about **11 GiB**,
+- database format **v28.0.0**,
+- retention of **10,000 blocks**,
+- generated by **Zakura 1.0.0**. 
+
+### Archive snapshot
+
+Archive snapshots contain **the entire chain state including all historical blocks**. An example shown on the page includes:
+
+- block height **3,414,143**,
+- published on **2026-07-16**,
+- size of about **251 GiB**,
+- database format **v28.0.0**,
+- retention of **full history**,
+- generated by **Zakura 1.0.0**. 
+
+### Snapshot listing types
+
+The page also provides snapshot lists by category:
+
+- **Daily**,
+- **Monthly**,
+- **Historical**,
+
+for both pruned and archive modes. It also provides **JSON manifests** and raw **SHA256SUMS** files for each category. 
+
+---
+
+## Practical Uses of Zakura Node
+
+In practice, Zakura is useful for several categories of users.
+
+### Zcash node operators
+
+For node operators, Zakura offers faster synchronization and lower storage requirements, especially when using pruned mode and starting from a snapshot. 
+
+### Wallet and service developers
+
+For developers of wallets, bridges, explorers, or backend services that previously connected to `zcashd`, RPC compatibility mode provides a smoother migration path. 
+
+### Researchers and infrastructure experimentation
+
+For those interested in the future of Zcash scalability, Zakura is an important integration point for experimentation with new P2P systems, Ironwood consensus changes, and enabling technologies such as recursion and PIR. 
+
+---
+
+## Current Strengths and Limitations
+
+### Strengths
+
+Zakura’s clearest strengths are:
+
+- **faster synchronization**,
+- **native pruning support**,
+- **regularly published official snapshots**,
+- **compatibility with the `zcashd` ecosystem**,
+- **an architectural focus on long-term scalability**. 
+
+### Limitations or notes
+
+There are also several important things to note:
+
+- The **new P2P layer is still experimental** and not enabled by default. 
+- The referenced pages focus on the node, snapshots, and software distribution; they do not state that Zakura has **its own token** or a separate token economy.
+- Some performance claims come from the project team’s own testing and presentation materials, so additional independent evaluation is still valuable for large-scale production use. 
+
+---
+
+## Conclusion
+
+**Zakura Node** is a next-generation Zcash full node implementation that prioritizes **scalability**, **fast synchronization**, and **operational efficiency**. As a fork of Zebra, Zakura preserves consensus compatibility with Zcash while introducing major improvements such as **nearly 5× faster synchronization**, **native pruning**, **snapshot-based bootstrap**, and **`zcashd` compatibility mode**. 
+
+More than just ordinary node software, Zakura is positioned as a technical foundation for the next phase of Zcash evolution, especially in the context of **Ironwood**, **recursive proofs**, **PIR**, and **high-performance P2P networking**. With backing from teams experienced across the Zcash, Cosmos, and Celestia ecosystems, Zakura appears designed as a serious core infrastructure project for the future of the Zcash network. 
+
+---
+
+## References
+
+1. https://zakura.com/announcements/introducing-zakura/
+2. https://zakura.com/about/
+3. https://zakura.com/snapshots/
+4. https://zakura.com/
+5. https://zakura.com/download/
