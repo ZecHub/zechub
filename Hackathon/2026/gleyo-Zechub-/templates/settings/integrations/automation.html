@@ -1,0 +1,173 @@
+<style>
+
+  @media (min-width: 768px) {
+
+  .settings-card {
+    background: var(--bg-sidebar);
+    margin-top: 5%;
+    border-radius: var(--radius);
+    padding: 20px;
+    padding-top: 40px;
+    max-width: 520px;
+    color: var(--text-main);
+  }
+
+  }
+
+  @media (max-width: 768px) {
+
+  .settings-card {
+    background: var(--bg-sidebar);
+    margin-top: 5%;
+    border-radius: var(--radius);
+    padding: 20px 15px;
+    padding-top: 40px;
+    width: 100%;
+
+    color: var(--text-main);
+  }
+
+  }
+
+
+  .settings-header {
+    margin-bottom: 28px;
+  }
+
+  .settings-header h3 {
+    margin: 0;
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--text-main);
+  }
+
+  .settings-subtitle {
+    margin-top: 8px;
+    font-size: 14.5px;
+    line-height: 1.5;
+    color: var(--text-muted);
+  }
+
+  /* SECTION */
+  .settings-section {
+    background: var(--bg-surface);
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid var(--border);
+  }
+
+  .automation-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  /* TEXT BLOCK */
+  .automation-info h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-main);
+  }
+
+  .automation-info p {
+    margin: 8px 0 14px;
+    font-size: 14.5px;
+    line-height: 1.55;
+    color: var(--text-muted);
+  }
+
+  .automation-list {
+    padding-left: 18px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--text-muted);
+  }
+
+  .automation-list li {
+    margin-bottom: 8px;
+  }
+
+  .toggle-switch {
+    position: relative;
+    width: 46px;
+    height: 26px;
+    flex-shrink: 0;
+    margin-top: 4px;
+  }
+
+  .toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: var(--border);
+    border-radius: 999px;
+    transition: background 0.2s ease;
+  }
+
+  .toggle-slider::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 3px;
+    top: 3px;
+    background: white;
+    border-radius: 50%;
+    transition: transform 0.2s ease;
+  }
+
+  .toggle-switch input:checked + .toggle-slider {
+    background: #4285f4;
+  }
+
+  .toggle-switch input:checked + .toggle-slider::before {
+    transform: translateX(20px);
+  }
+</style>
+
+
+
+<div class="settings-card">
+
+  <div class="settings-header">
+    <h3>Automation</h3>
+    <p class="settings-subtitle">
+      Automatically trigger actions when key events happen in your community.
+    </p>
+  </div>
+
+  <div class="settings-section">
+
+    <div class="automation-row">
+      <div class="automation-info">
+        <h4>Auto-post new quests to chat</h4>
+        <p>
+          When enabled, every time a quest is published, it will be automatically
+          announced in your community chat.
+        </p>
+
+        <ul class="automation-list">
+          <li>Helps members discover new quests instantly</li>
+          <li>Keeps your chat active without manual posting</li>
+          <li>Message includes quest title and direct link</li>
+        </ul>
+      </div>
+
+      <label class="toggle-switch">
+        <input type="checkbox" id="autoPostQuest">
+        <span class="toggle-slider"></span>
+      </label>
+    </div>
+
+  </div>
+
+</div>

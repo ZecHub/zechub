@@ -1,0 +1,874 @@
+
+<style>
+  .form-group input, .form-group textarea {
+    background-color: var(--bg-sidebar) !important;
+    border: 1px solid var(--border);
+    color: var(--text-main);
+    width: 100%;
+
+    padding: 12px 10px;
+    resize: none;
+    font-size: 14px;
+    border-radius: 14px;
+    outline: none;
+  }
+
+
+
+
+
+/* =======================
+   FORM STYLING (FIX)
+======================= */
+.form-group {
+  margin-bottom: 22px;
+}
+
+.form-label {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: var(--text-main);
+}
+
+.form-label .optional {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-left: 6px;
+}
+
+  /* INPUTS */
+  input,
+  textarea {
+    width: 100%;
+    background: var(--bg-app);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 10px 12px;
+    font-size: 14px;
+    color: var(--text-main);
+    outline: none;
+    transition: border 0.15s ease, background 0.15s ease;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: var(--text-muted);
+  }
+
+  /* TEXTAREA */
+  textarea {
+    min-height: 96px;
+    resize: vertical;
+  }
+
+  /* FOCUS STATE */
+  input:focus,
+  textarea:focus {
+    border-color: #6366f1; /* indigo accent */
+  }
+
+  /* HELP TEXT */
+  .form-group small {
+    display: block;
+    margin-top: 6px;
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  /* =======================
+    SAVE BUTTON
+  ======================= */
+  .save-btn {
+    background: #6366f1;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.15s ease, transform 0.05s ease;
+  }
+
+  .save-btn:hover {
+    background: #5558e8;
+  }
+
+  .form-group input:focus, .form-group textarea:focus {
+    border-color: var(--sub-accent);
+  }
+
+  .form-group input[type="number"]::-webkit-inner-spin-button,
+  .form-group input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  .form-group input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+
+
+  .form-group textarea {
+    height: 90px;
+  }
+
+  .form-group label {
+    font-size: 13px;
+    font-weight: 550;
+    color: var(--text-main);
+    margin-bottom: 9px;
+    opacity: 0.9;
+  }
+
+  .sprint-wrapper h2{
+    color: var(--text-main);
+    font-size: 18px;
+
+  }
+
+  .sprint-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+    gap: 20px;
+    padding-bottom: 0 !important;
+
+    background-color: var(--bg-sidebar);
+    padding: 12px 16px;
+    height: 100%;
+    padding-top: 30px !important;
+    border-radius: 30px;
+    border: 0.9px solid var(--border)
+  }
+
+  
+  .picker-box input {
+    padding: 0;
+    margin: 0;
+    background-color: transparent !important;
+    font-size: 14px;
+    border: none !important;
+  }
+
+  .picker-box  {
+    display: inline-flex;
+    border-radius: 30px;
+    background-color: var(--bg-surface);
+    gap: 10px;
+    color: var(--text-main);
+    opacity: 0.9;
+    padding: 21px 19px;
+    border: 0.9px solid var(--border);
+
+  }
+
+  .picker-box  svg{
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+  }
+
+
+  .timezone-label {
+    display: inline-flex;
+    font-size: 13px;
+    color: var(--text-main);
+    margin: 0;
+    padding: 0;
+    padding-left: 13px;
+    margin-top: 4px !important;
+    margin-bottom: 20px;
+  }
+
+  .picker-box-con {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .form-group.date {
+    margin-bottom: 20px;
+  }
+  .form-group.column {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .optional {
+    color: var(--text-muted);
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+
+  .orion-toggle-btn {
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+  .orion-toggle-btn img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+  }
+
+
+
+
+  .orion-dropdown-wrapper {
+    position: relative; /* anchor */
+  }
+
+  .orion-dropdown-panel {
+    position: fixed; /* 🔥 IMPORTANT */
+    z-index: 1000;
+
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 24px;
+    padding: 20px 30px;
+    width: 300px;
+    padding-top: 30px !important;
+    backdrop-filter: blur(14px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-6px);
+    transition: opacity 0.15s ease, transform 0.15s ease;
+  }
+
+  .orion-dropdown-panel.is-open {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
+
+
+
+      .orion-toggle-btn {
+        background: transparent;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+      }
+
+      .orion-toggle-btn img {
+        width: 40px;
+        height: 40px;
+      }
+
+      .orion-toggle-btn:hover img {
+        transform: scale(1.1);
+      }
+
+
+
+      .orion-color-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 12px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .orion-color-row:last-of-type {
+        border-bottom: none;
+        margin-bottom: 20px;
+      }
+  .orion-swatch {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+    /* 👇 darken fill + border visually */
+    box-shadow: inset 0 0 0 999px rgba(0, 0, 0, 0.253);
+
+    border: 1px solid rgba(37, 12, 12, 0.05); /* muted border */
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+
+  /* hover */
+  .orion-swatch:hover {
+    transform: scale(1.12);
+
+    /* lighten on hover */
+    box-shadow: inset 0 0 0 999px rgba(0, 0, 0, 0.2);
+
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+
+  /* tooltip (optional) */
+  .orion-swatch::after {
+    content: attr(data-color);
+    position: absolute;
+    bottom: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 10px;
+
+    
+    
+    padding: 2px 5px;
+    border-radius: 4px;
+    color: #aaa;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+  }
+
+  .orion-swatch:hover::after {
+    opacity: 1;
+  }
+
+
+      .orion-swatch:hover {
+        transform: scale(1.12);
+        border-color: #fff;
+      }
+      .orion-swatch:hover::after {
+        opacity: 1;
+      }
+
+      .orion-preview {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        border: 2px solid (data-color);
+        background-color: var(--sprint-color);
+        box-shadow: inset 0 0 0 999px rgba(0, 0, 0, 0.253);
+        margin: 0 auto 16px;
+
+        margin-top: 2cqmin !important;
+
+        transition: background-color 0.2s ease;
+      }
+
+      .orion-confirm-btn {
+        background-color: #4080e7d3;
+        border: none;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 6px;
+        font-size: 13px;
+        cursor: pointer;
+        width: 100%;
+        transition: background-color 0.2s ease;
+      }
+
+      .orion-confirm-btn:hover {
+        background-color: #2f6de0;
+      }
+
+      .orion-hashtag-group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -10px;
+        margin-bottom: 20px;
+        gap: 8px;
+      }
+
+      .orion-hashtag-icon {
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        background-color: var(--bg-surface);
+        color: #fff;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border: 1px solid var(--border);
+        transition: background-color 0.2s ease, transform 0.2s ease;
+      }
+
+      .orion-hashtag-icon:hover {
+        background-color: #3a3a55;
+        transform: scale(1.1);
+      }
+
+
+      .orion-text-input {
+        display: none;
+        border: 1px solid var(--border);
+        background-color: var(--bg-surface);
+        color: #fff;
+        border-radius: 8px;
+        padding: 6px 10px;
+        outline: none !important;
+        width: 100px;
+        font-size: 13px;
+      }
+
+      .orion-text-input:focus {
+        border-color: #2f6de0;
+      
+      }
+      .orion-eyedropper-icon {
+        width: 22px;
+        height: 22px;
+        cursor: pointer;
+        filter: invert(1);
+        opacity: 0.7;
+        transition: opacity 0.2s ease;
+      }
+
+      .orion-eyedropper-icon:hover {
+        opacity: 1;
+      }
+
+  .reward-card h3 {
+    font-size: 14px !important;
+    color: var(--text-main) !important;  
+    font-weight:  550;
+    margin-bottom: 12px !important;
+    margin: 0;
+  }
+
+  .reward-card div {
+    color: var(--text-muted) !important;
+    font-size: 14px !important;
+    padding-left: 10px;
+    margin: 0 !important;
+  }
+
+
+
+
+  .form-actions-wrapper {
+    position: sticky;
+    bottom: 0;
+    padding: 5px 4px;
+    padding-bottom: 7px !important;
+    background: var(--bg-sidebar);
+  }
+
+
+
+  .form-actions-wrapper button, .form-actions-wrapper a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+
+    padding: 10px 12px;
+    border-radius: 14px;
+
+    font-size: 13px;
+    font-weight: 500;
+
+    border: 0.9px solid ;
+    font-weight: 600;
+    background: transparent;
+    cursor: pointer;
+    margin-top: 10px !important;
+
+    transition:
+      background-color 0.2s ease,
+      border-color 0.2s ease,
+      color 0.2s ease,
+      box-shadow 0.2s ease,
+      transform 0.08s ease;
+  }
+
+  .form-actions-wrapper button:active {
+    transform: scale(0.97);
+  }
+
+  .form-actions-wrapper button:focus-visible, .form-actions-wrapper a:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.25);
+  }
+
+
+
+
+
+  .delete-wrapper .delete-btn svg {
+    flex-shrink: 0;
+  }
+
+
+
+
+  .form-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+  }
+
+  .form-buttons #cancelBtn {
+    background: rgba(43, 43, 66, 0.448);
+    border: 0.9px solid var(--border) !important;
+    color: var(--text-main);
+
+    border: 1px solid #d6d9df;
+  }
+
+  .form-buttons #cancelBtn:hover {
+    background: rgba(37, 37, 57, 0.448);
+
+    border-color: #c7cbd3;
+  }
+
+  .form-buttons #saveBtn {
+    color: rgba(255, 255, 255, 0.85);
+    background: #3f7ae0; /* softer blue */
+    border: 1px solid #3f7ae0;
+    box-shadow: 0 3px 10px rgba(63, 122, 224, 0.22);
+  }
+
+  .form-buttons #saveBtn:hover {
+    background: #366fd1;
+    box-shadow: 0 5px 14px rgba(63, 122, 224, 0.3);
+    outline: none;
+    outline: 1px solid #366fd1;
+    outline-offset: 2px;
+  }
+
+
+
+
+
+
+  .reward-option {
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 18px 20px 22px;
+    padding-bottom: 2px !important;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .reward-option legend {
+    padding: 0 8px;
+    font-size: 14px;
+
+    font-weight: 600;
+    color: var(--text-main);
+  }
+
+
+
+
+  @media(max-width: 767px) {
+  .form-actions-wrapper button {
+    padding: 13px 24px !important;
+
+  }
+  }
+  /* ===============================
+    Reward distribution cards
+  ================================ */
+
+  
+
+  .reward-choice {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+
+    padding: 14px 16px;
+    margin-bottom: 10px;
+
+    border-radius: 14px;
+    border: 1px dashed var(--border);
+    background: #22223683;
+
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  
+
+  /* Hide native radio */
+  .reward-choice input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  /* Custom radio circle */
+  .reward-choice::before {
+    content: "";
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+
+    border-radius: 50%;
+    border: 2px solid var(--border);
+    background: transparent;
+
+    transition: all 0.2s ease;
+  }
+
+  /* Checked state */
+  /* ===============================
+    Radio base
+  ================================ */
+
+  .reward-choice::before {
+    content: "";
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    background: transparent;
+
+    transition: all 0.18s ease;
+  }
+
+  /* ===============================
+    Checked card state
+  ================================ */
+
+  .reward-choice:has(input[type="radio"]:checked) {
+    border: 1px solid var(--border);
+    background: rgba(124, 124, 255, 0.04); /* sharp & transparent */
+  }
+
+  /* ===============================
+    Radio indicator (checked)
+  ================================ */
+
+  .reward-choice:has(input[type="radio"]:checked)::before {
+    border-color: #4285f4;        /* accent */
+    background-color: #4285f4;   /* solid fill */
+    box-shadow: inset 0 0 0 4px #0f0f1ad9; /* crisp inner dot */
+  }
+
+  /* ===============================
+    Text styling
+  ================================ */
+
+  .choice-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .choice-content strong {
+    font-size: 13px !important;
+    color: var(--text-main);
+    opacity: 0.95;
+  }
+
+  .choice-content span {
+    font-size: 12.5px !important;
+    color: var(--text-main);
+    opacity: 0.7;
+  }
+
+
+
+
+</style>
+
+</head>
+<body>
+  <div class="sprint-wrapper">
+    
+        <h2>Create Sprint</h2>
+
+        <div class="form-group">
+          <label for="title" class="family">Sprint Name</label>
+          <input
+            type="text"
+            name="title"
+            maxlength="100"
+            id="title"
+            class="family"
+            placeholder="Sprint name"
+            required
+            autocomplete="off"
+            autocorrect="off"
+            autocapitalize="off"
+            spellcheck="false"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="description">Description <span class="optional">Optional</span></label>
+                <textarea name="description" style="width: 100%;"   id="description" maxlength="500" rows="3" placeholder="What is the goal of the sprint?"></textarea>
+
+        </div>
+
+
+        <div class="picker-box-con">
+
+          <div class="form-group date column">
+            <!-- Flatpickr Start Date -->
+            <label for="start_date">Start Date</label>
+            <div class="picker-box" id="start_date">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none"
+                  stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="17" rx="4" ry="4"/>
+                <line x1="7.25" y1="2.5" x2="7.25" y2="5.5" />
+                <line x1="15.25" y1="2.5" x2="15.25" y2="5.5" />
+                <line x1="6" y1="9" x2="18" y2="9" />
+                <circle cx="8" cy="13" r="0.4" fill="currentColor"/>
+                <circle cx="12" cy="13" r="0.4" fill="currentColor"/>
+                <circle cx="16" cy="13" r="0.4" fill="currentColor"/>
+                <circle cx="8" cy="16.5" r="0.4" fill="currentColor"/>
+                <circle cx="12" cy="16.5" r="0.4" fill="currentColor"/>
+                <circle cx="16" cy="16.5" r="0.4" fill="currentColor"/>
+              </svg>
+              <input
+                type="text"
+                name="start_date_display"
+                placeholder="Select start date & time"
+                required
+                readonly
+                autocomplete="off"
+              />
+
+            </div>
+          </div>
+
+          
+          <div class="form-group column">
+            <!-- Flatpickr End Date -->
+            <label for="end_date">End Date</label>
+            <div class="picker-box" id="end_date">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none"
+                  stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="17" rx="4" ry="4"/>
+                <line x1="7.25" y1="2.5" x2="7.25" y2="5.5" />
+                <line x1="15.25" y1="2.5" x2="15.25" y2="5.5" />
+                <line x1="6" y1="9" x2="18" y2="9" />
+                <circle cx="8" cy="13" r="0.4" fill="currentColor"/>
+                <circle cx="12" cy="13" r="0.4" fill="currentColor"/>
+                <circle cx="16" cy="13" r="0.4" fill="currentColor"/>
+                <circle cx="8" cy="16.5" r="0.4" fill="currentColor"/>
+                <circle cx="12" cy="16.5" r="0.4" fill="currentColor"/>
+                <circle cx="16" cy="16.5" r="0.4" fill="currentColor"/>
+              </svg>
+              <input
+                type="text"
+                name="end_date_display"
+                placeholder="Select end date & time"
+                required
+                readonly
+              />
+            </div>
+          </div>
+          <input type="hidden" id="start_date_iso" name="start_date">
+          <input type="hidden" id="end_date_iso" name="end_date">
+
+          <small class="timezone-label">Timezone: Detecting...</small>
+        </div>
+
+        <div class="form-group">
+
+          <label for="rewards">Rewards</label>
+        <textarea
+          style="width: 100%;"
+          name="rewards"
+          id="rewards"
+          maxlength="500"
+          rows="3"
+          placeholder="Add reward description..."
+          {% if status == 'paid' %}readonly class="readonly"{% endif %}
+        >{% if status == 'paid' %}{{ note }}{% endif %}</textarea>
+
+        </div>
+        <div class="form-group">
+          <label for="end_zone">End Reward Zone <span class="optional">Optional</span></label>
+          <input type="number" name="end_zone" id="end_zone" min="0" placeholder="e.g. 10" />
+        </div>
+
+        <div class="form-group">
+          <label for="color">Color <span class="optional">Optional</span></label>
+          <div class="orion-dropdown-wrapper">
+            <button type="button" class="orion-toggle-btn" id="orion-toggle-picker" style="position: relative;">
+              <img src="https://cdn2.iconfinder.com/data/icons/tritone-set-1-of-3/100/Color-1024.png" alt="Color Picker Icon" loading="lazy" decoding="async"/>
+            </button>
+
+          </div>
+        </div>
+
+        {% if status == 'paid' %}
+          <fieldset class="reward-option">
+            <legend>
+              Reward Distribution
+              <span class="jason">
+                {{ status }}
+              </span>
+            </legend>
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <strong>Distribution by Gleyo</strong>
+            </div>
+            <br />
+          </fieldset> 
+        {% else %}
+        <fieldset class="reward-option">
+          <legend>Reward Distribution</legend>
+          <div style="margin-bottom: 2px !important; margin: 0; padding: 0;"></div>
+          <label class="reward-choice">
+            <input type="radio" name="distribution" value="pay_to_creator" required />
+            <div class="choice-content">
+              <strong>Platform distribution</strong>
+              <span>Gleyo handles reward delivery</span>
+            </div>
+          </label>
+
+          <label class="reward-choice">
+            <input type="radio" name="distribution" value="self_distribute" required />
+            <div class="choice-content">
+              <strong>Self distribution</strong>
+              <span>You manually send rewards</span>
+            </div>
+          </label>
+
+          <div id="distributionOutput"></div>
+        </fieldset>
+
+        {% endif %} 
+
+
+        <div
+          id="paymentError"
+          style="display: none; margin-top: 10px; font-size: 13px;">
+        </div>
+
+
+      
+        <div class="form-actions-wrapper">
+
+          <div class="form-buttons">
+            <a 
+              href="/{{ community.slug }}/leaderboard"
+              data-path="/{{ community.slug }}/leaderboard"
+              onclick="event.preventDefault(); loadMainSettingsSection(this.dataset.path)"
+              type="button" id="cancelBtn">
+              Cancel
+            </a>
+            <button id="saveBtn" class="disable">Save</button>
+          </div>
+        </div>
+  </div>
+</body>
+</html>

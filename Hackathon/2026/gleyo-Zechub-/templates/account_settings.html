@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Account Settings</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="csrf-token" content="{{ csrf_token() }}">
+<link rel="shortcut icon" href="https://zupdpwnloewdkjqsymdm.supabase.co/storage/v1/object/public/uploads/communities/7/logos/511f4996-5748-4f1f-b74c-5d5c33f7124c.png">
+<link rel="stylesheet" href="{{ url_for('static', filename='accountsettings.css') }}?v=11">
+<script src="{{ url_for('static', filename='settings/account_setting.js') }}?v=8" defer></script>
+
+<style>
+  @keyframes skshimmer {
+    0%   { background-position: -600px 0; }
+    100% { background-position:  600px 0; }
+  }
+  .sk-shimmer {
+    background: linear-gradient(90deg, var(--surface2) 25%, var(--surface3) 50%, var(--surface2) 75%);
+    background-size: 600px 100%;
+    animation: skshimmer 1.5s infinite linear;
+  }
+  .card-pro {
+    position: relative;
+    max-height: 80dvh;
+    overflow-y: auto;
+    border: 0.9px solid var(--border-lighter);
+    background: radial-gradient(circle at 30% 20%, #151528 0%, #0b0b12 60%);
+    border-radius: 28px;
+    padding: 48px 44px 40px;
+    width: 380px;
+    display: flex; flex-direction: column; align-items: center;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.03), 0 32px 80px rgba(0,0,0,0.6);
+  }
+
+  .screen {
+    display: none; flex-direction: column; align-items: center; width: 100%;
+    animation: fadeUp 0.35s ease forwards;
+  }
+  .screen.show { display: flex; }
+  @keyframes fadeUp { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+
+</style>
+</head>
+
+<body>
+<div class="main-layout">
+
+<header class="portal-header" data-email="{{ user.email }}">
+
+  <div class="bar-quest-container">
+    <span class="bar-quest-init bar-bottom"></span>
+    <span class="bar-quest-init bar-top"></span>
+    <svg xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 16 16" width="14" height="14"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round">
+      <path d="M14 2 L2 14 M14 14 L2 2"/>
+    </svg>
+
+  </div>
+
+
+
+  <h1 id="chngaer-this">Account Settings</h1>
+</header>
+
+<div class="settings-layout">
+
+  <div class="overlay-7457398t4">
+
+    <aside class="settings-sidebar">
+      <a href="" class="back-link account-back" onclick="event.preventDefault(); goBackFromSettings(this);">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none">
+          <path d="M15 18L9 12L15 6"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"/>
+        </svg>
+        <span>Back to home</span>
+      </a>
+
+      <div class="sidebar-title">{{ user.username }}</div>
+
+      <a class="nav-item"
+        href="/settings/general"
+        data-path="/settings/general"
+        onclick="event.preventDefault(); loadSettingsSection(this.dataset.path)">
+        General
+      </a>
+
+
+
+
+      <a class="nav-item"
+        href="/settings/security"
+        data-path="/settings/security"
+        onclick="event.preventDefault(); loadSettingsSection(this.dataset.path)">
+        <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" stroke-width="3" stroke="currentColor" fill="none" style="position: relative;">
+          <path d="M32.39,7.32,14,15a1,1,0,0,0-.61.92V32.23h0A22.87,22.87,0,0,0,24.58,51.9l8.17,4.86,8.06-4.84A22.89,22.89,0,0,0,51.9,32.31V15a1,1,0,0,0-.65-.94L33.12,7.3A1,1,0,0,0,32.39,7.32Z"/>
+          <path d="M32.83,17.92l3.64,7.37a.16.16,0,0,0,.1.08l8.14,1.18a.13.13,0,0,1,.07.23L38.9,32.51a.12.12,0,0,0,0,.12l1.39,8.1a.14.14,0,0,1-.2.15l-7.27-3.83a.15.15,0,0,0-.13,0l-7.27,3.83a.14.14,0,0,1-.2-.15l1.39-8.1a.15.15,0,0,0,0-.12l-5.88-5.73a.13.13,0,0,1,.07-.23l8.13-1.18a.15.15,0,0,0,.11-.08l3.63-7.37A.13.13,0,0,1,32.83,17.92Z" stroke-linecap="round"/>
+        </svg>
+
+        Security
+      </a>
+
+
+      <a class="nav-item"
+        href="/settings/linked-accounts"
+        data-path="/settings/linked-accounts"
+        onclick="event.preventDefault(); loadSettingsSection(this.dataset.path)">
+        <svg
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 32 32"
+          fill="none"
+        >
+          <style>
+            .st0 {
+              fill: none;
+              stroke: currentColor;
+              stroke-width: 2;
+              stroke-linecap: round;
+              stroke-linejoin: round;
+              stroke-miterlimit: 10;
+            }
+          </style>
+
+          <path class="st0" d="M24.5,27.5L23,29c-1.4,1.4-3.6,1.4-5,0l0,0c-1.4-1.4-1.4-3.6,0-5l1.5-1.5"/>
+          <path class="st0" d="M21.5,20.5L23,19c1.4-1.4,3.6-1.4,5,0l0,0c1.4,1.4,1.4,3.6,0,5l-1.5,1.5"/>
+          <line class="st0" x1="21.5" y1="25.5" x2="24.5" y2="22.5"/>
+          <path class="st0" d="M18,18.2c1.8-1,3-3,3-5.2v0c0-1.1,0.9-2,2-2h0l0-2.3c0-2.8-2.1-5.4-4.9-5.7c-2-0.2-3.8,0.6-4.9,2.1
+            c-0.8-0.2-1.6-0.1-2.6,0.6C9.6,6.4,9,7.7,9,9l0,1v1.5v1.3c0,2.2,1.2,4.3,3,5.4v0c0,2.3-1.6,4.2-3.8,4.8
+            c-2.6,0.7-4.5,2.8-5.1,5.4C3.1,28.7,3.3,29,3.7,29H18"/>
+        </svg>
+
+
+
+        Linked Accounts
+      </a>
+
+
+      <a class="nav-item"
+        href="/settings/wallets"
+        data-path="/settings/wallets"
+        onclick="event.preventDefault(); loadSettingsSection(this.dataset.path)">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M20.9235 11.7502C20.9032 11.75 20.8766 11.75 20.8333 11.75H18.2308C16.8074 11.75 15.75 12.8087 15.75 14C15.75 15.1913 16.8074 16.25 18.2308 16.25H20.8333C20.8766 16.25 20.9032 16.25 20.9235 16.2498C20.9427 16.2496 20.948 16.2492 20.948 16.2492C21.154 16.2367 21.2427 16.0976 21.2495 16.0139C21.2495 16.0139 21.2497 16.0077 21.2498 15.9986C21.25 15.9808 21.25 15.9572 21.25 15.9167V12.0833C21.25 12.0609 21.25 12.0437 21.25 12.0297C21.2499 12.0185 21.2499 12.0093 21.2498 12.0014C21.2497 11.9924 21.2495 11.9861 21.2495 11.9861C21.2427 11.9024 21.154 11.7633 20.9479 11.7508C20.9479 11.7508 20.943 11.7504 20.9235 11.7502ZM20.8499 10.25C20.9163 10.25 20.9803 10.2499 21.0391 10.2535C21.9104 10.3066 22.681 10.9638 22.7458 11.8818C22.7501 11.942 22.75 12.0069 22.75 12.067V12.0833V15.9167V15.933C22.75 15.9931 22.7501 16.058 22.7458 16.1182C22.681 17.0362 21.9104 17.6934 21.0391 17.7465C20.9803 17.7501 20.9163 17.75 20.8499 17.75H20.8333H18.2308C16.0856 17.75 14.25 16.1224 14.25 14C14.25 11.8776 16.0856 10.25 18.2308 10.25H20.8333H20.8499Z" fill="currentColor"/>
+          <path d="M19 14C19 14.5523 18.5523 15 18 15C17.4477 15 17 14.5523 17 14C17 13.4477 17.4477 13 18 13C18.5523 13 19 13.4477 19 14Z" fill="currentColor"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M20.8499 10.25C20.9163 10.25 20.9803 10.2499 21.0391 10.2535C21.2645 10.2672 21.4832 10.3214 21.6847 10.4101C21.5777 8.80363 21.2831 7.56563 20.3588 6.64124C19.6104 5.89288 18.6614 5.56076 17.489 5.40313L17.4467 5.39754C17.4362 5.38977 17.4255 5.38223 17.4145 5.37492L13.679 2.89806C12.3758 2.03398 10.6242 2.03398 9.32102 2.89806L5.58554 5.37492C5.57453 5.38223 5.56377 5.38977 5.55327 5.39754L5.51098 5.40313C4.33856 5.56076 3.38961 5.89288 2.64124 6.64124C1.89288 7.38961 1.56076 8.33856 1.40314 9.51098C1.24997 10.6502 1.24998 12.1058 1.25 13.9436V14.0564C1.24998 15.8942 1.24997 17.3498 1.40314 18.489C1.56076 19.6614 1.89288 20.6104 2.64124 21.3588C3.38961 22.1071 4.33856 22.4392 5.51098 22.5969C6.65019 22.75 8.10583 22.75 9.94359 22.75H13.0564C14.8942 22.75 16.3498 22.75 17.489 22.5969C18.6614 22.4392 19.6104 22.1071 20.3588 21.3588C21.2831 20.4344 21.5777 19.1964 21.6847 17.5899C21.4832 17.6786 21.2645 17.7328 21.0391 17.7465C20.9803 17.7501 20.9163 17.75 20.8499 17.75H20.8333H20.1679C20.0541 19.0915 19.7966 19.7996 19.2981 20.2981C18.8749 20.7213 18.2952 20.975 17.2892 21.1102C16.2615 21.2484 14.9068 21.25 13 21.25H10C8.09318 21.25 6.73851 21.2484 5.71085 21.1102C4.70476 20.975 4.12511 20.7213 3.7019 20.2981C3.27869 19.8749 3.02502 19.2952 2.88976 18.2892C2.75159 17.2615 2.75 15.9068 2.75 14C2.75 12.0932 2.75159 10.7385 2.88976 9.71085C3.02502 8.70476 3.27869 8.12511 3.7019 7.7019C4.12511 7.27869 4.70476 7.02502 5.71085 6.88976C6.73851 6.75159 8.09318 6.75 10 6.75H13C14.9068 6.75 16.2615 6.75159 17.2892 6.88976C18.2952 7.02502 18.8749 7.27869 19.2981 7.7019C19.7966 8.20043 20.0541 8.90854 20.1679 10.25H20.8333H20.8499ZM9.94358 5.25H13.0564C13.5729 5.24999 14.0592 5.24999 14.5168 5.25339L12.8501 4.14821C12.0493 3.61726 10.9507 3.61726 10.15 4.14821L8.48318 5.25339C8.94077 5.24999 9.42708 5.24999 9.94358 5.25Z" fill="currentColor"/>
+          <path d="M6 9.25C5.58579 9.25 5.25 9.58579 5.25 10C5.25 10.4142 5.58579 10.75 6 10.75H10C10.4142 10.75 10.75 10.4142 10.75 10C10.75 9.58579 10.4142 9.25 10 9.25H6Z" fill="currentColor"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M19 14C19 14.5523 18.5523 15 18 15C17.4477 15 17 14.5523 17 14C17 13.4477 17.4477 13 18 13C18.5523 13 19 13.4477 19 14Z" fill="currentColor"/>
+        </svg>
+
+        Wallets
+      </a>
+
+      <a href="{{ url_for('logout') }}" class="nav-item rednav"  style="font-size: 14px;" onclick="event.preventDefault(); logoutUser(this.href)">
+        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" 
+        fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/>
+        <polyline points="16 17 21 12 16 7"/>
+        <line x1="21" y1="12" x2="9" y2="12"/>
+        </svg>
+        Logout
+      </a>
+    </aside>
+    
+  </div>
+
+  <!-- CONTENT -->
+  <main class="settings-content">
+   <div class="card" id="inject-card">
+
+
+
+    </div>
+  </main>
+
+  <div class="modal-backdrop" id="ticketConfirmModal"  >
+  <div class="modal-card">
+    <h4 id="modalTitle">Disable tickets</h4>
+    <p id="modalMessage"></p>
+
+    <div class="modal-actions">
+      <button class="btn-secondary" id="modalCancel">Cancel</button>
+      <button class="btn-danger active" id="modalConfirm">
+        Confirm
+      </button>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+
+
+</div>
+
+ 
+
+
+
+
+
+<div id="passcode-modal" class="passcode-modal hidden">
+
+  <div class="card-pro">
+
+    <div class="screen show" id="loginScreen">
+      <div class="avatar" id="avatar">
+        <svg viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="26" cy="18" r="9" stroke="#c9b8ff" stroke-width="1.8"/>
+          <path d="M10 44c0-8.837 7.163-16 16-16s16 7.163 16 16" stroke="#c9b8ff" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="attempts" id="attempts" style="opacity:0;">
+        <div class="attempt-pip" id="pip0"></div><div class="attempt-pip" id="pip1"></div>
+        <div class="attempt-pip" id="pip2"></div><div class="attempt-pip" id="pip3"></div>
+        <div class="attempt-pip" id="pip4"></div>
+      </div>
+      <div><div class="greeting">Welcome back</div><div class="title">Enter Passcode</div></div>
+      <div class="subtitle" id="subtitle">Enter your 6-digit passcode</div>
+      <div class="dots" id="dots">
+        <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+        <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+      </div>
+      <div class="locked-banner" id="lockedBanner">
+        <div class="locked-timer" id="lockedTimer">0:30</div>
+        <div class="locked-msg">Too many attempts — try again in</div>
+      </div>
+      <div class="pad" id="pad">
+        <button class="key" data-val="1"><span class="key-num">1</span></button>
+        <button class="key" data-val="2"><span class="key-num">2</span><span class="key-letters">ABC</span></button>
+        <button class="key" data-val="3"><span class="key-num">3</span><span class="key-letters">DEF</span></button>
+        <button class="key" data-val="4"><span class="key-num">4</span><span class="key-letters">GHI</span></button>
+        <button class="key" data-val="5"><span class="key-num">5</span><span class="key-letters">JKL</span></button>
+        <button class="key" data-val="6"><span class="key-num">6</span><span class="key-letters">MNO</span></button>
+        <button class="key" data-val="7"><span class="key-num">7</span><span class="key-letters">PQRS</span></button>
+        <button class="key" data-val="8"><span class="key-num">8</span><span class="key-letters">TUV</span></button>
+        <button class="key" data-val="9"><span class="key-num">9</span><span class="key-letters">WXYZ</span></button>
+        <button class="key zero" data-val="0"><span class="key-num">0</span></button>
+        <button class="key del" data-val="del">
+          <span class="key-num">
+            <svg style="width:21px;height:21px;vertical-align:middle;fill:currentColor;" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+              <path d="M597.333333 451.669333l55.168-55.168a42.666667 42.666667 0 0 1 60.330667 60.330667L657.664 512l55.168 55.168a42.666667 42.666667 0 0 1-60.330667 60.330667L597.333333 572.330667l-55.168 55.168a42.666667 42.666667 0 0 1-60.330666-60.330667L537.002667 512l-55.168-55.168a42.666667 42.666667 0 0 1 60.330666-60.330667L597.333333 451.669333zM874.581333 832H376.32c-47.402667 0-106.730667-25.941333-138.752-60.672l-163.178667-176.938667c-42.325333-45.866667-42.346667-118.869333 0-164.778666l163.2-176.938667C269.525333 218.026667 329.045333 192 376.32 192h498.24A106.666667 106.666667 0 0 1 981.333333 298.837333v426.325334A106.752 106.752 0 0 1 874.581333 832z m0-85.333333C886.4 746.666667 896 737.088 896 725.162667V298.837333c0-11.946667-9.514667-21.504-21.418667-21.504H376.32c-23.466667 0-60.224 16.064-76.010667 33.194667l-163.2 176.917333c-12.181333 13.226667-12.16 35.882667 0 49.109334l163.2 176.917333C316.16 730.666667 352.746667 746.666667 376.32 746.666667h498.24z"/>
+            </svg>
+          </span>
+        </button>
+      </div>
+      <a class="forgot" id="forgotBtn" href="#">Forgot passcode?</a>
+    </div>
+
+    <div class="screen" id="successScreen">
+      <div class="success-check">
+        <svg viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14 27l9 9 16-18" stroke="#4fffa0" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="success-title">Unlocked</div>
+      <div class="success-sub">Welcome back.<br/>You're all set.</div>
+    </div>
+
+    <div class="screen" id="forgotScreen">
+      <div class="screen-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#c9b8ff" stroke-width="1.6" stroke-linecap="round" xmlns="http://www.w3.org/2000/svg">
+          <rect x="3" y="11" width="18" height="11" rx="2"/>
+          <path d="M7 11V7a5 5 0 0110 0v4"/>
+          <circle cx="12" cy="16" r="1" fill="#c9b8ff" stroke="none"/>
+        </svg>
+      </div>
+      <div class="screen-title">Forgot your passcode?</div>
+      <div class="screen-sub">Choose a recovery method below.</div>
+      <div class="opt-list">
+        <div class="opt-row" id="goEmail">
+          <div class="opt-ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#c9b8ff" stroke-width="1.6" stroke-linecap="round" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="4" width="20" height="16" rx="3"/><path d="M2 8l10 6 10-6"/>
+            </svg>
+          </div>
+          <div class="opt-txt">
+            <span class="opt-lbl">Email reset link</span>
+            <span class="opt-dsc">Sent to your registered email address</span>
+          </div>
+        </div>
+        <div class="opt-row" id="go2FA" style="display: none;">
+          <div class="opt-ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#c9b8ff" stroke-width="1.6" stroke-linecap="round" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+          </div>
+          <div class="opt-txt">
+            <span class="opt-lbl">2FA verification</span>
+            <span class="opt-dsc">Enter the 6-digit code from your authenticator</span>
+          </div>
+        </div>
+        <div class="opt-row" id="goSupport">
+          <div class="opt-ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#c9b8ff" stroke-width="1.6" stroke-linecap="round" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+            </svg>
+          </div>
+          <div class="opt-txt">
+            <span class="opt-lbl">Contact support</span>
+            <span class="opt-dsc">Our team will verify and restore access</span>
+          </div>
+        </div>
+      </div>
+
+      <button class="back-btn" data-back="loginScreen" style="display: flex; align-items: center; justify-content: center; gap: 3px; color: var(--text-muted); font-size: 12.5px;">
+        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" width="14" height="14">
+          <defs>
+            <style>
+              .cls-1 {
+                fill: none;
+                stroke: var(--text-muted);
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                stroke-width: 2px;
+              }
+            </style>
+          </defs>
+          <line class="cls-1" x1="11" y1="16" x2="20" y2="7" />
+          <line class="cls-1" x1="20" y1="25" x2="11" y2="16" />
+        </svg>
+        Back to passcode entry
+      </button>
+    </div>
+
+    <div class="screen" id="emailScreen">
+      <div class="screen-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#c9b8ff" stroke-width="1.6" stroke-linecap="round" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="4" width="20" height="16" rx="3"/><path d="M2 8l10 6 10-6"/>
+        </svg>
+      </div>
+      <div class="screen-title">Email reset link</div>
+      <div class="screen-sub">Enter your email and we'll send you a link to reset your passcode.</div>
+
+      <div class="sent-badge" id="sentBadge">
+        <div class="sent-badge-dot"></div>
+        <div class="sent-badge-txt">Reset link sent — check your inbox</div>
+      </div>
+
+      <div class="input-group">
+        <label class="input-label" for="emailInput" style="font-size: 12px;">Email address</label>
+        <input class="text-input" id="emailInput" type="email" value="{{ user.email }}" readonly autocomplete="email"/>
+      </div>
+      <button class="primary-btn" id="sendEmailBtn">Send reset link</button>
+      <button class="back-btn" data-back="forgotScreen" style="display: flex; align-items: center; justify-content: center; gap: 3px; color: var(--text-muted); font-size: 12.5px;">
+        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" width="14" height="14">
+          <defs>
+            <style>
+              .cls-1 {
+                fill: none;
+                stroke: var(--text-muted);
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                stroke-width: 2px;
+              }
+            </style>
+          </defs>
+          <line class="cls-1" x1="11" y1="16" x2="20" y2="7" />
+          <line class="cls-1" x1="20" y1="25" x2="11" y2="16" />
+        </svg>
+        Back
+      </button>
+    </div>
+
+    <div class="screen" id="twoFAScreen">
+      <div class="screen-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#c9b8ff" stroke-width="1.6" stroke-linecap="round" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+        </svg>
+      </div>
+      <div class="screen-title">2FA verification</div>
+      <div class="screen-sub" id="twoFASubtitle">Enter the 6-digit code from your authenticator app.</div>
+
+      <div class="otp-row" id="otpRow">
+        <input class="otp-box" maxlength="1" inputmode="numeric" pattern="[0-9]" id="otp0"/>
+        <input class="otp-box" maxlength="1" inputmode="numeric" pattern="[0-9]" id="otp1"/>
+        <input class="otp-box" maxlength="1" inputmode="numeric" pattern="[0-9]" id="otp2"/>
+        <input class="otp-box" maxlength="1" inputmode="numeric" pattern="[0-9]" id="otp3"/>
+        <input class="otp-box" maxlength="1" inputmode="numeric" pattern="[0-9]" id="otp4"/>
+        <input class="otp-box" maxlength="1" inputmode="numeric" pattern="[0-9]" id="otp5"/>
+      </div>
+      <button class="primary-btn" id="verifyOtpBtn">Verify code</button>
+      <div class="resend-row">
+      </div>
+      <button class="back-btn" data-back="forgotScreen" style="display: flex; align-items: center; justify-content: center; gap: 3px; color: var(--text-muted); font-size: 12.5px;">
+        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" width="14" height="14">
+          <defs>
+            <style>
+              .cls-1 {
+                fill: none;
+                stroke: var(--text-muted);
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                stroke-width: 2px;
+              }
+            </style>
+          </defs>
+          <line class="cls-1" x1="11" y1="16" x2="20" y2="7" />
+          <line class="cls-1" x1="20" y1="25" x2="11" y2="16" />
+        </svg>
+        Back
+      </button>
+    </div>
+
+    <div class="screen" id="supportScreen">
+      <div class="screen-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#c9b8ff" stroke-width="1.6" stroke-linecap="round" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+        </svg>
+      </div>
+      <div class="screen-title">Contact support</div>
+      <div class="screen-sub">Reach us on any channel and we'll verify your identity and restore access.</div>
+      <div class="support-channels">
+
+        <a class="support-row" href="/gleyo/chat?ticket">
+          <div class="s-ico">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M14.0079 19.0029L14.0137 17C14.0137 16.4477 14.4625 16 15.0162 16C15.5698 16 16.0187 16.4477 16.0187 17V18.9765C16.0187 19.458 16.0187 19.6988 16.1731 19.8464C16.3275 19.9941 16.5637 19.984 17.0362 19.964C18.8991 19.8852 20.0437 19.6332 20.8504 18.8284C21.6591 18.0218 21.911 16.8766 21.9894 15.0105C22.005 14.6405 22.0128 14.4554 21.9437 14.332C21.8746 14.2085 21.5987 14.0545 21.0469 13.7463C20.4341 13.4041 20.0199 12.7503 20.0199 12C20.0199 11.2497 20.4341 10.5959 21.0469 10.2537C21.5987 9.94554 21.8746 9.79147 21.9437 9.66803C22.0128 9.54458 22.005 9.35954 21.9894 8.98947C21.911 7.12339 21.6591 5.97823 20.8504 5.17157C19.9727 4.29604 18.6952 4.0748 16.5278 4.0189C16.2482 4.01169 16.0187 4.23718 16.0187 4.51618V7C16.0187 7.55228 15.5698 8 15.0162 8C14.4625 8 14.0137 7.55228 14.0137 7L14.0064 4.49855C14.0056 4.22298 13.7814 4 13.5052 4H9.99502C6.21439 4 4.32407 4 3.14958 5.17157C2.34091 5.97823 2.08903 7.12339 2.01058 8.98947C1.99502 9.35954 1.98724 9.54458 2.05634 9.66802C2.12545 9.79147 2.40133 9.94554 2.95308 10.2537C3.56586 10.5959 3.98007 11.2497 3.98007 12C3.98007 12.7503 3.56586 13.4041 2.95308 13.7463C2.40133 14.0545 2.12545 14.2085 2.05634 14.332C1.98724 14.4554 1.99502 14.6405 2.01058 15.0105C2.08903 16.8766 2.34091 18.0218 3.14958 18.8284C4.32407 20 6.21438 20 9.99502 20H13.0054C13.4767 20 13.7124 20 13.8591 19.8541C14.0058 19.7081 14.0065 19.4731 14.0079 19.0029ZM16.0187 13V11C16.0187 10.4477 15.5698 10 15.0162 10C14.4625 10 14.0137 10.4477 14.0137 11V13C14.0137 13.5523 14.4625 14 15.0162 14C15.5698 14 16.0187 13.5523 16.0187 13Z"
+                fill="#c9b8ff"
+              />
+            </svg>
+          </div>
+          <div class="s-txt">
+            <span class="s-lbl">Open a support ticket</span>
+            <span class="s-dsc">Fastest way to recover your account</span>
+          </div>
+          <span class="s-arr">›</span>
+        </a>
+
+        <a class="support-row" href="#">
+          <div class="s-ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#c9b8ff" stroke-width="1.6" stroke-linecap="round" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="4" width="20" height="16" rx="3"/><path d="M2 8l10 6 10-6"/>
+            </svg>
+          </div>
+          <div class="s-txt">
+            <span class="s-lbl">Email us</span>
+            <span class="s-dsc">yournamet@gmail.com</span>
+          </div>
+          <span class="s-arr">›</span>
+        </a>
+      </div>
+      <button class="back-btn" data-back="forgotScreen" style="display: flex; align-items: center; justify-content: center; gap: 3px; color: var(--text-muted); font-size: 12.5px;">
+        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" width="14" height="14">
+          <defs>
+            <style>
+              .cls-1 {
+                fill: none;
+                stroke: var(--text-muted);
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                stroke-width: 2px;
+              }
+            </style>
+          </defs>
+          <line class="cls-1" x1="11" y1="16" x2="20" y2="7" />
+          <line class="cls-1" x1="20" y1="25" x2="11" y2="16" />
+        </svg>
+        Back
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bot Protection</title>
+  <meta name="csrf-token" content="{{ csrf_token() }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700&family=Lora:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='next.css') }}">
+</head>
+
+<body>
+
+<div class="royal-card-conatiner-init">
+
+  <h1 class="interger">Enable Bot Protection</h1>
+
+  <p class="subtext">
+    Decide how tight you want your bot defenses.
+    You can always update this later in Settings.
+  </p>
+
+  <div class="choice-wrapper">
+
+    <div class="choice-box" data-option="bot">
+      <h3>Top-Tier Security</h3>
+      <p>
+        Require users to connect a verified shielded ZEC wallet.
+        Strong protection backed by Zcash's native privacy guarantees.
+      </p>
+    </div>
+
+    <div class="choice-box" data-option="social">
+      <h3>Standard Protection</h3>
+      <p>
+        Require users to connect both Discord and Twitter accounts.
+        This can be turned off anytime in Settings.
+      </p>
+    </div>
+
+  </div>
+  
+  <div class="progress-lines">
+    <div class="line"></div>
+    <div class="line active"></div>
+    <div class="line"></div>
+  </div>
+
+    <input type="hidden" name="selected_option" id="selected_option">
+
+    <div class="button-row">
+      <a href="/{{ community_slug }}/setup1"
+        class="secondary-btn"
+        onclick="event.preventDefault(); navigateTo(this.href);">
+        Back
+      </a>
+
+      <button class="main-login-btn" onclick="submitNext()">
+        Next
+      </button>
+    </div>
+
+</div>
+
+
+<script>
+const csrfToken = document.querySelector('meta[name="csrf-token"]').getAttribute("content");
+
+document.addEventListener('DOMContentLoaded', () => {
+  const cards = document.querySelectorAll('.choice-box');
+  const hiddenInput = document.getElementById('selected_option');
+  const form = document.getElementById('nextForm');
+  let selectedOption = "{{ selected_option or '' }}";
+
+  if (selectedOption) {
+    const preCard = document.querySelector(`.choice-box[data-option="${selectedOption}"]`);
+    if (preCard) {
+      preCard.classList.add('active');
+      hiddenInput.value = selectedOption;
+    }
+  }
+
+  cards.forEach(card => {
+    card.addEventListener('click', () => {
+      cards.forEach(c => c.classList.remove('active'));
+      card.classList.add('active');
+      selectedOption = card.dataset.option;
+      hiddenInput.value = selectedOption;
+    });
+  });
+
+ 
+});
+
+
+async function submitNext() {
+  const selected = document.getElementById("selected_option").value;
+
+  const communitySlug = "{{ community_slug }}"
+  if (!selected) {
+    alert("Pick an option");
+    return;
+  }
+
+  const res = await fetch(`/api/${communitySlug}/next`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    credentials: "include",
+    body: JSON.stringify({
+      selected_option: selected
+    })
+  });
+
+  const data = await res.json();
+
+  if (!res.ok) {
+    console.log(data);
+    alert("Error");
+    return;
+  }
+
+  navigateTo(data.redirect);
+
+}
+</script>
+
+</body>
+</html>

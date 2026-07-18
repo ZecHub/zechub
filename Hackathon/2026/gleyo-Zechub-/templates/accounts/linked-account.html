@@ -1,0 +1,349 @@
+<style>
+@media (min-width: 768px) {
+
+.connections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 14px;
+    width: 100% !important;
+}
+
+  .connctico-card {
+    max-width: 520px;
+    min-width: 520px;
+    padding-top: 34px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    align-items: center;
+    gap: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .connctico-card {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 15px;
+    align-items: center;
+    gap: 14px;
+  }
+  
+.connections {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 13px;
+  padding-top: 34px;
+  gap: 24px;
+}
+}
+
+
+.connection-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg-surface);
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 21px;
+  padding: 18px 16px;
+}
+
+.connection-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.connection-left svg {
+  width: 36px;
+  height: 36px;
+}
+
+.connection-left h4 {
+  margin: 0;
+  font-size: 15px;
+  color: var(--text-main);
+}
+
+.connected-as {
+  margin: 2px 0 0;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.not-connected {
+  margin: 2px 0 0;
+  font-size: 13px;
+  color: var(--text-muted-bg);
+}
+
+.btn {
+  padding: 7px 14px;
+  border-radius: 11px;
+  border: 0.9px solid transparent;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.btn.connect {
+  background: var(--bg-active);
+  border-color: var(--bg-active-border);
+  color: var(--text-main);
+}
+
+.btn.disconnect {
+  background: transparent;
+  border-color: #ef4444af;
+  color: #ef4444;
+}
+
+.btn.disconnect:hover {
+  background: rgba(239, 68, 68, 0.1);
+}
+
+
+.connected-as {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 500;
+  position: relative;
+  color: #16a34a; 
+  background: rgba(22, 163, 74, 0.1);  
+  border: 1px solid rgba(22, 163, 74, 0.25);
+
+  border-radius: 999px;  
+}
+.connected-as {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  position: relative;
+}
+
+.status-dot {
+  width: 6px;
+  height: 6px;
+  background: #22c55e;
+  border-radius: 50%;
+  position: relative;
+}
+
+.status-dot::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: #22c55e;
+  opacity: 0.6;
+  animation: pulse-wave 1.8s ease-out infinite;
+}
+
+@keyframes pulse-wave {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  70% {
+    transform: scale(3);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+</style>
+
+
+
+
+
+
+<div class="connections">
+
+  <div class="connctico-card">
+    <!-- GITHUB -->
+    <div class="connection-card">
+      <div class="connection-left">
+        <svg xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            viewBox="0 0 24 24"
+            fill="var(--text-main)">
+          <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+        </svg>
+
+        <div>
+          <h4>GitHub</h4>
+
+          {% if github and github.action == "connected" %}
+            <p class="connected-as init-connected">
+              <span class="status-dot"></span>
+              @{{ github.github_username }}
+            </p>
+          {% else %}
+            <p class="not-connected">
+              Not connected
+            </p>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="connection-right">
+        <a href="{% if github and github.action == 'connected' %}
+                    {{ url_for('github_bp.github_disconnect') }}
+                  {% else %}
+                    {{ url_for('github_bp.github_login', next=url_for('account_settings_linked_accounts')) }}
+                  {% endif %}"
+          data-connect-url="{{ url_for('github_bp.github_login', next=url_for('account_settings_linked_accounts')) }}">
+
+          <button class="btn {% if github and github.action == 'connected' %}disconnect{% else %}connect{% endif %}">
+            {% if github and github.action == 'connected' %}
+              Disconnect
+            {% else %}
+              Connect
+            {% endif %}
+          </button>
+
+        </a>
+      </div>
+    </div>
+
+    <!-- DISCORD -->
+    <div class="connection-card">
+      <div class="connection-left">
+        <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"  width="36" height="36" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512"><path fill="#5865F2" d="M105 0h302c57.928.155 104.845 47.072 105 104.996V407c-.155 57.926-47.072 104.844-104.996 104.998L105 512C47.074 511.844.156 464.926.002 407.003L0 105C.156 47.072 47.074.155 104.997 0H105z"/><g data-name="å¾å± 2"><g data-name="Discord Logos"><path fill="#fff" fill-rule="nonzero" d="M368.896 153.381a269.506 269.506 0 00-67.118-20.637 186.88 186.88 0 00-8.57 17.475 250.337 250.337 0 00-37.247-2.8c-12.447 0-24.955.946-37.25 2.776-2.511-5.927-5.427-11.804-8.592-17.454a271.73 271.73 0 00-67.133 20.681c-42.479 62.841-53.991 124.112-48.235 184.513a270.622 270.622 0 0082.308 41.312c6.637-8.959 12.582-18.497 17.63-28.423a173.808 173.808 0 01-27.772-13.253c2.328-1.688 4.605-3.427 6.805-5.117 25.726 12.083 53.836 18.385 82.277 18.385 28.442 0 56.551-6.302 82.279-18.387 2.226 1.817 4.503 3.557 6.805 5.117a175.002 175.002 0 01-27.823 13.289 197.847 197.847 0 0017.631 28.4 269.513 269.513 0 0082.363-41.305l-.007.007c6.754-70.045-11.538-130.753-48.351-184.579zM201.968 300.789c-16.04 0-29.292-14.557-29.292-32.465s12.791-32.592 29.241-32.592 29.599 14.684 29.318 32.592c-.282 17.908-12.919 32.465-29.267 32.465zm108.062 0c-16.066 0-29.267-14.557-29.267-32.465s12.791-32.592 29.267-32.592c16.475 0 29.522 14.684 29.241 32.592-.281 17.908-12.894 32.465-29.241 32.465z" data-name="Discord Logo - Large - White"/></g></g></svg>
+
+        <div>
+          <h4>Discord</h4>
+          {% if discord and discord.action == "connected" %}
+            <p class="connected-as init-connected">
+              <span class="status-dot"></span>
+              {{ discord.discord_username }}
+            </p>
+          {% else %}
+            <p class="not-connected">Not connected</p>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="connection-right">
+        {% if discord and discord.action == "connected" %}
+          <a href="{{ url_for('discord.discord_disconnect') }}" data-connect-url="{{ url_for('discord.discord_connect', next=url_for('account_settings_linked_accounts')) }}">
+            <button class="btn disconnect">Disconnect</button>
+          </a>
+        {% else %}
+          <a href="{{ url_for('discord.discord_connect', next=url_for('account_settings_linked_accounts')) }}">
+            <button class="btn connect">Connect</button>
+          </a>
+        {% endif %}
+      </div>
+    </div>
+
+    <!-- TWITTER -->
+    <div class="connection-card">
+      <div class="connection-left">
+        <svg xmlns="http://www.w3.org/2000/svg"  width="36" height="36" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512"><path d="M256 0c141.385 0 256 114.615 256 256S397.385 512 256 512 0 397.385 0 256 114.615 0 256 0z"/><path fill="#fff" fill-rule="nonzero" d="M318.64 157.549h33.401l-72.973 83.407 85.85 113.495h-67.222l-52.647-68.836-60.242 68.836h-33.423l78.052-89.212-82.354-107.69h68.924l47.59 62.917 55.044-62.917zm-11.724 176.908h18.51L205.95 176.493h-19.86l120.826 157.964z"/></svg>
+        <div>
+          <h4>Twitter (X)</h4>
+          {% if twitter and twitter.action == "connected" %}
+            <p class="connected-as init-connected">
+              <span class="status-dot"></span>
+              @{{ twitter.xusername }}
+            </p>
+          {% else %}
+            <p class="not-connected">Not connected</p>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="connection-right">
+        <a href="{% if twitter and twitter.action == 'connected' %}
+                    {{ url_for('twitter.twitter_disconnect') }} 
+                  {% else %}
+                    {{ url_for('twitter.twitter_login', next=url_for('account_settings_linked_accounts')) }}
+                  {% endif %}" data-connect-url="{{ url_for('twitter.twitter_login', next=url_for('account_settings_linked_accounts')) }}">
+          <button class="btn {% if twitter and twitter.action == 'connected' %}disconnect{% else %}connect{% endif %}">
+            {% if twitter and twitter.action == 'connected' %}Disconnect{% else %}Connect{% endif %}
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <!-- YOUTUBE -->
+    <div class="connection-card">
+      <div class="connection-left">
+        <svg fill="none"  width="36" height="36" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+          <circle cx="10" cy="10" r="9.5" fill="#FFFFFF" />
+          <path fill="#FF0000" d="M11.603 9.833L9.357 8.785C9.161 8.694 9 8.796 9 9.013v1.974c0 .217.161.319.357.228l2.245-1.048c.197-.092.197-.242.001-.334zM10 .4C4.698.4.4 4.698.4 10s4.298 9.6 9.6 9.6 9.6-4.298 9.6-9.6S15.302.4 10 .4zm0 13.5c-4.914 0-5-.443-5-3.9s.086-3.9 5-3.9 5 .443 5 3.9-.086 3.9-5 3.9z"></path>
+        </svg>
+
+        <div>
+          <h4>YouTube</h4>
+          {% if youtube and youtube.action == "connected" %}
+            <p class="connected-as init-connected">
+              <span class="status-dot"></span>
+              {{ youtube.youtube_handle }}
+            </p>
+          {% else %}
+            <p class="not-connected">Not connected</p>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="connection-right">
+        <a href="{% if youtube and youtube.action == 'connected' %}
+                    {{ url_for('youtube_bp.youtube_disconnect') }} 
+                  {% else %}
+                    {{ url_for('youtube_bp.youtube_login', next=url_for('account_settings_linked_accounts')) }}
+                  {% endif %}"  data-connect-url="{{ url_for('youtube_bp.youtube_login', next=url_for('account_settings_linked_accounts')) }}">
+          <button class="btn {% if youtube and youtube.action == 'connected' %}disconnect{% else %}connect{% endif %}">
+            {% if youtube and youtube.action == 'connected' %}Disconnect{% else %}Connect{% endif %}
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <!-- TIKTOK -->
+    <div class="connection-card">
+      <div class="connection-left">
+      <svg xmlns="http://www.w3.org/2000/svg"  width="36" height="36" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512"><path d="M256 0c141.385 0 256 114.615 256 256S397.385 512 256 512 0 397.385 0 256 114.615 0 256 0z"/><path fill="#2DCCD3" fill-rule="nonzero" d="M344.487 161.312c11.585 11.945 26.033 19.226 40.593 22.539v-8.971c-13.681-.969-27.993-5.274-40.593-13.568zm-83.689-59.166v200.601c0 26.281-18.888 43.185-41.855 43.185-7.619 0-14.854-1.781-21.142-5.071 7.979 10.188 20.578 16.048 34.395 16.048 22.968 0 41.855-16.905 41.855-43.208V113.1h36.401a100.278 100.278 0 01-2.434-10.954h-47.22zm-29.864 116.618v-9.939c-4.599-.766-9.196-1.015-13.006-1.015-51.818 0-95.206 41.586-95.206 93.155 0 33.855 16.476 62.795 41.517 79.926-17.445-17.31-28.264-41.54-28.264-68.971 0-51.48 43.253-93.043 94.959-93.156z"/><path fill="#F1204A" fill-rule="nonzero" d="M313.36 299.433c0 64.057-49.001 98.002-95.184 98.002-19.992 0-38.564-6.041-53.937-16.545 17.266 17.131 41.022 27.499 67.19 27.499 46.184 0 95.184-33.945 95.184-98.002v-104.38c-4.597-3.11-9.015-6.739-13.253-10.976v104.402zM197.801 340.86c-5.635-7.122-8.994-16.341-8.994-27.159 0-30.361 23.734-46.409 55.38-43.073v-50.849c-4.598-.766-9.196-1.014-13.028-1.014h-.226v40.886c-31.644-3.313-55.379 12.712-55.379 43.096 0 17.761 9.084 31.239 22.247 38.113zM385.08 183.851v37.979c-21.029 0-40.931-4.012-58.467-15.823 20.421 20.421 45.192 26.8 71.721 26.8v-46.972a82.367 82.367 0 01-13.254-1.984zm-40.593-22.54c-11.202-11.517-19.745-27.385-23.215-48.211h-10.819c6.176 22.517 18.888 38.227 34.034 48.211z"/><path fill="#fff" fill-rule="nonzero" d="M218.176 397.435c46.183 0 95.184-33.944 95.184-98.002V195.031c4.238 4.237 8.655 7.866 13.253 10.976 17.536 11.811 37.438 15.823 58.468 15.823v-37.979c-14.561-3.313-29.009-10.593-40.594-22.54-15.146-9.984-27.859-25.694-34.034-48.211h-36.402v200.601c0 26.303-18.888 43.208-41.856 43.208-13.816 0-26.415-5.86-34.394-16.048-13.163-6.875-22.247-20.353-22.247-38.114 0-30.384 23.734-46.409 55.379-43.096v-40.887c-51.705.113-94.958 41.676-94.958 93.156 0 27.431 10.819 51.661 28.264 68.971 15.372 10.503 33.945 16.544 53.937 16.544z"/></svg>
+
+        <div>
+          <h4>TikTok</h4>
+          {% if tiktok and tiktok.action == "connected" %}
+            <p class="connected-as init-connected">
+              <span class="status-dot"></span>
+              @{{ tiktok.nickname }}
+            </p>
+          {% else %}
+            <p class="not-connected">Not connected</p>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="connection-right">
+        <a href="{% if tiktok and tiktok.action == 'connected' %}
+                    {{ url_for('tiktok_bp.tiktok_disconnect') }}
+                  {% else %}
+                    {{ url_for('tiktok_bp.tiktok_login', next=url_for('account_settings_linked_accounts')) }}
+                  {% endif %}" data-connect-url="{{ url_for('tiktok_bp.tiktok_login', next=url_for('account_settings_linked_accounts')) }}">
+          <button class="btn {% if tiktok and tiktok.action == 'connected' %}disconnect{% else %}connect{% endif %}">
+            {% if tiktok and tiktok.action == 'connected' %}Disconnect{% else %}Connect{% endif %}
+          </button>
+        </a>
+      </div>
+
+
+    </div>
+
+  </div>
+
+</div>

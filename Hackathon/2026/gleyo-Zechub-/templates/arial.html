@@ -1,0 +1,5101 @@
+<title>{{ subquest.name }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.4/dist/confetti.browser.min.js"  defer></script>
+
+<style>
+
+.zec-inline-reward {
+  position: absolute;
+  left: 0;
+  z-index: 99;
+  padding: 12px 14px;
+  background: var(--bg-sidebar);
+  border: 1px solid var(--border2);
+  border-radius: 14px;
+  box-shadow: 0 8px 32px rgba(0,0,0,.45);
+}
+
+
+.zec-inline-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.zec-inline-lbl {
+  font-size: .72rem;
+  font-weight: 600;
+  color: var(--sub);
+}
+.zec-platform-bal {
+  font-size: .66rem;
+  color: var(--sub2);
+}
+.zec-amt-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+.zec-input-wrap {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  border-radius: 10px;
+  overflow: hidden;
+  min-height: 40px;
+}
+.zec-badge {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0 10px;
+  background: rgba(244,183,40,.1);
+  border-right: 1px solid rgba(244,183,40,.2);
+  font-size: .7rem;
+  font-weight: 700;
+  color: #F4B728;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.zec-input-wrap input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  padding: 10px 12px;
+  font-size: .88rem;
+  color: var(--txt);
+  font-family: var(--ff);
+  outline: none;
+  min-width: 0;
+}
+.zec-usd-equiv {
+  font-size: .7rem;
+  color: var(--sub);
+  white-space: nowrap;
+  flex-shrink: 0;
+  align-self: center;
+}
+.zec-bal-feedback {
+  font-size: .68rem;
+  margin-top: 6px;
+  padding: 5px 8px;
+  border-radius: 7px;
+  width: fit-content;
+}
+.zec-bal-ok {
+  color: var(--green);
+  background: rgba(18,216,122,.08);
+}
+.zec-bal-err {
+  color: var(--red);
+  background: rgba(240,80,112,.08);
+}
+
+
+
+.gh-tooltip-wrap {
+  position: relative;
+  display: inline-flex;
+}
+.gh-tooltip-box {
+  display: none;
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--bg-surface);
+  border: 0.8px solid var(--border);
+  color: var(--text-muted);
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 9px 13px;
+  border-radius: 8px;
+  max-width: 250px;
+  min-width: 250px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  z-index: 99;
+  pointer-events: none;
+}
+.gh-tooltip-wrap:hover .gh-tooltip-box {
+  display: block;
+  content: attr(data-tip);
+}
+
+
+.github .switch input{
+  display:none;
+}
+
+.github .switch .slider{
+  position:relative;
+  display:block;
+  width:42px;
+  height:24px;
+  background:var(--bg-sidebar-inactive);
+  border-radius:999px;
+
+
+
+  transition:.2s ease;
+  cursor:pointer;
+}
+
+.github .switch .slider:before{
+  content:"";
+  position:absolute;
+  width:18px;
+  height:18px;
+  left:3px;
+  top:3px;
+  border-radius:50%;
+  background:var(--text-main);
+  transition:.2s ease;
+}
+
+.github .switch input:checked + .slider{
+  background:#4285f4;
+}
+
+.github .switch input:checked + .slider:before{
+  transform:translateX(18px);
+  background:#fff;
+  outline:1px solid #fff;;
+  outline-offset:2px;
+}
+
+
+
+.github .switch input{
+  position:absolute !important;
+  opacity:0 !important;
+  width:0 !important;
+  height:0 !important;
+  pointer-events:none !important;
+}
+
+
+.github-initer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.github-initer.first {
+  margin-bottom: 20px;
+}
+
+
+.next-quest-btn {
+  display: none !important;
+}
+
+.icon.spoitfy {
+  background-color: #1DB954;
+}
+
+
+.closer-all-ppp-qq-init {
+  height: calc(76dvh - 60px);           
+  display: flex;
+  flex-direction: column;
+}
+
+.quest-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.render-content-init-q {
+  flex: 1;                    
+  display: flex;
+  flex-direction: column;
+}
+
+
+.con-svg-mega {
+  width: 13px !important;
+  height: 13px !important;
+}
+
+
+
+
+
+.xp-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.modal, .role-modal-box, .xp-modal-box  {
+  width: 230px;
+}
+
+.xp-modal-box {
+  background: var(--bg-surface);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  border: 1px solid var(--border);
+  overflow-y: auto;
+  max-height: 80dvh; 
+}
+
+.xp-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+}
+.xp-modal-header h2 {
+  font-size: 15px;
+  font-weight: bold;
+  white-space: nowrap;
+  color: var(--text-main);
+  margin: 0;
+}
+
+
+
+
+.xp-modal-bg {
+  width: 100%;
+  height: 200px;
+  background: conic-gradient(
+    from 180deg,
+    #4285f4,
+    #5c6ffb,
+    #7e57c2,
+    #a853f3,
+    #4285f4
+  );
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  padding: 15px;
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* XP big text */
+.xp-big-text {
+  position: absolute;
+  top: 19%;
+  left: 51%;
+  transform: translate(-50%, -50%) skewX(-10deg);
+  font-size: 15vh; 
+  font-family: 'Outfit', sans-serif !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;    
+  -ms-user-select: none !important;     
+  user-select: none !important;
+  -webkit-touch-callout: none !important; 
+  font-weight: 1000;
+  background: linear-gradient(90deg, #fff, #ddd, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+  text-shadow: 
+    4px 4px 0 #9d38c1,
+    -4px -4px 0 #f7c3f1,
+    0 0 6px rgba(255,255,255,0.8);
+}
+
+.xp-modal-content {
+  padding: 12px 14px 16px;
+}
+
+
+
+
+
+.xp-reward-method img {
+  width: 14px;
+  height: 14px;
+}
+
+.xp-sparkle {
+  position: absolute;
+  width: 1vh;
+  height: 1vh;
+  background: white;
+  clip-path: polygon(50% 0%, 60% 40%, 100% 50%, 60% 60%, 50% 100%, 40% 60%, 0% 50%, 40% 40%);
+  box-shadow: 0 0 8px white, 0 0 14px pink;
+  animation: xp-twinkle 1.5s infinite alternate;
+}
+.xp-sparkle.one { top: 32%; left: 25%; }
+.xp-sparkle.two { top: 50%; left: 65%; animation-delay: 0.6s; }
+.xp-sparkle.three { top: 37%; left: 75%; animation-delay: 1.2s; }
+
+@keyframes xp-twinkle {
+  from { opacity: 0.2; transform: scale(0.7) rotate(0deg); }
+  to   { opacity: 1; transform: scale(1.2) rotate(180deg); }
+}
+
+.xp-image-wrapper {
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+    /* Prevent selection on XP text */
+.xp-big-text::selection {
+  background: transparent;
+  color: inherit;
+  user-select: none !important;
+  font-family: 'Outfit', sans-serif !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;    
+  -ms-user-select: none !important;     
+  user-select: none !important;
+
+  -webkit-touch-callout: none !important; 
+}
+
+.role-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center; height: auto;
+  align-items: center;
+  z-index: 1000;
+}
+
+.role-modal-box {
+  background: var(--bg-surface);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  border: 1px solid var(--border);
+  overflow-y: auto;
+  max-height: 80dvh; 
+  
+}
+
+
+
+
+
+ 
+
+.xp-reward-method, .role-reward-method {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 14px;
+  background: var(--border);
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+  
+
+
+/* Header */
+.role-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+}
+.role-modal-header h2 {
+  font-size: 15px;
+  font-weight: bold;
+  white-space: nowrap;
+  color: var(--text-main);
+  margin: 0;
+}
+
+
+/* Background Image container */
+.role-modal-bg {
+  width: 100%;
+  height: 30.5vh;
+  background: conic-gradient(
+    from 180deg,
+    #4285f4,
+    #5c6ffb,
+    #7e57c2,
+    #a853f3,
+    #4285f4
+  );
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  padding: 15px;
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* Content inside modal */
+.role-modal-content {
+  padding: 12px 14px 16px;
+}
+.xp-reward-method-label,
+.role-reward-method-label,
+.reward-method-label{
+  font-weight: 550;
+  font-size: 13px;
+  margin-bottom: 5px;
+  color: var(--text-muted) !important;
+  opacity: 1;
+  white-space: nowrap;
+}
+.role-sparkle {
+  position: absolute;
+  width: 1vh;
+  height: 1vh;
+  background: white;
+  clip-path: polygon(50% 0%, 60% 40%, 100% 50%, 60% 60%, 50% 100%, 40% 60%, 0% 50%, 40% 40%);
+  box-shadow: 0 0 8px white, 0 0 14px pink;
+  animation: role-twinkle 1.5s infinite alternate;
+  z-index: 10;
+}
+.role-sparkle.one { top: 32%; left: 25%; }
+.role-sparkle.two { top: 50%; left: 65%; animation-delay: 0.6s; }
+.role-sparkle.three { top: 37%; left: 75%; animation-delay: 1.2s; }
+
+@keyframes role-twinkle {
+  from { opacity: 0.2; transform: scale(0.7) rotate(0deg); }
+  to   { opacity: 1; transform: scale(1.2) rotate(180deg); }
+}
+
+
+
+
+
+.role-modal-header h2 {
+  font-size: 15px;
+  font-weight: bold;
+  white-space: nowrap;
+  color: var(--text-main);
+  margin: 0;
+}
+.role-modal-close {
+  cursor: pointer;
+  font-size: 18px;
+  color: #ccc;
+  transition: color 0.2s;
+}
+.role-modal-close:hover {
+  color: #e7e2e2;
+}
+
+/* Background Image container */
+.role-modal-bg {
+  width: 100%;
+  height: 30.5vh;
+  background: conic-gradient(
+    from 180deg,
+    #4285f4,
+    #5c6ffb,
+    #7e57c2,
+    #a853f3,
+    #4285f4
+  );
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  padding: 15px;
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Reward image */
+.role-image-wrapper img {
+  width: 60%;       
+  height: 60%;      
+  object-fit: contain; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;       
+  pointer-events: none;
+    user-select: none !important;
+  font-family: 'Outfit', sans-serif !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;    
+  -ms-user-select: none !important;     
+  user-select: none !important;
+
+  -webkit-touch-callout: none !important; 
+}
+
+.role-image-wrapper {
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px;
+}
+/* Content inside modal */
+.role-modal-content {
+  padding: 12px 14px 16px;
+}
+
+
+
+.role-sparkle {
+  position: absolute;
+  width: 1vh;
+  height: 1vh;
+  background: white;
+  clip-path: polygon(50% 0%, 60% 40%, 100% 50%, 60% 60%, 50% 100%, 40% 60%, 0% 50%, 40% 40%);
+  box-shadow: 0 0 8px white, 0 0 14px pink;
+  animation: role-twinkle 1.5s infinite alternate;
+  z-index: 10;
+}
+.role-sparkle.one { top: 32%; left: 25%; }
+.role-sparkle.two { top: 50%; left: 65%; animation-delay: 0.6s; }
+.role-sparkle.three { top: 37%; left: 75%; animation-delay: 1.2s; }
+
+@keyframes role-twinkle {
+  from { opacity: 0.2; transform: scale(0.7) rotate(0deg); }
+  to   { opacity: 1; transform: scale(1.2) rotate(180deg); }
+}
+
+
+
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal box */
+.modal {
+  background: var(--bg-surface);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  border: 1px solid var(--border);
+  overflow-y: auto;
+  max-height: 80dvh; 
+}
+
+
+
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+}
+.modal-header h2 {
+  font-size: 15px;
+  font-weight: bold;
+  white-space: nowrap;
+  color: var(--text-main);
+  margin: 0;
+}
+
+.modal-close {
+  cursor: pointer;
+  color: var(--text-main);
+  transition: background 0.2s ease, color 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.modal-close-icon {
+  width: 14px;
+  height: 14px;
+  transition: transform 0.2s ease;  
+}
+
+.modal-close:hover {
+  color: #fff;
+  background: #1e1e2f;
+}
+
+.modal-close:hover .modal-close-icon {
+  transform: scale(16/14);  
+}
+
+
+.span-gap {
+  display: flex;
+  flex-wrap: wrap; 
+  flex-direction: row;  
+  color: var(--text-main);      
+
+  align-items: center;
+  gap: 16px;           
+}
+
+.span-gap span {
+  display: flex;
+  align-items: center;  
+  gap: 6px;
+  font-size: 0.8rem;
+}
+
+.span-gap svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+
+
+.rewards-list {
+  display: flex;
+  flex-wrap: nowrap;              
+  gap: 10px;
+  margin-top: 10px;
+  overflow-x: auto;               
+  overflow-y: hidden;         
+  padding: 4px 13px;    
+  -webkit-overflow-scrolling: touch;  
+  scroll-behavior: smooth;    
+  padding-bottom: 10px !important;             
+}
+
+.rewards-list::-webkit-scrollbar {
+  height: 6px;
+}
+
+.rewards-list::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.3);
+  border-radius: 4px;
+}
+
+
+
+
+
+.card-custom {
+  background-image: url("https://xpcqiovfesvllsljxhac.supabase.co/storage/v1/object/public/uploads/treasure_chest.png");
+  background-size: cover;       
+  background-position: center; 
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding: 15px;
+  position: relative;   
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.card-token {
+  background-image: url("https://xpcqiovfesvllsljxhac.supabase.co/storage/v1/object/public/uploads/zcashreward.png");
+  background-size: cover;      
+  background-position: center; 
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding: 15px;
+  position: relative;   
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-role {
+  background: conic-gradient(
+  from 180deg,
+  #4285f4,   /* Google blue */
+  #5c6ffb,   /* Indigo */
+  #7e57c2,   /* Deep purple */
+  #a853f3,   /* Bright purple */
+  #4285f4    /* Loop back to blue */
+  );
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  padding: 15px;
+  position: relative;   /* needed so child can position inside */
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-role img{
+  width: 60%;       
+  height: 64%;      
+  object-fit: contain; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;       
+  pointer-events: none; /* disables dragging, clicking, selecting */
+  user-select: none !important;
+  font-family: 'Outfit', sans-serif !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;    
+  -ms-user-select: none !important;     
+  user-select: none !important;
+
+  -webkit-touch-callout: none !important; 
+}
+
+.card-xp {
+  background: conic-gradient(
+      from 180deg,
+      #4285f4,
+      #5c6ffb,
+      #7e57c2,
+      #a853f3,
+      #4285f4
+  );
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  border-radius: 13px;
+  padding: 15px;
+  position: relative;    
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.card {
+  flex: 0 0 auto;  
+  width: 120px;
+  background: var(--bg-surface) !important; 
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 0.9px solid var(--border);
+  align-items: center;
+  height: 160px;
+  overflow: hidden;
+  color: var(--text-main);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+  padding: 10px;
+  box-sizing: border-box;
+}
+ 
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-weight: bolder;
+  font-size: 14px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+
+.setup-complete {
+  position: relative;
+  top: 2.1px;
+}
+.card-header img {
+  width: 18px;
+  height: 18px;
+}
+
+
+
+.xp-value {
+  position: absolute;
+  bottom: 0;               
+  left: 50%;
+  transform: translateX(-50%); 
+
+  max-width: 90%;
+  padding: 2px 8px;
+  background: #3c237b;
+  color: var(--text-main);
+
+  font-weight: bold;
+  font-size: 12px !important;
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  /* 🔥 ellipsis fix */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+  /* 🔥 center text properly */
+  display: block;
+  text-align: center;
+
+  z-index: 5;
+  box-sizing: border-box;
+}
+
+
+
+.xp-com {
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;    
+  -ms-user-select: none !important;     
+  user-select: none !important;
+  position: relative;
+  top: -2px;
+  -webkit-touch-callout: none !important; 
+  font-size: 32px !important;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(90deg, #fff, #ddd, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+  text-shadow: 
+    1px 1px 0 #9d38c1,
+    -1.2px -1.3px 0 #f7c3f1,
+    0 0 8px rgba(255,255,255,0.8);
+}
+ 
+
+.quest-content h1{
+  font-size: 18px;
+  color: var(--text-main);      
+  margin: 0;
+}
+.quest-sdesc{
+  font-size: 15px;
+  color: var(--text-muted);
+  letter-spacing: 0.4px;
+  margin-top: 30px;
+  line-height: 1.8;
+
+}
+
+.quest-link-init{
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  color: #4285f4;
+  text-decoration: none;               
+}
+
+.quest-link-init:hover{
+  text-decoration: underline;         
+  text-decoration-color: currentColor;
+  text-underline-offset: 3px;         
+  text-decoration-thickness: 1.5px;    
+}
+
+
+
+
+
+
+
+.condition-item.delete-condition{
+  color: var(--text-main) !important;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  width: 100%;
+  min-width: 40px !important;
+}
+
+
+.condition-item.delete-condition:hover{
+  color: #fff !important;
+}
+
+
+.reward-item.delete-reward {
+  color: #9e9eac !important;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.reward-item.delete-reward:hover {
+  color: #fff !important;
+}
+
+
+
+
+
+input{
+  -webkit-appearance: none;
+  margin: 0;
+  -moz-appearance: textfield;
+
+}
+
+
+.add-task-btn.disabled-task-btn {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+
+  *{
+  font-family: 'Outfit', sans-serif !important;
+}
+
+
+ 
+
+.header-actions .publish-btn.disabled {
+  color: #888;
+  background-color: #35354f  !important;
+  border: 1px solid #3b3b57  !important;
+  cursor: not-allowed !important;
+  opacity: 0.7;
+}
+.publish-btn {
+  color: var(--text-main);
+  cursor: pointer;
+  opacity: 1;
+}
+.toggle-row{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-size:0.85rem;
+  user-select:none;
+}
+
+.toggle-label{
+  margin-right:auto;
+}
+
+.toggle-switch{
+  width:44px;
+  height:24px;
+  border-radius:20px;
+  background:#2a2a3a;
+  position:relative;
+  cursor:pointer;
+  transition:background 0.25s ease;
+  border:1px solid var(--border);
+}
+
+.toggle-knob{
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#fff;
+  position:absolute;
+  top:2px;
+  left:2px;
+  transition:transform 0.25s cubic-bezier(.2,.8,.2,1);
+  box-shadow:0 2px 6px rgba(0,0,0,0.4);
+}
+
+/* ON state */
+.toggle-switch.on{
+  background:#4285f4;
+  box-shadow:0 0 0 1px rgba(66,133,244,0.4);
+}
+
+.toggle-switch.on .toggle-knob{
+  transform:translateX(20px);
+}
+
+.panel-select-init  {
+position: fixed !important;
+}
+
+.panel-select-init  .quest-panel{
+  background-color: var(--bg-surface-dropdown) !important;
+}
+
+.quest-select, .panel-select-init {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  width: 280px;
+  z-index: 19999;
+  font-family: "Inter", sans-serif;
+  color: #e9e9ee;
+}
+
+.quest-select.active, .panel-select-init {
+  display: block;
+}
+
+.quest-panel, .role-panel {
+  background: rgba(34, 34, 54, 0.448);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 12px 30px rgba(0,0,0,.35);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+  margin: 5px;
+}
+
+/* Search input */
+.quest-select .search-box, .panel-select-init .search-box {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  padding: 10px 12px;
+  background: transparent !important;
+}
+
+.quest-select .search-box svg, .panel-select-init .search-box svg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  color: #a7a7b1;
+}
+
+.quest-select .search-box input, .panel-select-init .search-box input {
+  flex: 1;
+  background: transparent;
+  border: none !important;
+  outline: none;
+  font: 500 14px "Inter", sans-serif;
+  color: #e9e9ee;
+}
+.quest-select .search-box input::placeholder, .panel-select-init .search-box input::placeholder { 
+  color: #777b85; 
+}
+
+/* Divider */
+.quest-divider, .role-divider {
+  height: 1px;
+  background: var(--border);
+  margin: 1px 0;
+}
+
+.quest-list {
+  list-style: none;
+  margin: 0;
+  padding: 6px;
+  max-height: calc(8 * 2.2em);  
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: grey transparent;
+}
+
+/* WebKit Scrollbar */
+.quest-list::-webkit-scrollbar {
+  width: 10px;
+}
+.quest-list::-webkit-scrollbar-track {
+  background: #1e1e2f;
+  border-radius: 6px;
+}
+.quest-list::-webkit-scrollbar-thumb {
+  background-color: #3498db;
+  border-radius: 6px;
+  border: 2px solid #1e1e2f;
+}
+.quest-list::-webkit-scrollbar-thumb:hover {
+  background-color: #2980b9;
+}
+
+/* Quest Item */
+.quest-item, .role-item {
+  padding: 10px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.15s;
+}
+.quest-item:hover, .role-item:hover {
+  background: var(--bg-hover-hover);
+
+}
+.quest-item.disabled{
+  text-align: center;
+  color: #999;
+  font-style: italic;
+  pointer-events: none;
+}
+
+/* Subquest List */
+.subquest-list {
+  list-style: none;
+  margin: 5px 0 0 10px;
+  padding: 0;
+}
+.subquest-item {
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background 0.15s;
+}
+.subquest-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+}
+
+.subquest-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1; /* text takes all free space */
+}
+
+.checkmark {
+  flex-shrink: 0; /* prevents shrinking */
+  margin-left: 6px;
+  color: var(--active-ness)
+}
+
+.checkmark svg{
+  width: 14px;
+  height: 14px
+}
+
+.checkmark {
+  flex-shrink: 0; 
+  margin-left: 6px;
+}
+
+.quest-item i,
+.subquest-item i {
+  flex-shrink: 0; /* ✅ keeps checkmark visible */
+}
+
+.subquest-item:hover {
+  background: var(--bg-hover);
+}
+.subquest-item.disabled, .role-item.disabled  {
+  color: var(--text-muted);
+  font-style: italic;
+  opacity: 0.95;
+  font-size: 14px !important;
+  pointer-events: none;
+}
+
+
+.conshift i {
+  font-size: 14px !important;
+}
+
+
+ 
+.conditionDisplay {
+  display: inline-flex;
+  align-items: center;
+
+  max-width: 250px;          /* ⬅️ cap just this block */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@media(min-width: 768px) {
+  .quest-left, .side-panel{
+  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: width;
+}
+}
+
+
+
+
+
+
+
+.reward-space-conatiner{
+display: inline-flex !important; 
+ gap: 50px;
+}
+
+
+
+.clear-all-btn {
+  display: none;             
+  justify-content: flex-start;
+  align-items: flex-start;              
+  background-color: transparent;
+  border: none;
+  color: var(--text-muted) !important;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold !important;
+  gap: 5px;                        
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin-left: 20px;
+  width: auto !important;
+  transition: color 0.2s ease;
+}
+
+.clear-all-btn:hover {
+  background: var(--bg-hover-hover);
+  color: var(--text-main) !important;
+}
+
+
+.clear-all-btn:hover svg {
+  color: var(--text-main) !important;
+}
+
+
+.identifyerrole {
+  max-width: 76px;         
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+}
+.tokencontain {
+  display: none;  
+  position: absolute;  
+  background-color: #1e1e2f;
+  border-radius: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  max-width: 76%;
+
+  border: 1px solid #2c2e35;
+  z-index: 9999;
+}
+
+.token-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 2px;
+  object-fit: contain;
+
+  image-rendering: crisp-edges;     
+  image-rendering: pixelated;      
+  -ms-interpolation-mode: nearest-neighbor; 
+}
+
+.amount-text {
+  max-width: 50px;          
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.token-symbol {
+  white-space: nowrap;      
+}
+
+.tokensel {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  box-sizing: border-box;
+
+  margin-top: 14px;
+}
+
+.dropdown-input {
+  position: relative;   
+  width: 100%;
+}
+
+.dropdown-input input {
+  padding: 10px;
+  border: 1px solid #444;
+  box-sizing: border-box;
+  border-radius: 15px;
+
+
+  background: #2e2e42;
+  color: var(--text-main);
+  cursor: pointer;
+}
+
+
+.dropdown-panel {
+  display: none;
+  background: #2e2e42;
+  border: 1px solid #444;
+  border-radius: 6px;
+  padding: 8px;
+  position: absolute;    
+  left: 0;
+  right: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 100;
+}
+
+.dropdown-panel.active {
+  display: block;
+}
+
+/* smart positioning */
+.dropdown-panel.down {
+  top: 100%;
+  margin-top: 5px;
+}
+.dropdown-panel.up {
+  bottom: 100%;
+  margin-bottom: 5px;
+}
+
+.token-box {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* space between svg and input */
+  margin-bottom: 5px;
+}
+
+.token-box svg {
+  flex-shrink: 0;      /* keep icon size fixed */
+  width: 16px;
+  height: 16px;
+  stroke: #aaa;         /* icon color */
+}
+
+.token-box input {
+  flex: 1;              /* take remaining space */
+  padding: 4px 6px;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 4px;
+  outline: none;
+  background: #2e2e42;
+  color: var(--text-main);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  padding: 6px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+ul li:hover {
+  background: #444;
+}
+
+
+#tokennumber{
+  border: 1px solid var(--border);
+  width: 100%;
+  padding: 10px;
+  color: var(--text-main);
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+#tokennumber::-webkit-outer-spin-button,
+#tokennumber::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.number-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.number-wrapper .spin-buttons {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+
+}
+
+.number-wrapper .spin-buttons div {
+  flex: 1;
+  width: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none !important;
+  font-family: 'Outfit', sans-serif !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;    
+  -ms-user-select: none !important;     
+  user-select: none !important;
+
+  -webkit-touch-callout: none !important; 
+  font-size: 12px;
+  background-color: #2e2e42;
+  color: #4a90e2;
+  border-radius: 3px;
+  margin: 1px 0;
+  transition: 0.2s;
+}
+
+.number-wrapper .spin-buttons div:hover {
+  background-color: #357abd;
+  color: var(--text-main);
+}
+
+#networkPanel {
+  scrollbar-width: thin;
+  scrollbar-color: grey transparent;
+}
+
+#networkPanel::-webkit-scrollbar {
+  width: 8px;
+}
+
+#networkPanel::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#networkPanel::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 4px;
+  border: 2px solid transparent; 
+}
+
+#networkPanel::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
+.custombody {
+  position: absolute;       
+  width: max-content;
+  min-width: 15%;
+  background-color: #1e1e2f;
+  z-index: 99999;
+  border: 0.9px solid var(--border);
+  padding: 20px;
+  border-radius: 16px;
+  display: none;             
+}
+
+.customtext {
+  resize: none;
+  background-color: #1e1e2f;
+  border: 1px solid var(--border);
+  outline: none;
+  color: var(--text-main);
+  border-radius: 13px;
+  font-size: 13px;
+  width:  100%;
+  box-sizing: border-box;
+  margin-top: 5px;
+  height: 10vh;
+  padding: 10px;
+  caret-color: var(--sub-accent);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  scrollbar-width: thin;             
+  scrollbar-color: #6a6d7c transparent;    
+}
+
+.customtext {
+  border-color: var(--sub-accent);
+}
+
+
+.customtext::placeholder {
+  color: var(--text-muted);
+  opacity: 0.7;
+}
+
+
+
+.customtext::-webkit-scrollbar {
+  width: 8px;              
+  height: 8px;           
+}
+
+.customtext::-webkit-scrollbar-track {
+  background: #1e1e2f;     
+  border-radius: 10px;
+}
+
+.customtext::-webkit-scrollbar-thumb {
+  background-color: #6a6d7c;  
+  border-radius: 10px;
+  border: 2px solid #1e1e2f;  
+}
+
+.customtext::-webkit-scrollbar-thumb:hover {
+  background-color: #9fa2b4; 
+}
+
+
+.custom-popup-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.505);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.custom-popup-modal.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+@media (max-width: 768px) {
+
+  .custom-popup-modal {
+    padding: 0 10px;
+  }
+  .custom-popup-content {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+ 
+}
+
+
+.custom-popup-content {
+  width: 100%;
+  max-width: 420px;
+  background: rgba(34, 34, 54, 0.448);
+  backdrop-filter: blur(14px);
+  border: 0.9px solid var(--border);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+
+.custom-popup-content h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+  opacity: 0.9;
+  color: var(--text-main);
+}
+
+.custom-popup-content p {
+  margin: 0 0 18px;
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.target-link-into {
+  color: var(--sub-accent);
+  width: fit-content
+}
+
+.target-link-into:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@keyframes popupFade {
+  from { transform: translateY(-20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+ 
+
+ 
+ 
+
+.role-item.disabled {
+  text-align: center;
+  color: #a7a7b1;   
+  font-style: italic;
+  pointer-events: none;   
+}
+
+.reward-item.delete-reward i {
+  color: rgb(129, 129, 129) !important; 
+  font-size: 14px;
+  transition: color 0.2s ease;
+}    /* Container */
+  .role-select {
+
+  position: absolute;
+  font-family: "Inter", sans-serif;
+  z-index: 19999;
+  color: #e9e9ee;
+}
+
+.role-list {
+  max-height: calc(8 * 2.2em); 
+  overflow-y: auto;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  list-style: none;
+  scrollbar-width: thin;            
+  scrollbar-color: grey transparent;  
+}
+
+
+.role-list::-webkit-scrollbar {
+  width: 10px;
+}
+
+.role-list::-webkit-scrollbar-track {
+  background: #1e1e2f; 
+  border-radius: 6px;
+}
+
+.role-list::-webkit-scrollbar-thumb {
+  background-color: #3498db;  
+  border-radius: 6px;
+  border: 2px solid #1e1e2f; 
+}
+
+.role-list::-webkit-scrollbar-thumb:hover {
+  background-color: #2980b9;
+}
+
+
+.rewardContainerWrapper {
+  position: relative; 
+}
+
+.role-select {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  width: 260px;
+  z-index: 10;  
+  font-family: "Inter", sans-serif;
+  color: #e9e9ee;
+}
+
+.role-select.active {
+  display: block;
+}
+
+
+.search-box {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 0 !important;
+  background-color: transparent !important;
+  padding: 10px 12px;
+
+}
+.search-box svg {
+  width: 18px;
+  height: 18px;
+  opacity: 0.9;
+  flex-shrink: 0;
+  color: var(--text-main);
+}
+.search-box input {
+  flex: 1;
+  background: transparent;
+  border: none !important;
+  opacity: 0.9;
+  outline: none;
+  font: 500 14px "Inter", sans-serif;
+  color: var(--text-main);
+
+}
+.role-select .search-box input {
+  flex: 1 !important;  
+  padding: 1px !important; 
+  margin-bottom: 0 !important;  
+}
+.search-box input::placeholder { color: var(--text-muted); opacity: 0.8 }
+
+.role-list {
+  list-style: none;
+  margin: 0;
+  padding: 6px;
+}
+.role-item {
+  padding: 10px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.15s;
+}
+
+
+.reward-item.delete-reward:hover i {
+  color: #fff !important;  
+  cursor: pointer;
+}
+.rewardContainerWrapper {
+  position: relative;  
+}
+
+#xpInputWrapper {
+  display: none; 
+  position: absolute;
+  background: #151524;
+  padding: 6px 12px;
+  width: 150px !important;
+  border-radius: 14px;
+  z-index: 2000;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+}
+
+#xpInputWrapper input {
+  border: 1px solid var(--border);
+  outline: none;
+  background: transparent;
+  color: var(--text-main);
+  font-size: 14px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.renocontainer {
+  position: absolute; 
+  display: none;
+
+  background: rgba(34, 34, 54, 0.712);
+  backdrop-filter: blur(14px);
+  border: 0.9px solid var(--border);
+  border-radius: 18px;
+
+  overflow-y: auto;
+  padding: 15px 20px;
+  padding-bottom: 70px !important;
+
+  width: fit-content;
+  min-width: 140px;  
+  max-width: 440px;  
+  width: max-content;  
+  max-width: 340px;  
+
+
+  z-index: 99999;
+
+
+}
+
+
+
+.renocontainer h2 {
+  font-size: 14px;
+  color: var(--text-main) !important;
+  font-weight: 550;
+
+}
+
+.active-content p {
+  color: var(--text-muted);
+  font-size: 13px !important;
+      word-break: break-word;    
+      overflow-wrap: anywhere; 
+  line-height: 1.5;
+  margin-bottom: 4px;
+}
+@media (max-width: 991px) {
+  .renocontainer {
+    width: 90%;              
+    max-width: 420px; 
+    padding: 18px;
+    box-sizing: border-box !important;
+  }
+}
+
+
+/* Tabs inside dropdown */
+.tab-buttons {
+  display: flex;
+  box-sizing: border-box !important;
+  gap: 8px;
+  user-select: none !important;
+  font-family: 'Outfit', sans-serif !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;    
+  -ms-user-select: none !important;     
+  user-select: none !important;
+  -webkit-touch-callout: none !important; 
+  margin-bottom: 20px;
+}
+
+.tab-buttons div {
+  display: inline-flex;
+  box-sizing: border-box;
+
+  align-items: center;
+  white-space: normal !important;  
+  color: var(--text-main) !important;
+  gap: 5px;
+  border: 0.9px solid var(--border);
+  padding: 10px 10px;
+  font-weight: 550;
+  border-radius: 12px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.tab-buttons div:hover {
+  background-color: var(--bg-hover-hover);
+  outline: 0.8px solid var(--border); 
+  outline-offset: 0.8px;     
+}
+
+.tab-buttons div.active-tab {
+  background: #5865f21b !important;
+  border-color: #4286f495 !important;
+  border: 0.9px solid var(--border);
+
+}
+
+.tab-buttons div.active-tab:hover {
+  background: #5663ec1b !important;
+  border-color: #4286f495;
+
+  outline: 0.8px solid #4286f4; 
+  outline-offset: 0.8px;         
+}
+
+.subcontent1 p, .subcontent2 p, .subcontent3 p, .subcontent4 p{
+  font-size: 14px !important;
+  margin-bottom: 30px !important;
+}
+
+.subcontent1, .subcontent2, .subcontent3, .subcontent4 {
+  display: none;
+  white-space: normal !important;  
+  caret-color: var(--sub-accent);
+  font-size: 14px;
+
+}
+
+.subcontent1 input, .subcontent2 input, .subcontent3 input, .subcontent4 input{
+  padding: 13px 14px;
+  border-radius: 13px !important;
+  margin-top: 8px !important;
+  background-color: var(--bg-sidebar-inactive);
+  font-size: 14px !important;
+  border: 0.9999px solid var(--border);
+
+}
+
+.subcontent1 input:focus, .subcontent2 input:focus, .subcontent3 input:focus, .subcontent4 input:focus{
+  border-color: var(--sub-accent);
+
+}
+
+.subcontent1 label, .subcontent2 label, .subcontent3 label, .subcontent4 label{
+  font-size: 13px !important;
+  font-weight: 550 ;
+}
+
+.active-content {
+  display: block;
+}
+
+  .tab-buttons div:hover {
+      background: var(--bg-hover-hover) !;
+  }
+
+ 
+
+.subcontent1,
+.subcontent2,
+.subcontent3,
+.subcontent4 {
+  display: none;
+  
+}
+
+.active-content {
+  display: block;
+}
+
+
+
+
+input {
+  background-color: transparent;
+  border: 0.1px solid var(--border);
+  outline: none;
+  border-radius: 8px;
+  padding: 5px;
+  box-sizing: border-box;
+  color: var(--text-main);
+  width: 100%;
+}
+
+.piicki {
+  background-color: #4286f4d5;
+  color: var(--text-main);
+  width: auto;
+  position: absolute;
+  right: 20px;
+  border: 0.1px solid var(--border);
+  padding: 10px 23px !important;
+  border-radius: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.piicki:hover {
+  background-color: #4286f4ab;
+}
+
+
+.conditionContainerWrapper, .rewardContainerWrapper {
+  width: 100%;
+}
+
+
+.rewardsec, .conditionsec {
+  display: inline-flex;      
+  align-items: center;
+  border: 0.9px solid var(--border);
+  border-radius: 14px;
+  width: fit-content;
+  max-width: fit-content;    
+  height: 42px;
+  box-sizing: border-box;
+
+
+  overflow: hidden;          
+  white-space: nowrap;       
+}
+
+.rewardDisplay {
+  display: inline-flex;
+  align-items: center;
+
+  max-width: 250px;           
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.identifyerxp {
+  display: inline-block;
+  max-width: 60px;          
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.reward-item.reward-display .customtextspan {
+  flex-shrink: 1;       
+  min-width: 20px;       
+  max-width: 85px;       
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.condition-item.conitiontype{
+  pointer-events: none !important;
+
+}
+
+
+.reward-item#rewardtype {
+  position: relative;  
+  cursor: pointer;
+}
+
+.reward-item, .condition-item {
+  max-width: 80% !important;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+
+  background-color: var(--bg-surface-active);
+  justify-content: center;
+  padding: 8px 8px;      
+  height: 100%;         
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: background 0.2s;
+}
+
+.reward-item:hover, .condition-item:hover {
+  background: var(--bg-hover-hover);
+  border-radius: none !important;
+}
+
+.rewardsec .divider, .conditionsec .divider {
+  border-left: 0.9px solid var(--border);
+  height: 100%;   
+  box-sizing: border-box;
+}
+
+  .option{
+    color: var(--text-main);
+  }
+ 
+
+
+.condition-item.reward-display .customtextspan {
+  flex-shrink: 1;        /* text can shrink if needed */
+  min-width: 20px;       /* reasonable minimum width */
+  max-width: 85px;       /* stay inside parent */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+.condition-item #conditiontype {
+  position: relative;  
+  cursor: pointer;
+}
+
+
+.modal-overlay {
+  display: none; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-overlay.active {
+  display: flex; /* Show popup */
+}
+
+
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+.preview-container {
+  background-color: #6b46ff;         
+  border-radius: 20px;                
+  overflow: hidden;                  
+  display: flex;
+  flex-direction: column;
+}
+
+.settings {
+  width: 200px;
+  font-family: Arial, sans-serif;
+  position: relative;
+        user-select: none !important;
+  font-family: 'Outfit', sans-serif !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;    
+  -ms-user-select: none !important;     
+        user-select: none !important;
+  font-family: 'Outfit', sans-serif !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;    
+  -ms-user-select: none !important;     
+  user-select: none !important;
+
+  -webkit-touch-callout: none !important; 
+
+  -webkit-touch-callout: none !important; 
+}
+
+.setting {
+    margin: 18px 0;
+}
+
+.setting:first-child {
+    margin-top: 0;
+}
+
+.setting:last-child {
+    margin-bottom: 0;
+}
+
+.shifted {
+  position: relativex;
+}
+ 
+
+ 
+
+.custom-dropdown .selected, .custom-drop .selected {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  cursor: pointer;
+  width: fit-content;
+  padding: 6px 12px;
+  font-size: 15px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  position: relative;
+  background-color: transparent;
+  color: var(--text-main);
+}
+
+
+.options.cooldown, .options.recurrence, .reward-dropdown, .condition {
+  position: absolute; 
+  display: none;
+
+  background: rgba(34, 34, 54, 0.712);
+  backdrop-filter: blur(14px);
+  border: 0.9px solid var(--border);
+  border-radius: 10px;
+  overflow-y: auto;
+  min-width: 140px;  
+  width: max-content;  
+
+  z-index: 99999;
+}
+.options.cooldown .option, .options.recurrence .option, .reward-dropdown .option, .condition .option {
+  padding: 10px 14px;
+  font-size: 13px;
+  color: var(--text-main);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.reward-dropdown .option, .condition.option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.options.cooldown option .options:hover, .options.recurrence .option:hover, .reward-dropdown .option:hover, .condition .option:hover {
+  background: var(--bg-hover-hover);
+  color: #fff;
+
+
+}
+
+
+
+.selected .arro  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selected .arro svg {
+  width: 15px;
+  height: 15px
+}
+
+
+
+.options {
+  display: none;  
+  position: absolute; 
+  top: 100%; 
+  left: 0;
+  background: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  min-width: 150px;
+  z-index: 10;
+}
+
+ 
+
+ 
+
+
+
+.options {
+  display: none;
+  position: absolute;
+  top: 0;           
+  left: 100%; 
+  background-color: #1e1e2f;
+  border: 1px solid #cccccc57;
+  border-radius: 8px;
+  margin-top: 0;    
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 10;
+  width: 220px;     
+}
+
+@media (max-width: 991px) {
+  .options {
+    display: none;
+    position: absolute;
+
+    top: 0;           
+    left: 100%;      
+    background-color: #1e1e2f;
+    border: 1px solid #cccccc57;
+    border-radius: 8px;
+    margin-top: 0;   
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 10;
+    width: 170px;   
+  }
+
+
+}
+
+
+
+
+.series{
+  background-color: transparent;
+  content: '▼';
+
+}
+
+
+
+.claimlimit{
+  background-color: transparent;
+}
+
+
+
+.textarea-wrapper {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+
+.main-text-area {
+  position: relative;
+  width: 100%;
+  margin-top: 4px;
+  min-height: 120px;
+  border: 0.9px solid transparent;
+  border-radius: 25px;
+  background-color: transparent;
+  margin-bottom: 40px;
+  padding: 15px 50px 15px 16px; 
+  cursor: text !important;
+  transition: border-color 0.15s ease;
+}
+
+.main-text-area:hover {
+  border-color: var(--border);
+}
+
+.main-text-area:focus-within {
+  border-color: var(--sub-accent);
+}
+ 
+
+
+ 
+
+
+ 
+.media-block {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.media-block img,
+.media-block video {
+  max-width: 200px;
+  border-radius: 12px;
+  display: block;
+}
+
+.media-remove {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background: var(--bg-hover);
+  color: var(--text-main);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.media-remove svg{
+  width: 17px;
+  height: 17px;
+}
+
+.media-remove:hover {
+  background: var(--bg-hover-hover);
+}
+
+.image-picker {
+  position: absolute;
+  bottom: 12px;
+  right: 14px;
+
+  width: 22px;
+  height: 22px;
+
+  color: var(--text-muted);
+  cursor: pointer;
+
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.image-picker:hover {
+  color: var(--sub-accent);
+  transform: scale(1.1);
+}
+
+
+
+
+.upload-icon {
+  position: absolute;
+  bottom: 12px;   
+  right: 20px;
+  color: #aaa;
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom: 7px;
+  transition: color 0.2s ease;
+  pointer-events: auto;  
+}
+
+.upload-icon:hover {
+  color: #00ffff;
+}
+
+
+.upload-icon {
+  position: absolute;
+  bottom: 19px;  
+  right: 20px;    
+  color: #aaa;
+  cursor: pointer;
+  font-size: 20px;
+  transition: color 0.2s ease;
+  pointer-events: auto; 
+}
+
+.upload-icon:hover {
+  color: #00ffff;
+}
+.add-task-btn {
+  display: flex;
+  gap: 30px;
+  padding: 18px 20px;
+  border-radius: 40px;
+  background-color: var(--bg-hover-hover);
+  border: 0.999999px dashed var(--border);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-sizing:  border-box;
+  width: 100%;
+}
+
+.add-icon {
+  background: #4286f4d6;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-main);
+  transition: transform 0.2s ease;
+}
+
+
+.add-icon svg{
+  width: 18px;
+  height: 18px;
+}
+/* Animation */
+@keyframes pulseIcon {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }  
+}
+
+.animate-pulse {
+  animation: pulseIcon 0.6s ease-in-out;
+}
+
+
+.add-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0;
+  position: relative;
+  top: 4px;
+  padding: 0;
+  color: var(--text-main);
+}
+
+.add-text .title {
+  font-weight: 550;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+}
+
+.add-text small {
+  color: var(--text-muted);
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.tabs {
+  display: flex;
+  border: none; 
+  border-radius: 8px;  
+  overflow: hidden; 
+  background: transparent;
+  outline: none !important;
+  margin-bottom: 30px;
+  color: var(--text-main);
+  width: fit-content; 
+}
+
+.tab {
+  flex: 1;
+  padding: 10px 16px;
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-main);
+}
+
+.tab svg {
+  width: 14px;
+  height: 14px;
+}
+
+
+
+.tab.active {
+  color: #4285f4;
+
+}
+
+.tab.active i {
+  color: #4285f4;
+}
+
+ 
+
+
+.setting input[type="text"] {
+  padding: 10px 12px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-left: 15px;
+
+
+  border: 1px solid rgba(255,255,255,0.2);
+  background-color: rgba(255,255,255,0.05);
+  color: var(--text-main);
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.setting input[type="text"]::placeholder {
+  color: var(--muted);
+  opacity: 0.8;
+  box-sizing: border-box;
+
+}
+
+
+
+
+.shift {
+  display: inline-flex;         
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  font-size: 14px;
+  padding: 10px;
+  white-space: nowrap;
+  border-radius: 10px;
+  cursor: pointer;
+  width: auto !important;     
+  font-weight: bold;
+  gap: 6px;
+}
+
+.shift:hover {
+  background: var(--bg-hover-hover);
+}
+
+ 
+.conshift {
+  display: inline-flex;         
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  font-size: 14px;
+  padding: 10px;
+  white-space: nowrap;
+  border-radius: 10px;
+  cursor: pointer;
+  width: auto !important;     
+  font-weight: bold;
+  gap: 6px;
+}
+
+
+.conshift:hover {
+  background: var(--bg-hover-hover);
+
+}
+
+.conshift i {
+  font-size: 14px !important;
+}
+ 
+
+ 
+
+.modulepanate {
+  font-size: 12px;
+  margin-left: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block; 
+  white-space: nowrap;
+  width: auto;          
+  max-width: max-content; 
+}
+
+.modulepanate:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+ 
+.number-input-wrapper:focus-within {
+  border-color: var(--sub-accent);
+}
+
+.number-input-wrapper {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--border);
+  border-radius: 11px;
+  margin-left: 15px;
+  padding: 0 !important;
+  height: 40px;
+  margin-top: 7px;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.number-input-wrapper input[type="number"] {
+  width: 100px;
+  padding: 0 6px;
+  border: none;
+  background-color: #1e1e2f;
+  outline: none;
+  height: 100%;
+  text-align: left;
+  color: var(--text-main);
+  border-radius: 0 !important;
+  font-size: 14px;
+  -moz-appearance: textfield;  
+}
+.number-input-wrapper input[type="number"]::-webkit-inner-spin-button,
+.number-input-wrapper input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none; 
+  margin: 0;
+}
+.sub-logo{
+  display: none;
+}
+#sidePanelToggle {
+  display: none;
+}
+
+.number-input-wrapper .clear {
+  background: #1e1e2f;
+  border: none;
+  padding: 0 8px;
+  height: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  color: var(--text-main);
+  opacity: 0.8;
+}
+
+
+.spinner {
+  display: flex;
+  height: 100%;
+  min-height: 100%;
+  flex-direction: column;
+  border-left: 1px solid var(--bg-hover);
+}
+.spinner button {
+  background: #1e1e2f;
+  border: none;
+  padding: 5px 6px;
+  opacity: 0.8;
+  cursor: pointer;
+  color: var(--text-main);
+  font-size: 10px;
+  line-height: 1;
+}
+.number-input-wrapper .clear:hover {
+  opacity: 0.5;
+}
+
+.spinner button:hover{
+  opacity: 0.5;
+
+}
+
+
+  /* MOBILE: hide side panel, show toggle button */
+  @media (max-width: 991px) {
+
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+
+
+
+  #sidePanelToggle {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    border-radius: 0 !important;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  /* Hamburger bars */
+  .bar-quest {
+    position: absolute;
+    height: 2px;
+    border-radius: 10px;
+    background: var(--text-main);
+    display: block;
+  }
+
+  /* Top bar — longer, slightly higher */
+  .bar-top {
+    top: 13px;      /* lift slightly */
+    left: 8px;
+    width: 20px;
+  }
+
+  /* Bottom bar — shorter and lower-right shifted */
+  .bar-bottom {
+    top: 20px;
+    left: 9px;
+    width: 12px;
+  }
+
+
+  .logo{
+    display: none;
+  }
+  .sub-logo {
+    display: inline-flex;
+    white-space: nowrap;   /* stops it from wrapping to a new line */
+  }
+
+
+
+  }
+
+.task-option {
+  padding: 10px;
+  border-bottom: 1px solid #333;
+  cursor: pointer;
+}
+
+.task-option:hover {
+  background: #333;
+}
+
+.close-btn {
+  background: transparent;
+  color: var(--main);
+  border: none;
+  font-size: 20px;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  cursor: pointer;
+}
+
+
+/* Container */
+.task-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  justify-content: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Column */
+.task-column {
+  flex: 1;
+  min-width: 320px;
+  max-width: 500px;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 11px !important;
+  font-weight: 600;
+  color: var(--text-main);
+  margin: 0;
+  margin-bottom: 20px !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+}
+.section-title.bottom {
+  margin-top: 50px !important;
+}
+
+.section-title::after {
+  content: "";
+
+}
+
+.task-non{
+
+  background: var(--bg-surface-in-active) !important;
+  margin-bottom: 15px;
+}
+
+
+
+
+/* Task Items */
+.task-item, .task-non {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 14px;
+  background: var(--bg-surface);
+  border: 0.9px solid var(--border);
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.task-item::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #2a2a4416;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.task-item:hover::before {
+  opacity: 1;
+}
+
+.task-item:hover {
+  transform: translateY(-4px) scale(1.02);
+  border-color: var(--bg-hover-hover);
+  box-shadow: 0 0 20px #4286f418;
+}
+
+/* Icon Styles */
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  font-size: 18px;
+  flex-shrink: 0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  transition: all 0.3s ease;
+}
+.icon.blue { background: #007bff; }
+.icon.pink { background: #e83e8c; }
+.icon.purple { background: #6f42c1; }
+.icon.green { background: #28a745; }
+.icon.violet { background: #6610f2; }
+.icon.yellow { background: #ffc107; }
+.icon.red { background: #dc3545; }
+.icon.sky { background: #17a2b8; }
+.icon.telegram { background: #0088cc; }
+.icon.tiktok { background: #000; }
+.icon.youtube { background: #fff; border: 1px solid var(--border); box-shadow: 0 0 10px #ffffff31 ;color: red; }
+.icon.instagram { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+
+
+
+
+/* Task Text */
+.task-text {
+  display: flex;
+  flex-direction: column;
+  color: var(--text-main) !important;
+
+}
+
+.task-title {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: var(--text-main) !important;
+}
+
+.task-desc {
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.3;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+
+
+
+
+/* Popup background */
+.popup {
+  display: none ;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Popup box */
+.popup-content {
+  background: var(--content-dropper);
+  padding: 0;
+  padding-top: 0 !important;
+  width: auto;
+  max-width: 60%;
+  border-radius: 24px;
+  overflow-y: auto;
+  max-height: 70vh;
+  background-clip: padding-box; 
+  -webkit-mask-image: -webkit-radial-gradient(white, black); 
+  mask-image: radial-gradient(white, black);
+  scrollbar-gutter: stable both-edges; 
+}
+
+
+ 
+
+/* Close button */
+.popup-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;     
+  
+}
+
+/* Close button */
+.close {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  padding: 3px;
+  font-size: 1.2rem;
+  line-height: 1;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: transparent;
+  transition: background-color 0.2s ease;
+}
+
+.close:hover {
+  background-color: rgba(255, 255, 255, 0.17);
+}
+/* Task container layout */
+.task-container {
+  display: flex;
+  gap: 20px;
+  padding: 0 20px 20px 20px;
+}
+
+.task-column {
+  flex: 1;
+}
+
+.section-title {
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+}
+.task-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-main);
+  margin-right: 10px;
+}
+
+
+.icon.purple-puzzle {
+  background-color: #7026a9c8;
+}
+
+
+
+.subsettings{
+  color: #4285f4;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  border-bottom: 0.9px solid currentColor; margin-right: 5px;
+
+}
+
+
+
+.quest-creator {
+  display: flex;
+  flex-direction: row;  
+  height: calc(100vh - 20px);
+  width: 100% !important;
+  padding-right: 10px;
+  color: var(--text-main);
+  box-sizing: border-box !important;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.quest-left {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  max-width: 65%;
+  min-width: 65%;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+
+.side-panel {
+  height: 100%;
+  padding: 25px;
+  border-left: 0.9px solid var(--border);
+  background-color: var(--bg-sidebar);
+  width: 35%;
+  min-width: 35%;
+  max-width: 35%;
+  border-top-left-radius: 26px !important;
+  border-top-right-radius: 26px !important;
+  border-bottom-left-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+  overflow-y: auto;
+  padding-top: 20px;
+  box-sizing: border-box !important;
+}
+
+/* HEADER */
+.quest-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  margin-top: 0;
+  width: 100% !important;
+  margin-bottom: 3px;
+  padding: 0 20px;
+  background-color: var(--bg-sidebar);
+  border-top-left-radius: 26px;
+  border-top-right-radius: 26px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border: 0.9px solid var(--border);
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+.side-panel {
+  position: relative;
+  overflow: auto;
+  background-clip: padding-box; 
+  -webkit-mask-image: -webkit-radial-gradient(white, black); 
+  mask-image: radial-gradient(white, black);
+  scrollbar-gutter: stable both-edges; 
+  scrollbar-width: thin; 
+  scrollbar-color: #929292 rgba(255, 255, 255, 0.05);  
+}
+
+
+
+
+.task-wrapper:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+
+
+ 
+  #popup {
+    padding: 0 15px !important;
+  }
+  .popup-content {
+    padding: 0;
+    width: auto;
+    max-width: 100%;
+    border-radius: 24px;
+    overflow-y: auto;
+    max-height: 70vh;
+  }
+
+
+}
+
+
+
+
+.quest-creator .task-builder h1,
+.quest-creator .side-panel h2 {
+  margin-bottom: 20px;
+
+}
+.quest-title {
+  border: none !important; 
+  outline: none !important; /* remove focus highlight */
+  background: none;
+  min-height: 5vh;
+  padding: 0;
+  padding-left: 8px !important;
+  height: auto;
+  color: var(--text-main);
+  border-radius: 0 !important;
+  box-sizing: border-box;
+  caret-color: var(--sub-accent);
+  font-size: 25px; 
+}
+
+.quest-title:focus {
+  border: none !important; /* ensure no border shows on click */
+  outline: none !important; /* ensure no glow */
+}
+
+.quest-title::placeholder {
+  color: var(--text-muted);
+  opacity: 0.8;
+}
+
+
+ 
+
+
+ 
+
+
+
+
+
+.preview-mobile {
+  display: none !important;
+
+}
+
+
+
+
+
+
+
+.quest-creator .header-actions button {
+  margin-left: 15px;
+  padding: 4px 20px;
+  background: #4285f4;
+  border: 1px solid #4285f4;
+  color: var(--text-main);
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.quest-creator .header-actions button:hover {
+  background: #3574d9;
+  border: 1px solid #3574d9;
+  color: #fff;
+}
+ 
+.header-actions {
+  display: flex;
+  gap: 30px;
+}
+.uniqueitems{
+  padding: 0 !important;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1061px) {
+  
+   .side-panel {
+    position: fixed;
+    top: 137px;
+    right: -100%;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: calc(100dvh - 145px);
+    z-index: 77;
+    padding-bottom: 100px !important;
+
+    height: 100% !important;
+    width: 100% !important;
+    color: var(--text-main);
+    background-color: transparent !important;
+    padding: 0 8px;
+    border-radius: 0;
+    border: 1px solid transparent !important;
+    overflow: hidden;
+    transition: right 0.35s ease-in-out;
+    display: block !important;
+  }
+
+  body.active-side-q .side-panel{
+    right: 0; 
+    transform: translateX(0);
+
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  .preview-desktop {
+    display: none !important;
+  }
+  .quest-creator {
+    flex-direction: column;
+    width: 100%;
+    height: calc(100dvh - 64px);
+    padding: 0 !important;
+    padding-right: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+  }
+
+  
+
+  .quest-main {
+    border-radius: 22px;
+    padding-top: 12px;
+  }
+
+
+  .quest-left {
+    flex: none; 
+    width: 100% !important;
+    min-width: none;width: 100% !important;
+    max-width: 100% !important;
+    padding: 6px 9px;
+    gap: 2px !important;
+    margin: 0 !important;
+  }
+
+  .show-settings-info, .hide-settings-info {
+    display: none !important;
+  }
+
+  .quest-header {
+    display: flex;
+    overflow-x: auto;
+
+    border-radius: 32px 32px 19px 19px !important;
+    overflow-y: hidden;
+    height: 65px;
+    min-height: 65px;
+    min-width: none; 
+    padding: 4px 12px !important;
+  }
+
+
+  .contain-all-side {
+    background-color: var(--bg-sidebar);
+    height: calc(100dvh - 175px);
+    padding-top: 30px !important;
+    width: 100% !important;
+    border-radius: 25px !important;
+    margin: 0;
+    padding-bottom: 6ch !important;
+    overflow-y: auto;
+    border: 1px solid var(--border);
+    padding: 0 19px;
+    box-sizing: border-box !important;
+
+    min-height: 100%;
+  }
+
+
+
+  body.active-side-q .hide-side-q{
+    opacity: 0;
+  }
+
+  .show-side-q {
+    opacity: 0;
+  }
+
+  body.active-side-q .show-side-q {
+    opacity: 1;
+  }
+
+
+
+ 
+
+ 
+ 
+  .task-list{
+    margin: 20px 0;
+  }
+
+  .task-wrapper {
+  margin-bottom: 20px;
+}
+ 
+ 
+
+  .header-actions {
+    display: flex;
+    gap: 6px;         
+    align-items: center;    
+    justify-content: flex-end;  
+    padding-right: 12px !important;
+    margin-left: auto !important;
+  }
+
+ 
+ 
+  .preview-mobile {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+  }
+
+  .preview-desktop {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #7c00c8;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+
+}
+
+   
+
+.the-main-the-main {
+  position: sticky;         
+  top: 0;     
+  width: 100%;
+  backdrop-filter: blur(7px);         
+  z-index: 100;
+  padding: 9px 0;
+
+}
+
+.popup-header-close {
+  margin-left: auto;         
+  margin-right: 15px;
+
+  background-color: var(--bg-hover) !important;
+  border-radius: 50%;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-main);
+}
+
+
+.popup-header-close:hover {
+  background-color: var(--bg-hover-hover) !important;
+
+
+}
+#closePopup {
+  background-color: transparent !important;
+  flex-shrink: 0;
+}
+
+#closePopup svg{
+  width: 18px;
+  height: 18px;
+}
+
+
+.text-block {
+  outline: none;
+  white-space: pre-wrap;
+  caret-color: var(--sub-accent);
+  font-size: 14px;
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+ 
+
+.text-block::before {
+    content: attr(data-placeholder);
+    color: var(--text-muted);
+    opacity: 0.9;
+    font-size: 16px;
+    cursor: text !important;
+    pointer-events: none;
+    position: absolute;
+}
+
+.text-block.has-content::before {
+    content: "";
+}
+
+.text-block {
+    position: relative;
+}
+
+
+
+.hide-settings-info, .show-settings-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: ew-resize;
+  padding: 4px;
+  margin-left: auto;
+  border-radius: 8px;
+  color: #e0e0e0;
+  line-height: 0;               
+}
+
+.hide-settings-info:hover, .show-settings-info:hover {
+  background-color: rgba(155, 155, 155, 0.15);
+}
+
+.hide-settings-info svg {
+  display: block;         
+}
+
+
+
+ 
+.settings-container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+}
+
+.setting label {
+  font-weight: 500;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-sizing: border-box;
+
+  font-size: 14px;
+}
+
+.column-setting {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.35s ease;
+}
+
+
+.column-setting.items-active {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+
+.preview-modal {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(
+      circle at 20% 20%,
+      rgba(255,255,255,0.06),
+      transparent 40%
+    ),
+    rgba(0,0,0,0.65);
+  display: none;  
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  backdrop-filter: blur(6px);
+}
+
+.preview-all-content {
+  width: 100%;
+  max-width: 760px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.preview-box-arra {
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-app);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border-radius: 30px;
+  border: 1px solid var(--border);
+  max-height: 80dvh;  
+  min-height: 80dvh;
+
+  height: 80dvh;     
+  width: 100%;
+  transition: all 0.45s cubic-bezier(.4,0,.2,1);
+  box-shadow: 
+    0 30px 60px rgba(0,0,0,0.45),
+    inset 0 0 0.5px rgba(255,255,255,0.4);
+  overflow: hidden;
+  animation: previewPop 0.25s ease;
+}
+
+
+.preview-header-arriall {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  background: rgba(34, 197, 94, 0.08); 
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid rgba(34, 197, 94, 0.25);
+  font-size: 13px;
+  height: 60px;
+  font-weight: 600;
+  letter-spacing: .4px;
+  text-transform: uppercase;
+  color: rgba(220, 255, 235, 0.95);
+}
+
+.preview-cancel {
+  background: var(--bg-hover-hover);
+  border: 0.9px solid var(--border);
+  color: var(--text-main);
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  transition: all 0.2s ease;
+}
+.preview-cancel:hover {
+  background: var(--bg-hover);
+  transform: scale(1.05);
+}
+
+
+.preview-content-aerrra {
+  flex: 1; 
+  padding: 12px 16px;
+  font-size: 13px;
+  padding-bottom: 0 !important;
+  color: var(--text-main);
+  line-height: 1.5;
+  overflow-y: auto;
+  background-color: transparent; 
+  border-radius: 0 0 30px 30px;
+}
+
+.preview-content::-webkit-scrollbar {
+  display: none;
+}
+.preview-content {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media(max-width: 767px) {
+  .preview-box-arra  {
+    background: var(--bg-sidebar);
+    max-height: 90dvh;
+    min-height: 50dvh;
+  }
+}
+
+
+@media(min-width: 1060px) {
+
+@keyframes previewPop {
+  0% {
+    transform: scale(0.92) translateY(10px);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.05) translateY(-2px);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
+}
+
+
+ 
+
+.valueDisplay {
+  min-width: 20px;
+  max-width: 80px;
+  display: inline-block;
+  padding: 2px 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  transition: width 0.2s ease;
+}
+
+
+.condition-block {
+  position: relative;
+}
+
+
+
+.condition-value {
+  position: relative;
+}
+
+.condition-value .level-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 6px;
+  background: #2f2f40;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  padding: 10px;
+  z-index: 100;
+  display: none; /* hidden by default */
+}
+
+.level-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 6px;
+  background: var(--bg-app-init);
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  padding: 10px;
+  z-index: 2000;  
+  display: none;
+}
+.level-dropdown input{
+  font-size: 14px !important;
+}
+
+.level-dropdown input::placeholder{
+  color: var(--text-muted);
+  opacity: 0.9;
+}
+
+.condition-block {
+  position: relative;  
+}
+.level-dropdown input[type=number]::-webkit-outer-spin-button,
+.level-dropdown input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.level-dropdown input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+
+#sprintModal {
+  position: absolute; 
+  display: none;
+
+  background: rgba(34, 34, 54, 0.712);
+  backdrop-filter: blur(14px);
+  border: 0.9px solid var(--border);
+  border-radius: 18px;
+
+  overflow-y: auto;
+  padding: 15px 20px;
+  padding-bottom: 60px !important;
+
+  min-width: 140px;  
+  width: max-content;  
+
+  z-index: 99999;
+}
+
+/* Modal content */
+#sprintModal .modal-content {
+  position: relative;
+}
+
+.close-sprint {
+  width: 13px;
+  height: 13px
+}
+.close-sprint {
+  position: absolute;
+  top: -7px;
+  right: -13px;
+  font-size: 18px;
+  background-color: var(--bg-hover);
+  font-weight: bold;
+  color: var(--text-main);
+  cursor: pointer;
+  width: 30px;     
+  height: 30px;    
+  line-height: 30px;  
+  text-align: center;  
+  border-radius: 50%;  
+  transition: color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
+}
+
+.close-sprint:hover {
+  color: #fff;
+  background-color: var(--bg-hover-hover);
+
+  transform: scale(1.1);
+}
+
+
+/* Header */
+#sprintModal .modal-content h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: var(--text-main);
+  font-size: 14px;
+  font-weight: 550;
+}
+
+/* Select button styling */
+#selectSprintBtn {
+  cursor: pointer;
+  border: 0.1px solid var(--border);
+  padding: 10px 18px;
+  text-align: center;
+  background-color: #4285f4;
+  outline: 0.99px solid #4285f4;
+  outline-offset: 2px;
+  color: var(--text-main);
+  position: absolute;
+  right: 0;
+  border-radius: 12px;
+  color: var(--text-main);
+  margin-top: 10px;
+  margin-left: auto !important;
+  font-weight: 550;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+#selectSprintBtn:hover {
+  background-color: #357ae8;
+  transform: translateY(-2px);
+}
+
+
+.sprint-list  {
+  font-size: 12px !important;
+  color: var(--text-main);
+  font-weight: 550;
+}
+
+/* Paragraph inside modal */
+#sprintModal p {
+  margin: 8px 0;
+  margin-bottom: 12px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+#highlight-toolbar{
+  position: absolute;
+  z-index: 99999;
+  display: none;
+  align-items: center;
+  gap: 10px;
+  padding: 0 12px;
+  background: var(--bg-app);
+  border: 0.99px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0,0,0,.45);
+  backdrop-filter: blur(8px);
+  user-select: none;
+}
+
+
+.tb-btn.link-btn{
+  display: none;
+}
+.tb-divider.vertical{
+  display: none;
+}
+
+
+
+#highlight-toolbar::after{
+  content:"";
+  position:absolute;
+  bottom:-6px;
+  left:50%;
+  transform:translateX(-50%);
+  width:12px;
+  background-color: var(--bg-app);
+  height:12px;
+  background:#0e0f13;
+  transform:translateX(-50%) rotate(45deg);
+  border-right:1px solid var(--border);
+  border-bottom:1px solid var(--border);
+}
+
+.tb-btn{
+  width:28px;
+  height:28px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:6px;
+  cursor:pointer;
+  transition:.15s;
+}
+
+.tb-btn:hover{
+  background: var(--bg-hover-hover);
+}
+
+.tb-btn svg{
+  width:16px;
+  height:16px;
+  fill: var(--text-main);
+  opacity:.9;
+}
+
+.tb-divider{
+  width:1px;
+  height:18px;
+  margin: 8px 0;
+  background: var(--border);
+}
+
+.tb-divider.vertical{
+  height: 100%;
+  margin:0 4px;
+}
+
+.link-btn{
+  background: var(--bg-hover-hover);
+}
+
+
+.sym-bold{opacity:.75;font-weight:800;font-size:14px;color: var(--text-muted)}
+.sym-italic{opacity:.75;font-weight:500;font-size:14px;color: var(--text-muted)}
+.sym-underline{opacity:.75;font-weight:500;font-size:14px;color: var(--text-muted)}
+.sym-strike{opacity:.75;font-weight:600;font-size:14px;color: var(--text-muted)}
+
+.fmt-bold{font-weight:550}
+.fmt-italic{font-style:italic}
+.fmt-underline{text-decoration:underline}
+.fmt-strike{text-decoration:line-through}
+
+
+
+ 
+.streak-row {
+  overflow: hidden;
+  max-height: 0;
+  width: 100% !important;
+  height: 40px;
+  opacity: 0;
+  margin-top: 0;
+  transition: max-height 0.32s cubic-bezier(0.4, 0, 0.2, 1),
+              opacity 0.22s ease,
+              margin-top 0.32s;
+}
+.streak-row.visible {
+  max-height: 60px;
+  opacity: 1;
+  margin-top: 4px;
+}
+
+.streak-xp-pill {
+  font-size: 11px;
+  padding: 2px 8px;
+  background: #fff7ed;
+  color: #c2410c;
+  border-radius: 20px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.streak-toggle {
+  position: relative;
+  display: inline-block;
+  width: 34px;
+  height: 19px;
+  cursor: pointer;
+  flex-shrink: 0;
+  margin: 0;
+}
+.streak-toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+.streak-slider {
+  position: absolute;
+  inset: 0;
+  background: var(--bg-hover);
+  border-radius: 20px;
+  transition: background 0.2s;
+}
+.streak-slider::before {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 2.5px;
+  top: 2.5px;
+  background: #ffffffd9;
+  border-radius: 50%;
+  transition: transform 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.streak-toggle input:checked + .streak-slider {
+  background: #4285f4;
+  outline: 0.9px solid #4286f4da;
+  outline-offset: 2px;
+}
+.streak-toggle input:checked + .streak-slider::before {
+  transform: translateX(15px);
+
+}
+
+
+</style>
+
+
+
+  <div class="quest-creator {% if settingsinfo_visible %}settings-collapsed{% else %} {% endif %}" data-idsinit="{{ quest.uuid }}" dataset-ids="{{ subquest.uuid }}">
+    <div class="quest-left">
+
+    <header> 
+
+      <div class="quest-header">
+        <div class="logo">✨ Quest Creator</div>
+          <button id="sidePanelToggle" aria-label="Toggle Quest Settings">
+            <span class="bar-quest bar-top hide-side-q"></span>
+            <span class="bar-quest bar-bottom hide-side-q"></span>
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="show-side-q"
+              viewBox="0 0 24 24" fill="none" stroke="#4285f4" 
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"/>
+            <line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+          </button>
+        <div class="header-actions">
+          <span class="preview-mobile preview-btn" onclick="previewSubquest()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M1.5 12s3.75-7.5 10.5-7.5S22.5 12 22.5 12 18.75 19.5 12 19.5 1.5 12 1.5 12z"/>
+              <circle cx="12" cy="12" r="3"/>
+            </svg>
+
+        
+          </span>
+
+          <div style="display: flex; gap: 5px;">
+            <button class="preview-desktop preview-btn" onclick="previewSubquest()">Preview</button>
+            <button class="publish-btn" id="publishBtn" onclick="publishSubquest();">Publish</button>          
+          </div>
+
+
+
+
+
+          <div class="show-settings-info"  style="padding: 0; margin: 0; cursor: e-resize;"  data-tooltip="Show Settings info ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18.5" height="18.5" viewBox="0 0 24 24" aria-hidden="true" role="img">
+              <rect x="2" y="4" width="17.5" height="15" rx="4" ry="4"
+                      fill="none" stroke="currentColor" stroke-width="1.5"/>
+
+              <rect x="7" y="4" width="1.5" height="15" rx="0.6" ry="0.6"
+                      fill="currentColor" stroke="none"/>
+              </svg>
+          </div>   
+        </div>
+
+
+
+
+      </div>
+    </header>
+    
+
+    <main class="quest-main">
+      <div class="kontainer">
+        <div class="task-builder">
+          <input type="text" id="hintname" placeholder="Untitle quest" autocomplete="off" class="quest-title geninput" value="{{ subquest.name }}"/>
+
+  
+            <div class="main-text-area">
+                <div class="text-block" id="first-text-block" contenteditable="true" data-placeholder="Tell adventurers what they must do to complete this quest.."></div>
+
+
+              <svg class="image-picker" id="pickMedia"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 2v3m0 3V5m0 0h3m-3 0h-3"/><path fill="currentColor" fill-rule="evenodd" d="M13 2H5a3 3 0 0 0-3 3v10.5c0 .086.011.17.032.25A1 1 0 0 0 2 16v3a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-7a1 1 0 0 0-.032-.25A1 1 0 0 0 22 11.5V11h-2v.016c-4.297.139-7.4 1.174-9.58 2.623.826.293 1.75.71 2.656 1.256 1.399.84 2.821 2.02 3.778 3.583a1 1 0 1 1-1.706 1.044c-.736-1.203-1.878-2.178-3.102-2.913-1.222-.734-2.465-1.192-3.327-1.392a15.466 15.466 0 0 0-3.703-.386h-.022c-.348.005-.68.02-.994.045V5a1 1 0 0 1 1-1h8V2zM8.5 6a2.68 2.68 0 0 0-1.522.488C6.408 6.898 6 7.574 6 8.5c0 .926.408 1.601.978 2.011A2.674 2.674 0 0 0 8.5 11c.41 0 1.003-.115 1.522-.489.57-.41.978-1.085.978-2.011 0-.926-.408-1.601-.978-2.012A2.674 2.674 0 0 0 8.5 6z" clip-rule="evenodd"/>
+              </svg>
+            </div>
+
+
+  
+
+
+              <input
+                type="file"
+                id="fileInput"
+                accept="image/*,video/*"
+                hidden
+              />
+          <div class="uniqueitems" id="uniqueItems" style="box-sizing: border-box;">
+            
+
+          </div>
+
+          <script>
+              // Pass saved tasks into JS as JSON
+            </script>
+            
+        <div class="task-list" id="taskList">
+            <button class="add-task-btn" id="addTaskBtn">
+              <div class="add-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 256 256"
+                  fill="currentColor"
+                >
+                  <path d="M228,128a12,12,0,0,1-12,12H140v76a12,12,0,0,1-24,0V140H40a12,12,0,0,1,0-24h76V40a12,12,0,0,1,24,0v76h76A12,12,0,0,1,228,128Z" />
+                </svg>
+
+              </div>
+              <div class="add-text">
+                <div class="title">Add task <span>(0 / 5)</span></div>
+                <small>Question, visit link, file upload...</small>
+              </div>
+            </button>
+          </div>
+        
+        </div>
+      </div>
+      <!-- Popup -->
+
+      
+
+    </main>
+    </div>
+
+
+    <aside class="side-panel">
+      <div class="contain-all-side">
+
+
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 0; margin: 0">
+        <h2 style="color: var(--text-main); font-size: 17px !important;">Quest Settings</h2>
+        <div class="hide-settings-info" data-tooltip="Close Quest Settings" >
+          <svg xmlns="http://www.w3.org/2000/svg" width="18.5" height="18.5" viewBox="0 0 24 24">
+            <rect x="2" y="4" width="17.5" height="15" rx="4" ry="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <rect x="7" y="4" width="1.5" height="15" rx="0.6" ry="0.6" fill="currentColor"/>
+          </svg>
+        </div>
+      </div>
+      <div class="tabs">
+        <button class="tab active">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+            <path d="M8.5 3.75a3.25 3.25 0 0 0-3.154 2.5H3a.75.75 0 0 0 0 1.5h2.346a3.246 3.246 0 1 0 3.154-4Zm0 5A1.75 1.75 0 1 1 10.25 7 1.752 1.752 0 0 1 8.5 8.75ZM14.25 7A.75.75 0 0 1 15 6.25h6a.75.75 0 0 1 0 1.5h-6a.75.75 0 0 1-.75-.75ZM21 16.25h-2.346a3.25 3.25 0 1 0 0 1.5H21a.75.75 0 0 0 0-1.5Zm-5.5 2.5A1.75 1.75 0 1 1 17.25 17a1.752 1.752 0 0 1-1.75 1.75ZM9.75 17a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h6a.75.75 0 0 1 .75.75Z"/>
+          </svg>
+
+          Properties
+        </button>
+        <button class="tab">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M11.9426 1.25H12.0574C14.3658 1.24999 16.1748 1.24998 17.5863 1.43975C19.031 1.63399 20.1711 2.03933 21.0659 2.93414C21.9607 3.82895 22.366 4.96897 22.5603 6.41371C22.75 7.82519 22.75 9.63423 22.75 11.9426V12.0574C22.75 14.3658 22.75 16.1748 22.5603 17.5863C22.366 19.031 21.9607 20.1711 21.0659 21.0659C20.1711 21.9607 19.031 22.366 17.5863 22.5603C16.1748 22.75 14.3658 22.75 12.0574 22.75H11.9426C9.63423 22.75 7.82519 22.75 6.41371 22.5603C4.96897 22.366 3.82895 21.9607 2.93414 21.0659C2.03933 20.1711 1.63399 19.031 1.43975 17.5863C1.24998 16.1748 1.24999 14.3658 1.25 12.0574V11.9426C1.24999 9.63423 1.24998 7.82519 1.43975 6.41371C1.63399 4.96897 2.03933 3.82895 2.93414 2.93414C3.82895 2.03933 4.96897 1.63399 6.41371 1.43975C7.82519 1.24998 9.63423 1.24999 11.9426 1.25ZM6.61358 2.92637C5.33517 3.09825 4.56445 3.42514 3.9948 3.9948C3.42514 4.56445 3.09825 5.33517 2.92637 6.61358C2.75159 7.91356 2.75 9.62178 2.75 12C2.75 14.3782 2.75159 16.0864 2.92637 17.3864C3.09825 18.6648 3.42514 19.4355 3.9948 20.0052C4.56445 20.5749 5.33517 20.9018 6.61358 21.0736C7.91356 21.2484 9.62177 21.25 12 21.25C14.3782 21.25 16.0864 21.2484 17.3864 21.0736C18.6648 20.9018 19.4355 20.5749 20.0052 20.0052C20.5749 19.4355 20.9018 18.6648 21.0736 17.3864C21.2484 16.0864 21.25 14.3782 21.25 12C21.25 9.62178 21.2484 7.91356 21.0736 6.61358C20.9018 5.33517 20.5749 4.56445 20.0052 3.9948C19.4355 3.42514 18.6648 3.09825 17.3864 2.92637C16.0864 2.75159 14.3782 2.75 12 2.75C9.62177 2.75 7.91356 2.75159 6.61358 2.92637ZM15.3588 8.64124C15.6517 8.93414 15.6517 9.40901 15.3588 9.7019L10.9822 14.0784L13.4142 14.0784C13.8284 14.0784 14.1642 14.4142 14.1642 14.8284C14.1642 15.2426 13.8284 15.5784 13.4142 15.5784L9.17157 15.5784C8.75736 15.5784 8.42157 15.2426 8.42157 14.8284V10.5858C8.42157 10.1716 8.75736 9.83579 9.17157 9.83579C9.58579 9.83579 9.92157 10.1716 9.92157 10.5858V13.0178L14.2981 8.64124C14.591 8.34835 15.0659 8.34835 15.3588 8.64124Z"
+              fill="currentColor"
+            />
+          </svg>
+
+          Results
+        </button>
+      </div>
+      <div class="settings-container">
+        <div class="setting" style="display: flex !important; align-items: center; justify-content: space-between !important;">
+          <label style="display: flex;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
+            </svg>
+            Recurrence
+          </label>
+
+          <div class="custom-dropdown recurrence-label">
+            <div class="selected">
+              <span>{{ subquest.recurrence or 'None' }}</span>
+              <span class="arro">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <polyline
+                  points="5 8.5 12 15.5 19 8.5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="streak-row {% if subquest.recurrence and subquest.recurrence.lower() == 'daily' %}visible{% endif %}" id="streakRow">
+          
+          <div style="display: flex !important; align-items: center; justify-content: space-between !important; width: 100% !important; padding-right: 3px;">
+            
+            <label style="display: flex; align-items: center; gap: 6px; margin: 0; font-size: 14px; color: var(--text-main)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z" />
+              </svg>
+
+              Streak
+              <span class="streak-xp-pill">+ XP/interval</span>
+            </label>
+
+            <label class="streak-toggle" style="margin: 0;">
+              <input type="checkbox" id="streakToggle"
+                {% if subquest.streak_enabled %}checked{% endif %}>
+              <span class="streak-slider"></span>
+            </label>
+
+          </div>
+        </div>
+        
+        <div class="setting"  style="display: flex !important; align-items: center; justify-content: space-between !important;">
+          <label style="display: flex; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+
+            Cooldown
+          </label>
+          <div class="custom-drop">
+            <div class="selected">
+              <span>{{ subquest.cooldown or 'None' }}</span>
+              <span class="arro">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <polyline
+                  points="5 8.5 12 15.5 19 8.5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+
+              </span>
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="setting column-setting">
+          <label style="display: flex; align-items: center;">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 256 256" enable-background="new 0 0 256 256" xml:space="preserve" width="14" height="14">
+            <g><g><path fill="currentColor" d="M69,10c-19.5,0-35.4,15.9-35.4,35.4c0,4.1,0.9,8.1,2.2,11.8h-2.2c-13,0-23.6,10.6-23.6,23.6V128h106.2V57.2h23.6V128H246V80.8c0-13-10.6-23.6-23.6-23.6h-2.2c1.3-3.7,2.2-7.7,2.2-11.8c0-19.5-15.9-35.4-35.4-35.4c-16.7,0-32.9,11.4-45.3,23.6h-27.3C101.9,21.4,85.7,10,69,10z M69,33.6c10.6,0,24.1,11.3,35,23.6H69c-6.5,0-11.8-5.3-11.8-11.8S62.5,33.6,69,33.6z M187,33.6c6.5,0,11.8,5.3,11.8,11.8s-5.3,11.8-11.8,11.8h-35C162.6,45.3,176.2,33.6,187,33.6z M10,151.6v70.8c0,13,10.6,23.6,23.6,23.6h82.6v-94.4H10z M139.8,151.6V246h82.6c13,0,23.6-10.6,23.6-23.6v-70.8H139.8z"/></g></g>
+            </svg>
+            Reward
+          </label>
+
+          <div id="rewardContainerParent" style="display: none; flex-direction: column; gap: 10px; display: flex; margin-bottom: 20px;">
+
+          </div>
+
+
+          <div class="reward-space-conatiner">
+            <button style="display: none; white-space: nowrap;"  id="clearAllRewards" class="clear-all-btn" title="Clear All Rewards" >
+            <svg width="15" height="15" class="triggerDeletePopup" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Trash lid -->
+              <path d="M20.5 6H3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+
+              <!-- Trash body -->
+              <path d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6" stroke="currentColor" stroke-width="1.5"></path>
+
+              <!-- Trash handle/body curve -->
+              <path d="M18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5M18.8334 8.5L18.6334 11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+
+              <!-- Two vertical bars -->
+              <line x1="10" y1="9" x2="10" y2="17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></line>
+              <line x1="14" y1="9" x2="14" y2="17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></line>
+            </svg> Clear All
+            </button>
+
+
+
+            <div class="shifted"> 
+              <div class="shift" style="font-size: 14px !important;" >
+                <!-- Plus Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14" fill="currentColor" style="margin-right: 4px;">
+                  <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                Add a Reward
+              </div>
+
+
+
+            </div>
+      
+          </div>
+          
+        
+
+
+        </div>
+
+
+
+
+
+        <div class="setting  column-setting">
+          <label style="display: flex; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" 
+                width="14" height="14" 
+                viewBox="0 0 24 24" 
+                fill="none" 
+                stroke="currentColor" 
+                stroke-width="2" 
+                stroke-linecap="round" 
+                stroke-linejoin="round" 
+                class="feather feather-check-circle">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            Condition
+          </label>
+
+
+          <div id="conditionContainerParent"  class="conditionContainerWrapper" style="display: none; flex-direction: column; gap: 10px; display: flex; margin-bottom: 20px;">
+
+          </div>
+
+          <div style="display: flex !important;  gap: 50px;">
+
+          <button id="clearAllCondition" class="clear-all-btn" title="Clear All Condition" style="white-space: nowrap;">
+            <svg width="15" height="15" class="triggerDeletePopup" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Trash lid -->
+              <path d="M20.5 6H3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+
+              <!-- Trash body -->
+              <path d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6" stroke="currentColor" stroke-width="1.5"></path>
+
+              <!-- Trash handle/body curve -->
+              <path d="M18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5M18.8334 8.5L18.6334 11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+
+              <!-- Two vertical bars -->
+              <line x1="10" y1="9" x2="10" y2="17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></line>
+              <line x1="14" y1="9" x2="14" y2="17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></line>
+            </svg> Clear All
+          </button>
+
+
+          <div class="shifted condtion">
+            <div class="conshift" style="font-size: 13px !important ; font-weight: 600;color: #F5F5F5 !important; ">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="#27ae60" style="vertical-align:middle;">
+                <path d="M12 5v14m7-7H5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Add condition
+            </div>
+
+
+          </div>
+
+        </div>
+
+        </div>
+        
+        <div class="setting"  style="display: flex !important; align-items: center; justify-content: space-between !important;">
+          <label style="display: flex; align-items: center;">
+          <svg xmlns="http://www.w3.org/2000/svg"  width="14" height="14"  fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6.429 9.75 2.25 12l4.179 2.25m0-4.5 5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0 4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0-5.571 3-5.571-3" />
+          </svg>
+            Module
+          </label>
+          <div class="modulepanate">{{ quest.title }}</div>
+        </div>
+
+
+        <div class="setting">
+          <label style="display: flex; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 8.689c0-.864.933-1.406 1.683-.977l7.108 4.061a1.125 1.125 0 0 1 0 1.954l-7.108 4.061A1.125 1.125 0 0 1 3 16.811V8.69ZM12.75 8.689c0-.864.933-1.406 1.683-.977l7.108 4.061a1.125 1.125 0 0 1 0 1.954l-7.108 4.061a1.125 1.125 0 0 1-1.683-.977V8.69Z" />
+            </svg>
+            Sprint
+          </label>
+          <div class="shift sprint-list" data-initr="{{ subquest.sprint_id }}">
+            {% if subquest.sprint_name %}
+              Sprint: {{ subquest.sprint_name }}
+            {% else %}
+              Add to sprint
+            {% endif %}
+          </div>
+        </div>
+
+
+
+
+
+        <div class="setting"  style="display: flex !important; align-items: center; justify-content: space-between !important;">
+          <label style="display: flex; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 50 50">
+            
+              <line x1="5" y1="40" x2="5" y2="10" stroke="white" stroke-width="3" />
+              <line x1="15" y1="40" x2="15" y2="10" stroke="white" stroke-width="3" />
+              <line x1="25" y1="40" x2="25" y2="10" stroke="white" stroke-width="3" />
+              <line x1="35" y1="40" x2="35" y2="10" stroke="white" stroke-width="3" />
+
+              <line x1="0" y1="10" x2="40" y2="40" stroke="white" stroke-width="3" />
+            </svg>            
+            Max Claims
+          </label>
+
+          <div class="number-input-wrapper">
+            <input 
+              type="number"
+              name="max_claim"
+              inputmode="numeric"
+              pattern="[0-9]*"
+              value="{{ subquest.max_claim if subquest.max_claim is not none else '' }}"
+              min="0">
+
+            <button class="clear" onclick="clearValue(this)"style="height: 100%;">×</button>
+            <div class="spinner" style="height: 100%;">
+              <button onclick="stepValue(this, 1)">▲</button>
+              <button onclick="stepValue(this, -1)">▼</button>
+            </div>
+          </div>
+
+        </div>
+
+
+
+        <div class="setting" style="width: 100%;"> 
+          <label class="toggle-row" style="display: flex; align-items: center; justify-content: space-between; width: 100%; ">
+
+            <div style="display: flex; gap: 4px; position: relative !important;">
+
+            
+            <svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 100 125"
+                fill="currentColor"
+                width="26"
+                height="26"
+                style="bottom: -6px; left: -7px; position: absolute;">
+              
+              <g id="main">
+                <path d="m33.03,32.8c5-4.88,11.6-7.56,18.58-7.56s13.13,2.51,18.05,7.06c4.9,4.53,7.91,10.67,8.46,17.29.09,1.12,1.03,1.97,2.14,1.97.06,0,.12,0,.18,0,1.18-.1,2.06-1.14,1.96-2.32-.65-7.69-4.14-14.82-9.83-20.08-5.2-4.8-11.81-7.64-18.82-8.13v-3.41h3.01c1.19,0,2.15-.96,2.15-2.15s-.96-2.15-2.15-2.15h-10.3c-1.19,0-2.15.96-2.15,2.15s.96,2.15,2.15,2.15h3.01v3.41c-7.31.5-14.14,3.55-19.44,8.71-.85.83-.87,2.19-.04,3.04.83.85,2.19.87,3.04.04Z"/>
+
+                <path d="m64.63,38.82c-.79-.79-2.05-.84-2.9-.12l-8.43,7.13c-.54-.15-1.1-.23-1.68-.23-3.44,0-6.24,2.8-6.24,6.24s2.8,6.24,6.24,6.24,6.24-2.8,6.24-6.24c0-.56-.07-1.1-.21-1.62l7.12-8.51c.72-.85.66-2.11-.13-2.9Z"/>
+
+                <path d="m58.19,77.64c-2.14.54-4.35.82-6.58.82-6.96,0-13.55-2.67-18.54-7.52-.85-.83-2.21-.81-3.04.04-.83.85-.81,2.21.04,3.04,5.8,5.63,13.45,8.73,21.53,8.73,2.58,0,5.15-.32,7.63-.95,1.15-.29,1.84-1.46,1.55-2.61-.29-1.15-1.46-1.84-2.61-1.55Z"/>
+              </g>
+
+              <g id="controls">
+                <path d="m13.76,41.35h16.07c1.19,0,2.15-.96,2.15-2.15s-.96-2.15-2.15-2.15H13.76c-1.19,0-2.15.96-2.15,2.15s.96,2.15,2.15,2.15Z"/>
+                <path d="m28.76,51.85c0-1.19-.96-2.15-2.15-2.15H8.15c-1.19,0-2.15.96-2.15,2.15s.96,2.15,2.15,2.15h18.47c1.19,0,2.15-.96,2.15-2.15Z"/>
+                <path d="m31.97,64.5c0-1.19-.96-2.15-2.15-2.15H13.76c-1.19,0-2.15.96-2.15,2.15s.96,2.15,2.15,2.15h16.07c1.19,0,2.15-.96,2.15-2.15Z"/>
+              </g>
+
+              <g id="badge">
+                <path d="m89.27,59.12c-3.05-3.05-7.1-4.73-11.42-4.73s-8.37,1.68-11.42,4.73c-3.05,3.05-4.73,7.1-4.73,11.42s1.68,8.37,4.73,11.42,7.1,4.73,11.42,4.73,8.37-1.68,11.42-4.73c3.05-3.05,4.73-7.1,4.73-11.42s-1.68-8.37-4.73-11.42Zm-11.42,23.27c-6.54,0-11.85-5.32-11.85-11.85s5.32-11.85,11.85-11.85,11.85,5.32,11.85,11.85-5.32,11.85-11.85,11.85Z"/>
+                <path d="m81.72,65.21l-6.29,6.29-1.61-1.61c-.84-.84-2.2-.84-3.04,0-.84.84-.84,2.2,0,3.04l3.12,3.12c.42.42.97.63,1.52.63s1.1-.21,1.52-.63l7.8-7.8c.84-.84.84-2.2,0-3.04-.84-.84-2.2-.84-3.04,0Z"/>
+              </g>
+
+            </svg>
+
+            <span class="toggle-label" style="position: relative; left: 25px">Instant Approval</span>
+            </div>
+
+            <div class="toggle-switch {{ 'on' if subquest.autovalidation else '' }}"
+                data-value="{{ 1 if subquest.autovalidation else 0 }}">
+              <div class="toggle-knob"></div>
+            </div>
+
+            <input type="hidden" name="autovalidation"
+                  value="{{ 1 if subquest.autovalidation else 0 }}">
+          </label>
+        </div>
+
+
+
+      </div>
+      </div>
+    </aside>
+  </div>
+
+
+
+  <template id="roleSelectTemplate">
+    <div class="role-select">
+      <div class="role-panel">
+        <div class="search-box" type="text">
+          <svg viewBox="0 0 24 24" fill="none">
+            <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+            <path d="M20 20L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <input 
+            type="search" 
+            class="serachesing" 
+            style="background-color: transparent; border: none;" 
+            placeholder="Search role..." 
+          />
+        </div>
+        <div class="role-divider"></div>
+
+        <!-- Placeholder for roles -->
+        <ul class="role-list">
+          <li class="role-item disabled">Loading roles...</li>
+        </ul>
+      </div>
+    </div>
+  </template>
+
+
+  <template id="customTemplate">
+    <div class="custombody" style="font-size: 12px; font-weight: bold;">
+      <div style="color: var(--text-muted); opacity: 1; font-weight: 520; margin-bottom: 5px;">Brief description of the reward</div>
+      <textarea class="customtext" placeholder="A ticket for an upcoming event"></textarea>
+    </div>
+  </template>
+
+
+
+
+  <template id="questSelectTemplate">
+    <div class="quest-select">
+      <div class="quest-panel">
+        <div class="search-box" type="text">
+          <svg viewBox="0 0 24 24" fill="none">
+            <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+            <path d="M20 20L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <input type="search" class="searchQuest" style="background-color: transparent; border: none;" placeholder="Search quest..." />
+        </div>
+        <div class="quest-divider"></div>
+          <ul class="quest-list">
+            {% for quest in quests %}
+              {% set other_subquests = quest['subquests'] | selectattr('uuid', 'ne', subquest.uuid) | list %}
+              {% if other_subquests|length > 0 %}
+                <li class="quest-item">
+                  {{ quest['title'] }}
+                  <ul class="subquest-list">
+                    {% for subquest in other_subquests %}
+                        <input type="hidden" class="selected-subquest-uuid" value="">
+
+                      <li class="subquest-item" data-subquest-id="{{ subquest['uuid'] }}">
+                        {{ subquest['name'] }}
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </li>
+              {% endif %}
+            {% else %}
+              <li class="quest-item disabled">No quests found</li>
+            {% endfor %}
+          </ul>
+
+
+      </div>
+    </div>
+  </template>
+
+  <div class="panel-select-init">
+    <div class="quest-panel">
+      <div class="search-box" type="text">
+        <svg viewBox="0 0 24 24" fill="none">
+          <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+          <path d="M20 20L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <input type="search" class="searchQuest" style="background-color: transparent; border: none;" placeholder="Search quest..." />
+      </div>
+      <div class="quest-divider"></div>
+        <ul class="quest-list">
+          {% for quest in quests %}
+            {% set other_subquests = quest['subquests'] | selectattr('uuid', 'ne', current_subquest_uuid) | list %}
+            {% if other_subquests|length > 0 %}
+              <li class="quest-item">
+                {{ quest['title'] }}
+                <ul class="subquest-list">
+                  {% for subquest in other_subquests %}
+                      <input type="hidden" class="selected-subquest-uuid" value="">
+
+                    <li class="subquest-item" data-subquest-id="{{ subquest['uuid'] }}">
+                      {{ subquest['name'] }}
+                    </li>
+                  {% endfor %}
+                </ul>
+              </li>
+            {% endif %}
+          {% else %}
+            <li class="quest-item disabled">No quests found</li>
+          {% endfor %}
+        </ul>
+
+
+    </div>
+  </div>
+
+
+
+
+  <div class="options recurrence">
+    <div class="option">None</div>
+    <div class="option">Daily</div>
+    <div class="option">Weekly</div>
+    <div class="option">Monthly</div>
+  </div>
+
+
+  <div id="sprintModal" class="modal">
+    <div class="modal-content">
+      <span class="close-sprint">
+        <svg
+          viewBox="0 0 24 24" width="15" height="15"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="currentColor"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z"
+          />
+        </svg>
+
+      </span>
+      <h3>Select Sprint</h3>
+      {% if current_sprint %}
+        <p>Latest Ongoing Sprint: <strong style="color: var(--text-muted) !important; font-weight: 550; font-size: 13px !important;">{{ current_sprint.title }}</strong></p>
+        <button id="selectSprintBtn" 
+                data-sprint-id="{{ current_sprint.id }}" 
+                data-sprint-name="{{ current_sprint.title }}">
+          {% if subquest.sprint_id == current_sprint.id %}
+            Undo
+          {% else %}
+            Select
+          {% endif %}
+        </button>
+      {% else %}
+        <p>No ongoing sprint for this community.</p>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="options cooldown">
+    <div class="option">None</div>
+    <div class="option">1 minutes</div>
+    <div class="option">5 minutes</div>
+    <div class="option">15 minutes</div>
+    <div class="option">30 minutes</div>
+    <div class="option">1 hour</div>
+    <div class="option">1 Week</div>
+    <div class="option">1 month</div>
+    <div class="option">No retry</div>
+  </div>
+
+
+  <div class="reward-dropdown">
+
+    <!-- XP -->
+    <div class="option" data-icon="fas fa-star" data-color="#297bff" data-text="XP" style="font-size: 13px !important;">
+    <svg viewBox="0 0 24 24" width="15" height="15"    xmlns="http://www.w3.org/2000/svg" stroke="#297bff" fill="#297bff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 5px;">
+      <path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z" />
+    </svg>
+      XP
+    </div>
+
+    <!-- Token -->
+    <div class="option" data-icon="fas fa-coins" data-color="#F7931A" data-text="Token" style="font-size: 13px !important;">
+    <svg xmlns="http://www.w3.org/2000/svg" 
+    viewBox="0 0 24 24" width="15" height="15" style="margin-right: 5px;"
+    fill="#F7931A">
+    <path transform="scale(0.046875)" d="M128 96l0-16c0-44.2 86-80 192-80S512 35.8 512 80l0 16c0 30.6-41.3 57.2-102 70.7-2.4-2.8-4.9-5.5-7.4-8-15.5-15.3-35.5-26.9-56.4-35.5-41.9-17.5-96.5-27.1-154.2-27.1-21.9 0-43.3 1.4-63.8 4.1-.2-1.3-.2-2.7-.2-4.1zM432 353l0-46.2c15.1-3.9 29.3-8.5 42.2-13.9 13.2-5.5 26.1-12.2 37.8-20.3l0 15.4c0 26.8-31.5 50.5-80 65zm0-96l0-33c0-4.5-.4-8.8-1-13 15.5-3.9 30-8.6 43.2-14.2s26.1-12.2 37.8-20.3l0 15.4c0 26.8-31.5 50.5-80 65zM0 240l0-16c0-44.2 86-80 192-80s192 35.8 192 80l0 16c0 44.2-86 80-192 80S0 284.2 0 240zm384 96c0 44.2-86 80-192 80S0 380.2 0 336l0-15.4c11.6 8.1 24.5 14.7 37.8 20.3 41.9 17.5 96.5 27.1 154.2 27.1s112.3-9.7 154.2-27.1c13.2-5.5 26.1-12.2 37.8-20.3l0 15.4zm0 80.6l0 15.4c0 44.2-86 80-192 80S0 476.2 0 432l0-15.4c11.6 8.1 24.5 14.7 37.8 20.3 41.9 17.5 96.5 27.1 154.2 27.1s112.3-9.7 154.2-27.1c13.2-5.5 26.1-12.2 37.8-20.3z"/>
+    </svg>
+
+    Token
+    </div>
+    
+    <!-- Role -->
+    <div class="option" data-icon="fab fa-discord" data-color="#5865F2" data-text="Role" style="font-size: 13px !important;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#5865F2" viewBox="0 0 24 24" style="margin-right: 5px;">
+        <path d="M20.318 4.36a19.8 19.8 0 0 0-4.885-1.517.075.075 0 0 0-.078.038c-.212.375-.445.866-.609 1.25a18.3 18.3 0 0 0-5.487 0 12 12 0 0 0-.618-1.25.075.075 0 0 0-.078-.038 19.9 19.9 0 0 0-4.885 1.517.06.06 0 0 0-.031.027C.534 9.036-.32 13.57.1 18.048q.005.033.032.056a19.9 19.9 0 0 0 5.992 3.03.075.075 0 0 0 .084-.028q.695-.945 1.227-1.994a.075.075 0 0 0-.016-.089l-.027-.017a13.5 13.5 0 0 1-1.872-.892.075.075 0 0 1-.03-.1l.022-.028q.191-.143.372-.292a.075.075 0 0 1 .077-.01c3.928 1.794 8.181 1.794 12.062 0a.075.075 0 0 1 .08.01q.181.149.372.292a.075.075 0 0 1-.006.127 12 12 0 0 1-1.873.891.075.075 0 0 0-.045.045.075.075 0 0 0 .004.062c.36.697.773 1.363 1.226 1.994a.075.075 0 0 0 .084.028 19.8 19.8 0 0 0 6.001-3.03.075.075 0 0 0 .032-.056c.501-5.176-.839-9.673-3.55-13.658a.045.045 0 0 0-.03-.029m-12.297 10.96c-1.184 0-2.157-1.085-2.157-2.419s.956-2.419 2.157-2.419c1.21 0 2.176 1.095 2.157 2.419 0 1.333-.956 2.419-2.157 2.419m7.974 0c-1.183 0-2.157-1.085-2.157-2.419s.956-2.419 2.157-2.419c1.21 0 2.177 1.095 2.157 2.419 0 1.333-.947 2.419-2.157 2.419"/>
+      </svg>
+      Role
+    </div>
+
+    <!-- Custom -->
+    <div class="option" data-icon="fas fa-edit" data-color="var(--text-muted)" data-text="Custom" style="font-size: 13px !important;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+          fill="none" stroke="var(--text-muted)" stroke-width="2"
+          viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 5px;">
+        <path d="M11 4H5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-7"/>
+        <path d="M18.2 2.8a2 2 0 0 1 2.8 2.8L12 14.8l-3.5.9.9-3.5L18.2 2.8z"/>
+      </svg>
+      Custom
+    </div>
+
+
+  </div>
+
+
+
+  <div class="condition">
+    <!-- Quest -->
+    <div class="option" style="font-size: 13px !important; display: flex; gap: 5px !important">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15" height="15" fill="#f39c12"style="margin-right: 5px;">
+        <g transform="scale(0.0416667)">
+          <path d="M0 112C0 70.5 31.6 36.4 72 32.4l0-.4 280 0c53 0 96 43 96 96l0 176-176 0c-39.8 0-72 32.2-72 72l0 60c0 24.3-19.7 44-44 44s-44-19.7-44-44l0-228-64 0c-26.5 0-48-21.5-48-48l0-48zM236.8 480c7.1-13.1 11.2-28.1 11.2-44l0-60c0-13.3 10.7-24 24-24l248 0c13.3 0 24 10.7 24 24l0 24c0 44.2-35.8 80-80 80l-227.2 0zM80 80c-17.7 0-32 14.3-32 32l0 48 64 0 0-48c0-17.7-14.3-32-32-32z"/>
+        </g>
+      </svg>
+      Quest
+    </div>
+
+    <!-- Level -->
+    <div class="option"  style="font-size: 13px !important; display: flex; gap: 5px !important">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15" height="15" style="color:#3498db; margin-right: 5px">
+        <g transform="scale(0.046875)">
+          <path fill="currentColor" d="M256 0c4.6 0 9.2 1 13.4 2.9L457.8 82.8c22 9.3 38.4 31 38.3 57.2-.5 99.2-41.3 280.7-213.6 363.2-16.7 8-36.1 8-52.8 0-172.4-82.5-213.1-264-213.6-363.2-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.9 1 251.4 0 256 0zm0 66.8l0 378.1c138-66.8 175.1-214.8 176-303.4l-176-74.6 0 0z"/>
+        </g>
+      </svg>
+      Level
+    </div>
+
+    <!-- Role -->
+    <div class="option"  style="font-size: 13px !important; display: flex; gap: 5px !important">
+      <svg xmlns="http://www.w3.org/2000/svg"width="15" height="15" viewBox="0 0 24 24" fill="#5865F2" style="margin-right: 5px;">
+        <path d="M20.318 4.36a19.8 19.8 0 0 0-4.885-1.517.075.075 0 0 0-.078.038c-.212.375-.445.866-.609 1.25a18.3 18.3 0 0 0-5.487 0 12 12 0 0 0-.618-1.25.075.075 0 0 0-.078-.038 19.9 19.9 0 0 0-4.885 1.517.06.06 0 0 0-.031.027C.534 9.036-.32 13.57.1 18.048q.005.033.032.056a19.9 19.9 0 0 0 5.992 3.03.075.075 0 0 0 .084-.028q.695-.945 1.227-1.994a.075.075 0 0 0-.016-.089l-.027-.017a13.5 13.5 0 0 1-1.872-.892.075.075 0 0 1-.03-.1l.022-.028q.191-.143.372-.292a.075.075 0 0 1 .077-.01c3.928 1.794 8.181 1.794 12.062 0a.075.075 0 0 1 .08.01q.181.149.372.292a.075.075 0 0 1-.006.127 12 12 0 0 1-1.873.891.075.075 0 0 0-.045.045.075.075 0 0 0 .004.062c.36.697.773 1.363 1.226 1.994a.075.075 0 0 0 .084.028 19.8 19.8 0 0 0 6.001-3.03.075.075 0 0 0 .032-.056c.501-5.176-.839-9.673-3.55-13.658a.045.045 0 0 0-.03-.029m-12.297 10.96c-1.184 0-2.157-1.085-2.157-2.419s.956-2.419 2.157-2.419c1.21 0 2.176 1.095 2.157 2.419 0 1.333-.956 2.419-2.157 2.419m7.974 0c-1.183 0-2.157-1.085-2.157-2.419s.956-2.419 2.157-2.419c1.21 0 2.177 1.095 2.157 2.419 0 1.333-.947 2.419-2.157 2.419"/>
+      </svg>
+      Role
+    </div>
+
+    <!-- Date -->
+    <div class="option" style="font-size: 13px !important; display: flex; gap: 5px !important">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" width="15" height="15"
+          stroke="currentColor" stroke-width="2" style="color:#e74c3c; margin-right: 5px;"
+          stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="4" width="18" height="17" rx="4" ry="4"/>
+        <line x1="7.25" y1="2.5" x2="7.25" y2="5.5" />
+        <line x1="15.25" y1="2.5" x2="15.25" y2="5.5" />
+        <line x1="6" y1="9" x2="18" y2="9" />
+        <circle cx="8" cy="13" r="0.4" fill="currentColor"/>
+        <circle cx="12" cy="13" r="0.4" fill="currentColor"/>
+        <circle cx="16" cy="13" r="0.4" fill="currentColor"/>
+        <circle cx="8" cy="16.5" r="0.4" fill="currentColor"/>
+        <circle cx="12" cy="16.5" r="0.4" fill="currentColor"/>
+        <circle cx="16" cy="16.5" r="0.4" fill="currentColor"/>
+      </svg>
+      Date
+    </div>
+
+    <!-- Followers -->
+    <div class="option" style="font-size: 13px !important; display: flex; gap: 5px !important">
+      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" viewBox="0 0 24 24" style="color:#000000; margin-right: 5px">
+        <path d="M18.9 1.125h3.681l-8.04 9.213L24 22.875h-7.405l-5.8-7.605-6.637 7.605H.474l8.6-9.855L0 1.125h7.595l5.243 6.95L18.901 1.125Zm-1.29 19.542h2.04L6.484 3.217H4.297z"/>
+      </svg>
+      Followers
+    </div>
+  </div>
+
+
+
+
+  <div id="highlight-toolbar">
+    <div class="tb-btn" data-action="bold"></div>
+    <div class="tb-divider"></div>
+
+    <div class="tb-btn" data-action="italic"></div>
+    <div class="tb-divider"></div>
+
+    <div class="tb-btn" data-action="underline"></div>
+    <div class="tb-divider"></div>
+
+    <div class="tb-btn" data-action="strike"></div>
+
+    <div class="tb-divider vertical"></div>
+
+    <div class="tb-btn link-btn" data-action="link"></div>
+  </div>
+
+
+
+
+
+   
+
+
+  <template id="levelDropdownTemplate">
+    <div class="level-dropdown">
+      <input type="number" placeholder="Enter level">
+    </div>
+  </template>
+
+  <!-- Custom Popup Modal -->
+  <div class="custom-popup-modal" id="discordPopup">
+    <div class="custom-popup-content">
+      <h3>Discord Connection Required</h3>
+      <p>To unlock this reward, link your Discord server in <a href="{{ url_for('settings_integrations_discord', community_slug=community_slug) }}" target="_blank" class="target-link-into" style="text-decoration: none; color: curentColor; border-bottom: 1px solid currentColor ;">Settings</a></p>
+    </div>
+  </div>
+
+
+  <div id="xpInputWrapper">
+    <input type="text" class="termsin">
+  </div>
+
+
+  <div class="popup" id="popup">
+    <div class="popup-content" style="position: relative;">
+      <div class="the-main-the-main">
+        <div class="popup-header-close">
+          <span class="close" id="closePopup">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z"
+                fill="currentColor"/>
+            </svg>
+
+          </span>
+        </div>
+      </div>
+      <div class="task-container">
+        
+        <!-- Left Column -->
+        <div class="task-column">
+          <div class="section-title">Actions</div>
+          <div data-file="visit_link" class="task-item"><span class="icon blue"><svg fill="#fff" stroke="#fff" width="12" height="12" viewBox="0 0 54.971 54.971" xmlns="http://www.w3.org/2000/svg">
+            <g transform="translate(1,1) scale(0.96)">
+              <path d="M51.173,3.801c-5.068-5.068-13.315-5.066-18.384,0l-9.192,9.192c-0.781,0.781-0.781,2.047,0,2.828
+                c0.781,0.781,2.047,0.781,2.828,0l9.192-9.192c1.691-1.69,3.951-2.622,6.363-2.622c2.413,0,4.673,0.932,6.364,2.623
+                s2.623,3.951,2.623,6.364c0,2.412-0.932,4.672-2.623,6.363L36.325,31.379c-3.51,3.508-9.219,3.508-12.729,0
+                c-0.781-0.781-2.047-0.781-2.828,0s-0.781,2.048,0,2.828c2.534,2.534,5.863,3.801,9.192,3.801s6.658-1.267,9.192-3.801
+                l12.021-12.021c2.447-2.446,3.795-5.711,3.795-9.192C54.968,9.512,53.62,6.248,51.173,3.801z"
+                stroke="#ff" stroke-width="2"/>
+              <path d="M27.132,40.57l-7.778,7.778c-1.691,1.691-3.951,2.623-6.364,2.623c-2.412,0-4.673-0.932-6.364-2.623
+                c-3.509-3.509-3.509-9.219,0-12.728L17.94,24.306c1.691-1.69,3.951-2.622,6.364-2.622c2.412,0,4.672,0.932,6.363,2.622
+                c0.781,0.781,2.047,0.781,2.828,0s0.781-2.047,0-2.828c-5.067-5.067-13.314-5.068-18.384,0L3.797,32.793
+                c-2.446,2.446-3.794,5.711-3.794,9.192c0,3.48,1.348,6.745,3.795,9.191c2.446,2.447,5.711,3.795,9.191,3.795
+                c3.481,0,6.746-1.348,9.192-3.795l7.778-7.778c0.781-0.781,0.781-2.047,0-2.828S27.913,39.789,27.132,40.57z"
+                stroke="#fff" stroke-width="2"/>
+            </g>
+          </svg></span><div class="task-text"><div class="task-title">Visit link</div><div class="task-desc">Check out a specific link</div></div></div>
+          <div data-file="invite" data-community="{{ community.slug }}" class="task-item"><span class="icon green"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#fff">
+          <path fill="#ffffff" transform="scale(0.0375)" d="M112 128C85.5 128 64 149.5 64 176C64 191.1 71.1 205.3 83.2 214.4L291.2 370.4C308.3 383.2 331.7 383.2 348.8 370.4L556.8 214.4C568.9 205.3 576 191.1 576 176C576 149.5 554.5 128 528 128L112 128zM64 260L64 448C64 483.3 92.7 512 128 512L512 512C547.3 512 576 483.3 576 448L576 260L377.6 408.8C343.5 434.4 296.5 434.4 262.4 408.8L64 260z"/>
+        </svg></span><div class="task-text"><div class="task-title">Invites</div><div class="task-desc">Invite people to join the community</div></div></div>
+          <div  class="task-item" ><span class="icon purple">
+            <svg viewBox="0 0 35.033 35.033" xmlns="http://www.w3.org/2000/svg" fill="#fff" width="16" height="16">
+              <path d="M11.811,10.535l-6.983,6.984l6.983,6.981c0.78,0.781,0.78,2.048,0,2.828c-0.392,0.392-0.901,0.586-1.414,0.586
+              c-0.513,0-1.022-0.194-1.414-0.586l-8.397-8.396C0.211,18.558,0,18.049,0,17.519c0-0.529,0.211-1.039,0.586-1.414l8.397-8.398
+              c0.781-0.78,2.047-0.78,2.828,0C12.591,8.488,12.591,9.752,11.811,10.535z M34.447,16.104l-8.396-8.398
+              c-0.781-0.78-2.047-0.78-2.828,0c-0.781,0.781-0.781,2.047,0,2.828l6.982,6.984L23.223,24.5c-0.781,0.781-0.781,2.048,0,2.828
+              c0.392,0.392,0.902,0.586,1.414,0.586s1.023-0.194,1.414-0.586l8.396-8.396c0.375-0.375,0.586-0.884,0.586-1.414
+              C35.033,16.99,34.822,16.479,34.447,16.104z M21.012,3.831c-1.076-0.277-2.161,0.373-2.435,1.441l-6,23.498
+              c-0.272,1.07,0.373,2.16,1.442,2.434c0.167,0.043,0.334,0.063,0.497,0.063c0.894,0,1.706-0.603,1.937-1.505l6-23.498
+              C22.727,5.193,22.081,4.104,21.012,3.831z"/>
+            </svg>
+          </span><div class="task-text"><div class="task-title">API</div><div class="task-desc">Trigger an action on another platform</div></div></div>
+          <div data-file="partnership_arial" class="task-item"><span class="icon green"><svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 24 24" width="16" height="16">
+            <path transform="scale(0.0375)" d="
+              M300.9 149.2
+              L184.3 278.8
+              C179.7 283.9 179.9 291.8 184.8 296.7
+              C215.3 327.2 264.8 327.2 295.3 296.7
+              L327.1 264.9
+              C331.3 260.7 336.6 258.4 342 258
+              C348.8 257.4 355.8 259.7 361 264.9
+              L537.6 440
+              L608 384
+              L608 96
+              L496 160
+              L472.2 144.1
+              C456.4 133.6 437.9 128 418.9 128
+              L348.5 128
+              C347.4 128 346.2 128 345.1 128.1
+              C328.2 129 312.3 136.6 300.9 149.2
+              z
+              M148.6 246.7
+              L255.4 128
+              L215.8 128
+              C190.3 128 165.9 138.1 147.9 156.1
+              L144 160
+              L32 96
+              L32 384
+              L188.4 514.3
+              C211.4 533.5 240.4 544 270.3 544
+              L286 544
+              L279 537
+              C269.6 527.6 269.6 512.4 279 503.1
+              C288.4 493.8 303.6 493.7 312.9 503.1
+              L353.9 544.1
+              L362.9 544.1
+              C382 544.1 400.7 539.8 417.7 531.8
+              L391 505
+              C381.6 495.6 381.6 480.4 391 471.1
+              C400.4 461.8 415.6 461.7 424.9 471.1
+              L456.9 503.1
+              L474.4 485.6
+              C483.3 476.7 485.9 463.8 482 452.5
+              L344.1 315.7
+              L329.2 330.6
+              C279.9 379.9 200.1 379.9 150.8 330.6
+              C127.8 307.6 126.9 270.7 148.6 246.6
+              z
+            "/>
+          </svg></span><div class="task-text"><div class="task-title">Partnership</div><div class="task-desc">Verify user joined a partner community</div></div></div>
+          <div data-file="partnership_quest" class="task-item"><span class="icon violet">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#fff" width="16" height="16" >
+              <path d="M3 5.5L8 4v15l-5 1.5V5.5z"  />
+              <path d="M9 4l6 1.5v15L9 19V4z" />
+              <path d="M16 5.5l5-1.5v15l-5 1.5V5.5z"/>
+            </svg>
+          </span><div class="task-text"><div class="task-title">Partnership Quest</div><div class="task-desc">Verify a claimed quest in a partner community</div></div></div>
+          <div data-file="proof_of_humanity" class="task-item"><span class="icon purple"><svg class="icon-fix" fill="#fff" stroke="#fff" viewBox="0 0 24 24" width="16px" height="16px"
+              xmlns="http://www.w3.org/2000/svg">
+            <g transform="scale(0.2213)">
+              <path fill="#fff" stroke="#fff" d="M90.288,24.301l-9.181,3.078l1.054,3.144c-0.401-0.54-0.813-1.07-1.244-1.587l-1.727-5.15l4.583-1.535l-3.08-9.183 
+                l-9.182,3.078l2.014,6.003c-4.973-3.456-10.87-5.73-17.421-6.32c-0.078-0.007-0.146,0.003-0.222,0.002 
+                c-0.005,0-0.01-0.002-0.016-0.002c-21.993-0.762-45.111,12.02-43.113,36.752c0.008,0.1,0.033,0.189,0.051,0.282 
+                c-0.029,0.256-0.029,0.524,0.033,0.815c1.206,5.644-0.645,10.605-5.278,14.065c-0.212,0.159-0.375,0.34-0.517,0.528 
+                c-0.468,0.309-0.838,0.781-1.037,1.352c-0.869,2.494-0.209,5.033,1.784,6.768c0.329,0.287,0.709,0.48,1.105,0.586 
+                c1.287,0.711,2.632,1.184,4.029,1.514c-0.287,1.549-0.146,3.115,0.6,4.59c-1.393,2.715-0.468,5.71,2.282,7.346 
+                c0.155,0.092,0.31,0.161,0.462,0.217c0.467,0.555,0.512,1.446,0.34,2.306c-0.053,0.263-0.06,0.524-0.04,0.78 
+                c-0.012,0.232-0.005,0.47,0.04,0.707c0.725,3.804,3.973,5.902,7.69,5.971c0.2,0.004,0.385-0.016,0.559-0.051 
+                c0.172,0.006,0.352-0.004,0.538-0.033c5.969-0.967,12.765-0.428,15.007,6.129c0.448,1.311,1.646,1.754,2.719,1.581 
+                c0.362,0.271,0.838,0.426,1.438,0.384c10.816-0.756,21.537-2.327,32.276-3.77c0.38-0.051,0.709-0.174,0.993-0.348 
+                c1.302-0.404,2.354-1.863,1.513-3.434c-7.176-13.381,7.371-27.975,10.133-40.827c0.061-0.276,0.061-0.535,0.036-0.78 
+                c1.132-8.181-0.38-16.244-3.906-23.172l7.765-2.602L90.288,24.301z M79.442,15.456l1.808,5.39l-5.39,1.806l-1.808-5.389 
+                L79.442,15.456z M78.711,46.361l-5.389,1.807l-1.807-5.39l-5.39,1.807l-1.722-5.136l-5.389,1.807l-1.808-5.389l5.39-1.808 
+                l1.722,5.136l5.389-1.807l-1.722-5.135l5.389-1.808l-1.807-5.389l5.39-1.809l1.809,5.39l-5.392,1.808l1.809,5.39l-5.39,1.807 
+                l1.723,5.135l5.389-1.807l-1.665-4.967l5.39-1.807l1.808,5.389l-5.391,1.808L78.711,46.361z M85.455,33.885l-1.807-5.389 
+                l5.389-1.807l1.808,5.39L85.455,33.885z"></path>
+            </g>
+          </svg></span><div class="task-text"><div class="task-title">Proof of humanity</div><div class="task-desc">Click to verify identity</div></div></div>
+          
+          <div class="section-title bottom">Social</div>
+
+
+          <div data-file="github" class="task-item">
+            <span class="icon" style="background:#24292e; color:#fff">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+              </svg>
+            </span>
+            <div class="task-text">
+              <div class="task-title">GitHub</div>
+              <div class="task-desc">Fork & star a repository</div>
+            </div>
+          </div>
+          <div  data-file="rankingup"  class="task-item"><span class="icon violet"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-discord" viewBox="0 0 24 24">
+            <path d="M20.318 4.36a19.8 19.8 0 0 0-4.885-1.517.075.075 0 0 0-.078.038c-.212.375-.445.866-.609 1.25a18.3 18.3 0 0 0-5.487 0 12 12 0 0 0-.618-1.25.075.075 0 0 0-.078-.038 19.9 19.9 0 0 0-4.885 1.517.06.06 0 0 0-.031.027C.534 9.036-.32 13.57.1 18.048q.005.033.032.056a19.9 19.9 0 0 0 5.992 3.03.075.075 0 0 0 .084-.028q.695-.945 1.227-1.994a.075.075 0 0 0-.016-.089l-.027-.017a13.5 13.5 0 0 1-1.872-.892.075.075 0 0 1-.03-.1l.022-.028q.191-.143.372-.292a.075.075 0 0 1 .077-.01c3.928 1.794 8.181 1.794 12.062 0a.075.075 0 0 1 .08.01q.181.149.372.292a.075.075 0 0 1-.006.127 12 12 0 0 1-1.873.891.075.075 0 0 0-.045.045.075.075 0 0 0 .004.062c.36.697.773 1.363 1.226 1.994a.075.075 0 0 0 .084.028 19.8 19.8 0 0 0 6.001-3.03.075.075 0 0 0 .032-.056c.501-5.176-.839-9.673-3.55-13.658a.045.045 0 0 0-.03-.029m-12.297 10.96c-1.184 0-2.157-1.085-2.157-2.419s.956-2.419 2.157-2.419c1.21 0 2.176 1.095 2.157 2.419 0 1.333-.956 2.419-2.157 2.419m7.974 0c-1.183 0-2.157-1.085-2.157-2.419s.956-2.419 2.157-2.419c1.21 0 2.177 1.095 2.157 2.419 0 1.333-.947 2.419-2.157 2.419"/>
+          </svg></span><div class="task-text"><div class="task-title">Discord</div><div class="task-desc">Join a Discord server</div></div></div>
+
+          {% if community.twitter_account and community.twitter_account.action == "connected" %}
+            <div data-file="twitter" class="task-item"><span class="icon tiktok">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+              </svg>
+            </span><div class="task-text"><div class="task-title">Twitter</div><div class="task-desc">Tweet, retweet, reply, like, follow or join a Twitter Space</div></div></div> 
+          {% else %}
+          <div class="task-non"><span class="icon tiktok">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-twitter-x" viewBox="0 0 16 16">
+            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+          </svg>
+          </span><div class="task-text"><div class="task-title" style="color: var(--text-main);">Twitter</div><div class="task-desc">Connect your Twitter account in
+            <a class="subsettings" href="{{ url_for('settings_integrations_twitter', community_slug=community_slug) }}" style="width: fit-content; display:inline;">
+
+            Settings
+          </a> to use this tasks </div></div></div>
+          {% endif %}
+
+          <div data-file="test" class="task-item"><span class="icon telegram"><svg xmlns="http://www.w3.org/2000/svg" 
+              width="16" height="16" 
+              fill="currentColor" 
+              viewBox="0 0 24 24">
+            <path d="M24 12A12 12 0 1 1 0 12a12 12 0 0 1 24 0m-11.568-3.141q-1.752.729-7 3.015-.85.337-.893.662c-.045.364.412.509 1.035.705l.263.083c.612.2 1.437.432 1.864.44q.585.015 1.302-.48 4.903-3.309 5.061-3.345c.075-.018.18-.039.249.024s.063.18.056.212c-.045.194-1.841 1.861-2.769 2.725-.29.27-.495.46-.537.504a12 12 0 0 1-.282.279c-.57.549-.996.96.022 1.632.491.324.883.589 1.274.857.426.292.852.58 1.404.944q.21.138.404.28c.497.354.945.672 1.496.621.32-.03.652-.33.821-1.23.398-2.125 1.179-6.729 1.36-8.627a2.1 2.1 0 0 0-.02-.473.51.51 0 0 0-.171-.326.8.8 0 0 0-.465-.14c-.45.008-1.144.249-4.476 1.635"/>
+            </svg></span><div class="task-text"><div class="task-title">Telegram</div><div class="task-desc">Join a Telegram channel</div></div>
+          </div>
+          <div data-file="tiktok" class="task-item"><span class="icon tiktok">
+            <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#fff" width="16" height="16" >
+              <path d="M16.708 0.027c1.745-0.027 3.48-0.011 5.213-0.027 0.105 2.041 0.839 4.12 2.333 5.563 1.491 1.479 3.6 2.156 5.652 2.385v5.369c-1.923-0.063-3.855-0.463-5.6-1.291-0.76-0.344-1.468-0.787-2.161-1.24-0.009 3.896 0.016 7.787-0.025 11.667-0.104 1.864-0.719 3.719-1.803 5.255-1.744 2.557-4.771 4.224-7.88 4.276-1.907 0.109-3.812-0.411-5.437-1.369-2.693-1.588-4.588-4.495-4.864-7.615-0.032-0.667-0.043-1.333-0.016-1.984 0.24-2.537 1.495-4.964 3.443-6.615 2.208-1.923 5.301-2.839 8.197-2.297 0.027 1.975-0.052 3.948-0.052 5.923-1.323-0.428-2.869-0.308-4.025 0.495-0.844 0.547-1.485 1.385-1.819 2.333-0.276 0.676-0.197 1.427-0.181 2.145 0.317 2.188 2.421 4.027 4.667 3.828 1.489-0.016 2.916-0.88 3.692-2.145 0.251-0.443 0.532-0.896 0.547-1.417 0.131-2.385 0.079-4.76 0.095-7.145 0.011-5.375-0.016-10.735 0.025-16.093z"/>
+            </svg>
+          </span><div class="task-text"><div class="task-title">TikTok</div><div class="task-desc">Post a TikTok video</div></div></div>
+
+          
+          
+          <div data-file="youtube" class="task-item">
+            <span class="icon youtube">    
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12.076 2.999h.134c1.233.004 7.48.05 9.165.503a3.015 3.015 0 0 1 2.123 2.13c.151.57.258 1.325.33 2.104l.015.156.033.39.012.156c.098 1.37.11 2.655.111 2.935v.113c-.002.291-.015 1.662-.123 3.09l-.012.158-.013.156c-.075.857-.186 1.711-.353 2.337a3.015 3.015 0 0 1-2.123 2.13c-1.74.468-8.354.501-9.27.502h-.213c-.464 0-2.38-.009-4.39-.078l-.255-.009-.131-.006-.256-.01-.256-.01c-1.665-.073-3.25-.192-3.981-.39a3.015 3.015 0 0 1-2.123-2.13c-.166-.626-.277-1.48-.353-2.337l-.012-.156-.012-.158A46.5 46.5 0 0 1 0 11.52v-.185c.003-.322.015-1.437.096-2.667l.011-.154.005-.078.012-.156.033-.39.015-.156c.072-.78.179-1.535.33-2.104a3.015 3.015 0 0 1 2.123-2.13c.73-.195 2.315-.315 3.981-.39l.256-.01.258-.009.13-.004.256-.01A150 150 0 0 1 11.787 3zM9.6 7.813v7.227l6.236-3.612z"/>
+              </svg>
+            </span>
+            <div class="task-text">
+              <div class="task-title">Youtube</div>
+              <div class="task-desc">Like,comment or subcribe</div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Right Column -->
+        <div class="task-column">
+          <div class="section-title">Answers</div>
+          <div data-file="selector" class="task-item"><span class="icon pink"><svg viewBox="0 0 24 24" fill="none" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+            <path d="M13.5 3H12H8C6.34315 3 5 4.34315 5 6V18C5 19.6569 6.34315 21 8 21H12M13.5 3L19 8.625M13.5 3V7.625C13.5 8.17728 13.9477 8.625 14.5 8.625H19M19 8.625V11.8125" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M17.5 21L17.5 15M17.5 15L20 17.5M17.5 15L15 17.5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          </span><div class="task-text"><div class="task-title">File upload</div><div class="task-desc">Upload an image or file</div></div></div>
+
+            <div data-file="puzzle" class="task-item">
+              <span class="icon purple-puzzle">
+                <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" width="16" height="16" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill="#fff" clip-rule="evenodd" viewBox="0 0 495 511.962"><path d="M62.686 511.962h372.371l-36.089-62.816L495 366.77c-28.169-39.57-62.177-73.186-83.426-82.313 4.492-11.642 5.27-13.683 1.515-20.139 39.914-11.352 66.091-27.943 66.035-49.863-.059-23.9-34.387-46.861-85.543-54.849-12.249-51.822-24.432-92.624-39.938-119.402-2.82-4.867-5.749-9.275-8.811-13.195-46.162-59.204-62.34-2.606-95.067-2.672-37.938-.077-42.766-52.014-92.236-3.124-5.32 5.258-10.296 11.648-14.938 19.092-16.825 26.955-29.385 67.801-38.669 119.301-54.538 10.31-88.209 33.076-87.091 56.325 1.012 21.062 27.574 37.207 67.494 48.355-2.624 8.118-2.006 9.511 1.55 19.503C56.059 296.357 24.902 334.551 0 367.998l96.902 81.148-34.216 62.816zm184.129-101.745c8.695 0 15.746 7.053 15.746 15.748 0 8.693-7.051 15.746-15.746 15.746s-15.745-7.053-15.745-15.746c0-8.695 7.05-15.748 15.745-15.748zm-43.494-72.864c0-2.911.483-5.876 1.432-8.873 1.994-6.363 5.997-12.39 10.917-16.854 5.737-5.213 12.947-8.985 20.488-10.746 17.9-4.172 40.37.352 51 16.562l.13.219c6.033 9.281 7.471 22.053 2.16 31.982-3.503 6.559-7.651 10.311-12.944 15.198l-8.663 7.843-2.411 2.272c-3.162 3.131-4.364 4.935-5.562 9.672l-.796 3.524c-.68 3.494-2.097 6.189-4.242 8.059l-.207.165c-2.216 1.841-5.06 2.767-8.512 2.767-3.698 0-6.876-1.234-9.45-3.695-1.349-1.293-2.352-2.885-3.009-4.758-.612-1.757-.917-3.731-.917-5.914 0-8.881 2.663-16.615 8.725-23.186 4.405-4.781 9.548-9.13 14.42-13.45 3.604-3.29 7.683-6.95 7.683-12.207 0-8.204-7.05-12.6-14.532-12.6-7.61 0-11.106 2-14.668 8.642-1.131 2.121-2.166 4.573-3.089 7.352-1.125 3.674-2.805 6.494-5.033 8.44-8.662 7.557-22.92.622-22.92-10.414zM379.85 268.38l.538 3.545 3.092 20.384c30.035-5.503 9.778 69.444-14.87 65.515-4.251 13.322-7.139 39.976-10.879 49.934-34.937 93-184.185 87.349-219.85-6.156-3.527-9.243-6.82-35.042-10.903-46.838-26.757 6.684-43.251-69.348-13.819-62.836l3.373-20.225.574-3.447.305-1.819c83.026 18.029 182.824 16.091 262.214.455l.225 1.488zm-260.025-97.561l7.198-24.639c46.656 39.159 207.874 33.023 243.016 0l6.065 24.639c-40.982 43.351-212.466 37.461-256.279 0z"/>
+                </svg>
+
+
+<!--                   
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 1536.000000 1024.000000" preserveAspectRatio="xMidYMid meet" width="24" height="24" fill="#fff" style="position: relative; top: 1px; right: 1.5px;">
+
+                    <g transform="translate(0.000000,1024.000000) scale(0.12,-0.12)" stroke="none">
+                    <path d="M7830 8968 c-65 -25 -91 -49 -982 -938 -335 -333 -615 -606 -623 -608 -8 -2 -23 11 -34 29 -37 60 -51 155 -51 337 0 266 -35 402 -146 568 -154 233 -401 364 -686 364 -356 0 -685 -254 -794 -615 -24 -80 -27 -107 -28 -240 -1 -126 3 -163 22 -234 73 -269 282 -496 539 -586 86 -30 233 -55 323 -55 36 0 97 -5 135 -10 73 -11 175 -53 175 -73 0 -12 -106 -118 -926 -927 -470 -464 -503 -499 -535 -565 -29 -61 -33 -80 -33 -150 -1 -154 -40 -107 761 -901 779 -772 731 -715 635 -749 -35 -13 -102 -19 -262 -25 -118 -5 -228 -11 -245 -15 -16 -4 -75 -29 -130 -55 -242 -117 -404 -339 -446 -610 -55 -362 167 -755 526 -930 163 -80 326 -109 502 -89 191 20 346 94 491 233 186 179 247 323 262 621 9 169 24 253 47 262 8 3 127 -107 316 -294 480 -476 1096 -1075 1130 -1100 54 -40 131 -63 210 -63 59 0 83 5 137 31 61 28 159 124 1440 1402 756 755 1533 1529 1727 1721 243 241 360 364 380 400 25 45 28 61 28 141 0 74 -4 98 -23 137 -17 35 -136 156 -485 495 -254 246 -575 558 -713 694 -138 135 -267 258 -287 273 -48 37 -69 28 -98 -37 -21 -47 -23 -72 -29 -267 -6 -210 -7 -217 -40 -315 -89 -263 -312 -460 -585 -516 -332 -69 -666 62 -875 342 -70 95 -131 219 -161 329 -33 124 -33 314 0 420 75 240 250 422 487 504 100 35 167 44 369 51 203 6 288 18 334 46 35 21 39 42 13 81 -28 42 -68 83 -786 788 -459 451 -691 673 -723 690 -66 35 -185 39 -263 8z"/>
+                    </g>
+                </svg> -->
+              </span>
+
+              <div class="task-text">
+                <div class="task-title">Puzzle</div>
+                <div class="task-desc">Solve a riddle or enter a secret code</div>
+              </div>
+            </div>
+
+          <div data-file="quizpoll" class="task-item"><span class="icon" style="background-color: var(--accent-poll);"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M6 3.6C4.7 3.6 3.6 4.7 3.6 6V18C3.6 19.3 4.7 20.4 6 20.4H18C19.3 20.4 20.4 19.3 20.4 18V6C20.4 4.7 19.3 3.6 18 3.6H6zM8.1 10.8C8.6 10.8 9 11.3 9 11.7V16.2C9 16.7 8.6 17.1 8.1 17.1C7.6 17.1 7.2 16.7 7.2 16.2V11.7C7.2 11.3 7.6 10.8 8.1 10.8zM15 14C15 13.2 15.4 12.8 16 12.8C16.6 12.8 17 13.2 17 14V16.2C17 16.7 16.6 17.1 16 17.1C15.4 17.1 15 16.7 15 16.2V14zM12 7.2C12.4 7.2 12.9 7.6 12.9 8.1V16.2C12.9 16.7 12.4 17.1 12 17.1C11.6 17.1 11.1 16.7 11.1 16.2V8.1C11.1 7.6 11.6 7.2 12 7.2z"/>
+          </svg></span><div class="task-text"><div class="task-title">Poll</div><div class="task-desc">Vote in a poll</div></div></div>
+          <div data-file="quiz" class="task-item"><span class="icon" style="background-color: var(--accent-quiz);"><svg xmlns="http://www.w3.org/2000/svg" fill="#fff"  width="16" height="16" viewBox="0 0 24 24">
+            <path transform="scale(0.0375)" d="M184 120C184 89.1 209.1 64 240 64L264 64C281.7 64 296 78.3 296 96L296 544C296 561.7 281.7 576 264 576L232 576C202.2 576 177.1 555.6 170 528C169.3 528 168.7 528 168 528C123.8 528 88 492.2 88 448C88 430 94 413.4 104 400C84.6 385.4 72 362.2 72 336C72 305.1 89.6 278.2 115.2 264.9C108.1 252.9 104 238.9 104 224C104 179.8 139.8 144 184 144L184 120zM456 120L456 144C500.2 144 536 179.8 536 224C536 239 531.9 253 524.8 264.9C550.5 278.2 568 305 568 336C568 362.2 555.4 385.4 536 400C546 413.4 552 430 552 448C552 492.2 516.2 528 472 528C471.3 528 470.7 528 470 528C462.9 555.6 437.8 576 408 576L376 576C358.3 576 344 561.7 344 544L344 96C344 78.3 358.3 64 376 64L400 64C430.9 64 456 89.1 456 120z"/>
+          </svg></span><div class="task-text"><div class="task-title">Quiz</div><div class="task-desc">Answer a quiz with multiple choices</div></div></div>
+          <div data-file="textform" class="task-item"><span class="icon yellow"><svg fill="#fff" width="16" height="16"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <g transform="translate(0,0) scale(0.0629)">
+              <path d="M34.249,246.497l63.655,25.155V5.1c0-2.818,2.29-5.094,5.103-5.1h51.022c2.811,0.006,5.096,2.282,5.096,5.094v266.559 
+                l63.658-25.155c2.134-0.824,4.569-0.147,5.943,1.675c1.39,1.839,1.378,4.36-0.022,6.178l-96.136,125.057 
+                c-0.971,1.261-2.466,1.994-4.053,1.998c-1.573,0-3.074-0.737-4.041-1.998L28.333,254.35c-0.705-0.92-1.058-2.019-1.053-3.106 
+                c0-1.063,0.336-2.157,1.021-3.082C29.682,246.35,32.115,245.66,34.249,246.497z 
+                M354.125,244.402h-21.907l-12.364-29.736h-37.228l-12.027,29.736h-21.407l41.452-99.561h21.861L354.125,244.402z 
+                M314.653,200.095l-9.91-23.779c-1.412-3.374-2.571-6.58-3.599-9.677c-1.144,3.429-2.266,6.528-3.405,9.476l-9.948,23.974h26.862V200.095z 
+                M340.509,267.006h-83.718V282.3h56.287l-61.786,73.763v10.518h90.071v-15.289h-62.305l61.438-73.472v-10.813H340.509z"/>
+            </g>
+          </svg></i></span><div class="task-text"><div class="task-title">Text</div><div class="task-desc">Answer in text form</div></div></div>
+          <div data-file="nums" class="task-item"><span class="icon" style="background-color: var(--accent-numbers);"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="17" height="17" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.242 5.992h12m-12 6.003H20.24m-12 5.999h12M4.117 7.495v-3.75H2.99m1.125 3.75H2.99m1.125 0H5.24m-1.92 2.577a1.125 1.125 0 1 1 1.591 1.59l-1.83 1.83h2.16M2.99 15.745h1.125a1.125 1.125 0 0 1 0 2.25H3.74m0-.002h.375a1.125 1.125 0 0 1 0 2.25H2.99" />
+            </svg></span><div class="task-text"><div class="task-title">Number</div><div class="task-desc">Provide a numeric answer</div></div></div>
+          <div data-file="url" class="task-item"><span class="icon red"><svg fill="none" stroke="#fff" width="17" height="17" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <g transform="scale(0.125)">
+              <path d="M84 128.6H54.6C36.6 128.6 22 114 22 96c0-9 3.7-17.2 9.6-23.1 5.9-5.9 14.1-9.6 23.1-9.6H84m24 65.3h29.4
+                c9 0 17.2-3.7 23.1-9.6 5.9-5.9 9.6-14.1 9.6-23.1 0-18-14.6-32.6-32.6-32.6H108M67.9 96h56.2"
+                stroke="#fff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+          </svg></span><div class="task-text"><div class="task-title">URL</div><div class="task-desc">Provide a link</div></div></div>
+            <div data-file="ratings" class="task-item"><span class="icon green">        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#fff"
+            width="16"
+            height="16">
+          <g transform="scale(0.0375)">
+            <path d="M144 224C161.7 224 176 238.3 176 256L176 512C176 529.7 161.7 544 144 544L96 544C78.3 544 64 529.7 64 512L64 256C64 238.3 78.3 224 96 224L144 224zM334.6 80C361.9 80 384 102.1 384 129.4L384 133.6C384 140.4 382.7 147.2 380.2 153.5L352 224L512 224C538.5 224 560 245.5 560 272C560 291.7 548.1 308.6 531.1 316C548.1 323.4 560 340.3 560 360C560 383.4 543.2 402.9 521 407.1C525.4 414.4 528 422.9 528 432C528 454.2 513 472.8 492.6 478.3C494.8 483.8 496 489.8 496 496C496 522.5 474.5 544 448 544L360.1 544C323.8 544 288.5 531.6 260.2 508.9L248 499.2C232.8 487.1 224 468.7 224 449.2L224 262.6C224 247.7 227.5 233 234.1 219.7L290.3 107.3C298.7 90.6 315.8 80 334.6 80z"/>
+          </g>
+        </svg></span><div class="task-text"><div class="task-title">Opinion Scale</div><div class="task-desc">Rate on an opinion scale</div></div></div>
+
+
+          <div data-file="stars" class="task-item"><span class="icon green">
+
+            <svg viewBox="0 0 24 24" width="16" height="16"   xmlns="http://www.w3.org/2000/svg" stroke="#fff" fill="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z" />
+            </svg>
+          </span><div class="task-text"><div class="task-title">Opinion Scale</div><div class="task-desc">Rate on an opinion scale</div></div></div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="preview-modal" class="preview-modal" style="display:none;">
+    <div class="preview-all-content">
+
+      <div class="preview-box-arra">
+        <div class="preview-header-arriall">
+          <span>Quest Preview</span>
+          <button class="preview-cancel" onclick="closePreview()">✕</button>
+        </div>
+
+        <div id="preview-content" class="preview-content-aerrra"></div>
+      </div>    
+    </div>
+
+  </div>
+

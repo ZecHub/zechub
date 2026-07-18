@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Enterprise Request Form</title>
+<style>
+
+*{
+  font-family: 'Outfit', sans-serif !important;
+
+  
+}
+  body {
+    background: #1e1e2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+::selection {
+  background: #4effcd29; 
+  color: var(--text-main);        
+}
+
+::-moz-selection {
+  background: #4effcd29; 
+  color: var(--text-main);        
+}
+  .form-container {
+    background: #252538;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    width: 100%;
+    max-width: 520px;
+    padding: 50px 40px;
+    color: #e0e0e0;
+    text-align: center;
+    position: relative;
+  }
+
+
+input[type="email"]:valid {
+  border: 1px solid green;
+}
+
+   
+  h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #f5f5f5;
+    font-weight: 700;
+  }
+
+  .step { display: none; animation: fadeIn 0.4s ease-in; }
+  .step.active { display: block; }
+
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(10px);} to { opacity: 1; transform: translateY(0);} }
+
+  .input-group { margin-bottom: 20px; text-align: left; }
+  .input-group label { display: block; font-weight: 600; margin-bottom: 6px; color: #cfcfe8; }
+  .input-group input, .input-group textarea, .input-group select {
+    width: 100%; box-sizing: border-box; padding: 12px 16px; border: 1px solid #3a3a5a; border-radius: 10px; resize: none;
+    font-size: 14px; background: #2a2a44; color: #e0e0e0; transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  .input-group input:focus, .input-group textarea:focus, .input-group select:focus {
+    border-color: #7c3aed; box-shadow: 0 0 6px #7c3aed44; outline: none;
+  }
+
+  .buttons { display: flex; justify-content: space-between; margin-top: 20px; }
+  .buttons button {
+    background-color: #7c3aed; color: white; border: none; padding: 12px 22px;
+    font-size: 14px; border-radius: 10px; cursor: pointer; transition: background 0.3s, transform 0.2s;
+  } 
+  .buttons button:hover { background-color: #5e22b0; transform: translateY(-2px); }
+  .buttons button[disabled] { cursor: not-allowed; }
+
+  .progressbar { display: flex; justify-content: space-between; margin-bottom: 35px; counter-reset: step; }
+  .progress-step {
+    position: relative; text-align: center; flex: 1; font-size: 12px; color: #8888aa;
+  }
+  .progress-step::before {
+    counter-increment: step; content: counter(step); width: 32px; height: 32px; line-height: 32px;
+    border: 2px solid #55557a; display: block; text-align: center; margin: 0 auto 8px auto;
+    border-radius: 50%; background-color: #2a2a44; color: #e0e0e0; font-weight: 600;
+  }
+  .progress-step.active::before, .progress-step.completed::before {
+    border-color: #7c3aed; background-color: #7c3aed; color: white;
+  }
+  .progress-step::after {
+    content: ''; position: absolute; width: 100%; height: 2px; background-color: #55557a;
+    top: 16px; left: -50%; z-index: -1;
+  }
+  .progress-step:first-child::after { content: none; }
+  .progress-step.completed::after { background-color: #7c3aed; }
+
+  .error-message { color: #ff6b6b; font-size: 13px; margin-top: 4px; display: none; }
+
+  .success-message { display: none; flex-direction: column; align-items: center; justify-content: center; animation: fadeIn 0.5s ease-in-out; height: 100%; }
+  .success-message h2 { font-size: 28px; color: #00ff7f; margin-bottom: 10px; }
+  .success-message p { font-size: 18px; color: #e0e0e0; }
+  .success-icon img { width: 100px; height: 100px; margin-bottom: 20px; animation: bounce 1s infinite; }
+  @keyframes bounce { 0%, 20%, 50%, 80%, 100% { transform: translateY(0); } 40% { transform: translateY(-20px); } 60% { transform: translateY(-10px); } }
+
+.back-btned{
+  background-color: #33334b !important;
+}
+
+/* Loading state */
+/* already have this block – keep it */
+#submitBtn.loading {
+  cursor: wait;
+  color: transparent;            /* hide text */
+  pointer-events: none;
+  position: relative;
+}
+#submitBtn.loading::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 11px;
+  height: 11px;
+  margin: -9px 0 0 -9px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: spin 0.8s linear infinite;
+}
+
+#submitBtn.loading > * {
+  visibility: hidden;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* make whole page show progress while submitting */
+body.busy, body.busy * { cursor: wait !important; }
+
+/* Works in Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0;  /* scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;      /* scrollbar handle */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;      /* hover effect */
+}
+
+/* Works in Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f0f0f0;
+}
+
+
+  @media (max-width: 800px) {
+    .form-container {
+      background: #252538;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      width: 100%;
+      box-sizing: border-box;
+      padding: 40px 14px !important;
+      color: #e0e0e0;
+      text-align: center;
+      position: relative;
+    }
+
+
+  }
+
+#reviewList {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+}
+
+#reviewList li {
+  background: linear-gradient(135deg, #2a2a44 0%, #252538 100%);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  padding: 14px 16px;
+  display: flex;
+  color: #ddd;
+  line-height: 1.4;
+  font-size: 15px;
+  transition: background 0.3s, transform 0.2s;
+  gap: 4px;
+}
+
+#reviewList li strong {
+  color: #9b8aff;
+  font-weight: 600;
+}
+
+#reviewList li span {
+  display: block;
+  color: #f1f1f1;
+  word-break: break-word;
+  white-space: pre-wrap;
+}
+
+
+#reviewList li:hover {
+  background: #333355;
+  transform: translateY(-2px);
+}
+
+
+
+
+
+ 
+ 
+
+ 
+#requirements::-webkit-scrollbar {
+  width: 10px;
+}
+
+#requirements::-webkit-scrollbar-track {
+  background: #858484;  
+  border-radius: 8px;
+}
+
+#requirements::-webkit-scrollbar-thumb {
+  background: #27273a;  
+  border-radius: 8px;
+  border: 2px solid #b1afaf;  
+}
+
+#requirements::-webkit-scrollbar-thumb:hover {
+  background: #a0a0a0; 
+}
+
+ 
+#requirements {
+  scrollbar-width: thin;
+  scrollbar-color: #bdbdbd #27273a;
+}
+
+ 
+ 
+
+</style>
+
+</head>
+<div class="form-container" id="formContainer">
+
+  <form id="enterpriseForm" method="POST" novalidate
+      action="{{ url_for('enterprise', slug=community.slug, interval=interval) }}">
+    <input type="hidden" name="community_id" value="{{ community.id }}">
+
+          <!-- Success message -->
+      {% if success %}
+      <div class="success-message" id="successMessage" style="display:flex;">
+        <div class="success-icon">
+          <img src="{{ url_for('static', filename='request.png') }}" alt="request" class="request" loading="lazy" decoding="async"/>
+        </div>
+        <h2>Request Submitted!</h2>
+        <p>In review for Reference code: <strong>{{ reference_code }}</strong>. We will contact you soon.</p>
+      </div>
+      {% else %}
+      <h2>Enterprise Plan Request</h2>
+      <div class="progressbar">
+        <div class="progress-step active">Company Info</div>
+        <div class="progress-step">Contact Info</div>
+        <div class="progress-step">Requirements</div>
+        <div class="progress-step">Review</div>
+      </div>
+
+      <!-- Step 1 -->
+      <div class="step active">
+        <div class="input-group">
+          <label for="company">Company Name</label>
+          <input type="text" id="company" name="company" required>
+        </div>
+        <div class="input-group">
+          <label for="website">Website</label>
+          <input type="url" id="website" name="website" required>
+        </div>
+        <div class="buttons">
+          <button type="button" onclick="nextStep()">Next</button>
+        </div>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="step">
+        <div class="input-group">
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" name="fullname" required>
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="input-group">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+        <div class="buttons">
+          <button type="button" class="back-btned" onclick="prevStep()">Back</button>
+          <button type="button" onclick="nextStep()">Next</button>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="input-group">
+          <label for="requirements">Your Requirements / Notes</label>
+          <textarea id="requirements" name="requirements" rows="4" required></textarea>
+        </div>
+        <div class="input-group">
+          <label for="budget">Reward Pool Budget (ZEC) (Optional)</label>
+          <input type="text" id="budget" name="budget" placeholder="3Zec">
+        </div>
+        <div class="buttons">
+          <button type="button" class="back-btned" onclick="prevStep()">Back</button>
+          <button type="button" onclick="nextStep()">Next</button>
+        </div>
+      </div>
+
+      <div class="step">
+        <h3>Review your information</h3>
+        <p>Please make sure your details are correct before submission.</p>
+        <ul id="reviewList"></ul>
+        <div class="buttons">
+          <button type="button" class="back-btned" onclick="prevStep()">Back</button>
+          <button type="submit" id="submitBtn" >Submit Request</button>
+        </div>
+      </div>
+
+
+      {% endif %}
+  </form>
+</div>
+
+
+<script>
+const form = document.getElementById('enterpriseForm');
+const steps = document.querySelectorAll('.step');
+const progressSteps = document.querySelectorAll('.progress-step');
+const submitBtn = document.getElementById('submitBtn');
+let currentStep = 0;
+
+function showStep(n) {
+  steps.forEach((step, i) => {
+    step.classList.toggle('active', i === n);
+    if (progressSteps[i]) {
+      progressSteps[i].classList.toggle('active', i === n);
+      progressSteps[i].classList.toggle('completed', i < n);
+    }
+  });
+}
+
+function nextStep() {
+  const currentFields = steps[currentStep].querySelectorAll('input[required], textarea[required]');
+  let valid = true;
+
+  currentFields.forEach(field => {
+    if (!validateField(field)) {
+      valid = false;
+      field.focus();
+    }
+  });
+
+  if (!valid) return;
+
+  if (currentStep < steps.length - 1) {
+    currentStep++;
+    if (currentStep === steps.length - 1) populateReview();
+    showStep(currentStep);
+  }
+}
+
+function prevStep() {
+  if (currentStep > 0) {
+    currentStep--;
+    showStep(currentStep);
+  }
+}
+function populateReview() {
+  const review = document.getElementById('reviewList');
+  review.innerHTML = `
+    <li><strong>Company:</strong> <span>${form.company.value}</span></li>
+    <li><strong>Website:</strong> <span>${form.website.value}</span></li>
+    <li><strong>Full Name:</strong> <span>${form.fullname ? form.fullname.value : ''}</span></li>
+    <li><strong>Email:</strong> <span>${form.email ? form.email.value : ''}</span></li>
+    <li><strong>Phone:</strong> <span>${form.phone ? form.phone.value : ''}</span></li>
+    <li><strong>Requirements:</strong> <span>${form.requirements ? form.requirements.value : ''}</span></li>
+    <li><strong>Budget:</strong> <span>${form.budget ? form.budget.value : ''}</span></li>
+  `;
+}
+
+
+showStep(currentStep);
+
+form.addEventListener("submit", (e) => {
+  if (submitBtn) {
+    submitBtn.classList.add("loading");
+    submitBtn.setAttribute("aria-busy", "true");
+    submitBtn.disabled = true;
+  }
+  document.body.classList.add("busy");
+});
+
+// 🔹 Live validation
+form.querySelectorAll('input[required], textarea[required]').forEach(field => {
+  field.addEventListener('input', () => validateField(field));
+  field.addEventListener('blur', () => validateField(field));
+});
+
+function validateField(field) {
+  let error = field.nextElementSibling && field.nextElementSibling.classList.contains('error-message')
+    ? field.nextElementSibling : null;
+
+  // Empty check
+  if (!field.value.trim()) {
+    if (!error) {
+      error = document.createElement('div');
+      error.className = 'error-message';
+      field.parentNode.appendChild(error);
+    }
+    error.innerText = 'Please fill in this field';
+    error.style.display = 'block';
+    return false;
+  }
+
+  // Email check
+  if (field.type === 'email' && !field.value.includes('@')) {
+    if (!error) {
+      error = document.createElement('div');
+      error.className = 'error-message';
+      field.parentNode.appendChild(error);
+    }
+    error.innerText = 'Email must contain @';
+    error.style.display = 'block';
+    return false;
+  }
+
+  // URL check
+  if (field.type === 'url') {
+    try {
+      new URL(field.value);
+    } catch (e) {
+      if (!error) {
+        error = document.createElement('div');
+        error.className = 'error-message';
+        field.parentNode.appendChild(error);
+      }
+      error.innerText = 'Please enter a valid website URL (e.g. https://example.com)';
+      error.style.display = 'block';
+      return false;
+    }
+  }
+
+  // ✅ If valid → hide error
+  if (error) error.style.display = 'none';
+  return true;
+}
+
+// 🔹 Prevent Enter/Go from skipping steps
+form.addEventListener("keydown", function(e) {
+  if (e.key === "Enter") {
+    e.preventDefault();
+    if (currentStep < steps.length - 1) {
+      nextStep();
+    } else {
+      form.requestSubmit();
+    }
+  }
+});
+</script>
+

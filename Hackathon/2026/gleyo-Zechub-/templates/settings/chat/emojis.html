@@ -1,0 +1,478 @@
+<style>
+  @media (max-width: 768px) {
+
+  .emoji-empty-state {
+    margin-top: 40px;
+    padding: 32px 10px;
+
+    background: var(--bg-sidebar);
+    border-radius: var(--radius);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .view-uploadedemoji {
+    margin-top: 32px;
+    padding: 24px 10px;
+    padding-top: 0 !important;
+
+    background: var(--bg-sidebar);
+    border-radius: var(--radius);
+
+    position: relative;
+  }
+
+  }
+
+
+  @media (min-width: 768px) {
+
+  .emoji-empty-state {
+    margin-top: 40px;
+    padding: 32px;
+
+    background: var(--bg-sidebar);
+    border: 1px dashed var(--border);
+    border-radius: var(--radius);
+    max-width: 520px;
+    min-width: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .view-uploadedemoji {
+    margin-top: 32px;
+    padding: 24px;
+    padding-top: 0 !important;
+    max-width: 520px;
+    min-width: 520px;
+
+    background: var(--bg-sidebar);
+    border-radius: var(--radius);
+
+    position: relative;
+  }
+
+  }
+
+
+  .emoji-illustration {
+    margin-bottom: 18px;
+    opacity: 0.9;
+  }
+
+  .emoji-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-main);
+    margin: 0;
+  }
+
+  .emoji-subtitle {
+    margin-top: 6px;
+    font-size: 14px;
+    color: var(--text-muted);
+  }
+
+  .emoji-requirements {
+    margin-top: 16px;
+    font-size: 13px;
+    color: var(--text-muted-bg);
+  
+  }
+
+  .emoji-requirements ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .emoji-requirements li {
+    margin: 4px 0;
+  }
+
+
+
+  .emoji-requirements-after li {
+    margin: 4px 0;
+  }
+
+
+
+  .emoji-upload-btn {
+    margin-top: 20px;
+    padding: 10px 16px;
+
+    border-radius: 10px;
+    border: 1px solid var(--border);
+
+    background: linear-gradient(
+      135deg,
+      #4286f4de,
+      #427cdae8
+    );
+
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .emoji-upload-btn:hover {
+    opacity: 0.9;
+  }
+
+
+
+  .emoji-hidden {
+    opacity: 0;
+    transform: translateY(8px);
+    pointer-events: none;
+    position: absolute;
+    display: none;
+  }
+
+  .emoji-visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+    position: relative;
+    display: block;
+  }
+
+  
+
+  
+  .emoji-list {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 44px;
+    margin-top: 24px;
+  }
+
+
+
+
+  
+
+
+  .emoji-delete-btn {
+    display: flex;               
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: rgba(255, 0, 0, 0.08);  
+    position: relative;
+    border: 0.9px solid;
+    padding: 5px 5px;
+    border-radius: 4px;
+    margin-left: 12px;
+    color: #e5484d;
+    transition:
+      background-color 0.15s ease,
+      opacity 0.15s ease,
+      transform 0.15s ease;
+  }
+
+
+  .emoji-card.show-actions .emoji-delete-btn {
+    display: flex;
+    pointer-events: auto;
+    right: -8px;
+  }
+
+  
+
+  .emoji-card {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: auto;
+    padding: 12px 14px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, width 25s ease;
+  }
+  
+  .emoji-card:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  }
+
+
+  .emoji-img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    background: #f4f4f5;
+  }
+
+
+  .emoji-meta.emoji-upload-btn {
+    display: inline-flex;  
+    align-items: center;
+    gap: 4px;
+  }
+
+
+  .emoji-meta strong {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-main);
+  }
+
+  .emoji-icon {
+    width: 22px;
+    height: 22px;
+    top: 1px;
+    position: relative;
+
+    background-color: var(--text-main);
+
+    -webkit-mask: url("{{ url_for('static', filename='facesvg.png') }}") no-repeat center;
+    mask: url("{{ url_for('static', filename='facesvg.png') }}") no-repeat center;
+
+    -webkit-mask-size: contain;
+    mask-size: contain;
+  }
+
+
+  .emoji-uploader {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+
+  .emoji-avatar {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  
+  .emoji-section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+
+    border-bottom: 0.9px solid var(--border);
+  }
+
+  .emoji-section-header h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-main);
+    margin: 0;
+  }
+
+  .emoji-count {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-muted);
+
+    padding: 4px 10px;
+    border-radius: 999px;
+
+    background: rgba(0,0,0,0.04);
+    border: 1px solid var(--border);
+  }
+
+
+
+
+  /* ===== INFO BOX (UPLOADED VIEW) ===== */
+
+  .view-uploadedemoji .emoji-info-box {
+    margin-top: 20px;
+    padding: 16px 18px;
+
+    background: rgba(0, 0, 0, 0.03);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+  }
+
+  .view-uploadedemoji .emoji-subtitle {
+    margin: 0 0 10px 0;
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  .view-uploadedemoji .emoji-requirements-after {
+    margin-top: 0;
+    font-size: 12px;
+    color: var(--text-muted-bg);
+  }
+
+
+  .view-uploadedemoji .emoji-requirements-after ul{
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+
+  }
+
+  .view-uploadedemoji .emoji-requirements-after li {
+    margin: 3px 0;
+  }
+
+
+
+  .emoji-requirements-after ul {
+    padding: 0;
+    margin: 0;
+    padding-left: 13px;
+  }
+
+
+
+  .diver-emojis{
+    position: sticky;
+    top: 0;
+    background: var(--bg-sidebar);
+    padding-top: 24px !important;
+    padding-bottom: 4px !important;
+
+  }
+
+
+
+
+
+</style>
+
+<div class="emoji-empty-state 
+  {% if emoji_count == 0 %}
+  emoji-visible
+  {% else %}
+  emoji-hidden
+  {% endif %}">
+
+  <div class="emoji-illustration">
+
+    <svg height="140px" width="140px" viewBox="0 0 511.995 511.995" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+
+    <circle style="fill:#FDDF6D;" cx="257.824" cy="255.997" r="254.171"/>
+
+    <path style="fill:#FCC56B;" d="M312.299,472.641c-140.374,0-254.169-113.795-254.169-254.169c0-74.997,32.488-142.397,84.151-188.92 C59.994,71.624,3.662,157.23,3.662,255.993c0,140.374,113.795,254.169,254.169,254.169c65.378,0,124.983-24.692,170.018-65.248 C393.183,462.64,353.909,472.641,312.299,472.641z"/>
+
+    <path style="fill:#7F184C;" d="M433.662,208.373c-3.762,0-7.388-2.06-9.218-5.64c-6.682-13.082-19.192-21.211-32.651-21.211 c-13.119,0-25.793,8.235-33.08,21.488c-2.75,5.006-9.04,6.83-14.042,4.081c-5.005-2.75-6.831-9.037-4.081-14.042 c10.919-19.867,30.539-32.207,51.202-32.207c21.267,0,40.835,12.447,51.068,32.485c2.597,5.085,0.58,11.313-4.507,13.912 C436.852,208.007,435.244,208.373,433.662,208.373z"/>
+
+    <path style="fill:#7F184C;" d="M261.528,208.373c-3.762,0-7.388-2.06-9.218-5.64c-6.682-13.082-19.192-21.211-32.651-21.211 c-13.119,0-25.793,8.235-33.08,21.488c-2.75,5.006-9.039,6.83-14.042,4.081c-5.005-2.75-6.831-9.037-4.081-14.042 c10.919-19.867,30.539-32.207,51.202-32.207c21.267,0,40.835,12.447,51.068,32.485c2.597,5.085,0.58,11.313-4.507,13.912 C264.717,208.007,263.11,208.373,261.528,208.373z"/>
+
+    <path style="fill:#F9A880;" d="M148.605,240.258c-18.875,0-34.178,15.302-34.178,34.178h68.356 C182.782,255.56,167.48,240.258,148.605,240.258z"/>
+
+    <path style="fill:#F9A880;" d="M446.722,235.678c-18.875,0-34.178,15.302-34.178,34.178h68.356 C480.9,250.98,465.598,235.678,446.722,235.678z"/>
+
+    <path style="fill:#3FA9F5;" d="M106.928,147.301c0,29.527-23.936,53.463-53.463,53.463S0,176.827,0,147.301 S53.463,40.771,53.463,40.771S106.928,117.774,106.928,147.301z"/>
+
+    <ellipse transform="matrix(0.2723 -0.9622 0.9622 0.2723 131.3864 351.2922)" style="fill:#FCEB88;" cx="297.945" cy="88.782" rx="29.641" ry="53.078"/>
+
+    <path style="fill:#7F184C;" d="M398.74,363.005c-19.394-16.195-53.939-25.864-92.405-25.864c-36.794,0-72.312,9.82-92.692,25.631 c-4.512,3.5-5.333,9.995-1.832,14.506c2.039,2.628,5.09,4.002,8.177,4.002c2.214,0,4.446-0.709,6.331-2.17 c16.929-13.132,47.591-21.289,80.018-21.289c33.267,0,63.596,8.069,79.152,21.056c4.381,3.66,10.902,3.073,14.563-1.31 C403.71,373.185,403.123,366.664,398.74,363.005z"/>
+
+    </svg>
+
+  </div>
+
+  <h3 class="emoji-title">No emojis uploaded yet</h3>
+
+  <p class="emoji-subtitle">
+    Upload custom emojis to personalize your community
+  </p>
+
+  <div class="emoji-requirements">
+    <ul>
+      <li>Up to <strong>65</strong> custom emojis</li>
+      <li>PNG, JPG, GIF, or SVG</li>
+      <li>Max file size: <strong>256 KB</strong></li>
+      <li>Recommended: <strong>128×128 px</strong></li>
+      <li>Lowercase names, no spaces</li>
+    </ul>
+  </div>
+  <input
+    type="file"
+    class="emoji-file-input"
+    accept="image/png,image/jpeg,image/gif,image/svg+xml"
+    hidden>
+
+  <button class="emoji-upload-btn">
+    Upload emoji
+  </button>
+
+
+</div>
+
+<div class="view-uploadedemoji
+  {% if emoji_count == 0 %}
+  emoji-hidden
+  {% else %}
+  emoji-visible
+  {% endif %}">
+
+ <div class="diver-emojis">
+    <div class="emoji-section-header">
+      <h2>Manage emojis</h2>
+      <span class="emoji-count">{{ emoji_count }}/65</span>
+    </div>
+
+    <div class="emoji-upload-card-detail">
+
+  <div class="emoji-meta emoji-upload-btn" style="width:auto;">
+    <span class="emoji-icon"></span>
+    <strong style="position: relative;">Upload emoji</strong>
+  </div>
+
+
+      <input
+        type="file"
+        class="emoji-file-input"
+        accept="image/png,image/jpeg,image/gif,image/svg+xml"
+        hidden
+      >
+    </div>  
+ </div>
+
+
+  <div class="emoji-info-box">
+    <p class="emoji-subtitle">
+      Upload custom emojis to personalize your community
+    </p>
+
+    <div class="emoji-requirements-after">
+      <ul>
+        <li>Up to <strong>65</strong> custom emojis</li>
+        <li>PNG, JPG, GIF, or SVG</li>
+        <li>Max file size: <strong>256 KB</strong></li>
+        <li>Recommended: <strong>128×128 px</strong></li>
+        <li>Lowercase names, no spaces</li>
+      </ul>
+    </div>
+
+  </div>
+
+
+  <div class="emoji-list"></div>
+</div>
+
+
+
+
+

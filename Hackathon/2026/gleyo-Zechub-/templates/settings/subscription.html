@@ -1,0 +1,756 @@
+<style>
+
+
+.plan-card-container{
+  padding-top: 24px;
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+  padding: 14px 15px;
+  gap: 20px;
+  max-width: 100%;
+}
+
+
+  @media (max-width: 768px) {
+    .plan-card-container{
+      width: 100% !important;
+      min-width: 100% !important;
+    }
+  }
+
+
+.plan-card-container,
+.plan-card-container * {
+  font-family: 'Syne', sans-serif !important;
+}
+
+
+.plan-card {
+  border: 0.9px solid var(--border);
+  border-radius: 20px;
+  padding: 20px 20px;
+  background-color: var(--bg-surface-plan-card);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+
+.plan-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.claim-usaged-init{
+  gap: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.plan-card h3 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+
+.plan-cycle {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.plan-cycle.manage {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 4px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+
+.plan-cycle.manage:hover {
+  color: var(--text-main);
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+.plan-cycle.manage svg{
+  width: 14px;
+  height: 14px;
+}
+
+.usage-note {
+  font-size: 13px;
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+.plan-meta {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+
+.plan-status {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  background: rgba(34,197,94,0.15);
+  color: #22c55e;
+  white-space: nowrap;
+}
+
+
+.plan-actions {
+  display: flex;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 6px;
+  flex-wrap: wrap;
+}
+
+
+.btn-secondary,
+.btn-danger {
+  padding: 6px 14px;
+  border-radius: 11px;
+  font-size: 13px;
+  font-weight: 550;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  background: var(--border-nexterr);
+  color: var(--text-main);
+  transition: 0.2s ease;
+}
+
+
+.btn-secondary:hover {
+  background: var(--bg-hover);
+  transform: translateY(-1px);
+}
+
+.btn-danger {
+  color: #f87171;
+  border-color: rgba(248,113,113,0.35);
+}
+
+.btn-danger:hover {
+  background: rgba(248,113,113,0.08);
+  transform: translateY(-1px);
+}
+
+
+
+.claim-box {
+  margin-top: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.claim-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+}
+
+.claim-title {
+  color: var(--text-muted);
+}
+
+.claim-value {
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+
+.claim-progress {
+  height: 3.8px;
+  width: 100%;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.06);
+  overflow: hidden;
+}
+
+.claim-progress-bar {
+  height: 100%;
+  width: 20%;  
+  outline: 4px solid var(--bg-app);
+  outline-offset: 0;
+  border-radius: 999px;
+  background: var(--text-main);
+  transition: width 0.4s ease;
+}
+
+
+.claim-note {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+
+.wallet-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  font-family: 'Syne' !important;
+}
+
+.wallet-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  flex: 1 1 calc(33.333% - 12px); /* 3 across by default */
+  min-width: 0;
+}
+
+/* Below ~340px container width, 3-across gets too tight — drop to 2+1 */
+@media (max-width: 424px) {
+  .wallet-item {
+    flex: 1 1 calc(50% - 6px);
+  }
+}
+
+/* Below ~280px, even 2 up is tight — stack fully */
+@media (max-width: 280px) {
+  .wallet-item {
+    flex: 1 1 100%;
+  }
+}
+
+.wallet-amount {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-main);
+  letter-spacing: 0.4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.wallet-stats .amount{
+  font-family:'DM Mono', monospace;
+}
+
+.wallet-item{
+  display:flex;
+  flex-direction:column;
+  gap:4px;
+  padding:14px 16px;
+  border-radius:14px;
+}
+
+
+.wallet-label{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  font-size:13px;
+  color:var(--text-muted);
+  font-weight:500;
+  letter-spacing:0.3px;
+}
+
+
+.wallet-amount{
+  font-size: 18px;
+  font-weight:700;
+  color:var(--text-main);
+  letter-spacing:0.4px;
+}
+
+
+.wallet-dot{
+  width:9px;
+  height:9px;
+  border-radius:50%;
+}
+
+.wallet-dot.total{ background:#60a5fa; }
+.wallet-dot.active{ background:#22c55e; }
+.wallet-dot.locked{ background:#f87171; }
+
+.wallet-note{
+  font-size:12.5px;
+  color:var(--text-muted);
+  margin-top:6px;
+}
+
+.walletss .plan-actions button{
+  color: var(--text-main);
+  border-radius: 15px;
+  padding: 10px 13px;
+  cursor: pointer;
+  background-color: #4285f4;
+  border: 1px solid #4285f4;
+}
+
+.walletss .plan-actions button:hover {
+  outline: 1px solid #4285f4;
+  outline-offset: 2px;
+}
+
+
+
+
+
+.switch{
+  position:relative;
+  display:inline-block;
+  width:42px;
+  height:24px;
+}
+
+.switch input{
+  opacity:0;
+  width:0;
+  height:0;
+}
+
+
+.slider{
+  position:absolute;
+  cursor:pointer;
+  inset:0;
+  background: var(--bg-hover-hover);
+  border-radius:999px;
+  transition:all .25s ease;
+}
+
+
+.slider:before{
+  content:"";
+  position:absolute;
+  height:18px;
+  width:18px;
+  left:3px;
+  top:3px;
+
+  background-color: var(--text-main);
+
+  border-radius:50%;
+  transition:all .25s ease;
+}
+
+
+.switch input:checked + .slider{
+  background:#4285f4;
+
+}
+
+.switch input:checked + .slider:before{
+  transform:translateX(18px);
+  outline-offset: 3px;
+  background-color: white;
+  outline: 1px solid white;
+}
+
+.slider:hover:before{
+  opacity:0.8;
+}
+
+
+
+.plan-card.auto-renew-init h3{
+  font-size:15px;
+  margin-bottom:10px;
+}
+
+.auto-renew-features{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+  margin-top:6px;
+}
+
+.auto-renew-item{
+  display:flex;
+  align-items:flex-start;
+  gap:8px;
+  font-size:13px;
+  color: var(--text-muted);
+}
+
+.auto-renew-item svg{
+  width:14px;
+  height:14px;
+  margin-top:2px;
+  flex-shrink:0;
+  color:#16a34a; 
+}
+
+.auto-renew-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.auto-renew-title{
+  font-size:13px;
+  font-weight:600;
+}
+
+.amount-grid{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:10px;
+  margin:16px 0;
+}
+
+.amount-option{
+  padding:10px;
+  border: 0.9px solid var(--border);
+  border-radius: 12px;
+  text-align:center;
+  cursor: pointer;
+  font-weight:500;
+  transition:all .2s ease;
+}
+
+
+.amount-option:hover{
+  border-color: var(--bg-hover-hover);
+  background: var(--sub-init-app);
+}
+
+ 
+.amount-option.active{
+  border-color:#22c55e;
+  background:  #22c55e34;
+  color: #ffffffe0;
+  font-weight:600;
+}
+
+
+
+.modal-title {
+  font-size: 15px;
+  color: var(--text-main);
+  font-weight: 700 !important;
+  font-family: 'Syne', sans-serif !important;
+
+}
+
+
+.custom-input input:focus {
+  border-color: var(--sub-accent);
+}
+
+
+.custom-input input {
+  border-radius: 15px;
+  padding: 14px 14px;
+  font: 14px;
+  color: var(--text-main);
+  margin-bottom: 15px;
+  margin-top: 10px;
+  border: 1px solid var(--border);
+}
+
+.custom-input input::-webkit-outer-spin-button,
+.custom-input input::-webkit-inner-spin-button{
+  -webkit-appearance:none;
+  margin:0;
+}
+
+
+
+.custom-input input[type="number"]{
+  -moz-appearance:textfield;
+}
+
+
+.modal-desc {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-top: 15px;
+}
+
+.modal-overlay{
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.55);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 0 15px;
+}
+
+ 
+.modal-overlay.active{
+  display:flex;
+}
+
+ 
+#topupModal .modal-box{
+  width: 100%;
+  max-width: 420px;
+  background: rgba(34, 34, 54, 0.448);
+  backdrop-filter: blur(14px);
+  border: 0.9px solid var(--border);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  animation:modalFade .25s ease;
+}
+ 
+#topupModal .modal-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  margin-top: 5px;
+}
+#topupModal .modal-actions button:first-child {
+  cursor: pointer !important;
+}
+
+#topupModal .modal-actions button {
+  background-color: transparent;
+  color: var(--text-muted);
+  font-size: 15px;
+  border: none;
+  outline: none;
+  cursor: not-allowed;
+}
+
+#topupModal .modal-actions button:hover {
+  color: var(--text-main);
+}
+
+
+#topupModal .modal-actions .btn-primary {
+  color: #4285f4;
+  opacity: 0.85;
+  transition: opacit 0.2s ease;
+}
+
+#topupModal .modal-actions .btn-primary.active {
+  opacity: 1 !important;
+  cursor: pointer !important;
+}
+
+
+#topupModal .modal-actions .btn-primary.active:hover {
+  color: #4286f4ce;
+
+}
+
+
+#topupModal .modal-actions .btn-primary:hover {
+  color: #4286f48f;
+}
+</style>
+
+
+
+
+<div class="plan-card-container">
+
+  <!-- ===================== -->
+  <!-- CURRENT PLAN CARD -->
+  <!-- ===================== -->
+
+  <div class="plan-card">
+
+  <div class="plan-header" style="display:flex;align-items:center;justify-content:space-between;">
+    <div>
+      <h3>Free Plan</h3>
+      <span class="plan-meta">Community tier · No billing</span>
+    </div>
+    <span class="plan-status">Active</span>
+  </div>
+
+
+
+
+    <div class="plan-actions">
+      <button class="btn-secondary">Change plan</button>
+      <button class="btn-danger">Cancel subscription</button>
+    </div>
+
+  </div>
+
+
+  <!-- ===================== -->
+  <!-- CLAIM USAGE CARD -->
+  <!-- ===================== -->
+
+  <div class="plan-card claim">
+    <div class="plan-header">
+      <div class="claim-usaged-init">
+        <h3>Claim Usage this month</h3>
+      </div>
+    </div>
+    <div class="claim-box">
+      <div class="claim-row">
+        <span class="claim-title">Claims used</span>
+        <span class="claim-value">
+          {{ "{:,}".format(claim_count) }} / {{ "{:,}".format(claim_limit) }}
+        </span>
+      </div>
+      <div class="claim-progress">
+        <div class="claim-progress-bar" style="width:{{ claim_percent }}%;"></div>
+      </div>
+      <span class="plan-meta">Resets {{ reset_date }}</span>
+    </div>
+  </div>
+
+  {% set total = (wallet.total_balance or 0) / 100 %}
+  {% set available = (wallet.available_balance or 0) / 100 %}
+  {% set locked = (wallet.locked_balance or 0) / 100 %}
+
+  <div class="plan-card walletss" style="margin-top:16px;">
+
+    <div class="plan-header">
+      <div>
+        <h3>Wallet</h3>
+        <p class="plan-cycle">Your campaign funds</p>
+      </div>
+    </div>
+
+    <div class="wallet-stats">
+      <div class="wallet-item">
+        <div class="wallet-label">
+          <span class="wallet-dot total"></span>
+          Total Fund
+        </div>
+        <div class="wallet-amount" style="display:flex;align-items:center;gap:4px;">
+          <svg viewBox="7 6 10 12" xmlns="http://www.w3.org/2000/svg" width="15" height="15" style="flex-shrink:0;transform:skewX(-8deg);">
+            <polyline points="9 9 15 9 9 15 15 15" style="fill:none;stroke:var(--text-main);stroke-linecap:round;stroke-linejoin:round;stroke-width:2.2;"></polyline>
+            <line x1="12" y1="9" x2="12" y2="7" style="stroke:var(--text-main);stroke-linecap:round;stroke-width:2.2;"></line>
+            <line x1="12" y1="15" x2="12" y2="17" style="stroke:var(--text-main);stroke-linecap:round;stroke-width:2.2;"></line>
+          </svg>
+          {{ "%.3f"|format((wallet.total_balance or 0) / 100_000_000) }}
+        </div>
+      </div>
+      <div class="wallet-item">
+        <div class="wallet-label">
+          <span class="wallet-dot active"></span>
+          Available
+        </div>
+        <div class="wallet-amount" style="display:flex;align-items:center;gap:4px;">
+          <svg viewBox="7 6 10 12" xmlns="http://www.w3.org/2000/svg" width="15" height="15" style="flex-shrink:0;transform:skewX(-8deg);">
+            <polyline points="9 9 15 9 9 15 15 15" style="fill:none;stroke:var(--text-main);stroke-linecap:round;stroke-linejoin:round;stroke-width:2.2;"></polyline>
+            <line x1="12" y1="9" x2="12" y2="7" style="stroke:var(--text-main);stroke-linecap:round;stroke-width:2.2;"></line>
+            <line x1="12" y1="15" x2="12" y2="17" style="stroke:var(--text-main);stroke-linecap:round;stroke-width:2.2;"></line>
+          </svg>
+          {{ "%.3f"|format((wallet.available_balance or 0) / 100_000_000) }}
+        </div>
+      </div>
+      <div class="wallet-item">
+        <div class="wallet-label">
+          <span class="wallet-dot locked"></span>
+          Locked
+        </div>
+        <div class="wallet-amount" style="display:flex;align-items:center;gap:4px;">
+          <svg viewBox="7 6 10 12" xmlns="http://www.w3.org/2000/svg" width="15" height="15" style="flex-shrink:0;transform:skewX(-8deg);">
+            <polyline points="9 9 15 9 9 15 15 15" style="fill:none;stroke:var(--text-main);stroke-linecap:round;stroke-linejoin:round;stroke-width:2.2;"></polyline>
+            <line x1="12" y1="9" x2="12" y2="7" style="stroke:var(--text-main);stroke-linecap:round;stroke-width:2.2;"></line>
+            <line x1="12" y1="15" x2="12" y2="17" style="stroke:var(--text-main);stroke-linecap:round;stroke-width:2.2;"></line>
+          </svg>
+          {{ "%.3f"|format((wallet.locked_balance or 0) / 100_000_000) }}
+        </div>
+      </div>
+    </div>
+
+    <div class="wallet-note">
+      Locked funds are reserved for active campaigns and can’t be spent yet.
+    </div>
+
+    <div class="plan-actions">
+      <button class="btn-primary" onclick="openTopupModal()" style="font-size: 14px;">
+        Top up wallet
+      </button>
+    </div>
+
+  </div>
+
+
+
+  <div class="plan-card auto-renew-init" style="margin-top:16px;">
+
+    <div class="auto-renew-row">
+      
+      <div>
+        <h3>Auto-Renew Using Wallet Balance</h3>
+        <div class="auto-renew-title">Enable Auto-Renew</div>
+      </div>
+
+      <label class="switch">
+        <input type="checkbox" id="autoRenewWallet">
+        <span class="slider"></span>
+      </label>
+
+    </div>
+
+    <div class="auto-renew-features">
+
+      <div class="auto-renew-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-5.0 -10.0 110.0 135.0" fill="currentColor" stroke="currentColor">
+        <path d="m85.652 6.5938c-15.199 4.6992-33.309 28.609-50.668 53.164-7.3672-12.414-15.172-16.559-23.242-12.312-0.99609 0.52344-1.6523 1.5273-1.7344 2.6562-0.082031 1.1406 0.42969 2.2422 1.3555 2.918 5.8516 4.2734 11.922 11.848 19.141 23.84v-0.003906c1.2891 2.1758 3.6328 3.5039 6.1562 3.4883h0.11719c2.6016-0.023438 4.9844-1.4453 6.2461-3.7188 7.0234-12.734 14.738-25.07 23.109-36.957 6.8594-9.75 14.508-18.926 22.867-27.43 1.125-1.1016 1.332-2.8359 0.5-4.1719-0.77734-1.332-2.3789-1.9453-3.8477-1.4727z"/>
+        </svg>
+        Your subscription renews automatically using available wallet funds.
+      </div>
+
+      <div class="auto-renew-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-5.0 -10.0 110.0 135.0" fill="currentColor" stroke="currentColor">
+        <path d="m85.652 6.5938c-15.199 4.6992-33.309 28.609-50.668 53.164-7.3672-12.414-15.172-16.559-23.242-12.312-0.99609 0.52344-1.6523 1.5273-1.7344 2.6562-0.082031 1.1406 0.42969 2.2422 1.3555 2.918 5.8516 4.2734 11.922 11.848 19.141 23.84v-0.003906c1.2891 2.1758 3.6328 3.5039 6.1562 3.4883h0.11719c2.6016-0.023438 4.9844-1.4453 6.2461-3.7188 7.0234-12.734 14.738-25.07 23.109-36.957 6.8594-9.75 14.508-18.926 22.867-27.43 1.125-1.1016 1.332-2.8359 0.5-4.1719-0.77734-1.332-2.3789-1.9453-3.8477-1.4727z"/>
+        </svg>
+        If your balance is insufficient, we’ll notify you before your plan expires.
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+<div class="modal-overlay" id="topupModal">
+  <div class="modal-box">
+    <div class="modal-title">Top Up Wallet</div>
+    <div class="modal-desc">
+      Add ZEC to your wallet to pay for subscriptions and campaigns.
+    </div>
+    <div class="amount-grid">
+      <div class="amount-option" onclick="selectAmount(0.5, this)">0.5 ZEC</div>
+      <div class="amount-option" onclick="selectAmount(1, this)">1 ZEC</div>
+      <div class="amount-option" onclick="selectAmount(2, this)">2 ZEC</div>
+      <div class="amount-option" onclick="selectAmount(3, this)">3 ZEC</div>
+      <div class="amount-option" onclick="selectAmount(5, this)">5 ZEC</div>
+      <div class="amount-option" onclick="selectAmount(10, this)">10 ZEC</div>
+    </div>
+    <div class="custom-input">
+      <input type="number" id="customAmount" placeholder="Enter custom amount (ZEC)" step="0.01" min="0.1">
+    </div>
+    <div class="modal-actions">
+      <button class="btn-ghost" onclick="closeTopupModal()">Cancel</button>
+      <button class="btn-primary" onclick="continueTopup()" id="initerprinamry" style="cursor: pointer !important;">
+        Continue Payment
+      </button>
+    </div>
+  </div>
+</div>
+
+
+

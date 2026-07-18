@@ -1,0 +1,171 @@
+:root {
+  --bg-app: #0b0b12;
+  --bg-surface: #222236;
+  --bg-hover: #2a2a44;
+  --border: #2f2f4a;
+  --font-heading: 'Syne', sans-serif;
+  --border-light: #404060;
+  --accent-color: #6366f1;
+  --text-main: #e5e7eb;
+  --text-muted: #bbbfc7;
+  --green: #22c55e;
+  --radius: 14px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: radial-gradient(circle at 30% 20%, #151528 0%, #0b0b12 60%);
+  color: var(--text-main);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.royal-card-conatiner-init {
+  width: 100%;
+  max-width: 480px;
+  padding: 42px 34px;
+}
+
+
+@media (max-width: 768px) {
+  html, body {
+    width: 100% !important;
+
+  }
+  .royal-card-conatiner-init {
+    padding: 32px 22px;
+    border-radius: 0 !important;
+    background-color: transparent !important;
+    border: 1px solid transparent !important;
+    box-shadow: none !important;
+  }
+
+ 
+}
+ 
+
+.interger {
+  margin: 0 0 10px;
+  font-size: 28px;
+  font-family: var(--font-heading) !important;
+  font-weight: 600;
+}
+
+.subtext {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+
+.fragment-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-muted);
+  display: block;
+  margin-bottom: 14px;
+}
+
+.link-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+/* MATCHES LOGIN BUTTON STYLE */
+.discord-btn,
+.google-btn {
+  width: 100%;
+  height: 48px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: #232339;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 550;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.discord-btn:hover,
+.google-btn:hover {
+  background: var(--bg-hover);
+  border-color: var(--border-light);
+  transform: translateY(-1px);
+}
+
+/* SUCCESS STATE (LIKE LOGIN SYSTEM) */
+.linked-btn {
+  width: 100%;
+  height: 48px;
+  border-radius: var(--radius);
+  border: 0.9px solid #22c55e40;
+  background: #22c55e24;
+  color: var(--green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 550;
+  transition: all 0.2s ease;
+  cursor: not-allowed;
+}
+
+.linked-btn:hover {
+  transform: translateY(-1px);
+}
+
+/* Progress indicator */
+.progress-lines {
+  display: flex;
+  gap: 8px;
+  margin: 16px 0 28px;
+}
+
+.line {
+  flex: 1;
+  height: 4px;
+  background: var(--border);
+  border-radius: 4px;
+}
+
+.line.active {
+  background: var(--accent-color);
+}
+
+/* MAIN BUTTON */
+.main-login-btn {
+  width: 100%;
+  height: 48px;
+  border-radius: var(--radius);
+  border: none;
+  background: var(--accent-color);
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+  line-height: 48px;
+  text-decoration: none;
+  display: block;
+}
+
+.main-login-btn:hover {
+  transform: translateY(-1px);
+}

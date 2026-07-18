@@ -1,0 +1,127 @@
+<style>
+
+
+  @media (min-width: 768px) {
+  #twitter {
+    padding-top: 34px;
+
+  }
+  }
+
+
+
+
+
+
+  #twitter .linked-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px 18px;
+    max-width: 420px;
+  }
+  @media (max-width: 768px) {
+    #twitter {
+      padding: 0 10px;
+      padding-top: 34px;
+
+
+    }
+
+    #twitter .linked-card {
+      width: 100% !important;
+      min-width: 100% !important;
+
+    }
+  }
+
+  #twitter .linked-card img {
+    width: 38px;
+    height: 38px;
+  }
+
+  #twitter .linked-card span:first-of-type {
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  #twitter .buttos {
+    margin-left: auto;
+    background: rgba(29, 155, 240, 0.85);
+    color: white;
+    padding: 8px 14px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    text-decoration: none;
+  }
+
+  #twitter .buttos:hover {
+    background: #1a8cd8;
+  }
+
+  .modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.55);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+
+  .modal-backdrop.show {
+    display: flex;
+  }
+
+  .modal-card {
+    background: var(--bg-surface);
+    border-radius: 16px;
+    padding: 22px;
+    width: 100%;
+    max-width: 420px;
+  }
+
+  .modal-card h4 {
+    margin: 0 0 8px;
+    font-size: 16px;
+    color: #fff;
+  }
+
+  .modal-card p {
+    margin: 0 0 18px;
+    font-size: 14px;
+    color: var(--text-muted);
+  }
+
+  .modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+
+</style>
+
+<div class="sub-tab-content" id="twitter">
+  {% if community.twitter_account and community.twitter_account.action == "connected" %}
+  <p style="color:#22c55e">Twitter connected successfully.</p>
+  <div class="linked-card">
+    <img src="https://cdn-icons-png.flaticon.com/128/5969/5969020.png" alt="Twitter">
+    <span>Twitter</span>
+    <a href="hj" class="buttos">Disconnect</a>
+  </div>
+  {% else %}
+  <p>Connect your Twitter to verify your social presence.</p>
+  <div class="linked-card">
+    <img src="https://cdn-icons-png.flaticon.com/128/5969/5969020.png" alt="Twitter">
+    <span>Twitter</span>
+    <a href="{{ url_for('community_twitter.community_twitter_login', community_id=community.id, next=url_for('settings_integrations_twitter', community_slug=community.slug)) }}" class="buttos">
+      Connect
+    </a>
+  </div>
+  {% endif %}
+</div>

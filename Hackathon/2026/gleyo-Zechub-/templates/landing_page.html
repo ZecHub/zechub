@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>Gleyo — Build Communities That Stick</title>
+  <link rel="shortcut icon" href="https://zupdpwnloewdkjqsymdm.supabase.co/storage/v1/object/public/uploads/communities/7/logos/511f4996-5748-4f1f-b74c-5d5c33f7124c.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <meta name="keywords" content="gleyo, gleyo app, community platform, build community, online community tools" />
+
+  <meta name="csrf-token" content="{{ csrf_token() }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='landing.css') }}?v=5">
+  <script src="{{ url_for('static', filename='landing.js') }}?v=2" defer></script>
+
+</head>
+<body data-auth="{{ '1' if user_id else '0' }}" data-vapid="{{ vapid_public_key }}">
+<div class="scroll-wrap" id="scroll-wrap"> 
+  <div class="nav-shell">
+    <div class="nav-fade" aria-hidden="true"></div>
+    <header class="top-nav">
+
+      <div class="nav-left">
+        <img src="https://zupdpwnloewdkjqsymdm.supabase.co/storage/v1/object/public/uploads/communities/7/logos/511f4996-5748-4f1f-b74c-5d5c33f7124c.png" loading="lazy" decoding="async" width="30" height="30" draggable="false">
+        <div class="logo">Gleyo</div>
+      </div>
+
+      {% if user_id %}
+      <nav class="nav-center-auth">
+        <a href="/product">Features</a>
+        <a href="/what-is-gleyo">What is Gleyo</a>
+        <a href="/documentation">Docs</a>
+        <a href="{{ url_for('admin_panel') }}">Create Community</a>
+      </nav>
+      {% else %}
+      <nav class="nav-center">
+        <a href="/product">Features</a>
+        <a href="/what-is-gleyo">About</a>
+        <a href="/pricing">Pricing</a>
+        <a href="/documentation">Docs</a>
+      </nav>
+      {% endif %}
+
+      <div class="nav-right{% if user_id %} in{% endif %}">
+
+        {% if user_id %}
+          {% set colors = ['#FF6F61','#6B5B95','#88B04B','#F7CAC9','#92A8D1','#955251','#B565A7','#009B77','#DD4124','#45B8AC'] %}
+          {% macro adjust_color(hex, amount) %}
+            {% set hex = hex.lstrip('#') %}
+            {% set r = (hex[0:2] | int(base=16)) + amount %}
+            {% set g = (hex[2:4] | int(base=16)) + amount %}
+            {% set b = (hex[4:6] | int(base=16)) + amount %}
+            {% if r < 0 %}{% set r = 0 %}{% elif r > 255 %}{% set r = 255 %}{% endif %}
+            {% if g < 0 %}{% set g = 0 %}{% elif g > 255 %}{% set g = 255 %}{% endif %}
+            {% if b < 0 %}{% set b = 0 %}{% elif b > 255 %}{% set b = 255 %}{% endif %}
+            #{{ "%02x%02x%02x" % (r, g, b) }}
+          {% endmacro %}
+          {% set color_index = user_id % colors|length %}
+          {% set bg_color = colors[color_index] %}
+          {% set r = bg_color[1:3]|int(base=16) %}
+          {% set g = bg_color[3:5]|int(base=16) %}
+          {% set b = bg_color[5:7]|int(base=16) %}
+          {% set brightness = (r * 0.299 + g * 0.587 + b * 0.114) %}
+          {% if brightness > 160 %}
+            {% set text_color = adjust_color(bg_color, -60) %}
+          {% else %}
+            {% set text_color = adjust_color(bg_color, 60) %}
+          {% endif %}
+
+          <div class="number-opned-nav">
+            <input type="text" placeholder="Search community..." class="nav-search">
+          </div>
+
+          <div class="profile-circle" id="profile-trigger" onclick="handleProfileClick()">
+            {% if current_user.profile_pic %}
+              <img src="{{ current_user.profile_pic }}" alt="Profile">
+            {% else %}
+              <div class="initials-circle" style="background-color: {{ bg_color }}; color: {{ text_color }};">
+                {{ current_user.username[0].upper() }}
+              </div>
+            {% endif %}
+          </div>
+
+        {% else %}
+
+          <a href="{{ url_for('create_account') }}?next=/dashboard" class="nav-btn primary">
+            Start Free
+          </a>
+
+        {% endif %}
+      </div>
+    </header>
+  </div>
+
+  {% if user_id %}
+  <div class="sheet-overlay" id="sheet-overlay" onclick="closeSheet()"></div>
+
+  <div class="bottom-sheet" id="bottom-sheet">
+    <div class="sheet-handle"></div>
+
+    <div class="sheet-header">
+      <div class="sheet-user">
+        <div class="sheet-avatar">
+          {% if current_user.profile_pic %}
+            <img src="{{ current_user.profile_pic }}" alt="Profile">
+          {% else %}
+            <div class="sheet-initials" style="background-color: {{ bg_color }}; color: {{ text_color }};">
+              {{ current_user.username[0].upper() }}
+            </div>
+          {% endif %}
+        </div>
+        <div class="sheet-username">{{ current_user.username }}</div>
+      </div>
+      <div class="sheet-close" onclick="closeSheet()">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+          <path d="M1 1l12 12M13 1L1 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="sheet-nav">
+      <div class="sheet-nav-label">Explore</div>
+
+      <a href="/what-is-gleyo" class="sheet-link" onclick="closeSheet(); event.preventDefault(); navigateTo(this.href);">
+        <div class="sheet-link-icon green">✦</div>
+        <div class="sheet-link-text">
+          <div class="sheet-link-title">What is Gleyo?</div>
+          <div class="sheet-link-desc">Learn how Gleyo works</div>
+        </div>
+      </a>
+
+      <a href="/documentation" class="sheet-link" onclick="closeSheet(); event.preventDefault(); navigateTo(this.href);">
+        <div class="sheet-link-icon purple">
+        <svg fill="#000000" version="1.1" id="Capa_1" width="16" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 335.08 335.079" xml:space="preserve">
+          <defs>
+            <linearGradient id="coverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#8B4513"/>
+              <stop offset="50%" stop-color="#A0522D"/>
+              <stop offset="100%" stop-color="#6B3410"/>
+            </linearGradient>
+            <linearGradient id="pageGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#D4A76A"/>
+              <stop offset="100%" stop-color="#C8965A"/>
+            </linearGradient>
+            <filter id="softShadow">
+              <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#3B1A08" flood-opacity="0.35"/>
+            </filter>
+          </defs>
+          <g filter="url(#softShadow)">
+            <g fill="url(#coverGrad)" stroke="#5C2A0A" stroke-width="1.2">
+              <path d="M311.175,115.775c-1.355-10.186-1.546-27.73,7.915-33.621c0.169-0.108,0.295-0.264,0.443-0.398c7.735-2.474,13.088-5.946,8.886-10.618l-114.102-34.38L29.56,62.445c0,0-21.157,3.024-19.267,35.894c1.026,17.89,6.637,26.676,11.544,31l-15.161,4.569c-4.208,4.672,1.144,8.145,8.88,10.615c0.147,0.138,0.271,0.293,0.443,0.401c9.455,5.896,9.273,23.438,7.913,33.626c-33.967,9.645-21.774,12.788-21.774,12.788l7.451,1.803c-5.241,4.736-10.446,13.717-9.471,30.75c1.891,32.864,19.269,35.132,19.269,35.132l120.904,39.298l182.49-44.202c0,0,12.197-3.148-21.779-12.794c-1.366-10.172-1.556-27.712,7.921-33.623c0.174-0.105,0.301-0.264,0.442-0.396c7.736-2.474,13.084-5.943,8.881-10.615l-7.932-2.395c5.29-3.19,13.236-11.527,14.481-33.183c0.859-14.896-3.027-23.62-7.525-28.756l15.678-3.794C332.949,128.569,345.146,125.421,311.175,115.775z"/>
+            </g>
+            <g fill="url(#pageGrad)" stroke="#7A4820" stroke-width="0.8" opacity="0.92">
+              <path d="M158.533,115.354l30.688-6.307l103.708-21.312l15.451-3.178c-4.937,9.036-4.73,21.402-3.913,29.35c0.179,1.798,0.385,3.44,0.585,4.688L288.14,122.8l-130.897,32.563L158.533,115.354z"/>
+              <path d="M26.71,147.337l15.449,3.178l99.597,20.474l8.701,1.782l0,0l0,0l26.093,5.363l1.287,40.01L43.303,184.673l-13.263-3.296c0.195-1.25,0.401-2.89,0.588-4.693C31.44,168.742,31.651,156.373,26.71,147.337z"/>
+              <path d="M20.708,96.757c-0.187-8.743,1.371-15.066,4.52-18.28c2.004-2.052,4.369-2.479,5.991-2.479c0.857,0,1.474,0.119,1.516,0.119l79.607,25.953l39.717,12.949l-1.303,40.289L39.334,124.07l-5.88-1.647c-0.216-0.061-0.509-0.103-0.735-0.113C32.26,122.277,21.244,121.263,20.708,96.757z"/>
+              <path d="M140.579,280.866L23.28,247.98c-0.217-0.063-0.507-0.105-0.733-0.116c-0.467-0.031-11.488-1.044-12.021-25.544c-0.19-8.754,1.376-15.071,4.519-18.288c2.009-2.052,4.375-2.479,5.994-2.479c0.859,0,1.474,0.115,1.519,0.115l119.316,38.908L140.579,280.866z"/>
+              <path d="M294.284,239.459c0.185,1.804,0.391,3.443,0.591,4.693l-147.812,36.771l1.292-40.01l31.601-6.497l4.667,1.129l17.492-5.685l80.631-16.569l15.457-3.18C293.261,219.146,293.466,231.517,294.284,239.459z"/>
+              <path d="M302.426,185.084c-0.269,0.006-0.538,0.042-0.791,0.122l-11.148,3.121l-106.148,29.764l-1.298-40.289l34.826-11.359l84.327-27.501c0.011-0.005,4.436-0.988,7.684,2.315c3.144,3.214,4.704,9.537,4.52,18.28C313.848,184.035,302.827,185.053,302.426,185.084z"/>
+            </g>
+          </g>
+        </svg>
+        </div>
+        <div class="sheet-link-text">
+          <div class="sheet-link-title">Documentation</div>
+          <div class="sheet-link-desc">Guides, API & integrations</div>
+        </div>
+      </a>
+
+      <a href="{{ url_for('admin_panel') }}" class="sheet-link" onclick="closeSheet(); event.preventDefault(); navigateTo(this.href);">
+        <div class="sheet-link-icon blue">
+          <svg fill="currentColor" viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg" width="15" height="15"><g stroke-width="0"></g><g  stroke-linecap="round" stroke-linejoin="round"></g><g > <path d="M228,128a12,12,0,0,1-12,12H140v76a12,12,0,0,1-24,0V140H40a12,12,0,0,1,0-24h76V40a12,12,0,0,1,24,0v76h76A12,12,0,0,1,228,128Z"></path> </g></svg>
+        </div>
+        <div class="sheet-link-text">
+          <div class="sheet-link-title">Create a Community</div>
+          <div class="sheet-link-desc">Start your own community</div>
+        </div>
+      </a>
+    </div>
+
+    <div class="sheet-actions">
+      <div class="sheet-action-row">
+        <a href="{{ url_for('account_settings_general') }}" class="sheet-action-btn settings" onclick="closeSheet(); event.preventDefault(); saveAccountBackRoute(); navigateTo(this.href);">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.325.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 0 1 1.37.49l1.296 2.247a1.125 1.125 0 0 1-.26 1.431l-1.003.827c-.293.241-.438.613-.43.992a7.723 7.723 0 0 1 0 .255c-.008.378.137.75.43.991l1.004.827c.424.35.534.955.26 1.43l-1.298 2.247a1.125 1.125 0 0 1-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.47 6.47 0 0 1-.22.128c-.331.183-.581.495-.644.869l-.213 1.281c-.09.543-.56.94-1.11.94h-2.594c-.55 0-1.019-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 0 1-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 0 1-1.369-.49l-1.297-2.247a1.125 1.125 0 0 1 .26-1.431l1.004-.827c.292-.24.437-.613.43-.991a6.932 6.932 0 0 1 0-.255c.007-.38-.138-.751-.43-.992l-1.004-.827a1.125 1.125 0 0 1-.26-1.43l1.297-2.247a1.125 1.125 0 0 1 1.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.086.22-.128.332-.183.582-.495.644-.869l.214-1.28Z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+          </svg>
+          Account Settings
+        </a>
+
+        <a href="{{ url_for('logout') }}" class="sheet-action-btn logout-btn" onclick="closeSheet(); event.preventDefault(); logoutUser(this.href);">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/>
+            <polyline points="16 17 21 12 16 7"/>
+            <line x1="21" y1="12" x2="9" y2="12"/>
+          </svg>
+          Logout
+        </a>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
+
+  <div id="profile-dropdown" class="profile-dropdown">
+    <a href="{{ url_for('account_settings_general') }}" onclick="event.preventDefault(); saveAccountBackRoute(); navigateTo(this.href);">
+      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.325.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 0 1 1.37.49l1.296 2.247a1.125 1.125 0 0 1-.26 1.431l-1.003.827c-.293.241-.438.613-.43.992a7.723 7.723 0 0 1 0 .255c-.008.378.137.75.43.991l1.004.827c.424.35.534.955.26 1.43l-1.298 2.247a1.125 1.125 0 0 1-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.47 6.47 0 0 1-.22.128c-.331.183-.581.495-.644.869l-.213 1.281c-.09.543-.56.94-1.11.94h-2.594c-.55 0-1.019-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 0 1-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 0 1-1.369-.49l-1.297-2.247a1.125 1.125 0 0 1 .26-1.431l1.004-.827c.292-.24.437-.613.43-.991a6.932 6.932 0 0 1 0-.255c.007-.38-.138-.751-.43-.992l-1.004-.827a1.125 1.125 0 0 1-.26-1.43l1.297-2.247a1.125 1.125 0 0 1 1.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.086.22-.128.332-.183.582-.495.644-.869l.214-1.28Z"/>
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+      </svg>
+      Account Settings
+    </a>
+    <div class="dropdown-divider"></div>
+    <a href="{{ url_for('logout') }}" class="logout" onclick="event.preventDefault(); logoutUser(this.href);">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/>
+        <polyline points="16 17 21 12 16 7"/>
+        <line x1="21" y1="12" x2="9" y2="12"/>
+      </svg>
+      Logout
+    </a>
+  </div>
+
+
+  <div id="main-content">
+
+    <header class="hero">
+      <div class="blob blob1"></div>
+      <div class="blob blob2"></div>
+      <div class="blob blob3"></div>
+
+      <div class="hero-content parallax" data-speed="0.22">
+
+
+        <h1>
+          Build communities
+          <span class="accent-line">that actually stick.</span>
+        </h1>
+
+        <p>Engage your members, run quests, earn rewards. Power up your community like never before.</p>
+
+        <div class="hero-buttons">
+          {% if user_id %}
+            <a href="{{ url_for('admin_panel') }}" class="btn-cta primary">
+              Create a Community
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </a>
+          {% else %}
+            <a href="{{ url_for('create_account') }}?next=/dashboard" class="btn-cta primary">
+              Get Started Free
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </a>
+          <a href="{{ url_for('login', next='/dashboard') }}" class="btn-cta secondary">
+            Login
+          </a>
+          {% endif %}
+        </div>
+
+        <!-- <div class="hero-stats">
+          <div class="stat"><h3></h3><span>Communities</span></div>
+          <div class="stat-sep"></div>
+          <div class="stat"><h3></h3><span>Active members</span></div>
+          <div class="stat-sep"></div>
+          <div class="stat"><h3></h3><span>Retention rate</span></div>
+        </div> -->
+      </div>
+    </header>
+
+    <div class="marquee-wrap">
+      <div class="marquee-track">
+        <div class="marquee-item"><span></span>Quest Engine</div>
+        <div class="marquee-item"><span></span>Discord Integration</div>
+        <div class="marquee-item"><span></span>Community Chat</div>
+        <div class="marquee-item"><span></span>ZEC Rewards</div>
+        <div class="marquee-item"><span></span>Twitter Verification</div>
+        <div class="marquee-item"><span></span>Push Notifications</div>
+        <div class="marquee-item"><span></span>Leaderboards</div>
+        <div class="marquee-item"><span></span>Webhook Events</div>
+        <div class="marquee-item"><span></span>Analytics Dashboard</div>
+        <div class="marquee-item"><span></span>Social Login</div>
+        <div class="marquee-item"><span></span>Quest Engine</div>
+        <div class="marquee-item"><span></span>Discord Integration</div>
+        <div class="marquee-item"><span></span>Community Chat</div>
+        <div class="marquee-item"><span></span>ZEC Rewards</div>
+        <div class="marquee-item"><span></span>Twitter Verification</div>
+        <div class="marquee-item"><span></span>Push Notifications</div>
+        <div class="marquee-item"><span></span>Leaderboards</div>
+        <div class="marquee-item"><span></span>Webhook Events</div>
+        <div class="marquee-item"><span></span>Analytics Dashboard</div>
+        <div class="marquee-item"><span></span>Social Login</div>
+      </div>
+    </div>
+
+    <main>
+
+      <section class="community-spotlight reveal">
+        <div class="section-header">
+          <div class="section-label">Communities</div>
+          <!-- <h2 class="section-title">Built by creators like you.</h2> -->
+          <h2 class="section-title">Explore what’s possible with Gleyo.</h2>
+        </div>
+        <div class="initer-upper">
+          <a href="/gleyo/quest" class="spotlight-link">
+            <div class="spotlight-card">
+              <div class="spotlight-image">
+                <img src="https://xpcqiovfesvllsljxhac.supabase.co/storage/v1/object/public/uploads/1/logos/4f88da54-69ef-447b-a82b-209778bd5135.png" loading="lazy" alt="Gleyo">
+              </div>
+              <div class="spotlight-content">
+                <h3>Gleyo</h3>
+                <p>Community growth and engagement platform powered by Zcash.</p>
+                <span class="comm-badge">Official</span>
+              </div>
+            </div>
+          </a>
+
+
+
+        </div>
+      </section>
+
+      <section class="info reveal">
+        <div class="info-text">
+          <div class="section-label">Why Gleyo</div>
+          <h2>Everything your community needs to grow — paid in ZEC.</h2>
+          <p>We help you build thriving communities with smart tools for onboarding, engagement, and shielded ZEC rewards. Connect your Discord, Twitter, and more — all in one place, all native to Zcash.</p>
+          <a href="/what-is-gleyo" class="info-link">
+            Learn more
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </a>
+        </div>
+        <div class="info-img-wrap">
+          <img src="https://xpcqiovfesvllsljxhac.supabase.co/storage/v1/object/public/uploads/zec-united.png" loading="lazy" alt="Community">
+        </div>
+      </section>
+
+
+      <section class="features-section reveal">
+        <div class="section-label" style="justify-content:center;">Features</div>
+        <h2>Built for community builders.</h2>
+        <p class="sub">A focused toolkit for growth — no bloat, just what works.</p>
+        <div class="cards-grid">
+          <div class="card">
+            <div class="card-icon">
+              <svg 
+                viewBox="0 0 36 36" 
+                xmlns="http://www.w3.org/2000/svg"
+                width="21" 
+                height="21"
+                fill="#22c55e"
+              >
+                <path d="M26.093 4.612c-.498.498-.629.839-.728 1.029c-.66 1.266-1.455 1.676-2.78.351c-.13-.13-4.087-4.267-4.741-5.017c-.427-.49-1.081-.64-1.584-.262c-.38.286-4.035 3.273-5.035 4.507c-.774.955-.8 2.134-.079 2.856c.326.326.727.449 1.151.578c.552.169 1.763.068 2.47.775c1.133 1.133.54 2.924-.917 4.421c-1.497 1.457-3.288 2.05-4.421.917c-.708-.708-.606-1.918-.775-2.47c-.129-.424-.252-.824-.578-1.151c-.721-.721-1.9-.694-2.856.079c-1.235 1-4.221 4.655-4.507 5.035c-.379.503-.228 1.156.262 1.584c.75.654 4.887 4.611 5.017 4.741c1.324 1.324.915 2.12-.351 2.78c-.19.099-.53.229-1.029.728a3.744 3.744 0 0 0 5.295 5.295c.498-.498.629-.839.728-1.029c.66-1.266 1.455-1.676 2.78-.351c.13.13 4.087 4.267 4.741 5.017c.427.49 1.081.64 1.584.262c.38-.286 4.035-3.273 5.035-4.507c.774-.955.8-2.134.079-2.856c-.326-.326-.727-.449-1.151-.578c-.552-.169-1.763-.068-2.47-.775c-1.133-1.133-.54-2.924.917-4.421c1.497-1.457 3.288-2.05 4.421-.917c.708.708.606 1.918.775 2.47c.129.424.252.824.578 1.151c.721.721 1.9.694 2.856-.079c1.235-1 4.221-4.655 4.507-5.035c.379-.503.228-1.156-.262-1.584c-.75-.654-4.887-4.611-5.017-4.741c-1.324-1.324-.915-2.12.351-2.78c.19-.099.53-.229 1.029-.728a3.744 3.744 0 0 0-5.295-5.295z"/>
+              </svg>
+            </div>
+            <h3>Onboard Users</h3>
+            <p>Onboard members effortlessly using social sign-in, shielded Zcash wallets, and privacy-first verification.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#4285f4" width="21" height="21">
+                <path d="M3 5.5L8 4v15l-5 1.5V5.5z"  />
+                <path d="M9 4l6 1.5v15L9 19V4z" />
+                <path d="M16 5.5l5-1.5v15l-5 1.5V5.5z"/>
+              </svg>
+            </div>
+            <h3>Quest Builder</h3>
+            <p>Design multi-step quest flows — follow, join, verify — with a visual editor. No code needed.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" width="21" height="21">
+                <path fill="#CC0000" d="M51.429 15.856c4.558-4.299-.715-9.875-10.687-6.421c-.587.204-1.133.419-1.648.642c.977-1.876 2.42-3.924 4.58-5.885c0 0-4.034 1.449-5.898 1.082C35.464 4.819 34.739 2 34.739 2s-2.405 5.238-3.63 9.349c-1.754-3.532-3.697-6.969-3.697-6.969s-1.037 2.404-2.936 3.318c-1.531.74-7.829 1.378-7.829 1.378c2.1 1.074 3.903 2.401 5.433 3.774c-1.609-.426-3.446-.746-5.547-.898c-8.344-.605-11.621 2.372-10.505 5.313L2 17.394l2.192 8.219L5.554 26c3.232 10.949 2.45 23.098 2.44 23.235l-.055.792l.754.222C20.766 53.805 31.735 62 31.735 62s14.222-9.412 22.042-11.753l.684-.205l.014-.72c.004-.17.346-15.334 4.271-25.218c.276-.039.536-.07.759-.084l.827-.05l.083-.832c.003-.033.341-4.796 1.586-6.739l-10.572-.543"/>
+                <path fill="#FFD700" d="M4.587 19.7l6.483 1.759v4.063l-5.381-1.528L4.587 19.7m10.074 30.512a70.37 70.37 0 0 0-4.681-1.63c.128-2.822.313-12.549-2.233-21.96l4.71 1.338c.912 4.023 2.426 12.311 2.204 22.252m7.893-35.169c8.094.586 9.517 4.764 9.517 4.764s-4.931 1.803-7.978 1.803c-9.942 0-11.378-7.28-1.539-6.567m9.988 5.379l8.126.921l-10.13 2.451l-5.786-1.293l7.79-2.079m-9.729 3.661l6.76 1.51v5.184l-6.979-1.947l.219-4.747m8.041 34.937c-1.476-1.096-3.936-2.787-7.202-4.6c.259-4.777.29-17.541.291-23.198l6.911 1.963V59.02m9.046-4.356a138.415 138.415 0 0 0-7.1 4.496V32.29a510.721 510.721 0 0 1 8.162-2.917c-.587 5.658-.954 20.424-1.062 25.291m3.28-27.832s-9.738 3.125-11.659 3.834V25.58l11.811-2.858l-.152 4.11m-1.2-7.461c-4.559 1.168-9.408.344-9.408.344s-.909-4.465 6.451-7.014c8.946-3.099 12.483 4.229 2.957 6.67m6.711-1.699l5.796.326l-3.481.843l-4.157-.41c.673-.234 1.284-.49 1.842-.759m3.856 30.9c-1.447.473-2.973 1.092-4.511 1.793c.011-4.684.297-15.066 2.467-24.145c2.231-.688 4.299-1.275 5.987-1.672c-3.227 8.986-3.838 20.96-3.943 24.024m6.038-26.431s-3.201.938-5.245 1.502l.514-3.468l5.565-1.346c-.456 1.255-.834 3.312-.834 3.312"/>
+              </svg>
+            </div>
+            <h3>Engage & Reward</h3>
+            <p>Gamify participation. Give points, ZEC tokens. Members earn while you grow.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 115.98 122.88" width="21" height="21">
+                <path fill="#FF5733" d="M17.2,0h59.47c4.73,0,9.03,1.93,12.15,5.05c3.12,3.12,5.05,7.42,5.05,12.15v38.36c0,4.73-1.93,9.03-5.05,12.15c-3.12,3.12-7.42,5.05-12.15,5.05H46.93L20.81,95.21c-1.21,1.04-3.04,0.9-4.08-0.32c-0.51-0.6-0.74-1.34-0.69-2.07l1.39-20.07H17.2c-4.73,0-9.03-1.93-12.15-5.05C1.93,64.59,0,60.29,0,55.56V17.2c0-4.73,1.93-9.03,5.05-12.15C8.16,1.93,12.46,0,17.2,0z M102.31,27.98c3.37,0.65,6.39,2.31,8.73,4.65c3.05,3.05,4.95,7.26,4.95,11.9v38.36c0,4.64-1.89,8.85-4.95,11.9c-3.05,3.05-7.26,4.95-11.9,4.95h-0.61l1.42,20.44c0.04,0.64-0.15,1.3-0.6,1.82c-0.91,1.07-2.52,1.19-3.58,0.28l-26.22-23.2H35.01l17.01-17.3h36.04c7.86,0,14.3-6.43,14.3-14.3V29.11C102.35,28.73,102.34,28.35,102.31,27.98z M25.68,43.68c-1.6,0-2.9-1.3-2.9-2.9c0-1.6,1.3-2.9,2.9-2.9h30.35c1.6,0,2.9,1.3,2.9,2.9c0,1.6-1.3,2.9-2.9,2.9H25.68z M25.68,29.32c-1.6,0-2.9-1.3-2.9-2.9c0-1.6,1.3-2.9,2.9-2.9H68.7c1.6,0,2.9,1.3,2.9,2.9c0,1.6-1.3,2.9-2.9,2.9H25.68z M76.66,5.8H17.2c-3.13,0-5.98,1.28-8.05,3.35C7.08,11.22,5.8,14.06,5.8,17.2v38.36c0,3.13,1.28,5.98,3.35,8.05c2.07,2.07,4.92,3.35,8.05,3.35h3.34l0.19,0.01c1.59,0.11,2.8,1.49,2.69,3.08l-1.13,16.26L43.83,67.8c0.52-0.52,1.24-0.84,2.04-0.84h30.79c3.13,0,5.98-1.28,8.05-3.35c2.07-2.07,3.35-4.92,3.35-8.05V17.2c0-3.13-1.28-5.98-3.35-8.05C82.65,7.08,79.8,5.8,76.66,5.8z"/>
+              </svg>
+            </div>
+            <h3>Community Chat</h3>
+            <p>Engage your members in real-time with built-in community chat. No integrations, no setup — just seamless conversations in one place.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24">
+                <path fill="#2563EB" d="M13.1 0v11.4l9.9 3.7c.5-1.3.8-2.7.8-4.2C23.8 4.5 19.3 0 13.1 0z"/>
+                <path fill="#0EA5E9" d="M10.9 2C4.9 2 0 6.9 0 12.9S4.9 23.8 10.9 23.8c4.5 0 8.3-2.7 9.9-6.6l-9.9-3.7V2z"/>
+              </svg>
+            </div>
+            <h3>Live Analytics</h3>
+            <p>See who's engaging, what's working, and where to focus — in real time.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <svg
+
+                width="40"
+                height="28"
+                version="1.1"
+                id="svg75"
+                sodipodi:docname="rocket-312767.svg"
+                viewBox="0 0 513.68683 491.95261"
+                inkscape:version="0.92pre1_64bit r15016">
+                <defs
+                  id="defs79" />
+                <sodipodi:namedview
+                  pagecolor="#ffffff"
+                  bordercolor="#666666"
+                  borderopacity="1"
+                  objecttolerance="10"
+                  gridtolerance="10"
+                  guidetolerance="10"
+                  inkscape:pageopacity="0"
+                  inkscape:pageshadow="2"
+                  inkscape:window-width="1366"
+                  inkscape:window-height="745"
+                  id="namedview77"
+                  showgrid="false"
+                  fit-margin-top="10"
+                  fit-margin-left="10"
+                  fit-margin-right="10"
+                  fit-margin-bottom="10"
+                  inkscape:zoom="1.91875"
+                  inkscape:cx="380.89306"
+                  inkscape:cy="291.55133"
+                  inkscape:window-x="-8"
+                  inkscape:window-y="-8"
+                  inkscape:window-maximized="1"
+                  inkscape:current-layer="svg75" />
+                <metadata
+                  id="metadata1906">image/svg+xml<rdf:RDF>
+                <cc:Work
+                  rdf:about="">
+                  <dc:format>image/svg+xml</dc:format>
+                  <dc:type
+                    rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                  <dc:title></dc:title>
+                  <cc:license
+                    rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+                </cc:Work>
+                <cc:License
+                  rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+                  <cc:permits
+                    rdf:resource="http://creativecommons.org/ns#Reproduction" />
+                  <cc:permits
+                    rdf:resource="http://creativecommons.org/ns#Distribution" />
+                  <cc:permits
+                    rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+                </cc:License>
+              </rdf:RDF>
+              </metadata>
+                <g
+                  transform="matrix(-0.26597355,-0.26597355,0.63371805,-0.63371805,38.735973,548.75353)"
+                  id="svg_29">
+                  <metadata
+                    id="svg_28">image/svg+xml</metadata>
+                  <path
+                    style="fill:#e73900;fill-rule:evenodd;stroke-width:1.00000039pt"
+                    inkscape:connector-curvature="0"
+                    d="M 58.95454,347.23395 C -9.037541,242.85088 73.060089,233.52847 52.118831,90.624024 103.47625,158.04097 117.81456,240.7354 139.37527,265.19403 c 14.88034,19.20859 22.2192,42.3949 20.21849,66.21726 -0.20173,18.85366 23.6251,41.6983 17.10981,59.3005 -34.64389,-27.74878 -94.232524,-9.66226 -117.74903,-43.47784 z"
+                    id="svg_27" />
+                  <path
+                    style="fill:#e73900;fill-rule:evenodd;stroke-width:1.00000021pt"
+                    inkscape:connector-curvature="0"
+                    d="m 161.7809,377.71368 c 0.39303,-19.99023 -23.79616,-28.66238 -33.52622,-44.27447 -16.1147,-11.92496 -21.21929,-30.48685 -21.57498,-48.76584 -1.3098,-29.23367 24.74826,-203.54258 62.71112,-250.35614 -14.5484,71.88596 21.56903,167.64252 43.88286,199.32079 15.09956,24.61357 20.77625,52.95274 15.3373,80.83769 -2.67223,22.24722 -21.10112,35.61532 -31.07051,55.56906 -9.97252,12.01678 -23.5441,13.15533 -35.75957,7.66891 z"
+                    id="svg_26" />
+                  <path
+                    style="fill:#e73900;fill-rule:evenodd;stroke-width:1.00000021pt"
+                    inkscape:connector-curvature="0"
+                    d="m 175.5607,387.49258 c 5.78662,-17.36703 -5.66486,-44.89495 -9.27092,-61.00222 -9.78333,-14.50379 -8.83797,-32.01615 -4.1256,-48.07773 6.93673,-25.87512 8.08193,-147.98087 120.02512,-205.321894 -86.81754,85.182644 -29.17041,154.410894 -19.77231,187.745504 5.49048,25.33325 2.68381,51.73715 -9.69748,74.51981 -17.09363,31.45379 -62.73308,48.78924 -77.15881,52.13653 z"
+                    id="svg_25" />
+                  <path
+                    style="fill:#e78c00;fill-rule:evenodd;stroke-width:1.00000003pt"
+                    inkscape:connector-curvature="0"
+                    d="m 157.11595,377.31308 c 0.29729,-16.31976 -17.99898,-23.39954 -25.35861,-36.14505 -12.18886,-9.73538 -16.04987,-24.88901 -16.31891,-39.81174 -0.99071,-23.86596 23.32575,-150.04612 42.82692,-204.387219 -13.30745,123.179279 20.92102,136.860989 37.79878,162.722669 11.42102,20.09418 15.71477,43.22989 11.60085,65.99475 -2.02123,18.16233 -10.73396,34.71701 -18.27463,51.00696 -7.54301,9.81034 -23.03485,5.09867 -32.2744,0.61963 z"
+                    id="svg_24" />
+                  <path
+                    style="fill:#e78c00;fill-rule:evenodd;stroke-width:1.00000039pt"
+                    inkscape:connector-curvature="0"
+                    d="m 86.962914,353.92651 c -69.840643,-71.70462 6.256737,-76.69827 -13.112495,-175.17469 23.002991,46.41659 42.077881,81.28575 50.453851,114.24382 12.39538,11.63806 55.22529,82.68295 52.65835,95.56353 -26.99225,-15.36667 -69.8897,-13.98593 -89.999706,-34.63266 z"
+                    id="svg_23" />
+                  <path
+                    style="fill:#e7e100;fill-rule:evenodd;stroke-width:1.00000039pt"
+                    inkscape:connector-curvature="0"
+                    d="M 100.90993,349.60901 C 59.13153,309.94962 90.33152,286.66406 89.958259,237.12917 c 11.549271,43.35273 48.079751,54.03501 47.610721,80.07765 6.03492,7.79028 37.63431,63.34457 34.99195,70.48333 -14.05024,-11.25384 -55.82177,-23.05477 -71.651,-38.08114 z"
+                    id="svg_22" />
+                  <path
+                    style="fill:#e78c00;fill-rule:evenodd;stroke-width:1.00000021pt"
+                    inkscape:connector-curvature="0"
+                    d="m 168.06467,344.26385 c -7.3404,-10.88214 -6.63111,-24.0216 -3.09543,-36.07254 5.2046,-19.414 28.07133,-127.32403 60.7381,-150.79486 -23.59104,44.36028 7.42985,112.59653 14.4812,137.60736 4.11949,19.00745 5.27165,41.48987 -7.27597,55.91193 -18.95542,21.78708 -42.88182,34.47507 -56.29,37.51706 -8.52365,5.98154 -5.85229,-32.08371 -8.5579,-44.16895 z"
+                    id="svg_21" />
+                  <path
+                    style="fill:#e7e100;fill-rule:evenodd;stroke-width:0.99999985pt"
+                    inkscape:connector-curvature="0"
+                    d="m 156.26263,378.50754 c 0.58986,-9.98438 -10.43516,-14.77625 -14.6226,-22.76364 -7.21938,-6.26514 -9.20458,-15.6395 -8.99637,-24.78269 -0.0101,-14.63678 -0.50958,-105.87648 18.02599,-128.55794 -8.20394,35.6561 22.69143,88.80791 32.37858,105.06359 6.49039,12.58816 8.54106,26.86035 5.4534,40.6954 -1.69139,11.06943 -7.43953,20.98737 -12.46341,30.77249 -4.86341,5.8179 -14.23059,2.54602 -19.77558,-0.42721 z"
+                    id="svg_20" />
+                  <path
+                    style="fill:#e7e100;fill-rule:evenodd;stroke-width:0.99999985pt"
+                    inkscape:connector-curvature="0"
+                    d="m 165.07971,379.78284 c 4.74578,-6.95044 -1.13754,-15.17905 -0.70358,-22.75531 -2.49935,-7.64521 0.12405,-15.26957 4.23044,-21.77805 6.32576,-10.56763 17.44223,-89.10139 40.63311,-97.45039 -21.34854,22.18303 15.72362,81.49476 15.68122,97.41783 -0.76264,11.89306 -15.23012,27.96655 -23.44464,36.61523 -6.01024,7.2569 -17.9049,14.23078 -25.76445,19.11887 -6.02721,-3.66385 -7.91678,-6.6232 -10.6321,-11.16818 z"
+                    id="svg_19" />
+                  <path
+                    style="fill:#ffff9e;fill-rule:evenodd;stroke-width:1.0000011pt"
+                    inkscape:connector-curvature="0"
+                    d="m 157.0795,371.83478 c -14.75608,-23.24143 -9.28153,-49.17026 -3.00633,-77.45117 2.85862,19.18917 14.76661,42.47567 21.49823,50.11206 4.64589,5.99725 6.93719,13.23639 6.31254,20.67413 -0.063,5.88641 -3.05125,13.01889 -5.08543,18.51459 -10.81639,-8.66364 -12.37677,-1.29184 -19.71901,-11.84961 z"
+                    id="svg_18" />
+                  <path
+                    style="fill:#ffff9e;fill-rule:evenodd;stroke-width:1.0000011pt"
+                    inkscape:connector-curvature="0"
+                    d="m 173.66742,360.30753 c 11.43123,-25.04462 0.11491,-44.76145 26.31412,-64.40897 -7.82358,18.21469 10.06971,46.97555 8.12272,56.94846 -3.27428,16.7716 -25.88508,29.25442 -31.60083,30.54705 1.36171,-13.79126 -7.68024,-11.17401 -2.83601,-23.08654 z"
+                    id="svg_17" />
+                  <path
+                    style="fill:#ffff9e;fill-rule:evenodd;stroke-width:1.0000011pt"
+                    inkscape:connector-curvature="0"
+                    d=""
+                    id="svg_16" />
+                </g>
+                <g
+                  transform="matrix(1.4938907,1.5212294,-1.5212294,1.4938907,-120.80487,-819.40453)"
+                  id="svg_1">
+                  <path
+                    style="fill:#ececec;fill-rule:evenodd;stroke:#000000;stroke-width:3"
+                    inkscape:connector-curvature="0"
+                    id="path3217"
+                    d="m 481.66812,67.248428 c -8.02402,6.942398 -69.69934,65.128842 -22.98169,176.556102 h 46.54151 0.17102 C 552.11639,132.37779 490.4415,74.199982 482.4173,67.257279 l -0.74918,-0.0088 z" />
+                  <path
+                    style="fill:#cccccc;fill-rule:nonzero;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4"
+                    inkscape:connector-curvature="0"
+                    stroke-miterlimit="4"
+                    d="m 483.60232,139.38954 c -9.71862,0 -17.62307,8.60173 -17.62307,19.1668 0,10.56509 7.90445,19.15799 17.62307,19.15799 9.71866,0 17.6312,-8.5929 17.6312,-19.15799 0,-10.56507 -7.91254,-19.1668 -17.6312,-19.1668 z m 0,2.26637 c 8.59061,0 15.54639,7.5616 15.54639,16.90043 0,9.33883 -6.95578,16.8916 -15.54639,16.8916 -8.59063,0 -15.53829,-7.55277 -15.53829,-16.8916 3e-5,-9.33883 6.94766,-16.90043 15.53829,-16.90043 z"
+                    id="path3219" />
+                  <path
+                    style="fill:#ff0000;fill-rule:evenodd;stroke:#000000;stroke-width:3"
+                    inkscape:connector-curvature="0"
+                    d="m 450.56461,112.99554 11.31958,-22.607677 15.79473,-19.459793 4.47516,-3.720245 16.84775,19.173599 13.16223,23.180036 1.05304,4.86496 -62.91574,-0.28618"
+                    id="path2419" />
+                  <path
+                    style="fill:#ff0000;fill-rule:evenodd;stroke:#000000;stroke-width:3"
+                    inkscape:connector-curvature="0"
+                    d="m 444.24673,199.1337 c 0,0 -27.90408,-0.37778 -11.05633,76.69446 0,0 1.57947,-64.35379 16.32123,-56.41986"
+                    id="path2408" />
+                  <path
+                    style="fill:#ff0000;fill-rule:evenodd;stroke:#000000;stroke-width:3"
+                    inkscape:connector-curvature="0"
+                    id="path2410"
+                    d="m 519.91931,199.1337 c 0,0 27.90393,-0.37778 11.05628,76.69446 0,0 -1.57947,-64.35379 -16.32123,-56.41986" />
+                  <path
+                    style="fill:#b3b3b3;fill-rule:evenodd;stroke:#000000;stroke-width:3"
+                    inkscape:connector-curvature="0"
+                    d="m 451.88086,228.03723 6.84439,15.73953 46.85773,-0.28619 5.5281,-15.45334 z"
+                    id="path2423" />
+                  <path
+                    style="fill:#d20000;fill-rule:evenodd;stroke-width:3"
+                    inkscape:connector-curvature="0"
+                    d="m 526.37933,206.86041 -5.26489,14.30869 -3.15894,-2.86179 -3.68548,1.71704 5.00171,-21.46298 8.95037,4.86496 c 0,0 15.53144,11.73312 3.42218,70.11252 7.10761,-60.3826 -5.52819,-66.67844 -5.26495,-66.67844 z"
+                    id="path3209" />
+                  <path
+                    style="fill:#d20000;fill-rule:evenodd;stroke-width:3"
+                    inkscape:connector-curvature="0"
+                    d="m 432.40066,274.96967 c 0,0 -2.62188,-62.42981 15.26826,-62.67194 1.97418,-0.0267 1.84271,6.86813 1.84271,6.86813 l -7.10764,1.71704 -5.52814,18.88746 z"
+                    id="path3213" />
+                  <path
+                    style="fill:#999999;fill-rule:evenodd;stroke-width:3"
+                    inkscape:connector-curvature="0"
+                    d="m 493.94302,228.03854 c 1.05622,3.45911 1.68036,8.2858 1.37632,15.16526 0.2247,0.0861 0.4627,0.20685 0.70849,0.34527 l 9.55264,-0.062 4.45456,-12.44739 c -0.17968,-1.0635 -0.38726,-2.01275 -0.5863,-3.00116 z"
+                    id="path3232" />
+                  <path
+                    style="fill:#cccccc;fill-rule:evenodd;stroke-width:3"
+                    inkscape:connector-curvature="0"
+                    d="m 488.18735,196.77953 c -1.77692,-0.1431 -2.89917,0.15936 -2.89917,0.15936 l -1.31931,22.03522 c 0,0 6.3418,-1.36139 9.33274,8.02081 h 15.53827 c -5.04676,-25.58417 -15.54917,-29.80447 -20.65253,-30.21539 z"
+                    id="path3227" />
+                  <path
+                    style="fill:#cccccc;fill-rule:evenodd;stroke-width:3"
+                    inkscape:connector-curvature="0"
+                    d="m 452.62167,229.3186 5.21198,14.16486 7.29681,0.56662 -2.08478,-16.14798 z"
+                    id="path3241" />
+                  <path
+                    style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3"
+                    inkscape:connector-curvature="0"
+                    d="m 450.56461,113.5679 h 61.8627"
+                    id="path2394" />
+                  <path
+                    style="fill:#b3b3b3;fill-rule:nonzero;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4"
+                    inkscape:connector-curvature="0"
+                    stroke-miterlimit="4"
+                    id="path2400"
+                    d="m 498.62714,156.85487 a 16.584475,18.028923 0 1 1 -33.16895,0 16.584475,18.028923 0 1 1 33.16895,0 z" />
+                  <path
+                    style="fill:#80e5ff;fill-rule:nonzero;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4"
+                    inkscape:connector-curvature="0"
+                    stroke-miterlimit="4"
+                    d="m 492.83575,156.85487 a 10.793091,11.733133 0 1 1 -21.58618,0 10.793091,11.733133 0 1 1 21.58618,0 z"
+                    id="path2402" />
+                  <path
+                    style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3"
+                    inkscape:connector-curvature="0"
+                    d="m 453.67666,227.99668 h 58.44049"
+                    id="path2417" />
+                  <path
+                    style="fill:#ff0000;fill-rule:nonzero;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4"
+                    inkscape:connector-curvature="0"
+                    stroke-miterlimit="4"
+                    d="m 479.67346,198.56137 h 4.73844 v 77.26679 h -4.73844 z"
+                    id="rect2414" />
+                  <path
+                    style="fill:#cccccc;fill-rule:evenodd;stroke-width:3"
+                    inkscape:connector-curvature="0"
+                    d="m 509.35697,226.15086 c 0,0 21.05969,-52.65588 4.21197,-103.30856 0.78974,89.85842 -21.84942,103.30856 -21.84942,103.30856 z"
+                    id="path2425" />
+                  <rect
+                    style="fill:#ffffff;fill-rule:nonzero;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4"
+                    stroke-miterlimit="4"
+                    id="rect2429"
+                    width="34.470276"
+                    height="83.713531"
+                    x="672.60468"
+                    y="-389.67041"
+                    transform="matrix(0.18343478,0.20122734,-0.18343478,0.20122734,291.74655,87.84773)" />
+                  <path
+                    style="fill:none;fill-rule:nonzero;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4"
+                    inkscape:connector-curvature="0"
+                    stroke-miterlimit="4"
+                    id="path2431"
+                    d="m 492.83575,156.85487 a 10.793091,11.733133 0 1 1 -21.58618,0 10.793091,11.733133 0 1 1 21.58618,0 z" />
+                  <path
+                    style="fill:#d20000;fill-rule:evenodd;stroke-width:3"
+                    inkscape:connector-curvature="0"
+                    d="m 506.1095,109.2753 c 0,0 -8.16068,-23.180055 -23.69214,-35.485505 14.21524,29.762035 6.84436,35.485505 6.84436,35.485505 z"
+                    id="path2437" />
+                  <path
+                    style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3"
+                    inkscape:connector-curvature="0"
+                    d="m 519.91931,199.1337 c 0,0 27.90393,-0.37778 11.05628,76.69446 0,0 -1.57947,-64.35379 -16.32123,-56.41986"
+                    id="path3211" />
+                  <path
+                    style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3"
+                    inkscape:connector-curvature="0"
+                    id="path3215"
+                    d="m 444.24673,199.1337 c 0,0 -27.90408,-0.37778 -11.05633,76.69446 0,0 1.57947,-64.35379 16.32123,-56.41986" />
+                  <path
+                    style="fill:#ffffff;fill-rule:evenodd;stroke-width:3"
+                    inkscape:connector-curvature="0"
+                    d="m 454.25006,108.41678 c 0,0 13.95203,-29.475862 25.53479,-37.202531 11.58286,-7.7267 -25.27154,37.774871 -25.53479,37.202531 z"
+                    id="path3237" />
+                  <path
+                    style="fill:#ffffff;fill-rule:evenodd;stroke-width:3"
+                    inkscape:connector-curvature="0"
+                    d="m 446.03223,186.74307 c -0.8245,-0.49765 -5.92191,-41.35026 6.70114,-66.77717 7.78332,-6.81024 18.37289,-3.22869 17.86972,-0.40473 -4.35901,24.46296 -19.66736,70.14168 -24.57086,67.1819 z"
+                    id="path3239" />
+                  <path
+                    style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3"
+                    inkscape:connector-curvature="0"
+                    d="m 481.66812,67.248428 c -8.02402,6.942398 -69.69934,65.128842 -22.98169,176.556102 h 46.54151 0.17102 C 552.11639,132.37779 490.4415,74.199982 482.4173,67.257279 l -0.74918,-0.0088 z"
+                    id="path2382" />
+                </g>
+                <path
+                  style="fill:#e73900;fill-rule:evenodd;stroke-width:2.13210028pt"
+                  inkscape:connector-curvature="0"
+                  d=""
+                  id="svg_1756" />
+                <path
+                  style="fill:#e73900;fill-rule:evenodd;stroke-width:2.13209993pt"
+                  inkscape:connector-curvature="0"
+                  d=""
+                  id="svg_1755" />
+                <path
+                  style="fill:#e73900;fill-rule:evenodd;stroke-width:2.13209993pt"
+                  inkscape:connector-curvature="0"
+                  d=""
+                  id="svg_1754" />
+                <path
+                  style="fill:#e78c00;fill-rule:evenodd;stroke-width:2.13209957pt"
+                  inkscape:connector-curvature="0"
+                  d=""
+                  id="svg_1753" />
+                <path
+                  style="fill:#e78c00;fill-rule:evenodd;stroke-width:2.13210028pt"
+                  inkscape:connector-curvature="0"
+                  d=""
+                  id="svg_1752" />
+                <path
+                  style="fill:#e7e100;fill-rule:evenodd;stroke-width:2.13210028pt"
+                  inkscape:connector-curvature="0"
+                  d=""
+                  id="svg_1751" />
+                <path
+                  style="fill:#e78c00;fill-rule:evenodd;stroke-width:2.13209993pt"
+                  inkscape:connector-curvature="0"
+                  d=""
+                  id="svg_1750" />
+                <path
+                  style="fill:#e7e100;fill-rule:evenodd;stroke-width:2.13209921pt"
+                  inkscape:connector-curvature="0"
+                  d=""
+                  id="svg_1749" />
+                <path
+                  style="fill:#e7e100;fill-rule:evenodd;stroke-width:2.13209921pt"
+                  inkscape:connector-curvature="0"
+                  d=""
+                  id="svg_1748" />
+                <path
+                  style="fill:#ffff9e;fill-rule:evenodd;stroke-width:2.13210171pt"
+                  inkscape:connector-curvature="0"
+                  d=""
+                  id="svg_1747" />
+                <path
+                  style="fill:#ffff9e;fill-rule:evenodd;stroke-width:2.13210171pt"
+                  inkscape:connector-curvature="0"
+                  d=""
+                  id="svg_1746" />
+                <path
+                  style="fill:#ffff9e;fill-rule:evenodd;stroke-width:2.13210171pt"
+                  inkscape:connector-curvature="0"
+                  d=""
+                  id="svg_1745" />
+                <path
+                  style="fill:#e73900;fill-rule:evenodd;stroke-width:2.13210028pt"
+                  inkscape:connector-curvature="0"
+                  d=""
+                  id="svg_13" />
+                <path
+                  style="fill:#e73900;fill-rule:evenodd;stroke-width:2.13209993pt"
+                  inkscape:connector-curvature="0"
+                  d=""
+                  id="svg_12" />
+                <path
+                  style="fill:#e73900;fill-rule:evenodd;stroke-width:2.13209993pt"
+                  inkscape:connector-curvature="0"
+                  d=""
+                  id="svg_11" />
+                <path
+                  style="fill:#e78c00;fill-rule:evenodd;stroke-width:2.13209957pt"
+                  inkscape:connector-curvature="0"
+                  d=""
+                  id="svg_10" />
+                <path
+                  style="fill:#e78c00;fill-rule:evenodd;stroke-width:2.13210028pt"
+                  inkscape:connector-curvature="0"
+                  d=""
+                  id="svg_9" />
+                <path
+                  style="fill:#e7e100;fill-rule:evenodd;stroke-width:2.13210028pt"
+                  inkscape:connector-curvature="0"
+                  d=""
+                  id="svg_8" />
+                <path
+                  style="fill:#e78c00;fill-rule:evenodd;stroke-width:2.13209993pt"
+                  inkscape:connector-curvature="0"
+                  d=""
+                  id="svg_7" />
+                <path
+                  style="fill:#e7e100;fill-rule:evenodd;stroke-width:2.13209921pt"
+                  inkscape:connector-curvature="0"
+                  d=""
+                  id="svg_6" />
+                <path
+                  style="fill:#e7e100;fill-rule:evenodd;stroke-width:2.13209921pt"
+                  inkscape:connector-curvature="0"
+                  d=""
+                  id="svg_5" />
+                <path
+                  style="fill:#ffff9e;fill-rule:evenodd;stroke-width:2.13210171pt"
+                  inkscape:connector-curvature="0"
+                  d=""
+                  id="svg_4" />
+                <g
+                  id="svg_1758"
+                  transform="matrix(2.1320995,0,0,2.1320995,-686.53718,-194.38429)" />
+                <g
+                  id="svg_15"
+                  transform="matrix(2.1320995,0,0,2.1320995,-686.53718,-194.38429)">
+                  <path
+                    style="fill:#ffff9e;fill-rule:evenodd;stroke-width:1.0000011pt"
+                    inkscape:connector-curvature="0"
+                    d=""
+                    id="svg_3" />
+                  <path
+                    style="fill:#ffff9e;fill-rule:evenodd;stroke-width:1.0000011pt"
+                    inkscape:connector-curvature="0"
+                    d=""
+                    id="svg_2" />
+                </g>
+              </svg>
+            </div>
+            <h3>Grow Organically</h3>
+            <p>Use viral loops and referral mechanics to grow your audience without spending on ads.</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="cta-banner reveal">
+        <h2>Start building your community for free</h2>
+        <p>Gleyo is free for early Zcash communities. Be among the first to build and grow with shielded ZEC rewards.</p>
+
+        {% if user_id %}
+          <a href="{{ url_for('admin_panel') }}" class="btn-cta primary create-comm">
+            Create your community →
+          </a>
+        {% else %}
+      <div class="cta-buttons">
+        <a href="{{ url_for('create_account') }}?next=/dashboard" class="btn-cta primary">
+          Get started free →
+        </a>
+
+        <a href="{{ url_for('login', next='/dashboard') }}" class="btn-cta secondary">
+          Login
+        </a>
+      </div>
+      {% endif %}
+
+  </div>
+
+    </main>
+  </div>
+
+  <div id="community-search-results"></div>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="brand-logo">
+          <img src="https://zupdpwnloewdkjqsymdm.supabase.co/storage/v1/object/public/uploads/communities/7/logos/511f4996-5748-4f1f-b74c-5d5c33f7124c.png" width="24" height="24" style="border-radius:6px;">
+          Gleyo
+        </div>
+        <p>Helping community builders engage, retain, and reward their members.</p>
+      </div>
+      <div>
+        <h4>Product</h4>
+        <a href="/what-is-gleyo">What is Gleyo?</a>
+        <a href="/product">Features</a>
+        <a href="/product#how">How It Works</a>
+        <a href="/pricing">Pricing</a>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="/about">About</a>
+        <a href="#">Contact</a>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <a href="{{ url_for('terms') }}">Terms</a>
+        <a href="{{ url_for('privacy') }}">Privacy</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; {{ current_year }} Gleyo. All rights reserved.</span>
+      <div class="footer-socials">
+        <div>
+          <a class="social-link" href="#" title="X / Twitter" style="display: flex; align-items: center; justify-content: center;" onclick="event.preventDefault(); showToast('Coming soon — stay updated with ZecHub on X!', 'error')">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+            </svg>
+          </a>        
+        </div>
+        <div>
+          <a class="social-link" href="#" title="Telegram" style="display: flex; align-items: center; justify-content: center;" onclick="event.preventDefault(); showToast('Coming soon — stay updated with ZecHub on Telegram!', 'error')">
+            <svg viewBox="0 0 48 48" fill="none" width="15" height="15" xmlns="http://www.w3.org/2000/svg"><g stroke-width="0"></g><g stroke-linecap="round" stroke-linejoin="round"></g><g> <path d="M41.4193 7.30899C41.4193 7.30899 45.3046 5.79399 44.9808 9.47328C44.8729 10.9883 43.9016 16.2908 43.1461 22.0262L40.5559 39.0159C40.5559 39.0159 40.3401 41.5048 38.3974 41.9377C36.4547 42.3705 33.5408 40.4227 33.0011 39.9898C32.5694 39.6652 24.9068 34.7955 22.2086 32.4148C21.4531 31.7655 20.5897 30.4669 22.3165 28.9519L33.6487 18.1305C34.9438 16.8319 36.2389 13.8019 30.8426 17.4812L15.7331 27.7616C15.7331 27.7616 14.0063 28.8437 10.7686 27.8698L3.75342 25.7055C3.75342 25.7055 1.16321 24.0823 5.58815 22.459C16.3807 17.3729 29.6555 12.1786 41.4193 7.30899Z" fill="currentColor"></path> </g></svg>
+          </a>        
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+</body>
+</html>

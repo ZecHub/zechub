@@ -1,0 +1,715 @@
+
+<style>
+
+  @media (max-width: 1206px) {
+    .main-wrapper.sprint-mode #leftPanel {
+      display: none;
+      width: 100% !important;
+    }
+
+  }
+
+  .main-wrapper.sprint-mode #leftPanel::before  {
+
+    content: "";
+    position: relative;
+    inset: 0;
+    background: transparent !important;
+    pointer-events: none;
+
+
+  }
+  @media (min-width: 1093px) {
+
+    .main-wrapper.sprint-mode #leftPanel {
+    display: flex;
+
+    }
+
+    html, body {
+      overflow: hidden;
+    }
+
+  }
+
+
+  @media (max-width: 1200px) {
+    .main-wrapper.sprint-mode #leftPanel {
+      padding: 15px 0 !important;
+    }
+
+  }
+
+  @media (min-width: 768px) {
+    .main-wrapper.sprint-mode #leftPanel  {
+      padding: 15px 19px !important;
+      flex: 0 0 70% !important; 
+      height: 100% !important;
+      border: 0.9px solid var(--border);
+      border-radius: 28px;
+      
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      background-color: var(--bg-sidebar);
+      box-sizing: border-box !important;
+      min-height: 100%;
+      position: relative;
+    }
+
+
+  }
+
+
+
+  @media (max-width: 767px) {
+  .main-wrapper.sprint-mode .info-left-contain {
+      width: 100%;
+      height: 100%;
+      border-radius: 28px;
+      border: 0.9px solid var(--border);
+      overflow: hidden;
+      padding: 0;
+      margin: 0;
+    
+
+  }
+  
+  }
+
+
+  @media (max-width: 767px) {
+
+    
+    .main-wrapper.sprint-mode {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      background-color: var(--bg-sidebar);
+      padding: 0;
+      height: calc(100dvh - 64px) !important;
+      color: var(--text-main) !important;
+      min-height: calc(100dvh - 64px) !important;
+      box-sizing: border-box;
+      max-height: calc(100dvh - 64px) !important;
+      gap: 0;
+      overflow: hidden;
+    }
+    
+  }
+
+
+
+  
+  
+  
+  @media (max-width: 1200px) {
+
+
+    .main-wrapper.sprint-mode .info-left-contain{
+      width: 100% !important;
+    }
+  }
+
+
+  
+  .main-wrapper.sprint-mode .info-top {
+    position: relative;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 16px;
+    align-items: stretch;
+    padding: 18px 20px;
+    margin: 0 !important;
+    padding-top: 45px !important;
+    border-radius: 28px;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;  
+    overflow: hidden;
+  }
+
+
+  .main-wrapper.sprint-mode .info-top > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  @media (max-width:1500px) {
+    .main-wrapper.sprint-mode .info-top {
+      grid-template-columns: 1fr;
+    }
+    .main-wrapper.sprint-mode .contain-container {
+      display: flex;
+      align-items: center;
+      position: relative;
+      justify-content: space-between;
+    }
+
+  }
+
+  @media (max-width: 1500px) {
+
+    .info-image {
+      display: none;
+    }
+
+
+  }
+
+  .info-image {
+    width: 100%;
+    height: 100%;
+    max-height: 150px !important;
+    border-radius: 14px;
+    overflow: hidden;
+    background: rgba(255,255,255,0.05);
+  }
+
+  .info-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+
+  .info-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    min-width: 100% !important;
+  }
+
+  .sprint-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 100% !important;
+    color: var(--text-main) !important;
+    margin: 0;
+  }
+
+  @media (min-width: 768px) {
+
+    .diver-svg {
+      display: none;
+    }
+
+    .main-wrapper.sprint-mode {
+      display: flex;
+      padding-right: 3px;
+      gap: 10px;
+      width: 100%;
+      min-width: 100%;
+      max-width: 100%;
+      overflow: hidden !important;
+      box-sizing: border-box !important;
+      height: 100%;
+      height: calc(100vh - 20px);
+    }
+
+  }
+
+  .sprint-date {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.8rem;
+    width: fit-content;
+    opacity: 0.95;
+    margin: 0;
+    font-weight: 600;
+    color: var(--text-main);
+    padding: 6px 10px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid #e5e7eb19;
+    border-radius: 12px;
+
+  }
+  @media (min-width: 768px) {
+    .main-wrapper.sprint-mode .info-left-contain{
+      width: 100%;
+      height: 90%;
+      padding: 0;
+      margin: 0;
+      border: 0.9px solid #2f2f4a;
+      overflow: hidden;
+    }
+  }
+
+    .main-wrapper.sprint-mode .info-left-contain{
+      position: relative;
+      overflow: hidden; 
+      border-radius: 30px;
+      background-color: var(--sprint-color);
+    }
+
+  .date-item {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .calendar-icon {
+    flex-shrink: 0;
+    display: inline-flex;
+    color: var(--text-main);
+  }
+
+  .calendar-icon svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .date-separator {
+    opacity: 0.6;
+    margin: 0 4px;
+  }
+
+
+  .countdown-label.ended {
+    background: linear-gradient(
+      135deg,
+      rgba(3, 123, 83, 0.47),
+      rgba(34, 197, 94, 0.457)
+    );
+    border-color: rgba(16, 185, 129, 0.45);
+
+    color: #6ee7b7; /* emerald / success tone */
+
+    box-shadow:
+      0 0 0 1px rgba(16, 185, 129, 0.25) inset,
+      0 6px 18px rgba(16, 185, 129, 0.15);
+  }
+
+  /* icon accent */
+  .countdown-label.ended svg {
+    color: #34d399;
+  }
+
+
+
+  .countdown-label {
+    margin: 0;
+    font-size: 0.75rem;
+    font-weight: 600;
+    display: inline-flex;
+    gap: 8px;
+    align-items: center;
+    letter-spacing: 0.06em;
+    margin-top: 1cap;
+
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid #e5e7eb19;
+    border-radius: 12px;
+    padding: 5px 10px;
+
+    color: var(--text-main);
+    width: fit-content;
+    opacity: 0.95;
+
+    transition:
+      background 0.35s ease,
+      border-color 0.35s ease,
+      color 0.35s ease,
+      box-shadow 0.35s ease;
+  }
+
+  .countdown-label svg {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+  }
+
+
+
+  .countdown-wrapper {
+    overflow: hidden;
+    transition: 
+      max-height 400ms ease,
+      opacity 250ms ease,
+      margin 300ms ease;
+    max-height: 200px; 
+    opacity: 0;
+  }
+
+  .countdown-wrapper.show {
+    max-height: var(--h);
+    opacity: 1;
+  }
+
+
+  .countdown-wrapper.is-hidden {
+    max-height: 0;
+    opacity: 0;
+    margin-top: 0;
+  }
+
+
+  .countdown-timer {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+  }
+
+
+  /* ---------- DIGIT CARD ---------- */
+  .countdown-digit {
+    min-width: 62px;
+    padding: 10px 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 14px;
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.08),
+      rgba(255, 255, 255, 0.02)
+    );
+    border: 1px solid #e5e7eb19;
+  }
+
+  /* ---------- NUMBER ---------- */
+  .countdown-digit .num {
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1;
+    color: var(--text-primary);
+  }
+
+  /* ---------- UNIT ---------- */
+  .countdown-digit .unit {
+    margin-top: 3px;
+    font-size: 0.65rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-main);
+    opacity: 0.9;
+  }
+
+
+
+  .main-wrapper.sprint-mode .info-bottom-wrapper {
+    padding: 14px 0;
+    margin: 0;
+  }
+
+
+  .main-wrapper.sprint-mode .info-bottom-wrapper {
+    padding: 14px 0;
+    margin: 0;
+
+
+  }
+
+
+  .main-wrapper.sprint-mode .info-bottom {
+    position: relative;
+    border-radius: 28px;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    margin: 0;
+    border: none;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    background:
+      /* ✨ soft curved tint */
+      radial-gradient(
+        140% 70% at 50% -18%,
+        color-mix(in srgb, var(--sprint-color) 24%, transparent) 0%,
+        rgba(0, 0, 0, 0) 65%
+      ),
+
+      /* 🌊 vertical blend so it never looks like a cut */
+      linear-gradient(
+        180deg,
+        color-mix(in srgb, var(--bg-sidebar) 94%, var(--sprint-color) 6%) 0%,
+        var(--bg-sidebar) 35%,
+        var(--bg-sidebar) 100%
+      );
+
+    padding: 14px;
+  }
+
+
+  .main-wrapper.sprint-mode .info-bottom::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.22) 0%,
+      rgba(0, 0, 0, 0.14) 18%,
+      rgba(0, 0, 0, 0.06) 30%,
+      rgba(0, 0, 0, 0) 45%
+    );
+
+    pointer-events: none;
+    z-index: 0;
+  }
+
+
+  
+
+  .info-reward-con {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* space between cards */
+  }
+
+
+  /* =========================
+    CARD BASE
+  ========================= */
+
+  .reward-card {
+    width: 100%;
+    margin: 0;
+    margin-top: 30px;
+  }
+
+  .reward-card h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 18px;
+    opacity: 0.9;
+  }
+
+
+  /* =========================
+    SECTIONS
+  ========================= */
+
+  .reward-section {
+    display: flex;
+    gap: 5px; 
+    margin-bottom: 15px;
+  }
+
+  .reward-section:last-child {
+    margin-bottom: 0;
+  }
+
+  .reward-section-title {
+    font-size: 11px;
+    font-weight: 600;
+    opacity: 0.55;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+
+  /* =========================
+    REWARD INFO ROW
+  ========================= */
+
+  
+
+
+  /* =========================
+    ICON
+  ========================= */
+
+  .reward-icon {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+  }
+
+  .reward-icon svg {
+    width: 15px;
+    height: 15px;
+  }
+
+    @media (max-width: 1079px) {
+
+    .main-wrapper.sprint-mode .right-panel {
+        flex: 0 0 100% !important;
+    }
+  }
+
+  @media (min-width: 1079px) {
+
+    .main-wrapper.sprint-mode .info-left.maner{
+      flex: 0 0 50% !important; 
+      width: 60% !important; 
+      max-width:60% !important; 
+
+    }
+
+
+    .main-wrapper.sprint-mode #rightPanel{
+
+      flex: 0 0 50% !important; 
+      width: 40% !important; 
+      max-width: 40% !important; 
+
+
+    }
+  }
+
+
+  /* =========================
+    TEXT BLOCK
+  ========================= */
+
+
+
+  .reward-label {
+    font-size: 12px !important;
+    color: var(--text-main) !important;
+    position: relative;
+    top: 2px;
+
+  }
+
+  .reward-text strong {
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+
+  /* =========================
+    LIST / LINES
+  ========================= */
+
+  .lines {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; 
+    font-size: 14px !important;
+  }
+  
+
+  .lines > * {
+    line-height: 1.4;
+  }
+
+
+  /* =========================
+    DESCRIPTION BOX
+  ========================= */
+
+  .desc-box .lines {
+    gap: 10px;
+  }
+
+
+  /* =========================
+    BUTTON
+  ========================= */
+
+  .main-wrapper.sprint-mode .info-left-contain::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.37);
+    pointer-events: none;
+  }
+
+
+</style>
+
+
+
+
+<div id="info-left" class="info-left-contain" >
+  <div class="info-card">
+    <div class="info-top">
+
+
+
+      <div class="info-content" style="width: 100%;">
+        <div class="contain-container" style="margin: 0;">
+          <h1 id="previewTitle" class="sprint-title">Title</h1>
+          <div class="diver-svg" onclick="toggleAnnouncement()">
+            <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 484.13"><path fill-rule="nonzero" d="m42.91 425.26 67.53-27.93c5.15-2.11 10.84-.91 14.69 2.63 19.44 17.83 42.15 32.12 67.1 41.82 24.01 9.35 50.22 14.48 77.71 14.48 59.15 0 112.7-23.97 151.46-62.74 38.76-38.75 62.73-92.31 62.73-151.46 0-59.15-23.97-112.7-62.73-151.46-38.76-38.76-92.31-62.73-151.46-62.73-59.15 0-112.71 23.97-151.46 62.73-38.76 38.76-62.74 92.31-62.74 151.46 0 17.49 2.04 34.34 5.88 50.32 3.99 16.58 9.92 32.44 17.53 47.29 2.08 4.07 1.95 8.69.07 12.49l.04.03-36.35 73.07zm204.77-272.59c0-4.03.71-7.77 2.13-11.2 1.41-3.42 3.55-6.54 6.39-9.33 2.83-2.79 5.93-4.9 9.27-6.32 3.36-1.41 6.97-2.13 10.84-2.13 3.88 0 7.49.72 10.81 2.13 3.34 1.42 6.39 3.53 9.17 6.34 2.78 2.79 4.88 5.89 6.26 9.32 1.4 3.42 2.09 7.16 2.09 11.19 0 3.93-.69 7.6-2.08 11-1.39 3.4-3.47 6.54-6.26 9.4-2.77 2.84-5.82 4.99-9.15 6.42-3.34 1.43-6.94 2.16-10.84 2.16-3.98 0-7.67-.71-11.06-2.13-3.37-1.42-6.46-3.55-9.25-6.38-2.77-2.85-4.86-5.97-6.24-9.38-1.4-3.41-2.08-7.1-2.08-11.09zm12.61 167.69c-1.05 3.74-3.16 11.07 3.1 11.07 1.35 0 3.08-.76 5.14-2.25 2.23-1.62 4.79-4.06 7.66-7.3 2.91-3.3 5.94-7.19 9.09-11.69 3.14-4.48 6.44-9.62 9.87-15.35.37-.61 1.18-.82 1.79-.45l11.64 8.63c.55.41.68 1.18.31 1.76-5.35 9.3-10.76 17.43-16.23 24.36-5.51 6.98-11.1 12.77-16.76 17.34l-.09.07c-5.67 4.59-11.47 8.04-17.42 10.35-16.56 6.41-42.7 5.37-50.19-13.95-4.73-12.21-.84-26.07 2.88-38.01l18.78-56.88c1.2-4.32 2.72-9.05 3.28-13.5.91-7.39-2.36-12.18-10.42-12.18H206.3c-.72 0-1.3-.59-1.3-1.31l.07-.45 4.32-15.7c.15-.58.69-.97 1.26-.96l83.89-2.63c.72-.03 1.32.54 1.35 1.25l-.06.42-35.54 117.36zM113 426.33l-92.87 38.39a13.89 13.89 0 0 1-12.41.01c-6.88-3.43-9.68-11.79-6.26-18.67L51.29 345.9a240.606 240.606 0 0 1-16.66-47.1 242.111 242.111 0 0 1-6.75-56.74c0-66.84 27.09-127.36 70.9-171.16C142.58 27.1 203.1 0 269.94 0S397.3 27.1 441.1 70.9c43.8 43.8 70.9 104.32 70.9 171.16s-27.1 127.36-70.9 171.16c-43.8 43.81-104.32 70.91-171.16 70.91-30.86 0-60.46-5.83-87.72-16.44A242.153 242.153 0 0 1 113 426.33z"/>
+            </svg>
+          </div>
+        </div>
+
+
+        <p class="sprint-date" style="display: inline-flex; min-width: 304.5px !important;">
+          <span class="date-item">
+            <span class="calendar-icon">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none"
+                  stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="17" rx="4" ry="4"/>
+                <line x1="7.25" y1="2.5" x2="7.25" y2="5.5" />
+                <line x1="15.25" y1="2.5" x2="15.25" y2="5.5" />
+                <line x1="6" y1="9" x2="18" y2="9" />
+                <circle cx="8" cy="13" r="0.4" fill="currentColor"/>
+                <circle cx="12" cy="13" r="0.4" fill="currentColor"/>
+                <circle cx="16" cy="13" r="0.4" fill="currentColor"/>
+                <circle cx="8" cy="16.5" r="0.4" fill="currentColor"/>
+                <circle cx="12" cy="16.5" r="0.4" fill="currentColor"/>
+                <circle cx="16" cy="16.5" r="0.4" fill="currentColor"/>
+              </svg>
+            </span>
+            <span id="timezone-start"></span>
+          </span>
+
+          <span class="date-separator">–</span>
+
+          <span class="date-item"  id="timezone-end">
+          </span>
+        </p>
+
+        <p class="countdown-label">Ends in:</p> 
+          <div class="countdown-wrapper" id="countdownWrapper">      
+            <div id="countdownTimer" class="countdown-timer">
+              <div class="countdown-digit"><span class="num">00</span><span class="unit">DAYS</span></div>
+              <div class="countdown-digit"><span class="num">00</span><span class="unit">HRS</span></div>
+              <div class="countdown-digit"><span class="num">00</span><span class="unit">MIN</span></div>
+              <div class="countdown-digit"><span class="num">00</span><span class="unit">SEC</span></div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+    <div class="info-bottom-wrapper" style="margin: 0; padding: 0;">
+      <div class="info-bottom">
+        <div class="info-reward-con">
+
+          <div style="margin: 0; padding: 0; padding-left: 10px !important;">
+
+            <div class="bren lines desbb" id="previewDescription"></div>
+          </div>
+
+          <div class="reward-box reward-card">
+
+            <!-- PAYMENT HANDLING -->
+            <div class="reward-section" style="display: flex;">
+              <h3 style="margin: 0;">Rewards</h3>
+
+              <div class="distribution-type-info" style="flex: 1; box-sizing: border-box !important;"></div>
+            </div>
+
+              <div class="bren lines" id="previewReward"></div>
+         
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="{{ url_for('static', filename='js/sprint_preview.js') }}" defer></script>

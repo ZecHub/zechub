@@ -1,0 +1,470 @@
+<style>
+:root {
+  --bg-active: #303050;
+
+  --text-main: #e5e7eb;
+  --text-main-items: #e5e7ebdf;
+  --text-muted: #9ca3af;
+
+  --border: #2f2f4a;
+  --radius: 12px;
+
+  --accent: #4286f492;
+  --accent-root: #4285f4;
+  --accent-hover: #5c5fd6;
+  --toggle-knob: #f3f4f6;
+}
+
+
+
+*{
+  -webkit-text-size-adjust: 100% !important;
+  box-sizing: border-box !important;
+  font-family: 'Outfit', sans-serif !important;
+}
+ 
+
+@media (min-width: 768px) {
+
+.webhook-card {
+  background: var(--bg-sidebar);
+  border-radius: var(--radius);
+  padding: 20px;
+  padding-top: 40px;
+  max-width: 520px;
+  color: var(--text-main);
+}
+
+}
+
+@media (max-width: 768px) {
+
+.webhook-card {
+  background: var(--bg-sidebar);
+  border-radius: var(--radius);
+  padding: 20px 15px;
+  padding-top: 40px;
+  width: 100%;
+
+  color: var(--text-main);
+}
+
+
+
+}
+
+
+ 
+.webhook-header h3 {
+  margin: 0;
+  font-size: 18px;
+}
+ 
+.webhook-header p {
+  color: var(--text-muted);
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+ 
+.webhook-field {
+  margin-top: 36px;
+}
+
+.webhook-field label {
+  font-size: 13px;
+  color: var(--text-muted);
+  display: block;
+  margin-bottom: 6px;
+}
+
+.webhook-field input {
+  width: 100%;
+  padding: 10px 12px;
+  background: var(--bg-app);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-main);
+}
+
+ 
+.secret-wrap {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.secret-wrap input {
+  flex: 1;
+  font-family: monospace;
+  font-size: 13px;
+}
+
+ 
+.secret-btn {
+  height: 40px;
+  width: 40px;
+  display: grid;
+  place-items: center;
+  background: var(--bg-hover);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+  color: var(--text-main);
+}
+
+.secret-btn svg{
+    width: 22px;
+    height: 22px;
+}
+
+.secret-btn:hover {
+  background: var(--bg-hover-hover);
+}
+
+.secret-help {
+  margin-top: 6px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+ 
+.webhook-events {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+
+ 
+.event-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+  background: transparent;
+  border-radius: 0;
+  cursor: pointer;
+  width: 100%;
+}
+.event-item:not(:last-child) {
+  border-bottom: 0.9px solid var(--border);
+  margin-bottom: 10px;
+
+}
+
+.event-item span {
+  font-size: 15px;
+  display: inline-block;    
+}
+  
+ 
+.event-item input {
+  display: none;
+}
+
+.event-toggle {
+  width: 42px;
+  height: 22px;
+  background: var(--border);
+  border-radius: 999px;
+  position: relative;
+  transition: background 0.2s ease;
+  flex-shrink: 0;             
+}
+
+.event-toggle::before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background: var(--toggle-knob);
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.2s ease;
+}
+
+.event-item input:checked + .event-toggle {
+  background: var(--accent-root);
+}
+
+.event-item input:checked + .event-toggle::before {
+  transform: translateX(20px);
+}
+
+/* SAVE */
+.webhook-save {
+  margin-top: 24px;
+  width: 100%;
+  background: var(--accent);
+  border: none;
+  color: var(--text-main);
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.webhook-save:hover {
+  background: var(--accent-hover);
+}
+
+/* DEV NOTE */
+.webhook-dev-note {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px dashed var(--border);
+  font-size: 12px;
+  color: var(--text-muted-bg);
+  line-height: 1.6;
+  letter-spacing: 0.2px;
+}
+
+.webhook-dev-note code {
+  background: var(--bg-app);
+  padding: 2px 6px;
+  border-radius: 6px;
+  font-family: monospace;
+}
+
+
+
+.webhook-dev-note a {
+  color: var(--accent-root);
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--accent-root) 40%, transparent);
+  padding-bottom: 1px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.webhook-dev-note a:hover {
+  color: var(--accent-hover);
+  border-bottom-color: var(--accent-hover);
+}
+
+
+.webhook-hidden {
+  display: none;
+  opacity: 0;
+  transform: translateY(8px);
+  pointer-events: none;
+  position: absolute;
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.webhook-visible {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+  position: relative;
+}
+
+
+.event-card {
+  background: var(--bg-surface);
+  border-radius: 20px;
+  padding: 20px;
+  border: 1px solid var(--border);
+}
+
+.event-label {
+  font-size: 14px;
+  margin-top: 40px;
+  font-weight: 550;
+  color: var(--text-main);
+}
+
+#webhookSecret{
+  background-color: transparent;
+  border: none;
+}
+
+.event-card.webhook-url-span{
+  padding: 3px;
+  width: 100%;
+}
+
+
+#webhookUrl {
+  width: 100%;
+  outline: none;
+  border-radius: 18px;
+  padding: 13px 16px;
+  font-size: 14px !important;
+}
+</style>
+
+<div class="webhook-card" id="webhookWrapper" data-webhook-id="{{ webhook.id }}">
+
+  <div class="webhook-header">
+    <h3>Outgoing Webhooks</h3>
+    <p>Send real-time events to external services.</p>
+  </div>
+
+  <div class="webhook-panel 
+    {% if webhook %}
+     webhook-hidden
+      
+    {% else %}
+      webhook-visible
+    {% endif %}"  id="webhookCreateUI">
+
+    <div>
+      <div class="webhook-field">
+        <label>Webhook URL</label>
+        <input
+          type="url"
+          id="webhookUrl"
+          class="url-webhhook webhook-url"
+          placeholder="https://your-server.com/webhooks/community"
+        >
+      </div>
+
+      <button class="webhook-save webhook-create-btn" onclick="saveWebhook(this.closest('#webhookCreateUI'))">
+        Create Webhook
+      </button>
+
+    </div>
+  </div>
+  <div class="webhook-panel
+    {% if webhook %}
+      webhook-visible
+    {% else %}
+      webhook-hidden
+    {% endif %}" id="webhookManageUI">
+      <div class="webhook-field">
+        <label>Webhook URL</label>
+        <input
+        type="url"
+        id="webhookUrl"
+        class="webhook-url"
+        placeholder="https://your-server.com/webhooks/community"
+        value="{{ webhook.endpoint_url if webhook else '' }}"
+        >
+
+      </div>
+
+      <div class="webhook-field">
+        <label>Signing Secret</label>
+          <div class="secret-wrap">
+            <div class="event-card webhook-url-span">
+
+              <input
+              type="text"
+              id="webhookSecret"
+              readonly
+              value="{{ webhook.secret if webhook else '' }}"
+              >
+              </div>
+
+              <button class="secret-btn" title="copy" onclick="copySecret(event)">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.5 14H19C20.1046 14 21 13.1046 21 12V5C21 3.89543 20.1046 3 19 3H12C10.8954 3 10 3.89543 10 5V6.5M5 10H12C13.1046 10 14 10.8954 14 12V19C14 20.1046 13.1046 21 12 21H5C3.89543 21 3 20.1046 3 19V12C3 10.8954 3.89543 10 5 10Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+
+              <button class="secret-btn" title="Regenerate" onclick="showWebhookConfirmation(event, {{ webhook.id if webhook else 'null' }})">
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                      d="M20.5 15C18.9558 18.0448 15.7622 21 12 21C7.14776 21 3.58529 17.5101 3 13"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                  />
+                  <path
+                      d="M3.5 9C4.89106 5.64934 8.0647 3 12 3C16.7819 3 20.4232 6.48993 21 11"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                  />
+                  <path
+                      d="M21 21L21 15.6C21 15.2686 20.7314 15 20.4 15L15 15"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                  />
+                  <path
+                      d="M9 9L3.6 9C3.26863 9 3 8.73137 3 8.4L3 3"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                  />
+                  </svg>
+
+              </button>
+          </div>
+          <small class="secret-help">Used to verify webhook signatures.</small>
+      </div>
+
+
+        <div class="webhook-events" style="margin: 0;">
+        <label class="event-label">Events</label>
+
+        <div class="event-card">
+
+          <label class="event-item">
+              <span>user.joined</span>
+              <input
+              type="checkbox"
+              value="on_user_joined"
+              {% if webhook and webhook.on_user_joined %}checked{% endif %}
+              >
+              <div class="event-toggle"></div>
+          </label>
+
+          <label class="event-item">
+              <span>quest.completed</span>
+              <input
+              type="checkbox"
+              value="on_quest_completed"
+              {% if webhook and webhook.on_quest_completed %}checked{% endif %}
+              >
+              <div class="event-toggle"></div>
+          </label>
+
+          <label class="event-item">
+              <span>role.upgraded</span>
+              <input
+              type="checkbox"
+              value="on_role_upgraded"
+              {% if webhook and webhook.on_role_upgraded %}checked{% endif %}
+              >
+              <div class="event-toggle"></div>
+          </label>
+
+          <label class="event-item">
+              <span>subscription.expired</span>
+              <input
+              type="checkbox"
+              value="on_subscription_expired"
+              {% if webhook and webhook.on_subscription_expired %}checked{% endif %}
+              >
+              <div class="event-toggle"></div>
+          </label>
+        </div>
+
+        </div>
+
+
+      <button class="webhook-save" style="font-size: 13px;" onclick="saveWebhook(this.closest('#webhookManageUI'))">Save Webhook</button>
+
+  </div>
+
+  <div class="webhook-dev-note">
+    Webhooks are delivered via <code>POST</code> requests with JSON payloads.
+    Each request includes <code>X-Webhook-Signature</code> and
+    <code>X-Webhook-Timestamp</code> headers.
+    <br>
+    If you're a developer, check our <a href="/docs/webhooks" target="_blank">documentation</a> for payload schemas and
+    verification examples.
+  </div>
+
+</div>
+
+
+

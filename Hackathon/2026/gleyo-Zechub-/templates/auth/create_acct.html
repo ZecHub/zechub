@@ -1,0 +1,55 @@
+ 
+<div class="royal-card-conatiner-init">
+
+    <div class="spacing0nerster">
+        <h1 class="interger">Welcome to Gleyo</h1>
+    </div>
+
+    <p style="margin-bottom: 30px;">
+        Build with communities you care about — rewards follow naturally.
+    </p>
+    <div style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 26px;">
+
+    </div>
+    <fieldset class="email-fieldset" id="emailFieldset">
+        <legend id="legend">Enter address</legend>
+        <input type="email" id="aboutBox" name="box" placeholder="james@gmail.com">
+    </fieldset>
+
+    <p class="inavid-email"></p>
+
+    <input type="hidden" name="next" value="{{ request.args.get('next', '') }}">
+
+    <button type="button" id="loginBtn" class="main-login-btn createacc">
+        Send Code
+    </button>
+
+    <div class="lagelmm-s" style="margin-top: 22px;">
+        <label class="terms-label">
+            By continuing, you acknowledge you've read and agreed to our
+            <a href="{{ url_for('terms')}}" target="_blank" class="link-terms">Terms of Service</a>
+            and
+            <a href="{{ url_for('privacy')}}" target="_blank" class="link-terms">Privacy Policy</a>.
+        </label>
+    </div>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% set category, message = messages[-1] %}
+            <div class="flash-container" style="margin-top: 20px;">
+                <div class="flash {{ category }}">
+                    {{ message }}
+                    <span class="flash-close" style="font-size: 16px;" onclick="closeFlash(this)">
+                        <svg viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z"
+                            fill="currentColor"/>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+        {% endif %}
+    {% endwith %}
+
+</div>
+ 

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>Community Setup – Step 1</title>
+
+  <meta name="csrf-token" content="{{ csrf_token() }}">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700&family=Lora:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-app: #0b0b12;
+      --bg-surface: #222236;
+      --bg-surface-active: rgba(28, 28, 43, 0.85);
+      --border: #2f2f4a;
+      --border-light: #404060;
+      --accent-color: #6366f1;
+      --accent-45: color-mix(in srgb, var(--accent-color) 45%, transparent);
+      --text-main: #e5e7eb;
+      --text-muted: #9aa0b4;
+      --red: #e74c3c;
+      --radius: 14px;
+      --font-heading: 'Syne', sans-serif;
+      --font-body: 'DM Sans', sans-serif;
+    }
+
+
+    * {
+      box-sizing: border-box;
+      font-family: var(--font-body) !important;
+      -webkit-text-size-adjust: 100% !important;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    h2, h4, .btn {
+      font-family: var(--font-heading) !important;
+    }
+
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100dvh;
+      font-family: var(--font-body);
+      background: radial-gradient(circle at 30% 20%, #151528 0%, #0b0b12 60%);
+      color: var(--text-main);
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    .error-message {
+      font-size: 13px;
+      color: #ff9b9b !important;  
+      margin: 0;
+
+      display: none;
+      width: 100%;
+      text-align: left;
+    }
+
+    .error-message.showed {
+      display: block !important;
+    }
+
+
+    .container {
+      width: 100%;
+      max-width: 480px;
+      padding: 40px 32px;
+      text-align: center;
+    }
+
+    .website-init-stardarder {
+      font-size: 14px;
+      font-weight: 550;
+      width: 100%;
+      text-align: left;
+      margin: 0;
+      padding-left: 8px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+
+    h2 {
+      font-size: 26px;
+      margin-bottom: 10px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+    }
+
+    .sub-text {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+
+    .hint {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: 10px;
+    }
+
+    form {
+      margin-top: 28px;
+      text-align: left;
+    }
+
+    h4 {
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    input[type="url"] {
+      width: 100%;
+      height: 44px;
+      padding: 0 14px;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      background: var(--bg-surface);
+      color: var(--text-main);
+      font-size: 14px;
+      transition: all 0.2s ease;
+      outline: none;
+    }
+
+    input::placeholder {
+      font-size: 14px;
+      content: var(--text-muted);
+    }
+
+    input[type="url"]:focus {
+      border-color: var(--accent-color);
+      background: var(--bg-surface-active);
+    }
+
+    .error-message {
+      font-size: 12px;
+      color: var(--red);
+      margin-top: 6px;
+      min-height: 16px;
+    }
+
+    .button-row {
+      display: flex;
+      gap: 10px;
+      margin-top: 24px;
+    }
+
+    .btn {
+      flex: 1;
+      height: 40px;
+      border-radius: 10px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      border: none;
+    }
+
+    .btn-outline {
+      background: transparent;
+      border: 1px solid var(--border-light);
+      color: var(--text-main);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .btn-outline:hover {
+      background: rgba(255,255,255,0.04);
+    }
+
+    .btn-primary {
+      background: var(--accent-color);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+    }
+ 
+    @media (max-width: 480px) {
+      .container {
+        padding: 32px 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>Hello, {{ user.username }}</h2>
+    <div class="sub-text">Start building your community — we'll guide you.</div>
+    <div class="sub-text">You can always update this later in Settings.</div>
+
+      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+
+      <h4 class="website-init-stardarder">Website</h4>
+      <input
+        id="website"
+        type="url"
+        name="website"
+        placeholder="https://yourcommunity.xyz"
+      >
+
+      <div id="urlError" class="error-message"></div>
+
+      <div class="hint">
+        Grow your community faster by linking your website.
+      </div>
+
+      <div class="button-row">
+        <a href="{{ url_for('dashboard') }}" class="btn btn-outline"  onclick="event.preventDefault(); navigateTo(this.href);">Cancel</a>
+
+        <button
+          id="nextBtn"
+          type="submit" 
+          class="btn btn-primary">
+          Next
+        </button>
+      </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='admin_panel.js') }}"  defer></script>
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Panel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: #0e101c;
+      color: #eaeaea;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #1a1d2e;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-size: 1.5rem;
+      margin: 0;
+    }
+    .container {
+      padding: 2rem;
+    }
+    .search-bar {
+      margin-bottom: 1.5rem;
+    }
+    .search-bar input {
+      width: 300px;
+      padding: 0.5rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #1a1d2e;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 12px 16px;
+      border-bottom: 1px solid #333;
+      text-align: left;
+    }
+    th {
+      background: #25283a;
+    }
+    tr:hover {
+      background: #2d3046;
+    }
+    .actions button {
+      padding: 5px 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-right: 5px;
+    }
+    .delete {
+      background: #e74c3c;
+      color: white;
+    }
+    .ban {
+      background: #f39c12;
+      color: white;
+    }
+    .pagination {
+      margin-top: 1rem;
+      text-align: center;
+    }
+    .pagination a {
+      margin: 0 5px;
+      text-decoration: none;
+      color: #84aaff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Admin Dashboard</h1>
+    <form class="search-bar" method="GET" action="/admin/search">
+      <input type="text" name="q" placeholder="Search users by email or username...">
+    </form>
+  </header>
+
+  <div class="container">
+    <h2>Users</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Email</th>
+          <th>Username</th>
+          <th>Role</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for user in users.items %}
+        <tr>
+          <td>{{ user.id }}</td>
+          <td>{{ user.email }}</td>
+          <td>{{ user.username }}</td>
+          <td>{{ user.role or 'participant' }}</td>
+          <td class="actions">
+            <form method="POST" action="/admin/ban/{{ user.id }}" style="display:inline;">
+              <button class="ban">Ban</button>
+            </form>
+            <form method="POST" action="/admin/delete/{{ user.id }}" style="display:inline;">
+              <button class="delete">Delete</button>
+            </form>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <div class="pagination">
+      {% if users.has_prev %}
+        <a href="?page={{ users.prev_num }}">&laquo; Previous</a>
+      {% endif %}
+      Page {{ users.page }} of {{ users.pages }}
+      {% if users.has_next %}
+        <a href="?page={{ users.next_num }}">Next &raquo;</a>
+      {% endif %}
+    </div>
+  </div>
+</body>
+</html>

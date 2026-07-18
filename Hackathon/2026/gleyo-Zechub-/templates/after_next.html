@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="csrf-token" content="{{ csrf_token() }}">
+  <title>Invite Teammates</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700&family=Lora:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='after_next.css') }}">
+</head>
+<body data-community-slug="{{ community.slug }}" data-user-id="{{ current_user.id }}">
+
+<div class="onboarding-wrapper">
+
+  <section class="onboarding-card">
+
+    <div class="h1-with-icon">
+      <h1 class="interger">Invite teammates</h1>
+      <svg class="svg-style" id="infoBtn" xmlns="http://www.w3.org/2000/svg" 
+          width="20" height="20" 
+          fill="none" stroke="currentColor" 
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+          viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M12 16v-4"/>
+        <path d="M12 8h.01"/>
+      </svg>
+    </div>
+
+    <p class="subtext">
+      Unleash the full power of your community with a solid team.
+    </p>
+
+    <form id="inviteForm" autocomplete="off">
+
+      <div id="inviteRows" class="invite-wrapper">
+        {% for _ in range(3) %}
+        <div class="invite-row">
+          <input type="email" placeholder="Email address" required>
+
+          <div class="custom-select">
+            <div class="select-selected">
+              <span>Editor</span>
+              <svg class="chevron" viewBox="0 0 24 24">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </div>
+            <div class="select-items select-hide">
+              <div>Editor</div>
+              <div>Admin</div>
+              <div>Reviewer</div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+
+      <button type="button" class="secondary-btn full-btn add-row">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="12" y1="5" x2="12" y2="19"/>
+          <line x1="5" y1="12" x2="19" y2="12"/>
+        </svg>
+        Add another teammate
+      </button>
+      <button type="button" class="main-login-btn full-btn ">
+          <span class="button-content">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" class="size-6">
+            <path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z" />
+            <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
+          </svg>
+          Send invite link
+          </span>
+      </button>
+
+      <div class="progress-lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line active"></div>
+      </div>
+
+      <div class="button-row">
+        <a href="{{ url_for('next', community_slug=community_slug) }}" class="secondary-btn"  onclick="event.preventDefault(); navigateTo(this.href);">
+          Previous
+        </a>
+
+        <a href="{{ url_for('me_look', community_slug=community_slug) }}" class="main-login-btn"  onclick="event.preventDefault(); navigateTo(this.href);">
+          Continue
+        </a>
+      </div>
+
+    </form>
+
+  </section>
+
+  <aside class="info-main-panell" id="rolePopup">
+    <div class="info-panel">
+
+      <div class="spacer-initer-mmp">
+        <h3>Roles Overview</h3>
+        <svg class="set-up-invite-icon" id="set-up-invite-icon" viewBox="0 0 24 24"
+            stroke="currentColor" stroke-width="2" fill="none"
+            stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"/>
+          <line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>      
+      </div>
+
+      <p>
+        Each role grants different permissions. Choose carefully —
+        you can update these later in Settings.
+      </p>
+
+      <div class="role-mini-card">
+        <strong>Admin</strong>
+        <span>Full control of community</span>
+      </div>
+
+      <div class="role-mini-card">
+        <strong>Editor</strong>
+        <span>Can create & manage content</span>
+      </div>
+
+      <div class="role-mini-card">
+        <strong>Reviewer</strong>
+        <span>Can review & claim quests</span>
+      </div>
+    </div>
+  </aside>
+ 
+
+</div>
+
+<script src="{{ url_for('static', filename='invite.js') }}" defer></script>
+
+</body>
+</html>

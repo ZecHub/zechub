@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700&family=Lora:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-app: #0b0b12;
+    --bg-surface: #222236;
+    --bg-surface-lower: #222236e3;
+    --border: #2f2f4a;
+    --text-main: #e5e7eb;
+    --text-muted: #bbbfc7;
+    --accent-color: #4285f4;
+    --radius: 14px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: 'Lora', serif;
+    background: radial-gradient(circle at 30% 20%, #151528 0%, #0b0b12 60%);
+    color: var(--text-main);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  @media (max-width: 768px) {
+    html, body {
+      height: 100% !important;
+      min-height: 100% !important;
+    }
+    .container {
+      overflow-y: auto !important;
+    }
+  }
+
+  ::selection {
+    background: #4effcd29; 
+    color: var(--text-main);        
+  }
+  ::-moz-selection {
+    background: #4effcd29; 
+    color: var(--text-main);        
+  }
+  .container {
+    width: 100%;
+    max-width: 700px;
+    padding: 48px 40px;
+  }
+  h1 {
+    margin: 0 0 20px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    text-align: center;
+  }
+  .container p {
+    color: var(--text-muted);
+    font-size: 14.5px;
+    text-align: center;
+    margin-bottom: 25px;
+    line-height: 1.7;
+  }
+  .ul-list {
+    padding-left: 18px;
+    margin-bottom: 30px;
+  }
+  .ul-list li {
+    margin-bottom: 14px;
+    font-size: 14.5px;
+    color: var(--text-main);
+    line-height: 1.7;
+  }
+  a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .go-back {
+    text-align: center;
+    margin-top: 20px;
+    position: sticky;
+    bottom: 0;
+  }
+  .go-back a {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 12px;
+    background: rgba(99,102,241,0.1);
+    border: 1px solid var(--border);
+    transition: all 0.2s ease;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 500;
+  }
+  .go-back a:hover {
+    background: rgba(99,102,241,0.2);
+    transform: translateY(-1px);
+  }
+  /* ===== Mobile ===== */
+  @media (max-width: 480px) {
+    .container {
+      padding: 32px 20px;
+      border-radius: 0 !important;
+      background-color: transparent !important;
+      border: 1px solid transparent !important;
+      box-shadow: none !important;
+    }
+  }
+
+  .link{
+    font-family: 'Outfit', sans-serif !important;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Privacy Policy</h1>
+  <p>We care about your privacy. Here's what we collect and how we use it:</p>
+  <ul class="ul-list">
+      <li>We collect your email to log you in and verify your identity.</li>
+      <li>If you sign in or create an account with Google, we use it only for authentication — we don't store or access your Google data beyond that.</li>
+      <li>If you connect a Discord account, we store basic info such as username and ID to keep you logged in and let you verify tasks.</li>
+      <li>For GitHub, YouTube, TikTok, Twitter/X, and Telegram task verification, we don't store your data — we only fetch and display the relevant info (e.g. subscription status, follow status, post activity) at the moment of verification to confirm task completion.</li>
+      <li>We automatically log certain data such as IP address, browser language, timezone, and approximate location to prevent abuse.</li>
+      <li>We use your information to provide and improve the platform and secure accounts.</li>
+      <li>We don't sell your data.</li>
+      <li>Third-party services (like IP geolocation) may receive limited data to provide their service.</li>
+      <li>You can request data deletion at <a class="link" href="mailto:okiridonald321@gmail.com">okiridonald321@gmail.com</a>.</li>
+      <li>If you're in the EU or California, you may request access, correction, or deletion of your data.</li>
+      <li>We may update this policy over time.</li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,358 @@
+*{
+  font-family: 'Outfit', sans-serif !important;
+}
+
+body{
+  background-color: #1e1e2f;
+  padding: 2px;
+}
+
+::selection {
+  background: #4effcd29; 
+  color: var(--text-main);        
+}
+
+::-moz-selection {
+  background: #4effcd29; 
+  color: var(--text-main);        
+}
+
+.upload-box {
+  width: 75px;
+  height: 75px;
+  border: 1px dashed #888;
+  border-radius: 12px;
+  background: #f9f9f9 center/cover no-repeat;
+  font: 14px/1 sans-serif;
+  color: #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   -webkit-tap-highlight-color: transparent;
+   text-align: center;
+  cursor: pointer;
+  position: relative;       
+  overflow: hidden;
+  transition: border-color .3s;
+}
+.upload-box:hover { border-color: #5c5c5c; }
+
+
+
+.preview-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(168, 167, 167);
+  object-fit: cover;  
+  border-radius: 12px;
+  display: none; 
+}
+
+.remove-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+  padding: 4px 6px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  display: none;           
+}
+
+
+.hint {
+  font-size: .9em;
+   -webkit-tap-highlight-color: transparent;
+
+  color: #666;
+  margin-top: .5rem;
+}
+.select-wrapper select.dropdown {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+   -webkit-tap-highlight-color: transparent;
+
+  border: 1px solid #ccc;
+  appearance: none;
+  background-color: #fff;
+}
+h2{
+    text-align: left;
+    color: aliceblue;;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+p{
+    text-align: left;
+    color: rgba(240, 248, 255, 0.733);;
+    margin-top: 0px;
+}
+    
+.container-a {
+  max-width: 900px;
+  background-color: #1e1e2f;
+}
+
+body{
+    background: linear-gradient(to right, #1e1e2f 100%) 
+}
+h3{
+    color: aliceblue
+}
+.select-wrapper select.dropdown {
+  appearance: none;          /* ⬅ removes default arrow (Safari/Chrome) */
+  -moz-appearance: none;     /* Firefox */
+  width: 100%;
+  max-width: 260px;
+  background: #1e1e2f;       /* light indigo */
+  border: 2px solid 
+  color(srgb rgb(254, 249, 249) rgb(253, 254, 253) rgb(254, 254, 254));
+  padding: 10px 2.2rem 10px 0.75rem;
+  font-size: 15px;
+  cursor: pointer;
+  color: aliceblue;
+ 
+
+  /* little ▼— optional; can be a real SVG data-URI */
+  background-image: linear-gradient(45deg, transparent 50%, #4f46e5 50%),
+                    linear-gradient(135deg, #4f46e5 50%, transparent 50%);
+  background-position: calc(100% - 16px) calc(50% - 3px),
+                       calc(100% - 10px) calc(50% - 3px);
+  background-size: 6px 6px, 6px 6px;
+  background-repeat: no-repeat;
+}
+ol{
+    color: aliceblue;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 40px;
+    font-weight: bolder;
+}
+.upload-box{
+    text-align: left;
+    background-color: #1e1e2f;
+}
+h4{
+    color: aliceblue;
+    margin-top: 50px;
+    margin-bottom: 3px;
+    
+
+}
+
+
+#nameInput {
+  width: 345px;           
+  height: 40px;         
+  padding: 4px 6px;     
+  box-sizing: border-box; 
+
+  background: #1e1e2f;
+  font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+
+  color: #fff;
+  font-size: 0.9rem;
+  
+  border: 2px solid #cccccc57;
+  border-radius: 10px;
+
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  outline: none;
+
+  resize: vertical;
+}
+
+
+#nameInput::placeholder {
+  color: #cccccc67;
+  opacity: 0.65;
+}
+
+#nameInput:focus {
+  border-color: #4285F4;
+  box-shadow:  1px #4285F4;
+}
+
+/* CSS */
+#aboutBox {
+  width: 400px;
+  height: 150px;
+  padding: 12px 10px 12px 14px; 
+  font-size: 0.9rem;
+  color: aliceblue;
+  font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+
+
+  background: #1e1e2f;
+  border: 2px solid #cccccc57;
+  border-radius: 15px;
+
+  outline: none;
+  resize: none;
+  box-sizing: border-box;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  scrollbar-width: thin;
+ 
+  scrollbar-color: #555 transparent;
+  
+
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.scrollable {
+  overflow-y: auto;
+  scrollbar-gutter: stable both-edges;
+}
+
+#aboutBox::-webkit-scrollbar-thumb:hover {
+  background-color: #777;
+}
+#aboutBox {
+  scroll-behavior: smooth;
+}
+
+#aboutBox:focus {
+  border-color: #4285F4;
+  box-shadow: 1px #4285F4;
+}
+
+/* WebKit Scrollbar: FULLY visible like ChatGPT */
+#aboutBox::-webkit-scrollbar {
+  width: 10px; 
+}
+
+#aboutBox::-webkit-scrollbar-track {
+  background: transparent;
+  margin-block: 8px;
+}
+
+#aboutBox::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 8px;
+  background-clip: content-box;
+  border: 3px solid transparent; 
+}
+
+/* Remove up/down buttons */
+#aboutBox::-webkit-scrollbar-button {
+  display: none;
+  height: 0;
+}
+@media (max-width: 768px) {
+  #aboutBox {
+    width: 100%;
+    height: 150px;
+    padding: 12px 10px 12px 14px;  
+    font-size: 0.9rem;
+    color: aliceblue;
+    font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+
+    background: #1e1e2f;
+    border: 2px solid #cccccc57;
+    border-radius: 15px;
+
+    outline: none;
+    resize: none;
+    box-sizing: border-box;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    scrollbar-width: 10px;
+    scrollbar-color: #555 transparent;
+
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  }
+}
+
+::placeholder{
+  color: var(--text-main);
+  opacity: 0.7;
+}
+
+
+/* shared look */
+.btn {
+  display: inline-block;
+  padding: 8px 22px;
+  font-size: 15px;
+  font-weight: 600;
+  width: 50px;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+
+  border-radius: 9999px;         
+  border: 2px solid transparent;  
+
+  transition: background-color .25s, color .25s, border-color .25s;
+}
+
+.btn-outline {
+  color: aliceblue;
+  border-color: #4285F4;
+  background: transparent;
+  outline: none;
+}
+.btn-outline:hover,
+.btn-outline:focus {
+  background: #4285F4;
+  color: #fff;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn-primary {
+  color: #fff;
+  border-color: #4285F4;
+  width: 170px;
+  background: #4285F4;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background: #4285F4;
+  border-color: #4285F4;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.btn:focus {
+    outline: none;
+}
+.btn-primary:focus{
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.btn {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.button-row {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: left;   
+  flex-wrap: wrap;
+   
+ 
+  margin-top: 30px;
+}
+
+
+
+
+h4{
+  font-size: 14px;
+  font-weight: 550;
+}

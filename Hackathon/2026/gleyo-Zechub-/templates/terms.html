@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Service</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700&family=Lora:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg-app: #0b0b12;
+  --bg-surface: #222236;
+  --bg-surface-lower: #222236e3;
+  --border: #2f2f4a;
+  --text-main: #e5e7eb;
+  --text-muted: #bbbfc7;
+  --accent-color: #6366f1;
+  --radius: 14px;
+}
+* {
+  box-sizing: border-box;
+}
+::selection {
+  background: #4effcd29; 
+  color: var(--text-main);        
+}
+::-moz-selection {
+  background: #4effcd29; 
+  color: var(--text-main);        
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: 'Lora', serif;
+  background: radial-gradient(circle at 30% 20%, #151528 0%, #0b0b12 60%);
+  color: var(--text-main);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  html, body {
+    height: 100% !important;
+    min-height: 100% !important;
+  }
+  .container {
+    overflow-y: auto !important;
+  }
+}
+.container {
+  width: 100%;
+  max-width: 700px;
+  padding: 48px 40px;
+}
+h1 {
+  margin: 0 0 20px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  text-align: center;
+}
+.container p {
+  color: var(--text-muted);
+  font-size: 14.5px;
+  text-align: center;
+  margin-bottom: 25px;
+  line-height: 1.7;
+}
+.ul-list {
+  padding-left: 18px;
+  margin-bottom: 30px;
+}
+.ul-list li {
+  margin-bottom: 14px;
+  font-size: 14.5px;
+  color: var(--text-main);
+  line-height: 1.7;
+}
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-family: 'JetBrains Mono', monospace;
+}
+a:hover {
+  text-decoration: underline;
+}
+.go-back {
+  text-align: center;
+  margin-top: 40px;
+}
+.go-back a {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 12px;
+  background: rgba(99,102,241,0.1);
+  border: 1px solid var(--border);
+  transition: all 0.2s ease;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 500;
+}
+.go-back a:hover {
+  background: rgba(99,102,241,0.2);
+  transform: translateY(-1px);
+}
+@media (max-width: 480px) {
+  html, body {
+    align-items: flex-start;
+  }
+  .container {
+    padding: 32px 20px;
+    border-radius: 0;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+  }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Terms of Service</h1>
+  <p>By accessing or using Gleyo, you agree to the following terms:</p>
+  <ul class="ul-list">
+      <li>You will not use the platform for spam, scams, harassment, abuse, or illegal activity.</li>
+      <li>You are responsible for any content you post, including messages in chat and community areas.</li>
+      <li>All XP, rewards, and achievements must be earned through valid and completed tasks. Fraudulent activity may result in account suspension.</li>
+      <li>We reserve the right to suspend, restrict, or permanently ban accounts that violate these rules.</li>
+      <li>We may modify, update, or discontinue parts of the platform at any time without prior notice.</li>
+      <li>Gleyo is provided “as is” without warranties of uninterrupted or error-free service.</li>
+  </ul>
+</div>
+<script src="{{ url_for('static', filename='js/socket.io.js') }}" defer></script>
+</body>
+</html>

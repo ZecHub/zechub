@@ -1,0 +1,883 @@
+
+{% if quest %}
+<title>Edit Module</title>
+{% else %}
+<title>Create Module</title>
+
+{% endif %}
+
+  
+<style>
+  :root {
+    --orion-color: {{ quest.color if quest is defined and quest.color else '#4285f4' }};
+
+  }
+
+  .premium-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: linear-gradient(135deg, #f7d774, #f1c94a);
+    color: #3a2b00;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 999px;
+    margin-left: 8px;
+    position: relative;
+    cursor: help !important;
+    box-shadow: 
+      0 1px 3px rgba(0,0,0,0.15),
+      inset 0 1px 0 rgba(255,255,255,0.4);
+    letter-spacing: 0.3px;
+  }
+
+  
+
+  .premium-badge::after {
+    content: "Only premium communities can access this feature";
+    position: absolute;
+    bottom: 130%;
+    left: 50%;
+    transform: translateX(-50%) translateY(6px) scale(0.96);
+
+    background: linear-gradient(180deg, #fff8dc, #f9e7a9);
+    color: #5c4600;
+
+    padding: 12px 16px;
+    border-radius: 14px;
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+
+    opacity: 0;
+    pointer-events: none;
+
+    box-shadow: 
+      0 8px 24px rgba(0,0,0,0.18),
+      inset 0 1px 0 rgba(255,255,255,0.6);
+
+    border: 1px solid rgba(255, 215, 120, 0.6);
+
+    transition: 
+      opacity 0.25s ease,
+      transform 0.25s cubic-bezier(.2,.8,.2,1);
+
+    z-index: 999;
+  }
+
+
+  
+
+  .premium-badge:hover::after {
+    opacity: 1;
+  }
+
+
+  .orion-dropdown-wrapper {
+    position: relative; 
+  }
+
+
+
+
+
+  .orion-toggle-btn {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .orion-toggle-btn img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .orion-toggle-btn:hover img {
+    transform: scale(1.1);
+  }
+
+
+
+  .orion-color-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .orion-color-row:last-of-type {
+    border-bottom: none;
+    margin-bottom: 20px;
+  }
+  .orion-swatch {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+    box-shadow: inset 0 0 0 999px rgba(0, 0, 0, 0.253);
+
+    border: 1px solid rgba(37, 12, 12, 0.05);  
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+
+  /* hover */
+  .orion-swatch:hover {
+    transform: scale(1.12);
+
+    box-shadow: inset 0 0 0 999px rgba(0, 0, 0, 0.2);
+
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+
+  /* tooltip (optional) */
+  .orion-swatch::after {
+    content: attr(data-color);
+    position: absolute;
+    bottom: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 10px;
+
+    
+    
+    padding: 2px 5px;
+    border-radius: 4px;
+    color: #aaa;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+  }
+
+  .orion-swatch:hover::after {
+    opacity: 1;
+  }
+
+
+  .orion-swatch:hover {
+    transform: scale(1.12);
+    border-color: #fff;
+  }
+  .orion-swatch:hover::after {
+    opacity: 1;
+  }
+
+  .orion-preview {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 2px solid var(--orion-color);
+    background-color: var(--orion-color);
+    box-shadow: inset 0 0 0 999px rgba(0, 0, 0, 0.253);
+    margin: 0 auto 16px;
+
+    margin-top: 2cqmin !important;
+
+    transition: background-color 0.2s ease;
+  }
+
+  .orion-confirm-btn {
+    background-color: #4080e7d3;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.2s ease;
+  }
+
+  .orion-confirm-btn:hover {
+    background-color: #2f6de0;
+  }
+
+  .orion-hashtag-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    gap: 8px;
+  }
+
+  .orion-hashtag-icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: var(--bg-surface);
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid var(--border);
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+
+  .orion-hashtag-icon:hover {
+    background-color: #3a3a55;
+    transform: scale(1.1);
+  }
+
+
+  .orion-text-input {
+    display: none;
+    border: 1px solid var(--border);
+    background-color: var(--bg-surface);
+    color: #fff;
+    border-radius: 8px;
+    padding: 6px 10px;
+    outline: none !important;
+    width: 100px;
+    font-size: 13px;
+  }
+
+  .orion-text-input:focus {
+    border-color: #2f6de0;
+  
+  }
+
+  .mobile-preview-btn button{
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 14px;
+    background: #356eca;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.4s ease, background 0.3s ease;
+    transform-origin: center;
+  }
+  .orion-eyedropper-icon {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    filter: invert(1);
+    opacity: 0.7;
+    transition: opacity 0.2s ease;
+  }
+
+  .orion-eyedropper-icon:hover {
+    opacity: 1;
+  }
+
+  /* Mobile layout */
+  @media (max-width: 991px) {
+
+    body.preview-open {
+      position: fixed;
+      width: 100%;
+    }
+    
+
+
+    .container-part {
+      flex-direction: column;
+      font-weight: bold;
+    }
+
+
+
+
+    .container-part.preview-mode .mobile-preview-btn {
+      transform: otateY(180deg);
+    }
+
+
+
+    .container-part.preview-mode .left-panel-mod {
+      display: none;
+
+
+    }
+
+    .container-part.preview-mode .right-panel-mod {
+      display: block;
+    }
+
+    
+  }
+
+  .locked {
+    position: relative;
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  /* Tooltip for locked cover */
+  .locked::after {
+    content: "This feature is for premium communities only";
+    position: absolute;
+    top: -40px;         /* above the element */
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--bg-app-others);
+    color: var(--text-main) !important;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    z-index: 20;
+  }
+
+  /* Show tooltip on hover */
+  .locked:hover::after {
+    opacity: 1;
+  }
+
+  /* General locked base */
+  .lock-base {
+    opacity: 0.4;
+    cursor: not-allowed;
+    position: relative;
+  }
+
+  /* Tooltip for locked swatches */
+  .lock-swatch::after {
+    content: "🔒 Premium color";
+    position: absolute;
+    bottom: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    background: #333;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+  }
+  .lock-swatch:hover::after {
+    opacity: 1;
+  }
+
+  /* Tooltip for locked icons (eyedropper, hashtag) */
+  .lock-icon::after {
+    content: "🔒 Premium feature";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 11px;
+    background: #222;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 3px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+  }
+  .lock-icon:hover::after {
+    opacity: 1;
+  }
+
+
+  .title-input, .description-input {
+    border-radius: 19px !important;
+    padding: 15px 16px !important;
+    border: 1px solid var(--border) !important;  
+    margin: 0 !important;
+    color: var(--text-main);
+    font-size: 14px;
+    width: 100%;
+    line-height: 1.5;
+    outline: none  !important;
+    margin-top: 8px !important;
+    background-color: transparent !important;
+  }
+
+  .title-input::placeholder, .description-input::placeholder {
+    opacity: 0.75;
+    font-size: 14px;
+    color: var(--text-muted);
+  }
+
+  .title-input:focus,
+  .description-input:focus {
+    border-color: #5865F2 !important;
+    outline: none !important;
+  }
+
+
+
+  .buttons-divers-M #tycoon-cance{
+      padding: 12px 14px;
+    border-radius: 14px;
+    cursor: pointer;
+    color: var(--text-main);
+    background-color: transparent;
+    font-size: 14px !important;
+    border: 0.9px solid var(--border);
+    outline: none;
+  }
+
+  .buttons-divers-M button{
+    padding: 12px 14px;
+    border-radius: 14px;
+    cursor: pointer;
+    color: var(--text-main);
+    background-color: transparent;
+    font-size: 14px !important;
+    border: 0.9px solid var(--border);
+    outline: none;
+  }
+
+  .buttons-divers-M #tycoon-cance {
+    background: rgba(43, 43, 66, 0.448);
+    border: 0.9px solid var(--border) !important;
+    color: var(--text-main);
+
+    border: 1px solid #d6d9df;
+  }
+
+  .buttons-divers-M #tycoon-cance:hover{
+    background: rgba(37, 37, 57, 0.448);
+
+    border-color: #c7cbd3;
+  }
+
+
+  .buttons-divers-M #create-module{
+
+    color: rgba(255, 255, 255, 0.85);
+    background: #3f7ae0; /* softer blue */
+    border: 1px solid #3f7ae0;
+    box-shadow: 0 3px 10px rgba(63, 122, 224, 0.22);
+  }
+
+
+  .buttons-divers-M #create-module:hover {
+    background: #366fd1;
+    box-shadow: 0 5px 14px rgba(63, 122, 224, 0.3);
+    outline: none;
+    outline: 1px solid #366fd1;
+    outline-offset: 2px;
+  }
+
+
+
+  .add-cover-text  {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-main);
+  }
+
+  .add-cover-text svg{
+    width: 15px;
+    height: 15px;
+
+  }
+
+
+  @media (max-width: 1211px) {
+    .left-panel-mod, .right-panel-mod {
+      display: flex;
+      width: 100% !important;
+    }
+
+    .module-parent{
+      width: 100% !important;
+    }
+    .container-part {
+      padding: 13px 14px;
+    }
+  }
+
+  @media(max-width: 767px) {
+    .container-part {
+      padding: 12px 15px;
+
+    }
+
+    .left-panel-mod {
+      display: flex;
+    }
+    .preview-content-mod {
+      background-color: var(--bg-sidebar) !important;
+    }
+
+    .left-panel-mod, .right-panel-mod {
+      border-radius: 30px;
+      background-color: var(--bg-sidebar) !important;
+      height: calc(100dvh - 12px) !important;
+      width: 100% !important;
+      padding: 40px 15px 0 15px;
+      overflow-y: auto;
+    }
+    .right-panel-mod {
+      display: none;
+    }
+
+    .right-panel-mod.hidden {
+      display: none !important;
+    }
+  }
+
+
+
+  .cover-upload {
+    border-radius: 14px;
+    text-align: center;
+    border: 0.9px solid var(--border);
+    background-color: var(--bg-hover-hover);
+    margin-bottom: 4px;
+    padding: 14px 12px;
+  }
+  .cover-upload:hover {
+    background-color: var(--bg-hover-hover-3);
+  }
+
+
+
+
+
+
+
+  @media(min-width: 1211px) {
+    .left-panel-mod {
+      width: 60%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .mobile-preview-btn {
+      display: none !important;
+    }
+
+  }
+  </style>
+  <div class="container-part{% if community.is_paid %} badged{% else%}{%endif%}">
+
+    <!-- Left panel -->
+    <div class="left-panel-mod">
+      <div class="module-parent">
+        <div class="module-tersac">
+          <label for="title">Title</label>
+            <div class="module-tersac-child">
+              <input type="text" id="title" class="title-input"  name="title" placeholder="Choose a clear and concise title" value="{{ quest.title if quest else '' }}"  autocomplete="off"/>
+            </div>
+        </div>
+
+        <div class="module-tersac">
+          <label for="description">Description <em style="color: var(muted);opacity: 0.8; margin-left: 10px;">(Optional)</em></label>
+          <div class="module-tersac-child">
+            <textarea id="description" class="description-input" style="resize: none !important;"  name="description" rows="4" placeholder="Provide more context about the theme of your module here"  autocomplete="off">{{ quest.description if quest else '' }}</textarea>
+          </div>
+        </div>
+
+        <div class="module-tersac">
+          <label>Color {% if not community.is_paid %}
+            <span class="premium-badge">Premium</span>{% endif %}
+          </label>
+          <div class="module-tersac-child">
+            <div class="orion-dropdown-wrapper">
+              <button type="button" class="orion-toggle-btn" id="orion-toggle-picker" style="margin-top: 8px;">
+                <img src="https://cdn2.iconfinder.com/data/icons/tritone-set-1-of-3/100/Color-1024.png" loading="lazy" decoding="async"
+                    alt="Color Picker Icon"
+                    width="40"
+                    height="40" />
+              </button>
+
+
+
+            </div>        
+          </div>
+        </div>
+
+        <div class="module-tersac">
+          <label>Cover  {% if not community.is_paid %}<span class="premium-badge">Premium</span>{% endif %}</label>
+          <div class="module-tersac-child">
+            <div class="cover-upload {% if not community.is_paid %}locked{% endif %}" id="add-cover-btn" style="box-sizing: border-box !important; margin-top: 8px; cursor: pointer;">
+              <img id="cover-thumbnail" src="" alt="Cover Preview" style="display: none;" />
+              <span style="box-sizing: border-box !important;" class="add-cover-text">
+              <svg class="image-picker" id="pickMedia"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 2v3m0 3V5m0 0h3m-3 0h-3"/><path fill="currentColor" fill-rule="evenodd" d="M13 2H5a3 3 0 0 0-3 3v10.5c0 .086.011.17.032.25A1 1 0 0 0 2 16v3a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-7a1 1 0 0 0-.032-.25A1 1 0 0 0 22 11.5V11h-2v.016c-4.297.139-7.4 1.174-9.58 2.623.826.293 1.75.71 2.656 1.256 1.399.84 2.821 2.02 3.778 3.583a1 1 0 1 1-1.706 1.044c-.736-1.203-1.878-2.178-3.102-2.913-1.222-.734-2.465-1.192-3.327-1.392a15.466 15.466 0 0 0-3.703-.386h-.022c-.348.005-.68.02-.994.045V5a1 1 0 0 1 1-1h8V2zM8.5 6a2.68 2.68 0 0 0-1.522.488C6.408 6.898 6 7.574 6 8.5c0 .926.408 1.601.978 2.011A2.674 2.674 0 0 0 8.5 11c.41 0 1.003-.115 1.522-.489.57-.41.978-1.085.978-2.011 0-.926-.408-1.601-.978-2.012A2.674 2.674 0 0 0 8.5 6z" clip-rule="evenodd"/>
+              </svg>
+                Add cover</span>
+            </div>
+
+            <input type="file" id="cover-input" accept="image/*" style="display: none;" />
+
+            <small style="color: var(--text-muted); font-weight: 500;">Images wider than 1500 pixels work best</small>
+
+            <!-- Hidden field for selected cover URL -->
+            <input type="hidden" name="cover_url" id="cover-url" />
+          </div>
+        </div>
+
+        <div class="buttons-divers-M" style="position: sticky; bottom: 0; z-index: 55; backdrop-filter: blur(14px); padding: 10px 0; border-top-left-radius: 10px; border-top-right-radius: 10px  ;">
+          <a id="tycoon-cance"
+            href="/{{ community.slug }}/quest/admin"
+            data-path="/{{ community.slug }}/quest/admin"
+            onclick="event.preventDefault(); loadMainSettingsSection(this.dataset.path, event)">
+            Cancel
+          </a>
+
+          <div style="display: flex; gap: 10px;">
+            <div  >
+              <button type="button" class="mobile-preview-btn" style="position: sticky; top: 0; display: flex; gap: 10px; align-items: center; justify-content: center;">  
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14.5" height="14.5" fill="currentColor" aria-hidden="true">
+                      <g transform="translate(0 1.333) scale(0.0416666)">
+                        <path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6-46.8 43.5-78.1 95.4-93 131.1-3.3 7.9-3.3 16.7 0 24.6 14.9 35.7 46.2 87.7 93 131.1 47.1 43.7 111.8 80.6 192.6 80.6s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1 3.3-7.9 3.3-16.7 0-24.6-14.9-35.7-46.2-87.7-93-131.1-47.1-43.7-111.8-80.6-192.6-80.6zM144 256a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-64c0 35.3-28.7 64-64 64-11.5 0-22.3-3-31.7-8.4-1 10.9-.1 22.1 2.9 33.2 13.7 51.2 66.4 81.6 117.6 67.9s81.6-66.4 67.9-117.6c-12.2-45.7-55.5-74.8-101.1-70.8 5.3 9.3 8.4 20.1 8.4 31.7z"/>
+                      </g>
+                    </svg>
+                Preview</button>      
+            </div>
+          <button id="create-module" class="{% if quest %}edit{% else %}create{% endif %}" style="cursor: pointer;">
+            {% if quest %}
+              Save
+            {% else %}
+              Create
+            {% endif %}
+          </button>
+          </div>
+        </div>        
+      </div>
+
+    </div>
+
+    <!-- Right -->
+    <div class="right-panel-mod">
+      
+      <div class="main-container-img">
+        <div class="preview-container-mod">
+          <div class="preview-header-mod"
+            data-seed="{{ quest.uuid if quest else '' }}"
+            style="background: radial-gradient(120% 140% at 10% 50%, rgba(253, 253, 253, 0.55), transparent 60%), radial-gradient(140% 120% at 90% 40%, rgba(30, 58, 138, 0.75), transparent 65%), radial-gradient(160% 160% at 50% 60%, rgba(253, 253, 253, 0.35), rgba(30, 58, 138, 0.35), transparent 70%), linear-gradient(100deg, rgb(30, 58, 138), rgb(253, 253, 253));"
+            data-color="{{ quest.color if quest else '' }}"
+            data-cover="{{ quest.cover_url if quest else 'null' }}">
+            <div class="preview-title" id="preview-title">{{ quest.title if quest else 'Your title here' }}</div>
+            <div class="preview-description" id="preview-description">{{ quest.description if quest else 'Your description here' }}</div> 
+            <div class="progress-bar">
+              <div class="progress-fill"></div>
+            </div>
+          </div>
+
+
+          <div class="preview-content-mod">
+            <div class="preview-box-mod"></div>
+            <div class="preview-box-mod"></div>
+            <div class="preview-box-mod"></div>
+            <div class="preview-box-mod"></div>
+            <div class="preview-box-mod"></div>
+          </div>
+
+        </div>
+
+      </div>
+      <div style="display: flex; align-items: center; justify-content: center;">
+      <button class="close-rightpp" style=" width: 70%; cursor: pointer; background-color: transparent; border: 0.9px solid var(--border); padding: 13px 4px; border-radius: 15px; color: var(--text-main); box-sizing: border-box !important; font-size: 14px; position: relative; top: 30px">Close</button>
+
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+<style>
+
+
+.close-rightpp:hover {
+  background-color: var(--bg-hover-back-q-p-balck) !important;
+}
+
+
+
+
+
+
+
+
+ 
+
+ 
+    .mobile-preview-btn {
+      display: flex;
+    }
+
+
+
+    .preview-content-mod {
+      padding-bottom: 160px !important;
+    }
+    
+  .preview-content-mod {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-top: 20px !important;
+    background-color: var(--bg-app);
+    padding: 20px;
+    z-index: 99;
+    min-height: 0;
+    -webkit-mask-image: -webkit-radial-gradient(white, black); 
+    mask-image: radial-gradient(white, black);
+    scrollbar-gutter: stable both-edges; 
+    height: calc(100dvh - 350px);
+    margin: 0;
+    overflow-y: auto;
+    bottom: 27px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .preview-content-mod .preview-box-mod{
+   width: 100%;
+   height: 100%;
+   padding: 47px 8px;
+   border-radius: 14px;
+   position: relative;
+   border: 0.9px solid var(--border);
+    margin: 0;
+   background-color: var(--bg-surface);
+
+  }
+
+
+
+
+.preview-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-main);
+  line-height: 1.3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  margin-bottom: 6px;
+  letter-spacing: 0.2px;
+}
+
+.preview-description {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--text-muted);
+  line-height: 1.45;
+  margin-bottom: 14px;
+
+  /* 🔒 clamp to 3 lines */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  /* wrapping safety */
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* ===============================
+   PROGRESS BAR
+================================ */
+
+.progress-bar {
+  width: 100%;
+  height: 6px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 999px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.25);
+}
+
+.progress-fill {
+  height: 100%;
+  width: 0%; /* set dynamically */
+  background: linear-gradient(
+    90deg,
+    #5865F2,
+    #6f7bf7
+  );
+  border-radius: 999px;
+  transition: width 0.6s cubic-bezier(.2,.8,.2,1);
+  box-shadow: 
+    0 0 8px rgba(88, 101, 242, 0.35);
+}
+</style>
+
+
+
+
+
+
+
+<style>
+/* 🔒 General locked base */
+.lock-base {
+  opacity: 0.4;
+  cursor: not-allowed;
+  position: relative;
+}
+
+/* 🔒 Tooltip for locked swatches */
+.lock-swatch::after {
+  content: "🔒 Premium color";
+  position: absolute;
+  bottom: -24px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  background: #333;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+.lock-swatch:hover::after {
+  opacity: 1;
+}
+
+/* 🔒 Tooltip for locked icons (eyedropper, hashtag) */
+.lock-icon::after {
+  content: "🔒 Premium feature";
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 11px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 3px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+.lock-icon:hover::after {
+  opacity: 1;
+}
+</style>
+
+
+

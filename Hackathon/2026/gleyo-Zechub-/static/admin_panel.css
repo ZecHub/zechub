@@ -1,0 +1,217 @@
+  *{
+  font-family: 'Outfit', sans-serif !important;
+}
+
+
+#website {
+  width: 350px;          /* shrink or grow as you like */
+  height: 36px;          /* optional fixed height */
+  padding: 8px 12px;
+  font-size: 15px;
+  border: 0.1px solid #cccccc57;
+  border-radius: 8px;
+   -webkit-tap-highlight-color: transparent;
+
+  background: #1e1e2f;
+  color: #333;
+
+
+  box-sizing: border-box;          /* keeps padding inside width */
+  transition: border-color .25s, box-shadow .25s;
+}
+
+::selection {
+  background: #4effcd29; 
+  color: var(--text-main);        
+}
+
+::-moz-selection {
+  background: #4effcd29; 
+  color: var(--text-main);        
+}
+
+ @media(max-width: 768px)   {
+#website {
+  width: 100%;          /* shrink or grow as you like */
+  height: 36px;          /* optional fixed height */
+  padding: 8px 12px;
+  font-size: 15px;
+  border: 0.1px solid #cccccc57;
+  border-radius: 8px;
+   -webkit-tap-highlight-color: transparent;
+
+  background: #1e1e2f;
+  color: #333;
+
+
+  box-sizing: border-box;          /* keeps padding inside width */
+  transition: border-color .25s, box-shadow .25s;
+}
+}
+
+/* change border (and glow) when the field is active */
+#website:focus {
+  box-shadow: 0 0 0 3px #4285F4(107,70,255,.25);
+  outline: none;
+  border: 1px solid #4285F4 ;
+   -webkit-tap-highlight-color: transparent;
+
+}
+label[for="website"] {
+  display: block;
+   -webkit-tap-highlight-color: transparent;
+  font-weight: bolder;
+  margin-bottom: 6px;
+  margin-top: 20px;
+  margin-top: 20px; /* if you want to push it down */
+  font-size: 14px;
+  color: aliceblue;
+}
+/* placeholder text colour */
+#website::placeholder {
+  color: #999;
+  opacity: 0.7;
+}
+#website {
+  color: aliceblue;
+}
+
+
+body{
+    background: linear-gradient(to right, #1e1e2f 100%) 
+}
+
+
+/* shared look */
+.btn {
+  display: inline-block;
+  padding: 8px 22px;
+  font-size: 15px;
+  font-weight: 600;
+  width: 50px;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+
+  border-radius: 9999px;          /* circle-pill edges */
+  border: 2px solid transparent;  /* default border */
+
+  transition: background-color .25s, color .25s, border-color .25s;
+}
+
+/* “Back” – outlined */
+.btn-outline {
+  color: aliceblue;
+  border-color: #4285F4;
+  background: transparent;
+  outline: none;
+}
+.btn-outline:hover,
+.btn-outline:focus {
+  background: #4285F4;
+  color: #fff;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* “Create a Community” – filled */
+.btn-primary {
+  color: #fff;
+  border-color: #4285F4;
+  width: 170px;
+  background: #4285F4;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background: #4285F4;
+  border-color: #4285F4;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.btn:focus {
+    outline: none;
+}
+.btn-primary:focus{
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.btn {
+  -webkit-tap-highlight-color: transparent;
+}
+/* optional wrapper to keep buttons side-by-side */
+.button-row {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: left;  /* change to center or flex-start if needed */
+  flex-wrap: wrap;
+   
+ 
+            /* stack vertically on very narrow screens */
+  margin-top: 30px;
+}
+/* special variant */
+.p-indent,               /* <p class="p-indent">…</p> */
+h4.p-indent {            /* <h4 class="p-indent">…</h4> */
+  text-indent: 2em;      /* first-line indent */
+  margin-top: 12px;
+  text-align: left;
+  padding-left: 0;
+  margin-left: 0;
+  margin-bottom: 20px;
+     /* customise as you like */
+  color: aliceblue;
+}
+h1 {
+  color: aliceblue;
+}
+
+h2{
+    text-align: left;
+    color: aliceblue;;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+p{
+    text-align: left;
+    color: rgba(240, 248, 255, 0.733);;
+    margin-top: 0px;
+}
+    
+.container-a {
+  max-width: 900px;
+  margin: 0;
+  padding: 4px;
+  margin-left: 0;
+  margin-right: auto;
+  justify-content: flex-start;
+  position: absolute;
+  background-color: #1e1e2f;
+}
+
+body{
+    background: linear-gradient(to right, #1e1e2f 100%) 
+}
+h3{
+    color: aliceblue
+}
+
+h4{
+    color: aliceblue;
+    margin-bottom: 6px;
+    font-size: 14px;
+
+
+}
+
+.hint {
+  font-size: .9em;
+  color: #8f8f8f;
+  margin-bottom: 2em;
+}
+
+body{
+  background-color: #1e1e2f;
+}

@@ -1,0 +1,523 @@
+<style>
+:root {
+  --radius: 18px;
+}
+.security-tab {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  max-width: 520px;
+  width: 100%;
+  margin: 0 auto;
+  
+  padding: 0 12px;
+}
+
+
+    .security-tab {
+        padding-top: 42px !important;
+    }
+
+/* Full width on mobile */
+
+
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+/* ===============================
+   2FA TOGGLE CARD
+================================ */
+.security-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 23px 20px;
+}
+
+.security-text h4 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.security-text p {
+  margin: 6px 0 0;
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--text-muted);
+}
+
+/* ===============================
+   TOGGLE SWITCH
+================================ */
+.toggle-switch {
+  position: relative;
+  width: 46px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.toggle-switch input {
+  display: none;
+}
+
+.toggle-slider {
+  position: absolute;
+  inset: 0;
+  background: var(--border);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.25s ease;
+}
+
+.toggle-slider::before {
+  content: "";
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  top: 3px;
+  background: var(--toggle-knob);
+  border-radius: 50%;
+  transition: transform 0.25s ease;
+}
+
+.toggle-switch input:checked + .toggle-slider {
+  background: #4285f4;
+}
+
+.toggle-switch input:checked + .toggle-slider::before {
+  transform: translateX(23px);
+  outline: 1px solid var(--text-main);
+  outline-offset: 3px;
+}
+
+/* ===============================
+   DEVICE LIST
+================================ */
+.device-list {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px;
+}
+
+ 
+
+/* ===============================
+   DEVICE ITEM
+================================ */
+.device-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--bg-app);
+  margin-bottom: 12px;
+}
+
+.device-item.current {
+  border-color: var(--info-border);
+  background: var(--info-bg);
+}
+
+.device-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--text-muted);
+}
+
+.device-info strong {
+  font-size: 14px;
+  color: var(--text-main);
+}
+
+.device-badge {
+  font-size: 12px;
+  font-weight: 500;
+  color: #22c55e;
+}
+
+/* ===============================
+   BUTTONS (BASE)
+================================ */
+button {
+  font-family: inherit;
+}
+
+/* Outline button */
+
+
+ 
+
+.btn-danger-outline {
+  background: transparent;
+  border: 1px solid #dc2626;
+  color: #dc2626;
+  padding: 10px 14px;
+  font-size: 13px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-danger-outline:hover {
+  background: rgba(220, 38, 38, 0.08);
+}
+
+
+
+
+
+.device-actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 17px;
+  }
+
+  .security-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .device-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+ 
+
+  .device-actions {
+    gap: 10px;
+  }
+}
+
+
+.devices-name {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+
+
+
+
+.swiped-content{
+    z-index: 9999;
+    display: flex;
+    width: 100%;
+    min-width: 100%;
+    background: var(--bg-surface);
+    box-sizing: border-box !important;
+    overflow: hidden;
+    gap: 16px;
+    transform: translateX(0);
+    transition: transform 0.25s cubic-bezier(.2,.8,.2,1);
+}
+
+.session-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 0;
+  padding: 16px 4px;
+  background: transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.valid {
+  color: #4285f4 !important;
+  opacity: 1 !important;
+}
+
+
+
+.swipe-actions {
+    position: absolute;
+    right: 0;
+    background: #d11a1a; 
+    height: 100%;
+    width: 80%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+    border-bottom: 1px solid #d11a1a;
+}
+
+.session-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+    min-width: 100%;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--border);
+
+}
+
+.session-icon {
+    flex-shrink: 0;
+    margin-bottom: auto;
+    padding: 16px 0;
+}
+
+
+.delete-text{
+    position: absolute;
+    right: 0;
+    bottom: 38%;
+    padding-right: 30px;
+}
+
+
+.swipe-content {
+  position: relative;
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  min-width: 100%;
+  height: 100%;
+  min-height: 100%;
+
+}
+
+
+.swipe-delete {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+
+ 
+
+.browser-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  background: var(--bg-app);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.browser-avatar svg {
+  width: 26px;
+  height: 26px;
+}
+
+/* ONLINE STATUS */
+.status-dot {
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #6b7280;
+  border: 2px solid var(--bg-surface);
+}
+
+.status-dot.online {
+  background: #22c55e;
+}
+
+
+
+ 
+
+.session-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.session-location {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.session-time {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+
+h4, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.Active-sec{
+    margin-bottom: 7px;
+}
+ 
+
+.security-session-row{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+
+
+
+
+
+.muted{
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    color: var(--text-muted);
+}
+
+.qr-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0;           
+  width: 70% !important;      
+  min-width: 70% !important;      
+  border-radius: 16px;         
+
+  width: fit-content;
+  margin: 16px auto 0;
+  margin-top: 12px !important;
+  margin-bottom: 12px !important;
+}
+
+#qrCanvas {
+  width: 160px;
+  height: 160px;
+}
+
+#qrCanvas svg {
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+  shape-rendering: geometricPrecision;
+  border-radius: 10px; 
+}
+
+.hidden {
+  display: none;
+}
+
+.switch-link {
+  margin-top: 10px;
+  background: none;
+  border: none;
+  color: #6c63ff;
+  cursor: pointer;
+}
+
+
+</style> 
+
+
+
+<div class="tab-content security-tab" id="security">
+  <h3 class="section-title">Security</h3>
+
+  <!-- 2FA -->
+  <div class="security-row">
+    <div class="security-text">
+      <h4>Two-Factor Authentication</h4>
+      <p>Add an extra layer of security to your account.</p>
+    </div>
+
+    <label class="toggle-switch">
+      <input 
+        type="checkbox" 
+        id="twofaToggle"
+        {% if is_enabled %}checked{% endif %}
+      >
+      <span class="toggle-slider"></span>
+    </label>
+  </div>
+
+  <!-- CURRENT DEVICE -->
+  <div class="security-session-row">
+    <h4 class="Active-sec">This device</h4>
+
+    <div class="device-list">
+      <div id="current-device"></div>
+
+      <div class="device-actions">
+        <button class="btn-outline" onclick="logoutAllOtherDevices()">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12.9999 2C10.2385 2 7.99991 4.23858 7.99991 7C7.99991 7.55228 8.44762 8 8.99991 8C9.55219 8 9.99991 7.55228 9.99991 7C9.99991 5.34315 11.3431 4 12.9999 4H16.9999C18.6568 4 19.9999 5.34315 19.9999 7V17C19.9999 18.6569 18.6568 20 16.9999 20H12.9999C11.3431 20 9.99991 18.6569 9.99991 17C9.99991 16.4477 9.55219 16 8.99991 16C8.44762 16 7.99991 16.4477 7.99991 17C7.99991 19.7614 10.2385 22 12.9999 22H16.9999C19.7613 22 21.9999 19.7614 21.9999 17V7C21.9999 4.23858 19.7613 2 16.9999 2H12.9999Z" fill="currentColor"/>
+            <path d="M13.9999 11C14.5522 11 14.9999 11.4477 14.9999 12C14.9999 12.5523 14.5522 13 13.9999 13V11Z" fill="currentColor"/>
+            <path d="M5.71783 11C5.80685 10.8902 5.89214 10.7837 5.97282 10.682C6.21831 10.3723 6.42615 10.1004 6.57291 9.90549C6.64636 9.80795 6.70468 9.72946 6.74495 9.67492L6.79152 9.61162L6.804 9.59454L6.80842 9.58848C6.80846 9.58842 6.80892 9.58778 5.99991 9L6.80842 9.58848C7.13304 9.14167 7.0345 8.51561 6.58769 8.19098C6.14091 7.86637 5.51558 7.9654 5.19094 8.41215L5.18812 8.41602L5.17788 8.43002L5.13612 8.48679C5.09918 8.53682 5.04456 8.61033 4.97516 8.7025C4.83623 8.88702 4.63874 9.14542 4.40567 9.43937C3.93443 10.0337 3.33759 10.7481 2.7928 11.2929L2.08569 12L2.7928 12.7071C3.33759 13.2519 3.93443 13.9663 4.40567 14.5606C4.63874 14.8546 4.83623 15.113 4.97516 15.2975C5.04456 15.3897 5.09918 15.4632 5.13612 15.5132L5.17788 15.57L5.18812 15.584L5.19045 15.5872C5.51509 16.0339 6.14091 16.1336 6.58769 15.809C7.0345 15.4844 7.13355 14.859 6.80892 14.4122L5.99991 15C6.80892 14.4122 6.80897 14.4123 6.80892 14.4122L6.804 14.4055L6.79152 14.3884L6.74495 14.3251C6.70468 14.2705 6.64636 14.1921 6.57291 14.0945C6.42615 13.8996 6.21831 13.6277 5.97282 13.318C5.89214 13.2163 5.80685 13.1098 5.71783 13H13.9999V11H5.71783Z" fill="currentColor"/>
+            </svg>
+
+          Log out all other devices
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- OTHER SESSIONS -->
+  <div class="security-session-row">
+    <h4 class="Active-sec">Other active sessions</h4>
+
+    <div class="device-list">
+      <div class="devices-name" id="Active-devices">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+

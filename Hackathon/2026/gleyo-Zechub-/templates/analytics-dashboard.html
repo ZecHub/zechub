@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Analytics Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #0e0e14;
+    --bg-card: #15151f;
+    --bg-card2: #1a1a27;
+    --border: rgba(255,255,255,0.07);
+    --border-accent: rgba(130,100,255,0.3);
+    --text: #f0f0f8;
+    --muted: #6b6b85;
+    --accent: #8264ff;
+    --accent2: #3ecfcf;
+    --green: #2ecc71;
+    --red: #e74c3c;
+    --orange: #f39c12;
+  }
+
+  body {
+    font-family: 'Syne', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+
+  /* ── SHELL ── */
+  .shell {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 16px;
+    gap: 14px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+    @media(max-width: 767px) {
+      .shell {
+        height: calc(100dvh - 64px) !important;
+        
+      }
+
+    }
+
+  /* ── AI BANNER ── */
+  .ai-banner {
+    background: linear-gradient(135deg, #1e1b3a, #12122a);
+    border: 1px solid var(--border-accent);
+    border-radius: 16px;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .ai-banner-icon {
+    font-size: 22px;
+    flex-shrink: 0;
+  }
+
+  .ai-banner-body {
+    flex: 1;
+    min-width: 200px;
+  }
+
+  .ai-banner-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+
+  .ai-banner-desc {
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+
+  .ai-banner-desc b { color: var(--text); }
+
+  .ai-btn {
+    background: var(--accent);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Syne', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap;
+    transition: opacity .2s;
+  }
+  .ai-btn:hover { opacity: 0.8; }
+
+  .banner-close {
+    cursor: pointer;
+    color: var(--muted);
+    font-size: 20px;
+    line-height: 1;
+    flex-shrink: 0;
+    transition: color .2s;
+  }
+  .banner-close:hover { color: var(--text); }
+ 
+  .topnav::-webkit-scrollbar { display: none; }
+
+  .tab {
+    padding: 8px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--muted);
+    white-space: nowrap;
+    transition: all .2s;
+    border: 1px solid transparent;
+    background: none;
+    font-family: 'Syne', sans-serif;
+  }
+  .tab:hover { color: var(--text); background: var(--bg-card); }
+  .tab.active {
+    color: var(--text);
+    background: var(--bg-card2);
+    border-color: var(--border);
+  }
+
+  /* ── PANELS ── */
+  .panel { display: none; }
+  .panel.active { display: block; }
+
+  /* ── GRIDS ── */
+  .kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+
+  .two-col {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+
+  /* ── CARDS ── */
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 18px;
+  }
+
+  .card-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 12px;
+  }
+
+  /* ── KPI ── */
+  .kpi-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 18px;
+  }
+
+  .kpi-title {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  .kpi-value {
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--text);
+    margin: 8px 0 4px;
+    letter-spacing: -0.02em;
+  }
+
+  .kpi-trend {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+  }
+  .kpi-trend.up { color: var(--green); }
+  .kpi-trend.down { color: var(--red); }
+
+  /* ── CHART PLACEHOLDER ── */
+  .chart-ph {
+    height: 160px;
+    border-radius: 10px;
+    background: var(--bg);
+    border: 1px dashed rgba(255,255,255,0.06);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--muted);
+    font-size: 13px;
+    margin-top: 8px;
+  }
+
+  /* ── INSIGHT CARDS ── */
+  .insight-card {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 18px;
+  }
+
+  .insight-icon { font-size: 18px; margin-bottom: 8px; display: block; }
+
+  .insight-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 6px;
+  }
+
+  .insight-text {
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.55;
+  }
+
+  /* ── TABLE ── */
+  .analytics-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin-top: 8px;
+  }
+
+  .analytics-table th {
+    text-align: left;
+    padding: 8px 10px;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border-bottom: 1px solid var(--border);
+    font-weight: 600;
+  }
+
+  .analytics-table td {
+    padding: 11px 10px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+  }
+
+  .analytics-table tr:last-child td { border-bottom: none; }
+
+  .badge {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 9px;
+    border-radius: 20px;
+    font-family: 'DM Mono', monospace;
+  }
+  .badge.active { background: rgba(46,204,113,0.12); color: var(--green); }
+  .badge.idle   { background: rgba(243,156,18,0.12);  color: var(--orange); }
+
+  /* ── PLACEHOLDER PANELS ── */
+  .placeholder-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 320px;
+    gap: 12px;
+    color: var(--muted);
+  }
+
+  .placeholder-panel .big-icon { font-size: 48px; opacity: 0.4; }
+  .placeholder-panel p { font-size: 15px; font-weight: 600; }
+  .placeholder-panel span { font-size: 13px; }
+
+  .location-list{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    margin-top:10px;
+  }
+
+  .loc-row{
+    display:flex;
+    justify-content:space-between;
+    font-size:13px;
+    padding:6px 0;
+    border-bottom:1px solid var(--border);
+  }
+
+  .loc-row:last-child{
+    border-bottom:none;
+  }
+
+</style>
+</head>
+<body>
+
+<div class="shell">
+
+  <!-- AI BANNER -->
+  <div class="ai-banner" id="aiBanner">
+    <div class="ai-banner-icon">🧠</div>
+    <div class="ai-banner-body">
+      <div class="ai-banner-title">AI Insight</div>
+      <div class="ai-banner-desc">
+        User activity increased <b>18% this week</b>. Most growth came from quest completions and new signups between 6pm — 9pm.
+      </div>
+    </div>
+    <button class="ai-btn">Ask AI: Why are users growing?</button>
+    <div class="banner-close" id="closeBanner">×</div>
+  </div>
+
+  <!-- TABS -->
+  <nav class="topnav">
+    <button class="tab active" data-tab="users">Users</button>
+    <button class="tab" data-tab="quests">Quests</button>
+    <button class="tab" data-tab="chats">Community Chats</button>
+    <button class="tab" data-tab="ai">AI Mode</button>
+  </nav>
+
+  <!-- USERS PANEL -->
+  <div class="panel active" id="panel-users">
+
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-title">Total Users</div>
+        <div class="kpi-value">12,450</div>
+        <div class="kpi-trend up">↑ 8.2%</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-title">Active Users</div>
+        <div class="kpi-value">3,842</div>
+        <div class="kpi-trend up">↑ 3.1%</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-title">New Users</div>
+        <div class="kpi-value">1,245</div>
+        <div class="kpi-trend up">↑ 12%</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-title">Retention</div>
+        <div class="kpi-value">68%</div>
+        <div class="kpi-trend down">↓ 1.4%</div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom:14px">
+      <div class="card-label">User Growth</div>
+      <div class="chart-ph">Growth chart goes here</div>
+    </div>
+
+    <div class="two-col">
+      <div class="card">
+        <div class="card-label">Activity</div>
+        <div class="chart-ph">Activity chart goes here</div>
+      </div>
+      <div class="card">
+        <div class="card-label">User Segments</div>
+        <div class="chart-ph">Segments chart goes here</div>
+      </div>
+
+
+
+
+    </div>
+
+    <div class="two-col">
+      <div class="insight-card">
+        <span class="insight-icon">🚀</span>
+        <div class="insight-title">Growth Opportunity</div>
+        <div class="insight-text">Users who complete 2 quests within 24h are 3× more likely to stay. Consider adding onboarding incentives.</div>
+      </div>
+      <div class="insight-card">
+        <span class="insight-icon">⚠️</span>
+        <div class="insight-title">Risk Alert</div>
+        <div class="insight-text">Retention dropped slightly for new users from mobile devices. Possible onboarding friction detected.</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-label">Recent Users</div>
+      <table class="analytics-table">
+        <thead>
+          <tr>
+            <th>User</th>
+            <th>Joined</th>
+            <th>Quests</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>JohnDoe</td>
+            <td>Today</td>
+            <td>12</td>
+            <td><span class="badge active">Active</span></td>
+          </tr>
+          <tr>
+            <td>Alice</td>
+            <td>Yesterday</td>
+            <td>4</td>
+            <td><span class="badge idle">Idle</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <!-- QUESTS PANEL -->
+  <div class="panel" id="panel-quests">
+    <div class="placeholder-panel">
+      <div class="big-icon">⚔️</div>
+      <p>Quests Analytics</p>
+      <span>Coming soon</span>
+    </div>
+  </div>
+
+  <!-- CHATS PANEL -->
+  <div class="panel" id="panel-chats">
+    <div class="placeholder-panel">
+      <div class="big-icon">💬</div>
+      <p>Community Chats</p>
+      <span>Coming soon</span>
+    </div>
+  </div>
+
+  <!-- AI MODE PANEL -->
+  <div class="panel" id="panel-ai">
+    <div class="placeholder-panel">
+      <div class="big-icon">🤖</div>
+      <p>AI Mode Analytics</p>
+      <span>Coming soon</span>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  // Tab switching
+  document.querySelectorAll('.tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById('panel-' + tab.dataset.tab).classList.add('active');
+    });
+  });
+
+  // Close banner
+  document.getElementById('closeBanner').addEventListener('click', () => {
+    document.getElementById('aiBanner').style.display = 'none';
+  });
+</script>
+
+</body>
+</html>

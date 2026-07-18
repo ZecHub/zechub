@@ -1,0 +1,2368 @@
+<title>Analytics Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  .kpi-trend svg {
+    width: 13px;
+    height: 13px;
+  }
+
+
+
+  .shell {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    height: calc(100dvh - 20px);
+    gap: 4px;
+    width: 100%;
+    min-width: 100% !important;
+
+
+
+    max-width: 1400px;
+    overflow: hidden;
+    margin: 0 auto;
+
+  }
+
+
+  @media(max-width: 767px) {
+    .shell {
+      height: calc(100dvh - 64px) !important;
+      padding: 10px 15px;
+      
+    }
+
+  }
+
+  .bottom-panels-anal {
+    background-clip: padding-box; 
+    border: 0.9px solid var(--border);
+    -webkit-mask-image: -webkit-radial-gradient(white, black); 
+    mask-image: radial-gradient(white, black);
+    scrollbar-gutter: stable both-edges; 
+    background-color: var(--bg-sidebar);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
+    display: flex;
+    padding: 17px 12px;
+    overflow-y: auto;
+    padding-top: 33px !important;
+    height: 100%;
+    box-sizing: border-box;
+  }
+
+/* ---------- INSIGHT CARDS ---------- */
+
+.insight-card{
+  position: relative;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 18px 18px 18px 58px;
+  transition: all .25s ease;
+  overflow: hidden;
+}
+
+
+/* subtle hover */
+.insight-card:hover{
+  transform: translateY(-2px);
+  border-color: rgba(148,163,184,0.35);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+}
+
+/* icon */
+.insight-icon{
+  position: absolute;
+  left: 16px;
+  top: 18px;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+
+}
+
+/* title */
+.insight-title{
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: var(--text-main);
+}
+
+/* text */
+.insight-text{
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-muted);
+}
+
+/* variant colors */
+.insight-card:nth-child(1){
+  background: rgba(34,197,94,0.12);
+  border-color: rgba(34,197,94,0.25);
+}
+
+.insight-card:nth-child(2) {
+  background: rgba(251,191,36,0.12);
+  border-color: rgba(251,191,36,0.25);
+}
+
+/* Base topnav — applies everywhere EXCEPT 768–900px */
+@media not all and (min-width: 768px) and (max-width: 900px) {
+  .topnav {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    height: 65px;
+    width: 100% !important;
+    padding: 0 20px;
+    background-color: var(--bg-sidebar);
+    overflow-x: auto;
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+    justify-content: space-between;
+    white-space: nowrap;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border: 0.9px solid var(--border);
+    flex-shrink: 0;
+    box-sizing: border-box;
+  }
+}
+
+/* 768–900px override — fully self-contained, nothing to fight */
+@media (min-width: 768px) and (max-width: 900px) {
+  .topnav {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    height: 65px;
+    width: 100% !important;
+    background-color: var(--bg-sidebar);
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border: 0.9px solid var(--border);
+    flex-shrink: 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  .tabs-left {
+    display: flex;
+    gap: 3px;
+    overflow-x: auto;
+    padding-left: 20px;
+    min-width: 0;
+    flex: 1 1 auto;
+    scrollbar-width: none;
+  }
+
+  .tabs-left::-webkit-scrollbar {
+    display: none;
+  }
+
+  .live-indicator-right {
+    flex-shrink: 0;
+    padding-right: 3px;
+  }
+}
+
+.shell{
+  transition: height .35s cubic-bezier(.4,0,.2,1);
+}
+
+  .ai-banner {
+    background: linear-gradient(135deg, #1e1b3a, #12122a);
+    border: 1px solid var(--border-accent);
+    border-radius:26px;
+    padding: 16px 20px;
+    display: none;
+    margin-bottom: 13px;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .ai-banner-icon {
+    font-size: 22px;
+    flex-shrink: 0;
+  }
+
+  .ai-banner-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .ai-banner-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--sub-accent);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .ai-banner-desc {
+    font-size: 13px;
+    padding-left: 40px;
+    color: var(--text-muted);
+    line-height: 1.5;
+  }
+
+  .ai-banner-desc b { color: var(--text-main); }
+
+  .ai-btn {
+    background: var(--sub-accent);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    margin-left: 40px;
+    font-family: 'Syne', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap;
+    transition: opacity .2s;
+  }
+  .ai-btn:hover { opacity: 0.8; }
+
+  .banner-close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--text-muted);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 1;
+    flex-shrink: 0;
+    transition: color .2s;
+  }
+
+
+.grid line{
+  stroke: var(--border);
+  stroke-width: 1.3;
+  opacity: .6;
+  shape-rendering: crispEdges;
+}
+
+
+  .banner-close svg{
+    width: 19px;
+    height: 19px;
+  }
+
+
+  .banner-close:hover { 
+    color: var(--text-main); 
+    background-color: var(--bg-hover-hover);
+  }
+
+  /* ── TOP NAV ── */
+
+  .topnav::-webkit-scrollbar { display: none; }
+
+  .tab {
+    padding: 8px 20px;
+    border-radius: 17px;
+    font-size: 14px;
+    font-weight: 600;
+    flex-shrink: 0;
+    cursor: pointer;
+    color: var(--text-muted);
+    white-space: nowrap;
+    transition: all .2s;
+    border: 1px solid transparent;
+    background: none;
+    font-family: 'Syne', sans-serif;
+  }
+  .tab:hover { color: var(--text-main); background: var(--bg-hover-hover); }
+  .tab.active {
+    color: var(--text-main);
+    background: var(--bg-hover);
+    border-color: var(--border);
+  }
+
+  /* ── PANELS ── */
+  .panel { 
+    display: none; 
+    padding-bottom: 13px;
+  }
+  .panel.active { 
+    display: block;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  /* ── GRIDS ── */
+  .kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+
+  .two-col {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+
+  /* ── CARDS ── */
+  .card {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 18px;
+  }
+
+  .card-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+  }
+
+  /* ── KPI ── */
+  .kpi-card {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 18px;
+  }
+
+  .kpi-title {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-main);
+  }
+
+  .kpi-value {
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--text-main);
+    margin: 8px 0 4px;
+    letter-spacing: -0.02em;
+  }
+
+  .kpi-upter-api {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+
+  .kpi-trend {
+    font-family: 'DM Mono', monospace;
+    display: flex;
+    gap: 4px;
+    font-size: 12px;
+  }
+  .kpi-trend.up { color: var(--green); } 
+  .kpi-trend.down { color: var(--red); }
+
+  .badge {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 9px;
+    border-radius: 20px;
+    white-space: nowrap;
+    font-family: 'DM Mono', monospace;
+  }
+  .badge.active { background: rgba(46,204,113,0.12); color: var(--green); }
+  .badge.idle   { background: rgba(243,156,18,0.12);  color: var(--orange); }
+
+  /* ── PLACEHOLDER PANELS ── */
+  .placeholder-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 320px;
+    gap: 12px;
+    color: var(--muted);
+  }
+
+
+
+
+  .placeholder-panel .big-icon { font-size: 48px; opacity: 0.4; }
+  .placeholder-panel p { font-size: 15px; font-weight: 600; }
+  .placeholder-panel span { font-size: 13px; }
+
+  .tab.ai {
+    cursor: not-allowed !important;
+  }
+
+.analytics-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom: 18px;
+}
+
+.analytics-title{
+  font-size:15px;
+  font-weight:550;
+  color:var(--text-main);
+}
+
+/* pills container */
+.range-pills{
+  display:flex;
+  gap:6px;
+  padding:4px;
+  border-radius:12px;
+}
+
+/* pill button */
+.pill{
+  padding:6px 18px;
+  border-radius: 13px;
+  font-size:12px;
+  font-weight:600;
+  color:var(--text-muted);
+  border: 0.9px solid transparent;
+  background:transparent;
+  cursor:pointer;
+  font-family:'DM Mono', monospace;
+  transition:all .2s ease;
+}
+
+.pill:hover{
+  color:var(--text-main);
+  background:var(--bg-hover-hover);
+}
+
+.pill.active{
+  background: rgba(66, 133, 244, 0.15) !important; 
+  border: 0.9px solid #4285f4;
+  color: #72a8ff;
+  box-shadow: inset 0 0 0 1px rgba(66, 133, 244, 0.35);
+}
+
+
+@media(max-width: 767px) {
+  .pill.not-mob {
+    display: none;
+  }
+}
+
+
+/* ---------- CHART CONTAINER ---------- */
+
+.growth-chart{
+  position:relative;
+  width:100%;
+  height:260px;
+}
+
+/* SVG fills container perfectly */
+
+.growth-chart svg{
+  width:100%;
+  height:100%;
+  display:block;
+  overflow:visible;
+}
+
+/* ---------- GRID ---------- */
+
+
+
+/* Individual colors */
+
+.line-total{
+  stroke:#4e73df;
+}
+
+.line-active{
+  stroke:#1cc88a;
+}
+
+.line-new{
+  stroke:#f6c23e;
+}
+
+#questChartTooltip .tt-row:last-child .tt-dot {
+background-color: #e74a3b;
+}
+
+
+#questChartTooltip .tt-row:nth-child(2) .tt-dot {
+  background-color:#4e73df;
+
+}
+
+
+#questChartTooltip .tt-row:nth-child(3) .tt-dot {
+  background-color: #1cc88a;
+}
+
+
+#questGrowthChart .lines .line-path.line-new {
+  stroke:#e74a3b; 
+}
+
+#panel-quests .card #questLegend .legend-item:last-child .legend-dot {
+  background-color: #e74a3b;
+}
+
+
+.line-path.line-abandoned {
+  stroke: #e74a3b;
+}
+
+
+.line-path.line-completed {
+stroke:#1cc88a;
+}
+
+
+.line-path.line-started  {
+  stroke:#4e73df;
+  
+}
+
+
+#panel-quests .card #questLegend .legend-item.off .legend-dot{
+  background: transparent;
+  border: 2px solid currentColor;
+}
+
+/* ---------- AXIS ---------- */
+
+.axis-text{
+  font-size:12px;
+  fill:var(--text-muted);
+  user-select:none;
+}
+
+/* ---------- TOOLTIP ---------- */
+
+.growth-chart{
+  position:relative;
+}
+
+
+.chart-tooltip{
+  position:absolute;
+  pointer-events:none;
+  border:1px solid var(--border);
+  min-width:180px;
+  padding:10px 12px;
+  border-radius: 15px;
+  opacity: 0;
+  font-size:12px;
+  white-space:nowrap;
+  box-shadow:0 8px 24px rgba(0,0,0,.08);
+  backdrop-filter: blur(6px);
+  transition:opacity .12s ease, transform .12s ease;
+  z-index:10;
+}
+
+/* title */
+
+.tt-title{
+  font-weight: 550;
+  font-size: 14px;
+  margin-bottom:6px;
+  color:var(--text-main);
+}
+
+/* rows */
+
+.tt-row{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  margin: 6px 0;
+  margin-bottom: 10px !important;
+}
+
+/* metric name */
+
+.tt-name{
+  color:var(--text-muted);
+  flex:1;
+}
+
+/* value */
+
+.tt-value{
+  font-weight:600;
+  color:var(--text-main);
+}
+
+/* dots */
+
+.tt-dot{
+  width:8px;
+  height:8px;
+  border-radius:50%;
+  display:inline-block;
+}
+
+.tt-dot.total{ background:#4e73df; }
+.tt-dot.active{ background:#1cc88a; }
+.tt-dot.new{ background:#f6c23e; }
+
+
+
+
+
+.chart-legend{
+  display:flex;
+  gap:18px;
+  align-items:center;
+  justify-content:flex-end;
+  margin-bottom:10px;
+  flex-wrap:wrap;
+}
+
+.legend-item.off .legend-dot{
+  background:transparent;
+  border:2px solid currentColor;
+}
+
+.legend-item{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  font-size:12px;
+  color:var(--text-muted);
+  cursor:pointer;
+  user-select:none;
+}
+
+.legend-dot{
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  display:inline-block;
+  transition:.2s;
+}
+
+/* colors */
+
+.legend-dot.total, .legend-dot.messages{ background:#4e73df; }
+.legend-dot.active, .legend-dot.members{ background:#1cc88a; }
+.legend-dot.new, .legend-dot.engagement{ background:#f6c23e; }
+
+.line-members {
+  stroke:#1cc88a;
+}
+
+
+
+
+.line-engagement {
+  stroke:#f6c23e;
+}
+
+.line-messages {
+  stroke: #4e73df;
+}
+
+/* OFF STATE (outline mode) */
+
+
+/* ---------- LINES ---------- */
+
+.line-path{
+  fill:none;
+  stroke-width: 0.8;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  transition:opacity .25s;
+  
+}
+
+.line-hidden{
+  opacity:0;
+}
+
+
+.chart-point{
+  pointer-events:none;
+}
+
+.chart-point circle{
+  stroke:#fff;
+  stroke-width:2;
+  r:4;
+}
+
+.point-total{ fill:#4e73df; }
+.point-active{ fill:#1cc88a; }
+.point-new{ fill:#f6c23e; }
+
+
+.location-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.location-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  color: var(--text-main);
+}
+
+.location-name {
+  width: 110px;
+  flex-shrink: 0;
+}
+
+.location-bar {
+  flex: 1;
+  height: 6px;
+  background: var(--bg-hover-hover);
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
+.location-fill {
+  height: 100%;
+  background: #60a5fa;
+  border-radius: 6px;
+}
+
+.location-percent {
+  width: 40px;
+  text-align: right;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+
+
+.crosshair line{
+  stroke: var(--border-light);
+  stroke-width: 1;
+  stroke-dasharray: 4 4;
+  opacity: .7;
+  pointer-events:none;
+}
+
+
+.crosshair line{
+  filter: drop-shadow(0 0 2px rgba(0,0,0,.15));
+}
+
+
+
+
+.activity-feed{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+  margin-top:10px;
+}
+
+.activity-item{
+  display:flex;
+  gap:12px;
+  align-items:flex-start;
+  padding:10px 12px;
+  border-radius:10px;
+  transition:0.2s;
+  cursor:default;
+}
+
+.activity-item:hover{
+  background: var(--bg-hover-hover);
+}
+
+.activity-icon{
+  width:34px;
+  height:34px;
+  border-radius:8px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:16px;
+  flex-shrink:0;
+}
+
+/* icon colors */
+.activity-icon.quest{
+  background:#2b1d0f;
+  color:#f59e0b;
+}
+
+.activity-icon.message{
+  background:#0f1f2b;
+  color:#38bdf8;
+}
+
+.activity-icon.joinedplatform {
+  background:#0f2b1a;
+  color:#22c55e;
+}
+
+.activity-icon.level{
+  background:#2b0f2b;
+  color:#e879f9;
+}
+
+.activity-content {
+  display: flex;
+  flex-direction: column;
+  gap:3px;
+}
+
+.activity-text{
+  font-size:13px;
+  color: var(--text-main);
+}
+
+.activity-highlight{
+  color:#60a5fa;
+  font-weight:500;
+}
+
+.activity-time{
+  font-size:11px;
+  color:var(--text-muted);
+}
+
+.activity-icon.level .user-joined{
+  width: 16px;
+  height: 16px;
+  color: var(--text-main);
+}
+
+.activity-icon.level .star{
+  fill: gold;
+  flex-shrink: 0;
+
+  stroke: gold
+}
+
+.message-render {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  fill: var(--text-main);
+}
+
+
+
+.segments-donut{
+  display:flex;
+  align-items:center;
+  gap:20px;
+  margin-top:10px;
+}
+
+.donut{
+  width:140px;
+  height:140px;
+  transform:rotate(-90deg);
+}
+
+.segments-legend{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+  font-size:12px;
+  color: var(--text-main);
+}
+
+.dot{
+  display:inline-block;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  margin-right:6px;
+}
+
+.c1{background:#60a5fa;}
+.c2{background:#34d399;}
+.c3{background:#fbbf24;}
+.c4{background:#f87171;}
+
+.dot.active   { background:#60a5fa; }
+.dot.new      { background:#34d399; }
+.dot.inactive { background:#fbbf24; }
+.dot.banned   { background:#f87171; }
+
+.seg-item {
+  position: relative;
+  padding: 6px 0;
+  width: fit-content;
+  cursor: pointer;
+}
+
+
+.segments-legend.quest .seg-item {
+  cursor: help;
+}
+
+.segments-legend.quest .seg-item:hover {
+  opacity: 0.85;
+
+}
+
+.segments-legend.quest .seg-item:hover::after {
+  width: 0% !important;
+}
+
+.seg-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 0;
+  background-color: #60a5fa;
+  transition: width 0.3s ease;
+}
+
+.seg-item:hover::after {
+  width: 100%;
+}
+
+
+
+.donut-segment{
+  transition: .25s;
+  cursor:pointer;
+}
+
+.donut-segment.highlight{
+  stroke-width: 8;
+  border-left: currentColor;
+ 
+}
+
+.segments-header {
+  width: 100%;
+}
+
+
+#segmentsCard.active .segments-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+
+/* .segments-header {
+  justify-content: center !important;
+} */
+
+
+/* back button */
+.seg-back {
+  position:absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+  pointer-events:none;
+  transition:.25s ease;
+  background-color: transparent;
+  border: none;
+  color: var(--text-main);
+  padding:5px 10px;
+  border-radius:7px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size:12px;
+  cursor:pointer;
+}
+
+
+.seg-back:hover {
+  opacity: 0.8 !important; 
+}
+
+/* when active */
+#segmentsCard.active .seg-back{
+  opacity:1;
+  pointer-events:auto;
+}
+
+/* title shift animation */
+#segmentsCard .card-label{
+  transition:.25s ease;
+}
+
+#segmentsCard.active .card-label {
+  transform: translateX(230px);
+}
+
+
+
+.analytics-table-seg{
+  width:100%;
+  border-collapse:separate;
+  border-spacing:0;
+  font-size:12px;
+  color:var(--text-main);
+}
+
+/* header */
+.analytics-table-seg thead th{
+  text-align:left;
+  font-weight: 550;
+  padding:10px 12px;
+  color: var(--text-muted);
+  border-bottom:1px solid var(--border);
+}
+
+/* rows */
+.analytics-table-seg tbody td{
+  padding:10px 12px;
+  border-bottom:1px solid var(--border);
+}
+
+/* row hover */
+.analytics-table-seg tbody tr{
+  transition:.2s ease;
+}
+
+.analytics-table-seg tbody tr:hover{
+  background:var(--bg-hover-hover);
+}
+
+/* last row remove border */
+.analytics-table-seg tbody tr:last-child td{
+  border-bottom:none;
+}
+
+
+
+.badge{
+  padding:3px 8px;
+  border-radius:6px;
+  font-size:11px;
+  font-weight:600;
+  text-transform:capitalize;
+}
+
+/* colors */
+.badge.active{
+  background:rgba(96,165,250,.15);
+  color:#60a5fa;
+}
+
+.badge.new{
+  background:rgba(52,211,153,.15);
+  color:#34d399;
+}
+
+.badge.inactive{
+  background:rgba(251,191,36,.15);
+  color:#fbbf24;
+}
+
+.badge.banned{
+  background:rgba(248,113,113,.15);
+  color:#f87171;
+}
+
+.reviewer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.reviewer-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.reviewer-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewer-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.reviewer-meta {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+
+
+.live-indicator {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #9ca3af;
+  margin-bottom: 10px;
+}
+
+.live-indicator b {
+  color: #22c55e;
+  font-weight: 600;
+}
+
+.live-dot {
+  width: 8px;
+  height: 8px;
+  background: #22c55e;
+  border-radius: 50%;
+  position: relative;
+}
+
+.live-dot::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: #22c55e;
+  opacity: 0.6;
+  animation: livePulse 1.8s infinite;
+}
+
+@keyframes livePulse {
+  0% { transform: scale(1); opacity: 0.6; }
+  70% { transform: scale(2.5); opacity: 0; }
+  100% { opacity: 0; }
+}
+
+
+.live-indicator-right {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 5px;
+
+}
+
+
+@media(min-width: 953px) {
+  .live-indicator-right {
+    padding-right: 60px;
+  }
+}
+
+
+
+
+
+
+.analskl-card{
+  display:flex;
+  gap:14px;
+  align-items:flex-start;
+  padding: 12px 13px !important;
+}
+
+.analskl-icon,
+.analskl-title,
+.analskl-line{
+  position:relative;
+  overflow:hidden;
+  background:rgba(255,255,255,.06);
+}
+
+.analskl-icon::after,
+.analskl-title::after,
+.analskl-line::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  transform:translateX(-100%);
+  background:linear-gradient(
+    90deg,
+    transparent,
+    rgba(255,255,255,.08),
+    transparent
+  );
+  animation:analsklShimmer 1.4s infinite;
+}
+
+@keyframes analsklShimmer{
+  100%{
+    transform:translateX(100%);
+  }
+}
+
+.analskl-icon{
+  width:30px;
+  height:30px;
+  border-radius:10px;
+  flex-shrink:0;
+}
+
+.analskl-content{
+  flex:1;
+}
+
+.analskl-title{
+  height:14px;
+  width:130px;
+  border-radius:6px;
+  margin-bottom:10px;
+}
+
+.analskl-line{
+  height:12px;
+  width:100%;
+  border-radius:6px;
+  margin-bottom:8px;
+}
+
+.analskl-line.medium{
+  width:75%;
+}
+
+.analskl-line.long{
+  width:92%;
+}
+</style>
+
+
+<div class="shell">
+
+
+  <!-- TABS -->
+  <nav class="topnav">
+
+    <div class="tabs-left">
+      <button class="tab active" data-tab="users">Users</button>
+      <button class="tab" data-tab="quests">Quests</button>
+      <button class="tab" data-tab="chats">Community Chats</button>
+      <button class="tab ai" data-tab="ai">AI Mode</button>
+    </div>
+
+    <div class="live-indicator-right">
+      <div class="live-indicator">
+        <span class="live-dot"></span>
+        <span><b id="liveCount">{{ online_count }}</b> online</span>
+      </div>      
+    </div>
+
+
+  </nav>
+
+  <div class="bottom-panels-anal">
+    <div class="panel active" id="panel-users">
+      <div class="analytics-header">
+        <div class="analytics-title">Users Overview</div>
+
+        <div class="range-pills" id="rangePills">
+          <button class="pill active" data-range="7d">7D</button>
+          <button class="pill" data-range="30d">30D</button>
+          <button class="pill" data-range="90d">90D</button>
+          <button class="pill not-mob" data-range="1y">1Y</button>
+        </div>
+      </div>
+
+
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-title">Total Users</div>
+          <div class="kpi-upter-api">
+            <div class="kpi-value" id="kpiTotal"></div>
+            <div class="kpi-trend up" id="kpiTotalTrend"></div>
+          </div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-title">Active Users</div>
+          <div class="kpi-upter-api">
+            <div class="kpi-value" id="kpiActive"></div>
+            <div class="kpi-trend up" id="kpiActiveTrend"></div>
+          </div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-title">New Users</div>
+          <div class="kpi-upter-api">
+            <div class="kpi-value" id="kpiNew"></div>
+            <div class="kpi-trend up" id="kpiNewTrend"></div>
+          </div>  
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-title">Retention</div>
+          <div class="kpi-upter-api">
+            <div class="kpi-value"></div>
+            <div class="kpi-trend down"></div>            
+          </div>
+
+        </div>
+      </div>
+
+      <div class="card" style="margin-bottom:14px">
+        <div class="card-label">User Growth</div>
+        <div class="chart-legend">
+
+          <div class="legend-item" data-metric="total">
+            <span class="legend-dot total"></span>
+            <span>Total Users</span>
+          </div>
+
+          <div class="legend-item" data-metric="active">
+            <span class="legend-dot active"></span>
+            <span>Active Users</span>
+          </div>
+
+          <div class="legend-item" data-metric="new">
+            <span class="legend-dot new"></span>
+            <span>New Users</span>
+          </div>
+
+        </div>
+
+
+        <div class="growth-chart">
+          <div class="chart-tooltip" id="chartTooltip"></div>
+
+
+          <svg id="userGrowthChart">
+
+            <g class="grid"></g>
+
+            <g class="crosshair"></g>
+
+            <g class="lines"></g>
+
+            <g class="x-labels"></g>
+
+            <g class="y-labels"></g>
+
+          </svg>
+
+
+        </div>
+
+
+      </div>
+
+      <div class="two-col">
+        <div class="card">
+          <div class="card-label">Lastest Activity</div>
+
+          <div class="activity-feed" id="ActivityFeeds">
+
+            <div class="activity-item">
+              <div class="activity-icon quest">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="16" height="16">
+                  <path d="M3 5.5L8 4v15l-5 1.5V5.5z"  />
+                  <path d="M9 4l6 1.5v15L9 19V4z" />
+                  <path d="M16 5.5l5-1.5v15l-5 1.5V5.5z"/>
+                </svg>
+              </div>
+              <div class="activity-content">
+                <div class="activity-text">
+                  <b>James</b> completed <span class="activity-highlight">Yes Quest</span>
+                </div>
+                <div class="activity-time">2 min ago</div>
+              </div>
+            </div>
+
+            <div class="activity-item">
+              <div class="activity-icon chat">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 108.31" fill="currenColor" stroke="currentColor" class="message-render">
+                  <path class="cls-1" d="M51.46,93.86c12.9,12.44,31.14,16.2,49.38,8.43l15.31,6-5.07-12.06c17-13.63,14-32.35,1.44-45.11A44.05,44.05,0,0,1,107.65,65,51.25,51.25,0,0,1,93.58,81,62.69,62.69,0,0,1,73.92,91a70.44,70.44,0,0,1-22.46,2.9ZM31.58,54.07a3.11,3.11,0,0,1,0-6.21H61.51a3.11,3.11,0,0,1,0,6.21Zm0-17.22a3.11,3.11,0,0,1,0-6.21H74.34a3.11,3.11,0,0,1,0,6.21ZM54.28,0h0C68.81.47,81.8,5.62,91.09,13.59c9.49,8.13,15.17,19.2,14.82,31.27v0C105.54,57,99.19,67.71,89.22,75.28,79.44,82.7,66.15,87.07,51.66,86.65A63.91,63.91,0,0,1,40,85.24a60.48,60.48,0,0,1-9.87-3L6.69,91.44l7.83-18.63A44,44,0,0,1,4,59.5,36.67,36.67,0,0,1,0,41.79C.38,29.7,6.73,19,16.7,11.4,26.48,4,39.78-.4,54.26,0Zm-.15,6.18h-.05C41,5.83,29.14,9.72,20.44,16.32,11.92,22.78,6.5,31.84,6.2,42A30.49,30.49,0,0,0,9.55,56.71,38.76,38.76,0,0,0,20.17,69.47L22,70.93,18.08,80.3l12.08-4.75,1.17.5a55.08,55.08,0,0,0,9.91,3.13,58.52,58.52,0,0,0,10.59,1.29c13,.38,25-3.51,33.66-10.12C94,63.89,99.42,54.84,99.73,44.72v0c.29-10.11-4.56-19.45-12.66-26.4C78.79,11.19,67.16,6.61,54.15,6.21Z"/>
+                </svg>
+
+              </div>
+              <div class="activity-content">
+                <div class="activity-text">
+                  <b>Miranda</b> sent a message in Community Chat
+                </div>
+                <div class="activity-time">5 min ago</div>
+              </div>
+            </div>
+
+            <div class="activity-item">
+              <div class="activity-icon join">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" lass="user-joined" fill="currentColor" aria-hidden="true" width="14.5" height="14.5">
+                    <path transform="scale(0.046875)" d="M159.131,169.721c5.635,58.338,43.367,96.867,96.871,96.867c53.502,0,91.23-38.53,96.867-96.867l7.988-63.029 C365.812,44.768,315.281,0,256.002,0c-59.281,0-109.812,44.768-104.86,106.692L159.131,169.721z"/>
+                    <path transform="scale(0.046875)" d="M463.213,422.569l-3.824-24.35c-3.203-20.417-16.035-38.042-34.475-47.361l-80.473-40.693 c-2.519-1.274-4.57-3.194-6.289-5.338c-23.297,24.632-51.6,39.12-82.15,39.12c-30.549,0-58.856-14.488-82.152-39.12 c-1.719,2.144-3.77,4.064-6.289,5.338l-80.472,40.693c-18.442,9.319-31.272,26.944-34.475,47.361l-3.826,24.35 c-1.363,8.692,0.436,21.448,8.222,27.825C67.42,458.907,105.875,512,256.002,512c150.125,0,188.578-53.093,198.988-61.606 C462.779,444.017,464.576,431.261,463.213,422.569z"/>
+                </svg> 
+              </div>
+              <div class="activity-content">
+                <div class="activity-text">
+                  <b>Alex</b> joined the platform
+                </div>
+                <div class="activity-time">12 min ago</div>
+              </div>
+            </div>
+
+            <div class="activity-item">
+              <div class="activity-icon level">
+                  <svg viewBox="0 0 24 24" width="16" height="16"   xmlns="http://www.w3.org/2000/svg" class="star" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z" />
+                  </svg>
+              </div>
+              <div class="activity-content">
+                <div class="activity-text">
+                  <b>Sophia</b> reached Level 5
+                </div>
+                <div class="activity-time">20 min ago</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="card" id="segmentsCard">
+          <div class="segments-header">
+
+            <button id="backSegments" class="seg-back">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" 
+                xmlns="http://www.w3.org/2000/svg">
+              <path d="M15 18L9 12L15 6" 
+                    stroke="currentColor" 
+                    stroke-width="2" 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round"/>
+            </svg>
+
+              Back</button>
+
+            <div class="card-label">User Segments</div>
+
+          </div>
+
+          <div class="segments-container">
+
+            <div class="segments-view" id="segmentsView">
+            <div class="segments-donut">
+              <svg viewBox="0 0 42 42" class="donut">
+
+                <!-- background -->
+                <circle cx="21" cy="21" r="15.915"
+                        fill="transparent"
+                        stroke="#1f2937"
+                        stroke-width="6"></circle>
+
+                <!-- Active -->
+                <circle class="donut-segment"
+                        data-seg="active"
+                        cx="21" cy="21" r="15.915"
+                        fill="transparent"
+                        stroke="#60a5fa"
+                        stroke-width="6"
+                        stroke-dasharray="40 60"
+                        stroke-dashoffset="0"></circle>
+
+                <!-- New -->
+                <circle class="donut-segment"
+                        data-seg="new"
+                        cx="21" cy="21" r="15.915"
+                        fill="transparent"
+                        stroke="#34d399"
+                        stroke-width="6"
+                        stroke-dasharray="25 75"
+                        stroke-dashoffset="-40"></circle>
+
+                <!-- Inactive -->
+                <circle class="donut-segment"
+                        data-seg="inactive"
+                        cx="21" cy="21" r="15.915"
+                        fill="transparent"
+                        stroke="#fbbf24"
+                        stroke-width="6"
+                        stroke-dasharray="20 80"
+                        stroke-dashoffset="-65"></circle>
+
+                <!-- Banned -->
+                <circle class="donut-segment"
+                        data-seg="banned"
+                        cx="21" cy="21" r="15.915"
+                        fill="transparent"
+                        stroke="#f87171"
+                        stroke-width="6"
+                        stroke-dasharray="15 85"
+                        stroke-dashoffset="-85"></circle>
+
+              </svg>
+
+
+              <div class="segments-legend">
+
+                <div class="seg-item" data-seg="active">
+                  <span class="dot active"></span>
+                  Active Users — 62%
+                </div>
+
+                <div class="seg-item" data-seg="new">
+                  <span class="dot new"></span>
+                  New Users — 18%
+                </div>
+
+                <div class="seg-item" data-seg="inactive">
+                  <span class="dot inactive"></span>
+                  Inactive — 15%
+                </div>
+
+                <div class="seg-item" data-seg="banned">
+                  <span class="dot banned"></span>
+                  Suspended — 5%
+                </div>
+
+              </div>
+
+            </div>
+            </div>
+
+            <div class="segments-table-view" id="segmentsTable" style="display:none">
+
+
+              <table class="analytics-table-seg">
+                <thead>
+                  <tr>
+                    <th>User</th>
+                    <th>Last Active</th>
+                    <th>Joined</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                </tbody>
+              </table>
+
+            </div>
+
+
+          </div>
+
+
+
+        </div>
+
+        <div class="card">
+          <div class="card-label">User Locations</div>
+
+          <div class="location-list">
+
+            <div class="location-row">
+              <div class="location-name">United States</div>
+              <div class="location-bar">
+                <div class="location-fill" style="width:34%"></div>
+              </div>
+              <div class="location-percent">34%</div>
+            </div>
+
+            <div class="location-row">
+              <div class="location-name">United Kingdom</div>
+              <div class="location-bar">
+                <div class="location-fill" style="width:18%"></div>
+              </div>
+              <div class="location-percent">18%</div>
+            </div>
+
+            <div class="location-row">
+              <div class="location-name">Nigeria</div>
+              <div class="location-bar">
+                <div class="location-fill" style="width:12%"></div>
+              </div>
+              <div class="location-percent">12%</div>
+            </div>
+
+            <div class="location-row">
+              <div class="location-name">India</div>
+              <div class="location-bar">
+                <div class="location-fill" style="width:9%"></div>
+              </div>
+              <div class="location-percent">9%</div>
+            </div>
+
+            <div class="location-row">
+              <div class="location-name">Others</div>
+              <div class="location-bar">
+                <div class="location-fill" style="width:27%"></div>
+              </div>
+              <div class="location-percent">27%</div>
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="two-col"
+          style="padding-bottom:40px !important;"
+          id="analyticsInsights">
+
+        <div class="insight-card analskl-card">
+
+          <div class="analskl-icon"></div>
+
+          <div class="analskl-content">
+            <div class="analskl-title"></div>
+            <div class="analskl-line"></div>
+            <div class="analskl-line long"></div>
+          </div>
+
+        </div>
+
+        <div class="insight-card analskl-card">
+
+          <div class="analskl-icon"></div>
+
+          <div class="analskl-content">
+            <div class="analskl-title"></div>
+            <div class="analskl-line"></div>
+            <div class="analskl-line long"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- QUESTS PANEL -->
+    <div class="panel" id="panel-quests">
+
+      <div class="analytics-header">
+        <div class="analytics-title">Quests Overview</div>
+
+        <div class="range-pills" id="questRangePills">
+          <button class="pill active" data-range="7d">7D</button>
+          <button class="pill" data-range="30d">30D</button>
+          <button class="pill" data-range="90d">90D</button>
+          <button class="pill" data-range="1y">1Y</button>
+        </div>
+
+      </div>
+
+
+      <!-- KPI -->
+      <div class="kpi-grid">
+
+
+
+        <div class="kpi-card">
+          <div class="kpi-title">Quests Started</div>
+          <div class="kpi-upter-api">
+            <div class="kpi-value"></div>
+            <div class="kpi-trend up"></div>
+          </div>
+        </div>
+
+
+
+        <div class="kpi-card">
+          <div class="kpi-title">Quests Completed</div>
+          <div class="kpi-upter-api">
+            <div class="kpi-value"></div>
+            <div class="kpi-trend up"></div>
+          </div>
+        </div>
+
+
+
+        <div class="kpi-card">
+          <div class="kpi-title">Completion Rate</div>
+          <div class="kpi-upter-api">
+            <div class="kpi-value"></div>
+            <div class="kpi-trend down"></div>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-title">Avg Completion Time</div>
+          <div class="kpi-upter-api">
+            <div class="kpi-value"></div>
+            <div class="kpi-trend up"></div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+      <!-- QUEST GROWTH -->
+      <div class="card"  style="margin-bottom:14px">
+        <div class="card-label">Quest Growth</div>
+
+        <div class="chart-legend" id="questLegend">
+          <div class="legend-item active" data-metric="started">
+            <span class="legend-dot total"></span>
+            <span>Started</span>
+          </div>
+
+          <div class="legend-item active" data-metric="completed">
+            <span class="legend-dot active"></span>
+            <span>Completed</span>
+          </div>
+
+          <div class="legend-item active" data-metric="abandoned">
+            <span class="legend-dot new"></span>
+            <span>Dropoff</span>
+          </div>
+        </div>
+
+        <div class="growth-chart">
+          <div class="chart-tooltip" id="questChartTooltip"></div>
+
+          <svg id="questGrowthChart">
+
+            <g class="grid"></g>
+
+            <g class="crosshair"></g>
+
+            <g class="lines"></g>
+
+            <g class="x-labels"></g>
+
+            <g class="y-labels"></g>
+
+          </svg>
+        </div>
+      </div>
+
+
+
+
+
+      <!-- TWO COLUMN -->
+      <div class="two-col">
+
+        <!-- ACTIVITY -->
+        <div class="card">
+          <div class="card-label">Quest Activity</div>
+
+          <div class="activity-feed" id="QuestActivityfee">
+
+            <div class="activity-item">
+              <div class="activity-icon quest">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 113.48 122.88" width="16" height="16">
+                  <path fill="#f39d00" d="M3.21,18.74H19.86q0-4,.06-8.26V0H93.05V10.49c0,2.92,0,5.66,0,8.26h17.24a3.08,3.08,0,0,1,3.07,2.93,77.67,77.67,0,0,1-.4,13.9A34,34,0,0,1,109.11,48a21.77,21.77,0,0,1-8.8,8.6A31.91,31.91,0,0,1,86.41,60C83.14,65.43,78.78,68,73.68,72.67c-6.17,4.71-10.81,8.26-7.2,19.13h5.39a7.84,7.84,0,0,1,7.82,7.82v3.15h.77A7.69,7.69,0,0,1,85.91,105h0a7.67,7.67,0,0,1,2.26,5.45v5.23a1.77,1.77,0,0,1-1.77,1.77H26.58a1.77,1.77,0,0,1-1.77-1.77v-5.23A7.66,7.66,0,0,1,27.07,105h0a7.66,7.66,0,0,1,5.44-2.26h.77V99.62a7.75,7.75,0,0,1,2.3-5.51v0a7.81,7.81,0,0,1,5.51-2.29h6.06c3.22-10.26-1-13.58-6.83-18.17A44.47,44.47,0,0,1,27.34,60,31.87,31.87,0,0,1,13,56.54a21.47,21.47,0,0,1-8.73-8.6A34.07,34.07,0,0,1,.51,35.58,78.1,78.1,0,0,1,.13,21.9v-.08a3.08,3.08,0,0,1,3.09-3.08ZM92.71,30a121.67,121.67,0,0,1-2,18,15.17,15.17,0,0,0,5-1.9,10.49,10.49,0,0,0,3.69-3.89,18,18,0,0,0,1.93-6,45.37,45.37,0,0,0,.5-6.25H92.71ZM20.12,30H12a49.78,49.78,0,0,0,.45,6.27,18.41,18.41,0,0,0,1.8,6,10.13,10.13,0,0,0,3.57,3.88A14.57,14.57,0,0,0,22.54,48a92,92,0,0,1-2.42-18Z"/>
+                  
+                  <path fill="#f9c809" d="M20.08,21.82H3.21C2.75,31.1,3.34,40,7,46.43c3.43,6.11,9.7,10.15,20.62,10.46a27.9,27.9,0,0,1-3.48-5.51c-6.56-.88-10.36-3.59-12.54-7.67S8.94,34.32,8.94,28.14a1.23,1.23,0,0,1,1.23-1.23h9.91V21.82Zm72.77,5.1h10.82a1.23,1.23,0,0,1,1.23,1.22c0,6.2-.56,11.54-2.84,15.6s-6.16,6.75-12.7,7.64a25.38,25.38,0,0,1-3.69,5.52c11-.29,17.29-4.33,20.77-10.45,3.67-6.47,4.29-15.34,3.84-24.62H92.85v5.09Z"/>
+                  
+                  <path fill="#222" d="M79.69,102.76h.77A7.69,7.69,0,0,1,85.91,105h0a7.67,7.67,0,0,1,2.26,5.45v10.63a1.77,1.77,0,0,1-1.77,1.77H26.58a1.77,1.77,0,0,1-1.77-1.77V110.48A7.66,7.66,0,0,1,27.07,105h0a7.66,7.66,0,0,1,5.44-2.26H79.69Z"/>
+                  
+                  <path fill="#ead79e" d="M70.64,108H35.72a4.22,4.22,0,0,0-3,1.25h0a4.26,4.26,0,0,0-1.25,3v5.28H81.55v-5.28a4.26,4.26,0,0,0-1.26-3,4.31,4.31,0,0,0-3-1.26Z"/>
+                  
+                  <path fill="#f8b705" d="M50.71,93h6V75.21c-22.17-7.88-24.26-35-29.55-72.57H22.53V29.41C23,39.6,24.68,47.14,27,52.91a38.19,38.19,0,0,0,8.39,12.8,68.65,68.65,0,0,0,6.71,5.78C49.11,77,54.19,81,50.71,93Z"/>
+                  
+                  <path fill="#fac809" d="M56.71,93H63c-3.88-12.71,1.68-17,9-22.55,8.05-6.14,18.5-14.12,18.5-40.35V2.64H27.16C30.58,26.92,32.66,46.81,39.67,60A39.14,39.14,0,0,0,49,71.13a29.3,29.3,0,0,0,5.47,3.17,19.1,19.1,0,0,0,2.21.74v.15l.07,0V93Z"/>
+                  
+                  <path fill="#f39d00" d="M58.26,20.13,61.06,27l7.39.56a1.9,1.9,0,0,1,1,3.41l-5.59,4.74,1.76,7.18a1.9,1.9,0,0,1-1.41,2.29,1.88,1.88,0,0,1-1.49-.26L56.5,41l-6.29,3.89a1.9,1.9,0,0,1-2.62-.62,1.85,1.85,0,0,1-.23-1.44l1.75-7.18-5.66-4.8a1.91,1.91,0,0,1,1.09-3.35L51.93,27l2.81-6.84a1.91,1.91,0,0,1,3.52,0Z"/>
+                  
+                  <polygon fill="#fff" points="56.5 20.86 59.75 28.78 68.31 29.43 61.76 34.98 63.79 43.3 56.5 38.79 49.21 43.3 51.24 34.98 44.69 29.43 53.24 28.78 56.5 20.86"/>
+                  
+                  <path fill="#fff" fill-rule="evenodd" d="M76.62,47.62l-.07.1a3.79,3.79,0,0,0-5.17.83l-.1-.08a3.52,3.52,0,0,0,.62-2.75,3.57,3.57,0,0,0-1.44-2.42,26.79,26.79,0,0,0,2.82.53,3.58,3.58,0,0,0,2.42-1.45l.1.07a3.81,3.81,0,0,0,.82,5.17ZM84.27,34.8l-.07.1a3.78,3.78,0,0,0-5.17.82l-.1-.07a3.79,3.79,0,0,0-.83-5.17l.07-.1a3.8,3.8,0,0,0,5.18-.83l.09.08a3.79,3.79,0,0,0,.83,5.17Zm.06-13.56-.13.18a6.94,6.94,0,0,0-9.46,1.51l-.18-.13a6.5,6.5,0,0,0,1.14-5,6.49,6.49,0,0,0-2.65-4.43l.13-.18a6.94,6.94,0,0,0,9.46-1.51l.18.13a6.5,6.5,0,0,0-1.14,5,6.51,6.51,0,0,0,2.65,4.43Z"/>
+                </svg>
+
+              </div>
+              <div class="activity-content">
+                <div class="activity-text">
+                  <b>James</b> completed <span class="activity-highlight">Dragon Hunt</span>
+                </div>
+                <div class="activity-time">2 min ago</div>
+              </div>
+            </div>
+
+            <div class="activity-item">
+              <div class="activity-icon join">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24" style="flex-shrink: 0"
+                    width="16"
+                    height="16"
+                    fill="#e67e22"
+                    stroke="#e67e22"
+                    stroke-width="2"
+                    stroke-linejoin="round"
+                    stroke-linecap="round">
+                <path d="M13 3 
+                        C12.6 2.5,12 2.5,11.7 3 
+                        L5.5 12.2 
+                        C5.2 12.7,5.5 13.3,6 13.3 
+                        H10 
+                        V21 
+                        C10 21.5,10.7 21.7,11.1 21.3 
+                        L18.2 12.3 
+                        C18.6 11.8,18.3 11.2,17.7 11.2 
+                        H13 
+                        V3 Z"/>
+                </svg> 
+              </div>
+              <div class="activity-content">
+                <div class="activity-text">
+                  <b>Maria</b> started <span class="activity-highlight">Discord Join Quest</span>
+                </div>
+                <div class="activity-time">5 min ago</div>
+              </div>
+            </div>
+
+            <div class="activity-item">
+              <div class="activity-icon chat">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 508.33">
+                  <path fill="#EB0100" fill-rule="evenodd" d="M317.99 323.62c-17.23-19.89-35.3-40.09-54.23-60.09-62.06 59.35-119.53 126.18-161.12 201.73-51.02 92.68-126.31 16.84-92.15-50.33 27.46-61.28 98.07-146.3 182.94-220.07-46.74-41.72-97.97-79.34-154.08-107.07C-42.76 47.2 19.97-20.82 79.37 6.16c50.04 19.82 119.09 70.85 182.26 134.32 63.11-45.86 129.55-81.8 189.45-95.87 13-3.06 50.95-11.33 59.69 1.04 3.29 4.67-.33 11.68-7.08 19.29-22.99 25.96-84.78 67.12-114.72 90.82-21.61 17.11-43.55 34.99-65.37 53.71 23.2 28.81 43.94 58.64 60.47 88.17 14.37 25.66 25.55 51.1 32.42 75.46 3.14 11.13 11.75 43.64 1.38 51.66-3.91 3.03-10.11.16-16.95-5.38-23.34-18.89-61.29-70.77-82.93-95.76z"/>
+                </svg>
+
+              </div>
+              <div class="activity-content">
+                <div class="activity-text">
+                  <b>Alex</b> failed <span class="activity-highlight">Referral Quest</span>
+                </div>
+                <div class="activity-time">9 min ago</div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- QUEST SEGMENTS -->
+        <div class="card" id="Questsegmentation">
+
+          <div class="card-label">Quest Segments</div>
+
+          <div class="segments-donut">
+
+            <svg viewBox="0 0 42 42" class="donut">
+
+              <circle cx="21" cy="21" r="15.915"
+                      fill="transparent"
+                      stroke="#1f2937"
+                      stroke-width="6"></circle>
+
+              <circle cx="21" cy="21" r="15.915"
+                      fill="transparent"
+                      stroke="#60a5fa"
+                      stroke-width="6"
+                      stroke-dasharray="45 55"></circle>
+
+              <circle cx="21" cy="21" r="15.915"
+                      fill="transparent"
+                      stroke="#34d399"
+                      stroke-width="6"
+                      stroke-dasharray="30 70"
+                      stroke-dashoffset="-45"></circle>
+
+              <circle cx="21" cy="21" r="15.915"
+                      fill="transparent"
+                      stroke="#fbbf24"
+                      stroke-width="6"
+                      stroke-dasharray="15 85"
+                      stroke-dashoffset="-75"></circle>
+
+              <circle cx="21" cy="21" r="15.915"
+                      fill="transparent"
+                      stroke="#f87171"
+                      stroke-width="6"
+                      stroke-dasharray="10 90"
+                      stroke-dashoffset="-90"></circle>
+
+            </svg>
+
+
+            <div class="segments-legend quest">
+
+              <div class="seg-item" data-seg="easy">
+                <span class="dot c1"></span>
+                Easy — 45%
+              </div>
+
+              <div class="seg-item" data-seg="medium">
+                <span class="dot c2"></span>
+                Medium — 30%
+              </div>
+
+              <div class="seg-item" data-seg="hard">
+                <span class="dot c3"></span>
+                Hard — 15%
+              </div>
+
+
+
+            </div>
+
+          </div>
+          <div class="ai-explain-box">
+
+            <button class="ai-btn-seg" id="explainSegmentsBtn">
+              <svg height="16px" width="16px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                <path d="M494.696,155.436l-75.664-19.918c-24.946-6.56-44.421-26.036-50.982-50.963L348.142,8.892
+                C346.769,3.647,342.032,0,336.618,0c-5.424,0-10.161,3.647-11.542,8.892l-19.908,75.664
+                c-6.56,24.927-26.036,44.402-50.982,50.963l-75.664,19.918c-5.245,1.381-8.892,6.109-8.892,11.533
+                c0,5.424,3.647,10.151,8.892,11.534l75.664,19.917c24.946,6.552,44.422,26.036,50.982,50.963
+                l19.908,75.665c1.381,5.245,6.119,8.892,11.542,8.892c5.414,0,10.151-3.647,11.524-8.892
+                l19.907-75.665c6.561-24.927,26.036-44.411,50.982-50.963l75.664-19.917c5.244-1.382,8.892-6.11,8.892-11.534
+                C503.587,161.546,499.94,156.818,494.696,155.436z"/>
+                <path d="M207.001,402.949l-46.226-12.163c-15.236-4.004-27.136-15.904-31.14-31.13l-12.172-46.226
+                c-0.837-3.215-3.723-5.432-7.041-5.432c-3.308,0-6.203,2.218-7.04,5.432l-12.163,46.226
+                c-4.014,15.226-15.913,27.126-31.149,31.13l-46.226,12.163c-3.196,0.846-5.432,3.741-5.432,7.049
+                c0,3.309,2.237,6.204,5.432,7.049l46.226,12.163c15.236,4.004,27.136,15.904,31.149,31.131
+                l12.163,46.226c0.836,3.215,3.732,5.433,7.04,5.433c3.318,0,6.204-2.218,7.041-5.433
+                l12.172-46.226c4.004-15.227,15.904-27.127,31.14-31.131l46.226-12.163c3.196-0.845,5.432-3.74,5.432-7.049
+                C212.434,406.69,210.197,403.795,207.001,402.949z"/>
+              </svg>
+
+              Explain with AI
+            </button>
+
+            <div class="ai-explain-content" id="segmentsExplain" style="display:none;">
+              Most users are doing <b>Easy</b> quests (45%), which is good for beginners.
+              Some users try <b>Medium</b> quests (30%), showing they want more challenge.
+              Only a few users do <b>Hard</b> quests (15%), so they may feel too difficult.
+              About <b>10%</b> of users fail to complete quests.
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- QUEST PERFORMANCE TABLE -->
+        <div class="card" id="Topperformingquests">
+
+          <div class="card-label">Top Performing Quests</div>
+
+          <table class="analytics-table-seg">
+
+            <thead>
+              <tr>
+                <th>Quest</th>
+                <th>Starts</th>
+                <th>Completed</th>
+                <th>Rate</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+
+            <tbody>
+
+              <tr>
+                <td>Dragon Hunt</td>
+                <td>1,240</td>
+                <td>980</td>
+                <td>79%</td>
+                <td><span class="badge active">High</span></td>
+              </tr>
+
+              <tr>
+                <td>Discord Join</td>
+                <td>980</td>
+                <td>720</td>
+                <td>73%</td>
+                <td><span class="badge new">Good</span></td>
+              </tr>
+
+              <tr>
+                <td>Referral Quest</td>
+                <td>760</td>
+                <td>320</td>
+                <td>42%</td>
+                <td><span class="badge inactive">Needs Fix</span></td>
+              </tr>
+
+            </tbody>
+
+          </table>
+
+        </div>
+      </div>
+
+
+
+        <!-- QUEST LOCATIONS -->
+
+
+
+
+      <div class="two-col" style="padding-bottom: 40px !important;">
+        <div class="card" id="Quest-Location">
+          <div class="card-label">Quest Participation</div>
+
+          <div class="location-list">
+
+            <div class="location-row">
+              <div class="location-name">United States</div>
+              <div class="location-bar">
+                <div class="location-fill" style="width:28%"></div>
+              </div>
+              <div class="location-percent">28%</div>
+            </div>
+
+            <div class="location-row">
+              <div class="location-name">Nigeria</div>
+              <div class="location-bar">
+                <div class="location-fill" style="width:22%"></div>
+              </div>
+              <div class="location-percent">22%</div>
+            </div>
+
+            <div class="location-row">
+              <div class="location-name">India</div>
+              <div class="location-bar">
+                <div class="location-fill" style="width:14%"></div>
+              </div>
+              <div class="location-percent">14%</div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="card" id="top-reviewers">
+          <div class="card-label">Top Reviewers</div>
+
+          <div class="reviewer-list">
+
+            <div class="reviewer-row">
+              <img src="https://i.pravatar.cc/40?img=12" class="reviewer-avatar">
+              <div class="reviewer-info">
+                <div class="reviewer-name">Sarah Chen</div>
+                <div class="reviewer-meta">Reviewed 10,248 quests</div>
+              </div>
+            </div>
+
+            <div class="reviewer-row">
+              <img src="https://i.pravatar.cc/40?img=32" class="reviewer-avatar">
+              <div class="reviewer-info">
+                <div class="reviewer-name">David Kim</div>
+                <div class="reviewer-meta">Reviewed 8,931 quests</div>
+              </div>
+            </div>
+
+            <div class="reviewer-row">
+              <img src="https://i.pravatar.cc/40?img=45" class="reviewer-avatar">
+              <div class="reviewer-info">
+                <div class="reviewer-name">Amina Bello</div>
+                <div class="reviewer-meta">Reviewed 7,420 quests</div>
+              </div>
+            </div>
+
+            <div class="reviewer-row">
+              <img src="https://i.pravatar.cc/40?img=15" class="reviewer-avatar">
+              <div class="reviewer-info">
+                <div class="reviewer-name">Lucas Martin</div>
+                <div class="reviewer-meta">Reviewed 6,805 quests</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+    <!-- CHATS PANEL -->
+    <div class="panel" id="panel-chats">
+
+      <div class="analytics-header">
+        <div class="analytics-title">Community Chats Overview</div>
+
+        <div class="range-pills">
+          <button class="pill active" data-range="7d">7D</button>
+          <button class="pill" data-range="30d">30D</button>
+          <button class="pill" data-range="90d">90D</button>
+          <button class="pill" data-range="1y">1Y</button>
+        </div>
+      </div>
+
+
+      <!-- KPI -->
+      <div class="kpi-grid">
+
+        <div class="kpi-card">
+          <div class="kpi-title">Total Messages</div>
+          <div class="kpi-upter-api">
+            <div class="kpi-value" id="chatTotalMsg"></div>
+            <div class="kpi-trend up"></div>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-title">Active Members</div>
+          <div class="kpi-upter-api">
+            <div class="kpi-value" id="chatActiveUsers"></div>
+            <div class="kpi-trend up"></div>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-title">Messages per Member</div>
+          <div class="kpi-upter-api">
+            <div class="kpi-value" id="chatMsgPerMember"></div>
+            <div class="kpi-trend up"></div>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-title">Engagement Rate</div>
+          <div class="kpi-upter-api">
+            <div class="kpi-value" id="chatEngagementRate"></div>
+            <div class="kpi-trend up"></div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <!-- MESSAGE ACTIVITY CHART -->
+      <div class="card" style="margin-bottom:14px">
+        <div class="card-label">Message Activity</div>
+        <div class="chart-legend">
+
+          <div class="legend-item" data-metric="messages">
+            <span class="legend-dot messages"></span>
+            <span>Messages</span>
+          </div>
+
+          <div class="legend-item" data-metric="members">
+            <span class="legend-dot members"></span>
+            <span>Active Members</span>
+          </div>
+
+          <div class="legend-item" data-metric="engagement">
+            <span class="legend-dot engagement"></span>
+            <span>Message per member</span>
+          </div>
+
+        </div>
+
+      
+        <div class="growth-chart">
+          
+          <div class="chart-tooltip" id="chat-chartTooltip"></div>
+
+          <svg id="chatGrowthChart">
+
+            <g class="grid"></g>
+
+            <g class="crosshair"></g>
+
+            <g class="lines"></g>
+
+            <g class="x-labels"></g>
+
+            <g class="y-labels"></g>
+
+          </svg>
+        </div>
+
+
+      </div>
+
+
+
+      <div class="two-col">
+
+        <!-- TOP CHANNELS -->
+        <div class="card">
+          <div class="card-label">Top Channels</div>
+
+          <div class="activity-feed" id="topChannelsContainer">
+
+            <div class="activity-item">
+              <div class="activity-content">
+                <div class="activity-text">
+                  #general — <span class="activity-highlight">12,430 msgs</span>
+                </div>
+                <div class="activity-time">Most active</div>
+              </div>
+            </div>
+
+            <div class="activity-item">
+              <div class="activity-content">
+                <div class="activity-text">
+                  #quests — <span class="activity-highlight">9,120 msgs</span>
+                </div>
+                <div class="activity-time">High engagement</div>
+              </div>
+            </div>
+
+            <div class="activity-item">
+              <div class="activity-content">
+                <div class="activity-text">
+                  #support — <span class="activity-highlight">4,010 msgs</span>
+                </div>
+                <div class="activity-time">Growing</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+        <!-- CATEGORY BREAKDOWN -->
+        <div class="card">
+          <div class="card-label">Category Distribution</div>
+
+          <div class="location-list" id="categoryDistributionContainer">
+
+            <div class="location-row">
+              <div class="location-name">General</div>
+              <div class="location-bar">
+                <div class="location-fill" style="width:40%"></div>
+              </div>
+              <div class="location-percent">40%</div>
+            </div>
+
+            <div class="location-row">
+              <div class="location-name">Gaming</div>
+              <div class="location-bar">
+                <div class="location-fill" style="width:25%"></div>
+              </div>
+              <div class="location-percent">25%</div>
+            </div>
+
+            <div class="location-row">
+              <div class="location-name">Support</div>
+              <div class="location-bar">
+                <div class="location-fill" style="width:20%"></div>
+              </div>
+              <div class="location-percent">20%</div>
+            </div>
+
+            <div class="location-row">
+              <div class="location-name">Others</div>
+              <div class="location-bar">
+                <div class="location-fill" style="width:15%"></div>
+              </div>
+              <div class="location-percent">15%</div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <div class="two-col" style="padding-bottom: 40px !important;">
+        <div class="card">
+          <div class="card-label">Top Members</div>
+
+          <div class="reviewer-list" id="topMembersContainer">
+
+            <div class="reviewer-row">
+              <img src="https://i.pravatar.cc/40?img=21" class="reviewer-avatar">
+              <div class="reviewer-info">
+                <div class="reviewer-name">John Doe</div>
+                <div class="reviewer-meta">Sent 12,430 messages</div>
+              </div>
+            </div>
+
+            <div class="reviewer-row">
+              <img src="https://i.pravatar.cc/40?img=33" class="reviewer-avatar">
+              <div class="reviewer-info">
+                <div class="reviewer-name">Amina Bello</div>
+                <div class="reviewer-meta">Sent 9,820 messages</div>
+              </div>
+            </div>
+
+            <div class="reviewer-row">
+              <img src="https://i.pravatar.cc/40?img=45" class="reviewer-avatar" loading="lazy" decoding="async">
+              <div class="reviewer-info">
+                <div class="reviewer-name">Carlos Vega</div>
+                <div class="reviewer-meta">Sent 8,110 messages</div>
+              </div>
+            </div>
+
+            <div class="reviewer-row">
+              <img src="https://i.pravatar.cc/40?img=52" class="reviewer-avatar" loading="lazy" decoding="async">
+              <div class="reviewer-info">
+                <div class="reviewer-name">Sarah Kim</div>
+                <div class="reviewer-meta">Sent 7,540 messages</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        
+        <div class="card" style="margin-top:14px;">
+          <div class="card-label">Recent Activity</div>
+
+          <div class="activity-feed" id="recentActivityContainer">
+
+            <div class="activity-item">
+              <div class="activity-icon chat"></div>
+              <div class="activity-content">
+                <div class="activity-text">
+                  <b>Mike</b> sent 12 messages in #general
+                </div>
+                <div class="activity-time">2 min ago</div>
+              </div>
+            </div>
+
+            <div class="activity-item">
+              <div class="activity-icon chat"></div>
+              <div class="activity-content">
+                <div class="activity-text">
+                  <b>Sara</b> created channel #events
+                </div>
+                <div class="activity-time">10 min ago</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+    <!-- AI MODE PANEL -->
+    <div class="panel" id="i">panel-a
+      <div class="placeholder-panel">
+        <div class="big-icon">🤖</div>
+        <p>AI Mode Analytics</p>
+        <span>Coming soon</span>
+      </div>
+    </div>
+  </div>
+</div>

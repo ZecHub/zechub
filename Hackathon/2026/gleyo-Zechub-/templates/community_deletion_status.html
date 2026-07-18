@@ -1,0 +1,1004 @@
+ 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="csrf-token" content="{{ csrf_token() }}">
+  <title>Community Deletion Scheduled</title>
+  <link rel="shortcut icon" href="https://zupdpwnloewdkjqsymdm.supabase.co/storage/v1/object/public/uploads/communities/7/logos/511f4996-5748-4f1f-b74c-5d5c33f7124c.png">
+
+  <style>
+    :root {
+      --border: #2f2f4a;
+      --text-main-items: #e5e7ebdf;
+      --text-muted: #bbbfc7;
+      --text-muted-bg: #b4b8c0;
+
+      --danger: #ef4444;
+      --danger-soft: rgba(239, 68, 68, 0.18);
+    }
+
+    *{
+      box-sizing: border-box;
+      font-family: 'Outfit', sans-serif; 
+      -webkit-tap-highlight-color: transparent; 
+      -webkit-text-size-adjust: 100%;
+      text-decoration: none;
+    }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #1e1e2f;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
+      display: flex;
+      padding: 0 14px;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-main-items);
+    }
+      body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background-image: radial-gradient(
+          rgba(255,255,255,0.03) 1px,
+          transparent 1px
+      );
+      background-size: 5px 5px;
+      pointer-events: none;
+      }
+
+    .card {
+      width: 100%;
+      max-width: 520px;
+      background: rgba(34, 34, 54, 0.448);
+      backdrop-filter: blur(14px);
+
+      border: 0.9px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    .danger-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 13px;
+      background: var(--danger-soft);
+      color: var(--danger);
+      margin-bottom: 14px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--text-main-items);
+    }
+
+    .community-name {
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border);
+      font-size: 14px;
+      margin: 8px 0 16px;
+      color: var(--text-main-items);
+    }
+
+    .muted {
+      color: var(--text-muted);
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .actions {
+      display: flex;
+      gap: 12px;
+      margin-top: 26px;
+    }
+
+    .btn {
+      flex: 1;
+      padding: 12px 14px;
+      border-radius: 12px;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.03);
+      color: var(--text-main-items);
+
+      transition: background .15s ease, border-color .15s ease;
+    }
+
+    .btn:hover {
+      background: rgba(255,255,255,0.06);
+    }
+
+    .btn-danger {
+      background: rgba(239, 68, 68, 0.12);
+      border-color: rgba(239, 68, 68, 0.45);
+      color: #fecaca;
+    }
+
+    .btn-danger:hover {
+      background: rgba(239, 68, 68, 0.18);
+    }
+
+  .countdown {
+    display: flex;
+    gap: 8px;
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--danger);
+    font-variant-numeric: tabular-nums; /* no jumping */
+  }
+
+  .unit {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+  }
+
+  .num {
+    display: inline-flex;
+    min-width: 2ch;          /* ALWAYS 2 digits */
+    text-align: center;
+    position: relative;
+  }
+
+  .label {
+    font-size: 14px;
+    color: var(--text-muted);
+  }
+
+  .sep {
+    opacity: 0.6;
+  }
+
+  /* animation */
+  .flip {
+    animation: flip 0.25s ease;
+  }
+
+  @keyframes flip {
+    from {
+      transform: translateY(-20%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .site-logo {
+      position: fixed;
+      top: 18px;
+      left: 18px;
+      z-index: 10;
+      outline: none;
+      color: var(--text-muted);
+      text-decoration: none;
+      gap: 12px;
+      display: inline-flex;
+      align-items: center;
+  }
+
+  .site-logo img {
+    height: 48px; 
+    width: 48px;
+    border-radius: 4px;
+    opacity: 0.9;
+    transition: opacity 0.15s ease;
+  }
+
+  .site-logo:hover img {
+    opacity: 1;
+  }
+
+
+
+
+  </style>
+</head>
+<body>
+<a href="/" class="site-logo">
+  <img src="https://zupdpwnloewdkjqsymdm.supabase.co/storage/v1/object/public/uploads/communities/7/logos/511f4996-5748-4f1f-b74c-5d5c33f7124c.png" loading="lazy" decoding="async">
+</a>
+
+
+<div class="card">
+    <div class="danger-badge">
+    ⚠️ Scheduled for deletion
+    </div>
+
+    <h1>Community Deletion Scheduled</h1>
+
+    <div class="community-name">
+    {{ community.name }}
+    </div>
+
+    <p class="muted">
+    This community is marked for permanent deletion.
+    </p>
+
+    <div class="countdown" id="countdown">
+    <span class="unit">
+        <span class="num">
+        <span class="digit" id="d-tens">0</span>
+        <span class="digit" id="d-units">0</span>
+        </span><span class="label">d</span>
+    </span>
+
+    <span class="sep">:</span>
+
+    <span class="unit">
+        <span class="num">
+        <span class="digit" id="h-tens">0</span>
+        <span class="digit" id="h-units">0</span>
+        </span><span class="label">h</span>
+    </span>
+
+    <span class="sep">:</span>
+
+    <span class="unit">
+        <span class="num">
+        <span class="digit" id="m-tens">0</span>
+        <span class="digit" id="m-units">0</span>
+        </span><span class="label">m</span>
+    </span>
+
+    <span class="sep">:</span>
+
+    <span class="unit">
+        <span class="num">
+        <span class="digit" id="s-tens">0</span>
+        <span class="digit" id="s-units">0</span>
+        </span><span class="label">s</span>
+    </span>
+    </div>
+
+
+    <p class="muted">
+    This countdown is shown in your local timezone.
+    </p>
+
+    <div class="actions">
+    <button class="btn btn-danger" onclick="openUndoCommunityDeleteModal(event)">
+        Undo Deletion
+    </button>
+
+     <a href="/" class="btn" style="align-items: center; display: flex; justify-content: center;">
+        Go Back
+     </a>
+    </div>
+</div>
+
+<script>
+  const deleteAt = new Date("{{ delete_at_iso }}Z");
+  window.CURRENT_COMMUNITY_SLUG = "{{ community.slug }}";
+  let deleteCommModal = null
+
+  const digits = {
+    d: [document.getElementById("d-tens"), document.getElementById("d-units")],
+    h: [document.getElementById("h-tens"), document.getElementById("h-units")],
+    m: [document.getElementById("m-tens"), document.getElementById("m-units")],
+    s: [document.getElementById("s-tens"), document.getElementById("s-units")]
+  };
+
+  function updateDigit(el, value) {
+    if (el.textContent !== value) {
+      el.textContent = value;
+      el.classList.remove("flip");
+      void el.offsetWidth;
+      el.classList.add("flip");
+    }
+  }
+
+  function setUnit(unit, value) {
+    const str = String(value).padStart(2, "0");
+    updateDigit(digits[unit][0], str[0]); // tens
+    updateDigit(digits[unit][1], str[1]); // units
+  }
+
+  function updateCountdown() {
+    let diff = deleteAt - new Date();
+
+    if (diff <= 0) {
+      document.getElementById("countdown").textContent =
+        "Deletion in progress…";
+      return;
+    }
+
+    const days = Math.floor(diff / 86400000);
+    diff %= 86400000;
+
+    const hours = Math.floor(diff / 3600000);
+    diff %= 3600000;
+
+    const minutes = Math.floor(diff / 60000);
+    diff %= 60000;
+
+    const seconds = Math.floor(diff / 1000);
+
+    setUnit("d", days);
+    setUnit("h", hours);
+    setUnit("m", minutes);
+    setUnit("s", seconds);
+  }
+
+  updateCountdown();
+  setInterval(updateCountdown, 1000);
+
+
+  const WaitSvg = `
+  <svg
+    viewBox="0 0 59.066 59.066"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M52.846,27.12C52.415,26.398,51.691,26,50.793,26c-1.667,0.006-3.673,0.667-5.235,1.724
+      c-1.441,0.975-3.53,2.782-5.293,5.863c-0.331,0.578-0.874,0.97-1.455,1.063c-0.002-0.134-0.001-0.287-0.001-0.431
+      c0-0.31,0.001-0.678-0.012-1.084V11c0-2.206-1.794-4-4-4s-4,1.794-4,4v15.5c0,0.275-0.225,0.5-0.5,0.5
+      s-0.5-0.225-0.5-0.5V4c0-2.206-1.794-4-4-4s-4,1.794-4,4v22.5c0,0.275-0.225,0.5-0.5,0.5
+      s-0.5-0.225-0.5-0.5v-18c0-1.93-1.57-3.5-3.5-3.5s-3.5,1.57-3.5,3.5v20c0,0.275-0.225,0.5-0.5,0.5
+      s-0.5-0.225-0.5-0.5V16c0-1.93-1.57-3.5-3.51-3.5c-1.93,0-3.5,1.57-3.5,3.5l0.002,27.197
+      c0.968,13.983,9.545,15.869,17.808,15.869c6.846,0,12.995-3.396,16.027-8.824c0.39-0.63,1.445-2.288,2.696-4.254
+      c3.128-4.913,5.748-9.041,6.135-9.775c0.863-1.634,1.826-2.911,2.784-3.693c0.867-0.708,1.397-1.611,1.828-2.404
+      C53.289,29.704,53.483,28.189,52.846,27.12z"/>
+  </svg>
+
+  `;
+
+
+  const NewCodeSvgSent= `
+  <svg viewBox="0 0 26.001 26.001" xmlns="http://www.w3.org/2000/svg">
+    <path d="M11.002,12.998C11,14.102,11.894,14.999,12.998,15c1.104,0,2-0.895,2.002-1.997
+      c0.002-1.106-0.893-2.001-1.996-2.001C11.898,11,11.002,11.892,11.002,12.998z"/>
+    
+    <path d="M13.573,13.539c0,0,0.001-0.002,0.001-0.004c0.39-0.39,1.101-1.715,0.72-2.053
+      c0,0-10.61-8.467-10.929-8.148s8.116,10.96,8.116,10.96
+      C11.822,14.673,13.184,13.927,13.573,13.539z"/>
+    
+    <circle cx="13" cy="2.001" r="2.001"/>
+    
+    <path d="M17.288,1.798c-0.688,1.154,0.396,1.861,0.723,2.04
+      c3.244,1.776,5.453,5.21,5.453,9.163
+      c0,5.77-4.693,10.463-10.463,10.463S2.536,18.771,2.536,13.001
+      c0-1.326,0.253-2.594,0.707-3.76
+      C3.303,9.09,3.872,8.086,2.757,7.384
+      c-0.764-0.48-1.512,0.062-1.662,0.404
+      C0.392,9.384,0,11.146,0,13.001
+      c0,7.18,5.82,13,13,13s13-5.82,13-13
+      c0-5.113-2.959-9.528-7.253-11.646
+      C18.657,1.31,17.768,0.991,17.288,1.798z" />
+  </svg>
+
+  `
+
+  function showOTPStatus(container, html, type = "wait") {
+    const statusEl = container.querySelector("#resendStatus");
+    if (!statusEl) return;
+
+    clearTimeout(statusEl._timer);
+
+    statusEl.className = `resend-status show ${type}`;
+    statusEl.innerHTML = html;
+
+    statusEl._timer = setTimeout(() => {
+      statusEl.classList.remove("show");
+
+      setTimeout(() => {
+        statusEl.innerHTML = "";
+        statusEl.className = "resend-status";
+      }, 400);
+    }, 5000);
+  }
+
+
+  function openUndoCommunityDeleteModal(e) {
+    e?.preventDefault();
+    e?.stopPropagation();
+
+    if (deleteCommModal) {
+      deleteCommModal.classList.add("show");
+      renderUndoCommunityDeleteOTP();
+      return;
+    }
+
+    // CREATE MODAL
+    deleteCommModal = document.createElement("div");
+    deleteCommModal.className = "modal-emailch";
+    deleteCommModal.id = "deleteCommunityModal";
+
+    deleteCommModal.innerHTML = `
+      <div class="modal-backdrop-email"></div>
+    `;
+
+    document.body.appendChild(deleteCommModal);
+
+    // 👈 IMPORTANT
+    requestAnimationFrame(() => {
+      deleteCommModal.classList.add("show");
+    });
+
+    // close on backdrop click
+    deleteCommModal.addEventListener("click", (e) => {
+      if (!e.target.closest(".modal-backdrop-email")) {
+        closeDeleteCommunityModal();
+      }
+    });
+
+    // render OTP
+    renderUndoCommunityDeleteOTP();
+
+    // send OTP immediately
+    fetch("/community/send-undo-delete-otp", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "X-CSRFToken": csrfToken
+      },
+      body: JSON.stringify({
+        slug: window.CURRENT_COMMUNITY_SLUG
+      })
+    });
+  }
+
+
+
+  function closeDeleteCommunityModal() {
+    if (!deleteCommModal) return;
+
+    deleteCommModal.classList.remove("show");
+
+    setTimeout(() => {
+      deleteCommModal.remove();
+      deleteCommModal = null;
+    }, 200); // match your CSS transition
+  }
+
+
+
+
+
+  function renderUndoCommunityDeleteOTP() {
+    const inner = deleteCommModal.querySelector(".modal-backdrop-email");
+
+    inner.innerHTML = `
+      <div class="verify-header">
+        <h3 style="margin:0; padding: 0;">Undo community deletion</h3>
+        <span id="resendStatus" class="resend-status"></span>
+      </div>
+
+      <p>
+        Enter the <b>6-digit code</b> sent to
+        <b>{{ current_user.email }}</b> to undo deletion of
+        <b>{{ community.name }}</b>.
+      </p>
+
+      <div class="otp-row">
+        ${Array.from({ length: 6 }).map(() => `
+          <div class="otp-box">
+            <input
+              type="text"
+              inputmode="numeric"
+              maxlength="1"
+              class="otp-input"
+              autocomplete="one-time-code"
+            />
+          </div>
+        `).join("")}
+      </div>
+
+      <div class="resend-text" id="resendUndoDeleteCode">
+        Didn’t receive a code?
+        <span class="resend-email">Resend</span>
+      </div>
+
+      <div class="modal-actions push-downer">
+        <button id="confirmUndoDeleteBtn" class="delete-comm">
+          Undo deletion
+        </button>
+      </div>
+    `;
+
+    // OTP logic
+    attachOTPLogic({
+      container: inner,
+      submitBtnId: "confirmUndoDeleteBtn",
+      onSubmit: async (code) => {
+        const res = await fetch("/community/confirm-undo-delete", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "X-CSRFToken": csrfToken
+          },
+          body: JSON.stringify({ otp: code })
+        });
+
+        const data = await res.json();
+
+        if (data.status === "restored") {
+          window.location.href = data.redirect;
+        } else {
+          showOTPStatus(inner, data.message || "Invalid code", "error");
+        }
+      }
+    });
+
+    // RESEND
+    inner.querySelector("#resendUndoDeleteCode").onclick = async () => {
+      const res = await fetch("/community/resend-undo-delete-otp", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "X-CSRFToken": csrfToken
+        },
+        body: JSON.stringify({
+          slug: window.CURRENT_COMMUNITY_SLUG
+        })
+      });
+
+      const data = await res.json();
+
+      if (data.status === "sent") {
+        showOTPStatus(inner, `${NewCodeSvgSent} New code sent`, "sent");
+      }
+
+      if (data.status === "wait") {
+        showOTPStatus(inner, `${WaitSvg} Wait ${data.left}s`, "wait");
+      }
+    };
+  }
+
+
+  function attachOTPLogic({
+    container,
+    submitBtnId,
+  }) {
+    const boxes = container.querySelectorAll(".otp-box");
+    const inputs = container.querySelectorAll(".otp-input");
+    const submitBtn = container.querySelector(`#${submitBtnId}`);
+    const resendBtn = container.querySelector("#resendCode");
+
+    function getCode() {
+      return [...inputs].map(i => i.value).join("");
+    }
+
+    function updateState() {
+      submitBtn.classList.toggle("valid", getCode().length === 6);
+
+    }
+
+    inputs.forEach((input, index) => {
+      input.addEventListener("focus", () => {
+        boxes[index].classList.add("active");
+      });
+
+      input.addEventListener("blur", () => {
+        boxes[index].classList.remove("active");
+      });
+
+      input.addEventListener("input", e => {
+        let val = e.target.value.replace(/\D/g, "");
+
+        boxes.forEach(b => b.classList.remove("error"));
+
+        // 📋 paste handling
+        if (val.length > 1) {
+          val
+            .slice(0, 6)
+            .split("")
+            .forEach((char, i) => {
+              if (inputs[i]) inputs[i].value = char;
+            });
+
+          inputs[Math.min(val.length, 5)]?.focus();
+          updateState();
+          return;
+        }
+
+        input.value = val;
+
+        if (val && inputs[index + 1]) {
+          inputs[index + 1].focus();
+        }
+
+        updateState();
+      });
+
+      input.addEventListener("keydown", e => {
+        if (e.key !== "Backspace") return;
+        e.preventDefault();
+
+        boxes.forEach(b => b.classList.remove("error"));
+
+        if (input.value) {
+          input.value = "";
+        } else if (inputs[index - 1]) {
+          inputs[index - 1].value = "";
+          inputs[index - 1].focus();
+        }
+
+        updateState();
+      });
+    });
+
+    container.querySelector(".otp-row").addEventListener("paste", e => {
+      e.preventDefault();
+
+      const pasted = (e.clipboardData || window.clipboardData)
+        .getData("text")
+        .replace(/\D/g, "")
+        .slice(0, 6);
+
+      pasted.split("").forEach((char, i) => {
+        if (inputs[i]) inputs[i].value = char;
+      });
+
+      inputs[Math.min(pasted.length, 5)]?.focus();
+      updateState();
+    });
+      submitBtn.onclick = async () => {
+      if (!submitBtn.classList.contains("valid")) return;
+
+      const result = await confirmUndoDeleteWithOTP(getCode());
+
+      if (result.status === "invalid") {
+          boxes.forEach(b => b.classList.add("error"));
+          return;
+      }
+
+      if (result.status === "expired") {
+          inputs.forEach(i => i.value = "");
+          boxes.forEach(b => b.classList.remove("error"));
+          inputs[0].focus();
+          updateState();
+          showOTPStatus(container, "Code expired. Please resend.", "wait");
+          return;
+      }
+
+      // ✅ RESTORED → TOAST → REDIRECT AFTER 2s
+      if (result.status === "restored") {
+          showSuccess("Community restored successfully");
+
+          setTimeout(() => {
+          window.location.href = result.redirect;
+          }, 2000);
+      }
+      };
+
+  }
+
+
+  async function confirmUndoDeleteWithOTP(code) {
+    const res = await fetch("/community/confirm-undo-delete", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "X-CSRFToken": csrfToken
+      },
+      body: JSON.stringify({
+        otp: code,
+        slug: window.CURRENT_COMMUNITY_SLUG
+      })
+    });
+
+    const data = await res.json();
+
+    if (!res.ok) {
+      if (data.error === "expired" || data.error === "code_expired") {
+        return { status: "expired" };
+      }
+      return { status: "invalid" };
+    }
+
+    if (data.status === "restored") {
+      return {
+        status: "restored",
+        redirect: data.redirect
+      };
+    }
+
+    return { status: "invalid" };
+  }
+
+
+
+
+  function showToast(msg, type = "error") {
+    document.querySelectorAll(".toast").forEach(t => t.remove());
+
+    const t = document.createElement("div");
+    t.className = `toast ${type}`;
+    t.textContent = msg;
+    document.body.appendChild(t);
+
+    requestAnimationFrame(() => t.classList.add("show"));
+
+    setTimeout(() => {
+      t.classList.remove("show");
+      setTimeout(() => t.remove(), 300);
+    }, 2600);
+  }
+
+  function showError(msg) {
+    showToast(msg, "error");
+  }
+
+  function showSuccess(msg) {
+    showToast(msg, "success");
+  }
+</script>
+
+
+
+<style>
+
+
+
+.toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translate(-50%, 12px);
+  background: rgba(25, 25, 40, 0.515);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 90, 90, 0.4);
+  color: #ff9b9b;
+  padding: 12px 18px;
+  border-radius: 14px;
+  font-size: 14px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: transform .28s ease, opacity .28s ease;
+  z-index: 9999;
+}
+
+/* ✅ success */
+.toast.success {
+  border-color: rgba(80, 220, 140, 0.45);
+  color: #9dffd0;
+  background: rgba(20, 45, 30, 0.55);
+}
+
+.toast.show {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+
+
+
+
+.modal-emailch {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.505);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  opacity: 0;
+  pointer-events: none;
+}
+
+ 
+@media(min-width: 769px){
+  .modal-emailch {
+     transition: opacity 0.2s ease;
+    
+  }
+}
+
+.modal-emailch.show {
+  opacity: 1;
+  pointer-events: auto !important;
+
+}
+
+
+@media(max-width: 769px){
+    .modal-emailch {
+      padding: 0 15px;
+      transition: none;
+    }
+}
+
+.modal-backdrop-email {
+  width: 100%;
+  max-width: 420px;
+  background: rgba(34, 34, 54, 0.448);
+  backdrop-filter: blur(14px);
+  border: 0.9px solid var(--border);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.modal-backdrop-email p{
+  font-size: 14px; 
+  color: var(--text-muted); 
+  line-height: 1.5;
+  margin: 0;
+}
+
+
+.verify-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+  margin-bottom: 15px !important;
+
+}
+.verify-header h3{
+  margin: 0;
+  margin-bottom: 4px !important;
+
+}
+.verify-header .resend-status{
+  margin: 0 !important;
+  padding: 0;
+}
+
+
+
+.otp-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.otp-box {
+  position: relative;
+  padding-bottom: 6px;
+  border-bottom: 1.5px solid rgba(53, 53, 85, 0.45); /* glass line */
+  width: 38px;
+  background-color: transparent;
+  height: 48px;
+  transition:
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+
+.otp-box input{
+  background-color: transparent !important;
+}
+
+.otp-box.active {
+  border-bottom-color: rgba(66, 133, 244, 0.9);
+
+
+}
+
+
+.otp-input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: transparent;
+  text-align: center;
+  font-size: 20px;
+  color: var(--text-main);
+  outline: none;
+}
+
+
+
+.resend-text {
+  text-align: left;
+  font-size: 13px;
+  color: var(--text-muted);
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+.resend-email:hover {
+  opacity: 0.8;
+}
+
+
+.resend-email{
+  border-bottom: 1px solid var(--text-muted);
+
+}
+
+
+
+
+.resend-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.4s ease, color 0.25s ease;
+}
+
+.resend-status.show {
+  opacity: 1;
+  display: flex;
+
+}
+
+
+.resend-status svg{
+  width: 13px;
+  height: 13px;
+  fill: currentColor;
+  position: relative;
+}
+
+.resend-status.sent {
+  color: #4ade80;
+}
+
+.resend-status.wait {
+  color: #ff9b9b; /* red */
+}
+
+
+.otp-input {
+  caret-color: #4285f4; 
+}
+
+.otp-box.error .otp-input {
+  caret-color: #ff5a5a;
+}
+
+.otp-box.error {
+  border-bottom-color: rgba(255, 76, 76, 0.9);
+}
+
+
+.push-downer {
+  margin-top: 25px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.push-downer button {
+  border-radius: 20px !important;
+  background-color: transparent !important;
+  font-size: 15px;
+  color: #4286f496;
+  outline: none;
+  border: none;
+  
+}
+.push-downer .delete-comm {
+    transition: color 0.8s ease;
+}
+
+.push-downer button:hover {
+  opacity: 0.8 !important;
+
+}
+
+.push-downer .delete-comm.valid {
+  color: #4285f4 !important;
+}
+
+</style>
+
+
+</body>
+</html>

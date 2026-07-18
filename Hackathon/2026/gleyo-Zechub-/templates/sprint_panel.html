@@ -1,0 +1,352 @@
+<title>Manage {{ sprint.title }}</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='sprint_panel.css') }}">
+
+
+
+<div class="main-wrapper{% if community.is_paid %} badged{% else%}{%endif%}">
+  <div class="left-panel" id="leftPanel">
+    <div id="info-left" class="info-left">
+      <div class="info-card" >
+        <div class="info-top">
+
+
+          <div class="info-content">
+            <div class="contain-container" style="margin: 0;">
+              <h1 id="previewTitle" class="sprint-title">{{ sprint.title }}</h1>
+              <div class="diver-svg" onclick="toggleAnnouncement()">
+                <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 484.13"><path fill-rule="nonzero" d="m42.91 425.26 67.53-27.93c5.15-2.11 10.84-.91 14.69 2.63 19.44 17.83 42.15 32.12 67.1 41.82 24.01 9.35 50.22 14.48 77.71 14.48 59.15 0 112.7-23.97 151.46-62.74 38.76-38.75 62.73-92.31 62.73-151.46 0-59.15-23.97-112.7-62.73-151.46-38.76-38.76-92.31-62.73-151.46-62.73-59.15 0-112.71 23.97-151.46 62.73-38.76 38.76-62.74 92.31-62.74 151.46 0 17.49 2.04 34.34 5.88 50.32 3.99 16.58 9.92 32.44 17.53 47.29 2.08 4.07 1.95 8.69.07 12.49l.04.03-36.35 73.07zm204.77-272.59c0-4.03.71-7.77 2.13-11.2 1.41-3.42 3.55-6.54 6.39-9.33 2.83-2.79 5.93-4.9 9.27-6.32 3.36-1.41 6.97-2.13 10.84-2.13 3.88 0 7.49.72 10.81 2.13 3.34 1.42 6.39 3.53 9.17 6.34 2.78 2.79 4.88 5.89 6.26 9.32 1.4 3.42 2.09 7.16 2.09 11.19 0 3.93-.69 7.6-2.08 11-1.39 3.4-3.47 6.54-6.26 9.4-2.77 2.84-5.82 4.99-9.15 6.42-3.34 1.43-6.94 2.16-10.84 2.16-3.98 0-7.67-.71-11.06-2.13-3.37-1.42-6.46-3.55-9.25-6.38-2.77-2.85-4.86-5.97-6.24-9.38-1.4-3.41-2.08-7.1-2.08-11.09zm12.61 167.69c-1.05 3.74-3.16 11.07 3.1 11.07 1.35 0 3.08-.76 5.14-2.25 2.23-1.62 4.79-4.06 7.66-7.3 2.91-3.3 5.94-7.19 9.09-11.69 3.14-4.48 6.44-9.62 9.87-15.35.37-.61 1.18-.82 1.79-.45l11.64 8.63c.55.41.68 1.18.31 1.76-5.35 9.3-10.76 17.43-16.23 24.36-5.51 6.98-11.1 12.77-16.76 17.34l-.09.07c-5.67 4.59-11.47 8.04-17.42 10.35-16.56 6.41-42.7 5.37-50.19-13.95-4.73-12.21-.84-26.07 2.88-38.01l18.78-56.88c1.2-4.32 2.72-9.05 3.28-13.5.91-7.39-2.36-12.18-10.42-12.18H206.3c-.72 0-1.3-.59-1.3-1.31l.07-.45 4.32-15.7c.15-.58.69-.97 1.26-.96l83.89-2.63c.72-.03 1.32.54 1.35 1.25l-.06.42-35.54 117.36zM113 426.33l-92.87 38.39a13.89 13.89 0 0 1-12.41.01c-6.88-3.43-9.68-11.79-6.26-18.67L51.29 345.9a240.606 240.606 0 0 1-16.66-47.1 242.111 242.111 0 0 1-6.75-56.74c0-66.84 27.09-127.36 70.9-171.16C142.58 27.1 203.1 0 269.94 0S397.3 27.1 441.1 70.9c43.8 43.8 70.9 104.32 70.9 171.16s-27.1 127.36-70.9 171.16c-43.8 43.81-104.32 70.91-171.16 70.91-30.86 0-60.46-5.83-87.72-16.44A242.153 242.153 0 0 1 113 426.33z"/>
+                </svg>
+              </div>
+            </div>
+
+
+            <p class="sprint-date" style="display: inline-flex; min-width: 304.5px !important;">
+              <span class="date-item">
+                <span class="calendar-icon">
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none"
+                      stroke="currentColor" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="4" width="18" height="17" rx="4" ry="4"/>
+                    <line x1="7.25" y1="2.5" x2="7.25" y2="5.5" />
+                    <line x1="15.25" y1="2.5" x2="15.25" y2="5.5" />
+                    <line x1="6" y1="9" x2="18" y2="9" />
+                    <circle cx="8" cy="13" r="0.4" fill="currentColor"/>
+                    <circle cx="12" cy="13" r="0.4" fill="currentColor"/>
+                    <circle cx="16" cy="13" r="0.4" fill="currentColor"/>
+                    <circle cx="8" cy="16.5" r="0.4" fill="currentColor"/>
+                    <circle cx="12" cy="16.5" r="0.4" fill="currentColor"/>
+                    <circle cx="16" cy="16.5" r="0.4" fill="currentColor"/>
+                  </svg>
+                </span>
+                <span id="timezone-start" data-utc="{{ sprint.start_date.isoformat() }}Z" ></span>
+              </span>
+
+              <span class="date-separator">–</span>
+
+              <span class="date-item"  id="timezone-end" data-utc="{{ sprint.end_date.isoformat() }}Z">
+              </span>
+            </p>
+
+            <p class="countdown-label">Ends in:</p> 
+              <div class="countdown-wrapper {% if sprint_has_ended %}is-hidden{% endif %}" id="countdownWrapper" >      
+                <div id="countdownTimer" class="countdown-timer">
+                  <div class="countdown-digit"><span class="num">00</span><span class="unit">DAYS</span></div>
+                  <div class="countdown-digit"><span class="num">00</span><span class="unit">HRS</span></div>
+                  <div class="countdown-digit"><span class="num">00</span><span class="unit">MIN</span></div>
+                  <div class="countdown-digit"><span class="num">00</span><span class="unit">SEC</span></div>
+                </div>
+              </div>
+          </div>
+        </div>
+
+
+        <div class="info-bottom-wrapper" style="margin: 0; padding: 0;">
+          <div class="info-bottom">
+            <div class="info-reward-con">
+
+              <div style="margin: 0; padding: 0; padding-left: 10px !important;">
+
+                <div class="bren lines des" id="previewDescription"></div>
+              </div>
+
+              <div class="reward-box reward-card">
+
+                <!-- PAYMENT HANDLING -->
+                <div class="reward-section" style="display: flex; ">
+                  <h3 style="margin: 0; padding: 0;">Rewards</h3>
+
+                  <div class="distribution-type-info" style="width: 70%; min-width: 70%; max-width: 70%; box-sizing: border-box !important;"></div>
+                </div>
+
+                  <div class="bren lines" id="previewReward"></div>
+            
+              </div>
+
+
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="right-panelds" id="rightPanel">
+    <div class="sprint-wrapper">
+      
+          <h2>Edit Sprint</h2>
+
+          <div class="form-group">
+            <label for="title" class="family">Sprint Name</label>
+            <input
+              type="text"
+              name="title"
+              maxlength="100"
+              id="title"
+              class="family"
+              placeholder="Sprint name"
+              required
+              value="{{ sprint.title if sprint else '' }}"
+              autocomplete="off"
+              autocorrect="off"
+              autocapitalize="off"
+              spellcheck="false"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="description">Description <span class="optional">Optional</span></label>
+            <textarea name="description" id="description" maxlength="5000" rows="3" placeholder="What is the goal of the sprint?" autocomplete="off">{{ sprint.description if sprint else '' }}</textarea>
+          </div>
+
+
+          <div class="picker-box-con">
+
+            <div class="form-group date column">
+              <!-- Flatpickr Start Date -->
+              <label for="start_date">Start Date</label>
+              <div class="picker-box" id="start_date">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="4" width="18" height="17" rx="4" ry="4"/>
+                  <line x1="7.25" y1="2.5" x2="7.25" y2="5.5" />
+                  <line x1="15.25" y1="2.5" x2="15.25" y2="5.5" />
+                  <line x1="6" y1="9" x2="18" y2="9" />
+                  <circle cx="8" cy="13" r="0.4" fill="currentColor"/>
+                  <circle cx="12" cy="13" r="0.4" fill="currentColor"/>
+                  <circle cx="16" cy="13" r="0.4" fill="currentColor"/>
+                  <circle cx="8" cy="16.5" r="0.4" fill="currentColor"/>
+                  <circle cx="12" cy="16.5" r="0.4" fill="currentColor"/>
+                  <circle cx="16" cy="16.5" r="0.4" fill="currentColor"/>
+                </svg>
+                <input
+                  type="text"
+                  
+                  name="start_date_display"
+                  placeholder="Select start date & time"
+                  required
+                  readonly
+                  autocomplete="off"
+                  data-utc="{{ sprint.start_date }}Z"
+                />
+
+              </div>
+            </div>
+
+            
+            <div class="form-group column">
+              <!-- Flatpickr End Date -->
+              <label for="end_date">End Date</label>
+              <div class="picker-box" id="end_date">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="4" width="18" height="17" rx="4" ry="4"/>
+                  <line x1="7.25" y1="2.5" x2="7.25" y2="5.5" />
+                  <line x1="15.25" y1="2.5" x2="15.25" y2="5.5" />
+                  <line x1="6" y1="9" x2="18" y2="9" />
+                  <circle cx="8" cy="13" r="0.4" fill="currentColor"/>
+                  <circle cx="12" cy="13" r="0.4" fill="currentColor"/>
+                  <circle cx="16" cy="13" r="0.4" fill="currentColor"/>
+                  <circle cx="8" cy="16.5" r="0.4" fill="currentColor"/>
+                  <circle cx="12" cy="16.5" r="0.4" fill="currentColor"/>
+                  <circle cx="16" cy="16.5" r="0.4" fill="currentColor"/>
+                </svg>
+                <input
+                  type="text"
+                  name="end_date_display"
+                  placeholder="Select end date & time"
+                  required
+                  readonly
+                  data-utc="{{ sprint.end_date }}Z"
+                />
+              </div>
+            </div>
+            <input type="hidden" id="start_date_iso" name="start_date">
+            <input type="hidden" id="end_date_iso" name="end_date">
+
+            <small class="timezone-label">Timezone: Detecting...</small>
+          </div>
+
+          <div class="form-group">
+
+            <label for="rewards">Rewards</label>
+            <textarea
+              name="rewards"
+              id="rewards"
+              maxlength="5000"
+              autocomplete="off"
+              placeholder="Add reward description..."
+              {% if payment_status == 'paid' %}readonly class="readonly"{% endif %}
+            >{% if payment_status == 'paid' %}{{ payment_note }}{% elif sprint %}{{ sprint.rewards }}{% endif %}</textarea>
+          </div>
+          <div class="form-group">
+            <label for="end_zone">End Reward Zone <span class="optional">Optional</span></label>
+            <input type="number" name="end_zone" id="end_zone" min="0" placeholder="e.g. 10" value="{{ sprint.end_zone if sprint else '' }}" />
+          </div>
+
+          <div class="form-group">
+            <label for="color">Color <span class="optional">Optional</span></label>
+            <div class="orion-dropdown-wrapper">
+              <button type="button" class="orion-toggle-btn" id="orion-toggle-picker" style="position: relative;">
+                <img src="https://cdn2.iconfinder.com/data/icons/tritone-set-1-of-3/100/Color-1024.png" alt="Color Picker Icon" loading="lazy" decoding="async"/>
+              </button>
+            </div>
+          </div>
+
+          <fieldset class="reward-option">
+            <legend>
+              Reward Distribution
+              <span class="status-badge">{{ payment_status }}</span>
+            </legend>
+
+            <div class="distribution-row">
+              <strong class="paid-label">Distribution by Gleyo</strong>
+            </div>
+          </fieldset>
+
+          <fieldset class="reward-option">
+            <legend>Reward Distribution</legend>
+
+            <div class="distribution-row">
+              <strong class="self-label">Self distribution</strong>
+            </div>
+
+            <div id="distributionOutput">
+              Rewards will be distributed manually by the sprint owner.
+            </div>
+          </fieldset>
+
+
+
+
+
+        
+          <div class="form-actions-wrapper" style="display: flex; justify-content: space-between; align-items: center;">
+
+            <div class="delete-wrapper">
+              <button type="button" class="delete-btn" data-id="{{ sprint.id }}">
+              <svg 
+                width="17" 
+                height="17" 
+                class="triggerDeletePopup" 
+                viewBox="0 0 24 24" 
+                fill="none" 
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <!-- Trash lid -->
+                <path 
+                  d="M20.5 6H3.5" 
+                  stroke="currentColor" 
+                  stroke-width="1.5" 
+                  stroke-linecap="round"
+                />
+
+                <!-- Trash top and handle -->
+                <path 
+                  d="M6.5 6C6.555 6 6.583 6 6.608 5.999C7.431 5.978 8.157 5.455 8.437 4.681L8.57 4.286C8.652 4.037 8.694 3.913 8.749 3.807C8.969 3.386 9.375 3.094 9.844 3.019C9.962 3 10.093 3 10.355 3H13.645C13.907 3 14.038 3 14.155 3.019C14.624 3.094 15.03 3.386 15.249 3.807C15.304 3.913 15.346 4.037 15.429 4.286L15.562 4.681C15.842 5.455 16.568 5.978 17.391 5.999C17.416 6 17.444 6 17.5 6" 
+                  stroke="currentColor" 
+                  stroke-width="1.5"
+                />
+
+                <!-- Trash body -->
+                <path 
+                  d="M5.5 8.5L6 19C6.1 20.5 7.2 21 12 21C16.8 21 17.9 20.5 18 19L18.5 8.5Z" 
+                  stroke="currentColor" 
+                  stroke-width="1.5" 
+                  stroke-linecap="round" 
+                  stroke-linejoin="round" 
+                  fill="none"
+                />
+
+                <!-- Two vertical bars -->
+                <line 
+                  x1="10" 
+                  y1="9" 
+                  x2="10" 
+                  y2="17" 
+                  stroke="currentColor" 
+                  stroke-width="1.5" 
+                  stroke-linecap="round"
+                />
+                <line 
+                  x1="14" 
+                  y1="9" 
+                  x2="14" 
+                  y2="17" 
+                  stroke="currentColor" 
+                  stroke-width="1.5" 
+                  stroke-linecap="round"
+                />
+              </svg>
+
+                Delete
+              </button>
+
+                <!-- Delete Confirmation Modal -->
+
+
+            </div>
+            <div class="form-buttons">
+              <a id="cancelBtn"
+                href="/{{ community.slug }}/leaderboard/{{ sprint.uuid }}"
+                data-path="/{{ community.slug }}/leaderboard/{{ sprint.uuid }}"
+                onclick="event.preventDefault(); loadMainSettingsSection(this.dataset.path)">
+                Cancel
+              </a>
+              <button type="submit" id="saveBtn">Save</button>
+            </div>
+          </div>
+
+  
+      
+    </div>
+
+  </div>
+</div>
+
+<div id="delete-modal" class="modal hidden">
+  <div class="modal-content">
+    <h2 style="color: var(--text-main);">Delete Sprint</h2>
+    <p style="color: var(--text-main);">Are you sure you want to delete this sprint?</p>
+    <div class="modal-actions">
+      <button  type="reset" style="color: var(--text-main);" id="cancel-delete" class="btn cancel-btn">Cancel</button>
+      <!-- Inside modal -->
+      <button id="confirm-delete" class="btn delete-btn-style" type="button">Delete</button>
+      <div id="delete-alert" class="delete-alert hidden"></div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  

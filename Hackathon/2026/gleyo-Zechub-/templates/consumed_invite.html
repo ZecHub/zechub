@@ -1,0 +1,141 @@
+<style>
+
+  .act-list,
+  .act-list * {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+  }
+
+  ul.act-list { 
+    list-style: none; 
+    width: 100%;
+  }
+
+  /* LIST ITEM */
+  li.act-item{
+    border: none !important;
+    background: transparent !important;
+    display: flex; 
+    align-items: center;
+    gap: 12px;
+    padding: 10px 12px !important;
+    position: relative;
+  }
+
+  /* PROFILE IMAGE */
+  .proic-pic-active {
+    width: 34px;
+    height: 34px;
+    min-width: 34px;
+    min-height: 34px;
+    border-radius: 50%;
+    background: var(--sub-accent);
+    color: var(--text-main);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    overflow: hidden;
+    position: relative; /* ✅ required for ::after */
+  }
+
+  /* IMAGE */
+  .proic-pic-active img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* ✅ IMAGE DARKEN OVERLAY */
+  .proic-pic-active::after{
+    content:"";
+    position:absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.069);  /* 👈 brightness control */
+    pointer-events: none;
+  }
+
+  /* CONTENT WRAPPER */
+  .invite-content-act{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  /* ✅ DIVIDER LINE */
+  .invite-content-act::after{
+    content:"";
+    position:absolute;
+    left: 0;
+    right: 0;
+    bottom: -19px;
+    height: 1px;
+    background: var(--border, rgba(255,255,255,0.18));
+  }
+
+  /* USERNAME */
+  .username-act {
+    font-weight: 550 !important;
+    font-size: 15px;
+    color: var(--text-main);
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  /* XP */
+  .xp-earned-act { 
+    margin-left: auto !important;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--text-main);
+    display:flex;
+    align-items:center;
+    gap:4px;
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  .xp-earned-act span {
+    font-size: 11px;
+    font-weight: 600;
+    opacity: 0.8;
+    line-height: 1;
+  }
+
+</style>
+
+
+<ul class="act-list">
+  {% for invite in invites %}
+    <li class="act-item">
+      
+      <!-- IMAGE -->
+      <div class="proic-pic-active">
+        {% if invite.invited_user.profile_pic %}
+          <img src="{{ invite.invited_user.profile_pic }}" alt="{{ invite.invited_user.username }}" loading="lazy" decoding="async">
+        {% else %}
+          {{ invite.invited_user.username[0] }}
+        {% endif %}
+      </div>
+
+      <!-- NAME + XP -->
+      <div class="invite-content-act">
+        <span class="username-act">{{ invite.invited_user.username }}</span>
+
+        <span class="xp-earned-act">
+          {{ invite.total_xp }}
+          <span>XP</span>
+        </span>
+      </div>
+
+    </li>
+  {% else %}
+    <div style="font-size: 13px; color: var(--text-muted); text-align: center;">No consumed invites yet.</div>
+
+  {% endfor %}
+</ul>

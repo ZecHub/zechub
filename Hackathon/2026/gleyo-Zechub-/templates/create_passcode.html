@@ -1,0 +1,362 @@
+
+<title>Set Passcode</title>
+<meta name="csrf-token" content="{{ csrf_token() }}">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Syne:wght@400;600;800&display=swap" rel="stylesheet"/>
+<script src="/static/createpasscode.js" defer></script>
+
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #0a0a0f;
+    --surface: #12121a;
+    --border: rgba(255,255,255,0.07);
+    --dot-empty: rgba(255,255,255,0.12);
+    --dot-filled: #e8e0ff;
+    --dot-error: #ff4f6d;
+    --dot-success: #4fffa0;
+    --accent: #c9b8ff;
+    --accent-glow: rgba(201,184,255,0.25);
+    --text-primary: #f0ecff;
+    --text-secondary: rgba(240,236,255,0.45);
+    --text-label: rgba(240,236,255,0.25);
+  }
+
+
+
+  .login-container {
+    display: flex;
+    align-items: center  !important;
+    justify-content: center !important;
+  }
+
+  body {
+    background: var(--bg);
+    font-family: 'Syne', sans-serif;
+    color: var(--text-primary);
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 40% at 30% 20%, rgba(120,80,255,0.08) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 60% at 80% 80%, rgba(80,160,255,0.06) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+
+  .card {
+    position: relative;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 28px;
+    padding: 52px 48px 44px;
+    max-height: 80dvh;
+    overflow-y: auto;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    box-shadow:
+      0 0 0 1px rgba(255,255,255,0.03),
+      0 32px 80px rgba(0,0,0,0.6),
+      0 0 60px rgba(120,80,255,0.05);
+  }
+
+  @media (max-width: 480px) {
+    .card {
+      width: 100%;
+      height: 100vh;
+      height: 100dvh;
+      max-height: 100dvh !important;
+      border-radius: 0;
+      display: flex;
+      border: none;
+      background: radial-gradient(circle at 30% 20%, #151528 0%, #0b0b12 60%);
+      padding: 72px 28px 40px;
+      justify-content: center;
+      box-shadow: none;
+    }
+    .pad { gap: 10px; }
+    .key { height: 70px; border-radius: 16px; }
+    .key-num { font-size: 25px; }
+    .dots { gap: 20px; margin-bottom: 52px; }
+    .dot { width: 20px; height: 20px; }
+    .lock-icon { margin-bottom: 36px; }
+    .title { font-size: 26px; }
+    .subtitle { font-size: 14px; margin-bottom: 44px; }
+  }
+
+  /* Lock icon */
+  .lock-icon {
+    width: 52px;
+    height: 52px;
+    margin-bottom: 28px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lock-icon svg {
+    width: 52px;
+    height: 52px;
+    filter: drop-shadow(0 0 12px var(--accent-glow));
+    transition: transform 0.4s cubic-bezier(0.34,1.56,0.64,1);
+  }
+  .lock-icon.shake svg {
+    animation: shake 0.4s ease;
+  }
+  .lock-icon.unlock svg {
+    animation: popIn 0.5s cubic-bezier(0.34,1.56,0.64,1);
+  }
+
+  @keyframes shake {
+    0%,100% { transform: translateX(0) rotate(0deg); }
+    15% { transform: translateX(-6px) rotate(-4deg); }
+    30% { transform: translateX(6px) rotate(4deg); }
+    45% { transform: translateX(-4px) rotate(-2deg); }
+    60% { transform: translateX(4px) rotate(2deg); }
+    75% { transform: translateX(-2px) rotate(-1deg); }
+  }
+  @keyframes popIn {
+    0% { transform: scale(0.7); opacity: 0.4; }
+    60% { transform: scale(1.15); }
+    100% { transform: scale(1); opacity: 1; }
+  }
+
+  .step-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-label);
+    margin-bottom: 10px;
+    transition: opacity 0.3s;
+  }
+
+  .title {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: var(--text-primary);
+    text-align: center;
+    margin-bottom: 6px;
+    line-height: 1.2;
+  }
+
+  .subtitle {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--text-secondary);
+    text-align: center;
+    margin-bottom: 40px;
+    min-height: 18px;
+    transition: color 0.3s;
+  }
+  .subtitle.error { color: var(--dot-error); }
+  .subtitle.success { color: var(--dot-success); }
+
+  /* Dots */
+  .dots {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 44px;
+  }
+
+  .dot {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid var(--dot-empty);
+    background: transparent;
+    transition:
+      background 0.18s ease,
+      border-color 0.18s ease,
+      transform 0.18s cubic-bezier(0.34,1.56,0.64,1),
+      box-shadow 0.18s ease;
+  }
+  .dot.filled {
+    background: var(--dot-filled);
+    border-color: var(--dot-filled);
+    transform: scale(1.15);
+    box-shadow: 0 0 10px rgba(232,224,255,0.35);
+  }
+  .dot.error {
+    background: var(--dot-error);
+    border-color: var(--dot-error);
+    box-shadow: 0 0 10px rgba(255,79,109,0.4);
+    transform: scale(1);
+  }
+  .dot.success {
+    background: var(--dot-success);
+    border-color: var(--dot-success);
+    box-shadow: 0 0 10px rgba(79,255,160,0.4);
+    transform: scale(1.15);
+  }
+  .dot.pulse {
+    animation: dotPop 0.25s cubic-bezier(0.34,1.56,0.64,1);
+  }
+
+  @keyframes dotPop {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.45); }
+    100% { transform: scale(1.15); }
+  }
+
+  /* Number pad */
+  .pad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    width: 100%;
+  }
+
+  .key {
+    position: relative;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 14px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    transition:
+      background 0.12s,
+      border-color 0.12s,
+      transform 0.1s;
+    -webkit-tap-highlight-color: transparent;
+    overflow: hidden;
+  }
+  .key:hover {
+    background: rgba(255,255,255,0.07);
+    border-color: rgba(255,255,255,0.11);
+  }
+  .key:active, .key.pressed {
+    background: rgba(201,184,255,0.1);
+    border-color: rgba(201,184,255,0.25);
+    transform: scale(0.94);
+  }
+
+  .key-num {
+    font-family: 'Syne', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--text-primary);
+    line-height: 1;
+  }
+  .key-letters {
+    font-family: 'DM Mono', monospace;
+    font-size: 8px;
+    letter-spacing: 0.12em;
+    color: var(--text-label);
+    margin-top: 3px;
+  }
+
+  .key.del .key-num {
+    font-size: 18px;
+    color: var(--text-secondary);
+  }
+  .key.zero { grid-column: 2; }
+
+  /* Hidden input for keyboard support */
+  #hidden-input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    width: 1px;
+    height: 1px;
+  }
+
+  /* Ripple */
+  .ripple {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(201,184,255,0.2);
+    transform: scale(0);
+    animation: ripple 0.4s linear;
+    pointer-events: none;
+  }
+  @keyframes ripple {
+    to { transform: scale(3); opacity: 0; }
+  }
+
+  /* Success overlay */
+  .success-overlay {
+    position: absolute;
+    inset: 0;
+    border-radius: 28px;
+    background: rgba(79,255,160,0.04);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s;
+  }
+  .success-overlay.show { opacity: 1; }
+
+  /* Dots row dots animation on error */
+  .dots.error-shake {
+    animation: dotsShake 0.35s ease;
+  }
+  @keyframes dotsShake {
+    0%,100% { transform: translateX(0); }
+    20% { transform: translateX(-8px); }
+    40% { transform: translateX(8px); }
+    60% { transform: translateX(-5px); }
+    80% { transform: translateX(5px); }
+  }
+</style>
+
+<div class="card" id="card" data-initerme="{{ next_url or '' }}">
+  <div class="success-overlay" id="successOverlay"></div>
+  <div class="lock-icon" id="lockIcon">
+    <svg viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg" id="lockSvg">
+      <rect x="10" y="24" width="32" height="22" rx="5" fill="rgba(201,184,255,0.12)" stroke="#c9b8ff" stroke-width="1.8"/>
+      <path id="shackle" d="M17 24V17a9 9 0 0118 0v7" stroke="#c9b8ff" stroke-width="1.8" stroke-linecap="round"/>
+      <circle cx="26" cy="35" r="3.5" fill="#c9b8ff"/>
+      <line x1="26" y1="38" x2="26" y2="42" stroke="#c9b8ff" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </div>
+
+  <div class="step-label" id="stepLabel">Step 1 of 2</div>
+  <div class="title" id="title">Set a Passcode</div>
+  <div class="subtitle" id="subtitle">Enter 6 digits to secure your account</div>
+
+  <div class="dots" id="dots">
+    <div class="dot" data-i="0"></div>
+    <div class="dot" data-i="1"></div>
+    <div class="dot" data-i="2"></div>
+    <div class="dot" data-i="3"></div>
+    <div class="dot" data-i="4"></div>
+    <div class="dot" data-i="5"></div>
+  </div>
+
+  <div class="pad" id="pad">
+    <button class="key" data-val="1"><span class="key-num">1</span></button>
+    <button class="key" data-val="2"><span class="key-num">2</span><span class="key-letters">ABC</span></button>
+    <button class="key" data-val="3"><span class="key-num">3</span><span class="key-letters">DEF</span></button>
+    <button class="key" data-val="4"><span class="key-num">4</span><span class="key-letters">GHI</span></button>
+    <button class="key" data-val="5"><span class="key-num">5</span><span class="key-letters">JKL</span></button>
+    <button class="key" data-val="6"><span class="key-num">6</span><span class="key-letters">MNO</span></button>
+    <button class="key" data-val="7"><span class="key-num">7</span><span class="key-letters">PQRS</span></button>
+    <button class="key" data-val="8"><span class="key-num">8</span><span class="key-letters">TUV</span></button>
+    <button class="key" data-val="9"><span class="key-num">9</span><span class="key-letters">WXYZ</span></button>
+    <button class="key zero" data-val="0"><span class="key-num">0</span></button>
+    <button class="key del" data-val="del"><span class="key-num">
+      <svg class="svg-icon" style="width: 23px;height: 23px;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M597.333333 451.669333l55.168-55.168a42.666667 42.666667 0 0 1 60.330667 60.330667L657.664 512l55.168 55.168a42.666667 42.666667 0 0 1-60.330667 60.330667L597.333333 572.330667l-55.168 55.168a42.666667 42.666667 0 0 1-60.330666-60.330667L537.002667 512l-55.168-55.168a42.666667 42.666667 0 0 1 60.330666-60.330667L597.333333 451.669333zM874.581333 832H376.32c-47.402667 0-106.730667-25.941333-138.752-60.672l-163.178667-176.938667c-42.325333-45.866667-42.346667-118.869333 0-164.778666l163.2-176.938667C269.525333 218.026667 329.045333 192 376.32 192h498.24A106.666667 106.666667 0 0 1 981.333333 298.837333v426.325334A106.752 106.752 0 0 1 874.581333 832z m0-85.333333C886.4 746.666667 896 737.088 896 725.162667V298.837333c0-11.946667-9.514667-21.504-21.418667-21.504H376.32c-23.466667 0-60.224 16.064-76.010667 33.194667l-163.2 176.917333c-12.181333 13.226667-12.16 35.882667 0 49.109334l163.2 176.917333C316.16 730.666667 352.746667 746.666667 376.32 746.666667h498.24z"  /></svg>
+    </span></button>
+  </div>
+
+  <input id="hidden-input" type="tel" maxlength="1" autocomplete="off"/>
+</div>

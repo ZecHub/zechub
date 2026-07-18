@@ -1,0 +1,249 @@
+<style>
+
+
+.mmpptt-right-panel-amd {
+  width: 100%;
+  max-height: 420px;   
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* preview card */
+.mmpptt-preview-container-amd-h {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* header / cover */
+.mmpptt-preview-header-amd {
+  padding: 12px 12px 22px;
+  min-height: 120px;
+  max-height: 160px;     
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: var(--orion-color);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+
+.mmpptt-preview-header-amd::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.mmpptt-preview-header-amd .mmpptt-preview-title,
+.mmpptt-preview-header-amd .mmpptt-preview-description,
+.mmpptt-preview-header-amd .mmpptt-progress-bar {
+  position: relative;
+  z-index: 2;
+}
+
+
+
+
+/* inner box */
+.mmpptt-preview-content-amd .mmpptt-preview-box-amd {
+  width: 100%;
+  min-height: 80px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  z-index: 9999 !important;
+  background-color: var(--bg-surface);
+  padding: 14px;
+}
+
+/* title */
+.mmpptt-preview-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-main);
+  line-height: 1.3;
+  margin-bottom: 6px;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* description */
+.mmpptt-preview-description {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.4;
+  margin-bottom: 10px;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;   /* 🔒 clamp */
+  overflow: hidden;
+}
+
+/* progress */
+.mmpptt-progress-bar {
+  width: 100%;
+  height: 5px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.mmpptt-progress-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #5865F2, #6f7bf7);
+  border-radius: 999px;
+  transition: width 0.6s cubic-bezier(.2,.8,.2,1);
+}
+
+    
+.mmpptt-preview-content-amd {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding-top: 20px !important;
+  background-color: #1b1b2a;
+  padding: 20px;
+  min-height: 0;
+  -webkit-mask-image: -webkit-radial-gradient(white, black); 
+  mask-image: radial-gradient(white, black);
+  scrollbar-gutter: stable both-edges; 
+  height: 140px;
+  margin: 0;
+  overflow-y: auto;
+  bottom: 30px;
+  border-radius: 30px;
+  position: relative;
+  z-index: 2;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mmpptt-preview-content-amd .mmpptt-preview-box-amd {
+  width: 100%;
+  height: 100%;
+  padding: 47px 8px;
+  border-radius: 14px;
+  position: relative;
+  border: 0.9px solid var(--border);
+  margin: 0;
+  background-color: var(--bg-surface);
+}
+
+
+
+
+.mmpptt-preview-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-main);
+  line-height: 1.3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  margin-bottom: 6px;
+  letter-spacing: 0.2px;
+}
+
+.mmpptt-preview-description {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--text-muted);
+  line-height: 1.45;
+  margin-bottom: 14px;
+
+  /* 🔒 clamp to 3 lines */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  /* wrapping safety */
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* ===============================
+   PROGRESS BAR
+================================ */
+
+.mmpptt-progress-bar {
+  width: 100%;
+  height: 6px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 999px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.25);
+}
+
+.mmpptt-progress-fill {
+  height: 100%;
+  width: 0%; /* set dynamically */
+  background: linear-gradient(
+    90deg,
+    #5865F2,
+    #6f7bf7
+  );
+  border-radius: 999px;
+  transition: width 0.6s cubic-bezier(.2,.8,.2,1);
+  box-shadow: 
+    0 0 8px rgba(88, 101, 242, 0.35);
+}
+</style>
+
+
+<div class="mmpptt-right-panel-amd">
+  
+  <div class="mmpptt-main-container-img">
+    <div class="mmpptt-preview-container-amd-h">
+
+      <div class="mmpptt-preview-header-amd"
+           style="background: {{ bg_style | safe }};">
+
+        <div class="mmpptt-preview-title" id="preview-title">
+          {{ quest.title if quest else 'Your title here' }}
+        </div>
+
+        <div class="mmpptt-preview-description" id="preview-description">
+          {{ quest.description if quest else 'Your description here' }}
+        </div>
+
+        <div class="mmpptt-progress-bar">
+          <div class="mmpptt-progress-fill"></div>
+        </div>
+
+      </div>
+
+
+      <div class="mmpptt-preview-content-amd">
+        <div class="mmpptt-preview-box-amd"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <button type="button" class="mmpptt-close-rightpp"
+    style="position: absolute; bottom: 40px; width: 70%; background-color: transparent; border: 1px solid var(--border); padding: 13px 4px; border-radius: 15px; color: var(--text-main); box-sizing: border-box !important; left: 14%; font-size: 14px; display: none;">
+    Close
+  </button>
+
+</div>

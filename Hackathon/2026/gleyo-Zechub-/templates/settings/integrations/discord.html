@@ -1,0 +1,424 @@
+<style>
+
+
+  @media (min-width: 768px) {
+  #discord {
+    padding: 20px;
+    padding-top: 34px;
+    color: var(--text-main);
+  }
+  }
+
+
+  .bot-joined-img{
+      position: relative;
+      top: 5px;
+  }
+
+  #discord > p {
+    color: var(--text-muted);
+    margin-bottom: 16px;
+    max-width: 520px;
+  }
+
+  .linked-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px 18px;
+    max-width: 420px;
+  }
+
+  .linked-card img {
+    width: 38px;
+    height: 38px;
+  }
+
+  .linked-card span:first-of-type {
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  @media (max-width: 768px) {
+    #discord {
+      padding: 0 10px;
+      padding-top: 34px;
+      color: var(--text-main);
+    }
+    #discord .linked-card {
+      width: 100% !important;
+      min-width: 100% !important;
+    }
+  }
+
+
+  .discord-connect {
+    margin-left: auto;
+    background: #5865f2ad;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+
+  .discord-connect:hover {
+    background: #4752c4;
+  }
+
+  /* ---------- CONNECTED STATE ---------- */
+
+  .linked-btn {
+    background: rgba(88, 101, 242, 0.15);
+    color: #9fa7ff;
+    border: 1px solid rgba(88, 101, 242, 0.3);
+    padding: 10px 14px;
+    border-radius: var(--radius);
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+  /* ---------- NOTIFICATION CONTAINER ---------- */
+
+  .notify-container {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 22px;
+  }
+
+  .notify-header {
+    margin-bottom: 18px;
+  }
+
+  .notify-title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .notify-subtitle {
+    font-size: 14px;
+    color: var(--text-muted);
+    margin-top: 4px;
+  }
+
+  /* ---------- GRID ---------- */
+
+  .notify-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    gap: 16px;
+  }
+
+
+
+  @media (max-width: 640px) {
+    .notify-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .notify-card {
+      width: 100%;
+    }
+  }
+
+
+  /* ---------- CARD ---------- */
+
+  .notify-card {
+    background: var(--bg-app);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px;
+    position: relative;
+  }
+
+  .notify-card-title {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+
+  .notify-card-desc {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 14px;
+  }
+
+  /* ---------- TOGGLE ---------- */
+
+  .notify-switch {
+    position: relative;
+    width: 46px;
+    height: 26px;
+    flex-shrink: 0;
+  }
+
+  .notify-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .notify-slider {
+    position: absolute;
+    inset: 0;
+    background: var(--border);
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+
+  .notify-slider::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 3px;
+    top: 3px;
+    background: white;
+    border-radius: 50%;
+    transition: transform 0.2s ease;
+  }
+
+  .notify-switch input:checked + .notify-slider {
+    background: #5865f2;
+  }
+
+  .notify-switch input:checked + .notify-slider::before {
+    transform: translateX(20px);
+  }
+
+  /* ---------- OPTIONS ---------- */
+
+
+
+
+
+  .notify-card-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  /* ---------- SAVE BUTTON ---------- */
+
+  .notify-action {
+    margin-top: 22px;
+    background: #5865f2;
+    border: none;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+
+  .notify-action:hover {
+    background: #4752c4;
+  }
+
+
+  .smart-dd {
+    width: 46%;
+    position: relative;
+  }
+
+  .smart-dd-trigger {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 10px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .smart-dd-trigger:hover {
+    border-color: #5865f2;
+  }
+
+  .smart-dd-menu {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: rgba(34, 34, 54, 0.448);
+    backdrop-filter: blur(14px);
+    border: 0.9px solid var(--border);
+    border-radius: 8px;
+    max-height: 220px;
+    overflow-y: auto;
+    display: none;
+    z-index: 50;
+  }
+
+  /* default = drop down */
+  .smart-dd.drop-down .smart-dd-menu {
+    top: calc(100% + 6px);
+  }
+
+  /* smart up */
+  .smart-dd.drop-up .smart-dd-menu {
+    bottom: calc(100% + 6px);
+  }
+
+  .smart-dd.open .smart-dd-menu {
+    display: block;
+  }
+
+
+  .smart-dd-item {
+    padding: 8px 10px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+  .smart-dd-item:hover {
+    background: var(--bg-hover-hover);
+  }
+
+
+
+  .notify-options{
+      justify-content: space-between;
+      display: flex;
+      align-items: center;
+  }
+
+
+  .smart-dd.open svg {
+    transform: rotate(180deg);
+  }
+
+
+  .straight-up {
+    white-space: nowrap;
+    max-width: 85%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+
+  .smart-dd-trigger svg{
+    flex-shrink: 0;
+  }
+</style>
+
+
+
+<div class="sub-tab-content active" id="discord">
+    {% if not discord_connected %}
+        <p>Notify channels, control quest access through Discord roles, and automatically grant roles as rewards.</p>
+        <div class="linked-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" alt="Discord">
+        <span>Discord</span>
+        <span class="buttos discord-connect"
+                onclick="window.location.href='/invite_bot?community_id={{ community.id }}&next={{ request.full_path | urlencode }}'">
+            Connect
+        </span>
+        </div>
+    {% else %}
+    
+    <button class="linked-btn" style="cursor: not-allowed;">
+        <i class="fab fa-discord"></i> Bot connected successfully <span><img src="{{ url_for('static', filename='sprint.png') }}" width="17" height="17" class="bot-joined-img" alt=""></span>
+    </button>
+    
+    <form method="POST" action="">
+        
+        <div class="notify-container">
+        <div class="notify-header">
+            <h2 class="notify-title">Discord Notifications</h2>
+            <p class="notify-subtitle">Choose how your community gets notified in Discord</p>
+        </div>
+
+        <div class="notify-grid">
+
+        <!-- Card: New Quest -->
+        {% set setting = notification_settings.get("new_quest") %}
+        <div class="notify-card">
+
+            <div class="notify-card-head">
+            <h3 class="notify-card-title">New Quest</h3>
+
+            <label class="notify-switch">
+                <input type="checkbox"
+                    name="new_quest_enabled"
+                    onchange="toggleOptions(this)"
+                    {% if setting %}checked{% endif %}>
+                <span class="notify-slider"></span>
+            </label>
+            </div>
+
+            <p class="notify-card-desc">
+            Notify when a new quest is created or published
+            </p>
+            <div class="notify-options" {% if not setting %}style="display:none"{% endif %}>
+
+            <!-- CHANNEL DROPDOWN -->
+            <div class="smart-dd"
+                data-type="channel"
+                data-selected="{{ setting.channel_id if setting else '' }}">
+
+                <input type="hidden" name="new_quest_channel">
+
+                <div class="smart-dd-trigger">
+                <span class="straight-up">Select channel</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none">
+                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+
+                </div>
+
+                <div class="smart-dd-menu"></div>
+            </div>
+
+            <!-- ROLE DROPDOWN -->
+            <div class="smart-dd"
+                data-type="role"
+                data-selected="{{ setting.role_id if setting else '' }}">
+
+                <input type="hidden" name="new_quest_role">
+
+                <div class="smart-dd-trigger">
+                <span  class="straight-up">Select role</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none">
+                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+
+                </div>
+
+                <div class="smart-dd-menu"></div>
+            </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+        
+
+
+
+        </div>
+
+ 
+        </div>
+    </form>
+
+    {% endif %}
+
+</div>
+

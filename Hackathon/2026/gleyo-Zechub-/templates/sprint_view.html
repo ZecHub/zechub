@@ -1,0 +1,199 @@
+<title>{{ sprint.title }} Leaderboard</title>
+
+ <link rel="stylesheet" href="{{ url_for('static', filename='sprint_view.css') }}">
+
+
+
+
+{% set hex = sprint.color if sprint.color else '#4285f4' %}
+{% set r = hex[1:3]|int(base=16) %}
+{% set g = hex[3:5]|int(base=16) %}
+{% set b = hex[5:7]|int(base=16) %}
+
+
+
+
+ 
+<div class="main-wrapper">
+
+
+  <div class="switch-between-sprints-wrap" data-latest-sprint="{{ latest_sprint.uuid if latest_sprint else '' }}">
+    <div class="switch-between-sprints">
+      <div class="switch-pill"></div>
+
+      <button class="switch-tab" data-mode="all">
+        All time
+      </button>
+
+      <button class="switch-tab active" data-mode="sprint">
+        Sprint
+      </button>
+    </div>
+  </div>
+
+
+  <div id="info-left" class="info-left">
+    <div class="info-card">
+      <div class="info-top">
+
+
+
+        <div class="info-content">
+          <div class="contain-container" style="margin: 0;">
+            <h1 id="previewTitle" class="sprint-title">{{ sprint.title }}</h1>
+            <div class="diver-svg" onclick="toggleAnnouncement()">
+              <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 484.13"><path fill-rule="nonzero" d="m42.91 425.26 67.53-27.93c5.15-2.11 10.84-.91 14.69 2.63 19.44 17.83 42.15 32.12 67.1 41.82 24.01 9.35 50.22 14.48 77.71 14.48 59.15 0 112.7-23.97 151.46-62.74 38.76-38.75 62.73-92.31 62.73-151.46 0-59.15-23.97-112.7-62.73-151.46-38.76-38.76-92.31-62.73-151.46-62.73-59.15 0-112.71 23.97-151.46 62.73-38.76 38.76-62.74 92.31-62.74 151.46 0 17.49 2.04 34.34 5.88 50.32 3.99 16.58 9.92 32.44 17.53 47.29 2.08 4.07 1.95 8.69.07 12.49l.04.03-36.35 73.07zm204.77-272.59c0-4.03.71-7.77 2.13-11.2 1.41-3.42 3.55-6.54 6.39-9.33 2.83-2.79 5.93-4.9 9.27-6.32 3.36-1.41 6.97-2.13 10.84-2.13 3.88 0 7.49.72 10.81 2.13 3.34 1.42 6.39 3.53 9.17 6.34 2.78 2.79 4.88 5.89 6.26 9.32 1.4 3.42 2.09 7.16 2.09 11.19 0 3.93-.69 7.6-2.08 11-1.39 3.4-3.47 6.54-6.26 9.4-2.77 2.84-5.82 4.99-9.15 6.42-3.34 1.43-6.94 2.16-10.84 2.16-3.98 0-7.67-.71-11.06-2.13-3.37-1.42-6.46-3.55-9.25-6.38-2.77-2.85-4.86-5.97-6.24-9.38-1.4-3.41-2.08-7.1-2.08-11.09zm12.61 167.69c-1.05 3.74-3.16 11.07 3.1 11.07 1.35 0 3.08-.76 5.14-2.25 2.23-1.62 4.79-4.06 7.66-7.3 2.91-3.3 5.94-7.19 9.09-11.69 3.14-4.48 6.44-9.62 9.87-15.35.37-.61 1.18-.82 1.79-.45l11.64 8.63c.55.41.68 1.18.31 1.76-5.35 9.3-10.76 17.43-16.23 24.36-5.51 6.98-11.1 12.77-16.76 17.34l-.09.07c-5.67 4.59-11.47 8.04-17.42 10.35-16.56 6.41-42.7 5.37-50.19-13.95-4.73-12.21-.84-26.07 2.88-38.01l18.78-56.88c1.2-4.32 2.72-9.05 3.28-13.5.91-7.39-2.36-12.18-10.42-12.18H206.3c-.72 0-1.3-.59-1.3-1.31l.07-.45 4.32-15.7c.15-.58.69-.97 1.26-.96l83.89-2.63c.72-.03 1.32.54 1.35 1.25l-.06.42-35.54 117.36zM113 426.33l-92.87 38.39a13.89 13.89 0 0 1-12.41.01c-6.88-3.43-9.68-11.79-6.26-18.67L51.29 345.9a240.606 240.606 0 0 1-16.66-47.1 242.111 242.111 0 0 1-6.75-56.74c0-66.84 27.09-127.36 70.9-171.16C142.58 27.1 203.1 0 269.94 0S397.3 27.1 441.1 70.9c43.8 43.8 70.9 104.32 70.9 171.16s-27.1 127.36-70.9 171.16c-43.8 43.81-104.32 70.91-171.16 70.91-30.86 0-60.46-5.83-87.72-16.44A242.153 242.153 0 0 1 113 426.33z"/>
+              </svg>
+            </div>
+          </div>
+
+
+          <div class="mob-desk-mode">
+
+            <div class="participants-meta">
+              <span class="participants-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 3C9.51472 3 7.5 5.01472 7.5 7.5C7.5 9.98528 9.51472 12 12 12C14.4853 12 16.5 9.98528 16.5 7.5C16.5 5.01472 14.4853 3 12 3Z"/>
+                  <path d="M16.5 13.5L7.5 13.5C6.46774 13.5 5.48769 13.9465 4.89696 14.6693C4.27533 15.43 4.10333 16.4973 4.77316 17.4874C6.21072 19.6122 8.97039 21 12 21C15.0296 21 17.7893 19.6122 19.2268 17.4874C19.8967 16.4973 19.7247 15.43 19.103 14.6693C18.5123 13.9465 17.5323 13.5 16.5 13.5Z"/>
+                </svg>
+
+
+              </span>
+
+              <span class="participants-count">
+                {{ sprint.participant_count | default("2,000,000") }} participants
+              </span>
+            </div>
+
+            <div class="sprint-date">
+              <div class="date-item">
+                <span class="calendar-icon">
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none"
+                      stroke="currentColor" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="4" width="18" height="17" rx="4" ry="4"/>
+                    <line x1="7.25" y1="2.5" x2="7.25" y2="5.5" />
+                    <line x1="15.25" y1="2.5" x2="15.25" y2="5.5" />
+                    <line x1="6" y1="9" x2="18" y2="9" />
+                    <circle cx="8" cy="13" r="0.4" fill="currentColor"/>
+                    <circle cx="12" cy="13" r="0.4" fill="currentColor"/>
+                    <circle cx="16" cy="13" r="0.4" fill="currentColor"/>
+                    <circle cx="8" cy="16.5" r="0.4" fill="currentColor"/>
+                    <circle cx="12" cy="16.5" r="0.4" fill="currentColor"/>
+                    <circle cx="16" cy="16.5" r="0.4" fill="currentColor"/>
+                  </svg>
+                </span>
+              </div>
+              <div id="timezone-start" data-utc="{{ sprint.start_date.isoformat() }}Z"></div>
+
+              <div class="date-sepatimezone-endrator">–</div>
+
+              <div class="date-item"  id="timezone-end" data-utc="{{ sprint.end_date.isoformat() }}Z"></div>
+            </div>
+          </div>
+
+
+          <p class="countdown-label">Ends in:</p>
+            <div class="countdown-wrapper" id="countdownWrapper" style="{% if sprint_has_ended %}display:none;{% endif %}">
+              <div id="countdownTimer" class="countdown-timer">
+                <div class="countdown-digit"><span class="num">00</span><span class="unit">DAYS</span></div>
+                <div class="countdown-digit"><span class="num">00</span><span class="unit">HRS</span></div>
+                <div class="countdown-digit"><span class="num">00</span><span class="unit">MIN</span></div>
+                <div class="countdown-digit"><span class="num">00</span><span class="unit">SEC</span></div>
+              </div>
+            </div>
+
+            <div class="top-rank-row">
+              <div class="top-rank-left">
+                <span class="rank-number">1.</span>
+
+                <div class="rank-avatar"></div>
+
+                <span class="rank-username">Aisha</span>
+              </div>
+
+              <span class="rank-xp">1,420 XP</span>
+            </div>
+        </div>
+      </div>
+
+
+      <div class="info-bottom-wrapper" style="margin: 0; padding: 0;">
+      <div class="info-bottom">
+        <div class="participants-section">
+          <div class="empty-message" style="display: none;">
+            <h2>Ready, set, go!</h2>
+            <p> The leaderboard is waiting for its first champion.  a sprint and lead the charge. 🚀 Your moment begins now.
+            </p>
+          </div>
+          <ul class="participants-list" style="width: 100% !important;">
+
+          </ul>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="announcement-container mobile-slide" id="announcementPanel">
+  <div class="details-reward">
+
+    <div id="dragHandle">
+      <div class="drag-handle"></div>
+    </div>
+
+      <div class="announcement-section announcement-header">
+        <div  class="highlight-box first">
+
+        <div class="topper-init" >
+          <h1 class="side-h1" style="color: var(--text-main); text-shadow: var(--text-main); font-size: 15px;">{{ sprint.title }}</h1>
+
+          <div class="tooltip-wrapper" id="edit-button-wrapper"
+              data-sprint-end="{{ sprint.end_date.isoformat() }}Z"
+              data-has-ended="{{ 'true' if sprint_has_ended else 'false' }}">
+            <a 
+              href="/{{ community.slug }}/sprint/edit/{{ sprint.uuid }}"  
+              data-path="/{{ community.slug }}/sprint/edit/{{ sprint.uuid }}"
+              onclick="event.preventDefault(); loadMainSettingsSection(this.dataset.path, event)"
+              class="edit-icon-btn" aria-label="Edit Sprint">
+                <svg class="svg-icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M810.666667 298.666667l-362.666667 362.666666-85.333333-85.333333L725.333333 213.333333l85.333334 85.333334z m-387.669334 277.333333l25.002667 24.96L750.336 298.666667 725.333333 273.664 422.997333 576z" fill="#FFFFFF" /><path d="M448 661.333333c-48.512 9.685333-106.581333 26.88-100.394667-10.069333L362.666667 576l85.333333 85.333333zM812.8 145.621333c45.866667 3.413333 85.888 63.445333 53.12 97.877334l-33.92 33.92-85.333333-85.418667c20.992-21.077333 33.536-47.146667 66.133333-46.378667z" fill="#FFFFFF" /><path d="M859.434667 534.186667c14.848 5.418667 14.848 13.312 15.232 20.48v149.461333c-1.28 99.413333-85.162667 188.032-187.221334 191.829333-129.536 1.578667-261.12 11.946667-388.224-0.938666-91.093333-9.258667-168.704-90.154667-172.330666-186.026667-1.621333-129.706667 0-259.413333 0-389.12C128 220.586667 211.968 131.84 314.026667 128.042667c26.88-0.298667 56.234667 0 83.498666 0 62.72 0 92.928-3.413333 92.928 21.76 0.042667 10.922667-8.96 20.138667-21.162666 20.906666H347.136c-29.482667-0.085333-54.058667-0.128-78.634667 8.704-56.576 20.224-96.682667 76.245333-98.944 136.874667a15575.296 15575.296 0 0 0 0 391.594667c2.901333 76.586667 68.437333 142.506667 145.408 145.408 123.776 1.536 247.637333 1.536 371.413334 0 76.544-2.858667 142.677333-68.608 145.578666-145.578667 0.64-51.029333 0-102.016 0-153.045333 0.853333-14.208 7.552-25.173333 27.477334-20.48z" fill="#FFFFFF" />
+                </svg>
+            </a>
+          </div>
+        </div>
+        <p class="announcement-status" style="color: var(--text-main); font-size: 14px !important;" data-start="{{ sprint.start_date.isoformat() }}Z" data-end="{{ sprint.end_date.isoformat() }}Z" id="announcementStatus"></p>
+        </div>
+      </div>
+    <div class="announcement-section announcement-details">
+      <div class="highlight-box second">
+        <h2 style="color: var(--text-main); font-weight: bold; margin: 0; font-size: 15px;">Why Join?</h2>
+
+        <p style="color: var(--text-main); font-size: 14px !important; line-height: 1.6;">{{ sprint.description }} 
+          {{ sprint.description }}
+        </p>
+      </div>
+    </div>
+
+    <div class="announcement-section announcement-rewards">
+      <div class="highlight-box third">
+        <h2 style="color: var(--text-main); font-weight: bold; margin: 0; font-size: 15px; margin: 0; padding: 0;">Top Prize</h2>
+
+        <p class="reward-amount">$10,000 </p>
+      </div>
+    </div>
+  </div>  
+</div>
+
+</div>
+
+
+
+
+
+
+<div id="activity-modal" class="activity-modal hidden">
+  <div class="activity-content"></div>
+</div>
+
+

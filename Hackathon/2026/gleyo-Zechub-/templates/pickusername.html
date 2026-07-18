@@ -1,0 +1,210 @@
+
+
+<title>Create Username</title>
+
+<style>
+  :root {
+    --bg-app: #0b0b12;
+    --bg-surface: #222236;
+    --bg-surface-lower: #222236e3;
+    --border: #2f2f4a;
+    --text-main: #e5e7eb;
+    --text-muted: #9ca3af;
+    --accent-color: #6366f1;
+    --radius: 14px;
+  }
+
+  * { box-sizing: border-box; }
+
+  html {
+    background-color: var(--bg-app) !important;
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    background: radial-gradient(circle at 30% 20%, #151528 0%, #0b0b12 60%);
+    color: var(--text-main);
+    height: 100dvh;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100%;
+  }
+
+  ::selection {
+    background: #4effcd29; 
+    color: var(--text-main);        
+  }
+
+  ::-moz-selection {
+    background: #4effcd29; 
+    color: var(--text-main);        
+  }
+
+
+
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 48px 40px;
+    backdrop-filter: blur(20px);
+    text-align: center;
+  }
+
+  .error-text {
+    margin: 3px 0;
+    font-style: italic;
+    font-style: 12.5px;
+    color: #ff9b9b;
+  }
+
+  h1 {
+    margin: 0 0 16px;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+  }
+
+  .subtitle {
+    color: var(--text-muted);
+    font-size: 14px;
+    margin-bottom: 24px;
+    line-height: 1.6;
+  }
+
+  .rules {
+    text-align: left;
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 24px;
+    line-height: 1.6;
+    background: rgba(255, 255, 255, 0.006);
+    padding: 18px 18px;
+    border-radius: 22px;
+    border: 1px solid var(--border);
+  }
+
+  .rules strong {
+    color: var(--text-main);
+    opacity: 0.9;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  input {
+    padding: 14px 16px;
+    border-radius: 16px;
+    border: 1px solid var(--border);
+    background: #1a1a2e;
+    color: var(--text-main);
+    font-size: 14px;
+    outline: none;
+    transition: all 0.2s ease;
+  }
+  input::placeholder {
+    color: var(--text-muted);
+    opacity: 0.9;
+    font-size: 14px;
+  }
+
+  input:focus {
+    border-color: var(--accent-color);
+  }
+
+  .helper-text {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: -6px;
+  }
+
+  button {
+    padding: 14px;
+    border-radius: 12px;
+    border: none;
+    background: var(--accent-color);
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  button:hover {
+    transform: translateY(-1px);
+    opacity: 0.9;
+  }
+
+
+  #username-uppercase-error {
+    font-size: 13px;
+    color: #ff9b9b !important;  
+    margin: 0;
+    width: 100%;
+    text-align: left;
+  }
+
+  @media (max-width: 480px) {
+    html, body { align-items: center; height: 100dvh; }
+
+    .container {
+      padding: 32px 20px;
+      border-radius: 0;
+      background: transparent;
+      border: none;
+      box-shadow: none;
+    }
+  }
+</style>
+
+
+<div class="container">
+  <h1>Create your username</h1>
+
+  <p class="subtitle">
+    Choose a unique username that represents you on Gleyo.  
+    You can change it later from your settings.
+  </p>
+
+  <div class="rules">
+    <strong>Username guidelines:</strong><br><br>
+    • Usernames are <strong style=" opacity: 0.9;">case-sensitive</strong> and must be lowercase<br>
+    • 3 to 20 characters long<br>
+    • Only letters (a–z), numbers (0–9), and underscores (_) allowed<br>
+    • No spaces or special characters<br><br>
+    Example: <strong style=" opacity: 0.9;">gleyo_user</strong>
+  </div>
+
+  <form method="POST" action="/pick-username">
+      
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+
+    <input 
+      id="username-input" 
+      type="text" 
+      name="username"
+      placeholder="e.g. gleyo_user"
+      autocomplete="off"
+      minlength="3"
+      maxlength="20"
+      pattern="^[a-z0-9_]+$"
+      required
+    >
+
+
+    {% if error %}
+      <p class="error-text">{{ error }}</p>
+    {% endif %}
+
+    <p id="username-error" class="error-text" style="display:none;"></p>
+
+    <button type="submit" id="continueBtn">Continue</button>
+  </form>
+</div>
+
+ 
+ 

@@ -1,0 +1,403 @@
+
+<title>OTP Verification</title>
+<meta name="csrf-token" content="{{ csrf_token() }}">
+
+<style>
+ 
+
+  :root {
+    --bg-app-set-up: #0b0b12;
+    --bg-app-others: #212136;
+    --bg-app-init: #0b0b12;
+    --bg-app: #0b0b12;
+    --bg-sidebar: #181826;
+    /* --bg-sidebar: #1818266c; */
+    --bg-sidebar-opaque: #181826a4;
+    --bg-sidebar-opaque-back: #181826cc;
+    --bg-sidebar-inactive: #181826c5;
+    --main-ui: #1e1e2f;
+    --bg-surface-lower-q: #191929;
+    --bg-surface: #222236;
+    --bg-surface-dropdown: #1b1b2c;
+    --bg-surface-in-active: #161623;
+    --multi-spacing: #1b1b2b;
+    --bg-hover-hover-init-q-qq: #161623;
+    --bg-hover-hover-init-q-qq-hover: #161623;
+    --bg-surface-active: rgba(28, 28, 43, 0.851);
+    --bg-surface-active-q-p: rgba(28, 28, 43, 0.784);
+    --bg-surface-active-hover: rgba(28, 28, 43, 0.82);
+    --bg-hover: #2a2a44;
+    --bg-surface-lower: #222236e3;
+    --bg-surface-active-q: rgba(90, 120, 255, 0.18);
+    --bg-surface-active-q-active: rgba(120, 160, 255, 0.45);
+    --border-q-p: #2a2a44e4;
+    --bg-hover-q-p: #3c3c51c0;
+    --bg-hover-back-q-p: #222236c3;
+    --bg-hover-back-q-p-balck: #2222368e;
+    --border-split: #e4e4e4da;
+    --bg-hover-hover: #2a2a449c;
+    --content-dropper: #151520;
+    --bg-hover-hover-init-q: #2a2a4469;
+    --bg-hover-hover-init-q-hover: #2a2a4449;
+    --bg-hover-hover-plain: #232339;
+    --bg-hover-hover-lower: #2a2a4467;
+    --bg-hover-hover-3: #2323389c;
+    --satus-yyr : #212135ea;
+    --error-alt: #e74c3c;
+    --sub-muted: #9aa0b4;
+    --active-ness: #2ecc71;
+    --red: rgba(255, 0, 0, 0.519);
+    --bg-active-border: #353555;
+    --bg-active: #303050;
+    --accent-color: #6366f1;   
+    --text-main-q: #e5e7eb3f;
+    --accent-70: color-mix(in srgb, var(--accent-color) 70%, transparent);
+    --accent-45: color-mix(in srgb, var(--accent-color) 45%, transparent);
+    --accent-25: color-mix(in srgb, var(--accent-color) 25%, transparent);
+    --text-main: #e5e7eb;
+    --sub-accent: #5865F2;
+    --bg-hover-hover-adder: #2f2f4a96;
+    --bg-hover-hover-init-r: #2a2a4488;
+    --text-main-items: #e5e7ebdf;
+    --accent-color-hover: #2a2a4472;
+    --text-main-items-reviews: #dadcdffa;
+    --main-ui-snap: #2a2a463c;
+    --main-ui-snap-hover: #2a2a462a;
+    --border-main-ui-snap: #2f2f4add;
+    --bg-hover-hover-dim: #2a2a4465;
+    --text-muted: #bbbfc7;
+    --text-muted-svg: #bbbfc78b;
+    --text-muted-bg: #b4b8c0;
+    --toggle-knob: #f3f4f6;
+    --text-main-small: #d9dbdf;
+    --bg-surface-lighter: #222236be;
+    --border: #2f2f4a;
+    --border-light: #404060;
+    /* --border-light: #32324e; */
+    --border-lighter: #2f2f4a9d;
+    --bg-hover-hover-init-q-hover-border: #2f2f4ab6;
+    --radius: 12px;
+    --bg-surface-init: #222236c3;
+    --info-bg: rgba(250, 204, 21, 0.08);
+    --info-border: rgba(250, 204, 21, 0.25);
+    --accent2: #3ecfcf;
+    --green: #2ecc71;
+    --red: #e74c3c;
+    --orange: #f39c12;
+
+
+
+    --main-text: #FFF;
+
+    --card-bg: var(--bg-sidebar);
+    --page-bg: #0b0f0e;
+    --border-muted-start: #2a2f2e;
+    --border-muted-end: #1a1f1e;
+  
+  
+
+  
+  }
+
+
+  * {
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif !important;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+
+
+  html {
+    background-color: var(--bg-app) !important;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    background: radial-gradient(circle at 30% 20%, #151528 0%, #0b0b12 60%);
+    color: var(--text-main);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+
+
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 480px;
+    padding: 40px 32px;
+    height: 100dvh !important;
+    display: flex;
+    overflow-y: auto;
+    overflow-x: hidden;
+    min-height: 100dvh !important;
+    text-align: center;
+  }
+
+
+  .pickmy {
+    margin: 0 0 12px;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+  }
+
+  .container p {
+    margin: 0 0 24px;
+    font-size: 14px;
+    color: var(--text-muted);
+  }
+
+  .container u {
+    color: var(--text-main);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+
+  .container p[style*="color:red"] {
+    background: rgba(231, 76, 60, 0.08);
+    color: var(--red);
+    padding: 10px 14px;
+    border-radius: 10px;
+    margin-bottom: 18px;
+    font-size: 13px;
+  }
+
+  .container p[style*="color:green"] {
+    background: rgba(46, 204, 113, 0.08);
+    color: var(--green);
+    padding: 10px 14px;
+    border-radius: 10px;
+    margin-bottom: 18px;
+    font-size: 13px;
+  }
+
+
+  .code-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+
+  .code-input {
+    width: 52px;
+    height: 58px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    background: var(--bg-surface-lower);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    color: var(--text-main);
+    transition: all 0.2s ease;
+    outline: none;
+  }
+
+  .code-input:focus {
+    border-color: var(--accent-color);
+    background: var(--bg-surface-active);
+  }
+
+  .code-input:hover {
+    border-color: var(--border-light);
+  }
+
+
+  .nester {
+    width: 100%;
+    height: 48px;
+    border: none;
+    border-radius: 14px;
+    background: var(--accent-color);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-bottom: 18px;
+  }
+
+  .nester:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 18px var(--accent-45);
+  }
+
+  .nester:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 10px var(--accent-25);
+  }
+
+
+  .resend-line {
+    font-size: 14px;
+    color: var(--text-muted);
+    display: inline-block;
+    margin-bottom: 24px;
+  }
+
+  .resend_link {
+    color: var(--accent-color);
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .resend_link:hover {
+    text-decoration: underline;
+  }
+
+  /* ===== Terms ===== */
+
+  .terms-label {
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.6;
+    display: block;
+  }
+
+  .link-terms {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .link-terms:hover {
+    text-decoration: underline;
+  }
+
+
+  @media (max-width: 767px) {
+    .container {
+      padding: 32px 20px;
+      border-radius: 16px;
+      max-width: 100% !important;
+    }
+
+    .code-input {
+      width: 44px;
+      height: 52px;
+      font-size: 20px;
+    }
+
+    html, body {
+      height: 100dvh;
+    }
+  }
+
+
+  .fire-pee {
+    font-style: italic;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+  }
+
+  .code-input.error {
+    border-color: #e74c3c !important;
+    background: rgba(231, 76, 60, 0.08);
+    animation: shake 0.3s ease;
+  }
+
+
+  ::selection {
+    background: #4effcd29; 
+    color: var(--text-main);        
+  }
+
+  ::-moz-selection {
+    background: #4effcd29; 
+    color: var(--text-main);        
+  }
+
+
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-4px); }
+    50% { transform: translateX(4px); }
+    75% { transform: translateX(-4px); }
+    100% { transform: translateX(0); }
+  }
+
+
+
+
+  .resend-status {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 6px;
+    gap: 6px;
+    font-size: 13px;
+    opacity: 0;
+    transition: opacity 0.4s ease, color 0.25s ease;
+  }
+
+  .resend-status.show {
+    opacity: 1;
+  }
+
+
+  .resend-status svg{
+    width: 13px;
+    height: 13px;
+    fill: currentColor;
+    position: relative;
+  }
+
+  .resend-status.sent {
+    color: #4ade80;
+  }
+
+  .resend-status.wait {
+    color: #ff9b9b;  
+  }
+
+
+</style>
+<body>
+  <div class="container">             
+
+  <h1 class="pickmy">OTP Verification</h1>
+    <p>Please enter the 4-digit code sent to  <u class="fire-pee">{{ email }}.</u> </p>
+    
+    <form onsubmit="return false;">
+       <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+      
+      <div id="resendStatus" class="resend-status"></div>
+      
+      <div class="code-boxes" style="border: none;">
+        <input name="digit1" class="code-input" inputmode="numeric" pattern="[0-9]*" autocomplete="one-time-code" style="outline: none !important;" required>
+        <input name="digit2" maxlength="1" class="code-input" inputmode="numeric" pattern="[0-9]*" style="outline: none !important;" required>
+        <input name="digit3" maxlength="1" class="code-input" inputmode="numeric" pattern="[0-9]*" style="outline: none !important;" required>
+        <input name="digit4" maxlength="1" class="code-input" inputmode="numeric" pattern="[0-9]*" style="outline: none !important;" required>
+        <input name="digit5" maxlength="1" class="code-input" inputmode="numeric" pattern="[0-9]*" style="outline: none !important;" required>
+        <input name="digit6" maxlength="1" class="code-input" inputmode="numeric" pattern="[0-9]*" style="outline: none !important;" required>
+      </div>
+      
+    </form>
+
+
+    <span class="resend-line">
+        Didn't recieved a code?
+        <div id="resendBtn" class="resend_link" style="cursor: pointer; ">Resend</div>
+
+    </span>
+
+
+  <label class="terms-label">
+    By continuing, you acknowledge you've read and agreed to our
+    <a href="{{ url_for('terms') }}" target="_blank" class="link-terms">Terms of Service</a> &
+    <a href="{{ url_for('privacy') }}" target="_blank" class="link-terms">Privacy Policy</a>
+  </label>
+
+
+

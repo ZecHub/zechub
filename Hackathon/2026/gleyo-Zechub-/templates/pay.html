@@ -1,0 +1,1530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="/static/pay.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+
+  <title>Payment</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700&family=Lora:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/qr-code-styling/lib/qr-code-styling.js" defer></script>
+  <script src="{{ url_for('static', filename='pay.js') }}" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js" defer></script>
+  <style>
+
+    :root {
+      --bg-app: #0b0b12;
+      --bg-surface: #222236;
+      --bg-surface-rgb: 34, 34, 54;
+      --bg-surface-lower: #222236e3;
+      --border: #2f2f4a;
+      --border-rgb: 47, 47, 74;
+      --text-main: #e5e7eb;
+      --text-main-rgb: 229, 231, 235;
+      --text-muted: #bbbfc7;
+      --text-muted-rgb: 187, 191, 199;
+      --accent-color: #f4b728;
+      --accent-rgb: 244, 183, 40;
+      --radius: 14px;
+      /* Right-panel (deposit/QR view) font — system-native look, matches Zodl */
+      --font-rp: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", system-ui, "Segoe UI", sans-serif;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+      -webkit-user-select: none;
+      -webkit-touch-callout: none;
+    }
+
+    html, body {
+      overflow-x: hidden !important;
+      width: 100% !important;
+      height: 100%;
+      min-height: 100% !important;
+      max-width: 100vw !important;
+    }
+
+    @media (max-width: 768px) {
+      html, body {
+        background: radial-gradient(circle at 30% 20%, #151528 0%, var(--bg-app) 60%) !important;
+      }
+    }
+
+    .container,
+    .left-panel,
+    .left-panel-form,
+    .right-panel,
+    #preview-panel  {
+      max-width: 100% !important;
+      overflow-x: hidden !important;
+      box-sizing: border-box !important;
+    }
+
+    .payment-info-box {
+      max-width: 360px;
+      width: 100%;
+      -webkit-mask-image: -webkit-radial-gradient(white, black); 
+      mask-image: radial-gradient(white, black);
+      scrollbar-gutter: stable both-edges; 
+    }
+
+    body.right-panel-active {
+      overflow-x: hidden !important;
+      max-width: 100vw !important;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-app);
+      height: 100%;
+      width: 100%;
+      display: flex;
+      font-family: 'DM Sans', sans-serif;
+      color: var(--text-main);
+    }
+
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: rgba(var(--text-muted-rgb), 0.10); border-radius: 99px; }
+
+    ::selection { background: rgba(var(--accent-rgb), 0.2); color: var(--text-main); }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      min-height: 100dvh;
+      width: 100%;
+    }
+
+    .left-panel {
+      display: flex;
+      flex: 1;
+      min-width: 0;
+    }
+
+    .left-panel-form {
+      flex: 0 0 42%;
+      min-width: 0;
+      padding: 2.8rem 2.6rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow-y: auto;
+      position: relative;
+      z-index: 2;
+    }
+
+    .left-panel-image {
+      flex: 0 0 58%;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .left-panel-image::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, var(--bg-app) 0%, transparent 30%);
+      pointer-events: none;
+    }
+
+    .left-panel-image img {
+      height: 100vh;
+      width: 100%;
+      object-fit: cover;
+      display: block;
+      opacity: 0.85;
+    }
+
+    /* ============================================================
+       RIGHT PANEL — Zodl-style deposit screen
+       ============================================================ */
+    .right-panel {
+      flex: 1;
+      width: 100%;
+      min-width: 0;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      padding: 4px 2rem;
+      position: relative;
+      background: rgba(var(--bg-surface-rgb), 0.10);
+      border-left: 1px solid rgba(var(--border-rgb), 0.9);
+      text-align: center;
+      font-family: var(--font-rp);
+    }
+
+    .right-panel::before,
+    .right-panel::after {
+      content: '';
+      position: absolute;
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .right-panel::before {
+      width: 320px; height: 320px;
+      background: rgba(var(--accent-rgb), 0.13);
+      filter: blur(80px);
+      top: -60px; right: -60px;
+    }
+    .right-panel::after {
+      width: 240px; height: 240px;
+      background: rgba(66,133,244,0.10);
+      filter: blur(70px);
+      bottom: 40px; left: 20px;
+    }
+
+    .rp-topbar {
+      width: 100%;
+      max-width: 360px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
+      justify-content: space-between;
+      padding: 18px 4px 8px;
+      position: relative;
+      z-index: 3;
+    }
+    .rp-icon-btn {
+      background: transparent;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--text-main);
+      border-radius: 50%;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .rp-icon-btn:hover { outline: 1px solid var(--accent-color); outline-offset: 4px;}
+    .rp-icon-btn svg { width: 19px; height: 19px; }
+    .rp-topbar-title {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(var(--text-muted-rgb), 0.9);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 2.4rem;
+      font-family: 'DM Sans', sans-serif;
+    }
+
+    .brand-mark {
+      width: 34px; height: 34px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
+      box-shadow: 0 0 16px rgba(40, 132, 244, 0.35);
+    }
+
+    .brand-name {
+      font-size: 16px; font-weight: 700;
+      font-family: 'Syne', sans-serif;
+      color: var(--text-main);
+      letter-spacing: 0.01em;
+    }
+
+    .left-panel-form h1 {
+      font-size: clamp(19px, 6.4vw, 28px);
+      font-weight: 800;
+      margin: 0 0 4px;
+      color: var(--text-main);
+      letter-spacing: -0.02em;
+      font-family: 'Syne', sans-serif;
+      white-space: nowrap;
+      overflow: hidden;
+      max-width: 100%;
+    }
+
+    @media (max-width: 445px) {
+      .left-panel-form h1 {
+        font-size: clamp(10px, 5.5vw, 22px);
+      }
+
+      .main-conatiner {
+        padding: 20px 0;
+      }
+    }
+
+    @media (min-width: 445px) {
+
+      .main-conatiner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100% !important;
+        height: 100% !important;
+      }
+    }
+
+    .form-subtitle {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin: 0 0 2rem;
+      letter-spacing: 0.01em;
+    }
+
+    .field-group {
+      margin-bottom: 1.2rem;
+      min-width: 0;
+    }
+
+    .field-label {
+      display: block;
+      font-size: 11px;
+      font-weight: 600;
+      color: rgba(var(--text-muted-rgb), 0.85);
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      margin-bottom: 8px;
+    }
+
+    .glass-input {
+      width: 100%;
+      max-width: 100%;
+      background: rgba(var(--bg-surface-rgb), 0.5);
+      border: 0.9px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--text-main);
+      font-size: 15px;
+      font-family: 'DM Sans', sans-serif;
+      padding: 13px 16px;
+      outline: none;
+      transition: border-color 0.2s, background 0.2s, box-shadow 0.2s;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      appearance: none;
+      -webkit-appearance: none;
+    }
+
+    .glass-input:hover {
+      background: rgba(var(--bg-surface-rgb), 0.6);
+      border-color: rgba(var(--border-rgb), 0.84);
+    }
+
+    .glass-input:focus {
+      border-color: rgba(var(--accent-rgb), 0.5);
+      background: rgba(var(--bg-surface-rgb), 0.68);
+      box-shadow: 0 0 0 3px rgba(var(--accent-rgb), 0.10),
+                  inset 0 1px 0 rgba(var(--text-main-rgb), 0.07);
+    }
+
+    .glass-input::placeholder {
+      color: rgba(var(--text-muted-rgb), 0.4);
+    }
+
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; display: none; }
+    input[type=number] { -moz-appearance: textfield; }
+
+    /* TOKEN / NETWORK CUSTOM SELECTS */
+    .selects-row {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 1.2rem;
+    }
+    .selects-row .field-group { margin-bottom: 0; flex: 1; min-width: 0; }
+
+    .select-wrapper { position: relative; width: 100%; }
+
+    .custom-select {
+      width: 100%;
+      background: rgba(var(--bg-surface-rgb), 0.5);
+      border: 0.9px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--text-main);
+      font-size: 14.5px;
+      font-family: 'DM Sans', sans-serif;
+      padding: 13px 16px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      transition: border-color 0.2s, background 0.2s, box-shadow 0.2s;
+      position: relative;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+
+    .custom-select:hover {
+      background: rgba(var(--bg-surface-rgb), 0.6);
+      border-color: rgba(var(--border-rgb), 0.84);
+    }
+    .custom-select.open {
+      border-color: rgba(var(--accent-rgb), 0.5);
+      background: rgba(var(--bg-surface-rgb), 0.68);
+      box-shadow: 0 0 0 3px rgba(var(--accent-rgb), 0.10);
+    }
+    .custom-select.disabled {
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
+    .custom-select .selected-label {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .custom-select .chevron {
+      width: 9px; height: 9px;
+      border-right: 1.6px solid rgba(var(--text-muted-rgb), 0.6);
+      border-bottom: 1.6px solid rgba(var(--text-muted-rgb), 0.6);
+      transform: rotate(45deg);
+      transition: transform 0.2s;
+      flex-shrink: 0;
+      margin-top: -3px;
+    }
+    .custom-select.open .chevron { transform: rotate(-135deg); margin-top: 3px; }
+
+    .options-list {
+      position: absolute;
+      top: calc(100% + 8px);
+      left: 0; right: 0;
+      background: rgba(var(--bg-surface-rgb), 0.55);
+      backdrop-filter: blur(22px);
+      -webkit-backdrop-filter: blur(22px);
+      border: 0.9px solid var(--border);
+      border-radius: 12px;
+      overflow-y: auto;
+      max-height: 220px;
+      z-index: 30;
+      display: none;
+      box-shadow: 0 14px 34px rgba(0,0,0,0.5);
+    }
+
+    .options-list.open { display: block; }
+
+    .option-item {
+      padding: 12px 16px;
+      font-size: 13.5px;
+      color: rgba(var(--text-muted-rgb), 0.85);
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+      border-bottom: 1px solid rgba(var(--border-rgb), 0.55);
+    }
+    .option-item:last-child { border-bottom: none; }
+    .option-item:hover { background: rgba(var(--accent-rgb), 0.12); color: var(--text-main); }
+    .option-item.active { color: var(--accent-color); background: rgba(var(--accent-rgb), 0.08); }
+    .option-item.placeholder-item {
+      color: rgba(var(--text-muted-rgb), 0.5);
+      cursor: default;
+      font-style: italic;
+    }
+    .option-item.placeholder-item:hover { background: transparent; color: rgba(var(--text-muted-rgb), 0.5); }
+
+    .amount-wrap { position: relative; min-width: 0; }
+    .amount-wrap .glass-input { padding-right: 74px; }
+    .zec-badge {
+      position: absolute;
+      right: 13px; top: 50%; transform: translateY(-50%);
+      background: rgba(var(--accent-rgb), 0.12);
+      border: 1px solid rgba(var(--accent-rgb), 0.28);
+      border-radius: 8px;
+      font-size: 10.5px; font-weight: 500;
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--accent-color);
+      padding: 4px 9px;
+      letter-spacing: 0.08em;
+      pointer-events: none;
+      transition: opacity 0.15s;
+    }
+
+    .convert-preview {
+      font-size: 11.5px;
+      color: rgba(var(--text-muted-rgb), 0.7);
+      margin-top: 8px;
+      font-family: 'JetBrains Mono', monospace;
+      min-height: 15px;
+      display: none;
+    }
+    .convert-preview.show { display: block; }
+    .convert-preview strong { color: var(--accent-color); font-weight: 500; }
+    .convert-preview.err { color: #e05c5c; }
+
+    textarea.glass-input {
+      resize: none;
+      height: 86px;
+      min-height: 86px !important;
+      max-height: 186px;
+      line-height: 1.55;
+      overflow-y: hidden;
+      transition: height 0.15s ease, border-color 0.2s, background 0.2s, box-shadow 0.2s;
+    }
+
+    .refund-link {
+      width: fit-content;
+      display: inline-block;
+      font-size: 12px;
+      color: rgba(var(--text-muted-rgb), 0.9);
+      cursor: pointer;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      margin-bottom: 1.2rem;
+      transition: color 0.2s;
+      font-style: italic;
+    }
+    .refund-link:hover { color: var(--text-main); }
+
+    .btn-generate {
+      width: 100%;
+      background: linear-gradient(135deg, var(--accent-color) 0%, #d9960a 100%);
+      border: none;
+      border-radius: var(--radius);
+      color: var(--bg-app);
+      font-size: 15px;
+      font-weight: 700;
+      font-family: 'DM Sans', sans-serif;
+      padding: 14px 20px;
+      cursor: pointer;
+      transition: opacity 0.2s, transform 0.1s;
+      letter-spacing: 0.01em;
+      display: flex; align-items: center; justify-content: center;
+      gap: 8px;
+      box-shadow: 0 4px 20px rgba(var(--accent-rgb), 0.28);
+    }
+    .btn-generate:hover { opacity: 0.88; }
+    .btn-generate:active { transform: scale(0.98); }
+    .btn-generate svg { width: 18px; height: 18px; }
+    .btn-generate:disabled {
+      opacity: 0.7;
+      cursor: not-allowed;
+    }
+
+    .btn-spinner {
+      width: 16px; height: 16px;
+      border: 2px solid rgba(11, 11, 18, 0.25);
+      border-top-color: var(--bg-app);
+      border-radius: 50%;
+      animation: spin 0.75s linear infinite;
+      flex-shrink: 0;
+    }
+
+    /* ============================================================
+       PAYMENT INFO BOX — Zodl deposit-screen content
+       ============================================================ */
+    .payment-info-box {
+      background: rgba(var(--bg-surface-rgb), 0.448);
+      backdrop-filter: blur(28px);
+      -webkit-backdrop-filter: blur(28px);
+      border: 1px solid rgba(var(--border-rgb), 0.84);
+      border-radius: 24px;
+      padding: 30px 26px 26px;
+      max-width: 360px;
+      width: 100%;
+      max-height: 70dvh;
+      overflow-y: auto;
+      position: relative;
+      z-index: 2;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+    }
+
+    .payment-info-box::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 12%; right: 12%;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(var(--text-main-rgb), 0.18), transparent);
+      border-radius: 99px;
+      pointer-events: none;
+    }
+
+    #timer {
+      font-size: 12.5px;
+      font-weight: 600;
+      position: relative;
+      font-family: 'JetBrains Mono', monospace;
+      color: #e05c5c;
+      letter-spacing: 0.04em;
+    }
+
+    /* "Deposit Amount" row w/ inline copy icon — matches Zodl header */
+    .rp-amount-label-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      margin-bottom: 14px;
+    }
+    .rp-amount-label {
+      font-size: 13px;
+      font-weight: 500;
+      color: rgba(var(--text-muted-rgb), 0.85);
+      font-family: var(--font-rp);
+    }
+    .rp-copy-amount-btn {
+      background: transparent;
+      border: none;
+      color: rgba(var(--text-muted-rgb), 0.75);
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      padding: 2px;
+      transition: color 0.15s;
+    }
+    .rp-copy-amount-btn:hover { color: var(--text-main); }
+    .rp-copy-amount-btn svg { width: 15px; height: 15px; }
+
+    /* Token icon (w/ network badge bottom-right) + big bold amount */
+    .rp-token-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 4px;
+    }
+    .rp-token-icon-wrap {
+      position: relative;
+      width: 40px; height: 40px;
+      flex-shrink: 0;
+    }
+    .rp-token-icon {
+      width: 40px; height: 40px;
+      border-radius: 50%;
+      overflow: hidden;
+      display: flex; align-items: center; justify-content: center;
+      background: rgba(var(--bg-surface-rgb), 0.9);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    }
+    .rp-token-icon svg { width: 100%; height: 100%; display: block; }
+    .rp-network-badge {
+      position: absolute;
+      bottom: -3px; right: -3px;
+      width: 18px; height: 18px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 2px solid rgba(var(--bg-surface-rgb), 1);
+      background: var(--bg-app);
+      display: none;
+      align-items: center; justify-content: center;
+    }
+    .rp-network-badge svg { width: 100%; height: 100%; display: block; }
+    .rp-amount-value {
+      font-size: 34px;
+      font-weight: 700;
+      font-family: var(--font-rp);
+      color: var(--text-main);
+      letter-spacing: -0.02em;
+      line-height: 1;
+    }
+    .rp-usd-value {
+      font-size: 14px;
+      font-weight: 400;
+      font-family: var(--font-rp);
+      color: rgba(var(--text-muted-rgb), 0.75);
+      margin-bottom: 22px;
+    }
+
+    #qrcode {
+      margin-bottom: 18px;
+      border-radius: 16px;
+      overflow: hidden;
+      background: #d9d8d8;
+      padding: 13px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 190px;
+      height: 190px;
+      min-height: 190px !important;
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+
+    #qrcode svg, #qrcode canvas, #qrcode img {
+      display: block;
+      width: 100% !important;
+      height: 100% !important;
+      max-width: 100%;
+    }
+
+    .copy-button,
+    .share-button {
+        transition:
+            transform 0.25s cubic-bezier(.34,1.56,.64,1),
+            box-shadow .25s,
+            background .18s,
+            border-color .18s;
+    }
+
+    .copy-button:active,
+    .share-button:active {
+        transform: scale(0.92);
+        box-shadow:
+            0 0 20px rgba(244,183,40,.15);
+    }
+
+    @keyframes buttonBounce {
+        0% {
+            transform: scale(.92);
+        }
+        50% {
+            transform: scale(1.06);
+        }
+        75% {
+            transform: scale(.98);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    .button-bounce {
+        animation: buttonBounce .4s cubic-bezier(.34,1.56,.64,1);
+    }
+
+    .rp-address-row {
+      margin-bottom: 16px;
+    }
+    #wallet-address {
+      font-family: var(--font-rp);
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text-main);
+      background: rgba(var(--bg-surface-rgb), 0.6);
+      border: 1px solid rgba(var(--border-rgb), 0.84);
+      border-radius: 99px;
+      padding: 9px 16px;
+      display: inline-block;
+      letter-spacing: 0.01em;
+    }
+
+    .button-row {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 10px;
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 18px;
+    }
+
+    .copy-button, .share-button {
+      flex: 1;
+      min-width: 0;
+      background: rgba(var(--bg-surface-rgb), 0.72);
+      border: 1px solid rgba(var(--border-rgb), 0.84);
+      border-radius: 14px;
+      color: var(--text-main);
+      font-size: 13.5px;
+      height: 64px;
+      min-height: 64px;
+      font-weight: 500;
+      font-family: var(--font-rp);
+      padding: 9px 10px;
+      cursor: pointer;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 6px;
+      transition: background 0.18s, border-color 0.18s;
+    }
+    .copy-button:hover, .share-button:hover {
+      background: rgba(var(--bg-surface-rgb), 0.6);
+      border-color: rgba(var(--border-rgb), 0.84);
+    }
+    .copy-button svg, .share-button svg {
+      width: 17px; height: 17px;
+    }
+
+    .rp-instruction {
+      font-size: 12.5px;
+      line-height: 1.55;
+      color: rgba(var(--text-muted-rgb), 0.75);
+      font-family: var(--font-rp);
+      margin: 0 0 20px;
+      text-align: center;
+    }
+    .rp-instruction strong { color: var(--text-main); font-weight: 600; }
+
+    .check-paid-btn {
+      width: 100%;
+      max-width: 100%;
+      background: rgba(46,204,113,0.13);
+      border: 1px solid rgba(46,204,113,0.32);
+      border-radius: 13px;
+      color: #2ecc71;
+      font-size: 14.5px;
+      font-weight: 600;
+      font-family: var(--font-rp);
+      padding: 14px;
+      margin-top: 4px;
+      cursor: pointer;
+      transition: background 0.2s, border-color 0.2s, transform 0.1s;
+      margin-top: 2px;
+    }
+    .check-paid-btn:hover:not(:disabled) {
+      background: rgba(46,204,113,0.20);
+      border-color: rgba(46,204,113,0.45);
+      transform: translateY(-1px);
+    }
+    .check-paid-btn:active:not(:disabled) { transform: scale(0.98); }
+    .check-paid-btn:disabled {
+      background: rgba(var(--bg-surface-rgb), 0.56);
+      border: 0.9px solid rgba(var(--border-rgb), 0.69);
+      color: rgba(var(--text-muted-rgb), 0.4);
+      cursor: not-allowed;
+    }
+
+    .check-paid-cooldown {
+      font-size: 11px;
+      font-family: var(--font-rp);
+      color: rgba(var(--text-muted-rgb), 0.5);
+      margin-top: 8px;
+      text-align: center;
+      min-height: 16px;
+    }
+
+    #status {
+      margin-top: 12px;
+      font-size: 13px;
+      font-family: var(--font-rp);
+      text-align: center;
+      width: 100%;
+    }
+
+    .payment-waiting {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 13px;
+      color: var(--accent-color);
+      font-weight: 600;
+      animation: pulse 1.3s infinite;
+    }
+
+    .pop-status {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      color: #2ecc71;
+      font-size: 15px;
+      gap: 8px;
+      animation: stampShake 0.6s ease;
+    }
+
+    .check-circle {
+      background: #2ecc71;
+      color: #fff;
+      border-radius: 50%;
+      width: 24px; height: 24px;
+      display: inline-flex; align-items: center; justify-content: center;
+      font-size: 14px;
+    }
+
+    .spinner {
+      width: 13px; height: 13px;
+      border: 2px solid rgba(var(--text-muted-rgb), 0.15);
+      border-top-color: var(--accent-color);
+      border-radius: 50%;
+      animation: spin 0.75s linear infinite;
+      flex-shrink: 0;
+    }
+
+    /* ============================================================
+       MODAL
+       ============================================================ */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      inset: 0;
+      width: 100%; height: 100%;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      background: rgba(4, 4, 14, 0.68);
+      overflow: hidden;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .modal.open {
+      display: flex;
+    }
+
+    .modal-content {
+      width: 100%;
+      max-width: 420px;
+      max-height: 80dvh;
+      background: rgba(var(--bg-surface-rgb), 0.448);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 0.9px solid var(--border);
+      -webkit-mask-image: -webkit-radial-gradient(white, black);
+      mask-image: radial-gradient(white, black);
+      scrollbar-gutter: stable both-edges;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      overscroll-behavior: contain;
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+      animation: modalPop 0.22s cubic-bezier(0.34,1.56,0.64,1);
+    }
+
+    .modal-content h2 {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin: 0 0 18px;
+      display: flex;
+      align-items: center;
+      gap: 9px;
+    }
+
+    .modal-content h2 .modal-icon {
+      width: 28px; height: 28px;
+      border-radius: 8px;
+      background: rgba(var(--accent-rgb), 0.14);
+      border: 1px solid rgba(var(--accent-rgb), 0.25);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 14px;
+      flex-shrink: 0;
+    }
+
+    .modal-content ul {
+      list-style: none;
+      padding: 0; margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .modal-content li {
+      padding: 11px 0;
+      border-bottom: 1px solid rgba(var(--border-rgb), 0.55);
+      font-size: 13px;
+      color: rgba(var(--text-muted-rgb), 0.9);
+      line-height: 1.58;
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+    }
+
+    .modal-content li:last-child { border-bottom: none; }
+
+    .modal-content li::before {
+      content: '';
+      display: block;
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--accent-color);
+      margin-top: 6px;
+      flex-shrink: 0;
+      box-shadow: 0 0 6px rgba(var(--accent-rgb), 0.4);
+    }
+
+    .close {
+      position: sticky;
+      float: right;
+      top: 0;
+      margin-left: 12px;
+      width: 28px; height: 28px;
+      background: rgba(var(--text-main-rgb), 0.06);
+      border: 1px solid rgba(var(--text-main-rgb), 0.09);
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer;
+      font-size: 16px;
+      color: rgba(var(--text-muted-rgb), 0.7);
+      transition: background 0.18s, color 0.18s;
+      line-height: 1;
+      z-index: 1;
+    }
+    .close:hover { background: rgba(var(--text-main-rgb), 0.11); color: var(--text-main); }
+
+    @keyframes modalPop {
+      from { transform: scale(0.88) translateY(10px); opacity: 0; }
+      to   { transform: scale(1) translateY(0); opacity: 1; }
+    }
+
+    @keyframes stampShake {
+      0%   { transform: scale(0.3) rotate(0deg); opacity: 0; }
+      40%  { transform: scale(1.3) rotate(5deg); opacity: 1; }
+      60%  { transform: scale(0.95) rotate(-5deg); }
+      80%  { transform: scale(1.05) rotate(3deg); }
+      100% { transform: scale(1) rotate(0deg); }
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.45; }
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* ============================================================
+       MOBILE — full-bleed deposit screen, no boxed card (Zodl-style)
+       ============================================================ */
+    @media (max-width: 768px) {
+      .container { flex-direction: column; min-height: 100dvh; }
+      .left-panel { flex-direction: column; }
+      .left-panel-image { display: none; }
+      .left-panel-form {
+        flex: 1;
+        width: 100%;
+        padding: calc(5.75rem + env(safe-area-inset-top)) 1.2rem 2rem;
+        justify-content: flex-start;
+      }
+      .brand { margin-bottom: 1.8rem; }
+      .form-subtitle { margin-bottom: 1.6rem; }
+      .field-group { margin-bottom: 1rem; }
+      .selects-row { flex-direction: column; gap: 1rem; margin-bottom: 1rem; }
+
+      .right-panel {
+        width: 100%;
+        padding: 0;
+        min-height: 100dvh;
+        justify-content: flex-start;
+        border-left: none;
+        /* Flat gradient instead of the glowing accent orbs */
+        background: radial-gradient(circle at 30% 20%, #151528 0%, #0b0b12 60%);
+      }
+      .right-panel::before,
+      .right-panel::after {
+        display: none;
+      }
+
+      .rp-topbar {
+        padding: calc(14px + env(safe-area-inset-top)) 18px 6px;
+        max-width: 100%;
+      }
+
+      /* No card, no border, no blur — fills the full screen like Zodl */
+      .payment-info-box {
+        max-width: 100%;
+        width: 100%;
+        max-height: none;
+        overflow-y: visible;
+        background: transparent;
+        border: none;
+        border-radius: 0;
+        padding: 18px 22px calc(24px + env(safe-area-inset-bottom));
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+      }
+      .payment-info-box::before { display: none; }
+
+      #qrcode {
+        width: min(60vw, 210px);
+        height: min(60vw, 210px);
+        padding: 10px;
+      }
+
+      .modal { padding: 16px; }
+      .modal-content {
+        width: 100%;
+        max-width: 100%;
+        max-height: 80dvh;
+        padding: 20px 16px 18px;
+      }
+    }
+
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translate(-50%, 12px);
+      background: rgba(var(--bg-surface-rgb), 0.6);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 90, 90, 0.4);
+      color: #ff9b9b;
+      padding: 12px 18px;
+      border-radius: 14px;
+      font-size: 14px;
+      white-space: nowrap;
+      max-width: calc(100vw - 32px);
+      opacity: 0;
+      transition: transform .28s ease, opacity .28s ease;
+      z-index: 9999;
+    }
+
+    .toast.success {
+      border-color: rgba(80, 220, 140, 0.45);
+      color: #9dffd0;
+      background: rgba(20, 45, 30, 0.55);
+    }
+
+    .toast.warning {
+      border-color: rgba(244, 183, 40, 0.45);
+      color: #ffd98a;
+      background: rgba(50, 40, 15, 0.55);
+    }
+
+    .toast.show {
+      opacity: 1;
+      transform: translate(-50%, 0);
+    }
+
+    .share-row {
+      display: flex;
+      justify-content: space-around;
+      gap: 12px;
+    }
+    .share-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+      user-select: none;
+    }
+    .share-circle {
+      width: 46px; height: 46px;
+      border-radius: 50%;
+      background: rgba(var(--bg-surface-rgb), 0.5);
+      border: 1px solid rgba(var(--border-rgb), 0.84);
+      display: flex; align-items: center; justify-content: center;
+      transition: background 0.18s, transform 0.15s;
+    }
+    .share-item:hover .share-circle {
+      background: rgba(var(--bg-surface-rgb), 0.6);
+      transform: translateY(-2px);
+    }
+    .share-label {
+      font-size: 12px;
+      color: rgba(var(--text-muted-rgb), 0.85);
+      font-family: var(--font-rp);
+    }
+
+    #share-qrcode svg, #share-qrcode canvas, #share-qrcode img {
+      display: block;
+      width: 100% !important;
+      height: 100% !important;
+      max-width: 100%;
+    }
+
+    ::-webkit-scrollbar {
+      width: 4px;         
+      height: 4px;         
+    }
+
+
+    ::-webkit-scrollbar-track {
+      background: transparent; 
+    }
+
+    
+    ::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.2);  
+      border-radius: 10px;
+    }
+
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgba(255, 255, 255, 0.4);
+    }
+
+    ::selection { background: #4effcd29; color: var(--text-main); }
+    ::-moz-selection { background: #4effcd29; color: var(--text-main); }
+    ::-webkit-scrollbar { width: 4px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--dim); border-radius: 99px; }
+  </style>
+</head>
+<body>
+  <div id="community-data" data-slug="{{ community_slug }}"></div>
+  <div class="container">
+
+    <div id="form-panel" class="left-panel">
+      <div class="left-panel-form">
+
+        <div class="brand">
+          <img src="https://zupdpwnloewdkjqsymdm.supabase.co/storage/v1/object/public/uploads/communities/7/logos/511f4996-5748-4f1f-b74c-5d5c33f7124c.png" alt="Gleyo" class="brand-mark">
+          <span class="brand-name">Gleyo</span>
+        </div>
+
+        <h1>Send Payment</h1>
+        <p class="form-subtitle">Shielded · Private · Instant</p>
+
+        <!-- TOKEN + NETWORK SELECTS -->
+        <div class="selects-row">
+          <div class="field-group">
+            <label class="field-label" for="token">Token</label>
+            <div class="select-wrapper">
+              <div class="custom-select" id="token-select" tabindex="0">
+                <span class="selected-label" id="token-selected-label">Select token</span>
+                <span class="chevron"></span>
+              </div>
+              <div class="options-list" id="token-options">
+                <div class="option-item" data-value="USDT">USDT</div>
+                <div class="option-item" data-value="USDC">USDC</div>
+                <div class="option-item" data-value="ZEC">ZEC</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="field-group">
+            <label class="field-label" for="network">Network</label>
+            <div class="select-wrapper">
+              <div class="custom-select disabled" id="network-select" tabindex="0">
+                <span class="selected-label" id="network-selected-label">Select token first</span>
+                <span class="chevron"></span>
+              </div>
+              <div class="options-list" id="network-options"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="field-group">
+          <label class="field-label" id="amount-label" for="amount">Amount</label>
+          <div class="amount-wrap">
+            <input
+              class="glass-input"
+              type="number"
+              id="amount"
+              min="0.0001"
+              step="0.0001"
+              autocomplete="off"
+              autocorrect="off"
+              autocapitalize="off"
+              spellcheck="false"
+              placeholder="0.0000"
+            />
+            <span class="zec-badge" id="amount-badge">TOKEN</span>
+          </div>
+          <div class="convert-preview" id="convert-preview"></div>
+        </div>
+
+        <div class="field-group">
+          <label class="field-label" id="note-label" for="note">Memo</label>
+          <textarea
+            class="glass-input"
+            id="note"
+            rows="2"
+            autocomplete="off"
+            autocorrect="off"
+            autocapitalize="off"
+            spellcheck="false"
+            placeholder="Optional memo..."
+          ></textarea>
+        </div>
+
+        <span class="refund-link" onclick="openRefundPolicy()">View Refund Policy</span>
+
+        <button class="btn-generate" id="generate-btn">
+          <span id="generate-btn-content" style="display:flex;align-items:center;gap:8px;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/>
+              <rect x="3" y="14" width="7" height="7" rx="1"/><rect x="17" y="17" width="1" height="1"/>
+              <rect x="14" y="14" width="1" height="1"/>
+            </svg>
+            Generate Payment Info
+          </span>
+        </button>
+
+      </div>
+
+      <div class="left-panel-image">
+        <img src="https://xpcqiovfesvllsljxhac.supabase.co/storage/v1/object/public/uploads/multi-token-off-ramp.png" alt="Payment" loading="lazy" decoding="async">
+      </div>
+    </div>
+
+    <div id="preview-panel" class="right-panel">
+      <div class="main-conatiner">
+        <div class="rp-topbar">
+          <span class="rp-topbar-spacer" aria-hidden="true"></span>
+          <div id="timer"></div>
+          <div class="rp-icon-btn" id="info-btn" aria-label="Info">
+            <svg
+                fill="var(--text-main)"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 45.999 45.999"
+            >
+                <path d="M39.264,6.736c-8.982-8.981-23.545-8.982-32.528,0c-8.982,8.982-8.981,23.545,0,32.528c8.982,8.98,23.545,8.981,32.528,0C48.245,30.281,48.244,15.719,39.264,6.736z M25.999,33c0,1.657-1.343,3-3,3s-3-1.343-3-3V21c0-1.657,1.343-3,3-3s3,1.343,3,3V33z M22.946,15.872c-1.728,0-2.88-1.224-2.844-2.735c-0.036-1.584,1.116-2.771,2.879-2.771c1.764,0,2.88,1.188,2.917,2.771C25.897,14.648,24.746,15.872,22.946,15.872z"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="payment-info-box" id="payment-info">
+
+          <div class="rp-amount-label-row">
+            <span class="rp-amount-label">Deposit Amount</span>
+            <button class="rp-copy-amount-btn" id="copy-amount-btn" aria-label="Copy amount">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+            </button>
+          </div>
+
+          <div class="rp-token-row">
+            <div class="rp-token-icon-wrap">
+              <span class="rp-token-icon" id="rp-token-icon"></span>
+              <span class="rp-network-badge" id="rp-network-badge"></span>
+            </div>
+            <span class="rp-amount-value" id="rp-amount-value">0.00</span>
+          </div>
+          <div class="rp-usd-value" id="rp-usd-value"></div>
+
+          <div id="qrcode"></div>
+
+          <div class="rp-address-row">
+            <span id="wallet-address"></span>
+          </div>
+
+          <div class="button-row">
+            <button class="copy-button" id="copy-btn">
+              <span id="copy-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+              </span>
+              <svg id="check-icon" xmlns="http://www.w3.org/2000/svg" style="display:none" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span id="copy-text">Copy</span>
+            </button>
+
+            <button class="share-button" id="share-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/>
+                <rect x="3" y="14" width="7" height="7" rx="1.5"/>
+                <path d="M14 14h3v3M20 14v3h-3M14 20h3"/>
+              </svg>
+              <span>Share QR</span>
+            </button>
+          </div>
+
+          <p class="rp-instruction" id="rp-instruction"></p>
+
+          <button class="check-paid-btn" id="check-paid-btn">I've sent the funds</button>
+          <div class="check-paid-cooldown" id="check-paid-cooldown"></div>
+
+        </div>
+        <div id="status"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="refund-modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeRefundPolicy()" aria-label="Close">&#x2715;</span>
+      <h2>
+        <span class="modal-icon">
+          <svg width="14" height="14" fill="yellow" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 105.802 122.88" enable-background="new 0 0 105.802 122.88" xml:space="preserve"><g><path fill-rule="evenodd" clip-rule="evenodd" d="M105.689,0H0.112v60.381c-1.824,26.659,18.714,50.316,52.789,62.499 c34.074-12.183,54.613-35.84,52.789-62.499V0L105.689,0z M52.869,8.61H9.417v48.832c-0.022,0.313-0.039,0.625-0.053,0.938h43.504 v49.557l0.142,0.052c27.313-9.715,43.927-28.454,42.962-49.646H52.869V8.61L52.869,8.61z"/></g>
+          </svg>
+        </span>
+        Refund Policy
+      </h2>
+      <ul>
+        <li>Payments on Gleyo can be initiated in USDT, USDC, or ZEC, but always settle on-chain in ZEC (Zcash).</li>
+        <li>If you pay with USDT or USDC, the ZEC amount shown on the invoice is a conversion locked in at the time the invoice is generated. That is the exact amount that must be sent — not the original USDT/USDC figure.</li>
+        <li>Due to the irreversible nature of blockchain transactions, completed and confirmed payments cannot be cancelled or reversed.</li>
+        <li>If you accidentally send an incorrect amount, contact support immediately. Assistance is reviewed case-by-case and is not guaranteed.</li>
+        <li>Payments sent to an incorrect wallet address cannot be recovered by Gleyo.</li>
+        <li>If a payment fails due to a platform error, eligible refunds will be issued in ZEC to the wallet address provided during review.</li>
+        <li>Blockchain network fees required to process a refund may be deducted from the refunded amount.</li>
+        <li>For refund inquiries, contact support through the Gleyo support system.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="share-modal" class="modal">
+    <div class="modal-content" id="share-modal-content">
+      <span class="close" onclick="closeShareModal()" aria-label="Close">&#x2715;</span>
+      <h2> 
+        Share Payment
+      </h2>
+
+      <div id="share-qr-preview" style="display:flex;align-items:center;justify-content:center;margin-bottom:18px;">
+        <div id="share-qrcode" style="border-radius:16px;overflow:hidden;background:#d9d8d8;padding:16px;width:200px;height:200px;box-sizing:border-box;"></div>
+      </div>
+
+      <div style="display: flex; align-items: center; justify-content: center;">
+        <div id="share-address-preview" style="font-family:var(--font-rp);font-size:12.4px;word-break:break-all;color:#bbbfc7;background:rgba(34,34,54,0.6); width: fit-content;border:1px solid rgba(47,47,74,0.84);border-radius:10px;padding:10px 12px;margin-bottom:20px;text-align:center;"></div>
+      </div>
+
+      <div class="share-row">
+        <div class="share-item" data-type="whatsapp">
+          <div class="share-circle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 510 512.459" fill="#25D366" style="width:18px;height:18px;">
+              <path d="M435.689 74.468C387.754 26.471 324 .025 256.071 0 116.098 0 2.18 113.906 2.131 253.916c-.024 44.758 11.677 88.445 33.898 126.946L0 512.459l134.617-35.311c37.087 20.238 78.85 30.891 121.345 30.903h.109c139.949 0 253.88-113.917 253.928-253.928.024-67.855-26.361-131.645-74.31-179.643v-.012zm-179.618 390.7h-.085c-37.868-.011-75.016-10.192-107.428-29.417l-7.707-4.577-79.886 20.953 21.32-77.889-5.017-7.987c-21.125-33.605-32.29-72.447-32.266-112.322.049-116.366 94.729-211.046 211.155-211.046 56.373.025 109.364 22.003 149.214 61.903 39.853 39.888 61.781 92.927 61.757 149.313-.05 116.377-94.728 211.058-211.057 211.058v.011zm115.768-158.067c-6.344-3.178-37.537-18.52-43.358-20.639-5.82-2.119-10.044-3.177-14.27 3.178-4.225 6.357-16.388 20.651-20.09 24.875-3.702 4.238-7.403 4.762-13.747 1.583-6.343-3.178-26.787-9.874-51.029-31.487-18.86-16.827-31.597-37.598-35.297-43.955-3.702-6.355-.39-9.789 2.775-12.943 2.849-2.848 6.344-7.414 9.522-11.116s4.225-6.355 6.343-10.581c2.12-4.238 1.06-7.937-.522-11.117-1.584-3.177-14.271-34.409-19.568-47.108-5.151-12.37-10.385-10.69-14.269-10.897-3.703-.183-7.927-.219-12.164-.219s-11.105 1.582-16.925 7.939c-5.82 6.354-22.209 21.709-22.209 52.927 0 31.22 22.733 61.405 25.911 65.642 3.177 4.237 44.745 68.318 108.389 95.812 15.135 6.538 26.957 10.446 36.175 13.368 15.196 4.834 29.027 4.153 39.96 2.52 12.19-1.825 37.54-15.353 42.824-30.172 5.283-14.818 5.283-27.529 3.701-30.172-1.582-2.641-5.819-4.237-12.163-7.414l.011-.024z"/>
+            </svg>
+          </div>
+          <div class="share-label">WhatsApp</div>
+        </div>
+        <div class="share-item" data-type="telegram">
+          <div class="share-circle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#29a9eb" style="width:18px;height:18px;">
+              <path d="M21.94 4.11c.29-1.23-.94-2.2-2.05-1.71L2.4 9.9c-1.13.48-1.15 2.09-.03 2.6l4.36 1.99 1.62 5.24c.19.62.98.78 1.4.28l2.44-2.93 4.4 3.35c.86.65 2.1.2 2.36-.85L21.94 4.11zM8.6 13.05l9.63-6.5c.22-.15.44.14.25.32l-8.1 7.5c-.32.3-.53.7-.6 1.14l-.28 1.83-.9-4.29z"/>
+            </svg>
+          </div>
+          <div class="share-label">Telegram</div>
+        </div>
+        <div class="share-item" data-type="sms">
+          <div class="share-circle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:18px;height:18px;">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+            </svg>
+          </div>
+          <div class="share-label">SMS</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const note = document.getElementById("note");
+    note.style.overflowY = "hidden";
+    const adjustHeight = () => {
+      note.style.height = "auto";
+      note.style.height = note.scrollHeight + "px";
+    };
+    note.addEventListener("input", adjustHeight);
+    window.addEventListener("load", adjustHeight);
+  </script>
+
+  <script>
+    let __savedScrollY = 0;
+
+    function lockBodyScroll() {
+      __savedScrollY = window.scrollY || window.pageYOffset || 0;
+      document.body.style.position = "fixed";
+      document.body.style.top = `-${__savedScrollY}px`;
+      document.body.style.left = "0";
+      document.body.style.right = "0";
+      document.body.style.width = "100%";
+    }
+
+    function unlockBodyScroll() {
+      document.body.style.position = "";
+      document.body.style.top = "";
+      document.body.style.left = "";
+      document.body.style.right = "";
+      document.body.style.width = "";
+      window.scrollTo(0, __savedScrollY);
+    }
+
+    function openRefundPolicy() {
+      document.getElementById("refund-modal").classList.add("open");
+      lockBodyScroll();
+    }
+    function closeRefundPolicy() {
+      document.getElementById("refund-modal").classList.remove("open");
+      unlockBodyScroll();
+    }
+    window.addEventListener("click", (e) => {
+      if (e.target === document.getElementById("refund-modal")) closeRefundPolicy();
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && document.getElementById("refund-modal").classList.contains("open")) {
+        closeRefundPolicy();
+      }
+    });
+
+    // ── Share modal ──
+    // Fixed: previously this always built a `zcash:` QR/URI even when the
+    // payer chose USDT/USDC on Base/Polygon/BSC. Now it mirrors whatever
+    // was actually shown on the deposit screen (window.__gleyoPay helpers +
+    // window.__lastOriginToken/NetworkValue set by pay.js in showPreviewPanel).
+    function openShareModal() {
+      const walletAddr = (document.getElementById('wallet-address').dataset.full || '').trim();
+      const helpers = window.__gleyoPay || {};
+
+      if (!walletAddr) {
+        (helpers.showToast || showToast)("Generate a payment first", "error");
+        return;
+      }
+
+      const originToken = window.__lastOriginToken || 'ZEC';
+      const originNetworkLabel = window.__lastOriginNetworkLabel || 'Zcash';
+      const zecAmountForShare = window.__lastZecAmount;
+
+      document.getElementById('share-address-preview').textContent =
+        helpers.truncateAddress ? helpers.truncateAddress(walletAddr) : walletAddr;
+
+      const qrData = helpers.buildQrData
+        ? helpers.buildQrData(walletAddr, zecAmountForShare, originToken)
+        : walletAddr;
+
+      const instructionText = document.getElementById('rp-instruction')?.textContent?.trim() || '';
+      const shareText =
+        `Gleyo shielded payment — send to this address:\n${walletAddr}\n\n${instructionText}`;
+
+      document.getElementById('share-modal').dataset.shareText = shareText;
+
+      const qrContainer = document.getElementById('share-qrcode');
+      qrContainer.innerHTML = '';
+      const qr = new QRCodeStyling({
+        width: 188,
+        height: 188,
+        type: "svg",
+        data: qrData,
+        qrOptions: { errorCorrectionLevel: "H" },
+        dotsOptions: { color: "#000000", type: "rounded" },
+        backgroundOptions: { color: "#d9d8d8" },
+        cornersSquareOptions: { type: "extra-rounded" },
+        cornersDotOptions: { type: "square" }
+      });
+      qr.append(qrContainer);
+
+      document.getElementById('share-modal').classList.add('open');
+      lockBodyScroll();
+    }
+
+    function closeShareModal() {
+      document.getElementById('share-modal').classList.remove('open');
+      unlockBodyScroll();
+    }
+
+    document.getElementById('share-btn').addEventListener('click', openShareModal);
+
+    document.getElementById('share-modal').addEventListener('click', (e) => {
+      if (e.target === document.getElementById('share-modal')) closeShareModal();
+    });
+
+    document.querySelectorAll('#share-modal .share-item').forEach(item => {
+      item.addEventListener('click', () => {
+        const type = item.dataset.type;
+        const shareText = document.getElementById('share-modal').dataset.shareText || '';
+        const encoded = encodeURIComponent(shareText);
+        let shareLink = '';
+
+        if (type === 'whatsapp') {
+          shareLink = `https://wa.me/?text=${encoded}`;
+        } else if (type === 'telegram') {
+          shareLink = `https://t.me/share/url?url=${encodeURIComponent(window.location.href)}&text=${encoded}`;
+        } else if (type === 'sms') {
+          shareLink = `sms:?body=${encoded}`;
+        }
+
+        if (shareLink) window.open(shareLink, '_blank');
+        closeShareModal();
+      });
+    });
+
+    // Fallback toast (used only if pay.js hasn't loaded yet)
+    function showToast(msg, type = "error") {
+      document.querySelectorAll(".toast").forEach(t => t.remove());
+      const t = document.createElement("div");
+      t.className = `toast ${type}`;
+      t.innerHTML = msg;
+      document.body.appendChild(t);
+      requestAnimationFrame(() => t.classList.add("show"));
+      setTimeout(() => {
+        t.classList.remove("show");
+        setTimeout(() => t.remove(), 300);
+      }, 2600);
+    }
+  </script>
+
+  <audio id="payment-sound" src="/static/success.mp3" preload="auto"></audio>
+
+</body>
+</html>

@@ -1,0 +1,1397 @@
+<title>Leaderboard</title>
+<style>
+
+@media (max-width: 991px) {
+
+
+  .info-left.maner{
+    width: 100%;
+    height: 100%;
+    border-radius: 28px;
+    border: 0.9px solid var(--border);
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+}
+
+.activity-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 0;
+}
+
+
+.activity-modal{
+  position:absolute;
+  background:var(--bg-surface);
+  border: 0.9px solid var(--border);
+  border-radius: 20px;
+  padding: 18px 15px;
+  width: auto;
+  min-width: 300px;
+  max-width: 470px;
+  z-index: 999;
+  box-shadow:0 10px 30px rgba(0,0,0,0.5);
+}
+
+.activity-content{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  font-size:13px;
+}
+
+
+
+/* MOBILE FULLSCREEN */
+
+@media (max-width:767px){
+
+  .activity-modal{
+    position:fixed;
+    inset:0;
+    width:100% !important;
+    min-width:100% !important;
+    max-width:100% !important;
+    height: var(100dvh - 0) !important;
+    top: 60px !important;
+    background-color: transparent;
+
+    padding: 10px 8px;
+    padding-bottom: 8px !important;
+    border: 1px solid transparent !important;
+    border-radius:0;
+  }
+
+  .activity-content {
+    background-color: var(--bg-sidebar);
+    border-radius: 25px;
+    min-height: 100%;
+    height: 100%;
+    width: 100% !important;
+    padding: 12px 10px;
+    padding-top: 30px !important;
+    overflow-y: auto !important;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+}
+
+
+@media (max-width: 991px) {
+
+
+  .contain-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+  }
+
+
+}
+
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;  
+}
+
+.info-top {
+  width: 100%;
+}
+
+
+@media (min-width: 767px) {
+  .info-left.maner {
+    flex: 0 0 70%; 
+    height: 100% ;
+    border: 0.9px solid var(--border);
+    border-radius: 28px;
+    box-sizing: border-box;
+    min-height: 100%;
+    position: relative;
+
+  }
+  .switch-between-sprints-wrap {
+    display: none !important;
+  }
+}
+  .cta-popup-overlay {
+    display: none;
+  }
+  
+
+
+@media (max-width: 1093px) {
+  .left-panel {
+    display: none;
+    width: 100% !important;
+  }
+
+}
+
+@media (min-width: 1093px) {
+
+    .left-panel  {
+    display: flex;
+
+}
+
+
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .main-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: calc(100dvh - 20px);
+  }
+}
+
+
+@media (max-width: 767px) {
+ 
+  .main-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    height: calc(100dvh - 64px) ;
+    color: var(--text-main) ;
+    min-height: calc(100dvh - 64px) ;
+    box-sizing: border-box;
+    max-height: calc(100dvh - 64px);
+    gap: 0;
+    overflow: hidden;
+  }
+
+
+  #rightPanel {
+    display: none;
+  }
+
+
+
+  #dragHandle {
+    width: 100%;
+    min-width: 100%;
+    position: sticky;
+    top: 0;
+    padding: 10px 0;
+    flex-shrink: 0;
+    z-index: 99;
+    display: flex !important;
+    backdrop-filter: blur(2.5px);
+  }
+
+  .drag-handle {
+    width: 42px;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 999px;
+    z-index: 10;
+    margin: 6px auto 12px;
+  }
+
+  .details-reward{
+    padding-top: 0 !important;
+  }
+  .announcement-container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding-top: 0 !important;
+    padding: 09px !important;
+    width: 100%;
+    height: calc(100dvh - 70px);
+    max-height: calc(100dvh - 64px);
+    border-radius: 0 !important;
+    transform: translateY(100%);
+    transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+    z-index: 1001;
+    display: block;
+    box-shadow: none !important;
+    overflow-y: auto;
+  }
+
+  /* WHEN OPEN */
+  .announcement-container.show {
+    transform: translateY(0);
+  }
+
+
+  
+  .tooltip-text {
+    display: none !important;
+  }
+}
+
+
+
+
+
+@media (min-width: 768px) {
+
+  .info-left.maner{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+
+ 
+
+
+  .announcement-container {
+    flex: 0 0 30%;
+    background: var(--bg-sidebar)!important;
+
+
+  }
+  
+.tooltip-text {
+  position: fixed; /* 🔥 important */
+  background: var(--bg-sidebar);
+  border: 1px solid var(--border);
+  color: var(--text-main);
+  font-size: 11px;
+  padding: 6px 12px;
+  border-radius: 8px;
+
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
+
+  transform: translateY(4px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+
+  z-index: 99999;
+}
+
+
+  .tooltip-wrapper:hover .tooltip-text {
+    opacity: 1;
+  }
+
+  
+
+
+ 
+  .drag-handle {
+    display: none;
+  }
+}
+
+
+
+
+
+
+.info-top {
+  position: relative;
+  display: flex !important;
+  gap: 16px;
+  align-items: stretch;
+  padding-top: 30px !important;
+  min-height: 180px;
+  padding: 18px 20px;
+  margin: 0 !important;
+  border-radius: 28px;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;  
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+/* ---------- TITLE ---------- */
+.sprint-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--text-main) !important;
+  margin: 0;
+}
+
+.reward-info-row.Gleyo {
+  display: inline-flex !important;
+}
+
+
+
+
+.info-bottom-wrapper {
+  padding: 14px 0;
+  flex: 1;
+  min-height: 0; 
+  display: flex;
+  margin: 0;
+
+}
+
+.info-bottom {
+  position: relative;
+  border-radius: 28px;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  margin: 0;
+  border: none;
+  height: 100%;
+  flex: 1;
+  overflow-y: auto;
+  min-height: 0;
+  overflow-y: auto !important;
+  overflow-x: hidden;
+  background-clip: padding-box; 
+  -webkit-mask-image: -webkit-radial-gradient(white, black); 
+  mask-image: radial-gradient(white, black);
+  scrollbar-gutter: stable both-edges; 
+  background:
+    radial-gradient(
+      140% 70% at 50% -18%,
+      color-mix(in srgb, var(--sprint-color) 24%, transparent) 0%,
+      rgba(0, 0, 0, 0) 65%
+    ),
+
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--bg-sidebar) 94%, var(--sprint-color) 6%) 0%,
+      var(--bg-sidebar) 35%,
+      var(--bg-sidebar) 100%
+    );
+
+  padding: 14px;
+}
+
+
+.info-bottom::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.22) 0%,
+    rgba(0, 0, 0, 0.14) 18%,
+    rgba(0, 0, 0, 0.06) 30%,
+    rgba(0, 0, 0, 0) 45%
+  );
+
+  pointer-events: none;
+  z-index: 0;
+}
+
+
+ 
+
+
+
+.participants-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+
+
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  counter-increment: rank;
+  background-color: transparent;
+  position: relative;
+  padding-left: 42px !important; 
+  padding: 8px 10px;
+  border-radius: 12px;
+}
+
+.participant-item::before {
+  content: counter(rank) ".";
+  position: absolute;
+  left: 14px;
+  font-size: 0.85rem;
+  font-weight: 650;
+  color: var(--text-main);
+}
+
+.participant-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+
+.participant-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.participant-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.participant-xp {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+
+
+.participant-item:hover {
+  background: var(--bg-hover-hover);
+}
+
+
+.participants-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.participants-list::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.15);
+  border-radius: 10px;
+}
+
+
+
+body.no-scroll {
+  overflow: hidden !important;
+}
+
+
+
+
+
+.participants-meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  width: fit-content;
+  margin-right: auto !important;
+
+  opacity: 0.95;
+  border-radius: 12px;
+  margin: 0;
+
+  padding: 6px 10px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid #e5e7eb19;
+}
+
+.participants-icon {
+  display: inline-flex;
+  width: 16px;
+  color: var(--text-main);
+  height: 16px;
+}
+
+.participants-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.participants-count {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-main);
+  line-height: 1;
+  white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+.info-left.maner{
+  position: relative;
+  overflow: hidden; 
+  background-color: #4285f4;
+}
+
+.info-left.maner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.37);
+  pointer-events: none;
+}
+
+
+
+
+
+
+ 
+
+
+ 
+.right-panel-grid {
+  height: 100%;
+  display: flex;
+  width: 100% !important;
+  flex-direction: column;
+  gap: 18px;
+}
+
+
+
+
+/* LIVE SPRINT HIGHLIGHT */
+.cta-card.live {
+  border: 1px solid rgba(255, 80, 80, 0.4);
+  background: rgba(255, 80, 80, 0.08);
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 20px;
+  overflow-x: hidden;
+  padding: 14px 16px;
+  padding-top: 20px !important;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* SCROLLBAR SAFE */
+.right-section::-webkit-scrollbar {
+  width: 6px;
+}
+
+
+
+.cta-card {
+  max-height: calc(30dvh - 19px) !important;
+  min-height: calc(30dvh - 19px) !important;
+  overflow-y: auto;
+
+}
+.past-sprints {
+  max-height: calc(70dvh - 19px) !important;
+  min-height: calc(70dvh - 19px) !important;
+  
+}
+
+
+
+
+
+
+.past-sprints {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto;
+  padding: 6px 10px !important;
+}
+
+.cta-carden {
+  border: 1px dashed var(--border);
+  border-radius: 14px;
+  padding: 12px 14px;
+  background: var(--bg-hover-hover-dim);
+}
+
+.cardendec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.cardendec p strong{
+
+}
+.cardendec p {
+  font-size: 12.5px;
+  opacity: 0.75;
+  margin: 0;
+}
+
+.cardendec a {
+  font-size: 12px;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--text-main) !important;
+}
+
+
+
+.cardendec a:hover {
+  background: var(--bg-hover-hover);
+}
+.cta-card:not(.live) h3 {
+  color: var(--text-main);
+  margin: 0;
+}
+
+.cta-card {
+  background: linear-gradient(
+    180deg,
+    rgba(255,255,255,0.04),
+    rgba(255,255,255,0.01)
+  );
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 18px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cta-card.live {
+  border-color: rgba(255, 80, 80, 0.5);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 80, 80, 0.08),
+    rgba(255, 80, 80, 0.02)
+  );
+}
+
+.cta-card.live div {
+  color: #ff5a5a;
+}
+
+
+
+
+
+.cta-card p {
+  font-size: 13px;
+  line-height: 1.4;
+  margin: 0;
+  opacity: 0.85;
+  margin: 0;
+}
+.cta-card .divers {
+  margin-top: 10px;
+  align-self: flex-start;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 500;
+  width: fit-content;
+  color: var(--text-main);
+  text-decoration: none;
+
+  border-bottom: 1px solid transparent;
+  padding-bottom: 2px;
+
+  transition: border-color 0.2s ease, opacity 0.2s ease;
+}
+
+.cta-card .divers:hover {
+  border-bottom-color: var(--text-main-items);
+  opacity: 0.9;
+}
+
+.past-sprints {
+  background:var(--bg-sidebar);
+  border: 1px solid var(--border);
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 20px;
+  overflow-x: hidden;
+  padding: 14px 16px;
+  padding-top: 20px !important;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+
+
+
+.switch-between-sprints-wrap, .topbar {
+  z-index: 99;
+}
+
+
+
+.info-left.maner {
+  position: relative;
+  overflow: hidden; 
+  background-color: var(--sprint-color);
+}
+
+.top-rank-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: space-between;
+
+  margin-top: 20px !important;
+  margin-right: auto !important;
+
+  opacity: 0.95;
+  border-radius: 12px;
+  margin: 0;
+
+  padding: 6px 10px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid #e5e7eb19;
+  min-width: 320px;
+}
+
+@media (max-width: 768px) {
+  .top-rank-row {
+    min-width: 0;
+    max-width: 350px;
+    width: 100%;
+  }
+}
+
+.top-rank-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+/* 👇 RANK NUMBER */
+.rank-number {
+  font-size: 0.85rem;
+  font-weight: 700;
+  min-width: 18px;
+  text-align: right;
+}
+
+.rank-avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.rank-init {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rank-username {
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 120px;
+}
+
+.rank-xp {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-main);
+  white-space: nowrap;
+}
+
+
+.empty-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  max-width: 420px;
+  text-align: center;
+}
+
+.empty-message h2 {
+  margin: 0;
+  font-size: 17px;
+  color: var(--text-main);
+  margin-bottom: 15px !important;
+}
+
+.empty-message p {
+  margin: 0;
+  font-size: 15px;
+  color: var(--text-muted);
+
+}
+
+
+.participants-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.switch-between-sprints-wrap{
+  width: 100%;
+  padding: 0 8px;
+  margin-bottom: 48px !important;
+}
+
+/* container */
+.switch-between-sprints{
+  position: relative;
+  display: flex;
+  width: 100%;
+
+  padding: 4px;
+  border-radius: 999px;
+
+  background: linear-gradient(
+    180deg,
+    var(--bg-surface-init),
+    var(--bg-surface-in-active)
+  );
+
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+
+  box-shadow:
+    inset 0 0 0 1px var(--border),
+    0 6px 22px rgba(0,0,0,0.55);
+}
+
+/* sliding pill */
+.switch-pill{
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: calc(50% - 4px);
+  height: calc(100% - 8px);
+  border-radius: 999px;
+
+  background: linear-gradient(
+    180deg,
+    var(--bg-surface-active),
+    var(--bg-active)
+  );
+
+  box-shadow:
+    inset 0 0 0 1px var(--bg-active-border),
+    0 4px 14px rgba(0,0,0,0.45);
+
+  transition: transform 0.52s cubic-bezier(.2,.9,.2,1);
+  z-index: 1;
+}
+
+/* buttons */
+.switch-tab{
+  all: unset;
+  flex: 1;
+  z-index: 2;
+  cursor: pointer;
+  text-align: center;
+
+  padding: 8px 0;
+  font-size: 13px;
+  font-weight: 600;
+
+  color: var(--text-muted);
+  transition: 
+    color 0.25s ease,
+    opacity 0.25s ease;
+}
+
+.switch-tab:hover{
+  color: var(--text-main-items);
+  opacity: 0.9;
+}
+
+.switch-tab.active{
+  color: var(--text-main);
+}
+
+.lottie-icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 6px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .main-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: calc(100dvh - 20px);
+  }
+}
+
+
+@media (max-width: 767px) {
+ 
+  .main-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    height: calc(100dvh - 64px) ;
+    color: var(--text-main) ;
+    min-height: calc(100dvh - 64px) ;
+    box-sizing: border-box;
+    max-height: calc(100dvh - 64px);
+    gap: 0;
+    overflow: hidden;
+  }
+}
+@media (min-width: 768px) {
+  .main-wrapper {
+    display: flex !important;
+    gap: 10px;
+    overflow: hidden ;
+    box-sizing: border-box;
+    height: 100%;
+    height: calc(100vh - 20px);
+  }
+}
+ @media(min-width: 992px) {
+
+    .main-wrapper {
+      padding-right: 8px !important;
+    }
+  }
+
+@media (min-width: 992px) and (max-width: 1313px) {
+
+  .main-wrapper {
+    padding-right: 8px !important;
+  }
+
+  
+  .right-panel {
+    flex: 0 0 45% !important;
+  }
+
+
+
+  .info-left.maner {
+    flex: 0 0 55%;
+  }
+
+}
+
+  @media (min-width: 767px) {
+    .right-panel {
+      flex: 0 0 30%;
+    }
+  }
+@media (max-width: 767px) {
+
+  .right-panel {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding-top: 0 !important;
+    width: 100%;
+    height: calc(100dvh - 70px);
+    max-height: calc(100dvh - 64px);
+    border-radius: 0 !important;
+    transform: translateY(100%);
+    transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+    z-index: 1000;
+    display: block;
+    box-shadow: none !important;
+    overflow-y: auto;
+  }
+
+  /* WHEN OPEN */
+  .right-panel.show {
+    transform: translateY(0);
+  }
+
+}
+
+
+@media (max-width: 767px) {
+  .right-panel {
+    width: 100%;
+    border-left: none;
+    border-radius: 0 !important;
+
+  }
+}
+
+.right-section {
+  box-sizing: border-box !important;
+  padding: 0 3px;
+}
+
+
+
+/* 🔒 General locked base */
+.lock-base {
+  opacity: 0.4;
+  cursor: not-allowed;
+  position: relative;
+  pointer-events: auto; /* allow hover */
+}
+
+/* ✅ Hover tooltips show */
+.lock-swatch:hover::after,
+.lock-icon:hover::after,
+.lock-btn:hover::after {
+  opacity: 1;
+}
+
+/* 🔒 Tooltip for swatches */
+.lock-swatch::after {
+  content: "🔒 Premium color";
+  position: absolute;
+  bottom: -24px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  background: #333;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+
+/* 🔒 Tooltip for icons */
+.lock-icon::after {
+  content: "🔒 Premium feature";
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 11px;
+  background: #222;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 3px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+
+/* 🔒 Tooltip for confirm button */
+.lock-btn::after {
+  content: "🔒 Premium action";
+  position: absolute;
+  top: -32px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  background: #444;
+  color: #fff;
+  padding: 3px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+</style>
+
+
+{# --- CREATE STATE HOLDERS --- #}
+{% set ns = namespace(live=None, upcoming=None) %}
+
+{# --- SCAN SPRINTS ONCE --- #}
+{% for sprint in sprints %}
+  {% if ns.live is none and sprint.start_date <= current_time and sprint.end_date >= current_time %}
+    {% set ns.live = sprint %}
+  {% elif ns.upcoming is none and sprint.start_date > current_time %}
+    {% set ns.upcoming = sprint %}
+  {% endif %}
+{% endfor %}
+
+{# --- PRIORITY RENDER --- #}
+
+<div class="main-wrapper{% if community.is_paid %} badged{% else%}{%endif%}">
+
+
+    {% if ns.live or ns.upcoming %}
+      <div class="switch-between-sprints-wrap"
+          data-latest-sprint="{{ (ns.live or ns.upcoming).uuid }}">
+        
+        <div class="switch-between-sprints">
+          <div class="switch-pill"></div>
+
+          <button class="switch-tab active" data-mode="all">
+            All time
+          </button>
+
+          <button class="switch-tab" data-mode="sprint">
+            Sprint
+          </button>
+        </div>
+
+      </div>
+    {% endif %}
+
+  <div id="leftPanel" class="info-left maner">
+    <div class="info-card">
+      <div class="info-top">
+
+
+        <div class="info-content">
+          <div class="contain-container" style="margin: 0;">
+            <h1 id="previewTitle" class="sprint-title">All Time</h1>
+
+          </div>
+
+          <div class="participants-meta">
+            <span class="participants-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 3C9.51472 3 7.5 5.01472 7.5 7.5C7.5 9.98528 9.51472 12 12 12C14.4853 12 16.5 9.98528 16.5 7.5C16.5 5.01472 14.4853 3 12 3Z"/>
+                <path d="M16.5 13.5L7.5 13.5C6.46774 13.5 5.48769 13.9465 4.89696 14.6693C4.27533 15.43 4.10333 16.4973 4.77316 17.4874C6.21072 19.6122 8.97039 21 12 21C15.0296 21 17.7893 19.6122 19.2268 17.4874C19.8967 16.4973 19.7247 15.43 19.103 14.6693C18.5123 13.9465 17.5323 13.5 16.5 13.5Z"/>
+              </svg>
+
+
+            </span>
+
+            <span class="participants-count">
+              0 participants
+            </span>
+          </div>
+
+
+          <div class="top-rank-row">
+            <div class="top-rank-left">
+              <span class="rank-number"></span>
+
+              <div class="rank-avatar"></div>
+
+              <span class="rank-username"></span>
+            </div>
+
+            <span class="rank-xp"></span>
+          </div>
+
+
+
+        </div>
+      </div>
+
+
+      <div class="info-bottom-wrapper" style="margin: 0; padding: 0;">
+      <div class="info-bottom">
+        <div class="participants-section">
+          <div class="empty-message">
+            <h2>Ready, set, go!</h2>
+            <p> The leaderboard is waiting for its first champion.  a sprint and lead the charge. 🚀 Your moment begins now.
+            </p>
+          </div>
+          <ul class="participants-list" style="display: none; width: 100%;">
+            <li class="participant-item">
+              <img class="participant-avatar" src="" alt="Aisha">
+              <div class="participant-info">
+                <span class="participant-name">Aisha</span>
+                <span class="participant-xp">1,420 XP</span>
+              </div>
+            </li>
+
+            <li class="participant-item">
+              <img class="participant-avatar" src="https://i.pravatar.cc/40?img=32" alt="Daniel">
+              <div class="participant-info">
+                <span class="participant-name">Daniel</span>
+                <span class="participant-xp">1,105 XP</span>
+              </div>
+            </li>
+
+            <li class="participant-item">
+              <img class="participant-avatar" src="https://i.pravatar.cc/40?img=45" alt="Fatima">
+              <div class="participant-info">
+                <span class="participant-name">Fatima</span>
+                <span class="participant-xp">980 XP</span>
+              </div>
+            </li>
+
+            <li class="participant-item">
+              <img class="participant-avatar" src="https://i.pravatar.cc/40?img=18" alt="Michael">
+              <div class="participant-info">
+                <span class="participant-name">Michael</span>
+                <span class="participant-xp">860 XP</span>
+              </div>
+            </li>
+
+            <li class="participant-item">
+              <img class="participant-avatar" src="https://i.pravatar.cc/40?img=27" alt="Zainab">
+              <div class="participant-info">
+                <span class="participant-name">Zainab</span>
+                <span class="participant-xp">745 XP</span>
+              </div>
+            </li>
+
+            <li class="participant-item">
+              <img class="participant-avatar" src="https://i.pravatar.cc/40?img=53" alt="Chris">
+              <div class="participant-info">
+                <span class="participant-name">Chris</span>
+                <span class="participant-xp">620 XP</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+<div class="right-panel" id="rightPanel">
+  <div id="rightPanelContent" class="right-panel-grid">
+
+    <!-- ======================================
+         MAIN / CURRENT STATE (ONE CARD ONLY)
+    ======================================= -->
+    <div class="right-section main-sprint-state">
+
+      {% if not sprints %}
+
+        <!-- NO SPRINTS -->
+        <div class="cta-card">
+          <h3>✨ Plan a Sprint</h3>
+          <p>Mobilize your community and build momentum together.</p>
+          <div class="divers" onclick="createSprint()">Start Planning</div>
+        </div>
+
+      {% else %}
+
+
+
+        {% if ns.live %}
+
+          <!-- LIVE -->
+        <div class="cta-card live">
+          <div>
+ 
+            Sprint is Live
+          </div>
+
+          <p>{{ ns.live.title }} is in progress now!</p>
+
+          <a href="/{{ community.slug }}/leaderboard/{{ ns.live.uuid }}" class="divers"
+              data-path="/{{ community.slug }}/leaderboard/{{ ns.live.uuid }}"
+              onclick="event.preventDefault(); loadMainSettingsSection(this.dataset.path)"          
+          >
+            View Sprint
+          </a>
+        </div>
+
+
+
+        {% elif ns.upcoming %}
+
+          <!-- STARTS SOON -->
+          <div class="cta-card sooner">
+            <div>
+
+              Sprint Starts Soon
+            </div>
+
+            <p>
+              {{ ns.upcoming.title }} will begin on
+              {{ ns.upcoming.start_date.strftime('%b %d, %Y') }}
+            </p>
+
+            <a href="/{{ community.slug }}/leaderboard/{{ ns.upcoming.uuid }}" class="divers"
+              data-path="/{{ community.slug }}/leaderboard/{{ ns.upcoming.uuid }}"
+              onclick="event.preventDefault(); loadMainSettingsSection(this.dataset.path)"   
+            >
+              View Sprint
+            </a>
+          </div>
+
+
+        {% else %}
+
+          <!-- SPRINTS EXIST BUT NONE ACTIVE -->
+          <div class="cta-card">
+            <div>✨ Plan a Sprint</div>
+            <p>Mobilize your community and build momentum together.</p>
+            <div class="divers" onclick="createSprint()">Start Planning</div>
+          </div>
+
+        {% endif %}
+
+      {% endif %}
+
+    </div>
+
+
+    <!-- ======================================
+         PAST SPRINTS (OWN SECTION)
+    ======================================= -->
+    {% if sprints|length >= 2  %}
+    <div class="right-section past-sprints">
+
+      {% for sprint in sprints %}
+        {% if sprint.end_date < current_time %}
+          <div class="cta-carden">
+            <div class="cardendec">
+              <p><strong>{{ sprint.title }}</strong> has ended.</p>
+              <a href="/{{ community.slug }}/leaderboard/{{ sprint.uuid }}"
+                data-path="/{{ community.slug }}/leaderboard/{{ sprint.uuid }}"
+                onclick="event.preventDefault(); loadMainSettingsSection(this.dataset.path)"
+              >
+                View Results
+              </a>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+
+    </div>
+      {% endif %}
+
+  </div>
+  
+</div>
+
+<div id="activity-modal" class="activity-modal hidden">
+  <div class="activity-content"></div>
+</div>

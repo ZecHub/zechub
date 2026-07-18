@@ -1,0 +1,1424 @@
+
+<style>
+
+.quest-complete {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.quest-complete.initall {
+  display: flex !important;
+}
+.claim-button {
+  background: var(--bg-app);   
+  position: sticky;
+  bottom: 0;
+  z-index: 14;
+  display: flex;
+}
+
+.quest-state-ui {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quest-content {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.quest-content::-webkit-scrollbar {
+  display: none;
+}
+
+@media(min-width: 1059px) {
+
+
+  .claim-button {
+    align-items: center !important;
+    justify-content: flex-end !important;
+    height: 80px !important;
+    padding: 12px 12px !important;
+    border-top: 1px solid var(--border-lighter);
+  }
+
+
+  .claim-button {
+    align-items: center !important;
+    justify-content: flex-end !important;
+    height: 80px !important;
+    padding: 12px 12px !important;
+    border-top: 1px solid var(--border-lighter);
+  }
+
+
+
+  .claim-button .claim-task.enabled {
+    color: #fff !important
+  }
+
+  .claim-button .claim-task {
+    background-color: var(--bg-surface-lighter);
+
+  }
+  .claim-button .claim-task.disabled {
+
+    background-color: var(--bg-surface-lighter) !important;
+  }
+  .claim-button .claim-task {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    border: 1px solid transparent;
+    text-align: center;
+    padding: 15px 28px;
+    cursor: not-allowed;
+    width: fit-content !important;
+    color: var(--text-main);
+
+    font-size: 15px;
+  }
+}
+
+
+@media(max-width: 1059px) {
+  .claim-button {
+    justify-content: center;
+    align-items: center !important;
+    gap: 12px;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+    height: 60px;
+    padding: 0 !important;
+    width: 100%;
+    min-width: 100%;
+    width: 100%;
+    padding-bottom: 10px !important;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: var(--bg-sidebar-opaque);
+    backdrop-filter: blur(7px);
+    border-top: none;
+  }
+
+  .claim-button .claim-task {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 19px;
+    height: 100% !important;
+    border: 1px solid transparent;
+    text-align: center;
+    padding: 15px 28px;
+    background-color: var(--bg-surface);
+    cursor: not-allowed;
+    width: 100% !important;
+    color: var(--text-main);
+
+    font-size: 15px;
+}
+}
+
+
+.claim-button .claim-task {
+  font-weight: 550 !important;
+  transition: 
+    background-color 0.25s ease,
+    box-shadow 0.25s ease,
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+</style>
+
+
+{% set FILE_TYPE_MAP = {
+  "Document": [".pdf",".doc",".docx",".txt"],
+  "Presentation": [".ppt",".pptx",".key"],
+  "Spreadsheet": [".xls",".xlsx",".csv"],
+  "Image": [".png",".jpg",".jpeg",".gif",".webp"],
+  "Drawing": [".psd",".ai",".eps",".svg"],
+  "Video": [".mp4",".mov",".avi",".webm",".mkv"],
+  "Audio": [".mp3",".wav",".ogg",".aac"],
+  "Archive": [".zip",".rar",".7z",".tar",".gz"]
+} %}
+
+
+<div class="quest-complete"></div>
+
+<div class="closer-all-ppp-qq-init">
+
+<div class="quest-content">
+
+  <div class="render-content-init-q">
+
+    <h1 style="padding-left: 0; margin-top: 30px; margin-bottom: 10px;">{{ subquest.name }}</h1>
+
+    <div class="span-gap" style="display: flex; box-sizing: border-box;">
+      <span style="white-space: nowrap;" class="span-con">
+        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+
+          Cooldown period: {{ subquest.cooldown or "None" }}
+      </span>
+      <span style="white-space: nowrap;" class="span-con">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
+          </svg>
+          Recurrence: {{ subquest.recurrence or "None" }}
+      </span>
+      {% if current_sprint %}
+          <span class="spn-quest" id="max-claim-counter">Ending in {{ (current_sprint.end_date - current_sprint.start_date).days }} days</span>
+      {% endif %}
+
+        {% if subquest.max_claim %}
+        <span style="display: flex; align-items: center; gap: 4px; font-size: 0.8rem;" class="span-con">
+          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 50 50" fill="none" style="position: relative; top: -1.3px;">
+            <g transform="scale(1) translate(5, 5)" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <!-- Four vertical tally lines -->
+              <line x1="5" y1="40" x2="5" y2="10"/>
+              <line x1="15" y1="40" x2="15" y2="10"/>
+              <line x1="25" y1="40" x2="25" y2="10"/>
+              <line x1="35" y1="40" x2="35" y2="10"/>
+              
+              <!-- Fifth diagonal line crossing the four -->
+              <line x1="0" y1="10" x2="40" y2="40"/>
+            </g>
+          </svg>
+            <span style="padding: 0; margin: 0 2px;">{{ subquest.claim_count }}</span> / <span style="padding: 0; margin: 0 2px;">{{ subquest.max_claim }}</span>
+
+        </span>
+        {% endif %}
+
+    </div>
+    
+            
+    {% if rewards and rewards|length > 0 %}
+      <div class="reward-label">Rewards</div>
+
+
+    {% endif %}
+
+    <div class="rewards-list" style="gap: 10px; margin-top: 10px;">
+          {% for reward in rewards %}
+              {% set reward_data = reward.reward_data %}
+              {% set icon = reward|reward_icon %}
+
+            <div class="all-container">
+              <div class="card" onclick="openModal({{ loop.index0 }})"
+                  {% if has_any_role %}
+                      style="cursor: pointer;"
+                      
+                  {% else %}
+                      class="disabled-card"
+                  {% endif %}>
+
+                    <div class="card-header">
+                        <i class="setup-complete {{ icon.icon }}" style="font-size: 16px; color: {{ icon.color }}"></i>
+                        <span class="distribution-type">{{ icon.text }}</span>
+
+                        {# 👇 distribution-type specific info #}
+                        {% if reward.distribution_type == "RAFFLE" %}
+                            ({{ reward_data.subcontent.num_rewards or 0 }})
+                        {% elif reward.distribution_type == "VOTE" %}
+                            ({{ reward_data.subcontent.num_rewards or 0 }})
+                      {% elif reward.distribution_type == "FCFS" %}
+                      ({{ fcfs_claimed_count.get(reward.id, 0) }}/{{ reward.reward_data.get('subcontent', {}).get('max_supply', 0) }})
+
+                      {% endif %}
+
+                    </div>
+
+                    <div class="
+                        {% if reward.reward_type == 'xp' %} card-xp
+                        {% elif reward.reward_type == 'role' %} card-role
+                        {% elif reward.reward_type == 'token' %} card-token
+                        {% elif reward.reward_type == 'custom' %} card-custom
+                        {% endif %}
+                    ">
+                        {% if reward.reward_type == 'xp' %}
+                            <h1 class="xp-com">XP</h1>
+                            <div class="xp-value">{{ reward_data.amount or 0 }}</div>
+                        {% elif reward.reward_type == 'role' %}
+                            <img 
+                                src="https://xpcqiovfesvllsljxhac.supabase.co/storage/v1/object/public/uploads/discord_reward.png" 
+                                alt="Discord Reward"
+                                draggable="false"
+                                oncontextmenu="return false;"
+                            >
+                            <div class="xp-value">{{ reward_data.role or '' }}</div>
+                        {% elif reward.reward_type == 'token' %}
+                          <div class="xp-value">
+                            {{ reward_data.amount_per_winner or '' }} {{ reward_data.symbol or '' }}
+                          </div>
+                        {% elif reward.reward_type == 'custom' %}
+                            <div class="xp-value">{{ reward_data.text or 'Custom' }}</div>
+                        {% endif %}
+                        <div class="sparkle one"></div>
+                        <div class="sparkle two"></div>
+                        <div class="sparkle three"></div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <div id="reward-container"></div>
+    <div id="reward-modal" class="modal-overlay" style="display:none;">
+      <div class="modal-nav left" onclick="prevReward()">&#10094;</div>
+      <div id="modal-content-box"></div>
+      <div class="modal-nav right" onclick="nextReward()">&#10095;</div>
+    </div>
+{% if subquest.desc %}
+  <div class="quest-sdesc">
+    {% for block in subquest.desc %}
+      
+      {% if block.type == "text" %}
+        <div class="desc-text">
+          {{ block.html | safe }}
+        </div>
+      {% elif block.type == "image" %}
+        <div class="desc-media">
+          <img src="{{ block.src }}" loading="lazy" decoding="async"/>
+        </div>
+      {% elif block.type == "video" %}
+        <div class="desc-media">
+          <video src="{{ block.src }}" controls></video>
+        </div>
+      {% endif %}
+
+    {% endfor %}
+  </div>
+{% endif %}
+
+
+    {% if tasks and tasks|length > 0 %}
+      <div class="tasks-title {% if not rewards or rewards|length == 0 %}no-reward{% endif %}">
+        Task{% if tasks|length != 1 %}s{% endif %}
+      </div>
+    {% endif %}
+
+
+    {% if socials_to_show['twitter']['show'] or socials_to_show['discord']['show'] 
+      or socials_to_show['youtube']['show'] or socials_to_show['telegram']['show'] %}
+      <div class="logic-social">
+
+        {% if socials_to_show['twitter']['show'] %}
+        <div class="connect-card">
+          {% if can_view_info and socials_to_show['twitter']['reason_security'] %}
+          <div class="info"><i class="fa-solid fa-circle-question"></i> Why am I seeing this?</div>
+          {% endif %}
+          <a href="{{ url_for('twitter.twitter_login', next=request.path) }}" class="connect-btn twitter">
+            <i class="fa-brands fa-x-twitter"></i> Connect Twitter
+          </a>
+        </div>
+        {% endif %}
+
+        {% if socials_to_show['discord']['show'] %}
+        <div class="connect-card">
+          {% if can_view_info and socials_to_show['discord']['reason_security'] %}
+          <div class="info"><i class="fa-solid fa-circle-question"></i> Why am I seeing this?</div>
+          {% endif %}
+          <a href="{{ url_for('discord.discord_connect', next=request.path) }}" class="connect-btn discord">
+      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-discord" viewBox="0 0 24 24">
+          <path d="M20.318 4.36a19.8 19.8 0 0 0-4.885-1.517.075.075 0 0 0-.078.038c-.212.375-.445.866-.609 1.25a18.3 18.3 0 0 0-5.487 0 12 12 0 0 0-.618-1.25.075.075 0 0 0-.078-.038 19.9 19.9 0 0 0-4.885 1.517.06.06 0 0 0-.031.027C.534 9.036-.32 13.57.1 18.048q.005.033.032.056a19.9 19.9 0 0 0 5.992 3.03.075.075 0 0 0 .084-.028q.695-.945 1.227-1.994a.075.075 0 0 0-.016-.089l-.027-.017a13.5 13.5 0 0 1-1.872-.892.075.075 0 0 1-.03-.1l.022-.028q.191-.143.372-.292a.075.075 0 0 1 .077-.01c3.928 1.794 8.181 1.794 12.062 0a.075.075 0 0 1 .08.01q.181.149.372.292a.075.075 0 0 1-.006.127 12 12 0 0 1-1.873.891.075.075 0 0 0-.045.045.075.075 0 0 0 .004.062c.36.697.773 1.363 1.226 1.994a.075.075 0 0 0 .084.028 19.8 19.8 0 0 0 6.001-3.03.075.075 0 0 0 .032-.056c.501-5.176-.839-9.673-3.55-13.658a.045.045 0 0 0-.03-.029m-12.297 10.96c-1.184 0-2.157-1.085-2.157-2.419s.956-2.419 2.157-2.419c1.21 0 2.176 1.095 2.157 2.419 0 1.333-.956 2.419-2.157 2.419m7.974 0c-1.183 0-2.157-1.085-2.157-2.419s.956-2.419 2.157-2.419c1.21 0 2.177 1.095 2.157 2.419 0 1.333-.947 2.419-2.157 2.419"/>
+          </svg>Connect Discord
+          </a>
+        </div>
+        {% endif %}
+
+        {% if socials_to_show['youtube']['show'] %}
+        <div class="connect-card">
+          {% if can_view_info and socials_to_show['youtube']['reason_security'] %}
+          <div class="info"><i class="fa-solid fa-circle-question"></i> Why am I seeing this?</div>
+          {% endif %}
+          <a href="{{ url_for('youtube_bp.youtube_login', next=request.path) }}" class="connect-btn youtube">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 24 24">
+                                  <path d="M12.076 2.999h.134c1.233.004 7.48.05 9.165.503a3.015 3.015 0 0 1 2.123 2.13c.151.57.258 1.325.33 2.104l.015.156.033.39.012.156c.098 1.37.11 2.655.111 2.935v.113c-.002.291-.015 1.662-.123 3.09l-.012.158-.013.156c-.075.857-.186 1.711-.353 2.337a3.015 3.015 0 0 1-2.123 2.13c-1.74.468-8.354.501-9.27.502h-.213c-.464 0-2.38-.009-4.39-.078l-.255-.009-.131-.006-.256-.01-.256-.01c-1.665-.073-3.25-.192-3.981-.39a3.015 3.015 0 0 1-2.123-2.13c-.166-.626-.277-1.48-.353-2.337l-.012-.156-.012-.158A46.5 46.5 0 0 1 0 11.52v-.185c.003-.322.015-1.437.096-2.667l.011-.154.005-.078.012-.156.033-.39.015-.156c.072-.78.179-1.535.33-2.104a3.015 3.015 0 0 1 2.123-2.13c.73-.195 2.315-.315 3.981-.39l.256-.01.258-.009.13-.004.256-.01A150 150 0 0 1 11.787 3zM9.6 7.813v7.227l6.236-3.612z"/>
+                              </svg>  Connect YouTube
+          </a>
+        </div>
+        {% endif %}
+
+        {% if socials_to_show['telegram']['show'] %}
+        <div class="connect-card">
+          {% if can_view_info and socials_to_show['telegram']['reason_security'] %}
+          <div class="info"><i class="fa-solid fa-circle-question"></i> Why am I seeing this?</div>
+          {% endif %}
+          <a href="#" class="connect-btn telegram">
+            <svg xmlns="http://www.w3.org/2000/svg" 
+                  width="15" height="15"
+
+                  fill="currentColor" 
+                  viewBox="0 0 24 24">
+              <path d="M24 12A12 12 0 1 1 0 12a12 12 0 0 1 24 0m-11.568-3.141q-1.752.729-7 3.015-.85.337-.893.662c-.045.364.412.509 1.035.705l.263.083c.612.2 1.437.432 1.864.44q.585.015 1.302-.48 4.903-3.309 5.061-3.345c.075-.018.18-.039.249.024s.063.18.056.212c-.045.194-1.841 1.861-2.769 2.725-.29.27-.495.46-.537.504a12 12 0 0 1-.282.279c-.57.549-.996.96.022 1.632.491.324.883.589 1.274.857.426.292.852.58 1.404.944q.21.138.404.28c.497.354.945.672 1.496.621.32-.03.652-.33.821-1.23.398-2.125 1.179-6.729 1.36-8.627a2.1 2.1 0 0 0-.02-.473.51.51 0 0 0-.171-.326.8.8 0 0 0-.465-.14c-.45.008-1.144.249-4.476 1.635"/>
+              </svg>  Telegram
+          </a>
+        </div>
+        {% endif %}
+
+      </div>
+    {% endif %}
+
+
+    {% if tasks %}
+    <div class="tasks-list 
+              {% if socials_to_show['twitter']['show'] 
+              or socials_to_show['discord']['show'] 
+              or socials_to_show['youtube']['show'] 
+              or socials_to_show['telegram']['show'] %}
+                  disabled-tasks
+              {% endif %}"
+          style="margin-top: 10px;">
+      {% for task in tasks %}
+      {% if task.type == "file-upload" %}
+
+      {% set fileCount = task.config.fileCount|int if task.config and task.config.fileCount else 1 %}
+      {% set fileTypes = task.config.fileTypes if task.config and task.config.fileTypes else [] %}
+
+      {# ---- FILE TYPE MAP (TEMPLATE-LOCAL) ---- #}
+      {% set FILE_TYPE_MAP = {
+        "Document": [".pdf",".doc",".docx",".txt"],
+        "Presentation": [".ppt",".pptx",".key"],
+        "Spreadsheet": [".xls",".xlsx",".csv"],
+        "Image": [".png",".jpg",".jpeg",".gif",".webp"],
+        "Drawing": [".psd",".ai",".eps",".svg"],
+        "Video": [".mp4",".mov",".avi",".webm",".mkv"],
+        "Audio": [".mp3",".wav",".ogg",".aac"],
+        "Archive": [".zip",".rar",".7z",".tar",".gz"]
+      } %}
+
+      {# ---- BUILD ACCEPT LIST ---- #}
+      {% set ACCEPT_LIST = [] %}
+
+      {% for t in fileTypes %}
+        {% if t in FILE_TYPE_MAP %}
+          {% for ext in FILE_TYPE_MAP[t] %}
+            {% if ext not in ACCEPT_LIST %}
+              {% set _ = ACCEPT_LIST.append(ext) %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+
+      <div class="card-container-quest file-upload"
+          data-type="file-upload"
+          data-task-id="{{ task.id }}"
+          style="color: var(--accent-upload)">
+
+        <!-- Badge -->
+        <div class="badge-quest">
+          <span class="badge-icon-quest">
+            {{ PLATFORM_ICONS["file upload"].icon | safe if PLATFORM_ICONS and PLATFORM_ICONS.get("file upload") else "📁" }}
+          </span>
+          <span>File Upload</span>
+        </div>
+
+        <!-- Wrapper -->
+        <div class="card-wrapper-quest file-up">
+          <div class="card-quest">
+            <div class="content-quest uploader-root"
+                data-file-count="{{ fileCount }}"
+                data-file-types="{{ fileTypes|join(',') }}">
+
+              <!-- Upload UI -->
+              <div class="upload-box-init-q">
+
+                <div class="dragPrompt">
+                  <span class="initialPrompt">
+                    <span class="choose-file">Choose a file</span>
+                  </span>
+                  <span> or </span>
+                  <strong>drag & drop here</strong>
+                </div>
+
+                <div class="divers">
+                  <div class="chosenFilesContainer"></div>
+                  <div class="file-preview"></div>
+
+                  <input 
+                    type="file"
+                    class="fileUpload-init-makein"
+                    name="files"
+                    {% if fileCount > 1 %}multiple{% endif %}
+                    {% if ACCEPT_LIST|length %}accept="{{ ACCEPT_LIST|join(',') }}"{% endif %}
+                    hidden
+                  />
+
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      {% elif task.type == "discord" %}
+
+      <div 
+        class="card-container-quest discord" 
+        style="color: var(--accent-discord)" 
+        data-task-id="{{ task.id }}"
+        data-type="discord"
+      >
+
+        <div class="badge-quest">
+          <span class="badge-icon-quest">
+            {{ PLATFORM_ICONS.discord.icon | safe if PLATFORM_ICONS and PLATFORM_ICONS.get('discord') else "💬" }}
+          </span>
+          <span>Discord</span>
+        </div>
+
+        <div class="card-wrapper-quest">
+          <div class="card-quest">
+            <div class="content-quest">
+
+              <div class="avatar-quest">
+                <img src="{{ task.config.icon if task.config and task.config.icon else '' }}" loading="lazy" decoding="async">
+              </div>
+
+              <h2>{{ task.config.name if task.config and task.config.name else "Discord" }}</h2>
+
+              <a class="cta-quest"
+                href="{{ task.config.link if task.config and task.config.link else '#' }}"
+                target="_blank"
+                style="background: var(--accent-discord-text)">
+                Join {{ task.config.name if task.config and task.config.name else "Server" }}
+              </a>
+
+              <p style="display: none;" class="discord-errir">
+                Join the Discord server to claim this task
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      {% elif task.type == "github" %}
+      {% set do_star = task.config.star != false if task.config and task.config.star is defined else true %}
+      {% set do_fork = task.config.fork if task.config and task.config.fork else false %}
+      {% if do_star and do_fork %}
+        {% set cta_label = "Star & Fork this repo" %}
+      {% elif do_fork %}
+        {% set cta_label = "Fork this repo" %}
+      {% else %}
+        {% set cta_label = "Star this repo" %}
+      {% endif %}
+      <div
+        class="card-container-quest github"
+        style="color: var(--accent-github)"
+        data-task-id="{{ task.id }}"
+        data-type="github"
+      >
+        <div class="badge-quest">
+          <span class="badge-icon-quest">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+            </svg>
+          </span>
+          <span>GitHub</span>
+        </div>
+
+        <div class="card-wrapper-quest">
+          <div class="card-quest">
+            <div class="content-quest">
+
+              <div class="avatar-quest">
+                <img
+                  src="{{ task.config.owner_avatar if task.config and task.config.owner_avatar else '' }}"
+                  loading="lazy"
+                  decoding="async"
+                  style="{{ '' if task.config and task.config.owner_avatar else 'display:none' }}"
+                >
+                <span class="fallback-letter" style="{{ 'display:none' if task.config and task.config.owner_avatar else '' }}">
+                  {{ task.config.repo_owner[0] | upper if task.config and task.config.repo_owner else 'G' }}
+                </span>
+              </div>
+
+              <h2 class="community_name">
+                {{ task.config.repo_name if task.config and task.config.repo_name else "Repository" }}
+              </h2>
+
+              <div class="description-parnership" style="font-size:12px;opacity:.6">
+                {% if task.config and task.config.repo_owner %}
+                  @{{ task.config.repo_owner }}
+                {% endif %}
+              </div>
+
+              <a
+                class="cta-quest js-github-cta"
+                href="{{ task.config.link if task.config and task.config.link else '#' }}"
+                target="_blank"
+                style="background: var(--accent-github-text)"
+              >
+                {{ cta_label }}
+              </a>
+
+              <p style="display:none" class="github-error">
+                Complete the GitHub task to claim
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {% elif task.type == "youtube" %}
+
+      <div 
+        class="card-container-quest youtube" 
+        style="color: var(--accent-youtube)" 
+        data-task-id="{{ task.id }}"
+        data-type="youtube"
+      >
+
+        <div class="badge-quest">
+          <span class="badge-icon-quest">
+            {{ PLATFORM_ICONS.youtube.icon | safe if PLATFORM_ICONS and PLATFORM_ICONS.get('youtube') else "▶️" }}
+          </span>
+          <span>YouTube</span>
+        </div>
+
+        <div class="card-wrapper-quest">
+          <div class="card-quest">
+            <div class="content-quest">
+
+              <div class="avatar-quest">
+                <img src="{{ task.config.icon if task.config and task.config.icon else '' }}" loading="lazy" decoding="async">
+              </div>
+
+              <h2>{{ task.config.name if task.config and task.config.name else "YouTube" }}</h2>
+
+              <a class="cta-quest"
+                href="{{ (task.config.link if task.config and task.config.link else '#') ~ '?sub_confirmation=1' }}"
+                target="_blank"
+                style="background: var(--accent-youtube-text)">
+                Subscribe to {{ task.config.name if task.config and task.config.name else "Channel" }}
+              </a>
+
+              <div style="display: none;" class="yotube-error">
+                Subcribe to the channel to claim this task
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      {% elif task.type == "puzzle" %}
+
+      <div class="card-container-quest input-task puzzle"
+          data-type="puzzle"
+          data-task-id="{{ task.id }}"
+          style="color: var(--accent-puzzle)">
+
+        <!-- Badge -->
+        <div class="badge-quest">
+          <span class="badge-icon-quest">
+            {{ PLATFORM_ICONS["puzzle"].icon | safe if PLATFORM_ICONS and PLATFORM_ICONS.get("puzzle") else "🧩" }}
+          </span>
+          <span class="position-pp-zle">Puzzle</span>
+        </div>
+
+        <!-- Wrapper -->
+        <div class="card-wrapper-quest">
+          <div class="card-quest">
+            <div class="content-quest-none">
+
+              <!-- Title -->
+              <div class="title-quest">
+                {{ task.config.title if task.config and task.config.title else "Puzzle Challenge" }}
+              </div>
+
+              <!-- Description -->
+              <div class="description-quest">
+                {{ task.config.description if task.config and task.config.description else "Solve the puzzle and enter the correct secret code." }}
+              </div>
+
+              <!-- Input -->
+              <div class="input-wrapper-quest puzzle-input">
+                <input
+                  type="text"
+                  class="puzzle-answer-input"
+                  placeholder="{{ task.config.placeholder if task.config and task.config.placeholder else 'Enter secret code...' }}"
+                  autocomplete="off"
+                  spellcheck="false"
+                />
+              </div>
+
+              <!-- Error -->
+              <p style="display:none" class="puzzle-error"></p>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      {% elif task.type == "telegram" %}
+
+      <div 
+        class="card-container-quest telegram" 
+        style="color: var(--accent-telegram)" 
+        data-task-id="{{ task.id }}"
+        data-type="telegram"
+      >
+
+        <div class="badge-quest">
+          <span class="badge-icon-quest">
+            {{ PLATFORM_ICONS.telegram.icon | safe if PLATFORM_ICONS and PLATFORM_ICONS.get('telegram') else "📨" }}
+          </span>
+          <span>Telegram</span>
+        </div>
+
+        <div class="card-wrapper-quest">
+          <div class="card-quest">
+            <div class="content-quest">
+
+              <div class="avatar-quest">
+                <img src="{{ task.config.icon if task.config and task.config.icon else '' }}" loading="lazy" decoding="async">
+              </div>
+
+              <h2>{{ task.config.name if task.config and task.config.name else "Telegram" }}</h2>
+
+              <a class="cta-quest"
+                href="{{ task.config.link if task.config and task.config.link else '#' }}"
+                target="_blank"
+                style="background: var(--accent-telegram-text)">
+                Join {{ task.config.name if task.config and task.config.name else "Channel" }}
+              </a>
+
+              <p class="telegram-error" style="display: none;"></p>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      {% elif task.type == "visit-link" %}
+
+      <a 
+        href="{{ task.config.link if task.config and task.config.link else '#' }}"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="card-container-quest visit-link"
+        data-type="visit-link"
+        data-task-id="{{ task.id }}"
+        style="color: var(--accent-link)"
+      >
+
+        <!-- Badge -->
+        <div class="badge-quest">
+          <span class="badge-icon-quest">
+            {{ PLATFORM_ICONS["visit link"].icon | safe if PLATFORM_ICONS and PLATFORM_ICONS.get("visit link") else "🔗" }}
+          </span>
+          <span>Visit Link</span>
+        </div>
+
+        <!-- Wrapper -->
+        <div class="card-wrapper-quest">
+          <div class="card-quest">
+            <div class="content-quest link-root">
+
+              <div class="js-link-preview">
+
+                <div class="js-link-preview-inner"
+                  style="display:flex; gap:12px; align-items:center;
+                  {% if not task.config.preview.image and not task.config.preview.title and not task.config.preview.description %}
+                    display:none;
+                  {% endif %}">
+
+                  {% if task.config.preview.image %}
+                    <img 
+                      class="js-link-preview-img"
+                      src="{{ task.config.preview.image }}"
+                      style="width:120px;height:120px;border-radius:10px;object-fit:cover;">
+                  {% endif %}
+
+                  <div class="link-text-wrap">
+                    <div class="js-link-preview-title">
+                      {{ task.config.preview.title if task.config.preview.title else "Visit link" }}
+                    </div>
+
+                    <div class="js-link-preview-desc">
+                      {{ task.config.preview.description if task.config.preview.description else "" }}
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </a>
+
+
+
+
+      {% elif task.type == "quiz" %}
+
+      <div 
+        class="card-container-quest quiz"
+        data-type="quiz"
+        data-task-id="{{ task.id }}"
+        style="color: var(--accent-quiz)"
+      >
+
+        <!-- Badge -->
+        <div class="badge-quest">
+          <span class="badge-icon-quest">
+            {{ PLATFORM_ICONS["quiz"].icon | safe if PLATFORM_ICONS and PLATFORM_ICONS.get("quiz") else "🧠" }}
+          </span>
+          <span>Quiz</span>
+        </div>
+
+        <!-- Wrapper -->
+        <div class="card-wrapper-quest">
+          <div class="card-quest">
+            <div class="content-quest quiz-root">
+
+              <div class="polltitq">
+                {{ task.config.title if task.config and task.config.title else "Quiz" }}
+              </div>
+
+              <div class="polldescq">
+                {{ task.config.description if task.config and task.config.description else "" }}
+              </div>
+
+              <div class="radio-group">
+                {% set allowMulti = task.config.allowMultipleSelection if task.config and task.config.allowMultipleSelection else False %}
+                {% for opt in task.config.options if task.config and task.config.options %}
+                  <label class="custom-radio">
+                    <input 
+                      type="{{ 'checkbox' if allowMulti else 'radio' }}"
+                      name="{{ '' if allowMulti else 'quiz-' ~ task.id }}"
+                      value="{{ loop.index0 }}"
+                      data-task-id="{{ task.id }}"
+                    />
+                    <span class="radio-ui"></span>
+                    <span class="radio-text">{{ opt if opt else 'Option ' ~ loop.index }}</span>
+                  </label>
+                {% endfor %}
+              </div>
+
+              <div class="wrong-anser">
+                Almost there! Try another answer.
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+
+      {% elif task.type == "poll" %}
+
+      <div 
+        class="card-container-quest poll"
+        data-type="poll"
+        data-task-id="{{ task.id }}"
+        style="color: var(--accent-poll)"
+      >
+
+        <!-- Badge -->
+        <div class="badge-quest">
+          <span class="badge-icon-quest">
+            {{ PLATFORM_ICONS["poll"].icon | safe if PLATFORM_ICONS and PLATFORM_ICONS.get("poll") else "📊" }}
+          </span>
+          <span>Poll</span>
+        </div>
+
+        <!-- Wrapper -->
+        <div class="card-wrapper-quest">
+          <div class="card-quest">
+            <div class="content-quest quiz-root">
+
+              <!-- Title -->
+              <div class="polltitq">
+                {{ task.config.title if task.config and task.config.title else "Poll" }}
+              </div>
+
+              <!-- Description -->
+              <div class="polldescq">
+                {{ task.config.description if task.config and task.config.description else "" }}
+              </div>
+
+              <!-- Options -->
+              <div class="radio-group">
+
+                {% set allowMulti = task.config.multiple if task.config and task.config.multiple else False %}
+                {% set allowOther = task.config.other if task.config and task.config.other else False %}
+
+                {% for opt in task.config.options if task.config and task.config.options %}
+                  <label class="custom-radio">
+                    <input
+                      type="{{ 'checkbox' if allowMulti else 'radio' }}"
+                      name="{{ '' if allowMulti else 'poll-' ~ task.id }}"
+                      value="{{ loop.index0 }}"
+                      data-task-id="{{ task.id }}"
+                    />
+                    <span class="radio-ui"></span>
+                    <span class="radio-text">{{ opt }}</span>
+                  </label>
+                {% endfor %}
+
+                {% if allowOther %}
+                <div class="custom-radio other-option">
+                  <label class="other-radio">
+                    <input
+                      type="{{ 'checkbox' if allowMulti else 'radio' }}"
+                      name="{{ '' if allowMulti else 'poll-' ~ task.id }}"
+                      value="other"
+                    />
+                    <span class="radio-ui"></span>
+                  </label>
+
+                  <input 
+                    type="text"
+                    class="other-input"
+                    placeholder="Other (please specify)"
+                    onfocus="this.previousElementSibling.querySelector('input').checked = true"
+                  />
+                </div>
+                {% endif %}
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+      {% elif task.type in ["text", "numbers", "url"] %}
+
+      {% set inputType = "text" %}
+      {% set title = "" %}
+      {% set desc = "" %}
+      {% set placeholder = "" %}
+
+      {% if task.type == "url" %}
+        {% set inputType = "url" %}
+        {% set title = "URL" %}
+        {% set desc = "Paste a public link." %}
+        {% set placeholder = "https://example.com" %}
+      {% elif task.type == "numbers" %}
+        {% set inputType = "text" %}
+        {% set title = "Number" %}
+        {% set desc = "Enter a numeric value." %}
+        {% set placeholder = "12345" %}
+      {% elif task.type == "text" %}
+        {% set inputType = "text" %}
+        {% set title = "Text" %}
+        {% set desc = "Enter required text." %}
+        {% set placeholder = "Type here..." %}
+      {% endif %}
+
+      <div 
+        class="card-container-quest input-task {{ task.type }}" 
+        style="color: var(--accent-{{ task.type }})"
+        data-task-id="{{ task.id }}"
+        data-type="{{ task.type }}"
+      >
+
+        <div class="badge-quest">
+          <span class="badge-icon-quest">
+            {{ PLATFORM_ICONS[task.type].icon | safe if PLATFORM_ICONS and PLATFORM_ICONS.get(task.type) else "📝" }}
+          </span>
+          <span>{{ title }}</span>
+        </div>
+
+        <div class="card-wrapper-quest">
+          <div class="card-quest">
+            <div class="content-quest-none">
+
+              <div class="title-quest">
+                {{ task.config.title if task.config and task.config.title else title }}
+              </div>
+
+              <div class="description-quest">
+                {{ task.config.description if task.config and task.config.description else desc }}
+              </div>
+
+              <div class="input-wrapper-quest">
+                <input
+                  type="{{ inputType }}"
+                  class="js-{{ task.type }}-input"
+                  placeholder="{{ task.config.placeholder if task.config and task.config.placeholder else placeholder }}"
+                  value="{{ task.config.link if task.config and task.config.link else '' }}"
+                  {% if task.type == "numbers" %}
+                    inputmode="numeric" pattern="[0-9]*"
+                  {% endif %}
+                />
+              </div>
+
+              <p style="display:none" class="{{ task.type }}-error"></p>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+      {% elif task.type == "Optionscale(numbers)" %}
+
+      <div class="card-container-quest optionscale-numbers" 
+          data-type="Optionscale(numbers)" 
+          data-task-id="{{ task.id }}"
+          style="color: var(--accent-numbers)">
+
+        <!-- Badge -->
+        <div class="badge-quest">
+          <span class="badge-icon-quest">
+            {{ PLATFORM_ICONS["optionscale(numbers)"].icon | safe if PLATFORM_ICONS and PLATFORM_ICONS.get("optionscale(numbers)") else "🔢" }}
+          </span>
+          <span>Number Scale</span>
+        </div>
+
+        <!-- Wrapper -->
+        <div class="card-wrapper-quest">
+          <div class="card-quest">
+            <div class="content-quest numbers">
+
+              <!-- Title and description -->
+              <div class="polltitn">{{ task.config.title or "Your Take" }}</div>
+              <div class="polldescn">{{ task.config.description or "" }}</div>
+
+              <!-- Numbers container -->
+              <div class="number-container js-number-container">
+                {% set start = task.config.scale.from|int if task.config and task.config.scale and task.config.scale.from else 1 %}
+                {% set end = task.config.scale.to|int if task.config and task.config.scale and task.config.scale.to else 10 %}
+
+                {% for i in range(start, end + 1) %}
+                  <div class="number-box">{{ i }}</div>
+                {% endfor %}
+              </div>
+
+              <!-- Left & Right labels -->
+              <div class="containersters">
+                <div class="left-div js-left-label">
+                  {{ task.config.labels.left if task.config and task.config.labels and task.config.labels.left else "" }}
+                </div>
+
+                <div class="right-div js-right-label">
+                  {{ task.config.labels.right if task.config and task.config.labels and task.config.labels.right else "" }}
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      {% elif task.type == "Optionscale(star)" %}
+
+      {% set starCount = task.config.starCount|int if task.config and task.config.starCount else 5 %}
+
+      <div class="card-container-quest optionscale-star" 
+          data-type="Optionscale(star)" 
+          data-task-id="{{ task.id }}"
+          style="color: var(--accent-star)">
+
+        <!-- Badge -->
+        <div class="badge-quest">
+          <span class="badge-icon-quest">
+            {{ PLATFORM_ICONS["optionscale(star)"].icon | safe if PLATFORM_ICONS and PLATFORM_ICONS.get("optionscale(star)") else "⭐" }}
+          </span>
+          <span>Star Take</span>
+        </div>
+
+        <!-- Wrapper -->
+        <div class="card-wrapper-quest">
+          <div class="card-quest">
+            <div class="content-quest star">
+
+              <!-- Title -->
+              <div class="polltits">
+                {{ task.title or (task.config.title if task.config and task.config.title else "Rate this") }}
+              </div>
+
+              <!-- Description -->
+              <div class="polldescs">
+                {{ task.description or (task.config.description if task.config and task.config.description else "") }}
+              </div>
+
+              <!-- Stars -->
+              <div class="stars js-stars-container" data-count="{{ starCount }}">
+                {% for i in range(starCount) %}
+                <svg viewBox="0 0 24 24" width="30" height="30"
+                    xmlns="http://www.w3.org/2000/svg"
+                    stroke="currentColor" fill="currentColor"
+                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z"/>
+                </svg>
+                {% endfor %}
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {% elif task.type == "invite" %}
+
+      {% set numInvites = task.config.numInvites or 1 %}
+      {% set activeInvites = task.progress.active_invites or 0 %}
+      {% set inviteCode = task.config.invite_code or "" %}
+      {% set percentComplete = 0 %}
+      {% if numInvites > 0 %}
+        {% set percentComplete = (activeInvites / numInvites * 100) | round(0, 'floor') %}
+      {% endif %}
+
+      {% set xpForValidInvite = task.config.xp_for_valid_invite or 0 %}
+      {% set subquestName = task.config.subquest_name %}
+      {% set subquestUUID = task.config.subquest_uuid %}
+      {% set questUUID = task.quest_uuid %}
+      {% set communitySlug = task.community_slug %}
+      {% set inviteLink = request.host_url.rstrip('/') ~ '/' ~ communitySlug ~ '/invite/' ~ inviteCode %}
+
+      <div class="card-container-quest invite-task"
+          data-type="invite"
+          data-task-id="{{ task.id }}"
+          style="color: var(--accent-invite)">
+
+        <!-- Badge -->
+        <div class="badge-quest">
+          <span class="badge-icon-quest">
+            {{ PLATFORM_ICONS["invite"].icon | safe if PLATFORM_ICONS and PLATFORM_ICONS["invite"] else "✉️" }}
+          </span>
+          <span>Invite</span>
+        </div>
+
+        <!-- Wrapper -->
+        <div class="card-wrapper-quest">
+          <div class="card-quest">
+            <div class="content-quest invite-root">
+
+              <!-- Header -->
+              <div class="invite-header">
+                <div class="progress-header">
+                  <span class="invite-count">
+                    <strong>{{ activeInvites }}</strong> /
+                    <span class="quering-root">{{ numInvites }}</span>
+                  </span>
+
+                  <span class="invite-remaining">
+                    Invite <strong>{{ (numInvites - activeInvites) if numInvites - activeInvites > 0 else 0 }}</strong> more friends to claim
+                  </span>
+                </div>
+
+                <div class="progress-bared">
+                  <div class="progress-filled" style="width: {{ percentComplete }}%;"></div>
+                </div>
+              </div>
+
+              <!-- Invite Link -->
+              <div class="invite-link-wrapper">
+                <div class="invite-link-box">
+                  <div class="invite-link" data-invite-link="{{ inviteLink }}">
+                    {{ inviteLink }}
+                  </div>
+                </div>
+                <button class="copy-btn-quest" data-copy-link="{{ inviteLink }}">Copy</button>
+              </div>
+
+              <!-- Conditions -->
+              <div class="conditon-invite">
+
+                <div class="invite-text-title">How to invite?</div>
+
+                <div class="content-block-quest">
+                  <div class="text-bold">1. Recruits join through link</div>
+                  <div class="text-small-invite">
+                    New member signs up using your unique invite link.
+                  </div>
+                </div>
+
+                <div class="content-block-quest">
+                  <div class="text-bold">
+                    2. Reach <span class="xp-together">{{ xpForValidInvite }} XP</span>
+                  </div>
+                  <div class="text-small-invite">
+                    Recruits earn at least <span class="xp-together">{{ xpForValidInvite }} XP</span> through quests.
+                  </div>
+                </div>
+
+                {% if subquestName and subquestUUID %}
+                <div class="content-block-quest">
+                  <div class="text-bold">
+                    3. Complete "{{ subquestName }}" quest
+                  </div>
+                  <div class="text-small-invite">
+                    Complete 
+                    <a class="subquest-named"
+                      href="/{{ communitySlug }}/quest/{{ questUUID }}/{{ subquestUUID }}">
+                      {{ subquestName }}
+                      <svg xmlns="http://www.w3.org/2000/svg" 
+                          width="13" height="13" 
+                          fill="none" 
+                          viewBox="0 0 24 24" 
+                          stroke-width="1.5" 
+                          stroke="currentColor" 
+                          class="icon-inline">
+                        <path stroke-linecap="round" stroke-linejoin="round" 
+                              d="M9 8.25H7.5a2.25 2.25 0 0 0-2.25 2.25v9a2.25 2.25 0 0 0 2.25 2.25h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25H15m0-3-3-3m0 0-3 3m3-3V15" />
+                      </svg>
+                    </a>  
+                    quest to count for this quest.
+                  </div>
+                </div>
+                {% endif %}
+
+              </div>
+
+              <!-- Footer -->
+              <button class="show-invite" data-task-id="{{ task.id }}">
+                <span style="margin-left:4px;">Show my invites</span>
+              </button>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      {% elif task.type == "partnership" %}
+
+      <div class="card-container-quest partnership"
+          data-type="partnership"
+          data-task-id="{{ task.id }}"
+          style="color: var(--accent-partnership)">
+
+        <div class="badge-quest">
+          <span class="badge-icon-quest">
+            
+            {{ PLATFORM_ICONS["partnership"].icon | safe if PLATFORM_ICONS and PLATFORM_ICONS.get("p.o.h") else "🤝" }}
+
+          </span>
+          <span>Partnership</span>
+        </div>
+
+        <div class="card-wrapper-quest">
+          <div class="card-quest">
+            <div class="content-quest">
+
+              <div class="avatar-quest">
+                <img 
+                  src="{{ task.config.partner_circle_img }}"
+                  alt="Profile picture"
+                  style="display: block !important;" 
+                />
+                <span class="partnerFallback fallback-letter"></span>
+              </div>
+
+              <h2 class="community_name">
+                {{ task.config.community_name or "Community" }}
+              </h2>
+
+              <div class="description-parnership">
+                {{ task.config.about or "" }}
+              </div>
+
+              <a href="{{ task.config.link or '#' }}"
+                class="cta-quest"
+                target="_blank"
+                rel="noopener noreferrer"
+                style="background: var(--accent-partnership-text)">
+                Join
+              </a>
+
+              <p class="partnership-error" style="color: red; display: none;">
+                Join the community to claim this task
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+      {% elif task.type == "partnership_quest" %}
+
+      <div class="card-container-quest partnership_quest"
+          data-type="partnership_quest"
+          data-task-id="{{ task.id }}"
+          style="color: var(--accent-p-quest)">
+
+        <div class="badge-quest">
+          <span class="badge-icon-quest">
+            
+            {{ PLATFORM_ICONS["partnership"].icon | safe if PLATFORM_ICONS and PLATFORM_ICONS.get("p.o.h") else "" }}
+
+          </span>
+          <span>Partnership Quest</span>
+        </div>
+
+        <div class="card-wrapper-quest">
+          <div class="card-quest">
+            <div class="content-quest">
+
+              <div class="avatar-quest">
+                <img 
+                  src="{{ task.config.partner_circle_img }}"
+                  alt="Profile picture"
+                  style="display: block !important;" 
+                />
+                <span class="partnerFallback fallback-letter"></span>
+              </div>
+
+              <h2 class="community_name">
+                {{ task.config.community_name or "Community" }}
+              </h2>
+
+              <div class="description-parnership">
+                {{ task.config.subquest_name or "" }}
+              </div>
+
+              <a href="{{ task.config.link or '#' }}"
+                class="cta-quest"
+                target="_blank"
+                rel="noopener noreferrer"
+                style="background: var(--accent-p-quest-text)">
+                Go to quest
+              </a>
+
+              <p class="partnership-error" style="color: red; display: none;"></p>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      {% elif task.type == "p.o.h" %}
+
+      <div class="card-container-quest poh"
+          data-type="p.o.h"
+          data-task-id="{{ task.id }}"
+          style="color: var(--accent-poh)">
+
+        <!-- Badge -->
+        <div class="badge-quest">
+          <span class="badge-icon-quest">
+            {{ PLATFORM_ICONS["p.o.h"].icon | safe if PLATFORM_ICONS and PLATFORM_ICONS.get("p.o.h") else "🧍" }}
+          </span>
+          <span>Proof of Humanity</span>
+        </div>
+
+        <!-- Wrapper -->
+        <div class="card-wrapper-quest">
+          <div class="card-quest">
+            <div class="content-quest poh-root">
+
+              <!-- Title -->
+              <div class="poh-title">
+                Verify Your Humanity
+              </div>
+
+              <!-- Subtitle -->
+              <div class="poh-subtitle">
+                Click below to prove you’re real
+              </div>
+
+              <!-- CTA -->
+              <a href="{{ task.config.link if task.config and task.config.link else '#' }}"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="cta-quest poh-btn">
+                Claim Verification
+              </a>
+
+              <!-- Error / status -->
+              <p class="prove-self" style="display:none;">
+                Verification required to continue
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+
+
+
+  </div>
+
+
+  <div class="claim-button">
+  
+
+    
+        <div class="forquest-main" style="{% if not subquest.id in completed_subquests %}display:none{% endif %}"">
+          <div class="forquest-container">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="-5.0 -10.0 110.0 135.0" fill="currentColor" stroke="currentColor">
+              <path d="m85.652 6.5938c-15.199 4.6992-33.309 28.609-50.668 53.164-7.3672-12.414-15.172-16.559-23.242-12.312-0.99609 0.52344-1.6523 1.5273-1.7344 2.6562-0.082031 1.1406 0.42969 2.2422 1.3555 2.918 5.8516 4.2734 11.922 11.848 19.141 23.84v-0.003906c1.2891 2.1758 3.6328 3.5039 6.1562 3.4883h0.11719c2.6016-0.023438 4.9844-1.4453 6.2461-3.7188 7.0234-12.734 14.738-25.07 23.109-36.957 6.8594-9.75 14.508-18.926 22.867-27.43 1.125-1.1016 1.332-2.8359 0.5-4.1719-0.77734-1.332-2.3789-1.9453-3.8477-1.4727z"/>
+            </svg>
+            <span class="completed-forquest">Completed</span>
+          </div>
+        </div>
+        <!-- Cooldown -->
+        <div class="cool-display claim-ppqq"  style="display: none;">
+          Try again in:
+          <span class="cooldown-retry" >
+          </span>
+        </div>
+
+        <!-- Claim button -->
+        <button id="claim-task" class="claim-task  disable"
+                data-subquest-id="{{ subquest.uuid }}" 
+                style="outline: none; {% if remaining_seconds > 0 %}display:none{% endif %}"
+            {% if (socials_to_show.twitter.show or
+                  socials_to_show.discord.show or
+                  socials_to_show.youtube.show or
+                  socials_to_show.telegram.show) %}
+                
+                disabled
+            {% endif %}
+            >
+          Test Claim
+        </button>
+  
+  </div>
+
+</div>
+
+</div>
+
+
+ 

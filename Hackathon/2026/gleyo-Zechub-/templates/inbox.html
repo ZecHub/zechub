@@ -1,0 +1,202 @@
+<title>Inbox</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='inbox.css') }}?v=7">
+
+
+<div class="content-mmpppaaa">
+
+  <div class="review-app"  data-community-id="{{ community.id }}" >
+
+    <aside class="review-panel review-feed show">
+      <div class="review-feed-top" style="padding: 20px; display: flex;">
+        <div>Inbox</div>
+        <div class="review-chipped-cotainer"  style="cursor: pointer; position: relative; margin-left: auto;" title="filter by quest">
+          <div class="review-chipped" id="show-inbox-item-dropdown"  style="cursor: pointer; position: relative;" title="filter by quest">
+              <svg xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 0 24 24" 
+                width="19" height="19" 
+                fill="currentColor">
+              <path d="M4 6h16v2H4V6zm3 5h10v2H7v-2zm4 5h2v2h-2v-2z"/>
+            </svg>  
+          </div>
+
+        
+        
+          <button class="clear-filter-btn-inbox" id="clear-all-filter-inbox" style="display: none; opacity: 0;">
+            Clear filter
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height=14 fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
+
+          </button>
+        </div>  
+      </div>
+
+        <div class="review-list">
+
+          <div class="review-skeleton">
+            <div class="skeleton-avatar"></div>
+
+            <div class="skeleton-content">
+              <div class="skeleton-lines">
+                <div class="skeleton-line"></div>
+                <div class="skeleton-line short"></div>
+              </div>
+
+              <div class="skeleton-time"></div>
+            </div>
+
+          </div>
+
+          <div class="review-skeleton">
+            <div class="skeleton-avatar"></div>
+
+            <div class="skeleton-content">
+              <div class="skeleton-lines">
+                <div class="skeleton-line"></div>
+                <div class="skeleton-line short"></div>
+              </div>
+
+              <div class="skeleton-time"></div>
+            </div>
+
+          </div>
+          <div class="review-skeleton">
+            <div class="skeleton-avatar"></div>
+
+            <div class="skeleton-content">
+              <div class="skeleton-lines">
+                <div class="skeleton-line"></div>
+                <div class="skeleton-line short"></div>
+              </div>
+
+              <div class="skeleton-time"></div>
+            </div>
+
+          </div>
+          <div class="review-skeleton">
+            <div class="skeleton-avatar"></div>
+
+            <div class="skeleton-content">
+              <div class="skeleton-lines">
+                <div class="skeleton-line"></div>
+                <div class="skeleton-line short"></div>
+              </div>
+
+              <div class="skeleton-time"></div>
+            </div>
+
+          </div>
+          <div class="review-skeleton">
+            <div class="skeleton-avatar"></div>
+
+            <div class="skeleton-content">
+              <div class="skeleton-lines">
+                <div class="skeleton-line"></div>
+                <div class="skeleton-line short"></div>
+              </div>
+
+              <div class="skeleton-time"></div>
+            </div>
+
+          </div>
+
+
+
+
+        </div>
+
+    </aside>
+
+    <main class="review-panel review-center" style="position: relative;" >
+      <div class="inbox-conatiner-wrapper" style="width: 100%; display: none; flex-direction: column;">
+          <div class="inbox-bar">
+            <span class="inbox-crumb ellipsis"> Did you find a bug/issue?</span>
+          </div>
+
+          <div class="info-inbox">
+
+            <div class="inbox-task" style="width: 100%;">
+
+            </div>
+            
+            <div class="comment-container">
+              <div class="comment-box" >
+                
+              </div>        
+            </div>
+          </div>
+
+      </div>
+
+      {% if not mobile %}
+          
+        <div class="placeholder-inbox" style="
+              position: absolute;
+              inset: 0;     bottom:20%; left:0;  
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;  /* vertical centering */
+              color: var(--text-muted);
+              text-align: center;
+              gap: 30px;
+          ">
+          <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="121.000000pt" height="121.000000pt" viewBox="0 0 381.000000 381.000000" preserveAspectRatio="xMidYMid meet" >
+
+            <g transform="translate(0.000000,381.000000) scale(0.100000,-0.100000)" fill="currentColor" stroke="none">
+            <path d="M1585 2800 c-141 -16 -250 -83 -327 -198 -45 -67 -56 -103 -109 -347 -62 -291 -80 -394 -77 -428 l3 -32 220 -5 c121 -3 229 -10 240 -15 41 -18 77 -51 105 -96 53 -87 65 -91 266 -90 199 1 222 7 253 69 25 48 60 85 102 109 29 15 65 19 254 23 l220 5 3 45 c4 69 -119 644 -153 710 -33 65 -114 153 -173 187 -101 60 -141 66 -462 69 -162 1 -326 -1 -365 -6z"/>
+            <path d="M1165 1690 l-90 -5 -3 -40 c-5 -65 54 -310 93 -391 59 -121 162 -205 290 -239 83 -21 813 -22 892 -1 168 45 301 181 342 351 32 129 61 290 55 307 -5 15 -18 18 -97 20 -169 3 -324 1 -351 -6 -17 -4 -39 -26 -63 -64 -29 -44 -51 -63 -92 -84 -53 -27 -59 -28 -225 -28 -94 0 -188 4 -209 9 -53 13 -99 47 -130 96 -47 74 -50 75 -193 78 -71 1 -169 0 -219 -3z"/>
+            </g>
+          </svg>
+            <div class="preview-task" id="previewTask">
+                <div class="preview-placeholder">Select a task from the inbox to view details.</div>
+            </div>
+        </div>
+      {% endif %}
+
+    </main>
+
+
+
+  </div>
+
+<div>
+
+
+
+<div class="quest-select" id="filter-by-quest" style="display: none;">
+  <div class="quest-panel">
+    <div class="quest-search-box">
+      <svg viewBox="0 0 24 24" fill="none">
+        <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+        <path d="M20 20L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <input type="search" placeholder="Search quest..." />
+    </div>
+
+    <div class="quest-divider"></div>
+
+    <ul class="quest-list">
+      <li class="quest-item disabled" style="color: var(--text-muted); opacity: 0.7; text-align: center;">Loading quests...</li>
+
+    </ul>
+      <div  style=" text-align: center; font-size: 14px; font-style: oblique; color: var(--text-muted); display: none ;padding-bottom: 15px; padding-top: 8px;"  id="quest-no-result">No result found</div>
+  </div>
+</div>
+
+
+
+<div class="type-select" id="filter-by-type" style="display:none;">
+  <div class="type-panel">
+
+    <div class="type-item" data-type="task">
+      Quest Activity
+    </div>
+
+    <div class="type-item" data-type="invite">
+      Invite Activity
+    </div>
+
+  </div>
+</div>

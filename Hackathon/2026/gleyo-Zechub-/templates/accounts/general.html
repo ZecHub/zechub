@@ -1,0 +1,524 @@
+<style>
+
+@media (min-width: 769px) {
+.profile-wrapper {
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 34px 0;
+
+}
+
+}
+
+@media (max-width: 769px) {
+    .profile-wrapper {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+        padding: 34px 14px;
+    }
+
+    .not-mob {
+        display: none !important;
+    }
+}
+.profile-banner {
+  height: 120px;
+  background: linear-gradient(135deg, #303050, #1e1e2f);
+  border-radius: 17px;
+  position: relative;
+}
+
+.avatar {
+  position: absolute;
+  bottom: -28px;
+  left: 24px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  overflow: hidden;
+  font-weight: 600;
+  color: var(--text-main);
+  border: 2px solid var(--border);
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+.avatar-overlay {
+  position: absolute;
+  inset: 0; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.35);
+  color: #fff;
+  z-index: 2;
+  transition: opacity 0.25s ease;
+}
+
+.avatar-overlay svg {
+  width: 18px;
+  height: 18px;
+}
+
+
+@media (min-width: 769px) {
+  .avatar-overlay {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .avatar:hover .avatar-overlay,
+  .avatar:active .avatar-overlay {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .mob {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+.profile-card {
+  margin-top: 40px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.profile-card.delete-card {
+  padding: 14px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+
+.profile-title {
+  margin: 0 0 16px;
+  font-size: 16px;
+  color: var(--text-main);
+}
+
+/* Editable Field */
+.editable-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.editable-field label {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.field-view {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 14px;
+  padding-right: 3px !important;
+  border-radius: 13px;
+  background: var(--bg-app);
+}
+
+.field-value {
+  color: var(--text-main);
+  font-size: 14px;
+}
+
+.edit-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.edit-btn:hover {
+  color: var(--text-main);
+}
+
+/* Edit State */
+.field-edit {
+  display: none;
+  background: var(--bg-app);
+  border-radius: var(--radius);
+}
+
+.field-edit input {
+  width: 100%;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  color: var(--text-main);
+    border-radius: 13px;
+    padding: 13px 16px;
+  outline: none;
+}
+
+.field-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.btn {
+  border-radius: 13px;
+  padding: 13px 16px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.btn.cancel {
+  background: transparent;
+  color: var(--text-muted);
+  border: none;
+}
+
+.btn.save {
+  background: var(--bg-active);
+  color: var(--text-main);
+  border: 1px solid var(--bg-active-border);
+}
+
+
+
+.editable-field.editing .field-view {
+  display: none;
+}
+
+.editable-field.editing .field-edit {
+  display: block;
+}
+
+
+.field-input-act{
+  width: 100%;
+  outline: none;
+  border-radius: 13px;
+  padding: 13px 16px;
+  font-size: 14px !important;
+}
+
+
+.edit-email-input {
+    padding: 2px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    color: #69a2ff;
+    font-size: 14px;
+}
+
+.edit-email-input:hover {
+    opacity: 0.8;
+}
+
+.edit-email-input svg{
+    width: 14px;
+    height: 14px;
+
+}
+
+
+.modal-emailch{
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.505);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  opacity: 0;
+  pointer-events: none !important;
+  transition: opacity 0.2s ease;
+}
+
+
+.modal-backdrop-email {
+  width: 100%;
+  max-width: 420px;
+  background: rgba(34, 34, 54, 0.448);
+  backdrop-filter: blur(14px);
+  border: 0.9px solid var(--border);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.modal-backdrop-email p{
+  font-size: 14px; 
+  color: var(--text-muted); 
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* =====================
+   DELETE ACCOUNT
+===================== */
+
+
+.delete-account-btn {
+  width: 100%;
+  padding: 13px 16px;
+  border-radius: 13px;
+  font-size: 14px;
+  cursor: pointer;
+  background: transparent;
+  color: #ff6b6b;
+  border: 1px solid rgba(255, 90, 90, 0.45);
+}
+
+.delete-account-btn:hover {
+  background: rgba(255, 90, 90, 0.08);
+}
+
+
+
+@media (max-width: 769px) {
+    .avatar-overlay {
+        opacity: 1;
+    }
+
+    .modal-emailch {
+        padding: 0 15px;
+        transition: none;
+
+    }
+
+    
+}
+
+
+
+.field-actions.action-buttons{
+  position: relative;
+  right: -20px;
+}
+
+.field-actions .btn {
+  background: rgba(43, 43, 66, 0.448);
+  font-size: 14px;
+  margin-right: 16px;
+
+  border-radius: 24px !important;
+  padding: 12px 40px;
+}
+
+.field-actions .btn:hover {
+    background: rgba(43, 43, 66, 0.147);
+}
+
+.field-actions.action-buttons .save {
+    background-color: #4888f0d8 !important;
+    border: none !important;
+
+}
+
+.field-actions.action-buttons .save:hover {
+    background-color: #4482e5d8 !important;
+}
+
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #356cc4;
+}
+
+
+.hidden-from-view {
+  display: none !important;
+}
+</style>
+
+{% set colors = [
+  '#FF6F61', '#6B5B95', '#88B04B', '#F7CAC9',
+  '#92A8D1', '#955251', '#B565A7', '#009B77',
+  '#DD4124', '#45B8AC'
+] %}
+
+{# Macro to lighten or darken a hex color safely #}
+{% macro adjust_color(hex, amount) %}
+  {% set hex = hex.lstrip('#') %}
+  {% set r = (hex[0:2] | int(base=16)) + amount %}
+  {% set g = (hex[2:4] | int(base=16)) + amount %}
+  {% set b = (hex[4:6] | int(base=16)) + amount %}
+  {# clamp each to 0–255 range manually #}
+  {% if r < 0 %}{% set r = 0 %}{% elif r > 255 %}{% set r = 255 %}{% endif %}
+  {% if g < 0 %}{% set g = 0 %}{% elif g > 255 %}{% set g = 255 %}{% endif %}
+  {% if b < 0 %}{% set b = 0 %}{% elif b > 255 %}{% set b = 255 %}{% endif %}
+  #{{ "%02x%02x%02x" % (r, g, b) }}
+{% endmacro %}
+
+{% set color_index = user.id % colors|length %}
+{% set bg_color = colors[color_index] %}
+
+{# compute brightness to decide whether to lighten or darken text color #}
+{% set r = bg_color[1:3]|int(base=16) %}
+{% set g = bg_color[3:5]|int(base=16) %}
+{% set b = bg_color[5:7]|int(base=16) %}
+{% set brightness = (r * 0.299 + g * 0.587 + b * 0.114) %}
+
+{% if brightness > 160 %}
+  {% set text_color = adjust_color(bg_color, -60) %}  {# darker text for light bg #}
+{% else %}
+  {% set text_color = adjust_color(bg_color, 60) %}   {# lighter text for dark bg #}
+{% endif %}
+
+
+
+<div class="profile-wrapper">
+
+    <!-- Banner -->
+    <div class="profile-banner">
+    <div class="avatar" style="background-color: {{ bg_color }}; color: {{ text_color }};">
+        
+        <img
+            src="{{ user.profile_pic }}" class="{% if user.profile_pic %}{% else %}hidden-from-view{% endif %}"
+            alt="{{ user.username }} avatar"
+        />
+
+
+        
+
+        <span class="avatar-fallback{% if user.profile_pic %} hidden-from-view{% else %}{% endif %}">
+            {{ user.username[:1].upper() }}
+
+        </span>
+        
+        <input
+        type="file"
+        id="avatarInput"
+        accept="image/png,image/jpeg,image/jpg,image/webp"
+        hidden
+        />
+        <div class="avatar-overlay" style="cursor: pointer;">
+            <svg
+            viewBox="0 -0.5 17 17"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            >
+            <path d="M2.539,8.001 C3.367,8.001 3.918,7.45 3.918,6.622
+                L3.914,6.187 C3.914,6.187 3.709,4.954 5.354,4.954
+                L12.015,5 L12.015,6.759 C12.338,7.081 12.862,7.081 13.185,6.759
+                L15.758,4.187 C16.08,3.863 16.08,3.339 15.758,3.017
+                L13.185,0.292 C12.862,-0.03 12.338,-0.03 12.015,0.292
+                L12.015,2.137 C11.854,2.09 5.562,2.063 5.562,2.063
+                C1.851,2.063 1.039,4.492 1.039,5.47
+                L1.039,6.501 C1.039,7.329 1.711,8.001 2.539,8.001 Z"/>
+
+            <path d="M14.5,8.042 C13.672,8.042 13,8.626 13,9.454
+                L13.002,10.411 C12.957,10.768 12.357,11.001 11.477,11.001
+                L4.938,11.001 L4.936,9.442 C4.614,9.12 4.09,9.12 3.766,9.442
+                L1.194,12.014 C0.872,12.338 0.872,12.862 1.194,13.184
+                L3.766,15.756 C4.09,16.08 4.614,16.08 4.936,15.756
+                L4.938,13.905 L11.477,13.905
+                C15.188,13.905 16,11.463 16,10.484
+                L16,9.453 C16,8.626 15.328,8.042 14.5,8.042 Z"/>
+            </svg>    
+        </div>
+
+    </div>
+    </div>
+    <input
+    type="file"
+    id="avatarInput"
+    accept="image/png,image/jpeg,image/jpg,image/webp"
+    hidden
+    />
+
+
+    <div class="profile-card">
+
+        <h2 class="profile-title">Account details</h2>
+
+        <div class="editable-field" data-field="username">
+        <label>Username</label>
+
+            <input type="text" class="field-input-act" id="usernameInput" value="{{ user.username }}" placeholder="Enter Username">
+
+
+    
+        </div>
+        <!-- EMAIL -->
+        <div class="editable-field" data-field="email" style="margin-top:16px;">
+        <label>Email address</label>
+
+        <div class="field-view">
+            <span class="field-value email-value">{{ user.email }}</span>
+            <button class="edit-btn" aria-label="Edit email">
+                <div style="margin-left: auto;" class="change-email mob" onclick="showChangeEmailModal()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17"
+                        fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-edit-rounded">
+                        <!-- Outer rounded rectangle -->
+                        <path d="M11 4H5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-7"
+                            stroke="currentColor" stroke-width="1.8" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round"/>
+
+                        <!-- Softer pencil shape -->
+                        <path d="M18.2 2.8a2 2 0 0 1 2.8 2.8L12 14.8l-3.5.9.9-3.5L18.2 2.8z"
+                            stroke="currentColor" stroke-width="1.8" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                
+                </div> 
+
+
+                <div class="edit-email-input change-email not-mob" onclick="showChangeEmailModal()">
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                        fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-edit-rounded">
+                        <path d="M11 4H5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-7"
+                            stroke="currentColor" stroke-width="1.8" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round"/>
+
+                        <path d="M18.2 2.8a2 2 0 0 1 2.8 2.8L12 14.8l-3.5.9.9-3.5L18.2 2.8z"
+                            stroke="currentColor" stroke-width="1.8" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>  
+                    Edit
+                </div>
+            </button>
+        </div>
+
+        </div>
+
+    </div>
+
+<div class="profile-card delete-card" onclick="openDeleteAccountModal(event)">
+  <div style="margin: 0; font-size: 16px; display: flex; gap: 15px;">
+    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="top: 1px; position: relative;">
+      <path d="M20.5 6H3.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"></path>
+
+      <path d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6" stroke="currentColor" stroke-width="1.7"></path>
+
+      <path d="M18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5M18.8334 8.5L18.6334 11.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"></path>
+
+      <line x1="10" y1="9" x2="10" y2="17" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"></line>
+      <line x1="14" y1="9" x2="14" y2="17" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"></line>
+    </svg>
+    Delete account
+  </div>
+
+</div>
+
+</div>

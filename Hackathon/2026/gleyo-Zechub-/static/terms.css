@@ -1,0 +1,19 @@
+.legal-links {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+  color: #666;
+  line-height: 1.5;
+  padding: 0 10px;
+  word-wrap: break-word;
+}
+@media screen and (max-width: 500px) {
+  .legal-links {
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <title>404 — Lost in Gleyo</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Syne', sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle at 30% 20%, #151528 0%, #0b0b12 60%);
+      color: #fff;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 520px;
+      padding: 20px;
+      animation: fadeIn 0.6s ease;
+    }
+
+    /* Mascot */
+    .mascot {
+      width: 220px;
+      max-width: 80%;
+      margin-bottom: 20px;
+      opacity: 0.95;
+      animation: float 4s ease-in-out infinite;
+    }
+
+    /* Title */
+    .code {
+      font-size: 80px;
+      font-weight: 800;
+      letter-spacing: -2px;
+      background: linear-gradient(90deg, #c9e566, #61dafb);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-top: 10px;
+      font-weight: 700;
+    }
+
+    p {
+      margin-top: 10px;
+      color: #bbb;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    /* Actions */
+    .actions {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .btn {
+      padding: 14px;
+      border-radius: 10px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.25s ease;
+      display: block;
+    }
+
+    .primary {
+      background: #c9e566;
+      color: #111;
+    }
+
+    .primary:hover {
+      background: #b7d954;
+      transform: translateY(-2px);
+    }
+
+    .secondary {
+      border: 1px solid #2a2a3a;
+      color: #ccc;
+    }
+
+    .secondary:hover {
+      background: #1a1a2a;
+      color: #fff;
+    }
+
+    .quick-links {
+      margin-top: 25px;
+      font-size: 14px;
+      color: #888;
+    }
+
+    .quick-links a {
+      color: #61dafb;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+
+    .quick-links a:hover {
+      text-decoration: underline;
+    }
+
+    /* Animations */
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 500px) {
+      .code {
+        font-size: 60px;
+      }
+
+      h1 {
+        font-size: 22px;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <img src="{{ url_for('static', filename='404_notfound.png') }}" class="mascot" alt="Lost Mascot" draggable="false">
+
+    <div class="code">404</div>
+
+    <h1>You’re off the map</h1>
+    <p>
+      This page doesn’t exist or the sprint/quest you’re trying to reach is no longer available.
+    </p>
+
+    <div class="actions">
+      <a href="/" class="btn primary">Go to Dashboard</a>
+      <a href="/quest/explore" class="btn secondary">Explore Quests</a>
+    </div>
+
+    <div class="quick-links">
+      Need help?
+      <a href="/help">Help Center</a>
+      •
+      <a href="/chat/gleyo">Contact</a>
+    </div>
+
+  </div>
+</body>
+</html>

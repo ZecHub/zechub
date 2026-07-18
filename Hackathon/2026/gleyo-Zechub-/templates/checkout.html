@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ZEC Payment | Enterprise</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Outfit:wght@400;500;600;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+      -webkit-user-select: none;
+      -webkit-touch-callout: none;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background-color: #08080f;
+      padding: 0;
+      display: flex;
+      font-family: 'Outfit', sans-serif;
+      color: #fff;
+    }
+
+    body.right-panel-active {
+      overflow: hidden;
+    }
+
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.10); border-radius: 99px; }
+
+    ::selection { background: rgba(244,183,40,0.2); color: #fff; }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      min-height: 100vh;
+      width: 100%;
+    }
+
+    .left-panel {
+      display: flex;
+      flex: 1;
+    }
+
+    .left-panel-form {
+      flex: 0 0 42%;
+      padding: 2.8rem 2.6rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow-y: auto;
+      position: relative;
+      z-index: 2;
+    }
+
+    .left-panel-image {
+      flex: 0 0 58%;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .left-panel-image::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, #08080f 0%, transparent 30%);
+      pointer-events: none;
+    }
+
+    .left-panel-image img {
+      height: 100vh;
+      width: 100%;
+      object-fit: cover;
+      display: block;
+      opacity: 0.85;
+    }
+
+    .right-panel {
+      flex: 1;
+      display: none;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      position: relative;
+      background: rgba(255,255,255,0.018);
+      border-left: 1px solid rgba(255,255,255,0.055);
+    }
+
+    .right-panel::before,
+    .right-panel::after {
+      content: '';
+      position: absolute;
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .right-panel::before {
+      width: 320px; height: 320px;
+      background: rgba(244,183,40,0.13);
+      filter: blur(80px);
+      top: -60px; right: -60px;
+    }
+    .right-panel::after {
+      width: 240px; height: 240px;
+      background: rgba(66,133,244,0.10);
+      filter: blur(70px);
+      bottom: 40px; left: 20px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 2.4rem;
+    }
+
+    .brand-mark {
+      width: 34px; height: 34px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
+      box-shadow: 0 0 16px rgba(40,132,244,0.35);
+    }
+
+    .brand-name {
+      font-size: 16px; font-weight: 700;
+      font-family: 'Syne', sans-serif;
+      color: rgba(255,255,255,0.9);
+      letter-spacing: 0.01em;
+    }
+
+    .left-panel-form h1 {
+      font-size: 28px;
+      font-weight: 800;
+      margin: 0 0 4px;
+      color: #fff;
+      letter-spacing: -0.02em;
+      font-family: 'Syne', sans-serif;
+    }
+
+    .form-subtitle {
+      font-size: 13px;
+      color: rgba(255,255,255,0.35);
+      margin: 0 0 2rem;
+      letter-spacing: 0.01em;
+    }
+
+    .ref-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      background: rgba(255,255,255,0.04);
+      border: 0.9px solid #2f2f4a;
+      border-radius: 14px;
+      padding: 10px 14px;
+      margin-bottom: 1.6rem;
+      font-family: 'DM Mono', monospace;
+      font-size: 12px;
+      color: rgba(255,255,255,0.45);
+      letter-spacing: 0.06em;
+    }
+
+    .ref-badge span {
+      color: rgba(255,255,255,0.70);
+    }
+
+    .field-group {
+      margin-bottom: 1.2rem;
+    }
+
+    .field-label {
+      display: block;
+      font-size: 11px;
+      font-weight: 600;
+      color: rgba(255,255,255,0.45);
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      margin-bottom: 8px;
+    }
+
+    .glass-input {
+      width: 100%;
+      background: #40406047;
+      border: 0.9px solid #2f2f4a;
+      border-radius: 14px;
+      color: #fff;
+      font-size: 15px;
+      font-family: 'Outfit', sans-serif;
+      padding: 13px 16px;
+      outline: none;
+      transition: border-color 0.2s, background 0.2s, box-shadow 0.2s;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      appearance: none;
+      -webkit-appearance: none;
+    }
+
+    .glass-input:hover:not(:disabled) {
+      background: #4040604b;
+      border-color: #2f2f4ad5;
+    }
+
+    .glass-input:focus {
+      border-color: rgba(244,183,40,0.5);
+      background: #4040605a;
+      box-shadow: 0 0 0 3px rgba(244,183,40,0.10),
+                  inset 0 1px 0 rgba(255,255,255,0.07);
+    }
+
+    .glass-input::placeholder {
+      color: rgba(255,255,255,0.22);
+    }
+
+    .glass-input:disabled {
+      cursor: not-allowed;
+      opacity: 0.7;
+      color: rgba(255,255,255,0.55);
+      font-family: 'DM Mono', monospace;
+      font-size: 14px;
+    }
+
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; display: none; }
+    input[type=number] { -moz-appearance: textfield; }
+
+    .amount-wrap { position: relative; }
+    .amount-wrap .glass-input { padding-right: 64px; }
+    .zec-badge {
+      position: absolute;
+      right: 13px; top: 50%; transform: translateY(-50%);
+      background: rgba(244,183,40,0.12);
+      border: 1px solid rgba(244,183,40,0.28);
+      border-radius: 8px;
+      font-size: 10.5px; font-weight: 500;
+      font-family: 'DM Mono', monospace;
+      color: #f4b728;
+      padding: 4px 9px;
+      letter-spacing: 0.08em;
+      pointer-events: none;
+    }
+
+    .locked-badge {
+      position: absolute;
+      right: 13px; top: 50%; transform: translateY(-50%);
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      pointer-events: none;
+    }
+
+    .locked-badge .zec-tag {
+      background: rgba(244,183,40,0.12);
+      border: 1px solid rgba(244,183,40,0.28);
+      border-radius: 8px;
+      font-size: 10.5px; font-weight: 500;
+      font-family: 'DM Mono', monospace;
+      color: #f4b728;
+      padding: 4px 9px;
+      letter-spacing: 0.08em;
+    }
+
+    .locked-badge .lock-icon {
+      font-size: 11px;
+      color: rgba(255,255,255,0.25);
+    }
+
+    textarea.glass-input {
+      resize: none;
+      height: 86px;
+      min-height: 86px;
+      max-height: 186px;
+      line-height: 1.55;
+      overflow-y: hidden;
+      transition: height 0.15s ease, border-color 0.2s, background 0.2s, box-shadow 0.2s;
+    }
+
+    .refund-link {
+      width: fit-content;
+      display: inline-block;
+      font-size: 12px;
+      color: rgba(255,255,255,0.55);
+      cursor: pointer;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      margin-bottom: 1.2rem;
+      transition: color 0.2s;
+      font-style: italic;
+    }
+    .refund-link:hover { color: #bbbfc7; }
+
+    .btn-generate {
+      width: 100%;
+      background: linear-gradient(135deg, #f4b728 0%, #d9960a 100%);
+      border: none;
+      border-radius: 14px;
+      color: #08080f;
+      font-size: 15px;
+      font-weight: 700;
+      font-family: 'Outfit', sans-serif;
+      padding: 14px 20px;
+      cursor: pointer;
+      transition: opacity 0.2s, transform 0.1s;
+      letter-spacing: 0.01em;
+      display: flex; align-items: center; justify-content: center;
+      gap: 8px;
+      box-shadow: 0 4px 20px rgba(244,183,40,0.28);
+    }
+    .btn-generate:hover { opacity: 0.88; }
+    .btn-generate:active { transform: scale(0.98); }
+    .btn-generate svg { width: 18px; height: 18px; }
+
+    .payment-info-box {
+      background: rgba(255,255,255,0.052);
+      backdrop-filter: blur(28px);
+      -webkit-backdrop-filter: blur(28px);
+      border: 1px solid rgba(255,255,255,0.11);
+      border-radius: 24px;
+      padding: 28px 24px;
+      max-width: 310px;
+      width: 100%;
+      position: relative;
+      z-index: 2;
+      box-shadow:
+        0 8px 40px rgba(0,0,0,0.40),
+        0 1px 0 rgba(255,255,255,0.10) inset;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .payment-info-box::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 12%; right: 12%;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.18), transparent);
+      border-radius: 99px;
+      pointer-events: none;
+    }
+
+    #timer {
+      font-size: 13px;
+      font-weight: 500;
+      font-family: 'DM Mono', monospace;
+      color: #e05c5c;
+      margin-bottom: 14px;
+      letter-spacing: 0.04em;
+    }
+
+    #output {
+      font-size: 13px;
+      font-weight: 500;
+      color: rgba(255,255,255,0.55);
+      margin-bottom: 14px;
+      text-align: center;
+      line-height: 1.5;
+    }
+    #output strong { color: #f4b728; font-weight: 500; font-family: 'DM Mono', monospace; font-size: 14px; }
+
+    #qrcode {
+      margin-bottom: 16px;
+      border-radius: 12px;
+      overflow: hidden;
+      background: #fff;
+      padding: 8px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.3);
+    }
+    #qrcode img, #qrcode canvas { display: block; }
+
+    #wallet-address {
+      font-family: 'DM Mono', monospace;
+      font-size: 11.5px;
+      word-break: break-all;
+      color: rgba(255,255,255,0.45);
+      background: rgba(255,255,255,0.045);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 10px;
+      padding: 10px 12px;
+      width: 100%;
+      margin-bottom: 14px;
+      line-height: 1.55;
+      text-align: left;
+    }
+
+    .button-row {
+      display: flex;
+      gap: 8px;
+      width: 100%;
+      margin-bottom: 14px;
+    }
+
+    .copy-button, .share-button {
+      flex: 1;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.10);
+      border-radius: 10px;
+      color: rgba(255,255,255,0.70);
+      font-size: 12.5px;
+      font-weight: 500;
+      font-family: 'Outfit', sans-serif;
+      padding: 9px 10px;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      gap: 6px;
+      transition: background 0.18s, border-color 0.18s;
+    }
+    .copy-button:hover, .share-button:hover {
+      background: rgba(255,255,255,0.10);
+      border-color: rgba(255,255,255,0.16);
+    }
+    .copy-button svg, .share-button svg {
+      width: 15px; height: 15px;
+    }
+
+    #status {
+      margin-top: 12px;
+      font-size: 13px;
+      text-align: center;
+      width: 100%;
+    }
+
+    .payment-waiting {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 13px;
+      color: #f4b728;
+      font-weight: 600;
+      animation: pulse 1.3s infinite;
+    }
+
+    .pop-status {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      color: #2ecc71;
+      font-size: 15px;
+      gap: 8px;
+      animation: stampShake 0.6s ease;
+    }
+
+    .check-circle {
+      background: #2ecc71;
+      color: #fff;
+      border-radius: 50%;
+      width: 24px; height: 24px;
+      display: inline-flex; align-items: center; justify-content: center;
+      font-size: 14px;
+    }
+
+    .spinner {
+      width: 13px; height: 13px;
+      border: 2px solid rgba(255,255,255,0.15);
+      border-top-color: #f4b728;
+      border-radius: 50%;
+      animation: spin 0.75s linear infinite;
+      flex-shrink: 0;
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      inset: 0;
+      width: 100%; height: 100%;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      background: rgba(4, 4, 14, 0.68);
+      overflow-y: auto;
+    }
+
+    .modal-content {
+      background: rgba(18, 16, 38, 0.82);
+      backdrop-filter: blur(32px);
+      -webkit-backdrop-filter: blur(32px);
+      color: rgba(255,255,255,0.82);
+      border: 1px solid rgba(255,255,255,0.11);
+      border-radius: 22px;
+      padding: 28px 26px 24px;
+      box-shadow:
+        0 24px 64px rgba(0,0,0,0.65),
+        0 1px 0 rgba(255,255,255,0.12) inset;
+      width: 90%;
+      max-width: 400px;
+      margin: 9% auto;
+      position: relative;
+      animation: modalPop 0.22s cubic-bezier(0.34,1.56,0.64,1);
+      overflow: hidden;
+    }
+
+    .modal-content::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 10%; right: 10%;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.20), transparent);
+      pointer-events: none;
+    }
+
+    .modal-content h2 {
+      font-size: 17px;
+      font-weight: 700;
+      color: #fff;
+      margin: 0 0 18px;
+      display: flex;
+      align-items: center;
+      gap: 9px;
+    }
+
+    .modal-content h2 .modal-icon {
+      width: 28px; height: 28px;
+      border-radius: 8px;
+      background: rgba(244,183,40,0.14);
+      border: 1px solid rgba(244,183,40,0.25);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 14px;
+      flex-shrink: 0;
+    }
+
+    .modal-content ul {
+      list-style: none;
+      padding: 0; margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .modal-content li {
+      padding: 11px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.055);
+      font-size: 13px;
+      color: rgba(255,255,255,0.58);
+      line-height: 1.58;
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+    }
+
+    .modal-content li:last-child { border-bottom: none; }
+
+    .modal-content li::before {
+      content: '';
+      display: block;
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: #f4b728;
+      margin-top: 6px;
+      flex-shrink: 0;
+      box-shadow: 0 0 6px rgba(244,183,40,0.4);
+    }
+
+    .close {
+      position: absolute;
+      top: 18px; right: 20px;
+      width: 28px; height: 28px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.09);
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer;
+      font-size: 16px;
+      color: rgba(255,255,255,0.45);
+      transition: background 0.18s, color 0.18s;
+      line-height: 1;
+    }
+    .close:hover { background: rgba(255,255,255,0.11); color: #fff; }
+
+    @keyframes modalPop {
+      from { transform: scale(0.88) translateY(10px); opacity: 0; }
+      to   { transform: scale(1) translateY(0); opacity: 1; }
+    }
+
+    @keyframes stampShake {
+      0%   { transform: scale(0.3) rotate(0deg); opacity: 0; }
+      40%  { transform: scale(1.3) rotate(5deg); opacity: 1; }
+      60%  { transform: scale(0.95) rotate(-5deg); }
+      80%  { transform: scale(1.05) rotate(3deg); }
+      100% { transform: scale(1) rotate(0deg); }
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.45; }
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    @media (max-width: 768px) {
+      .container { flex-direction: column; min-height: 100vh; }
+      .left-panel { flex-direction: column; }
+      .left-panel-image { display: none; }
+      .left-panel-form {
+        flex: 1;
+        padding: 2rem 1.4rem;
+        justify-content: flex-start;
+      }
+      .right-panel { padding: 1.5rem 1.2rem; }
+      .payment-info-box { max-width: 100%; }
+      .modal-content { margin: 22% auto; width: 92%; padding: 22px 18px 20px; }
+      #preview-panel { flex-direction: column; align-items: center; }
+    }
+
+  </style>
+</head>
+<body>
+  <div id="community-data" data-slug="{{ community_slug }}"></div>
+  <div class="container">
+
+    <div id="form-panel" class="left-panel">
+      <div class="left-panel-form">
+
+        <div class="brand">
+          <img src="https://zupdpwnloewdkjqsymdm.supabase.co/storage/v1/object/public/uploads/communities/7/logos/511f4996-5748-4f1f-b74c-5d5c33f7124c.png" alt="Gleyo" class="brand-mark">
+          <span class="brand-name">Gleyo</span>
+        </div>
+
+        <h1>Send ZEC Payment</h1>
+        <p class="form-subtitle">Shielded · Private · Instant</p>
+
+        <div id="payment-data" data-ref="{{ entry.reference_code }}" class="ref-badge">
+          REF&nbsp;<span>{{ entry.reference_code }}</span>
+        </div>
+
+        <div class="field-group">
+          <label class="field-label" for="amount">Amount</label>
+          <div class="amount-wrap">
+            <input
+              class="glass-input"
+              type="number"
+              id="amount"
+              min="0.0001"
+              step="0.0001"
+              placeholder="0.0000"
+              value="{{ entry.budget }}"
+              disabled
+            />
+            <span class="locked-badge">
+              <svg class="lock-icon" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+              </svg>
+              <span class="zec-tag">ZEC</span>
+            </span>
+          </div>
+        </div>
+
+        <div class="field-group">
+          <label class="field-label" for="note">Project Name / Note</label>
+          <textarea
+            class="glass-input"
+            id="note"
+            rows="2"
+            placeholder="Write your project name or memo here…"
+          ></textarea>
+        </div>
+
+        <span class="refund-link" onclick="openRefundPolicy()">View Refund Policy</span>
+
+        <button class="btn-generate" id="generate-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/>
+            <rect x="3" y="14" width="7" height="7" rx="1"/><rect x="17" y="17" width="1" height="1"/>
+            <rect x="14" y="14" width="1" height="1"/>
+          </svg>
+          Generate Payment Info
+        </button>
+
+      </div>
+
+      <div class="left-panel-image">
+        <img src="/static/zcash.png" alt="Zcash" loading="lazy" decoding="async">
+      </div>
+    </div>
+
+    <div id="preview-panel" class="right-panel">
+      <div class="payment-info-box" id="payment-info">
+
+        <div id="timer"></div>
+        <div id="output"></div>
+        <div id="qrcode"></div>
+        <div id="wallet-address"></div>
+
+        <div class="button-row">
+          <button class="copy-button" id="copy-btn">
+            <span id="copy-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+            </span>
+            <svg id="check-icon" xmlns="http://www.w3.org/2000/svg" style="display:none" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span id="copy-text">Copy</span>
+          </button>
+
+          <button class="share-button" id="share-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 8L12 4.5L15 8"/><path d="M12 4.5L12 15"/>
+              <path d="M4 16v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-1"/>
+            </svg>
+            <span>Share</span>
+          </button>
+        </div>
+
+      </div>
+      <div id="status"></div>
+    </div>
+
+  </div>
+
+  <div id="refund-modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeRefundPolicy()" aria-label="Close">&#x2715;</span>
+      <h2>
+        <span class="modal-icon">
+          <svg width="14" height="14" fill="rgba(244,183,40,0.9)" viewBox="0 0 105.802 122.88" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M105.689,0H0.112v60.381c-1.824,26.659,18.714,50.316,52.789,62.499c34.074-12.183,54.613-35.84,52.789-62.499V0L105.689,0z M52.869,8.61H9.417v48.832c-0.022,0.313-0.039,0.625-0.053,0.938h43.504v49.557l0.142,0.052c27.313-9.715,43.927-28.454,42.962-49.646H52.869V8.61L52.869,8.61z"/>
+          </svg>
+        </span>
+        Refund Policy
+      </h2>
+      <ul>
+        <li>All payments on Gleyo are made exclusively in ZEC (Zcash).</li>
+        <li>Due to the irreversible nature of blockchain transactions, completed and confirmed ZEC payments cannot be cancelled or reversed.</li>
+        <li>If you accidentally send an incorrect amount, contact support immediately. Assistance is reviewed case-by-case and is not guaranteed.</li>
+        <li>Payments sent to an incorrect wallet address cannot be recovered by Gleyo.</li>
+        <li>If a payment fails due to a platform error, eligible refunds will be issued in ZEC to the wallet address provided during review.</li>
+        <li>Blockchain network fees required to process a refund may be deducted from the refunded amount.</li>
+        <li>For refund inquiries, contact support through the Gleyo support system.</li>
+      </ul>
+    </div>
+  </div>
+
+  <audio id="payment-sound" src="/static/success.mp3" preload="auto"></audio>
+  <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js" defer></script>
+  <script src="{{ url_for('static', filename='checkout.js') }}" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js" defer></script>
+
+  <script>
+    const note = document.getElementById("note");
+    note.style.overflowY = "hidden";
+    const adjustHeight = () => {
+      note.style.height = "auto";
+      note.style.height = note.scrollHeight + "px";
+    };
+    note.addEventListener("input", adjustHeight);
+    window.addEventListener("load", adjustHeight);
+  </script>
+
+  <script>
+    function openRefundPolicy() {
+      document.getElementById("refund-modal").style.display = "block";
+      document.body.style.overflow = "hidden";
+    }
+    function closeRefundPolicy() {
+      document.getElementById("refund-modal").style.display = "none";
+      document.body.style.overflow = "";
+    }
+    window.addEventListener("click", (e) => {
+      if (e.target === document.getElementById("refund-modal")) closeRefundPolicy();
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") closeRefundPolicy();
+    });
+  </script>
+</body>
+</html>

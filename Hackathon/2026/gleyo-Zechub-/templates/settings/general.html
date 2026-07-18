@@ -1,0 +1,349 @@
+<style>
+  @media (min-width: 768px) {
+
+  .pp-conatiner {
+    background: var(--bg-sidebar);
+    border-radius: var(--radius);
+    padding: 20px;
+    padding-top: 40px;
+    max-width: 520px;
+    min-width: 520px;
+    color: var(--text-main);
+  }
+
+  }
+
+  @media (max-width: 768px) {
+
+  .pp-conatiner {
+    background: var(--bg-sidebar);
+    border-radius: var(--radius);
+    padding: 20px 15px;
+    padding-top: 40px;
+    width: 100%;
+
+    color: var(--text-main);
+  }
+
+
+
+  }
+
+  .profile-card{
+    margin-top: 40px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 20px;
+  }
+
+
+  .profile-title {
+    margin: 0 0 16px;
+    font-size: 16px;
+    color: var(--text-main);
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .form-group:not(:last-child) {
+    margin-bottom: 25px;
+  }
+
+  .form-label {
+    font-size: 13px;
+    color: var(--text-muted);
+    font-weight: 550;
+  }
+
+
+  .field-input-comm{
+      width: 100%;
+      outline: none;
+      border-radius: 13px;
+      padding: 13px 16px;
+      font-size: 14px !important;
+  }
+
+
+  .field-area-comm{
+    border-radius: 13px;
+  }
+
+
+
+
+
+
+
+  .smart-select {
+    width: 100%;
+    max-width: 420px;
+  }
+
+  .smart-select-trigger {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 10px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .smart-select-trigger:hover {
+    border-color: #5865f2;
+  }
+
+  .smart-dropdown {
+    position: fixed;
+    border: 0.9px solid var(--border);
+    overflow: hidden !important;
+    overflow-y: hidden !important;
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    z-index: 9999;
+    background: rgba(34, 34, 54, 0.448);
+    backdrop-filter: blur(14px);
+    box-shadow: 0 12px 30px rgba(0,0,0,.35);
+  }
+
+  
+  .smart-dropdown-list{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    width: 100%;
+    min-width: 100%;
+    height: calc(100vh - 60px);
+    padding-bottom: 10px;
+  }
+
+
+
+  .smart-dropdown .item {
+    padding: 10px 12px;
+
+    cursor: pointer;
+  }
+
+  .smart-dropdown .item:hover {
+    background: var(--bg-hover-hover);
+  }
+
+  .placeholder {
+    color: var(--text-muted);
+  }
+
+  .zcash-badge-settings {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 14px;
+    border-radius: 12px;
+    border: 0.9px solid var(--border);
+    background: var(--bg-surface-lower);
+    color: var(--text-muted);
+    font-size: 14px;
+  }
+
+  .zcash-badge-settings svg {
+    color: #f4b728;
+    flex-shrink: 0;
+  }
+
+  .profile-card.delete-card {
+    padding: 14px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+
+
+  .avatar-overlay {
+    position: absolute;
+    inset: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.35);
+    color: #fff;
+    z-index: 2;
+    transition: opacity 0.25s ease;
+  }
+
+  .avatar-overlay svg {
+    width: 18px;
+    height: 18px;
+  }
+
+
+
+  @media (min-width: 769px) {
+    .avatar-overlay {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .logo:hover .avatar-overlay {
+      opacity: 1 !important;
+      pointer-events: auto;
+    }
+  }
+
+  .modal-emailch{
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.505);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+  }
+
+
+  .modal-backdrop-email {
+    width: 100%;
+    max-width: 420px;
+    background: rgba(34, 34, 54, 0.448);
+    backdrop-filter: blur(14px);
+    border: 0.9px solid var(--border);
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  }
+
+
+
+  @media (max-width: 769px) {
+    
+    .avatar-overlay {
+      opacity: 1;
+    }
+
+    .modal-emailch {
+      padding: 0 15px;
+      transition: none;
+    }    
+  }
+</style>    
+      
+<div class="pp-conatiner">
+  <div class="profile-hero">
+    <div class="banner">
+      <img src="{{ url_for('static', filename='uiuu.png') }}" alt="Banner" loading="lazy" decoding="async">
+      <div class="banner-overlay"></div>
+
+      <div class="banner-action">Change banner</div>
+
+
+    </div>
+    <div class="logo-wrap">
+      <div class="logo" style="position: relative;">
+        <img src="{{ community.logo_path }}" alt="Community logo" id="communityLogo" loading="lazy" decoding="async">
+        <div class="avatar-overlay" style="cursor: pointer;" id="avatarOverlay">
+            <svg
+            viewBox="0 -0.5 17 17"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            >
+            <path d="M2.539,8.001 C3.367,8.001 3.918,7.45 3.918,6.622
+                L3.914,6.187 C3.914,6.187 3.709,4.954 5.354,4.954
+                L12.015,5 L12.015,6.759 C12.338,7.081 12.862,7.081 13.185,6.759
+                L15.758,4.187 C16.08,3.863 16.08,3.339 15.758,3.017
+                L13.185,0.292 C12.862,-0.03 12.338,-0.03 12.015,0.292
+                L12.015,2.137 C11.854,2.09 5.562,2.063 5.562,2.063
+                C1.851,2.063 1.039,4.492 1.039,5.47
+                L1.039,6.501 C1.039,7.329 1.711,8.001 2.539,8.001 Z"/>
+
+            <path d="M14.5,8.042 C13.672,8.042 13,8.626 13,9.454
+                L13.002,10.411 C12.957,10.768 12.357,11.001 11.477,11.001
+                L4.938,11.001 L4.936,9.442 C4.614,9.12 4.09,9.12 3.766,9.442
+                L1.194,12.014 C0.872,12.338 0.872,12.862 1.194,13.184
+                L3.766,15.756 C4.09,16.08 4.614,16.08 4.936,15.756
+                L4.938,13.905 L11.477,13.905
+                C15.188,13.905 16,11.463 16,10.484
+                L16,9.453 C16,8.626 15.328,8.042 14.5,8.042 Z"/>
+            </svg>    
+        </div>
+      </div>
+      <div class="logo-meta">
+        <h2>Community Profile</h2>
+        <span>Public information</span>
+      </div>
+    </div>
+  </div>
+  <input
+    type="file"
+    id="avatarInput"
+    accept="image/*"
+    hidden
+  />
+  <div class="form-container">
+
+    <div class="profile-card">
+
+      <h2 class="profile-title">Community details</h2>
+
+      <div class="form-group">
+        <label class="form-label">Community name</label>
+        <input type="text" name="name" id="communityName" placeholder="Company Nmae" value="{{ community.name }}" class="field-input-comm">
+        <small>This name is visible across the platform.</small>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Website</label>
+        <input type="url" name="website" id="communityWebsite" placeholder="https://yourcommunity.com" value="{{ community.website }}" class="field-input-comm">
+        <small>Main website or landing page.</small>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">About</label>
+        <textarea id="communityAbout" placeholder="Tell people what your community is about…" name="about" style="resize: none;" class="field-area-comm">{{ community.about }}</textarea>
+        <small>A short description shown on your profile.</small>
+      </div>
+
+
+    </div>
+
+    <div class="profile-card">
+
+    <div class="form-group">
+      <label class="form-label">Network</label>
+      <div class="zcash-badge-settings">
+        <svg width="16" height="16" viewBox="-5 -10 110 135" fill="currentColor" stroke="currentColor" style="position: relative; top: 1px">
+          <path d="m85.652 6.5938c-15.199 4.6992-33.309 28.609-50.668 53.164-7.3672-12.414-15.172-16.559-23.242-12.312-0.99609 0.52344-1.6523 1.5273-1.7344 2.6562-0.082031 1.1406 0.42969 2.2422 1.3555 2.918 5.8516 4.2734 11.922 11.848 19.141 23.84v-0.003906c1.2891 2.1758 3.6328 3.5039 6.1562 3.4883h0.11719c2.6016-0.023438 4.9844-1.4453 6.2461-3.7188 7.0234-12.734 14.738-25.07 23.109-36.957 6.8594-9.75 14.508-18.926 22.867-27.43 1.125-1.1016 1.332-2.8359 0.5-4.1719-0.77734-1.332-2.3789-1.9453-3.8477-1.4727z"/>
+        </svg>
+        <span>Zcash (ZEC) · Shielded</span>
+      </div>
+    </div>
+    </div>
+
+    {% if current_user.id == community.created_by_id %}
+      <div class="profile-card delete-card" onclick="openDeleteCommunityModal(event)">
+        <div style="margin: 0; font-size: 16px; display: flex; gap: 15px;">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="top: 1px; position: relative;">
+            <path d="M20.5 6H3.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"></path>
+
+            <path d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032C8.44784 4.65649 8.45667 4.62999 8.47434 4.57697L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072C15.3043 3.91276 15.3457 4.03708 15.4286 4.28571L15.5257 4.57697C15.5433 4.62992 15.5522 4.65651 15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4162 6 17.4441 6 17.5 6" stroke="currentColor" stroke-width="1.7"></path>
+
+            <path d="M18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5M18.8334 8.5L18.6334 11.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"></path>
+
+            <line x1="10" y1="9" x2="10" y2="17" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"></line>
+            <line x1="14" y1="9" x2="14" y2="17" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"></line>
+          </svg>
+          Delete community
+        </div>
+
+      </div>
+    {% endif %}
+  </div>
+</div>

@@ -1,0 +1,387 @@
+<style>
+  @media (max-width: 768px) {
+
+    .tab-content {
+      padding-top: 20px  !important;
+      padding: 24px 15px;
+    }
+
+  }
+  .tab-content {
+      padding-top: 20px  !important;
+  }
+  .setting-group {
+    padding: 20px 0;
+  }
+
+  .setting-group:last-child {
+    border-bottom: none;
+  }
+
+  .h3info {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+
+  .desc,
+  .section-desc,
+  .note {
+    color: rgba(255,255,255,0.65);
+    font-size: 13px;
+    line-height: 1.55;
+  }
+
+  .toggle-row {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 10px 0;
+  }
+
+  .toggle-row:not(:last-child) {
+
+    border-bottom: 0.9px solid var(--border);
+    padding: 23px 0 !important;
+  }
+
+
+  .toggle-row:last-child {
+    padding-top: 23px !important;
+
+  }
+
+  .toggle-row .span {
+    font-size: 14px;
+    color: rgba(255,255,255,0.9);
+    flex: 1;
+  }
+
+  /* ================= DESKTOP ALIGNMENT ================= */
+  @media (min-width: 992px) {
+    .toggle-row {
+      max-width: 560px;   /* 🔥 keeps toggle from flying right */
+    }
+
+    .switch {
+      margin-left: auto;
+    }
+  }
+
+  /* ================= MOBILE ================= */
+  @media (max-width: 991px) {
+    .toggle-row {
+      justify-content: space-between;
+    }
+  }
+
+  /* ================= SWITCH ================= */
+  .switch {
+    position: relative;
+    width: 42px;
+    height: 22px;
+    flex-shrink: 0;
+  }
+
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  /* TRACK */
+  .slider {
+    position: absolute;
+    inset: 0;
+    background: rgba(255,255,255,0.18);
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background 0.25s ease;
+  }
+
+  /* KNOB */
+  .slider::before {
+    content: "";
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    left: 3px;
+    top: 3px;
+    background: white;
+    border-radius: 50%;
+    transition: transform 0.25s ease;
+  }
+  /* ================= GROUP ================= */
+  .setting-group {
+    padding: 20px 0;
+  }
+
+  .setting-group:last-child {
+    border-bottom: none;
+  }
+
+  /* ================= HEADER ROW ================= */
+  .setting-head {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  /* keep slider from flying away */
+  @media (min-width: 992px) {
+    .setting-head {
+      max-width: 560px;
+    }
+  }
+
+  /* title / label */
+  .h3info,
+  .setting-head .span {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.95);
+    flex: 1;
+  }
+
+  /* description */
+  .desc {
+    margin-top: 6px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.65);
+    line-height: 1.5;
+  }
+
+  /* ================= SWITCH ================= */
+  .switch {
+    position: relative;
+    width: 42px;
+    height: 22px;
+    flex-shrink: 0;
+  }
+
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .slider {
+    position: absolute;
+    inset: 0;
+    background: rgba(255,255,255,0.18);
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background 0.25s ease;
+  }
+
+  .slider::before {
+    content: "";
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    left: 3px;
+    top: 3px;
+    background: #fff;
+    border-radius: 50%;
+    transition: transform 0.25s ease;
+  }
+
+  .switch input:checked + .slider {
+    background: #4f7cff;
+  }
+
+  .switch input:checked + .slider::before {
+    transform: translateX(20px);
+  }
+
+  .switch input:focus-visible + .slider {
+    box-shadow: 0 0 0 2px rgba(79,124,255,0.4);
+  }
+
+  /* ACTIVE */
+  .switch input:checked + .slider {
+    background: #4f7cff;
+  }
+
+  .switch input:checked + .slider::before {
+    transform: translateX(20px);
+  }
+
+  /* FOCUS */
+  .switch input:focus-visible + .slider {
+    box-shadow: 0 0 0 2px rgba(79,124,255,0.4);
+  }
+
+  /* ================= PRIVATE COMMUNITY FIX ================= */
+  .setting-group > .switch {
+    margin-top: 10px;
+  }
+
+  /* ================= INPUT AREA ================= */
+  .input-label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.75);
+  }
+
+  .xp-input {
+    width: 140px;
+    padding: 9px 10px;
+    border-radius: 8px;
+    color: white;
+    background: #2c2c3f;
+    border: 1px solid rgba(255,255,255,0.12);
+    font-size: 14px;
+  }
+
+  .xp-input:focus {
+    border-color: #4f7cff;
+  }
+
+  /* subtle spacing fix */
+  .note {
+    margin-top: 6px;
+  }
+
+  .xp-input::-webkit-outer-spin-button,
+  .xp-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .xp-input[type="number"] {
+    -moz-appearance: textfield;
+  }
+
+  .security-card{
+    background: var(--sub-init-app);
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid var(--border);
+  }
+</style>
+  
+  <div class="tab-content" id="security">
+    <h3 class="h3info">Security</h3>
+    <p class="section-desc" style="font-size: 13px;">Configure who can access your community and claim quests.</p>
+
+    <div class="setting-group">
+    <div class="security-card">
+        <div class="setting-head">
+            <h3 class="h3info">Private Community</h3>
+
+            <label class="switch">
+            <input type="checkbox" name="private_community"
+                {% if security_settings and security_settings.private_community %}checked{% endif %}>
+            <span class="slider"></span>
+            </label>
+            
+        </div>
+
+        <p class="desc">
+            Require an invite to join the community and see the quests.
+        </p>
+
+    </div>
+
+
+    <div class="setting-group">
+      <h3 class="h3info">Invites</h3>
+      <p class="desc" style="font-size: 13px;">Configure how invites are calculated</p>
+      <div class="security-card">
+
+        <label class="input-label">XP for Valid Invite</label>
+        <input 
+          type="number" 
+          class="xp-input"
+          style="background-color: #2c2c3f; border: 0.1px solid #cccccc57; font-size: 14px; outline: none !important;" 
+          name="xp_for_valid_invite" 
+          value="{{ security_settings.xp_for_valid_invite if security_settings else 1 }}">
+        <span class="error-msg" style="display:none; color:#ff4d4d; font-size:14px; margin-left:6px;">
+          Invalid number
+        </span>
+
+
+        <p class="note">XP needed for a user's invite to count</p>
+
+          <div class="setting-group">
+
+          <div class="setting-head">
+              <h3 class="h3info">Consume Invites</h3>
+
+              <label class="switch">
+              <input type="checkbox" name="consume_invites"
+                  {% if security_settings and security_settings.consume_invites %}checked{% endif %}>
+              <span class="slider"></span>
+              </label>
+          </div>
+
+          <p class="desc">
+              Invites are used when quests are claimed
+          </p>
+
+          </div>
+      </div>
+
+    </div>
+
+    <div class="setting-group">
+      <h3 class="h3info">Guest access verification</h3>
+      <p class="desc" style="font-size: 13px;">Ensure users connect using these platforms for added security before claiming quests.</p>
+      <div class="security-card">
+        <div class="toggle-row">
+          <span class="span">Zash-Wallet</span>
+          <label class="switch">
+            <input type="checkbox" name="require_wallet" {% if security_settings and security_settings.require_wallet %}checked{% endif %}>
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <div class="toggle-row">
+          <span class="span">Github</span>
+          <label class="switch">
+            <input type="checkbox" name="require_github" {% if security_settings and security_settings.require_github %}checked{% endif %}>
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <div class="toggle-row">
+          <span class="span">Discord</span>
+          <label class="switch">
+            <input type="checkbox" name="require_discord" {% if security_settings and security_settings.require_discord %}checked{% endif %}>
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <div class="toggle-row">
+          <span class="span">YouTube</span>
+          <label class="switch">
+            <input type="checkbox" name="require_youtube" {% if security_settings and security_settings.require_youtube %}checked{% endif %}>
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <div class="toggle-row">
+          <span class="span">Telegram</span>
+          <label class="switch">
+            <input type="checkbox" name="require_telegram" {% if security_settings and security_settings.require_telegram %}checked{% endif %}>
+            <span class="slider"></span>
+          </label>
+        </div>
+
+
+        <div class="toggle-row">
+          <span class="span">Twitter</span>
+          <label class="switch">
+            <input type="checkbox" name="require_twitter" {% if security_settings and security_settings.require_twitter %}checked{% endif %}>
+            <span class="slider"></span>
+          </label>
+        </div>
+
+
+ 
+
+      </div>
+    </div>
+  </div>

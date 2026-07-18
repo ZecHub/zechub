@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" href="https://zupdpwnloewdkjqsymdm.supabase.co/storage/v1/object/public/uploads/communities/7/logos/511f4996-5748-4f1f-b74c-5d5c33f7124c.png">
+
+    <title>Gleyo Create Acct</title>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <link rel="shortcut icon" href="https://zupdpwnloewdkjqsymdm.supabase.co/storage/v1/object/public/uploads/communities/7/logos/511f4996-5748-4f1f-b74c-5d5c33f7124c.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Syne:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <meta name="description" content="Gleyo helping Startups Build a rention-first Communityt">
+
+    <meta property="og:title" content="Gleyo login">
+    <meta property="og:description" content="Gleyo helping Startups Build a rention-first Community">
+    <meta property="og:image" content="{{ url_for('static', filename='MYLOGOME.png', _external=True) }}">
+    <meta property="og:url" content="{{ request.url_root }}">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="deraverine">
+    <meta name="twitter:description" content="Gleyo helping Startups Build a rention-first Community">
+    <meta name="twitter:image" content="{{ url_for('static', filename='MYLOGOME.png', _external=True) }}">
+
+</head>
+<body>
+    
+
+<link rel="stylesheet" href="{{ url_for('static', filename='heritic.css') }}?v=7"">
+
+
+<div class="login-container" id="innerconntect"> 
+    <div class="container">
+
+        <div style="display:flex;justify-content:space-between;align-items:center;" class="authen-thingserrrs">
+            <div class="nav-slot">
+                <a href="/" id="logo-link">
+                    <img class="ajystable-imagesinit" src="https://zupdpwnloewdkjqsymdm.supabase.co/storage/v1/object/public/uploads/communities/7/logos/511f4996-5748-4f1f-b74c-5d5c33f7124c.png">
+                </a>
+                <button type="button" id="backFromEmail" class="back-btn-header" onclick="closeEmailView()">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="16"
+                        height="16"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M15 18l-6-6 6-6"/>
+                    </svg>
+                    Back
+                </button>
+            </div>
+
+            <div class="top-right">
+                <a href="/login"
+                   data-path="/login"
+                   onclick="event.preventDefault(); loadAuth(this.dataset.path)"
+                   class="auth-link create-account-btn create-account">
+                   Log In
+                </a>
+            </div>
+        </div>
+
+        <div id="auth-content">
+            <div>
+
+                <div class="spacing0nerster">
+                    <h1 class="interger">Welcome to Gleyo</h1>
+                </div>
+
+                <p style="margin-bottom: 30px;">
+                    Build with communities you care about — rewards follow naturally.
+                </p>
+                <div style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 26px;">
+
+                </div>
+                <fieldset class="email-fieldset" id="emailFieldset">
+                    <legend id="legend">Enter address</legend>
+                    <input type="email" id="aboutBox" name="box" placeholder="james@gmail.com">
+                </fieldset>
+
+                <p class="inavid-email"></p>
+
+                <input type="hidden" name="next" value="{{ request.args.get('next', '') }}">
+
+                <button type="button" id="loginBtn" class="main-login-btn createacc">
+                    Send Code
+                </button>
+
+                <div class="lagelmm-s" style="margin-top: 22px;">
+                    <label class="terms-label">
+                        By continuing, you acknowledge you've read and agreed to our
+                        <a href="{{ url_for('terms')}}" target="_blank" class="link-terms">Terms of Service</a>
+                        and
+                        <a href="{{ url_for('privacy')}}" target="_blank" class="link-terms">Privacy Policy</a>.
+                    </label>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='loginoauth.js') }}"></script>
+
+
+</body>
+</html>

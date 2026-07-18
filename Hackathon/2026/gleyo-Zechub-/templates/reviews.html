@@ -1,0 +1,3872 @@
+
+
+<title>Reviews</title>
+<style>
+
+  .modal-consent {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.505);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+  .modal-consent.show {
+    opacity: 1;
+    pointer-events: auto !important;
+  }
+.modal-content-csv h2{
+  color: #d6d9ef;
+
+  font-size: 17px;
+}
+
+
+.modal-content-csv p{
+  font-size: 14px !important;
+  margin: 0;
+  color: var(--text-muted);
+}
+
+.csv-element{
+  font-weight: 550;
+  color: #b8c0ff;
+
+}
+
+.modal-content-csv {
+  width: 100%;
+  max-width: 420px;
+  background: rgba(34, 34, 54, 0.448);
+  backdrop-filter: blur(14px);
+  border: 0.9px solid var(--border);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.status-svg{
+position: relative;
+top: 1.7px !important;  
+}
+
+.close {
+  color: var(--text-muted);
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.close svg{
+  width: 14px;
+  height: 14px;
+}
+
+.close:hover {
+  color: #fff;
+}
+
+.modal-content-csv {
+  text-align: left; 
+}
+
+
+.export-btn, #sendExport {
+  background-color: #4286f4da;
+  border: none;
+  font-size: 14px;
+  color: white;
+  margin-left: auto;
+  padding: 10px 24px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.export-btn:hover, #sendExport:hover {
+  background-color: #4285f4;
+}
+
+#statusMessage.status {
+  margin-top: 10px;
+  font-weight: bold;
+  display: none;
+}
+.status.success { color: #4CAF50; }
+.status.error { color: #FF5252; }
+
+.status-list li input[type='checkbox'],
+.username-list li input[type='checkbox'],
+.reviewer-list li input[type='checkbox'],
+.quest-list li input[type='checkbox'] {
+  pointer-events: none;
+  font-family: 'Outfit', sans-serif !important;
+
+}
+
+*{
+  font-family: 'Outfit', sans-serif !important;
+ 
+}
+body, input, button, div { font-family: 'Outfit', sans-serif; }
+
+.status-text{
+  font-weight: 600;
+}
+
+
+.filter-reviews-conatiner{
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
+  border-top: 0.9px solid var(--border);
+}
+
+.review-feed-top {
+  flex: 0 0 auto; 
+}
+
+.review-list {
+  flex: 1 1 auto;  
+  overflow-y: auto;
+  min-height: 0;   
+}
+
+.review-feed {
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+  overflow: hidden; 
+}
+
+.button-liners{
+  outline: none;
+  background-color: transparent;
+  border-radius: 10px;
+  border: none;
+  padding: 7px 8px;
+  cursor: pointer !important;
+}
+
+.button-liners:hover{
+  background-color: var(--bg-hover-hover);
+}
+
+
+.top-border-spacing{
+  border-top: 1px solid var(--stroke);
+  height: 1px;
+  width: 100%;
+  padding: 0;
+  
+  margin: 0;
+}
+
+.clear-filter-btn{
+  border: 0.8px dashed rgb(59, 59, 86);
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 3px 8px;
+  font-size: 13px;
+  padding-bottom: 4px !important;
+  color: var(--text-muted);
+  display: flex;
+  gap: 7px;
+  border-radius: 8px;
+  transition: color 0.4s ease, border 0.4s ease;
+}
+
+.clear-filter-btn svg{
+  position: relative;
+  top: 1px;
+}
+
+
+.clear-filter-btn:hover{
+  border: 0.8px dashed var(--bg-active);
+  color: var(--text-main-items-reviews)
+  
+}
+
+
+
+
+:root {
+  --bg-0: #101118;
+  --bg-1: #151724;
+  --panel: #1b1d2d;
+  --muted: #2a2d44;
+  --txt: #e9e9f0;
+  --txt-dim: #b7b9c6;
+  --acc: #8a5cff;
+  --ok: #3ad879;
+  --warn: #ffb020;
+  --bad: transparent;
+  --chip: #282a40;
+  --stroke: var(--border);
+  --shadow: 0 10px 30px rgba(0,0,0,.35);
+  --radius: 16px;
+}
+@media (min-width: 767px) {
+.optionscale-bar {
+  display: flex;
+  gap: 4px;
+}
+
+.filter-reviews-conatiner{
+  background: var(--bg-sidebar);
+}
+
+
+
+
+.review-list, .review-list-aside {
+  overflow-y: auto;
+}
+
+
+.review-list {
+  transition: all 0.2s ease;
+  
+}
+
+.video-wrapper:hover {
+  transform: scale(1.02);
+  overflow: hidden;
+
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.4);
+}
+}
+
+
+
+.video-inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  will-change: transform;
+}
+
+
+
+
+/* --- Left: Feed --- */
+.review-feed { display: flex; flex-direction: column; }
+
+
+.review-ghost {
+  padding: 10px 12px;
+  border-radius: 14px;
+
+  display: flex;
+  cursor: pointer;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+}
+
+ 
+
+
+.review-ghost:hover {
+  background: #2323399c;
+
+}
+
+.review-chip {
+  background: #2a2a449c;
+  border: 1px solid var(--border);
+  color: var(--txt-dim);
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 14px;
+  cursor: default;
+}
+ .review-chip.pending{
+  white-space: nowrap;
+
+}
+.review-item {
+  display: grid;
+  grid-template-columns: 28px 1fr auto;
+  gap: 10px;
+  align-items: center;
+  padding: 0 10px;
+  cursor: pointer;
+  background: var(--bg-sidebar) !important;
+}
+.review-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 9px;
+  
+  gap: 10px;
+}
+ 
+.review-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
+}
+.review-avatar-right img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
+}
+.avatar-fallback {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #4285f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 510;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+}
+.review-name {
+  font-size: 14px;
+  line-height: 1;
+  color: var(--text-main);
+  font-weight: 520;
+}
+.review-meta { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 4px;
+  color: var(--text-main);
+}
+.all-review-container{
+    border-bottom: 0.6px solid var(--border) !important;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+.review-title { 
+  font-weight: 550; 
+  color: #e7e6e6;
+  font-size: 13px;
+}
+
+.review-item.active-review-item .all-review-container{
+  border-bottom: 0.6px solid #2f2f4a !important;
+}
+
+
+.review-divider{
+  color: #b6b3b3;
+}
+.left-right-left{
+margin-left: 4px;
+}
+.review-sub { 
+  color: var(--txt-dim); 
+  font-size: 13px; 
+}
+.review-ago {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  color: var(--txt-dim);
+  font-size: 12px;
+}
+.review-ago .con-svg {
+  opacity: 0.9;
+}
+
+
+.con-svg {
+  width: 14px !important;
+  height: 14px !important;
+  flex-shrink: 0;
+}
+
+.user-progress-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 3px;
+  margin-top: 14px;
+}
+
+.upi-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.upi-level {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.upi-xp {
+  color: var(--txt-dim);
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.upi-bar {
+  height: 7px;
+  width: 100%;
+  background: #232338;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.upi-bar-fill {
+  height: 100%;
+  background:  #4285f4;
+  border-radius: 20px;
+  opacity: 0.8;
+  transition: width 0.4s ease;
+}
+
+
+ 
+.review-center {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; 
+}
+
+.review-task {
+  flex: 1;
+  overflow-y: auto;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+
+.review-crumb { 
+  color: var(--text-main); 
+  font-weight: 540;
+  font-size: 15px;
+}
+
+.review-crumb.ellipsis{
+  white-space: nowrap;
+  cursor: pointer;
+ 
+  width: fit-content;
+  overflow: hidden;
+  font-size: 14.5px !important;
+  text-overflow: ellipsis;
+}
+
+#show-me-up{
+  cursor: pointer;
+}
+
+
+
+.quest-detail.ellipsis{
+  white-space: nowrap;
+  overflow: hidden;
+  color: #dad7d7;
+  font-size: 14.5px !important;
+  text-overflow: ellipsis;
+}
+
+.review-crumb strong { color: #fff; }
+
+.review-task { padding: 16px; }
+
+.review-card {
+  margin-top: 20px;
+
+}
+.review-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 20px;
+}
+.review-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--txt-dim);
+  font-size: 13px;
+}
+
+.downer-class-review{
+  margin-bottom: 10px;
+}
+
+.review-bubble {
+  background: #1e1e2f;
+  /* background: #202032; */
+  border: 0.9px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 25px !important;
+  font-size: 14px;
+  color: var(--text-main);
+}
+
+
+/* REVIEW CONTAINER */
+.review-image {
+  height: 220px;
+  background: var(--bg-sidebar);
+  border: 0.9px solid var(--border);
+  border-radius: 12px;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-wrapper {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  will-change: transform;
+  overflow: hidden;
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+}
+
+/* CLIPPING WRAPPER (NEVER SCALE THIS) */
+.video-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  position: relative;
+}
+
+
+
+
+
+.review-url {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.review-url input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px dashed var(--muted);
+  background: #232334;
+  color: #fff;
+}
+.review-activity { margin-top: 16px; }
+ 
+
+.review-top {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    margin-bottom: 16px;
+}
+
+.review-avatar {
+    width: 25px;
+    height: 25px;
+    background: #377ae5;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    filter: brightness(90%);
+
+    font-weight: 600;
+    font-size: 16px;
+}
+.review-avatar-right {
+    width: 34px;
+    height: 34px;
+    background: #377ae5;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    filter: brightness(90%);
+
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.review-avatar-comment {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden; /* ✅ ensures child img is clipped */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #C01886;
+    color: rgb(227, 227, 227);
+    font-weight: 600;
+    font-size: 16px;
+    flex-shrink: 0;   
+}
+
+.review-avatar-comment img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+.review-textarea {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--text-main);
+    font-size: 16px;
+    padding: 6px 0;
+    resize: none;
+    height: 24px;
+}
+.review-textarea::placeholder {
+  color: var(--text-muted);
+  opacity: 0.9;
+}
+
+.review-input-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.review-icon-btn {
+    background: none;
+    border: none;
+    margin-bottom: 0 !important;
+    cursor: pointer;
+    color: var(--text-muted);
+    padding: 4px;
+}
+
+.free-xp{
+  background-color: transparent !important;
+    border: 0.7px solid #38385a; 
+    outline: none;
+    color: var(--text-main);
+    font-size: 13px;
+    padding: 6px;
+    border-radius: 8px;
+
+}
+
+.free-xp::placeholder{
+  stroke: var(--text-muted);
+  opacity: 0.8;
+    color: var(--text-muted);
+
+
+}
+
+.review-icon-btn svg{
+  width: 19px !important;
+  height: 19px !important;
+}
+.review-icon-btn:hover {
+    color: white;
+    background: #27273c;
+
+}
+
+#review-comment {
+  padding-bottom: 35px !important;
+  scrollbar-width: none;      
+  -ms-overflow-style: none;   
+}
+
+#review-comment::-webkit-scrollbar {
+  display: none;             
+}
+
+.review-final-actions {
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    background-color: #22223448;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.action-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--text-main);
+    padding: 6px;
+}
+
+.action-icon.flash {
+    color: #1e2a57;
+}
+
+.btn-fail {
+    background: #3c3c5a67;
+    color: var(--text-main);
+    padding: 8px 18px;
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn-success {
+    background: #3772d2;
+    color: var(--text-main);
+    padding: 8px 22px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+
+.review-details {
+  flex-direction: column; 
+  background-color: var(--bg-sidebar); 
+}
+
+
+.review-head {
+  display: flex;
+  z-index: 5;
+  align-items: center;     
+  position: sticky;
+  top: 0;
+  gap: 8px;               
+  font-size: 14.5px;
+  font-weight: 550;
+  background: #1b1b2b;
+  padding: 10.7px 16px;          /* reduce vertical height */
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.review-text {
+  line-height: 1;             /* avoid extra height */
+}
+
+.hide-profile-info,.show-profile-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: ew-resize;
+  padding: 4px;
+  margin-left: auto;
+  border-radius: 8px;
+  color: #e0e0e0;
+  line-height: 0;               
+}
+
+.hide-profile-info:hover, .show-profile-info:hover {
+  background-color: rgba(155, 155, 155, 0.15);
+}
+
+.hide-profile-info svg {
+  display: block;         
+}
+
+.review-box {
+  padding: 14px 16px;
+  flex-direction: column;
+}
+
+.review-box:last-child {
+  border-bottom: 0.7px solid var(--border);
+}
+.review-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 14px;
+  color: var(--txt-dim);
+}
+.review-pill {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+
+}
+
+
+.review-pilled{
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: #2a2a449c;
+  border: 1px solid var(--border);
+  display: flex;
+  gap: 4px;
+  font-size: 13px;
+  color: var(--text-main);
+  font-weight: 600;
+}
+
+
+.review-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+.review-ghost {
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: #2a2a449c;
+  border: 1px solid var(--border);
+  display: flex;
+  cursor: pointer;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+}
+
+ 
+
+
+.review-ghost:hover {
+  background: #2323399c;
+
+}
+.review-url input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px dashed var(--muted);
+  background: #232334;
+  color: var(--text-main);
+  pointer-events: none;
+  caret-color: transparent;
+}
+
+
+
+.review-input-wrapper {
+  display: flex;
+  align-items: flex-start; /* start from top */
+  background: #26263f;
+  border-radius: 12px;
+  padding: 12px; 
+  gap: 10px; 
+  margin-top: 10px;
+}
+
+.review-input-icons {
+  display: flex;
+  gap: 8px;
+  height: 100%;
+  margin-top: auto;
+  flex-shrink: 0; 
+  align-items: center;
+}
+
+.review-input-icons svg {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  color: #a5b4fc;
+  transition: all 0.2s ease;
+}
+
+.review-input-wrapper textarea {
+    flex: 1;
+    border: 1px solid grey;
+    background: transparent;
+    font-size: 14px !important;
+    color: white;
+    border-radius: 12px;
+    resize: none;
+    font-family: 'Outfit', sans-serif;
+    min-height: 32px;   /* <-- set the starting height */
+    max-height: 70px;    
+    overflow-y: auto;     
+    box-sizing: border-box !important;
+    line-height: 1.4;
+    padding: 6px 7px 8px 8px !important;
+}
+
+
+
+
+.review-input-wrapper textarea:focus {
+  outline: none;
+}
+
+
+.review-task { padding: 6px  12px !important; }
+
+ 
+
+
+
+.review-top {
+    display: flex;
+    padding-top: 10px !important;
+    height: 60px !important;
+    align-items: flex-start;
+    gap: 18px;
+    margin-bottom: 16px;
+}
+
+
+
+
+.review-bar {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  border-bottom: 0.9px solid var(--border);
+  padding: 12px 16px !important;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-weight: 600;
+}
+
+.free-xp{
+  background-color: transparent !important;
+    border: 0.7px solid #38385a; 
+    outline: none;
+    box-sizing: border-box !important;
+    width: 100% !important;
+    color: #fafafa;
+    font-size: 13px;
+    padding: 6px;
+    border-radius: 8px;
+
+}
+  
+
+
+.review-input-wrapper textarea:focus {
+  outline: none;
+}
+/* Mobile: hide center and right panels by default */
+@media (max-width: 768px) {
+  .review-center{
+    display: none; 
+
+  }
+
+
+
+  /* Make left feed take full width */
+  .review-feed {
+    grid-column: 1 / -1;
+    width: 100% !important;
+  }
+    
+
+  .optionscale-bar-column{
+    width: 100%;
+    min-width: 100%;
+  }
+
+
+.review-panel {
+ background-color: var(--bg-sidebar);
+  border-left: 0.6px solid var(--stroke);
+  border-right: 0.6px solid var(--stroke);
+  overflow: auto;
+  min-height: 0;
+}
+
+
+}
+
+
+.review-panel {
+      overflow-y: auto;
+
+}
+
+
+
+.optionscale-bar-column {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+}
+
+
+
+
+
+
+.review-ago .error-icon {
+  opacity: 0.9;
+}
+.review-ago .success-icon {
+  opacity: 0.9;
+
+}
+
+
+.success-icon {
+  color: #2ecc71;
+  width: 15px;
+  height: 15px;
+}
+
+
+.error-icon {
+  color: #e74c3c; 
+  width: 15px;
+  height: 15px;
+}
+
+
+
+.svg-success{
+  color: #2ecc71;
+  width: 17px;  
+  height: 17px;
+
+}
+
+.svg-error{
+  width: 16px;  
+  height: 16px;
+
+}
+
+
+.svg-error{
+  color: rgb(252, 85, 85);
+  stroke: none;
+  fill: rgb(253, 35, 35) ;
+
+}
+
+.svg-star{
+  fill: rgb(8, 126, 8);
+  stroke: rgb(20, 131, 20);
+
+}
+
+
+.svg-flag{
+  color: rgb(190, 42, 42);
+  stroke: rgb(190, 42, 42) ;
+  fill: rgb(190, 42, 42) ;
+
+}
+
+
+.svg-pending{
+    width: 14px;  
+  height: 14px;
+  margin-left: 1px;
+}
+
+ 
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #1e1e2f0d;
+  backdrop-filter: blur(3px);
+}
+
+.modal-content {
+  background-color: #1b1d2d;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 12px;
+  width: 30% !important;
+  color: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  font-family: 'Outfit', sans-serif;
+}
+
+.modal-close {
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal-header {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.modal-avatar img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.modal-usernames {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.modal-username {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.modal-discord,
+.modal-twitter,
+.modal-unique {
+  font-size: 14px;
+  color: var(--txt-dim, #aaa);
+}
+
+/* Action buttons styling */
+.modal-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.modal-btn {
+  flex: 1;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  border-radius: 999px; /* bubble style */
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.ban-btn {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.ban-btn:hover {
+  background-color: #ff5c4d;
+}
+
+.suspend-btn {
+  background-color: #f39c12;
+  color: #fff;
+}
+
+.suspend-btn:hover {
+  background-color: #ffb347;
+}
+
+.svg-wrapper{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  z-index: 10;
+background: var(--icon-bg);
+color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.optionscale-bubble {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.optionscale-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.optionscale-number-badge {
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: #31314a !important;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+
+
+.optionscale-svg path {
+  fill: #2f2f48 ;
+  transition: fill 0.25s ease;
+}
+
+.optionscale-svg.active path {
+  fill: #4ADE80;
+}
+.optionscale-label {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+
+
+/* ------------------------------------ */
+/* 📱 MOBILE (≤768px) – NEW LAYOUT      */
+/* ------------------------------------ */
+@media (max-width: 991px) {
+    .optionscale-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 4px;
+    }
+    .optionscale-bubble-mobile {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .optionscale-bar-mobile {
+        display: flex;
+        justify-content: space-between;
+        gap: 4px;
+    }
+
+
+
+
+    .optionscale-number-badge-mobile {
+        font-size: 12px;
+      background: #31314a !important;
+      border-radius: 6px;
+
+        padding: 2px 6px;
+    }
+
+    .optionscale-label-mobile {
+        font-size: 12px;
+        text-align: right;
+    }
+}
+
+    .optionscale-number-label-row {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+.items-allign{
+  display: flex;
+}
+
+.review-svg-right {
+  margin-left: auto;
+  display: flex;
+
+}
+
+
+
+.feedback-modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  padding: 0 15px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  z-index: 999;  
+}
+
+
+.feedback-popup {
+  width: 420px !important;
+  background: #1e1e2f;
+  color: var(--text-main);
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+  border: 1px solid  #2c2c41;
+  box-sizing: border-box !important;
+  height: 300px;
+  min-height: 300px;
+  max-height: 300px;
+
+
+
+
+
+  position: fixed;
+}
+
+
+@media (max-width: 991px) {
+
+  .feedback-modal {
+    padding: 0 15px !important;
+  }
+.modal-content-csv {
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+  .modal-consent {
+    transition: none !important;
+    padding: 0 10px;
+  }
+
+
+.feedback-popup {
+  max-width: 95% !important;
+  min-width: 95% !important;
+  width: 95% !important;
+}
+}
+
+.feedback-search {
+  display: flex;
+  align-items: center;
+  padding: 10px 14px;
+  height: 45px;
+  background: #1e1e2f;
+  border-bottom: 0.9px solid  var(--border);
+}
+
+.search-icon {
+  width: 18px;
+  height: 18px;
+  color: #c8c8d6; 
+
+  margin-right: 10px;
+}
+
+.feedback-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+ color: #c8c8d6; 
+ 
+  outline: none;
+  font-size: 14px;
+}
+
+.feedback-suggestions {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0;
+  height: calc(300px - 45px);
+  overflow-y: auto;
+}
+
+.suggestion {
+  font-size: 14px;
+  line-height: 1.4;        
+  color: #c8c8d6;
+  cursor: pointer;
+  flex-shrink: 0;
+  border-radius: 18px;
+  margin: 2px 8px;
+  padding: 10px 12px;
+  transition: background 0.2s, color 0.2s;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+
+.suggestion:hover {
+  background: var(--bg-hover-hover);
+  color: #fff;
+
+}
+
+
+.feedback-suggestions::-webkit-scrollbar {
+  width: 6px;
+}
+.feedback-suggestions::-webkit-scrollbar-thumb {
+  background: #35355a;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.activity-container {
+  width: 100%;
+}
+
+.activity-container h2 {
+  font-size: 1.1rem;
+  color: var(--text-main);
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+/* Timeline item */
+.activity-item {
+  display: flex;
+  position: relative;
+  padding-left: 45px;
+  margin-bottom: 35px;
+  align-items: center;
+}
+
+/* Vertical line */
+.activity-item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: 14px;
+  top: 30px;
+  width: 1px;
+  height: 100%;
+  background-color: #33364d;
+}
+
+/* ✅ Avatar IMAGE */
+.avatar-img {
+  position: absolute;
+  left: 0;
+  top: -4px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar-img img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+/* ✅ Avatar FALLBACK INITIAL */
+.avatar-fallback-his {
+  position: absolute;
+  left: 0;
+  top: -4px;
+  width: 27px;
+  height: 27px;
+  background-color: #252542;
+  border-radius: 50%;
+  font-weight: 700;
+  display: none;
+  align-items: center;
+  font-size: 13px;
+  justify-content: center;
+  color: #fff;
+}
+
+
+.avatar-svg {
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  width: 32px;
+  height: 32px;
+}
+
+
+/* Content */
+.activity-content {
+  line-height: 1.4;
+  font-size: 13px;
+  color: var(--text-main);
+}
+
+
+.activity-user {
+  font-weight: 600;
+}
+
+.activity-time {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-left: 4px;
+}
+
+.review-actions-done {
+    background: #1e1e2f;
+    border-top: 1px solid var(--stroke);
+    padding: 14px;
+}
+
+.review-done-content {
+    display: flex;
+    color: white;
+    
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+.review-undo-btn:hover {
+    text-decoration: underline;
+}
+
+
+.review-done-conatainer{
+  display: flex;
+}
+
+
+.review-undo-btn {
+    background: none;
+    border: none;
+    color: #8ab4ff;
+    margin-left: auto;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.review-done-status{
+  gap: 10px;
+  display: flex;
+  font-size: 14px;
+
+}
+
+.review-done-conatainer{
+margin-left: 4%;
+}
+
+.bottom-status{
+  margin-left: 5px;
+  color: var(--text-main);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+.action-review-wrapper.active-review-done {
+  border-top: 0.9px solid var(--border);
+  background-color: var(--bg-sidebar);
+    padding-top: 10px; 
+}
+
+.review-item {
+    padding-left: 10px; /* your default padding */
+}
+
+.review-item.active-review-item {
+    border-left: 2px solid #4285f4;
+background: #26263a9a !important;
+
+    padding-left: 8px; 
+}
+
+
+
+[data-tooltip] {
+  position: relative; /* keep this */
+}
+
+[data-tooltip]::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  top: 120%;              
+  transform: translateX(-54%) translateY(-6px);
+  background: rgba(45, 45, 73, 0.95);
+  color: #fff;
+  padding: 11px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 10;
+}
+
+[data-tooltip]::before {
+  content: "";
+  position: absolute;
+  top: 120%;               
+  transform: translateX(-50%) translateY(0); 
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(45, 45, 73, 0.95) transparent transparent transparent;
+  opacity: 0;
+  z-index: 10;
+}
+  
+[data-tooltip].show-tooltip::after,
+[data-tooltip].show-tooltip::before {
+  opacity: 1;
+}
+
+.free-xp-star svg path {
+    transition: fill 0.2s ease;
+}
+
+/* When active → turn yellow */
+.free-xp-star.active svg path {
+    fill: rgb(250, 250, 9) !important;
+    stroke: rgb(250, 250, 9) !important;
+}
+
+.btn-success{
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.btn-success.xp-mode-active {
+  color: #f9f90a; /* bright yellow text */
+  background-color: rgba(250, 250, 9, 0.15); /* soft yellow tint */
+  border: 1px solid rgba(250, 250, 9, 0.35);
+}
+
+
+.activity-message{
+  white-space: nowrap;
+}
+
+
+
+
+
+.review-dropdown {
+  position: absolute;
+  border-radius: 8px;
+  background-color: #1e1e2f;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+  border: 1px solid #2b2b41;
+  display: none;
+  color: var(--text-main) !important;
+  flex-direction: column;
+  min-width: 160px;
+  font-size: 14px;
+  z-index: 9999;
+  padding: 4px 0;
+}
+
+.review-dropdown div {
+  padding: 8px 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background 0.2s ease;
+}
+
+.review-dropdown .review-option:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+.review-dropdown .review-option span {
+  color: #42ff85;
+  font-weight: bold;
+  width: 16px;
+  text-align: center;
+}
+
+.review-dropdown div:hover {
+  background: #222234;
+}
+
+.review-dropdown .checkmark {
+  visibility: hidden;
+}
+
+.review-dropdown div.active .checkmark {
+  visibility: visible;
+}
+
+
+.review-item-dropdown {
+  position: absolute;
+  border-radius: 8px;
+  background-color: #1e1e2f;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+  border: 1px solid #2b2b41;
+  display: none;
+  flex-direction: column;
+  min-width: 160px;
+  color: white;
+  font-size: 14px;
+  z-index: 9999;
+  padding: 4px 0;
+}
+
+.review-item-dropdown .dropdown-option {
+  padding: 8px 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: var(--text-main) !important;
+  justify-content: space-between;
+  transition: background 0.2s ease;
+}
+
+.review-item-dropdown .dropdown-option:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.review-item-dropdown .checkmark {
+  visibility: hidden;
+  font-size: 12px;
+  color: #42ff85;
+}
+
+.review-item-dropdown .active .checkmark {
+  visibility: visible;
+}
+
+
+
+
+   .status-select {
+    position: absolute;
+    color: #e9e9ee;
+    z-index: 19999;
+  }
+  .username-panel, .status-panel, .reviewer-panel, .quest-panel {
+    max-width: 230px;
+  }
+
+  .quest-item-rev span, .username-item span, .reviewer-item span, .status-item span {
+    white-space: nowrap;
+    overflow: hidden;
+    color: var(--text-main) !important;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+
+  .status-panel {
+    background-color: #1e1e2f;
+    border: 1px solid #2b2b41;
+    border-radius: 14px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+    margin: 5px;
+  }
+
+  .status-search-box {
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+  }
+
+  .status-search-box svg {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    color: #a7a7b1;
+  }
+
+  .status-search-box input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    font: 500 14px "Inter", sans-serif;
+    color: #e9e9ee;
+  }
+
+ 
+
+  .status-divider {
+    height: 1px;
+    background: #2b2b41;
+    margin: 1px 0;
+  }
+
+  .status-list {
+    max-height: calc(8 * 2.2em);
+    overflow-y: auto;
+    margin: 0;
+    padding: 6px;
+    list-style: none;
+    scrollbar-width: thin;
+    scrollbar-color: grey transparent;
+  }
+
+  .status-list::-webkit-scrollbar {
+    width: 10px;
+  }
+  .status-list::-webkit-scrollbar-track {
+    background: #1e1e2f;
+    border-radius: 6px;
+  }
+  .status-list::-webkit-scrollbar-thumb {
+    background-color: #5a7fa3;
+    border-radius: 6px;
+    border: 2px solid #1e1e2f;
+  }
+  .status-list::-webkit-scrollbar-thumb:hover {
+    background-color: #789fc1;
+  }
+
+  .status-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 6px;
+    transition: background 0.15s;
+  }
+
+  .status-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .status-item:hover {
+    background: #262a35;
+  }
+
+ 
+
+  /* Checkbox styling */
+  .status-checkbox-wrapper {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .status-checkbox-wrapper input {
+    opacity: 0;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  .status-checkmark {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #5a7fa3;  
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.2s, border-color 0.2s;
+  }
+.url-preview-card {
+  padding: 10px 13px;
+  background: #2a2a458d;
+}
+
+
+.url-preview-card:hover {
+  background: #222236;
+}
+ 
+  .status-checkmark::after {
+    content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-5.0 -10.0 110.0 135.0' fill='%23a2c4e0'><path d='m85.652 6.5938c-15.199 4.6992-33.309 28.609-50.668 53.164-7.3672-12.414-15.172-16.559-23.242-12.312-0.99609 0.52344-1.6523 1.5273-1.7344 2.6562-0.082031 1.1406 0.42969 2.2422 1.3555 2.918 5.8516 4.2734 11.922 11.848 19.141 23.84v-0.003906c1.2891 2.1758 3.6328 3.5039 6.1562 3.4883h0.11719c2.6016-0.023438 4.9844-1.4453 6.2461-3.7188 7.0234-12.734 14.738-25.07 23.109-36.957 6.8594-9.75 14.508-18.926 22.867-27.43 1.125-1.1016 1.332-2.8359 0.5-4.1719-0.77734-1.332-2.3789-1.9453-3.8477-1.4727z'/></svg>");
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+
+    transform: scale(0);
+    opacity: 0;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+  }
+
+  .status-checkbox-wrapper input:checked + .status-checkmark::after {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  .status-checkbox-wrapper:hover .status-checkmark {
+    background-color: rgba(90,127,163,0.15);
+  }
+
+  .status-item.selected {
+    background: #2c2c49;
+  }
+
+
+
+  .reviewer-select {
+    position: absolute;
+    color: #e9e9ee;
+    z-index: 19999;
+  }
+
+  .reviewer-panel {
+    background-color: #1e1e2f;
+    border: 1px solid #2b2b41;
+    border-radius: 14px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+    margin: 5px;
+  }
+
+  .reviewer-search-box {
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+  }
+
+  .reviewer-search-box svg {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    color: #a7a7b1;
+  }
+
+  .reviewer-search-box input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    font: 500 14px "Inter", sans-serif;
+    color: #e9e9ee;
+  }
+
+ 
+  .reviewer-divider {
+    height: 1px;
+    background: #2b2b41;
+    margin: 1px 0;
+  }
+
+  .reviewer-list {
+    max-height: calc(8 * 2.2em);
+    overflow-y: auto;
+    margin: 0;
+    padding: 6px;
+    list-style: none;
+    scrollbar-width: thin;
+    scrollbar-color: grey transparent;
+  }
+
+  .reviewer-list::-webkit-scrollbar {
+    width: 10px;
+  }
+  .reviewer-list::-webkit-scrollbar-track {
+    background: #1e1e2f;
+    border-radius: 6px;
+  }
+  .reviewer-list::-webkit-scrollbar-thumb {
+    background-color: #5a7fa3;
+    border-radius: 6px;
+    border: 2px solid #1e1e2f;
+  }
+  .reviewer-list::-webkit-scrollbar-thumb:hover {
+    background-color: #789fc1;
+  }
+
+  .reviewer-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 6px;
+    transition: background 0.15s;
+  }
+
+  .reviewer-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .reviewer-item:hover {
+    background: #262a35;
+  }
+
+
+  /* Custom square checkbox with checkmark */
+  .reviewer-checkbox-wrapper {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .reviewer-checkbox-wrapper input {
+    opacity: 0;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  .reviewer-checkmark {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #5a7fa3;  
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.2s, border-color 0.2s;
+  }
+
+  .reviewer-checkmark::after {
+    content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-5.0 -10.0 110.0 135.0' fill='%23a2c4e0'><path d='m85.652 6.5938c-15.199 4.6992-33.309 28.609-50.668 53.164-7.3672-12.414-15.172-16.559-23.242-12.312-0.99609 0.52344-1.6523 1.5273-1.7344 2.6562-0.082031 1.1406 0.42969 2.2422 1.3555 2.918 5.8516 4.2734 11.922 11.848 19.141 23.84v-0.003906c1.2891 2.1758 3.6328 3.5039 6.1562 3.4883h0.11719c2.6016-0.023438 4.9844-1.4453 6.2461-3.7188 7.0234-12.734 14.738-25.07 23.109-36.957 6.8594-9.75 14.508-18.926 22.867-27.43 1.125-1.1016 1.332-2.8359 0.5-4.1719-0.77734-1.332-2.3789-1.9453-3.8477-1.4727z'/></svg>");
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+
+    transform: scale(0);
+    opacity: 0;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+  }
+
+  .reviewer-checkbox-wrapper input:checked + .reviewer-checkmark::after {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  .reviewer-checkbox-wrapper:hover .reviewer-checkmark {
+    background-color: rgba(90,127,163,0.15);
+  }
+
+  .reviewer-item.selected {
+    background: #2c2c49;
+
+  }
+
+  .username-select {
+    position: absolute;
+    color: #e9e9ee;
+    z-index: 19999;
+  }
+
+  .username-panel {
+    background-color: #1e1e2f;
+    border: 1px solid #2b2b41;
+    border-radius: 14px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+    margin: 5px;
+  }
+
+  .username-search-box {
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+  }
+
+  .username-search-box svg {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    color: #a7a7b1;
+  }
+
+  .username-search-box input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    font: 500 14px "Inter", sans-serif;
+    color: #e9e9ee;
+  }
+
+ 
+  .username-divider {
+    height: 1px;
+    background: #2b2b41;
+    margin: 1px 0;
+  }
+
+  .username-list {
+    max-height: calc(8 * 2.2em);
+    overflow-y: auto;
+    margin: 0;
+    padding: 6px;
+    list-style: none;
+    scrollbar-width: thin;
+    scrollbar-color: grey transparent;
+  }
+
+  .username-list::-webkit-scrollbar {
+    width: 10px;
+  }
+  .username-list::-webkit-scrollbar-track {
+    background: #1e1e2f;
+    border-radius: 6px;
+  }
+  .username-list::-webkit-scrollbar-thumb {
+    background-color: #5a7fa3;
+    border-radius: 6px;
+    border: 2px solid #1e1e2f;
+  }
+  .username-list::-webkit-scrollbar-thumb:hover {
+    background-color: #789fc1;
+  }
+
+  .username-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 6px;
+    transition: background 0.15s;
+  }
+
+  .username-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .username-item:hover {
+    background: #262a35;
+  }
+
+ 
+  .username-checkbox-wrapper {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .username-checkbox-wrapper input {
+    opacity: 0;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  .custom-checkmark {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #5a7fa3;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.2s, border-color 0.2s;
+  }
+
+
+.custom-checkmark::after {
+  content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-5.0 -10.0 110.0 135.0' fill='%23a2c4e0'><path d='m85.652 6.5938c-15.199 4.6992-33.309 28.609-50.668 53.164-7.3672-12.414-15.172-16.559-23.242-12.312-0.99609 0.52344-1.6523 1.5273-1.7344 2.6562-0.082031 1.1406 0.42969 2.2422 1.3555 2.918 5.8516 4.2734 11.922 11.848 19.141 23.84v-0.003906c1.2891 2.1758 3.6328 3.5039 6.1562 3.4883h0.11719c2.6016-0.023438 4.9844-1.4453 6.2461-3.7188 7.0234-12.734 14.738-25.07 23.109-36.957 6.8594-9.75 14.508-18.926 22.867-27.43 1.125-1.1016 1.332-2.8359 0.5-4.1719-0.77734-1.332-2.3789-1.9453-3.8477-1.4727z'/></svg>");
+  width: 11px;
+  height: 11px;
+  display: inline-block;
+
+  transform: scale(0);
+  opacity: 0;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+  .username-checkbox-wrapper input:checked + .custom-checkmark::after {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  .username-checkbox-wrapper:hover .custom-checkmark {
+    background-color: rgba(90,127,163,0.15);
+  }
+
+  .username-item.selected {
+    background: #2c2c49;
+  }
+
+
+
+
+
+
+  .quest-select {
+    position: absolute;
+    color: #e9e9ee;
+    z-index: 19999;
+  }
+
+  .quest-panel {
+    background-color: #1e1e2f;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+    border: 1px solid #2b2b41;
+    border-radius: 14px;
+    margin: 5px;
+  }
+
+  .quest-panel input::placeholder, .username-panel input::placeholder, .status-panel input::placeholder, .username-panel input::placeholder {
+    color: var(--text-muted) !important;
+    opacity: 0.7;
+  }
+
+  .quest-search-box {
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+  }
+
+  .quest-search-box svg {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    color: #a7a7b1;
+  }
+
+  .quest-search-box input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    font: 500 14px "Inter", sans-serif;
+    color: #e9e9ee;
+  }
+ 
+  .quest-divider {
+    height: 1px;
+    background: #2b2b41;
+
+    margin: 1px 0;
+  }
+
+  .quest-list {
+    max-height: calc(8 * 2.2em);
+    overflow-y: auto;
+    margin: 0;
+    padding: 6px;
+    list-style: none;
+    scrollbar-width: thin;
+    scrollbar-color: grey transparent;
+  }
+
+  .quest-list::-webkit-scrollbar {
+    width: 10px;
+  }
+  .quest-list::-webkit-scrollbar-track {
+    background: #1e1e2f;
+    border-radius: 6px;
+  }
+  .quest-list::-webkit-scrollbar-thumb {
+    background-color: #5a7fa3;
+    border-radius: 6px;
+    border: 2px solid #1e1e2f;
+  }
+  .quest-list::-webkit-scrollbar-thumb:hover {
+    background-color: #1e1e2f;
+  }
+
+  .quest-item-rev {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 6px;
+    transition: background 0.15s;
+  }
+
+  .quest-item-rev:last-child {
+    margin-bottom: 0;
+  }
+
+  .quest-item-rev:hover {
+    background: #262a35;
+  }
+
+  .status-item.disabled, .reviewer-item.disabled, .username-item.disabled, .quest-item-rev.disabled {
+    color: var(--text-muted);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+  }
+
+  .status-item.disabled:hover, .reviewer-item.disabled:hover, .username-item.disabled:hover, .quest-item-rev.disabled:hover {
+    background-color: transparent !important;
+  }
+  /* Custom Square Checkbox */
+  .quest-checkbox-wrapper {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .quest-checkbox-wrapper input {
+    opacity: 0;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  .custom-checkmark {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #5a7fa3;  
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.2s, border-color 0.2s;
+  }
+
+  .custom-checkmark::after {
+    content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-5.0 -10.0 110.0 135.0' fill='%23a2c4e0'><path d='m85.652 6.5938c-15.199 4.6992-33.309 28.609-50.668 53.164-7.3672-12.414-15.172-16.559-23.242-12.312-0.99609 0.52344-1.6523 1.5273-1.7344 2.6562-0.082031 1.1406 0.42969 2.2422 1.3555 2.918 5.8516 4.2734 11.922 11.848 19.141 23.84v-0.003906c1.2891 2.1758 3.6328 3.5039 6.1562 3.4883h0.11719c2.6016-0.023438 4.9844-1.4453 6.2461-3.7188 7.0234-12.734 14.738-25.07 23.109-36.957 6.8594-9.75 14.508-18.926 22.867-27.43 1.125-1.1016 1.332-2.8359 0.5-4.1719-0.77734-1.332-2.3789-1.9453-3.8477-1.4727z'/></svg>");
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+
+    transform: scale(0);
+    opacity: 0;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+  }
+
+  .quest-checkbox-wrapper input:checked + .custom-checkmark::after {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  .quest-checkbox-wrapper:hover .custom-checkmark {
+    background-color: rgba(90,127,163,0.15);
+  }
+
+  /* Highlight selected row */
+  .quest-item-rev.selected {
+    background: #2c2c49;
+  }
+
+
+
+.status-bar {
+    display: inline-flex; 
+    background: var(--satus-yyr);
+    color: var(--text-main);
+    border: 0.99px solid var(--border);
+    width: fit-content;
+    max-width: 100%;
+    border-radius: 14px;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.status-section {
+    display: flex;
+    align-items: center;
+    padding: 7px 16px;
+    gap: 10px;
+    flex: 0 0 auto;
+}
+ 
+.status-section.right {
+    flex: 0 0 auto;
+}
+
+.status-icon {
+    width: 18px;
+    height: 18px;
+    color: #9ca3af;
+}
+
+.status-label {
+    font-weight: 550;
+    color: #e9eaeb;
+
+    font-size: 13px;
+}
+
+.status-delete {
+    background: transparent;
+    border: none;
+    color: #9ca3af;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.status-delete svg {
+    width: 18px;
+    height: 18px;
+}
+
+.status-delete:hover {
+    color: #ff5c5c;
+}
+
+ 
+
+
+.quest-bar {
+  display: inline-flex; 
+  background: var(--satus-yyr);
+  color: var(--text-main);
+  border: 0.99px solid var(--border);
+  width: fit-content;
+  max-width: 100%;
+  border-radius: 14px;
+  font-size: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.quest-section {
+    display: flex;
+    align-items: center;
+    padding: 7px 16px;
+    gap: 10px;
+    flex: 0 0 auto;
+}
+
+
+.quest-section.right {
+flex: 0 0 auto;
+}
+
+.quest-icon {
+width: 18px;
+height: 18px;
+color: #9ca3af;
+}
+
+.quest-label {
+font-weight: 550;
+color: #e9eaeb;
+font-size: 13px;
+}
+
+.quest-delete {
+background: transparent;
+border: none;
+color: #9ca3af;
+cursor: pointer;
+display: flex;
+align-items: center;
+}
+
+.quest-delete svg {
+width: 18px;
+height: 18px;
+}
+
+.quest-delete:hover {
+color: #ff5c5c;
+}
+
+
+.username-bar {
+  display: inline-flex; 
+  background: var(--satus-yyr);
+  color: var(--text-main);
+  border: 0.99px solid var(--border);
+  width: fit-content;
+  max-width: 100%;
+  border-radius: 14px;
+  font-size: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.username-section {
+    display: flex;
+    align-items: center;
+    padding: 7px 16px;
+    gap: 10px;
+    flex: 0 0 auto;
+}
+
+.username-section.middle {
+    border-left: 1px solid #2c2c3f;
+    border-right: 1px solid #2c2c3f;
+
+}
+
+.username-section.right {
+    flex: 0 0 auto;
+}
+
+.username-icon {
+    width: 18px;
+    height: 18px;
+    color: #9ca3af;
+}
+
+.username-label {
+    font-weight: 550;
+    color: #e9eaeb;
+    font-size: 13px;
+}
+
+.username-delete {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+@media(min-width: 768px) {
+
+.action-review-wrapper{
+  padding: 2px 30px ;
+}
+}
+
+@media(max-width: 767px) {
+  .action-review-wrapper{
+    padding: 2px 6px;
+    padding-bottom: 4px !important;
+  }
+}
+
+.username-delete svg {
+    width: 18px;
+    height: 18px;
+}
+
+.username-delete:hover {
+    color: #ff5c5c;
+}
+
+
+.reviewer-delete svg {
+    width: 18px;
+    height: 18px;
+}
+
+.reviewer-delete:hover {
+    color: #ff5c5c;
+}
+.reviewer-delete {
+    background: transparent;
+    border: none;
+    color: #9ca3af;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.status-section.middle,
+.quest-section.middle, .username-section.middle, .reviewer-section.middle {
+    min-width: 0;             
+    overflow: hidden;        
+    text-overflow: ellipsis;   
+    flex-grow: 0 !important;
+    flex-shrink: 0 !important;
+    white-space: nowrap;       
+    max-width: 40% !important;
+}
+
+
+.status-section.middle,.reviewer-section.middle, .quest-section.middle, .username-section.middle {
+    min-width: 0;
+    overflow: hidden;
+
+    border-left: 0.99px solid var(--border);
+    border-right: 0.99px solid var(--border);
+}
+
+
+  .reviewer-bar {
+    display: inline-flex; 
+    background: var(--satus-yyr);
+    color: var(--text-main);
+    border: 0.99px solid var(--border);
+    width: fit-content;
+    max-width: 100%;
+    border-radius: 14px;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .reviewer-section {
+      display: flex;
+      align-items: center;
+      padding: 7px 16px;
+      gap: 10px;
+      flex: 0 0 auto;
+  }
+
+
+  .reviewer-section.right {
+      flex: 0 0 auto;
+  }
+
+  .reviewer-icon {
+      width: 18px;
+      height: 18px;
+      color: #9ca3af;
+  }
+
+  .reviewer-label {
+      font-weight: 550;
+      color: #e9eaeb;
+      font-size: 13px;
+  }
+
+
+  .reviewer-deleted, .status-deleted, .username-deleted, .quest-deleted  {
+      background: transparent;
+      border: none;
+      color: #9ca3af;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+  }
+
+  .reviewer-deleted svg, .status-deleted svg, .username-deleted svg, .quest-deleted svg {
+      width: 18px;
+      height: 18px;
+  }
+
+  .reviewer-delete:hover, .status-deleted:hover, .username-deleted:hover, .quest-deleted:hover {
+      color: #ff5c5c;
+  }
+
+
+.review-actions {
+  background: #1e1e2f;
+  border: 0.7px solid var(--border); 
+  width: 100%;
+  min-width: 100%;
+  padding-top: 10px !important;
+  padding-bottom: 2px !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+  border-radius: 16px;
+  box-sizing: border-box;
+  color: var(--text-muted);
+}
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+.clear-filter-btn{
+  padding:5px 8px;
+  padding-bottom: 6px !important;
+
+}
+
+.review-head {
+  display: flex;
+  align-items: center;        /* vertical align text + button */
+  gap: 8px;                   /* spacing between text and button */
+  font-size: 14.5px;
+  font-weight: 550;
+  background: #1b1b2b;
+  padding: 16px 16px;          /* reduce vertical height */
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+  .review-feed-top, .review-bar, .review-head {
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(14px);
+  }
+
+
+
+
+.time-ago{
+  white-space: nowrap;
+}
+
+
+
+.review-feed-top, .review-bar, .review-head {
+  background-color: transparent;
+  z-index: 1; 
+  overflow: hidden;
+  min-height: 64px;
+  border-bottom: 0.9px solid var(--border);
+}
+
+
+.hidden-review {
+  display: none !important;
+}
+
+
+
+
+
+    .activity-empty {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 40dvh;
+    }
+        
+      .htmltoggle {
+    display: none;
+  }
+
+   .placeholder-review {
+    right: 25% !important;
+  }
+
+   @media (max-width: 1404px) and (min-width: 1113px) {
+
+    .review-details, .review-center {
+      width: 100% !important;
+      min-width: 100% !important;
+      max-width: 100% !important;
+   }
+   .placeholder-review {
+    right: 13% !important;
+   }
+
+  
+
+  }
+
+  @media(min-width: 1404px) {
+
+
+    .review-app {
+        display: grid;
+    }
+
+    .review-app.with-userinfo {
+        grid-template-columns: 370px minmax(0, 1fr) 360px;
+    }
+
+    .review-app.no-userinfo {
+        grid-template-columns: 370px 1fr;
+    }
+
+    .review-center {
+      border-right: 0.9px solid var(--border);
+    }
+
+  }
+  @media(max-width: 1404px) {
+    .htmltoggle {
+      display: flex !important;
+      cursor: pointer;
+    }
+    .hide-profile-info, .show-profile-info {
+      display: none !important;
+    }
+  }
+
+  @media(max-width: 1112px) {
+    .review-center {
+      display: none;
+    }
+
+
+    .review-app {
+      height: 100%;
+      width: 100% !important;
+      max-width: 100%;
+      max-width: 100%;
+      display: flex;
+    }
+
+    .review-panel {
+      border-radius: 30px !important;
+      height: 100%;
+      max-height: 100%;
+      min-height: 100%;
+      overflow: hidden;
+      overflow-y: auto;
+    }
+
+
+
+
+    .inbox-crumb.ellipsis {
+      display: inline-flex;
+      cursor: pointer;
+    }
+
+    .arrow-btn {
+      color: #4285f4 !important;
+    }
+
+    .review-app .review-panel.show {
+      display: flex !important;
+    }
+
+    .review-app {
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 100%;
+    }
+
+    .placeholder-review {
+      display: none !important;
+    }
+ 
+  }
+
+
+  .mega-actions {
+    display: flex;
+    gap: 20px;
+    white-space: nowrap;
+    align-items: center;
+  }
+
+  .First-divers {
+    border: 1px solid var(--border);
+    border-radius: 13px;
+    background: rgba(34, 34, 54, 0.712);
+    display: none;
+    position: fixed;
+    backdrop-filter: blur(13px);
+  }
+
+  .First-divers div{
+    font-size: 14px;
+    padding: 7px 12px;
+    cursor: pointer;
+  }
+
+  .mega-review {
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    width: fit-content;
+    padding: 10px 12px;
+  }
+
+  .mega-review {
+    font-size: 14px;
+    border-radius: 13px;
+  }
+
+  .container-mega-review {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    bottom: 10px;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex !important;
+    width: 100% !important;
+    padding: 0 15px;
+    transform: translateY(14px) scale(0.98);
+    pointer-events: none;
+    transition: 0.18s ease;
+    z-index: 30;
+  }
+
+  .container-mega-review.show-mega {
+ 
+    opacity: 1 !important;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+  }
+
+  .review-filters,
+  .container-mega-review {
+    transition: opacity 0.25s ease, transform 0.25s ease;
+  }
+
+  .review-hidden {
+    opacity: 0;
+    transform: translateY(-40px);
+    pointer-events: none;
+  }
+
+  .review-visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+
+  .check-all {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 10px;
+  }
+
+
+  /* container */
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    user-select: none;
+    font-size: 14px;
+    color: var(--text-main);
+    }
+
+
+  /* box */
+  .checkbox {
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--bg-surface-active);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.18s ease;
+    position: relative;
+  }
+
+
+  /* check icon */
+  .checkbox::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    transform: scale(0);
+    transition: 0.18s ease;
+    content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-5.0 -10.0 110.0 135.0' fill='%23a2c4e0'><path d='m85.652 6.5938c-15.199 4.6992-33.309 28.609-50.668 53.164-7.3672-12.414-15.172-16.559-23.242-12.312-0.99609 0.52344-1.6523 1.5273-1.7344 2.6562-0.082031 1.1406 0.42969 2.2422 1.3555 2.918 5.8516 4.2734 11.922 11.848 19.141 23.84v-0.003906c1.2891 2.1758 3.6328 3.5039 6.1562 3.4883h0.11719c2.6016-0.023438 4.9844-1.4453 6.2461-3.7188 7.0234-12.734 14.738-25.07 23.109-36.957 6.8594-9.75 14.508-18.926 22.867-27.43 1.125-1.1016 1.332-2.8359 0.5-4.1719-0.77734-1.332-2.3789-1.9453-3.8477-1.4727z'/></svg>");
+  }
+
+
+  /* checked state */
+  .checkbox-container.checked .checkbox {
+    background: #4da3ff56;
+    border-color: #4da3ff7e;
+  }
+
+  .checkbox-container.checked .checkbox::after {
+    transform: scale(1);
+  }
+
+
+
+
+  /* =============================
+    SELECT MODE AVATAR SWITCH
+  ============================= */
+
+  .review-avatar {
+    position: relative;
+  }
+
+  /* checkbox hidden by default */
+  .review-checkbox {
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    background: rgba(0,0,0,0.35);
+
+    opacity: 0;
+    transform: scale(0.7);
+    pointer-events: none;
+
+    transition: 0.18s ease;
+  }
+
+  .clear-mega {
+    cursor: pointer;
+    width: 26px;
+    height: 26px;
+    color: var(--text-muted);
+    border-radius: 50%;
+    flex-shrink: 0;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .clear-mega svg{
+    width: 20px;
+    height: 20px;
+  }
+
+
+  .mega-review.disabled {
+    opacity: 0.9;
+    color: var(--text-muted) !important;
+    cursor: not-allowed !important;
+    user-select: none !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;    
+    -ms-user-select: none !important;     
+  }
+
+  .clear-mega:hover {
+    background-color: var(--bg-hover-hover);
+    border-color: var(--border);
+    color: var(--text-main);
+  }
+
+  /* show when select mode */
+  body.select-mode .review-checkbox {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+  }
+
+  /* hide avatar image when selecting */
+  body.select-mode .review-avatar img,
+  body.select-mode .avatar-fallback {
+    opacity: 0;
+  }
+
+  /* check icon */
+  .review-checkbox::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    transform: scale(0);
+
+    transition: 0.18s ease;
+
+    background: currentColor;
+
+    mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path fill='black' d='M7.6 13.2L3.8 9.4l-1.4 1.4 5.2 5.2L18 5.6 16.6 4.2z'/></svg>");
+  }
+
+  /* selected state */
+  .review-item.selected .review-checkbox {
+    background: #4da3ff66;
+    border-color: #4da3ff;
+  }
+
+  .review-item.selected .review-checkbox::after {
+    transform: scale(1);
+  }
+</style>
+
+
+
+<div class="content-mmpppaaa">
+
+  <div class="review-app {% if userinfo_visible %}with-userinfo{% else %}no-userinfo{% endif %}"
+      data-community-id="{{ community.id }}" style="position: relative;">
+
+    <aside class="review-panel review-feed">
+      <div class="review-feed-top" style="display: flex; flex-direction: column; gap: 10px; ">
+        <div class="topper-mega" style="position: relative;">
+
+          <div class="review-filters" style="padding: 15px 14px;">
+            <span class="review-chip" id="review-chip" style="position: relative; cursor: pointer;">Recommended ▾</span>
+            
+            <div style="display: flex; margin-left: auto; gap: 30px;"> 
+              <div class="review-chipped" id="show-review-item-dropdown"  style="cursor: pointer; position: relative;  color: #ced1d7;">
+
+              <svg viewBox="0 0 512 512" width="19" height="19"  xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                <path d="M472 168H40a24 24 0 0 1 0-48h432a24 24 0 0 1 0 48z"/>
+                <path d="M392 280H120a24 24 0 0 1 0-48h272a24 24 0 0 1 0 48z"/>
+                <path d="M296 392H216a24 24 0 0 1 0-48h80a24 24 0 0 1 0 48z"/>
+              </svg>
+
+              </div>
+              
+              <button class="clear-filter-btn" id="clear-all-filter" style="display: none; ">
+                Clear filter
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height=14 fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
+
+              </button>
+
+              <div id="openExportModal" style="cursor: pointer; color: #ced1d7;">
+                <svg version="1.1" width="19" height="19" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 256 256" enable-background="new 0 0 256 256" xml:space="preserve">
+                <g><g><path fill="currentColor"  d="M113.1,208.4H111l-1.8-1.7c-1.8-1.9-1.7-4.2-1.7-5c0.5-14.1,6.8-83.1,80-86.1V93.4c-0.1-1.3-0.1-4.1,1.9-6.3c2.3-2.6,5.9-3.2,10.1-1.3l1,0.4l41.1,44.7c0.8,1,4.3,5.3,4.3,10.5c0,5.3-4.3,9.9-5.2,10.8l-41.2,47.4c-1.1,1.1-3.6,3.4-6.9,3.4c-2.6,0-4.8-1.4-6-3.8c-0.9-1.6-1.3-3.7-1.3-6.5v-26.9c-11.9-0.3-46.5,2.1-66.7,38.9C117.4,207,115.4,208.4,113.1,208.4L113.1,208.4z M183.8,155.5c4.5,0,7.4,0.4,7.5,0.4l4.3,0.6v32.1l37.8-43.5c1.3-1.4,2.5-3.2,2.5-3.9c0-1-1-2.9-1.8-3.8l-36.4-39.6l0,27.7h-5.1c-52.2,0-68.1,35.5-73,59.7C141.5,158.7,170.9,155.5,183.8,155.5L183.8,155.5z"/><path fill="currentColor" d="M171.3,213.1c-2.5,0.7-5,1.1-7.7,1.1H49.2c-14.7,0-26.7-11.2-26.7-25.9V68.5c0-14.7,11.9-26.7,26.7-26.7h114.3c0,0,0,0,0,0c0.4,0,0.7,0,1.1,0c0.1,0,0.2,0,0.4,0c0.3,0,0.6,0,0.9,0.1c0.2,0,0.3,0,0.5,0c0.3,0,0.5,0,0.7,0.1c0.2,0,0.4,0,0.5,0.1c0.2,0,0.4,0.1,0.6,0.1c0.3,0,0.7,0.1,1,0.2c0.1,0,0.3,0,0.4,0.1c0.2,0,0.5,0.1,0.7,0.2c0.1,0,0.1,0,0.2,0c0.5,0.1,1,0.3,1.5,0.5h0c5.9,2,10.9,6,14.1,11.2h0c2.4,3.8,3.8,8.2,4,13h12.5v-0.6c0-4.3-0.7-8.5-2.1-12.3h0.2c-5-14.3-18.4-24.7-34.3-25.1c-0.2,0-0.4,0-0.7,0c-0.1,0-0.2,0-0.3,0h-118C26.7,29.3,10,46,10,66.7v122.7c0,20.7,16.7,37.4,37.4,37.4h117.9c11.6,0,22-5.3,28.8-13.6L171.3,213.1L171.3,213.1L171.3,213.1z"/><path fill="currentColor" " d="M41.3,89.4h108.3v12.5H41.3V89.4z"/><path fill="currentColor"  d="M41.3,122.4h79.2v12.5H41.3V122.4z"/><path fill="currentColor"  d="M41.3,154.1h56.5v12.5H41.3V154.1L41.3,154.1z"/></g></g>
+                </svg>        
+              </div>
+
+            </div>
+
+
+          </div>
+
+          <div class="container-mega-review">
+
+            <div class="check-all">
+
+              <div class="checkbox-container" id="selectAllBox">
+                <div class="checkbox"></div>
+                <span>Select all</span>
+              </div>
+
+            </div>
+
+            <div class="mega-actions">
+
+              <div style="color: var(--text-main); display: flex; gap: 10px; cursor: pointer; font-size: 14px;" class="mega-review disabled">
+                With Selected
+                <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M4.29289 8.29289C4.68342 7.90237 5.31658 7.90237 5.70711 8.29289L12 14.5858L18.2929 8.29289C18.6834 7.90237 19.3166 7.90237 19.7071 8.29289C20.0976 8.68342 20.0976 9.31658 19.7071 9.70711L12.7071 16.7071C12.3166 17.0976 11.6834 17.0976 11.2929 16.7071L4.29289 9.70711C3.90237 9.31658 3.90237 8.68342 4.29289 8.29289Z"/>
+                </svg>
+              </div>
+
+              <!-- ✅ CLEAR ALL BUTTON -->
+              <div class="clear-mega" id="clearMega">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 6L18 18M6 18L18 6"/>
+                </svg>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div style="box-sizing: border-box !important; padding: 7.73px 14px;  display: none;  gap: 10px; flex-direction: column;" class="filter-reviews-conatiner">
+          <div style="display: flex; flex-direction: column; gap: 8px;" class="functional-list">
+          <div class="status-bar" id="for-status-select" style="display: none;" data-type="status">
+
+            <div class="status-section left">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14" fill="currentColor" class="con-svg">
+                      <path d="M12,0c-0.524,0-1.078,0.423-0.924,1.74c0.123,1.052,0.447,2.096,0.924,2.096s0.8-1.044,0.923-2.096C13.078,0.423,12.524,0,12,0z"/>
+                      <path d="M12,20.718c-0.477,0-0.801,1.043-0.924,2.096C10.923,23.577,11.476,24,12,24s1.078-0.423,0.924-1.186C12.801,21.761,12.477,20.718,12,20.718z"/>
+                      <path d="M5.975,1.603C5.52,1.86,5.256,2.528,6.065,3.771c0.632,0.809,1.434,1.516,1.847,1.289c0.413-0.228,0.174-1.246-0.244-2.174C7.157,1.427,6.43,1.346,5.975,1.603z"/>
+                      <path d="M16.438,19.392c-0.413,0.228-0.174,1.246,0.243,2.175c0.524,1.163,1.216,1.248,1.671,0.998s0.724-0.868-0.067-1.884C17.65,19.895,16.851,19.164,16.438,19.392z"/>
+                      <path d="M3.564,5.958C2.501,5.192,1.83,5.455,1.573,5.91C1.316,6.365,1.404,7.073,2.472,7.55c0.971,0.418,2.034,0.657,2.274,0.244C5.009,7.381,4.246,6.767,3.564,5.958z"/>
+                      <path d="M21.746,16.654c-0.971-0.418-2.034-0.658-2.272-0.244c-0.239,0.411,0.5,1.211,1.347,1.838c1.063,0.789,1.707,0.519,1.964,0.066C23.042,17.858,22.954,17.15,21.746,16.654z"/>
+                      <path d="M3.792,12c0-0.477-1.043-0.801-2.096-0.924C0.423,10.923,0,11.476,0,12s0.423,1.078,1.696,0.924C2.749,12.801,3.792,12.477,3.792,12z"/>
+                      <path d="M22.378,11.098c-1.052,0.124-2.096,0.447-2.096,0.924s1.043,0.8,2.096,0.924C23.693,13.07,24,12.524,24,12S23.693,10.93,22.378,11.098z"/>
+                      <path d="M2.652,16.654c-1.163,0.524-1.248,1.215-0.998,1.67c0.257,0.456,0.868,0.724,1.931-0.067c0.847-0.627,1.588-1.426,1.347-1.838C4.693,16.002,3.63,16.24,2.652,16.654z"/>
+                      <path d="M21.746,7.346c1.163-0.524,1.249-1.215,0.998-1.67c-0.257-0.456-0.868-0.724-1.931,0.067c-0.848,0.627-1.588,1.426-1.347,1.837C19.705,7.998,20.769,7.76,21.746,7.346z"/>
+                      <path d="M6.045,20.456c-0.789,1.056-0.52,1.696-0.066,1.964c0.456,0.257,1.153,0.171,1.68-1.056c0.42-0.977,0.661-2.044,0.245-2.272C7.381,18.991,6.678,19.697,6.045,20.456z"/>
+                      <path d="M18.121,1.603c-0.456-0.257-1.153-0.171-1.68,1.056c-0.42,0.977-0.659,2.044-0.244,2.272c0.415,0.228,1.223-0.5,1.859-1.289C18.847,2.482,18.576,1.86,18.121,1.603z"/>
+                    </svg>
+                <span class="status-label">Status</span>
+            </div>
+
+            <div class="status-section middle show-status-select" style="font-size: 13px; cursor: pointer;">
+            </div>
+
+            <div class="status-section right status-delete">
+                <button class="status-deleted" title="Delete">
+                  <svg width="14.5" height="14.5" viewBox="0 0 24 24" fill="none">
+                    <path d="M20.5 6H3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+                    <path d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072L15.4286 4.28571L15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4441 6 17.4441 6 17.5 6" stroke="currentColor" stroke-width="1.5"></path>
+                    <path d="M18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5M18.8334 8.5L18.6334 11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+                    <line x1="10" y1="9" x2="10" y2="17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></line>
+                    <line x1="14" y1="9" x2="14" y2="17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></line>
+                  </svg>
+                </button>
+            </div>
+
+          </div>   
+          
+          
+          <div class="quest-bar" id="for-quest-select" style="display: none;" data-type="quest">
+
+              <div class="quest-section left">
+      
+
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="15" height="15" >
+                <path d="M3 5.5L8 4v15l-5 1.5V5.5z"  />
+                <path d="M9 4l6 1.5v15L9 19V4z" />
+                <path d="M16 5.5l5-1.5v15l-5 1.5V5.5z"/>
+              </svg>
+
+                  <span class="quest-label">Quest</span>
+              </div>
+
+              <div class="quest-section middle show-quest-select" style="font-size: 13px; cursor: pointer;"> 
+              </div>
+
+              <div class="quest-section right quest-delete">
+                  <button class="quest-deleted" title="Delete">
+                      <svg width="14.5" height="14.5" viewBox="0 0 24 24" fill="none">
+                          <path d="M20.5 6H3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+                          <path d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072L15.4286 4.28571L15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4441 6 17.4441 6 17.5 6" stroke="currentColor" stroke-width="1.5"></path>
+                          <path d="M18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5M18.8334 8.5L18.6334 11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+                          <line x1="10" y1="9" x2="10" y2="17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></line>
+                          <line x1="14" y1="9" x2="14" y2="17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></line>
+                      </svg>
+                  </button>
+              </div>
+
+          </div>   
+          
+          <div class="username-bar" id="for-username-select" style="display: none;" data-type="username">
+
+              <div class="username-section left">
+      
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="14.5" height="14.5">
+                      <path transform="scale(0.046875)" d="M159.131,169.721c5.635,58.338,43.367,96.867,96.871,96.867c53.502,0,91.23-38.53,96.867-96.867l7.988-63.029 C365.812,44.768,315.281,0,256.002,0c-59.281,0-109.812,44.768-104.86,106.692L159.131,169.721z"/>
+                      <path transform="scale(0.046875)" d="M463.213,422.569l-3.824-24.35c-3.203-20.417-16.035-38.042-34.475-47.361l-80.473-40.693 c-2.519-1.274-4.57-3.194-6.289-5.338c-23.297,24.632-51.6,39.12-82.15,39.12c-30.549,0-58.856-14.488-82.152-39.12 c-1.719,2.144-3.77,4.064-6.289,5.338l-80.472,40.693c-18.442,9.319-31.272,26.944-34.475,47.361l-3.826,24.35 c-1.363,8.692,0.436,21.448,8.222,27.825C67.42,458.907,105.875,512,256.002,512c150.125,0,188.578-53.093,198.988-61.606 C462.779,444.017,464.576,431.261,463.213,422.569z"/>
+                  </svg> 
+
+                  <span class="username-label">Username</span>
+              </div>
+
+              <div class="username-section middle show-username-select" style="font-size: 13px; cursor: pointer;">
+            
+              </div>
+
+              <div class="username-section right username-delete">
+                  <button class="username-deleted" title="Delete">
+                      <svg width="14.5" height="14.5" viewBox="0 0 24 24" fill="none">
+                          <path d="M20.5 6H3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+                          <path d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072L15.4286 4.28571L15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4441 6 17.4441 6 17.5 6" stroke="currentColor" stroke-width="1.5"></path>
+                          <path d="M18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5M18.8334 8.5L18.6334 11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+                          <line x1="10" y1="9" x2="10" y2="17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></line>
+                          <line x1="14" y1="9" x2="14" y2="17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></line>
+                      </svg>
+                  </button>
+              </div>
+
+          </div>
+
+          <div class="reviewer-bar" id="for-reviewer-select" style="display: none;" data-type="reviewer">
+
+              <div class="reviewer-section left">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14.5" height="14.5" fill="currentColor" aria-hidden="true">
+                    <g transform="translate(0 1.333) scale(0.0416666)">
+                      <path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6-46.8 43.5-78.1 95.4-93 131.1-3.3 7.9-3.3 16.7 0 24.6 14.9 35.7 46.2 87.7 93 131.1 47.1 43.7 111.8 80.6 192.6 80.6s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1 3.3-7.9 3.3-16.7 0-24.6-14.9-35.7-46.2-87.7-93-131.1-47.1-43.7-111.8-80.6-192.6-80.6zM144 256a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-64c0 35.3-28.7 64-64 64-11.5 0-22.3-3-31.7-8.4-1 10.9-.1 22.1 2.9 33.2 13.7 51.2 66.4 81.6 117.6 67.9s81.6-66.4 67.9-117.6c-12.2-45.7-55.5-74.8-101.1-70.8 5.3 9.3 8.4 20.1 8.4 31.7z"/>
+                    </g>
+                  </svg>
+
+                  <span class="reviewer-label">Reviewer</span>
+              </div>
+
+              <div class="reviewer-section middle show-reviewer-select" style="font-size: 13px; cursor: pointer;">
+              
+              </div>
+
+              <div class="reviewer-section right reviewer-delete">
+                  <button class="reviewer-deleted" title="Delete">
+                      <svg width="14.5" height="14.5" viewBox="0 0 24 24" fill="none">
+                          <path d="M20.5 6H3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+                          <path d="M6.5 6C6.55588 6 6.58382 6 6.60915 5.99936C7.43259 5.97849 8.15902 5.45491 8.43922 4.68032L8.57143 4.28571C8.65431 4.03708 8.69575 3.91276 8.75071 3.8072C8.97001 3.38607 9.37574 3.09364 9.84461 3.01877C9.96213 3 10.0932 3 10.3553 3H13.6447C13.9068 3 14.0379 3 14.1554 3.01877C14.6243 3.09364 15.03 3.38607 15.2493 3.8072L15.4286 4.28571L15.5608 4.68032C15.841 5.45491 16.5674 5.97849 17.3909 5.99936C17.4441 6 17.4441 6 17.5 6" stroke="currentColor" stroke-width="1.5"></path>
+                          <path d="M18.3735 15.3991C18.1965 18.054 18.108 19.3815 17.243 20.1907C16.378 21 15.0476 21 12.3868 21H11.6134C8.9526 21 7.6222 21 6.75719 20.1907C5.89218 19.3815 5.80368 18.054 5.62669 15.3991L5.16675 8.5M18.8334 8.5L18.6334 11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+                          <line x1="10" y1="9" x2="10" y2="17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></line>
+                          <line x1="14" y1="9" x2="14" y2="17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></line>
+                      </svg>
+                  </button>
+              </div>
+
+          </div>
+          </div>
+
+          <button class="button-liners" style="margin-right: auto; cursor: pointer; color: var(--text-main);" id="plus-show-review-item-dropdown" >
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="17" height="17" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+          </svg>
+
+          </button>
+        </div>
+
+      </div>
+
+
+
+      
+
+        <div class="review-list">
+
+          <div class="review-skeleton">
+            <div class="skeleton-avatar"></div>
+
+            <div class="skeleton-content">
+              <div class="skeleton-lines">
+                <div class="skeleton-line"></div>
+                <div class="skeleton-line short"></div>
+              </div>
+
+              <div class="skeleton-time"></div>
+            </div>
+
+          </div>
+
+          <div class="review-skeleton">
+            <div class="skeleton-avatar"></div>
+
+            <div class="skeleton-content">
+              <div class="skeleton-lines">
+                <div class="skeleton-line"></div>
+                <div class="skeleton-line short"></div>
+              </div>
+
+              <div class="skeleton-time"></div>
+            </div>
+
+          </div>
+          <div class="review-skeleton">
+            <div class="skeleton-avatar"></div>
+
+            <div class="skeleton-content">
+              <div class="skeleton-lines">
+                <div class="skeleton-line"></div>
+                <div class="skeleton-line short"></div>
+              </div>
+
+              <div class="skeleton-time"></div>
+            </div>
+
+          </div>
+          <div class="review-skeleton">
+            <div class="skeleton-avatar"></div>
+
+            <div class="skeleton-content">
+              <div class="skeleton-lines">
+                <div class="skeleton-line"></div>
+                <div class="skeleton-line short"></div>
+              </div>
+
+              <div class="skeleton-time"></div>
+            </div>
+
+          </div>
+          <div class="review-skeleton">
+            <div class="skeleton-avatar"></div>
+
+            <div class="skeleton-content">
+              <div class="skeleton-lines">
+                <div class="skeleton-line"></div>
+                <div class="skeleton-line short"></div>
+              </div>
+
+              <div class="skeleton-time"></div>
+            </div>
+
+          </div>
+
+
+
+
+        </div>
+    
+    </aside>
+
+
+
+    <main class="review-panel review-center hidden-review" style="position: relative;overflow: hidden !important; overflow-y: hidden !important; background-color: var(--bg-sidebar);">
+      <div class="review-bar">
+        
+        <span class="review-crumb ellipsis"> Did you find a bug/issue?</span> <span class="review-divider">/</span>
+        <span class="review-crumb ellipsis-text"><strong>fredrika-test-42</strong></span>
+          <div style="align-items: center; justify-content: center; margin-left: 15px;" id="show-me-up" onclick="togglePanels(event)">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"  width="18.5" height="18.5"  fill="currentColor">
+          <defs>
+            <style>
+              .a, .b {
+                fill: none;
+                stroke: #e6e3e3;
+                stroke-linecap: round;
+                stroke-width: 1.5px;
+              }
+              .a { stroke-linejoin: round; }
+              .b { stroke-linejoin: bevel; }
+            </style>
+          </defs>
+
+          <path class="a" d="M3,21.016l.78984-2.87249C5.0964,13.3918,8.5482,10.984,12,10.984" />
+          <circle class="b" cx="12" cy="5.98404" r="5" />
+          <circle class="a" cx="17" cy="18" r="5" />
+          <line class="a" x1="17" y1="17.34043" x2="17" y2="20.51064" />
+          <line class="a" x1="17" y1="15.59574" x2="17" y2="15.51064" />
+        </svg>
+
+      </div>
+        <div style="margin-left: auto; display: flex; gap: 10px;">
+
+
+      <button class="arrow-btn arrow-up" style="background: none; border: none; cursor: pointer;">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="18" height="18">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5 12 6 4.5 13.5M12 6v15"/>
+          </svg>
+      </button>
+
+      <!-- Down Arrow -->
+      <button class="arrow-btn arrow-down" style="background: none; border: none; cursor: pointer;">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="18" height="18">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 10.5 12 18 19.5 10.5M12 18V3"/>
+          </svg>
+      </button>
+
+
+
+          <div class="show-profile-info"  style=" cursor: e-resize; display: {{ 'none' if userinfo_visible else 'flex' }};"  data-tooltip="Show User info ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18.5" height="18.5" viewBox="0 0 24 24" aria-hidden="true" role="img">
+              <rect x="2" y="4" width="17.5" height="15" rx="4" ry="4"
+                      fill="none" stroke="currentColor" stroke-width="1.5"/>
+
+              <rect x="7" y="4" width="1.5" height="15" rx="0.6" ry="0.6"
+                      fill="currentColor" stroke="none"/>
+              </svg>
+          </div>   
+  
+        </div>
+
+    
+      </div>
+
+      <div class="review-task">
+ 
+
+        <div class="activity-container">
+
+        </div>
+      </div>
+
+      <div class="action-review-wrapper">
+        <div class="review-actions" style="display: none;">
+
+          <!-- Top row -->
+          <div class="review-top">
+              <div class="review-avatar-comment">V</div>
+              
+              <textarea id="review-comment" class="review-textarea" placeholder="write a review"></textarea>
+              <!-- Icons -->
+              <div class="review-input-icons">
+                  <button class="review-icon-btn free-xp-star">
+                    <svg viewBox="0 0 24 24" width="16" height="16"   xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z" />
+                    </svg>
+                  </button>
+
+                  <button class="review-icon-btn flag--user">
+                    <svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" width="18" height=18 xmlns="http://www.w3.org/2000/svg" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4.5 21V16M4.5 16V6.5C5.5 5.5 7 5 8.5 5C11.5 5 13.5 7.5 17.5 5.5V15.5C13.5 17.5 11.5 14.5 8.5 14.5C7.5 14.5 5.5 15 4.5 16Z" />
+                    </svg>
+                  </button>
+              </div>
+          </div>
+
+          <!-- Bottom buttons -->
+          <div class="review-final-actions">
+            <div class="review-free-xp" style="display: none;">
+            <input type="number" name="" id="" min="1" id="free-xp" class="free-xp" placeholder="Add bonus XP" inputmode="numeric" pattern="[0-9]*">
+
+            </div>
+              <button class="action-icon" id="feedback-show">
+                <div class="review-icons-group" style="color: var(--text-main);">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="review-svg-top" fill="currentColor" width="20" height="20" viewBox="0 0 24 24">
+                      <path d="M5 3a2 2 0 0 0-2 2v16l9-5 9 5V5a2 2 0 0 0-2-2H5z" />
+                  </svg>
+
+              </button>
+      
+
+              <button class="btn-fail review-btn review-btn-fail" id="fail-user" style="font-size: 13px !important;">Fail</button>
+              <button class="btn-success review-btn review-btn-pass" id="pass-user" style="font-size: 13px !important;">Success</button>
+          </div>
+        </div>
+
+
+        <div class="review-done-content" style="display: none;">
+          <div class="review-done-conatainer" >
+            <span class="review-done-status">
+                Marked as
+            </span>
+            <strong class="bottom-status">Success</strong>      
+          </div>
+
+            <button class="review-undo-btn" id="undo-review">Undo</button>
+        </div>
+      </div>
+
+    </main>
+
+
+          
+      <div class="placeholder-review" style="
+        position: absolute;
+        top: 25%;
+        display:flex;
+        flex-direction: column;
+        width: fit-content;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 30px;
+      ">
+        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="121.000000pt" height="121.000000pt" viewBox="0 0 381.000000 381.000000" preserveAspectRatio="xMidYMid meet" >
+
+          <g transform="translate(0.000000,381.000000) scale(0.100000,-0.100000)" fill="currentColor" stroke="none">
+          <path d="M1585 2800 c-141 -16 -250 -83 -327 -198 -45 -67 -56 -103 -109 -347 -62 -291 -80 -394 -77 -428 l3 -32 220 -5 c121 -3 229 -10 240 -15 41 -18 77 -51 105 -96 53 -87 65 -91 266 -90 199 1 222 7 253 69 25 48 60 85 102 109 29 15 65 19 254 23 l220 5 3 45 c4 69 -119 644 -153 710 -33 65 -114 153 -173 187 -101 60 -141 66 -462 69 -162 1 -326 -1 -365 -6z"/>
+          <path d="M1165 1690 l-90 -5 -3 -40 c-5 -65 54 -310 93 -391 59 -121 162 -205 290 -239 83 -21 813 -22 892 -1 168 45 301 181 342 351 32 129 61 290 55 307 -5 15 -18 18 -97 20 -169 3 -324 1 -351 -6 -17 -4 -39 -26 -63 -64 -29 -44 -51 -63 -92 -84 -53 -27 -59 -28 -225 -28 -94 0 -188 4 -209 9 -53 13 -99 47 -130 96 -47 74 -50 75 -193 78 -71 1 -169 0 -219 -3z"/>
+          </g>
+        </svg>
+        <div class="preview-task" id="previewTask">
+            <div class="preview-placeholder">Select a review to view submission.</div>
+        </div>
+    </div>
+
+
+    <aside class="review-panel review-details hidden-review" 
+          style="display: {% if mobile %}none{% else %}{{ 'flex' if userinfo_visible else 'none' }}{% endif %}; background-color: var(--bg-sidebar);">
+
+
+          <div class="review-head">
+
+        
+              <button onclick="toggleHtml(event)" class="htmltoggle" style="background-color: transparent; border: none; outline: none; color: currentColor; align-items: flex-start; justify-content: flex-start;" id="backesstyerr">
+
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none"width="20" height="20"  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="15.375 5.25 8.625 12 15.375 18.75"></polyline>
+                </svg>
+
+              </button>
+         
+
+            <div class="review-text">User Info</div>
+
+         
+
+            <div class="hide-profile-info" data-tooltip="Close User info" >
+              <svg xmlns="http://www.w3.org/2000/svg" width="18.5" height="18.5" viewBox="0 0 24 24">
+                <rect x="2" y="4" width="17.5" height="15" rx="4" ry="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                <rect x="7" y="4" width="1.5" height="15" rx="0.6" ry="0.6" fill="currentColor"/>
+              </svg>
+            </div>
+    
+
+          </div>
+
+        <div class="review-list-aside">
+        <div class="review-box">
+          <div class="review-user">
+            <div class="review-header">
+              <div class="review-avatar-right">
+                <img src="" alt="avatar" loading="lazy" decoding="async">
+              </div>
+              <span class="review-name" style="color: var(--text-main);"></span>
+            </div>
+
+            <div class="user-progress-info">
+              <div class="upi-top">
+                <span class="upi-level" style="color: var(--text-main);">Level 3</span>
+                <span class="upi-xp">600 / 2000 XP</span>
+              </div>
+
+              <div class="upi-bar" style="box-sizing: border-box !important;">
+                <div class="upi-bar-fill" style="width: 30%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-split" style="margin-top:12px;">
+            <div class="review-ghost" style="color: var(--text-main);">View profile</div>
+            <div class="review-ghost"  style="color: var(--text-main);">View claims</div>
+          </div>
+        </div>
+
+        <div class="review-box">
+          <div class="review-row joined-date"><span>Join date</span><span>Dec 5, 2023</span></div>
+          <div class="review-row"><span>Rank</span><span>15129</span></div>
+          <div class="review-row"><span>Stars</span><span>0</span></div>
+          <div class="review-row"><span>Flags</span><span>0</span></div>
+          </div>
+        </div>
+
+        <div class="review-box">
+          <div style="font-weight:700; margin-bottom: 10px;" class="quest-detail ellipsis">Did you find a bug/issue?</div>
+          <div class="review-row recoccurence"><span>Recurrence</span><span>None</span></div>
+          <div class="review-row cooldown"><span>Cooldown</span><span>None</span></div>
+          <div class="review-row for-reward"><span>Rewards</span><span class="review-pill"></span></div>
+          <div class="review-split" style="margin-top:12px;">
+            <div class="review-ghost see-quest">View quest</div>
+            <div class="review-ghost">View claims</div>
+          </div>
+        </div>
+        </div>
+    </aside>
+
+  </div>
+
+</div>
+
+
+
+
+
+<div class="feedback-modal" id="feedback-modal">
+  <div class="feedback-popup">
+    <div class="feedback-search">
+      <svg xmlns="http://www.w3.org/2000/svg" class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <circle cx="11" cy="11" r="7" />
+        <line x1="16.65" y1="16.65" x2="21" y2="21" />
+      </svg>
+      <input type="text" placeholder="Type a command or search..." class="feedback-input">
+      <span class="no-results-text" style="display:none; color:#999; font-size:12px; margin-left:10px;">No comments found.</span>
+    </div>
+    <div class="feedback-suggestions">
+      <div class="suggestion">Perfect! All objectives done.</div>
+      <div class="suggestion">Good job!, but a few details need tweaking. Check the quest description to ensure everything is aligned.</div>
+      <div class="suggestion">Some steps missed, review the instructions.</div>
+      <div class="suggestion">Almost there! You did most of it right, but the main objective isn’t fully completed. Take another look at the quest requirements.</div>
+      <div class="suggestion">Not correct. Follow the quest description.</div>
+      <div class="suggestion">Excellent! You went beyond the main tasks.</div>
+      <div class="no-result-feedback" style="font-size: 13px; text-align: center; color: #cacaca; display: none;  paddinggvbh: 10px 0; ">No comment found</div>
+    </div>
+  </div>
+</div>
+
+
+ 
+<div id="exportReviewsModal" class="modal-consent">
+<div class="modal-content-csv">
+  <div style="display: flex; justify-content: space-between; align-items: center; margin: 0; padding: 0;">
+    <h2>Export Reviews</h2>
+    <span class="close">
+    <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M14 2 L2 14 M14 14 L2 2" />
+    </svg>
+
+    </span>
+  </div>
+  <p>Reviews will be sent to your email: <strong class="csv-element">{{ current_user.email }}</strong></p>
+  <div id="statusMessage" class="status"></div>
+
+  <!-- Wrap the button inside a flex container -->
+  <div style="display: flex;">
+    <button id="sendExport">Send Export</button>
+  </div>
+</div>
+
+</div>
+
+<div class="review-dropdown" id="review-dropdown">
+  <div data-value="newest">Newest </div>
+  <div data-value="oldest">Oldest </div>
+  <div data-value="longest">Longest Wait</div>
+  <div data-value="recommended" class="active">Recommended</div>
+</div>
+
+
+
+<div class="review-item-dropdown" id="review-item-dropdown">
+  <div class="dropdown-option active" data-select-status>Status</div>
+  <div class="dropdown-option" data-select-reviewer>Reviewer</div>
+  <div class="dropdown-option" data-select-quest>Quest</div>
+  <div class="dropdown-option" data-select-username>Username</div>
+  <div class="dropdown-option" data-select-select>Select</div>
+</div>
+
+  <div class="quest-select" id="filter-by-quest" style="display: none;">
+    <div class="quest-panel">
+      <div class="quest-search-box">
+        <svg viewBox="0 0 24 24" fill="none">
+          <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+          <path d="M20 20L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <input type="search" placeholder="Search quest..." />
+      </div>
+
+      <div class="quest-divider"></div>
+
+      <ul class="quest-list">
+        <li class="quest-item-rev disabled">Loading quests...</li>
+
+      </ul>
+        <div  style=" text-align: center; font-size: 14px; font-style: oblique; color: #bebece; display: none ;padding-bottom: 15px; padding-top: 8px;"  id="quest-no-result">No result found</div>
+    </div>
+  </div>
+
+
+
+  <div class="username-select" id="filter-by-username" style="display: none;">
+    <div class="username-panel">
+      <div class="username-search-box">
+        <svg viewBox="0 0 24 24" fill="none">
+          <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+          <path d="M20 20L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <input type="search" placeholder="Search username..." />
+      </div>
+
+      <div class="username-divider"></div>
+
+      <ul class="username-list">
+        <li class="username-item disabled" style="color:#acafc2 !important;">Loading users...</li>
+
+      </ul>
+        <div  style=" text-align: center; font-size: 14px; font-style: oblique; color: #bebece; display: none ;padding-bottom: 15px; padding-top: 8px;" id="username-result;" >No result found</div>
+
+    </div>
+  </div>
+
+  <div class="status-select" id="filter-by-status" style="display: none;">
+    <div class="status-panel">
+      <div class="status-search-box">
+        <svg viewBox="0 0 24 24" fill="none">
+          <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+          <path d="M20 20L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <input type="search" placeholder="Search status..." />
+      </div>
+
+      <div class="status-divider"></div>
+
+      <ul class="status-list">
+        <li class="status-item" data-status-name="pending">
+          <label class="status-checkbox-wrapper">
+            <input type="checkbox">
+            <span class="status-checkmark"></span>
+          </label>
+          <span>Pending</span>
+        </li>
+        <li class="status-item" data-status-name="success">
+          <label class="status-checkbox-wrapper">
+            <input type="checkbox">
+            <span class="status-checkmark"></span>
+          </label>
+          <span>Success</span>
+        </li>
+        <li class="status-item" data-status-name="failed" data-for-filter-review-item="failed">
+          <label class="status-checkbox-wrapper">
+            <input type="checkbox">
+            <span class="status-checkmark"></span>
+          </label>
+          <span>Failed</span>
+          
+        </li>
+          <div style=" text-align: center; font-size: 14px; font-style: oblique; color: #bebece; display: none ;padding-bottom: 15px; padding-top: 8px;" id="status-result">No result found</div>
+
+      </ul>
+    </div>
+  </div>
+
+  <div class="reviewer-select" id="filter-by-reviewer" style="display: none;">
+    <div class="reviewer-panel"  >
+      <div class="reviewer-search-box">
+        <svg viewBox="0 0 24 24" fill="none">
+          <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+          <path d="M20 20L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <input type="search" placeholder="Search reviewer..." />
+      </div>
+
+      <div class="reviewer-divider"></div>
+
+      <ul class="reviewer-list">
+        <li class="reviewer-item disabled" style="color:#acafc2 !important;">Loading reviewers...</li>
+
+
+
+      </ul>
+        <div style=" text-align: center; font-size: 14px; font-style: oblique; color: #bebece; display: none ;padding-bottom: 15px; padding-top: 8px;" id="reviewer-result">No result found<div>
+
+    </div>
+        </div>
+  </div>
+  </div>
+
+<div id="userProfileModal" class="modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <div class="modal-header">
+      <div class="modal-avatar">
+        <img src="" alt="avatar" loading="lazy" decoding="async">
+      </div>
+      <div class="modal-usernames">
+        <div class="modal-username">Username</div>
+        <div class="modal-discord">Discord: #1234</div>
+        <div class="modal-twitter">Twitter: @user</div>
+        <div class="modal-telegram">Telegram: @user</div>
+        <div class="modal-youtube">Youtube: @user</div>
+        <div class="modal-unique">ID: 00123</div>
+        <!-- Action buttons -->
+        <div class="modal-actions">
+          <button class="modal-btn ban-btn">Ban User</button>
+          <button class="modal-btn suspend-btn">Suspend User</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+</div>
+ 
+
+
+
+<div class="First-divers">
+  <div class="diver-undo">Undo</div>
+  <div class="diver-fail">Failed</div>
+  <div class="diver-success">Success</div>
+</div>
+
+ 
+
+

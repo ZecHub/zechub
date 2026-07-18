@@ -1,0 +1,260 @@
+<style>
+  @media (min-width: 768px) {
+
+  .channel-permission-card {
+    background: var(--bg-sidebar);
+    padding: 20px 12px;
+    padding-top: 34px;
+    max-width: 520px;
+    min-width: 520px;
+  }
+
+  }
+
+
+  @media (max-width: 768px) {
+
+  .channel-permission-card {
+    background: var(--bg-sidebar);
+    padding: 20px;
+    padding-top: 34px;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  }
+
+  .permission-header h3 {
+    margin: 0;
+    margin-bottom: 13px;
+    font-size: 18px;
+    color: var(--text-main);
+  }
+
+  .permission-headerp {
+    margin-top: 6px;
+    font-size: 14px;
+    color: var(--text-muted);
+  }
+
+  .permission-list {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+    background: var(--bg-surface);
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid var(--border);
+  }
+
+  .permission-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 0;
+    border-radius: 0;
+    background: transparent;
+    border-bottom: 0.9px solid var(--border);
+  }
+
+  .permission-info strong {
+    display: block;
+    font-size: 14px;
+    color: var(--text-main-items);
+  }
+
+  .permission-info span {
+    font-size: 13px;
+    margin-top: 2px;
+    color: var(--text-muted);
+  }
+
+  .toggle-switch-mod {
+    position: relative;
+    width: 42px;
+    height: 22px;
+  }
+
+  .toggle-switch-mod input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: var(--bg-hover);
+    border-radius: 999px;
+    transition: background 0.25s ease;
+  }
+
+  .slider::before {
+    content: "";
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    left: 2px;
+    top: 2px;
+    background: var(--toggle-knob);
+    border-radius: 50%;
+    transition: transform 0.25s ease;
+  }
+
+  .toggle-switch-mod input:checked + .slider {
+    background: #4285f4;
+  }
+
+  .toggle-switch-mod input:checked + .slider::before {
+    transform: translateX(20px);
+  }
+
+  .permission-override {
+    margin-top: 22px;
+    padding: 16px 16px;
+    border-radius: 18px;
+    background: var(--info-bg);
+    border: 1px solid var(--info-border);
+  }
+
+  .override-header strong {
+    display: block;
+    font-size: 14px;
+    color: var(--text-main-items);
+  }
+
+  .override-header span {
+    font-size: 12.5px;
+    color: var(--text-muted);
+    margin-top: 2px;
+  }
+
+  .override-badges {
+    margin-top: 10px;
+    display: flex;
+    gap: 8px;
+  }
+
+  .role-badge {
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 500;
+    background: #3030506c;
+  }
+
+
+  .role-badge {
+    border: 1px solid var(--role-color);
+    color: var(--role-color);
+    padding: 4px 8px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+
+  .override-note {
+    margin-top: 10px;
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.4;
+  }
+</style>
+{% set settings = interaction_settings %}
+
+<div class="channel-permission-card">
+  <div class="permission-header">
+    <h3>Manage User Interaction</h3>
+  </div>
+
+    <p class="permission-headerp">Control what users can do, this action will take effect across all channels.</p>
+  
+    <div class="permission-list">
+
+    <div class="permission-row">
+        <div class="permission-info">
+        <strong>Send Messages</strong>
+        <span>Allow users to send text messages</span>
+        </div>
+        <label class="toggle-switch-mod">
+        <input
+            type="checkbox"
+            data-key="can_send_messages"
+            {% if settings is none or settings.can_send_messages %}checked{% endif %}
+        >
+        <span class="slider"></span>
+        </label>
+    </div>
+
+    <div class="permission-row">
+        <div class="permission-info">
+        <strong>Send Links</strong>
+        <span>Allow messages containing URLs</span>
+        </div>
+        <label class="toggle-switch-mod">
+        <input
+            type="checkbox"
+            data-key="can_send_links"
+            {% if settings is none or settings.can_send_links %}checked{% endif %}
+        >
+        <span class="slider"></span>
+        </label>
+    </div>
+
+    <div class="permission-row">
+        <div class="permission-info">
+        <strong>Upload Images</strong>
+        <span>Allow image uploads (PNG, JPG, GIF)</span>
+        </div>
+        <label class="toggle-switch-mod">
+        <input
+            type="checkbox"
+            data-key="can_upload_images"
+            {% if settings is none or settings.can_upload_images %}checked{% endif %}
+        >
+        <span class="slider"></span>
+        </label>
+    </div>
+
+    <div class="permission-row">
+        <div class="permission-info">
+        <strong>Send Voice Messages</strong>
+        <span>Allow voice recordings</span>
+        </div>
+        <label class="toggle-switch-mod">
+        <input
+            type="checkbox"
+            data-key="can_send_voice"
+            {% if settings is none or settings.can_send_voice %}checked{% endif %}
+        >
+        <span class="slider"></span>
+        </label>
+    </div>
+
+    </div>
+
+  <!-- ROLE OVERRIDES -->
+  <div class="permission-override">
+    <div class="override-header">
+      <strong>Role Overrides</strong>
+      <span>These roles are not affected by channel restrictions</span>
+    </div>
+
+
+    <div class="override-badges">
+      <span class="role-badge" data-role="admin">Admin</span>
+      <span class="role-badge" data-role="editor">Editor</span>
+    </div>
+
+
+    <p class="override-note">
+      Admins and Editors can always send messages, links, media, and voice recordings
+      regardless of the settings above.
+    </p>
+  </div>
+</div>
+    
