@@ -134,7 +134,7 @@ VAPID_PRIVATE_KEY=your_vapid_private_key
 # recommended for anything beyond local single-process dev.
 REDIS_URL=redis://your_redis_url
 
-# ── Supabase (optional storage) ──────────────────────
+# ── Supabase (Mandatory for Gleyo to run (storage)) ──────────────────────
 SUPABASE_URL=https://your-project.supabase.co
 SUPABASE_KEY=your_supabase_key       # Server-side key (e.g. service role/secret key) — keep this out of any client-facing code, it's used server-side only for storage operations
 ```
