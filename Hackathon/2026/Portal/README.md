@@ -9,7 +9,7 @@ You send a private, shielded transaction with a one time code in the memo. Porta
 The same flow lets you unlock paid content or send and receive money with a simple link. Everything here runs on real Zcash mainnet. There's no testnet mode and nothing is simulated.
 
 Live site: [tryportal.xyz](https://tryportal.xyz)
-Demo video: [youtu.be/UxJZrXAuWY4](https://youtu.be/UxJZrXAuWY4?si=oJp3IOc9NXAIijAq)
+Demo video: [youtu.be/-fWFFc_u6j4](https://youtu.be/-fWFFc_u6j4?si=bzDL61TwNeV8caqo)
 Follow along: [x.com/trypayportal](https://x.com/trypayportal)
 
 ## What it does
