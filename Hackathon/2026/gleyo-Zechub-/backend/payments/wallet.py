@@ -103,3 +103,34 @@ class ZecAuthSession(db.Model):
         db.DateTime(timezone=True),
         default=lambda: datetime.now(UTC)
     )
+
+
+
+class ZecWithdrawalQueue(db.Model):
+    __tablename__ = "zec_withdrawal_queue"
+
+    id = db.Column(db.Integer, primary_key=True)
+
+    tx_id = db.Column(
+        db.Integer,
+        db.ForeignKey("user_transactions.id"),
+        nullable=False,
+        unique=True
+    )
+
+    user_id = db.Column(db.Integer, db.ForeignKey("users.id"), nullable=False)
+
+    address = db.Column(db.String(255), nullable=False)
+    amount_to_send = db.Column(db.Numeric(20, 8), nullable=False)
+    full_amount = db.Column(db.Numeric(20, 8), nullable=False)
+    platform_fee = db.Column(db.Numeric(20, 8), nullable=False)
+
+    # queued -> processing -> done | failed
+    status = db.Column(db.String(20), default="queued", nullable=False)
+
+    created_at = db.Column(db.DateTime(timezone=True), default=lambda: datetime.now(UTC))
+    started_at = db.Column(db.DateTime(timezone=True), nullable=True)
+    finished_at = db.Column(db.DateTime(timezone=True), nullable=True)
+
+    def __repr__(self):
+        return f"<ZecWithdrawalQueue tx={self.tx_id} status={self.status}>"

@@ -175,13 +175,13 @@
     <!-- Submissions (plain text) -->
     <div class="stat-row">
       <span class="stat-label">Submissions</span>
-      <span class="stat-value plain">{{ total_attempts|default(0) }}</span>
+      <span class="stat-value plain">{{ total_attempts_raw|default(0) }}</span>
     </div>
 
     <!-- Success (plain text) -->
     <div class="stat-row">
       <span class="stat-label">Success</span>
-      <span class="stat-value plain">{{ total_success|default(0) }}</span> 
+      <span class="stat-value plain">{{ total_success_raw|default(0) }}</span>
     </div>
 
     <!-- Success Rate (ONLY BADGE COLORED) -->

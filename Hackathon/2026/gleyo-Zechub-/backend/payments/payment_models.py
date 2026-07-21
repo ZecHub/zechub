@@ -20,6 +20,10 @@ class Payment(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
     community_id = db.Column(db.Integer, db.ForeignKey('communities.id'), nullable=False)
 
+    swap_status = db.Column(db.String(20), nullable=True)        
+    swap_tx = db.Column(db.String(100), nullable=True)           
+    swap_zec_amount = db.Column(db.Float, nullable=True)         
+
     user = db.relationship('Users', back_populates='payments')
     community = db.relationship('Community', back_populates='payments')
 
