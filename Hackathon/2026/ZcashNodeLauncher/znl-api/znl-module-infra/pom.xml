@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.zcashjava.znl</groupId>
+        <artifactId>znl-api</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>znl-module-infra</artifactId>
+    <packaging>jar</packaging>
+
+    <name>${project.artifactId}</name>
+    <description></description>
+
+    <dependencies>
+        <!-- Operational component-->
+        <dependency>
+            <groupId>com.zcashjava.znl</groupId>
+            <artifactId>znl-starter-biz-tenant</artifactId>
+        </dependency>
+
+        <!-- Web Related-->
+        <dependency>
+            <groupId>com.zcashjava.znl</groupId>
+            <artifactId>znl-starter-security</artifactId>
+        </dependency>
+
+
+        <!-- DB Related-->
+        <dependency>
+            <groupId>com.zcashjava.znl</groupId>
+            <artifactId>znl-starter-mybatis</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-generator</artifactId> <!-- Code Generator, use it to interpret table structure-->
+        </dependency>
+
+        <dependency>
+            <groupId>com.zcashjava.znl</groupId>
+            <artifactId>znl-starter-redis</artifactId>
+        </dependency>
+
+        <!-- Config Configuration Centre Related-->
+
+
+        <!-- Test relevance for Test-->
+        <dependency>
+            <groupId>com.zcashjava.znl</groupId>
+            <artifactId>znl-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Tools class-related-->
+        <dependency>
+            <groupId>com.zcashjava.znl</groupId>
+            <artifactId>znl-starter-excel</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity-engine-core</artifactId> <!-- Realize Code Generation-->
+        </dependency>
+
+        <dependency>
+            <groupId>de.codecentric</groupId>
+            <artifactId>spring-boot-admin-starter-server</artifactId> <!-- Implement Spring Boot Admin Server-->
+            <optional>true</optional>
+        </dependency>
+
+        <!-- Triangular cloud service-related-->
+        <dependency>
+            <groupId>commons-net</groupId>
+            <artifactId>commons-net</artifactId> <!-- File client: solves ftp connection-->
+        </dependency>
+        <dependency>
+            <groupId>com.github.mwiede</groupId>
+            <artifactId>jsch</artifactId> <!-- File client: solves sftp connections-->
+        </dependency>
+        <!-- File client: solves S3 connections for Aliyun, Xinzun, Minio, etc.-->
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>s3</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.tika</groupId>
+            <artifactId>tika-core</artifactId> <!-- File client: File type recognition-->
+        </dependency>
+
+    </dependencies>
+
+</project>

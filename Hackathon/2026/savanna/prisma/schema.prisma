@@ -1,0 +1,39 @@
+// Banco local SQLite — terminal único de caixa.
+datasource db {
+  provider = "sqlite"
+  url      = "file:./pdv.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// Singleton: guarda a UFVK criptografada. Cadastro uma única vez, sem update/delete.
+// A chave de descriptografia deriva da senha de admin (Argon2id) e NUNCA é persistida.
+model WalletConfig {
+  id         Int      @id @default(1)
+  idAccount  Int // id da account no wallet do Hanh (não é segredo)
+  ciphertext Bytes // UFVK criptografada (AES-256-GCM)
+  nonce      Bytes // IV de 12 bytes
+  authTag    Bytes // tag GCM de 16 bytes
+  salt       Bytes // salt do Argon2id (16 bytes)
+  adminHash  String // Argon2 da senha de admin (verificação de login)
+  hmacSalt   Bytes // salt para derivar a chave HMAC dos memos
+  createdAt  DateTime @default(now())
+  // sem updatedAt de propósito: registro imutável
+}
+
+model Payment {
+  id          String    @id @default(uuid())
+  orderId     String    @unique // token que vai no memo (aleatório)
+  amountZec   String // valor esperado (string decimal, precisão exata)
+  address     String // endereço orchard derivado para esta cobrança
+  memo        String // conteúdo textual do memo (orderId|amount|hmac)
+  uri         String // ZIP-321
+  status      String    @default("PENDING") // PENDING | PAID | UNDERPAID | EXPIRED
+  txid        String? // preenchido ao detectar
+  receivedZec String? // valor efetivamente recebido on-chain
+  detectedAt  DateTime?
+  expiresAt   DateTime
+  createdAt   DateTime  @default(now())
+}

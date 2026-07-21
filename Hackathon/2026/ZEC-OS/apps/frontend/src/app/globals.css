@@ -1,0 +1,539 @@
+@import "tailwindcss";
+
+:root {
+  /* Core colors - defaults (CRT Green theme) */
+  --bg-desktop: #0a0a1a;
+  --bg-window: #1a1a2e;
+  --bg-titlebar: #2a3a2a;
+  --bg-titlebar-inactive: #1a2a1a;
+  --border-window: #3a4a3a;
+  --border-light: #4a5a4a;
+  --border-dark: #0a0a0a;
+
+  /* Text colors */
+  --text-primary: #00ff88;
+  --text-secondary: #ffaa00;
+  --text-muted: #c8c090;        /* Warm cream — readable on dark bg */
+
+  /* ZEC branding */
+  --accent-gold: #f4b728;
+  --accent-green: #00ff88;
+  --accent-orange: #ff6600;
+  --accent-purple: #9966ff;
+
+  /* Legacy mappings for existing components */
+  --text-green: var(--text-primary);
+  --text-amber: var(--text-secondary);
+
+  /* Font stacks */
+  --font-primary: 'VT323', monospace;
+  --font-display: 'Press Start 2P', monospace;
+  --font-mono: 'VT323', monospace;
+
+  /* Border radius */
+  --radius-none: 0px;
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+
+  /* Window chrome */
+  --titlebar-height: 28px;
+  --taskbar-height: 54px;
+
+  /* Font sizes - base values, scaled by settings */
+  --font-size-base: 26px;
+  --font-size-title: 14px;
+  --font-size-value: 32px;
+  --font-size-label: 20px;
+  --font-size-button: 16px;
+  --font-size-icon: 16px;
+  --font-size-muted: 16px;      /* Larger than icon for muted/secondary text */
+  --font-size-menu: 18px;
+  --font-size-clock: 26px;
+  --font-size-chart: 16px;
+  --font-size-trinket: 12px;
+  --font-size-doc: 13px;
+}
+
+/* ============================================
+   Golden Gate Theme (Win95 / Mid 90s)
+   ============================================ */
+:root[data-theme="golden-gate"] {
+  --bg-desktop: #008080;
+  --bg-window: #c0c0c0;
+  --bg-titlebar: #c0c0c0;
+  --bg-titlebar-inactive: #808080;
+  --border-window: #808080;
+  --border-light: #ffffff;
+  --border-dark: #404040;
+
+  --text-primary: #00ff88;
+  --text-secondary: #cc7700;
+  --text-muted: #c0bfaa;        /* Warm gray — readable on dark content bg */
+
+  --accent-gold: #996600;
+  --accent-green: #00ff88;
+  --accent-orange: #cc5500;
+  --accent-purple: #9966ff;
+
+  --text-green: var(--text-primary);
+  --text-amber: var(--text-secondary);
+
+  --font-primary: 'MS Sans Serif', 'Segoe UI', Tahoma, sans-serif;
+  --font-display: 'MS Sans Serif', 'Segoe UI', Tahoma, sans-serif;
+  --font-mono: 'Courier New', Courier, monospace;
+
+  --titlebar-height: 24px;
+  --taskbar-height: 44px;
+}
+
+/* ============================================
+   Millennium Theme (Mac OS 9 Platinum / Late 90s)
+   ============================================ */
+:root[data-theme="millennium"] {
+  --bg-desktop: #5f5f8f;
+  --bg-window: #e8e8e8;
+  --bg-titlebar: #cccccc;
+  --bg-titlebar-inactive: #aaaaaa;
+  --border-window: #999999;
+  --border-light: #ffffff;
+  --border-dark: #666666;
+
+  --text-primary: #006644;
+  --text-secondary: #8b4513;
+  --text-muted: #8a9a88;        /* Medium green-gray — visible on dark window content */
+
+  --accent-gold: #996622;
+  --accent-green: #006644;
+  --accent-orange: #a0522d;
+  --accent-purple: #663399;
+
+  --text-green: var(--text-primary);
+  --text-amber: var(--text-secondary);
+
+  --font-primary: Charcoal, Chicago, 'Lucida Grande', sans-serif;
+  --font-display: Charcoal, Chicago, 'Lucida Grande', sans-serif;
+  --font-mono: Monaco, 'Courier New', monospace;
+
+  --radius-none: 0px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  --titlebar-height: 24px;
+  --taskbar-height: 54px;
+}
+
+/* Desktop icon labels for Millennium */
+:root[data-theme="millennium"] .desktop-icon-label {
+  color: #ffffff !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* Millennium smooth rendering */
+:root[data-theme="millennium"] body {
+  image-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Millennium theme - dark colors for light background elements */
+:root[data-theme="millennium"] .titlebar {
+  color: #333333;
+}
+
+:root[data-theme="millennium"] .titlebar-title {
+  color: #333333 !important;
+}
+
+:root[data-theme="millennium"] .taskbar-clock {
+  color: #006644 !important;
+}
+
+:root[data-theme="millennium"] .taskbar-date {
+  color: #8b4513 !important;
+}
+
+/* Millennium window content - bright colors on dark background */
+:root[data-theme="millennium"] .window-content {
+  --text-primary: #00ff88;
+  --text-secondary: #ffaa00;
+  --accent-gold: #f4b728;
+  --accent-green: #00ff88;
+}
+
+/* Golden Gate - app titles should be bold and larger */
+:root[data-theme="golden-gate"] .window-content h2 {
+  font-weight: 700;
+  font-size: calc(var(--font-size-title) * 1.3);
+}
+
+/* Millennium - app titles should be bold and larger */
+:root[data-theme="millennium"] .window-content h2 {
+  font-weight: 700;
+  font-size: calc(var(--font-size-title) * 1.3);
+}
+
+/* Font size variants - use :root for proper specificity */
+:root[data-font-size="small"] {
+  --font-size-base: 22px;
+  --font-size-title: 12px;
+  --font-size-value: 28px;
+  --font-size-label: 16px;
+  --font-size-button: 14px;
+  --font-size-icon: 12px;
+  --font-size-muted: 14px;
+  --font-size-menu: 16px;
+  --font-size-clock: 22px;
+  --font-size-chart: 14px;
+  --font-size-trinket: 11px;
+  --font-size-doc: 13px;
+}
+
+:root[data-font-size="medium"] {
+  --font-size-base: 26px;
+  --font-size-title: 14px;
+  --font-size-value: 32px;
+  --font-size-label: 20px;
+  --font-size-button: 16px;
+  --font-size-icon: 14px;
+  --font-size-muted: 16px;
+  --font-size-menu: 18px;
+  --font-size-clock: 26px;
+  --font-size-chart: 16px;
+  --font-size-trinket: 12px;
+  --font-size-doc: 13px;
+}
+
+:root[data-font-size="large"] {
+  --font-size-base: 30px;
+  --font-size-title: 16px;
+  --font-size-value: 38px;
+  --font-size-label: 24px;
+  --font-size-button: 18px;
+  --font-size-icon: 16px;
+  --font-size-muted: 18px;
+  --font-size-menu: 22px;
+  --font-size-clock: 30px;
+  --font-size-chart: 18px;
+  --font-size-trinket: 13px;
+  --font-size-doc: 13px;
+}
+
+:root[data-font-size="xl"] {
+  --font-size-base: 34px;
+  --font-size-title: 19px;
+  --font-size-value: 45px;
+  --font-size-label: 28px;
+  --font-size-button: 21px;
+  --font-size-icon: 19px;
+  --font-size-muted: 21px;
+  --font-size-menu: 26px;
+  --font-size-clock: 35px;
+  --font-size-chart: 21px;
+  --font-size-trinket: 14px;
+  --font-size-doc: 15px;
+}
+
+@theme inline {
+  --font-body: var(--font-vt323);
+  --font-title: var(--font-press-start);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: var(--bg-desktop);
+  color: var(--text-primary);
+  font-family: var(--font-primary);
+  font-size: var(--font-size-base);
+}
+
+/* CRT Green theme - pixelated rendering */
+:root[data-theme="crt-green"] body {
+  image-rendering: pixelated;
+  -webkit-font-smoothing: none;
+}
+
+/* Golden Gate theme - smooth rendering */
+:root[data-theme="golden-gate"] body {
+  image-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'MS Sans Serif', 'Segoe UI', Tahoma, sans-serif;
+}
+
+/* ============================================
+   Retro Border Style (CRT Green default)
+   ============================================ */
+:root[data-border-style="retro"] .window-border {
+  border: 2px solid var(--border-window);
+  box-shadow:
+    inset 1px 1px 0 var(--border-light),
+    inset -1px -1px 0 var(--border-dark),
+    2px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+:root[data-border-style="retro"] .titlebar {
+  background: var(--bg-titlebar);
+  border-bottom: 2px solid var(--border-dark);
+  font-family: var(--font-display);
+  font-size: var(--font-size-title);
+}
+
+:root[data-border-style="retro"] .btn-window {
+  background: var(--bg-window);
+  border: 2px solid var(--border-window);
+  box-shadow:
+    inset 1px 1px 0 var(--border-light),
+    inset -1px -1px 0 var(--border-dark);
+  cursor: pointer;
+  font-size: var(--font-size-button);
+}
+
+:root[data-border-style="retro"] .btn-window:active {
+  box-shadow:
+    inset -1px -1px 0 var(--border-light),
+    inset 1px 1px 0 var(--border-dark);
+}
+
+/* ============================================
+   Beveled Border Style (Golden Gate / Win95)
+   ============================================ */
+:root[data-border-style="beveled"] .window-border {
+  border: 2px outset var(--border-light);
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
+  background: var(--bg-window);
+}
+
+/* Window titlebar in beveled style - blue gradient */
+:root[data-border-style="beveled"] .titlebar {
+  background: linear-gradient(90deg, #000080, #1084d0);
+  border-bottom: none;
+  font-family: var(--font-display);
+  font-size: var(--font-size-title);
+  color: white;
+  padding: 2px 4px;
+}
+
+:root[data-border-style="beveled"] .titlebar.inactive {
+  background: var(--bg-titlebar-inactive);
+}
+
+/* Dark interior for window content in beveled themes */
+:root[data-border-style="beveled"] .window-content {
+  background: #1a1a2e;
+  border: 2px inset var(--border-dark);
+}
+
+/* Desktop icon labels - white with shadow for visibility on any background */
+:root[data-theme="golden-gate"] .desktop-icon-label {
+  color: #ffffff !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* ============================================
+   Flat Border Style (Millennium / Mac-like)
+   ============================================ */
+:root[data-border-style="flat"] .window-border {
+  border: 1px solid var(--border-dark);
+  border-radius: var(--radius-md);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  background: var(--bg-window);
+}
+
+:root[data-border-style="flat"] .titlebar {
+  background: linear-gradient(180deg, #e8e8e8 0%, #cccccc 100%);
+  border-bottom: 1px solid var(--border-dark);
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+  font-family: var(--font-display);
+  font-size: var(--font-size-title);
+}
+
+:root[data-border-style="flat"] .titlebar.inactive {
+  background: linear-gradient(180deg, #d0d0d0 0%, #b0b0b0 100%);
+}
+
+/* Dark interior for window content in flat style */
+:root[data-border-style="flat"] .window-content {
+  background: #1a1a2e;
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
+}
+
+:root[data-border-style="flat"] .btn-window {
+  background: linear-gradient(180deg, #f0f0f0 0%, #d0d0d0 100%);
+  border: 1px solid var(--border-dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: var(--font-size-button);
+}
+
+:root[data-border-style="flat"] .btn-window:hover {
+  background: linear-gradient(180deg, #ffffff 0%, #e0e0e0 100%);
+}
+
+:root[data-border-style="flat"] .btn-window:active {
+  background: linear-gradient(180deg, #c0c0c0 0%, #a0a0a0 100%);
+}
+
+/* Flat style menus with dark background for readability */
+:root[data-border-style="flat"] .window-border.menu-dropdown {
+  background: #1a1a2e;
+  border-radius: var(--radius-sm);
+}
+
+:root[data-border-style="beveled"] .btn-window {
+  background: var(--bg-window);
+  border: 2px outset var(--border-light);
+  cursor: pointer;
+  font-size: var(--font-size-button);
+  min-width: 16px;
+  min-height: 14px;
+}
+
+:root[data-border-style="beveled"] .btn-window:active {
+  border-style: inset;
+}
+
+/* Fallback window-border for unset border-style */
+.window-border {
+  border: 2px solid var(--border-window);
+  box-shadow:
+    inset 1px 1px 0 var(--border-light),
+    inset -1px -1px 0 var(--border-dark),
+    2px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* Active window — subtle gold tint, all border-style variants */
+.window-border.window-active,
+:root[data-border-style="retro"] .window-border.window-active,
+:root[data-border-style="beveled"] .window-border.window-active,
+:root[data-border-style="flat"] .window-border.window-active {
+  border-color: rgba(255, 215, 0, 0.55);
+  box-shadow:
+    inset 1px 1px 0 var(--border-light),
+    inset -1px -1px 0 var(--border-dark),
+    0 0 10px rgba(255, 215, 0, 0.10),
+    0 6px 20px rgba(0, 0, 0, 0.55);
+}
+
+.titlebar {
+  background: var(--bg-titlebar);
+  border-bottom: 2px solid var(--border-dark);
+  font-family: var(--font-display);
+  font-size: var(--font-size-title);
+}
+
+.btn-window {
+  background: var(--bg-window);
+  border: 2px solid var(--border-window);
+  box-shadow:
+    inset 1px 1px 0 var(--border-light),
+    inset -1px -1px 0 var(--border-dark);
+  cursor: pointer;
+  font-size: var(--font-size-button);
+}
+
+.btn-window:active {
+  box-shadow:
+    inset -1px -1px 0 var(--border-light),
+    inset 1px 1px 0 var(--border-dark);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-window);
+  border: 1px solid var(--border-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-titlebar);
+  border: 2px solid var(--border-window);
+  box-shadow:
+    inset 1px 1px 0 var(--border-light),
+    inset -1px -1px 0 var(--border-dark);
+}
+
+/* Selection */
+::selection {
+  background: var(--accent-gold);
+  color: var(--bg-desktop);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  :root {
+    --font-size-base: 22px;
+    --font-size-title: 11px;
+    --font-size-value: 26px;
+    --font-size-label: 16px;
+    --font-size-button: 14px;
+    --font-size-icon: 11px;
+    --font-size-muted: 13px;
+    --font-size-menu: 16px;
+    --font-size-clock: 20px;
+  }
+
+  .titlebar {
+    height: 36px;
+  }
+
+  .btn-window {
+    min-width: 32px;
+    min-height: 32px;
+  }
+
+  button {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --font-size-base: 18px;
+    --font-size-title: 9px;
+    --font-size-value: 22px;
+    --font-size-label: 14px;
+    --font-size-button: 12px;
+    --font-size-icon: 9px;
+    --font-size-muted: 11px;
+    --font-size-menu: 14px;
+    --font-size-clock: 18px;
+  }
+}
+
+/* Taskbar logout button — red door icon, brighter red on hover */
+.logout-btn { color: #FF5555; }
+.logout-btn:hover { color: #FF8080 !important; }
+
+/* ============================================
+   Explorer alternating section bands
+   Derived from the window bg so they track any theme. Dark themes: header band
+   (a) darker, detail band (b) lighter. Light themes: inverted so the header
+   band reads lighter and the detail band darker. Adjacent bands are flush.
+   ============================================ */
+.exp-band-a { background: color-mix(in srgb, var(--bg-window), #000 16%); }
+.exp-band-b { background: color-mix(in srgb, var(--bg-window), #fff 8%); }
+
+:root[data-theme="golden-gate"] .exp-band-a,
+:root[data-theme="millennium"] .exp-band-a,
+:root[data-theme="lumen"] .exp-band-a,
+:root[data-theme="aqua-zec"] .exp-band-a { background: color-mix(in srgb, var(--bg-window), #fff 55%); }
+
+:root[data-theme="golden-gate"] .exp-band-b,
+:root[data-theme="millennium"] .exp-band-b,
+:root[data-theme="lumen"] .exp-band-b,
+:root[data-theme="aqua-zec"] .exp-band-b { background: color-mix(in srgb, var(--bg-window), #000 9%); }

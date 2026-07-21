@@ -1,0 +1,205 @@
+{
+  "reviewedOn": "2026-07-15",
+  "entries": [
+    {
+      "name": "Turnstile (this site)",
+      "kind": "service",
+      "status": "in-progress",
+      "note": "Held to the same standard as every other row. Scanning runs on zingolib, whose current pin of zcash_protocol (0.9.0) predates NU6.3; the newest zcash_protocol release ships the Ironwood consensus rules and zingolib is integrating them. Everything here is verified against mainnet pre-activation; post-activation scanning depends on that upstream work landing.",
+      "source": "https://github.com/zingolabs/zingolib/issues/2420",
+      "verifiedOn": "2026-07-15"
+    },
+    {
+      "name": "zcashd",
+      "kind": "service",
+      "status": "at-risk",
+      "note": "zcashd will not support NU6.3 and halts itself at block 3,417,100 (est. 18 July), about 11,000 blocks before Orchard stops taking deposits. A node that will not start cannot move your funds — migrate to Zebra or Zallet before then.",
+      "source": "https://zcash.github.io/zcash/user/release-support.html",
+      "verifiedOn": "2026-07-14"
+    },
+    {
+      "name": "Zebra",
+      "kind": "service",
+      "status": "ready",
+      "note": "Zebra v6.0.0 is the first stable release that activates Ironwood on mainnet at block 3,428,143. All node operators must upgrade before activation.",
+      "source": "https://github.com/ZcashFoundation/zebra/releases/tag/v6.0.0",
+      "verifiedOn": "2026-07-10"
+    },
+    {
+      "name": "Zaino",
+      "kind": "service",
+      "status": "ready",
+      "note": "Zaino 0.6.0 adds full support for Ironwood, including the v6 transaction format and the Orchard-to-Ironwood pool transition, with an automatic database migration.",
+      "source": "https://github.com/zingolabs/zaino/releases/tag/0.6.0",
+      "verifiedOn": "2026-07-13"
+    },
+    {
+      "name": "lightwalletd",
+      "kind": "service",
+      "status": "at-risk",
+      "note": "The latest upstream release (v0.4.19, 30 March) predates Ironwood, and the only Ironwood work is an unmerged draft pull request opened on 12 July. Most light wallets read the chain through lightwalletd.",
+      "source": "https://github.com/zcash/lightwalletd/pull/567",
+      "verifiedOn": "2026-07-12"
+    },
+    {
+      "name": "zec.rocks",
+      "kind": "service",
+      "status": "in-progress",
+      "note": "Ironwood is live on testnet.zec.rocks via a patched lightwalletd branch. No public statement exists yet about mainnet Ironwood support.",
+      "source": "https://forum.zcashcommunity.com/t/ironwood-is-active-on-testnet-zec-rocks/56557",
+      "verifiedOn": "2026-07-06"
+    },
+    {
+      "name": "Zallet",
+      "kind": "wallet",
+      "status": "in-progress",
+      "note": "Zallet v0.1.0-beta.1 ships Ironwood wallet support, but it is still a beta and the Orchard-to-Ironwood migration tool is an open issue. It cannot export a unified full viewing key, so Turnstile cannot check a Zallet wallet — read your balance in the wallet instead.",
+      "source": "https://github.com/zcash/zallet/releases/tag/v0.1.0-beta.1",
+      "verifiedOn": "2026-07-12"
+    },
+    {
+      "name": "Zashi",
+      "kind": "wallet",
+      "status": "in-progress",
+      "note": "Zodl (Zashi's publisher) states it is updating the wallet and SDKs to support Ironwood, and migration screens exist in its repositories, but the latest shipped release does not mention Ironwood. Zashi shields to Orchard by default, so Zashi balances are the most likely to be affected.",
+      "source": "https://zodl.com/ironwood-a-new-shielded-pool-for-zcash/",
+      "verifiedOn": "2026-06-06"
+    },
+    {
+      "name": "Zingo",
+      "kind": "wallet",
+      "status": "in-progress",
+      "note": "Ironwood support is tracked in an open issue filed on 30 June. No shipped Zingo release mentions Ironwood. Zingo PC exports a unified full viewing key and its birthday, so Turnstile can check it.",
+      "source": "https://github.com/zingolabs/zingolib/issues/2420",
+      "verifiedOn": "2026-06-30"
+    },
+    {
+      "name": "Nighthawk",
+      "kind": "wallet",
+      "status": "at-risk",
+      "note": "Nighthawk's own App Store listing says it no longer supports outgoing ZEC transactions and tells users to import their seed into another wallet. It never shipped NU6.2, let alone Ironwood.",
+      "source": "https://apps.apple.com/us/app/nighthawk-wallet/id1524708337",
+      "verifiedOn": "2025-11-30"
+    },
+    {
+      "name": "YWallet",
+      "kind": "wallet",
+      "status": "unknown",
+      "note": "No public statement about Ironwood. The latest release (June) predates the upgrade. It does export a unified viewing key, so Turnstile can check it — the key carries Sapling and Orchard but no transparent component.",
+      "source": null,
+      "verifiedOn": "2026-07-14"
+    },
+    {
+      "name": "Edge",
+      "kind": "wallet",
+      "status": "unknown",
+      "note": "Edge holds shielded ZEC, but we found no public statement from Edge about Ironwood or the Orchard closure.",
+      "source": null,
+      "verifiedOn": "2026-07-14"
+    },
+    {
+      "name": "Unstoppable",
+      "kind": "wallet",
+      "status": "unknown",
+      "note": "Unstoppable advertises shielded ZEC support, but we found no public statement from it about Ironwood or the Orchard closure.",
+      "source": null,
+      "verifiedOn": "2026-07-14"
+    },
+    {
+      "name": "Ledger",
+      "kind": "wallet",
+      "status": "unknown",
+      "note": "No public statement about Ironwood. Ledger Live handles transparent ZEC addresses only, so funds held through Ledger Live are not in the Orchard pool.",
+      "source": null,
+      "verifiedOn": "2026-07-14"
+    },
+    {
+      "name": "Trezor",
+      "kind": "wallet",
+      "status": "unknown",
+      "note": "No public statement about Ironwood. Trezor supports transparent t-addresses only, so no Trezor-held funds sit in the Orchard pool.",
+      "source": "https://trezor.io/coins/wallet/zcash",
+      "verifiedOn": "2026-07-14"
+    },
+    {
+      "name": "Gemini",
+      "kind": "exchange",
+      "status": "unknown",
+      "note": "Gemini routes ZEC withdrawals directly to Orchard and is the only exchange known to offer shielded withdrawals at all, but it has published nothing about Ironwood. That withdrawal path has to change by activation and Gemini has not said how.",
+      "source": "https://www.gemini.com/blog/privacy-gets-an-upgrade-gemini-adds-zcash-orchard-support",
+      "verifiedOn": "2025-11-07"
+    },
+    {
+      "name": "Coinbase",
+      "kind": "exchange",
+      "status": "unknown",
+      "note": "No public statement about Ironwood. Coinbase withdraws ZEC to transparent addresses only.",
+      "source": null,
+      "verifiedOn": "2026-07-14"
+    },
+    {
+      "name": "Kraken",
+      "kind": "exchange",
+      "status": "unknown",
+      "note": "No public statement about Ironwood or the Orchard closure.",
+      "source": null,
+      "verifiedOn": "2026-07-14"
+    },
+    {
+      "name": "Binance",
+      "kind": "exchange",
+      "status": "unknown",
+      "note": "No public statement about Ironwood. Binance's published ZEC network-upgrade notices all predate this upgrade.",
+      "source": null,
+      "verifiedOn": "2026-07-14"
+    },
+    {
+      "name": "Gate.io",
+      "kind": "exchange",
+      "status": "unknown",
+      "note": "No public statement about Ironwood or the Orchard closure.",
+      "source": null,
+      "verifiedOn": "2026-07-14"
+    },
+    {
+      "name": "KuCoin",
+      "kind": "exchange",
+      "status": "unknown",
+      "note": "No public statement about Ironwood. KuCoin has published explanatory commentary on the upgrade but made no operational commitment.",
+      "source": null,
+      "verifiedOn": "2026-07-14"
+    },
+    {
+      "name": "Bitfinex",
+      "kind": "exchange",
+      "status": "unknown",
+      "note": "No public statement about Ironwood or the Orchard closure.",
+      "source": null,
+      "verifiedOn": "2026-07-14"
+    },
+    {
+      "name": "Crypto.com",
+      "kind": "exchange",
+      "status": "unknown",
+      "note": "No public statement about Ironwood or the Orchard closure.",
+      "source": null,
+      "verifiedOn": "2026-07-14"
+    },
+    {
+      "name": "Block explorers",
+      "kind": "service",
+      "status": "unknown",
+      "note": "No major Zcash explorer has published anything about Ironwood. mainnet.zcashexplorer.app still shows an Orchard pool balance with no upgrade notice.",
+      "source": null,
+      "verifiedOn": "2026-07-14"
+    },
+    {
+      "name": "Flexa",
+      "kind": "service",
+      "status": "unknown",
+      "note": "No 2026 Flexa post mentions Zcash, ZEC or Ironwood. Its only Zcash post is the 2024 Zashi integration.",
+      "source": null,
+      "verifiedOn": "2026-07-14"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" role="img" aria-label="ZBooks cover">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#181614"/>
+      <stop offset="100%" stop-color="#0b0a09"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="32%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#f4b728" stop-opacity="0.20"/>
+      <stop offset="60%" stop-color="#f4b728" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#f4b728" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.045"/>
+    </pattern>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f4b728"/>
+      <stop offset="100%" stop-color="#c77f0e"/>
+    </linearGradient>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#dots)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <g opacity="0.45">
+    <circle cx="1060" cy="120" r="110" fill="#f4b728" filter="url(#soft)" opacity="0.18"/>
+    <circle cx="1100" cy="540" r="140" fill="#c77f0e" filter="url(#soft)" opacity="0.10"/>
+  </g>
+
+  <!-- Logo -->
+  <g transform="translate(80 130) scale(0.55)">
+    <rect x="9" y="46" width="184" height="176" rx="44" fill="#c77f0e"/>
+    <rect x="9" y="22" width="184" height="176" rx="44" fill="#f4b728"/>
+    <path d="M55 70H157L55 150H157" stroke="#1a1a1a" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Wordmark + accent -->
+  <g font-family="Inter, 'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif">
+    <text x="230" y="210" font-size="118" font-weight="900" fill="#ffffff" letter-spacing="-3">ZBooks</text>
+    <rect x="234" y="232" width="92" height="7" rx="3.5" fill="url(#accent)"/>
+  </g>
+
+  <!-- Tagline -->
+  <g font-family="Inter, 'Segoe UI', system-ui, sans-serif">
+    <text x="230" y="290" font-size="26" font-weight="500" fill="#e6e1d7" letter-spacing="-0.3">Non-custodial accounting and structured payouts</text>
+    <text x="230" y="326" font-size="26" font-weight="500" fill="#e6e1d7" letter-spacing="-0.3">for Zcash teams. Live on mainnet.</text>
+  </g>
+
+  <!-- Pills -->
+  <g transform="translate(230 372)" font-family="Inter, 'Segoe UI', system-ui, sans-serif" font-size="18" font-weight="600">
+    <g transform="translate(0 0)">
+      <rect x="0" y="0" width="196" height="48" rx="24" fill="#f4b728" fill-opacity="0.10" stroke="#f4b728" stroke-opacity="0.85" stroke-width="2"/>
+      <text x="98" y="31" text-anchor="middle" fill="#f4b728" letter-spacing="-0.2">M-of-N approvals</text>
+    </g>
+    <g transform="translate(212 0)">
+      <rect x="0" y="0" width="188" height="48" rx="24" fill="#f4b728" fill-opacity="0.10" stroke="#f4b728" stroke-opacity="0.85" stroke-width="2"/>
+      <text x="94" y="31" text-anchor="middle" fill="#f4b728" letter-spacing="-0.2">UFVK accounting</text>
+    </g>
+    <g transform="translate(416 0)">
+      <rect x="0" y="0" width="262" height="48" rx="24" fill="#f4b728" fill-opacity="0.10" stroke="#f4b728" stroke-opacity="0.85" stroke-width="2"/>
+      <text x="131" y="31" text-anchor="middle" fill="#f4b728" letter-spacing="-0.2">Multi-recipient ZIP 321</text>
+    </g>
+    <g transform="translate(694 0)">
+      <rect x="0" y="0" width="180" height="48" rx="24" fill="#f4b728" fill-opacity="0.10" stroke="#f4b728" stroke-opacity="0.85" stroke-width="2"/>
+      <text x="90" y="31" text-anchor="middle" fill="#f4b728" letter-spacing="-0.2">Auto-reconcile</text>
+    </g>
+  </g>
+
+  <!-- Approval mock -->
+  <g transform="translate(845 442)" opacity="0.96">
+    <rect x="0" y="0" width="280" height="138" rx="14" fill="#1f2a1c" stroke="#3fa455" stroke-width="2"/>
+    <circle cx="32" cy="40" r="17" fill="#3fa455"/>
+    <path d="M23 40 L30 47 L42 33" stroke="#0d1f0e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <text x="60" y="34" font-family="Inter, sans-serif" font-size="18" font-weight="700" fill="#e3f4d8">Approvals</text>
+    <text x="60" y="56" font-family="ui-monospace, monospace" font-size="14" fill="#aac49b">2 of 2 . cleared</text>
+    <rect x="32" y="76" width="220" height="7" rx="3" fill="#152115"/>
+    <rect x="32" y="76" width="220" height="7" rx="3" fill="#3fa455"/>
+    <text x="32" y="106" font-family="ui-monospace, monospace" font-size="13" fill="#9fbf90">alice    HMAC verified</text>
+    <text x="32" y="126" font-family="ui-monospace, monospace" font-size="13" fill="#9fbf90">bob      HMAC verified</text>
+  </g>
+
+  <!-- Footer -->
+  <g transform="translate(80 558)">
+    <text x="0" y="0" font-family="Inter, 'Segoe UI', system-ui, sans-serif" font-size="21" font-weight="700" fill="#ffffff" letter-spacing="-0.2">Built on SIWZ <tspan fill="#7a7a7a">.</tspan> ZecHub Hackathon 2026 <tspan fill="#7a7a7a">.</tspan> Track: Accounting <tspan fill="#7a7a7a">.</tspan> MIT</text>
+    <text x="0" y="30" font-family="ui-monospace, monospace" font-size="16" fill="#9c9489">zecbooks.vercel.app</text>
+  </g>
+
+  <!-- Bottom yellow stripe -->
+  <rect x="0" y="622" width="1200" height="8" fill="url(#accent)"/>
+</svg>

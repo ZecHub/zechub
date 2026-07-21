@@ -4,7 +4,7 @@
 - Operating System: Android | iOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard
-- Features: Address Book | CrossPay | DEX Swaps | Flexa Payments | MultiSignature | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | F-droid
+- Features: Address Book | CrossPay | Near Intents | Flexa Payments | MultiSignature | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | F-droid
 
 ---
 
@@ -249,7 +249,7 @@
 
 ## [Vizor](https://vizor.cash/)
 ![logo](https://i.ibb.co/zhW2d2fV/Vizorphoto.png "Vizor")
-- Devices: Desktop
+- Devices: Desktop | Mobile
 - Operating System: macOS
 - Wallet Support: Seed Phrase | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard
@@ -262,7 +262,7 @@
 - Devices: Web | Desktop
 - Operating System: Browser
 - Pools: Shielded | Transparent
-- Features: Zcash | Browser Extension | Private Beta | Shielded Transactions | Cross-chain Swaps | Lending & Borrowing | DApp Connections | Native ZECFi
+- Features: Browser Extension | Shielded Transactions | Cross-chain Swaps | Lending & Borrowing | DApp Connections | Rhea
 
 ---
 
@@ -272,12 +272,14 @@
 - Operating System: Browser | Windows | macOS
 - Wallet Support: Seed Phrase | External Wallet | Receive Address | QR Code | Hardware
 - Pools: Sapling | Transparent
-- Features: Multi Coin | Cross-chain Swap | No KYC | Non-Custodial | Web App | Desktop App | Shielded ZEC | AnyPay
+- Features: Multi Coin | Near Intents | Maya DEX | No KYC | Non-Custodial | Web App | Desktop App | Shielded ZEC | AnyPay
 
+---
 
-
-
-
-
-
-
+## [Zapp](https://www.justzappit.xyz/app)
+![logo](https://i.ibb.co/mr8rF8y2/zapp-1.png "Zapp")
+- Devices: Mobile 
+- Operating System: Android 
+- Wallet Support: Unified Address 
+- Pools: Transparent | Sapling | Orchard
+- Features: End-to-end encrypted Messenger | NEAR Intents | P2P.me Offramp | Beta

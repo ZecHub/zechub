@@ -1,0 +1,1020 @@
+/* Steward owner console — "Ironwood", the heirloom instrument.
+   All palette/type comes from web/shared/tokens.css. Never hardcode a hex here. */
+
+:root {
+  --shell-max: 1260px;
+  --edge: clamp(1.1rem, 0.6rem + 2.5vw, 3.5rem);
+  --border-soft: 1px solid color-mix(in oklab, var(--grain) 80%, transparent);
+  --raise: color-mix(in oklab, var(--bone) 5%, transparent);
+}
+
+body {
+  min-height: 100dvh;
+}
+
+/* The ambient shift is felt through the elements that reference --state: their own
+   `transition: color/background 900ms` interpolate as the token flips. Slow and
+   dignified, never alarmist (see DESIGN.md). */
+
+::selection {
+  background: color-mix(in oklab, var(--state) 40%, transparent);
+  color: var(--bone);
+}
+
+/* ---------------------------------------------------------------- shell --- */
+.shell {
+  position: relative;
+  min-height: 100dvh;
+  max-width: var(--shell-max);
+  margin-inline: auto;
+  padding: clamp(1.2rem, 0.8rem + 2vw, 2.4rem) var(--edge) 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1.4rem, 1rem + 2vw, 2.6rem);
+}
+
+/* The structural layer. The vertical WOOD-GRAIN motif (.woodgrain, from tokens.css)
+   is applied to this element and carries the texture; here we only position it
+   full-bleed and lay a slow ambient hearth wash over it, keyed to --state
+   (ember → flare → char). No horizontal ledger hairlines. */
+.shell-grain {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+.shell-grain::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(120% 80% at 50% -10%, color-mix(in oklab, var(--state) 12%, transparent), transparent 60%),
+    radial-gradient(90% 60% at 50% 120%, color-mix(in oklab, var(--state) 7%, transparent), transparent 55%);
+  transition: background 900ms var(--ease);
+}
+
+.shell-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.shell-main {
+  flex: 1;
+}
+
+.shell-foot {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding-top: 1.4rem;
+  border-top: var(--border-soft);
+}
+
+/* ------------------------------------------------------------- wordmark --- */
+.wordmark {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  background: none;
+  border: 0;
+  padding: 0.2rem 0.1rem;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.wordmark-name {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.35rem, 1.1rem + 0.8vw, 1.7rem);
+  letter-spacing: 0.005em;
+  line-height: 1;
+}
+.wordmark-name::first-letter { color: var(--state); }
+.wordmark-sub { color: var(--bone-dim); }
+
+/* ----------------------------------------------------------------- chip --- */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.7rem;
+  border: 1px solid color-mix(in oklab, var(--state) 45%, var(--grain));
+  border-radius: 999px;
+  background: color-mix(in oklab, var(--state) 10%, transparent);
+}
+.chip-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--state);
+  box-shadow: 0 0 0 0 color-mix(in oklab, var(--state) 60%, transparent);
+  animation: chip-breathe 2.4s var(--ease) infinite;
+}
+.chip[data-tone='recoverable'] .chip-dot { animation: none; }
+.chip-label { color: var(--bone); }
+@keyframes chip-breathe {
+  0%, 100% { box-shadow: 0 0 0 0 color-mix(in oklab, var(--state) 55%, transparent); }
+  50% { box-shadow: 0 0 0 5px color-mix(in oklab, var(--state) 0%, transparent); }
+}
+
+/* --------------------------------------------------------------- panels --- */
+.panel {
+  position: relative;
+  background: var(--ironwood-raised);
+  border: var(--line);
+  border-radius: var(--radius-lg);
+  padding: clamp(1.1rem, 0.8rem + 1vw, 1.6rem);
+  box-shadow: inset 0 1px 0 var(--raise);
+}
+
+.lede {
+  max-width: 62ch;
+  color: color-mix(in oklab, var(--bone) 82%, var(--bone-dim));
+  font-size: var(--step-1);
+  line-height: 1.5;
+  margin: 0;
+}
+.fine {
+  color: var(--bone-dim);
+  font-size: var(--step--1);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* -------------------------------------------------------------- buttons --- */
+.btn {
+  --btn-accent: var(--ember);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-family: var(--font-body);
+  font-size: var(--step-0);
+  font-weight: 500;
+  line-height: 1;
+  padding: 0.8rem 1.15rem;
+  border: 1px solid var(--grain);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--bone);
+  cursor: pointer;
+  transition: border-color 180ms var(--ease), background 180ms var(--ease), color 180ms var(--ease), transform 120ms var(--ease);
+}
+.btn:hover {
+  border-color: color-mix(in oklab, var(--state) 60%, var(--grain));
+  background: color-mix(in oklab, var(--state) 12%, transparent);
+}
+.btn:active { transform: translateY(1px); }
+.btn:disabled { opacity: 0.55; cursor: not-allowed; }
+
+.btn--primary {
+  background: var(--ember);
+  border-color: var(--ember);
+  color: var(--bone);
+  font-weight: 600;
+}
+.btn--primary:hover {
+  background: color-mix(in oklab, var(--ember) 86%, var(--bone));
+  border-color: color-mix(in oklab, var(--ember) 86%, var(--bone));
+}
+/* Heartbeat landed: the hearth flares hot for a beat. */
+.btn--primary[data-beat='true'] {
+  background: var(--flare);
+  border-color: var(--flare);
+  color: var(--ironwood);
+}
+
+.btn--ghost {
+  border-color: transparent;
+  padding-inline: 0.3rem;
+  color: color-mix(in oklab, var(--bone) 88%, var(--bone-dim));
+}
+.btn--ghost:hover {
+  background: transparent;
+  color: var(--state);
+}
+.btn--sm { font-size: var(--step--1); padding: 0.4rem 0.3rem; }
+
+/* -------------------------------------------------------------- notices --- */
+.notice {
+  border-radius: var(--radius);
+  padding: 0.9rem 1.05rem;
+  font-size: var(--step-0);
+  line-height: 1.5;
+}
+.notice--grave {
+  background: color-mix(in oklab, var(--flare) 15%, transparent);
+  border: 1px solid color-mix(in oklab, var(--flare) 50%, var(--grain));
+  color: color-mix(in oklab, var(--bone) 90%, var(--flare));
+}
+/* A flare caution — value at stake, not a failure (see DESIGN.md: flare = attention). */
+.notice--caution {
+  background: color-mix(in oklab, var(--flare) 12%, transparent);
+  border: 1px solid color-mix(in oklab, var(--flare) 50%, var(--grain));
+  color: color-mix(in oklab, var(--bone) 92%, var(--flare));
+  font-size: var(--step--1);
+}
+/* Engraved small-caps serif (NOT mono-uppercase) in the attention flare. */
+.notice-title {
+  font-family: var(--font-display);
+  font-variant: small-caps;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  font-size: var(--step-0);
+  color: var(--flare);
+  margin: 0 0 0.3rem;
+}
+.notice p { margin: 0; }
+
+/* ================================================================ CREATE == */
+.create {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1rem, 0.7rem + 1.4vw, 1.8rem);
+  max-width: 840px;
+}
+.create-head { display: flex; flex-direction: column; gap: 0.7rem; }
+.create-title {
+  font-size: var(--step-3);
+  letter-spacing: -0.01em;
+}
+
+.field-group { display: flex; flex-direction: column; gap: 1.1rem; }
+.field-head { display: flex; flex-direction: column; gap: 0.25rem; }
+.field-hint { color: var(--bone-dim); font-size: var(--step--1); margin: 0; }
+
+.field { display: flex; flex-direction: column; gap: 0.4rem; }
+.field-label { color: var(--bone-dim); }
+
+.input {
+  font-family: var(--font-body);
+  font-size: var(--step-0);
+  color: var(--bone);
+  background: color-mix(in oklab, var(--ironwood) 60%, var(--ironwood-raised));
+  border: var(--line);
+  border-radius: var(--radius);
+  padding: 0.7rem 0.85rem;
+  /* Render native form-control chrome (number spinners, the select arrow + popup)
+     in the instrument's dark register rather than the OS light default. */
+  color-scheme: dark;
+  transition: border-color 160ms var(--ease), box-shadow 160ms var(--ease);
+}
+.select { cursor: pointer; }
+.input::placeholder { color: color-mix(in oklab, var(--bone-dim) 70%, transparent); }
+.input:focus {
+  outline: none;
+  border-color: var(--ember);
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--ember) 22%, transparent);
+}
+.input--mono { font-family: var(--font-mono); font-size: var(--step--1); letter-spacing: -0.01em; }
+
+/* quorum stepper */
+.quorum-set {
+  display: flex;
+  align-items: flex-end;
+  gap: clamp(0.6rem, 0.3rem + 1.5vw, 1.4rem);
+  flex-wrap: wrap;
+}
+.quorum-of { color: var(--bone-dim); padding-bottom: 0.75rem; }
+.stepper { display: flex; flex-direction: column; gap: 0.4rem; }
+.stepper-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  border: var(--line);
+  border-radius: var(--radius);
+  background: color-mix(in oklab, var(--ironwood) 55%, var(--ironwood-raised));
+  padding: 0.2rem;
+}
+.stepper-btn {
+  width: 2.1rem;
+  height: 2.1rem;
+  border: 0;
+  border-radius: 3px;
+  background: transparent;
+  color: var(--bone);
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background 140ms var(--ease);
+}
+.stepper-btn:hover:not(:disabled) { background: color-mix(in oklab, var(--state) 18%, transparent); }
+.stepper-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+.stepper-val {
+  min-width: 2.2rem;
+  text-align: center;
+  font-size: var(--step-1);
+  color: var(--state);
+}
+.quorum-read {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  margin-left: auto;
+  align-items: flex-end;
+  padding-bottom: 0.2rem;
+}
+.quorum-read-val { font-size: var(--step-2); color: var(--bone); }
+
+.guardian-inputs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.9rem;
+}
+
+/* cadence + purpose option tiles */
+.cadence-set, .purpose-set {
+  display: grid;
+  gap: 0.7rem;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.purpose-set { gap: 0.7rem; }
+.cadence-opt, .purpose-opt {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: 'radio title' 'radio note';
+  column-gap: 0.8rem;
+  row-gap: 0.15rem;
+  align-items: start;
+  padding: 0.85rem 1rem;
+  border: var(--line);
+  border-radius: var(--radius);
+  background: color-mix(in oklab, var(--ironwood) 45%, var(--ironwood-raised));
+  cursor: pointer;
+  transition: border-color 160ms var(--ease), background 160ms var(--ease);
+}
+.cadence-opt[data-on='true'], .purpose-opt[data-on='true'] {
+  border-color: color-mix(in oklab, var(--state) 65%, var(--grain));
+  background: color-mix(in oklab, var(--state) 12%, transparent);
+}
+.cadence-opt input, .purpose-opt input {
+  grid-area: radio;
+  margin-top: 0.2rem;
+  accent-color: var(--state);
+  width: 1rem; height: 1rem;
+}
+.cadence-label, .purpose-title { grid-area: title; font-weight: 500; color: var(--bone); }
+.cadence-note, .purpose-blurb { grid-area: note; font-size: var(--step--1); color: var(--bone-dim); line-height: 1.45; }
+
+/* "for testing" pill on the short demo cadences */
+.cadence-tag {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.08rem 0.5rem;
+  border: 1px solid color-mix(in oklab, var(--brass-faint) 55%, var(--grain));
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: color-mix(in oklab, var(--bone-dim) 82%, var(--brass-faint));
+  vertical-align: 0.08em;
+}
+
+/* Quiet divider that sets the short "for testing" cadences apart from the real ones. */
+.cadence-divider {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0.4rem 0 0.1rem;
+}
+.cadence-divider::before,
+.cadence-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: color-mix(in oklab, var(--grain) 70%, transparent);
+}
+
+/* custom-cadence builder — an inset panel keyed to the life-state accent */
+.cadence-custom {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  margin-top: 0.2rem;
+  padding: clamp(0.9rem, 0.7rem + 0.6vw, 1.2rem);
+  border: var(--line);
+  border-radius: var(--radius);
+  background: color-mix(in oklab, var(--state) 6%, var(--ironwood-raised));
+}
+.cadence-custom-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.9rem; }
+.cadence-dur { gap: 0.4rem; }
+.dur { display: flex; gap: 0.5rem; align-items: stretch; }
+.dur-num {
+  width: 5.5rem;
+  flex: 0 0 auto;
+  font-family: var(--font-mono);
+  font-feature-settings: 'tnum' 1;
+}
+.dur-unit { flex: 1 1 auto; min-width: 0; }
+.cadence-custom-msg { margin: 0; }
+@media (max-width: 520px) { .cadence-custom-row { grid-template-columns: 1fr; } }
+
+/* network: two side-by-side tiles reusing the cadence-opt tile styling */
+.network-set { display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem; }
+@media (max-width: 520px) { .network-set { grid-template-columns: 1fr; } }
+
+.create-actions { display: flex; flex-direction: column; gap: 0.7rem; }
+
+/* ---------------------------------------------------- seal-a-vault wizard --- */
+/* A slim, engraved step indicator — serif numerals in chamfered marks joined by a
+   faint grain line. NOT a chunky progress bar. */
+.wiz-steps { margin: 0; }
+.wiz-steps-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.15rem 0;
+}
+.wiz-step { display: flex; align-items: center; }
+.wiz-step + .wiz-step::before {
+  content: "";
+  width: clamp(0.7rem, 2vw, 2rem);
+  height: 1px;
+  background: color-mix(in oklab, var(--grain) 85%, transparent);
+  margin: 0 0.1rem;
+}
+.wiz-step-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: none;
+  border: 0;
+  padding: 0.3rem 0.35rem;
+  cursor: pointer;
+  transition: color 200ms var(--ease);
+}
+.wiz-step-btn:disabled { cursor: default; }
+.wiz-step-mark {
+  width: 1.75rem;
+  height: 1.75rem;
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--grain);
+  border-radius: 50%;
+  font-size: var(--step--1);
+  color: var(--bone-dim);
+  background: color-mix(in oklab, var(--ironwood) 45%, var(--ironwood-raised));
+  box-shadow: inset 0 1px 0 var(--raise);
+  transition: color 200ms var(--ease), border-color 200ms var(--ease), background 200ms var(--ease), box-shadow 200ms var(--ease);
+}
+/* Completed steps warm to bone; the current step lights ember (the hearth). */
+.wiz-step[data-state='done'] .wiz-step-mark {
+  color: var(--bone);
+  border-color: color-mix(in oklab, var(--ember) 40%, var(--grain));
+}
+.wiz-step[data-state='done'] .wiz-step-label { color: var(--bone-dim); }
+.wiz-step[data-state='current'] .wiz-step-mark {
+  color: var(--ember);
+  border-color: var(--ember);
+  background: color-mix(in oklab, var(--ember) 14%, var(--ironwood-raised));
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--ember) 14%, transparent), inset 0 1px 0 var(--raise);
+}
+.wiz-step[data-state='current'] .wiz-step-label { color: var(--ember); }
+.wiz-step[data-state='todo'] .wiz-step-label { color: var(--bone-dim); }
+.wiz-step-btn:not(:disabled):hover .wiz-step-mark { border-color: color-mix(in oklab, var(--ember) 55%, var(--grain)); }
+
+/* One decision at a time; a calm fade as steps change (reduced-motion drops it). */
+.wiz-panel {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1rem, 0.7rem + 1.4vw, 1.8rem);
+  animation: wiz-fade 220ms var(--ease);
+}
+@keyframes wiz-fade {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: none; }
+}
+
+.wiz-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 0.2rem;
+}
+.wiz-nav .btn--primary { min-width: 8.5rem; }
+
+/* Review: every choice restated, each with an Edit jump back to its step. */
+.review-list { display: flex; flex-direction: column; gap: 0; margin: 0; }
+.review-row {
+  display: grid;
+  grid-template-columns: minmax(6rem, auto) 1fr auto;
+  column-gap: 1rem;
+  row-gap: 0.35rem;
+  align-items: baseline;
+  padding: 0.85rem 0;
+  border-top: var(--line);
+}
+.review-row:first-child { border-top: 0; padding-top: 0; }
+.review-dt { color: var(--bone-dim); }
+.review-dd { margin: 0; color: var(--bone); line-height: 1.5; }
+.review-note { color: var(--bone-dim); }
+.review-cadence-label { color: var(--bone); }
+.review-heir { font-size: var(--step--1); word-break: break-all; }
+.review-guardians { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.2rem; }
+.review-edit { align-self: start; justify-self: end; padding-inline: 0.3rem; }
+
+@media (max-width: 640px) {
+  .wiz-step-label { display: none; }
+  .wiz-steps-list { justify-content: center; }
+  .wiz-step + .wiz-step::before { width: clamp(1.2rem, 6vw, 2.4rem); }
+  .wiz-step-btn { padding-inline: 0.2rem; }
+}
+@media (max-width: 520px) {
+  .review-row { grid-template-columns: 1fr auto; }
+  .review-dt { grid-column: 1 / -1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .wiz-panel { animation: none; }
+}
+
+/* ================================================================== HOME == */
+.home { display: flex; flex-direction: column; gap: clamp(1.2rem, 0.9rem + 1.4vw, 2rem); }
+.home-id { display: flex; align-items: baseline; gap: 0.6rem; }
+.home-id-val { font-size: var(--step-0); color: var(--bone); }
+
+/* --- the monitor (pulse hero) --- */
+.monitor {
+  position: relative;
+  background:
+    linear-gradient(color-mix(in oklab, var(--ironwood) 92%, black), var(--ironwood));
+  border: var(--line);
+  border-radius: var(--radius-lg);
+  padding: clamp(0.9rem, 0.6rem + 1vw, 1.4rem);
+  overflow: hidden;
+}
+.monitor::before { /* faint scanlines: an instrument readout */
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0 3px,
+    color-mix(in oklab, var(--bone) 3%, transparent) 3px 4px
+  );
+  pointer-events: none;
+  opacity: 0.5;
+}
+.monitor-head, .monitor-foot { position: relative; display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+.monitor-head { margin-bottom: 0.4rem; }
+.monitor-state { font-family: var(--font-mono); font-size: var(--step--1); color: var(--state); letter-spacing: -0.01em; }
+.monitor-foot { margin-top: 0.4rem; }
+.monitor-word {
+  font-family: var(--font-display);
+  font-size: var(--step-2);
+  color: var(--state);
+  letter-spacing: 0.01em;
+  transition: color 900ms var(--ease);
+}
+.monitor-sub { color: var(--bone-dim); font-size: var(--step--1); max-width: 46ch; text-align: right; }
+
+/* --- pulse (SIGNATURE 1) --- */
+.pulse {
+  position: relative;
+  width: 100%;
+  height: clamp(120px, 20vw, 184px);
+  overflow: hidden;
+  color: var(--state);
+}
+.pulse-glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(58% 130% at 50% 50%, var(--state-soft), transparent 72%);
+  animation: pulse-breathe var(--pulse-period, 1.6s) var(--ease) infinite;
+  pointer-events: none;
+}
+.pulse-track {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  animation: ecg-scroll var(--pulse-period, 1.6s) linear infinite;
+  will-change: transform;
+}
+.pulse-track--static { animation: none; }
+.pulse-tile { flex: 0 0 260px; display: block; }
+.pulse-path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  filter: drop-shadow(0 0 6px color-mix(in oklab, var(--state) 55%, transparent));
+}
+.pulse[data-flat='true'] .pulse-path {
+  stroke-width: 1.5;
+  opacity: 0.8;
+  filter: drop-shadow(0 0 4px color-mix(in oklab, var(--state) 45%, transparent));
+}
+@keyframes ecg-scroll {
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(-260px, 0, 0); }
+}
+@keyframes pulse-breathe {
+  0%, 100% { opacity: 0.22; }
+  12% { opacity: 0.6; }
+  34% { opacity: 0.18; }
+}
+
+/* --- ledger row: countdown + cards --- */
+.ledger {
+  display: grid;
+  grid-template-columns: minmax(280px, 360px) 1fr;
+  gap: clamp(1rem, 0.7rem + 1.4vw, 1.6rem);
+  align-items: start;
+}
+.countdown-block { display: flex; flex-direction: column; gap: 0.6rem; }
+.countdown {
+  font-family: var(--font-mono);
+  font-feature-settings: 'tnum' 1;
+  font-size: clamp(2.6rem, 1.8rem + 4vw, 4.2rem);
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: var(--bone);
+  margin: 0.1rem 0 0.2rem;
+  transition: color 900ms var(--ease);
+}
+.countdown[data-close='true'] { color: var(--state); }
+.countdown[data-state='recoverable'] { color: var(--char); }
+.countdown-actions { margin-top: 0.5rem; }
+.countdown-actions .btn { width: 100%; }
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: clamp(0.8rem, 0.5rem + 1vw, 1.2rem);
+}
+.card { display: flex; flex-direction: column; gap: 0.5rem; min-height: 100%; }
+.card-lead { font-size: var(--step-1); color: var(--bone); }
+.card-lead--addr { font-size: var(--step-0); word-break: break-all; }
+.card-lead--muted { color: var(--bone-dim); font-family: var(--font-mono); font-size: var(--step-0); }
+
+.guardian-list { list-style: none; margin: 0.2rem 0 0; padding: 0; display: flex; flex-direction: column; gap: 0.5rem; }
+.guardian-row { display: flex; align-items: center; gap: 0.6rem; }
+.guardian-mark {
+  width: 7px; height: 7px; flex: 0 0 auto;
+  border-radius: 50%;
+  background: var(--ember);
+  box-shadow: 0 0 6px color-mix(in oklab, var(--ember) 60%, transparent);
+}
+.guardian-id { font-size: var(--step--1); color: color-mix(in oklab, var(--bone) 88%, var(--bone-dim)); }
+
+.home-foot {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding-top: 0.6rem;
+}
+.home-foot .fine { max-width: 44ch; }
+
+/* --- on-chain ledger --- */
+.onchain { display: flex; flex-direction: column; gap: 1.1rem; }
+.onchain-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
+.onchain-net {
+  font-size: var(--step--1);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid color-mix(in oklab, var(--state) 45%, var(--grain));
+  color: var(--bone);
+  background: color-mix(in oklab, var(--state) 10%, transparent);
+}
+/* Mainnet reads in flare — real value at stake — regardless of the life-state accent. */
+.onchain-net[data-net='main'] {
+  border-color: color-mix(in oklab, var(--flare) 55%, var(--grain));
+  background: color-mix(in oklab, var(--flare) 12%, transparent);
+  color: color-mix(in oklab, var(--bone) 92%, var(--flare));
+}
+
+.onchain-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: clamp(1rem, 0.7rem + 1.4vw, 1.6rem);
+  align-items: start;
+}
+.onchain-addr, .onchain-balance { display: flex; flex-direction: column; gap: 0.5rem; }
+
+.onchain-addr-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+.onchain-addr-val {
+  font-size: var(--step--1);
+  color: color-mix(in oklab, var(--bone) 90%, var(--bone-dim));
+  background: color-mix(in oklab, var(--ironwood) 60%, var(--ironwood-raised));
+  border: var(--line);
+  border-radius: var(--radius);
+  padding: 0.5rem 0.7rem;
+  word-break: break-all;
+}
+.onchain-addr-row .btn { flex: 0 0 auto; }
+.onchain-nosigner { max-width: 52ch; }
+.onchain-nosigner .data { color: var(--state); word-break: break-all; }
+
+.onchain-zec {
+  font-family: var(--font-display);
+  font-size: var(--step-2);
+  color: var(--bone);
+  line-height: 1.05;
+  margin: 0;
+}
+.onchain-zec-num { font-feature-settings: 'tnum' 1; }
+.onchain-zec-unit { font-family: var(--font-body); font-size: var(--step-0); color: var(--bone-dim); }
+.onchain-zec--muted { font-size: var(--step-1); color: var(--bone-dim); }
+.onchain-zat { color: var(--bone-dim); }
+
+.onchain-actions { display: flex; gap: 0.7rem; flex-wrap: wrap; }
+.onchain-fund-note { max-width: 52ch; }
+.onchain-error { margin: 0; }
+
+/* balance + sync sit on one row; sync anchors to the right */
+.onchain-balance-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.onchain-balance-row .onchain-sync { flex: 0 0 auto; }
+
+/* --- Fund this vault: address + scannable QR, both networks --- */
+.fund {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 1.1rem;
+  border-top: var(--border-soft);
+}
+.fund-head { display: flex; flex-direction: column; gap: 0.3rem; }
+.fund-lede {
+  color: color-mix(in oklab, var(--bone) 86%, var(--bone-dim));
+  max-width: 54ch;
+  margin: 0;
+}
+.fund-body {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: clamp(1rem, 0.7rem + 1.4vw, 1.8rem);
+  align-items: start;
+}
+/* A quiet, framed parchment tile — vault-ink modules on archival paper. */
+.qr { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; margin: 0; }
+.qr-frame {
+  padding: 0.7rem;
+  background: var(--bone);
+  border: 1px solid var(--grain);
+  border-radius: var(--radius);
+  box-shadow:
+    inset 0 1px 0 var(--raise),
+    0 1px 8px color-mix(in oklab, black 32%, transparent);
+  line-height: 0;
+}
+.qr-frame svg { display: block; width: 148px; height: 148px; }
+.qr-cap { color: var(--bone-dim); text-align: center; }
+
+.fund-detail { display: flex; flex-direction: column; gap: 0.6rem; min-width: 0; }
+.fund-addr {
+  font-size: var(--step--1);
+  color: color-mix(in oklab, var(--bone) 90%, var(--bone-dim));
+  background: color-mix(in oklab, var(--ironwood) 60%, var(--ironwood-raised));
+  border: var(--line);
+  border-radius: var(--radius);
+  padding: 0.6rem 0.75rem;
+  word-break: break-all;
+  line-height: 1.5;
+  margin: 0;
+}
+.fund-actions { display: flex; gap: 0.7rem; flex-wrap: wrap; }
+.fund-note { max-width: 54ch; }
+@media (max-width: 560px) {
+  .fund-body { grid-template-columns: 1fr; justify-items: center; }
+  .fund-detail { width: 100%; }
+}
+
+/* Sync loading: a calm scanline sweep across the button — the instrument reading the
+   chain, not a spinner. Falls back to the plain disabled state under reduced-motion. */
+.onchain-sync[data-scanning='true'] {
+  position: relative;
+  overflow: hidden;
+  background: var(--ember);
+  border-color: var(--ember);
+  color: var(--bone);
+}
+.onchain-sync[data-scanning='true']::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    100deg,
+    transparent 20%,
+    color-mix(in oklab, var(--bone) 40%, transparent) 50%,
+    transparent 80%
+  );
+  transform: translateX(-100%);
+  animation: onchain-scan 1.6s var(--ease) infinite;
+}
+@keyframes onchain-scan {
+  to { transform: translateX(100%); }
+}
+
+/* =============================================================== RELEASE == */
+.release { display: flex; flex-direction: column; gap: clamp(1.2rem, 0.9rem + 1.4vw, 2rem); }
+.release-head { display: flex; flex-direction: column; gap: 0.6rem; align-items: flex-start; }
+.release-title { font-size: var(--step-3); letter-spacing: -0.01em; }
+
+.release-body {
+  display: grid;
+  grid-template-columns: minmax(260px, 320px) 1fr;
+  gap: clamp(1.4rem, 1rem + 2vw, 3rem);
+  align-items: start;
+}
+
+/* --- the seal (SIGNATURE 2) --- */
+.seal-stage { display: flex; flex-direction: column; align-items: center; gap: 1rem; }
+.seal-wrap { position: relative; width: min(260px, 78vw); aspect-ratio: 1; }
+.seal { display: block; width: 100%; height: 100%; overflow: visible; }
+/* The iron band, unlit: cold iron (char), visible against the wood. */
+.seal-base { fill: none; stroke: var(--char); stroke-width: 1; opacity: 0.6; }
+.seal-arc {
+  fill: none;
+  stroke: var(--char);
+  stroke-width: 13;
+  stroke-linecap: round;
+  transition: stroke 500ms var(--ease), filter 500ms var(--ease);
+}
+/* Each approval catches fire (ember); the closed band glows hottest (flare);
+   a refused band goes cold (char) — the fire dies. */
+.seal-arc[data-lit='true'] {
+  stroke: var(--ember);
+  filter: drop-shadow(0 0 8px color-mix(in oklab, var(--ember) 65%, transparent));
+}
+.seal[data-closed='true'] .seal-arc {
+  stroke: var(--flare);
+  filter: drop-shadow(0 0 12px color-mix(in oklab, var(--flare) 70%, transparent));
+}
+.seal[data-refused='true'] .seal-arc[data-lit='true'] { stroke: var(--char); }
+.seal-inner {
+  fill: none;
+  stroke: transparent;
+  stroke-width: 1;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+.seal[data-closed='true'] .seal-inner {
+  stroke: color-mix(in oklab, var(--flare) 45%, transparent);
+  animation: seal-close 800ms var(--ease);
+}
+@keyframes seal-close {
+  from { transform: scale(0.55); opacity: 0; }
+  60% { opacity: 1; }
+  to { transform: scale(1); opacity: 1; }
+}
+.seal-center {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  pointer-events: none;
+}
+.seal-count {
+  font-size: clamp(2rem, 1.4rem + 2.5vw, 2.8rem);
+  color: var(--bone);
+  line-height: 1;
+}
+.seal[data-closed='true'] ~ .seal-center .seal-count,
+.seal-wrap[data-closed='true'] .seal-count { color: var(--flare); }
+.seal-wrap[data-refused='true'] .seal-count { color: var(--char); }
+.seal-sep { color: var(--bone-dim); margin-inline: 0.15rem; }
+.seal-word { color: var(--bone-dim); }
+.seal-wrap[data-closed='true'] .seal-word { color: var(--flare); }
+.seal-wrap[data-refused='true'] .seal-word { color: var(--char); }
+.seal-caption { font-size: var(--step--1); color: var(--bone-dim); text-align: center; min-height: 1.4em; }
+.seal-caption[data-phase='waiting'] { color: var(--state); }
+.seal-caption[data-phase='authorized'] { color: var(--flare); }
+.seal-caption[data-phase='refused'],
+.seal-caption[data-phase='timeout'],
+.seal-caption[data-phase='unmet'] { color: var(--char); }
+
+.release-controls { display: flex; flex-direction: column; gap: 1.1rem; }
+.release-state strong { text-transform: capitalize; }
+.release-state strong[data-state='active'] { color: var(--ember); }
+.release-state strong[data-state='waning'] { color: var(--flare); }
+.release-state strong[data-state='recoverable'] { color: var(--char); }
+.release-actions { display: flex; flex-direction: column; gap: 0.7rem; }
+.release-actions .btn--primary,
+.release-actions > .btn:not(.release-sim) { width: 100%; }
+.release-hint { max-width: 44ch; }
+.release-sim { align-self: flex-start; color: var(--bone-dim); }
+.release-sim:hover { color: var(--state); }
+
+.outcome { display: flex; flex-direction: column; gap: 0.6rem; padding-top: 0.4rem; }
+.outcome-grave { font-family: var(--font-display); font-size: var(--step-1); color: var(--bone); margin: 0; }
+/* The aggregated signature — a precious cryptographic engraving, in the demoted
+   brass, faint (see DESIGN.md: brass survives only as a faint secondary line). */
+.sig {
+  font-family: var(--font-mono);
+  font-size: var(--step--1);
+  color: var(--brass-faint);
+  background: color-mix(in oklab, var(--brass-faint) 10%, var(--ironwood-raised));
+  border: 1px solid color-mix(in oklab, var(--brass-faint) 40%, var(--grain));
+  border-radius: var(--radius);
+  padding: 0.75rem 0.85rem;
+  word-break: break-all;
+  line-height: 1.6;
+}
+.outcome-meta { display: flex; align-items: baseline; gap: 0.5rem; }
+.outcome-meta .data { font-size: var(--step--1); color: var(--bone); }
+
+/* ---------------------------------------------------- copy affordance --- */
+.btn[data-copied='true'] {
+  border-color: var(--ember);
+  color: var(--ember);
+  background: color-mix(in oklab, var(--ember) 12%, transparent);
+}
+
+/* ============================================================= GUARDIANS == */
+.guardians { display: flex; flex-direction: column; gap: clamp(1.1rem, 0.8rem + 1.4vw, 1.8rem); max-width: 760px; }
+.guardians-head { display: flex; flex-direction: column; gap: 0.6rem; align-items: flex-start; }
+.guardians-title { font-size: var(--step-3); letter-spacing: -0.01em; }
+.guardians-id { display: flex; align-items: baseline; gap: 0.6rem; margin-top: 0.2rem; }
+.guardians-id-val { font-size: var(--step-0); color: var(--bone); }
+.guardians-empty-actions { display: flex; gap: 0.7rem; flex-wrap: wrap; margin-top: 0.9rem; }
+.guardians-note { display: flex; flex-direction: column; gap: 0.4rem; }
+.guardians-note .fine .data { color: var(--state); }
+.guardians-foot { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; padding-top: 0.4rem; }
+.guardians-foot .fine { max-width: 40ch; }
+
+.enroll-rows { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.9rem; counter-reset: none; }
+.enroll-row { display: flex; flex-direction: column; gap: 0.85rem; }
+.enroll-row-head { display: flex; align-items: center; gap: 0.8rem; }
+.enroll-index {
+  flex: 0 0 auto;
+  width: 1.9rem; height: 1.9rem;
+  display: inline-flex; align-items: center; justify-content: center;
+  border: 1px solid color-mix(in oklab, var(--state) 45%, var(--grain));
+  border-radius: 50%;
+  color: var(--state);
+  font-size: var(--step--1);
+}
+.enroll-who { display: flex; flex-direction: column; gap: 0.05rem; }
+.enroll-guardian-id { font-size: var(--step-0); color: var(--bone); }
+
+.enroll-link-field { gap: 0.4rem; }
+.enroll-link-row { display: flex; gap: 0.6rem; align-items: stretch; flex-wrap: wrap; }
+.enroll-link-input { flex: 1 1 320px; min-width: 0; }
+.enroll-link-input:focus { outline: none; border-color: var(--ember); box-shadow: 0 0 0 3px color-mix(in oklab, var(--ember) 22%, transparent); }
+.enroll-link-row .btn { flex: 0 0 auto; }
+
+.enroll-reveal { display: flex; flex-direction: column; gap: 0.7rem; align-items: flex-start; }
+.enroll-reveal-toggle { color: var(--bone-dim); }
+.enroll-reveal-toggle:hover { color: var(--state); }
+.enroll-raw { display: flex; flex-direction: column; gap: 0.6rem; width: 100%; align-items: flex-start; }
+.enroll-raw-json {
+  width: 100%;
+  margin: 0;
+  max-height: 200px;
+  overflow: auto;
+  padding: 0.75rem 0.85rem;
+  background: color-mix(in oklab, var(--ironwood) 60%, var(--ironwood-raised));
+  border: var(--line);
+  border-radius: var(--radius);
+  font-size: var(--step--1);
+  line-height: 1.5;
+  color: color-mix(in oklab, var(--bone) 86%, var(--bone-dim));
+  white-space: pre;
+  word-break: normal;
+}
+
+/* ---------------------------------------------------------- responsive --- */
+@media (max-width: 760px) {
+  .ledger { grid-template-columns: 1fr; }
+  .onchain-grid { grid-template-columns: 1fr; }
+  .release-body { grid-template-columns: 1fr; }
+  .seal-stage { order: -1; }
+  .monitor-sub { text-align: left; }
+  .enroll-link-input { flex-basis: 100%; }
+  .enroll-link-row .btn { width: 100%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chip-dot, .pulse-track, .pulse-glow, .seal-inner, .onchain-sync[data-scanning='true']::after { animation: none !important; }
+  .onchain-sync[data-scanning='true']::after { display: none; }
+}

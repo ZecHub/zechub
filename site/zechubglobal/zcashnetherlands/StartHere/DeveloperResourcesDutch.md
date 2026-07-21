@@ -22,7 +22,7 @@ Begrip opbouwen van hoe afhankelijkheden worden beoordeeld en onderhouden door d
 
 [Adrescodering](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys)
 
-[Zcashd Main Pull Requests]() / [Zebrad Main Pull Requests](https://github.com/ZcashFoundation/zebra/pulls)
+[Zcashd Main Pull Requests](https://github.com/zcash/zcash/pulls) / [Zebrad Main Pull Requests](https://github.com/ZcashFoundation/zebra/pulls)
 
 [Cryptografische handtekeningbibliotheken](https://github.com/orgs/ZcashFoundation/repositories?type=all)
 
@@ -30,7 +30,7 @@ Begrip opbouwen van hoe afhankelijkheden worden beoordeeld en onderhouden door d
 
 [Het boomgaardboek](https://zcash.github.io/orchard/)
 
-[Halokrat]() / [Boomgaardkrat](https://docs.rs/orchard/latest/orchard/)
+[Halokrat](https://docs.rs/halo2_proofs/latest/halo2_proofs/) / [Boomgaardkrat](https://docs.rs/orchard/latest/orchard/)
 
 [Zcash R&D Discord](https://discord.com/invite/xRVCHQT6)
 

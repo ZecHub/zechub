@@ -1,0 +1,42 @@
+[package]
+name = "steward-guardian-wasm"
+description = "Steward browser-guardian core (WASM): passphrase keystore + re-randomized FROST round1/round2, byte-compatible with the coordinator wire protocol. The guardian's secret share never leaves the device."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+# The tested FROST crypto we wrap (keygen types, re-randomized signing). Pure Rust,
+# compiles to wasm32-unknown-unknown.
+steward-core = { path = "../steward-core" }
+
+# WASM bindings.
+wasm-bindgen = "0.2"
+serde-wasm-bindgen = "0.6"
+
+serde = { workspace = true }
+serde_json = { workspace = true }
+hex = { workspace = true }
+
+# RNG. `steward_core::sign::commit` needs an `OsRng`; on wasm32-unknown-unknown that
+# is backed by getrandom, which needs its `js` feature turned on (crypto.getRandomValues).
+# rand 0.8 pulls getrandom 0.2 but does NOT enable `js`; declaring getrandom directly
+# with `js` turns it on for the shared instance (feature unification). getrandom is also
+# used directly for the keystore salt/nonce.
+rand = { workspace = true }
+getrandom = { version = "0.2", features = ["js"] }
+
+# Pure-Rust AEAD keystore: argon2id(passphrase) -> XChaCha20-Poly1305 seal of the share.
+argon2 = "0.5"
+chacha20poly1305 = "0.10"
+zeroize = "1"
+
+[dev-dependencies]
+rand = { workspace = true }
+# Host-only (never compiled for wasm — wasm-pack does not build dev-deps). Used by the
+# host test to prove the guardian's output deserializes as the REAL coordinator `Message`
+# and to co-sign a full ceremony driven by the actual coordinator over its InProcessRelay.
+steward-coordinator = { path = "../steward-coordinator" }

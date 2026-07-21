@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif">
+  <defs>
+    <style>
+      .title { font-size: 22px; font-weight: 700; fill: #1a1a1a; }
+      .subtitle { font-size: 12px; fill: #666; }
+      .label { font-size: 13px; fill: #1a1a1a; font-weight: 600; }
+      .small { font-size: 11px; fill: #444; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; fill: #1a1a1a; }
+      .yellow { fill: #f4b728; }
+      .yellow-soft { fill: #f4b728; fill-opacity: 0.15; }
+      .gray { fill: #e5e7eb; }
+      .gray-soft { fill: #e5e7eb; fill-opacity: 0.4; }
+      .green-soft { fill: #16a34a; fill-opacity: 0.1; }
+      .blue-soft { fill: #3b82f6; fill-opacity: 0.08; }
+      .border { fill: none; stroke: #d4d4d8; stroke-width: 1.5; }
+      .border-strong { fill: none; stroke: #1a1a1a; stroke-width: 1.5; }
+      .arrow { stroke: #1a1a1a; stroke-width: 1.5; fill: none; marker-end: url(#a); }
+      .arrow-dashed { stroke: #1a1a1a; stroke-width: 1.5; fill: none; stroke-dasharray: 4 3; marker-end: url(#a); }
+    </style>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1a1a1a"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text class="title" x="500" y="32" text-anchor="middle">SIWZ · Sign in with Zcash</text>
+  <text class="subtitle" x="500" y="52" text-anchor="middle">The auth primitive Zcash didn't have. Three sign-in flows, one verifier.</text>
+
+  <!-- Wallet (user side, left) -->
+  <rect class="yellow-soft border" x="40" y="100" width="220" height="240" rx="8"/>
+  <text class="label" x="150" y="125" text-anchor="middle">User's Zcash wallet</text>
+  <text class="small" x="150" y="142" text-anchor="middle">Zodl · Zingo · YWallet · Zodl ·</text>
+  <text class="small" x="150" y="156" text-anchor="middle">eZcash · Zenith · zcash-cli · …</text>
+
+  <rect class="gray-soft border" x="60" y="180" width="180" height="42" rx="5"/>
+  <text class="small" x="150" y="198" text-anchor="middle" font-weight="600">A. signmessage</text>
+  <text class="small" x="150" y="214" text-anchor="middle">paste signature back</text>
+
+  <rect class="gray-soft border" x="60" y="232" width="180" height="42" rx="5"/>
+  <text class="small" x="150" y="250" text-anchor="middle" font-weight="600">B. shielded send + memo</text>
+  <text class="small" x="150" y="266" text-anchor="middle">scan ZIP 321 QR → confirm</text>
+
+  <rect class="gray-soft border" x="60" y="284" width="180" height="42" rx="5"/>
+  <text class="small" x="150" y="302" text-anchor="middle" font-weight="600">C. MetaMask + Zcash Snap</text>
+  <text class="small" x="150" y="318" text-anchor="middle">permission-grant only</text>
+
+  <!-- App (middle) -->
+  <rect class="yellow-soft border-strong" x="340" y="100" width="320" height="500" rx="8"/>
+  <text class="label" x="500" y="125" text-anchor="middle">Your app (e.g. ZBooks, comments wall, anything)</text>
+  <text class="small" x="500" y="142" text-anchor="middle">Next.js / NextAuth · runs anywhere</text>
+
+  <!-- @siwz/react -->
+  <rect class="green-soft border" x="360" y="170" width="280" height="60" rx="5"/>
+  <text class="label" x="500" y="190" text-anchor="middle">@siwz/react</text>
+  <text class="mono" x="500" y="208" text-anchor="middle">&lt;SignInWithZcash /&gt;  &lt;MemoSignIn /&gt;</text>
+  <text class="small" x="500" y="222" text-anchor="middle">drop-in components · QR · paste · poll</text>
+
+  <!-- @siwz/next-auth -->
+  <rect class="green-soft border" x="360" y="248" width="280" height="60" rx="5"/>
+  <text class="label" x="500" y="268" text-anchor="middle">@siwz/next-auth</text>
+  <text class="mono" x="500" y="286" text-anchor="middle">SiwzProvider(...)  issueNonce()</text>
+  <text class="small" x="500" y="300" text-anchor="middle">credentials provider · stateless nonces</text>
+
+  <!-- @siwz/core -->
+  <rect class="green-soft border" x="360" y="326" width="280" height="80" rx="5"/>
+  <text class="label" x="500" y="346" text-anchor="middle">@siwz/core</text>
+  <text class="mono" x="500" y="364" text-anchor="middle">SiwzMessage · verifyMessage · ZIP 321</text>
+  <text class="mono" x="500" y="378" text-anchor="middle">issueMemoChallenge · verifyMemoChallenge</text>
+  <text class="small" x="500" y="394" text-anchor="middle">protocol primitives · pure TS · 59 tests</text>
+
+  <!-- Explorer dispatcher -->
+  <rect class="blue-soft border" x="360" y="424" width="280" height="156" rx="5"/>
+  <text class="label" x="500" y="444" text-anchor="middle">Explorer dispatcher (your backend)</text>
+  <text class="small" x="500" y="462" text-anchor="middle">picks backend by address type:</text>
+  <text class="mono" x="500" y="486" text-anchor="middle">t1… → BlockchairExplorer</text>
+  <text class="small" x="500" y="500" text-anchor="middle">public API · zero infra · transparent</text>
+  <text class="mono" x="500" y="524" text-anchor="middle">zs… / u1… → LightwalletExplorer</text>
+  <text class="small" x="500" y="538" text-anchor="middle">decrypts memos with IVK · privacy-preserving</text>
+  <text class="mono" x="500" y="562" text-anchor="middle">tests → MockExplorer</text>
+  <text class="small" x="500" y="576" text-anchor="middle">DEMO mode · no chain needed for CI</text>
+
+  <!-- Chain side (right) -->
+  <rect class="yellow-soft border" x="740" y="100" width="220" height="240" rx="8"/>
+  <text class="label" x="850" y="125" text-anchor="middle">Zcash network (mainnet)</text>
+  <text class="small" x="850" y="142" text-anchor="middle">where the proof actually lands</text>
+
+  <rect class="gray-soft border" x="760" y="180" width="180" height="42" rx="5"/>
+  <text class="small" x="850" y="198" text-anchor="middle" font-weight="600">transparent tx</text>
+  <text class="small" x="850" y="214" text-anchor="middle">amount = nonce · publicly visible</text>
+
+  <rect class="gray-soft border" x="760" y="232" width="180" height="42" rx="5"/>
+  <text class="small" x="850" y="250" text-anchor="middle" font-weight="600">shielded tx + memo</text>
+  <text class="small" x="850" y="266" text-anchor="middle">memo = SIWZ:nonce · encrypted</text>
+
+  <rect class="gray-soft border" x="760" y="284" width="180" height="42" rx="5"/>
+  <text class="small" x="850" y="302" text-anchor="middle" font-weight="600">no on-chain artifact</text>
+  <text class="small" x="850" y="318" text-anchor="middle">snap signs the dApp permission grant</text>
+
+  <!-- Block explorer / daemon -->
+  <rect class="blue-soft border" x="740" y="380" width="220" height="100" rx="8"/>
+  <text class="label" x="850" y="402" text-anchor="middle">Verifier backend</text>
+  <text class="small" x="850" y="420" text-anchor="middle">public Blockchair API (transparent),</text>
+  <text class="small" x="850" y="436" text-anchor="middle">or your zcashd/zingo-cli over RPC</text>
+  <text class="small" x="850" y="454" text-anchor="middle">(shielded · needs IVK)</text>
+
+  <!-- Arrows -->
+  <!-- User → app (sign-in flows) -->
+  <path class="arrow" d="M 260 200 L 360 200"/>
+  <path class="arrow" d="M 260 252 L 360 268"/>
+  <path class="arrow" d="M 260 304 L 360 364"/>
+
+  <!-- App → chain (tx submission via user wallet) -->
+  <path class="arrow-dashed" d="M 240 250 Q 500 60 760 200"/>
+  <text class="small" x="500" y="80" text-anchor="middle">user broadcasts the tx from their wallet</text>
+
+  <!-- App → verifier backend -->
+  <path class="arrow" d="M 640 500 Q 720 480 760 430"/>
+  <text class="small" x="700" y="495" text-anchor="end">poll for tx</text>
+
+  <!-- Chain → verifier backend -->
+  <path class="arrow" d="M 850 340 L 850 380"/>
+
+  <!-- Footer -->
+  <text class="small" x="500" y="650" text-anchor="middle">
+    The verifier never sees a private key. A signed message OR a paid tx is sufficient proof of address ownership.
+  </text>
+  <text class="small" x="500" y="668" text-anchor="middle">
+    Apps consume SIWZ as 3 npm packages. Transparent sign-in needs zero new server-side software; the public Blockchair API is enough.
+  </text>
+  <text class="small" x="500" y="690" text-anchor="middle" font-style="italic">
+    Built for the Zechub hackathon · MIT licensed · siwz.dev/spec
+  </text>
+</svg>

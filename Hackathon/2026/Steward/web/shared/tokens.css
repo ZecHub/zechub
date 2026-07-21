@@ -1,0 +1,117 @@
+/* Steward shared design tokens — "Ironwood".
+   A warm, PHYSICAL, heirloom instrument — a wooden vault / heirloom safe, not a
+   fintech app. Deliberately distinct from ZecAuth's cold signature (near-black +
+   gold + IBM Plex Mono + horizontal ledger hairlines): here the ground is warm
+   ironwood, the hero is oxblood/ember, the texture is wood-grain, the data font is
+   Space Mono, and labels are engraved small-caps serif — none of ZecAuth's tells.
+   See web/DESIGN.md. Both apps import this; never hardcode palette values. */
+
+:root {
+  /* Palette — Ironwood (warm) */
+  --ironwood: #1A1411;         /* base — warm brown-black (NOT cold near-black) */
+  --ironwood-raised: #241B15;  /* raised surfaces / cards — warmer wood */
+  --grain: #3B2D23;            /* wood-grain lines, borders, dividers */
+  --bone: #ECE1D0;             /* primary text — warm bone */
+  --bone-dim: #AB9884;         /* secondary text, captions — warm taupe */
+  --ember: #C05C3C;            /* HERO — rust/ember */
+  --flare: #E0913F;            /* waning — hotter, guttering flame */
+  --char: #6A625B;             /* recoverable — the hearth gone cold */
+  --brass-faint: #997643;      /* brass DEMOTED to a faint secondary line only */
+
+  /* Ambient state accent — set by data-state on a root element. The hearth metaphor:
+     LIT (ember) → GUTTERING (flare) → GONE COLD (char). */
+  --state: var(--ember);
+  --state-soft: color-mix(in oklab, var(--state) 15%, transparent);
+
+  /* Type — Fraunces (display) + Instrument Sans (body) + Space Mono (data, NOT Plex) */
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Instrument Sans", system-ui, sans-serif;
+  --font-mono: "Space Mono", ui-monospace, monospace;
+
+  /* Type scale (fluid) */
+  --step--1: clamp(0.78rem, 0.75rem + 0.15vw, 0.86rem);
+  --step-0: clamp(0.95rem, 0.9rem + 0.25vw, 1.05rem);
+  --step-1: clamp(1.2rem, 1.1rem + 0.5vw, 1.5rem);
+  --step-2: clamp(1.6rem, 1.4rem + 1vw, 2.3rem);
+  --step-3: clamp(2.2rem, 1.8rem + 2.4vw, 3.8rem);
+  --step-4: clamp(3rem, 2.2rem + 4vw, 6rem);
+
+  /* Space / radius / motion — softer, more physical than a fintech grid */
+  --gap: clamp(1rem, 0.8rem + 1vw, 2rem);
+  --radius: 3px;      /* tight, like a chamfered wooden edge */
+  --radius-lg: 8px;
+  --line: 1px solid var(--grain);
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --pulse-period: 1.6s;
+}
+
+/* Vault life-state — the hearth. */
+[data-state="active"] { --state: var(--ember); }
+[data-state="waning"] { --state: var(--flare); }
+[data-state="recoverable"] { --state: var(--char); }
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--ironwood);
+  color: var(--bone);
+  font-family: var(--font-body);
+  font-size: var(--step-0);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3 { font-family: var(--font-display); font-weight: 500; line-height: 1.05; margin: 0; }
+
+/* The structural motif — WOOD-GRAIN (replaces ZecAuth's horizontal ledger hairlines).
+   Subtle warm vertical grain from irregular streaks + a low warm hearth-glow from the
+   top. Apply to a fixed full-bleed layer behind content. Keep it quiet. */
+.woodgrain {
+  background-color: var(--ironwood);
+  background-image:
+    radial-gradient(120% 70% at 50% -8%, color-mix(in oklab, var(--ember) 5%, transparent), transparent 60%),
+    repeating-linear-gradient(91deg,
+      transparent 0 56px,
+      color-mix(in oklab, var(--grain) 12%, transparent) 56px 57px,
+      transparent 57px 112px),
+    repeating-linear-gradient(89.4deg,
+      transparent 0 170px,
+      color-mix(in oklab, #000 7%, transparent) 170px 172px,
+      transparent 172px 360px),
+    repeating-linear-gradient(90.6deg,
+      transparent 0 31px,
+      color-mix(in oklab, var(--bone) 1%, transparent) 31px 32px,
+      transparent 32px 82px);
+}
+
+/* Cryptographic ledger material: ids, thresholds, hashes, countdowns — Space Mono. */
+.mono, code, kbd, time, .data {
+  font-family: var(--font-mono);
+  font-feature-settings: "tnum" 1;
+  letter-spacing: -0.02em;   /* Space Mono runs wide; pull it in a touch */
+}
+
+/* Eyebrow / label — ENGRAVED into the wood: small-caps Fraunces with a faint inset
+   shadow. Not ZecAuth's mono-uppercase-letterspaced eyebrow. */
+.eyebrow {
+  font-family: var(--font-display);
+  font-size: var(--step-0);
+  font-weight: 600;
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  line-height: 1;
+  color: var(--bone-dim);
+  text-shadow: 0 1px 0 color-mix(in oklab, #000 45%, transparent);
+}
+
+:where(a, button, [tabindex]):focus-visible {
+  outline: 2px solid var(--ember);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
+}

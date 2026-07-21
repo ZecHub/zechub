@@ -1,0 +1,47 @@
+# Rust — match target/ at ANY depth (steward-signer is a nested workspace)
+target/
+**/*.rs.bk
+Cargo.lock.orig
+
+# steward-signer no-node sync artifacts — the local WalletDb + any cached blocks.
+# Never commit wallet data. (`--data-dir` defaults to ./steward-signer-data.)
+steward-signer-data/
+**/steward-signer-data/
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.pczt
+# NOTE: Cargo.lock IS committed — crates/steward-signer pins yanked halo2/core2 0.3
+# deps that only resolve from a committed lock (a fresh generate-lockfile fails).
+
+# Node / web
+node_modules/
+web/*/dist/
+web/*/build/
+.vite/
+
+# WASM build output (wasm-pack) — `pkg/` matches at any depth; the guardian-core
+# output dir is spelled out for clarity. These are build artifacts, never committed.
+pkg/
+web/guardian-core/pkg/
+
+# Steward coordinator persisted vault state. PUBLIC config only (no secret shares),
+# but still your vaults' config — never commit it. STEWARD_DATA_DIR overrides the path.
+steward-coordinator-data/
+**/steward-coordinator-data/
+
+# Secrets / local config — NEVER commit vault shares or keys
+*.pem
+*.key
+.env
+.env.*
+*.frost.toml
+vault-*.json
+guardian-*.json
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/

@@ -1,0 +1,86 @@
+[package]
+name = "pepper-sync"
+description = "Pepper-sync is a crate providing a sync engine for the zcash network."
+authors = ["<zingo@zingolabs.org>"]
+version = "0.3.0"
+edition = "2024"
+repository = "https://github.com/zingolabs/zingolib"
+homepage = "https://github.com/zingolabs/zingolib"
+license = "MIT"
+
+[badges]
+maintenance = { status = "actively-developed" }
+
+[features]
+default = ["wallet_essentials"]
+# utility not necessary for the sync engine but essential for wallets using pepper_sync::primitives for wallet functionality
+wallet_essentials = ["dep:byteorder", "dep:zcash_encoding"]
+# removes failing calls to `GetSubTreeRoots` in darkside testing
+darkside_test = []
+# exposes test constructors for wallet types
+test-features = []
+
+[dependencies]
+# Zingo
+zingo-memo.workspace = true
+zingo-status.workspace = true
+
+# Zingo-common
+zingo-netutils.workspace = true
+
+# Zcash
+incrementalmerkletree.workspace = true
+orchard.workspace = true
+sapling-crypto.workspace = true
+shardtree.workspace = true
+zcash_address.workspace = true
+zcash_client_backend = { workspace = true, features = [
+    "unstable-serialization",
+] }
+zcash_encoding = { workspace = true, optional = true }
+zcash_keys.workspace = true
+zcash_note_encryption.workspace = true
+zcash_primitives.workspace = true
+zcash_protocol.workspace = true
+zcash_transparent.workspace = true
+
+# Protocol
+bip32.workspace = true
+zip32.workspace = true
+
+# Cryptography
+jubjub.workspace = true
+subtle.workspace = true
+
+# Async
+futures.workspace = true
+tokio.workspace = true
+
+# Client
+tonic.workspace = true
+
+# Logging
+tracing.workspace = true
+
+# Metrics
+memuse.workspace = true
+
+# Parallel processing
+crossbeam-channel.workspace = true
+rayon.workspace = true
+
+# Error handling
+thiserror.workspace = true
+
+# JSON
+json.workspace = true
+
+# Serialization
+byteorder = { workspace = true, optional = true }
+hex.workspace = true
+
+# Documentation
+simple-mermaid.workspace = true
+
+[dev-dependencies]
+zcash_protocol = { workspace = true, features = [ "local-consensus"] }

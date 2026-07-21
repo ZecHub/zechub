@@ -1,0 +1,25 @@
+# Penumbra 
+
+Penumbra existe para ser una red de capa 1 de vanguardia, completamente blindada, que compite en el ecosistema Cosmos. Permite a sus usuarios realizar transacciones de forma segura, hacer staking e intercambiar tokens, y proveer liquidez sin revelar sus metadatos on-chain. Como una blockchain completamente blindada, también ofrece transacciones blindadas en la web sin comprometer la privacidad ni la descentralización: Penumbra tiene privacidad por defecto, sin transacciones transparentes ni un pool de valor transparente.
+
+![image.png](https://drive.google.com/file/d/16CcFQ1ZhG_pi4ENQuhFKPwN-J1diELRX/view?usp=drive_link)
+
+## Tecnología utilizada en Penumbra IBC 
+
+Integración de IBC: Llegando con fuerza en el primer puesto está el protocolo Inter-Blockchain Communication (IBC), una tecnología innovadora y revolucionaria que facilita las operaciones de Penumbra. Es crucial para mejorar la interoperabilidad dentro de la red. IBC también funciona permitiendo que diferentes redes blockchain se comuniquen e intercambien datos. Además, IBC desempeña un papel clave al facilitar transferencias fluidas de activos, intercambio de datos e interacción entre Penumbra. Esta interoperabilidad y tecnología ayudan a los usuarios a mover tokens y activos a través de varias blockchains sin complicaciones. Por otro lado, IBC también contribuye a la escalabilidad, mejorando las transacciones rápidas, optimizando el rendimiento y reduciendo la latencia en la red de Penumbra.
+
+Pruebas de conocimiento cero (ZKPs): Penumbra aprovecha la tecnología criptográfica de pruebas de conocimiento cero para garantizar que todas las transacciones sean verificadas y validadas sin revelar ningún detalle, como el remitente, el destinatario o la cantidad transferida.
+
+![image.png](https://drive.google.com/file/d/1BxY5PlHBdV5iwZDgi86Z4Jz6CEesSjvO/view?usp=drive_link)
+
+Exchange descentralizado con privacidad: En el núcleo de la red Panumbra está la privacidad. La red puede aprovechar un mecanismo de exchange descentralizado que fomenta la privacidad de las operaciones y transacciones cripto, al mismo tiempo que protege los datos financieros y otorga a los usuarios el derecho de controlar la divulgación de sus estrategias de trading.
+
+## Casos de uso
+
+Transacción segura: Penumbra permite a los usuarios experimentar con transacciones blindadas en cualquier activo cripto. Dado que Penumbra es una blockchain completamente blindada, permite a los usuarios realizar transacciones de forma privada, protegiendo al remitente, al destinatario, la cantidad y los tipos de activos a medida que se mueven entre cadenas; garantiza que las transacciones sean privadas y que no puedan rastrearse ni descifrarse sin el permiso del usuario. Vale la pena mencionar que cada dirección de Penumbra admite capacidad de visualización; esta funcionalidad permite a los usuarios optar por revelar su actividad a terceros que autoricen por motivos de cumplimiento u otras razones. Curiosamente, las transacciones de Penumbra operan a la velocidad de la luz con bajas comisiones de transacción. Gracias al consenso de prueba de participación. 
+
+Staking: A vista de pájaro, Penumbra quiere mantenerse en la cima de la cadena alimentaria. Al ser la primera red de prueba de participación blindada del mundo, su único propósito es garantizar privacidad para los delegadores y responsabilidad para los validadores. Otra característica intrigante que ofrece Penumbra es el token de staking PEN, que asegura la red y al mismo tiempo otorga a los poseedores del token el derecho a participar en la gobernanza del proyecto mediante procesos de votación on-chain. Cada delegado en la red recibe un token nativo conocido como dPEN. Para que lo sepas, los dPEN se registran en los pools blindados y pueden intercambiarse como cualquier otro activo. Desde el lado de la gobernanza on-chain, el futuro de la red está en manos de las partes interesadas, ya que votan propuestas y participan en la toma de decisiones mientras garantizan que el proyecto no esté controlado por una entidad centralizada. 
+
+Intercambio de tokens: El intercambio de tokens es otro caso de uso de Penumbra. La red admite intercambios blindados entre cualquier tipo de activo cripto: al enviarse, ¡todos los intercambios quedan sellados! Al aprovechar ZSwap, los usuarios pueden intercambiar cualquier par de activos cripto sin revelar detalles sensibles como el historial de trading o las marcas de tiempo, lo que potencialmente puede ayudar a combatir el fraude financiero. Mientras que el Maximal Extractable Value (MEV) es sinónimo de las cadenas transparentes, las cadenas completamente blindadas como Penumbra no tienen MEV, ya que las transacciones de la red no filtran datos sobre la actividad de los usuarios.
+
+Creación de mercado: La cadena completamente blindada, Penumbra, da a los creadores de mercado el control para divulgar información sobre sus estrategias y características de trading, en lugar de revelar toda su actividad al mundo.

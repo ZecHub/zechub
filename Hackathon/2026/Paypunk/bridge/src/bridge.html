@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paypunk Bridge</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #1a1a2e;
+      color: #e0e0e0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      display: flex;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem 1rem;
+    }
+    #app {
+      max-width: 600px;
+      width: 100%;
+      text-align: center;
+    }
+    h1 {
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      color: #e0e0e0;
+    }
+    #status {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.6rem;
+      margin-bottom: 1.5rem;
+      font-size: 1rem;
+    }
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      display: inline-block;
+      flex-shrink: 0;
+    }
+    .dot.grey { background: #555; }
+    .dot.green { background: #4caf50; }
+    .dot.red { background: #f44336; }
+    #qr-area {
+      background: #16213e;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    #qr-image {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    #camera-area {
+      margin-bottom: 1.5rem;
+    }
+    #video {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 12px;
+      display: block;
+      margin: 0 auto;
+    }
+    #error {
+      background: #3e1a1a;
+      color: #ff6b6b;
+      padding: 0.8rem 1rem;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      font-size: 0.9rem;
+    }
+    .info {
+      color: #888;
+      font-size: 0.85rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <h1>Paypunk Bridge</h1>
+    <div id="status">
+      <span id="status-dot" class="dot grey"></span>
+      <span id="status-text">Waiting for request...</span>
+    </div>
+    <div id="error" style="display:none"></div>
+    <div id="qr-area" style="display:none">
+      <img id="qr-image" src="">
+    </div>
+    <div id="camera-area" style="display:none">
+      <video id="video" autoplay playsinline></video>
+      <canvas id="canvas" style="display:none"></canvas>
+    </div>
+    <div class="info">Point your mobile device's camera at the QR code above to sign the transaction.</div>
+  </div>
+  <script src="/jsqr.js"></script>
+  <script>
+    let scanning = false;
+    let wasPending = false;
+
+    async function pollStatus() {
+      try {
+        const resp = await fetch('/status');
+        const data = await resp.json();
+        const dot = document.getElementById('status-dot');
+        const text = document.getElementById('status-text');
+        const errorDiv = document.getElementById('error');
+        const qrArea = document.getElementById('qr-area');
+        const cameraArea = document.getElementById('camera-area');
+        const qrImage = document.getElementById('qr-image');
+
+        if (data.pending) {
+          if (!wasPending) {
+            wasPending = true;
+            errorDiv.style.display = 'none';
+            qrImage.src = '/qr.svg?t=' + Date.now();
+            qrArea.style.display = 'block';
+            cameraArea.style.display = 'block';
+            text.textContent = 'Scan the QR code with your mobile device';
+            dot.className = 'dot green';
+            startCamera();
+          }
+        } else {
+          if (wasPending) {
+            wasPending = false;
+            stopCamera();
+            qrArea.style.display = 'none';
+            cameraArea.style.display = 'none';
+            text.textContent = 'Waiting for request...';
+            dot.className = 'dot grey';
+          }
+        }
+      } catch (e) {
+        setTimeout(pollStatus, 1000);
+        return;
+      }
+      setTimeout(pollStatus, 500);
+    }
+
+    const video = document.getElementById('video');
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+    let stream = null;
+    let scanTimer = null;
+
+    function onTrackEnded() {
+      if (!scanning) return;
+      stopCamera();
+      document.getElementById('status-text').textContent = 'Camera stopped, restarting...';
+      setTimeout(startCamera, 1000);
+    }
+
+    async function startCamera() {
+      if (scanning) return;
+      scanning = true;
+      try {
+        stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: "environment" } });
+        stream.getTracks().forEach(t => {
+          t.addEventListener('ended', onTrackEnded);
+        });
+        video.srcObject = stream;
+        await video.play();
+        canvas.width = video.videoWidth;
+        canvas.height = video.videoHeight;
+        document.getElementById('status-text').textContent = 'Scan the QR code with your mobile device';
+        document.getElementById('error').style.display = 'none';
+        scanFrame();
+      } catch (e) {
+        document.getElementById('error').textContent = 'Camera error: ' + e.message;
+        document.getElementById('error').style.display = 'block';
+        scanning = false;
+      }
+    }
+
+    function stopCamera() {
+      scanning = false;
+      if (scanTimer) {
+        clearInterval(scanTimer);
+        scanTimer = null;
+      }
+      if (stream) {
+        stream.getTracks().forEach(t => {
+          t.removeEventListener('ended', onTrackEnded);
+          t.stop();
+        });
+        stream = null;
+      }
+      video.srcObject = null;
+    }
+
+    function scanFrame() {
+      if (!scanning) return;
+      if (video.readyState !== video.HAVE_ENOUGH_DATA) {
+        scanTimer = setTimeout(scanFrame, 100);
+        return;
+      }
+      ctx.drawImage(video, 0, 0);
+      const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+      const code = jsQR(imageData.data, imageData.width, imageData.height);
+      if (code) {
+        sendResponse(code.data);
+        return;
+      }
+      scanTimer = setTimeout(scanFrame, 150);
+    }
+
+    async function sendResponse(base64) {
+      stopCamera();
+      const dot = document.getElementById('status-dot');
+      const text = document.getElementById('status-text');
+      dot.className = 'dot green';
+      text.textContent = 'Sending response...';
+
+      try {
+        const resp = await fetch('/response', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ bytes: base64 })
+        });
+        if (resp.ok) {
+          text.textContent = 'Response sent successfully';
+          dot.className = 'dot green';
+        } else {
+          const err = await resp.json();
+          text.textContent = 'Error: ' + (err.error || 'unknown');
+          dot.className = 'dot red';
+        }
+      } catch (e) {
+        text.textContent = 'Network error: ' + e.message;
+        dot.className = 'dot red';
+      }
+    }
+
+    pollStatus();
+  </script>
+</body>
+</html>

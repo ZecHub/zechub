@@ -1,0 +1,27 @@
+# Zaino configuration for regtest.
+# Mounted into the container at /home/container_user/.config/zaino/zainod.toml.
+
+backend = 'fetch'
+zebra_db_path = '/home/zebra/.cache/zebra'
+network = 'Regtest'
+
+[grpc_settings]
+listen_address = '127.0.0.1:8137'
+
+[validator_settings]
+# Zaino shares Zebra's network namespace (network_mode: service:zebra),
+# so Zebra's RPC is reachable at localhost. Using 127.0.0.1 avoids
+# Zaino's TLS requirement for non-localhost addresses.
+validator_jsonrpc_listen_address = '127.0.0.1:8232'
+
+[service]
+timeout = 30
+channel_size = 32
+
+[storage.cache]
+capacity = 10000
+shard_power = 4
+
+[storage.database]
+path = '/home/container_user/.cache/zaino'
+size = 384

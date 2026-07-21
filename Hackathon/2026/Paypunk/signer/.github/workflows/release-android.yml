@@ -1,0 +1,85 @@
+name: Build and Release Android APK
+
+on:
+  push:
+    tags:
+      - "v*"
+
+env:
+  CARGO_TERM_COLOR: always
+  RUST_BACKTRACE: 1
+
+jobs:
+  build-android:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: >-
+            aarch64-linux-android,
+            armv7-linux-androideabi,
+            i686-linux-android,
+            x86_64-linux-android
+
+      - name: Install Node + pnpm
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install -g pnpm
+
+      - name: Install pnpm dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Decode keystore
+        run: |
+          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > release-key.jks
+
+      - name: Build signed APK
+        run: |
+          cargo tauri android init
+          cargo tauri android build --apk
+        env:
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+          ANDROID_HOME: ${{ env.ANDROID_HOME }}
+          NDK_HOME: ${{ env.NDK_HOME }}
+
+      - name: Compute APK SHA-256
+        run: |
+          APK=$(find src-tauri/gen/android/app/build/outputs/apk -name "*.apk" | head -1)
+          echo "APK: $APK"
+          SHA256=$(sha256sum "$APK" | cut -d' ' -f1)
+          echo "SHA256=$SHA256" >> $GITHUB_ENV
+          echo "APK_PATH=$APK" >> $GITHUB_ENV
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: Release ${{ github.ref_name }}
+          body: |
+            ## PayPunk Signer ${{ github.ref_name }}
+
+            ### APK SHA-256
+            ```
+            ${{ env.SHA256 }}
+            ```
+
+            ### Installation
+            1. Download the APK from this release.
+            2. Verify the SHA-256 checksum.
+            3. Enable "Install unknown apps" on your Android device.
+            4. Open the APK to install.
+          files: ${{ env.APK_PATH }}
+          generate_release_notes: true

@@ -22,7 +22,7 @@ Construire une compréhension de la façon dont les dépendances sont examinées
 
 [Encodage d'adresse](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys)
 
-[Demandes d'extraction principales Zcashd]()/[Demandes d'extraction principales Zebrad](https://github.com/ZcashFoundation/zebra/pulls)
+[Demandes d'extraction principales Zcashd](https://github.com/zcash/zcash/pulls)/[Demandes d'extraction principales Zebrad](https://github.com/ZcashFoundation/zebra/pulls)
 
 [Bibliothèques de signatures cryptographiques](https://github.com/orgs/ZcashFoundation/repositories?type=all)
 
@@ -30,7 +30,7 @@ Construire une compréhension de la façon dont les dépendances sont examinées
 
 [Le livre du verger](https://zcash.github.io/orchard/)
 
-[Halo Crate]()/[Orchard Crate](https://docs.rs/orchard/latest/orchard/)
+[Halo Crate](https://docs.rs/halo2_proofs/latest/halo2_proofs/)/[Orchard Crate](https://docs.rs/orchard/latest/orchard/)
 
 [Zcash R&D Discord](https://discord.com/invite/xRVCHQT6)
 

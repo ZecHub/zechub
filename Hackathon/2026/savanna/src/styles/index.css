@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Mono:wght@400;500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --app-opacity: 0.82; /* controlado pelas configurações */
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+/* A janela do Electron é 100% transparente. O fundo arredondado vive no
+   .app-shell interno, com uma pequena margem, para que os 4 cantos fiquem
+   realmente vazados. Sem box-shadow: a sombra criava um halo retangular. */
+html,
+body {
+  background: transparent;
+}
+
+#root {
+  padding: 8px;
+  box-sizing: border-box;
+  font-family: "Roboto", system-ui, sans-serif;
+}
+
+/* apenas o header arrasta a janela; o resto (scroll, botões) fica livre */
+.drag-region {
+  -webkit-app-region: drag;
+}
+.drag-region button {
+  -webkit-app-region: no-drag;
+}
+
+.app-shell {
+  height: 100%;
+  border-radius: 18px;
+  overflow: hidden;
+  background: rgba(13, 17, 23, var(--app-opacity));
+}
+
+/* toast: entrada e saída */
+@keyframes toastIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+@keyframes toastOut {
+  to {
+    opacity: 0;
+    transform: translateY(8px) scale(0.98);
+  }
+}
+.toast-in {
+  animation: toastIn 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.toast-out {
+  animation: toastOut 0.4s ease forwards;
+}
+
+/* check que se desenha */
+@keyframes drawCheck {
+  from {
+    stroke-dashoffset: 30;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.check-draw path {
+  stroke-dasharray: 30;
+  animation: drawCheck 0.5s ease 0.1s forwards;
+}
+
+/* tela de sucesso: pop suave */
+@keyframes successPop {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.success-pop {
+  animation: successPop 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+  .check-draw path {
+    stroke-dashoffset: 0;
+  }
+}

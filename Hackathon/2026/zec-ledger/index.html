@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ZEC Ledger — Zcash Transaction Accounting Tool</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  :root {
+    --bg: #0f1115;
+    --panel: #171a21;
+    --border: #2a2e38;
+    --text: #e8e9ec;
+    --muted: #9aa0ac;
+    --accent: #f4b728;
+    --green: #4ade80;
+    --red: #f87171;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding: 24px 16px 64px;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; }
+  h1 { font-size: 1.6rem; margin-bottom: 4px; }
+  .subtitle { color: var(--muted); margin-bottom: 24px; font-size: 0.95rem; }
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  label { display: block; font-size: 0.85rem; color: var(--muted); margin-bottom: 6px; }
+  .row { display: flex; gap: 10px; flex-wrap: wrap; }
+  input[type="text"] {
+    flex: 1;
+    min-width: 240px;
+    background: #0d0f14;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 14px;
+    color: var(--text);
+    font-size: 0.95rem;
+  }
+  button {
+    background: var(--accent);
+    color: #111;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.95rem;
+  }
+  button:disabled { opacity: 0.5; cursor: not-allowed; }
+  button.secondary {
+    background: transparent;
+    color: var(--text);
+    border: 1px solid var(--border);
+  }
+  .summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+    margin-top: 16px;
+  }
+  .stat { background: #0d0f14; border: 1px solid var(--border); border-radius: 10px; padding: 14px; }
+  .stat .label { color: var(--muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.04em; }
+  .stat .value { font-size: 1.3rem; font-weight: 700; margin-top: 4px; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+  th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 600; font-size: 0.75rem; text-transform: uppercase; }
+  tr:hover { background: #1c202a; }
+  .in { color: var(--green); }
+  .out { color: var(--red); }
+  .mono { font-family: "SF Mono", Consolas, monospace; font-size: 0.8rem; word-break: break-all; }
+  .status { color: var(--muted); font-size: 0.9rem; margin-top: 10px; }
+  .error { color: var(--red); }
+  .footer-note { color: var(--muted); font-size: 0.8rem; margin-top: 24px; text-align: center; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>ZEC Ledger</h1>
+  <div class="subtitle">A lightweight accounting tool for Zcash transparent addresses — real mainnet data, running balance, and CSV export.</div>
+
+  <div class="panel">
+    <label for="addr">Zcash transparent address (starts with t1 or t3)</label>
+    <div class="row">
+      <input type="text" id="addr" placeholder="e.g. t1KGZDBFXfKgNsPLSc2ykQygdyudBwEsRcs" />
+      <button id="loadBtn">Load Ledger</button>
+    </div>
+    <div class="status" id="status"></div>
+  </div>
+
+  <div class="panel" id="summaryPanel" style="display:none;">
+    <div class="summary-grid">
+      <div class="stat"><div class="label">Current Balance</div><div class="value" id="balanceVal">—</div></div>
+      <div class="stat"><div class="label">Total Received</div><div class="value in" id="receivedVal">—</div></div>
+      <div class="stat"><div class="label">Total Sent</div><div class="value out" id="sentVal">—</div></div>
+      <div class="stat"><div class="label">Transactions</div><div class="value" id="txCountVal">—</div></div>
+    </div>
+    <div class="row" style="margin-top:16px;">
+      <button class="secondary" id="exportBtn">Export CSV</button>
+    </div>
+  </div>
+
+  <div class="panel" id="tablePanel" style="display:none;">
+    <div style="overflow-x:auto;">
+      <table>
+        <thead>
+          <tr><th>Date</th><th>Type</th><th>Amount (ZEC)</th><th>Running Balance</th><th>Txid</th></tr>
+        </thead>
+        <tbody id="txBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="footer-note">
+    Data sourced live from the Zcash mainnet via the <a href="https://3xpl.com/zcash" target="_blank">3xpl</a> public explorer API.
+    Only transparent-address activity is shown — shielded transactions remain private by design.
+  </div>
+</div>
+
+<script>
+const PROXY = "https://zec-ledger-proxy.mrwealthking1.workers.dev/?url=";
+const THREEXPL_TOKEN = "3A0_t3st3xplor3rpub11cb3t4efcd21748a5e"; // 3xpl shared test JSON API key (from their Discord #faq)
+const THREEXPL_API = "https://api.3xpl.com/zcash";
+const ZCHAIN_API = "https://api.zcha.in/v2/mainnet";
+const statusEl = document.getElementById('status');
+const loadBtn = document.getElementById('loadBtn');
+const addrInput = document.getElementById('addr');
+let currentLedger = [];
+let currentAddress = "";
+
+function satToZec(s) {
+  return (Number(s) / 100000000);
+}
+
+function fmt(n) {
+  return n.toLocaleString(undefined, { minimumFractionDigits: 4, maximumFractionDigits: 8 });
+}
+
+function chunk(arr, size) {
+  const out = [];
+  for (let i = 0; i < arr.length; i += size) out.push(arr.slice(i, i + size));
+  return out;
+}
+
+async function loadFrom3xpl(address) {
+  const url = `${THREEXPL_API}/address/${address}?data=address,balances,events&from=zcash-main&limit=1000&token=${THREEXPL_TOKEN}`;
+  const resp = await fetch(PROXY + encodeURIComponent(url));
+  const json = await resp.json();
+
+  if (json.context && json.context.code && json.context.code !== 200) {
+    throw new Error("3xpl:" + (json.context.notice || ("HTTP " + json.context.code)));
+  }
+
+  if (!json.data || !json.data.address) throw new Error("Address not found or has no on-chain activity yet.");
+
+  const balancesObj = (json.data.balances && json.data.balances["zcash-main"]) || {};
+  const balanceEntry = balancesObj["zcash"];
+  const currentBalance = balanceEntry ? satToZec(Number(balanceEntry.balance)) : 0;
+
+  const eventsArr = (json.data.events && json.data.events["zcash-main"]) || [];
+  const zcashEvents = eventsArr.filter(e => e.currency === "zcash" && !e.failed);
+
+  zcashEvents.sort((a, b) => (new Date(a.time) - new Date(b.time)) || (a.sort_key - b.sort_key));
+
+  let running = 0;
+  let received = 0;
+  let sent = 0;
+  const ledger = zcashEvents.map(e => {
+    const amountZec = satToZec(Number(e.effect));
+    running += amountZec;
+    if (amountZec >= 0) received += amountZec; else sent += Math.abs(amountZec);
+    return {
+      date: e.time.slice(0, 19).replace('T', ' '),
+      type: amountZec >= 0 ? "Received" : "Sent",
+      amount: amountZec,
+      running,
+      txid: e.transaction,
+      link: `https://3xpl.com/zcash/transaction/${e.transaction}`
+    };
+  });
+
+  return {
+    balance: currentBalance,
+    received,
+    sent,
+    txCount: ledger.length,
+    ledger
+  };
+}
+
+async function loadFromZchain(address) {
+  const accountResp = await fetch(PROXY + encodeURIComponent(`${ZCHAIN_API}/accounts/${address}`));
+  if (!accountResp.ok) throw new Error("Address not found or has no on-chain activity yet.");
+  const account = await accountResp.json();
+
+  const txResp = await fetch(PROXY + encodeURIComponent(`${ZCHAIN_API}/accounts/${address}/recvTransactions?limit=100`));
+  const sentResp = await fetch(PROXY + encodeURIComponent(`${ZCHAIN_API}/accounts/${address}/sentTransactions?limit=100`));
+  const received = txResp.ok ? await txResp.json() : [];
+  const sent = sentResp.ok ? await sentResp.json() : [];
+
+  const combined = [
+    ...received.map(tx => ({ ...tx, direction: "in" })),
+    ...sent.map(tx => ({ ...tx, direction: "out" }))
+  ].sort((a, b) => a.timestamp - b.timestamp);
+
+  let running = 0;
+  const ledger = combined.map(tx => {
+    const amountZec = satToZec(Math.abs(tx.value));
+    running += tx.direction === "in" ? amountZec : -amountZec;
+    return {
+      date: new Date(tx.timestamp * 1000).toISOString().slice(0, 19).replace('T', ' '),
+      type: tx.direction === "in" ? "Received" : "Sent",
+      amount: tx.direction === "in" ? amountZec : -amountZec,
+      running,
+      txid: tx.hash,
+      link: `https://zcha.in/transactions/${tx.hash}`
+    };
+  });
+
+  return {
+    balance: satToZec(account.balance),
+    received: satToZec(account.totalRecv || 0),
+    sent: satToZec(account.totalSent || 0),
+    txCount: ledger.length,
+    ledger
+  };
+}
+
+async function loadLedger() {
+  const address = addrInput.value.trim();
+  if (!address) {
+    statusEl.textContent = "Please enter a Zcash transparent address.";
+    statusEl.className = "status error";
+    return;
+  }
+
+  loadBtn.disabled = true;
+  statusEl.className = "status";
+  statusEl.textContent = "Fetching account data from Zcash mainnet...";
+  document.getElementById('summaryPanel').style.display = "none";
+  document.getElementById('tablePanel').style.display = "none";
+
+  let result = null;
+  let primaryError = null;
+  let secondaryError = null;
+
+  try {
+    result = await loadFrom3xpl(address);
+  } catch (err) {
+    primaryError = err;
+    statusEl.textContent = "Primary source unavailable, trying backup source...";
+    try {
+      result = await loadFromZchain(address);
+    } catch (err2) {
+      secondaryError = err2;
+    }
+  }
+
+  if (!result) {
+    statusEl.className = "status error";
+    const pMsg = (primaryError && primaryError.message) || "";
+    const sMsg = (secondaryError && secondaryError.message) || "";
+    const isRateLimited = m => m.includes("blacklisted") || m.includes("430") || m.includes("Failed to fetch");
+
+    if (isRateLimited(pMsg) || isRateLimited(sMsg)) {
+      const detail = isRateLimited(pMsg) ? pMsg : sMsg;
+      statusEl.textContent = "Both data providers are temporarily unavailable (rate-limited). This is an external API limit, not an app error — please wait a few minutes and try again. (" + detail.replace("3xpl:", "") + ")";
+    } else if (pMsg && pMsg !== "Address not found or has no on-chain activity yet.") {
+      statusEl.textContent = "Error: " + pMsg.replace("3xpl:", "");
+    } else if (sMsg && sMsg !== "Address not found or has no on-chain activity yet.") {
+      statusEl.textContent = "Error: " + sMsg;
+    } else {
+      statusEl.textContent = "Address not found or has no on-chain activity yet.";
+    }
+    loadBtn.disabled = false;
+    return;
+  }
+
+  currentLedger = result.ledger;
+  currentAddress = address;
+
+  document.getElementById('balanceVal').textContent = fmt(result.balance) + " ZEC";
+  document.getElementById('receivedVal').textContent = fmt(result.received) + " ZEC";
+  document.getElementById('sentVal').textContent = fmt(result.sent) + " ZEC";
+  document.getElementById('txCountVal').textContent = result.txCount ?? result.ledger.length;
+
+  const tbody = document.getElementById('txBody');
+  tbody.innerHTML = "";
+  result.ledger.slice().reverse().forEach(row => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td>${row.date}</td>
+      <td class="${row.type === 'Received' ? 'in' : 'out'}">${row.type}</td>
+      <td class="${row.type === 'Received' ? 'in' : 'out'}">${row.amount > 0 ? '+' : ''}${fmt(row.amount)}</td>
+      <td>${fmt(row.running)}</td>
+      <td class="mono"><a href="${row.link}" target="_blank">${row.txid.slice(0,10)}...</a></td>
+    `;
+    tbody.appendChild(tr);
+  });
+
+  document.getElementById('summaryPanel').style.display = "block";
+  document.getElementById('tablePanel').style.display = "block";
+  statusEl.textContent = result.ledger.length
+    ? `Loaded ${result.ledger.length} transactions for ${address}.`
+    : "No transaction history found for this address yet.";
+  loadBtn.disabled = false;
+}
+
+function exportCSV() {
+  if (!currentLedger.length) return;
+  let csv = "Date,Type,Amount (ZEC),Running Balance,Txid\n";
+  currentLedger.forEach(row => {
+    csv += `${row.date},${row.type},${row.amount},${row.running},${row.txid}\n`;
+  });
+  const blob = new Blob([csv], { type: "text/csv" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `zec-ledger-${currentAddress}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+loadBtn.addEventListener('click', loadLedger);
+addrInput.addEventListener('keydown', e => { if (e.key === 'Enter') loadLedger(); });
+document.getElementById('exportBtn').addEventListener('click', exportCSV);
+</script>
+</body>
+</html>

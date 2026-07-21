@@ -1,0 +1,48 @@
+[package]
+name = "steward-ffi"
+description = "Steward mobile SDK (UniFFI): Kotlin (Android) + Swift (iOS) bindings over steward-core — heartbeat proof-of-life, owner keygen (t-of-n split), and the guardian keystore + re-randomized FROST co-signing. Secret shares never leave the device."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+# UniFFI needs a cdylib (loaded by the JVM / the iOS app) and a staticlib (linked
+# into the iOS XCFramework); `lib` (rlib) keeps the crate usable from Rust — the
+# host smoke test in `tests/` and the `uniffi-bindgen` helper bin both need it.
+[lib]
+name = "steward_ffi"
+crate-type = ["cdylib", "staticlib", "lib"]
+
+# The recommended way to run `uniffi-bindgen` without a separately-installed tool:
+# a tiny in-crate binary that calls `uniffi::uniffi_bindgen_main()`. Pinning the
+# generator to the exact `uniffi` version the crate depends on avoids the classic
+# "bindgen version != runtime version" ABI skew.
+[[bin]]
+name = "uniffi-bindgen"
+path = "src/bin/uniffi-bindgen.rs"
+
+[dependencies]
+# The tested FROST crypto/policy we wrap. Pure Rust; cross-compiles to the mobile
+# targets (aarch64-linux-android, aarch64-apple-ios, ...).
+steward-core = { path = "../steward-core" }
+
+# One Rust crate -> both platforms. `cli` gives us `uniffi_bindgen_main` for the
+# helper bin (library-mode binding generation over the built cdylib).
+uniffi = { version = "0.32", features = ["cli"] }
+
+serde = { workspace = true }
+serde_json = { workspace = true }
+hex = { workspace = true }
+rand = { workspace = true }
+thiserror = { workspace = true }
+
+# Guardian keystore: argon2id(passphrase) -> XChaCha20-Poly1305 seal of the share.
+# SAME crates + params as steward-guardian-wasm, so a share sealed on the web opens
+# on mobile and vice-versa (blob format v1 is byte-identical).
+argon2 = "0.5"
+chacha20poly1305 = "0.10"
+zeroize = "1"
+
+[dev-dependencies]
+# The host smoke test drives the FFI surface end-to-end (heartbeat, seal/open, a
+# 2-of-3 ceremony to an aggregate that verifies). It only needs `hex`.
+hex = { workspace = true }

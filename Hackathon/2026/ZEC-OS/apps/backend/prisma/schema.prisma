@@ -1,0 +1,104 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ── ZEC-OS User Accounts ──────────────────────────────────────────────────
+
+model User {
+  id           String   @id @default(cuid())
+  address      String   @unique
+  displayName  String?
+  // Lowercased displayName — DB-enforced case-insensitive uniqueness for handles
+  nameKey      String?  @unique
+  isVerified   Boolean  @default(false)
+  // One-way scrypt hash (scrypt:N:r:p:salt:hash) — the password itself is never stored
+  passwordHash String?
+  chatRole     String?  // "op" | "voice" — persisted IRC-style channel status
+  frozen       String?  // "bbs" (barred from BBS) | "all" (barred from everything)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  sessions    UserSession[]
+  challenges  AuthChallenge[]
+  settings    UserSettings?
+  watchlist   UserWatchlist?
+  state       UserState?
+}
+
+// ── BBS message board ─────────────────────────────────────────────────────────
+// ── BBS private mail (user → user by unique display name) ────────────────────
+// ── BBS counters (calls today / all time) ─────────────────────────────────────
+// ── Chat lounge (single channel + sysop DM lines) ────────────────────────────
+// Sysop → user private line. User must accept; sysop can force.
+// Weekly paid-tournament entry for the BBS RPG. One entry per user per week;
+// the user's single RPG character IS their contest identity. Payment is a
+// 0.01 ZEC memo round-trip to the system wallet (same machinery as auth).
+// BBS RPG save — Json blob plus denormalized stats for the public users list
+model UserSession {
+  id        String   @id @default(cuid())
+  userId    String
+  token     String   @unique @default(cuid())
+  // "challenge" = fresh ownership verification (may reset password), "login" = password login
+  via        String   @default("login")
+  lastSeenAt DateTime @default(now()) // heartbeat — drives "users online"
+  revokedAt  DateTime? // set when a newer login for this user supersedes this session
+  revokedReason String? // e.g. "signed_in_elsewhere"
+  expiresAt  DateTime
+  createdAt DateTime @default(now())
+
+  user      User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model AuthChallenge {
+  id         String   @id @default(cuid())
+  nonce      String   @unique
+  userId     String
+  kind       String   @default("taddr")   // taddr | shielded
+  status     String   @default("pending") // pending -> funded -> code_sent -> verified
+  code       String?                      // 6-digit code for shielded flow
+  codeTries  Int      @default(0)
+  fundedTxid String?
+  valueZat   Int
+  toAddress  String
+  zip321     String
+  verified   Boolean  @default(false)
+  sessionId  String?
+  expiresAt  DateTime
+  createdAt  DateTime @default(now())
+
+  user      User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model UserSettings {
+  id        String   @id @default(cuid())
+  userId    String   @unique
+  data      Json     @default("{}")
+  updatedAt DateTime @updatedAt
+
+  user      User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model UserWatchlist {
+  id        String   @id @default(cuid())
+  userId    String   @unique
+  data      Json     @default("{\"addresses\":[]}")
+  updatedAt DateTime @updatedAt
+
+  user      User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model UserState {
+  id        String   @id @default(cuid())
+  userId    String   @unique
+  data      Json     @default("{}")
+  updatedAt DateTime @updatedAt
+
+  user      User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+// ── Admin-configurable tournaments (multi-game, multiple concurrent) ──────────

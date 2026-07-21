@@ -1,0 +1,12 @@
+[package]
+name = "steward-testvectors"
+description = "Cross-implementation byte vectors (Rust core ↔ TS guardian) asserting parity of keygen, signing, and policy encoding"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+steward-core = { path = "../steward-core" }
+serde.workspace = true
+serde_json.workspace = true
+hex.workspace = true

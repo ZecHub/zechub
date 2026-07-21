@@ -25,12 +25,13 @@ Reporting bugs
 
 #### For details on bounty amounts, please read our contributing page -> [here](https://zechub.wiki/contribute/contributing-guide#content).
 
-We post issues for tasks that we currently have bounties open. Primarily these are found as
+We post issues for tasks that we currently have bounties open every Monday. You can suggest bounties too! Primarily these are found at ZEC Bounties.
 
-<img width="2768" height="838" alt="Screenshot_2025-11-01_11-13-39" src="https://github.com/user-attachments/assets/dd7dc989-3449-4a12-a919-9333a31cbb5a" />
+![zecbounties](https://github.com/user-attachments/assets/0e4f5109-c0c9-4a0a-8d71-8172e36b9726)
 
 
-[Dework](https://app.dework.xyz/zechub-2424)
+
+[ZEC Bounties](https://bounties.zechub.wiki/)
 
 [ZecHub Github Issues](https://github.com/ZecHub/zechub/issues)
 

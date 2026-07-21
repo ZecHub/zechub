@@ -1,0 +1,16 @@
+[package]
+name = "turnstile-check"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "turnstile-check"
+path = "src/main.rs"
+
+[dependencies]
+turnstile-core = { workspace = true, features = ["zingo"] }
+serde_json = { workspace = true }
+anyhow = { workspace = true }
+tokio = { workspace = true }
+clap = { version = "4", features = ["derive"] }

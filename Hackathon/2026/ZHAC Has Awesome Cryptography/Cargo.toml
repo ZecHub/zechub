@@ -1,0 +1,77 @@
+[package]
+name = "zhac"
+version = "0.6.0"
+edition = "2021"
+description = "ZHAC Has Awesome Cryptography is a cryptographic toolkit built off of Zcash"
+authors = ["ZHAC Team"]
+license = "BSD 2.0"
+repository = "https://github.com/te-mpe-st-org/zhac"
+homepage = "https://github.com/te-mpe-st-org/zhac"
+readme = "README.md"
+keywords = ["zcash", "encryption", "signature", "sapling", "pgp"]
+categories = ["cryptography", "command-line-utilities"]
+rust-version = "1.70"
+
+[features]
+net = ["dep:tokio-tungstenite", "dep:futures-util"]
+
+[dependencies]
+jubjub        = "0.10"
+group         = "0.13"
+ff            = "0.13"
+redjubjub     = "0.7"
+
+reddsa = { version = "0.5", features = ["frost"] }
+frost-core          = "3"
+
+chacha20poly1305 = "0.10"
+hkdf             = "0.12"
+sha2             = "0.10"
+blake2b_simd     = "1"
+blake2s_simd     = "1"
+
+rand      = "0.8"
+rand_core = "0.6"
+
+bech32 = "0.11"
+hex    = "0.4"
+
+serde        = { version = "1", features = ["derive"] }
+serde_json   = "1"
+bincode      = "1"
+
+clap = { version = "4", features = ["derive"] }
+
+pasta_curves = "0.5"
+subtle = "2"
+
+tokio = { version = "1", features = ["full"] }
+
+tonic = { version = "0.13", features = ["tls-webpki-roots", "transport"] }
+prost = "0.13"
+prost-types = "0.13"
+
+tokio-tungstenite = { version = "0.21", features = ["rustls-tls-webpki-roots"], optional = true }
+futures-util = { version = "0.3", optional = true }
+
+thiserror = "2"
+
+ureq = { version = "2", features = ["json"] }
+
+zeroize = { version = "1", features = ["derive"] }
+
+argon2 = "0.5"
+
+rpassword = "7"
+
+[dev-dependencies]
+tempfile = "3"
+criterion = { version = "0.5", features = ["html_reports"] }
+
+[build-dependencies]
+tonic-build = "0.13"
+protoc-bin-vendored = "3"
+
+[[bench]]
+name = "crypto"
+harness = false

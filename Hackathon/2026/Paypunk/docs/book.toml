@@ -1,0 +1,21 @@
+[book]
+title = "Paypunk"
+authors = ["Blockhackers"]
+language = "en"
+description = "Multi-chain privacy wallet framework"
+
+[output.html]
+default-theme = "ayu"
+preferred-dark-theme = "ayu"
+no-section-label = true
+git-repository-url = "https://github.com/blockhackersio/paypunk"
+edit-url-template = "https://github.com/blockhackersio/paypunk/edit/master/docs/{path}"
+site-url = "/paypunk/"
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+renderer = ["html"]
+
+[output.html.playground]
+editable = false

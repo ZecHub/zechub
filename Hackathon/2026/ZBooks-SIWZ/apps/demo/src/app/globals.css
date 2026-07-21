@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "@siwz/react/styles.css";
+
+:root {
+  --bg: #fbfaf7;
+  --fg: #16161a;
+  --muted: #6b6b73;
+  --border: rgba(0, 0, 0, 0.08);
+  --surface: #ffffff;
+  --accent: #f4b728;
+  --accent-ink: #1a1a1a;
+}
+
+html.dark {
+  --bg: #0c0c0e;
+  --fg: #f3f3f4;
+  --muted: #9a9aa1;
+  --border: rgba(255, 255, 255, 0.08);
+  --surface: #15151a;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--fg);
+}
+
+/* Landing page decorations use viewport-width to bleed past the max-w-5xl
+   container; guard against accidental horizontal scroll here at the root. */
+body {
+  overflow-x: clip;
+}
+
+body {
+  font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11", "ss01";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Headings get a tighter optical scale than body text so the hierarchy
+   reads at a glance without leaning on size alone. */
+h1, h2, h3 {
+  font-feature-settings: "ss01", "cv11";
+  letter-spacing: -0.011em;
+}
+
+/* SIWZ panel — sits on top of the page bg with a soft glass effect. */
+.siwz-root {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border);
+}
+html.dark .siwz-root {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+/* Recharts axis legibility per theme. */
+.recharts-cartesian-grid line {
+  stroke: rgba(0, 0, 0, 0.06);
+}
+html.dark .recharts-cartesian-axis-tick text,
+html.dark .recharts-legend-item-text {
+  fill: #d4d4d8 !important;
+  color: #d4d4d8 !important;
+}
+html.dark .recharts-cartesian-grid line {
+  stroke: rgba(255, 255, 255, 0.06);
+}
+
+/* Native select/option popups ignore Tailwind dark utilities; force them dark. */
+html.dark select,
+html.dark option {
+  background-color: #15151a;
+  color: var(--fg);
+}
+
+/* Landing-page animations. Guarded by prefers-reduced-motion. */
+@keyframes zbMarquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+@keyframes zbShimmer {
+  0%   { background-position: 200% 50%; }
+  100% { background-position: -200% 50%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .animate-\[zbMarquee_38s_linear_infinite\] { animation: none !important; }
+}

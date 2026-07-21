@@ -1,0 +1,189 @@
+name: Release
+
+# Build signed, cross-platform installers on a version tag (e.g. v0.1.0) and
+# attach them to a draft GitHub Release. Also runnable manually.
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-22.04
+            target: x86_64-unknown-linux-gnu
+          - os: windows-2022 # stable VS2022 toolchain (aws-lc-sys-friendly)
+            target: x86_64-pc-windows-msvc
+          - os: macos-latest # Apple Silicon
+            target: aarch64-apple-darwin
+          - os: macos-13 # Intel
+            target: x86_64-apple-darwin
+    runs-on: ${{ matrix.os }}
+    env:
+      # `secrets` can't be used in a step `if:`, so surface whether the Apple
+      # signing cert is configured as a job-level boolean the steps can gate on.
+      HAS_APPLE_CERT: ${{ secrets.APPLE_CERTIFICATE != '' }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # --- Toolchains -----------------------------------------------------
+      - name: Install Linux build dependencies
+        if: matrix.os == 'ubuntu-22.04'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libwebkit2gtk-4.1-dev \
+            libappindicator3-dev \
+            librsvg2-dev \
+            patchelf \
+            build-essential \
+            file
+
+      # Vendored OpenSSL (openssl-src) needs NASM on Windows; Strawberry Perl
+      # ships on the GitHub windows runner image.
+      - name: Install NASM (Windows)
+        if: startsWith(matrix.os, 'windows')
+        uses: ilammy/setup-nasm@v1
+
+      # frostd pulls in aws-lc-sys (rustls' crypto backend), which builds native
+      # C via CMake and needs the MSVC developer environment (vcvars) — without
+      # it, CMake can't determine the Visual Studio generator. This exports the
+      # MSVC env to $GITHUB_ENV so both the frostd build and tauri-action inherit
+      # it.
+      - name: Set up MSVC developer environment (Windows)
+        if: startsWith(matrix.os, 'windows')
+        uses: ilammy/msvc-dev-cmd@v1
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: ${{ matrix.target }}
+
+      - name: Rust cache
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri
+
+      - name: Install Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install frontend dependencies
+        run: npm ci
+
+      # --- Build the frostd sidecar for this target ----------------------
+      # The embedded server binary is built from the same pinned frost-tools
+      # revision the app links frost-client against, then placed under the
+      # Tauri externalBin naming convention: binaries/frostd-<target-triple>.
+      - name: Build frostd sidecar
+        shell: bash
+        env:
+          FROST_TOOLS_REV: 3d2985cfbc5df9314f3882a6d693bbe0d711051f
+        run: |
+          set -euxo pipefail
+          # This step runs under Git-bash so the script is cross-platform, but on
+          # Windows that puts Git's /usr/bin ahead of the MSVC toolchain on PATH.
+          # Rust invokes the linker as bare `link.exe`, which then resolves to
+          # GNU coreutils' `link` (a hardlink tool) instead of MSVC's link.exe,
+          # failing with "extra operand". Remove the coreutils shim so the MSVC
+          # linker (added by msvc-dev-cmd) wins.
+          case "${{ matrix.target }}" in
+            *windows*) rm -f /usr/bin/link /usr/bin/link.exe ;;
+          esac
+          git clone --filter=blob:none https://github.com/ZcashFoundation/frost-tools.git "$RUNNER_TEMP/frost-tools"
+          cd "$RUNNER_TEMP/frost-tools"
+          git checkout "$FROST_TOOLS_REV"
+          cargo build --release -p frostd --target ${{ matrix.target }}
+          EXT=""
+          case "${{ matrix.target }}" in *windows*) EXT=".exe";; esac
+          SRC="target/${{ matrix.target }}/release/frostd${EXT}"
+          DEST="$GITHUB_WORKSPACE/src-tauri/binaries/frostd-${{ matrix.target }}${EXT}"
+          ls -la "target/${{ matrix.target }}/release/" || true
+          test -f "$SRC"  # fail loudly here if the build didn't produce it
+          mkdir -p "$(dirname "$DEST")"
+          cp "$SRC" "$DEST"
+          chmod +x "$DEST" || true
+          echo "Sidecar placed at: $DEST"
+          ls -la "$(dirname "$DEST")"
+
+      # --- Fetch the cloudflared sidecar for this target -----------------
+      # cloudflared is bundled (Apache-2.0) so the optional Cloudflare quick
+      # tunnel works with zero user setup — no separate install or PATH entry.
+      # Cloudflare ships prebuilt binaries per OS/arch; macOS is a .tgz, the
+      # rest are raw executables.
+      - name: Fetch cloudflared sidecar
+        shell: bash
+        run: |
+          set -euxo pipefail
+          case "${{ matrix.target }}" in
+            x86_64-unknown-linux-gnu) ASSET=cloudflared-linux-amd64;     EXT="" ;;
+            x86_64-pc-windows-msvc)   ASSET=cloudflared-windows-amd64.exe; EXT=".exe" ;;
+            aarch64-apple-darwin)     ASSET=cloudflared-darwin-arm64.tgz; EXT="" ;;
+            x86_64-apple-darwin)      ASSET=cloudflared-darwin-amd64.tgz; EXT="" ;;
+            *) echo "::error::no cloudflared asset mapping for ${{ matrix.target }}"; exit 1 ;;
+          esac
+          URL="https://github.com/cloudflare/cloudflared/releases/latest/download/$ASSET"
+          DEST="$GITHUB_WORKSPACE/src-tauri/binaries/cloudflared-${{ matrix.target }}${EXT}"
+          mkdir -p "$(dirname "$DEST")"
+          curl -fL "$URL" -o "$RUNNER_TEMP/cf-download"
+          case "$ASSET" in
+            *.tgz) tar -xzf "$RUNNER_TEMP/cf-download" -C "$RUNNER_TEMP"; cp "$RUNNER_TEMP/cloudflared" "$DEST" ;;
+            *)     cp "$RUNNER_TEMP/cf-download" "$DEST" ;;
+          esac
+          chmod +x "$DEST" || true
+          ls -la "$(dirname "$DEST")"
+
+      # Guard: confirm the sidecar is present immediately before the app build,
+      # so a missing/removed binary is reported here (not as a confusing tauri
+      # "resource path doesn't exist" error).
+      - name: Verify sidecar present
+        shell: bash
+        run: |
+          EXT=""
+          case "${{ matrix.target }}" in *windows*) EXT=".exe";; esac
+          ls -la "$GITHUB_WORKSPACE/src-tauri/binaries/" || echo "binaries/ dir missing"
+          for NAME in frostd cloudflared; do
+            BIN="$GITHUB_WORKSPACE/src-tauri/binaries/${NAME}-${{ matrix.target }}${EXT}"
+            test -f "$BIN" || { echo "::error::sidecar missing at $BIN"; exit 1; }
+          done
+
+      # Enable Apple code signing + notarization ONLY when the certificate
+      # secret is actually configured. Passing empty APPLE_* env vars makes
+      # Tauri attempt (and fail) a keychain import, so we opt in explicitly and
+      # produce an unsigned build otherwise. See docs/RELEASE.md to set these.
+      - name: Enable Apple code signing
+        if: ${{ startsWith(matrix.os, 'macos') && env.HAS_APPLE_CERT == 'true' }}
+        run: |
+          {
+            echo "APPLE_CERTIFICATE<<EOF"
+            echo "${{ secrets.APPLE_CERTIFICATE }}"
+            echo "EOF"
+            echo "APPLE_CERTIFICATE_PASSWORD=${{ secrets.APPLE_CERTIFICATE_PASSWORD }}"
+            echo "APPLE_SIGNING_IDENTITY=${{ secrets.APPLE_SIGNING_IDENTITY }}"
+            echo "APPLE_ID=${{ secrets.APPLE_ID }}"
+            echo "APPLE_PASSWORD=${{ secrets.APPLE_PASSWORD }}"
+            echo "APPLE_TEAM_ID=${{ secrets.APPLE_TEAM_ID }}"
+          } >> "$GITHUB_ENV"
+
+      # --- Bundle + attach to the release ---------------------------------
+      - name: Build & bundle app
+        uses: tauri-apps/tauri-action@v0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          args: --target ${{ matrix.target }}
+          tagName: ${{ github.ref_name }}
+          releaseName: "Cyze ${{ github.ref_name }}"
+          releaseDraft: true
+          # Auto-flag semver pre-release tags (anything with a hyphen, e.g.
+          # v0.1.0-rc.1 / v0.1.0-beta.1) as a GitHub pre-release.
+          prerelease: ${{ contains(github.ref_name, '-') }}

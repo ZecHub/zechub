@@ -1,0 +1,22 @@
+[package]
+name = "paypunk-chains-ethereum"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+paypunk-types.workspace = true
+bip32.workspace = true
+k256.workspace = true
+thiserror.workspace = true
+alloy-primitives.workspace = true
+alloy-consensus.workspace = true
+alloy-rlp.workspace = true
+async-trait.workspace = true
+reqwest = { version = "0.12", default-features = false, features = ["json"] }
+serde_json = "1"
+hex.workspace = true
+postcard = { workspace = true, features = ["alloc"] }
+
+[dev-dependencies]
+bip39.workspace = true
+tokio = { workspace = true, features = ["rt", "macros"] }

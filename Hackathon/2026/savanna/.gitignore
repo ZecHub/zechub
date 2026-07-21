@@ -1,0 +1,8 @@
+/dist*
+/prisma/pdv.db
+zkool.db
+
+repomix-output.xml
+
+/{electron*
+node_modules

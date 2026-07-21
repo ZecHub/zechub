@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.zcashjava.znl</groupId>
+        <artifactId>znl-api</artifactId>
+        <version>${revision}</version>
+        <relativePath>../</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>znl-api-server</artifactId>
+    <packaging>jar</packaging>
+
+    <name>${project.artifactId}</name>
+    <description>
+        Api server. 
+    </description>
+    <url>https://github.com/zcashjava/ZCashNodeLauncher</url>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.zcashjava.znl</groupId>
+            <artifactId>znl-module-system</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zcashjava.znl</groupId>
+            <artifactId>znl-module-infra</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zcashjava.znl</groupId>
+            <artifactId>znl-module-zcash</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+
+        <!-- Reliance required for Spring Boot configuration-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+
+    </dependencies>
+
+    <build>
+        <!-- Set up the built jar package name-->
+        <finalName>${project.artifactId}</finalName>
+        <plugins>
+            <!-- Pack.-->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring.boot.version}</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal> <!-- Enter the jar that will be introduced into it-->
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

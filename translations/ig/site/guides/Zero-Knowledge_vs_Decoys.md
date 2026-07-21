@@ -1,0 +1,88 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Zero-Knowledge_vs_Decoys.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
+# Ihe Ọmụma efu vs Decoy based Systems
+
+"Cryptocurrency exposes all your spending activities to the public since it's just like a Twitter to your Bank account and this is a great issue that must be solved by adopting on chain privacy." - Ian Miers at [Devcon4](https://youtube.com/watch?v=9s3EbSKDA3o&feature=share9).
+
+Certain crypto projects have gained recognition for their privacy-centric approaches. Zcash is renowned for employing Zero Knowledge Proofs (ZK) to protect transaction amounts and addresses. Monero stands out for its utilization of a Decoy-based sender obfuscation in combination with other encryption schemes to attain user privacy on the blockchain.
+
+
+<a href="">
+    <img src="https://user-images.githubusercontent.com/38798812/257773807-af8ae27d-0805-4a60-a5ba-749e2fea2490.png" alt="" width="400" height="300"/>
+</a>
+
+
+## Ịghọta ZK Proofs na Decoy Based Systems
+
+Zero Knowledge Proofs are cryptographic systems that allow one party (the prover) to demonstrate to another party (the verifier) the validity of a statement without revealing *any underlying information about the statement itself*. In the context of Zcash, ZK proofs are employed to verify the validity of a transaction without disclosing transaction details such as the SENDER, RECEIVER or transaction AMOUNT. 
+
+**This ensures that user privacy is preserved as the transaction remains confidential while still being validated. This technology is designed to ensure the confidentiality of financial transactions on the Zcash network.**
+
+Na usoro ndị dabeere na Decoy dị ka [RingCT](https://twitter.com/ZecHub/status/1636473585781948416), multiple transactions are combined making it challenging or difficult to trace the actual source and destination of funds. The algorithm introduces decoy inputs and outputs in transactions also employing encryption of the addresses used as inputs & using Range proofs to validate the amount transferred is spendable. 
+
+Usoro a na-eme ka ụzọ azụmahịa ahụ ghara ịdị. Ojiji nke ntinye ntinye na- eme ka ọ bụrụ ihe ịma aka nye onye ọ bụla na-enyocha blockchain iji chọpụta onye eziga, onye nnata, ma ọ bụ ego azụmahịa. 
+
+**Important Note**: This method of on-chain privacy preserving transaction still explicitly reveals (encrypted) inputs to all user transactions. Metadata such as the *FLOW OF TRANSACTIONS* between different users on the network can still be gathered. If an adversary actively participates in generating transactions on the network, it effectively deanonymises the decoy inputs of other users. 
+
+
+## Uru nke ZK n'elu Decoy Based Systems
+
+Ma Zcash ma Monero bụ cryptocurrencies na-elekwasị anya na nzuzo, mana ha na-enweta nzuzo n'ụzọ dị iche iche. 
+
+Ndị a bụ ụfọdụ uru nke ihe akaebe Zcash na-enweghị ihe ọmụma (ZK) karịa usoro aghụghọ nke Monero:
+
+1) **Nkọwapụta Nhọrọ**: Site na njirimara Zcash ZK, ndị ọrụ nwere nhọrọ iji kpughee nkọwa azụmahịa na ndị ọzọ akọwapụtara [Gụọ ECC Blog na Nkọwa Nhọrọ](https://electriccoin.co/blog/viewing-keys-selective-disclosure/). In Zcash, shielded transactions' encrypted contents allow individuals to selectively reveal data from a particular transfer. Additionally, a viewing key can be provided to disclose all transactions associated with a specific shielded address. This feature allows for regulatory compliance and auditability without compromising the overall privacy of the network. 
+
+Ọ bụ ezie na Monero's decoy algorithm (akara mbinye aka) na-enyere aka n'inye nzuzo, ọ naghị enye * nhọrọ * ngosi n'otu ụzọ ahụ.
+
+
+<a href="">
+    <img src="https://user-images.githubusercontent.com/38798812/257793324-2dcc6047-300e-4fa7-a28d-2e6cbbadf1df.png" alt="" width="400" height="80"/>
+</a>
+
+
+2) **Optional Visibility**: Zcash allows users to choose between transparent (non-private) and shielded (private) transactions. This connotes that Zcash offers users the flexibility to either keep their financial information private (shielded) or make it transparent and publicly available similar to most other blockchains as explained on [Zcash official website](https://z.cash/learn/what-is-the-difference-between-shielded-and-transparent-zcash/). This opt-in privacy allows for greater flexibility and business/organisational relevant use cases, as some transactions may require less privacy for public scrutiny, while others benefit from enhanced privacy.
+
+
+3) **Anonymity Set**: The [ahaghị aha set](https://blog.wasabiwallet.io/what-is-the-difference-between-an-anonymity-set-and-an-anonymity-score/) of zero knowledge shielded pools comprises all transactions that have *ever* occurred. This is significantly larger than most other on-chain techniques for achieving transaction unlinkability. Note: this only applies to transactions within the same shielded pool.
+
+The use of decoys does increase the anonymity set. However this approach is dependent entirely on the number of *real* users on the network. 
+
+4) ** Enweghị Ntọala A Tụkwasịrị Obi **: Zcash's Sprout & Sapling setup utilized a multi-party computation known as the "trusted setup ceremony". Nwelite NU5 na nso nso a achọghị ntụkwasị obi ọ bụla na iguzosi ike n'ezi ihe nke nhazi usoro ihe ọmụma efu. [Gụọ ECC Blog na NU5](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/).
+
+5) **Nchekwa data**: [zk-SNARK technology](https://wiki.zechub.xyz/zcash-technology) used in Zcash's shielded pools allows for significantly enhanced security for users. The reduction of metadata leakage on-chain means that users are safe from adversaries such as potential hackers or oppressive state bodies. 
+
+E nwere ọtụtụ ihe atụ ebe achọpụtara ahụhụ na Monero's decoy selection algorithm.](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero). 
+
+
+Na nchịkọta ihe kachasị mkpa bụ iji belata ma ọ bụ kpochapụ ihe ọmụma nke onye ọrụ na data dị ka Zooko kọwara na [Orchid (priv8) AMA ndụ nnọkọ](https://youtube.com/watch?v=XpRzKqEfpP4&feature=share9) 
+
+
+<a href="">
+    <img src="https://user-images.githubusercontent.com/38798812/257788813-509f1139-7daa-4f95-bbb4-c535641962f6.png" alt="" width="400" height="200"/>
+</a>
+
+
+____
+
+***Njikọ Njikọ ***
+
+https://z.cash/learn/
+
+https://www.getmonero.org/get-started/what-is-monero/
+
+https://youtu.be/9s3EbSKDA3o
+
+https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/
+
+https://youtu.be/XpRzKqEfpP4
+
+https://electriccoin.co/blog/zcash-evolution/
+
+https://electriccoin.co/zcash-metrics/
+https://electriccoin.co/blog/viewing-keys-selective-disclosure/
+
+
+

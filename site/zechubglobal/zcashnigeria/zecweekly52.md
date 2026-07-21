@@ -33,13 +33,13 @@ A yoo kọ ẹkọ diẹ sii nipa Ilana ikọkọ kan eyiti o nlo Imudaniloju-ti
 
 [Kalẹnda Ologba ZFAV 📆 fun Zcon4!](https://wiki.zechub.xyz/zfav/calendar) 
 
-[ZF- Ojo iwaju ti igbeowosile Zcash ati Decentralization](http://ttps//twitter.com/ZcashFoundation/status/1682479746007826432?t=UiLUIKecGAq65xOj1VCLNg&s=19) 
+[ZF- Ojo iwaju ti igbeowosile Zcash ati Decentralization](https://twitter.com/ZcashFoundation/status/1682479746007826432?t=UiLUIKecGAq65xOj1VCLNg&s=19) 
 
 
 
 ####  Awọn imudojuiwọn Awọn ifunni Agbegbe Zcash
 
-[Eto igbeowosile Agbegbe Zcash](http://ttps//twitter.com/ZcashFoundation/status/1682425236073881615?t=TrT1q9LyiySOBlsdeium1w&s=19) 
+[Eto igbeowosile Agbegbe Zcash](https://twitter.com/ZcashFoundation/status/1682425236073881615?t=TrT1q9LyiySOBlsdeium1w&s=19) 
 
 [Awọn Imọye bọtini ati Imọran fun Awọn olugba Grant ati Awọn olubẹwẹ](https://twitter.com/ZcashFoundation/status/1681337820323954689?t=VPV5wiuIusTWSaPINxc86g&s=19) 
 

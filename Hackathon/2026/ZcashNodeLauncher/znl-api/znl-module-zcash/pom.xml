@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.zcashjava.znl</groupId>
+        <artifactId>znl-api</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>znl-module-zcash</artifactId>
+    <packaging>jar</packaging>
+
+    <name>${project.artifactId}</name>
+    <description>s</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.zcashjava.znl</groupId>
+            <artifactId>znl-module-system</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+
+
+        <dependency>
+            <groupId>com.zcashjava.znl</groupId>
+            <artifactId>znl-ssh</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.zcashjava.znl</groupId>
+            <artifactId>znl-dbip</artifactId>
+        </dependency>
+
+        <!-- Operational component-->
+        <dependency>
+            <groupId>com.zcashjava.znl</groupId>
+            <artifactId>znl-starter-biz-data-permission</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.zcashjava.znl</groupId>
+            <artifactId>znl-starter-biz-tenant</artifactId>
+        </dependency>
+
+        <!-- Web Related-->
+        <dependency>
+            <groupId>com.zcashjava.znl</groupId>
+            <artifactId>znl-starter-security</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
+
+        <!-- DB Related-->
+        <dependency>
+            <groupId>com.zcashjava.znl</groupId>
+            <artifactId>znl-starter-mybatis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.zcashjava.znl</groupId>
+            <artifactId>znl-starter-redis</artifactId>
+        </dependency>
+
+
+        <!-- Test relevance for Test-->
+        <dependency>
+            <groupId>com.zcashjava.znl</groupId>
+            <artifactId>znl-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Tools class-related-->
+        <dependency>
+            <groupId>com.zcashjava.znl</groupId>
+            <artifactId>znl-starter-excel</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-mail</artifactId>
+        </dependency>
+
+        <!-- Triangular cloud service-related-->
+        <dependency>
+            <groupId>me.zhyd.oauth</groupId>
+            <artifactId>JustAuth</artifactId> <!-- Social landing (e.g., personal micro-mail, corporate micro-mail, etc.)-->
+        </dependency>
+        <dependency>
+            <groupId>com.xkcoding.justauth</groupId>
+            <artifactId>justauth-spring-boot-starter</artifactId>
+        </dependency>
+
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-websocket</artifactId>
+		</dependency>
+
+        <dependency>
+            <groupId>com.anji-plus</groupId>
+            <artifactId>captcha-spring-boot-starter</artifactId> <!-- -->
+        </dependency>
+
+        <dependency>
+        	<groupId>org.springframework.boot</groupId>
+        	<artifactId>spring-boot-configuration-processor</artifactId>
+        	<optional>true</optional>
+        </dependency>
+    </dependencies>
+
+</project>

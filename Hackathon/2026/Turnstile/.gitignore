@@ -1,0 +1,41 @@
+### Internal working files — never commit ###
+turnstile-prd.md
+PRD-*.md
+CLAUDE.md
+j.json
+de.json
+docs/specs/
+.claude/
+
+### Node / Next.js ###
+node_modules/
+.next/
+out/
+build/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+
+### Rust ###
+target/
+**/*.rs.bk
+
+### Env & secrets ###
+.env
+.env.*
+!.env.example
+
+### Wallet artifacts — must never be committed ###
+*.dat
+zingo-wallet.dat
+wallet/
+.turnstile-wallet/
+
+### OS / editor ###
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+keycheck/pkg/
+keycheck/target/

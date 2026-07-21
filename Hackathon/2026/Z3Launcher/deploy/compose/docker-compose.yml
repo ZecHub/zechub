@@ -1,0 +1,187 @@
+# Vendored from ZcashFoundation/z3 (https://github.com/ZcashFoundation/z3).
+#
+# This is a launcher-controlled reconstruction grounded in the z3 documented
+# topology, ports, and pinned images. Reconcile container config/mounts and
+# healthcheck commands against the upstream repo before a real mainnet run
+# (plan ticket Z3-3). The Go control plane treats this file as an opaque
+# artifact it shells out to, so the orchestration logic does not depend on
+# these internals being byte-identical to upstream.
+#
+# Startup ordering is mandatory: Zebra must finish its initial sync before
+# Zaino/Zallet start. depends_on: service_healthy enforces this, and the
+# launcher additionally sequences `up zebra` -> wait /ready -> `up zaino`.
+
+name: z3
+
+services:
+  zebra:
+    image: ${ZEBRA_IMAGE:-zfnd/zebra:5.2.0}
+    restart: unless-stopped
+    environment:
+      ZEBRA_NETWORK__NETWORK: ${NETWORK_NAME:-Mainnet}
+      ZEBRA_RPC__LISTEN_ADDR: "0.0.0.0:8232"
+      ZEBRA_HEALTH__LISTEN_ADDR: "0.0.0.0:8080"
+      # Zebra defaults cookie auth ON for testnet/mainnet, which would block the
+      # launcher's own RPC readiness probe (it has no cookie) — Zebra would never
+      # report "ready" and Zaino/Zallet would never start. The RPC is published
+      # only on 127.0.0.1, so disabling cookie auth matches the regtest posture
+      # and keeps the local control plane working.
+      ZEBRA_RPC__ENABLE_COOKIE_AUTH: "false"
+    ports:
+      # host 18232 -> container 8232 (Zebra's internal mainnet RPC default).
+      - "127.0.0.1:${Z3_ZEBRA_HOST_RPC_PORT:-18232}:8232"
+      - "127.0.0.1:${Z3_ZEBRA_HOST_HEALTH_PORT:-8080}:8080"
+      # Zaino shares this network namespace (network_mode: service:zebra),
+      # so its ports are published here.
+      - "127.0.0.1:${ZAINO_HOST_GRPC_PORT:-8137}:8137"
+      - "127.0.0.1:${ZAINO_HOST_JSONRPC_PORT:-8237}:8237"
+    volumes:
+      # Zebra's image runs as a non-root `zebra` user and chowns its cache on
+      # first start. A bind mount to a host directory (the default below for
+      # fast-start) makes that chown fail with "permission denied" because the
+      # host path is owned by the macOS user, not the container uid. A named
+      # volume avoids the problem: Docker manages its ownership inside the VM
+      # and chown works. The launcher overrides this with a bind mount only
+      # when fast-start explicitly attaches a host snapshot.
+      - "${Z3_ZEBRA_CACHE_MOUNT:-zebra-cache}:/home/zebra/.cache/zebra"
+    healthcheck:
+      # /ready returns "ok" once synced (ready_max_blocks_behind=2). If the
+      # image lacks curl, reconcile with upstream z3's healthcheck command.
+      test: ["CMD-SHELL", "curl -sf http://localhost:8080/ready || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 60s
+
+  zaino:
+    image: ${ZAINO_IMAGE:-zingodevops/zainod:0.4.1}
+    restart: unless-stopped
+    depends_on:
+      zebra:
+        condition: service_healthy
+    # Share Zebra's network namespace so Zaino reaches Zebra at 127.0.0.1:8232
+    # without TLS. Zaino's ports are published on the zebra service above.
+    network_mode: "service:zebra"
+    # Zaino v0.2.0 requires a TOML config file; env vars alone don't work.
+    # ZAINO_CONFIG_FILE selects the right network config (mainnet/testnet).
+    volumes:
+      - ${ZAINO_CONFIG_FILE:-./zaino/zainod.toml}:/home/container_user/.config/zaino/zainod.toml:ro
+      - zaino-db:/home/container_user/.cache/zaino
+      # Zaino reads Zebra's state DB directly for chain indexing.
+      - ${Z3_ZEBRA_CACHE_MOUNT:-zebra-cache}:/home/zebra/.cache/zebra:ro
+
+  # Zallet is alpha and optional. Requires a three-step init before start:
+  #   1. init-wallet-encryption — creates the encrypted wallet database
+  #   2. generate-mnemonic — generates and stores the BIP-39 seed phrase
+  #   3. start — runs the wallet RPC server
+  # Steps 1–2 are NOT idempotent (init errors on re-run; generate-mnemonic
+  # silently stores a new seed each run), so the launcher drives them via
+  # `docker compose run` (launcher.Stack.EnsureZalletWallet) instead of a
+  # depends_on chain: init runs, and a mnemonic is generated only when init
+  # reports a freshly-created wallet. The services depend only on Zebra.
+
+  zallet-init:
+    image: ${ZALLET_IMAGE:-zodlinc/zallet:v0.1.0-alpha.4}
+    # alpha.4 ships three binaries; zallet-zaino keeps alpha.3's architecture
+    # (embedded indexer over validator RPC). The image default `zallet` is the
+    # new zebra-state backend, which needs direct access to Zebra's state DB.
+    entrypoint: ["zallet-zaino"]
+    profiles: ["zallet"]
+    restart: "no"
+    depends_on:
+      zebra:
+        condition: service_healthy
+    command:
+      - "--datadir"
+      - "/var/lib/zallet"
+      - "--config"
+      - "/etc/zallet/zallet.toml"
+      - "init-wallet-encryption"
+    volumes:
+      - zallet-data:/var/lib/zallet
+      - ${ZALLET_CONFIG_FILE:-./zallet/zallet.mainnet.toml}:/etc/zallet/zallet.toml:ro
+      - ${ZALLET_IDENTITY_FILE:-./zallet/identity.txt}:/etc/zallet/identity.txt:ro
+
+  zallet-mnemonic:
+    image: ${ZALLET_IMAGE:-zodlinc/zallet:v0.1.0-alpha.4}
+    # alpha.4 ships three binaries; zallet-zaino keeps alpha.3's architecture
+    # (embedded indexer over validator RPC). The image default `zallet` is the
+    # new zebra-state backend, which needs direct access to Zebra's state DB.
+    entrypoint: ["zallet-zaino"]
+    profiles: ["zallet"]
+    restart: "no"
+    depends_on:
+      zebra:
+        condition: service_healthy
+    command:
+      - "--datadir"
+      - "/var/lib/zallet"
+      - "--config"
+      - "/etc/zallet/zallet.toml"
+      - "generate-mnemonic"
+    volumes:
+      - zallet-data:/var/lib/zallet
+      - ${ZALLET_CONFIG_FILE:-./zallet/zallet.mainnet.toml}:/etc/zallet/zallet.toml:ro
+      - ${ZALLET_IDENTITY_FILE:-./zallet/identity.txt}:/etc/zallet/identity.txt:ro
+
+  # Imports a user-supplied (or launcher-generated) BIP-39 phrase, read from
+  # stdin. The launcher runs this via `compose run -T zallet-import` and pipes
+  # the phrase in, so it never lands in argv or on disk. Powers both new-wallet
+  # creation (launcher-generated phrase, shown to the user for backup) and
+  # restore-from-seed.
+  zallet-import:
+    image: ${ZALLET_IMAGE:-zodlinc/zallet:v0.1.0-alpha.4}
+    # alpha.4 ships three binaries; zallet-zaino keeps alpha.3's architecture
+    # (embedded indexer over validator RPC). The image default `zallet` is the
+    # new zebra-state backend, which needs direct access to Zebra's state DB.
+    entrypoint: ["zallet-zaino"]
+    profiles: ["zallet"]
+    restart: "no"
+    depends_on:
+      zebra:
+        condition: service_healthy
+    command:
+      - "--datadir"
+      - "/var/lib/zallet"
+      - "--config"
+      - "/etc/zallet/zallet.toml"
+      - "import-mnemonic"
+    volumes:
+      - zallet-data:/var/lib/zallet
+      - ${ZALLET_CONFIG_FILE:-./zallet/zallet.mainnet.toml}:/etc/zallet/zallet.toml:ro
+      - ${ZALLET_IDENTITY_FILE:-./zallet/identity.txt}:/etc/zallet/identity.txt:ro
+
+  zallet:
+    image: ${ZALLET_IMAGE:-zodlinc/zallet:v0.1.0-alpha.4}
+    # alpha.4 ships three binaries; zallet-zaino keeps alpha.3's architecture
+    # (embedded indexer over validator RPC). The image default `zallet` is the
+    # new zebra-state backend, which needs direct access to Zebra's state DB.
+    entrypoint: ["zallet-zaino"]
+    profiles: ["zallet"]
+    restart: unless-stopped
+    # The wallet is initialized by the launcher before this service starts
+    # (launcher.Stack.EnsureZalletWallet), so it depends only on Zebra.
+    depends_on:
+      zebra:
+        condition: service_healthy
+    command:
+      - "--datadir"
+      - "/var/lib/zallet"
+      - "--config"
+      - "/etc/zallet/zallet.toml"
+      - "start"
+    ports:
+      - "127.0.0.1:${ZALLET_HOST_RPC_PORT:-28232}:28232"
+    volumes:
+      - zallet-data:/var/lib/zallet
+      - ${ZALLET_CONFIG_FILE:-./zallet/zallet.mainnet.toml}:/etc/zallet/zallet.toml:ro
+      - ${ZALLET_IDENTITY_FILE:-./zallet/identity.txt}:/etc/zallet/identity.txt:ro
+
+volumes:
+  # Zebra uses a named volume by default so the container can chown it on
+  # first start. Fast-start overrides the volume with a bind mount to a
+  # host snapshot (see config.EnvMap). Zaino/Zallet use named volumes — they
+  # rebuild quickly from Zebra and don't need attaching.
+  zebra-cache:
+  zaino-db:
+  zallet-data:

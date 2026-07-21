@@ -1,0 +1,29 @@
+# Zaino configuration for mainnet/testnet.
+# Mounted into the container at /home/container_user/.config/zaino/zainod.toml.
+# The network is set by the compose env var substitution at build time;
+# for mainnet/testnet this file is used as-is.
+
+backend = 'fetch'
+zebra_db_path = '/home/zebra/.cache/zebra'
+network = 'Mainnet'
+
+[grpc_settings]
+listen_address = '127.0.0.1:8137'
+
+[validator_settings]
+# Zaino shares Zebra's network namespace (network_mode: service:zebra),
+# so Zebra's RPC is reachable at localhost. Using 127.0.0.1 avoids
+# Zaino's TLS requirement for non-localhost addresses.
+validator_jsonrpc_listen_address = '127.0.0.1:8232'
+
+[service]
+timeout = 30
+channel_size = 32
+
+[storage.cache]
+capacity = 10000
+shard_power = 4
+
+[storage.database]
+path = '/home/container_user/.cache/zaino'
+size = 384

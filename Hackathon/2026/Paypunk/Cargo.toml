@@ -1,0 +1,121 @@
+[workspace]
+resolver = "2"
+members = [
+    "config",
+    "ipc",
+    "types",
+    "keypunkd",
+    "paypunkd",
+    "api",
+    "cli",
+    "tests",
+    "protocols/zcash",
+    "protocols/ethereum",
+    "tui",
+    "tools/derive-orchard",
+    "bridge",
+    "pong",
+    "ping", 
+    "logo",
+]
+exclude = ["signer/src-tauri"]
+
+[workspace.package]
+license = "AGPL-3.0-only"
+
+[workspace.dependencies]
+# Async / runtime
+tokio = "1"
+tactix = "1.0.3"
+
+# Serialization
+serde = "1"
+toml = "0.8"
+postcard = "1"
+
+# Crypto
+x25519-dalek = "2"
+blake2 = "0.10"
+rand = "0.8"
+rand_core = { version = "0.6", default-features = false }
+bip39 = "2"
+bip32 = "0.5"
+argon2 = "0.5"
+aes-gcm = "0.10"
+zeroize = "1"
+k256 = "0.13"
+sha3 = "0.10"
+hex = "0.4"
+secp256k1 = "0.29"
+
+# Alloy (Ethereum)
+alloy-primitives = { version = "1", default-features = false, features = ["k256"] }
+alloy-consensus = "1"
+alloy-rlp = "0.3"
+
+# Zcash
+zcash_protocol = "0.9"
+zcash_primitives = "0.28"
+zcash_keys = "0.14"
+zcash_transparent = "0.8"
+zcash_proofs = "0.28"
+zcash_address = "0.12"
+zcash_note_encryption = "0.4"
+zcash_client_backend = { version = "0.23", default-features = false }
+zcash_client_sqlite = "0.21"
+orchard = "0.14"
+zip32 = "0.2"
+pczt = "0.7"
+shardtree = "0.6"
+incrementalmerkletree = "0.8"
+
+# DB / storage
+rusqlite = "0.37"
+secrecy = "0.8"
+
+# gRPC
+tonic = "0.14"
+
+# CLI
+clap = "4"
+
+# Bridge
+actix-web = "4"
+qrcode = { version = "0.14", features = ["svg"] }
+base64 = "0.22"
+
+# Error handling
+thiserror = "2"
+dirs = "6"
+
+# Logging / tracing
+tracing = "0.1"
+tracing-subscriber = "0.3"
+
+# Other
+bytes = "1"
+tempfile = "3"
+async-trait = "0.1"
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls", "json"] }
+serde_json = "1"
+ratatui = { version = "0.30", default-features = false, features = ["crossterm"] }
+tachyonfx = "0.25.1"
+
+# Workspace member path deps
+paypunk-config = { path = "config" }
+paypunk-ipc = { path = "ipc" }
+paypunk-types = { path = "types" }
+keypunkd = { path = "keypunkd" }
+paypunkd = { path = "paypunkd" }
+paypunk-api = { path = "api" }
+paypunk-tui = { path = "tui" }
+paypunk-logo = { path = "logo" }
+paypunk-chains-zcash = { path = "protocols/zcash" }
+paypunk-chains-ethereum = { path = "protocols/ethereum" }
+
+# Dev-only
+futures-util = "0.3"
+prost = "0.14"
+
+[patch.crates-io]
+ratatui-widgets = { path = "vendor/ratatui-widgets" }

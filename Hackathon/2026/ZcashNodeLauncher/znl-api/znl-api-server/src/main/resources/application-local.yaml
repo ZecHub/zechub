@@ -1,0 +1,156 @@
+server:
+  port: 48080
+
+--- #################### Database Related Configuration ####################
+spring:
+  autoconfigure:
+    # noinspection SpringBootApplicationYaml
+    exclude:
+      - com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure # Exclude Druid auto configuration; use dynamic-datasource-spring-boot-starter for multi datasource setup
+      - org.springframework.boot.autoconfigure.quartz.QuartzAutoConfiguration # In local environment, disable Quartz auto‑configuration by default
+  # Data source configuration items
+  datasource:
+    druid: # Druid monitoring-related global configuration
+      web-stat-filter:
+        enabled: true
+      stat-view-servlet:
+        enabled: true
+        allow: # Whitelist; if empty, allow all access
+        url-pattern: /druid/*
+        login-username: # Console login username and password
+        login-password:
+      filter:
+        stat:
+          enabled: true
+          log-slow-sql: true # Record slow SQL
+          slow-sql-millis: 100
+          merge-sql: true
+        wall:
+          config:
+            multi-statement-allow: true
+    dynamic: # Multi‑datasource configuration
+      druid: # Druid connection‑pool related global configuration
+        initial-size: 1 # Initial connection count
+        min-idle: 1 # Minimum number of idle connections
+        max-active: 20 # Maximum number of active connections
+        max-wait: 60000 # Max wait time for obtaining a connection (ms), 1 minute
+        time-between-eviction-runs-millis: 60000 # Interval for checking idle connections to close (ms), 1 minute
+        min-evictable-idle-time-millis: 600000 # Minimum lifetime of a connection in the pool (ms), 10 minutes
+        max-evictable-idle-time-millis: 1800000 # Maximum lifetime of a connection in the pool (ms), 30 minutes
+        validation-query: SELECT 1 FROM DUAL # Query used to validate connection
+        test-while-idle: true
+        test-on-borrow: false
+        test-on-return: false
+        pool-prepared-statements: true # Enable PreparedStatement cache
+        max-pool-prepared-statement-per-connection-size: 20 # Number of cached PreparedStatements per connection
+      primary: master
+      datasource:
+        master:
+          url: jdbc:mysql://127.0.0.1:3307/znl?useSSL=false&serverTimezone=America/Los_Angeles&allowPublicKeyRetrieval=true&nullCatalogMeansCurrent=true&rewriteBatchedStatements=true # Example for MySQL Connector/J 8.x
+          username: root
+          password: 
+
+  # Redis configuration. Redisson's default settings are sufficient; tuning is usually unnecessary
+  redis:
+    host: 127.0.0.1 # Address
+    port: 6379 # Port
+    database: 6 # Database index
+#    password: dev # Password; recommended to enable in production
+
+--- #################### Scheduled Task Related Configuration ####################
+
+# Quartz configuration items, corresponding to QuartzProperties
+spring:
+  quartz:
+    auto-startup: true # In local development, avoid enabling Jobs
+    scheduler-name: schedulerName # Scheduler name; default is schedulerName
+    job-store-type: jdbc # JobStore type; default is memory. jdbc uses database.
+    wait-for-jobs-to-complete-on-shutdown: true # Whether to wait for jobs to finish when shutting down. Default false; recommended true
+    properties: # Additional Quartz Scheduler properties; see official docs
+      org:
+        quartz:
+          # Scheduler related configuration
+          scheduler:
+            instanceName: schedulerName
+            instanceId: AUTO # Auto-generate instance ID
+          # JobStore related configuration
+          jobStore:
+            class: org.springframework.scheduling.quartz.LocalDataSourceJobStore # JobStore implementation class
+            isClustered: true # Enable cluster mode
+            clusterCheckinInterval: 15000 # Cluster check interval (ms). Default 15000 (15s)
+            misfireThreshold: 60000 # Misfire threshold (ms)
+          # Thread pool related configuration
+          threadPool:
+            threadCount: 25 # Thread pool size; default 10
+            threadPriority: 5 # Thread priority
+            class: org.quartz.simpl.SimpleThreadPool # Thread pool type
+    jdbc: # JDBC configuration when using JDBC JobStore
+      initialize-schema: NEVER # Whether to auto‑initialize Quartz tables. Set to never; create manually.
+
+--- #################### Message Queue Related ####################
+
+spring:
+  # RabbitMQ configuration items, corresponding to RabbitProperties
+  rabbitmq:
+    host: 127.0.0.1 # RabbitMQ server address
+    port: 5672 # RabbitMQ server port
+    username: rabbit # RabbitMQ username
+    password: rabbit # RabbitMQ password
+  # Kafka configuration items, corresponding to KafkaProperties
+  kafka:
+    bootstrap-servers: 127.0.0.1:9092 # Kafka Broker addresses; multiple can be comma-separated
+
+--- #################### Service Protection Related Configuration ####################
+
+# Lock4j configuration items
+lock4j:
+  acquire-timeout: 3000 # Timeout for acquiring distributed lock (ms), default 3000
+  expire: 30000 # Distributed lock expiration time (ms), default 30 ms
+
+--- #################### Monitoring Related Configuration ####################
+
+# Actuator monitoring endpoint configuration
+management:
+  endpoints:
+    web:
+      base-path: /actuator # Base path for Actuator API endpoints; default /actuator
+      exposure:
+        include: '*' # Endpoints to expose. Default exposes only health and info. '*' exposes all.
+
+# Spring Boot Admin configuration
+spring:
+  boot:
+    admin:
+      # Spring Boot Admin Client configuration
+      client:
+        url: http://127.0.0.1:${server.port}/${spring.boot.admin.context-path} # Spring Boot Admin Server address
+        instance:
+          service-host-type: IP # Register instance using IP first [IP, HOST_NAME, CANONICAL_HOST_NAME]
+      # Spring Boot Admin Server configuration
+      context-path: /admin # Configure Spring Boot Admin context path
+
+# Log file configuration
+logging:
+  config: classpath:logback-local.xml
+
+debug: false
+
+
+--- #################### Project Related Configuration ####################
+
+# Project configuration items for all custom settings
+znl:
+  dbip:
+    bin-file-path: ${user.home}/dbip/dbip-city-lite-2026-07.mmdb
+  captcha:
+    enable: false # In local environment, disable image captcha temporarily for easier login testing
+  security:
+    mock-enable: true
+  access-log: # Access log configuration
+    enable: false
+  demo: false # Disable demo mode
+  wxa-code:
+    env-version: develop # Mini program version: "release" (prod), "trial" (test), "develop" (dev)
+  wxa-subscribe-message:
+    miniprogram-state: developer # Mini program jump type: developer / trial / formal
+  tencent-lbs-key: TXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX # Tencent Map API key

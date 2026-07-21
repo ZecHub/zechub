@@ -1,0 +1,24 @@
+[package]
+name = "paypunk-bridge"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = { workspace = true }
+actix-ws = "0.3"
+futures-util = { workspace = true }
+qrcode = { workspace = true }
+base64 = { workspace = true }
+paypunk-ipc = { path = "../ipc" }
+rand = { workspace = true }
+blake2 = { workspace = true }
+x25519-dalek = { workspace = true }
+tokio = { workspace = true, features = ["rt-multi-thread", "macros", "net", "signal", "io-util"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[dev-dependencies]
+tempfile = { workspace = true }
+reqwest = { workspace = true }
+futures-util = { workspace = true }
+tokio-tungstenite = "0.24"

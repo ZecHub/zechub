@@ -1,0 +1,24 @@
+[package]
+name = "paypunk-tui"
+version = "0.1.0"
+edition = "2021"
+license.workspace = true
+
+[dependencies]
+ratatui = { version = "0.30", default-features = false, features = ["crossterm"] }
+crossterm = "0.29"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+ratatui-cheese = "0.7"
+ratatui-bubbletea-theme = "0.1"
+ratatui-bubbletea-components = "0.1"
+arboard = "3"
+clap = { workspace = true, features = ["derive"] }
+async-trait = { workspace = true }
+tokio = { workspace = true, features = ["rt", "macros", "sync", "rt-multi-thread"] }
+tracing.workspace = true
+paypunk-config = { path = "../config" }
+paypunk-api = { path = "../api" }
+paypunk-types = { path = "../types" }
+zeroize = { workspace = true }
+postcard = { workspace = true }

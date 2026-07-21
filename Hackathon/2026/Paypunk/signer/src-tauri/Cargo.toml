@@ -1,0 +1,41 @@
+[package]
+name = "paypunk-signer"
+version = "0.1.0"
+description = "PayPunk Signer — Tauri v2 mobile app"
+authors = ["you"]
+edition = "2021"
+
+[lib]
+name = "paypunk_signer_lib"
+crate-type = ["lib", "cdylib", "staticlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-store = "2"
+tauri-plugin-barcode-scanner = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+qrcode = { version = "0.14", features = ["svg"] }
+base64 = "0.22"
+
+# Ping/pong test flow
+paypunk-pong = { path = "../../pong" }
+paypunk-ipc = { path = "../../ipc" }
+
+# Keypunk (key management library)
+keypunkd = { path = "../../keypunkd" }
+
+# Protocol implementations for signer registration
+paypunk-chains-zcash = { path = "../../protocols/zcash", default-features = false }
+paypunk-chains-ethereum = { path = "../../protocols/ethereum" }
+
+# Shared types (wire protocol for bridge QR frames)
+paypunk-types = { path = "../../types" }
+blake2 = { version = "0.10.6" }
+zcash_protocol = { version = "0.9", features = ["local-consensus"] }
+postcard = { version = "1", features = ["alloc"] }
+zeroize = "1"
+rand = "0.8"

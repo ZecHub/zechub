@@ -1,0 +1,32 @@
+[package]
+name = "turnstile-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[features]
+default = []
+zingo = [
+    "dep:zingolib",
+    "dep:pepper-sync",
+    "dep:zingo-netutils",
+    "dep:zip32",
+    "dep:http",
+    "dep:tempfile",
+    "dep:reqwest",
+]
+
+[dependencies]
+serde = { workspace = true }
+thiserror = { workspace = true }
+tracing = { workspace = true }
+
+zingolib = { git = "https://github.com/zingolabs/zingolib.git", rev = "6f507e5", optional = true }
+pepper-sync = { git = "https://github.com/zingolabs/zingolib.git", rev = "6f507e5", optional = true }
+zingo-netutils = { git = "https://github.com/zingolabs/zingolib.git", rev = "6f507e5", optional = true }
+zip32 = { version = "0.2", optional = true }
+http = { version = "1", optional = true }
+tempfile = { version = "3", optional = true }
+reqwest = { version = "0.12", default-features = false, features = [
+    "rustls-tls",
+], optional = true }

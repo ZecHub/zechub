@@ -1,0 +1,37 @@
+[package]
+name = "paypunk-tests"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+paypunk-api.workspace = true
+paypunk-types.workspace = true
+paypunk-chains-zcash.workspace = true
+paypunk-chains-ethereum.workspace = true
+paypunkd.workspace = true
+keypunkd.workspace = true
+paypunk-ipc.workspace = true
+tactix.workspace = true
+tokio = { workspace = true, features = ["rt", "macros"] }
+async-trait.workspace = true
+postcard = { workspace = true, features = ["alloc"] }
+zeroize.workspace = true
+tempfile.workspace = true
+
+# PCZT test dependencies
+pczt = { workspace = true, features = ["orchard", "prover", "signer", "io-finalizer", "spend-finalizer", "tx-extractor", "zcp-builder"] }
+orchard.workspace = true
+zcash_primitives = { workspace = true, features = ["transparent-inputs"] }
+zcash_protocol = { workspace = true, features = ["local-consensus"] }
+zcash_transparent = { workspace = true, features = ["transparent-inputs"] }
+zcash_keys = { workspace = true, features = ["orchard", "sapling", "transparent-inputs"] }
+zip32.workspace = true
+rand_core = { workspace = true, default-features = false, features = ["getrandom"] }
+rand.workspace = true
+secp256k1.workspace = true
+bip39 = { workspace = true, features = ["rand"] }
+shardtree.workspace = true
+incrementalmerkletree.workspace = true
+zcash_note_encryption.workspace = true
+zcash_address.workspace = true

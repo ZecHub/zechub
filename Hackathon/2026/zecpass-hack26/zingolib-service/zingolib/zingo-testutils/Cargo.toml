@@ -1,0 +1,36 @@
+[package]
+name = "zingo-testutils"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+grpc-proxy = ["tonic"]
+default = ["grpc-proxy"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+zingolib = { workspace = true, features = ["testutils"] }
+zingo-netutils = { workspace = true }
+zingo-testvectors = { workspace = true }
+zingo-status = { workspace = true }
+
+zcash_client_backend = { workspace = true, features = [
+    "lightwalletd-tonic-transport",
+] }
+zcash_primitives = { workspace = true }
+zcash_address = { workspace = true }
+orchard = { workspace = true }
+portpicker = { workspace = true }
+tempfile = { workspace = true }
+incrementalmerkletree = { workspace = true }
+
+json = { workspace = true }
+log = { workspace = true }
+tokio = { workspace = true }
+http.workspace = true
+tonic = { workspace = true, optional = true }
+nonempty.workspace = true
+
+[dev-dependencies]
+zingolib = { workspace = true, features = ["testutils"] }

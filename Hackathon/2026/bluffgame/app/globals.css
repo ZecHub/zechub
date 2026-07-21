@@ -1,0 +1,200 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* ── Bluff design system (see CLAUDE.md) ── */
+  --bg-primary: #0a0a0f;
+  --bg-surface: #13131a;
+  --bg-elevated: #1c1c26;
+
+  --accent-red: #ff2d55;
+  --accent-green: #00e676;
+  --accent-yellow: #ffd600;
+  --accent-blue: #2979ff;
+
+  --text-primary: #f0f0f5;
+  --text-muted: #5a5a72;
+  --text-dim: #2e2e3e;
+
+  --card-bg: #1a1a24;
+  --card-border: #2a2a38;
+  --card-back: #0f0f18;
+  --card-face: #f5f5fa;
+
+  --suit-red: #ff2d55;
+  --suit-black: #f0f0f5;
+
+  --font-mono: var(--font-dm-mono), ui-monospace, monospace;
+  --font-sans: var(--font-sora), ui-sans-serif, sans-serif;
+
+  --background: oklch(0.98 0.01 150);
+  --foreground: oklch(0.2 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.2 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.2 0 0);
+  --primary: oklch(0.52 0.16 142.5);
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(0.95 0.02 150);
+  --secondary-foreground: oklch(0.2 0 0);
+  --muted: oklch(0.92 0 0);
+  --muted-foreground: oklch(0.5 0 0);
+  --accent: oklch(0.62 0.22 142.5);
+  --accent-foreground: oklch(1 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(1 0 0);
+  --border: oklch(0.9 0.01 150);
+  --input: oklch(0.96 0.01 150);
+  --ring: oklch(0.62 0.22 142.5);
+  --chart-1: oklch(0.62 0.22 142.5);
+  --chart-2: oklch(0.52 0.16 142.5);
+  --chart-3: oklch(0.72 0.18 150);
+  --chart-4: oklch(0.42 0.14 135);
+  --chart-5: oklch(0.82 0.12 155);
+  --radius: 0.625rem;
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+}
+
+.dark {
+  --background: oklch(0.15 0 0);
+  --foreground: oklch(0.98 0 0);
+  --card: oklch(0.2 0 0);
+  --card-foreground: oklch(0.98 0 0);
+  --popover: oklch(0.2 0 0);
+  --popover-foreground: oklch(0.98 0 0);
+  --primary: oklch(0.72 0.18 150);
+  --primary-foreground: oklch(0.15 0 0);
+  --secondary: oklch(0.3 0 0);
+  --secondary-foreground: oklch(0.98 0 0);
+  --muted: oklch(0.3 0 0);
+  --muted-foreground: oklch(0.65 0 0);
+  --accent: oklch(0.82 0.18 150);
+  --accent-foreground: oklch(0.15 0 0);
+  --destructive: oklch(0.63 0.2 25);
+  --destructive-foreground: oklch(0.97 0 0);
+  --border: oklch(0.3 0 0);
+  --input: oklch(0.25 0 0);
+  --ring: oklch(0.72 0.18 150);
+  --chart-1: oklch(0.72 0.18 150);
+  --chart-2: oklch(0.62 0.22 142.5);
+  --chart-3: oklch(0.82 0.12 155);
+  --chart-4: oklch(0.72 0.16 145);
+  --chart-5: oklch(0.62 0.15 160);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(0.269 0 0);
+  --sidebar-ring: oklch(0.439 0 0);
+}
+
+@theme inline {
+  /* optional: --font-sans, --font-serif, --font-mono if they are applied in the layout.tsx */
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+
+  --color-game-bg: var(--bg-primary);
+  --color-game-surface: var(--bg-surface);
+  --color-game-elevated: var(--bg-elevated);
+  --color-accent-red: var(--accent-red);
+  --color-accent-green: var(--accent-green);
+  --color-accent-yellow: var(--accent-yellow);
+  --color-accent-blue: var(--accent-blue);
+  --color-text-primary: var(--text-primary);
+  --color-text-muted: var(--text-muted);
+  --color-text-dim: var(--text-dim);
+  --color-card-bg: var(--card-bg);
+  --color-card-border: var(--card-border);
+  --color-card-back: var(--card-back);
+  --color-card-face: var(--card-face);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans);
+  }
+}
+
+@layer utilities {
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+  .font-sans {
+    font-family: var(--font-sans);
+  }
+}
+
+/* ── Bluff shared animation keyframes ── */
+@keyframes bluff-flash {
+  0% { opacity: 0; }
+  15% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes bluff-confetti-fall {
+  0% {
+    transform: translateY(-10vh) translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(110vh) translateX(var(--confetti-drift, 0px)) rotate(var(--confetti-spin, 360deg));
+    opacity: 0;
+  }
+}
+
+@keyframes bluff-card-back-grid {
+  0% { background-position: 0 0; }
+  100% { background-position: 16px 16px; }
+}

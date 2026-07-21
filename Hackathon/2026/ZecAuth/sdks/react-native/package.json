@@ -1,0 +1,62 @@
+{
+  "name": "@zecauth/react-native",
+  "version": "0.1.0",
+  "description": "ZecAuth SDK for React Native — Sign in with Zcash. Byte-compatible RedPallas + ZIP-32 auth-key crypto, deep-link & QR handling, and React hooks for building a ZecAuth-enabled wallet.",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "react-native": "dist/index.cjs",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "react-native": "./dist/index.cjs",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test test/*.test.ts",
+    "test:vectors": "node --import tsx test/run-vectors.ts"
+  },
+  "keywords": [
+    "zcash",
+    "zecauth",
+    "authentication",
+    "wallet",
+    "redpallas",
+    "zip32",
+    "react-native",
+    "siwe",
+    "sign-in-with-zcash"
+  ],
+  "dependencies": {
+    "@noble/curves": "^1.6.0",
+    "@noble/hashes": "^1.5.0",
+    "@scure/bip39": "^1.4.0"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-native": ">=0.74"
+  },
+  "peerDependenciesMeta": {
+    "react": { "optional": true },
+    "react-native": { "optional": true }
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.0",
+    "react": "^18.3.1",
+    "tsup": "^8.3.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

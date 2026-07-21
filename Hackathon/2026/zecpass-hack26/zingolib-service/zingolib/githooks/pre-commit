@@ -1,0 +1,13 @@
+#!/bin/sh
+# Run cargo clippy
+cargo clippy -- -D warnings
+
+# If clippy fails, exit with the status code
+if [ $? != 0 ]; then
+    echo "Clippy found errors, aborting commit."
+    exit 1
+fi
+
+# Otherwise, continue
+exit 0
+

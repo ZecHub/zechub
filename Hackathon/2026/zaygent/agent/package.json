@@ -1,0 +1,20 @@
+{
+  "name": "zaygent                                                                                                           ",
+  "version": "1.0.0",
+  "description": "Zaygent Autonomous Trading Agent",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@bitcoinerlab/secp256k1": "^1.2.0",
+    "axios": "^1.6.0",
+    "bitcoinjs-lib": "^6.1.7",
+    "dotenv": "^16.3.1",
+    "node-cron": "^4.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

@@ -1,0 +1,19 @@
+[package]
+name = "steward-cli"
+description = "Steward dev/demo driver: create a vault, distribute shares, simulate a heartbeat lapse, run recovery/inheritance end-to-end"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "steward"
+path = "src/main.rs"
+
+[dependencies]
+steward-core = { path = "../steward-core" }
+# NOTE: steward-signer is deliberately NOT linked here. It lives on an isolated,
+# divergent crate stack (pczt 0.5 / orchard 0.11 git fork) and communicates with
+# the CLI only via process/hex artifacts, preserving workspace isolation.
+serde.workspace = true
+serde_json.workspace = true
+hex.workspace = true

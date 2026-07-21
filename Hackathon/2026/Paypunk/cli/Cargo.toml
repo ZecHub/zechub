@@ -1,0 +1,22 @@
+[package]
+name = "paypunk"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "paypunk"
+path = "src/main.rs"
+
+[dependencies]
+paypunk-config.workspace = true
+paypunk-api.workspace = true
+paypunk-types.workspace = true
+paypunk-tui.workspace = true
+keypunkd.workspace = true
+paypunkd.workspace = true
+paypunk-bridge = { path = "../bridge" }
+tokio = { workspace = true, features = ["rt", "rt-multi-thread", "macros", "net", "time", "signal"] }
+clap = { workspace = true, features = ["derive"] }
+zeroize.workspace = true
+blake2.workspace = true
+postcard = { workspace = true, features = ["alloc"] }

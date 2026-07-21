@@ -1,0 +1,15 @@
+[package]
+name = "paypunk-ping"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "paypunk-ping"
+path = "src/main.rs"
+
+[dependencies]
+paypunk-ipc = { path = "../ipc" }
+tactix = { workspace = true }
+tokio = { workspace = true, features = ["rt", "macros"] }
+clap = { workspace = true, features = ["derive"] }
+tracing-subscriber = { workspace = true, features = ["env-filter"] }

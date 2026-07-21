@@ -1,0 +1,82 @@
+package com.zcashjava.znl.framework.encrypt.core.filter;
+
+import cn.hutool.core.io.IoUtil;
+import cn.hutool.core.util.StrUtil;
+import cn.hutool.crypto.asymmetric.AsymmetricDecryptor;
+import cn.hutool.crypto.asymmetric.KeyType;
+import cn.hutool.crypto.symmetric.SymmetricDecryptor;
+
+import javax.servlet.ReadListener;
+import javax.servlet.ServletInputStream;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletRequestWrapper;
+import java.io.BufferedReader;
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+
+public class ApiDecryptRequestWrapper extends HttpServletRequestWrapper {
+
+    private final byte[] body;
+
+    public ApiDecryptRequestWrapper(HttpServletRequest request,
+                                    SymmetricDecryptor symmetricDecryptor,
+                                    AsymmetricDecryptor asymmetricDecryptor) throws IOException {
+        super(request);
+        
+        String requestBody = StrUtil.utf8Str(
+                IoUtil.readBytes(request.getInputStream(), false));
+
+        
+        body = symmetricDecryptor != null ? symmetricDecryptor.decrypt(requestBody)
+                : asymmetricDecryptor.decrypt(requestBody, KeyType.PrivateKey);
+    }
+
+    @Override
+    public BufferedReader getReader() {
+        return new BufferedReader(new InputStreamReader(this.getInputStream()));
+    }
+
+    @Override
+    public int getContentLength() {
+        return body.length;
+    }
+
+    @Override
+    public long getContentLengthLong() {
+        return body.length;
+    }
+
+    @Override
+    public ServletInputStream getInputStream() {
+        ByteArrayInputStream stream = new ByteArrayInputStream(body);
+        return new ServletInputStream() {
+
+            @Override
+            public int read() {
+                return stream.read();
+            }
+
+            @Override
+            public int available() {
+                return body.length;
+            }
+
+            @Override
+            public boolean isFinished() {
+                return false;
+            }
+
+            @Override
+            public boolean isReady() {
+                return false;
+            }
+
+            @Override
+            public void setReadListener(ReadListener readListener) {
+            }
+
+        };
+    }
+}

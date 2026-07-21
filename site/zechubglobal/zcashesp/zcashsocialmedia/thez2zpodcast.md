@@ -35,6 +35,6 @@ Mantente al día de los próximos episodios:
 
 + Episodio 9 – El Club ZFAV con Ryan Taylor (aka AdjyLeak) (Inglés) [Youtube](https://www.youtube.com/watch?v=BYnhTNkQ-3M) | [Odysee](https://odysee.com/@ZecHub:4/podcast-ryan-taylor:c) | [Spotify](https://open.spotify.com/episode/1TJ6Nycq9nyW2b62ytI3O2)
 
-+ Episodio 10 – Privacidad para el bien público con Amber Baldet (Inglés) [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6) | [Spotify]()
++ Episodio 10 – Privacidad para el bien público con Amber Baldet (Inglés) [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
 Si tienes alguna recomendación sobre a quien te gustaría ver en los próximos episodios del podcast, ¡no dudes en ponerte en contacto con nosotros! Escríbenos por DM a @zechub en Twitter

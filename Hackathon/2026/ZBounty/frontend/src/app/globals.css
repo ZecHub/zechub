@@ -1,0 +1,259 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-sans), sans-serif;
+  --font-mono: var(--font-mono), monospace;
+
+  /* Theme colors from DESIGN.md */
+  --color-background: #fff8f1;
+  --color-foreground: #1f1b11;
+
+  --color-surface: #fff8f1;
+  --color-surface-dim: #e2d9c8;
+  --color-surface-bright: #fff8f1;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #fcf3e1;
+  --color-surface-container: #f6eddc;
+  --color-surface-container-high: #f1e7d6;
+  --color-surface-container-highest: #ebe1d1;
+
+  --color-on-surface: #1f1b11;
+  --color-on-surface-variant: #4e4633;
+  --color-inverse-surface: #353025;
+  --color-inverse-on-surface: #f9f0de;
+  --color-outline: #807660;
+  --color-outline-variant: #d1c5ac;
+
+  --color-primary: #745b00;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #f5c518;
+  --color-on-primary-container: #695200;
+  --color-inverse-primary: #f0c110;
+
+  --color-secondary: #5f5e61;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #e4e1e6;
+  --color-on-secondary-container: #656467;
+
+  --color-tertiary: #00687c;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #49dbff;
+  --color-on-tertiary-container: #005e70;
+
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+
+  --color-border: #e4e4e7;
+
+  /* Custom sizes & shapes */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  
+  --spacing-stack-sm: 8px;
+  --spacing-stack-md: 16px;
+  --spacing-stack-lg: 32px;
+  --spacing-stack-xl: 64px;
+  --spacing-gutter: 24px;
+  --spacing-margin-mobile: 16px;
+  --spacing-margin-desktop: 40px;
+  --spacing-container-max: 1280px;
+}
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-border);
+  }
+  
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+  }
+
+  /* Accessibility Defaults */
+  *:focus-visible {
+    outline: 2px solid #f5c518;
+    outline-offset: 2px;
+  }
+}
+
+/* Typography Utilities as defined in DESIGN.md */
+@utility font-display {
+  font-family: var(--font-sans), sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+}
+
+@utility font-headline-lg {
+  font-family: var(--font-sans), sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+}
+
+@utility font-headline-lg-mobile {
+  font-family: var(--font-sans), sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+@utility font-headline-md {
+  font-family: var(--font-sans), sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+@utility font-body-lg {
+  font-family: var(--font-sans), sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+@utility font-body-md {
+  font-family: var(--font-sans), sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@utility font-label-md {
+  font-family: var(--font-mono), monospace;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+}
+
+@utility font-label-sm {
+  font-family: var(--font-mono), monospace;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+/* Design System Utilities */
+@utility card-shadow {
+  box-shadow: 0px 4px 12px rgba(24, 24, 27, 0.04);
+}
+
+@utility card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    box-shadow: 0px 8px 20px rgba(24, 24, 27, 0.08);
+    border-color: #f5c518;
+  }
+}
+
+@utility btn-primary {
+  background-color: #f5c518;
+  color: #18181b;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s;
+  &:hover {
+    background-color: #d9a912;
+  }
+}
+
+@utility btn-secondary {
+  background-color: transparent;
+  border: 1px solid #e4e4e7;
+  color: #18181b;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s;
+  &:hover {
+    background-color: #fafaf9;
+  }
+}
+
+/* Status Badges */
+@utility status-open {
+  background-color: rgba(245, 197, 24, 0.15);
+  color: #695200;
+}
+
+@utility status-success {
+  background-color: rgba(22, 163, 74, 0.1);
+  color: #16a34a;
+}
+
+@utility status-progress {
+  background-color: #f1e7d6;
+  color: #71717a;
+}
+
+@utility status-review {
+  background-color: rgba(22, 163, 74, 0.1);
+  color: #16a34a;
+}
+
+/* Input Fields */
+@utility input-field {
+  background-color: #ffffff;
+  border: 1px solid #e4e4e7;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+  &:focus {
+    border-color: #f5c518;
+    box-shadow: 0 0 0 2px rgba(245, 197, 24, 0.2);
+    outline: none;
+  }
+}
+
+/* Live Balance Indicator — pulsing green dot */
+@keyframes pulse-dot {
+  0%, 100% {
+    opacity: 1;
+    box-shadow: 0 0 0 0 rgba(22, 163, 74, 0.5);
+  }
+  50% {
+    opacity: 0.75;
+    box-shadow: 0 0 0 4px rgba(22, 163, 74, 0);
+  }
+}
+
+.balance-live-indicator {
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+/* Scale-up animation for modals */
+@keyframes scale-up {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-scale-up {
+  animation: scale-up 0.2s ease-out;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.15s ease-out;
+}
+

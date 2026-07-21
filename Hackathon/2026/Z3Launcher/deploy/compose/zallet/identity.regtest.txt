@@ -1,0 +1,4 @@
+# Regtest-only age identity. No real value — ephemeral test chain.
+# created: 2026-06-06T00:00:00Z
+# public key: age18mulxh38wujjdapu73twzxvlylurw76ttrq34cna002ac65u8geqx9kjwj
+AGE-SECRET-KEY-15CC9D6FFFL8XGMGRX9N0R4RU5CSKQQN87V9E2Y67SFC037Z6LRESDYRJ3Z

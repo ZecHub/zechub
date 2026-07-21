@@ -1,0 +1,65 @@
+# Ywallet FROST ho ɔyɛkyerɛ
+
+## Boaboa FROST bin ahorow ano
+
+https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign
+
+Fa atifi hɔ repo no di dwuma na di akwankyerɛ a ɛfa compiling ho akyi: 
+
+`cargo build --bin trusted-dealer`
+
+`cargo build --bin dkg`
+
+`cargo build --bin coordinator`
+
+`cargo build --bin participants`
+
+Bins bɛyɛ nea wɔde asi wɔn ani so folda no.
+
+
+## Yɛ FROST UA
+
+`./generateFROST_UA.sh`
+
+
+
+## Fa UFVK ba Ywallet mu
+
+Accounts -> Klik + na paste ufvk fi anammɔn a ɛwɔ atifi hɔ no
+
+## Yɛ asɛm bi a ɛfa Ywallet ho
+
+Paste wɔ UA biara mu na fa tx mena. Fa fael no sie.
+
+## Fi ase FROST nsaano nkyerɛwee nhyehyɛe no 
+
+`./signFROST_tx.sh rawtxs/mytx signedtxs/mysignedtx`
+
+kan input ne beae a raw tx no fi anammɔn a ɛwɔ atifi hɔ no
+input a ɛtɔ so mmienu ne beaeɛ ne din a signed tx a wopɛ sɛ wobɔ no
+Eyi yɛ fã bi a woka kyerɛ FROST sɛ transction bɛn na wopɛ sɛ obiara de ne nsa hyɛ ase
+
+## Fi ase Ntamgyinafo
+
+`./runCoordinator.sh`
+
+Eyi na ɛhyehyɛ wɔn a wɔde wɔn ho hyɛ mu biara nsaano nkyerɛwee na ɛma kuw nsaano nkyerɛwee
+
+## Ma Ɔde ne ho hyɛ mu biara mfa ne nsa nhyɛ saa asɛm yi ase
+
+`./participantSign.sh key-package-1.json`
+
+
+`./participantSign.sh key-package-2.json`
+
+## Finalize nsaano nkyerɛwee Transaction
+
+Wɔ coordinator window no mu no, kɔpi kuw signature a ɛrepue no na fa hyɛ FROST signing window no mu.
+Wei bɛma FROST nsaano nkyerɛwee no awie na ɛde 'mysingedtx' afiri adi.
+
+
+## Broadcast wo Transaction ne Ywallet
+
+Klik 'More' wɔ Ywallet ase nifa so na hwehwɛ 'Broadcast'. Hwehwɛ 'mysignedtx' na klik ok.
+
+Sɛ biribiara yɛ adwuma a wobɛnya transaction ID :)

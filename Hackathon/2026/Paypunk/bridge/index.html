@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paypunk Bridge</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #1a1a2e; color: #e0e0e0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      display: flex; justify-content: center; min-height: 100vh; padding: 2rem 1rem;
+    }
+    #app { max-width: 600px; width: 100%; text-align: center; }
+    h1 { font-size: 1.8rem; font-weight: 600; margin-bottom: 1.5rem; color: #e0e0e0; }
+    #status { display: flex; align-items: center; justify-content: center; gap: 0.6rem; margin-bottom: 1.5rem; font-size: 1rem; }
+    .dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; flex-shrink: 0; }
+    .dot.grey { background: #555; }
+    .dot.green { background: #4caf50; }
+    .dot.red { background: #f44336; }
+    #qr-area { background: #16213e; border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; }
+    #qr { max-width: 100%; height: auto; display: block; margin: 0 auto; }
+    #camera-area { margin-bottom: 1.5rem; }
+    #video { width: 100%; max-width: 400px; border-radius: 12px; display: block; margin: 0 auto; }
+    #progress { margin-top: 1rem; font-size: 0.9rem; color: #888; }
+    #error { background: #3e1a1a; color: #ff6b6b; padding: 0.8rem 1rem; border-radius: 8px; margin-bottom: 1rem; font-size: 0.9rem; }
+    .info { color: #888; font-size: 0.85rem; margin-top: 2rem; }
+    button { background: #4caf50; color: #fff; border: none; padding: 0.8rem 2rem; border-radius: 8px; font-size: 1rem; cursor: pointer; margin-bottom: 1rem; }
+    button:hover { background: #43a047; }
+    button:disabled { background: #555; cursor: not-allowed; }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <h1>Paypunk Bridge</h1>
+    <div id="status">
+      <span id="status-dot" class="dot grey"></span>
+      <span id="status-text">Waiting for request...</span>
+    </div>
+    <div id="error" style="display:none"></div>
+    <div id="qr-area" style="display:none">
+      <canvas id="qr" width="400" height="400"></canvas>
+    </div>
+    <div id="camera-area" style="display:none">
+      <video id="video" autoplay playsinline></video>
+      <p id="progress"></p>
+    </div>
+    <button id="scan" style="display:none">Scan Response</button>
+    <div class="info">Point your mobile device's camera at the QR code above to sign the transaction.</div>
+  </div>
+  <script type="importmap">
+  {
+    "imports": {
+      "@ngraveio/bc-ur": "https://esm.sh/@ngraveio/bc-ur@1.1.13",
+      "qrcode": "https://esm.sh/qrcode@1.5.4",
+      "jsqr": "https://esm.sh/jsqr@1.4.0",
+      "buffer": "https://esm.sh/buffer@6"
+    }
+  }
+  </script>
+  <script type="module">
+    import { UR, UREncoder, URDecoder } from '@ngraveio/bc-ur';
+    import QRCode from 'qrcode';
+    import jsQR from 'jsqr';
+    import { Buffer } from 'buffer';
+
+    const MAX_FRAGMENT_LEN = 200;
+
+    function createEncoder(bytes) {
+      console.log('[bridge] createEncoder called, bytes length:', bytes.length, 'bytes:', Array.from(bytes.slice(0, 32)));
+      let ur;
+      try {
+        ur = UR.fromBuffer(Buffer.from(bytes));
+        console.log('[bridge] UR created, type:', ur.type, 'cbor length:', ur.cbor?.length);
+      } catch (e) {
+        console.error('[bridge] UR.fromBuffer failed:', e);
+        throw e;
+      }
+      const encoder = new UREncoder(ur, MAX_FRAGMENT_LEN, 0);
+      console.log('[bridge] UREncoder created, fragments:', encoder.fragmentsLength);
+      return {
+        nextPart: () => {
+          const part = encoder.nextPart();
+          console.log('[bridge] nextPart:', part ? part.substring(0, 60) + '...' : 'null');
+          return part;
+        },
+        get fragmentCount() { return encoder.fragmentsLength; },
+      };
+    }
+
+    function createDecoder() {
+      const decoder = new URDecoder();
+      return {
+        receive(part) {
+          try { decoder.receivePart(part); } catch {}
+        },
+        get progress() { return decoder.estimatedPercentComplete(); },
+        get isComplete() { return decoder.isComplete(); },
+        get result() {
+          if (!decoder.isComplete()) return null;
+          const ur = decoder.resultUR();
+          return new Uint8Array(ur.decodeCBOR());
+        },
+      };
+    }
+
+    const FRAME_RATE = 8;
+
+    function startDisplay(canvas, bytes) {
+      console.log('[bridge] startDisplay called, bytes length:', bytes.length);
+      const encoder = createEncoder(bytes);
+      let timer = null;
+      let frameCount = 0;
+
+      async function tick() {
+        frameCount++;
+        const part = encoder.nextPart();
+        console.log('[bridge] tick', frameCount, 'part:', part ? part.substring(0, 80) : 'null');
+        try {
+          await QRCode.toCanvas(canvas, part, {
+            errorCorrectionLevel: 'L',
+            margin: 2,
+            width: canvas.width,
+          });
+          console.log('[bridge] tick', frameCount, 'QR rendered OK');
+        } catch (e) {
+          console.error('[bridge] QRCode.toCanvas failed:', e);
+        }
+      }
+
+      timer = setInterval(tick, Math.round(1000 / FRAME_RATE));
+      tick();
+      return () => {
+        console.log('[bridge] display stopped');
+        clearInterval(timer);
+      };
+    }
+
+    async function scanBytes(videoEl, { onProgress } = {}) {
+      console.log('[bridge] scanBytes: opening camera...');
+      let stream;
+      try {
+        stream = await navigator.mediaDevices.getUserMedia({
+          video: { facingMode: 'environment' },
+          audio: false,
+        });
+        console.log('[bridge] scanBytes: camera opened, tracks:', stream.getTracks().length);
+      } catch (e) {
+        console.error('[bridge] scanBytes: getUserMedia failed:', e);
+        throw e;
+      }
+      videoEl.srcObject = stream;
+      await videoEl.play();
+      console.log('[bridge] scanBytes: video playing');
+
+      const canvas = document.createElement('canvas');
+      const ctx = canvas.getContext('2d', { willReadFrequently: true });
+      const decoder = createDecoder();
+      let frameCount = 0;
+
+      return new Promise((resolve) => {
+        let raf = 0;
+        const stop = () => {
+          console.log('[bridge] scanBytes: stopping, total frames processed:', frameCount);
+          cancelAnimationFrame(raf);
+          stream.getTracks().forEach((t) => t.stop());
+        };
+
+        function loop() {
+          if (videoEl.readyState === videoEl.HAVE_ENOUGH_DATA) {
+            frameCount++;
+            canvas.width = videoEl.videoWidth;
+            canvas.height = videoEl.videoHeight;
+            ctx.drawImage(videoEl, 0, 0, canvas.width, canvas.height);
+            const img = ctx.getImageData(0, 0, canvas.width, canvas.height);
+            const code = jsQR(img.data, img.width, img.height, {
+              inversionAttempts: 'dontInvert',
+            });
+            if (code && code.data) {
+              console.log('[bridge] scanBytes: QR detected, data:', code.data.substring(0, 80));
+              decoder.receive(code.data);
+              const pct = decoder.progress;
+              console.log('[bridge] scanBytes: decoder progress:', pct);
+              onProgress?.(pct);
+              if (decoder.isComplete) {
+                const bytes = decoder.result;
+                console.log('[bridge] scanBytes: COMPLETE, result bytes:', bytes?.length);
+                stop();
+                resolve(bytes);
+                return;
+              }
+            }
+          }
+          raf = requestAnimationFrame(loop);
+        }
+        loop();
+      });
+    }
+
+    const ws = new WebSocket(`ws://${location.host}/ws`);
+    ws.binaryType = 'arraybuffer';
+    const video = document.getElementById('video');
+    const canvas = document.getElementById('qr');
+    const dot = document.getElementById('status-dot');
+    const text = document.getElementById('status-text');
+    const errorDiv = document.getElementById('error');
+    const qrArea = document.getElementById('qr-area');
+    const cameraArea = document.getElementById('camera-area');
+    const scanBtn = document.getElementById('scan');
+    const progressEl = document.getElementById('progress');
+
+    let stopDisplay = null;
+
+    function showError(msg) {
+      errorDiv.textContent = msg;
+      errorDiv.style.display = 'block';
+    }
+
+    ws.onmessage = (ev) => {
+      const requestBytes = new Uint8Array(ev.data);
+      console.log('[bridge] WS message received, bytes length:', requestBytes.length, 'first bytes:', Array.from(requestBytes.slice(0, 16)));
+      console.log('[bridge] WS message as text:', new TextDecoder().decode(requestBytes.slice(0, 64)));
+      stopDisplay?.();
+      qrArea.style.display = 'block';
+      cameraArea.style.display = 'block';
+      scanBtn.style.display = 'inline-block';
+      dot.className = 'dot green';
+      text.textContent = 'Showing animated QR — point signer at screen';
+      stopDisplay = startDisplay(canvas, requestBytes);
+    };
+
+    ws.onerror = () => showError('WebSocket connection error');
+    ws.onclose = () => showError('WebSocket disconnected');
+
+    scanBtn.onclick = async () => {
+      scanBtn.disabled = true;
+      scanBtn.textContent = 'Scanning...';
+      try {
+        const responseBytes = await scanBytes(video, {
+          onProgress: (p) => { progressEl.textContent = `${Math.round(p * 100)}%`; },
+        });
+        stopDisplay?.();
+        qrArea.style.display = 'none';
+        cameraArea.style.display = 'none';
+        scanBtn.style.display = 'none';
+        progressEl.textContent = '';
+        text.textContent = 'Response received, sending...';
+        dot.className = 'dot green';
+        ws.send(responseBytes);
+        text.textContent = 'Response sent successfully';
+      } catch (e) {
+        showError('Scan failed: ' + e.message);
+      } finally {
+        scanBtn.disabled = false;
+        scanBtn.textContent = 'Scan Response';
+      }
+    };
+  </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+
+
+limit connections: 
+command line:
+-e ZEBRA_NETWORK__PEERSET_INITIAL_TARGET_SIZE=20 \
+-e ZEBRA_NETWORK__MAX_CONNECTIONS_PER_IP=1 \
+
+
+config file:
+[network]
+peerset_initial_target_size = 10
+max_connections_per_ip = 1
+
+
+
+limit cpu usage:
+
+CPUS=$(awk "BEGIN {printf \"%.1f\", $(nproc) * 0.8}")
+
+docker create command: 
+  --cpus="$CPUS" \
+
+
+
+
+

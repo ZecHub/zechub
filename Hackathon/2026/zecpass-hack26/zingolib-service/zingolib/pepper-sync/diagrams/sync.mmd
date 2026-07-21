@@ -1,0 +1,30 @@
+
+flowchart LR
+  %% SYNC
+  START([Start sync]) --> INIT["Initialization"]
+  INIT --> S0
+  S0{Batcher idle?}
+  S0 -- No --> S6
+  S0 -- Yes --> S1{All ranges in wallet state are 'scanned'?}
+  S1 -- Yes --> SHUTDOWN([Shutdown sync])
+  S1 -- No --> S2["Pick highest-priority scan range"]
+  S2 --> S3{Priority is 'historic'?}
+  S3 -- Yes --> S4["Split orchard shard range off lower end"] --> S5["Set range to 'scanning' and send to batcher"]
+  S3 -- No --> S5
+  S5 --> S6
+  S6["Batcher: stream compact blocks until fixed output threshold; store batch; when entire scan range batched, set batcher idle"]
+  subgraph WORKERS[Scan workers]
+    direction LR
+    W1["Scan Worker 1"]
+    W2["Scan Worker 2"]
+    Wn["Scan Worker N"]
+  end
+  S6 --> W1
+  S6 --> W2
+  S6 --> Wn
+  W1 --> PROC_RES["Process scan results"]
+  W2 --> PROC_RES
+  Wn --> PROC_RES
+
+  PROC_RES --> S7["Scan mempool transactions"]
+  S7 --> S0

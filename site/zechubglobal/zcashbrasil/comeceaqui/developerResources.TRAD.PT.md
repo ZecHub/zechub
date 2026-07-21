@@ -34,7 +34,7 @@ Uma lista dos recursos recomendados para novos desenvolvedores Zcash
 
 - [Orchard Book](https://zcash.github.io/orchard/)
 
-- [Halo Crate]() / [Orchard Crate](https://docs.rs/orchard/latest/orchard/)
+- [Halo Crate](https://docs.rs/halo2_proofs/latest/halo2_proofs/) / [Orchard Crate](https://docs.rs/orchard/latest/orchard/)
 
 - [Zcash R&D Discord](https://discord.com/invite/xRVCHQT6)
 

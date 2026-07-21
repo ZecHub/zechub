@@ -1,0 +1,175 @@
+/* ============================================================================
+   Z3 Launcher — premium minimal theme (Zcash gold accent)
+   Tailwind v4. Replaces the old Apple-style index.css.
+   Theme is switched by `document.documentElement.dataset.theme` ("dark"|"light")
+   — see theme.tsx. Components read the semantic CSS variables below.
+   ========================================================================== */
+
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,500,600,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Satoshi", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", monospace;
+}
+
+/* ---- Palette: dark (default) ---------------------------------------------- */
+:root {
+  --bg: #0a0a0b;
+  --surface: #141416;
+  --surface-2: #1b1b1f;
+  --sidebar: #0c0c0e;
+  --line: rgba(255, 255, 255, 0.08);
+  --line-strong: rgba(255, 255, 255, 0.14);
+  --fg: #fafafa;
+  --muted: #a1a1aa;
+  --faint: #6b6b74;
+  --gold: #f4b728;        /* Zcash gold — brand */
+  --gold-text: #f4b728;   /* gold tuned for text/icons on the active bg */
+  --gold-soft: rgba(244, 183, 40, 0.13);
+  --gold-ink: #1c1606;    /* text on a gold fill */
+  --green: #3fb950;
+  --green-soft: rgba(63, 185, 80, 0.14);
+  --red: #f0573f;
+  --red-soft: rgba(240, 87, 63, 0.12);
+  --hover: rgba(255, 255, 255, 0.045);
+  --input: #0e0e10;
+  --shadow: none;
+  color-scheme: dark;
+}
+
+/* ---- Palette: light ------------------------------------------------------- */
+:root[data-theme="light"] {
+  --bg: #f4f3ee;
+  --surface: #ffffff;
+  --surface-2: #faf9f5;
+  --sidebar: #ece9e1;
+  --line: rgba(26, 24, 18, 0.10);
+  --line-strong: rgba(26, 24, 18, 0.17);
+  --fg: #1a1815;
+  --muted: #6b6760;
+  --faint: #9b958a;
+  --gold: #f4b728;
+  --gold-text: #946a06;   /* darker gold so it reads on white */
+  --gold-soft: rgba(244, 183, 40, 0.20);
+  --gold-ink: #1c1606;
+  --green: #1f9d4d;
+  --green-soft: rgba(31, 157, 77, 0.13);
+  --red: #cf3d24;
+  --red-soft: rgba(207, 61, 36, 0.10);
+  --hover: rgba(26, 24, 18, 0.04);
+  --input: #f4f3ee;
+  --shadow: 0 1px 2px rgba(26, 24, 18, 0.05), 0 14px 34px -18px rgba(26, 24, 18, 0.16);
+  color-scheme: light;
+}
+
+@layer base {
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow: hidden;
+  }
+  ::selection { background: rgba(244, 183, 40, 0.22); }
+}
+
+/* ---- Component primitives -------------------------------------------------- */
+@layer components {
+  .z3-card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    box-shadow: var(--shadow);
+  }
+  .z3-card-hover { transition: border-color .2s ease, background .2s ease; }
+  .z3-card-hover:hover { border-color: var(--line-strong); }
+
+  /* Sidebar nav */
+  .z3-nav-item {
+    position: relative;
+    display: flex; align-items: center; gap: 12px; width: 100%;
+    padding: 9px 12px; border-radius: 10px; cursor: pointer;
+    font-size: 13.5px; letter-spacing: -0.01em; text-align: left; font-weight: 500;
+    border: none; background: transparent; color: var(--muted);
+    transition: all .18s ease;
+  }
+  .z3-nav-item:hover { background: var(--hover); color: var(--fg); }
+  .z3-nav-item[data-active="true"] { background: var(--hover); color: var(--fg); font-weight: 700; }
+  .z3-nav-bar {
+    position: absolute; left: -20px; top: 50%; transform: translateY(-50%);
+    width: 3px; height: 18px; border-radius: 99px; background: transparent;
+  }
+  .z3-nav-item[data-active="true"] .z3-nav-bar { background: var(--gold); }
+
+  /* Buttons */
+  .z3-btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+    padding: 10px 17px; border-radius: 11px; font-size: 13px; font-weight: 600;
+    cursor: pointer; border: 1px solid transparent; transition: all .16s ease;
+    font-family: inherit;
+  }
+  .z3-btn:active:not(:disabled) { transform: scale(.97); }
+  .z3-btn:disabled { cursor: not-allowed; }
+  .z3-btn-primary { background: var(--gold); color: var(--gold-ink); font-weight: 700; }
+  .z3-btn-primary:hover:not(:disabled) { filter: brightness(1.05); }
+  .z3-btn-primary:disabled { background: var(--surface-2); color: var(--faint); border-color: var(--line); }
+  .z3-btn-secondary { background: transparent; border-color: var(--line-strong); color: var(--fg); }
+  .z3-btn-secondary:hover:not(:disabled) { background: var(--hover); }
+  .z3-btn-danger { background: transparent; border-color: var(--line); color: var(--red); }
+  .z3-btn-danger:hover:not(:disabled) { background: var(--red-soft); }
+
+  .z3-input {
+    background: var(--input); border: 1px solid var(--line); border-radius: 11px; color: var(--fg);
+  }
+
+  /* Tiny status pill */
+  .z3-pill {
+    display: inline-flex; align-items: center; gap: 7px; padding: 5px 12px; border-radius: 99px;
+    font-size: 11px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase;
+  }
+  .z3-pill-ready { background: var(--green-soft); color: var(--green); }
+  .z3-pill-wait  { background: var(--surface-2); color: var(--faint); }
+
+  /* ---- Back-compat aliases: old class names, new look.
+     Lets components that haven't been migrated yet inherit the redesign. ---- */
+  .apple-card { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; box-shadow: var(--shadow); transition: all .25s ease; }
+  .apple-card-hover:hover { background: var(--hover); border-color: var(--line-strong); }
+  .apple-nav-item { display: flex; align-items: center; gap: 12px; border-radius: 10px; padding: 9px 12px; font-size: 13.5px; font-weight: 500; transition: all .18s ease; }
+  .apple-nav-item-active { background: var(--hover); color: var(--fg); }
+  .apple-nav-item-inactive { color: var(--muted); }
+  .apple-nav-item-inactive:hover { color: var(--fg); background: var(--hover); }
+  .apple-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 11px; background: var(--gold); color: var(--gold-ink); padding: 10px 18px; font-size: 13px; font-weight: 700; transition: all .16s; }
+  .apple-btn-primary:hover:not(:disabled) { filter: brightness(1.05); }
+  .apple-btn-primary:disabled { opacity: .4; }
+  .apple-btn-secondary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 11px; background: transparent; border: 1px solid var(--line-strong); color: var(--fg); padding: 10px 18px; font-size: 13px; font-weight: 600; transition: all .16s; }
+  .apple-btn-secondary:hover:not(:disabled) { background: var(--hover); }
+  .apple-btn-danger { display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 11px; background: transparent; border: 1px solid var(--line); color: var(--red); padding: 10px 18px; font-size: 13px; font-weight: 600; transition: all .16s; }
+  .apple-btn-danger:hover:not(:disabled) { background: var(--red-soft); }
+  .apple-status-dot { height: 8px; width: 8px; border-radius: 99px; }
+}
+
+/* ---- Scrollbar ------------------------------------------------------------- */
+.custom-scrollbar::-webkit-scrollbar,
+*::-webkit-scrollbar { width: 9px; height: 9px; }
+.custom-scrollbar::-webkit-scrollbar-track,
+*::-webkit-scrollbar-track { background: transparent; }
+.custom-scrollbar::-webkit-scrollbar-thumb,
+*::-webkit-scrollbar-thumb { background: rgba(135, 135, 135, .26); border-radius: 99px; }
+.custom-scrollbar::-webkit-scrollbar-thumb:hover,
+*::-webkit-scrollbar-thumb:hover { background: rgba(135, 135, 135, .4); }
+
+/* ---- Motion ---------------------------------------------------------------- */
+@keyframes z3-in { from { opacity: 0; transform: translateY(7px); } to { opacity: 1; transform: none; } }
+.animate-z3-in { animation: z3-in .5s ease both; }
+
+@keyframes z3-pulse { 0%, 100% { opacity: 1; } 50% { opacity: .4; } }
+.animate-z3-pulse { animation: z3-pulse 1.6s ease-in-out infinite; }
+
+/* Indeterminate loader for the Docker install progress (recolored to gold). */
+@keyframes line-loader { 0% { left: -40%; width: 40%; } 50% { left: 25%; width: 50%; } 100% { left: 100%; width: 40%; } }
+.line-loader { position: relative; height: 3px; width: 100%; overflow: hidden; background: var(--line); }
+.line-loader::after { content: ""; position: absolute; top: 0; bottom: 0; border-radius: 99px; background: var(--gold); animation: line-loader 1.2s ease-in-out infinite; }

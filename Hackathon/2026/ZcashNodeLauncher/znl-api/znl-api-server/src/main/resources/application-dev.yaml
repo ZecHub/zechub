@@ -1,0 +1,98 @@
+server:
+  port: 48080
+
+--- #################### Database Related Configuration ####################
+
+spring:
+  autoconfigure:
+    # noinspection SpringBootApplicationYaml
+    exclude:
+      - com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure # Exclude Druid auto configuration; use dynamic-datasource-spring-boot-starter for multi datasource setup
+  datasource:
+    druid: # Druid monitoring-related global configuration
+      web-stat-filter:
+        enabled: true
+      stat-view-servlet:
+        enabled: true
+        allow: # Whitelist; if empty, allow all access
+        url-pattern: /druid/*
+        login-username: # Console login username and password
+        login-password:
+      filter:
+        stat:
+          enabled: true
+          log-slow-sql: true # Record slow SQL
+          slow-sql-millis: 100
+          merge-sql: true
+        wall:
+          config:
+            multi-statement-allow: true
+    dynamic: # Multi‑datasource configuration
+      druid: # Druid connection‑pool related global configuration
+        initial-size: 5 # Initial connection count
+        min-idle: 10 # Minimum number of idle connections
+        max-active: 20 # Maximum number of active connections
+        max-wait: 60000 # Max wait time for obtaining a connection (ms), 1 minute
+        time-between-eviction-runs-millis: 60000 # Interval for checking idle connections to close (ms), 1 minute
+        min-evictable-idle-time-millis: 600000 # Minimum lifetime of a connection in the pool (ms), 10 minutes
+        max-evictable-idle-time-millis: 1800000 # Maximum lifetime of a connection in the pool (ms), 30 minutes
+        validation-query: SELECT 1 FROM DUAL # Query used to validate connection
+        test-while-idle: true
+        test-on-borrow: false
+        test-on-return: false
+        pool-prepared-statements: true # Enable PreparedStatement cache
+        max-pool-prepared-statement-per-connection-size: 20 # Number of cached PreparedStatements per connection
+      primary: master
+      datasource:
+        master:
+          url: jdbc:mysql://127.0.0.1:3306/znl?useSSL=false&serverTimezone=America/Los_Angeles&allowPublicKeyRetrieval=true&nullCatalogMeansCurrent=true&rewriteBatchedStatements=true # Example for MySQL Connector/J 8.x
+          username: root
+          password: 
+        slave: # Simulated slave database; modify as needed
+          lazy: true # Enable lazy loading to improve startup speed
+          url: jdbc:mysql://127.0.0.1:3306/znl?useSSL=false&serverTimezone=America/Los_Angeles&allowPublicKeyRetrieval=true&nullCatalogMeansCurrent=true&rewriteBatchedStatements=true # Example for MySQL Connector/J 8.x
+          username: root
+          password: 
+
+  # Redis configuration. Redisson's default settings are sufficient; tuning is usually unnecessary
+  redis:
+    host: 127.0.0.1 # Address
+    port: 6379 # Port
+    database: 6 # Database index
+#    password: 123456 # Password; recommended to enable in production
+
+
+
+--- #################### Service Protection Related Configuration ####################
+
+# Lock4j configuration items
+lock4j:
+  acquire-timeout: 3000 # Timeout for acquiring distributed lock (ms), default 3000
+  expire: 30000 # Distributed lock expiration time (ms), default 30 ms
+
+--- #################### Monitoring Related Configuration ####################
+
+# Actuator monitoring endpoint configuration
+management:
+  endpoints:
+    web:
+      base-path: /actuator # Base path for Actuator API endpoints; default /actuator
+      exposure:
+        include: '*' # Endpoints to expose. Default exposes only health and info. '*' exposes all endpoints.
+
+# Spring Boot Admin configuration
+spring:
+  boot:
+    admin:
+      # Spring Boot Admin Client configuration
+      client:
+        url: http://127.0.0.1:${server.port}/${spring.boot.admin.context-path} # Spring Boot Admin Server address
+        instance:
+          service-host-type: IP # Use IP when registering instance [IP, HOST_NAME, CANONICAL_HOST_NAME]
+      # Spring Boot Admin Server configuration
+      context-path: /admin # Configure Spring Boot Admin server context path
+
+# Log file configuration
+logging:
+  file:
+    name: ${user.home}/logs/${spring.application.name}.log # Log file name with full path

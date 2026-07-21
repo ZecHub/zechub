@@ -1,0 +1,37 @@
+# Zallet configuration for mainnet.
+# Mounted read-only into the container at /etc/zallet/zallet.toml.
+
+[builder.limits]
+orchard_actions = 250
+
+[consensus]
+network = "main"
+
+[database]
+
+[external]
+
+[features]
+as_of_version = "0.0.0"
+
+[features.deprecated]
+
+[features.experimental]
+
+[indexer]
+# Zallet connects to Zebra's JSON-RPC via the Docker network.
+validator_address = "zebra:8232"
+
+[keystore]
+encryption_identity = "/etc/zallet/identity.txt"
+
+[note_management]
+
+[rpc]
+bind = ["0.0.0.0:28232"]
+timeout = 30
+
+# RPC auth for the launcher to connect. Password is "z3launcher".
+[[rpc.auth]]
+user = "z3launcher"
+pwhash = "66175e28060637f4c57f779579a5c105$825a65903a5fb49d87df644b19f5514e52ba959c63b4850aeb322cf9b7afff27"

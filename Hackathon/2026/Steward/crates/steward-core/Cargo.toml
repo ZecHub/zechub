@@ -1,0 +1,27 @@
+[package]
+name = "steward-core"
+description = "Steward — threshold FROST vault for shielded Zcash: keygen, re-randomized signing, share recovery, policy state machine (core)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+frost-core.workspace = true
+frost-rerandomized.workspace = true
+reddsa.workspace = true
+zip32.workspace = true
+rand.workspace = true
+rand_chacha.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+hex.workspace = true
+thiserror.workspace = true
+# Guardian-verifiable heartbeat (dead-man's-switch proof-of-life). Pure Rust, compiles
+# to wasm32-unknown-unknown. `default-features = false` drops the `rand_core`/`batch`
+# features (the only ones that pull a getrandom needing the wasm `js` shim) and the
+# `fast` precomputed tables (unneeded bloat in the guardian wasm bundle) — leaving just
+# the from-bytes sign/verify used here. Byte-compatible with `@noble/ed25519` in the web apps.
+ed25519-dalek = { version = "2", default-features = false, features = ["std", "zeroize"] }
+
+[dev-dependencies]
+rand.workspace = true

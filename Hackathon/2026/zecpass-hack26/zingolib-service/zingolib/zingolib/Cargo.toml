@@ -1,0 +1,84 @@
+[package]
+name = "zingolib"
+description = "Zingo backend library."
+version = "3.0.1"
+authors = ["<zingo@zingolabs.org>"]
+edition = "2024"
+repository = "https://github.com/zingolabs/zingolib"
+homepage = "https://github.com/zingolabs/zingolib"
+license = "MIT"
+
+[features]
+default = []
+ci = []
+darkside_tests = ["pepper-sync/darkside_test"]
+testutils = ["portpicker", "zingo_test_vectors", "tempfile"]
+
+[dependencies]
+append-only-vec = { workspace = true }
+bech32 = { workspace = true }
+bip0039.workspace = true
+bip32 = { workspace = true, features = ["secp256k1-ffi"] }
+bs58 = { workspace = true, features = ["check"] }
+byteorder = { workspace = true }
+bytes = { workspace = true }
+chrono = { workspace = true }
+dirs.workspace = true
+futures = { workspace = true }
+hex = { workspace = true }
+http.workspace = true
+incrementalmerkletree = { workspace = true }
+json = { workspace = true }
+jubjub = { workspace = true }
+log = { workspace = true }
+nonempty.workspace = true
+orchard = { workspace = true }
+pepper-sync = { workspace = true }
+portpicker = { workspace = true, optional = true }
+prost = { workspace = true }
+rand = { workspace = true }
+ring = { workspace = true }
+rust-embed = { workspace = true, features = ["debug-embed"] }
+rustls.workspace = true
+sapling-crypto.workspace = true
+secp256k1 = { workspace = true }
+secrecy = { workspace = true }
+serde = { workspace = true, features = ["derive"] }
+shardtree = { workspace = true, features = ["legacy-api"] }
+tempfile = { workspace = true, optional = true }
+thiserror = { workspace = true }
+tokio = { workspace = true, features = ["full"] }
+tracing.workspace = true
+tracing-subscriber = { workspace = true }
+zcash_address = { workspace = true }
+zcash_client_backend = { workspace = true, features = [
+    "unstable",
+    "transparent-inputs",
+    "unstable-serialization",
+    "unstable-spanning-tree",
+] }
+zcash_encoding = { workspace = true }
+zcash_keys = { workspace = true }
+zcash_primitives = { workspace = true }
+zcash_proofs = { workspace = true, features = ["download-params"] }
+zcash_protocol = { workspace = true }
+zcash_transparent = { workspace = true }
+zingo-memo = { workspace = true }
+zingo-netutils = { workspace = true, features = ["back_compatible"] }
+zingo-price = { workspace = true }
+zingo-status = { workspace = true }
+zingo_common_components = { workspace = true }
+zingo_test_vectors = { workspace = true, optional = true }
+zip32.workspace = true
+
+[build-dependencies]
+zcash_proofs = { workspace = true, features = ["download-params"] }
+
+[dev-dependencies]
+pepper-sync = { workspace = true, features = ["test-features"] }
+portpicker = { workspace = true }
+tempfile = { workspace = true }
+zingo_test_vectors = { workspace = true }
+
+[badges]
+maintenance = { status = "actively-developed" }

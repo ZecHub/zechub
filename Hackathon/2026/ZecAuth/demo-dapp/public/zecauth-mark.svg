@@ -1,0 +1,6 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ZecAuth mark">
+  <g fill="none" stroke="#E7B43F" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M512 158 L800 254 L800 506 C800 698 670 814 512 872 C354 814 224 698 224 506 L224 254 Z" stroke-width="48"></path>
+    <path d="M410 398 L614 398 L410 568 L614 568" stroke-width="62"></path>
+  </g>
+</svg>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <contextName>znl</contextName>
+    <property name="logback.appname" value="znl" />
+    <property name="logback.logdir"
+        value="./logs/${logback.appname}" />
+    <property name="logback.pattern"
+        value="[%d{yyyy-MM-dd HH:mm:ss.SSS}][%t] %n%c.%M\\(%c{0}.java:%L\\) %n[%-5p]%m %n%n" />
+
+
+
+    <!-- Output to console: ConsoleAppender -->
+    <appender name="consoleTrace"
+        class="ch.qos.logback.core.ConsoleAppender">
+        <!-- Display format: layout -->
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%white(${logback.pattern})</pattern>
+        </layout>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>TRACE</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
+
+    <!-- Output to console: ConsoleAppender -->
+    <appender name="consoleDebug"
+        class="ch.qos.logback.core.ConsoleAppender">
+        <!-- Display format: layout -->
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%gray(${logback.pattern})</pattern>
+        </layout>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>DEBUG</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
+
+    <!-- Output to console: ConsoleAppender -->
+    <appender name="consoleInfo"
+        class="ch.qos.logback.core.ConsoleAppender">
+        <!-- Display format: layout -->
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%black(${logback.pattern})</pattern>
+        </layout>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
+
+    <!-- Output to console: ConsoleAppender -->
+    <appender name="consoleWarn"
+        class="ch.qos.logback.core.ConsoleAppender">
+        <!-- Display format: layout -->
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%red(${logback.pattern})</pattern>
+        </layout>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>WARN</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
+
+    <!-- Output to console: ConsoleAppender -->
+    <appender name="consoleError"
+        class="ch.qos.logback.core.ConsoleAppender">
+        <!-- Display format: layout -->
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%boldRed(${logback.pattern})</pattern>
+        </layout>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
+
+
+
+
+
+
+
+    <appender name="fileInfoLog"
+        class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- If you only want INFO level logs, filtering only INFO will still output ERROR logs because ERROR is higher level. 
+             So we use the following strategy to avoid outputting ERROR logs. -->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <!-- Filter ERROR -->
+            <level>ERROR</level>
+            <!-- Deny when matched -->
+            <onMatch>DENY</onMatch>
+            <!-- Allow when not matched -->
+            <onMismatch></onMismatch>
+        </filter>
+        <!-- Log file name. If <File> is not configured, only FileNamePattern will be used.
+             If both <File> and <FileNamePattern> exist, today's log is <File>, and tomorrow it will be renamed to the date.
+             That means <File> always contains today's logs. -->
+        <File>${logback.logdir}/${logback.appname}.info.log</File>
+        <!-- Rolling policy: roll by time using TimeBasedRollingPolicy -->
+        <rollingPolicy
+            class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- File path defining log splitting — archive each day's logs into a separate file to prevent disk exhaustion -->
+            <FileNamePattern>${logback.logdir}/${logback.appname}.%d{yyyy-MM-dd}.info.log
+            </FileNamePattern>
+            <!-- Keep only the latest 180 days of logs -->
+            <maxHistory>180</maxHistory>
+            <!-- Specify total log size cap; when exceeded, old logs are deleted -->
+            <!-- <totalSizeCap>1GB</totalSizeCap> -->
+        </rollingPolicy>
+        <!-- Log output encoding format -->
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>${logback.pattern}</pattern>
+        </encoder>
+    </appender>
+
+
+    <appender name="fileErrorLog"
+        class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- If you only want ERROR level logs, you must filter them; default is INFO level (ThresholdFilter) -->
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>ERROR</level>
+        </filter>
+        <!-- Log file name. Same behavior as above: <File> is today's log; older logs are renamed by date. -->
+        <File>${logback.logdir}/${logback.appname}.error.log</File>
+        <!-- Rolling policy: roll by time using TimeBasedRollingPolicy -->
+        <rollingPolicy
+            class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- File path defining log splitting — archive each day's logs into a separate file -->
+            <FileNamePattern>${logback.logdir}/${logback.appname}.%d{yyyy-MM-dd}.error.log
+            </FileNamePattern>
+            <!-- Keep only the latest 180 days of logs -->
+            <maxHistory>180</maxHistory>
+            <!-- Specify total log size cap; when exceeded, old logs are deleted -->
+            <!-- <totalSizeCap>1GB</totalSizeCap> -->
+        </rollingPolicy>
+        <!-- Log output encoding format -->
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>${logback.pattern}</pattern>
+        </encoder>
+    </appender>
+
+
+    <logger name="com.google" level="trace"></logger>
+    <logger name="org.springframework" level="debug"></logger>
+    <logger name="org.hibernate.SQL" level="debug"></logger>
+    <logger name="org.hibernate.type.descriptor.sql.BasicBinder"
+        level="trace"></logger>
+    <logger name="org.hibernate.internal.SessionImpl" level="debug"></logger>
+    <logger name="org.hibernate" level="warn"></logger>
+
+
+
+
+    <!-- Specify the base logging level -->
+    <root level="DEBUG">
+        <!-- Appenders will be added to this logger -->
+        <appender-ref ref="consoleTrace" />
+        <appender-ref ref="consoleDebug" />
+        <appender-ref ref="consoleInfo" />
+        <appender-ref ref="consoleWarn" />
+        <appender-ref ref="consoleError" />
+        <appender-ref ref="fileInfoLog" />
+        <appender-ref ref="fileErrorLog" />
+    </root>
+
+
+
+
+</configuration>

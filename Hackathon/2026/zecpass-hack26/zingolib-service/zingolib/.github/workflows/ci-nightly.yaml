@@ -1,0 +1,93 @@
+name: CI (Nightly)
+
+on:
+  workflow_call:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 3 * * *'
+
+jobs:
+
+  pr-checks:
+    needs: [ create-cache-key ]
+    uses: ./.github/workflows/ci-pr.yaml
+
+  cargo-hack-build:
+    name: Cargo Hack Build
+    runs-on: ubuntu-24.04
+    if: ${{ github.event_name != 'pull_request' || !github.event.pull_request.draft }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Rust toolchain
+        uses: actions-rust-lang/setup-rust-toolchain@v1
+        with:
+          toolchain: ${{ inputs.toolchain }}
+
+      - name: Cache cargo
+        uses: Swatinem/rust-cache@v2
+
+      - name: Install protoc
+        run: |
+          if ! command -v protoc; then
+            sudo apt-get update
+            sudo apt-get install -y protobuf-compiler
+          fi
+
+      - name: Run cargo-hack
+        uses: zingolabs/infrastructure/.github/actions/cargo-hack@20485fed7a080e381130ed8120419dc81acae641
+        with:
+          hack-subcommand: build
+
+  create-timestamp:
+    uses: zingolabs/zingo-mobile/.github/workflows/create-timestamp.yaml@dev
+
+  create-cache-key:
+    uses: zingolabs/zingo-mobile/.github/workflows/create-cache-key.yaml@dev
+
+  android-build:
+    strategy:
+      matrix:
+        arch: [ x86_64, x86, arm64-v8a, armeabi-v7a ]
+      fail-fast: false
+    uses: zingolabs/zingo-mobile/.github/workflows/android-build.yaml@dev
+    needs: create-cache-key
+    with:
+      cache-key: ${{ needs.create-cache-key.outputs.cache-key }}
+      arch: ${{ matrix.arch }}
+
+  android-ubuntu-integration-test-ci:
+    strategy:
+      matrix:
+        config:
+          - { abi: x86_64, api-level: 34, target: default }
+          - { abi: x86, api-level: 29, target: default }
+      fail-fast: false
+    uses: zingolabs/zingo-mobile/.github/workflows/android-ubuntu-integration-test-ci.yaml@dev
+    needs: [create-timestamp, create-cache-key, android-build]
+    with:
+      timestamp: ${{ needs.create-timestamp.outputs.timestamp }}
+      cache-key: ${{ needs.create-cache-key.outputs.cache-key }}
+      abi: ${{ matrix.config.abi }}
+      api-level: ${{ matrix.config['api-level'] }}
+      target: ${{ matrix.config.target }}
+
+  ios-build:
+    strategy:
+      fail-fast: false
+    uses: zingolabs/zingo-mobile/.github/workflows/ios-build.yaml@dev
+    needs: create-cache-key
+    with:
+      cache-key: ${{ needs.create-cache-key.outputs.cache-key }}
+
+  ios-integration-test:
+    strategy:
+      fail-fast: false
+    uses: zingolabs/zingo-mobile/.github/workflows/ios-integration-test.yaml@dev
+    needs: [ create-cache-key, ios-build ]
+    with:
+      cache-key: ${{ needs.create-cache-key.outputs.cache-key }}
+
+  test:
+    uses: ./.github/workflows/test.yaml

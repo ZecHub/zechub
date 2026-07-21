@@ -1,0 +1,78 @@
+[workspace]
+members = [".", "core"]
+resolver = "2"
+
+[package]
+name = "frost-app"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+frost-app-core = { path = "core", features = ["wallet"] }
+frost-client = { workspace = true }
+frost-core = { workspace = true }
+frost-ed25519 = { workspace = true }
+frost-rerandomized = { workspace = true }
+reddsa = { workspace = true }
+tauri = { version = "2", features = [] }
+tauri-plugin-shell = "2"
+serde = { workspace = true }
+serde_json = { workspace = true }
+hex = { workspace = true }
+uuid = { workspace = true }
+rand = { workspace = true }
+thiserror = { workspace = true }
+zeroize = { workspace = true }
+tokio = { workspace = true }
+tokio-util = { workspace = true }
+postcard = { workspace = true }
+dirs = { workspace = true }
+tracing = { workspace = true }
+
+[dev-dependencies]
+tauri = { version = "2", features = ["test"] }
+tempfile = "3"
+
+[lib]
+name = "frost_app_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[workspace.dependencies]
+frost-client = { git = "https://github.com/ZcashFoundation/frost-tools.git", rev = "3d2985cfbc5df9314f3882a6d693bbe0d711051f" }
+frost-core = { version = "2.2.0", features = ["serde"] }
+frost-ed25519 = { version = "2.0.0", features = ["serde"] }
+frost-rerandomized = { version = "2.0.0-rc.0", features = ["serde"] }
+reddsa = { git = "https://github.com/ZcashFoundation/reddsa.git", rev = "ed49e9ca0699a6450f6d4a9fe62ff168f5ea1ead", features = ["frost"] }
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls-native-roots"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+toml = "0.8"
+hex = "0.4"
+uuid = { version = "1", features = ["v4", "serde"] }
+rand = "0.8"
+thiserror = "2"
+zeroize = { version = "1.8", features = ["serde", "zeroize_derive"] }
+tokio = { version = "1.42", features = ["rt-multi-thread", "macros", "sync", "time", "process"] }
+tokio-util = "0.7"
+argon2 = "0.5"
+chacha20poly1305 = "0.10"
+bip39 = "2"
+rcgen = "0.13"
+postcard = "1.1"
+bech32 = "0.11"
+dirs = "5"
+tracing = "0.1"
+sha2 = "0.10"
+base64 = "0.22"
+
+# IRONWOOD/NU6.3 TESTNET SPIKE: the zecrocks librustzcash `ironwood-scan-model`
+# fork depends on explicit checkpoint-retention shardtree/incrementalmerkletree
+# (zcash/incrementalmerkletree main, not yet published), so a downstream consumer
+# must replicate the fork's patch. Remove once a published shardtree release cut.
+[patch.crates-io]
+shardtree = { git = "https://github.com/zcash/incrementalmerkletree", rev = "decefc469dbf1e686b20b7e7dcaa7cb4f122125b" }
+incrementalmerkletree = { git = "https://github.com/zcash/incrementalmerkletree", rev = "decefc469dbf1e686b20b7e7dcaa7cb4f122125b" }

@@ -1,0 +1,20 @@
+{
+  "name": "@zecpass/sdk-react",
+  "version": "0.1.0",
+  "description": "React SDK for ZecPass — Sign in with Zcash",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": { "import": "./dist/index.mjs", "require": "./dist/index.js", "types": "./dist/index.d.ts" }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --external react --external react-dom",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "clean": "rm -rf dist"
+  },
+  "peerDependencies": { "react": ">=18", "react-dom": ">=18" },
+  "devDependencies": { "tsup": "^8.3.5", "typescript": "^5.7.3", "react": "^19.0.0", "react-dom": "^19.0.0", "@types/react": "^19.0.0" },
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/zecpass/zecpass", "directory": "packages/sdk-react" }
+}

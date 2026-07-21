@@ -1,0 +1,486 @@
+/* Steward guardian app — the approval moment.
+   All palette/type comes from web/shared/tokens.css. Never hardcode a hex here.
+   Shared structure (shell, buttons, inputs, notices, the quorum seal) matches the
+   owner console so the two apps read as one world. */
+
+:root {
+  --shell-max: 1040px;
+  --edge: clamp(1.1rem, 0.6rem + 2.5vw, 3rem);
+  --border-soft: 1px solid color-mix(in oklab, var(--grain) 70%, transparent);
+  --raise: color-mix(in oklab, var(--bone) 5%, transparent);
+}
+
+body {
+  min-height: 100dvh;
+}
+
+::selection {
+  background: color-mix(in oklab, var(--state) 40%, transparent);
+  color: var(--bone);
+}
+
+/* ---------------------------------------------------------------- shell --- */
+.shell {
+  position: relative;
+  min-height: 100dvh;
+  max-width: var(--shell-max);
+  margin-inline: auto;
+  padding: clamp(1.2rem, 0.8rem + 2vw, 2.4rem) var(--edge) 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1.4rem, 1rem + 2vw, 2.6rem);
+}
+
+/* The structural motif — WOOD-GRAIN (the shared .woodgrain, keyed to --state so the
+   hearth-glow tracks the vault's life). Vertical warm streaks + a low state-tinted glow
+   from top and bottom. Replaces ZecAuth's horizontal ledger hairlines. */
+.shell-grain {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-color: var(--ironwood);
+  background-image:
+    radial-gradient(120% 72% at 50% -8%, color-mix(in oklab, var(--state) 13%, transparent), transparent 55%),
+    radial-gradient(90% 55% at 50% 118%, color-mix(in oklab, var(--state) 7%, transparent), transparent 55%),
+    repeating-linear-gradient(91deg,
+      transparent 0 37px,
+      color-mix(in oklab, var(--grain) 55%, transparent) 37px 38px,
+      transparent 38px 71px),
+    repeating-linear-gradient(89.4deg,
+      transparent 0 113px,
+      color-mix(in oklab, #000 22%, transparent) 113px 115px,
+      transparent 115px 260px),
+    repeating-linear-gradient(90.6deg,
+      transparent 0 19px,
+      color-mix(in oklab, var(--bone) 3%, transparent) 19px 20px,
+      transparent 20px 53px);
+  transition: background-color 900ms var(--ease);
+}
+
+.shell-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.shell-main { flex: 1; }
+.shell-foot {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding-top: 1.4rem;
+  border-top: var(--border-soft);
+}
+
+/* ------------------------------------------------------------- wordmark --- */
+.wordmark {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.2rem 0.1rem;
+}
+.wordmark-name {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.35rem, 1.1rem + 0.8vw, 1.7rem);
+  letter-spacing: 0.005em;
+  line-height: 1;
+}
+.wordmark-name::first-letter { color: var(--state); }
+.wordmark-sub { color: var(--bone-dim); }
+
+/* ----------------------------------------------------------------- chip --- */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.7rem;
+  border: 1px solid color-mix(in oklab, var(--state) 45%, var(--grain));
+  border-radius: 999px;
+  background: color-mix(in oklab, var(--state) 10%, transparent);
+}
+.chip-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--state);
+  box-shadow: 0 0 0 0 color-mix(in oklab, var(--state) 60%, transparent);
+  animation: chip-breathe 2.4s var(--ease) infinite;
+}
+.chip[data-tone='recoverable'] .chip-dot { animation: none; }
+.chip-label { color: var(--bone); text-transform: capitalize; }
+@keyframes chip-breathe {
+  0%, 100% { box-shadow: 0 0 0 0 color-mix(in oklab, var(--state) 55%, transparent); }
+  50% { box-shadow: 0 0 0 5px color-mix(in oklab, var(--state) 0%, transparent); }
+}
+
+/* --------------------------------------------------------------- panels --- */
+.panel {
+  position: relative;
+  background: var(--ironwood-raised);
+  border: var(--line);
+  border-radius: var(--radius-lg);
+  padding: clamp(1.1rem, 0.8rem + 1vw, 1.6rem);
+  box-shadow: inset 0 1px 0 var(--raise);
+}
+
+.lede {
+  max-width: 60ch;
+  color: color-mix(in oklab, var(--bone) 82%, var(--bone-dim));
+  font-size: var(--step-1);
+  line-height: 1.5;
+  margin: 0;
+}
+.lede strong { color: var(--bone); font-weight: 600; }
+.fine {
+  color: var(--bone-dim);
+  font-size: var(--step--1);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* -------------------------------------------------------------- buttons --- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-family: var(--font-body);
+  font-size: var(--step-0);
+  font-weight: 500;
+  line-height: 1;
+  padding: 0.8rem 1.15rem;
+  border: 1px solid var(--grain);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--bone);
+  cursor: pointer;
+  transition: border-color 180ms var(--ease), background 180ms var(--ease), color 180ms var(--ease), transform 120ms var(--ease);
+}
+.btn:hover {
+  border-color: color-mix(in oklab, var(--state) 60%, var(--grain));
+  background: color-mix(in oklab, var(--state) 12%, transparent);
+}
+.btn:active { transform: translateY(1px); }
+.btn:disabled { opacity: 0.55; cursor: not-allowed; }
+
+.btn--primary {
+  background: var(--ember);
+  border-color: var(--ember);
+  color: var(--ironwood);
+  font-weight: 600;
+}
+.btn--primary:hover {
+  background: color-mix(in oklab, var(--ember) 88%, var(--bone));
+  border-color: color-mix(in oklab, var(--ember) 88%, var(--bone));
+}
+
+.btn--ghost {
+  border-color: transparent;
+  padding-inline: 0.3rem;
+  color: color-mix(in oklab, var(--bone) 88%, var(--bone-dim));
+}
+.btn--ghost:hover { background: transparent; color: var(--state); }
+.btn--sm { font-size: var(--step--1); padding: 0.4rem 0.5rem; }
+
+/* -------------------------------------------------------------- notices --- */
+.notice {
+  border-radius: var(--radius);
+  padding: 0.9rem 1.05rem;
+  font-size: var(--step-0);
+  line-height: 1.5;
+}
+.notice--grave {
+  background: color-mix(in oklab, var(--char) 16%, transparent);
+  border: 1px solid color-mix(in oklab, var(--char) 55%, var(--grain));
+  color: color-mix(in oklab, var(--bone) 90%, var(--char));
+}
+/* Engraved into the wood — small-caps Fraunces, not ZecAuth's mono-uppercase label. */
+.notice-title {
+  font-family: var(--font-display);
+  font-variant: small-caps;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1;
+  font-size: var(--step-0);
+  color: var(--char);
+  text-shadow: 0 1px 0 color-mix(in oklab, #000 45%, transparent);
+  margin: 0 0 0.3rem;
+}
+.notice p { margin: 0; }
+
+/* ---------------------------------------------------------------- forms --- */
+.field-group { display: flex; flex-direction: column; gap: 1.1rem; }
+.field-head { display: flex; flex-direction: column; gap: 0.25rem; }
+.field-hint { color: var(--bone-dim); font-size: var(--step--1); margin: 0; }
+.field { display: flex; flex-direction: column; gap: 0.4rem; }
+.field-label { color: var(--bone-dim); }
+.field-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.9rem; }
+
+.input {
+  font-family: var(--font-body);
+  font-size: var(--step-0);
+  color: var(--bone);
+  background: color-mix(in oklab, var(--ironwood) 60%, var(--ironwood-raised));
+  border: var(--line);
+  border-radius: var(--radius);
+  padding: 0.7rem 0.85rem;
+  transition: border-color 160ms var(--ease), box-shadow 160ms var(--ease);
+  width: 100%;
+}
+.input::placeholder { color: color-mix(in oklab, var(--bone-dim) 70%, transparent); }
+.input:focus {
+  outline: none;
+  border-color: var(--ember);
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--ember) 22%, transparent);
+}
+.input--mono { font-family: var(--font-mono); font-size: var(--step--1); letter-spacing: -0.01em; }
+.textarea { resize: vertical; min-height: 5.5rem; line-height: 1.5; }
+
+/* Accessible-only input: the styled button drives it, keyboard focus stays real. */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ================================================================ ENROLL == */
+.enroll {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1rem, 0.7rem + 1.4vw, 1.8rem);
+  max-width: 680px;
+}
+.enroll-head { display: flex; flex-direction: column; gap: 0.7rem; }
+.enroll-title { font-size: var(--step-3); letter-spacing: -0.01em; }
+.enroll-fromlink { color: var(--flare); }
+.enroll-actions { display: flex; flex-direction: column; gap: 0.7rem; }
+
+/* the restore-from-backup path + its divider */
+.enroll-import { gap: 0.9rem; }
+.enroll-import-row { display: flex; }
+.enroll-or {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin: 0;
+  color: var(--bone-dim);
+}
+.enroll-or::before,
+.enroll-or::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: color-mix(in oklab, var(--grain) 70%, transparent);
+}
+
+/* ================================================================ UNLOCK == */
+.unlock {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1rem, 0.7rem + 1.4vw, 1.6rem);
+  max-width: 560px;
+}
+.unlock-head { display: flex; flex-direction: column; gap: 0.6rem; }
+.unlock-title { font-size: var(--step-3); letter-spacing: -0.01em; }
+.unlock-card { display: flex; flex-direction: column; gap: 1.1rem; }
+.unlock-actions { display: flex; flex-direction: column; gap: 0.5rem; }
+.unlock-actions .btn { width: 100%; }
+.unlock-forget { align-self: flex-start; color: var(--bone-dim); }
+
+/* export-backup block: encrypted share → downloadable file */
+.unlock-backup { display: flex; flex-direction: column; gap: 0.8rem; align-items: flex-start; }
+.unlock-backup .field-hint { max-width: 52ch; }
+
+/* the id bar (also reused on Watch) */
+.idbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.6rem;
+  align-items: center;
+  margin: 0;
+}
+.idbar-item { display: flex; flex-direction: column; gap: 0.15rem; }
+.idbar-item dt, .idbar-item .eyebrow { margin: 0; }
+.idbar-item dd { margin: 0; color: var(--bone); }
+.idbar .data { font-size: var(--step-0); }
+
+/* ================================================================ WATCH === */
+.watch { display: flex; flex-direction: column; gap: clamp(1.2rem, 0.9rem + 1.4vw, 2rem); }
+.watch-idbar { padding: 0.9rem 1.1rem; }
+.watch-idbar .idbar-actions { margin-left: auto; display: flex; gap: 0.3rem; }
+.watch-more { color: var(--bone-dim); }
+
+/* --- the approval / ceremony hero: seal + body --- */
+.approval {
+  display: grid;
+  grid-template-columns: minmax(240px, 300px) 1fr;
+  gap: clamp(1.4rem, 1rem + 2vw, 3rem);
+  align-items: start;
+}
+.approval-body { display: flex; flex-direction: column; gap: 1rem; }
+.approval-headline { font-size: var(--step-3); letter-spacing: -0.01em; }
+.approval-actions { display: flex; gap: 0.7rem; flex-wrap: wrap; }
+.approval-actions .btn { flex: 1; min-width: 10rem; }
+
+/* what you're signing */
+.req-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin: 0;
+  border: var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: color-mix(in oklab, var(--ironwood) 40%, var(--ironwood-raised));
+}
+.req-row {
+  display: grid;
+  grid-template-columns: 7.5rem 1fr;
+  gap: 0.8rem;
+  align-items: baseline;
+  padding: 0.7rem 0.9rem;
+  border-bottom: var(--border-soft);
+}
+.req-row:last-child { border-bottom: 0; }
+.req-row dt { margin: 0; }
+.req-row dd { margin: 0; color: var(--bone); word-break: break-word; }
+.req-sighash, .req-amount { color: var(--ember); }
+
+/* --- co-sign progress steps --- */
+.cosign-steps {
+  list-style: none;
+  margin: 0;
+  padding: 0.4rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.cosign-step { display: flex; align-items: center; gap: 0.7rem; }
+.cosign-dot {
+  width: 12px; height: 12px; flex: 0 0 auto;
+  border-radius: 50%;
+  border: 2px solid var(--grain);
+  background: transparent;
+  transition: background 300ms var(--ease), border-color 300ms var(--ease), box-shadow 300ms var(--ease);
+}
+.cosign-label { color: var(--bone-dim); font-size: var(--step-0); }
+.cosign-step[data-state='active'] .cosign-dot {
+  border-color: var(--state);
+  background: var(--state);
+  box-shadow: 0 0 0 0 color-mix(in oklab, var(--state) 55%, transparent);
+  animation: cosign-pulse 1.4s var(--ease) infinite;
+}
+.cosign-step[data-state='active'] .cosign-label { color: var(--bone); }
+.cosign-step[data-state='done'] .cosign-dot { border-color: var(--brass-faint); background: var(--brass-faint); }
+.cosign-step[data-state='done'] .cosign-label { color: color-mix(in oklab, var(--bone) 80%, var(--bone-dim)); }
+@keyframes cosign-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 color-mix(in oklab, var(--state) 55%, transparent); }
+  50% { box-shadow: 0 0 0 6px color-mix(in oklab, var(--state) 0%, transparent); }
+}
+
+/* --- outcome --- */
+.outcome { display: flex; flex-direction: column; gap: 0.6rem; }
+.outcome-grave { font-family: var(--font-display); font-size: var(--step-1); color: var(--bone); margin: 0; }
+
+.watching .approval-headline { color: color-mix(in oklab, var(--bone) 78%, var(--bone-dim)); }
+
+/* --- the seal (SIGNATURE 2) — copied from the owner console --- */
+.seal-stage { display: flex; flex-direction: column; align-items: center; gap: 1rem; }
+.seal-wrap { position: relative; width: min(260px, 78vw); aspect-ratio: 1; }
+.seal { display: block; width: 100%; height: 100%; overflow: visible; }
+.seal-base { fill: none; stroke: var(--grain); stroke-width: 1; opacity: 0.5; }
+.seal-arc {
+  fill: none;
+  stroke: var(--grain);
+  stroke-width: 13;
+  stroke-linecap: round;
+  transition: stroke 500ms var(--ease), filter 500ms var(--ease);
+}
+.seal-arc[data-lit='true'] {
+  stroke: var(--ember);
+  filter: drop-shadow(0 0 8px color-mix(in oklab, var(--ember) 65%, transparent));
+}
+.seal[data-closed='true'] .seal-arc {
+  stroke: var(--ember);
+  filter: drop-shadow(0 0 12px color-mix(in oklab, var(--ember) 70%, transparent));
+}
+.seal[data-refused='true'] .seal-arc[data-lit='true'] { stroke: var(--char); }
+.seal-inner {
+  fill: none;
+  stroke: transparent;
+  stroke-width: 1;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+.seal[data-closed='true'] .seal-inner {
+  stroke: color-mix(in oklab, var(--ember) 45%, transparent);
+  animation: seal-close 800ms var(--ease);
+}
+@keyframes seal-close {
+  from { transform: scale(0.55); opacity: 0; }
+  60% { opacity: 1; }
+  to { transform: scale(1); opacity: 1; }
+}
+.seal-center {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  pointer-events: none;
+}
+.seal-count {
+  font-size: clamp(2rem, 1.4rem + 2.5vw, 2.8rem);
+  color: var(--bone);
+  line-height: 1;
+}
+.seal-wrap[data-closed='true'] .seal-count { color: var(--ember); }
+.seal-wrap[data-refused='true'] .seal-count { color: var(--char); }
+.seal-sep { color: var(--bone-dim); margin-inline: 0.15rem; }
+.seal-word { color: var(--bone-dim); }
+.seal-wrap[data-closed='true'] .seal-word { color: var(--ember); }
+.seal-wrap[data-refused='true'] .seal-word { color: var(--char); }
+.seal-caption { font-size: var(--step--1); color: var(--bone-dim); text-align: center; min-height: 1.4em; max-width: 24ch; }
+.seal-caption[data-phase='sealed'] { color: var(--ember); }
+.seal-caption[data-phase='error'] { color: var(--char); }
+
+/* ------------------------------------------ release proof-of-life gate --- */
+/* The guardian's own verdict on the owner's signed heartbeat, before it will arm a
+   release. A left accent bar reads the hearth metaphor: ember = permitted (lapsed),
+   flare = held (a heartbeat still stands), neutral = still verifying. */
+.gate {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  border-left: 3px solid var(--grain);
+}
+.gate .eyebrow { color: var(--bone-dim); }
+.gate--armed { border-left-color: var(--ember); }
+.gate--armed .eyebrow { color: var(--ember); }
+.gate--held { border-left-color: var(--flare); }
+.gate--held .eyebrow { color: var(--flare); }
+.gate--checking { border-left-color: var(--brass-faint); }
+
+/* ---------------------------------------------------------- responsive --- */
+@media (max-width: 760px) {
+  .approval { grid-template-columns: 1fr; }
+  .seal-stage { order: -1; }
+  .watch-idbar .idbar-actions { margin-left: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chip-dot, .seal-inner, .cosign-step[data-state='active'] .cosign-dot { animation: none !important; }
+}

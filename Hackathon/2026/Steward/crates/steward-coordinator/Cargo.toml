@@ -1,0 +1,38 @@
+[package]
+name = "steward-coordinator"
+description = "Steward coordinator: transport-agnostic FROST signing-session orchestration + dead-man's-switch policy gate. Holds NO secret shares."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+name = "steward_coordinator"
+path = "src/lib.rs"
+
+[[bin]]
+name = "steward-coordinator"
+path = "src/main.rs"
+
+[dependencies]
+steward-core = { path = "../steward-core" }
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+rand.workspace = true
+hex.workspace = true
+# HTTP layer (increment B): the coordinator serves as its own HTTP relay
+# (implements the `Transport` seam over the wire) + a control plane. The sync
+# ceremony/guardian logic is unchanged; async only wraps it (spawn_blocking).
+axum = "0.8"
+# `process` + `time`: the control plane shells out to the prebuilt `steward-signer`
+# binary (isolated crate stack — cannot be linked) via `tokio::process` with a timeout
+# to derive the on-chain address / UFVK and run the no-node balance scan. See `signer`.
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "net", "process", "time"] }
+# reqwest without a TLS backend: the MVP relay is plain HTTP (see the trust note
+# in the `http` module + PROTOCOL.md §2). Blocking client so the guardian-side
+# `HttpTransport` slots into the existing synchronous `Transport` trait unchanged.
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json"] }
+# tonic (Zaino gRPC vault scanner) + the frostd+Noise Transport hardening land later.
+
+[dev-dependencies]
+rand.workspace = true

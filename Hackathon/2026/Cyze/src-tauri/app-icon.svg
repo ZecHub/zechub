@@ -1,0 +1,43 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="1024" rx="224" fill="#0c1118"/>
+  <rect x="24" y="24" width="976" height="976" rx="204" fill="none" stroke="#1a2536" stroke-width="8"/>
+  <g transform="translate(512,512) scale(9.4)" stroke="#f4b728" stroke-linecap="round" fill="none">
+    <g transform="rotate(0)">
+      <line x1="0" y1="0" x2="38" y2="0" stroke-width="2.6"/>
+      <line x1="20" y1="0" x2="26" y2="-9.5" stroke-width="1.7"/>
+      <line x1="20" y1="0" x2="26" y2="9.5" stroke-width="1.7"/>
+      <circle cx="38" cy="0" r="3.2" fill="#f4b728" stroke="none"/>
+    </g>
+    <g transform="rotate(60)">
+      <line x1="0" y1="0" x2="38" y2="0" stroke-width="2.6"/>
+      <line x1="20" y1="0" x2="26" y2="-9.5" stroke-width="1.7"/>
+      <line x1="20" y1="0" x2="26" y2="9.5" stroke-width="1.7"/>
+      <circle cx="38" cy="0" r="3.2" fill="#f4b728" stroke="none"/>
+    </g>
+    <g transform="rotate(120)">
+      <line x1="0" y1="0" x2="38" y2="0" stroke-width="2.6"/>
+      <line x1="20" y1="0" x2="26" y2="-9.5" stroke-width="1.7"/>
+      <line x1="20" y1="0" x2="26" y2="9.5" stroke-width="1.7"/>
+      <circle cx="38" cy="0" r="3.2" fill="#f4b728" stroke="none"/>
+    </g>
+    <g transform="rotate(180)">
+      <line x1="0" y1="0" x2="38" y2="0" stroke-width="2.6"/>
+      <line x1="20" y1="0" x2="26" y2="-9.5" stroke-width="1.7"/>
+      <line x1="20" y1="0" x2="26" y2="9.5" stroke-width="1.7"/>
+      <circle cx="38" cy="0" r="3.2" fill="#f4b728" stroke="none"/>
+    </g>
+    <g transform="rotate(240)">
+      <line x1="0" y1="0" x2="38" y2="0" stroke-width="2.6"/>
+      <line x1="20" y1="0" x2="26" y2="-9.5" stroke-width="1.7"/>
+      <line x1="20" y1="0" x2="26" y2="9.5" stroke-width="1.7"/>
+      <circle cx="38" cy="0" r="3.2" fill="#f4b728" stroke="none"/>
+    </g>
+    <g transform="rotate(300)">
+      <line x1="0" y1="0" x2="38" y2="0" stroke-width="2.6"/>
+      <line x1="20" y1="0" x2="26" y2="-9.5" stroke-width="1.7"/>
+      <line x1="20" y1="0" x2="26" y2="9.5" stroke-width="1.7"/>
+      <circle cx="38" cy="0" r="3.2" fill="#f4b728" stroke="none"/>
+    </g>
+    <circle cx="0" cy="0" r="6" fill="#f4b728" stroke="none"/>
+  </g>
+</svg>

@@ -11,7 +11,7 @@ Un importante uso potenziale delle ZSA sarebbe l'emissione di stablecoin sul pro
 
 Un altro potenziale utilizzo delle ZSA sarebbe per l'emissione di token di governance. Ad esempio, Zechub (l'editore di questa wiki) è un'organizzazione autonoma decentralizzata (DAO) e potrebbe creare e rilasciare ai suoi membri un token ZSA allo scopo di votare proposte e decisioni di governance.
 
-Gli ZSA sono sviluppati da[ QEDIT,](https://https//qed-it.com/) nell'ambito di un'importante sovvenzione della[ Zcash Foundation](https://wiki.zechub.xyz/zcash-foundation) in collaborazione con la[ Electric Coin Company](https://wiki.zechub.xyz/electric-coin-company).
+Gli ZSA sono sviluppati da[ QEDIT,](https://qed-it.com/) nell'ambito di un'importante sovvenzione della[ Zcash Foundation](https://wiki.zechub.xyz/zcash-foundation) in collaborazione con la[ Electric Coin Company](https://wiki.zechub.xyz/electric-coin-company).
 
 Poiché questo progetto è ancora attivamente sviluppato, gli aggiornamenti sono pubblicati su[ questo](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153) thread del forum Zcash. La[ domanda di sovvenzione ZSA di](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/) QEDIT è disponibile sul sito web delle sovvenzioni della Zcash Foundation. Come riferimento, il post originale del forum di QEDIT sulla loro proposta può essere trovato[ qui](https://forum.zcashcommunity.com/t/a-proposal-for-shielded-assets-zsa-uda-for-defi-on-zcash/40520).
 

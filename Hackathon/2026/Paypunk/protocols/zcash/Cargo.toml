@@ -1,0 +1,56 @@
+[package]
+name = "paypunk-chains-zcash"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = ["wallet"]
+wallet = [
+    "dep:tactix",
+    "dep:tokio",
+    "dep:zcash_client_backend",
+    "dep:zcash_client_sqlite",
+    "dep:rusqlite",
+    "dep:tonic",
+    "dep:reqwest",
+    "dep:serde_json",
+    "dep:secrecy",
+]
+
+[dependencies]
+paypunk-types.workspace = true
+orchard.workspace = true
+async-trait.workspace = true
+zcash_address.workspace = true
+zcash_protocol = { workspace = true, features = ["local-consensus"] }
+zcash_primitives = { workspace = true, features = ["transparent-inputs"] }
+zcash_keys = { workspace = true, features = ["orchard", "sapling", "transparent-inputs"] }
+zcash_proofs = { workspace = true, features = ["bundled-prover"] }
+pczt = { workspace = true, features = ["orchard", "prover", "signer", "io-finalizer", "spend-finalizer", "tx-extractor", "zcp-builder"] }
+zcash_transparent = { workspace = true, features = ["transparent-inputs"] }
+zip32.workspace = true
+rand_core = { workspace = true, default-features = false, features = ["getrandom"] }
+rand.workspace = true
+thiserror.workspace = true
+postcard = { workspace = true, features = ["alloc"] }
+hex.workspace = true
+
+# Wallet / actor dependencies
+zcash_client_backend = { workspace = true, default-features = false, features = ["orchard", "lightwalletd-tonic", "lightwalletd-tonic-transport", "sync", "transparent-inputs", "zcash_proofs", "pczt"], optional = true }
+zcash_client_sqlite = { workspace = true, features = ["orchard", "transparent-inputs", "serde"], optional = true }
+tactix = { workspace = true, optional = true }
+tokio = { workspace = true, features = ["full"], optional = true }
+tracing.workspace = true
+rusqlite = { workspace = true, features = ["bundled", "vtab", "array"], optional = true }
+secrecy = { workspace = true, optional = true }
+tonic = { workspace = true, features = ["tls-native-roots"], optional = true }
+reqwest = { workspace = true, optional = true }
+serde_json = { workspace = true, optional = true }
+
+[dev-dependencies]
+async-trait.workspace = true
+bip39 = { workspace = true, features = ["rand"] }
+futures-util.workspace = true
+prost.workspace = true
+tactix.workspace = true
+tracing-subscriber = { workspace = true, features = ["env-filter"] }

@@ -1,0 +1,93 @@
+[
+  {
+    "label": "mainnet-acct0-global",
+    "seed_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+    "network": "mainnet",
+    "account": 0,
+    "domain": null,
+    "pubkey": "d537e119b28e465e445852c35bec019d10420988d4ee2952fb609f1dbaf7351d",
+    "derived32": "d024ecfd8362085188914aca06a6ac0cd67839de31a44b16541d7a1545ee38a2",
+    "wide64": "872292be11406a4fbd2117cfb018597e3457985fe6816ddb7e0bc265221b3857ad37861ee7a9b99f663d2ada77fc8079709987dd31a11a2c7c0cfe8d5719da82",
+    "sk_le": "17b73861e0cc24fa396b7478db1b5d91b1d75ef04eee55de7b0b70f73748bf3c",
+    "message": "hello zecauth",
+    "signature": "41ea7cc8fce03ab7fbfb0c78a2884439f08e6df6db70d693329b494015242627d7864ab7c0c36fae9e90254dd04c0adb12c25ce86dc68aa19060f38f1fb8c724"
+  },
+  {
+    "label": "mainnet-acct1-global",
+    "seed_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+    "network": "mainnet",
+    "account": 1,
+    "domain": null,
+    "pubkey": "a0962d6528f137c97a3b3e2e1f218484ce9e8d609df324935e1272e9b28ff518",
+    "derived32": "475833a68380a8b2937b24deb5b3f6b89e57aa9dc262bfecdbed98e042c0e8a2",
+    "wide64": "fb01499429704f697c354b1812c52d1ffe57ebf9af8c705082d70580f09811c0f10f0141bf7b6dc6131fce5325889d9d096620589d1ff53b916e6193bb994623",
+    "sk_le": "32ee9dfa27f8c9a04fb8d912c881fbda5a9ecfe98535cd10dec66f57e5100239",
+    "message": "second account",
+    "signature": "963056ef90e59ad62b7d3b6700b90930768868eb0705bc10c3eccec9624fb93b2fdf5ee06e17f17500e355817c07f8e2082777d1da0b4d4c00b03776317e2305"
+  },
+  {
+    "label": "testnet-acct0-global",
+    "seed_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+    "network": "testnet",
+    "account": 0,
+    "domain": null,
+    "pubkey": "ff243c187fdc8d54c570d124141a375df590908731a11ed61812ddbc6a401a0f",
+    "derived32": "34331bacf4fa04f97c512cca19b467aee84f2bc85ca7e3bac2a97fda88c3d06b",
+    "wide64": "a645a6186b2d04f6991ec567a95981f685c3f993512a26a917cd005d01e856a498e06259e1c9d7a3dac792bce7d1883c5ddc2ae24841cf638483093ac5ebba32",
+    "sk_le": "a3a53aeb27e5d078e3b8a93c1808338718dfff8ca74267de08b73ccffee4590b",
+    "message": "testnet message",
+    "signature": "ca7ad5679bc2f1fcdeaad4164e2ec2e9f55a991f8bb232709c65a24488494ebe5585d409731d85fb4f296dd24a341c82bb57e5b2d9f20fd17de25c746091b303"
+  },
+  {
+    "label": "mainnet-acct0-domain-myapp",
+    "seed_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+    "network": "mainnet",
+    "account": 0,
+    "domain": "myapp.com",
+    "pubkey": "b85955d5e2aa3fc8216f453f3c97940a92382db2660af9aa3a25dc630ce0f188",
+    "derived32": "99b578127d4030812e841a51f21c45a0e38719dedbd0bda88cbfc79fb131432a",
+    "wide64": "0d95ba62db8a668c9c2f78cd16b6400abbc45913163e98b84a720baa825c3186b549600c9e44949580142285bff6213e7649a79383114505317631ef6501b7f1",
+    "sk_le": "6ddc5616cf7d93112ef57ad102fb15bca0a0c782fc34b7de0604b90046f80433",
+    "message": "myapp.com wants you to sign in with your Zcash wallet.\n\nURI: https://myapp.com/dashboard\nVersion: 1\nChain: zcash:mainnet\nNonce: a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6\nIssued At: 2026-06-08T12:00:00+00:00\nExpiration Time: 2026-06-08T12:05:00+00:00\nStatement: Access your dashboard",
+    "signature": "6fafb6dbf546bd3a5ae117a869c33bd33a2075d46c6dd3434b097f4b29ab279b04583df6eb22051f37067eb9aaefbd73ab30301a32a253ddb124728c4fdd5105"
+  },
+  {
+    "label": "mainnet-acct0-domain-localhost",
+    "seed_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+    "network": "mainnet",
+    "account": 0,
+    "domain": "localhost:3000",
+    "pubkey": "096ab41c723f38423426e224279ce2c34a429bce5ff606523bd057b52a5ba9a5",
+    "derived32": "a2e109fcb78496c85a8a6ea2c0b3904129b36032a42b8472d40c25281a9065ae",
+    "wide64": "c80f4e6ad4a7d971ef8bef97fec88d6fa2128fdce06f7162fa5ffbf88893570312565289599d2d08305d7fc58110d337ac085a59b299cabcc350d88dab4c7e80",
+    "sk_le": "633e2c25cb3f7645421dba04b1bef0d641a0e5438549888e61304db85da5e015",
+    "message": "localhost:3000 wants you to sign in with your Zcash wallet.\n\nURI: https://localhost:3000/dashboard\nVersion: 1\nChain: zcash:mainnet\nNonce: a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6\nIssued At: 2026-06-08T12:00:00+00:00\nExpiration Time: 2026-06-08T12:05:00+00:00\nStatement: Access your dashboard",
+    "signature": "250adcdd915c426fead872bb3ef3a253a7d006cd0cd74e2712401035c7acbc3dcbfabd58db2e317734aadd4657793ef1529f346851d0d70c474d177ea7401f2c"
+  },
+  {
+    "label": "seed64-mainnet-acct0-domain-shop",
+    "seed_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f",
+    "network": "mainnet",
+    "account": 0,
+    "domain": "shop.example",
+    "pubkey": "9de6360dec49cd16316f5d7c2a66452aaf55cca51e8f3294fa697b3ac9bd3310",
+    "derived32": "4d88b356b14fec50c98e017cb55148d1edb951ec229715f5bd1494e737cd2b09",
+    "wide64": "12b892ecd231e2776ccfe238aec9259d52750def7c63ed4257727258d8ea255a6ff9b21a82542ae21701485b2a23baad525a2dcf2b75cdb82de6954362664850",
+    "sk_le": "715e61bf0416c922a11a07830eb36cb9cc528e7c07c746c3cb79f793a219ff1f",
+    "message": "shop.example wants you to sign in with your Zcash wallet.\n\nURI: https://shop.example/dashboard\nVersion: 1\nChain: zcash:mainnet\nNonce: a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6\nIssued At: 2026-06-08T12:00:00+00:00\nExpiration Time: 2026-06-08T12:05:00+00:00\nStatement: Access your dashboard",
+    "signature": "86555f9cf294143146856add8863c5d91d873a169ba7b2dd3e9628688d8a28b30d5769656772e36a0818081d526ef86d77bdad85f38c27aab205c295cbe21e32"
+  },
+  {
+    "label": "seed64-testnet-acct3-global",
+    "seed_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f",
+    "network": "testnet",
+    "account": 3,
+    "domain": null,
+    "pubkey": "2d0e9db4f09554bc533af6109f9e830e3802e65f613e8c83e7066577b77a0b80",
+    "derived32": "e1dd0f4cada998cd3cf6dc5c940bac37b24736e8bf0eb5d93d7048da2e68be6d",
+    "wide64": "f1ec28e9fbd7a5523367c62131fe3a0d81d7cdd4119061fc0e35d331540cc0349c7f7d24a90210c84352ffbc821fc9db28590b38bf5a1948d62f45e6321a9861",
+    "sk_le": "7a68f4804d9d5054f7f79f7d7fc6414b1883b0c58ed75a201c557aba8c023a15",
+    "message": "account three on testnet",
+    "signature": "0b7a830ed6c2aed2449fb9e36139c6c2d985845463d8a849d366492a7308543a6986cf55d454464f247098ba6b315d068c6c3f087d9b99e8858fbf2268ac7032"
+  }
+]

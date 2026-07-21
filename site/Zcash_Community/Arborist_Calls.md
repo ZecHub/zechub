@@ -10,14 +10,13 @@ The official Arborist Calls page is maintained by the Zcash Foundation:
 
 **[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
 
-> **Note:** No Arborist Call was held the week of May 12, 2026. [Next call: May 28th](https://forum.zcashcommunity.com/t/no-arborist-call-this-week-next-call-may-28th/55659).
 
 ## How to Join
 
 The calls alternate between two recurring time slots so that contributors in different regions can participate. Use the official Zcash Foundation page for the current calendar files and Zoom links:
 
 - **15:00 UTC** timeslot
-- **21:00 UTC** timeslot
+
 
 The Foundation page is the source of truth for registration links, calendar files, and meeting access because meeting links can change.
 

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/binaries/
+*.local
+.DS_Store
+design-handoff/**/*
+
+# Local-only working docs (feature reference, demo script, UAT checklist)
+FEATURES.md
+WALKTHROUGH.md
+UAT.html

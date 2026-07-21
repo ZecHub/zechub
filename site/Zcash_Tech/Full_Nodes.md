@@ -10,7 +10,9 @@ It holds a complete record of every transaction that has occurred since genesis 
 
 ## Zcashd
 
-Zcashd is currently the main Full Node implementation used by Zcash developed and maintained by the Electric Coin Company.
+> **Note:** zcashd is being deprecated. The Electric Coin Company has [formally announced](https://z.cash/support/zcashd-deprecation/) that zcashd is being retired, with its full-node role replaced by [Zebra](https://github.com/ZcashFoundation/zebra) (`zebrad`) and its wallet role by [Zallet](https://github.com/zcash/zallet). For new deployments, use Zebra (see below). If you already run a zcashd node, follow the [Migration Guide: zcashd to Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+
+zcashd was the original Full Node implementation for Zcash, developed and maintained by the Electric Coin Company. The build instructions below are retained for reference and for operators migrating away from zcashd.
 
 Zcashd exposes a set of API's via its RPC interface. These API's provide functions that allow external applications to interact with the node.
 
@@ -56,15 +58,13 @@ Zcashd exposes a set of API's via its RPC interface. These API's provide functio
 
 ## Zebra
 
-Zebra is an independent full node implementation for the Zcash Protocol created by the Zcash Foundation. 
+Zebra is an independent, production-ready full node implementation of the Zcash protocol, created by the Zcash Foundation and written in Rust. As zcashd is retired, Zebra (`zebrad`) is the recommended full node for new deployments.
 
-It is currently undergoing testing and is still experimental.
+Zebra validates blocks and transactions, participates in the peer-to-peer network, and exposes an RPC interface for applications. The wallet is a separate component now: [Zallet](https://github.com/zcash/zallet) runs against a Zebra node and handles keys and balances. This replaces zcashd, which bundled the node and wallet in a single process.
 
-There are two main components of Zebra. The client component which is responsible for blockchain scanning and trial decryption of transactions. 
+To serve shielded light wallets, the node runs alongside an indexer, either the established [lightwalletd](https://github.com/zcash/lightwalletd) or the newer [Zaino](https://zechub.wiki/zaino).
 
-The second part is the zebra command line tool. This tool manages spending keys, addresses & communicates with the Client component in zebrad to provide basic wallet functionality.
-
-Anyone interested in trying out Zebra to mine blocks is invited to join the R&D discord server. Also be sure to read the Zebra book for set-up instructions. 
+Be sure to read the Zebra book for set-up instructions, and join the R&D Discord server for support. 
 
 [Github](https://github.com/ZcashFoundation/zebra/)
 

@@ -1,0 +1,29 @@
+{
+  "name": "@zec-os/frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_OPTIONS='--no-network-family-autoselection --dns-result-order=ipv4first' next dev",
+    "build": "next build",
+    "start": "NODE_OPTIONS='--no-network-family-autoselection --dns-result-order=ipv4first' next start",
+    "vercel-build": "next build"
+  },
+  "dependencies": {
+    "next": "16.1.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-qr-code": "^2.2.0",
+    "react-rnd": "^10.5.2",
+    "uplot": "^1.6.32",
+    "use-sound": "^5.0.0",
+    "zustand": "^5.0.9"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

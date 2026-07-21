@@ -1,0 +1,13 @@
+{
+  "name": "@siwz/lightwallet-rpc",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Thin HTTPS wrapper around zingo-cli (or zcash-cli) — deploys to a tiny VPS so ZBooks/Vercel can ask 'show me incoming memos to this z-addr' without running a full node.",
+  "type": "module",
+  "main": "src/server.mjs",
+  "scripts": {
+    "start": "node src/server.mjs",
+    "dev": "node --watch src/server.mjs"
+  },
+  "dependencies": {}
+}

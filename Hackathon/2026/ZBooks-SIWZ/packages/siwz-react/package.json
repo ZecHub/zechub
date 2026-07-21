@@ -1,0 +1,69 @@
+{
+  "name": "@siwz/react",
+  "version": "0.2.1",
+  "description": "Sign in with Zcash — drop-in React component & hook",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./styles.css": "./dist/styles.css"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup && node ./copy-styles.mjs",
+    "prepublishOnly": "pnpm run build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@siwz/core": "workspace:*",
+    "qrcode": "^1.5.4"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.5.4",
+    "tsup": "^8.2.4"
+  },
+  "keywords": [
+    "zcash",
+    "siwz",
+    "sign-in-with-zcash",
+    "react",
+    "sign-in",
+    "authentication",
+    "auth",
+    "memo-challenge",
+    "zip-321",
+    "metamask-snap",
+    "wallet-connect",
+    "siwe-alternative"
+  ],
+  "homepage": "https://siwz.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/austinchris/SWZ.git",
+    "directory": "packages/siwz-react"
+  },
+  "bugs": "https://github.com/austinchris/SWZ/issues",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}

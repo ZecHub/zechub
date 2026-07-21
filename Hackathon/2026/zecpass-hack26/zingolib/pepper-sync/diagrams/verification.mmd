@@ -1,0 +1,8 @@
+flowchart LR
+  %% VERIFICATION
+  SV([Start verification]) --> V1{Continuity check fails?}
+  V1 -- Yes --> V2["Set 10 blocks below current 'verify' range -> 'verify' and truncate wallet data"] --> V3{Exceeded max verification window?}
+  V3 -- Yes --> V4([Return error])
+  V3 -- No  --> SV
+  V1 -- No  --> V5([Proceed to scanning lower priority scan ranges])
+

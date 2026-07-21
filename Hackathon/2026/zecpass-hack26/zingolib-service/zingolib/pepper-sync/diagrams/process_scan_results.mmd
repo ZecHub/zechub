@@ -1,0 +1,15 @@
+flowchart TD
+  %% PROCESS SCAN RESULTS
+  START([Start]) --> P1["Set surrounding shard ranges of incoming notes <br>-> 'found note'"]
+  P1 --> P2["Discover unified addresses in use on-chain"]
+  P2 --> P3["Add wallet transactions (including notes and coins)"]
+  P3 --> P4["Add nullifiers to wallet's nullifier map"]
+  P4 --> P5["Add outpoints to wallet's outpoint map"]
+  P5 --> P6["Update wallet's shard trees"]
+  P6 --> P7["Check coins output ids vs outpoint map; if spent: mark coin and set surrounding narrow block range -> 'found note'"]
+  P7 --> P8["Check notes derived nullifiers vs nullifier map; if spent: mark note and set surrounding shard range -> 'found note'"]
+  P8 --> P9["Add wallet blocks; retain only: range bounds, blocks with relevant txs, and within max verification window of highest scanned block"]
+  P9 --> P10["Mark scan range containing this batch -> 'scanned'"]
+  P10 --> P11["Merge adjacent 'scanned' ranges"]
+  P11 --> P12["Clean wallet data no longer relevant"]
+  P12 --> END([End])

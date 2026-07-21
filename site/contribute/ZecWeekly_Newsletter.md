@@ -4,11 +4,7 @@
 
 # ZecWeekly Newsletter
 
-ZecWeekly is a newsletter that goes out every Friday morning. It includes all the news that happened during the week in the Zcash ecosystem.
-
-The news is curated weekly by community members and all relevant links are added to the newsletter.
-
-Please subscribe to the newsletter [here](https://zechub.substack.com/).
+ZecWeekly is a newsletter that goes out every Sunday morning. It includes all the news that happened during the week in the Zcash ecosystem. The news is curated weekly by community members and all relevant links are added to the newsletter. Please subscribe to the newsletter [here](https://zechub.substack.com/).
 
 ## Contribute
 
@@ -18,13 +14,12 @@ Newsletter contributions work best when one contributor prepares the edition for
 
 Before you start writing:
 
-- Check the [ZecHub GitHub issues](https://github.com/ZecHub/zechub/issues) and [Dework](https://app.dework.xyz/zechub-2424) for the current newsletter task.
-- Use the date in the issue title or task description as the source of truth.
-- Open the issue and check whether another contributor has already commented, been assigned, or opened a linked pull request.
-- Search open pull requests for the issue number and the edition date before starting. For example, search `is:pr is:open "May 30th" repo:ZecHub/zechub`.
-- If the task is unclear, ask in the issue, the ZecHub Discord, or by messaging [ZecHub on Twitter](https://twitter.com/ZecHub) before preparing the full edition.
+- Check [ZEC Bounties ](https://bounties.zechub.wiki/) for the current newsletter task.
+- Wait to be assigned
 
-![Open GitHub issues filtered for current ZecWeekly newsletter tasks](assets/zecweekly-current-task-search.png)
+![ss](https://github.com/user-attachments/assets/149a802c-b64f-4969-ad89-e83ffecf568e)
+
+
 
 ### 2. Fork the repository
 
@@ -97,7 +92,8 @@ Use these merged newsletter pull requests as examples of accepted submissions:
 - [Zcash Ecosystem Digest | March 28th](https://github.com/ZecHub/zechub/pull/1544)
 - [Zcash Ecosystem Digest | February 14th](https://github.com/ZecHub/zechub/pull/1474)
 
-![Merged ZecWeekly newsletter pull request example](assets/zecweekly-example-pr.png)
+
+![Merged ZecWeekly newsletter pull request example](https://github.com/user-attachments/assets/9230d68d-6406-4c8a-992c-df84e0d318d8)
 
 When comparing your work with an example, focus on the file location, title format, section order, link descriptions, and whether the pull request connects back to the correct task.
 

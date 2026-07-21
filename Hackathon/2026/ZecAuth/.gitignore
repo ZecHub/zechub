@@ -1,0 +1,47 @@
+# Rust
+/target
+
+# Node
+node_modules/
+*.tsbuildinfo
+# SDK build outputs are reproducible (npm run build); demo-dapp/dist stays tracked
+# because zecauth-server serves it directly — a fresh clone must demo with cargo alone.
+sdks/*/dist/
+
+# iOS
+Pods/
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+**/.xcode.env.local
+
+# Android
+.gradle/
+local.properties
+*.hprof
+.cxx/
+.kotlin/
+
+# Ruby (RN tooling)
+vendor/bundle/
+
+# OS / editor
+.DS_Store
+.idea/
+*.iml
+
+# Local env / secrets — never commit real values
+.env
+.env.*
+!.env.example
+*.keystore
+!debug.keystore
+seed.hex
+
+# Local video-editing project
+*.wfp
+
+# Kept local, not part of the public submission
+/apps/
+run-device-demo.sh

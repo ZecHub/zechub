@@ -1,0 +1,6 @@
+cargo:rerun-if-changed=protos/compact_formats.proto
+cargo:rerun-if-changed=protos/service.proto
+cargo:rerun-if-changed=build.rs
+cargo:rerun-if-changed=protos/compact_formats.proto
+cargo:rerun-if-changed=protos/service.proto
+cargo:rerun-if-changed=protos

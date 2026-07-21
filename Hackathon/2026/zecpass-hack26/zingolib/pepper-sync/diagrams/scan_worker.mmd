@@ -1,0 +1,10 @@
+flowchart TD
+  %% SCAN WORKER
+  START([Receive scan task]) --> WS1["Check block hash and height continuity"]
+  WS1 --> WS2["Collect inputs -> build nullifier and outpoint maps"]
+  WS2 --> WS3["Trial decrypt all notes in each compact block"]
+  WS3 --> WS4["Fetch and scan full transactions for successful decrypts -> create wallet transactions"]
+  WS4 --> WS5["Derive nullifier and position for each decrypted note"]
+  WS5 --> WS6["Compute note commitment leaf and shard tree retention"]
+  WS6 --> WS8["Create wallet blocks from compact blocks"]
+  WS8 --> WS7([Return scan results])

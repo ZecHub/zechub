@@ -1,0 +1,29 @@
+{
+  "name": "steward",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Steward — the unified reference app. One person is both an owner (of their vaults) and a guardian (of others'): My vaults + Vaults I guard in a single instrument. Supersedes the separate owner-console and guardian apps.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/fraunces": "^5.1.0",
+    "@fontsource/instrument-sans": "^5.1.0",
+    "@fontsource/space-mono": "^5.2.9",
+    "@noble/ed25519": "^3.1.0",
+    "qrcode.react": "^4.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "steward-guardian-wasm": "file:../guardian-core/pkg"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.7"
+  }
+}

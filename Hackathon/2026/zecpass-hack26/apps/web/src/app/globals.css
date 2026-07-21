@@ -1,0 +1,185 @@
+@import "tailwindcss";
+
+/* =============================================================================
+   ZecPass Design System — CSS Variables
+   Primary: Zcash Gold (#F4B728) | Background: #0a0a0a
+   ============================================================================= */
+
+@theme {
+  --color-zec-gold: #F4B728;
+  --color-zec-gold-light: #F7C948;
+  --color-zec-gold-dark: #D4961E;
+  --color-zec-gold-50: rgba(244, 183, 40, 0.05);
+  --color-zec-gold-100: rgba(244, 183, 40, 0.1);
+  --color-zec-gold-200: rgba(244, 183, 40, 0.2);
+
+  --color-bg-primary: #0a0a0a;
+  --color-bg-secondary: #111111;
+  --color-bg-tertiary: #1a1a1a;
+  --color-bg-card: #141414;
+  --color-bg-card-hover: #1c1c1c;
+  --color-bg-elevated: #1e1e1e;
+
+  --color-border-primary: #222222;
+  --color-border-secondary: #333333;
+  --color-border-glow: rgba(244, 183, 40, 0.3);
+
+  --color-text-primary: #f5f5f5;
+  --color-text-secondary: #a0a0a0;
+  --color-text-muted: #666666;
+
+  --color-success: #22c55e;
+  --color-error: #ef4444;
+  --color-warning: #f59e0b;
+  --color-info: #3b82f6;
+
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+
+  --shadow-glow: 0 0 20px rgba(244, 183, 40, 0.15);
+  --shadow-glow-lg: 0 0 40px rgba(244, 183, 40, 0.2);
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* =============================================================================
+   Base Styles
+   ============================================================================= */
+
+* {
+  border-color: var(--color-border-primary);
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* =============================================================================
+   Scrollbar Styling
+   ============================================================================= */
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-secondary);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}
+
+/* =============================================================================
+   Animations
+   ============================================================================= */
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 15px rgba(244, 183, 40, 0.2); }
+  50% { box-shadow: 0 0 30px rgba(244, 183, 40, 0.4); }
+}
+
+@keyframes slide-in-right {
+  from { opacity: 0; transform: translateX(20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out forwards;
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.6s ease-out forwards;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.4s ease-out forwards;
+}
+
+.animate-shimmer {
+  background: linear-gradient(
+    90deg,
+    var(--color-bg-card) 0%,
+    var(--color-bg-elevated) 50%,
+    var(--color-bg-card) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s ease-in-out infinite;
+}
+
+/* =============================================================================
+   Utility Classes
+   ============================================================================= */
+
+.glass {
+  background: rgba(20, 20, 20, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--color-border-primary);
+}
+
+.glass-gold {
+  background: rgba(244, 183, 40, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(244, 183, 40, 0.15);
+}
+
+.glow-border {
+  border: 1px solid rgba(244, 183, 40, 0.3);
+  box-shadow: var(--shadow-glow);
+}
+
+.gradient-gold {
+  background: linear-gradient(135deg, var(--color-zec-gold), var(--color-zec-gold-light));
+}
+
+.gradient-gold-text {
+  background: linear-gradient(135deg, var(--color-zec-gold), var(--color-zec-gold-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-balance {
+  text-wrap: balance;
+}

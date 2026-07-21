@@ -1,0 +1,19 @@
+[package]
+name = "zecauth-server"
+version = "0.1.0"
+edition = "2021"
+description = "ZecAuth demo dApp server — challenge generation, verification, and session management"
+license = "MIT"
+
+[dependencies]
+zecauth-core = { path = "../zecauth-core" }
+axum = { version = "0.8", features = ["ws"] }
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tower-http = { version = "0.6", features = ["cors", "fs"] }
+jsonwebtoken = "9"
+uuid = { version = "1", features = ["v4"] }
+chrono = { version = "0.4", features = ["serde"] }
+hex = "0.4"
+futures-util = "0.3"

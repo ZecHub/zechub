@@ -1,0 +1,24 @@
+services:
+  lightwallet-rpc:
+    build: .
+    image: siwz-lightwallet-rpc:latest
+    container_name: siwz-lightwallet-rpc
+    restart: unless-stopped
+    ports:
+      - "${HOST_PORT:-18232}:18232"
+    environment:
+      # Required. Generate with:
+      #   node -e "console.log(require('crypto').randomBytes(32).toString('base64url'))"
+      LIGHTWALLET_RPC_TOKEN: ${LIGHTWALLET_RPC_TOKEN:?LIGHTWALLET_RPC_TOKEN must be set in .env or shell}
+      # Optional overrides. Defaults match the Dockerfile.
+      LIGHTWALLETD: ${LIGHTWALLETD:-https://zec.rocks:443,https://na.zec.rocks:443,https://eu.zec.rocks:443}
+      BACKGROUND_SYNC: ${BACKGROUND_SYNC:-1}
+      BACKGROUND_SYNC_INTERVAL_MS: ${BACKGROUND_SYNC_INTERVAL_MS:-120000}
+      RESULT_TTL_MS: ${RESULT_TTL_MS:-180000}
+    volumes:
+      # Persist the zingo wallet store across container restarts. Without this,
+      # every restart triggers a from-birthday re-sync, which is slow.
+      - zingo-data:/home/siwz/.zingo-ufvks
+
+volumes:
+  zingo-data:

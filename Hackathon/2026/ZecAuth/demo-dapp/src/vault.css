@@ -1,0 +1,220 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   ZecAuth — "Vault" design system
+   A precision security-instrument aesthetic: warm near-black, hairline grid,
+   monospaced technical labels, corner brackets, gold as a signal.
+   Pure CSS (Tailwind-independent) so the auth components stay portable.
+   Type: Space Grotesk (display) + IBM Plex Mono (technical).
+   ───────────────────────────────────────────────────────────────────────── */
+
+:root {
+  --v-font-display: "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --v-font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --v-bg: #0b0a07;
+  --v-bg2: #110f09;       /* panel */
+  --v-surface: #0c0a06;   /* inset (inputs, code) */
+  --v-line: rgba(255, 255, 255, 0.085);
+  --v-ink: #f2ebda;
+  --v-ink2: #9c9586;
+  --v-ink3: #605a4d;
+
+  --v-accent: #e7b43f;
+  --v-accent-ink: #1a1407;
+  --v-accent-wash: rgba(231, 180, 63, 0.1);
+  --v-line-gold: rgba(231, 180, 63, 0.3);
+  --v-accent-shadow: rgba(231, 180, 63, 0.45);
+
+  --v-pos: #63cf8d;
+  --v-pos-line: rgba(99, 207, 141, 0.32);
+  --v-pos-wash: rgba(99, 207, 141, 0.1);
+
+  --v-info: #6e97e6;
+  --v-info-wash: rgba(110, 151, 230, 0.12);
+
+  --v-neg: #e8765a;
+  --v-neg-wash: rgba(232, 118, 90, 0.1);
+}
+
+/* ── App shell ─────────────────────────────────────────────────────────── */
+.v-app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: var(--v-ink);
+  font-family: var(--v-font-display);
+  background:
+    linear-gradient(var(--v-line) 1px, transparent 1px) 0 0 / 100% 64px,
+    radial-gradient(120% 80% at 50% -10%, var(--v-accent-wash), transparent 60%),
+    var(--v-bg);
+  background-attachment: fixed;
+}
+.v-main { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 32px 20px 56px; }
+.v-col { width: 100%; max-width: 496px; }
+
+.v-topbar { display: flex; align-items: center; justify-content: space-between; padding: 4px 2px 30px; }
+.v-brand { display: flex; align-items: center; gap: 10px; }
+.v-brand b { font-size: 15px; font-weight: 600; letter-spacing: 0.01em; }
+.v-secure { display: flex; align-items: center; gap: 7px; font-family: var(--v-font-mono); font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--v-ink2); }
+
+.v-footer { text-align: center; padding: 26px 0 30px; font-family: var(--v-font-mono); font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--v-ink3); }
+
+/* ── Panel + corner brackets ───────────────────────────────────────────── */
+.v-panel { position: relative; background: var(--v-bg2); border: 1px solid var(--v-line); padding: 32px; }
+.v-panel + .v-panel, .v-panel + .v-ghostbtn, .v-panel + .v-link { margin-top: 14px; }
+.v-bk { position: absolute; width: 16px; height: 16px; border: 1.5px solid var(--v-accent); opacity: 0.85; pointer-events: none; }
+.v-bk.tl { left: -1px; top: -1px; border-right: 0; border-bottom: 0; }
+.v-bk.tr { right: -1px; top: -1px; border-left: 0; border-bottom: 0; }
+.v-bk.bl { left: -1px; bottom: -1px; border-right: 0; border-top: 0; }
+.v-bk.br { right: -1px; bottom: -1px; border-left: 0; border-top: 0; }
+
+/* ── Type ──────────────────────────────────────────────────────────────── */
+.v-eyebrow { font-family: var(--v-font-mono); font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--v-ink3); }
+.v-display { font-size: 33px; line-height: 1.06; letter-spacing: -0.02em; font-weight: 600; margin: 14px 0 0; text-wrap: balance; }
+.v-display.sm { font-size: 24px; }
+.v-display.xs { font-size: 20px; }
+.v-sub { color: var(--v-ink2); font-size: 14.5px; line-height: 1.5; margin-top: 14px; max-width: 40ch; }
+.v-mono { font-family: var(--v-font-mono); }
+.v-center { text-align: center; }
+.v-divlabel { font-size: 15px; font-weight: 600; letter-spacing: -0.01em; display: flex; align-items: center; gap: 11px; }
+
+/* ── Section label (mono, between content blocks) ──────────────────────── */
+.v-seclabel { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 30px 0 4px;
+  font-family: var(--v-font-mono); font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--v-ink3); white-space: nowrap; }
+.v-seclabel:first-child { margin-top: 0; }
+
+/* ── Capability rows (Disconnected) ────────────────────────────────────── */
+.v-caprow { display: flex; align-items: center; gap: 14px; padding: 15px 0; border-top: 1px solid var(--v-line); }
+.v-capidx { font-family: var(--v-font-mono); font-size: 11px; color: var(--v-ink3); width: 18px; flex-shrink: 0; }
+.v-capbox { flex-shrink: 0; width: 38px; height: 38px; display: grid; place-items: center; color: var(--v-accent); border: 1px solid var(--v-line-gold); background: var(--v-accent-wash); }
+.v-capbox.sm { width: 32px; height: 32px; }
+.v-capttl { font-size: 14.5px; font-weight: 500; letter-spacing: -0.01em; }
+.v-capdesc { font-size: 12.5px; color: var(--v-ink2); margin-top: 2px; line-height: 1.35; }
+
+/* ── Domain-bound chip ─────────────────────────────────────────────────── */
+.v-bound { display: flex; align-items: center; gap: 9px; margin-top: 26px; padding: 11px 13px;
+  border: 1px dashed var(--v-line-gold); color: var(--v-ink2); font-family: var(--v-font-mono); font-size: 11.5px; letter-spacing: 0.04em; }
+.v-bound b { color: var(--v-ink); font-weight: 500; }
+
+/* ── Buttons ───────────────────────────────────────────────────────────── */
+.v-btn { position: relative; width: 100%; box-sizing: border-box; display: flex; align-items: center; justify-content: center; gap: 10px;
+  height: 54px; border: 0; cursor: pointer; font-family: var(--v-font-display); font-size: 16px; font-weight: 600; letter-spacing: -0.01em;
+  background: var(--v-accent); color: var(--v-accent-ink);
+  box-shadow: 0 0 0 1px var(--v-accent), 0 10px 34px -8px var(--v-accent-shadow);
+  transition: transform 0.16s, filter 0.16s, box-shadow 0.16s; }
+.v-btn:hover { filter: brightness(1.06); box-shadow: 0 0 0 1px var(--v-accent), 0 14px 40px -8px var(--v-accent-shadow); }
+.v-btn:active { transform: translateY(1px) scale(0.992); }
+.v-btn:disabled { opacity: 0.35; cursor: not-allowed; filter: none; box-shadow: 0 0 0 1px var(--v-line); background: var(--v-bg2); color: var(--v-ink3); }
+
+.v-btn.info { background: var(--v-info); color: #fff; box-shadow: 0 0 0 1px var(--v-info), 0 10px 30px -10px rgba(110,151,230,0.5); }
+.v-btn.pos { background: var(--v-pos); color: #07140c; box-shadow: 0 0 0 1px var(--v-pos), 0 10px 30px -10px rgba(99,207,141,0.45); }
+.v-btn.sm { height: 46px; font-size: 14px; }
+
+.v-btn.ghost { background: transparent; color: var(--v-ink); box-shadow: inset 0 0 0 1px var(--v-line); height: 48px; font-size: 14px; }
+.v-btn.ghost:hover { box-shadow: inset 0 0 0 1px var(--v-line-gold); filter: none; background: var(--v-accent-wash); }
+
+.v-link { display: block; width: 100%; background: none; border: 0; color: var(--v-ink2); font-family: var(--v-font-display); font-size: 13px; cursor: pointer; padding: 14px 12px; transition: color 0.15s; text-align: center; }
+.v-link:hover { color: var(--v-ink); }
+.v-textbtn { background: none; border: 0; cursor: pointer; font-family: var(--v-font-display); font-size: 12.5px; color: var(--v-accent); padding: 0; display: inline-flex; align-items: center; gap: 6px; transition: color 0.15s; }
+.v-textbtn:hover { color: var(--v-ink); }
+
+/* ── Fields ────────────────────────────────────────────────────────────── */
+.v-field { width: 100%; box-sizing: border-box; height: 46px; padding: 0 14px; background: var(--v-surface);
+  border: 1px solid var(--v-line); color: var(--v-ink); font-family: var(--v-font-mono); font-size: 13px; outline: none; transition: border-color 0.15s; }
+.v-field:focus { border-color: var(--v-accent); }
+.v-field.area { height: auto; padding: 12px 14px; resize: vertical; line-height: 1.5; }
+.v-field::placeholder { color: var(--v-ink3); }
+.v-flabel { display: block; font-family: var(--v-font-mono); font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--v-ink3); margin-bottom: 8px; }
+.v-stack { display: flex; flex-direction: column; gap: 16px; }
+.v-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.v-field-row { display: flex; gap: 10px; }
+
+/* ── Chips / pills ─────────────────────────────────────────────────────── */
+.v-chips { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.v-chips.center { justify-content: center; }
+.v-chip { display: inline-flex; align-items: center; gap: 6px; padding: 6px 11px; white-space: nowrap;
+  border: 1px solid var(--v-line-gold); color: var(--v-accent); font-family: var(--v-font-mono); font-size: 11px; letter-spacing: 0.04em; background: var(--v-accent-wash); }
+.v-reqtag { font-family: var(--v-font-mono); font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--v-ink3); }
+.v-pill { display: inline-flex; align-items: center; gap: 6px; padding: 6px 11px; font-size: 12.5px; font-weight: 500;
+  border: 1px solid var(--v-pos-line); color: var(--v-pos); background: var(--v-pos-wash); }
+.v-pill.off { border-color: var(--v-line); color: var(--v-ink3); background: transparent; text-decoration: line-through; }
+
+/* ── Ledger (identity table) ───────────────────────────────────────────── */
+.v-ledger { margin-top: 0; }
+.v-lrow { display: flex; align-items: center; justify-content: space-between; padding: 13px 0; border-top: 1px solid var(--v-line); gap: 16px; }
+.v-lrow:first-child { border-top: 0; }
+.v-lk { font-family: var(--v-font-mono); font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--v-ink3); white-space: nowrap; }
+.v-lv { font-size: 13.5px; font-weight: 500; text-align: right; word-break: break-word; }
+.v-lv.mono { font-family: var(--v-font-mono); }
+.v-lv.gold { color: var(--v-accent); }
+.v-lv.pos { color: var(--v-pos); }
+
+/* ── Verified badge + status lines ─────────────────────────────────────── */
+.v-verified { display: flex; align-items: center; gap: 14px; }
+.v-badge { width: 48px; height: 48px; flex-shrink: 0; display: grid; place-items: center; color: var(--v-pos); border: 1px solid var(--v-pos-line); background: var(--v-pos-wash); }
+.v-badge.lg { width: 56px; height: 56px; }
+.v-statline { display: flex; align-items: center; justify-content: center; gap: 9px; font-family: var(--v-font-mono); font-size: 12px; letter-spacing: 0.06em; color: var(--v-ink2); }
+.v-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+.v-dot.gold { background: var(--v-accent); box-shadow: 0 0 9px var(--v-accent); }
+.v-dot.pos { background: var(--v-pos); box-shadow: 0 0 8px var(--v-pos); }
+
+/* ── Inset box (request summary, results) ──────────────────────────────── */
+.v-inset { background: var(--v-surface); border: 1px solid var(--v-line); padding: 16px 18px; }
+.v-inset.pos { border-color: var(--v-pos-line); background: var(--v-pos-wash); }
+.v-inset.neg { border-color: rgba(232,118,90,0.3); background: var(--v-neg-wash); }
+.v-irow { display: flex; justify-content: space-between; gap: 14px; font-family: var(--v-font-mono); font-size: 13px; padding: 5px 0; }
+.v-irow > span { white-space: nowrap; }
+.v-irow .k { color: var(--v-ink3); }
+
+/* ── Code block (CLI) ──────────────────────────────────────────────────── */
+.v-code { background: var(--v-surface); border: 1px solid var(--v-line); padding: 13px 14px; font-family: var(--v-font-mono); font-size: 11px; line-height: 1.6; color: var(--v-pos); word-break: break-all; }
+.v-code .arg { color: #9fe3b9; }
+
+/* ── Collapsible (CLI Instructions / manual paste) ─────────────────────── */
+.v-collapse-hd { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 12px; background: none; border: 0; cursor: pointer; padding: 0; color: var(--v-ink); font-family: var(--v-font-display); }
+.v-collapse-hd .lbl { display: flex; align-items: center; gap: 11px; font-size: 14px; font-weight: 500; }
+.v-chev { transition: transform 0.3s; color: var(--v-ink3); display: inline-flex; }
+.v-chev.open { transform: rotate(180deg); }
+.v-disclo { font-family: var(--v-font-mono); font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--v-ink3); cursor: pointer; }
+.v-disclo:hover { color: var(--v-ink2); }
+.v-hint { font-size: 11px; color: var(--v-ink3); line-height: 1.5; }
+
+/* ── QR (Challenge) ────────────────────────────────────────────────────── */
+.v-qrwrap { position: relative; width: max-content; margin: 6px auto 0; padding: 18px; background: #fbf8f0; box-shadow: 0 24px 60px -20px rgba(0, 0, 0, 0.55); }
+.v-qrwrap .v-bk { width: 20px; height: 20px; border-width: 2px; }
+.v-scan { position: absolute; left: 18px; right: 18px; top: 18px; height: 2px;
+  background: linear-gradient(90deg, transparent, var(--v-accent), transparent); box-shadow: 0 0 16px 3px var(--v-accent);
+  animation: v-scan 2.8s cubic-bezier(0.5, 0, 0.5, 1) infinite; }
+.v-qremblem { background: #fbf8f0; padding: 7px; display: grid; place-items: center; }
+.v-meta { display: flex; justify-content: space-between; gap: 16px; margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--v-line); }
+.v-meta .k { font-family: var(--v-font-mono); font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--v-ink3); }
+.v-meta .val { font-family: var(--v-font-mono); font-size: 13px; color: var(--v-ink); margin-top: 5px; }
+
+/* ── Error banner ──────────────────────────────────────────────────────── */
+.v-error { padding: 13px 16px; border: 1px solid rgba(232, 118, 90, 0.35); background: var(--v-neg-wash); color: var(--v-neg); font-size: 13px; }
+.v-errortext { color: var(--v-neg); font-size: 12px; font-family: var(--v-font-mono); }
+
+/* ── Spacing helpers used in markup ───────────────────────────────────── */
+.v-mt8 { margin-top: 8px; } .v-mt12 { margin-top: 12px; } .v-mt16 { margin-top: 16px; }
+.v-mt18 { margin-top: 18px; } .v-mt22 { margin-top: 22px; } .v-mt24 { margin-top: 24px; }
+
+/* ── Animations ───────────────────────────────────────────────────────── */
+@keyframes v-fade { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+@keyframes v-scale { from { opacity: 0; transform: scale(0.8); } to { opacity: 1; transform: scale(1); } }
+@keyframes v-pulse { 0%, 100% { opacity: 0.35; } 50% { opacity: 1; } }
+@keyframes v-spin { to { transform: rotate(360deg); } }
+@keyframes v-scan { 0% { transform: translateY(0); } 50% { transform: translateY(var(--v-scan-h, 220px)); } 100% { transform: translateY(0); } }
+@keyframes v-draw { from { stroke-dashoffset: 30; } to { stroke-dashoffset: 0; } }
+
+@media (prefers-reduced-motion: no-preference) {
+  .v-fade { animation: v-fade 0.55s cubic-bezier(0.16, 1, 0.3, 1) both; }
+  .v-stagger > * { animation: v-fade 0.55s cubic-bezier(0.16, 1, 0.3, 1) both; }
+  .v-stagger > *:nth-child(2) { animation-delay: 0.06s; }
+  .v-stagger > *:nth-child(3) { animation-delay: 0.12s; }
+  .v-stagger > *:nth-child(4) { animation-delay: 0.18s; }
+  .v-stagger > *:nth-child(5) { animation-delay: 0.24s; }
+  .v-stagger > *:nth-child(6) { animation-delay: 0.30s; }
+  .v-scalein { animation: v-scale 0.5s cubic-bezier(0.16, 1, 0.3, 1) both; }
+  .v-drawcheck path { stroke-dasharray: 30; stroke-dashoffset: 30; animation: v-draw 0.6s ease-out 0.35s forwards; }
+}
+.v-pulse { animation: v-pulse 1.8s ease-in-out infinite; }
+.v-spinner { width: 16px; height: 16px; border: 2px solid var(--v-line); border-top-color: var(--v-accent); border-radius: 50%; animation: v-spin 1s linear infinite; }

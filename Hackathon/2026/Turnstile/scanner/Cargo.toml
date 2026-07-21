@@ -1,0 +1,18 @@
+[package]
+name = "turnstile-scanner"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+turnstile-core = { workspace = true, features = ["zingo"] }
+serde = { workspace = true }
+serde_json = { workspace = true }
+anyhow = { workspace = true }
+tokio = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+axum = "0.8"
+tower-http = { version = "0.6", features = ["cors", "trace"] }
+dotenvy = "0.15"
+rand = "0.9"

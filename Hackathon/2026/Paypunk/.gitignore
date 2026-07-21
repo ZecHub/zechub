@@ -1,0 +1,17 @@
+.pnpm-store/
+.mnemonic
+
+# Devenv
+.devenv*
+devenv.local.nix
+devenv.local.yaml
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
+target
+
+# mdBook build output
+docs/book/

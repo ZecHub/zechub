@@ -1,0 +1,2 @@
+com.zcashjava.znl.framework.datasource.config.ZnlDataSourceAutoConfiguration
+com.zcashjava.znl.framework.mybatis.config.ZnlMybatisAutoConfiguration

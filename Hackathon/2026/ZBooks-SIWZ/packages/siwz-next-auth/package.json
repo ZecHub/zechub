@@ -1,0 +1,71 @@
+{
+  "name": "@siwz/next-auth",
+  "version": "0.2.3",
+  "description": "Sign in with Zcash — NextAuth.js v4 / Auth.js v5 credentials provider",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./nonce": {
+      "types": "./dist/nonce.d.ts",
+      "import": "./dist/nonce.js",
+      "require": "./dist/nonce.cjs"
+    },
+    "./memo": {
+      "types": "./dist/memo.d.ts",
+      "import": "./dist/memo.js",
+      "require": "./dist/memo.cjs"
+    }
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsup",
+    "prepublishOnly": "pnpm run build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@siwz/core": "workspace:*"
+  },
+  "peerDependencies": {
+    "next-auth": ">=4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "next-auth": { "optional": false }
+  },
+  "devDependencies": {
+    "next-auth": "^4.24.7",
+    "typescript": "^5.5.4",
+    "tsup": "^8.2.4"
+  },
+  "keywords": [
+    "zcash",
+    "siwz",
+    "sign-in-with-zcash",
+    "next-auth",
+    "auth.js",
+    "nextauth",
+    "authentication",
+    "auth",
+    "memo-challenge",
+    "zip-321",
+    "credentials-provider",
+    "siwe-alternative"
+  ],
+  "homepage": "https://siwz.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/austinchris/SWZ.git",
+    "directory": "packages/siwz-next-auth"
+  },
+  "bugs": "https://github.com/austinchris/SWZ/issues",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}

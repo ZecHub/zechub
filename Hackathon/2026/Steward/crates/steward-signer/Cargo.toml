@@ -1,0 +1,75 @@
+# steward-signer — ISOLATED workspace root (NOT a member of the parent steward workspace).
+#
+# This crate is the PCZT producer + `zcash-sign` driver + extractor + broadcaster.
+# It MUST live on zcash-sign's OLD, divergent crate stack, because `zcash-sign` uses
+# `pczt 0.5.0`, whose `parse()` HARD-REJECTS any PCZT serialization version != 1.
+# Newer pczt (0.6/0.7) drift the wire layout -> rejected by zcash-sign. This stack is
+# incompatible with steward-core's modern frost-core 3.0 / reddsa 0.5.2 stack, so the
+# `[workspace]` table below makes this its own workspace root with its own lockfile and
+# its own [patch.crates-io], preventing the old deps from contaminating the parent.
+#
+# The seam to steward-core is a 64-byte hex signature (see src/sign.rs) — this crate
+# does NOT depend on steward-core.
+
+[workspace]
+# Empty table => this Cargo.toml is an isolated workspace root (not pulled into ../..).
+
+[package]
+name = "steward-signer"
+description = "Steward PCZT engine: construct/prove a v5 Orchard PCZT, drive zcash-sign for FROST spend-auth sigs, finalize/extract, and broadcast to Zaino"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[lib]
+name = "steward_signer"
+path = "src/lib.rs"
+
+[[bin]]
+name = "steward-signer"
+path = "src/main.rs"
+
+[dependencies]
+# --- NU6.2-native library stack (post-GHSA-2x4w-pxqw-58v9 Orchard circuit) ---
+# orchard 0.14 ships the FixedPostNu6_2 circuit (Builder::build defaults to it) and carries
+# `unstable-frost` natively, so no conradoplg fork is needed. The rest is the released NU6.2
+# crate wave that resolves against orchard 0.14 / zcash_protocol 0.9. `pczt` now signs inline
+# via its `signer` role (no external zcash-sign binary — see src/sign.rs).
+zcash_client_backend = { version = "0.23", features = ["orchard", "pczt", "sync", "lightwalletd-tonic-tls-webpki-roots"] }
+zcash_client_sqlite  = { version = "0.21", features = ["orchard", "transparent-inputs", "serde"] }
+pczt                 = { version = "0.7",  features = ["prover", "signer", "tx-extractor"] }
+zcash_keys           = { version = "0.14", features = ["orchard", "unstable-frost"] }
+zcash_primitives     = "0.28"
+zcash_proofs         = { version = "0.28", features = ["bundled-prover"] }
+zcash_protocol       = "0.9"
+zcash_address        = "0.12"
+# unstable-frost gates from_sk_ak + pub SpendValidatingKey::from_bytes; default features keep
+# `circuit` for ProvingKey/VerifyingKey::build used by prove/extract. 0.14 => FixedPostNu6_2.
+orchard              = { version = "0.14", features = ["unstable-frost"] }
+# Name `rusqlite::Connection` for the concrete WalletDb type alias. Bare (no features) — the
+# `bundled` sqlite + `array`/`uuid`/`time` features come transitively from zcs; already in lock.
+rusqlite             = "0.37"
+zip321               = "0.8"        # propose_transfer takes a zip321::TransactionRequest (matches zcb 0.21)
+zip32                = "0.2"
+nonempty             = "0.11"
+rand                 = "0.8"        # random throwaway Orchard SpendingKey for vault_ufvk (nk/rivk filler)
+# `ff::PrimeField::to_repr` turns each Orchard action's `alpha` (pallas::Scalar, from the pczt
+# Signer's parsed orchard bundle) into the 32-byte LE randomizer we hand the coordinator. Pinned
+# to orchard 0.14's ff 0.13 so the trait impl applies to the same pallas::Scalar type.
+ff                   = "0.13"
+
+# --- gRPC broadcast to Zaino/lightwalletd ---
+# MUST match zcb 0.21's tonic/prost (0.14 — the tonic-prost split) so we can reuse
+# its generated `CompactTxStreamerClient` with our own `tonic::transport::Channel`.
+# `channel` = client transport; `tls-webpki-roots` = bundled roots; `tls-ring` = crypto provider.
+tonic  = { version = "0.14", default-features = false, features = ["channel", "codegen", "tls-webpki-roots", "tls-ring"] }
+tokio  = { version = "1", features = ["rt-multi-thread", "macros"] }
+prost  = "0.14"
+
+# --- glue ---
+anyhow      = "1"
+thiserror   = "2"
+hex         = "0.4"
+serde       = "1"   # only for the `AccountId: serde::Serialize` bound create_pczt_from_proposal requires
+serde_json  = "1"   # parse Fauzec faucet JSON + coordinator session responses (already in lock)
+async-trait = "0.1" # implement zcb's async `BlockCache` trait for our in-memory block cache (already in lock)

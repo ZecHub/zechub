@@ -1,0 +1,1 @@
+RUSTFLAGS="-D warnings" cargo check && cargo clippy -- --deny warnings && cargo fmt && ./utils/trailing-whitespace.sh reject && RUSTFLAGS="-D warnings" cargo check --tests

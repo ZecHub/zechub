@@ -1,0 +1,66 @@
+[![Àtúnṣe ojúewé](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Namada_Protocol.md)
+
+# Àgbékalẹ̀ Namada
+
+[Àmì Àwòrán Namada]](https://i.ibb.co/BZcZHS1/logo.png)
+
+
+## Kí ni Namada?
+
+<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+  <iframe
+    className="w-full h-full"
+    src="https://www.youtube.com/embed/Wg_WtPdBig0"
+    title="Zcash Explained: Namada-Zcash Strategic Alliance"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    jẹ́ kíFullScreen
+    loading="lazy"
+  />
+</div>
+
+Namada Protocol serves as a Layer 1 platform based on proof-of-stake consensus, designed to provide interchain asset-agnostic privacy. Through the Inter-Blockchain Communication (IBC) protocol, Namada seamlessly integrates with fast-finality chains, enabling smooth interoperability. Additionally, Namada establishes a trustless two-way bridge with Ethereum, facilitating secure and reliable communication between the two networks.
+
+Namada prioritizes privacy by implementing an enhanced iteration of the Multi-Asset Shielded Pool (MASP) circuit. This upgraded version enables all types of assets, including both fungible and non-fungible tokens, to utilize a shared shielded set just exactly as that of Zcash. As a result, the act of transferring supported assets on Namada becomes distinct as it becomes difficult to identify due to the high level of privacy involved. Also, the latest update to the Multi Asset Shielded Pool circuit enables shielded set rewards which is a groundbreaking feature or incentive that allocates resources to promote privacy as a public good.
+
+## Ethereum Bridge + IBC Tí ó bára mu
+
+The integration of the Ethereum bridge into Namada eliminates the need for a separate protocol, as it becomes an integral part of the Namada ecosystem. Validators within Namada are entrusted with running the bridge alongside the core Namada protocol. These validators also serve as relayers when it comes to transferring assets to Namada, making the involvement of additional actors unnecessary. On the other hand, when transferring assets to Ethereum, external parties (known as relayers) are involved, although they bear no responsibility for validating or securing the bridge.
+
+[Àwòrán Afárá Ethereum]](https://i.ibb.co/wKds5RP/image.jpg)
+
+Namada Protocol also has the ability to seamlessly connect with any fast-finality chain that supports the Inter-Blockchain Communication (IBC) protocol. When it comes to interoperating with Ethereum, Namada implements a specialized and secure Ethereum bridge that operates in a trustless manner. This bridge is carefully designed to prioritize safety by enforcing flow controls for all bridge connections and treating any faulty Ethereum transfers as a serious offense that can result in slashing penalties.
+
+## Àwọn Èrè Tí Wọ́n Fi Ààbò Ṣètò
+
+Nínú àtúnṣe tó kẹ́yìn ti [Àgbékalẹ̀ Namada](https://blog.namada.net/what-is-namada/), users who hold shielded assets are incentivized to actively participate in the shared shielded set. This is made possible through the integration of the updated MASP circuit, which now includes the innovative Convert Circuit. By leveraging this new feature, Namada encourages users to contribute to the shared shielded set by holding shielded assets.
+
+In Namada, the shielded set is considered a non-exclusive and anti-rivalrous public good. This means that as more individuals utilize shielded transfers, the level of privacy guarantees improves for each participant. The protocol recognizes the importance of collective adoption and participation in enhancing privacy for all users. Therefore, by incentivizing users to hold shielded assets and contribute to the shared shielded set, Namada fosters a stronger and more robust privacy ecosystem.
+
+## Iṣowo Awọn ohun-ini ti o ni idaabobo
+
+When it comes to shielded transfers, whether it involves an Ethereum non-fungible token (NFT), ATOM, or NAM, they are indistinguishable from one another. This means that the privacy-preserving features provided by the MASP (Modified Accumulator Sapling Protocol), an enhanced version of the Zcash Sapling circuit, apply uniformly to all types of assets. The MASP circuit enables all assets within the Namada ecosystem to share the same shielded set. This approach ensures that privacy guarantees are not fragmented among individual assets. Regardless of the transaction volume associated with a particular asset, the privacy protection remains consistent and independent.
+
+[Àkọsílẹ̀ Àdánwò Iṣowo Àwọn Ohun Ìní Ààbò]](https://i.ibb.co/7CDmWk6/image-1.png)
+
+By unifying the shielded set across different assets, Namada ensures that privacy is upheld uniformly, regardless of the specific asset type involved in a shielded transfer. This approach promotes a cohesive privacy framework within the protocol and enhances the confidentiality of transactions involving Ethereum NFTs, ATOM, NAM, and other supported assets. Namada also enables private transfer of fungible and non-fungible tokens using novel zk-SNARKs, ensuring confidentiality for native and non-native tokens just like it is done on Zcash.
+
+## Àwọn Owó Tó Ń Kù Sí I àti Àwọn Àdéhùn Tó Máa Ń Yára Ṣẹ
+
+Namada combines two key elements to deliver fast transaction speed and finality: fast-proof generation and modern Byzantine Fault Tolerant (BFT) consensus. These two features enable Namada to achieve a transaction processing rate comparable to Visa, a well-known payment network recognized for its high throughput capabilities. Fast-proof generation refers to the efficient production of cryptographic proofs that validate the correctness and integrity of transactions on the Blockchain. By employing advanced techniques and optimizations, Namada Protocol minimizes the computational overhead required to generate these proofs, resulting in swift verification and confirmation of transactions.
+
+Additionally, Namada utilizes modern BFT consensus algorithms, which ensure the integrity and agreement of transactions across the network. These consensus mechanisms enable Namada to reach a consensus on the order and validity of transactions, providing a strong guarantee of finality. With finality, transactions are considered irreversible, reducing the risk of double-spending or transaction rollback. Namada follows a similar approach to Anoma, another protocol known for its scalability solutions. Namada adopts fractal instances, which allow for the creation of nested chains within the main blockchain. This fractal structure enables horizontal scaling by distributing the load across multiple instances, enhancing the overall capacity and performance of the network.
+
+## Namada àti Zcash Àjọṣepọ̀ Ọ̀nà
+
+Gege bi iwe kan ti o jade laipe ti o le ri [Namada Protocol Blog](https://blog.namada.net/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/), ẹgbẹ ti o wa lẹhin Namada Protocol ni inudidun lati ṣafihan imọran ati ibeere-fun-akọsilẹ (RFC) fun isopọpọ iṣedede laarin awọn ohun-ini, awọn ẹwọn, ati awọn agbegbe Namada ati Zcash.
+
+[Àwòrán Àjọṣepọ̀ Námada-Zcash]](https://i.ibb.co/FqsmkMb/image-2.png)
+
+The proposed alliance encompasses three primary elements. Firstly, there is a grants pool that will be created to provide funding for projects that bring advantages to both Zcash and Namada. Secondly, an airdrop of NAM tokens will be allocated to ZEC holders. Lastly, a plan is in place to establish a trust-minimized bridge connecting Zcash and Namada. Once implemented, this bridge will enable ZEC holders, referred to as Zolders, to utilize their ZEC on Namada. Furthermore, Zolders will have the opportunity to access the wider Cosmos and Ethereum ecosystems through Namada. You can learn more about the strategic alliance on [Zcash Community Forum](https://forum.zcashcommunity.com/t/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/44372)
+
+## Àwọn ìjápọ̀ ìsọfúnni
+
+- [Àkọsílẹ̀ Àgbékalẹ̀ Namada Fidio Òfísì](https://www.youtube.com/watch?v=Wg_WtPdBig0)
+- [Ojú-ìwé Ìkànnì Ìjọba Àpapọ̀ ti Àdéhùn Namada]](https://namada.net/)
+- [Àdàkọ:Namada Blog]](https://blog.namada.net/)
+- [Àwọn Àjọ tó ń rí sí Namada]](https://docs.namada.net/)

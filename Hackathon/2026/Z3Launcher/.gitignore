@@ -1,0 +1,26 @@
+# Go
+/bin/
+*.test
+*.out
+coverage.*
+
+# Node / frontend build
+node_modules/
+web/node_modules/
+# Note: web/dist is intentionally committed so the Go `embed` builds without
+# requiring a Node toolchain. Rebuild it with `make web`.
+
+# Local config & chain state
+.env
+/data/
+*.local
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+.claude/
+
+# Compiled binary at repo root (built by `make build` into ./bin; a stray
+# root copy must never be committed)
+/z3launcher

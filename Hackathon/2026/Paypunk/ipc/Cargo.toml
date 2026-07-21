@@ -1,0 +1,20 @@
+[package]
+name = "paypunk-ipc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tactix.workspace = true
+tokio = { workspace = true, features = ["net", "io-util"] }
+thiserror.workspace = true
+bytes.workspace = true
+x25519-dalek.workspace = true
+blake2.workspace = true
+rand.workspace = true
+tracing.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true
+tokio = { workspace = true, features = ["rt", "macros"] }
+serde = { workspace = true, features = ["derive"] }
+postcard = { workspace = true, features = ["alloc"] }

@@ -1,0 +1,236 @@
+# Regtest overlay for the vendored z3 compose (plan §3, Z3-23).
+#
+# Regtest differs from mainnet/testnet in three ways:
+#   1. The chain is created from scratch — there is no shared state to sync.
+#   2. Blocks are mined locally via zcashd, so a "miner" container is required
+#      (z3's regtest overlay uses zcashd, not Zebra, for mining).
+#   3. The RPC traffic between the wallet/Zaino and the node is routed through
+#      an `rpc-router` service so the same port semantics work for the
+#      lightwalletd-compatible wallet pointing at Zaino.
+#
+# Usage: --network regtest picks this file up automatically (see config.Config
+# .ComposeFile). You can override the path with --regtest-compose-file.
+#
+# Image tags are pinned to match the main compose for consistency.
+
+name: z3-regtest
+
+services:
+  zebra:
+    image: ${ZEBRA_IMAGE:-zfnd/zebra:5.2.0}
+    restart: unless-stopped
+    # Regtest needs a TOML config to activate NU5/NU6 (required for Zallet's
+    # Orchard support). Env vars can't set activation heights — the config
+    # crate can't construct the nested Option<DTestnetParameters> from flat
+    # key-value pairs. The TOML handles network params; other settings
+    # (RPC, health, mining) are also in the TOML for consistency.
+    volumes:
+      - ./zebra/zebrad.regtest.toml:/home/zebra/.config/zebrad.toml:ro
+      - "${Z3_ZEBRA_CACHE_MOUNT:-zebra-cache}:/home/zebra/.cache/zebra"
+    ports:
+      - "127.0.0.1:${Z3_ZEBRA_HOST_RPC_PORT:-18232}:8232"
+      - "127.0.0.1:${Z3_ZEBRA_HOST_HEALTH_PORT:-8080}:8080"
+      # Zaino shares this network namespace (network_mode: service:zebra),
+      # so its ports are published here.
+      - "127.0.0.1:${ZAINO_HOST_GRPC_PORT:-8137}:8137"
+    healthcheck:
+      # Regtest healthcheck is faster than mainnet: tip is reached after a
+      # single block mine, so we don't need a 60s start period.
+      test: ["CMD-SHELL", "curl -sf http://localhost:8080/ready || exit 1"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 5s
+
+  zcashd:
+    image: ${ZCASHD_IMAGE:-zodlinc/zcashd:v6.12.1}
+    profiles: ["regtest"]
+    restart: unless-stopped
+    # zcashd mines blocks for the regtest chain. The control plane drives it
+    # via JSON-RPC from internal/regtest.Seeder.
+    environment:
+      # Same env vars z3's regtest overlay uses; verify against upstream
+      # before a real run.
+      ZCASHD_NETWORK: regtest
+    ports:
+      - "127.0.0.1:${ZCASHD_HOST_RPC_PORT:-18231}:18231"
+    volumes:
+      - zcashd-data:/home/zcash/.zcash
+    healthcheck:
+      # zcashd regtest starts instantly; ping its getinfo over the rpc-router
+      # path (see below) once the router is up.
+      test: ["CMD-SHELL", "curl -sf http://127.0.0.1:18231 || exit 1"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+      start_period: 5s
+
+  rpc-router:
+    image: ${RPC_ROUTER_IMAGE:-nginx:1.27-alpine}
+    profiles: ["regtest"]
+    depends_on:
+      zebra:
+        condition: service_healthy
+      zcashd:
+        condition: service_healthy
+    # The router proxies /zebra/* to Zebra's JSON-RPC and /zcashd/* to zcashd.
+    # A minimal nginx.conf is mounted; in production this would be a tiny
+    # purpose-built sidecar. The control plane treats it as opaque.
+    volumes:
+      - ./rpc-router/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    ports:
+      - "127.0.0.1:${Z3_RPC_ROUTER_PORT:-18230}:80"
+
+  # One-shot service that mines initial blocks via Zebra's `generate` RPC so
+  # the chain advances past genesis. Zaino v0.2.0's NonFinalizedState fails
+  # with "could not determine best chain" on a genesis-only chain, so at
+  # least one block beyond genesis must exist before Zaino starts.
+  mine-genesis:
+    image: curlimages/curl:8.13.0
+    # Reach Zebra over the compose network by service name rather than sharing
+    # its network namespace. network_mode: "service:zebra" pins this one-shot to
+    # Zebra's PID-scoped netns; when Zebra is recreated that path goes stale and
+    # the next start fails with "namespace path … no such file or directory"
+    # (exit 127), which then fails `up` for everything downstream. Zebra's RPC
+    # binds 0.0.0.0:8232 with cookie auth off, so http://zebra:8232 works.
+    depends_on:
+      zebra:
+        condition: service_healthy
+    restart: "no"
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - |
+        echo "Mining initial regtest blocks via Zebra generate RPC…"
+        curl -sf --retry 5 --retry-delay 2 -X POST http://zebra:8232 \
+          -H 'Content-Type: application/json' \
+          -d '{"jsonrpc":"1.0","id":"mine-genesis","method":"generate","params":[10]}' \
+        && echo "Initial blocks mined successfully." \
+        || { echo "ERROR: failed to mine initial blocks"; exit 1; }
+
+  zaino:
+    image: ${ZAINO_IMAGE:-zingodevops/zainod:0.4.1}
+    restart: unless-stopped
+    depends_on:
+      zebra:
+        condition: service_healthy
+      mine-genesis:
+        condition: service_completed_successfully
+    # Share Zebra's network namespace so Zaino reaches Zebra at 127.0.0.1:8232
+    # without TLS. Zaino's ports are published on the zebra service above.
+    network_mode: "service:zebra"
+    # Zaino v0.2.0 requires a TOML config file; env vars alone don't work.
+    volumes:
+      - ./zaino/zainod.regtest.toml:/home/container_user/.config/zaino/zainod.toml:ro
+      - zaino-db:/home/container_user/.cache/zaino
+      # Zaino reads Zebra's state DB directly for chain indexing.
+      - ${Z3_ZEBRA_CACHE_MOUNT:-zebra-cache}:/home/zebra/.cache/zebra:ro
+
+  # One-shot wallet initialization, driven idempotently by the launcher via
+  # `docker compose run` (see launcher.Stack.EnsureZalletWallet) — NOT via a
+  # depends_on chain. init-wallet-encryption errors if re-run on an existing
+  # wallet, and generate-mnemonic silently stores a fresh seed each run, so
+  # neither is safe to auto-rerun on the persistent zallet-data volume. The
+  # launcher runs init, and only generates a mnemonic when init reports the
+  # wallet was freshly created. These services depend only on Zebra being up.
+  zallet-init:
+    image: ${ZALLET_IMAGE:-zodlinc/zallet:v0.1.0-alpha.4}
+    # alpha.4 ships three binaries; zallet-zaino keeps alpha.3's architecture
+    # (embedded indexer over validator RPC). The image default `zallet` is the
+    # new zebra-state backend, which needs direct access to Zebra's state DB.
+    entrypoint: ["zallet-zaino"]
+    profiles: ["zallet"]
+    restart: "no"
+    depends_on:
+      zebra:
+        condition: service_healthy
+    command:
+      - "--datadir"
+      - "/var/lib/zallet"
+      - "--config"
+      - "/etc/zallet/zallet.toml"
+      - "init-wallet-encryption"
+    volumes:
+      - zallet-data:/var/lib/zallet
+      - ${ZALLET_CONFIG_FILE:-./zallet/zallet.regtest.toml}:/etc/zallet/zallet.toml:ro
+      - ${ZALLET_IDENTITY_FILE:-./zallet/identity.txt}:/etc/zallet/identity.txt:ro
+
+  zallet-mnemonic:
+    image: ${ZALLET_IMAGE:-zodlinc/zallet:v0.1.0-alpha.4}
+    # alpha.4 ships three binaries; zallet-zaino keeps alpha.3's architecture
+    # (embedded indexer over validator RPC). The image default `zallet` is the
+    # new zebra-state backend, which needs direct access to Zebra's state DB.
+    entrypoint: ["zallet-zaino"]
+    profiles: ["zallet"]
+    restart: "no"
+    depends_on:
+      zebra:
+        condition: service_healthy
+    command:
+      - "--datadir"
+      - "/var/lib/zallet"
+      - "--config"
+      - "/etc/zallet/zallet.toml"
+      - "generate-mnemonic"
+    volumes:
+      - zallet-data:/var/lib/zallet
+      - ${ZALLET_CONFIG_FILE:-./zallet/zallet.regtest.toml}:/etc/zallet/zallet.toml:ro
+      - ${ZALLET_IDENTITY_FILE:-./zallet/identity.txt}:/etc/zallet/identity.txt:ro
+
+  # Imports a BIP-39 phrase from stdin (launcher pipes it in). Powers new-wallet
+  # creation (launcher-generated phrase shown for backup) and restore-from-seed.
+  zallet-import:
+    image: ${ZALLET_IMAGE:-zodlinc/zallet:v0.1.0-alpha.4}
+    # alpha.4 ships three binaries; zallet-zaino keeps alpha.3's architecture
+    # (embedded indexer over validator RPC). The image default `zallet` is the
+    # new zebra-state backend, which needs direct access to Zebra's state DB.
+    entrypoint: ["zallet-zaino"]
+    profiles: ["zallet"]
+    restart: "no"
+    depends_on:
+      zebra:
+        condition: service_healthy
+    command:
+      - "--datadir"
+      - "/var/lib/zallet"
+      - "--config"
+      - "/etc/zallet/zallet.toml"
+      - "import-mnemonic"
+    volumes:
+      - zallet-data:/var/lib/zallet
+      - ${ZALLET_CONFIG_FILE:-./zallet/zallet.regtest.toml}:/etc/zallet/zallet.toml:ro
+      - ${ZALLET_IDENTITY_FILE:-./zallet/identity.txt}:/etc/zallet/identity.txt:ro
+
+  zallet:
+    image: ${ZALLET_IMAGE:-zodlinc/zallet:v0.1.0-alpha.4}
+    # alpha.4 ships three binaries; zallet-zaino keeps alpha.3's architecture
+    # (embedded indexer over validator RPC). The image default `zallet` is the
+    # new zebra-state backend, which needs direct access to Zebra's state DB.
+    entrypoint: ["zallet-zaino"]
+    profiles: ["zallet"]
+    restart: unless-stopped
+    # The wallet is initialized by the launcher before this service starts, so
+    # zallet depends only on Zebra being healthy and the chain having advanced
+    # past genesis (mine-genesis) — not on the init one-shots.
+    depends_on:
+      zebra:
+        condition: service_healthy
+      mine-genesis:
+        condition: service_completed_successfully
+    command:
+      - "--datadir"
+      - "/var/lib/zallet"
+      - "--config"
+      - "/etc/zallet/zallet.toml"
+      - "start"
+    ports:
+      - "127.0.0.1:${ZALLET_HOST_RPC_PORT:-28232}:28232"
+    volumes:
+      - zallet-data:/var/lib/zallet
+      - ${ZALLET_CONFIG_FILE:-./zallet/zallet.regtest.toml}:/etc/zallet/zallet.toml:ro
+      - ${ZALLET_IDENTITY_FILE:-./zallet/identity.txt}:/etc/zallet/identity.txt:ro
+
+volumes:
+  zebra-cache:
+  zaino-db:
+  zallet-data:
+  zcashd-data:

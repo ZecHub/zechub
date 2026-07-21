@@ -1,0 +1,31 @@
+[package]
+name = "keypunkd"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+paypunk-config.workspace = true
+paypunk-ipc.workspace = true
+paypunk-types.workspace = true
+paypunk-chains-zcash.workspace = true
+paypunk-chains-ethereum.workspace = true
+zcash_address.workspace = true
+zcash_protocol.workspace = true
+tactix.workspace = true
+tokio = { workspace = true, features = ["net", "io-util", "rt", "macros", "signal"] }
+serde = { workspace = true, features = ["derive"] }
+postcard = { workspace = true, features = ["alloc"] }
+bip39 = { workspace = true, features = ["rand"] }
+argon2.workspace = true
+aes-gcm.workspace = true
+rand.workspace = true
+x25519-dalek.workspace = true
+blake2.workspace = true
+thiserror.workspace = true
+zeroize.workspace = true
+tracing.workspace = true
+tracing-subscriber = { workspace = true, features = ["env-filter"] }
+async-trait.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true

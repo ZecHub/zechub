@@ -1,0 +1,16 @@
+{
+  "name": "@zecauth/wallet",
+  "version": "0.1.0",
+  "description": "ZecAuth SDK for wallet developers — add 'Sign in with Zcash' support to your wallet",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

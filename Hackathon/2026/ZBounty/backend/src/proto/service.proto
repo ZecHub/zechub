@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package cash.z.wallet.sdk.rpc;
+
+service CompactTxStreamer {
+    rpc GetLightdInfo(Empty) returns (LightdInfo) {}
+    rpc GetTaddressBalance(AddressList) returns (Balance) {}
+}
+
+message Empty {}
+
+message LightdInfo {
+    string version = 1;
+    string vendor = 2;
+    bool taddrSupport = 3;
+    string chainName = 4;
+    uint64 blockHeight = 6;
+}
+
+message AddressList {
+    repeated string addresses = 1;
+}
+
+message Balance {
+    int64 valueZat = 1;
+}

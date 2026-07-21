@@ -1,0 +1,82 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  core:
+    name: Core logic
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy, rustfmt
+      - uses: Swatinem/rust-cache@v2
+        with:
+          key: core
+      - run: cargo fmt --all --check
+      - name: Clippy (pure logic, no chain backend)
+        run: cargo clippy -p turnstile-core --all-targets -- -D warnings
+      - name: Test verdicts, chain maths, memo parsing, key validation
+        run: cargo test -p turnstile-core
+      - name: Test the WASM key inspector (native)
+        run: cargo test --manifest-path keycheck/Cargo.toml
+
+  workspace:
+    name: Full workspace
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy
+
+      - uses: Swatinem/rust-cache@v2
+        with:
+          key: workspace
+
+      - name: Install protoc
+        run: sudo apt-get update && sudo apt-get install -y protobuf-compiler
+
+      - name: Cache Sapling parameters
+        uses: actions/cache@v4
+        with:
+          path: ~/.local/share/ZcashParams
+          key: zcash-params-v1
+
+      - run: cargo clippy --workspace --all-targets -- -D warnings
+      - run: cargo test --workspace
+      - name: Smoke-test the CLI
+        run: cargo run -p turnstile-check -- --help
+
+  frontend:
+    name: Frontend
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci
+      - run: npx tsc --noEmit
+      - run: npm run lint
+      - name: Test the key guard, the memo contract, and the chain maths
+        run: npm test
+      - run: npm run build

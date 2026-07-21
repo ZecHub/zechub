@@ -1,0 +1,41 @@
+# Zebra configuration for regtest with all network upgrades activated at
+# height 1. This is required for Zallet (which needs NU5/Orchard tree state)
+# and for realistic regtest testing.
+#
+# Env vars (ZEBRA_RPC__*, ZEBRA_HEALTH__*, ZEBRA_MINING__*) override the
+# corresponding TOML sections at runtime, so this file only sets the network
+# parameters that can't be expressed as env vars.
+
+[network]
+network = "Regtest"
+
+[network.testnet_parameters]
+
+[network.testnet_parameters.activation_heights]
+BeforeOverwinter = 1
+Overwinter = 1
+Sapling = 1
+Blossom = 1
+Heartwood = 1
+Canopy = 1
+NU5 = 2
+NU6 = 2
+
+[rpc]
+listen_addr = "0.0.0.0:8232"
+enable_cookie_auth = false
+
+[health]
+listen_addr = "0.0.0.0:8080"
+min_connected_peers = 0
+
+[mining]
+# Regtest coinbase rewards go here. To fund the Zallet wallet on regtest (so it
+# shows a balance to receive into), set this to the wallet's account-0
+# transparent receiver (from z_listunifiedreceivers) and mine. NOTE: zallet
+# alpha cannot yet *spend* coinbase, so a real on-chain send needs a non-coinbase
+# source — use testnet + a faucet for that (Zcash is retiring zcashd, so we do
+# not rely on it). Set below to the local demo wallet's account-0 t-addr (tied to
+# the current wallet seed; reset the wallet -> update this, or revert to a
+# throwaway like tmJymvcUCn1ctbghvTJpXBwHiMEB8P6wxNV for a clean repo).
+miner_address = "tmNzmRvVSSjsVuAN8PL4XViLULGnXqhAyzp"

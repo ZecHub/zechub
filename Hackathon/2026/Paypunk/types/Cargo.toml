@@ -1,0 +1,8 @@
+[package]
+name = "paypunk-types"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { workspace = true, features = ["derive"] }
+async-trait.workspace = true

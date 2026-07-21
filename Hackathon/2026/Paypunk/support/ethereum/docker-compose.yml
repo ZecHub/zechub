@@ -1,0 +1,58 @@
+# ── Ethereum Anvil Dev Stack ──────────────────────────────────────────
+#
+# Usage:
+#   docker compose up                  # start anvil
+#   docker compose up -d               # start detached
+#
+# Anvil is a local Ethereum node from the Foundry suite, pre-configured
+# with the Hardhat "test junk" mnemonic for deterministic addresses.
+#
+# Ports exposed to the host:
+#   8545  → anvil JSON-RPC (HTTP + WebSocket)
+#
+# Connecting from paypunk:
+#   export PAYPUNK_RPC_URL=http://127.0.0.1:8545
+#
+# Common commands:
+#   # Check balance (first test account has 10000 ETH):
+#   curl -s http://127.0.0.1:8545 -H 'Content-Type: application/json' \
+#     -d '{"jsonrpc":"2.0","method":"eth_getBalance","params":["0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266","latest"],"id":1}'
+#
+#   # Mine a block:
+#   curl -s http://127.0.0.1:8545 -H 'Content-Type: application/json' \
+#     -d '{"jsonrpc":"2.0","method":"evm_mine","params":[],"id":1}'
+#
+#   # Reset state:
+#   docker compose down -v
+
+services:
+  anvil:
+    image: ghcr.io/foundry-rs/foundry:latest
+    ports:
+      - "8545:8545"
+    entrypoint: []
+    command:
+      - anvil
+      - --host
+      - "0.0.0.0"
+      - --port
+      - "8545"
+      - --mnemonic
+      - "test test test test test test test test test test test junk"
+      - --block-time
+      - "12"
+      - --gas-limit
+      - "30000000"
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "sh",
+          "-c",
+          "curl -s http://localhost:8545 -H 'Content-Type: application/json' -d '{\"jsonrpc\":\"2.0\",\"method\":\"eth_blockNumber\",\"params\":[],\"id\":1}' | grep -q result",
+        ]
+      interval: 3s
+      timeout: 2s
+      retries: 10
+      start_period: 5s
+    restart: unless-stopped

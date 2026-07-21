@@ -1,0 +1,41 @@
+# Zcash regtest funding stack: a single zcashd node (chain + Orchard shielding)
+# fronted by lightwalletd (the gRPC endpoint your wallet syncs against).
+#
+#   make up                 # build + start
+#   make fund UA=<orchard-ua>  # mine + shield coinbase into your wallet's UA
+#   make reset              # wipe and start clean
+services:
+  zcashd:
+    build:
+      context: ./zcashd
+    volumes:
+      - zcashd-data:/data
+      - zcash-params:/root/.zcash-params
+      - ./zcashd/zcash.conf:/data/zcash.conf:ro
+    ports:
+      - "18232:18232"          # zcashd JSON-RPC
+    healthcheck:
+      test: ["CMD", "bash", "-c", "exec 3<>/dev/tcp/127.0.0.1/18232"]
+      interval: 5s
+      timeout: 3s
+      retries: 40
+      start_period: 10s
+    restart: unless-stopped
+
+  lightwalletd:
+    build:
+      context: ./lightwalletd
+    depends_on:
+      zcashd:
+        condition: service_healthy
+    volumes:
+      - lwd-data:/data
+      - ./lightwalletd/zcash.conf:/etc/lightwalletd/zcash.conf:ro
+    ports:
+      - "9067:9067"            # lightwalletd gRPC (no TLS) -> point your wallet here
+    restart: unless-stopped
+
+volumes:
+  zcashd-data:
+  zcash-params:
+  lwd-data:

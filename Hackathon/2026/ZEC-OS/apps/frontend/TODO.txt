@@ -1,0 +1,142 @@
+# ZEC-OS Privacy Radar - TODO
+# ============================
+# Tracks both backend API work and frontend implementation status.
+
+## BACKEND API - COMPLETE
+## ======================
+
+### /api/flows Endpoint - LIVE
+- [x] FlowDaily table schema implemented
+- [x] Parser integration with aggregation logic
+- [x] Historical data backfilled
+- [x] Endpoint implemented at /api/flows
+- [x] Supported params:
+      - range: 1d, 3d, 1w, 1m, 3m, 6m, 1y, 3y, all
+      - Returns daily granularity data
+
+### Response Format
+```json
+{
+  "data": [{
+    "date": "2024-XX-XX",
+    "shielding": { "sprout": 0, "sapling": X, "orchard": X, "total": X },
+    "deshielding": { "sprout": 0, "sapling": X, "orchard": X, "total": X },
+    "net": { "sprout": 0, "sapling": X, "orchard": X, "total": X },
+    "txCounts": { "shielding": X, "deshielding": X, "mixed": X, "total": X },
+    "operations": {
+      "sproutJoinsplits": 0,
+      "saplingSpends": X,
+      "saplingOutputs": X,
+      "orchardActions": X,
+      "total": X
+    }
+  }],
+  "count": N,
+  "range": "1m",
+  "totals": { "shielding": X, "deshielding": X, "net": X, "txCount": X, "operations": X }
+}
+```
+
+
+## FRONTEND - COMPLETE
+## ===================
+
+### Privacy Coach (100% Client-Side)
+- [x] Types and interfaces (src/lib/privacy/types.ts)
+- [x] Analysis functions (src/lib/privacy/analyzer.ts)
+      - Address reuse detection
+      - Timing pattern analysis
+      - Amount fingerprinting
+      - Pool usage analysis
+      - Linkability detection
+      - Transaction classification
+- [x] Recommendation engine (src/lib/privacy/recommendations.ts)
+- [x] Scoring system (src/lib/privacy/scoring.ts)
+- [x] TrustBadge component - offline mode indicator
+- [x] PrivacyCoach component - main analysis UI
+- [x] Registered in Desktop and Taskbar menus
+
+### Privacy Weather (Connected to Live API)
+- [x] useFlowData hook (src/hooks/useFlowData.ts)
+- [x] usePrivacyWeather hook
+- [x] API proxy route (src/app/api/flows/route.ts)
+- [x] PrivacyWeather component
+      - Shield Window score/indicator
+      - Flow gauges (inflow/outflow)
+      - Crowd meter (activity level)
+      - Period selector (1h, 24h, 1w, 1m)
+- [x] Connected to live /api/flows endpoint
+- [x] Registered in Desktop and Taskbar menus
+
+
+## INTEGRATION - COMPLETE
+## ======================
+
+### Connect to Real API
+- [x] Environment variable: NEXT_PUBLIC_MOCK_DATA=false
+- [x] Connected to live /api/flows endpoint
+- [x] Data format aligned with API types via transform layer
+- [x] Error handling for API failures
+- [x] Range parameters updated to API format (1w, 1m vs 7d, 30d)
+
+
+## FUTURE FEATURES (Optional)
+## ==========================
+
+### Pro Features
+- [ ] Historical weather views (requires auth)
+- [ ] Alert system (browser notifications)
+- [ ] Client-side score history (localStorage)
+- [ ] Export functionality (PDF reports)
+- [ ] Subscription gate UI
+
+### Explorer Enhancements
+- [ ] Privacy Alert Detection algorithm
+- [ ] Address watch list / bookmarks
+
+
+## OPEN QUESTIONS
+## ==============
+
+1. Free tier historical depth - 24h only, or up to 7d?
+2. Coach data input format - support multiple explorer formats?
+3. Pro subscription infrastructure - auth/payment system?
+4. Notification delivery - browser push or in-app only?
+
+
+## FILE STRUCTURE
+## ==============
+
+src/
+├── lib/
+│   └── privacy/
+│       ├── index.ts           # Re-exports
+│       ├── types.ts           # All type definitions
+│       ├── analyzer.ts        # Pure analysis functions
+│       ├── recommendations.ts # Recommendation engine
+│       └── scoring.ts         # Scoring calculations
+├── hooks/
+│   └── useFlowData.ts         # Flow data + weather hooks (LIVE API)
+├── app/
+│   └── api/
+│       └── flows/
+│           └── route.ts       # Proxy to dashboard API
+└── components/
+    └── apps/
+        └── privacy/
+            ├── index.ts           # Re-exports
+            ├── TrustBadge.tsx     # Offline mode indicator
+            ├── PrivacyCoach.tsx   # Main analysis tool
+            └── PrivacyWeather.tsx # Weather dashboard
+
+
+## STATUS
+## ======
+# Last Updated: 2025-01-11
+#
+# Frontend: COMPLETE
+# Backend API: COMPLETE
+# Integration: COMPLETE - Using live /api/flows data
+#
+# To switch back to mock data (if needed):
+# Set NEXT_PUBLIC_MOCK_DATA=true in .env.local

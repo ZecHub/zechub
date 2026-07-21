@@ -1,0 +1,52 @@
+name: CI
+
+# Fast breakage check on every push/PR: frontend typecheck + build, and a
+# Rust workspace check. Cross-platform bundling lives in release.yml.
+on:
+  push:
+    branches: ["main", "spike/**"]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Linux build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libwebkit2gtk-4.1-dev librsvg2-dev build-essential file
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Rust cache
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri
+
+      - name: Install Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install frontend dependencies
+        run: npm ci
+
+      - name: Typecheck + frontend build
+        run: npm run build
+
+      # Tauri's build.rs verifies the externalBin resource exists, even for
+      # `cargo check`. CI only type-checks (never bundles), so a stub file at the
+      # host triple's path is enough — no need to build the real frostd sidecar.
+      - name: Stub sidecars for the resource check
+        run: |
+          mkdir -p src-tauri/binaries
+          touch src-tauri/binaries/frostd-x86_64-unknown-linux-gnu
+          touch src-tauri/binaries/cloudflared-x86_64-unknown-linux-gnu
+
+      - name: Rust workspace check
+        working-directory: src-tauri
+        run: cargo check --workspace

@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import "./vault.css";
+
+@theme {
+  --font-sans: "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #0b0a07;
+  color: #f2ebda;
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: rgba(231, 180, 63, 0.28);
+}

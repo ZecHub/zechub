@@ -1,0 +1,2 @@
+# GitHub Pages is handled by .github/workflows/pages.yml using mdBook
+# This file disables automatic Jekyll processing

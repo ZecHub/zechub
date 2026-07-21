@@ -1,0 +1,15 @@
+{
+  "name": "zec-os-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter @zec-os/frontend --filter @zec-os/backend --parallel dev",
+    "dev:frontend": "pnpm --filter @zec-os/frontend dev",
+    "dev:backend": "pnpm --filter @zec-os/backend dev",
+    "build": "pnpm --filter @zec-os/shared build && pnpm --filter @zec-os/frontend build && pnpm --filter @zec-os/backend build",
+    "build:frontend": "pnpm --filter @zec-os/frontend build",
+    "build:backend": "pnpm --filter @zec-os/backend build",
+    "db:push": "pnpm --filter @zec-os/backend exec prisma db push",
+    "db:generate": "pnpm --filter @zec-os/backend exec prisma generate"
+  }
+}

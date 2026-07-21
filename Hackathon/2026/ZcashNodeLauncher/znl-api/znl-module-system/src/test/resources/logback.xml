@@ -1,0 +1,4 @@
+<configuration>
+    <!-- Reference to Spring Boot's logback base configuration-->
+    <include resource="org/springframework/boot/logging/logback/defaults.xml" />
+</configuration>

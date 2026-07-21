@@ -1,0 +1,39 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/steward-core",
+    "crates/steward-coordinator",
+    "crates/steward-cli",
+    "crates/steward-testvectors",
+    "crates/steward-guardian-wasm",
+    "crates/steward-ffi",
+]
+# steward-signer is intentionally NOT a workspace member. It pins zcash-sign's
+# OLD crate stack (pczt 0.5.0, orchard 0.11 git fork) which is incompatible with
+# this workspace's modern frost-core 3.0 / reddsa 0.5.2 resolution. It is its own
+# workspace root (see crates/steward-signer/Cargo.toml) and communicates with the
+# rest of Steward only via process/hex artifacts (the 64-byte FROST signature seam).
+exclude = ["crates/steward-signer"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/steward/steward"
+authors = ["Steward"]
+
+# Shared dependency versions — verified 2026-07-06 against docs.rs / crates.io.
+# The FROST stack for shielded Zcash: RedPallas ZIP-312 re-randomized ciphersuite.
+[workspace.dependencies]
+frost-core = "3.0"
+frost-rerandomized = "3.0"
+# reddsa's `frost` feature exposes reddsa::frost::redpallas (the Orchard ciphersuite).
+# EXPERIMENTAL feature (ZIP-312 is draft) — pin exact version.
+reddsa = { version = "=0.5.2", features = ["frost"] }
+zip32 = "0.2"
+rand = "0.8"
+rand_chacha = "0.3"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+hex = "0.4"
+thiserror = "2"

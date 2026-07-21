@@ -1,0 +1,17 @@
+[graph]
+targets = []
+all-features = false
+no-default-features = false
+
+[bans]
+multiple-versions = "warn"
+wildcards = "allow"
+highlight = "all"
+
+# Deny openssl and boringssl dependencies
+deny = [
+    { crate = "openssl", reason = "Use rustls or other pure-Rust TLS implementations instead" },
+    { crate = "openssl-sys", reason = "Use rustls or other pure-Rust TLS implementations instead" },
+    { crate = "boring", reason = "Use rustls or other pure-Rust TLS implementations instead" },
+    { crate = "boring-sys", reason = "Use rustls or other pure-Rust TLS implementations instead" },
+]

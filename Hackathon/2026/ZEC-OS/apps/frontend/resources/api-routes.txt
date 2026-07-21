@@ -1,0 +1,34 @@
+Dashboard API Route Map
+    Route	| Method	| Source	| Description
+    /api/status	| GET	| Docker + DB + RPC	| Full system status: Zebra, zcashd, Postgres, Parser, Indexer, Resources
+    /api/chain	| GET	| RPC (Zebra/zcashd)	| Lightweight chain data: height, difficulty, pool values, nodeSource
+    /api/block/[heightOrHash]	| GET	| RPC	| Block by height or hash with full details
+    /api/tx/[txid]	| GET	| RPC	| Transaction with shielded data (Sprout/Sapling/Orchard) + metadata
+    /api/address/[address]	| GET	| DB	| Address balance, txs (transparent only, shielded returns 400)
+    /api/pools	| GET	| DB + RPC fallback	| Latest pool balances. Options: ?range=1w, ?deltas=true, ?sample=true
+    /api/price	| GET	| DB	| Current ZEC price from PriceHistory table
+    /api/price/refresh	| POST	| CoinGecko API	Force price update, upserts to DB
+    /api/flows	| GET	| DB	| Flow metrics - gross shielding/deshielding (planned)
+
+Response Details
+/api/status - Returns:
+    zebra: sync status, height, backup status, raw logs
+    zcashd: sync status, height, pool values
+    docker: container statuses and uptimes
+    indexer: blocks indexed, sync progress
+    parser: parsed height, pool state progress, nodeSource (zebra/zcashd), heartbeat
+    resources: RAM, CPU, disk usage
+
+/api/chain - Returns:
+    height, difficulty, pools (transparent/sprout/sapling/orchard), nodeSource
+
+/api/pools - Returns:
+    latest: current pool state
+    history: array of pool states (when ?range= specified)
+    source: 'db' or 'rpc'
+    deltas: per-block changes (when ?deltas=true)
+
+/api/tx/[txid] - Returns:
+    data: full transaction with vin/vout/shielded components
+    metadata: isShielded, isCoinbase, shieldedPools counts, transparentValue
+    source: 'zebra' or 'zcashd'

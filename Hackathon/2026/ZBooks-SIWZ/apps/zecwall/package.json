@@ -1,0 +1,29 @@
+{
+  "name": "@siwz/zecwall",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ZecWall: a Zcash-gated comments wall, the minimal SIWZ reference integration.",
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@siwz/core": "workspace:*",
+    "@siwz/react": "workspace:*",
+    "@siwz/next-auth": "workspace:*",
+    "next": "^14.2.5",
+    "next-auth": "^4.24.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.4"
+  }
+}

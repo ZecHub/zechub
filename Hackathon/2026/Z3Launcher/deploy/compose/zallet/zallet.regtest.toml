@@ -1,0 +1,53 @@
+# Zallet configuration for regtest.
+# Mounted read-only into the container at /etc/zallet/zallet.toml.
+
+[builder.limits]
+orchard_actions = 250
+
+[consensus]
+network = "regtest"
+# Branch-ID:height pairs. These MUST match zebra/zebrad.regtest.toml's
+# activation_heights exactly — Zallet's (alpha.4+) block scanner validates each
+# coinbase's consensus branch ID against these, and any mismatch aborts the
+# wallet sync with "coinbase tx's claimed height doesn't match its consensus
+# branch ID". Zebra activates pre-NU5 upgrades at height 1 and NU5 + NU6 at
+# height 2, so mirror that here.
+regtest_nuparams = [
+    "5ba81b19:1", # Overwinter
+    "76b809bb:1", # Sapling
+    "2bb40e60:1", # Blossom
+    "f5b9230b:1", # Heartwood
+    "e9ff75a6:1", # Canopy
+    "c2d6d0b4:2", # NU5
+    "c8e71055:2", # NU6
+]
+
+[database]
+
+[external]
+
+[features]
+as_of_version = "0.0.0"
+
+[features.deprecated]
+
+[features.experimental]
+
+[indexer]
+# Zallet connects to Zebra's JSON-RPC via the Docker network.
+# Cookie auth is disabled on regtest.
+validator_address = "zebra:8232"
+
+[keystore]
+encryption_identity = "/etc/zallet/identity.txt"
+
+[note_management]
+
+[rpc]
+bind = ["0.0.0.0:28232"]
+timeout = 30
+
+# RPC auth for the launcher to connect. Password is "z3launcher".
+[[rpc.auth]]
+user = "z3launcher"
+pwhash = "66175e28060637f4c57f779579a5c105$825a65903a5fb49d87df644b19f5514e52ba959c63b4850aeb322cf9b7afff27"

@@ -1,0 +1,15 @@
+[package]
+name = "derive-orchard"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+orchard.workspace = true
+zip32.workspace = true
+zcash_address.workspace = true
+zcash_protocol.workspace = true
+bip39 = { workspace = true, features = ["rand"] }
+hex.workspace = true
+serde_json = "1"
+serde = { version = "1", features = ["derive"] }
+bech32 = "0.11"
