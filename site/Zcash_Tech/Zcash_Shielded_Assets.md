@@ -1,5 +1,10 @@
-[![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Zcash_Shielded_Assets.md)
-[![](https://i.ibb.co/0VfMFB5/image-2023-11-18-160742427.png)](https://github.com/ZecHub/zechub/blob/main/site/Zcash_Tech)
+
+<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Zcash_Shielded_Assets.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+<a href="">
+    <img src="https://i.ibb.co/0VfMFB5/image-2023-11-18-160742427.png" alt="" width="800" height="500"/>
+</a>
 
 # Zcash Shielded Assets
 
@@ -80,9 +85,9 @@ Clone the zcash-tx-tool repository: <https://github.com/QED-it/zcash_tx_tool>
 
 ### Zcash Improvement Proposals (ZIPs)
 
-[ZIP 226](https://zips.z.cash/zip-0226): Transfer and Burn of Zcash Shielded Assets
-[ZIP 227](https://zips.z.cash/zip-0227): Issuance of Zcash Shielded Assets
-[ZIP 230](https://zips.z.cash/zip-0230): Version 6 Transaction Format
+- [ZIP 226](https://zips.z.cash/zip-0226): Transfer and Burn of Zcash Shielded Assets
+- [ZIP 227](https://zips.z.cash/zip-0227): Issuance of Zcash Shielded Assets
+- [ZIP 230](https://zips.z.cash/zip-0230): Version 6 Transaction Format
 
 > **Note on ZIP 230:** ZIP 230 has since been withdrawn and will not be deployed. Transaction version 6 is now defined by [ZIP 229](https://zips.z.cash/zip-0229). See the notice at the top of the [ZIP 230](https://zips.z.cash/zip-0230) page.
 
@@ -96,9 +101,8 @@ With this proposal, the team at [QEDIT](https://qed-it.com/) plans to bring DeFi
 
 These proposals are technically adherent to the [Zcash Improvement Proposal (ZIP)](https://zips.z.cash/zip-0000) specification and are defined in ZIP 226 & ZIP 227.
 
-- [ZIP 226](https://zips.z.cash/zip-0226): Transfer and Burn of Zcash Shielded Assets
-- [ZIP 227](https://zips.z.cash/zip-0227): Issuance of Zcash Shielded Assets
-- [ZIP 230](https://zips.z.cash/zip-0230): Version 6 Transaction Format
+1. [ZIP 226](https://zips.z.cash/zip-0226): Transfer and Burn of Zcash Shielded Assets
+2. [ZIP 227](https://zips.z.cash/zip-0227): Issuance of Zcash Shielded Assets
 
 ---
 
