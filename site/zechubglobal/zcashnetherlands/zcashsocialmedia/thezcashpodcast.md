@@ -1,6 +1,6 @@
 
 # De Zcash Podcast op het Digital Cash Network
-![Screenshot_2023-01-22_21-50-14](https://user-images.githubusercontent.com/81990132/213973803-b0629c92-08d4-459b-99f1-594854a7db3a.png)
+![Screenshot_2023-01-22_21-50-14](/content-images/213973803-b0629c92-08d4-459b-99f1-594854-6272d02af6.webp)
 
 De Zcash Podcast host inhoud zoals updates, specifieke onderwerpen, diepe duiken, enz. Voor de bestaande Zcash-gemeenschap om te consumeren en te delen, en geeft bestaande abonnees van het Digital Cash Network-kanaal de mogelijkheid om meer vertrouwd te raken met Zcash.
 

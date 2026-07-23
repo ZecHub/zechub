@@ -1,6 +1,6 @@
 # ZecWeekly #52
 
-![ZecWeekly #52](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda605841-6f7d-4080-9f1e-02115900b1e1_1280x720.png)
+![ZecWeekly #52](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-dc7aee1010.webp)
 
 ZecHub annuncia il lancio di ZecHub Extras, il tribunale britannico accoglie l'appello di Craig Wright contro il Bitcoin, il DOJ potenzia le indagini sulle criptovalute con la fusione dei team
 
@@ -129,7 +129,7 @@ Impareremo qualcosa di più su un protocollo di privacy intercatena che utilizza
 
 ## Zeme della settimana
 
-![zeme](https://pbs.twimg.com/media/F1mKYMcXoAMX8lW?format=jpg&name=large) 
+![zeme](/content-images/_unavailable.svg) 
 
 ## Lavori nell'ecosistema
 

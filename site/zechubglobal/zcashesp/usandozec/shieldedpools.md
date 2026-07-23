@@ -8,7 +8,7 @@ Estaremos viendo los 4 [value pools](https://zcash.readthedocs.io/en/latest/rtd_
 ### Sprout
 
 
-![zcash-sprout-launch](https://user-images.githubusercontent.com/81990132/233535478-a84724d7-cb0e-4ad8-bfcc-499f665fba24.png)
+![zcash-sprout-launch](/content-images/233535478-a84724d7-cb0e-4ad8-bfcc-499f66-470dd34bb8.webp)
 
 
 La serie Sprout fue el primer protocolo abierto de privacidad sin permisos Zero Knowledge lanzado en Zcash y es a veces llamado Zcash 1.0 u "Ordinary Zcash". Se lanzó el 28 de octubre de 2016 y fue la primera versión de Zcash que utilizó la tecnología de prueba de conocimiento cero, que es una característica importante de la criptografía de Zcash. 
@@ -23,7 +23,7 @@ A medida que el ecosistema Zcash continuaba expandiéndose con un número cada v
 
 ### Zcash Sapling
 
-![zcash-sapling-vertical-fullcolor-2x](https://user-images.githubusercontent.com/81990132/233535552-f04b727e-078f-483a-8fbc-1628486be0c8.png)
+![zcash-sapling-vertical-fullcolor-2x](/content-images/233535552-f04b727e-078f-483a-8fbc-162848-1e5193fd90.webp)
 
 [Zcash Sapling](https://z.cash/upgrade/sapling) es una actualización del protocolo Zcash introducida el 28 de octubre de 2018. Se trata de una mejora importante respecto a la versión anterior del conocido Sprout, que tenía algunas limitaciones en términos de privacidad, eficiencia y usabilidad. 
 
@@ -47,7 +47,7 @@ Las transacciones dentro de Orchard aumentarán el tamaño del conjunto de anoni
 
 La actualización de Orchard ayudará a aportar mejoras a la red Zcash, incluyendo transacciones más rápidas y eficientes, mayor anonimato, seguridad mejorada y mayor flexibilidad para que los desarrolladores construyan aplicaciones descentralizadas en la Blockchain de Zcash.
 
-![IMG-20230419-221707](https://user-images.githubusercontent.com/81990132/233535609-6bf85926-567d-42ff-8b3f-9123afe98f65.jpg)
+![IMG-20230419-221707](/content-images/233535609-6bf85926-567d-42ff-8b3f-9123af-27d2667120.webp)
 
 Los monederos blindados de Zcash ya admiten Orchard en sus opciones de fondo común. Un buen ejemplo se puede encontrar en Zingo Wallet App. 
 
@@ -59,7 +59,7 @@ El pool Transparente de Zcash es no blindado y no privado. La dirección de la b
 Las transacciones transparentes en Zcash son similares a las transacciones de Bitcoin que soporta transacciones multi-firma y hace uso de direcciones públicas estándar que pueden ser enviadas y recibidas por cualquiera en la red.
 
 
-![IMG-20230420-100149](https://user-images.githubusercontent.com/81990132/233535663-bc536044-2537-41b2-9acb-69b3613e9ab6.jpg)
+![IMG-20230420-100149](/content-images/233535663-bc536044-2537-41b2-9acb-69b361-ffe1da2a8b.webp)
 
 Las Zcash Transparentes se utilizan principalmente en los intercambios centralizados para garantizar una alta transparencia y la confirmación de la red al enviar y recibir ZEC entre los usuarios.
 
@@ -72,25 +72,25 @@ También es importante tener en cuenta que mientras que las direcciones Zcash Sh
 
 Cuando se trata de considerar un alto nivel de privacidad durante la transacción en la red Zcash, se recomienda seguir las siguientes prácticas;
 
-![20230420_051415_0000.png](https://user-images.githubusercontent.com/38798812/233546739-e9076b2d-bcb5-40a1-96a8-25284dff0786.png)
+![20230420_051415_0000.png](/content-images/233546739-e9076b2d-bcb5-40a1-96a8-25284d-d1a7305e89.webp)
 
 Las transacciones que ocurren entre carteras "z a z" en la blockchain de Zcash están en su mayoría blindadas y a veces se llama Transacción Privada debido al alto nivel de Privacidad generado. Esta suele ser la mejor y más recomendada forma de enviar y recibir $ZEC cuando se requiere privacidad.
 
 ---
 
-![20230421_070131_0000.png](https://user-images.githubusercontent.com/38798812/233552931-d69f4ef3-b065-4d61-8e6b-adbc2edc4d70.png)
+![20230421_070131_0000.png](/content-images/233552931-d69f4ef3-b065-4d61-8e6b-adbc2e-6ff12892bf.webp)
 
 Cuando se envía ZEC de una "Dirección Z" a una "Dirección T", simplemente connota una forma de transacción de Deshielding. En este tipo de transacción, el nivel de privacidad no siempre es alto, ya que parte de la información será visible en la blockchain debido al efecto de enviar ZEC en una Dirección Transparente. La transacción Deshielding no siempre es recomendable cuando se requiere un alto nivel de privacidad.
 
 ---
 
-![20230421_071247_0000.png](https://user-images.githubusercontent.com/38798812/233555082-455fbcbd-c685-4c1d-91f2-2d911e6a6273.png)
+![20230421_071247_0000.png](/content-images/233555082-455fbcbd-c685-4c1d-91f2-2d911e-5f3edcd80d.webp)
 
 La transferencia de ZEC de una dirección transparente (dirección T) a una dirección Z se conoce simplemente como Blindaje. En este tipo de transacción, el nivel de privacidad no siempre es alto en comparación con el de una transacción z-z, pero también se recomienda cuando se requiere privacidad.
 
 ---
 
-![20230420_091346_0000.png](https://user-images.githubusercontent.com/38798812/233546890-5580a7b9-e8c5-4e2c-a248-3f6338bbe0d1.png)
+![20230420_091346_0000.png](/content-images/233546890-5580a7b9-e8c5-4e2c-a248-3f6338-dc319d3ee4.webp)
 
 El envío de ZEC desde una dirección transparente (T-address) a otra dirección transparente (T-address) en la red Zcash (transacción T-T) es muy similar a la transacción Bitcoin y es por eso que las transacciones T-T en Zcash siempre se llaman transacciones públicas porque tanto los detalles de la transacción del remitente como del destinatario se hacen visibles al público, lo que hace que el nivel de privacidad sea muy bajo en este tipo de transacciones. 
 

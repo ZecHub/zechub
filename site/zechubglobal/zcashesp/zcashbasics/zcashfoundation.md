@@ -37,7 +37,7 @@ Este programa financia a equipos independientes para que lleven a cabo important
 (Actualmente Finalizado)
 [https://zfnd.org/zcash-minor-grants-april-2023/](https://zfnd.org/zcash-minor-grants-april-2023/)
 
-![image](https://global.discourse-cdn.com/zcash/optimized/3X/6/8/68ad4ceeb7ad5df77ebff311c2580ceda3ecef10_2_690x172.jpeg)
+![image](/content-images/68ad4ceeb7ad5df77ebff311c2580ceda3ecef10-df70731ffc.webp)
 
 
 El 22 de febrero del 2023, un nuevo programa de crédito experimental de la Fundación Zcash (ZF) fue anunciado, el cual llamamos Subvenciones menores (*Minor Grants*). Pretende complementar el programa Subvenciones Mayores (*Major Grants*). También conocido como Subvenciones de la Comunidad Zcash (*Zcash Community Grants*) proporcionando una fuente de financiación para pequeñas subvenciones.

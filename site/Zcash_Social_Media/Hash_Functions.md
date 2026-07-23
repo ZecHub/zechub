@@ -20,7 +20,7 @@ Hash Functions take an input of any length and produce an output of a fixed leng
 - **Resulting output** = Hash Value  
 
 
-![Hash Function diagram](https://pbs.twimg.com/media/Fn_NkFHXgAEtgse.png)
+![Hash Function diagram](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
 
 ### Try it yourself!
 
@@ -58,12 +58,12 @@ There are several classes of Hash Functions. Some examples:
 #### 1. Integrity Hashing (Data Integrity Checks)
 Data integrity checks are an example of "Integrity Hashing". They are used to generate checksums on data files and provide assurance of correctness to a user.
 
-![Integrity Hashing example](https://pbs.twimg.com/media/Fn_Or0MWIAI6sgx.png)
+![Integrity Hashing example](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
 
 #### 2. Merkle Trees (Hash Trees)
 A **hash tree** or **Merkle tree** is composed of branches and leaf nodes that are labelled with the cryptographic hash of a data block.
 
-![Merkle Tree diagram](https://pbs.twimg.com/media/Fn_O7ndWIAY5PA-.jpg)
+![Merkle Tree diagram](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
 
 Merkle trees are an example of a **cryptographic commitment scheme**. The tree Root is seen as a commitment and leaf nodes proven to be part of the original commitment.
 
@@ -75,7 +75,7 @@ In Zcash **Sapling** & **Orchard** shielded pools, the **Note Commitment Tree** 
 #### 4. Signature Hash (Bitcoin-style blocks)
 **SHA256** is an example of a "Signature hash" used to enforce immutability of each block in the Bitcoin chain. Miners use the hash of previous block + A hash of all transactions in the current block (hashMerkleRoot) + Timestamp + random value / network difficulty for new blocks.
 
-![SHA256 block diagram](https://pbs.twimg.com/media/Fn_PaVZXoAApHPf.jpg)
+![SHA256 block diagram](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
 
 #### 5. Equihash (Zcash Mining)
 **Equihash** is the hashing algorithm used in mining Zcash. It's also used by networks such as Komodo & Horizen.

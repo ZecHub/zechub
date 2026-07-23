@@ -1,7 +1,7 @@
 # Elliptic Curves: Where Zcash's Keys and Commitments Are Born
 ##### Original Research from [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt text](image-10.png)
+![alt text](/content-images/image-10-c1097b22d7.webp)
 
 ### A one-way street built from points on a curve
 
@@ -38,7 +38,7 @@ y^2 = x^3 + ax + b
 
 Over ordinary numbers it looks like a smooth, swooping curve, often with a rounded loop and two tails:
 
-![alt text](image-14.png)
+![alt text](/content-images/image-14-1d2e8c25d2.webp)
 
 The genuinely surprising part: **you can "add" two points on this curve to get a third point on the same curve.** This isn't ordinary addition of coordinates. It's a geometric rule, and it's easier to *see* than to say.
 
@@ -50,7 +50,7 @@ To add `P + Q`:
 2. That line hits the curve at exactly one more place. Call it `R*`.
 3. **Reflect `R*` across the horizontal axis.** That reflection is the answer, `P + Q`.
 
-![alt text](image-11.png)
+![alt text](/content-images/image-11-61f3df1989.webp)
 
 ### The tangent rule (adding a point to itself)
 
@@ -117,7 +117,7 @@ Now the magic. Consider the two directions:
 
 That asymmetry is the **one-way street** we needed in Section 1. The backward problem ("which `k` produced this point?") is called the **Elliptic Curve Discrete Logarithm Problem (ECDLP)**, and on the curves Zcash uses, no known method solves it before the heat death of the universe.
 
-![alt text](image-12.png)
+![alt text](/content-images/image-12-86b9ace6cb.webp)
 
 > In our toy `F_17` curve you *could* just read `k` off the table, because it only has 19 points. Real curves have around `2^(255)` points. The table would have more rows than there are atoms in the universe, so "reading it off" is not an option. The smallness is what makes the toy curve teachable and also why it isn't secure.
 
@@ -160,7 +160,7 @@ The fingerprints are concrete and checkable.
 
 The reasons one curve gets "embedded" inside another's field, and why a *cycle* of two curves is useful, are real and important, but they belong to the proof-system articles. For now the takeaway is solid: **every Zcash key is a scalar times a generator, and every Zcash commitment is a sum of curve points**, living on one of these named curves.
 
-![alt text](image-13.png)
+![alt text](/content-images/image-13-ffdd703c60.webp)
 
 ---
 

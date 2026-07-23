@@ -12,7 +12,7 @@ Prover ---> Claimt ---> Verificateur kiest ---> Accepteren/Weigeren
 
 In de informatica is de term voor efficiënt verifieerbare bewijzen NP-bewijzen. Deze korte bewijzen kunnen worden geverifieerd in polynomiale tijd. Het algemene idee is: "Er bestaat een oplossing voor een stelling en deze wordt doorgegeven aan de verificateur om deze te controleren"
 
-![NP-bewijzen](https://cdn.discordapp.com/attachments/860525418008674327/1070395089559494716/NPlanguage.jpg "NP-taal")
+![NP-bewijzen](/content-images/_unavailable.svg "NP-taal")
 
 
 In een NP-taal = moeten twee voorwaarden gelden:
@@ -28,7 +28,7 @@ Deugdelijkheid: Valse beweringen zullen geen bewijs hebben (voor alle bedrieglij
 
 **Willekeurigheid**: Verificatieverzoeken om te bewijzen zijn willekeurig en de bewijsverificatie moet in staat zijn om op elk verzoek correct te antwoorden.
 
-![IP-bewijzen](https://cdn.discordapp.com/attachments/860525418008674327/1070395089194594345/IPmodel.jpg "IP-protocol")
+![IP-bewijzen](/content-images/_unavailable.svg "IP-protocol")
 
 Door interactie en willekeur samen te gebruiken, is het mogelijk om een ​​claim te bewijzen aan een blinde verificateur in Probabilistic Polynomial Time (PPT).
 
@@ -64,7 +64,7 @@ Real View: Alle mogelijke geschiedenissen van interacties tussen Prover & Verifi
 
 Gesimuleerde weergave: de verifier simuleert alle mogelijke interacties tussen Prover & Verifier
 
-![simulatieparadigma](https://cdn.discordapp.com/attachments/860525418008674327/1070395090259947520/simulation.jpg "Simulatieparadigma")
+![simulatieparadigma](/content-images/_unavailable.svg "Simulatieparadigma")
 
 Een polynoom-tijdonderscheider probeert vast te stellen of ze naar de echte of gesimuleerde weergave kijken en vraagt ​​herhaaldelijk om een ​​monster van beide.
 
@@ -92,7 +92,7 @@ voorbeeld: "3x² + 8x + 17"
 
 **Rekenkundig circuit**: een model voor het berekenen van polynomen. Meer in het algemeen kan het worden gedefinieerd als een gerichte acyclische grafiek waarop op elk knooppunt van de grafiek een rekenkundige bewerking wordt uitgevoerd. De schakeling bestaat uit optelpoorten, vermenigvuldigingspoorten en enkele constantepoorten. Op dezelfde manier dragen Booleaanse circuits bits in draden, Rekenkundige circuits dragen gehele getallen.
 
-![circuit](https://cdn.discordapp.com/attachments/860525418008674327/1070405388048011305/circuit.jpg "DAG")
+![circuit](/content-images/_unavailable.svg "DAG")
 
 In dit voorbeeld wil de bewijzer de verificateur ervan overtuigen dat hij een oplossing kent voor het rekenkundige circuit.
 
@@ -116,7 +116,7 @@ Polynoom interactief orakel: Verifier vraagt ​​prover (algoritme) om alle to
 
 Installatieprocedures helpen de verificateur door een circuit samen te vatten en openbare parameters uit te voeren.
 
-![Setup](https://cdn.discordapp.com/attachments/860525418008674327/1070395089899229245/setup.jpg "Setup")
+![Setup](/content-images/_unavailable.svg "Setup")
 
 **Soorten instellingen voor voorbewerking**:
 
@@ -157,7 +157,7 @@ zk-SNARKS bieden verschillende voordelen in een groot aantal verschillende toepa
 
 Het voordeel van een op bewijs gebaseerde Rollup-service (zk-Rollup) is het verwerken van een batch van honderden/duizenden transacties en de L1 kan een beknopt bewijs verifiëren dat alle transacties correct zijn verwerkt, waardoor de transactiedoorvoer van het netwerk wordt vergroot met een factor van 100 of 1000.
 
-![zkvm](https://cdn.discordapp.com/attachments/860525418008674327/1070395090612265000/zkvm.jpg "ZKVM")
+![zkvm](/content-images/_unavailable.svg "ZKVM")
 
 **Interoperabiliteit**: Dit wordt bereikt op een zk-Bridge door activa op een bronketen te 'vergrendelen' en aan de doelketen te bewijzen dat de activa zijn vergrendeld (bewijs van consensus).
 

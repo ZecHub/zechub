@@ -67,7 +67,7 @@ Zlink is the simplest way to find any link, tool, information you need about Zca
 An online Radio Station to inform, educate and entertain the Zcash Community, developed by Zcash en Español and the ZKAV Club.
 
 ## Zimppy.xyz
-[![Zimppy.xyz Logo](https://github.com/betterclever/zimppy/blob/main/site/og.png?raw=true)](https://zimppy.xyz/)
+[![Zimppy.xyz Logo](/content-images/og-40771e1849.webp)](https://zimppy.xyz/)
 
 Zimppy is the Machine Payment Protocol (MPP) payment method for Zcash, designed for AI agents and automated machine-to-machine workflows. Deposit once on-chain, then make unlimited instant bearer requests with no per-request blockchain interaction. Supports fully shielded Zcash (Orchard) payments — sender, receiver, and amount remain encrypted.
 
@@ -76,7 +76,7 @@ Zimppy is the Machine Payment Protocol (MPP) payment method for Zcash, designed 
 ---
 
 ## CipherScan
-[![CipherScan](https://github.com/Kenbak/cipherscan/blob/main/public/logo-small.png?raw=true)](https://cipherscan.app/)
+[![CipherScan](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
 
 CipherScan is a privacy-first Zcash blockchain explorer. Built with Next.js 15, TypeScript, and Rust/WASM, it lets users look up blocks, transactions, and addresses without leaking query metadata. Designed for privacy-conscious users who need blockchain transparency without surveillance.
 
@@ -85,7 +85,7 @@ CipherScan is a privacy-first Zcash blockchain explorer. Built with Next.js 15, 
 ---
 
 ## ZcashNames
-[![ZcashNames](https://github.com/zcashme/zcashnames/blob/main/public/brandkit/zcashnames-brand-banner-primary-logo-monochrome-green-monochrome-green-background-377x403.png?raw=true)](https://www.zcashnames.com/)
+[![ZcashNames](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
 
 ZcashNames provides human-readable names for Zcash shielded addresses. Instead of sharing a long z-address, users register a memorable name (e.g., `alice.zec`) that resolves to their Unified Address. Simplifies receiving ZEC privately without exposing raw addresses.
 
@@ -102,20 +102,20 @@ A company dedicated to privacy, self-sovereignty, and cypherpunk values. Builds 
 ---
 
 ## Cipherpay
-[![Cipherpay](https://github.com/atmospherelabs-dev/cipherpay-web/blob/main/public/logo-mark.png?raw=true)](https://www.cipherpay.app/en)
+[![Cipherpay](/content-images/logo-mark-b8d7c702b0.webp)](https://www.cipherpay.app/en)
 
 CipherPay enables private payments for the internet. Accept Zcash in minutes — non-custodial, no KYC required. Merchants receive ZEC directly to shielded addresses, protecting both buyer and seller financial privacy.
 
 [Visit Site](https://www.cipherpay.app/en)
 
 ## Cipherscan
-[![Cipherscan](https://github.com/Kenbak/cipherscan/blob/main/public/logo-small.png?raw=true)](https://cipherscan.app/)
+[![Cipherscan](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
 
 Zcash Blockchain Explorer 🛡️ Decode the blockchain. Privacy meets transparency.
 [Visit Site](https://cipherscan.app/)
 
 ## ZcashNames
-[![ZcashNames](https://github.com/zcashme/zcashnames/blob/main/public/brandkit/zcashnames-brand-banner-primary-logo-monochrome-green-monochrome-green-background-377x403.png?raw=true)](https://www.zcashnames.com/)
+[![ZcashNames](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
 
 Personal names
 for
@@ -124,14 +124,14 @@ shielded addresses. A name is all you need to transact privately.
 [Visit Site](https://www.zcashnames.com/)
 
 ## Zero-knowledge Audiovisual Club
-[![Zero-knowledge Audiovisual Club](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS95FffUJjEeUHAZZ04xRHp9FW1Z0Gzef2UUg&s?raw=true)](https://zkav.club/#additional-reading)
+[![Zero-knowledge Audiovisual Club](/content-images/images-563ef94ac0.webp)](https://zkav.club/#additional-reading)
 
 Privacy-first audiovisual (AV) collective for open-source & decentralized tech communities. We train, co-create & run volunteer AV support at community events.
 
 [Visit Site](https://zkav.club/#additional-reading)
 
 ## Shielded Labs
-[![Shielded Labs](https://camo.githubusercontent.com/0244df9f30a80c45adfd80c448985f17a6c71cdc9fd0eccd7bf47dec157c0dd4/68747470733a2f2f736869656c6465646c6162732e6e65742f77702d636f6e74656e742f75706c6f6164732f323032342f31312f66617669636f6e5f37325f322e706e67?raw=true)](https://shieldedlabs.net/)
+[![Shielded Labs](/content-images/68747470733a2f2f736869656c6465646c616273-e449ae6540.webp)](https://shieldedlabs.net/)
 
 Shielded Labs is an independent, donation-funded Zcash support organization based in Switzerland. It is the first organization in the Zcash ecosystem that has never received direct or indirect funding from the Development Fund or block rewards.
 
@@ -191,7 +191,7 @@ Zecmap is The global map of businesses accepting Zcash. Discover, verify, and co
 
 ## ZODL
 
-[![ZODL](https://github.com/Electric-Coin-Company/zashi-android/blob/main/assets/logos/Zashi_Logo_green_lg.png?raw=true)](https://zodl.app/)
+[![ZODL](/content-images/_unavailable.svg)](https://zodl.app/)
 
 ZODL (formerly Zashi) is the flagship Zcash wallet from Shielded Labs. Available on iOS and Android, ZODL offers a simple, elegant experience for sending and receiving shielded ZEC. It also enables [NU7 coinholder voting](https://forum.zcashcommunity.com/t/nu7-sentiment-polling-questions-for-community-review-coinholder-voting-via-zodl/55713) for protocol governance.
 

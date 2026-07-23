@@ -8,7 +8,7 @@ We zullen kijken naar de 4 [value pools](https://zcash.readthedocs.io/en/latest/
 ### Sprout
 
 
-![zcash-sprout-launch](https://user-images.githubusercontent.com/81990132/233535478-a84724d7-cb0e-4ad8-bfcc-499f665fba24.png)
+![zcash-sprout-launch](/content-images/233535478-a84724d7-cb0e-4ad8-bfcc-499f66-470dd34bb8.webp)
 
 
 De Sprout-serie was het allereerste open toestemmingsloze Zero Knowledge-privacyprotocol dat op Zcash werd gelanceerd en wordt soms Zcash 1.0 of "Ordinary Zcash" genoemd. Het werd gelanceerd op 28 oktober 2016 en het was de eerste versie van Zcash die zero-knowledge proof-technologie gebruikt, wat een belangrijk kenmerk is van Zcash Cryptography.
@@ -23,7 +23,7 @@ Naarmate het Zcash-ecosysteem zich blijft uitbreiden met een toenemend aantal af
 
 ### Zcash Sapling
 
-![zcash-sapling-vertical-fullcolor-2x](https://user-images.githubusercontent.com/81990132/233535552-f04b727e-078f-483a-8fbc-1628486be0c8.png)
+![zcash-sapling-vertical-fullcolor-2x](/content-images/233535552-f04b727e-078f-483a-8fbc-162848-1e5193fd90.webp)
 
 [Zcash Sapling](https://z.cash/upgrade/sapling) is een upgrade van het Zcash-protocol dat op 28 oktober 2018 is geïntroduceerd. Het is een grote verbetering ten opzichte van de eerdere versie van Sprout, die enkele beperkingen had op het gebied van privacy, efficiëntie en bruikbaarheid.
 
@@ -47,7 +47,7 @@ Transacties binnen Orchard zullen de grootte van de ingestelde anonimiteit snell
 
 De Orchard-upgrade zal helpen om meer verbeteringen aan het Zcash-netwerk aan te brengen, waaronder snellere en efficiëntere transacties, meer anonimiteit, verbeterde beveiliging en meer flexibiliteit voor ontwikkelaars om gedecentraliseerde applicaties op de Zcash Blockchain te bouwen.
 
-![IMG-20230419-221707](https://user-images.githubusercontent.com/81990132/233535609-6bf85926-567d-42ff-8b3f-9123afe98f65.jpg)
+![IMG-20230419-221707](/content-images/233535609-6bf85926-567d-42ff-8b3f-9123af-27d2667120.webp)
 
 Zcash Shielded-wallets ondersteunen nu Orchard op hun Fund Pool-opties. Een goed voorbeeld is te vinden op de Zingo Wallet App.
 
@@ -59,7 +59,7 @@ Het Zcash Transparent-zwembad is niet afgeschermd en niet-privé. Transparant po
 Transparante transacties in Zcash zijn vergelijkbaar met Bitcoin-transacties die transacties met meerdere handtekeningen ondersteunen en gebruikmaken van standaard openbare adressen die door iedereen op het netwerk kunnen worden verzonden en ontvangen.
 
 
-![IMG-20230420-100149](https://user-images.githubusercontent.com/81990132/233535663-bc536044-2537-41b2-9acb-69b3613e9ab6.jpg)
+![IMG-20230420-100149](/content-images/233535663-bc536044-2537-41b2-9acb-69b361-ffe1da2a8b.webp)
 
 De Zcash Transparent worden meestal gebruikt door gecentraliseerde uitwisselingen om te zorgen voor een hoge transparantie en netwerkbevestiging bij het verzenden en ontvangen van ZEC tussen gebruikers.
 
@@ -72,18 +72,18 @@ Het is ook belangrijk op te merken dat hoewel Zcash Shielded-adressen veel priva
 
 Als het gaat om het overwegen van een hoog niveau van privacy tijdens transacties op het Zcash-netwerk, is het raadzaam om de onderstaande praktijken te volgen;
 
-![20230420_051415_0000.png](https://user-images.githubusercontent.com/38798812/233546739-e9076b2d-bcb5-40a1-96a8-25284dff0786.png)
+![20230420_051415_0000.png](/content-images/233546739-e9076b2d-bcb5-40a1-96a8-25284d-d1a7305e89.webp)
 
 Transacties die plaatsvinden tussen "z tot z"-portemonnees op de Zcash-blockchain zijn meestal afgeschermd en worden soms privétransacties genoemd vanwege het hoge niveau van gegenereerde privacy. Dit is meestal de beste en meest aanbevolen manier om $ZEC te verzenden en te ontvangen wanneer privacy vereist is.
 
 ---
-![20230421_070131_0000.png](https://user-images.githubusercontent.com/38798812/233552931-d69f4ef3-b065-4d61-8e6b-adbc2edc4d70.png)
+![20230421_070131_0000.png](/content-images/233552931-d69f4ef3-b065-4d61-8e6b-adbc2e-6ff12892bf.webp)
 
 Wanneer u ZEC van "Z-adres" naar "T-adres" verzendt, duidt dit simpelweg op een vorm van Deshielding-transactie. Bij dit type transactie is het privacyniveau niet altijd hoog, omdat sommige informatie zichtbaar zal zijn op de blockchain vanwege het effect van het verzenden van ZEC op een transparant adres. Het afschermen van transacties wordt niet altijd aanbevolen wanneer een hoge mate van privacy vereist is.
 
 ---
 
-![20230421_071247_0000.png](https://user-images.githubusercontent.com/38798812/233555082-455fbcbd-c685-4c1d-91f2-2d911e6a6273.png)
+![20230421_071247_0000.png](/content-images/233555082-455fbcbd-c685-4c1d-91f2-2d911e-5f3edcd80d.webp)
 
 Het overbrengen van ZEC van een transparant adres (T-adres) naar een Z-adres staat simpelweg bekend als afscherming. Bij dit type transactie is het privacyniveau niet altijd hoog in vergelijking met dat van een z-z-transactie, maar het wordt ook aanbevolen wanneer privacy vereist is.
 
@@ -91,7 +91,7 @@ Het overbrengen van ZEC van een transparant adres (T-adres) naar een Z-adres sta
 
 ---
 
-![20230420_091346_0000.png](https://user-images.githubusercontent.com/38798812/233546890-5580a7b9-e8c5-4e2c-a248-3f6338bbe0d1.png)
+![20230420_091346_0000.png](/content-images/233546890-5580a7b9-e8c5-4e2c-a248-3f6338-dc319d3ee4.webp)
 
 Het verzenden van ZEC van een transparant adres (T-adres) naar een ander transparant adres (T-adres) op het Zcash-netwerk (T-T-transactie) lijkt sterk op dat van Bitcoin-transacties en daarom worden T-T-transacties op Zcash altijd openbare transacties genoemd omdat beide de transactiedetails van de afzender en de ontvanger worden zichtbaar voor het publiek, waardoor het privacyniveau bij een dergelijke transactie erg laag is.
 

@@ -13,7 +13,7 @@ Les producteurs de blocs (c'est-à-dire les mineurs) sont chargés de valider le
 Dans Bitcoin et d'autres crypto-monnaies, toutes les récompenses de bloc vont aux producteurs de blocs. Zcash est unique dans le fait que 20 % de la récompense globale sont transférés au [fonds de développement Zcash](https://zips.z.cash/zip-1014). Ce fonds finance les équipes travaillant sur le protocole Zcash.
 
 Actuellement, [Zcash Community Grants](https://zcashcommunitygrants.org/) reçoit 8 % des récompenses globales, Electric Coin Co. reçoit 7 % et la Fondation Zcash reçoit 5 %. Cela représente respectivement 40 %, 35 % et 25 % du fonds de développement.
-![Dev Fund Destinataires](https://user-images.githubusercontent.com/43553081/212411570-4858a3d6-f7a1-465a-bf0c-d2ef726d41dc.jpeg)
+![Dev Fund Destinataires](/content-images/212411570-4858a3d6-f7a1-465a-bf0c-d2ef72-1efe3a104e.webp)
 
 En 2020, la communauté Zcash a voté pour le fonds de développement et les équipes soutenues par celui-ci. En 2024, la communauté votera à nouveau pour déterminer qui recevra un financement du fonds de développement.
 

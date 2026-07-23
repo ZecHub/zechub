@@ -8,7 +8,7 @@ The logic is as follows: Upon detecting a TEX Address, a compatible wallet decod
 
 The technical proposal for TEX addresses is outlined in Zcash [ZIP 320](https://zips.z.cash/zip-0320), which defines an address type exclusively for receiving funds from Transparent Addresses.
 
-![TEX](https://i.ibb.co/8m7HPqV/ZashiTex.png)
+![TEX](/content-images/ZashiTex-b1cbec5f07.webp)
 
 
 Although TEX addresses not are broadly adopted, Zcash users may be required to use them eventually.

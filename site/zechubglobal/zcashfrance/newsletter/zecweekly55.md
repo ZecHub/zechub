@@ -94,7 +94,7 @@ Lisez le guide complet [ici](https://free2z.cash/James_Katz/zpage/compiling-zecw
 
 ## Zeme de la semaine
 
-![b06942ffba3b6715e09149ff53552f52.png](../_resources/b06942ffba3b6715e09149ff53552f52.png)
+![b06942ffba3b6715e09149ff53552f52.png](/content-images/_unavailable.svg)
 
 [https://twitter.com/zcashbrazil/status/1689418207713492993](https://twitter.com/zcashbrazil/status/1689418207713492993)
 

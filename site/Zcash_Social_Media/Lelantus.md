@@ -6,7 +6,7 @@ Today we take a look at **Lelantus**!
 
 Released in 2019, this protocol builds upon Zerocoin. It is used in the **Firo** currency (formerly Zcoin) to enable private on-chain transactions. It resembles Zcash in some ways but is distinctly different in most aspects.
 
-![Lelantus intro](https://pbs.twimg.com/media/Fsk18DgXsAEc0Ob.jpg)
+![Lelantus intro](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
 
 ---
 
@@ -15,7 +15,7 @@ Released in 2019, this protocol builds upon Zerocoin. It is used in the **Firo**
 - **Zcash** - Builds upon the **Zerocash** protocol  
 - **Firo (Zcoin)** - Builds upon the **Zerocoin** protocol
 
-![Zerocash vs Zerocoin comparison](https://pbs.twimg.com/media/Fsk2Fk7WcAA81ty.png)
+![Zerocash vs Zerocoin comparison](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
 
 ---
 
@@ -28,7 +28,7 @@ Similar to Zcash, Firo uses shielded addresses to achieve anonymous payments.
 - **Sigma** - Fixed denomination system
 - **Lelantus 1.0** - Lacked correct security proofs
 
-![Protocol evolution](https://pbs.twimg.com/media/Fsk2NdaWAAAKVgH.png)
+![Protocol evolution](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
 
 ---
 
@@ -38,7 +38,7 @@ The Σ (Sigma) protocol used in earlier versions of Zcoin/Firo had a major limit
 
 This created smaller anonymity sets and opened the door to timing attacks between mint and redeem operations (plus the "tainted change" problem).
 
-![Sigma denominations](https://pbs.twimg.com/media/Fsk2fxfWcAMUBDo.png)
+![Sigma denominations](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
 
 ---
 
@@ -53,7 +53,7 @@ Key benefits:
 
 **Limitation**: Set size is currently capped at **65,000 coins**.
 
-![Lelantus advantages](https://pbs.twimg.com/media/Fsk2wK3X0AA6MEe.png)
+![Lelantus advantages](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
 
 ---
 
@@ -65,7 +65,7 @@ These function similarly to **Notes** in Zcash.
 
 The coin commitment is published and stored on the ledger when the coin is created (via Mint or Spend transactions).
 
-![Coin commitment diagram](https://pbs.twimg.com/media/Fsk3AWNX0AIHya8.png)
+![Coin commitment diagram](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
 
 ---
 
@@ -77,7 +77,7 @@ Lelantus uses the classic **basecoin < - > zerocoin** model.
 
 Like Zcash, transparent transactions must be explicitly selected by the user.
 
-![Lelantus flow](https://pbs.twimg.com/media/Fsk3HrjXgAMgqmX.png)
+![Lelantus flow](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
 
 ---
 
@@ -87,7 +87,7 @@ Lelantus utilizes **One-of-Many Proofs** to extract input values necessary for p
 
 These proofs are also used in **Triptych** (mentioned in our CryptoNote thread).
 
-![One-of-Many Proofs](https://pbs.twimg.com/media/Fsk3Z0nWIAAPD4k.jpg)
+![One-of-Many Proofs](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
 
 ---
 
@@ -103,7 +103,7 @@ Like Monero, Firo implemented **Dandelion++** to add privacy by obfuscating the 
 
 This makes it much harder to trace the origin of a transaction through network analysis.
 
-![Dandelion++ explanation](https://pbs.twimg.com/media/Fsk4A8VWcAU84MR.png)
+![Dandelion++ explanation](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
 
 ---
 
@@ -117,7 +117,7 @@ It will also add support for:
 
 These features parallel Zcash Shielded Assets.
 
-![Lelantus-Spark announcement](https://pbs.twimg.com/media/Fsk4jXeXsAACQ3h.jpg)
+![Lelantus-Spark announcement](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
 
 ---
 

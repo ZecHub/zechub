@@ -47,7 +47,7 @@ Why would a user ever want to do this? From Electric Coin Co.'s blog on the matt
 * In the top right corner, select "Account", click on "+" in the bottom right corner to add and import your viewing key to add your 'read-only' account.
 
 <a href="">
-    <img src="https://i.ibb.co/C0b002N/image-2024-01-13-175554676.png" alt="" width="200" height="280"/>
+    <img src="/content-images/image-2024-01-13-175554676-8cdf988797.webp" alt="" width="200" height="280"/>
 </a>
 
 

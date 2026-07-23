@@ -2,7 +2,7 @@
 
 
 
-![img1](https://hackmd.io/_uploads/SJOlnt-ceg.png)
+![img1](/content-images/SJOlnt-ceg-34468cfecd.webp)
 
 ---
 
@@ -11,7 +11,7 @@ Launch the **Phantom app** and tap on the **Swap** button,
 or visit **[solswap.org](https://solswap.org/)** from your Phantom browser.  
 
 
-![img2](https://hackmd.io/_uploads/S1Cp-KWqxe.jpg)
+![img2](/content-images/S1Cp-KWqxe-ab70e844b9.webp)
 
 ---
 
@@ -19,7 +19,7 @@ or visit **[solswap.org](https://solswap.org/)** from your Phantom browser.
 - Choose your **source network** (e.g., *Ethereum* or *Solana*) then deposit for swapping.  
 
 
-![img3](https://hackmd.io/_uploads/S1SaGYZ9xx.jpg)
+![img3](/content-images/S1SaGYZ9xx-2a27ccdd47.webp)
 
 - Select a base token like **SOL, USDT, or USDC**.  
 - Choose **ZEC** as your **destination token**.  
@@ -27,7 +27,7 @@ or visit **[solswap.org](https://solswap.org/)** from your Phantom browser.
 
 
 
-![img4](https://hackmd.io/_uploads/ry4QQF-5gx.jpg)
+![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
 
 ---
 
@@ -36,7 +36,7 @@ or visit **[solswap.org](https://solswap.org/)** from your Phantom browser.
 - Phantom will display an **estimated receive amount** after fees.  
 
 
-![img5](https://hackmd.io/_uploads/B1U1NYW5xe.jpg)
+![img5](/content-images/B1U1NYW5xe-58cf150668.webp)
 
 ---
 
@@ -63,7 +63,7 @@ Tap **Swap Settings** to:
 - Tap **Swap Now** to initiate the transaction.  
 
 
-![img6](https://hackmd.io/_uploads/HkU1UKZ5gx.jpg)
+![img6](/content-images/HkU1UKZ5gx-e068ea8d5a.webp)
 
 ---
 
@@ -72,6 +72,6 @@ Tap **Swap Settings** to:
 - For cross-chain swaps, use your **transaction ID** with **Li.Fi Scanner** for real-time updates. 
 
 
-![img7](https://hackmd.io/_uploads/S1NBwKbcxe.jpg)
+![img7](/content-images/S1NBwKbcxe-5b7d11f5c1.webp)
 
 ## Next you can begin shielding your [ZEC with this guide](https://zechub.wiki/guides/using-zec-privately)

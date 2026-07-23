@@ -1,7 +1,7 @@
-![Tor logo](https://gitlab.torproject.org/uploads/-/system/appearance/header_logo/1/purple.svg)
+![Tor logo](/content-images/_unavailable.svg)
 
 # **Arti: The Next-Generation Tor Client in Rust**
-![Atri Logo](https://gitlab.torproject.org/uploads/-/system/project/avatar/647/sliced-onions.png)
+![Atri Logo](/content-images/_unavailable.svg)
 
 **Arti** is the Tor Project's initiative to build a next-generation **Tor** client using the **Rust** programming language. Arti is designed to be modular, embeddable, and production-ready, providing a more secure and efficient implementation of the **Tor** anonymity protocols. With **Arti version 1.4.0**, several significant updates have been introduced:
 

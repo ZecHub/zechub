@@ -1,7 +1,7 @@
 #ZecHubDAO
 
 
-![Gouvernance](https://user-images.githubusercontent.com/81990132/206885452-29b6ff27-c58f-4361-b5a8-1529212def03.png)
+![Gouvernance](/content-images/206885452-29b6ff27-c58f-4361-b5a8-152921-5bb5315663.webp)
 
 Le ZecHub DAO se compose actuellement de :
 
@@ -40,7 +40,7 @@ ZecHub est l'un des premiers DAO publics de l'histoire de Zcash. Un aspect uniqu
 
 Toutes les propositions DAO sont publiques et peuvent être consultées [ici](https://snapshot.org/#/zechubdao.eth). Tout membre actuel du ZecHubDAO peut créer une proposition sur laquelle voter. Dans un effort pour soutenir la transparence de la communauté, le ZecHubDAO publiera toutes les propositions de gouvernance dans [this](https://forum.zcashcommunity.com/t/zechub-is-now-a-dao/43674) fil de discussion.
 
-![Capture d'écran_2023-01-11_09-39-23](https://user-images.githubusercontent.com/81990132/211878680-468f8c15-99f9-42e1-b773-36847c0973ca.png)
+![Capture d'écran_2023-01-11_09-39-23](/content-images/211878680-468f8c15-99f9-42e1-b773-36847c-bec790defb.webp)
 
 
 

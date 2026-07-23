@@ -1,6 +1,6 @@
 # ZecWeekly #57
 
-![ZecWeekly #57](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F178e9ee7-488c-4c77-8eb2-c5f5f2630e19_1280x720.png)
+![ZecWeekly #57](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-34eb9c42c8.webp)
 
 Zcash Minor Grants apre ai candidati, aggiornamenti della comunità e ricordate: "La privacy è normale".
 
@@ -104,7 +104,7 @@ Le differenze tra le pool schermate a conoscenza zero e l'anonimato "Decoy-based
 
 ## Zeme della settimana
 
-![Zeme](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b963506-3fd2-4d72-95f1-eb125b63a830_600x600.gif)
+![Zeme](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-e3472e9eb8.webp)
 
 ## Lavori nell'ecosistema
 

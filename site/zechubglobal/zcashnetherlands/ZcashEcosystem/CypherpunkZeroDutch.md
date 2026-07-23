@@ -1,4 +1,4 @@
-![kop](https://user-images.githubusercontent.com/81990132/205220798-c8e51db6-ddad-46ff-b760-4017565318c5.png)
+![kop](/content-images/205220798-c8e51db6-ddad-46ff-b760-401756-c9ba937b4e.webp)
 
 
 # Cypherpunk Zero

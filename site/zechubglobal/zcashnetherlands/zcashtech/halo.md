@@ -5,7 +5,7 @@
 
 Halo is een betrouwbare, recursieve zero-knowledge proof (ZKP) ontdekt door Sean Bowe van Electric Coin Co. Het elimineert de vertrouwde setup en maakt een grotere schaalbaarheid van de Zcash-blockchain mogelijk. Halo was het eerste zero-knowledge proof-systeem dat zowel efficiënt als recursief is en algemeen wordt beschouwd als een wetenschappelijke doorbraak.
 
-![halo](https://electriccoin.co/wp-content/uploads/2021/01/Halo-on-Z-1440x720.png "halo")
+![halo](/content-images/_unavailable.svg "halo")
 
 
 **Onderdelen**
@@ -42,11 +42,11 @@ In de [Halo-paper](https://eprint.iacr.org/2019/1021.pdf) hebben we dit polynomi
 
 Halo 2, is een krachtige zk-SNARK-implementatie geschreven in Rust, waardoor een vertrouwde installatie niet meer nodig is en tegelijkertijd de weg wordt geëffend voor schaalbaarheid in Zcash.
 
-![halo2image](https://electriccoin.co/wp-content/uploads/2020/09/Halo-puzzle-03-1024x517.jpg "halo2")
+![halo2image](/content-images/Halo-puzzle-03-1024x517-e034023d10.webp "halo2")
 
 Het bevat een veralgemening van onze benadering, een "accumulatieschema" genaamd. Deze nieuwe formalisering laat zien hoe onze geneste afschrijvingstechniek eigenlijk werkt; door bewijzen toe te voegen aan een object dat een "accumulator" wordt genoemd, waarbij de bewijzen redeneren over de vorige toestand van de accumulator, kunnen we controleren of alle voorgaande bewijzen correct waren (door inductie), simpelweg door de huidige toestand van de accumulator te controleren.
 
-![Accumulatorafbeelding](https://i.imgur.com/l4HrYgE.png "accumulator")
+![Accumulatorafbeelding](/content-images/l4HrYgE-1ea7bc32f7.webp "accumulator")
 
 Tegelijkertijd ontdekten veel andere teams nieuwe Polynomial IOP's die efficiënter waren dan Sonic (gebruikt in Halo 1), zoals Marlin.
 

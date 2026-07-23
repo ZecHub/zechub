@@ -13,7 +13,7 @@ Los productores de bloques (también conocidos como mineros) tienen la tarea de 
 En Bitcoin y otras criptomonedas, todas las recompensas por bloque van a los productores de bloques. Zcash es único en el hecho de que el 20% de la recompensa por bloque se transfiere al [fondo de desarrollo Zcash](https://zips.z.cash/zip-1014). Este fondo financia a los equipos que trabajan en el protocolo Zcash.
 
 Actualmente, [Zcash Community Grants](https://zcashcommunitygrants.org/) recibe el 8% de las recompensas por bloque, Electric Coin Co. recibe el 7% y la Zcash Foundation recibe el 5%. Esto representa el 40%, 35% y 25% del fondo de desarrollo, respectivamente.
-![Destinatarios del Fondo de Desarrollo](https://user-images.githubusercontent.com/43553081/212411570-4858a3d6-f7a1-465a-bf0c-d2ef726d41dc.jpeg)
+![Destinatarios del Fondo de Desarrollo](/content-images/212411570-4858a3d6-f7a1-465a-bf0c-d2ef72-1efe3a104e.webp)
 
 En 2020, la comunidad de Zcash votó sobre el fondo de desarrollo y los equipos que recibieron apoyo. En 2024, la comunidad volverá a votar para determinar quiénes recibirán financiamiento del fondo de desarrollo.
 

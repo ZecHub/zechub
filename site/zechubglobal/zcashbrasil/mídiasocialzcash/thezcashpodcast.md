@@ -1,7 +1,7 @@
 
 # Zcash Podcast na Digital Cash Network
 
-![Screenshot_2023-01-22_21-50-14](https://user-images.githubusercontent.com/81990132/213973803-b0629c92-08d4-459b-99f1-594854a7db3a.png)
+![Screenshot_2023-01-22_21-50-14](/content-images/213973803-b0629c92-08d4-459b-99f1-594854-6272d02af6.webp)
 
 Zcash Podcast hospeda conteúdo como atualizações, mergulhos profundos em assuntos específicos etc.
 

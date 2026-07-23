@@ -55,12 +55,12 @@ Most major exchanges support Zcash. See here for a detailed list: [here](https:/
 These exchanges support transparent withdrawals. This means when you withdrawal ZEC to your wallet, you need to send it to your transparent address, your public ZEC address. 
 Click [here](https://zechub.wiki/using-zcash/non-custodial-exchanges) for me details.
 
-![dex](https://github.com/user-attachments/assets/bfe2e9cf-2def-4593-b790-152e14b23da3)
+![dex](/content-images/bfe2e9cf-2def-4593-b790-152e14b23da3-f94f97c7e6.webp)
 
 
 When doing this, we recommend using one of the following [wallets](https://zechub.wiki/wallets). 
 
-![mobile](https://github.com/user-attachments/assets/8b7618f5-dec6-4e6b-9804-db75be5c1e2f)
+![mobile](/content-images/8b7618f5-dec6-4e6b-9804-db75be5c1e2f-14fa53d3bd.webp)
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">

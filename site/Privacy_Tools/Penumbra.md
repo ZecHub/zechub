@@ -2,7 +2,7 @@
 
 Penumbra exists to be a cutting-edge, fully shielded layer-1 network vying in the Cosmos ecosystem. It enables its users to transact securely, stake and swap tokens, and market make without revealing their metadata on-chain. As a fully shielded blockchain, it also offers shielded transactions on the web without compromising on privacy or decentralization — Penumbra has privacy by default, with no transparent transactions or transparent value pool.
 
-![image.png](https://drive.google.com/file/d/16CcFQ1ZhG_pi4ENQuhFKPwN-J1diELRX/view?usp=drive_link)
+![image.png](/content-images/_unavailable.svg)
 
 ## Technology used in Penumbra IBC 
 
@@ -10,7 +10,7 @@ IBC Integration: Coming in hot at number one is the Inter-Blockchain Communicati
 
 Zero-Knowledge Proofs (ZKPs): Penumbra leverages the zero-knowledge proof cryptography technology to ensure that all transactions are verified and validated without revealing any details such as the sender, receiver, or the amount that was transferred.
 
-![image.png](https://drive.google.com/file/d/1BxY5PlHBdV5iwZDgi86Z4Jz6CEesSjvO/view?usp=drive_link)
+![image.png](/content-images/_unavailable.svg)
 
 Decentralized Exchange with Privacy: At the core of the  Panumbra network is privacy. The network may leverage a decentralized exchange mechanism that fosters the privacy of trades and crypto transactions while also protecting  financial data and giving users the right to control the disclosure of their trading strategies.
 

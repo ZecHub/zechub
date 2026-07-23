@@ -1,7 +1,7 @@
 # Finite Fields: The Number System Cryptography Lives In
 ##### Original Research from [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt text](image-5.png)
+![alt text](/content-images/image-5-6e8a8950f8.webp)
 
 ### Why "wrapping around" is the secret foundation of Zcash
 
@@ -38,7 +38,7 @@ You already use a finite field every day. It's the clock on your wall.
 
 On a 12-hour clock, numbers *wrap around*. Start at 10 o'clock, add 5 hours, and you don't land on "15 o'clock," you land on **3 o'clock**. The clock has only twelve positions, and counting past the top simply loops back to the start.
 
-![alt text](image-9.png)
+![alt text](/content-images/image-9-30b39f4cc5.webp)
 
 Three things just happened that are the whole point of this article:
 
@@ -107,7 +107,7 @@ That second sentence is a catastrophe for arithmetic. Two nonzero things multipl
 
 A prime, by definition, has no such factors. So mod a prime, no zero divisors can appear, every nonzero element gets a clean reciprocal, and the structure is a proper field.
 
-![alt text](image-8.png)
+![alt text](/content-images/image-8-573914db92.webp)
 
 > **Reusable one-liner for your articles:** *prime modulus in, clean division out.*
 
@@ -159,7 +159,7 @@ You don't have to take "Zcash uses finite fields" on faith. Here's the concrete 
 - **Orchard** (the current shielded design) uses a pair of curves called **Pallas and Vesta** (the "Pasta" curves), whose fields use primes roughly **255 bits** long.
 - The **note commitment**, the **nullifier**, and the numbers inside a **zero-knowledge proof** from Article 0 are all, at bottom, elements of one of these finite fields. When the protocol says "compute this commitment," it means "do this arithmetic mod that prime."
 
-![alt text](image-7.png)
+![alt text](/content-images/image-7-c81fe982f0.webp)
 
 So the answer to Article 0's open question, *"where do the secret recipes come from?"*, begins here: **everything starts as arithmetic in a finite field.** In the next article we'll take that field and build the actual objects, points on an elliptic curve, that become keys and commitments.
 

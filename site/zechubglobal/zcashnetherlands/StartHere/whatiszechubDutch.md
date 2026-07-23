@@ -36,7 +36,7 @@ donaties:
 zs1txa9wzxsc46w4940c4t76wjlylhntyp7vcppsp8re32z02srqse038melgglew4jwsh3qes4m4n
 ```
 
-![Zonder titel](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/53389a9f-af17-4412-bd25-42cad32eb2b6/Untitled.png)
+![Zonder titel](/content-images/_unavailable.svg)
 
 ** DISCLAIMER: ZecHub is een volledig onafhankelijk en open-source initiatief opgericht door leden van de Zcash-gemeenschap. Niets in deze Github-repository mag worden beschouwd als financieel of investeringsadvies - het is alleen voor informatieve doeleinden.**
 

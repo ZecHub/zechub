@@ -1,6 +1,6 @@
 # ZecWeekly #53
 
-![ZecWeekly #53](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F95d1bc2d-8c99-4b86-b9aa-1b7873149ffe_1280x720.png)
+![ZecWeekly #53](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-79bae98076.webp)
 
 Le Zcon4 commence, le Zeal Talk Livestream et quelques tweets de la communauté lors du premier jour!
 

@@ -16,19 +16,19 @@ Atualmente existem três principais tipos de endereços em uso até o momento. E
 
 * Transparente
 
-- ![trans1](https://user-images.githubusercontent.com/81990132/219261771-a9957ec3-2841-4073-9cfd-1db9d6356693.png)
+- ![trans1](/content-images/219261771-a9957ec3-2841-4073-9cfd-1db9d6-574fc930f0.webp)
 
 ---
 
 * Sapling
 
-- ![Sapling](https://user-images.githubusercontent.com/81990132/219261784-1a617e70-f588-4eed-96bf-f0789d7af58a.png)
+- ![Sapling](/content-images/219261784-1a617e70-f588-4eed-96bf-f0789d-e10ebfc543.webp)
 
 ---
 
 EndereçoS UnificadoS/UAs (Completo)
 
-- ![fullUA](https://user-images.githubusercontent.com/81990132/219261794-bcc79db6-4dc6-4c6a-867b-3717b81e6b71.png)
+- ![fullUA](/content-images/219261794-bcc79db6-4dc6-4c6a-867b-3717b8-a3650f8968.webp)
 
 ---
 
@@ -54,25 +54,25 @@ Além de um UA completo, aqui estão os mais comuns que você encontrará na red
 
 *transparente + sapling*
 
-- ![TransSaplingUA](https://user-images.githubusercontent.com/81990132/219267475-38ad1419-0aac-4205-b18e-6873283f9d85.png)
+- ![TransSaplingUA](/content-images/219267475-38ad1419-0aac-4205-b18e-687328-46b8f12f80.webp)
 
 ---
 
 *transparente + orchard*
 
-- ![TransOrchUA](https://user-images.githubusercontent.com/81990132/219267496-90db21ff-f4e1-4a50-8f2a-1a71d995652a.png)
+- ![TransOrchUA](/content-images/219267496-90db21ff-f4e1-4a50-8f2a-1a71d9-7423486eb5.webp)
 
 ---
 
 *sapling + orchard*
 
-![SapOrcUA](https://user-images.githubusercontent.com/81990132/219267520-6b731ec2-e911-4469-acc5-c39d4addcac2.png)
+![SapOrcUA](/content-images/219267520-6b731ec2-e911-4469-acc5-c39d4a-a89ba01b88.webp)
 
 ---
 
 *orchard*
 
-![OrchUA](https://user-images.githubusercontent.com/81990132/219267538-1a748fff-4034-4559-96ac-182723409b3a.png)
+![OrchUA](/content-images/219267538-1a748fff-4034-4559-96ac-182723-3d69e23dac.webp)
 
 ---
 

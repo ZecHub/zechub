@@ -14,7 +14,7 @@ Katika Bitcoin na sarafu nyingine za sarafu, tuzo zote za vizuizi huenda kwa waz
 
 Kwa sasa, [Zcash Community Grants](https://zcashcommunitygrants.org/) hupokea 8% ya tuzo za vizuizi, Electric Coin Co. 7%, na Zcash Foundation hupokea 5%. Hii inafanya jumla ya 40%, 35%, na 25% ya mfuko wa maendeleo mtawaliwa.
 
-![Dev Fund Recipients ](https://user-images.githubusercontent.com/43553081/212411570-4858a3d6-f7a1-465a-bf0c-d2ef726d41dc.jpeg)
+![Dev Fund Recipients ](/content-images/212411570-4858a3d6-f7a1-465a-bf0c-d2ef72-1efe3a104e.webp)
 
 Mwaka 2020, jamii ya Zcash ilipiga kura juu ya mfuko wa maendeleo na timu zilizoungwa mkono na mfuko huo. Mwaka 2024, jamii itapiga kura tena ili kuamua ni nani atapata ufadhili kutoka kwenye mfuko wa maendeleo.
 

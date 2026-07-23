@@ -1,7 +1,7 @@
 # The Shielded Protocol, End to End
 ##### Original Research from [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt text](image-27.png)
+![alt text](/content-images/image-27-4094293ec0.webp)
 
 ### Assembling every piece into one private Zcash transaction
 
@@ -41,7 +41,7 @@ Here is the entire series on one page, mapped from Article 0's story to the real
 
 Everything a user can do flows from a single secret, the **spending key**, through a one-way hierarchy (each arrow is an irreversible derivation, courtesy of the trapdoors in Articles 2 and 3):
 
-![alt text](image-32.png)
+![alt text](/content-images/image-32-f443f9bb72.webp)
 
 Two things worth noticing, both consequences of earlier articles:
 
@@ -54,7 +54,7 @@ Two things worth noticing, both consequences of earlier articles:
 
 To spend a note privately, you must convince the network of four things at once **without revealing the note, its value, its position, or your identity.** Each claim is satisfied by a component you already know.
 
-![alt text](image-31.png)
+![alt text](/content-images/image-31-86309af194.webp)
 
 The proof reveals **none** of the underlying facts (which note, whose key, what value). It reveals only that *all four claims hold.* That is the entire trick of shielded Zcash, stated in one diagram.
 
@@ -92,7 +92,7 @@ Let's assemble Alice paying Bob. We'll use Sapling's clear "spend side / output 
 
 Plus one **binding signature** over the whole bundle, enforcing value balance (Section 5).
 
-![alt text](image-30.png)
+![alt text](/content-images/image-30-98511eb2d0.webp)
 
 Trace the privacy: the network checked the anchor, checked the nullifier was fresh, verified the proof, and verified balance. It accepted a valid payment **having learned no amount, no address, and not which note was spent.** Meanwhile the spent note's **nullifier** (its death) and Bob's new **commitment** (his note's birth) sit in two different public structures with no visible link between them, the severed link from Article 0.
 
@@ -198,7 +198,7 @@ The amounts are hidden, but each is wrapped in a homomorphic value commitment, a
 
 You've now traveled from a single paradox to a full private payment:
 
-![alt text](https://github.com/user-attachments/assets/cd8bbb40-57b8-4854-b9cf-97f2485d126a)
+![alt text](/content-images/cd8bbb40-57b8-4854-b9cf-97f2485d126a-8847fae521.webp)
 
 
 From here, the natural next arc goes deeper: the inner workings of Groth16 and Halo 2, trusted-setup ceremonies, the Sapling and Orchard circuits in detail, key derivation and diversified addresses, and the protocol's evolution across network upgrades. But the foundation is now in place, and every one of those topics has a home to attach to.

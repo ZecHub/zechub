@@ -56,7 +56,7 @@ Take a look at the [Github repo](https://github.com/red-dev-inc/zavax-bridge/tre
 For more technical details, users are encouraged to review the repository and documentation for the RedBridge project to [explore](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) the integration specifics, testing frameworks, and security protocols.
 
 
-![img1](https://github.com/user-attachments/assets/b8c5d267-1711-458a-8a32-1df9d56fae8a)
+![img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)
 
 
 * Deliverables: 

@@ -13,7 +13,7 @@ I produttori di blocchi (chiamati anche miner) hanno il compito di convalidare l
 In Bitcoin e in altre criptovalute, tutte le ricompense per i blocchi vanno ai produttori di blocchi. Zcash è unico nel fatto che il 20% della ricompensa per il blocco viene trasferito al [fondo di sviluppo di Zcash](https://zips.z.cash/zip-1014). Questo fondo finanzia i team che lavorano sul protocollo di Zcash.
 
 Attualmente, [Zcash Community Grants](https://zcashcommunitygrants.org/) riceve l'8% delle ricompense per i blocchi, Electric Coin Co. riceve il 7%, e la Zcash Foundation riceve il 5%. Questo corrisponde rispettivamente al 40%, al 35% e al 25% del fondo di sviluppo.
-![Dev Fund Recipients ](https://user-images.githubusercontent.com/43553081/212411570-4858a3d6-f7a1-465a-bf0c-d2ef726d41dc.jpeg)
+![Dev Fund Recipients ](/content-images/212411570-4858a3d6-f7a1-465a-bf0c-d2ef72-1efe3a104e.webp)
 
 Nel 2020, la comunità di Zcash ha votato sul fondo di sviluppo e sui team supportati da esso. Nel 2024, la comunità voterà di nuovo per determinare chi riceverà finanziamenti dal fondo di sviluppo.
 

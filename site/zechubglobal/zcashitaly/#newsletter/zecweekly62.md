@@ -1,6 +1,6 @@
 # ZecWeekly #62
 
-![ZecWeekly #62](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdaa24779-7a4f-4a34-85d0-8ddcf66eb053_1280x720.png)
+![ZecWeekly #62](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-6b460d923d.webp)
 
 Rapporto sulla trasparenza dell'ECC, nuovo SDK mobile in beta e ZCAP aggiunge 20 membri!
 
@@ -91,7 +91,7 @@ Questa settimana ZecHub rilascia una nuova serie didattica: Zcash 101. Si tratta
 
 ## Zeme della settimana
 
-![Image](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32054d0b-3f2c-48eb-bcc3-bd4bfc5a4d21_945x1076.jpeg)
+![Image](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-7b83720711.webp)
 
 <https://x.com/gordonesTV/status/1707726741806920132>
 

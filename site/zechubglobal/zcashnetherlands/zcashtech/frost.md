@@ -40,7 +40,7 @@ Ten eerste voeren n deelnemers een *distributed key generation (DKG)-protocol* u
 
 Daarna kunnen alle t-uit-n-deelnemers een *drempelondertekeningsprotocol* uitvoeren om gezamenlijk een geldige Schnorr-handtekening te genereren.
 
-![Drempelteken](https://static.cryptohopper.com/images/news/uploads/1634081807-frost-flexible-round-optimized-schnorr-threshold-signatures-1.jpg "thresholdsign")
+![Drempelteken](/content-images/1634081807-frost-flexible-round-optimize-3697a713d9.webp "thresholdsign")
 
 
 **Gedistribueerde sleutelgeneratie (DKG)**
@@ -57,7 +57,7 @@ Deze fase bouwt voort op bekende technieken die additieve geheimdeling en deelco
 
 Preprocessing: In de preprocessing-fase bereidt elke deelnemer een vast aantal Elliptic Curve (EC)-puntenparen voor verder gebruik voor, dat één keer wordt uitgevoerd voor meerdere drempelondertekeningsfasen.
 
-![Preprocessing](https://i.ibb.co/nQD1c3n/preprocess.png "preprocess stage")
+![Preprocessing](/content-images/preprocess-5cbb14f892.webp "preprocess stage")
 
 Ondertekeningsronde 1: Elke deelnemer Pᵢ begint met het genereren van een enkel privé nonce-paar (dᵢ, eᵢ) en een bijbehorend paar EC-punten (Dᵢ, Eᵢ) en zendt dit paar punten uit naar alle andere deelnemers. Elke deelnemer slaat deze paren ontvangen EC-punten op voor later gebruik. Tekenronde 2 en 3 zijn de eigenlijke operaties waarbij t-op-n deelnemers samenwerken om een ​​geldige Schnorr-handtekening te creëren.
 
@@ -65,7 +65,7 @@ Ondertekeningsronde 2: Om een ​​geldige Schnorr-handtekening te maken, werke
 
 Deze stap voorkomt aanval op vervalsing omdat aanvallers handtekeningshares over verschillende ondertekeningsbewerkingen niet kunnen combineren of de set ondertekenaars of gepubliceerde punten voor elke ondertekenaar kunnen permuteren.
 
-![Ondertekeningsprotocol](https://i.ibb.co/b5rJbXx/sign.png "ondertekeningsprotocol")
+![Ondertekeningsprotocol](/content-images/sign-402794d36a.webp "ondertekeningsprotocol")
 
 Nadat de uitdaging c is berekend, kan elke deelnemer de respons zᵢ op de uitdaging berekenen met behulp van de nonces voor eenmalig gebruik en de geheime aandelen op lange termijn, die t-uit-n (graad t-1) Shamir geheime aandelen zijn van de langlevende sleutel van de groep. Aan het einde van ondertekeningsronde 2 zendt elke deelnemer zᵢ uit naar andere deelnemers.
 

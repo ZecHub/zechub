@@ -1,6 +1,6 @@
 # ZecWeekly #63
 
-![ZecWeekly #63](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5fe7fb0b-1d9b-4bf5-acd4-293fafd5244d_1280x720.gif)
+![ZecWeekly #63](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-85df96606c.webp)
 
 Sondaggio ZCAP Minor Garants, aggiornamento di Zcashd 5.7.0 e un'imminente DevFund Town Hall!
 
@@ -94,7 +94,7 @@ Il pezzo didattico di questa settimana ci mostrerà come creare un negozio che a
 
 ## Zeme della settimana
 
-![Image](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45cdcf28-a30b-40aa-90d3-e070cce79194_1536x2048.jpeg)
+![Image](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-2d826ef338.webp)
 
 <https://x.com/gordonesTV/status/1707726741806920132>
 

@@ -12,7 +12,7 @@ Le prouveur ---> fait une réclamation ---> le vérificateur choisit ---> accept
 
 En informatique, le terme pour les preuves effectivement vérifiables est les preuves NP. Ces preuves courtes peuvent être vérifiées en temps polynomial. L'idée générale étant "Il existe une solution à un théorème et elle est transmise au vérificateur pour la vérifier"
 
-![Preuves NP](https://cdn.discordapp.com/attachments/860525418008674327/1070395089559494716/NPlanguage.jpg "NP Language")
+![Preuves NP](/content-images/_unavailable.svg "NP Language")
 
 
 Dans un langage NP = deux conditions doivent être remplies :
@@ -28,7 +28,7 @@ Solidité : les fausses affirmations n'auront aucune preuve (pour toute stratég
 
 **Aléatoire** : les demandes du vérificateur au prouveur sont aléatoires et le prouveur doit être en mesure de répondre correctement à chacune.
 
-![Preuves IP](https://cdn.discordapp.com/attachments/860525418008674327/1070395089194594345/IPmodel.jpg "Protocole IP")
+![Preuves IP](/content-images/_unavailable.svg "Protocole IP")
 
 En utilisant l'interaction et le hasard ensemble, il est possible de prouver une affirmation à un vérificateur aveugle en temps polynomial probabiliste (PPT).
 
@@ -64,7 +64,7 @@ Vue réelle : tous les historiques possibles d'interactions entre le prouveur et
 
 Vue simulée : le vérificateur simule toutes les interactions possibles entre le prouveur et le vérificateur
 
-![paradigme de simulation](https://cdn.discordapp.com/attachments/860525418008674327/1070395090259947520/simulation.jpg "Paradigme de simulation")
+![paradigme de simulation](/content-images/_unavailable.svg "Paradigme de simulation")
 
 Un distingueur en temps polynomial tente de déterminer s'il regarde la vue réelle ou simulée et demande un échantillon aux deux à plusieurs reprises.
 
@@ -92,7 +92,7 @@ exemple : "3x² + 8x + 17"
 
 **Circuit arithmétique** : modèle de calcul de polynômes. Plus généralement, il peut être défini comme un graphe acyclique dirigé sur lequel, à chaque nœud du graphe, une opération arithmétique est effectuée. Le circuit se compose de portes d'addition, de portes de multiplication et de quelques portes constantes. De la même manière que les circuits booléens transportent des bits dans des fils, les circuits arithmétiques transportent des entiers.
 
-![circuit](https://cdn.discordapp.com/attachments/860525418008674327/1070405388048011305/circuit.jpg "DAG")
+![circuit](/content-images/_unavailable.svg "DAG")
 
 Dans cet exemple, le prouveur veut convaincre le vérificateur qu'il connaît une solution du circuit arithmétique.
 
@@ -116,7 +116,7 @@ Oracle interactif polynomial : le vérificateur demande au prouveur (algorithme)
 
 Les procédures de configuration aident le vérificateur en résumant un circuit et en produisant des paramètres publics.
 
-![Configuration](https://cdn.discordapp.com/attachments/860525418008674327/1070395089899229245/setup.jpg "Configuration")
+![Configuration](/content-images/_unavailable.svg "Configuration")
 
 **Types de configuration de prétraitement** :
 
@@ -157,7 +157,7 @@ zk-SNARKS offre plusieurs avantages dans une variété d'applications différent
 
 L'avantage d'un service Rollup basé sur la preuve (zk-Rollup) est de traiter un lot de centaines/milliers de transactions et le L1 est capable de vérifier une preuve succincte que toutes les transactions ont été traitées correctement, augmentant le débit des transactions du réseau d'un facteur de 100 ou 1000.
 
-![zkvm](https://cdn.discordapp.com/attachments/860525418008674327/1070395090612265000/zkvm.jpg "ZKVM")
+![zkvm](/content-images/_unavailable.svg "ZKVM")
 
 **Interopérabilité** : Ceci est réalisé sur un zk-Bridge en "verrouillant" les actifs sur une chaîne source et en prouvant à la chaîne cible que les actifs ont été verrouillés (preuve de consensus).
 

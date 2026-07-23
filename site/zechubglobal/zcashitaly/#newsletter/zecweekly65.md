@@ -1,6 +1,6 @@
 # ZecWeekly #65
 
-![ZecWeekly #65](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5af7d9ba-9c02-4ccb-9c04-158720a728df_1280x720.gif)
+![ZecWeekly #65](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-661e7cf946.webp)
 
 Rilascio di Nighthawk v2, progetti di sovvenzioni minori di successo e #GlobalEncryptionDay!
 
@@ -107,7 +107,7 @@ https://www.youtube.com/watch?v=CnTr35glxkQ
 
 ## Zeme della settimana
 
-![Image](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa71b7dbc-ec89-429d-98db-2f374bd680f0_798x1280.jpeg)
+![Image](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-6539e42c4f.webp)
 
 <https://twitter.com/InsideZcash/status/1715709428006044109>
 

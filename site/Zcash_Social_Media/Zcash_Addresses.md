@@ -15,7 +15,7 @@ Today we learn about them & cover one of the new features in the #Zcash ecosyste
 
 **Shielded Transaction** refers to any transaction with addresses encoded for Sapling/Orchard pools.
 
-![Transparent vs Shielded intro](https://pbs.twimg.com/media/FpmW00HWIAIZpQD.jpg)
+![Transparent vs Shielded intro](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
 
 **Unified Addresses (UAs)** are designed to **unify** shielded or transparent transactions into a single address.
 
@@ -31,9 +31,9 @@ There are 3 types of address in use:
 
 The number of characters (and therefore QR code size) increases with each type.
 
-![Address types comparison](https://pbs.twimg.com/media/FpmXe5bXsAEFeLY.png)
+![Address types comparison](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
 
-![QR code size comparison](https://pbs.twimg.com/media/FpmXmDwXoAIWxov.png)
+![QR code size comparison](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
 
 ---
 
@@ -50,7 +50,7 @@ The raw encoding of a Unified Address is a combination of encodings (typecode, l
 
 **Important**: There must be **at least one shielded payment address** in every UA. (Sprout addresses are no longer supported after the Canopy upgrade.)
 
-![UA encoding structure](https://pbs.twimg.com/media/FpmYW1ZXgAAvALT.png)
+![UA encoding structure](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
 
 Full specification: **[ZIP-316: Unified Addresses](https://zips.z.cash/zip-0316)**
 

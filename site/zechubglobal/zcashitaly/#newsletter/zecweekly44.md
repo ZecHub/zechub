@@ -1,6 +1,6 @@
 # ZecWeekly #44
 
-![ZecWeekly #44](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09145613-98e7-44e0-a76b-a475e7372e8d_1280x720.png)
+![ZecWeekly #44](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-b199738d05.webp)
 
 Ristrutturazione ECC, Podcast Zcash con Zooko, AMA con Jack Gavigan e Transazioni schermate in Discord!
 ---
