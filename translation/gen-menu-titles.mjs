@@ -35,6 +35,18 @@ const locales = Object.keys(
   JSON.parse(readFileSync(join(root, "translation/sync-state.json"), "utf8")),
 ).filter((l) => l !== "en").sort();
 
+// Locale keys become path segments (input `translations/<loc>/site/` and output
+// `menu-titles/<loc>.json`). Refuse anything that isn't a plain locale tag, so a
+// malformed/hostile manifest key (e.g. "../../package") can't traverse out of
+// OUT_DIR and overwrite arbitrary files.
+const LOCALE_RE = /^[a-z]{2,3}(-[a-z0-9]+)?$/i;
+for (const l of locales) {
+  if (!LOCALE_RE.test(l)) {
+    console.error(`Unsafe locale key in sync-state.json: ${JSON.stringify(l)} — refusing.`);
+    process.exit(1);
+  }
+}
+
 // Full set of non-global English pages (what the side menu can list).
 function englishTreePages() {
   const out = execFileSync("git", ["ls-files", "site/"], { cwd: root, encoding: "utf8" });

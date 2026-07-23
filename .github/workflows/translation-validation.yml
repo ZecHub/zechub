@@ -1,24 +1,25 @@
 name: Validate Translated Content
 
+# Least privilege: these jobs only read the tree.
+permissions:
+  contents: read
+
 on:
-  push:
-    paths:
-      - "site/**/*.md"
-      - "translations/**/*.md"
-      - "translation/**"
-      - "scripts/check-protected-terms.mjs"
+  # Run on every PR (no path filter) so the blocking jobs (manifest-invariants,
+  # menu-titles-fresh) always produce a status and can be a REQUIRED check
+  # without hanging unrelated PRs at "Expected — waiting for status".
   pull_request:
-    paths:
-      - "site/**/*.md"
-      - "translations/**/*.md"
-      - "translation/**"
-      - "scripts/check-protected-terms.mjs"
+  push:
+    branches: [main]
 
 jobs:
   protected-terms:
     runs-on: ubuntu-latest
     steps:
+      # TODO: pin actions to full commit SHAs (supply-chain hardening).
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -29,21 +30,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Unit-test the normalized-hash library
-        run: node --test translation/lib/normalize-hash.test.mjs
-      - name: Unit-test the title-extraction library
-        run: node --test translation/lib/extract-title.test.mjs
+      - name: Unit-test the translation libraries
+        # Shell-glob (not a bare dir) so it works on Node 20 and still picks up
+        # any future *.test.mjs without editing this workflow.
+        run: node --test translation/lib/*.test.mjs
 
   menu-titles-fresh:
     # Freshness gate: the menu-titles manifests must match a from-scratch
-    # regeneration. This enforces Option C's atomicity — localized side-menu
-    # labels always land in the same commit as the translations they describe.
+    # regeneration. This enforces atomicity — localized side-menu labels always
+    # land in the same commit as the translations they describe.
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -57,17 +62,26 @@ jobs:
         with:
           # Full history so change-tracking can read the manifest at the base.
           fetch-depth: 0
+          persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version: 20
       - name: Determine base ref
         id: base
+        # Pass the (attacker-influenceable) ref names through env, never inline
+        # into the shell, to avoid command injection via a crafted branch name.
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BASE_REF: ${{ github.base_ref }}
+          EVENT_BEFORE: ${{ github.event.before }}
         run: |
-          if [ "${{ github.event_name }}" = "pull_request" ]; then
-            git fetch --no-tags --quiet origin "${{ github.base_ref }}"
-            echo "ref=origin/${{ github.base_ref }}" >> "$GITHUB_OUTPUT"
+          if [ "$EVENT_NAME" = "pull_request" ]; then
+            git fetch --no-tags --quiet origin "$BASE_REF"
+            echo "ref=origin/$BASE_REF" >> "$GITHUB_OUTPUT"
           else
-            echo "ref=${{ github.event.before }}" >> "$GITHUB_OUTPUT"
+            echo "ref=$EVENT_BEFORE" >> "$GITHUB_OUTPUT"
           fi
       - name: Check manifest invariants
-        run: node translation/check-invariants.mjs --base "${{ steps.base.outputs.ref }}"
+        env:
+          BASE_REF_OUT: ${{ steps.base.outputs.ref }}
+        run: node translation/check-invariants.mjs --base "$BASE_REF_OUT"

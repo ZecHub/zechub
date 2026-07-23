@@ -37,10 +37,11 @@
 
 import { readFileSync, existsSync, statSync } from "node:fs";
 import { join } from "node:path";
+import { fileURLToPath } from "node:url";
 import { execFileSync } from "node:child_process";
 import { hashPage } from "./lib/normalize-hash.mjs";
 
-const root = new URL("../", import.meta.url).pathname;
+const root = fileURLToPath(new URL("../", import.meta.url));
 const VALID_ENGINES = new Set(["llm", "nllb", "gt"]);
 const VALID_MODES = new Set(["seed", "diff", "full"]);
 
@@ -140,6 +141,14 @@ for (const loc of locales) {
     if (!VALID_MODES.has(e.mode)) fail(`${loc}/${page}: invalid mode "${e.mode}"`);
     if (typeof e.tool !== "string" || !e.tool) fail(`${loc}/${page}: missing tool`);
     if (typeof e.edited !== "boolean") fail(`${loc}/${page}: edited must be boolean`);
+    // src_commit is used by the staleness detector for high-severity delta
+    // judgment, so it must be a well-formed object id (or the seed literal).
+    if (
+      typeof e.src_commit !== "string" ||
+      !(/^[0-9a-f]{7,40}$/.test(e.src_commit) || e.src_commit === "HEAD")
+    ) {
+      fail(`${loc}/${page}: invalid src_commit "${e.src_commit}"`);
+    }
   }
 }
 
@@ -179,51 +188,82 @@ const base = resolveBase();
 if (!base) {
   console.log("notice: no base ref (--base / GITHUB_BASE_REF) — skipping change-tracking invariant.");
 } else {
-  let mergeBase, baseResolved = true;
+  // Fail closed: a REQUESTED base that can't be resolved must NOT silently skip
+  // the gate (force-push, shallow clone, or a typo would otherwise disable the
+  // only history-dependent invariant while still exiting green).
+  let baseSha = null;
   try {
-    mergeBase = execFileSync("git", ["merge-base", base, "HEAD"], { cwd: root, encoding: "utf8" }).trim();
+    baseSha = execFileSync("git", ["rev-parse", "--verify", "--quiet", `${base}^{commit}`], { cwd: root, encoding: "utf8" }).trim();
   } catch {
-    mergeBase = base; // fall back to a direct diff
-    baseResolved = false;
+    baseSha = null;
   }
-  let baseManifest = {};
-  let baseReadOk = true;
-  try {
-    baseManifest = JSON.parse(execFileSync("git", ["show", `${mergeBase}:translation/sync-state.json`], { cwd: root, encoding: "utf8" }));
-  } catch {
-    // Either no manifest at base (first introduction — nothing to change-track)
-    // or the base ref is unreadable (shallow clone). The former is fine; the
-    // latter means a REQUESTED check silently did nothing, so say so loudly.
-    baseManifest = null;
-    baseReadOk = false;
-  }
-  if (!baseResolved || !baseReadOk) {
-    console.warn(`notice: change-tracking skipped — base "${base}" ${baseResolved ? "has no manifest (first introduction?)" : "could not be resolved (shallow clone? run with fetch-depth: 0)"}.`);
-  }
-
-  if (baseManifest !== null) {
-    let changed;
+  if (!baseSha) {
+    fail(`base ref "${base}" could not be resolved — refusing to skip change-tracking silently (shallow clone? force-push? run CI with fetch-depth: 0).`);
+  } else {
+    let mergeBase = baseSha;
     try {
-      changed = execFileSync("git", ["diff", "--name-only", `${mergeBase}..HEAD`, "--", "translations/"], { cwd: root, encoding: "utf8" });
+      mergeBase = execFileSync("git", ["merge-base", baseSha, "HEAD"], { cwd: root, encoding: "utf8" }).trim();
     } catch {
-      changed = "";
+      mergeBase = baseSha; // divergent/unrelated history → direct diff against base
     }
-    const changedTranslations = changed.split("\n")
-      .filter((p) => p.endsWith(".md"))
-      .map((p) => p.match(/^translations\/([^/]+)\/site\/(.+)$/))
-      .filter(Boolean);
 
-    for (const m of changedTranslations) {
-      const loc = m[1], page = m[2];
-      const now = manifest[loc]?.[page];
-      const was = baseManifest[loc]?.[page];
-      if (!now) continue; // deletion — bijection already handles the file/entry pairing
-      // edited:true means a human owns this file; a repeated hand-edit is allowed
-      // without other provenance changes (avoids a CI deadlock on the 2nd edit).
-      const declaredEdit = now.edited === true;
-      const provenanceChanged = !was || now.src !== was.src || now.mode !== was.mode || now.tool !== was.tool;
-      if (!provenanceChanged && !declaredEdit) {
-        fail(`${loc}/${page}: translation changed but manifest provenance did not (set edited:true for a deliberate hand-edit, or record the new src/mode/tool)`);
+    // The base ref IS resolvable, so a failure to read the manifest at it means
+    // the file genuinely didn't exist there = first introduction (fine to skip).
+    let baseManifest = null;
+    let firstIntroduction = false;
+    try {
+      baseManifest = JSON.parse(execFileSync("git", ["show", `${mergeBase}:translation/sync-state.json`], { cwd: root, encoding: "utf8" }));
+    } catch {
+      firstIntroduction = true;
+    }
+
+    if (firstIntroduction) {
+      console.log(`notice: base ${mergeBase.slice(0, 12)} has no manifest — first introduction, nothing to change-track.`);
+    } else {
+      let changed;
+      try {
+        changed = execFileSync("git", ["diff", "--name-only", "-z", `${mergeBase}..HEAD`, "--", "translations/"], { cwd: root, encoding: "utf8" });
+      } catch (e) {
+        // The base resolved but the diff failed — do not treat as "no changes".
+        fail(`git diff against base ${mergeBase.slice(0, 12)} failed: ${e.message}`);
+        changed = "";
+      }
+      const changedSet = new Set(
+        changed.split("\0")
+          .filter((p) => p.endsWith(".md"))
+          .map((p) => p.match(/^translations\/([^/]+)\/site\/(.+)$/))
+          .filter(Boolean)
+          .map((m) => `${m[1]}/${m[2]}`),
+      );
+
+      // Direction 1 — translation changed ⇒ manifest must record why.
+      for (const key of changedSet) {
+        const [loc, ...rest] = key.split("/");
+        const page = rest.join("/");
+        const now = manifest[loc]?.[page];
+        const was = baseManifest[loc]?.[page];
+        if (!now) continue; // deletion — bijection handles the file/entry pairing
+        // A hand-edit is a valid reason ONLY when the edited flag FLIPS in this
+        // PR (false/absent → true). `edited:true` already at base is not a
+        // standing licence to mutate the file forever with no manifest trace.
+        const editFlipped = now.edited === true && was?.edited !== true;
+        const provenanceChanged = !was || now.src !== was.src || now.mode !== was.mode || now.tool !== was.tool;
+        if (!provenanceChanged && !editFlipped) {
+          fail(`${loc}/${page}: translation changed but manifest provenance did not (record the new src/mode/tool, or flip edited:true this PR for a deliberate hand-edit)`);
+        }
+      }
+
+      // Direction 2 — manifest src changed ⇒ the translation must have changed
+      // too. Otherwise a one-commit hash bump marks a genuinely-stale translation
+      // "fresh" forever — the exact lie this gate exists to prevent.
+      for (const loc of locales) {
+        for (const [page, now] of Object.entries(manifest[loc])) {
+          const was = baseManifest[loc]?.[page];
+          if (!was) continue; // new entry — bijection ensures a matching file
+          if (now.src !== was.src && !changedSet.has(`${loc}/${page}`)) {
+            fail(`${loc}/${page}: manifest src changed but the translation file did not — a hash bump alone would mark a stale translation "fresh"`);
+          }
+        }
       }
     }
   }
