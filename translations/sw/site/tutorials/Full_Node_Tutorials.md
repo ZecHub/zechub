@@ -6,7 +6,9 @@
 
 Zcash Full Nodes kuthibitisha uwazi na ulinzi shughuli kwenye Mtandao. Kwa kuendesha node kamili wewe kuchangia mtandao ujasiri & utulivu. Aidha kuendesha Node kamili hutoa usalama kuimarishwa na dhamana ya usalama kwa mtumiaji. Chini ni video viongozi kwa ajili ya kuanzisha / kuboresha zcashd au zebrad Full Node.
 
-Tafadhali soma yetu [viongozi](/site/Guides/Full_Nodes) kwa habari zaidi.
+> ** Kumbuka: ** zcashd ni kuwa [deprecated](https://z.cash/support/zcashd-deprecation/) katika neema ya [Zebra](https://github.com/ZcashFoundation/zebra) (`zebrad`) kwa node na [Zallet](https://github.com/zcash/zallet) Video zcashd chini ni kuhifadhiwa kwa ajili ya kumbukumbu; kwa ajili mipangilio mpya kufuata [Migration Mwongozo: zcasd kwa Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+
+Tafadhali soma yetu [Full Knots mwongozo](https://zechub.wiki/full-nodes) kwa habari zaidi.
 
 - Jinsi ya kuunda Zcashd kwenye Raspberry Pi 4
 
@@ -39,7 +41,3 @@ ____
 
 [!] Video Thumbnail](https://img.youtube.com/vi/HtorP8TJ5vk/hqdefault.jpg)](https://www.youtube.com/watch?v=HtorP8TJ5vk)
 
-
----
-
-**Protected terms (keep in English):** `Zallet`

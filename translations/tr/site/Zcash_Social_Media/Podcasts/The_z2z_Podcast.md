@@ -1,10 +1,10 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Social_Media/Podcasts/The_z2z_Podcast.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Z2Z Podcast
+# Z2Z Podcast'i
 
-Z2Z Podcast, Ian Sagstetter (Electric Coin Company'den) ile Zcash topluluğunun diğer üyeleri arasında uzun soluklu sohbetlere ev sahipliği yapar.
+Z2Z Podcast, Ian Sagstetter'ın (Electric Coin Company'den) ve Zcash topluluğunun diğer üyelerinin katıldığı uzun soluklu sohbetlere ev sahipliği yapar.
 
 Podcast, çeşitli farklı konuları ele alır, ancak esas olarak Zcash ve kullanıcılarının deneyimine odaklanır.
 
@@ -16,12 +16,12 @@ Gelecekteki bölümlerden haberdar olun:
 
 [Spotify](https://open.spotify.com/show/3teWxE0EQaeohCM268Lpnf)
 
-[Podcaster'lar için Spotify](https://podcasters.spotify.com/pod/show/zec-hub/episodes/Zcash-narratives-with-David-from-Zcash-Media-e1o2b36)
+[Podcaster için Spotify](https://podcasters.spotify.com/pod/show/zec-hub/episodes/Zcash-narratives-with-David-from-Zcash-Media-e1o2b36)
 
 
 **Bölüm Listesi**
 
-+ Bölüm 1 - J.W. Verret ile kripto düzenlemeleri ve finansal gizlilik [Youtube](https://www.youtube.com/watch?v=20oCI7XAR08) |  [Odysee](https://odysee.com/@ZecHub:4/z2zpodcast1:4) | [Spotify](https://open.spotify.com/episode/4bgn6g1vcVXOqTZ71IN6HE)
++ Bölüm 1 - J.W. Verret ile kripto regülasyonu ve finansal gizlilik [Youtube](https://www.youtube.com/watch?v=20oCI7XAR08) |  [Odysee](https://odysee.com/@ZecHub:4/z2zpodcast1:4) | [Spotify](https://open.spotify.com/episode/4bgn6g1vcVXOqTZ71IN6HE)
 
 + Bölüm 2 - Xcelencia ile müzik NFT'leri, gizlilik ve ekonomik özgürlük [Youtube](https://www.youtube.com/watch?v=nrtoRgb7g28) | [Odysee](https://odysee.com/@ZecHub:4/xcelencia:4) | [Spotify](https://open.spotify.com/episode/0a0Fad1H2vJ4JO1edJCKuC)
 
@@ -39,6 +39,6 @@ Gelecekteki bölümlerden haberdar olun:
 
 + Bölüm 9 - Ryan Taylor (diğer adıyla AdjyLeak) ile ZFAV Club [Youtube](https://www.youtube.com/watch?v=BYnhTNkQ-3M) | [Odysee](https://odysee.com/@ZecHub:4/podcast-ryan-taylor:c) | [Spotify](https://open.spotify.com/episode/1TJ6Nycq9nyW2b62ytI3O2)
 
-+ Bölüm 10 - Amber Baldet ile kamunun yararı için gizlilik [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6) | [Spotify]()
++ Bölüm 10 - Amber Baldet ile kamunun yararı için gizlilik [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
-Podcast'te sıradaki konuk olarak kimi görmek istediğinize dair önerileriniz varsa, bizimle iletişime geçmekten çekinmeyin! Twitter'da @zechub hesabına DM gönderebilirsiniz
+Podcast'te bir sonraki bölümde kimi görmek istediğinize dair önerileriniz varsa, bizimle iletişime geçmekten çekinmeyin! Twitter'da @zechub hesabına DM gönderebilirsiniz

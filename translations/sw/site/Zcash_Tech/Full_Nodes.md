@@ -10,7 +10,9 @@ Ina rekodi kamili ya kila shughuli ambayo imetokea tangu genesis na kwa hivyo in
 
 ## Zcashd
 
-Zcashd kwa sasa ni utekelezaji kuu Full Node kutumika na Zcash maendeleo na kudumishwa na Electric Coin Company.
+> ** Kumbuka: ** zcashd ni kuwa deprecated. Electric Coin Company ina [kwa rasmi alitangaza](https://z.cash/support/zcashd-deprecation/) kwamba zcashd ni kuwa kustaafu, na jukumu lake full-node kubadilishwa na [Zebra](https://github.com/ZcashFoundation/zebra) (`zebrad`) na mfuko wake jukumu na [Zallet](https://github.com/zcash/zallet). Kwa ajili ya kupelekwa mpya, kutumia Zebra (tazama hapa chini). Kama tayari kukimbia node zcashd, kufuata [Migration Guide: zcasd kwa Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+
+zcashd was the original Full Node implementation for Zcash, developed and maintained by the Electric Coin Company. The build instructions below are retained for reference and for operators migrating away from zcashd.
 
 Zcashd inaonyesha seti ya APIs kupitia interface yake ya RPC. API hizi hutoa kazi ambazo huruhusu programu za nje kuingiliana na node.
 
@@ -56,15 +58,13 @@ Zcashd inaonyesha seti ya APIs kupitia interface yake ya RPC. API hizi hutoa kaz
 
 ## Zebra
 
-Zebra ni kujitegemea kamili node utekelezaji kwa Zcash Itifaki iliyoundwa na Zcash Foundation. 
+Zebra is an independent, production-ready full node implementation of the Zcash protocol, created by the Zcash Foundation and written in Rust. As zcashd is retired, Zebra (`zebrad`) ni full node ilipendekeza kwa ajili ya kupelekwa mpya.
 
-Kwa sasa inajaribiwa na bado ni ya majaribio.
+Zebra inathibitisha vitalu na shughuli, inashiriki katika mtandao wa peer-to-peer, na inaonyesha interface ya RPC kwa programu. Mkoba ni sehemu tofauti sasa: [Zallet](https://github.com/zcash/zallet) runs against a Zebra node and handles keys and balances. This replaces zcashd, which bundled the node and wallet in a single process.
 
-Kuna sehemu kuu mbili za Zebra. sehemu ya mteja ambayo ni wajibu wa blockchain skanning na majaribio decryption ya shughuli. 
+Kutumikia wallets mwanga ulinzi, node anaendesha pamoja indexer, ama imara [lightwalletd](https://github.com/zcash/lightwalletd) au mpya [Zaino](https://zechub.wiki/zaino).
 
-Sehemu ya pili ni chombo cha mstari wa amri ya zebra. Chombo hiki kinasimamia funguo za matumizi, anwani na kuwasiliana na sehemu ya Mteja katika zebrad kutoa utendaji wa msingi wa mkoba.
-
-Mtu yeyote nia ya kujaribu nje Zebra kuchimba vitalu ni kuwakaribisha kujiunga R & D discord server. Pia kuwa na uhakika wa kusoma kitabu Zebra kwa maelekezo ya kuanzisha. 
+Hakikisha kusoma kitabu Zebra kwa maelekezo ya kuanzisha, na kujiunga R & D Discord server kwa msaada. 
 
 [Github](https://github.com/ZcashFoundation/zebra/)
 
@@ -100,7 +100,7 @@ Unaweza pia kuchangia maendeleo ya mtandao kwa kuendesha vipimo au kupendekeza m
 
 Wachimbaji wanahitaji full nodes kupata wote madini kuhusiana RPC ya kama vile getblock template & getmininginfo. 
 
-Zcashd pia itawezesha madini kwa walinzi coinbase. Wachimbaji na madini ya madini wana chaguo kuchimba moja kwa moja kukusanya walinzi ZEC katika z-anwani default. 
+Zcashd pia inaruhusu madini kwa walinzi coinbase. Wachimbaji na madini ya madini wana chaguo kuchimba moja kwa moja kukusanya walinzi ZEC katika z-anwani default. 
 
 Soma [Mwongozo wa Uchimbaji](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) au Kujiunga na Jamii Forum ukurasa kwa ajili ya [Zcash Miners](https://forum.zcashcommunity.com/c/mining/13).
 
@@ -122,7 +122,3 @@ Kujiunga yetu [Discord Sever](https://discord.gg/zcash) au wasiliana nasi kwenye
 
 
 
-
----
-
-**Protected terms (keep in English):** `Zaino` `Zallet`

@@ -22,6 +22,13 @@ N'ime afọ ndị a, Zcash ewebatala mgbanwe na ndozi dị mkpa na usoro ahụ, 
 
 [NU6:](https://zips.z.cash/zip-0253) NU6 implemented a new Zcash development fund (Hybrid Deferred Dev Fund transitioning to a non-direct funding model) and then will set up a lockbox where a proportion of issuance will be reserved for any future decentralized grants funding. The release of these funds will be solely governed by a mechanism determined by the Zcash community in the future. NU6's mission is to reduce block subsidy and to establish a decentralized funding model via a lockbox mechanism for ensuring enhanced transparency while strengthening privacy.
 
----
+[NU6.2:](https://zips.z.cash/zip-0257) Ntughari netwọk NU6.2 na-eme ka usoro Orchard kpuchie, na mgbanwe abụọ kwekọrịtara na iwu mbụ nke Orchard:
 
-**Protected terms (keep in English):** `Orchard` `zcashd`
+* The Orchard Action circuit’s variable-base scalar multiplication gadget is corrected, fixing the soundness vulnerability. This changes the Orchard verifying key. Pre-NU6.2 Action proofs verify only under the historical (insecure) verifying key, and NU6.2-onward proofs only under the corrected one. The fix was published in halo2_gadgets v0.5.0 10 and orchard v0.14.0. 11
+
+* Site na ntinye nke NU6.2, ihe akaebe nke Orchard Action ga-enwerịrị ogologo oge maka usoro a gbaziri agbazi. Tupu NU6.2 ogologo a adịghị eme ka ọ bụrụ iwu nkwekọrịta. 8
+
+From the activation of NU6.2, the temporary mitigation no longer applies. Transactions containing Orchard Action descriptions MUST again be accepted, with proofs subject to verification under the corrected circuit and the canonical-length rule. NU6.2 was deployed in zcashd v6.20.0 and zebra v5.0.0.
+
+[NU6.3:](https://zips.z.cash/zip-0258) NU6.3 network upgrade introduces the Ironwood shielded pool. The consensus changes for NU6.3 are specified across the version 6 transaction format 5, the Orchard Action circuit update 6, ZIP 2005 7, and this ZIP, which fixes the activation parameters and the consensus rules that gate on NU6.3 activation regardless of transaction version.
+

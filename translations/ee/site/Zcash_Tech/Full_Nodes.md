@@ -10,7 +10,9 @@ Eléa asitsatsa ɖesiaɖe si dzɔ tso gɔmedzedzea me ƒe nuŋlɔɖi blibo ɖe a
 
 ## Zcashd ƒe ŋkɔ
 
-Zcashd nye Full Node ƒe dɔwɔwɔ vevitɔ si Zcash zãna fifia si Electric Coin Company to vɛ eye wòléa be nɛ.
+> **De dzesii:** wole zcashd ɖem ɖa. Electric Coin Company [ɖe gbeƒãe le se nu](https://z.cash/support/zcashd-deprecation/) be wole dzudzɔ xɔm le zcashd me, eye wotsɔ [Zebra](https://github.com/ZcashFoundation/zebra) (`zebrad`) kple eƒe gakotoku ƒe akpa si [Zallet](https://github.com/zcash/zallet). Ne èdi be yeawɔ dɔ yeyewo la, zã Zebra (kpɔ ete). Ne èwɔ zcashd node xoxo la, wɔ ɖe [Migration Guide: zcashd to Zebrad/Zallet dzi](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+
+zcashd nye Full Node ƒe dɔwɔwɔ gbãtɔ na Zcash, si Electric Coin Company to vɛ eye wòlé be nɛ. Wodzra xɔtutu ƒe mɔfiame siwo le ete ɖo hena numekuku kple na dɔwɔla siwo le ʋuʋum tso zcashd gbɔ.
 
 Zcashd ɖea API ƒe hatsotso aɖe ɖe go to eƒe RPC ŋgɔdonya dzi. API siawo naa dɔwɔwɔ siwo ɖea mɔ na gotagome dɔwɔɖoɖowo be woawɔ nu kple node la.
 
@@ -40,7 +42,7 @@ Zcashd ɖea API ƒe hatsotso aɖe ɖe go to eƒe RPC ŋgɔdonya dzi. API siawo n
 
       git ƒe ʋuʋu v5.4.1
       ./zcutil/xɔ-params.sh
-      ./zcutil/dzadzɛ.sh
+      ./zcutil/kɔ.sh
       . / zcutil / xɔ.sh -j $ (nproc) .
 
 - Sync Blockchain (ate ŋu axɔ gaƒoƒo geɖe) .
@@ -56,15 +58,13 @@ Zcashd ɖea API ƒe hatsotso aɖe ɖe go to eƒe RPC ŋgɔdonya dzi. API siawo n
 
 ## Zebra
 
-Zebra nye node blibo ƒe dɔwɔwɔ si le eɖokui si na Zcash Protocol si Zcash Foundation wɔ. 
+Zebra nye Zcash ɖoɖowɔɖi ƒe node blibo si le eɖokui si, si le klalo na ewɔwɔ, si Zcash Foundation wɔ eye woŋlɔe ɖe Rust me. Esi zcashd xɔ dzudzɔ le dɔme ta la, Zebra (`zebrad`) nye node blibo si wokafu na dɔwɔwɔ yeyewo.
 
-Wole edom kpɔ fifia eye wogale dodokpɔ wɔm.
+Zebra ɖoa kpe mɔxenuwo kple asitsatsa dzi, kpɔa gome le hatiwo ƒe kadodo me, eye wòɖea RPC ƒe ŋgɔdonya ɖe go na dɔwɔɖoɖowo. Gakotokua nye akpa aɖe si to vovo fifia: [Zallet](https://github.com/zcash/zallet) ƒua du ɖe Zebra node ŋu eye wòkpɔa safuiwo kple dadasɔwo gbɔ. Esia xɔ ɖe zcashd teƒe, si ƒo node kple gakotoku nu ƒu ɖe dɔwɔwɔ ɖeka me.
 
-Zebra ƒe akpa vevi evee li. Asitsalawo ƒe akpa si kpɔa blockchain scanning kple dodokpɔ decryption ƒe asitsatsa dzi. 
+Be woasubɔ kekeli gakotoku siwo ŋu wokpɔ ta na la, node la zɔna ɖe indexer aɖe xa, si nye [lightwalletd si woɖo anyi](https://github.com/zcash/lightwalletd) alo yeyetɔ kekeake [Zaino](https://zechub.wiki/zaino).
 
-Akpa eveliae nye zebra ƒe sedede ƒe dɔwɔnu. Dɔwɔnu sia kpɔa gazazã ƒe safuiwo dzi, adrɛswo & ɖoa dze kple Asitsaha ƒe akpa si le zebrad me be wòana gakotoku ƒe dɔwɔwɔ veviwo.
-
-Míele amesiame si di be yeate Zebra kpɔ be yeaku blocks la kpem be wòava ge ɖe R&D discord server la me. Kpɔ egbɔ hã be yexlẽ Zebra-gbalẽa hena ɖoɖowɔwɔ ŋuti mɔfiamewo. 
+Kpɔ egbɔ be yexlẽ Zebra ƒe agbalẽa hena ɖoɖowɔwɔ ŋuti mɔfiamewo, eye nàwɔ ɖeka kple R&D Discord server hena kpekpeɖeŋu. 
 
 [Github ƒe ŋkɔ](https://github.com/ZcashFoundation/zebra/)
 
@@ -84,7 +84,7 @@ DNS seeders ɖea node bubu siwo ŋu kakaɖedzi le ƒe xexlẽdzesi ɖe go to ser
 
 ### Network ƒe Akɔntabubuwo
 
-Esiawo nye kpɔɖeŋu mɔnu siwo ɖea mɔ be woakpɔ Zcash Network ƒe nyatakakawo:
+Esiawo nye kpɔɖeŋu mɔ̃ siwo ɖea mɔ be woakpɔ Zcash Network ƒe nyatakakawo:
 
 [Zcash Block ƒe Ʋuʋudedi](https://zcashblockexplorer.com)
 
@@ -122,7 +122,3 @@ Wɔ ɖeka kple míaƒe [Masɔmasɔ Sever](https://discord.gg/zcash) alo nàdo as
 
 
 
-
----
-
-**Protected terms (keep in English):** `Zaino` `Zallet`

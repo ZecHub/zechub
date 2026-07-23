@@ -74,7 +74,7 @@
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo | Linux
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard
-- Features: Adrɛs ƒe Tɔtrɔ | Broad Key Kpekpeɖeŋu | Nusiwo Woɖo Ðe Duta Siwo Wotsɔ Nya Ɣla Ðo | FROST Multisig | Akɔntabubu Geɖewo ƒe Ðekawɔwɔ | Memo si Wotsɔ Akpoxɔnu Wɔe | Testnet Kpekpeɖeŋunana
+- Features: Adrɛs ƒe Tɔtrɔ | Broad Key Kpekpeɖeŋunana | Nusiwo Woɖo Ðe Duta Siwo Wotsɔ Nya Ɣla Ðo | FROST Multisig | Akɔntabubu Geɖewo ƒe Ðekawɔwɔ | Memo si Wotsɔ Akpoxɔnu Wɔe | Testnet Kpekpeɖeŋunana
 
 ---
 
@@ -163,7 +163,7 @@
 - Mɔ̃wo: Asitelefon dzi | Nyatakakadzraɖoƒe
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Browser ƒe dɔwɔnu
 - Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbɔgblɔ
-- Tawo: Woate ŋu akpɔe le gaglãgbe
+- Tawo: Wowɔa nu le gaglãgbe
 - Nusiwo le eme: Multi Coin
 
 ---
@@ -173,7 +173,7 @@
 - Mɔ̃wo: Asitelefon dzi | Nyatakakadzraɖoƒe
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Browser ƒe dɔwɔnu
 - Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbɔgblɔ
-- Tawo: Woate ŋu akpɔe le gaglãgbe
+- Tawo: Wowɔa nu le gaglãgbe
 - Nusiwo le eme: Multi Coin
 
 ---
@@ -183,7 +183,7 @@
 - Mɔ̃wo: Asitelefon dzi | Dɔdzikpɔƒe | Nyatakakadzraɖoƒe
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo | Linux | macOS ƒe nyawo | Browser ƒe dɔwɔnu
 - Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbɔgblɔ
-- Tawo: Woate ŋu akpɔe le gaglãgbe
+- Tawo: Wowɔa nu le gaglãgbe
 - Nusiwo le eme: Multi Coin
 
 ---
@@ -193,7 +193,7 @@
 - Mɔ̃wo: Asitelefon dzi | Desktop dzi
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo
 - Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbɔgblɔ
-- Tawo: Woate ŋu akpɔe le gaglãgbe
+- Tawo: Wowɔa nu le gaglãgbe
 - Nusiwo le eme: Multi Coin
 
 ---
@@ -213,7 +213,7 @@
 - Mɔ̃wo: 
 - Dɔwɔɖoɖo:
 - Gakotoku ƒe Kpekpeɖeŋu: Hardware
-- Tawo: Woate ŋu akpɔe le gaglãgbe 
+- Tawo: Wowɔa nu le gaglãgbe 
 - Nusiwo le eme: Multi Coin
 
 ---
@@ -223,7 +223,7 @@
 - Mɔ̃wo: Asitelefon dzi | Nyatakakadzraɖoƒe
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Browser ƒe dɔwɔnu
 - Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbe | Hardware ƒe dɔwɔnuwo
-- Tawo: Woate ŋu akpɔe le gaglãgbe
+- Tawo: Wowɔa nu le gaglãgbe
 - Nusiwo le eme: Multi Coin
 
 ---
@@ -233,7 +233,7 @@
 - Mɔ̃wo:
 - Dɔwɔɖoɖo:
 - Gakotoku ƒe Kpekpeɖeŋu: Hardware
-- Tawo: Woate ŋu akpɔe le gaglãgbe
+- Tawo: Wowɔa nu le gaglãgbe
 - Nusiwo le eme: Multi Coin
 
 ---
@@ -242,14 +242,14 @@
 ![logo ƒe dzesi](https://i.ibb.co/93wSrxCc/vultisig.png "Vultisig")
 - Mɔ̃wo: Nyatakakadzraɖoƒe | Asitelefon dzi | Desktop dzi
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo | Linux | macOS ƒe nyawo | Browser ƒe dɔwɔnu
-- Tawo: Woate ŋu akpɔe le gaglãgbe
+- Tawo: Wowɔa nu le gaglãgbe
 - Nusiwo le eme: Multi Coin | Nyatakakadzraɖoƒe ƒe Dɔwɔɖoɖo
 
 ---
 
 ## [Vizor](https://vizor.cash/)
 ![logo ƒe dzesi](https://i.ibb.co/zhW2d2fV/Vizorphoto.png "Vizor")
-- Mɔ̃wo: Desktop | Si tsana
+- Devices: Desktop | Si tsana
 - Dɔwɔɖoɖo: macOS
 - Wallet Support: Seed Phrase | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard
@@ -262,7 +262,7 @@
 - Mɔ̃wo: Nyatakakadzraɖoƒe | Desktop dzi
 - Dɔwɔɖoɖo: Browser
 - Tawo: Wokpɔ akpoxɔnu dzi | Si me kɔ
-- Nusiwo le eme: Zcash | Browser ƒe Kekeɖenudɔwɔwɔ | Ame ŋutɔ ƒe Beta | Adzɔnuwo ƒe Asitsatsa Siwo Wotsɔ Akpoxɔnu Wɔe | Atitsoga-kɔsɔkɔsɔ Swaps | Dodo & Dodoɖeŋgɔ | DApp Kadodowo | ZECFi si nye dukɔa me tɔ
+- Features: Browser ƒe Kekeɖenudɔwɔwɔ | Adzɔnuwo ƒe Asitsatsa Siwo Wokpɔna | Atitsoga-kɔsɔkɔsɔ Swaps | Dodo & Dodoɖeŋgɔ | DApp Kadodowo | Rhea
 
 ---
 
@@ -270,7 +270,7 @@
 ![logo ƒe dzesi](https://i.ibb.co/3YjpzYnH/Leo-Dexwallet.png "LeoDex")
 - Mɔ̃wo: Nyatakakadzraɖoƒe | Desktop dzi
 - Dɔwɔɖoɖo: Browser | Fesrewo | macOS ƒe nyawo
-- Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbe | Gakotoku si le egodo | Xɔ Adrɛs | QR-Kɔdasi | Hardware ƒe dɔwɔnuwo
+- Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbe | Gakotoku si le egodo | Xɔ Adrɛs | QR-dzesi | Hardware ƒe dɔwɔnuwo
 - Pools: Sapling | Transparent
 - Nusiwo le eme: Multi Coin | Near Intents | Maya ƒe DEX | KYC aɖeke meli o | Nusiwo Menye Vidzikpɔkpɔ o | Nyatakakadzraɖoƒe ƒe Dɔwɔɖoɖo | Desktop Dɔwɔɖoɖo | Akpoxɔnu ZEC | AnyPay ƒe fetu
 

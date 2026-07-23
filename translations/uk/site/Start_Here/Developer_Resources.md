@@ -11,15 +11,15 @@
 
 [Документація Zcash](https://zcash.readthedocs.io/en/latest/)
 
-[Mastering Bitcoin: Програмування відкритого блокчейну](https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4)
+[Mastering Bitcoin: Programming The Open Blockchain](https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4)
 
-[RPC у Zcashd](https://zcash.github.io/rpc/)
+[RPC для Zcashd](https://zcash.github.io/rpc/)
 
-[Книга про Zcashd](https://zcash.github.io/zcash/)
+[Книга Zcashd](https://zcash.github.io/zcash/)
 
-[Книга про Zebrad](https://zebra.zfnd.org/)
+[Книга Zebrad](https://zebra.zfnd.org/)
 
-[Протокол легкого клієнта](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html)
+[Протокол light client](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html)
 
 [Мобільний SDK для Android](https://github.com/zcash/zcash-android-wallet-sdk) / [Мобільний SDK для iOS](https://github.com/zcash/ZcashLightClientKit)
 
@@ -29,23 +29,23 @@
 
 [Кодування адрес](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys)
 
-[Основні Pull Request у Zebrad]() / [Основні Pull Request у Zebrad](https://github.com/ZcashFoundation/zebra/pulls)
+[Репозиторій Zebrad](https://github.com/ZcashFoundation/zebra) / [Pull Request'и Zebrad](https://github.com/ZcashFoundation/zebra/pulls)
 
 [Бібліотеки криптографічних підписів](https://github.com/orgs/ZcashFoundation/repositories?type=all)
 
-[Книга про halo 2](https://zcash.github.io/halo2/index.html)
+[Книга Halo 2](https://zcash.github.io/halo2/index.html)
 
-[Книга про orchard](https://zcash.github.io/orchard/)
+[Книга Orchard](https://zcash.github.io/orchard/)
 
-[Crate Halo]() / [Crate Orchard](https://docs.rs/orchard/latest/orchard/)
+[Crate Halo2](https://docs.rs/halo2_proofs/latest/halo2_proofs/) / [Crate Orchard](https://docs.rs/orchard/latest/orchard/)
 
 [Discord Zcash R&D](https://discord.gg/6AK7keWFaK)
 
-[Інші технології, пов’язані із Zcash]() / [Книга про Frost](https://frost.zfnd.org/)
+[Книга FROST](https://frost.zfnd.org/)
 
-[Результати хакатону Zechub 2024](https://x.com/ZecHub/status/1845212469809033489)
+[Результати хакатону ZecHub 2024](https://x.com/ZecHub/status/1845212469809033489)
 
-[Результати хакатону Zechub 2025](https://x.com/ZecHub/status/1975565960661635283)
+[Результати хакатону ZecHub 2025](https://x.com/ZecHub/status/1975565960661635283)
 
 [Результати хакатону Zypherpunk 2025](https://forum.zcashcommunity.com/t/zypherpunk-hackathon-winners/53985)
 
@@ -55,11 +55,11 @@
 
 [Гаманець Zcash Warp2-Sync від Hanh](https://github.com/hhanh00/warp2)
 
-[Оглядач тестової мережі Zcash](https://testnet.zcashblockexplorer.com/)
+[Оглядач Zcash Testnet](https://testnet.zcashblockexplorer.com/)
 
 
-Цей список був складений на основі рекомендацій, наданих розробниками з Zcash Foundation та ECC. 
+Цей список було укладено на основі рекомендацій розробників із Zcash Foundation та ECC. 
 
 Якщо у вас є додаткові ресурси (посилання, книги, канали тощо), щоб оновити список, сміливо додавайте їх!
 
-*У команд не завжди є ресурси, щоб підтримувати все повністю актуальним, але створення issue щодо проблем, з якими ви стикаєтеся, допоможе спрямувати розвиток посібників і ресурсів*
+*Команди не завжди мають ресурси, щоб підтримувати все в повністю актуальному стані, але відкриття issues, з якими ви стикаєтеся, допоможе спрямувати розвиток гайдів і ресурсів*

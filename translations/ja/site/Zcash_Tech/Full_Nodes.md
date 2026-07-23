@@ -1,31 +1,32 @@
+---
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Full_Nodes.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
 </a>
 
 # フルノード
 
-フルノードとは、任意の暗号通貨のブロックチェーンの完全なコピーを実行するソフトウェアであり、プロトコルの機能にアクセスできるようになります。
+フルノードとは、あらゆる暗号通貨のブロックチェーンの完全なコピーを実行し、そのプロトコル機能へのアクセスを提供するソフトウェアです。
 
-これは、創世以来行われたすべての取引の完全な記録を持ち、したがってブロックチェーンに追加される新しい取引およびブロックの有効性を検証できます。
-
+フルノードは、ジェネシス以降に発生したすべてのトランザクションの完全な記録を保持しているため、ブロックチェーンに追加される新しいトランザクションやブロックの有効性を検証できます。
 
 ## Zcashd
 
-Zcashdは現在、Electric Coin Companyによって開発および保守されており、Zcashで使用されている主なフルノード実装です。
+> **注:** zcashd は廃止予定です。Electric Coin Company は、zcashd を引退させることを[正式に発表](https://z.cash/support/zcashd-deprecation/)しており、そのフルノードとしての役割は [Zebra](https://github.com/ZcashFoundation/zebra)（`zebrad`）に、ウォレットとしての役割は [Zallet](https://github.com/zcash/zallet) に置き換えられます。新規導入では Zebra を使用してください（以下参照）。すでに zcashd ノードを運用している場合は、[Migration Guide: zcashd to Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet) に従ってください。
 
-ZcashdはRPCインターフェースを通じて一連のAPIを公開しています。これらのAPIは、外部アプリケーションがノードとやり取りできるようにする機能を提供します。
+zcashd は、Electric Coin Company によって開発・保守されていた、Zcash 向けのオリジナルのフルノード実装でした。以下のビルド手順は、参考用および zcashd から移行する運用者向けに残されています。
 
-[Lightwalletd](https://github.com/zcash/lightwalletd) は、フルノードを使用して開発者にモバイル対応のシールド付きライトウォレットを構築および維持できるようにするアプリケーションの例です。
+Zcashd は RPC インターフェースを通じて一連の API を公開しています。これらの API は、外部アプリケーションがノードとやり取りできる機能を提供します。
+
+[Lightwalletd](https://github.com/zcash/lightwalletd) は、開発者が Zcashd と直接やり取りしなくても、モバイル向けのシールド対応ライトウォレットを構築・保守できるようにするためにフルノードを利用するアプリケーションの一例です。
+
+[サポートされている RPC コマンドの完全一覧](https://zcash.github.io/rpc/)
+
+[The Zcashd book](https://zcash.github.io/zcash/)
 
 
-[ZcashdでサポートされているRPCコマンド一覧](https://zcash.github.io/rpc/)
+### ノードを起動する（Linux）
 
-[Zcashdに関する書籍](https://zcash.github.io/zcash/)
-
-
-### ノードの起動 (Linux)
-
-- 依存関係をインストール
+- 依存関係をインストールする
 
       sudo apt update
 
@@ -34,7 +35,7 @@ ZcashdはRPCインターフェースを通じて一連のAPIを公開してい�
       autoconf libtool ncurses-dev unzip git python3 python3-zmq \
       zlib1g-dev curl bsdmainutils automake libtinfo5
 
-- 最新リリースをクローン、チェックアウト、設定およびビルド:
+- 最新リリースをクローンし、チェックアウト、セットアップ、ビルドする:
 
       git clone https://github.com/zcash/zcash.git
 
@@ -45,28 +46,26 @@ ZcashdはRPCインターフェースを通じて一連のAPIを公開してい�
       ./zcutil/clean.sh
       ./zcutil/build.sh -j$(nproc)
 
-- ブロックチェーンを同期 (数時間かかる場合があります)
+- ブロックチェーンを同期する（数時間かかる場合があります）
 
-    ノードを起動するには以下を実行します:
+    ノードを起動するには、次を実行します:
 
       ./src/zcashd
 
-- 秘密鍵は ~/.zcash/wallet.dat に保存されます。
+- 秘密鍵は ~/.zcash/wallet.dat に保存されます
 
-[Raspberry PiでのZcashdガイド](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
+[Raspberry Pi 向け Zcashd ガイド](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
 
 ## Zebra
 
-Zebraは、Zcash Foundationによって作成されたZcashプロトコル用の独立したフルノード実装です。
+Zebra は、Zcash Foundation によって作成され、Rust で書かれた、Zcash プロトコルの独立した本番運用対応フルノード実装です。zcashd の引退に伴い、Zebra（`zebrad`）が新規導入向けの推奨フルノードとなっています。
 
-現在テスト中であり、まだ実験的な段階にあります。
+Zebra はブロックとトランザクションを検証し、P2P ネットワークに参加し、アプリケーション向けに RPC インターフェースを提供します。現在、ウォレットは別コンポーネントになっています。[Zallet](https://github.com/zcash/zallet) は Zebra ノードに接続して動作し、鍵と残高を管理します。これは、ノードとウォレットを単一プロセスにまとめていた zcashd を置き換えるものです。
 
-Zebraには主に2つのコンポーネントがあります。クライアントコンポーネントはブロックチェーンスキャンおよびトランザクションの試行暗号化を担当します。
+シールド対応ライトウォレットにサービスを提供するには、ノードはインデクサーと並行して動作します。利用できるのは、定評のある [lightwalletd](https://github.com/zcash/lightwalletd) または新しい [Zaino](https://zechub.wiki/zaino) です。
 
-2つ目の部分はzebraコマンドラインツールです。このツールは、支出鍵やアドレスを管理し、zebradと通信して基本的なウォレット機能を提供します。
-
-Zebraを使ってブロックマイニングに興味がある人は、R&DのDiscordサーバーに参加することをお勧めします。また、セットアップ手順については[Zebra書籍](https://zebra.zfnd.org)も確認してください。
+セットアップ手順については Zebra book を必ず読み、サポートについては R&D Discord サーバーに参加してください。 
 
 [Github](https://github.com/ZcashFoundation/zebra/)
 
@@ -78,49 +77,46 @@ Zebraを使ってブロックマイニングに興味がある人は、R&DのDis
 
 ## ネットワーク
 
-フルノードを実行することで、分散化を支援し、Zcashネットワークの強化に貢献しています。
+フルノードを運用することで、分散性を支えることになり、zcash ネットワークの強化に貢献できます。 
 
-これは、敵対的なコントロールを防ぎ、いくつかの形態の障害に対するネットワークの耐性を高めます。
+これにより、敵対的な支配を防ぎ、ある種の障害に対してネットワークの回復力を維持できます。
 
-DNSシーダーは、組み込みサーバーを通じて他の信頼できるノードの一覧を公開します。これにより、トランザクションがネットワーク全体に伝播できます。
+DNS seeder は、組み込みサーバーを通じて、他の信頼できるノードの一覧を公開しています。これにより、トランザクションがネットワーク全体に伝播できるようになります。 
 
 ### ネットワーク統計
 
-これらは、Zcashネットワークデータへのアクセスを可能にする例のプラットフォームです：
+以下は、Zcash ネットワークデータにアクセスできるプラットフォームの例です:
 
-[Zcashブロックエクスプローラー](https://zcashblockexplorer.com)
+[Zcash Block Explorer](https://zcashblockexplorer.com)
 
 [Coinmetrics](https://docs.coinmetrics.io/info/assets/zec)
 
 [Blockchair](https://blockchair.com/zcash)
 
-ネットワークの開発に貢献するには、テストを実行したり、新しい改善案を提案したり、メトリクスを提供することもできます。
+また、テストを実行したり、新しい改善案を提案したり、メトリクスを提供したりすることで、ネットワークの発展に貢献することもできます。 
+
 
 
 ### マイニング
 
-マイナーは、getblocktemplateやgetmininginfoなどのすべてのマイニング関連RPCにアクセスするためにフルノードが必要です。
+マイナーは、getblocktemplate や getmininginfo など、マイニング関連のすべての rpc にアクセスするためにフルノードを必要とします。 
 
-Zcashdは、シールド付きコインベースへのマイニングも可能にします。マイナーおよびマイニングプールは、デフォルトでzアドレスにシールドされたZECを蓄積するように直接マイニングできます。
+Zcashd は、shielded coinbase へのマイニングも可能にします。マイナーやマイニングプールは、デフォルトで z-address にシールドされた ZEC を蓄積するため、直接マイニングすることを選択できます。 
 
-[Mining Guide](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) を読んだり、[Zcash Miners](https://forum.zcashcommunity.com/c/mining/13) のコミュニティフォーラムページに参加したりしてください。
+[Mining Guide](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) を読むか、[Zcash Miners](https://forum.zcashcommunity.com/c/mining/13) のコミュニティフォーラムページに参加してください。
+
+### プライバシー 
+
+フルノードを運用することで、Zcash ネットワーク上のすべてのトランザクションとブロックを独立して検証できます。
+
+フルノードを運用することで、トランザクションの検証を第三者サービスに委ねることに伴う、いくつかのプライバシーリスクを回避できます。
+
+自分自身のノードを使うことで、[Tor](https://zcash.github.io/zcash/user/tor.html) 経由でネットワークに接続することも可能になります。
+これには、他のユーザーがあなたのノードの .onion アドレスに非公開で接続できるようになるという追加の利点もあります。
 
 
-### プライバシー
+**サポートが必要ですか？**
 
-フルノードを実行することで、Zcashネットワーク上のすべてのトランザクションおよびブロックを独立して検証できます。
+[サポートドキュメント](https://zcash.readthedocs.io/en/latest/) を読んでください
 
-フルノードを実行することで、第三者サービスを使用してトランザクションの検証を行わせる際に生じる一部のプライバリリスクを回避できます。
-
-自分のノードを使用する場合、[Tor](https://zcash.github.io/zcash/user/tor.html) を介してネットワークに接続することも可能です。これは、他のユーザーがあなたのノードの.onionアドレスを通じてプライベートに接続できるという追加の利点があります。
-
-
-**助けが必要ですか？**
-
-[サポートドキュメント](https://zcash.readthedocs.io/en/latest/) を読んでください。
-
-[Discordサーバー](https://discord.gg/zcash) に参加するか、[Twitter](https://twitter.com/ZecHub) で私たちに連絡してください。
-
----
-
-**Protected terms (keep in English):** `Zaino` `Zallet`
+[Discord Sever](https://discord.gg/zcash) に参加するか、[twitter](https://twitter.com/ZecHub) でご連絡ください

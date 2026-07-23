@@ -22,6 +22,13 @@ Kwa miaka mingi, Zcash imeanzisha mabadiliko makubwa na maboresho kwa itifaki, n
 
 [NU6:](https://zips.z.cash/zip-0253) NU6 implemented a new Zcash development fund (Hybrid Deferred Dev Fund transitioning to a non-direct funding model) and then will set up a lockbox where a proportion of issuance will be reserved for any future decentralized grants funding. The release of these funds will be solely governed by a mechanism determined by the Zcash community in the future. NU6's mission is to reduce block subsidy and to establish a decentralized funding model via a lockbox mechanism for ensuring enhanced transparency while strengthening privacy.
 
----
+[NU6.2:](https://zips.z.cash/zip-0257) NU6.2 mtandao kuboresha reenables Orchard ulinzi itifaki, na mabadiliko mawili makubaliano kuhusiana na awali Orchard sheria:
 
-**Protected terms (keep in English):** `Orchard` `zcashd`
+* Orchard Action circuit's variable-base scalar multiplication gadget is corrected, fixing the soundness vulnerability. This changes the Orchard verifying key. Pre-NU6.2 Action proofs verify only under the historical (insecure) verifying Key, and NU6.2-onward proofs only under that corrected one. Fix ilikuwa kuchapishwa katika halo2_gadgets v0.5.0 10 na orchard v0.14.0. 11
+
+* Kutoka uanzishaji wa NU6.2, Orchard Action ushahidi LAZIMA kuwa na urefu canonical kwa mzunguko kusahihishwa. Kabla ya NU6.2 urefu huu hakuwa kutekelezwa kama kanuni makubaliano. 8
+
+From the activation of NU6.2, the temporary mitigation no longer applies. Transactions containing Orchard Action descriptions MUST again be accepted, with proofs subject to verification under the corrected circuit and the canonical-length rule. NU6.2 was deployed in zcashd v6.20.0 and zebra v5.0.0.
+
+[NU6.3:](https://zips.z.cash/zip-0258) NU6.3 mtandao kuboresha utangulizi Ironwood kulindwa bwawa. mabadiliko makubaliano kwa ajili ya NU6,3 ni maalum katika toleo 6 shughuli muundo 5, Orchard Action mzunguko update 6, ZIP 2005 7, na ZIP hii, ambayo fixes parameter uanzishaji na makubaliana sheria kwamba mlango juu ya NU6 uanzishwaji bila kujali version shughuli.
+

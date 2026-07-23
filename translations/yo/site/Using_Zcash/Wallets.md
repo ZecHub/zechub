@@ -4,7 +4,7 @@
 - Ètò ìṣiṣẹ́: Android  iOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard
-- Àwọn àkànṣe: Àkájọ Adirẹsi. CrossPay. Near Intents. Flexa Payments. MultiSignature. Ìbéèrè Ìsanwó. Shielded Memo. Spend Before Sync. TEX. Address.
+- Àwọn àkànṣe: Àkájọ Adirẹsi. CrossPay. Near Intents. Flexa Payments. MultiSignature. Ìbéèrè Ìsanwó. Shielded Memo. Spend Before Sync. TEX. Address Tor Support. F-droid
 
 ---
 
@@ -262,7 +262,7 @@
 - Àwọn ohun èlò: Ìkànnì  Dísíkò
 - Ètò Ṣiṣẹ́: Àwòrán-ìwòwòwò
 - Àwọn adágún: Aṣọ́.
-- Àwọn Ànímọ̀: Zcash ìmúgbòòrò aṣàwákiri ìdánwò aládàáni, àwọn ìnáwó tí a fi ààbò ṣe, àwọn àdàkọ tí ó wà ní ẹ̀ka-ẹ̀ka, fífín àti gbígba owó, ìjápọ̀ DApp, ZECFi abínibí
+- Awọn ẹya ara ẹrọ: Àfikún aṣàwákiri  Àwọn Àdánwò tí a fi Ààbò bo  Àwọn Ìpàdánù Onírúurú  Fífín àti Gbígba Owó  Àwọn Asopọ̀ DApp  Rhea
 
 ---
 

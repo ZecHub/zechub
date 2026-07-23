@@ -4,9 +4,11 @@
 
 # Node Nkyerɛkyerɛ a Edi Mu
 
-Zcash Full Nodes di nkitahodi a ɛda adi na wɔabɔ ho ban wɔ Network no so no tom. Ɛdenam node a edi mũ a wobɛtu mmirika so no woboa ma network resilience & stability. Bio nso sɛ wode node a edi mũ di dwuma a, ɛma ahobammɔ ne ahobammɔ ho bɔhyɛ a ɛkɔ anim ma nea ɔde di dwuma no. Ase hɔ no yɛ video akwankyerɛ a wɔde besiesie/ayɛ zcashd anaa zebrad Full Nodes.
+Zcash Full Nodes di nkitahodi a ɛda adi na wɔabɔ ho ban wɔ Network no so no atom. Ɛdenam node a edi mũ a wobɛtu mmirika so no woboa ma network resilience & stability. Bio nso sɛ wode node a edi mũ di dwuma a, ɛma ahobammɔ ne ahobammɔ ho bɔhyɛ a ɛkɔ anim ma nea ɔde di dwuma no. Ase hɔ no yɛ video akwankyerɛ a wɔde besiesie/ayɛ zcashd anaa zebrad Full Nodes.
 
-Yɛsrɛ sɛ kenkan yɛn [akwankyerɛfo](/site/Guides/Full_Nodes) sɛ wopɛ nsɛm pii a.
+> **Hyɛ no nsow:** zcashd reyɛ [wɔagyae](https://z.cash/support/zcashd-deprecation/) a ɛboa [Zebra](https://github.com/ZcashFoundation/zebra) (`zebrad`) ma node no ne [Zallet](https://github.com/zcash/zallet) ma sika kotoku no. Wɔde zcashd video ahorow a ɛwɔ aseɛ ha no asie sɛ wɔmfa nhwɛ; sɛ wopɛ nhyehyeɛ foforɔ a, di [Migration Guide: zcashd to Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+
+Yɛsrɛ sɛ kenkan yɛn [Full Nodes akwankyerɛ](https://zechub.wiki/full-nodes) sɛ wopɛ nsɛm pii a.
 
 - Sɛnea Wɔboaboa Zcashd ano wɔ Raspberry Pi 4 so
 
@@ -39,7 +41,3 @@ ____
 
 [![Video no mu mfonini ketewaa bi](https://img.youtube.com/vi/HtorP8TJ5vk/hqdefault.jpg)](https://www.youtube.com/watch?v=HtorP8TJ5vk)
 
-
----
-
-**Protected terms (keep in English):** `Zallet`

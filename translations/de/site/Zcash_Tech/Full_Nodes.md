@@ -4,17 +4,19 @@
 
 # Full Nodes
 
-Ein Full Node ist eine Software, die eine vollständige Kopie der Blockchain einer beliebigen Kryptowährung ausführt und Zugriff auf die Funktionen des Protokolls ermöglicht.
+Ein Full Node ist Software, die eine vollständige Kopie der Blockchain einer beliebigen Kryptowährung ausführt und damit Zugang zu den Funktionen des Protokolls bietet.
 
 Er enthält eine vollständige Aufzeichnung jeder Transaktion, die seit dem Genesis-Block stattgefunden hat, und ist daher in der Lage, die Gültigkeit neuer Transaktionen und Blöcke zu verifizieren, die der Blockchain hinzugefügt werden.
 
 ## Zcashd
 
-Zcashd ist derzeit die wichtigste von Zcash verwendete Full Node-Implementierung und wird von der Electric Coin Company entwickelt und gepflegt.
+> **Hinweis:** zcashd wird eingestellt. Die Electric Coin Company hat [offiziell angekündigt](https://z.cash/support/zcashd-deprecation/), dass zcashd außer Betrieb genommen wird; seine Rolle als Full Node wird durch [Zebra](https://github.com/ZcashFoundation/zebra) (`zebrad`) ersetzt und seine Wallet-Rolle durch [Zallet](https://github.com/zcash/zallet). Für neue Deployments verwende Zebra (siehe unten). Wenn du bereits einen zcashd-Node betreibst, folge dem [Migrationsleitfaden: zcashd zu Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+
+zcashd war die ursprüngliche Full-Node-Implementierung für Zcash, entwickelt und gepflegt von der Electric Coin Company. Die unten stehenden Build-Anweisungen bleiben als Referenz und für Betreiber erhalten, die von zcashd weg migrieren.
 
 Zcashd stellt über seine RPC-Schnittstelle eine Reihe von APIs bereit. Diese APIs bieten Funktionen, die es externen Anwendungen ermöglichen, mit dem Node zu interagieren.
 
-[Lightwalletd](https://github.com/zcash/lightwalletd) ist ein Beispiel für eine Anwendung, die einen Full Node verwendet, um Entwicklern das Erstellen und Pflegen mobilfreundlicher abgeschirmter Light Wallets zu ermöglichen, ohne direkt mit Zcashd interagieren zu müssen.
+[Lightwalletd](https://github.com/zcash/lightwalletd) ist ein Beispiel für eine Anwendung, die einen Full Node verwendet, um es Entwicklern zu ermöglichen, mobile-freundliche shielded Light Wallets zu erstellen und zu pflegen, ohne direkt mit Zcashd interagieren zu müssen.
 
 [Vollständige Liste der unterstützten RPC-Befehle](https://zcash.github.io/rpc/)
 
@@ -49,22 +51,20 @@ Zcashd stellt über seine RPC-Schnittstelle eine Reihe von APIs bereit. Diese AP
 
       ./src/zcashd
 
-- Private Schlüssel werden in ~/.zcash/wallet.dat gespeichert
+- Private Keys werden in ~/.zcash/wallet.dat gespeichert
 
-[Anleitung für Zcashd auf dem Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
+[Anleitung für Zcashd auf Raspberry Pi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
 
 ## Zebra
 
-Zebra ist eine unabhängige Full Node-Implementierung für das Zcash-Protokoll, die von der Zcash Foundation erstellt wurde. 
+Zebra ist eine unabhängige, produktionsreife Full-Node-Implementierung des Zcash-Protokolls, erstellt von der Zcash Foundation und in Rust geschrieben. Da zcashd eingestellt wird, ist Zebra (`zebrad`) der empfohlene Full Node für neue Deployments.
 
-Sie befindet sich derzeit in der Testphase und ist noch experimentell.
+Zebra validiert Blöcke und Transaktionen, nimmt am Peer-to-Peer-Netzwerk teil und stellt eine RPC-Schnittstelle für Anwendungen bereit. Die Wallet ist jetzt eine separate Komponente: [Zallet](https://github.com/zcash/zallet) läuft gegen einen Zebra-Node und verwaltet Keys und Guthaben. Dies ersetzt zcashd, das Node und Wallet in einem einzigen Prozess gebündelt hat.
 
-Es gibt zwei Hauptkomponenten von Zebra. Die Client-Komponente, die für das Scannen der Blockchain und die Probe-Entschlüsselung von Transaktionen verantwortlich ist. 
+Um shielded Light Wallets zu bedienen, läuft der Node zusammen mit einem Indexer, entweder dem etablierten [lightwalletd](https://github.com/zcash/lightwalletd) oder dem neueren [Zaino](https://zechub.wiki/zaino).
 
-Der zweite Teil ist das Zebra-Kommandozeilenwerkzeug. Dieses Werkzeug verwaltet Spending Keys, Adressen und kommuniziert mit der Client-Komponente in zebrad, um grundlegende Wallet-Funktionalität bereitzustellen.
-
-Alle, die daran interessiert sind, Zebra auszuprobieren, um Blöcke zu minen, sind eingeladen, dem R&D-Discord-Server beizutreten. Lies außerdem unbedingt das Zebra-Buch für Einrichtungsanweisungen. 
+Lies unbedingt das Zebra-Buch für Einrichtungsanweisungen und tritt dem R&D-Discord-Server für Support bei. 
 
 [Github](https://github.com/ZcashFoundation/zebra/)
 
@@ -76,15 +76,15 @@ Alle, die daran interessiert sind, Zebra auszuprobieren, um Blöcke zu minen, si
 
 ## Das Netzwerk
 
-Durch das Ausführen eines Full Nodes trägst du dazu bei, das Zcash-Netzwerk zu stärken, indem du seine Dezentralisierung unterstützt. 
+Indem du einen Full Node betreibst, hilfst du dabei, das zcash-Netzwerk zu stärken, indem du seine Dezentralisierung unterstützt. 
 
-Dies hilft dabei, feindliche Kontrolle zu verhindern und das Netzwerk gegenüber einigen Formen von Störungen widerstandsfähig zu halten.
+Dies hilft dabei, gegnerische Kontrolle zu verhindern und das Netzwerk widerstandsfähig gegenüber einigen Formen von Störungen zu halten.
 
-DNS-Seeder stellen über einen eingebauten Server eine Liste anderer zuverlässiger Nodes bereit. Dadurch können sich Transaktionen im gesamten Netzwerk verbreiten. 
+DNS-Seeders stellen über einen eingebauten Server eine Liste anderer zuverlässiger Nodes bereit. Dadurch können sich Transaktionen im gesamten Netzwerk verbreiten. 
 
 ### Netzwerkstatistiken
 
-Dies sind Beispiele für Plattformen, die Zugriff auf Zcash-Netzwerkdaten ermöglichen:
+Dies sind Beispielplattformen, die Zugang zu Zcash-Netzwerkdaten bieten:
 
 [Zcash Block Explorer](https://zcashblockexplorer.com)
 
@@ -98,20 +98,20 @@ Du kannst auch zur Entwicklung des Netzwerks beitragen, indem du Tests ausführs
 
 ### Mining
 
-Miner benötigen Full Nodes, um auf alle miningbezogenen RPCs wie getblocktemplate und getmininginfo zugreifen zu können. 
+Miner benötigen Full Nodes, um auf alle miningbezogenen RPCs wie getblocktemplate und getmininginfo zuzugreifen. 
 
-Zcashd ermöglicht außerdem Mining auf abgeschirmte Coinbase-Auszahlungen. Miner und Mining-Pools haben die Möglichkeit, standardmäßig direkt zu minen, um abgeschirmte ZEC in einer z-Adresse zu sammeln. 
+Zcashd ermöglicht außerdem Mining auf shielded Coinbase. Miner und Mining-Pools haben die Möglichkeit, direkt zu minen, um standardmäßig shielded ZEC in einer z-address anzusammeln. 
 
-Lies den [Mining-Leitfaden](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) oder tritt der Community-Forum-Seite für [Zcash-Miner](https://forum.zcashcommunity.com/c/mining/13) bei.
+Lies den [Mining-Leitfaden](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) oder besuche die Community-Forum-Seite für [Zcash-Miner](https://forum.zcashcommunity.com/c/mining/13).
 
 ### Privatsphäre 
 
-Das Ausführen eines Full Nodes ermöglicht es dir, alle Transaktionen und Blöcke im Zcash-Netzwerk unabhängig zu verifizieren.
+Das Betreiben eines Full Node ermöglicht es dir, alle Transaktionen und Blöcke im Zcash-Netzwerk unabhängig zu verifizieren.
 
-Das Ausführen eines Full Nodes vermeidet einige Datenschutzrisiken, die mit der Nutzung von Diensten Dritter verbunden sind, die Transaktionen in deinem Namen verifizieren.
+Das Betreiben eines Full Node vermeidet einige Datenschutzrisiken, die mit der Nutzung von Drittanbieterdiensten verbunden sind, die Transaktionen in deinem Namen verifizieren.
 
-Die Verwendung eines eigenen Nodes erlaubt außerdem die Verbindung zum Netzwerk über [Tor](https://zcash.github.io/zcash/user/tor.html).
-Dies hat den zusätzlichen Vorteil, dass andere Nutzer sich privat mit der .onion-Adresse deines Nodes verbinden können.
+Die Nutzung deines eigenen Node erlaubt außerdem die Verbindung zum Netzwerk über [Tor](https://zcash.github.io/zcash/user/tor.html).
+Das hat den zusätzlichen Vorteil, dass andere Nutzer sich privat mit der .onion-Adresse deines Node verbinden können.
 
 
 **Brauchst du Hilfe?**
@@ -119,7 +119,3 @@ Dies hat den zusätzlichen Vorteil, dass andere Nutzer sich privat mit der .onio
 Lies die [Support-Dokumentation](https://zcash.readthedocs.io/en/latest/)
 
 Tritt unserem [Discord-Server](https://discord.gg/zcash) bei oder kontaktiere uns auf [twitter](https://twitter.com/ZecHub)
-
----
-
-**Protected terms (keep in English):** `Zaino` `Zallet`

@@ -1,10 +1,11 @@
+---
 ## [ZODL](https://zodl.com)
 ![logo](https://github.com/user-attachments/assets/198608b2-9059-4cb7-aeb8-9354971376fd "ZODL")
 - Dispositivi: Mobile
 - Sistema operativo: Android | iOS
-- Supporto wallet: Frase seed | Viewing Key | Unified Address | Hardware
-- Pool: Trasparente | Sapling | Orchard
-- Funzionalità: Rubrica | CrossPay | Near Intents | Pagamenti Flexa | MultiSignature | Richiesta di pagamento | Memo schermato | Spendi prima della sincronizzazione | Indirizzo TEX | Supporto Tor | F-droid
+- Supporto wallet: Seed Phrase | Viewing Key | Unified Address | Hardware
+- Pool: Transparent | Sapling | Orchard
+- Funzionalità: Rubrica | CrossPay | Near Intents | Pagamenti Flexa | MultiSignature | Richiesta di pagamento | Shielded Memo | Spendi prima della sincronizzazione | Indirizzo TEX | Supporto Tor | F-droid
 
 ---
 
@@ -12,9 +13,9 @@
 ![logo](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
 - Dispositivi: Mobile | Desktop
 - Sistema operativo: Android | iOS | Windows | Linux | macOS
-- Supporto wallet: Frase seed | Viewing Key | Unified Address | Hardware
-- Pool: Trasparente | Sapling | Orchard
-- Funzionalità: Rubrica | Archiviazione a freddo | Indirizzo diversificato | Richiesta di pagamento | Trasferimento tra pool | Memo schermato | Indirizzo TEX | Votazione | WarpSync
+- Supporto wallet: Seed Phrase | Viewing Key | Unified Address | Hardware
+- Pool: Transparent | Sapling | Orchard
+- Funzionalità: Rubrica | Cold Storage | Indirizzo diversificato | Richiesta di pagamento | Trasferimento tra pool | Shielded Memo | Indirizzo TEX | Votazione | WarpSync
 
 ---
 
@@ -22,7 +23,7 @@
 ![logo](https://i.ibb.co/FH918w9/Dizzy-3.png "Dizzy")
 - Dispositivi: Mobile | Desktop
 - Sistema operativo: Android | iOS | Windows | Linux | macOS
-- Supporto wallet: Frase seed | Viewing Key | Unified Address
+- Supporto wallet: Seed Phrase | Viewing Key | Unified Address
 - Pool: Sapling | Orchard
 - Funzionalità: Bot Discord
 
@@ -32,9 +33,9 @@
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
 - Dispositivi: Mobile | Desktop
 - Sistema operativo: Android | iOS | Windows | Linux
-- Supporto wallet: Frase seed | Viewing Key | Unified Address
-- Pool: Trasparente | Sapling | Orchard
-- Funzionalità: Rubrica | Analisi finanziarie | Richiesta di pagamento | PepperSync | Memo schermato | Supporto Testnet
+- Supporto wallet: Seed Phrase | Viewing Key | Unified Address
+- Pool: Transparent | Sapling | Orchard
+- Funzionalità: Rubrica | Analisi finanziarie | Richiesta di pagamento | PepperSync | Shielded Memo | Supporto Testnet
 
 ---
 
@@ -42,9 +43,9 @@
 ![logo](https://i.ibb.co/4FVQLS9/image-2024-11-28-091312254.png "Edge")
 - Dispositivi: Mobile
 - Sistema operativo: Android | iOS
-- Supporto wallet: Frase seed | Unified Address
-- Pool: Trasparente | Sapling
-- Funzionalità: Schermatura automatica | Swap DEX | Multivaluta | Memo schermato | Spendi prima della sincronizzazione
+- Supporto wallet: Seed Phrase | Unified Address
+- Pool: Transparent | Sapling
+- Funzionalità: Shielding automatico | DEX Swaps | Multi Coin | Shielded Memo | Spendi prima della sincronizzazione
 
 ---
 
@@ -52,9 +53,9 @@
 ![logo](https://i.ibb.co/C68mFCx/image-2024-11-28-091200540.png "Unstoppable")
 - Dispositivi: Mobile
 - Sistema operativo: Android | iOS
-- Supporto wallet: Frase seed | Unified Address
-- Pool: Trasparente | Sapling | Orchard
-- Funzionalità: Swap DEX | Multivaluta | Spendi prima della sincronizzazione
+- Supporto wallet: Seed Phrase | Unified Address
+- Pool: Transparent | Sapling | Orchard
+- Funzionalità: DEX Swaps | Multi Coin | Spendi prima della sincronizzazione
 
 ---
 
@@ -62,9 +63,9 @@
 ![logo](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
 - Dispositivi: Mobile | Desktop
 - Sistema operativo: Android | iOS | Windows
-- Supporto wallet: Frase seed | Viewing Key | Unified Address
-- Pool: Trasparente | Sapling | Orchard
-- Funzionalità: Rubrica | Verifica indirizzo | Schermatura automatica | Indirizzo diversificato | Richiesta di pagamento | Memo schermato | Indirizzo TEX | Supporto Testnet
+- Supporto wallet: Seed Phrase | Viewing Key | Unified Address
+- Pool: Transparent | Sapling | Orchard
+- Funzionalità: Rubrica | Verifica indirizzo | Shielding automatico | Indirizzo diversificato | Richiesta di pagamento | Shielded Memo | Indirizzo TEX | Supporto Testnet
 
 ---
 
@@ -72,9 +73,9 @@
 ![logo](https://i.ibb.co/BHGPff0K/zkool-1.png "Zkool")
 - Dispositivi: Mobile | Desktop
 - Sistema operativo: Android | iOS | Windows | Linux
-- Supporto wallet: Frase seed | Viewing Key | Unified Address | Hardware
-- Pool: Trasparente | Sapling | Orchard
-- Funzionalità: Rotazione indirizzi | Ampio supporto per le chiavi | Esportazioni crittografate | FROST Multisig | Sincronizzazione multi-account | Memo schermato | Supporto Testnet
+- Supporto wallet: Seed Phrase | Viewing Key | Unified Address | Hardware
+- Pool: Transparent | Sapling | Orchard
+- Funzionalità: Rotazione degli indirizzi | Ampio supporto per le chiavi | Esportazioni crittografate | FROST Multisig | Sincronizzazione multi-account | Shielded Memo | Supporto Testnet
 
 ---
 
@@ -82,9 +83,9 @@
 ![logo](https://github.com/user-attachments/assets/a8234c70-3714-4e80-b918-8739d45aea00 "Cake")
 - Dispositivi: Mobile | Desktop 
 - Sistema operativo: Android | iOS | Windows | Linux | macOS
-- Supporto wallet: Frase seed | Viewing Key | Unified Address
-- Pool: Trasparente | Sapling | Orchard
-- Funzionalità: Rubrica | Rotazione indirizzi | Schermatura automatica | Swap DEX | Multivaluta | Memo schermato | Supporto Tor
+- Supporto wallet: Seed Phrase | Viewing Key | Unified Address
+- Pool: Transparent | Sapling | Orchard
+- Funzionalità: Rubrica | Rotazione degli indirizzi | Shielding automatico | DEX Swaps | Multi Coin | Shielded Memo | Supporto Tor
 
 ---
 
@@ -92,9 +93,9 @@
 ![logo](https://i.ibb.co/VtPBnm6/zenith-2.png "Zenith")
 - Dispositivi: Desktop
 - Sistema operativo: Windows | Linux | macOS
-- Supporto wallet: Frase seed | Viewing Key | Unified Address | Nodo completo
-- Pool: Trasparente | Sapling | Orchard
-- Funzionalità: Rubrica | Interfaccia grafica | Memo schermato | Supporto Testnet
+- Supporto wallet: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Pool: Transparent | Sapling | Orchard
+- Funzionalità: Rubrica | Interfaccia grafica | Shielded Memo | Supporto Testnet
 
 ---
 
@@ -102,9 +103,9 @@
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo-CLI")
 - Dispositivi: Desktop
 - Sistema operativo: Windows | Linux | macOS
-- Supporto wallet: Frase seed | Viewing Key | Unified Address | Nodo completo
-- Pool: Trasparente | Sapling | Orchard
-- Funzionalità: Interfaccia a riga di comando | PepperSync | Memo schermato | Supporto Testnet 
+- Supporto wallet: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Pool: Transparent | Sapling | Orchard
+- Funzionalità: Interfaccia a riga di comando | PepperSync | Shielded Memo | Supporto Testnet 
 
 ---
 
@@ -112,9 +113,9 @@
 ![logo](https://i.ibb.co/3mCrR0dN/Brandmark-Yellow.png "Zallet")
 - Dispositivi: Desktop
 - Sistema operativo: Windows | Linux | macOS
-- Supporto wallet: Frase seed | Viewing Key | Unified Address | Nodo completo
-- Pool: Trasparente | Sapling | Orchard
-- Funzionalità: Release alpha | Interfaccia JSON-RPC | Memo schermato | Supporto Testnet
+- Supporto wallet: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Pool: Transparent | Sapling | Orchard
+- Funzionalità: Versione alpha | Interfaccia JSON-RPC | Shielded Memo | Supporto Testnet
 
 ---
 
@@ -122,18 +123,19 @@
 ![logo](https://i.ibb.co/Xz2NskW/zcashd.png "Zcashd")
 - Dispositivi: Desktop
 - Sistema operativo: Windows | Linux | macOS
-- Supporto wallet: Frase seed | Viewing Key | Unified Address | Nodo completo
-- Pool: Trasparente | Sapling | Orchard
-- Funzionalità: Interfaccia a riga di comando | Indirizzo diversificato | Memo schermato | Supporto Testnet
+- Supporto wallet: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Pool: Transparent | Sapling | Orchard
+- Funzionalità: Interfaccia a riga di comando | Indirizzo diversificato | Shielded Memo | Supporto Testnet
 
 ---
+
 ## [Brave](https://brave.com/web3-privacy/)
 ![logo](https://i.ibb.co/6yqMNwZ/image-2024-01-13-170934865.png "Brave")
 - Dispositivi: Web
 - Sistema operativo: Browser
 - Supporto wallet: Seed Phrase | Unified Address
 - Pool: Transparent | Orchard
-- Funzionalità: Memo schermato | Spesa prima della sincronizzazione | Supporto Testnet
+- Funzionalità: Shielded Memo | Spendi prima della sincronizzazione | Supporto Testnet
 
 ---
 
@@ -143,7 +145,7 @@
 - Sistema operativo: Browser
 - Supporto wallet: Seed Phrase | Unified Address
 - Pool: Transparent | Sapling | Orchard
-- Funzionalità: Multicoin
+- Funzionalità: Multi Coin
 
 ---
 
@@ -153,7 +155,7 @@
 - Sistema operativo: Browser
 - Supporto wallet: Seed Phrase | Unified Address
 - Pool: Transparent | Sapling | Orchard
-- Funzionalità: Swap DEX
+- Funzionalità: DEX Swaps
 
 ---
 
@@ -163,7 +165,7 @@
 - Sistema operativo: Android | iOS | Browser
 - Supporto wallet: Seed Phrase
 - Pool: Transparent
-- Funzionalità: Multicoin
+- Funzionalità: Multi Coin
 
 ---
 
@@ -173,7 +175,7 @@
 - Sistema operativo: Android | iOS | Browser
 - Supporto wallet: Seed Phrase
 - Pool: Transparent
-- Funzionalità: Multicoin
+- Funzionalità: Multi Coin
 
 ---
 
@@ -183,7 +185,7 @@
 - Sistema operativo: Android | iOS | Windows | Linux | macOS | Browser
 - Supporto wallet: Seed Phrase
 - Pool: Transparent
-- Funzionalità: Multicoin
+- Funzionalità: Multi Coin
 
 ---
 
@@ -193,7 +195,7 @@
 - Sistema operativo: Android | iOS | Windows
 - Supporto wallet: Seed Phrase
 - Pool: Transparent
-- Funzionalità: Multicoin
+- Funzionalità: Multi Coin
 
 ---
 
@@ -203,7 +205,7 @@
 - Sistema operativo:
 - Supporto wallet: Hardware | Unified Address
 - Pool: Transparent | Sapling | Orchard
-- Funzionalità: Multicoin
+- Funzionalità: Multi Coin
 
 ---
 
@@ -213,7 +215,7 @@
 - Sistema operativo:
 - Supporto wallet: Hardware
 - Pool: Transparent 
-- Funzionalità: Multicoin
+- Funzionalità: Multi Coin
 
 ---
 
@@ -223,7 +225,7 @@
 - Sistema operativo: Android | iOS | Browser
 - Supporto wallet: Seed Phrase | Hardware
 - Pool: Transparent
-- Funzionalità: Multicoin
+- Funzionalità: Multi Coin
 
 ---
 
@@ -233,7 +235,7 @@
 - Sistema operativo:
 - Supporto wallet: Hardware
 - Pool: Transparent
-- Funzionalità: Multicoin
+- Funzionalità: Multi Coin
 
 ---
 
@@ -242,7 +244,7 @@
 - Dispositivi: Web | Mobile | Desktop
 - Sistema operativo: Android | iOS | Windows | Linux | macOS | Browser
 - Pool: Transparent
-- Funzionalità: Multicoin | App Web
+- Funzionalità: Multi Coin | App Web
 
 ---
 
@@ -252,7 +254,7 @@
 - Sistema operativo: macOS
 - Supporto wallet: Seed Phrase | Unified Address | Hardware
 - Pool: Transparent | Sapling | Orchard
-- Funzionalità: Schermatura automatica | Memo schermato | Supporto Testnet | Multisig FROST
+- Funzionalità: Shielding automatico | Shielded Memo | Supporto Testnet | FROST Multisig
 
 ---
 
@@ -261,7 +263,7 @@
 - Dispositivi: Web | Desktop
 - Sistema operativo: Browser
 - Pool: Shielded | Transparent
-- Funzionalità: Zcash | Estensione del browser | Beta privata | Transazioni schermate | Swap cross-chain | Prestito e indebitamento | Connessioni DApp | ZECFi nativo
+- Funzionalità: Estensione del browser | Transazioni shielded | Swap cross-chain | Prestito e indebitamento | Connessioni DApp | Rhea
 
 ---
 
@@ -271,7 +273,7 @@
 - Sistema operativo: Browser | Windows | macOS
 - Supporto wallet: Seed Phrase | Wallet esterno | Indirizzo di ricezione | Codice QR | Hardware
 - Pool: Sapling | Transparent
-- Funzionalità: Multicoin | Intenti Near | Maya DEX | Nessun KYC | Non-custodial | App Web | App desktop | ZEC schermato | AnyPay
+- Funzionalità: Multi Coin | Near Intents | Maya DEX | Nessun KYC | Non-custodial | App Web | App Desktop | ZEC shielded | AnyPay
 
 ---
 
@@ -281,4 +283,4 @@
 - Sistema operativo: Android 
 - Supporto wallet: Unified Address 
 - Pool: Transparent | Sapling | Orchard
-- Funzionalità: Messenger con crittografia end-to-end | Intents NEAR | P2P.me Offramp | Beta
+- Funzionalità: Messenger crittografato end-to-end | NEAR Intents | P2P.me Offramp | Beta

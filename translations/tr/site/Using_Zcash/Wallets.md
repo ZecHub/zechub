@@ -4,7 +4,7 @@
 - İşletim Sistemi: Android | iOS
 - Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Donanım
 - Havuzlar: Transparent | Sapling | Orchard
-- Özellikler: Adres Defteri | CrossPay | Near Intents | Flexa Ödemeleri | Çoklu İmza | Ödeme Talebi | Shielded Memo | Senkronizasyondan önce harcama | TEX Address | Tor Desteği | F-droid
+- Özellikler: Adres Defteri | CrossPay | Near Intents | Flexa Payments | MultiSignature | Ödeme Talebi | Shielded Memo | Senkronizasyondan önce harcama | TEX Address | Tor Desteği | F-droid
 
 ---
 
@@ -94,7 +94,7 @@
 - İşletim Sistemi: Windows | Linux | macOS
 - Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Full Node
 - Havuzlar: Transparent | Sapling | Orchard
-- Özellikler: Adres Defteri | Grafik Arayüz | Shielded Memo | Testnet Desteği
+- Özellikler: Adres Defteri | Grafiksel Arayüz | Shielded Memo | Testnet Desteği
 
 ---
 
@@ -114,7 +114,7 @@
 - İşletim Sistemi: Windows | Linux | macOS
 - Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Full Node
 - Havuzlar: Transparent | Sapling | Orchard
-- Özellikler: Alfa Sürümü | JSON-RPC Arayüzü | Shielded Memo | Testnet Desteği
+- Özellikler: Alpha Sürümü | JSON-RPC Arayüzü | Shielded Memo | Testnet Desteği
 
 ---
 
@@ -262,7 +262,7 @@
 - Cihazlar: Web | Masaüstü
 - İşletim Sistemi: Tarayıcı
 - Havuzlar: Shielded | Transparent
-- Özellikler: Zcash | Tarayıcı Eklentisi | Özel Beta | Shielded İşlemler | Zincirler arası takaslar | Borç Verme ve Borç Alma | DApp Bağlantıları | Yerel ZECFi
+- Özellikler: Tarayıcı Uzantısı | Shielded İşlemler | Zincirler arası Takaslar | Borç Verme ve Borç Alma | DApp Bağlantıları | Rhea
 
 ---
 
@@ -270,9 +270,9 @@
 ![logo](https://i.ibb.co/3YjpzYnH/Leo-Dexwallet.png "LeoDex")
 - Cihazlar: Web | Masaüstü
 - İşletim Sistemi: Tarayıcı | Windows | macOS
-- Cüzdan Desteği: Seed Phrase | Harici Cüzdan | Alma Adresi | QR Kodu | Donanım
+- Cüzdan Desteği: Seed Phrase | Harici Cüzdan | Alım Adresi | QR Kodu | Donanım
 - Havuzlar: Sapling | Transparent
-- Özellikler: Çoklu Coin | Near Intents | Maya DEX | KYC Yok | Saklamasız | Web Uygulaması | Masaüstü Uygulaması | Shielded ZEC | AnyPay
+- Özellikler: Çoklu Coin | Near Intents | Maya DEX | KYC Yok | Saklama dışı | Web Uygulaması | Masaüstü Uygulaması | Shielded ZEC | AnyPay
 
 ---
 
@@ -282,4 +282,4 @@
 - İşletim Sistemi: Android 
 - Cüzdan Desteği: Unified Address 
 - Havuzlar: Transparent | Sapling | Orchard
-- Özellikler: Uçtan uca şifreli Mesajlaşma | NEAR Intents | P2P.me Offramp | Beta
+- Özellikler: Uçtan uca şifreli Messenger | NEAR Intents | P2P.me Offramp | Beta
