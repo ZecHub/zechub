@@ -54,9 +54,13 @@ const HASH_PREFIX = "sha256:";
 // document has no frontmatter. Only a fence on the very first line counts.
 function splitFrontmatter(text) {
   const lines = text.split("\n");
-  if (lines[0] !== "---") return { frontmatter: null, body: text };
+  // Tolerate trailing whitespace on the fence lines (`--- ` from an editor must
+  // still be recognized, else the volatile-key stripping silently turns off and
+  // a `date:` bump flips every hash).
+  const isFence = (l) => /^---\s*$/.test(l);
+  if (!isFence(lines[0])) return { frontmatter: null, body: text };
   for (let i = 1; i < lines.length; i++) {
-    if (lines[i] === "---") {
+    if (isFence(lines[i])) {
       return {
         frontmatter: lines.slice(1, i),
         body: lines.slice(i + 1).join("\n"),
@@ -81,8 +85,13 @@ function stripVolatileFrontmatter(fmLines) {
 
 // Produce the canonical normalized text a hash is taken over. Pure string->string.
 export function normalizeMarkdown(text) {
+  // 0. strip a leading UTF-8 BOM (Windows editors add it; it would otherwise
+  //    break first-line frontmatter detection AND flip the hash), and normalize
+  //    to Unicode NFC so canonically-equivalent NFC/NFD saves hash identically.
+  let normalized = text.replace(/^\uFEFF/, "").normalize("NFC");
+
   // 1. line endings -> LF
-  let normalized = text.replace(/\r\n?/g, "\n");
+  normalized = normalized.replace(/\r\n?/g, "\n");
 
   // 2. volatile frontmatter
   const { frontmatter, body } = splitFrontmatter(normalized);
@@ -92,10 +101,17 @@ export function normalizeMarkdown(text) {
     out = ["---", ...kept, "---", body].join("\n");
   }
 
-  // 3. trailing whitespace per line
+  // 3. trailing whitespace per line — but PRESERVE a Markdown hard line break
+  //    (a run of >=2 trailing spaces). Collapsing "line  \n" to "line\n" would
+  //    hide a real rendering change (added/removed hard break) → missed
+  //    staleness. Incidental trailing whitespace (a single space, or tabs) is
+  //    still stripped as churn; a hard break is canonicalized to exactly two
+  //    spaces so " x   " and " x  " don't spuriously differ.
   out = out
     .split("\n")
-    .map((line) => line.replace(/[ \t]+$/, ""))
+    .map((line) =>
+      line.replace(/[ \t]+$/, (run) => (/^ {2,}$/.test(run) ? "  " : "")),
+    )
     .join("\n");
 
   // 4. exactly one final newline (drops trailing blank lines; guarantees a

@@ -27,10 +27,36 @@ test("trailing-newline count does not change the hash", () => {
   assert.equal(hashPage("body"), hashPage("body\n"));
 });
 
-test("per-line trailing whitespace is ignored", () => {
+test("incidental trailing whitespace (single space / tabs) is ignored", () => {
   const clean = "# Title\n\nA line.\nAnother line.\n";
-  const trailing = "# Title  \n\nA line.\t\nAnother line.   \n";
+  const trailing = "# Title \n\nA line.\t\nAnother line. \n"; // 1 space / tab only
   assert.equal(hashPage(clean), hashPage(trailing));
+});
+
+test("a Markdown hard line break (2+ trailing spaces) IS significant", () => {
+  const noBreak = "A line.\nnext line.\n";
+  const hardBreak = "A line.  \nnext line.\n"; // two trailing spaces = <br>
+  assert.notEqual(hashPage(noBreak), hashPage(hardBreak));
+  // …and a hard break is canonicalized (2 vs 3 trailing spaces are the same).
+  assert.equal(hashPage(hardBreak), hashPage("A line.   \nnext line.\n"));
+});
+
+test("a leading UTF-8 BOM does not change the hash", () => {
+  const BOM = "\uFEFF";
+  const plain = "---\ntitle: Guide\ndate: 2026-01-01\n---\n\nProse.\n";
+  assert.equal(hashPage(plain), hashPage(BOM + plain));
+  // …and the BOM must not disable frontmatter stripping (date bump stays inert).
+  assert.equal(
+    hashPage(BOM + plain),
+    hashPage(BOM + "---\ntitle: Guide\ndate: 2026-09-09\n---\n\nProse.\n"),
+  );
+});
+
+test("canonically-equivalent Unicode (NFC/NFD) hashes identically", () => {
+  const base = "# Cafe\u0301 re\u0301sume\u0301\n\nProse.\n"; // decomposed accents
+  assert.equal(hashPage(base.normalize("NFC")), hashPage(base.normalize("NFD")));
+  // sanity: the two forms really are byte-different before normalization
+  assert.notEqual(base.normalize("NFC"), base.normalize("NFD"));
 });
 
 test("a frontmatter date bump does not change the hash", () => {
