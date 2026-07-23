@@ -4,7 +4,7 @@
 
 # Ironwood
 
-> Status: Scheduled. Ironwood activates on Zcash mainnet at block 3,428,143 (July 28, 2026).
+> Status: Scheduled. Ironwood activates on Zcash mainnet at block 3,428,143 (July 28, 2026 UTC).
 
 What you'll take away: what Ironwood changes, why a bug in hidden money is serious, and how the turnstile lets anyone confirm that no ZEC was forged.
 
@@ -18,7 +18,7 @@ New to Zcash? Start with [What is ZEC and Zcash](../Start_Here/What_is_ZEC_and_Z
 
 ## Why Ironwood was needed
 
-In late May 2026, [Shielded Labs](../Zcash_Organizations/Shielded_Labs.md) researcher Taylor Hornby responsibly disclosed a soundness bug in the Orchard shielded pool. Orchard was Zcash's newest shielded pool at the time, and the flaw sat in an elliptic-curve part of its zero-knowledge circuit, which uses the [Halo](Halo.md) 2 proving system.
+In late May 2026, independent security researcher Taylor Hornby, during a protocol audit for [Shielded Labs](../Zcash_Organizations/Shielded_Labs.md), responsibly disclosed a soundness bug in the Orchard shielded pool. Orchard was Zcash's newest shielded pool at the time, and the flaw sat in an elliptic-curve part of its zero-knowledge circuit, which uses the [Halo](Halo.md) 2 proving system.
 
 1. A soundness bug means the math that proves a transaction is valid does not fully guarantee it.
 2. In theory, an attacker could have used the flaw to mint counterfeit ZEC that left no trace a normal node would catch.
@@ -108,7 +108,7 @@ Through the turnstile. Every coin leaving the old Orchard pool is counted at a p
 
 [ZIP 257: Network Upgrade 6.2](https://zips.z.cash/zip-0257)
 
-[ZIP 2005: Orchard Quantum Recoverability](https://zips.z.cash/zip-2005)
+[ZIP 2005: Ironwood Quantum Recoverability](https://zips.z.cash/zip-2005)
 
 [Ironwood: A New Shielded Pool for Zcash](https://zodl.com/ironwood-a-new-shielded-pool-for-zcash/)
 
