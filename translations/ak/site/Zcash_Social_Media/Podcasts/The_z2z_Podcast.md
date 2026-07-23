@@ -39,6 +39,6 @@ Kɔ so nya nsɛm a ɛbɛba daakye ho nsɛm foforo:
 
 + Episode 9 - ZFAV Kuw no ne Ryan Taylor (a wɔfrɛ no AdjyLeak) [Youtube](https://www.youtube.com/watch?v=BYnhTNkQ-3M) | [Odysee, na ɔkyerɛwee](https://odysee.com/@ZecHub:4/podcast-ryan-taylor:c) | [Spotify ho asɛm](https://open.spotify.com/episode/1TJ6Nycq9nyW2b62ytI3O2)
 
-+ Episode 10 - Kokoamsɛm ma ɔmanfo yiyedi ne Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee, na ɔkyerɛwee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6) | [Spotify ho asɛm]()
++ Episode 10 - Kokoamsɛm ma ɔmanfo yiyedi ne Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee, na ɔkyerɛwee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
 Sɛ wowɔ nyansahyɛ bi fa onii a wopɛ sɛ wuhu no akyi wɔ podcast no so a, ntwentwɛn wo nan ase sɛ wobɛka yɛn nkyɛn!  DM's de kɔma @zechub wɔ Twitter so

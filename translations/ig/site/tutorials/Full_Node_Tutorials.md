@@ -6,7 +6,9 @@
 
 Zcash Full Nodes validate transparent and shielded transactions on the Network. By running a full node you contribute to network resilience & stability. Additionally operating a full node provides enhanced safety and security guarantees to the user. Below are video guides for setting up/upgrading zcashd or zebrad Full Nodes.
 
-Biko gụọ akwụkwọ ntuziaka anyị.](/site/Guides/Full_Nodes) maka ozi ndị ọzọ.
+> **Cheta:** zcashd na-abụ [deprecated](https://z.cash/support/zcashd-deprecation/) na-akwado [Zebra](https://github.com/ZcashFoundation/zebra) (`zebrad`) maka node na [Zallet](https://github.com/zcash/zallet) maka obere akpa. A na-edebe vidiyo zcashd dị n'okpuru ebe a maka ntụaka; maka ntọala ọhụrụ na-agbaso [Migration Guide: zcasd to Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+
+Biko gụọ akwụkwọ ntuziaka anyị zuru ezu](https://zechub.wiki/full-nodes) maka ozi ndị ọzọ.
 
 - Otu esi agbakọta Zcashd na Raspberry Pi 4
 
@@ -39,7 +41,3 @@ ____
 
 [!Videos Thumbnail](https://img.youtube.com/vi/HtorP8TJ5vk/hqdefault.jpg)](https://www.youtube.com/watch?v=HtorP8TJ5vk)
 
-
----
-
-**Protected terms (keep in English):** `Zallet`

@@ -5,15 +5,15 @@
 
 # Geliştirici Kaynakları 
 
-**Zcash'e yeni başlayan geliştiriciler için önerilen kaynakların bir listesi**
+**Zcash’e yeni başlayan geliştiriciler için önerilen kaynakların bir listesi**
 
-Blockchain'lerin ve Zcash'in nasıl çalıştığına dair geniş bir genel bakış:
+Blockchain’lerin ve Zcash’in nasıl çalıştığına dair geniş bir genel bakış:
 
 [Zcash Belgeleri](https://zcash.readthedocs.io/en/latest/)
 
-[Mastering Bitcoin: Açık Blockchain'i Programlamak](https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4)
+[Mastering Bitcoin: Açık Blockchain’i Programlamak](https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4)
 
-[Zcashd RPC'leri](https://zcash.github.io/rpc/)
+[Zcashd RPC’leri](https://zcash.github.io/rpc/)
 
 [Zcashd Kitabı](https://zcash.github.io/zcash/)
 
@@ -23,13 +23,13 @@ Blockchain'lerin ve Zcash'in nasıl çalıştığına dair geniş bir genel bak�
 
 [Android Mobil SDK](https://github.com/zcash/zcash-android-wallet-sdk) / [iOS Mobil SDK](https://github.com/zcash/ZcashLightClientKit)
 
-Bağımlılıkların ekipler tarafından nasıl incelendiğini ve sürdürüldüğünü anlamayı geliştirmek için:
+Bağımlılıkların ekipler tarafından nasıl incelendiği ve sürdürüldüğünü anlamaya yardımcı kaynaklar:
 
 [ZIP Listesi](https://zips.z.cash)
 
 [Adres Kodlaması](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys)
 
-[Zebrad Ana Pull Request'leri]() / [Zebrad Ana Pull Request'leri](https://github.com/ZcashFoundation/zebra/pulls)
+[Zebrad Deposu](https://github.com/ZcashFoundation/zebra) / [Zebrad Pull Request’leri](https://github.com/ZcashFoundation/zebra/pulls)
 
 [Kriptografik İmza kütüphaneleri](https://github.com/orgs/ZcashFoundation/repositories?type=all)
 
@@ -37,11 +37,11 @@ Bağımlılıkların ekipler tarafından nasıl incelendiğini ve sürdürüldü
 
 [orchard Kitabı](https://zcash.github.io/orchard/)
 
-[Halo Crate]() / [Orchard Crate](https://docs.rs/orchard/latest/orchard/)
+[Halo2 Crate’i](https://docs.rs/halo2_proofs/latest/halo2_proofs/) / [Orchard Crate’i](https://docs.rs/orchard/latest/orchard/)
 
-[Zcash Ar-Ge Discord'u](https://discord.gg/6AK7keWFaK)
+[Zcash Ar-Ge Discord’u](https://discord.gg/6AK7keWFaK)
 
-[Zcash ile ilgili diğer Teknolojiler]() / [Frost Kitabı](https://frost.zfnd.org/)
+[Frost Kitabı](https://frost.zfnd.org/)
 
 [Zechub Hackathon 2024 Sonuçları](https://x.com/ZecHub/status/1845212469809033489)
 
@@ -49,7 +49,7 @@ Bağımlılıkların ekipler tarafından nasıl incelendiğini ve sürdürüldü
 
 [Zypherpunk Hackathon 2025 Sonuçları](https://forum.zcashcommunity.com/t/zypherpunk-hackathon-winners/53985)
 
-[Rust içinde Arti ToR istemcisi](https://docs.rs/arti/latest/arti/)
+[Rust ile Arti ToR istemcisi](https://docs.rs/arti/latest/arti/)
 
 [Tailscale](https://github.com/tailscale/tailscale)
 
@@ -60,6 +60,6 @@ Bağımlılıkların ekipler tarafından nasıl incelendiğini ve sürdürüldü
 
 Bu liste, Zcash Foundation ve ECC geliştiricilerinin sağladığı önerilerden derlenmiştir. 
 
-Listeyi güncellemek için eklemek istediğiniz başka kaynaklarınız (bağlantılar, kitaplar, kanallar vb.) varsa çekinmeden ekleyebilirsiniz!
+Listeyi güncellemek için eklemek istediğiniz başka kaynaklar (bağlantılar, kitaplar, kanallar vb.) varsa çekinmeden ekleyebilirsiniz!
 
-*Ekiplerin her şeyi tamamen güncel tutacak kaynakları her zaman olmayabilir, ancak karşılaştığınız sorunlar için issue açmanız rehberlerin ve kaynakların yönünü belirleyecektir*
+*Ekiplerin her şeyi tamamen güncel tutmak için her zaman yeterli kaynağı olmayabilir; ancak karşılaştığınız sorunlar için issue açmanız, rehberlerin ve kaynakların yönünü belirlemeye yardımcı olur*

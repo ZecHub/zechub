@@ -1,3 +1,4 @@
+---
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Full_Nodes.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
 </a>
@@ -6,15 +7,17 @@
 
 Un nodo completo es un software que ejecuta una copia completa de la blockchain de cualquier criptomoneda, dando acceso a las funciones del protocolo.
 
-Mantiene un registro completo de cada transacción que ha ocurrido desde el génesis y, por lo tanto, es capaz de verificar la validez de las nuevas transacciones y bloques que se agregan a la blockchain.
+Mantiene un registro completo de cada transacción que ha ocurrido desde el bloque génesis y, por lo tanto, puede verificar la validez de las nuevas transacciones y bloques que se añaden a la blockchain.
 
 ## Zcashd
 
-Actualmente, Zcashd es la implementación principal de nodo completo utilizada por Zcash, desarrollada y mantenida por Electric Coin Company.
+> **Nota:** zcashd está siendo descontinuado. Electric Coin Company ha [anunciado formalmente](https://z.cash/support/zcashd-deprecation/) que zcashd será retirado, con su función de nodo completo reemplazada por [Zebra](https://github.com/ZcashFoundation/zebra) (`zebrad`) y su función de wallet por [Zallet](https://github.com/zcash/zallet). Para nuevas implementaciones, usa Zebra (ver abajo). Si ya ejecutas un nodo zcashd, sigue la [Guía de migración: zcashd a Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
 
-Zcashd expone un conjunto de API mediante su interfaz RPC. Estas API proporcionan funciones que permiten a las aplicaciones externas interactuar con el nodo.
+zcashd fue la implementación original de nodo completo para Zcash, desarrollada y mantenida por Electric Coin Company. Las instrucciones de compilación que aparecen abajo se conservan como referencia y para operadores que estén migrando fuera de zcashd.
 
-[Lightwalletd](https://github.com/zcash/lightwalletd) es un ejemplo de una aplicación que utiliza un nodo completo para permitir a los desarrolladores crear y mantener wallets ligeras blindadas compatibles con móviles sin tener que interactuar directamente con Zcashd.
+Zcashd expone un conjunto de API a través de su interfaz RPC. Estas API proporcionan funciones que permiten a aplicaciones externas interactuar con el nodo.
+
+[Lightwalletd](https://github.com/zcash/lightwalletd) es un ejemplo de una aplicación que utiliza un nodo completo para permitir que los desarrolladores creen y mantengan wallets ligeras blindadas, compatibles con móviles, sin tener que interactuar directamente con Zcashd.
 
 [Lista completa de comandos RPC compatibles](https://zcash.github.io/rpc/)
 
@@ -32,7 +35,7 @@ Zcashd expone un conjunto de API mediante su interfaz RPC. Estas API proporciona
       autoconf libtool ncurses-dev unzip git python3 python3-zmq \
       zlib1g-dev curl bsdmainutils automake libtinfo5
 
-- Clonar la última versión, cambiar a ella, configurar y compilar:
+- Clonar la última versión, cambiar a esa versión, configurar y compilar:
 
       git clone https://github.com/zcash/zcash.git
 
@@ -56,15 +59,13 @@ Zcashd expone un conjunto de API mediante su interfaz RPC. Estas API proporciona
 
 ## Zebra
 
-Zebra es una implementación independiente de nodo completo para el protocolo Zcash creada por Zcash Foundation. 
+Zebra es una implementación independiente de nodo completo del protocolo Zcash, lista para producción, creada por Zcash Foundation y escrita en Rust. A medida que zcashd es retirado, Zebra (`zebrad`) es el nodo completo recomendado para nuevas implementaciones.
 
-Actualmente está en fase de pruebas y sigue siendo experimental.
+Zebra valida bloques y transacciones, participa en la red peer-to-peer y expone una interfaz RPC para aplicaciones. La wallet ahora es un componente separado: [Zallet](https://github.com/zcash/zallet) se ejecuta sobre un nodo Zebra y gestiona claves y saldos. Esto reemplaza a zcashd, que integraba el nodo y la wallet en un solo proceso.
 
-Hay dos componentes principales de Zebra. El componente cliente, que es responsable del escaneo de la blockchain y del descifrado de prueba de las transacciones. 
+Para dar servicio a wallets ligeras blindadas, el nodo se ejecuta junto con un indexador, ya sea el consolidado [lightwalletd](https://github.com/zcash/lightwalletd) o el más reciente [Zaino](https://zechub.wiki/zaino).
 
-La segunda parte es la herramienta de línea de comandos zebra. Esta herramienta gestiona claves de gasto, direcciones y se comunica con el componente cliente en zebrad para proporcionar funcionalidad básica de wallet.
-
-Cualquier persona interesada en probar Zebra para minar bloques está invitada a unirse al servidor de Discord de I+D. Asegúrate también de leer el libro de Zebra para obtener instrucciones de configuración. 
+Asegúrate de leer el libro de Zebra para obtener instrucciones de configuración y únete al servidor de Discord de I+D para recibir soporte. 
 
 [Github](https://github.com/ZcashFoundation/zebra/)
 
@@ -76,11 +77,11 @@ Cualquier persona interesada en probar Zebra para minar bloques está invitada a
 
 ## La red
 
-Al ejecutar un nodo completo, estás ayudando a fortalecer la red de Zcash al apoyar su descentralización. 
+Al ejecutar un nodo completo, ayudas a fortalecer la red de zcash al apoyar su descentralización. 
 
 Esto ayuda a prevenir el control adversario y a mantener la red resiliente frente a algunas formas de interrupción.
 
-Los sembradores DNS exponen una lista de otros nodos confiables a través de un servidor integrado. Esto permite que las transacciones se propaguen por toda la red. 
+Los seeders DNS exponen una lista de otros nodos confiables mediante un servidor integrado. Esto permite que las transacciones se propaguen a través de toda la red. 
 
 ### Estadísticas de la red
 
@@ -100,17 +101,17 @@ También puedes contribuir al desarrollo de la red ejecutando pruebas o proponie
 
 Los mineros requieren nodos completos para acceder a todos los rpc relacionados con la minería, como getblocktemplate y getmininginfo. 
 
-Zcashd también permite la minería hacia coinbase blindada. Los mineros y los pools de minería tienen la opción de minar directamente para acumular ZEC blindado en una z-address de forma predeterminada. 
+Zcashd también permite la minería hacia coinbase blindada. Los mineros y los pools de minería tienen la opción de minar directamente para acumular ZEC blindado en una z-address por defecto. 
 
 Lee la [Guía de minería](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html) o únete a la página del foro comunitario para [Mineros de Zcash](https://forum.zcashcommunity.com/c/mining/13).
 
 ### Privacidad 
 
-Ejecutar un nodo completo te permite verificar de manera independiente todas las transacciones y bloques en la red de Zcash.
+Ejecutar un nodo completo te permite verificar de forma independiente todas las transacciones y bloques de la red Zcash.
 
 Ejecutar un nodo completo evita algunos riesgos de privacidad asociados con el uso de servicios de terceros para verificar transacciones en tu nombre.
 
-Usar tu propio nodo también permite conectarse a la red a través de [Tor](https://zcash.github.io/zcash/user/tor.html).
+Usar tu propio nodo también permite conectarte a la red mediante [Tor](https://zcash.github.io/zcash/user/tor.html).
 Esto tiene la ventaja adicional de permitir que otros usuarios se conecten de forma privada a la dirección .onion de tu nodo.
 
 
@@ -118,8 +119,4 @@ Esto tiene la ventaja adicional de permitir que otros usuarios se conecten de fo
 
 Lee la [Documentación de soporte](https://zcash.readthedocs.io/en/latest/)
 
-Únete a nuestro [servidor de Discord](https://discord.gg/zcash) o contáctanos en [twitter](https://twitter.com/ZecHub)
-
----
-
-**Protected terms (keep in English):** `Zaino` `Zallet`
+Únete a nuestro [Servidor de Discord](https://discord.gg/zcash) o contáctanos en [twitter](https://twitter.com/ZecHub)

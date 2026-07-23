@@ -39,6 +39,6 @@ Endelea kupata habari mpya za vipindi vijavyo:
 
 + Episode 9 - Klabu ya ZFAV na Ryan Taylor (aka AdjyLeak) [Youtube](https://www.youtube.com/watch?v=BYnhTNkQ-3M) [Odyssey]](https://odysee.com/@ZecHub:4/podcast-ryan-taylor:c) [Spotify](https://open.spotify.com/episode/1TJ6Nycq9nyW2b62ytI3O2)
 
-+ Episode 10 - Faragha kwa ajili ya umma nzuri na Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) [Odyssey]](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1)6) [Spotify]()
++ Episode 10 - Faragha kwa ajili ya umma nzuri na Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) [Odyssey]](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
 Ikiwa una mapendekezo yoyote ya nani ungependa kuona ijayo kwenye podcast, jisikie huru kuwasiliana nasi! DMs kwa @zechub kwenye Twitter

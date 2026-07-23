@@ -1,29 +1,30 @@
+---
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Social_Media/Podcasts/The_z2z_Podcast.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# The Z2Z Podcast
+# Z2Z Podcast
 
-The Z2Z Podcast में Ian Sagstetter (Electric Coin Company से) और Zcash समुदाय के अन्य सदस्यों के बीच लंबी बातचीतें प्रस्तुत की जाती हैं।
+Z2Z Podcast में Ian Sagstetter (Electric Coin Company से) और Zcash समुदाय के अन्य सदस्यों के बीच लंबी बातचीत प्रस्तुत की जाती है।
 
 यह podcast विभिन्न विषयों को कवर करता है, लेकिन मुख्य रूप से Zcash और उसके उपयोगकर्ताओं के अनुभव पर केंद्रित रहता है।
 
 आने वाले एपिसोड्स की जानकारी से अपडेट रहें:
 
-[z2z Youtube Playlist](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O)
+[z2z Youtube प्लेलिस्ट](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O)
 
 [Odysee](https://odysee.com/@ZecHub:4)
 
 [Spotify](https://open.spotify.com/show/3teWxE0EQaeohCM268Lpnf)
 
-[Spotify for Podcaster](https://podcasters.spotify.com/pod/show/zec-hub/episodes/Zcash-narratives-with-David-from-Zcash-Media-e1o2b36)
+[Podcaster के लिए Spotify](https://podcasters.spotify.com/pod/show/zec-hub/episodes/Zcash-narratives-with-David-from-Zcash-Media-e1o2b36)
 
 
 **एपिसोड सूची**
 
 + एपिसोड 1 - J.W. Verret के साथ crypto regulation और financial privacy [Youtube](https://www.youtube.com/watch?v=20oCI7XAR08) |  [Odysee](https://odysee.com/@ZecHub:4/z2zpodcast1:4) | [Spotify](https://open.spotify.com/episode/4bgn6g1vcVXOqTZ71IN6HE)
 
-+ एपिसोड 2 - Xcelencia के साथ Music NFTs, privacy और आर्थिक स्वतंत्रता [Youtube](https://www.youtube.com/watch?v=nrtoRgb7g28) | [Odysee](https://odysee.com/@ZecHub:4/xcelencia:4) | [Spotify](https://open.spotify.com/episode/0a0Fad1H2vJ4JO1edJCKuC)
++ एपिसोड 2 - Xcelencia के साथ Music NFTs, privacy और economic freedom [Youtube](https://www.youtube.com/watch?v=nrtoRgb7g28) | [Odysee](https://odysee.com/@ZecHub:4/xcelencia:4) | [Spotify](https://open.spotify.com/episode/0a0Fad1H2vJ4JO1edJCKuC)
 
 + एपिसोड 3 - Railgun के साथ DeFi और privacy [Youtube](https://www.youtube.com/watch?v=jLd7J5BY_aM) | [Odysee](https://odysee.com/@ZecHub:4/railgun:f) | [Spotify](https://open.spotify.com/episode/6dlRiUjEzFOogTrwdVhnhd)
 
@@ -39,6 +40,6 @@ The Z2Z Podcast में Ian Sagstetter (Electric Coin Company से) और Z
 
 + एपिसोड 9 - Ryan Taylor (उर्फ AdjyLeak) के साथ ZFAV Club [Youtube](https://www.youtube.com/watch?v=BYnhTNkQ-3M) | [Odysee](https://odysee.com/@ZecHub:4/podcast-ryan-taylor:c) | [Spotify](https://open.spotify.com/episode/1TJ6Nycq9nyW2b62ytI3O2)
 
-+ एपिसोड 10 - Amber Baldet के साथ जनहित के लिए privacy [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6) | [Spotify]()
++ एपिसोड 10 - Amber Baldet के साथ जनहित के लिए privacy [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
-यदि आपके पास इस बारे में कोई सुझाव हो कि आप podcast में अगला किसे देखना चाहेंगे, तो बेझिझक हमसे संपर्क करें! Twitter पर @zechub को DM करें
+अगर आपके पास इस बारे में कोई सुझाव है कि आप podcast में अगली बार किसे देखना चाहेंगे, तो बेझिझक हमसे संपर्क करें! Twitter पर @zechub को DM करें

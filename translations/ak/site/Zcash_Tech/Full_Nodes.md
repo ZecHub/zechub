@@ -10,13 +10,15 @@ Full Node yɛ software a ɛyɛ cryptocurrency biara blockchain no mfonini a edi 
 
 ## Zcashd na ɛyɛ adwuma
 
-Zcashd mprempren ne Full Node dwumadie titire a Zcash de di dwuma a Electric Coin Company na ɛyɛeɛ na ɛhwɛ so.
+> **Hyɛ no nsow:** wɔregyae zcashd. Electric Coin Company no [abɔ amanneɛ wɔ ɔkwan a ɛfata so](https://z.cash/support/zcashd-deprecation/) sɛ wɔregyae zcashd, a wɔde [Zebra](https://github.com/ZcashFoundation/zebra) (`zebrad`) ne ne sika kotoku dwumadi a [Zallet](https://github.com/zcash/zallet). Sɛ wopɛ deployments foforo a, fa Zebra di dwuma (hwɛ ase hɔ). Sɛ woreyɛ zcashd node dedaw a, di [Migration Guide: zcashd to Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+
+zcashd yɛ mfitiaseɛ Full Node dwumadie ma Zcash, a Electric Coin Company na ɛyɛeɛ na ɛhwɛɛ so. Wɔakora adansi akwankyerɛ a ɛwɔ aseɛ ha no so ama nhwɛsoɔ ne ama adwumayɛfoɔ a wɔretu afiri zcashd.
 
 Zcashd da API ahorow bi adi denam ne RPC ntamgyinafo so. Saa API yi ma dwumadie a ɛma abɔnten dwumadie ahodoɔ tumi ne node no di nkitaho.
 
-[Wɔde kanea a wɔde ahyɛ mu](https://github.com/zcash/lightwalletd) yɛ nhwɛsoɔ a ɛfa application a ɛde node a ɛyɛ pɛpɛɛpɛ di dwuma de ma developers tumi yɛ na wɔhwɛ mobile-friendly shielded light wallets a enhia sɛ wɔne Zcashd di nkitaho tẽẽ.
+[Wɔde kanea a wɔde kyerɛw nsɛm](https://github.com/zcash/lightwalletd) yɛ nhwɛsoɔ a ɛfa application a ɛde node a ɛyɛ pɛpɛɛpɛ di dwuma de ma developers tumi yɛ na wɔhwɛ mobile-friendly shielded light wallets a enhia sɛ wɔne Zcashd di nkitaho tẽẽ.
 
-[RPC ahyɛde ahorow a wɔboa no nyinaa](https://zcash.github.io/rpc/)
+[RPC ahyɛdeɛ a wɔboa no nyinaa](https://zcash.github.io/rpc/)
 
 [Zcashd nhoma no](https://zcash.github.io/zcash/)
 
@@ -56,15 +58,13 @@ Zcashd da API ahorow bi adi denam ne RPC ntamgyinafo so. Saa API yi ma dwumadie 
 
 ## Zebra
 
-Zebra yɛ ahofadi a edi mũ node dwumadie ma Zcash Protocol a Zcash Foundation ayɛ. 
+Zebra yɛ Zcash protocol no a ɛde ne ho, ayɛ krado sɛ ɛyɛ node a edi mũ a wɔde di dwuma, a Zcash Foundation na ɛyɛe na wɔkyerɛwee wɔ Rust mu. Sɛnea zcashd akɔ pɛnhyen no, Zebra (`zebrad`) yɛ node a edi mũ a wɔkamfo kyerɛ ma deployments foforo.
 
-Mprempren wɔresɔ ahwɛ na wɔda so ara resɔ ahwɛ.
+Zebra di blocks ne transactions ho adanseɛ, ɛde ne ho hyɛ peer-to-peer network no mu, na ɛda RPC interface bi adi ma applications. Sika kotoku no yɛ ade a ɛyɛ soronko mprempren: [Zallet](https://github.com/zcash/zallet) tu mmirika tia Zebra node na ɛdi safe ne kari pɛ ho dwuma. Wei besi zcashd ananmu, a ɛboaboaa node ne sika kotoku no ano wɔ adeyɛ biako mu.
 
-There are two main components of Zebra. The client component which is responsible for blockchain scanning and trial decryption of transactions. 
+Sɛnea ɛbɛyɛ a wɔbɛsom kanea sika kotoku a wɔabɔ ho ban no, node no tu mmirika kɔ indexer bi nkyɛn, anaasɛ nea wɔde asi hɔ [lightwalletd](https://github.com/zcash/lightwalletd) anaasɛ foforo no [Zaino](https://zechub.wiki/zaino).
 
-Ɔfã a ɛto so abien ne ɔsebɔ ahyɛde kwan so adwinnade. Saa adwinnade yi hwɛ sika a wɔsɛe no safe, address & di nkitaho ne Client component wɔ zebrad mu de ma mfitiase wallet dwumadie.
-
-Wɔto nsa frɛ obiara a n’ani gye ho sɛ ɔbɛsɔ Zebra ahwɛ to mine blocks no sɛ ɔmmɛka R&D discord server no ho. Hwɛ nso sɛ wobɛkenkan Zebra nhoma no na woanya akwankyerɛ a ɛfa sɛnea wobɛhyehyɛ ho. 
+Hwɛ sɛ wobɛkenkan Zebra nwoma no ama nhyehyeɛ akwankyerɛ, na kɔka R&D Discord server no ho na woanya mmoa. 
 
 [Github a wɔde kyerɛw nsɛm](https://github.com/ZcashFoundation/zebra/)
 
@@ -108,7 +108,7 @@ Kenkan [Atuo Ho Akwankyerɛ](https://zcash.readthedocs.io/en/latest/rtd_pages/zc
 
 Sɛ wode node a edi mũ di dwuma a, ɛma wutumi de wo ho hwɛ nnwuma ne blocks nyinaa a ɛwɔ Zcash network no so.
 
-Sɛ wode node a edi mũ di dwuma a, kwati kokoam asiane ahorow bi a ɛbata sɛ wode nnwuma a ɛto so abiɛsa bedi dwuma de ahwɛ sɛ nnwuma a wɔyɛ wɔ wo ananmu no yɛ nokware.
+Sɛ wode node a edi mũ di dwuma a, ɛkwati kokoam asiane ahorow bi a ɛbata sɛ wode nnwuma a ɛto so abiɛsa bedi dwuma de ahwɛ sɛ nnwuma a wɔyɛ wɔ wo ananmu no yɛ nokware.
 
 W’ankasa node a wode bedi dwuma nso ma kwan ma wofa [Tor](https://zcash.github.io/zcash/user/tor.html).
 Eyi wɔ mfaso foforo a ɛne sɛ ɛma afoforo a wɔde di dwuma no kwan ma wɔde wɔn ho hyɛ wo node .onion address no so wɔ kokoam.
@@ -122,7 +122,3 @@ Kɔka yɛn [Discord Sever](https://discord.gg/zcash) anaa fa wo nsa kɔ yɛn nky
 
 
 
-
----
-
-**Protected terms (keep in English):** `Zaino` `Zallet`

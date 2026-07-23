@@ -27,21 +27,21 @@
 
 [ZIP List](https://zips.z.cash)
 
-[Àdírẹ́ẹ̀sì Àkọsílẹ̀](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys)
+[Àdúgbò tí a fi kọ̀ǹpútà sí]](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys)
 
-[Ìbéèrè Ìfàfàfà Zebrad Main]]() / [Ìbéèrè fún ìfàfàfà Zebrad Main](https://github.com/ZcashFoundation/zebra/pulls)
+[Ilé Ìpamọ́ Zebrad]](https://github.com/ZcashFoundation/zebra) / [Ìbéèrè láti fa Zebrad]](https://github.com/ZcashFoundation/zebra/pulls)
 
-[Ìwé Ìwé Ìforúkọsílẹ̀ Ìkọ̀ǹkọ̀](https://github.com/orgs/ZcashFoundation/repositories?type=all)
+[Ìwé Ìwé Aláṣẹ Ìkọ̀ǹkà](https://github.com/orgs/ZcashFoundation/repositories?type=all)
 
 [Ìtàn Ìmọ́lẹ̀ 2 Ìwé](https://zcash.github.io/halo2/index.html)
 
 [Ìwé Ọgbà Èso](https://zcash.github.io/orchard/)
 
-[Halo Àpótí]() / [Orchard Crate](https://docs.rs/orchard/latest/orchard/)
+[Àpótí Halo2](https://docs.rs/halo2_proofs/latest/halo2_proofs/) / [Orchard Crate](https://docs.rs/orchard/latest/orchard/)
 
 [Zcash R&D Àríyànjiyàn](https://discord.gg/6AK7keWFaK)
 
-[Awọn imọ-ẹrọ miiran ti o ni ibatan Zcash]() / [Ìwé Frost]](https://frost.zfnd.org/)
+[Ìwé Frost](https://frost.zfnd.org/)
 
 [Ìyọrísí Zechub Hackathon 2024](https://x.com/ZecHub/status/1845212469809033489)
 

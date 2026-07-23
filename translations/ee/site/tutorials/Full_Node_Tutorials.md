@@ -6,7 +6,9 @@
 
 Zcash Full Nodes ɖoa kpe asitsatsa siwo le gaglãgbe kple esiwo wokpɔ ta na dzi le Network la dzi. To node blibo ƒe duƒuƒu me la, èwɔa akpa aɖe le network resilience & stability me. Tsɔ kpe ɖe eŋu la, node blibo zazã naa dedienɔnɔ kple dedienɔnɔ ƒe kakaɖedzi geɖe wu ezãla. Video mɔfiamewo le ete hena zcashd alo zebrad Full Nodes ɖoɖo/dodoɖeŋgɔ.
 
-Taflatse xlẽ míaƒe [mɔfiamewo](/site/Guides/Full_Nodes) hena nyatakaka bubuwo.
+> **De dzesii:** wole zcashd [ɖe asi le eŋu](https://z.cash/support/zcashd-deprecation/) tsɔ da asi ɖe [Zebra](https://github.com/ZcashFoundation/zebra) (`zebrad`) na node la kple [Zallet](https://github.com/zcash/zallet) na gakotokua. Wodzra zcashd video siwo le ete ɖo be woate ŋu akpɔ wo; na ɖoɖo yeyewo la, wɔ ɖe [Ʋuʋu ƒe Mɔfiame: zcashd yi Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+
+Taflatse xlẽ míaƒe [Full Nodes mɔfiame](https://zechub.wiki/full-nodes) hena nyatakaka bubuwo.
 
 - Alesi Nàƒo Zcashd nu ƒu ɖe Raspberry Pi 4 dzi
 
@@ -39,7 +41,3 @@ ____
 
 [![Video ƒe Nɔnɔmetata Sue](https://img.youtube.com/vi/HtorP8TJ5vk/hqdefault.jpg)](https://www.youtube.com/watch?v=HtorP8TJ5vk)
 
-
----
-
-**Protected terms (keep in English):** `Zallet`

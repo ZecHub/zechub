@@ -10,14 +10,13 @@ The official Arborist Calls page is maintained by the Zcash Foundation:
 
 **[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
 
-> **Kumbuka:** Hakuna wito wa Arborist ulifanyika wiki ya Mei 12, 2026. [Wito unaofuata: Mei 28th]](https://forum.zcashcommunity.com/t/no-arborist-call-this-week-next-call-may-28th/55659).
 
 ## Jinsi ya Kujiunga
 
 Maombi yanabadilishana kati ya vipindi viwili vya mara kwa mara ili wachangiaji katika mikoa tofauti waweze kushiriki. Tumia ukurasa rasmi wa Zcash Foundation kwa faili za kalenda ya sasa na viungo vya Zoom:
 
 - **15:00 UTC** muda
-- **21:00 UTC** muda
+
 
 Ukurasa wa Foundation ni chanzo cha ukweli kwa viungo vya usajili, faili za kalenda, na ufikiaji wa mkutano kwa sababu viungo vinavyohusiana na mkutano vinaweza kubadilika.
 
@@ -34,7 +33,7 @@ Arborist Calls are useful for:
 
 - Mhandisi wa itifaki na watafiti
 - Node, mkoba, SDK, na lightwallet miundombinu watengenezaji
-- Wapokeaji wa ruzuku ambao kazi yao inagusa makubaliano, uboreshaji wa mtandao, au utegemezi wa itifaki
+- Wapokeaji wa ruzuku ambao kazi yao huathiri makubaliano, uboreshaji wa mtandao, au utegemezi wa itifaki
 - Wanachama wa jumuiya ambao wanataka kufuatilia kufanya maamuzi ya kiufundi katika umma
 
 ## Orodha ya kucheza

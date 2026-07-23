@@ -1,199 +1,200 @@
+---
 ## [ZODL](https://zodl.com)
 ![logo](https://github.com/user-attachments/assets/198608b2-9059-4cb7-aeb8-9354971376fd "ZODL")
-- डिवाइस: Mobile
+- डिवाइस: मोबाइल
 - ऑपरेटिंग सिस्टम: Android | iOS
-- Wallet सपोर्ट: Seed Phrase | Viewing Key | Unified Address | Hardware
-- Pools: Transparent | Sapling | Orchard
-- विशेषताएँ: Address Book | CrossPay | DEX Swaps | Flexa Payments | MultiSignature | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | F-droid
+- वॉलेट सपोर्ट: Seed Phrase | Viewing Key | Unified Address | Hardware
+- पूल: Transparent | Sapling | Orchard
+- विशेषताएँ: पता पुस्तिका | CrossPay | Near Intents | Flexa Payments | MultiSignature | भुगतान अनुरोध | Shielded Memo | Sync से पहले खर्च | TEX Address | Tor सपोर्ट | F-droid
 
 ---
 
 ## [Ywallet](https://ywallet.app/installation/)
 ![logo](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
-- डिवाइस: Mobile | Desktop
+- डिवाइस: मोबाइल | डेस्कटॉप
 - ऑपरेटिंग सिस्टम: Android | iOS | Windows | Linux | macOS
-- Wallet सपोर्ट: Seed Phrase | Viewing Key | Unified Address | Hardware
-- Pools: Transparent | Sapling | Orchard
-- विशेषताएँ: Address Book | Cold Storage | Diversified Address | Payment Request | Pool Transfer | Shielded Memo | TEX Address | Voting | WarpSync
+- वॉलेट सपोर्ट: Seed Phrase | Viewing Key | Unified Address | Hardware
+- पूल: Transparent | Sapling | Orchard
+- विशेषताएँ: पता पुस्तिका | Cold Storage | Diversified Address | भुगतान अनुरोध | Pool Transfer | Shielded Memo | TEX Address | मतदान | WarpSync
 
 ---
 
 ## [Dizzy](https://youtu.be/IVkuo1CGPBU)
 ![logo](https://i.ibb.co/FH918w9/Dizzy-3.png "Dizzy")
-- डिवाइस: Mobile | Desktop
+- डिवाइस: मोबाइल | डेस्कटॉप
 - ऑपरेटिंग सिस्टम: Android | iOS | Windows | Linux | macOS
-- Wallet सपोर्ट: Seed Phrase | Viewing Key | Unified Address
-- Pools: Sapling | Orchard
+- वॉलेट सपोर्ट: Seed Phrase | Viewing Key | Unified Address
+- पूल: Sapling | Orchard
 - विशेषताएँ: Discord Bot
 
 ---
 
 ## [Zingo!](https://www.zingolabs.org/)
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
-- डिवाइस: Mobile | Desktop
+- डिवाइस: मोबाइल | डेस्कटॉप
 - ऑपरेटिंग सिस्टम: Android | iOS | Windows | Linux
-- Wallet सपोर्ट: Seed Phrase | Viewing Key | Unified Address
-- Pools: Transparent | Sapling | Orchard
-- विशेषताएँ: Address Book | Financial Insights | Payment Request | PepperSync | Shielded Memo | Testnet Support
+- वॉलेट सपोर्ट: Seed Phrase | Viewing Key | Unified Address
+- पूल: Transparent | Sapling | Orchard
+- विशेषताएँ: पता पुस्तिका | वित्तीय जानकारी | भुगतान अनुरोध | PepperSync | Shielded Memo | Testnet सपोर्ट
 
 ---
 
 ## [Edge](https://edge.app)
 ![logo](https://i.ibb.co/4FVQLS9/image-2024-11-28-091312254.png "Edge")
-- डिवाइस: Mobile
+- डिवाइस: मोबाइल
 - ऑपरेटिंग सिस्टम: Android | iOS
-- Wallet सपोर्ट: Seed Phrase | Unified Address
-- Pools: Transparent | Sapling
-- विशेषताएँ: Automatic Shielding | DEX Swaps | Multi Coin | Shielded Memo | Spend before Sync
+- वॉलेट सपोर्ट: Seed Phrase | Unified Address
+- पूल: Transparent | Sapling
+- विशेषताएँ: स्वचालित Shielding | DEX Swaps | Multi Coin | Shielded Memo | Sync से पहले खर्च
 
 ---
 
 ## [Unstoppable](https://unstoppable.money)
 ![logo](https://i.ibb.co/C68mFCx/image-2024-11-28-091200540.png "Unstoppable")
-- डिवाइस: Mobile
+- डिवाइस: मोबाइल
 - ऑपरेटिंग सिस्टम: Android | iOS
-- Wallet सपोर्ट: Seed Phrase | Unified Address
-- Pools: Transparent | Sapling | Orchard
-- विशेषताएँ: DEX Swaps | Multi Coin | Spend before Sync
+- वॉलेट सपोर्ट: Seed Phrase | Unified Address
+- पूल: Transparent | Sapling | Orchard
+- विशेषताएँ: DEX Swaps | Multi Coin | Sync से पहले खर्च
 
 ---
 
 ## [eZcash](https://blog.nerdbank.net/ezcash-app)
 ![logo](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
-- डिवाइस: Mobile | Desktop
+- डिवाइस: मोबाइल | डेस्कटॉप
 - ऑपरेटिंग सिस्टम: Android | iOS | Windows
-- Wallet सपोर्ट: Seed Phrase | Viewing Key | Unified Address
-- Pools: Transparent | Sapling | Orchard
-- विशेषताएँ: Address Book | Address Check | Automatic Shielding | Diversified Address | Payment Request | Shielded Memo | TEX Address | Testnet Support
+- वॉलेट सपोर्ट: Seed Phrase | Viewing Key | Unified Address
+- पूल: Transparent | Sapling | Orchard
+- विशेषताएँ: पता पुस्तिका | पता जाँच | स्वचालित Shielding | Diversified Address | भुगतान अनुरोध | Shielded Memo | TEX Address | Testnet सपोर्ट
 
 ---
 
 ## [Zkool](https://github.com/hhanh00/zkool2/)
 ![logo](https://i.ibb.co/BHGPff0K/zkool-1.png "Zkool")
-- डिवाइस: Mobile | Desktop
+- डिवाइस: मोबाइल | डेस्कटॉप
 - ऑपरेटिंग सिस्टम: Android | iOS | Windows | Linux
-- Wallet सपोर्ट: Seed Phrase | Viewing Key | Unified Address | Hardware
-- Pools: Transparent | Sapling | Orchard
-- विशेषताएँ: Address Rotation | Broad Key Support | Encrypted Exports | FROST Multisig | Multi-Account Sync | Shielded Memo | Testnet Support
+- वॉलेट सपोर्ट: Seed Phrase | Viewing Key | Unified Address | Hardware
+- पूल: Transparent | Sapling | Orchard
+- विशेषताएँ: पता रोटेशन | व्यापक Key सपोर्ट | एन्क्रिप्टेड एक्सपोर्ट्स | FROST Multisig | Multi-Account Sync | Shielded Memo | Testnet सपोर्ट
 
 ---
 
 ## [Cake](https://cakewallet.com/install/)
 ![logo](https://github.com/user-attachments/assets/a8234c70-3714-4e80-b918-8739d45aea00 "Cake")
-- डिवाइस: Mobile | Desktop 
+- डिवाइस: मोबाइल | डेस्कटॉप 
 - ऑपरेटिंग सिस्टम: Android | iOS | Windows | Linux | macOS
-- Wallet सपोर्ट: Seed Phrase | Viewing Key | Unified Address
-- Pools: Transparent | Sapling | Orchard
-- विशेषताएँ: Address Book | Address Rotation | Automatic Shielding | DEX Swaps | Multi Coin | Shielded Memo | Tor Support
+- वॉलेट सपोर्ट: Seed Phrase | Viewing Key | Unified Address
+- पूल: Transparent | Sapling | Orchard
+- विशेषताएँ: पता पुस्तिका | पता रोटेशन | स्वचालित Shielding | DEX Swaps | Multi Coin | Shielded Memo | Tor सपोर्ट
 
 ---
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
 ![logo](https://i.ibb.co/VtPBnm6/zenith-2.png "Zenith")
-- डिवाइस: Desktop
+- डिवाइस: डेस्कटॉप
 - ऑपरेटिंग सिस्टम: Windows | Linux | macOS
-- Wallet सपोर्ट: Seed Phrase | Viewing Key | Unified Address | Full Node
-- Pools: Transparent | Sapling | Orchard
-- विशेषताएँ: Address Book | Graphical Interface | Shielded Memo | Testnet Support
+- वॉलेट सपोर्ट: Seed Phrase | Viewing Key | Unified Address | Full Node
+- पूल: Transparent | Sapling | Orchard
+- विशेषताएँ: पता पुस्तिका | ग्राफिकल इंटरफ़ेस | Shielded Memo | Testnet सपोर्ट
 
 ---
 
 ## [Zingo-CLI](https://github.com/zingolabs/zingolib)
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo-CLI")
-- डिवाइस: Desktop
+- डिवाइस: डेस्कटॉप
 - ऑपरेटिंग सिस्टम: Windows | Linux | macOS
-- Wallet सपोर्ट: Seed Phrase | Viewing Key | Unified Address | Full Node
-- Pools: Transparent | Sapling | Orchard
-- विशेषताएँ: Command Line Interface | PepperSync | Shielded Memo | Testnet Support 
+- वॉलेट सपोर्ट: Seed Phrase | Viewing Key | Unified Address | Full Node
+- पूल: Transparent | Sapling | Orchard
+- विशेषताएँ: Command Line Interface | PepperSync | Shielded Memo | Testnet सपोर्ट 
 
 ---
 
 ## [Zallet](https://github.com/zcash/wallet)
 ![logo](https://i.ibb.co/3mCrR0dN/Brandmark-Yellow.png "Zallet")
-- डिवाइस: Desktop
+- डिवाइस: डेस्कटॉप
 - ऑपरेटिंग सिस्टम: Windows | Linux | macOS
-- Wallet सपोर्ट: Seed Phrase | Viewing Key | Unified Address | Full Node
-- Pools: Transparent | Sapling | Orchard
-- विशेषताएँ: Alpha Release | JSON-RPC Interface | Shielded Memo | Testnet Support
+- वॉलेट सपोर्ट: Seed Phrase | Viewing Key | Unified Address | Full Node
+- पूल: Transparent | Sapling | Orchard
+- विशेषताएँ: Alpha Release | JSON-RPC Interface | Shielded Memo | Testnet सपोर्ट
 
 ---
 
 ## [Zcashd](https://github.com/zcash/zcash)
 ![logo](https://i.ibb.co/Xz2NskW/zcashd.png "Zcashd")
-- डिवाइस: Desktop
+- डिवाइस: डेस्कटॉप
 - ऑपरेटिंग सिस्टम: Windows | Linux | macOS
-- Wallet सपोर्ट: Seed Phrase | Viewing Key | Unified Address | Full Node
-- Pools: Transparent | Sapling | Orchard
-- विशेषताएँ: Command Line Interface | Diversified Address | Shielded Memo | Testnet Support
+- वॉलेट सपोर्ट: Seed Phrase | Viewing Key | Unified Address | Full Node
+- पूल: Transparent | Sapling | Orchard
+- विशेषताएँ: Command Line Interface | Diversified Address | Shielded Memo | Testnet सपोर्ट
 
 ---
 
 ## [Brave](https://brave.com/web3-privacy/)
 ![logo](https://i.ibb.co/6yqMNwZ/image-2024-01-13-170934865.png "Brave")
-- डिवाइस: Web
-- ऑपरेटिंग सिस्टम: Browser
-- Wallet सपोर्ट: Seed Phrase | Unified Address
-- Pools: Transparent | Orchard
-- विशेषताएँ: Shielded Memo | Spend before Sync | Testnet Support
+- डिवाइस: वेब
+- ऑपरेटिंग सिस्टम: ब्राउज़र
+- वॉलेट सपोर्ट: Seed Phrase | Unified Address
+- पूल: Transparent | Orchard
+- विशेषताएँ: Shielded Memo | Sync से पहले खर्च | Testnet सपोर्ट
 
 ---
 
 ## [Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
 ![logo](https://i.ibb.co/jn5t9Gy/metamask.png  "Metamask")
-- डिवाइस: Web
-- ऑपरेटिंग सिस्टम: Browser
-- Wallet सपोर्ट: Seed Phrase | Unified Address
-- Pools: Transparent | Sapling | Orchard
+- डिवाइस: वेब
+- ऑपरेटिंग सिस्टम: ब्राउज़र
+- वॉलेट सपोर्ट: Seed Phrase | Unified Address
+- पूल: Transparent | Sapling | Orchard
 - विशेषताएँ: Multi Coin
 
 ---
 
 ## [Zucchini](https://zucchinifi.xyz/)
 ![logo](https://github.com/user-attachments/assets/91a1005a-3daf-4747-9442-c178cbe50e49 "Zucchini")
-- डिवाइस: Web 
-- ऑपरेटिंग सिस्टम: Browser
-- Wallet सपोर्ट: Seed Phrase | Unified Address
-- Pools: Transparent | Sapling | Orchard
+- डिवाइस: वेब 
+- ऑपरेटिंग सिस्टम: ब्राउज़र
+- वॉलेट सपोर्ट: Seed Phrase | Unified Address
+- पूल: Transparent | Sapling | Orchard
 - विशेषताएँ: DEX Swaps
 
 ---
 
 ## [SSP Wallet](https://sspwallet.io)
 ![logo](https://i.ibb.co/X3hdfSY/ssp-1.png "SSP Wallet")
-- डिवाइस: Mobile | Web
-- ऑपरेटिंग सिस्टम: Android | iOS | Browser
-- Wallet सपोर्ट: Seed Phrase
-- Pools: Transparent
+- डिवाइस: मोबाइल | वेब
+- ऑपरेटिंग सिस्टम: Android | iOS | ब्राउज़र
+- वॉलेट सपोर्ट: Seed Phrase
+- पूल: Transparent
 - विशेषताएँ: Multi Coin
 
 ---
 
 ## [Trust Wallet](https://trustwallet.com/download)
 ![logo](https://i.ibb.co/cNqxBJ1/trustwallet.png "Trust Wallet")
-- डिवाइस: Mobile | Web
-- ऑपरेटिंग सिस्टम: Android | iOS | Browser
-- Wallet सपोर्ट: Seed Phrase
-- Pools: Transparent
+- डिवाइस: मोबाइल | वेब
+- ऑपरेटिंग सिस्टम: Android | iOS | ब्राउज़र
+- वॉलेट सपोर्ट: Seed Phrase
+- पूल: Transparent
 - विशेषताएँ: Multi Coin
 
 ---
 
 ## [Exodus](https://www.exodus.com/zcash-wallet-zec)
 ![logo](https://i.ibb.co/w0NNZNp/exoduscard.png "Exodus")
-- डिवाइस: Mobile | Desktop | Web
-- ऑपरेटिंग सिस्टम: Android | iOS | Windows | Linux | macOS | Browser
-- Wallet सपोर्ट: Seed Phrase
-- Pools: Transparent
+- डिवाइस: मोबाइल | डेस्कटॉप | वेब
+- ऑपरेटिंग सिस्टम: Android | iOS | Windows | Linux | macOS | ब्राउज़र
+- वॉलेट सपोर्ट: Seed Phrase
+- पूल: Transparent
 - विशेषताएँ: Multi Coin
 
 ---
 
 ## [Coinomi](https://www.coinomi.com/en/downloads)
 ![logo](https://i.ibb.co/QfHmjWY/coinomicard.png "Coinomi")
-- डिवाइस: Mobile | Desktop
-- ऑपरेटिंग सिस्टम: Android | iOS | Windows
-- Wallet सपोर्ट: Seed Phrase
-- Pools: Transparent
+- डिवाइस: मोबाइल | डेस्कटॉप
+- ऑपरेटिंग SYSTEM: Android | iOS | Windows
+- वॉलेट सपोर्ट: Seed Phrase
+- पूल: Transparent
 - विशेषताएँ: Multi Coin
 
 ---
@@ -202,8 +203,8 @@
 ![logo](https://i.ibb.co/c1gn635/Keystone-1.png "Keystone")
 - डिवाइस:
 - ऑपरेटिंग सिस्टम:
-- Wallet सपोर्ट: Hardware | Unified Address
-- Pools: Transparent | Sapling | Orchard
+- वॉलेट सपोर्ट: Hardware | Unified Address
+- पूल: Transparent | Sapling | Orchard
 - विशेषताएँ: Multi Coin
 
 ---
@@ -212,18 +213,18 @@
 ![logo](https://i.ibb.co/2qX6WCF/Desktop-Wallets.png "Ledger")
 - डिवाइस: 
 - ऑपरेटिंग सिस्टम:
-- Wallet सपोर्ट: Hardware
-- Pools: Transparent 
+- वॉलेट सपोर्ट: Hardware
+- पूल: Transparent 
 - विशेषताएँ: Multi Coin
 
 ---
 
 ## [Safepal](https://safepal.com)
 ![logo](https://i.ibb.co/h29h6d0/safepalcard.png "Safepal")
-- डिवाइस: Mobile | Web
-- ऑपरेटिंग सिस्टम: Android | iOS | Browser
-- Wallet सपोर्ट: Seed Phrase | Hardware
-- Pools: Transparent
+- डिवाइस: मोबाइल | वेब
+- ऑपरेटिंग सिस्टम: Android | iOS | ब्राउज़र
+- वॉलेट सपोर्ट: Seed Phrase | Hardware
+- पूल: Transparent
 - विशेषताएँ: Multi Coin
 
 ---
@@ -232,55 +233,54 @@
 ![logo](https://i.ibb.co/twLMCgzW/trezor1.png "Trezor")
 - डिवाइस:
 - ऑपरेटिंग सिस्टम:
-- Wallet सपोर्ट: Hardware
-- Pools: Transparent
+- वॉलेट सपोर्ट: Hardware
+- पूल: Transparent
 - विशेषताएँ: Multi Coin
 
 ---
 
 ## [Vultisig](https://vultisig.com)
 ![logo](https://i.ibb.co/93wSrxCc/vultisig.png "Vultisig")
-- डिवाइस: Web | Mobile | Desktop
-- ऑपरेटिंग सिस्टम: Android | iOS | Windows | Linux | macOS | Browser
-- Pools: Transparent
+- डिवाइस: वेब | मोबाइल | डेस्कटॉप
+- ऑपरेटिंग सिस्टम: Android | iOS | Windows | Linux | macOS | ब्राउज़र
+- पूल: Transparent
 - विशेषताएँ: Multi Coin | Web App
 
 ---
 
 ## [Vizor](https://vizor.cash/)
 ![logo](https://i.ibb.co/zhW2d2fV/Vizorphoto.png "Vizor")
-- डिवाइस: Desktop
+- डिवाइस: डेस्कटॉप | मोबाइल
 - ऑपरेटिंग सिस्टम: macOS
-- Wallet सपोर्ट: Seed Phrase | Unified Address | Hardware
-- Pools: Transparent | Sapling | Orchard
-- विशेषताएँ: Automatic Shielding | Shielded Memo | Testnet Support | FROST Multisig
+- वॉलेट सपोर्ट: Seed Phrase | Unified Address | Hardware
+- पूल: Transparent | Sapling | Orchard
+- विशेषताएँ: स्वचालित Shielding | Shielded Memo | Testnet सपोर्ट | FROST Multisig
 
 ---
 
 ## [Noir wallet](https://www.zknoir.com/)
 ![logo](https://i.ibb.co/23RkRZZS/Noirwallet.png "Noir")
-- डिवाइस: Web | Desktop
-- ऑपरेटिंग सिस्टम: Browser
-- Pools: Shielded | Transparent
-- विशेषताएँ: Zcash | Browser Extension | Private Beta | Shielded Transactions | Cross-chain Swaps | Lending & Borrowing | DApp Connections | Native ZECFi
+- डिवाइस: वेब | डेस्कटॉप
+- ऑपरेटिंग सिस्टम: ब्राउज़र
+- पूल: Shielded | Transparent
+- विशेषताएँ: Browser Extension | Shielded Transactions | Cross-chain Swaps | Lending & Borrowing | DApp Connections | Rhea
 
 ---
 
 ## [LeoDex](https://leodex.io/)
 ![logo](https://i.ibb.co/3YjpzYnH/Leo-Dexwallet.png "LeoDex")
-- डिवाइस: Web | Desktop
-- ऑपरेटिंग सिस्टम: Browser | Windows | macOS
-- Wallet सपोर्ट: Seed Phrase | External Wallet | Receive Address | QR Code | Hardware
-- Pools: Sapling | Transparent
-- विशेषताएँ: Multi Coin | Cross-chain Swap | No KYC | Non-Custodial | Web App | Desktop App | Shielded ZEC | AnyPay
-
+- डिवाइस: वेब | डेस्कटॉप
+- ऑपरेटिंग सिस्टम: ब्राउज़र | Windows | macOS
+- वॉलेट सपोर्ट: Seed Phrase | External Wallet | Receive Address | QR Code | Hardware
+- पूल: Sapling | Transparent
+- विशेषताएँ: Multi Coin | Near Intents | Maya DEX | KYC नहीं | Non-Custodial | Web App | Desktop App | Shielded ZEC | AnyPay
 
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
-![logo](/assets/images/zapp_logo.png "Zapp")
-- डिवाइस: Android (iOS नियोजित / जल्द आ रहा है)
-- ऑपरेटिंग सिस्टम: Android (वर्तमान), iOS (नियोजित)
-- Wallet सपोर्ट: अंतर्निर्मित Zcash Wallet, जिसमें in-chat ZEC payments नियोजित हैं। Wallet वर्तमान में Beta में है और एक standalone wallet होने के बजाय messaging अनुभव के साथ एकीकृत है।
-- Pools: Sapling/Orchard
-- विशेषताएँ: End-to-end encrypted Messenger | NO KYC | पंजीकरण के लिए फोन नंबर/ईमेल आवश्यक नहीं | अंतर्निर्मित Zcash Wallet (shielded) | SWAP by NEAR Intents | Offramp by P2P.me (On-chain escrow)
+![logo](https://i.ibb.co/mr8rF8y2/zapp-1.png "Zapp")
+- डिवाइस: मोबाइल 
+- ऑपरेटिंग सिस्टम: Android 
+- वॉलेट सपोर्ट: Unified Address 
+- पूल: Transparent | Sapling | Orchard
+- विशेषताएँ: एंड-टू-एंड एन्क्रिप्टेड Messenger | NEAR Intents | P2P.me Offramp | Beta

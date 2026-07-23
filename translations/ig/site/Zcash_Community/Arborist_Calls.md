@@ -10,14 +10,13 @@ The official Arborist Calls page is maintained by the Zcash Foundation:
 
 **[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
 
-> **Rịba ama:** Enweghị oku a na-akpọ Arborist n'izu nke Mee 12, 2026. [Ọkpụkpọ ọzọ: Mee 28th](https://forum.zcashcommunity.com/t/no-arborist-call-this-week-next-call-may-28th/55659).
 
-## Otú E Si Esonye
+## Otú Ị Ga-esi Debanye Aha
 
 The calls alternate between two recurring time slots so that contributors in different regions can participate. Use the official Zcash Foundation page for the current calendar files and Zoom links:
 
 - **15:00 UTC** oge oge
-- **21:00 UTC** oge oge
+
 
 Peeji nke Foundation bụ isi iyi nke eziokwu maka njikọ ndebanye aha, faịlụ kalịnda, na ịnweta nzukọ n'ihi na njikọ nzukọ nwere ike ịgbanwe.
 

@@ -8,7 +8,7 @@ Z2Z Podcast la wɔa dzeɖoɖo didiwo le Ian Sagstetter (tso Electric Coin Compan
 
 Podcast la ƒo nu tso nyati vovovo vovovowo ŋu, gake vevietɔ le Zcash kple ezãlawo ƒe nuteƒekpɔkpɔ ŋu.
 
-Nyi edzi nànya nu tso akpa siwo ava dzɔ le etsɔme ŋu:
+Nyi edzi nànya nu tso akpa siwo gbɔna ŋu:
 
 [z2z Youtube ƒe Haƒoƒo ƒe Ŋkɔwo](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O)
 
@@ -29,7 +29,7 @@ Nyi edzi nànya nu tso akpa siwo ava dzɔ le etsɔme ŋu:
 
 + Nudzɔdzɔ 4 - Zcash ŋutinyawo kple David tso Zcash Media [Youtube](https://www.youtube.com/watch?v=gl5qxA4Q6yk) | [Odysee ƒe agbalẽa](https://odysee.com/@ZecHub:4/z2z-podcast_untitled-recording_david-law50vmad_cfr_2022-sep-15-2320pm-utc-riverside_1:e) | [Spotify ƒe nyawo](https://open.spotify.com/episode/1tgtIAGiOLnb1toGj2cmDQ)
 
-+ Nudzɔdzɔ 5 - Zcash podcast yeyea kple Joël Valenzuela [Youtube](https://www.youtube.com/watch?v=TE1ILZankdM) | [Odysee ƒe agbalẽa](https://odysee.com/@ZecHub:4/podcast-with-joe%CC%88l:6) | [Spotify ƒe nyawo](https://open.spotify.com/episode/1GHzC6aNA8DIxA84yDtQ8W)
++ Episode 5 - Zcash podcast yeyea kple Joël Valenzuela [Youtube](https://www.youtube.com/watch?v=TE1ILZankdM) | [Odysee ƒe agbalẽa](https://odysee.com/@ZecHub:4/podcast-with-joe%CC%88l:6) | [Spotify ƒe nyawo](https://open.spotify.com/episode/1GHzC6aNA8DIxA84yDtQ8W)
 
 + Episode 6 - Zcash Brasil ƒe kpekpeɖeŋunana ƒe ɖoɖo yeyetɔ kple Samara [Youtube](https://www.youtube.com/watch?v=F5_DXXFSEsQ) | [Odysee ƒe agbalẽa](https://odysee.com/@ZecHub:4/zcash-brazil-podcast:e) | [Spotify ƒe nyawo](https://open.spotify.com/episode/5t3lz27CrWFvIWN2K3hKSN)
 
@@ -39,6 +39,6 @@ Nyi edzi nànya nu tso akpa siwo ava dzɔ le etsɔme ŋu:
 
 + Nudzɔdzɔ 9 - ZFAV Habɔbɔ kple Ryan Taylor (si woyɔna be AdjyLeak) [Youtube](https://www.youtube.com/watch?v=BYnhTNkQ-3M) | [Odysee ƒe agbalẽa](https://odysee.com/@ZecHub:4/podcast-ryan-taylor:c) | [Spotify ƒe nyawo](https://open.spotify.com/episode/1TJ6Nycq9nyW2b62ytI3O2)
 
-+ Episode 10 - Ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla na dukɔa ƒe nyonyo kple Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee ƒe agbalẽa](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6) | [Spotify ƒe nyawo]()
++ Episode 10 - Ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla na dukɔa ƒe nyonyo kple Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee ƒe agbalẽa](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
 Ne kafukafu aɖewo le asiwò ku ɖe amesiwo nàdi be yeakpɔ le podcast la me ŋu la, ke te ɖe mía ŋu faa!  DM's na @zechub le Twitter dzi

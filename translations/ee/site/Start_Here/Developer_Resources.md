@@ -19,7 +19,7 @@ Alesi Blockchains & Zcash wɔa dɔe ƒe Kpɔɖeŋu gbadzaa:
 
 [Zebrad ƒe Agbalẽa](https://zebra.zfnd.org/)
 
-[Kekeli ƒe Asitsalawo ƒe Ðoɖowɔɖi](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html)
+[Kekeli ƒe Asitsaha ƒe Ðoɖowɔɖi](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html)
 
 [Android Asitelefon dzi SDK](https://github.com/zcash/zcash-android-wallet-sdk) / [iOS Asitelefon dzi SDK](https://github.com/zcash/ZcashLightClientKit)
 
@@ -29,7 +29,7 @@ Gɔmesese tutuɖo le alesi ƒuƒoƒoawo léa ŋku ɖe nusiwo dzi woanɔ te ɖo �
 
 [Adrɛs ƒe Encoding](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys)
 
-[Zebrad Main Hehe Biabiawo]() / [Zebrad Main Hehe Biabiawo](https://github.com/ZcashFoundation/zebra/pulls)
+[Zebrad ƒe Nudzraɖoƒe](https://github.com/ZcashFoundation/zebra) / [Zebrad Hehe Biabiawo](https://github.com/ZcashFoundation/zebra/pulls)
 
 [Cryptographic Signature agbalẽdzraɖoƒewo](https://github.com/orgs/ZcashFoundation/repositories?type=all)
 
@@ -37,11 +37,11 @@ Gɔmesese tutuɖo le alesi ƒuƒoƒoawo léa ŋku ɖe nusiwo dzi woanɔ te ɖo �
 
 [Atikutsetsebɔ ƒe Agbalẽa](https://zcash.github.io/orchard/)
 
-[Halo ƒe Aɖaka]() / [Orchard Crate](https://docs.rs/orchard/latest/orchard/)
+[Halo2 ƒe Aɖaka](https://docs.rs/halo2_proofs/latest/halo2_proofs/) / [Orchard Crate](https://docs.rs/orchard/latest/orchard/)
 
 [Zcash Numekuku Kple Dɔwɔnawo ƒe Masɔmasɔ](https://discord.gg/6AK7keWFaK)
 
-[Mɔ̃ɖaŋununya bubu siwo do ƒome kple Zcash]() / [Frost Agbalẽa](https://frost.zfnd.org/)
+[Frost ƒe Agbalẽa](https://frost.zfnd.org/)
 
 [Zechub Hackathon ƒe 2024 ƒe emetsonuwo](https://x.com/ZecHub/status/1845212469809033489)
 
@@ -58,7 +58,7 @@ Gɔmesese tutuɖo le alesi ƒuƒoƒoawo léa ŋku ɖe nusiwo dzi woanɔ te ɖo �
 [Zcash Testnet ƒe Nukpɔla](https://testnet.zcashblockexplorer.com/)
 
 
-Woƒo xexlẽdzesi sia nu ƒu tso aɖaŋuɖoɖo siwo dɔwɔla siwo tso Zcash Foundation & ECC na gbɔ. 
+Woƒo xexlẽdzesi sia nu ƒu tso aɖaŋuɖoɖo siwo dɔwɔlawo tso Zcash Foundation & ECC gbɔ na me. 
 
 Ne dɔwɔnu bubu aɖewo le asiwò (kadodowo, agbalẽwo, mɔ̃wo kple bubuawo) be nàtsɔ awɔ xexlẽdzesiawo yeyee la, tsɔ wo de eme faa!
 

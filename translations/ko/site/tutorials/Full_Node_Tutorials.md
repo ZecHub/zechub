@@ -2,43 +2,41 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# 전체 노드 튜토리얼
+# 풀 노드 튜토리얼
 
-Zcash 전체 노드는 네트워크에서 투명하고 보호된 거래를 검증합니다. 전체 노드를 실행함으로써 네트워크의 회복력과 안정성에 기여하게 됩니다. 또한, 전체 노드를 운영하면 사용자에게 더욱 강화된 안전성과 보안 보장이 제공됩니다. 아래는 zcashd 또는 zebrad 전체 노드를 설정하거나 업그레이드하는 영상 가이드입니다.
+Zcash 풀 노드는 네트워크에서 투명 트랜잭션과 실드 트랜잭션을 검증합니다. 풀 노드를 운영하면 네트워크의 복원력과 안정성에 기여하게 됩니다. 또한 풀 노드를 운영하면 사용자에게 향상된 안전성과 보안 보장을 제공합니다. 아래에는 zcashd 또는 zebrad 풀 노드를 설정/업그레이드하는 동영상 가이드가 있습니다.
 
-더 많은 정보가 필요하시면 [가이드](/site/Guides/Full_Nodes)를 참조해 주세요.
+> **참고:** zcashd는 노드용 [Zebra](https://github.com/ZcashFoundation/zebra) (`zebrad`)와 지갑용 [Zallet](https://github.com/zcash/zallet)를 우선하는 방향으로 [지원 중단](https://z.cash/support/zcashd-deprecation/)되고 있습니다. 아래의 zcashd 동영상은 참고용으로 유지되며, 새로 설정하는 경우에는 [마이그레이션 가이드: zcashd에서 Zebrad/Zallet로](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet)를 따르세요.
 
-- Raspberry Pi 4에서 Zcashd 컴파일 방법
+자세한 내용은 [풀 노드 가이드](https://zechub.wiki/full-nodes)를 읽어보세요.
 
-[![영상 썸네일](https://img.youtube.com/vi/SGYrzhs1l2k/hqdefault.jpg)](https://www.youtube.com/watch?v=SGYrzhs1l2k)
+- Raspberry Pi 4에서 Zcashd 컴파일하는 방법
+
+[![Video Thumbnail](https://img.youtube.com/vi/SGYrzhs1l2k/hqdefault.jpg)](https://www.youtube.com/watch?v=SGYrzhs1l2k)
 ____
 
 - Zcashd 지갑 도구
 
-[![영상 썸네일](https://img.youtube.com/vi/9t2LX3HFldw/hqdefault.jpg)](https://www.youtube.com/watch?v=9t2LX3HFldw)
+[![Video Thumbnail](https://img.youtube.com/vi/9t2LX3HFldw/hqdefault.jpg)](https://www.youtube.com/watch?v=9t2LX3HFldw)
 ____
 
-- Zcashd 사용 방법
+- Zcashd 사용 실전 가이드 
 
-[![영상 썸네일](https://img.youtube.com/vi/KNhd1KC0Bqk/hqdefault.jpg)](https://www.youtube.com/watch?v=KNhd1KC0Bqk)
+[![Video Thumbnail](https://img.youtube.com/vi/KNhd1KC0Bqk/hqdefault.jpg)](https://www.youtube.com/watch?v=KNhd1KC0Bqk)
 ____
 
 - Zcashd 노드 업그레이드 방법
 
-[![영상 썸네일](https://img.youtube.com/vi/YjAkaseEqAE/hqdefault.jpg)](https://www.youtube.com/watch?v=YjAkaseEqAE)
+[![Video Thumbnail](https://img.youtube.com/vi/YjAkaseEqAE/hqdefault.jpg)](https://www.youtube.com/watch?v=YjAkaseEqAE)
 _____
 
-- Lightwalletd 서버와 Zebra 사용법
+- Zebra와 함께 Lightwalletd 서버 사용하기
 
-[![영상 썸네일](https://img.youtube.com/vi/FfH5jiX8pT0/hqdefault.jpg)](https://www.youtube.com/watch?v=FfH5jiX8pT0)
+[![Video Thumbnail](https://img.youtube.com/vi/FfH5jiX8pT0/hqdefault.jpg)](https://www.youtube.com/watch?v=FfH5jiX8pT0)
 
 
 ____
 
-- Zenith CLI로 Free2Z에 댓글 달기
+- Zenith CLI로 Free2Z에 댓글 게시하기
 
-[![영상 썸네일](https://img.youtube.com/vi/HtorP8TJ5vk/hqdefault.jpg)](https://www.youtube.com/watch?v=HtorP8TJ5vk)
-
----
-
-**Protected terms (keep in English):** `Zallet`
+[![Video Thumbnail](https://img.youtube.com/vi/HtorP8TJ5vk/hqdefault.jpg)](https://www.youtube.com/watch?v=HtorP8TJ5vk)

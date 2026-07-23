@@ -1,26 +1,26 @@
 ## [ZODL](https://zodl.com)
 ![logo](https://github.com/user-attachments/assets/198608b2-9059-4cb7-aeb8-9354971376fd "ZODL")
-- Пристрої: Мобільний
+- Пристрої: Мобільні
 - Операційна система: Android | iOS
 - Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Пули: Transparent | Sapling | Orchard
-- Функції: Адресна книга | CrossPay | Near Intents | Flexa Payments | MultiSignature | Запит платежу | Shielded Memo | Витрати до синхронізації | TEX Address | Підтримка Tor | F-droid
+- Функції: Адресна книга | CrossPay | Near Intents | Платежі Flexa | Мультипідпис | Запит на оплату | Shielded Memo | Витрати до синхронізації | TEX Address | Підтримка Tor | F-droid
 
 ---
 
 ## [Ywallet](https://ywallet.app/installation/)
 ![logo](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
-- Пристрої: Мобільний | Настільний
+- Пристрої: Мобільні | Настільні
 - Операційна система: Android | iOS | Windows | Linux | macOS
 - Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Пули: Transparent | Sapling | Orchard
-- Функції: Адресна книга | Холодне зберігання | Diversified Address | Запит платежу | Переказ між пулами | Shielded Memo | TEX Address | Голосування | WarpSync
+- Функції: Адресна книга | Холодне зберігання | Diversified Address | Запит на оплату | Переказ між пулами | Shielded Memo | TEX Address | Голосування | WarpSync
 
 ---
 
 ## [Dizzy](https://youtu.be/IVkuo1CGPBU)
 ![logo](https://i.ibb.co/FH918w9/Dizzy-3.png "Dizzy")
-- Пристрої: Мобільний | Настільний
+- Пристрої: Мобільні | Настільні
 - Операційна система: Android | iOS | Windows | Linux | macOS
 - Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address
 - Пули: Sapling | Orchard
@@ -30,17 +30,17 @@
 
 ## [Zingo!](https://www.zingolabs.org/)
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
-- Пристрої: Мобільний | Настільний
+- Пристрої: Мобільні | Настільні
 - Операційна система: Android | iOS | Windows | Linux
 - Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address
 - Пули: Transparent | Sapling | Orchard
-- Функції: Адресна книга | Фінансова аналітика | Запит платежу | PepperSync | Shielded Memo | Підтримка тестової мережі
+- Функції: Адресна книга | Фінансова аналітика | Запит на оплату | PepperSync | Shielded Memo | Підтримка тестової мережі
 
 ---
 
 ## [Edge](https://edge.app)
 ![logo](https://i.ibb.co/4FVQLS9/image-2024-11-28-091312254.png "Edge")
-- Пристрої: Мобільний
+- Пристрої: Мобільні
 - Операційна система: Android | iOS
 - Підтримка гаманця: Seed Phrase | Unified Address
 - Пули: Transparent | Sapling
@@ -50,7 +50,7 @@
 
 ## [Unstoppable](https://unstoppable.money)
 ![logo](https://i.ibb.co/C68mFCx/image-2024-11-28-091200540.png "Unstoppable")
-- Пристрої: Мобільний
+- Пристрої: Мобільні
 - Операційна система: Android | iOS
 - Підтримка гаманця: Seed Phrase | Unified Address
 - Пули: Transparent | Sapling | Orchard
@@ -60,17 +60,17 @@
 
 ## [eZcash](https://blog.nerdbank.net/ezcash-app)
 ![logo](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
-- Пристрої: Мобільний | Настільний
+- Пристрої: Мобільні | Настільні
 - Операційна система: Android | iOS | Windows
 - Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address
 - Пули: Transparent | Sapling | Orchard
-- Функції: Адресна книга | Перевірка адреси | Автоматичне екранування | Diversified Address | Запит платежу | Shielded Memo | TEX Address | Підтримка тестової мережі
+- Функції: Адресна книга | Перевірка адреси | Автоматичне екранування | Diversified Address | Запит на оплату | Shielded Memo | TEX Address | Підтримка тестової мережі
 
 ---
 
 ## [Zkool](https://github.com/hhanh00/zkool2/)
 ![logo](https://i.ibb.co/BHGPff0K/zkool-1.png "Zkool")
-- Пристрої: Мобільний | Настільний
+- Пристрої: Мобільні | Настільні
 - Операційна система: Android | iOS | Windows | Linux
 - Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Пули: Transparent | Sapling | Orchard
@@ -80,7 +80,7 @@
 
 ## [Cake](https://cakewallet.com/install/)
 ![logo](https://github.com/user-attachments/assets/a8234c70-3714-4e80-b918-8739d45aea00 "Cake")
-- Пристрої: Мобільний | Настільний 
+- Пристрої: Мобільні | Настільні 
 - Операційна система: Android | iOS | Windows | Linux | macOS
 - Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address
 - Пули: Transparent | Sapling | Orchard
@@ -90,7 +90,7 @@
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
 ![logo](https://i.ibb.co/VtPBnm6/zenith-2.png "Zenith")
-- Пристрої: Настільний
+- Пристрої: Настільні
 - Операційна система: Windows | Linux | macOS
 - Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address | Full Node
 - Пули: Transparent | Sapling | Orchard
@@ -100,7 +100,7 @@
 
 ## [Zingo-CLI](https://github.com/zingolabs/zingolib)
 ![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo-CLI")
-- Пристрої: Настільний
+- Пристрої: Настільні
 - Операційна система: Windows | Linux | macOS
 - Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address | Full Node
 - Пули: Transparent | Sapling | Orchard
@@ -110,7 +110,7 @@
 
 ## [Zallet](https://github.com/zcash/wallet)
 ![logo](https://i.ibb.co/3mCrR0dN/Brandmark-Yellow.png "Zallet")
-- Пристрої: Настільний
+- Пристрої: Настільні
 - Операційна система: Windows | Linux | macOS
 - Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address | Full Node
 - Пули: Transparent | Sapling | Orchard
@@ -120,7 +120,7 @@
 
 ## [Zcashd](https://github.com/zcash/zcash)
 ![logo](https://i.ibb.co/Xz2NskW/zcashd.png "Zcashd")
-- Пристрої: Настільний
+- Пристрої: Настільні
 - Операційна система: Windows | Linux | macOS
 - Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address | Full Node
 - Пули: Transparent | Sapling | Orchard
@@ -160,7 +160,7 @@
 
 ## [SSP Wallet](https://sspwallet.io)
 ![logo](https://i.ibb.co/X3hdfSY/ssp-1.png "SSP Wallet")
-- Пристрої: Мобільний | Веб
+- Пристрої: Мобільні | Веб
 - Операційна система: Android | iOS | Браузер
 - Підтримка гаманця: Seed Phrase
 - Пули: Transparent
@@ -170,7 +170,7 @@
 
 ## [Trust Wallet](https://trustwallet.com/download)
 ![logo](https://i.ibb.co/cNqxBJ1/trustwallet.png "Trust Wallet")
-- Пристрої: Мобільний | Веб
+- Пристрої: Мобільні | Веб
 - Операційна система: Android | iOS | Браузер
 - Підтримка гаманця: Seed Phrase
 - Пули: Transparent
@@ -180,7 +180,7 @@
 
 ## [Exodus](https://www.exodus.com/zcash-wallet-zec)
 ![logo](https://i.ibb.co/w0NNZNp/exoduscard.png "Exodus")
-- Пристрої: Мобільний | Настільний | Веб
+- Пристрої: Мобільні | Настільні | Веб
 - Операційна система: Android | iOS | Windows | Linux | macOS | Браузер
 - Підтримка гаманця: Seed Phrase
 - Пули: Transparent
@@ -190,7 +190,7 @@
 
 ## [Coinomi](https://www.coinomi.com/en/downloads)
 ![logo](https://i.ibb.co/QfHmjWY/coinomicard.png "Coinomi")
-- Пристрої: Мобільний | Настільний
+- Пристрої: Мобільні | Настільні
 - Операційна система: Android | iOS | Windows
 - Підтримка гаманця: Seed Phrase
 - Пули: Transparent
@@ -220,7 +220,7 @@
 
 ## [Safepal](https://safepal.com)
 ![logo](https://i.ibb.co/h29h6d0/safepalcard.png "Safepal")
-- Пристрої: Мобільний | Веб
+- Пристрої: Мобільні | Веб
 - Операційна система: Android | iOS | Браузер
 - Підтримка гаманця: Seed Phrase | Hardware
 - Пули: Transparent
@@ -240,7 +240,7 @@
 
 ## [Vultisig](https://vultisig.com)
 ![logo](https://i.ibb.co/93wSrxCc/vultisig.png "Vultisig")
-- Пристрої: Веб | Мобільний | Настільний
+- Пристрої: Веб | Мобільні | Настільні
 - Операційна система: Android | iOS | Windows | Linux | macOS | Браузер
 - Пули: Transparent
 - Функції: Мультивалютність | Вебзастосунок
@@ -249,7 +249,7 @@
 
 ## [Vizor](https://vizor.cash/)
 ![logo](https://i.ibb.co/zhW2d2fV/Vizorphoto.png "Vizor")
-- Пристрої: Настільний | Мобільний
+- Пристрої: Настільні | Мобільні
 - Операційна система: macOS
 - Підтримка гаманця: Seed Phrase | Unified Address | Hardware
 - Пули: Transparent | Sapling | Orchard
@@ -259,27 +259,27 @@
 
 ## [Noir wallet](https://www.zknoir.com/)
 ![logo](https://i.ibb.co/23RkRZZS/Noirwallet.png "Noir")
-- Пристрої: Веб | Настільний
+- Пристрої: Веб | Настільні
 - Операційна система: Браузер
-- Пули: Shielded | Transparent
-- Функції: Zcash | Розширення для браузера | Приватна бета-версія | Shielded-транзакції | Cross-chain свопи | Кредитування та позики | Підключення DApp | Вбудований ZECFi
+- Пули: Захищений | Transparent
+- Функції: Розширення для браузера | Захищені транзакції | Кросчейн-обміни | Кредитування та позики | Підключення до DApp | Rhea
 
 ---
 
 ## [LeoDex](https://leodex.io/)
 ![logo](https://i.ibb.co/3YjpzYnH/Leo-Dexwallet.png "LeoDex")
-- Пристрої: Веб | Настільний
+- Пристрої: Веб | Настільні
 - Операційна система: Браузер | Windows | macOS
-- Підтримка гаманця: Seed Phrase | Зовнішній гаманець | Адреса отримання | QR-код | Hardware
+- Підтримка гаманця: Seed Phrase | Зовнішній гаманець | Адреса для отримання | QR-код | Hardware
 - Пули: Sapling | Transparent
-- Функції: Мультивалютність | Near Intents | Maya DEX | Без KYC | Некостодіальний | Вебзастосунок | Настільний застосунок | Shielded ZEC | AnyPay
+- Функції: Мультивалютність | Near Intents | Maya DEX | Без KYC | Некастодіальний | Вебзастосунок | Настільний застосунок | Shielded ZEC | AnyPay
 
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
 ![logo](https://i.ibb.co/mr8rF8y2/zapp-1.png "Zapp")
-- Пристрої: Мобільний 
+- Пристрої: Мобільні 
 - Операційна система: Android 
 - Підтримка гаманця: Unified Address 
 - Пули: Transparent | Sapling | Orchard
-- Функції: Наскрізно зашифрований месенджер | NEAR Intents | P2P.me Offramp | Бета
+- Функції: Messenger із наскрізним шифруванням | NEAR Intents | P2P.me Offramp | Бета

@@ -29,7 +29,7 @@ Nteaseɛ a wɔbɛkyekyere wɔ sɛdeɛ wɔsan hwɛ & wɔhwɛ so wɔ dependencies 
 
 [Address a Wɔde Di Dwuma](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys)
 
-[Zebrad Main Twe Abisadeɛ]() / [Zebrad Titiriw Twe Abisade](https://github.com/ZcashFoundation/zebra/pulls)
+[Zebrad Adekorabea](https://github.com/ZcashFoundation/zebra) / [Zebrad Twe Abisadeɛ](https://github.com/ZcashFoundation/zebra/pulls)
 
 [Cryptographic Signature nhomakorabea ahorow](https://github.com/orgs/ZcashFoundation/repositories?type=all)
 
@@ -37,11 +37,11 @@ Nteaseɛ a wɔbɛkyekyere wɔ sɛdeɛ wɔsan hwɛ & wɔhwɛ so wɔ dependencies 
 
 [Nnuaba turo Nhoma no](https://zcash.github.io/orchard/)
 
-[Halo Krataa a Wɔde Di Dwuma]() / [Orchard Crate](https://docs.rs/orchard/latest/orchard/)
+[Halo2 Krataa a wɔde hyɛ mu](https://docs.rs/halo2_proofs/latest/halo2_proofs/) / [Orchard Crate](https://docs.rs/orchard/latest/orchard/)
 
 [Zcash R&D Nkitahodi](https://discord.gg/6AK7keWFaK)
 
-[Mfiridwuma afoforo a ɛfa Zcash ho]() / [Frost Nhoma no](https://frost.zfnd.org/)
+[Frost Nhoma no](https://frost.zfnd.org/)
 
 [Zechub Hackathon 2024 mu aba](https://x.com/ZecHub/status/1845212469809033489)
 

@@ -10,23 +10,22 @@ Zcash Foundation ye léa be na Arborist Calls ƒe axa si dziɖuɖua da asi ɖo:
 
 **[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
 
-> **De dzesii:** Womewɔ Arborist Call aɖeke le kwasiɖa si nye May 12, 2026. [Next call: May 28th](https://forum.zcashcommunity.com/t/no-arborist-call-this-week-next-call-may-28th/55659).
 
 ## Ale Si Nàwɔ Awɔ Ðeka
 
 Kaƒoƒoawo ɖɔlia ɣeyiɣi eve siwo gbugbɔna yia edzi ale be nudzɔla siwo le nuto vovovowo me nate ŋu akpɔ gome le eme. Zã Zcash Foundation ƒe axa si dziɖuɖua da asi ɖo na ɣletigbalẽ ƒe faɛl siwo li fifia kple Zoom ƒe kadodowo:
 
 - **15:00 UTC** ɣeyiɣi ƒe didime
-- **21:00 UTC** ɣeyiɣi ƒe didime
+
 
 Gɔmeɖoanyi ƒe axaae nye nyateƒetsoƒe na ŋkɔ ŋɔŋlɔ ƒe kadodowo, ɣletigbalẽ ƒe faɛlwo, kple kpekpewo ƒe mɔɖeɖe elabena kpekpewo ƒe kadodowo ateŋu atrɔ.
 
-## Nuŋlɔɖiwo, Ðoɖowɔɖiwo, Kple Nusiwo Wolé Ðo Ðe Nyatakakadzraɖoƒea
+## Nuŋlɔɖiwo, Ðoɖowɔɖiwo, Kple Nya Siwo Wolé Ðe Nyatakakadzraɖoƒe
 
 - Ðoɖowɔɖi blibowo kple aɖabaƒoƒowo: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
 - Nusiwo wolé ɖe mɔ̃ dzi nyitsɔ laa: [Zcash Arborist Call ƒe haƒoƒo ƒe xexlẽdzesi](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
 - Zcash Numekuku Kple Dɔwɔnawo Ŋuti Numedzodzro: [Zcash Numekuku Kple Dɔwɔnawo ƒe Masɔmasɔ](https://discord.gg/xpzPR53xtU)
-- Numedzodzro didi: [Zcash Nutome Nyamedzroƒe](https://forum.zcashcommunity.com/)
+- Numedzodzro didi: [Zcash Nutome Takpekpe](https://forum.zcashcommunity.com/)
 
 ## Ame Siwo Wòle Be Woade
 
@@ -34,7 +33,7 @@ Arborist Calls ɖea vi na:
 
 - Protocol ƒe mɔ̃ɖaŋudɔwɔlawo kple numekulawo
 - Node, gakotoku, SDK, kple lightwallet ƒe xɔtuɖoɖowo wɔlawo
-- Na kpekpeɖeŋunala siwo ƒe dɔwɔwɔ ka nu ɖekawɔwɔ, network ƒe ɖɔɖɔɖo, alo ɖoɖowɔɖi ƒe nusiwo dzi woanɔ te ɖo
+- Na kpekpeɖeŋunala siwo ƒe dɔa ka nusiwo dzi woda asi ɖo, network ƒe ɖɔɖɔɖo, alo ɖoɖowɔɖi ƒe nusiwo dzi woanɔ te ɖo
 - Nutoa me tɔ siwo di be yewoawɔ ɖe mɔ̃ɖaŋu ŋuti nyametsotsowɔwɔ dzi le dutoƒo
 
 ## Haƒoƒo ƒe xexlẽdzesi
