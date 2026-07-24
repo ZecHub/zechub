@@ -4,15 +4,15 @@
 
 # Canopy
 
-> Status: Activated. Canopy went live on Zcash mainnet at block 1,046,400 (November 18, 2020 UTC). Some dashboards show it in local time, which is the same block and the same moment.
+> Canopy went live on Zcash mainnet at block 1,046,400 (November 18, 2020 UTC).
 
 What you'll take away: how Zcash kept funding its own development after the founders reward ended, and how Canopy set up the funding split that later upgrades still build on.
 
 Canopy is Zcash's fifth network upgrade, also labeled Network Upgrade 4 (NU4). It is deployed by [ZIP 251](https://zips.z.cash/zip-0251), and it activated at mainnet block 1,046,400 on November 18, 2020 (UTC), the same moment as Zcash's first block reward halving. Canopy was mainly a governance and monetary upgrade. It ended the original founders reward and started the new Zcash Development Fund, which pays the Electric Coin Company, the Zcash Foundation, and independent grant recipients. The policy behind that fund came out of an extended community governance process in 2019.
 
-Why this matters. Software usually gets paid for by a company. Zcash is a decentralized network with no single owner, and the original founders reward that funded its early years was scheduled to end at the first halving. Without a replacement, every coin of the post-halving block reward would have gone to miners, leaving nothing at the protocol level for the people who keep building Zcash. Canopy was the replacement. It routed a fixed share of each block reward into a Development Fund and set the rules for who receives it.
+Why this matters. Zcash funds its own development from block rewards, because it has no company behind it. The founders reward that paid for its early years was set to end at the first halving. Canopy was the replacement: it routed a fixed share of each block reward into a Development Fund and set who receives it. That model was refined by later upgrades, up to [NU6.1](NU6_1.md).
 
-![Before Canopy the founders reward funded development and was set to end at the first halving; after Canopy the Development Fund takes 20 percent of each block reward and runs to the second halving in 2024](assets/canopy-founders-to-devfund.png)
+![Before Canopy the founders reward funded development and was set to end at the first halving. After Canopy the Development Fund takes 20 percent of each block reward and runs to the second halving in 2024](assets/canopy-founders-to-devfund.png)
 
 ## The development fund
 
@@ -38,7 +38,7 @@ Canopy also started retiring the oldest shielded pool. Sprout was Zcash's first 
 
 From the moment Canopy activated, no new value can be added into the Sprout pool. In technical terms, the vpub_old field of every JoinSplit must be zero. Funds already in Sprout can still be withdrawn, so nobody is locked out, but the pool can only shrink from here. This is a first step toward eventually deprecating the legacy Sprout pool in favor of newer shielded pools.
 
-![Before Canopy, value could both enter and leave the Sprout pool; after Canopy, no new value can enter but withdrawals are still allowed](assets/canopy-sprout-pool.png)
+![Before Canopy, value could both enter and leave the Sprout pool. After Canopy, no new value can enter but withdrawals are still allowed](assets/canopy-sprout-pool.png)
 
 ## The technical extras
 
@@ -86,9 +86,9 @@ The original founders reward was scheduled to end at the first halving. Without 
 
 [ZIP 207: Funding Streams](https://zips.z.cash/zip-0207)
 
-[ZIP 214: Consensus Rules for a Zcash Development Fund](https://zips.z.cash/zip-0214)
+[ZIP 214: Consensus rules for a Zcash Development Fund](https://zips.z.cash/zip-0214)
 
-[ZIP 211: Disabling Addition of New Value to the Sprout Value Pool](https://zips.z.cash/zip-0211)
+[ZIP 211: Disabling Addition of New Value to the Sprout Chain Value Pool](https://zips.z.cash/zip-0211)
 
 [Canopy Network Upgrade](https://z.cash/upgrade/canopy/)
 
@@ -108,4 +108,4 @@ The original founders reward was scheduled to end at the first halving. Without 
 
 ---
 
-*Footer*
+Series: [Network Upgrades index](../Start_Here/Network_Upgrades.md) · Previous: [Heartwood](Heartwood.md) · Next: [NU5](NU5.md)

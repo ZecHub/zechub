@@ -4,7 +4,7 @@
 
 # Blossom
 
-> Status: Activated. Blossom went live on Zcash mainnet at block 653,600 (December 11, 2019 UTC). Some dashboards show it in local time, which is the same block and the same moment.
+> Blossom went live on Zcash mainnet at block 653,600 (December 11, 2019 UTC).
 
 What you'll take away: how Blossom made Zcash blocks arrive about twice as fast without changing how much ZEC the network creates over time.
 
@@ -21,17 +21,17 @@ Two things follow:
 1. Blocks arrive about twice as often, so the chain can carry roughly double the transactions per unit of time.
 2. Your transaction gets its first confirmation sooner, because you do not wait as long for the next block.
 
-![Before Blossom the block target was 150 seconds with slower confirmations and lower throughput; after Blossom the target is 75 seconds with faster confirmations and roughly double the throughput](assets/blossom-block-spacing.png)
+![Before Blossom the block target was 150 seconds with slower confirmations and lower throughput. After Blossom the target is 75 seconds with faster confirmations and roughly double the throughput](assets/blossom-block-spacing.png)
 
 ## Keeping issuance steady
 
-Faster blocks raise a question. If Zcash makes twice as many blocks and each block still paid the same reward, the network would create ZEC twice as fast. Blossom avoids that. It halved the reward paid per block, and it doubled the block-reward halving interval from 840,000 to 1,680,000 blocks ([ZIP 208](https://zips.z.cash/zip-0208)). Twice as many blocks, each paying half as much, works out to the same amount of ZEC created per unit of time. The total supply schedule and the timing of future halvings, measured in real time, did not change.
+Faster blocks raise a question. If Zcash made twice as many blocks and each block still paid the same reward, the network would create ZEC twice as fast. Blossom avoids that. It halved the reward paid per block, and it doubled the block-reward halving interval from 840,000 to 1,680,000 blocks ([ZIP 208](https://zips.z.cash/zip-0208)). Twice as many blocks, each paying half as much, works out to the same amount of ZEC created per unit of time. The total supply schedule and the timing of future halvings, measured in real time, did not change.
 
 ![How Blossom keeps issuance steady: 75 second blocks arrive twice as often, the per-block reward is halved, the halving interval is doubled, so total emission over time stays the same](assets/blossom-emission-balance.png)
 
 ## A mandatory upgrade
 
-Blossom was a bilateral consensus change, which means every node had to upgrade to keep following the chain ([ZIP 206](https://zips.z.cash/zip-0206)). It was not optional for a node operator who wanted to stay in sync. Blossom activated at mainnet block 653,600 and carries the consensus branch id 0x2bb40e60, a tag that lets nodes and transactions confirm they are on the Blossom rules. The upgrade used Zcash's standard network upgrade mechanism ([ZIP 200](https://zips.z.cash/zip-0200)).
+Blossom was a bilateral consensus change, which means every node had to upgrade to keep following the chain ([ZIP 206](https://zips.z.cash/zip-0206)). It was not optional for a node operator who wanted to stay in sync. Blossom activated at mainnet block 653,600 and carries its own consensus branch id, a tag that lets nodes and transactions confirm they are on the Blossom rules. The upgrade used Zcash's standard network upgrade mechanism ([ZIP 200](https://zips.z.cash/zip-0200)).
 
 ## Where Blossom fits
 
@@ -95,4 +95,4 @@ Because Blossom also halved the reward paid per block and doubled the halving in
 
 ---
 
-*Footer*
+Series: [Network Upgrades index](../Start_Here/Network_Upgrades.md) · Previous: [Sapling](Sapling.md) · Next: [Heartwood](Heartwood.md)

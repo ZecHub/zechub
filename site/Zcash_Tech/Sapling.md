@@ -4,13 +4,13 @@
 
 # Sapling
 
-> Status: Activated. Sapling went live on Zcash mainnet at block 419,200 (October 29, 2018, 02:15 UTC). Some dashboards show it in local time, which is the same block and the same moment.
+> Sapling went live on Zcash mainnet at block 419,200 (October 29, 2018, 02:15 UTC).
 
 What you'll take away: Sapling made private Zcash payments fast and light enough to run on a phone or a hardware wallet.
 
-Sapling was the second major Zcash network upgrade, activating on Zcash's second anniversary. It was a consensus hard fork that rebuilt how shielded (private) transactions are put together. The deployment is defined by ZIP 205, the new transaction signature rules by ZIP 243, and both build on ZIP 200, the network upgrade mechanism. The full details live in the Zcash Protocol Specification. Electric Coin Company built the upgrade and shipped the first version that supported it, zcashd 2.0.0, in August 2018. On chain, the network identifies the Sapling rules by the consensus branch id 76b809bb.
+Sapling was the second major Zcash network upgrade, activating on Zcash's second anniversary. It was a consensus hard fork that rebuilt how shielded (private) transactions are put together. The deployment is defined by ZIP 205, the new transaction signature rules by ZIP 243, and both build on ZIP 200, the network upgrade mechanism. The full details live in the Zcash Protocol Specification. Electric Coin Company built the upgrade and shipped the first version that supported it, zcashd 2.0.0, in August 2018. On chain, the network identifies the Sapling rules by its consensus branch id.
 
-**Why this matters.** Before Sapling, making a truly private payment meant waiting minutes while your computer chewed through gigabytes of memory to build the proof. That was too slow and too heavy for most people, so a lot of users, exchanges, and shops skipped shielded transactions and sent ZEC in the open instead. Sapling cut the work down to a few seconds and about 40 megabytes of memory. That single change is what made shielded ZEC practical to use in everyday life, on ordinary phones and on hardware wallets.
+Why this matters. Before Sapling, making a truly private payment meant waiting minutes while your computer chewed through gigabytes of memory to build the proof. That was too slow and too heavy for most people, so a lot of users, exchanges, and shops skipped shielded transactions and sent ZEC in the open instead. Sapling cut the work down to a few seconds and about 40 megabytes of memory. That single change is what made shielded ZEC practical to use in everyday life, on ordinary phones and on hardware wallets.
 
 ## What changed
 
@@ -32,40 +32,34 @@ Sapling's circuits rely on a set of public parameters that had to be generated c
 
 ## How it activated
 
-Sapling followed Overwinter, the June 2018 upgrade that prepared the network's upgrade mechanism. Electric Coin Company set the mainnet activation height in zcashd 2.0.0, released in August 2018, and the network switched to the Sapling rules when block 419,200 was mined. On chain, that moment is marked by the consensus branch id 76b809bb (written 0x76b809bb in ZIP 205).
+Sapling followed Overwinter, the June 2018 upgrade that prepared the network's upgrade mechanism. Electric Coin Company set the mainnet activation height in zcashd 2.0.0, released in August 2018, and the network switched to the Sapling rules when block 419,200 was mined. On chain, that moment is marked by the Sapling consensus branch id.
 
 ![Timeline from Zcash launch to Sapling activation](assets/sapling-timeline.png)
 
 ## Glossary
 
 | Term | Plain-English meaning |
-| --- | --- |
+|---|---|
 | Shielded transaction | A private Zcash transaction that hides the sender, receiver, and amount. |
 | Sprout | The original shielded protocol Zcash launched with, slower and heavier than Sapling. |
 | Spend and Output circuits | The two new Sapling proving circuits that replaced Sprout's single JoinSplit circuit. |
 | Diversified address | One of many unlinkable payment addresses you can derive from a single key. |
 | Viewing key | A key that lets someone see a wallet's transactions without being able to spend from it. |
-| Consensus branch id | A short code (76b809bb) that tells the network which upgrade's rules a transaction follows. |
+| Consensus branch id | A short code that tells the network which upgrade's rules a transaction follows. |
 
 ## FAQ
 
-**Did Sapling change how much ZEC I own?**
-No. Sapling changed how shielded transactions are built, not the amount of ZEC anyone holds or the total supply. Your balance was unaffected.
+Did Sapling change how much ZEC I own? No. Sapling changed how shielded transactions are built, not the amount of ZEC anyone holds or the total supply. Your balance was unaffected.
 
-**Is my ZEC still private after Sapling?**
-Yes, and more usable. Sapling kept the strong privacy of shielded transactions and made them fast and cheap enough to actually use. Shielded funds stay hidden the same way.
+Is my ZEC still private after Sapling? Yes, and more usable. Sapling kept the strong privacy of shielded transactions and made them fast and cheap enough to actually use. Shielded funds stay hidden the same way.
 
-**Do I have to do anything?**
-No action is required from you as a holder. Sapling was a network upgrade that wallet and node software adopted. Modern wallets already support Sapling addresses.
+Do I have to do anything? No action is required from you as a holder. Sapling was a network upgrade that wallet and node software adopted. Modern wallets already support Sapling addresses.
 
-**What is the difference between Sprout and Sapling?**
-Sprout was the first shielded protocol and used one slow, memory-heavy proving circuit. Sapling replaced it with faster Spend and Output circuits, added viewing keys and diversified addresses, and made shielded transactions light enough for phones and hardware wallets.
+What is the difference between Sprout and Sapling? Sprout was the first shielded protocol and used one slow, memory-heavy proving circuit. Sapling replaced it with faster Spend and Output circuits, added viewing keys and diversified addresses, and made shielded transactions light enough for phones and hardware wallets.
 
-**Why do some sources say October 28 and others October 29?**
-The activation height was set in advance to target October 28, 2018. The block that actually triggered the change, block 419,200, was mined in the early hours of October 29 UTC. In many local time zones that was still October 28. It is the same block and the same moment either way.
+Why do some sources say October 28 and others October 29? The activation height was set in advance to target October 28, 2018. The block that actually triggered the change, block 419,200, was mined in the early hours of October 29 UTC. In many local time zones that was still October 28. It is the same block and the same moment either way.
 
-**What is a viewing key?**
-A viewing key lets you share read access to a shielded wallet. Someone with a full or incoming viewing key can see the wallet's transaction details but cannot spend its funds. See Viewing Keys for more.
+What is a viewing key? A viewing key lets you share read access to a shielded wallet. Someone with a full or incoming viewing key can see the wallet's transaction details but cannot spend its funds. See [Viewing Keys](Viewing_Keys.md) for more.
 
 ## Test your understanding
 
@@ -94,4 +88,4 @@ Under Sprout, building a shielded transaction took minutes and used gigabytes of
 
 ---
 
-*This page is part of the ZecHub community wiki. Use the Edit link at the top to suggest changes.*
+Series: [Network Upgrades index](../Start_Here/Network_Upgrades.md) · Previous: [Overwinter](Overwinter.md) · Next: [Blossom](Blossom.md)

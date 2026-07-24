@@ -4,7 +4,7 @@
 
 # Sprout
 
-> Status: Launched. Zcash launched on October 28, 2016, with the Sprout shielded pool.
+> Zcash launched on October 28, 2016, with the Sprout shielded pool.
 
 What you'll take away: Sprout is where Zcash began, the first time private, verifiable money ran on a live blockchain.
 
@@ -35,8 +35,8 @@ Sprout is the baseline that every later change builds on. When the network-upgra
 | Term | Plain-English meaning |
 |---|---|
 | zk-SNARK | A zero-knowledge proof that shows a transaction is valid without revealing the sender, receiver, or amount |
-| Shielded pool | The private side of Zcash where amounts and parties are hidden; the Sprout pool was the first one |
-| z-address and t-address | A z-address is shielded and keeps details private; a t-address is transparent and shows details on the public ledger |
+| Shielded pool | The private side of Zcash where amounts and parties are hidden. The Sprout pool was the first one |
+| z-address and t-address | A z-address is shielded and keeps details private. A t-address is transparent and shows details on the public ledger |
 | The Ceremony | The 2016 multi-party setup that generated Sprout's public parameters and then discarded the toxic waste |
 | Toxic waste | The secret key pieces from the Ceremony that had to be destroyed so ZEC could not be forged |
 | Consensus branch id 0 | The label for Sprout's rules, meaning the baseline before any network upgrade |
@@ -86,4 +86,4 @@ Sprout is the original launch of Zcash, not a later upgrade. It has been active 
 
 ---
 
-*Footer*
+Series: [Network Upgrades index](../Start_Here/Network_Upgrades.md) · Next: [Overwinter](Overwinter.md)

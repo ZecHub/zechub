@@ -4,7 +4,7 @@
 
 # NU5
 
-> Status: Activated. NU5 went live on Zcash mainnet at block 1,687,104 (May 31, 2022 UTC). Some dashboards show it in local time, which is the same block and the same moment.
+> NU5 went live on Zcash mainnet at block 1,687,104 (May 31, 2022 UTC).
 
 What you'll take away: how NU5 gave Zcash a new shielded pool that needs no trusted setup, plus a single address type that works across pools.
 
@@ -18,11 +18,11 @@ Orchard is Zcash's newest shielded protocol, defined in [ZIP 224](https://zips.z
 
 Sprout and Sapling both depended on a trusted setup. A group of people ran a ceremony to build each pool's parameters, and everyone had to trust that at least one of them destroyed their piece of the secret. Orchard removes that assumption. The older pools still exist after NU5, so the no-setup guarantee applies to funds you hold in the Orchard pool.
 
-![Before NU5, Sprout and Sapling needed a trusted setup ceremony; after NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](assets/nu5-trusted-setup.png)
+![Before NU5, Sprout and Sapling needed a trusted setup ceremony. After NU5, the Orchard pool uses the Halo 2 system and needs no trusted setup](assets/nu5-trusted-setup.png)
 
 ## What NU5 changed
 
-NU5 bundles several consensus changes, all activated together at block 1,687,104 under consensus branch id 0xc2d6d0b4.
+NU5 bundles several consensus changes, all activated together at block 1,687,104.
 
 1. It added the Orchard shielded pool (ZIP 224), the Halo 2 based protocol described above.
 2. It added the version 5 transaction format (ZIP 225), a restructured layout with separate regions for transparent, Sapling, and new Orchard data. Sprout fields were removed, and the older version 4 format stayed valid after activation.
@@ -54,7 +54,7 @@ NU5 followed Zcash's earlier upgrades: Overwinter, Sapling, Blossom, Heartwood, 
 | Halo 2 | The proving system behind Orchard that needs no trusted setup |
 | Trusted setup | A one-time ceremony that makes a pool's secret parameters and must be trusted to destroy them |
 | Unified address | A single address that can bundle receivers for more than one pool (ZIP 316) |
-| Consensus branch id | An identifier marking which set of rules a transaction belongs to; NU5's is 0xc2d6d0b4 |
+| Consensus branch id | An identifier marking which set of rules a transaction belongs to |
 
 ## FAQ
 
@@ -76,7 +76,7 @@ Sprout and Sapling both needed a trusted setup ceremony. What did NU5's Orchard 
 
 <details><summary>Answer</summary>
 
-Orchard is built on the Halo 2 proving system, which needs no trusted setup and no structured reference string. That removes the risk that leftover secret parameters could ever be used to counterfeit ZEC. The guarantee applies to funds held in the Orchard pool; the older Sapling parameters still exist after NU5.
+Orchard is built on the Halo 2 proving system, which needs no trusted setup and no structured reference string. That removes the risk that leftover secret parameters could ever be used to counterfeit ZEC. The guarantee applies to funds held in the Orchard pool. The older Sapling parameters still exist after NU5.
 </details>
 
 ### Resources
@@ -109,4 +109,4 @@ Orchard is built on the Halo 2 proving system, which needs no trusted setup and 
 
 ---
 
-*Footer*
+Series: [Network Upgrades index](../Start_Here/Network_Upgrades.md) · Previous: [Canopy](Canopy.md) · Next: [NU6](NU6.md)

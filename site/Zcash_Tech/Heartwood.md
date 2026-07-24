@@ -4,11 +4,11 @@
 
 # Heartwood
 
-> Status: Activated. Heartwood went live on Zcash mainnet at block 903,000 (July 16, 2020 UTC). Some dashboards show it in local time, which is the same block and the same moment.
+> Heartwood went live on Zcash mainnet at block 903,000 (July 16, 2020 UTC).
 
 What you'll take away: how Heartwood let miners receive their block rewards straight into shielded addresses, and how it made Zcash's proof-of-work checkable by lightweight clients.
 
-Heartwood is a Zcash [network upgrade](../Start_Here/Network_Upgrades.md), a consensus-rule hard fork whose deployment is defined in [ZIP 250](https://zips.z.cash/zip-0250). It bundled two feature changes: [ZIP 213](https://zips.z.cash/zip-0213) (Shielded Coinbase) and [ZIP 221](https://zips.z.cash/zip-0221) (FlyClient). Heartwood was Zcash's fourth major network upgrade, and it was jointly supported by the [Electric Coin Company](../Zcash_Organizations/Electric_Coin_Company.md) and the [Zcash Foundation](../Zcash_Organizations/Zcash_Foundation.md). Like every Zcash upgrade, it set a new consensus branch id (f5b9230b), a tag that gives two-way replay protection so a transaction built under the new rules cannot be replayed on the old chain, and the reverse.
+Heartwood is a Zcash [network upgrade](../Start_Here/Network_Upgrades.md), a consensus-rule hard fork whose deployment is defined in [ZIP 250](https://zips.z.cash/zip-0250). It bundled two feature changes: [ZIP 213](https://zips.z.cash/zip-0213) (Shielded Coinbase) and [ZIP 221](https://zips.z.cash/zip-0221) (FlyClient). Heartwood was Zcash's fourth major network upgrade, and it was jointly supported by the [Electric Coin Company](../Zcash_Organizations/Electric_Coin_Company.md) and the [Zcash Foundation](../Zcash_Organizations/Zcash_Foundation.md). Like every Zcash upgrade, it set a new consensus branch id, a tag that gives two-way replay protection so a transaction built under the new rules cannot be replayed on the old chain, and the reverse.
 
 Heartwood activates at a set block height (903,000), not at a fixed clock time, so the exact minute you see on a dashboard can differ slightly from one place to another. The block, and the moment, are the same.
 
@@ -18,7 +18,7 @@ Why this matters. Miners earn newly minted ZEC every time they mine a block. Bef
 
 The coinbase transaction is the special transaction that pays out a block reward. Before Heartwood, its outputs had to be transparent, so a miner's freshly minted ZEC always started life in a public address. Heartwood changed the consensus rules so that, in the words of ZIP 213, coinbase transactions may contain Sapling outputs. In plain terms, miners can now receive rewards directly into shielded Sapling addresses. Transparent coinbase outputs are still supported, so this is a new option, not a forced change.
 
-![Before Heartwood a miner's block reward had to go to a transparent public address; after Heartwood coinbase transactions may contain Sapling outputs, so the reward can go straight to a shielded address](assets/heartwood-shielded-coinbase.png)
+![Before Heartwood a miner's block reward had to go to a transparent public address. After Heartwood coinbase transactions may contain Sapling outputs, so the reward can go straight to a shielded address](assets/heartwood-shielded-coinbase.png)
 
 ## Why Sapling first
 
@@ -75,7 +75,7 @@ Coinbase outputs had to be transparent, so a miner's newly minted reward always 
 
 [ZIP 213: Shielded Coinbase](https://zips.z.cash/zip-0213)
 
-[ZIP 221: FlyClient, Consensus-Layer Changes](https://zips.z.cash/zip-0221)
+[ZIP 221: FlyClient - Consensus-Layer Changes](https://zips.z.cash/zip-0221)
 
 [Heartwood network upgrade](https://z.cash/upgrade/heartwood/)
 
@@ -95,4 +95,4 @@ Coinbase outputs had to be transparent, so a miner's newly minted reward always 
 
 ---
 
-*Footer*
+Series: [Network Upgrades index](../Start_Here/Network_Upgrades.md) · Previous: [Blossom](Blossom.md) · Next: [Canopy](Canopy.md)

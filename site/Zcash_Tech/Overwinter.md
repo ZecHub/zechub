@@ -4,7 +4,7 @@
 
 # Overwinter
 
-> Status: Activated. Overwinter went live on Zcash mainnet at block 347,500 (June 26, 2018 UTC). Some dashboards show it in local time, which is the same block and the same moment.
+> Overwinter went live on Zcash mainnet at block 347,500 (June 26, 2018 UTC).
 
 What you'll take away: how Zcash learned to change its own rules safely, and why that groundwork made every later upgrade, starting with Sapling, possible.
 
@@ -12,13 +12,13 @@ Overwinter is a Zcash [network upgrade](../Start_Here/Network_Upgrades.md), the 
 
 Why this matters. Changing the rules of a live blockchain is dangerous. Get it wrong and two versions of the network can disagree, or a transaction meant for one chain can be copied onto another. Before Overwinter, Zcash had no standard, replay-safe way to coordinate a rule change. Overwinter fixed that. It gave Zcash a formal process for upgrades and, just as important, two-way replay protection, so a transaction that is valid under one set of rules cannot be replayed under another. That groundwork is what made Sapling, and every upgrade after it, possible to activate cleanly.
 
-![Before and after Overwinter: before, no standard upgrade path and no replay protection; after, a network upgrade mechanism with two-way replay protection and safe future upgrades](assets/overwinter-before-after.png)
+![Before and after Overwinter: before, no standard upgrade path and no replay protection. After, a network upgrade mechanism with two-way replay protection and safe future upgrades](assets/overwinter-before-after.png)
 
 ## The upgrade mechanism
 
 Overwinter introduced the Network Upgrade Mechanism, defined in [ZIP 200](https://zips.z.cash/zip-0200). Every upgrade now defines two things: a consensus branch id that names the current set of rules, and an activation height, the block at which the new rules take effect. This gives everyone running Zcash software a clear window to update before the switch.
 
-Overwinter itself activated on mainnet at block 347,500, with consensus branch id 0x5ba81b19.
+Overwinter itself activated on mainnet at block 347,500.
 
 [ZIP 201](https://zips.z.cash/zip-0201) handles how nodes treat each other around an upgrade. Before activation, nodes prefer to connect to peers running the same version. At activation, a node disconnects from peers that are on a different consensus branch, so the network splits cleanly along the new rules instead of getting confused.
 
@@ -104,4 +104,4 @@ Because it built the machinery that every later upgrade depends on. Overwinter i
 
 ---
 
-*Footer*
+Series: [Network Upgrades index](../Start_Here/Network_Upgrades.md) · Previous: [Sprout](Sprout.md) · Next: [Sapling](Sapling.md)

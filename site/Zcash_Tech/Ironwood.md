@@ -4,11 +4,11 @@
 
 # Ironwood
 
-> Status: Scheduled. Ironwood activates on Zcash mainnet at block 3,428,143 (July 28, 2026 UTC).
+> Ironwood activates on Zcash mainnet at block 3,428,143, expected around July 28, 2026 UTC.
 
 What you'll take away: what Ironwood changes, why a bug in hidden money is serious, and how the turnstile lets anyone confirm that no ZEC was forged.
 
-Ironwood is a Zcash [network upgrade](../Start_Here/Network_Upgrades.md), formally NU6.3, that introduces a new shielded pool of the same name. A [shielded pool](../Using_Zcash/Shielded_Pools.md) is the set of funds whose amounts and owners stay hidden by [zero-knowledge cryptography](zk_SNARKS.md). Ironwood exists to contain and audit a soundness bug found in the existing Orchard shielded pool, and to give the community a stronger way to check that the total supply of ZEC is honest. Its consensus rules are finalized in [ZIP 258](https://zips.z.cash/zip-0258).
+Ironwood is a Zcash [network upgrade](../Start_Here/Network_Upgrades.md), formally NU6.3, that introduces a new shielded pool of the same name. A [shielded pool](../Using_Zcash/Shielded_Pools.md) is the set of funds whose amounts and owners stay hidden by [zero-knowledge cryptography](zk_SNARKS.md). Ironwood exists to contain and audit a soundness bug found in the existing Orchard shielded pool, and to give the community a stronger way to check that the total supply of ZEC is honest. Its consensus rules are specified in [ZIP 258](https://zips.z.cash/zip-0258).
 
 Why this matters. With transparent money like Bitcoin, anyone can check that no coins were forged by reading the public ledger. Shielded money hides the amounts, so you cannot just look. Instead the cryptography itself has to guarantee that no one can create money in secret. Ironwood matters because a bug was found in that guarantee for the Orchard pool. The upgrade closes the gap and gives anyone a way to confirm that the total supply of ZEC is still honest.
 
@@ -21,12 +21,12 @@ New to Zcash? Start with [What is ZEC and Zcash](../Start_Here/What_is_ZEC_and_Z
 In late May 2026, independent security researcher Taylor Hornby, during a protocol audit for [Shielded Labs](../Zcash_Organizations/Shielded_Labs.md), responsibly disclosed a soundness bug in the Orchard shielded pool. Orchard was Zcash's newest shielded pool at the time, and the flaw sat in an elliptic-curve part of its zero-knowledge circuit, which uses the [Halo](Halo.md) 2 proving system.
 
 1. A soundness bug means the math that proves a transaction is valid does not fully guarantee it.
-2. In theory, an attacker could have used the flaw to mint counterfeit ZEC that left no trace a normal node would catch.
-3. That meant the total ZEC supply was no longer fully enforced by the Orchard pool's cryptography.
+2. In theory, an attacker could have used the flaw to forge invalid value inside the Orchard pool and spend funds that were not really theirs, leaving no trace a normal node would catch.
+3. Zcash's turnstile still capped how much value could ever leave Orchard, so the total supply could not be inflated, but the pool's own cryptography no longer guaranteed that every hidden coin inside it was real.
 
 ![The bug explained: a transaction puts in 5 ZEC, but the flawed proof still passes when 7 ZEC come out, creating 2 ZEC from nothing](assets/ironwood-bug.png)
 
-The numbers above are a simplified picture. The real flaw was in a specific piece of the circuit's math, not a literal count of coins going in and out. The point to take away is only that a soundness bug can let value be created without detection.
+The numbers above are a simplified picture. The real flaw was in a specific piece of the circuit's math, not a literal count of coins going in and out. The point to take away is only that a soundness bug can let value be created inside the pool without detection.
 
 Importantly, there is no evidence the bug was ever exploited, no evidence of impact to user funds, and no evidence that the total supply of ZEC changed. It was found through security research and fixed before any known harm.
 
@@ -34,7 +34,7 @@ Importantly, there is no evidence the bug was ever exploited, no evidence of imp
 
 The Zcash community shipped fixes in stages rather than all at once.
 
-![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activates on July 28, 2026](assets/ironwood-timeline.png)
+![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activates around July 28, 2026](assets/ironwood-timeline.png)
 
 1. In early June 2026, a temporary measure disabled the Orchard pool while a full fix was prepared.
 2. The NU6.2 upgrade corrected the Orchard circuit itself, closing the underlying soundness vulnerability.
@@ -70,6 +70,17 @@ Consensus rules keep every value pool, including Ironwood, within the network's 
 
 Wallets and node software handle most of this automatically, but the practical shift is simple: over time, move shielded holdings from the old Orchard pool through the turnstile into the Ironwood pool. Follow the guidance from your wallet provider, and always update to a supported release before the activation block.
 
+## Glossary
+
+| Term | Plain-English meaning |
+|---|---|
+| Shielded pool | The set of funds whose amounts and owners are hidden by zero-knowledge cryptography |
+| Soundness bug | A flaw that lets an invalid transaction pass the proof check as if it were valid |
+| Turnstile | A public checkpoint that counts value moving between pools so the supply stays auditable |
+| Spend-only | A pool you can spend from, but cannot add new value to |
+| Network upgrade (NU) | A coordinated change to Zcash's consensus rules, activated at a set block height |
+| Quantum-recoverable note | A note format designed so funds could be recovered if quantum computers ever break today's cryptography |
+
 ## FAQ
 
 Was my ZEC affected? No. There is no evidence the bug was ever used, no impact to user funds, and no change to the total supply.
@@ -82,17 +93,6 @@ Was the bug ever exploited? There is no evidence that it was. It was found throu
 
 What happens to the old Orchard pool? It becomes spend-only. No new value can enter it, and existing value moves into Ironwood through the turnstile, where the migration is publicly audited.
 
-## Glossary
-
-| Term | Plain-English meaning |
-|---|---|
-| Shielded pool | The set of funds whose amounts and owners are hidden by zero-knowledge cryptography |
-| Soundness bug | A flaw that lets an invalid transaction pass the proof check as if it were valid |
-| Turnstile | A public checkpoint that counts value moving between pools so the supply stays auditable |
-| Spend-only | A pool you can spend from, but cannot add new value to |
-| Network upgrade (NU) | A coordinated change to Zcash's consensus rules, activated at a set block height |
-| Quantum-recoverable note | A note format designed so funds could be recovered if quantum computers ever break today's cryptography |
-
 ## Test your understanding
 
 If the ZEC inside shielded pools is hidden, how can anyone confirm that the Orchard bug did not secretly inflate the total supply?
@@ -104,9 +104,9 @@ Through the turnstile. Every coin leaving the old Orchard pool is counted at a p
 
 ### Resources
 
-[ZIP 258: Network Upgrade 6.3](https://zips.z.cash/zip-0258)
+[ZIP 258: Deployment of the NU6.3 Network Upgrade](https://zips.z.cash/zip-0258)
 
-[ZIP 257: Network Upgrade 6.2](https://zips.z.cash/zip-0257)
+[ZIP 257: Deployment of the Orchard Temporary Vulnerability Mitigation and NU6.2 Network Upgrade](https://zips.z.cash/zip-0257)
 
 [ZIP 2005: Ironwood Quantum Recoverability](https://zips.z.cash/zip-2005)
 
@@ -130,4 +130,4 @@ Through the turnstile. Every coin leaving the old Orchard pool is counted at a p
 
 ---
 
-*Footer*
+Series: [Network Upgrades index](../Start_Here/Network_Upgrades.md) · Previous: [NU6.2](NU6_2.md)
