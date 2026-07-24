@@ -262,3 +262,47 @@ DCRDEX is a decentralized exchange built by the Decred Project. Desktop Client O
 [Zcash CoinHolder Polling](https://forum.zcashcommunity.com/t/coin-holder-polling-instructions/40170)
 
 A method by which coin-weighted polling took place on the Zcash blockchain using T-addresses and arranged via the community forum.
+
+## [MonteZecret](https://forum.zcashcommunity.com/t/montezecret-a-desktop-wallet-for-zcash-in-rust-instead-of-tweets/56164)
+
+MonteZecret is an experimental desktop wallet for Zcash developed in Rust. The project aims to provide a secure, lightweight, fast, and privacy-focused alternative to desktop wallets built with resource-heavy frameworks.
+
+### **MonteZcret Benchmark Zcash** 
+
+[![MonteZcret Benchmark](https://github.com/gorgagian123/Exchanges-Logo/blob/main/MonteZecret.jpeg?raw=true)](https://github.com/openkoder/benchmarks_zcash/)
+
+MonteZecret Benchmark is an open-source performance-testing project created to evaluate different methods of synchronizing Zcash blockchain data.
+
+## [Zec App](https://forum.zcashcommunity.com/t/zec-app-is-coming-soon/56605/8)
+
+[![Zec App](https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zec%20App.png?raw=true)](https://x.com/Batuzec/status/2077098661859754245?s=20)
+
+Zec App is a mobile application designed to bring the main resources of the Zcash ecosystem into one accessible platform. Its purpose is to help users follow Zcash news, community activities, network information, wallets, exchanges, and official ecosystem resources without opening several different websites or applications.
+
+## [Gem Wallet](https://gemwallet.com/)
+
+[![Gem Wallet](https://gemwallet.com/images/logo.svg)](https://gemwallet.com/)
+
+Gem Wallet is a multi-chain and open source, self-custodial wallet application for all your Web3 activities. Users can send and receive assets, swap and stake cryptocurrencies, and also purchase crypto with fiat on Gem Wallet. Gem Wallet now supports Zcash! Users can store, send, and swap ZEC directly in the app, unlocking new possibilities for your digital assets.
+
+## [Shielded Wall](https://shieldedwall.org/)
+
+[![Shielded Wall](https://github.com/gorgagian123/Exchanges-Logo/blob/main/Shielded%20Wall.jpg?raw=true)](https://shieldedwall.org/)
+
+Shielded Wall is an anonymous confession platform built with privacy at its core. Share your successes, mistakes, lessons learned, funny moments, or unforgettable crypto experiences without revealing your identity.
+
+## [Ztrash](https://ztrash.com/)
+
+[![Ztrash](https://github.com/gorgagian123/Exchanges-Logo/blob/main/Ztrash.png?raw=true)](https://ztrash.com/)
+
+Ztrash is a disposable email inbox paid for with shielded ZEC 
+
+## [Openzcash.org](https://openzcash.org/)
+
+[![Openzcash.org](https://github.com/gorgagian123/Exchanges-Logo/blob/main/OpenZcash.jpg?raw=true)](https://openzcash.org/)
+
+OpenZcash.org is a public transparency platform that organizes information about the Zcash Development Fund and its grant programs.
+
+
+
+
