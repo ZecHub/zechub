@@ -14,7 +14,7 @@ Why this matters. With transparent money like Bitcoin, anyone can check that no 
 
 New to Zcash? Start with [What is ZEC and Zcash](../start-here/what-is-zec-and-zcash) and [Shielded Pools](../using-zcash/shielded-pools), then come back here.
 
-![Ironwood value migration flow: value leaves the Orchard pool, passes through the turnstile checkpoint, and enters the new Ironwood pool](assets/ironwood-flow.png)
+![Ironwood value migration flow: value leaves the Orchard pool, passes through the turnstile checkpoint, and enters the new Ironwood pool](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-flow.png)
 
 ## Why Ironwood was needed
 
@@ -24,7 +24,7 @@ In late May 2026, independent security researcher Taylor Hornby, during a protoc
 2. In theory, an attacker could have used the flaw to forge invalid value inside the Orchard pool and spend funds that were not really theirs, leaving no trace a normal node would catch.
 3. Zcash's turnstile still capped how much value could ever leave Orchard, so the total supply could not be inflated, but the pool's own cryptography no longer guaranteed that every hidden coin inside it was real.
 
-![The bug explained: a transaction puts in 5 ZEC, but the flawed proof still passes when 7 ZEC come out, creating 2 ZEC from nothing](assets/ironwood-bug.png)
+![The bug explained: a transaction puts in 5 ZEC, but the flawed proof still passes when 7 ZEC come out, creating 2 ZEC from nothing](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-bug.png)
 
 The numbers above are a simplified picture. The real flaw was in a specific piece of the circuit's math, not a literal count of coins going in and out. The point to take away is only that a soundness bug can let value be created inside the pool without detection.
 
@@ -34,13 +34,13 @@ Importantly, there is no evidence the bug was ever exploited, no evidence of imp
 
 The Zcash community shipped fixes in stages rather than all at once.
 
-![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activates around July 28, 2026](assets/ironwood-timeline.png)
+![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activates around July 28, 2026](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
 
 1. In early June 2026, a temporary measure disabled the Orchard pool while a full fix was prepared.
 2. The NU6.2 upgrade corrected the Orchard circuit itself, closing the underlying soundness vulnerability.
 3. The NU6.3 upgrade, Ironwood, introduces a fresh shielded pool and a public checkpoint so value can move out of the old Orchard pool under full audit.
 
-![The fix in NU6.2: the corrected proof requires inputs to equal outputs, so a valid 5 ZEC output passes while an attempt to output 7 ZEC is rejected](assets/ironwood-fix.png)
+![The fix in NU6.2: the corrected proof requires inputs to equal outputs, so a valid 5 ZEC output passes while an attempt to output 7 ZEC is rejected](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-fix.png)
 
 ## What the Ironwood pool does
 

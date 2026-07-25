@@ -21,13 +21,13 @@ Two things follow:
 1. Blocks arrive about twice as often, so the chain can carry roughly double the transactions per unit of time.
 2. Your transaction gets its first confirmation sooner, because you do not wait as long for the next block.
 
-![Before Blossom the block target was 150 seconds with slower confirmations and lower throughput. After Blossom the target is 75 seconds with faster confirmations and roughly double the throughput](assets/blossom-block-spacing.png)
+![Before Blossom the block target was 150 seconds with slower confirmations and lower throughput. After Blossom the target is 75 seconds with faster confirmations and roughly double the throughput](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-block-spacing.png)
 
 ## Keeping issuance steady
 
 Faster blocks raise a question. If Zcash made twice as many blocks and each block still paid the same reward, the network would create ZEC twice as fast. Blossom avoids that. It halved the reward paid per block, and it doubled the block-reward halving interval from 840,000 to 1,680,000 blocks ([ZIP 208](https://zips.z.cash/zip-0208)). Twice as many blocks, each paying half as much, works out to the same amount of ZEC created per unit of time. The total supply schedule and the timing of future halvings, measured in real time, did not change.
 
-![How Blossom keeps issuance steady: 75 second blocks arrive twice as often, the per-block reward is halved, the halving interval is doubled, so total emission over time stays the same](assets/blossom-emission-balance.png)
+![How Blossom keeps issuance steady: 75 second blocks arrive twice as often, the per-block reward is halved, the halving interval is doubled, so total emission over time stays the same](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/blossom-emission-balance.png)
 
 ## A mandatory upgrade
 
