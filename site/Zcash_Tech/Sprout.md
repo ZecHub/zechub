@@ -8,13 +8,13 @@
 
 What you'll take away: Sprout is where Zcash began, the first time private, verifiable money ran on a live blockchain.
 
-Sprout is the original launch of the Zcash network, not a later [network upgrade](../Start_Here/Network_Upgrades.md). It went live at the genesis block on October 28, 2016. No numbered ZIP defines Sprout: the ZIP process started later with Overwinter, so Sprout is described by the original Zcash Protocol Specification and the Zerocash construction it was built on. The [Electric Coin Company](../Zcash_Organizations/Electric_Coin_Company.md) (then the Zerocoin Electric Coin Company), led by Zooko Wilcox, built and shipped it. Sprout introduced the first practical zk-SNARK shielded transactions and the original shielded pool, so people could send ZEC with the sender, receiver, and amount hidden while the network still checked that the balances added up. The name signaled a young, budding chain that the team expected to grow.
+Sprout is the original launch of the Zcash network, not a later [network upgrade](../start-here/network-upgrades). It went live at the genesis block on October 28, 2016. No numbered ZIP defines Sprout: the ZIP process started later with Overwinter, so Sprout is described by the original Zcash Protocol Specification and the Zerocash construction it was built on. The [Electric Coin Company](../zcash-organizations/electric-coin-company) (then the Zerocoin Electric Coin Company), led by Zooko Wilcox, built and shipped it. Sprout introduced the first practical zk-SNARK shielded transactions and the original shielded pool, so people could send ZEC with the sender, receiver, and amount hidden while the network still checked that the balances added up. The name signaled a young, budding chain that the team expected to grow.
 
 Why this matters. Every public blockchain before Sprout put your payments on display: anyone could see who paid whom and how much. Sprout was the first live, permissionless network to hide those details and still prove no one was cheating. That matters for ordinary financial privacy, the kind you expect from cash or a bank statement no one else can read. It also proved that strong on-chain privacy could work in practice, beyond a paper design. The trusted-setup Ceremony that made it possible became a reference point for later cryptography work, and the slow, memory-heavy proving system Sprout shipped with is exactly what pushed the team to build Sapling two years later.
 
 ## First shielded pool
 
-Sprout created two kinds of addresses. Transparent addresses (t-addresses) work like Bitcoin, with the details visible on the public ledger. Shielded addresses (z-addresses) send funds into the Sprout [shielded pool](../Using_Zcash/Shielded_Pools.md), where the sender, the receiver, and the amount stay hidden. The trick is [zk-SNARKs](zk_SNARKS.md), zero-knowledge proofs that let a transaction show it is valid, with no double spend and balances that add up, without revealing any of the details. Sprout was the first time this ran in production on a live cryptocurrency.
+Sprout created two kinds of addresses. Transparent addresses (t-addresses) work like Bitcoin, with the details visible on the public ledger. Shielded addresses (z-addresses) send funds into the Sprout [shielded pool](../using-zcash/shielded-pools), where the sender, the receiver, and the amount stay hidden. The trick is [zk-SNARKs](../zcash-tech/zk-snarks), zero-knowledge proofs that let a transaction show it is valid, with no double spend and balances that add up, without revealing any of the details. Sprout was the first time this ran in production on a live cryptocurrency.
 
 ![Transparent transactions expose sender, receiver, and amount, while Sprout shielded transactions hide all three yet stay verifiable](assets/sprout-shielded-vs-transparent.png)
 
@@ -57,7 +57,8 @@ What made Sprout different from Bitcoin? Bitcoin puts every payment on a public 
 
 Sprout is often called a network upgrade with an activation height. Why is that not quite right?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer</summary>
 
 Sprout is the original launch of Zcash, not a later upgrade. It has been active since the genesis block (block 0) on October 28, 2016, so there is no activation height to point to. The network-upgrade mechanism came later and labeled Sprout's rules as consensus branch id 0, the baseline before any upgrade.
 </details>
@@ -74,16 +75,16 @@ Sprout is the original launch of Zcash, not a later upgrade. It has been active 
 
 ### See also
 
-[Shielded Pools](../Using_Zcash/Shielded_Pools.md)
+[Shielded Pools](../using-zcash/shielded-pools)
 
-[zk-SNARKS](zk_SNARKS.md)
+[zk-SNARKS](../zcash-tech/zk-snarks)
 
-[Zcash Network Upgrades](../Start_Here/Network_Upgrades.md)
+[Zcash Network Upgrades](../start-here/network-upgrades)
 
-[What is ZEC and Zcash](../Start_Here/What_is_ZEC_and_Zcash.md)
+[What is ZEC and Zcash](../start-here/what-is-zec-and-zcash)
 
-[Electric Coin Company](../Zcash_Organizations/Electric_Coin_Company.md)
+[Electric Coin Company](../zcash-organizations/electric-coin-company)
 
 ---
 
-Series: [Network Upgrades index](../Start_Here/Network_Upgrades.md) · Next: [Overwinter](Overwinter.md)
+Series: [Network Upgrades index](../start-here/network-upgrades) · Next: [Overwinter](../zcash-tech/overwinter)

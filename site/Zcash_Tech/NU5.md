@@ -8,7 +8,7 @@
 
 What you'll take away: how NU5 gave Zcash a new shielded pool that needs no trusted setup, plus a single address type that works across pools.
 
-NU5 (Network Upgrade 5) is the sixth Zcash [network upgrade](../Start_Here/Network_Upgrades.md), deployed by [ZIP 252](https://zips.z.cash/zip-0252). It is a major cryptographic upgrade. It introduced the Orchard shielded payment protocol, built on the Halo 2 proving system, along with unified addresses and a new version 5 transaction format. NU5 shipped in the Electric Coin Company's zcashd v5.0.0 release.
+NU5 (Network Upgrade 5) is the sixth Zcash [network upgrade](../start-here/network-upgrades), deployed by [ZIP 252](https://zips.z.cash/zip-0252). It is a major cryptographic upgrade. It introduced the Orchard shielded payment protocol, built on the Halo 2 proving system, along with unified addresses and a new version 5 transaction format. NU5 shipped in the Electric Coin Company's zcashd v5.0.0 release.
 
 Why this matters. A shielded pool is only as trustworthy as the setup that created it. Zcash's first two shielded pools, Sprout and Sapling, each needed a one-time trusted setup ceremony to generate their secret parameters. If those parameters were ever kept instead of destroyed, someone could have printed counterfeit ZEC without anyone seeing it. NU5's Orchard pool closes that concern by using the Halo 2 proving system, which needs no such ceremony.
 
@@ -39,7 +39,7 @@ Before NU5, each pool had its own address type, and a sender had to know which k
 
 ![A unified address bundles receivers for several pools: a transparent receiver, a Sapling receiver, and a new Orchard receiver](assets/nu5-unified-address.png)
 
-Unified viewing keys work the same way for viewing. They give read-only visibility across the pools an address covers. For more on that, see the [Viewing Keys](Viewing_Keys.md) page.
+Unified viewing keys work the same way for viewing. They give read-only visibility across the pools an address covers. For more on that, see the [Viewing Keys](../zcash-tech/viewing-keys) page.
 
 ## Where NU5 sits
 
@@ -74,7 +74,8 @@ Did the old transaction format stop working? No. NU5 added the version 5 format,
 
 Sprout and Sapling both needed a trusted setup ceremony. What did NU5's Orchard pool change about that, and why does it matter?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer</summary>
 
 Orchard is built on the Halo 2 proving system, which needs no trusted setup and no structured reference string. That removes the risk that leftover secret parameters could ever be used to counterfeit ZEC. The guarantee applies to funds held in the Orchard pool. The older Sapling parameters still exist after NU5.
 </details>
@@ -95,18 +96,18 @@ Orchard is built on the Halo 2 proving system, which needs no trusted setup and 
 
 ### See also
 
-[Zcash Network Upgrades](../Start_Here/Network_Upgrades.md)
+[Zcash Network Upgrades](../start-here/network-upgrades)
 
-[Shielded Pools](../Using_Zcash/Shielded_Pools.md)
+[Shielded Pools](../using-zcash/shielded-pools)
 
-[Halo](Halo.md)
+[Halo](../zcash-tech/halo)
 
-[zk-SNARKS](zk_SNARKS.md)
+[zk-SNARKS](../zcash-tech/zk-snarks)
 
-[Viewing Keys](Viewing_Keys.md)
+[Viewing Keys](../zcash-tech/viewing-keys)
 
-[NU6.1](NU6_1.md)
+[NU6.1](../zcash-tech/nu6-1)
 
 ---
 
-Series: [Network Upgrades index](../Start_Here/Network_Upgrades.md) · Previous: [Canopy](Canopy.md) · Next: [NU6](NU6.md)
+Series: [Network Upgrades index](../start-here/network-upgrades) · Previous: [Canopy](../zcash-tech/canopy) · Next: [NU6](../zcash-tech/nu6)

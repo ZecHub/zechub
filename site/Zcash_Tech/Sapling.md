@@ -59,13 +59,14 @@ What is the difference between Sprout and Sapling? Sprout was the first shielded
 
 Why do some sources say October 28 and others October 29? The activation height was set in advance to target October 28, 2018. The block that actually triggered the change, block 419,200, was mined in the early hours of October 29 UTC. In many local time zones that was still October 28. It is the same block and the same moment either way.
 
-What is a viewing key? A viewing key lets you share read access to a shielded wallet. Someone with a full or incoming viewing key can see the wallet's transaction details but cannot spend its funds. See [Viewing Keys](Viewing_Keys.md) for more.
+What is a viewing key? A viewing key lets you share read access to a shielded wallet. Someone with a full or incoming viewing key can see the wallet's transaction details but cannot spend its funds. See [Viewing Keys](../zcash-tech/viewing-keys) for more.
 
 ## Test your understanding
 
 Under Sprout, why did so many people avoid shielded transactions, and how did Sapling fix it?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer</summary>
 Under Sprout, building a shielded transaction took minutes and used gigabytes of memory, so it was too slow and heavy for most users, exchanges, and shops. Sapling introduced faster Spend and Output circuits that cut the work to a few seconds and about 40 megabytes, making shielded transactions practical on everyday phones and hardware wallets.
 </details>
 
@@ -79,13 +80,13 @@ Under Sprout, building a shielded transaction took minutes and used gigabytes of
 
 ### See also
 
-- [Shielded Pools](../Using_Zcash/Shielded_Pools.md)
-- [Viewing Keys](Viewing_Keys.md)
-- [zk-SNARKS](zk_SNARKS.md)
-- [Zcash Network Upgrades](../Start_Here/Network_Upgrades.md)
-- [Wallets](../Using_Zcash/Wallets.md)
-- [Electric Coin Company](../Zcash_Organizations/Electric_Coin_Company.md)
+- [Shielded Pools](../using-zcash/shielded-pools)
+- [Viewing Keys](../zcash-tech/viewing-keys)
+- [zk-SNARKS](../zcash-tech/zk-snarks)
+- [Zcash Network Upgrades](../start-here/network-upgrades)
+- [Wallets](../using-zcash/wallets)
+- [Electric Coin Company](../zcash-organizations/electric-coin-company)
 
 ---
 
-Series: [Network Upgrades index](../Start_Here/Network_Upgrades.md) · Previous: [Overwinter](Overwinter.md) · Next: [Blossom](Blossom.md)
+Series: [Network Upgrades index](../start-here/network-upgrades) · Previous: [Overwinter](../zcash-tech/overwinter) · Next: [Blossom](../zcash-tech/blossom)

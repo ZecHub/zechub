@@ -10,7 +10,7 @@ What you'll take away: how Zcash kept funding its own development after the foun
 
 Canopy is Zcash's fifth network upgrade, also labeled Network Upgrade 4 (NU4). It is deployed by [ZIP 251](https://zips.z.cash/zip-0251), and it activated at mainnet block 1,046,400 on November 18, 2020 (UTC), the same moment as Zcash's first block reward halving. Canopy was mainly a governance and monetary upgrade. It ended the original founders reward and started the new Zcash Development Fund, which pays the Electric Coin Company, the Zcash Foundation, and independent grant recipients. The policy behind that fund came out of an extended community governance process in 2019.
 
-Why this matters. Zcash funds its own development from block rewards, because it has no company behind it. The founders reward that paid for its early years was set to end at the first halving. Canopy was the replacement: it routed a fixed share of each block reward into a Development Fund and set who receives it. That model was refined by later upgrades, up to [NU6.1](NU6_1.md).
+Why this matters. Zcash funds its own development from block rewards, because it has no company behind it. The founders reward that paid for its early years was set to end at the first halving. Canopy was the replacement: it routed a fixed share of each block reward into a Development Fund and set who receives it. That model was refined by later upgrades, up to [NU6.1](../zcash-tech/nu6-1).
 
 ![Before Canopy the founders reward funded development and was set to end at the first halving. After Canopy the Development Fund takes 20 percent of each block reward and runs to the second halving in 2024](assets/canopy-founders-to-devfund.png)
 
@@ -73,7 +73,8 @@ How does Canopy relate to NU6 and NU6.1? Canopy set up the three-way funding spl
 
 Canopy activated at the exact same block as Zcash's first halving. Why was that timing chosen, and what would have happened to development funding without Canopy?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer</summary>
 
 The original founders reward was scheduled to end at the first halving. Without Canopy, all of the smaller post-halving block reward would have gone to miners, leaving no protocol-level funding for development. Canopy replaced the founders reward with the Development Fund at that exact block, so funding continued without a gap.
 </details>
@@ -94,18 +95,18 @@ The original founders reward was scheduled to end at the first halving. Without 
 
 ### See also
 
-[Zcash Network Upgrades](../Start_Here/Network_Upgrades.md)
+[Zcash Network Upgrades](../start-here/network-upgrades)
 
-[Development Fund](../Start_Here/Development_Fund.md)
+[Development Fund](../start-here/development-fund)
 
-[Zcash Monetary Policy](../Start_Here/Zcash_Monetary_Policy.md)
+[Zcash Monetary Policy](../start-here/zcash-monetary-policy)
 
-[Shielded Pools](../Using_Zcash/Shielded_Pools.md)
+[Shielded Pools](../using-zcash/shielded-pools)
 
-[NU6.1](NU6_1.md)
+[NU6.1](../zcash-tech/nu6-1)
 
-[Zcash Governance](../Zcash_Community/Zcash_Governance.md)
+[Zcash Governance](../zcash-community/zcash-governance)
 
 ---
 
-Series: [Network Upgrades index](../Start_Here/Network_Upgrades.md) · Previous: [Heartwood](Heartwood.md) · Next: [NU5](NU5.md)
+Series: [Network Upgrades index](../start-here/network-upgrades) · Previous: [Heartwood](../zcash-tech/heartwood) · Next: [NU5](../zcash-tech/nu5)

@@ -8,17 +8,17 @@
 
 What you'll take away: what Ironwood changes, why a bug in hidden money is serious, and how the turnstile lets anyone confirm that no ZEC was forged.
 
-Ironwood is a Zcash [network upgrade](../Start_Here/Network_Upgrades.md), formally NU6.3, that introduces a new shielded pool of the same name. A [shielded pool](../Using_Zcash/Shielded_Pools.md) is the set of funds whose amounts and owners stay hidden by [zero-knowledge cryptography](zk_SNARKS.md). Ironwood exists to contain and audit a soundness bug found in the existing Orchard shielded pool, and to give the community a stronger way to check that the total supply of ZEC is honest. Its consensus rules are specified in [ZIP 258](https://zips.z.cash/zip-0258).
+Ironwood is a Zcash [network upgrade](../start-here/network-upgrades), formally NU6.3, that introduces a new shielded pool of the same name. A [shielded pool](../using-zcash/shielded-pools) is the set of funds whose amounts and owners stay hidden by [zero-knowledge cryptography](../zcash-tech/zk-snarks). Ironwood exists to contain and audit a soundness bug found in the existing Orchard shielded pool, and to give the community a stronger way to check that the total supply of ZEC is honest. Its consensus rules are specified in [ZIP 258](https://zips.z.cash/zip-0258).
 
 Why this matters. With transparent money like Bitcoin, anyone can check that no coins were forged by reading the public ledger. Shielded money hides the amounts, so you cannot just look. Instead the cryptography itself has to guarantee that no one can create money in secret. Ironwood matters because a bug was found in that guarantee for the Orchard pool. The upgrade closes the gap and gives anyone a way to confirm that the total supply of ZEC is still honest.
 
-New to Zcash? Start with [What is ZEC and Zcash](../Start_Here/What_is_ZEC_and_Zcash.md) and [Shielded Pools](../Using_Zcash/Shielded_Pools.md), then come back here.
+New to Zcash? Start with [What is ZEC and Zcash](../start-here/what-is-zec-and-zcash) and [Shielded Pools](../using-zcash/shielded-pools), then come back here.
 
 ![Ironwood value migration flow: value leaves the Orchard pool, passes through the turnstile checkpoint, and enters the new Ironwood pool](assets/ironwood-flow.png)
 
 ## Why Ironwood was needed
 
-In late May 2026, independent security researcher Taylor Hornby, during a protocol audit for [Shielded Labs](../Zcash_Organizations/Shielded_Labs.md), responsibly disclosed a soundness bug in the Orchard shielded pool. Orchard was Zcash's newest shielded pool at the time, and the flaw sat in an elliptic-curve part of its zero-knowledge circuit, which uses the [Halo](Halo.md) 2 proving system.
+In late May 2026, independent security researcher Taylor Hornby, during a protocol audit for [Shielded Labs](../zcash-organizations/shielded-labs), responsibly disclosed a soundness bug in the Orchard shielded pool. Orchard was Zcash's newest shielded pool at the time, and the flaw sat in an elliptic-curve part of its zero-knowledge circuit, which uses the [Halo](../zcash-tech/halo) 2 proving system.
 
 1. A soundness bug means the math that proves a transaction is valid does not fully guarantee it.
 2. In theory, an attacker could have used the flaw to forge invalid value inside the Orchard pool and spend funds that were not really theirs, leaving no trace a normal node would catch.
@@ -46,7 +46,7 @@ The Zcash community shipped fixes in stages rather than all at once.
 
 NU6.2 secured the Orchard circuit for all new transactions, but value created under the old rules still sits in the Orchard pool. Ironwood gives that value a clean destination and a way to audit it as it moves.
 
-The Ironwood pool is a new shielded value pool created when NU6.3 activates. It is built on the corrected circuit and uses a quantum-recoverable note format (a design that lets funds be recovered if [quantum computers](Post_Quantum_Security.md) ever break today's cryptography), defined in [ZIP 2005](https://zips.z.cash/zip-2005).
+The Ironwood pool is a new shielded value pool created when NU6.3 activates. It is built on the corrected circuit and uses a quantum-recoverable note format (a design that lets funds be recovered if [quantum computers](../zcash-tech/post-quantum-security) ever break today's cryptography), defined in [ZIP 2005](https://zips.z.cash/zip-2005).
 
 1. After activation, the old Orchard pool becomes spend-only, so no new value may enter it.
 2. Newly shielded value flows into Ironwood instead.
@@ -97,7 +97,8 @@ What happens to the old Orchard pool? It becomes spend-only. No new value can en
 
 If the ZEC inside shielded pools is hidden, how can anyone confirm that the Orchard bug did not secretly inflate the total supply?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer</summary>
 
 Through the turnstile. Every coin leaving the old Orchard pool is counted at a public checkpoint as it enters Ironwood. If more value tried to leave than legitimately entered, the accounting would not balance, so any counterfeit the bug could have created would surface at that gate.
 </details>
@@ -114,20 +115,20 @@ Through the turnstile. Every coin leaving the old Orchard pool is counted at a p
 
 ### See also
 
-[Zcash Network Upgrades](../Start_Here/Network_Upgrades.md)
+[Zcash Network Upgrades](../start-here/network-upgrades)
 
-[Shielded Pools](../Using_Zcash/Shielded_Pools.md)
+[Shielded Pools](../using-zcash/shielded-pools)
 
-[Halo](Halo.md)
+[Halo](../zcash-tech/halo)
 
-[zk-SNARKS](zk_SNARKS.md)
+[zk-SNARKS](../zcash-tech/zk-snarks)
 
-[Post Quantum Security](Post_Quantum_Security.md)
+[Post Quantum Security](../zcash-tech/post-quantum-security)
 
-[Shielded Labs](../Zcash_Organizations/Shielded_Labs.md)
+[Shielded Labs](../zcash-organizations/shielded-labs)
 
-[What is ZEC and Zcash](../Start_Here/What_is_ZEC_and_Zcash.md)
+[What is ZEC and Zcash](../start-here/what-is-zec-and-zcash)
 
 ---
 
-Series: [Network Upgrades index](../Start_Here/Network_Upgrades.md) · Previous: [NU6.2](NU6_2.md)
+Series: [Network Upgrades index](../start-here/network-upgrades) · Previous: [NU6.2](../zcash-tech/nu6-2)

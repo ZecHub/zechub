@@ -8,7 +8,7 @@
 
 What you'll take away: how Blossom made Zcash blocks arrive about twice as fast without changing how much ZEC the network creates over time.
 
-Blossom is a Zcash [network upgrade](../Start_Here/Network_Upgrades.md). It was deployed by [ZIP 206](https://zips.z.cash/zip-0206), and its main consensus change is defined in [ZIP 208](https://zips.z.cash/zip-0208). Blossom was a scalability upgrade: it shortened the target time between blocks from 150 seconds to 75 seconds, so blocks arrive about twice as often. The Electric Coin Company led and announced Blossom.
+Blossom is a Zcash [network upgrade](../start-here/network-upgrades). It was deployed by [ZIP 206](https://zips.z.cash/zip-0206), and its main consensus change is defined in [ZIP 208](https://zips.z.cash/zip-0208). Blossom was a scalability upgrade: it shortened the target time between blocks from 150 seconds to 75 seconds, so blocks arrive about twice as often. The Electric Coin Company led and announced Blossom.
 
 Why this matters. When you send ZEC, you wait for the network to confirm it in a block. If blocks are slow, you wait longer. Before Blossom, a new block was expected about every 150 seconds. Blossom cut that target in half, to 75 seconds, so confirmations come sooner and the chain can carry more transactions in the same amount of time. It did this without creating more ZEC or moving the timing of future halvings.
 
@@ -66,7 +66,8 @@ When did Blossom activate? At mainnet block 653,600, on December 11, 2019 UTC.
 
 Blossom made Zcash blocks arrive about twice as often. Why did that not double the rate at which new ZEC is created?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer</summary>
 
 Because Blossom also halved the reward paid per block and doubled the halving interval from 840,000 to 1,680,000 blocks. Twice as many blocks, each paying half as much, adds up to the same amount of ZEC per unit of time, so the emission schedule measured in real time did not change.
 </details>
@@ -83,16 +84,16 @@ Because Blossom also halved the reward paid per block and doubled the halving in
 
 ### See also
 
-[Zcash Network Upgrades](../Start_Here/Network_Upgrades.md)
+[Zcash Network Upgrades](../start-here/network-upgrades)
 
-[Zcash Monetary Policy](../Start_Here/Zcash_Monetary_Policy.md)
+[Zcash Monetary Policy](../start-here/zcash-monetary-policy)
 
-[What is ZEC and Zcash](../Start_Here/What_is_ZEC_and_Zcash.md)
+[What is ZEC and Zcash](../start-here/what-is-zec-and-zcash)
 
-[Full Nodes](Full_Nodes.md)
+[Full Nodes](../zcash-tech/full-nodes)
 
-[NU6.1](NU6_1.md)
+[NU6.1](../zcash-tech/nu6-1)
 
 ---
 
-Series: [Network Upgrades index](../Start_Here/Network_Upgrades.md) · Previous: [Sapling](Sapling.md) · Next: [Heartwood](Heartwood.md)
+Series: [Network Upgrades index](../start-here/network-upgrades) · Previous: [Sapling](../zcash-tech/sapling) · Next: [Heartwood](../zcash-tech/heartwood)

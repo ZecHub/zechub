@@ -8,7 +8,7 @@
 
 What you'll take away: how Zcash learned to change its own rules safely, and why that groundwork made every later upgrade, starting with Sapling, possible.
 
-Overwinter is a Zcash [network upgrade](../Start_Here/Network_Upgrades.md), the first one after the network launched. It is defined across several Zcash Improvement Proposals: [ZIP 200](https://zips.z.cash/zip-0200), [ZIP 201](https://zips.z.cash/zip-0201), [ZIP 202](https://zips.z.cash/zip-0202), [ZIP 203](https://zips.z.cash/zip-0203), and [ZIP 143](https://zips.z.cash/zip-0143). Overwinter did not add any new shielded features. Instead it hardened the protocol so that future upgrades could ship safely. The upgrade is documented by the [Electric Coin Company](../Zcash_Organizations/Electric_Coin_Company.md) on the official Zcash upgrade page.
+Overwinter is a Zcash [network upgrade](../start-here/network-upgrades), the first one after the network launched. It is defined across several Zcash Improvement Proposals: [ZIP 200](https://zips.z.cash/zip-0200), [ZIP 201](https://zips.z.cash/zip-0201), [ZIP 202](https://zips.z.cash/zip-0202), [ZIP 203](https://zips.z.cash/zip-0203), and [ZIP 143](https://zips.z.cash/zip-0143). Overwinter did not add any new shielded features. Instead it hardened the protocol so that future upgrades could ship safely. The upgrade is documented by the [Electric Coin Company](../zcash-organizations/electric-coin-company) on the official Zcash upgrade page.
 
 Why this matters. Changing the rules of a live blockchain is dangerous. Get it wrong and two versions of the network can disagree, or a transaction meant for one chain can be copied onto another. Before Overwinter, Zcash had no standard, replay-safe way to coordinate a rule change. Overwinter fixed that. It gave Zcash a formal process for upgrades and, just as important, two-way replay protection, so a transaction that is valid under one set of rules cannot be replayed under another. That groundwork is what made Sapling, and every upgrade after it, possible to activate cleanly.
 
@@ -69,7 +69,8 @@ Do I need to do anything? No. Overwinter activated in 2018. Any current Zcash wa
 
 Overwinter added no new shielded features. So why is it considered one of the most important upgrades in Zcash's history?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer</summary>
 
 Because it built the machinery that every later upgrade depends on. Overwinter introduced the Network Upgrade Mechanism and two-way replay protection, giving Zcash a standard, safe way to change its consensus rules. Without that groundwork, Sapling and the upgrades after it could not have activated cleanly.
 </details>
@@ -90,18 +91,18 @@ Because it built the machinery that every later upgrade depends on. Overwinter i
 
 ### See also
 
-[Zcash Network Upgrades](../Start_Here/Network_Upgrades.md)
+[Zcash Network Upgrades](../start-here/network-upgrades)
 
-[Shielded Pools](../Using_Zcash/Shielded_Pools.md)
+[Shielded Pools](../using-zcash/shielded-pools)
 
-[Full Nodes](Full_Nodes.md)
+[Full Nodes](../zcash-tech/full-nodes)
 
-[NU6.1](NU6_1.md)
+[NU6.1](../zcash-tech/nu6-1)
 
-[Electric Coin Company](../Zcash_Organizations/Electric_Coin_Company.md)
+[Electric Coin Company](../zcash-organizations/electric-coin-company)
 
-[What is ZEC and Zcash](../Start_Here/What_is_ZEC_and_Zcash.md)
+[What is ZEC and Zcash](../start-here/what-is-zec-and-zcash)
 
 ---
 
-Series: [Network Upgrades index](../Start_Here/Network_Upgrades.md) · Previous: [Sprout](Sprout.md) · Next: [Sapling](Sapling.md)
+Series: [Network Upgrades index](../start-here/network-upgrades) · Previous: [Sprout](../zcash-tech/sprout) · Next: [Sapling](../zcash-tech/sapling)

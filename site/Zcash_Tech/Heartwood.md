@@ -8,7 +8,7 @@
 
 What you'll take away: how Heartwood let miners receive their block rewards straight into shielded addresses, and how it made Zcash's proof-of-work checkable by lightweight clients.
 
-Heartwood is a Zcash [network upgrade](../Start_Here/Network_Upgrades.md), a consensus-rule hard fork whose deployment is defined in [ZIP 250](https://zips.z.cash/zip-0250). It bundled two feature changes: [ZIP 213](https://zips.z.cash/zip-0213) (Shielded Coinbase) and [ZIP 221](https://zips.z.cash/zip-0221) (FlyClient). Heartwood was Zcash's fourth major network upgrade, and it was jointly supported by the [Electric Coin Company](../Zcash_Organizations/Electric_Coin_Company.md) and the [Zcash Foundation](../Zcash_Organizations/Zcash_Foundation.md). Like every Zcash upgrade, it set a new consensus branch id, a tag that gives two-way replay protection so a transaction built under the new rules cannot be replayed on the old chain, and the reverse.
+Heartwood is a Zcash [network upgrade](../start-here/network-upgrades), a consensus-rule hard fork whose deployment is defined in [ZIP 250](https://zips.z.cash/zip-0250). It bundled two feature changes: [ZIP 213](https://zips.z.cash/zip-0213) (Shielded Coinbase) and [ZIP 221](https://zips.z.cash/zip-0221) (FlyClient). Heartwood was Zcash's fourth major network upgrade, and it was jointly supported by the [Electric Coin Company](../zcash-organizations/electric-coin-company) and the [Zcash Foundation](../zcash-organizations/zcash-foundation). Like every Zcash upgrade, it set a new consensus branch id, a tag that gives two-way replay protection so a transaction built under the new rules cannot be replayed on the old chain, and the reverse.
 
 Heartwood activates at a set block height (903,000), not at a fixed clock time, so the exact minute you see on a dashboard can differ slightly from one place to another. The block, and the moment, are the same.
 
@@ -64,7 +64,8 @@ What changed for light clients? The block header now commits to a Merkle Mountai
 
 Before Heartwood, why did the block reward paid to a miner show up publicly, and what did Heartwood change?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer</summary>
 
 Coinbase outputs had to be transparent, so a miner's newly minted reward always landed in a public transparent address that anyone could inspect. Heartwood changed the consensus rules (ZIP 213) so that coinbase transactions may contain Sapling outputs, letting miners receive their rewards directly into shielded addresses.
 </details>
@@ -81,18 +82,18 @@ Coinbase outputs had to be transparent, so a miner's newly minted reward always 
 
 ### See also
 
-[Zcash Network Upgrades](../Start_Here/Network_Upgrades.md)
+[Zcash Network Upgrades](../start-here/network-upgrades)
 
-[Shielded Pools](../Using_Zcash/Shielded_Pools.md)
+[Shielded Pools](../using-zcash/shielded-pools)
 
-[Wallets](../Using_Zcash/Wallets.md)
+[Wallets](../using-zcash/wallets)
 
-[zk-SNARKS](zk_SNARKS.md)
+[zk-SNARKS](../zcash-tech/zk-snarks)
 
-[Electric Coin Company](../Zcash_Organizations/Electric_Coin_Company.md)
+[Electric Coin Company](../zcash-organizations/electric-coin-company)
 
-[Zcash Foundation](../Zcash_Organizations/Zcash_Foundation.md)
+[Zcash Foundation](../zcash-organizations/zcash-foundation)
 
 ---
 
-Series: [Network Upgrades index](../Start_Here/Network_Upgrades.md) · Previous: [Blossom](Blossom.md) · Next: [Canopy](Canopy.md)
+Series: [Network Upgrades index](../start-here/network-upgrades) · Previous: [Blossom](../zcash-tech/blossom) · Next: [Canopy](../zcash-tech/canopy)

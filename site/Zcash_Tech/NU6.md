@@ -8,9 +8,9 @@
 
 What you'll take away: how Zcash keeps funding its own development after a halving, why it set aside a reserve it did not yet know how to spend, and how it made the total ZEC supply exactly predictable.
 
-NU6 is a Zcash [network upgrade](../Start_Here/Network_Upgrades.md), deployed by [ZIP 253](https://zips.z.cash/zip-0253), that activated on mainnet in November 2024 at block 2,726,400. It is a monetary and [development-funding](../Start_Here/Development_Fund.md) upgrade: it kept a share of the block subsidy going to development past the November 2024 halving, set up an in-protocol reserve for future community-decided use, and tightened how new ZEC is counted. NU6 was endorsed by both the Electric Coin Company and the Zcash Foundation.
+NU6 is a Zcash [network upgrade](../start-here/network-upgrades), deployed by [ZIP 253](https://zips.z.cash/zip-0253), that activated on mainnet in November 2024 at block 2,726,400. It is a monetary and [development-funding](../start-here/development-fund) upgrade: it kept a share of the block subsidy going to development past the November 2024 halving, set up an in-protocol reserve for future community-decided use, and tightened how new ZEC is counted. NU6 was endorsed by both the Electric Coin Company and the Zcash Foundation.
 
-Why this matters. Zcash's [Development Fund](Canopy.md) was scheduled to end around the November 2024 halving, the second in its history. NU6 kept that funding going, but instead of handing every coin to fixed recipients, it reserved a share inside the protocol so the community could decide later what to do with it. It also closed a quiet accounting gap, so the total amount of ZEC that will ever exist can now be predicted exactly.
+Why this matters. Zcash's [Development Fund](../zcash-tech/canopy) was scheduled to end around the November 2024 halving, the second in its history. NU6 kept that funding going, but instead of handing every coin to fixed recipients, it reserved a share inside the protocol so the community could decide later what to do with it. It also closed a quiet accounting gap, so the total amount of ZEC that will ever exist can now be predicted exactly.
 
 ## What NU6 changed
 
@@ -31,7 +31,7 @@ The 12% share is the new idea in NU6. Instead of being paid to a recipient addre
 2. The network tracks it as its own chain value pool balance, the same way it tracks the balances of the shielded pools.
 3. NU6 created the lockbox on purpose but left the hard question open: who controls those funds, and how are they released?
 
-That question was answered later by [NU6.1](NU6_1.md), which set the governance: it continued the 8% block-subsidy stream to Zcash Community Grants and directed a 12% stream into a coin-holder-controlled fund seeded by the lockbox.
+That question was answered later by [NU6.1](../zcash-tech/nu6-1), which set the governance: it continued the 8% block-subsidy stream to Zcash Community Grants and directed a 12% stream into a coin-holder-controlled fund seeded by the lockbox.
 
 ## Balancing the books
 
@@ -47,7 +47,7 @@ NU6 also closed an accounting gap in how new ZEC is created, defined in [ZIP 236
 
 NU6 is one chapter in a longer story about how Zcash pays for itself.
 
-1. Canopy (2020) ended the original founders reward and created the [development fund](../Start_Here/Development_Fund.md).
+1. Canopy (2020) ended the original founders reward and created the [development fund](../start-here/development-fund).
 2. NU6 (November 2024) restructured that funding after the second halving and set up the Deferred Dev Fund Lockbox, reserving a share of issuance for future community-decided grants.
 3. NU6.1 (2025) answered the question NU6 left open, who controls the reserved funds, by continuing 8% of the block subsidy to Zcash Community Grants and directing 12% into a coin-holder-controlled fund seeded by the lockbox.
 
@@ -82,7 +82,8 @@ How is NU6 different from NU6.1? NU6 restructured funding and created the lockbo
 
 NU6 set up the Deferred Dev Fund Lockbox but did not say who controls it. Why would an upgrade create a reserve and deliberately leave its governance for later?
 
-<details><summary>Answer</summary>
+<details>
+<summary>Answer</summary>
 
 Creating the reserve locked in that a share of issuance would be set aside inside the protocol instead of paid to fixed recipients. Deciding who controls those funds and how they are released is a harder governance question. NU6 deliberately left that open, and NU6.1 answered it: 8% of the block subsidy continues to Zcash Community Grants, and 12% goes to a coin-holder-controlled fund seeded by the lockbox.
 </details>
@@ -101,18 +102,18 @@ Creating the reserve locked in that a share of issuance would be set aside insid
 
 ### See also
 
-[Zcash Network Upgrades](../Start_Here/Network_Upgrades.md)
+[Zcash Network Upgrades](../start-here/network-upgrades)
 
-[Development Fund](../Start_Here/Development_Fund.md)
+[Development Fund](../start-here/development-fund)
 
-[Zcash Monetary Policy](../Start_Here/Zcash_Monetary_Policy.md)
+[Zcash Monetary Policy](../start-here/zcash-monetary-policy)
 
-[NU6.1](NU6_1.md)
+[NU6.1](../zcash-tech/nu6-1)
 
-[NU6.2](NU6_2.md)
+[NU6.2](../zcash-tech/nu6-2)
 
-[What is ZEC and Zcash](../Start_Here/What_is_ZEC_and_Zcash.md)
+[What is ZEC and Zcash](../start-here/what-is-zec-and-zcash)
 
 ---
 
-Series: [Network Upgrades index](../Start_Here/Network_Upgrades.md) · Previous: [NU5](NU5.md) · Next: [NU6.1](NU6_1.md)
+Series: [Network Upgrades index](../start-here/network-upgrades) · Previous: [NU5](../zcash-tech/nu5) · Next: [NU6.1](../zcash-tech/nu6-1)
