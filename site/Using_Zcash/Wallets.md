@@ -283,3 +283,44 @@
 - Wallet Support: Unified Address 
 - Pools: Transparent | Sapling | Orchard
 - Features: End-to-end encrypted Messenger | NEAR Intents | P2P.me Offramp | Beta
+
+---
+
+## [Zecd](https://zecd.org/quickstart.html)
+![logo](https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zecd.png?raw=true "Zecd")
+- Devices: Desktop 
+- Operating System: Linux
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Private Key | Spending Key | Wallet Backup / Key Export | Full Node Wallet 
+- Pools: Transparent | Sapling | Orchard | Sprout
+- Features: Encrypted Memo | Wallet Backup (wallet data) | RPC Interface | Shielded Memo | Private Key Management
+
+---
+
+## [Zend:Zcash Wallet](https://justzend.com/)
+![logo](https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zend.jpg?raw=true "Zend:Zcash Wallet")
+- Devices: Mobile | Desktop
+- Operating System: iOS | macOS
+- Wallet Support: Seed Phrase | Passkey | Unified Address | Private Key | Self-Custody Wallet 
+- Pools: Transparent | Sapling | Orchard 
+- Features: Self-Custody | Private Key Stored Locally | No KYC Required | No Zend Server Dependency for Wallet Activity | Encrypted Shielded Transaction | Seed Recovery | Shielded Memo | Passkey Authentication
+
+---
+
+## [Nozy Wallet](https://github.com/LEONINE-DAO/Nozy-wallet)
+![logo](https://github.com/gorgagian123/Exchanges-Logo/blob/main/Nozzy%20Wallet.jpg?raw=true "Nozy Wallet")
+- Devices: Desktop | Browser
+- Operating System: Linux | iOS | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Spending Key | HD Wallet | Private Key Management 
+- Pools: Transparent | Sapling | Orchard 
+- Features: Address Book | Tor Support | I2P Support | Zebra/Zebrad Integration | Transaction History | Transaction Export | Local Witness Derivation | Dynamic Fee (ZIP-317) | NU6.2 Compatibility | NU6.3 Migration Support | Shielded Memo
+
+---
+
+## [Zipher](https://github.com/atmospherelabs-dev/zipher-app)
+![logo](https://github.com/atmospherelabs-dev/zipher-app/blob/main/assets/zipher_logo.png?raw=true "Zipher")
+- Devices: Mobile | Desktop 
+- Operating System: Android | Windows | Linux (CLI and MCP Server) | iOS | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Multi Account Wallet | Self-Custody Wallet | Private Key Management | Agent Wallet Support
+- Pools: Transparent | Sapling | Orchard 
+- Features: NEAR Intents | Payment Requests | Shielded Memo | Shielded Transaction Default | Testnet Support | Cross-chain Swap | CipherPay Checkout | Viewing Key Export | AI Agent Integration | MCP Server | CLI Wallet | Human-in-the-loop Approval | FROST | Beta | TestFlight
+
