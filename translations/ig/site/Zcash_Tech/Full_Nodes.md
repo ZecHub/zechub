@@ -10,7 +10,9 @@ Full Node bụ sọftụwia nke na-agbazi nnomi zuru oke nke ngọngọ cryptocu
 
 ## Zcashd
 
-Zcashd bụ ugbu a bụ isi mmejuputa Full Node nke Zcash na-eji eme ihe, nke ụlọ ọrụ Electric Coin Company mepụtara ma debe ya.
+> **Note:** zcashd is being deprecated. The Electric Coin Company has [formally announced](https://z.cash/support/zcashd-deprecation/) that zcashd is being retired, with its full-node role replaced by [Zebra](https://github.com/ZcashFoundation/zebra) (`zebrad`) na akpa ya site na [ Zallet](https://github.com/zcash/zallet). For new deployments, use Zebra (see below). If you already run a zcashd node, follow the [Migration Guide: zcashd to Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+
+zcashd was the original Full Node implementation for Zcash, developed and maintained by the Electric Coin Company. The build instructions below are retained for reference and for operators migrating away from zcashd.
 
 Zcashd exposes a set of API's via its RPC interface. These API's provide functions that allow external applications to interact with the node.
 
@@ -56,15 +58,13 @@ Zcashd exposes a set of API's via its RPC interface. These API's provide functio
 
 ## Zebra
 
-Zebra bụ mmejuputa iwu zuru oke maka Zcash Protocol nke Zcash Foundation mepụtara. 
+Zebra is an independent, production-ready full node implementation of the Zcash protocol, created by the Zcash Foundation and written in Rust. As zcashd is retired, Zebra (`zebrad`) bụ ebe a na-atụ aro maka ntinye ọhụrụ.
 
-A na-anwale ya ugbu a ma ọ ka bụ nnwale.
+Zebra validates blocks and transactions, participates in the peer-to-peer network, and exposes an RPC interface for applications. The wallet is a separate component now: [Zallet](https://github.com/zcash/zallet) runs against a Zebra node and handles keys and balances. This replaces zcashd, which bundled the node and wallet in a single process.
 
-E nwere isi ihe abụọ dị na Zebra. Ihe ndị ahịa nke na-ahụ maka nyocha nke blockchain na ikpe ikpe nke azụmahịa. 
+Iji jee ozi na obere akpa ọkụ, ọnụ ahụ na-agba ọsọ n'akụkụ onye na-edepụta aha, ma ọ bụ [lightwalletd](https://github.com/zcash/lightwalletd) ma ọ bụ nke ọhụrụ [Zaino](https://zechub.wiki/zaino).
 
-The second part is the zebra command line tool. This tool manages spending keys, addresses & communicates with the Client component in zebrad to provide basic wallet functionality.
-
-A na-akpọ onye ọ bụla nwere mmasị ịnwale Zebra iji gwupụta ngọngọ ka ọ sonye na R & D nkesa discord. Ọzọkwa jide n'aka na ị gụọ akwụkwọ Zebra maka ntuziaka ntọala. 
+Jide n'aka na ị gụrụ akwụkwọ Zebra maka ntuziaka ntọala, ma sonyere R&D Discord server maka nkwado. 
 
 [Github](https://github.com/ZcashFoundation/zebra/)
 
@@ -122,7 +122,3 @@ Jikọọ anyị [Discord Sever]](https://discord.gg/zcash) maọbụ kpọtụr
 
 
 
-
----
-
-**Protected terms (keep in English):** `Zaino` `Zallet`

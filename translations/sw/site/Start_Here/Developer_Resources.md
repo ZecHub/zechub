@@ -29,7 +29,7 @@ Kujenga uelewa wa jinsi dependencies ni upya & kudumishwa na timu:
 
 [Anwani Encoding](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys)
 
-[Zebrad Kuu Kuvuta Maombi]() / [Zebrad Kuu Kuvuta Maombi](https://github.com/ZcashFoundation/zebra/pulls)
+[Zebrad Repository](https://github.com/ZcashFoundation/zebra) / [Zebrad Kuvuta Maombi](https://github.com/ZcashFoundation/zebra/pulls)
 
 [Cryptographic Signature maktaba](https://github.com/orgs/ZcashFoundation/repositories?type=all)
 
@@ -37,11 +37,11 @@ Kujenga uelewa wa jinsi dependencies ni upya & kudumishwa na timu:
 
 [Kitabu cha shamba la matunda](https://zcash.github.io/orchard/)
 
-[Halo Crate]() / [ Orchard Crate](https://docs.rs/orchard/latest/orchard/)
+[Halo2 Crate](https://docs.rs/halo2_proofs/latest/halo2_proofs/) / [ Orchard Crate](https://docs.rs/orchard/latest/orchard/)
 
 [Zcash R & D Discord](https://discord.gg/6AK7keWFaK)
 
-[Teknolojia nyingine zinazohusiana na Zcash]() / [Kitabu Frost](https://frost.zfnd.org/)
+[Kitabu cha Frost](https://frost.zfnd.org/)
 
 [Zechub Hackathon 2024 Matokeo](https://x.com/ZecHub/status/1845212469809033489)
 

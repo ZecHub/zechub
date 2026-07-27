@@ -10,14 +10,13 @@ The official Arborist Calls page is maintained by the Zcash Foundation:
 
 **[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
 
-> **Àkíyèsí:** Kò sí ìpè Arborist tí a ṣe ní ọ̀sẹ̀ 12 oṣù karùn-ún ọdún 2026. [Ìpè tó tẹ̀lé: 28 oṣù karun-ún]](https://forum.zcashcommunity.com/t/no-arborist-call-this-week-next-call-may-28th/55659).
 
 ## Bó O Ṣe Lè Darapọ̀ Mọ́ Ètò Náà
 
 The calls alternate between two recurring time slots so that contributors in different regions can participate. Use the official Zcash Foundation page for the current calendar files and Zoom links:
 
 - **15:00 UTC** àsìkò
-- **21:00 UTC** àsìkò
+
 
 Ojúewé Ìpilẹ̀ṣẹ̀ ni orísun òtítọ́ fún àwọn ìjápọ̀ ìforúkọsílẹ̀, àwọn fáìlì kàlẹ́ńdà, àti wíwọlé ìpàdé nítorí pé àwọn ìjojá ìpàdé lè yí padà.
 

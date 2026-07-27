@@ -1,32 +1,41 @@
+---
 <a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Arborist_Calls.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Arborist Calls
 
-Zcash Arborist Callsは、ネットワークアップグレードの計画、コンセンサスノードの実装作業、ウォレットおよびインフラストラクチャの依存関係、プロトコル研究に焦点を当てた定期的なプロトコル開発会議です。
+Zcash Arborist Calls は、ネットワークアップグレードの計画、コンセンサスノード実装作業、ウォレットおよびインフラの依存関係、ならびにプロトコル研究に焦点を当てた定期的なプロトコル開発ミーティングです。
 
-公式なArborist CallsページはZcash Foundationによって管理されています：
+公式の Arborist Calls ページは Zcash Foundation によって管理されています。
 
 **[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
 
-> **注意:** 2026年5月12日の週にはArborist Callが開催されませんでした。[次の会議: 5月28日](https://forum.zcashcommunity.com/t/no-arborist-call-this-week-next-call-may-28th/55659)。
 
 ## 参加方法
 
-Arborist Callsは、異なる地域にいる参加者が参加できるように、2つの定期的な時間枠を交互に使用します。現在のカレンダーファイルとZoomリンクについては、公式なZcash Foundationページをご利用ください：
+この通話は、異なる地域のコントリビューターが参加できるように、2つの定期的な時間帯を交互に開催しています。最新のカレンダーファイルと Zoom リンクについては、公式の Zcash Foundation ページを利用してください。
 
-- **UTC 15:00** 時間枠
-- **UTC 21:00** 時間枠
+- **15:00 UTC** の時間帯
 
-Foundationページが登録リンク、カレンダーファイル、会議へのアクセスに関する信頼できる情報源であるため、会議リンクは変更されることがあります。
 
-## メモ、議題、録画
+登録リンク、カレンダーファイル、会議へのアクセスについては、会議リンクが変更されることがあるため、Foundation のページを正確な情報源として参照してください。
 
-- 議題と議事録: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
-- 最近の録画: [Zcash Arborist Callプレイリスト](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
-- Zcash R&Dに関する議論: [Zcash R&D Discord](https://discord.gg/xpzPR53xtU)
-- 詳細な議論: [Zcash Community Forum](https://forum.zcashcommunity.com/)
+## ノート、議題、録画
+
+- 完全な議題と議事録: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
+- 最近の録画: [Zcash Arborist Call プレイリスト](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
+- Zcash の研究開発に関する議論: [Zcash R&D Discord](https://discord.gg/xpzPR53xtU)
+- 長文での議論: [Zcash Community Forum](https://forum.zcashcommunity.com/)
+
+## どのような人に適しているか
+
+Arborist Calls は次のような人に役立ちます。
+
+- プロトコルエンジニアと研究者
+- ノード、ウォレット、SDK、lightwallet インフラの開発者
+- コンセンサス、ネットワークアップグレード、またはプロトコル依存関係に関わる作業をしている助成金受給者
+- 公開の場で行われる技術的な意思決定を追いたいコミュニティメンバー
 
 ## プレイリスト
 

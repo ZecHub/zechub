@@ -44,7 +44,7 @@
 - Dwumadie Nhyehyɛeɛ: Android | iOS
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling
-- Nneɛma a ɛwɔ mu: Automatic Shielding | DEX Nsakraeɛ | Multi Sikakorabea | Memo a Wɔabɔ ho ban | Fa sika di dwuma ansa na Sync
+- Nneɛma a ɛwɔ mu: Automatic Shielding | DEX Nsakraeɛ | Multi Coin | Memo a Wɔabɔ ho ban | Fa sika di dwuma ansa na Sync
 
 ---
 
@@ -54,7 +54,7 @@
 - Dwumadie Nhyehyɛeɛ: Android | iOS
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling | Orchard
-- Nneɛma a ɛwɔ mu: DEX Swaps | Multi Sikakorabea | Fa sika di dwuma ansa na Sync
+- Nneɛma a ɛwɔ mu: DEX Swaps | Multi Coin | Fa sika di dwuma ansa na Sync
 
 ---
 
@@ -84,7 +84,7 @@
 - Dwumadie Nhyehyɛeɛ: Android | iOS | Mfɛnsere | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Transparent | Sapling | Orchard
-- Nneɛma a ɛwɔ mu: Address Book | Address a Wɔkyinkyini | Automatic Shielding | DEX Nsakraeɛ | Multi Sikakorabea | Memo a Wɔabɔ ho ban | Tor Mmoa
+- Nneɛma a ɛwɔ mu: Address Book | Address a Wɔkyinkyini | Automatic Shielding | DEX Nsakraeɛ | Multi Coin | Memo a Wɔabɔ ho ban | Tor Mmoa
 
 ---
 
@@ -108,7 +108,7 @@
 
 ---
 
-## [Zallet na ɔkyerɛwee](https://github.com/zcash/wallet)
+## [Zallet, na ɔde ne nsa kyerɛɛ ne so](https://github.com/zcash/wallet)
 ![ahyɛnsodeɛ](https://i.ibb.co/3mCrR0dN/Brandmark-Yellow.png "Zallet")
 - Mfiri a Wɔde Yɛ: Desktop
 - Dwumadie Nhyehyɛeɛ: Windows | Linux | macOS
@@ -262,7 +262,7 @@
 - Mfiri: Wɛbsaet | Desktop so na ɛyɛ adwuma
 - Dwumadi Nhyehyɛe: Browser
 - Atare: Wɔabɔ ho ban | Fann
-- Nneɛma a ɛwɔ mu: Zcash | Browser Ntrɛwmu | Ankorankoro Beta | Nkitahodi a Wɔabɔ ho ban | Mmeamudua-nkɔnsɔnkɔnsɔn Swaps | Boa a Wɔde Ma & Boa a Wɔbɔ | DApp Nkitahodi | Kurom hɔfo ZECFi
+- Nneɛma a ɛwɔ mu: Browser Ntrɛwmu | Nkitahodi a Wɔabɔ ho ban | Mmeamudua-nkɔnsɔnkɔnsɔn Swaps | Boa a Wɔde Ma & Boa a Wɔbɔ | DApp Nkitahodi | Rhea na ɔkyerɛwee
 
 ---
 

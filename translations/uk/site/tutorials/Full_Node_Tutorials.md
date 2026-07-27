@@ -2,43 +2,41 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Підручники з Full Node
+# Посібники з Full Node
 
-Zcash Full Node перевіряють прозорі та shielded транзакції в мережі. Запускаючи full node, ви робите внесок у стійкість і стабільність мережі. Крім того, робота full node забезпечує користувачеві підвищені гарантії безпеки та захисту. Нижче наведено відеоінструкції з налаштування/оновлення Full Node zcashd або zebrad.
+Zcash Full Nodes перевіряють прозорі та shielded транзакції в мережі. Запускаючи full node, ви робите внесок у стійкість і стабільність мережі. Крім того, робота full node забезпечує користувачу підвищені гарантії безпеки та захисту. Нижче наведено відеопосібники з налаштування/оновлення Full Nodes zcashd або zebrad.
 
-Будь ласка, прочитайте наші [посібники](/site/Guides/Full_Nodes), щоб дізнатися більше.
+> **Примітка:** zcashd [виводиться з ужитку](https://z.cash/support/zcashd-deprecation/) на користь [Zebra](https://github.com/ZcashFoundation/zebra) (`zebrad`) для вузла та [Zallet](https://github.com/zcash/zallet) для гаманця. Наведені нижче відео про zcashd збережені для довідки; для нових налаштувань скористайтеся [Посібником з міграції: zcashd до Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+
+Будь ласка, прочитайте наш [посібник про Full Nodes](https://zechub.wiki/full-nodes) для отримання додаткової інформації.
 
 - Як скомпілювати Zcashd на Raspberry Pi 4
 
-[![Мініатюра відео](https://img.youtube.com/vi/SGYrzhs1l2k/hqdefault.jpg)](https://www.youtube.com/watch?v=SGYrzhs1l2k)
+[![Video Thumbnail](https://img.youtube.com/vi/SGYrzhs1l2k/hqdefault.jpg)](https://www.youtube.com/watch?v=SGYrzhs1l2k)
 ____
 
 - Інструмент гаманця Zcashd
 
-[![Мініатюра відео](https://img.youtube.com/vi/9t2LX3HFldw/hqdefault.jpg)](https://www.youtube.com/watch?v=9t2LX3HFldw)
+[![Video Thumbnail](https://img.youtube.com/vi/9t2LX3HFldw/hqdefault.jpg)](https://www.youtube.com/watch?v=9t2LX3HFldw)
 ____
 
-- Практичний посібник із використання Zcashd 
+- Практичний посібник з використання Zcashd 
 
-[![Мініатюра відео](https://img.youtube.com/vi/KNhd1KC0Bqk/hqdefault.jpg)](https://www.youtube.com/watch?v=KNhd1KC0Bqk)
+[![Video Thumbnail](https://img.youtube.com/vi/KNhd1KC0Bqk/hqdefault.jpg)](https://www.youtube.com/watch?v=KNhd1KC0Bqk)
 ____
 
 - Як оновити вузол Zcashd
 
-[![Мініатюра відео](https://img.youtube.com/vi/YjAkaseEqAE/hqdefault.jpg)](https://www.youtube.com/watch?v=YjAkaseEqAE)
+[![Video Thumbnail](https://img.youtube.com/vi/YjAkaseEqAE/hqdefault.jpg)](https://www.youtube.com/watch?v=YjAkaseEqAE)
 _____
 
 - Використання сервера Lightwalletd із Zebra
 
-[![Мініатюра відео](https://img.youtube.com/vi/FfH5jiX8pT0/hqdefault.jpg)](https://www.youtube.com/watch?v=FfH5jiX8pT0)
+[![Video Thumbnail](https://img.youtube.com/vi/FfH5jiX8pT0/hqdefault.jpg)](https://www.youtube.com/watch?v=FfH5jiX8pT0)
 
 
 ____
 
 - Публікація коментарів на Free2Z за допомогою Zenith CLI
 
-[![Мініатюра відео](https://img.youtube.com/vi/HtorP8TJ5vk/hqdefault.jpg)](https://www.youtube.com/watch?v=HtorP8TJ5vk)
-
----
-
-**Protected terms (keep in English):** `Zallet`
+[![Video Thumbnail](https://img.youtube.com/vi/HtorP8TJ5vk/hqdefault.jpg)](https://www.youtube.com/watch?v=HtorP8TJ5vk)

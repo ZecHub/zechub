@@ -84,7 +84,7 @@
 - Mfumo wa uendeshaji: Android  iOS  Windows  Linux  macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Transparent | Sapling | Orchard
-- Sifa: Kitabu cha Anwani  Mzunguko wa Anwani Automatic Shielding  DEX Swaps  Multi Coin  Memo Shielded  Usaidizi wa Tor
+- Makala: Kitabu cha anwani  Anwani ya mzunguko  Shielding Automatic  DEX Swaps  Multi Coin  Shielded Memo  Tor Support
 
 ---
 
@@ -170,7 +170,7 @@
 
 ## [Trust Wallet](https://trustwallet.com/download)
 [Logo]](https://i.ibb.co/cNqxBJ1/trustwallet.png "Trust Wallet")
-- Vifaa: Simu ya Mkononi  Mtandao
+- Vifaa: Simu ya mkononi  Web
 - Mfumo wa uendeshaji: Android  iOS  Browser
 - Mkoba Support: Mbegu Phrase
 - Vidimbwi: Uwazi
@@ -262,7 +262,7 @@
 - Vifaa: Mtandao  Desktop
 - Mfumo wa Uendeshaji: Browser
 - Mabwawa: Kuhifadhiwa. Uwazi
-- Makala: Zcash  Browser Extension  Private Beta  Shielded Transactions  Cross-chain Swaps  Lending & Borrowing  DApp Connections  Native ZECFi
+- Sifa: Browser Extension; Shielded Transactions; Cross-chain Swaps; Lending & Borrowing; DApp Connections; Rhea
 
 ---
 
@@ -270,7 +270,7 @@
 [Logo]](https://i.ibb.co/3YjpzYnH/Leo-Dexwallet.png "LeoDex")
 - Vifaa: Mtandao  Desktop
 - Mfumo wa uendeshaji: Browser Windows MacOS
-- Msaada wa Pochi: Kiambishi cha Mwanzo. Pochi ya Nje. Anwani ya Kupokea. Nambari ya QR.
+- Wallet Support: Seed Phrase | External Wallet | Receive Address | QR Code | Hardware
 - Mabwawa: Sapling. Uwazi
 - Makala: Multi Coin. Karibu na Makusudi. Maya DEX. Hakuna KYC. Non-Custodial. Web App. Desktop App. Shielded ZEC. AnyPay
 

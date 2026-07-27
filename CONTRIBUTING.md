@@ -60,6 +60,8 @@ ZecHub's goal is to provide an open-source education hub that anyone in the Zcas
 
 Note* ZecHub Global page translation rate limit is 10 pages per week.
 
+**Keeping curated translations current:** curated locale pages under `translations/<locale>/site/` are tracked against their English source by a source-hash manifest, so a page can be flagged and re-synced when its English source changes. See [translation/README-sync.md](translation/README-sync.md) for how staleness detection, the sync workflow, and protected-terms validation fit together.
+
 ### ZecHub Wiki - 0.1 ZEC per accepted edit to docs
 
 Sometimes our information in the docs isn't spot on. That's okay. That's why we open-source them! If you find something that needs a change in a wiki-doc, please go to the footer of the doc (which links to its Github page) and suggest a change via a PR.

@@ -4,7 +4,7 @@
 - 操作系统：Android | iOS
 - 钱包支持：助记词 | Viewing Key | Unified Address | 硬件
 - 资金池：Transparent | Sapling | Orchard
-- 功能：地址簿 | CrossPay | Near Intents | Flexa Payments | MultiSignature | 支付请求 | Shielded Memo | 同步前支付 | TEX 地址 | Tor 支持 | F-droid
+- 功能：地址簿 | CrossPay | Near Intents | Flexa Payments | 多重签名 | 支付请求 | Shielded Memo | 同步前即可支付 | TEX 地址 | Tor 支持 | F-droid
 
 ---
 
@@ -14,7 +14,7 @@
 - 操作系统：Android | iOS | Windows | Linux | macOS
 - 钱包支持：助记词 | Viewing Key | Unified Address | 硬件
 - 资金池：Transparent | Sapling | Orchard
-- 功能：地址簿 | 冷存储 | 多样化地址 | 支付请求 | 池间转账 | Shielded Memo | TEX 地址 | 投票 | WarpSync
+- 功能：地址簿 | 冷存储 | 多样化地址 | 支付请求 | 资金池转账 | Shielded Memo | TEX 地址 | 投票 | WarpSync
 
 ---
 
@@ -44,7 +44,7 @@
 - 操作系统：Android | iOS
 - 钱包支持：助记词 | Unified Address
 - 资金池：Transparent | Sapling
-- 功能：自动屏蔽 | DEX 兑换 | 多币种 | Shielded Memo | 同步前支付
+- 功能：自动屏蔽化 | DEX 兑换 | 多币种 | Shielded Memo | 同步前即可支付
 
 ---
 
@@ -54,7 +54,7 @@
 - 操作系统：Android | iOS
 - 钱包支持：助记词 | Unified Address
 - 资金池：Transparent | Sapling | Orchard
-- 功能：DEX 兑换 | 多币种 | 同步前支付
+- 功能：DEX 兑换 | 多币种 | 同步前即可支付
 
 ---
 
@@ -64,7 +64,7 @@
 - 操作系统：Android | iOS | Windows
 - 钱包支持：助记词 | Viewing Key | Unified Address
 - 资金池：Transparent | Sapling | Orchard
-- 功能：地址簿 | 地址校验 | 自动屏蔽 | 多样化地址 | 支付请求 | Shielded Memo | TEX 地址 | 测试网支持
+- 功能：地址簿 | 地址检查 | 自动屏蔽化 | 多样化地址 | 支付请求 | Shielded Memo | TEX 地址 | 测试网支持
 
 ---
 
@@ -84,7 +84,7 @@
 - 操作系统：Android | iOS | Windows | Linux | macOS
 - 钱包支持：助记词 | Viewing Key | Unified Address
 - 资金池：Transparent | Sapling | Orchard
-- 功能：地址簿 | 地址轮换 | 自动屏蔽 | DEX 兑换 | 多币种 | Shielded Memo | Tor 支持
+- 功能：地址簿 | 地址轮换 | 自动屏蔽化 | DEX 兑换 | 多币种 | Shielded Memo | Tor 支持
 
 ---
 
@@ -134,7 +134,7 @@
 - 操作系统：浏览器
 - 钱包支持：助记词 | Unified Address
 - 资金池：Transparent | Orchard
-- 功能：Shielded Memo | 同步前支付 | 测试网支持
+- 功能：Shielded Memo | 同步前即可支付 | 测试网支持
 
 ---
 
@@ -253,7 +253,7 @@
 - 操作系统：macOS
 - 钱包支持：助记词 | Unified Address | 硬件
 - 资金池：Transparent | Sapling | Orchard
-- 功能：自动屏蔽 | Shielded Memo | 测试网支持 | FROST 多签
+- 功能：自动屏蔽化 | Shielded Memo | 测试网支持 | FROST 多签
 
 ---
 
@@ -262,7 +262,7 @@
 - 设备：网页端 | 桌面端
 - 操作系统：浏览器
 - 资金池：Shielded | Transparent
-- 功能：Zcash | 浏览器扩展 | 私测版 | Shielded 交易 | 跨链兑换 | 借贷 | DApp 连接 | 原生 ZECFi
+- 功能：浏览器扩展 | Shielded 交易 | 跨链兑换 | 借贷 | DApp 连接 | Rhea
 
 ---
 
@@ -282,4 +282,4 @@
 - 操作系统：Android 
 - 钱包支持：Unified Address 
 - 资金池：Transparent | Sapling | Orchard
-- 功能：端到端加密消息应用 | NEAR Intents | P2P.me Offramp | Beta
+- 功能：端到端加密即时通讯 | NEAR Intents | P2P.me Offramp | Beta

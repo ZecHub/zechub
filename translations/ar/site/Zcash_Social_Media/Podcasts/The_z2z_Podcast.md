@@ -1,5 +1,6 @@
+---
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Social_Media/Podcasts/The_z2z_Podcast.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="تعديل الصفحة"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # بودكاست Z2Z
@@ -23,7 +24,7 @@
 
 + الحلقة 1 - تنظيم العملات المشفرة والخصوصية المالية مع J.W. Verret [Youtube](https://www.youtube.com/watch?v=20oCI7XAR08) |  [Odysee](https://odysee.com/@ZecHub:4/z2zpodcast1:4) | [Spotify](https://open.spotify.com/episode/4bgn6g1vcVXOqTZ71IN6HE)
 
-+ الحلقة 2 - NFTs الموسيقية والخصوصية والحرية الاقتصادية مع Xcelencia [Youtube](https://www.youtube.com/watch?v=nrtoRgb7g28) | [Odysee](https://odysee.com/@ZecHub:4/xcelencia:4) | [Spotify](https://open.spotify.com/episode/0a0Fad1H2vJ4JO1edJCKuC)
++ الحلقة 2 - Music NFTs والخصوصية والحرية الاقتصادية مع Xcelencia [Youtube](https://www.youtube.com/watch?v=nrtoRgb7g28) | [Odysee](https://odysee.com/@ZecHub:4/xcelencia:4) | [Spotify](https://open.spotify.com/episode/0a0Fad1H2vJ4JO1edJCKuC)
 
 + الحلقة 3 - DeFi والخصوصية مع Railgun [Youtube](https://www.youtube.com/watch?v=jLd7J5BY_aM) | [Odysee](https://odysee.com/@ZecHub:4/railgun:f) | [Spotify](https://open.spotify.com/episode/6dlRiUjEzFOogTrwdVhnhd)
 
@@ -35,10 +36,10 @@
 
 + الحلقة 7 - الشكوك والمخاوف وعدم اليقين حول Zcash مع Josh Swihart [Youtube](https://www.youtube.com/watch?v=a6TQt6rmwXU) | [Odysee](https://odysee.com/@ZecHub:4/podcast-Josh:9) | [Spotify](https://open.spotify.com/episode/5GGUGjYQWgxwe5y1PGzMLJ)
 
-+ الحلقة 8 - أمن Zcash وLightwalletd مع Taylor Hornby [YouTube](https://www.youtube.com/watch?v=18-xowScNpw) | [Odysee](https://odysee.com/@ZecHub:4/Taylor-Podcast:e) | [Spotify](https://open.spotify.com/episode/2KMp034ipnkdLOXmGVTXfu)
++ الحلقة 8 - أمان Zcash وLightwalletd مع Taylor Hornby [YouTube](https://www.youtube.com/watch?v=18-xowScNpw) | [Odysee](https://odysee.com/@ZecHub:4/Taylor-Podcast:e) | [Spotify](https://open.spotify.com/episode/2KMp034ipnkdLOXmGVTXfu)
 
 + الحلقة 9 - نادي ZFAV مع Ryan Taylor (المعروف أيضًا باسم AdjyLeak) [Youtube](https://www.youtube.com/watch?v=BYnhTNkQ-3M) | [Odysee](https://odysee.com/@ZecHub:4/podcast-ryan-taylor:c) | [Spotify](https://open.spotify.com/episode/1TJ6Nycq9nyW2b62ytI3O2)
 
-+ الحلقة 10 - الخصوصية من أجل المصلحة العامة مع Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6) | [Spotify]()
++ الحلقة 10 - الخصوصية من أجل المصلحة العامة مع Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
-إذا كانت لديك أي توصيات بشأن من تود رؤيته لاحقًا في البودكاست، فلا تتردد في التواصل معنا!  أرسل رسالة خاصة إلى @zechub على Twitter
+إذا كانت لديك أي توصيات بشأن من تود أن تراه لاحقًا في البودكاست، فلا تتردد في التواصل معنا!  الرسائل الخاصة إلى @zechub على Twitter

@@ -10,7 +10,9 @@ It holds a complete record of every transaction that has occurred since genesis 
 
 ## Zcashd
 
-Zcashd is currently the main Full Node implementation used by Zcash developed and maintained by the Electric Coin Company.
+> ** Àkíyèsí:** zcashd ti wa ni deprecated. The Electric Coin Company ti [ni ifowosi kede](https://z.cash/support/zcashd-deprecation/) pe zcashd ti wa ni retired, pẹlu awọn oniwe-pupọ-node ipa rọpo nipasẹ [Zebra](https://github.com/ZcashFoundation/zebra) (`zebrad`) àti ipa tí [Zallet] ń kó nínú owó pópó rẹ̀](https://github.com/zcash/zallet). Fun titun deployments, lo Zebra (wo ni isalẹ). Ti o ba ti tẹlẹ ṣiṣe a zcashd node, tẹle awọn [Migration Guide: zcash d to Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+
+zcashd was the original Full Node implementation for Zcash, developed and maintained by the Electric Coin Company. The build instructions below are retained for reference and for operators migrating away from zcashd.
 
 Zcashd exposes a set of API's via its RPC interface. These API's provide functions that allow external applications to interact with the node.
 
@@ -56,15 +58,13 @@ Zcashd exposes a set of API's via its RPC interface. These API's provide functio
 
 ## Ẹranko Zebra
 
-Zebra is an independent full node implementation for the Zcash Protocol created by the Zcash Foundation. 
+Zebra is an independent, production-ready full node implementation of the Zcash protocol, created by the Zcash Foundation and written in Rust. As zcashd is retired, Zebra (`zebrad`) ni ìkápá tí a dábàá fún ìmúṣẹ tuntun.
 
-Lọwọlọwọ o ti wa ni idanwo ati pe o tun jẹ idanwo.
+Zebra validates blocks and transactions, participates in the peer-to-peer network, and exposes an RPC interface for applications. The wallet is a separate component now: [Zallet](https://github.com/zcash/zallet) ó ń ṣiṣẹ́ pẹ̀lú Zebra node ó sì ń ṣe àbójútó àwọn kókó àti ìsókè. èyí rọ́pò zcashd, èyí tí ó so node àti wallet pọ̀ nínú ètò kan ṣoṣo.
 
-Awọn ẹya meji lo wa ninu Zebra. Ẹya onibara ti o ni iduro fun iṣawari blockchain ati idanwo decryption ti awọn iṣowo. 
+Lati sin awọn apamọwọ ina ti o ni aabo, node naa n ṣiṣẹ lẹgbẹẹ itọka kan, boya ti a fi idi mulẹ [lightwalletd](https://github.com/zcash/lightwalletd) tàbí èyí tó ṣẹ̀ṣẹ̀ jáde [Zaino](https://zechub.wiki/zaino).
 
-Apakan keji ni ọpa laini aṣẹ zebra. Ọpa yii n ṣakoso awọn bọtini inawo, awọn adirẹsi & ṣe ibaraẹnisọrọ pẹlu paati Olumulo ni zebrad lati pese iṣẹ ṣiṣe apamọwọ ipilẹ.
-
-Ẹnikẹ́ni tí ó bá fẹ́ gbìyànjú Zebra láti ṣe ìwakùsà ni a pè láti darapọ̀ mọ́ R&D discord server. 
+Rii daju lati ka iwe Zebra fun awọn itọnisọna iṣeto, ati darapọ mọ olupin R&D Discord fun atilẹyin. 
 
 [Github](https://github.com/ZcashFoundation/zebra/)
 
@@ -80,7 +80,7 @@ Nípa lílo ìkànnì kan tí ó kún, ẹ̀ ń ṣèrànwọ́ láti mú kí n�
 
 Eyi ṣe iranlọwọ lati dena iṣakoso adani ati tọju nẹtiwọọki ni agbara si diẹ ninu awọn ọna idalọwọduro.
 
-DNS seeders fi àkọsílẹ̀ àwọn nodes tí ó ṣeé gbẹ́kẹ̀lé hàn nípasẹ̀ àwọn ohun èlò tí ó wà nínú rẹ̀. Èyí jẹ́ kí àwọn ìsòwò lè tàn káàkiri àgbáyé. 
+DNS seeders fi àkọsílẹ̀ àwọn ìkànnì tó ṣeé gbára lé hàn nípa lílo ohun èlò tí wọ́n ṣe sínú rẹ̀. Èyí jẹ́ kí àwọn ìnáwó lè tàn kálẹ̀ jákèjádò nẹ́ẹ̀tì. 
 
 ### Àwọn Àkọsílẹ̀ Nẹ́ẹ̀tì
 
@@ -122,7 +122,3 @@ Ka [Àwọn Àkọsílẹ̀ Ìtìlẹyìn]](https://zcash.readthedocs.io/en/lates
 
 
 
-
----
-
-**Protected terms (keep in English):** `Zaino` `Zallet`

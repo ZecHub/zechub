@@ -14,7 +14,7 @@
 - Sistemụ arụmọrụ: Android  iOS  Windows  Linux  macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Ọdọ Mmiri: Mpekere  Sapling  Orchard
-- Atụmatụ: Akwụkwọ Adreesị Nchekwa Nzuzo Adresị dịgasị iche arịrịọ ịkwụ ụgwọ Nnyefe ọdọ mmiri Memo echedoro TEX Address Ntuli aka WarpSync
+- Njirimara: Akwụkwọ adreesị Nchekwa oyi Adreesị dịgasị iche arịrịọ ịkwụ ụgwọ Nnyefe mmiri Memo echedoro TEX Address Voting WarpSync
 
 ---
 
@@ -262,7 +262,7 @@
 - Ngwaọrụ: Web  Desktọpụ
 - Sistemụ arụmọrụ: Nchọgharị
 - Ọdọ Mmiri: A na-echebe ya.
-- Atụmatụ: Zcash  Mgbatị Nchọgharị  Beta nke Onwe  Azụmahịa E Chebere  Mgbanwe Mgbanwe Cross-Chain  Ịgbazinye Ihe na Ịgbaziri Ihe  Njikọ DApp  ZECFi Native
+- Atụmatụ: Mgbatị Nchọgharị  Azụmahịa echekwara  Cross-chain Swaps  Lending & Borrowing  DApp Connections  Rhea
 
 ---
 

@@ -39,6 +39,6 @@ Mọ̀ nípa àwọn ìṣẹ̀lẹ̀ tó ń bọ̀:
 
 + Apá 9 - Ẹgbẹ́ ZFAV pẹ̀lú Ryan Taylor (ìyẹn AdjyLeak) [Youtube]](https://www.youtube.com/watch?v=BYnhTNkQ-3M) [Ìwé Odyssey]](https://odysee.com/@ZecHub:4/podcast-ryan-taylor:c) [Spotify] Èmi náà ń ṣe é.](https://open.spotify.com/episode/1TJ6Nycq9nyW2b62ytI3O2)
 
-+ Apá 10 - Ìpamọ́ fún ire gbogbo ènìyàn pẹ̀lú Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) [Ìwé Odyssey]](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1)6:] [Spotify ì í ì 'í ë ¤.]()
++ Apá 10 - Ìpamọ́ fún ire gbogbo ènìyàn pẹ̀lú Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) [Ìwé Odyssey]](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
 Bí ẹ bá ní àbá kan nípa ẹni tí ẹ fẹ́ rí nínú ìtòlẹ́sẹẹsẹ wa, ẹ máà gbọ̀n jìnnà láti kàn sí wa!

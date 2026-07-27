@@ -10,16 +10,15 @@ Zcash Foundation na ɛhwɛ Arborist Calls krataafa a ɛyɛ aban de no so:
 
 **[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
 
-> **Hyɛ no nsow:** Wɔannyɛ Arborist Call biara wɔ dapɛn a ɛyɛ May 12, 2026. [Next call: May 28th](https://forum.zcashcommunity.com/t/no-arborist-call-this-week-next-call-may-28th/55659).
 
 ## Sɛnea Wobɛka Ho
 
 Ɔfrɛ no sesa bere abien a ɛsan ba bio sɛnea ɛbɛyɛ a wɔn a wɔde mmoa ma wɔ mmeae ahorow betumi de wɔn ho ahyɛ mu. Fa Zcash Foundation krataafa a ɛyɛ aban de no di dwuma ma mprempren kalenda fael ne Zoom link ahorow:
 
 - **15:00 UTC** bere a wɔde yɛ adwuma
-- **21:00 UTC** bere a wɔde yɛ adwuma
 
-Fapem krataafa no ne nokware fibea ma dinkyerɛw nkitahodi, kalenda fael, ne nhyiam kwan a wɔfa so kɔ efisɛ nhyiam nkitahodi betumi asesa.
+
+Fapem krataafa no ne nokware fibea ma dinkyerɛw nkitahodi, kalenda fael, ne nhyiamu kwan a wɔfa so kɔ ɛfiri sɛ nhyiamu nkitahodiɛ tumi sesa.
 
 ## Nsɛm a Wɔahyɛ no Nsow, Agendas, ne Recordings
 
@@ -34,7 +33,7 @@ Arborist Calls ho wɔ mfaso ma:
 
 - Protocol mfiridwumayɛfo ne nhwehwɛmufo
 - Node, sika kotoku, SDK, ne lightwallet nhyehyɛe a wɔyɛ
-- Ma wɔn a wogye a wɔn adwuma ka adwene a wɔahyia, network upgrades, anaa protocol dependencies
+- Grant wɔn a wɔgye a wɔn adwuma ka adwene a wɔhyia, network upgrades, anaa protocol dependencies
 - Mpɔtam hɔfo a wɔpɛ sɛ wodi mfiridwuma ho gyinaesi akyi wɔ baguam
 
 ## Nnwom a wɔbɔ

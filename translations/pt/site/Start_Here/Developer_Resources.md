@@ -1,47 +1,47 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/Developer_Resources.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar Página"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 
-# Recursos para Desenvolvedores 
+# Recursos para Programadores
 
-**Uma lista dos recursos recomendados para novos desenvolvedores de Zcash**
+**Uma lista dos recursos recomendados para novos programadores de Zcash**
 
-Visão geral ampla de como Blockchains e Zcash funcionam:
+Visão geral ampla de como funcionam as blockchains e a Zcash:
 
-[Documentação do Zcash](https://zcash.readthedocs.io/en/latest/)
+[Documentação Zcash](https://zcash.readthedocs.io/en/latest/)
 
-[Mastering Bitcoin: Programando A Blockchain Aberta](https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4)
+[Mastering Bitcoin: Programming The Open Blockchain](https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4)
 
-[RPCs do Zcashd](https://zcash.github.io/rpc/)
+[RPCs de Zcashd](https://zcash.github.io/rpc/)
 
-[O Livro do zcashd](https://zcash.github.io/zcash/)
+[O Livro de Zcashd](https://zcash.github.io/zcash/)
 
-[O Livro do zebrad](https://zebra.zfnd.org/)
+[O Livro de Zebrad](https://zebra.zfnd.org/)
 
-[Protocolo de Cliente Leve](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html)
+[Protocolo de Light Client](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html)
 
-[SDK Mobile para Android](https://github.com/zcash/zcash-android-wallet-sdk) / [SDK Mobile para iOS](https://github.com/zcash/ZcashLightClientKit)
+[SDK Móvel para Android](https://github.com/zcash/zcash-android-wallet-sdk) / [SDK Móvel para iOS](https://github.com/zcash/ZcashLightClientKit)
 
-Construindo o entendimento de como as dependências são revisadas e mantidas pelas equipes:
+Desenvolver a compreensão de como as dependências são revistas e mantidas pelas equipas:
 
 [Lista de ZIP](https://zips.z.cash)
 
 [Codificação de Endereços](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys)
 
-[Principais Pull Requests do zebrad]() / [Principais Pull Requests do zebrad](https://github.com/ZcashFoundation/zebra/pulls)
+[Repositório de Zebrad](https://github.com/ZcashFoundation/zebra) / [Pull Requests de Zebrad](https://github.com/ZcashFoundation/zebra/pulls)
 
-[Bibliotecas de Assinatura Criptográfica](https://github.com/orgs/ZcashFoundation/repositories?type=all)
+[Bibliotecas de assinaturas criptográficas](https://github.com/orgs/ZcashFoundation/repositories?type=all)
 
-[O Livro do halo 2](https://zcash.github.io/halo2/index.html)
+[O Livro de halo 2](https://zcash.github.io/halo2/index.html)
 
-[O Livro do orchard](https://zcash.github.io/orchard/)
+[O Livro de orchard](https://zcash.github.io/orchard/)
 
-[Crate Halo]() / [Crate Orchard](https://docs.rs/orchard/latest/orchard/)
+[Crate Halo2](https://docs.rs/halo2_proofs/latest/halo2_proofs/) / [Crate Orchard](https://docs.rs/orchard/latest/orchard/)
 
-[Discord de P&D do Zcash](https://discord.gg/6AK7keWFaK)
+[Discord de I&D da Zcash](https://discord.gg/6AK7keWFaK)
 
-[Outras Tecnologias Relacionadas ao Zcash]() / [O Livro do FROST](https://frost.zfnd.org/)
+[O Livro de Frost](https://frost.zfnd.org/)
 
 [Resultados do Hackathon Zechub 2024](https://x.com/ZecHub/status/1845212469809033489)
 
@@ -53,13 +53,13 @@ Construindo o entendimento de como as dependências são revisadas e mantidas pe
 
 [Tailscale](https://github.com/tailscale/tailscale)
 
-[Carteira Zcash Warp2-Sync por Hanh](https://github.com/hhanh00/warp2)
+[Wallet Zcash Warp2-Sync por Hanh](https://github.com/hhanh00/warp2)
 
-[Explorador da Testnet do Zcash](https://testnet.zcashblockexplorer.com/)
+[Explorador da Testnet de Zcash](https://testnet.zcashblockexplorer.com/)
 
 
-Esta lista foi compilada a partir de recomendações fornecidas por desenvolvedores da Zcash Foundation e da Electric Coin Company. 
+Esta lista foi compilada a partir de recomendações fornecidas por programadores da Zcash Foundation e da ECC.
 
-Se você tiver recursos adicionais (links, livros, canais etc.) para atualizar a lista, sinta-se à vontade para incluí-los!
+Se tiver recursos adicionais (links, livros, canais, etc.) para atualizar a lista, sinta-se à vontade para incluí-los!
 
-*As equipes nem sempre têm os recursos para manter tudo totalmente atualizado, mas abrir issues sobre os problemas que você encontrar ajudará a orientar a direção dos guias e recursos*
+*As equipas nem sempre têm os recursos para manter tudo totalmente atualizado, mas abrir issues sobre problemas que encontrar ajudará a orientar a direção dos guias e dos recursos*

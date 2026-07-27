@@ -21,7 +21,7 @@ Nọgide na-emelite maka ihe ndị ga-eme n'ọdịnihu:
 
 ** Ndepụta nke ihe omume **
 
-+ Nkebi nke 1 - Iwu Crypto na nzuzo ego na J.W. Verret [Youtube](https://www.youtube.com/watch?v=20oCI7XAR08) [Odyssey]](https://odysee.com/@ZecHub:4/z2zpodcast1:4) [ Spotify ]](https://open.spotify.com/episode/4bgn6g1vcVXOqTZ71IN6HE)
++ Nkebi nke 1 - Iwu Crypto na nzuzo ego na J.W. Verret [Youtube](https://www.youtube.com/watch?v=20oCI7XAR08) [Odyssey]](https://odysee.com/@ZecHub:4/z2zpodcast1:4) [Spotify](https://open.spotify.com/episode/4bgn6g1vcVXOqTZ71IN6HE)
 
 + Nkeji edemede 2 - Music NFTs, nzuzo na nnwere onwe akụ na ụba na Xcelencia [Youtube](https://www.youtube.com/watch?v=nrtoRgb7g28) [Odyssey]](https://odysee.com/@ZecHub:4/xcelencia:4) [Spotify](https://open.spotify.com/episode/0a0Fad1H2vJ4JO1edJCKuC)
 
@@ -31,7 +31,7 @@ Nọgide na-emelite maka ihe ndị ga-eme n'ọdịnihu:
 
 + Nkebi nke 5 - Podcast ọhụrụ Zcash na Joël Valenzuela [Youtube](https://www.youtube.com/watch?v=TE1ILZankdM) [Odyssey]](https://odysee.com/@ZecHub:4/podcast-with-joe%CC%88l:6) [Spotify](https://open.spotify.com/episode/1GHzC6aNA8DIxA84yDtQ8W)
 
-+ Nkebi nke 6 - Zcash Brasil na Samara na-enye onyinye onyinye ọhụrụ [Youtube](https://www.youtube.com/watch?v=F5_DXXFSEsQ) [Odyssey]](https://odysee.com/@ZecHub:4/zcash-brazil-podcast:e) [Spotify](https://open.spotify.com/episode/5t3lz27CrWFvIWN2K3hKSN)
++ Nkebi nke 6 - Zcash Brasil na Samara na-enye onyinye onyinye kachasị ọhụrụ [Youtube](https://www.youtube.com/watch?v=F5_DXXFSEsQ) [Odyssey]](https://odysee.com/@ZecHub:4/zcash-brazil-podcast:e) [Spotify](https://open.spotify.com/episode/5t3lz27CrWFvIWN2K3hKSN)
 
 + Nkeji edemede 7 - Zcash FUD na Josh Swihart [Youtube](https://www.youtube.com/watch?v=a6TQt6rmwXU) [Odyssey]](https://odysee.com/@ZecHub:4/podcast-Josh:9) [Spotify](https://open.spotify.com/episode/5GGUGjYQWgxwe5y1PGzMLJ)
 
@@ -39,6 +39,6 @@ Nọgide na-emelite maka ihe ndị ga-eme n'ọdịnihu:
 
 + Nkebi nke 9 - ZFAV Club na Ryan Taylor (aka AdjyLeak) [Youtube](https://www.youtube.com/watch?v=BYnhTNkQ-3M) [Odyssey]](https://odysee.com/@ZecHub:4/podcast-ryan-taylor:c) [Spotify](https://open.spotify.com/episode/1TJ6Nycq9nyW2b62ytI3O2)
 
-+ Nkebi nke 10 - Nzuzo maka ọdịmma ọha na eze na Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) [Odyssey]](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1)[Spotify]]()
++ Nkebi nke 10 - Nzuzo maka ọdịmma ọha na eze na Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) [Odyssey]](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
 If you have any recommendations of who you would like to see next on the podcast, feel free to reach out to us!  DM's to @zechub on Twitter

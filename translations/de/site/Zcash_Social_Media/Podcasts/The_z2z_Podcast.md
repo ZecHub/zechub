@@ -1,3 +1,4 @@
+---
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Social_Media/Podcasts/The_z2z_Podcast.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Seite bearbeiten"/>
 </a>
@@ -6,9 +7,9 @@
 
 Der Z2Z Podcast bietet ausführliche Gespräche zwischen Ian Sagstetter (von der Electric Coin Company) und anderen Mitgliedern der Zcash-Community.
 
-Der Podcast behandelt eine Vielzahl unterschiedlicher Themen, konzentriert sich aber hauptsächlich auf Zcash und die Erfahrung seiner Nutzer.
+Der Podcast behandelt eine Vielzahl unterschiedlicher Themen, konzentriert sich jedoch hauptsächlich auf Zcash und die Erfahrungen seiner Nutzer.
 
-Bleibe über zukünftige Episoden auf dem Laufenden:
+Bleib über zukünftige Episoden auf dem Laufenden:
 
 [z2z Youtube-Playlist](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O)
 
@@ -31,7 +32,7 @@ Bleibe über zukünftige Episoden auf dem Laufenden:
 
 + Episode 5 - Der neue Zcash-Podcast mit Joël Valenzuela [Youtube](https://www.youtube.com/watch?v=TE1ILZankdM) | [Odysee](https://odysee.com/@ZecHub:4/podcast-with-joe%CC%88l:6) | [Spotify](https://open.spotify.com/episode/1GHzC6aNA8DIxA84yDtQ8W)
 
-+ Episode 6 - Der neueste Förderantrag von Zcash Brasil mit Samara [Youtube](https://www.youtube.com/watch?v=F5_DXXFSEsQ) | [Odysee](https://odysee.com/@ZecHub:4/zcash-brazil-podcast:e) | [Spotify](https://open.spotify.com/episode/5t3lz27CrWFvIWN2K3hKSN)
++ Episode 6 - Der neueste Grant-Vorschlag von Zcash Brasil mit Samara [Youtube](https://www.youtube.com/watch?v=F5_DXXFSEsQ) | [Odysee](https://odysee.com/@ZecHub:4/zcash-brazil-podcast:e) | [Spotify](https://open.spotify.com/episode/5t3lz27CrWFvIWN2K3hKSN)
 
 + Episode 7 - Zcash-FUD mit Josh Swihart [Youtube](https://www.youtube.com/watch?v=a6TQt6rmwXU) | [Odysee](https://odysee.com/@ZecHub:4/podcast-Josh:9) | [Spotify](https://open.spotify.com/episode/5GGUGjYQWgxwe5y1PGzMLJ)
 
@@ -39,6 +40,6 @@ Bleibe über zukünftige Episoden auf dem Laufenden:
 
 + Episode 9 - Der ZFAV Club mit Ryan Taylor (auch bekannt als AdjyLeak) [Youtube](https://www.youtube.com/watch?v=BYnhTNkQ-3M) | [Odysee](https://odysee.com/@ZecHub:4/podcast-ryan-taylor:c) | [Spotify](https://open.spotify.com/episode/1TJ6Nycq9nyW2b62ytI3O2)
 
-+ Episode 10 - Privatsphäre für das Gemeinwohl mit Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6) | [Spotify]()
++ Episode 10 - Privatsphäre für das Gemeinwohl mit Amber Baldet [Youtube](https://www.youtube.com/watch?v=ILdMTGtVOD4) | [Odysee](https://odysee.com/@ZecHub:4/Podcast-Amber-Baldet-(1):6)
 
-Wenn du Empfehlungen hast, wen du als Nächstes im Podcast sehen möchtest, melde dich gern bei uns!  DMs an @zechub auf Twitter
+Wenn du Empfehlungen hast, wen du als Nächstes im Podcast sehen möchtest, kontaktiere uns gerne!  DMs an @zechub auf Twitter
