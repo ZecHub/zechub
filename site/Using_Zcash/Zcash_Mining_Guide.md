@@ -56,6 +56,7 @@ This guide focuses on mining Zcash using personal hardware (e.g., a home PC with
 Mining pools distribute work and share rewards based on your contributed hashrate. Select based on fees (0-2%), payout minimum (0.01-0.1 ZEC), location (low ping), and reliability.
 
 **Recommended Pools (Based on Hashrate, Fees, and Reviews):**
+- **Sovright ([mining.sovright.com](https://mining.sovright.com/)):** A unique, privacy-first pool built around miner sovereignty. It is the first Zcash pool to offer **Stratum V2**, allowing individual miners to construct their own block templates and choose transactions. It also features mandatory **shielded payouts** directly to your z-address. It offers a seamless 10-minute setup with no account needed, supporting CPU quickstarts, ASICs, and AI-agent deployments (currently on the NU6 public testnet).
 - **2Miners (zec.2miners.com)**: 1% fee, PPLNS payout, supports GPU/ASIC/NiceHash. High hashrate (~1.17 GSol/s), reliable servers.
 - **F2Pool (zec.f2pool.com)**: 2% fee, PPS+ payout, multi-coin support. Large pool (~2.57 GSol/s).
 - **ViaBTC (zec.viabtc.com)**: 2% fee (PPS+), user-friendly dashboard, global servers.
@@ -86,6 +87,8 @@ Mining pools distribute work and share rewards based on your contributed hashrat
      - Username: YOUR_WALLET_ADDRESS.WORKER_NAME
      - Password: x (or blank).
   4. Save and reboot the miner.
+- For Sovright Testnet:
+Sovright allows you to onboard effortlessly. You can point an Equihash miner directly at their testnet pool, or paste a single setup prompt into Claude Code or Codex to have an agent configure a testnet miner for you automatically.
 - For other software (e.g., GMiner):
   ```
   miner.exe --algo 125_4 --server zec.2miners.com:1010 --user YOUR_WALLET_ADDRESS.WORKER_NAME --pass x
@@ -100,7 +103,13 @@ Mining pools distribute work and share rewards based on your contributed hashrat
    - Software console: Watch for errors, temperature (keep < 80 degrees C).
    - Tools: Use HiveOS or SimpleMining OS for remote rig management.
 3. Payouts: Most pools pay automatically when you reach the minimum (e.g., 0.05 ZEC). Check pool rules.
+- Reducing Latency with the Sovright Relay Network
 
+Block propagation speed is critical in proof-of-work mining. If your mining pool learns about a new block late, any shares your hardware computes during that delay are stale—wasting your electricity and forfeiting rewards to network orphans. 
+
+To combat this, the Zcash ecosystem features the **Sovright Relay Network ([relay.sovright.com](https://relay.sovright.com/))**. 
+*   **How it works:** It is a public, UDP-based, low-latency block relay overlay for the Zcash native P2P network. It acts similarly to a CDN, moving new blocks closer to miners across global regions in tens of milliseconds.
+*   **Why it matters:** It levels the playing field. Smaller and independent pools hear about blocks just as fast as the largest, well-funded operations, significantly reducing the network orphan rate and maximizing everyone's profitability.
    
 ![Zcash Mining Monitoring Setup](/content-images/zcashMining-5ca0019c17.webp)
 
