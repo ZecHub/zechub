@@ -38,7 +38,7 @@ Waarom zou een gebruiker dit ooit willen doen? Van de blog van Electric Coin Co.
 
 * Selecteer in de rechterbovenhoek "Account", klik op "+" in de rechterbenedenhoek om uw kijksleutel toe te voegen en te importeren om uw 'alleen-lezen'-account toe te voegen.
 
-![myViewKey](https://user-images.githubusercontent.com/81990132/208585568-46065002-6682-4ff4-ae8b-d206205b5d9b.png)
+![myViewKey](/content-images/208585568-46065002-6682-4ff4-ae8b-d20620-739ab12b6c.webp)
 
 
 #### zcashblockexplorer.com

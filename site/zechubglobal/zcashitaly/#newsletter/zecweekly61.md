@@ -1,6 +1,6 @@
 # ZecWeekly #61
 
-![ZecWeekly #61](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2449a892-f848-4f7c-b5ba-f886e1b1146a_1280x720.png)
+![ZecWeekly #61](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-f0bfffae48.webp)
 
 Brave e Filecoin Foundation collaborano con ECC, ViaBTC ha superato il 51% di hashrate e la demo del nuovo portafoglio Multicoin!
 
@@ -111,7 +111,7 @@ Nella rubrica didattica di questa settimana, approfondiremo Zgo, una soluzione d
 
 ## Zeme della settimana
 
-![Image](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4518b3d-d587-4ef9-86b6-bdc8851cd07c_1200x1085.webp "Image")
+![Image](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-0251053190.webp "Image")
 
 <https://twitter.com/Edicksonjga/status/1704946528505167880?t=R2JawN82Afun9ldhKYdICA&s=19>
 

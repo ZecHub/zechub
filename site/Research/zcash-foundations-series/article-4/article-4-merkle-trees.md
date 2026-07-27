@@ -1,7 +1,7 @@
 # Merkle Trees: How the Blockchain Remembers Every Note
 ##### Original Research from [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt text](image-19.png)
+![alt text](/content-images/image-19-cfbdcf8f78.webp)
 
 ### Summarizing millions of commitments in one tiny fingerprint
 
@@ -34,7 +34,7 @@ Picture a knockout tournament bracket, but instead of players advancing, **finge
 - Pair up the parents, hash each pair together, and so on.
 - Keep going until a **single fingerprint** sits at the top. That champion is the **Merkle root.**
 
-![alt text](image-20.png)
+![alt text](/content-images/image-20-f5d57e425a.webp)
 
 The single most important property follows directly from the avalanche effect (Article 3):
 
@@ -77,7 +77,7 @@ step 2:  H(hAB , hCD)      = ROOT?     (combine with the uncle)
 
 Computed for real: this yields `1b3faa3fcc5e...`, which **matches the root.**  The leaf is proven to be in the tree.
 
-![alt text](image-21.png)
+![alt text](/content-images/image-21-d9e5d6eaf6.webp)
 
 Two things make this powerful:
 
@@ -99,7 +99,7 @@ A few real specifics:
 - **Fixed depth.** Zcash's shielded trees have depth **32**, meaning they can hold up to `2^(32)` (over four billion) notes.
 - **ZK-friendly hashing.** The tree isn't built with SHA-256. Sapling hashes the tree with **Pedersen hashes** and Orchard uses **Sinsemilla** (both from Article 3), precisely so the membership climb is cheap to prove inside a circuit.
 
-![alt text](image-22.png)
+![alt text](/content-images/image-22-518354b8d5.webp)
 
 ### One thing the tree does *not* handle: double-spends
 

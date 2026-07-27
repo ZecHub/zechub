@@ -1,7 +1,7 @@
 # Hashing and Commitments: The Magic Sealed Envelope
 ##### Original Research from [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt text](image-15.png)
+![alt text](/content-images/image-15-0c16784b27.webp)
 
 ### How to lock a secret in public and never be able to lie about it
 
@@ -30,7 +30,7 @@ This "lock now, reveal later, no lying" gadget is called a **commitment**, and i
 
 A **hash function** takes any data at all, a single letter or an entire library, and crushes it down to a short, fixed-size string called a **digest** or **hash**. Think of it as a **fingerprint for data.**
 
-![alt text](image-16.png)
+![alt text](/content-images/image-16-52fdf62c87.webp)
 
 A good cryptographic fingerprint has four properties. Hold them as intuitions, not equations:
 
@@ -69,7 +69,7 @@ The fix is one word: **randomness.**
 
 Now the same `v` produces a different-looking commitment every time, because `r` is different. The two properties we wanted finally both hold:
 
-![alt text](image-17.png)
+![alt text](/content-images/image-17-3ec4617665.webp)
 
 To **open** (reveal) the commitment later, you publish `v` and `r`; anyone recomputes `H(v, r)` and checks it matches. You're locked in. That is the magic sealed envelope from Article 0, made real.
 
@@ -100,7 +100,7 @@ SHA-256 is a superb fingerprint for everyday computing. But Zcash doesn't just *
 
 So Zcash cryptographers designed hash functions whose internals are *already* field arithmetic, making them cheap to prove:
 
-![alt text](image-18.png)
+![alt text](/content-images/image-18-89ade807ad.webp)
 
 This single engineering pressure, *"it must be cheap to prove,"* is why Zcash invented and adopted special hash functions instead of reaching for SHA-256 everywhere.
 

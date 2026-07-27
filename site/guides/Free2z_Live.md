@@ -14,15 +14,15 @@ Currently, there are two ways to create your account on Free2Z:
 
 To create an account or log in, visit https://free2z.cash/ and click the 'CREATE' button.
 
-![Login/signup form](https://i.ibb.co/6rz0YPM/image-2023-11-19-133101013.png)
+![Login/signup form](/content-images/image-2023-11-19-133101013-3ee51e3b6f.webp)
 
 The login/signup form will appear in your browser. Choose your username and a strong password - this will be your login information. Solve the captcha and click the 'Enter' button to create your account.
 
-![Username and password entry form](https://i.ibb.co/d47k50g/image-2023-11-19-133141052.png)
+![Username and password entry form](/content-images/image-2023-11-19-133141052-0387984be1.webp)
 
 Alternatively, you can create a Free2Z account by connecting your Twitter account. To do this, click on the Twitter logo next to 'Login With', and you will be asked to connect your Twitter account.
 
-![Twitter login option](https://i.ibb.co/kc6QN7Z/image-2023-11-19-133210103.png)
+![Twitter login option](/content-images/image-2023-11-19-133210103-f65246bbee.webp)
 
 Click **Authorize app** to connect your Twitter account to Free2Z.
 
@@ -30,27 +30,27 @@ Click **Authorize app** to connect your Twitter account to Free2Z.
 
 After your account is created, you will be redirected to your Free2Z profile page. If you created your account by connecting your Twitter, most of the fields will be automatically filled. If you created an account by entering a username and password, you should input your information here. You can use a pseudonym instead of your real name.
 
-![Default empty profile header](https://i.ibb.co/GxyHz1D/default-header.png)
+![Default empty profile header](/content-images/default-header-a11eb8328f.webp)
 
 It's quite boring right now, so let's make it more interesting by setting up an avatar and a banner. The Free2Z interface makes this step very easy using the upload button (the up arrow on the right).
 
-![Avatar and banner upload buttons](https://i.ibb.co/5jsjfZV/avatar-and-banner.png)
+![Avatar and banner upload buttons](/content-images/avatar-and-banner-bd20d0bbfb.webp)
 
 You can see the result at the top of the page.
 
-![Profile page after customization](https://i.ibb.co/7y542gp/resultatpage.png)
+![Profile page after customization](/content-images/resultatpage-f4ddacb8b8.webp)
 
 Ah, much better! If you have some artistic skills, you can make your Free2Z profile page look amazing! Write a nice description for your page. You can talk about yourself or describe the type of content that others can expect from you. (Tip: Use markdown syntax to personalize your description!)
 
-![Editing the description field](https://i.ibb.co/cD1DFXw/edit-description.png)
+![Editing the description field](/content-images/edit-description-b52afabec1.webp)
 
 Don't forget to provide your Zcash shielded address, so supporters can donate directly to you!
 
-![Zcash shielded address field](https://i.ibb.co/8zRYgFS/p2p-address.png)
+![Zcash shielded address field](/content-images/p2p-address-b89f035bd9.webp)
 
 The last step to complete your page setup is to set a 'Member Price'. This is the price in 2Zs (Tuzies) that other users will pay to subscribe to your page! (More on 2Zs later).
 
-![Member price setting](https://i.ibb.co/VW9sYYz/member-price.png)
+![Member price setting](/content-images/member-price-2dafd7e399.webp)
 
 Finally, click the 'Update Profile' button to finalize your profile setup!
 
@@ -65,35 +65,35 @@ Free2Z allows users to subscribe to their favorite creators and get access to ex
 
 You can see your 2Zs credits in the header of your profile page.
 
-![2Zs / Tuzies balance in header](https://i.ibb.co/2dBPyPb/tuzis-balance.png)
+![2Zs / Tuzies balance in header](/content-images/tuzis-balance-9d6a9eff7f.webp)
 
 You can buy more 2Zs with Zcash by clicking on your 2Zs balance. The minimum amount for buying is 0.05 ZEC, and the current conversion rate is 0.05 ZEC = 10 2Zs.
 
-![Buying 2Zs interface](https://i.ibb.co/MgZb9rg/buy-tuzies.png)
+![Buying 2Zs interface](/content-images/buy-tuzies-e82c626047.webp)
 
 ## Donating and subscribing
 
 Once you find a creator you like, you can show your appreciation by donating and subscribing to them. All donations go directly to the creator's wallet. As an example, let's subscribe to [Free2Z's own page](https://free2z.cash/free2z).
 
-![Free2Z official page](https://i.ibb.co/C2T6txY/free2z-page.png)
+![Free2Z official page](/content-images/free2z-page-94c5fd5f4f.webp)
 
 To subscribe to a page, all you need to do is click on the subscribe icon on the page header.
 
-![Subscribe button on creator page](https://i.ibb.co/k5Hbdfr/subscribe-to-creator.png)
+![Subscribe button on creator page](/content-images/subscribe-to-creator-76c306d924.webp)
 
 You will see the minimum amount for subscribing. Verify if you have enough tuzis and click subscribe.
 
-![Confirm subscription popup](https://i.ibb.co/8j4p73J/confirm-subscribe.png)
+![Confirm subscription popup](/content-images/confirm-subscribe-7381923e36.webp)
 
 ### Donate using 2Zs or Zcash
 
 You can donate directly on their page, by clicking the Fund creator icon.
 
-![Fund creator button](https://i.ibb.co/xCz5X92/fund-creator.png)
+![Fund creator button](/content-images/fund-creator-ac59aee7bf.webp)
 
 Or, from inside a post, look for the floating plus button. From here, you can donate to the creator or promote the post on Free2Z.
 
-![Floating action buttons inside a post](https://i.ibb.co/Rzs7ST1/post-floating-buttons.png)
+![Floating action buttons inside a post](/content-images/post-floating-buttons-a1e2ef1102.webp)
 
 ## Live Streaming
 
@@ -122,19 +122,19 @@ It is very easy to start a live stream with Free2z Live. But there are a few req
 
 If the creator meets **both** of the conditions above, an icon named **Go Live** will be available to them on their profile page.
 
-![Go Live button](https://i.ibb.co/7RFywwK/go-live.png)
+![Go Live button](/content-images/go-live-4c8ac67505.webp)
 
 To start a live stream, just click the **Go Live** button, and the Free2z app will ask for permission to use your microphone and webcam (if you have one). After you grant the necessary permissions, Free2z will ask you to enter a nickname that you want to use during the live stream. Once you have selected a nickname, click **Join** to start your live stream.
 
-![Select nickname for live stream](https://i.ibb.co/4VMbCrW/select-nickname.png)
+![Select nickname for live stream](/content-images/select-nickname-414444b992.webp)
 
 And done! When you start a live stream, your profile will show an icon indicating that you are live, so your subscribers can join the live stream.
 
-![Joining a livestream](https://i.ibb.co/qpBLcKr/join-livestream.png)
+![Joining a livestream](/content-images/join-livestream-679334ba53.webp)
 
 When people join the live stream, they can chat, ask to join the stage, interact by voting in polls, and more.
 
-![Example of a Free2z Live session](https://i.ibb.co/r3XTY8M/free2z-live-example.png)
+![Example of a Free2z Live session](/content-images/free2z-live-example-eecb2ae553.webp)
 
 _(Example of Free2z Live session)_
 
@@ -146,13 +146,13 @@ This wiki-doc is not intended to be an in-depth guide to Free2z or Free2z Live. 
 
 In the bottom left of the screen, we see a few buttons.
 
-![Bottom left controls](https://i.ibb.co/XLQBDk1/free2z-live-left.png)
+![Bottom left controls](/content-images/free2z-live-left-60b450b01c.webp)
 
 A nice function here is the ability to share your screen so other users can see what you're doing.
 
 At the bottom we can find the live stream options.
 
-![Bottom toolbar](https://i.ibb.co/7JbmDXc/free2z-live-bottom.png)
+![Bottom toolbar](/content-images/free2z-live-bottom-ae64a6960c.webp)
 
 Some of the key options here are:  
 - Mute / unmute microphone  
@@ -163,7 +163,7 @@ Some of the key options here are:
 
 To end a live stream, you should click the 'Leave' button, and then click 'End meeting for all' to stop the meeting for all participants.
 
-![Bottom right interaction panel](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/free2z-live-right.png)
+![Bottom right interaction panel](/content-images/free2z-live-right-c83cb6d209.webp)
 
 The bottom right buttons contain functions related to the live stream interaction, such as:  
 - **Chat**: This allows participants to chat with each other and the host during the live stream.  
@@ -171,7 +171,7 @@ The bottom right buttons contain functions related to the live stream interactio
 - **List of participants**: This shows the list of participants in the live stream.  
 - **Plugins**: This allows the host to add plugins and extensions to enhance the live stream experience.
 
-![Plugins panel](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/free2z-live-plugins.png)
+![Plugins panel](/content-images/free2z-live-plugins-e9a30ee355.webp)
 
 It's not the purpose of this wiki-doc to explain all the plugins, but I really encourage you to try every one, as they all offer great interaction value between creators and viewers. To launch a plugin, simply click the 'rocket' button on the right.
 

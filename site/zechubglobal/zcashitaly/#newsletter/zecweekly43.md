@@ -1,6 +1,6 @@
 # ZecWeekly #43
 
-![ZecWeekly #43](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F002896ed-3611-4479-b385-2d61747a0c87_1280x720.png)
+![ZecWeekly #43](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-2fb03ed065.webp)
 
 Zcashd v5.5.1 upgrade, Podcast Episodes & Community Events!
 

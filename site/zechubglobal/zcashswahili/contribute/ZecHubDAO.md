@@ -1,6 +1,6 @@
 # ZecHub DAO
 
-![Governance](https://user-images.githubusercontent.com/81990132/206885452-29b6ff27-c58f-4361-b5a8-1529212def03.png)
+![Governance](/content-images/206885452-29b6ff27-c58f-4361-b5a8-152921-5bb5315663.webp)
 
 
 
@@ -58,7 +58,7 @@ Mapendekezo yote ya DAO yanafanywa kuwa ya umma na yanaweza kuonekana [hapa](htt
 
 
 
-![Screenshot_2023-01-11_09-39-23](https://user-images.githubusercontent.com/81990132/211878680-468f8c15-99f9-42e1-b773-36847c0973ca.png)
+![Screenshot_2023-01-11_09-39-23](/content-images/211878680-468f8c15-99f9-42e1-b773-36847c-bec790defb.webp)
 
 
 

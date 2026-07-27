@@ -1,6 +1,6 @@
 # ZecWeekly #46
 
-![ZecWeekly #46](https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef3a43e5-46cb-4f28-9338-ae1746908bfc_1280x720.png)
+![ZecWeekly #46](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-03acad3f1e.webp)
 
 Zcashd 5.6.0 release candidate, Zcast Episode 002 & Anoma to contribute to Zcash!
 

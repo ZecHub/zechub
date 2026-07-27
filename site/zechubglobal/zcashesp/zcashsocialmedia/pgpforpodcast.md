@@ -1,5 +1,5 @@
 # PGP* para *Crypto Podcast*
-![bannerpgp](https://user-images.githubusercontent.com/81990132/221758326-06cea3f5-4c9e-4466-b9ee-73854628a6aa.png)
+![bannerpgp](/content-images/221758326-06cea3f5-4c9e-4466-b9ee-738546-01f88aec39.webp)
 
 
 ¡Bienvenido al *“PGP* *(Pretty Good Policy) for Crypto Podcast* (*"Una política bastante buena para Crypto Podcast"*), una iniciativa de la Electric Coin Co.!

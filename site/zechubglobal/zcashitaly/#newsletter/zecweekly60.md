@@ -1,6 +1,6 @@
 # ZecWeekly #60
 
-![ZecWeekly #60](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F806c8e9b-6195-48e9-90ef-ce2f19772d73_1280x720.png)
+![ZecWeekly #60](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-0134d8966b.webp)
 
 Rapporto di trasparenza ZF Q2, proposte di Minor Garants e "PGP for Crypto" con Vitalik e Zooko!
 
@@ -17,7 +17,7 @@ In questa newsletter, approfondiremo la proposta di ZecHub per il programma di M
 
 Gli exchange non custodial sono rinomati per salvaguardare la privacy degli utenti durante la negoziazione o lo scambio di criptovalute. Nel segmento educativo di questa settimana, esploreremo gli exchange non custodial che supportano Zcash e forniremo un tutorial in lingua inglese su come utilizzare Zcash su queste piattaforme.
 
-[![Video](https://img.youtube.com/vi/eHy-koh8Fds/maxresdefault.jpg)](https://www.youtube.com/embed/eHy-koh8Fds?si=4qETAoTnbCloKLJT&amp;controls=0)
+[![Video](/content-images/maxresdefault-545d27db9e.webp)](https://www.youtube.com/embed/eHy-koh8Fds?si=4qETAoTnbCloKLJT&amp;controls=0)
 
 ## Aggiornamenti su Zcash
 
@@ -107,7 +107,7 @@ Gli exchange non custodial sono rinomati per salvaguardare la privacy degli uten
 
 ## Zeme della settimana
 
-![Immagine](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff1eaf500-cf41-45ae-a6c7-6799e6478bab_1262x1682.webp "Immagine")
+![Immagine](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-3ded83cc59.webp "Immagine")
 
 <https://twitter.com/robmarn/status/1702744184317190380?t=4n--MyOWuQkV7YGy3vNl6A&s=19>
 

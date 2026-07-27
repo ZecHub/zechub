@@ -9,7 +9,7 @@ Olharemos para as quatro pools de valor na Zcash, conhecidas como Sprout, Saplin
 ### Sprout
 
 
-![zcash-sprout-launch](https://user-images.githubusercontent.com/81990132/233535478-a84724d7-cb0e-4ad8-bfcc-499f665fba24.png)
+![zcash-sprout-launch](/content-images/233535478-a84724d7-cb0e-4ad8-bfcc-499f66-470dd34bb8.webp)
 
 
 A série Sprout foi o primeiro protocolo de privacidade usando Zero Knowledge lançado na ZCash, conhecido também como Zcash 1.0 ou "Zcash Common". 
@@ -27,7 +27,7 @@ A série Sprout foi usada como uma ferramenta inicial para [Zcash Slow Start Min
 
 ### Sapling
 
-![zcash-sapling-vertical-fullcolor-2x](https://user-images.githubusercontent.com/81990132/233535552-f04b727e-078f-483a-8fbc-1628486be0c8.png)
+![zcash-sapling-vertical-fullcolor-2x](/content-images/233535552-f04b727e-078f-483a-8fbc-162848-1e5193fd90.webp)
 
 [Sapling](https://z.cash/upgrade/sapling) é uma atualização no protocolo Zcash que foi introduzido em 28 de outubro de 2018. É uma grande melhoria em relação à versão anterior, no qual falamos acima, que tinha algumas limitações em termos de privacidade, eficiência e usabilidade.
 
@@ -51,7 +51,7 @@ As transações dentro da Orchard aumentarão o tamanho do conjunto de anonimato
 
 A atualização da Orchard ajudou a trazer mais melhorias para a rede Zcash, incluindo transações mais rápidas e eficientes, maior privacidade e anonimato, segurança aprimorada e maior flexibilidade para os desenvolvedores, permitindo-os criar aplicativos descentralizados na Zcash Blockchain.
 
-![IMG-20230419-221707](https://user-images.githubusercontent.com/81990132/233535609-6bf85926-567d-42ff-8b3f-9123afe98f65.jpg)
+![IMG-20230419-221707](/content-images/233535609-6bf85926-567d-42ff-8b3f-9123af-27d2667120.webp)
 
 As carteiras blidnadas agora estão integrando as Pools Orchard em sua opção de Fund Pool. Um bom exemplo pode ser encontrado no aplicativo Zingo Wallet.
 
@@ -63,7 +63,7 @@ A pool transparente é uma transação não blindada e publica na blockchain Zca
 
 As transações transparentes na Zcash são semelhantes às transações do Bitcoin, que suportam transações de assinatura múltipla e fazem uso de endereços públicos padrão que podem ser enviados e recebidos por qualquer pessoa na rede.
 
-![IMG-20230420-100149](https://user-images.githubusercontent.com/81990132/233535663-bc536044-2537-41b2-9acb-69b3613e9ab6.jpg)
+![IMG-20230420-100149](/content-images/233535663-bc536044-2537-41b2-9acb-69b361-ffe1da2a8b.webp)
 
 Essas transações são usadas principalmente por exchanges centralizadas para garantir alta transparência e confirmação de rede ao enviar e receber ZEC entre usuários.
 
@@ -76,15 +76,15 @@ Também é importante observar que, embora os endereços blindados forneçam alt
 Quando se trata de considerar alto nível de privacidade durante a transação na rede Zcash, é recomendável seguir as práticas abaixo:
 
 
-![20230420-051415-0000](https://user-images.githubusercontent.com/81990132/233535812-ccb41fdd-a552-4930-b136-b65dc12e0d0d.png)
+![20230420-051415-0000](/content-images/233535812-ccb41fdd-a552-4930-b136-b65dc1-dac21f3b76.webp)
 
-![20230420-091225-0000](https://user-images.githubusercontent.com/81990132/233535882-1b3aa4e5-5022-48cf-b311-96aa8b8328ce.png)
-
-
-![20230420-091701-0000](https://user-images.githubusercontent.com/81990132/233535945-09a8ce02-d4d4-4c73-99fa-14b438963a45.png)
+![20230420-091225-0000](/content-images/233535882-1b3aa4e5-5022-48cf-b311-96aa8b-19324d7d0a.webp)
 
 
-![20230420-091346-0000](https://user-images.githubusercontent.com/81990132/233536122-6429d010-1ffa-424a-83d6-6e94eb8252e8.png)
+![20230420-091701-0000](/content-images/233535945-09a8ce02-d4d4-4c73-99fa-14b438-84bea637eb.webp)
+
+
+![20230420-091346-0000](/content-images/233536122-6429d010-1ffa-424a-83d6-6e94eb-9d5788b8c8.webp)
 
 
 

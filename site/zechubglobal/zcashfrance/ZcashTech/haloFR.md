@@ -5,7 +5,7 @@
 
 Halo est une preuve de connaissance zéro récursive et sans confiance (ZKP) découverte par Sean Bowe chez Electric Coin Co. Elle élimine la configuration de confiance et permet une plus grande évolutivité de la blockchain Zcash. Halo a été le premier système de preuve sans connaissance à la fois efficace et récursif largement considéré comme une percée scientifique.
 
-![halo](https://electriccoin.co/wp-content/uploads/2021/01/Halo-on-Z-1440x720.png "halo")
+![halo](/content-images/_unavailable.svg "halo")
 
 
 **Composants**
@@ -42,11 +42,11 @@ Dans l'[article Halo](https://eprint.iacr.org/2019/1021.pdf), nous avons entièr
 
 Halo 2 est une implémentation zk-SNARK hautes performances écrite en Rust qui élimine le besoin d'une configuration de confiance tout en préparant le terrain pour l'évolutivité dans Zcash.
 
-![halo2image](https://electriccoin.co/wp-content/uploads/2020/09/Halo-puzzle-03-1024x517.jpg "halo2")
+![halo2image](/content-images/Halo-puzzle-03-1024x517-e034023d10.webp "halo2")
 
 Il comprend une généralisation de notre approche appelée « schéma d'accumulation ». Cette nouvelle formalisation expose le fonctionnement réel de notre technique d'amortissement imbriqué ; en ajoutant des preuves à un objet appelé "accumulateur", où les preuves raisonnent sur l'état précédent de l'accumulateur, nous pouvons vérifier que toutes les preuves précédentes étaient correctes (par induction) simplement en vérifiant l'état actuel de l'accumulateur.
 
-![Accumulateurimage](https://i.imgur.com/l4HrYgE.png "accumulateur")
+![Accumulateurimage](/content-images/l4HrYgE-1ea7bc32f7.webp "accumulateur")
 
 En parallèle, de nombreuses autres équipes découvraient de nouveaux IOP polynomiaux plus efficaces que Sonic (utilisé dans Halo 1), comme Marlin.
 

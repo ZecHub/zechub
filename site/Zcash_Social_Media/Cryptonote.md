@@ -5,7 +5,7 @@
 An interesting one today!  
 The **CryptoNote** protocol enables strong on-chain privacy. Today we learn all of its key features and how it has been implemented by several notable privacy projects.
 
-![CryptoNote intro](https://pbs.twimg.com/media/FrXr5P8WIAAvx36.jpg)
+![CryptoNote intro](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
 
 ---
 
@@ -35,7 +35,7 @@ When sending a transaction, your real public key is mixed with several decoy key
 
 **Ring size** significantly affects the anonymity set. Larger rings provide better privacy.
 
-![Ring Signatures explanation](https://pbs.twimg.com/media/FrXteGHXgAANE0F.png)
+![Ring Signatures explanation](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
 
 **Comparison with Zcash**:  
 Zcashâ€™s anonymity set is the total number of transactions *ever* made in a given shielded pool (much larger than typical CryptoNote ring sizes).
@@ -48,7 +48,7 @@ The **Ring CT** model greatly improved privacy in CryptoNote-based coins.
 
 Instead of only hiding the sender, Ring CT also **obfuscates the transaction amounts** between sender and recipient.
 
-![Ring CT diagram](https://pbs.twimg.com/media/FrXuivgWYAAze7B.png)
+![Ring CT diagram](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
 
 It uses:
 - Elliptic Curve Cryptography
@@ -59,7 +59,7 @@ It uses:
 
 **Stealth Addresses** also add one-time use addresses for the recipient.
 
-![Stealth Addresses + Proofs](https://pbs.twimg.com/media/FrXut5aWAAMhuRb.jpg)
+![Stealth Addresses + Proofs](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
 
 ---
 
@@ -74,7 +74,7 @@ It uses the **CryptoNight** algorithm (a memory-hard function). Unlike Bitcoinâ€
 2. Perform numerous read/write operations on the scratchpad
 3. Hash the entire scratchpad to produce the final value
 
-![CryptoNight mining](https://pbs.twimg.com/media/FrXvNs3XsAA37LG.jpg)
+![CryptoNight mining](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
 
 (Note: Monero has since moved away from CryptoNight to other algorithms.)
 
@@ -86,7 +86,7 @@ Instead of sudden halving events (like Bitcoin), CryptoNote uses a **smoothly de
 
 This creates a much smoother emission curve over time.
 
-![Dynamic emission curve](https://pbs.twimg.com/media/FrXv8wpXoAEjUxW.png)
+![Dynamic emission curve](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
 
 **Zcash Connection**:  
 Zcash developers have discussed implementing a smoother emission curve in the future, potentially through a "Zcash Posterity Fund".

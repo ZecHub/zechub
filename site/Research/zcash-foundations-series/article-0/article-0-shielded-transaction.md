@@ -1,7 +1,7 @@
 # How a Shielded Zcash Transaction Actually Works
 ##### Original Research from [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt text](image.png)
+![alt text](/content-images/image-fedc371488.webp)
 
 ### The intuition before the math: a no-formula walkthrough of private payments
 
@@ -46,7 +46,7 @@ Money can even cross the border between them: moving funds *into* the shielded w
 
 The transparent world is "Bitcoin you already roughly understand." It's the **shielded world** that contains all the beautiful cryptography, and that's the only world this series cares about.
 
-![alt text](image-1.png)
+![alt text](/content-images/image-1-f821d24c6f.webp)
 
 ---
 
@@ -124,7 +124,7 @@ The miracle is that the proof reveals **none** of those facts. Not the amount, n
 
 A note is *born*, it *lives* on the board, and eventually it *dies*, and crucially, its birth and its death look unrelated to anyone watching.
 
-![alt text](image-2.png)
+![alt text](/content-images/image-2-0eca0ea4f7.webp)
 
 ---
 
@@ -132,7 +132,7 @@ A note is *born*, it *lives* on the board, and eventually it *dies*, and crucial
 
 Let's watch Alice pay Bob, with every public and private step labelled.
 
-![alt text](image-4.png)
+![alt text](/content-images/image-4-7af0dfe795.webp)
 
 Notice the asymmetry that makes the privacy work:
 
@@ -187,7 +187,7 @@ Good educational content earns trust by saying what it left out. This section is
 
 Every "we'll come back to this" above is a thread. Here's where each one gets tied off:
 
-![alt text](image-29.png)
+![alt text](/content-images/image-29-27ef4636ff.webp)
 
 | Loose end from this article | Where it's resolved |
 |---|---|

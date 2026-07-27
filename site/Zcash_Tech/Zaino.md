@@ -17,13 +17,13 @@ Also, Zaino will allow to separate light client functionality from the full node
 ## Some diagrams showing how Zaino works
 
 ### Zaino Internal Architecture
-![Zaino Internal Architecture](https://i.ibb.co/mRTNtfy/image-2025-01-02-190143429.png)
+![Zaino Internal Architecture](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
 
 ### Zaino Live Service Architecture
-![Zebra Live Service Architecture](https://i.ibb.co/x7dbRY8/image-2025-01-02-190349017.png)
+![Zebra Live Service Architecture](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
 
 ### Zaino System Architecture
-![Zaino System Architecture](https://i.ibb.co/wwL0XZv/image-2025-01-02-190448037.png)
+![Zaino System Architecture](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
 
 
 ## Where Can I learn more?

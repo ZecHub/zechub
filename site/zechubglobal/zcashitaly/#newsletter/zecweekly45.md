@@ -1,6 +1,6 @@
 # ZecWeekly #45
 
-![ZecWeekly #45](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F35e2f0f3-6673-4c09-bab9-4d63b9cab2a7_1280x720.png)
+![ZecWeekly #45](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-551a3c4472.webp)
 
 La privacy della blockchain è a rischio nell'UE, il team Yuan stablecoin arrestato, i bancomat Bitcoin in aumento
 ---

@@ -27,18 +27,18 @@ I portafogli Zcash Desktop e Mobile hanno una funzione integrata che consente ag
 
 Prova Zcash: https://z.cash/wallets 
 
-![](https://i.ibb.co/n8HbQZC/Zcash-1177103374.png)
+![](/content-images/Zcash-1177103374-7bca37eb4d.webp)
 
 
 **App Signal**
 
-![](https://i.ibb.co/7RbbxSs/signal-app-logo-scaled-454032876.jpg)
+![](/content-images/signal-app-logo-scaled-454032876-81b24a0421.webp)
 
 Signal private messenger è un'applicazione di messaggistica sicura con la massima riservatezza dei dati. L'applicazione Signal è gratuita e facile da usare, gli utenti non hanno bisogno di alcuna esperienza. L'app Signal dispone di una tecnologia di crittografia end-to-end che garantisce la totale riservatezza delle comunicazioni. Chiunque voglia inviare messaggi privati in modo sicuro dovrebbe prendere in considerazione l'uso dell'app di messaggistica privata Signal, perché ridurrà in modo esponenziale sia le vulnerabilità della cybersicurezza che l'impronta dei dati.
 
 **BisonRelay**
 
-![](https://i.ibb.co/ZxpBVNv/ogimg-v1-1000556235.jpg)
+![](/content-images/ogimg-v1-1000556235-9390372d1e.webp)
 
 L'applicazione Bison Relay ha fatto il suo debutto nel 2022. Bison Relay non dipende dal fatto che gli utenti abbiano un account - incredibile! Ogni messaggio inviato e ricevuto viene pagato individualmente attraverso la rete Decred Lightning. L'unico scopo di questa applicazione è quello di eliminare completamente la necessità di avere un account, riducendo al minimo i metadati. D'altra parte, Bison Relay pone fine al modo in cui la censura viene tipicamente implementata. 
 
@@ -47,7 +47,7 @@ Provatelo qui: https://bisonrelay.org/download
 
 **App Session**
 
-![](https://i.ibb.co/gdpwb1v/logo-black.png)
+![](/content-images/logo-black-9e799f2b06.webp)
 
 Se non sapete ancora cos'è l'applicazione Session, non preoccupatevi! Ecco un assaggio: Session è uno dei messenger criptati end-to-end in lizza. L'app è stata sviluppata per ridurre al minimo i metadati sensibili. L'app Session è stata progettata per gli individui che desiderano una privacy assoluta e la libertà da qualsiasi forma di sorveglianza. Sull'app Session, gli utenti possono creare un account senza numeri di telefono o indirizzi e-mail, il che significa che è completamente anonimo. Gli utenti possono inviare messaggi in modo sicuro attraverso la loro rete senza alcuna traccia, quindi non c'è nulla da perdere.
 

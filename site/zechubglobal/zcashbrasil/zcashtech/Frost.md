@@ -40,7 +40,7 @@ O protocolo FROST contém dois componentes importantes:
 
 - Posteriormente, qualquer t-de-n participantes pode executar um *protocolo de assinatura de limite* para gerar colaborativamente uma assinatura Schnorr válida.
 
-![Sinal de limite](https://static.cryptohopper.com/images/news/uploads/1634081807-frost-flexible-round-optimized-schnorr-threshold-signatures-1.jpg "thresholdsign")
+![Sinal de limite](/content-images/1634081807-frost-flexible-round-optimize-3697a713d9.webp "thresholdsign")
 
 ---
 
@@ -62,7 +62,7 @@ Essa fase também utiliza técnicas de vinculação para evitar ataques de falsi
 
 Pré-processamento: No estágio de pré-processamento, cada participante prepara um número fixo de pares de pontos de Curva Elíptica (EC) para uso posterior, que é executado uma única vez para várias fases de assinatura de limite.
 
-![Pré-processamento](https://i.ibb.co/nQD1c3n/preprocess.png "fase de pré-processamento")
+![Pré-processamento](/content-images/preprocess-5cbb14f892.webp "fase de pré-processamento")
 
 - Rodada de Assinatura 1: Cada participante Pᵢ começa gerando um único par nonce privado (dᵢ, eᵢ) e o par correspondente de pontos EC (Dᵢ, Eᵢ) e transmite esse par de pontos para todos os outros participantes. Cada participante armazena esses pares de pontos EC recebidos para uso posterior. As rodadas 2 e 3 de assinatura são as operações reais nas quais t-de-n participantes cooperam para criar uma assinatura Schnorr válida.
 
@@ -70,7 +70,7 @@ Pré-processamento: No estágio de pré-processamento, cada participante prepara
 
 Essa etapa evita ataques de falsificação porque os invasores não podem combinar compartilhamentos de assinatura em operações de assinatura distintas ou permutar o conjunto de signatários ou pontos publicados para cada signatário.
 
-![Protocolo de assinatura](https://i.ibb.co/b5rJbXx/sign.png "protocolo de assinatura")
+![Protocolo de assinatura](/content-images/sign-402794d36a.webp "protocolo de assinatura")
 
 Tendo calculado o desafio c, cada participante é capaz de calcular a resposta zᵢ ao desafio usando os nonces de uso único e os compartilhamentos secretos de longo prazo, que são t-out-of-n (grau t-1) compartilhamentos secretos de Shamir da chave de longa duração do grupo. No final da rodada de assinaturas 2, cada participante transmite zᵢ para outros participantes.
 

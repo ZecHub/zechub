@@ -1,7 +1,7 @@
 # Zero-Knowledge Proofs: Proving You're Right Without Saying Why
 ##### Original Research from [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt text](image-23.png)
+![alt text](/content-images/image-23-71534bece9.webp)
 
 ### The curtain that lets the world verify what it can never see
 
@@ -40,7 +40,7 @@ That cave story quietly demonstrates the **three guarantees** every zero-knowled
 
 ## 3. The three guarantees
 
-![alt text](image-24.png)
+![alt text](/content-images/image-24-b559d31849.webp)
 
 | Guarantee | In the cave story | In Zcash |
 |---|---|---|
@@ -62,7 +62,7 @@ The bridge is an idea that ties this whole series together:
 
 Think of the circuit as a list of arithmetic constraints that are *all satisfied only if the statement is true.* The private inputs that make everything check out, your note, your key, the Merkle path, are called the **witness.**
 
-![alt text](image-25.png)
+![alt text](/content-images/image-25-2479377e43.webp)
 
 This is why we spent Article 1 on finite fields and Article 3 on ZK-friendly hashes: the circuit speaks field arithmetic, so every operation inside the statement (including hashing and the Merkle climb of Article 4) has to be expressed that way. The cheaper each operation is to express, the smaller and faster the proof.
 
@@ -90,7 +90,7 @@ There's no free lunch. Many SNARKs need a one-time **setup** that produces publi
 
 This leftover secret is nicknamed **toxic waste.** To dispose of it safely, Zcash ran elaborate **multi-party ceremonies** where many independent participants each contributed randomness; as long as *even one* destroyed their piece honestly, the toxic waste is unrecoverable.
 
-![alt text](image-26.png)
+![alt text](/content-images/image-26-cdad6625cd.webp)
 
 Newer systems remove this requirement entirely, which is one of the biggest reasons Zcash evolved its proof system over time.
 

@@ -1,6 +1,6 @@
 # ZecBoletín semanal
 
-![zecweekly_card](https://user-images.githubusercontent.com/81990132/231337422-d5df9798-5c52-4560-a0b3-974886155bf7.png)
+![zecweekly_card](/content-images/231337422-d5df9798-5c52-4560-a0b3-974886-3b18943611.webp)
 
 ZecWeekly es un boletín que sale todos los domingos. Incluye todas las novedades que sucedieron durante la semana en el ecosistema Zcash.
 

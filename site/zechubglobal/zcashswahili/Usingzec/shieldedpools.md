@@ -8,7 +8,7 @@ Tutatazama mabwawa 4 ya thamani [value pools](https://zcash.readthedocs.io/en/la
 ### Sprout
 
 
-![zcash-sprout-launch](https://user-images.githubusercontent.com/81990132/233535478-a84724d7-cb0e-4ad8-bfcc-499f665fba24.png)
+![zcash-sprout-launch](/content-images/233535478-a84724d7-cb0e-4ad8-bfcc-499f66-470dd34bb8.webp)
 
 
 Mfululizo wa Sprout ulikuwa ni itifaki ya faragha ya "Zero Knowledge" ya kwanza kabisa iliyozinduliwa kwa mfumo wa Zcash bila kuhitaji kibali, na mara nyingine huitwa Zcash 1.0 au "Zcash ya Kawaida". Uzinduzi ulifanyika tarehe 28 Oktoba 2016 na huu ulikuwa ni toleo la kwanza la Zcash ambalo hutumia teknolojia ya ushahidi wa zero-knowledge (zero-knowledge proof technology) ambayo ni sehemu muhimu ya kriptografia ya Zcash.
@@ -23,7 +23,7 @@ Kwa kuongezeka idadi ya shughuli zilizofichwa, imeonekana kuwa mfululizo wa Spro
 
 ### Zcash Sapling
 
-![zcash-sapling-vertical-fullcolor-2x](https://user-images.githubusercontent.com/81990132/233535552-f04b727e-078f-483a-8fbc-1628486be0c8.png)
+![zcash-sapling-vertical-fullcolor-2x](/content-images/233535552-f04b727e-078f-483a-8fbc-162848-1e5193fd90.webp)
 
 [Zcash Sapling](https://z.cash/upgrade/sapling) Zcash Sapling ni uboreshaji wa itifaki ya Zcash uliozinduliwa tarehe 28 Oktoba 2018. Hii ni uboreshaji mkubwa juu ya toleo la awali linalojulikana kama Sprout ambalo lilikuwa na baadhi ya vikwazo katika suala la faragha, ufanisi na urahisi.
 
@@ -48,7 +48,7 @@ Shughuli ndani ya Orchard itaongeza kasi ya seti ya kutotambulika haraka zaidi k
 
 Ubunifu wa Orchard utasaidia kuleta maboresho zaidi kwenye mtandao wa Zcash ikiwa ni pamoja na shughuli za haraka na za ufanisi zaidi, faragha kubwa, usalama bora, na uwezo mkubwa kwa watengenezaji wa programu kujenga programu zisizo na kati kwenye Mtandao wa Zcash.
 
-![IMG-20230419-221707](https://user-images.githubusercontent.com/81990132/233535609-6bf85926-567d-42ff-8b3f-9123afe98f65.jpg)
+![IMG-20230419-221707](/content-images/233535609-6bf85926-567d-42ff-8b3f-9123af-27d2667120.webp)
 
 Makasha ya Zcash Shielded sasa yanauunga mkono Orchard kwenye chaguzi zao za Pool ya Fedha. Mfano mzuri unaweza kupatikana kwenye programu ya Zingo Wallet. 
 
@@ -60,7 +60,7 @@ Bwawa la Zcash Transparent (Uwazi) ni lisilo funiko na halina faragha. Anwani za
 Shughuli za uwazi kwenye Zcash ni kama shughuli za Bitcoin ambazo zinaunga mkono shughuli za vielelezo vingi na hutumia anwani za umma za kawaida ambazo zinaweza kutumwa na kupokelewa na yeyote kwenye mtandao.
 
 
-![IMG-20230420-100149](https://user-images.githubusercontent.com/81990132/233535663-bc536044-2537-41b2-9acb-69b3613e9ab6.jpg)
+![IMG-20230420-100149](/content-images/233535663-bc536044-2537-41b2-9acb-69b361-ffe1da2a8b.webp)
 
 Anwani za uwazi za Zcash kwa kawaida hutumiwa zaidi na kubadilishana fedha za kati ili kuhakikisha kuwa kuna uwazi wa hali ya juu na uthibitisho wa mtandao unapotuma na kupokea ZEC kati ya watumiaji.
 
@@ -74,25 +74,25 @@ Ni muhimu pia kutambua kuwa wakati anwani za mkoba za Zcash zinazofichwa kutoa f
 
 Linapokuja suala la kuzingatia kiwango kikubwa cha faragha wakati wa shughuli kwenye Mtandao wa Zcash, inashauriwa kufuata mazoea yafuatayo;
 
-![20230420_051415_0000.png](https://user-images.githubusercontent.com/38798812/233546739-e9076b2d-bcb5-40a1-96a8-25284dff0786.png)
+![20230420_051415_0000.png](/content-images/233546739-e9076b2d-bcb5-40a1-96a8-25284d-d1a7305e89.webp)
 
 Miamala yanayotokea kati ya mikoba ya "z to z" kwenye mtandao wa Zcash kwa kawaida ni ya kificho na mara nyingi huitwa Miamala ya Faragha kutokana na kiwango kikubwa cha faragha kinachozalishwa. Hii kwa kawaida ni njia bora na inayopendekezwa zaidi ya kutuma na kupokea $ZEC wakati faragha inahitajika. 
 
 ---
-![20230421_070131_0000.png](https://user-images.githubusercontent.com/38798812/233552931-d69f4ef3-b065-4d61-8e6b-adbc2edc4d70.png)
+![20230421_070131_0000.png](/content-images/233552931-d69f4ef3-b065-4d61-8e6b-adbc2e-6ff12892bf.webp)
 
 Unapotuma ZEC kutoka kwenye anwani ya "Z-address" hadi kwenye anwani ya "T-address", hii inamaanisha kuwa ni aina ya muamala wa Deshielding. Katika aina hii ya muamala, kiwango cha faragha sio daima kikubwa kwa sababu baadhi ya taarifa zitakuwa wazi kwenye blockchain kutokana na athari ya kutuma ZEC kwenye anwani ya Wazi. Muamala wa Deshielding haupendekezwi sana wakati faragha kubwa inahitajika. 
 
 ---
 
-![20230421_071247_0000.png](https://user-images.githubusercontent.com/38798812/233555082-455fbcbd-c685-4c1d-91f2-2d911e6a6273.png)
+![20230421_071247_0000.png](/content-images/233555082-455fbcbd-c685-4c1d-91f2-2d911e-5f3edcd80d.webp)
 
 Kutuma ZEC kutoka kwenye Anwani Huru (T-address) hadi kwenye Anwani iliyofichwa (Z-address) inajulikana kama "Shielding". Katika aina hii ya muamala kiwango cha faragha hakitakuwa juu sana ikilinganishwa na muamala wa z-z lakini pia inapendekezwa kwa ajili ya faragha.
 
 
 ---
 
-![20230420_091346_0000.png](https://user-images.githubusercontent.com/38798812/233546890-5580a7b9-e8c5-4e2c-a248-3f6338bbe0d1.png)
+![20230420_091346_0000.png](/content-images/233546890-5580a7b9-e8c5-4e2c-a248-3f6338-dc319d3ee4.webp)
 
 Kutuma ZEC kutoka kwenye anuani ya uwazi (T-address) hadi nyingine ya uwazi kwenye mtandao wa Zcash (kwa maana ya T-T transaction) ni sawa na ile ya mtandao wa Bitcoin na ndio maana T-T transactions kwenye Zcash huitwa Public transactions kwa sababu maelezo ya muhuri na mpokeaji wa muhuri hufanywa kuonekana kwa umma, na hii inasababisha kiwango cha faragha kuwa kidogo kwenye aina hii ya muhuri.
 

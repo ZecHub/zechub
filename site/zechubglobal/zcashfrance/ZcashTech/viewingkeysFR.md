@@ -38,7 +38,7 @@ Pourquoi un utilisateur voudrait-il faire cela ? Extrait du blog d'Electric Coin
 
 * Dans le coin supérieur droit, sélectionnez "Compte", cliquez sur "+" dans le coin inférieur droit pour ajouter et importer votre clé de visualisation pour ajouter votre compte "lecture seule".
 
-![myViewKey](https://user-images.githubusercontent.com/81990132/208585568-46065002-6682-4ff4-ae8b-d206205b5d9b.png)
+![myViewKey](/content-images/208585568-46065002-6682-4ff4-ae8b-d20620-739ab12b6c.webp)
 
 
 #### zcashblockexplorer.com

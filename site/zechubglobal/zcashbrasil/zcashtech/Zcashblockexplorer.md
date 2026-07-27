@@ -59,7 +59,7 @@ Semelhante aos endereços acima, qualquer transação em uma blockchain pública
 
 Isso inclui valores nos endereços de entrada e saída para qualquer transação. Uma exceção a isso é quando você escolhe usar Zcash Blindado - todos os valores ficam ocultos. Para proprietários de pequenas empresas que necessariamente precisam de privacidade para *comércio justo*, este é um grande benefício!
 
-![valores](https://user-images.githubusercontent.com/81990132/206312357-e9504151-830f-4fa1-81cb-f23619fd7226.png)
+![valores](/content-images/206312357-e9504151-830f-4fa1-81cb-f23619-210f51493c.webp)
 
 ---
 
@@ -73,15 +73,15 @@ Aqui estão quatro bons exemplos de diferentes Block Explorers:
 * [Mintscan](https://hub.mintscan.io/chains/ibc-network)
 
 
-![bitcoinExlporer](https://user-images.githubusercontent.com/81990132/206279968-a06eb0a1-b3a6-49af-a30f-7d871b906eeb.png)
+![bitcoinExlporer](/content-images/206279968-a06eb0a1-b3a6-49af-a30f-7d871b-1418d95d28.webp)
 
 
-![ethExplorer](https://user-images.githubusercontent.com/81990132/206280208-2ce5eddd-157e-4eed-90a0-680c1520ec57.png)
+![ethExplorer](/content-images/206280208-2ce5eddd-157e-4eed-90a0-680c15-488292c345.webp)
 
 
-![zcashExplorer](https://github.com/user-attachments/assets/826db543-cbe7-423f-841c-2ef4720914f3)
+![zcashExplorer](/content-images/826db543-cbe7-423f-841c-2ef4720914f3-3f8bb6081e.webp)
 
-![cosmos](https://user-images.githubusercontent.com/81990132/206316791-2debfd28-923a-44f4-b7d3-701182112c30.png)
+![cosmos](/content-images/206316791-2debfd28-923a-44f4-b7d3-701182-cf39a065fc.webp)
 
 
 

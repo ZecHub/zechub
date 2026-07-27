@@ -1,6 +1,6 @@
 # ZecWeekly #64
 
-![ZecWeekly #64](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff46f48d0-c115-43dc-9dc4-a4d553268925_1280x720.gif)
+![ZecWeekly #64](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-3984918d1d.webp)
 
 Zenith v0.4.0 rilasciato, Zcash Dev Fund Townhall e #AniversarioDeZcash Events!
 
@@ -101,7 +101,7 @@ Il pezzo didattico di questa settimana ci guiderà attraverso il processo di ins
 
 ## Zeme della settimana
 
-![Image](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ddddc3e-7771-4d00-9184-f002bc9b6d6e_540x540.gif)
+![Image](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-f5d0fe99b7.webp)
 
 <https://twitter.com/NighthawkWallet/status/1711663946199867736>
 

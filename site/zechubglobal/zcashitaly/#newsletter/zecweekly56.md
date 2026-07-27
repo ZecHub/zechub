@@ -1,6 +1,6 @@
 # ZecWeekly #56
 
-![ZecWeekly #56](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9d175674-2b5a-4a01-9802-d6f2e31db295_1280x720.png)
+![ZecWeekly #56](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-81c1b74d64.webp)
 
 Le sessioni Zcon, i turni di lavoro del protocollo per Zebra e la demo FROST! 
 
@@ -94,7 +94,7 @@ Questa settimana le risorse consigliate sono le Zcon Sessions! Alla Zcon4 Ian Sa
 
 ## Zeme della settimana
 
-![zeme](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7586302-c3b6-48c2-b9f1-86e00ef629c3_1717x985.png)
+![zeme](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-37842ba29f.webp)
 
 ## Lavori nell'ecosistema
 

@@ -26,7 +26,7 @@ Le chiavi di sicurezza hardware offrono diversi vantaggi rispetto ai tradizional
 
 No, le chiavi di sicurezza hardware sono disponibili in diversi formati e potrebbero non essere compatibili con tutti i dispositivi e sistemi operativi. Prima di acquistare una chiave, accertatevi che sia compatibile con il vostro dispositivo e sistema operativo.
 
-![img (321)](https://github.com/ZecHub/zechub/assets/81990132/a830c435-ad20-4183-b381-475afe1089b3)
+![img (321)](/content-images/a830c435-ad20-4183-b381-475afe1089b3-5537cd7388.webp)
 
 
 ## Una chiave di sicurezza hardware può essere utilizzata con più account?
@@ -44,7 +44,7 @@ Ecco alcuni esempi di hardware 2FA disponibili sul mercato.
 
 **Yubico YubiKey 5 NFC**
 
-![yubi](https://github.com/ZecHub/zechub/assets/81990132/bf1ac95e-7277-4559-b5ef-63117b66971b)
+![yubi](/content-images/bf1ac95e-7277-4559-b5ef-63117b66971b-3aa542aba7.webp)
 
 
 Prodotta da Yubico, co-sviluppato dello standard di autenticazione aperto FIDO U2F utilizzato da molte chiavi di sicurezza, la YubiKey 5 NFC è una  delle migliori per proteggere i vostri dispositivi. Come suggerisce il nome, funziona tramite USB-A (o USB-C con un adattatore) o NFC.
@@ -54,7 +54,7 @@ Offre una compatibilità immediata con molti servizi, tra cui Google Chrome, Fac
 
 **Chiave di sicurezza 2FA di Thetis Fido**
 
-![thetis](https://github.com/ZecHub/zechub/assets/81990132/b83e42e5-bba6-4175-ad6c-d64972ef54ef)
+![thetis](/content-images/b83e42e5-bba6-4175-ad6c-d64972ef54ef-a2ef17a10d.webp)
 
 
 Se state cercando la chiave di sicurezza con il miglior rapporto qualità-prezzo, questo modello di Thetis dovrebbe essere sulla vostra lista. Non è dotata di Bluetooth (disponibile su un modello più costoso) e supporta solo lo standard FIDO U2F, quindi non è compatibile con UAF o OTP. Tuttavia, consente l'accesso sicuro ai siti Web se si utilizza Chrome o Opera come browser su Windows, macOS o Linux. 
@@ -63,7 +63,7 @@ L'involucro in plastica è robusto e relativamente durevole, ma è meglio evitar
 
 **CryptoTrust OnlyKey**
 
-![onlykey](https://github.com/ZecHub/zechub/assets/81990132/13be6ecc-227e-498c-8a36-6d52c023cd78)
+![onlykey](/content-images/13be6ecc-227e-498c-8a36-6d52c023cd78-06e3e924dc.webp)
 
 
 Come suggerisce il nome, OnlyKey ha alcune caratteristiche interessanti che mancano ai suoi rivali. Grazie a una tastiera integrata in grado di bypassare i keylogger che si trovano sui computer, è in grado di mantenere al sicuro gli account online se un computer o un sito web vengono compromessi. Supporta diversi metodi di 2FA, tra cui FIDO 2 U2F, Yubico OTP e TOTP. 
@@ -78,7 +78,7 @@ Ora che sapete cosa sono le chiavi hardware 2FA e come funzionano, vi insegnerò
 
 Accedete al vostro account Gmail e cliccate su "Gestisci il tuo account Google".
 
-![Design sem nome](https://github.com/ZecHub/zechub/assets/81990132/995fc955-791a-4456-9218-7e5964da48b5)
+![Design sem nome](/content-images/995fc955-791a-4456-9218-7e5964da48b5-31c64640b2.webp)
 
 
 
@@ -86,7 +86,7 @@ Accedete al vostro account Gmail e cliccate su "Gestisci il tuo account Google".
 
 cliccare su "Sicurezza"
 
-![img (1)](https://github.com/ZecHub/zechub/assets/81990132/246db235-6596-41ff-bd7a-f8ee4f80962b)
+![img (1)](/content-images/246db235-6596-41ff-bd7a-f8ee4f80962b-340193c2c3.webp)
 
 
 
@@ -94,14 +94,14 @@ cliccare su "Sicurezza"
 
 cliccare su "Verifica in 2 passaggi"
 
-![img (2)](https://github.com/ZecHub/zechub/assets/81990132/19cd202a-1a70-47e6-a02a-aa24f6e199fa)
+![img (2)](/content-images/19cd202a-1a70-47e6-a02a-aa24f6e199fa-a9fcb911ce.webp)
 
 
 
 **Fase 4**
 Selezionare "Mostra altre opzioni".
 
-![img (335)](https://github.com/ZecHub/zechub/assets/81990132/2ade9531-1cf6-48e8-b9a8-178d41a4cd30)
+![img (335)](/content-images/2ade9531-1cf6-48e8-b9a8-178d41a4cd30-b1e9ea1400.webp)
 
 
 
@@ -109,18 +109,18 @@ Selezionare "Mostra altre opzioni".
 
 Ora selezionare "Chiave di sicurezza" e quindi fare clic su "Procedi".
 
-![img (335)1](https://github.com/ZecHub/zechub/assets/81990132/763a1f7b-6c52-498b-a345-0b0a88e9dc71)
+![img (335)1](/content-images/763a1f7b-6c52-498b-a345-0b0a88e9dc71-eb40c16724.webp)
 
 
 **Passo 6**
 
 Collegare la chiave di sicurezza 2FA
 
-![Img (337)](https://github.com/ZecHub/zechub/assets/81990132/f0f93819-62af-4cee-b4e8-4836c94ed843)
+![Img (337)](/content-images/f0f93819-62af-4cee-b4e8-4836c94ed843-59c5fa728b.webp)
 
 
 **Passo 7**
 
 Scrivere il nome desiderato per il dispositivo e fare clic su "Fatto".
 
-![Img (5)](https://github.com/ZecHub/zechub/assets/81990132/d3245d13-2c34-4b31-b2da-12949c30c858)
+![Img (5)](/content-images/d3245d13-2c34-4b31-b2da-12949c30c858-d456efee20.webp)

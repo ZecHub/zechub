@@ -1,6 +1,6 @@
 # ZecWeekly #39
 
-![ZecWeekly #39](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c20e188-b01c-49ef-8497-44ed192078ac_1280x720.png?utm_source=substack&utm_medium=email)
+![ZecWeekly #39](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-30c427d0d8.webp)
 
 Il Parlamento dell'UE approva MICA, l'uscita imminente di Zcashd 5.50 e le demo Shielded su Ledger Nano!
 
@@ -115,7 +115,7 @@ Mimblewimble è principalmente utilizzato e supportato da alcune criptovalute co
 
 ## Zeme della settimana
 
-![https://pbs.twimg.com/media/Ft7JfoQWwAAOYsH?format=jpg](https://pbs.twimg.com/media/Ft7JfoQWwAAOYsH?format=jpg) 
+![https://pbs.twimg.com/media/Ft7JfoQWwAAOYsH?format=jpg](/content-images/Ft7JfoQWwAAOYsH-4959e7f3e5.webp) 
 [https://twitter.com/Lexaleth/status/1647977053784879105?t=SuWcVehBkdMNV8ZSs573gw&s=19](https://twitter.com/Lexaleth/status/1647977053784879105?t=SuWcVehBkdMNV8ZSs573gw&s=19)
 
 ## Lavori nell'ecosistema

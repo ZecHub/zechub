@@ -40,7 +40,7 @@ Las direcciones protegidas permiten a los usuarios realizar transacciones revela
 
 * En la esquina superior derecha, selecciona Accounts y haz clic en el círculo verde en la esquina inferior derecha para agregar tu cuenta solo para lectura
 
-![myViewKey](https://user-images.githubusercontent.com/81990132/208585568-46065002-6682-4ff4-ae8b-d206205b5d9b.png)
+![myViewKey](/content-images/208585568-46065002-6682-4ff4-ae8b-d20620-739ab12b6c.webp)
 
 
 #### zcashblockexplorer.com

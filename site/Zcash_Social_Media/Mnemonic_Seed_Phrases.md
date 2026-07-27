@@ -13,7 +13,7 @@ Recovery phrases are defined by the **BIP-39** specification, the most common ty
 
 The creation of recovery phrases starts by generating **randomness**. More entropy means higher security. **128 bits** of entropy is considered sufficient for most users.
 
-![Seed phrase concept](https://pbs.twimg.com/media/FooM3qWWACgrwzn.jpg)
+![Seed phrase concept](/content-images/FooM3qWWACgrwzn-f222c4081f.webp)
 
 Depending on the length of initial entropy, the recovery phrase will be **12 to 24 words** long.
 
@@ -28,7 +28,7 @@ We start by generating **128 bits** of entropy.
 We hash the entropy using **SHA256**. The first few bits of this hash become the checksum.  
 This gives us a unique fingerprint for our entropy.
 
-![Entropy + Checksum diagram](https://pbs.twimg.com/media/FooNoOEXgAAu-g6.png)
+![Entropy + Checksum diagram](/content-images/FooNoOEXgAAu-g6-613238fa7e.webp)
 
 ### 3. Split into 11-bit chunks
 The total 132 bits (128 entropy + 4 checksum) are separated into chunks of 11 bits.
@@ -39,7 +39,7 @@ BIP-39 wordlists contain exactly **2048 words** (English, Spanish, Chinese, etc.
 
 These numbers are used to find the corresponding word in the wordlist.
 
-![Word mapping example](https://pbs.twimg.com/media/FooN9rfXEBoQuU2.png)
+![Word mapping example](/content-images/FooN9rfXEBoQuU2-d11331fc0a.webp)
 
 **Result:** We now have a secure, human-readable 12-word recovery phrase!
 
@@ -59,7 +59,7 @@ The wallet seed is derived from the mnemonic phrase using a **Key Derivation Fun
 
 This produces a **64-byte (512-bit)** seed.
 
-![Seed to master keys](https://pbs.twimg.com/media/FooOuumXEAgcBm1.jpg)
+![Seed to master keys](/content-images/FooOuumXEAgcBm1-dc7c66b84a.webp)
 
 ### Master Keys
 The seed is split into two 32-byte sequences:
@@ -83,7 +83,7 @@ From an **Expanded Spending Key** we derive:
 
 Different derivation mechanisms produce external addresses suitable for giving out to senders across shielded pools (Sapling & Orchard).
 
-![Zcash key derivation hierarchy](https://pbs.twimg.com/media/FooPKd4XEBUQhJ6.jpg)
+![Zcash key derivation hierarchy](/content-images/FooPKd4XEBUQhJ6-af133c01bf.webp)
 
 Zcash also supports **internal addresses** for wallet operations such as Auto-Shielding.
 
