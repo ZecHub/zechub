@@ -8,6 +8,8 @@
 
 The purpose of this guide is to help educate Zcashers who are interested in running a full node on a low-powered Raspberry Pi 4.
 
+> **Note:** zcashd is being [deprecated](https://z.cash/support/zcashd-deprecation/) in favour of [Zebra](https://github.com/ZcashFoundation/zebra) (`zebrad`) for the node and [Zallet](https://github.com/zcash/zallet) for the wallet. This guide is kept as a legacy reference for existing zcashd setups; for a new full node, use Zebra and follow the [Migration Guide: zcashd to Zebrad/Zallet](https://zechub.wiki/migration-guide-zcashd-to-zebrad-zallet).
+
 <img src="https://user-images.githubusercontent.com/81990132/197372541-dcd886ab-a3d0-4614-b490-0294ddf3ffae.png" alt="zcashd" width="700" height="700"/>
 
 
