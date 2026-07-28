@@ -1000,7 +1000,7 @@
       "tool": "gt-static",
       "edited": false
     },
-    "Zcash_Use_Cases/Accept_Payments_AS_A_Merchant.md": {
+    "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
       "src": "sha256:f6d0ca2fee01d8226488b355579ce781d40f764bb694f1005263fd01547b1cfe",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
@@ -1016,7 +1016,7 @@
       "tool": "gt-static",
       "edited": false
     },
-    "Zcash_Use_Cases/Journalist_privacy_setup.md": {
+    "Zcash_Use_Cases/Journalist_Privacy_Setup.md": {
       "src": "sha256:de30ed026f0b33784df22236c65d2537a0868c49ba2610019a8bc00b34838fa4",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
@@ -1032,7 +1032,7 @@
       "tool": "gt-static",
       "edited": false
     },
-    "Zcash_Use_Cases/Private_Community_treasury.md": {
+    "Zcash_Use_Cases/Private_Community_Treasury.md": {
       "src": "sha256:68b71d482fd78af6ba6f0267fe12ff55b3eedc9f2a17a2064bbad7a3d5b61b52",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
@@ -2450,7 +2450,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Accept_Payments_AS_A_Merchant.md": {
+    "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
       "src": "sha256:f6d0ca2fee01d8226488b355579ce781d40f764bb694f1005263fd01547b1cfe",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -2466,7 +2466,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Journalist_privacy_setup.md": {
+    "Zcash_Use_Cases/Journalist_Privacy_Setup.md": {
       "src": "sha256:de30ed026f0b33784df22236c65d2537a0868c49ba2610019a8bc00b34838fa4",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -2482,7 +2482,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Private_Community_treasury.md": {
+    "Zcash_Use_Cases/Private_Community_Treasury.md": {
       "src": "sha256:68b71d482fd78af6ba6f0267fe12ff55b3eedc9f2a17a2064bbad7a3d5b61b52",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -3900,7 +3900,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Accept_Payments_AS_A_Merchant.md": {
+    "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
       "src": "sha256:f6d0ca2fee01d8226488b355579ce781d40f764bb694f1005263fd01547b1cfe",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -3916,7 +3916,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Journalist_privacy_setup.md": {
+    "Zcash_Use_Cases/Journalist_Privacy_Setup.md": {
       "src": "sha256:de30ed026f0b33784df22236c65d2537a0868c49ba2610019a8bc00b34838fa4",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -3932,7 +3932,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Private_Community_treasury.md": {
+    "Zcash_Use_Cases/Private_Community_Treasury.md": {
       "src": "sha256:68b71d482fd78af6ba6f0267fe12ff55b3eedc9f2a17a2064bbad7a3d5b61b52",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -5350,7 +5350,7 @@
       "tool": "gt-static",
       "edited": false
     },
-    "Zcash_Use_Cases/Accept_Payments_AS_A_Merchant.md": {
+    "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
       "src": "sha256:f6d0ca2fee01d8226488b355579ce781d40f764bb694f1005263fd01547b1cfe",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
@@ -5366,7 +5366,7 @@
       "tool": "gt-static",
       "edited": false
     },
-    "Zcash_Use_Cases/Journalist_privacy_setup.md": {
+    "Zcash_Use_Cases/Journalist_Privacy_Setup.md": {
       "src": "sha256:de30ed026f0b33784df22236c65d2537a0868c49ba2610019a8bc00b34838fa4",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
@@ -5382,7 +5382,7 @@
       "tool": "gt-static",
       "edited": false
     },
-    "Zcash_Use_Cases/Private_Community_treasury.md": {
+    "Zcash_Use_Cases/Private_Community_Treasury.md": {
       "src": "sha256:68b71d482fd78af6ba6f0267fe12ff55b3eedc9f2a17a2064bbad7a3d5b61b52",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
@@ -6800,7 +6800,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Accept_Payments_AS_A_Merchant.md": {
+    "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
       "src": "sha256:f6d0ca2fee01d8226488b355579ce781d40f764bb694f1005263fd01547b1cfe",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -6816,7 +6816,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Journalist_privacy_setup.md": {
+    "Zcash_Use_Cases/Journalist_Privacy_Setup.md": {
       "src": "sha256:de30ed026f0b33784df22236c65d2537a0868c49ba2610019a8bc00b34838fa4",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -6832,7 +6832,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Private_Community_treasury.md": {
+    "Zcash_Use_Cases/Private_Community_Treasury.md": {
       "src": "sha256:68b71d482fd78af6ba6f0267fe12ff55b3eedc9f2a17a2064bbad7a3d5b61b52",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -8250,7 +8250,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Accept_Payments_AS_A_Merchant.md": {
+    "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
       "src": "sha256:f6d0ca2fee01d8226488b355579ce781d40f764bb694f1005263fd01547b1cfe",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -8266,7 +8266,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Journalist_privacy_setup.md": {
+    "Zcash_Use_Cases/Journalist_Privacy_Setup.md": {
       "src": "sha256:de30ed026f0b33784df22236c65d2537a0868c49ba2610019a8bc00b34838fa4",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -8282,7 +8282,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Private_Community_treasury.md": {
+    "Zcash_Use_Cases/Private_Community_Treasury.md": {
       "src": "sha256:68b71d482fd78af6ba6f0267fe12ff55b3eedc9f2a17a2064bbad7a3d5b61b52",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -9700,7 +9700,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Accept_Payments_AS_A_Merchant.md": {
+    "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
       "src": "sha256:f6d0ca2fee01d8226488b355579ce781d40f764bb694f1005263fd01547b1cfe",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -9716,7 +9716,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Journalist_privacy_setup.md": {
+    "Zcash_Use_Cases/Journalist_Privacy_Setup.md": {
       "src": "sha256:de30ed026f0b33784df22236c65d2537a0868c49ba2610019a8bc00b34838fa4",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -9732,7 +9732,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Private_Community_treasury.md": {
+    "Zcash_Use_Cases/Private_Community_Treasury.md": {
       "src": "sha256:68b71d482fd78af6ba6f0267fe12ff55b3eedc9f2a17a2064bbad7a3d5b61b52",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -11150,7 +11150,7 @@
       "tool": "nllb-200-3.3B",
       "edited": false
     },
-    "Zcash_Use_Cases/Accept_Payments_AS_A_Merchant.md": {
+    "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
       "src": "sha256:f6d0ca2fee01d8226488b355579ce781d40f764bb694f1005263fd01547b1cfe",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
@@ -11166,7 +11166,7 @@
       "tool": "nllb-200-3.3B",
       "edited": false
     },
-    "Zcash_Use_Cases/Journalist_privacy_setup.md": {
+    "Zcash_Use_Cases/Journalist_Privacy_Setup.md": {
       "src": "sha256:de30ed026f0b33784df22236c65d2537a0868c49ba2610019a8bc00b34838fa4",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
@@ -11182,7 +11182,7 @@
       "tool": "nllb-200-3.3B",
       "edited": false
     },
-    "Zcash_Use_Cases/Private_Community_treasury.md": {
+    "Zcash_Use_Cases/Private_Community_Treasury.md": {
       "src": "sha256:68b71d482fd78af6ba6f0267fe12ff55b3eedc9f2a17a2064bbad7a3d5b61b52",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
@@ -12600,7 +12600,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Accept_Payments_AS_A_Merchant.md": {
+    "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
       "src": "sha256:f6d0ca2fee01d8226488b355579ce781d40f764bb694f1005263fd01547b1cfe",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -12616,7 +12616,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Journalist_privacy_setup.md": {
+    "Zcash_Use_Cases/Journalist_Privacy_Setup.md": {
       "src": "sha256:de30ed026f0b33784df22236c65d2537a0868c49ba2610019a8bc00b34838fa4",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -12632,7 +12632,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Private_Community_treasury.md": {
+    "Zcash_Use_Cases/Private_Community_Treasury.md": {
       "src": "sha256:68b71d482fd78af6ba6f0267fe12ff55b3eedc9f2a17a2064bbad7a3d5b61b52",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -14050,7 +14050,7 @@
       "tool": "qwen3-14b",
       "edited": false
     },
-    "Zcash_Use_Cases/Accept_Payments_AS_A_Merchant.md": {
+    "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
       "src": "sha256:f6d0ca2fee01d8226488b355579ce781d40f764bb694f1005263fd01547b1cfe",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -14066,7 +14066,7 @@
       "tool": "qwen3-14b",
       "edited": false
     },
-    "Zcash_Use_Cases/Journalist_privacy_setup.md": {
+    "Zcash_Use_Cases/Journalist_Privacy_Setup.md": {
       "src": "sha256:de30ed026f0b33784df22236c65d2537a0868c49ba2610019a8bc00b34838fa4",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -14082,7 +14082,7 @@
       "tool": "qwen3-14b",
       "edited": false
     },
-    "Zcash_Use_Cases/Private_Community_treasury.md": {
+    "Zcash_Use_Cases/Private_Community_Treasury.md": {
       "src": "sha256:68b71d482fd78af6ba6f0267fe12ff55b3eedc9f2a17a2064bbad7a3d5b61b52",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -15500,7 +15500,7 @@
       "tool": "qwen3-14b",
       "edited": false
     },
-    "Zcash_Use_Cases/Accept_Payments_AS_A_Merchant.md": {
+    "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
       "src": "sha256:f6d0ca2fee01d8226488b355579ce781d40f764bb694f1005263fd01547b1cfe",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -15516,7 +15516,7 @@
       "tool": "qwen3-14b",
       "edited": false
     },
-    "Zcash_Use_Cases/Journalist_privacy_setup.md": {
+    "Zcash_Use_Cases/Journalist_Privacy_Setup.md": {
       "src": "sha256:de30ed026f0b33784df22236c65d2537a0868c49ba2610019a8bc00b34838fa4",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -15532,7 +15532,7 @@
       "tool": "qwen3-14b",
       "edited": false
     },
-    "Zcash_Use_Cases/Private_Community_treasury.md": {
+    "Zcash_Use_Cases/Private_Community_Treasury.md": {
       "src": "sha256:68b71d482fd78af6ba6f0267fe12ff55b3eedc9f2a17a2064bbad7a3d5b61b52",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -16950,7 +16950,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Accept_Payments_AS_A_Merchant.md": {
+    "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
       "src": "sha256:f6d0ca2fee01d8226488b355579ce781d40f764bb694f1005263fd01547b1cfe",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -16966,7 +16966,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Journalist_privacy_setup.md": {
+    "Zcash_Use_Cases/Journalist_Privacy_Setup.md": {
       "src": "sha256:de30ed026f0b33784df22236c65d2537a0868c49ba2610019a8bc00b34838fa4",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -16982,7 +16982,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Private_Community_treasury.md": {
+    "Zcash_Use_Cases/Private_Community_Treasury.md": {
       "src": "sha256:68b71d482fd78af6ba6f0267fe12ff55b3eedc9f2a17a2064bbad7a3d5b61b52",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -18400,7 +18400,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Accept_Payments_AS_A_Merchant.md": {
+    "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
       "src": "sha256:f6d0ca2fee01d8226488b355579ce781d40f764bb694f1005263fd01547b1cfe",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -18416,7 +18416,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Journalist_privacy_setup.md": {
+    "Zcash_Use_Cases/Journalist_Privacy_Setup.md": {
       "src": "sha256:de30ed026f0b33784df22236c65d2537a0868c49ba2610019a8bc00b34838fa4",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -18432,7 +18432,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Private_Community_treasury.md": {
+    "Zcash_Use_Cases/Private_Community_Treasury.md": {
       "src": "sha256:68b71d482fd78af6ba6f0267fe12ff55b3eedc9f2a17a2064bbad7a3d5b61b52",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -19850,7 +19850,7 @@
       "tool": "nllb-200-3.3B",
       "edited": false
     },
-    "Zcash_Use_Cases/Accept_Payments_AS_A_Merchant.md": {
+    "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
       "src": "sha256:f6d0ca2fee01d8226488b355579ce781d40f764bb694f1005263fd01547b1cfe",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
@@ -19866,7 +19866,7 @@
       "tool": "nllb-200-3.3B",
       "edited": false
     },
-    "Zcash_Use_Cases/Journalist_privacy_setup.md": {
+    "Zcash_Use_Cases/Journalist_Privacy_Setup.md": {
       "src": "sha256:de30ed026f0b33784df22236c65d2537a0868c49ba2610019a8bc00b34838fa4",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
@@ -19882,7 +19882,7 @@
       "tool": "nllb-200-3.3B",
       "edited": false
     },
-    "Zcash_Use_Cases/Private_Community_treasury.md": {
+    "Zcash_Use_Cases/Private_Community_Treasury.md": {
       "src": "sha256:68b71d482fd78af6ba6f0267fe12ff55b3eedc9f2a17a2064bbad7a3d5b61b52",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
@@ -21300,7 +21300,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Accept_Payments_AS_A_Merchant.md": {
+    "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
       "src": "sha256:f6d0ca2fee01d8226488b355579ce781d40f764bb694f1005263fd01547b1cfe",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -21316,7 +21316,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Journalist_privacy_setup.md": {
+    "Zcash_Use_Cases/Journalist_Privacy_Setup.md": {
       "src": "sha256:de30ed026f0b33784df22236c65d2537a0868c49ba2610019a8bc00b34838fa4",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -21332,7 +21332,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Private_Community_treasury.md": {
+    "Zcash_Use_Cases/Private_Community_Treasury.md": {
       "src": "sha256:68b71d482fd78af6ba6f0267fe12ff55b3eedc9f2a17a2064bbad7a3d5b61b52",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -22750,7 +22750,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Accept_Payments_AS_A_Merchant.md": {
+    "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
       "src": "sha256:f6d0ca2fee01d8226488b355579ce781d40f764bb694f1005263fd01547b1cfe",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -22766,7 +22766,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Journalist_privacy_setup.md": {
+    "Zcash_Use_Cases/Journalist_Privacy_Setup.md": {
       "src": "sha256:de30ed026f0b33784df22236c65d2537a0868c49ba2610019a8bc00b34838fa4",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -22782,7 +22782,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Private_Community_treasury.md": {
+    "Zcash_Use_Cases/Private_Community_Treasury.md": {
       "src": "sha256:68b71d482fd78af6ba6f0267fe12ff55b3eedc9f2a17a2064bbad7a3d5b61b52",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -24200,7 +24200,7 @@
       "tool": "nllb-200-3.3B",
       "edited": false
     },
-    "Zcash_Use_Cases/Accept_Payments_AS_A_Merchant.md": {
+    "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
       "src": "sha256:f6d0ca2fee01d8226488b355579ce781d40f764bb694f1005263fd01547b1cfe",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
@@ -24216,7 +24216,7 @@
       "tool": "nllb-200-3.3B",
       "edited": false
     },
-    "Zcash_Use_Cases/Journalist_privacy_setup.md": {
+    "Zcash_Use_Cases/Journalist_Privacy_Setup.md": {
       "src": "sha256:de30ed026f0b33784df22236c65d2537a0868c49ba2610019a8bc00b34838fa4",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
@@ -24232,7 +24232,7 @@
       "tool": "nllb-200-3.3B",
       "edited": false
     },
-    "Zcash_Use_Cases/Private_Community_treasury.md": {
+    "Zcash_Use_Cases/Private_Community_Treasury.md": {
       "src": "sha256:68b71d482fd78af6ba6f0267fe12ff55b3eedc9f2a17a2064bbad7a3d5b61b52",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
@@ -25650,7 +25650,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Accept_Payments_AS_A_Merchant.md": {
+    "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
       "src": "sha256:f6d0ca2fee01d8226488b355579ce781d40f764bb694f1005263fd01547b1cfe",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -25666,7 +25666,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Journalist_privacy_setup.md": {
+    "Zcash_Use_Cases/Journalist_Privacy_Setup.md": {
       "src": "sha256:de30ed026f0b33784df22236c65d2537a0868c49ba2610019a8bc00b34838fa4",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -25682,7 +25682,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Zcash_Use_Cases/Private_Community_treasury.md": {
+    "Zcash_Use_Cases/Private_Community_Treasury.md": {
       "src": "sha256:68b71d482fd78af6ba6f0267fe12ff55b3eedc9f2a17a2064bbad7a3d5b61b52",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",

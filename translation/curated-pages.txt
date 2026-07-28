@@ -123,11 +123,11 @@ Zcash_Tech/Zcash_Wallet_Syncing.md
 Zcash_Tech/Zebra_Full_Node.md
 Zcash_Tech/zk_SNARKS.md
 Zcash_Use_Cases/About.md
-Zcash_Use_Cases/Accept_Payments_AS_A_Merchant.md
+Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md
 Zcash_Use_Cases/Freelance_Privacy_Setup.md
-Zcash_Use_Cases/Journalist_privacy_setup.md
+Zcash_Use_Cases/Journalist_Privacy_Setup.md
 Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md
-Zcash_Use_Cases/Private_Community_treasury.md
+Zcash_Use_Cases/Private_Community_Treasury.md
 Zcash_Use_Cases/Receive_Donations_Privately.md
 Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md
 contribute/Community_Infrastructure.md
