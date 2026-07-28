@@ -290,7 +290,7 @@
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
-![logo](https://i.ibb.co/h1cvLbXm/zapp-2.png "Zapp")
+![logo](/content-images/zapp_(2).webp "Zapp")
 - Devices: Mobile 
 - Operating System: Android 
 - Wallet Support: Unified Address 
@@ -301,7 +301,7 @@
 ---
 
 ## [Zecd](https://zecd.org/quickstart.html)
-![logo](https://i.ibb.co/kPx9cNz/zecd-1.png "Zecd")
+![logo](/content-images/zecd_(1).webp "Zecd")
 - Devices: Desktop 
 - Operating System: Linux
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Private Key | Spending Key | Wallet Backup / Key Export | Full Node Wallet 
@@ -312,7 +312,7 @@
 ---
 
 ## [Zend:Zcash Wallet](https://justzend.com/)
-![logo](https://i.ibb.co/V14v1s5/zend.png "Zend:Zcash Wallet")
+![logo](/content-images/zend.webp "Zend:Zcash Wallet")
 - Devices: Mobile | Desktop
 - Operating System: iOS | macOS
 - Wallet Support: Seed Phrase | Passkey | Unified Address | Private Key | Self-Custody Wallet 
@@ -322,7 +322,7 @@
 ---
 
 ## [Nozy Wallet](https://github.com/LEONINE-DAO/Nozy-wallet)
-![logo](https://i.ibb.co/7w0kpq5/Nozy-Wallet.jpg "Nozy Wallet")
+![logo](/content-images/nozy.webp "Nozy Wallet")
 - Devices: Desktop | Browser
 - Operating System: Linux | iOS | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Spending Key | HD Wallet | Private Key Management 
@@ -333,7 +333,7 @@
 ---
 
 ## [Zipher](https://github.com/atmospherelabs-dev/zipher-app)
-![logo](https://i.ibb.co/4wNY9vfG/zipher.png "Zipher")
+![logo](/content-images/zipher.webp "Zipher")
 - Devices: Mobile | Desktop 
 - Operating System: Android | Windows | Linux (CLI and MCP Server) | iOS | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Multi Account Wallet | Self-Custody Wallet | Private Key Management | Agent Wallet Support
