@@ -58,7 +58,7 @@
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling | Orchard
 - Features: DEX Swaps | Multi Coin | Spend before Sync
-- Ironwood: In Progress
+- Ironwood: Ready
 
 ---
 
@@ -90,7 +90,8 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Transparent | Sapling | Orchard
 - Features: Address Book | Address Rotation | Automatic Shielding | DEX Swaps | Multi Coin | Shielded Memo | Tor Support
-
+- Ironwood: Ready
+  
 ---
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
@@ -264,7 +265,7 @@
 - Wallet Support: Seed Phrase | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard
 - Features: Automatic Shielding | Shielded Memo | Testnet Support | FROST Multisig
-- Ironwood: In Progress
+- Ironwood: Ready
 
 ---
 
@@ -295,7 +296,8 @@
 - Wallet Support: Unified Address 
 - Pools: Transparent | Sapling | Orchard
 - Features: End-to-end encrypted Messenger | NEAR Intents | P2P.me Offramp | Beta
-
+- Ironwood: Ready
+  
 ---
 
 ## [Zecd](https://zecd.org/quickstart.html)
@@ -336,5 +338,5 @@
 - Operating System: Android | Windows | Linux (CLI and MCP Server) | iOS | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Multi Account Wallet | Self-Custody Wallet | Private Key Management | Agent Wallet Support
 - Pools: Transparent | Sapling | Orchard 
-- Features: NEAR Intents | Payment Requests | Shielded Memo | Shielded Transaction Default | Testnet Support | Cross-chain Swap | CipherPay Checkout | Viewing Key Export | AI Agent Integration | MCP Server | CLI Wallet | Human-in-the-loop Approval | FROST | Beta | TestFlight
-
+- Features: NEAR Intents | Payment Requests | Shielded Memo | Shielded Transaction Default | Testnet | Cross-chain Swap | CipherPay | Viewing Key | AI Agent | MCP Server | CLI Wallet | FROST | Beta 
+- Ironwood: In Progress
