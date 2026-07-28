@@ -8,7 +8,7 @@ Susu si le emee nye esi: Ne wokpɔ TEX Adrɛs aɖe la, gakotoku si sɔ la ɖea e
 
 Wogblɔ mɔ̃ɖaŋununya ƒe aɖaŋuɖoɖo na TEX adrɛswo le Zcash [ZIP 320](https://zips.z.cash/zip-0320), si ɖea adrɛs ƒomevi aɖe si woatsɔ axɔ ga tso Adrɛs siwo me kɔ gbɔ ko.
 
-![TEX](https://i.ibb.co/8m7HPqV/ZashiTex.png)
+![TEX](/content-images/ZashiTex-b1cbec5f07.webp)
 
 
 Togbɔ be woxɔa TEX adrɛs siwo menye le afisiafi o hã la, woate ŋu abia tso Zcash zãlawo si be woazã wo mlɔeba.

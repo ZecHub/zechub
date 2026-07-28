@@ -53,11 +53,11 @@ Flyp.me는 등록이 필요 없는 암호화폐 거래소입니다. 30개 이상
 이 거래소들은 투명한 출금을 지원합니다. 이는 ZEC를 지갑으로 출금할 때, 당신의 투명 주소, 즉 공개된 ZEC 주소로 보내야 한다는 의미입니다.
 자세한 내용은 [여기](https://zechub.wiki/using-zcash/non-custodial-exchanges)에서 확인하세요.
 
-![dex](https://github.com/user-attachments/assets/bfe2e9cf-2def-4593-b790-152e14b23da3)
+![dex](/content-images/bfe2e9cf-2def-4593-b790-152e14b23da3-f94f97c7e6.webp)
 
 이를 수행할 때, 다음 중 하나의 [지갑](https://zechub.wiki/wallets)을 사용하는 것이 좋습니다.
 
-![mobile](https://github.com/user-attachments/assets/8b7618f5-dec6-4e6b-9804-db75be5c1e2f)
+![mobile](/content-images/8b7618f5-dec6-4e6b-9804-db75be5c1e2f-14fa53d3bd.webp)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

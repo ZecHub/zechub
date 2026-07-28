@@ -1,7 +1,7 @@
 # Alberi di Merkle: come la blockchain ricorda ogni nota
 ##### Ricerca originale di [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt text](image-19.png)
+![alt text](/content-images/image-19-cfbdcf8f78.webp)
 
 ### Riassumere milioni di commitment in un'unica minuscola impronta
 
@@ -34,7 +34,7 @@ Immagina un tabellone a eliminazione di un torneo, ma invece di avanzare i gioca
 - Accoppia i genitori, applica l'hash a ogni coppia insieme, e così via.
 - Continua finché un'**unica impronta** non si trova in cima. Quel campione è la **radice di Merkle.**
 
-![alt text](image-20.png)
+![alt text](/content-images/image-20-f5d57e425a.webp)
 
 La proprietà più importante in assoluto deriva direttamente dall'effetto valanga (Articolo 3):
 
@@ -77,7 +77,7 @@ step 2:  H(hAB , hCD)      = ROOT?     (combine with the uncle)
 
 Calcolato per davvero: questo produce `1b3faa3fcc5e...`, che **corrisponde alla radice.**  La foglia è provata essere nell'albero.
 
-![alt text](image-21.png)
+![alt text](/content-images/image-21-d9e5d6eaf6.webp)
 
 Due cose rendono tutto questo potente:
 
@@ -99,7 +99,7 @@ Alcuni dettagli reali:
 - **Profondità fissa.** Gli alberi schermati di Zcash hanno profondità **32**, il che significa che possono contenere fino a `2^(32)` (oltre quattro miliardi di) note.
 - **Hashing ZK-friendly.** L'albero non è costruito con SHA-256. Sapling effettua l'hash dell'albero con gli **hash di Pedersen** e Orchard usa **Sinsemilla** (entrambi dall'Articolo 3), proprio perché la risalita di appartenenza sia economica da provare all'interno di un circuito.
 
-![alt text](image-22.png)
+![alt text](/content-images/image-22-518354b8d5.webp)
 
 ### Una cosa che l'albero *non* gestisce: le doppie spese
 

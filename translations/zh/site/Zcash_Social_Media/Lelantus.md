@@ -6,7 +6,7 @@
 
 该协议于 2019 年发布，建立在 Zerocoin 之上。它被用于 **Firo** 货币（前身为 Zcoin），以实现链上隐私交易。它在某些方面与 Zcash 相似，但在大多数方面又有明显不同。
 
-![Lelantus 介绍](https://pbs.twimg.com/media/Fsk18DgXsAEc0Ob.jpg)
+![Lelantus 介绍](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
 
 ---
 
@@ -15,7 +15,7 @@
 - **Zcash** - 建立在 **Zerocash** 协议之上  
 - **Firo (Zcoin)** - 建立在 **Zerocoin** 协议之上
 
-![Zerocash 与 Zerocoin 对比](https://pbs.twimg.com/media/Fsk2Fk7WcAA81ty.png)
+![Zerocash 与 Zerocoin 对比](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
 
 ---
 
@@ -28,7 +28,7 @@
 - **Sigma** - 固定面额系统
 - **Lelantus 1.0** - 缺乏正确的安全性证明
 
-![协议演进](https://pbs.twimg.com/media/Fsk2NdaWAAAKVgH.png)
+![协议演进](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
 
 ---
 
@@ -38,7 +38,7 @@
 
 这会导致匿名集更小，并为铸造与赎回操作之间的时序攻击打开大门（以及“受污染找零”问题）。
 
-![Sigma 面额](https://pbs.twimg.com/media/Fsk2fxfWcAMUBDo.png)
+![Sigma 面额](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
 
 ---
 
@@ -53,7 +53,7 @@
 
 **局限性**：集合大小目前上限为 **65,000 coins**。
 
-![Lelantus 优势](https://pbs.twimg.com/media/Fsk2wK3X0AA6MEe.png)
+![Lelantus 优势](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
 
 ---
 
@@ -65,7 +65,7 @@
 
 当 coin 被创建时（通过 Mint 或 Spend 交易），coin commitment 会被发布并存储到账本中。
 
-![Coin commitment 示意图](https://pbs.twimg.com/media/Fsk3AWNX0AIHya8.png)
+![Coin commitment 示意图](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
 
 ---
 
@@ -77,7 +77,7 @@ Lelantus 使用经典的 **basecoin < - > zerocoin** 模型。
 
 与 Zcash 一样，透明交易必须由用户显式选择。
 
-![Lelantus 流程](https://pbs.twimg.com/media/Fsk3HrjXgAMgqmX.png)
+![Lelantus 流程](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
 
 ---
 
@@ -87,7 +87,7 @@ Lelantus 使用 **One-of-Many Proofs** 来提取证明余额所需的输入值�
 
 这些证明也被用于 **Triptych**（我们在 CryptoNote 主题帖中提到过）。
 
-![One-of-Many Proofs](https://pbs.twimg.com/media/Fsk3Z0nWIAAPD4k.jpg)
+![One-of-Many Proofs](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
 
 ---
 
@@ -103,7 +103,7 @@ Firo 节点使用与 Zcash 的 Magicbean 相同的 Network Magic。
 
 这使得通过网络分析追踪交易来源变得更加困难。
 
-![Dandelion++ 说明](https://pbs.twimg.com/media/Fsk4A8VWcAU84MR.png)
+![Dandelion++ 说明](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
 
 ---
 
@@ -117,7 +117,7 @@ Firo 节点使用与 Zcash 的 Magicbean 相同的 Network Magic。
 
 这些功能与 Zcash Shielded Assets 相对应。
 
-![Lelantus-Spark 公告](https://pbs.twimg.com/media/Fsk4jXeXsAACQ3h.jpg)
+![Lelantus-Spark 公告](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
 
 ---
 

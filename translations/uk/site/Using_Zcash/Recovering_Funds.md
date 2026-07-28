@@ -28,7 +28,7 @@ YWallet визнано одним із найкращих варіантів д�
 
 4. У верхньому правому куті натисніть знак плюс 
 
-![Кнопка зі знаком плюс](https://i.postimg.cc/xJbVz7gB/plus.png)
+![Кнопка зі знаком плюс](/content-images/plus-3ca2c1649a.webp)
 
 5. Увімкніть перемикач «Restore an account» 
 
@@ -46,7 +46,7 @@ YWallet визнано одним із найкращих варіантів д�
 
 4. Введіть свою seed phrase (Gap limit сканує додаткові адреси, згенеровані з цієї seed)
 
-![Екран Sweep Funds](https://i.postimg.cc/3055CBcN/sweep.png)
+![Екран Sweep Funds](/content-images/sweep-6c956553a9.webp)
 
 5. Вкажіть Value Pool для призначення, яке ви хочете використовувати (біржі використовують Transparent)
 

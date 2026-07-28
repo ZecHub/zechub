@@ -17,7 +17,7 @@ ZecWeekly هي نشرة إخبارية تُرسل كل صباح أحد. وهي �
 - تحقّق من [ZEC Bounties ](https://bounties.zechub.wiki/) لمعرفة مهمة النشرة الحالية.
 - انتظر حتى يتم إسناد المهمة إليك
 
-![ss](https://github.com/user-attachments/assets/149a802c-b64f-4969-ad89-e83ffecf568e)
+![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
 
 
 
@@ -93,7 +93,7 @@ Summary:
 - [ملخص منظومة Zcash | 14 فبراير](https://github.com/ZecHub/zechub/pull/1474)
 
 
-![مثال على طلب سحب نشرة ZecWeekly مدمج](https://github.com/user-attachments/assets/9230d68d-6406-4c8a-992c-df84e0d318d8)
+![مثال على طلب سحب نشرة ZecWeekly مدمج](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)
 
 عند مقارنة عملك بأحد الأمثلة، ركّز على موقع الملف، وتنسيق العنوان، وترتيب الأقسام، وأوصاف الروابط، وما إذا كان طلب السحب يرتبط بالمهمة الصحيحة.
 

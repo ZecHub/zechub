@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/amochuko/zechub/68acdb6f311bff85fe8ded7b47b2e362d7712474/assets/icons/journalist-host-profession-interview-svgrepo-com.svg" width="24" height="24" alt="Иконка журналиста"/> Настройка приватности для журналистов с использованием Zcash
+# <img src="/content-images/journalist-host-profession-interview-svg-2eb63ae5c9.svg" width="24" height="24" alt="Иконка журналиста"/> Настройка приватности для журналистов с использованием Zcash
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
@@ -14,7 +14,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка пользователя"/> Для кого это?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка пользователя"/> Для кого это?
 
 - Журналисты
 - Расследователи
@@ -23,7 +23,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка предупреждения"/> Проблема
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка предупреждения"/> Проблема
 
 Журналисты сталкиваются с:
 - Наблюдением
@@ -37,7 +37,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка инструментов"/> Почему Zcash?
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка инструментов"/> Почему Zcash?
 
 Zcash предоставляет:
 - Сильную финансовую приватность
@@ -46,7 +46,7 @@ Zcash предоставляет:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка инструментов"/> Что вам нужно
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка инструментов"/> Что вам нужно
 
 - Кошелек Zcash с поддержкой защищенных адресов
 - Безопасный канал коммуникации (вне блокчейна)
@@ -54,7 +54,7 @@ Zcash предоставляет:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка шага"/> Пошаговое руководство
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка шага"/> Пошаговое руководство
 
 ### Шаг 1: Создайте отдельный кошелек
 
@@ -86,7 +86,7 @@ Zcash предоставляет:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка отмены"/> Общие ошибки, которых стоит избегать
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка отмены"/> Общие ошибки, которых стоит избегать
 
 - Использование прозрачных адресов  
 - Повторное использование адресов между источниками  
@@ -95,7 +95,7 @@ Zcash предоставляет:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="иконка выполнения"/> Результат
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="иконка выполнения"/> Результат
 
 Вы можете:
 - Защитить своих источников
@@ -104,14 +104,14 @@ Zcash предоставляет:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка связей"/> Связанные статьи
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка связей"/> Связанные статьи
 
 - [Приватность - Рекомендации](/privacy/best-practices)
 - [Переведите деньги без привязки к идентичности](/use-cases/send-money-without-linking-identity)
 
  <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/68acdb6f311bff85fe8ded7b47b2e362d7712474/assets/icons/celebration-spark-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка празднования"/> Завершение
+## <img src="/content-images/celebration-spark-svgrepo-com-bc98dec7c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка празднования"/> Завершение
 
 **Шаг 6 из 6 — завершен**
 

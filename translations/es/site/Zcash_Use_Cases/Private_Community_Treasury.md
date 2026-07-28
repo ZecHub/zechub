@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/amochuko/zechub/68acdb6f311bff85fe8ded7b47b2e362d7712474/assets/icons/people-community-add-svgrepo-com.svg" width="24" height="24" alt="icono de periodista"/>  Gestiona una tesorería comunitaria privada con Zcash
+# <img src="/content-images/people-community-add-svgrepo-com-3c6ac75333.svg" width="24" height="24" alt="icono de periodista"/>  Gestiona una tesorería comunitaria privada con Zcash
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
@@ -14,7 +14,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de usuario"/> ¿Para quién es esto?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de usuario"/> ¿Para quién es esto?
 
 - DAOs y comunidades
 - Programas de subvenciones
@@ -24,7 +24,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de advertencia"/> El problema
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de advertencia"/> El problema
 
 Los fondos comunitarios en blockchains públicas exponen:
 - El saldo total de la tesorería
@@ -38,7 +38,7 @@ Esto crea riesgos:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de caja de herramientas"/> ¿Por qué Zcash?
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de caja de herramientas"/> ¿Por qué Zcash?
 
 Zcash permite a las comunidades:
 - Mantener fondos de forma privada
@@ -47,7 +47,7 @@ Zcash permite a las comunidades:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de caja de herramientas"/> Lo que necesitas
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de caja de herramientas"/> Lo que necesitas
 
 - Una wallet de Zcash (o varias wallets para separar roles)
 - Procesos internos claros para gestionar fondos
@@ -55,7 +55,7 @@ Zcash permite a las comunidades:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de paso"/> Guía paso a paso
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de paso"/> Guía paso a paso
 
 ### Paso 1: Crear una dirección de tesorería blindada
 
@@ -99,7 +99,7 @@ Memo de ejemplo:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de cancelar"/> Errores comunes que debes evitar
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de cancelar"/> Errores comunes que debes evitar
 
 - Usar direcciones transparentes para la tesorería  
 - Publicar públicamente los saldos de la wallet  
@@ -109,7 +109,7 @@ Memo de ejemplo:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="icono de hecho"/> Resultado
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="icono de hecho"/> Resultado
 
 Tu comunidad puede:
 - Gestionar fondos de forma segura
@@ -119,7 +119,7 @@ Tu comunidad puede:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de enlaces de cadena"/> Relacionado
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de enlaces de cadena"/> Relacionado
 
 - [Privacidad - Mejores prácticas](/privacy/best-practices)
 - [Enviar dinero sin vincular la identidad](/use-cases/send-money-without-linking-identity)
@@ -127,7 +127,7 @@ Tu comunidad puede:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/progress-arrows-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de progreso"/> Progreso
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de progreso"/> Progreso
 
 **Paso 5 de 6**
 

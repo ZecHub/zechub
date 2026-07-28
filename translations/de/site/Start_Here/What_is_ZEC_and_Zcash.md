@@ -43,7 +43,7 @@ Zcash ist eine Implementierung des „Zerocash“-Protokolls. Es ist ein Open-So
 Zcash löst Bitcoins größten Schwachpunkt: den privaten Besitz und Transfer von Daten. In einer Welt, in der Blockchain-Anwendungen und Kryptowährungen immer breitere Akzeptanz finden, sind pseudonyme Transaktionen keine tragfähige Option mehr, um die Privatsphäre der Nutzer zu schützen. Überwachungsanwendungen werden zunehmend eingesetzt, um Blockchain-Transaktionen zu analysieren.
 
 <a href="">
-    <img src="https://i.ibb.co/NN3XxrG/Zcash-logo-1.png" alt="" width="60" height="60"/>
+    <img src="/content-images/Zcash-logo-1-26747e0dd3.webp" alt="" width="60" height="60"/>
 </a>
 
 #### Ressourcen

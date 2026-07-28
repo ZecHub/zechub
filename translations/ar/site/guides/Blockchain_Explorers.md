@@ -43,7 +43,7 @@
 
 على نحو مشابه للعناوين أعلاه، فإن أي معاملة على بلوكشين عام تكون مبالغها متاحة علنًا ومعروضة بالكامل. يشمل ذلك المبالغ في كلٍّ من عناوين الإدخال والإخراج لأي معاملة. يوجد استثناء واحد لذلك عندما تختار استخدام Shielded Zcash -- عندها تكون جميع المبالغ مخفية. بالنسبة لأصحاب الأعمال الصغيرة الذين يحتاجون بالضرورة إلى الخصوصية من أجل *تجارة عادلة*، فهذه ميزة هائلة!
 
-![المبالغ](https://user-images.githubusercontent.com/81990132/206312357-e9504151-830f-4fa1-81cb-f23619fd7226.png)
+![المبالغ](/content-images/206312357-e9504151-830f-4fa1-81cb-f23619-210f51493c.webp)
 
 
 ### ما الذي يمكن وما الذي لا يمكن للمستكشف رؤيته على Zcash
@@ -78,13 +78,13 @@
 * [Mintscan](https://hub.mintscan.io/chains/ibc-network)
 
 
-![مستكشف Bitcoin](https://user-images.githubusercontent.com/81990132/206279968-a06eb0a1-b3a6-49af-a30f-7d871b906eeb.png)
+![مستكشف Bitcoin](/content-images/206279968-a06eb0a1-b3a6-49af-a30f-7d871b-1418d95d28.webp)
 
 
-![مستكشف Ethereum](https://user-images.githubusercontent.com/81990132/206280208-2ce5eddd-157e-4eed-90a0-680c1520ec57.png)
+![مستكشف Ethereum](/content-images/206280208-2ce5eddd-157e-4eed-90a0-680c15-488292c345.webp)
 
 
-![مستكشف Zcash](https://user-images.githubusercontent.com/81990132/206280454-a2c7563f-e82d-47b9-9b58-02eece1c89ee.png)
+![مستكشف Zcash](/content-images/206280454-a2c7563f-e82d-47b9-9b58-02eece-76db7aec4c.webp)
 
 
-![Cosmos](https://user-images.githubusercontent.com/81990132/206316791-2debfd28-923a-44f4-b7d3-701182112c30.png)
+![Cosmos](/content-images/206316791-2debfd28-923a-44f4-b7d3-701182-cf39a065fc.webp)

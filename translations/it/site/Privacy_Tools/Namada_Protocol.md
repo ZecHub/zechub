@@ -2,7 +2,7 @@
 
 # Namada Protocol
 
-![Namada Logo](https://i.ibb.co/BZcZHS1/logo.png)
+![Namada Logo](/content-images/logo-2067e2533d.webp)
 
 
 ## Cos'è Namada?
@@ -26,7 +26,7 @@ Namada dà priorità alla privacy implementando un'iterazione potenziata del cir
 
 L'integrazione dell'Ethereum bridge in Namada elimina la necessità di un protocollo separato, in quanto diventa parte integrante dell'ecosistema Namada. I validatori all'interno di Namada hanno il compito di gestire il bridge insieme al protocollo core di Namada. Questi validatori fungono anche da relayer quando si tratta di trasferire asset verso Namada, rendendo non necessario il coinvolgimento di attori aggiuntivi. D'altra parte, quando si trasferiscono asset verso Ethereum, sono coinvolte parti esterne (note come relayer), sebbene non abbiano alcuna responsabilità nel validare o mettere in sicurezza il bridge.
 
-![Ethereum Bridge Diagram](https://i.ibb.co/wKds5RP/image.jpg)
+![Ethereum Bridge Diagram](/content-images/image-0fd8f754ba.webp)
 
 Namada Protocol ha anche la capacità di connettersi perfettamente con qualsiasi chain a finalità rapida che supporti il protocollo Inter-Blockchain Communication (IBC). Quando si tratta di interoperare con Ethereum, Namada implementa un Ethereum bridge specializzato e sicuro che opera in modo trustless. Questo bridge è attentamente progettato per dare priorità alla sicurezza imponendo controlli di flusso per tutte le connessioni del bridge e trattando qualsiasi trasferimento Ethereum difettoso come un grave illecito che può comportare penalità di slashing.
 
@@ -40,7 +40,7 @@ In Namada, lo shielded set è considerato un bene pubblico non esclusivo e anti-
 
 Quando si tratta di trasferimenti schermati, sia che coinvolgano un non-fungible token (NFT) Ethereum, ATOM o NAM, sono indistinguibili l'uno dall'altro. Questo significa che le caratteristiche di tutela della privacy fornite dal MASP (Modified Accumulator Sapling Protocol), una versione potenziata del circuito Sapling di Zcash, si applicano in modo uniforme a tutti i tipi di asset. Il circuito MASP consente a tutti gli asset all'interno dell'ecosistema Namada di condividere lo stesso shielded set. Questo approccio garantisce che le garanzie di privacy non siano frammentate tra i singoli asset. Indipendentemente dal volume di transazioni associato a un particolare asset, la protezione della privacy rimane coerente e indipendente.
 
-![Shielded Assets Transaction Diagram](https://i.ibb.co/7CDmWk6/image-1.png)
+![Shielded Assets Transaction Diagram](/content-images/image-1-512c639d56.webp)
 
 Unificando lo shielded set tra diversi asset, Namada garantisce che la privacy sia mantenuta in modo uniforme, indipendentemente dallo specifico tipo di asset coinvolto in un trasferimento schermato. Questo approccio promuove un framework di privacy coeso all'interno del protocollo e migliora la riservatezza delle transazioni che coinvolgono NFT Ethereum, ATOM, NAM e altri asset supportati. Namada abilita anche il trasferimento privato di token fungibili e non fungibili usando nuovi zk-SNARKs, garantendo la riservatezza per i token nativi e non nativi proprio come avviene su Zcash.
 
@@ -54,7 +54,7 @@ Inoltre, Namada utilizza moderni algoritmi di consenso BFT, che garantiscono l'i
 
 Secondo una recente pubblicazione che può essere trovata sul [Blog di Namada Protocol](https://blog.namada.net/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/), il team dietro Namada Protocol è entusiasta di presentare una proposta e una request-for-comment (RFC) per un'alleanza strategica tra gli asset, le chain e le community di Namada e Zcash.
 
-![Namada-Zcash Strategic Alliance Diagram](https://i.ibb.co/FqsmkMb/image-2.png)
+![Namada-Zcash Strategic Alliance Diagram](/content-images/image-2-68804c60f3.webp)
 
 L'alleanza proposta comprende tre elementi principali. In primo luogo, verrà creato un pool di grant per fornire finanziamenti a progetti che apportino vantaggi sia a Zcash sia a Namada. In secondo luogo, un airdrop di token NAM sarà allocato ai detentori di ZEC. Infine, è previsto un piano per stabilire un bridge a fiducia minimizzata che colleghi Zcash e Namada. Una volta implementato, questo bridge consentirà ai detentori di ZEC, chiamati Zolder, di utilizzare i loro ZEC su Namada. Inoltre, gli Zolder avranno l'opportunità di accedere ai più ampi ecosistemi Cosmos ed Ethereum attraverso Namada. Puoi saperne di più sull'alleanza strategica sul [Zcash Community Forum](https://forum.zcashcommunity.com/t/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/44372)
 

@@ -13,7 +13,7 @@ As frases de recuperação são definidas pela especificação **BIP-39**, o tip
 
 A criação de frases de recuperação começa pela geração de **aleatoriedade**. Mais entropia significa maior segurança. **128 bits** de entropia são considerados suficientes para a maioria dos usuários.
 
-![Conceito de frase-semente](https://pbs.twimg.com/media/FooM3qWWACgrwzn.jpg)
+![Conceito de frase-semente](/content-images/FooM3qWWACgrwzn-f222c4081f.webp)
 
 Dependendo do comprimento da entropia inicial, a frase de recuperação terá de **12 a 24 palavras**.
 
@@ -28,7 +28,7 @@ Começamos gerando **128 bits** de entropia.
 Aplicamos hash à entropia usando **SHA256**. Os primeiros bits desse hash se tornam o checksum.  
 Isso nos dá uma impressão digital única para nossa entropia.
 
-![Diagrama de Entropia + Checksum](https://pbs.twimg.com/media/FooNoOEXgAAu-g6.png)
+![Diagrama de Entropia + Checksum](/content-images/FooNoOEXgAAu-g6-613238fa7e.webp)
 
 ### 3. Dividir em blocos de 11 bits
 O total de 132 bits (128 de entropia + 4 de checksum) é separado em blocos de 11 bits.
@@ -39,7 +39,7 @@ As listas de palavras BIP-39 contêm exatamente **2048 palavras** (inglês, espa
 
 Esses números são usados para encontrar a palavra correspondente na lista de palavras.
 
-![Exemplo de mapeamento de palavras](https://pbs.twimg.com/media/FooN9rfXEBoQuU2.png)
+![Exemplo de mapeamento de palavras](/content-images/FooN9rfXEBoQuU2-d11331fc0a.webp)
 
 **Resultado:** Agora temos uma frase de recuperação segura, legível por humanos, com 12 palavras!
 
@@ -59,7 +59,7 @@ A seed da carteira é derivada da frase mnemônica usando uma **Função de Deri
 
 Isso produz uma seed de **64 bytes (512 bits)**.
 
-![Seed para chaves mestras](https://pbs.twimg.com/media/FooOuumXEAgcBm1.jpg)
+![Seed para chaves mestras](/content-images/FooOuumXEAgcBm1-dc7c66b84a.webp)
 
 ### Chaves Mestras
 A seed é dividida em duas sequências de 32 bytes:
@@ -83,7 +83,7 @@ A partir de uma **Expanded Spending Key** derivamos:
 
 Diferentes mecanismos de derivação produzem endereços externos adequados para serem fornecidos a remetentes em pools blindadas (Sapling & Orchard).
 
-![Hierarquia de derivação de chaves do Zcash](https://pbs.twimg.com/media/FooPKd4XEBUQhJ6.jpg)
+![Hierarquia de derivação de chaves do Zcash](/content-images/FooPKd4XEBUQhJ6-af133c01bf.webp)
 
 O Zcash também oferece suporte a **endereços internos** para operações da carteira, como Auto-Shielding.
 

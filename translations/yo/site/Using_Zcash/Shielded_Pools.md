@@ -34,7 +34,7 @@ Bi Zcash ṣe n dagbasoke, a le ṣe agbekalẹ awọn adagun ideri tuntun lati 
 
 <br/>
 
-! [ì ì1 ]](https://github.com/user-attachments/assets/4ba8cca2-cea5-42d2-8ec2-2122b26f5144)
+! [ì ì1 ]](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
 Àwòrán 1: Àkọsílẹ̀ tí ó fi àwọn àgbá mẹ́rin tó wà nísinsìnyí hàn ní October, 2025
 
 <br/>
@@ -45,7 +45,7 @@ Bi Zcash ṣe n dagbasoke, a le ṣe agbekalẹ awọn adagun ideri tuntun lati 
 1. <h3 id="orchard" class="text-3xl font-bold my-4">Orchard Pool</h3>
 
 
-! [ì ì ì2 ]](https://github.com/user-attachments/assets/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72)
+! [ì ì ì2 ]](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
 Àwòrán 2: Àtẹ tí ó ń fi àgbá Orchard hàn ní October, 2025
 
 <br/>
@@ -63,7 +63,7 @@ ____
 2. <h3 id="sapling" class="text-3xl font-bold my-4">Sapling Pool</h3>
 
 
-! [ì ì ì3 ]](https://github.com/user-attachments/assets/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae)
+! [ì ì ì3 ]](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
 Àwòrán 3: Àtẹ tí ó ń fi ìsédò Sapling hàn ní October, 2025
 
 <br/>
@@ -83,7 +83,7 @@ ____
 3. <h3 id="sprout" class="text-3xl font-bold my-4">Sprout Pool</h3>
 
 
-! [ì ì 1⁄4](https://github.com/user-attachments/assets/956eceed-f4d6-4087-99d0-32a770449dda)
+! [ì ì 1⁄4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
 Àwòrán 4: Àtẹ tí ó ń fi àgbá Ìdárò hàn láti oṣù October, 2025
 
 Sprout ni àkọ́kọ́ nínú àwọn ìlànà ìpamọ́ tí kò ní ìyọ̀ǹda kankan tí wọ́n ṣe. Ó wáyé ní ọjọ́ kejìdínlọ́gbọ̀n oṣù kẹwàá ọdún 2016.
@@ -98,7 +98,7 @@ As the Zcash ecosystem continued  to expand with increasing number of shielded t
 4. <h3 id="transparent" class="text-3xl font-bold my-4">Transparent Pool</h3>
 <br/>
 
-! [ì í ì °5](https://github.com/user-attachments/assets/01de2907-b62d-4421-83d7-ea4908faa828)
+! [ì í ì °5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
 Àwòrán 5: Àtẹ tí ó ń fi àwọn ìsọ̀rí tí ó ṣe kedere hàn ní October, 2025
 
 <br/>

@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/amochuko/zechub/68acdb6f311bff85fe8ded7b47b2e362d7712474/assets/icons/journalist-host-profession-interview-svgrepo-com.svg" width="24" height="24" alt="Icône de journaliste"/> Configuration de confidentialité pour journalistes avec Zcash
+# <img src="/content-images/journalist-host-profession-interview-svg-2eb63ae5c9.svg" width="24" height="24" alt="Icône de journaliste"/> Configuration de confidentialité pour journalistes avec Zcash
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
@@ -14,7 +14,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône utilisateur"/> À qui s’adresse ce guide ?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône utilisateur"/> À qui s’adresse ce guide ?
 
 - Journalistes
 - Enquêteurs
@@ -24,7 +24,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône d’avertissement"/> Le problème
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône d’avertissement"/> Le problème
 
 Les journalistes font face à :
 - La surveillance
@@ -38,7 +38,7 @@ L’utilisation de cryptomonnaies transparentes peut révéler :
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône de boîte à outils"/> Pourquoi Zcash ?
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône de boîte à outils"/> Pourquoi Zcash ?
 
 
 Zcash offre :
@@ -48,7 +48,7 @@ Zcash offre :
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône de boîte à outils"/> Ce dont vous avez besoin
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône de boîte à outils"/> Ce dont vous avez besoin
 
 - Un portefeuille Zcash prenant en charge les adresses blindées
 - Un canal de communication sécurisé (hors blockchain)
@@ -56,7 +56,7 @@ Zcash offre :
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône d’étape"/> Guide étape par étape
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône d’étape"/> Guide étape par étape
 
 
 ### Étape 1 : Créer un portefeuille dédié
@@ -93,7 +93,7 @@ Si vous payez des sources :
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône d’annulation"/> Erreurs courantes à éviter
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône d’annulation"/> Erreurs courantes à éviter
 
 - Utiliser des adresses transparentes  
 - Réutiliser des adresses entre plusieurs sources  
@@ -102,7 +102,7 @@ Si vous payez des sources :
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="icône terminé"/> Résultat
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="icône terminé"/> Résultat
 
 Vous pouvez :
 - Protéger vos sources
@@ -111,14 +111,14 @@ Vous pouvez :
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône maillons de chaîne"/> Lié
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône maillons de chaîne"/> Lié
 
 - [Confidentialité - Bonnes pratiques](/privacy/best-practices)
 - [Envoyer de l’argent sans lier son identité](/use-cases/send-money-without-linking-identity)
 
  <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/68acdb6f311bff85fe8ded7b47b2e362d7712474/assets/icons/celebration-spark-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône de célébration"/> Achèvement
+## <img src="/content-images/celebration-spark-svgrepo-com-bc98dec7c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône de célébration"/> Achèvement
 
 **Étape 6 sur 6 — Terminé**
 

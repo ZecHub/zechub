@@ -14,15 +14,15 @@ Hivi sasa, kuna njia mbili za kuunda akaunti yako kwenye Free2Z:
 
 Kuunda akaunti au kuingia, tembelea https://free2z.cash/ na bonyeza kitufe cha 'CREATE'.
 
-[Fomu ya kuingia/kujiandikisha](https://i.ibb.co/6rz0YPM/image-2023-11-19-133101013.png)
+[Fomu ya kuingia/kujiandikisha](/content-images/image-2023-11-19-133101013-3ee51e3b6f.webp)
 
 fomu ya kuingia / kujisajili itaonekana kwenye kivinjari chako. Chagua jina lako la mtumiaji na nywila kali - hii itakuwa habari yako ya kuingia. Suluhisha captcha na bonyeza kitufe cha 'Ingiza' ili kuunda akaunti yako.
 
-[Username na password kuingia fomu](https://i.ibb.co/d47k50g/image-2023-11-19-133141052.png)
+[Username na password kuingia fomu](/content-images/image-2023-11-19-133141052-0387984be1.webp)
 
 Vinginevyo, unaweza kuunda akaunti ya Free2Z kwa kuunganisha akaunti yako ya Twitter. Kwa kufanya hivyo, bonyeza kwenye nembo ya Twitter karibu na 'Ingia na', na utaulizwa uunganishe akaunti yako za Twitter.
 
-[Chaguo la kuingia kwenye Twitter](https://i.ibb.co/kc6QN7Z/image-2023-11-19-133210103.png)
+[Chaguo la kuingia kwenye Twitter](/content-images/image-2023-11-19-133210103-f65246bbee.webp)
 
 Bofya **Authorize app** ili kuunganisha akaunti yako ya Twitter na Free2Z.
 
@@ -30,27 +30,27 @@ Bofya **Authorize app** ili kuunganisha akaunti yako ya Twitter na Free2Z.
 
 After your account is created, you will be redirected to your Free2Z profile page. If you created your account by connecting your Twitter, most of the fields will be automatically filled. If you created an account by entering a username and password, you should input your information here. You can use a pseudonym instead of your real name.
 
-[Default tupu kichwa cha profile](https://i.ibb.co/GxyHz1D/default-header.png)
+[Default tupu kichwa cha profile](/content-images/default-header-a11eb8328f.webp)
 
 Ni kabisa boring sasa hivi, hivyo hebu kufanya hivyo zaidi ya kuvutia kwa kuanzisha avatar na bendera. interface Free2Z hufanya hatua hii rahisi sana kwa kutumia kifungo upload (mkia juu kulia).
 
-[Avatar na bendera kupakia vifungo](https://i.ibb.co/5jsjfZV/avatar-and-banner.png)
+[Avatar na bendera kupakia vifungo](/content-images/avatar-and-banner-bd20d0bbfb.webp)
 
 Unaweza kuona matokeo juu ya ukurasa.
 
-[Profile ukurasa baada ya customization](https://i.ibb.co/7y542gp/resultatpage.png)
+[Profile ukurasa baada ya customization](/content-images/resultatpage-f4ddacb8b8.webp)
 
 Ah, bora zaidi! Kama una baadhi ya ujuzi wa kisanii, unaweza kufanya yako Free2Z profile ukurasa kuangalia ajabu! Andika maelezo mazuri kwa ajili ya ukurasa wako. Unaweza kuzungumza kuhusu wewe mwenyewe au kuelezea aina ya maudhui kwamba wengine wanaweza kutarajia kutoka kwenu. (Hatua: Tumia Markdown syntax kubinafsisha maelezo yako!)
 
-[Editing uwanja wa maelezo](https://i.ibb.co/cD1DFXw/edit-description.png)
+[Editing uwanja wa maelezo](/content-images/edit-description-b52afabec1.webp)
 
 Usisahau kutoa anwani yako ya Zcash iliyohifadhiwa, ili wafuasi waweze kuchangia moja kwa moja kwako!
 
-[Zcash ulinzi anwani uwanja](https://i.ibb.co/8zRYgFS/p2p-address.png)
+[Zcash ulinzi anwani uwanja](/content-images/p2p-address-b89f035bd9.webp)
 
 Hatua ya mwisho ya kukamilisha ukurasa wako kuanzisha ni kuweka 'Member Bei'. Hii ni bei katika 2Zs (Tuzies) kwamba watumiaji wengine kulipa kujiunga na ukurasa wako! (Zaidi juu ya 2ZS baadaye).
 
-[Mjumbe kuweka bei](https://i.ibb.co/VW9sYYz/member-price.png)
+[Mjumbe kuweka bei](/content-images/member-price-2dafd7e399.webp)
 
 Hatimaye, bonyeza kitufe cha 'Update Profile' kukamilisha profile yako ya kuanzisha!
 
@@ -65,35 +65,35 @@ Free2Z inaruhusu watumiaji kujiandikisha kwa wabunifu wao favorite na kupata hud
 
 Unaweza kuona mikopo yako 2Zs katika kichwa cha ukurasa wako profile.
 
-! [2Zs / Tuzies usawa katika kichwa](https://i.ibb.co/2dBPyPb/tuzis-balance.png)
+! [2Zs / Tuzies usawa katika kichwa](/content-images/tuzis-balance-9d6a9eff7f.webp)
 
 Unaweza kununua 2Zs zaidi na Zcash kwa kubonyeza juu ya 2ZS yako salio. Kiasi cha chini kwa ajili ya kununua ni 0.05 ZEC, na kiwango cha ubadilishaji wa sasa ni 0. 05 ZEC = 10 2Z.
 
-[Kununua 2Zs interface](https://i.ibb.co/MgZb9rg/buy-tuzies.png)
+[Kununua 2Zs interface](/content-images/buy-tuzies-e82c626047.webp)
 
 ## Kutoa Michango na Kujiandikisha
 
 Mara baada ya kupata muumbaji wewe kama, unaweza kuonyesha shukrani yako kwa kuchangia na kujiunga nao. michango yote kwenda moja kwa moja kwa mfuko wa muumbaji. Kama mfano, hebu kujiunga na [Free2Z mwenyewe ukurasa](https://free2z.cash/free2z).
 
-[Free2Z ukurasa rasmi](https://i.ibb.co/C2T6txY/free2z-page.png)
+[Free2Z ukurasa rasmi](/content-images/free2z-page-94c5fd5f4f.webp)
 
 Ili kujiunga na ukurasa, wote unahitaji kufanya ni bonyeza icon kujiunga kwenye kichwa cha ukurasa.
 
-[Subscribe kifungo juu ya muumba ukurasa](https://i.ibb.co/k5Hbdfr/subscribe-to-creator.png)
+[Subscribe kifungo juu ya muumba ukurasa](/content-images/subscribe-to-creator-76c306d924.webp)
 
 Utaona kiwango cha chini cha kujiandikisha. Angalia kama una tuzis kutosha na bonyeza kujiandikisha .
 
-[Kuthibitisha usajili popup](https://i.ibb.co/8j4p73J/confirm-subscribe.png)
+[Kuthibitisha usajili popup](/content-images/confirm-subscribe-7381923e36.webp)
 
 ### Toa kwa kutumia 2Zs au Zcash
 
 Unaweza kuchangia moja kwa moja kwenye ukurasa wao, kwa kubonyeza ikoni ya muundaji wa Mfuko.
 
-[Fund Muumba kifungo](https://i.ibb.co/xCz5X92/fund-creator.png)
+[Fund Muumba kifungo](/content-images/fund-creator-ac59aee7bf.webp)
 
 Au, kutoka ndani ya chapisho, tafuta kitufe cha kuongezea kinachoelea. Kutoka hapa, unaweza kuchangia kwa muundaji au kukuza post kwenye Free2Z.
 
-! [Kitufe action vifungo ndani ya post](https://i.ibb.co/Rzs7ST1/post-floating-buttons.png)
+! [Kitufe action vifungo ndani ya post](/content-images/post-floating-buttons-a1e2ef1102.webp)
 
 ## Kuishi Streaming
 
@@ -122,19 +122,19 @@ Ni rahisi sana kuanza mkondo wa moja kwa moja na Free2z Live. Lakini kuna mahita
 
 Kama muumbaji hukutana **wote** ya masharti ya juu, icon aitwaye **Go Live** itakuwa inapatikana kwao katika ukurasa wao profile.
 
-[Go Live kifungo](https://i.ibb.co/7RFywwK/go-live.png)
+[Go Live kifungo](/content-images/go-live-4c8ac67505.webp)
 
 To start a live stream, just click the **Go Live** button, and the Free2z app will ask for permission to use your microphone and webcam (if you have one). After you grant the necessary permissions, Free2z will ask you to enter a nickname that you want to use during the live stream. Once you have selected a nickname, click **Join** to start your live stream.
 
-[Chagua jina la utani kwa ajili ya mkondo wa kuishi](https://i.ibb.co/4VMbCrW/select-nickname.png)
+[Chagua jina la utani kwa ajili ya mkondo wa kuishi](/content-images/select-nickname-414444b992.webp)
 
 Na kufanyika! Wakati kuanza mkondo wa kuishi, profile yako itaonyesha icon kuonyesha kwamba wewe ni kuishi, hivyo wanachama wako wanaweza kujiunga na mkondo kuishi.
 
-[Kujiunga na livestream](https://i.ibb.co/qpBLcKr/join-livestream.png)
+[Kujiunga na livestream](/content-images/join-livestream-679334ba53.webp)
 
 Watu wanapojiunga na mkondo wa moja kwa moja, wanaweza kuzungumza, kuomba kujiunga na jukwaa, kuingiliana kwa kupiga kura katika uchaguzi, na zaidi.
 
-![Mfano wa Free2z Live kikao](https://i.ibb.co/r3XTY8M/free2z-live-example.png)
+![Mfano wa Free2z Live kikao](/content-images/free2z-live-example-eecb2ae553.webp)
 
 _(Mfano wa Free2z Live kikao)_
 
@@ -146,13 +146,13 @@ This wiki-doc is not intended to be an in-depth guide to Free2z or Free2z Live. 
 
 Chini kushoto kwenye skrini, tunaona vifungo vichache.
 
-[Chini ya kushoto udhibiti](https://i.ibb.co/XLQBDk1/free2z-live-left.png)
+[Chini ya kushoto udhibiti](/content-images/free2z-live-left-60b450b01c.webp)
 
 Kazi nzuri hapa ni uwezo wa kushiriki screen yako hivyo watumiaji wengine wanaweza kuona nini unafanya.
 
 Chini tunaweza kupata chaguzi kuishi mkondo.
 
-[Chini chombo bar](https://i.ibb.co/7JbmDXc/free2z-live-bottom.png)
+[Chini chombo bar](/content-images/free2z-live-bottom-ae64a6960c.webp)
 
 Baadhi ya chaguzi muhimu hapa ni: 
 - Mute / unmute kipaza sauti 
@@ -163,7 +163,7 @@ Baadhi ya chaguzi muhimu hapa ni:
 
 Ili kumaliza mkondo wa moja kwa moja, unapaswa kubofya kitufe cha 'Ondoka', na kisha bofya 'Kimaliza mkutano kwa wote' kumaliza mkutano wa washiriki wote.
 
-[Kushoto kulia mwingiliano jopo](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/free2z-live-right.png)
+[Kushoto kulia mwingiliano jopo](/content-images/free2z-live-right-c83cb6d209.webp)
 
 Vifungo chini kulia vyenye kazi zinazohusiana na mwingiliano wa mkondo wa kuishi, kama vile: 
 - **Chat**: Hii inaruhusu washiriki kuzungumza na kila mmoja na mwenyeji wakati wa mkondo wa moja kwa moja. 
@@ -171,7 +171,7 @@ Vifungo chini kulia vyenye kazi zinazohusiana na mwingiliano wa mkondo wa kuishi
 - **Orodha ya washiriki**: Hii inaonyesha orodha ya washiriki katika mkondo wa kuishi. 
 - ** Plugins **: Hii inaruhusu mwenyeji kuongeza Plug-ins na upanuzi ili kuboresha uzoefu wa mkondo wa moja kwa moja.
 
-[Plugins jopo](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/free2z-live-plugins.png)
+[Plugins jopo](/content-images/free2z-live-plugins-e9a30ee355.webp)
 
 Siyo kusudi la wiki-doc hii kuelezea Plugins zote, lakini mimi kweli moyo kujaribu kila mmoja, kama wote kutoa thamani kubwa mwingiliano kati ya waumbaji na watazamaji. Kuanzisha Plugin, bonyeza tu 'roketi' kifungo upande wa kulia.
 

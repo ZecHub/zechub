@@ -56,7 +56,7 @@ Werfen Sie einen Blick auf das [Github-Repo](https://github.com/red-dev-inc/zava
 Für weitere technische Details werden Nutzer dazu ermutigt, das Repository und die Dokumentation des RedBridge-Projekts zu prüfen, um die Integrationsspezifika, Test-Frameworks und Sicherheitsprotokolle zu [erkunden](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/).
 
 
-![img1](https://github.com/user-attachments/assets/b8c5d267-1711-458a-8a32-1df9d56fae8a)
+![img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)
 
 
 * Ergebnisse: 

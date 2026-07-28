@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="https://i.ibb.co/qYhRbJM/image-2024-02-03-174147713.png" alt="Alt Text" width="400"/> Zcash Community Links
+# <img src="/content-images/image-2024-02-03-174147713-63a42e536c.webp" alt="Alt Text" width="400"/> Zcash Community Links
 
 Zcash habɔbɔa nye amewo ƒe ƒuƒoƒo si me dzo le si le dɔ wɔm be yewoana ZEC nanye cryptocurrencies siwo wozãna wu siwo kpɔa ame ŋutɔ ƒe nyatakakawo ta la dometɔ ɖeka le xexeame. Nutoa me tɔwo nye ame vovovo siwo tso xexeame ƒe akpa vovovowo - xɔtulawo, nufialawo, taʋlilawo, kple xɔtulawo - siwo wɔ ɖeka to dzixɔse ɖeka si le ganyawo ƒe adzamenyawo ŋu me.
 
@@ -10,11 +10,11 @@ Zcash habɔbɔa nye amewo ƒe ƒuƒoƒo si me dzo le si le dɔ wɔm be yewoana Z
 
 ## Afisi nàte ŋu akpɔ nutoa me tɔwo le
 
-### <img src="https://i.ibb.co/qBrb4qK/image-2024-02-03-173937048.png" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Telegram</span>
+### <img src="/content-images/image-2024-02-03-173937048-148e401d5e.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Telegram</span>
 
 The Zcash community is very active in its community <span translate="no" class="notranslate">Telegram</span>. Join to talk about the day-to-day, discuss news and updates, and meet fellow community members: [t.me/Zcash_Community](https://t.me/Zcash_Community)
 
-### <img src="https://i.ibb.co/kxVwQxM/image-2024-02-03-174056252.png" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Discord</span>
+### <img src="/content-images/image-2024-02-03-174056252-8a6a76eabf.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Discord</span>
 
 - [Zcash Xexeame Katã ƒe](https://discord.gg/zcash) - Nutoa me ƒe dɔwɔƒe vevitɔ
 - [Zcash ƒe Numekuku Kple Dɔwɔnawo](https://discord.gg/xpzPR53xtU) - Protocol kple developer ƒe numedzodzrowo
@@ -34,7 +34,7 @@ The Zcash community is very active in its community <span translate="no" class="
 
 [Zcash Nutome Takpekpe](https://forum.zcashcommunity.com/) nye teƒe si wowɔa numedzodzro didiwo tso Zcash ŋu - dziɖuɖu, kpekpeɖeŋunana ƒe aɖaŋuɖoɖowo, mɔ̃ɖaŋu ŋuti nyaʋiʋli, kple lãwo ƒe agbenɔnɔ ŋuti gbeƒãɖeɖewo. Fifia xɔdzikpɔkpɔ trɔ yi Zcash Foundation gbɔ le ECC ƒe tɔtrɔ yi ZODL megbe.
 
-### <img src="https://i.ibb.co/mqKfr62/image-2024-02-03-174240928.png" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
+### <img src="/content-images/image-2024-02-03-174240928-7a8f751301.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
 
 Zcash le xexeame katã ƒe anyinɔnɔ vevie le X. Akɔntabubu vevi siwo akplɔe ɖo:
 

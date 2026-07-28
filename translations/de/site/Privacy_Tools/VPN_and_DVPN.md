@@ -11,12 +11,12 @@ Im digitalen Zeitalter ist die Wahrung von Online-Privatsphäre und Sicherheit v
 
 __Virtuelle Private Netzwerke (VPNs)__: Herkömmliche VPNs erstellen einen sicheren, verschlüsselten Tunnel zwischen Ihrem Gerät und einem vom VPN-Anbieter kontrollierten Remote-Server. Dieser Tunnel verbirgt Ihre Online-Aktivitäten vor neugierigen Blicken, etwa von Hackern, Internetanbietern oder Regierungsbehörden. VPNs werden häufig für Zwecke wie anonymes Surfen, den Zugriff auf geografisch eingeschränkte Inhalte und den Schutz vor Cyberbedrohungen verwendet.
 
-![bild223](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Privacy_Tools/assets/image-223.png)
+![bild223](/content-images/image-223-399e3015e7.webp)
 
 
 __Dezentrale VPNs (dVPNs)__: Im Gegensatz dazu nutzen dVPNs Blockchain- und Peer-to-Peer-Technologie, um ein dezentrales Netzwerk aus Knoten zu schaffen. Der Datenverkehr der Nutzer wird über diese Knoten geleitet, wodurch es für einzelne Akteure schwierig wird, das gesamte Netzwerk zu überwachen oder zu kontrollieren. dVPNs sind in der Regel widerstandsfähiger gegen Zensur, da es keine zentrale Instanz gibt, die das Netzwerk überwacht. Sie eignen sich gut für Nutzer, die mehr Privatsphäre und Sicherheit suchen.
 
-![dvpn](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Privacy_Tools/assets/dvpn.png)
+![dvpn](/content-images/dvpn-89698d4cb9.webp)
 
 
 # Sicherheitsaspekte bei der Auswahl eines VPN

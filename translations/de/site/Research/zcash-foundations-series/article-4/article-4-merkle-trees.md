@@ -1,7 +1,7 @@
 # Merkle-Bäume: Wie die Blockchain sich jede Note merkt
 ##### Originalforschung von [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![Alt-Text](image-19.png)
+![Alt-Text](/content-images/image-19-cfbdcf8f78.webp)
 
 ### Millionen von Commitments in einem winzigen Fingerabdruck zusammenfassen
 
@@ -34,7 +34,7 @@ Stell dir ein K.-o.-Turnier vor, aber statt dass Spieler weiterkommen, werden **
 - Fasse die Eltern paarweise zusammen, hashe jedes Paar gemeinsam und so weiter.
 - Mach weiter, bis ganz oben ein **einziger Fingerabdruck** sitzt. Dieser Sieger ist die **Merkle-Wurzel.**
 
-![Alt-Text](image-20.png)
+![Alt-Text](/content-images/image-20-f5d57e425a.webp)
 
 Die wichtigste Eigenschaft folgt direkt aus dem Avalanche-Effekt (Artikel 3):
 
@@ -77,7 +77,7 @@ step 2:  H(hAB , hCD)      = ROOT?     (kombiniere mit dem Onkel)
 
 Tatsächlich berechnet ergibt das `1b3faa3fcc5e...`, was **mit der Wurzel übereinstimmt.** Das Blatt ist damit nachweislich im Baum enthalten.
 
-![Alt-Text](image-21.png)
+![Alt-Text](/content-images/image-21-d9e5d6eaf6.webp)
 
 Zwei Dinge machen das mächtig:
 
@@ -99,7 +99,7 @@ Ein paar konkrete Details:
 - **Feste Tiefe.** Die abgeschirmten Bäume von Zcash haben Tiefe **32**, das heißt, sie können bis zu `2^(32)` (über vier Milliarden) Notes enthalten.
 - **ZK-freundliches Hashing.** Der Baum wird nicht mit SHA-256 aufgebaut. Sapling hasht den Baum mit **Pedersen-Hashes** und Orchard verwendet **Sinsemilla** (beides aus Artikel 3), genau damit der Zugehörigkeits-Aufstieg innerhalb einer Schaltung günstig zu beweisen ist.
 
-![Alt-Text](image-22.png)
+![Alt-Text](/content-images/image-22-518354b8d5.webp)
 
 ### Eine Sache, die der Baum *nicht* handhabt: Double-Spends
 

@@ -1,7 +1,7 @@
 # **Private SOL/USDC -> ZEC Swap Iji Encrypt.trade** 
 
 
-! [img1](https://hackmd.io/_uploads/Bkbg5alCll.jpg)
+! [img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
 *Ọnụ ụzọ gị na nzuzo, cross-chain swaps kwadoro site NEAR Intents.* 
@@ -12,7 +12,7 @@
 N'ụwa blockchain taa, nzuzo abụghị nhọrọ - ọ dị mkpa.](https://app.encifher.io/zec), ndị ọrụ nwere ike ịgbanwere ** SOL ma ọ bụ USDC ** na Solana n'ime ** Zcash (ZEC) ** mgbe ha na-edebe azụmahịa kpamkpam. Enweghị mgbanwe mgbanwe, enweghị ikpughe njirimara - dị mfe, swapping encrypted. 
 
 
-! [img2](https://hackmd.io/_uploads/ByQ2qpeRee.jpg)
+! [img2](/content-images/ByQ2qpeRee-67fce2814c.webp)
 
 ---
 
@@ -20,7 +20,7 @@ N'ụwa blockchain taa, nzuzo abụghị nhọrọ - ọ dị mkpa.](https://app
 Gaa na [encrypt.trade](https://app.encifher.io/zec) iji **Chrome ma ọ bụ Firefox**, ma jikọọ **Phantom**, **Solflare**, or **Slope** wallet. Gbaa mbọ hụ na obere akpa gị nwere **SOL** zuru ezu maka ụgwọ gas na akara ngosi ịchọrọ ịzụ ahịa. Ozugbo ejikọtara, ị dị njikere ịkwakọ akụ gị. 
 
 
-! [img3](https://hackmd.io/_uploads/SyVOs6lRxx.jpg)
+! [img3](/content-images/SyVOs6lRxx-cbd8193e84.webp)
 
 
 
@@ -28,7 +28,7 @@ Gaa na [encrypt.trade](https://app.encifher.io/zec) iji **Chrome ma ọ bụ Fir
 
 ---
 
-! [img4](https://hackmd.io/_uploads/Bkh_jTgCex.jpg)
+! [img4](/content-images/Bkh_jTgCex-2fc8428592.webp)
 
 
 ---
@@ -39,13 +39,13 @@ Navigate to the **Wrap** section. Choose **SOL** or **USDC**, enter the amount, 
 
 
 
-! [img5](https://hackmd.io/_uploads/S10J26xCxg.jpg)
+! [img5](/content-images/S10J26xCxg-6322a40b18.webp)
 
 ---
 
 
 
-! [img6](https://hackmd.io/_uploads/Sk0y3Te0gl.jpg)
+! [img6](/content-images/Sk0y3Te0gl-124792365a.webp)
 
 
 ---
@@ -54,7 +54,7 @@ Navigate to the **Wrap** section. Choose **SOL** or **USDC**, enter the amount, 
 Nbudata [Zashi]](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn), the official Zcash wallet by Electric Coin Co. Copy your **Unified Address** from the Receive tab - it supports both transparent and shielded ZEC. Save your seed phrase securely before proceeding.  
 
 
-! [img7](https://hackmd.io/_uploads/SykjhpgRll.jpg)
+! [img7](/content-images/SykjhpgRll-60d19f6979.webp)
 
 
 ---
@@ -64,19 +64,19 @@ Laghachi na **encrypt.trade**, gaa **Swap**. Họrọ **eSOL/eUSDC -> ZEC**, tin
 
 
 
-! [img8](https://hackmd.io/_uploads/SJkI6pl0ge.jpg)
+! [img8](/content-images/SJkI6pl0ge-9f93d8f34c.webp)
 
 ---
 
 
-! [img9](https://hackmd.io/_uploads/S1yoapgRle.jpg)
+! [img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
 Ngwunye ** NEAR Intents ** na-ejikwa usoro ntanetị - na-enyefe ** ZEC ** ozugbo na obere akpa Zashi gị n'ime sekọnd. 
 
 
 
-! [img10](https://hackmd.io/_uploads/S1h36Tg0xl.jpg)
+! [img10](/content-images/S1h36Tg0xl-2d7dd0a495.webp)
 
 ---
 

@@ -5,7 +5,7 @@
 # 在 IPFS 上发布网站
 
 <a href="">
-    <img src="https://blog.desdelinux.net/wp-content/uploads/2020/04/IPFS-.jpg" alt="" width="800" height="400"/>
+    <img src="/content-images/IPFS-40c2e22732.webp" alt="" width="800" height="400"/>
 </a>
 
 
@@ -52,7 +52,7 @@ IPFS 中的文件使用*内容寻址*来标识，这意味着每个文件都会�
 
 
 <a href="">
-    <img src="https://i.ibb.co/ZHW4zsY/ipfs-site-folder.png" alt="" width="400" height="200"/>
+    <img src="/content-images/ipfs-site-folder-2c96524d98.webp" alt="" width="400" height="200"/>
 </a>
 
 –
@@ -89,14 +89,14 @@ IPFS 中的文件使用*内容寻址*来标识，这意味着每个文件都会�
 
 
 <a href="">
-    <img src="https://dnslink.io/assets/dns-query.a0134a75.png" alt="" width="400" height="100"/>
+    <img src="/content-images/dns-query.a0134a75-9ef7817f80.webp" alt="" width="400" height="100"/>
 </a>
 
 
 在 IPFS 桌面应用程序中，打开你的网站文件夹的设置菜单，然后选择 Publish to IPNS。
 
 <a href="">
-    <img src="https://i.ibb.co/Ch25dKf/IPNS.png" alt="" width="400" height="200"/>
+    <img src="/content-images/IPNS-2fe62cc369.webp" alt="" width="400" height="200"/>
 </a>
 
 
@@ -112,7 +112,7 @@ IPFS 中的文件使用*内容寻址*来标识，这意味着每个文件都会�
 
 
 <a href="">
-    <img src="https://i.ibb.co/MgRxBHj/example.png" alt="" width="400" height="100"/>
+    <img src="/content-images/example-c2a9edb28b.webp" alt="" width="400" height="100"/>
 </a>
 
 

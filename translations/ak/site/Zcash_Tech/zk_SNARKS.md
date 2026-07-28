@@ -28,7 +28,7 @@ Wɔ kɔmputa ho nyansahu mu no asɛmfua a wɔde frɛ adanse a wotumi di ho adans
 
 
 <a href="">
-    <img width="853" height="396" alt="NPlanguage1" src="https://github.com/user-attachments/assets/d25345cf-e958-4ce2-b01d-f4e7f2db9551" alt="" width="600" height="400"/>
+    <img width="853" height="396" alt="NPlanguage1" src="/content-images/d25345cf-e958-4ce2-b01d-f4e7f2db9551-1ac56e56d7.webp" alt="" width="600" height="400"/>
 </a>
 
 
@@ -47,7 +47,7 @@ Nteaseɛ: Atoro nsɛm rennya adanseɛ biara (wɔ nsisi prover strategy nyinaa fa
 
 
 <a href="">
- <img width="855" height="399" alt="IPmodel1" src="https://github.com/user-attachments/assets/1542be12-d3fd-4934-8413-0d16f95b8d10" alt="" width="600" height="400"/>
+ <img width="855" height="399" alt="IPmodel1" src="/content-images/1542be12-d3fd-4934-8413-0d16f95b8d10-58bfcb4059.webp" alt="" width="600" height="400"/>
 </a>
 
 
@@ -86,7 +86,7 @@ Real View: Abakɔsɛm a ebetumi aba nyinaa a ɛfa nkitahodi a ɛda Prover & Veri
 Simulated View: Verifier no yɛ nkitahodi a ebetumi aba nyinaa a ɛda Prover & Verifier ntam no ho mfonini 
 
 <a href="">
-    <img width="850" height="397" alt="simulation1" src="https://github.com/user-attachments/assets/0e68649d-a231-44d8-a76a-25a307f68b9e"  alt="" width="600" height="400"/>
+    <img width="850" height="397" alt="simulation1" src="/content-images/0e68649d-a231-44d8-a76a-25a307f68b9e-ba1f0027cf.webp"  alt="" width="600" height="400"/>
 </a>
 
 Polynomial-time distinguisher bɔ mmɔden sɛ ɛbɛkyerɛ sɛ ebia wɔrehwɛ ankasa anaasɛ simulated view na ɛsrɛ nhwɛsode fi abien no nyinaa hɔ mpɛn pii.
@@ -117,7 +117,7 @@ nhwɛso: "3x2 + 8x + 17".
 
 
 <a href="">
-<img width="785" height="368" alt="circuit1" src="https://github.com/user-attachments/assets/be1de1d6-60d3-4fd1-b9a2-5094c65d696f" alt="" width="300" height="200"/>
+<img width="785" height="368" alt="circuit1" src="/content-images/be1de1d6-60d3-4fd1-b9a2-5094c65d696f-dbd3177247.webp" alt="" width="300" height="200"/>
 </a>
 
 Wɔ saa nhwɛso yi mu no, ɔbofo no pɛ sɛ ɔma nea ɔhwɛ so no gye di sɛ onim akontaabu amansin no ano aduru. 
@@ -143,7 +143,7 @@ Polynomial interactive oracle: Verifier bisa prover (algorithm) sɛ ɔmmue bɔhy
 Setup akwan boa verifier no denam circuit bi a wɔboaboa ano & outputting public parameters so. 
 
 <a href="">
-<img width="845" height="398" alt="setup1" src="https://github.com/user-attachments/assets/c41212ca-b5e9-4ac8-8695-be612c45a679" alt="" width="600" height="300"/>
+<img width="845" height="398" alt="setup1" src="/content-images/c41212ca-b5e9-4ac8-8695-be612c45a679-80a6a87752.webp" alt="" width="600" height="300"/>
 </a>
 
 **Nhyehyɛe ahorow a wɔde di kan yɛ adwuma**:
@@ -186,7 +186,7 @@ zk-SNARKS ma mfasoɔ ahodoɔ bi wɔ dwumadie ahodoɔ mu. Ma yɛnhwɛ nhwɛso aho
 Mfasoɔ a ɛwɔ adanseɛ a egyina Rollup (zk-Rollup) dwumadie so ne sɛ ɛbɛdi batch a ɛyɛ ɔhaha/mpempem pii ho dwuma & L1 no tumi di adanseɛ tiawa bi a ɛkyerɛ sɛ wɔdii nnwuma nyinaa ho dwuma yie, scaling networks transaction throughput by a factor of 100 or 1000.
 
 <a href="">
-  <img width="606" height="336" alt="zkvm1" src="https://github.com/user-attachments/assets/a3cbb5c9-8767-4b34-9fcb-868ca421838f" width="600" height="300"/>
+  <img width="606" height="336" alt="zkvm1" src="/content-images/a3cbb5c9-8767-4b34-9fcb-868ca421838f-d69b264b5b.webp" width="600" height="300"/>
 </a>
 
 

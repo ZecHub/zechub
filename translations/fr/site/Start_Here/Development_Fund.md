@@ -17,7 +17,7 @@ Les producteurs de blocs (aussi appelés mineurs) ont pour rôle de valider les 
 Dans Bitcoin et d’autres cryptomonnaies, l’ensemble des récompenses de bloc revient aux producteurs de blocs. Zcash est unique dans le sens où 20 % de la récompense de bloc est transférée au [fonds de développement de Zcash](https://zips.z.cash/zip-1014). Ce fonds finance les équipes qui travaillent sur le protocole Zcash.
 
 Actuellement, [Zcash Community Grants](https://zcashcommunitygrants.org/) reçoit 8 % des récompenses de bloc, Electric Coin Co. reçoit 7 %, et la Zcash Foundation reçoit 5 %. Cela correspond respectivement à 40 %, 35 % et 25 % du fonds de développement.
-![Bénéficiaires du fonds de développement ](https://user-images.githubusercontent.com/43553081/212411570-4858a3d6-f7a1-465a-bf0c-d2ef726d41dc.jpeg)
+![Bénéficiaires du fonds de développement ](/content-images/212411570-4858a3d6-f7a1-465a-bf0c-d2ef72-1efe3a104e.webp)
 
 En 2020, la communauté Zcash a voté sur le fonds de développement et les équipes qu’il soutenait. En 2024, la communauté votera de nouveau afin de déterminer qui recevra un financement du fonds de développement.
 
@@ -30,11 +30,11 @@ Le coffre-fort hybride différé du fonds de développement est le mécanisme de
 
 La décision de mettre en place le coffre-fort du fonds de développement de 20 % a été prise à l’issue d’un processus complet piloté par la communauté. Celui-ci comprenait deux séries de sondages du Zcash Community Advisory Panel (ZCAP), ainsi que plusieurs sondages à l’échelle de l’écosystème. Ces sondages ont permis à un large éventail de parties prenantes d’exprimer leurs opinions et de contribuer au processus de prise de décision.
 
-![](https://global.discourse-cdn.com/zcash/original/3X/f/d/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd.png)
+![](/content-images/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd-8f378b3e3d.webp)
 
 Comme le coffre-fort du fonds de développement est différé (ce qui signifie que les fonds seront débloqués via une mise à niveau du réseau à une date ultérieure), la communauté Zcash décidera bientôt d’un mécanisme de distribution des fonds. L’une des options proposées est le mécanisme de gouvernance décentralisée « Zbloc ». 
 
-![Nouvelle forme potentielle de gouvernance décentralisée](https://global.discourse-cdn.com/zcash/original/3X/9/9/99588d6f43a3143cb3616e8a89df5125e855ba39.png)
+![Nouvelle forme potentielle de gouvernance décentralisée](/content-images/99588d6f43a3143cb3616e8a89df5125e855ba39-5688d8901f.webp)
 
 ## Ressources
 

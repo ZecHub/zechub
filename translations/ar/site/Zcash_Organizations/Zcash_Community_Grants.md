@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="تعديل الصفحة"/>
 </a>
 
-# <img src="https://i.ibb.co/bjYy15Yb/ZCG-Circle-Logo-10.png" alt="نص بديل" width="50"/>  منح مجتمع Zcash
+# <img src="/content-images/ZCG-Circle-Logo-10-f41b8229ca.webp" alt="نص بديل" width="50"/>  منح مجتمع Zcash
 
 ## بيان المهمة
 

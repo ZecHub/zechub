@@ -1,7 +1,7 @@
 # Bí Àdánwò Zcash tí a Ṣójútó Ṣe Ń Ṣiṣẹ Lóòótọ́
 ##### Ìwádìí Àkọ́kọ́ láti [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![ì í ì °ë¦¬í ë ¤]](image.png)
+![ì í ì °ë¦¬í ë ¤]](/content-images/image-fedc371488.webp)
 
 ### Ìmọ̀lára ṣáájú ìṣirò: àbá tí kò ní ìlànà nínú ìsanwó àdáni
 
@@ -46,7 +46,7 @@ Owó pàápàá lè kọjá ààlà láàárín wọn: fífi owó * sínú* ayé
 
 The transparent world is "Bitcoin you already roughly understand." It's the **shielded world** that contains all the beautiful cryptography, and that's the only world this series cares about.
 
-![ì í ì °ë¦¬í ë ¤]](image-1.png)
+![ì í ì °ë¦¬í ë ¤]](/content-images/image-1-f821d24c6f.webp)
 
 ---
 
@@ -124,7 +124,7 @@ The miracle is that the proof reveals **none** of those facts. Not the amount, n
 
 A note is *born*, it *lives* on the board, and eventually it *dies*, and crucially, its birth and its death look unrelated to anyone watching.
 
-![ì í ì °ë¦¬í ë ¤]](image-2.png)
+![ì í ì °ë¦¬í ë ¤]](/content-images/image-2-0eca0ea4f7.webp)
 
 ---
 
@@ -132,7 +132,7 @@ A note is *born*, it *lives* on the board, and eventually it *dies*, and crucial
 
 Ẹ jẹ́ ká wo bí Alice ṣe ń sanwó fún Bob, tí gbogbo ìgbésẹ̀ tó bá gbé ní gbangba àti ní ìkọ̀kọ̀ á sì wà lákọsílẹ̀.
 
-![ì í ì °ë¦¬í ë ¤]](image-4.png)
+![ì í ì °ë¦¬í ë ¤]](/content-images/image-4-7af0dfe795.webp)
 
 Kíyèsí àìṣedéédé tí ó mú kí ìpamọ́ ṣiṣẹ́:
 
@@ -187,7 +187,7 @@ This is a **mental model**, not the spec. To keep it newcomer-friendly we've qui
 
 Gbogbo "a ó padà wá sí èyí" lókè yìí jẹ́ ìjápọ̀ kan.
 
-![ì í ì °ë¦¬í ë ¤]](image-29.png)
+![ì í ì °ë¦¬í ë ¤]](/content-images/image-29-27ef4636ff.webp)
 
  Ìparí ọ̀rò̀ yìí. Níbi tí ó ti yanjú.
 |---|---|

@@ -34,7 +34,7 @@ Zcash가 발전함에 따라, 기존 자금과의 호환성을 유지하면서 �
 
 <br/>
 
-![img1](https://github.com/user-attachments/assets/4ba8cca2-cea5-42d2-8ec2-2122b26f5144)
+![img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
 그림 1: 2025년 10월 기준 현재 4개 풀을 보여주는 차트
 
 <br/>
@@ -45,7 +45,7 @@ Zcash가 발전함에 따라, 기존 자금과의 호환성을 유지하면서 �
 1. <h3 id="orchard" class="text-3xl font-bold my-4">Orchard 풀</h3>
 
 
-![img2](https://github.com/user-attachments/assets/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72)
+![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
 그림 2: 2025년 10월 기준 Orchard 풀을 보여주는 차트
 
 <br/>
@@ -63,7 +63,7 @@ ____
 2. <h3 id="sapling" class="text-3xl font-bold my-4">Sapling 풀</h3>
 
 
-![img3](https://github.com/user-attachments/assets/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae)
+![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
 그림 3: 2025년 10월 기준 Sapling 풀을 보여주는 차트
 
 <br/>
@@ -83,7 +83,7 @@ ____
 3. <h3 id="sprout" class="text-3xl font-bold my-4">Sprout 풀</h3>
 
 
-![img4](https://github.com/user-attachments/assets/956eceed-f4d6-4087-99d0-32a770449dda)
+![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
 그림 4: 2025년 10월 기준 Sprout 풀을 보여주는 차트
 
 Sprout는 지금까지 출시된 최초의 개방형 무허가 Zero Knowledge 프라이버시 프로토콜이었습니다. 2016년 10월 28일에 출시되었습니다.
@@ -98,7 +98,7 @@ Sprout는 [Zcash slow start Mining](https://electriccoin.co/blog/slow-start-and-
 4. <h3 id="transparent" class="text-3xl font-bold my-4">Transparent 풀</h3>
 <br/>
 
-![img5](https://github.com/user-attachments/assets/01de2907-b62d-4421-83d7-ea4908faa828)
+![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
 그림 5: 2025년 10월 기준 Transparent 풀을 보여주는 차트
 
 <br/>

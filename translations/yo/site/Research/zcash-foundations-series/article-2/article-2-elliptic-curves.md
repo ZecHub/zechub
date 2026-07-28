@@ -1,7 +1,7 @@
 # Awọn Ikun Elliptic: Ibi ti Awọn bọtini ati Awọn adehun Zcash ti bi
 ##### Ìwádìí Àkọ́kọ́ láti [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![ì í ì °ë¦¬í ë ¤]](image-10.png)
+![ì í ì °ë¦¬í ë ¤]](/content-images/image-10-c1097b22d7.webp)
 
 ### Òpópónà tí ọ̀nà rẹ̀ kan ṣoṣo ni wọ́n fi àwọn ibi tó wà lórí ìlà kan ṣe
 
@@ -38,7 +38,7 @@ y^2 = x^3 + ax + b
 
 Over ordinary numbers it looks like a smooth, swooping curve, often with a rounded loop and two tails:
 
-![ì í ì °ë¦¬í ë ¤]](image-14.png)
+![ì í ì °ë¦¬í ë ¤]](/content-images/image-14-1d2e8c25d2.webp)
 
 The genuinely surprising part: **you can "add" two points on this curve to get a third point on the same curve.** This isn't ordinary addition of coordinates. It's a geometric rule, and it's easier to *see* than to say.
 
@@ -50,7 +50,7 @@ Láti fi kún `P + Q`:
 2. Àlàfo yìí bá àlàfo náà pàdé ní ibi kan pàtó. `R*`.
 3. **Rò ó wò `R*` ní ààlà ojú òpó.** Ìrònú yẹn ni ìdáhùn, `P + Q`.
 
-![ì í ì °ë¦¬í ë ¤]](image-11.png)
+![ì í ì °ë¦¬í ë ¤]](/content-images/image-11-61f3df1989.webp)
 
 ### Òfin tó ń jẹ́ tangent (tó ń fi nǹkan kan kún ara rẹ̀)
 
@@ -117,7 +117,7 @@ A ti fún wa ní ẹ̀dà tí ó yí padà. `G` àti `kG`, gba ara rẹ padà `k
 
 Ti asymmetry ni awọn ** ọkan-ọna street ** ti a nilo ni Section 1. `k` produced this point?") ni a npe ni **Elliptic Curve Discrete Logarithm Problem (ECDLP) **, ati lori awọn iyipo Zcash lo, ko si ọna ti a mọ ti o yanju rẹ ṣaaju iku ooru ti agbaye.
 
-![ì í ì °ë¦¬í ë ¤]](image-12.png)
+![ì í ì °ë¦¬í ë ¤]](/content-images/image-12-86b9ace6cb.webp)
 
 > Nínú ohun ìṣeré wa `F_17` ìkúrú o * le * nìkan ka `k` O ni 19 ojuami. `2^(255)` points. The table would have more rows than there are atoms in the universe, so "reading it off" is not an option. The smallness is what makes the toy curve teachable and also why it isn't secure.
 
@@ -160,7 +160,7 @@ Ohun-ini ajeseku kan ti di ohun ti ko ni idiyele nigbamii: awọn adehun wọnyi
 
 The reasons one curve gets "embedded" inside another's field, and why a *cycle* of two curves is useful, are real and important, but they belong to the proof-system articles. For now the takeaway is solid: **every Zcash key is a scalar times a generator, and every Zcash commitment is a sum of curve points**, living on one of these named curves.
 
-![ì í ì °ë¦¬í ë ¤]](image-13.png)
+![ì í ì °ë¦¬í ë ¤]](/content-images/image-13-ffdd703c60.webp)
 
 ---
 

@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/amochuko/zechub/68acdb6f311bff85fe8ded7b47b2e362d7712474/assets/icons/shopping-cart-free-15-svgrepo-com.svg" width="24" height="24" alt="Finanzsymbol"/> Zahlungen als Händler mit Zcash akzeptieren
+# <img src="/content-images/shopping-cart-free-15-svgrepo-com-991c5b52e9.svg" width="24" height="24" alt="Finanzsymbol"/> Zahlungen als Händler mit Zcash akzeptieren
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
@@ -14,7 +14,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Benutzersymbol"/> Für wen ist das?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Benutzersymbol"/> Für wen ist das?
 
 - Online-Händler
 - Dienstleister
@@ -23,7 +23,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Warnsymbol"/> Das Problem
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Warnsymbol"/> Das Problem
 
 Traditionelle Krypto-Zahlungen legen Folgendes offen:
 - Kaufverhalten von Kunden
@@ -37,7 +37,7 @@ Das führt zu:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Werkzeugsymbol"/> Warum Zcash?
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Werkzeugsymbol"/> Warum Zcash?
 
 Zcash ermöglicht:
 - Private Kundenzahlungen
@@ -47,7 +47,7 @@ Zcash ermöglicht:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Werkzeugsymbol"/> Was Sie benötigen
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Werkzeugsymbol"/> Was Sie benötigen
 
 - Eine Zcash-Wallet, die Shielded-Transaktionen unterstützt
 - Einen einfachen Zahlungsablauf (manuell oder integriert)
@@ -56,7 +56,7 @@ Zcash ermöglicht:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Schrittsymbol"/> Schritt-für-Schritt-Anleitung
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Schrittsymbol"/> Schritt-für-Schritt-Anleitung
 
 ### Schritt 1: Eine Zahlungsadresse einrichten
 
@@ -97,7 +97,7 @@ Beispiel:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Abbrechen-Symbol"/> Häufige Fehler, die vermieden werden sollten
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Abbrechen-Symbol"/> Häufige Fehler, die vermieden werden sollten
 
 - Transparente Adressen für Zahlungen verwenden  
 - Transaktionsnachweise öffentlich veröffentlichen  
@@ -107,7 +107,7 @@ Beispiel:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="Erledigt-Symbol"/> Ergebnis
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="Erledigt-Symbol"/> Ergebnis
 
 Sie können:
 - Zahlungen privat akzeptieren
@@ -117,7 +117,7 @@ Sie können:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Kettenglieder-Symbol"/> Verwandt
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Kettenglieder-Symbol"/> Verwandt
 
 
 - [Wallets](/wallets)
@@ -125,7 +125,7 @@ Sie können:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/progress-arrows-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Fortschrittssymbol"/> Fortschritt
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Fortschrittssymbol"/> Fortschritt
 
 **Schritt 4 von 6**
 

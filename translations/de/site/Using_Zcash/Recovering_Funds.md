@@ -28,7 +28,7 @@ YWallet gilt als eine der besten Optionen zur Wiederherstellung unzugänglicher 
 
 4. Klicken Sie oben rechts auf das Pluszeichen 
 
-![Schaltfläche mit Pluszeichen](https://i.postimg.cc/xJbVz7gB/plus.png)
+![Schaltfläche mit Pluszeichen](/content-images/plus-3ca2c1649a.webp)
 
 5. Aktivieren Sie 'Restore an account' 
 
@@ -46,7 +46,7 @@ YWallet gilt als eine der besten Optionen zur Wiederherstellung unzugänglicher 
 
 4. Geben Sie Ihre Seed Phrase ein (Gap limit durchsucht zusätzliche durch die Seed generierte Adressen)
 
-![Sweep-Funds-Bildschirm](https://i.postimg.cc/3055CBcN/sweep.png)
+![Sweep-Funds-Bildschirm](/content-images/sweep-6c956553a9.webp)
 
 5. Geben Sie den Value Pool für das Ziel ein, das Sie verwenden möchten (Börsen verwenden Transparent)
 

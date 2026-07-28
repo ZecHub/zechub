@@ -1,7 +1,7 @@
 # Merkle Nnua: Sɛnea Blockchain Kae Biribiara a Wɔahyɛ no nsow
 ##### Mfitiase Nhwehwɛmu a efi [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt nkyerɛwee](image-19.png)
+![alt nkyerɛwee](/content-images/image-19-cfbdcf8f78.webp)
 
 ### Bɔhyɛ ɔpepem pii a yɛbɛbɔ no mua wɔ nsateaa ketewaa biako mu
 
@@ -34,7 +34,7 @@ Fa w’adwene bu knockout tournament bracket, nanso sɛ́ anka agodifo bɛkɔ w�
 - Fa awofo no bom, hash baanu biara bom, ne nea ɛkeka ho.
 - Kɔ so kɔsi sɛ **nsateaa baako** bɛtena soro. Saa champion no ne **Merkle ntini.**
 
-![alt nkyerɛwee](image-20.png)
+![alt nkyerɛwee](/content-images/image-20-f5d57e425a.webp)
 
 Agyapadeɛ baako a ɛho hia paa no di akyi tẽẽ firi avalanche effect no mu (Ahyɛdeɛ 3):
 
@@ -77,7 +77,7 @@ step 2:  H(hAB , hCD)      = ROOT?     (combine with the uncle)
 
 Wɔabu akontaa ankasa: eyi ma aba `1b3faa3fcc5e...`, a **ne ntini no hyia.** Wɔada no adi sɛ ahaban no wɔ dua no mu.
 
-![alt nkyerɛwee](image-21.png)
+![alt nkyerɛwee](/content-images/image-21-d9e5d6eaf6.webp)
 
 Nneɛma abien na ɛma eyi yɛ nea tumi wom:
 
@@ -99,7 +99,7 @@ Nsɛm pɔtee kakraa bi a ɛyɛ nokware:
 - **Fixed depth.** Zcash nnua a wɔabɔ ho ban no wɔ bun **32**, a ɛkyerɛ sɛ wobetumi akura mu akodu `2^(32)` (bɛboro ɔpepepem anan) nkrataa.
 - **ZK-adamfofa hashing.** Wɔmfa SHA-256 nsi dua no. Sapling de **Pedersen hashes** hashes dua no na Orchard de **Sinsemilla** (abien no nyinaa fi Ahyɛde 3) di dwuma, pɛpɛɛpɛ sɛnea ɛbɛyɛ a asɔremma foro no bo yɛ mmerɛw sɛ wɔbɛda no adi wɔ ɔmansin bi mu.
 
-![alt nkyerɛwee](image-22.png)
+![alt nkyerɛwee](/content-images/image-22-518354b8d5.webp)
 
 ### Adeɛ baako a dua no *nni* ho dwuma: ɛbɔ ka mmɔho mmienu
 

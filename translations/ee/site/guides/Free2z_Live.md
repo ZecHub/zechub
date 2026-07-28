@@ -14,15 +14,15 @@ Fifia la, mɔ eve li siwo dzi nàto awɔ wò akɔnta le Free2Z:
 
 Ne èdi be yeawɔ akɔnta alo age ɖe eme la, yi https://free2z.cash/ eye nàzi ‘CREATE’ ƒe dzesi dzi.
 
-![Ge ɖe eme/de asi agbalẽ te ƒe agbalẽvi](https://i.ibb.co/6rz0YPM/image-2023-11-19-133101013.png)
+![Ge ɖe eme/de asi agbalẽ te ƒe agbalẽvi](/content-images/image-2023-11-19-133101013-3ee51e3b6f.webp)
 
 Agbalẽvi si woatsɔ age ɖe eme/de asi ete la adze le wò web-browser la me. Tia wò zãŋkɔ kple nyagbe sesẽ - esia anye wò gegeɖe nyatakaka. Kpɔ captcha la gbɔ eye nàzi 'Enter' ƒe dzesi dzi be nàwɔ wò akɔnta.
 
-![Zazãla ƒe ŋkɔ kple nyagbe ɣaɣla ŋɔŋlɔ ƒe agbalẽvi](https://i.ibb.co/d47k50g/image-2023-11-19-133141052.png)
+![Zazãla ƒe ŋkɔ kple nyagbe ɣaɣla ŋɔŋlɔ ƒe agbalẽvi](/content-images/image-2023-11-19-133141052-0387984be1.webp)
 
 Alo àte ŋu awɔ Free2Z akɔnta to wò Twitter akɔnta ƒe kadodo me. Be nàwɔ esia la, zi Twitter ƒe dzesi si le ‘Login With’ xa dzi, eye woabia tso asiwò be nàtsɔ wò Twitter akɔnta aƒo ƒui.
 
-![Twitter ƒe gege ɖe eme ƒe tiatia](https://i.ibb.co/kc6QN7Z/image-2023-11-19-133210103.png)
+![Twitter ƒe gege ɖe eme ƒe tiatia](/content-images/image-2023-11-19-133210103-f65246bbee.webp)
 
 Zi **Authorize app** dzi be nàtsɔ wò Twitter akɔnta aƒo ka na Free2Z.
 
@@ -30,27 +30,27 @@ Zi **Authorize app** dzi be nàtsɔ wò Twitter akɔnta aƒo ka na Free2Z.
 
 Ne wowɔ wò akɔnta vɔ la, woatrɔ wò ayi wò Free2Z ƒe nɔnɔmetata ƒe axa dzi. Ne èwɔ wò akɔnta to wò Twitter ƒe kadodo me la, woayɔ agbleawo ƒe akpa gãtɔ le wo ɖokui si. Ne èwɔ akɔnta to zãla ƒe ŋkɔ kple nyagbe ɣaɣla ŋɔŋlɔ me la, ele be nàŋlɔ wò nyatakakawo ɖe afisia. Àte ŋu azã ŋkɔ bubu ɖe wò ŋkɔ ŋutɔŋutɔ teƒe.
 
-![Nyatakaka ƒuƒlu ƒe tanya si woɖo ɖi](https://i.ibb.co/GxyHz1D/default-header.png)
+![Nyatakaka ƒuƒlu ƒe tanya si woɖo ɖi](/content-images/default-header-a11eb8328f.webp)
 
 Etea ɖeɖi ame ŋu ŋutɔ fifia, eyata mina míana wòado dzidzɔ na ame wu to avatar kple aflaga ɖoɖo me. Free2Z ƒe ŋgɔdonya na afɔɖeɖe sia le bɔbɔe ŋutɔ to upload ƒe dzesi (aŋutsrɔe si le dzi le ɖusime) zazã me.
 
-![Avatar kple banner upload ƒe dzesiwo](https://i.ibb.co/5jsjfZV/avatar-and-banner.png)
+![Avatar kple banner upload ƒe dzesiwo](/content-images/avatar-and-banner-bd20d0bbfb.webp)
 
 Àte ŋu akpɔ emetsonua le axaa tame.
 
-![Profile ƒe axa le tɔtrɔwɔwɔ megbe](https://i.ibb.co/7y542gp/resultatpage.png)
+![Profile ƒe axa le tɔtrɔwɔwɔ megbe](/content-images/resultatpage-f4ddacb8b8.webp)
 
 Ah, enyo wu sã! Ne aɖaŋudɔ aɖewo le asiwò la, àte ŋu ana wò Free2Z ƒe nɔnɔmetata ƒe axa nawɔ nuku ŋutɔ! Ŋlɔ numeɖeɖe nyui aɖe na wò axa. Àte ŋu aƒo nu tso ɖokuiwò ŋu alo aɖɔ nyatakaka siwo ƒomevi ame bubuwo ate ŋu akpɔ mɔ na tso gbɔwò. (Aɖaŋuɖoɖo: Zã markdown syntax nàtsɔ atrɔ asi le wò numeɖeɖea ŋu wòasɔ na wò!)
 
-![Trɔ asi le numeɖeɖe ƒe akpaa ŋu](https://i.ibb.co/cD1DFXw/edit-description.png)
+![Trɔ asi le numeɖeɖe ƒe akpaa ŋu](/content-images/edit-description-b52afabec1.webp)
 
 Mègaŋlɔ be be yeatsɔ yeƒe Zcash ƒe adrɛs si wokpɔ ta na o, ale be kpeɖeŋutɔwo nate ŋu adzɔ nu na wò tẽ!
 
-![Zcash si wokpɔ ta na adrɛs ƒe agble](https://i.ibb.co/8zRYgFS/p2p-address.png)
+![Zcash si wokpɔ ta na adrɛs ƒe agble](/content-images/p2p-address-b89f035bd9.webp)
 
 Afɔɖeɖe mamlɛtɔ si nàwɔ atsɔ awu wò axa ƒe ɖoɖowɔwɔ nu enye be nàɖo ‘Hamea me tɔ ƒe Asi’. Esia nye asi si le 2Zs (Tuzies) me si zãla bubuwo axe be woawɔ nudɔdɔ na wò axa! (Nu geɖe tso 2Zs ŋu emegbe).
 
-![Hamea me tɔ ƒe asiɖoɖo](https://i.ibb.co/VW9sYYz/member-price.png)
+![Hamea me tɔ ƒe asiɖoɖo](/content-images/member-price-2dafd7e399.webp)
 
 Mlɔeba la, zi ‘Update Profile’ ƒe dzesi dzi be nàwu wò profile ɖoɖo nu!
 
@@ -65,35 +65,35 @@ Free2Z ɖea mɔ na ezãlawo be woawɔ nudɔdɔ na woƒe nuwɔwɔ siwo wolɔ̃na 
 
 Àte ŋu akpɔ wò 2Zs credits le wò profile page ƒe tanya me.
 
-![2Zs / Tuzies dadasɔ le ta me](https://i.ibb.co/2dBPyPb/tuzis-balance.png)
+![2Zs / Tuzies dadasɔ le ta me](/content-images/tuzis-balance-9d6a9eff7f.webp)
 
 Àte ŋu aƒle 2Z bubuwo kple Zcash ne èzi wò 2Zs ƒe ga si susɔ dzi. Ga home suetɔ kekeake si woatsɔ aƒlee nye 0.05 ZEC, eye fifia ƒe tɔtrɔ ƒe agbɔsɔsɔme nye 0.05 ZEC = 10 2Zs.
 
-![Ƒle 2Zs ƒe ŋgɔdonya](https://i.ibb.co/MgZb9rg/buy-tuzies.png)
+![Ƒle 2Zs ƒe ŋgɔdonya](/content-images/buy-tuzies-e82c626047.webp)
 
 ## Nudzɔdzɔ kple nudɔdɔ
 
 Ne ènya ke ɖe nuwɔwɔ aɖe si nèlɔ̃ ŋu ko la, àte ŋu aɖe wò ŋudzedzekpɔkpɔ afia to nudzɔdzɔ kple nudɔdɔ na wo me. Nudzɔdzɔwo katã yia wɔla la ƒe gakotoku me tẽ. Abe kpɔɖeŋu ene la, mina míawɔ nudɔdɔ ɖe [Free2Z ŋutɔ ƒe axa dzi](https://free2z.cash/free2z).
 
-![Free2Z ƒe axa si dziɖuɖua da asi ɖo](https://i.ibb.co/C2T6txY/free2z-page.png)
+![Free2Z ƒe axa si dziɖuɖua da asi ɖo](/content-images/free2z-page-94c5fd5f4f.webp)
 
 Be nàwɔ nudɔdɔ na axa aɖe la, nusi nàwɔ koe nye be nàzi nudɔdɔ ƒe dzesi si le axaa ƒe tanya dzi.
 
-![Subscribe button le wɔla ƒe axa dzi](https://i.ibb.co/k5Hbdfr/subscribe-to-creator.png)
+![Subscribe button le wɔla ƒe axa dzi](/content-images/subscribe-to-creator-76c306d924.webp)
 
 Àkpɔ ga home suetɔ kekeake si woatsɔ awɔ nudɔdɔ. Kpɔe ɖa be tuzis sɔ gbɔ na wò eye nàzi subscribe dzi.
 
-![Ðo kpe nudɔdɔ ƒe popup dzi](https://i.ibb.co/8j4p73J/confirm-subscribe.png)
+![Ðo kpe nudɔdɔ ƒe popup dzi](/content-images/confirm-subscribe-7381923e36.webp)
 
 ### Na nudzɔdzɔ to 2Zs alo Zcash zazã me
 
 Àte ŋu adzɔ nu tẽ le woƒe axa dzi, ne èzi Fund creator ƒe dzesi dzi.
 
-![Ga wɔla ƒe dzesi](https://i.ibb.co/xCz5X92/fund-creator.png)
+![Ga wɔla ƒe dzesi](/content-images/fund-creator-ac59aee7bf.webp)
 
 Alo, tso post aɖe me la, di floating plus ƒe dzesi. Tso afisia la, àte ŋu adzɔ nu na ewɔla alo ado nya si woŋlɔ ɖe Free2Z dzi ɖe ŋgɔ.
 
-![Afɔɖeɖe ƒe abɔta siwo le tsia dzi le nyatakaka aɖe me](https://i.ibb.co/Rzs7ST1/post-floating-buttons.png)
+![Afɔɖeɖe ƒe abɔta siwo le tsia dzi le nyatakaka aɖe me](/content-images/post-floating-buttons-a1e2ef1102.webp)
 
 ## Live Streaming
 
@@ -122,19 +122,19 @@ Ele bɔbɔe ŋutɔ be nàdze live stream gɔme kple Free2z Live. Gake nudidi ʋ�
 
 Ne nuwɔla la ɖo nɔnɔme siwo le etame **evea** gbɔ la, dzesi aɖe si ŋkɔe nye **Go Live** anɔ wo si le woƒe nɔnɔmetata ƒe axa dzi.
 
-![Yi Live ƒe dzesi](https://i.ibb.co/7RFywwK/go-live.png)
+![Yi Live ƒe dzesi](/content-images/go-live-4c8ac67505.webp)
 
 Be nàdze live stream gɔme la, zi **Go Live** ƒe dzesi dzi ko, eye Free2z dɔwɔnua abia mɔɖeɖe be yeazã wò nuƒomɔ̃ kple webcam (ne ɖe le asiwò). Ne èna mɔɖeɖe siwo hiã vɔ la, Free2z abia tso asiwò be nàŋlɔ megbeŋkɔ si nèdi be yeazã le live stream la me. Ne ènya tia megbeŋkɔ ko la, zi **Join** dzi be nàdze wò live stream gɔme.
 
-![Tia megbeŋkɔ na live stream](https://i.ibb.co/4VMbCrW/select-nickname.png)
+![Tia megbeŋkɔ na live stream](/content-images/select-nickname-414444b992.webp)
 
 Eye wòwu enu! Ne èdze live stream gɔme la, wò profile aɖe dzesi aɖe afia si afia be èle live stream la, ale be wò subscribers nate ŋu awɔ ɖeka kple live stream la.
 
-![Ele gegem ɖe livestream aɖe me](https://i.ibb.co/qpBLcKr/join-livestream.png)
+![Ele gegem ɖe livestream aɖe me](/content-images/join-livestream-679334ba53.webp)
 
 Ne amewo va ge ɖe television dzi wɔnawo me la, woate ŋu aɖo dze, abia be yewoawɔ ɖeka kple fefewɔƒea, awɔ nu aduadu to akɔdada me le akɔdadawo me, kple bubuwo.
 
-![Free2z Live ƒe ɣeyiɣi ƒe kpɔɖeŋu](https://i.ibb.co/r3XTY8M/free2z-live-example.png)
+![Free2z Live ƒe ɣeyiɣi ƒe kpɔɖeŋu](/content-images/free2z-live-example-eecb2ae553.webp)
 
 _(Free2z Live ƒe ɣeyiɣi ƒe kpɔɖeŋu)_
 
@@ -146,13 +146,13 @@ Menye ɖe woɖoe be wiki-doc sia nanye mɔfianu deto na Free2z alo Free2z Live o
 
 Le screen la ƒe miame le ete la, míekpɔa abɔta ʋɛ aɖewo.
 
-![Ete miame dziɖunuwo](https://i.ibb.co/XLQBDk1/free2z-live-left.png)
+![Ete miame dziɖunuwo](/content-images/free2z-live-left-60b450b01c.webp)
 
 Dɔ nyui aɖe si le afisia enye ŋutete si le asiwò be nàma wò screen ale be ezãla bubuwo nate ŋu akpɔ nusi wɔm nèle.
 
 Le ete la, míate ŋu akpɔ live stream tiatiaawo.
 
-![Dɔwɔnu si le ete](https://i.ibb.co/7JbmDXc/free2z-live-bottom.png)
+![Dɔwɔnu si le ete](/content-images/free2z-live-bottom-ae64a6960c.webp)
 
 Tiatia vevi siwo le afisia dometɔ aɖewoe nye: 
 - Mute / unmute nuƒomɔ̃ 
@@ -163,7 +163,7 @@ Tiatia vevi siwo le afisia dometɔ aɖewoe nye:
 
 Be nàwu live stream nu la, ele be nàzi ‘Leave’ ƒe dzesi dzi, eye emegbe nàzi ‘End meeting for all’ dzi be nàtɔ te kpekpea na gomekpɔlawo katã.
 
-![Ete ɖusime ƒe kadodo ƒe akpa](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/free2z-live-right.png)
+![Ete ɖusime ƒe kadodo ƒe akpa](/content-images/free2z-live-right-c83cb6d209.webp)
 
 Dɔ siwo ku ɖe live stream ƒe kadodo ŋu le ete le ɖusime ƒe abɔtawo me, abe: 
 - **Dzeɖoɖo**: Esia na be gomekpɔlawo te ŋu ɖoa dze kple wo nɔewo kpakple amedzroxɔla le nyadzɔdzɔwo kaka me. 
@@ -171,7 +171,7 @@ Dɔ siwo ku ɖe live stream ƒe kadodo ŋu le ete le ɖusime ƒe abɔtawo me, ab
 - **Gomenɔlawo ƒe ŋkɔwo**: Esia fiaa gomekpɔlawo ƒe ŋkɔwo le live stream la me. 
 - **Plugins**: Esia na be amedzroxɔla la te ŋu tsɔa plugins kple extensions kpena ɖe eŋu be wòana live stream ƒe nuteƒekpɔkpɔa nanyo ɖe edzi.
 
-![Plugins ƒe akpa aɖe](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/free2z-live-plugins.png)
+![Plugins ƒe akpa aɖe](/content-images/free2z-live-plugins-e9a30ee355.webp)
 
 Menye wiki-doc sia ƒe taɖodzinue nye be wòaɖe kpeɖeŋutɔawo katã me o, gake mele dzi dem ƒo na wò ŋutɔŋutɔ be nàte ɖesiaɖe kpɔ, elabena wo katã naa kadodo ƒe asixɔxɔ gã aɖe le nuwɔlawo kple nukpɔlawo dome. Ne èdi be yeadze plugin aɖe gɔme la, zi ‘rocket’ ƒe dzesi si le ɖusime dzi ko.
 

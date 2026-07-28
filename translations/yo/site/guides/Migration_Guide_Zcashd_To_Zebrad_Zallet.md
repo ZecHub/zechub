@@ -6,7 +6,7 @@ Eto ilolupo Zcash n dagbasoke. Nodu kikun Zcashd ti aṣa, ti o ṣetọju nipas
 - Zallet jẹ apo apamọwọ ti o ni irọrun ti a ṣe lati ṣepọ laisiyonu pẹlu awọn akopọ Zebra ti o dagbasoke nipasẹ Zodl
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Àwòrán ìjíròrò GPTIOct12202508_15_20A](https://hackmd.io/_uploads/SJNBsSYTel.jpg)
+[Àwòrán ìjíròrò GPTIOct12202508_15_20A](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
 Itọsọna yii n tọ ọ lọ nipasẹ gbigbe lati **Zcashd** si **Zebrad** ati **Zallet**, pẹlu iṣeto, gbigbe apamọwọ wọle, ati yanju awọn iṣoro gbigbe wọpọ.
@@ -37,7 +37,7 @@ Kódà, tá a bá fi ọ̀rọ̀ pé àwọn èèyàn ò kà wá sí mọ́, àwọ
 * Ṣe afẹyinti wallet.dat rẹ (tabi eyikeyi faili apamọwọ / ibi ipamọ bọtini miiran) lati oju opo zcashd rẹ.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ì1⁄2 ì ¤í ì ']](https://hackmd.io/_uploads/SJ_0mUtTxg.svg)
+![ì1⁄2 ì ¤í ì ']](/content-images/SJ_0mUtTxg-1441185a72.svg)
 </div>
 
 * Fi zcash.conf rẹ pamọ ati eyikeyi awọn eto aṣa.
@@ -63,7 +63,7 @@ O le ṣe igbasilẹ kan ti a ti kọ tẹlẹ tabi kọ lati orisun.
 Lori ** Linux **/** macOS**:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ì ¬í ì2 ]](https://hackmd.io/_uploads/HJhYu8Y6el.svg)
+![ì ¬í ì2 ]](/content-images/HJhYu8Y6el-d2198f22c9.svg)
 </div>
 
 This installs the latest stable version of zebrad.
@@ -71,20 +71,20 @@ This installs the latest stable version of zebrad.
 **Aṣayan B: Kọ lati orisun**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ì ¤í ì (3)](https://hackmd.io/_uploads/Syg8FUK6eg.svg)
+![ì ¤í ì (3)](/content-images/Syg8FUK6eg-b4557e52e0.svg)
 </div>
 
 Lẹ́yìn tí ẹ bá ti kọ́ ilé, ẹ gbé ìsọ̀rí náà sínú ọ̀nà yín:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Ìṣilọ 11](https://hackmd.io/_uploads/BJ0zjLY6ll.png)
+[Ìṣilọ 11](/content-images/BJ0zjLY6ll-f77354d701.webp)
 </div>
 
 **4. Ìṣètò àti Ìfilọ́lẹ̀** 
 Ṣẹda ìtòlẹ́sẹẹsẹ àbínibí:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ìyípadà2](https://hackmd.io/_uploads/HJV1C8tTxx.png)
+![ìyípadà2](/content-images/HJV1C8tTxx-5823395651.webp)
 </div>
 
 Ṣatunkọ **zebrad.toml** si awọn ayanfẹ rẹ (gbigbọ adirẹsi, awọn ibudo, itọsọna ipinlẹ, caching).
@@ -92,7 +92,7 @@ Lẹ́yìn tí ẹ bá ti kọ́ ilé, ẹ gbé ìsọ̀rí náà sínú ọ̀n�
 **Bẹrẹ ìsopọ̀:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Àwòrán](https://hackmd.io/_uploads/H1KPkvt6gl.png)
+[Àwòrán](/content-images/H1KPkvt6gl-864c48ca40.webp)
 </div>
 
 Nọ́ọ̀dù náà yóò bẹ̀rẹ̀ sí ṣe àdàkọ láti ìpilẹ̀ṣẹ̀ - retí wákàtí bíi mélòó kan (tàbí jù bẹ́ẹ̀ lọ) ní ìbámu pẹ̀lú ohun èlò àti ẹ̀rọ-ìpèsè.
@@ -106,7 +106,7 @@ Zallet ni a ṣe lati rọpo apakan apamọwọ ti zcashd.
 **Àbí kókó láti orísun:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Àwòrán](https://hackmd.io/_uploads/SyUFxvFTex.png)
+[Àwòrán](/content-images/SyUFxvFTex-5bb10ee1d3.webp)
 </div>
 
 * Ṣii GUI tabi CLI (bi fifi sori ẹrọ rẹ ṣe pese).
@@ -118,7 +118,7 @@ Nípasẹ̀ Ibi ìkóhunsílẹ̀ Àkọ́kọ́
 Lori zcashd, kó àwọn kókó ìpamọ́ rẹ jáde:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ì ¤ë¥1⁄4 ì 1⁄4ì ì ']](https://hackmd.io/_uploads/rJzgzwFagx.svg)
+![ì ¤ë¥1⁄4 ì 1⁄4ì ì ']](/content-images/rJzgzwFagx-4a0874f250.svg)
 </div>
 
 * Ni Zallet, yan Awọn bọtini Gbigbe tabi aṣayan ti o jọra.
@@ -143,13 +143,13 @@ Nígbà tí ìfọwọ́sowọ́pọ̀ bá parí, àlàfo rẹ àti àwọn ìn�
 O le ṣayẹwo ipo isọdọkan ti node rẹ nipa ṣiṣe:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Àwòrán](https://hackmd.io/_uploads/SyIyVDY6xl.png)
+[Àwòrán](/content-images/SyIyVDY6xl-10d6bed7b8.webp)
 </div>
 
 Tàbí kí wọ́n ṣàyẹ̀wò àkọsílẹ̀.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Àwòrán](https://hackmd.io/_uploads/r1HfVPF6gg.png)
+[Àwòrán](/content-images/r1HfVPF6gg-b6b76e9907.webp)
 </div>
 
 **8. Ìtọjú ìṣòro**

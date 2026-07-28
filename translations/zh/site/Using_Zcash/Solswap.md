@@ -2,7 +2,7 @@
 
 
 
-![img1](https://hackmd.io/_uploads/SJOlnt-ceg.png)
+![img1](/content-images/SJOlnt-ceg-34468cfecd.webp)
 
 ---
 
@@ -11,7 +11,7 @@
 或在 Phantom 浏览器中访问 **[solswap.org](https://solswap.org/)**。  
 
 
-![img2](https://hackmd.io/_uploads/S1Cp-KWqxe.jpg)
+![img2](/content-images/S1Cp-KWqxe-ab70e844b9.webp)
 
 ---
 
@@ -19,7 +19,7 @@
 - 选择你的**源网络**（例如 *Ethereum* 或 *Solana*），然后充值以进行兑换。  
 
 
-![img3](https://hackmd.io/_uploads/S1SaGYZ9xx.jpg)
+![img3](/content-images/S1SaGYZ9xx-2a27ccdd47.webp)
 
 - 选择基础代币，例如 **SOL、USDT 或 USDC**。  
 - 选择 **ZEC** 作为你的**目标代币**。  
@@ -27,7 +27,7 @@
 
 
 
-![img4](https://hackmd.io/_uploads/ry4QQF-5gx.jpg)
+![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
 
 ---
 
@@ -36,7 +36,7 @@
 - Phantom 会显示扣除费用后的**预计到账数量**。  
 
 
-![img5](https://hackmd.io/_uploads/B1U1NYW5xe.jpg)
+![img5](/content-images/B1U1NYW5xe-58cf150668.webp)
 
 ---
 
@@ -63,7 +63,7 @@
 - 点击 **Swap Now** 以发起交易。  
 
 
-![img6](https://hackmd.io/_uploads/HkU1UKZ5gx.jpg)
+![img6](/content-images/HkU1UKZ5gx-e068ea8d5a.webp)
 
 ---
 
@@ -72,6 +72,6 @@
 - 对于跨链兑换，可使用你的**交易 ID** 配合 **Li.Fi Scanner** 查看实时更新。 
 
 
-![img7](https://hackmd.io/_uploads/S1NBwKbcxe.jpg)
+![img7](/content-images/S1NBwKbcxe-5b7d11f5c1.webp)
 
 ## 接下来，你可以使用[本指南](https://zechub.wiki/guides/using-zec-privately)开始将你的 ZEC 进行屏蔽处理

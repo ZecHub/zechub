@@ -41,7 +41,7 @@ MetaMask artık **ChainSafe tarafından geliştirilen Zcash Snap** aracılığı
       Store data on your device
    ```
 
-![Zcash-snap-install](https://hackmd.io/_uploads/Hy5MSG2Oex.png)
+![Zcash-snap-install](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
 
 
 ---
@@ -59,7 +59,7 @@ MetaMask içinde **Add Network** seçeneğini seçin ve şunları girin:
 -  Block Explorer URL: https://bscscan.com
 ```
 Bu, ağ bilgilerini ve explorer bağlantılarını etkinleştirir.
-![Add-a-custom-Net....](https://hackmd.io/_uploads/S1hq7f2Oel.png)
+![Add-a-custom-Net....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
 
 **Zcash Mainnet** için;
 ```markdown
@@ -75,13 +75,13 @@ Bu, ağ bilgilerini ve explorer bağlantılarını etkinleştirir.
 1. [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev) adresini ziyaret edin.  
 2. **Connect MetaMask Snap** seçeneğine tıklayın.  
 
-![Zcash-web-wallet](https://hackmd.io/_uploads/Sk8nSz3dgl.png)
+![Zcash-web-wallet](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
 
 3. Bağlantıyı onaylayın.  
 4. Şunlar dahil olmak üzere Zcash hesap özetinizi görüntüleyin:
    - Unified adresleri ve Transparent adres
 
-![Account-summary-unif....](https://hackmd.io/_uploads/r17c_Mhdel.jpg)
+![Account-summary-unif....](/content-images/r17c_Mhdel-f4963826d5.webp)
 
 
 5. Senkronizasyonun tamamlanmasını bekleyin.
@@ -96,7 +96,7 @@ Bu, ağ bilgilerini ve explorer bağlantılarını etkinleştirir.
 > **ETH -> ZEC Takası** - **LeoDex** gibi hizmetleri kullanın ve shielded adresinize gönderin.  
 > **Borsadan Çekim** - Satın aldığınız ZEC'yi WebZjs shielded adresinize çekin.  
 
-![LEODEX-SWAP](https://hackmd.io/_uploads/HyLQ0G2ugg.png)
+![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => **Tam gizlilik** için shielded (z) adresleri kullanın.
@@ -111,7 +111,7 @@ Bu, ağ bilgilerini ve explorer bağlantılarını etkinleştirir.
    - Shielded alıcı adresi  
    - Tutar
 ```
-   ![Transfer-Balance](https://hackmd.io/_uploads/rkvcFfhdex.png)
+   ![Transfer-Balance](/content-images/rkvcFfhdex-bd55d079eb.webp)
 
 4. İşlemi MetaMask içinde onaylayın (işlemi imzalayın).  
 5. Gelen fonlar, onaydan sonra WebZjs içinde görünecektir.
@@ -145,7 +145,7 @@ Bu, ağ bilgilerini ve explorer bağlantılarını etkinleştirir.
    Transparent Address
 ``` 
 
-![Address-components](https://hackmd.io/_uploads/SyPR2f2_gg.png)
+![Address-components](/content-images/SyPR2f2_gg-3907c5bf58.webp)
 
 
 

@@ -102,7 +102,7 @@ Les pools de minage distribuent le travail et partagent les récompenses en fonc
 3. Paiements : la plupart des pools paient automatiquement lorsque vous atteignez le minimum (par ex., 0.05 ZEC). Vérifiez les règles du pool.
 
    
-![Configuration de surveillance du minage Zcash](https://raw.githubusercontent.com/ZecHub/zechub/aac601cf85076960d334f4c841867a646a5a2f29/assets/images/zcashMining.jpg)
+![Configuration de surveillance du minage Zcash](/content-images/zcashMining-5ca0019c17.webp)
 
 
 ## Conseils et bonnes pratiques

@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="https://i.ibb.co/fGYHTfZ5/Shielded-labs-shield-white-2.png" alt="Alt Text" width="50"/>    Shielded Labs
+# <img src="/content-images/Shielded-labs-shield-white-2-27aef199ae.webp" alt="Alt Text" width="50"/>    Shielded Labs
 
 
 [Àwọn Ilé Iṣẹ́ Ààbò](https://shieldedlabs.net) a dá a sílẹ̀ gẹ́gẹ́ bí ẹgbẹ́ Switzerland ní oṣù Kejìlá ọdún 2022, kò sì ní àjọṣepọ̀ kankan pẹ̀lú Zcash Community Grants (ZCG) kò sì sí ètò láti bèèrè fún ìtìlẹyìn ZCG.

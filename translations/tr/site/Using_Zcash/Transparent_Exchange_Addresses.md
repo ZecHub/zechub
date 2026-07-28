@@ -8,7 +8,7 @@ Mantık şu şekildedir: Uyumlu bir cüzdan bir TEX Adresi tespit ettiğinde, i�
 
 TEX adreslerine yönelik teknik öneri, yalnızca Transparent Adreslerden fon almak için özel bir adres türü tanımlayan Zcash [ZIP 320](https://zips.z.cash/zip-0320) içinde açıklanmıştır.
 
-![TEX](https://i.ibb.co/8m7HPqV/ZashiTex.png)
+![TEX](/content-images/ZashiTex-b1cbec5f07.webp)
 
 
 TEX adresleri henüz yaygın olarak benimsenmemiş olsa da, Zcash kullanıcılarının eninde sonunda bunları kullanması gerekebilir.

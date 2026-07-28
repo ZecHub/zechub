@@ -28,7 +28,7 @@ YWalletは、*透明型のみ*およびシャーディング型の秘密鍵か�
 
 4. 右上隅のプラス記号をクリック
 
-![Plus sign button](https://i.postimg.cc/xJbVz7gB/plus.png)
+![Plus sign button](/content-images/plus-3ca2c1649a.webp)
 
 5. 「Restore an account（アカウントの復元）」を切り替える
 
@@ -46,7 +46,7 @@ YWalletは、*透明型のみ*およびシャーディング型の秘密鍵か�
 
 4. シードフレーズを入力（ギャップ制限によりシードによって生成された追加のアドレスをスキャン）
 
-![Sweep Funds screen](https://i.postimg.cc/3055CBcN/sweep.png)
+![Sweep Funds screen](/content-images/sweep-6c956553a9.webp)
 
 5. 転送先として使用したい値プールを入力（取引所は透明型を使用します）
 

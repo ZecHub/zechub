@@ -52,7 +52,7 @@ FROSTプロトコルには重要な2つのコンポーネントがあります�
 その後、t-out-of-nの参加者のいずれかがしきい値署名プロトコルを実行して、有効なSchnorr署名を共同で生成します。
 
 <a href="">
-    <img src="https://static.cryptohopper.com/images/news/uploads/1634081807-frost-flexible-round-optimized-schnorr-threshold-signatures-1.jpg" alt="" width="400" height="300"/>
+    <img src="/content-images/1634081807-frost-flexible-round-optimize-3697a713d9.webp" alt="" width="400" height="300"/>
 </a>
 
 ## 図解 / 比喩
@@ -76,7 +76,7 @@ DKGプロトコル終了時に共同検証鍵vkが生成されます。各参加
 事前処理ステージでは、各参加者が後で使用するために固定数の楕円曲線（EC）ポイントペアを準備します。このステージは複数のしきい値署名フェーズにわたって一度だけ実行されます。
 
 <a href="">
-    <img src="https://i.ibb.co/nQD1c3n/preprocess.png" alt="" width="400" height="300"/>
+    <img src="/content-images/preprocess-5cbb14f892.webp" alt="" width="400" height="300"/>
 </a>
 
 署名ラウンド1：各参加者Pᵢはまず、単一のプライベートノンスペア（dᵢ, eᵢ）と対応するECポイントペア（Dᵢ, Eᵢ）を生成し、このペアをすべての他の参加者にブロードキャストします。各参加者はこれらのECポイントペアを後で使用するために保存します。署名ラウンド2および3は、t-out-of-nの参加者が協力して有効なSchnorr署名を作成する実際の操作です。
@@ -86,7 +86,7 @@ DKGプロトコル終了時に共同検証鍵vkが生成されます。各参加
 このステップにより、攻撃者が異なる署名操作間で署名シェアを組み合わせたり、各署名者や公開ポイントのセットを置き換えたりする偽造攻撃が防止されます。
 
 <a href="">
-    <img src="https://i.ibb.co/b5rJbXx/sign.png" alt="" width="400" height="300"/>
+    <img src="/content-images/sign-402794d36a.webp" alt="" width="400" height="300"/>
 </a>
 
 cという挑戦値を計算した後、各参加者は一時的なノンスと長期的な秘密シェアを使用して応答zᵢを計算できます。これらの長期的な秘密シェアは、t-out-of-n（次数t-1）のShamir秘密共有によるグループの長期間使用可能な鍵です。署名ラウンド2終了後、各参加者はzᵢを他の参加者にブロードキャストします。

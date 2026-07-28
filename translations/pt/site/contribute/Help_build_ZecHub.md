@@ -27,7 +27,7 @@ Reportar bugs
 
 Publicamos issues para tarefas para as quais temos atualmente recompensas abertas todas as segundas-feiras. Também pode sugerir recompensas! Principalmente, estas encontram-se em ZEC Bounties.
 
-![zecbounties](https://github.com/user-attachments/assets/0e4f5109-c0c9-4a0a-8d71-8172e36b9726)
+![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 
 
 

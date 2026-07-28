@@ -28,7 +28,7 @@ YWallet 被公认为恢复无法访问资金的最佳选择之一，无论是仅
 
 4. 点击右上角的加号 
 
-![加号按钮](https://i.postimg.cc/xJbVz7gB/plus.png)
+![加号按钮](/content-images/plus-3ca2c1649a.webp)
 
 5. 打开“Restore an account”开关 
 
@@ -46,7 +46,7 @@ YWallet 被公认为恢复无法访问资金的最佳选择之一，无论是仅
 
 4. 输入你的助记词（Gap limit 会扫描由该助记词生成的其他地址）
 
-![Sweep Funds 界面](https://i.postimg.cc/3055CBcN/sweep.png)
+![Sweep Funds 界面](/content-images/sweep-6c956553a9.webp)
 
 5. 输入你希望使用的目标地址所属的 Value Pool（交易所使用 Transparent）
 

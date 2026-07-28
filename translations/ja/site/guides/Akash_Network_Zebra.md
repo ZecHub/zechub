@@ -62,7 +62,7 @@ Akash上でポートを公開する場合（例：Zebra P2Pのためのポート
 
 ##### オプションA: SDLファイルのアップロード（推奨）
 
-[![Akash上での展開](https://raw.githubusercontent.com/akash-network/console/refs/heads/main/apps/deploy-web/public/images/deploy-with-akash-btn.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
+[![Akash上での展開](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
 
 ##### オプションB: SDLエディタの使用
 

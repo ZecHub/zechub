@@ -41,7 +41,7 @@
 
 上記のアドレスと同様に、公開されたブロックチェーン上の任意の取引では、入力および出力アドレスの金額が完全に表示されます。例外は、Shielded Zcashを使用した場合で、このときすべての金額が隠れます。公平貿易のためにプライバシーが必要な小規模事業主にとっては、これは大きな利点です！
 
-![amounts](https://user-images.githubusercontent.com/81990132/206312357-e9504151-830f-4fa1-81cb-f23619fd7226.png)
+![amounts](/content-images/206312357-e9504151-830f-4fa1-81cb-f23619-210f51493c.webp)
 
 ### Zcashにおけるエクスプローラーが見ることができる内容と見ることができない内容
 
@@ -74,13 +74,13 @@ Zcashには1種類以上のアドレスがあり、エクスプローラーは�
 * [Mintscan](https://hub.mintscan.io/chains/ibc-network)
 
 
-![bitcoinExlporer](https://user-images.githubusercontent.com/81990132/206279968-a06eb0a1-b3a6-49af-a30f-7d871b906eeb.png)
+![bitcoinExlporer](/content-images/206279968-a06eb0a1-b3a6-49af-a30f-7d871b-1418d95d28.webp)
 
 
-![ethExplorer](https://user-images.githubusercontent.com/81990132/206280208-2ce5eddd-157e-4eed-90a0-680c1520ec57.png)
+![ethExplorer](/content-images/206280208-2ce5eddd-157e-4eed-90a0-680c15-488292c345.webp)
 
 
-![zcashExplorer](https://user-images.githubusercontent.com/81990132/206280454-a2c7563f-e82d-47b9-9b58-02eece1c89ee.png)
+![zcashExplorer](/content-images/206280454-a2c7563f-e82d-47b9-9b58-02eece-76db7aec4c.webp)
 
 
-![cosmos](https://user-images.githubusercontent.com/81990132/206316791-2debfd28-923a-44f4-b7d3-701182112c30.png)
+![cosmos](/content-images/206316791-2debfd28-923a-44f4-b7d3-701182-cf39a065fc.webp)

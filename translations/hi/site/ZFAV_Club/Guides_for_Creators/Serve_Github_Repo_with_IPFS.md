@@ -26,7 +26,7 @@
 
 आदेश चलाएं: “git clone https://github.com/zechub/zechub”
 
-![https://i.ibb.co/HxFX37b/Screenshot-from-2023-05-20-14-14-46.png](https://i.ibb.co/HxFX37b/Screenshot-from-2023-05-20-14-14-46.png)
+![/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
 
 अब, इसे IPFS के माध्यम से क्लोन करने के तैयार करें।
 
@@ -34,7 +34,7 @@ cd zechub git update-server-info
 
 गिट के ऑब्जेक्ट्स को अपकैस करें:
 
-![](https://i.ibb.co/25RwyWz/image-2024-04-20-175848513.png)
+![](/content-images/image-2024-04-20-175848513-2ceb90dd7b.webp)
 
 यह करने से IPFS आपके गिट रिपॉज़िटरी को बाद में अपडेट करते समय ऑब्जेक्ट्स के डुप्लिकेशन को हटा सकता है।
 
@@ -48,11 +48,11 @@ $ pwd
 
 $ ipfs add -r 
 
-![https://i.ibb.co/LJgK1q3/Screenshot-from-2023-05-20-14-22-38.png](https://i.ibb.co/LJgK1q3/Screenshot-from-2023-05-20-14-22-38.png)
+![/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp](/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp)
 
 परिणामी CID: Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
 
-![https://i.ibb.co/GvhCLwn/Screenshot-from-2023-05-20-14-26-34.png](https://i.ibb.co/GvhCLwn/Screenshot-from-2023-05-20-14-26-34.png)
+![/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
 
 ब्रिलियंट! अब आपका रिपॉज़िटरी नेटवर्क पर अपलोड कर दिया गया है।
 

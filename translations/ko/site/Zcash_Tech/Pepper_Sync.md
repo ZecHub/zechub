@@ -93,8 +93,8 @@ Zcash는 보호된 거래를 중심으로 설계되어 있으며, 암호화폐�
 7. **완료** - 지갑이 거래를 위해 준비됩니다.
 
 ### 시각 가이드:
-- **상세 흐름** - 전체 과정을 보여줍니다. ![상세 흐름](https://github.com/user-attachments/assets/119c13ec-76be-42bd-b558-762d09275a1b)
-- **간단한 흐름** - 일상 사용자용 빠른 시각. ![간단한 흐름](https://github.com/user-attachments/assets/9b612cbd-f24d-4472-9b87-0f2c908bb368)
+- **상세 흐름** - 전체 과정을 보여줍니다. ![상세 흐름](/content-images/119c13ec-76be-42bd-b558-762d09275a1b-8ba7a18302.webp)
+- **간단한 흐름** - 일상 사용자용 빠른 시각. ![간단한 흐름](/content-images/9b612cbd-f24d-4472-9b87-0f2c908bb368-eb34a722a2.webp)
 
 ---
 

@@ -62,7 +62,7 @@ Owó tó wà nínú àkáǹtì rẹ á fara hàn lókè lápá ọ̀tún.
 
 ##### Aṣayan A: Gbigba faili SDL (Ti a ṣe iṣeduro)
 
-[![Gbé jáde ní Akash](https://raw.githubusercontent.com/akash-network/console/refs/heads/main/apps/deploy-web/public/images/deploy-with-akash-btn.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
+[![Gbé jáde ní Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
 
 ##### Aṣayan B: Lo Àtúnṣe SDL
 

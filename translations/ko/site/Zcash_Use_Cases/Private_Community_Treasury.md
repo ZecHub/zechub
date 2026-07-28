@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/amochuko/zechub/68acdb6f311bff85fe8ded7b47b2e362d7712474/assets/icons/people-community-add-svgrepo-com.svg" width="24" height="24" alt="기자 아이콘"/> Zcash를 사용하여 비공개 커뮤니티 펀드 운영
+# <img src="/content-images/people-community-add-svgrepo-com-3c6ac75333.svg" width="24" height="24" alt="기자 아이콘"/> Zcash를 사용하여 비공개 커뮤니티 펀드 운영
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
@@ -14,7 +14,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="사용자 아이콘"/> 이 문서는 누구에게 적합한가요?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="사용자 아이콘"/> 이 문서는 누구에게 적합한가요?
 
 - DAO 및 커뮤니티
 - 보조금 프로그램
@@ -23,7 +23,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="경고 아이콘"/> 문제점
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="경고 아이콘"/> 문제점
 
 공개 블록체인 상의 커뮤니티 자금은 다음을 노출시킬 수 있습니다:
 - 전체 펀드 잔액
@@ -37,7 +37,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="도구 상자 아이콘"/> Zcash의 장점
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="도구 상자 아이콘"/> Zcash의 장점
 
 Zcash는 커뮤니티가 다음과 같이 할 수 있도록 합니다:
 - 자금을 비공개로 보관
@@ -46,7 +46,7 @@ Zcash는 커뮤니티가 다음과 같이 할 수 있도록 합니다:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="도구 상자 아이콘"/> 필요한 사항
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="도구 상자 아이콘"/> 필요한 사항
 
 - Zcash 지갑 (역할 분리를 위해 여러 지갑 사용 가능)
 - 자금 관리를 위한 명확한 내부 프로세스
@@ -54,7 +54,7 @@ Zcash는 커뮤니티가 다음과 같이 할 수 있도록 합니다:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="단계 아이콘"/> 단계별 가이드
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="단계 아이콘"/> 단계별 가이드
 
 ### 단계 1: 보호된 펀드 주소 생성
 
@@ -91,7 +91,7 @@ Zcash는 커뮤니티가 다음과 같이 할 수 있도록 합니다:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="취소 아이콘"/> 피해야 할 일반적인 실수
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="취소 아이콘"/> 피해야 할 일반적인 실수
 
 - 펀드에 투명 주소 사용
 - 지갑 잔액을 공개
@@ -100,7 +100,7 @@ Zcash는 커뮤니티가 다음과 같이 할 수 있도록 합니다:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="완료 아이콘"/> 결과
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="완료 아이콘"/> 결과
 
 커뮤니티는 다음과 같이 할 수 있습니다:
 - 자금을 안전하게 관리
@@ -109,14 +109,14 @@ Zcash는 커뮤니티가 다음과 같이 할 수 있도록 합니다:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="연결 아이콘"/> 관련 문서
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="연결 아이콘"/> 관련 문서
 
 - [프라이버시 - 최고 실천 사례](/privacy/best-practices)
 - [신분을 연결하지 않고 돈 보내기](/use-cases/send-money-without-linking-identity)
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/progress-arrows-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="진행 아이콘"/> 진행 상황
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="진행 아이콘"/> 진행 상황
 
 **6단계 중 5단계**
 

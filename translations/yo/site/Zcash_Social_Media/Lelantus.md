@@ -6,7 +6,7 @@ Lónìí a máa wo àwọn ohun tó ń jẹ́ "Lelantus"!
 
 Ti tu silẹ ni ọdun 2019, ilana yii kọ lori Zerocoin. O ti lo ninu owo ** Firo ** (tẹlẹ Zcoin) lati jẹ ki awọn iṣowo on-chain aladani. O dabi Zcash ni awọn ọna diẹ ṣugbọn o yatọ si ni ọpọlọpọ awọn aaye.
 
-[Ìfilọlẹ ti Lelantus](https://pbs.twimg.com/media/Fsk18DgXsAEc0Ob.jpg)
+[Ìfilọlẹ ti Lelantus](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
 
 ---
 
@@ -15,7 +15,7 @@ Ti tu silẹ ni ọdun 2019, ilana yii kọ lori Zerocoin. O ti lo ninu owo ** F
 - **Zcash** - Ó dá lórí ìlànà **Zerocash** 
 - **Firo (Zcoin) ** - O da lori ilana **Zerocoin**
 
-[ìfiwéra owó orí àti owó orí!](https://pbs.twimg.com/media/Fsk2Fk7WcAA81ty.png)
+[ìfiwéra owó orí àti owó orí!](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
 
 ---
 
@@ -28,7 +28,7 @@ Gẹgẹ bi Zcash, Firo nlo awọn adirẹsi ti o ni aabo lati ṣaṣeyọri aw
 - **Sigma** - Ètò ìsọfúnni tí a dì múlẹ̀
 - **Lelantus 1.0** - Kò ní ẹ̀rí ààbò tó tọ́
 
-[Ìdàgbàsókè ìlànà!](https://pbs.twimg.com/media/Fsk2NdaWAAAKVgH.png)
+[Ìdàgbàsókè ìlànà!](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
 
 ---
 
@@ -38,7 +38,7 @@ Gẹgẹ bi Zcash, Firo nlo awọn adirẹsi ti o ni aabo lati ṣaṣeyọri aw
 
 Eyi ṣẹda awọn eto ailorukọ ti o kere si ati ṣi ẹnu-ọna si awọn ikọlu akoko laarin awọn iṣẹ mint ati paarẹ (pẹlu iṣoro "iyipada ti o bajẹ").
 
-![Àwọn ẹyọ owó Sigma](https://pbs.twimg.com/media/Fsk2fxfWcAMUBDo.png)
+![Àwọn ẹyọ owó Sigma](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
 
 ---
 
@@ -53,7 +53,7 @@ Eyi ṣẹda awọn eto ailorukọ ti o kere si ati ṣi ẹnu-ọna si awọn i
 
 **Awọn idiwọn**: Iye ti a ṣeto lọwọlọwọ ni opin si ** awọn owó ẹyọ 65,000 **.
 
-[Àwọn àǹfààní ti Lelantus](https://pbs.twimg.com/media/Fsk2wK3X0AA6MEe.png)
+[Àwọn àǹfààní ti Lelantus](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
 
 ---
 
@@ -65,7 +65,7 @@ Awọn wọnyi ṣiṣẹ bakanna si ** Awọn akọsilẹ ** ni Zcash.
 
 A ṣe atẹjade ati tọju ifaramọ owo naa lori iwe akọọlẹ nigbati a ba ṣẹda owo (nipasẹ Mint tabi awọn iṣowo Spend).
 
-[Àkọsílẹ̀ ìmúṣẹ owó ẹyọ](https://pbs.twimg.com/media/Fsk3AWNX0AIHya8.png)
+[Àkọsílẹ̀ ìmúṣẹ owó ẹyọ](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
 
 ---
 
@@ -77,7 +77,7 @@ Lelantus nlo awọn Ayebaye **basecoin < - > awoṣe zerocoin**.
 
 Gẹgẹ bi Zcash, awọn iṣowo ṣiṣan gbọdọ yan ni kedere nipasẹ olumulo.
 
-[Ìṣàn Lelantus](https://pbs.twimg.com/media/Fsk3HrjXgAMgqmX.png)
+[Ìṣàn Lelantus](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
 
 ---
 
@@ -87,7 +87,7 @@ Lelantus nlo **One-of-Many Proofs** lati fa awọn iye titẹ sii ti o nilo fun 
 
 Àwọn ẹ̀rí wọ̀nyí ni a tún lò nínú Triptych (tí a mẹ́nu kàn nínú ọ̀rọ̀ wa CryptoNote).
 
-[Àmì kan-Lára-Ọ̀pọ̀]](https://pbs.twimg.com/media/Fsk3Z0nWIAAPD4k.jpg)
+[Àmì kan-Lára-Ọ̀pọ̀]](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
 
 ---
 
@@ -103,7 +103,7 @@ Gẹgẹ bi Monero, Firo ṣe imuse **Dandelion++** lati ṣafikun aṣiri nipa 
 
 Eyi jẹ ki o nira pupọ lati tọpinpin ipilẹṣẹ ti iṣowo kan nipasẹ itupalẹ nẹtiwọọki.
 
-[ìtumọ̀ Dandelion++]](https://pbs.twimg.com/media/Fsk4A8VWcAU84MR.png)
+[ìtumọ̀ Dandelion++]](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
 
 ---
 
@@ -117,7 +117,7 @@ Yoo tun ṣe afikun atilẹyin fun:
 
 Awọn ẹya wọnyi ni ibamu pẹlu Awọn ohun-ini Zcash Shielded.
 
-[Ìkéde nípa ọtí Lelantus-Spark](https://pbs.twimg.com/media/Fsk4jXeXsAACQ3h.jpg)
+[Ìkéde nípa ọtí Lelantus-Spark](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
 
 ---
 

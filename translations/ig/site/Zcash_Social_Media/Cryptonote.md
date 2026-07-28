@@ -5,7 +5,7 @@
 Taa bụ ụbọchị na-adọrọ mmasị! 
 The **CryptoNote** protocol enables strong on-chain privacy. Today we learn all of its key features and how it has been implemented by several notable privacy projects.
 
-[CryptoNote mmeghe](https://pbs.twimg.com/media/FrXr5P8WIAAvx36.jpg)
+[CryptoNote mmeghe](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
 
 ---
 
@@ -35,7 +35,7 @@ When sending a transaction, your real public key is mixed with several decoy key
 
 **Ogo mgbanaka** na-emetụta ihe a na-akpọghị aha. Mgbaaka buru ibu na-enye nzuzo ka mma.
 
-[Mgbaaka Signatures nkọwa]](https://pbs.twimg.com/media/FrXteGHXgAANE0F.png)
+[Mgbaaka Signatures nkọwa]](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
 
 **Nkọwa na Zcash**: 
 Zcash's anonymity set bụ ngụkọta ọnụ ọgụgụ nke azụmahịa * mgbe ọ bụla * emere na ọdọ mmiri echedoro (nke buru ibu karịa nha mgbanaka CryptoNote).
@@ -48,7 +48,7 @@ Zcash's anonymity set bụ ngụkọta ọnụ ọgụgụ nke azụmahịa * mg
 
 Kama izochi onye zitere ya, Ring CT na-ekpuchikwa ego azụmahịa dị n'etiti onye na-ezigara ya na onye natara ya.
 
-[Ihe osise CT nke mgbanaka](https://pbs.twimg.com/media/FrXuivgWYAAze7B.png)
+[Ihe osise CT nke mgbanaka](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
 
 Ọ na-eji:
 - Elliptic Curve Cryptography
@@ -59,7 +59,7 @@ Kama izochi onye zitere ya, Ring CT na-ekpuchikwa ego azụmahịa dị n'etiti 
 
 ** Stealth Addresses ** na-agbakwunye adreesị eji otu oge maka onye nnata.
 
-[Adreesị Stealth + Ihe Akaebe](https://pbs.twimg.com/media/FrXut5aWAAMhuRb.jpg)
+[Adreesị Stealth + Ihe Akaebe](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
 
 ---
 
@@ -74,7 +74,7 @@ It uses the **CryptoNight** algorithm (a memory-hard function). Unlike Bitcoin�
 2. Na-eme ọtụtụ ọgụgụ / dee arụmọrụ na scratchpad
 3. Hash dum scratchpad iji mepụta uru ikpeazụ
 
-[Mgbapụta CryptoNight]](https://pbs.twimg.com/media/FrXvNs3XsAA37LG.jpg)
+[Mgbapụta CryptoNight]](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
 
 (Mara: Monero esila na CryptoNight pụọ gaa na algọridim ndị ọzọ.)
 
@@ -86,7 +86,7 @@ Kama ịbelata ihe omume na mberede (dịka Bitcoin), CryptoNote na-eji ** ụgw
 
 Nke a na-eme ka usoro mmepụta ihe dị nro karịa oge.
 
-[Dynamic emission curve]](https://pbs.twimg.com/media/FrXv8wpXoAEjUxW.png)
+[Dynamic emission curve]](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
 
 ** Njikọ Zcash **: 
 Ndị mmepe Zcash atụlewo itinye usoro nkwụsị nke ọma n'ọdịnihu, ikekwe site na "Zcash Posterity Fund".

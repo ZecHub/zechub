@@ -41,7 +41,7 @@
       Store data on your device
    ```
 
-![تثبيت-Zcash-snap](https://hackmd.io/_uploads/Hy5MSG2Oex.png)
+![تثبيت-Zcash-snap](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
 
 
 ---
@@ -59,7 +59,7 @@
 -  Block Explorer URL: https://bscscan.com
 ```
 يؤدي ذلك إلى تفعيل معلومات الشبكة وروابط المستكشف.
-![إضافة-شبكة-مخصصة....](https://hackmd.io/_uploads/S1hq7f2Oel.png)
+![إضافة-شبكة-مخصصة....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
 
 لـ **Zcash Mainnet**;
 ```markdown
@@ -75,13 +75,13 @@
 1. زر [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev).  
 2. انقر على **Connect MetaMask Snap**.  
 
-![محفظة-Zcash-الويب](https://hackmd.io/_uploads/Sk8nSz3dgl.png)
+![محفظة-Zcash-الويب](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
 
 3. وافق على الاتصال.  
 4. اعرض ملخص حساب Zcash الخاص بك، بما في ذلك:
    - العناوين الموحَّدة والعنوان الشفاف
 
-![ملخص-الحساب-الموح....](https://hackmd.io/_uploads/r17c_Mhdel.jpg)
+![ملخص-الحساب-الموح....](/content-images/r17c_Mhdel-f4963826d5.webp)
 
 
 5. انتظر حتى تكتمل المزامنة.
@@ -96,7 +96,7 @@
 > **مبادلة ETH -> ZEC** - استخدم خدمات مثل **LeoDex** وأرسل إلى عنوانك المحمي.  
 > **السحب من منصة التداول** - اسحب ZEC الذي اشتريته إلى عنوان WebZjs المحمي الخاص بك.  
 
-![مبادلة-LEODEX](https://hackmd.io/_uploads/HyLQ0G2ugg.png)
+![مبادلة-LEODEX](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => استخدم العناوين المحمية (z) للحصول على **خصوصية كاملة**.
@@ -111,7 +111,7 @@
    - Shielded recipient address  
    - Amount
 ```
-   ![تحويل-الرصيد](https://hackmd.io/_uploads/rkvcFfhdex.png)
+   ![تحويل-الرصيد](/content-images/rkvcFfhdex-bd55d079eb.webp)
 
 4. أكِّد المعاملة في MetaMask (وقّع المعاملة).  
 5. ستظهر الأموال المستلمة في WebZjs بعد التأكيد.
@@ -145,7 +145,7 @@
    Transparent Address
 ``` 
 
-![مكوّنات-العنوان](https://hackmd.io/_uploads/SyPR2f2_gg.png)
+![مكوّنات-العنوان](/content-images/SyPR2f2_gg-3907c5bf58.webp)
 
 
 

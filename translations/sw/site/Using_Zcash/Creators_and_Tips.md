@@ -59,7 +59,7 @@ Programu ya simu. Uzoefu kamili wa simu.
 
 ## TipZ
 
-[TipZ Logo](https://pbs.twimg.com/profile_images/2023711029805350912/BbXM8cDV_400x400.jpg)
+[TipZ Logo](/content-images/BbXM8cDV_400x400-e6071ba983.webp)
 
 ### Maelezo ya jumla
 

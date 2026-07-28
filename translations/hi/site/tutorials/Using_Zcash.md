@@ -7,14 +7,14 @@
 
 - Zcash का उपयोग करते समय उपयोगी सुझाव
 
-[![वीडियो थंबनेल](https://img.youtube.com/vi/tEfQaYPV0UE/hqdefault.jpg)](https://www.youtube.com/watch?v=tEfQaYPV0UE)
+[![वीडियो थंबनेल](/content-images/hqdefault-3bd7a8849a.webp)](https://www.youtube.com/watch?v=tEfQaYPV0UE)
 
 
 ____
 
 - Zcash भुगतान अनुरोध कैसे बनाएं
 
-[![वीडियो थंबनेल](https://img.youtube.com/vi/l5auYQIzYsQ/hqdefault.jpg)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
+[![वीडियो थंबनेल](/content-images/hqdefault-43e8fb910c.webp)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
 
 
 ____ 
@@ -22,7 +22,7 @@ ____
 
 - अपनी वेबसाइट में Zcash दान विजेट जोड़ना
 
-[![वीडियो थंबनेल](https://img.youtube.com/vi/NbP4BcHC0uM/hqdefault.jpg)](https://www.youtube.com/watch?v=NbP4BcHC0uM)
+[![वीडियो थंबनेल](/content-images/hqdefault-2fabc62715.webp)](https://www.youtube.com/watch?v=NbP4BcHC0uM)
 
 
 ___ 
@@ -30,6 +30,6 @@ ___
 
 - Shielded Transaction कैसे करें
 
-[![वीडियो थंबनेल](https://img.youtube.com/vi/5bx4GhQTi_8/hqdefault.jpg)](https://www.youtube.com/watch?v=5bx4GhQTi_8)
+[![वीडियो थंबनेल](/content-images/hqdefault-3c4fd66e97.webp)](https://www.youtube.com/watch?v=5bx4GhQTi_8)
 
 ___

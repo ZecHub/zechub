@@ -10,36 +10,36 @@
 ### 2. اختر بلدك وشبكتك
 مرّر إلى الزاوية العلوية اليسرى واختر بلدك؛ ثم اختر رصيد الهاتف المحمول وحدّد الشبكة التي ترغب في شحنها (مثال: MTN).
 
-![الخطوة 2 - اختيار البلد والشبكة](https://cdn-images-1.medium.com/max/1200/0*qvB7ZCWaVWa-C2d8)
+![الخطوة 2 - اختيار البلد والشبكة](/content-images/0-qvB7ZCWaVWa-C2d8-db0d4ea372.webp)
 
 ### 3. أدخل التفاصيل وأجرِ عملية الشراء
 أدخل التفاصيل الصحيحة ثم اضغط على زر "Buy Now". افتح سلة التسوّق لعرض طلبك، ثم انقر على متابعة، وأكّد عملية الشراء باستخدام $ZEC.
 
-![الخطوة 3 - شاشة الشراء](https://cdn-images-1.medium.com/max/1200/0*ikF-ooBc9W7olfNt)
+![الخطوة 3 - شاشة الشراء](/content-images/0-ikF-ooBc9W7olfNt-7a4584edda.webp)
 
 ### 4. تفاصيل الدفع
 سيتم تزويدك بالمبلغ المكافئ بعملة $ZEC، إلى جانب عنوان شفاف يجب إرسال الأموال إليه.
 
-![الخطوة 4 - تفاصيل دفع ZEC](https://cdn-images-1.medium.com/max/1200/0*6_YhAhQnsLbrMvHN)
+![الخطوة 4 - تفاصيل دفع ZEC](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
 
 ### 5. أرسل الدفعة
 انسخ المبلغ والعنوان والصقهما بعناية. في حقل المذكرة، أضف عنوان YWallet الخاص بك في حال تم إصدار استرداد.
 
-![الخطوة 5 - إرسال ZEC](https://cdn-images-1.medium.com/max/1200/0*DNnpyemsKcW-k-u-)
+![الخطوة 5 - إرسال ZEC](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
 
 ### 6. المعالجة
 بمجرد إرسال الأموال، ستتم معالجة طلبك خلال بضع دقائق.
 
-![الخطوة 6 - شاشة المعالجة](https://cdn-images-1.medium.com/max/1200/0*LgXuUVLVecqrUW5G)
+![الخطوة 6 - شاشة المعالجة](/content-images/0-LgXuUVLVecqrUW5G-a894c7b2dd.webp)
 
 ### 7. التأكيد
 مرحبًا… لقد تم شحن رصيدي! يمكنك أيضًا تأكيد بريدك الإلكتروني أثناء عملية الدفع حتى تصلك إشعارات عبر البريد الإلكتروني بمجرد اكتمال المعاملة.
 
-![الخطوة 7 - نجاح عملية الشحن](https://cdn-images-1.medium.com/max/1200/0*TJKIcqznQ4Y8_jgo)
+![الخطوة 7 - نجاح عملية الشحن](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
 
 ---
 
-![لقطة شاشة إضافية](https://cdn-images-1.medium.com/max/1200/0*Jn7tD9lb2xtMBpIw)
+![لقطة شاشة إضافية](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)
 
 ### أماكن أخرى لإنفاق ZEC
 

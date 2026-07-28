@@ -43,7 +43,7 @@ Une façon ludique d'apprendre visuellement les [explorateurs de blockchain](htt
 
 Comme pour les adresses ci-dessus, toute transaction sur une blockchain publique affiche publiquement les montants en pleine vue. Cela inclut les montants des adresses d'entrée et de sortie pour toute transaction. Une exception à cela survient lorsque vous choisissez d'utiliser Shielded Zcash -- dans ce cas, tous les montants sont masqués. Pour les petits entrepreneurs qui ont nécessairement besoin de confidentialité pour un *commerce équitable*, c'est un énorme avantage !
 
-![montants](https://user-images.githubusercontent.com/81990132/206312357-e9504151-830f-4fa1-81cb-f23619fd7226.png)
+![montants](/content-images/206312357-e9504151-830f-4fa1-81cb-f23619-210f51493c.webp)
 
 
 ### Ce qu'un explorateur peut et ne peut pas voir sur Zcash
@@ -78,13 +78,13 @@ Voici quatre bons exemples de différents explorateurs de blockchain :
 * [Mintscan](https://hub.mintscan.io/chains/ibc-network)
 
 
-![explorateurBitcoin](https://user-images.githubusercontent.com/81990132/206279968-a06eb0a1-b3a6-49af-a30f-7d871b906eeb.png)
+![explorateurBitcoin](/content-images/206279968-a06eb0a1-b3a6-49af-a30f-7d871b-1418d95d28.webp)
 
 
-![explorateurEth](https://user-images.githubusercontent.com/81990132/206280208-2ce5eddd-157e-4eed-90a0-680c1520ec57.png)
+![explorateurEth](/content-images/206280208-2ce5eddd-157e-4eed-90a0-680c15-488292c345.webp)
 
 
-![explorateurZcash](https://user-images.githubusercontent.com/81990132/206280454-a2c7563f-e82d-47b9-9b58-02eece1c89ee.png)
+![explorateurZcash](/content-images/206280454-a2c7563f-e82d-47b9-9b58-02eece-76db7aec4c.webp)
 
 
-![cosmos](https://user-images.githubusercontent.com/81990132/206316791-2debfd28-923a-44f4-b7d3-701182112c30.png)
+![cosmos](/content-images/206316791-2debfd28-923a-44f4-b7d3-701182-cf39a065fc.webp)

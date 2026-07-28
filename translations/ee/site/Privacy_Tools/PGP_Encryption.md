@@ -14,7 +14,7 @@ PGP dɔwɔnu vovovo geɖewo li, gake esiwo ame geɖe lɔ̃na wu dometɔ aɖewoe 
 * **[PGPMail ƒe agbalẽ](https://www.openpgp.org/software/)**: PGPMail nye asitsa PGP email client si li na Windows kple macOS.
 * **[Posu ƒe agbalẽdzraɖoƒe](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope nye PGP ƒe kpeɖeŋutɔ si woate ŋu azã faa eye wòʋu ɖi na Gmail kple Thunderbird.
 
-![PGP Dɔwɔnuwo](https://github.com/ZecHub/zechub/assets/81990132/44984a75-800a-4f7a-94a5-88827e39b431)
+![PGP Dɔwɔnuwo](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
 
 ## Ale Si Nàwɔ Safuiwo
 
@@ -28,7 +28,7 @@ Be nàzã PGP la, ele be nàwɔ safui eve: Alesi nàwɔ PGP safuiwo:
 
 Woawɔ wò PGP safui eveawo.
 
-![Dzra Safuiwo](https://github.com/ZecHub/zechub/assets/81990132/15721ce1-0a77-4ebe-87f4-33e1455f2a40)
+![Dzra Safuiwo](/content-images/15721ce1-0a77-4ebe-87f4-33e1455f2a40-7699b1771d.webp)
 
 ## Ale Si Nàzã PGP Na Email
 
@@ -36,7 +36,7 @@ Ne ènya wɔ PGP safui eve ko la, àte ŋu azãe atsɔ aɣla e-mailwo ahaɖe wo 
 
 E-mail si wotsɔ nya ɣaɣlawo ŋlɔe la maxlẽ na amesiame si si ame si xɔe ƒe safui ɣaɣla mele o. Be woaɖe e-mail la gɔme la, amesi xɔe ate ŋu azã woƒe safui si nye ame ŋutɔ tɔ atsɔ aɖe e-mail la gɔme.
 
-![PGP ƒe Email](https://github.com/ZecHub/zechub/assets/81990132/dafb761d-f399-40c9-9323-526ba3bd0bc4)
+![PGP ƒe Email](/content-images/dafb761d-f399-40c9-9323-526ba3bd0bc4-98503ad98b.webp)
 
 ## Nuwɔna Nyuitɔ Kekeakewo
 
@@ -44,9 +44,9 @@ Mɔnu nyuitɔ aɖewo siwo nàte ŋu azã le PGP zazã ŋue nye esi:
 
 * Na wò safui si nye ame ŋutɔ tɔ nanɔ dedie. Safui si nye ame ŋutɔ tɔ nye wò PGP safui eveawo ƒe akpa vevitɔ. Ne ame aɖe xɔ wò safui ɣaɣla la, ate ŋu aɖe gbedasi ɖesiaɖe si wotsɔ wò dutoƒo safui ɣla la me.
 
-![Nuwɔna Nyuitɔwo 1](https://github.com/ZecHub/zechub/assets/81990132/39a6fae4-a9a1-4061-a97c-4a9b975f6383)
+![Nuwɔna Nyuitɔwo 1](/content-images/39a6fae4-a9a1-4061-a97c-4a9b975f6383-eced005c8b.webp)
 
-![Nuwɔna Nyuitɔwo 2](https://github.com/ZecHub/zechub/assets/81990132/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd)
+![Nuwɔna Nyuitɔwo 2](/content-images/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd-50ca49a070.webp)
 
 * Ma wò dutoƒo safuia na amesiwo dzi nèka ɖo. Àteŋu ama wò dutoƒo safui to eɖoɖo ɖe wo tẽ, alo to eɖoɖo ɖe PGP safuidzikpɔla me.
 * Zã nyagbe sesẽwo na wò PGP safuiwo. Wò PGP safui nye faɛl si dzraa wò PGP safuiwo ɖo. Ele vevie be nàzã nyagbe sesẽ aɖe atsɔ akpɔ faɛl sia ta.
@@ -61,11 +61,11 @@ Mɔnu nyuitɔ aɖewo siwo nàte ŋu azã le PGP zazã ŋue nye esi:
 * Zi "Encrypt" ƒe dzesi dzi.
 * Woatsɔ nya ɣaɣlawo ade e-mail la me.
 
-![Encrypt Email ƒe nyawo](https://github.com/ZecHub/zechub/assets/81990132/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e)
+![Encrypt Email ƒe nyawo](/content-images/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e-6edd4a03ea.webp)
 
 ---
 
-![Encryption ƒe Sisi](https://github.com/ZecHub/zechub/assets/81990132/da1499e9-fc87-46b2-93ed-28d43cf1fd86)
+![Encryption ƒe Sisi](/content-images/da1499e9-fc87-46b2-93ed-28d43cf1fd86-86fdc87d10.webp)
 
 ## Alesi woatsɔ PGP aɖe e-mail aɖe gɔmee
 
@@ -76,4 +76,4 @@ Mɔnu nyuitɔ aɖewo siwo nàte ŋu azã le PGP zazã ŋue nye esi:
 * Zi "Decrypt" ƒe dzesi dzi.
 * Woaɖe e-mail la ƒe nya ɣaɣlawo gɔme.
 
-![Decrypt Email ƒe nyawo](https://github.com/ZecHub/zechub/assets/81990132/beae714c-020f-4c1e-aa4f-3dd9430670cc)
+![Decrypt Email ƒe nyawo](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)

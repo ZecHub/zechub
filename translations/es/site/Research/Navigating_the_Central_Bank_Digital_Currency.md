@@ -2,7 +2,7 @@
 published: 2023-12-07
 ---
 
-![CBDC](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/cbdc.webp)
+![CBDC](/content-images/cbdc-dfb8827faa.webp)
 # Revelando el lado oscuro: navegando la odisea de las Monedas Digitales de Banco Central (CBDC) en medio de las sombras financieras
 Por: [**Abhishek Tiwari**]
 
@@ -37,7 +37,7 @@ Implementar CBDC se convierte en la misión de nuestro héroe, un viaje plagado 
 __China: Pago Electrónico en Moneda Digital (DCEP)__
 
 
-![DCEP](https://forkast.news/wp-content/uploads/2020/08/dcep-featured.jpg)
+![DCEP](/content-images/dcep-featured-c278cf0ef6.webp)
 
 En las calles distópicas de China, el Pago Electrónico en Moneda Digital (DCEP) se desarrolla no como una maravilla, sino como un presagio de control social con su propio conjunto de ominosas sombras financieras. Las transacciones cotidianas laten con vida, cortesía del dinero programable y del atractivo de las capacidades sin conexión.
 
@@ -50,7 +50,7 @@ La historia de opacidad financiera e interferencia gubernamental en la banca de 
 
 __Estados Unidos: Proyecto Dólar Digital__
 
-![Dólar Digital](https://www.ledgerinsights.com/wp-content/uploads/2020/03/digital-dollar-CBDC.jpg)
+![Dólar Digital](/content-images/digital-dollar-CBDC-8e8120f52f.webp)
 
 En los vastos y desolados paisajes de Estados Unidos, el Proyecto Dólar Digital surge no como un faro de progreso, sino como un testimonio de eficiencia e inclusión, aunque con su cuota de incertidumbres. Como iniciativa del sector privado, busca remodelar el panorama financiero dentro de una narrativa teñida por matices de control corporativo.
 
@@ -62,7 +62,7 @@ Estados Unidos tiene una historia compleja de regulación financiera, con debate
 
 __Suecia: E-Krona__
 
-![E-Krona](https://www.paymentscardsandmobile.com/wp-content/uploads/2018/10/ekrona_logo.png)
+![E-Krona](/content-images/ekrona_logo-4596e38b72.webp)
 
 Mientras atravesamos los paisajes desolados de Suecia, la E-Krona se despliega como una narrativa de adaptabilidad, pero no exenta de trampas financieras. Es una evolución digital centrada en mantener el acceso a la moneda en una sociedad sin efectivo, retratando una sociedad desprovista de las comodidades familiares del efectivo físico.
 
@@ -95,7 +95,7 @@ La vigilancia gubernamental, antes un concepto distante, se convierte en un posi
 
 La inclusión financiera, antes un faro de esperanza, enfrenta las sombras de una posible discriminación. El mal uso de las CBDC podría conducir a un acceso selectivo, violando los principios de igualdad de trato e inclusión. Es una subtrama que desafía la esencia misma de la libertad financiera.
 
-![Flujo](https://blog.digitalasset.com/hubfs/Imported_Blog_Media/futureofCBDC-2.png)
+![Flujo](/content-images/futureofCBDC-2-45075d2d9c.webp)
 
 ## Recursos: un mapa para el explorador digital
 

@@ -20,7 +20,7 @@
 - **得到的输出结果** = 哈希值  
 
 
-![哈希函数示意图](https://pbs.twimg.com/media/Fn_NkFHXgAEtgse.png)
+![哈希函数示意图](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
 
 ### 自己试试看！
 
@@ -58,12 +58,12 @@
 #### 1. 完整性哈希（数据完整性校验）
 数据完整性校验是“完整性哈希”的一个例子。它们用于为数据文件生成校验和，并向用户提供正确性保证。
 
-![完整性哈希示例](https://pbs.twimg.com/media/Fn_Or0MWIAI6sgx.png)
+![完整性哈希示例](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
 
 #### 2. 默克尔树（哈希树）
 **哈希树**或**默克尔树**由分支和叶子节点组成，这些节点都标记有某个数据块的密码学哈希值。
 
-![默克尔树示意图](https://pbs.twimg.com/media/Fn_O7ndWIAY5PA-.jpg)
+![默克尔树示意图](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
 
 默克尔树是**密码学承诺方案**的一个例子。树根 Root 可被视为一个承诺，而叶子节点则可被证明属于该原始承诺的一部分。
 
@@ -75,7 +75,7 @@
 #### 4. 签名哈希（比特币风格区块）
 **SHA256** 是一种“签名哈希”的例子，用于强制保证比特币链上每个区块的不可变性。矿工在生成新区块时，会使用前一个区块的哈希 + 当前区块中所有交易的哈希（hashMerkleRoot）+ 时间戳 + 随机值 / 网络难度。
 
-![SHA256 区块示意图](https://pbs.twimg.com/media/Fn_PaVZXoAApHPf.jpg)
+![SHA256 区块示意图](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
 
 #### 5. Equihash（Zcash 挖矿）
 **Equihash** 是用于挖矿 Zcash 的哈希算法。它也被 Komodo 和 Horizen 等网络使用。

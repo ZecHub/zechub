@@ -100,7 +100,7 @@ Zcash(ZEC)는 프라이버시 중심의 암호화폐로, Equihash 작업 증명 
    - **도구:** HiveOS 또는 SimpleMining OS로 원격 장비 관리 가능.
 3. 지급: 대부분의 풀은 최소 금액 달성 시 자동 지급 (예: 0.05 ZEC). 풀 규칙 확인.
 
-![Zcash 채굴 모니터링 설정](https://raw.githubusercontent.com/ZecHub/zechub/aac601cf85076960d334f4c841867a646a5a2f29/assets/images/zcashMining.jpg)
+![Zcash 채굴 모니터링 설정](/content-images/zcashMining-5ca0019c17.webp)
 
 ## 팁 및 최선의 실천 방법
 - **수익성:** whattomine.com/coins/166-zec-equihash와 같은 계산기 사용. 예: RTX 3060 (~300 Sol/s)는 ZEC $50당 하루 약 0.001 ZEC 수익, 전력 비용 ~$0.50 차감.

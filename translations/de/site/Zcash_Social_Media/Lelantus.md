@@ -6,7 +6,7 @@ Heute werfen wir einen Blick auf **Lelantus**!
 
 Dieses 2019 veröffentlichte Protokoll baut auf Zerocoin auf. Es wird in der Währung **Firo** (früher Zcoin) verwendet, um private On-Chain-Transaktionen zu ermöglichen. Es ähnelt Zcash in mancher Hinsicht, unterscheidet sich aber in den meisten Aspekten deutlich.
 
-![Lelantus Einführung](https://pbs.twimg.com/media/Fsk18DgXsAEc0Ob.jpg)
+![Lelantus Einführung](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
 
 ---
 
@@ -15,7 +15,7 @@ Dieses 2019 veröffentlichte Protokoll baut auf Zerocoin auf. Es wird in der Wä
 - **Zcash** - Baut auf dem **Zerocash**-Protokoll auf  
 - **Firo (Zcoin)** - Baut auf dem **Zerocoin**-Protokoll auf
 
-![Vergleich Zerocash vs. Zerocoin](https://pbs.twimg.com/media/Fsk2Fk7WcAA81ty.png)
+![Vergleich Zerocash vs. Zerocoin](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
 
 ---
 
@@ -28,7 +28,7 @@ Dieses 2019 veröffentlichte Protokoll baut auf Zerocoin auf. Es wird in der Wä
 - **Sigma** - System mit festen Stückelungen
 - **Lelantus 1.0** - Fehlende korrekte Sicherheitsbeweise
 
-![Protokollentwicklung](https://pbs.twimg.com/media/Fsk2NdaWAAAKVgH.png)
+![Protokollentwicklung](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
 
 ---
 
@@ -38,7 +38,7 @@ Das Σ-(Sigma)-Protokoll, das in früheren Versionen von Zcoin/Firo verwendet wu
 
 Dadurch entstanden kleinere Anonymitätsmengen und es wurde die Tür für Timing-Angriffe zwischen Mint- und Redeem-Operationen geöffnet (zusätzlich zum Problem des „verunreinigten Wechselgelds“).
 
-![Sigma Stückelungen](https://pbs.twimg.com/media/Fsk2fxfWcAMUBDo.png)
+![Sigma Stückelungen](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
 
 ---
 
@@ -53,7 +53,7 @@ Wichtige Vorteile:
 
 **Einschränkung**: Die Set-Größe ist derzeit auf **65,000 coins** begrenzt.
 
-![Vorteile von Lelantus](https://pbs.twimg.com/media/Fsk2wK3X0AA6MEe.png)
+![Vorteile von Lelantus](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
 
 ---
 
@@ -65,7 +65,7 @@ Diese funktionieren ähnlich wie **Notes** in Zcash.
 
 Das Coin Commitment wird veröffentlicht und im Ledger gespeichert, wenn die Coin erstellt wird (über Mint- oder Spend-Transaktionen).
 
-![Diagramm zum Coin Commitment](https://pbs.twimg.com/media/Fsk3AWNX0AIHya8.png)
+![Diagramm zum Coin Commitment](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
 
 ---
 
@@ -77,7 +77,7 @@ Lelantus verwendet das klassische **basecoin < - > zerocoin**-Modell.
 
 Wie bei Zcash müssen transparente Transaktionen vom Nutzer ausdrücklich ausgewählt werden.
 
-![Lelantus Ablauf](https://pbs.twimg.com/media/Fsk3HrjXgAMgqmX.png)
+![Lelantus Ablauf](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
 
 ---
 
@@ -87,7 +87,7 @@ Lelantus verwendet **One-of-Many Proofs**, um Eingabewerte zu extrahieren, die z
 
 Diese Proofs werden auch in **Triptych** verwendet (erwähnt in unserem CryptoNote-Thread).
 
-![One-of-Many Proofs](https://pbs.twimg.com/media/Fsk3Z0nWIAAPD4k.jpg)
+![One-of-Many Proofs](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
 
 ---
 
@@ -103,7 +103,7 @@ Wie Monero hat Firo **Dandelion++** implementiert, um den Datenschutz zu erhöhe
 
 Dadurch wird es deutlich schwieriger, den Ursprung einer Transaktion durch Netzwerkanalyse zurückzuverfolgen.
 
-![Erklärung von Dandelion++](https://pbs.twimg.com/media/Fsk4A8VWcAU84MR.png)
+![Erklärung von Dandelion++](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
 
 ---
 
@@ -117,7 +117,7 @@ Es wird außerdem Unterstützung hinzufügen für:
 
 Diese Funktionen entsprechen den Shielded Assets von Zcash.
 
-![Ankündigung von Lelantus-Spark](https://pbs.twimg.com/media/Fsk4jXeXsAACQ3h.jpg)
+![Ankündigung von Lelantus-Spark](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
 
 ---
 

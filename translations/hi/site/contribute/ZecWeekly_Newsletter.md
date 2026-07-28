@@ -17,7 +17,7 @@ ZecWeekly एक न्यूज़लेटर है जो हर रवि�
 - वर्तमान न्यूज़लेटर कार्य के लिए [ZEC Bounties ](https://bounties.zechub.wiki/) देखें।
 - असाइन किए जाने की प्रतीक्षा करें
 
-![ss](https://github.com/user-attachments/assets/149a802c-b64f-4969-ad89-e83ffecf568e)
+![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
 
 
 
@@ -93,7 +93,7 @@ pull request खुलने के बाद, review comments पर नज़�
 - [Zcash Ecosystem Digest | 14 फ़रवरी](https://github.com/ZecHub/zechub/pull/1474)
 
 
-![Merged ZecWeekly newsletter pull request example](https://github.com/user-attachments/assets/9230d68d-6406-4c8a-992c-df84e0d318d8)
+![Merged ZecWeekly newsletter pull request example](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)
 
 अपने काम की किसी उदाहरण से तुलना करते समय, फ़ाइल के स्थान, title format, section order, link descriptions, और क्या pull request सही task से वापस जुड़ती है, इन बातों पर ध्यान दें।
 

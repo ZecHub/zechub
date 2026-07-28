@@ -52,7 +52,7 @@ D’abord, n participants exécutent un protocole de génération distribuée de
 Ensuite, n’importe quels t participants parmi n peuvent exécuter un protocole de signature à seuil afin de générer collaborativement une signature Schnorr valide.
 
 <a href="">
-    <img src="https://static.cryptohopper.com/images/news/uploads/1634081807-frost-flexible-round-optimized-schnorr-threshold-signatures-1.jpg" alt="" width="400" height="300"/>
+    <img src="/content-images/1634081807-frost-flexible-round-optimize-3697a713d9.webp" alt="" width="400" height="300"/>
 </a>
 
 ## Visuel / Analogie
@@ -76,7 +76,7 @@ Cette phase s’appuie sur des techniques connues qui emploient le partage addit
 Lors de l’étape de prétraitement, chaque participant prépare un nombre fixe de paires de points de courbe elliptique (EC) pour une utilisation ultérieure. Cette étape est exécutée une seule fois pour plusieurs phases de signature à seuil.
 
 <a href="">
-    <img src="https://i.ibb.co/nQD1c3n/preprocess.png" alt="" width="400" height="300"/>
+    <img src="/content-images/preprocess-5cbb14f892.webp" alt="" width="400" height="300"/>
 </a>
 
 Tour de signature 1 : Chaque participant Pᵢ commence par générer une paire unique de nonces privés (dᵢ, eᵢ) ainsi que la paire correspondante de points EC (Dᵢ, Eᵢ), puis diffuse cette paire de points à tous les autres participants. Chaque participant stocke ces paires de points EC pour une utilisation ultérieure. Les tours de signature 2 et 3 constituent les opérations effectives dans lesquelles t participants parmi n coopèrent pour créer une signature Schnorr valide.
@@ -86,7 +86,7 @@ Tour de signature 2 : Les participants travaillent ensemble pour créer une sign
 Cette étape empêche les attaques de falsification, car les attaquants ne peuvent pas combiner des parts de signature issues d’opérations de signature distinctes ni permuter l’ensemble des signataires ou les points publiés pour chaque signataire.
 
 <a href="">
-    <img src="https://i.ibb.co/b5rJbXx/sign.png" alt="" width="400" height="300"/>
+    <img src="/content-images/sign-402794d36a.webp" alt="" width="400" height="300"/>
 </a>
 
 Après avoir calculé le défi c, chaque participant peut calculer la réponse zᵢ en utilisant les nonces à usage unique et les parts secrètes de long terme, qui sont des parts secrètes de Shamir t-sur-n (de degré t-1) de la clé de long terme du groupe. À la fin du tour de signature 2, chaque participant diffuse zᵢ aux autres participants.

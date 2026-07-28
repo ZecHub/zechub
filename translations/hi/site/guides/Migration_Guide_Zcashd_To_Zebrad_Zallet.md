@@ -6,7 +6,7 @@ Zcash इकोसिस्टम विकसित हो रहा है। 
 - Zallet, Zodl द्वारा विकसित एक lightweight wallet है, जिसे Zebra nodes के साथ सहज रूप से इंटरफ़ेस करने के लिए बनाया गया है
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ChatGPTImageOct12202508_15_20A](https://hackmd.io/_uploads/SJNBsSYTel.jpg)
+![ChatGPTImageOct12202508_15_20A](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
 यह गाइड आपको **Zcashd** से **Zebrad** और **Zallet** पर माइग्रेट करने की प्रक्रिया से चरण-दर-चरण परिचित कराती है, जिसमें setup, wallet import, और migration के दौरान आने वाली आम समस्याओं का समाधान शामिल है।
@@ -37,7 +37,7 @@ Deprecation को एक तरफ रख दें, तब भी माइग
 * अपने zcashd node से अपनी wallet.dat (या कोई भी अन्य wallet file / key store) का बैकअप लें।
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (1)](https://hackmd.io/_uploads/SJ_0mUtTxg.svg)
+![bash (1)](/content-images/SJ_0mUtTxg-1441185a72.svg)
 </div>
 
 * अपनी zcash.conf और किसी भी custom settings को सुरक्षित रखें।
@@ -63,7 +63,7 @@ Deprecation को एक तरफ रख दें, तब भी माइग
 **Linux**/**macOS** पर:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (2)](https://hackmd.io/_uploads/HJhYu8Y6el.svg)
+![bash (2)](/content-images/HJhYu8Y6el-d2198f22c9.svg)
 </div>
 
 यह zebrad का नवीनतम stable version install करता है।
@@ -71,20 +71,20 @@ Deprecation को एक तरफ रख दें, तब भी माइग
 **Option B: source से Build करें**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (3)](https://hackmd.io/_uploads/Syg8FUK6eg.svg)
+![bash (3)](/content-images/Syg8FUK6eg-b4557e52e0.svg)
 </div>
 
 Build के बाद, binary को अपने path में move करें:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![migration 11](https://hackmd.io/_uploads/BJ0zjLY6ll.png)
+![migration 11](/content-images/BJ0zjLY6ll-f77354d701.webp)
 </div>
 
 **4. Configuration & Launch**  
 एक default config generate करें:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![migration2](https://hackmd.io/_uploads/HJV1C8tTxx.png)
+![migration2](/content-images/HJV1C8tTxx-5823395651.webp)
 </div>
 
 अपनी पसंद के अनुसार **zebrad.toml** को edit करें (listen address, ports, state directory, caching)।
@@ -92,7 +92,7 @@ Build के बाद, binary को अपने path में move करे
 **node शुरू करें:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/H1KPkvt6gl.png)
+![image](/content-images/H1KPkvt6gl-864c48ca40.webp)
 </div>
 
 node genesis से sync करना शुरू कर देगा - hardware और network के आधार पर इसमें कई घंटे (या उससे अधिक) लग सकते हैं।
@@ -106,7 +106,7 @@ binaries के लिए Zallet का GitHub / release page देखें।
 **या source से build करें:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/SyUFxvFTex.png)
+![image](/content-images/SyUFxvFTex-5bb10ee1d3.webp)
 </div>
 
 * GUI या CLI लॉन्च करें (जैसा आपका installation प्रदान करता है)।
@@ -118,7 +118,7 @@ Private Key Dump के माध्यम से
 zcashd पर, अपनी private keys export करें:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (4)](https://hackmd.io/_uploads/rJzgzwFagx.svg)
+![bash (4)](/content-images/rJzgzwFagx-4a0874f250.svg)
 </div>
 
 * Zallet में, Import Keys या उससे मिलते-जुलते विकल्प का चयन करें।
@@ -143,13 +143,13 @@ Import हो जाने के बाद, Zallet आपके Zebrad node स
 आप अपने node की sync status को यह चलाकर सत्यापित कर सकते हैं:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/SyIyVDY6xl.png)
+![image](/content-images/SyIyVDY6xl-10d6bed7b8.webp)
 </div>
 
 या logs देखें।
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/r1HfVPF6gg.png)
+![image](/content-images/r1HfVPF6gg-b6b76e9907.webp)
 </div>
 
 **8. Troubleshooting**

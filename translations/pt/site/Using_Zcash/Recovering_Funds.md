@@ -28,7 +28,7 @@ YWallet é reconhecida como uma das melhores opções para recuperar fundos inac
 
 4. No canto superior direito, clique no sinal de mais 
 
-![Botão de sinal de mais](https://i.postimg.cc/xJbVz7gB/plus.png)
+![Botão de sinal de mais](/content-images/plus-3ca2c1649a.webp)
 
 5. Ative 'Restore an account' 
 
@@ -46,7 +46,7 @@ YWallet é reconhecida como uma das melhores opções para recuperar fundos inac
 
 4. Insira sua frase semente (Gap limit procura endereços adicionais gerados pela semente)
 
-![Tela de Sweep Funds](https://i.postimg.cc/3055CBcN/sweep.png)
+![Tela de Sweep Funds](/content-images/sweep-6c956553a9.webp)
 
 5. Insira o Value Pool para o destino que você deseja usar (corretoras usam Transparent)
 

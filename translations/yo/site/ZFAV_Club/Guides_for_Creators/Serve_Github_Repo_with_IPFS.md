@@ -26,7 +26,7 @@ Lati bẹrẹ, yan ibi ipamọ Git ti o fẹ lati gbalejo & ṣe ẹda rẹ:
 
 Run Command: “git clone https://github.com/zechub/zechub”
 
-![https://i.ibb.co/HxFX37b/Screenshot-from-2023-05-20-14-14-46.png](https://i.ibb.co/HxFX37b/Screenshot-from-2023-05-20-14-14-46.png)
+![/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
 
 Wàyí o, kí á ṣe é ní ìmúrasílẹ̀ láti ṣe àdàkọ rẹ̀ nípasẹ̀ IPFS.
 
@@ -34,7 +34,7 @@ cd zechub git update-server-info
 
 Tú àwọn ohun Gits:
 
-![](https://i.ibb.co/25RwyWz/image-2024-04-20-175848513.png)
+![](/content-images/image-2024-04-20-175848513-2ceb90dd7b.webp)
 
 Ṣiṣe eyi yoo gba IPFS laaye lati yọ awọn ohun ti o ba ṣe imudojuiwọn ibi ipamọ Git nigbamii.
 
@@ -48,11 +48,11 @@ $ pwd
 
 $ ipfs àfikún -r 
 
-![https://i.ibb.co/LJgK1q3/Screenshot-from-2023-05-20-14-22-38.png](https://i.ibb.co/LJgK1q3/Screenshot-from-2023-05-20-14-22-38.png)
+![/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp](/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp)
 
 Awọn esi CID: Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
 
-![https://i.ibb.co/GvhCLwn/Screenshot-from-2023-05-20-14-26-34.png](https://i.ibb.co/GvhCLwn/Screenshot-from-2023-05-20-14-26-34.png)
+![/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
 
 Ó dára gan-an! Wàyí o, ìpamọ́ rẹ ti wà lórí ìkànnì náà.
 

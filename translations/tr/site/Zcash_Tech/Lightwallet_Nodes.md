@@ -37,25 +37,25 @@ __Ywallet/Zingo/Zashi/eZcash'i Açın__: Cihazınızda tercih ettiğiniz cüzdan
 
 Ywallet için bu, sağ üst köşedeki dişli simgesidir - Zcash sekmesine gidin. 
 
-![SmartSelect_20250313_105128](https://github.com/user-attachments/assets/b0a2910b-dbdf-4292-8e69-af5a386aa183)
+![SmartSelect_20250313_105128](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
 
 #### Zingo:
 
 Zingo için bu, sol üst köşedeki hamburger menüsündedir, ardından ayarlara tıklayın ve aşağı kaydırın
 
-![SmartSelect_20250313_105737_Zingo](https://github.com/user-attachments/assets/ea8f7672-e644-41a5-a422-db131740404a)
+![SmartSelect_20250313_105737_Zingo](/content-images/ea8f7672-e644-41a5-a422-db131740404a-2626f5fa79.webp)
 
 #### Zashi:
 
 Zashi için bu, sağ üst köşedeki dişli simgesidir - Gelişmiş Ayarlar'a gidin ve ardından bir sunucu seçin
 
-![SmartSelect_20250313_110200_Zashi](https://github.com/user-attachments/assets/5a9d050a-8308-4cc2-907e-513072066aed)
+![SmartSelect_20250313_110200_Zashi](/content-images/5a9d050a-8308-4cc2-907e-513072066aed-0bd414d520.webp)
 
 #### eZcash
 
 eZcash için bu, sol üst köşedeki hamburger menüsündedir, ardından Ayarlar'a tıklayın, Gelişmiş'e dokunun
 
-![SmartSelect_20250313_110616](https://github.com/user-attachments/assets/655c0172-61a0-4322-b8cf-4eee4bb53b51)
+![SmartSelect_20250313_110616](/content-images/655c0172-61a0-4322-b8cf-4eee4bb53b51-0b93df2e71.webp)
 
 
 ## Sonuç

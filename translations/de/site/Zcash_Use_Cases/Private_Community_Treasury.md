@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/amochuko/zechub/68acdb6f311bff85fe8ded7b47b2e362d7712474/assets/icons/people-community-add-svgrepo-com.svg" width="24" height="24" alt="Journalistensymbol"/>  Eine private Community-Treasury mit Zcash betreiben
+# <img src="/content-images/people-community-add-svgrepo-com-3c6ac75333.svg" width="24" height="24" alt="Journalistensymbol"/>  Eine private Community-Treasury mit Zcash betreiben
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
@@ -14,7 +14,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Benutzersymbol"/> Für wen ist das?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Benutzersymbol"/> Für wen ist das?
 
 - DAOs und Communities
 - Förderprogramme
@@ -24,7 +24,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Warnsymbol"/> Das Problem
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Warnsymbol"/> Das Problem
 
 Community-Mittel in öffentlichen Blockchains legen Folgendes offen:
 - Gesamtsaldo der Treasury
@@ -38,7 +38,7 @@ Dadurch entstehen Risiken:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Werkzeugsymbol"/> Warum Zcash?
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Werkzeugsymbol"/> Warum Zcash?
 
 Zcash ermöglicht Communities:
 - Mittel privat zu verwahren
@@ -47,7 +47,7 @@ Zcash ermöglicht Communities:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Werkzeugsymbol"/> Was du brauchst
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Werkzeugsymbol"/> Was du brauchst
 
 - Eine Zcash-Wallet (oder mehrere Wallets zur Rollentrennung)
 - Klare interne Prozesse zur Verwaltung der Mittel
@@ -55,7 +55,7 @@ Zcash ermöglicht Communities:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Schrittsymbol"/> Schritt-für-Schritt-Anleitung
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Schrittsymbol"/> Schritt-für-Schritt-Anleitung
 
 ### Schritt 1: Eine abgeschirmte Treasury-Adresse erstellen
 
@@ -99,7 +99,7 @@ Beispiel-Memo:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Abbrechen-Symbol"/> Häufige Fehler, die du vermeiden solltest
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Abbrechen-Symbol"/> Häufige Fehler, die du vermeiden solltest
 
 - Transparente Adressen für die Treasury verwenden  
 - Wallet-Guthaben öffentlich machen  
@@ -109,7 +109,7 @@ Beispiel-Memo:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="Erledigt-Symbol"/> Ergebnis
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="Erledigt-Symbol"/> Ergebnis
 
 Deine Community kann:
 - Mittel sicher verwalten
@@ -119,7 +119,7 @@ Deine Community kann:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Kettenglied-Symbol"/> Verwandt
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Kettenglied-Symbol"/> Verwandt
 
 - [Privatsphäre - Best Practices](/privacy/best-practices)
 - [Geld senden, ohne die Identität zu verknüpfen](/use-cases/send-money-without-linking-identity)
@@ -127,7 +127,7 @@ Deine Community kann:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/progress-arrows-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Fortschrittssymbol"/> Fortschritt
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Fortschrittssymbol"/> Fortschritt
 
 **Schritt 5 von 6**
 

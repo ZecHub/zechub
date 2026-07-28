@@ -4,7 +4,7 @@
 
 Crosslink 协议是 Zcash 演进中的一项里程碑式发展，正推动其迈向 **Hybrid Proof-of-Stake (PoS)** 与 **Proof-of-Work (PoW)** 模式。传统 PoW 虽然在保障网络安全方面可靠，但因其能耗以及与工业化挖矿相关的中心化风险而受到批评。Crosslink 引入了一种混合系统，将 PoW 久经验证的稳健性与 PoS 在效率和治理方面的优势结合起来。
 
-![image](https://github.com/user-attachments/assets/a2ffb19d-e570-4723-b669-a66e14fc6b71)
+![image](/content-images/a2ffb19d-e570-4723-b669-a66e14fc6b71-a727c958de.webp)
 
 这一转型符合区块链创新的全球趋势，即各项目正转向环境可持续且更加去中心化的机制。Crosslinks 的双重共识模型确保 Zcash 在保持其强大密码学隐私保障的同时，也能不断演进以应对当代挑战。
 
@@ -24,7 +24,7 @@ Crosslink 协议是为 Zcash 混合 Proof-of-Work/Proof-of-Stake (PoW/PoS) 阶�
 
 其实施计划包括一份路线图，其中估算了将 Crosslink 2* 集成到 Zcash 的 Zebra 客户端中的工程成本。该分阶段部署重点在于平衡利益相关者激励、减少干扰，并与 Zcash 在可扩展性、可用性和去中心化方面的目标保持一致。随着人们对该协议稳健安全属性的信心不断增强，它作为 Zcash 演进关键一步的潜力也进一步巩固。通过解决能源效率问题并增强共识机制，Crosslink 为不断演变的区块链挑战提供了一个面向未来的解决方案。更多详情请参阅 [GitHub 仓库](https://github.com/ShieldedLabs/crosslink-deployment) 和 [Zcash 社区论坛](https://forum.zcashcommunity.com)。
 
-![image](https://github.com/user-attachments/assets/b34afda4-fe33-448f-b0dd-279fd6cef1f5)
+![image](/content-images/b34afda4-fe33-448f-b0dd-279fd6cef1f5-73f58cdcc6.webp)
 
 
 #### **Crosslink 的目标与宗旨**
@@ -55,7 +55,7 @@ Crosslink 协议旨在为 Zcash 提供两种账本：**finalized ledger (LOG_fin
 
 低延迟账本最多只比最终确定账本多延伸 *L* 个区块。它仅依赖区块链协议即可确保回滚安全，并保持不逊于现有 Zcash 模型的延迟与安全性。在精简版 Crosslink 2* 设计中，低延迟账本通过作为一条 PoW 链运行，简化了开发与采用过程。
 
-![image](https://github.com/user-attachments/assets/fd039664-4852-4fb0-8c88-0615f1ed116e)
+![image](/content-images/fd039664-4852-4fb0-8c88-0615f1ed116e-41459b81dc.webp)
 
 
 ### 有界可用性与安全模式

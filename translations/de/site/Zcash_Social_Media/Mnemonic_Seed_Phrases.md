@@ -13,7 +13,7 @@ Wiederherstellungsphrasen werden durch die **BIP-39**-Spezifikation definiert, d
 
 Die Erstellung von Wiederherstellungsphrasen beginnt mit der Erzeugung von **Zufälligkeit**. Mehr Entropie bedeutet höhere Sicherheit. **128 Bit** Entropie gelten für die meisten Nutzer als ausreichend.
 
-![Seed-Phrasen-Konzept](https://pbs.twimg.com/media/FooM3qWWACgrwzn.jpg)
+![Seed-Phrasen-Konzept](/content-images/FooM3qWWACgrwzn-f222c4081f.webp)
 
 Abhängig von der Länge der anfänglichen Entropie ist die Wiederherstellungsphrase **12 bis 24 Wörter** lang.
 
@@ -28,7 +28,7 @@ Wir beginnen mit der Erzeugung von **128 Bit** Entropie.
 Wir hashen die Entropie mit **SHA256**. Die ersten paar Bits dieses Hashes werden zur Prüfsumme.  
 Dadurch erhalten wir einen eindeutigen Fingerabdruck für unsere Entropie.
 
-![Diagramm Entropie + Prüfsumme](https://pbs.twimg.com/media/FooNoOEXgAAu-g6.png)
+![Diagramm Entropie + Prüfsumme](/content-images/FooNoOEXgAAu-g6-613238fa7e.webp)
 
 ### 3. In 11-Bit-Blöcke aufteilen
 Die gesamten 132 Bit (128 Entropie + 4 Prüfsumme) werden in Blöcke von 11 Bit aufgeteilt.
@@ -39,7 +39,7 @@ BIP-39-Wortlisten enthalten genau **2048 Wörter** (Englisch, Spanisch, Chinesis
 
 Diese Zahlen werden verwendet, um das entsprechende Wort in der Wortliste zu finden.
 
-![Beispiel für Wortzuordnung](https://pbs.twimg.com/media/FooN9rfXEBoQuU2.png)
+![Beispiel für Wortzuordnung](/content-images/FooN9rfXEBoQuU2-d11331fc0a.webp)
 
 **Ergebnis:** Wir haben jetzt eine sichere, für Menschen lesbare Wiederherstellungsphrase mit 12 Wörtern!
 
@@ -59,7 +59,7 @@ Der Wallet-Seed wird aus der mnemonischen Phrase mithilfe einer **Key Derivation
 
 Dadurch entsteht ein **64-Byte-(512-Bit)-Seed**.
 
-![Seed zu Master-Schlüsseln](https://pbs.twimg.com/media/FooOuumXEAgcBm1.jpg)
+![Seed zu Master-Schlüsseln](/content-images/FooOuumXEAgcBm1-dc7c66b84a.webp)
 
 ### Master-Schlüssel
 Der Seed wird in zwei 32-Byte-Sequenzen aufgeteilt:
@@ -83,7 +83,7 @@ Aus einem **Expanded Spending Key** leiten wir ab:
 
 Verschiedene Ableitungsmechanismen erzeugen externe Adressen, die sich dafür eignen, sie Absendern über abgeschirmte Pools hinweg zu geben (Sapling & Orchard).
 
-![Hierarchie der Zcash-Schlüsselableitung](https://pbs.twimg.com/media/FooPKd4XEBUQhJ6.jpg)
+![Hierarchie der Zcash-Schlüsselableitung](/content-images/FooPKd4XEBUQhJ6-af133c01bf.webp)
 
 Zcash unterstützt außerdem **interne Adressen** für Wallet-Vorgänge wie Auto-Shielding.
 
