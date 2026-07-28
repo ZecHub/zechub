@@ -60,6 +60,7 @@ Mining pools distribute work and share rewards based on your contributed hashrat
 - **F2Pool (zec.f2pool.com)**: 2% fee, PPS+ payout, multi-coin support. Large pool (~2.57 GSol/s).
 - **ViaBTC (zec.viabtc.com)**: 2% fee (PPS+), user-friendly dashboard, global servers.
 - **AntPool (zec.antpool.com)**: 1% fee, from Bitmain, good for ASICs (~494 MSol/s).
+-  **Sovright ([mining.sovright.com](https://mining.sovright.com/))**: Community driven mining pool focused on miner sovereignty and network decentralization. Features **Stratum V2** support (NU6 public testnet), mandatory **shielded payouts** to z-addresses, open source pool software, transparent payout logic, no account registration, and support for CPU testing, Equihash ASICs, and AI assisted miner deployment. Integrated with the **Sovright Relay Network** for low latency block propagation and reduced stale shares. (Currently available on the NU6 public testnet.) 
 - Others: Kryptex Pool, Luxor (check poolwatch.io/coin/zcash for real-time stats).
 
 1. Visit the pool's website and create an account (email or no registration for some like 2Miners).
@@ -86,6 +87,8 @@ Mining pools distribute work and share rewards based on your contributed hashrat
      - Username: YOUR_WALLET_ADDRESS.WORKER_NAME
      - Password: x (or blank).
   4. Save and reboot the miner.
+- For Sovright Mining ((NU6 Public Testnet)
+  [Sovright](https://mining.sovright.com/) provides one of the simplest ways to begin mining on the Zcash **NU6 Public Testnet**. Miners can connect directly to     the Sovright testnet mining pool    using any compatible Equihash mining software or ASIC firmware by following the connection details published on the official   website. For developers and users experimenting with automated deployments, Sovright also provides AI-assisted onboarding. A single setup prompt can be used       with supported AI coding agents to automatically configure a compatible testnet miner, making it easy to evaluate mining without manually editing configuration    files.
 - For other software (e.g., GMiner):
   ```
   miner.exe --algo 125_4 --server zec.2miners.com:1010 --user YOUR_WALLET_ADDRESS.WORKER_NAME --pass x
@@ -100,8 +103,25 @@ Mining pools distribute work and share rewards based on your contributed hashrat
    - Software console: Watch for errors, temperature (keep < 80 degrees C).
    - Tools: Use HiveOS or SimpleMining OS for remote rig management.
 3. Payouts: Most pools pay automatically when you reach the minimum (e.g., 0.05 ZEC). Check pool rules.
+### Improving Block Propagation with the Sovright Relay Network
 
-   
+In Proof-of-Work mining, discovering a new block is only the first step. That block must then be propagated across the network as quickly as possible so that every mining pool can immediately begin mining the next block. Any delay in propagation increases the likelihood that miners will continue working on an outdated block template, producing stale shares that cannot contribute to the blockchain.
+
+The **Sovright Relay Network** ([relay.sovright.com](https://relay.sovright.com/)) is a public, UDP-based, low-latency block relay overlay built for the Zcash peer-to-peer network. Rather than replacing the native network, it complements existing peer-to-peer communication by rapidly forwarding newly discovered blocks between participating mining pools through globally distributed relay nodes. This helps reduce propagation delays and keeps miners synchronized with the latest block.
+
+#### Benefits of the Sovright Relay Network
+
+* **Faster block propagation** by distributing newly discovered blocks with minimal delay across participating mining pools.
+* **Lower stale share rates**, allowing miners to spend more time performing productive work instead of mining outdated block templates.
+* **Reduced orphan rates**, improving overall mining efficiency and reducing wasted computational effort.
+* **Fairer competition** by helping reduce the networking advantage traditionally available to the largest mining pools with private relay infrastructure.
+* **Improved network resilience** through publicly accessible relay infrastructure that benefits the broader Zcash mining ecosystem.
+* **Supports decentralization** by enabling smaller and independent mining pools to receive newly discovered blocks more quickly and compete more effectively.
+
+> **Note**
+>
+> Individual miners do not need to configure the Sovright Relay Network. When mining through a participating pool such as **Sovright Mining Pool**, block propagation is handled automatically by the pool infrastructure. Mining pool operators interested in integrating with the relay network can find deployment documentation and technical details at **https://relay.sovright.com/**.
+ 
 ![Zcash Mining Monitoring Setup](/content-images/zcashMining-5ca0019c17.webp)
 
 
