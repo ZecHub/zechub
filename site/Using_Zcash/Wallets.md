@@ -290,7 +290,7 @@
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
-![logo](/content-images/zapp_(2).webp "Zapp")
+![logo](/content-images/zapp.webp "Zapp")
 - Devices: Mobile 
 - Operating System: Android 
 - Wallet Support: Unified Address 
@@ -301,7 +301,7 @@
 ---
 
 ## [Zecd](https://zecd.org/quickstart.html)
-![logo](/content-images/zecd_(1).webp "Zecd")
+![logo](/content-images/zecd.webp "Zecd")
 - Devices: Desktop 
 - Operating System: Linux
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Private Key | Spending Key | Wallet Backup / Key Export | Full Node Wallet 
