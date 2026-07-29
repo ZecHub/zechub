@@ -1,7 +1,7 @@
 # Elliptische Kurven: Wo Zcashs Schlüssel und Commitments entstehen
 ##### Originalforschung von [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![Alternativtext](image-10.png)
+![Alternativtext](/content-images/image-10-c1097b22d7.webp)
 
 ### Eine Einbahnstraße, gebaut aus Punkten auf einer Kurve
 
@@ -38,7 +38,7 @@ y^2 = x^3 + ax + b
 
 Über den gewöhnlichen Zahlen sieht sie aus wie eine glatte, geschwungene Kurve, oft mit einer abgerundeten Schleife und zwei Ausläufern:
 
-![Alternativtext](image-14.png)
+![Alternativtext](/content-images/image-14-1d2e8c25d2.webp)
 
 Der wirklich überraschende Teil: **Man kann zwei Punkte auf dieser Kurve „addieren“ und erhält einen dritten Punkt auf derselben Kurve.** Das ist keine gewöhnliche Addition von Koordinaten. Es ist eine geometrische Regel, und sie ist leichter zu *sehen* als zu beschreiben.
 
@@ -50,7 +50,7 @@ Um `P + Q` zu addieren:
 2. Diese Linie trifft die Kurve an genau einer weiteren Stelle. Nenne sie `R*`.
 3. **Spiegele `R*` an der horizontalen Achse.** Dieses Spiegelbild ist die Antwort, `P + Q`.
 
-![Alternativtext](image-11.png)
+![Alternativtext](/content-images/image-11-61f3df1989.webp)
 
 ### Die Tangentenregel (einen Punkt mit sich selbst addieren)
 
@@ -117,7 +117,7 @@ Jetzt kommt die Magie. Betrachte die beiden Richtungen:
 
 Diese Asymmetrie ist die **Einbahnstraße**, die wir in Abschnitt 1 brauchten. Das Rückwärtsproblem („Welches `k` hat diesen Punkt erzeugt?“) heißt **Elliptic Curve Discrete Logarithm Problem (ECDLP)**, und auf den Kurven, die Zcash verwendet, löst es nach heutigem Kenntnisstand keine bekannte Methode vor dem Wärmetod des Universums.
 
-![Alternativtext](image-12.png)
+![Alternativtext](/content-images/image-12-86b9ace6cb.webp)
 
 > Auf unserer Spielzeugkurve über `F_17` *könntest* du `k` einfach aus der Tabelle ablesen, weil sie nur 19 Punkte hat. Echte Kurven haben ungefähr `2^(255)` Punkte. Die Tabelle hätte mehr Zeilen, als es Atome im Universum gibt, also ist „einfach ablesen“ keine Option. Gerade ihre Kleinheit macht die Spielzeugkurve lehrbar – und genau deshalb ist sie auch nicht sicher.
 
@@ -160,7 +160,7 @@ Die Fingerabdrücke sind konkret und überprüfbar.
 
 Warum eine Kurve in das Feld einer anderen „eingebettet“ wird und warum ein *Zyklus* aus zwei Kurven nützlich ist, ist real und wichtig, gehört aber in die Artikel über Proof-Systeme. Für jetzt ist die Kernaussage klar: **Jeder Zcash-Schlüssel ist ein Skalar mal einem Generator, und jedes Zcash-Commitment ist eine Summe von Kurvenpunkten**, die auf einer dieser benannten Kurven leben.
 
-![Alternativtext](image-13.png)
+![Alternativtext](/content-images/image-13-ffdd703c60.webp)
 
 ---
 

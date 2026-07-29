@@ -20,7 +20,7 @@ Awọn iṣẹ Hash gba ohun ti o wọle ti eyikeyi gigun ati ṣe agbejade iṣ
 - **Ohun tí ó jẹ́ àbájáde rẹ̀** = Iye Hash 
 
 
-![Àwòrán iṣẹ́ hash](https://pbs.twimg.com/media/Fn_NkFHXgAEtgse.png)
+![Àwòrán iṣẹ́ hash](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
 
 ### O lè gbìyànjú ẹ̀ wò fúnra rẹ!
 
@@ -58,12 +58,12 @@ Awọn iṣẹ Hash Cryptographic gbọdọ ni awọn ohun-ini ** 3 wọnyi **:
 #### 1. Ìdánilójú Ìṣòtítọ́ (Ìdánwò Ìdákẹ́ńkọ́pọ̀ Ìsọfúnni)
 Awọn ayẹwo iduroṣinṣin data jẹ apẹẹrẹ ti "Integrity Hashing". Wọn lo lati ṣe agbekalẹ awọn iṣayẹwo lori awọn faili data ati pese idaniloju ti ododo si olumulo kan.
 
-![Àpẹẹrẹ Ìdálẹ́gbẹ́ Ọkàn](https://pbs.twimg.com/media/Fn_Or0MWIAI6sgx.png)
+![Àpẹẹrẹ Ìdálẹ́gbẹ́ Ọkàn](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
 
 #### Àwọn Igi Merkle (Igi Hash)
 A **hash tree** or **Merkle tree** is composed of branches and leaf nodes that are labelled with the cryptographic hash of a data block.
 
-[Àwòrán igi Merkle](https://pbs.twimg.com/media/Fn_O7ndWIAY5PA-.jpg)
+[Àwòrán igi Merkle](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
 
 Awọn igi Merkle jẹ apẹẹrẹ ti ** eto ifaramọ crypto **. A wo gbongbo igi bi ifaramó ati awọn igun oju ewe ti a fihan lati jẹ apakan ti ifarada atilẹba.
 
@@ -75,7 +75,7 @@ Ninu Zcash **Sapling** & **Orchard** awọn adagun ti o ni aabo, a lo **Ile-iṣ
 #### 4. Hash ìmúṣẹ (àwọn àlàfo Bitcoin-style)
 **SHA256** jẹ́ àpẹẹrẹ "Signature hash" tí wọ́n máa ń lò láti mú kí ìdìpọ̀ kọ̀ọ̀kan nínú Bitcoin jẹ́ aláìṣeé yí padà. Àwọn oníṣẹ́ ìwakùsà máa ń lo ìdìpò̀ ti ìdìpákọ̀ tó ṣáájú + Ìdìpọ̀ ti gbogbo ìsòwò nínú ìdìwọ̀ tó wà nísinsìnyìí (hashMerkleRoot) + Àmì àsìkò + iye tí kò ṣeé ṣe/ìṣòro nẹ́ẹ̀tì fún àwọn ìdìpẹ̀ tuntun.
 
-[SHA256 Àkọsílẹ̀ àlàfo!](https://pbs.twimg.com/media/Fn_PaVZXoAApHPf.jpg)
+[SHA256 Àkọsílẹ̀ àlàfo!](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
 
 #### 5. Equihash (Ìwakùsà Zcash)
 **Equihash** ni alugoridimu hashing ti a lo ninu iwakusa Zcash. O tun lo nipasẹ awọn nẹtiwọọki bii Komodo & Horizen.

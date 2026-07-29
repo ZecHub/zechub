@@ -1,5 +1,5 @@
 # Sovright ƒe nyawo
-![Sovright ƒe nya](https://i.ibb.co/vvZNvNDT/sovright.png)
+![Sovright ƒe nya](/content-images/sovright-16a27c0d24.webp)
 
 **Sovright** nye United States 501(c3) habɔbɔ si mekpɔa viɖe aɖeke tso eme o si tsɔ eɖokui na be yeado alɔ amegbetɔ ƒe ɖokuisinɔnɔ. Dze egɔme kple ŋkuléle ɖe Zcash ƒe xɔtuɖoɖowo, tomenukuƒewo, ɖoɖowɔɖiwo ƒe ŋgɔyiyi, kple lãwo ƒe agbenɔnɔ ƒe kpekpeɖeŋunana ŋu la, dɔa tua dɔwɔnuwo kple dɔwɔna siwo woɖo be woado ŋusẽ ame ŋutɔ ƒe dijitaal ga ƒe xɔtuɖoɖowo eye woado alɔ Zcash ƒe kadodoa ƒe tenɔnɔ ɖe nɔnɔme sesẽwo nu ɣeyiɣi didi.
 

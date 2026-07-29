@@ -5,7 +5,7 @@
 От нуля до нулевого знания возвращается с новой темой!  
 На этой неделе мы изучаем **доверенные среды исполнения (TEE)** — как они используются в приватных монетах и других блокчейн-приложениях.
 
-![Введение о доверенных средах исполнения](https://pbs.twimg.com/media/Fquj-h2WcAIgSnL.jpg)
+![Введение о доверенных средах исполнения](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
 
 ---
 
@@ -31,7 +31,7 @@
 
 Это отличается от Zcash, который использует **нулевые доказательства знания** для обеспечения приватности. В Zcash защищенные транзакции публикуются и проверяются в открытом виде без раскрытия дополнительных данных сети. Активы Zcash Shielded следуют тому же принципу.
 
-![Диаграмма TEE Secret Network](https://pbs.twimg.com/media/FqulPjNX0AEfjRp.png)
+![Диаграмма TEE Secret Network](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
 
 Для подробного объяснения того, как реализованы TEE на Secret Network, прочитайте этот отличный материал от @l_woetzel:  
 https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerability-33ca94b6df38
@@ -55,11 +55,11 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 - Не было ли взлома приложения  
 - Выполняется ли оно безопасно внутри изолированной области Intel SGX
 
-![Объяснение дистанционной аттестации](https://pbs.twimg.com/media/FqumRjoWwAAeT-M.png)
+![Объяснение дистанционной аттестации](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
 
 Изолированные области также содержат приватные ключи подписи и аттестации, которые недоступны извне.
 
-![Защита ключей изолированной области](https://pbs.twimg.com/media/Fqumv83XoAQq-MO.png)
+![Защита ключей изолированной области](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
 
 ---
 
@@ -69,7 +69,7 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 
 **Уплотнение данных** шифрует данные внутри изолированной области с использованием ключа, полученного от процессора. Зашифрованный блок может быть расшифрован **только на том же системе**.
 
-![Диаграмма уплотнения данных](https://pbs.twimg.com/media/FqunBwyWYAA-TR3.jpg)
+![Диаграмма уплотнения данных](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
 
 ---
 
@@ -79,7 +79,7 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 
 Зашифрованные данные поступают в TEE вместе со смарт-контрактом. Они расшифровываются, обрабатываются и шифруются снова перед выходом из изолированной области.
 
-![Поток TEE Oasis Network](https://pbs.twimg.com/media/FqunJRDXwAMt4Ob.png)
+![Поток TEE Oasis Network](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
 
 ---
 
@@ -94,7 +94,7 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 
 **TEE** идеально подходят для безопасного генерирования и использования ключей валидаторов.
 
-![Безопасность Tendermint & PoS](https://pbs.twimg.com/media/Fqun0HEX0AAooxW.jpg)
+![Безопасность Tendermint & PoS](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
 
 ---
 

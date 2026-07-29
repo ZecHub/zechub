@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Seite bearbeiten"/>
 </a>
 
-# <img src="https://i.ibb.co/fGYHTfZ5/Shielded-labs-shield-white-2.png" alt="Alt-Text" width="50"/>    Shielded Labs
+# <img src="/content-images/Shielded-labs-shield-white-2-27aef199ae.webp" alt="Alt-Text" width="50"/>    Shielded Labs
 
 
 [Shielded Labs](https://shieldedlabs.net) wurde im Dezember 2022 als Schweizer Verein gegründet, steht in keiner Verbindung zu Zcash Community Grants (ZCG) und hat keine Pläne, eine ZCG-Finanzierung zu beantragen.

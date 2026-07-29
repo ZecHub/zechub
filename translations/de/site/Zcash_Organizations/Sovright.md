@@ -1,5 +1,5 @@
 # Sovright
-![Sovright](https://i.ibb.co/vvZNvNDT/sovright.png)
+![Sovright](/content-images/sovright-16a27c0d24.webp)
 
 **Sovright** ist eine US-amerikanische 501(c3)-Non-Profit-Organisation, die sich der Unterstützung menschlicher Autonomie widmet. Mit einem anfänglichen Schwerpunkt auf Zcash-Infrastruktur, Mining, Protokollentwicklung und Ökosystem-Unterstützung entwickelt das Projekt Werkzeuge und Dienste, die darauf abzielen, die Infrastruktur privater digitaler Währungen zu stärken und die langfristige Widerstandsfähigkeit des Zcash-Netzwerks zu unterstützen.
 

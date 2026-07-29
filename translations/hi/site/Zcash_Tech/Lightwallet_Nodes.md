@@ -37,25 +37,25 @@ __Ywallet/Zingo/Zashi/eZcash खोलें__: अपने डिवाइस 
 
 Ywallet में यह शीर्ष दाएं कोण पर चक्र का चिह्न है - Zcash टैब पर जाएं। 
 
-![SmartSelect_20250313_105128](https://github.com/user-attachments/assets/b0a2910b-dbdf-4292-8e69-af5a386aa183)
+![SmartSelect_20250313_105128](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
 
 #### Zingo:
 
 Zingo में यह शीर्ष बाएं कोण पर हैबरगर मेनू में है, फिर सेटिंग्स पर क्लिक करें और नीचे तक गुजरें
 
-![SmartSelect_20250313_105737_Zingo](https://github.com/user-attachments/assets/ea8f7672-e644-41a5-a422-db131740404a)
+![SmartSelect_20250313_105737_Zingo](/content-images/ea8f7672-e644-41a5-a422-db131740404a-2626f5fa79.webp)
 
 #### Zashi:
 
 Zashi में यह शीर्ष दाएं कोण पर चक्र का चिह्न है - उन्नत सेटिंग्स पर जाएं, फिर सर्वर के चयन करें
 
-![SmartSelect_20250313_110200_Zashi](https://github.com/user-attachments/assets/5a9d050a-8308-4cc2-907e-513072066aed)
+![SmartSelect_20250313_110200_Zashi](/content-images/5a9d050a-8308-4cc2-907e-513072066aed-0bd414d520.webp)
 
 #### eZcash
 
 eZcash में यह शीर्ष बाएं कोण पर हैबरगर मेनू में है, फिर सेटिंग्स पर क्लिक करें, उन्नत पर छोड़ें
 
-![SmartSelect_20250313_110616](https://github.com/user-attachments/assets/655c0172-61a0-4322-b8cf-4eee4bb53b51)
+![SmartSelect_20250313_110616](/content-images/655c0172-61a0-4322-b8cf-4eee4bb53b51-0b93df2e71.webp)
 
 
 ## निष्कर्ष

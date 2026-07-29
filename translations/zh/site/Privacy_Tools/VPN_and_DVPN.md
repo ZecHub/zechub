@@ -11,12 +11,12 @@
 
 __虚拟专用网络（VPN）__：传统 VPN 会在您的设备与由 VPN 提供商控制的远程服务器之间建立一条安全的加密隧道。这条隧道可以将您的在线活动隐藏起来，避免被黑客、ISP 或政府机构等窥探。VPN 被广泛用于匿名浏览、访问受地理限制的内容以及防御网络威胁等场景。
 
-![image223](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Privacy_Tools/assets/image-223.png)
+![image223](/content-images/image-223-399e3015e7.webp)
 
 
 __去中心化虚拟专用网络（dVPN）__：相比之下，dVPN 利用区块链和点对点技术来构建一个去中心化的节点网络。用户流量会通过这些节点进行路由，使任何单一实体都难以监控或控制整个网络。dVPN 通常更能抵抗审查，因为没有中心化机构来监管该网络。它非常适合寻求更强隐私和安全性的用户。
 
-![dvpn](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Privacy_Tools/assets/dvpn.png)
+![dvpn](/content-images/dvpn-89698d4cb9.webp)
 
 
 # 选择 VPN 时的安全考量

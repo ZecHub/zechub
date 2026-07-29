@@ -54,7 +54,7 @@ Hinweis2: Wir wählen hier Zkool, aber JEDE Wallet mit Exportfunktion wird funkt
 
 https://github.com/hhanh00/zkool2
 
-<img width="1496" height="646" alt="1" src="https://github.com/user-attachments/assets/125adfe8-6be3-4798-8ee8-b96bba9fb9ac" />
+<img width="1496" height="646" alt="1" src="/content-images/125adfe8-6be3-4798-8ee8-b96bba9fb9ac-d7ff97c6f8.webp" />
 
 
 
@@ -63,7 +63,7 @@ https://github.com/hhanh00/zkool2
 
 Gehe zum Menü oben rechts und wähle "Transaktionen exportieren"
 
-<img width="1398" height="718" alt="2" src="https://github.com/user-attachments/assets/4287ceb6-669b-4ef0-ba24-3f7e2d9860b6" />
+<img width="1398" height="718" alt="2" src="/content-images/4287ceb6-669b-4ef0-ba24-3f7e2d9860b6-6fd3ed5a03.webp" />
 
 
 #### Schritt 3
@@ -77,7 +77,7 @@ Einige Beispiel-Prompts, die dir den Einstieg erleichtern können:
 
 "Wie kann ich "bash/rust/python/ ... etc." verwenden, um CSV-Dateien zu transformieren"
 
-<img width="1098" height="480" alt="3" src="https://github.com/user-attachments/assets/6503f4be-6fbc-473f-919c-8914e09181bc" />
+<img width="1098" height="480" alt="3" src="/content-images/6503f4be-6fbc-473f-919c-8914e09181bc-27520b5960.webp" />
 
 Hinweis: Du musst die Grundlagen trotzdem verstehen, aber diese Workshops durchzuführen hilft dir, den ABLAUF des Prozesses zu verstehen.
 
@@ -97,4 +97,4 @@ In LibreOffice oder einem anderen CSV-Viewer zur Verwendung öffnen!
 
 
 
-<img width="2132" height="942" alt="4" src="https://github.com/user-attachments/assets/1097030d-c0f4-44c4-b15c-f86706a77bdc" />
+<img width="2132" height="942" alt="4" src="/content-images/1097030d-c0f4-44c4-b15c-f86706a77bdc-6c81ca3df0.webp" />

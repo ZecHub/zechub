@@ -28,7 +28,7 @@ Wogye YWallet tom sɛ akwan a eye sen biara a wɔfa so nya sika a wontumi nkɔ h
 
 4. Wɔ atifi nifa so no, klik plus sign so 
 
-![Plus sign button no ka ho](https://i.postimg.cc/xJbVz7gB/plus.png)
+![Plus sign button no ka ho](/content-images/plus-3ca2c1649a.webp)
 
 5. Toggle 'San fa akontaabu bi ba'. 
 
@@ -46,7 +46,7 @@ Wogye YWallet tom sɛ akwan a eye sen biara a wɔfa so nya sika a wontumi nkɔ h
 
 4. Hyehyɛ wo aba kasasin (Gap anohyeto scans ma address foforo a aba no de aba) .
 
-![Sweep Sikakorabea screen](https://i.postimg.cc/3055CBcN/sweep.png)
+![Sweep Sikakorabea screen](/content-images/sweep-6c956553a9.webp)
 
 5. Hyehyɛ Value Pool no mu ma baabi a wopɛ sɛ wode di dwuma (Exchanges de Transparent di dwuma) .
 

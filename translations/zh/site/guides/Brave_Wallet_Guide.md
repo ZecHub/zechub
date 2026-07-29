@@ -40,7 +40,7 @@ Brave Wallet 现已支持 Orchard 屏蔽式 ZEC，使用户无需借助第三方
 4. 进入加密资产仪表板
 
 
-![img1](https://github.com/user-attachments/assets/f54cd1a1-8569-4925-ba1c-7597d030593e)
+![img1](/content-images/f54cd1a1-8569-4925-ba1c-7597d030593e-8d83734cd5.webp)
 
 
 ## 第 2 部分：在 Brave Wallet 中添加 Zcash (ZEC)
@@ -54,7 +54,7 @@ Brave Wallet 现已支持 Orchard 屏蔽式 ZEC，使用户无需借助第三方
 3. 现在 ZEC 会显示在你的钱包中
 
 
-![img2](https://github.com/user-attachments/assets/6f2b2190-cf55-4394-9d5f-29ff9b5bb525)
+![img2](/content-images/6f2b2190-cf55-4394-9d5f-29ff9b5bb525-13d37cb455.webp)
 
 
 ## 第 3 部分：接收屏蔽式 ZEC（Unified Address）
@@ -73,7 +73,7 @@ Brave Wallet 现已支持 Orchard 屏蔽式 ZEC，使用户无需借助第三方
 
 
 
-![img3](https://github.com/user-attachments/assets/53c940b6-1a03-4fa7-aefa-d3478f678a88)
+![img3](/content-images/53c940b6-1a03-4fa7-aefa-d3478f678a88-23f68a3855.webp)
 
 
 
@@ -92,7 +92,7 @@ Brave Wallet 现已支持 Orchard 屏蔽式 ZEC，使用户无需借助第三方
 5. 点击 Send —— 资金现已通过 Orchard 资金池私密转账
 
 
-![img4](https://raw.githubusercontent.com/Kellyjoe8/zechub/refs/heads/main/Internet_20250808_172118_4.webp)
+![img4](/content-images/Internet_20250808_172118_4-e6df0f7fe2.webp)
 
 
 

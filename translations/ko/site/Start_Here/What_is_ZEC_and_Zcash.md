@@ -42,7 +42,7 @@ Zcash는 "Zerocash" 프로토콜의 구현입니다. 오픈소스, 블록체인 
 Zcash는 비트코인의 가장 큰 결함, 즉 데이터에 대한 사적인 소유 및 이전을 해결합니다. 블록체인 애플리케이션과 암호화폐가 점점 더 널리 받아들여지는 세상에서 의사명으로 이루어진 거래는 사용자의 프라이버시를 보호하는 실용적인 선택지가 되지 않습니다. 감시 애플리케이션이 블록체인 거래 분석을 위해 점점 더 널리 사용되고 있습니다.
 
 <a href="">
-    <img src="https://i.ibb.co/NN3XxrG/Zcash-logo-1.png" alt="" width="60" height="60"/>
+    <img src="/content-images/Zcash-logo-1-26747e0dd3.webp" alt="" width="60" height="60"/>
 </a>
 
 #### 자료

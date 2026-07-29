@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="https://i.ibb.co/qYhRbJM/image-2024-02-03-174147713.png" alt="Alt Text" width="400"/> Zcash Community Links
+# <img src="/content-images/image-2024-02-03-174147713-63a42e536c.webp" alt="Alt Text" width="400"/> Zcash Community Links
 
 Ẹgbẹ́ Zcash jẹ́ ẹgbẹ́ àwọn ènìyàn tí ó ń ṣiṣẹ́ láti sọ ZEC di ọ̀kan lára àwọn owó-ìpamọ́ tí ó gbajúmọ̀ jùlọ ní àgbáyé.
 
@@ -10,11 +10,11 @@
 
 ## Ibi tó o ti lè rí àwọn ọmọ ìjọ rẹ
 
-### <img src="https://i.ibb.co/qBrb4qK/image-2024-02-03-173937048.png" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Telegram</span>
+### <img src="/content-images/image-2024-02-03-173937048-148e401d5e.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Telegram</span>
 
 The Zcash community is very active in its community <span translate="no" class="notranslate">Telegram</span>. Join to talk about the day-to-day, discuss news and updates, and meet fellow community members: [t.me/Zcash_Community](https://t.me/Zcash_Community)
 
-### <img src="https://i.ibb.co/kxVwQxM/image-2024-02-03-174056252.png" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Discord</span>
+### <img src="/content-images/image-2024-02-03-174056252-8a6a76eabf.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Discord</span>
 
 - [Zcash Global]](https://discord.gg/zcash) - Olùpèsè àwùjọ pàtàkì
 - [Ìwádìí àti ìdàgbàsókè Zcash](https://discord.gg/xpzPR53xtU) - Àkọsílẹ̀ àti ìjíròrò àwọn olùṣèwádìí
@@ -34,7 +34,7 @@ The Zcash community is very active in its community <span translate="no" class="
 
 [Ìjọ Ìjọ Zcash](https://forum.zcashcommunity.com/) is the hub for long-form discussions on Zcash - governance, grant proposals, technical debate, and ecosystem announcements. Now stewardship has transferred to the Zcash Foundation following ECC's transition to ZODL.
 
-### <img src="https://i.ibb.co/mqKfr62/image-2024-02-03-174240928.png" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
+### <img src="/content-images/image-2024-02-03-174240928-7a8f751301.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
 
 Zcash ni wiwa agbaye ti nṣiṣe lọwọ lori X. Awọn iroyin pataki lati tẹle:
 

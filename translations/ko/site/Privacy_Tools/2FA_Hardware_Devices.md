@@ -10,7 +10,7 @@
 
 이러한 키는 사용자 이름과 비밀번호와 함께 작동하여, 오직 승인된 사용자만이 계정과 데이터에 접근할 수 있도록 설계되었습니다. 이들은 플래시 드라이브, NFC 카드 또는 블루투스 장치와 같은 다양한 형태로 제공됩니다.
 
-![하드웨어 보안 키 예시](https://github.com/ZecHub/zechub/assets/81990132/1dff66a4-d8e6-483f-9a1e-065d3974d665)
+![하드웨어 보안 키 예시](/content-images/1dff66a4-d8e6-483f-9a1e-065d3974d665-a4c6c73e00.webp)
 
 ## 하드웨어 보안 키의 작동 방식
 
@@ -26,7 +26,7 @@ YubiKey와 같은 하드웨어 보안 키를 사용할 경우, 단순히 데스�
 
 아니요, 하드웨어 보안 키는 다양한 형태로 제공되며, 모든 기기 및 운영체제와 호환되지 않을 수 있습니다. 키를 구매하기 전에 해당 기기와 운영체제와의 호환성을 확인해야 합니다.
 
-![하드웨어 보안 키 형식](https://github.com/ZecHub/zechub/assets/81990132/a830c435-ad20-4183-b381-475afe1089b3)
+![하드웨어 보안 키 형식](/content-images/a830c435-ad20-4183-b381-475afe1089b3-5537cd7388.webp)
 
 ## 하드웨어 보안 키는 여러 계정과 함께 사용할 수 있나요?
 
@@ -42,7 +42,7 @@ YubiKey와 같은 하드웨어 보안 키를 사용할 경우, 단순히 데스�
 
 **Yubico YubiKey 5 NFC**
 
-![Yubico YubiKey 5 NFC](https://github.com/ZecHub/zechub/assets/81990132/bf1ac95e-7277-4559-b5ef-63117b66971b)
+![Yubico YubiKey 5 NFC](/content-images/bf1ac95e-7277-4559-b5ef-63117b66971b-3aa542aba7.webp)
 
 Yubico는 많은 보안 키가 사용하는 FIDO U2F 오픈 인증 표준의 공동 개발자로, YubiKey 5 NFC는 장치를 안전하게 보호해 줍니다. 이름에서 알 수 있듯이, 이 제품은 USB A(또는 어댑터를 사용한 USB C) 또는 NFC를 통해 작동합니다.
 YubiKey 5는 Google Chrome, Facebook, Dropbox, LastPass, 1Password 등 많은 서비스와 즉시 호환됩니다. YubiKey 5는 컴팩트하고 내구성이 높으며 가볍고, 심지어 방수 기능도 제공합니다.
@@ -50,7 +50,7 @@ YubiKey 5는 Google Chrome, Facebook, Dropbox, LastPass, 1Password 등 많은 �
 
 **Thetis Fido U2F 보안 키**
 
-![Thetis Fido U2F 보안 키](https://github.com/ZecHub/zechub/assets/81990132/b83e42e5-bba6-4175-ad6c-d64972ef54ef)
+![Thetis Fido U2F 보안 키](/content-images/b83e42e5-bba6-4175-ad6c-d64972ef54ef-a2ef17a10d.webp)
 
 보안 키 중에서 가장 가성비가 좋은 제품을 찾고 있다면, Thetis의 이 모델은 리스트에 포함되어야 합니다. 내장 블루투스는 더 비싼 모델에만 제공되며, FIDO U2F 표준만 지원하므로 UAF 또는 OTP 호환성이 없습니다. 그러나 Windows, macOS 또는 Linux에서 Chrome이나 Opera를 사용하는 경우, 이 보안 키는 안전한 웹사이트 접근을 제공합니다.
 편리하게도, 이 저렴한 보안 키는 회전하는 알루미늄 케이스가 장착된 컴팩트한 접이식 디자인으로, 운반 중 연결부가 손상되는 것을 방지합니다. 블랙, 골드 및 실버의 세 가지 매력적인 색상으로 제공됩니다.
@@ -58,7 +58,7 @@ YubiKey 5는 Google Chrome, Facebook, Dropbox, LastPass, 1Password 등 많은 �
 
 **CryptoTrust OnlyKey**
 
-![CryptoTrust OnlyKey](https://github.com/ZecHub/zechub/assets/81990132/13be6ecc-227e-498c-8a36-6d52c023cd78)
+![CryptoTrust OnlyKey](/content-images/13be6ecc-227e-498c-8a36-6d52c023cd78-06e3e924dc.webp)
 
 이름에서 알 수 있듯, OnlyKey는 경쟁사들이 제공하지 않는 편리한 기능을 가지고 있습니다. 컴퓨터 또는 웹사이트가 해킹되었을 경우 온라인 계정을 안전하게 보호할 수 있도록 내장된 키보드를 통해 키로그гер를 우회할 수 있기 때문입니다. FIDO 2 U2F, Yubico OTP 및 TOTP 등 여러 가지 2FA 방법을 지원합니다.
 일반적인 용도로는 최고의 비밀번호 관리자라고 보기 어렵지만, OnlyKey는 단일 키에 24개의 OTP 계정, 24개의 비밀번호 및 24개의 사용자 이름/URL을 저장할 수 있습니다. 이 기능은 여러 개의 비밀번호를 기억하는 것을 싫어하고, 키가 대신 처리해 주기를 원하는 경우 매우 유용합니다.
@@ -71,22 +71,22 @@ YubiKey 5는 Google Chrome, Facebook, Dropbox, LastPass, 1Password 등 많은 �
 **단계 1**  
 Gmail 계정에 로그인한 후 **구글 계정 관리**를 클릭합니다.
 
-![구글 계정 - 계정 관리](https://github.com/ZecHub/zechub/assets/81990132/995fc955-791a-4456-9218-7e5964da48b5)
+![구글 계정 - 계정 관리](/content-images/995fc955-791a-4456-9218-7e5964da48b5-31c64640b2.webp)
 
 **단계 2**  
 **보안**을 클릭합니다.
 
-![구글 보안 설정](https://github.com/ZecHub/zechub/assets/81990132/246db235-6596-41ff-bd7a-f8ee4f80962b)
+![구글 보안 설정](/content-images/246db235-6596-41ff-bd7a-f8ee4f80962b-340193c2c3.webp)
 
 **단계 3**  
 **2단계 인증**을 클릭합니다.
 
-![2단계 인증 화면](https://github.com/ZecHub/zechub/assets/81990132/19cd202a-1a70-47e6-a02a-aa24f6e199fa)
+![2단계 인증 화면](/content-images/19cd202a-1a70-47e6-a02a-aa24f6e199fa-a9fcb911ce.webp)
 
 **단계 4**  
 **더 많은 옵션 보기**를 선택합니다.
 
-![더 많은 옵션 보기](https://github.com/ZecHub/zechub/assets/81990132/2ade9531-1cf6-48e8-b9a8-178d41a4cd30)
+![더 많은 옵션 보기](/content-images/2ade9531-1cf6-48e8-b9a8-178d41a4cd30-b1e9ea1400.webp)
 
 **단계 5**  
 이제 **보안 키**를 선택한 후 **고급**을 클릭합니다.

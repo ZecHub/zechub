@@ -27,7 +27,7 @@
 
 Щопонеділка ми публікуємо задачі, за які наразі відкриті винагороди. Ви також можете пропонувати винагороди! Переважно їх можна знайти на ZEC Bounties.
 
-![zecbounties](https://github.com/user-attachments/assets/0e4f5109-c0c9-4a0a-8d71-8172e36b9726)
+![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 
 
 

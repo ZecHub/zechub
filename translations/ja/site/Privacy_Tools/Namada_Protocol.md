@@ -2,7 +2,7 @@
 
 # Namada プロトコル
 
-![Namada ロゴ](https://i.ibb.co/BZcZHS1/logo.png)
+![Namada ロゴ](/content-images/logo-2067e2533d.webp)
 
 
 ## Namada とは？
@@ -26,7 +26,7 @@ Namada は、Multi-Asset Shielded Pool (MASP) 回路の強化されたバージ�
 
 EthereumブリッジのNamadaへの統合により、別途プロトコルが必要になることはなく、Namadaエコシステムの一部として組み込まれています。Namada内のバリデーターは、コアのNamadaプロトコルとともにブリッジを運営する責任があります。また、資産をNamadaに転送する際には、これらのバリデーターがリレイヤーとしても機能し、追加のアクターの関与を必要としません。一方で、Ethereumへの資産移動では外部の当事者（リレイヤー）が関与しますが、彼らはブリッジの検証やセキュリティ確保に関する責任を持たない点に注意が必要です。
 
-![Ethereum ブリッジ図](https://i.ibb.co/wKds5RP/image.jpg)
+![Ethereum ブリッジ図](/content-images/image-0fd8f754ba.webp)
 
 Namadaプロトコルは、IBC（Inter-Blockchain Communication）プロトコルをサポートするすべてのファストフィナリティチェーンとシームレスに接続できる能力を持っています。Ethereumとの相互運用においては、信頼のない方法で動作する専用かつ安全なEthereumブリッジが実装されています。このブリッジは、すべてのブリッジ接続に対してフロー制御を強制し、故障したEthereum転送を重大な違反として処罰（スラッシング）する可能性があるように設計されており、安全性を最優先にしています。
 
@@ -40,7 +40,7 @@ Namadaでは、シールドセットは非排他的で反競争的な公共財�
 
 シールド転送に関しては、Ethereum NFT（非代替性トークン）、ATOM、NAMなどどの資産であっても区別がつかなくなります。これは、Zcash Sapling回路の強化バージョンであるMASP（Modified Accumulator Sapling Protocol）によって提供されるプライバシー保護機能がすべての資産タイプに均等に適用されることを意味します。MASP回路により、Namadaエコシステム内のすべての資産が同じシールドセットを共有できるようになります。このアプローチは、個々の資産間でプライバシー保証が断片化されないことを確実にします。特定の資産に関連する取引量に関係なく、プライバシー保護は一貫して独立しています。
 
-![シールド資産取引図](https://i.ibb.co/7CDmWk6/image-1.png)
+![シールド資産取引図](/content-images/image-1-512c639d56.webp)
 
 さまざまな資産にわたるシールドセットを統一することで、Namadaはどの特定の資産タイプがシールド転送に関与しているかに関係なくプライバシーを均等に維持します。このアプローチにより、プロトコル内での包括的なプライバシー枠組みが促進され、Ethereum NFT、ATOM、NAM、その他のサポート資産に関する取引の機密性が向上します。Namadaはまた、Zcashで行われるのと同様に、ネイティブおよび非ネイティブトークンの機密性を保証する新しいzk-SNARKsを使用して、代替可能および非代替可能なトークンのプライベート転送を可能にしています。
 
@@ -58,7 +58,7 @@ Namadaは、スケーラビリティソリューションで知られているAn
 
 [Namadaプロトコルブログ](https://blog.namada.net/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/)に掲載された最近の出版物によると、Namadaプロトコルのチームは、NamadaとZcashの資産、チェーン、コミュニティ間での戦略的連携に関する提案およびリクエスト・フォー・コメント（RFC）を提示し、興奮しています。
 
-![Namada-Zcash 戦略的連携図](https://i.ibb.co/FqsmkMb/image-2.png)
+![Namada-Zcash 戦略的連携図](/content-images/image-2-68804c60f3.webp)
 
 この提案された連携は3つの主要な要素を含んでいます。まず、ZcashとNamada双方に利益をもたらすプロジェクトの資金提供のためにグランツプールが作成されます。次に、NAMトークンのエアドロップがZEC保有者に配布される予定です。最後に、ZcashとNamadaを接続する信頼最小化されたブリッジの設立計画があります。このブリッジが実装されると、ZEC保有者（Zolders）はそのZECをNamadaで利用できるようになります。さらに、ZoldersはNamadaを通じてCosmosおよびEthereumエコシステムにアクセスする機会を得ます。戦略的連携について詳しく知るには、[Zcash コミュニティフォーラム](https://forum.zcashcommunity.com/t/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/44372)をご覧ください。
 

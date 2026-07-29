@@ -4,7 +4,7 @@
 
 Das Crosslink Protocol ist eine wegweisende Entwicklung in der Evolution von Zcash und lenkt es in Richtung eines **hybriden Proof-of-Stake (PoS)**- und **Proof-of-Work (PoW)**-Modells. Traditionelles PoW ist zwar zuverlässig, wenn es um die Gewährleistung der Netzwerksicherheit geht, steht jedoch wegen seines Energieverbrauchs und der mit industriellem Mining verbundenen Zentralisierungsrisiken in der Kritik. Crosslink führt ein Hybridsystem ein, das die bewährte Robustheit von PoW mit den Effizienz- und Governance-Vorteilen von PoS verbindet.
 
-![Bild](https://github.com/user-attachments/assets/a2ffb19d-e570-4723-b669-a66e14fc6b71)
+![Bild](/content-images/a2ffb19d-e570-4723-b669-a66e14fc6b71-a727c958de.webp)
 
 Dieser Übergang steht im Einklang mit globalen Trends der Blockchain-Innovation, bei denen Projekte auf ökologisch nachhaltige und dezentrale Mechanismen umstellen. Das duale Konsensmodell von Crosslink stellt sicher, dass Zcash seine starken kryptografischen Datenschutzgarantien beibehält und sich gleichzeitig weiterentwickelt, um aktuellen Herausforderungen zu begegnen.
 
@@ -24,7 +24,7 @@ Das Crosslink Protocol ist ein vorgeschlagenes Design für die hybride Proof-of-
 
 Der Implementierungsplan umfasst eine Roadmap mit geschätzten Engineering-Kosten für die Integration von Crosslink 2* in den Zebra-Client von Zcash. Diese schrittweise Einführung konzentriert sich darauf, die Anreize der Stakeholder auszubalancieren, Störungen zu reduzieren und sich an den Zielen von Zcash in Bezug auf Skalierbarkeit, Nutzbarkeit und Dezentralisierung auszurichten. Das wachsende Vertrauen in die robusten Sicherheitseigenschaften des Protokolls festigt zusätzlich sein Potenzial als wichtiger Schritt in der Evolution von Zcash. Indem Crosslink Energieeffizienz adressiert und Konsensmechanismen verbessert, bietet es eine zukunftsorientierte Lösung für sich wandelnde Blockchain-Herausforderungen. Weitere Details finden sich im [GitHub-Repository](https://github.com/ShieldedLabs/crosslink-deployment) und im [Zcash Community Forum](https://forum.zcashcommunity.com).
 
-![Bild](https://github.com/user-attachments/assets/b34afda4-fe33-448f-b0dd-279fd6cef1f5)
+![Bild](/content-images/b34afda4-fe33-448f-b0dd-279fd6cef1f5-73f58cdcc6.webp)
 
 
 #### **Ziele und Zweck von Crosslink**
@@ -55,7 +55,7 @@ Das Crosslink Protocol soll zwei Arten von Ledgern für Zcash bereitstellen: ein
 
 Das Ledger mit geringerer Latenz erweitert das finalisierte Ledger um nicht mehr als *L* Blöcke. Es gewährleistet Sicherheit gegen Rollbacks allein unter dem Blockchain-Protokoll und behält Latenz und Sicherheit bei, die nicht schlechter sind als im bestehenden Zcash-Modell. Im verschlankten Crosslink-2*-Design vereinfacht das Ledger mit geringerer Latenz Entwicklung und Einführung, indem es als PoW-Chain fungiert.
 
-![Bild](https://github.com/user-attachments/assets/fd039664-4852-4fb0-8c88-0615f1ed116e)
+![Bild](/content-images/fd039664-4852-4fb0-8c88-0615f1ed116e-41459b81dc.webp)
 
 
 ### Begrenzte Verfügbarkeit und Sicherheitsmodus

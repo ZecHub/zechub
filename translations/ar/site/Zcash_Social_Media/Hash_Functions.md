@@ -20,7 +20,7 @@
 - **الناتج النهائي** = قيمة Hash  
 
 
-![مخطط دالة Hash](https://pbs.twimg.com/media/Fn_NkFHXgAEtgse.png)
+![مخطط دالة Hash](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
 
 ### جرّبها بنفسك!
 
@@ -58,12 +58,12 @@
 #### 1. تجزئة السلامة (فحوصات سلامة البيانات)
 تُعد فحوصات سلامة البيانات مثالًا على "تجزئة السلامة". وهي تُستخدم لتوليد checksums لملفات البيانات وتوفير ضمان بصحتها للمستخدم.
 
-![مثال على تجزئة السلامة](https://pbs.twimg.com/media/Fn_Or0MWIAI6sgx.png)
+![مثال على تجزئة السلامة](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
 
 #### 2. أشجار Merkle (أشجار Hash)
 تتكوّن **شجرة Hash** أو **شجرة Merkle** من فروع وعُقد ورقية تحمل وسم Hash التشفيري لكتلة بيانات.
 
-![مخطط شجرة Merkle](https://pbs.twimg.com/media/Fn_O7ndWIAY5PA-.jpg)
+![مخطط شجرة Merkle](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
 
 تُعد أشجار Merkle مثالًا على **مخطط التزام تشفيري**. ويُنظر إلى جذر الشجرة على أنه التزام، بينما يُثبَت أن العُقد الورقية جزء من الالتزام الأصلي.
 
@@ -75,7 +75,7 @@
 #### 4. Signature Hash (كتل على نمط Bitcoin)
 تُعد **SHA256** مثالًا على "Signature hash" يُستخدم لفرض عدم قابلية التغيير لكل كتلة في سلسلة Bitcoin. يستخدم المعدّنون Hash الكتلة السابقة + Hash لجميع المعاملات في الكتلة الحالية (hashMerkleRoot) + الطابع الزمني + قيمة عشوائية / صعوبة الشبكة للكتل الجديدة.
 
-![مخطط كتلة SHA256](https://pbs.twimg.com/media/Fn_PaVZXoAApHPf.jpg)
+![مخطط كتلة SHA256](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
 
 #### 5. Equihash (تعدين Zcash)
 **Equihash** هي خوارزمية Hash المستخدمة في تعدين Zcash. كما تُستخدم أيضًا من قِبل شبكات مثل Komodo وHorizen.

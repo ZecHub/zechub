@@ -1,7 +1,7 @@
 # The Shielded Protocol, Nuwuwu vaseɖe Nuwuwu
 ##### Numekuku Gbãtɔ tso [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt nuŋɔŋlɔ](image-27.png)
+![alt nuŋɔŋlɔ](/content-images/image-27-4094293ec0.webp)
 
 ### Kakɛ ɖesiaɖe ƒoƒo ƒu ɖe Zcash ƒe asitsatsa ɖeka si nye ame ŋutɔ tɔ me
 
@@ -41,7 +41,7 @@ Nusiwo katã kplɔ wo nɔewo ɖo le axa ɖeka dzi, siwo wowɔ tso Nyati 0 ƒe ŋ
 
 Nusianu si zãla ate ŋu awɔ la sina tso nya ɣaɣla ɖeka me, si nye **gazazã ƒe safui**, to mɔ ɖeka ƒe ɖoɖo si wowɔna me (aŋutsrɔe ɖesiaɖe nye nusi woɖe tso eme si womate ŋu atrɔ o, le mɔ̃ siwo le Se 2 kple 3 me ƒe mɔɖeɖe te):
 
-![alt nuŋɔŋlɔ](image-32.png)
+![alt nuŋɔŋlɔ](/content-images/image-32-f443f9bb72.webp)
 
 Nu eve siwo wòle be míade dzesii, wo ame evea siaa nye nyati siwo do ŋgɔ me tsonuwo:
 
@@ -54,7 +54,7 @@ Nu eve siwo wòle be míade dzesii, wo ame evea siaa nye nyati siwo do ŋgɔ me 
 
 Be nàzã nuŋlɔɖi aɖe le adzame la, ele be nàna network la naxɔ nu ene dzi zi ɖeka **evɔ màɖe nuŋlɔɖia, eƒe asixɔxɔ, eƒe nɔƒe, alo wò amenyenye afia o.** Wotsɔ akpa aɖe si nènya xoxo la akpɔ nya ɖesiaɖe gbɔ.
 
-![alt nuŋɔŋlɔ](image-31.png)
+![alt nuŋɔŋlɔ](/content-images/image-31-86309af194.webp)
 
 Kpeɖodzia ɖea nyateƒenya siwo le ete la dometɔ aɖeke fiana **ɖeke** o (de dzesi kae, amesi ƒe safui, asixɔxɔ ka). Ðeko wòɖee fia be *nya eneawo katã sɔ.* Emae nye Zcash si wotsɔ akpoxɔnu wɔe ƒe ayemɔ bliboa, si wogblɔ le nɔnɔmetata ɖeka me.
 
@@ -92,7 +92,7 @@ Mina míaƒo Alice si le fe xem na Bob nu ƒu. Míazã Sapling ƒe "spend side /
 
 Gakpe ɖe **asidede asi si blaa ame** ɖeka ŋu le babla bliboa dzi, si awɔe be asixɔxɔ ƒe dadasɔ (Akpa 5).
 
-![alt nuŋɔŋlɔ](image-30.png)
+![alt nuŋɔŋlɔ](/content-images/image-30-98511eb2d0.webp)
 
 Trace the privacy: network la lé ŋku ɖe anchor la ŋu, kpɔe be nullifier la nye yeye, ɖo kpe kpeɖodzia dzi, eye wòɖo kpe edzi be ga si susɔ. Exɔ fexexe si sɔ **esi wòsrɔ̃ ga home aɖeke, adrɛs aɖeke, eye menye gagbalẽ si wozã o.** Le ɣeyiɣi sia me la, nuŋlɔɖi si wozã ƒe **nullifier** (eƒe ku) kple Bob ƒe **tsɔtsɔtsɔna** yeyea** (eƒe nuŋlɔɖia dzidzi) bɔbɔ nɔ dutoƒoxɔ vovovo eve me eye kadodo aɖeke si dzena le wo dome o, si nye kadodo si wotso tso Se 0 lia me.
 
@@ -198,7 +198,7 @@ Woɣla ga homeawo, gake woxatsa wo dometɔ ɖesiaɖe ɖe homomorphic value commi
 
 Fifia èzɔ mɔ tso nya ɖeka si tsi tre ɖe wo nɔewo ŋu dzi va ɖo ame ŋutɔ ƒe fexexe blibo dzi:
 
-![alt nuŋɔŋlɔ](https://github.com/user-attachments/assets/cd8bbb40-57b8-4854-b9cf-97f2485d126a)
+![alt nuŋɔŋlɔ](/content-images/cd8bbb40-57b8-4854-b9cf-97f2485d126a-8847fae521.webp)
 
 
 Tso afisia la, dzɔdzɔme ƒe akasanu si kplɔe ɖo la yi ŋgɔ wu: Groth16 kple Halo 2 ƒe dɔwɔwɔ ememetɔ, ɖoɖowɔwɔ ƒe kɔnu siwo dzi woka ɖo, Sapling kple Orchard nutome suewo tsitotsito, safuiwo ƒe dzɔtsoƒe kple adrɛs vovovowo, kple ɖoɖowɔɖia ƒe tɔtrɔ le network ƒe ŋgɔyiyiwo katã me. Gake gɔmeɖoanyia le dɔ wɔm fifia, eye aƒe le nyati mawo dometɔ ɖesiaɖe si wòatsɔ akpe ɖe eŋu.

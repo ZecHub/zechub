@@ -4,7 +4,7 @@
 
 # 在 Raspberry Pi 4 上运行 Zebra 指南
 
-<img src="https://i.ibb.co/V3rjKwv/image-2023-11-28-172907488.png" alt="树莓派" width="300" height="300"/>
+<img src="/content-images/image-2023-11-28-172907488-e7e9fd4ac5.webp" alt="树莓派" width="300" height="300"/>
 
 在 Raspberry Pi 4 上运行 Zebra 节点软件，可让你作为一个独立且与共识兼容的节点参与 Zcash 网络。本指南将逐步带你在 Raspberry Pi 4 上设置并运行 Zebra。
 
@@ -67,7 +67,7 @@
 7. __监控__
    你可以打开网页浏览器并访问 __http://127.0.0.1:8233/status__，以监控 Zebra 节点的进度和状态。
 
-<img src="https://i.ibb.co/BCtKrGp/image-2023-11-28-173024853.png" alt="zebra 标志" width="200" height="200"/>
+<img src="/content-images/image-2023-11-28-173024853-99540511cf.webp" alt="zebra 标志" width="200" height="200"/>
 
 ## 故障排查
 

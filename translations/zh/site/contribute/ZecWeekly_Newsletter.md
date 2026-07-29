@@ -17,7 +17,7 @@ ZecWeekly 是一份每周日上午发布的新闻简报。它涵盖了本周 Zca
 - 查看[ZEC Bounties ](https://bounties.zechub.wiki/)中的当前 newsletter 任务。
 - 等待被分配
 
-![ss](https://github.com/user-attachments/assets/149a802c-b64f-4969-ad89-e83ffecf568e)
+![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
 
 
 
@@ -93,7 +93,7 @@ Summary:
 - [Zcash 生态摘要 | 2月14日](https://github.com/ZecHub/zechub/pull/1474)
 
 
-![Merged ZecWeekly newsletter pull request example](https://github.com/user-attachments/assets/9230d68d-6406-4c8a-992c-df84e0d318d8)
+![Merged ZecWeekly newsletter pull request example](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)
 
 将你的工作与示例进行比较时，请重点关注文件位置、标题格式、章节顺序、链接说明，以及 pull request 是否正确关联回对应任务。
 

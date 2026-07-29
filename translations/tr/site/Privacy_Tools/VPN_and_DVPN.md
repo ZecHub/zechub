@@ -11,12 +11,12 @@ Dijital çağda, çevrimiçi gizliliği ve güvenliği korumak son derece öneml
 
 __Sanal Özel Ağlar (VPN'ler)__: Geleneksel VPN'ler, cihazınız ile VPN sağlayıcısı tarafından kontrol edilen uzak bir sunucu arasında güvenli, şifreli bir tünel oluşturur. Bu tünel, çevrimiçi etkinliklerinizi hacker'lar, internet servis sağlayıcıları veya devlet kurumları gibi meraklı gözlerden gizler. VPN'ler; anonim gezinme, coğrafi olarak kısıtlanmış içeriklere erişim ve siber tehditlere karşı korunma gibi amaçlarla yaygın olarak kullanılır.
 
-![image223](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Privacy_Tools/assets/image-223.png)
+![image223](/content-images/image-223-399e3015e7.webp)
 
 
 __Merkeziyetsiz VPN'ler (dVPN'ler)__: Buna karşılık, dVPN'ler merkeziyetsiz bir düğüm ağı oluşturmak için blockchain ve eşler arası teknolojiden yararlanır. Kullanıcı trafiği bu düğümler üzerinden yönlendirilir; bu da herhangi bir tekil varlığın tüm ağı izlemesini veya kontrol etmesini zorlaştırır. dVPN'ler, ağı denetleyen merkezi bir otorite olmadığı için genellikle sansüre karşı daha dirençlidir. Daha yüksek gizlilik ve güvenlik arayan kullanıcılar için oldukça uygundur.
 
-![dvpn](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Privacy_Tools/assets/dvpn.png)
+![dvpn](/content-images/dvpn-89698d4cb9.webp)
 
 
 # Bir VPN Seçerken Güvenlik Hususları

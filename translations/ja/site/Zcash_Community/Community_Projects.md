@@ -53,7 +53,7 @@ Zcash en Español と ZKAV Club によって開発された、Zcash コミュニ
 
 ## Zimppy.xyz
 
-[![Zimppy.xyz Logo](https://github.com/betterclever/zimppy/blob/main/site/og.png?raw=true)](https://zimppy.xyz/)
+[![Zimppy.xyz Logo](/content-images/og-40771e1849.webp)](https://zimppy.xyz/)
 
 Zimppy は、AI エージェントと自動化されたマシン間ワークフロー向けに設計された、Zcash 用の Machine Payment Protocol (MPP) 決済手段です。一度オンチェーンで入金すれば、リクエストごとにブロックチェーンとのやり取りを行うことなく、即時の bearer リクエストを無制限に行えます。完全にシールドされた Zcash (Orchard) 支払いをサポートしており、送信者、受信者、金額は暗号化されたままです。
 
@@ -63,7 +63,7 @@ Zimppy は、AI エージェントと自動化されたマシン間ワークフ�
 
 ## CipherScan
 
-[![CipherScan](https://github.com/Kenbak/cipherscan/blob/main/public/logo-small.png?raw=true)](https://cipherscan.app/)
+[![CipherScan](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
 
 CipherScan は、プライバシー第一の Zcash ブロックチェーンエクスプローラーです。Next.js 15、TypeScript、Rust/WASM で構築されており、ユーザーはクエリのメタデータを漏らすことなくブロック、トランザクション、アドレスを検索できます。監視なしでブロックチェーンの透明性を必要とする、プライバシー意識の高いユーザー向けに設計されています。
 
@@ -73,7 +73,7 @@ CipherScan は、プライバシー第一の Zcash ブロックチェーンエ�
 
 ## ZcashNames
 
-[![ZcashNames](https://github.com/zcashme/zcashnames/blob/main/public/brandkit/zcashnames-brand-banner-primary-logo-monochrome-green-monochrome-green-background-377x403.png?raw=true)](https://www.zcashnames.com/)
+[![ZcashNames](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
 
 ZcashNames は、Zcash の shielded addresses に人が読める名前を提供します。長い z-address を共有する代わりに、ユーザーは覚えやすい名前（例: `alice.zec`）を登録し、それが Unified Address に解決されます。生のアドレスを公開せずに、プライベートに ZEC を受け取ることを簡単にします。
 
@@ -91,7 +91,7 @@ ZcashNames は、Zcash の shielded addresses に人が読める名前を提供�
 
 ## Cipherpay
 
-[![Cipherpay](https://github.com/atmospherelabs-dev/cipherpay-web/blob/main/public/logo-mark.png?raw=true)](https://www.cipherpay.app/en)
+[![Cipherpay](/content-images/logo-mark-b8d7c702b0.webp)](https://www.cipherpay.app/en)
 
 CipherPay はインターネットのためのプライベート決済を可能にします。数分で Zcash を受け入れ開始できます — ノンカストディアルで、KYC は不要です。加盟店は ZEC を直接 shielded addresses で受け取り、買い手と売り手の両方の金融プライバシーを保護します。
 
@@ -99,7 +99,7 @@ CipherPay はインターネットのためのプライベート決済を可能�
 
 ## Cipherscan
 
-[![Cipherscan](https://github.com/Kenbak/cipherscan/blob/main/public/logo-small.png?raw=true)](https://cipherscan.app/)
+[![Cipherscan](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
 
 Zcash ブロックチェーンエクスプローラー 🛡️ ブロックチェーンを読み解こう。プライバシーと透明性が出会う場所。
 
@@ -107,7 +107,7 @@ Zcash ブロックチェーンエクスプローラー 🛡️ ブロックチ�
 
 ## ZcashNames
 
-[![ZcashNames](https://github.com/zcashme/zcashnames/blob/main/public/brandkit/zcashnames-brand-banner-primary-logo-monochrome-green-monochrome-green-background-377x403.png?raw=true)](https://www.zcashnames.com/)
+[![ZcashNames](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
 
 shielded addresses のための
 個人名。
@@ -117,7 +117,7 @@ shielded addresses のための
 
 ## Zero-knowledge Audiovisual Club
 
-[![Zero-knowledge Audiovisual Club](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS95FffUJjEeUHAZZ04xRHp9FW1Z0Gzef2UUg&s?raw=true)](https://zkav.club/#additional-reading)
+[![Zero-knowledge Audiovisual Club](/content-images/images-563ef94ac0.webp)](https://zkav.club/#additional-reading)
 
 オープンソースおよび分散型テックコミュニティ向けの、プライバシー第一の映像音響（AV）コレクティブです。私たちは、コミュニティイベントでのボランティア AV サポートを訓練し、共創し、運営しています。
 
@@ -125,7 +125,7 @@ shielded addresses のための
 
 ## Shielded Labs
 
-[![Shielded Labs](https://camo.githubusercontent.com/0244df9f30a80c45adfd80c448985f17a6c71cdc9fd0eccd7bf47dec157c0dd4/68747470733a2f2f736869656c6465646c6162732e6e65742f77702d636f6e74656e742f75706c6f6164732f323032342f31312f66617669636f6e5f37325f322e706e67?raw=true)](https://shieldedlabs.net/)
+[![Shielded Labs](/content-images/68747470733a2f2f736869656c6465646c616273-e449ae6540.webp)](https://shieldedlabs.net/)
 
 Shielded Labs は、スイスを拠点とする独立した寄付資金型の Zcash 支援組織です。Development Fund やブロック報酬から直接または間接の資金提供を一度も受けたことがない、Zcash エコシステム初の組織です。
 

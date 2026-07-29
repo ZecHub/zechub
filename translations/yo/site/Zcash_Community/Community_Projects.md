@@ -67,7 +67,7 @@ Zlink jẹ́ ọ̀nà tó rọrùn jùlọ láti rí ìjápọ̀, ọ̀rọ̀, �
 Redio ori ayelujara kan lati sọ, kọ ẹkọ ati ṣe idanilaraya agbegbe Zcash, ti a ṣe nipasẹ Zcash en Español ati Ile-iṣẹ ZKAV.
 
 ## Zimppy.xyz - Àwọn ojúewé wọ̀nyí jápọ̀ mọ́
-[![Àmì ojúewé Zimppy.xyz](https://github.com/betterclever/zimppy/blob/main/site/og.png?raw=true)](https://zimppy.xyz/)
+[![Àmì ojúewé Zimppy.xyz](/content-images/og-40771e1849.webp)](https://zimppy.xyz/)
 
 Zimppy is the Machine Payment Protocol (MPP) payment method for Zcash, designed for AI agents and automated machine-to-machine workflows. Deposit once on-chain, then make unlimited instant bearer requests with no per-request blockchain interaction. Supports fully shielded Zcash (Orchard) payments — sender, receiver, and amount remain encrypted.
 
@@ -76,7 +76,7 @@ Zimppy is the Machine Payment Protocol (MPP) payment method for Zcash, designed 
 ---
 
 ## Àkọsílẹ̀ àyèsí
-[![CipherScan ì í ì 'í ë¦¬](https://github.com/Kenbak/cipherscan/blob/main/public/logo-small.png?raw=true)](https://cipherscan.app/)
+[![CipherScan ì í ì 'í ë¦¬](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
 
 CipherScan is a privacy-first Zcash blockchain explorer. Built with Next.js 15, TypeScript, and Rust/WASM, it lets users look up blocks, transactions, and addresses without leaking query metadata. Designed for privacy-conscious users who need blockchain transparency without surveillance.
 
@@ -85,7 +85,7 @@ CipherScan is a privacy-first Zcash blockchain explorer. Built with Next.js 15, 
 ---
 
 ## Àwọn orúkọ Zcash
-[![Àwọn orúkọ Zcash](https://github.com/zcashme/zcashnames/blob/main/public/brandkit/zcashnames-brand-banner-primary-logo-monochrome-green-monochrome-green-background-377x403.png?raw=true)](https://www.zcashnames.com/)
+[![Àwọn orúkọ Zcash](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
 
 ZcashNames n pese awọn orukọ ti eniyan le ka fun awọn adirẹsi Zcash ti o ni aabo. Dipo pinpin adiresi z gigun, awọn olumulo forukọsilẹ orukọ ti o ṣe iranti (fun apẹẹrẹ, `alice.zec`) that resolves to their Unified Address. Simplifies receiving ZEC privately without exposing raw addresses.
 
@@ -102,20 +102,20 @@ A company dedicated to privacy, self-sovereignty, and cypherpunk values. Builds 
 ---
 
 ## Àkọlé àwòrán
-[![Cipherpay ì ì ì](https://github.com/atmospherelabs-dev/cipherpay-web/blob/main/public/logo-mark.png?raw=true)](https://www.cipherpay.app/en)
+[![Cipherpay ì ì ì](/content-images/logo-mark-b8d7c702b0.webp)](https://www.cipherpay.app/en)
 
 CipherPay enables private payments for the internet. Accept Zcash in minutes — non-custodial, no KYC required. Merchants receive ZEC directly to shielded addresses, protecting both buyer and seller financial privacy.
 
 [Wá síbi ìfọ̀rọ̀wérọ̀]](https://www.cipherpay.app/en)
 
 ## Àkọsílẹ̀ àyèsí
-[![ì ì í êμ¬ë§¤í ì '](https://github.com/Kenbak/cipherscan/blob/main/public/logo-small.png?raw=true)](https://cipherscan.app/)
+[![ì ì í êμ¬ë§¤í ì '](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
 
 Zcash Blockchain Explorer ️ Ṣe àdàkọ blockchain. Ìpamọ́ pàdé ìwífún.
 [Wá síbi ìfọ̀rọ̀wérọ̀]](https://cipherscan.app/)
 
 ## Àwọn orúkọ Zcash
-[![Àwọn orúkọ Zcash](https://github.com/zcashme/zcashnames/blob/main/public/brandkit/zcashnames-brand-banner-primary-logo-monochrome-green-monochrome-green-background-377x403.png?raw=true)](https://www.zcashnames.com/)
+[![Àwọn orúkọ Zcash](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
 
 Orúkọ àwọn èèyàn
 fún
@@ -124,14 +124,14 @@ orúkọ nìkan lo nílò láti ṣe òwò ní ìkọ̀kọ̀.
 [Wá síbi ìfọ̀rọ̀wérọ̀]](https://www.zcashnames.com/)
 
 ## Ẹgbẹ́ Olùgbọ́-ìmọ̀ Ọ̀rọ̀-ìwòye
-[![Awùjọ Àwọn Onígbọ́-ìmọ-Kò-ní-Ojú-Ìran]](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS95FffUJjEeUHAZZ04xRHp9FW1Z0Gzef2UUg&s?raw=true)](https://zkav.club/#additional-reading)
+[![Awùjọ Àwọn Onígbọ́-ìmọ-Kò-ní-Ojú-Ìran]](/content-images/images-563ef94ac0.webp)](https://zkav.club/#additional-reading)
 
 Àkọ́kọ́ ìpamọ́-ìkọ̀kọ̀ (AV) àjọṣepọ̀ fún àwọn àwùjọ ìmọ̀-ẹ̀rọ tí ó ṣí sílẹ̀. A máa ń kọ́ni, a máa ń ṣe àpapọ̀, a sì máa ń ṣètò ìtìlẹ́yìn AV fún àwọn olùyọ̀ǹda ara ẹni níbi àwọn ìṣẹ̀lẹ̀ àwùjọ.
 
 [Wá síbi ìfọ̀rọ̀wérọ̀]](https://zkav.club/#additional-reading)
 
 ## Àwọn Ilé Iṣẹ́ Ààbò
-[![Àwọn Ilé Iṣẹ́ Ààbò]](https://camo.githubusercontent.com/0244df9f30a80c45adfd80c448985f17a6c71cdc9fd0eccd7bf47dec157c0dd4/68747470733a2f2f736869656c6465646c6162732e6e65742f77702d636f6e74656e742f75706c6f6164732f323032342f31312f66617669636f6e5f37325f322e706e67?raw=true)](https://shieldedlabs.net/)
+[![Àwọn Ilé Iṣẹ́ Ààbò]](/content-images/68747470733a2f2f736869656c6465646c616273-e449ae6540.webp)](https://shieldedlabs.net/)
 
 Shielded Labs jẹ olominira, ọrẹ-owo Zcash atilẹyin agbari ti o da ni Switzerland. O jẹ agbari akọkọ ninu ilolupo eda abemi Zcash ti ko ti gba owo taara tabi aifọwọyi lati Fund Development tabi awọn ẹsan bulọọki.
 

@@ -1,7 +1,7 @@
 # Zero-Knowledge Proofs: बिना यह बताए कि क्यों, यह साबित करना कि आप सही हैं
 ##### [Annkkitaaa](https://github.com/Annkkitaaa) का मूल शोध
 
-![alt text](image-23.png)
+![alt text](/content-images/image-23-71534bece9.webp)
 
 ### वह परदा जो दुनिया को वह सत्यापित करने देता है जिसे वह कभी देख नहीं सकती
 
@@ -40,7 +40,7 @@ Zcash के केंद्र में मौजूद विरोधाभ�
 
 ## 3. तीन गारंटियाँ
 
-![alt text](image-24.png)
+![alt text](/content-images/image-24-b559d31849.webp)
 
 | गारंटी | गुफा की कहानी में | Zcash में |
 |---|---|---|
@@ -62,7 +62,7 @@ Zcash के केंद्र में मौजूद विरोधाभ�
 
 circuit को arithmetic constraints की एक सूची समझिए, जो *तभी पूरी तरह संतुष्ट होती है जब कथन सत्य हो।* वे निजी inputs जिनसे सब कुछ सही निकलता है—आपका note, आपकी key, Merkle path—उन्हें **witness** कहा जाता है।
 
-![alt text](image-25.png)
+![alt text](/content-images/image-25-2479377e43.webp)
 
 इसीलिए हमने लेख 1 finite fields पर और लेख 3 ZK-friendly hashes पर बिताया: circuit की भाषा field arithmetic है, इसलिए कथन के भीतर होने वाली हर क्रिया (जिसमें hashing और लेख 4 की Merkle climb भी शामिल है) उसी रूप में व्यक्त करनी पड़ती है। जितनी सस्ती किसी operation को इस रूप में व्यक्त करना होगा, proof उतना छोटा और तेज़ होगा।
 
@@ -90,7 +90,7 @@ circuit को arithmetic constraints की एक सूची समझिए
 
 इस बची हुई secret को **toxic waste** कहा जाता है। इसे सुरक्षित रूप से नष्ट करने के लिए Zcash ने जटिल **multi-party ceremonies** चलाईं, जिनमें कई स्वतंत्र प्रतिभागियों ने randomness जोड़ी; जब तक *उनमें से एक भी* अपने हिस्से को ईमानदारी से नष्ट कर दे, toxic waste को वापस पाना असंभव हो जाता है।
 
-![alt text](image-26.png)
+![alt text](/content-images/image-26-cdad6625cd.webp)
 
 नई प्रणालियाँ इस आवश्यकता को पूरी तरह हटा देती हैं, और यही सबसे बड़े कारणों में से एक है कि समय के साथ Zcash ने अपनी proof system को विकसित किया।
 

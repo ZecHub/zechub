@@ -1,5 +1,5 @@
 ## [ZODL ƒe ŋkɔ](https://zodl.com)
-![logo ƒe dzesi](https://github.com/user-attachments/assets/198608b2-9059-4cb7-aeb8-9354971376fd "ZODL")
+![logo ƒe dzesi](/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp "ZODL")
 - Mɔ̃wo: Asitelefon dzi
 - Dɔwɔɖoɖo: Android | iOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
@@ -9,7 +9,7 @@
 ---
 
 ## [Ywallet ƒe ŋkɔ](https://ywallet.app/installation/)
-![logo ƒe dzesi](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
+![logo ƒe dzesi](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
 - Mɔ̃wo: Asitelefon dzi | Desktop dzi
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo | Linux | macOS ƒe nyawo
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
@@ -19,7 +19,7 @@
 ---
 
 ## [Dizzy](https://youtu.be/IVkuo1CGPBU)
-![logo ƒe dzesi](https://i.ibb.co/FH918w9/Dizzy-3.png "Dizzy")
+![logo ƒe dzesi](/content-images/Dizzy-3-1a90249591.webp "Dizzy")
 - Mɔ̃wo: Asitelefon dzi | Desktop dzi
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo | Linux | macOS ƒe nyawo
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
@@ -29,7 +29,7 @@
 ---
 
 ## [Zingo ƒe ŋkɔ!](https://www.zingolabs.org/)
-![logo ƒe dzesi](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
+![logo ƒe dzesi](/content-images/zingocard-9a2546668d.webp "Zingo!")
 - Mɔ̃wo: Asitelefon dzi | Desktop dzi
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo | Linux
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
@@ -39,7 +39,7 @@
 ---
 
 ## [To](https://edge.app)
-![logo ƒe dzesi](https://i.ibb.co/4FVQLS9/image-2024-11-28-091312254.png "Edge")
+![logo ƒe dzesi](/content-images/image-2024-11-28-091312254-b2389ad332.webp "Edge")
 - Mɔ̃wo: Asitelefon dzi
 - Dɔwɔɖoɖo: Android | iOS
 - Wallet Support: Seed Phrase | Unified Address
@@ -49,7 +49,7 @@
 ---
 
 ## [Womate ŋu atɔ te o](https://unstoppable.money)
-![logo ƒe dzesi](https://i.ibb.co/C68mFCx/image-2024-11-28-091200540.png "Unstoppable")
+![logo ƒe dzesi](/content-images/image-2024-11-28-091200540-815817fda7.webp "Unstoppable")
 - Mɔ̃wo: Asitelefon dzi
 - Dɔwɔɖoɖo: Android | iOS
 - Wallet Support: Seed Phrase | Unified Address
@@ -59,7 +59,7 @@
 ---
 
 ## [eZcash ƒe ŋkɔ](https://blog.nerdbank.net/ezcash-app)
-![logo ƒe dzesi](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
+![logo ƒe dzesi](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
 - Mɔ̃wo: Asitelefon dzi | Desktop dzi
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
@@ -69,7 +69,7 @@
 ---
 
 ## [Zkool ƒe ŋkɔ](https://github.com/hhanh00/zkool2/)
-![logo ƒe dzesi](https://i.ibb.co/BHGPff0K/zkool-1.png "Zkool")
+![logo ƒe dzesi](/content-images/zkool-1-22ab388e65.webp "Zkool")
 - Mɔ̃wo: Asitelefon dzi | Desktop dzi
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo | Linux
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
@@ -79,7 +79,7 @@
 ---
 
 ## [Akpɔnɔ](https://cakewallet.com/install/)
-![logo ƒe dzesi](https://github.com/user-attachments/assets/a8234c70-3714-4e80-b918-8739d45aea00 "Cake")
+![logo ƒe dzesi](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
 - Mɔ̃wo: Asitelefon dzi | Desktop dzi 
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo | Linux | macOS ƒe nyawo
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
@@ -89,7 +89,7 @@
 ---
 
 ## [Zenith ƒe agbalẽa](https://code.vergara.tech/Vergara_Tech/zenith)
-![logo ƒe dzesi](https://i.ibb.co/VtPBnm6/zenith-2.png "Zenith")
+![logo ƒe dzesi](/content-images/zenith-2-cea75a34fd.webp "Zenith")
 - Mɔ̃wo: Dɔwɔnu siwo wozãna le kɔmpiuta dzi
 - Dɔwɔɖoɖo: Windows | Linux | macOS ƒe nyawo
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
@@ -99,7 +99,7 @@
 ---
 
 ## [Zingo-CLI ƒe nyawo](https://github.com/zingolabs/zingolib)
-![logo ƒe dzesi](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo-CLI")
+![logo ƒe dzesi](/content-images/zingocard-9a2546668d.webp "Zingo-CLI")
 - Mɔ̃wo: Dɔwɔnu siwo wozãna le kɔmpiuta dzi
 - Dɔwɔɖoɖo: Windows | Linux | macOS ƒe nyawo
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
@@ -109,7 +109,7 @@
 ---
 
 ## [Zallet ƒe ŋkɔ](https://github.com/zcash/wallet)
-![logo ƒe dzesi](https://i.ibb.co/3mCrR0dN/Brandmark-Yellow.png "Zallet")
+![logo ƒe dzesi](/content-images/Brandmark-Yellow-2eca7f6f68.webp "Zallet")
 - Mɔ̃wo: Dɔwɔnu siwo wozãna le kɔmpiuta dzi
 - Dɔwɔɖoɖo: Windows | Linux | macOS ƒe nyawo
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
@@ -119,7 +119,7 @@
 ---
 
 ## [Zcashd ƒe ŋkɔ](https://github.com/zcash/zcash)
-![logo ƒe dzesi](https://i.ibb.co/Xz2NskW/zcashd.png "Zcashd")
+![logo ƒe dzesi](/content-images/zcashd-92df3291ad.webp "Zcashd")
 - Mɔ̃wo: Dɔwɔnu siwo wozãna le kɔmpiuta dzi
 - Dɔwɔɖoɖo: Windows | Linux | macOS ƒe nyawo
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
@@ -129,7 +129,7 @@
 ---
 
 ## [Kalẽ](https://brave.com/web3-privacy/)
-![logo ƒe dzesi](https://i.ibb.co/6yqMNwZ/image-2024-01-13-170934865.png "Brave")
+![logo ƒe dzesi](/content-images/image-2024-01-13-170934865-733c5d91c6.webp "Brave")
 - Mɔ̃wo: Nyatakakadzraɖoƒe
 - Dɔwɔɖoɖo: Browser
 - Wallet Support: Seed Phrase | Unified Address
@@ -139,7 +139,7 @@
 ---
 
 ## [Metamask ƒe Nɔnɔmetata](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
-![logo ƒe dzesi](https://i.ibb.co/jn5t9Gy/metamask.png  "Metamask")
+![logo ƒe dzesi](/content-images/metamask-25048569f6.webp  "Metamask")
 - Mɔ̃wo: Nyatakakadzraɖoƒe
 - Dɔwɔɖoɖo: Browser
 - Wallet Support: Seed Phrase | Unified Address
@@ -149,7 +149,7 @@
 ---
 
 ## [Zucchini ƒe lãgbalẽ](https://zucchinifi.xyz/)
-![logo ƒe dzesi](https://github.com/user-attachments/assets/91a1005a-3daf-4747-9442-c178cbe50e49 "Zucchini")
+![logo ƒe dzesi](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
 - Mɔ̃wo: Nyatakakadzraɖoƒe 
 - Dɔwɔɖoɖo: Browser
 - Wallet Support: Seed Phrase | Unified Address
@@ -159,7 +159,7 @@
 ---
 
 ## [SSP Wallet](https://sspwallet.io)
-![logo ƒe dzesi](https://i.ibb.co/X3hdfSY/ssp-1.png "SSP Wallet")
+![logo ƒe dzesi](/content-images/ssp-1-7d96e66117.webp "SSP Wallet")
 - Mɔ̃wo: Asitelefon dzi | Nyatakakadzraɖoƒe
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Browser ƒe dɔwɔnu
 - Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbɔgblɔ
@@ -169,7 +169,7 @@
 ---
 
 ## [Kakaɖedzi Gakotoku](https://trustwallet.com/download)
-![logo ƒe dzesi](https://i.ibb.co/cNqxBJ1/trustwallet.png "Trust Wallet")
+![logo ƒe dzesi](/content-images/trustwallet-bec43acb59.webp "Trust Wallet")
 - Mɔ̃wo: Asitelefon dzi | Nyatakakadzraɖoƒe
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Browser ƒe dɔwɔnu
 - Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbɔgblɔ
@@ -179,7 +179,7 @@
 ---
 
 ## [Mose II, 2019](https://www.exodus.com/zcash-wallet-zec)
-![logo ƒe dzesi](https://i.ibb.co/w0NNZNp/exoduscard.png "Exodus")
+![logo ƒe dzesi](/content-images/exoduscard-2f77769db0.webp "Exodus")
 - Mɔ̃wo: Asitelefon dzi | Dɔdzikpɔƒe | Nyatakakadzraɖoƒe
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo | Linux | macOS ƒe nyawo | Browser ƒe dɔwɔnu
 - Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbɔgblɔ
@@ -189,7 +189,7 @@
 ---
 
 ## [Coinomi ƒe ŋkɔ](https://www.coinomi.com/en/downloads)
-![logo ƒe dzesi](https://i.ibb.co/QfHmjWY/coinomicard.png "Coinomi")
+![logo ƒe dzesi](/content-images/coinomicard-226bcbf876.webp "Coinomi")
 - Mɔ̃wo: Asitelefon dzi | Desktop dzi
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo
 - Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbɔgblɔ
@@ -199,7 +199,7 @@
 ---
 
 ## [Keystone](https://shop.keyst.one)
-![logo ƒe dzesi](https://i.ibb.co/c1gn635/Keystone-1.png "Keystone")
+![logo ƒe dzesi](/content-images/Keystone-1-8177a83308.webp "Keystone")
 - Mɔ̃wo:
 - Dɔwɔɖoɖo:
 - Wallet Support: Hardware | Unified Address
@@ -209,7 +209,7 @@
 ---
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
-![logo ƒe dzesi](https://i.ibb.co/2qX6WCF/Desktop-Wallets.png "Ledger")
+![logo ƒe dzesi](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
 - Mɔ̃wo: 
 - Dɔwɔɖoɖo:
 - Gakotoku ƒe Kpekpeɖeŋu: Hardware
@@ -219,7 +219,7 @@
 ---
 
 ## [Safepal ƒe nya](https://safepal.com)
-![logo ƒe dzesi](https://i.ibb.co/h29h6d0/safepalcard.png "Safepal")
+![logo ƒe dzesi](/content-images/safepalcard-176b24c751.webp "Safepal")
 - Mɔ̃wo: Asitelefon dzi | Nyatakakadzraɖoƒe
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Browser ƒe dɔwɔnu
 - Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbe | Hardware ƒe dɔwɔnuwo
@@ -229,7 +229,7 @@
 ---
 
 ## [Trezor ƒe ŋkɔ](https://trezor.io/learn/a/zcash-zec)
-![logo ƒe dzesi](https://i.ibb.co/twLMCgzW/trezor1.png "Trezor")
+![logo ƒe dzesi](/content-images/trezor1-5004075d27.webp "Trezor")
 - Mɔ̃wo:
 - Dɔwɔɖoɖo:
 - Gakotoku ƒe Kpekpeɖeŋu: Hardware
@@ -239,7 +239,7 @@
 ---
 
 ## [Vultisig ƒe nɔnɔmetata](https://vultisig.com)
-![logo ƒe dzesi](https://i.ibb.co/93wSrxCc/vultisig.png "Vultisig")
+![logo ƒe dzesi](/content-images/vultisig-713626c5ba.webp "Vultisig")
 - Mɔ̃wo: Nyatakakadzraɖoƒe | Asitelefon dzi | Desktop dzi
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo | Linux | macOS ƒe nyawo | Browser ƒe dɔwɔnu
 - Tawo: Wowɔa nu le gaglãgbe
@@ -248,7 +248,7 @@
 ---
 
 ## [Vizor](https://vizor.cash/)
-![logo ƒe dzesi](https://i.ibb.co/zhW2d2fV/Vizorphoto.png "Vizor")
+![logo ƒe dzesi](/content-images/Vizorphoto-6ade2417a5.webp "Vizor")
 - Devices: Desktop | Si tsana
 - Dɔwɔɖoɖo: macOS
 - Wallet Support: Seed Phrase | Unified Address | Hardware
@@ -258,7 +258,7 @@
 ---
 
 ## [Noir ƒe gakotoku](https://www.zknoir.com/)
-![logo ƒe dzesi](https://i.ibb.co/23RkRZZS/Noirwallet.png "Noir")
+![logo ƒe dzesi](/content-images/Noirwallet-8589fe34e4.webp "Noir")
 - Mɔ̃wo: Nyatakakadzraɖoƒe | Desktop dzi
 - Dɔwɔɖoɖo: Browser
 - Tawo: Wokpɔ akpoxɔnu dzi | Si me kɔ
@@ -267,7 +267,7 @@
 ---
 
 ## [LeoDex ƒe agbalẽa me](https://leodex.io/)
-![logo ƒe dzesi](https://i.ibb.co/3YjpzYnH/Leo-Dexwallet.png "LeoDex")
+![logo ƒe dzesi](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
 - Mɔ̃wo: Nyatakakadzraɖoƒe | Desktop dzi
 - Dɔwɔɖoɖo: Browser | Fesrewo | macOS ƒe nyawo
 - Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbe | Gakotoku si le egodo | Xɔ Adrɛs | QR-dzesi | Hardware ƒe dɔwɔnuwo
@@ -277,7 +277,7 @@
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
-![logo ƒe dzesi](https://i.ibb.co/mr8rF8y2/zapp-1.png "Zapp")
+![logo ƒe dzesi](/content-images/zapp-1-a6fa468edb.webp "Zapp")
 - Mɔ̃wo: Asitelefon dzi 
 - Dɔwɔɖoɖo: Android 
 - Wallet Support: Unified Address 

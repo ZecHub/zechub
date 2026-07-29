@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="https://i.ibb.co/2MghCyb/image-2024-02-03-164918723.png" alt="Alt Text" width="50"/>    Electric Coin Company (Sunset)
+# <img src="/content-images/image-2024-02-03-164918723-f59419848a.webp" alt="Alt Text" width="50"/>    Electric Coin Company (Sunset)
 [Nyatakakadzraɖoƒe](https://electriccoin.co) - [Github ƒe ŋkɔ](https://github.com/Electric-Coin-Company) - [X/Twitter dzi](https://x.com/ElectricCoinCo)
 
 ## Dɔdasi Ŋuti Nyatakaka

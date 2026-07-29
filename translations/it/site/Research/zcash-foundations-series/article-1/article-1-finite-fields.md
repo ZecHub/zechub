@@ -1,7 +1,7 @@
 # Campi finiti: il sistema numerico in cui vive la crittografia
 ##### Ricerca originale di [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt text](image-5.png)
+![alt text](/content-images/image-5-6e8a8950f8.webp)
 
 ### Perché il "ritorno ciclico" è il fondamento segreto di Zcash
 
@@ -38,7 +38,7 @@ Usi già un campo finito ogni giorno. È l'orologio sulla tua parete.
 
 Su un orologio a 12 ore, i numeri *tornano ciclicamente*. Parti dalle 10, aggiungi 5 ore, e non finisci sulle "15", finisci sulle **3**. L'orologio ha solo dodici posizioni, e contare oltre la cima semplicemente riporta all'inizio.
 
-![alt text](image-9.png)
+![alt text](/content-images/image-9-30b39f4cc5.webp)
 
 Sono appena successe tre cose che sono l'intero punto di questo articolo:
 
@@ -107,7 +107,7 @@ Quella seconda frase è una catastrofe per l'aritmetica. Due cose non nulle che 
 
 Un primo, per definizione, non ha tali fattori. Quindi mod un primo non possono comparire divisori dello zero, ogni elemento non nullo ottiene un reciproco pulito, e la struttura è un campo a tutti gli effetti.
 
-![alt text](image-8.png)
+![alt text](/content-images/image-8-573914db92.webp)
 
 > **Frase a effetto riutilizzabile per i tuoi articoli:** *modulo primo dentro, divisione pulita fuori.*
 
@@ -159,7 +159,7 @@ Non devi prendere per fede che "Zcash usa i campi finiti". Ecco la mappa concret
 - **Orchard** (l'attuale design schermato) usa una coppia di curve chiamate **Pallas e Vesta** (le curve "Pasta"), i cui campi usano primi lunghi all'incirca **255 bit**.
 - Il **commitment della nota**, il **nullifier** e i numeri all'interno di una **prova a conoscenza zero** dell'Articolo 0 sono tutti, in fondo, elementi di uno di questi campi finiti. Quando il protocollo dice "calcola questo commitment", significa "fai questa aritmetica mod quel primo".
 
-![alt text](image-7.png)
+![alt text](/content-images/image-7-c81fe982f0.webp)
 
 Quindi la risposta alla domanda aperta dell'Articolo 0, *"da dove arrivano le ricette segrete?"*, comincia qui: **tutto inizia come aritmetica in un campo finito.** Nel prossimo articolo prenderemo quel campo e costruiremo gli oggetti veri e propri, i punti su una curva ellittica, che diventano chiavi e commitment.
 

@@ -17,7 +17,7 @@ Wode dɔ asi na block wɔlawo (si woyɔna be tomenukulawo) be woada asi ɖe asit
 Le Bitcoin kple cryptocurrencies bubuwo me la, block ƒe teƒeɖoɖowo katã yia block producers gbɔ. Zcash le etɔxɛ le nyateƒe si wònye be wotsɔa block ƒe fetu ƒe 20% dea [Zcash ŋgɔyiyi gaxɔ me](https://zips.z.cash/zip-1014). Ga sia naa ga ƒuƒoƒo siwo le dɔ wɔm tso Zcash ƒe ɖoɖowɔɖia ŋu.
 
 Fifia la, [Zcash Nutome Gakpekpeɖeŋunana](https://zcashcommunitygrants.org/) xɔa 8% le block ƒe teƒeɖoɖowo me, Electric Coin Co. xɔa 7%, eye Zcash Foundation xɔa 5%. Esia wɔa dɔ va ɖoa ŋgɔyiyi ƒe ga ƒe 40%, 35%, kple 25%.
-![Dev Gaxɔlawo ](https://user-images.githubusercontent.com/43553081/212411570-4858a3d6-f7a1-465a-bf0c-d2ef726d41dc.jpeg)
+![Dev Gaxɔlawo ](/content-images/212411570-4858a3d6-f7a1-465a-bf0c-d2ef72-1efe3a104e.webp)
 
 Le ƒe 2020 me la, Zcash nutoa me tɔwo da asi ɖe ŋgɔyiyi ƒe gaxɔa kple ƒuƒoƒo siwo wòdo alɔe dzi. Le ƒe 2024 me la, nutoa me tɔwo agada akɔ ake be woakpɔ amesi axɔ ga tso ŋgɔyiyi ƒe gaxɔa me.
 
@@ -30,11 +30,11 @@ Hybrid Deferred Dev Fund Lockbox nye gadodo ƒe mɔnu si wotia na Zcash ŋgɔyiy
 
 Wotso nya me be woawɔ 20% Dev Fund Lockbox la ŋudɔ to ɖoɖo si me nutoa me tɔwo kplɔna bliboe me. Esia lɔ Zcash Community Advisory Panel (ZCAP) ƒe numekuku eve, kpakple numekuku geɖe siwo wowɔ le lãwo ƒe agbenɔnɔ ŋuti ɖoɖowo katã me ɖe eme. Numekuku siawo na be ame geɖe siwo kpɔ gome le eme la gblɔ woƒe susuwo eye wokpe asi ɖe nyametsotsowɔwɔ ŋu.
 
-![](https://global.discourse-cdn.com/zcash/original/3X/f/d/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd.png)
+![](/content-images/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd-8f378b3e3d.webp)
 
 Esi wole dev fund lockbox la hem ɖe megbe (si fia be woaʋu ga to network upgrade dzi emegbe) la, eteƒe madidi o Zcash Community atso nya me le ga mama ƒe mɔnu aɖe ŋu. Tiatia ɖeka si wodo ɖa enye ‘Zbloc’ dziɖuɖu ƒe ɖoɖo si woɖe ɖe vovo. 
 
-![Dziɖuɖu si ate ŋu anye dziɖuɖu si me woɖea mɔ ɖe nu ŋu le](https://global.discourse-cdn.com/zcash/original/3X/9/9/99588d6f43a3143cb3616e8a89df5125e855ba39.png)
+![Dziɖuɖu si ate ŋu anye dziɖuɖu si me woɖea mɔ ɖe nu ŋu le](/content-images/99588d6f43a3143cb3616e8a89df5125e855ba39-5688d8901f.webp)
 
 ## Nunɔamesiwo
 

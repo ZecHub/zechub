@@ -10,36 +10,36 @@
 ### 2. 국가 및 네트워크 선택
 화면 상단 왼쪽 모서리로 스크롤한 후, 국가를 선택하고, 충전할 통신사 요금을 선택합니다(예: MTN).
 
-![단계 2 - 국가 및 네트워크 선택](https://cdn-images-1.medium.com/max/1200/0*qvB7ZCWaVWa-C2d8)
+![단계 2 - 국가 및 네트워크 선택](/content-images/0-qvB7ZCWaVWa-C2d8-db0d4ea372.webp)
 
 ### 3. 정보 입력 및 구매
 올바른 정보를 입력한 후 "Buy Now" 버튼을 클릭합니다. 장바구니에서 주문 내용을 확인하고, 계속 진행하여 ZEC로 결제를 확정합니다.
 
-![단계 3 - 구매 화면](https://cdn-images-1.medium.com/max/1200/0*ikF-ooBc9W7olfNt)
+![단계 3 - 구매 화면](/content-images/0-ikF-ooBc9W7olfNt-7a4584edda.webp)
 
 ### 4. 결제 정보
 ZEC의 해당 금액과, 자금을 보내야 할 투명한 주소가 제공됩니다.
 
-![단계 4 - ZEC 결제 정보](https://cdn-images-1.medium.com/max/1200/0*6_YhAhQnsLbrMvHN)
+![단계 4 - ZEC 결제 정보](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
 
 ### 5. 결제 보내기
 금액과 주소를 신중하게 복사하여 붙여넣습니다. 메모 필드에 경우 환불이 필요한 경우 YWallet 주소를 추가합니다.
 
-![단계 5 - ZEC 보내기](https://cdn-images-1.medium.com/max/1200/0*DNnpyemsKcW-k-u-)
+![단계 5 - ZEC 보내기](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
 
 ### 6. 처리 중
 자금이 전송된 후, 요청은 몇 분 안에 처리됩니다.
 
-![단계 6 - 처리 화면](https://cdn-images-1.medium.com/max/1200/0*LgXuUVLVecqrUW5G)
+![단계 6 - 처리 화면](/content-images/0-LgXuUVLVecqrUW5G-a894c7b2dd.webp)
 
 ### 7. 확인
 아하... 내 통신사 요금이 충전되었네요! 결제 과정에서 이메일을 등록하면, 거래가 완료되면 이메일로 알림을 받을 수 있습니다.
 
-![단계 7 - 성공적인 충전](https://cdn-images-1.medium.com/max/1200/0*TJKIcqznQ4Y8_jgo)
+![단계 7 - 성공적인 충전](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
 
 ---
 
-![추가 스크린샷](https://cdn-images-1.medium.com/max/1200/0*Jn7tD9lb2xtMBpIw)
+![추가 스크린샷](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)
 
 ### ZEC을 사용할 수 있는 다른 장소
 

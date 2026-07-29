@@ -41,7 +41,7 @@ MetaMask doa alɔ **shielded Zcash (ZEC)** fifia to **ChainSafe-developed Zcash 
       Store data on your device
    ```
 
-![Zcash-snap-ɖoɖo ɖe mɔ̃ dzi](https://hackmd.io/_uploads/Hy5MSG2Oex.png)
+![Zcash-snap-ɖoɖo ɖe mɔ̃ dzi](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
 
 
 ---
@@ -59,7 +59,7 @@ Le **BNB SmartChain ** gome la;
 -  Block Explorer URL: https://bscscan.com
 ```
 Esia wɔnɛ be network info kple explorer ƒe kadodowo te ŋu wɔa dɔ.
-![Tsɔ-Tsɔ-Net-si-ɖe-nuwɔna....](https://hackmd.io/_uploads/S1hq7f2Oel.png)
+![Tsɔ-Tsɔ-Net-si-ɖe-nuwɔna....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
 
 Le **Zcash Mainnet ** gome la;
 ```markdown
@@ -75,13 +75,13 @@ Le **Zcash Mainnet ** gome la;
 1. Yi [webzjs.kɔsɔkɔsɔ dedie.dev](https://webzjs.chainsafe.dev).  
 2. Zi **Do ka kple MetaMask Snap** dzi. 
 
-![Zcash-nyatakakadzraɖoƒe-gakotoku](https://hackmd.io/_uploads/Sk8nSz3dgl.png)
+![Zcash-nyatakakadzraɖoƒe-gakotoku](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
 
 3. Da asi ɖe kadodoa dzi. 
 4. Kpɔ wò Zcash akɔnta ƒe kpukpui, siwo dometɔ aɖewoe nye:
    - Adrɛs siwo wowɔ ɖekae kple Adrɛs si me kɔ
 
-![Akɔnta-kɔntabubu-unif....](https://hackmd.io/_uploads/r17c_Mhdel.jpg)
+![Akɔnta-kɔntabubu-unif....](/content-images/r17c_Mhdel-f4963826d5.webp)
 
 
 5. Lala be woawɔ ɖekawɔwɔa nawu enu.
@@ -96,7 +96,7 @@ Le **Zcash Mainnet ** gome la;
 > **Trɔ ETH -> ZEC** - Zã subɔsubɔdɔwo abe **LeoDex** eye nàɖoe ɖe wò adrɛs si wokpɔ ta na. 
 > **Exchange Withdrawal** - He ZEC si nèƒle la yi wò WebZjs ƒe adrɛs si wokpɔ ta na la dzi. 
 
-![LEODEX-WO ƑE NUÐEÐEŊUTI](https://hackmd.io/_uploads/HyLQ0G2ugg.png)
+![LEODEX-WO ƑE NUÐEÐEŊUTI](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => Zã adrɛs siwo wokpɔ ta na (z) hena **adzamenyawo katã**.
@@ -111,7 +111,7 @@ Le **Zcash Mainnet ** gome la;
    - Shielded recipient address  
    - Amount
 ```
-   ![Tɔtrɔ-Dzasɔ](https://hackmd.io/_uploads/rkvcFfhdex.png)
+   ![Tɔtrɔ-Dzasɔ](/content-images/rkvcFfhdex-bd55d079eb.webp)
 
 4. Ðo kpe asitsatsa dzi le MetaMask (de asi asitsatsa la te). 
 5. Ga siwo woxɔ la adze le WebZjs me ne woɖo kpe edzi vɔ.
@@ -145,7 +145,7 @@ Le **Zcash Mainnet ** gome la;
    Transparent Address
 ``` 
 
-![Adrɛs-kpawo](https://hackmd.io/_uploads/SyPR2f2_gg.png)
+![Adrɛs-kpawo](/content-images/SyPR2f2_gg-3907c5bf58.webp)
 
 
 

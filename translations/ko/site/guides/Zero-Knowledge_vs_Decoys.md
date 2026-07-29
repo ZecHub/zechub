@@ -10,7 +10,7 @@
 
 
 <a href="">
-    <img src="https://user-images.githubusercontent.com/38798812/257773807-af8ae27d-0805-4a60-a5ba-749e2fea2490.png" alt="" width="400" height="300"/>
+    <img src="/content-images/257773807-af8ae27d-0805-4a60-a5ba-749e2f-cafd67320f.webp" alt="" width="400" height="300"/>
 </a>
 
 
@@ -39,7 +39,7 @@ Monero의 유인자 알고리즘(링 서명)은 프라이버시를 제공하지�
 
 
 <a href="">
-    <img src="https://user-images.githubusercontent.com/38798812/257793324-2dcc6047-300e-4fa7-a28d-2e6cbbadf1df.png" alt="" width="400" height="80"/>
+    <img src="/content-images/257793324-2dcc6047-300e-4fa7-a28d-2e6cbb-7242c98ea4.webp" alt="" width="400" height="80"/>
 </a>
 
 
@@ -62,7 +62,7 @@ Monero의 유인자 선택 알고리즘에 결함이 발견된 사례가 여러 
 
 
 <a href="">
-    <img src="https://user-images.githubusercontent.com/38798812/257788813-509f1139-7daa-4f95-bbb4-c535641962f6.png" alt="" width="400" height="200"/>
+    <img src="/content-images/257788813-509f1139-7daa-4f95-bbb4-c53564-f815d11477.webp" alt="" width="400" height="200"/>
 </a>
 
 

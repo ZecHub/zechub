@@ -20,7 +20,7 @@ Hashfunktionen nehmen eine Eingabe beliebiger Länge und erzeugen eine Ausgabe m
 - **Erzeugte Ausgabe** = Hashwert  
 
 
-![Hashfunktionsdiagramm](https://pbs.twimg.com/media/Fn_NkFHXgAEtgse.png)
+![Hashfunktionsdiagramm](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
 
 ### Probiere es selbst aus!
 
@@ -58,12 +58,12 @@ Es gibt mehrere Klassen von Hashfunktionen. Einige Beispiele:
 #### 1. Integritäts-Hashing (Prüfungen der Datenintegrität)
 Prüfungen der Datenintegrität sind ein Beispiel für „Integritäts-Hashing“. Sie werden verwendet, um Prüfsummen für Datendateien zu erzeugen und den Nutzern die Korrektheit der Daten zu bestätigen.
 
-![Beispiel für Integritäts-Hashing](https://pbs.twimg.com/media/Fn_Or0MWIAI6sgx.png)
+![Beispiel für Integritäts-Hashing](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
 
 #### 2. Merkle-Bäume (Hash-Bäume)
 Ein **Hash-Baum** oder **Merkle-Baum** besteht aus Zweigen und Blattknoten, die mit dem kryptografischen Hash eines Datenblocks beschriftet sind.
 
-![Merkle-Baum-Diagramm](https://pbs.twimg.com/media/Fn_O7ndWIAY5PA-.jpg)
+![Merkle-Baum-Diagramm](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
 
 Merkle-Bäume sind ein Beispiel für ein **kryptografisches Commitment-Schema**. Die Wurzel des Baums wird als Commitment betrachtet, und es kann bewiesen werden, dass Blattknoten Teil des ursprünglichen Commitments sind.
 
@@ -75,7 +75,7 @@ In den abgeschirmten Pools **Sapling** und **Orchard** von Zcash wird der **Note
 #### 4. Signatur-Hash (Blöcke im Bitcoin-Stil)
 **SHA256** ist ein Beispiel für einen „Signatur-Hash“, der verwendet wird, um die Unveränderlichkeit jedes Blocks in der Bitcoin-Chain durchzusetzen. Miner verwenden den Hash des vorherigen Blocks + einen Hash aller Transaktionen im aktuellen Block (`hashMerkleRoot`) + Zeitstempel + Zufallswert / Netzwerkschwierigkeit für neue Blöcke.
 
-![SHA256-Blockdiagramm](https://pbs.twimg.com/media/Fn_PaVZXoAApHPf.jpg)
+![SHA256-Blockdiagramm](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
 
 #### 5. Equihash (Zcash-Mining)
 **Equihash** ist der Hashing-Algorithmus, der beim Mining von Zcash verwendet wird. Er wird auch von Netzwerken wie Komodo und Horizen verwendet.

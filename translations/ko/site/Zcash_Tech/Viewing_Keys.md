@@ -47,7 +47,7 @@
 * 오른쪽 상단 모서리에서 "Account"를 선택한 다음, 오른쪽 하단 모서리에 있는 "+"를 클릭하여 보기 키를 추가 및 가져오고 '읽기 전용' 계정을 추가합니다.
 
 <a href="">
-    <img src="https://i.ibb.co/C0b002N/image-2024-01-13-175554676.png" alt="" width="200" height="280"/>
+    <img src="/content-images/image-2024-01-13-175554676-8cdf988797.webp" alt="" width="200" height="280"/>
 </a>
 
 

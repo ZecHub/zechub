@@ -34,7 +34,7 @@ Zcash funds को अलग-अलग accounting systems में विभा
 
 <br/>
 
-![img1](https://github.com/user-attachments/assets/4ba8cca2-cea5-42d2-8ec2-2122b26f5144)
+![img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
 चित्र 1: अक्टूबर, 2025 तक के वर्तमान 4 pools को दर्शाने वाला एक चार्ट
 
 <br/>
@@ -45,7 +45,7 @@ Zcash funds को अलग-अलग accounting systems में विभा
 1. <h3 id="orchard" class="text-3xl font-bold my-4">Orchard Pool</h3>
 
 
-![img2](https://github.com/user-attachments/assets/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72)
+![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
 चित्र 2: अक्टूबर, 2025 तक Orchard pool को दर्शाने वाला एक चार्ट
 
 <br/>
@@ -63,7 +63,7 @@ ____
 2. <h3 id="sapling" class="text-3xl font-bold my-4">Sapling Pool</h3>
 
 
-![img3](https://github.com/user-attachments/assets/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae)
+![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
 चित्र 3: अक्टूबर, 2025 तक Sapling pool को दर्शाने वाला एक चार्ट
 
 <br/>
@@ -83,7 +83,7 @@ ____
 3. <h3 id="sprout" class="text-3xl font-bold my-4">Sprout Pool</h3>
 
 
-![img4](https://github.com/user-attachments/assets/956eceed-f4d6-4087-99d0-32a770449dda)
+![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
 चित्र 4: अक्टूबर, 2025 तक Sprout pool को दर्शाने वाला एक चार्ट
 
 Sprout अब तक लॉन्च किया गया पहला open permissionless Zero Knowledge privacy protocol था। इसे 28 अक्टूबर, 2016 को लॉन्च किया गया था।
@@ -98,7 +98,7 @@ Sprout का उपयोग [Zcash slow start Mining](https://electriccoin.co/
 4. <h3 id="transparent" class="text-3xl font-bold my-4">Transparent Pool</h3>
 <br/>
 
-![img5](https://github.com/user-attachments/assets/01de2907-b62d-4421-83d7-ea4908faa828)
+![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
 चित्र 5: अक्टूबर, 2025 तक Transparent pool को दर्शाने वाला एक चार्ट
 
 <br/>

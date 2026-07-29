@@ -101,7 +101,7 @@ Zcash Community Forum bụ ebe ndị otu obodo Zcash na-atụle ihe niile metụ
 Obodo a na-anụ ọkụ n'obi ma na-anabata ndị ọhụrụ. Mgbe ụfọdụ mkparịta ụka nwere ike ịbụ teknụzụ, mana echegbula! Ọ bụrụ na ị nwere ajụjụ, ị nwere ike ịjụ.
 
 <a href="">
-    <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="https://github.com/user-attachments/assets/c1d40441-4336-4754-b3bf-5a746b19a9d5" />
+    <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="/content-images/c1d40441-4336-4754-b3bf-5a746b19a9d5-6d2eca6cbf.webp" />
 </a>
 
 ---

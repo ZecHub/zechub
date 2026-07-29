@@ -16,15 +16,15 @@
 
 * شفافة
 
-![صورة 1](https://user-images.githubusercontent.com/81990132/219261771-a9957ec3-2841-4073-9cfd-1db9d6356693.png)
+![صورة 1](/content-images/219261771-a9957ec3-2841-4073-9cfd-1db9d6-574fc930f0.webp)
 
 * sapling
 
-![صورة 2](https://user-images.githubusercontent.com/81990132/219261784-1a617e70-f588-4eed-96bf-f0789d7af58a.png)
+![صورة 2](/content-images/219261784-1a617e70-f588-4eed-96bf-f0789d-e10ebfc543.webp)
 
 * Unified Address (كامل)
 
-![صورة 3](https://user-images.githubusercontent.com/81990132/219261794-bcc79db6-4dc6-4c6a-867b-3717b81e6b71.png)
+![صورة 3](/content-images/219261794-bcc79db6-4dc6-4c6a-867b-3717b8-a3650f8968.webp)
 
 
 أول ما ينبغي ملاحظته هو أن طول كل نوع من العناوين مختلف. ويمكنك رؤية ذلك بصريًا من خلال عدد الأحرف في سلسلة العنوان *أو* من خلال رموز QR المرتبطة بها. ومع زيادة طول العنوان، يميل رمز QR إلى التصغير لاحتواء مزيد من البيانات داخل المربع.
@@ -46,21 +46,21 @@
 
 * شفافة + sapling
 
-![صورة 4](https://user-images.githubusercontent.com/81990132/219267475-38ad1419-0aac-4205-b18e-6873283f9d85.png)
+![صورة 4](/content-images/219267475-38ad1419-0aac-4205-b18e-687328-46b8f12f80.webp)
 
 * شفافة + orchard
 
 
-![صورة 5](https://user-images.githubusercontent.com/81990132/219267496-90db21ff-f4e1-4a50-8f2a-1a71d995652a.png)
+![صورة 5](/content-images/219267496-90db21ff-f4e1-4a50-8f2a-1a71d9-7423486eb5.webp)
 
 * sapling + orchard
 
 
-![صورة 6](https://user-images.githubusercontent.com/81990132/219267520-6b731ec2-e911-4469-acc5-c39d4addcac2.png)
+![صورة 6](/content-images/219267520-6b731ec2-e911-4469-acc5-c39d4a-a89ba01b88.webp)
 
 * orchard
   
-![صورة 7](https://user-images.githubusercontent.com/81990132/219267538-1a748fff-4034-4559-96ac-182723409b3a.png)
+![صورة 7](/content-images/219267538-1a748fff-4034-4559-96ac-182723-3d69e23dac.webp)
 
 أول ما يجب ملاحظته هو أن كل هذه UA's مشتقة من المفتاح الخاص نفسه! وثاني ما يجب ملاحظته هو أطوال كل نوع من أنواع UA:
 

@@ -28,7 +28,7 @@ In der Informatik bezeichnet man effizient verifizierbare Beweise als NP-Beweise
 
 
 <a href="">
-    <img width="853" height="396" alt="NPlanguage1" src="https://github.com/user-attachments/assets/d25345cf-e958-4ce2-b01d-f4e7f2db9551" alt="" width="600" height="400"/>
+    <img width="853" height="396" alt="NPlanguage1" src="/content-images/d25345cf-e958-4ce2-b01d-f4e7f2db9551-1ac56e56d7.webp" alt="" width="600" height="400"/>
 </a>
 
 
@@ -47,7 +47,7 @@ Korrektheit: Falsche Behauptungen haben keine Beweise (für jede Strategie eines
 
 
 <a href="">
- <img width="855" height="399" alt="IPmodel1" src="https://github.com/user-attachments/assets/1542be12-d3fd-4934-8413-0d16f95b8d10" alt="" width="600" height="400"/>
+ <img width="855" height="399" alt="IPmodel1" src="/content-images/1542be12-d3fd-4934-8413-0d16f95b8d10-58bfcb4059.webp" alt="" width="600" height="400"/>
 </a>
 
 
@@ -86,7 +86,7 @@ Real View: Alle möglichen Verläufe von Interaktionen zwischen Prover und Verif
 Simulated View: Der Verifier simuliert alle möglichen Interaktionen zwischen Prover und Verifier 
 
 <a href="">
-    <img width="850" height="397" alt="simulation1" src="https://github.com/user-attachments/assets/0e68649d-a231-44d8-a76a-25a307f68b9e"  alt="" width="600" height="400"/>
+    <img width="850" height="397" alt="simulation1" src="/content-images/0e68649d-a231-44d8-a76a-25a307f68b9e-ba1f0027cf.webp"  alt="" width="600" height="400"/>
 </a>
 
 Ein Distinguisher in polynomialer Zeit versucht festzustellen, ob er auf die reale oder die simulierte Sicht blickt, und fordert wiederholt Stichproben aus beiden an.
@@ -117,7 +117,7 @@ Beispiel: „3x² + 8x + 17“
 
 
 <a href="">
-<img width="785" height="368" alt="circuit1" src="https://github.com/user-attachments/assets/be1de1d6-60d3-4fd1-b9a2-5094c65d696f" alt="" width="300" height="200"/>
+<img width="785" height="368" alt="circuit1" src="/content-images/be1de1d6-60d3-4fd1-b9a2-5094c65d696f-dbd3177247.webp" alt="" width="300" height="200"/>
 </a>
 
 In diesem Beispiel möchte der Prover den Verifier davon überzeugen, dass er eine Lösung für den arithmetischen Schaltkreis kennt.  
@@ -143,7 +143,7 @@ Interaktives Polynomial-Oracle: Der Verifier fordert den Prover (Algorithmus) au
 Setup-Verfahren helfen dem Verifier, indem sie einen Schaltkreis zusammenfassen und öffentliche Parameter ausgeben. 
 
 <a href="">
-<img width="845" height="398" alt="setup1" src="https://github.com/user-attachments/assets/c41212ca-b5e9-4ac8-8695-be612c45a679" alt="" width="600" height="300"/>
+<img width="845" height="398" alt="setup1" src="/content-images/c41212ca-b5e9-4ac8-8695-be612c45a679-80a6a87752.webp" alt="" width="600" height="300"/>
 </a>
 
 **Arten von Pre-Processing-Setups**:
@@ -186,7 +186,7 @@ zk-SNARKS bieten in einer Vielzahl unterschiedlicher Anwendungen mehrere Vorteil
 Der Vorteil eines Proof-basierten Rollup-Dienstes (zk-Rollup) besteht darin, ein Bündel aus Hunderten/Tausenden von Transaktionen zu verarbeiten, während die L1 einen knappen Beweis dafür verifizieren kann, dass alle Transaktionen korrekt verarbeitet wurden, wodurch der Transaktionsdurchsatz des Netzwerks um den Faktor 100 oder 1000 skaliert.
 
 <a href="">
-  <img width="606" height="336" alt="zkvm1" src="https://github.com/user-attachments/assets/a3cbb5c9-8767-4b34-9fcb-868ca421838f" width="600" height="300"/>
+  <img width="606" height="336" alt="zkvm1" src="/content-images/a3cbb5c9-8767-4b34-9fcb-868ca421838f-d69b264b5b.webp" width="600" height="300"/>
 </a>
 
 

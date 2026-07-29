@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="编辑页面"/>
 </a>
 
-# <img src="https://i.ibb.co/2MghCyb/image-2024-02-03-164918723.png" alt="替代文本" width="50"/>    Electric Coin Company（落幕）
+# <img src="/content-images/image-2024-02-03-164918723-f59419848a.webp" alt="替代文本" width="50"/>    Electric Coin Company（落幕）
 [网站](https://electriccoin.co) - [Github](https://github.com/Electric-Coin-Company) - [X/Twitter](https://x.com/ElectricCoinCo)
 
 ## 使命宣言

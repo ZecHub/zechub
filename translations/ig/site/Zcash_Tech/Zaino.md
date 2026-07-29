@@ -17,13 +17,13 @@ Also, Zaino will allow to separate light client functionality from the full node
 ## Ụfọdụ eserese na-egosi etu Zaino si arụ ọrụ
 
 ### Zaino Ime Ụlọ
-[Zaino Ime ụlọ Architecture](https://i.ibb.co/mRTNtfy/image-2025-01-02-190143429.png)
+[Zaino Ime ụlọ Architecture](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
 
 ### Zaino Live Service Architecture
-[Zebra Live Service Architecture]](https://i.ibb.co/x7dbRY8/image-2025-01-02-190349017.png)
+[Zebra Live Service Architecture]](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
 
 ### Ụlọ ọrụ Zaino System Architecture
-[Zaino System Architecture]](https://i.ibb.co/wwL0XZv/image-2025-01-02-190448037.png)
+[Zaino System Architecture]](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
 
 
 ## Ebee ka m nwere ike ịmụtakwu ihe?

@@ -55,12 +55,12 @@ Pupọ awọn paṣipaarọ pataki ṣe atilẹyin Zcash. Wo nibi fun atokọ al
 Àwọn àdàkọ wọ̀nyí ń ṣe àtìlẹ́yìn fún àwọn ìsínwó tí ó ṣe kedere. Èyí túmọ̀ sí wípé nígbàtí o bá yọ ZEC kúrò nínú àpamọ́ rẹ, o ní láti fi ránṣẹ́ sí adirẹsi rẹ tó ṣe kedere, àdírẹ́sì ZEC tí gbogbo ènìyàn mọ̀. 
 Tẹ [bíi]](https://zechub.wiki/using-zcash/non-custodial-exchanges) fún mi ní kúlẹ̀kúlẹ̀.
 
-![ì í ì](https://github.com/user-attachments/assets/bfe2e9cf-2def-4593-b790-152e14b23da3)
+![ì í ì](/content-images/bfe2e9cf-2def-4593-b790-152e14b23da3-f94f97c7e6.webp)
 
 
 Nigbati o ba n ṣe eyi, a ṣeduro lilo ọkan ninu awọn apamọwọ wọnyi [](https://zechub.wiki/wallets). 
 
-[ìkànnì alágbèéká]](https://github.com/user-attachments/assets/8b7618f5-dec6-4e6b-9804-db75be5c1e2f)
+[ìkànnì alágbèéká]](/content-images/8b7618f5-dec6-4e6b-9804-db75be5c1e2f-14fa53d3bd.webp)
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">

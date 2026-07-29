@@ -47,7 +47,7 @@ Kí ló dé tí ẹnìkan á fi fẹ́ ṣe èyí? láti orí ìkànnì Electric
 * Ni igun apa ọtun oke, yan "Akọọlẹ", tẹ lori "+" ni igun isalẹ ọtun lati ṣafikun ati gbe bọtini wiwo rẹ lati fi akọọlẹ 'ka nikan' rẹ kun.
 
 <a href="">
-    <img src="https://i.ibb.co/C0b002N/image-2024-01-13-175554676.png" alt="" width="200" height="280"/>
+    <img src="/content-images/image-2024-01-13-175554676-8cdf988797.webp" alt="" width="200" height="280"/>
 </a>
 
 

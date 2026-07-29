@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="https://i.ibb.co/fGYHTfZ5/Shielded-labs-shield-white-2.png" alt="Alt Text" width="50"/>    Shielded Labs
+# <img src="/content-images/Shielded-labs-shield-white-2-27aef199ae.webp" alt="Alt Text" width="50"/>    Shielded Labs
 
 
 [Labs Shielded](https://shieldedlabs.net) ilianzishwa kama Chama cha Uswisi mnamo Desemba 2022, na haina ushirika na Zcash Community Grants (ZCG) na haina mipango ya kuomba ufadhili wa ZCG.

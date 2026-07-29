@@ -42,7 +42,7 @@ Anum-si so dua aboboano no ne nɔma titiriw no. Biribiara a edi kan no yɛ sika 
 
 ZGo yɛ adwuma wɔ nnɛyi browser biara mu wɔ desktop anaa mobile so, a enni instɔlehyɛn biara wɔ afã abien no nyinaa. Adetɔfo no hia Zcash sika kotoku; aguadifoɔ no hia Zcash sika kotokuo ne ZGo akonta.
 
-<img width="672" height="378" alt="ZGo payment request and blockchain monitoring overview" src="https://github.com/user-attachments/assets/de50885b-b068-4157-bbda-0981ca23efc8" />
+<img width="672" height="378" alt="ZGo payment request and blockchain monitoring overview" src="/content-images/de50885b-b068-4157-bbda-0981ca23efc8-a00a274776.webp" />
 
 ## Akontaabu a wobɛhyehyɛ
 
@@ -77,7 +77,7 @@ Sɛ wopɛ sɛ wohyehyɛ nea edi kan a, di nantew a wɔatu ho ama no akyi: [Xero 
 
 Wɔ intanɛt so sotɔɔ ahorow a ɛyɛ adwuma wɔ [WooCommerce](https://woocommerce.com/) ne [WordPress](https://wordpress.org/), ZGo de plugin a wɔatu ho ama ma. Plugin no de Zcash ka ho sɛ ɔkwan a wɔfa so tua ka wɔ checkout mu na ɛdi order tebea no ho dwuma ankasa bere a sikatua no si so dua no.
 
-<img width="672" height="378" alt="ZGo WooCommerce plugin checkout and order flow" src="https://github.com/user-attachments/assets/55a791bb-1947-4f55-b5b9-55083be8ed49" />
+<img width="672" height="378" alt="ZGo WooCommerce plugin checkout and order flow" src="/content-images/55a791bb-1947-4f55-b5b9-55083be8ed49-2bc8d2571e.webp" />
 
 Nsu a ɛsen fi awiei kosi awiei wɔ WooCommerce sotɔɔ bi mu:
 

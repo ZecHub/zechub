@@ -11,32 +11,32 @@ Free2Z 是一个以隐私为核心的平台，旨在赋能创作者向世界展�
 * 首先，请在其官方网站 [https://free2z.cash](https://free2z.cash) 创建一个账户。
 * 找到页面右上角的登录按钮并输入你的凭据。你也可以使用电子邮件地址或 X 账户创建账户。
 
-![](https://i.ibb.co/VWhmwy4s/IMG-9351.jpg)
+![](/content-images/IMG-9351-6cb6b07d52.webp)
 
 * 恭喜你成为社区的一员\! 现在，是时候通过上传头像、横幅，以及介绍你是谁、你做什么的描述来个性化你的个人资料了。
 
-![](https://i.ibb.co/yBFPnr17/IMG-9360.jpg)
+![](/content-images/IMG-9360-5deeba8c68.webp)
 
 * 另外，一定要把你的 Zcash 地址添加到钱包字段中，以便接收支持者的捐赠和打赏。
 
-![](https://i.ibb.co/qLLKCr34/IMG-9361.jpg)
+![](/content-images/IMG-9361-5c9ce21046.webp)
 
 **功能**
 
 **ZPages：** ZPages 让创作者能够与更广泛的社区分享他们的书面作品。在这个平台上写作有一个特别有趣的方面，那就是你的受众可以通过捐赠来支持你的作品，这是表达欣赏的绝佳方式。
 
-![](https://i.ibb.co/BKyx1xc0/IMG-9365.jpg)
+![](/content-images/IMG-9365-e14bce4613.webp)
 
 **了解 2Zs**
 
 这些是在平台上价值 $0.01 的积分。借助 2Zs，用户可以通过捐赠和订阅支持他们喜爱的创作者。他们还可以参与社区活动，例如投票、在 ZPages 上评论、内容助推以及直播功能。
 
-![](https://i.ibb.co/1G9YyMz7/IMG-9370.jpg)
+![](/content-images/IMG-9370-4264be0de0.webp)
 
 通过捐赠、订阅以及按次付费直播，你可以赚取 2Zs。你还可以只需扫描二维码，用 ZEC 购买一些积分。
 
-![](https://i.ibb.co/JjpCHK9N/IMG-9381.jpg)
-![](https://i.ibb.co/HLJDbFwX/IMG-9379.jpg)
+![](/content-images/IMG-9381-2d8e6d7454.webp)
+![](/content-images/IMG-9379-6ca5049e12.webp)
 
 **如何开始直播**
 
@@ -49,15 +49,15 @@ Free2Z 是一个以隐私为核心的平台，旨在赋能创作者向世界展�
 
 该选项承诺提供端到端加密、私密会议，以及可发送给参与者的唯一会议链接。
 
-![](https://i.ibb.co/zTnTHXLz/IMG-9374.jpg)
+![](/content-images/IMG-9374-c374bec27e.webp)
 
 **你还能从直播中获得什么？**
 
 Free2Z 直播提供了一些独特的优势，例如用于决策的投票，以及文档共享和白板等插件，非常适合演示、屏幕共享、聊天等更多场景！
 
-![](https://i.ibb.co/2m17ttc/IMG-9375.jpg)
-![](https://i.ibb.co/HfnTFFxs/IMG-9377.jpg) 
+![](/content-images/IMG-9375-00d4b67876.webp)
+![](/content-images/IMG-9377-58999b233c.webp) 
 
 这就是 Free2Z 上直播会话的样子
 
-![](https://i.ibb.co/SwzQ6wPw/Screenshot-2025-05-25-053026.png)
+![](/content-images/Screenshot-2025-05-25-053026-868bec29a2.webp)

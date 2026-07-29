@@ -2,7 +2,7 @@
 
 # Shade Protocol
 
-![Shade Protocol Logo](https://framerusercontent.com/images/Af8EzlNiwGr4FTFX7oqdBuE.png)
+![Shade Protocol Logo](/content-images/Af8EzlNiwGr4FTFX7oqdBuE-71316827d0.webp)
 
 ## Cos'è Shade Protocol?
 
@@ -14,7 +14,7 @@ Shade Protocol è un ecosistema DeFi (Decentralized Finance) che tutela la priva
 
 Shade Protocol è costruito su Secret Network, una blockchain layer 1 che fornisce smart contract che tutelano la privacy. Secret Network usa input, output e stato cifrati per garantire la privacy delle transazioni, proteggendo i dati degli utenti dall'essere esposti sul registro pubblico.
 
-![Secret Network Diagram](https://miro.medium.com/v2/resize:fit:828/format:webp/1*yyZ5hFOw6z8zXX_rgJn5iw.png)
+![Secret Network Diagram](/content-images/1-yyZ5hFOw6z8zXX_rgJn5iw-9091067aa1.webp)
 
 Secret Network consente agli sviluppatori di costruire applicazioni decentralizzate con dati cifrati, sia nativamente su Secret sia su altre blockchain attraverso la comunicazione cross chain, sbloccando potenti nuovi casi d'uso per il Web3.
 
@@ -23,7 +23,7 @@ Secret Network consente agli sviluppatori di costruire applicazioni decentralizz
 Cosmos è stato creato per interconnettere blockchain eterogenee definendo modi migliori e più moderni per costruire queste blockchain usando nuovi strumenti come Tendermint e il Cosmos SDK.  
 Il protocollo usa il Cosmos SDK, un framework modulare per costruire applicazioni blockchain scalabili e interoperabili. Questo consente a Shade Protocol di beneficiare della robustezza e dell'interoperabilità dell'ecosistema Cosmos.
 
-![Cosmos SDK and Tendermint Core Diagram](https://s3.ap-northeast-1.amazonaws.com/gimg.gateimg.com/learn/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e.jpg)
+![Cosmos SDK and Tendermint Core Diagram](/content-images/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e-ed16bb7658.webp)
 
 Per il consenso e la sicurezza della rete, Shade Protocol impiega Tendermint Core, che fornisce un consenso Byzantine Fault Tolerant (BFT), garantendo alta sicurezza e finalità rapida.
 
@@ -37,9 +37,9 @@ La DeFi che tutela la privacy sfrutta tecniche crittografiche avanzate come tran
 
 Shade Protocol utilizza le viewing key per i suoi due token principali: Shade ($SHD) e Silk ($SILK). Shade ($SHD) svolge molteplici ruoli, fungendo da token di tesoreria, governance e revenue sharing all'interno dell'ecosistema. Viene usato nello staking, nelle proposte di governance, nella fornitura di liquidità, nelle transazioni e nei bond. Silk ($SILK), d'altra parte, è la stablecoin del protocollo incentrata sulla privacy, ancorata a un paniere diversificato di valute e materie prime globali come oro, Bitcoin, USD, Euro e Yen.
 
-![Shade and Silk Tokens - Part 1](https://framerusercontent.com/images/9wTrxCdx8AoRcCwsGub13QXuY.png?scale-down-to=1024)
+![Shade and Silk Tokens - Part 1](/content-images/9wTrxCdx8AoRcCwsGub13QXuY-807ed3b400.webp)
 
-![Shade and Silk Tokens - Part 2](https://framerusercontent.com/images/IUC9YWfErTebCBsMkdbCnjSWGEY.png)
+![Shade and Silk Tokens - Part 2](/content-images/IUC9YWfErTebCBsMkdbCnjSWGEY-4ed6d5cedf.webp)
 
 ### Privacy
 
@@ -57,7 +57,7 @@ In quanto piattaforma DeFi, Shade Protocol opera senza controllo centrale, forne
 
 Far parte dell'ecosistema Cosmos significa che Shade Protocol può interagire facilmente con altre blockchain, migliorando la liquidità e fornendo più opportunità agli utenti di sfruttare i propri asset su reti diverse. Utilizzando le tecnologie che tutelano la privacy di Secret Network, Shade Protocol garantisce che queste attività cross chain mantengano riservatezza e integrità. Questa interoperabilità non solo migliora la flessibilità e la funzionalità delle applicazioni decentralizzate, ma favorisce anche un ecosistema blockchain più interconnesso e robusto, riducendo la dipendenza da reti isolate e promuovendo un'adozione più ampia delle soluzioni di finanza decentralizzata.
 
-![Interoperability Diagram](https://framerusercontent.com/images/3zIwSJHEwP9tkn4aI0do0lhgFTE.png)
+![Interoperability Diagram](/content-images/3zIwSJHEwP9tkn4aI0do0lhgFTE-2aed930de0.webp)
 
 ## Conclusione
 

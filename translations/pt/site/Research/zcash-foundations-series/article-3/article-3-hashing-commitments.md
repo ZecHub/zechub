@@ -1,7 +1,7 @@
 # Hashing e Commitments: O Envelope Selado Mágico
 ##### Pesquisa original de [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![texto alternativo](image-15.png)
+![texto alternativo](/content-images/image-15-0c16784b27.webp)
 
 ### Como trancar um segredo em público e nunca mais poder mentir sobre ele
 
@@ -30,7 +30,7 @@ Esse mecanismo de "fixar agora, revelar depois, sem mentir" é chamado de **comm
 
 Uma **função hash** pega quaisquer dados, desde uma única letra até uma biblioteca inteira, e os comprime em uma string curta de tamanho fixo chamada **digest** ou **hash**. Pense nela como uma **impressão digital para dados**.
 
-![texto alternativo](image-16.png)
+![texto alternativo](/content-images/image-16-52fdf62c87.webp)
 
 Uma boa impressão digital criptográfica tem quatro propriedades. Guarde-as como intuições, não como equações:
 
@@ -69,7 +69,7 @@ A correção é uma palavra: **aleatoriedade.**
 
 Agora o mesmo `v` produz um commitment com aparência diferente toda vez, porque `r` é diferente. As duas propriedades que queríamos finalmente passam a valer ao mesmo tempo:
 
-![texto alternativo](image-17.png)
+![texto alternativo](/content-images/image-17-3ec4617665.webp)
 
 Para **abrir** (revelar) o commitment mais tarde, você publica `v` e `r`; qualquer pessoa recalcula `H(v, r)` e verifica se coincide. Você ficou preso àquele valor. Esse é o envelope selado mágico do Artigo 0, tornado real.
 
@@ -100,7 +100,7 @@ SHA-256 é uma impressão digital excelente para a computação do dia a dia. Ma
 
 Por isso, os criptógrafos do Zcash projetaram funções hash cujos mecanismos internos *já são* aritmética de campo, tornando-as baratas de provar:
 
-![texto alternativo](image-18.png)
+![texto alternativo](/content-images/image-18-89ade807ad.webp)
 
 Essa única pressão de engenharia, *"tem que ser barato de provar,"* é o motivo pelo qual o Zcash inventou e adotou funções hash especiais em vez de recorrer ao SHA-256 em toda parte.
 

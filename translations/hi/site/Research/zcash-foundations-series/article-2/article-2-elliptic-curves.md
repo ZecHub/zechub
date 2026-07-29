@@ -1,7 +1,7 @@
 # एलिप्टिक कर्व्स: जहाँ Zcash की Keys और Commitments जन्म लेते हैं
 ##### [Annkkitaaa](https://github.com/Annkkitaaa) का मूल शोध
 
-![alt text](image-10.png)
+![alt text](/content-images/image-10-c1097b22d7.webp)
 
 ### बिंदुओं से बनी एक one-way सड़क
 
@@ -38,7 +38,7 @@ y^2 = x^3 + ax + b
 
 साधारण संख्याओं पर यह एक चिकनी, लहराती हुई curve जैसी दिखती है, जिसमें अक्सर एक गोल-सा loop और दो tails होती हैं:
 
-![alt text](image-14.png)
+![alt text](/content-images/image-14-1d2e8c25d2.webp)
 
 वास्तव में चौंकाने वाली बात यह है: **आप इस curve के दो points को "जोड़" कर उसी curve पर तीसरा point प्राप्त कर सकते हैं।** यह coordinates का साधारण addition नहीं है। यह एक ज्यामितीय नियम है, और इसे *देखना* बताने से आसान है।
 
@@ -50,7 +50,7 @@ y^2 = x^3 + ax + b
 2. यह रेखा curve को ठीक एक और स्थान पर काटती है। उसे `R*` कहिए।
 3. **`R*` को horizontal axis के पार reflect कीजिए।** वही reflection उत्तर है, `P + Q`।
 
-![alt text](image-11.png)
+![alt text](/content-images/image-11-61f3df1989.webp)
 
 ### tangent नियम (किसी point को उसी से जोड़ना)
 
@@ -117,7 +117,7 @@ y^2 = x^3 + ax + b
 
 यही असमानता वह **one-way सड़क** है जिसकी हमें खंड 1 में आवश्यकता थी। पीछे की समस्या ("इस point को किस `k` ने पैदा किया?") को **Elliptic Curve Discrete Logarithm Problem (ECDLP)** कहा जाता है, और Zcash जिन curves का उपयोग करता है, उन पर कोई ज्ञात विधि इसे ब्रह्मांड के ऊष्मा-मृत्यु से पहले हल नहीं कर सकती।
 
-![alt text](image-12.png)
+![alt text](/content-images/image-12-86b9ace6cb.webp)
 
 > हमारे खिलौना `F_17` curve में आप तालिका देखकर `k` पढ़ सकते थे, क्योंकि उसमें केवल 19 points हैं। वास्तविक curves में लगभग `2^(255)` points होते हैं। उस तालिका में ब्रह्मांड के atoms से भी अधिक rows होंगी, इसलिए "उसे पढ़ लेना" कोई विकल्प नहीं है। यही छोटापन toy curve को सिखाने योग्य बनाता है और यही कारण है कि वह सुरक्षित नहीं है।
 
@@ -160,7 +160,7 @@ Commitment  =  v.G  +  r.H
 
 क्यों एक curve को दूसरी के field के "भीतर" निहित किया जाता है, और दो curves की एक *cycle* उपयोगी क्यों होती है — ये कारण वास्तविक और महत्वपूर्ण हैं, लेकिन वे proof-system वाले लेखों के विषय हैं। अभी के लिए निष्कर्ष स्पष्ट है: **हर Zcash key एक generator का scalar गुना है, और हर Zcash commitment curve points का एक योग है**, जो इन नामित curves में से किसी एक पर मौजूद है।
 
-![alt text](image-13.png)
+![alt text](/content-images/image-13-ffdd703c60.webp)
 
 ---
 

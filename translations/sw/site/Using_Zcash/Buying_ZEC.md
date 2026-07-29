@@ -55,12 +55,12 @@ Wengi wa kubadilishana kubwa msaada Zcash. Angalia hapa kwa orodha ya kina: [hap
 Mabadilishano haya inasaidia uondoaji wa uwazi. Hii ina maana wakati wewe kuondoa ZEC kwa mkoba wako, unahitaji kutuma kwa anwani yako uwazi, anwani ya umma ZEC yako. 
 Bonyeza [hapa](https://zechub.wiki/using-zcash/non-custodial-exchanges) kwa ajili yangu maelezo.
 
-[dex](https://github.com/user-attachments/assets/bfe2e9cf-2def-4593-b790-152e14b23da3)
+[dex](/content-images/bfe2e9cf-2def-4593-b790-152e14b23da3-f94f97c7e6.webp)
 
 
 Wakati wa kufanya hivyo, tunapendekeza kutumia moja ya yafuatayo [pochi](https://zechub.wiki/wallets). 
 
-[Simu ya mkononi](https://github.com/user-attachments/assets/8b7618f5-dec6-4e6b-9804-db75be5c1e2f)
+[Simu ya mkononi](/content-images/8b7618f5-dec6-4e6b-9804-db75be5c1e2f-14fa53d3bd.webp)
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">

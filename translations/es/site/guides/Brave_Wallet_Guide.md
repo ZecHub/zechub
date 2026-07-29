@@ -40,7 +40,7 @@ Ahora los usuarios pueden enviar/recibir ZEC sin revelar saldos ni metadatos, to
 4. Accede al panel de criptomonedas
 
 
-![img1](https://github.com/user-attachments/assets/f54cd1a1-8569-4925-ba1c-7597d030593e)
+![img1](/content-images/f54cd1a1-8569-4925-ba1c-7597d030593e-8d83734cd5.webp)
 
 
 ## Parte 2: Añadir Zcash (ZEC) a Brave Wallet
@@ -54,7 +54,7 @@ Ahora los usuarios pueden enviar/recibir ZEC sin revelar saldos ni metadatos, to
 3. ZEC ahora aparece en tu billetera
 
 
-![img2](https://github.com/user-attachments/assets/6f2b2190-cf55-4394-9d5f-29ff9b5bb525)
+![img2](/content-images/6f2b2190-cf55-4394-9d5f-29ff9b5bb525-13d37cb455.webp)
 
 
 ## Parte 3: Recibir ZEC blindado (Unified Address)
@@ -73,7 +73,7 @@ Ahora los usuarios pueden enviar/recibir ZEC sin revelar saldos ni metadatos, to
 
 
 
-![img3](https://github.com/user-attachments/assets/53c940b6-1a03-4fa7-aefa-d3478f678a88)
+![img3](/content-images/53c940b6-1a03-4fa7-aefa-d3478f678a88-23f68a3855.webp)
 
 
 
@@ -92,7 +92,7 @@ Ahora los usuarios pueden enviar/recibir ZEC sin revelar saldos ni metadatos, to
 5. Haz clic en Send: los fondos ahora se transfieren de forma privada, usando el pool Orchard
 
 
-![img4](https://raw.githubusercontent.com/Kellyjoe8/zechub/refs/heads/main/Internet_20250808_172118_4.webp)
+![img4](/content-images/Internet_20250808_172118_4-e6df0f7fe2.webp)
 
 
 

@@ -20,7 +20,7 @@ Hash Functions na-ewere ntinye nke ogologo ọ bụla ma mepụta mmepụta nke 
 - ** Nsonaazụ mmepụta ** = Hash Value 
 
 
-[Ihe osise nke ọrụ hash]](https://pbs.twimg.com/media/Fn_NkFHXgAEtgse.png)
+[Ihe osise nke ọrụ hash]](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
 
 ### Gbalịa ya n'onwe gị!
 
@@ -58,12 +58,12 @@ E nwere ọtụtụ klas nke Hash Functions. Ụfọdụ ihe atụ:
 #### 1. Integrity Hashing (Onyocha iguzosi ike n'ezi ihe nke data)
 Nnyocha nyocha data bụ ihe atụ nke "Integrity Hashing". A na-eji ha emepụta nchịkọta ego na faịlụ data ma nye onye ọrụ obi ike nke izi ezi.
 
-![Ntuziaka Hashing ihe atụ](https://pbs.twimg.com/media/Fn_Or0MWIAI6sgx.png)
+![Ntuziaka Hashing ihe atụ](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
 
 #### 2. Osisi Merkle (Osisi Hash)
 Osisi ** hash tree ** ma ọ bụ ** osisi Merkle ** mejupụtara alaka na akwụkwọ nodes nke ejiri akara hash nke data data.
 
-[Merkle Osisi eserese](https://pbs.twimg.com/media/Fn_O7ndWIAY5PA-.jpg)
+[Merkle Osisi eserese](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
 
 Osisi Merkle bụ ihe atụ nke usoro nkwekọrịta cryptographic. A na-ahụ mgbọrọgwụ osisi dị ka nkwa na akwụkwọ akwụkwọ gosipụtara ịbụ akụkụ nke nkwa mbụ.
 
@@ -75,7 +75,7 @@ In Zcash **Sapling** & **Orchard** shielded pools, the **Note Commitment Tree** 
 #### 4. Mbinye aka Hash (bitcoin-style blocks)
 **SHA256** is an example of a "Signature hash" used to enforce immutability of each block in the Bitcoin chain. Miners use the hash of previous block + A hash of all transactions in the current block (hashMerkleRoot) + Timestamp + random value / network difficulty for new blocks.
 
-[SHA256 mgbochi eserese](https://pbs.twimg.com/media/Fn_PaVZXoAApHPf.jpg)
+[SHA256 mgbochi eserese](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
 
 #### 5. Equihash (Zcash Mining)
 **Equihash** bụ hashing algorithm eji na Ngwuputa Zcash. Ọ na-ejikwa ya site na netwọk dị ka Komodo & Horizen.

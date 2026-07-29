@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="تعديل الصفحة"/>
 </a>
 
-# <img src="https://i.ibb.co/BN7SxwY/ZEC-USD.png" alt="نص بديل" width="50"/>   البورصات غير الاحتجازية
+# <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="نص بديل" width="50"/>   البورصات غير الاحتجازية
 
 [بورصات Zcash غير الاحتجازية](/site/Using_Zcash/DEX_List)
 

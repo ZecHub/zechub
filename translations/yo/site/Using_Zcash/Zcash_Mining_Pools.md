@@ -13,7 +13,7 @@ Zcash mining pools are services that allow individual miners to combine their co
 ### [Odò Ìṣàn (Odò Ọpọlọ) ]](https://braiins.com/pool)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/braiins_logo.jpg?raw=true" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
+    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
 </a>
 
 - Ojú-ìwé: [Slush Pool (Brain's Pool) ]](https://braiins.com/pool)
@@ -26,7 +26,7 @@ Zcash mining pools are services that allow individual miners to combine their co
 ### [Ìtẹ́lógo](https://luxor.tech/)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Luxor%20Pool.png?raw=true" alt="Luxor Logo" width="200" height="100"/>
+    <img src="/content-images/Luxor-20Pool-3aa38cd52b.webp" alt="Luxor Logo" width="200" height="100"/>
 </a>
 
 - Ìkànnì: [Luxor](https://luxor.tech/)
@@ -39,7 +39,7 @@ Zcash mining pools are services that allow individual miners to combine their co
 ### [Ìdánwò Ìdẹ̀yẹ](https://zcash.flypool.org/)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Flypool.jpg?raw=true" alt="FlyPool Logo" width="200" height="100"/>
+    <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
 </a>
 
 - Ìkànnì: [FlyPool](https://zcash.flypool.org/)
@@ -52,7 +52,7 @@ Zcash mining pools are services that allow individual miners to combine their co
 ### [Àwọn tó ń wa kùsà](https://zec.2miners.com/)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/2Miners.png?raw=true" alt="2Miners Logo" width="200" height="100"/>
+    <img src="/content-images/2Miners-3c99609047.webp" alt="2Miners Logo" width="200" height="100"/>
 </a>
 
 - Ìkànnì: [2Miners](https://zec.2miners.com/)
@@ -65,7 +65,7 @@ Zcash mining pools are services that allow individual miners to combine their co
 ### [Nánópóólì](https://zec.nanopool.org/login)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Nanopool.jpg?raw=true" alt="Nanopool Logo" width="200" height="100"/>
+    <img src="/content-images/Nanopool-e484b00998.webp" alt="Nanopool Logo" width="200" height="100"/>
 </a>
 
 - Oju opo wẹẹbu: [Nanopool](https://zec.nanopool.org/login)
@@ -78,7 +78,7 @@ Zcash mining pools are services that allow individual miners to combine their co
 ### [Ibi ìgbafẹ́](https://www.poolin.com/)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Poolin.jpg?raw=true" alt="Poolin Logo" width="200" height="100"/>
+    <img src="/content-images/Poolin-6fd4b44ba3.webp" alt="Poolin Logo" width="200" height="100"/>
 </a>
 
 - Ìkànnì: [Poolin](https://www.poolin.com/)
@@ -91,7 +91,7 @@ Zcash mining pools are services that allow individual miners to combine their co
 ### [Ìgbọ́dọ̀tí Antpool](https://v3.antpool.com/home)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Antpool.jpg?raw=true" alt="Antpool Logo" width="200" height="100"/>
+    <img src="/content-images/Antpool-9c5dac3b65.webp" alt="Antpool Logo" width="200" height="100"/>
 </a>
 
 - Ìkànnì: [Antpool](https://v3.antpool.com/home)
@@ -104,7 +104,7 @@ Zcash mining pools are services that allow individual miners to combine their co
 ### [NipasẹBTC](https://www.viabtc.com/en/)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/ViaBTC.png?raw=true" alt="ViaBTC Logo" width="200" height="100"/>
+    <img src="/content-images/ViaBTC-8fa5be7bd7.webp" alt="ViaBTC Logo" width="200" height="100"/>
 </a>
 
 - Oju opo wẹẹbu: [ViaBTC](https://www.viabtc.com/en/)
@@ -117,7 +117,7 @@ Zcash mining pools are services that allow individual miners to combine their co
 ### [Zhash](https://zcash.zhash.pro/stats)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Zhash Logo" width="200" height="100"/>
+    <img src="/content-images/Zhash-45ac9e6541.webp" alt="Zhash Logo" width="200" height="100"/>
 </a>
 
 - Oju opo wẹẹbu: [Zhash](https://zcash.zhash.pro/stats)
@@ -130,7 +130,7 @@ Zcash mining pools are services that allow individual miners to combine their co
 ### [Foundry Zcash Mining Pool] [Ìdánilójú Ìdánilẹ́kọ̀ọ́]](https://foundrydigital.com/foundry-zcash-pool/)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Foundry.png?raw=true" alt="Foundry Zcash Mining Pool Logo" width="200" height="100"/>
+    <img src="/content-images/Foundry-3f33346374.webp" alt="Foundry Zcash Mining Pool Logo" width="200" height="100"/>
 </a>
 
 - Ojú-ìwé: [Foundry Zcash Mining Pool]](https://foundrydigital.com/foundry-zcash-pool/)
@@ -143,7 +143,7 @@ Zcash mining pools are services that allow individual miners to combine their co
 ### [ìyẹn supernova](https://zec.suprnova.cc/)
 
 <a href="https://binance.com">
-    <img src="https://www.suprnova.cc/suprnova-logo-1-small.jpg" alt="suprnova Logo" width="200" height="100"/>
+    <img src="/content-images/suprnova-logo-1-small-e95de6cdb3.webp" alt="suprnova Logo" width="200" height="100"/>
 </a>
 
 - Ìkànnì: [suprnova](https://zec.suprnova.cc/)

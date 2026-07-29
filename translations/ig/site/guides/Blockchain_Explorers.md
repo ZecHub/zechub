@@ -43,7 +43,7 @@ Kedu ka blockchain si ekpebi nke azụmahịa na-abanye n'ime ngọngọ ọzọ
 
 Similar to addresses above, any transaction on a public blockchain has the amounts publicly available on full display. This includes amounts on both the input and output addresses for any transaction. One exception to this is when you choose to use Shielded Zcash -- then all amounts are hidden. For small business owners who necessarily need privacy for *fair trade*, this is a huge benefit!
 
-! [ego ole](https://user-images.githubusercontent.com/81990132/206312357-e9504151-830f-4fa1-81cb-f23619fd7226.png)
+! [ego ole](/content-images/206312357-e9504151-830f-4fa1-81cb-f23619-210f51493c.webp)
 
 
 ### Ihe onye na-eme nchọpụta nwere ike ma ghara ịhụ na Zcash
@@ -78,16 +78,16 @@ Ndị a bụ ezigbo ihe atụ anọ nke ndị nchọpụta dị iche iche nke bl
 * [Mintscan](https://hub.mintscan.io/chains/ibc-network)
 
 
-[BitcoinExlporer]](https://user-images.githubusercontent.com/81990132/206279968-a06eb0a1-b3a6-49af-a30f-7d871b906eeb.png)
+[BitcoinExlporer]](/content-images/206279968-a06eb0a1-b3a6-49af-a30f-7d871b-1418d95d28.webp)
 
 
-[EthExplorer]](https://user-images.githubusercontent.com/81990132/206280208-2ce5eddd-157e-4eed-90a0-680c1520ec57.png)
+[EthExplorer]](/content-images/206280208-2ce5eddd-157e-4eed-90a0-680c15-488292c345.webp)
 
 
-[ZcashExplorer]](https://user-images.githubusercontent.com/81990132/206280454-a2c7563f-e82d-47b9-9b58-02eece1c89ee.png)
+[ZcashExplorer]](/content-images/206280454-a2c7563f-e82d-47b9-9b58-02eece-76db7aec4c.webp)
 
 
-[Eluigwe na ụwa]](https://user-images.githubusercontent.com/81990132/206316791-2debfd28-923a-44f4-b7d3-701182112c30.png)
+[Eluigwe na ụwa]](/content-images/206316791-2debfd28-923a-44f4-b7d3-701182-cf39a065fc.webp)
 
 
 

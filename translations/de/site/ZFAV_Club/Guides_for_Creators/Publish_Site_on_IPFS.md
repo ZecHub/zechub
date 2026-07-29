@@ -5,7 +5,7 @@
 # Eine Website auf IPFS veröffentlichen
 
 <a href="">
-    <img src="https://blog.desdelinux.net/wp-content/uploads/2020/04/IPFS-.jpg" alt="" width="800" height="400"/>
+    <img src="/content-images/IPFS-40c2e22732.webp" alt="" width="800" height="400"/>
 </a>
 
 
@@ -52,7 +52,7 @@ Wähle den Ordner mit deinen Website-Dateien aus und navigiere zur Option Add Fo
 
 
 <a href="">
-    <img src="https://i.ibb.co/ZHW4zsY/ipfs-site-folder.png" alt="" width="400" height="200"/>
+    <img src="/content-images/ipfs-site-folder-2c96524d98.webp" alt="" width="400" height="200"/>
 </a>
 
 –
@@ -89,14 +89,14 @@ Interplanetary Naming System (IPNS) ermöglicht es dir, die mit deiner Website v
 
 
 <a href="">
-    <img src="https://dnslink.io/assets/dns-query.a0134a75.png" alt="" width="400" height="100"/>
+    <img src="/content-images/dns-query.a0134a75-9ef7817f80.webp" alt="" width="400" height="100"/>
 </a>
 
 
 Wähle im Einstellungsmenü für deinen Website-Ordner in der IPFS-Desktop-Anwendung Publish to IPNS aus.
 
 <a href="">
-    <img src="https://i.ibb.co/Ch25dKf/IPNS.png" alt="" width="400" height="200"/>
+    <img src="/content-images/IPNS-2fe62cc369.webp" alt="" width="400" height="200"/>
 </a>
 
 
@@ -112,7 +112,7 @@ Wenn du bereits eine Webadresse besitzt, kannst du einen neuen Eintrag mit dem T
 
 
 <a href="">
-    <img src="https://i.ibb.co/MgRxBHj/example.png" alt="" width="400" height="100"/>
+    <img src="/content-images/example-c2a9edb28b.webp" alt="" width="400" height="100"/>
 </a>
 
 

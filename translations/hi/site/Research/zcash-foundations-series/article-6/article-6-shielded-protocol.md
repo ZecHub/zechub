@@ -1,7 +1,7 @@
 # Shielded Protocol, शुरू से अंत तक
 ##### [Annkkitaaa](https://github.com/Annkkitaaa) द्वारा मूल शोध
 
-![alt text](image-27.png)
+![alt text](/content-images/image-27-4094293ec0.webp)
 
 ### हर हिस्से को जोड़कर एक private Zcash transaction बनाना
 
@@ -41,7 +41,7 @@
 
 एक उपयोगकर्ता जो कुछ भी कर सकता है, वह एक ही secret, यानी **spending key**, से एक one-way hierarchy के माध्यम से निकलता है (हर arrow एक irreversible derivation है, लेख 2 और 3 के trapdoors की बदौलत):
 
-![alt text](image-32.png)
+![alt text](/content-images/image-32-f443f9bb72.webp)
 
 दो बातें ध्यान देने लायक हैं, और दोनों पहले के लेखों का परिणाम हैं:
 
@@ -54,7 +54,7 @@
 
 किसी note को private तरीके से खर्च करने के लिए, आपको network को एक साथ चार बातें विश्वास दिलानी होती हैं **बिना note, उसकी value, उसकी position, या अपनी identity बताए।** हर दावा उसी घटक से पूरा होता है जिसे आप पहले से जानते हैं।
 
-![alt text](image-31.png)
+![alt text](/content-images/image-31-86309af194.webp)
 
 यह proof आधारभूत तथ्यों में से **कुछ भी** प्रकट नहीं करता (कौन-सा note, किसकी key, कितनी value)। यह केवल इतना प्रकट करता है कि *चारों दावे सही हैं।* यही shielded Zcash की पूरी तरकीब है, एक ही आरेख में कही हुई।
 
@@ -92,7 +92,7 @@
 
 साथ में पूरे bundle पर एक **binding signature** भी होती है, जो value balance लागू करती है (खंड 5)।
 
-![alt text](image-30.png)
+![alt text](/content-images/image-30-98511eb2d0.webp)
 
 Privacy का रास्ता देखें: network ने anchor जाँचा, देखा कि nullifier नया है, proof verify किया, और balance verify किया। उसने एक वैध भुगतान स्वीकार किया **बिना amount जाने, बिना address जाने, और बिना यह जाने कि कौन-सा note खर्च हुआ।** इसी बीच खर्च किए गए note का **nullifier** (उसकी मृत्यु) और Bob का नया **commitment** (उसके note का जन्म) दो अलग-अलग public structures में बैठे रहते हैं, जिनके बीच कोई दिखाई देने वाला link नहीं होता — लेख 0 की वही टूटी हुई कड़ी।
 
@@ -198,7 +198,7 @@ Amounts छिपी होती हैं, लेकिन हर एक क�
 
 अब आप एक अकेले विरोधाभास से एक पूर्ण private payment तक की यात्रा कर चुके हैं:
 
-![alt text](https://github.com/user-attachments/assets/cd8bbb40-57b8-4854-b9cf-97f2485d126a)
+![alt text](/content-images/cd8bbb40-57b8-4854-b9cf-97f2485d126a-8847fae521.webp)
 
 
 यहाँ से अगला स्वाभाविक चरण और गहरा जाता है: Groth16 और Halo 2 की भीतरी कार्यप्रणाली, trusted-setup ceremonies, Sapling और Orchard circuits का विस्तार, key derivation और diversified addresses, और network upgrades के दौरान protocol का विकास। लेकिन अब नींव तैयार है, और उन सभी विषयों के जुड़ने की जगह आपके पास मौजूद है।

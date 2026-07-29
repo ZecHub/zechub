@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="تحرير الصفحة"/>
 </a>
 
-# <img src="https://i.ibb.co/2MghCyb/image-2024-02-03-164918723.png" alt="نص بديل" width="50"/>    Electric Coin Company (الغروب)
+# <img src="/content-images/image-2024-02-03-164918723-f59419848a.webp" alt="نص بديل" width="50"/>    Electric Coin Company (الغروب)
 [الموقع الإلكتروني](https://electriccoin.co) - [Github](https://github.com/Electric-Coin-Company) - [X/Twitter](https://x.com/ElectricCoinCo)
 
 ## بيان المهمة

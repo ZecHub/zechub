@@ -40,7 +40,7 @@ Zcash는 shielded 트랜잭션을 통해 기본적으로 프라이버시를 제�
 4. 크립토 대시보드에 접속하기
 
 
-![img1](https://github.com/user-attachments/assets/f54cd1a1-8569-4925-ba1c-7597d030593e)
+![img1](/content-images/f54cd1a1-8569-4925-ba1c-7597d030593e-8d83734cd5.webp)
 
 
 ## 2부: Brave Wallet에 Zcash (ZEC) 추가하기
@@ -54,7 +54,7 @@ Zcash는 shielded 트랜잭션을 통해 기본적으로 프라이버시를 제�
 3. 이제 지갑에 ZEC가 표시됨
 
 
-![img2](https://github.com/user-attachments/assets/6f2b2190-cf55-4394-9d5f-29ff9b5bb525)
+![img2](/content-images/6f2b2190-cf55-4394-9d5f-29ff9b5bb525-13d37cb455.webp)
 
 
 ## 3부: Shielded ZEC 받기 (Unified Address)
@@ -73,7 +73,7 @@ Zcash는 shielded 트랜잭션을 통해 기본적으로 프라이버시를 제�
 
 
 
-![img3](https://github.com/user-attachments/assets/53c940b6-1a03-4fa7-aefa-d3478f678a88)
+![img3](/content-images/53c940b6-1a03-4fa7-aefa-d3478f678a88-23f68a3855.webp)
 
 
 
@@ -92,7 +92,7 @@ Zcash는 shielded 트랜잭션을 통해 기본적으로 프라이버시를 제�
 5. Send를 클릭 - 이제 자금이 Orchard 풀을 사용해 비공개로 전송됩니다
 
 
-![img4](https://raw.githubusercontent.com/Kellyjoe8/zechub/refs/heads/main/Internet_20250808_172118_4.webp)
+![img4](/content-images/Internet_20250808_172118_4-e6df0f7fe2.webp)
 
 
 

@@ -11,12 +11,12 @@ Wɔ dijitaal bere yi mu no, intanɛt so kokoam nsɛm ne ahobammɔ a wɔbɛkɔ so
 
 __Virtual Private Networks (VPNs)__: Atetesɛm VPNs yɛ ɔkwan a ahobammɔ wom, a wɔabɔ no kokoam wɔ wo mfiri ne akyirikyiri server a VPN dwumadie no di so ntam. Saa kwan yi de wo intanɛt so dwumadi ahorow sie na aniwa a ɛhwehwɛ wo te sɛ hackers, ISPs, anaa aban adwumayɛbea ahorow. Wɔde VPNs di dwuma kɛse wɔ atirimpɔw ahorow te sɛ browsing a wɔmmɔ obiara din, nsɛm a wɔabara wɔ geo-restricted a wobenya, ne ahobammɔ a wɔbɔ fi cyber ahunahuna ho.
 
-![mfonini223](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Privacy_Tools/assets/image-223.png)
+![mfonini223](/content-images/image-223-399e3015e7.webp)
 
 
 __Decentralized VPNs (dVPNs)__: Nea ɛne eyi bɔ abira no, dVPNs de blockchain ne peer-to-peer mfiridwuma di dwuma de yɛ decentralized network of nodes. Wɔde wɔn a wɔde di dwuma no akwantu fa saa node ahorow yi so, na ɛma ɛyɛ den ma adwumakuw biako biara sɛ ɛbɛhwɛ anaa ahwɛ ntam nkitahodi no nyinaa so. dVPNs taa yɛ nea ɛko tia censorship kɛse, efisɛ tumidi biara nni hɔ a ɛwɔ mfinimfini a ɛhwɛ network no so. Wɔfata yiye ma wɔn a wɔde di dwuma a wɔrehwehwɛ kokoam nsɛm ne ahobammɔ a ɛkɔ anim.
 
-![dvpn) a ɛwɔ hɔ](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Privacy_Tools/assets/dvpn.png)
+![dvpn) a ɛwɔ hɔ](/content-images/dvpn-89698d4cb9.webp)
 
 
 # Ahobammɔ ho Nsusuwii Bere a Worepaw VPN

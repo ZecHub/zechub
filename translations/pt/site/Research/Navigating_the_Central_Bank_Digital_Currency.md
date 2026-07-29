@@ -2,7 +2,7 @@
 published: 2023-12-07
 ---
 
-![CBDC](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/cbdc.webp)
+![CBDC](/content-images/cbdc-dfb8827faa.webp)
 # Revelando o Lado Sombrio: Navegando pela Odisseia das Moedas Digitais de Banco Central (CBDCs) em Meio às Sombras Financeiras
 Por: [**Abhishek Tiwari**]
 
@@ -37,7 +37,7 @@ Implementar CBDCs torna-se a missão do nosso herói, uma jornada repleta de des
 __China: Pagamento Eletrônico em Moeda Digital (DCEP)__
 
 
-![DCEP](https://forkast.news/wp-content/uploads/2020/08/dcep-featured.jpg)
+![DCEP](/content-images/dcep-featured-c278cf0ef6.webp)
 
 Nas ruas distópicas da China, o Pagamento Eletrônico em Moeda Digital (DCEP) se revela não como uma maravilha, mas como um prenúncio de controle social com seu próprio conjunto de sombrias sombras financeiras. As transações do dia a dia pulsam com vida, impulsionadas pelo dinheiro programável e pelo apelo das capacidades offline.
 
@@ -50,7 +50,7 @@ O histórico da China de opacidade financeira e interferência governamental no 
 
 __Estados Unidos: Projeto Dólar Digital__
 
-![Dólar Digital](https://www.ledgerinsights.com/wp-content/uploads/2020/03/digital-dollar-CBDC.jpg)
+![Dólar Digital](/content-images/digital-dollar-CBDC-8e8120f52f.webp)
 
 Nas vastas e desoladas paisagens dos Estados Unidos, o Projeto Dólar Digital surge não como um farol de progresso, mas como um testemunho de eficiência e inclusão, embora com sua parcela de incertezas. Trata-se de uma iniciativa do setor privado que busca remodelar o cenário financeiro em uma narrativa tingida por nuances de controle corporativo.
 
@@ -62,7 +62,7 @@ Os EUA têm um histórico complexo de regulação financeira, com debates freque
 
 __Suécia: E-Krona__
 
-![E-Krona](https://www.paymentscardsandmobile.com/wp-content/uploads/2018/10/ekrona_logo.png)
+![E-Krona](/content-images/ekrona_logo-4596e38b72.webp)
 
 À medida que atravessamos as paisagens desoladas da Suécia, a E-Krona se desdobra como uma narrativa de adaptabilidade, mas não sem seus tropeços financeiros. É uma evolução digital focada em manter o acesso à moeda em uma sociedade sem dinheiro físico, retratando uma sociedade desprovida dos confortos familiares do dinheiro em espécie.
 
@@ -95,7 +95,7 @@ A vigilância governamental, antes um conceito distante, torna-se uma potencial 
 
 A inclusão financeira, antes um farol de esperança, enfrenta as sombras da potencial discriminação. O uso indevido das CBDCs poderia levar a acesso seletivo, violando princípios de tratamento igualitário e inclusão. É uma subtrama que desafia a própria essência da liberdade financeira.
 
-![Fluxo](https://blog.digitalasset.com/hubfs/Imported_Blog_Media/futureofCBDC-2.png)
+![Fluxo](/content-images/futureofCBDC-2-45075d2d9c.webp)
 
 ## Recursos: Um Mapa para o Explorador Digital
 

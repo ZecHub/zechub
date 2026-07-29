@@ -90,7 +90,7 @@ Dein AKT-Guthaben sollte oben rechts angezeigt werden. Wenn es null ist, lade zu
 
 ### Option A: SDL-Datei hochladen (empfohlen)
 
-[![Auf Akash deployen](https://raw.githubusercontent.com/akash-network/console/refs/heads/main/apps/deploy-web/public/images/deploy-with-akash-btn.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
+[![Auf Akash deployen](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
 
 ### Option B: SDL-Editor verwenden
 

@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
 </a>
 
-# <img src="https://i.ibb.co/qYhRbJM/image-2024-02-03-174147713.png" alt="Alt Text" width="400"/> Zcash Topluluk Bağlantıları
+# <img src="/content-images/image-2024-02-03-174147713-63a42e536c.webp" alt="Alt Text" width="400"/> Zcash Topluluk Bağlantıları
 
 Zcash topluluğu, ZEC’i dünyada gizliliği koruyan en yaygın kullanılan kripto paralardan biri hâline getirmek için çalışan, canlı ve dinamik bir insan topluluğudur. Topluluk; dünyanın dört bir yanından geliştiriciler, eğitimciler, savunucular ve üreticilerden oluşan çeşitli bireyleri bir araya getirir ve bu insanlar finansal gizliliğe dair ortak bir inanç etrafında birleşir.
 
@@ -10,11 +10,11 @@ Zcash topluluğu, ZEC’i dünyada gizliliği koruyan en yaygın kullanılan kri
 
 ## Topluluk üyelerini nerede bulabilirsiniz
 
-### <img src="https://i.ibb.co/qBrb4qK/image-2024-02-03-173937048.png" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Telegram</span>
+### <img src="/content-images/image-2024-02-03-173937048-148e401d5e.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Telegram</span>
 
 Zcash topluluğu, topluluk <span translate="no" class="notranslate">Telegram</span> grubunda oldukça aktiftir. Günlük konular hakkında konuşmak, haberleri ve güncellemeleri tartışmak ve diğer topluluk üyeleriyle tanışmak için katılın: [t.me/Zcash_Community](https://t.me/Zcash_Community)
 
-### <img src="https://i.ibb.co/kxVwQxM/image-2024-02-03-174056252.png" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Discord</span>
+### <img src="/content-images/image-2024-02-03-174056252-8a6a76eabf.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Discord</span>
 
 - [Zcash Global](https://discord.gg/zcash) - Ana topluluk sunucusu
 - [Zcash R&D](https://discord.gg/xpzPR53xtU) - Protokol ve geliştirici tartışmaları
@@ -34,7 +34,7 @@ Zcash topluluğu, topluluk <span translate="no" class="notranslate">Telegram</sp
 
 [Zcash Topluluk Forumu](https://forum.zcashcommunity.com/), Zcash üzerine uzun biçimli tartışmaların merkezidir — yönetişim, hibe teklifleri, teknik tartışmalar ve ekosistem duyuruları. ECC'nin ZODL’e geçişinin ardından yönetim sorumluluğu artık Zcash Foundation’a devredildi.
 
-### <img src="https://i.ibb.co/mqKfr62/image-2024-02-03-174240928.png" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
+### <img src="/content-images/image-2024-02-03-174240928-7a8f751301.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
 
 Zcash, X üzerinde aktif bir küresel varlığa sahiptir. Takip edilebilecek önemli hesaplar:
 

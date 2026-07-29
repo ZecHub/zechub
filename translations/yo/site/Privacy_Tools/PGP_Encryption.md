@@ -14,7 +14,7 @@ Pretty Good Privacy (PGP) is a cryptographic software package that provides secu
 * **[PGPMail](https://www.openpgp.org/software/)**: PGPMail jẹ onibara imeeli PGP ti iṣowo ti o wa fun Windows ati macOS.
 * **[Àpótí ìfìwéránṣẹ́](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope jẹ́ àfikún PGP tí ó jẹ́ ọ̀fẹ́ àti ìmọ̀-ìmọ̀ fún Gmail àti Thunderbird.
 
-[Àwọn irinṣẹ́ PGP]](https://github.com/ZecHub/zechub/assets/81990132/44984a75-800a-4f7a-94a5-88827e39b431)
+[Àwọn irinṣẹ́ PGP]](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
 
 ## Bó O Ṣe Lè Rí Àwọn Kọ́kọ́rọ́
 
@@ -28,7 +28,7 @@ Lati lo PGP, o nilo lati ṣe agbekalẹ tọkọtaya awọn bọtini: Bii o ṣ
 
 Àkọlé PGP rẹ yóò di èyí tí a dá.
 
-[Ṣẹda Awọn bọtini](https://github.com/ZecHub/zechub/assets/81990132/15721ce1-0a77-4ebe-87f4-33e1455f2a40)
+[Ṣẹda Awọn bọtini](/content-images/15721ce1-0a77-4ebe-87f4-33e1455f2a40-7699b1771d.webp)
 
 ## Bii o ṣe le Lo PGP fun Imeeli
 
@@ -36,7 +36,7 @@ Once you have generated a PGP key pair, you can use it to encrypt and decrypt em
 
 The encrypted email will be unreadable to anyone who does not have the recipient's private key. To decrypt the email, the recipient can use their private key to decrypt the email.
 
-[Àpótí PGP]](https://github.com/ZecHub/zechub/assets/81990132/dafb761d-f399-40c9-9323-526ba3bd0bc4)
+[Àpótí PGP]](/content-images/dafb761d-f399-40c9-9323-526ba3bd0bc4-98503ad98b.webp)
 
 ## Àwọn Ìṣe Tó Dára Jù Lọ
 
@@ -44,9 +44,9 @@ Eyi ni diẹ ninu awọn ilana ti o dara julọ fun lilo PGP:
 
 * Keep your private key safe. The private key is the most important part of your PGP key pair. If someone gets your private key, they can decrypt any messages that have been encrypted with your public key.
 
-[Àwọn Ìlànà Tó Dára Jù Lọ 1](https://github.com/ZecHub/zechub/assets/81990132/39a6fae4-a9a1-4061-a97c-4a9b975f6383)
+[Àwọn Ìlànà Tó Dára Jù Lọ 1](/content-images/39a6fae4-a9a1-4061-a97c-4a9b975f6383-eced005c8b.webp)
 
-[Àwọn Ìlànà Tó Dára Jù Lọ 2](https://github.com/ZecHub/zechub/assets/81990132/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd)
+[Àwọn Ìlànà Tó Dára Jù Lọ 2](/content-images/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd-50ca49a070.webp)
 
 * Ṣàjọpín àkọsílẹ̀ rẹ pẹ̀lú àwọn ènìyàn tí o gbẹ́kẹ̀lé. O lè pín àkọsílè̀ rẹ nípa rírán an lọ́wọ́ wọn tààràtà, tàbí nípa gbígbé e sórí PGP keyserver.
 * Lo àwọn ọ̀rọ̀-ìfipamọ́ tó lágbára fún PGP keyring rẹ. PGP Keyring jẹ́ fáìlì tí ó ń tọ́jú àwọn kókó PGP rẹ. Ó ṣe pàtàkì láti lo ọ̀rọ̀-ìfinimọ́ tí ó lágbára láti dáàbò bo fáílì yìí.
@@ -61,11 +61,11 @@ Eyi ni diẹ ninu awọn ilana ti o dara julọ fun lilo PGP:
 * Tẹ lori bọtini "Encrypt".
 * A ó ṣe àdàkọ imeeli náà.
 
-[Ṣàdàkọ Imeeli]](https://github.com/ZecHub/zechub/assets/81990132/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e)
+[Ṣàdàkọ Imeeli]](/content-images/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e-6edd4a03ea.webp)
 
 ---
 
-[Ìṣàn ìkọ̀ǹkà]](https://github.com/ZecHub/zechub/assets/81990132/da1499e9-fc87-46b2-93ed-28d43cf1fd86)
+[Ìṣàn ìkọ̀ǹkà]](/content-images/da1499e9-fc87-46b2-93ed-28d43cf1fd86-86fdc87d10.webp)
 
 ## Bawo ni lati decrypt imeeli pẹlu PGP
 
@@ -76,4 +76,4 @@ Eyi ni diẹ ninu awọn ilana ti o dara julọ fun lilo PGP:
 * Tẹ lori bọtini "Decrypt".
 * A óò tú àdàkọ ìsọfúnni tí wọ́n fi ránṣẹ́ náà.
 
-[Ṣípòdípò Àkọsílẹ̀ Imeeli]](https://github.com/ZecHub/zechub/assets/81990132/beae714c-020f-4c1e-aa4f-3dd9430670cc)
+[Ṣípòdípò Àkọsílẹ̀ Imeeli]](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)

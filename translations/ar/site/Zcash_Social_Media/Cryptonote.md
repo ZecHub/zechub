@@ -5,7 +5,7 @@
 لدينا موضوع شيّق اليوم!  
 يتيح بروتوكول **CryptoNote** خصوصية قوية على السلسلة. واليوم سنتعرّف على جميع ميزاته الأساسية وكيف جرى تطبيقه في عدة مشاريع خصوصية بارزة.
 
-![مقدمة CryptoNote](https://pbs.twimg.com/media/FrXr5P8WIAAvx36.jpg)
+![مقدمة CryptoNote](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
 
 ---
 
@@ -35,7 +35,7 @@
 
 يؤثر **حجم الحلقة** بشكل كبير في مجموعة إخفاء الهوية. فكلما كانت الحلقات أكبر، كانت الخصوصية أفضل.
 
-![شرح التواقيع الحلقية](https://pbs.twimg.com/media/FrXteGHXgAANE0F.png)
+![شرح التواقيع الحلقية](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
 
 **مقارنة مع Zcash**:  
 مجموعة إخفاء الهوية في Zcash هي العدد الإجمالي لجميع المعاملات التي أُجريت *على الإطلاق* ضمن مجموعة محمية معيّنة (وهي أكبر بكثير من أحجام الحلقات المعتادة في CryptoNote).
@@ -48,7 +48,7 @@
 
 فبدلًا من إخفاء المُرسِل فقط، يقوم Ring CT أيضًا **بتمويه مبالغ المعاملات** بين المُرسِل والمستلم.
 
-![مخطط Ring CT](https://pbs.twimg.com/media/FrXuivgWYAAze7B.png)
+![مخطط Ring CT](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
 
 ويستخدم:
 - التشفير بالمنحنيات الإهليلجية
@@ -59,7 +59,7 @@
 
 كما تضيف **العناوين الخفية** عناوين تُستخدم لمرة واحدة للمستلم.
 
-![العناوين الخفية + الإثباتات](https://pbs.twimg.com/media/FrXut5aWAAMhuRb.jpg)
+![العناوين الخفية + الإثباتات](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
 
 ---
 
@@ -74,7 +74,7 @@
 2. تنفيذ عدد كبير من عمليات القراءة/الكتابة على الـ scratchpad
 3. تجزئة الـ scratchpad بالكامل لإنتاج القيمة النهائية
 
-![تعدين CryptoNight](https://pbs.twimg.com/media/FrXvNs3XsAA37LG.jpg)
+![تعدين CryptoNight](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
 
 (ملاحظة: ابتعد Monero منذ ذلك الحين عن CryptoNight إلى خوارزميات أخرى.)
 
@@ -86,7 +86,7 @@
 
 ويؤدي هذا إلى منحنى إصدار أكثر سلاسة بكثير مع مرور الوقت.
 
-![منحنى الإصدار الديناميكي](https://pbs.twimg.com/media/FrXv8wpXoAEjUxW.png)
+![منحنى الإصدار الديناميكي](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
 
 **الصلة بـ Zcash**:  
 ناقش مطورو Zcash تطبيق منحنى إصدار أكثر سلاسة في المستقبل، وربما من خلال "Zcash Posterity Fund".

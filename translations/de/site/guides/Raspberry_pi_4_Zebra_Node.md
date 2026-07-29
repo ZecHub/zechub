@@ -4,7 +4,7 @@
 
 # Raspberry Pi 4 Leitfaden zum Ausführen von Zebra
 
-<img src="https://i.ibb.co/V3rjKwv/image-2023-11-28-172907488.png" alt="Raspberry Pi" width="300" height="300"/>
+<img src="/content-images/image-2023-11-28-172907488-e7e9fd4ac5.webp" alt="Raspberry Pi" width="300" height="300"/>
 
 Das Ausführen der Zebra-Node-Software auf einem Raspberry Pi 4 ermöglicht es dir, als unabhängiger, konsenskompatibler Node am Zcash-Netzwerk teilzunehmen. Dieser Leitfaden führt dich durch die Schritte, um Zebra auf deinem Raspberry Pi 4 einzurichten und auszuführen.
 
@@ -67,7 +67,7 @@ Das Ausführen der Zebra-Node-Software auf einem Raspberry Pi 4 ermöglicht es d
 7. __Überwachung__
    Du kannst den Fortschritt und den Status deines Zebra-Nodes überwachen, indem du einen Webbrowser öffnest und zu __http://127.0.0.1:8233/status__ navigierst.
 
-<img src="https://i.ibb.co/BCtKrGp/image-2023-11-28-173024853.png" alt="Zebra-Logo" width="200" height="200"/>
+<img src="/content-images/image-2023-11-28-173024853-99540511cf.webp" alt="Zebra-Logo" width="200" height="200"/>
 
 ## Fehlerbehebung
 
