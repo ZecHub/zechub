@@ -6,7 +6,7 @@ Zcashエコシステムは進化しています。*Electric Coin Company (ECC)* 
 - Zallet は、Zodl が開発した軽量ウォレットで、Zebraノードとシームレスにインターフェースできます
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ChatGPTImageOct12202508_15_20A](/content-images/SJNBsSYTel-dfd19f34e4.webp)
+![ChatGPTImageOct12202508_15_20A](https://hackmd.io/_uploads/SJNBsSYTel.jpg)
 </div>
 
 このガイドでは、**Zcashd** から **Zebrad** および **Zallet** へのマイグレーションを、設定、ウォレットのインポート、一般的なマイグレーション問題のトラブルシューティングを通じて説明します。
@@ -37,7 +37,7 @@ Zcashエコシステムは進化しています。*Electric Coin Company (ECC)* 
 * zcashdノードからwallet.dat（または他のウォレットファイル/キーストア）をバックアップしてください。
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (1)](/content-images/SJ_0mUtTxg-1441185a72.svg)
+![bash (1)](https://hackmd.io/_uploads/SJ_0mUtTxg.svg)
 </div>
 
 * zcash.confと任意のカスタム設定を保存してください。
@@ -63,7 +63,7 @@ Zcashエコシステムは進化しています。*Electric Coin Company (ECC)* 
 **Linux**/**macOS**:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (2)](/content-images/HJhYu8Y6el-d2198f22c9.svg)
+![bash (2)](https://hackmd.io/_uploads/HJhYu8Y6el.svg)
 </div>
 
 これは最新の安定版のzebradをインストールします。
@@ -71,20 +71,20 @@ Zcashエコシステムは進化しています。*Electric Coin Company (ECC)* 
 **オプションB: ソースからビルドする**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (3)](/content-images/Syg8FUK6eg-b4557e52e0.svg)
+![bash (3)](https://hackmd.io/_uploads/Syg8FUK6eg.svg)
 </div>
 
 ビルド後、バイナリをパスに移動します:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![migration 11](/content-images/BJ0zjLY6ll-f77354d701.webp)
+![migration 11](https://hackmd.io/_uploads/BJ0zjLY6ll.png)
 </div>
 
 **4. 設定と起動**
 デフォルト設定を生成します:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![migration2](/content-images/HJV1C8tTxx-5823395651.webp)
+![migration2](https://hackmd.io/_uploads/HJV1C8tTxx.png)
 </div>
 
 **zebrad.toml** を編集して、ご希望の設定（リスンアドレス、ポート、ステートディレクトリ、キャッシュ）に変更してください。
@@ -92,7 +92,7 @@ Zcashエコシステムは進化しています。*Electric Coin Company (ECC)* 
 ノードを起動します:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](/content-images/H1KPkvt6gl-864c48ca40.webp)
+![image](https://hackmd.io/_uploads/H1KPkvt6gl.png)
 </div>
 
 ノードはジェネシスから同期を開始します。ハードウェアとネットワークに応じて、数時間（またはそれ以上）かかる場合があります。
@@ -106,7 +106,7 @@ ZalletのGitHub / リリースページでバイナリを確認してくださ�
 **またはソースからビルドする:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](/content-images/SyUFxvFTex-5bb10ee1d3.webp)
+![image](https://hackmd.io/_uploads/SyUFxvFTex.png)
 </div>
 
 * GUIまたはCLI（インストールに応じて）を起動します。
@@ -118,7 +118,7 @@ ZalletのGitHub / リリースページでバイナリを確認してくださ�
 zcashd上でプライベートキーをエクスポートします:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (4)](/content-images/rJzgzwFagx-4a0874f250.svg)
+![bash (4)](https://hackmd.io/_uploads/rJzgzwFagx.svg)
 </div>
 
 * Zalletで「Keysのインポート」または類似オプションを選択してください。
@@ -143,13 +143,13 @@ zcashd上でプライベートキーをエクスポートします:
 ノードの同期状態を確認するには以下を実行してください:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](/content-images/SyIyVDY6xl-10d6bed7b8.webp)
+![image](https://hackmd.io/_uploads/SyIyVDY6xl.png)
 </div>
 
 またはログを確認してください。
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](/content-images/r1HfVPF6gg-b6b76e9907.webp)
+![image](https://hackmd.io/_uploads/r1HfVPF6gg.png)
 </div>
 
 **8. トラブルシューティング**

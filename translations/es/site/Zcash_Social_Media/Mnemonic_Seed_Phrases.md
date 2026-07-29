@@ -13,7 +13,7 @@ Las frases de recuperación están definidas por la especificación **BIP-39**, 
 
 La creación de frases de recuperación comienza generando **aleatoriedad**. Más entropía significa mayor seguridad. Se considera que **128 bits** de entropía son suficientes para la mayoría de los usuarios.
 
-![Concepto de frase semilla](/content-images/FooM3qWWACgrwzn-f222c4081f.webp)
+![Concepto de frase semilla](https://pbs.twimg.com/media/FooM3qWWACgrwzn.jpg)
 
 Dependiendo de la longitud de la entropía inicial, la frase de recuperación tendrá entre **12 y 24 palabras**.
 
@@ -28,7 +28,7 @@ Comenzamos generando **128 bits** de entropía.
 Aplicamos hash a la entropía usando **SHA256**. Los primeros bits de este hash se convierten en el checksum.  
 Esto nos da una huella única para nuestra entropía.
 
-![Diagrama de entropía + checksum](/content-images/FooNoOEXgAAu-g6-613238fa7e.webp)
+![Diagrama de entropía + checksum](https://pbs.twimg.com/media/FooNoOEXgAAu-g6.png)
 
 ### 3. Dividir en fragmentos de 11 bits
 Los 132 bits totales (128 de entropía + 4 de checksum) se separan en fragmentos de 11 bits.
@@ -39,7 +39,7 @@ Las listas de palabras BIP-39 contienen exactamente **2048 palabras** (inglés, 
 
 Estos números se utilizan para encontrar la palabra correspondiente en la lista de palabras.
 
-![Ejemplo de asignación de palabras](/content-images/FooN9rfXEBoQuU2-d11331fc0a.webp)
+![Ejemplo de asignación de palabras](https://pbs.twimg.com/media/FooN9rfXEBoQuU2.png)
 
 **Resultado:** ¡Ahora tenemos una frase de recuperación segura, legible para humanos y de 12 palabras!
 
@@ -59,7 +59,7 @@ La seed de la wallet se deriva de la frase mnemotécnica usando una **Key Deriva
 
 Esto produce una seed de **64 bytes (512 bits)**.
 
-![De seed a claves maestras](/content-images/FooOuumXEAgcBm1-dc7c66b84a.webp)
+![De seed a claves maestras](https://pbs.twimg.com/media/FooOuumXEAgcBm1.jpg)
 
 ### Claves maestras
 La seed se divide en dos secuencias de 32 bytes:
@@ -83,7 +83,7 @@ A partir de una **Expanded Spending Key** derivamos:
 
 Diferentes mecanismos de derivación producen direcciones externas adecuadas para entregarlas a remitentes a través de pools blindados (Sapling y Orchard).
 
-![Jerarquía de derivación de claves de Zcash](/content-images/FooPKd4XEBUQhJ6-af133c01bf.webp)
+![Jerarquía de derivación de claves de Zcash](https://pbs.twimg.com/media/FooPKd4XEBUQhJ6.jpg)
 
 Zcash también admite **direcciones internas** para operaciones de wallet como el Auto-Shielding.
 

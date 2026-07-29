@@ -17,7 +17,7 @@ Block producers (aka miners) are tasked with validating transactions in a networ
 In Bitcoin and other cryptocurrencies, all of the block rewards go to block producers. Zcash is unique in the fact that 20% of the block reward is transferred to the [Zcash development fund](https://zips.z.cash/zip-1014)Ego a na-akwado ndị otu na-arụ ọrụ na usoro Zcash.
 
 Ugbu a, [Zcash Community Grants](https://zcashcommunitygrants.org/) receives 8% of block rewards, Electric Coin Co. receives 7%, and the Zcash Foundation receives 5%. This works out to 40%, 35%, and 25% of the development fund respectively.
-[Ndị na-enweta ego Dev] ](/content-images/212411570-4858a3d6-f7a1-465a-bf0c-d2ef72-1efe3a104e.webp)
+[Ndị na-enweta ego Dev] ](https://user-images.githubusercontent.com/43553081/212411570-4858a3d6-f7a1-465a-bf0c-d2ef726d41dc.jpeg)
 
 In 2020, the Zcash community voted on the development fund and the teams supported by it. In 2024, the community will vote again to determine who gets funding from the development fund.
 
@@ -30,11 +30,11 @@ The Hybrid Deferred Dev Fund Lockbox is the funding mechanism chosen for the nex
 
 Mkpebi imejuputa 20% Dev Fund Lockbox ruru site na usoro zuru oke nke obodo. Nke a gụnyere ntuli aka abụọ nke Zcash Community Advisory Panel (ZCAP), yana ọtụtụ ntuliaka gburugburu ebe obibi. Ntuliaka ndị a nyere ohere ka ọtụtụ ndị nwere mmasị kwupụta echiche ha ma nye aka na usoro mkpebi.
 
-![](/content-images/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd-8f378b3e3d.webp)
+![](https://global.discourse-cdn.com/zcash/original/3X/f/d/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd.png)
 
 As the dev fund lockbox is deferred (meaning funds will be unlocked via network upgrade at a later date), the Zcash Community will soon decide on a distribution mechanism for funds. One proposed option being the 'Zbloc' decentralised governance mechanism. 
 
-![Ọdịdị ọhụrụ nke ọchịchị na-enweghị isi](/content-images/99588d6f43a3143cb3616e8a89df5125e855ba39-5688d8901f.webp)
+![Ọdịdị ọhụrụ nke ọchịchị na-enweghị isi](https://global.discourse-cdn.com/zcash/original/3X/9/9/99588d6f43a3143cb3616e8a89df5125e855ba39.png)
 
 ## Akụrụngwa
 

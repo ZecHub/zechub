@@ -27,7 +27,7 @@ Nyatakaka tso vodadawo ŋu
 
 Míeɖoa tatawo ɖe dɔ siwo míewɔna fifia be bounties ʋuna Memleɖa ɖesiaɖe. Àte ŋu aɖo aɖaŋu le nunanawo hã ŋu! Esiawo koŋue wokpɔna le ZEC Bounties.
 
-![zecbounties ƒe agbalẽwo](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
+![zecbounties ƒe agbalẽwo](https://github.com/user-attachments/assets/0e4f5109-c0c9-4a0a-8d71-8172e36b9726)
 
 
 

@@ -17,13 +17,13 @@ Rust は現代的で堅牢かつ安全なプログラミング言語であり、
 ## Zaino の動作方法を示す図
 
 ### Zaino 内部アーキテクチャ
-![Zaino 内部アーキテクチャ](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
+![Zaino 内部アーキテクチャ](https://i.ibb.co/mRTNtfy/image-2025-01-02-190143429.png)
 
 ### Zaino ライブサービスアーキテクチャ
-![Zebra ライブサービスアーキテクチャ](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
+![Zebra ライブサービスアーキテクチャ](https://i.ibb.co/x7dbRY8/image-2025-01-02-190349017.png)
 
 ### Zaino システムアーキテクチャ
-![Zaino システムアーキテクチャ](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
+![Zaino システムアーキテクチャ](https://i.ibb.co/wwL0XZv/image-2025-01-02-190448037.png)
 
 ## 詳しく知りたい場合はどこで確認できますか？
 

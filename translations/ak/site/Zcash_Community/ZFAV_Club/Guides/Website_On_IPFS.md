@@ -4,7 +4,7 @@
 
 # Twerɛ Wɛbsaet bi wɔ IPFS so 
 
-![](/content-images/IPFS-40c2e22732.webp)
+![](https://blog.desdelinux.net/wp-content/uploads/2020/04/IPFS-.jpg)
 
 ## IPFS ho nnianim asɛm 
 
@@ -55,7 +55,7 @@ Sɛ wode Terminal anaa ahyɛde a ɛkyerɛw di dwuma a, Run ahyɛde: <mark>ipfs a
 
 Paw folda a wo wɛbsaet fael ahorow wom no na kɔ Add Folder option no so.
 
-![](/content-images/ipfs-site-folder-2c96524d98.webp)
+![](https://i.ibb.co/ZHW4zsY/ipfs-site-folder.png)
 
 --
 
@@ -92,11 +92,11 @@ Wɔ yɛn fam no CID = "QmW2UEfap1vrRRvS5H9aware8qmsx4WsvXBk3GPGVVfWx3r3".
 
 Interplanetary Naming System (IPNS) ma wo kwan ma wo update IPFS CID's a ɛbata wo wɛbsaet no ho na ɛda so ara som static link. Wɔde ama sɛ safe. 
 
-![](/content-images/dns-query.a0134a75-9ef7817f80.webp)
+![](https://dnslink.io/assets/dns-query.a0134a75.png)
 
 Wɔ nhyehyeɛ menu ma wo sait foldre wɔ IPFS desktop application paw Publish to IPNS. 
 
-![](/content-images/IPNS-2fe62cc369.webp)
+![](https://i.ibb.co/Ch25dKf/IPNS.png)
 
 Safoa: "k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n".
 
@@ -109,7 +109,7 @@ Wɔayɛ sait no, seesei yehia ɔkwan a yɛbɛfa so akyerɛ URL bi akɔ emu nsɛm
 
 Sɛ wowɔ wɛb address dedaw a wobɛtumi de kyerɛwtohɔ foforo aka ho denam TXT kyerɛwtohɔ "_dnslink(wo domain)" no so. Ɛgyina provider so no ebia auto populate. 
 
-![](/content-images/example-c2a9edb28b.webp)
+![](https://i.ibb.co/MgRxBHj/example.png)
 
 Ɛbɛgye bere ansa na woatumi atrɛw denam network no so ansa na woatumi ahwɛ. 
 

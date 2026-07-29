@@ -4,7 +4,7 @@
 
 
 # Zcash Podcast si le Digital Cash Network dzi
-![Nukpɔkpɔ ƒe nɔnɔmetata_2023-01-22_21-50-14](/content-images/213973803-b0629c92-08d4-459b-99f1-594854-6272d02af6.webp)
+![Nukpɔkpɔ ƒe nɔnɔmetata_2023-01-22_21-50-14](https://user-images.githubusercontent.com/81990132/213973803-b0629c92-08d4-459b-99f1-594854a7db3a.png)
 
 Zcash Podcast la xɔa nyatakakawo abe yeyewo, nyati tɔxɛwo ƒe tsi me nɔnɔ goglo, kple bubuawo na Zcash habɔbɔ si li fifia be woaɖu eye woama, eye wònaa mɔnukpɔkpɔ Digital Cash Network channel ƒe nudɔla siwo li fifia be woanya Zcash nyuie wu. 
 

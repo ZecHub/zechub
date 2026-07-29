@@ -41,7 +41,7 @@ MetaMask теперь поддерживает **экранированный Zc
       Store data on your device
    ```
 
-![Zcash-snap-install](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
+![Zcash-snap-install](https://hackmd.io/_uploads/Hy5MSG2Oex.png)
 
 
 ---
@@ -59,7 +59,7 @@ MetaMask теперь поддерживает **экранированный Zc
 -  Block Explorer URL: https://bscscan.com
 ```
 Это позволит отображать информацию о сети и ссылки на обозреватель.
-![Add-a-custom-Net....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
+![Add-a-custom-Net....](https://hackmd.io/_uploads/S1hq7f2Oel.png)
 
 Для **Zcash Mainnet**;
 ```markdown
@@ -75,13 +75,13 @@ MetaMask теперь поддерживает **экранированный Zc
 1. Перейдите на [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev).  
 2. Нажмите **Connect MetaMask Snap**.  
 
-![Zcash-web-wallet](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
+![Zcash-web-wallet](https://hackmd.io/_uploads/Sk8nSz3dgl.png)
 
 3. Подтвердите подключение.  
 4. Просмотрите сводку по вашему аккаунту Zcash, включая:
    - Unified Address и Transparent address
 
-![Account-summary-unif....](/content-images/r17c_Mhdel-f4963826d5.webp)
+![Account-summary-unif....](https://hackmd.io/_uploads/r17c_Mhdel.jpg)
 
 
 5. Дождитесь завершения синхронизации.
@@ -96,7 +96,7 @@ MetaMask теперь поддерживает **экранированный Zc
 > **Обмен ETH -> ZEC** - Используйте сервисы, такие как **LeoDex**, и отправляйте средства на ваш экранированный адрес.  
 > **Вывод с биржи** - Выведите купленные ZEC на ваш экранированный адрес WebZjs.  
 
-![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LEODEX-SWAP](https://hackmd.io/_uploads/HyLQ0G2ugg.png)
 
 
 > => Используйте экранированные (z) адреса для **полной приватности**.
@@ -111,7 +111,7 @@ MetaMask теперь поддерживает **экранированный Zc
    - Shielded recipient address  
    - Amount
 ```
-   ![Transfer-Balance](/content-images/rkvcFfhdex-bd55d079eb.webp)
+   ![Transfer-Balance](https://hackmd.io/_uploads/rkvcFfhdex.png)
 
 4. Подтвердите транзакцию в MetaMask (подпишите транзакцию).  
 5. Полученные средства появятся в WebZjs после подтверждения.
@@ -145,7 +145,7 @@ MetaMask теперь поддерживает **экранированный Zc
    Transparent Address
 ``` 
 
-![Address-components](/content-images/SyPR2f2_gg-3907c5bf58.webp)
+![Address-components](https://hackmd.io/_uploads/SyPR2f2_gg.png)
 
 
 

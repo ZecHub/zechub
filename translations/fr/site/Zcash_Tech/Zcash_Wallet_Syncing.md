@@ -47,7 +47,7 @@ Spend-before-sync est une nouvelle fonctionnalité du Zcash Mobile Wallet SDK V2
 Spend-before-sync fonctionne en utilisant un algorithme de synchronisation des compact blocks qui traite les blocs du serveur `lightwalletd` dans un ordre non linéaire. Cela signifie qu’au lieu d’attendre qu’un bloc soit entièrement traité avant de passer au suivant, les portefeuilles peuvent utiliser un peu plus de mémoire et de puissance de calcul pour scanner différentes sections de la blockchain. En général, il analyse différentes plages, en recherchant des transactions plus récentes pendant que les blocs plus anciens sont téléchargés et traités. Si une note récente non dépensée est découverte, elle sera rendue disponible immédiatement.
 
 <a href="">
-    <img src="/content-images/363d08df-b7b7-461b-a386-251d9ad702ca-a857cd8385.webp" alt="" width="140" height="150"/>
+    <img src="https://github.com/ZecHub/zechub/assets/9355622/363d08df-b7b7-461b-a386-251d9ad702ca" alt="" width="140" height="150"/>
 </a>
 
 ### Blaze Sync
@@ -66,7 +66,7 @@ Il utilise un [graphe orienté acyclique (DAG)](https://words.str4d.xyz/dagsync-
 Un DAG est une structure de données composée de nœuds et d’arêtes, où chaque arête a une direction qui indique une relation entre deux nœuds. Un DAG ne comporte aucun cycle, ce qui signifie qu’il n’existe aucun moyen de partir d’un nœud et de suivre les arêtes pour revenir au même nœud.
 
 <a href="">
-    <img src="/content-images/eee7e08d-5c98-4c88-a48e-12f7a92a195f-316493530f.webp" alt="" width="110" height="230"/>
+    <img src="https://github.com/ZecHub/zechub/assets/9355622/eee7e08d-5c98-4c88-a48e-12f7a92a195f" alt="" width="110" height="230"/>
 </a>
 
 ## Implications pratiques

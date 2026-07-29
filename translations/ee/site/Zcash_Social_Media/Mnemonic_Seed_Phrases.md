@@ -13,7 +13,7 @@ Woɖea hayahaya ƒe nyagbewo gɔme to **BIP-39** ƒe nɔnɔmetata si nye hayahay
 
 Nyagbe siwo woatsɔ agbugbɔ axɔe ƒe wɔwɔ dzea egɔme kple **randomness** wɔwɔ. Entropy geɖe wu fia be dedienɔnɔ si lolo wu. Wobua entropy ƒe **128 bits** be esɔ gbɔ na ezãla akpa gãtɔ.
 
-![Nuku ƒe nyagbe ƒe nukpɔsusu](/content-images/FooM3qWWACgrwzn-f222c4081f.webp)
+![Nuku ƒe nyagbe ƒe nukpɔsusu](https://pbs.twimg.com/media/FooM3qWWACgrwzn.jpg)
 
 Le entropy gbãtɔ ƒe didime nu la, nyagbɔgblɔ si woatsɔ agbugbɔ axɔe la didi **nya 12 va ɖo 24**.
 
@@ -28,7 +28,7 @@ Míedzea egɔme kple **128 bits** ƒe entropy wɔwɔ.
 Míewɔa hash na entropy la to **SHA256** zazã me. Hash sia ƒe akpa ʋee gbãtɔwo va zua checksum. 
 Esia naa asibidɛ tɔxɛ aɖe mí na míaƒe entropy.
 
-![Entropy + Checksum ƒe nɔnɔmetata](/content-images/FooNoOEXgAAu-g6-613238fa7e.webp)
+![Entropy + Checksum ƒe nɔnɔmetata](https://pbs.twimg.com/media/FooNoOEXgAAu-g6.png)
 
 ### 3. Mae ɖe akpa 11-bit me
 Woma bit 132 (entropy 128 + checksum 4) katã ɖe akpa siwo nye bit 11 me.
@@ -39,7 +39,7 @@ BIP-39 nyawo ƒe xexlẽdzesiwo me **nya 2048 pɛpɛpɛ** (Eŋlisigbe, Spaingbe,
 
 Wozãa xexlẽdzesi siawo tsɔ dia nya si sɔ ɖe enu le nyawo ƒe xexlẽdzesiwo me.
 
-![Nyawo ƒe nɔnɔmetata ƒe kpɔɖeŋu](/content-images/FooN9rfXEBoQuU2-d11331fc0a.webp)
+![Nyawo ƒe nɔnɔmetata ƒe kpɔɖeŋu](https://pbs.twimg.com/media/FooN9rfXEBoQuU2.png)
 
 **Emetsonu:** Nya 12 gbugbɔgawɔ ƒe nyagbɔgblɔ si le dedie, si amegbetɔ ate ŋu axlẽ la le mía si fifia!
 
@@ -59,7 +59,7 @@ Woɖe gakotoku ƒe nukua tso ŋkuɖodzinyagbe me to **Key Derivation Function (K
 
 Esia naa **64-byte (512-bit)** nuku.
 
-![Nuku be woabi ɖe safuiwo me](/content-images/FooOuumXEAgcBm1-dc7c66b84a.webp)
+![Nuku be woabi ɖe safuiwo me](https://pbs.twimg.com/media/FooOuumXEAgcBm1.jpg)
 
 ### Aƒetɔ Safuiwo
 Woma nukua ɖe ɖoɖo eve siwo ƒe didime nye byte 32 me:
@@ -83,7 +83,7 @@ Tso **Gazazã ƒe Safui si Wokeke** me la, míekpɔa:
 
 Derivation mɔnu vovovowo wɔa gotagome adrɛs siwo sɔ na nunana na amedɔdɔwo to shielded pools (Sapling & Orchard).
 
-![Zcash safui ƒe dzɔtsoƒe ƒe ɖoɖo](/content-images/FooPKd4XEBUQhJ6-af133c01bf.webp)
+![Zcash safui ƒe dzɔtsoƒe ƒe ɖoɖo](https://pbs.twimg.com/media/FooPKd4XEBUQhJ6.jpg)
 
 Zcash hã doa alɔ **adrɛs ememetɔwo** na gakotoku ƒe dɔwɔwɔwo abe Auto-Shielding ene.
 

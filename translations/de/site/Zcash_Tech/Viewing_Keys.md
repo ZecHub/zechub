@@ -47,7 +47,7 @@ Warum sollte ein Benutzer das überhaupt tun wollen? Aus dem Blog von Electric C
 * Wähle oben rechts „Account“ und klicke unten rechts auf „+“, um deinen Viewing Key hinzuzufügen und zu importieren, damit dein Konto als „read-only“ hinzugefügt wird.
 
 <a href="">
-    <img src="/content-images/image-2024-01-13-175554676-8cdf988797.webp" alt="" width="200" height="280"/>
+    <img src="https://i.ibb.co/C0b002N/image-2024-01-13-175554676.png" alt="" width="200" height="280"/>
 </a>
 
 

@@ -43,7 +43,7 @@ Zcash "Zerocash" protocol का एक implementation है। यह एक o
 Zcash Bitcoin की सबसे बड़ी कमी को हल करता है; data का private ownership और transfer। ऐसी दुनिया में जहाँ blockchain applications और cryptocurrencies अधिक व्यापक रूप से स्वीकार की जा रही हैं, pseudonymous transactions अब user privacy की रक्षा के लिए व्यवहार्य विकल्प नहीं रह गए हैं। blockchain transactions का विश्लेषण करने के लिए surveillance applications का उपयोग अधिक व्यापक होता जा रहा है।
 
 <a href="">
-    <img src="/content-images/Zcash-logo-1-26747e0dd3.webp" alt="" width="60" height="60"/>
+    <img src="https://i.ibb.co/NN3XxrG/Zcash-logo-1.png" alt="" width="60" height="60"/>
 </a>
 
 #### संसाधन

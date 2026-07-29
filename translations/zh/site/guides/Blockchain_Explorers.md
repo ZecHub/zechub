@@ -44,7 +44,7 @@
 
 与上面的地址类似，公链上的任何交易，其金额也是完全公开展示的。这包括任何一笔交易中输入地址和输出地址上的金额。唯一的例外之一是当你选择使用 Shielded Zcash 时——这时所有金额都会被隐藏。对于那些因为*公平交易*而必须保护隐私的小企业主来说，这是一个巨大的优势！
 
-![金额](/content-images/206312357-e9504151-830f-4fa1-81cb-f23619-210f51493c.webp)
+![金额](https://user-images.githubusercontent.com/81990132/206312357-e9504151-830f-4fa1-81cb-f23619fd7226.png)
 
 
 ### 浏览器在 Zcash 上能看到什么，不能看到什么
@@ -79,13 +79,13 @@ Shielded 地址是私密的一侧。位于 Sapling 或 Orchard [shielded pools](
 * [Mintscan](https://hub.mintscan.io/chains/ibc-network)
 
 
-![Bitcoin 浏览器](/content-images/206279968-a06eb0a1-b3a6-49af-a30f-7d871b-1418d95d28.webp)
+![Bitcoin 浏览器](https://user-images.githubusercontent.com/81990132/206279968-a06eb0a1-b3a6-49af-a30f-7d871b906eeb.png)
 
 
-![ETH 浏览器](/content-images/206280208-2ce5eddd-157e-4eed-90a0-680c15-488292c345.webp)
+![ETH 浏览器](https://user-images.githubusercontent.com/81990132/206280208-2ce5eddd-157e-4eed-90a0-680c1520ec57.png)
 
 
-![Zcash 浏览器](/content-images/206280454-a2c7563f-e82d-47b9-9b58-02eece-76db7aec4c.webp)
+![Zcash 浏览器](https://user-images.githubusercontent.com/81990132/206280454-a2c7563f-e82d-47b9-9b58-02eece1c89ee.png)
 
 
-![Cosmos](/content-images/206316791-2debfd28-923a-44f4-b7d3-701182-cf39a065fc.webp)
+![Cosmos](https://user-images.githubusercontent.com/81990132/206316791-2debfd28-923a-44f4-b7d3-701182112c30.png)

@@ -41,7 +41,7 @@ MetaMask prend désormais en charge **Zcash (ZEC) shielded** via le **Snap Zcash
       Store data on your device
    ```
 
-![Installation du snap Zcash](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
+![Installation du snap Zcash](https://hackmd.io/_uploads/Hy5MSG2Oex.png)
 
 
 ---
@@ -59,7 +59,7 @@ Pour **BNB SmartChain** ;
 -  Block Explorer URL: https://bscscan.com
 ```
 Cela active les informations réseau et les liens vers l’explorateur.
-![Ajouter-un-réseau-personnalisé....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
+![Ajouter-un-réseau-personnalisé....](https://hackmd.io/_uploads/S1hq7f2Oel.png)
 
 Pour **Zcash Mainnet** ;
 ```markdown
@@ -75,13 +75,13 @@ Pour **Zcash Mainnet** ;
 1. Rendez-vous sur [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev).  
 2. Cliquez sur **Connect MetaMask Snap**.  
 
-![Portefeuille web Zcash](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
+![Portefeuille web Zcash](https://hackmd.io/_uploads/Sk8nSz3dgl.png)
 
 3. Approuvez la connexion.  
 4. Consultez le résumé de votre compte Zcash, y compris :
    - Adresses Unified et adresse transparente
 
-![Résumé-du-compte-unif....](/content-images/r17c_Mhdel-f4963826d5.webp)
+![Résumé-du-compte-unif....](https://hackmd.io/_uploads/r17c_Mhdel.jpg)
 
 
 5. Attendez que la synchronisation soit terminée.
@@ -96,7 +96,7 @@ Pour **Zcash Mainnet** ;
 > **Échanger ETH -> ZEC** - Utilisez des services comme **LeoDex** et envoyez-les vers votre adresse shielded.  
 > **Retrait depuis un exchange** - Retirez les ZEC achetés vers votre adresse shielded WebZjs.  
 
-![ÉCHANGE LEODEX](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![ÉCHANGE LEODEX](https://hackmd.io/_uploads/HyLQ0G2ugg.png)
 
 
 > => Utilisez des adresses shielded (z) pour une **confidentialité totale**.
@@ -111,7 +111,7 @@ Pour **Zcash Mainnet** ;
    - Adresse du destinataire shielded  
    - Montant
 ```
-   ![Transférer-le-solde](/content-images/rkvcFfhdex-bd55d079eb.webp)
+   ![Transférer-le-solde](https://hackmd.io/_uploads/rkvcFfhdex.png)
 
 4. Confirmez la transaction dans MetaMask (signez la transaction).  
 5. Les fonds reçus apparaîtront dans WebZjs après confirmation.
@@ -145,7 +145,7 @@ Pour **Zcash Mainnet** ;
    Transparent Address
 ``` 
 
-![Composants-de-l’adresse](/content-images/SyPR2f2_gg-3907c5bf58.webp)
+![Composants-de-l’adresse](https://hackmd.io/_uploads/SyPR2f2_gg.png)
 
 
 

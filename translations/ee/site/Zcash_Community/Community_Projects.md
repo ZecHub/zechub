@@ -67,7 +67,7 @@ Zlink nye mɔ bɔbɔetɔ kekeake si dzi nàto adi kadodo, dɔwɔnu, nyatakaka ɖ
 Radiodɔwɔƒe si le internet dzi be woatsɔ ana nyanya, ana hehe amewo ahaɖe modzaka na Zcash Habɔbɔa, si Zcash en Español kple ZKAV Club wɔ.
 
 ## Zimppy.xyz ƒe agbalẽ
-[![Zimppy.xyz ƒe dzesi](/content-images/og-40771e1849.webp)](https://zimppy.xyz/)
+[![Zimppy.xyz ƒe dzesi](https://github.com/betterclever/zimppy/blob/main/site/og.png?raw=true)](https://zimppy.xyz/)
 
 Zimppy nye Mɔ̃ ƒe Fexexe ƒe Ðoɖo (MPP) ƒe fexexemɔnu na Zcash, si wowɔ na AI dɔwɔlawo kple mɔ̃-ɖe-mɔ̃ ƒe dɔwɔwɔ le wo ɖokui si. Deposit zi ɖeka le kɔsɔkɔsɔ dzi, emegbe wɔ seɖoƒemanɔsitɔ enumake bearer biabia kple no ɖesiaɖe-biabia blockchain kadodo. Doa alɔ Zcash (Orchard) fexexe siwo wokpɔ ta na bliboe — ame si ɖoe ɖa, amesi xɔe, kple ga home gakpɔtɔ nye nya ɣaɣla.
 
@@ -76,7 +76,7 @@ Zimppy nye Mɔ̃ ƒe Fexexe ƒe Ðoɖo (MPP) ƒe fexexemɔnu na Zcash, si wowɔ 
 ---
 
 ## CipherScan ƒe dɔwɔwɔ
-[![CipherScan ƒe agbalẽ](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
+[![CipherScan ƒe agbalẽ](https://github.com/Kenbak/cipherscan/blob/main/public/logo-small.png?raw=true)](https://cipherscan.app/)
 
 CipherScan nye adzamenyawo-gbãtɔ Zcash blockchain didi. Wotue kple Next.js 15, TypeScript, kple Rust/WASM, enaa zãlawo kpɔa mɔxenuwo, asitsatsa, kple adrɛswo evɔ womeɖea biabia ƒe metadata ɖa o. Wotrɔ asi le eŋu na ezãla siwo tsia dzi ɖe adzamenyawo ŋu siwo hiã blockchain ƒe nuwɔwɔ le gaglãgbe ŋkuléle ɖe wo ŋu manɔmee.
 
@@ -85,7 +85,7 @@ CipherScan nye adzamenyawo-gbãtɔ Zcash blockchain didi. Wotue kple Next.js 15,
 ---
 
 ## ZcashŊkɔwo
-[![ZcashŊkɔwo](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
+[![ZcashŊkɔwo](https://github.com/zcashme/zcashnames/blob/main/public/brandkit/zcashnames-brand-banner-primary-logo-monochrome-green-monochrome-green-background-377x403.png?raw=true)](https://www.zcashnames.com/)
 
 ZcashNames naa ŋkɔ siwo amegbetɔ ate ŋu axlẽ na adrɛs siwo wokpɔ ta na Zcash. Le esi teƒe be woama z-adrɛs didi aɖe la, ezãlawo ŋlɔ ŋkɔ si dzi woaɖo ŋkui (e.g., `alice.zec`) that resolves to their Unified Address. Simplifies receiving ZEC privately without exposing raw addresses.
 
@@ -102,20 +102,20 @@ Dɔwɔƒe si tsɔ eɖokui na be yeakpɔ ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ, ɖok
 ---
 
 ## Cipherpay ƒe agbalẽ
-[![Cipherpay ƒe fetu](/content-images/logo-mark-b8d7c702b0.webp)](https://www.cipherpay.app/en)
+[![Cipherpay ƒe fetu](https://github.com/atmospherelabs-dev/cipherpay-web/blob/main/public/logo-mark.png?raw=true)](https://www.cipherpay.app/en)
 
 CipherPay na be ame ŋutɔ ƒe fexexe na internet la te ŋu dzɔna. Lɔ̃ ɖe Zcash dzi le miniti ʋɛ aɖewo me — menye gaxɔmenɔnɔ o, KYC mehiã o. Asitsalawo xɔa ZEC tẽ ɖe adrɛs siwo ŋu wokpɔ ta na, si kpɔa nuƒlela kple nudzrala siaa ƒe ganyawo ta.
 
 [Kpɔ Nyatakakadzraɖoƒea](https://www.cipherpay.app/en)
 
 ## Cipherscan ƒe agbalẽ
-[![Cipherscan ƒe nyawo](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
+[![Cipherscan ƒe nyawo](https://github.com/Kenbak/cipherscan/blob/main/public/logo-small.png?raw=true)](https://cipherscan.app/)
 
 Zcash Blockchain Explorer 🛡️ Ðe blockchain la gɔme. Ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla doa go kple nuwɔwɔ le gaglãgbe.
 [Kpɔ Nyatakakadzraɖoƒea](https://cipherscan.app/)
 
 ## ZcashŊkɔwo
-[![ZcashŊkɔwo](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
+[![ZcashŊkɔwo](https://github.com/zcashme/zcashnames/blob/main/public/brandkit/zcashnames-brand-banner-primary-logo-monochrome-green-monochrome-green-background-377x403.png?raw=true)](https://www.zcashnames.com/)
 
 Ame ŋutɔ ƒe ŋkɔwo
 elabena
@@ -124,14 +124,14 @@ adrɛs siwo ŋu wokpɔ ta na. Ŋkɔ koe hiã be nàwɔ asitsatsa le ɖokuiwò si
 [Kpɔ Nyatakakadzraɖoƒea](https://www.zcashnames.com/)
 
 ## Zero-sidzedze Odio kple Nukpɔkpɔ Habɔbɔ
-[![Zero-sidzedze Odio kple Nukpɔkpɔ Habɔbɔ](/content-images/images-563ef94ac0.webp)](https://zkav.club/#additional-reading)
+[![Zero-sidzedze Odio kple Nukpɔkpɔ Habɔbɔ](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS95FffUJjEeUHAZZ04xRHp9FW1Z0Gzef2UUg&s?raw=true)](https://zkav.club/#additional-reading)
 
 Adzamenyawo-gbãtɔ odio kple nukpɔkpɔ (AV) ƒuƒoƒo na ʋuʋu-dzɔtsoƒe & decentralized tech nutowo. Míenaa hehe, co-create & run lɔlɔ̃nu faa AV kpekpeɖeŋu le nutoa me wɔnawo me.
 
 [Kpɔ Nyatakakadzraɖoƒea](https://zkav.club/#additional-reading)
 
 ## Labs Siwo Wotsɔ Akpoxɔnu Wɔe
-[![Nudzraɖoƒe Siwo Wokpɔ Akpoxɔnu Le](/content-images/68747470733a2f2f736869656c6465646c616273-e449ae6540.webp)](https://shieldedlabs.net/)
+[![Nudzraɖoƒe Siwo Wokpɔ Akpoxɔnu Le](https://camo.githubusercontent.com/0244df9f30a80c45adfd80c448985f17a6c71cdc9fd0eccd7bf47dec157c0dd4/68747470733a2f2f736869656c6465646c6162732e6e65742f77702d636f6e74656e742f75706c6f6164732f323032342f31312f66617669636f6e5f37325f322e706e67?raw=true)](https://shieldedlabs.net/)
 
 Shielded Labs nye Zcash kpekpeɖeŋunahabɔbɔ si le eɖokui si, si dzɔa ga tso nudzɔdzɔwo me, si le Switzerland. Enye habɔbɔ gbãtɔ le Zcash ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa me si mexɔ ga tẽ alo le mɔ si mele tẽ o nu tso Ŋgɔyidɔwo ƒe Gaxɔ alo block rewards gbɔ kpɔ o.
 

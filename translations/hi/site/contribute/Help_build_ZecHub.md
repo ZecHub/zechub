@@ -27,7 +27,7 @@ Zcash और Privacy ecosystem के लिए पोस्टर/ग्रा�
 
 हम हर सोमवार उन कार्यों के लिए issues पोस्ट करते हैं जिन पर वर्तमान में बाउंटी खुली होती है। आप भी बाउंटी सुझा सकते हैं! मुख्य रूप से ये ZEC Bounties पर मिलती हैं।
 
-![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
+![zecbounties](https://github.com/user-attachments/assets/0e4f5109-c0c9-4a0a-8d71-8172e36b9726)
 
 
 

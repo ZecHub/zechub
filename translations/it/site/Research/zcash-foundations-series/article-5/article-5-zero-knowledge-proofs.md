@@ -1,7 +1,7 @@
 # Prove a conoscenza zero: dimostrare di avere ragione senza dire perché
 ##### Ricerca originale di [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt text](/content-images/image-23-71534bece9.webp)
+![alt text](image-23.png)
 
 ### Il sipario che permette al mondo di verificare ciò che non potrà mai vedere
 
@@ -40,7 +40,7 @@ Quella storia della caverna dimostra silenziosamente le **tre garanzie** che ogn
 
 ## 3. Le tre garanzie
 
-![alt text](/content-images/image-24-b559d31849.webp)
+![alt text](image-24.png)
 
 | Garanzia | Nella storia della caverna | In Zcash |
 |---|---|---|
@@ -62,7 +62,7 @@ Il ponte è un'idea che lega insieme tutta questa serie:
 
 Pensa al circuito come a un elenco di vincoli aritmetici che sono *tutti soddisfatti solo se l'enunciato è vero.* Gli input privati che fanno tornare tutto, la tua nota, la tua chiave, il percorso di Merkle, sono chiamati il **testimone** (witness).
 
-![alt text](/content-images/image-25-2479377e43.webp)
+![alt text](image-25.png)
 
 Ecco perché abbiamo dedicato l'Articolo 1 ai campi finiti e l'Articolo 3 agli hash ZK-friendly: il circuito parla aritmetica dei campi, quindi ogni operazione all'interno dell'enunciato (incluso l'hashing e la risalita di Merkle dell'Articolo 4) deve essere espressa in quel modo. Più economica è l'espressione di ogni operazione, più piccola e veloce è la prova.
 
@@ -90,7 +90,7 @@ Non esistono pasti gratis. Molti SNARK necessitano di un **setup** una tantum ch
 
 Questo segreto residuo è soprannominato **rifiuto tossico** (toxic waste). Per smaltirlo in sicurezza, Zcash ha condotto elaborate **cerimonie multi-party** in cui molti partecipanti indipendenti hanno contribuito ciascuno con casualità; finché *anche uno solo* ha distrutto onestamente la propria parte, il rifiuto tossico è irrecuperabile.
 
-![alt text](/content-images/image-26-cdad6625cd.webp)
+![alt text](image-26.png)
 
 I sistemi più recenti eliminano del tutto questo requisito, che è una delle ragioni più importanti per cui Zcash ha fatto evolvere il proprio sistema di prove nel tempo.
 

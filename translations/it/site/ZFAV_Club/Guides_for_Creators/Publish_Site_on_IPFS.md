@@ -5,7 +5,7 @@
 # Pubblicare un sito su IPFS
 
 <a href="">
-    <img src="/content-images/IPFS-40c2e22732.webp" alt="" width="800" height="400"/>
+    <img src="https://blog.desdelinux.net/wp-content/uploads/2020/04/IPFS-.jpg" alt="" width="800" height="400"/>
 </a>
 
 
@@ -52,7 +52,7 @@ Seleziona la cartella con i file del tuo sito web e vai all'opzione Add Folder.
 
 
 <a href="">
-    <img src="/content-images/ipfs-site-folder-2c96524d98.webp" alt="" width="400" height="200"/>
+    <img src="https://i.ibb.co/ZHW4zsY/ipfs-site-folder.png" alt="" width="400" height="200"/>
 </a>
 
 –
@@ -89,14 +89,14 @@ L'Interplanetary Naming System (IPNS) ti consente di aggiornare i CID IPFS assoc
 
 
 <a href="">
-    <img src="/content-images/dns-query.a0134a75-9ef7817f80.webp" alt="" width="400" height="100"/>
+    <img src="https://dnslink.io/assets/dns-query.a0134a75.png" alt="" width="400" height="100"/>
 </a>
 
 
 Nel menu delle impostazioni della cartella del tuo sito nell'applicazione IPFS desktop, seleziona Publish to IPNS.
 
 <a href="">
-    <img src="/content-images/IPNS-2fe62cc369.webp" alt="" width="400" height="200"/>
+    <img src="https://i.ibb.co/Ch25dKf/IPNS.png" alt="" width="400" height="200"/>
 </a>
 
 
@@ -112,7 +112,7 @@ Se possiedi già un indirizzo web, puoi aggiungere un nuovo record usando il rec
 
 
 <a href="">
-    <img src="/content-images/example-c2a9edb28b.webp" alt="" width="400" height="100"/>
+    <img src="https://i.ibb.co/MgRxBHj/example.png" alt="" width="400" height="100"/>
 </a>
 
 

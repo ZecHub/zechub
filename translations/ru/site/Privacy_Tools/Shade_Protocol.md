@@ -2,7 +2,7 @@
 
 # Shade Protocol
 
-![Логотип Shade Protocol](/content-images/Af8EzlNiwGr4FTFX7oqdBuE-71316827d0.webp)
+![Логотип Shade Protocol](https://framerusercontent.com/images/Af8EzlNiwGr4FTFX7oqdBuE.png)
 
 ## Что такое Shade Protocol?
 
@@ -14,7 +14,7 @@ Shade Protocol — это DeFi-экосистема (децентрализов�
 
 Shade Protocol построен на Secret Network — блокчейне первого уровня, который предоставляет смарт-контракты с сохранением приватности. Secret Network использует зашифрованные входные данные, выходные данные и состояние, чтобы обеспечивать конфиденциальность транзакций, защищая пользовательские данные от раскрытия в публичном реестре.
 
-![Диаграмма Secret Network](/content-images/1-yyZ5hFOw6z8zXX_rgJn5iw-9091067aa1.webp)
+![Диаграмма Secret Network](https://miro.medium.com/v2/resize:fit:828/format:webp/1*yyZ5hFOw6z8zXX_rgJn5iw.png)
 
 Secret Network позволяет разработчикам создавать децентрализованные приложения с зашифрованными данными — как нативно в Secret, так и в других блокчейнах через межсетевую коммуникацию, открывая новые мощные сценарии использования Web3.
 
@@ -23,7 +23,7 @@ Secret Network позволяет разработчикам создавать 
 Cosmos был создан для объединения разнородных блокчейнов путём определения более совершенных и современных способов их построения с использованием новых инструментов, таких как Tendermint и Cosmos SDK.  
 Протокол использует Cosmos SDK — модульный фреймворк для создания масштабируемых и совместимых блокчейн-приложений. Это позволяет Shade Protocol извлекать выгоду из надёжности и совместимости экосистемы Cosmos.
 
-![Диаграмма Cosmos SDK и Tendermint Core](/content-images/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e-ed16bb7658.webp)
+![Диаграмма Cosmos SDK и Tendermint Core](https://s3.ap-northeast-1.amazonaws.com/gimg.gateimg.com/learn/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e.jpg)
 
 Для достижения консенсуса и обеспечения безопасности сети Shade Protocol использует Tendermint Core, который предоставляет Byzantine Fault Tolerant (BFT) консенсус, обеспечивая высокий уровень безопасности и быструю финализацию.
 
@@ -37,9 +37,9 @@ DeFi с сохранением приватности использует пе�
 
 Shade Protocol использует viewing keys для своих двух основных токенов: Shade ($SHD) и Silk ($SILK). Shade ($SHD) выполняет несколько ролей, выступая в экосистеме в качестве токена казначейства, управления и распределения доходов. Он используется для стейкинга, предложений по управлению, предоставления ликвидности, транзакций и облигаций. Silk ($SILK), с другой стороны, является ориентированным на приватность стейблкоином протокола, привязанным к диверсифицированной корзине мировых валют и товаров, таких как золото, Bitcoin, доллар США, евро и иена.
 
-![Токены Shade и Silk — часть 1](/content-images/9wTrxCdx8AoRcCwsGub13QXuY-807ed3b400.webp)
+![Токены Shade и Silk — часть 1](https://framerusercontent.com/images/9wTrxCdx8AoRcCwsGub13QXuY.png?scale-down-to=1024)
 
-![Токены Shade и Silk — часть 2](/content-images/IUC9YWfErTebCBsMkdbCnjSWGEY-4ed6d5cedf.webp)
+![Токены Shade и Silk — часть 2](https://framerusercontent.com/images/IUC9YWfErTebCBsMkdbCnjSWGEY.png)
 
 ### Приватность
 
@@ -57,7 +57,7 @@ Shade Protocol использует viewing keys для своих двух ос
 
 Будучи частью экосистемы Cosmos, Shade Protocol может легко взаимодействовать с другими блокчейнами, повышая ликвидность и предоставляя пользователям больше возможностей использовать свои активы в разных сетях. Используя технологии сохранения приватности от Secret Network, Shade Protocol гарантирует, что такая межсетевая активность сохраняет конфиденциальность и целостность. Эта совместимость не только повышает гибкость и функциональность децентрализованных приложений, но и способствует формированию более взаимосвязанной и устойчивой блокчейн-экосистемы, уменьшая зависимость от изолированных сетей и способствуя более широкому внедрению решений децентрализованных финансов.
 
-![Диаграмма совместимости](/content-images/3zIwSJHEwP9tkn4aI0do0lhgFTE-2aed930de0.webp)
+![Диаграмма совместимости](https://framerusercontent.com/images/3zIwSJHEwP9tkn4aI0do0lhgFTE.png)
 
 ## Заключение
 

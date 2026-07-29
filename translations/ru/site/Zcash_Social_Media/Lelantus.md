@@ -6,7 +6,7 @@
 
 Впервые представленный в 2019 году, этот протокол строится на основе Zerocoin. Он используется в криптовалюте **Firo** (ранее известной как Zcoin), чтобы обеспечить приватные транзакции на блокчейне. В некоторых аспектах он похож на Zcash, но во многих других отличается.
 
-![Введение в Lelantus](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
+![Введение в Lelantus](https://pbs.twimg.com/media/Fsk18DgXsAEc0Ob.jpg)
 
 ---
 
@@ -15,7 +15,7 @@
 - **Zcash** - строится на основе протокола **Zerocash**
 - **Firo (Zcoin)** - строится на основе протокола **Zerocoin**
 
-![Сравнение Zerocash и Zerocoin](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
+![Сравнение Zerocash и Zerocoin](https://pbs.twimg.com/media/Fsk2Fk7WcAA81ty.png)
 
 ---
 
@@ -28,7 +28,7 @@
 - **Sigma** - исправленная система номиналов
 - **Lelantus 1.0** - отсутствовали корректные доказательства безопасности
 
-![Эволюция протоколов](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
+![Эволюция протоколов](https://pbs.twimg.com/media/Fsk2NdaWAAAKVgH.png)
 
 ---
 
@@ -38,7 +38,7 @@
 
 Это создало меньшие множества анонимности и открыло путь к временным атакам между выпуском и обналичиванием (плюс проблема "загрязненного сдачи").
 
-![Номиналы Sigma](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
+![Номиналы Sigma](https://pbs.twimg.com/media/Fsk2fxfWcAMUBDo.png)
 
 ---
 
@@ -53,7 +53,7 @@
 
 **Ограничение**: Размер набора на данный момент ограничен **65 000 монетами**.
 
-![Преимущества Lelantus](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
+![Преимущества Lelantus](https://pbs.twimg.com/media/Fsk2wK3X0AA6MEe.png)
 
 ---
 
@@ -65,7 +65,7 @@
 
 Коммит монеты публикуется и хранится в блокчейне при создании монеты (через транзакции Mint или Spend).
 
-![Диаграмма коммита монет](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
+![Диаграмма коммита монет](https://pbs.twimg.com/media/Fsk3AWNX0AIHya8.png)
 
 ---
 
@@ -77,7 +77,7 @@ Lelantus использует классическую модель **basecoin <
 
 Как и у Zcash, прозрачные транзакции должны быть явно выбраны пользователем.
 
-![Схема Lelantus](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
+![Схема Lelantus](https://pbs.twimg.com/media/Fsk3HrjXgAMgqmX.png)
 
 ---
 
@@ -87,7 +87,7 @@ Lelantus использует **доказательства "один из мн
 
 Эти доказательства также используются в **Triptych** (упомянутом в нашем потоке CryptoNote).
 
-![Доказательства "один из многих"](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
+![Доказательства "один из многих"](https://pbs.twimg.com/media/Fsk3Z0nWIAAPD4k.jpg)
 
 ---
 
@@ -103,7 +103,7 @@ Lelantus использует **доказательства "один из мн
 
 Это значительно усложняет отслеживание источника транзакции с помощью анализа сети.
 
-![Объяснение Dandelion++](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
+![Объяснение Dandelion++](https://pbs.twimg.com/media/Fsk4A8VWcAU84MR.png)
 
 ---
 
@@ -117,7 +117,7 @@ Lelantus использует **доказательства "один из мн
 
 Эти функции соответствуют защищенным активам Zcash.
 
-![Объявление о Lelantus-Spark](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
+![Объявление о Lelantus-Spark](https://pbs.twimg.com/media/Fsk4jXeXsAACQ3h.jpg)
 
 ---
 

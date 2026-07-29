@@ -8,7 +8,7 @@ La lógica es la siguiente: al detectar una dirección TEX, una billetera compat
 
 La propuesta técnica para las direcciones TEX se describe en Zcash [ZIP 320](https://zips.z.cash/zip-0320), que define un tipo de dirección exclusivamente para recibir fondos desde direcciones Transparent.
 
-![TEX](/content-images/ZashiTex-b1cbec5f07.webp)
+![TEX](https://i.ibb.co/8m7HPqV/ZashiTex.png)
 
 
 Aunque las direcciones TEX aún no están ampliamente adoptadas, es posible que los usuarios de Zcash deban utilizarlas eventualmente.

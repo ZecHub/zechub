@@ -28,7 +28,7 @@ A mọ YWallet gẹgẹbi ọkan ninu awọn aṣayan ti o dara julọ fun gbigb
 
 4. Ni igun apa ọtun oke tẹ ami afikun 
 
-[Àmì ìdìbò àfikún]](/content-images/plus-3ca2c1649a.webp)
+[Àmì ìdìbò àfikún]](https://i.postimg.cc/xJbVz7gB/plus.png)
 
 5. Tẹ 'Tún àkáǹtì kan ṣe' 
 
@@ -46,7 +46,7 @@ A mọ YWallet gẹgẹbi ọkan ninu awọn aṣayan ti o dara julọ fun gbigb
 
 4. Tẹ gbolohun ọrọ irugbin rẹ (Awọn iyasọtọ aaye fun awọn adirẹsi afikun ti a ṣẹda nipasẹ irugbine)
 
-[Yọ́jú Àwòrán Ìṣúná!](/content-images/sweep-6c956553a9.webp)
+[Yọ́jú Àwòrán Ìṣúná!](https://i.postimg.cc/3055CBcN/sweep.png)
 
 5. Tẹ Àkójọ Iye fún ibi tí o fẹ́ lo (Àwọn ilé-ìtajà ń lo Transparent)
 

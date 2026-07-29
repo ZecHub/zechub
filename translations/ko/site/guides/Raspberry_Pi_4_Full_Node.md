@@ -6,7 +6,7 @@
 
 이 가이드의 목적은 저전력 라즈베리 파이 4에서 전체 노드를 실행하려는 Zcash 사용자들에게 도움을 주는 것입니다.
 
-<img src="/content-images/197372541-dcd886ab-a3d0-4614-b490-0294dd-d45b1cd4ba.webp" alt="zcashd" width="700" height="700"/>
+<img src="https://user-images.githubusercontent.com/81990132/197372541-dcd886ab-a3d0-4614-b490-0294ddf3ffae.png" alt="zcashd" width="700" height="700"/>
 
 ## 동영상
 
@@ -68,11 +68,11 @@ Raspberry Pi Imager를 실행합니다.
 
 `rpi-imager`
 
-<img src="/content-images/197372069-fb9f7417-d320-42cf-ad65-38d630-7d85096e88.webp" alt="rpi imager" width="400" height="400"/>
+<img src="https://user-images.githubusercontent.com/81990132/197372069-fb9f7417-d320-42cf-ad65-38d630512985.png" alt="rpi imager" width="400" height="400"/>
 
 OS와 저장 장치를 선택합니다. 라즈베리 파이 4는 64비트이므로 "Other general-purpose OS" => Ubuntu => Ubuntu Server 24.04.3 LTS (64 bit)를 추천합니다. 저장을 클릭하고 SD 카드를 선택하세요. SD 카드에 쓰기 전, 하단 오른쪽 근처의 흰색 기어 아이콘을 클릭하여 고급 옵션을 클릭합니다.
 
-<img src="/content-images/197372159-1169c6f4-f6aa-4f44-9679-fe7aa5-fe6c968644.webp" alt="gear" width="200" height="200"/>
+<img src="https://user-images.githubusercontent.com/81990132/197372159-1169c6f4-f6aa-4f44-9679-fe7aa542bbd3.png" alt="gear" width="200" height="200"/>
 
 여기서 업데이트할 수 있습니다:
 
@@ -83,7 +83,7 @@ OS와 저장 장치를 선택합니다. 라즈베리 파이 4는 64비트이므�
 * 필요 시 Wi-Fi를 활성화하고 구성
 ```
  
-<img src="/content-images/197372149-8b85bfac-e473-4808-87cd-f27f15-269c28f6c3.webp" alt="advanced" width="400" height="400"/>
+<img src="https://user-images.githubusercontent.com/81990132/197372149-8b85bfac-e473-4808-87cd-f27f15d05de8.png" alt="advanced" width="400" height="400"/>
 
 작성 완료 후 "Write"를 클릭합니다.
 
@@ -121,14 +121,14 @@ IP 주소를 찾는 두 가지 방법은 라우터 관리자 페이지 또는 nm
 * 예시: `ssh ubuntu@192.168.1.25` 여기서 사용자 이름은 *ubuntu*이고 IP 주소는 192.168.1.25입니다.
 ```
 
-  <img src="/content-images/197372846-e1279388-eaaa-4fbb-8d5d-f9928c-caf89ea305.webp" alt="sshLogin" width="400" height="400"/>
+  <img src="https://user-images.githubusercontent.com/81990132/197372846-e1279388-eaaa-4fbb-8d5d-f9928cb45195.png" alt="sshLogin" width="400" height="400"/>
        
 
 사용 중인 라즈베리 파이의 버전을 알고 싶다면 다음 명령어를 사용하세요:
 
      `cat /sys/firmware/devicetree/base/model ; echo`
 
-  <img src="/content-images/197689888-367c8eb3-2667-4c8c-85b3-44d46a-ef72475028.webp" alt="which" width="700" height="400"/>
+  <img src="https://user-images.githubusercontent.com/81990132/197689888-367c8eb3-2667-4c8c-85b3-44d46afe07a7.png" alt="which" width="700" height="400"/>
 
          
 
@@ -149,12 +149,12 @@ Raspberry Pi Imager를 열어주세요
 
 `rpi-imager`
 
-<img src="/content-images/197372069-fb9f7417-d320-42cf-ad65-38d630-7d85096e88.webp" alt="rpi imager" width="400" height="400"/>
+<img src="https://user-images.githubusercontent.com/81990132/197372069-fb9f7417-d320-42cf-ad65-38d630512985.png" alt="rpi imager" width="400" height="400"/>
 
 OS와 저장 장치를 선택하세요. 라즈베리 파이 4는 64비트이므로 "Other general-purpose OS" => Ubuntu => Ubuntu Server 24.04.3 LTS (64 bit)를 추천합니다. 저장을 클릭하고 SD 카드를 선택하세요. SD 카드에 쓰기 전에 하단 오른쪽 근처의 흰색 기어 아이콘을 클릭하여 고급 옵션을 클릭하세요.
 
 
-<img src="/content-images/197372159-1169c6f4-f6aa-4f44-9679-fe7aa5-fe6c968644.webp" alt="gear" width="200" height="200"/>
+<img src="https://user-images.githubusercontent.com/81990132/197372159-1169c6f4-f6aa-4f44-9679-fe7aa542bbd3.png" alt="gear" width="200" height="200"/>
 
 
 
@@ -167,7 +167,7 @@ OS와 저장 장치를 선택하세요. 라즈베리 파이 4는 64비트이므�
 * 필요 시 Wi-Fi를 활성화하고 구성
 ```
  
-<img src="/content-images/197372149-8b85bfac-e473-4808-87cd-f27f15-269c28f6c3.webp" alt="advanced" width="400" height="400"/>
+<img src="https://user-images.githubusercontent.com/81990132/197372149-8b85bfac-e473-4808-87cd-f27f15d05de8.png" alt="advanced" width="400" height="400"/>
 
  
 작성 완료 후 "Write"를 클릭합니다.
@@ -206,14 +206,14 @@ IP 주소를 찾는 두 가지 방법은 라우터 관리자 페이지 또는 nm
 * 예시: `ssh ubuntu@192.168.1.25` 여기서 사용자 이름은 *ubuntu*이고 IP 주소는 192.168.1.25입니다.
 ```
 
-  <img src="/content-images/197372846-e1279388-eaaa-4fbb-8d5d-f9928c-caf89ea305.webp" alt="sshLogin" width="400" height="400"/>
+  <img src="https://user-images.githubusercontent.com/81990132/197372846-e1279388-eaaa-4fbb-8d5d-f9928cb45195.png" alt="sshLogin" width="400" height="400"/>
        
 
 사용 중인 라즈베리 파이의 버전을 알고 싶다면 다음 명령어를 사용하세요:
 
      `cat /sys/firmware/devicetree/base/model ; echo`
 
-  <img src="/content-images/197689888-367c8eb3-2667-4c8c-85b3-44d46a-ef72475028.webp" alt="which" width="700" height="400"/>
+  <img src="https://user-images.githubusercontent.com/81990132/197689888-367c8eb3-2667-4c8c-85b3-44d46afe07a7.png" alt="which" width="700" height="400"/>
 
          
 
@@ -287,7 +287,7 @@ lsblk는 연결된 드라이브를 표시합니다. 대부분은 sda 형식입�
 id는 사용자 및 그룹 ID를 표시합니다.
 ```
           
-<img src="/content-images/197372643-abef88fd-9177-4bf9-abda-3c2211-e354e8ff47.webp" alt="lsblk" width="400" height="400"/>
+<img src="https://user-images.githubusercontent.com/81990132/197372643-abef88fd-9177-4bf9-abda-3c221188cd10.png" alt="lsblk" width="400" height="400"/>
 
 
           
@@ -310,7 +310,7 @@ tar - xvzf chainstate.tar.gz
 
 /media/portableHD/.zcash/zcash.conf 설정
 
-<img src="/content-images/197373699-18cc2c9f-b47d-44e9-9e6b-4c5ccc-3dac42f3c0.webp" alt="advanced" width="400" height="400"/>
+<img src="https://user-images.githubusercontent.com/81990132/197373699-18cc2c9f-b47d-44e9-9e6b-4c5cccf78d9e.png" alt="advanced" width="400" height="400"/>
 
  
 이제 완료되면 Write를 클릭하세요.
@@ -351,14 +351,14 @@ IP 주소를 찾는 두 가지 방법은 라우터 관리자 페이지 또는 nm
 ```
 
 
-  <img src="/content-images/197372846-e1279388-eaaa-4fbb-8d5d-f9928c-caf89ea305.webp" alt="sshLogin" width="400" height="400"/>
+  <img src="https://user-images.githubusercontent.com/81990132/197372846-e1279388-eaaa-4fbb-8d5d-f9928cb45195.png" alt="sshLogin" width="400" height="400"/>
        
 
 어떤 버전의 라즈베리 파이를 사용하는지 궁금하다면 다음 명령어를 실행하세요:
 
      `cat /sys/firmware/devicetree/base/model ; echo`
 
-  <img src="/content-images/197689888-367c8eb3-2667-4c8c-85b3-44d46a-ef72475028.webp" alt="which" width="700" height="400"/>
+  <img src="https://user-images.githubusercontent.com/81990132/197689888-367c8eb3-2667-4c8c-85b3-44d46afe07a7.png" alt="which" width="700" height="400"/>
 
          
 
@@ -432,7 +432,7 @@ lsblk는 연결된 모든 드라이브를 표시합니다. 대부분은 sda 형�
 id는 사용자 및 그룹 ID를 표시합니다.
 ```
           
-<img src="/content-images/197372643-abef88fd-9177-4bf9-abda-3c2211-e354e8ff47.webp" alt="lsblk" width="400" height="400"/>
+<img src="https://user-images.githubusercontent.com/81990132/197372643-abef88fd-9177-4bf9-abda-3c221188cd10.png" alt="lsblk" width="400" height="400"/>
 
 
           
@@ -455,7 +455,7 @@ tar - xvzf chainstate.tar.gz
 
 Setup /media/portableHD/.zcash/zcash.conf
 
-<img src="/content-images/197373699-18cc2c9f-b47d-44e9-9e6b-4c5ccc-3dac42f3c0.webp" alt="zconf" width="700" height="400"/>
+<img src="https://user-images.githubusercontent.com/81990132/197373699-18cc2c9f-b47d-44e9-9e6b-4c5cccf78d9e.png" alt="zconf" width="700" height="400"/>
 
 
  
@@ -494,7 +494,7 @@ Ready to use!
 
     `zcash-cli getblockchaininfo`
 
-  <img src="/content-images/197373098-672aa228-d180-47ea-8a7c-c58dc3-bf85ac08fb.webp" alt="getblockchaininfo" width="400" height="400"/>
+  <img src="https://user-images.githubusercontent.com/81990132/197373098-672aa228-d180-47ea-8a7c-c58dc3882426.png" alt="getblockchaininfo" width="400" height="400"/>
 
 
 
@@ -508,7 +508,7 @@ Ready to use!
 
      `tail -n 500 <path to>/.zcash/debug.log`
 
-  <img src="/content-images/197684416-9a083de4-4a62-4fe8-9cab-798781-c1755f3f91.webp" alt="status" width="700" height="400"/>
+  <img src="https://user-images.githubusercontent.com/81990132/197684416-9a083de4-4a62-4fe8-9cab-798781b38cd2.png" alt="status" width="700" height="400"/>
 
 
   
@@ -517,13 +517,13 @@ Ready to use!
 
      `tail -n 10 <path to>/.zcash/debug.log | grep -o  'height=[^b]*'`
 
-  <img src="/content-images/199630447-6a6cd491-0cb3-47f8-95f0-45f6b6-dc7b671d5a.webp" alt="logHeight" width="500" height="400"/>
+  <img src="https://user-images.githubusercontent.com/81990132/199630447-6a6cd491-0cb3-47f8-95f0-45f6b6555870.png" alt="logHeight" width="500" height="400"/>
 
 
      
      `zcash-cli getinfo`
   
-<img src="/content-images/199646508-132da0eb-899e-49a6-8b31-e9011e-839cbe5c04.webp" alt="getInfo" width="400" height="400"/>
+<img src="https://user-images.githubusercontent.com/81990132/199646508-132da0eb-899e-49a6-8b31-e9011e159700.png" alt="getInfo" width="400" height="400"/>
 
      
      
@@ -533,7 +533,7 @@ Ready to use!
           
 메모를 생성하고 헥스로 변환합니다. 다시 ASCII로 변환하여 테스트할 수 있습니다.
           
-<img src="/content-images/199646812-782142d6-8846-443a-8dd9-4f332e-a552c26229.webp" alt="asciiGOOD" width="400" height="400"/>
+<img src="https://user-images.githubusercontent.com/81990132/199646812-782142d6-8846-443a-8dd9-4f332e49d3e9.png" alt="asciiGOOD" width="400" height="400"/>
 
 
   
@@ -553,7 +553,7 @@ UA를 생성하려면 어떻게 해야 하나요?
 
 `zcash-cli z_getnewaccount`
      
-  <img src="/content-images/202352436-04c17be2-e914-4b9b-95d1-00cf6f-2d1a6ea572.webp" alt="newAccount" width="400" height="400"/>
+  <img src="https://user-images.githubusercontent.com/81990132/202352436-04c17be2-e914-4b9b-95d1-00cf6fc496d3.png" alt="newAccount" width="400" height="400"/>
 
     
 이제 *당신의* 요구에 따라 UA 수신자(Receiver)를 생성하세요. 이는 Orchard만, Orchard + Sapling, 그리고 마지막으로 Orchard + Sapling + Transparent입니다. 참고로 수신자의 차이점은 길이에 따라 구분할 수 있습니다.

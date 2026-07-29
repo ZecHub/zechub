@@ -47,7 +47,7 @@ Spend-before-sync, Zcash Mobile Wallet SDK V2 içindeki yeni bir özelliktir; ku
 Spend-before-sync, lightwalletd sunucusundaki block’ları doğrusal olmayan bir sırayla işleyen bir compact-block senkronizasyon algoritması kullanarak çalışır. Bu da, bir sonraki block’a geçmeden önce tek bir block’un tamamen işlenmesini beklemek yerine, cüzdanların biraz daha fazla bellek ve işlem gücü kullanarak blokzincirin farklı bölümlerini tarayabilmesi anlamına gelir. Genellikle farklı aralıkları tarar; eski block’lar indirilip işlenirken daha yeni işlemleri arar. Yakın tarihli, harcanmamış bir note bulunursa, hemen kullanılabilir hale getirilir.
 
 <a href="">
-    <img src="/content-images/363d08df-b7b7-461b-a386-251d9ad702ca-a857cd8385.webp" alt="" width="140" height="150"/>
+    <img src="https://github.com/ZecHub/zechub/assets/9355622/363d08df-b7b7-461b-a386-251d9ad702ca" alt="" width="140" height="150"/>
 </a>
 
 ### Blaze Sync
@@ -67,7 +67,7 @@ Bir Zcash cüzdanındaki note’lar, witness’lar ve nullifier’lar arasındak
 DAG, her kenarın iki node arasındaki ilişkiyi gösteren bir yön taşıdığı, node’lar ve kenarlardan oluşan bir veri yapısıdır. DAG’de döngü bulunmaz; yani bir node’dan başlayıp kenarları takip ederek tekrar aynı node’a dönmenin bir yolu yoktur.
 
 <a href="">
-    <img src="/content-images/eee7e08d-5c98-4c88-a48e-12f7a92a195f-316493530f.webp" alt="" width="110" height="230"/>
+    <img src="https://github.com/ZecHub/zechub/assets/9355622/eee7e08d-5c98-4c88-a48e-12f7a92a195f" alt="" width="110" height="230"/>
 </a>
 
 ## Pratik Sonuçlar

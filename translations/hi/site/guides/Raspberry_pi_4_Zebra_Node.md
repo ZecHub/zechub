@@ -4,7 +4,7 @@
 
 # Zebra चलाने के लिए Raspberry Pi 4 गाइड
 
-<img src="/content-images/image-2023-11-28-172907488-e7e9fd4ac5.webp" alt="raspberry pi" width="300" height="300"/>
+<img src="https://i.ibb.co/V3rjKwv/image-2023-11-28-172907488.png" alt="raspberry pi" width="300" height="300"/>
 
 Raspberry Pi 4 पर Zebra node software चलाने से आप Zcash network में एक स्वतंत्र, consensus-compatible node के रूप में भाग ले सकते हैं। यह गाइड आपको अपने Raspberry Pi 4 पर Zebra को सेट अप और चलाने के चरणों से परिचित कराएगी।
 
@@ -67,7 +67,7 @@ Raspberry Pi 4 पर Zebra node software चलाने से आप Zcash ne
 7. __Monitoring__  
    आप web browser खोलकर और __http://127.0.0.1:8233/status__ पर जाकर अपने Zebra node की प्रगति और स्थिति की निगरानी कर सकते हैं।
 
-<img src="/content-images/image-2023-11-28-173024853-99540511cf.webp" alt="zebra logo" width="200" height="200"/>
+<img src="https://i.ibb.co/BCtKrGp/image-2023-11-28-173024853.png" alt="zebra logo" width="200" height="200"/>
 
 ## समस्या निवारण
 

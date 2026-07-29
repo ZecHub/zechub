@@ -37,25 +37,25 @@ __افتح Ywallet/Zingo/Zashi/eZcash__: شغّل المحفظة التي تخت
 
 بالنسبة إلى Ywallet، ستجده في أيقونة الترس في الزاوية العلوية اليمنى - انتقل إلى تبويب Zcash. 
 
-![SmartSelect_20250313_105128](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
+![SmartSelect_20250313_105128](https://github.com/user-attachments/assets/b0a2910b-dbdf-4292-8e69-af5a386aa183)
 
 #### Zingo:
 
 بالنسبة إلى Zingo، ستجده في قائمة الهامبرغر في الزاوية العلوية اليسرى، ثم انقر على الإعدادات ومرّر إلى الأسفل
 
-![SmartSelect_20250313_105737_Zingo](/content-images/ea8f7672-e644-41a5-a422-db131740404a-2626f5fa79.webp)
+![SmartSelect_20250313_105737_Zingo](https://github.com/user-attachments/assets/ea8f7672-e644-41a5-a422-db131740404a)
 
 #### Zashi:
 
 بالنسبة إلى Zashi، ستجده في أيقونة الترس في الزاوية العلوية اليمنى - انتقل إلى الإعدادات المتقدمة، ثم اختر خادمًا
 
-![SmartSelect_20250313_110200_Zashi](/content-images/5a9d050a-8308-4cc2-907e-513072066aed-0bd414d520.webp)
+![SmartSelect_20250313_110200_Zashi](https://github.com/user-attachments/assets/5a9d050a-8308-4cc2-907e-513072066aed)
 
 #### eZcash
 
 بالنسبة إلى eZcash، ستجده في قائمة الهامبرغر في الزاوية العلوية اليسرى، ثم انقر على Settings، واضغط على Advanced
 
-![SmartSelect_20250313_110616](/content-images/655c0172-61a0-4322-b8cf-4eee4bb53b51-0b93df2e71.webp)
+![SmartSelect_20250313_110616](https://github.com/user-attachments/assets/655c0172-61a0-4322-b8cf-4eee4bb53b51)
 
 
 ## الخلاصة

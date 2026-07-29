@@ -11,32 +11,32 @@ Free2Z iliibuka kama jukwaa linalolenga faragha lililojengwa kuwezesha wabunifu 
 * Kwanza, kuunda akaunti kwenye tovuti yao rasmi [https://free2z.cash](https://free2z.cash).
 * Locate the login button at the top right corner of the page. Enter your credentials. You can also create an account with your email address or X account.
 
-![](/content-images/IMG-9351-6cb6b07d52.webp)
+![](https://i.ibb.co/VWhmwy4s/IMG-9351.jpg)
 
 * Big pongezi juu ya kuwa sehemu ya jamii! Sasa ni wakati wa kubinafsisha profile yako kwa kupakia avatar, bango, na maelezo ya wewe ni nani na nini kufanya.
 
-![](/content-images/IMG-9360-5deeba8c68.webp)
+![](https://i.ibb.co/yBFPnr17/IMG-9360.jpg)
 
 * Hakikisha pia kuongeza anwani yako ya Zcash kwenye uwanja wa mkoba kwa michango na vidokezo kutoka kwa wafuasi.
 
-![](/content-images/IMG-9361-5c9ce21046.webp)
+![](https://i.ibb.co/qLLKCr34/IMG-9361.jpg)
 
 MAMBO YA KUFIKIRIA
 
 **ZPages:** ZPages inaruhusu waundaji kushiriki kazi zao zilizoandikwa na jamii pana. Kipengele kimoja cha kuvutia sana cha kuandika kwenye jukwaa hili ni kwamba watazamaji wako wanaweza kuunga mkono kazi yako kupitia michango, ambayo ni njia nzuri ya kuonyesha shukrani.
 
-![](/content-images/IMG-9365-e14bce4613.webp)
+![](https://i.ibb.co/BKyx1xc0/IMG-9365.jpg)
 
 **Kujua 2Zs**
 
 Hizi ni pointi zenye thamani ya $ 0.01 kwenye jukwaa. Kwa 2Zs, watu wanaweza kusaidia ubunifu wao wa kupenda kupitia michango na usajili. Wanaweza pia kushiriki katika shughuli za jamii kama vile kupiga kura, kutoa maoni kwenye ZPages, kuongeza yaliyomo, na huduma za mkondo wa moja kwa moja.
 
-![](/content-images/IMG-9370-4264be0de0.webp)
+![](https://i.ibb.co/1G9YyMz7/IMG-9370.jpg)
 
 Kupitia michango, usajili, na matangazo ya moja kwa moja ya kulipia, unaweza kupata 2Zs. Unaweza pia kununua pointi kadhaa na ZEC kwa kuchanganua nambari yako ya QR.
 
-![](/content-images/IMG-9381-2d8e6d7454.webp)
-![](/content-images/IMG-9379-6ca5049e12.webp)
+![](https://i.ibb.co/JjpCHK9N/IMG-9381.jpg)
+![](https://i.ibb.co/HLJDbFwX/IMG-9379.jpg)
 
 ** Jinsi ya Kuanza LiveStream**
 
@@ -49,15 +49,15 @@ Click on your profile icon, and a drop-down list will appear. Select "Stream" an
 
 Chaguo hili linaahidi kutoa encryption ya mwisho hadi mwisho, mikutano ya kibinafsi, na kiunga cha mkutano wa kipekee ambacho kinaweza kutumwa kwa washiriki.
 
-![](/content-images/IMG-9374-c374bec27e.webp)
+![](https://i.ibb.co/zTnTHXLz/IMG-9374.jpg)
 
 Nini zaidi unaweza kupata kutoka livestream?
 
 Free2Z livestream inatoa baadhi ya perks kipekee, kama vile uchaguzi kwa ajili ya kufanya maamuzi na Plugins kama vile kushiriki hati na whiteboard, ambayo ni kamili kwa mawasilisho, kushiriki screen, mazungumzo, na mengi zaidi!
 
-![](/content-images/IMG-9375-00d4b67876.webp)
-![](/content-images/IMG-9377-58999b233c.webp) 
+![](https://i.ibb.co/2m17ttc/IMG-9375.jpg)
+![](https://i.ibb.co/HfnTFFxs/IMG-9377.jpg) 
 
 Hii ni nini live Streaming kikao inaonekana kama juu ya Free2Z
 
-![](/content-images/Screenshot-2025-05-25-053026-868bec29a2.webp)
+![](https://i.ibb.co/SwzQ6wPw/Screenshot-2025-05-25-053026.png)

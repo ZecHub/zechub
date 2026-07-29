@@ -11,32 +11,32 @@ Free2Z는 창작자들이 세계에 자신의 콘텐츠를 보여주고 Zcash라
 * 첫째, 공식 웹사이트 [https://free2z.cash](https://free2z.cash)에서 계정을 생성하세요.
 * 페이지 상단 오른쪽 모서리의 로그인 버튼을 찾고, 자격 증명을 입력하세요. 이메일 주소나 X 계정으로도 계정을 만들 수 있습니다.
 
-![](/content-images/IMG-9351-6cb6b07d52.webp)
+![](https://i.ibb.co/VWhmwy4s/IMG-9351.jpg)
 
 * 커뮤니티의 일원이 되셨습니다! 축하합니다. 이제 프로필을 개인화하기 위해 아바타, 배너 및 자신에 대해 소개하는 설명을 업로드하세요.
 
-![](/content-images/IMG-9360-5deeba8c68.webp)
+![](https://i.ibb.co/yBFPnr17/IMG-9360.jpg)
 
 * 또한, 지지자로부터 기부금과 팁을 받기 위해 지갑 필드에 Zcash 주소를 추가하세요.
 
-![](/content-images/IMG-9361-5c9ce21046.webp)
+![](https://i.ibb.co/qLLKCr34/IMG-9361.jpg)
 
 **기능**
 
 **ZPages:** ZPages는 창작자가 더 넓은 커뮤니티와 자신의 글을 공유할 수 있도록 합니다. 이 플랫폼에서 글을 쓰는 가장 흥미로운 점 중 하나는 독자들이 기부를 통해 작품을 지원할 수 있다는 것입니다. 이는 창작자의 작품에 대한 감사의 표현으로 매우 좋습니다.
 
-![](/content-images/IMG-9365-e14bce4613.webp)
+![](https://i.ibb.co/BKyx1xc0/IMG-9365.jpg)
 
 **2Zs란 무엇인가요?**
 
 플랫폼에서 $0.01 가치를 가진 포인트입니다. 2Zs는 창작자들을 지원하기 위해 기부금과 구독을 통해 사용할 수 있으며, 투표, ZPages에 댓글 달기, 콘텐츠 홍보 및 라이브 스트리밍 기능 같은 커뮤니티 활동에도 참여할 수 있습니다.
 
-![](/content-images/IMG-9370-4264be0de0.webp)
+![](https://i.ibb.co/1G9YyMz7/IMG-9370.jpg)
 
 기부금, 구독, 페이퍼뷰 라이브 스트리밍을 통해 2Zs를 얻을 수 있으며, QR 코드를 스캔하여 ZEC로 일부 포인트를 구매할 수도 있습니다.
 
-![](/content-images/IMG-9381-2d8e6d7454.webp)
-![](/content-images/IMG-9379-6ca5049e12.webp)
+![](https://i.ibb.co/JjpCHK9N/IMG-9381.jpg)
+![](https://i.ibb.co/HLJDbFwX/IMG-9379.jpg)
 
 **라이브 스트리밍을 시작하는 방법**
 
@@ -49,15 +49,15 @@ Free2Z는 창작자들이 세계에 자신의 콘텐츠를 보여주고 Zcash라
 
 이 옵션은 끝에서 끝까지 암호화된 통신, 프라이버시 보장 회의 및 참가자에게 전송할 수 있는 고유한 회의 링크를 제공합니다.
 
-![](/content-images/IMG-9374-c374bec27e.webp)
+![](https://i.ibb.co/zTnTHXLz/IMG-9374.jpg)
 
 **라이브 스트리밍에서 더 무엇을 얻을 수 있나요?**
 
 Free2Z 라이브 스트리밍은 의사결정 투표와 문서 공유, 화이트보드 등과 같은 플러그인 기능을 제공하여 발표, 스크린 공유, 채팅 및 기타 다양한 활동에 완벽하게 적합합니다.
 
-![](/content-images/IMG-9375-00d4b67876.webp)
-![](/content-images/IMG-9377-58999b233c.webp) 
+![](https://i.ibb.co/2m17ttc/IMG-9375.jpg)
+![](https://i.ibb.co/HfnTFFxs/IMG-9377.jpg) 
 
 이것은 Free2Z에서 라이브 스트리밍 세션의 모습입니다.
 
-![](/content-images/Screenshot-2025-05-25-053026-868bec29a2.webp)
+![](https://i.ibb.co/SwzQ6wPw/Screenshot-2025-05-25-053026.png)

@@ -28,7 +28,7 @@ Computer science में efficiently verifiable proofs के लिए प्
 
 
 <a href="">
-    <img width="853" height="396" alt="NPlanguage1" src="/content-images/d25345cf-e958-4ce2-b01d-f4e7f2db9551-1ac56e56d7.webp" alt="" width="600" height="400"/>
+    <img width="853" height="396" alt="NPlanguage1" src="https://github.com/user-attachments/assets/d25345cf-e958-4ce2-b01d-f4e7f2db9551" alt="" width="600" height="400"/>
 </a>
 
 
@@ -47,7 +47,7 @@ Soundness: झूठे claims के लिए कोई proof नहीं ह
 
 
 <a href="">
- <img width="855" height="399" alt="IPmodel1" src="/content-images/1542be12-d3fd-4934-8413-0d16f95b8d10-58bfcb4059.webp" alt="" width="600" height="400"/>
+ <img width="855" height="399" alt="IPmodel1" src="https://github.com/user-attachments/assets/1542be12-d3fd-4934-8413-0d16f95b8d10" alt="" width="600" height="400"/>
 </a>
 
 
@@ -86,7 +86,7 @@ Real View: Prover और Verifier (P,V) के बीच interactions की स
 Simulated View: verifier, Prover और Verifier के बीच सभी संभावित interactions को simulate करता है 
 
 <a href="">
-    <img width="850" height="397" alt="simulation1" src="/content-images/0e68649d-a231-44d8-a76a-25a307f68b9e-ba1f0027cf.webp"  alt="" width="600" height="400"/>
+    <img width="850" height="397" alt="simulation1" src="https://github.com/user-attachments/assets/0e68649d-a231-44d8-a76a-25a307f68b9e"  alt="" width="600" height="400"/>
 </a>
 
 एक polynomial-time distinguisher यह निर्धारित करने का प्रयास करता है कि वह real view देख रहा है या simulated view, और वह दोनों से बार-बार sample माँगता है।
@@ -117,7 +117,7 @@ Interactive Protocols तब उपयोगी होते हैं जब �
 
 
 <a href="">
-<img width="785" height="368" alt="circuit1" src="/content-images/be1de1d6-60d3-4fd1-b9a2-5094c65d696f-dbd3177247.webp" alt="" width="300" height="200"/>
+<img width="785" height="368" alt="circuit1" src="https://github.com/user-attachments/assets/be1de1d6-60d3-4fd1-b9a2-5094c65d696f" alt="" width="300" height="200"/>
 </a>
 
 इस उदाहरण में, prover verifier को यह विश्वास दिलाना चाहता है कि वह arithmetic circuit का एक solution जानता है।  
@@ -143,7 +143,7 @@ Polynomial interactive oracle: Verifier, prover (algorithm) से polynomial co
 Setup procedures verifier की सहायता करती हैं, circuit का सार प्रस्तुत करके और public parameters output करके। 
 
 <a href="">
-<img width="845" height="398" alt="setup1" src="/content-images/c41212ca-b5e9-4ac8-8695-be612c45a679-80a6a87752.webp" alt="" width="600" height="300"/>
+<img width="845" height="398" alt="setup1" src="https://github.com/user-attachments/assets/c41212ca-b5e9-4ac8-8695-be612c45a679" alt="" width="600" height="300"/>
 </a>
 
 **Pre-processing setup के प्रकार**:
@@ -186,7 +186,7 @@ zk-SNARKS विभिन्न प्रकार के applications में
 Proof आधारित Rollup (zk-Rollup) service का लाभ यह है कि यह सैकड़ों/हज़ारों transactions के batch को process कर सकती है और L1 यह verify कर सकता है कि सभी transactions सही ढंग से process किए गए, इसके लिए केवल एक succinct proof की आवश्यकता होती है, जिससे network की transaction throughput 100 या 1000 गुना तक बढ़ सकती है।
 
 <a href="">
-  <img width="606" height="336" alt="zkvm1" src="/content-images/a3cbb5c9-8767-4b34-9fcb-868ca421838f-d69b264b5b.webp" width="600" height="300"/>
+  <img width="606" height="336" alt="zkvm1" src="https://github.com/user-attachments/assets/a3cbb5c9-8767-4b34-9fcb-868ca421838f" width="600" height="300"/>
 </a>
 
 

@@ -1,5 +1,5 @@
 ## [ZODL](https://zodl.com)
-[Àmì ọ̀pá àṣẹ]](/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp "ZODL")
+[Àmì ọ̀pá àṣẹ]](https://github.com/user-attachments/assets/198608b2-9059-4cb7-aeb8-9354971376fd "ZODL")
 - Àwọn ohun èlò: Ẹrọ alágbèéká
 - Ètò ìṣiṣẹ́: Android  iOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
@@ -9,7 +9,7 @@
 ---
 
 ## [Ywallet](https://ywallet.app/installation/)
-[Àmì ọ̀pá àṣẹ]](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
 - Àwọn ohun èlò: Ẹrọ alágbèéká  Desktop
 - Ètò ìṣiṣẹ́: Android  iOS  Windows  Linux  macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
@@ -19,7 +19,7 @@
 ---
 
 ## [Dizzy](https://youtu.be/IVkuo1CGPBU)
-[Àmì ọ̀pá àṣẹ]](/content-images/Dizzy-3-1a90249591.webp "Dizzy")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/FH918w9/Dizzy-3.png "Dizzy")
 - Àwọn ohun èlò: Ẹrọ alágbèéká  Desktop
 - Ètò ìṣiṣẹ́: Android  iOS  Windows  Linux  macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
@@ -29,7 +29,7 @@
 ---
 
 ## [Zingo!](https://www.zingolabs.org/)
-[Àmì ọ̀pá àṣẹ]](/content-images/zingocard-9a2546668d.webp "Zingo!")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
 - Àwọn ohun èlò: Ẹrọ alágbèéká  Desktop
 - Ètò ìṣiṣẹ́: Android  iOS  Windows  Linux
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
@@ -39,7 +39,7 @@
 ---
 
 ## [Orí](https://edge.app)
-[Àmì ọ̀pá àṣẹ]](/content-images/image-2024-11-28-091312254-b2389ad332.webp "Edge")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/4FVQLS9/image-2024-11-28-091312254.png "Edge")
 - Àwọn ohun èlò: Ẹrọ alágbèéká
 - Ètò ìṣiṣẹ́: Android  iOS
 - Wallet Support: Seed Phrase | Unified Address
@@ -49,7 +49,7 @@
 ---
 
 ## [Kò ṣeé dá dúró](https://unstoppable.money)
-[Àmì ọ̀pá àṣẹ]](/content-images/image-2024-11-28-091200540-815817fda7.webp "Unstoppable")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/C68mFCx/image-2024-11-28-091200540.png "Unstoppable")
 - Àwọn ohun èlò: Ẹrọ alágbèéká
 - Ètò ìṣiṣẹ́: Android  iOS
 - Wallet Support: Seed Phrase | Unified Address
@@ -59,7 +59,7 @@
 ---
 
 ## [eZcash](https://blog.nerdbank.net/ezcash-app)
-[Àmì ọ̀pá àṣẹ]](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
 - Àwọn ohun èlò: Ẹrọ alágbèéká  Desktop
 - Ẹrọ isẹ: Android  iOS  Windows
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
@@ -69,7 +69,7 @@
 ---
 
 ## [Zkool](https://github.com/hhanh00/zkool2/)
-[Àmì ọ̀pá àṣẹ]](/content-images/zkool-1-22ab388e65.webp "Zkool")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/BHGPff0K/zkool-1.png "Zkool")
 - Àwọn ohun èlò: Ẹrọ alágbèéká  Desktop
 - Ètò ìṣiṣẹ́: Android  iOS  Windows  Linux
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
@@ -79,7 +79,7 @@
 ---
 
 ## [Àkàrà](https://cakewallet.com/install/)
-[Àmì ọ̀pá àṣẹ]](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
+[Àmì ọ̀pá àṣẹ]](https://github.com/user-attachments/assets/a8234c70-3714-4e80-b918-8739d45aea00 "Cake")
 - Àwọn ohun èlò: Ẹrọ alágbèéká  Desktop 
 - Ètò ìṣiṣẹ́: Android  iOS  Windows  Linux  macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
@@ -89,7 +89,7 @@
 ---
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
-[Àmì ọ̀pá àṣẹ]](/content-images/zenith-2-cea75a34fd.webp "Zenith")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/VtPBnm6/zenith-2.png "Zenith")
 - Awọn ẹrọ: Desktop
 - Ẹ̀rọ ìṣiṣẹ́: Windows Linux macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
@@ -99,7 +99,7 @@
 ---
 
 ## [Zingo-CLI](https://github.com/zingolabs/zingolib)
-[Àmì ọ̀pá àṣẹ]](/content-images/zingocard-9a2546668d.webp "Zingo-CLI")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo-CLI")
 - Awọn ẹrọ: Desktop
 - Ẹ̀rọ ìṣiṣẹ́: Windows Linux macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
@@ -109,7 +109,7 @@
 ---
 
 ## [Ìpínlẹ̀ Zallet](https://github.com/zcash/wallet)
-[Àmì ọ̀pá àṣẹ]](/content-images/Brandmark-Yellow-2eca7f6f68.webp "Zallet")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/3mCrR0dN/Brandmark-Yellow.png "Zallet")
 - Awọn ẹrọ: Desktop
 - Ẹ̀rọ ìṣiṣẹ́: Windows Linux macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
@@ -119,7 +119,7 @@
 ---
 
 ## [Zcashd](https://github.com/zcash/zcash)
-[Àmì ọ̀pá àṣẹ]](/content-images/zcashd-92df3291ad.webp "Zcashd")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/Xz2NskW/zcashd.png "Zcashd")
 - Awọn ẹrọ: Desktop
 - Ẹ̀rọ ìṣiṣẹ́: Windows Linux macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
@@ -129,7 +129,7 @@
 ---
 
 ## [Ìgboyà](https://brave.com/web3-privacy/)
-[Àmì ọ̀pá àṣẹ]](/content-images/image-2024-01-13-170934865-733c5d91c6.webp "Brave")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/6yqMNwZ/image-2024-01-13-170934865.png "Brave")
 - Àwọn ohun èlò: Ìkànnì
 - Ètò Ṣiṣẹ́: Àwòrán-ìwòwòwò
 - Wallet Support: Seed Phrase | Unified Address
@@ -139,7 +139,7 @@
 ---
 
 ## [Àdàkọ Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
-[Àmì ọ̀pá àṣẹ]](/content-images/metamask-25048569f6.webp  "Metamask")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/jn5t9Gy/metamask.png  "Metamask")
 - Àwọn ohun èlò: Ìkànnì
 - Ètò Ṣiṣẹ́: Àwòrán-ìwòwòwò
 - Wallet Support: Seed Phrase | Unified Address
@@ -149,7 +149,7 @@
 ---
 
 ## [Zucchini](https://zucchinifi.xyz/)
-[Àmì ọ̀pá àṣẹ]](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
+[Àmì ọ̀pá àṣẹ]](https://github.com/user-attachments/assets/91a1005a-3daf-4747-9442-c178cbe50e49 "Zucchini")
 - Àwọn ohun èlò: Ìkànnì 
 - Ètò Ṣiṣẹ́: Àwòrán-ìwòwòwò
 - Wallet Support: Seed Phrase | Unified Address
@@ -159,7 +159,7 @@
 ---
 
 ## [SSP Wallet](https://sspwallet.io)
-[Àmì ọ̀pá àṣẹ]](/content-images/ssp-1-7d96e66117.webp "SSP Wallet")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/X3hdfSY/ssp-1.png "SSP Wallet")
 - Àwọn ohun èlò: Ẹrọ alágbèéká  Web
 - Ẹrọ isẹ: Android  iOS  aṣàwákiri
 - Ìtìlẹ́yìn àpamọ́: Ọ̀rọ̀-ìmọ̀ ọ̀rọ̀
@@ -169,7 +169,7 @@
 ---
 
 ## [Ìfọkànbalẹ̀ Àpamọ́](https://trustwallet.com/download)
-[Àmì ọ̀pá àṣẹ]](/content-images/trustwallet-bec43acb59.webp "Trust Wallet")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/cNqxBJ1/trustwallet.png "Trust Wallet")
 - Àwọn ohun èlò: Ẹrọ alágbèéká  Web
 - Ẹrọ isẹ: Android  iOS  aṣàwákiri
 - Ìtìlẹ́yìn àpamọ́: Ọ̀rọ̀-ìmọ̀ ọ̀rọ̀
@@ -179,7 +179,7 @@
 ---
 
 ## [Ẹ́kísódù](https://www.exodus.com/zcash-wallet-zec)
-[Àmì ọ̀pá àṣẹ]](/content-images/exoduscard-2f77769db0.webp "Exodus")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/w0NNZNp/exoduscard.png "Exodus")
 - Àwọn ohun èlò: Ẹrọ alágbèéká  Dísíkò  Ìkànnì
 - Ẹ̀rọ ìṣiṣẹ́: Android  iOS  Windows  Linux  macOS  Àwákiri
 - Ìtìlẹ́yìn àpamọ́: Ọ̀rọ̀-ìmọ̀ ọ̀rọ̀
@@ -189,7 +189,7 @@
 ---
 
 ## [Coinomi](https://www.coinomi.com/en/downloads)
-[Àmì ọ̀pá àṣẹ]](/content-images/coinomicard-226bcbf876.webp "Coinomi")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/QfHmjWY/coinomicard.png "Coinomi")
 - Àwọn ohun èlò: Ẹrọ alágbèéká  Desktop
 - Ẹrọ isẹ: Android  iOS  Windows
 - Ìtìlẹ́yìn àpamọ́: Ọ̀rọ̀-ìmọ̀ ọ̀rọ̀
@@ -199,7 +199,7 @@
 ---
 
 ## [Keystone](https://shop.keyst.one)
-[Àmì ọ̀pá àṣẹ]](/content-images/Keystone-1-8177a83308.webp "Keystone")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/c1gn635/Keystone-1.png "Keystone")
 - Àwọn ohun èlò:
 - Ètò Ṣiṣẹ́:
 - Wallet Support: Hardware | Unified Address
@@ -209,7 +209,7 @@
 ---
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
-[Àmì ọ̀pá àṣẹ]](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/2qX6WCF/Desktop-Wallets.png "Ledger")
 - Àwọn ohun èlò: 
 - Ètò Ṣiṣẹ́:
 - Ìtìlẹ́yìn àpamọ́: Ẹ̀rọ alágbèéká
@@ -219,7 +219,7 @@
 ---
 
 ## [Safepal](https://safepal.com)
-[Àmì ọ̀pá àṣẹ]](/content-images/safepalcard-176b24c751.webp "Safepal")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/h29h6d0/safepalcard.png "Safepal")
 - Àwọn ohun èlò: Ẹrọ alágbèéká  Web
 - Ẹrọ isẹ: Android  iOS  aṣàwákiri
 - Ìtìlẹ́yìn àpamọ́ owó: Àkọlé gbólóhùn  Ohun èlò
@@ -229,7 +229,7 @@
 ---
 
 ## [Olùṣúra](https://trezor.io/learn/a/zcash-zec)
-[Àmì ọ̀pá àṣẹ]](/content-images/trezor1-5004075d27.webp "Trezor")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/twLMCgzW/trezor1.png "Trezor")
 - Àwọn ohun èlò:
 - Ètò Ṣiṣẹ́:
 - Ìtìlẹ́yìn àpamọ́: Ẹ̀rọ alágbèéká
@@ -239,7 +239,7 @@
 ---
 
 ## [Vultisig](https://vultisig.com)
-[Àmì ọ̀pá àṣẹ]](/content-images/vultisig-713626c5ba.webp "Vultisig")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/93wSrxCc/vultisig.png "Vultisig")
 - Àwọn ohun èlò: Wẹ́ẹ̀bù  Ẹrọ alágbèéká  Ètò orí kọǹpútà
 - Ẹ̀rọ ìṣiṣẹ́: Android  iOS  Windows  Linux  macOS  Àwákiri
 - Àwọn ìsọ̀rí: Òróró
@@ -248,7 +248,7 @@
 ---
 
 ## [Ojú-ìwòran](https://vizor.cash/)
-[Àmì ọ̀pá àṣẹ]](/content-images/Vizorphoto-6ade2417a5.webp "Vizor")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/zhW2d2fV/Vizorphoto.png "Vizor")
 - Awọn ẹrọ: Desktop  Òpó alágbèéká
 - Ètò ìṣiṣẹ́: macOS
 - Wallet Support: Seed Phrase | Unified Address | Hardware
@@ -258,7 +258,7 @@
 ---
 
 ## [Àpamọ́ dúdú](https://www.zknoir.com/)
-[Àmì ọ̀pá àṣẹ]](/content-images/Noirwallet-8589fe34e4.webp "Noir")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/23RkRZZS/Noirwallet.png "Noir")
 - Àwọn ohun èlò: Ìkànnì  Dísíkò
 - Ètò Ṣiṣẹ́: Àwòrán-ìwòwòwò
 - Àwọn adágún: Aṣọ́.
@@ -267,7 +267,7 @@
 ---
 
 ## [LeoDex]](https://leodex.io/)
-[Àmì ọ̀pá àṣẹ]](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/3YjpzYnH/Leo-Dexwallet.png "LeoDex")
 - Àwọn ohun èlò: Ìkànnì  Dísíkò
 - Ẹ̀rọ ìṣiṣẹ́: Àwòrán aṣàwákiri Windows  MacOS
 - Ìrànlọ́wọ́ àpamọ́ owó: Oríṣun àwòrán, Seed Phrase  Àpamọ̀ owó ìta  Adirẹsi gbígba  Àkọlé QR  Ohun èlò
@@ -277,7 +277,7 @@
 ---
 
 ## [Ìsọfúnni láti Zapp](https://www.justzappit.xyz/app)
-[Àmì ọ̀pá àṣẹ]](/content-images/zapp-1-a6fa468edb.webp "Zapp")
+[Àmì ọ̀pá àṣẹ]](https://i.ibb.co/mr8rF8y2/zapp-1.png "Zapp")
 - Àwọn ohun èlò: Ẹrọ alágbèéká 
 - Ètò Ìṣiṣẹ́: Android 
 - Wallet Support: Unified Address 

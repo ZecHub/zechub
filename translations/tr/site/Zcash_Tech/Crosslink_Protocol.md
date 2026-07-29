@@ -4,7 +4,7 @@
 
 Crosslink Protokolü, Zcash'in evriminde dönüm noktası niteliğinde bir gelişmedir ve onu **Hibrit Proof-of-Stake (PoS)** ve **Proof-of-Work (PoW)** modeline doğru yönlendirmektedir. Geleneksel PoW, ağ güvenliğini sağlama konusunda güvenilir olsa da, enerji tüketimi ve endüstriyel madencilikle ilişkili merkezileşme riskleri nedeniyle eleştirilmektedir. Crosslink, kanıtlanmış PoW dayanıklılığını PoS'un verimlilik ve yönetişim avantajlarıyla birleştiren hibrit bir sistem sunar.
 
-![image](/content-images/a2ffb19d-e570-4723-b669-a66e14fc6b71-a727c958de.webp)
+![image](https://github.com/user-attachments/assets/a2ffb19d-e570-4723-b669-a66e14fc6b71)
 
 Bu geçiş, projelerin çevresel açıdan sürdürülebilir ve merkeziyetsiz mekanizmalara yöneldiği blokzincir inovasyonundaki küresel eğilimlerle uyumludur. Crosslink'in ikili konsensüs modeli, Zcash'in güçlü kriptografik gizlilik garantilerini korumasını sağlarken çağdaş zorluklara uyum sağlayacak şekilde gelişmesine olanak tanır.
 
@@ -24,7 +24,7 @@ Crosslink protokolü, Zcash için hibrit Proof-of-Work/Proof-of-Stake (PoW/PoS) 
 
 Uygulama planı, Crosslink 2*'nin Zcash'in Zebra istemcisine entegre edilmesi için tahmini mühendislik maliyetlerini içeren bir yol haritası içerir. Bu aşamalı dağıtım, paydaş teşviklerini dengelemeye, kesintiyi azaltmaya ve Zcash'in ölçeklenebilirlik, kullanılabilirlik ve merkeziyetsizlik hedefleriyle uyum sağlamaya odaklanır. Protokolün sağlam güvenlik özelliklerine duyulan artan güven, onun Zcash evrimindeki önemli bir adım olma potansiyelini daha da pekiştirir. Enerji verimliliğini ele alıp konsensüs mekanizmalarını geliştirerek Crosslink, gelişen blokzincir zorluklarına ileriye dönük bir çözüm sunar. Daha fazla ayrıntı için [GitHub repository](https://github.com/ShieldedLabs/crosslink-deployment) ve [Zcash Community Forum](https://forum.zcashcommunity.com) bağlantılarına bakın.
 
-![image](/content-images/b34afda4-fe33-448f-b0dd-279fd6cef1f5-73f58cdcc6.webp)
+![image](https://github.com/user-attachments/assets/b34afda4-fe33-448f-b0dd-279fd6cef1f5)
 
 
 #### **Crosslink'in Amaçları ve Hedefleri**
@@ -55,7 +55,7 @@ Crosslink protokolü, Zcash için iki tür defter sunmayı amaçlar: **kesinleş
 
 Daha düşük gecikmeli defter, kesinleştirilmiş defteri en fazla *L* blok kadar genişletir. Yalnızca blokzincir protokolü kapsamında geri alma güvenliği sağlar ve mevcut Zcash modelinden daha kötü olmayan gecikme ve güvenliği korur. Sadeleştirilmiş Crosslink 2* tasarımında, daha düşük gecikmeli defter bir PoW zinciri olarak çalışarak geliştirmeyi ve benimsemeyi basitleştirir.
 
-![image](/content-images/fd039664-4852-4fb0-8c88-0615f1ed116e-41459b81dc.webp)
+![image](https://github.com/user-attachments/assets/fd039664-4852-4fb0-8c88-0615f1ed116e)
 
 
 ### Sınırlı Kullanılabilirlik ve Güvenlik Modu

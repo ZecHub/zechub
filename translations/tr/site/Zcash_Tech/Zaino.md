@@ -17,13 +17,13 @@ Ayrıca Zaino, RPC erişimi ve eksiksiz bir istemci kütüphanesi aracılığıy
 ## Zaino'nun nasıl çalıştığını gösteren bazı diyagramlar
 
 ### Zaino İç Mimari
-![Zaino Internal Architecture](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
+![Zaino Internal Architecture](https://i.ibb.co/mRTNtfy/image-2025-01-02-190143429.png)
 
 ### Zaino Canlı Hizmet Mimarisi
-![Zebra Live Service Architecture](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
+![Zebra Live Service Architecture](https://i.ibb.co/x7dbRY8/image-2025-01-02-190349017.png)
 
 ### Zaino Sistem Mimarisi
-![Zaino System Architecture](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
+![Zaino System Architecture](https://i.ibb.co/wwL0XZv/image-2025-01-02-190448037.png)
 
 
 ## Nereden daha fazla bilgi edinebilirim?

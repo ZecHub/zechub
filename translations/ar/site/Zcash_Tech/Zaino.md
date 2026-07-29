@@ -17,13 +17,13 @@ Rust هي لغة حديثة ومتينة وآمنة، تتيح لـ Zcash أن �
 ## بعض المخططات التي توضّح كيفية عمل Zaino
 
 ### البنية الداخلية لـ Zaino
-![البنية الداخلية لـ Zaino](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
+![البنية الداخلية لـ Zaino](https://i.ibb.co/mRTNtfy/image-2025-01-02-190143429.png)
 
 ### بنية الخدمة الحية لـ Zaino
-![بنية الخدمة الحية لـ Zebra](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
+![بنية الخدمة الحية لـ Zebra](https://i.ibb.co/x7dbRY8/image-2025-01-02-190349017.png)
 
 ### بنية نظام Zaino
-![بنية نظام Zaino](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
+![بنية نظام Zaino](https://i.ibb.co/wwL0XZv/image-2025-01-02-190448037.png)
 
 
 ## أين يمكنني معرفة المزيد؟

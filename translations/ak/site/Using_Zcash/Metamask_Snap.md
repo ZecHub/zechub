@@ -41,7 +41,7 @@ MetaMask seesei boa **shielded Zcash (ZEC)** denam **ChainSafe-developed Zcash S
       Store data on your device
    ```
 
-![Zcash-snap-a wɔde hyɛ mu](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
+![Zcash-snap-a wɔde hyɛ mu](https://hackmd.io/_uploads/Hy5MSG2Oex.png)
 
 
 ---
@@ -59,7 +59,7 @@ Sɛ wopɛ **BNB SmartChain** a;
 -  Block Explorer URL: https://bscscan.com
 ```
 Wei ma network info ne explorer links tumi yɛ adwuma.
-![Fa-a-asɛm-Net-ka ho....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
+![Fa-a-asɛm-Net-ka ho....](https://hackmd.io/_uploads/S1hq7f2Oel.png)
 
 Na **Zcash Mainnet** na ɛyɛ adwuma;
 ```markdown
@@ -75,13 +75,13 @@ Na **Zcash Mainnet** na ɛyɛ adwuma;
 1. Kɔ [webzjs.nkɔnsɔnkɔnsɔn.dev](https://webzjs.chainsafe.dev).  
 2. Klik **Fa MetaMask Snap no bata ho**. 
 
-![Zcash-wɛb-sikasɛm](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
+![Zcash-wɛb-sikasɛm](https://hackmd.io/_uploads/Sk8nSz3dgl.png)
 
 3. Pene nkitahodi no so. 
 4. Hwɛ wo Zcash akontaabu no mu nsɛm tiawa, a nea ɛka ho ne:
    - Address ahorow a wɔaka abom ne Address a ɛda adi pefee
 
-![Akontaabu-nsɛmti-unif....](/content-images/r17c_Mhdel-f4963826d5.webp)
+![Akontaabu-nsɛmti-unif....](https://hackmd.io/_uploads/r17c_Mhdel.jpg)
 
 
 5. Twɛn ma synchronization no nwie.
@@ -96,7 +96,7 @@ Na **Zcash Mainnet** na ɛyɛ adwuma;
 > **Swap ETH -> ZEC** - Fa nnwuma te sɛ **LeoDex** di dwuma na fa kɔ wo shielded address no so. 
 > **Exchange Withdrawal** - Twe ZEC a woatɔ no kɔ wo WebZjs address a wɔabɔ ho ban no so. 
 
-![LEODEX-NKYERƐKYERƐMU](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LEODEX-NKYERƐKYERƐMU](https://hackmd.io/_uploads/HyLQ0G2ugg.png)
 
 
 > => Fa address ahorow a wɔabɔ ho ban (z) di dwuma ma **kokoamsɛm a edi mũ**.
@@ -111,7 +111,7 @@ Na **Zcash Mainnet** na ɛyɛ adwuma;
    - Shielded recipient address  
    - Amount
 ```
-   ![Nneɛma a Wɔde Kɔma-Balance](/content-images/rkvcFfhdex-bd55d079eb.webp)
+   ![Nneɛma a Wɔde Kɔma-Balance](https://hackmd.io/_uploads/rkvcFfhdex.png)
 
 4. Si ayɔnkofa no so dua wɔ MetaMask (fa wo nsa hyɛ asɛm no ase). 
 5. Sika a wɔanya no bɛda adi wɔ WebZjs mu bere a wɔahyɛ no den akyi.
@@ -145,7 +145,7 @@ Na **Zcash Mainnet** na ɛyɛ adwuma;
    Transparent Address
 ``` 
 
-![Address-nneɛma](/content-images/SyPR2f2_gg-3907c5bf58.webp)
+![Address-nneɛma](https://hackmd.io/_uploads/SyPR2f2_gg.png)
 
 
 

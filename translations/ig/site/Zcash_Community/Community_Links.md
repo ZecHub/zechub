@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-174147713-63a42e536c.webp" alt="Alt Text" width="400"/> Zcash Community Links
+# <img src="https://i.ibb.co/qYhRbJM/image-2024-02-03-174147713.png" alt="Alt Text" width="400"/> Zcash Community Links
 
 The Zcash community is a vibrant group of people working towards making ZEC one of the most widely used privacy-preserving cryptocurrencies in the world. The community is made up of diverse individuals from all over the globe - developers, educators, advocates, and builders - united by a shared belief in financial privacy.
 
@@ -10,11 +10,11 @@ The Zcash community is a vibrant group of people working towards making ZEC one 
 
 ## Ebe ị ga-ahụ ndị òtù obodo
 
-### <img src="/content-images/image-2024-02-03-173937048-148e401d5e.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Telegram</span>
+### <img src="https://i.ibb.co/qBrb4qK/image-2024-02-03-173937048.png" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Telegram</span>
 
 The Zcash community is very active in its community <span translate="no" class="notranslate">Telegram</span>. Join to talk about the day-to-day, discuss news and updates, and meet fellow community members: [t.me/Zcash_Community](https://t.me/Zcash_Community)
 
-### <img src="/content-images/image-2024-02-03-174056252-8a6a76eabf.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Discord</span>
+### <img src="https://i.ibb.co/kxVwQxM/image-2024-02-03-174056252.png" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Discord</span>
 
 - [Zcash Global](https://discord.gg/zcash) - Isi ihe nkesa obodo
 - [Zcash R&D](https://discord.gg/xpzPR53xtU) - Nkwekọrịta na mkparịta ụka ndị mmepe
@@ -34,7 +34,7 @@ The Zcash community is very active in its community <span translate="no" class="
 
 The [Zcash Community Forum](https://forum.zcashcommunity.com/) is the hub for long-form discussions on Zcash - governance, grant proposals, technical debate, and ecosystem announcements. Now stewardship has transferred to the Zcash Foundation following ECC's transition to ZODL.
 
-### <img src="/content-images/image-2024-02-03-174240928-7a8f751301.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
+### <img src="https://i.ibb.co/mqKfr62/image-2024-02-03-174240928.png" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
 
 Zcash nwere ọnụnọ zuru ụwa ọnụ na X. Ihe ndekọ isi iji soro:
 

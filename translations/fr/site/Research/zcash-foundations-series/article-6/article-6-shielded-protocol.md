@@ -1,7 +1,7 @@
 # Le protocole shielded, de bout en bout
 ##### Recherche originale de [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![texte alternatif](/content-images/image-27-4094293ec0.webp)
+![texte alternatif](image-27.png)
 
 ### Assembler chaque pièce en une seule transaction privée Zcash
 
@@ -41,7 +41,7 @@ Voici toute la série sur une seule page, cartographiée de l'histoire de l'arti
 
 Tout ce qu'un utilisateur peut faire découle d'un unique secret, la **spending key**, à travers une hiérarchie à sens unique (chaque flèche est une dérivation irréversible, grâce aux fonctions pièges des articles 2 et 3) :
 
-![texte alternatif](/content-images/image-32-f443f9bb72.webp)
+![texte alternatif](image-32.png)
 
 Deux choses méritent d'être remarquées, toutes deux conséquences des articles précédents :
 
@@ -54,7 +54,7 @@ Deux choses méritent d'être remarquées, toutes deux conséquences des article
 
 Pour dépenser une note en privé, vous devez convaincre le réseau de quatre choses à la fois **sans révéler la note, sa valeur, sa position ni votre identité.** Chaque affirmation est satisfaite par un composant que vous connaissez déjà.
 
-![texte alternatif](/content-images/image-31-86309af194.webp)
+![texte alternatif](image-31.png)
 
 La preuve ne révèle **aucun** des faits sous-jacents (quelle note, quelle clé, quelle valeur). Elle révèle seulement que *les quatre affirmations sont vraies.* C'est toute l'astuce de Zcash shielded, énoncée dans un seul schéma.
 
@@ -92,7 +92,7 @@ Assemblons maintenant le paiement d'Alice à Bob. Nous utiliserons la structure 
 
 Plus une **binding signature** sur l'ensemble, qui impose l'équilibre de valeur (section 5).
 
-![texte alternatif](/content-images/image-30-98511eb2d0.webp)
+![texte alternatif](image-30.png)
 
 Suivez la confidentialité : le réseau a vérifié l'anchor, vérifié que le nullifier était inédit, vérifié la preuve, et vérifié l'équilibre. Il a accepté un paiement valide **sans apprendre aucun montant, aucune adresse, ni quelle note a été dépensée.** Pendant ce temps, le **nullifier** de la note dépensée (sa mort) et le nouveau **commitment** de Bob (la naissance de sa note) se trouvent dans deux structures publiques différentes sans lien visible entre eux, le lien coupé de l'article 0.
 
@@ -198,7 +198,7 @@ Les montants sont cachés, mais chacun est enveloppé dans un value commitment h
 
 Vous avez maintenant voyagé d'un simple paradoxe jusqu'à un paiement privé complet :
 
-![texte alternatif](/content-images/cd8bbb40-57b8-4854-b9cf-97f2485d126a-8847fae521.webp)
+![texte alternatif](https://github.com/user-attachments/assets/cd8bbb40-57b8-4854-b9cf-97f2485d126a)
 
 
 À partir d'ici, l'arc naturel suivant va plus loin : le fonctionnement interne de Groth16 et Halo 2, les cérémonies de trusted setup, les circuits Sapling et Orchard en détail, la dérivation des clés et les adresses diversifiées, ainsi que l'évolution du protocole à travers les network upgrades. Mais les fondations sont désormais en place, et chacun de ces sujets a maintenant un point d'ancrage auquel se rattacher.

@@ -4,7 +4,7 @@
 
 # Pɔmpiwo
 
-<img width="2138" height="878" alt="Screenshot_2025-10-30_10-36-45" src="/content-images/bba0da3b-7064-4680-9535-a0dfcf50cc00-1827fccf4b.webp" />
+<img width="2138" height="878" alt="Screenshot_2025-10-30_10-36-45" src="https://github.com/user-attachments/assets/bba0da3b-7064-4680-9535-a0dfcf50cc00" />
 
 
 Faucets nye dɔwɔƒe siwo naa cryptocurrency sue aɖewo femaxee. Zi geɖe la, dɔwɔlawo zãa wo tsɔ tea cryptocurrency kpɔna eye ezãlawo zãa wo tsɔ kpɔa cryptocurrency sue aɖewo evɔ mahiã be woaƒlee o. Zi geɖe la, woɖoa seɖoƒe na cryptocurrency agbɔsɔsɔme si ezãla ate ŋu axɔ hena ɣeyiɣi aɖe.

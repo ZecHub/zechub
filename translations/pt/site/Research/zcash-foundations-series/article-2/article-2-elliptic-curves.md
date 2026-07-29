@@ -1,7 +1,7 @@
 # Curvas Elípticas: Onde Nascem as Chaves e os Compromissos da Zcash
 ##### Pesquisa original de [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![texto alternativo](/content-images/image-10-c1097b22d7.webp)
+![texto alternativo](image-10.png)
 
 ### Uma rua de mão única construída a partir de pontos em uma curva
 
@@ -38,7 +38,7 @@ y^2 = x^3 + ax + b
 
 Sobre os números comuns, ela se parece com uma curva suave e ondulada, muitas vezes com um laço arredondado e duas caudas:
 
-![texto alternativo](/content-images/image-14-1d2e8c25d2.webp)
+![texto alternativo](image-14.png)
 
 A parte realmente surpreendente: **você pode "somar" dois pontos nessa curva para obter um terceiro ponto na mesma curva.** Isso não é a soma comum das coordenadas. É uma regra geométrica, e é mais fácil de *ver* do que de descrever.
 
@@ -50,7 +50,7 @@ Para somar `P + Q`:
 2. Essa linha atinge a curva em exatamente mais um ponto. Chame-o de `R*`.
 3. **Reflita `R*` em relação ao eixo horizontal.** Esse reflexo é a resposta, `P + Q`.
 
-![texto alternativo](/content-images/image-11-61f3df1989.webp)
+![texto alternativo](image-11.png)
 
 ### A regra da tangente (somando um ponto consigo mesmo)
 
@@ -117,7 +117,7 @@ Agora vem a mágica. Considere as duas direções:
 
 Essa assimetria é a **rua de mão única** de que precisávamos na Seção 1. O problema inverso ("qual `k` produziu este ponto?") é chamado de **Elliptic Curve Discrete Logarithm Problem (ECDLP)** e, nas curvas que a Zcash usa, nenhum método conhecido o resolve antes da morte térmica do universo.
 
-![texto alternativo](/content-images/image-12-86b9ace6cb.webp)
+![texto alternativo](image-12.png)
 
 > Em nossa curva de brinquedo `F_17` você *poderia* simplesmente ler `k` na tabela, porque ela só tem 19 pontos. Curvas reais têm algo em torno de `2^(255)` pontos. A tabela teria mais linhas do que há átomos no universo, então "ler na tabela" não é uma opção. O tamanho pequeno é o que torna a curva de brinquedo didática e também o motivo de ela não ser segura.
 
@@ -160,7 +160,7 @@ As marcas disso são concretas e verificáveis.
 
 As razões pelas quais uma curva é "embutida" dentro do campo de outra, e por que um *ciclo* de duas curvas é útil, são reais e importantes, mas pertencem aos artigos sobre o sistema de provas. Por enquanto, a conclusão é sólida: **toda chave da Zcash é um escalar vezes um gerador, e todo compromisso da Zcash é uma soma de pontos de curva**, vivendo em uma dessas curvas nomeadas.
 
-![texto alternativo](/content-images/image-13-ffdd703c60.webp)
+![texto alternativo](image-13.png)
 
 ---
 

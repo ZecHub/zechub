@@ -4,7 +4,7 @@
 
 # Raspberry Pi 4에서 Zebra 실행 가이드
 
-<img src="/content-images/image-2023-11-28-172907488-e7e9fd4ac5.webp" alt="raspberry pi" width="300" height="300"/>
+<img src="https://i.ibb.co/V3rjKwv/image-2023-11-28-172907488.png" alt="raspberry pi" width="300" height="300"/>
 
 Raspberry Pi 4에서 Zebra 노드 소프트웨어를 실행하면 Zcash 네트워크에 독립적이고 합의 가능한 노드로 참여할 수 있습니다. 이 가이드는 Raspberry Pi 4에서 Zebra를 설정하고 실행하는 단계를 안내합니다.
 
@@ -67,7 +67,7 @@ Raspberry Pi 4에서 Zebra 노드 소프트웨어를 실행하면 Zcash 네트�
 7. __모니터링__
    웹 브라우저에서 다음 주소로 이동하여 Zebra 노드의 진행 상황 및 상태를 모니터링할 수 있습니다: __http://127.0.0.1:8233/status__.
 
-<img src="/content-images/image-2023-11-28-173024853-99540511cf.webp" alt="zebra logo" width="200" height="200"/>
+<img src="https://i.ibb.co/BCtKrGp/image-2023-11-28-173024853.png" alt="zebra logo" width="200" height="200"/>
 
 ## 문제 해결
 

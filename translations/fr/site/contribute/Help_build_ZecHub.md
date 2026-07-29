@@ -27,7 +27,7 @@ Signaler des bugs
 
 Nous publions chaque lundi des issues pour les tâches pour lesquelles nous avons actuellement des primes ouvertes. Vous pouvez aussi suggérer des primes ! Elles se trouvent principalement sur ZEC Bounties.
 
-![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
+![zecbounties](https://github.com/user-attachments/assets/0e4f5109-c0c9-4a0a-8d71-8172e36b9726)
 
 
 

@@ -14,7 +14,7 @@ Pretty Good Privacy (PGP) — это пакет криптографическо
 * **[PGPMail](https://www.openpgp.org/software/)**: PGPMail — это коммерческий почтовый клиент с поддержкой PGP, доступный для Windows и macOS.
 * **[Mailvelope](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope — это бесплатное расширение PGP с открытым исходным кодом для Gmail и Thunderbird.
 
-![Инструменты PGP](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
+![Инструменты PGP](https://github.com/ZecHub/zechub/assets/81990132/44984a75-800a-4f7a-94a5-88827e39b431)
 
 ## Как сгенерировать ключи
 
@@ -28,7 +28,7 @@ Pretty Good Privacy (PGP) — это пакет криптографическо
 
 Ваша пара PGP-ключей будет сгенерирована.
 
-![Генерация ключей](/content-images/15721ce1-0a77-4ebe-87f4-33e1455f2a40-7699b1771d.webp)
+![Генерация ключей](https://github.com/ZecHub/zechub/assets/81990132/15721ce1-0a77-4ebe-87f4-33e1455f2a40)
 
 ## Как использовать PGP для электронной почты
 
@@ -36,7 +36,7 @@ Pretty Good Privacy (PGP) — это пакет криптографическо
 
 Зашифрованное письмо будет нечитаемым для любого, у кого нет закрытого ключа получателя. Чтобы расшифровать письмо, получатель может использовать свой закрытый ключ.
 
-![PGP для электронной почты](/content-images/dafb761d-f399-40c9-9323-526ba3bd0bc4-98503ad98b.webp)
+![PGP для электронной почты](https://github.com/ZecHub/zechub/assets/81990132/dafb761d-f399-40c9-9323-526ba3bd0bc4)
 
 ## Лучшие практики
 
@@ -44,9 +44,9 @@ Pretty Good Privacy (PGP) — это пакет криптографическо
 
 * Храните свой закрытый ключ в безопасности. Закрытый ключ — это самая важная часть вашей пары PGP-ключей. Если кто-то получит ваш закрытый ключ, он сможет расшифровать любые сообщения, которые были зашифрованы вашим открытым ключом.
 
-![Лучшие практики 1](/content-images/39a6fae4-a9a1-4061-a97c-4a9b975f6383-eced005c8b.webp)
+![Лучшие практики 1](https://github.com/ZecHub/zechub/assets/81990132/39a6fae4-a9a1-4061-a97c-4a9b975f6383)
 
-![Лучшие практики 2](/content-images/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd-50ca49a070.webp)
+![Лучшие практики 2](https://github.com/ZecHub/zechub/assets/81990132/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd)
 
 * Делитесь своим открытым ключом только с людьми, которым вы доверяете. Вы можете отправить им свой открытый ключ напрямую или загрузить его на сервер ключей PGP.
 * Используйте надежные пароли для вашей связки ключей PGP. Связка ключей PGP — это файл, в котором хранятся ваши ключи PGP. Очень важно использовать надежный пароль для защиты этого файла.
@@ -61,11 +61,11 @@ Pretty Good Privacy (PGP) — это пакет криптографическо
 * Нажмите кнопку «Encrypt».
 * Письмо будет зашифровано.
 
-![Шифрование письма](/content-images/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e-6edd4a03ea.webp)
+![Шифрование письма](https://github.com/ZecHub/zechub/assets/81990132/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e)
 
 ---
 
-![Процесс шифрования](/content-images/da1499e9-fc87-46b2-93ed-28d43cf1fd86-86fdc87d10.webp)
+![Процесс шифрования](https://github.com/ZecHub/zechub/assets/81990132/da1499e9-fc87-46b2-93ed-28d43cf1fd86)
 
 ## Как расшифровать письмо с помощью PGP
 
@@ -76,4 +76,4 @@ Pretty Good Privacy (PGP) — это пакет криптографическо
 * Нажмите кнопку «Decrypt».
 * Письмо будет расшифровано.
 
-![Расшифровка письма](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)
+![Расшифровка письма](https://github.com/ZecHub/zechub/assets/81990132/beae714c-020f-4c1e-aa4f-3dd9430670cc)

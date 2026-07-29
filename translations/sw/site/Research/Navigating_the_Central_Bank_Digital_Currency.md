@@ -2,7 +2,7 @@
 iliyochapishwa: 2023-12-07
 ---
 
-[CBDC](/content-images/cbdc-dfb8827faa.webp)
+[CBDC](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/cbdc.webp)
 # Kufunua Upande wa Giza: Kuzunguka Fedha ya Dijiti ya Benki Kuu (CBDC) Odyssey Kati ya Vivuli vya Fedha
 Na: [**Abhishek Tiwari**]
 
@@ -37,7 +37,7 @@ Implementing CBDCs becomes our hero's quest, a journey fraught with technical, r
 __China: Fedha ya Dijiti Malipo ya Elektroniki (DCEP)__
 
 
-[DCEP]](/content-images/dcep-featured-c278cf0ef6.webp)
+[DCEP]](https://forkast.news/wp-content/uploads/2020/08/dcep-featured.jpg)
 
 In the dystopian streets of China, the Digital Currency Electronic Payment (DCEP) unfolds not as a marvel, but as a harbinger of societal control with its own set of ominous financial shadows. Everyday transactions pulse with life, courtesy of programmable money and the allure of offline capabilities.
 
@@ -50,7 +50,7 @@ China's history of financial opacity and government interference in banking is a
 
 __Marekani: Mradi wa Dola ya Dijiti__
 
-[Dola ya Dijiti](/content-images/digital-dollar-CBDC-8e8120f52f.webp)
+[Dola ya Dijiti](https://www.ledgerinsights.com/wp-content/uploads/2020/03/digital-dollar-CBDC.jpg)
 
 In the vast, despondent landscapes of the United States, the Digital Dollar Project emerges not as a beacon of progress but as a testament to efficiency and inclusivity, albeit with its share of uncertainties. A private-sector initiative, it aims to reshape the financial landscape in a narrative tinged with shades of corporate control.
 
@@ -62,7 +62,7 @@ The U.S. has a complex history of financial regulation, with frequent debates on
 
 _ Sweden: E-Krona _
 
-[E-Krona](/content-images/ekrona_logo-4596e38b72.webp)
+[E-Krona](https://www.paymentscardsandmobile.com/wp-content/uploads/2018/10/ekrona_logo.png)
 
 As we traverse the desolate landscapes of Sweden, the E-Krona unfolds as a narrative of adaptability, but not without its financial pitfalls. It's a digital evolution focused on maintaining access to currency in a cashless society, portraying a society devoid of the familiar comforts of physical cash.
 
@@ -95,7 +95,7 @@ Government surveillance, once a distant concept, becomes a potential antagonist.
 
 Financial inclusion, once a beacon of hope, faces the shadows of potential discrimination. The misuse of CBDCs could lead to selective access, violating principles of equal treatment and inclusivity. It's a subplot that challenges the very essence of financial freedom.
 
-[Mtiririko](/content-images/futureofCBDC-2-45075d2d9c.webp)
+[Mtiririko](https://blog.digitalasset.com/hubfs/Imported_Blog_Media/futureofCBDC-2.png)
 
 ## Rasilimali: Ramani kwa ajili ya Digital Explorer
 

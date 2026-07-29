@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-174147713-63a42e536c.webp" alt="Alt Text" width="400"/> Zcash コミュニティリンク
+# <img src="https://i.ibb.co/qYhRbJM/image-2024-02-03-174147713.png" alt="Alt Text" width="400"/> Zcash コミュニティリンク
 
 Zcashコミュニティは、世界中で最も広く使用されるプライバシー保護型暗号通貨の一つであるZECを実現するために努力している活発な人々のグループです。このコミュニティには、開発者、教育者、支援者、そして構築者など、世界各地から来た多様な個人が集まり、財務プライバシーへの共通した信念によって結びついています。
 
@@ -10,11 +10,11 @@ Zcashコミュニティは、世界中で最も広く使用されるプライバ
 
 ## コミュニティメンバーを見つける場所
 
-### <img src="/content-images/image-2024-02-03-173937048-148e401d5e.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Telegram</span>
+### <img src="https://i.ibb.co/qBrb4qK/image-2024-02-03-173937048.png" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Telegram</span>
 
 Zcashコミュニティは、<span translate="no" class="notranslate">Telegram</span>上で非常に活発です。日常の話題やニュース・アップデートについて話し合い、他のコミュニティメンバーと出会うために参加してください: [t.me/Zcash_Community](https://t.me/Zcash_Community)
 
-### <img src="/content-images/image-2024-02-03-174056252-8a6a76eabf.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Discord</span>
+### <img src="https://i.ibb.co/kxVwQxM/image-2024-02-03-174056252.png" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Discord</span>
 
 - [Zcash Global](https://discord.gg/zcash) - メインコミュニティサーバー
 - [Zcash R&D](https://discord.gg/xpzPR53xtU) - プロトコルおよび開発者に関する議論
@@ -34,7 +34,7 @@ Zcashコミュニティは、<span translate="no" class="notranslate">Telegram</
 
 [Zcash Community Forum](https://forum.zcashcommunity.com/)は、Zcashに関する長文の議論が行われるハブです。ガバナンス、助成金提案、技術的な議論、エコシステムの発表などが含まれます。ECCからZODLへの移行に伴い、現在はZcash Foundationが管理しています。
 
-### <img src="/content-images/image-2024-02-03-174240928-7a8f751301.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
+### <img src="https://i.ibb.co/mqKfr62/image-2024-02-03-174240928.png" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
 
 Zcashは、X上でも活発なグローバル存在を持っています。フォローすべき主なアカウント:
 

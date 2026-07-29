@@ -55,7 +55,7 @@ Zcash アバランチ RedBridge プロジェクトのために完成した主要
 
 より詳細な技術情報については、RedBridge プロジェクトのリポジトリおよびドキュメントを参照することをお勧めします。具体的な統合内容、テストフレームワーク、セキュリティプロトコルについて [詳しく見る](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) ことができます。
 
-![img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)
+![img1](https://github.com/user-attachments/assets/b8c5d267-1711-458a-8a32-1df9d56fae8a)
 
 * 配信物:
 2025年第1四半期に、チームは[red·bridge デモウェブサイト](https://redbridge-demo.red.dev/index.html)のリリースを発表しました。このウェブサイトでは、誰でもユーザー体験を試すことができ、フィードバックや改善提案を行うことができます。また、非技術的な人々にもプロジェクトを簡単に紹介する手段として機能します。

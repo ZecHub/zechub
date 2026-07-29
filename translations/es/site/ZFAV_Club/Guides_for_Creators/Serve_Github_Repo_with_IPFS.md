@@ -26,7 +26,7 @@ Para empezar, selecciona un repositorio Git que quieras alojar y clónalo:
 
 Ejecuta el comando: “git clone https://github.com/zechub/zechub”
 
-![/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
+![https://i.ibb.co/HxFX37b/Screenshot-from-2023-05-20-14-14-46.png](https://i.ibb.co/HxFX37b/Screenshot-from-2023-05-20-14-14-46.png)
 
 Ahora, para dejarlo listo para que pueda clonarse mediante IPFS.
 
@@ -34,7 +34,7 @@ cd zechub git update-server-info
 
 Desempaqueta los objetos de Git:
 
-![](/content-images/image-2024-04-20-175848513-2ceb90dd7b.webp)
+![](https://i.ibb.co/25RwyWz/image-2024-04-20-175848513.png)
 
 Hacer esto permitirá que IPFS deduplique objetos si actualizas el repositorio Git más adelante.
 
@@ -48,11 +48,11 @@ $ pwd
 
 $ ipfs add -r 
 
-![/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp](/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp)
+![https://i.ibb.co/LJgK1q3/Screenshot-from-2023-05-20-14-22-38.png](https://i.ibb.co/LJgK1q3/Screenshot-from-2023-05-20-14-22-38.png)
 
 El CID resultante: Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
 
-![/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
+![https://i.ibb.co/GvhCLwn/Screenshot-from-2023-05-20-14-26-34.png](https://i.ibb.co/GvhCLwn/Screenshot-from-2023-05-20-14-26-34.png)
 
 ¡Excelente! Ahora tu repositorio está subido a la red.
 

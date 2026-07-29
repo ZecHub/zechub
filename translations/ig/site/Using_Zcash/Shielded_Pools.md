@@ -34,7 +34,7 @@ As Zcash evolves, new shielded pools may be introduced to improve security, priv
 
 <br/>
 
-! [img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
+! [img1](https://github.com/user-attachments/assets/4ba8cca2-cea5-42d2-8ec2-2122b26f5144)
 Ihe osise 1: eserese na-egosi ọdọ mmiri 4 dị ugbu a na Ọktọba, 2025
 
 <br/>
@@ -45,7 +45,7 @@ Ihe osise 1: eserese na-egosi ọdọ mmiri 4 dị ugbu a na Ọktọba, 2025
 1. <h3 id="orchard" class="text-3xl font-bold my-4">Orchard Pool</h3>
 
 
-! [img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
+! [img2](https://github.com/user-attachments/assets/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72)
 Ihe osise nke 2: Otu eserese na-egosi ọdọ mmiri Orchard dị ka Ọktọba, 2025
 
 <br/>
@@ -63,7 +63,7 @@ ____
 2. <h3 id="sapling" class="text-3xl font-bold my-4">Sapling Pool</h3>
 
 
-! [img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
+! [img3](https://github.com/user-attachments/assets/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae)
 Ihe osise 3: Otu eserese na-egosi ọdọ mmiri Sapling dị ka nke Ọktoba, 2025
 
 <br/>
@@ -83,7 +83,7 @@ ____
 3. <h3 id="sprout" class="text-3xl font-bold my-4">Sprout Pool</h3>
 
 
-! [img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
+! [img4](https://github.com/user-attachments/assets/956eceed-f4d6-4087-99d0-32a770449dda)
 Fig 4: Ihe osise na-egosi ọdọ mmiri Sprout dị ka Ọktọba, 2025
 
 Sprout bụ nke mbụ a na-emeghe na-enweghị ikikere Zero Knowledge nzuzo protocol mgbe ọ bụla malitere. Ọ malitere na 28th nke October, 2016.
@@ -98,7 +98,7 @@ As the Zcash ecosystem continued  to expand with increasing number of shielded t
 4. <h3 id="transparent" class="text-3xl font-bold my-4">Transparent Pool</h3>
 <br/>
 
-! [img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
+! [img5](https://github.com/user-attachments/assets/01de2907-b62d-4421-83d7-ea4908faa828)
 Ihe osise nke 5: eserese na-egosi ogige Transparent dị ka nke Ọktọba, 2025
 
 <br/>

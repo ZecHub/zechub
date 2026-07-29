@@ -1,7 +1,7 @@
 # Merkle Trees: blockchain हर नोट को कैसे याद रखता है
 ##### [Annkkitaaa](https://github.com/Annkkitaaa) का मूल शोध
 
-![alt text](/content-images/image-19-cfbdcf8f78.webp)
+![alt text](image-19.png)
 
 ### लाखों commitments को एक बेहद छोटे fingerprint में समेटना
 
@@ -34,7 +34,7 @@ Merkle tree दोनों समस्याएँ एक साथ हल क
 - फिर उन parents को जोड़ों में बाँटें, हर जोड़े को साथ में hash करें, और इसी तरह आगे बढ़ें।
 - ऐसा तब तक करते रहें जब तक ऊपर **एक अकेला fingerprint** न रह जाए। वही विजेता **Merkle root** है।
 
-![alt text](/content-images/image-20-f5d57e425a.webp)
+![alt text](image-20.png)
 
 इसकी सबसे महत्वपूर्ण property सीधे avalanche effect (लेख 3) से निकलती है:
 
@@ -77,7 +77,7 @@ step 2:  H(hAB , hCD)      = ROOT?     (uncle के साथ मिलाए�
 
 वास्तविक गणना करने पर: इससे `1b3faa3fcc5e...` मिलता है, जो **root से मेल खाता है।** इससे सिद्ध हो जाता है कि leaf tree में है।
 
-![alt text](/content-images/image-21-d9e5d6eaf6.webp)
+![alt text](image-21.png)
 
 दो बातें इसे शक्तिशाली बनाती हैं:
 
@@ -99,7 +99,7 @@ step 2:  H(hAB , hCD)      = ROOT?     (uncle के साथ मिलाए�
 - **निश्चित depth।** Zcash के shielded trees की depth **32** होती है, यानी वे `2^(32)` (चार billion से अधिक) notes तक रख सकते हैं।
 - **ZK-friendly hashing।** यह tree SHA-256 से नहीं बनाया जाता। Sapling tree को **Pedersen hashes** से hash करता है और Orchard **Sinsemilla** का उपयोग करता है (दोनों लेख 3 से), खास तौर पर इसलिए कि circuit के भीतर membership की यह चढ़ाई सिद्ध करना सस्ता पड़े।
 
-![alt text](/content-images/image-22-518354b8d5.webp)
+![alt text](image-22.png)
 
 ### एक बात जो tree *नहीं* संभालता: double-spends
 

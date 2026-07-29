@@ -43,7 +43,7 @@ Mɔ dodzidzɔname aɖe si dzi woato asrɔ̃ nu le nukpɔkpɔ me [blockchain expl
 
 Abe adrɛs siwo le etame ene la, ga home siwo woate ŋu akpɔ le dutoƒo la le asitsatsa ɖesiaɖe si wowɔna le dutoƒo blockchain dzi la me. Esia lɔ ga home siwo le adrɛs siwo dzi woŋlɔa nu ɖo kple esiwo dzi woŋlɔa nu ɖo siaa ɖe eme na asitsatsa ɖesiaɖe. Nu ɖeka si to vovo na esia enye ne ètiae be yeazã Shielded Zcash -- ekema ga homewo katã ɣla. Le asitsaha suewo tɔ siwo hiã adzamenyawo godoo hena *asitsatsa dzɔdzɔe* gome la, esia nye viɖe gã aɖe!
 
-![ga homewo](/content-images/206312357-e9504151-830f-4fa1-81cb-f23619-210f51493c.webp)
+![ga homewo](https://user-images.githubusercontent.com/81990132/206312357-e9504151-830f-4fa1-81cb-f23619fd7226.png)
 
 
 ### Nusiwo anyigbayeyedila ate ŋu akpɔ kple esiwo mate ŋu akpɔ le Zcash dzi o
@@ -78,16 +78,16 @@ Blockchain explorer vovovowo ƒe kpɔɖeŋu nyui enee nye esi:
 * [Mintscan ƒe agbalẽ](https://hub.mintscan.io/chains/ibc-network)
 
 
-![bitcoinExlporer ƒe agbalẽ](/content-images/206279968-a06eb0a1-b3a6-49af-a30f-7d871b-1418d95d28.webp)
+![bitcoinExlporer ƒe agbalẽ](https://user-images.githubusercontent.com/81990132/206279968-a06eb0a1-b3a6-49af-a30f-7d871b906eeb.png)
 
 
-![ethNukpɔla](/content-images/206280208-2ce5eddd-157e-4eed-90a0-680c15-488292c345.webp)
+![ethNukpɔla](https://user-images.githubusercontent.com/81990132/206280208-2ce5eddd-157e-4eed-90a0-680c1520ec57.png)
 
 
-![zcashNukpɔla](/content-images/206280454-a2c7563f-e82d-47b9-9b58-02eece-76db7aec4c.webp)
+![zcashNukpɔla](https://user-images.githubusercontent.com/81990132/206280454-a2c7563f-e82d-47b9-9b58-02eece1c89ee.png)
 
 
-![cosmos](/content-images/206316791-2debfd28-923a-44f4-b7d3-701182-cf39a065fc.webp)
+![cosmos](https://user-images.githubusercontent.com/81990132/206316791-2debfd28-923a-44f4-b7d3-701182112c30.png)
 
 
 

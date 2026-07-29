@@ -14,7 +14,7 @@ PGP nnwinnade ahorow pii wɔ hɔ, nanso nea agye din sen biara no bi ne:
 * **[PGPMail na ɛyɛ adwuma](https://www.openpgp.org/software/)**: PGPMail yɛ aguadi PGP email client a ɛwɔ hɔ ma Windows ne macOS.
 * **[Nneɛma a wɔde mena](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope yɛ PGP ntrɛwmu a wontua hwee na ɛbue ano ma Gmail ne Thunderbird.
 
-![PGP Nnwinnade](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
+![PGP Nnwinnade](https://github.com/ZecHub/zechub/assets/81990132/44984a75-800a-4f7a-94a5-88827e39b431)
 
 ## Sɛnea Wɔyɛ Safoa
 
@@ -28,7 +28,7 @@ Sɛ wode PGP bedi dwuma a, ɛsɛ sɛ woyɛ safoa abien: Sɛnea wobɛyɛ PGP safo
 
 Wo PGP key pair no bɛba.
 
-![Nya Nsafoa](/content-images/15721ce1-0a77-4ebe-87f4-33e1455f2a40-7699b1771d.webp)
+![Nya Nsafoa](https://github.com/ZecHub/zechub/assets/81990132/15721ce1-0a77-4ebe-87f4-33e1455f2a40)
 
 ## Sɛnea Wɔde PGP Di Dwuma Ma Email
 
@@ -36,7 +36,7 @@ Sɛ wo yɛ PGP key pair wie a, wobɛtumi de adi dwuma de encrypt na decrypt emai
 
 Email a wɔabɔ no kokoam no rentumi nkenkan obiara a onni nea ogye no kokoam safe no. Sɛ wopɛ sɛ wokyerɛw email no a, nea wogye no no betumi de wɔn kokoam safoa no ayɛ decrypt email no.
 
-![PGP Imel a wɔde kyerɛw](/content-images/dafb761d-f399-40c9-9323-526ba3bd0bc4-98503ad98b.webp)
+![PGP Imel a wɔde kyerɛw](https://github.com/ZecHub/zechub/assets/81990132/dafb761d-f399-40c9-9323-526ba3bd0bc4)
 
 ## Nneyɛe a Ɛyɛ Paara
 
@@ -44,9 +44,9 @@ Nneyɛe pa bi a wɔfa so de PGP di dwuma ni:
 
 * Fa wo kokoam safe no sie dwoodwoo. Private key no yɛ wo PGP key pair no fã a ɛho hia sen biara. Sɛ obi nya wo private key no a, obetumi de wo public key no decrypt nkra biara a wɔde encrypt no.
 
-![Nneyɛe Pa 1](/content-images/39a6fae4-a9a1-4061-a97c-4a9b975f6383-eced005c8b.webp)
+![Nneyɛe Pa 1](https://github.com/ZecHub/zechub/assets/81990132/39a6fae4-a9a1-4061-a97c-4a9b975f6383)
 
-![Nneyɛe Pa 2](/content-images/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd-50ca49a070.webp)
+![Nneyɛe Pa 2](https://github.com/ZecHub/zechub/assets/81990132/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd)
 
 * Fa wo public key no kyerɛ nnipa a wowɔ wɔn mu ahotoso. Wubetumi akyɛ wo baguam safoa no denam sɛ wode bɛmena wɔn tẽẽ, anaasɛ wode akɔ PGP safoa so.
 * Fa password a emu yɛ den di dwuma ma wo PGP keyring. Wo PGP keyring yɛ fael a ɛkora wo PGP keyring so. Ɛho hia sɛ wode password a ɛyɛ den di dwuma de bɔ fael yi ho ban.
@@ -61,11 +61,11 @@ Nneyɛe pa bi a wɔfa so de PGP di dwuma ni:
 * Klik "Encrypt" bɔtn no so.
 * Wɔbɛma email no ayɛ encrypted.
 
-![Encrypt Email no](/content-images/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e-6edd4a03ea.webp)
+![Encrypt Email no](https://github.com/ZecHub/zechub/assets/81990132/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e)
 
 ---
 
-![Encryption Nsuo a Ɛsen](/content-images/da1499e9-fc87-46b2-93ed-28d43cf1fd86-86fdc87d10.webp)
+![Encryption Nsuo a Ɛsen](https://github.com/ZecHub/zechub/assets/81990132/da1499e9-fc87-46b2-93ed-28d43cf1fd86)
 
 ## Sɛnea wɔde PGP decrypt email bi
 
@@ -76,4 +76,4 @@ Nneyɛe pa bi a wɔfa so de PGP di dwuma ni:
 * Klik "Decrypt" button no so.
 * Wɔbɛpae email no mu.
 
-![Decrypt Email no mu](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)
+![Decrypt Email no mu](https://github.com/ZecHub/zechub/assets/81990132/beae714c-020f-4c1e-aa4f-3dd9430670cc)

@@ -2,7 +2,7 @@
 
 
 
-![img1](/content-images/SJOlnt-ceg-34468cfecd.webp)
+![img1](https://hackmd.io/_uploads/SJOlnt-ceg.png)
 
 ---
 
@@ -11,7 +11,7 @@
 veya Phantom tarayıcınızdan **[solswap.org](https://solswap.org/)** adresini ziyaret edin.  
 
 
-![img2](/content-images/S1Cp-KWqxe-ab70e844b9.webp)
+![img2](https://hackmd.io/_uploads/S1Cp-KWqxe.jpg)
 
 ---
 
@@ -19,7 +19,7 @@ veya Phantom tarayıcınızdan **[solswap.org](https://solswap.org/)** adresini 
 - **Kaynak ağınızı** seçin (ör. *Ethereum* veya *Solana*), ardından takas için yatırma işlemini yapın.  
 
 
-![img3](/content-images/S1SaGYZ9xx-2a27ccdd47.webp)
+![img3](https://hackmd.io/_uploads/S1SaGYZ9xx.jpg)
 
 - **SOL, USDT veya USDC** gibi bir temel token seçin.  
 - **Hedef tokenınız** olarak **ZEC** seçin.  
@@ -27,7 +27,7 @@ veya Phantom tarayıcınızdan **[solswap.org](https://solswap.org/)** adresini 
 
 
 
-![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
+![img4](https://hackmd.io/_uploads/ry4QQF-5gx.jpg)
 
 ---
 
@@ -36,7 +36,7 @@ veya Phantom tarayıcınızdan **[solswap.org](https://solswap.org/)** adresini 
 - Phantom, ücretlerden sonra **tahmini alım miktarını** gösterecektir.  
 
 
-![img5](/content-images/B1U1NYW5xe-58cf150668.webp)
+![img5](https://hackmd.io/_uploads/B1U1NYW5xe.jpg)
 
 ---
 
@@ -63,7 +63,7 @@ veya Phantom tarayıcınızdan **[solswap.org](https://solswap.org/)** adresini 
 - İşlemi başlatmak için **Swap Now** seçeneğine dokunun.  
 
 
-![img6](/content-images/HkU1UKZ5gx-e068ea8d5a.webp)
+![img6](https://hackmd.io/_uploads/HkU1UKZ5gx.jpg)
 
 ---
 
@@ -72,6 +72,6 @@ veya Phantom tarayıcınızdan **[solswap.org](https://solswap.org/)** adresini 
 - Zincirler arası takaslar için, gerçek zamanlı güncellemeler almak üzere **işlem kimliğinizi** **Li.Fi Scanner** ile kullanın. 
 
 
-![img7](/content-images/S1NBwKbcxe-5b7d11f5c1.webp)
+![img7](https://hackmd.io/_uploads/S1NBwKbcxe.jpg)
 
 ## Sonrasında [bu rehberle ZEC'inizi shielded hale getirmeye](https://zechub.wiki/guides/using-zec-privately) başlayabilirsiniz

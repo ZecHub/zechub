@@ -4,7 +4,7 @@
 
 # Zcash 개선 제안
 
-<img width="672" height="378" alt="1" src="/content-images/fbce4a28-585b-4caa-b306-4cf06bcb5977-0b61791008.webp" />
+<img width="672" height="378" alt="1" src="https://github.com/user-attachments/assets/fbce4a28-585b-4caa-b306-4cf06bcb5977" />
 
 
 

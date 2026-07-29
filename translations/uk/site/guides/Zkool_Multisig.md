@@ -22,12 +22,12 @@
 1. Відкрийте **додаток Zkool** і перейдіть до **New Account**.
 
 
-![img1](/content-images/ee906e49-361a-49b6-9484-904897fe2e3f-074e400a9c.webp)
+![img1](https://github.com/user-attachments/assets/ee906e49-361a-49b6-9484-904897fe2e3f)
 
 3. Введіть **назву акаунта** (наприклад, Anabelle).  
    
 
-![img2](/content-images/e9c325d3-8507-433a-a0c6-6e8c1ea2a254-a637810ed5.webp)
+![img2](https://github.com/user-attachments/assets/e9c325d3-8507-433a-a0c6-6e8c1ea2a254)
 
 
 4. За потреби ввімкніть **Use Internal Change** або **Restore Account**.
@@ -36,7 +36,7 @@
 5. Після створення акаунт з’явиться у вашому **списку акаунтів**.  
 
 
-![img3](/content-images/c446cbca-fb3e-49b9-b1d4-fd727cd1b0fb-971cf76b33.webp)
+![img3](https://github.com/user-attachments/assets/c446cbca-fb3e-49b9-b1d4-fd727cd1b0fb)
 
 
 ## 2. Отримання коштів
@@ -55,7 +55,7 @@
 Виберіть тип, який хочете використовувати, і поділіться ним, щоб отримати кошти.  
 
 
-![img4](/content-images/c9de5dfe-e9d7-423d-8d90-35c1a08ffd5d-a0d6a4e7b7.webp)
+![img4](https://github.com/user-attachments/assets/c9de5dfe-e9d7-423d-8d90-35c1a08ffd5d)
 
 
 
@@ -66,7 +66,7 @@
 1. Перейдіть до розділу **Recipient**.  
 
 
-![img5](/content-images/9f3a03b9-dd56-450c-a8dc-4370f9289138-3217d846b7.webp)
+![img5](https://github.com/user-attachments/assets/9f3a03b9-dd56-450c-a8dc-4370f9289138)
 
 
 3. Введіть **адресу отримувача**.  
@@ -79,7 +79,7 @@
 Після завершення баланс оновиться у вашому списку акаунтів.  
 
 
-![img6](/content-images/6e6da76b-cd18-4567-a5c0-74f07ddefc64-78dc3362dc.webp)
+![img6](https://github.com/user-attachments/assets/6e6da76b-cd18-4567-a5c0-74f07ddefc64)
 
 
 ## 4. Виконання транзакцій із мультипідписом: налаштування розподіленої генерації ключів (Multisig)
@@ -100,7 +100,7 @@
 Виберіть **акаунт фінансування**.
   
 
-![img7](/content-images/8a90ca85-5439-4937-b16d-a570e69d55f0-1477202a57.webp)
+![img7](https://github.com/user-attachments/assets/8a90ca85-5439-4937-b16d-a570e69d55f0)
 
 
 
@@ -117,7 +117,7 @@
 Зачекайте, поки всі учасники обміняються пакетами **round 1** і **round 2**.  
 
 
-![img8](/content-images/cdaf6e00-3cb0-4774-8a96-5ded19bf31c4-b6bb50bbab.webp)
+![img8](https://github.com/user-attachments/assets/cdaf6e00-3cb0-4774-8a96-5ded19bf31c4)
 
 
 
@@ -125,7 +125,7 @@
 Після завершення буде згенеровано **спільну адресу**.  
 
 
-![img9](/content-images/741d1bc6-0102-4e67-bb83-9a1c184bd747-a508ea0371.webp)
+![img9](https://github.com/user-attachments/assets/741d1bc6-0102-4e67-bb83-9a1c184bd747)
 
 
 

@@ -1,7 +1,7 @@
 # **Encrypt.trade का उपयोग करके निजी SOL/USDC -> ZEC स्वैप**  
 
 
-![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
+![img1](https://hackmd.io/_uploads/Bkbg5alCll.jpg)
 
 
 *NEAR Intents द्वारा संचालित निजी, cross-chain swaps के लिए आपका प्रवेशद्वार।*  
@@ -12,7 +12,7 @@
 आज की blockchain दुनिया में, privacy वैकल्पिक नहीं है - यह आवश्यक है। [**encrypt.trade**](https://app.encifher.io/zec) के साथ, उपयोगकर्ता Solana पर **SOL या USDC** को **Zcash (ZEC)** में सहजता से स्वैप कर सकते हैं, जबकि लेनदेन पूरी तरह निजी बने रहते हैं। कोई centralized exchange नहीं, कोई पहचान उजागर नहीं - बस सरल, encrypted swapping।  
 
 
-![img2](/content-images/ByQ2qpeRee-67fce2814c.webp)
+![img2](https://hackmd.io/_uploads/ByQ2qpeRee.jpg)
 
 ---
 
@@ -20,7 +20,7 @@
 [encrypt.trade](https://app.encifher.io/zec) पर **Chrome या Firefox** का उपयोग करके जाएँ, और अपना **Phantom**, **Solflare**, या **Slope** wallet कनेक्ट करें। सुनिश्चित करें कि आपके wallet में gas fees के लिए पर्याप्त **SOL** और वे tokens मौजूद हों जिनका आप trade करना चाहते हैं। कनेक्ट हो जाने के बाद, आप अपनी assets को wrap करने के लिए तैयार हैं।  
 
 
-![img3](/content-images/SyVOs6lRxx-cbd8193e84.webp)
+![img3](https://hackmd.io/_uploads/SyVOs6lRxx.jpg)
 
 
 
@@ -28,7 +28,7 @@
 
 ---
 
-![img4](/content-images/Bkh_jTgCex-2fc8428592.webp)
+![img4](https://hackmd.io/_uploads/Bkh_jTgCex.jpg)
 
 
 ---
@@ -39,13 +39,13 @@
 
 
 
-![img5](/content-images/S10J26xCxg-6322a40b18.webp)
+![img5](https://hackmd.io/_uploads/S10J26xCxg.jpg)
 
 ---
 
 
 
-![img6](/content-images/Sk0y3Te0gl-124792365a.webp)
+![img6](https://hackmd.io/_uploads/Sk0y3Te0gl.jpg)
 
 
 ---
@@ -54,7 +54,7 @@
 [**Zashi**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn) डाउनलोड करें, जो Electric Coin Co. का आधिकारिक Zcash wallet है। Receive tab से अपना **Unified Address** कॉपी करें - यह transparent और shielded दोनों प्रकार के ZEC का समर्थन करता है। आगे बढ़ने से पहले अपनी seed phrase को सुरक्षित रूप से सहेज लें।  
 
 
-![img7](/content-images/SykjhpgRll-60d19f6979.webp)
+![img7](https://hackmd.io/_uploads/SykjhpgRll.jpg)
 
 
 ---
@@ -64,19 +64,19 @@
 
 
 
-![img8](/content-images/SJkI6pl0ge-9f93d8f34c.webp)
+![img8](https://hackmd.io/_uploads/SJkI6pl0ge.jpg)
 
 ---
 
 
-![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
+![img9](https://hackmd.io/_uploads/S1yoapgRle.jpg)
 
 
 **NEAR Intents** engine स्वचालित रूप से cross-chain routing संभालता है - और कुछ ही सेकंड में **ZEC** सीधे आपके Zashi wallet में पहुँचा देता है।  
 
 
 
-![img10](/content-images/S1h36Tg0xl-2d7dd0a495.webp)
+![img10](https://hackmd.io/_uploads/S1h36Tg0xl.jpg)
 
 ---
 

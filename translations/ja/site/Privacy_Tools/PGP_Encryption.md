@@ -14,7 +14,7 @@ Pretty Good Privacy (PGP) は、不安全なチャネル上で安全な通信を
 * **[PGPMail](https://www.openpgp.org/software/)**: PGPMail は、Windows および macOS で利用可能な商用の PGP 電子メールクライアントです。
 * **[Mailvelope](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope は、Gmail と Thunderbird 用の無料でオープンソースの PGP 拡張機能です。
 
-![PGP ツール](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
+![PGP ツール](https://github.com/ZecHub/zechub/assets/81990132/44984a75-800a-4f7a-94a5-88827e39b431)
 
 ## キーの生成方法
 
@@ -28,7 +28,7 @@ PGP を使用するには、キーのペアを生成する必要があります�
 
 PGP キーのペアが生成されます。
 
-![キーゲネレート](/content-images/15721ce1-0a77-4ebe-87f4-33e1455f2a40-7699b1771d.webp)
+![キーゲネレート](https://github.com/ZecHub/zechub/assets/81990132/15721ce1-0a77-4ebe-87f4-33e1455f2a40)
 
 ## PGP を使用した電子メールの利用方法
 
@@ -36,7 +36,7 @@ PGP キーのペアを生成したら、それを使って電子メールを暗�
 
 暗号化された電子メールは、受信者の秘密鍵を持っていない人にとっては読み取ることができません。復号化するには、受信者が自分の秘密鍵を使って電子メールを復号化できます。
 
-![PGP 電子メール](/content-images/dafb761d-f399-40c9-9323-526ba3bd0bc4-98503ad98b.webp)
+![PGP 電子メール](https://github.com/ZecHub/zechub/assets/81990132/dafb761d-f399-40c9-9323-526ba3bd0bc4)
 
 ## 最佳実践
 
@@ -44,9 +44,9 @@ PGP を使用する際のベストプラクティスは以下の通りです：
 
 * 秘密鍵を安全に保管してください。秘密鍵は、PGP キーのペアの中で最も重要な部分です。誰かがあなたの秘密鍵を取得すると、あなたの公開鍵で暗号化されたメッセージを復号化できるようになります。
 
-![ベストプラクティス 1](/content-images/39a6fae4-a9a1-4061-a97c-4a9b975f6383-eced005c8b.webp)
+![ベストプラクティス 1](https://github.com/ZecHub/zechub/assets/81990132/39a6fae4-a9a1-4061-a97c-4a9b975f6383)
 
-![ベストプラクティス 2](/content-images/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd-50ca49a070.webp)
+![ベストプラクティス 2](https://github.com/ZecHub/zechub/assets/81990132/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd)
 
 * 信頼できる人に自分の公開鍵を共有してください。直接送信するか、PGP キーのサーバーにアップロードして公開鍵を共有できます。
 * PGP キーリングには強力なパスワードを使用してください。PGP キーリングは、PGP キーを保存するファイルです。このファイルを保護するために、強力なパスワードを使用することが重要です。
@@ -61,11 +61,11 @@ PGP を使用する際のベストプラクティスは以下の通りです：
 * 「Encrypt（暗号化）」ボタンをクリックします。
 * 電子メールが暗号化されます。
 
-![電子メールの暗号化](/content-images/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e-6edd4a03ea.webp)
+![電子メールの暗号化](https://github.com/ZecHub/zechub/assets/81990132/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e)
 
 ---
 
-![暗号化フロー](/content-images/da1499e9-fc87-46b2-93ed-28d43cf1fd86-86fdc87d10.webp)
+![暗号化フロー](https://github.com/ZecHub/zechub/assets/81990132/da1499e9-fc87-46b2-93ed-28d43cf1fd86)
 
 ## PGP で電子メールを復号化する方法
 
@@ -76,4 +76,4 @@ PGP を使用する際のベストプラクティスは以下の通りです：
 * 「Decrypt（復号化）」ボタンをクリックします。
 * 電子メールが復号化されます。
 
-![電子メールの復号化](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)
+![電子メールの復号化](https://github.com/ZecHub/zechub/assets/81990132/beae714c-020f-4c1e-aa4f-3dd9430670cc)

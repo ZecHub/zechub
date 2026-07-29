@@ -2,7 +2,7 @@
 
 # Namada 프로토콜
 
-![Namada 로고](/content-images/logo-2067e2533d.webp)
+![Namada 로고](https://i.ibb.co/BZcZHS1/logo.png)
 
 
 ## Namada란 무엇인가?
@@ -26,7 +26,7 @@ Namada는 Multi-Asset Shielded Pool (MASP) 회로의 개선된 버전을 도입�
 
 이더리움 브리지의 Namada 통합은 별도 프로토콜의 필요성을 제거하며, Namada 생태계의 필수적인 부분이 됩니다. Namada 내 검증자는 핵심 Namada 프로토콜과 함께 브리지를 실행하는 임무를 맡습니다. 또한, 이 검증자들은 자산을 Namada로 전송할 때 중개자 역할을 수행합니다. 따라서 추가적인 참여자의 개입이 필요하지 않습니다. 반면, 자산을 이더리움으로 전송할 경우 외부 당사자(중개자)가 관여하게 되지만, 그들은 브리지의 검증이나 보안에 책임을 지지 않습니다.
 
-![이더리움 브리지 다이어그램](/content-images/image-0fd8f754ba.webp)
+![이더리움 브리지 다이어그램](https://i.ibb.co/wKds5RP/image.jpg)
 
 Namada 프로토콜은 또한 IBC(Inter-Blockchain Communication) 프로토콜을 지원하는 모든 빠른 최종성 체인과 원활하게 연결할 수 있습니다. 이더리움과의 상호 운용 시, Namada는 신뢰 없는 방식으로 작동하는 특별하고 보안이 강화된 이더리움 브리지를 구현합니다. 이 브리지는 모든 브리지 연결에 대해 흐름 제어를 시행하며, 오류가 있는 이더리움 전송은 심각한 위반으로 간주되어 슬래싱 벌금이 부과될 수 있도록 설계되었습니다.
 
@@ -40,7 +40,7 @@ Namada에서의 쉴드 세트는 비독점적이고 반경쟁적인 공공재로
 
 쉴드 전송의 경우, 이더리움 비동질 토큰(NFT), ATOM 또는 NAM 등 어떤 자산이든 구분되지 않습니다. 즉, MASP(수정된 누적자 Sapling 프로토콜)가 제공하는 개인 정보 보호 기능은 Zcash Sapling 회로의 개선 버전으로, 모든 유형의 자산에 동일하게 적용됩니다. MASP 회로는 Namada 생태계 내 모든 자산이 동일한 쉴드 세트를 공유하도록 합니다. 이 접근 방식은 개인 자산 간 개인정보 보호가 분할되지 않도록 보장합니다. 특정 자산과 관련된 거래량에 관계없이 개인정보 보호 수준은 일관되고 독립적으로 유지됩니다.
 
-![쉴드 자산 거래 다이어그램](/content-images/image-1-512c639d56.webp)
+![쉴드 자산 거래 다이어그램](https://i.ibb.co/7CDmWk6/image-1.png)
 
 다양한 자산 간 쉴드 세트를 통합함으로써 Namada는 특정 자산 유형과 관계없이 쉴드 전송에 참여하는 경우 개인정보 보호가 일관되게 유지되도록 합니다. 이 접근 방식은 프로토콜 내에서 일관된 개인 정보 보호 프레임워크를 촉진하고, 이더리움 NFT, ATOM, NAM 및 기타 지원 자산을 포함한 거래의 기밀성을 향상시킵니다. Namada는 또한 Zcash와 동일하게 원ative 및 비원ative 토큰에 대한 기밀성을 보장하는 새로운 zk-SNARKs를 사용하여, fungible 및 non-fungible 토큰의 사적인 전송을 가능하게 합니다.
 
@@ -54,7 +54,7 @@ Namada는 두 가지 핵심 요소를 결합하여 빠른 거래 속도와 최�
 
 [Namada 프로토콜 블로그](https://blog.namada.net/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/)에 게시된 최근 공고에 따르면, Namada 프로토콜 팀은 Namada와 Zcash 자산, 체인 및 커뮤니티 간의 전략적 동맹을 제안하고 요청-댓글(RFC)을 발표하기를 기대합니다.
 
-![Namada-Zcash 전략적 동맹 다이어그램](/content-images/image-2-68804c60f3.webp)
+![Namada-Zcash 전략적 동맹 다이어그램](https://i.ibb.co/FqsmkMb/image-2.png)
 
 제안된 동맹은 세 가지 주요 요소로 구성됩니다. 첫째, Zcash와 Namada 모두에 이점을 제공하는 프로젝트를 지원하기 위한 기금 풀이 생성될 예정입니다. 둘째, NAM 토큰의 에어드롭이 ZEC 보유자에게 할당될 예정입니다. 마지막으로, Zcash와 Namada 간 신뢰 최소화된 브리지 연결을 구축하기 위한 계획이 마련되어 있습니다. 이 브리지가 실행되면, ZEC 보유자인 Zolders는 그들의 ZEC를 Namada에서 사용할 수 있게 됩니다. 또한, Zolders는 Namada를 통해 더 넓은 Cosmos 및 Ethereum 생태계에 접근할 기회가 제공됩니다. 전략적 동맹에 대한 자세한 내용은 [Zcash 커뮤니티 포럼](https://forum.zcashcommunity.com/t/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/44372)에서 확인할 수 있습니다.
 

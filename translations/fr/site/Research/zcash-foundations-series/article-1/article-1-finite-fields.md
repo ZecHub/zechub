@@ -1,7 +1,7 @@
 # Corps finis : le système de nombres dans lequel vit la cryptographie
 ##### Recherche originale de [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![texte alternatif](/content-images/image-5-6e8a8950f8.webp)
+![texte alternatif](image-5.png)
 
 ### Pourquoi le « bouclage » est le fondement secret de Zcash
 
@@ -38,7 +38,7 @@ Vous utilisez déjà un corps fini tous les jours. C'est l'horloge sur votre mur
 
 Sur une horloge de 12 heures, les nombres *reviennent au début*. Commencez à 10 heures, ajoutez 5 heures, et vous n'arrivez pas à « 15 heures », vous arrivez à **3 heures**. L'horloge n'a que douze positions, et compter au-delà du sommet vous ramène simplement au départ.
 
-![texte alternatif](/content-images/image-9-30b39f4cc5.webp)
+![texte alternatif](image-9.png)
 
 Trois choses viennent de se produire, et elles résument tout le propos de cet article :
 
@@ -107,7 +107,7 @@ Cette deuxième phrase est une catastrophe pour l'arithmétique. Deux choses non
 
 Un nombre premier, par définition, n'a pas de tels facteurs. Donc modulo un nombre premier, aucun diviseur de zéro ne peut apparaître, chaque élément non nul obtient un inverse propre, et la structure est un véritable corps.
 
-![texte alternatif](/content-images/image-8-573914db92.webp)
+![texte alternatif](image-8.png)
 
 > **Formule réutilisable en une ligne pour vos articles :** *modulo premier en entrée, division propre en sortie.*
 
@@ -159,7 +159,7 @@ Vous n'avez pas à croire sur parole que « Zcash utilise des corps finis ». Vo
 - **Orchard** (la conception blindée actuelle) utilise une paire de courbes appelée **Pallas et Vesta** (les courbes « Pasta »), dont les corps utilisent des nombres premiers d'environ **255 bits**.
 - L'**engagement de note**, le **nullifier** et les nombres à l'intérieur d'une **preuve à divulgation nulle de connaissance** de l'Article 0 sont tous, fondamentalement, des éléments de l'un de ces corps finis. Quand le protocole dit « calculez cet engagement », cela signifie « faites cette arithmétique modulo ce nombre premier ».
 
-![texte alternatif](/content-images/image-7-c81fe982f0.webp)
+![texte alternatif](image-7.png)
 
 Donc la réponse à la question ouverte de l'Article 0, *« d'où viennent les recettes secrètes ? »*, commence ici : **tout commence comme une arithmétique dans un corps fini.** Dans l'article suivant, nous prendrons ce corps et construirons les objets réels, des points sur une courbe elliptique, qui deviennent des clés et des engagements.
 

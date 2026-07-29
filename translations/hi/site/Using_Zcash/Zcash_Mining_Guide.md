@@ -101,7 +101,7 @@ Mining pools काम वितरित करते हैं और आप�
 3. Payouts: अधिकांश pools minimum threshold तक पहुँचने पर अपने-आप भुगतान करते हैं (जैसे 0.05 ZEC)। pool rules जांचें।
 
    
-![Zcash Mining Monitoring Setup](/content-images/zcashMining-5ca0019c17.webp)
+![Zcash Mining Monitoring Setup](https://raw.githubusercontent.com/ZecHub/zechub/aac601cf85076960d334f4c841867a646a5a2f29/assets/images/zcashMining.jpg)
 
 
 ## सुझाव और सर्वोत्तम अभ्यास

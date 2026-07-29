@@ -7,7 +7,7 @@ published: 2025-08-02
   <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
 </a>
 
-![Namada Logosu](/content-images/nam-078c7b6883.webp)
+![Namada Logosu](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/nam.png)
 
 # Namada Gizlilik için En İyi Uygulamalar
 

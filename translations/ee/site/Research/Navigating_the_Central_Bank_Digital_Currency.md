@@ -2,7 +2,7 @@
 wotae: 2023-12-07
 ---
 
-![CBDC ƒe](/content-images/cbdc-dfb8827faa.webp)
+![CBDC ƒe](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/cbdc.webp)
 # Viviti ƒe Akpa la Ðeɖe Ðe Go: Mɔzɔzɔ le Central Bank Digital Currency (CBDC) Odyssey me le Ganyawo ƒe Vɔvɔliwo Me
 Nya sia tso : [**Abhishek Tiwari**] gbɔ.
 
@@ -37,7 +37,7 @@ CBDCwo dzi wɔwɔ va zua míaƒe kalẽtɔ ƒe didi, mɔzɔzɔ si me mɔ̃ɖaŋu
 __China: Digitál Ga Elektrɔnik Fexexe (DCEP)__
 
 
-![DCEP ƒe dɔwɔwɔ](/content-images/dcep-featured-c278cf0ef6.webp)
+![DCEP ƒe dɔwɔwɔ](https://forkast.news/wp-content/uploads/2020/08/dcep-featured.jpg)
 
 Le China ƒe ablɔ siwo dzi dystopian le la, Digital Currency Electronic Payment (DCEP) meʋuna abe nukunu ene o, ke boŋ abe hadomegbenɔnɔ ƒe dziɖuɖu ƒe nyagblɔɖila si si eya ŋutɔ ƒe ganyawo ƒe vɔvɔli vɔ̃ɖiwo le ene. Gbesiagbe asitsatsa ʋãna kple agbe, le ga si woate ŋu awɔ ɖoɖo ɖe eŋu kple ŋutete siwo mele Internet dzi o ƒe nu lédziname ta.
 
@@ -50,7 +50,7 @@ China ƒe ŋutinya si ku ɖe ganyawo ƒe vovototodedeameme kple dziɖuɖu ƒe nu
 
 __United States: Digitál Dollar Dɔwɔna__
 
-![Digital Dollar](/content-images/digital-dollar-CBDC-8e8120f52f.webp)
+![Digital Dollar](https://www.ledgerinsights.com/wp-content/uploads/2020/03/digital-dollar-CBDC.jpg)
 
 Le United States ƒe nɔnɔme gã siwo me mɔkpɔkpɔbuɖeame le me la, Digitál Dollar Dɔwɔɖoɖoa medona abe ŋgɔyiyi ƒe akaɖi ene o, ke boŋ abe ɖaseɖiɖi le dɔwɔwɔ nyuie kple amewo katã ƒe gomekpɔkpɔ le eme ŋu ene, togbɔ be kakaɖedzimanɔamesi ƒe akpa aɖe le eme hã. Enye dɔwɔƒe siwo menye dziɖuɖua tɔ o ƒe ɖoɖo, eye eƒe taɖodzinue nye be yeatrɔ asi le ganyawo ŋu le ŋutinya si me dɔwɔƒewo ƒe dziɖuɖu ƒe vɔvɔliwo le me.
 
@@ -62,7 +62,7 @@ Ganyawo ŋuti ɖoɖowɔwɔ ƒe ŋutinya sesẽ aɖe le U.S., eye woʋlia nya enu
 
 __Sweden: E-Krona__ ƒe xexlẽme.
 
-![E-Krona ƒe nya](/content-images/ekrona_logo-4596e38b72.webp)
+![E-Krona ƒe nya](https://www.paymentscardsandmobile.com/wp-content/uploads/2018/10/ekrona_logo.png)
 
 Esi míele Sweden ƒe anyigba xɔdzowo dzi tom la, E-Krona la ʋuna abe alesi woate ŋu atrɔ ɖe nɔnɔmewo ŋui ŋuti nuŋlɔɖi ene, gake menye gakuxiwo manɔmee o. Enye dijitaal tɔtrɔ si ƒe taɖodzinue nye be woalé ga ƒe mɔnukpɔkpɔ me ɖe asi le habɔbɔ si me ga mele o me, si ɖe hadomegbenɔnɔ si me ga ŋutɔŋutɔ ƒe akɔfafa nyanyɛwo mele o la fia.
 
@@ -95,7 +95,7 @@ Dziɖuɖua ƒe ŋkuléle ɖe nu ŋu, si nye nukpɔsusu si nɔ didiƒe tsã la va
 
 Ganyawo ƒe gomekpɔkpɔ le eme, si nye mɔkpɔkpɔ ƒe akaɖi tsã la, dze ŋgɔ vovototodedeameme si ate ŋu adzɔ ƒe vɔvɔli. CBDCwo zazã le mɔ gbegblẽ nu ate ŋu ana woakpɔ mɔ tiatia aɖe, si ada le gɔmeɖose siwo nye be woawɔ nu ɖe ​​amewo ŋu sɔsɔe kple amewo katã ƒe gomekpɔkpɔ le eme dzi. Enye nya sue aɖe si tsi tre ɖe ganyawo ƒe ablɔɖe ƒe nu vevitɔ ŋu.
 
-![Si](/content-images/futureofCBDC-2-45075d2d9c.webp)
+![Si](https://blog.digitalasset.com/hubfs/Imported_Blog_Media/futureofCBDC-2.png)
 
 ## Nusiwo Woazã: Anyigbatata na Digital Explorer
 

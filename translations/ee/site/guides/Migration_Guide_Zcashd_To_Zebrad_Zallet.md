@@ -6,7 +6,7 @@ Zcash ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa le tɔtrɔm. Zcashd full node si woz�
 - Zallet nye gakotoku si ƒe kpekpeme le bɔbɔe si wotu be wòawɔ ɖeka kple Zebra nodes siwo Zodl to vɛ la nyuie
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![DzeɖoɖoGPTINɔnɔmetataOct12202508_15_20A](/content-images/SJNBsSYTel-dfd19f34e4.webp)
+![DzeɖoɖoGPTINɔnɔmetataOct12202508_15_20A](https://hackmd.io/_uploads/SJNBsSYTel.jpg)
 </div>
 
 Mɔfiame sia kplɔa wò to ʋuʋu tso **Zcashd** yi **Zebrad** kple **Zallet** me, si me ɖoɖowɔwɔ, gakotoku ƒe tsɔtsɔ yi, kple ʋuʋu ƒe kuxi siwo bɔ gbɔ kpɔkpɔ hã le.
@@ -37,7 +37,7 @@ Ne míeɖe asi le ameŋugblẽnyawo ŋu gɔ̃ hã la, susu sẽŋuwo li siwo tae
 * Wɔ wò wallet.dat (alo gakotoku ƒe faɛl / safuidzraƒe bubu ɖesiaɖe) ƒe kɔpi tso wò zcashd node me.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (1) .](/content-images/SJ_0mUtTxg-1441185a72.svg)
+![bash (1) .](https://hackmd.io/_uploads/SJ_0mUtTxg.svg)
 </div>
 
 * Dzra wò zcash.conf kple ɖoɖo ɖesiaɖe si nèwɔ ɖe ɖoɖo nu ɖo.
@@ -63,7 +63,7 @@ Ne míeɖe asi le ameŋugblẽnyawo ŋu gɔ̃ hã la, susu sẽŋuwo li siwo tae
 Le **Linux**/**macOS** dzi la:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (2) .](/content-images/HJhYu8Y6el-d2198f22c9.svg)
+![bash (2) .](https://hackmd.io/_uploads/HJhYu8Y6el.svg)
 </div>
 
 Esia dea zebrad ƒe tɔtrɔ yeyetɔ si li ke la wò kɔmpiuta dzi.
@@ -71,20 +71,20 @@ Esia dea zebrad ƒe tɔtrɔ yeyetɔ si li ke la wò kɔmpiuta dzi.
 **Tiatia B: Tu tso dzɔtsoƒe**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (3) .](/content-images/Syg8FUK6eg-b4557e52e0.svg)
+![bash (3) .](https://hackmd.io/_uploads/Syg8FUK6eg.svg)
 </div>
 
 Ne ètu vɔ la, tsɔ binary la yi wò mɔ dzi:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ʋuʋudedi 11](/content-images/BJ0zjLY6ll-f77354d701.webp)
+![ʋuʋudedi 11](https://hackmd.io/_uploads/BJ0zjLY6ll.png)
 </div>
 
 **4. Ðoɖowɔwɔ & Gɔmedzedze** 
 Wɔ ɖoɖowɔɖi si woɖo ɖi:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ʋuʋudedi2](/content-images/HJV1C8tTxx-5823395651.webp)
+![ʋuʋudedi2](https://hackmd.io/_uploads/HJV1C8tTxx.png)
 </div>
 
 Trɔ asi le **zebrad.toml** ŋu ɖe wò didiwo nu (se adrɛs, melidzeƒewo, nɔnɔme ƒe nuŋlɔɖi, caching).
@@ -92,7 +92,7 @@ Trɔ asi le **zebrad.toml** ŋu ɖe wò didiwo nu (se adrɛs, melidzeƒewo, nɔn
 **Dze node la gɔme:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![nɔnɔmetata](/content-images/H1KPkvt6gl-864c48ca40.webp)
+![nɔnɔmetata](https://hackmd.io/_uploads/H1KPkvt6gl.png)
 </div>
 
 Node la adze syncing gɔme tso genesis - kpɔ mɔ na gaƒoƒo geɖe (alo esi wu nenema) le hardware kple network nu.
@@ -106,7 +106,7 @@ Kpɔ Zallet GitHub / release ƒe axaa ɖa hena binaries.
 **Alo tu tso dzɔtsoƒe:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![nɔnɔmetata](/content-images/SyUFxvFTex-5bb10ee1d3.webp)
+![nɔnɔmetata](https://hackmd.io/_uploads/SyUFxvFTex.png)
 </div>
 
 * Dze GUI alo CLI gɔme (abe alesi wò ɖoɖowɔɖia na ene).
@@ -118,7 +118,7 @@ To Private Key Dump dzi
 Le zcashd dzi la, ɖo wò safui ɣaɣlawo ɖe duta:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (4) .](/content-images/rJzgzwFagx-4a0874f250.svg)
+![bash (4) .](https://hackmd.io/_uploads/rJzgzwFagx.svg)
 </div>
 
 * Le Zallet me la, tia Import Keys alo tiatia ma tɔgbe.
@@ -143,13 +143,13 @@ Ne wowu nuwɔwɔ ɖekae nu la, ele be wò ga si susɔ kple wò asitsatsa nadze a
 Àte ŋu aɖo kpe wò node ƒe sync nɔnɔme dzi to duƒuƒu:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![nɔnɔmetata](/content-images/SyIyVDY6xl-10d6bed7b8.webp)
+![nɔnɔmetata](https://hackmd.io/_uploads/SyIyVDY6xl.png)
 </div>
 
 Alo lé ŋku ɖe nuŋlɔɖiwo ŋu.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![nɔnɔmetata](/content-images/r1HfVPF6gg-b6b76e9907.webp)
+![nɔnɔmetata](https://hackmd.io/_uploads/r1HfVPF6gg.png)
 </div>
 
 **8. Kuxiwo gbɔ kpɔkpɔ**

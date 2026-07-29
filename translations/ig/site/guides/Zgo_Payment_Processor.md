@@ -42,7 +42,7 @@ Nkwado nkwenye ise bụ nọmba isi. Ihe ọ bụla dị n'ihu bụ ịkwụ ụ
 
 ZGo runs in any modern browser on desktop or mobile, with no install on either side. The customer needs a Zcash wallet; the merchant needs a Zcash wallet and a ZGo account.
 
-<img width="672" height="378" alt="ZGo payment request and blockchain monitoring overview" src="/content-images/de50885b-b068-4157-bbda-0981ca23efc8-a00a274776.webp" />
+<img width="672" height="378" alt="ZGo payment request and blockchain monitoring overview" src="https://github.com/user-attachments/assets/de50885b-b068-4157-bbda-0981ca23efc8" />
 
 ## Ịmepụta akaụntụ
 
@@ -77,7 +77,7 @@ Maka oge mbụ ịtọlite, soro usoro ije ije a raara nye: [Xero Integration Co
 
 Maka ụlọ ahịa dị n'ịntanetị na-agba ọsọ na [WooCommerce](https://woocommerce.com/) na [WordPress](https://wordpress.org/), ZGo provides a dedicated plugin. The plugin adds Zcash as a payment method at checkout and handles the order state automatically when the payment confirms.
 
-<img width="672" height="378" alt="ZGo WooCommerce plugin checkout and order flow" src="/content-images/55a791bb-1947-4f55-b5b9-55083be8ed49-2bc8d2571e.webp" />
+<img width="672" height="378" alt="ZGo WooCommerce plugin checkout and order flow" src="https://github.com/user-attachments/assets/55a791bb-1947-4f55-b5b9-55083be8ed49" />
 
 Ọgwụgwụ-na-ọgwụgwụ na-aga n'ime ụlọ ahịa WooCommerce:
 

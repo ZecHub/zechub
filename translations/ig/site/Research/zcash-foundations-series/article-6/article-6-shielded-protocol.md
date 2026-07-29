@@ -1,7 +1,7 @@
 # Usoro Nkwekọrịta E Chebere, Site ná Mmalite Ruo ná Ngwụsị
 ##### Nnyocha mbụ sitere na [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [Alt ederede](/content-images/image-27-4094293ec0.webp)
+! [Alt ederede](image-27.png)
 
 ### Ịchịkọta iberibe niile n'otu azụmahịa Zcash nkeonwe
 
@@ -41,7 +41,7 @@ Envelopu a na-ekpuchi ekpuchi. ** Nkwupụta ntinye aka ** Pedersen / Sinsemilla
 
 Everything a user can do flows from a single secret, the **spending key**, through a one-way hierarchy (each arrow is an irreversible derivation, courtesy of the trapdoors in Articles 2 and 3):
 
-! [Alt ederede](/content-images/image-32-f443f9bb72.webp)
+! [Alt ederede](image-32.png)
 
 Ihe abụọ kwesịrị ka a rịba ama, ha abụọ bụ ihe ndị si n'isiokwu ndị bu ụzọ pụta:
 
@@ -54,7 +54,7 @@ Ihe abụọ kwesịrị ka a rịba ama, ha abụọ bụ ihe ndị si n'isiokw
 
 To spend a note privately, you must convince the network of four things at once **without revealing the note, its value, its position, or your identity.** Each claim is satisfied by a component you already know.
 
-! [Alt ederede](/content-images/image-31-86309af194.webp)
+! [Alt ederede](image-31.png)
 
 The proof reveals **none** of the underlying facts (which note, whose key, what value). It reveals only that *all four claims hold.* That is the entire trick of shielded Zcash, stated in one diagram.
 
@@ -92,7 +92,7 @@ Ka anyị gbakọta Alice na-akwụ Bob. Anyị ga-eji Sapling's doro anya "na-e
 
 Tụkwasị na otu ** mbinye aka na-ejikọta ihe niile, na-eme ka nguzozi uru (Nkebi nke 5).
 
-! [Alt ederede](/content-images/image-30-98511eb2d0.webp)
+! [Alt ederede](image-30.png)
 
 Trace the privacy: the network checked the anchor, checked the nullifier was fresh, verified the proof, and verified balance. It accepted a valid payment **having learned no amount, no address, and not which note was spent.** Meanwhile the spent note's **nullifier** (its death) and Bob's new **commitment** (his note's birth) sit in two different public structures with no visible link between them, the severed link from Article 0.
 
@@ -198,7 +198,7 @@ The amounts are hidden, but each is wrapped in a homomorphic value commitment, a
 
 Ugbu a, i sila n'otu ihe dị mgbagwoju anya gaa n'ịkwụ ụgwọ zuru ezu:
 
-! [Alt ederede](/content-images/cd8bbb40-57b8-4854-b9cf-97f2485d126a-8847fae521.webp)
+! [Alt ederede](https://github.com/user-attachments/assets/cd8bbb40-57b8-4854-b9cf-97f2485d126a)
 
 
 From here, the natural next arc goes deeper: the inner workings of Groth16 and Halo 2, trusted-setup ceremonies, the Sapling and Orchard circuits in detail, key derivation and diversified addresses, and the protocol's evolution across network upgrades. But the foundation is now in place, and every one of those topics has a home to attach to.

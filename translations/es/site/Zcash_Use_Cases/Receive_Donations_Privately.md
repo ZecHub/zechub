@@ -1,4 +1,4 @@
-# <img src="/content-images/money-business-and-finance-svgrepo-com-eac0e054bd.svg" width="24" height="24" alt="icono de finanzas"/> Recibe donaciones de forma privada con Zcash
+# <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/money-business-and-finance-svgrepo-com.svg" width="24" height="24" alt="icono de finanzas"/> Recibe donaciones de forma privada con Zcash
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
@@ -15,7 +15,7 @@
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de usuario"/> ¿Para quién es esto?
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de usuario"/> ¿Para quién es esto?
 - Creadores que aceptan donaciones
 - Colaboradores de código abierto
 - Comunidades que recaudan fondos
@@ -23,7 +23,7 @@
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de advertencia"/> El problema
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de advertencia"/> El problema
 
 La mayoría de las criptomonedas exponen todo:
 - El saldo de tu billetera
@@ -37,7 +37,7 @@ Esto crea riesgos serios:
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de caja de herramientas"/> ¿Por qué Zcash?
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de caja de herramientas"/> ¿Por qué Zcash?
 
 Las transacciones blindadas de Zcash ocultan:
 - Dirección del remitente
@@ -48,7 +48,7 @@ Esto te permite recibir fondos **sin exponer tu grafo financiero**.
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de caja de herramientas"/> Lo que necesitas
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de caja de herramientas"/> Lo que necesitas
 
 - Una billetera de Zcash que admita direcciones blindadas:
   - Zashi
@@ -57,7 +57,7 @@ Esto te permite recibir fondos **sin exponer tu grafo financiero**.
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de paso"/> Guía paso a paso
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de paso"/> Guía paso a paso
 
 ### Paso 1: Crea una dirección blindada
 Abre tu billetera y genera una **z-address**.
@@ -86,7 +86,7 @@ Anima a los donantes a:
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de cancelación"/> Errores comunes que debes evitar
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de cancelación"/> Errores comunes que debes evitar
 
 - Compartir una dirección transparente (t)  
 - Publicar tu billetera junto con tu identidad personal  
@@ -95,7 +95,7 @@ Anima a los donantes a:
 
 <br/>
 
-## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="icono de completado"/> Resultado
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="icono de completado"/> Resultado
 
 Puedes:
 - Recibir donaciones de forma privada
@@ -104,14 +104,14 @@ Puedes:
 
 <br/>
 
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de enlaces de cadena"/> Relacionado
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de enlaces de cadena"/> Relacionado
 
 - [Privacidad - Blindado vs Transparente](/privacy/shielded-vs-transparent)
 - [Billeteras](/wallets)
 
 <br/>
 
-## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de progreso"/> Progreso
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/progress-arrows-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icono de progreso"/> Progreso
 
 **Paso 1 de 6**
 

@@ -3,7 +3,7 @@
 published: 2023-12-07
 ---
 
-![CBDC](/content-images/cbdc-dfb8827faa.webp)
+![CBDC](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/cbdc.webp)
 # Karanlık Yüzü Ortaya Çıkarmak: Finansal Gölgeler Arasında Merkez Bankası Dijital Parası (CBDC) Yolculuğunda İlerlemek
 Yazan: [**Abhishek Tiwari**]
 
@@ -38,7 +38,7 @@ CBDC'leri hayata geçirmek, kahramanımızın görevi hâline gelir; teknik, dü
 __Çin: Digital Currency Electronic Payment (DCEP)__
 
 
-![DCEP](/content-images/dcep-featured-c278cf0ef6.webp)
+![DCEP](https://forkast.news/wp-content/uploads/2020/08/dcep-featured.jpg)
 
 Çin’in distopik sokaklarında Digital Currency Electronic Payment (DCEP), bir harika olarak değil, kendi uğursuz finansal gölgeleriyle birlikte toplumsal kontrolün habercisi olarak açığa çıkıyor. Gündelik işlemler, programlanabilir para ve çevrimdışı yeteneklerin cazibesi sayesinde canlılık kazanıyor.
 
@@ -51,7 +51,7 @@ DCEP, gündelik işlemleri sorunsuz biçimde kolaylaştırmak üzere tasarlanmı
 
 __Amerika Birleşik Devletleri: Digital Dollar Project__
 
-![Digital Dollar](/content-images/digital-dollar-CBDC-8e8120f52f.webp)
+![Digital Dollar](https://www.ledgerinsights.com/wp-content/uploads/2020/03/digital-dollar-CBDC.jpg)
 
 Amerika Birleşik Devletleri’nin geniş ve kasvetli manzaralarında Digital Dollar Project, ilerlemenin bir feneri olarak değil, kendi belirsizlik payıyla birlikte verimliliğin ve kapsayıcılığın bir göstergesi olarak ortaya çıkıyor. Özel sektör girişimi olan bu proje, kurumsal kontrol tonlarıyla bezenmiş bir anlatıda finansal manzarayı yeniden şekillendirmeyi amaçlıyor.
 
@@ -63,7 +63,7 @@ ABD’nin finansal düzenleme konusunda karmaşık bir geçmişi vardır; mahrem
 
 __İsveç: E-Krona__
 
-![E-Krona](/content-images/ekrona_logo-4596e38b72.webp)
+![E-Krona](https://www.paymentscardsandmobile.com/wp-content/uploads/2018/10/ekrona_logo.png)
 
 İsveç’in ıssız manzaralarında ilerlerken E-Krona, finansal tuzaklardan yoksun olmayan bir uyum sağlama anlatısı olarak ortaya çıkıyor. Nakitin kullanılmadığı bir toplumda para birimine erişimi sürdürmeye odaklanan dijital bir evrimi temsil ediyor; fiziksel nakdin tanıdık rahatlıklarından yoksun bir toplumu resmediyor.
 
@@ -96,7 +96,7 @@ Bir zamanlar uzak bir kavram olan devlet gözetimi, potansiyel bir antagoniste d
 
 Bir zamanlar umut ışığı olan finansal kapsayıcılık, potansiyel ayrımcılığın gölgeleriyle karşı karşıya kalıyor. CBDC'lerin kötüye kullanılması, seçici erişime yol açabilir ve eşit muamele ile kapsayıcılık ilkelerini ihlal edebilir. Bu, finansal özgürlüğün özüne meydan okuyan bir alt kurgudur.
 
-![Flow](/content-images/futureofCBDC-2-45075d2d9c.webp)
+![Flow](https://blog.digitalasset.com/hubfs/Imported_Blog_Media/futureofCBDC-2.png)
 
 ## Kaynaklar: Dijital Kâşif İçin Bir Harita
 

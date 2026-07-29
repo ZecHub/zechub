@@ -42,7 +42,7 @@ Die Schwelle von fünf Bestätigungen ist die entscheidende Zahl. Alles davor is
 
 ZGo läuft in jedem modernen Browser auf Desktop oder Mobilgeräten, ohne Installation auf einer der beiden Seiten. Der Kunde benötigt eine Zcash-Wallet; der Händler benötigt eine Zcash-Wallet und ein ZGo-Konto.
 
-<img width="672" height="378" alt="Übersicht über ZGo-Zahlungsanforderung und Blockchain-Überwachung" src="/content-images/de50885b-b068-4157-bbda-0981ca23efc8-a00a274776.webp" />
+<img width="672" height="378" alt="Übersicht über ZGo-Zahlungsanforderung und Blockchain-Überwachung" src="https://github.com/user-attachments/assets/de50885b-b068-4157-bbda-0981ca23efc8" />
 
 ## Einrichten eines Kontos
 
@@ -77,7 +77,7 @@ Für die erstmalige Einrichtung folgen Sie der speziellen Schritt-für-Schritt-A
 
 Für Online-Shops auf Basis von [WooCommerce](https://woocommerce.com/) und [WordPress](https://wordpress.org/) bietet ZGo ein eigenes Plugin. Das Plugin fügt Zcash an der Kasse als Zahlungsmethode hinzu und verarbeitet den Bestellstatus automatisch, sobald die Zahlung bestätigt ist.
 
-<img width="672" height="378" alt="ZGo WooCommerce-Plugin: Checkout- und Bestellablauf" src="/content-images/55a791bb-1947-4f55-b5b9-55083be8ed49-2bc8d2571e.webp" />
+<img width="672" height="378" alt="ZGo WooCommerce-Plugin: Checkout- und Bestellablauf" src="https://github.com/user-attachments/assets/55a791bb-1947-4f55-b5b9-55083be8ed49" />
 
 Durchgängiger Ablauf innerhalb eines WooCommerce-Shops:
 

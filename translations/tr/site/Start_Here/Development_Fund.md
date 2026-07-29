@@ -17,7 +17,7 @@ Blok üreticileri (diğer adıyla madenciler), bir ağdaki işlemleri doğrulama
 Bitcoin ve diğer kripto paralarda, blok ödüllerinin tamamı blok üreticilerine gider. Zcash, blok ödülünün %20'sinin [Zcash geliştirme fonuna](https://zips.z.cash/zip-1014) aktarılması bakımından benzersizdir. Bu fon, Zcash protokolü üzerinde çalışan ekipleri finanse eder.
 
 Şu anda [Zcash Community Grants](https://zcashcommunitygrants.org/) blok ödüllerinin %8'ini, Electric Coin Co. %7'sini ve Zcash Foundation %5'ini almaktadır. Bu da geliştirme fonunun sırasıyla %40, %35 ve %25'ine karşılık gelir.
-![Geliştirme Fonu Alıcıları ](/content-images/212411570-4858a3d6-f7a1-465a-bf0c-d2ef72-1efe3a104e.webp)
+![Geliştirme Fonu Alıcıları ](https://user-images.githubusercontent.com/43553081/212411570-4858a3d6-f7a1-465a-bf0c-d2ef726d41dc.jpeg)
 
 2020 yılında Zcash topluluğu, geliştirme fonu ve onun tarafından desteklenen ekipler hakkında oylama yaptı. 2024 yılında topluluk, geliştirme fonundan kimin finansman alacağını belirlemek için yeniden oylama yapacaktır.
 
@@ -30,11 +30,11 @@ Hibrit Ertelenmiş Geliştirme Fonu Kasası, Zcash geliştirme fonunun yeni nesl
 
 %20'lik Geliştirme Fonu Kasası'nın uygulanması kararı, topluluk odaklı kapsamlı bir süreç sonucunda alındı. Bu süreç, iki tur Zcash Community Advisory Panel (ZCAP) anketinin yanı sıra ekosistem genelinde yapılan çeşitli anketleri de içeriyordu. Bu anketler, geniş bir paydaş yelpazesinin görüşlerini ifade etmesine ve karar alma sürecine katkıda bulunmasına olanak tanıdı.
 
-![](/content-images/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd-8f378b3e3d.webp)
+![](https://global.discourse-cdn.com/zcash/original/3X/f/d/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd.png)
 
 Geliştirme fonu kasası ertelenmiş olduğundan (yani fonların daha sonraki bir tarihte bir ağ yükseltmesi aracılığıyla kilidi açılacağından), Zcash Topluluğu yakında fonlar için bir dağıtım mekanizmasına karar verecektir. Önerilen seçeneklerden biri, 'Zbloc' adlı merkeziyetsiz yönetişim mekanizmasıdır. 
 
-![Merkeziyetsiz yönetişimin olası yeni biçimi](/content-images/99588d6f43a3143cb3616e8a89df5125e855ba39-5688d8901f.webp)
+![Merkeziyetsiz yönetişimin olası yeni biçimi](https://global.discourse-cdn.com/zcash/original/3X/9/9/99588d6f43a3143cb3616e8a89df5125e855ba39.png)
 
 ## Kaynaklar
 

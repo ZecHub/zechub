@@ -6,7 +6,7 @@
 
 2019년에 발표된 이 프로토콜은 Zerocoin을 기반으로 합니다. **Firo**(이전 이름: Zcoin) 통화에서 체인 상의 비공개 거래를 가능하게 하기 위해 사용됩니다. Zcash와 유사한 점도 있지만, 대부분의 측면에서는 명확히 다른 점이 있습니다.
 
-![Lelantus 소개](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
+![Lelantus 소개](https://pbs.twimg.com/media/Fsk18DgXsAEc0Ob.jpg)
 
 ---
 
@@ -15,7 +15,7 @@
 - **Zcash** - **Zerocash** 프로토콜을 기반으로 함  
 - **Firo (Zcoin)** - **Zerocoin** 프로토콜을 기반으로 함
 
-![Zerocash vs Zerocoin 비교](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
+![Zerocash vs Zerocoin 비교](https://pbs.twimg.com/media/Fsk2Fk7WcAA81ty.png)
 
 ---
 
@@ -28,7 +28,7 @@ Zcash와 유사하게, Firo는 비공개 주소를 사용하여 익명 결제를
 - **Sigma** - 고정 금액 시스템 수정됨
 - **Lelantus 1.0** - 올바른 보안 증명이 부족함
 
-![프로토콜 진화](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
+![프로토콜 진화](https://pbs.twimg.com/media/Fsk2NdaWAAAKVgH.png)
 
 ---
 
@@ -38,7 +38,7 @@ Zcash와 유사하게, Firo는 비공개 주소를 사용하여 익명 결제를
 
 이로 인해 익명 집합이 작아졌고, 발행과 환불 작업 사이의 타이밍 공격에 취약하게 되었으며, "오염된 잔금" 문제도 발생했습니다.
 
-![Sigma 금액](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
+![Sigma 금액](https://pbs.twimg.com/media/Fsk2fxfWcAMUBDo.png)
 
 ---
 
@@ -53,7 +53,7 @@ Zcash와 유사하게, Firo는 비공개 주소를 사용하여 익명 결제를
 
 **한계**: 현재 세트 크기는 **65,000 코인**으로 제한됨.
 
-![Lelantus 이점](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
+![Lelantus 이점](https://pbs.twimg.com/media/Fsk2wK3X0AA6MEe.png)
 
 ---
 
@@ -65,7 +65,7 @@ Zcash와 유사하게, Firo는 비공개 주소를 사용하여 익명 결제를
 
 코인이 생성될 때 (Mint 또는 Spend 거래를 통해), 이 커밋먼트는 공개되고 장부에 저장됩니다.
 
-![코인 커밋먼트 다이어그램](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
+![코인 커밋먼트 다이어그램](https://pbs.twimg.com/media/Fsk3AWNX0AIHya8.png)
 
 ---
 
@@ -77,7 +77,7 @@ Lelantus는 고전적인 **basecoin < - > zerocoin** 모델을 사용합니다.
 
 Zcash와 마찬가지로, 투명 거래는 사용자가 명시적으로 선택해야 합니다.
 
-![Lelantus 흐름](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
+![Lelantus 흐름](https://pbs.twimg.com/media/Fsk3HrjXgAMgqmX.png)
 
 ---
 
@@ -87,7 +87,7 @@ Lelantus는 **하나 중 하나 증명**(One-of-Many Proofs)을 사용하여 입
 
 이 증명은 또한 **Triptych** (우리의 CryptoNote 스레드에서 언급됨)에도 사용됩니다.
 
-![하나 중 하나 증명](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
+![하나 중 하나 증명](https://pbs.twimg.com/media/Fsk3Z0nWIAAPD4k.jpg)
 
 ---
 
@@ -103,7 +103,7 @@ Monero와 유사하게, Firo는 거래 방송자의 IP 주소를 암호화하여
 
 이로 인해 네트워크 분석을 통해 거래의 출처를 추적하는 것이 훨씬 어려워집니다.
 
-![Dandelion++ 설명](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
+![Dandelion++ 설명](https://pbs.twimg.com/media/Fsk4A8VWcAU84MR.png)
 
 ---
 
@@ -117,7 +117,7 @@ Monero와 유사하게, Firo는 거래 방송자의 IP 주소를 암호화하여
 
 이 기능은 Zcash Shielded Assets과 유사합니다.
 
-![Lelantus-Spark 발표](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
+![Lelantus-Spark 발표](https://pbs.twimg.com/media/Fsk4jXeXsAACQ3h.jpg)
 
 ---
 

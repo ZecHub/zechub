@@ -52,7 +52,7 @@ FROST protokolü iki önemli bileşen içerir:
 Daha sonra, n içinden herhangi bir t katılımcı birlikte geçerli bir Schnorr imzası üretmek için bir eşik imzalama protokolü çalıştırabilir.
 
 <a href="">
-    <img src="/content-images/1634081807-frost-flexible-round-optimize-3697a713d9.webp" alt="" width="400" height="300"/>
+    <img src="https://static.cryptohopper.com/images/news/uploads/1634081807-frost-flexible-round-optimized-schnorr-threshold-signatures-1.jpg" alt="" width="400" height="300"/>
 </a>
 
 ## Görsel / Benzetme
@@ -76,7 +76,7 @@ Bu aşama, her imza için nonce'u etkileşimsiz şekilde üretmek amacıyla topl
 Ön işleme aşamasında, her katılımcı daha sonra kullanmak üzere sabit sayıda Eliptik Eğri (EC) noktası çifti hazırlar. Bu aşama, birden fazla eşik imzalama aşaması boyunca bir kez çalıştırılır.
 
 <a href="">
-    <img src="/content-images/preprocess-5cbb14f892.webp" alt="" width="400" height="300"/>
+    <img src="https://i.ibb.co/nQD1c3n/preprocess.png" alt="" width="400" height="300"/>
 </a>
 
 İmzalama Turu 1: Her katılımcı Pᵢ, tek bir özel nonce çifti (dᵢ, eᵢ) ve buna karşılık gelen EC noktaları çifti (Dᵢ, Eᵢ) üreterek başlar, ardından bu nokta çiftini diğer tüm katılımcılara yayınlar. Her katılımcı bu EC noktası çiftlerini daha sonra kullanmak üzere saklar. İmzalama turları 2 ve 3, n içinden t katılımcının birlikte geçerli bir Schnorr imzası oluşturduğu asıl işlemlerdir.
@@ -86,7 +86,7 @@ Bu aşama, her imza için nonce'u etkileşimsiz şekilde üretmek amacıyla topl
 Bu adım sahtecilik saldırılarını engeller çünkü saldırganlar farklı imzalama işlemlerindeki imza paylarını birleştiremez veya her imzacı için imzacı kümesini ya da yayınlanan noktaları permüte edemez.
 
 <a href="">
-    <img src="/content-images/sign-402794d36a.webp" alt="" width="400" height="300"/>
+    <img src="https://i.ibb.co/b5rJbXx/sign.png" alt="" width="400" height="300"/>
 </a>
 
 Meydan okuma c hesaplandıktan sonra, her katılımcı tek kullanımlık nonce'ları ve grubun uzun ömürlü anahtarının t-içinden-n (derece t-1) Shamir gizli payları olan uzun vadeli gizli payları kullanarak yanıt zᵢ'yi hesaplayabilir. İmzalama turu 2'nin sonunda her katılımcı zᵢ'yi diğer katılımcılara yayınlar.

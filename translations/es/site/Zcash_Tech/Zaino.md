@@ -17,13 +17,13 @@ Además, Zaino permitirá separar la funcionalidad del cliente ligero del nodo c
 ## Algunos diagramas que muestran cómo funciona Zaino
 
 ### Arquitectura interna de Zaino
-![Arquitectura interna de Zaino](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
+![Arquitectura interna de Zaino](https://i.ibb.co/mRTNtfy/image-2025-01-02-190143429.png)
 
 ### Arquitectura del servicio en vivo de Zaino
-![Arquitectura del servicio en vivo de Zebra](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
+![Arquitectura del servicio en vivo de Zebra](https://i.ibb.co/x7dbRY8/image-2025-01-02-190349017.png)
 
 ### Arquitectura del sistema de Zaino
-![Arquitectura del sistema de Zaino](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
+![Arquitectura del sistema de Zaino](https://i.ibb.co/wwL0XZv/image-2025-01-02-190448037.png)
 
 
 ## ¿Dónde puedo aprender más?

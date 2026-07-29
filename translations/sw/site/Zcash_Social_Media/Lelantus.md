@@ -6,7 +6,7 @@ Leo tunaangalia **Lelantus**!
 
 Iliyotolewa mnamo 2019, itifaki hii inajengwa juu ya Zerocoin. Inatumika katika sarafu ya ** Firo ** (zamani Zcoin) kuwezesha shughuli za kibinafsi kwenye mnyororo. Inafanana na Zcash kwa njia kadhaa lakini ni tofauti kabisa katika nyanja nyingi.
 
-[Lelantus utangulizi](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
+[Lelantus utangulizi](https://pbs.twimg.com/media/Fsk18DgXsAEc0Ob.jpg)
 
 ---
 
@@ -15,7 +15,7 @@ Iliyotolewa mnamo 2019, itifaki hii inajengwa juu ya Zerocoin. Inatumika katika 
 - ** Zcash ** - Hujenga juu ya ** Zerocash ** itifaki 
 - **Firo (Zcoin) ** - Hujenga juu ya **Zerocoin** itifaki
 
-![Zerocash dhidi ya kulinganisha Zerocoin](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
+![Zerocash dhidi ya kulinganisha Zerocoin](https://pbs.twimg.com/media/Fsk2Fk7WcAA81ty.png)
 
 ---
 
@@ -28,7 +28,7 @@ Mfuatano wa matukio:
 - ** Sigma ** - Fixed jina mfumo
 - **Lelantus 1.0** - Kukosa uthibitisho sahihi wa usalama
 
-[Protocol mageuzi](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
+[Protocol mageuzi](https://pbs.twimg.com/media/Fsk2NdaWAAAKVgH.png)
 
 ---
 
@@ -38,7 +38,7 @@ Mfuatano wa matukio:
 
 Hii iliunda seti ndogo za kutokujulikana na kufungua mlango wa mashambulizi ya wakati kati ya shughuli za mint na redeem (pamoja na shida ya "badilishaji iliyochafuliwa").
 
-![Sigma madhehebu](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
+![Sigma madhehebu](https://pbs.twimg.com/media/Fsk2fxfWcAMUBDo.png)
 
 ---
 
@@ -53,7 +53,7 @@ Faida kuu:
 
 **Upungufu**: Ukubwa wa seti kwa sasa umepunguzwa kwa sarafu **65,000**.
 
-[Lelantus faida](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
+[Lelantus faida](https://pbs.twimg.com/media/Fsk2wK3X0AA6MEe.png)
 
 ---
 
@@ -65,7 +65,7 @@ Hizi kazi sawa na ** Notes ** katika Zcash.
 
 sarafu ahadi ni kuchapishwa na kuhifadhiwa juu ya kitabu wakati sarafu ni kuundwa (kupitia Mint au kutumia shughuli).
 
-[Mchoro wa kujitolea kwa sarafu](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
+[Mchoro wa kujitolea kwa sarafu](https://pbs.twimg.com/media/Fsk3AWNX0AIHya8.png)
 
 ---
 
@@ -77,7 +77,7 @@ Lelantus inatumia classic **basecoin < - > zerocoin** mfano.
 
 Kama Zcash, shughuli uwazi lazima wazi kuchaguliwa na mtumiaji.
 
-[Lelantus mtiririko](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
+[Lelantus mtiririko](https://pbs.twimg.com/media/Fsk3HrjXgAMgqmX.png)
 
 ---
 
@@ -87,7 +87,7 @@ Lelantus hutumia ** One-of-Many Proofs ** kutoa maadili ya kuingiza muhimu kwa k
 
 Uthibitisho huu pia hutumiwa katika **Triptych** (iliyotajwa katika thread yetu ya CryptoNote).
 
-[Uthibitisho wa Moja-ya-Mengi](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
+[Uthibitisho wa Moja-ya-Mengi](https://pbs.twimg.com/media/Fsk3Z0nWIAAPD4k.jpg)
 
 ---
 
@@ -103,7 +103,7 @@ Kama Monero, Firo kutekelezwa ** Dandelion ++ ** kuongeza faragha kwa obfuscatin
 
 Hii inafanya kuwa vigumu sana kufuatilia asili ya manunuzi kupitia uchambuzi wa mtandao.
 
-![Dandelion++ maelezo](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
+![Dandelion++ maelezo](https://pbs.twimg.com/media/Fsk4A8VWcAU84MR.png)
 
 ---
 
@@ -117,7 +117,7 @@ Pia itaongeza msaada kwa:
 
 Hizi makala sambamba Zcash Shielded Mali.
 
-[Lelantus-Spark tangazo](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
+[Lelantus-Spark tangazo](https://pbs.twimg.com/media/Fsk4jXeXsAACQ3h.jpg)
 
 ---
 

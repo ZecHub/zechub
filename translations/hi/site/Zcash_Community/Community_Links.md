@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-174147713-63a42e536c.webp" alt="Alt Text" width="400"/> Zcash समुदाय लिंक
+# <img src="https://i.ibb.co/qYhRbJM/image-2024-02-03-174147713.png" alt="Alt Text" width="400"/> Zcash समुदाय लिंक
 
 Zcash समुदाय लोगों का एक जीवंत समूह है, जो ZEC को दुनिया में सबसे व्यापक रूप से उपयोग की जाने वाली privacy-preserving cryptocurrencies में से एक बनाने की दिशा में काम कर रहा है। यह समुदाय दुनिया भर के विविध लोगों से बना है - developers, educators, advocates, और builders - जो financial privacy में साझा विश्वास से एकजुट हैं।
 
@@ -10,11 +10,11 @@ Zcash समुदाय लोगों का एक जीवंत समू
 
 ## आप समुदाय के सदस्यों को कहाँ पा सकते हैं
 
-### <img src="/content-images/image-2024-02-03-173937048-148e401d5e.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Telegram</span>
+### <img src="https://i.ibb.co/qBrb4qK/image-2024-02-03-173937048.png" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Telegram</span>
 
 Zcash समुदाय अपने समुदाय <span translate="no" class="notranslate">Telegram</span> में बहुत सक्रिय है। रोज़मर्रा की बातों पर चर्चा करने, समाचार और अपडेट्स साझा करने, और अन्य समुदाय सदस्यों से मिलने के लिए जुड़ें: [t.me/Zcash_Community](https://t.me/Zcash_Community)
 
-### <img src="/content-images/image-2024-02-03-174056252-8a6a76eabf.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Discord</span>
+### <img src="https://i.ibb.co/kxVwQxM/image-2024-02-03-174056252.png" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Discord</span>
 
 - [Zcash Global](https://discord.gg/zcash) - मुख्य समुदाय सर्वर
 - [Zcash R&D](https://discord.gg/xpzPR53xtU) - प्रोटोकॉल और developer चर्चाएँ
@@ -34,7 +34,7 @@ Zcash समुदाय अपने समुदाय <span translate="no" cl
 
 [Zcash Community Forum](https://forum.zcashcommunity.com/) Zcash पर लंबी-रूप चर्चा का केंद्र है - governance, grant proposals, technical debate, और ecosystem announcements। अब ECC के ZODL में transition के बाद इसकी stewardship Zcash Foundation को स्थानांतरित हो गई है।
 
-### <img src="/content-images/image-2024-02-03-174240928-7a8f751301.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
+### <img src="https://i.ibb.co/mqKfr62/image-2024-02-03-174240928.png" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
 
 X पर Zcash की वैश्विक उपस्थिति सक्रिय है। फ़ॉलो करने योग्य प्रमुख अकाउंट्स:
 

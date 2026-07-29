@@ -1,7 +1,7 @@
 # Como uma Transação Shielded de Zcash Realmente Funciona
 ##### Pesquisa original de [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![texto alternativo](/content-images/image-fedc371488.webp)
+![texto alternativo](image.png)
 
 ### A intuição antes da matemática: uma explicação sem fórmulas sobre pagamentos privados
 
@@ -46,7 +46,7 @@ O dinheiro pode até atravessar a fronteira entre eles: mover fundos *para dentr
 
 O mundo transparente é "o Bitcoin que você já entende mais ou menos". É o **mundo shielded** que contém toda a bela criptografia, e é o único mundo com o qual esta série se importa.
 
-![texto alternativo](/content-images/image-1-f821d24c6f.webp)
+![texto alternativo](image-1.png)
 
 ---
 
@@ -124,7 +124,7 @@ O milagre é que a prova não revela **nenhum** desses fatos. Nem o valor, nem o
 
 Uma note *nasce*, *vive* no quadro e, eventualmente, *morre* e, crucialmente, seu nascimento e sua morte parecem não ter relação para qualquer observador.
 
-![texto alternativo](/content-images/image-2-0eca0ea4f7.webp)
+![texto alternativo](image-2.png)
 
 ---
 
@@ -132,7 +132,7 @@ Uma note *nasce*, *vive* no quadro e, eventualmente, *morre* e, crucialmente, se
 
 Vamos observar Alice pagar Bob, com cada passo público e privado rotulado.
 
-![texto alternativo](/content-images/image-4-7af0dfe795.webp)
+![texto alternativo](image-4.png)
 
 Observe a assimetria que faz a privacidade funcionar:
 
@@ -187,7 +187,7 @@ Um bom conteúdo educacional conquista confiança ao dizer o que deixou de fora.
 
 Cada "voltaremos a isso" acima é um fio. Aqui está onde cada um deles é amarrado:
 
-![texto alternativo](/content-images/image-29-27ef4636ff.webp)
+![texto alternativo](image-29.png)
 
 | Ponta solta deste artigo | Onde ela é resolvida |
 |---|---|

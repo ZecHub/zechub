@@ -11,32 +11,32 @@ Free2Z surgió como una plataforma centrada en la privacidad, creada para empode
 * Primero, crea una cuenta en su sitio web oficial [https://free2z.cash](https://free2z.cash).
 * Ubica el botón de inicio de sesión en la esquina superior derecha de la página. Ingresa tus credenciales. También puedes crear una cuenta con tu dirección de correo electrónico o tu cuenta de X.
 
-![](/content-images/IMG-9351-6cb6b07d52.webp)
+![](https://i.ibb.co/VWhmwy4s/IMG-9351.jpg)
 
 * ¡Muchas felicitaciones por formar parte de la comunidad\! Ahora es momento de personalizar tu perfil subiendo un avatar, un banner y una descripción de quién eres y qué haces.
 
-![](/content-images/IMG-9360-5deeba8c68.webp)
+![](https://i.ibb.co/yBFPnr17/IMG-9360.jpg)
 
 * Asegúrate también de agregar tu dirección de Zcash en el campo de billetera para recibir donaciones y propinas de tus seguidores.
 
-![](/content-images/IMG-9361-5c9ce21046.webp)
+![](https://i.ibb.co/qLLKCr34/IMG-9361.jpg)
 
 **CARACTERÍSTICAS**
 
 **ZPages:** ZPages permite a los creadores compartir sus trabajos escritos con una comunidad más amplia. Un aspecto particularmente interesante de escribir en esta plataforma es que tu audiencia puede apoyar tu trabajo mediante donaciones, lo cual es una excelente forma de mostrar aprecio.
 
-![](/content-images/IMG-9365-e14bce4613.webp)
+![](https://i.ibb.co/BKyx1xc0/IMG-9365.jpg)
 
 **Conociendo los 2Zs**
 
 Estos son puntos que valen $0.01 en la plataforma. Con 2Zs, las personas pueden apoyar a sus creadores favoritos mediante donaciones y suscripciones. También pueden participar en actividades de la comunidad, como votar, comentar en ZPages, impulsar contenido y usar las funciones de transmisión en vivo.
 
-![](/content-images/IMG-9370-4264be0de0.webp)
+![](https://i.ibb.co/1G9YyMz7/IMG-9370.jpg)
 
 A través de donaciones, suscripciones y transmisiones en vivo de pago por visualización, puedes ganar 2Zs. También puedes comprar algunos puntos con ZEC simplemente escaneando tu código QR.
 
-![](/content-images/IMG-9381-2d8e6d7454.webp)
-![](/content-images/IMG-9379-6ca5049e12.webp)
+![](https://i.ibb.co/JjpCHK9N/IMG-9381.jpg)
+![](https://i.ibb.co/HLJDbFwX/IMG-9379.jpg)
 
 **Cómo iniciar una transmisión en vivo**
 
@@ -49,15 +49,15 @@ Haz clic en el ícono de tu perfil y aparecerá una lista desplegable. Seleccion
 
 Esta opción promete ofrecer cifrado de extremo a extremo, reuniones privadas y un enlace único de reunión que puede enviarse a los participantes.
 
-![](/content-images/IMG-9374-c374bec27e.webp)
+![](https://i.ibb.co/zTnTHXLz/IMG-9374.jpg)
 
 **¿Qué más puedes obtener de la transmisión en vivo?**
 
 La transmisión en vivo de Free2Z ofrece algunas ventajas únicas, como encuestas para la toma de decisiones y complementos como el uso compartido de documentos y la pizarra, que son perfectos para presentaciones, compartir pantalla, chats y mucho más.
 
-![](/content-images/IMG-9375-00d4b67876.webp)
-![](/content-images/IMG-9377-58999b233c.webp) 
+![](https://i.ibb.co/2m17ttc/IMG-9375.jpg)
+![](https://i.ibb.co/HfnTFFxs/IMG-9377.jpg) 
 
 Así es como se ve una sesión de transmisión en vivo en Free2Z
 
-![](/content-images/Screenshot-2025-05-25-053026-868bec29a2.webp)
+![](https://i.ibb.co/SwzQ6wPw/Screenshot-2025-05-25-053026.png)

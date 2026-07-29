@@ -15,7 +15,7 @@ Oggi le impariamo a conoscere e trattiamo una delle nuove funzionalità dell'eco
 
 **Transazione schermata** si riferisce a qualsiasi transazione con indirizzi codificati per le pool Sapling/Orchard.
 
-![Transparent vs Shielded intro](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
+![Transparent vs Shielded intro](https://pbs.twimg.com/media/FpmW00HWIAIZpQD.jpg)
 
 Gli **Unified Address (UA)** sono progettati per **unificare** le transazioni schermate o trasparenti in un unico indirizzo.
 
@@ -31,9 +31,9 @@ Ci sono 3 tipi di indirizzo in uso:
 
 Il numero di caratteri (e quindi la dimensione del codice QR) aumenta con ciascun tipo.
 
-![Address types comparison](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
+![Address types comparison](https://pbs.twimg.com/media/FpmXe5bXsAEFeLY.png)
 
-![QR code size comparison](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
+![QR code size comparison](https://pbs.twimg.com/media/FpmXmDwXoAIWxov.png)
 
 ---
 
@@ -50,7 +50,7 @@ La codifica grezza di un Unified Address è una combinazione di codifiche (typec
 
 **Importante**: deve esserci **almeno un indirizzo di pagamento schermato** in ogni UA. (Gli indirizzi Sprout non sono più supportati dopo l'aggiornamento Canopy.)
 
-![UA encoding structure](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
+![UA encoding structure](https://pbs.twimg.com/media/FpmYW1ZXgAAvALT.png)
 
 Specifica completa: **[ZIP-316: Unified Addresses](https://zips.z.cash/zip-0316)**
 

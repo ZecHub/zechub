@@ -1,4 +1,4 @@
-# <img src="/content-images/send-svgrepo-com-b62f643de0.svg" width="24" height="24" alt="أيقونة صحفي"/> أرسل الأموال دون ربط هويتك
+# <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/send-svgrepo-com.svg" width="24" height="24" alt="أيقونة صحفي"/> أرسل الأموال دون ربط هويتك
 
 <span className="inline-flex items-center gap-[6px]"><span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>متوسط - 7 دقائق</span>
 
@@ -11,7 +11,7 @@
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة مستخدم"/> لمن هذا؟
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة مستخدم"/> لمن هذا؟
 
 - أي شخص يرسل مدفوعات حساسة
 - المستخدمون المهتمون بالخصوصية
@@ -19,7 +19,7 @@
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة تحذير"/> المشكلة
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة تحذير"/> المشكلة
 
 غالبًا ما يكشف إرسال العملات الرقمية عن:
 - هوية محفظتك
@@ -30,7 +30,7 @@
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة صندوق أدوات"/> لماذا Zcash?
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة صندوق أدوات"/> لماذا Zcash?
 
 
 يتيح Zcash **تحويلات خاصة بالكامل** باستخدام المعاملات المحمية.
@@ -41,14 +41,14 @@
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة صندوق أدوات"/> ما الذي تحتاجه
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة صندوق أدوات"/> ما الذي تحتاجه
 
 - محفظة تدعم المعاملات المحمية
 - فهم أساسي لعناوين z
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة خطوة"/> دليل خطوة بخطوة
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة خطوة"/> دليل خطوة بخطوة
 
 ### الخطوة 1: تأكد من أن الأموال محمية
 
@@ -77,7 +77,7 @@
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة إلغاء"/> أخطاء شائعة يجب تجنبها
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة إلغاء"/> أخطاء شائعة يجب تجنبها
 
 - الإرسال مباشرة من العناوين الشفافة  
 - إعادة استخدام العناوين مع عدة أشخاص  
@@ -86,7 +86,7 @@
 
 <br/>
 
-## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة تم"/> النتيجة
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة تم"/> النتيجة
 
 يمكنك:
 - إرسال الأموال بشكل خاص
@@ -95,12 +95,12 @@
 
 <br/>
 
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة روابط السلسلة"/> ذو صلة
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة روابط السلسلة"/> ذو صلة
 - [الخصوصية - المحمي مقابل الشفاف](/privacy/shielded-vs-transparent)
 
 <br/>
 
-## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة التقدم"/> التقدم
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/progress-arrows-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة التقدم"/> التقدم
 
 **الخطوة 2 من 6**
 

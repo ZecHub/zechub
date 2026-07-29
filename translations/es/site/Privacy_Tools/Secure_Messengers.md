@@ -25,11 +25,11 @@ Las billeteras de escritorio y móviles de Zcash tienen una función integrada q
 
 Pruébalo: https://z.cash/wallets 
 
-![Memos cifrados de Zcash](/content-images/Zcash-1177103374-7bca37eb4d.webp)
+![Memos cifrados de Zcash](https://i.ibb.co/n8HbQZC/Zcash-1177103374.png)
 
 **Aplicación Signal**
 
-![Aplicación Signal](/content-images/signal-app-logo-scaled-454032876-81b24a0421.webp)
+![Aplicación Signal](https://i.ibb.co/7RbbxSs/signal-app-logo-scaled-454032876.jpg)
 
 Signal private messenger es una aplicación de mensajería segura con la privacidad de los datos en su máximo nivel. La aplicación Signal private messenger es gratuita y fácil de usar; los usuarios no necesitan experiencia previa. La aplicación Signal cuenta con una tecnología de cifrado de extremo a extremo que garantiza que tu comunicación sea completamente privada. Cualquiera que quiera enviar mensajes privados de forma segura debería considerar usar la aplicación Signal private messenger porque reducirá exponencialmente tanto tus vulnerabilidades de ciberseguridad como tu huella de datos.
 
@@ -37,7 +37,7 @@ Pruébalo: [https://signal.org/download](https://signal.org/download)
 
 **BisonRelay**
 
-![Bison Relay](/content-images/ogimg-v1-1000556235-9390372d1e.webp)
+![Bison Relay](https://i.ibb.co/ZxpBVNv/ogimg-v1-1000556235.jpg)
 
 La aplicación Bison Relay debutó en 2022. Bison Relay no depende de que los usuarios tengan cuentas: ¡increíble pero cierto! Aquí, cada mensaje que se envía y se recibe se paga individualmente a través de la Decred Lightning Network. El único propósito de esta aplicación es eliminar por completo la necesidad de cuentas al tiempo que minimiza los metadatos. Por otro lado, Bison Relay puso fin a la forma en que suele implementarse la censura. 
 
@@ -45,7 +45,7 @@ Pruébalo: [https://bisonrelay.org/download](https://bisonrelay.org/download)
 
 **Aplicación Session**
 
-![Aplicación Session](/content-images/logo-black-9e799f2b06.webp)
+![Aplicación Session](https://i.ibb.co/gdpwb1v/logo-black.png)
 
 Si todavía no sabes qué es la aplicación Session, ¡no te preocupes! Aquí tienes un vistazo: Session es uno de los mensajeros con cifrado de extremo a extremo más competitivos. La aplicación fue creada para minimizar los metadatos sensibles. La aplicación Session fue diseñada para personas que desean privacidad absoluta y libertad frente a cualquier forma de vigilancia. En la aplicación Session, los usuarios pueden crear una cuenta sin números de teléfono ni direcciones de correo electrónico, lo que significa que es completamente anónima. Los usuarios pueden enviar mensajes de forma segura a través de su red sin dejar rastro, por lo que no hay nada que se filtre.
 

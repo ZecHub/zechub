@@ -5,7 +5,7 @@
 Uma bem interessante hoje!  
 O protocolo **CryptoNote** permite forte privacidade on-chain. Hoje vamos aprender todas as suas principais funcionalidades e como ele foi implementado por vários projetos de privacidade notáveis.
 
-![Introdução ao CryptoNote](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
+![Introdução ao CryptoNote](https://pbs.twimg.com/media/FrXr5P8WIAAvx36.jpg)
 
 ---
 
@@ -35,7 +35,7 @@ Ao enviar uma transação, sua chave pública real é misturada com várias chav
 
 O **tamanho do anel** afeta significativamente o conjunto de anonimato. Anéis maiores proporcionam melhor privacidade.
 
-![Explicação das Assinaturas em Anel](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
+![Explicação das Assinaturas em Anel](https://pbs.twimg.com/media/FrXteGHXgAANE0F.png)
 
 **Comparação com Zcash**:  
 O conjunto de anonimato do Zcash é o número total de transações *já feitas* em um determinado pool blindado (muito maior do que os tamanhos típicos de anel do CryptoNote).
@@ -48,7 +48,7 @@ O modelo **Ring CT** melhorou muito a privacidade nas moedas baseadas em CryptoN
 
 Em vez de esconder apenas o remetente, o Ring CT também **ofusca os valores das transações** entre remetente e destinatário.
 
-![Diagrama do Ring CT](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
+![Diagrama do Ring CT](https://pbs.twimg.com/media/FrXuivgWYAAze7B.png)
 
 Ele usa:
 - Criptografia de Curva Elíptica
@@ -59,7 +59,7 @@ Ele usa:
 
 **Endereços furtivos** também adicionam endereços de uso único para o destinatário.
 
-![Endereços furtivos + Provas](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
+![Endereços furtivos + Provas](https://pbs.twimg.com/media/FrXut5aWAAMhuRb.jpg)
 
 ---
 
@@ -74,7 +74,7 @@ Ele usa o algoritmo **CryptoNight** (uma função memory-hard). Diferentemente d
 2. Realizar inúmeras operações de leitura/escrita no scratchpad
 3. Aplicar hash em todo o scratchpad para produzir o valor final
 
-![Mineração com CryptoNight](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
+![Mineração com CryptoNight](https://pbs.twimg.com/media/FrXvNs3XsAA37LG.jpg)
 
 (Observação: desde então, o Monero deixou de usar CryptoNight e migrou para outros algoritmos.)
 
@@ -86,7 +86,7 @@ Em vez de eventos repentinos de halving (como no Bitcoin), o CryptoNote usa uma 
 
 Isso cria uma curva de emissão muito mais suave ao longo do tempo.
 
-![Curva de emissão dinâmica](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
+![Curva de emissão dinâmica](https://pbs.twimg.com/media/FrXv8wpXoAEjUxW.png)
 
 **Conexão com Zcash**:  
 Desenvolvedores do Zcash discutiram implementar uma curva de emissão mais suave no futuro, potencialmente por meio de um "Zcash Posterity Fund".

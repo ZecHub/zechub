@@ -14,7 +14,7 @@ Kuna zana nyingi tofauti za PGP zinazopatikana, lakini baadhi ya maarufu zaidi n
 * **[PGPMail](https://www.openpgp.org/software/)**: PGPMail ni kibiashara PGP barua pepe mteja ambayo inapatikana kwa Windows na MacOS.
 * **[Amri za posta](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope ni bure na wazi chanzo PGP ugani kwa Gmail na Thunderbird.
 
-[PGP Tools]](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
+[PGP Tools]](https://github.com/ZecHub/zechub/assets/81990132/44984a75-800a-4f7a-94a5-88827e39b431)
 
 ## Jinsi ya Kuzalisha Funguo
 
@@ -28,7 +28,7 @@ Kwa kutumia PGP, unahitaji kuzalisha jozi ya funguo: Jinsi ya kuzalishwa funguo 
 
 PGP yako muhimu jozi itakuwa yanayotokana.
 
-[Kuzalisha Keys](/content-images/15721ce1-0a77-4ebe-87f4-33e1455f2a40-7699b1771d.webp)
+[Kuzalisha Keys](https://github.com/ZecHub/zechub/assets/81990132/15721ce1-0a77-4ebe-87f4-33e1455f2a40)
 
 ## Jinsi ya kutumia PGP kwa Barua pepe
 
@@ -36,7 +36,7 @@ Once you have generated a PGP key pair, you can use it to encrypt and decrypt em
 
 Barua pepe encrypted itakuwa unreadable kwa mtu yeyote ambaye hana mpokeaji wa ufunguo wa kibinafsi. Kwa decrypt barua pepe, mpokeaja anaweza kutumia ufunguoo wake binafsi kwa decryption barua pepe.
 
-[PGP Barua pepe](/content-images/dafb761d-f399-40c9-9323-526ba3bd0bc4-98503ad98b.webp)
+[PGP Barua pepe](https://github.com/ZecHub/zechub/assets/81990132/dafb761d-f399-40c9-9323-526ba3bd0bc4)
 
 ## Mazoea Bora
 
@@ -44,9 +44,9 @@ Hapa ni baadhi ya mazoea bora kwa ajili ya kutumia PGP:
 
 * Weka ufunguo wako binafsi salama. Funguo binafsi ni sehemu muhimu zaidi ya jozi yako PGP muhimu. Kama mtu anapata ufunguzi yako binafsi, wanaweza decrypt ujumbe wowote kwamba wamekuwa encrypted na ufunguoo yako ya umma.
 
-[Mazoea Bora 1](/content-images/39a6fae4-a9a1-4061-a97c-4a9b975f6383-eced005c8b.webp)
+[Mazoea Bora 1](https://github.com/ZecHub/zechub/assets/81990132/39a6fae4-a9a1-4061-a97c-4a9b975f6383)
 
-[Mazoea Bora 2](/content-images/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd-50ca49a070.webp)
+[Mazoea Bora 2](https://github.com/ZecHub/zechub/assets/81990132/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd)
 
 * Share your public key with people you trust. You can share your public key by sending it to them directly, or by uploading it to a PGP keyserver.
 * Tumia nywila kali kwa ajili ya keyring yako PGP. Keyring wako PGP ni faili ambayo kuhifadhi funguo zako PPG. Ni muhimu kutumia password nguvu kulinda faili hii.
@@ -61,11 +61,11 @@ Hapa ni baadhi ya mazoea bora kwa ajili ya kutumia PGP:
 * Bonyeza juu ya "Encrypt" kifungo.
 * Barua pepe itakuwa encrypted.
 
-[Encrypt Barua pepe](/content-images/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e-6edd4a03ea.webp)
+[Encrypt Barua pepe](https://github.com/ZecHub/zechub/assets/81990132/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e)
 
 ---
 
-[Encryption Mtiririko](/content-images/da1499e9-fc87-46b2-93ed-28d43cf1fd86-86fdc87d10.webp)
+[Encryption Mtiririko](https://github.com/ZecHub/zechub/assets/81990132/da1499e9-fc87-46b2-93ed-28d43cf1fd86)
 
 ## Jinsi ya decrypt barua pepe na PGP
 
@@ -76,4 +76,4 @@ Hapa ni baadhi ya mazoea bora kwa ajili ya kutumia PGP:
 * Bonyeza juu ya "Decrypt" kifungo.
 * Barua pepe hiyo itafunguliwa.
 
-[Kufungua Barua pepe](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)
+[Kufungua Barua pepe](https://github.com/ZecHub/zechub/assets/81990132/beae714c-020f-4c1e-aa4f-3dd9430670cc)

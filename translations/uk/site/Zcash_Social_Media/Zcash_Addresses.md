@@ -15,7 +15,7 @@
 
 **Shielded Transaction** означає будь-яку транзакцію з адресами, закодованими для пулів Sapling/Orchard.
 
-![Вступ до Transparent vs Shielded](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
+![Вступ до Transparent vs Shielded](https://pbs.twimg.com/media/FpmW00HWIAIZpQD.jpg)
 
 **Unified Addresses (UAs)** створені для того, щоб **об’єднати** shielded або transparent транзакції в одну адресу.
 
@@ -31,9 +31,9 @@
 
 Кількість символів (і, відповідно, розмір QR-коду) збільшується з кожним типом.
 
-![Порівняння типів адрес](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
+![Порівняння типів адрес](https://pbs.twimg.com/media/FpmXe5bXsAEFeLY.png)
 
-![Порівняння розміру QR-кодів](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
+![Порівняння розміру QR-кодів](https://pbs.twimg.com/media/FpmXmDwXoAIWxov.png)
 
 ---
 
@@ -50,7 +50,7 @@
 
 **Важливо**: У кожному UA має бути **принаймні одна shielded платіжна адреса**. (Адреси Sprout більше не підтримуються після оновлення Canopy.)
 
-![Структура кодування UA](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
+![Структура кодування UA](https://pbs.twimg.com/media/FpmYW1ZXgAAvALT.png)
 
 Повна специфікація: **[ZIP-316: Unified Addresses](https://zips.z.cash/zip-0316)**
 

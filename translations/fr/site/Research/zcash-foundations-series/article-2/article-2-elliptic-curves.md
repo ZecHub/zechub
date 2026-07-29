@@ -1,7 +1,7 @@
 # Courbes elliptiques : là où naissent les clés et les engagements de Zcash
 ##### Recherche originale de [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![texte alternatif](/content-images/image-10-c1097b22d7.webp)
+![texte alternatif](image-10.png)
 
 ### Une rue à sens unique construite à partir de points sur une courbe
 
@@ -38,7 +38,7 @@ y^2 = x^3 + ax + b
 
 Sur les nombres ordinaires, cela ressemble à une courbe lisse et ondulante, souvent avec une boucle arrondie et deux branches :
 
-![texte alternatif](/content-images/image-14-1d2e8c25d2.webp)
+![texte alternatif](image-14.png)
 
 La partie vraiment surprenante : **on peut « additionner » deux points sur cette courbe pour obtenir un troisième point sur la même courbe.** Ce n'est pas l'addition ordinaire des coordonnées. C'est une règle géométrique, et il est plus facile de la *voir* que de la décrire.
 
@@ -50,7 +50,7 @@ Pour additionner `P + Q` :
 2. Cette ligne coupe la courbe en exactement un autre point. Appelons-le `R*`.
 3. **Réfléchissez `R*` par rapport à l'axe horizontal.** Son reflet est la réponse, `P + Q`.
 
-![texte alternatif](/content-images/image-11-61f3df1989.webp)
+![texte alternatif](image-11.png)
 
 ### La règle de la tangente (additionner un point à lui-même)
 
@@ -117,7 +117,7 @@ Et maintenant, la magie. Considérons les deux directions :
 
 Cette asymétrie est la **rue à sens unique** dont nous avions besoin dans la section 1. Le problème inverse (« quel `k` a produit ce point ? ») s'appelle le **problème du logarithme discret sur courbe elliptique (ECDLP)** et, sur les courbes utilisées par Zcash, aucune méthode connue ne le résout avant la mort thermique de l'univers.
 
-![texte alternatif](/content-images/image-12-86b9ace6cb.webp)
+![texte alternatif](image-12.png)
 
 > Sur notre courbe jouet `F_17`, vous *pourriez* simplement lire `k` dans le tableau, parce qu'elle n'a que 19 points. Les vraies courbes ont environ `2^(255)` points. Le tableau aurait plus de lignes qu'il n'y a d'atomes dans l'univers, donc « lire la réponse dedans » n'est pas une option. C'est sa petite taille qui rend la courbe jouet pédagogique, et c'est aussi pourquoi elle n'est pas sûre.
 
@@ -160,7 +160,7 @@ Les empreintes sont concrètes et vérifiables.
 
 Les raisons pour lesquelles une courbe est « intégrée » dans le corps d'une autre, et pourquoi un *cycle* de deux courbes est utile, sont réelles et importantes, mais elles appartiennent aux articles sur les systèmes de preuve. Pour l'instant, la conclusion essentielle est solide : **chaque clé Zcash est un scalaire multiplié par un générateur, et chaque engagement Zcash est une somme de points de courbe**, vivant sur l'une de ces courbes nommées.
 
-![texte alternatif](/content-images/image-13-ffdd703c60.webp)
+![texte alternatif](image-13.png)
 
 ---
 

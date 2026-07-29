@@ -32,20 +32,20 @@ Firnを使用するには、プロトコルにETHを預け入れます。Firn残
 **[PantherProtocol](https://www.pantherprotocol.io/)**: ゼロ知識、クロスプロトコルレイヤーで、オンチェーンデータを保護し、コンプライアンスDeFiへのアクセスを可能にします。**どのように機能するか？** Pantherに資産を預け入れて、1対1の担保付きシールド資産であるzAssetsを使用できます。Pantherプール内で複数の資産タイプを保管しながら、ゼロ知識証明でオンチェーンデータを保護します。多くのLayer-1および2ブロックチェーンが異なる価値、アイデア、メカニズムを提示しているため、Pantherはそれらをプライバシーで接続するインフラを作成し、それらのいずれかがすべてを統合することを期待しません - [ホワイトペーパー](https://docs.pantherprotocol.io/) 
 
 
-**[Sienna Network](https://sienna.network/)**: Sienna.networkは、Secret Networkチェーン上のスワップおよび貸付コントラクトと相互作用できるプライバシー重視の分散型オープンソースフロントエンドです。他人に秘密トークンを提供して利回りを得たり、担保として資産を提供してトークンを借りたりできます。市場としてsBTC、sETH、sSCRT、sXMR、sLUNA、sUST、sUSDT、sUSDCなどがあります。Sienna Network（Layer-2プロトコル）が開発されました。SiennaLendは、複数のブロックチェーンエコシステムでプライバシーを保ちながら秘密裏に貸付を行う最初のプライベートローンプロトコルです。権限なしで、登録要件なし、預金上限なし、アカウント凍結のための中核的な当事者なし、SIENNAガバナンストークンによって統治されています - **資産スワップ**: はい - [ホワイトペーパー](https://sienna.network/whitepaper/) - ![Sienna Logo](/content-images/1-51y4R6V7JALmXtG_ZAsdcw-76d7d91c7a.webp)
+**[Sienna Network](https://sienna.network/)**: Sienna.networkは、Secret Networkチェーン上のスワップおよび貸付コントラクトと相互作用できるプライバシー重視の分散型オープンソースフロントエンドです。他人に秘密トークンを提供して利回りを得たり、担保として資産を提供してトークンを借りたりできます。市場としてsBTC、sETH、sSCRT、sXMR、sLUNA、sUST、sUSDT、sUSDCなどがあります。Sienna Network（Layer-2プロトコル）が開発されました。SiennaLendは、複数のブロックチェーンエコシステムでプライバシーを保ちながら秘密裏に貸付を行う最初のプライベートローンプロトコルです。権限なしで、登録要件なし、預金上限なし、アカウント凍結のための中核的な当事者なし、SIENNAガバナンストークンによって統治されています - **資産スワップ**: はい - [ホワイトペーパー](https://sienna.network/whitepaper/) - ![Sienna Logo](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*51y4R6V7JALmXtG_ZAsdcw.jpeg)
 ***
 
 
 **[Light Shield](https://shield.lightprotocol.com/)**: Lightは、Solana専用に設計されたオープンソースのLayer 2 zkLayerで、プライベートなプログラム実行を可能にします。Light Protocolはオンチェーン状態を暗号化できます。ユーザーのみがプライベートな状態を復号できるため、彼らはその状態を「所有」しています。プライベートな状態は1人のユーザーまたは復号鍵を共有する一連のユーザーによって所有できます。
-例えば、Solana上のNFTリストでは、公開状態（価格など）がすべてに見えるだけでなく、販売されているという事実も見えます。しかし、提示と取引はプライベートでなければなりません - **資産スワップ**: はい - [ホワイトペーパー](https://shield.lightprotocol.com/) - ![Light Shield Logo](/content-images/1-C4Pe23afCwS05seCeZWBLA-d85910d03f.webp)
+例えば、Solana上のNFTリストでは、公開状態（価格など）がすべてに見えるだけでなく、販売されているという事実も見えます。しかし、提示と取引はプライベートでなければなりません - **資産スワップ**: はい - [ホワイトペーパー](https://shield.lightprotocol.com/) - ![Light Shield Logo](https://miro.medium.com/v2/resize:fit:1358/1*C4Pe23afCwS05seCeZWBLA.png)
 ***
 
 
-**[Conceal Network](https://conceal.network/wiki/doku.php)**: Conceal Networkは、個人が匿名かつ分散型で通信し、財務的にやり取りできるように構築されています。Concealでは、送信者と受信者の間のトランザクションをリンクすることはできません。さらに、Concealはリング署名および一時アドレスを使用して本当に匿名な支払いを行います - **資産スワップ**: はい - [ホワイトペーパー](https://conceal.network/wiki/doku.php) - ![Conceal.png](/content-images/media_articles_01-ecae30ec1a.webp)
+**[Conceal Network](https://conceal.network/wiki/doku.php)**: Conceal Networkは、個人が匿名かつ分散型で通信し、財務的にやり取りできるように構築されています。Concealでは、送信者と受信者の間のトランザクションをリンクすることはできません。さらに、Concealはリング署名および一時アドレスを使用して本当に匿名な支払いを行います - **資産スワップ**: はい - [ホワイトペーパー](https://conceal.network/wiki/doku.php) - ![Conceal.png](https://conceal.network/images/media/media_articles_01.png)
 ***
 
 
-**[Namada](https://namada.net/testnets)**: TLDR: Namadaは、インターチェーン資産非依存プライバシーの証明付きLayer 1です。NamadaはIBC経由で高速確定チェーンと、信頼性のある二方向ブリッジ経由でイーサリアムとネイティブに相互運用します。プライバシーのために、Namadaはすべての資産（可換および不可換）が共通のシールドセットを共有できるようにした多資産シールドプール（MASP）回路のアップグレード版を展開しています – このようにして、CryptoKittyの転送はETH、DAI、ATOM、OSMO、NAM（Namadaのネイティブ資産）またはNamada上のその他の資産の転送と区別できません。 **資産スワップ**: はい - [ホワイトペーパー](https://docs.namada.net/) - ![Namada.png](/content-images/y4D30_VO_400x400-312a479be4.webp)
+**[Namada](https://namada.net/testnets)**: TLDR: Namadaは、インターチェーン資産非依存プライバシーの証明付きLayer 1です。NamadaはIBC経由で高速確定チェーンと、信頼性のある二方向ブリッジ経由でイーサリアムとネイティブに相互運用します。プライバシーのために、Namadaはすべての資産（可換および不可換）が共通のシールドセットを共有できるようにした多資産シールドプール（MASP）回路のアップグレード版を展開しています – このようにして、CryptoKittyの転送はETH、DAI、ATOM、OSMO、NAM（Namadaのネイティブ資産）またはNamada上のその他の資産の転送と区別できません。 **資産スワップ**: はい - [ホワイトペーパー](https://docs.namada.net/) - ![Namada.png](https://pbs.twimg.com/profile_images/1775529113102561281/y4D30_VO_400x400.jpg)
 ***
 
 
@@ -53,47 +53,47 @@ Firnを使用するには、プロトコルにETHを預け入れます。Firn残
 ***
 
 
-**[ZKSync](https://zksync.io/)**: zkSyncは、セキュリティを損なうことなく、イーサリアム上のLayer 2スケーラビリティソリューションで、低ガス料と高速トランザクションを提供します。いつでも資産をLayer 1に引き出すことができます。zkSyncエコシステム全体へのアクセスおよび安価で即時なトランザクションの恩恵を受けたい場合は、まず[Argentのようなウォレット](https://argent.link/zksync)が必要です。ウォレットがないと、ネットワークにオンボーディングすることはできず、CoinbaseやBinanceなどの取引所を通じてzkSyncにアクセスすることはできません。ウォレットは、暗号通貨を購入・売却・保管しやすくし、DeFi、NFTなど非常に多くの分野で活用できる世界を体験するための簡単な方法です - **資産スワップ**: はい - [ホワイトペーパー](https://era.zksync.io/docs/) - ![ZKSync.png](/content-images/63edde073465de1ef6bf89d3_zkSync-20Testne-3a4e9e2324.webp)
+**[ZKSync](https://zksync.io/)**: zkSyncは、セキュリティを損なうことなく、イーサリアム上のLayer 2スケーラビリティソリューションで、低ガス料と高速トランザクションを提供します。いつでも資産をLayer 1に引き出すことができます。zkSyncエコシステム全体へのアクセスおよび安価で即時なトランザクションの恩恵を受けたい場合は、まず[Argentのようなウォレット](https://argent.link/zksync)が必要です。ウォレットがないと、ネットワークにオンボーディングすることはできず、CoinbaseやBinanceなどの取引所を通じてzkSyncにアクセスすることはできません。ウォレットは、暗号通貨を購入・売却・保管しやすくし、DeFi、NFTなど非常に多くの分野で活用できる世界を体験するための簡単な方法です - **資産スワップ**: はい - [ホワイトペーパー](https://era.zksync.io/docs/) - ![ZKSync.png](https://assets-global.website-files.com/636e894daa9e99940a604aef/63edde073465de1ef6bf89d3_zkSync%20Testnet%20Faucet%20Tokens.webp)
 ***
 
 
-**[Penumbra](https://penumbra.zone/blog/valetudo-testnet/)**: Penumbraは、Cosmosエコシステム内にある完全にシールドされたLayer-1ネットワークです。これは、誰もが個人情報を世界中に公開することなく安全に取引、ステーキング、スワップ、マーケットメイキングできるクロスチェーンネットワークです。完全にシールドされたブロックチェーンとして、Penumbraはすべての値を1つのシールドプールに記録し、あらゆる種類の資産を記録できます。Penumbraではデフォルトでプライバシーがあり、透明な取引や透明な価値プールはありません - **資産スワップ**: はい - ![Penumbra.png](/content-images/CrNB0cKl_400x400-3bdcf7cfb9.webp)
+**[Penumbra](https://penumbra.zone/blog/valetudo-testnet/)**: Penumbraは、Cosmosエコシステム内にある完全にシールドされたLayer-1ネットワークです。これは、誰もが個人情報を世界中に公開することなく安全に取引、ステーキング、スワップ、マーケットメイキングできるクロスチェーンネットワークです。完全にシールドされたブロックチェーンとして、Penumbraはすべての値を1つのシールドプールに記録し、あらゆる種類の資産を記録できます。Penumbraではデフォルトでプライバシーがあり、透明な取引や透明な価値プールはありません - **資産スワップ**: はい - ![Penumbra.png](https://pbs.twimg.com/profile_images/1456245067149103104/CrNB0cKl_400x400.jpg)
 ***
 
 
-**[Ironfish Network](https://ironfish.network/)**: Ironfishはすべてのトランザクションを暗号化し、あなたの機密資産情報を公開から隠蔽します。読み取り専用ビュー鍵を使用して、コンプライアンスと制御を維持できます。Iron Fishは分散型Layer 1ブロックチェーンで、プルーフオブワーク（PoW）に基づき、検閲に耐性があり、公開アクセス可能なブロックチェーンプロジェクトです。これはすべてのトランザクションにおいて強力なプライバシー保証をサポートするように設計されています - **資産スワップ**: はい - [ホワイトペーパー](https://ironfish.network/learn/whitepaper) - ![Ironfish.png](/content-images/kxDDjheA_400x400-2aca14fa6f.webp)
+**[Ironfish Network](https://ironfish.network/)**: Ironfishはすべてのトランザクションを暗号化し、あなたの機密資産情報を公開から隠蔽します。読み取り専用ビュー鍵を使用して、コンプライアンスと制御を維持できます。Iron Fishは分散型Layer 1ブロックチェーンで、プルーフオブワーク（PoW）に基づき、検閲に耐性があり、公開アクセス可能なブロックチェーンプロジェクトです。これはすべてのトランザクションにおいて強力なプライバシー保証をサポートするように設計されています - **資産スワップ**: はい - [ホワイトペーパー](https://ironfish.network/learn/whitepaper) - ![Ironfish.png](https://pbs.twimg.com/profile_images/1367581984986296320/kxDDjheA_400x400.jpg)
 ***
 
 
-**[ZKBOB](https://zkbob.com/)**: zkBobスマートコントラクトウォレットでプライバシーを保護してください。zkBobを使用すると、ウォレットの中身や送金・受取額は完全にプライベートになります。zkBobを使って給与、支払い、寄付などプライバシーと組み込みコンプライアンス付きで送金または受け取りできます。また、ゼロ知識証明技術を用いて秘密裏のP2P転送を行い、受信者を保護し、金額を匿名化することも可能です - **資産スワップ**: はい -  ![ZKBOB.png](/content-images/aalptltf_400x400-0fa94999b5.webp) - [ホワイトペーパー](https://docs.zkbob.com/zkbob-overview/basic-concepts)
+**[ZKBOB](https://zkbob.com/)**: zkBobスマートコントラクトウォレットでプライバシーを保護してください。zkBobを使用すると、ウォレットの中身や送金・受取額は完全にプライベートになります。zkBobを使って給与、支払い、寄付などプライバシーと組み込みコンプライアンス付きで送金または受け取りできます。また、ゼロ知識証明技術を用いて秘密裏のP2P転送を行い、受信者を保護し、金額を匿名化することも可能です - **資産スワップ**: はい -  ![ZKBOB.png](https://pbs.twimg.com/profile_images/1704381974700515328/aalptltf_400x400.jpg) - [ホワイトペーパー](https://docs.zkbob.com/zkbob-overview/basic-concepts)
 ***
 
 
-**[Firo](https://firo.org/)**: Firo（以前はZcoin）は、暗号通貨プライバシーおよびマイニングを対象としたLayer 1プライバシーブロックチェーンです。LelantusとLelantus Sparkにより、Firoは信頼性の高いオンチェーンプライバシーを提供し、高匿名セットを備えています。Dandelion++技術もネットワークレイヤーのプライバシーを提供します - **資産スワップ**: はい - ![Firo.png](/content-images/22083410-abd57747d1.webp)
+**[Firo](https://firo.org/)**: Firo（以前はZcoin）は、暗号通貨プライバシーおよびマイニングを対象としたLayer 1プライバシーブロックチェーンです。LelantusとLelantus Sparkにより、Firoは信頼性の高いオンチェーンプライバシーを提供し、高匿名セットを備えています。Dandelion++技術もネットワークレイヤーのプライバシーを提供します - **資産スワップ**: はい - ![Firo.png](https://avatars.githubusercontent.com/u/22083410?s=200&v=4)
 ***
 
 
-**[PIVX](https://pivx.org/)**: PIVXは、ネットワークのTier Twoレイヤーにマスターノードを展開し、ガバナンスへの参加を支援しています。PIVXはオープンソースで分散型ピアツーピア通貨であり、高度なユーザー情報保護機能、コミュニティガバナンスメカニズム、Proof of Stakeコンセンサスアルゴリズム、マルチユースマスターノードを備えています。PIVXでは、SHIELDユーザー情報保護により、グローバルデジタルキャッシュの自由を簡単に体験できます。あなたのデジタル資産を完全にコントロールし、あなた自身の銀行になります - **資産スワップ**: はい -[ホワイトペーパー](https://pivx.org/whitepaper) - ![PIVX.png](/content-images/1169-c01a9208a4.webp)
+**[PIVX](https://pivx.org/)**: PIVXは、ネットワークのTier Twoレイヤーにマスターノードを展開し、ガバナンスへの参加を支援しています。PIVXはオープンソースで分散型ピアツーピア通貨であり、高度なユーザー情報保護機能、コミュニティガバナンスメカニズム、Proof of Stakeコンセンサスアルゴリズム、マルチユースマスターノードを備えています。PIVXでは、SHIELDユーザー情報保護により、グローバルデジタルキャッシュの自由を簡単に体験できます。あなたのデジタル資産を完全にコントロールし、あなた自身の銀行になります - **資産スワップ**: はい -[ホワイトペーパー](https://pivx.org/whitepaper) - ![PIVX.png](https://s2.coinmarketcap.com/static/img/coins/64x64/1169.png)
 ***
 
 
-**[BEAM](https://beam.mw/)**: Beamは、トランザクションを完全に隠蔽するMimblewimble L1プライバシーブロックチェーンのトップです。Beam Walletをダウンロードして、最高の機密DeFi体験をしてください - **資産スワップ**: はい - [ホワイトペーパー](https://beam.mw/en/docs) - ![BEAM.png](/content-images/diZpv5uB_400x400-80e644b1cf.webp)
+**[BEAM](https://beam.mw/)**: Beamは、トランザクションを完全に隠蔽するMimblewimble L1プライバシーブロックチェーンのトップです。Beam Walletをダウンロードして、最高の機密DeFi体験をしてください - **資産スワップ**: はい - [ホワイトペーパー](https://beam.mw/en/docs) - ![BEAM.png](https://pbs.twimg.com/profile_images/1925301915316809728/diZpv5uB_400x400.jpg)
 ***
 
 
-**[Oxen](https://oxen.io/)**: Oxen（以前はLOKI）は、ミッションを持つプライバティーテックプロジェクトです。これは即時トランザクションのためのプライベート暗号通貨であり、巨大で強力なPoSネットワークとセキュアメッセージングプラットフォームを備えています。アプリはレイヤー1 OxenチェーンからEVM互換チェーンへの移行の途中にあり、OXENコインはSession Tokenという新しいERC-20トークンになります。これはレイヤー2チェーン上で動作し、ほとんどのWeb3アプリケーションと互換性があります - **資産スワップ**: はい - [ホワイトペーパー](https://docs.oxen.io/) - ![Oxen.png](/content-images/GJAsdyzF_400x400-bb04eed625.webp)
+**[Oxen](https://oxen.io/)**: Oxen（以前はLOKI）は、ミッションを持つプライバティーテックプロジェクトです。これは即時トランザクションのためのプライベート暗号通貨であり、巨大で強力なPoSネットワークとセキュアメッセージングプラットフォームを備えています。アプリはレイヤー1 OxenチェーンからEVM互換チェーンへの移行の途中にあり、OXENコインはSession Tokenという新しいERC-20トークンになります。これはレイヤー2チェーン上で動作し、ほとんどのWeb3アプリケーションと互換性があります - **資産スワップ**: はい - [ホワイトペーパー](https://docs.oxen.io/) - ![Oxen.png](https://pbs.twimg.com/profile_images/1569912619443843072/GJAsdyzF_400x400.jpg)
 ***
 
 
-**[Particl](https://particl.io/coin)**: Particlは、制限や仲介者なしで個人がお金を秘密裏に送金・受け取れるように設計されたLayer 1ソリューションです。簡単、迅速、安全です。現金のように、しかしデジタル！あなたの財務をプライバシー保護してください。PARTを使用して、公開トランザクションまたは完全に追跡不能なプライベートトランザクションを選択できます。選ぶのはあなた自身です；どんなニーズにも、解決策があります - **資産スワップ**: はい - [ホワイトペーパー](https://raw.githubusercontent.com/particl/whitepaper/master/Particl%20Whitepaper%20Draft%20v0.3.pdf) - ![Particl.png](/content-images/WJ070Lrr_400x400-7b7a6ee533.webp)
+**[Particl](https://particl.io/coin)**: Particlは、制限や仲介者なしで個人がお金を秘密裏に送金・受け取れるように設計されたLayer 1ソリューションです。簡単、迅速、安全です。現金のように、しかしデジタル！あなたの財務をプライバシー保護してください。PARTを使用して、公開トランザクションまたは完全に追跡不能なプライベートトランザクションを選択できます。選ぶのはあなた自身です；どんなニーズにも、解決策があります - **資産スワップ**: はい - [ホワイトペーパー](https://raw.githubusercontent.com/particl/whitepaper/master/Particl%20Whitepaper%20Draft%20v0.3.pdf) - ![Particl.png](https://pbs.twimg.com/profile_images/1104121499777146883/WJ070Lrr_400x400.png)
 ***
 
 
-**[Zano](https://zano.org/)**: Zanoは、企業向けのプライバシー、セキュリティ、スケーラビリティを備えたLayer 1ソリューションおよびオープンソース暗号通貨とエコシステムであり、機密資産と分散型アプリケーション（dApps）の堅牢な基盤として機能します。あなたのプライバシーは重要です。Zanoを選択してください – プライバシーとセキュリティを最優先に考えるリーディングブロックチェーンプラットフォームです。Zanoネットワークメンバ間のトランザクションはリング署名およびステルスアドレスにより追跡不能になります。また、トランザクションデータがブロックチェーン上に保存される方法により、トランザクションを承認した当事者だけがアクセスでき、プライベートなデータは決して公開されることはありません。すべてのZanoトランザクションの機密性はコアにハードコードされています。すべての送信および受信アドレスを隠蔽することで、すべてのZanoユーザーにとってプライバシーのレベルを最大化しています - **資産スワップ**: はい - [ホワイトペーパー](https://docs.zano.org/) - ![Zano.png](/content-images/FrSPUjYWIAMMWGJ-404fe8a085.webp)
+**[Zano](https://zano.org/)**: Zanoは、企業向けのプライバシー、セキュリティ、スケーラビリティを備えたLayer 1ソリューションおよびオープンソース暗号通貨とエコシステムであり、機密資産と分散型アプリケーション（dApps）の堅牢な基盤として機能します。あなたのプライバシーは重要です。Zanoを選択してください – プライバシーとセキュリティを最優先に考えるリーディングブロックチェーンプラットフォームです。Zanoネットワークメンバ間のトランザクションはリング署名およびステルスアドレスにより追跡不能になります。また、トランザクションデータがブロックチェーン上に保存される方法により、トランザクションを承認した当事者だけがアクセスでき、プライベートなデータは決して公開されることはありません。すべてのZanoトランザクションの機密性はコアにハードコードされています。すべての送信および受信アドレスを隠蔽することで、すべてのZanoユーザーにとってプライバシーのレベルを最大化しています - **資産スワップ**: はい - [ホワイトペーパー](https://docs.zano.org/) - ![Zano.png](https://pbs.twimg.com/media/FrSPUjYWIAMMWGJ?format=png&name=4096x4096)
 ***
 
 
-**[Dark.fi](https://dark.fi/)**: DarkFiは、ゼロ知識、多パーティ計算、準同型暗号に基づく匿名L1です。匿名証明付きプルーフオブステークにより、バリデーターが隠されます。DarkFiでは、匿名アプリを構築および実行するための抗脆弱な環境を提供します - **資産スワップ**: はい - [ホワイトペーパー](https://darkrenaissance.github.io/darkfi/) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
+**[Dark.fi](https://dark.fi/)**: DarkFiは、ゼロ知識、多パーティ計算、準同型暗号に基づく匿名L1です。匿名証明付きプルーフオブステークにより、バリデーターが隠されます。DarkFiでは、匿名アプリを構築および実行するための抗脆弱な環境を提供します - **資産スワップ**: はい - [ホワイトペーパー](https://darkrenaissance.github.io/darkfi/) - ![Darkfi.png](https://miro.medium.com/v2/resize:fit:878/0*auQOzkLMfYdoXlRy)
 ***
 
 
@@ -102,5 +102,5 @@ Firnを使用するには、プロトコルにETHを預け入れます。Firn残
 ***
 
 
-**[TomoChain](https://tomochain.com/ecosystem/)**: TOMOはLayer 1パブリックブロックチェーンです。Tomochainは、Tomochain上で開発されたプライバシープロトコルであり、安全で追跡不能なトランザクションを作成することを目的としています -**資産スワップ**: はい- [ホワイトペーパー](https://tomochain.com/files/technical-whitepaper-1.0.pdf) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
+**[TomoChain](https://tomochain.com/ecosystem/)**: TOMOはLayer 1パブリックブロックチェーンです。Tomochainは、Tomochain上で開発されたプライバシープロトコルであり、安全で追跡不能なトランザクションを作成することを目的としています -**資産スワップ**: はい- [ホワイトペーパー](https://tomochain.com/files/technical-whitepaper-1.0.pdf) - ![TomoChain.png](https://s1.coincarp.com/logo/1/tomochain.png?style=200)
 ***

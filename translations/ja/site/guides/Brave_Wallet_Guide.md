@@ -40,7 +40,7 @@ Brave Walletは現在、OrchardのシールドされたZECをサポートして�
 4. 暗号資産ダッシュボードにアクセスする
 
 
-![img1](/content-images/f54cd1a1-8569-4925-ba1c-7597d030593e-8d83734cd5.webp)
+![img1](https://github.com/user-attachments/assets/f54cd1a1-8569-4925-ba1c-7597d030593e)
 
 
 ## パート2：Brave WalletにZcash (ZEC) を追加する
@@ -54,7 +54,7 @@ Brave Walletは現在、OrchardのシールドされたZECをサポートして�
 3. これでウォレットにZECが表示される
 
 
-![img2](/content-images/6f2b2190-cf55-4394-9d5f-29ff9b5bb525-13d37cb455.webp)
+![img2](https://github.com/user-attachments/assets/6f2b2190-cf55-4394-9d5f-29ff9b5bb525)
 
 
 ## パート3：シールドされたZECを受け取る（Unified Address）
@@ -73,7 +73,7 @@ Brave Walletは現在、OrchardのシールドされたZECをサポートして�
 
 
 
-![img3](/content-images/53c940b6-1a03-4fa7-aefa-d3478f678a88-23f68a3855.webp)
+![img3](https://github.com/user-attachments/assets/53c940b6-1a03-4fa7-aefa-d3478f678a88)
 
 
 
@@ -92,7 +92,7 @@ Brave Walletは現在、OrchardのシールドされたZECをサポートして�
 5. 「Send」をクリックする。これで資金はOrchardプールを使用して、プライベートに送金されます
 
 
-![img4](/content-images/Internet_20250808_172118_4-e6df0f7fe2.webp)
+![img4](https://raw.githubusercontent.com/Kellyjoe8/zechub/refs/heads/main/Internet_20250808_172118_4.webp)
 
 
 

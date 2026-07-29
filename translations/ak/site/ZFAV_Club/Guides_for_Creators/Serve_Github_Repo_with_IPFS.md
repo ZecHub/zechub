@@ -26,7 +26,7 @@ Sɛ wopɛ sɛ wohyɛ aseɛ a, paw Git akoraeɛ a wopɛ sɛ wo host & clone no:
 
 Run Ahyɛde: “git clone https://github.com/zechub/zechub”
 
-![/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
+![https://i.ibb.co/HxFX37b/Screenshot-from-2023-05-20-14-14-46.png](https://i.ibb.co/HxFX37b/Screenshot-from-2023-05-20-14-14-46.png)
 
 Afei, sɛnea ɛbɛyɛ a ɛbɛyɛ krado sɛ wɔbɛfa IPFS so ayɛ no clone.
 
@@ -34,7 +34,7 @@ cd zechub git update-server-nsɛm a ɛfa ho
 
 Yi Gits nneɛma no mu:
 
-![](/content-images/image-2024-04-20-175848513-2ceb90dd7b.webp)
+![](https://i.ibb.co/25RwyWz/image-2024-04-20-175848513.png)
 
 Wei a wobɛyɛ no bɛma IPFS atumi deduplicate nneɛma sɛ wo update Git repository no akyiri yi a.
 
@@ -48,11 +48,11 @@ $ pwd
 
 $ ipfs de -r ka ho 
 
-![/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp](/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp)
+![https://i.ibb.co/LJgK1q3/Screenshot-from-2023-05-20-14-22-38.png](https://i.ibb.co/LJgK1q3/Screenshot-from-2023-05-20-14-22-38.png)
 
 CID a efi mu ba ne: Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
 
-![/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
+![https://i.ibb.co/GvhCLwn/Screenshot-from-2023-05-20-14-26-34.png](https://i.ibb.co/GvhCLwn/Screenshot-from-2023-05-20-14-26-34.png)
 
 Adenim! Seesei wɔde wo repository no akɔ network no so.
 

@@ -53,7 +53,7 @@ Zkool을 열고 사용할 계좌를 선택하세요
 
 https://github.com/hhanh00/zkool2
 
-<img width="1496" height="646" alt="1" src="/content-images/125adfe8-6be3-4798-8ee8-b96bba9fb9ac-d7ff97c6f8.webp" />
+<img width="1496" height="646" alt="1" src="https://github.com/user-attachments/assets/125adfe8-6be3-4798-8ee8-b96bba9fb9ac" />
 
 
 
@@ -62,7 +62,7 @@ https://github.com/hhanh00/zkool2
 
 우측 상단 메뉴로 이동하여 "거래 내보내기"를 선택하세요
 
-<img width="1398" height="718" alt="2" src="/content-images/4287ceb6-669b-4ef0-ba24-3f7e2d9860b6-6fd3ed5a03.webp" />
+<img width="1398" height="718" alt="2" src="https://github.com/user-attachments/assets/4287ceb6-669b-4ef0-ba24-3f7e2d9860b6" />
 
 
 #### 단계 3
@@ -75,7 +75,7 @@ https://github.com/hhanh00/zkool2
 
 "bash/rust/python/ ... 등으로 CSV 파일을 변환하는 방법은?"
 
-<img width="1098" height="480" alt="3" src="/content-images/6503f4be-6fbc-473f-919c-8914e09181bc-27520b5960.webp" />
+<img width="1098" height="480" alt="3" src="https://github.com/user-attachments/assets/6503f4be-6fbc-473f-919c-8914e09181bc" />
 
 참고: AI는 일반적으로 비공개가 아니므로, 학생으로서 사용할 때 특히 주의해야 합니다!
 
@@ -93,4 +93,4 @@ LibreOffice 또는 기타 CSV 뷰어에서 열어 사용하세요!
 
 
 
-<img width="2132" height="942" alt="4" src="/content-images/1097030d-c0f4-44c4-b15c-f86706a77bdc-6c81ca3df0.webp" />
+<img width="2132" height="942" alt="4" src="https://github.com/user-attachments/assets/1097030d-c0f4-44c4-b15c-f86706a77bdc" />

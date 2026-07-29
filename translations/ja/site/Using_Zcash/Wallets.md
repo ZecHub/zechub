@@ -1,5 +1,5 @@
 ## [ZODL](https://zodl.com)
-![logo](/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp "ZODL")
+![logo](https://github.com/user-attachments/assets/198608b2-9059-4cb7-aeb8-9354971376fd "ZODL")
 - デバイス: モバイル
 - オペレーティングシステム: Android | iOS
 - ウォレット対応: Seed Phrase | Viewing Key | Unified Address | ハードウェア
@@ -9,7 +9,7 @@
 ---
 
 ## [Ywallet](https://ywallet.app/installation/)
-![logo](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
+![logo](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
 - デバイス: モバイル | デスクトップ
 - オペレーティングシステム: Android | iOS | Windows | Linux | macOS
 - ウォレット対応: Seed Phrase | Viewing Key | Unified Address | ハードウェア
@@ -19,7 +19,7 @@
 ---
 
 ## [Dizzy](https://youtu.be/IVkuo1CGPBU)
-![logo](/content-images/Dizzy-3-1a90249591.webp "Dizzy")
+![logo](https://i.ibb.co/FH918w9/Dizzy-3.png "Dizzy")
 - デバイス: モバイル | デスクトップ
 - オペレーティングシステム: Android | iOS | Windows | Linux | macOS
 - ウォレット対応: Seed Phrase | Viewing Key | Unified Address
@@ -29,7 +29,7 @@
 ---
 
 ## [Zingo!](https://www.zingolabs.org/)
-![logo](/content-images/zingocard-9a2546668d.webp "Zingo!")
+![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
 - デバイス: モバイル | デスクトップ
 - オペレーティングシステム: Android | iOS | Windows | Linux
 - ウォレット対応: Seed Phrase | Viewing Key | Unified Address
@@ -39,7 +39,7 @@
 ---
 
 ## [Edge](https://edge.app)
-![logo](/content-images/image-2024-11-28-091312254-b2389ad332.webp "Edge")
+![logo](https://i.ibb.co/4FVQLS9/image-2024-11-28-091312254.png "Edge")
 - デバイス: モバイル
 - オペレーティングシステム: Android | iOS
 - ウォレット対応: Seed Phrase | Unified Address
@@ -49,7 +49,7 @@
 ---
 
 ## [Unstoppable](https://unstoppable.money)
-![logo](/content-images/image-2024-11-28-091200540-815817fda7.webp "Unstoppable")
+![logo](https://i.ibb.co/C68mFCx/image-2024-11-28-091200540.png "Unstoppable")
 - デバイス: モバイル
 - オペレーティングシステム: Android | iOS
 - ウォレット対応: Seed Phrase | Unified Address
@@ -59,7 +59,7 @@
 ---
 
 ## [eZcash](https://blog.nerdbank.net/ezcash-app)
-![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
+![logo](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
 - デバイス: モバイル | デスクトップ
 - オペレーティングシステム: Android | iOS | Windows
 - ウォレット対応: Seed Phrase | Viewing Key | Unified Address
@@ -69,7 +69,7 @@
 ---
 
 ## [Zkool](https://github.com/hhanh00/zkool2/)
-![logo](/content-images/zkool-1-22ab388e65.webp "Zkool")
+![logo](https://i.ibb.co/BHGPff0K/zkool-1.png "Zkool")
 - デバイス: モバイル | デスクトップ
 - オペレーティングシステム: Android | iOS | Windows | Linux
 - ウォレット対応: Seed Phrase | Viewing Key | Unified Address | ハードウェア
@@ -79,7 +79,7 @@
 ---
 
 ## [Cake](https://cakewallet.com/install/)
-![logo](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
+![logo](https://github.com/user-attachments/assets/a8234c70-3714-4e80-b918-8739d45aea00 "Cake")
 - デバイス: モバイル | デスクトップ 
 - オペレーティングシステム: Android | iOS | Windows | Linux | macOS
 - ウォレット対応: Seed Phrase | Viewing Key | Unified Address
@@ -89,7 +89,7 @@
 ---
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
-![logo](/content-images/zenith-2-cea75a34fd.webp "Zenith")
+![logo](https://i.ibb.co/VtPBnm6/zenith-2.png "Zenith")
 - デバイス: デスクトップ
 - オペレーティングシステム: Windows | Linux | macOS
 - ウォレット対応: Seed Phrase | Viewing Key | Unified Address | フルノード
@@ -99,7 +99,7 @@
 ---
 
 ## [Zingo-CLI](https://github.com/zingolabs/zingolib)
-![logo](/content-images/zingocard-9a2546668d.webp "Zingo-CLI")
+![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo-CLI")
 - デバイス: デスクトップ
 - オペレーティングシステム: Windows | Linux | macOS
 - ウォレット対応: Seed Phrase | Viewing Key | Unified Address | フルノード
@@ -109,7 +109,7 @@
 ---
 
 ## [Zallet](https://github.com/zcash/wallet)
-![logo](/content-images/Brandmark-Yellow-2eca7f6f68.webp "Zallet")
+![logo](https://i.ibb.co/3mCrR0dN/Brandmark-Yellow.png "Zallet")
 - デバイス: デスクトップ
 - オペレーティングシステム: Windows | Linux | macOS
 - ウォレット対応: Seed Phrase | Viewing Key | Unified Address | フルノード
@@ -119,7 +119,7 @@
 ---
 
 ## [Zcashd](https://github.com/zcash/zcash)
-![logo](/content-images/zcashd-92df3291ad.webp "Zcashd")
+![logo](https://i.ibb.co/Xz2NskW/zcashd.png "Zcashd")
 - デバイス: デスクトップ
 - オペレーティングシステム: Windows | Linux | macOS
 - ウォレット対応: Seed Phrase | Viewing Key | Unified Address | フルノード
@@ -129,7 +129,7 @@
 ---
 
 ## [Brave](https://brave.com/web3-privacy/)
-![logo](/content-images/image-2024-01-13-170934865-733c5d91c6.webp "Brave")
+![logo](https://i.ibb.co/6yqMNwZ/image-2024-01-13-170934865.png "Brave")
 - デバイス: Web
 - オペレーティングシステム: ブラウザ
 - ウォレット対応: Seed Phrase | Unified Address
@@ -139,7 +139,7 @@
 ---
 
 ## [Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
-![logo](/content-images/metamask-25048569f6.webp  "Metamask")
+![logo](https://i.ibb.co/jn5t9Gy/metamask.png  "Metamask")
 - デバイス: Web
 - オペレーティングシステム: ブラウザ
 - ウォレット対応: Seed Phrase | Unified Address
@@ -149,7 +149,7 @@
 ---
 
 ## [Zucchini](https://zucchinifi.xyz/)
-![logo](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
+![logo](https://github.com/user-attachments/assets/91a1005a-3daf-4747-9442-c178cbe50e49 "Zucchini")
 - デバイス: Web 
 - オペレーティングシステム: ブラウザ
 - ウォレット対応: Seed Phrase | Unified Address
@@ -159,7 +159,7 @@
 ---
 
 ## [SSP Wallet](https://sspwallet.io)
-![logo](/content-images/ssp-1-7d96e66117.webp "SSP Wallet")
+![logo](https://i.ibb.co/X3hdfSY/ssp-1.png "SSP Wallet")
 - デバイス: モバイル | Web
 - オペレーティングシステム: Android | iOS | ブラウザ
 - ウォレット対応: Seed Phrase
@@ -169,7 +169,7 @@
 ---
 
 ## [Trust Wallet](https://trustwallet.com/download)
-![logo](/content-images/trustwallet-bec43acb59.webp "Trust Wallet")
+![logo](https://i.ibb.co/cNqxBJ1/trustwallet.png "Trust Wallet")
 - デバイス: モバイル | Web
 - オペレーティングシステム: Android | iOS | ブラウザ
 - ウォレット対応: Seed Phrase
@@ -179,7 +179,7 @@
 ---
 
 ## [Exodus](https://www.exodus.com/zcash-wallet-zec)
-![logo](/content-images/exoduscard-2f77769db0.webp "Exodus")
+![logo](https://i.ibb.co/w0NNZNp/exoduscard.png "Exodus")
 - デバイス: モバイル | デスクトップ | Web
 - オペレーティングシステム: Android | iOS | Windows | Linux | macOS | ブラウザ
 - ウォレット対応: Seed Phrase
@@ -189,7 +189,7 @@
 ---
 
 ## [Coinomi](https://www.coinomi.com/en/downloads)
-![logo](/content-images/coinomicard-226bcbf876.webp "Coinomi")
+![logo](https://i.ibb.co/QfHmjWY/coinomicard.png "Coinomi")
 - デバイス: モバイル | デスクトップ
 - オペレーティングシステム: Android | iOS | Windows
 - ウォレット対応: Seed Phrase
@@ -199,7 +199,7 @@
 ---
 
 ## [Keystone](https://shop.keyst.one)
-![logo](/content-images/Keystone-1-8177a83308.webp "Keystone")
+![logo](https://i.ibb.co/c1gn635/Keystone-1.png "Keystone")
 - デバイス:
 - オペレーティングシステム:
 - ウォレット対応: ハードウェア | Unified Address
@@ -209,7 +209,7 @@
 ---
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
-![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
+![logo](https://i.ibb.co/2qX6WCF/Desktop-Wallets.png "Ledger")
 - デバイス: 
 - オペレーティングシステム:
 - ウォレット対応: ハードウェア
@@ -219,7 +219,7 @@
 ---
 
 ## [Safepal](https://safepal.com)
-![logo](/content-images/safepalcard-176b24c751.webp "Safepal")
+![logo](https://i.ibb.co/h29h6d0/safepalcard.png "Safepal")
 - デバイス: モバイル | Web
 - オペレーティングシステム: Android | iOS | ブラウザ
 - ウォレット対応: Seed Phrase | ハードウェア
@@ -229,7 +229,7 @@
 ---
 
 ## [Trezor](https://trezor.io/learn/a/zcash-zec)
-![logo](/content-images/trezor1-5004075d27.webp "Trezor")
+![logo](https://i.ibb.co/twLMCgzW/trezor1.png "Trezor")
 - デバイス:
 - オペレーティングシステム:
 - ウォレット対応: ハードウェア
@@ -239,7 +239,7 @@
 ---
 
 ## [Vultisig](https://vultisig.com)
-![logo](/content-images/vultisig-713626c5ba.webp "Vultisig")
+![logo](https://i.ibb.co/93wSrxCc/vultisig.png "Vultisig")
 - デバイス: Web | モバイル | デスクトップ
 - オペレーティングシステム: Android | iOS | Windows | Linux | macOS | ブラウザ
 - プール: Transparent
@@ -248,7 +248,7 @@
 ---
 
 ## [Vizor](https://vizor.cash/)
-![logo](/content-images/Vizorphoto-6ade2417a5.webp "Vizor")
+![logo](https://i.ibb.co/zhW2d2fV/Vizorphoto.png "Vizor")
 - デバイス: デスクトップ | モバイル
 - オペレーティングシステム: macOS
 - ウォレット対応: Seed Phrase | Unified Address | ハードウェア
@@ -258,7 +258,7 @@
 ---
 
 ## [Noir wallet](https://www.zknoir.com/)
-![logo](/content-images/Noirwallet-8589fe34e4.webp "Noir")
+![logo](https://i.ibb.co/23RkRZZS/Noirwallet.png "Noir")
 - デバイス: Web | デスクトップ
 - オペレーティングシステム: ブラウザ
 - プール: Shielded | Transparent
@@ -267,7 +267,7 @@
 ---
 
 ## [LeoDex](https://leodex.io/)
-![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
+![logo](https://i.ibb.co/3YjpzYnH/Leo-Dexwallet.png "LeoDex")
 - デバイス: Web | デスクトップ
 - オペレーティングシステム: ブラウザ | Windows | macOS
 - ウォレット対応: Seed Phrase | External Wallet | Receive Address | QR Code | ハードウェア
@@ -277,7 +277,7 @@
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
-![logo](/content-images/zapp-1-a6fa468edb.webp "Zapp")
+![logo](https://i.ibb.co/mr8rF8y2/zapp-1.png "Zapp")
 - デバイス: モバイル 
 - オペレーティングシステム: Android 
 - ウォレット対応: Unified Address 

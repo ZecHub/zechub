@@ -1,7 +1,7 @@
 # **暗号化されたSOL/USDC → ZEC スワップ方法（Encrypt.tradeを使用）**
 
 
-![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
+![img1](https://hackmd.io/_uploads/Bkbg5alCll.jpg)
 
 
 *NEAR Intentsによって支えられる、プライバシーを重視したクロスチェーンスワップへのゲートウェイ。*  
@@ -12,7 +12,7 @@
 現代のブロックチェーン世界において、プライバシーはオプションではなく、必須です。[**encrypt.trade**](https://app.encifher.io/zec)を使用することで、ユーザーはSolana上の **SOLまたはUSDC** を **Zcash（ZEC）** にスムーズにスワップできます。この際、取引は完全にプライバシーを保ったまま行えます。中央集権的な取引所も、アイデンティティの暴露もなく、単純で暗号化されたスワップが可能です。  
 
 
-![img2](/content-images/ByQ2qpeRee-67fce2814c.webp)
+![img2](https://hackmd.io/_uploads/ByQ2qpeRee.jpg)
 
 ---
 
@@ -20,7 +20,7 @@
 **ChromeまたはFirefox** を使用して [encrypt.trade](https://app.encifher.io/zec) にアクセスし、 **Phantom**、**Solflare**、または **Slope** ウォレットを接続してください。ウォレット内に十分な **SOL**（ガス料金と交換したいトークンの分）が含まれていることを確認してください。接続後、資産をラップする準備ができています。  
 
 
-![img3](/content-images/SyVOs6lRxx-cbd8193e84.webp)
+![img3](https://hackmd.io/_uploads/SyVOs6lRxx.jpg)
 
 
 
@@ -28,7 +28,7 @@
 
 ---
 
-![img4](/content-images/Bkh_jTgCex-2fc8428592.webp)
+![img4](https://hackmd.io/_uploads/Bkh_jTgCex.jpg)
 
 
 ---
@@ -38,13 +38,13 @@
 
 
 
-![img5](/content-images/S10J26xCxg-6322a40b18.webp)
+![img5](https://hackmd.io/_uploads/S10J26xCxg.jpg)
 
 ---
 
 
 
-![img6](/content-images/Sk0y3Te0gl-124792365a.webp)
+![img6](https://hackmd.io/_uploads/Sk0y3Te0gl.jpg)
 
 
 ---
@@ -53,7 +53,7 @@
 [**Zashi**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn)（Electric Coin Co.が提供する公式Zcashウォレット）をダウンロードしてください。**ReceiveタブからUnified Address** をコピーします - これは透明なZECとshielded ZECの両方に対応しています。次の手順に進む前に、シードフレーズを安全に保存してください。  
 
 
-![img7](/content-images/SykjhpgRll-60d19f6979.webp)
+![img7](https://hackmd.io/_uploads/SykjhpgRll.jpg)
 
 
 ---
@@ -63,19 +63,19 @@
 
 
 
-![img8](/content-images/SJkI6pl0ge-9f93d8f34c.webp)
+![img8](https://hackmd.io/_uploads/SJkI6pl0ge.jpg)
 
 ---
 
 
-![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
+![img9](https://hackmd.io/_uploads/S1yoapgRle.jpg)
 
 
 **NEAR Intents** エンジンは自動的にクロスチェーンルーティングを処理します - 数秒以内に **ZEC** が直接あなたの Zashi ワレットに届きます。  
 
 
 
-![img10](/content-images/S1h36Tg0xl-2d7dd0a495.webp)
+![img10](https://hackmd.io/_uploads/S1h36Tg0xl.jpg)
 
 ---
 

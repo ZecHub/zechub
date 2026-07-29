@@ -1,7 +1,7 @@
 # Zero-Knowledge-Proofs: Beweisen, dass du recht hast, ohne zu sagen, warum
 ##### Originalforschung von [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![Alternativtext](/content-images/image-23-71534bece9.webp)
+![Alternativtext](image-23.png)
 
 ### Der Vorhang, der es der Welt erlaubt zu verifizieren, was sie niemals sehen kann
 
@@ -40,7 +40,7 @@ Diese Höhlengeschichte zeigt still und leise die **drei Garantien**, die jeder 
 
 ## 3. Die drei Garantien
 
-![Alternativtext](/content-images/image-24-b559d31849.webp)
+![Alternativtext](image-24.png)
 
 | Garantie | In der Höhlengeschichte | In Zcash |
 |---|---|---|
@@ -62,7 +62,7 @@ Die Brücke ist eine Idee, die diese ganze Serie zusammenbindet:
 
 Betrachte den Schaltkreis als eine Liste arithmetischer Constraints, die *nur dann alle erfüllt sind, wenn die Aussage wahr ist.* Die privaten Eingaben, die alles aufgehen lassen, deine Note, dein Schlüssel, der Merkle-Pfad, heißen der **Witness**.
 
-![Alternativtext](/content-images/image-25-2479377e43.webp)
+![Alternativtext](image-25.png)
 
 Darum haben wir Artikel 1 den endlichen Körpern und Artikel 3 ZK-freundlichen Hashes gewidmet: Der Schaltkreis spricht die Sprache der Körperarithmetik, also muss jede Operation innerhalb der Aussage (einschließlich Hashing und des Merkle-Aufstiegs aus Artikel 4) auf diese Weise ausgedrückt werden. Je günstiger sich jede Operation ausdrücken lässt, desto kleiner und schneller wird der Beweis.
 
@@ -90,7 +90,7 @@ Es gibt kein kostenloses Mittagessen. Viele SNARKs brauchen ein einmaliges **Set
 
 Dieses übriggebliebene Geheimnis trägt den Spitznamen **toxic waste**. Um es sicher zu entsorgen, führte Zcash aufwendige **Multi-Party-Zeremonien** durch, bei denen viele unabhängige Teilnehmer jeweils Zufälligkeit beitrugen; solange *auch nur einer* seinen Anteil ehrlich vernichtete, bleibt das toxic waste unwiederherstellbar.
 
-![Alternativtext](/content-images/image-26-cdad6625cd.webp)
+![Alternativtext](image-26.png)
 
 Neuere Systeme kommen ganz ohne diese Voraussetzung aus, was einer der wichtigsten Gründe ist, warum Zcash sein Beweissystem im Laufe der Zeit weiterentwickelt hat.
 

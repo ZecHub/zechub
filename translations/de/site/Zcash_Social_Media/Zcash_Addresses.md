@@ -15,7 +15,7 @@ Heute lernen wir sie kennen und behandeln eines der neuen Features im #Zcash-Ök
 
 **Shielded-Transaktion** bezieht sich auf jede Transaktion mit Adressen, die für Sapling/Orchard-Pools kodiert sind.
 
-![Einführung in Transparente vs. Shielded](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
+![Einführung in Transparente vs. Shielded](https://pbs.twimg.com/media/FpmW00HWIAIZpQD.jpg)
 
 **Unified Addresses (UAs)** wurden entwickelt, um shielded oder transparente Transaktionen in einer einzigen Adresse zu **vereinheitlichen**.
 
@@ -31,9 +31,9 @@ Es gibt 3 Adresstypen, die verwendet werden:
 
 Die Anzahl der Zeichen (und damit die Größe des QR-Codes) nimmt mit jedem Typ zu.
 
-![Vergleich der Adresstypen](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
+![Vergleich der Adresstypen](https://pbs.twimg.com/media/FpmXe5bXsAEFeLY.png)
 
-![Vergleich der QR-Code-Größe](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
+![Vergleich der QR-Code-Größe](https://pbs.twimg.com/media/FpmXmDwXoAIWxov.png)
 
 ---
 
@@ -50,7 +50,7 @@ Die Raw Encoding einer Unified Address ist eine Kombination aus Kodierungen (typ
 
 **Wichtig**: In jeder UA muss es **mindestens eine shielded Zahlungsadresse** geben. (Sprout-Adressen werden nach dem Canopy-Upgrade nicht mehr unterstützt.)
 
-![UA-Kodierungsstruktur](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
+![UA-Kodierungsstruktur](https://pbs.twimg.com/media/FpmYW1ZXgAAvALT.png)
 
 Vollständige Spezifikation: **[ZIP-316: Unified Addresses](https://zips.z.cash/zip-0316)**
 

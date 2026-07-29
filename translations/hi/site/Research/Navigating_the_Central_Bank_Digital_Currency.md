@@ -2,7 +2,7 @@
 published: 2023-12-07
 ---
 
-![CBDC](/content-images/cbdc-dfb8827faa.webp)
+![CBDC](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/cbdc.webp)
 # अंधेरे पक्ष का खुलासा: वित्तीय छायाओं के बीच Central Bank Digital Currency (CBDC) की यात्रा को समझना
 द्वारा : [**Abhishek Tiwari**]
 
@@ -37,7 +37,7 @@ CBDCs को लागू करना हमारे नायक की ख�
 __चीन: Digital Currency Electronic Payment (DCEP)__
 
 
-![DCEP](/content-images/dcep-featured-c278cf0ef6.webp)
+![DCEP](https://forkast.news/wp-content/uploads/2020/08/dcep-featured.jpg)
 
 चीन की डिस्टोपियन सड़कों पर, Digital Currency Electronic Payment (DCEP) किसी चमत्कार की तरह नहीं, बल्कि सामाजिक नियंत्रण के अग्रदूत के रूप में सामने आता है, जिसके साथ वित्तीय अंधकार की अपनी अशुभ छायाएँ जुड़ी हैं। programmable money और offline capabilities के आकर्षण के कारण रोज़मर्रा के लेन-देन जीवन से भर उठते हैं।
 
@@ -50,7 +50,7 @@ DCEP एक साधारण digital surrogate होने से आगे �
 
 __संयुक्त राज्य अमेरिका: Digital Dollar Project__
 
-![Digital Dollar](/content-images/digital-dollar-CBDC-8e8120f52f.webp)
+![Digital Dollar](https://www.ledgerinsights.com/wp-content/uploads/2020/03/digital-dollar-CBDC.jpg)
 
 संयुक्त राज्य अमेरिका के विशाल, उदास परिदृश्यों में, Digital Dollar Project प्रगति के प्रकाशस्तंभ की तरह नहीं, बल्कि दक्षता और समावेशिता के प्रमाण के रूप में उभरता है—हालाँकि अपनी अनिश्चितताओं के साथ। यह private-sector initiative वित्तीय परिदृश्य को ऐसी कथा में नया आकार देने का प्रयास करता है जिस पर corporate control की छाया पड़ी हुई है।
 
@@ -62,7 +62,7 @@ __संयुक्त राज्य अमेरिका: Digital Dollar Pr
 
 __स्वीडन: E-Krona__
 
-![E-Krona](/content-images/ekrona_logo-4596e38b72.webp)
+![E-Krona](https://www.paymentscardsandmobile.com/wp-content/uploads/2018/10/ekrona_logo.png)
 
 जब हम स्वीडन के उजाड़ परिदृश्यों से गुजरते हैं, तो E-Krona अनुकूलनशीलता की कथा के रूप में उभरती है, लेकिन अपने वित्तीय जोखिमों के बिना नहीं। यह cashless society में मुद्रा तक पहुँच बनाए रखने पर केंद्रित एक डिजिटल विकास है, जो ऐसे समाज का चित्र प्रस्तुत करता है जहाँ भौतिक नकदी की परिचित सहजता अनुपस्थित है।
 
@@ -95,7 +95,7 @@ Eurozone CBDC की सुरक्षा नियामकीय चुनौ
 
 वित्तीय समावेशन, जो कभी आशा का प्रतीक था, संभावित भेदभाव की छाया का सामना करता है। CBDCs का दुरुपयोग चयनात्मक पहुँच का कारण बन सकता है, जिससे समान व्यवहार और समावेशिता के सिद्धांतों का उल्लंघन होता है। यह एक ऐसी उपकथा है जो वित्तीय स्वतंत्रता के मूल सार को चुनौती देती है।
 
-![Flow](/content-images/futureofCBDC-2-45075d2d9c.webp)
+![Flow](https://blog.digitalasset.com/hubfs/Imported_Blog_Media/futureofCBDC-2.png)
 
 ## संसाधन: डिजिटल अन्वेषक के लिए एक मानचित्र
 

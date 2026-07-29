@@ -15,7 +15,7 @@ Leo tunajifunza juu yao na kufunika moja ya vipengele vipya katika mfumo wa #Zca
 
 **Shielded Transaction** inahusu shughuli yoyote na anwani encoded kwa Sapling / Orchard mabwawa.
 
-[Transparent dhidi ya Shielded intro](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
+[Transparent dhidi ya Shielded intro](https://pbs.twimg.com/media/FpmW00HWIAIZpQD.jpg)
 
 ** Unified Anwani (UA) ** ni iliyoundwa na ** kuunganisha ** ulinzi au uwazi shughuli katika anwani moja.
 
@@ -31,9 +31,9 @@ Kuna aina 3 za anwani katika matumizi:
 
 Idadi ya herufi (na kwa hiyo ukubwa wa nambari ya QR) huongezeka kwa kila aina.
 
-![Kulinganisha aina ya anwani](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
+![Kulinganisha aina ya anwani](https://pbs.twimg.com/media/FpmXe5bXsAEFeLY.png)
 
-! [QR code kulinganisha ukubwa](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
+! [QR code kulinganisha ukubwa](https://pbs.twimg.com/media/FpmXmDwXoAIWxov.png)
 
 ---
 
@@ -50,7 +50,7 @@ The raw encoding of a Unified Address is a combination of encodings (typecode, l
 
 ** Muhimu **: Kuna lazima ** angalau moja walinzi malipo anwani ** katika kila UA. (anwani za shina ni tena mkono baada ya kuboresha Canopy.)
 
-[UA encoding muundo](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
+[UA encoding muundo](https://pbs.twimg.com/media/FpmYW1ZXgAAvALT.png)
 
 Maelezo kamili: **[ZIP-316: Unified Anwani](https://zips.z.cash/zip-0316)**
 

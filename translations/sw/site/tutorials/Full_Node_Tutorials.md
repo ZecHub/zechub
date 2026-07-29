@@ -12,32 +12,32 @@ Tafadhali soma yetu [Full Knots mwongozo](https://zechub.wiki/full-nodes) kwa ha
 
 - Jinsi ya kuunda Zcashd kwenye Raspberry Pi 4
 
-[!] Video Thumbnail](/content-images/hqdefault-7968659090.webp)](https://www.youtube.com/watch?v=SGYrzhs1l2k)
+[!] Video Thumbnail](https://img.youtube.com/vi/SGYrzhs1l2k/hqdefault.jpg)](https://www.youtube.com/watch?v=SGYrzhs1l2k)
 ____
 
 - Zcashd Wallet Tool
 
-[!] Video Thumbnail](/content-images/hqdefault-0b326338e3.webp)](https://www.youtube.com/watch?v=9t2LX3HFldw)
+[!] Video Thumbnail](https://img.youtube.com/vi/9t2LX3HFldw/hqdefault.jpg)](https://www.youtube.com/watch?v=9t2LX3HFldw)
 ____
 
 - Vitendo kwa ajili ya kutumia Zcashd 
 
-[!] Video Thumbnail](/content-images/hqdefault-eddbbab4b4.webp)](https://www.youtube.com/watch?v=KNhd1KC0Bqk)
+[!] Video Thumbnail](https://img.youtube.com/vi/KNhd1KC0Bqk/hqdefault.jpg)](https://www.youtube.com/watch?v=KNhd1KC0Bqk)
 ____
 
 - Jinsi ya Kuboresha Zcashd Node
 
-[!] Video Thumbnail](/content-images/hqdefault-e342e5e0b5.webp)](https://www.youtube.com/watch?v=YjAkaseEqAE)
+[!] Video Thumbnail](https://img.youtube.com/vi/YjAkaseEqAE/hqdefault.jpg)](https://www.youtube.com/watch?v=YjAkaseEqAE)
 _____
 
 - Kutumia Lightwalletd Server na Zebra
 
-[!] Video Thumbnail](/content-images/hqdefault-e1135bf69b.webp)](https://www.youtube.com/watch?v=FfH5jiX8pT0)
+[!] Video Thumbnail](https://img.youtube.com/vi/FfH5jiX8pT0/hqdefault.jpg)](https://www.youtube.com/watch?v=FfH5jiX8pT0)
 
 
 ____
 
 - Post Maoni juu ya Free2Z na Zenith CLI
 
-[!] Video Thumbnail](/content-images/hqdefault-1bd406037a.webp)](https://www.youtube.com/watch?v=HtorP8TJ5vk)
+[!] Video Thumbnail](https://img.youtube.com/vi/HtorP8TJ5vk/hqdefault.jpg)](https://www.youtube.com/watch?v=HtorP8TJ5vk)
 

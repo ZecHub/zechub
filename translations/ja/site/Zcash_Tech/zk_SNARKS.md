@@ -28,7 +28,7 @@
 
 
 <a href="">
-    <img width="853" height="396" alt="NPlanguage1" src="/content-images/d25345cf-e958-4ce2-b01d-f4e7f2db9551-1ac56e56d7.webp" alt="" width="600" height="400"/>
+    <img width="853" height="396" alt="NPlanguage1" src="https://github.com/user-attachments/assets/d25345cf-e958-4ce2-b01d-f4e7f2db9551" alt="" width="600" height="400"/>
 </a>
 
 
@@ -47,7 +47,7 @@ NP言語では、2つの条件が成り立たなければなりません:
 
 
 <a href="">
- <img width="855" height="399" alt="IPmodel1" src="/content-images/1542be12-d3fd-4934-8413-0d16f95b8d10-58bfcb4059.webp" alt="" width="600" height="400"/>
+ <img width="855" height="399" alt="IPmodel1" src="https://github.com/user-attachments/assets/1542be12-d3fd-4934-8413-0d16f95b8d10" alt="" width="600" height="400"/>
 </a>
 
 
@@ -86,7 +86,7 @@ PSPACE - 異なる命題の交替を証明する
 シミュレートされたビュー: 検証者は Prover と Verifier の間で起こりうるすべての相互作用をシミュレートします
 
 <a href="">
-    <img width="850" height="397" alt="simulation1" src="/content-images/0e68649d-a231-44d8-a76a-25a307f68b9e-ba1f0027cf.webp"  alt="" width="600" height="400"/>
+    <img width="850" height="397" alt="simulation1" src="https://github.com/user-attachments/assets/0e68649d-a231-44d8-a76a-25a307f68b9e"  alt="" width="600" height="400"/>
 </a>
 
 多項式時間判別器は、自分が見ているものが実際のビューなのかシミュレートされたビューなのかを判定しようと試み、両方からサンプルを繰り返し要求します。
@@ -117,7 +117,7 @@ zk-SNARKでは、証明はメッセージ（m）について何も明らかに�
 
 
 <a href="">
-<img width="785" height="368" alt="circuit1" src="/content-images/be1de1d6-60d3-4fd1-b9a2-5094c65d696f-dbd3177247.webp" alt="" width="300" height="200"/>
+<img width="785" height="368" alt="circuit1" src="https://github.com/user-attachments/assets/be1de1d6-60d3-4fd1-b9a2-5094c65d696f" alt="" width="300" height="200"/>
 </a>
 
 この例では、証明者は検証者に対して、自分がその算術回路の解を知っていることを納得させたいと考えています。
@@ -143,7 +143,7 @@ Sha256は、コミットメントスキームで使用できるハッシュ関�
 セットアップ手順は、回路を要約し、公開パラメータを出力することで、検証者を支援します。
 
 <a href="">
-<img width="845" height="398" alt="setup1" src="/content-images/c41212ca-b5e9-4ac8-8695-be612c45a679-80a6a87752.webp" alt="" width="600" height="300"/>
+<img width="845" height="398" alt="setup1" src="https://github.com/user-attachments/assets/c41212ca-b5e9-4ac8-8695-be612c45a679" alt="" width="600" height="300"/>
 </a>
 
 **前処理設定の種類**:
@@ -186,7 +186,7 @@ zk-SNARKは、さまざまな異なる用途において複数の利点を提供
 証明ベースのRollup（zk-Rollup）サービスの利点は、数百から数千件のトランザクションのバッチを処理でき、L1 がすべてのトランザクションが正しく処理されたことを示す簡潔な証明を検証できる点にあり、これによってネットワークのトランザクション処理能力を100倍または1000倍に拡張できます。
 
 <a href="">
-  <img width="606" height="336" alt="zkvm1" src="/content-images/a3cbb5c9-8767-4b34-9fcb-868ca421838f-d69b264b5b.webp" width="600" height="300"/>
+  <img width="606" height="336" alt="zkvm1" src="https://github.com/user-attachments/assets/a3cbb5c9-8767-4b34-9fcb-868ca421838f" width="600" height="300"/>
 </a>
 
 

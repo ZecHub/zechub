@@ -11,32 +11,32 @@ Free2Z puei sɛ kokoam nsɛm a wɔasi sɛ ɛbɛma adebɔfoɔ tumi de wɔn nsɛm 
 * Nea edi kan no, yɛ akontaabu wɔ wɔn wɛbsaet a ɛyɛ aban de no so [ .https://free2z.cash](https://free2z.cash).
 * Hwehwɛ login button a ɛwɔ kratafa no atifi nifa so no. Hyehyɛ wo adansedi nkrataa no. Wubetumi nso de wo email address anaa X akonta ayɛ akonta.
 
-![](/content-images/IMG-9351-6cb6b07d52.webp)
+![](https://i.ibb.co/VWhmwy4s/IMG-9351.jpg)
 
 * Big congrats sɛ woabɛyɛ mpɔtam hɔfo no fã\! Afei bere aso sɛ woyɛ wo profile no sɛnea wopɛ denam avatar, banner, ne onipa ko a woyɛ ne nea woyɛ ho nkyerɛkyerɛmu a wode bɛto so.
 
-![](/content-images/IMG-9360-5deeba8c68.webp)
+![](https://i.ibb.co/yBFPnr17/IMG-9360.jpg)
 
 * Hwɛ sɛ wode wo Zcash address nso bɛka sika kotokuo no ho ama ntoboa ne afotuo a ɛfiri akyigyinafoɔ hɔ.
 
-![](/content-images/IMG-9361-5c9ce21046.webp)
+![](https://i.ibb.co/qLLKCr34/IMG-9361.jpg)
 
 **SU**
 
 **ZPages:** ZPages ma adebɔfoɔ kwan ma wɔkyɛ wɔn adwuma a wɔatwerɛ no ma mpɔtam hɔfoɔ a wɔtrɛ. Ade biako a ɛyɛ anigye titiriw wɔ nkyerɛwee wɔ asɛnka agua yi so ne sɛ w’atiefo betumi aboa w’adwuma denam ntoboa so, na ɛno yɛ ɔkwan pa a wobɛfa so akyerɛ anisɔ.
 
-![](/content-images/IMG-9365-e14bce4613.webp)
+![](https://i.ibb.co/BKyx1xc0/IMG-9365.jpg)
 
 **Nya a wobɛhunu 2Zs**
 
 Eyinom yɛ nsɛntitiriw a ne bo yɛ $0.01 wɔ asɛnka agua so. 2Zs no, ankorankoro betumi aboa wɔn adebɔ a wɔpɛ denam ntoboa ne nkrataahyɛ so. Wobetumi nso de wɔn ho ahyɛ mpɔtam hɔ dwumadi ahorow te sɛ abatow, ZPages ho nsɛm a wɔka, nneɛma a wɔma ɛkɔ soro, ne livestream features mu.
 
-![](/content-images/IMG-9370-4264be0de0.webp)
+![](https://i.ibb.co/1G9YyMz7/IMG-9370.jpg)
 
 Ɛnam ntoboa, nkrataahyɛ, ne pay-per-view live streams so no, wobɛtumi anya 2Zs. Wubetumi nso de ZEC atɔ nsɛntitiriw bi denam wo QR code a wobɛhwehwɛ kɛkɛ so.
 
-![](/content-images/IMG-9381-2d8e6d7454.webp)
-![](/content-images/IMG-9379-6ca5049e12.webp)
+![](https://i.ibb.co/JjpCHK9N/IMG-9381.jpg)
+![](https://i.ibb.co/HLJDbFwX/IMG-9379.jpg)
 
 **Sɛnea Wobɛhyɛ Livestream ase**
 
@@ -49,15 +49,15 @@ Klik wo profile icon no so, na list-down list bɛda adi. Paw "Stream" na ɛsɛ s
 
 Saa nhyehyɛe yi hyɛ bɔ sɛ ɛde encryption a efi awiei kosi awiei, kokoam nhyiam ahorow, ne nhyiam link soronko bi a wobetumi de akɔma wɔn a wɔde wɔn ho bɛhyɛ mu no bɛma.
 
-![](/content-images/IMG-9374-c374bec27e.webp)
+![](https://i.ibb.co/zTnTHXLz/IMG-9374.jpg)
 
 **Dɛn bio na wubetumi anya afi livestream mu?**
 
 Free2Z livestream de mfaso soronko bi ma, te sɛ abatow a wɔde si gyinae ne plugins te sɛ nkrataa a wɔkyɛ ne whiteboard, a ɛyɛ pɛpɛɛpɛ ma nkyerɛkyerɛmu, screen kyɛfa, nkɔmmɔbɔ, ne nea ɛkeka ho pii!
 
-![](/content-images/IMG-9375-00d4b67876.webp)
-![](/content-images/IMG-9377-58999b233c.webp) 
+![](https://i.ibb.co/2m17ttc/IMG-9375.jpg)
+![](https://i.ibb.co/HfnTFFxs/IMG-9377.jpg) 
 
 Eyi ne sɛnea livestream session te wɔ Free2Z so
 
-![](/content-images/Screenshot-2025-05-25-053026-868bec29a2.webp)
+![](https://i.ibb.co/SwzQ6wPw/Screenshot-2025-05-25-053026.png)

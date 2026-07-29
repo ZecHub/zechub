@@ -4,7 +4,7 @@
 
 # Raspberry Pi 4 Itọsọna fun Ṣiṣẹ Zebra
 
-<img src="/content-images/image-2023-11-28-172907488-e7e9fd4ac5.webp" alt="raspberry pi" width="300" height="300"/>
+<img src="https://i.ibb.co/V3rjKwv/image-2023-11-28-172907488.png" alt="raspberry pi" width="300" height="300"/>
 
 Ṣiṣẹ sọfitiwia akopọ Zebra lori Raspberry Pi 4 gba ọ laaye lati kopa ninu nẹtiwọọki Zcash bi ominira, akopọ ti o ni ibamu pẹlu ifọkanbalẹ. Itọsọna yii yoo ṣe itọsọna fun ọ nipasẹ awọn igbesẹ lati ṣeto ati ṣiṣe Zebra sori RaspBerry Pi 4 rẹ.
 
@@ -67,7 +67,7 @@
 7. __Ìtójútó__
    O le ṣe atẹle ilọsiwaju ati ipo ti Zebra node rẹ nipa ṣiṣi aṣàwákiri wẹẹbu kan ati lilọ kiri si __http://127.0.0.1:8233/status__.
 
-<img src="/content-images/image-2023-11-28-173024853-99540511cf.webp" alt="zebra logo" width="200" height="200"/>
+<img src="https://i.ibb.co/BCtKrGp/image-2023-11-28-173024853.png" alt="zebra logo" width="200" height="200"/>
 
 ## Àtúnṣe àṣìṣe
 

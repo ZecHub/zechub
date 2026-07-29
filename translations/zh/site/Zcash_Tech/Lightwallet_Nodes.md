@@ -37,25 +37,25 @@ __打开 Ywallet/Zingo/Zashi/eZcash__：在你的设备上启动所选钱包。
 
 对于 Ywallet，它位于右上角的齿轮图标中 - 进入 Zcash 标签页。 
 
-![SmartSelect_20250313_105128](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
+![SmartSelect_20250313_105128](https://github.com/user-attachments/assets/b0a2910b-dbdf-4292-8e69-af5a386aa183)
 
 #### Zingo:
 
 对于 Zingo，它位于左上角的汉堡菜单中，然后点击设置并向下滚动
 
-![SmartSelect_20250313_105737_Zingo](/content-images/ea8f7672-e644-41a5-a422-db131740404a-2626f5fa79.webp)
+![SmartSelect_20250313_105737_Zingo](https://github.com/user-attachments/assets/ea8f7672-e644-41a5-a422-db131740404a)
 
 #### Zashi:
 
 对于 Zashi，它位于右上角的齿轮图标中 - 进入高级设置，然后选择服务器
 
-![SmartSelect_20250313_110200_Zashi](/content-images/5a9d050a-8308-4cc2-907e-513072066aed-0bd414d520.webp)
+![SmartSelect_20250313_110200_Zashi](https://github.com/user-attachments/assets/5a9d050a-8308-4cc2-907e-513072066aed)
 
 #### eZcash
 
 对于 eZcash，它位于左上角的汉堡菜单中，然后点击设置，再点击高级
 
-![SmartSelect_20250313_110616](/content-images/655c0172-61a0-4322-b8cf-4eee4bb53b51-0b93df2e71.webp)
+![SmartSelect_20250313_110616](https://github.com/user-attachments/assets/655c0172-61a0-4322-b8cf-4eee4bb53b51)
 
 
 ## 结论

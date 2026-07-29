@@ -56,7 +56,7 @@ Deliverable 6.2 audited source code को एक public Github repo में �
 अधिक technical details के लिए, उपयोगकर्ताओं को RedBridge project के repository और documentation की समीक्षा करने के लिए प्रोत्साहित किया जाता है ताकि वे integration specifics, testing frameworks, और security protocols को [explore](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) कर सकें।
 
 
-![img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)
+![img1](https://github.com/user-attachments/assets/b8c5d267-1711-458a-8a32-1df9d56fae8a)
 
 
 * Deliverables: 

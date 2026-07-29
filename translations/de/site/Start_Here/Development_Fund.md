@@ -17,7 +17,7 @@ Blockproduzenten (auch Miner genannt) sind dafür zuständig, Transaktionen in e
 Bei Bitcoin und anderen Kryptowährungen gehen alle Blockbelohnungen an die Blockproduzenten. Zcash ist insofern einzigartig, als 20 % der Blockbelohnung an den [Zcash development fund](https://zips.z.cash/zip-1014) übertragen werden. Dieser Fonds finanziert die Teams, die am Zcash-Protokoll arbeiten.
 
 Derzeit erhält [Zcash Community Grants](https://zcashcommunitygrants.org/) 8 % der Blockbelohnungen, Electric Coin Co. erhält 7 %, und die Zcash Foundation erhält 5 %. Das entspricht jeweils 40 %, 35 % und 25 % des Entwicklungsfonds.
-![Empfänger des Dev Fund ](/content-images/212411570-4858a3d6-f7a1-465a-bf0c-d2ef72-1efe3a104e.webp)
+![Empfänger des Dev Fund ](https://user-images.githubusercontent.com/43553081/212411570-4858a3d6-f7a1-465a-bf0c-d2ef726d41dc.jpeg)
 
 Im Jahr 2020 stimmte die Zcash-Community über den Entwicklungsfonds und die von ihm unterstützten Teams ab. Im Jahr 2024 wird die Community erneut abstimmen, um zu bestimmen, wer Mittel aus dem Entwicklungsfonds erhält.
 
@@ -30,11 +30,11 @@ Die Hybrid Deferred Dev Fund Lockbox ist der gewählte Finanzierungsmechanismus 
 
 Die Entscheidung zur Einführung der 20% Dev Fund Lockbox wurde durch einen umfassenden, von der Community getragenen Prozess getroffen. Dazu gehörten zwei Runden von Umfragen des Zcash Community Advisory Panel (ZCAP) sowie mehrere Umfragen im gesamten Ökosystem. Diese Umfragen ermöglichten es einem breiten Spektrum von Stakeholdern, ihre Meinungen zu äußern und zum Entscheidungsprozess beizutragen.
 
-![](/content-images/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd-8f378b3e3d.webp)
+![](https://global.discourse-cdn.com/zcash/original/3X/f/d/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd.png)
 
 Da die Dev Fund Lockbox aufgeschoben ist (das bedeutet, dass die Mittel zu einem späteren Zeitpunkt durch ein Network Upgrade freigeschaltet werden), wird die Zcash-Community bald über einen Verteilungsmechanismus für die Mittel entscheiden. Eine vorgeschlagene Option ist dabei der dezentrale Governance-Mechanismus „Zbloc“. 
 
-![Mögliche neue Form dezentraler Governance](/content-images/99588d6f43a3143cb3616e8a89df5125e855ba39-5688d8901f.webp)
+![Mögliche neue Form dezentraler Governance](https://global.discourse-cdn.com/zcash/original/3X/9/9/99588d6f43a3143cb3616e8a89df5125e855ba39.png)
 
 ## Ressourcen
 

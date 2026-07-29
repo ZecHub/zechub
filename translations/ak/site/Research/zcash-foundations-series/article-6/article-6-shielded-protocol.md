@@ -1,7 +1,7 @@
 # The Shielded Protocol, Awiei kosi Awiei
 ##### Mfitiase Nhwehwɛmu a efi [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt nkyerɛwee](/content-images/image-27-4094293ec0.webp)
+![alt nkyerɛwee](image-27.png)
 
 ### Aboaboa afã biara ano ayɛ no kokoam Zcash asɛm biako
 
@@ -41,7 +41,7 @@ Nsɛm a ɛtoatoa so no nyinaa wɔ kratafa biako so, a wɔayɛ ho mfonini afi Ahy
 
 Biribiara a obi a ɔde di dwuma betumi ayɛ no sen fi ahintasɛm biako mu, **spending key**, fa ɔkwan biako so nhyehyɛe so (agyan biara yɛ nea efi mu ba a wontumi nsakra, afiri apon a ɛwɔ Ahyɛde 2 ne 3 no adom):
 
-![alt nkyerɛwee](/content-images/image-32-f443f9bb72.webp)
+![alt nkyerɛwee](image-32.png)
 
 Nneɛma abien a ɛfata sɛ yɛhyɛ no nsow, nea afi nsɛm a atwam mu aba abien no nyinaa:
 
@@ -54,7 +54,7 @@ Nneɛma abien a ɛfata sɛ yɛhyɛ no nsow, nea afi nsɛm a atwam mu aba abien n
 
 Sɛ wopɛ sɛ wode krataa bi di dwuma wɔ kokoam a, ɛsɛ sɛ woma network no gye nneɛma anan di prɛko pɛ **a worenda nkyerɛwde no, ne bo, ne gyinabea, anaa wo nipasu adi.** Wɔnam ade bi a wunim dedaw so na ɛma nea wɔka biara di ho dwuma.
 
-![alt nkyerɛwee](/content-images/image-31-86309af194.webp)
+![alt nkyerɛwee](image-31.png)
 
 Adanse no da nokwasɛm ahorow a ɛwɔ ase no mu biara adi **biara** (kyerɛwtohɔ bɛn, hena safoa, bo bɛn). Ɛda no adi nko ara sɛ *nsɛm anan a wɔka no nyinaa kura.* Ɛno ne Zcash a wɔabɔ ho ban no anifere nyinaa, a wɔaka ho asɛm wɔ mfonini biako mu.
 
@@ -92,7 +92,7 @@ Momma yɛnboaboa Alice a ɔretua Bob ka no ano. Yɛde Sapling "spend side / outp
 
 Plus baako **binding signature** wɔ bundle no nyinaa so, hyɛ value balance (Ɔfa 5).
 
-![alt nkyerɛwee](/content-images/image-30-98511eb2d0.webp)
+![alt nkyerɛwee](image-30.png)
 
 Trace the privacy: network no hwɛɛ anchor no, hwɛɛ sɛ nullifier no yɛ foforo, hwɛɛ sɛ adanse no yɛ nokware, na ɛkyerɛɛ sɛ ɛkari pɛ. Ɛgyee sikatua a ɛfata **a ensuaa sika biara, address biara, na ɛnyɛ krataa ko a wɔsɛee no.** Saa bere yi nyinaa krataa a wɔasɛe no no **nullifier** (ne wu) ne Bob **bɔhyɛ foforo** (ne krataa no awo) te ɔmanfo nhyehyɛe ahorow abien mu a abusuabɔ biara a wotumi hu biara nni wɔn ntam, abusuabɔ a wɔatwa afi Ahyɛde 0 no mu.
 
@@ -198,7 +198,7 @@ Wɔde sika dodoɔ no asie, nanso wɔde homomorphic value commitment abɔ emu bia
 
 Seesei woatu kwan afi abirabɔsɛm biako mu akɔ kokoam sikatua a edi mũ so:
 
-![alt nkyerɛwee](/content-images/cd8bbb40-57b8-4854-b9cf-97f2485d126a-8847fae521.webp)
+![alt nkyerɛwee](https://github.com/user-attachments/assets/cd8bbb40-57b8-4854-b9cf-97f2485d126a)
 
 
 Efi ha, abɔde mu arc a edi hɔ no kɔ akyiri: Groth16 ne Halo 2 mu adwumayɛ, ahotoso-nsiesie guasodeyɛ, Sapling ne Orchard amansin no kɔ akyiri, key derivation ne address ahorow ahorow, ne protocol no nkɔso wɔ network upgrades nyinaa mu. Nanso fapem no wɔ hɔ mprempren, na saa nsɛmti no mu biara wɔ ofie a ɔde bata ho.

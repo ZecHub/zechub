@@ -11,32 +11,32 @@ Free2Z एक privacy-केंद्रित platform के रूप मे�
 * सबसे पहले, उनकी आधिकारिक website [https://free2z.cash](https://free2z.cash) पर एक account बनाएं।
 * पेज के ऊपर दाईं ओर login button खोजें। अपने credentials दर्ज करें। आप अपने email address या X account के साथ भी account बना सकते हैं।
 
-![](/content-images/IMG-9351-6cb6b07d52.webp)
+![](https://i.ibb.co/VWhmwy4s/IMG-9351.jpg)
 
 * Community का हिस्सा बनने पर बहुत-बहुत बधाई\! अब समय है अपनी profile को personal touch देने का — एक avatar, एक banner, और अपने बारे में तथा आप क्या करते हैं उसका विवरण upload करके।
 
-![](/content-images/IMG-9360-5deeba8c68.webp)
+![](https://i.ibb.co/yBFPnr17/IMG-9360.jpg)
 
 * यह भी सुनिश्चित करें कि supporters से donations और tips पाने के लिए wallet field में अपना Zcash address जोड़ें।
 
-![](/content-images/IMG-9361-5c9ce21046.webp)
+![](https://i.ibb.co/qLLKCr34/IMG-9361.jpg)
 
 **FEATURES**
 
 **ZPages:** ZPages creators को अपना written work एक व्यापक community के साथ साझा करने की सुविधा देता है। इस platform पर लिखने का एक खास दिलचस्प पहलू यह है कि आपकी audience donations के माध्यम से आपके काम को support कर सकती है, जो सराहना दिखाने का एक शानदार तरीका है।
 
-![](/content-images/IMG-9365-e14bce4613.webp)
+![](https://i.ibb.co/BKyx1xc0/IMG-9365.jpg)
 
 **2Zs को समझें**
 
 ये platform पर $0.01 के बराबर points हैं। 2Zs के साथ, लोग अपने पसंदीदा creatives को donations और subscriptions के माध्यम से support कर सकते हैं। वे community activities में भी भाग ले सकते हैं, जैसे voting, ZPages पर commenting, content boosting, और livestream features।
 
-![](/content-images/IMG-9370-4264be0de0.webp)
+![](https://i.ibb.co/1G9YyMz7/IMG-9370.jpg)
 
 Donations, subscriptions, और pay-per-view live streams के माध्यम से आप 2Zs कमा सकते हैं। आप अपना QR code scan करके ZEC से कुछ points खरीद भी सकते हैं।
 
-![](/content-images/IMG-9381-2d8e6d7454.webp)
-![](/content-images/IMG-9379-6ca5049e12.webp)
+![](https://i.ibb.co/JjpCHK9N/IMG-9381.jpg)
+![](https://i.ibb.co/HLJDbFwX/IMG-9379.jpg)
 
 **Livestream कैसे शुरू करें**
 
@@ -49,15 +49,15 @@ Donations, subscriptions, और pay-per-view live streams के माध्�
 
 यह option end-to-end encryption, private meetings, और एक unique meeting link देने का वादा करता है, जिसे participants को भेजा जा सकता है।
 
-![](/content-images/IMG-9374-c374bec27e.webp)
+![](https://i.ibb.co/zTnTHXLz/IMG-9374.jpg)
 
 **Livestream से आपको और क्या मिल सकता है?**
 
 Free2Z livestream कुछ अनोखे perks प्रदान करता है, जैसे decision making के लिए polls और document sharing तथा whiteboard जैसे plugins, जो presentations, screen sharing, chats, और बहुत कुछ के लिए एकदम उपयुक्त हैं!
 
-![](/content-images/IMG-9375-00d4b67876.webp)
-![](/content-images/IMG-9377-58999b233c.webp) 
+![](https://i.ibb.co/2m17ttc/IMG-9375.jpg)
+![](https://i.ibb.co/HfnTFFxs/IMG-9377.jpg) 
 
 Free2Z पर एक livestream session कुछ ऐसा दिखता है
 
-![](/content-images/Screenshot-2025-05-25-053026-868bec29a2.webp)
+![](https://i.ibb.co/SwzQ6wPw/Screenshot-2025-05-25-053026.png)

@@ -28,7 +28,7 @@ YWallet은 *투명만* 및 보호된 개인키에서 접근 불가능한 자금�
 
 4. 우측 상단의 '+' 버튼 클릭
 
-![더하기 버튼](/content-images/plus-3ca2c1649a.webp)
+![더하기 버튼](https://i.postimg.cc/xJbVz7gB/plus.png)
 
 5. '계좌 복구' 토글
 
@@ -46,7 +46,7 @@ YWallet은 *투명만* 및 보호된 개인키에서 접근 불가능한 자금�
 
 4. 시드 구문 입력 (간격 제한은 시드가 생성한 추가 주소를 스캔합니다)
 
-![자금 가져오기 화면](/content-images/sweep-6c956553a9.webp)
+![자금 가져오기 화면](https://i.postimg.cc/3055CBcN/sweep.png)
 
 5. 목적지로 사용하고 싶은 Value Pool 입력 (거래소는 투명을 사용)
 

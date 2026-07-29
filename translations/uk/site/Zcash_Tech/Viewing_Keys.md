@@ -47,7 +47,7 @@
 * У верхньому правому куті виберіть "Account", натисніть "+" у нижньому правому куті, щоб додати та імпортувати свій viewing key і додати свій обліковий запис лише для читання ('read-only').
 
 <a href="">
-    <img src="/content-images/image-2024-01-13-175554676-8cdf988797.webp" alt="" width="200" height="280"/>
+    <img src="https://i.ibb.co/C0b002N/image-2024-01-13-175554676.png" alt="" width="200" height="280"/>
 </a>
 
 

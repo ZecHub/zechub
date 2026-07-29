@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="تحرير الصفحة"/>
 </a>
 
-# <img src="/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp" alt="شعار ZODL" width="50"/> ZODL (مختبر Zcash للتطوير المفتوح)
+# <img src="https://github.com/user-attachments/assets/198608b2-9059-4cb7-aeb8-9354971376fd" alt="شعار ZODL" width="50"/> ZODL (مختبر Zcash للتطوير المفتوح)
 
 [الموقع الإلكتروني](https://zodl.com/) - [GitHub](https://github.com/AgoraCyber) - [X/Twitter](https://x.com/zodl_app) - [Discord](https://discord.gg/zodl)
 

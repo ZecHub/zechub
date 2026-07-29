@@ -101,7 +101,7 @@ Zcash Community Forum, Zcash topluluğu üyelerinin Zcash ile ilgili her şeyi t
 Topluluk tutkulu ve yeni üyeleri çok sıcak karşılıyor. Bazen konuşmalar teknik olabilir, ama endişelenmeyin! Herhangi bir sorunuz olursa sorabilirsiniz.
 
 <a href="">
-    <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="/content-images/c1d40441-4336-4754-b3bf-5a746b19a9d5-6d2eca6cbf.webp" />
+    <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="https://github.com/user-attachments/assets/c1d40441-4336-4754-b3bf-5a746b19a9d5" />
 </a>
 
 ---

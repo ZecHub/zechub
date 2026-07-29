@@ -1,7 +1,7 @@
 # 머클 트리: 블록체인은 어떻게 모든 노트를 기억하는가?
 ##### 원문 출처: [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt text](/content-images/image-19-cfbdcf8f78.webp)
+![alt text](image-19.png)
 
 ### 수백만 개의 커밋먼트를 하나의 작은 지문으로 요약
 
@@ -34,7 +34,7 @@
 - 부모들을 다시 쌍으로 묶고, 그 쌍을 해싱하여 계속 올라갑니다.
 - 계속해서 진행하다 보면 **하나의 지문**만이 최상단에 남게 되며, 이 우승자는 **머클 루트**(Merkle root)입니다.
 
-![alt text](/content-images/image-20-f5d57e425a.webp)
+![alt text](image-20.png)
 
 avalanche effect(제3편)에서 직접적으로 따르는 가장 중요한 특성은 다음과 같습니다:
 
@@ -77,7 +77,7 @@ step 2:  H(hAB , hCD)      = ROOT?     (삼촌 노드와 결합)
 
 실제로 계산하면 `1b3faa3fcc5e...`가 나오며, 이는 **루트와 일치**합니다. 따라서 잎이 트리에 포함되어 있음을 증명할 수 있습니다.
 
-![alt text](/content-images/image-21-d9e5d6eaf6.webp)
+![alt text](image-21.png)
 
 두 가지 요소가 이 기능을 강력하게 만듭니다:
 
@@ -99,7 +99,7 @@ step 2:  H(hAB , hCD)      = ROOT?     (삼촌 노드와 결합)
 - **고정된 깊이.** Zcash의 보호된 트리는 깊이 **32**이며, 이는 최대 `2^(32)` (40억 이상) 개의 노트를 저장할 수 있다.
 - **제로 지식에 친화적인 해싱.** 트리가 SHA-256으로 만들어지지는 않습니다. Sapling은 **Pedersen 해시**(Article 3에서 언급됨)로 트리를 해싱하고, Orchard는 **Sinsemilla**(동일하게 Article 3에서 언급됨)를 사용합니다. 이는 회로 내부에서 멤버십 증명이 저렴해지도록 하기 위함입니다.
 
-![alt text](/content-images/image-22-518354b8d5.webp)
+![alt text](image-22.png)
 
 ### 트리가 처리하지 않는 한 가지: 중복 지출
 

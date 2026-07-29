@@ -8,7 +8,7 @@ La logique est la suivante : lors de la détection d’une adresse TEX, un porte
 
 La proposition technique pour les adresses TEX est décrite dans le [ZIP 320](https://zips.z.cash/zip-0320) de Zcash, qui définit un type d’adresse exclusivement destiné à recevoir des fonds depuis des adresses Transparentes.
 
-![TEX](/content-images/ZashiTex-b1cbec5f07.webp)
+![TEX](https://i.ibb.co/8m7HPqV/ZashiTex.png)
 
 
 Bien que les adresses TEX ne soient pas largement adoptées, les utilisateurs de Zcash pourraient être amenés à les utiliser à terme.

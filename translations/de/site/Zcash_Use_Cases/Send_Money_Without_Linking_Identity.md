@@ -1,4 +1,4 @@
-# <img src="/content-images/send-svgrepo-com-b62f643de0.svg" width="24" height="24" alt="Journalistensymbol"/> Geld senden, ohne deine Identität zu verknüpfen
+# <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/send-svgrepo-com.svg" width="24" height="24" alt="Journalistensymbol"/> Geld senden, ohne deine Identität zu verknüpfen
 
 <span className="inline-flex items-center gap-[6px]"><span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>Mittelstufe - 7 Min.</span>
 
@@ -11,7 +11,7 @@
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Benutzersymbol"/> Für wen ist das?
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Benutzersymbol"/> Für wen ist das?
 
 - Für alle, die sensible Zahlungen senden
 - Für datenschutzbewusste Nutzer
@@ -19,7 +19,7 @@
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Warnsymbol"/> Das Problem
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Warnsymbol"/> Das Problem
 
 Das Senden von Krypto offenbart oft:
 - Die Identität deiner Wallet
@@ -30,7 +30,7 @@ Dadurch entsteht ein **nachverfolgbarer Finanzgraph**.
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Werkzeugsymbol"/> Warum Zcash?
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Werkzeugsymbol"/> Warum Zcash?
 
 
 Zcash ermöglicht **vollständig private Transfers** mithilfe shielded Transaktionen.
@@ -41,14 +41,14 @@ Dadurch werden folgende Verknüpfungen aufgebrochen:
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Werkzeugkastensymbol"/> Was du brauchst
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Werkzeugkastensymbol"/> Was du brauchst
 
 - Eine Wallet, die shielded Transaktionen unterstützt
 - Grundlegendes Verständnis von z-Adressen
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Schrittsymbol"/> Schritt-für-Schritt-Anleitung
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Schrittsymbol"/> Schritt-für-Schritt-Anleitung
 
 ### Schritt 1: Stelle sicher, dass die Mittel abgeschirmt sind
 
@@ -77,7 +77,7 @@ Fortgeschrittener Tipp:
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Abbrechen-Symbol"/> Häufige Fehler, die du vermeiden solltest
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Abbrechen-Symbol"/> Häufige Fehler, die du vermeiden solltest
 
 - Direkt von transparenten Adressen senden  
 - Adressen für mehrere Personen wiederverwenden  
@@ -86,7 +86,7 @@ Fortgeschrittener Tipp:
 
 <br/>
 
-## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="Erledigt-Symbol"/> Ergebnis
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="Erledigt-Symbol"/> Ergebnis
 
 Du kannst:
 - Mittel privat senden
@@ -95,12 +95,12 @@ Du kannst:
 
 <br/>
 
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Kettenglied-Symbol"/> Verwandt
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Kettenglied-Symbol"/> Verwandt
 - [Privatsphäre - Shielded vs Transparent](/privacy/shielded-vs-transparent)
 
 <br/>
 
-## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Fortschrittssymbol"/> Fortschritt
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/progress-arrows-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Fortschrittssymbol"/> Fortschritt
 
 **Schritt 2 von 6**
 

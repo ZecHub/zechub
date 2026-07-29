@@ -2,7 +2,7 @@
 published: 2023-12-07
 ---
 
-![CBDC](/content-images/cbdc-dfb8827faa.webp)
+![CBDC](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/cbdc.webp)
 # 揭开黑暗面：在金融阴影中穿行于中央银行数字货币（CBDC）的奥德赛
 作者：[**Abhishek Tiwari**]
 
@@ -37,7 +37,7 @@ CBDC 容易受到停电影响，也受限于互联网连接不足
 __中国：数字货币电子支付（DCEP）__
 
 
-![DCEP](/content-images/dcep-featured-c278cf0ef6.webp)
+![DCEP](https://forkast.news/wp-content/uploads/2020/08/dcep-featured.jpg)
 
 在中国这个带有反乌托邦色彩的街头，数字货币电子支付（DCEP）展开的并非奇迹，而是一种社会控制的预兆，同时伴随着其自身一系列令人不安的金融阴影。日常交易因可编程货币和离线能力的吸引力而充满活力。
 
@@ -50,7 +50,7 @@ DCEP 不仅仅是数字形式的替代品，它被设计为无缝支持日常交
 
 __美国：数字美元项目__
 
-![Digital Dollar](/content-images/digital-dollar-CBDC-8e8120f52f.webp)
+![Digital Dollar](https://www.ledgerinsights.com/wp-content/uploads/2020/03/digital-dollar-CBDC.jpg)
 
 在美国这片广阔而低迷的土地上，数字美元项目并不是进步的灯塔，而更像是效率和包容性的象征——尽管它也伴随着诸多不确定性。作为一项私营部门倡议，它试图重塑金融格局，但这个叙事中也夹杂着企业控制的阴影。
 
@@ -62,7 +62,7 @@ __美国：数字美元项目__
 
 __瑞典：E-Krona__
 
-![E-Krona](/content-images/ekrona_logo-4596e38b72.webp)
+![E-Krona](https://www.paymentscardsandmobile.com/wp-content/uploads/2018/10/ekrona_logo.png)
 
 当我们穿越瑞典这片冷清的土地时，E-Krona 展现出一种适应性的叙事，但也并非没有金融陷阱。它是一场数字化演进，重点在于在无现金社会中维持货币可得性，描绘出一个失去实体现金熟悉感的社会。
 
@@ -95,7 +95,7 @@ __欧盟：欧元区 CBDC__
 
 金融包容性，曾经是希望的灯塔，如今也面临潜在歧视的阴影。CBDC 的滥用可能导致选择性准入，违反平等对待和包容性的原则。这条支线挑战着金融自由的根本意义。
 
-![Flow](/content-images/futureofCBDC-2-45075d2d9c.webp)
+![Flow](https://blog.digitalasset.com/hubfs/Imported_Blog_Media/futureofCBDC-2.png)
 
 ## 资源：数字探索者的地图
 

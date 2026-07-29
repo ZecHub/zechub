@@ -6,7 +6,7 @@
 
 - Gemini ExchangeでZECを購入する 
 
-[![動画サムネイル](/content-images/hqdefault-c1ce14d1e2.webp)](https://www.youtube.com/watch?v=REUbkLzK7J4)
+[![動画サムネイル](https://img.youtube.com/vi/REUbkLzK7J4/hqdefault.jpg)](https://www.youtube.com/watch?v=REUbkLzK7J4)
 
 
 ___
@@ -14,21 +14,21 @@ ___
 
 - Atomix DEXの使用方法
 
-[![動画サムネイル](/content-images/hqdefault-1aaee5b4b9.webp)](https://www.youtube.com/watch?v=TwKQE8X7McA)
+[![動画サムネイル](https://img.youtube.com/vi/TwKQE8X7McA/hqdefault.jpg)](https://www.youtube.com/watch?v=TwKQE8X7McA)
 
 
 ___
 
 - CoinbaseでZcashを購入してShieldに転送する
 
-[![動画サムネイル](/content-images/hqdefault-ae034eb9b5.webp)](https://www.youtube.com/watch?v=3xyKKer1Qvk)
+[![動画サムネイル](https://img.youtube.com/vi/3xyKKer1Qvk/hqdefault.jpg)](https://www.youtube.com/watch?v=3xyKKer1Qvk)
 
 
 ___
 
 - Sideshift ExchangeでShielded Zcashを購入する 
 
-[![動画サムネイル](/content-images/hqdefault-6d8953e12b.webp)](https://www.youtube.com/watch?v=joQtS8QUpdg)
+[![動画サムネイル](https://img.youtube.com/vi/joQtS8QUpdg/hqdefault.jpg)](https://www.youtube.com/watch?v=joQtS8QUpdg)
 
 
 ____

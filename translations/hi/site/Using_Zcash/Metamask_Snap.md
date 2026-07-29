@@ -41,7 +41,7 @@ MetaMask अब **shielded Zcash (ZEC)** को **ChainSafe द्वारा �
       Store data on your device
    ```
 
-![Zcash-snap-install](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
+![Zcash-snap-install](https://hackmd.io/_uploads/Hy5MSG2Oex.png)
 
 
 ---
@@ -59,7 +59,7 @@ MetaMask में **Add Network** चुनें और यह दर्ज �
 -  Block Explorer URL: https://bscscan.com
 ```
 इससे network जानकारी और explorer links सक्षम हो जाएँगे।
-![Add-a-custom-Net....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
+![Add-a-custom-Net....](https://hackmd.io/_uploads/S1hq7f2Oel.png)
 
 **Zcash Mainnet** के लिए;
 ```markdown
@@ -75,13 +75,13 @@ MetaMask में **Add Network** चुनें और यह दर्ज �
 1. [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev) पर जाएँ।  
 2. **Connect MetaMask Snap** पर क्लिक करें।  
 
-![Zcash-web-wallet](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
+![Zcash-web-wallet](https://hackmd.io/_uploads/Sk8nSz3dgl.png)
 
 3. कनेक्शन को approve करें।  
 4. अपने Zcash खाते का सारांश देखें, जिसमें शामिल हैं:
    - Unified addresses और Transparent address
 
-![Account-summary-unif....](/content-images/r17c_Mhdel-f4963826d5.webp)
+![Account-summary-unif....](https://hackmd.io/_uploads/r17c_Mhdel.jpg)
 
 
 5. synchronization पूरा होने की प्रतीक्षा करें。
@@ -96,7 +96,7 @@ MetaMask में **Add Network** चुनें और यह दर्ज �
 > **ETH -> ZEC swap करें** - **LeoDex** जैसी सेवाओं का उपयोग करें और अपनी shielded address पर भेजें।  
 > **Exchange Withdrawal** - खरीदे गए ZEC को अपने WebZjs shielded address पर withdraw करें।  
 
-![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LEODEX-SWAP](https://hackmd.io/_uploads/HyLQ0G2ugg.png)
 
 
 > => **पूर्ण गोपनीयता** के लिए shielded (z) addresses का उपयोग करें।
@@ -111,7 +111,7 @@ MetaMask में **Add Network** चुनें और यह दर्ज �
    - Shielded recipient address  
    - Amount
 ```
-   ![Transfer-Balance](/content-images/rkvcFfhdex-bd55d079eb.webp)
+   ![Transfer-Balance](https://hackmd.io/_uploads/rkvcFfhdex.png)
 
 4. MetaMask में transaction की पुष्टि करें (transaction sign करें)।  
 5. पुष्टि के बाद प्राप्त फंड्स WebZjs में दिखाई देंगे।
@@ -145,7 +145,7 @@ MetaMask में **Add Network** चुनें और यह दर्ज �
    Transparent Address
 ``` 
 
-![Address-components](/content-images/SyPR2f2_gg-3907c5bf58.webp)
+![Address-components](https://hackmd.io/_uploads/SyPR2f2_gg.png)
 
 
 

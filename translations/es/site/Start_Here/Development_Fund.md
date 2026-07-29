@@ -17,7 +17,7 @@ Los productores de bloques (también conocidos como mineros) tienen la tarea de 
 En Bitcoin y otras criptomonedas, todas las recompensas de bloque van a los productores de bloques. Zcash es único por el hecho de que el 20% de la recompensa de bloque se transfiere al [fondo de desarrollo de Zcash](https://zips.z.cash/zip-1014). Este fondo financia a los equipos que trabajan en el protocolo de Zcash.
 
 Actualmente, [Zcash Community Grants](https://zcashcommunitygrants.org/) recibe el 8% de las recompensas de bloque, Electric Coin Co. recibe el 7% y la Zcash Foundation recibe el 5%. Esto equivale, respectivamente, al 40%, 35% y 25% del fondo de desarrollo.
-![Beneficiarios del fondo de desarrollo ](/content-images/212411570-4858a3d6-f7a1-465a-bf0c-d2ef72-1efe3a104e.webp)
+![Beneficiarios del fondo de desarrollo ](https://user-images.githubusercontent.com/43553081/212411570-4858a3d6-f7a1-465a-bf0c-d2ef726d41dc.jpeg)
 
 En 2020, la comunidad de Zcash votó sobre el fondo de desarrollo y los equipos respaldados por este. En 2024, la comunidad volverá a votar para determinar quién recibe financiación del fondo de desarrollo.
 
@@ -30,11 +30,11 @@ La caja de bloqueo híbrida diferida del fondo de desarrollo es el mecanismo de 
 
 La decisión de implementar la caja de bloqueo del fondo de desarrollo del 20% se alcanzó mediante un proceso integral impulsado por la comunidad. Esto incluyó dos rondas de encuestas del Zcash Community Advisory Panel (ZCAP), así como varias encuestas en todo el ecosistema. Estas encuestas permitieron que un amplio espectro de partes interesadas expresara sus opiniones y contribuyera al proceso de toma de decisiones.
 
-![](/content-images/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd-8f378b3e3d.webp)
+![](https://global.discourse-cdn.com/zcash/original/3X/f/d/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd.png)
 
 Dado que la caja de bloqueo del fondo de desarrollo es diferida (lo que significa que los fondos se desbloquearán mediante una actualización de red en una fecha posterior), la comunidad de Zcash pronto decidirá un mecanismo de distribución para los fondos. Una opción propuesta es el mecanismo de gobernanza descentralizada 'Zbloc'. 
 
-![Posible nueva forma de gobernanza descentralizada](/content-images/99588d6f43a3143cb3616e8a89df5125e855ba39-5688d8901f.webp)
+![Posible nueva forma de gobernanza descentralizada](https://global.discourse-cdn.com/zcash/original/3X/9/9/99588d6f43a3143cb3616e8a89df5125e855ba39.png)
 
 ## Recursos
 

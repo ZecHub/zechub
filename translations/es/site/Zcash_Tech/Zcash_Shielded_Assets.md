@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
 </a>
 <a href="">
-    <img src="/content-images/image-2023-11-18-160742427-658dda69c0.webp" alt="" width="800" height="500"/>
+    <img src="https://i.ibb.co/0VfMFB5/image-2023-11-18-160742427.png" alt="" width="800" height="500"/>
 </a>
 
 # Activos Blindados de Zcash
@@ -23,7 +23,7 @@ Los ZSA están siendo desarrollados por [QEDIT](https://qed-it.com/), bajo una s
 ### Demostración de ZSA en Zebra 
 
 
-[![Miniatura del video](/content-images/hqdefault-3ae84de424.webp)](https://youtu.be/1MZMGC9ViyA)
+[![Miniatura del video](https://i.ytimg.com/vi/1MZMGC9ViyA/hqdefault.jpg?)](https://youtu.be/1MZMGC9ViyA)
 
 
 **¡Ejecuta la demostración por tu cuenta!** 

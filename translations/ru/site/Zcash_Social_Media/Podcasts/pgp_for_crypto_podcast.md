@@ -4,7 +4,7 @@
 
 
 # PGP* для криптовалютного подкаста
-![bannerpgp](/content-images/221758326-06cea3f5-4c9e-4466-b9ee-738546-01f88aec39.webp)
+![bannerpgp](https://user-images.githubusercontent.com/81990132/221758326-06cea3f5-4c9e-4466-b9ee-73854628a6aa.png)
 
 Добро пожаловать в подкаст «PGP* (Pretty Good Policy) для криптовалют», инициатива Electric Coin Co.!
 

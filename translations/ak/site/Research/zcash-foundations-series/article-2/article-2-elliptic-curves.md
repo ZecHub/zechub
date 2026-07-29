@@ -1,7 +1,7 @@
 # Elliptic Curves: Baabi a Wɔwo Zcash Safoa ne Bɔhyɛ ahorow
 ##### Mfitiase Nhwehwɛmu a efi [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt nkyerɛwee](/content-images/image-10-c1097b22d7.webp)
+![alt nkyerɛwee](image-10.png)
 
 ### Ɔkwan a ɛkɔ ɔkwan biako so a wosii fi mmeae a ɛwɔ ɔkwan a ɛkɔ akyiri so
 
@@ -38,7 +38,7 @@ y^2 = x^3 + ax + b
 
 Wɔ akontaahyɛde a ɛyɛ mpapahwekwa mu no, ɛte sɛ nea ɛyɛ torotoro na ɛtwetwe, a mpɛn pii no ɛwɔ ahama kurukuruwa ne dua abien:
 
-![alt nkyerɛwee](/content-images/image-14-1d2e8c25d2.webp)
+![alt nkyerɛwee](image-14.png)
 
 Ɔfã a ɛyɛ nwonwa ankasa: **wubetumi "de" nsɛntitiriw abien aka ho wɔ saa curve yi so na woanya nsɛntitiriw a ɛto so abiɛsa wɔ curve koro no ara so.** Eyi nyɛ coordinates a wɔde ka ho a ɛyɛ ɔkwan biara so. Ɛyɛ geometric mmara, na ɛyɛ mmerɛw sɛ *wubehu* sen sɛ wobɛka.
 
@@ -50,7 +50,7 @@ Sɛ yɛde bɛka ho a `P + Q`:
 2. Saa nkyerɛwde no bɔ curve no wɔ baabi biako pɛpɛɛpɛ bio. Frɛ no `R*`.
 3. **Sɛso `R*` across the horizontal axis.** Saa nsusuwii no ne mmuae no, . `P + Q`.
 
-![alt nkyerɛwee](/content-images/image-11-61f3df1989.webp)
+![alt nkyerɛwee](image-11.png)
 
 ### Tangent mmara (a ɛde nsɛntitiriw bi ka ne ho) .
 
@@ -117,7 +117,7 @@ Afei nkonyaayi no. Susuw akwankyerɛ abien no ho hwɛ:
 
 Saa asymmetry no ne **ɔkwan baako** a na yɛhia wɔ Ɔfa 1. Ɔhaw a ɛkɔ akyi ("a `k` produced this point?") na wɔfrɛ no **Elliptic Curve Discrete Logarithm Problem (ECDLP)**, na wɔ curves a Zcash de di dwuma no so no, ɔkwan biara nni hɔ a wonim ntumi nni ho dwuma ansa na amansan no ɔhyew awu.
 
-![alt nkyerɛwee](/content-images/image-12-86b9ace6cb.webp)
+![alt nkyerɛwee](image-12.png)
 
 > Wɔ yɛn agode mu `F_17` curve a *wobetumi* akenkan kɛkɛ `k` off the table, efisɛ ɛwɔ nsɛntitiriw 19 pɛ. Curves ankasa wɔ atwa ho ahyia `2^(255)` nsɛntitiriw. Anka pon no benya toatoaso pii sen atɔm a ɛwɔ amansan no mu, enti "kenkan a wobɛkenkan" nyɛ ɔkwan a wobɛfa so. Ketekete no ne nea ɛma agode curve no yɛ nea wotumi kyerɛkyerɛ ne nea enti a ɛnyɛ ahobammɔ nso.
 
@@ -160,7 +160,7 @@ Nsateaa nkyerɛwee no yɛ kɔnkrit na wotumi hwɛ mu.
 
 Nea enti a curve biako nya "embedded" wɔ foforo afuw mu, ne nea enti a *cycle* a curve abien ho wɔ mfaso no yɛ nokware na ɛho hia, nanso ɛyɛ proof-system articles no dea. Mprempren de, takeaway no yɛ den: **Zcash safoa biara yɛ scalar mpɛn generator, na Zcash bɔhyɛ biara yɛ curve nsɛntitiriw a wɔaboaboa ano**, a ɛte saa curves a wɔato din yi mu biako so.
 
-![alt nkyerɛwee](/content-images/image-13-ffdd703c60.webp)
+![alt nkyerɛwee](image-13.png)
 
 ---
 

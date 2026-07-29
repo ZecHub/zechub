@@ -3,47 +3,47 @@
 
    <!-- Imagens individuais com legendas -->
    <div>
-      <img src="/content-images/Encrypted-Memos-Infographic-b3c464eaf1.webp" alt="Imagem 1">
+      <img src="https://i.ibb.co/1QgVSC0/Encrypted-Memos-Infographic.png" alt="Imagem 1">
       <p>Memorandos Encriptados do Zcash</p>
    </div>
 
    <div>
-      <img src="/content-images/Shielded-by-default-60f41919f5.webp" alt="Imagem 2">
+      <img src="https://i.ibb.co/y65F28f/Shielded-by-default.webp" alt="Imagem 2">
       <p>Protegido por padrão</p>
    </div>
 
    <div>
-      <img src="/content-images/What-is-Zcash-Sync-Infographic-56f41eaa08.webp" alt="Imagem 3">
+      <img src="https://i.ibb.co/CwBpjLh/What-is-Zcash-Sync-Infographic.jpg" alt="Imagem 3">
       <p>Sincronização do Zcash</p>
    </div>
 
   <div>
-      <img src="/content-images/Zcash-FROST-Infographic-470ed34be6.webp" alt="Imagem 4">
+      <img src="https://i.ibb.co/bgYHDQn/Zcash-FROST-Infographic.png" alt="Imagem 4">
       <p>Zcash FROST</p>
    </div>
 
   <div>
-      <img src="/content-images/Zcash-FROST-Infographic-470ed34be6.webp" alt="Imagem 5">
+      <img src="https://i.ibb.co/bgYHDQn/Zcash-FROST-Infographic.png" alt="Imagem 5">
       <p>Zcash FROST</p>
    </div>
    
   <div>
-      <img src="/content-images/Zcash-Roadmap-1c13ce1f2b.webp" alt="Imagem 6">
+      <img src="https://i.ibb.co/yS64gkH/Zcash-Roadmap.png" alt="Imagem 6">
       <p>Roteiro do Zcash</p>
    </div>
 
   <div>
-      <img src="/content-images/Zcash-Timeline-141809aa1c.webp" alt="Imagem 7">
+      <img src="https://i.ibb.co/cL8GWY4/Zcash-Timeline.png" alt="Imagem 7">
       <p>Cronologia do Zcash</p>
    </div>
 
   <div>
-      <img src="/content-images/Zcash-Value-Pools-b79351c9b4.webp" alt="Imagem 8">
+      <img src="https://i.ibb.co/wB2Nkn3/Zcash-Value-Pools.png" alt="Imagem 8">
       <p>Pools de Valor do Zcash</p>
    </div>
 
   <div>
-      <img src="/content-images/Zebra-Node-Compile-413743711e.webp" alt="Imagem 9">
+      <img src="https://i.ibb.co/jDGwYgy/Zebra-Node-Compile.png" alt="Imagem 9">
       <p>Compilação do nó Zebra</p>
    </div>
 

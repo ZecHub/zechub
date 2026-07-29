@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Editar Página"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-164918723-f59419848a.webp" alt="Texto Alternativo" width="50"/>    Electric Coin Company
+# <img src="https://i.ibb.co/2MghCyb/image-2024-02-03-164918723.png" alt="Texto Alternativo" width="50"/>    Electric Coin Company
 [Site](https://electriccoin.co) - [Github](https://github.com/Electric-Coin-Company) - [X/Twitter](https://x.com/ElectricCoinCo)
 
 ## Declaração de Missão

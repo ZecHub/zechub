@@ -54,7 +54,7 @@ DeFi 및 DApps 지원: Zcash 보유자가 프라이버시를 유지하면서도 
 
 더 많은 기술 세부 사항을 원하시면, RedBridge 프로젝트의 저장소 및 문서에서 통합 구체 내용, 테스트 프레임워크 및 보안 프로토콜을 확인할 수 있습니다. [자세히 보기](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
 
-![img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)
+![img1](https://github.com/user-attachments/assets/b8c5d267-1711-458a-8a32-1df9d56fae8a)
 
 * 결과물:
 2025년 1분기에는 팀이 [red·bridge 데모 웹사이트](https://redbridge-demo.red.dev/index.html)의 출시를 발표했습니다. 누구나 사용자 경험을 시도하고 피드백을 제공하며 개선 제안을 할 수 있으며, 이는 기술 지식이 없는 사람들에게 프로젝트를 쉽게 소개하는 방법입니다.

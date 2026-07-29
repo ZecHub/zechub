@@ -15,7 +15,7 @@
 
 يشير مصطلح **المعاملة المحمية** إلى أي معاملة تحتوي على عناوين مرمّزة لتجمّعات Sapling/Orchard.
 
-![مقدمة: شفاف مقابل محمي](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
+![مقدمة: شفاف مقابل محمي](https://pbs.twimg.com/media/FpmW00HWIAIZpQD.jpg)
 
 تم تصميم **العناوين الموحّدة (UAs)** من أجل **توحيد** المعاملات المحمية أو الشفافة ضمن عنوان واحد.
 
@@ -31,9 +31,9 @@
 
 يزداد عدد الأحرف (وبالتالي حجم رمز QR) مع كل نوع.
 
-![مقارنة أنواع العناوين](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
+![مقارنة أنواع العناوين](https://pbs.twimg.com/media/FpmXe5bXsAEFeLY.png)
 
-![مقارنة حجم رمز QR](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
+![مقارنة حجم رمز QR](https://pbs.twimg.com/media/FpmXmDwXoAIWxov.png)
 
 ---
 
@@ -50,7 +50,7 @@
 
 **مهم**: يجب أن يحتوي كل UA على **عنوان دفع محمي واحد على الأقل**. (لم تعد عناوين Sprout مدعومة بعد ترقية Canopy.)
 
-![بنية ترميز UA](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
+![بنية ترميز UA](https://pbs.twimg.com/media/FpmYW1ZXgAAvALT.png)
 
 المواصفة الكاملة: **[ZIP-316: Unified Addresses](https://zips.z.cash/zip-0316)**
 

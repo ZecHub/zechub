@@ -28,7 +28,7 @@ YWallet ni kutambuliwa kama moja ya chaguzi bora kwa ajili ya kurejesha fedha in
 
 4. Katika kona ya juu kulia bonyeza pamoja ishara 
 
-[Pia ishara kifungo](/content-images/plus-3ca2c1649a.webp)
+[Pia ishara kifungo](https://i.postimg.cc/xJbVz7gB/plus.png)
 
 5. Badilisha 'Rudisha akaunti' 
 
@@ -46,7 +46,7 @@ YWallet ni kutambuliwa kama moja ya chaguzi bora kwa ajili ya kurejesha fedha in
 
 4. Ingiza neno lako mbegu (Gap kikomo scans kwa anwani ya ziada yanayotokana na mbegu)
 
-[Sweep Fedha screen](/content-images/sweep-6c956553a9.webp)
+[Sweep Fedha screen](https://i.postimg.cc/3055CBcN/sweep.png)
 
 5. Ingiza Thamani Pool kwa ajili ya marudio unataka kutumia (Exchanges kutumia Transparent)
 

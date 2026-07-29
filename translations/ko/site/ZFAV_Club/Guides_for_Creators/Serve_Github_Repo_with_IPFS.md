@@ -26,7 +26,7 @@
 
 실행 명령: “git clone https://github.com/zechub/zechub”
 
-![/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
+![https://i.ibb.co/HxFX37b/Screenshot-from-2023-05-20-14-14-46.png](https://i.ibb.co/HxFX37b/Screenshot-from-2023-05-20-14-14-46.png)
 
 이제 IPFS를 통해 클론할 준비가 되었습니다.
 
@@ -34,7 +34,7 @@ cd zechub git update-server-info
 
 Git 객체를 풀어주세요:
 
-![](/content-images/image-2024-04-20-175848513-2ceb90dd7b.webp)
+![](https://i.ibb.co/25RwyWz/image-2024-04-20-175848513.png)
 
 이 작업을 수행하면 나중에 Git 저장소를 업데이트할 경우 IPFS가 객체 중복 제거를 가능하게 합니다.
 
@@ -48,11 +48,11 @@ $ pwd
 
 $ ipfs add -r 
 
-![/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp](/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp)
+![https://i.ibb.co/LJgK1q3/Screenshot-from-2023-05-20-14-22-38.png](https://i.ibb.co/LJgK1q3/Screenshot-from-2023-05-20-14-22-38.png)
 
 결과 CID: Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
 
-![/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
+![https://i.ibb.co/GvhCLwn/Screenshot-from-2023-05-20-14-26-34.png](https://i.ibb.co/GvhCLwn/Screenshot-from-2023-05-20-14-26-34.png)
 
 좋습니다! 이제 저장소가 네트워크에 업로드되었습니다.
 

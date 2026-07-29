@@ -2,7 +2,7 @@
 published: 2023-12-07
 ---
 
-![CBDC](/content-images/cbdc-dfb8827faa.webp)
+![CBDC](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/cbdc.webp)
 # 어둠의 편에서 드러나다: 금융의 그림자 속 CBDC(중앙은행 디지털 통화) 여정을 탐색하다
 By : [**Abhishek Tiwari**]
 
@@ -36,7 +36,7 @@ CBDCs의 도입은 우리의 영웅의 여정이자, 기술적, 규제적 및 �
 
 __중국: 디지털 통화 전자 지급(DCEP)__
 
-![DCEP](/content-images/dcep-featured-c278cf0ef6.webp)
+![DCEP](https://forkast.news/wp-content/uploads/2020/08/dcep-featured.jpg)
 
 중국의 디스토피아 거리에서 디지털 통화 전자 지급(DCEP)은 기술적 혁신이 아니라, 사회 통제의 예고자로 등장한다. 프로그래밍 가능한 돈과 오프라인 기능의 매력으로 일상적인 거래가 생기를 되찾는다.
 
@@ -48,7 +48,7 @@ DCEP는 단순한 디지털 대체물 이상이다. 일상적인 거래를 원�
 
 __미국: 디지털 달러 프로젝트__
 
-![디지털 달러](/content-images/digital-dollar-CBDC-8e8120f52f.webp)
+![디지털 달러](https://www.ledgerinsights.com/wp-content/uploads/2020/03/digital-dollar-CBDC.jpg)
 
 미국의 광활하고 절망적인 풍경에서 디지털 달러 프로젝트는 진보의 등대가 아니라, 효율성과 포용성을 강조하지만 불확실성도 있는 증거로 등장한다. 민간 부문의 이니셔티브로서, 금융 풍경을 재구성하려는 시도이다.
 
@@ -60,7 +60,7 @@ __미국: 디지털 달러 프로젝트__
 
 __스웨덴: E-Krona__
 
-![E-Krona](/content-images/ekrona_logo-4596e38b72.webp)
+![E-Krona](https://www.paymentscardsandmobile.com/wp-content/uploads/2018/10/ekrona_logo.png)
 
 우리가 스웨덴의 황량한 풍경을 탐색하면서, E-Krona는 적응력이 있지만 재정적 함정도 있는 이야기로 등장한다. 이는 현금 없는 사회에서 통화 접근성을 유지하기 위한 디지털 진화이며, 물리적 현금의 익숙한 편안함을 떠나는 사회를 그린다.
 
@@ -93,7 +93,7 @@ __유럽 연합: 유럽 통화구역 CBDC__
 
 금융 포용성은 한 번은 희망의 등대였지만, 잠재적 차별의 그림자에 직면한다. CBDCs의 남용은 선택적인 접근을 초래할 수 있으며, 평등한 대우와 포용성을 위반한다. 이는 금융 자유의 본질을 도전하는 부수적인 이야기이다.
 
-![Flow](/content-images/futureofCBDC-2-45075d2d9c.webp)
+![Flow](https://blog.digitalasset.com/hubfs/Imported_Blog_Media/futureofCBDC-2.png)
 
 ## 자원: 디지털 탐험가를 위한 지도
 

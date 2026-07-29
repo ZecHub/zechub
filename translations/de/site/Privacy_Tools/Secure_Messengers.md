@@ -25,11 +25,11 @@ Zcash-Desktop- und Mobil-Wallets verfügen über eine integrierte Funktion, mit 
 
 Probier es aus: https://z.cash/wallets 
 
-![Zcash Encrypted Memos](/content-images/Zcash-1177103374-7bca37eb4d.webp)
+![Zcash Encrypted Memos](https://i.ibb.co/n8HbQZC/Zcash-1177103374.png)
 
 **Signal-App**
 
-![Signal-App](/content-images/signal-app-logo-scaled-454032876-81b24a0421.webp)
+![Signal-App](https://i.ibb.co/7RbbxSs/signal-app-logo-scaled-454032876.jpg)
 
 Der private Messenger Signal ist eine sichere Messaging-App mit Datenschutz auf höchstem Niveau. Die Signal-Private-Messenger-App ist kostenlos und einfach zu nutzen; Nutzer benötigen keine Vorkenntnisse. Die Signal-App verfügt über eine Ende-zu-Ende-Verschlüsselungstechnologie, die sicherstellt, dass deine Kommunikation vollständig privat bleibt. Wer private Nachrichten sicher versenden möchte, sollte die Signal-Private-Messenger-App in Betracht ziehen, da sie sowohl Cybersicherheitsrisiken als auch den eigenen Datenfußabdruck erheblich reduziert.
 
@@ -37,7 +37,7 @@ Probier es aus: [https://signal.org/download](https://signal.org/download)
 
 **BisonRelay**
 
-![Bison Relay](/content-images/ogimg-v1-1000556235-9390372d1e.webp)
+![Bison Relay](https://i.ibb.co/ZxpBVNv/ogimg-v1-1000556235.jpg)
 
 Die Bison Relay-App feierte 2022 ihr Debüt. Bison Relay ist nicht davon abhängig, dass Nutzer Konten haben – unglaublich, aber wahr! Hier wird jede gesendete und empfangene Nachricht einzeln über das Decred Lightning Network bezahlt. Der einzige Zweck dieser App besteht darin, die Notwendigkeit von Konten vollständig zu beseitigen und gleichzeitig Metadaten zu minimieren. Andererseits hat Bison Relay der typischen Umsetzung von Zensur ein Ende gesetzt. 
 
@@ -45,7 +45,7 @@ Probier es aus: [https://bisonrelay.org/download](https://bisonrelay.org/downloa
 
 **Session-App**
 
-![Session-App](/content-images/logo-black-9e799f2b06.webp)
+![Session-App](https://i.ibb.co/gdpwb1v/logo-black.png)
 
 Falls du noch nicht weißt, was die Session-App ist, keine Sorge! Hier ein kurzer Einblick: Session ist einer der konkurrierenden Ende-zu-Ende-verschlüsselten Messenger. Die App wurde entwickelt, um sensible Metadaten zu minimieren. Die Session-App wurde für Personen konzipiert, die absolute Privatsphäre und Freiheit von jeder Form der Überwachung wollen. In der Session-App können Nutzer ein Konto ohne Telefonnummern oder E-Mail-Adressen erstellen, was bedeutet, dass sie vollständig anonym ist. Nutzer können über ihr Netzwerk sicher Nachrichten senden, ohne jede Spur, sodass nichts durchsickern kann.
 

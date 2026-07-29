@@ -1,7 +1,7 @@
 # Árboles de Merkle: Cómo la Blockchain Recuerda Cada Nota
 ##### Investigación original de [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![texto alternativo](/content-images/image-19-cfbdcf8f78.webp)
+![texto alternativo](image-19.png)
 
 ### Resumiendo millones de compromisos en una sola huella diminuta
 
@@ -34,7 +34,7 @@ Imagina un cuadro de torneo eliminatorio, pero en lugar de que avancen jugadores
 - Empareja los padres, hashea cada par junto, y así sucesivamente.
 - Sigue hasta que una **única huella digital** quede en la parte superior. Ese campeón es la **raíz de Merkle.**
 
-![texto alternativo](/content-images/image-20-f5d57e425a.webp)
+![texto alternativo](image-20.png)
 
 La propiedad más importante se desprende directamente del efecto avalancha (Artículo 3):
 
@@ -77,7 +77,7 @@ step 2:  H(hAB , hCD)      = ROOT?     (combine with the uncle)
 
 Calculado de verdad: esto produce `1b3faa3fcc5e...`, que **coincide con la raíz.** Se demuestra que la hoja está en el árbol.
 
-![texto alternativo](/content-images/image-21-d9e5d6eaf6.webp)
+![texto alternativo](image-21.png)
 
 Dos cosas hacen que esto sea poderoso:
 
@@ -99,7 +99,7 @@ Algunos detalles reales:
 - **Profundidad fija.** Los árboles blindados de Zcash tienen profundidad **32**, lo que significa que pueden contener hasta `2^(32)` (más de cuatro mil millones) de notas.
 - **Hashing compatible con ZK.** El árbol no se construye con SHA-256. Sapling hashea el árbol con **Pedersen hashes** y Orchard usa **Sinsemilla** (ambos del Artículo 3), precisamente para que la subida de pertenencia sea barata de demostrar dentro de un circuito.
 
-![texto alternativo](/content-images/image-22-518354b8d5.webp)
+![texto alternativo](image-22.png)
 
 ### Una cosa que el árbol *no* maneja: los double-spends
 

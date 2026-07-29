@@ -40,7 +40,7 @@ Brave Wallet هي محفظة عملات رقمية آمنة ومضمنة أصل�
 4. ادخل إلى لوحة معلومات العملات الرقمية
 
 
-![الصورة1](/content-images/f54cd1a1-8569-4925-ba1c-7597d030593e-8d83734cd5.webp)
+![الصورة1](https://github.com/user-attachments/assets/f54cd1a1-8569-4925-ba1c-7597d030593e)
 
 
 ## الجزء 2: إضافة Zcash (ZEC) إلى Brave Wallet
@@ -54,7 +54,7 @@ Brave Wallet هي محفظة عملات رقمية آمنة ومضمنة أصل�
 3. سيظهر ZEC الآن في محفظتك
 
 
-![الصورة2](/content-images/6f2b2190-cf55-4394-9d5f-29ff9b5bb525-13d37cb455.webp)
+![الصورة2](https://github.com/user-attachments/assets/6f2b2190-cf55-4394-9d5f-29ff9b5bb525)
 
 
 ## الجزء 3: استلام ZEC المحمي (Unified Address)
@@ -73,7 +73,7 @@ Brave Wallet هي محفظة عملات رقمية آمنة ومضمنة أصل�
 
 
 
-![الصورة3](/content-images/53c940b6-1a03-4fa7-aefa-d3478f678a88-23f68a3855.webp)
+![الصورة3](https://github.com/user-attachments/assets/53c940b6-1a03-4fa7-aefa-d3478f678a88)
 
 
 
@@ -92,7 +92,7 @@ Brave Wallet هي محفظة عملات رقمية آمنة ومضمنة أصل�
 5. انقر على Send - سيتم الآن تحويل الأموال بشكل خاص باستخدام مجمع Orchard
 
 
-![الصورة4](/content-images/Internet_20250808_172118_4-e6df0f7fe2.webp)
+![الصورة4](https://raw.githubusercontent.com/Kellyjoe8/zechub/refs/heads/main/Internet_20250808_172118_4.webp)
 
 
 

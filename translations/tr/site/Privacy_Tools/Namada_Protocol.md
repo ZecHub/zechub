@@ -2,7 +2,7 @@
 
 # Namada Protocol
 
-![Namada Logosu](/content-images/logo-2067e2533d.webp)
+![Namada Logosu](https://i.ibb.co/BZcZHS1/logo.png)
 
 
 ## Namada Nedir?
@@ -26,7 +26,7 @@ Namada, Multi-Asset Shielded Pool (MASP) devresinin geliştirilmiş bir yineleme
 
 Ethereum köprüsünün Namada'ya entegrasyonu, ayrı bir protokole olan ihtiyacı ortadan kaldırır; çünkü bu köprü Namada ekosisteminin ayrılmaz bir parçası haline gelir. Namada içindeki doğrulayıcılar, temel Namada protokolünün yanında köprüyü de çalıştırmakla görevlendirilir. Bu doğrulayıcılar, varlıkların Namada'ya aktarılması söz konusu olduğunda aynı zamanda aktarıcı olarak da görev yapar; böylece ek aktörlerin dahil olmasına gerek kalmaz. Öte yandan, varlıklar Ethereum'a aktarılırken harici taraflar (aktarıcılar olarak bilinir) devreye girer; ancak bunlar köprüyü doğrulama veya güvenliğini sağlama konusunda herhangi bir sorumluluk taşımaz.
 
-![Ethereum Bridge Diyagramı](/content-images/image-0fd8f754ba.webp)
+![Ethereum Bridge Diyagramı](https://i.ibb.co/wKds5RP/image.jpg)
 
 Namada Protocol ayrıca Inter-Blockchain Communication (IBC) protokolünü destekleyen herhangi bir hızlı kesinlik zinciriyle sorunsuz şekilde bağlantı kurabilme yeteneğine sahiptir. Ethereum ile birlikte çalışabilirlik söz konusu olduğunda, Namada güvene ihtiyaç duymayan biçimde çalışan, özelleşmiş ve güvenli bir Ethereum köprüsü uygular. Bu köprü, tüm köprü bağlantıları için akış kontrolleri uygulayarak ve hatalı Ethereum transferlerini slashing cezalarına yol açabilecek ciddi bir ihlal olarak değerlendirerek güvenliği önceliklendirecek şekilde dikkatle tasarlanmıştır.
 
@@ -40,7 +40,7 @@ Namada'da shielded set, dışlayıcı olmayan ve rekabet karşıtı bir kamusal 
 
 Shielded transferler söz konusu olduğunda, ister bir Ethereum non-fungible token (NFT), ister ATOM, ister NAM olsun, bunlar birbirinden ayırt edilemez. Bu, Zcash Sapling devresinin geliştirilmiş bir sürümü olan MASP (Modified Accumulator Sapling Protocol) tarafından sağlanan gizliliği koruyan özelliklerin tüm varlık türlerine eşit şekilde uygulandığı anlamına gelir. MASP devresi, Namada ekosistemi içindeki tüm varlıkların aynı shielded set'i paylaşmasını sağlar. Bu yaklaşım, gizlilik güvencelerinin tek tek varlıklar arasında parçalanmamasını garanti eder. Belirli bir varlıkla ilişkili işlem hacmi ne olursa olsun, gizlilik koruması tutarlı ve bağımsız kalır.
 
-![Shielded Varlık İşlemi Diyagramı](/content-images/image-1-512c639d56.webp)
+![Shielded Varlık İşlemi Diyagramı](https://i.ibb.co/7CDmWk6/image-1.png)
 
 Farklı varlıklar arasında shielded set'i birleştirerek Namada, shielded bir transfere dahil olan belirli varlık türünden bağımsız olarak gizliliğin eşit biçimde korunmasını sağlar. Bu yaklaşım, protokol içinde bütüncül bir gizlilik çerçevesini teşvik eder ve Ethereum NFT'leri, ATOM, NAM ve diğer desteklenen varlıkları içeren işlemlerin gizliliğini artırır. Namada ayrıca, yeni zk-SNARKs kullanarak fungible ve non-fungible tokenların özel transferini mümkün kılar ve yerel ile yerel olmayan tokenlar için tıpkı Zcash'te yapıldığı gibi gizlilik sağlar.
 
@@ -54,7 +54,7 @@ Buna ek olarak, Namada modern BFT uzlaşma algoritmalarından yararlanır; bunla
 
 Yakın zamanda yayımlanan ve [Namada Protocol Blog](https://blog.namada.net/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/) üzerinde bulunabilecek bir yayına göre, Namada Protocol'ün arkasındaki ekip, Namada ve Zcash varlıkları, zincirleri ve toplulukları arasında stratejik bir ittifak için bir teklif ve request-for-comment (RFC) sunmaktan heyecan duyuyor.
 
-![Namada-Zcash Stratejik İttifak Diyagramı](/content-images/image-2-68804c60f3.webp)
+![Namada-Zcash Stratejik İttifak Diyagramı](https://i.ibb.co/FqsmkMb/image-2.png)
 
 Önerilen ittifak üç temel unsuru kapsıyor. İlk olarak, hem Zcash hem de Namada'ya fayda sağlayan projelere finansman sağlamak için bir hibe havuzu oluşturulacak. İkinci olarak, ZEC sahiplerine bir NAM token airdrop'u tahsis edilecek. Son olarak, Zcash ve Namada'yı birbirine bağlayan, güveni en aza indiren bir köprü kurmak için bir plan bulunmaktadır. Bu köprü hayata geçirildiğinde, Zolders olarak anılan ZEC sahipleri ZEC'lerini Namada üzerinde kullanabilecekler. Ayrıca Zolders, Namada aracılığıyla daha geniş Cosmos ve Ethereum ekosistemlerine erişme fırsatına sahip olacaklar. Stratejik ittifak hakkında daha fazla bilgiye [Zcash Topluluk Forumu](https://forum.zcashcommunity.com/t/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/44372) üzerinden ulaşabilirsiniz.
 

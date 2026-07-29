@@ -5,7 +5,7 @@
 Zero to Zero Knowledge è tornata con un nuovo argomento!  
 Questa settimana esploriamo i **Trusted Execution Environments (TEE)** - come vengono usati nelle privacy coin e in altre applicazioni blockchain.
 
-![Introduzione ai Trusted Execution Environments](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
+![Introduzione ai Trusted Execution Environments](https://pbs.twimg.com/media/Fquj-h2WcAIgSnL.jpg)
 
 ---
 
@@ -31,7 +31,7 @@ Ogni nodo validatore esegue chip Intel SGX. I livelli di consenso e di calcolo s
 
 Questo è diverso da Zcash, che usa le **prove a conoscenza zero** per la privacy. In Zcash, le transazioni schermate vengono trasmesse e validate pubblicamente senza rivelare alcun dato aggiuntivo alla rete. Gli Zcash Shielded Assets seguono lo stesso principio.
 
-![Diagramma TEE di Secret Network](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
+![Diagramma TEE di Secret Network](https://pbs.twimg.com/media/FqulPjNX0AEfjRp.png)
 
 Per una spiegazione dettagliata di come i TEE vengono implementati su Secret Network, leggi questo eccellente articolo di @l_woetzel:  
 https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerability-33ca94b6df38
@@ -55,11 +55,11 @@ Consente a una parte remota di verificare:
 - Che l'applicazione non sia stata manomessa  
 - Che venga eseguita in modo sicuro all'interno di un'enclave Intel SGX
 
-![Spiegazione della Remote Attestation](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
+![Spiegazione della Remote Attestation](https://pbs.twimg.com/media/FqumRjoWwAAeT-M.png)
 
 Le enclave contengono anche chiavi private di firma e di attestazione che non possono essere accedute dall'esterno.
 
-![Protezione delle chiavi dell'enclave](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
+![Protezione delle chiavi dell'enclave](https://pbs.twimg.com/media/Fqumv83XoAQq-MO.png)
 
 ---
 
@@ -69,7 +69,7 @@ Poiché le enclave sono stateless, i dati devono talvolta essere memorizzati all
 
 Il **Data Sealing** cifra i dati all'interno dell'enclave usando una chiave derivata dalla CPU. Il blocco cifrato può essere decifrato (unsealed) solo sullo **stesso sistema**.
 
-![Diagramma del Data Sealing](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
+![Diagramma del Data Sealing](https://pbs.twimg.com/media/FqunBwyWYAA-TR3.jpg)
 
 ---
 
@@ -79,7 +79,7 @@ Anche **Oasis Network** usa i TEE attraverso il suo ParaTime confidenziale (ad e
 
 I dati cifrati entrano nel TEE insieme allo smart contract. Vengono decifrati, elaborati e ri-cifrati prima di lasciare l'enclave.
 
-![Flusso TEE di Oasis Network](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
+![Flusso TEE di Oasis Network](https://pbs.twimg.com/media/FqunJRDXwAMt4Ob.png)
 
 ---
 
@@ -94,7 +94,7 @@ Per i validatori PoS:
 
 I **TEE** sono ideali per generare e usare in modo sicuro le chiavi dei validatori.
 
-![Sicurezza di Tendermint e PoS](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
+![Sicurezza di Tendermint e PoS](https://pbs.twimg.com/media/Fqun0HEX0AAooxW.jpg)
 
 ---
 

@@ -13,7 +13,7 @@ Wɔde **BIP-39** nkyerɛkyerɛmu, kasasin a wɔtaa de di dwuma nnɛ no na ɛkyer
 
 Nsɛmfua a wɔde san yɛ adwuma no bɔ fi ase denam **randomness** a ɛde ba no so. Entropy pii kyerɛ ahobammɔ a ɛkorɔn. Wobu entropy **128 bits** sɛ ɛdɔɔso ma wɔn a wɔde di dwuma dodow no ara.
 
-![Aba kasasin adwene](/content-images/FooM3qWWACgrwzn-f222c4081f.webp)
+![Aba kasasin adwene](https://pbs.twimg.com/media/FooM3qWWACgrwzn.jpg)
 
 Ɛgyina entropy a edi kan no tenten so no, kasasin a wɔde san ba no bɛyɛ **nsɛmfua 12 kosi 24**.
 
@@ -28,7 +28,7 @@ Yɛhyɛ aseɛ denam entropy **128 bits** a yɛyɛ so.
 Yɛde **SHA256** na ɛyɛ hash entropy no. Hash yi mu bits kakraa bi a edi kan no bɛyɛ checksum. 
 Eyi ma yenya nsateaa soronko bi ma yɛn entropy.
 
-![Entropy + Checksum mfonini](/content-images/FooNoOEXgAAu-g6-613238fa7e.webp)
+![Entropy + Checksum mfonini](https://pbs.twimg.com/media/FooNoOEXgAAu-g6.png)
 
 ### 3. Kyekyɛ mu yɛ no 11-bit chunks
 Wɔakyekyɛ bits 132 (entropy 128 + checksum 4) no nyinaa mu ayɛ no asinasin a ɛyɛ bits 11.
@@ -39,7 +39,7 @@ BIP-39 nsɛmfua a wɔahyehyɛ no kura **nsɛmfua 2048** pɛpɛɛpɛ (Borɔfo, Sp
 
 Wɔde saa nɔma ahorow yi hwehwɛ asɛmfua a ɛne no hyia wɔ nsɛmfua a wɔahyehyɛ no mu.
 
-![Asɛmfua map nhwɛso](/content-images/FooN9rfXEBoQuU2-d11331fc0a.webp)
+![Asɛmfua map nhwɛso](https://pbs.twimg.com/media/FooN9rfXEBoQuU2.png)
 
 **Nea efi mu ba:** Seesei yɛwɔ kasasin a ahobammɔ wom, a nnipa betumi akenkan a ɛwɔ nsɛmfua 12 a wɔde san nya ahoɔden!
 
@@ -59,7 +59,7 @@ Wɔnya sika kotokuo aba no firi nkaeɛ kasasin a wɔde **Key Derivation Function
 
 Wei ma wonya **64-byte (512-bit)** aba.
 
-![Seed to master keys](/content-images/FooOuumXEAgcBm1-dc7c66b84a.webp)
+![Seed to master keys](https://pbs.twimg.com/media/FooOuumXEAgcBm1.jpg)
 
 ### Master Keys
 Wɔakyekyɛ aba no mu abien a ɛyɛ baiti 32 nnidiso nnidiso:
@@ -83,7 +83,7 @@ Efi **Expanded Spending Key** mu na yenya:
 
 Derivation akwan horow ma abɔnten address ahorow a ɛfata sɛ wɔde ma wɔn a wɔde nneɛma mena wɔ shielded pools (Sapling & Orchard) so.
 
-![Zcash safoa derivation nhyehyɛe](/content-images/FooPKd4XEBUQhJ6-af133c01bf.webp)
+![Zcash safoa derivation nhyehyɛe](https://pbs.twimg.com/media/FooPKd4XEBUQhJ6.jpg)
 
 Zcash nso boa **address a ɛwɔ mu** ma sika kotokuo dwumadie te sɛ Auto-Shielding.
 

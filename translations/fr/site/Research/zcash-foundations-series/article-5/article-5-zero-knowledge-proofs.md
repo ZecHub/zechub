@@ -1,7 +1,7 @@
 # Preuves à divulgation nulle de connaissance : prouver que vous avez raison sans dire pourquoi
 ##### Recherche originale de [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![texte alternatif](/content-images/image-23-71534bece9.webp)
+![texte alternatif](image-23.png)
 
 ### Le rideau qui permet au monde de vérifier ce qu’il ne pourra jamais voir
 
@@ -40,7 +40,7 @@ Cette histoire de grotte illustre discrètement les **trois garanties** que tout
 
 ## 3. Les trois garanties
 
-![texte alternatif](/content-images/image-24-b559d31849.webp)
+![texte alternatif](image-24.png)
 
 | Garantie | Dans l’histoire de la grotte | Dans Zcash |
 |---|---|---|
@@ -62,7 +62,7 @@ Le pont est une idée qui relie toute cette série :
 
 Pensez au circuit comme à une liste de contraintes arithmétiques qui ne sont *toutes satisfaites que si l’énoncé est vrai.* Les entrées privées qui font que tout fonctionne, votre note, votre clé, le chemin de Merkle, sont appelées le **témoin**.
 
-![texte alternatif](/content-images/image-25-2479377e43.webp)
+![texte alternatif](image-25.png)
 
 C’est pourquoi nous avons consacré l’Article 1 aux corps finis et l’Article 3 aux fonctions de hachage compatibles ZK : le circuit parle l’arithmétique des corps finis, donc chaque opération à l’intérieur de l’énoncé (y compris le hachage et la remontée de Merkle de l’Article 4) doit être exprimée de cette manière. Plus chaque opération coûte peu à exprimer, plus la preuve est petite et rapide.
 
@@ -90,7 +90,7 @@ Il n’y a pas de repas gratuit. Beaucoup de SNARKs nécessitent une **configura
 
 Ce secret résiduel est surnommé le **déchet toxique**. Pour s’en débarrasser en toute sécurité, Zcash a mené d’élaborées **cérémonies multipartites** au cours desquelles de nombreux participants indépendants ont chacun apporté de l’aléa ; tant qu’*au moins un seul* a détruit honnêtement sa part, le déchet toxique est irrécupérable.
 
-![texte alternatif](/content-images/image-26-cdad6625cd.webp)
+![texte alternatif](image-26.png)
 
 Les systèmes plus récents suppriment entièrement cette exigence, ce qui est l’une des principales raisons pour lesquelles Zcash a fait évoluer son système de preuve au fil du temps.
 

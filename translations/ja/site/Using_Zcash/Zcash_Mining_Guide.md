@@ -100,7 +100,7 @@ Zcash（ZEC）は、Equihashというプロオブワークアルゴリズムを�
    - ツール: HiveOSやSimpleMining OSを使用してリモートライド管理を行います。
 3. 支払い: 多くのプールは最小限に達した場合自動で支払われます（例：0.05 ZEC）。プールルールを確認してください。
 
-![Zcashマイニング監視設定](/content-images/zcashMining-5ca0019c17.webp)
+![Zcashマイニング監視設定](https://raw.githubusercontent.com/ZecHub/zechub/aac601cf85076960d334f4c841867a646a5a2f29/assets/images/zcashMining.jpg)
 
 ## ヒントとベストプラクティス
 - **収益性:** whattomine.com/coins/166-zec-equihashなどの計算機を使用してください。例：RTX 3060（~300 Sol/s）は、ZEC価格が$50の場合、1日あたり約0.001 ZECを稼ぎ、電気代で約$0.50を差し引きます。

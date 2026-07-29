@@ -5,7 +5,7 @@
 Zero kwa Zero Maarifa ni nyuma na mada mpya! 
 Wiki hii sisi kuchunguza ** Trusted Execution Environments (TEEs) ** - jinsi wao ni kutumika katika sarafu faragha na maombi mengine blockchain.
 
-! [Trusted Utekelezaji Mazingira intro](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
+! [Trusted Utekelezaji Mazingira intro](https://pbs.twimg.com/media/Fquj-h2WcAIgSnL.jpg)
 
 ---
 
@@ -31,7 +31,7 @@ Kila node validator anaendesha Intel SGX chips. makubaliano na kompyuta tabaka n
 
 Hii ni tofauti na Zcash, ambayo hutumia ** ushahidi wa ujuzi wa sifuri ** kwa faragha. Katika Zcash shughuli zilizohifadhiwa zinatangazwa na kuthibitishwa hadharani bila data ya ziada iliyofunuliwa kwenye mtandao. Mali za Zcash Shielded zinafuata kanuni hiyo hiyo.
 
-[Taabu ya siri Network TEE mchoro](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
+[Taabu ya siri Network TEE mchoro](https://pbs.twimg.com/media/FqulPjNX0AEfjRp.png)
 
 Kwa maelezo ya kina ya jinsi TEEs zinavyotekelezwa kwenye Mtandao wa Siri, soma makala hii bora na @l_woetzel: 
 https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerability-33ca94b6df38
@@ -55,11 +55,11 @@ Ni inaruhusu chama cha mbali ili kuthibitisha:
 - Maombi hayajabadilishwa 
 - Ni kutekeleza salama ndani ya Intel SGX enclave
 
-[Remote Attestation maelezo](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
+[Remote Attestation maelezo](https://pbs.twimg.com/media/FqumRjoWwAAeT-M.png)
 
 Enclaves pia vyenye private kusaini na uthibitisho funguo ambayo haiwezi kupatikana kutoka nje.
 
-[Enclave ulinzi muhimu](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
+[Enclave ulinzi muhimu](https://pbs.twimg.com/media/Fqumv83XoAQq-MO.png)
 
 ---
 
@@ -69,7 +69,7 @@ Tangu enclaves ni stateless, data lazima wakati mwingine kuhifadhiwa nje katika 
 
 ** Data Sealing ** encrypts data ndani ya enclave kutumia ufunguo inayotokana na CPU. block encrypted inaweza tu kuwa unsealed juu ya ** mfumo huo**.
 
-[Data Kufunga mchoro](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
+[Data Kufunga mchoro](https://pbs.twimg.com/media/FqunBwyWYAA-TR3.jpg)
 
 ---
 
@@ -79,7 +79,7 @@ Tangu enclaves ni stateless, data lazima wakati mwingine kuhifadhiwa nje katika 
 
 Data encrypted huingia TEE pamoja na mkataba smart. Ni decrypting, kusindika, na re-encrypt before leaving the enclave.
 
-[Oasis Network TEE mtiririko](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
+[Oasis Network TEE mtiririko](https://pbs.twimg.com/media/FqunJRDXwAMt4Ob.png)
 
 ---
 
@@ -94,7 +94,7 @@ Kwa validators PoS:
 
 ** TEEs ** ni bora kwa salama kuzalisha na kutumia validator funguo.
 
-[Tendermint & PoS usalama](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
+[Tendermint & PoS usalama](https://pbs.twimg.com/media/Fqun0HEX0AAooxW.jpg)
 
 ---
 

@@ -4,7 +4,7 @@
 
 
 # Crypto 的 PGP* 播客
-![bannerpgp](/content-images/221758326-06cea3f5-4c9e-4466-b9ee-738546-01f88aec39.webp)
+![bannerpgp](https://user-images.githubusercontent.com/81990132/221758326-06cea3f5-4c9e-4466-b9ee-73854628a6aa.png)
 
 欢迎来到“Crypto 的 PGP*（Pretty Good Policy）播客”，这是 Electric Coin Co. 发起的一项计划！
 

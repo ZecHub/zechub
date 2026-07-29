@@ -17,13 +17,13 @@ Pia, Zaino itaruhusu kutenganisha mwanga mteja utendaji kutoka full node, kupiti
 ## Baadhi ya michoro kuonyesha jinsi Zaino kazi
 
 ### Zaino Usanifu wa Ndani
-[Zaino Usanifu wa Ndani](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
+[Zaino Usanifu wa Ndani](https://i.ibb.co/mRTNtfy/image-2025-01-02-190143429.png)
 
 ### Zaino Live Huduma Usanifu
-[Zebra Live Huduma Usanifu](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
+[Zebra Live Huduma Usanifu](https://i.ibb.co/x7dbRY8/image-2025-01-02-190349017.png)
 
 ### Zaino System Usanifu
-[Zaino System Usanifu](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
+[Zaino System Usanifu](https://i.ibb.co/wwL0XZv/image-2025-01-02-190448037.png)
 
 
 ## Ninaweza kupata wapi habari zaidi?

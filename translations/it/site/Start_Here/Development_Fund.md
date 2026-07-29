@@ -17,7 +17,7 @@ I produttori di blocchi (noti anche come miner) hanno il compito di convalidare 
 In Bitcoin e altre criptovalute, tutte le ricompense di blocco vanno ai produttori di blocchi. Zcash è unica per il fatto che il 20% della ricompensa di blocco viene trasferito al [fondo di sviluppo di Zcash](https://zips.z.cash/zip-1014). Questo fondo finanzia i team che lavorano sul protocollo Zcash.
 
 Attualmente, [Zcash Community Grants](https://zcashcommunitygrants.org/) riceve l'8% delle ricompense di blocco, Electric Coin Co. riceve il 7% e la Zcash Foundation riceve il 5%. Ciò corrisponde rispettivamente al 40%, 35% e 25% del fondo di sviluppo.
-![Dev Fund Recipients ](/content-images/212411570-4858a3d6-f7a1-465a-bf0c-d2ef72-1efe3a104e.webp)
+![Dev Fund Recipients ](https://user-images.githubusercontent.com/43553081/212411570-4858a3d6-f7a1-465a-bf0c-d2ef726d41dc.jpeg)
 
 Nel 2020, la comunità di Zcash ha votato sul fondo di sviluppo e sui team supportati da esso. Nel 2024, la comunità voterà di nuovo per determinare chi riceve i finanziamenti dal fondo di sviluppo.
 
@@ -30,11 +30,11 @@ Il Lockbox Fondo di Sviluppo Differito Ibrido è il meccanismo di finanziamento 
 
 La decisione di implementare il Lockbox del Fondo di Sviluppo al 20% è stata raggiunta attraverso un processo completo guidato dalla comunità. Ciò ha incluso due round di sondaggi dello Zcash Community Advisory Panel (ZCAP), nonché diversi sondaggi a livello di ecosistema. Questi sondaggi hanno permesso a un ampio spettro di parti interessate di esprimere le proprie opinioni e contribuire al processo decisionale.
 
-![](/content-images/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd-8f378b3e3d.webp)
+![](https://global.discourse-cdn.com/zcash/original/3X/f/d/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd.png)
 
 Poiché il lockbox del fondo di sviluppo è differito (il che significa che i fondi saranno sbloccati tramite un aggiornamento di rete in una data successiva), la Comunità Zcash deciderà presto un meccanismo di distribuzione dei fondi. Un'opzione proposta è il meccanismo di governance decentralizzata 'Zbloc'. 
 
-![Potential new form of decentralised governance](/content-images/99588d6f43a3143cb3616e8a89df5125e855ba39-5688d8901f.webp)
+![Potential new form of decentralised governance](https://global.discourse-cdn.com/zcash/original/3X/9/9/99588d6f43a3143cb3616e8a89df5125e855ba39.png)
 
 ## Risorse
 

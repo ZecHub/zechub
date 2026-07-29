@@ -57,7 +57,7 @@ Zcash와 ZEC는 향상된 프라이버시와 보안 기능을 모두 제공합�
 
 그러니, 당신이 쿠키를 너무 좋아하는 사람이라면..,
 
-![/content-images/champagne-barbie-cookie-monster-ded97640a2.webp](/content-images/champagne-barbie-cookie-monster-ded97640a2.webp)
+![https://media.tenor.com/Px4lboKQYbYAAAAC/champagne-barbie-cookie-monster.gif](https://media.tenor.com/Px4lboKQYbYAAAAC/champagne-barbie-cookie-monster.gif)
 
 이제 어디에서 ZEC를 써야 할지 알겠죠!
 
@@ -149,7 +149,7 @@ u1u7unmxgr6efh0l94hz0ag6zku4rjeuuarhql5xsnt744e2lu0dsmhrye5a6mlahw067atgh6x0ykax
 
 • 브랜딩 구축.., 그 외에도 다양합니다. 자신의 사업을 직접 이끌고자 하는 베네수엘라의 모든 여성을 늘 생각합니다. 
 
-![/content-images/cropped-logo-nuevo_Mesa-de-trabajo-1-sca-ba7d9d40e8.webp](/content-images/cropped-logo-nuevo_Mesa-de-trabajo-1-sca-ba7d9d40e8.webp)
+![https://i0.wp.com/emprendedorasdigitales.org/wp-content/uploads/2020/07/cropped-logo-nuevo_Mesa-de-trabajo-1-scaled-1.jpg?resize=300%2C208&ssl=1](https://i0.wp.com/emprendedorasdigitales.org/wp-content/uploads/2020/07/cropped-logo-nuevo_Mesa-de-trabajo-1-scaled-1.jpg?resize=300%2C208&ssl=1)
 
 **웹사이트**: [https://emprendedorasdigitales.org/](https://emprendedorasdigitales.org/) 
 

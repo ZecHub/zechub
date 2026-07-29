@@ -20,7 +20,7 @@ Funções Hash recebem uma entrada de qualquer comprimento e produzem uma saída
 - **Saída resultante** = Valor Hash  
 
 
-![diagrama de Função Hash](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
+![diagrama de Função Hash](https://pbs.twimg.com/media/Fn_NkFHXgAEtgse.png)
 
 ### Experimente você mesmo!
 
@@ -58,12 +58,12 @@ Existem várias classes de Funções Hash. Alguns exemplos:
 #### 1. Hashing de Integridade (Verificações de Integridade de Dados)
 Verificações de integridade de dados são um exemplo de "Hashing de Integridade". Elas são usadas para gerar checksums em arquivos de dados e fornecer garantia de correção ao usuário.
 
-![exemplo de Hashing de Integridade](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
+![exemplo de Hashing de Integridade](https://pbs.twimg.com/media/Fn_Or0MWIAI6sgx.png)
 
 #### 2. Árvores de Merkle (Árvores Hash)
 Uma **árvore hash** ou **árvore de Merkle** é composta por ramos e nós-folha que são rotulados com o hash criptográfico de um bloco de dados.
 
-![diagrama de Árvore de Merkle](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
+![diagrama de Árvore de Merkle](https://pbs.twimg.com/media/Fn_O7ndWIAY5PA-.jpg)
 
 Árvores de Merkle são um exemplo de um **esquema de compromisso criptográfico**. A raiz da árvore é vista como um compromisso, e prova-se que os nós-folha fazem parte do compromisso original.
 
@@ -75,7 +75,7 @@ Nas pools blindadas **Sapling** e **Orchard** do Zcash, a **Note Commitment Tree
 #### 4. Hash de Assinatura (blocos no estilo Bitcoin)
 **SHA256** é um exemplo de "hash de assinatura" usado para impor a imutabilidade de cada bloco na cadeia do Bitcoin. Os mineradores usam o hash do bloco anterior + um hash de todas as transações no bloco atual (hashMerkleRoot) + timestamp + valor aleatório / dificuldade da rede para novos blocos.
 
-![diagrama de bloco SHA256](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
+![diagrama de bloco SHA256](https://pbs.twimg.com/media/Fn_PaVZXoAApHPf.jpg)
 
 #### 5. Equihash (Mineração de Zcash)
 **Equihash** é o algoritmo de hash usado na mineração de Zcash. Ele também é usado por redes como Komodo e Horizen.

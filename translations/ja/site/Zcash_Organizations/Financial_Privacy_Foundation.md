@@ -3,7 +3,7 @@
 </a>
 
 # 財務プライバシー財団 (FPF)
-![FPF](/content-images/FPFgrants-226bdea4bb.webp)
+![FPF](https://i.ibb.co/BsZc8Qv/FPFgrants.webp)
 
 ## FPFについて
 財務プライバシー財団（Financial Privacy Foundation、略称：FPF）はケイマン諸島に設立された非営利組織です。FPFの主な目的は、個人やコミュニティが自身の財務プライバシーやセキュリティを掌握し、保護できるように教育し、支援することです。また、FPFは、個人のプライバシーを尊重した公平で公正な金融システムの実現にも貢献しています。FPFが財務プライバシーに関連する主な活動は、個人やコミュニティに情報を提供し、リソースとサポートを供給して、彼らの財務プライバシーを保護・最適化することです。現在、Financial Privacy Fund（FPF）は「FPF X FPF」と題した助成金プログラムを作成中です。

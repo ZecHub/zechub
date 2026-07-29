@@ -56,7 +56,7 @@ Were anya na [Github repo](https://github.com/red-dev-inc/zavax-bridge/tree/main
 Maka nkọwa ndị ọzọ gbasara teknụzụ, a na-agba ndị ọrụ ume ka ha nyochaa ebe nchekwa na akwụkwọ maka ọrụ RedBridge iji [nyochaa](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) nkọwa nke mwekota, usoro nyocha, na usoro nchekwa.
 
 
-! [img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)
+! [img1](https://github.com/user-attachments/assets/b8c5d267-1711-458a-8a32-1df9d56fae8a)
 
 
 * Ihe ndị a ga-ewepụta: 

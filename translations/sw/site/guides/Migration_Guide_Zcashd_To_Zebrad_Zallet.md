@@ -6,7 +6,7 @@ Zcash mazingira ni kuendeleza. jadi Zcashd full node, kudumishwa na *Electric Co
 - Zallet ni mkoba lightweight kujengwa interface seamlessly na Zebra nodes zilizotengenezwa na Zodl
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ChatGPTImageOct12202508_15_20A](/content-images/SJNBsSYTel-dfd19f34e4.webp)
+![ChatGPTImageOct12202508_15_20A](https://hackmd.io/_uploads/SJNBsSYTel.jpg)
 </div>
 
 Mwongozo huu kutembea wewe kwa njia ya uhamiaji kutoka ** Zcashd ** kwa ** Zebrad ** na ** Zallet **, ikiwa ni pamoja na kuanzisha, mkoba kuagiza, na utatuzi wa matatizo ya kawaida ya uhamisho.
@@ -37,7 +37,7 @@ Hata tukiachilia kando hali ya kupoteza umaana, kuna sababu zenye kusadikisha za
 * Backup yako wallet.dat (au nyingine yoyote ya mkoba faili / muhimu kuhifadhi) kutoka yako zcashd node.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-! [bash (1)](/content-images/SJ_0mUtTxg-1441185a72.svg)
+! [bash (1)](https://hackmd.io/_uploads/SJ_0mUtTxg.svg)
 </div>
 
 * Hifadhi zcash.conf yako na yoyote ya mipangilio ya desturi.
@@ -63,7 +63,7 @@ Unaweza ama kushusha prebuilt binary au kujenga kutoka chanzo.
 Katika ** Linux **/** macOS **:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-! [bash (2)](/content-images/HJhYu8Y6el-d2198f22c9.svg)
+! [bash (2)](https://hackmd.io/_uploads/HJhYu8Y6el.svg)
 </div>
 
 This installs the latest stable version of zebrad.
@@ -71,20 +71,20 @@ This installs the latest stable version of zebrad.
 ** Chaguo B: Kujenga kutoka chanzo **
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-! [bash (3)](/content-images/Syg8FUK6eg-b4557e52e0.svg)
+! [bash (3)](https://hackmd.io/_uploads/Syg8FUK6eg.svg)
 </div>
 
 Baada ya kujenga, hoja binary katika njia yako:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[uhamaji 11](/content-images/BJ0zjLY6ll-f77354d701.webp)
+[uhamaji 11](https://hackmd.io/_uploads/BJ0zjLY6ll.png)
 </div>
 
 **4. Configuration & Uzinduzi** 
 Kuzalisha default config:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[uhamaji2](/content-images/HJV1C8tTxx-5823395651.webp)
+[uhamaji2](https://hackmd.io/_uploads/HJV1C8tTxx.png)
 </div>
 
 Hariri **zebrad.toml** kwa mapendekezo yako (kusikiliza anwani, bandari, directory hali, caching).
@@ -92,7 +92,7 @@ Hariri **zebrad.toml** kwa mapendekezo yako (kusikiliza anwani, bandari, directo
 ** Kuanza node:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[picha](/content-images/H1KPkvt6gl-864c48ca40.webp)
+[picha](https://hackmd.io/_uploads/H1KPkvt6gl.png)
 </div>
 
 node itaanza kusawazisha kutoka genesis - kutarajia masaa kadhaa (au zaidi) kulingana na vifaa na mtandao.
@@ -106,7 +106,7 @@ Angalia Zallet GitHub / kutolewa ukurasa kwa ajili ya binaries.
 ** Au kujenga kutoka chanzo:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[picha](/content-images/SyUFxvFTex-5bb10ee1d3.webp)
+[picha](https://hackmd.io/_uploads/SyUFxvFTex.png)
 </div>
 
 * Kuzindua GUI au CLI (kama ufungaji yako hutoa).
@@ -118,7 +118,7 @@ Kupitia Dump Key Private
 Juu ya zcashd, kuuza nje funguo yako binafsi:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-! [bash (4)](/content-images/rJzgzwFagx-4a0874f250.svg)
+! [bash (4)](https://hackmd.io/_uploads/rJzgzwFagx.svg)
 </div>
 
 * Katika Zallet, kuchagua Import Keys au chaguo sawa.
@@ -143,13 +143,13 @@ Wakati usawazishaji kukamilika, mizani yako na shughuli lazima kuonekana hasa ka
 Unaweza kuthibitisha msimamo wa usawazishaji node yako kwa kuendesha:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[picha](/content-images/SyIyVDY6xl-10d6bed7b8.webp)
+[picha](https://hackmd.io/_uploads/SyIyVDY6xl.png)
 </div>
 
 Au angalia kumbukumbu.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[picha](/content-images/r1HfVPF6gg-b6b76e9907.webp)
+[picha](https://hackmd.io/_uploads/r1HfVPF6gg.png)
 </div>
 
 **8. Kutatua matatizo**

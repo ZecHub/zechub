@@ -1,5 +1,5 @@
 ## [ZODL, na ɛyɛ adwuma](https://zodl.com)
-![ahyɛnsodeɛ](/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp "ZODL")
+![ahyɛnsodeɛ](https://github.com/user-attachments/assets/198608b2-9059-4cb7-aeb8-9354971376fd "ZODL")
 - Mfiri a Wɔde Yɛ: Mobile
 - Dwumadie Nhyehyɛeɛ: Android | iOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
@@ -9,7 +9,7 @@
 ---
 
 ## [Ywallet, na ɔde ne nsa kyerɛɛ ne so](https://ywallet.app/installation/)
-![ahyɛnsodeɛ](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
+![ahyɛnsodeɛ](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
 - Mfiri a Wɔde Yɛ Adwuma: Mobile | Desktop so na ɛyɛ adwuma
 - Dwumadie Nhyehyɛeɛ: Android | iOS | Mfɛnsere | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
@@ -19,7 +19,7 @@
 ---
 
 ## [Dizzy](https://youtu.be/IVkuo1CGPBU)
-![ahyɛnsodeɛ](/content-images/Dizzy-3-1a90249591.webp "Dizzy")
+![ahyɛnsodeɛ](https://i.ibb.co/FH918w9/Dizzy-3.png "Dizzy")
 - Mfiri a Wɔde Yɛ Adwuma: Mobile | Desktop so na ɛyɛ adwuma
 - Dwumadie Nhyehyɛeɛ: Android | iOS | Mfɛnsere | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
@@ -29,7 +29,7 @@
 ---
 
 ## [Zingo, na ɔde ne nsa kyerɛɛ ne so!](https://www.zingolabs.org/)
-![ahyɛnsodeɛ](/content-images/zingocard-9a2546668d.webp "Zingo!")
+![ahyɛnsodeɛ](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
 - Mfiri a Wɔde Yɛ Adwuma: Mobile | Desktop so na ɛyɛ adwuma
 - Dwumadie Nhyehyɛeɛ: Android | iOS | Mfɛnsere | Linux
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
@@ -39,7 +39,7 @@
 ---
 
 ## [Ntweaso](https://edge.app)
-![ahyɛnsodeɛ](/content-images/image-2024-11-28-091312254-b2389ad332.webp "Edge")
+![ahyɛnsodeɛ](https://i.ibb.co/4FVQLS9/image-2024-11-28-091312254.png "Edge")
 - Mfiri a Wɔde Yɛ: Mobile
 - Dwumadie Nhyehyɛeɛ: Android | iOS
 - Wallet Support: Seed Phrase | Unified Address
@@ -49,7 +49,7 @@
 ---
 
 ## [Wɔrentumi nsiw ano](https://unstoppable.money)
-![ahyɛnsodeɛ](/content-images/image-2024-11-28-091200540-815817fda7.webp "Unstoppable")
+![ahyɛnsodeɛ](https://i.ibb.co/C68mFCx/image-2024-11-28-091200540.png "Unstoppable")
 - Mfiri a Wɔde Yɛ: Mobile
 - Dwumadie Nhyehyɛeɛ: Android | iOS
 - Wallet Support: Seed Phrase | Unified Address
@@ -59,7 +59,7 @@
 ---
 
 ## [eZcash na ɛyɛ](https://blog.nerdbank.net/ezcash-app)
-![ahyɛnsodeɛ](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
+![ahyɛnsodeɛ](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
 - Mfiri a Wɔde Yɛ Adwuma: Mobile | Desktop so na ɛyɛ adwuma
 - Dwumadie Nhyehyɛeɛ: Android | iOS | Windows
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
@@ -69,7 +69,7 @@
 ---
 
 ## [Zkool na ɔkyerɛwee](https://github.com/hhanh00/zkool2/)
-![ahyɛnsodeɛ](/content-images/zkool-1-22ab388e65.webp "Zkool")
+![ahyɛnsodeɛ](https://i.ibb.co/BHGPff0K/zkool-1.png "Zkool")
 - Mfiri a Wɔde Yɛ Adwuma: Mobile | Desktop so na ɛyɛ adwuma
 - Dwumadie Nhyehyɛeɛ: Android | iOS | Mfɛnsere | Linux
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
@@ -79,7 +79,7 @@
 ---
 
 ## [Keeki](https://cakewallet.com/install/)
-![ahyɛnsodeɛ](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
+![ahyɛnsodeɛ](https://github.com/user-attachments/assets/a8234c70-3714-4e80-b918-8739d45aea00 "Cake")
 - Mfiri a Wɔde Yɛ Adwuma: Mobile | Desktop so na ɛyɛ adwuma 
 - Dwumadie Nhyehyɛeɛ: Android | iOS | Mfɛnsere | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
@@ -89,7 +89,7 @@
 ---
 
 ## [Zenith na ɔkyerɛwee](https://code.vergara.tech/Vergara_Tech/zenith)
-![ahyɛnsodeɛ](/content-images/zenith-2-cea75a34fd.webp "Zenith")
+![ahyɛnsodeɛ](https://i.ibb.co/VtPBnm6/zenith-2.png "Zenith")
 - Mfiri a Wɔde Yɛ: Desktop
 - Dwumadie Nhyehyɛeɛ: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
@@ -99,7 +99,7 @@
 ---
 
 ## [Zingo-CLI na ɔkyerɛwee](https://github.com/zingolabs/zingolib)
-![ahyɛnsodeɛ](/content-images/zingocard-9a2546668d.webp "Zingo-CLI")
+![ahyɛnsodeɛ](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo-CLI")
 - Mfiri a Wɔde Yɛ: Desktop
 - Dwumadie Nhyehyɛeɛ: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
@@ -109,7 +109,7 @@
 ---
 
 ## [Zallet, na ɔde ne nsa kyerɛɛ ne so](https://github.com/zcash/wallet)
-![ahyɛnsodeɛ](/content-images/Brandmark-Yellow-2eca7f6f68.webp "Zallet")
+![ahyɛnsodeɛ](https://i.ibb.co/3mCrR0dN/Brandmark-Yellow.png "Zallet")
 - Mfiri a Wɔde Yɛ: Desktop
 - Dwumadie Nhyehyɛeɛ: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
@@ -119,7 +119,7 @@
 ---
 
 ## [Zcashd, na ɛyɛ adwuma](https://github.com/zcash/zcash)
-![ahyɛnsodeɛ](/content-images/zcashd-92df3291ad.webp "Zcashd")
+![ahyɛnsodeɛ](https://i.ibb.co/Xz2NskW/zcashd.png "Zcashd")
 - Mfiri a Wɔde Yɛ: Desktop
 - Dwumadie Nhyehyɛeɛ: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
@@ -129,7 +129,7 @@
 ---
 
 ## [Akokoɔduro](https://brave.com/web3-privacy/)
-![ahyɛnsodeɛ](/content-images/image-2024-01-13-170934865-733c5d91c6.webp "Brave")
+![ahyɛnsodeɛ](https://i.ibb.co/6yqMNwZ/image-2024-01-13-170934865.png "Brave")
 - Mfiri a Wɔde Yɛ: Wɛbsaet
 - Dwumadi Nhyehyɛe: Browser
 - Wallet Support: Seed Phrase | Unified Address
@@ -139,7 +139,7 @@
 ---
 
 ## [Metamask Mfonini a Wɔde Di Dwuma](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
-![ahyɛnsodeɛ](/content-images/metamask-25048569f6.webp  "Metamask")
+![ahyɛnsodeɛ](https://i.ibb.co/jn5t9Gy/metamask.png  "Metamask")
 - Mfiri a Wɔde Yɛ: Wɛbsaet
 - Dwumadi Nhyehyɛe: Browser
 - Wallet Support: Seed Phrase | Unified Address
@@ -149,7 +149,7 @@
 ---
 
 ## [Zucchini a ɛyɛ hu](https://zucchinifi.xyz/)
-![ahyɛnsodeɛ](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
+![ahyɛnsodeɛ](https://github.com/user-attachments/assets/91a1005a-3daf-4747-9442-c178cbe50e49 "Zucchini")
 - Mfiri a Wɔde Yɛ: Wɛbsaet 
 - Dwumadi Nhyehyɛe: Browser
 - Wallet Support: Seed Phrase | Unified Address
@@ -159,7 +159,7 @@
 ---
 
 ## [SSP Wallet](https://sspwallet.io)
-![ahyɛnsodeɛ](/content-images/ssp-1-7d96e66117.webp "SSP Wallet")
+![ahyɛnsodeɛ](https://i.ibb.co/X3hdfSY/ssp-1.png "SSP Wallet")
 - Mfiri a Wɔde Yɛ Adwuma: Mobile | Wɛbsaet so
 - Dwumadie Nhyehyɛeɛ: Android | iOS | Browser a wɔde di dwuma
 - Wallet Mmoa: Aba Kasasin
@@ -169,7 +169,7 @@
 ---
 
 ## [Trust Sikakorabea](https://trustwallet.com/download)
-![ahyɛnsodeɛ](/content-images/trustwallet-bec43acb59.webp "Trust Wallet")
+![ahyɛnsodeɛ](https://i.ibb.co/cNqxBJ1/trustwallet.png "Trust Wallet")
 - Mfiri a Wɔde Yɛ Adwuma: Mobile | Wɛbsaet so
 - Dwumadie Nhyehyɛeɛ: Android | iOS | Browser a wɔde di dwuma
 - Wallet Mmoa: Aba Kasasin
@@ -179,7 +179,7 @@
 ---
 
 ## [Exodus](https://www.exodus.com/zcash-wallet-zec)
-![ahyɛnsodeɛ](/content-images/exoduscard-2f77769db0.webp "Exodus")
+![ahyɛnsodeɛ](https://i.ibb.co/w0NNZNp/exoduscard.png "Exodus")
 - Mfiri a Wɔde Yɛ Adwuma: Mobile | Desktop a wɔde yɛ adwuma | Wɛbsaet so
 - Dwumadie Nhyehyɛeɛ: Android | iOS | Mfɛnsere | Linux | macOS | Browser a wɔde di dwuma
 - Wallet Mmoa: Aba Kasasin
@@ -189,7 +189,7 @@
 ---
 
 ## [Coinomi a ɔyɛ ɔdefo](https://www.coinomi.com/en/downloads)
-![ahyɛnsodeɛ](/content-images/coinomicard-226bcbf876.webp "Coinomi")
+![ahyɛnsodeɛ](https://i.ibb.co/QfHmjWY/coinomicard.png "Coinomi")
 - Mfiri a Wɔde Yɛ Adwuma: Mobile | Desktop so na ɛyɛ adwuma
 - Dwumadie Nhyehyɛeɛ: Android | iOS | Windows
 - Wallet Mmoa: Aba Kasasin
@@ -199,7 +199,7 @@
 ---
 
 ## [Keystone](https://shop.keyst.one)
-![ahyɛnsodeɛ](/content-images/Keystone-1-8177a83308.webp "Keystone")
+![ahyɛnsodeɛ](https://i.ibb.co/c1gn635/Keystone-1.png "Keystone")
 - Mfiri a Wɔde Yɛ:
 - Dwumadi Nhyehyɛe:
 - Wallet Support: Hardware | Unified Address
@@ -209,7 +209,7 @@
 ---
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
-![ahyɛnsodeɛ](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
+![ahyɛnsodeɛ](https://i.ibb.co/2qX6WCF/Desktop-Wallets.png "Ledger")
 - Mfiri a Wɔde Yɛ: 
 - Dwumadi Nhyehyɛe:
 - Sikakorabea Mmoa: Hardware
@@ -219,7 +219,7 @@
 ---
 
 ## [Safepal](https://safepal.com)
-![ahyɛnsodeɛ](/content-images/safepalcard-176b24c751.webp "Safepal")
+![ahyɛnsodeɛ](https://i.ibb.co/h29h6d0/safepalcard.png "Safepal")
 - Mfiri a Wɔde Yɛ Adwuma: Mobile | Wɛbsaet so
 - Dwumadie Nhyehyɛeɛ: Android | iOS | Browser a wɔde di dwuma
 - Wallet Mmoa: Aba Kasasin | Hardware a wɔde yɛ nneɛma
@@ -229,7 +229,7 @@
 ---
 
 ## [Trezor, na ɔde ne nsa kyerɛɛ ne so](https://trezor.io/learn/a/zcash-zec)
-![ahyɛnsodeɛ](/content-images/trezor1-5004075d27.webp "Trezor")
+![ahyɛnsodeɛ](https://i.ibb.co/twLMCgzW/trezor1.png "Trezor")
 - Mfiri a Wɔde Yɛ:
 - Dwumadi Nhyehyɛe:
 - Sikakorabea Mmoa: Hardware
@@ -239,7 +239,7 @@
 ---
 
 ## [Vultisig, na ɛyɛ adwuma](https://vultisig.com)
-![ahyɛnsodeɛ](/content-images/vultisig-713626c5ba.webp "Vultisig")
+![ahyɛnsodeɛ](https://i.ibb.co/93wSrxCc/vultisig.png "Vultisig")
 - Mfiri: Wɛbsaet | Mobile so | Desktop so na ɛyɛ adwuma
 - Dwumadie Nhyehyɛeɛ: Android | iOS | Mfɛnsere | Linux | macOS | Browser a wɔde di dwuma
 - Atare: Ɛyɛ nea ɛda adi pefee
@@ -248,7 +248,7 @@
 ---
 
 ## [Vizor](https://vizor.cash/)
-![ahyɛnsodeɛ](/content-images/Vizorphoto-6ade2417a5.webp "Vizor")
+![ahyɛnsodeɛ](https://i.ibb.co/zhW2d2fV/Vizorphoto.png "Vizor")
 - Mfiri a Wɔde Yɛ Adwuma: Desktop | Moobaa
 - Dwumadi Nhyehyɛe: macOS
 - Wallet Support: Seed Phrase | Unified Address | Hardware
@@ -258,7 +258,7 @@
 ---
 
 ## [Noir sika kotoku](https://www.zknoir.com/)
-![ahyɛnsodeɛ](/content-images/Noirwallet-8589fe34e4.webp "Noir")
+![ahyɛnsodeɛ](https://i.ibb.co/23RkRZZS/Noirwallet.png "Noir")
 - Mfiri: Wɛbsaet | Desktop so na ɛyɛ adwuma
 - Dwumadi Nhyehyɛe: Browser
 - Atare: Wɔabɔ ho ban | Fann
@@ -267,7 +267,7 @@
 ---
 
 ## [LeoDex na ɔkyerɛwee](https://leodex.io/)
-![ahyɛnsodeɛ](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
+![ahyɛnsodeɛ](https://i.ibb.co/3YjpzYnH/Leo-Dexwallet.png "LeoDex")
 - Mfiri: Wɛbsaet | Desktop so na ɛyɛ adwuma
 - Dwumadie Nhyehyɛe: Browser | Mfɛnsere | macOS
 - Wallet Mmoa: Aba Kasasin | Abɔnten So Sikakorabea | Gye Address | QR Kood | Hardware a wɔde yɛ nneɛma
@@ -277,7 +277,7 @@
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
-![ahyɛnsodeɛ](/content-images/zapp-1-a6fa468edb.webp "Zapp")
+![ahyɛnsodeɛ](https://i.ibb.co/mr8rF8y2/zapp-1.png "Zapp")
 - Mfiri a Wɔde Yɛ: Mobile 
 - Dwumadi Nhyehyɛe: Android 
 - Wallet Support: Unified Address 

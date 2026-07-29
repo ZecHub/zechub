@@ -17,13 +17,13 @@ Afei nso, Zaino bɛma kwan ma wɔatetew hann akraman dwumadie mu afiri node a ɛ
 ## Mfonini ahorow bi a ɛkyerɛ sɛnea Zaino yɛ adwuma
 
 ### Zaino Mfinimfini Nneɛma a Wɔde Yɛ Adwuma
-![Zaino Mfinimfini Nneɛma a Wɔde Yɛ Adwuma](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
+![Zaino Mfinimfini Nneɛma a Wɔde Yɛ Adwuma](https://i.ibb.co/mRTNtfy/image-2025-01-02-190143429.png)
 
 ### Zaino Live Service Nneɛma a Wɔde Yɛ Adwuma
-![Zebra Live Service Nneɛma a Wɔde Yɛ Adwuma](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
+![Zebra Live Service Nneɛma a Wɔde Yɛ Adwuma](https://i.ibb.co/x7dbRY8/image-2025-01-02-190349017.png)
 
 ### Zaino Nhyehyɛeɛ a Wɔde Yɛ Nneɛma
-![Zaino Nhyehyɛeɛ a Wɔde Yɛ Nneɛma](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
+![Zaino Nhyehyɛeɛ a Wɔde Yɛ Nneɛma](https://i.ibb.co/wwL0XZv/image-2025-01-02-190448037.png)
 
 
 ## Ɛhe na Metumi asua pii?

@@ -28,7 +28,7 @@ YWallet est reconnue comme l’une des meilleures options pour récupérer des f
 
 4. Dans le coin supérieur droit, cliquez sur le signe plus 
 
-![Bouton signe plus](/content-images/plus-3ca2c1649a.webp)
+![Bouton signe plus](https://i.postimg.cc/xJbVz7gB/plus.png)
 
 5. Activez « Restore an account » 
 
@@ -46,7 +46,7 @@ YWallet est reconnue comme l’une des meilleures options pour récupérer des f
 
 4. Saisissez votre phrase de récupération (Gap limit analyse les adresses supplémentaires générées par la phrase de récupération)
 
-![Écran Sweep Funds](/content-images/sweep-6c956553a9.webp)
+![Écran Sweep Funds](https://i.postimg.cc/3055CBcN/sweep.png)
 
 5. Saisissez le Value Pool pour la destination que vous souhaitez utiliser (les plateformes d’échange utilisent Transparent)
 

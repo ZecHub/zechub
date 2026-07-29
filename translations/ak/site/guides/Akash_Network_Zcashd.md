@@ -90,7 +90,7 @@ Wɔdi eyi ho dwuma ara kwa. Fa URI a Akash de ma wo no di dwuma kɛkɛ.
 
 ### Ɔkwan A: Fa SDL Fael (Wɔkamfo kyerɛ) .
 
-[![Deploy wɔ Akash so](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
+[![Deploy wɔ Akash so](https://raw.githubusercontent.com/akash-network/console/refs/heads/main/apps/deploy-web/public/images/deploy-with-akash-btn.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
 
 ### Ɔkwan B: Fa SDL Editor di dwuma
 

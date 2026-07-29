@@ -56,7 +56,7 @@ Echa un vistazo al [repositorio de Github](https://github.com/red-dev-inc/zavax-
 Para más detalles técnicos, se anima a los usuarios a revisar el repositorio y la documentación del proyecto RedBridge para [explorar](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) los detalles específicos de la integración, los marcos de pruebas y los protocolos de seguridad.
 
 
-![img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)
+![img1](https://github.com/user-attachments/assets/b8c5d267-1711-458a-8a32-1df9d56fae8a)
 
 
 * Entregables: 

@@ -6,7 +6,7 @@ published: 2025-08-02
   <img src="https://img.shields.io/badge/Edit-blue" alt="تعديل الصفحة"/>
 </a>
 
-![شعار Namada](/content-images/nam-078c7b6883.webp)
+![شعار Namada](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/nam.png)
 
 # أفضل ممارسات الخصوصية في Namada
 

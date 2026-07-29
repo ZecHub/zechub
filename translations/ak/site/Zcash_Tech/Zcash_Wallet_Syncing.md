@@ -47,7 +47,7 @@ Spend-before-sync yɛ ade foforo wɔ Zcash Mobile Wallet SDK V2 mu a ɛma wɔn a
 Spend-before-sync yɛ adwuma denam compact-blocks synchronization algorithm a ɛyɛ blocks a efi lightwalletd server no so ho adwuma wɔ nhyehyɛe a ɛnyɛ linear mu. Wei kyerɛ sɛ sɛ anka wɔbɛtwɛn sɛ wɔbɛyɛ block baako ho adwuma koraa ansa na wɔakɔ so no, sika kotokuo bɛtumi de memory ne dwumadie tumi kakra adi dwuma de ahwehwɛ blockchain no afã ahodoɔ. Mpɛn pii no, ɛhwehwɛ range ahorow mu, hwehwɛ nnwuma foforo bere a wɔretwe block dedaw no na wɔreyɛ ho adwuma no. Sɛ wohu krataa bi a wɔansɛe no nnansa yi a, wɔbɛma wɔanya bi ntɛm ara.
 
 <a href="">
-    <img src="/content-images/363d08df-b7b7-461b-a386-251d9ad702ca-a857cd8385.webp" alt="" width="140" height="150"/>
+    <img src="https://github.com/ZecHub/zechub/assets/9355622/363d08df-b7b7-461b-a386-251d9ad702ca" alt="" width="140" height="150"/>
 </a>
 
 ### Blaze Sync a ɛyɛ adwuma
@@ -67,7 +67,7 @@ DAGSync yɛ synchronization algorithm a wɔahyɛ ho nyansa a ne botaeɛ ne sɛ �
 DAG yɛ data nhyehyeɛ a ɛyɛ nodes ne edges, baabi a edge biara wɔ akwankyerɛ a ɛkyerɛ abusuabɔ a ɛda nodes mmienu ntam. DAG nni kyinhyia biara, a ɛkyerɛ sɛ ɔkwan biara nni hɔ a wobɛfa so afi ase afi node bi so na woadi anoano no akyi asan akɔ node koro no ara so.
 
 <a href="">
-    <img src="/content-images/eee7e08d-5c98-4c88-a48e-12f7a92a195f-316493530f.webp" alt="" width="110" height="230"/>
+    <img src="https://github.com/ZecHub/zechub/assets/9355622/eee7e08d-5c98-4c88-a48e-12f7a92a195f" alt="" width="110" height="230"/>
 </a>
 
 ## Nkyerɛkyerɛmu a mfaso wɔ so

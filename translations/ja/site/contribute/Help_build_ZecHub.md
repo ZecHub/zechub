@@ -27,7 +27,7 @@ Zcash とプライバシーのエコシステム向けに、ポスター／グ�
 
 現在報奨金が公開されているタスクの issue は、毎週月曜日に投稿しています。報奨金の提案も歓迎です！ 主に ZEC Bounties で見つけることができます。
 
-![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
+![zecbounties](https://github.com/user-attachments/assets/0e4f5109-c0c9-4a0a-8d71-8172e36b9726)
 
 
 

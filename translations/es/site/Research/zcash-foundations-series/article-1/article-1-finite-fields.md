@@ -1,7 +1,7 @@
 # Campos finitos: el sistema numérico en el que vive la criptografía
 ##### Investigación original de [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![texto alternativo](/content-images/image-5-6e8a8950f8.webp)
+![texto alternativo](image-5.png)
 
 ### Por qué “dar la vuelta” es la base secreta de Zcash
 
@@ -38,7 +38,7 @@ Ya usas un campo finito todos los días. Es el reloj de tu pared.
 
 En un reloj de 12 horas, los números *dan la vuelta*. Empieza en las 10, suma 5 horas, y no llegas a “las 15”, sino a **las 3**. El reloj solo tiene doce posiciones, y contar más allá de la parte superior simplemente te devuelve al inicio.
 
-![texto alternativo](/content-images/image-9-30b39f4cc5.webp)
+![texto alternativo](image-9.png)
 
 Acaban de ocurrir tres cosas que son el punto central de este artículo:
 
@@ -107,7 +107,7 @@ Esa segunda frase es una catástrofe para la aritmética. Dos cosas no nulas que
 
 Un primo, por definición, no tiene tales factores. Así que mod un primo, no pueden aparecer divisores de cero, todo elemento no nulo obtiene un recíproco limpio, y la estructura es un campo propiamente dicho.
 
-![texto alternativo](/content-images/image-8-573914db92.webp)
+![texto alternativo](image-8.png)
 
 > **Frase reutilizable para tus artículos:** *entra un módulo primo, sale una división limpia.*
 
@@ -159,7 +159,7 @@ No tienes que aceptar por fe que “Zcash usa campos finitos”. Aquí tienes el
 - **Orchard** (el diseño shielded actual) usa un par de curvas llamadas **Pallas y Vesta** (las curvas “Pasta”), cuyos campos usan primos de aproximadamente **255 bits** de longitud.
 - El **compromiso de nota**, el **nulificador** y los números dentro de una **prueba de conocimiento cero** del Artículo 0 son todos, en el fondo, elementos de uno de estos campos finitos. Cuando el protocolo dice “calcula este compromiso”, quiere decir “haz esta aritmética mod ese primo”.
 
-![texto alternativo](/content-images/image-7-c81fe982f0.webp)
+![texto alternativo](image-7.png)
 
 Así que la respuesta a la pregunta abierta del Artículo 0, *“¿de dónde vienen las recetas secretas?”*, empieza aquí: **todo comienza como aritmética en un campo finito.** En el próximo artículo tomaremos ese campo y construiremos los objetos reales, puntos sobre una curva elíptica, que se convierten en claves y compromisos.
 

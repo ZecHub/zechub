@@ -47,13 +47,13 @@ Le [Halo ƒe agbalẽa me](https://eprint.iacr.org/2019/1021.pdf), míeƒo nu ts
 Halo 2, nye zk-SNARK dɔwɔwɔ si wɔa dɔ nyuie si woŋlɔ ɖe Rust me si ɖea ɖoɖo si dzi woka ɖo ƒe hiahiã ɖa esime wòle afɔɖeɖe ɖom na scalability le Zcash me. 
 
 <a href="">
-    <img src="/content-images/Halo-puzzle-03-1024x517-e034023d10.webp" alt="" width="500" height="300"/>
+    <img src="https://electriccoin.co/wp-content/uploads/2020/09/Halo-puzzle-03-1024x517.jpg" alt="" width="500" height="300"/>
 </a>
 
 Elɔ míaƒe mɔnu si woyɔna be **accumulation scheme** ɖe eme. Sedziwɔwɔ yeye sia ɖe alesi míaƒe nested amortization mɔnu wɔa dɔ ŋutɔŋutɔ ɖe go; to kpeɖodziwo tsɔtsɔ kpe ɖe nusi woyɔna be **accumulator,** afisi kpeɖodziawo bua tame tso accumulator ƒe nɔnɔme si nɔ anyi va yi ŋu le la, míate ŋu akpɔe ɖa be kpeɖodzi siwo katã nɔ anyi va yi la sɔ (to induction me) to accumulator la ƒe nɔnɔme si li fifia me dzodzro ko me.
 
 <a href="">
-    <img src="/content-images/l4HrYgE-1ea7bc32f7.webp" alt="" width="500" height="300"/>
+    <img src="https://i.imgur.com/l4HrYgE.png" alt="" width="500" height="300"/>
 </a>
 
 

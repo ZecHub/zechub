@@ -17,7 +17,7 @@ Ansa na wubefi ase akyerɛw:
 - Hwɛ [ZEC Bounties a ɛwɔ hɔ ](https://bounties.zechub.wiki/) ama mprempren nsɛmma nhoma adwuma no.
 - Twɛn na wɔama wo adwuma
 
-![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
+![ss](https://github.com/user-attachments/assets/149a802c-b64f-4969-ad89-e83ffecf568e)
 
 
 
@@ -93,7 +93,7 @@ Fa saa nsɛmma nhoma twetwe abisade ahorow a wɔaka abom yi di dwuma sɛ nhwɛso
 - [Zcash Abɔde a Nkwa Wom Ho Nhyehyɛe Digest | Ɔpɛpɔn da a ɛtɔ so 14](https://github.com/ZecHub/zechub/pull/1474)
 
 
-![Merged ZecWeekly nsɛmma nhoma twetwe abisade nhwɛso](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)
+![Merged ZecWeekly nsɛmma nhoma twetwe abisade nhwɛso](https://github.com/user-attachments/assets/9230d68d-6406-4c8a-992c-df84e0d318d8)
 
 Sɛ wode w’adwuma no toto nhwɛsoɔ bi ho a, fa w’adwene si fael no beaeɛ, asɛmti no nhyehyɛɛ, ɔfa nhyehyɛeɛ, link nkyerɛkyerɛmu, ne sɛ ebia twetwe abisadeɛ no san kɔ adwuma a ɛfata no so anaa.
 

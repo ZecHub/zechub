@@ -11,32 +11,32 @@ Free2Zは、クリエイターが世界中に自分のコンテンツを公開�
 * まず、公式ウェブサイト [https://free2z.cash](https://free2z.cash) でアカウントを作成してください。
 * ページ右上にあるログインボタンをクリックし、ユーザー名とパスワードを入力してください。メールアドレスまたはXアカウントでもアカウントを作成できます。
 
-![](/content-images/IMG-9351-6cb6b07d52.webp)
+![](https://i.ibb.co/VWhmwy4s/IMG-9351.jpg)
 
 * コミュニティの一員になったおめでとうございます！今度は、プロフィールをカスタマイズするためにアバター、バナー、そして自分についての説明をアップロードしてください。
 
-![](/content-images/IMG-9360-5deeba8c68.webp)
+![](https://i.ibb.co/yBFPnr17/IMG-9360.jpg)
 
 * また、寄付やチップを受け取るためにウォレットフィールドにZcashアドレスも追加しておきましょう。
 
-![](/content-images/IMG-9361-5c9ce21046.webp)
+![](https://i.ibb.co/qLLKCr34/IMG-9361.jpg)
 
 **機能**
 
 **ZPages:** ZPagesはクリエイターがより多くのコミュニティに自分の書いた作品を共有できるようにします。このプラットフォームで執筆する際の特に面白い点は、読者があなたの作品を寄付を通じてサポートできることです。これは感謝を示す素晴らしい方法です。
 
-![](/content-images/IMG-9365-e14bce4613.webp)
+![](https://i.ibb.co/BKyx1xc0/IMG-9365.jpg)
 
 **2Zsについて**
 
 プラットフォーム上では、$0.01に相当するポイントが「2Zs」として提供されています。2Zsを使用することで、ユーザーは好きなクリエイターを寄付やサブスクリプションを通じてサポートできます。また、投票やZPagesへのコメント、コンテンツの拡散、ライブ配信機能など、コミュニティ活動にも参加できます。
 
-![](/content-images/IMG-9370-4264be0de0.webp)
+![](https://i.ibb.co/1G9YyMz7/IMG-9370.jpg)
 
 寄付、サブスクリプション、および視聴料付きライブ配信を通じて2Zsを獲得できます。QRコードをスキャンするだけで、ZECを使ってポイントを購入することも可能です。
 
-![](/content-images/IMG-9381-2d8e6d7454.webp)
-![](/content-images/IMG-9379-6ca5049e12.webp)
+![](https://i.ibb.co/JjpCHK9N/IMG-9381.jpg)
+![](https://i.ibb.co/HLJDbFwX/IMG-9379.jpg)
 
 **ライブ配信の開始方法**
 
@@ -49,15 +49,15 @@ Free2Zは、クリエイターが世界中に自分のコンテンツを公開�
 
 このオプションは、端対端の暗号化、プライベートなミーティング、参加者に送信できるユニークなミーティングリンクを提供します。
 
-![](/content-images/IMG-9374-c374bec27e.webp)
+![](https://i.ibb.co/zTnTHXLz/IMG-9374.jpg)
 
 **ライブ配信から得られる他の機能**
 
 Free2Zのライブ配信は、意思決定用の投票やドキュメント共有やホワイトボードなどのプラグインなど、プレゼンテーション、スクリーン共有、チャットなどに最適なユニークな特典を提供します！
 
-![](/content-images/IMG-9375-00d4b67876.webp)
-![](/content-images/IMG-9377-58999b233c.webp) 
+![](https://i.ibb.co/2m17ttc/IMG-9375.jpg)
+![](https://i.ibb.co/HfnTFFxs/IMG-9377.jpg) 
 
 Free2Zでのライブ配信セッションの様子です。
 
-![](/content-images/Screenshot-2025-05-25-053026-868bec29a2.webp)
+![](https://i.ibb.co/SwzQ6wPw/Screenshot-2025-05-25-053026.png)

@@ -17,7 +17,7 @@ Antes de empezar a escribir:
 - Revisa [ZEC Bounties ](https://bounties.zechub.wiki/) para ver la tarea actual del boletín.
 - Espera a que te asignen la tarea
 
-![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
+![ss](https://github.com/user-attachments/assets/149a802c-b64f-4969-ad89-e83ffecf568e)
 
 
 
@@ -93,7 +93,7 @@ Usa estos pull requests fusionados del boletín como ejemplos de envíos aceptad
 - [Zcash Ecosystem Digest | 14 de febrero](https://github.com/ZecHub/zechub/pull/1474)
 
 
-![Ejemplo de pull request fusionado del boletín ZecWeekly](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)
+![Ejemplo de pull request fusionado del boletín ZecWeekly](https://github.com/user-attachments/assets/9230d68d-6406-4c8a-992c-df84e0d318d8)
 
 Al comparar tu trabajo con un ejemplo, céntrate en la ubicación del archivo, el formato del título, el orden de las secciones, las descripciones de los enlaces y si el pull request se conecta correctamente con la tarea adecuada.
 

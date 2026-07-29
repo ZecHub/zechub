@@ -4,7 +4,7 @@
 
 # IPFS Üzerinde Bir Web Sitesi Yayınlama
 
-![](/content-images/IPFS-40c2e22732.webp)
+![](https://blog.desdelinux.net/wp-content/uploads/2020/04/IPFS-.jpg)
 
 ## IPFS'ye Giriş
 
@@ -55,7 +55,7 @@ Bir Terminal veya komut istemi kullanarak şu komutu çalıştırın: <mark>ipfs
 
 Web sitenizin dosyalarının bulunduğu klasörü seçin ve Klasör Ekle seçeneğine gidin.
 
-![](/content-images/ipfs-site-folder-2c96524d98.webp)
+![](https://i.ibb.co/ZHW4zsY/ipfs-site-folder.png)
 
 --
 
@@ -92,11 +92,11 @@ Bizim durumumuzda CID = "QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3"
 
 Interplanetary Naming System (IPNS), web sitenizle ilişkilendirilen IPFS CID'lerini güncellemenize ve yine de sabit bir bağlantı sunmanıza olanak tanır. Bu, bir anahtar olarak sağlanır.
 
-![](/content-images/dns-query.a0134a75-9ef7817f80.webp)
+![](https://dnslink.io/assets/dns-query.a0134a75.png)
 
 IPFS masaüstü uygulamasında site klasörünüzün ayarlar menüsünde Publish to IPNS seçeneğini seçin.
 
-![](/content-images/IPNS-2fe62cc369.webp)
+![](https://i.ibb.co/Ch25dKf/IPNS.png)
 
 Anahtar: "k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n"
 
@@ -109,7 +109,7 @@ Site oluşturuldu, şimdi bir URL'yi içeriğe yönlendirecek bir yola ihtiyacı
 
 Zaten bir web adresine sahipseniz, "_dnslink(your domain)" TXT kaydını kullanarak yeni bir kayıt ekleyebilirsiniz. Sağlayıcıya bağlı olarak bu alan otomatik olarak doldurulabilir.
 
-![](/content-images/example-c2a9edb28b.webp)
+![](https://i.ibb.co/MgRxBHj/example.png)
 
 Görüntüleyebilmeniz için bunun ağ genelinde yayılması zaman alacaktır.
 

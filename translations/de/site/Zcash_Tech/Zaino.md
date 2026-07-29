@@ -17,13 +17,13 @@ Außerdem wird Zaino es ermöglichen, die Light-Client-Funktionalität vom Full 
 ## Einige Diagramme, die zeigen, wie Zaino funktioniert
 
 ### Zaino-Interne Architektur
-![Zaino-Interne Architektur](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
+![Zaino-Interne Architektur](https://i.ibb.co/mRTNtfy/image-2025-01-02-190143429.png)
 
 ### Zaino-Live-Service-Architektur
-![Zebra-Live-Service-Architektur](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
+![Zebra-Live-Service-Architektur](https://i.ibb.co/x7dbRY8/image-2025-01-02-190349017.png)
 
 ### Zaino-Systemarchitektur
-![Zaino-Systemarchitektur](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
+![Zaino-Systemarchitektur](https://i.ibb.co/wwL0XZv/image-2025-01-02-190448037.png)
 
 
 ## Wo kann ich mehr erfahren?

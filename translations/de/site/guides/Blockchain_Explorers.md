@@ -43,7 +43,7 @@ Eine unterhaltsame Möglichkeit, [Blockchain-Explorer](https://nym.com/blog/usin
 
 Ähnlich wie bei den oben genannten Adressen sind bei jeder Transaktion auf einer öffentlichen Blockchain auch die Beträge öffentlich sichtbar. Das umfasst die Beträge sowohl der Eingabe- als auch der Ausgabeadressen jeder Transaktion. Eine Ausnahme ist, wenn du dich dafür entscheidest, Shielded Zcash zu verwenden -- dann sind alle Beträge verborgen. Für Kleinunternehmer, die für *fairen Handel* zwingend Privatsphäre benötigen, ist das ein großer Vorteil!
 
-![Beträge](/content-images/206312357-e9504151-830f-4fa1-81cb-f23619-210f51493c.webp)
+![Beträge](https://user-images.githubusercontent.com/81990132/206312357-e9504151-830f-4fa1-81cb-f23619fd7226.png)
 
 
 ### Was ein Explorer bei Zcash sehen kann und was nicht
@@ -78,13 +78,13 @@ Hier sind vier gute Beispiele für verschiedene Blockchain-Explorer:
 * [Mintscan](https://hub.mintscan.io/chains/ibc-network)
 
 
-![bitcoinExlporer](/content-images/206279968-a06eb0a1-b3a6-49af-a30f-7d871b-1418d95d28.webp)
+![bitcoinExlporer](https://user-images.githubusercontent.com/81990132/206279968-a06eb0a1-b3a6-49af-a30f-7d871b906eeb.png)
 
 
-![ethExplorer](/content-images/206280208-2ce5eddd-157e-4eed-90a0-680c15-488292c345.webp)
+![ethExplorer](https://user-images.githubusercontent.com/81990132/206280208-2ce5eddd-157e-4eed-90a0-680c1520ec57.png)
 
 
-![zcashExplorer](/content-images/206280454-a2c7563f-e82d-47b9-9b58-02eece-76db7aec4c.webp)
+![zcashExplorer](https://user-images.githubusercontent.com/81990132/206280454-a2c7563f-e82d-47b9-9b58-02eece1c89ee.png)
 
 
-![cosmos](/content-images/206316791-2debfd28-923a-44f4-b7d3-701182-cf39a065fc.webp)
+![cosmos](https://user-images.githubusercontent.com/81990132/206316791-2debfd28-923a-44f4-b7d3-701182112c30.png)

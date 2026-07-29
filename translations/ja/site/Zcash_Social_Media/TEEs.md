@@ -5,7 +5,7 @@
 「ゼロからゼロ知識」が新テーマで戻ってきました！  
 今回は **信頼された実行環境（Trusted Execution Environments、TEE）** について掘り下げます。TEEはプライバシー硬貨やその他のブロックチェーンアプリケーションでどのように使用されているかを説明します。
 
-![信頼された実行環境の紹介](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
+![信頼された実行環境の紹介](https://pbs.twimg.com/media/Fquj-h2WcAIgSnL.jpg)
 
 ---
 
@@ -31,7 +31,7 @@
 
 これはZcashのプライバシー実現方法とは異なります。Zcashでは、**ゼロ知識証明** を使用してプライバシーを確保しています。Zcashでは、シールドされたトランザクションがネットワークに公開され、追加データはネットワークに明らかにされることなく検証されます。Zcashのシールド資産も同様の原則に従います。
 
-![Secret Network TEE図](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
+![Secret Network TEE図](https://pbs.twimg.com/media/FqulPjNX0AEfjRp.png)
 
 Secret NetworkにおけるTEEの実装方法について詳しく知りたい場合は、@l_woetzelによるこの優れた記事を参照してください：  
 https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerability-33ca94b6df38
@@ -55,11 +55,11 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 - アプリケーションに改ざんされていない  
 - Intel SGXエンクローズ内で安全に実行されている
 
-![リモート認証の説明](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
+![リモート認証の説明](https://pbs.twimg.com/media/FqumRjoWwAAeT-M.png)
 
 エンクローズ内には、外部からアクセスできないプライベートな署名と認証鍵も含まれています。
 
-![エンクローズの鍵保護](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
+![エンクローズの鍵保護](https://pbs.twimg.com/media/Fqumv83XoAQq-MO.png)
 
 ---
 
@@ -69,7 +69,7 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 
 **データシーリング** では、CPUから導出された鍵を使用して、エンクローズ内でデータが暗号化されます。この暗号化ブロックは **同じシステム** でのみ復号可能です。
 
-![データシーリング図](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
+![データシーリング図](https://pbs.twimg.com/media/FqunBwyWYAA-TR3.jpg)
 
 ---
 
@@ -79,7 +79,7 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 
 暗号化されたデータはスマートコントラクトとともにTEEに送信され、エンクローズ内で復号され、処理され、再度暗号化されてからエンクローズを出ます。
 
-![Oasis Network TEEフロー](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
+![Oasis Network TEEフロー](https://pbs.twimg.com/media/FqunJRDXwAMt4Ob.png)
 
 ---
 
@@ -94,7 +94,7 @@ PoSバリデータについて：
 
 **TEE** はバリデータ鍵を安全に生成および使用するために理想的です。
 
-![Tendermint & PoSセキュリティ](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
+![Tendermint & PoSセキュリティ](https://pbs.twimg.com/media/Fqun0HEX0AAooxW.jpg)
 
 ---
 

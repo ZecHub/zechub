@@ -19,17 +19,17 @@
 
 1. **Zkool 앱**을 열고 **New Account**(새로운 계정)으로 이동합니다.
 
-![img1](/content-images/ee906e49-361a-49b6-9484-904897fe2e3f-074e400a9c.webp)
+![img1](https://github.com/user-attachments/assets/ee906e49-361a-49b6-9484-904897fe2e3f)
 
 3. **Account Name**(계정 이름)을 입력하세요 (예: Anabelle).
 
-![img2](/content-images/e9c325d3-8507-433a-a0c6-6e8c1ea2a254-a637810ed5.webp)
+![img2](https://github.com/user-attachments/assets/e9c325d3-8507-433a-a0c6-6e8c1ea2a254)
 
 4. 필요 시 **Use Internal Change**(내부 변경 사용) 또는 **Restore Account**(계정 복원)을 선택할 수 있습니다.
 
 5. 생성 후, 계정은 **Account List**(계정 목록)에 나타납니다.
 
-![img3](/content-images/c446cbca-fb3e-49b9-b1d4-fd727cd1b0fb-971cf76b33.webp)
+![img3](https://github.com/user-attachments/assets/c446cbca-fb3e-49b9-b1d4-fd727cd1b0fb)
 
 ## 2. 자금 수신
 
@@ -42,13 +42,13 @@
 
 필요한 유형을 선택하고, 자금 수신을 위해 이를 공유하세요.
 
-![img4](/content-images/c9de5dfe-e9d7-423d-8d90-35c1a08ffd5d-a0d6a4e7b7.webp)
+![img4](https://github.com/user-attachments/assets/c9de5dfe-e9d7-423d-8d90-35c1a08ffd5d)
 
 ## 3. 자금 송금
 
 1. **Recipient**(수신자) 섹션으로 이동합니다.
 
-![img5](/content-images/9f3a03b9-dd56-450c-a8dc-4370f9289138-3217d846b7.webp)
+![img5](https://github.com/user-attachments/assets/9f3a03b9-dd56-450c-a8dc-4370f9289138)
 
 3. **recipients address**(수신자 주소)를 입력하세요.
 
@@ -58,7 +58,7 @@
 
 완료되면, 계정 목록에서 잔액이 업데이트됩니다.
 
-![img6](/content-images/6e6da76b-cd18-4567-a5c0-74f07ddefc64-78dc3362dc.webp)
+![img6](https://github.com/user-attachments/assets/6e6da76b-cd18-4567-a5c0-74f07ddefc64)
 
 ## 4. 멀티시그 트랜잭션 수행: 분산 키 생성(DKG) 설정(멀티시그)
 
@@ -76,7 +76,7 @@ Zkool의 멀티시그는 **Distributed Key Generation (DKG)**을 사용하여 �
 
 **자금 계정**을 선택합니다.
 
-![img7](/content-images/8a90ca85-5439-4937-b16d-a570e69d55f0-1477202a57.webp)
+![img7](https://github.com/user-attachments/assets/8a90ca85-5439-4937-b16d-a570e69d55f0)
 
 ### 단계 2: 참여자 주소 추가
 
@@ -90,13 +90,13 @@ Zkool의 멀티시그는 **Distributed Key Generation (DKG)**을 사용하여 �
 
 모든 참여자가 **라운드 1** 및 **라운드 2** 패키지를 교환할 때까지 기다립니다.
 
-![img8](/content-images/cdaf6e00-3cb0-4774-8a96-5ded19bf31c4-b6bb50bbab.webp)
+![img8](https://github.com/user-attachments/assets/cdaf6e00-3cb0-4774-8a96-5ded19bf31c4)
 
 ### 단계 4: 공유 주소 최종화
 
 완료되면 **공유 주소**가 생성됩니다.
 
-![img9](/content-images/741d1bc6-0102-4e67-bb83-9a1c184bd747-a508ea0371.webp)
+![img9](https://github.com/user-attachments/assets/741d1bc6-0102-4e67-bb83-9a1c184bd747)
 
 ## 결론
 

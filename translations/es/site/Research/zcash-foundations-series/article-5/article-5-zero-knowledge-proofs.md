@@ -1,7 +1,7 @@
 # Pruebas de conocimiento cero: demostrar que tienes razón sin decir por qué
 ##### Investigación original de [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![texto alternativo](/content-images/image-23-71534bece9.webp)
+![texto alternativo](image-23.png)
 
 ### La cortina que permite al mundo verificar lo que nunca puede ver
 
@@ -40,7 +40,7 @@ Esa historia de la cueva demuestra discretamente las **tres garantías** que tod
 
 ## 3. Las tres garantías
 
-![texto alternativo](/content-images/image-24-b559d31849.webp)
+![texto alternativo](image-24.png)
 
 | Garantía | En la historia de la cueva | En Zcash |
 |---|---|---|
@@ -62,7 +62,7 @@ El puente es una idea que conecta toda esta serie:
 
 Piensa en el circuito como una lista de restricciones aritméticas que *solo se satisfacen todas si la afirmación es verdadera.* Las entradas privadas que hacen que todo cuadre, tu nota, tu clave, la ruta de Merkle, se llaman el **testigo**.
 
-![texto alternativo](/content-images/image-25-2479377e43.webp)
+![texto alternativo](image-25.png)
 
 Por eso dedicamos el Artículo 1 a los campos finitos y el Artículo 3 a los hashes amigables con ZK: el circuito habla aritmética de campos, así que cada operación dentro de la afirmación (incluido el hash y la subida por el árbol de Merkle del Artículo 4) tiene que expresarse de esa manera. Cuanto más barata sea cada operación de expresar, más pequeña y rápida será la prueba.
 
@@ -90,7 +90,7 @@ No hay almuerzo gratis. Muchos SNARKs necesitan una **configuración** única qu
 
 A este secreto residual se le apoda **residuo tóxico**. Para deshacerse de él de forma segura, Zcash realizó elaboradas **ceremonias multipartitas** en las que muchos participantes independientes aportaron aleatoriedad; siempre que *al menos uno* destruyera honestamente su parte, el residuo tóxico se vuelve irrecuperable.
 
-![texto alternativo](/content-images/image-26-cdad6625cd.webp)
+![texto alternativo](image-26.png)
 
 Los sistemas más nuevos eliminan por completo este requisito, y esa es una de las razones más importantes por las que Zcash evolucionó su sistema de pruebas con el tiempo.
 

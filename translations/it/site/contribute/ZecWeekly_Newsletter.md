@@ -17,7 +17,7 @@ Prima di iniziare a scrivere:
 - Controlla [ZEC Bounties ](https://bounties.zechub.wiki/) per il task attuale della newsletter.
 - Attendi di essere assegnato
 
-![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
+![ss](https://github.com/user-attachments/assets/149a802c-b64f-4969-ad89-e83ffecf568e)
 
 
 
@@ -93,7 +93,7 @@ Usa queste pull request della newsletter già unite come esempi di invii accetta
 - [Zcash Ecosystem Digest | 14 febbraio](https://github.com/ZecHub/zechub/pull/1474)
 
 
-![Esempio di pull request unita della newsletter ZecWeekly](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)
+![Esempio di pull request unita della newsletter ZecWeekly](https://github.com/user-attachments/assets/9230d68d-6406-4c8a-992c-df84e0d318d8)
 
 Quando confronti il tuo lavoro con un esempio, concentrati sulla posizione del file, sul formato del titolo, sull’ordine delle sezioni, sulle descrizioni dei link e sul fatto che la pull request rimandi correttamente al task giusto.
 

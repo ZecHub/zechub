@@ -14,7 +14,7 @@ Pretty Good Privacy (PGP)는 보안이 취약한 채널을 통해 안전한 통�
 * **[PGPMail](https://www.openpgp.org/software/)**: PGPMail은 Windows와 macOS에서 사용 가능한 상용 PGP 이메일 클라이언트입니다.
 * **[Mailvelope](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope는 Gmail과 Thunderbird에 사용되는 무료이고 오픈소스인 PGP 확장 프로그램입니다.
 
-![PGP Tools](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
+![PGP Tools](https://github.com/ZecHub/zechub/assets/81990132/44984a75-800a-4f7a-94a5-88827e39b431)
 
 ## 키 생성 방법
 
@@ -28,7 +28,7 @@ PGP를 사용하려면 키 쌍을 생성해야 합니다: PGP 키를 생성하�
 
 PGP 키 쌍이 생성됩니다.
 
-![Generate Keys](/content-images/15721ce1-0a77-4ebe-87f4-33e1455f2a40-7699b1771d.webp)
+![Generate Keys](https://github.com/ZecHub/zechub/assets/81990132/15721ce1-0a77-4ebe-87f4-33e1455f2a40)
 
 ## PGP를 사용한 이메일 사용 방법
 
@@ -36,7 +36,7 @@ PGP 키 쌍을 생성한 후에는 이를 이용해 이메일을 암호화하고
 
 암호화된 이메일은 수신자의 개인 키를 가지고 있지 않은 사람에게는 읽을 수 없습니다. 수신자는 자신의 개인 키를 이용해 이메일을 복호화할 수 있습니다.
 
-![PGP Email](/content-images/dafb761d-f399-40c9-9323-526ba3bd0bc4-98503ad98b.webp)
+![PGP Email](https://github.com/ZecHub/zechub/assets/81990132/dafb761d-f399-40c9-9323-526ba3bd0bc4)
 
 ## 권장 사항
 
@@ -44,9 +44,9 @@ PGP를 사용하는 데 있어 다음과 같은 권장사항이 있습니다:
 
 * 개인 키는 안전하게 보관하세요. 개인 키는 PGP 키 쌍에서 가장 중요한 부분입니다. 누군가 당신의 개인 키를 얻으면, 당신의 공개 키로 암호화된 메시지를 복호화할 수 있습니다.
   
-![Best Practices 1](/content-images/39a6fae4-a9a1-4061-a97c-4a9b975f6383-eced005c8b.webp)
+![Best Practices 1](https://github.com/ZecHub/zechub/assets/81990132/39a6fae4-a9a1-4061-a97c-4a9b975f6383)
 
-![Best Practices 2](/content-images/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd-50ca49a070.webp)
+![Best Practices 2](https://github.com/ZecHub/zechub/assets/81990132/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd)
 
 * 신뢰할 수 있는 사람에게 공개 키를 공유하세요. 직접 전송하거나 PGP 키 서버에 업로드하여 공개 키를 공유할 수 있습니다.
 * PGP 키링에 강력한 비밀번호를 사용하세요. PGP 키링은 PGP 키를 저장하는 파일입니다. 이 파일을 보호하기 위해 강력한 비밀번호를 사용하는 것이 중요합니다.
@@ -61,11 +61,11 @@ PGP를 사용하는 데 있어 다음과 같은 권장사항이 있습니다:
 * "암호화" 버튼을 클릭합니다.
 * 이메일이 암호화됩니다.
 
-![Encrypt Email](/content-images/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e-6edd4a03ea.webp)
+![Encrypt Email](https://github.com/ZecHub/zechub/assets/81990132/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e)
 
 ---
 
-![Encryption Flow](/content-images/da1499e9-fc87-46b2-93ed-28d43cf1fd86-86fdc87d10.webp)
+![Encryption Flow](https://github.com/ZecHub/zechub/assets/81990132/da1499e9-fc87-46b2-93ed-28d43cf1fd86)
 
 ## PGP로 이메일 복호화 방법
 
@@ -76,4 +76,4 @@ PGP를 사용하는 데 있어 다음과 같은 권장사항이 있습니다:
 * "복호화" 버튼을 클릭합니다.
 * 이메일이 복호화됩니다.
 
-![Decrypt Email](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)
+![Decrypt Email](https://github.com/ZecHub/zechub/assets/81990132/beae714c-020f-4c1e-aa4f-3dd9430670cc)

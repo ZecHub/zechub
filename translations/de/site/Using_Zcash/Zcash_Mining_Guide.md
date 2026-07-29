@@ -101,7 +101,7 @@ Mining-Pools verteilen die Arbeit und teilen die Belohnungen auf Basis Ihrer bei
 3. Auszahlungen: Die meisten Pools zahlen automatisch aus, wenn Sie das Minimum erreichen (z. B. 0.05 ZEC). Prüfen Sie die Regeln des Pools.
 
    
-![Zcash-Mining-Überwachungssetup](/content-images/zcashMining-5ca0019c17.webp)
+![Zcash-Mining-Überwachungssetup](https://raw.githubusercontent.com/ZecHub/zechub/aac601cf85076960d334f4c841867a646a5a2f29/assets/images/zcashMining.jpg)
 
 
 ## Tipps und bewährte Vorgehensweisen

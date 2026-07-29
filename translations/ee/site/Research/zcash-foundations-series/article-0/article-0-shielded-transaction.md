@@ -1,7 +1,7 @@
 # Alesi Zcash ƒe Asitsatsa Si Wotsɔ Akpoxɔnu Wɔe Wɔa Dɔe Le Nyateƒee
 ##### Numekuku Gbãtɔ tso [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt nuŋɔŋlɔ](/content-images/image-fedc371488.webp)
+![alt nuŋɔŋlɔ](image.png)
 
 ### Nusi wokpɔna le susu me do ŋgɔ na akɔntabubua: azɔlizɔzɔ si me womezãa mɔfiame aɖeke le o le ame ŋutɔ ƒe fexexe ŋu
 
@@ -46,7 +46,7 @@ Ga ateŋu atso liƒo si le wo dome gɔ̃ hã: ga tsɔtsɔ yi* xexe si me wokpɔ 
 
 Xexe si me kɔ la nye "Bitcoin si gɔme nèse xoxo le mɔ si sɔ nu." Enye **xexe si wotsɔ akpoxɔnu wɔe** si me nya ɣaɣla dzeaniawo katã le, eye ema koe nye xexe si ŋu nya siwo kplɔ wo nɔewo ɖo sia tsɔ ɖe le.
 
-![alt nuŋɔŋlɔ](/content-images/image-1-f821d24c6f.webp)
+![alt nuŋɔŋlɔ](image-1.png)
 
 ---
 
@@ -124,7 +124,7 @@ Nukunu lae nye be kpeɖodzia ɖe nyateƒenya mawo dometɔ **ɖeke** fia o. Menye
 
 Wodzia nuŋlɔɖi aɖe *, *enɔa agbe* ɖe ʋuƒoa dzi, eye mlɔeba la, *ekuna*, eye vevietɔ wu la, edze abe eƒe dzidzi kple eƒe ku medo ƒome kple ame aɖeke si le ekpɔm o ene.
 
-![alt nuŋɔŋlɔ](/content-images/image-2-0eca0ea4f7.webp)
+![alt nuŋɔŋlɔ](image-2.png)
 
 ---
 
@@ -132,7 +132,7 @@ Wodzia nuŋlɔɖi aɖe *, *enɔa agbe* ɖe ʋuƒoa dzi, eye mlɔeba la, *ekuna*,
 
 Mina míakpɔ Alice ƒe fexexe na Bob, eye woaŋlɔ afɔɖeɖe ɖesiaɖe si woawɔ le dutoƒo kple ame ŋutɔ tɔ.
 
-![alt nuŋɔŋlɔ](/content-images/image-4-7af0dfe795.webp)
+![alt nuŋɔŋlɔ](image-4.png)
 
 De dzesi alesi masɔmasɔ si na be ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla la wɔa dɔ:
 
@@ -187,7 +187,7 @@ Nufiame nyuiwo nana wokana ɖe ame dzi to nya siwo wògblẽ ɖi gbɔgblɔ me. A
 
 "Míatrɔ ava esia gbɔ" ɖesiaɖe si le etame la nye ka. Afisi wobla wo dometɔ ɖesiaɖe le enye si:
 
-![alt nuŋɔŋlɔ](/content-images/image-29-27ef4636ff.webp)
+![alt nuŋɔŋlɔ](image-29.png)
 
 | Loose end tso nyati sia me | Afisi wokpɔ egbɔ le |
 |---|---|

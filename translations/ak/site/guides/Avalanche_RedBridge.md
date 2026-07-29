@@ -56,7 +56,7 @@ Hwɛ [Github repo](https://github.com/red-dev-inc/zavax-bridge/tree/main/Archite
 Sɛ wopɛ mfiridwuma ho nsɛm pii a, wɔhyɛ wɔn a wɔde di dwuma no nkuran sɛ wɔnhwɛ adekorabea ne nkrataa a wɔde bɛyɛ RedBridge adwuma no mu na [wɔnhwehwɛ mu](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) nkabom pɔtee, sɔhwɛ nhyehyɛe, ne ahobammɔ nhyehyɛe.
 
 
-![img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)
+![img1](https://github.com/user-attachments/assets/b8c5d267-1711-458a-8a32-1df9d56fae8a)
 
 
 * Nneɛma a wɔde bɛma: 

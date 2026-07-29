@@ -16,15 +16,15 @@ UA's इस तरह डिज़ाइन किए गए हैं कि �
 
 * transparent
 
-![img1](/content-images/219261771-a9957ec3-2841-4073-9cfd-1db9d6-574fc930f0.webp)
+![img1](https://user-images.githubusercontent.com/81990132/219261771-a9957ec3-2841-4073-9cfd-1db9d6356693.png)
 
 * sapling
 
-![img2](/content-images/219261784-1a617e70-f588-4eed-96bf-f0789d-e10ebfc543.webp)
+![img2](https://user-images.githubusercontent.com/81990132/219261784-1a617e70-f588-4eed-96bf-f0789d7af58a.png)
 
 * Unified Address (पूर्ण)
 
-![img3](/content-images/219261794-bcc79db6-4dc6-4c6a-867b-3717b8-a3650f8968.webp)
+![img3](https://user-images.githubusercontent.com/81990132/219261794-bcc79db6-4dc6-4c6a-867b-3717b81e6b71.png)
 
 
 सबसे पहले ध्यान देने वाली बात यह है कि हर प्रकार के पते की लंबाई अलग होती है। आप इसे address string में मौजूद characters की संख्या से *या* संबंधित QR codes को देखकर visually समझ सकते हैं। जैसे-जैसे पते की लंबाई बढ़ती है, QR code आमतौर पर zoom out हो जाता है और square के भीतर अधिक data समेट लेता है।
@@ -46,21 +46,21 @@ UA's इस तरह डिज़ाइन किए गए हैं कि �
 
 * transparent + sapling
 
-![img4](/content-images/219267475-38ad1419-0aac-4205-b18e-687328-46b8f12f80.webp)
+![img4](https://user-images.githubusercontent.com/81990132/219267475-38ad1419-0aac-4205-b18e-6873283f9d85.png)
 
 * transparent + orchard
 
 
-![img5](/content-images/219267496-90db21ff-f4e1-4a50-8f2a-1a71d9-7423486eb5.webp)
+![img5](https://user-images.githubusercontent.com/81990132/219267496-90db21ff-f4e1-4a50-8f2a-1a71d995652a.png)
 
 * sapling + orchard
 
 
-![img6](/content-images/219267520-6b731ec2-e911-4469-acc5-c39d4a-a89ba01b88.webp)
+![img6](https://user-images.githubusercontent.com/81990132/219267520-6b731ec2-e911-4469-acc5-c39d4addcac2.png)
 
 * orchard
   
-![img7](/content-images/219267538-1a748fff-4034-4559-96ac-182723-3d69e23dac.webp)
+![img7](https://user-images.githubusercontent.com/81990132/219267538-1a748fff-4034-4559-96ac-182723409b3a.png)
 
 सबसे पहले ध्यान देने वाली बात यह है कि ये सभी UA's एक ही private key से बने हैं! दूसरी बात यह है कि हर प्रकार के UA की लंबाई अलग है:
 

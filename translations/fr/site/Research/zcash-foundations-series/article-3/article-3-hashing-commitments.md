@@ -1,7 +1,7 @@
 # Hachage et engagements : l’enveloppe magique scellée
 ##### Recherche originale de [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![texte alternatif](/content-images/image-15-0c16784b27.webp)
+![texte alternatif](image-15.png)
 
 ### Comment verrouiller un secret en public sans jamais pouvoir mentir à son sujet
 
@@ -30,7 +30,7 @@ Ce mécanisme « verrouiller maintenant, révéler plus tard, sans pouvoir menti
 
 Une **fonction de hachage** prend n’importe quelle donnée, une seule lettre ou une bibliothèque entière, et l’écrase en une courte chaîne de taille fixe appelée **condensat** ou **haché**. Voyez-la comme une **empreinte digitale pour les données.**
 
-![texte alternatif](/content-images/image-16-52fdf62c87.webp)
+![texte alternatif](image-16.png)
 
 Une bonne empreinte cryptographique possède quatre propriétés. Gardez-les comme des intuitions, pas comme des équations :
 
@@ -69,7 +69,7 @@ La solution tient en un mot : **aléa.**
 
 Maintenant, la même valeur `v` produit un engagement d’apparence différente à chaque fois, parce que `r` est différent. Les deux propriétés que nous voulions sont enfin réunies :
 
-![texte alternatif](/content-images/image-17-3ec4617665.webp)
+![texte alternatif](image-17.png)
 
 Pour **ouvrir** (révéler) l’engagement plus tard, vous publiez `v` et `r` ; n’importe qui peut recalculer `H(v, r)` et vérifier que cela correspond. Vous êtes verrouillé. Voilà l’enveloppe magique scellée de l’Article 0, rendue réelle.
 
@@ -100,7 +100,7 @@ SHA-256 est une superbe empreinte pour l’informatique du quotidien. Mais Zcash
 
 Les cryptographes de Zcash ont donc conçu des fonctions de hachage dont les mécanismes internes sont *déjà* de l’arithmétique sur corps, ce qui les rend peu coûteuses à prouver :
 
-![texte alternatif](/content-images/image-18-89ade807ad.webp)
+![texte alternatif](image-18.png)
 
 Cette seule contrainte d’ingénierie, *« il faut que ce soit peu coûteux à prouver »*, explique pourquoi Zcash a inventé et adopté des fonctions de hachage spéciales au lieu d’utiliser SHA-256 partout.
 

@@ -2,7 +2,7 @@
 
 # Namada ƒe Ðoɖowɔɖi
 
-![Namada ƒe dzesi](/content-images/logo-2067e2533d.webp)
+![Namada ƒe dzesi](https://i.ibb.co/BZcZHS1/logo.png)
 
 
 ## Nukae nye Namada?
@@ -26,7 +26,7 @@ Namada tsɔa ameŋunyatakakawo ɖoa nɔƒe gbãtɔ to Multi-Asset Shielded Pool 
 
 Ethereum tɔdzisasrãa ƒe ɖekawɔwɔ ɖe Namada me ɖea alesi wòhiã be woawɔ ɖoɖo ɖe vovo, elabena eva zua Namada ƒe lãwo ƒe agbenɔnɔ ƒe akpa vevi aɖe. Wode dɔ asi na kpeɖodzidɔwɔla siwo le Namada me be woawɔ tɔdzisasrãa ɖe Namada ƒe ɖoɖowɔɖi vevitɔa xa. Validator siawo hã nyea relayers ne wole nunɔamesiwo tsɔm na Namada, si wɔnɛ be nuwɔla bubuwo ƒe gomekpɔkpɔ le eme mehiã o. Le go bubu me la, ne wole nunɔamesiwo tsɔm na Ethereum la, gotagometɔwo (siwo woyɔna be relayers) kpɔa gome le eme, togbɔ be agba aɖeke mele wo dzi be woada asi ɖe tɔdzisasrãa dzi alo akpɔ eta o hã.
 
-![Ethereum Tɔdzisasrã ƒe Nɔnɔmetata](/content-images/image-0fd8f754ba.webp)
+![Ethereum Tɔdzisasrã ƒe Nɔnɔmetata](https://i.ibb.co/wKds5RP/image.jpg)
 
 Namada Protocol hã ƒe ŋutete le be wòado ka kple kɔsɔkɔsɔ ɖesiaɖe si ƒe nuwuwu kabakaba si doa alɔ Inter-Blockchain Communication (IBC) protocol la nyuie. Ne míeƒo nu tso nuwɔwɔ aduadu kple Ethereum ŋu la, Namada wɔa Ethereum tɔdzisasrã tɔxɛ aɖe si le dedie si wɔa dɔ le mɔ si dzi womate ŋu aka ɖo o nu. Wotrɔ asi le tɔdzisasrã sia ŋu nyuie be wòatsɔ dedienɔnɔ aɖo nɔƒe gbãtɔ to sisi dzi kpɔkpɔ dzi wɔwɔ na tɔdzisasrã ƒe kadodowo katã me eye woawɔ nu ɖe ​​Ethereum ƒe asitɔtrɔ ɖesiaɖe si gblẽ ŋu be enye nuvlowɔwɔ gã aɖe si ate ŋu ana woaɖe tohehewo dzi akpɔtɔ.
 
@@ -40,7 +40,7 @@ Le Namada la, wobua ƒuƒoƒo si ŋu akpoxɔnu le be enye dutoƒonu nyui si meny
 
 Ne míeƒo nu tso shielded transfers ŋu la, eɖanye Ethereum non-fungible token (NFT), ATOM, alo NAM ɖe eme o, womate ŋu ade vovototo wo dome o. Esia fia be ameŋunyatakakawo takpɔkpɔ ƒe nɔnɔme siwo MASP (Modified Accumulator Sapling Protocol), si nye Zcash Sapling nutome sue ƒe tɔtrɔ si wodo ɖe ŋgɔ na la, wɔa dɔ ɖekae na nunɔamesi ƒomevi ɖesiaɖe. MASP nutome suea naa nunɔamesi siwo katã le Namada ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa me be woama ƒuƒoƒo ɖeka si wokpɔ ta na. Mɔnu sia kpɔa egbɔ be ameŋunyatakakawo ƒe kakaɖedziwo mema ɖe nunɔamesi ɖekaɖekawo dome o. Aleke kee asitsatsa agbɔsɔsɔme kae do ƒome kple nunɔamesi aɖe koŋ o, ameŋunyatakakawo takpɔkpɔ gakpɔtɔ nɔa anyi ɖaa eye wònɔa eɖokui si.
 
-![Shielded Assets ƒe Asitsatsa ƒe Nɔnɔmetata](/content-images/image-1-512c639d56.webp)
+![Shielded Assets ƒe Asitsatsa ƒe Nɔnɔmetata](https://i.ibb.co/7CDmWk6/image-1.png)
 
 To ƒuƒoƒo si wotsɔ akpoxɔnuwo wɔ ɖekae le nunɔamesi vovovowo me la, Namada kpɔa egbɔ be wolé ame ŋutɔ ƒe nyawo me ɖe asi sɔsɔe, eɖanye nunɔamesi ƒomevi tɔxɛ si le ga si wotsɔ ɖo ame ŋu me o. Mɔnu sia doa ameŋunyatakakawo ŋuti ɖoɖo si wɔ ɖeka ɖe ŋgɔ le ɖoɖowɔɖia me eye wòdoa asitsatsa siwo ku ɖe Ethereum NFTs, ATOM, NAM, kple nunɔamesi bubu siwo wodo alɔe ŋu ƒe nya ɣaɣlawo ɖe ŋgɔ. Namada hã na be woate ŋu atsɔ dzesi siwo woate ŋu atrɔ kple esiwo womate ŋu atrɔ o ƒe ame ŋutɔ ƒe asitɔtrɔ to zk-SNARK yeyewo zazã me, si kpɔa egbɔ be nya ɣaɣlawo le native kple esiwo menye dukɔa me tɔ o ƒe dzesiwo abe alesi wowɔna le Zcash dzi ene.
 
@@ -54,7 +54,7 @@ Tsɔ kpe ɖe eŋu la, Namada zãa egbegbe BFT ƒe nukpɔsusu ɖeka ƒe mɔnuwo, 
 
 Le agbalẽ aɖe si wota nyitsɔ laa si woate ŋu akpɔ [Namada Protocol Blog](https://blog.namada.net/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/), dzi dzɔ ƒuƒoƒo si le megbe na Namada ƒe Nubabla la be yewoatsɔ aɖaŋuɖoɖo kple biabia be woagblɔ nya (RFC) aɖe si woatsɔ awɔ ɖekawɔwɔ nyui aɖe le Namada kple Zcash ƒe nunɔamesiwo, kɔsɔkɔsɔwo, kple nutoawo dome la afia.
 
-![Namada-Zcash ƒe Aɖaŋuɖoɖo ƒe Nubabla ƒe Nɔnɔmetata](/content-images/image-2-68804c60f3.webp)
+![Namada-Zcash ƒe Aɖaŋuɖoɖo ƒe Nubabla ƒe Nɔnɔmetata](https://i.ibb.co/FqsmkMb/image-2.png)
 
 Nubabla si wodo ɖa la lɔ nu vevi etɔ̃ ɖe eme. Gbã la, kpekpeɖeŋunana ƒe ha aɖe li si woawɔ be wòana gakpekpeɖeŋu dɔ siwo ahe viɖe vɛ na Zcash kple Namada siaa. Evelia, woama NAM ƒe dzesiwo ƒe yameʋuɖoɖo na ZEC xɔlawo. Mlɔeba la, wole ɖoɖo aɖe wɔm be woaɖo tɔdzisasrã si dzi kakaɖedzi mele o si aƒo Zcash kple Namada nu ƒu. Ne wonya wɔ tɔdzisasrã sia ŋudɔ ko la, ana ZEC xɔlawo, siwo woyɔna be Zolders, nate ŋu azã woƒe ZEC le Namada. Gawu la, mɔnukpɔkpɔ asu Zolders si be woakpɔ Cosmos kple Ethereum ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖo siwo keke ta wu to Namada dzi. Àte ŋu asrɔ̃ nu geɖe tso aɖaŋuɖoɖo ƒe nubabla la ŋu le [Zcash Community Forum](https://forum.zcashcommunity.com/t/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/44372)
 

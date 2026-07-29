@@ -13,7 +13,7 @@ Les phrases de récupération sont définies par la spécification **BIP-39**, l
 
 La création des phrases de récupération commence par la génération d’**aléa**. Plus il y a d’entropie, plus la sécurité est élevée. **128 bits** d’entropie sont considérés comme suffisants pour la plupart des utilisateurs.
 
-![Concept de phrase de récupération](/content-images/FooM3qWWACgrwzn-f222c4081f.webp)
+![Concept de phrase de récupération](https://pbs.twimg.com/media/FooM3qWWACgrwzn.jpg)
 
 Selon la longueur de l’entropie initiale, la phrase de récupération comportera **12 à 24 mots**.
 
@@ -28,7 +28,7 @@ Nous commençons par générer **128 bits** d’entropie.
 Nous hachons l’entropie avec **SHA256**. Les premiers bits de ce hachage deviennent la somme de contrôle.  
 Cela nous donne une empreinte unique pour notre entropie.
 
-![Schéma Entropie + Somme de contrôle](/content-images/FooNoOEXgAAu-g6-613238fa7e.webp)
+![Schéma Entropie + Somme de contrôle](https://pbs.twimg.com/media/FooNoOEXgAAu-g6.png)
 
 ### 3. Diviser en segments de 11 bits
 Les 132 bits au total (128 d’entropie + 4 de somme de contrôle) sont séparés en segments de 11 bits.
@@ -39,7 +39,7 @@ Les listes de mots BIP-39 contiennent exactement **2048 mots** (anglais, espagno
 
 Ces nombres sont utilisés pour trouver le mot correspondant dans la liste.
 
-![Exemple d’association des mots](/content-images/FooN9rfXEBoQuU2-d11331fc0a.webp)
+![Exemple d’association des mots](https://pbs.twimg.com/media/FooN9rfXEBoQuU2.png)
 
 **Résultat :** nous avons maintenant une phrase de récupération sécurisée, lisible par l’humain, de 12 mots !
 
@@ -59,7 +59,7 @@ Le seed du portefeuille est dérivé de la phrase mnémonique à l’aide d’un
 
 Cela produit un seed de **64 octets (512 bits)**.
 
-![Du seed aux clés maîtresses](/content-images/FooOuumXEAgcBm1-dc7c66b84a.webp)
+![Du seed aux clés maîtresses](https://pbs.twimg.com/media/FooOuumXEAgcBm1.jpg)
 
 ### Clés maîtresses
 Le seed est divisé en deux séquences de 32 octets :
@@ -83,7 +83,7 @@ Dans Zcash, l’**autorité de visualisation** ou l’**autorité de dépense** 
 
 Différents mécanismes de dérivation produisent des adresses externes adaptées au partage avec des expéditeurs à travers les pools protégés (Sapling & Orchard).
 
-![Hiérarchie de dérivation des clés Zcash](/content-images/FooPKd4XEBUQhJ6-af133c01bf.webp)
+![Hiérarchie de dérivation des clés Zcash](https://pbs.twimg.com/media/FooPKd4XEBUQhJ6.jpg)
 
 Zcash prend également en charge les **adresses internes** pour les opérations de portefeuille telles que l’Auto-Shielding.
 

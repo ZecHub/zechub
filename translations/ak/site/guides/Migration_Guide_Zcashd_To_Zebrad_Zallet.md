@@ -6,7 +6,7 @@ Zcash abɔde a nkwa wom nhyehyɛe no renya nkɔso. Amanneɛ kwan so Zcashd full 
 - Zallet yɛ sika kotoku a emu yɛ hare a wɔasi sɛnea ɛbɛyɛ a ɛne Zebra nodes a Zodl ayɛ no bedi nkitaho a ɛnyɛ den
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![NkɔmmɔbɔGPTImfoniniOct12202508_15_20A](/content-images/SJNBsSYTel-dfd19f34e4.webp)
+![NkɔmmɔbɔGPTImfoniniOct12202508_15_20A](https://hackmd.io/_uploads/SJNBsSYTel.jpg)
 </div>
 
 Saa akwankyerɛ yi de wo nantew fa tu a ɛfiri **Zcashd** kɔ **Zebrad** ne **Zallet** mu, a nhyehyeɛ, sika kotokuo a wɔde ba, ne ɔhaw a ɛfa atutena a ɛtaa ba ho dwumadie ka ho.
@@ -37,7 +37,7 @@ Sɛ yɛgyae animtiaabu mpo a, ntease ahorow a emu yɛ den wɔ hɔ a enti ɛsɛ s
 * Backup wo wallet.dat (anaasɛ wallet fael foforo biara / safoa store) fi wo zcashd node.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (1) .](/content-images/SJ_0mUtTxg-1441185a72.svg)
+![bash (1) .](https://hackmd.io/_uploads/SJ_0mUtTxg.svg)
 </div>
 
 * Sie wo zcash.conf ne nhyehyɛe biara a wɔahyɛ da ayɛ.
@@ -63,7 +63,7 @@ Wubetumi atwe binary a wɔadi kan ayɛ anaasɛ wobɛkyekye afi fibea.
 Wɔ **Linux**/**macOS** so no:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (2) .](/content-images/HJhYu8Y6el-d2198f22c9.svg)
+![bash (2) .](https://hackmd.io/_uploads/HJhYu8Y6el.svg)
 </div>
 
 Eyi de zebrad a ɛyɛ pintinn a aba foforo no hyɛ mu.
@@ -71,20 +71,20 @@ Eyi de zebrad a ɛyɛ pintinn a aba foforo no hyɛ mu.
 **Option B: Si fi fibea**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (3) .](/content-images/Syg8FUK6eg-b4557e52e0.svg)
+![bash (3) .](https://hackmd.io/_uploads/Syg8FUK6eg.svg)
 </div>
 
 Sɛ wosi wie a, fa binary no kɔ wo kwan so:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![tu a wotu kɔtra baabi foforo 11](/content-images/BJ0zjLY6ll-f77354d701.webp)
+![tu a wotu kɔtra baabi foforo 11](https://hackmd.io/_uploads/BJ0zjLY6ll.png)
 </div>
 
 **4.1. Nsiesiei & Fi ase** 
 Yɛ nhyehyɛe a wɔahyɛ da ayɛ:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![tu a wotu kɔtra baabi foforo2](/content-images/HJV1C8tTxx-5823395651.webp)
+![tu a wotu kɔtra baabi foforo2](https://hackmd.io/_uploads/HJV1C8tTxx.png)
 </div>
 
 Sesa **zebrad.toml** sɛnea wopɛ (tie address, ports, state directory, caching).
@@ -92,7 +92,7 @@ Sesa **zebrad.toml** sɛnea wopɛ (tie address, ports, state directory, caching)
 **Fi ase node no:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![mfoni](/content-images/H1KPkvt6gl-864c48ca40.webp)
+![mfoni](https://hackmd.io/_uploads/H1KPkvt6gl.png)
 </div>
 
 Node no befi ase ayɛ syncing fi genesis - hwɛ kwan sɛ nnɔnhwerew pii (anaa nea ɛboro saa) gyina hardware ne network so.
@@ -106,7 +106,7 @@ Hwɛ Zallet GitHub / release krataafa no ma binaries.
 **Anaasɛ wokyekye fi fibea:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![mfoni](/content-images/SyUFxvFTex-5bb10ee1d3.webp)
+![mfoni](https://hackmd.io/_uploads/SyUFxvFTex.png)
 </div>
 
 * Fi ase GUI anaa CLI (sɛnea wo instɔlehyɛn no ma).
@@ -118,7 +118,7 @@ Hwɛ Zallet GitHub / release krataafa no ma binaries.
 Wɔ zcashd so no, fa wo kokoam safoa no kɔ amannɔne:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (4) .](/content-images/rJzgzwFagx-4a0874f250.svg)
+![bash (4) .](https://hackmd.io/_uploads/rJzgzwFagx.svg)
 </div>
 
 * Wɔ Zallet mu no, paw Import Keys anaa nea ɛte saa.
@@ -143,13 +143,13 @@ Sɛ synchronization wie a, ɛsɛ sɛ wo balances ne transactions da adi sɛnea n
 Wubetumi ahwɛ sɛ wo node no sync tebea no yɛ nokware denam mmirikatu a wobɛma so:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![mfoni](/content-images/SyIyVDY6xl-10d6bed7b8.webp)
+![mfoni](https://hackmd.io/_uploads/SyIyVDY6xl.png)
 </div>
 
 Anaasɛ hwɛ logs mu.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![mfoni](/content-images/r1HfVPF6gg-b6b76e9907.webp)
+![mfoni](https://hackmd.io/_uploads/r1HfVPF6gg.png)
 </div>
 
 **8.1. Ɔhaw ahorow ho dwumadie**

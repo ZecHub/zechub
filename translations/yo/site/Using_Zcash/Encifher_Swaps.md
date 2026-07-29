@@ -1,7 +1,7 @@
 # ** Private SOL/USDC -> ZEC Swap Lilo Encrypt.trade** 
 
 
-! [ì ì1 ]](/content-images/Bkbg5alCll-7a02545c00.webp)
+! [ì ì1 ]](https://hackmd.io/_uploads/Bkbg5alCll.jpg)
 
 
 *Ọ̀nà àbáwọlé rẹ sí ìdásílẹ̀, àwọn ìyípadà orí-ẹ̀ka tí NEAR Intents ń gbé lárugẹ.* 
@@ -12,7 +12,7 @@
 Ni agbaye blockchain oni, asiri kii ṣe aṣayan - o ṣe pataki. Pẹlu [**encrypt.trade**](https://app.encifher.io/zec), awọn olumulo le rọpo **SOL tabi USDC** lori Solana sinu **Zcash (ZEC) ** lakoko ti o n tọju awọn iṣowo patapata ni ikọkọ. Ko si awọn paṣipaarọ aarin, ko si ifihan idanimọ - nikan rọrun, paṣipopada ti a fi sii. 
 
 
-! [ì ì ì2 ]](/content-images/ByQ2qpeRee-67fce2814c.webp)
+! [ì ì ì2 ]](https://hackmd.io/_uploads/ByQ2qpeRee.jpg)
 
 ---
 
@@ -20,7 +20,7 @@ Ni agbaye blockchain oni, asiri kii ṣe aṣayan - o ṣe pataki. Pẹlu [**enc
 Lọ sí [encrypt.trade]](https://app.encifher.io/zec) using **Chrome or Firefox**, and connect your **Phantom**, **Solflare**, or **Slope** wallet. Ensure your wallet contains enough **SOL** for gas fees and the tokens you want to trade. Once connected, you're ready to wrap your assets.  
 
 
-! [ì ì ì3 ]](/content-images/SyVOs6lRxx-cbd8193e84.webp)
+! [ì ì ì3 ]](https://hackmd.io/_uploads/SyVOs6lRxx.jpg)
 
 
 
@@ -28,7 +28,7 @@ Lọ sí [encrypt.trade]](https://app.encifher.io/zec) using **Chrome or Firefox
 
 ---
 
-! [ì ì 1⁄4](/content-images/Bkh_jTgCex-2fc8428592.webp)
+! [ì ì 1⁄4](https://hackmd.io/_uploads/Bkh_jTgCex.jpg)
 
 
 ---
@@ -39,13 +39,13 @@ Yọ lọ si abala ** Wrap **. Yan ** SOL ** tabi ** USDC **, tẹ iye naa, ki o
 
 
 
-! [ì í ì °5](/content-images/S10J26xCxg-6322a40b18.webp)
+! [ì í ì °5](https://hackmd.io/_uploads/S10J26xCxg.jpg)
 
 ---
 
 
 
-! [ì ì °6](/content-images/Sk0y3Te0gl-124792365a.webp)
+! [ì ì °6](https://hackmd.io/_uploads/Sk0y3Te0gl.jpg)
 
 
 ---
@@ -54,7 +54,7 @@ Yọ lọ si abala ** Wrap **. Yan ** SOL ** tabi ** USDC **, tẹ iye naa, ki o
 Ẹ̀rọ ìkápá:](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn), àpamọ́ Zcash osise ti Electric Coin Co. Ṣe àdàkọ rẹ ** Unified Address ** lati inu itẹwe Gba - o ṣe atilẹyin fun ZEC ṣiṣan ati aabo. Fi gbolohun ọrọ irugbin rẹ pamọ ni aabo ṣaaju ki o to tẹsiwaju. 
 
 
-![ì ì ì£1⁄4ì í ]](/content-images/SykjhpgRll-60d19f6979.webp)
+![ì ì ì£1⁄4ì í ]](https://hackmd.io/_uploads/SykjhpgRll.jpg)
 
 
 ---
@@ -64,19 +64,19 @@ Pada si **encrypt.trade**, lọ si **Swap**. Yan **eSOL/eUSDC -> ZEC**, lẹ adi
 
 
 
-![ì ì í ì8](/content-images/SJkI6pl0ge-9f93d8f34c.webp)
+![ì ì í ì8](https://hackmd.io/_uploads/SJkI6pl0ge.jpg)
 
 ---
 
 
-![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
+![img9](https://hackmd.io/_uploads/S1yoapgRle.jpg)
 
 
 Ẹ̀rọ-ìmọ̀nà **NEAR Intents** máa ń ṣe àtúnṣe ojú-ọ̀nà tí ó bá wà ní ìsopọ̀ - ó máa ń fi **ZEC** ránṣẹ́ ní tààràtà sí àpò Zashi rẹ láàárín ìṣẹ́jú kan. 
 
 
 
-![ì í ì °10](/content-images/S1h36Tg0xl-2d7dd0a495.webp)
+![ì í ì °10](https://hackmd.io/_uploads/S1h36Tg0xl.jpg)
 
 ---
 

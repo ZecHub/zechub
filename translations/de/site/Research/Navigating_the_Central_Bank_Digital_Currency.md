@@ -2,7 +2,7 @@
 published: 2023-12-07
 ---
 
-![CBDC](/content-images/cbdc-dfb8827faa.webp)
+![CBDC](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/cbdc.webp)
 # Die dunkle Seite enthüllen: Die Odyssee der digitalen Zentralbankwährung (CBDC) inmitten finanzieller Schatten navigieren
 Von: [**Abhishek Tiwari**]
 
@@ -37,7 +37,7 @@ Die Implementierung von CBDCs wird zur Heldenreise unserer Geschichte – eine R
 __China: Digital Currency Electronic Payment (DCEP)__
 
 
-![DCEP](/content-images/dcep-featured-c278cf0ef6.webp)
+![DCEP](https://forkast.news/wp-content/uploads/2020/08/dcep-featured.jpg)
 
 Auf den dystopischen Straßen Chinas entfaltet sich Digital Currency Electronic Payment (DCEP) nicht als Wunderwerk, sondern als Vorbote gesellschaftlicher Kontrolle mit einem eigenen Satz düsterer finanzieller Schatten. Alltägliche Transaktionen pulsieren vor Leben – dank programmierbaren Geldes und der Verlockung von Offline-Fähigkeiten.
 
@@ -50,7 +50,7 @@ Chinas Geschichte finanzieller Intransparenz und staatlicher Einmischung in das 
 
 __Vereinigte Staaten: Digital Dollar Project__
 
-![Digital Dollar](/content-images/digital-dollar-CBDC-8e8120f52f.webp)
+![Digital Dollar](https://www.ledgerinsights.com/wp-content/uploads/2020/03/digital-dollar-CBDC.jpg)
 
 In den weiten, trostlosen Landschaften der Vereinigten Staaten erscheint das Digital Dollar Project nicht als Leuchtfeuer des Fortschritts, sondern als Beleg für Effizienz und Inklusivität – wenn auch mit seinem Anteil an Unsicherheiten. Als Initiative des Privatsektors zielt es darauf ab, die Finanzlandschaft in einer Erzählung neu zu gestalten, die von Schattierungen unternehmerischer Kontrolle geprägt ist.
 
@@ -62,7 +62,7 @@ Die USA haben eine komplexe Geschichte der Finanzregulierung, mit häufigen Deba
 
 __Schweden: E-Krona__
 
-![E-Krona](/content-images/ekrona_logo-4596e38b72.webp)
+![E-Krona](https://www.paymentscardsandmobile.com/wp-content/uploads/2018/10/ekrona_logo.png)
 
 Während wir die trostlosen Landschaften Schwedens durchqueren, entfaltet sich die E-Krona als Erzählung von Anpassungsfähigkeit, jedoch nicht ohne ihre finanziellen Fallstricke. Sie ist eine digitale Evolution, die darauf ausgerichtet ist, den Zugang zu Währung in einer bargeldlosen Gesellschaft aufrechtzuerhalten, und zeichnet das Bild einer Gesellschaft ohne den vertrauten Komfort von physischem Bargeld.
 
@@ -95,7 +95,7 @@ Staatliche Überwachung, einst ein fernes Konzept, wird zu einem potenziellen An
 
 Finanzielle Inklusion, einst ein Leuchtfeuer der Hoffnung, steht nun im Schatten potenzieller Diskriminierung. Der Missbrauch von CBDCs könnte zu selektivem Zugang führen und die Prinzipien gleicher Behandlung und Inklusivität verletzen. Es ist ein Nebenstrang, der das Wesen finanzieller Freiheit infrage stellt.
 
-![Flow](/content-images/futureofCBDC-2-45075d2d9c.webp)
+![Flow](https://blog.digitalasset.com/hubfs/Imported_Blog_Media/futureofCBDC-2.png)
 
 ## Ressourcen: Eine Karte für den digitalen Entdecker
 

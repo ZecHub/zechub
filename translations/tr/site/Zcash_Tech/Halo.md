@@ -47,13 +47,13 @@ Halo'dan önce, özyinelemeli kanıt bileşimini gerçekleştirmek büyük hesap
 Halo 2, Rust ile yazılmış yüksek performanslı bir zk-SNARK uygulamasıdır; güvenilir kurulum ihtiyacını ortadan kaldırırken Zcash'te ölçeklenebilirliğin de zeminini hazırlar. 
 
 <a href="">
-    <img src="/content-images/Halo-puzzle-03-1024x517-e034023d10.webp" alt="" width="500" height="300"/>
+    <img src="https://electriccoin.co/wp-content/uploads/2020/09/Halo-puzzle-03-1024x517.jpg" alt="" width="500" height="300"/>
 </a>
 
 Buna **accumulation scheme** adı verilen yaklaşımımızın bir genellemesi de dahildir. Bu yeni biçimselleştirme, nested amortization tekniğimizin gerçekte nasıl çalıştığını ortaya koyar; kanıtları **accumulator** adı verilen bir nesneye ekleyerek ve kanıtların accumulator'ün önceki durumu hakkında akıl yürütmesini sağlayarak, yalnızca accumulator'ün mevcut durumunu kontrol ederek önceki tüm kanıtların doğru olduğunu (tümevarım yoluyla) kontrol edebiliriz.
 
 <a href="">
-    <img src="/content-images/l4HrYgE-1ea7bc32f7.webp" alt="" width="500" height="300"/>
+    <img src="https://i.imgur.com/l4HrYgE.png" alt="" width="500" height="300"/>
 </a>
 
 

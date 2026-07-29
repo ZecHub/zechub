@@ -9,7 +9,7 @@
 一部の暗号通貨プロジェクトはプライバシーに重点を置いたアプローチで注目を集めています。Zcashは、取引額やアドレスを保護するためにゼロ知識証明（ZK）を使用していることで知られています。一方、Moneroはブロックチェーン上のユーザーのプライバシーを達成するために、ダミーに基づく送信者隠蔽とその他の暗号化技術を組み合わせて使用しています。
 
 <a href="">
-    <img src="/content-images/257773807-af8ae27d-0805-4a60-a5ba-749e2f-cafd67320f.webp" alt="" width="400" height="300"/>
+    <img src="https://user-images.githubusercontent.com/38798812/257773807-af8ae27d-0805-4a60-a5ba-749e2fea2490.png" alt="" width="400" height="300"/>
 </a>
 
 ## 零知識証明とダミーに基づくシステムの理解
@@ -36,7 +36,7 @@ ZcashとMoneroはどちらもプライバシーに重点を置いた暗号通貨
 
 
 <a href="">
-    <img src="/content-images/257793324-2dcc6047-300e-4fa7-a28d-2e6cbb-7242c98ea4.webp" alt="" width="400" height="80"/>
+    <img src="https://user-images.githubusercontent.com/38798812/257793324-2dcc6047-300e-4fa7-a28d-2e6cbbadf1df.png" alt="" width="400" height="80"/>
 </a>
 
 2) **選択的な可視性**: Zcashは、ユーザーが透明（非プライベート）な取引とシールド（プライベート）な取引のどちらかを選択できるようにしています。これは、Zcashがユーザーに金融情報をプライベート（シールド）に保つか、または他のブロックチェーンのように公開して利用可能にする柔軟性を提供していることを意味します[公式サイト](https://z.cash/learn/what-is-the-difference-between-shielded-and-transparent-zcash/)。このオプインプライバシーにより、一部の取引では公的な検査のためにプライバシーが少なめにされる一方で、他の取引では強化されたプライバシーが得られるため、ビジネスや組織に関連するユースケースにも適しています。
@@ -55,7 +55,7 @@ Moneroのデコイ選択アルゴリズムにいくつかのバグが見つか�
 
 
 <a href="">
-    <img src="/content-images/257788813-509f1139-7daa-4f95-bbb4-c53564-f815d11477.webp" alt="" width="400" height="200"/>
+    <img src="https://user-images.githubusercontent.com/38798812/257788813-509f1139-7daa-4f95-bbb4-c535641962f6.png" alt="" width="400" height="200"/>
 </a>
 
 ____

@@ -5,7 +5,7 @@
 # IPFS에 사이트 게시
 
 <a href="">
-    <img src="/content-images/IPFS-40c2e22732.webp" alt="" width="800" height="400"/>
+    <img src="https://blog.desdelinux.net/wp-content/uploads/2020/04/IPFS-.jpg" alt="" width="800" height="400"/>
 </a>
 
 
@@ -52,7 +52,7 @@ IPFS의 파일은 *콘텐츠 주소 지정* 방식으로 참조됩니다. 이는
 
 
 <a href="">
-    <img src="/content-images/ipfs-site-folder-2c96524d98.webp" alt="" width="400" height="200"/>
+    <img src="https://i.ibb.co/ZHW4zsY/ipfs-site-folder.png" alt="" width="400" height="200"/>
 </a>
 
 –
@@ -89,14 +89,14 @@ Interplanetary Naming System (IPNS)은 웹사이트와 연결된 IPFS CIDs를 �
 
 
 <a href="">
-    <img src="/content-images/dns-query.a0134a75-9ef7817f80.webp" alt="" width="400" height="100"/>
+    <img src="https://dnslink.io/assets/dns-query.a0134a75.png" alt="" width="400" height="100"/>
 </a>
 
 
 IPFS 데스크탑 애플리케이션에서 사이트 폴더의 설정 메뉴로 이동하여 IPNS에 게시를 선택합니다.
 
 <a href="">
-    <img src="/content-images/IPNS-2fe62cc369.webp" alt="" width="400" height="200"/>
+    <img src="https://i.ibb.co/Ch25dKf/IPNS.png" alt="" width="400" height="200"/>
 </a>
 
 
@@ -112,7 +112,7 @@ IPFS 데스크탑 애플리케이션에서 사이트 폴더의 설정 메뉴로 
 
 
 <a href="">
-    <img src="/content-images/example-c2a9edb28b.webp" alt="" width="400" height="100"/>
+    <img src="https://i.ibb.co/MgRxBHj/example.png" alt="" width="400" height="100"/>
 </a>
 
 

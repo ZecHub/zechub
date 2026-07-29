@@ -6,7 +6,7 @@
 
 Crosslink Protocol yɛ nkɔsoɔ titire wɔ Zcash nkɔsoɔ mu, ɛkyerɛ no kwan kɔ **Hybrid Proof-of-Stake (PoS)** ne **Proof-of-Work (PoW)** nhwɛsoɔ so. Amanneɛbɔ PoW, ɛwom sɛ wotumi de ho to so sɛ ɛbɛma nkitahodi ahobammɔ ahwɛ ahu no, hyia ɔkasatia wɔ ahoɔden a wɔde di dwuma ne asiane ahorow a ɛwɔ mfinimfini a ɛbata mfiridwuma mu a wotu fagude ho no ho. Crosslink de nhyehyɛe a wɔde afrafra ba, a ɛde PoW ahoɔden a wɔada no adi no ne PoS mu mfaso a ɛwɔ adwumayɛ ne nniso mu no bom.
 
-![mfoni](/content-images/a2ffb19d-e570-4723-b669-a66e14fc6b71-a727c958de.webp)
+![mfoni](https://github.com/user-attachments/assets/a2ffb19d-e570-4723-b669-a66e14fc6b71)
 
 Saa nsakrae yi ne wiase nyinaa nkɔsoɔ wɔ blockchain nnoɔma foforɔ mu, baabi a nnwuma redan akɔ akwan a ɛbɛma nneɛma a atwa yɛn ho ahyia a ɛbɛtena hɔ daa ne decentralized so no hyia. Crosslinks dual consensus model hwɛ hu sɛ Zcash kura ne cryptographic kokoamsɛm ho bɔhyɛ a emu yɛ den bere a ɛrenya nkɔso de adi nnɛyi nsɛnnennen ho dwuma.
 
@@ -26,7 +26,7 @@ Crosslink protocol no yɛ nhyehyeɛ a wɔahyɛ ho nyansa ama Zcash hybrid Proof-
 
 Nhyehyeɛ a wɔde bedi dwuma no bi ne ɔkwan a wɔbɛfa so ayɛ adwuma a wɔasusu sɛ wɔbɛbɔ wɔ mfiridwuma ho ka a wɔde bɛka Crosslink 2* abom wɔ Zcash Zebra afɛfoɔ no mu. Saa dwumadie a wɔde di dwuma nkakrankakra yi twe adwene si sɛ wɔbɛkari pɛ wɔ nkannyan a wɔde ma wɔn a wɔdi dwuma no mu, wɔbɛtew ɔhaw so, na wɔde ahyia Zcash botaeɛ a ɛfa scalability, dwumadie, ne decentralization ho. Ahotosoɔ a ɛrenya nkɔsoɔ wɔ protocol no ahobanbɔ ahoɔden a ɛyɛ den no mu no ma ne tumi yɛ den bio sɛ ​​anammɔn titire wɔ Zcash nkɔsoɔ mu. Ɛdenam ahoɔden a wɔde di dwuma yiye a wodi ho dwuma ne akwan a wɔfa so yɛ adwene a wɔma ɛkɔ anim so no, Crosslink de ano aduru a ɛhwɛ anim ma blockchain nsɛnnennen a ɛrekɔ so no. Sɛ wopɛ nsɛm pii a, hwɛ [GitHub akoraeɛ](https://github.com/ShieldedLabs/crosslink-deployment) ne [Zcash Mpɔtam Nhyiam](https://forum.zcashcommunity.com).
 
-![mfoni](/content-images/b34afda4-fe33-448f-b0dd-279fd6cef1f5-73f58cdcc6.webp)
+![mfoni](https://github.com/user-attachments/assets/b34afda4-fe33-448f-b0dd-279fd6cef1f5)
 
 
 #### **Botaeɛ ne Botaeɛ a ɛwɔ Crosslink ho**
@@ -57,7 +57,7 @@ Crosslink protocol no botae ne sɛ ɛbɛma ledger ahodoɔ mmienu ama Zcash: **fi
 
 Lower-latency ledger no trɛw ledger a wɔawie no mu nsen *L* blocks. Ɛhwɛ hu sɛ rollback ahobammɔ wɔ blockchain protocol nkutoo ase na ɛkura latency ne ahobammɔ a ɛnyɛ bɔne nsen Zcash model a ɛwɔ hɔ dedaw no. Wɔ Crosslink 2* nhyehyɛe a ɛyɛ mmerɛw mu no, latency ledger a ɛwɔ fam no ma nkɔso ne gye a wogye tom no yɛ mmerɛw denam adwuma a ɛyɛ sɛ PoW nkɔnsɔnkɔnsɔn no so.
 
-![mfoni](/content-images/fd039664-4852-4fb0-8c88-0615f1ed116e-41459b81dc.webp)
+![mfoni](https://github.com/user-attachments/assets/fd039664-4852-4fb0-8c88-0615f1ed116e)
 
 
 ### Bounded Availability ne Ahobammɔ Mode

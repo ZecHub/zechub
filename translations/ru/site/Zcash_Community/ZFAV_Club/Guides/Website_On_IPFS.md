@@ -4,7 +4,7 @@
 
 # Опубликуйте веб-сайт в IPFS
 
-![](/content-images/IPFS-40c2e22732.webp)
+![](https://blog.desdelinux.net/wp-content/uploads/2020/04/IPFS-.jpg)
 
 ## Введение в IPFS
 
@@ -55,7 +55,7 @@ IPFS (InterPlanetary File System) — это одноранговый прото
 
 Выберите папку с файлами вашего сайта и перейдите к опции Add Folder.
 
-![](/content-images/ipfs-site-folder-2c96524d98.webp)
+![](https://i.ibb.co/ZHW4zsY/ipfs-site-folder.png)
 
 --
 
@@ -92,11 +92,11 @@ IPFS (InterPlanetary File System) — это одноранговый прото
 
 Interplanetary Naming System (IPNS) позволяет вам обновлять CID IPFS, связанные с вашим сайтом, и при этом по-прежнему использовать статическую ссылку. Он предоставляется в виде ключа.
 
-![](/content-images/dns-query.a0134a75-9ef7817f80.webp)
+![](https://dnslink.io/assets/dns-query.a0134a75.png)
 
 В меню настроек для папки вашего сайта в настольном приложении IPFS выберите Publish to IPNS.
 
-![](/content-images/IPNS-2fe62cc369.webp)
+![](https://i.ibb.co/Ch25dKf/IPNS.png)
 
 Ключ: "k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n"
 
@@ -109,7 +109,7 @@ Interplanetary Naming System (IPNS) позволяет вам обновлять
 
 Если у вас уже есть собственный веб-адрес, вы можете добавить новую запись, используя TXT-запись "_dnslink(your domain)". В зависимости от провайдера она может заполниться автоматически.
 
-![](/content-images/example-c2a9edb28b.webp)
+![](https://i.ibb.co/MgRxBHj/example.png)
 
 Потребуется время, чтобы изменения распространились по сети, прежде чем вы сможете это увидеть.
 

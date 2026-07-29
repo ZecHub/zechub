@@ -3,7 +3,7 @@
 </a>
 
 # Sikasɛm mu Nsɛm a Wɔde Siesie Nsɛm Ho Fapem (FPF) .
-![FPF](/content-images/FPFgrants-226bdea4bb.webp)
+![FPF](https://i.ibb.co/BsZc8Qv/FPFgrants.webp)
 
 ## Ɛfa FPF ho
 Sikasɛm mu Kokoamsɛm Fapem (FPF) yɛ ahyehyɛde a ɛnyɛ nea wɔhwehwɛ mfaso a wɔde ahyɛ Cayman Nsupɔw so. FPFs botaeɛ titire ne sɛ wɔbɛkyerɛkyerɛ na wɔama ankorankoro ne mpɔtam hɔfoɔ tumi ma wɔadi wɔn sikasɛm mu kokoamsɛm ne ahobanbɔ so. FPF nso asi ne bo sɛ ɛbɛhyɛ sikasɛm nhyehyɛe a ɛfata na ɛyɛ pɛ a ɛkyerɛ obu ma ankorankoro kokoam nsɛm ho nkuran. FPFs dwumadie titire a ɛfa sikasɛm mu kokoamsɛm ho ne sɛ ɛbɛma ankorankoro ne mpɔtam hɔfoɔ nsɛm, nneɛma ne mmoa a wɔde bɛbɔ wɔn sikasɛm mu kokoamsɛm ho ban na wɔayɛ no yie. Mprempren Sikasɛm mu Nsɛm a Wɔde Sie (FPF) reyɛ mmoa nhyehyɛe bi a wɔato din FPF X FPF.

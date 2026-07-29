@@ -1,7 +1,7 @@
 # Hashing और Commitments: जादुई सीलबंद लिफाफा
 ##### [Annkkitaaa](https://github.com/Annkkitaaa) का मूल शोध
 
-![alt text](/content-images/image-15-0c16784b27.webp)
+![alt text](image-15.png)
 
 ### किसी रहस्य को सार्वजनिक रूप से बंद कैसे करें और फिर उसके बारे में कभी झूठ न बोल सकें
 
@@ -30,7 +30,7 @@
 
 एक **hash function** किसी भी data को, चाहे वह एक अक्षर हो या पूरी लाइब्रेरी, दबाकर एक छोटी, निश्चित आकार की string में बदल देता है जिसे **digest** या **hash** कहा जाता है। इसे **data की उँगली की छाप** समझिए।
 
-![alt text](/content-images/image-16-52fdf62c87.webp)
+![alt text](image-16.png)
 
 एक अच्छी cryptographic उँगली की छाप में चार गुण होते हैं। इन्हें समीकरणों की तरह नहीं, सहज समझ की तरह पकड़िए:
 
@@ -69,7 +69,7 @@ H("Pay Bob 6 ZEC") = 76abc346d8d3053f76a9ae18b617af71f02729a73ec6a51732d2d94934e
 
 अब वही `v` हर बार अलग दिखने वाला commitment देगा, क्योंकि `r` हर बार अलग है। अब वे दोनों गुण, जो हम चाहते थे, आखिरकार साथ मिलते हैं:
 
-![alt text](/content-images/image-17-3ec4617665.webp)
+![alt text](image-17.png)
 
 बाद में commitment को **open** (प्रकट) करने के लिए, आप `v` और `r` प्रकाशित करते हैं; कोई भी `H(v, r)` दोबारा निकालकर देख सकता है कि वह मेल खाता है। अब आप locked-in हैं। यही लेख 0 का जादुई सीलबंद लिफाफा है, अब वास्तविक रूप में।
 
@@ -100,7 +100,7 @@ SHA-256 रोज़मर्रा की computing के लिए एक श
 
 इसलिए Zcash cryptographers ने ऐसे hash functions बनाए जिनका अंदरूनी ढाँचा *पहले से ही* field arithmetic हो, ताकि उन्हें prove करना सस्ता पड़े:
 
-![alt text](/content-images/image-18-89ade807ad.webp)
+![alt text](image-18.png)
 
 यही एक engineering दबाव, *"इसे prove करना सस्ता होना चाहिए,"* वह कारण है कि Zcash ने हर जगह SHA-256 इस्तेमाल करने के बजाय विशेष hash functions का आविष्कार किया और उन्हें अपनाया।
 

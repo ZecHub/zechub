@@ -47,13 +47,13 @@ Halo以前では、再帰的な証明構成には大きな計算コストと信�
 Halo 2は、Rustで書かれた高性能なzk-SNARK実装であり、信頼設定の必要性を取り除き、Zcashにおけるスケーラビリティのための基盤を築きます。
 
 <a href="">
-    <img src="/content-images/Halo-puzzle-03-1024x517-e034023d10.webp" alt="" width="500" height="300"/>
+    <img src="https://electriccoin.co/wp-content/uploads/2020/09/Halo-puzzle-03-1024x517.jpg" alt="" width="500" height="300"/>
 </a>
 
 これは、我々のアプローチの一般化として**蓄積方式**を含んでいます。この新しい形式化により、ネストされた償却技術が実際にどのように機能するかが明らかになります；証明を**蓄積器**と呼ばれるオブジェクトに追加し、証明が蓄積器の以前の状態について推論することで、蓄積器の現在の状態を確認することによって、すべての以前の証明が正しいことを（帰納法により）確認できます。
 
 <a href="">
-    <img src="/content-images/l4HrYgE-1ea7bc32f7.webp" alt="" width="500" height="300"/>
+    <img src="https://i.imgur.com/l4HrYgE.png" alt="" width="500" height="300"/>
 </a>
 
 

@@ -42,7 +42,7 @@ ZGoを単独で使用するか、XeroやWooCommerceを通じて使用するか�
 
 ZGoはデスクトップまたはモバイルの現代的なブラウザで動作し、どちらの側にもインストール不要です。顧客にはZcashウォレットが必要であり、商人にはZcashウォレットとZGoアカウントが必要です。
 
-<img width="672" height="378" alt="ZGo支払いリクエストおよびブロックチェーン監視概要" src="/content-images/de50885b-b068-4157-bbda-0981ca23efc8-a00a274776.webp" />
+<img width="672" height="378" alt="ZGo支払いリクエストおよびブロックチェーン監視概要" src="https://github.com/user-attachments/assets/de50885b-b068-4157-bbda-0981ca23efc8" />
 
 ## アカウントの設定
 
@@ -77,7 +77,7 @@ ZECは商人のウォレットに届き、ZGoまたはXeroが管理するアカ�
 
 [WooCommerce](https://woocommerce.com/)および[WordPress](https://wordpress.org/)上でのオンラインショップでは、ZGoは専用のプラグインを提供しています。このプラグインはチェックアウト時にZcashを支払い方法として追加し、支払いが確認されると注文状態を自動的に処理します。
 
-<img width="672" height="378" alt="ZGo WooCommerceプラグインチェックアウトおよび注文フロー" src="/content-images/55a791bb-1947-4f55-b5b9-55083be8ed49-2bc8d2571e.webp" />
+<img width="672" height="378" alt="ZGo WooCommerceプラグインチェックアウトおよび注文フロー" src="https://github.com/user-attachments/assets/55a791bb-1947-4f55-b5b9-55083be8ed49" />
 
 WooCommerceストア内でのエンドツーエンドフロー:
 

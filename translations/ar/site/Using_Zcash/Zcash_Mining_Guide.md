@@ -102,7 +102,7 @@ Zcash (ZEC) هي عملة مشفّرة تركّز على الخصوصية وتس
 3. المدفوعات: تدفع معظم المجمّعات تلقائيًا عندما تصل إلى الحد الأدنى (مثل 0.05 ZEC). تحقق من قواعد المجمّع.
 
    
-![إعداد مراقبة تعدين Zcash](/content-images/zcashMining-5ca0019c17.webp)
+![إعداد مراقبة تعدين Zcash](https://raw.githubusercontent.com/ZecHub/zechub/aac601cf85076960d334f4c841867a646a5a2f29/assets/images/zcashMining.jpg)
 
 
 ## نصائح وأفضل الممارسات

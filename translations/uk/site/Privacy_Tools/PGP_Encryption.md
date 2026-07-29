@@ -14,7 +14,7 @@ Pretty Good Privacy (PGP) — це пакет криптографічного �
 * **[PGPMail](https://www.openpgp.org/software/)**: PGPMail — це комерційний PGP-поштовий клієнт, доступний для Windows і macOS.
 * **[Mailvelope](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope — це безкоштовне PGP-розширення з відкритим кодом для Gmail і Thunderbird.
 
-![PGP Tools](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
+![PGP Tools](https://github.com/ZecHub/zechub/assets/81990132/44984a75-800a-4f7a-94a5-88827e39b431)
 
 ## Як згенерувати ключі
 
@@ -28,7 +28,7 @@ Pretty Good Privacy (PGP) — це пакет криптографічного �
 
 Вашу пару PGP-ключів буде згенеровано.
 
-![Generate Keys](/content-images/15721ce1-0a77-4ebe-87f4-33e1455f2a40-7699b1771d.webp)
+![Generate Keys](https://github.com/ZecHub/zechub/assets/81990132/15721ce1-0a77-4ebe-87f4-33e1455f2a40)
 
 ## Як використовувати PGP для електронної пошти
 
@@ -36,7 +36,7 @@ Pretty Good Privacy (PGP) — це пакет криптографічного �
 
 Зашифрований електронний лист буде неможливо прочитати будь-кому, хто не має приватного ключа отримувача. Щоб розшифрувати лист, отримувач може використати свій приватний ключ.
 
-![PGP Email](/content-images/dafb761d-f399-40c9-9323-526ba3bd0bc4-98503ad98b.webp)
+![PGP Email](https://github.com/ZecHub/zechub/assets/81990132/dafb761d-f399-40c9-9323-526ba3bd0bc4)
 
 ## Найкращі практики
 
@@ -44,9 +44,9 @@ Pretty Good Privacy (PGP) — це пакет криптографічного �
 
 * Тримайте свій приватний ключ у безпеці. Приватний ключ — це найважливіша частина вашої пари PGP-ключів. Якщо хтось отримає ваш приватний ключ, він зможе розшифрувати будь-які повідомлення, які були зашифровані вашим публічним ключем.
 
-![Best Practices 1](/content-images/39a6fae4-a9a1-4061-a97c-4a9b975f6383-eced005c8b.webp)
+![Best Practices 1](https://github.com/ZecHub/zechub/assets/81990132/39a6fae4-a9a1-4061-a97c-4a9b975f6383)
 
-![Best Practices 2](/content-images/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd-50ca49a070.webp)
+![Best Practices 2](https://github.com/ZecHub/zechub/assets/81990132/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd)
 
 * Діліться своїм публічним ключем з людьми, яким довіряєте. Ви можете поділитися своїм публічним ключем, надіславши його їм безпосередньо або завантаживши його на сервер ключів PGP.
 * Використовуйте надійні паролі для вашого сховища ключів PGP. Ваше сховище ключів PGP — це файл, у якому зберігаються ваші PGP-ключі. Важливо використовувати надійний пароль для захисту цього файлу.
@@ -61,11 +61,11 @@ Pretty Good Privacy (PGP) — це пакет криптографічного �
 * Натисніть кнопку "Encrypt".
 * Електронний лист буде зашифровано.
 
-![Encrypt Email](/content-images/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e-6edd4a03ea.webp)
+![Encrypt Email](https://github.com/ZecHub/zechub/assets/81990132/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e)
 
 ---
 
-![Encryption Flow](/content-images/da1499e9-fc87-46b2-93ed-28d43cf1fd86-86fdc87d10.webp)
+![Encryption Flow](https://github.com/ZecHub/zechub/assets/81990132/da1499e9-fc87-46b2-93ed-28d43cf1fd86)
 
 ## Як розшифрувати електронний лист за допомогою PGP
 
@@ -76,4 +76,4 @@ Pretty Good Privacy (PGP) — це пакет криптографічного �
 * Натисніть кнопку "Decrypt".
 * Електронний лист буде розшифровано.
 
-![Decrypt Email](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)
+![Decrypt Email](https://github.com/ZecHub/zechub/assets/81990132/beae714c-020f-4c1e-aa4f-3dd9430670cc)

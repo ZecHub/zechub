@@ -5,7 +5,7 @@
 Do Zero ao Conhecimento Zero está de volta com um novo tema!  
 Esta semana exploramos **Trusted Execution Environments (TEEs)** - como são usados em moedas de privacidade e outras aplicações de blockchain.
 
-![Introdução aos Trusted Execution Environments](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
+![Introdução aos Trusted Execution Environments](https://pbs.twimg.com/media/Fquj-h2WcAIgSnL.jpg)
 
 ---
 
@@ -31,7 +31,7 @@ Cada nó validador executa chips Intel SGX. As camadas de consenso e computaçã
 
 Isto é diferente de Zcash, que usa **provas de conhecimento zero** para privacidade. No Zcash, as transações shielded são transmitidas e validadas publicamente sem quaisquer dados adicionais revelados à rede. Os Zcash Shielded Assets seguem o mesmo princípio.
 
-![Diagrama TEE da Secret Network](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
+![Diagrama TEE da Secret Network](https://pbs.twimg.com/media/FqulPjNX0AEfjRp.png)
 
 Para uma explicação detalhada de como as TEEs são implementadas na Secret Network, leia este excelente artigo de @l_woetzel:  
 https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerability-33ca94b6df38
@@ -55,11 +55,11 @@ Permite que uma parte remota verifique:
 - A aplicação não foi adulterada  
 - Está a executar-se com segurança dentro de um enclave Intel SGX
 
-![Explicação da Atestação Remota](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
+![Explicação da Atestação Remota](https://pbs.twimg.com/media/FqumRjoWwAAeT-M.png)
 
 Os enclaves também contêm chaves privadas de assinatura e atestação que não podem ser acedidas a partir do exterior.
 
-![Proteção de chaves do enclave](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
+![Proteção de chaves do enclave](https://pbs.twimg.com/media/Fqumv83XoAQq-MO.png)
 
 ---
 
@@ -69,7 +69,7 @@ Como os enclaves não têm estado, por vezes os dados têm de ser armazenados ex
 
 **Selagem de Dados** encripta dados dentro do enclave usando uma chave derivada da CPU. O bloco encriptado só pode ser desselado no **mesmo sistema**.
 
-![Diagrama de Selagem de Dados](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
+![Diagrama de Selagem de Dados](https://pbs.twimg.com/media/FqunBwyWYAA-TR3.jpg)
 
 ---
 
@@ -79,7 +79,7 @@ Como os enclaves não têm estado, por vezes os dados têm de ser armazenados ex
 
 Os dados encriptados entram na TEE juntamente com o smart contract. São desencriptados, processados e reencriptados antes de saírem do enclave.
 
-![Fluxo TEE da Oasis Network](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
+![Fluxo TEE da Oasis Network](https://pbs.twimg.com/media/FqunJRDXwAMt4Ob.png)
 
 ---
 
@@ -94,7 +94,7 @@ Para validadores PoS:
 
 As **TEEs** são ideais para gerar e usar chaves de validador com segurança.
 
-![Segurança do Tendermint & PoS](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
+![Segurança do Tendermint & PoS](https://pbs.twimg.com/media/Fqun0HEX0AAooxW.jpg)
 
 ---
 

@@ -11,32 +11,32 @@ Free2Z, içerik üreticilerinin içeriklerini dünyaya sunmalarını ve kendine 
 * Öncelikle, resmi web siteleri olan [https://free2z.cash](https://free2z.cash) üzerinden bir hesap oluşturun.
 * Sayfanın sağ üst köşesindeki giriş düğmesini bulun. Bilgilerinizi girin. E-posta adresiniz veya X hesabınızla da hesap oluşturabilirsiniz.
 
-![](/content-images/IMG-9351-6cb6b07d52.webp)
+![](https://i.ibb.co/VWhmwy4s/IMG-9351.jpg)
 
 * Topluluğun bir parçası olduğunuz için büyük tebrikler\! Şimdi sıra, bir avatar, bir banner ve kim olduğunuzu ve ne yaptığınızı anlatan bir açıklama yükleyerek profilinizi kişiselleştirmeye geldi.
 
-![](/content-images/IMG-9360-5deeba8c68.webp)
+![](https://i.ibb.co/yBFPnr17/IMG-9360.jpg)
 
 * Destekçilerden gelecek bağışlar ve bahşişler için cüzdan alanına Zcash adresinizi eklemeyi de unutmayın.
 
-![](/content-images/IMG-9361-5c9ce21046.webp)
+![](https://i.ibb.co/qLLKCr34/IMG-9361.jpg)
 
 **ÖZELLİKLER**
 
 **ZPages:** ZPages, üreticilerin yazılı çalışmalarını daha geniş bir toplulukla paylaşmasına olanak tanır. Bu platformda yazmanın özellikle ilgi çekici yönlerinden biri, kitlenizin bağışlar yoluyla çalışmanızı destekleyebilmesidir; bu da takdir göstermenin harika bir yoludur.
 
-![](/content-images/IMG-9365-e14bce4613.webp)
+![](https://i.ibb.co/BKyx1xc0/IMG-9365.jpg)
 
 **2Zs'yi tanımak**
 
 Bunlar platformda $0.01 değerinde puanlardır. 2Zs ile kullanıcılar, favori içerik üreticilerini bağışlar ve abonelikler yoluyla destekleyebilir. Ayrıca oylama, ZPages üzerinde yorum yapma, içeriği öne çıkarma ve canlı yayın özellikleri gibi topluluk etkinliklerine de katılabilirler.
 
-![](/content-images/IMG-9370-4264be0de0.webp)
+![](https://i.ibb.co/1G9YyMz7/IMG-9370.jpg)
 
 Bağışlar, abonelikler ve izleme başına ödeme yapılan canlı yayınlar sayesinde 2Zs kazanabilirsiniz. QR kodunuzu taratarak ZEC ile de puan satın alabilirsiniz.
 
-![](/content-images/IMG-9381-2d8e6d7454.webp)
-![](/content-images/IMG-9379-6ca5049e12.webp)
+![](https://i.ibb.co/JjpCHK9N/IMG-9381.jpg)
+![](https://i.ibb.co/HLJDbFwX/IMG-9379.jpg)
 
 **Canlı Yayın Nasıl Başlatılır**
 
@@ -49,15 +49,15 @@ Profil simgenize tıklayın; bir açılır liste görünecektir. "Stream" seçen
 
 Bu seçenek, uçtan uca şifreleme, özel toplantılar ve katılımcılara gönderilebilecek benzersiz bir toplantı bağlantısı sunmayı vaat ediyor.
 
-![](/content-images/IMG-9374-c374bec27e.webp)
+![](https://i.ibb.co/zTnTHXLz/IMG-9374.jpg)
 
 **Canlı yayından başka neler elde edebilirsiniz?**
 
 Free2Z canlı yayını, karar alma için anketler ve belge paylaşımı ile beyaz tahta gibi eklentiler gibi bazı benzersiz avantajlar sunar; bunlar sunumlar, ekran paylaşımı, sohbetler ve çok daha fazlası için mükemmeldir!
 
-![](/content-images/IMG-9375-00d4b67876.webp)
-![](/content-images/IMG-9377-58999b233c.webp) 
+![](https://i.ibb.co/2m17ttc/IMG-9375.jpg)
+![](https://i.ibb.co/HfnTFFxs/IMG-9377.jpg) 
 
 Free2Z'de bir canlı yayın oturumu işte böyle görünür
 
-![](/content-images/Screenshot-2025-05-25-053026-868bec29a2.webp)
+![](https://i.ibb.co/SwzQ6wPw/Screenshot-2025-05-25-053026.png)

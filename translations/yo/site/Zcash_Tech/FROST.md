@@ -52,7 +52,7 @@ First, n participants run a distributed key generation (DKG) protocol to generat
 Lẹ́yìn náà, ẹnikẹ́ni t-out-of-n tó bá kópa lè lo ìlànà ìforúkọsílẹ̀ láti fi ṣe ìfọ̀rọ̀wánilẹ́nuwò tí yóò jẹ́ kí wọ́n lè ṣe ìfọwọ́sí Schnorr tó tọ́.
 
 <a href="">
-    <img src="/content-images/1634081807-frost-flexible-round-optimize-3697a713d9.webp" alt="" width="400" height="300"/>
+    <img src="https://static.cryptohopper.com/images/news/uploads/1634081807-frost-flexible-round-optimized-schnorr-threshold-signatures-1.jpg" alt="" width="400" height="300"/>
 </a>
 
 ## Àwòrán / Àfiwé
@@ -76,7 +76,7 @@ Ipele yii kọ lori awọn ilana ti a mọ ti o lo pinpin aṣiri afikun ati iyi
 Ni ipele iṣaaju, olukopa kọọkan ṣetan nọmba ti o wa titi ti awọn orisii ti Elliptic Curve (EC) fun lilo nigbamii.
 
 <a href="">
-    <img src="/content-images/preprocess-5cbb14f892.webp" alt="" width="400" height="300"/>
+    <img src="https://i.ibb.co/nQD1c3n/preprocess.png" alt="" width="400" height="300"/>
 </a>
 
 Signing Round 1: Each participant Pᵢ begins by generating a single private nonce pair (dᵢ, eᵢ) and corresponding pair of EC points (Dᵢ, Eᵢ), then broadcasts this pair of points to all other participants. Each participant stores these pairs of EC points for later use. Signing rounds 2 and 3 are the actual operations in which t-out-of-n participants cooperate to create a valid Schnorr signature.
@@ -86,7 +86,7 @@ Signing Round 1: Each participant Pᵢ begins by generating a single private non
 This step prevents forgery attacks because attackers cannot combine signature shares across distinct signing operations or permute the set of signers or published points for each signer.
 
 <a href="">
-    <img src="/content-images/sign-402794d36a.webp" alt="" width="400" height="300"/>
+    <img src="https://i.ibb.co/b5rJbXx/sign.png" alt="" width="400" height="300"/>
 </a>
 
 Having computed the challenge c, each participant can compute the response zᵢ using the single-use nonces and the long-term secret shares, which are t-out-of-n (degree t-1) Shamir secret shares of the group's long-lived key. At the end of signing round 2, each participant broadcasts zᵢ to other participants.

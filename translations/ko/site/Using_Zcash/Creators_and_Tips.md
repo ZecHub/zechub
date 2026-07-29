@@ -59,7 +59,7 @@
 
 ## TipZ
 
-![TipZ 로고](/content-images/BbXM8cDV_400x400-e6071ba983.webp)
+![TipZ 로고](https://pbs.twimg.com/profile_images/2023711029805350912/BbXM8cDV_400x400.jpg)
 
 ### 개요
 

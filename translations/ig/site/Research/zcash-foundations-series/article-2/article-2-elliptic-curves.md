@@ -1,7 +1,7 @@
 # Elliptic Curves: Ebe a mụrụ igodo na nkwa nke Zcash
 ##### Nnyocha mbụ sitere na [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [Alt ederede](/content-images/image-10-c1097b22d7.webp)
+! [Alt ederede](image-10.png)
 
 ### Okporo ámá nwere nanị otu ụzọ nke e si n'ebe ndị dị n'akụkụ ụzọ gbagọrọ agbagọ wuo
 
@@ -38,7 +38,7 @@ y^2 = x^3 + ax + b
 
 Over ordinary numbers it looks like a smooth, swooping curve, often with a rounded loop and two tails:
 
-! [Alt ederede](/content-images/image-14-1d2e8c25d2.webp)
+! [Alt ederede](image-14.png)
 
 Ihe na-eju anya n'ezie: ** ị nwere ike "tinye" isi abụọ na usoro a iji nweta isi nke atọ na otu usoro ahụ.** Nke a abụghị mgbakwunye nke nhazi. Ọ bụ iwu geometric, ọ dịkwa mfe * ịhụ * karịa ikwu.
 
@@ -50,7 +50,7 @@ Iji gbakwunye `P + Q`:
 2. Ahịrị ahụ na-adaba na curve n'otu ebe ọzọ. Kpọọ ya `R*`.
 3. ** Chebara ya echiche `R*` n'ofe axis ahụ.** Ntụgharị uche ahụ bụ azịza ya, `P + Q`.
 
-! [Alt ederede](/content-images/image-11-61f3df1989.webp)
+! [Alt ederede](image-11.png)
 
 ### Ụkpụrụ nke tangent (ịgbakwunye otu isi n'onwe ya)
 
@@ -117,7 +117,7 @@ Ntuziaka. Ajụjụ. Ihe isi ike.
 
 Nke ahụ asymmetry bụ ** otu ụzọ n'okporo ámá ** anyị mkpa na Nkebi nke 1. `k` produced this point?") is called the **Elliptic Curve Discrete Logarithm Problem (ECDLP)**, and on the curves Zcash uses, no known method solves it before the heat death of the universe.
 
-! [Alt ederede](/content-images/image-12-86b9ace6cb.webp)
+! [Alt ederede](image-12.png)
 
 > N'egwuregwu anyị `F_17` I nwere ike ịgụ ya `k` Ezi curves nwere gburugburu `2^(255)` N'ihi ya, ọ bụrụ na anyị agụọ ihe ndị a n'akwụkwọ ahụ, anyị ga-achọpụta na e nwere ihe ndị ọzọ dị mkpa anyị kwesịrị ime.
 
@@ -160,7 +160,7 @@ Zcash design curves ọ na-eji ọrụ
 
 The reasons one curve gets "embedded" inside another's field, and why a *cycle* of two curves is useful, are real and important, but they belong to the proof-system articles. For now the takeaway is solid: **every Zcash key is a scalar times a generator, and every Zcash commitment is a sum of curve points**, living on one of these named curves.
 
-! [Alt ederede](/content-images/image-13-ffdd703c60.webp)
+! [Alt ederede](image-13.png)
 
 ---
 

@@ -22,12 +22,12 @@ Diese Anleitung bietet eine Schritt-für-Schritt-Einführung dazu, wie man Multi
 1. Öffne die **Zkool-App** und gehe zu **Neues Konto**.
 
 
-![img1](/content-images/ee906e49-361a-49b6-9484-904897fe2e3f-074e400a9c.webp)
+![img1](https://github.com/user-attachments/assets/ee906e49-361a-49b6-9484-904897fe2e3f)
 
 3. Gib einen **Kontonamen** ein (z. B. Anabelle).  
    
 
-![img2](/content-images/e9c325d3-8507-433a-a0c6-6e8c1ea2a254-a637810ed5.webp)
+![img2](https://github.com/user-attachments/assets/e9c325d3-8507-433a-a0c6-6e8c1ea2a254)
 
 
 4. Aktiviere bei Bedarf optional **Use Internal Change** oder **Restore Account**.
@@ -36,7 +36,7 @@ Diese Anleitung bietet eine Schritt-für-Schritt-Einführung dazu, wie man Multi
 5. Nach dem Erstellen erscheint das Konto in deiner **Kontoliste**.  
 
 
-![img3](/content-images/c446cbca-fb3e-49b9-b1d4-fd727cd1b0fb-971cf76b33.webp)
+![img3](https://github.com/user-attachments/assets/c446cbca-fb3e-49b9-b1d4-fd727cd1b0fb)
 
 
 ## 2. Gelder empfangen
@@ -55,7 +55,7 @@ Jedes Konto erzeugt mehrere Adresstypen:
 Wähle den Typ aus, den du verwenden möchtest, und teile ihn, um Gelder zu empfangen.  
 
 
-![img4](/content-images/c9de5dfe-e9d7-423d-8d90-35c1a08ffd5d-a0d6a4e7b7.webp)
+![img4](https://github.com/user-attachments/assets/c9de5dfe-e9d7-423d-8d90-35c1a08ffd5d)
 
 
 
@@ -66,7 +66,7 @@ Wähle den Typ aus, den du verwenden möchtest, und teile ihn, um Gelder zu empf
 1. Gehe zum Abschnitt **Empfänger**.  
 
 
-![img5](/content-images/9f3a03b9-dd56-450c-a8dc-4370f9289138-3217d846b7.webp)
+![img5](https://github.com/user-attachments/assets/9f3a03b9-dd56-450c-a8dc-4370f9289138)
 
 
 3. Gib die **Empfängeradresse** ein.  
@@ -79,7 +79,7 @@ Wähle den Typ aus, den du verwenden möchtest, und teile ihn, um Gelder zu empf
 Sobald der Vorgang abgeschlossen ist, wird der Kontostand in deiner Kontoliste aktualisiert.  
 
 
-![img6](/content-images/6e6da76b-cd18-4567-a5c0-74f07ddefc64-78dc3362dc.webp)
+![img6](https://github.com/user-attachments/assets/6e6da76b-cd18-4567-a5c0-74f07ddefc64)
 
 
 ## 4. Multisig-Transaktionen durchführen: Einrichten der verteilten Schlüsselgenerierung (Multisig)
@@ -100,7 +100,7 @@ Definiere die **Anzahl der erforderlichen Unterzeichner (Schwellenwert)**.
 Wähle das **Finanzierungskonto** aus.
   
 
-![img7](/content-images/8a90ca85-5439-4937-b16d-a570e69d55f0-1477202a57.webp)
+![img7](https://github.com/user-attachments/assets/8a90ca85-5439-4937-b16d-a570e69d55f0)
 
 
 
@@ -117,7 +117,7 @@ Für maximale Kompatibilität und Flexibilität solltest du immer **Unified Addr
 Warte, bis alle Teilnehmer die Pakete für **Runde 1** und **Runde 2** ausgetauscht haben.  
 
 
-![img8](/content-images/cdaf6e00-3cb0-4774-8a96-5ded19bf31c4-b6bb50bbab.webp)
+![img8](https://github.com/user-attachments/assets/cdaf6e00-3cb0-4774-8a96-5ded19bf31c4)
 
 
 
@@ -125,7 +125,7 @@ Warte, bis alle Teilnehmer die Pakete für **Runde 1** und **Runde 2** ausgetaus
 Sobald der Vorgang abgeschlossen ist, wird eine **gemeinsame Adresse** erzeugt.  
 
 
-![img9](/content-images/741d1bc6-0102-4e67-bb83-9a1c184bd747-a508ea0371.webp)
+![img9](https://github.com/user-attachments/assets/741d1bc6-0102-4e67-bb83-9a1c184bd747)
 
 
 

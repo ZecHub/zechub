@@ -34,7 +34,7 @@ Während sich Zcash weiterentwickelt, können neue Shielded Pools eingeführt we
 
 <br/>
 
-![Abb1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
+![Abb1](https://github.com/user-attachments/assets/4ba8cca2-cea5-42d2-8ec2-2122b26f5144)
 Abb. 1: Ein Diagramm, das die aktuellen 4 Pools im Oktober 2025 zeigt
 
 <br/>
@@ -45,7 +45,7 @@ Abb. 1: Ein Diagramm, das die aktuellen 4 Pools im Oktober 2025 zeigt
 1. <h3 id="orchard" class="text-3xl font-bold my-4">Orchard Pool</h3>
 
 
-![Abb2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
+![Abb2](https://github.com/user-attachments/assets/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72)
 Abb. 2: Ein Diagramm, das den Orchard Pool im Oktober 2025 zeigt
 
 <br/>
@@ -63,7 +63,7 @@ ____
 2. <h3 id="sapling" class="text-3xl font-bold my-4">Sapling Pool</h3>
 
 
-![Abb3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
+![Abb3](https://github.com/user-attachments/assets/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae)
 Abb. 3: Ein Diagramm, das den Sapling Pool im Oktober 2025 zeigt
 
 <br/>
@@ -83,7 +83,7 @@ ____
 3. <h3 id="sprout" class="text-3xl font-bold my-4">Sprout Pool</h3>
 
 
-![Abb4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
+![Abb4](https://github.com/user-attachments/assets/956eceed-f4d6-4087-99d0-32a770449dda)
 Abb. 4: Ein Diagramm, das den Sprout Pool im Oktober 2025 zeigt
 
 Sprout war das erste überhaupt gestartete offene, erlaubnisfreie Zero-Knowledge-Privacy-Protokoll. Es wurde am 28. Oktober 2016 gestartet.
@@ -98,7 +98,7 @@ Als das Zcash-Ökosystem mit einer steigenden Zahl shielded Transaktionen weiter
 4. <h3 id="transparent" class="text-3xl font-bold my-4">Transparent Pool</h3>
 <br/>
 
-![Abb5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
+![Abb5](https://github.com/user-attachments/assets/01de2907-b62d-4421-83d7-ea4908faa828)
 Abb. 5: Ein Diagramm, das den Transparent Pool im Oktober 2025 zeigt
 
 <br/>

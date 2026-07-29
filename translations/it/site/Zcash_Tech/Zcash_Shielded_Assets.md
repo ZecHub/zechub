@@ -3,7 +3,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 <a href="">
-    <img src="/content-images/image-2023-11-18-160742427-658dda69c0.webp" alt="" width="800" height="500"/>
+    <img src="https://i.ibb.co/0VfMFB5/image-2023-11-18-160742427.png" alt="" width="800" height="500"/>
 </a>
 
 # Zcash Shielded Assets
@@ -24,7 +24,7 @@ I ZSA sono in fase di sviluppo da parte di [QEDIT](https://qed-it.com/), grazie 
 ### Demo ZSA su Zebra 
 
 
-[![Video Thumbnail](/content-images/hqdefault-3ae84de424.webp)](https://youtu.be/1MZMGC9ViyA)
+[![Video Thumbnail](https://i.ytimg.com/vi/1MZMGC9ViyA/hqdefault.jpg?)](https://youtu.be/1MZMGC9ViyA)
 
 
 **Prova la demo tu stesso!** 

@@ -4,7 +4,7 @@
 
 # Faucets
 
-<img width="2138" height="878" alt="Captura de pantalla_2025-10-30_10-36-45" src="/content-images/bba0da3b-7064-4680-9535-a0dfcf50cc00-1827fccf4b.webp" />
+<img width="2138" height="878" alt="Captura de pantalla_2025-10-30_10-36-45" src="https://github.com/user-attachments/assets/bba0da3b-7064-4680-9535-a0dfcf50cc00" />
 
 
 Los faucets son servicios que distribuyen pequeñas cantidades de criptomonedas de forma gratuita. A menudo los utilizan los desarrolladores para experimentar con criptomonedas y los usuarios para obtener pequeñas cantidades de criptomonedas sin tener que comprarlas. Normalmente limitan la cantidad de criptomonedas que un usuario puede recibir durante un período de tiempo determinado.

@@ -1,7 +1,7 @@
 # Sonlu Alanlar: Kriptografinin İçinde Yaşadığı Sayı Sistemi
 ##### [Annkkitaaa](https://github.com/Annkkitaaa) tarafından özgün araştırma
 
-![alt text](/content-images/image-5-6e8a8950f8.webp)
+![alt text](image-5.png)
 
 ### “Etrafında dönüp başa sarma” neden Zcash’in gizli temelidir
 
@@ -38,7 +38,7 @@ Aslında her gün bir sonlu alan kullanıyorsunuz. Duvarınızdaki saat.
 
 12 saatlik bir saatte sayılar *başa sarar*. Saat 10’dan başlayıp 5 saat eklerseniz “15”e değil, **3**’e ulaşırsınız. Saatin yalnızca on iki konumu vardır; tepeyi geçince sayım sadece başa döner.
 
-![alt text](/content-images/image-9-30b39f4cc5.webp)
+![alt text](image-9.png)
 
 Az önce bu yazının asıl meselesi olan üç şey oldu:
 
@@ -107,7 +107,7 @@ Mod `6` ile bir “alan” kurmaya kalktığımızda neyin bozulduğunu görelim
 
 Asal sayı, tanımı gereği, böyle çarpanlara sahip değildir. Dolayısıyla asal modül altında zero divisor ortaya çıkmaz, sıfır dışındaki her elemanın düzgün bir tersi olur ve yapı gerçek bir alan haline gelir.
 
-![alt text](/content-images/image-8-573914db92.webp)
+![alt text](image-8.png)
 
 > **Yazılarınız için tekrar kullanılabilir tek satır:** *asal modül girer, temiz bölme çıkar.*
 
@@ -159,7 +159,7 @@ Bir sonlu alan, tek cümleyle, **aritmetik için kusursuz biçimde kapalı, kusu
 - **Orchard** (mevcut shielded tasarım), **Pallas ve Vesta** adlı bir eğri çifti kullanır (birlikte “Pasta” eğrileri diye anılır); bunların alanları yaklaşık **255 bit** uzunluğunda asallar kullanır.
 - Makale 0’daki **note commitment**, **nullifier** ve bir **zero-knowledge proof** içindeki sayılar, en temelde, bu sonlu alanlardan birinin elemanlarıdır. Protokol “bu commitment’ı hesapla” dediğinde, aslında “o asala göre bu aritmetiği yap” demektedir.
 
-![alt text](/content-images/image-7-c81fe982f0.webp)
+![alt text](image-7.png)
 
 Yani Makale 0’daki açık sorunun, *“gizli tarifler nereden geliyor?”* sorusunun cevabı burada başlıyor: **her şey sonlu alandaki aritmetik olarak başlar.** Bir sonraki yazıda bu alanı alıp anahtarlar ve commitments haline gelen gerçek nesneleri, yani bir eliptik eğri üzerindeki noktaları inşa edeceğiz.
 

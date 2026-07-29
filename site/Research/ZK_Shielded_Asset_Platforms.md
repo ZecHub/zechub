@@ -90,7 +90,7 @@ For example, consider an NFT listing on Solana; its public state (e.g., price) i
 
 
 **[Secret Network](https://scrt.network/)**: Secret Network is a layer 1 blockchain built using the Cosmos SDK and is part of the broader interconnected Cosmos universe (IBC). Secret Network is the first mainnet blockchain with privacy-preserving smart contracts, launched in 2020. This makes it possible to build apps that are decentralized and permissionless—yet private - **Asset Swap**: Yes - [Whitepaper](https://docs.scrt.network/) -
-![Secret.png](/content-images/_unavailable.svg)
+![Secret.png](/content-images/_unavailable.svg).png)
 ***
 
 

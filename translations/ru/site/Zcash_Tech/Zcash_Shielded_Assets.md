@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Редактировать страницу"/>
 </a>
 <a href="">
-    <img src="/content-images/image-2023-11-18-160742427-658dda69c0.webp" alt="" width="800" height="500"/>
+    <img src="https://i.ibb.co/0VfMFB5/image-2023-11-18-160742427.png" alt="" width="800" height="500"/>
 </a>
 
 # Защищенные активы Zcash
@@ -21,7 +21,7 @@ ZSA разрабатываются компанией [QEDIT](https://qed-it.com
 
 ### Демонстрация ZSA на Zebra 
 
-[![Превью видео](/content-images/hqdefault-3ae84de424.webp)](https://youtu.be/1MZMGC9ViyA)
+[![Превью видео](https://i.ytimg.com/vi/1MZMGC9ViyA/hqdefault.jpg?)](https://youtu.be/1MZMGC9ViyA)
 
 **Запустите демонстрацию самостоятельно!**
 

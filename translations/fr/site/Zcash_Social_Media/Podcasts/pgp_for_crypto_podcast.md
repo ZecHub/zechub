@@ -4,7 +4,7 @@
 
 
 # Podcast PGP* pour la Crypto
-![bannièrepgp](/content-images/221758326-06cea3f5-4c9e-4466-b9ee-738546-01f88aec39.webp)
+![bannièrepgp](https://user-images.githubusercontent.com/81990132/221758326-06cea3f5-4c9e-4466-b9ee-73854628a6aa.png)
 
 Bienvenue dans le « PGP* (Pretty Good Policy) for Crypto Podcast », une initiative de Electric Coin Co. !
 

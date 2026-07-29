@@ -55,12 +55,12 @@ Flyp.me एक बिना sign-up वाला crypto exchange है। य�
 ये exchanges transparent withdrawals का समर्थन करते हैं। इसका मतलब है कि जब आप ZEC को अपने wallet में withdrawal करते हैं, तो आपको उसे अपने transparent address, यानी अपने सार्वजनिक ZEC address, पर भेजना होगा। 
 अधिक जानकारी के लिए [यहाँ](https://zechub.wiki/using-zcash/non-custodial-exchanges) क्लिक करें।
 
-![dex](/content-images/bfe2e9cf-2def-4593-b790-152e14b23da3-f94f97c7e6.webp)
+![dex](https://github.com/user-attachments/assets/bfe2e9cf-2def-4593-b790-152e14b23da3)
 
 
 ऐसा करते समय, हम निम्न में से किसी एक [wallet](https://zechub.wiki/wallets) का उपयोग करने की सलाह देते हैं। 
 
-![mobile](/content-images/8b7618f5-dec6-4e6b-9804-db75be5c1e2f-14fa53d3bd.webp)
+![mobile](https://github.com/user-attachments/assets/8b7618f5-dec6-4e6b-9804-db75be5c1e2f)
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">

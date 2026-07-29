@@ -1,4 +1,4 @@
-# <img src="/content-images/send-svgrepo-com-b62f643de0.svg" width="24" height="24" alt="기자 아이콘"/> 신분을 드러내지 않고 돈 보내기
+# <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/send-svgrepo-com.svg" width="24" height="24" alt="기자 아이콘"/> 신분을 드러내지 않고 돈 보내기
 
 <span className="inline-flex items-center gap-[6px]"><span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>중급 - 7 분</span>
 
@@ -11,7 +11,7 @@
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="사용자 아이콘"/> 이 문서는 누구에게 적합한가요?
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="사용자 아이콘"/> 이 문서는 누구에게 적합한가요?
 
 - 민감한 결제를 보내는 사람
 - 개인정보 보호에 관심 있는 사용자
@@ -19,7 +19,7 @@
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="경고 아이콘"/> 문제점
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="경고 아이콘"/> 문제점
 
 암호화폐를 보내는 행위는 종종:
 - 당신의 지갑 신분
@@ -30,7 +30,7 @@
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="도구 상자 아이콘"/> Zcash의 장점
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="도구 상자 아이콘"/> Zcash의 장점
 
 Zcash는 **완전히 비공개된 이체**를 가능하게 합니다.
 
@@ -40,14 +40,14 @@ Zcash는 **완전히 비공개된 이체**를 가능하게 합니다.
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="도구 상자 아이콘"/> 필요한 사항
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="도구 상자 아이콘"/> 필요한 사항
 
 - 보호된 거래를 지원하는 지갑
 - z 주소에 대한 기본 이해
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="단계 아이콘"/> 단계별 가이드
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="단계 아이콘"/> 단계별 가이드
 
 ### 단계 1: 자금이 보호된 주소에 있는지 확인하기
 
@@ -75,7 +75,7 @@ Zcash는 **완전히 비공개된 이체**를 가능하게 합니다.
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="취소 아이콘"/> 피해야 할 일반적인 실수
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="취소 아이콘"/> 피해야 할 일반적인 실수
 
 - 투명한 주소에서 직접 보내기
 - 여러 사람에게 동일한 주소 재사용하기
@@ -84,7 +84,7 @@ Zcash는 **완전히 비공개된 이체**를 가능하게 합니다.
 
 <br/>
 
-## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="완료 아이콘"/> 결과
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="완료 아이콘"/> 결과
 
 이제 다음과 같이 할 수 있습니다:
 - 자금을 비공개로 보내기
@@ -93,13 +93,13 @@ Zcash는 **완전히 비공개된 이체**를 가능하게 합니다.
 
 <br/>
 
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="연결 아이콘"/> 관련 문서
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="연결 아이콘"/> 관련 문서
 
 - [프라이버시 - 보호된 vs 투명한](/privacy/shielded-vs-transparent)
 
 <br/>
 
-## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="진행 아이콘"/> 진행 상황
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/progress-arrows-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="진행 아이콘"/> 진행 상황
 
 **6단계 중 2단계**
 

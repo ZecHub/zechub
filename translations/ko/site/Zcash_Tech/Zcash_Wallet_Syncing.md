@@ -47,7 +47,7 @@ Spend-before-sync는 Zcash Mobile Wallet SDK V2의 새로운 기능으로, 사�
 Spend-before-sync는 lightwalletd 서버의 블록을 비선형 순서로 처리하는 compact-blocks 동기화 알고리즘을 사용해 작동합니다. 이는 하나의 블록이 완전히 처리될 때까지 기다렸다가 다음 블록으로 넘어가는 대신, 지갑이 약간 더 많은 메모리와 처리 성능을 사용해 블록체인의 여러 구간을 스캔할 수 있음을 의미합니다. 보통은 서로 다른 범위를 스캔하면서, 오래된 블록이 다운로드되고 처리되는 동안 더 새로운 트랜잭션을 찾습니다. 최근의 미사용 note가 발견되면 즉시 사용할 수 있게 됩니다.
 
 <a href="">
-    <img src="/content-images/363d08df-b7b7-461b-a386-251d9ad702ca-a857cd8385.webp" alt="" width="140" height="150"/>
+    <img src="https://github.com/ZecHub/zechub/assets/9355622/363d08df-b7b7-461b-a386-251d9ad702ca" alt="" width="140" height="150"/>
 </a>
 
 ### Blaze Sync
@@ -67,7 +67,7 @@ DAGSync는 동기화 속도를 높여 Zcash 보호 지갑의 사용자 경험을
 DAG는 노드와 엣지로 구성된 데이터 구조이며, 각 엣지는 두 노드 간의 관계를 나타내는 방향을 가집니다. DAG에는 사이클이 없으므로, 어떤 노드에서 시작해 엣지를 따라가 다시 같은 노드로 돌아오는 방법이 없습니다.
 
 <a href="">
-    <img src="/content-images/eee7e08d-5c98-4c88-a48e-12f7a92a195f-316493530f.webp" alt="" width="110" height="230"/>
+    <img src="https://github.com/ZecHub/zechub/assets/9355622/eee7e08d-5c98-4c88-a48e-12f7a92a195f" alt="" width="110" height="230"/>
 </a>
 
 ## 실질적인 의미

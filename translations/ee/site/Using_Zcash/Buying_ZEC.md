@@ -55,12 +55,12 @@ Exchange gã akpa gãtɔ doa alɔ Zcash. Kpɔ afisia hena xexlẽdzesi tsitotsit
 Nu siawo ɖɔliɖɔli doa alɔ gaɖeɖe le gaglãgbe. Esia fia be ne èɖe ZEC ɖe wò gakotoku me la, ele be nàɖoe ɖe wò adrɛs si me kɔ, wò dutoƒo ZEC adrɛs. 
 Zi [afisia](https://zechub.wiki/using-zcash/non-custodial-exchanges) na nye nyawo tsitotsito.
 
-![dex](/content-images/bfe2e9cf-2def-4593-b790-152e14b23da3-f94f97c7e6.webp)
+![dex](https://github.com/user-attachments/assets/bfe2e9cf-2def-4593-b790-152e14b23da3)
 
 
 Ne èle esia wɔm la, míeɖo aɖaŋu be nàzã [gakotoku] siwo gbɔna la dometɔ ɖeka](https://zechub.wiki/wallets). 
 
-![si tsana](/content-images/8b7618f5-dec6-4e6b-9804-db75be5c1e2f-14fa53d3bd.webp)
+![si tsana](https://github.com/user-attachments/assets/8b7618f5-dec6-4e6b-9804-db75be5c1e2f)
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">

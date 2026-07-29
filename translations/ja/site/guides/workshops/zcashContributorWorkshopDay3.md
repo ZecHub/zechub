@@ -50,7 +50,7 @@ note2: ここではZkoolを使用していますが、エクスポート機能�
 
 https://github.com/hhanh00/zkool2
 
-<img width="1496" height="646" alt="1" src="/content-images/125adfe8-6be3-4798-8ee8-b96bba9fb9ac-d7ff97c6f8.webp" />
+<img width="1496" height="646" alt="1" src="https://github.com/user-attachments/assets/125adfe8-6be3-4798-8ee8-b96bba9fb9ac" />
 
 
 
@@ -58,7 +58,7 @@ https://github.com/hhanh00/zkool2
 
 右上のメニューから「取引のエクスポート」を選択します。
 
-<img width="1398" height="718" alt="2" src="/content-images/4287ceb6-669b-4ef0-ba24-3f7e2d9860b6-6fd3ed5a03.webp" />
+<img width="1398" height="718" alt="2" src="https://github.com/user-attachments/assets/4287ceb6-669b-4ef0-ba24-3f7e2d9860b6" />
 
 
 #### ステップ3
@@ -71,7 +71,7 @@ https://github.com/hhanh00/zkool2
 
 "How can I use "bash/rust/python/ ... etc." to transform CSV files"
 
-<img width="1098" height="480" alt="3" src="/content-images/6503f4be-6fbc-473f-919c-8914e09181bc-27520b5960.webp" />
+<img width="1098" height="480" alt="3" src="https://github.com/user-attachments/assets/6503f4be-6fbc-473f-919c-8914e09181bc" />
 
 note: 基本的な知識は必要ですが、これらのワークショップを実施することでプロセスのフローを理解できます。
 
@@ -89,4 +89,4 @@ note2: AIは通常プライバシーが保証されていないため、学生�
 
 LibreOfficeや任意のCSVビューアで開いて使用してください！
 
-<img width="2132" height="942" alt="4" src="/content-images/1097030d-c0f4-44c4-b15c-f86706a77bdc-6c81ca3df0.webp" />
+<img width="2132" height="942" alt="4" src="https://github.com/user-attachments/assets/1097030d-c0f4-44c4-b15c-f86706a77bdc" />

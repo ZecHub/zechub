@@ -25,11 +25,11 @@ Zcash Desktop & Mobile gakotokuwo ƒe nɔnɔme aɖe le wo me si na be ezãlawo t
 
 Tee kpɔ: https://z.cash/wallets 
 
-![Zcash ƒe Nuŋlɔɖi Siwo Wotsɔ Nya Ɣaɣla](/content-images/Zcash-1177103374-7bca37eb4d.webp)
+![Zcash ƒe Nuŋlɔɖi Siwo Wotsɔ Nya Ɣaɣla](https://i.ibb.co/n8HbQZC/Zcash-1177103374.png)
 
 **Dzesi ƒe dɔwɔnu**
 
-![Dzesi ƒe Dɔwɔɖoɖo](/content-images/signal-app-logo-scaled-454032876-81b24a0421.webp)
+![Dzesi ƒe Dɔwɔɖoɖo](https://i.ibb.co/7RbbxSs/signal-app-logo-scaled-454032876.jpg)
 
 Signal private messenger nye gbedasiwo ɖoɖoɖa ƒe dɔwɔnu si le dedie eye nyatakakawo ƒe adzamenyawo le eƒe kɔkɔƒe. Signal private messenger app la nye femaxee eye eŋudɔwɔwɔ le bɔbɔe, ezãlawo mehiã nuteƒekpɔkpɔ aɖeke do ŋgɔ o. Mɔ̃ɖaŋununya aɖe le Signal dɔwɔnua si tso nuwuwu vaseɖe nuwuwu si kpɔa egbɔ be wò kadodoa nye ame ŋutɔ tɔ keŋkeŋ. Ele be amesiame si le didim be yeaɖo ame ŋutɔ ƒe gbedasiwo ɖa dedie la nabu Signal private messenger app zazã ŋu elabena aɖe wò kɔmpiuta dzi dedienɔnɔ ƒe afɔkuwo kple wò nyatakakawo ƒe afɔɖoƒe siaa dzi akpɔtɔ ŋutɔ.
 
@@ -37,7 +37,7 @@ Te ekpɔ: [https://signal.org/download](https://signal.org/download)
 
 **BisonRelay** ƒe ɣeyiɣia.
 
-![Bison ƒe Relay](/content-images/ogimg-v1-1000556235-9390372d1e.webp)
+![Bison ƒe Relay](https://i.ibb.co/ZxpBVNv/ogimg-v1-1000556235.jpg)
 
 Bison Relay app la wɔ eƒe ŋgɔdonya le ƒe 2022. Bison Relay menɔ te ɖe ezãlawo si si akɔntabubuwo le dzi o - Insanely unbelievable! Le afisia la, woxea fe ɖe gbedasi ɖesiaɖe si woɖo ɖa kple esi woxɔ la ɖekaɖeka to Decred Lightning Network dzi. Taɖodzinu ɖeka kolia si le dɔwɔnu sia ŋue nye be wòaɖe akɔntabubuwo ƒe hiahiã ɖa keŋkeŋ esime wòle metadata dzi ɖem kpɔtɔ. Le go bubu me la, Bison Relay tɔ te alesi wowɔa mɔxexeɖedɔa nu zi geɖe. 
 
@@ -45,7 +45,7 @@ Te ekpɔ: [https://bisonrelay.org/download](https://bisonrelay.org/download)
 
 **Session ƒe Dɔwɔnu**
 
-![Session ƒe Dɔwɔɖoɖo](/content-images/logo-black-9e799f2b06.webp)
+![Session ƒe Dɔwɔɖoɖo](https://i.ibb.co/gdpwb1v/logo-black.png)
 
 Ne mènya nusi Session app nye xoxo o la, mègatsi dzi o! Nukpɔkpɔ sue aɖee nye esi, Session nye dɔla siwo wotsɔ nya ɣaɣlawo ŋlɔ tso nuwuwu yi nuwuwu siwo le ho ʋlim la dometɔ ɖeka. Wotu dɔwɔnua be wòaɖe metadata veviwo dzi akpɔtɔ. Wotrɔ asi le session app la ŋu na ame ɖekaɖeka siwo di be yewoanɔ adzame bliboe, kple ablɔɖe tso ŋkuléle ɖe ame ŋu ƒomevi ɖesiaɖe me. Le Session app la dzi la, ezãlawo ateŋu awɔ akɔnta si me telefon xexlẽdzesi alo e-mail adrɛs manɔmee si fia be ŋkɔ mele eŋu kura o. Zãlawo ateŋu aɖo gbedasiwo ɖa dedie to woƒe network dzi dzesi aɖeke manɔmee eyata, naneke meli si ado go o.
 

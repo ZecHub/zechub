@@ -25,11 +25,11 @@ Zcash Desktop & Mobile sika kotoku no wɔ ade bi a wɔde ahyɛ mu a ɛma wɔn a 
 
 Sɔ hwɛ: https://z.cash/wallets 
 
-![Zcash Nsɛm a Wɔabɔ no Encrypted](/content-images/Zcash-1177103374-7bca37eb4d.webp)
+![Zcash Nsɛm a Wɔabɔ no Encrypted](https://i.ibb.co/n8HbQZC/Zcash-1177103374.png)
 
 **Nsɛnkyerɛnneɛ app**
 
-![Nsɛnkyerɛnneɛ App](/content-images/signal-app-logo-scaled-454032876-81b24a0421.webp)
+![Nsɛnkyerɛnneɛ App](https://i.ibb.co/7RbbxSs/signal-app-logo-scaled-454032876.jpg)
 
 Signal private messenger yɛ nkrasɛm app a ahobammɔ wom a data kokoamsɛm wɔ ne sorokɔ mu. Signal private messenger app no ​​yɛ nea wontua hwee na ɛnyɛ den sɛ wode bedi dwuma, wɔn a wɔde di dwuma no nhia osuahu biara a wɔadi kan anya. Signal app no ​​wɔ encryption mfiridwuma a efi awiei kosi awiei a ɛhwɛ hu sɛ wo nkitahodi no yɛ kokoam koraa. Ɛsɛ sɛ obiara a ɔrehwehwɛ sɛ ɔde kokoam nkrasɛm bɛmena wɔ ahobammɔ mu no susuw ho sɛ ɔde Signal private messenger app no ​​bedi dwuma efisɛ ɛbɛtew wo kɔmputa so ahobammɔ ho mmerɛwyɛ ne wo data footprint nyinaa so kɛse.
 
@@ -37,7 +37,7 @@ Sɔ hwɛ: [https://signal.org/download](https://signal.org/download)
 
 **BisonRelay ** Ɔde ne nsa kyerɛɛ ne so.
 
-![Bison Relay a Wɔde Di Dwuma](/content-images/ogimg-v1-1000556235-9390372d1e.webp)
+![Bison Relay a Wɔde Di Dwuma](https://i.ibb.co/ZxpBVNv/ogimg-v1-1000556235.jpg)
 
 Bison Relay app no ​​yɛɛ nea edi kan wɔ afe 2022. Bison Relay no nnyina wɔn a wɔde di dwuma no so sɛ wɔwɔ akontaabu - Insanely unbelievable! Ɛha yi, wɔtua nkra biara a wɔde mena na wɔgye no mmiako mmiako wɔ Decred Lightning Network so. Saa app yi botaeɛ baako pɛ ne sɛ ɛbɛyi hia a ɛhia sɛ wɔnya akontaabuo no afiri hɔ koraa berɛ a ɛtew metadata so. Ɔkwan foforo so no, Bison Relay siw ɔkwan a wɔtaa fa so de censorship di dwuma no ano. 
 
@@ -45,7 +45,7 @@ Sɔ hwɛ: [https://bisonrelay.org/download](https://bisonrelay.org/download)
 
 **Nhyiam App**
 
-![Nhyiam no App](/content-images/logo-black-9e799f2b06.webp)
+![Nhyiam no App](https://i.ibb.co/gdpwb1v/logo-black.png)
 
 Sɛ wunnim nea Session app yɛ dedaw a, mma ɛnhaw wo! Ɛha na yɛhwɛ kakra, Session yɛ abɔfoɔ a wɔde encrypted ahyɛ mu a wɔrepere wɔn ho no mu baako. Wɔyɛɛ app no ​​sɛnea ɛbɛyɛ a wɔbɛtew metadata a ɛyɛ mmerɛw so. Wɔyɛɛ session app no ​​maa ankorankoro a wɔpɛ kokoamsɛm koraa, ne ahofadi fi ɔkwan biara a wɔbɛfa so ahwɛ wɔn so. Wɔ Session app no ​​so no, wɔn a wɔde di dwuma no betumi ayɛ akontaabu a enni telefon nɔma anaa email address a ɛkyerɛ sɛ ɛnyɛ nea wɔmmɔ din koraa. Wɔn a wɔde di dwuma no betumi de nkra amena dwoodwoo denam wɔn network so a wonni trace biara enti, biribiara nni hɔ a ɛbɛtwetwe.
 

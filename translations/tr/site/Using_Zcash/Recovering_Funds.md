@@ -28,7 +28,7 @@ YWallet, hem *yalnızca transparent* hem de shielded özel anahtarlardan erişil
 
 4. Sağ üst köşedeki artı işaretine tıklayın 
 
-![Artı işareti düğmesi](/content-images/plus-3ca2c1649a.webp)
+![Artı işareti düğmesi](https://i.postimg.cc/xJbVz7gB/plus.png)
 
 5. 'Restore an account' seçeneğini etkinleştirin 
 
@@ -46,7 +46,7 @@ YWallet, hem *yalnızca transparent* hem de shielded özel anahtarlardan erişil
 
 4. Seed phrase'inizi girin (Gap limit, seed tarafından oluşturulan ek adresleri tarar)
 
-![Sweep Funds ekranı](/content-images/sweep-6c956553a9.webp)
+![Sweep Funds ekranı](https://i.postimg.cc/3055CBcN/sweep.png)
 
 5. Kullanmak istediğiniz hedef için Value Pool'u girin (Borsalar Transparent kullanır)
 

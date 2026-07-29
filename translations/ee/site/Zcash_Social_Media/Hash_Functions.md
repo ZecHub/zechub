@@ -20,7 +20,7 @@ Hash Functions xɔa input si didi ɖesiaɖe eye wòwɔa output si ƒe didime wo�
 - **Emetsonu si do tso eme** = Hash Value 
 
 
-![Hash Dɔwɔwɔ ƒe nɔnɔmetata](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
+![Hash Dɔwɔwɔ ƒe nɔnɔmetata](https://pbs.twimg.com/media/Fn_NkFHXgAEtgse.png)
 
 ### Wò ŋutɔ te ekpɔ!
 
@@ -58,12 +58,12 @@ Hash Functions ƒe hatsotso vovovowo li. Kpɔɖeŋu aɖewo:
 #### 1. Integrity Hashing (Nyatakakawo ƒe Fɔmaɖimaɖi Me Dzodzro) .
 Nyatakakawo ƒe blibonyenye me dzodzro nye "Integrity Hashing" ƒe kpɔɖeŋu. Wozãa wo tsɔ wɔa checksums le data files dzi eye wonaa kakaɖedzi be wosɔ na ezãla.
 
-![Integrity Hashing ƒe kpɔɖeŋu](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
+![Integrity Hashing ƒe kpɔɖeŋu](https://pbs.twimg.com/media/Fn_Or0MWIAI6sgx.png)
 
 #### 2. Merkle Atiwo (Hash Atiwo) .
 **hash tree** alo **Merkle tree** nye alɔwo kple aŋgba ƒe node siwo wotsɔ data block ƒe cryptographic hash de dzesii.
 
-![Merkle Ati ƒe nɔnɔmetata](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
+![Merkle Ati ƒe nɔnɔmetata](https://pbs.twimg.com/media/Fn_O7ndWIAY5PA-.jpg)
 
 Merkle atiwo nye **cryptographic commitment scheme** ƒe kpɔɖeŋu. Wobua ati ƒe Ke be enye ɖokuitsɔtsɔna eye aŋgba ƒe ƒuƒoƒo siwo woɖo kpe edzi be wonye ɖokuitsɔtsɔna gbãtɔ ƒe akpa aɖe.
 
@@ -75,7 +75,7 @@ Le Zcash **Sapling** & **Orchard** shielded pools me la, wozãa **Note Commitmen
 #### 4. Asidede Hash (Bitcoin ƒe atsyã ƒe mɔxenuwo) .
 **SHA256** nye "Signature hash" ƒe kpɔɖeŋu si wozãna tsɔ zia block ɖesiaɖe ƒe tɔtrɔmanɔmanɔ dzi le Bitcoin kɔsɔkɔsɔa me. Tomenukulawo zãa hash si le block si do ŋgɔ me + A hash si nye asitsatsa siwo katã le block si li fifia me (hashMerkleRoot) + Timestamp + random value / network difficulty na block yeyewo.
 
-![SHA256 ƒe block ƒe nɔnɔmetata](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
+![SHA256 ƒe block ƒe nɔnɔmetata](https://pbs.twimg.com/media/Fn_PaVZXoAApHPf.jpg)
 
 #### 5. Equihash (Zcash Tomenukuƒe) .
 **Equihash** nye hashing algorithm si wozãna le Zcash tomenukuku me. Wozãnɛ hã le networkwo abe Komodo & Horizen ene.

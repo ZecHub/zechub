@@ -4,7 +4,7 @@
 
 # دليل Raspberry Pi 4 لتشغيل Zebra
 
-<img src="/content-images/image-2023-11-28-172907488-e7e9fd4ac5.webp" alt="راسبيري باي" width="300" height="300"/>
+<img src="https://i.ibb.co/V3rjKwv/image-2023-11-28-172907488.png" alt="راسبيري باي" width="300" height="300"/>
 
 يتيح لك تشغيل برنامج عقدة Zebra على Raspberry Pi 4 المشاركة في شبكة Zcash كعقدة مستقلة ومتوافقة مع الإجماع. سيرشدك هذا الدليل خلال الخطوات اللازمة لإعداد Zebra وتشغيله على Raspberry Pi 4 الخاص بك.
 
@@ -67,7 +67,7 @@
 7. __المراقبة__
    يمكنك مراقبة التقدم وحالة عقدة Zebra الخاصة بك عبر فتح متصفح ويب والانتقال إلى __http://127.0.0.1:8233/status__.
 
-<img src="/content-images/image-2023-11-28-173024853-99540511cf.webp" alt="شعار Zebra" width="200" height="200"/>
+<img src="https://i.ibb.co/BCtKrGp/image-2023-11-28-173024853.png" alt="شعار Zebra" width="200" height="200"/>
 
 ## استكشاف الأخطاء وإصلاحها
 
