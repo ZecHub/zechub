@@ -8,6 +8,7 @@ Here are some of the active ones:
 
 | Blog / Author              | Description                                              | Link |
 |----------------------------|----------------------------------------------------------|------|
+| Max Desalle                | Mastering Zcash                                          | [Visit ->](https://maxdesalle.com/mastering-zcash/) |
 | Mike Rosulek               | The Joy of Cryptography                                  | [Visit ->](https://joyofcryptography.com/) |
 | James Katz                 | Personal writings and thoughts on Zcash and privacy      | [Visit ->](https://free2z.cash/James_Katz/) |
 | Thumbs' Update             | Regular ecosystem updates and insights                   | [Visit ->](https://thumbsup.substack.com) |
