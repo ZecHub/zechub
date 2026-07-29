@@ -230,10 +230,6 @@ Zcash gateway providing a browser wallet and cross-chain DeFi access.
 Zcash-native DEX that brings shielded ZEC into Web3 DeFi via WalletConnect.  
 [Forum](https://forum.zcashcommunity.com/t/introducing-bazaarswap-bringing-zec-to-web3-defi/55479)
 
-### Atomic DEX
-Decentralized exchange that supports Zcash.  
-[Visit](https://atomicdex.io/en/)
-
 ### DCRDEX
 Decred’s decentralized exchange that supports Zcash.  
 [Visit](https://dex.decred.org)
