@@ -17,13 +17,13 @@ Azɔ hã, Zaino ana woaɖe kekeli ƒe asitsalawo ƒe dɔwɔwɔ ɖa tso node blib
 ## Nɔnɔmetata aɖewo siwo ɖe alesi Zaino wɔa dɔe fia
 
 ### Zaino Ememe Xɔtuɖaŋu
-![Zaino Ememe Xɔtuɖaŋu](https://i.ibb.co/mRTNtfy/image-2025-01-02-190143429.png)
+![Zaino Ememe Xɔtuɖaŋu](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
 
 ### Zaino Live Service Xɔtuɖaŋu
-![Zebra Live Service Xɔtuɖaŋu](https://i.ibb.co/x7dbRY8/image-2025-01-02-190349017.png)
+![Zebra Live Service Xɔtuɖaŋu](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
 
 ### Zaino System ƒe Xɔtuɖaŋu
-![Zaino System ƒe Xɔtuɖaŋu](https://i.ibb.co/wwL0XZv/image-2025-01-02-190448037.png)
+![Zaino System ƒe Xɔtuɖaŋu](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
 
 
 ## Afikae Mate Ŋu asrɔ̃ nu geɖe le?

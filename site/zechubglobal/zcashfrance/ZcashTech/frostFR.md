@@ -40,7 +40,7 @@ Tout d'abord, n participants exécutent un *protocole de génération de clé di
 
 Ensuite, tous les participants t-sur-n peuvent exécuter un * protocole de signature de seuil * pour générer en collaboration une signature Schnorr valide.
 
-![Signe de seuil](https://static.cryptohopper.com/images/news/uploads/1634081807-frost-flexible-round-optimized-schnorr-threshold-signatures-1.jpg "thresholdsign")
+![Signe de seuil](/content-images/1634081807-frost-flexible-round-optimize-3697a713d9.webp "thresholdsign")
 
 
 **Génération de clé distribuée (DKG)**
@@ -57,7 +57,7 @@ Cette phase s'appuie sur des techniques connues qui emploient un partage de secr
 
 Prétraitement : dans la phase de prétraitement, chaque participant prépare un nombre fixe de paires de points de courbe elliptique (EC) pour une utilisation ultérieure, qui est exécutée une seule fois pour plusieurs phases de signature de seuil.
 
-![Prétraitement](https://i.ibb.co/b5rJbXx/sign.png "signing protocol")
+![Prétraitement](/content-images/sign-402794d36a.webp "signing protocol")
 
 Signing Round 1 : chaque participant Pᵢ commence par générer une seule paire de nonce privée (dᵢ, eᵢ) et la paire correspondante de points EC (Dᵢ, Eᵢ) et diffuse cette paire de points à tous les autres participants. Chaque participant stocke ces paires de points EC reçus pour une utilisation ultérieure. Les cycles de signature 2 et 3 sont les opérations réelles dans lesquelles t participants sur n coopèrent pour créer une signature Schnorr valide.
 
@@ -65,7 +65,7 @@ Signing Round 2: Pour créer une signature Schnorr valide, tous les participants
 
 Cette étape empêche l'attaque par falsification, car les attaquants ne peuvent pas combiner les partages de signature entre des opérations de signature distinctes ou permuter l'ensemble de signataires ou de points publiés pour chaque signataire.
 
-![Protocole de signature](https://i.ibb.co/b5rJbXx/sign.png "protocole de signature")
+![Protocole de signature](/content-images/sign-402794d36a.webp "protocole de signature")
 
 Après avoir calculé le défi c, chaque participant est capable de calculer la réponse zᵢ au défi en utilisant les nonces à usage unique et les partages secrets à long terme, qui sont t-sur-n (degré t-1) partages secrets Shamir de la clé pérenne du groupe. À la fin du tour de signature 2, chaque participant diffuse zᵢ aux autres participants.
 

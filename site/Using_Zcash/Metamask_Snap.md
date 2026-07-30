@@ -41,7 +41,7 @@ MetaMask now supports **shielded Zcash (ZEC)** via the **ChainSafe-developed Zca
       Store data on your device
    ```
 
-![Zcash-snap-install](https://hackmd.io/_uploads/Hy5MSG2Oex.png)
+![Zcash-snap-install](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
 
 
 ---
@@ -59,7 +59,7 @@ For **BNB SmartChain**;
 -  Block Explorer URL: https://bscscan.com
 ```
 This enables network info and explorer links.
-![Add-a-custom-Net....](https://hackmd.io/_uploads/S1hq7f2Oel.png)
+![Add-a-custom-Net....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
 
 For **Zcash Mainnet**;
 ```markdown
@@ -75,13 +75,13 @@ For **Zcash Mainnet**;
 1. Visit [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev).  
 2. Click **Connect MetaMask Snap**.  
 
-![Zcash-web-wallet](https://hackmd.io/_uploads/Sk8nSz3dgl.png)
+![Zcash-web-wallet](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
 
 3. Approve the connection.  
 4. View your Zcash account summary, including:
    - Unified addresses and Transparent address
 
-![Account-summary-unif....](https://hackmd.io/_uploads/r17c_Mhdel.jpg)
+![Account-summary-unif....](/content-images/r17c_Mhdel-f4963826d5.webp)
 
 
 5. Wait for synchronization to complete.
@@ -96,7 +96,7 @@ For **Zcash Mainnet**;
 > **Swap ETH -> ZEC** - Use services like **LeoDex** and send to your shielded address.  
 > **Exchange Withdrawal** - Withdraw purchased ZEC to your WebZjs shielded address.  
 
-![LEODEX-SWAP](https://hackmd.io/_uploads/HyLQ0G2ugg.png)
+![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => Use shielded (z) addresses for **full privacy**.
@@ -111,7 +111,7 @@ For **Zcash Mainnet**;
    - Shielded recipient address  
    - Amount
 ```
-   ![Transfer-Balance](https://hackmd.io/_uploads/rkvcFfhdex.png)
+   ![Transfer-Balance](/content-images/rkvcFfhdex-bd55d079eb.webp)
 
 4. Confirm transaction in MetaMask (sign the transaction).  
 5. Received funds will appear in WebZjs after confirmation.
@@ -145,7 +145,7 @@ For **Zcash Mainnet**;
    Transparent Address
 ``` 
 
-![Address-components](https://hackmd.io/_uploads/SyPR2f2_gg.png)
+![Address-components](/content-images/SyPR2f2_gg-3907c5bf58.webp)
 
 
 

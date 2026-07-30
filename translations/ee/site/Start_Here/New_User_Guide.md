@@ -101,7 +101,7 @@ Zcash Habɔbɔa nye teƒe si Zcash habɔbɔa me tɔwo dzroa nusiwo katã ku ɖe 
 Nutoa me tɔwo tsɔa dzo ɖe hamevi yeyewo ŋu eye woxɔa wo nyuie ŋutɔ. Ɣeaɖewoɣi la, dzeɖoɖowo ate ŋu anye mɔ̃ɖaŋununya, gake mègatsi dzi o! Ne nya aɖe le asiwò gbeɖeka la, àte ŋu abia.
 
 <a href="">
-    <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="https://github.com/user-attachments/assets/c1d40441-4336-4754-b3bf-5a746b19a9d5" />
+    <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="/content-images/c1d40441-4336-4754-b3bf-5a746b19a9d5-6d2eca6cbf.webp" />
 </a>
 
 ---

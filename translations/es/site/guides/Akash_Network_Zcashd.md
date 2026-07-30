@@ -90,7 +90,7 @@ Tu saldo de AKT debería aparecer en la esquina superior derecha. Si es cero, pr
 
 ### Opción A: Subir archivo SDL (Recomendado)
 
-[![Desplegar en Akash](https://raw.githubusercontent.com/akash-network/console/refs/heads/main/apps/deploy-web/public/images/deploy-with-akash-btn.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
+[![Desplegar en Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
 
 ### Opción B: Usar el editor SDL
 

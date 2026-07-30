@@ -5,7 +5,7 @@
 제로에서 제로 지식이 새로운 주제로 돌아왔습니다!  
 이번 주에는 **신뢰 실행 환경(Trusted Execution Environments, TEEs)**에 대해 다룹니다. 이는 프라이버시 코인 및 기타 블록체인 애플리케이션에서 어떻게 사용되는지 살펴보겠습니다.
 
-![신뢰 실행 환경 소개](https://pbs.twimg.com/media/Fquj-h2WcAIgSnL.jpg)
+![신뢰 실행 환경 소개](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
 
 ---
 
@@ -31,7 +31,7 @@
 
 이는 Zcash가 **제로 지식 증명(zero-knowledge proofs)**을 사용하여 프라이버시를 보장하는 방식과 다릅니다. Zcash에서는 가리킨 트랜잭션이 네트워크에 추가 데이터 없이 공개적으로 브로드캐스트되고 검증됩니다. Zcash의 Shielded Assets도 동일한 원칙을 따릅니다.
 
-![Secret Network TEE 다이어그램](https://pbs.twimg.com/media/FqulPjNX0AEfjRp.png)
+![Secret Network TEE 다이어그램](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
 
 Secret Network에서 TEE가 어떻게 구현되는지에 대한 자세한 설명은 @l_woetzel의 이 훌륭한 기사에서 확인할 수 있습니다:  
 https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerability-33ca94b6df38
@@ -55,11 +55,11 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 - 애플리케이션이 손상되지 않았는지  
 - 인텔 SGX 엔클로저 내부에서 안전하게 실행되고 있는지
 
-![원격 인증 설명](https://pbs.twimg.com/media/FqumRjoWwAAeT-M.png)
+![원격 인증 설명](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
 
 엔클로저에는 외부에서 접근할 수 없는 개인 서명 및 인증 키도 포함되어 있습니다.
 
-![엔클로저 키 보호](https://pbs.twimg.com/media/Fqumv83XoAQq-MO.png)
+![엔클로저 키 보호](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
 
 ---
 
@@ -69,7 +69,7 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 
 **데이터 암호화(Data Sealing)**은 CPU에서 파생된 키를 사용하여 엔클로저 내부의 데이터를 암호화합니다. 암호화된 블록은 **동일한 시스템**에서만 해독될 수 있습니다.
 
-![데이터 암호화 다이어그램](https://pbs.twimg.com/media/FqunBwyWYAA-TR3.jpg)
+![데이터 암호화 다이어그램](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
 
 ---
 
@@ -79,7 +79,7 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 
 암호화된 데이터는 스마트 계약과 함께 TEE에 입력됩니다. 이 데이터는 엔클로저 내부에서 복호화, 처리, 재암호화되어 나옵니다.
 
-![Oasis Network TEE 흐름](https://pbs.twimg.com/media/FqunJRDXwAMt4Ob.png)
+![Oasis Network TEE 흐름](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
 
 ---
 
@@ -94,7 +94,7 @@ PoS 검증자에 대해:
 
 **TEE**는 검증자 키의 보안한 생성 및 사용에 이상적입니다.
 
-![Tendermint & PoS 보안](https://pbs.twimg.com/media/Fqun0HEX0AAooxW.jpg)
+![Tendermint & PoS 보안](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
 
 ---
 

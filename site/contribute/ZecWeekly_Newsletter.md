@@ -17,7 +17,7 @@ Before you start writing:
 - Check [ZEC Bounties ](https://bounties.zechub.wiki/) for the current newsletter task.
 - Wait to be assigned
 
-![ss](https://github.com/user-attachments/assets/149a802c-b64f-4969-ad89-e83ffecf568e)
+![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
 
 
 
@@ -93,7 +93,7 @@ Use these merged newsletter pull requests as examples of accepted submissions:
 - [Zcash Ecosystem Digest | February 14th](https://github.com/ZecHub/zechub/pull/1474)
 
 
-![Merged ZecWeekly newsletter pull request example](https://github.com/user-attachments/assets/9230d68d-6406-4c8a-992c-df84e0d318d8)
+![Merged ZecWeekly newsletter pull request example](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)
 
 When comparing your work with an example, focus on the file location, title format, section order, link descriptions, and whether the pull request connects back to the correct task.
 

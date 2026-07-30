@@ -5,7 +5,7 @@
 
 Halo es una prueba de conocimiento cero recursiva y sin confianza (ZKP) descubierta por Sean Bowe en Electric Coin Co. Elimina la configuración de confianza y permite una mayor escalabilidad de la blockchain de Zcash. Halo fue el primer sistema de prueba de conocimiento cero que es eficiente y recursivo, ampliamente considerado como un avance científico.
 
-![halo](https://electriccoin.co/wp-content/uploads/2021/01/Halo-on-Z-1440x720.png "halo")
+![halo](/content-images/_unavailable.svg "halo")
 
 
 **Componentes**
@@ -42,11 +42,11 @@ En el [documento de Halo](https://eprint.iacr.org/2019/1021.pdf), describimos co
 
 Halo 2 es una implementación de alto rendimiento de zk-SNARK escrita en Rust que elimina la necesidad de una configuración de confianza al mismo tiempo que establece la base para la escalabilidad en Zcash.
 
-![halo2image](https://electriccoin.co/wp-content/uploads/2020/09/Halo-puzzle-03-1024x517.jpg "halo2")
+![halo2image](/content-images/Halo-puzzle-03-1024x517-e034023d10.webp "halo2")
 
 Incluye una generalización de nuestro enfoque llamada "esquema de acumulación". Esta nueva formalización explica cómo funciona nuestra técnica de Nested amortization; agregando pruebas a un objeto llamado "acumulador", donde las pruebas razonan sobre el estado anterior del acumulador, podemos verificar que todas las pruebas anteriores fueron correctas (por inducción) simplemente verificando el estado actual del acumulador.
 
-![Accumulatorimage](https://i.imgur.com/l4HrYgE.png "accumulator")
+![Accumulatorimage](/content-images/l4HrYgE-1ea7bc32f7.webp "accumulator")
 
 Al mismo tiempo, muchos otros equipos estaban descubriendo nuevas pruebas de polinomios interactivos que eran más eficientes que Sonic (utilizado en Halo 1), como Marlin.
 

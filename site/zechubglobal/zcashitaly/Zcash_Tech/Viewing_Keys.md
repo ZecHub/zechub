@@ -38,7 +38,7 @@ Perché un utente vorrebbe mai farlo? Dall'articolo di Electric Coin Co. sulla q
 
 * Nell'angolo in alto a destra seleziona "Account", fai clic su "+" nell'angolo inferiore destro per aggiungere ed importa la tua chiave di visualizzazione per avere il tuo account di *sola lettura*
 
-![myViewKey](https://user-images.githubusercontent.com/81990132/208585568-46065002-6682-4ff4-ae8b-d206205b5d9b.png)
+![myViewKey](/content-images/208585568-46065002-6682-4ff4-ae8b-d20620-739ab12b6c.webp)
 
 
 #### zcashblockexplorer.com

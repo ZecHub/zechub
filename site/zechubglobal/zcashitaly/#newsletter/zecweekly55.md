@@ -1,6 +1,6 @@
 # ZecWeekly #55
 
-![ZecWeekly #55](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8993786a-d9cb-4050-ae50-2110b93db54a_1280x720.png)
+![ZecWeekly #55](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-ed27d6bac7.webp)
 
 Verbale della riunione dello ZCG, SDK pre-release in fase di test e l'ultimo Podcast Zcash! 
 
@@ -101,7 +101,7 @@ Leggete [qui](https://free2z.cash/James_Katz/zpage/compiling-zecwallet-lite-with
 
 ## Zeme della settimana
 
-![zeme](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdfa22aaf-ea16-40c8-b856-2400d41eb32e_1024x919.jpeg)
+![zeme](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-1f696cd4a3.webp)
 
 ## Lavori nell'ecosistema
 

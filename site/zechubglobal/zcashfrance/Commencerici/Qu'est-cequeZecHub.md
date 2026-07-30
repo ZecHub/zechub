@@ -36,7 +36,7 @@ Des dons:
 zs1txa9wzxsc46w4940c4t76wjlylhntyp7vcppsp8re32z02srqse038melgglew4jwsh3qes4m4n
 ```
 
-![Sans titre](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/53389a9f-af17-4412-bd25-42cad32eb2b6/Untitled.png)
+![Sans titre](/content-images/_unavailable.svg)
 
 **AVIS DE NON-RESPONSABILITÉ : ZecHub est une initiative entièrement indépendante et open source fondée par des membres de la communauté Zcash. Rien de ce qui est contenu dans ce référentiel Github ne doit être considéré comme un conseil financier ou d'investissement - il est uniquement à des fins d'information.**
 

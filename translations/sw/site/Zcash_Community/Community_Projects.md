@@ -67,7 +67,7 @@ Zlink ni njia rahisi ya kupata kiungo chochote, chombo, habari unahitaji kuhusu 
 Online Radio Station kutoa taarifa, kuelimisha na burudani kwa Zcash Jumuiya, maendeleo na Zcash en Español na ZKAV Club.
 
 ## Zimppy.xyz
-[![Zimppy.xyz Logo](https://github.com/betterclever/zimppy/blob/main/site/og.png?raw=true)](https://zimppy.xyz/)
+[![Zimppy.xyz Logo](/content-images/og-40771e1849.webp)](https://zimppy.xyz/)
 
 Zimppy is the Machine Payment Protocol (MPP) payment method for Zcash, designed for AI agents and automated machine-to-machine workflows. Deposit once on-chain, then make unlimited instant bearer requests with no per-request blockchain interaction. Supports fully shielded Zcash (Orchard) payments — sender, receiver, and amount remain encrypted.
 
@@ -76,7 +76,7 @@ Zimppy is the Machine Payment Protocol (MPP) payment method for Zcash, designed 
 ---
 
 ## CipherScan
-[!CipherScan](https://github.com/Kenbak/cipherscan/blob/main/public/logo-small.png?raw=true)](https://cipherscan.app/)
+[!CipherScan](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
 
 CipherScan ni faragha-kwanza Zcash blockchain Explorer. Kujengwa na Next.js 15, TypeScript, na Rust / WASM, inaruhusu watumiaji kuangalia juu ya vitalu, shughuli, na anwani bila kuvuja query metadata. Iliyoundwa kwa watumizi wa faragha wanaohitaji uwazi wa blockchain bila ufuatiliaji.
 
@@ -85,7 +85,7 @@ CipherScan ni faragha-kwanza Zcash blockchain Explorer. Kujengwa na Next.js 15, 
 ---
 
 ## ZcashNames
-[!ZcashNames]](https://github.com/zcashme/zcashnames/blob/main/public/brandkit/zcashnames-brand-banner-primary-logo-monochrome-green-monochrome-green-background-377x403.png?raw=true)](https://www.zcashnames.com/)
+[!ZcashNames]](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
 
 ZcashNames hutoa majina ya binadamu-readable kwa anwani Zcash ulinzi. Badala ya kushiriki muda mrefu z-anwani, watumiaji kujiandikisha jina kukumbukwa (kwa mfano, `alice.zec`) that resolves to their Unified Address. Simplifies receiving ZEC privately without exposing raw addresses.
 
@@ -102,20 +102,20 @@ Kampuni iliyojitolea kwa faragha, uhuru wa kujitegemea, na maadili ya cypherpunk
 ---
 
 ## Cipherpay
-[!Cipherpay]](https://github.com/atmospherelabs-dev/cipherpay-web/blob/main/public/logo-mark.png?raw=true)](https://www.cipherpay.app/en)
+[!Cipherpay]](/content-images/logo-mark-b8d7c702b0.webp)](https://www.cipherpay.app/en)
 
 CipherPay inawezesha malipo binafsi kwa ajili ya mtandao. Kubali Zcash katika dakika  yasiyo ya custodial, hakuna KYC required. Wafanyabiashara kupokea ZEC moja kwa moja kwa anwani ulinzi, kulinda wote mnunuzi na muuzaji faragha kifedha.
 
 [Tembelea Tovuti](https://www.cipherpay.app/en)
 
 ## Cipherscan
-[!Cipherscan](https://github.com/Kenbak/cipherscan/blob/main/public/logo-small.png?raw=true)](https://cipherscan.app/)
+[!Cipherscan](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
 
 Zcash blockchain Explorer ️ Decode blockchain. Faragha hukutana na uwazi.
 [Tembelea Tovuti](https://cipherscan.app/)
 
 ## ZcashNames
-[!ZcashNames]](https://github.com/zcashme/zcashnames/blob/main/public/brandkit/zcashnames-brand-banner-primary-logo-monochrome-green-monochrome-green-background-377x403.png?raw=true)](https://www.zcashnames.com/)
+[!ZcashNames]](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
 
 Majina ya kibinafsi
 kwa ajili
@@ -124,14 +124,14 @@ anwani zilizohifadhiwa jina ndilo unalohitaji kufanya shughuli za kibinafsi.
 [Tembelea Tovuti](https://www.zcashnames.com/)
 
 ## Zero-maarifa Audiovisual Club
-[![Zero-ujuzi Audiovisual Club](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS95FffUJjEeUHAZZ04xRHp9FW1Z0Gzef2UUg&s?raw=true)](https://zkav.club/#additional-reading)
+[![Zero-ujuzi Audiovisual Club](/content-images/images-563ef94ac0.webp)](https://zkav.club/#additional-reading)
 
 Faragha-kwanza audiovisual (AV) pamoja kwa ajili ya chanzo wazi na madaraka tech jamii. Sisi mafunzo, co-kuunda na kuendesha kujitolea AV msaada katika matukio ya jamii.
 
 [Tembelea Tovuti](https://zkav.club/#additional-reading)
 
 ## Maabara Shielded
-[!] Maabara Shielded](https://camo.githubusercontent.com/0244df9f30a80c45adfd80c448985f17a6c71cdc9fd0eccd7bf47dec157c0dd4/68747470733a2f2f736869656c6465646c6162732e6e65742f77702d636f6e74656e742f75706c6f6164732f323032342f31312f66617669636f6e5f37325f322e706e67?raw=true)](https://shieldedlabs.net/)
+[!] Maabara Shielded](/content-images/68747470733a2f2f736869656c6465646c616273-e449ae6540.webp)](https://shieldedlabs.net/)
 
 Shielded Labs ni huru, mchango unaofadhiliwa Zcash msaada shirika makao yake makuu katika Uswisi. Ni shirika la kwanza katika mazingira Zcash kwamba haijawahi kupokea moja kwa moja au moja kwa mmoja fedha kutoka Mfuko wa Maendeleo au malipo block.
 

@@ -6,7 +6,7 @@ Zcash ekosistemi gelişiyor. *Electric Coin Company (ECC)* / *Zodl* tarafından 
 - Zallet, Zodl tarafından geliştirilen Zebra düğümleriyle sorunsuz şekilde arayüz kurmak için tasarlanmış hafif bir cüzdandır
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ChatGPTImageOct12202508_15_20A](https://hackmd.io/_uploads/SJNBsSYTel.jpg)
+![ChatGPTImageOct12202508_15_20A](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
 Bu rehber, **Zcashd**'den **Zebrad** ve **Zallet**'e geçişte kurulum, cüzdan içe aktarma ve yaygın geçiş sorunlarının giderilmesi dahil olmak üzere size yol gösterir.
@@ -37,7 +37,7 @@ Kullanımdan kaldırma bir yana, geçmek için güçlü nedenler var:
 * zcashd düğümünüzden wallet.dat dosyanızı (veya başka herhangi bir cüzdan dosyası / anahtar deponuzu) yedekleyin.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (1)](https://hackmd.io/_uploads/SJ_0mUtTxg.svg)
+![bash (1)](/content-images/SJ_0mUtTxg-1441185a72.svg)
 </div>
 
 * zcash.conf dosyanızı ve tüm özel ayarlarınızı kaydedin.
@@ -63,7 +63,7 @@ Kullanımdan kaldırma bir yana, geçmek için güçlü nedenler var:
 **Linux**/**macOS** üzerinde:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (2)](https://hackmd.io/_uploads/HJhYu8Y6el.svg)
+![bash (2)](/content-images/HJhYu8Y6el-d2198f22c9.svg)
 </div>
 
 Bu, zebrad'in en son kararlı sürümünü kurar.
@@ -71,20 +71,20 @@ Bu, zebrad'in en son kararlı sürümünü kurar.
 **Seçenek B: Kaynak koddan derleme**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (3)](https://hackmd.io/_uploads/Syg8FUK6eg.svg)
+![bash (3)](/content-images/Syg8FUK6eg-b4557e52e0.svg)
 </div>
 
 Derlemeden sonra ikili dosyayı path'inize taşıyın:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![migration 11](https://hackmd.io/_uploads/BJ0zjLY6ll.png)
+![migration 11](/content-images/BJ0zjLY6ll-f77354d701.webp)
 </div>
 
 **4. Yapılandırma ve Başlatma**  
 Varsayılan bir yapılandırma oluşturun:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![migration2](https://hackmd.io/_uploads/HJV1C8tTxx.png)
+![migration2](/content-images/HJV1C8tTxx-5823395651.webp)
 </div>
 
 **zebrad.toml** dosyasını tercihlerinize göre düzenleyin (dinleme adresi, portlar, durum dizini, önbellekleme).
@@ -92,7 +92,7 @@ Varsayılan bir yapılandırma oluşturun:
 **Düğümü başlatın:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/H1KPkvt6gl.png)
+![image](/content-images/H1KPkvt6gl-864c48ca40.webp)
 </div>
 
 Düğüm genesis'ten itibaren senkronize olmaya başlayacaktır - donanım ve ağa bağlı olarak birkaç saat (veya daha fazla) sürebilir.
@@ -106,7 +106,7 @@ Zallet, zcashd'nin cüzdan kısmının yerini almak üzere tasarlanmıştır.
 **Veya kaynak koddan derleyin:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/SyUFxvFTex.png)
+![image](/content-images/SyUFxvFTex-5bb10ee1d3.webp)
 </div>
 
 * GUI veya CLI'yi başlatın (kurulumunuzun sağladığı şekilde).
@@ -118,7 +118,7 @@ Zallet, zcashd'nin cüzdan kısmının yerini almak üzere tasarlanmıştır.
 zcashd üzerinde özel anahtarlarınızı dışa aktarın:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (4)](https://hackmd.io/_uploads/rJzgzwFagx.svg)
+![bash (4)](/content-images/rJzgzwFagx-4a0874f250.svg)
 </div>
 
 * Zallet'te Anahtarları İçe Aktar veya benzeri seçeneği seçin.
@@ -143,13 +143,13 @@ Senkronizasyon tamamlandığında, bakiyeleriniz ve işlemleriniz tam olarak ön
 Düğümünüzün senkronizasyon durumunu şu komutu çalıştırarak doğrulayabilirsiniz:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/SyIyVDY6xl.png)
+![image](/content-images/SyIyVDY6xl-10d6bed7b8.webp)
 </div>
 
 Veya günlükleri kontrol edin.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/r1HfVPF6gg.png)
+![image](/content-images/r1HfVPF6gg-b6b76e9907.webp)
 </div>
 
 **8. Sorun Giderme**

@@ -1,6 +1,6 @@
 
 # The Zcash Podcast sul Network di Denaro Digitale
-![Screenshot_2023-01-22_21-50-14](https://user-images.githubusercontent.com/81990132/213973803-b0629c92-08d4-459b-99f1-594854a7db3a.png)
+![Screenshot_2023-01-22_21-50-14](/content-images/213973803-b0629c92-08d4-459b-99f1-594854-6272d02af6.webp)
 
 The Zcash Podcast offre contenuti come aggiornamenti, approfondimenti su temi specifici, ecc. per la comunità esistente di Zcash, così come per dare l'opportunità ai sottoscrittori del canale esistente di Digital Cash Network di diventare più profondamente familiari con Zcash.
 

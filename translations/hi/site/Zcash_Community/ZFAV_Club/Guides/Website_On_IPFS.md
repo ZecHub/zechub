@@ -4,7 +4,7 @@
 
 # IPFS पर एक वेबसाइट प्रकाशित करें 
 
-![](https://blog.desdelinux.net/wp-content/uploads/2020/04/IPFS-.jpg)
+![](/content-images/IPFS-40c2e22732.webp)
 
 ## IPFS के संपर्क में
 
@@ -54,7 +54,7 @@ IPFS में फ़ाइलों के *कंटेंट-एड्रे�
 
 अपनी वेबसाइट फ़ाइलों के साथ फ़ोल्डर का चयन करें और Add Folder विकल्प पर जाएं।
 
-![](https://i.ibb.co/ZHW4zsY/ipfs-site-folder.png)
+![](/content-images/ipfs-site-folder-2c96524d98.webp)
 
 --
 
@@ -91,11 +91,11 @@ IPFS में फ़ाइलों के *कंटेंट-एड्रे�
 
 Interplanetary Naming System (IPNS) आपकी वेबसाइट के संबद्ध IPFS CID को अपडेट करने की अनुमति देता है, लेकिन फिर भी एक स्थिर लिंक प्रदान करता है। इसे एक की के रूप में प्रदान किया जाता है। 
 
-![](https://dnslink.io/assets/dns-query.a0134a75.png)
+![](/content-images/dns-query.a0134a75-9ef7817f80.webp)
 
 आपके साइट फ़ोल्डर के लिए IPFS डेस्कटॉप एप्लिकेशन में सेटिंग मेनू से Publish to IPNS का चयन करें।  
 
-![](https://i.ibb.co/Ch25dKf/IPNS.png)
+![](/content-images/IPNS-2fe62cc369.webp)
 
 की: "k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n"
 
@@ -108,7 +108,7 @@ Interplanetary Naming System (IPNS) आपकी वेबसाइट के �
 
 यदि आप पहले से ही एक वेब पता धारक हैं, तो आप TXT रिकॉर्ड "_dnslink(your domain)" के साथ एक नया रिकॉर्ड जोड़ सकते हैं। प्रदाता के अनुसार, यह स्वचालित भर सकता है। 
 
-![](https://i.ibb.co/MgRxBHj/example.png)
+![](/content-images/example-c2a9edb28b.webp)
 
 इसे नेटवर्क में प्रसार के बाद आप इसे देख सकते हैं, जिसमें कुछ समय लग सकता है। 
 

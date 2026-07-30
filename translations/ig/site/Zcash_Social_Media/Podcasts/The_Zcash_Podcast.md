@@ -4,7 +4,7 @@
 
 
 # Zcash Podcast na Digital Cash Network
-[Nseta ihuenyo_2023-01-22_21-50-14](https://user-images.githubusercontent.com/81990132/213973803-b0629c92-08d4-459b-99f1-594854a7db3a.png)
+[Nseta ihuenyo_2023-01-22_21-50-14](/content-images/213973803-b0629c92-08d4-459b-99f1-594854-6272d02af6.webp)
 
 Zcash Podcast na-akwado ọdịnaya dị ka mmelite, isiokwu miri emi miri emi, wdg maka obodo Zcash dị ugbu a iji rie ma kesaa, yana inye ohere maka ndị debanyere aha ọwa Digital Cash Network dị adị ịmatakwu nke ọma na Zcash. 
 

@@ -38,15 +38,15 @@ Seguite le seguenti istruzioni per collegare Tor al portafoglio Zcash *(Ywallet)
 
 *Nota: se Tor è bloccato dalla rete mobile, è possibile utilizzare un Bridge Server come metodo alternativo di connessione.
 
-![Scaricare Orbot](https://i.ibb.co/sbTLtGz/Download-Orbot.jpg/img)
-![Messaggio di benvenuto](https://i.ibb.co/7t7FVHB/Welcome-message.jpg/img)
-![OrbotHomePage](https://i.ibb.co/jkZDbq6/Orbotmainpage.jpg/img)
-![YwalletinTor](https://i.ibb.co/CQK6fST/Zcashywallet.jpg/img)
-![Richiesta di connessione](https://i.ibb.co/zX7WhWM/Connection-Request.jpg/img)
-![Orbotisstarting](https://i.ibb.co/g4SrDWv/Orbotis-Starting.jpg/img)
-![Connessione attiva traYwallet&Tor](https://i.ibb.co/2qRp0xh/Ywallet-Tor.jpg/img)
-![Attivazione della connessione alla barra di comando](https://i.ibb.co/xDKFC7f/Activeconnection.jpg/img)
-![Ponti](https://i.ibb.co/CM8GjbC/Bridges.jpg/img)
+![Scaricare Orbot](/content-images/img-2a2de48a1c.webp)
+![Messaggio di benvenuto](/content-images/img-bed9ed85b4.webp)
+![OrbotHomePage](/content-images/img-3d5ef95870.webp)
+![YwalletinTor](/content-images/img-06a3d26c50.webp)
+![Richiesta di connessione](/content-images/img-63498ddfce.webp)
+![Orbotisstarting](/content-images/img-72e48a21e9.webp)
+![Connessione attiva traYwallet&Tor](/content-images/img-bcdae953c5.webp)
+![Attivazione della connessione alla barra di comando](/content-images/img-8e888ffb55.webp)
+![Ponti](/content-images/img-7cc257f702.webp)
 
 ## Come configurare un portafoglio Zcash con Torbot su PC/Desktop
 

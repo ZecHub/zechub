@@ -17,7 +17,7 @@ Wɔde adwuma ahyɛ wɔn a wɔyɛ block (a wɔfrɛ wɔn miners) nsa sɛ wɔnhwɛ 
 Wɔ Bitcoin ne cryptocurrencies afoforo mu no, block akatua no nyinaa kɔ block producers nkyɛn. Zcash yɛ soronko wɔ nokwasɛm a ɛyɛ sɛ wɔde block akatua no 20% kɔ [Zcash nkɔso sikakorabea](https://zips.z.cash/zip-1014). Saa sikakorabea yi boa akuo a wɔreyɛ adwuma wɔ Zcash protocol no ho ka.
 
 Mprempren, [Zcash Community Grants](https://zcashcommunitygrants.org/) nya 8% wɔ block akatua mu, Electric Coin Co. nya 7%, na Zcash Foundation nya 5%. Eyi yɛ adwuma kɔ 40%, 35%, ne 25% wɔ nkɔso sikakorabea no mu.
-![Dev Sikakorabea a Wogye ](https://user-images.githubusercontent.com/43553081/212411570-4858a3d6-f7a1-465a-bf0c-d2ef726d41dc.jpeg)
+![Dev Sikakorabea a Wogye ](/content-images/212411570-4858a3d6-f7a1-465a-bf0c-d2ef72-1efe3a104e.webp)
 
 Wɔ afe 2020 mu no, Zcash mpɔtam hɔfoɔ too aba wɔ nkɔsoɔ sikakorabea no ne akuo a ɛboaa wɔn no ho. Wɔ afe 2024 mu no, mpɔtam hɔfoɔ bɛto aba bio de ahwɛ deɛ ɔbɛnya sika afiri nkɔsoɔ sikakorabea no mu.
 
@@ -30,11 +30,11 @@ Hybrid Deferred Dev Fund Lockbox yɛ sikasɛm nhyehyɛe a wɔapaw ama Zcash nkɔ
 
 Wɔnam nhyehyeɛ a ɛkɔ akyiri a mpɔtam hɔfoɔ di so na ɛsii gyinaeɛ sɛ wɔde 20% Dev Fund Lockbox no bedi dwuma. Nea ɛka eyi ho ne Zcash Community Advisory Panel (ZCAP) nhwehwɛmu abien, ne nhwehwɛmu pii a wɔyɛe wɔ abɔde a nkwa wom nyinaa mu. Saa nhwehwɛmu ahorow yi maa nnipa pii a wɔde wɔn ho hyɛɛ mu no tumi kaa wɔn adwene na wɔboaa gyinaesi nhyehyɛe no.
 
-![](https://global.discourse-cdn.com/zcash/original/3X/f/d/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd.png)
+![](/content-images/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd-8f378b3e3d.webp)
 
 Sɛnea wɔde dev sikakorabea lockbox no akɔ akyiri (a ɛkyerɛ sɛ wɔbɛbue sika no denam network upgrade so akyiri yi), ɛrenkyɛ Zcash Community no besi gyinae wɔ ɔkwan a wɔbɛfa so akyekyɛ sika no ho. Ɔkwan baako a wɔahyɛ ho nyansa ne ‘Zbloc’ decentralized governance mechanism. 
 
-![Nniso foforo a ebetumi aba sɛ wɔde di dwuma wɔ amansin mu](https://global.discourse-cdn.com/zcash/original/3X/9/9/99588d6f43a3143cb3616e8a89df5125e855ba39.png)
+![Nniso foforo a ebetumi aba sɛ wɔde di dwuma wɔ amansin mu](/content-images/99588d6f43a3143cb3616e8a89df5125e855ba39-5688d8901f.webp)
 
 ## Akadeɛ
 

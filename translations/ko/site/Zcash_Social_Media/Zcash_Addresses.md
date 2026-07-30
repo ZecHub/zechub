@@ -15,7 +15,7 @@ Zcash를 처음 배우는 경우, 두 가지 유형의 거래가 존재함을 �
 
 **암호화된 거래**(Shielded Transaction)는 Sapling/Orchard 풀에 대한 주소 인코딩이 포함된 모든 거래를 의미합니다.
 
-![투명한 vs 암호화된 소개](https://pbs.twimg.com/media/FpmW00HWIAIZpQD.jpg)
+![투명한 vs 암호화된 소개](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
 
 **통합 주소**(Unified Addresses)는 **암호화된 또는 투명한 거래**를 하나의 주소로 통합하도록 설계되었습니다.
 
@@ -31,9 +31,9 @@ Zcash를 처음 배우는 경우, 두 가지 유형의 거래가 존재함을 �
 
 각 유형의 문자 수(따라서 QR 코드 크기)는 증가합니다.
 
-![주소 유형 비교](https://pbs.twimg.com/media/FpmXe5bXsAEFeLY.png)
+![주소 유형 비교](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
 
-![QR 코드 크기 비교](https://pbs.twimg.com/media/FpmXmDwXoAIWxov.png)
+![QR 코드 크기 비교](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
 
 ---
 
@@ -50,7 +50,7 @@ Zcash를 처음 배우는 경우, 두 가지 유형의 거래가 존재함을 �
 
 **중요**: 모든 UA에는 **최소 하나의 암호화된 지불 주소**(Shielded Payment Address)가 포함되어야 합니다. (Canopy 업그레이드 이후 Sprout 주소는 더 이상 지원되지 않습니다.)
 
-![UA 인코딩 구조](https://pbs.twimg.com/media/FpmYW1ZXgAAvALT.png)
+![UA 인코딩 구조](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
 
 전체 사양: **[ZIP-316: 통합 주소](https://zips.z.cash/zip-0316)**
 

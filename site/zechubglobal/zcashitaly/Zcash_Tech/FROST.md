@@ -40,7 +40,7 @@ In primo luogo, n partecipanti eseguono un *protocollo di generazione di chiavi 
 
 Successivamente, qualsiasi gruppo di t partecipanti su n può eseguire un protocollo di firma soglia per generare collaborativamente una firma Schnorr valida. 
 
-![Firma soglia](https://static.cryptohopper.com/images/news/uploads/1634081807-frost-flexible-round-optimized-schnorr-threshold-signatures-1.jpg "thresholdsign")
+![Firma soglia](/content-images/1634081807-frost-flexible-round-optimize-3697a713d9.webp "thresholdsign")
 
 
 **Generazione di chiavi distribuite (DKG)**
@@ -57,7 +57,7 @@ Questa fase si basa su tecniche note che impiegano la condivisione segreta addit
 
 Preprocessing: Nella fase di preprocessing, ogni partecipante prepara un numero fisso di coppie di punti di curva ellittica (EC) per un uso successivo, che viene eseguito una sola volta per più fasi di firma soglia.
 
-![Preprocessing](https://i.ibb.co/nQD1c3n/preprocess.png "preprocess stage")
+![Preprocessing](/content-images/preprocess-5cbb14f892.webp "preprocess stage")
 
 Fase di Firma 1: Ogni partecipante Pᵢ inizia generando una singola coppia di nonce privati (dᵢ, eᵢ) e la corrispondente coppia di punti EC (Dᵢ, Eᵢ) e diffonde questa coppia di punti a tutti gli altri partecipanti. Ogni partecipante memorizza queste coppie di punti EC ricevute per un uso successivo. Le fasi di firma 2 e 3 sono le effettive operazioni in cui t-dei-n partecipanti collaborano per creare una firma Schnorr valida.
 
@@ -65,7 +65,7 @@ Fase di Firma 2: Per creare una firma Schnorr valida, qualsiasi t partecipanti l
 
 Questo passaggio previene attacchi di falsificazione poiché gli aggressori non possono combinare le parti della firma attraverso diverse operazioni di firma o permutare l'insieme dei firmatari o i punti pubblicati per ogni firmatario.
 
-![Signing protocol](https://i.ibb.co/b5rJbXx/sign.png "signing protocol")
+![Signing protocol](/content-images/sign-402794d36a.webp "signing protocol")
 
 Dopo aver calcolato la sfida c, ogni partecipante è in grado di calcolare la risposta zᵢ alla sfida utilizzando i nonce monouso e le condivisioni segrete a lungo termine, che sono condivisioni segrete di Shamir t-su-n (grado t-1) della chiave a lunga durata del gruppo. Alla fine della fase di firma 2, ogni partecipante diffonde zᵢ agli altri partecipanti.
 

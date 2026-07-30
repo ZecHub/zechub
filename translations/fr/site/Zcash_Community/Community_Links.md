@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
 </a>
 
-# <img src="https://i.ibb.co/qYhRbJM/image-2024-02-03-174147713.png" alt="Texte alternatif" width="400"/> Liens de la communauté Zcash
+# <img src="/content-images/image-2024-02-03-174147713-63a42e536c.webp" alt="Texte alternatif" width="400"/> Liens de la communauté Zcash
 
 La communauté Zcash est un groupe dynamique de personnes qui œuvrent pour faire de ZEC l’une des cryptomonnaies axées sur la protection de la vie privée les plus largement utilisées au monde. La communauté est composée de personnes diverses venant du monde entier — développeurs, éducateurs, défenseurs et bâtisseurs — unies par une conviction commune en la confidentialité financière.
 
@@ -10,11 +10,11 @@ La communauté Zcash est un groupe dynamique de personnes qui œuvrent pour fair
 
 ## Où trouver les membres de la communauté
 
-### <img src="https://i.ibb.co/qBrb4qK/image-2024-02-03-173937048.png" alt="Texte alternatif" width="50"/> <span translate="no" class="notranslate">Telegram</span>
+### <img src="/content-images/image-2024-02-03-173937048-148e401d5e.webp" alt="Texte alternatif" width="50"/> <span translate="no" class="notranslate">Telegram</span>
 
 La communauté Zcash est très active sur son <span translate="no" class="notranslate">Telegram</span> communautaire. Rejoignez-la pour discuter du quotidien, échanger sur les actualités et les mises à jour, et rencontrer d’autres membres de la communauté : [t.me/Zcash_Community](https://t.me/Zcash_Community)
 
-### <img src="https://i.ibb.co/kxVwQxM/image-2024-02-03-174056252.png" alt="Texte alternatif" width="50"/> <span translate="no" class="notranslate">Discord</span>
+### <img src="/content-images/image-2024-02-03-174056252-8a6a76eabf.webp" alt="Texte alternatif" width="50"/> <span translate="no" class="notranslate">Discord</span>
 
 - [Zcash Global](https://discord.gg/zcash) - Serveur principal de la communauté
 - [Zcash R&D](https://discord.gg/xpzPR53xtU) - Discussions sur le protocole et entre développeurs
@@ -34,7 +34,7 @@ La communauté Zcash est très active sur son <span translate="no" class="notran
 
 Le [Forum de la communauté Zcash](https://forum.zcashcommunity.com/) est le centre des discussions approfondies sur Zcash — gouvernance, propositions de subventions, débats techniques et annonces de l’écosystème. La supervision a désormais été transférée à la Zcash Foundation à la suite de la transition d’ECC vers ZODL.
 
-### <img src="https://i.ibb.co/mqKfr62/image-2024-02-03-174240928.png" alt="Texte alternatif" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
+### <img src="/content-images/image-2024-02-03-174240928-7a8f751301.webp" alt="Texte alternatif" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
 
 Zcash bénéficie d’une présence mondiale active sur X. Comptes clés à suivre :
 

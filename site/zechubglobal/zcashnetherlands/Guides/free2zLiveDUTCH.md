@@ -9,44 +9,44 @@ Momenteel zijn er twee manieren om uw account op Free2Z aan te maken:
 
 Om een ​​account aan te maken of in te loggen, gaat u naar https://free2z.cash/ en klikt u op de knop 'CREATE'.
 
-![Free2z Landingspagina](assets/landing-page.png)
+![Free2z Landingspagina](/content-images/landing-page-334a205e74.webp)
 
 Het aanmeldings-/aanmeldingsformulier verschijnt in uw browser. Kies uw gebruikersnaam en een sterk wachtwoord - dit zijn uw inloggegevens. Los de captcha op en klik op de knop 'Enter' om uw account aan te maken.
 
-![Log in / Account aanmaken](assets/login-or-create-account.png)
+![Log in / Account aanmaken](/content-images/login-or-create-account-264e0f17b9.webp)
 
 U kunt ook een Free2Z-account maken door uw Twitter-account te koppelen. Klik hiervoor op het Twitter-logo naast 'Inloggen met' en je wordt gevraagd je Twitter-account te koppelen."
 
-![Verbind twitter](assets/connect-twitter.png)
+![Verbind twitter](/content-images/connect-twitter-739879e957.webp)
 
 Klik op 'App autoriseren' om je Twitter-account aan free2z te koppelen.
 
 ## Personaliseer je profiel
 Nadat uw account is aangemaakt, wordt u doorgestuurd naar uw Free2Z-profielpagina. Als je je account hebt gemaakt door je Twitter te koppelen, worden de meeste velden automatisch ingevuld. Als u een account heeft gemaakt door een gebruikersnaam en wachtwoord in te voeren, moet u hier uw gegevens invoeren. U kunt een pseudoniem gebruiken in plaats van uw echte naam.
 
-![Standaard free2z-header](assets/default-header.png)
+![Standaard free2z-header](/content-images/_unavailable.svg)
 
 Het is momenteel behoorlijk saai, dus laten we het interessanter maken door een avatar en een banner op te zetten. De Free2Z-interface maakt deze stap heel eenvoudig met behulp van de uploadknop (de pijl omhoog aan de rechterkant).
 
-![Upload avatar en banner](assets/avatar-and-banner.png)
+![Upload avatar en banner](/content-images/avatar-and-banner-b53a9a2f43.webp)
 
 Het resultaat zie je bovenaan de pagina.
 
-![Coole kop](assets/cool-hheader.png)
+![Coole kop](/content-images/cool-hheader-46c234dd94.webp)
 
 Ach, veel beter! Als je enige artistieke vaardigheden hebt, kun je je Free2Z-profielpagina er geweldig uit laten zien!
 
 Schrijf een mooie beschrijving voor je pagina. U kunt over uzelf praten of het type inhoud beschrijven dat anderen van u kunnen verwachten. (Tip: gebruik de markdown-syntaxis om uw beschrijving te personaliseren!)
 
-![Praat over jezelf](assets/edit-description.png)
+![Praat over jezelf](/content-images/edit-description-9d6c8dec17.webp)
 
 Vergeet niet je Zcash afgeschermde adres op te geven, zodat supporters rechtstreeks aan jou kunnen doneren!
 
-![Geef uw afgeschermde adres op](assets/p2p-address.png)
+![Geef uw afgeschermde adres op](/content-images/p2p-address-ef1ab6d769.webp)
 
 De laatste stap om uw pagina-instelling te voltooien, is het instellen van een 'Ledenprijs'. Dit is de prijs in 2Zs (Tuzies) die andere gebruikers zullen betalen om zich op uw pagina te abonneren! (Later meer over 2Zs).
 
-![Inschrijvingsprijs voor leden](assets/member-price.png)
+![Inschrijvingsprijs voor leden](/content-images/member-price-d6ac1fceee.webp)
 
 Klik ten slotte op de knop 'Profiel bijwerken' om uw profielconfiguratie te voltooien!
 
@@ -59,35 +59,35 @@ Met Free2Z kunnen gebruikers zich abonneren op hun favoriete makers en toegang k
 
 U kunt uw 2Zs-credits zien in de kop van uw profielpagina.
 
-![Je 2sz-saldo](assets/tuzis-balance.png)
+![Je 2sz-saldo](/content-images/tuzis-balance-db1cfb2242.webp)
 
 Je kunt meer 2Z's kopen met Zcash door op je 2Z's-saldo te klikken. Het minimumbedrag om te kopen is 0,05 ZEC en de huidige wisselkoers is 0,05 ZEC = 10 2Zs.
 
-![Koop 2sz](assets/buy-tuzies.png)
+![Koop 2sz](/content-images/buy-tuzies-b588c94e85.webp)
 
 ## Doneren en inschrijven
 Als je eenmaal een maker hebt gevonden die je leuk vindt, kun je je waardering tonen door te doneren en je erop te abonneren. Alle donaties gaan rechtstreeks naar de portemonnee van de maker.
 
 Laten we ons bijvoorbeeld abonneren op [Free2Z's eigen pagina](https://free2z.cash/free2z).
 
-![Free2z-pagina](assets/free2z-page.png)
+![Free2z-pagina](/content-images/free2z-page-23eca554ed.webp)
 
 Om u op een pagina te abonneren, hoeft u alleen maar op het abonneerpictogram in de paginakop te klikken.
 
-![Abonneren op maker](assets/subscribe-to-creator.png)
+![Abonneren op maker](/content-images/subscribe-to-creator-2243b242fb.webp)
 
 U ziet het minimumbedrag om u te abonneren. Controleer of je genoeg 2Z's hebt en klik op 'subscribe'.
 
-![Bevestig abonnement](assets/confirm-subscribe.png)
+![Bevestig abonnement](/content-images/confirm-subscribe-ce8a923ad3.webp)
 
 ### Doneer met 2zs of Zcash.
 U kunt rechtstreeks op hun pagina doneren door op het pictogram "Fondsmaker" te klikken.
 
-![Fondsmaker](assets/fund-creator.png)
+![Fondsmaker](/content-images/fund-creator-d84a286292.webp)
 
 Of zoek vanuit een bericht naar de zwevende 'plus'-knop. Vanaf hier kun je doneren aan de maker of het bericht promoten op Free2Z.
 
-![Support maker](assets/post-floating-buttons.png)
+![Support maker](/content-images/post-floating-buttons-452a585ba1.webp)
 
 ## Free2z Live
 Het Free2z-platform biedt een geweldige functie genaamd Free2z Live. Met deze tool kunnen makers livestreams starten voor geabonneerde leden. Enkele belangrijke kenmerken van Free2z Live zijn:
@@ -112,19 +112,19 @@ Het is heel eenvoudig om een ​​livestream te starten met Free2z Live. Maar e
 2. De maker **moet** een saldo van minimaal 150 2zs in zijn account hebben.
 Als de maker aan **beide** bovenstaande voorwaarden voldoet, is er een pictogram met de naam 'Live gaan' beschikbaar op zijn profielpagina.
 
-![Ga live](assets/go-live.png)
+![Ga live](/content-images/go-live-cc06cbe765.webp)
 
 Om een ​​livestream te starten, klikt u gewoon op de knop 'Live gaan' en de Free2z-app vraagt ​​toestemming om uw microfoon en webcam (als u die heeft) te gebruiken. Nadat je de benodigde toestemmingen hebt verleend, zal Free2z je vragen om een ​​bijnaam in te voeren die je tijdens de livestream wilt gebruiken. Nadat je een bijnaam hebt geselecteerd, klik je op 'Deelnemen' om je livestream te starten.
 
-![Selecteer bijnaam](assets/select-nickname.png)
+![Selecteer bijnaam](/content-images/select-nickname-b01c96688c.webp)
 
 En klaar! Wanneer je een livestream start, toont je profiel een pictogram dat aangeeft dat je live bent, zodat je abonnees kunnen deelnemen aan de livestream.
 
-![Deelnemen aan een livestream](assets/join-livestream.png)
+![Deelnemen aan een livestream](/content-images/join-livestream-ac9c05227b.webp)
 
 Wanneer mensen deelnemen aan de livestream, kunnen ze chatten, vragen om deel te nemen aan het podium, communiceren door te stemmen in peilingen en meer.
 
-![Voorbeeld van een Free2z Live](assets/free2z-live-example.png)
+![Voorbeeld van een Free2z Live](/content-images/free2z-live-example-17d4bc8026.webp)
 _(Voorbeeld van Free2z Live-sessie)_
 
 Free2z Live is veelzijdig en krachtig. In het volgende gedeelte zal ik een overzicht geven van de functionaliteiten en tools.
@@ -134,13 +134,13 @@ Deze wiki-doc is niet bedoeld als een diepgaande gids voor Free2z of Free2z Live
 
 Linksonder in het scherm zien we een aantal knoppen.
 
-![Toetsen linksonder](assets/free2z-live-left.png)
+![Toetsen linksonder](/content-images/free2z-live-left-b09229dcd9.webp)
 
 Een leuke functie hierbij is de mogelijkheid om je scherm te delen zodat andere gebruikers kunnen zien wat je aan het doen bent.
 
 Onderaan vinden we de livestream opties.
 
-![Onderste knoppen](assets/free2z-live-bottom.png)
+![Onderste knoppen](/content-images/free2z-live-bottom-99afa7dd0a.webp)
 
 Enkele van de belangrijkste opties hier zijn:
 - Microfoon dempen / dempen opheffen
@@ -149,7 +149,7 @@ Enkele van de belangrijkste opties hier zijn:
 - Zet alle luidsprekers uit
 - Verlaten - Om een ​​livestream te beëindigen, klikt u op de knop 'Verlaten' en vervolgens op 'Vergadering voor iedereen beëindigen' om de vergadering voor alle deelnemers te beëindigen.
 
-![Toetsen rechtsonder](assets/free2z-live-right.png)
+![Toetsen rechtsonder](/content-images/free2z-live-right-292bfc8539.webp)
 
 De knoppen rechtsonder bevatten functies met betrekking tot de livestream-interactie, zoals:
 - Chat: hiermee kunnen deelnemers tijdens de livestream met elkaar en de host chatten.
@@ -159,7 +159,7 @@ De knoppen rechtsonder bevatten functies met betrekking tot de livestream-intera
 
 Free2z Live is op zichzelf al een geweldige tool, maar de plug-ins brengen de livestream naar een heel ander niveau.
 
-![Plugins](assets/free2z-live-plugins.png)
+![Plugins](/content-images/free2z-live-plugins-52c1c94394.webp)
 
 Het is niet de bedoeling van deze wiki-doc om alle plug-ins uit te leggen, maar ik moedig je echt aan om ze allemaal uit te proberen, omdat ze allemaal een grote interactiewaarde bieden tussen makers en kijkers. Om een ​​plug-in te starten, klikt u eenvoudig op de 'raket'-knop aan de rechterkant.
 

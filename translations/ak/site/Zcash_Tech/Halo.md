@@ -47,13 +47,13 @@ Wɔ [Halo krataa no mu](https://eprint.iacr.org/2019/1021.pdf), yɛkyerɛkyerɛ�
 Halo 2, yɛ zk-SNARK dwumadie a ɛyɛ adwuma yie a wɔatwerɛ wɔ Rust mu a ɛyi hia a ɛhia sɛ wɔnya nhyehyɛɛ a wɔgye di berɛ a ɛresiesie stage ama scalability wɔ Zcash mu. 
 
 <a href="">
-    <img src="https://electriccoin.co/wp-content/uploads/2020/09/Halo-puzzle-03-1024x517.jpg" alt="" width="500" height="300"/>
+    <img src="/content-images/Halo-puzzle-03-1024x517-e034023d10.webp" alt="" width="500" height="300"/>
 </a>
 
 Ɛka yɛn kwan a yɛfa so yɛ adwuma no nyinaa a wɔfrɛ no **accumulation scheme** ho. Saa formalization foforo yi da sɛnea yɛn nested amortization technique no yɛ adwuma ankasa adi; denam adanse a yɛde bɛka ade bi a wɔfrɛ no **accumulator,** a adanse ahorow no susuw accumulator no tebea a atwam no ho no, yebetumi ahwɛ sɛ adanse a atwam no nyinaa teɛ (ɛnam induction so) denam mprempren tebea a accumulator no wom a yɛbɛhwɛ ara kwa so.
 
 <a href="">
-    <img src="https://i.imgur.com/l4HrYgE.png" alt="" width="500" height="300"/>
+    <img src="/content-images/l4HrYgE-1ea7bc32f7.webp" alt="" width="500" height="300"/>
 </a>
 
 

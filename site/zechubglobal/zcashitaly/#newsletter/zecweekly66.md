@@ -1,6 +1,6 @@
 # ZecWeekly #66
 
-![ZecWeekly #66](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffe467423-a4c6-4add-9379-6bcbd88f9e78_1024x576.gif)
+![ZecWeekly #66](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-70fa49994f.webp)
 
 Settimo anniversario di Zcash! Aggiornamento dei portafogli Nighthawk, Edge e Unstoppable e rilascio di Zebra v1.3.0
 
@@ -109,7 +109,7 @@ https://www.youtube.com/watch?v=HRVNpDDoh1Y
 
 ## Zeme della settimana
 
-![Image](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b4b2fff-895c-4d0c-9bd5-6a75c7638c6a_768x768.png)
+![Image](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-d0ad64ffad.webp)
 
 <https://twitter.com/pedamerico/status/1718304279226700076>
 

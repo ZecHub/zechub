@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="编辑页面"/>
 </a>
 <a href="">
-    <img src="https://i.ibb.co/0VfMFB5/image-2023-11-18-160742427.png" alt="" width="800" height="500"/>
+    <img src="/content-images/image-2023-11-18-160742427-658dda69c0.webp" alt="" width="800" height="500"/>
 </a>
 
 # Zcash 屏蔽资产
@@ -23,7 +23,7 @@ ZSA 由 [QEDIT](https://qed-it.com/) 在 [Zcash Foundation](https://wiki.zechub.
 ### Zebra 上的 ZSA 演示
 
 
-[![视频缩略图](https://i.ytimg.com/vi/1MZMGC9ViyA/hqdefault.jpg?)](https://youtu.be/1MZMGC9ViyA)
+[![视频缩略图](/content-images/hqdefault-3ae84de424.webp)](https://youtu.be/1MZMGC9ViyA)
 
 
 **亲自运行演示！** 

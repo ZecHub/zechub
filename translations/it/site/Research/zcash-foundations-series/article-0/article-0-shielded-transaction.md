@@ -1,7 +1,7 @@
 # Come funziona davvero una transazione schermata di Zcash
 ##### Ricerca originale di [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt text](image.png)
+![alt text](/content-images/image-fedc371488.webp)
 
 ### L'intuizione prima della matematica: una spiegazione dei pagamenti privati senza formule
 
@@ -46,7 +46,7 @@ Il denaro può persino attraversare il confine tra i due: spostare i fondi *dent
 
 Il mondo trasparente è "il Bitcoin che già più o meno comprendi". È il **mondo schermato** a contenere tutta la bella crittografia, ed è l'unico mondo di cui questa serie si occupa.
 
-![alt text](image-1.png)
+![alt text](/content-images/image-1-f821d24c6f.webp)
 
 ---
 
@@ -124,7 +124,7 @@ Il miracolo è che la prova non rivela **nessuno** di questi fatti. Non l'import
 
 Una nota *nasce*, *vive* sulla bacheca e alla fine *muore*, e fondamentalmente la sua nascita e la sua morte sembrano scorrelate per chiunque la osservi.
 
-![alt text](image-2.png)
+![alt text](/content-images/image-2-0eca0ea4f7.webp)
 
 ---
 
@@ -132,7 +132,7 @@ Una nota *nasce*, *vive* sulla bacheca e alla fine *muore*, e fondamentalmente l
 
 Osserviamo Alice che paga Bob, con ogni passaggio pubblico e privato etichettato.
 
-![alt text](image-4.png)
+![alt text](/content-images/image-4-7af0dfe795.webp)
 
 Nota l'asimmetria che fa funzionare la privacy:
 
@@ -187,7 +187,7 @@ Un buon contenuto educativo si guadagna la fiducia dicendo cosa ha tralasciato. 
 
 Ogni "ci torneremo sopra" qui sopra è un filo. Ecco dove ciascuno viene annodato:
 
-![alt text](image-29.png)
+![alt text](/content-images/image-29-27ef4636ff.webp)
 
 | Filo lasciato in sospeso da questo articolo | Dove viene risolto |
 |---|---|

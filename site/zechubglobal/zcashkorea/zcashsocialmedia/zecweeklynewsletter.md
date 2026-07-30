@@ -1,6 +1,6 @@
 # ZEC 주간 뉴스레터
 
-![zecweekly_card](https://user-images.githubusercontent.com/81990132/231334012-4277aa16-9600-43b9-85ba-89d7d3b29f11.png)
+![zecweekly_card](/content-images/231334012-4277aa16-9600-43b9-85ba-89d7d3-2cca83cd5e.webp)
 
 ZecWeekly는 매주 일요일에 발행되는 뉴스레터입니다. 여기에는 Zcash 생태계에서 한 주 동안 발생한 모든 뉴스가 포함됩니다.
 

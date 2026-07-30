@@ -40,7 +40,7 @@ En primer lugar, n participantes ejecutan un *protocolo de generación de claves
 
 Después, cualquier grupo de t participantes de un total de n, pueden ejecutar un *protocolo de firma de umbral* para generar colaborativamente una firma Schnorr válida.
 
-![Threshold sign](https://static.cryptohopper.com/images/news/uploads/1634081807-frost-flexible-round-optimized-schnorr-threshold-signatures-1.jpg "thresholdsign")
+![Threshold sign](/content-images/1634081807-frost-flexible-round-optimize-3697a713d9.webp "thresholdsign")
 
 
 **Generación de claves distribuidas (DKG)**
@@ -57,7 +57,7 @@ Esta fase se basa en técnicas conocidas que emplean compartición de secretos a
 
 Preprocesamiento: En la etapa de preprocesamiento, cada participante prepara un número fijo de pares de puntos de curva elíptica (EC) para su posterior uso, que se ejecuta una sola vez para varias fases de firma de umbral.
 
-![Preprocessing](https://i.ibb.co/nQD1c3n/preprocess.png "preprocess stage")
+![Preprocessing](/content-images/preprocess-5cbb14f892.webp "preprocess stage")
 
 Firma de la Ronda 1: Cada participante Pᵢ comienza generando un único par de noce privado (dᵢ, eᵢ) y el par correspondiente de puntos de EC (Dᵢ, Eᵢ) y transmite este par de puntos a todos los demás participantes. Cada participante almacena estos pares de puntos de EC recibidos para su uso posterior. Las rondas de firma 2 y 3 son las operaciones reales en las que t de n participantes cooperan para crear una firma Schnorr válida.
 
@@ -65,7 +65,7 @@ Firma de la Ronda 2: Para crear una firma Schnorr válida, cualquier t de los pa
 
 Este paso evita el ataque de falsificación porque los atacantes no pueden combinar partes de firma en distintas operaciones de firma o permutar el conjunto de firmantes o puntos publicados para cada firmante.
 
-![Signing protocol](https://i.ibb.co/b5rJbXx/sign.png "signing protocol")
+![Signing protocol](/content-images/sign-402794d36a.webp "signing protocol")
 
 Habiendo calculado el desafío c, cada participante es capaz de calcular la respuesta zᵢ al desafío utilizando los nonce de un solo uso y las partes secretas a largo plazo, que son partes secretas de Shamir t-de-n (grado t-1) de la clave de larga duración del grupo. Al final de la segunda ronda de firma, cada participante transmite zᵢ a los demás participantes.
 

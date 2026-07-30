@@ -1,6 +1,6 @@
 # ZecWeekly #41
 
-![ZecWeekly #41](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1fb0b6dc-dc37-4432-84a7-9ee00c5a554b_1280x720.png)
+![ZecWeekly #41](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-3e231a8e83.webp)
 
 ---
 

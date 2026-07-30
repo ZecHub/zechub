@@ -5,7 +5,7 @@
 Uno interessante oggi!  
 Il protocollo **CryptoNote** abilita una forte privacy on-chain. Oggi impariamo tutte le sue caratteristiche chiave e come è stato implementato da diversi progetti di privacy degni di nota.
 
-![CryptoNote intro](https://pbs.twimg.com/media/FrXr5P8WIAAvx36.jpg)
+![CryptoNote intro](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
 
 ---
 
@@ -35,7 +35,7 @@ Quando invii una transazione, la tua vera chiave pubblica viene mescolata con di
 
 La **dimensione del ring** influisce significativamente sull'anonymity set. Ring più grandi forniscono una privacy migliore.
 
-![Ring Signatures explanation](https://pbs.twimg.com/media/FrXteGHXgAANE0F.png)
+![Ring Signatures explanation](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
 
 **Confronto con Zcash**:  
 L'anonymity set di Zcash è il numero totale di transazioni *mai* effettuate in un determinato pool schermato (molto più grande delle tipiche dimensioni dei ring di CryptoNote).
@@ -48,7 +48,7 @@ Il modello **Ring CT** ha migliorato notevolmente la privacy nelle monete basate
 
 Invece di nascondere solo il mittente, Ring CT **offusca anche gli importi delle transazioni** tra mittente e destinatario.
 
-![Ring CT diagram](https://pbs.twimg.com/media/FrXuivgWYAAze7B.png)
+![Ring CT diagram](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
 
 Utilizza:
 - Elliptic Curve Cryptography
@@ -59,7 +59,7 @@ Le **prove** vengono usate per dimostrare che l'importo è maggiore di 0 ed entr
 
 Gli **Stealth Address** aggiungono inoltre indirizzi monouso per il destinatario.
 
-![Stealth Addresses + Proofs](https://pbs.twimg.com/media/FrXut5aWAAMhuRb.jpg)
+![Stealth Addresses + Proofs](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
 
 ---
 
@@ -74,7 +74,7 @@ Utilizza l'algoritmo **CryptoNight** (una funzione memory-hard). A differenza de
 2. Esegue numerose operazioni di lettura/scrittura sullo scratchpad
 3. Esegue l'hash dell'intero scratchpad per produrre il valore finale
 
-![CryptoNight mining](https://pbs.twimg.com/media/FrXvNs3XsAA37LG.jpg)
+![CryptoNight mining](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
 
 (Nota: da allora Monero si è allontanato da CryptoNight verso altri algoritmi.)
 
@@ -86,7 +86,7 @@ Invece di eventi di halving improvvisi (come Bitcoin), CryptoNote usa una **rico
 
 Questo crea una curva di emissione molto più graduale nel tempo.
 
-![Dynamic emission curve](https://pbs.twimg.com/media/FrXv8wpXoAEjUxW.png)
+![Dynamic emission curve](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
 
 **Connessione con Zcash**:  
 Gli sviluppatori di Zcash hanno discusso l'implementazione di una curva di emissione più graduale in futuro, potenzialmente attraverso un "Zcash Posterity Fund".

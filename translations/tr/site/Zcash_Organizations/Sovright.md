@@ -1,5 +1,5 @@
 # Sovright
-![Sovright](https://i.ibb.co/vvZNvNDT/sovright.png)
+![Sovright](/content-images/sovright-16a27c0d24.webp)
 
 **Sovright**, insan özerkliğini desteklemeye adanmış, ABD merkezli bir 501(c3) kâr amacı gütmeyen kuruluştur. Zcash altyapısı, madencilik, protokol geliştirme ve ekosistem desteğine odaklanarak başlayan proje, özel dijital para altyapısını güçlendirmeyi ve Zcash ağının uzun vadeli dayanıklılığını desteklemeyi amaçlayan araçlar ve hizmetler geliştirir.
 

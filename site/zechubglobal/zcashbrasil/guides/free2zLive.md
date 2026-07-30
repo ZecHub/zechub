@@ -9,16 +9,16 @@ Escolha um nome de usuário e senha.
 Conecte sua conta do Twitter.
 Para criar sua conta, visite https://free2z.cash/ e clique no botão "CREATE".
 
-![Free2z Landing Page](assets/landing-page.png)
+![Free2z Landing Page](/content-images/landing-page-422ace8405.webp)
 
 O formulário de login/criação de conta irá aparecer no seu navegador. Escolha seu nome de usuário e uma senha, esses serão seus dados de login.
 Resolva o Captcha e clique no botão "Enter" para finalizar a criação da sua conta.
 
-![Login / Create account form](assets/login-or-create-account.png)
+![Login / Create account form](/content-images/login-or-create-account-2bc58d8825.webp)
 
 Outra maneira de criar sua conta é conectando-a à sua conta do Twitter. Basta clicar no logo do Twitter ao lado do texto "Login with". Você será solicitado a conectar sua conta.
 
-![Connect twitter](assets/connect-twitter.png)
+![Connect twitter](/content-images/connect-twitter-79210bb582.webp)
 
 Clique em "Authorize app" para conectar sua conta ao Free2z.
 
@@ -26,29 +26,29 @@ Clique em "Authorize app" para conectar sua conta ao Free2z.
 Após ter criado sua conta, você será redirecionado para a sua página de perfil.
 Se você criou sua conta conectando-a ao seu Twitter, algumas informações já estarão preenchidas. Caso contrário, você precisará preencher alguns dados. Se preferir, use um pseudônimo em vez do seu nome real.
 
-![Deafult free2z header](assets/default-header.png)
+![Deafult free2z header](/content-images/default-header-984c5d2f19.webp)
 
 O perfil está bem básico no momento, então vamos personalizá-lo, configurando um avatar e um banner. A interface da Free2z é intuitiva e esse processo é bem simples: basta utilizar a ferramenta de upload de imagem.
 
-![Upload avatar and banner](assets/avatar-and-banner.png)
+![Upload avatar and banner](/content-images/avatar-and-banner-81130a04a7.webp)
 
 Você pode ver o resultado no topo da página.
 
-![Cool header](assets/cool-hheader.png)
+![Cool header](/content-images/cool-hheader-5b2f4a6143.webp)
 
 Ah, bem melhor! Se você possuir algum talento artístico, você pode deixar seu perfil bem bonito!
 
 Escreva uma breve descrição sobre a sua página. Você pode escrever sobre si mesmo ou descrever qual tipo de conteúdo as pessoas podem esperar de você. Dica: utilize a sintaxe Markdown para personalizar esse campo!
 
-![Talk about yourself](assets/edit-description.png)
+![Talk about yourself](/content-images/edit-description-2828831c4d.webp)
 
 Não se esqueça de fornecer o seu endereço Zcash blindado, assim os apoiadores poderão enviar doações para você!
 
-![Provide your shielded address](assets/p2p-address.png)
+![Provide your shielded address](/content-images/p2p-address-48a4329d26.webp)
 
 O último passo é configurar um "Valor de Membro". Esse é o valor que outros usuários deverão pagar para se inscrever na sua página. Esse valor é denominado em 2Zs (Tuzies). Aprenda mais sobre 2Zs mais adiante.
 
-![Member subscription price](assets/member-price.png)
+![Member subscription price](/content-images/member-price-6499566d60.webp)
 
 Por fim, clique no botão "Update Profile" para finalizar a configuração da sua página!
 
@@ -63,34 +63,34 @@ O Free2z permite que os usuários sigam seus criadores preferidos através de in
 
 Você pode ver seu saldo de 2Zs no cabeçalho do seu perfil.
 
-![Your 2sz balance](assets/tuzis-balance.png)
+![Your 2sz balance](/content-images/tuzis-balance-147aa2f0ea.webp)
 
 Você pode comprar 2Zs utilizando Zcash, basta clicar no seu ícone do seu saldo. O valor mínimo para compra é de 0.05 ZEC e a conversão atual é de 0.05 ZEC por 10 2Zs.
 
-![Buy 2sz](assets/buy-tuzies.png)
+![Buy 2sz](/content-images/buy-tuzies-307324b853.webp)
 
 ## Doações e inscrições
 Quando você encontrar um criador que te agrade, você pode demonstrar sua apreciação enviando doações ou se inscrevendo em sua página. As doações vão direto para a carteira do criador!
 
 Como um exemplo, vamos nos inscrever na [página da pŕopria Free2z](https://free2z.cash/free2z)
 
-![Free2z page](assets/free2z-page.png)
+![Free2z page](/content-images/free2z-page-66e4fb45dd.webp)
 
 Para se inscrever em uma página, basta clicar no ícone de inscrição no cabeçalho da pagina.
 
-![Subscribe to creator](assets/subscribe-to-creator.png)
+![Subscribe to creator](/content-images/subscribe-to-creator-095f96ed1e.webp)
 
 Você verá o valor mínimo para inscrição. Verifique se você tem 2Zs suficientes e clique em "Subscribe".
 
-![Confirm subscription](assets/confirm-subscribe.png)
+![Confirm subscription](/content-images/confirm-subscribe-1b7805a5d8.webp)
 
 ### Doe 2Zs ou Zcash.
 Você pode doar diretamente pelo perfil do criador, clicando no botão "Fund Creator".
-![Fund creator](assets/fund-creator.png)
+![Fund creator](/content-images/fund-creator-919af58216.webp)
 
 Ou então dentro de uma publicação. Procure pelo botão com o sinal de "mais". Aqui você pode doar para o criador, ou promover a publicação dentro da plataforma.
 
-![Support creator](assets/post-floating-buttons.png)
+![Support creator](/content-images/post-floating-buttons-b42471193f.webp)
 
 ## Free2z Live
 A plataforma Free2z nos fornece uma ferramenta incrível chamada Free2z Live. Com essa ferramenta, os criadores podem iniciar uma live stream para os membros incritos em sua página. 
@@ -117,19 +117,19 @@ A Free2z Live é uma ferramenta poderosa, permitindo que criadores transmitam qu
 2. O criador **deve** ter um saldo de pelo menos 150 2Zs.
 Se o criador preencher **ambos** requisitos, um ícone chamado "Go Live" aparecerá em sua página de perfil.
 
-![Go live](assets/go-live.png)
+![Go live](/content-images/go-live-f4b673ce44.webp)
 
 Para iniciar uma live stream, clique no ícone "Go Live". Em seguida, o seu navegador irá pedir permissão para acessar o seu microfone e webcam (caso você tenha uma). Após conceder as permissões, a Free2z irá solicitar que você insira um apelido para usar durante a live. Escolha um apelido e clique no botão "Join" para iniciar a transmissão ao vivo.
 
-![Select nickname](assets/select-nickname.png)
+![Select nickname](/content-images/select-nickname-d3d7ff806a.webp)
 
 Prontinho! Quando a live stream iniciar, sua página de perfil irá mostrar um ícone indicando que você está ao vivo, para que seus inscritos possam se juntar e participar.
 
-![Joining a livestream](assets/join-livestream.png)
+![Joining a livestream](/content-images/join-livestream-cd697a306c.webp)
 
 Os usuários que entrarem na sua live stream poderão conversar no chat, pedir para subir no palco, interagir votando em enquetes e muito mais.
 
-![Example of a Free2z Live](assets/free2z-live-example.png)
+![Example of a Free2z Live](/content-images/free2z-live-example-a6733b5fe4.webp)
 _(Exemplo de uma Live Stream)_
 
 A Free2z Live é uma ferramenta versátil e poderosa. Na próxima seção deste tutorial, darei uma introdução às principais funcionalidades e ferramentas.
@@ -139,13 +139,13 @@ Não entrarei em muitos detalhes de cada ferramenta, pois este tutorial tem o in
 
 No canto inferior esquerdo da tela, podemos ver alguns botões.
 
-![Bottom left buttons](assets/free2z-live-left.png)
+![Bottom left buttons](/content-images/free2z-live-left-06fc54b94a.webp)
 
 Uma funcionalidade bem legal aqui, é a habilidade de você compartilhar sua tela, assim os outros usuários podem ver o que você está fazendo.
 
 Bem em baixo, podemos ver as opções da live stream.
 
-![Bottom buttons](assets/free2z-live-bottom.png)
+![Bottom buttons](/content-images/free2z-live-bottom-a9f0e2089e.webp)
 
 As opções mais importantes aqui são:
 - Mutar / desmutar o microfone
@@ -155,7 +155,7 @@ As opções mais importantes aqui são:
 - Sair da Live Stream - para finalizar uma live steram para todos os participantes, clique no botão "Leave" e depois em "End meeting for all"
 
 
-![Bottom right buttons](assets/free2z-live-right.png)
+![Bottom right buttons](/content-images/free2z-live-right-d17fdc98f1.webp)
 
 
 Os botões no canto inferior direito contém funcionalidades relacionadas a interção com a live stream, tais como:
@@ -167,7 +167,7 @@ Os botões no canto inferior direito contém funcionalidades relacionadas a inte
 
 A Free2z Live já é uma ferramente excelente, porém com o uso de plugins a experiência tanto do host quanto dos usuários pode ser ainda melhor!
 
-![Plugins](assets/free2z-live-plugins.png)
+![Plugins](/content-images/free2z-live-plugins-41e22c88db.webp)
 
 Esse tutorial não tem o propósito de explicar cada plugin em datalhes, porém eu aconselho você testar todos eles, pois cada um adiciona uma camada de interatividade na sua live stream. Para habilitar um plugin, basta clicar no botão com a imagem de um foguete.
 

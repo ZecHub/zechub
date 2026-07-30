@@ -98,7 +98,7 @@ Puoi approfondire CoinJoin tramite il seguente link tutorial creato da ZecHub Ze
 
 ## Zeme della settimana
 
-![zeeme](https://pbs.twimg.com/media/FtoBj0iXwAEmZ7_?format=jpg)
+![zeeme](/content-images/FtoBj0iXwAEmZ7_-d1dbfcee56.webp)
 
 [https://twitter.com/mbbevilacqua/status/1646630330563010561?t=lhqJQGS6FxrKuLOvdpnK-w&s=19](https://twitter.com/mbbevilacqua/status/1646630330563010561?t=lhqJQGS6FxrKuLOvdpnK-w&s=19) 
 

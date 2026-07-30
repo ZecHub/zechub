@@ -1,6 +1,6 @@
 # ZecWeekly #68
 
-![ZecWeekly #68](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb581cb1f-32e2-4e1a-bd76-dd3f051d3aee_768x432.gif)
+![ZecWeekly #68](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-d1419fdf9d.webp)
 
 Michelle Lai si unisce a Bootstrap, alla ricerca sugli utenti di Zcash e all'autocampionamento del portafoglio Edge + UA's Live!
 
@@ -98,7 +98,7 @@ https://www.youtube.com/watch?v=0skM-RziBv8
 
 ## Zeme della settimana
 
-![Image](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F35cdc6e3-7e48-4850-b1ed-66aa983267b2_1019x998.jpeg)
+![Image](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-591a7f0778.webp)
 
 <https://twitter.com/FutureLuckyGuy/status/1723652196443570295>
 

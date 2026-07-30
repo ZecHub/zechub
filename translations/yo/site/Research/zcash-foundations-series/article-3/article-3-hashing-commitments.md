@@ -1,7 +1,7 @@
 # Ṣíṣàmúlò àti Ìpinnu: Àpótí tí a fi Òǹtẹ́lẹ̀ dì
 ##### Ìwádìí Àkọ́kọ́ láti [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![ì í ì °ë¦¬í ë ¤]](image-15.png)
+![ì í ì °ë¦¬í ë ¤]](/content-images/image-15-0c16784b27.webp)
 
 ### Bó o ṣe lè pa àṣírí rẹ mọ́ láwùjọ láì parọ́ nípa rẹ̀
 
@@ -30,7 +30,7 @@ This "lock now, reveal later, no lying" gadget is called a **commitment**, and i
 
 A **hash iṣẹ** gba eyikeyi data ni gbogbo, kan nikan lẹta tabi kan gbogbo ile-ikawe, ati ki o pa o si isalẹ si kan kukuru, titilai- iwọn okun ti a npe ni a **digest** tabi **hashi**. ro ti o bi a **itẹ ika fun data.**
 
-![ì í ì °ë¦¬í ë ¤]](image-16.png)
+![ì í ì °ë¦¬í ë ¤]](/content-images/image-16-52fdf62c87.webp)
 
 Ẹ̀rí ìka tí ó dára ní àwọn ohun-ìní mẹ́rin.
 
@@ -69,7 +69,7 @@ Lára 64 hex dígítì, **59 yàtọ̀.** Àkọlé kan wọlé, àmì ìka tí 
 
 Bákan náà ni báyìí `v` ó máa ń mú kí àdéhùn náà yàtọ̀ síra ní gbogbo ìgbà, nítorí pé `r` Awọn ohun-ini meji ti a fẹ nikẹhin mejeeji mu:
 
-![ì í ì °ë¦¬í ë ¤]](image-17.png)
+![ì í ì °ë¦¬í ë ¤]](/content-images/image-17-3ec4617665.webp)
 
 Láti **ṣí** (fi hàn) àdéhùn náà nígbà tó bá yá, o máa ń tẹ `v` àti `r`; ẹnikẹ́ni tó bá ṣe àtúnṣirò `H(v, r)` èyí ni àpò ìwé tí wọ́n fi òǹtẹ̀ dì láti inú Àpilẹ̀kọ Kẹwàá, tí a ṣe bí ẹni pé ó wà lóòótọ́.
 
@@ -100,7 +100,7 @@ SHA-256 is a superb fingerprint for everyday computing. But Zcash doesn't just *
 
 Nítorí náà, àwọn onímọ̀ ìjìnlẹ̀ tí wọ́n ń kọ Zcash ṣe àdàkọ àwọn iṣẹ́ hash tí àwọn èròjà inú rẹ̀ jẹ́ ìṣirò pápá, èyí tí ó jẹ́ kí wọn má náwó láti fi hàn pé:
 
-![ì í ì °ë¦¬í ë ¤]](image-18.png)
+![ì í ì °ë¦¬í ë ¤]](/content-images/image-18-89ade807ad.webp)
 
 Ìfúnnilókun ẹ̀rọ yìí nìkan, * "ó gbọ́dọ̀ jẹ́ òwò díẹ̀ láti fi hàn",* ni ìdí tí Zcash fi ṣe àdàkọ àti gbígba àwọn iṣẹ́ hash àkànṣe dípò wíwá SHA-256 níbi gbogbo.
 

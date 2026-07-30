@@ -41,7 +41,7 @@ MetaMask тепер підтримує **захищений Zcash (ZEC)** чер
       Зберігання даних на вашому пристрої
    ```
 
-![Zcash-snap-install](https://hackmd.io/_uploads/Hy5MSG2Oex.png)
+![Zcash-snap-install](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
 
 
 ---
@@ -59,7 +59,7 @@ MetaMask тепер підтримує **захищений Zcash (ZEC)** чер
 -  Block Explorer URL: https://bscscan.com
 ```
 Це ввімкне інформацію про мережу та посилання на оглядач.
-![Add-a-custom-Net....](https://hackmd.io/_uploads/S1hq7f2Oel.png)
+![Add-a-custom-Net....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
 
 Для **Zcash Mainnet**;
 ```markdown
@@ -75,13 +75,13 @@ MetaMask тепер підтримує **захищений Zcash (ZEC)** чер
 1. Відвідайте [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev).  
 2. Натисніть **Connect MetaMask Snap**.  
 
-![Zcash-web-wallet](https://hackmd.io/_uploads/Sk8nSz3dgl.png)
+![Zcash-web-wallet](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
 
 3. Підтвердьте підключення.  
 4. Перегляньте зведення вашого облікового запису Zcash, зокрема:
    - Unified Address і Transparent address
 
-![Account-summary-unif....](https://hackmd.io/_uploads/r17c_Mhdel.jpg)
+![Account-summary-unif....](/content-images/r17c_Mhdel-f4963826d5.webp)
 
 
 5. Дочекайтеся завершення синхронізації.
@@ -96,7 +96,7 @@ MetaMask тепер підтримує **захищений Zcash (ZEC)** чер
 > **Обмін ETH -> ZEC** - скористайтеся сервісами на кшталт **LeoDex** і надішліть кошти на свою захищену адресу.  
 > **Виведення з біржі** - виведіть придбані ZEC на свою захищену адресу WebZjs.  
 
-![LEODEX-SWAP](https://hackmd.io/_uploads/HyLQ0G2ugg.png)
+![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => Використовуйте захищені (z) адреси для **повної приватності**.
@@ -111,7 +111,7 @@ MetaMask тепер підтримує **захищений Zcash (ZEC)** чер
    - Захищену адресу одержувача  
    - Суму
 ```
-   ![Transfer-Balance](https://hackmd.io/_uploads/rkvcFfhdex.png)
+   ![Transfer-Balance](/content-images/rkvcFfhdex-bd55d079eb.webp)
 
 4. Підтвердьте транзакцію в MetaMask (підпишіть транзакцію).  
 5. Отримані кошти з’являться у WebZjs після підтвердження.
@@ -145,7 +145,7 @@ MetaMask тепер підтримує **захищений Zcash (ZEC)** чер
    Transparent Address
 ``` 
 
-![Address-components](https://hackmd.io/_uploads/SyPR2f2_gg.png)
+![Address-components](/content-images/SyPR2f2_gg-3907c5bf58.webp)
 
 
 

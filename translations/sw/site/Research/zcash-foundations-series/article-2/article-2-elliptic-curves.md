@@ -1,7 +1,7 @@
 # Elliptic Curves: Ambapo Zcash ya funguo na ahadi ni kuzaliwa
 ##### Utafiti wa awali kutoka [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [ alt maandishi](image-10.png)
+! [ alt maandishi](/content-images/image-10-c1097b22d7.webp)
 
 ### Barabara yenye mwendo mmoja iliyojengwa kutoka kwa sehemu zilizo kwenye mviringo
 
@@ -38,7 +38,7 @@ y^2 = x^3 + ax + b
 
 Juu ya nambari za kawaida inaonekana kama mviringo laini, unaoanguka, mara nyingi na kitanzi kilichokunjwa na mikia miwili:
 
-! [ alt maandishi](image-14.png)
+! [ alt maandishi](/content-images/image-14-1d2e8c25d2.webp)
 
 The genuinely surprising part: **you can "add" two points on this curve to get a third point on the same curve.** This isn't ordinary addition of coordinates. It's a geometric rule, and it's easier to *see* than to say.
 
@@ -50,7 +50,7 @@ Kuongeza `P + Q`:
 2. Mstari huo hits curve katika hasa sehemu moja zaidi. `R*`.
 3. **Kutafakari `R*` katika mhimili wa usawa.** kwamba reflection ni jibu, `P + Q`.
 
-! [ alt maandishi](image-11.png)
+! [ alt maandishi](/content-images/image-11-61f3df1989.webp)
 
 ### Kanuni ya tangent (kuongeza uhakika kwa yenyewe)
 
@@ -117,7 +117,7 @@ Mwongozo Swali Ugumu
 
 Kwamba asymmetry ni ** moja ya njia ya barabara ** sisi zinahitajika katika Sehemu 1. nyuma tatizo ("ambayo `k` alitengeneza hatua hii?") inaitwa ** Elliptic Curve Discrete Logarithm Problem (ECDLP) **, na kwenye curves Zcash hutumia, hakuna njia inayojulikana inayotatua kabla ya kifo cha joto cha ulimwengu.
 
-! [ alt maandishi](image-12.png)
+! [ alt maandishi](/content-images/image-12-86b9ace6cb.webp)
 
 > Katika toy yetu `F_17` curve wewe *could* tu kusoma `k` mbali meza, kwa sababu ina pointi 19 tu. curves halisi kuwa karibu `2^(255)` Meza itakuwa na safu zaidi kuliko kuna atomu katika ulimwengu, hivyo "kusoma ni mbali" si chaguo. ndogo ni nini hufanya toy curve kufundishwa na pia kwa nini si salama.
 
@@ -160,7 +160,7 @@ Zcash design. Curves it uses. Role.
 
 The reasons one curve gets "embedded" inside another's field, and why a *cycle* of two curves is useful, are real and important, but they belong to the proof-system articles. For now the takeaway is solid: **every Zcash key is a scalar times a generator, and every Zcash commitment is a sum of curve points**, living on one of these named curves.
 
-! [ alt maandishi](image-13.png)
+! [ alt maandishi](/content-images/image-13-ffdd703c60.webp)
 
 ---
 

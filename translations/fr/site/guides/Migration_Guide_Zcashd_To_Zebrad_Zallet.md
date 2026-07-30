@@ -6,7 +6,7 @@ L'écosystème Zcash évolue. Le nœud complet Zcashd traditionnel, maintenu par
 - Zallet est un portefeuille léger conçu pour s'interfacer de manière fluide avec les nœuds Zebra développés par Zodl
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ChatGPTImageOct12202508_15_20A](https://hackmd.io/_uploads/SJNBsSYTel.jpg)
+![ChatGPTImageOct12202508_15_20A](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
 Ce guide vous accompagne dans la migration de **Zcashd** vers **Zebrad** et **Zallet**, y compris l'installation, l'importation du portefeuille et la résolution des problèmes courants liés à la migration.
@@ -37,7 +37,7 @@ Même en laissant de côté l'obsolescence, il existe des raisons convaincantes 
 * Sauvegardez votre wallet.dat (ou tout autre fichier de portefeuille / magasin de clés) depuis votre nœud zcashd.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (1)](https://hackmd.io/_uploads/SJ_0mUtTxg.svg)
+![bash (1)](/content-images/SJ_0mUtTxg-1441185a72.svg)
 </div>
 
 * Enregistrez votre zcash.conf et tous les paramètres personnalisés.
@@ -63,7 +63,7 @@ Vous pouvez soit télécharger un binaire précompilé, soit compiler depuis les
 Sur **Linux**/**macOS** :
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (2)](https://hackmd.io/_uploads/HJhYu8Y6el.svg)
+![bash (2)](/content-images/HJhYu8Y6el-d2198f22c9.svg)
 </div>
 
 Cela installe la dernière version stable de zebrad.
@@ -71,20 +71,20 @@ Cela installe la dernière version stable de zebrad.
 **Option B : compiler depuis les sources**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (3)](https://hackmd.io/_uploads/Syg8FUK6eg.svg)
+![bash (3)](/content-images/Syg8FUK6eg-b4557e52e0.svg)
 </div>
 
 Après la compilation, déplacez le binaire dans votre chemin :
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![migration 11](https://hackmd.io/_uploads/BJ0zjLY6ll.png)
+![migration 11](/content-images/BJ0zjLY6ll-f77354d701.webp)
 </div>
 
 **4. Configuration et lancement**  
 Générez une configuration par défaut :
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![migration2](https://hackmd.io/_uploads/HJV1C8tTxx.png)
+![migration2](/content-images/HJV1C8tTxx-5823395651.webp)
 </div>
 
 Modifiez **zebrad.toml** selon vos préférences (adresse d'écoute, ports, répertoire d'état, cache).
@@ -92,7 +92,7 @@ Modifiez **zebrad.toml** selon vos préférences (adresse d'écoute, ports, rép
 **Démarrer le nœud :**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/H1KPkvt6gl.png)
+![image](/content-images/H1KPkvt6gl-864c48ca40.webp)
 </div>
 
 Le nœud commencera à se synchroniser depuis le bloc genesis — prévoyez plusieurs heures (ou plus) selon le matériel et le réseau.
@@ -106,7 +106,7 @@ Consultez la page GitHub / des versions de Zallet pour les binaires.
 **Ou compilez depuis les sources :**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/SyUFxvFTex.png)
+![image](/content-images/SyUFxvFTex-5bb10ee1d3.webp)
 </div>
 
 * Lancez l'interface graphique ou l'interface en ligne de commande (selon ce que fournit votre installation).
@@ -118,7 +118,7 @@ Via export des clés privées
 Sur zcashd, exportez vos clés privées :
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (4)](https://hackmd.io/_uploads/rJzgzwFagx.svg)
+![bash (4)](/content-images/rJzgzwFagx-4a0874f250.svg)
 </div>
 
 * Dans Zallet, choisissez Importer des clés ou une option similaire.
@@ -143,13 +143,13 @@ Lorsque la synchronisation sera terminée, vos soldes et transactions devraient 
 Vous pouvez vérifier l'état de synchronisation de votre nœud en exécutant :
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/SyIyVDY6xl.png)
+![image](/content-images/SyIyVDY6xl-10d6bed7b8.webp)
 </div>
 
 Ou consulter les journaux.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/r1HfVPF6gg.png)
+![image](/content-images/r1HfVPF6gg-b6b76e9907.webp)
 </div>
 
 **8. Résolution des problèmes**

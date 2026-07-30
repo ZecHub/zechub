@@ -5,7 +5,7 @@
 Zero to Zero Knowledge is back with a new topic!  
 This week we explore **Trusted Execution Environments (TEEs)** - how they are used in privacy coins and other blockchain applications.
 
-![Trusted Execution Environments intro](https://pbs.twimg.com/media/Fquj-h2WcAIgSnL.jpg)
+![Trusted Execution Environments intro](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
 
 ---
 
@@ -31,7 +31,7 @@ Every validator node runs Intel SGX chips. The consensus and computation layers 
 
 This is different from Zcash, which uses **zero-knowledge proofs** for privacy. In Zcash, shielded transactions are broadcast and validated publicly with no additional data revealed to the network. Zcash Shielded Assets follow the same principle.
 
-![Secret Network TEE diagram](https://pbs.twimg.com/media/FqulPjNX0AEfjRp.png)
+![Secret Network TEE diagram](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
 
 For a detailed explanation of how TEEs are implemented on Secret Network, read this excellent article by @l_woetzel:  
 https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerability-33ca94b6df38
@@ -55,11 +55,11 @@ It allows a remote party to verify:
 - The application has not been tampered with  
 - It is executing securely inside an Intel SGX enclave
 
-![Remote Attestation explanation](https://pbs.twimg.com/media/FqumRjoWwAAeT-M.png)
+![Remote Attestation explanation](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
 
 Enclaves also contain private signing and attestation keys that cannot be accessed from outside.
 
-![Enclave key protection](https://pbs.twimg.com/media/Fqumv83XoAQq-MO.png)
+![Enclave key protection](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
 
 ---
 
@@ -69,7 +69,7 @@ Since enclaves are stateless, data must sometimes be stored outside in untrusted
 
 **Data Sealing** encrypts data inside the enclave using a key derived from the CPU. The encrypted block can only be unsealed on the **same system**.
 
-![Data Sealing diagram](https://pbs.twimg.com/media/FqunBwyWYAA-TR3.jpg)
+![Data Sealing diagram](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
 
 ---
 
@@ -79,7 +79,7 @@ Since enclaves are stateless, data must sometimes be stored outside in untrusted
 
 Encrypted data enters the TEE along with the smart contract. It is decrypted, processed, and re-encrypted before leaving the enclave.
 
-![Oasis Network TEE flow](https://pbs.twimg.com/media/FqunJRDXwAMt4Ob.png)
+![Oasis Network TEE flow](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
 
 ---
 
@@ -94,7 +94,7 @@ For PoS validators:
 
 **TEEs** are ideal for securely generating and using validator keys.
 
-![Tendermint & PoS security](https://pbs.twimg.com/media/Fqun0HEX0AAooxW.jpg)
+![Tendermint & PoS security](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
 
 ---
 

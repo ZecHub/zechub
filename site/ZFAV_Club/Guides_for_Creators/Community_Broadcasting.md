@@ -29,7 +29,7 @@ The VOD.Ninja interface is simple, just open the VDO.Ninja in your mobile device
 Start by going to [VDO.ninja](http://VDO.ninja) with your web browser on a desktop/laptop.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8ded1b54-602b-4e66-af92-127990eff723/Screenshot_2023-08-23_162222/w=3840,quality=80" alt="" width="300" height="400"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="300" height="400"/>
 </a>
 
 
@@ -38,20 +38,20 @@ To create a new room and direct your own community call livestream, click Create
 The next screen will ask for basic information to setup your room.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ae698696-7b4d-458e-8de0-58a198c36e73/Screenshot_2023-08-23_183900/w=3840,quality=80" alt="" width="400" height="400"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
 </a>
 
 Once a room is created, the director has a lot of control options available on the following screen.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/35b43544-5114-4e74-ac41-9e8993fe62ea/Screenshot_2023-08-23_184015/w=3840,quality=80" alt="" width="400" height="400"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
 </a>
 
 
 When people join your room then you, the director, will see all of the source options and controls appear with their video and audio.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2247f187-b005-478e-9e5e-471cb8f070d3/Screenshot_2023-08-23_194136/w=3840,quality=80" alt="" width="400" height="300"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="300"/>
 </a>
 
 

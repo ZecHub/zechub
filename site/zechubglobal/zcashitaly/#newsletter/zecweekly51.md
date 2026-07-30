@@ -1,6 +1,6 @@
 # ZecWeekly #51
 
-![ZecWeekly #51](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdfcfdc84-5917-4b7a-916c-d81d21f55f3b_1280x720.png)
+![ZecWeekly #51](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-ec7e147413.webp)
 
 L'Indonesia lancerà uno exchange di criptovalute a luglio, ECC condivide la proposta di proprietà condivisa delle proprietà digitali di Zcash, Ripple Labs ottiene una vittoria importante nel caso SEC
 
@@ -115,7 +115,7 @@ Non c'è dubbio che Zcashd sia il software principale per gestire un nodo Zcash.
 
 ## Zeme della settimana
 
-![zeme](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe810f687-27d4-4000-b8c8-f6c314c1aa27_1180x2048.jpeg) 
+![zeme](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-cb4cfd23b8.webp) 
 
 ## Lavori nell'ecosistema
 

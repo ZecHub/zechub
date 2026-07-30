@@ -6,7 +6,7 @@ El ecosistema de Zcash está evolucionando. El nodo completo tradicional Zcashd,
 - Zallet es una billetera ligera creada para interactuar sin problemas con nodos Zebra desarrollados por Zodl
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ChatGPTImageOct12202508_15_20A](https://hackmd.io/_uploads/SJNBsSYTel.jpg)
+![ChatGPTImageOct12202508_15_20A](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
 Esta guía te acompaña en la migración de **Zcashd** a **Zebrad** y **Zallet**, incluyendo la configuración, la importación de la billetera y la resolución de problemas comunes de migración.
@@ -37,7 +37,7 @@ Incluso dejando de lado la obsolescencia, hay razones de peso para migrar:
 * Haz una copia de seguridad de tu wallet.dat (o de cualquier otro archivo de billetera / almacén de claves) de tu nodo zcashd.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (1)](https://hackmd.io/_uploads/SJ_0mUtTxg.svg)
+![bash (1)](/content-images/SJ_0mUtTxg-1441185a72.svg)
 </div>
 
 * Guarda tu zcash.conf y cualquier configuración personalizada.
@@ -63,7 +63,7 @@ Puedes descargar un binario precompilado o compilar desde el código fuente.
 En **Linux**/**macOS**:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (2)](https://hackmd.io/_uploads/HJhYu8Y6el.svg)
+![bash (2)](/content-images/HJhYu8Y6el-d2198f22c9.svg)
 </div>
 
 Esto instala la última versión estable de zebrad.
@@ -71,20 +71,20 @@ Esto instala la última versión estable de zebrad.
 **Opción B: compilar desde el código fuente**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (3)](https://hackmd.io/_uploads/Syg8FUK6eg.svg)
+![bash (3)](/content-images/Syg8FUK6eg-b4557e52e0.svg)
 </div>
 
 Después de compilar, mueve el binario a tu path:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![migration 11](https://hackmd.io/_uploads/BJ0zjLY6ll.png)
+![migration 11](/content-images/BJ0zjLY6ll-f77354d701.webp)
 </div>
 
 **4. Configuración e inicio**  
 Genera una configuración predeterminada:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![migration2](https://hackmd.io/_uploads/HJV1C8tTxx.png)
+![migration2](/content-images/HJV1C8tTxx-5823395651.webp)
 </div>
 
 Edita **zebrad.toml** según tus preferencias (dirección de escucha, puertos, directorio de estado, caché).
@@ -92,7 +92,7 @@ Edita **zebrad.toml** según tus preferencias (dirección de escucha, puertos, d
 **Inicia el nodo:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/H1KPkvt6gl.png)
+![image](/content-images/H1KPkvt6gl-864c48ca40.webp)
 </div>
 
 El nodo comenzará a sincronizar desde el génesis; espera varias horas (o más) según el hardware y la red.
@@ -106,7 +106,7 @@ Consulta la página de GitHub / lanzamientos de Zallet para obtener binarios.
 **O compila desde el código fuente:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/SyUFxvFTex.png)
+![image](/content-images/SyUFxvFTex-5bb10ee1d3.webp)
 </div>
 
 * Inicia la GUI o CLI (según lo que proporcione tu instalación).
@@ -118,7 +118,7 @@ Mediante volcado de clave privada
 En zcashd, exporta tus claves privadas:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (4)](https://hackmd.io/_uploads/rJzgzwFagx.svg)
+![bash (4)](/content-images/rJzgzwFagx-4a0874f250.svg)
 </div>
 
 * En Zallet, elige Importar claves o una opción similar.
@@ -143,13 +143,13 @@ Cuando se complete la sincronización, tus saldos y transacciones deberían apar
 Puedes verificar el estado de sincronización de tu nodo ejecutando:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/SyIyVDY6xl.png)
+![image](/content-images/SyIyVDY6xl-10d6bed7b8.webp)
 </div>
 
 O revisar los registros.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/r1HfVPF6gg.png)
+![image](/content-images/r1HfVPF6gg-b6b76e9907.webp)
 </div>
 
 **8. Resolución de problemas**

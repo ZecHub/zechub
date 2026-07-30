@@ -1,6 +1,6 @@
 # ZecWeekly #40
 
-![ZecWeekly #40](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb07acb29-8b2b-4ede-bdc4-c7fdea49eb48_1280x720.png)
+![ZecWeekly #40](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-e06585c9a6.webp)
 
 Marta Belcher testimonia, Gensler a favore di Zcash e una serie di eventi comunitari!
 

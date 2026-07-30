@@ -1,11 +1,11 @@
-# ![raspi](https://user-images.githubusercontent.com/81990132/197372285-1f413bc5-13a0-4671-9c81-760eafdda926.png) Raspberry Pi 4: Guia Para Full Node *ZcashD* 
+# ![raspi](/content-images/197372285-1f413bc5-13a0-4671-9c81-760eaf-f4f8c7276c.webp) Raspberry Pi 4: Guia Para Full Node *ZcashD* 
 
 
 
 
 O objetivo deste guia é ajudar a educar os Zcashers interessados em executar um nó completo em um Raspberry Pi 4 de baixa potência.
 
-![zcashdPI](https://user-images.githubusercontent.com/81990132/197372541-dcd886ab-a3d0-4614-b490-0294ddf3ffae.png)
+![zcashdPI](/content-images/197372541-dcd886ab-a3d0-4614-b490-0294dd-d45b1cd4ba.webp)
 
 
 
@@ -91,7 +91,7 @@ Por exemplo, no linux, você digitaria o seguinte após o download:
 
 
 
-![rpi-imager](https://user-images.githubusercontent.com/81990132/197372069-fb9f7417-d320-42cf-ad65-38d630512985.png)
+![rpi-imager](/content-images/197372069-fb9f7417-d320-42cf-ad65-38d630-7d85096e88.webp)
 
 
 * Escolha OS e dispositivo de armazenamento. Como os Raspberry Pi 4 são de 64 bits, recomendo escolher "Outro sistema operacional de uso geral" = > Ubuntu = > Ubuntu Server 22.10 ( 64 bits ). Clique em Armazenamento e selecione seu cartão SD
@@ -101,7 +101,7 @@ Por exemplo, no linux, você digitaria o seguinte após o download:
 
 
 
-![gear](https://user-images.githubusercontent.com/81990132/197372159-1169c6f4-f6aa-4f44-9679-fe7aa542bbd3.png)
+![gear](/content-images/197372159-1169c6f4-f6aa-4f44-9679-fe7aa5-fe6c968644.webp)
 
 
 
@@ -118,7 +118,7 @@ Por exemplo, no linux, você digitaria o seguinte após o download:
 
  
 
-![advanced](https://user-images.githubusercontent.com/81990132/197372149-8b85bfac-e473-4808-87cd-f27f15d05de8.png)
+![advanced](/content-images/197372149-8b85bfac-e473-4808-87cd-f27f15-269c28f6c3.webp)
 
 
  
@@ -187,7 +187,7 @@ Se você tiver um monitor extra e um teclado, conecte-os agora. **Nota**: estes 
 
 
 
-   ![sshLogin](https://user-images.githubusercontent.com/81990132/197372846-e1279388-eaaa-4fbb-8d5d-f9928cb45195.png)
+   ![sshLogin](/content-images/197372846-e1279388-eaaa-4fbb-8d5d-f9928c-caf89ea305.webp)
 
        
 
@@ -199,7 +199,7 @@ Se você tiver um monitor extra e um teclado, conecte-os agora. **Nota**: estes 
 
      
 
-      ![which](https://user-images.githubusercontent.com/81990132/197689888-367c8eb3-2667-4c8c-85b3-44d46afe07a7.png)
+      ![which](/content-images/197689888-367c8eb3-2667-4c8c-85b3-44d46a-ef72475028.webp)
 
          
 
@@ -347,7 +347,7 @@ Se você tiver um monitor extra e um teclado, conecte-os agora. **Nota**: estes 
 
          
 
-          ![lsblk](https://user-images.githubusercontent.com/81990132/197372643-abef88fd-9177-4bf9-abda-3c221188cd10.png)
+          ![lsblk](/content-images/197372643-abef88fd-9177-4bf9-abda-3c2211-e354e8ff47.webp)
 
 
          
@@ -378,7 +378,7 @@ Se você tiver um monitor extra e um teclado, conecte-os agora. **Nota**: estes 
 
 
 
-![zconf](https://user-images.githubusercontent.com/81990132/197373699-18cc2c9f-b47d-44e9-9e6b-4c5cccf78d9e.png)
+![zconf](/content-images/197373699-18cc2c9f-b47d-44e9-9e6b-4c5ccc-3dac42f3c0.webp)
 
 
  
@@ -442,7 +442,7 @@ Se você tiver um monitor extra e um teclado, conecte-os agora. **Nota**: estes 
 
    
 
-    ![getBlockchaininfo](https://user-images.githubusercontent.com/81990132/197373098-672aa228-d180-47ea-8a7c-c58dc3882426.png)
+    ![getBlockchaininfo](/content-images/197373098-672aa228-d180-47ea-8a7c-c58dc3-bf85ac08fb.webp)
 
 
 
@@ -457,7 +457,7 @@ Se você tiver um monitor extra e um teclado, conecte-os agora. **Nota**: estes 
 
      
 
-     ![status](https://user-images.githubusercontent.com/81990132/197684416-9a083de4-4a62-4fe8-9cab-798781b38cd2.png)
+     ![status](/content-images/197684416-9a083de4-4a62-4fe8-9cab-798781-c1755f3f91.webp)
 
      
 
@@ -468,7 +468,7 @@ Se você tiver um monitor extra e um teclado, conecte-os agora. **Nota**: estes 
 
      
 
-     ![logHeight](https://user-images.githubusercontent.com/81990132/199630447-6a6cd491-0cb3-47f8-95f0-45f6b6555870.png)
+     ![logHeight](/content-images/199630447-6a6cd491-0cb3-47f8-95f0-45f6b6-dc7b671d5a.webp)
 
 
      
@@ -477,7 +477,7 @@ Se você tiver um monitor extra e um teclado, conecte-os agora. **Nota**: estes 
 
      
 
-     ![getinfo](https://user-images.githubusercontent.com/81990132/199646508-132da0eb-899e-49a6-8b31-e9011e159700.png)
+     ![getinfo](/content-images/199646508-132da0eb-899e-49a6-8b31-e9011e-839cbe5c04.webp)
 
 
      
@@ -515,7 +515,7 @@ Se você tiver um monitor extra e um teclado, conecte-os agora. **Nota**: estes 
 
          
 
-        ![asciiGOOD](https://user-images.githubusercontent.com/81990132/199646812-782142d6-8846-443a-8dd9-4f332e49d3e9.png)
+        ![asciiGOOD](/content-images/199646812-782142d6-8846-443a-8dd9-4f332e-a552c26229.webp)
 
 
  
@@ -547,7 +547,7 @@ Se você tiver um monitor extra e um teclado, conecte-os agora. **Nota**: estes 
 
      
 
-    ![newAccount](https://user-images.githubusercontent.com/81990132/202352436-04c17be2-e914-4b9b-95d1-00cf6fc496d3.png)
+    ![newAccount](/content-images/202352436-04c17be2-e914-4b9b-95d1-00cf6f-2d1a6ea572.webp)
     
 
    
@@ -559,7 +559,7 @@ Se você tiver um monitor extra e um teclado, conecte-os agora. **Nota**: estes 
    * Observe que você pode dizer a diferença entre os receptores por quanto tempo eles são
 
 
-     ![caracteres ](https://user-images.githubusercontent.com/81990132/202354319-2da6be33-ca95-4b6b-b29c-14805dcb9c21.png)
+     ![caracteres ](/content-images/202354319-2da6be33-ca95-4b6b-b29c-14805d-f0c8acd281.webp)
 
 
 
@@ -567,27 +567,27 @@ Se você tiver um monitor extra e um teclado, conecte-os agora. **Nota**: estes 
 
      
 
-     ![uaOrchard ]( https://user-images.githubusercontent.com/81990132/202353642-c36b5fea-de8a-41f6-a27c-d9ff42a0c8d3.png)
+     ![uaOrchard ]( /content-images/202353642-c36b5fea-de8a-41f6-a27c-d9ff42-5231dccf56.webp)
 
-     ![OrchQR ]( https://user-images.githubusercontent.com/81990132/202355586-eaeb36e7-b000-4b99-8192-81e5002e6f11.png)
+     ![OrchQR ]( /content-images/202355586-eaeb36e7-b000-4b99-8192-81e500-de15c07940.webp)
 
 
      `zcash-cli z_getaddressforaccount 0 '[ "orchard", "sapling" ] '`
 
      
 
-     ![uaOrchardSapling ]( https://user-images.githubusercontent.com/81990132/202353732-740828e3-77b8-4684-8cf8-fb14256b1e61.png)
+     ![uaOrchardSapling ]( /content-images/202353732-740828e3-77b8-4684-8cf8-fb1425-b1591ddd68.webp)
 
-     ![OrchSapQR ]( https://user-images.githubusercontent.com/81990132/202355596-c7b62854-9a9e-4627-ab5d-51091340de71.png)
+     ![OrchSapQR ]( /content-images/202355596-c7b62854-9a9e-4627-ab5d-510913-e280eee165.webp)
 
 
      `zcash-cli z_getaddressforaccount 0 '[ "orchard", "sapling", "p2pkh" ] '`
 
      
 
-     ![uaFull ]( https://user-images.githubusercontent.com/81990132/202353793-3331c593-5286-4b84-93a7-adc4928839fd.png)
+     ![uaFull ]( /content-images/202353793-3331c593-5286-4b84-93a7-adc492-c7730e3b3e.webp)
 
-     ![FullQR ]( https://user-images.githubusercontent.com/81990132/202355607-75de0750-2a57-4e10-883b-e0a626ed892a.png)
+     ![FullQR ]( /content-images/202355607-75de0750-2a57-4e10-883b-e0a626-2600e9b182.webp)
 
 
 
@@ -598,13 +598,13 @@ Se você tiver um monitor extra e um teclado, conecte-os agora. **Nota**: estes 
 
      
 
-    ![UAsuccess](https://user-images.githubusercontent.com/81990132/202365280-c184f622-eb7e-4095-bc38-90795121c43c.png)
+    ![UAsuccess](/content-images/202365280-c184f622-eb7e-4095-bc38-907951-97c10ec6c2.webp)
     
     
 
    
 
-    ![pic](https://user-images.githubusercontent.com/81990132/202366758-40650460-aaeb-4e03-891f-b4bd08e18234.png)
+    ![pic](/content-images/202366758-40650460-aaeb-4e03-891f-b4bd08-31378cf6ff.webp)
 
 
    

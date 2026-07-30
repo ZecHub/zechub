@@ -1,5 +1,5 @@
 ## [ZODL](https://zodl.com)
-[Logo]](https://github.com/user-attachments/assets/198608b2-9059-4cb7-aeb8-9354971376fd "ZODL")
+[Logo]](/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp "ZODL")
 - Vifaa: Simu ya mkononi
 - Mfumo wa Uendeshaji: Android  iOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
@@ -9,7 +9,7 @@
 ---
 
 ## [Ywallet](https://ywallet.app/installation/)
-[Logo]](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
+[Logo]](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
 - Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa uendeshaji: Android  iOS  Windows  Linux  macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
@@ -19,7 +19,7 @@
 ---
 
 ## [Dizzy](https://youtu.be/IVkuo1CGPBU)
-[Logo]](https://i.ibb.co/FH918w9/Dizzy-3.png "Dizzy")
+[Logo]](/content-images/Dizzy-3-1a90249591.webp "Dizzy")
 - Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa uendeshaji: Android  iOS  Windows  Linux  macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
@@ -29,7 +29,7 @@
 ---
 
 ## [Zingo!](https://www.zingolabs.org/)
-[Logo]](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
+[Logo]](/content-images/zingocard-9a2546668d.webp "Zingo!")
 - Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa uendeshaji: Android  iOS  Windows  Linux
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
@@ -39,7 +39,7 @@
 ---
 
 ## [Mpaka](https://edge.app)
-[Logo]](https://i.ibb.co/4FVQLS9/image-2024-11-28-091312254.png "Edge")
+[Logo]](/content-images/image-2024-11-28-091312254-b2389ad332.webp "Edge")
 - Vifaa: Simu ya mkononi
 - Mfumo wa Uendeshaji: Android  iOS
 - Utegemezi wa Pochi: Mbegu ya Maneno  Unified Address
@@ -49,7 +49,7 @@
 ---
 
 ## [Haiwezi kusimamishwa](https://unstoppable.money)
-[Logo]](https://i.ibb.co/C68mFCx/image-2024-11-28-091200540.png "Unstoppable")
+[Logo]](/content-images/image-2024-11-28-091200540-815817fda7.webp "Unstoppable")
 - Vifaa: Simu ya mkononi
 - Mfumo wa Uendeshaji: Android  iOS
 - Utegemezi wa Pochi: Mbegu ya Maneno  Unified Address
@@ -59,7 +59,7 @@
 ---
 
 ## [eZcash](https://blog.nerdbank.net/ezcash-app)
-[Logo]](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
+[Logo]](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
 - Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa uendeshaji: Android  iOS  Windows
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
@@ -69,7 +69,7 @@
 ---
 
 ## [Zkool](https://github.com/hhanh00/zkool2/)
-[Logo]](https://i.ibb.co/BHGPff0K/zkool-1.png "Zkool")
+[Logo]](/content-images/zkool-1-22ab388e65.webp "Zkool")
 - Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa uendeshaji: Android  iOS  Windows  Linux
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
@@ -79,7 +79,7 @@
 ---
 
 ## [Keki](https://cakewallet.com/install/)
-[Logo]](https://github.com/user-attachments/assets/a8234c70-3714-4e80-b918-8739d45aea00 "Cake")
+[Logo]](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
 - Vifaa: Simu ya mkononi  Desktop 
 - Mfumo wa uendeshaji: Android  iOS  Windows  Linux  macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
@@ -89,7 +89,7 @@
 ---
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
-[Logo]](https://i.ibb.co/VtPBnm6/zenith-2.png "Zenith")
+[Logo]](/content-images/zenith-2-cea75a34fd.webp "Zenith")
 - Vifaa: Desktop
 - Mfumo wa Uendeshaji: Windows  Linux  macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
@@ -99,7 +99,7 @@
 ---
 
 ## [Zingo-CLI](https://github.com/zingolabs/zingolib)
-[Logo]](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo-CLI")
+[Logo]](/content-images/zingocard-9a2546668d.webp "Zingo-CLI")
 - Vifaa: Desktop
 - Mfumo wa Uendeshaji: Windows  Linux  macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
@@ -109,7 +109,7 @@
 ---
 
 ## [Zallet](https://github.com/zcash/wallet)
-[Logo]](https://i.ibb.co/3mCrR0dN/Brandmark-Yellow.png "Zallet")
+[Logo]](/content-images/Brandmark-Yellow-2eca7f6f68.webp "Zallet")
 - Vifaa: Desktop
 - Mfumo wa Uendeshaji: Windows  Linux  macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
@@ -119,7 +119,7 @@
 ---
 
 ## [Zcashd](https://github.com/zcash/zcash)
-[Logo]](https://i.ibb.co/Xz2NskW/zcashd.png "Zcashd")
+[Logo]](/content-images/zcashd-92df3291ad.webp "Zcashd")
 - Vifaa: Desktop
 - Mfumo wa Uendeshaji: Windows  Linux  macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
@@ -129,7 +129,7 @@
 ---
 
 ## [Ujasiri](https://brave.com/web3-privacy/)
-[Logo]](https://i.ibb.co/6yqMNwZ/image-2024-01-13-170934865.png "Brave")
+[Logo]](/content-images/image-2024-01-13-170934865-733c5d91c6.webp "Brave")
 - Vifaa: Mtandao
 - Mfumo wa Uendeshaji: Browser
 - Utegemezi wa Pochi: Mbegu ya Maneno  Unified Address
@@ -139,7 +139,7 @@
 ---
 
 ## [Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
-[Logo]](https://i.ibb.co/jn5t9Gy/metamask.png  "Metamask")
+[Logo]](/content-images/metamask-25048569f6.webp  "Metamask")
 - Vifaa: Mtandao
 - Mfumo wa Uendeshaji: Browser
 - Utegemezi wa Pochi: Mbegu ya Maneno  Unified Address
@@ -149,7 +149,7 @@
 ---
 
 ## [Zucchini](https://zucchinifi.xyz/)
-[Logo]](https://github.com/user-attachments/assets/91a1005a-3daf-4747-9442-c178cbe50e49 "Zucchini")
+[Logo]](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
 - Vifaa: Mtandao 
 - Mfumo wa Uendeshaji: Browser
 - Utegemezi wa Pochi: Mbegu ya Maneno  Unified Address
@@ -159,7 +159,7 @@
 ---
 
 ## [SSP Wallet](https://sspwallet.io)
-[Logo]](https://i.ibb.co/X3hdfSY/ssp-1.png "SSP Wallet")
+[Logo]](/content-images/ssp-1-7d96e66117.webp "SSP Wallet")
 - Vifaa: Simu ya mkononi  Web
 - Mfumo wa uendeshaji: Android  iOS  Browser
 - Mkoba Support: Mbegu Phrase
@@ -169,7 +169,7 @@
 ---
 
 ## [Trust Wallet](https://trustwallet.com/download)
-[Logo]](https://i.ibb.co/cNqxBJ1/trustwallet.png "Trust Wallet")
+[Logo]](/content-images/trustwallet-bec43acb59.webp "Trust Wallet")
 - Vifaa: Simu ya mkononi  Web
 - Mfumo wa uendeshaji: Android  iOS  Browser
 - Mkoba Support: Mbegu Phrase
@@ -179,7 +179,7 @@
 ---
 
 ## [Kutoka](https://www.exodus.com/zcash-wallet-zec)
-[Logo]](https://i.ibb.co/w0NNZNp/exoduscard.png "Exodus")
+[Logo]](/content-images/exoduscard-2f77769db0.webp "Exodus")
 - Vifaa: Simu ya mkononi  Desktop  Mtandao
 - Mfumo wa uendeshaji: Android  iOS  Windows  Linux  macOS  Browser
 - Mkoba Support: Mbegu Phrase
@@ -189,7 +189,7 @@
 ---
 
 ## [Coinomi](https://www.coinomi.com/en/downloads)
-[Logo]](https://i.ibb.co/QfHmjWY/coinomicard.png "Coinomi")
+[Logo]](/content-images/coinomicard-226bcbf876.webp "Coinomi")
 - Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa uendeshaji: Android  iOS  Windows
 - Mkoba Support: Mbegu Phrase
@@ -199,7 +199,7 @@
 ---
 
 ## [Keystone](https://shop.keyst.one)
-[Logo]](https://i.ibb.co/c1gn635/Keystone-1.png "Keystone")
+[Logo]](/content-images/Keystone-1-8177a83308.webp "Keystone")
 - Vifaa:
 - Mfumo wa Uendeshaji:
 - Wallet Support: Hardware | Unified Address
@@ -209,7 +209,7 @@
 ---
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
-[Logo]](https://i.ibb.co/2qX6WCF/Desktop-Wallets.png "Ledger")
+[Logo]](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
 - Vifaa: 
 - Mfumo wa Uendeshaji:
 - Mkoba Support: Vifaa
@@ -219,7 +219,7 @@
 ---
 
 ## [Safepal](https://safepal.com)
-[Logo]](https://i.ibb.co/h29h6d0/safepalcard.png "Safepal")
+[Logo]](/content-images/safepalcard-176b24c751.webp "Safepal")
 - Vifaa: Simu ya mkononi  Web
 - Mfumo wa uendeshaji: Android  iOS  Browser
 - Utegemezi wa Pochi: Mbegu Phrase. Vifaa
@@ -229,7 +229,7 @@
 ---
 
 ## [Hazina](https://trezor.io/learn/a/zcash-zec)
-[Logo]](https://i.ibb.co/twLMCgzW/trezor1.png "Trezor")
+[Logo]](/content-images/trezor1-5004075d27.webp "Trezor")
 - Vifaa:
 - Mfumo wa Uendeshaji:
 - Mkoba Support: Vifaa
@@ -239,7 +239,7 @@
 ---
 
 ## [Vultisig](https://vultisig.com)
-[Logo]](https://i.ibb.co/93wSrxCc/vultisig.png "Vultisig")
+[Logo]](/content-images/vultisig-713626c5ba.webp "Vultisig")
 - Vifaa: Mtandao  Mkono  Desktop
 - Mfumo wa uendeshaji: Android  iOS  Windows  Linux  macOS  Browser
 - Vidimbwi: Uwazi
@@ -248,7 +248,7 @@
 ---
 
 ## [Vizor](https://vizor.cash/)
-[Logo]](https://i.ibb.co/zhW2d2fV/Vizorphoto.png "Vizor")
+[Logo]](/content-images/Vizorphoto-6ade2417a5.webp "Vizor")
 - Vifaa: Desktop  Mkono
 - Mfumo wa Uendeshaji: macOS
 - Wallet Support: Seed Phrase | Unified Address | Hardware
@@ -258,7 +258,7 @@
 ---
 
 ## [Black mkoba](https://www.zknoir.com/)
-[Logo]](https://i.ibb.co/23RkRZZS/Noirwallet.png "Noir")
+[Logo]](/content-images/Noirwallet-8589fe34e4.webp "Noir")
 - Vifaa: Mtandao  Desktop
 - Mfumo wa Uendeshaji: Browser
 - Mabwawa: Kuhifadhiwa. Uwazi
@@ -267,7 +267,7 @@
 ---
 
 ## [LeoDex](https://leodex.io/)
-[Logo]](https://i.ibb.co/3YjpzYnH/Leo-Dexwallet.png "LeoDex")
+[Logo]](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
 - Vifaa: Mtandao  Desktop
 - Mfumo wa uendeshaji: Browser Windows MacOS
 - Wallet Support: Seed Phrase | External Wallet | Receive Address | QR Code | Hardware
@@ -277,7 +277,7 @@
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
-[Logo]](https://i.ibb.co/mr8rF8y2/zapp-1.png "Zapp")
+[Logo]](/content-images/zapp-1-a6fa468edb.webp "Zapp")
 - Vifaa: Simu ya mkononi 
 - Mfumo wa Uendeshaji: Android 
 - Wallet Support: Unified Address 

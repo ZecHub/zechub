@@ -1,7 +1,7 @@
 #ZecHubDAO
 
 
-![Bestuur](https://user-images.githubusercontent.com/81990132/206885452-29b6ff27-c58f-4361-b5a8-1529212def03.png)
+![Bestuur](/content-images/206885452-29b6ff27-c58f-4361-b5a8-152921-5bb5315663.webp)
 
 De ZecHub DAO bestaat momenteel uit:
 
@@ -39,7 +39,7 @@ ZecHub is een van de eerste openbare DAO's in de geschiedenis van Zcash. Een uni
 
 Alle DAO-voorstellen zijn openbaar en kunnen [hier](https://snapshot.org/#/zechubdao.eth) worden bekeken. Elk huidig ​​lid van de ZecHubDAO kan een voorstel maken om op te stemmen. In een poging om de transparantie van de gemeenschap te ondersteunen, zal de ZecHubDAO alle bestuursvoorstellen in [deze](https://forum.zcashcommunity.com/t/zechub-is-now-a-dao/43674) forumthread plaatsen.
 
-![Screenshot_2023-01-11_09-39-23](https://user-images.githubusercontent.com/81990132/211878680-468f8c15-99f9-42e1-b773-36847c0973ca.png)
+![Screenshot_2023-01-11_09-39-23](/content-images/211878680-468f8c15-99f9-42e1-b773-36847c-bec790defb.webp)
 
 
 

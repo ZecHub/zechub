@@ -45,11 +45,11 @@ No [documento Halo](https://eprint.iacr.org/2019/1021.pdf), descrevemos completa
 
 Halo 2 é uma implementação zk-SNARK de alto desempenho escrita em Rust que elimina a necessidade de um Trusted Setup enquanto prepara o cenário de escalabilidade para a  Zcash.
 
-![halo2image](https://electriccoin.co/wp-content/uploads/2020/09/Halo-puzzle-03-1024x517.jpg "halo2")
+![halo2image](/content-images/Halo-puzzle-03-1024x517-e034023d10.webp "halo2")
 
 Ele inclui uma generalização de nossa abordagem chamada de “esquema de acumulação”. Essa nova formalização expõe como nossa técnica de amortização aninhada realmente funciona; adicionando provas a um objeto chamado “acumulador”, onde as provas raciocinam sobre o estado anterior do acumulador, podendo verificar se todas as provas anteriores estavam corretas (por indução) simplesmente verificando o estado atual do acumulador.
 
-![Accumulatorimage](https://i.imgur.com/l4HrYgE.png "acumulador")
+![Accumulatorimage](/content-images/l4HrYgE-1ea7bc32f7.webp "acumulador")
 
 Paralelamente, muitas outras equipes foram descobrindo novos IOPs polinomiais que eram mais eficientes que o Sonic (usado no Halo 1), como o Marlin.
 

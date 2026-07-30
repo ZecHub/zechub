@@ -34,7 +34,7 @@ Zcash розділяє кошти на окремі системи обліку,
 
 <br/>
 
-![img1](https://github.com/user-attachments/assets/4ba8cca2-cea5-42d2-8ec2-2122b26f5144)
+![img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
 Рис. 1: Діаграма, що показує поточні 4 пули станом на жовтень 2025 року
 
 <br/>
@@ -45,7 +45,7 @@ Zcash розділяє кошти на окремі системи обліку,
 1. <h3 id="orchard" class="text-3xl font-bold my-4">Пул Orchard</h3>
 
 
-![img2](https://github.com/user-attachments/assets/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72)
+![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
 Рис. 2: Діаграма, що показує пул Orchard станом на жовтень 2025 року
 
 <br/>
@@ -63,7 +63,7 @@ ____
 2. <h3 id="sapling" class="text-3xl font-bold my-4">Пул Sapling</h3>
 
 
-![img3](https://github.com/user-attachments/assets/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae)
+![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
 Рис. 3: Діаграма, що показує пул Sapling станом на жовтень 2025 року
 
 <br/>
@@ -83,7 +83,7 @@ ____
 3. <h3 id="sprout" class="text-3xl font-bold my-4">Пул Sprout</h3>
 
 
-![img4](https://github.com/user-attachments/assets/956eceed-f4d6-4087-99d0-32a770449dda)
+![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
 Рис. 4: Діаграма, що показує пул Sprout станом на жовтень 2025 року
 
 Sprout був першим у світі відкритим permissionless Zero Knowledge протоколом приватності, який коли-небудь було запущено. Його запустили 28 жовтня 2016 року.
@@ -98,7 +98,7 @@ Sprout використовувався як ранній інструмент �
 4. <h3 id="transparent" class="text-3xl font-bold my-4">Пул Transparent</h3>
 <br/>
 
-![img5](https://github.com/user-attachments/assets/01de2907-b62d-4421-83d7-ea4908faa828)
+![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
 Рис. 5: Діаграма, що показує пул Transparent станом на жовтень 2025 року
 
 <br/>

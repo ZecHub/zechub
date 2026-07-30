@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 <a href="">
-    <img src="https://i.ibb.co/0VfMFB5/image-2023-11-18-160742427.png" alt="" width="800" height="500"/>
+    <img src="/content-images/image-2023-11-18-160742427-658dda69c0.webp" alt="" width="800" height="500"/>
 </a>
 
 # Zcash Shielded Assets
@@ -23,7 +23,7 @@ ZSA는 [QEDIT](https://qed-it.com/)에 의해 개발되고 있으며, [Zcash Fou
 ### Zebra 상의 ZSA 데모
 
 
-[![영상 썸네일](https://i.ytimg.com/vi/1MZMGC9ViyA/hqdefault.jpg?)](https://youtu.be/1MZMGC9ViyA)
+[![영상 썸네일](/content-images/hqdefault-3ae84de424.webp)](https://youtu.be/1MZMGC9ViyA)
 
 
 **자신이 직접 데모를 실행해 보세요!**

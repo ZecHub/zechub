@@ -5,7 +5,7 @@
 오늘은 흥미로운 주제입니다!  
 **크립토노트**(CryptoNote) 프로토콜은 강력한 체인 상의 프라이버시를 제공합니다. 오늘 우리는 이 프로토콜의 주요 기능과 여러 유명한 프라이버시 프로젝트에서 어떻게 구현되었는지 배우겠습니다.
 
-![크립토노트 소개](https://pbs.twimg.com/media/FrXr5P8WIAAvx36.jpg)
+![크립토노트 소개](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
 
 ---
 
@@ -35,7 +35,7 @@
 
 **링 크기**(Ring size)는 익명 집합에 큰 영향을 미칩니다. 더 큰 링은 더 나은 프라이버시를 제공합니다.
 
-![링 서명 설명](https://pbs.twimg.com/media/FrXteGHXgAANE0F.png)
+![링 서명 설명](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
 
 **Zcash와의 비교**:  
 Zcash의 익명 집합은 주어진 보호 풀에서 *언제든지* 이루어진 거래 총 수(일반적인 크립토노트 링 크기보다 훨씬 큽니다).
@@ -48,7 +48,7 @@ Zcash의 익명 집합은 주어진 보호 풀에서 *언제든지* 이루어진
 
 보내는 사람을 숨기는 것뿐만 아니라, **발신자와 수신자 간의 거래 금액도 흐리게** 만듭니다.
 
-![링 CT 다이어그램](https://pbs.twimg.com/media/FrXuivgWYAAze7B.png)
+![링 CT 다이어그램](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
 
 이는 다음과 같은 기술을 사용합니다:
 - 타원 곡선 암호학(Elliptic Curve Cryptography)
@@ -59,7 +59,7 @@ Zcash의 익명 집합은 주어진 보호 풀에서 *언제든지* 이루어진
 
 **스텔스 주소**(Stealth Addresses)는 수신자에게 일회용 주소를 추가합니다.
 
-![스텔스 주소 + 증명](https://pbs.twimg.com/media/FrXut5aWAAMhuRb.jpg)
+![스텔스 주소 + 증명](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
 
 ---
 
@@ -74,7 +74,7 @@ Zcash의 익명 집합은 주어진 보호 풀에서 *언제든지* 이루어진
 2. 스크래치패드에 많은 읽기/쓰기 작업 수행
 3. 전체 스크래치패드 해싱하여 최종 값을 생성
 
-![크립토나이트 채굴](https://pbs.twimg.com/media/FrXvNs3XsAA37LG.jpg)
+![크립토나이트 채굴](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
 
 (참고: 모네로는 이후 크립토나이트에서 다른 알고리즘으로 이전했습니다.)
 
@@ -86,7 +86,7 @@ Zcash의 익명 집합은 주어진 보호 풀에서 *언제든지* 이루어진
 
 이로 인해 시간에 따른 발행 곡선이 훨씬 부드러워집니다.
 
-![동적 발행량 곡선](https://pbs.twimg.com/media/FrXv8wpXoAEjUxW.png)
+![동적 발행량 곡선](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
 
 **Zcash와의 연관성**:  
 Zcash 개발자들은 미래에 "Zcash Posterity Fund"를 통해 더 부드러운 발행 곡선을 구현하는 것에 대해 논의한 바 있습니다.

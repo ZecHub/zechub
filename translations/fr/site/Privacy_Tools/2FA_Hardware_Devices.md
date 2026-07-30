@@ -10,7 +10,7 @@ Une clé de sécurité matérielle est un appareil physique utilisé pour l’au
 
 Ces clés sont conçues pour fonctionner conjointement avec votre nom d’utilisateur et votre mot de passe afin de garantir que seuls les utilisateurs autorisés peuvent accéder à vos comptes et à vos données. Elles existent sous différentes formes, comme des clés USB, des cartes NFC ou des appareils Bluetooth.
 
-![Exemple de clé de sécurité matérielle](https://github.com/ZecHub/zechub/assets/81990132/1dff66a4-d8e6-483f-9a1e-065d3974d665)
+![Exemple de clé de sécurité matérielle](/content-images/1dff66a4-d8e6-483f-9a1e-065d3974d665-a4c6c73e00.webp)
 
 ## Fonctionnement d’une clé de sécurité matérielle
 
@@ -26,7 +26,7 @@ Les clés de sécurité matérielles offrent plusieurs avantages par rapport aux
 
 Non, les clés de sécurité matérielles existent dans de nombreux formats et peuvent ne pas être compatibles avec tous les appareils et systèmes d’exploitation. Avant d’acheter une clé, assurez-vous qu’elle est compatible avec votre appareil et votre système d’exploitation.
 
-![Formats de clés de sécurité matérielles](https://github.com/ZecHub/zechub/assets/81990132/a830c435-ad20-4183-b381-475afe1089b3)
+![Formats de clés de sécurité matérielles](/content-images/a830c435-ad20-4183-b381-475afe1089b3-5537cd7388.webp)
 
 ## Une clé de sécurité matérielle peut-elle être utilisée avec plusieurs comptes ?
 
@@ -42,7 +42,7 @@ Voici quelques exemples de matériel 2FA disponibles sur le marché.
 
 **Yubico YubiKey 5 NFC**
 
-![Yubico YubiKey 5 NFC](https://github.com/ZecHub/zechub/assets/81990132/bf1ac95e-7277-4559-b5ef-63117b66971b)
+![Yubico YubiKey 5 NFC](/content-images/bf1ac95e-7277-4559-b5ef-63117b66971b-3aa542aba7.webp)
 
 Fabriquée par Yubico, co-développeur de la norme ouverte d’authentification FIDO U2F utilisée par de nombreuses clés de sécurité, la YubiKey 5 NFC est entre de bonnes mains pour protéger vos appareils. Comme son nom l’indique, elle fonctionne via USB A (ou USB C à l’aide d’un adaptateur) ou NFC.  
 Elle offre une compatibilité immédiate avec de nombreux services, notamment Google Chrome, Facebook, Dropbox, LastPass, 1Password et bien d’autres. La YubiKey 5 est compacte, résistante et légère — et elle est même étanche.  
@@ -50,7 +50,7 @@ Vous pouvez configurer la YubiKey comme second facteur U2F sans aucun problème 
 
 **Clé de sécurité Thetis Fido U2F**
 
-![Clé de sécurité Thetis Fido U2F](https://github.com/ZecHub/zechub/assets/81990132/b83e42e5-bba6-4175-ad6c-d64972ef54ef)
+![Clé de sécurité Thetis Fido U2F](/content-images/b83e42e5-bba6-4175-ad6c-d64972ef54ef-a2ef17a10d.webp)
 
 Si vous recherchez le meilleur rapport qualité-prix pour une clé de sécurité, ce modèle de Thetis devrait figurer sur votre liste. Il n’intègre pas de Bluetooth (disponible sur un modèle plus cher) et ne prend en charge que la norme FIDO U2F, il n’y a donc pas de compatibilité UAF ou OTP. Cependant, il fournira un accès sécurisé aux sites web si vous utilisez Chrome ou Opera comme navigateur sur Windows, macOS ou Linux.  
 Pratique, cette clé de sécurité abordable présente un design pliable compact avec un boîtier rotatif en aluminium qui empêche le connecteur d’être exposé à des dommages potentiels pendant le transport. Elle est proposée en trois couleurs attrayantes : noir, or et argent.  
@@ -58,7 +58,7 @@ Le boîtier en plastique semble solide et relativement durable, mais vous voudre
 
 **CryptoTrust OnlyKey**
 
-![CryptoTrust OnlyKey](https://github.com/ZecHub/zechub/assets/81990132/13be6ecc-227e-498c-8a36-6d52c023cd78)
+![CryptoTrust OnlyKey](/content-images/13be6ecc-227e-498c-8a36-6d52c023cd78-06e3e924dc.webp)
 
 Comme son nom l’indique, OnlyKey possède quelques fonctionnalités astucieuses dont ses concurrentes ne disposent pas. Grâce à un clavier intégré capable de contourner les keyloggers qui se retrouvent sur les ordinateurs, elle peut protéger les comptes en ligne même si un ordinateur ou un site web est compromis. Elle prend en charge plusieurs méthodes de 2FA, notamment FIDO 2 U2F, Yubico OTP et TOTP.  
 Bien qu’il ne s’agisse pas du meilleur gestionnaire de mots de passe pour un usage grand public, OnlyKey peut stocker 24 comptes OTP, 24 mots de passe et 24 noms d’utilisateur/URL sur une seule clé. Cette fonctionnalité est très pratique si vous n’avez pas envie de mémoriser plusieurs mots de passe et souhaitez que la clé s’en charge pour vous.  
@@ -71,22 +71,22 @@ Maintenant que vous savez ce que sont les clés matérielles 2FA et comment elle
 **Étape 1**  
 Connectez-vous à votre compte Gmail et cliquez sur **Manage Your Google Account**
 
-![Compte Google - Gérer le compte](https://github.com/ZecHub/zechub/assets/81990132/995fc955-791a-4456-9218-7e5964da48b5)
+![Compte Google - Gérer le compte](/content-images/995fc955-791a-4456-9218-7e5964da48b5-31c64640b2.webp)
 
 **Étape 2**  
 Cliquez sur **Security**
 
-![Paramètres de sécurité Google](https://github.com/ZecHub/zechub/assets/81990132/246db235-6596-41ff-bd7a-f8ee4f80962b)
+![Paramètres de sécurité Google](/content-images/246db235-6596-41ff-bd7a-f8ee4f80962b-340193c2c3.webp)
 
 **Étape 3**  
 Cliquez sur **2-Step Verification**
 
-![Écran de vérification en 2 étapes](https://github.com/ZecHub/zechub/assets/81990132/19cd202a-1a70-47e6-a02a-aa24f6e199fa)
+![Écran de vérification en 2 étapes](/content-images/19cd202a-1a70-47e6-a02a-aa24f6e199fa-a9fcb911ce.webp)
 
 **Étape 4**  
 Sélectionnez **Show More Options**
 
-![Afficher plus d’options](https://github.com/ZecHub/zechub/assets/81990132/2ade9531-1cf6-48e8-b9a8-178d41a4cd30)
+![Afficher plus d’options](/content-images/2ade9531-1cf6-48e8-b9a8-178d41a4cd30-b1e9ea1400.webp)
 
 **Étape 5**  
 Sélectionnez maintenant **Security Key**, puis cliquez sur **Advance**

@@ -6,7 +6,7 @@
 
 Wɔyii no adi wɔ afe 2019 mu, saa protocol yi si Zerocoin so. Wɔde di dwuma wɔ **Firo** sika (kan no na wɔfrɛ no Zcoin) mu de ma kokoam on-chain nkitahodi tumi yɛ adwuma. Ɛte sɛ Zcash wɔ akwan bi so nanso ɛsono no pefee wɔ afã dodow no ara mu.
 
-![Lelantus nnianim asɛm](https://pbs.twimg.com/media/Fsk18DgXsAEc0Ob.jpg)
+![Lelantus nnianim asɛm](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
 
 ---
 
@@ -15,7 +15,7 @@ Wɔyii no adi wɔ afe 2019 mu, saa protocol yi si Zerocoin so. Wɔde di dwuma w�
 - **Zcash** - Ɛkyekyere **Zerocash** protocol no so 
 - **Firo (Zcoin)** - Ɛkyekyere **Zerocoin** protocol no so
 
-![Zerocash vs Zerocoin ntotoho](https://pbs.twimg.com/media/Fsk2Fk7WcAA81ty.png)
+![Zerocash vs Zerocoin ntotoho](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
 
 ---
 
@@ -28,7 +28,7 @@ Te sɛ Zcash no, Firo de address ahorow a wɔabɔ ho ban di dwuma de tua sika a 
 - **Sigma** - Asɔre nhyehyɛe a wɔahyɛ da ayɛ
 - **Lelantus 1.0** - Enni ahobammɔ ho adanse a ɛteɛ
 
-![Protocol adannandi](https://pbs.twimg.com/media/Fsk2NdaWAAAKVgH.png)
+![Protocol adannandi](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
 
 ---
 
@@ -38,7 +38,7 @@ Na Σ (Sigma) protocol a wɔde dii dwuma wɔ Zcoin/Firo nkyerɛase ahorow a atwa
 
 Eyi maa anonymity sets nketewa bae na ebuee ɔpon maa bere ntua wɔ mint ne redeem adwumayɛ ntam (ne "tainted change" haw no).
 
-![Sigma asɔre ahorow](https://pbs.twimg.com/media/Fsk2fxfWcAMUBDo.png)
+![Sigma asɔre ahorow](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
 
 ---
 
@@ -53,7 +53,7 @@ Mfaso atitiriw a ɛwɔ so:
 
 **Anohyeto**: Set size mprempren wɔahyɛ no **65,000 sika**.
 
-![Lelantus mfaso horow](https://pbs.twimg.com/media/Fsk2wK3X0AA6MEe.png)
+![Lelantus mfaso horow](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
 
 ---
 
@@ -65,7 +65,7 @@ Eyinom yɛ adwuma te sɛ **Notes** wɔ Zcash mu.
 
 Wɔtintim sika no bɔhyɛ no na wɔkora so wɔ ledger no so bere a wɔabɔ sika no (ɛnam Mint anaa Spend nkitahodi so).
 
-![Coin ahofama ho mfonini](https://pbs.twimg.com/media/Fsk3AWNX0AIHya8.png)
+![Coin ahofama ho mfonini](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
 
 ---
 
@@ -77,7 +77,7 @@ Lelantus de **basecoin a wɔagye din no di dwuma < - > zerocoin** nhwɛsoɔ.
 
 Te sɛ Zcash no, ɛsɛ sɛ nea ɔde di dwuma no paw nkitahodi a ɛda adi pefee.
 
-![Lelantus nsuo a ɛsen](https://pbs.twimg.com/media/Fsk3HrjXgAMgqmX.png)
+![Lelantus nsuo a ɛsen](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
 
 ---
 
@@ -87,7 +87,7 @@ Lelantus de **One-of-Many Proofs** di dwuma de yi input values ​​a ɛho hia 
 
 Wɔde saa adanseɛ yi nso di dwuma wɔ **Triptych** (wɔaka ho asɛm wɔ yɛn CryptoNote thread no mu).
 
-![Adanse pii mu Baako](https://pbs.twimg.com/media/Fsk3Z0nWIAAPD4k.jpg)
+![Adanse pii mu Baako](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
 
 ---
 
@@ -103,7 +103,7 @@ Te sɛ Monero no, Firo de **Dandelion++** dii dwuma de kokoamsɛm kaa ho denam I
 
 Eyi ma ɛyɛ den kɛse sɛ wobɛhwehwɛ baabi a asɛm bi fi bae denam nkitahodi nhyehyɛe mu nhwehwɛmu so.
 
-![Dandelion++ nkyerɛkyerɛmu](https://pbs.twimg.com/media/Fsk4A8VWcAU84MR.png)
+![Dandelion++ nkyerɛkyerɛmu](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
 
 ---
 
@@ -117,7 +117,7 @@ Eyi ma ɛyɛ den kɛse sɛ wobɛhwehwɛ baabi a asɛm bi fi bae denam nkitahodi 
 
 Saa nneɛma yi ne Zcash Shielded Assets di nsɛ.
 
-![Lelantus-Spark dawurubɔ](https://pbs.twimg.com/media/Fsk4jXeXsAACQ3h.jpg)
+![Lelantus-Spark dawurubɔ](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
 
 ---
 

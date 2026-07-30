@@ -16,15 +16,15 @@ Hivi sasa kuna aina kuu tatu za anwani katika matumizi ya tarehe. Hizi ni pamoja
 
 * uwazi
 
-! [img1](https://user-images.githubusercontent.com/81990132/219261771-a9957ec3-2841-4073-9cfd-1db9d6356693.png)
+! [img1](/content-images/219261771-a9957ec3-2841-4073-9cfd-1db9d6-574fc930f0.webp)
 
 * mchanga
 
-! [img2](https://user-images.githubusercontent.com/81990132/219261784-1a617e70-f588-4eed-96bf-f0789d7af58a.png)
+! [img2](/content-images/219261784-1a617e70-f588-4eed-96bf-f0789d-e10ebfc543.webp)
 
 * Unified Address (Full)
 
-! [img3](https://user-images.githubusercontent.com/81990132/219261794-bcc79db6-4dc6-4c6a-867b-3717b81e6b71.png)
+! [img3](/content-images/219261794-bcc79db6-4dc6-4c6a-867b-3717b8-a3650f8968.webp)
 
 
 Jambo la kwanza kugundua ni jinsi urefu wa kila aina ya anwani ni tofauti. Unaweza kuona hii kwa macho na idadi ya wahusika katika string anwani * au * kwa kuangalia codes kuhusishwa QR. Kama urefu ya kuongezeka kwa anwani, QR code huwa na zoom nje na fit data zaidi katika mraba.
@@ -46,21 +46,21 @@ Mbali na UA kamili, hapa ni ya kawaida kwamba utapata katika pori:
 
 * uwazi + sapling
 
-! [img4](https://user-images.githubusercontent.com/81990132/219267475-38ad1419-0aac-4205-b18e-6873283f9d85.png)
+! [img4](/content-images/219267475-38ad1419-0aac-4205-b18e-687328-46b8f12f80.webp)
 
 * uwazi + bustani ya matunda
 
 
-! [img5](https://user-images.githubusercontent.com/81990132/219267496-90db21ff-f4e1-4a50-8f2a-1a71d995652a.png)
+! [img5](/content-images/219267496-90db21ff-f4e1-4a50-8f2a-1a71d9-7423486eb5.webp)
 
 * mchanga + bustani ya matunda
 
 
-! [img6](https://user-images.githubusercontent.com/81990132/219267520-6b731ec2-e911-4469-acc5-c39d4addcac2.png)
+! [img6](/content-images/219267520-6b731ec2-e911-4469-acc5-c39d4a-a89ba01b88.webp)
 
 * shamba la matunda
   
-! [img7](https://user-images.githubusercontent.com/81990132/219267538-1a748fff-4034-4559-96ac-182723409b3a.png)
+! [img7](/content-images/219267538-1a748fff-4034-4559-96ac-182723-3d69e23dac.webp)
 
 Jambo la kwanza kumbuka ni kwamba kila mmoja wa UA hizi ni kutoka ufunguo huo binafsi! Jambo la pili kumbuka na urefu wa kila aina ya UA:
 

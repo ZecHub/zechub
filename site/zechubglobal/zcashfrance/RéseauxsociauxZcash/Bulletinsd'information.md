@@ -1,5 +1,5 @@
 # Bulletins d'information
-![zecweekly_card](https://user-images.githubusercontent.com/81990132/231330840-fd6d2c1e-a724-400c-a831-2bd61c29d998.png)
+![zecweekly_card](/content-images/231330840-fd6d2c1e-a724-400c-a831-2bd61c-d4bc356bc0.webp)
 
 
 ZecWeekly est une newsletter qui sort tous les dimanches. Il comprend toutes les nouvelles qui se sont produites au cours de la semaine dans l'écosystème Zcash.

@@ -102,7 +102,7 @@ Free2Z James Katz의 새로운 Zcash 사용자 가이드가 등장했습니다.
 
 ## 이번 주의 Z-Meme
 
-![b06942ffba3b6715e09149ff53552f52.png](../_sla/b06942ffba3b6715e09149ff53552f52.png)
+![b06942ffba3b6715e09149ff53552f52.png](/content-images/_unavailable.svg)
 
 [https://twitter.com/zcashbrazil/status/1689418207713492993 ](https://twitter.com/zcashbrazil/status/1689418207713492993)
 

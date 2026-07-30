@@ -10,7 +10,7 @@ A hardware security key is a physical device used for two-factor authentication 
 
 Àwọn kókó wọ̀nyí ni wọ́n ṣe láti ṣiṣẹ́ pẹ̀lú orúkọ aṣàmúlò àti ọ̀rọ̀-ìfipamọ́ rẹ láti rí i dájú pé àwọn oníṣẹ́ tí ó wà lábẹ́ àṣẹ nìkan ló lè wọlé sí àwọn àkọọ́lẹ̀ àti ìwífún rẹ.
 
-![Àpẹẹrẹ Àkọlé Ààbò Ẹ̀rọ](https://github.com/ZecHub/zechub/assets/81990132/1dff66a4-d8e6-483f-9a1e-065d3974d665)
+![Àpẹẹrẹ Àkọlé Ààbò Ẹ̀rọ](/content-images/1dff66a4-d8e6-483f-9a1e-065d3974d665-a4c6c73e00.webp)
 
 ## Bí kókó ààbò hardware ṣe ń ṣiṣẹ́
 
@@ -26,7 +26,7 @@ Hardware security keys offer several advantages over traditional password-based 
 
 Rárá o, àwọn kọ́kọ́rọ́ tó ń dáàbò bo ohun èlò orí kọ̀ǹpútà wà ní oríṣiríṣi ọ̀nà, ó sì lè máà bá gbogbo ẹ̀rọ àti ètò ìṣiṣẹ́ mu.
 
-![Awọn ifosiwewe Ọrọ-iṣẹ Aabo Key Form Factors](https://github.com/ZecHub/zechub/assets/81990132/a830c435-ad20-4183-b381-475afe1089b3)
+![Awọn ifosiwewe Ọrọ-iṣẹ Aabo Key Form Factors](/content-images/a830c435-ad20-4183-b381-475afe1089b3-5537cd7388.webp)
 
 ## Ṣé a lè lo kókó ààbò ohun èlò pẹ̀lú àkọọ́lẹ̀ púpọ̀?
 
@@ -42,7 +42,7 @@ Eyi ni diẹ ninu awọn apẹẹrẹ ti 2FA Hardware ti o wa ni ọja.
 
 **Yubico YubiKey 5 NFC**
 
-![Yubico YubiKey 5 NFC](https://github.com/ZecHub/zechub/assets/81990132/bf1ac95e-7277-4559-b5ef-63117b66971b)
+![Yubico YubiKey 5 NFC](/content-images/bf1ac95e-7277-4559-b5ef-63117b66971b-3aa542aba7.webp)
 
 Ṣelọpọ nipasẹ Yubico, co-developer ti FIDO U2F ṣiṣi idanimọ boṣewa ti a lo nipasẹ ọpọlọpọ awọn bọtini aabo, YubiKey 5 NFC wa ni ọwọ ailewu lati daabobo awọn ẹrọ rẹ. Bi orukọ rẹ ṣe daba, o ṣiṣẹ nipa lilo USB A (tabi USB C nipa lilo ohun itanna) tabi NFC. 
 O nfunni ni ibamu pẹlu ọpọlọpọ awọn iṣẹ pẹlu Google Chrome, Facebook, Dropbox, LastPass, 1Password ati diẹ sii. YubiKey 5 jẹ iwapọ, ti o lagbara ati irorun - ati pe o jẹ omi-omi. 
@@ -50,7 +50,7 @@ You can configure the YubiKey as a second U2F factor without any problems by fol
 
 **Thetis Fido U2F Àkọlé Ààbò**
 
-[Ìkóhun Ààbò Fido U2F]](https://github.com/ZecHub/zechub/assets/81990132/b83e42e5-bba6-4175-ad6c-d64972ef54ef)
+[Ìkóhun Ààbò Fido U2F]](/content-images/b83e42e5-bba6-4175-ad6c-d64972ef54ef-a2ef17a10d.webp)
 
 If you are looking for the best bang-for-buck in a security key, this model from Thetis should be on your list. There is no Bluetooth onboard (it is available on a more expensive model), and it only supports the FIDO U2F standard so there is no UAF or OTP compatibility. However, it will provide secure website access if you use Chrome or Opera as a browser on Windows, macOS, or Linux.  
 Ọ̀nà tó rọrùn láti lò ni pé, kọ́kọ́rọ́ aláàbò yìí kò wọ́n, ó sì ṣeé ká, ó ní àpò onírin tí ń yí padà, èyí tí kì í jẹ́ kí ìsopọ̣ náà lè bà jẹ́ nígbà tí wọ́ n gbé e lọ. 
@@ -58,7 +58,7 @@ If you are looking for the best bang-for-buck in a security key, this model from
 
 **CryptoTrust OnlyKey**
 
-[CryptoTrust OnlyKey] Àkọsílẹ̀ ìpamọ́](https://github.com/ZecHub/zechub/assets/81990132/13be6ecc-227e-498c-8a36-6d52c023cd78)
+[CryptoTrust OnlyKey] Àkọsílẹ̀ ìpamọ́](/content-images/13be6ecc-227e-498c-8a36-6d52c023cd78-06e3e924dc.webp)
 
 As its name suggests, OnlyKey has some nifty features its rivals lack. Thanks to an onboard keypad that can bypass keyloggers that find their way onto computers, it can keep online accounts safe if a computer or website is compromised. It supports multiple methods of 2FA, including FIDO 2 U2F, Yubico OTP, and TOTP.  
 Bó tilẹ̀ jẹ́ pé kì í ṣe olùṣakoso ọ̀rọ̀-ìfiwọlé tó dára jùlọ fún àwọn ìdí pàtàkì, OnlyKey lè tọ́jú 24 àkọọ́lẹ̀ OTP, 24 òǹkọ̀láà, àti 24 orúkọ oníṣe/URLs, lórí kókó kan ṣoṣo. Àṣejèrè yìí wúlò gan-an bí o kò bá fẹ́ kí o máa rántí ọ̀pọ̀lọpọ̀ òǹkàláàdì, tí o sì fẹ kí kókó náà ṣe àbójútó rẹ. 
@@ -71,22 +71,22 @@ Ní báyìí tí o ti mọ ohun tí 2FA Hardware keys jẹ́ àti bí wọ́n �
 Ìgbésè 1 
 Wọlé sínú àkọọ́lẹ̀ Gmail rẹ kí o sì tẹ **Ṣakoso Àkọọ́ṣe Google Rẹ**
 
-[Ìwé Google - Ṣakoso Àkọsílẹ̀](https://github.com/ZecHub/zechub/assets/81990132/995fc955-791a-4456-9218-7e5964da48b5)
+[Ìwé Google - Ṣakoso Àkọsílẹ̀](/content-images/995fc955-791a-4456-9218-7e5964da48b5-31c64640b2.webp)
 
 Ìgbésè 2 
 Tẹ lori ** Ààbò**
 
-[Àwọn Àtúnṣe Ààbò Google](https://github.com/ZecHub/zechub/assets/81990132/246db235-6596-41ff-bd7a-f8ee4f80962b)
+[Àwọn Àtúnṣe Ààbò Google](/content-images/246db235-6596-41ff-bd7a-f8ee4f80962b-340193c2c3.webp)
 
 Ìgbésè 3 
 Tẹ lori **Ṣíṣayẹwo Ìgbésẹ̀ Méjì**
 
-Àwòrán Ìmúdájú Ìgbésẹ̀-méjì](https://github.com/ZecHub/zechub/assets/81990132/19cd202a-1a70-47e6-a02a-aa24f6e199fa)
+Àwòrán Ìmúdájú Ìgbésẹ̀-méjì](/content-images/19cd202a-1a70-47e6-a02a-aa24f6e199fa-a9fcb911ce.webp)
 
 Ìgbésẹ̀ Kẹrin 
 Yan **Fihan Awọn Aṣayan diẹ sii**
 
-![Fi àwọn Àtúnṣe Síi hàn](https://github.com/ZecHub/zechub/assets/81990132/2ade9531-1cf6-48e8-b9a8-178d41a4cd30)
+![Fi àwọn Àtúnṣe Síi hàn](/content-images/2ade9531-1cf6-48e8-b9a8-178d41a4cd30-b1e9ea1400.webp)
 
 Ìgbésè 5 
 Nisisiyi yan ** Key Security ** ki o si tẹ lori ** Advance **

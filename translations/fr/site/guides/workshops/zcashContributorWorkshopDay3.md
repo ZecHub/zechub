@@ -54,7 +54,7 @@ note2: Nous choisissons Zkool ici, mais N’IMPORTE QUEL portefeuille disposant 
 
 https://github.com/hhanh00/zkool2
 
-<img width="1496" height="646" alt="1" src="https://github.com/user-attachments/assets/125adfe8-6be3-4798-8ee8-b96bba9fb9ac" />
+<img width="1496" height="646" alt="1" src="/content-images/125adfe8-6be3-4798-8ee8-b96bba9fb9ac-d7ff97c6f8.webp" />
 
 
 
@@ -63,7 +63,7 @@ https://github.com/hhanh00/zkool2
 
 Allez dans le menu en haut à droite et sélectionnez "Exporter les transactions"
 
-<img width="1398" height="718" alt="2" src="https://github.com/user-attachments/assets/4287ceb6-669b-4ef0-ba24-3f7e2d9860b6" />
+<img width="1398" height="718" alt="2" src="/content-images/4287ceb6-669b-4ef0-ba24-3f7e2d9860b6-6fd3ed5a03.webp" />
 
 
 #### Étape 3
@@ -77,7 +77,7 @@ Voici quelques exemples de prompts pour vous aider à démarrer :
 
 "Comment puis-je utiliser "bash/rust/python/ ... etc." pour transformer des fichiers CSV"
 
-<img width="1098" height="480" alt="3" src="https://github.com/user-attachments/assets/6503f4be-6fbc-473f-919c-8914e09181bc" />
+<img width="1098" height="480" alt="3" src="/content-images/6503f4be-6fbc-473f-919c-8914e09181bc-27520b5960.webp" />
 
 note: Vous devez tout de même comprendre les bases, mais c’est en animant ces ateliers que vous comprenez le FLUX du processus.
 
@@ -97,4 +97,4 @@ Ouvrez-les dans libreOffice ou dans n’importe quel visionneur CSV pour les uti
 
 
 
-<img width="2132" height="942" alt="4" src="https://github.com/user-attachments/assets/1097030d-c0f4-44c4-b15c-f86706a77bdc" />
+<img width="2132" height="942" alt="4" src="/content-images/1097030d-c0f4-44c4-b15c-f86706a77bdc-6c81ca3df0.webp" />

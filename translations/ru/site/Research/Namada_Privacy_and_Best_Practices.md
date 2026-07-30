@@ -7,7 +7,7 @@ published: 2025-08-02
   <img src="https://img.shields.io/badge/Edit-blue" alt="Редактировать страницу"/>
 </a>
 
-![Логотип Namada](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/nam.png)
+![Логотип Namada](/content-images/nam-078c7b6883.webp)
 
 # Лучшие практики конфиденциальности в Namada
 

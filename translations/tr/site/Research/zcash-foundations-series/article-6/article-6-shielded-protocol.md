@@ -1,7 +1,7 @@
 # Korumalı Protokol, Uçtan Uca
 ##### [Annkkitaaa](https://github.com/Annkkitaaa) tarafından orijinal araştırma
 
-![alt text](image-27.png)
+![alt text](/content-images/image-27-4094293ec0.webp)
 
 ### Her parçayı tek bir özel Zcash işlemi içinde bir araya getirmek
 
@@ -41,7 +41,7 @@ Bu makale o birleşimi anlatıyor. Sonunda, *"ağ göremediği bir işlemi doğr
 
 Bir kullanıcının yapabildiği her şey, tek bir sırdan, yani **spending key**'den, tek yönlü bir hiyerarşi üzerinden türetilir (her ok, Makale 2 ve 3'teki trapdoor'lar sayesinde geri döndürülemez bir türetmedir):
 
-![alt text](image-32.png)
+![alt text](/content-images/image-32-f443f9bb72.webp)
 
 Daha önceki makalelerin sonuçları olan ve dikkat etmeye değer iki nokta var:
 
@@ -54,7 +54,7 @@ Daha önceki makalelerin sonuçları olan ve dikkat etmeye değer iki nokta var:
 
 Bir note'u özel biçimde harcamak için, ağa aynı anda dört şeyi ikna edici şekilde göstermeniz gerekir; bunu yaparken **note'u, değerini, konumunu veya kimliğinizi açıklamazsınız.** Her iddia, zaten bildiğiniz bir bileşenle karşılanır.
 
-![alt text](image-31.png)
+![alt text](/content-images/image-31-86309af194.webp)
 
 İspat, altta yatan gerçeklerin **hiçbirini** açıklamaz (hangi note, kimin anahtarı, hangi değer). Yalnızca *dört iddianın da doğru olduğunu* açıklar. Korumalı Zcash'in tüm hilesi, tek bir diyagramda tam olarak budur.
 
@@ -92,7 +92,7 @@ Alice'in Bob'a ödeme yapmasını bir araya getirelim. Eğitim modeli olarak Sap
 
 Bunlara ek olarak, değer dengesini zorunlu kılan, tüm paket üzerinde tek bir **binding signature** bulunur (Bölüm 5).
 
-![alt text](image-30.png)
+![alt text](/content-images/image-30-98511eb2d0.webp)
 
 Gizliliğin izini sürün: ağ `anchor`'ı kontrol etti, `nullifier`'ın yeni olduğunu kontrol etti, ispatı doğruladı ve dengeyi doğruladı. Miktarı öğrenmeden, adres öğrenmeden ve hangi note'un harcandığını bilmeden, geçerli bir ödemeyi kabul etti. Bu sırada harcanan note'un **nullifier**'ı (ölümü) ve Bob'un yeni **commitment**'ı (note'unun doğumu), görünür bir bağ olmadan iki farklı açık yapıda durur; Makale 0'daki koparılmış bağlantı budur.
 
@@ -198,7 +198,7 @@ Miktarlar gizlidir, ancak her biri homomorfik bir value commitment içine sarıl
 
 Artık tek bir paradokstan tam bir özel ödemeye kadar geldiniz:
 
-![alt text](https://github.com/user-attachments/assets/cd8bbb40-57b8-4854-b9cf-97f2485d126a)
+![alt text](/content-images/cd8bbb40-57b8-4854-b9cf-97f2485d126a-8847fae521.webp)
 
 
 Buradan sonra doğal bir sonraki hat daha derine gider: Groth16 ve Halo 2'nin iç işleyişi, trusted-setup törenleri, Sapling ve Orchard devrelerinin ayrıntıları, anahtar türetme ve çeşitlendirilmiş adresler ve protokolün ağ yükseltmeleri boyunca geçirdiği evrim. Ama temel artık yerinde ve bu konuların her birinin bağlanacağı bir yuvası var.

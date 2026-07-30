@@ -14,7 +14,7 @@ There are many different PGP tools available, but some of the most popular ones 
 * **[PGPMail](https://www.openpgp.org/software/)**: PGPMail is a commercial PGP email client that is available for Windows and macOS.
 * **[Mailvelope](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope is a free and open-source PGP extension for Gmail and Thunderbird.
 
-![PGP Tools](https://github.com/ZecHub/zechub/assets/81990132/44984a75-800a-4f7a-94a5-88827e39b431)
+![PGP Tools](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
 
 ## How to Generate Keys
 
@@ -28,7 +28,7 @@ To use PGP, you need to generate a pair of keys: How to generate PGP keys:
 
 Your PGP key pair will be generated.
 
-![Generate Keys](https://github.com/ZecHub/zechub/assets/81990132/15721ce1-0a77-4ebe-87f4-33e1455f2a40)
+![Generate Keys](/content-images/15721ce1-0a77-4ebe-87f4-33e1455f2a40-7699b1771d.webp)
 
 ## How to Use PGP for Email
 
@@ -36,7 +36,7 @@ Once you have generated a PGP key pair, you can use it to encrypt and decrypt em
 
 The encrypted email will be unreadable to anyone who does not have the recipient's private key. To decrypt the email, the recipient can use their private key to decrypt the email.
 
-![PGP Email](https://github.com/ZecHub/zechub/assets/81990132/dafb761d-f399-40c9-9323-526ba3bd0bc4)
+![PGP Email](/content-images/dafb761d-f399-40c9-9323-526ba3bd0bc4-98503ad98b.webp)
 
 ## Best Practices
 
@@ -44,9 +44,9 @@ Here are some best practices for using PGP:
 
 * Keep your private key safe. The private key is the most important part of your PGP key pair. If someone gets your private key, they can decrypt any messages that have been encrypted with your public key.
 
-![Best Practices 1](https://github.com/ZecHub/zechub/assets/81990132/39a6fae4-a9a1-4061-a97c-4a9b975f6383)
+![Best Practices 1](/content-images/39a6fae4-a9a1-4061-a97c-4a9b975f6383-eced005c8b.webp)
 
-![Best Practices 2](https://github.com/ZecHub/zechub/assets/81990132/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd)
+![Best Practices 2](/content-images/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd-50ca49a070.webp)
 
 * Share your public key with people you trust. You can share your public key by sending it to them directly, or by uploading it to a PGP keyserver.
 * Use strong passwords for your PGP keyring. Your PGP keyring is a file that stores your PGP keys. It is important to use a strong password to protect this file.
@@ -61,11 +61,11 @@ Here are some best practices for using PGP:
 * Click on the "Encrypt" button.
 * The email will be encrypted.
 
-![Encrypt Email](https://github.com/ZecHub/zechub/assets/81990132/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e)
+![Encrypt Email](/content-images/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e-6edd4a03ea.webp)
 
 ---
 
-![Encryption Flow](https://github.com/ZecHub/zechub/assets/81990132/da1499e9-fc87-46b2-93ed-28d43cf1fd86)
+![Encryption Flow](/content-images/da1499e9-fc87-46b2-93ed-28d43cf1fd86-86fdc87d10.webp)
 
 ## How to decrypt an email with PGP
 
@@ -76,4 +76,4 @@ Here are some best practices for using PGP:
 * Click on the "Decrypt" button.
 * The email will be decrypted.
 
-![Decrypt Email](https://github.com/ZecHub/zechub/assets/81990132/beae714c-020f-4c1e-aa4f-3dd9430670cc)
+![Decrypt Email](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)

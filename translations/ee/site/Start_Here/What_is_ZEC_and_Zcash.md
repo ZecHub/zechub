@@ -43,7 +43,7 @@ Zcash nye "Zerocash" ɖoɖowɔɖi ƒe dɔwɔwɔ. Enye agbalẽ gã si woate ŋu 
 Zcash kpɔa Bitcoin ƒe vodada gãtɔ gbɔ; ame ŋutɔ ƒe nutɔnyenye kple nyatakakawo tsɔtsɔ yi teƒe bubu. Le xexe si me amewo va le xɔm ɖe blockchain dɔwɔɖoɖowo kple cryptocurrencies dzi wu me la, ŋkɔ bubu ƒe asitsatsa meganye tiatia si woate ŋu awɔ atsɔ akpɔ ezãlawo ƒe nyatakakawo ta o. Wole ŋkuléleɖenuŋu ƒe dɔwɔɖoɖowo zãm geɖe wu tsɔ le ŋku lém ɖe blockchain ƒe asitsatsa ŋu.
 
 <a href="">
-    <img src="https://i.ibb.co/NN3XxrG/Zcash-logo-1.png" alt="" width="60" height="60"/>
+    <img src="/content-images/Zcash-logo-1-26747e0dd3.webp" alt="" width="60" height="60"/>
 </a>
 
 #### Nunɔamesiwo

@@ -1,6 +1,6 @@
 # Kuchapisha Tovuti kwenye IPFS
 
-![](https://blog.desdelinux.net/wp-content/uploads/2020/04/IPFS-.jpg)
+![](/content-images/IPFS-40c2e22732.webp)
 
 ## Utangulizi kwa IPFS
 
@@ -43,7 +43,7 @@ Kwa kutumia Kielelezo cha Amri au kidirisha cha amri, Chalaza amri:
 
 Chagua saraka yenye faili za tovuti yako na nenda kwenye chaguo la Ongeza Saraka.
 
-![](https://i.ibb.co/ZHW4zsY/ipfs-site-folder.png)
+![](/content-images/ipfs-site-folder-2c96524d98.webp)
 
 --
 
@@ -77,11 +77,11 @@ Katika kesi yetu, CID ni = "QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3"
 
 Interplanetary Naming System (IPNS) inaruhusu kusasisha CID za IPFS zinazohusiana na tovuti yako na bado kutumikia kiungo cha kudumu. IPNS hutoa ufunguo kama njia ya kutambulisha.
 
-![](https://dnslink.io/assets/dns-query.a0134a75.png)
+![](/content-images/dns-query.a0134a75-9ef7817f80.webp)
 
 Katika menyu ya mipangilio ya saraka ya tovuti yako kwenye Programu ya Kompyuta ya IPFS, chagua Chapisha kwenye IPNS. 
 
-![](https://i.ibb.co/Ch25dKf/IPNS.png)
+![](/content-images/IPNS-2fe62cc369.webp)
 
 Kifunguo: "k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n"
 
@@ -94,7 +94,7 @@ Tovuti imeundwa, sasa tunahitaji njia ya kuunganisha anwani ya URL na yaliyomo.
 
 kiwa tayari una umiliki wa anwani ya wavuti, unaweza kuongeza rekodi mpya kwa kutumia rekodi ya TXT "_dnslink(jina_lako_la_kikoa)". Kulingana na mtoa huduma, inaweza kujaza moja kwa moja.
 
-![](https://i.ibb.co/MgRxBHj/example.png)
+![](/content-images/example-c2a9edb28b.webp)
 
 Itachukua muda kabla ya kusambaa kwenye mtandao kabla ya kuweza kuiona.
 

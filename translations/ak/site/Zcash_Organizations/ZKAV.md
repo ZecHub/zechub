@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="https://i.ibb.co/tYvwnCW/image-2024-02-03-170636194.png" alt="Alt Text" width="50"/>    ZKAV Club
+# <img src="/content-images/image-2024-02-03-170636194-b507a57ff1.webp" alt="Alt Text" width="50"/>    ZKAV Club
 [Wɛbsaet no](https://zkav.club) - [Github a woagye atom](https://github.com/copernicus-mogley/zkav.club) - [X/Twitter so na woagye atom](https://x.com/ZkAv_Club) - [Youtube so na woayɛ](https://www.youtube.com/@ZkAv_Club)
 
 *The Zcash Foundation na ɛboa saa adwuma a ɛyɛ aniberesɛm yi a ɛwɔ fam no botaeɛ ne sɛ ɛnam mpɔtam hɔ ne mpɔtam hɔ nneyɛeɛ so bɛnya wiase nyinaa nkɛntɛnsoɔ. Adebɔfoɔ akuo bi a wɔbɛto nsa afrɛ wɔn sɛ wɔnsua na wɔnyɛ adwuma bom mfa nkɔ soro na wɔkyekyɛ nsɛm ne nsɛm a ɛkanyan, kyerɛkyerɛ, na ɛkyɛ Zcash ne sikasɛm mu kokoamsɛm ho bɔhyɛ*.

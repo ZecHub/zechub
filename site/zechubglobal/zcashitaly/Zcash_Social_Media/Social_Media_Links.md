@@ -1,6 +1,6 @@
 # Link ai social media
 
-## Twitter <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/twitter.svg" width="20" height="20"> 
+## Twitter <img src="/content-images/twitter-7aa71f6ae5.svg" width="20" height="20"> 
 
 1. Zcash - [@zcash](https://twitter.com/zcash)
 2. ZecHub - [@zechub](https://twitter.com/ZecHub)
@@ -33,14 +33,14 @@
 29. Zcash Canada - [@ZcashCanada](https://twitter.com/ZcashCanada)
 30. Cypherpunk Zero DAO - [@CypherpunkDAO](https://twitter.com/CypherpunkDAO)
 
-## YouTube <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/youtube.svg" width="20" height="20"> 
+## YouTube <img src="/content-images/youtube-c11a989228.svg" width="20" height="20"> 
 
 1. [Zcash Media](https://www.youtube.com/c/ZcashMedia)
 2. [ZecHub](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA)
 3. [Zcash Foundation](https://www.youtube.com/channel/UCi01v05DNTUEC_eB0c9rpgQ)
 4. [Electric Coin Co.](https://www.youtube.com/c/ZcashCo)
 
-## Discord <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/discord.svg" width="20" height="20"> 
+## Discord <img src="/content-images/discord-8b44dd0b44.svg" width="20" height="20"> 
 
 1. [Zcash Community](https://discord.com/invite/PhJY6Pm)
 2. [Zcash Global](https://discord.gg/zf8jvyDDfq)
@@ -51,15 +51,15 @@
 7. [Halo 2 Ecosystem](https://discord.gg/x5qw59pYQ6)
 8. [ZF A/V Club](https://discord.gg/VkAvUZfuXn)
 
-## Telegram <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/telegram.svg" width="20" height="20"> 
+## Telegram <img src="/content-images/telegram-ae969d14ba.svg" width="20" height="20"> 
 
 1. [Zcash Community](https://t.me/Zcash_Community)
 2. [Zcash Italia](https://t.me/zcashita)
 
-## Mastodon <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/mastodon.svg" width="20" height="20"> 
+## Mastodon <img src="/content-images/mastodon-d5e5cbfab3.svg" width="20" height="20"> 
 
 1. [Zeal Center](https://zeal.center/) - Registrati [qui](https://blog.zeal.center/registration.html) per unirti
 
-## Reddit <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/reddit.svg" width="20" height="20"> 
+## Reddit <img src="/content-images/reddit-5d9fdb65fe.svg" width="20" height="20"> 
 
 1. [r/zec](https://www.reddit.com/r/zec/)

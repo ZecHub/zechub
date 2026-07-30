@@ -43,7 +43,7 @@ Zcash ni utekelezaji wa "Zerocash" itifaki. Ni wazi chanzo, blockchain-msingi ki
 Zcash solves Bitcoin's biggest flaw; private ownership and transfer of data. Katika dunia ambapo blockchain maombi na cryptocurrencies ni kuwa zaidi kwa kiasi kikubwa kukubalika, pseudonymous shughuli ni tena chaguo viable kulinda faragha ya mtumiaji. ufuatiliaji maombi ni kuwa inazidi sana kutumika kuchambua blockchain shughuli.
 
 <a href="">
-    <img src="https://i.ibb.co/NN3XxrG/Zcash-logo-1.png" alt="" width="60" height="60"/>
+    <img src="/content-images/Zcash-logo-1-26747e0dd3.webp" alt="" width="60" height="60"/>
 </a>
 
 #### Rasilimali

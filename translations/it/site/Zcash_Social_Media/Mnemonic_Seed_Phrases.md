@@ -13,7 +13,7 @@ Le frasi di recupero sono definite dalla specifica **BIP-39**, il tipo di frase 
 
 La creazione delle frasi di recupero inizia generando **casualità**. Più entropia significa maggiore sicurezza. **128 bit** di entropia sono considerati sufficienti per la maggior parte degli utenti.
 
-![Seed phrase concept](https://pbs.twimg.com/media/FooM3qWWACgrwzn.jpg)
+![Seed phrase concept](/content-images/FooM3qWWACgrwzn-f222c4081f.webp)
 
 A seconda della lunghezza dell'entropia iniziale, la frase di recupero sarà lunga da **12 a 24 parole**.
 
@@ -28,7 +28,7 @@ Iniziamo generando **128 bit** di entropia.
 Facciamo l'hash dell'entropia usando **SHA256**. I primi bit di questo hash diventano il checksum.  
 Questo ci dà un'impronta unica per la nostra entropia.
 
-![Entropy + Checksum diagram](https://pbs.twimg.com/media/FooNoOEXgAAu-g6.png)
+![Entropy + Checksum diagram](/content-images/FooNoOEXgAAu-g6-613238fa7e.webp)
 
 ### 3. Suddividi in blocchi da 11 bit
 I 132 bit totali (128 di entropia + 4 di checksum) vengono separati in blocchi di 11 bit.
@@ -39,7 +39,7 @@ Le wordlist BIP-39 contengono esattamente **2048 parole** (inglese, spagnolo, ci
 
 Questi numeri vengono usati per trovare la parola corrispondente nella wordlist.
 
-![Word mapping example](https://pbs.twimg.com/media/FooN9rfXEBoQuU2.png)
+![Word mapping example](/content-images/FooN9rfXEBoQuU2-d11331fc0a.webp)
 
 **Risultato:** ora abbiamo una frase di recupero di 12 parole, sicura e leggibile dall'uomo!
 
@@ -59,7 +59,7 @@ Il seed del wallet viene derivato dalla frase mnemonica usando una **funzione di
 
 Questo produce un seed di **64 byte (512 bit)**.
 
-![Seed to master keys](https://pbs.twimg.com/media/FooOuumXEAgcBm1.jpg)
+![Seed to master keys](/content-images/FooOuumXEAgcBm1-dc7c66b84a.webp)
 
 ### Chiavi master
 Il seed viene suddiviso in due sequenze da 32 byte:
@@ -83,7 +83,7 @@ Da una **Expanded Spending Key** deriviamo:
 
 Diversi meccanismi di derivazione producono indirizzi esterni adatti a essere distribuiti ai mittenti attraverso gli shielded pool (Sapling e Orchard).
 
-![Zcash key derivation hierarchy](https://pbs.twimg.com/media/FooPKd4XEBUQhJ6.jpg)
+![Zcash key derivation hierarchy](/content-images/FooPKd4XEBUQhJ6-af133c01bf.webp)
 
 Zcash supporta anche gli **indirizzi interni** per operazioni del wallet come l'Auto-Shielding.
 

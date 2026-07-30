@@ -12,7 +12,7 @@ Probador ---> Hace el reclamo ---> Verificador elige ---> Acepta/Rechaza
 
 En informática los términos para prueba eficientemente verificables es Prueba NP. Estas pruebas cortas pueden ser verificables en tiempo polinomial. La idea general es “Existe una solución para un teorema y es pasado al verificador para comprobarlo” 
 
-![NPlanguage](https://github.com/ZecHub/zechub/assets/27905787/e8089f44-bd9a-4056-82df-19af0a880a01 "Lenguajes NP")
+![NPlanguage](/content-images/e8089f44-bd9a-4056-82df-19af0a880a01-2208a31c66.webp "Lenguajes NP")
 
 En un lenguaje-NP = dos condiciones se deben cumplir:
 
@@ -27,7 +27,7 @@ Solidez: los reclamos falsos no tendrán pruebas (para todas las estrategias tra
 
 ** Aleatoriedad**: Las solicitudes del verificador al probador son aleatorias y el probador debe ser capaz de responder correctamente a cada uno.
 
-![Mod Pruebas Interactivo](https://github.com/ZecHub/zechub/assets/27905787/af082a5d-583e-4b10-99c2-39dff196ab11 "Protocolo Pruebas Interactivas")
+![Mod Pruebas Interactivo](/content-images/af082a5d-583e-4b10-99c2-39dff196ab11-107f594d69.webp "Protocolo Pruebas Interactivas")
 
 Usando interacción y aleatoriedad juntas es posible probar un reclamo para un verificador a ciegas en Tiempo Probabilístico Polinómico [Probabilistic Polynomial Time (PPT)].
 
@@ -61,7 +61,7 @@ Vista Real: Todas las posibles historias de interacciones entre Probadores y Ver
 
 Vista Simulada: el verificador simula todas las interacciones posibles entre el Probador y el Verificador
 
-![Indistinguibilidad Computacional](https://github.com/ZecHub/zechub/assets/27905787/2af8aa93-3af6-4597-b39d-91c58ea352d0 "Paradigma de la Simulación")
+![Indistinguibilidad Computacional](/content-images/2af8aa93-3af6-4597-b39d-91c58ea352d0-47649392f2.webp "Paradigma de la Simulación")
 
 Un diferenciador de tiempo polinomial hace un intento para determinar ya sea que están viendo la vista real o la simulada y solicitar una muestra de ambas repetidamente.
 
@@ -90,7 +90,7 @@ Ejemplo: "3x² + 8x + 17"
 
 ** Circuito aritmético**: Un modelo para calcular polinomios. Más generalmente se puede definir como un Gráfico Acíclico Dirigido (Directed Acyclic Graph – DAG) donde en cada nodo del gráfico se realiza una operación aritmética. El circuito consta de puertas de suma, puertas de multiplicación y algunas puertas constantes. En la misma manera que los circuitos Booleanos transportan bits en cables, los circuitos aritméticos transportan enteros. 
 
-![Circuitos](https://github.com/ZecHub/zechub/assets/27905787/1466af84-6f21-4845-bb7c-7b617b773593 "DAG")
+![Circuitos](/content-images/1466af84-6f21-4845-bb7c-7b617b773593-9ab5fe7bcf.webp "DAG")
 
 En este ejemplo, el probador quiere convencer al verificador que conoce la solución para el circuito aritmético.
 
@@ -115,7 +115,7 @@ Oráculo interactivo de polinomios: El verificador pide al probador (algoritmo) 
 
 Los procedimientos de configuración ayudan al verificador resumiendo un circuito y emitiendo parámetros públicos.
 
-![Configuraciones de Procedimientos](https://github.com/ZecHub/zechub/assets/27905787/8bc11ba9-c5f3-4982-bc01-d8574d66de9e "Configuración")
+![Configuraciones de Procedimientos](/content-images/8bc11ba9-c5f3-4982-bc01-d8574d66de9e-d1c0293ac7.webp "Configuración")
 
 **Tipos de configuración de preprocesamiento**:
 
@@ -156,7 +156,7 @@ zk-SNARK proporciona varias ventajas en una variedad de aplicaciones diferentes.
 
 La ventaja de un servicio Rollup basado en pruebas (zk-Rollup) es procesar un lote de cientos/miles de transacciones y que la L1 es capaz de verificar una prueba sucinta que todas las transacciones fueron procesadas correctamente, escalando el rendimiento de las transacciones de la red por un factor de 100 o de 1000.
 
-![ZKVM](https://github.com/ZecHub/zechub/assets/27905787/5d2d039a-0eb2-464d-8f30-7eb68badc015 "ZKVM")
+![ZKVM](/content-images/5d2d039a-0eb2-464d-8f30-7eb68badc015-b0d176c17c.webp "ZKVM")
 
 **Interoperabilidad**: esto se logra en un zk-Bridge por 'bloqueo' de activos en una cadena de origen y probando a la cadena objetivo que los activos han sido bloqueados (prueba de consenso).
 

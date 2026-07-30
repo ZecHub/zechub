@@ -47,7 +47,7 @@ Pourquoi un utilisateur voudrait-il faire cela ? Extrait du blog d’Electric Co
 * Dans le coin supérieur droit, sélectionnez "Account", cliquez sur "+" en bas à droite pour ajouter et importer votre viewing key afin d’ajouter votre compte en 'lecture seule'.
 
 <a href="">
-    <img src="https://i.ibb.co/C0b002N/image-2024-01-13-175554676.png" alt="" width="200" height="280"/>
+    <img src="/content-images/image-2024-01-13-175554676-8cdf988797.webp" alt="" width="200" height="280"/>
 </a>
 
 

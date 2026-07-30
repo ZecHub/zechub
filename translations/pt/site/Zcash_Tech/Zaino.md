@@ -17,13 +17,13 @@ Além disso, Zaino permitirá separar a funcionalidade do cliente leve do nó co
 ## Alguns diagramas que mostram como o Zaino funciona
 
 ### Arquitetura Interna do Zaino
-![Arquitetura Interna do Zaino](https://i.ibb.co/mRTNtfy/image-2025-01-02-190143429.png)
+![Arquitetura Interna do Zaino](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
 
 ### Arquitetura do Serviço Ativo do Zaino
-![Arquitetura do Serviço Ativo do Zebra](https://i.ibb.co/x7dbRY8/image-2025-01-02-190349017.png)
+![Arquitetura do Serviço Ativo do Zebra](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
 
 ### Arquitetura do Sistema Zaino
-![Arquitetura do Sistema Zaino](https://i.ibb.co/wwL0XZv/image-2025-01-02-190448037.png)
+![Arquitetura do Sistema Zaino](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
 
 
 ## Onde posso aprender mais?

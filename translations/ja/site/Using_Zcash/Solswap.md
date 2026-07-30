@@ -2,7 +2,7 @@
 
 
 
-![img1](https://hackmd.io/_uploads/SJOlnt-ceg.png)
+![img1](/content-images/SJOlnt-ceg-34468cfecd.webp)
 
 ---
 
@@ -11,7 +11,7 @@
 または、Phantomブラウザから **[solswap.org](https://solswap.org/)** を訪問してください。  
 
 
-![img2](https://hackmd.io/_uploads/S1Cp-KWqxe.jpg)
+![img2](/content-images/S1Cp-KWqxe-ab70e844b9.webp)
 
 ---
 
@@ -19,7 +19,7 @@
 - ソースネットワーク（例：*Ethereum* or *Solana*）を選び、スワップのために押入してください。  
 
 
-![img3](https://hackmd.io/_uploads/S1SaGYZ9xx.jpg)
+![img3](/content-images/S1SaGYZ9xx-2a27ccdd47.webp)
 
 - **SOL, USDT, または USDC**などのベーストークンを選択します。  
 - **ZEC**を**目的地トークン**として選択します。  
@@ -27,7 +27,7 @@
 
 
 
-![img4](https://hackmd.io/_uploads/ry4QQF-5gx.jpg)
+![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
 
 ---
 
@@ -36,7 +36,7 @@
 - Phantomは手数料を考慮した**推定受取金額**を表示します。  
 
 
-![img5](https://hackmd.io/_uploads/B1U1NYW5xe.jpg)
+![img5](/content-images/B1U1NYW5xe-58cf150668.webp)
 
 ---
 
@@ -63,7 +63,7 @@
 - **Swap Now**をタップしてトランザクションを開始します。  
 
 
-![img6](https://hackmd.io/_uploads/HkU1UKZ5gx.jpg)
+![img6](/content-images/HkU1UKZ5gx-e068ea8d5a.webp)
 
 ---
 
@@ -72,6 +72,6 @@
 - クロスチェーンスワップの場合、**Li.Fi Scanner**に**トランザクションID**を使用してリアルタイム更新情報を取得してください。 
 
 
-![img7](https://hackmd.io/_uploads/S1NBwKbcxe.jpg)
+![img7](/content-images/S1NBwKbcxe-5b7d11f5c1.webp)
 
 次に、このガイドに従って[ZECを非表示化する方法](https://zechub.wiki/guides/using-zec-privately)を開始できます。

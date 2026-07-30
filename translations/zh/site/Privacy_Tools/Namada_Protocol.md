@@ -2,7 +2,7 @@
 
 # Namada Protocol
 
-![Namada 标志](https://i.ibb.co/BZcZHS1/logo.png)
+![Namada 标志](/content-images/logo-2067e2533d.webp)
 
 
 ## 什么是 Namada？
@@ -26,7 +26,7 @@ Namada 将隐私放在优先位置，采用增强版的 Multi-Asset Shielded Poo
 
 将 Ethereum bridge 集成到 Namada 中后，无需再单独依赖一个独立协议，因为它已成为 Namada 生态系统的组成部分。Namada 中的验证者负责在运行核心 Namada 协议的同时运行该桥。这些验证者在将资产转移到 Namada 时也充当中继者，因此不再需要额外参与者。另一方面，在将资产转移到 Ethereum 时，则会有外部方（称为 relayers）参与，但他们不负责验证或保障该桥的安全。
 
-![Ethereum Bridge 示意图](https://i.ibb.co/wKds5RP/image.jpg)
+![Ethereum Bridge 示意图](/content-images/image-0fd8f754ba.webp)
 
 Namada Protocol 还能够与任何支持 Inter-Blockchain Communication（IBC）协议且具备快速终局性的链无缝连接。在与 Ethereum 互操作时，Namada 实现了一种专门且安全的 Ethereum bridge，并以无需信任的方式运行。该桥经过精心设计，将安全性放在首位：对所有桥接连接实施流量控制，并将任何有问题的 Ethereum 转账视为严重违规行为，可能触发罚没惩罚。
 
@@ -40,7 +40,7 @@ Namada Protocol 还能够与任何支持 Inter-Blockchain Communication（IBC）
 
 在屏蔽转账中，无论涉及的是 Ethereum 非同质化代币（NFT）、ATOM 还是 NAM，它们彼此都无法区分。这意味着，MASP（Modified Accumulator Sapling Protocol，Zcash Sapling 电路的增强版本）提供的隐私保护特性会统一适用于所有类型的资产。MASP 电路使 Namada 生态系统中的所有资产共享同一个屏蔽集合。这种方式确保隐私保障不会在不同资产之间被割裂。无论某种特定资产的交易量如何，隐私保护都保持一致且彼此独立。
 
-![屏蔽资产交易示意图](https://i.ibb.co/7CDmWk6/image-1.png)
+![屏蔽资产交易示意图](/content-images/image-1-512c639d56.webp)
 
 通过在不同资产之间统一屏蔽集合，Namada 确保无论屏蔽转账涉及哪种具体资产类型，隐私都能得到一致维护。这种方法推动协议内部形成统一的隐私框架，并增强涉及 Ethereum NFT、ATOM、NAM 及其他受支持资产交易的保密性。Namada 还使用新型 zk-SNARKs 实现同质化与非同质化代币的私密转移，确保原生与非原生代币都能像在 Zcash 上那样获得保密性保护。
 
@@ -54,7 +54,7 @@ Namada 结合了两个关键要素来实现快速交易速度和终局性：快�
 
 根据最近发布的一篇文章，可参见 [Namada Protocol Blog](https://blog.namada.net/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/)，Namada Protocol 背后的团队很高兴提出一项提案和征求意见稿（RFC），旨在推动 Namada 与 Zcash 的资产、链和社区之间建立战略联盟。
 
-![Namada-Zcash 战略联盟示意图](https://i.ibb.co/FqsmkMb/image-2.png)
+![Namada-Zcash 战略联盟示意图](/content-images/image-2-68804c60f3.webp)
 
 该联盟提案包含三个主要要素。首先，将创建一个资助池，为能够同时惠及 Zcash 和 Namada 的项目提供资金支持。其次，将向 ZEC 持有者分发 NAM 代币空投。最后，团队计划建立一座连接 Zcash 与 Namada 的最小信任桥。该桥一旦落地，ZEC 持有者（称为 Zolders）就能在 Namada 上使用他们的 ZEC。此外，Zolders 还将有机会通过 Namada 接入更广泛的 Cosmos 和 Ethereum 生态系统。你可以在 [Zcash Community Forum](https://forum.zcashcommunity.com/t/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/44372) 了解更多关于该战略联盟的信息。
 

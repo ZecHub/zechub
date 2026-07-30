@@ -17,7 +17,7 @@ Kí o tó bẹ̀rẹ̀ sí kọ̀wé:
 - Ṣayẹwo [Awọn ẹbun ZEC ](https://bounties.zechub.wiki/) fún iṣẹ́ ìwé ìròyìn tó ń lọ lọ́wọ́lọ́wọ́.
 - Dúró kí wọ́n tó yàn ọ́
 
-![ss](https://github.com/user-attachments/assets/149a802c-b64f-4969-ad89-e83ffecf568e)
+![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
 
 
 
@@ -93,7 +93,7 @@ Lo awọn ibeere fifọ iwe iroyin ti o dapọ wọnyi bi awọn apẹẹrẹ ti
 - [Ìsọfúnni Nípa Àyíká Zcash] February 14](https://github.com/ZecHub/zechub/pull/1474)
 
 
-![Àpẹẹrẹ ìfilọ̀ ìwé ìròyìn ZecWeekly tí a so pọ̀](https://github.com/user-attachments/assets/9230d68d-6406-4c8a-992c-df84e0d318d8)
+![Àpẹẹrẹ ìfilọ̀ ìwé ìròyìn ZecWeekly tí a so pọ̀](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)
 
 Nigbati o ba ṣe afiwe iṣẹ rẹ pẹlu apẹẹrẹ kan, fojusi lori ipo faili, ọna kika akọle, aṣẹ apakan, awọn apejuwe asopọ, ati boya ibeere fa naa sopọ pada si iṣẹ-ṣiṣe ti o tọ.
 

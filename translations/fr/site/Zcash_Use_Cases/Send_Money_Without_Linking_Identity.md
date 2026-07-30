@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/send-svgrepo-com.svg" width="24" height="24" alt="icône journaliste"/> Envoyer de l’argent sans lier votre identité
+# <img src="/content-images/send-svgrepo-com-b62f643de0.svg" width="24" height="24" alt="icône journaliste"/> Envoyer de l’argent sans lier votre identité
 
 <span className="inline-flex items-center gap-[6px]"><span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>Intermédiaire - 7 min</span>
 
@@ -11,7 +11,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône utilisateur"/> À qui cela s’adresse-t-il ?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône utilisateur"/> À qui cela s’adresse-t-il ?
 
 - Toute personne envoyant des paiements sensibles
 - Les utilisateurs soucieux de leur vie privée
@@ -19,7 +19,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône avertissement"/> Le problème
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône avertissement"/> Le problème
 
 L’envoi de crypto révèle souvent :
 - L’identité de votre wallet
@@ -30,7 +30,7 @@ Cela crée un **graphe financier traçable**.
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône boîte à outils"/> Pourquoi Zcash?
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône boîte à outils"/> Pourquoi Zcash?
 
 
 Zcash permet des **transferts entièrement privés** grâce aux transactions protégées.
@@ -41,14 +41,14 @@ Cela casse :
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône boîte à outils"/> Ce dont vous avez besoin
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône boîte à outils"/> Ce dont vous avez besoin
 
 - Un wallet qui prend en charge les transactions protégées
 - Une compréhension de base des z-addresses
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône étape"/> Guide étape par étape
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône étape"/> Guide étape par étape
 
 ### Étape 1 : S’assurer que les fonds sont protégés
 
@@ -77,7 +77,7 @@ Conseil avancé :
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône annulation"/> Erreurs courantes à éviter
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône annulation"/> Erreurs courantes à éviter
 
 - Envoyer directement depuis des adresses transparentes  
 - Réutiliser des adresses avec plusieurs personnes  
@@ -86,7 +86,7 @@ Conseil avancé :
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="icône terminé"/> Résultat
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="icône terminé"/> Résultat
 
 Vous pouvez :
 - Envoyer des fonds en privé
@@ -95,12 +95,12 @@ Vous pouvez :
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône maillons de chaîne"/> Lié
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône maillons de chaîne"/> Lié
 - [Confidentialité - Protégé vs transparent](/privacy/shielded-vs-transparent)
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/progress-arrows-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône progression"/> Progression
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône progression"/> Progression
 
 **Étape 2 sur 6**
 

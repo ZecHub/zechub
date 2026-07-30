@@ -10,36 +10,36 @@
 ### 2. Выберите свою страну и оператора
 Прокрутите страницу в левый верхний угол и выберите свою страну; затем выберите пополнение мобильного телефона и укажите оператора, счёт которого вы хотите пополнить (например: MTN).
 
-![Step 2 - Selecting country and network](https://cdn-images-1.medium.com/max/1200/0*qvB7ZCWaVWa-C2d8)
+![Step 2 - Selecting country and network](/content-images/0-qvB7ZCWaVWa-C2d8-db0d4ea372.webp)
 
 ### 3. Заполните данные и совершите покупку
 Введите правильные данные и нажмите кнопку «Buy Now». Откройте корзину, чтобы просмотреть заказ, нажмите continue и подтвердите покупку с помощью $ZEC.
 
-![Step 3 - Purchase screen](https://cdn-images-1.medium.com/max/1200/0*ikF-ooBc9W7olfNt)
+![Step 3 - Purchase screen](/content-images/0-ikF-ooBc9W7olfNt-7a4584edda.webp)
 
 ### 4. Платёжные реквизиты
 Вам будет показана эквивалентная сумма в $ZEC, а также прозрачный адрес, на который нужно отправить средства.
 
-![Step 4 - ZEC payment details](https://cdn-images-1.medium.com/max/1200/0*6_YhAhQnsLbrMvHN)
+![Step 4 - ZEC payment details](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
 
 ### 5. Отправьте платёж
 Внимательно скопируйте и вставьте сумму и адрес. В поле memo добавьте свой адрес YWallet на случай, если потребуется возврат средств.
 
-![Step 5 - Sending ZEC](https://cdn-images-1.medium.com/max/1200/0*DNnpyemsKcW-k-u-)
+![Step 5 - Sending ZEC](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
 
 ### 6. Обработка
 После отправки средств ваш запрос будет обработан в течение нескольких минут.
 
-![Step 6 - Processing screen](https://cdn-images-1.medium.com/max/1200/0*LgXuUVLVecqrUW5G)
+![Step 6 - Processing screen](/content-images/0-LgXuUVLVecqrUW5G-a894c7b2dd.webp)
 
 ### 7. Подтверждение
 Эй… Мой счёт уже пополнен! Вы также можете подтвердить свой email во время процесса оплаты, чтобы получить уведомление по электронной почте после завершения транзакции.
 
-![Step 7 - Successful top-up](https://cdn-images-1.medium.com/max/1200/0*TJKIcqznQ4Y8_jgo)
+![Step 7 - Successful top-up](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
 
 ---
 
-![Additional screenshot](https://cdn-images-1.medium.com/max/1200/0*Jn7tD9lb2xtMBpIw)
+![Additional screenshot](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)
 
 ### Другие места, где можно потратить ZEC
 

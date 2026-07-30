@@ -57,7 +57,7 @@ Crackle चॉकलेट कुकीज़ | श्रेय: Sheila Vargas R
 
 तो, अगर आप कुकी मॉन्स्टर हैं..,
 
-![https://media.tenor.com/Px4lboKQYbYAAAAC/champagne-barbie-cookie-monster.gif](https://media.tenor.com/Px4lboKQYbYAAAAC/champagne-barbie-cookie-monster.gif)
+![/content-images/champagne-barbie-cookie-monster-ded97640a2.webp](/content-images/champagne-barbie-cookie-monster-ded97640a2.webp)
 
 अब आप जानते हैं कि अपना ZEC कहाँ खर्च करना है!
 
@@ -149,7 +149,7 @@ u1u7unmxgr6efh0l94hz0ag6zku4rjeuuarhql5xsnt744e2lu0dsmhrye5a6mlahw067atgh6x0ykax
 
 • branding construction..,  अन्य के साथ। हमेशा Venezuela की हर उस महिला को ध्यान में रखते हुए जो अपना खुद का व्यवसाय चलाना चाहती है।
 
-![https://i0.wp.com/emprendedorasdigitales.org/wp-content/uploads/2020/07/cropped-logo-nuevo_Mesa-de-trabajo-1-scaled-1.jpg?resize=300%2C208&ssl=1](https://i0.wp.com/emprendedorasdigitales.org/wp-content/uploads/2020/07/cropped-logo-nuevo_Mesa-de-trabajo-1-scaled-1.jpg?resize=300%2C208&ssl=1)
+![/content-images/cropped-logo-nuevo_Mesa-de-trabajo-1-sca-ba7d9d40e8.webp](/content-images/cropped-logo-nuevo_Mesa-de-trabajo-1-sca-ba7d9d40e8.webp)
 
 **वेबसाइट**: [https://emprendedorasdigitales.org/](https://emprendedorasdigitales.org/) 
 

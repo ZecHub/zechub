@@ -13,7 +13,7 @@ Blokproducenten (ook wel miners genoemd) zijn belast met het valideren van trans
 In Bitcoin en andere cryptocurrencies gaan alle blokbeloningen naar blokproducenten. Zcash is uniek in het feit dat 20% van de blokbeloning wordt overgemaakt naar het [Zcash ontwikkelingsfonds](https://zips.z.cash/zip-1014). Dit fonds financiert de teams die werken aan het Zcash-protocol.
 
 Momenteel ontvangt [Zcash Community Grants](https://zcashcommunitygrants.org/) 8% van de blokbeloningen, ontvangt Electric Coin Co. 7% en ontvangt de Zcash Foundation 5%. Dit komt neer op respectievelijk 40%, 35% en 25% van het ontwikkelingsfonds.
-![Ontwikkelaarsfondsontvangers](https://user-images.githubusercontent.com/43553081/212411570-4858a3d6-f7a1-465a-bf0c-d2ef726d41dc.jpeg)
+![Ontwikkelaarsfondsontvangers](/content-images/212411570-4858a3d6-f7a1-465a-bf0c-d2ef72-1efe3a104e.webp)
 
 In 2020 stemde de Zcash-gemeenschap over het ontwikkelingsfonds en de teams die erdoor ondersteund worden. In 2024 stemt de gemeenschap opnieuw om te bepalen wie geld uit het ontwikkelingsfonds krijgt.
 

@@ -14,7 +14,7 @@ Existem muitas ferramentas PGP diferentes disponíveis, mas algumas das mais pop
 * **[PGPMail](https://www.openpgp.org/software/)**: PGPMail é um cliente de e-mail PGP comercial, disponível para Windows e macOS.
 * **[Mailvelope](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope é uma extensão PGP gratuita e de código aberto para Gmail e Thunderbird.
 
-![Ferramentas PGP](https://github.com/ZecHub/zechub/assets/81990132/44984a75-800a-4f7a-94a5-88827e39b431)
+![Ferramentas PGP](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
 
 ## Como Gerar Chaves
 
@@ -28,7 +28,7 @@ Para usar PGP, você precisa gerar um par de chaves: Como gerar chaves PGP:
 
 Seu par de chaves PGP será gerado.
 
-![Gerar Chaves](https://github.com/ZecHub/zechub/assets/81990132/15721ce1-0a77-4ebe-87f4-33e1455f2a40)
+![Gerar Chaves](/content-images/15721ce1-0a77-4ebe-87f4-33e1455f2a40-7699b1771d.webp)
 
 ## Como Usar PGP para E-mail
 
@@ -36,7 +36,7 @@ Depois de gerar um par de chaves PGP, você pode usá-lo para criptografar e des
 
 O e-mail criptografado será ilegível para qualquer pessoa que não tenha a chave privada do destinatário. Para descriptografar o e-mail, o destinatário pode usar sua chave privada para descriptografar o e-mail.
 
-![E-mail PGP](https://github.com/ZecHub/zechub/assets/81990132/dafb761d-f399-40c9-9323-526ba3bd0bc4)
+![E-mail PGP](/content-images/dafb761d-f399-40c9-9323-526ba3bd0bc4-98503ad98b.webp)
 
 ## Boas Práticas
 
@@ -44,9 +44,9 @@ Aqui estão algumas boas práticas para usar PGP:
 
 * Mantenha sua chave privada em segurança. A chave privada é a parte mais importante do seu par de chaves PGP. Se alguém obtiver sua chave privada, poderá descriptografar quaisquer mensagens que tenham sido criptografadas com sua chave pública.
 
-![Boas Práticas 1](https://github.com/ZecHub/zechub/assets/81990132/39a6fae4-a9a1-4061-a97c-4a9b975f6383)
+![Boas Práticas 1](/content-images/39a6fae4-a9a1-4061-a97c-4a9b975f6383-eced005c8b.webp)
 
-![Boas Práticas 2](https://github.com/ZecHub/zechub/assets/81990132/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd)
+![Boas Práticas 2](/content-images/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd-50ca49a070.webp)
 
 * Compartilhe sua chave pública com pessoas em quem você confia. Você pode compartilhar sua chave pública enviando-a diretamente a elas ou fazendo upload dela para um servidor de chaves PGP.
 * Use senhas fortes para seu chaveiro PGP. Seu chaveiro PGP é um arquivo que armazena suas chaves PGP. É importante usar uma senha forte para proteger esse arquivo.
@@ -61,11 +61,11 @@ Aqui estão algumas boas práticas para usar PGP:
 * Clique no botão "Encrypt".
 * O e-mail será criptografado.
 
-![Criptografar E-mail](https://github.com/ZecHub/zechub/assets/81990132/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e)
+![Criptografar E-mail](/content-images/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e-6edd4a03ea.webp)
 
 ---
 
-![Fluxo de Criptografia](https://github.com/ZecHub/zechub/assets/81990132/da1499e9-fc87-46b2-93ed-28d43cf1fd86)
+![Fluxo de Criptografia](/content-images/da1499e9-fc87-46b2-93ed-28d43cf1fd86-86fdc87d10.webp)
 
 ## Como descriptografar um e-mail com PGP
 
@@ -76,4 +76,4 @@ Aqui estão algumas boas práticas para usar PGP:
 * Clique no botão "Decrypt".
 * O e-mail será descriptografado.
 
-![Descriptografar E-mail](https://github.com/ZecHub/zechub/assets/81990132/beae714c-020f-4c1e-aa4f-3dd9430670cc)
+![Descriptografar E-mail](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)

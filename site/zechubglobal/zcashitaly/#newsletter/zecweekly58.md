@@ -1,6 +1,6 @@
 # ZecWeekly #58
 
-![ZecWeekly #58](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feeb25734-1d1e-47f1-b3a2-a0419eff65be_1280x720.png)
+![ZecWeekly #58](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-4905ce1085.webp)
 
 Newsletter di agosto della ZF, ancora aperte le domande per "Minor Grants" ed il prossimo Town Hall!
 
@@ -109,7 +109,7 @@ Per saperne di più: [Visualizzazione degli indirizzi Zcash](https://wiki.zechub
 
 ## Zeme della settimana
 
-![Zeme](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a1b46d0-9a5b-42e7-8fac-c016d1b4bd43_920x1280.webp)
+![Zeme](/content-images/https-3A-2F-2Fsubstack-post-media.s3.ama-6b66526939.webp)
 
 ## Lavori nell'ecosistema
 

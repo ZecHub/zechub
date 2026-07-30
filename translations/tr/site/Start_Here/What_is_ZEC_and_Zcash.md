@@ -43,7 +43,7 @@ Zcash, "Zerocash" protokolünün bir uygulamasıdır. Gelişmiş bir sıfır bil
 Zcash, Bitcoin'in en büyük kusurunu çözer; verinin özel mülkiyeti ve aktarımı. Blokzincir uygulamalarının ve kripto paraların daha geniş kabul gördüğü bir dünyada, takma adlı işlemler artık kullanıcı gizliliğini korumak için uygulanabilir bir seçenek değildir. Blokzincir işlemlerini analiz etmek için gözetim uygulamaları giderek daha yaygın kullanılmaktadır.
 
 <a href="">
-    <img src="https://i.ibb.co/NN3XxrG/Zcash-logo-1.png" alt="" width="60" height="60"/>
+    <img src="/content-images/Zcash-logo-1-26747e0dd3.webp" alt="" width="60" height="60"/>
 </a>
 
 #### Kaynaklar

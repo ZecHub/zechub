@@ -15,7 +15,7 @@ Loni a kọ nipa wọn & bo ọkan ninu awọn ẹya tuntun ninu ilolupo eda abe
 
 **Shielded Transaction** tọka si eyikeyi idunadura pẹlu awọn adirẹsi ti a ṣe akojọ fun awọn adagun Sapling/Orchard.
 
-[Ìfilọlẹ tí ó ṣe kedere lòdì sí ìfilọ́lẹ̀ tí ó ní ààbò]](https://pbs.twimg.com/media/FpmW00HWIAIZpQD.jpg)
+[Ìfilọlẹ tí ó ṣe kedere lòdì sí ìfilọ́lẹ̀ tí ó ní ààbò]](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
 
 **Awọn Adirẹsi Iṣọkan (UA) ** ni a ṣe lati **ṣọkan** awọn iṣowo ti o ni aabo tabi ṣiṣan sinu adirẹti kan.
 
@@ -31,9 +31,9 @@ Awọn oriṣi adirẹsi mẹta lo wa:
 
 Nọmba awọn ohun kikọ (ati nitorinaa iwọn koodu QR) n pọ si pẹlu iru kọọkan.
 
-![Ìfiwéra àwọn oríṣi àdírẹ́sì](https://pbs.twimg.com/media/FpmXe5bXsAEFeLY.png)
+![Ìfiwéra àwọn oríṣi àdírẹ́sì](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
 
-![Ìfiwéra iwọn kóòdì QR](https://pbs.twimg.com/media/FpmXmDwXoAIWxov.png)
+![Ìfiwéra iwọn kóòdì QR](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
 
 ---
 
@@ -50,7 +50,7 @@ The raw encoding of a Unified Address is a combination of encodings (typecode, l
 
 **Ó ṣe pàtàkì**: Ó gbọdọ jẹ **ó kéré tán adirẹsi ìsanwó kan tí a fi ààbò pamọ́** ní gbogbo UA. (A kò tún gba àwọn adírẹsi ẹ̀ka mọ́ lẹ́yìn àtúnṣe Canopy.)
 
-![Àkójọ Àkọsílẹ̀ UA](https://pbs.twimg.com/media/FpmYW1ZXgAAvALT.png)
+![Àkójọ Àkọsílẹ̀ UA](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
 
 Àkọsílẹ̀ kíkún: **[ZIP-316: Àwọn Adirẹsi Tí ó Ṣọ̀kan]](https://zips.z.cash/zip-0316)**
 

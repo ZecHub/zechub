@@ -1,7 +1,7 @@
 # Hashing und Commitments: Der magisch versiegelte Umschlag
 ##### Originalforschung von [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![Alternativtext](image-15.png)
+![Alternativtext](/content-images/image-15-0c16784b27.webp)
 
 ### Wie man ein Geheimnis öffentlich einschließt und danach niemals darüber lügen kann
 
@@ -30,7 +30,7 @@ Dieses Werkzeug nach dem Muster „jetzt festlegen, später offenlegen, keine L�
 
 Eine **Hash-Funktion** nimmt beliebige Daten, einen einzelnen Buchstaben oder eine ganze Bibliothek, und presst sie zu einer kurzen Zeichenfolge fester Länge zusammen, die **Digest** oder **Hash** genannt wird. Stell es dir als einen **Fingerabdruck für Daten** vor.
 
-![Alternativtext](image-16.png)
+![Alternativtext](/content-images/image-16-52fdf62c87.webp)
 
 Ein guter kryptografischer Fingerabdruck hat vier Eigenschaften. Verstehe sie als Intuitionen, nicht als Gleichungen:
 
@@ -69,7 +69,7 @@ Die Lösung ist ein einziges Wort: **Zufälligkeit.**
 
 Jetzt erzeugt derselbe Wert `v` jedes Mal ein anders aussehendes Commitment, weil `r` unterschiedlich ist. Die beiden Eigenschaften, die wir wollten, gelten endlich beide:
 
-![Alternativtext](image-17.png)
+![Alternativtext](/content-images/image-17-3ec4617665.webp)
 
 Um das Commitment später **zu öffnen** (offenzulegen), veröffentlichst du `v` und `r`; jeder kann `H(v, r)` neu berechnen und prüfen, ob es übereinstimmt. Du bist festgelegt. Das ist der magisch versiegelte Umschlag aus Artikel 0, in realer Form.
 
@@ -100,7 +100,7 @@ SHA-256 ist ein hervorragender Fingerabdruck für alltägliche Berechnungen. Abe
 
 Deshalb haben Zcash-Kryptografen Hash-Funktionen entworfen, deren Inneres *bereits* Körperarithmetik ist, wodurch sie billig zu beweisen sind:
 
-![Alternativtext](image-18.png)
+![Alternativtext](/content-images/image-18-89ade807ad.webp)
 
 Dieser einzelne technische Druck, *„es muss billig zu beweisen sein“*, ist der Grund, warum Zcash spezielle Hash-Funktionen erfunden und übernommen hat, statt überall einfach zu SHA-256 zu greifen.
 

@@ -8,7 +8,7 @@ Zcash TEX 地址表示一种独特的接收地址类型。它是 “Transparent 
 
 TEX 地址的技术提案详见 Zcash [ZIP 320](https://zips.z.cash/zip-0320)，其中定义了一种专门用于从 Transparent 地址接收资金的地址类型。
 
-![TEX](https://i.ibb.co/8m7HPqV/ZashiTex.png)
+![TEX](/content-images/ZashiTex-b1cbec5f07.webp)
 
 尽管 TEX 地址尚未被广泛采用，但 Zcash 用户最终可能会被要求使用它们。
 

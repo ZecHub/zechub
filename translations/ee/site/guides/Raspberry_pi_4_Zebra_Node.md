@@ -4,7 +4,7 @@
 
 # Raspberry Pi 4 Mɔfiame na Zebra Duƒuƒu
 
-<img src="https://i.ibb.co/V3rjKwv/image-2023-11-28-172907488.png" alt="raspberry pi" width="300" height="300"/>
+<img src="/content-images/image-2023-11-28-172907488-e7e9fd4ac5.webp" alt="raspberry pi" width="300" height="300"/>
 
 Zebra node ƒe kɔmpiuta dɔwɔɖoɖoa zazã le Raspberry Pi 4 dzi na be nàte ŋu akpɔ gome le Zcash network la me abe node si le eɖokui si, si sɔ kple nukpɔsusu ɖeka ene. Mɔfiame sia akplɔ wò to atrakpui siwo dzi nàto aɖo Zebra ɖe wò Raspberry Pi 4 dzi ahawɔe.
 
@@ -67,7 +67,7 @@ Zebra node ƒe kɔmpiuta dɔwɔɖoɖoa zazã le Raspberry Pi 4 dzi na be nàte �
 7. __Ŋkuléle ɖe ame ŋu__ .
    Àte ŋu alé ŋku ɖe wò Zebra node ƒe ŋgɔyiyi kple nɔnɔme ŋu ne èʋu web browser eye nèyi __ .http://127.0.0.1:8233/status__.
 
-<img src="https://i.ibb.co/BCtKrGp/image-2023-11-28-173024853.png" alt="zebra logo" width="200" height="200"/>
+<img src="/content-images/image-2023-11-28-173024853-99540511cf.webp" alt="zebra logo" width="200" height="200"/>
 
 ## Kuxiwo gbɔ kpɔkpɔ
 

@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="تعديل الصفحة"/>
 </a>
 <a href="">
-    <img src="https://i.ibb.co/0VfMFB5/image-2023-11-18-160742427.png" alt="" width="800" height="500"/>
+    <img src="/content-images/image-2023-11-18-160742427-658dda69c0.webp" alt="" width="800" height="500"/>
 </a>
 
 # الأصول المحمية في Zcash
@@ -23,7 +23,7 @@
 ### عرض توضيحي لـ ZSA على Zebra 
 
 
-[![صورة مصغرة للفيديو](https://i.ytimg.com/vi/1MZMGC9ViyA/hqdefault.jpg?)](https://youtu.be/1MZMGC9ViyA)
+[![صورة مصغرة للفيديو](/content-images/hqdefault-3ae84de424.webp)](https://youtu.be/1MZMGC9ViyA)
 
 
 **شغّل العرض التوضيحي بنفسك!** 

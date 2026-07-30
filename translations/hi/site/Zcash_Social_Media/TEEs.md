@@ -5,7 +5,7 @@
 जीरो से ज़ेरो कॉनोविशन एक नए विषय के साथ लौट आया है!  
 इस सप्ताह हम **ट्रस्टेड एक्सीक्यूशन एंवाइरनमेंट (TEE)** के बारे में अध्ययन करते हैं - वे कैसे प्राइवेसी कॉइन और अन्य ब्लॉकचेन एप्लिकेशन में उपयोग किए जाते हैं।
 
-![ट्रस्टेड एक्सीक्यूशन एंवाइरनमेंट परिचय](https://pbs.twimg.com/media/Fquj-h2WcAIgSnL.jpg)
+![ट्रस्टेड एक्सीक्यूशन एंवाइरनमेंट परिचय](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
 
 ---
 
@@ -31,7 +31,7 @@
 
 यह Zcash से अलग है, जो **ज़ेरो-कॉनोविशन प्रूफ्स** के माध्यम से गोपनीयता के लिए उपयोग करता है। Zcash में, छिपे हुए लेनदेन पब्लिक रूप से ब्रॉडकास्ट और सत्यापन किए जाते हैं और नेटवर्क को कोई अतिरिक्त डेटा खुलासा नहीं किया जाता। Zcash Shielded Assets इसी सिद्धांत के अनुसरण करते हैं।
 
-![सेक्रेट नेटवर्क TEE आरेख](https://pbs.twimg.com/media/FqulPjNX0AEfjRp.png)
+![सेक्रेट नेटवर्क TEE आरेख](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
 
 सेक्रेट नेटवर्क पर TEE के कैसे कामकाज के बारे में विस्तृत समझ के लिए, @l_woetzel द्वारा लिखी गई यह उत्कृष्ट लेख पढ़ें:  
 https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerability-33ca94b6df38
@@ -55,11 +55,11 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 - एप्लिकेशन पर धोखा नहीं किया गया है  
 - इसे Intel SGX एन्क्लेव में सुरक्षित रूप से चलाया जा रहा है
 
-![रिमोट प्रमाणीकरण की व्याख्या](https://pbs.twimg.com/media/FqumRjoWwAAeT-M.png)
+![रिमोट प्रमाणीकरण की व्याख्या](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
 
 एन्क्लेव में निजी हस्ताक्षर और प्रमाणीकरण कुंजी भी होते हैं, जो बाहर से अभिगमन नहीं किया जा सकता।
 
-![एन्क्लेव कुंजी सुरक्षा](https://pbs.twimg.com/media/Fqumv83XoAQq-MO.png)
+![एन्क्लेव कुंजी सुरक्षा](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
 
 ---
 
@@ -69,7 +69,7 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 
 **डेटा सीलिंग** CPU से डेरिव्ड कुंजी के उपयोग से एन्क्लेव में डेटा को एन्क्रिप्ट करता है। एन्क्रिप्टेड ब्लॉक केवल **उसी सिस्टम** पर अनलॉक किया जा सकता है।
 
-![डेटा सीलिंग आरेख](https://pbs.twimg.com/media/FqunBwyWYAA-TR3.jpg)
+![डेटा सीलिंग आरेख](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
 
 ---
 
@@ -79,7 +79,7 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 
 एन्क्रिप्टेड डेटा स्मार्ट कॉन्ट्रैक्ट के साथ TEE में प्रवेश करता है। इसे डीक्रिप्ट, प्रोसेस और पुनः एन्क्रिप्ट करके एन्क्लेव से बाहर निकाला जाता है।
 
-![ओएसिस नेटवर्क TEE प्रवाह](https://pbs.twimg.com/media/FqunJRDXwAMt4Ob.png)
+![ओएसिस नेटवर्क TEE प्रवाह](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
 
 ---
 
@@ -94,7 +94,7 @@ PoS वैलीडेटर के लिए:
 
 **TEE** वैलीडेटर कुंजी के सुरक्षित उत्पन्न और उपयोग के लिए आदर्श हैं।
 
-![टेंडरमिंट & PoS सुरक्षा](https://pbs.twimg.com/media/Fqun0HEX0AAooxW.jpg)
+![टेंडरमिंट & PoS सुरक्षा](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
 
 ---
 

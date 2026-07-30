@@ -17,13 +17,13 @@ Zaino는 가벼운 클라이언트(예: 지갑 및 블록체인 전체 역사가
 ## Zaino 작동 방식을 보여주는 다이어그램
 
 ### Zaino 내부 아키텍처
-![Zaino Internal Architecture](https://i.ibb.co/mRTNtfy/image-2025-01-02-190143429.png)
+![Zaino Internal Architecture](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
 
 ### Zaino 라이브 서비스 아키텍처
-![Zebra Live Service Architecture](https://i.ibb.co/x7dbRY8/image-2025-01-02-190349017.png)
+![Zebra Live Service Architecture](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
 
 ### Zaino 시스템 아키텍처
-![Zaino System Architecture](https://i.ibb.co/wwL0XZv/image-2025-01-02-190448037.png)
+![Zaino System Architecture](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
 
 
 ## 더 알아보기

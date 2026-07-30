@@ -10,36 +10,36 @@ Visite [Coinsbee.com](https://www.coinsbee.com/en/shop/mobile-top-ups/) e crie u
 ### 2. Selecione seu país e operadora
 Role até o canto superior esquerdo e selecione seu país; depois escolha crédito para celular e selecione a operadora que você deseja recarregar (exemplo: MTN).
 
-![Passo 2 - Selecionando país e operadora](https://cdn-images-1.medium.com/max/1200/0*qvB7ZCWaVWa-C2d8)
+![Passo 2 - Selecionando país e operadora](/content-images/0-qvB7ZCWaVWa-C2d8-db0d4ea372.webp)
 
 ### 3. Preencha os dados e compre
 Preencha os dados corretos e clique no botão "Buy Now". Abra o carrinho para ver seu pedido, clique em continuar e confirme a compra com $ZEC.
 
-![Passo 3 - Tela de compra](https://cdn-images-1.medium.com/max/1200/0*ikF-ooBc9W7olfNt)
+![Passo 3 - Tela de compra](/content-images/0-ikF-ooBc9W7olfNt-7a4584edda.webp)
 
 ### 4. Detalhes do pagamento
 O valor equivalente em $ZEC será fornecido, junto com um endereço transparente para onde os fundos devem ser enviados.
 
-![Passo 4 - Detalhes do pagamento em ZEC](https://cdn-images-1.medium.com/max/1200/0*6_YhAhQnsLbrMvHN)
+![Passo 4 - Detalhes do pagamento em ZEC](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
 
 ### 5. Envie o pagamento
 Copie e cole o valor e o endereço com cuidado. No campo de memo, adicione seu endereço YWallet caso haja um reembolso.
 
-![Passo 5 - Enviando ZEC](https://cdn-images-1.medium.com/max/1200/0*DNnpyemsKcW-k-u-)
+![Passo 5 - Enviando ZEC](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
 
 ### 6. Processamento
 Assim que os fundos forem enviados, sua solicitação será processada em poucos minutos.
 
-![Passo 6 - Tela de processamento](https://cdn-images-1.medium.com/max/1200/0*LgXuUVLVecqrUW5G)
+![Passo 6 - Tela de processamento](/content-images/0-LgXuUVLVecqrUW5G-a894c7b2dd.webp)
 
 ### 7. Confirmação
 Ei… Minha linha foi recarregada! Você também pode confirmar seu e-mail durante o processo de pagamento para ser notificado por e-mail assim que a transação for concluída.
 
-![Passo 7 - Recarga bem-sucedida](https://cdn-images-1.medium.com/max/1200/0*TJKIcqznQ4Y8_jgo)
+![Passo 7 - Recarga bem-sucedida](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
 
 ---
 
-![Captura de tela adicional](https://cdn-images-1.medium.com/max/1200/0*Jn7tD9lb2xtMBpIw)
+![Captura de tela adicional](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)
 
 ### Outros lugares para gastar ZEC
 

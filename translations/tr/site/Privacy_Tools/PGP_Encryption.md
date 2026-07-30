@@ -14,7 +14,7 @@ Kullanılabilir birçok farklı PGP aracı vardır, ancak en popüler olanlardan
 * **[PGPMail](https://www.openpgp.org/software/)**: PGPMail, Windows ve macOS için kullanılabilen ticari bir PGP e-posta istemcisidir.
 * **[Mailvelope](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope, Gmail ve Thunderbird için ücretsiz ve açık kaynaklı bir PGP eklentisidir.
 
-![PGP Tools](https://github.com/ZecHub/zechub/assets/81990132/44984a75-800a-4f7a-94a5-88827e39b431)
+![PGP Tools](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
 
 ## Anahtarlar Nasıl Oluşturulur
 
@@ -28,7 +28,7 @@ PGP kullanmak için bir anahtar çifti oluşturmanız gerekir: PGP anahtarları 
 
 PGP anahtar çiftiniz oluşturulacaktır.
 
-![Generate Keys](https://github.com/ZecHub/zechub/assets/81990132/15721ce1-0a77-4ebe-87f4-33e1455f2a40)
+![Generate Keys](/content-images/15721ce1-0a77-4ebe-87f4-33e1455f2a40-7699b1771d.webp)
 
 ## E-posta için PGP Nasıl Kullanılır
 
@@ -36,7 +36,7 @@ Bir PGP anahtar çifti oluşturduktan sonra, bunu e-postaları şifrelemek ve ş
 
 Şifrelenmiş e-posta, alıcının özel anahtarına sahip olmayan hiç kimse tarafından okunamaz. E-postanın şifresini çözmek için alıcı, e-postanın şifresini çözmek üzere kendi özel anahtarını kullanabilir.
 
-![PGP Email](https://github.com/ZecHub/zechub/assets/81990132/dafb761d-f399-40c9-9323-526ba3bd0bc4)
+![PGP Email](/content-images/dafb761d-f399-40c9-9323-526ba3bd0bc4-98503ad98b.webp)
 
 ## En İyi Uygulamalar
 
@@ -44,9 +44,9 @@ PGP kullanımı için bazı en iyi uygulamalar şunlardır:
 
 * Özel anahtarınızı güvende tutun. Özel anahtar, PGP anahtar çiftinizin en önemli parçasıdır. Birisi özel anahtarınızı ele geçirirse, açık anahtarınızla şifrelenmiş tüm mesajların şifresini çözebilir.
 
-![Best Practices 1](https://github.com/ZecHub/zechub/assets/81990132/39a6fae4-a9a1-4061-a97c-4a9b975f6383)
+![Best Practices 1](/content-images/39a6fae4-a9a1-4061-a97c-4a9b975f6383-eced005c8b.webp)
 
-![Best Practices 2](https://github.com/ZecHub/zechub/assets/81990132/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd)
+![Best Practices 2](/content-images/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd-50ca49a070.webp)
 
 * Açık anahtarınızı güvendiğiniz kişilerle paylaşın. Açık anahtarınızı onlara doğrudan göndererek veya bir PGP anahtar sunucusuna yükleyerek paylaşabilirsiniz.
 * PGP anahtarlığınız için güçlü parolalar kullanın. PGP anahtarlığınız, PGP anahtarlarınızı saklayan bir dosyadır. Bu dosyayı korumak için güçlü bir parola kullanmak önemlidir.
@@ -61,11 +61,11 @@ PGP kullanımı için bazı en iyi uygulamalar şunlardır:
 * "Encrypt" düğmesine tıklayın.
 * E-posta şifrelenecektir.
 
-![Encrypt Email](https://github.com/ZecHub/zechub/assets/81990132/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e)
+![Encrypt Email](/content-images/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e-6edd4a03ea.webp)
 
 ---
 
-![Encryption Flow](https://github.com/ZecHub/zechub/assets/81990132/da1499e9-fc87-46b2-93ed-28d43cf1fd86)
+![Encryption Flow](/content-images/da1499e9-fc87-46b2-93ed-28d43cf1fd86-86fdc87d10.webp)
 
 ## PGP ile bir e-postanın şifresi nasıl çözülür
 
@@ -76,4 +76,4 @@ PGP kullanımı için bazı en iyi uygulamalar şunlardır:
 * "Decrypt" düğmesine tıklayın.
 * E-postanın şifresi çözülecektir.
 
-![Decrypt Email](https://github.com/ZecHub/zechub/assets/81990132/beae714c-020f-4c1e-aa4f-3dd9430670cc)
+![Decrypt Email](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)

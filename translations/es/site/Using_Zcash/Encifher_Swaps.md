@@ -1,7 +1,7 @@
 # **Intercambio privado de SOL/USDC -> ZEC usando Encrypt.trade**  
 
 
-![img1](https://hackmd.io/_uploads/Bkbg5alCll.jpg)
+![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
 *Tu puerta de entrada a intercambios privados entre cadenas impulsados por NEAR Intents.*  
@@ -12,7 +12,7 @@
 En el mundo blockchain actual, la privacidad no es opcional, es esencial. Con [**encrypt.trade**](https://app.encifher.io/zec), los usuarios pueden intercambiar sin complicaciones **SOL o USDC** en Solana por **Zcash (ZEC)** mientras mantienen las transacciones completamente privadas. Sin exchanges centralizados, sin exposición de identidad, solo un intercambio simple y cifrado.  
 
 
-![img2](https://hackmd.io/_uploads/ByQ2qpeRee.jpg)
+![img2](/content-images/ByQ2qpeRee-67fce2814c.webp)
 
 ---
 
@@ -20,7 +20,7 @@ En el mundo blockchain actual, la privacidad no es opcional, es esencial. Con [*
 Visita [encrypt.trade](https://app.encifher.io/zec) usando **Chrome o Firefox** y conecta tu wallet **Phantom**, **Solflare** o **Slope**. Asegúrate de que tu wallet tenga suficiente **SOL** para las comisiones de gas y los tokens que quieras intercambiar. Una vez conectada, estarás listo para envolver tus activos.  
 
 
-![img3](https://hackmd.io/_uploads/SyVOs6lRxx.jpg)
+![img3](/content-images/SyVOs6lRxx-cbd8193e84.webp)
 
 
 
@@ -28,7 +28,7 @@ Visita [encrypt.trade](https://app.encifher.io/zec) usando **Chrome o Firefox** 
 
 ---
 
-![img4](https://hackmd.io/_uploads/Bkh_jTgCex.jpg)
+![img4](/content-images/Bkh_jTgCex-2fc8428592.webp)
 
 
 ---
@@ -39,13 +39,13 @@ Ve a la sección **Wrap**. Elige **SOL** o **USDC**, introduce la cantidad y con
 
 
 
-![img5](https://hackmd.io/_uploads/S10J26xCxg.jpg)
+![img5](/content-images/S10J26xCxg-6322a40b18.webp)
 
 ---
 
 
 
-![img6](https://hackmd.io/_uploads/Sk0y3Te0gl.jpg)
+![img6](/content-images/Sk0y3Te0gl-124792365a.webp)
 
 
 ---
@@ -54,7 +54,7 @@ Ve a la sección **Wrap**. Elige **SOL** o **USDC**, introduce la cantidad y con
 Descarga [**Zashi**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn), la wallet oficial de Zcash de Electric Coin Co. Copia tu **Unified Address** desde la pestaña Receive; admite tanto ZEC transparentes como blindados. Guarda tu frase semilla de forma segura antes de continuar.  
 
 
-![img7](https://hackmd.io/_uploads/SykjhpgRll.jpg)
+![img7](/content-images/SykjhpgRll-60d19f6979.webp)
 
 
 ---
@@ -64,19 +64,19 @@ De vuelta en **encrypt.trade**, ve a **Swap**. Selecciona **eSOL/eUSDC -> ZEC**,
 
 
 
-![img8](https://hackmd.io/_uploads/SJkI6pl0ge.jpg)
+![img8](/content-images/SJkI6pl0ge-9f93d8f34c.webp)
 
 ---
 
 
-![img9](https://hackmd.io/_uploads/S1yoapgRle.jpg)
+![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
 El motor de **NEAR Intents** gestiona automáticamente el enrutamiento entre cadenas, entregando **ZEC** directamente a tu wallet Zashi en cuestión de segundos.  
 
 
 
-![img10](https://hackmd.io/_uploads/S1h36Tg0xl.jpg)
+![img10](/content-images/S1h36Tg0xl-2d7dd0a495.webp)
 
 ---
 

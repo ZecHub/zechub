@@ -3,7 +3,7 @@
 </a>
 
 # Financial Privacy Foundation (FPF)
-![FPF](https://i.ibb.co/BsZc8Qv/FPFgrants.webp)
+![FPF](/content-images/FPFgrants-226bdea4bb.webp)
 
 ## Über FPF
 Die Financial Privacy Foundation (FPF) ist eine gemeinnützige Organisation mit Sitz auf den Cayman Islands. Das Hauptziel der FPF ist es, Einzelpersonen und Gemeinschaften darüber aufzuklären und sie dazu zu befähigen, die Kontrolle über ihre finanzielle Privatsphäre und Sicherheit zu übernehmen. Die FPF setzt sich außerdem für die Förderung eines fairen und gerechten Finanzsystems ein, das die persönliche Privatsphäre respektiert. Die wichtigste Tätigkeit der FPF im Zusammenhang mit finanzieller Privatsphäre besteht darin, Einzelpersonen und Gemeinschaften Informationen, Ressourcen und Unterstützung bereitzustellen, um ihre finanzielle Privatsphäre zu schützen und zu optimieren. Der Financial Privacy Fund (FPF) entwickelt derzeit ein Förderprogramm mit dem Titel FPF X FPF.

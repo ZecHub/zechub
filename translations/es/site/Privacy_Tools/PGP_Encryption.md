@@ -14,7 +14,7 @@ Hay muchas herramientas PGP diferentes disponibles, pero algunas de las más pop
 * **[PGPMail](https://www.openpgp.org/software/)**: PGPMail es un cliente de correo electrónico PGP comercial que está disponible para Windows y macOS.
 * **[Mailvelope](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope es una extensión PGP gratuita y de código abierto para Gmail y Thunderbird.
 
-![Herramientas PGP](https://github.com/ZecHub/zechub/assets/81990132/44984a75-800a-4f7a-94a5-88827e39b431)
+![Herramientas PGP](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
 
 ## Cómo generar claves
 
@@ -28,7 +28,7 @@ Para usar PGP, necesitas generar un par de claves: Cómo generar claves PGP:
 
 Se generará tu par de claves PGP.
 
-![Generar claves](https://github.com/ZecHub/zechub/assets/81990132/15721ce1-0a77-4ebe-87f4-33e1455f2a40)
+![Generar claves](/content-images/15721ce1-0a77-4ebe-87f4-33e1455f2a40-7699b1771d.webp)
 
 ## Cómo usar PGP para el correo electrónico
 
@@ -36,7 +36,7 @@ Una vez que hayas generado un par de claves PGP, puedes usarlo para cifrar y des
 
 El correo electrónico cifrado será ilegible para cualquiera que no tenga la clave privada del destinatario. Para descifrar el correo electrónico, el destinatario puede usar su clave privada para descifrarlo.
 
-![Correo electrónico PGP](https://github.com/ZecHub/zechub/assets/81990132/dafb761d-f399-40c9-9323-526ba3bd0bc4)
+![Correo electrónico PGP](/content-images/dafb761d-f399-40c9-9323-526ba3bd0bc4-98503ad98b.webp)
 
 ## Mejores prácticas
 
@@ -44,9 +44,9 @@ Estas son algunas mejores prácticas para usar PGP:
 
 * Mantén segura tu clave privada. La clave privada es la parte más importante de tu par de claves PGP. Si alguien obtiene tu clave privada, podrá descifrar cualquier mensaje que haya sido cifrado con tu clave pública.
 
-![Mejores prácticas 1](https://github.com/ZecHub/zechub/assets/81990132/39a6fae4-a9a1-4061-a97c-4a9b975f6383)
+![Mejores prácticas 1](/content-images/39a6fae4-a9a1-4061-a97c-4a9b975f6383-eced005c8b.webp)
 
-![Mejores prácticas 2](https://github.com/ZecHub/zechub/assets/81990132/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd)
+![Mejores prácticas 2](/content-images/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd-50ca49a070.webp)
 
 * Comparte tu clave pública con personas en las que confíes. Puedes compartir tu clave pública enviándosela directamente o subiéndola a un servidor de claves PGP.
 * Usa contraseñas seguras para tu llavero PGP. Tu llavero PGP es un archivo que almacena tus claves PGP. Es importante usar una contraseña segura para proteger este archivo.
@@ -61,11 +61,11 @@ Estas son algunas mejores prácticas para usar PGP:
 * Haz clic en el botón "Encrypt".
 * El correo electrónico será cifrado.
 
-![Cifrar correo electrónico](https://github.com/ZecHub/zechub/assets/81990132/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e)
+![Cifrar correo electrónico](/content-images/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e-6edd4a03ea.webp)
 
 ---
 
-![Flujo de cifrado](https://github.com/ZecHub/zechub/assets/81990132/da1499e9-fc87-46b2-93ed-28d43cf1fd86)
+![Flujo de cifrado](/content-images/da1499e9-fc87-46b2-93ed-28d43cf1fd86-86fdc87d10.webp)
 
 ## Cómo descifrar un correo electrónico con PGP
 
@@ -76,4 +76,4 @@ Estas son algunas mejores prácticas para usar PGP:
 * Haz clic en el botón "Decrypt".
 * El correo electrónico será descifrado.
 
-![Descifrar correo electrónico](https://github.com/ZecHub/zechub/assets/81990132/beae714c-020f-4c1e-aa4f-3dd9430670cc)
+![Descifrar correo electrónico](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)
