@@ -20,7 +20,7 @@ Hash Fonksiyonları, herhangi bir uzunluktaki girdiyi alır ve sabit uzunlukta b
 - **Ortaya çıkan çıktı** = Hash Değeri  
 
 
-![Hash Function diagram](https://pbs.twimg.com/media/Fn_NkFHXgAEtgse.png)
+![Hash Function diagram](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
 
 ### Kendiniz deneyin!
 
@@ -58,12 +58,12 @@ Hash Fonksiyonlarının birkaç sınıfı vardır. Bazı örnekler:
 #### 1. Bütünlük Hash'leme (Veri Bütünlüğü Kontrolleri)
 Veri bütünlüğü kontrolleri, "Bütünlük Hash'leme"ye bir örnektir. Veri dosyaları üzerinde checksum üretmek için kullanılırlar ve kullanıcıya doğruluk konusunda güvence sağlarlar.
 
-![Integrity Hashing example](https://pbs.twimg.com/media/Fn_Or0MWIAI6sgx.png)
+![Integrity Hashing example](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
 
 #### 2. Merkle Ağaçları (Hash Ağaçları)
 Bir **hash ağacı** veya **Merkle ağacı**, bir veri bloğunun kriptografik hash'i ile etiketlenmiş dallardan ve yaprak düğümlerden oluşur.
 
-![Merkle Tree diagram](https://pbs.twimg.com/media/Fn_O7ndWIAY5PA-.jpg)
+![Merkle Tree diagram](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
 
 Merkle ağaçları, **kriptografik taahhüt şeması**na bir örnektir. Ağacın kökü bir taahhüt olarak görülür ve yaprak düğümlerin orijinal taahhüdün parçası olduğu kanıtlanır.
 
@@ -75,7 +75,7 @@ Zcash **Sapling** ve **Orchard** shielded pool'larında, **Note Commitment Tree*
 #### 4. Signature Hash (Bitcoin tarzı bloklar)
 **SHA256**, Bitcoin zincirindeki her bloğun değiştirilemezliğini sağlamak için kullanılan bir "Signature hash" örneğidir. Madenciler yeni bloklar için önceki bloğun hash'ini + mevcut bloktaki tüm işlemlerin hash'ini (hashMerkleRoot) + zaman damgasını + rastgele değer / ağ zorluğunu kullanır.
 
-![SHA256 block diagram](https://pbs.twimg.com/media/Fn_PaVZXoAApHPf.jpg)
+![SHA256 block diagram](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
 
 #### 5. Equihash (Zcash Madenciliği)
 **Equihash**, Zcash madenciliğinde kullanılan hash algoritmasıdır. Ayrıca Komodo ve Horizen gibi ağlar tarafından da kullanılır.

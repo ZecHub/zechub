@@ -46,13 +46,13 @@ Halo가 등장하기 전에는 재귀 증명 구성에 대규모 계산 비용�
 Halo 2는 Rust로 작성된 고성능 zk-SNARK 구현으로, 신뢰 설정이 필요하지 않으면서 Zcash의 확장성을 위한 기반을 마련한다.
 
 <a href="">
-    <img src="https://electriccoin.co/wp-content/uploads/2020/09/Halo-puzzle-03-1024x517.jpg" alt="" width="500" height="300"/>
+    <img src="/content-images/Halo-puzzle-03-1024x517-e034023d10.webp" alt="" width="500" height="300"/>
 </a>
 
 이것은 **축적 체계**라는 우리의 접근법의 일반화를 포함한다. 이 새로운 형식화는 중첩된 분담 기술이 실제로 어떻게 작동하는지를 드러낸다. 증명을 **축적자**(accumulator)라고 불리는 객체에 추가함으로써, 증명들이 축적자의 이전 상태에 대해 추론하게 되면, 현재 축적자의 상태만 확인함으로써 모든 이전 증명이 올바른지(귀납법을 통해) 확인할 수 있다.
 
 <a href="">
-    <img src="https://i.imgur.com/l4HrYgE.png" alt="" width="500" height="300"/>
+    <img src="/content-images/l4HrYgE-1ea7bc32f7.webp" alt="" width="500" height="300"/>
 </a>
 
 

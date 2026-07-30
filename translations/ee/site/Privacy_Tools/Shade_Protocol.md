@@ -2,7 +2,7 @@
 
 # Vɔvɔli ƒe Ðoɖowɔɖi
 
-![Vɔvɔli ƒe Ðoɖowɔɖi ƒe Dzesi](https://framerusercontent.com/images/Af8EzlNiwGr4FTFX7oqdBuE.png)
+![Vɔvɔli ƒe Ðoɖowɔɖi ƒe Dzesi](/content-images/Af8EzlNiwGr4FTFX7oqdBuE-71316827d0.webp)
 
 ## Nukae nye Vɔvɔli ƒe Ðoɖowɔɖi?
 
@@ -14,7 +14,7 @@ Shade Protocol nye DeFi (Decentralized Finance) ƒe lãwo ƒe agbenɔnɔ ƒe ɖo
 
 Wotu Shade Protocol ɖe Secret Network, si nye layer 1 blockchain si naa ameŋunyatakakawo takpɔkpɔ smart contracts dzi. Secret Network zãa nyatakaka siwo wotsɔ nya ɣaɣlawo ŋlɔ, nusiwo dona, kple nɔnɔme tsɔ kpɔa egbɔ be asitsatsa ƒe nya ɣaɣlawo le ɣaɣla, si kpɔa ezãla ƒe nyatakakawo ta be woagaɖe wo ɖe go le dutoƒo agbalẽ me o.
 
-![Network ƒe Nɔnɔmetata ɣaɣla](https://miro.medium.com/v2/resize:fit:828/format:webp/1*yyZ5hFOw6z8zXX_rgJn5iw.png)
+![Network ƒe Nɔnɔmetata ɣaɣla](/content-images/1-yyZ5hFOw6z8zXX_rgJn5iw-9091067aa1.webp)
 
 Secret Network na be dɔwɔlawo te ŋu tua dɔwɔɖoɖo siwo woɖe ɖe vovo kple nyatakaka siwo wotsɔ nya ɣaɣlawo ŋlɔ, le Secret kple blockchain bubuwo dzi le dzɔdzɔme nu to cross chain communication dzi, si ʋua zazã yeye sẽŋuwo na Web3.
 
@@ -23,7 +23,7 @@ Secret Network na be dɔwɔlawo te ŋu tua dɔwɔɖoɖo siwo woɖe ɖe vovo kple
 Wowɔ Cosmos be woatsɔ aƒo blockchains siwo to vovo la nu ƒu to mɔ nyuitɔ kple egbegbe tɔ siwo dzi woato atu blockchain siawo gɔme to dɔwɔnu yeyewo abe Tendermint kple Cosmos SDK zazã me. 
 Ðoɖowɔɖia zãa Cosmos SDK, si nye modular ɖoɖo si wotsɔ tu blockchain dɔwɔɖoɖo siwo woate ŋu akeke ɖe enu eye woate ŋu awɔ dɔ aduadu. Esia na Shade Protocol kpɔa viɖe tso Cosmos ƒe lãwo ƒe agbenɔnɔ ƒe ŋusẽ kple dɔwɔwɔ ɖekae me.
 
-![Cosmos SDK kple Tendermint ƒe Nɔnɔmetata vevi](https://s3.ap-northeast-1.amazonaws.com/gimg.gateimg.com/learn/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e.jpg)
+![Cosmos SDK kple Tendermint ƒe Nɔnɔmetata vevi](/content-images/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e-ed16bb7658.webp)
 
 Le nukpɔsusu ɖeka kple network dedienɔnɔ gome la, Shade Protocol zãa Tendermint Core, si naa Byzantine Fault Tolerant (BFT) ƒe nukpɔsusu ɖeka, si naa dedienɔnɔ gã kple nuwuwu kabakaba.
 
@@ -37,9 +37,9 @@ DeFi zãa nya ɣaɣlawo takpɔkpɔ ƒe mɔnu deŋgɔwo abe asitsatsa siwo wotsɔ
 
 Shade Protocol zãa nukpɔkpɔ ƒe safuiwo na eƒe dzesi vevi eveawo: Vɔvɔli ($SHD) kple Seda ($SILK). Vɔvɔli ($SHD) wɔa dɔ geɖe, ewɔa dɔ abe gaxɔ, dziɖuɖu, kple gakpɔkpɔ mama ƒe dzesi ene le lãwo ƒe agbenɔnɔ ƒe ɖoɖoa me. Wozãnɛ le gadede asi, dziɖuɖu ŋuti aɖaŋuɖoɖowo, gazazã ƒe ɖoɖowɔwɔ, asitsatsa, kple gagbalẽwo me. Silk ($SILK), le go bubu me la, nye protocol’s privacy focused stablecoin, pegged to a vovovo kusi si me xexeame katã ƒe ga kple adzɔnuwo abe sika, Bitcoin, USD, Euro, kple Yen.
 
-![Vɔvɔli kple Seda ƒe Dzesiwo - Akpa 1](https://framerusercontent.com/images/9wTrxCdx8AoRcCwsGub13QXuY.png?scale-down-to=1024)
+![Vɔvɔli kple Seda ƒe Dzesiwo - Akpa 1](/content-images/9wTrxCdx8AoRcCwsGub13QXuY-807ed3b400.webp)
 
-![Vɔvɔli kple Seda ƒe Dzesiwo - Akpa 2](https://framerusercontent.com/images/IUC9YWfErTebCBsMkdbCnjSWGEY.png)
+![Vɔvɔli kple Seda ƒe Dzesiwo - Akpa 2](/content-images/IUC9YWfErTebCBsMkdbCnjSWGEY-4ed6d5cedf.webp)
 
 ### Adzame
 
@@ -57,7 +57,7 @@ Abe DeFi ƒe mɔ̃ ene la, Shade Protocol wɔa dɔ titina dziɖuɖu aɖeke manɔ
 
 Cosmos ƒe lãwo ƒe agbenɔnɔ ƒe akpa aɖe nyenye fia be Shade Protocol ateŋu awɔ nu kple blockchain bubuwo bɔbɔe, si ana gazazã nanyo ɖe edzi eye wòana mɔnukpɔkpɔ geɖe zãlawo be woawɔ woƒe nunɔamesiwo ŋudɔ le network vovovowo dzi. To ameŋunyatakakawo takpɔkpɔ ƒe mɔ̃ɖaŋununya siwo tso Secret Network zazã me la, Shade Protocol kpɔa egbɔ be cross chain dɔwɔna siawo lé nya ɣaɣlawo kple fɔmaɖimaɖi me ɖe asi. Menye ɖeko dɔwɔwɔ aduadu sia doa ŋusẽ dɔwɔɖoɖo siwo woɖe ɖe vovo ƒe asitɔtrɔ kple dɔwɔwɔ ko o, ke edoa blockchain ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖo si do ƒome kple wo nɔewo eye wòsẽ wu hã ɖe ŋgɔ, si ɖea ŋuɖoɖo ɖe kadodo siwo sa ɖe aga ŋu dzi kpɔtɔna eye wòdoa ganyawo gbɔ kpɔnu siwo woɖe ɖe vovo ƒe zazã ɖe ŋgɔ le mɔ si keke ta wu nu.
 
-![Dɔwɔwɔ Ðekae ƒe Nɔnɔmetata](https://framerusercontent.com/images/3zIwSJHEwP9tkn4aI0do0lhgFTE.png)
+![Dɔwɔwɔ Ðekae ƒe Nɔnɔmetata](/content-images/3zIwSJHEwP9tkn4aI0do0lhgFTE-2aed930de0.webp)
 
 ## Nyanuwuwuw
 

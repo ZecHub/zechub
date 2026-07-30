@@ -1,7 +1,7 @@
 # Corpos Finitos: O Sistema Numérico em que a Criptografia Vive
 ##### Pesquisa Original de [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![texto alternativo](image-5.png)
+![texto alternativo](/content-images/image-5-6e8a8950f8.webp)
 
 ### Por que o "dar a volta" é o fundamento secreto do Zcash
 
@@ -38,7 +38,7 @@ Você já usa um corpo finito todos os dias. É o relógio na sua parede.
 
 Em um relógio de 12 horas, os números *dão a volta*. Comece às 10 horas, some 5 horas, e você não cai em "15 horas", você cai em **3 horas**. O relógio tem apenas doze posições, e contar além do topo simplesmente volta ao início.
 
-![texto alternativo](image-9.png)
+![texto alternativo](/content-images/image-9-30b39f4cc5.webp)
 
 Três coisas acabaram de acontecer, e elas são o ponto central deste artigo inteiro:
 
@@ -107,7 +107,7 @@ Essa segunda frase é uma catástrofe para a aritmética. Duas coisas não nulas
 
 Um primo, por definição, não tem esses fatores. Então mod um primo, divisores de zero não podem aparecer, todo elemento não nulo ganha um recíproco limpo, e a estrutura é um corpo adequado.
 
-![texto alternativo](image-8.png)
+![texto alternativo](/content-images/image-8-573914db92.webp)
 
 > **Frase reutilizável para seus artigos:** *entra módulo primo, sai divisão limpa.*
 
@@ -159,7 +159,7 @@ Você não precisa aceitar "Zcash usa corpos finitos" por fé. Aqui está o mapa
 - **Orchard** (o design shielded atual) usa um par de curvas chamadas **Pallas and Vesta** (as curvas "Pasta"), cujos corpos usam primos de aproximadamente **255 bits**.
 - O **note commitment**, o **nullifier** e os números dentro de uma **prova de conhecimento zero** do Artigo 0 são todos, no fundo, elementos de um desses corpos finitos. Quando o protocolo diz "compute este commitment", ele quer dizer "faça esta aritmética mod aquele primo".
 
-![texto alternativo](image-7.png)
+![texto alternativo](/content-images/image-7-c81fe982f0.webp)
 
 Então a resposta para a pergunta em aberto do Artigo 0, *"de onde vêm as receitas secretas?"*, começa aqui: **tudo começa como aritmética em um corpo finito.** No próximo artigo, vamos pegar esse corpo e construir os objetos reais, pontos em uma curva elíptica, que se tornam chaves e commitments.
 

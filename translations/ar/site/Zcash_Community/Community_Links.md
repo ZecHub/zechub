@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="تحرير الصفحة"/>
 </a>
 
-# <img src="https://i.ibb.co/qYhRbJM/image-2024-02-03-174147713.png" alt="نص بديل" width="400"/> روابط مجتمع Zcash
+# <img src="/content-images/image-2024-02-03-174147713-63a42e536c.webp" alt="نص بديل" width="400"/> روابط مجتمع Zcash
 
 يُعدّ مجتمع Zcash مجموعة نابضة بالحياة من الأشخاص الذين يعملون من أجل جعل ZEC واحدة من أكثر العملات الرقمية المحافظة على الخصوصية استخدامًا في العالم. ويتكوّن هذا المجتمع من أفراد متنوعين من مختلف أنحاء العالم — مطورين، ومثقفين، ومناصرين، وبنّائين — يجمعهم إيمان مشترك بالخصوصية المالية.
 
@@ -10,11 +10,11 @@
 
 ## أين يمكنك العثور على أعضاء المجتمع
 
-### <img src="https://i.ibb.co/qBrb4qK/image-2024-02-03-173937048.png" alt="نص بديل" width="50"/> <span translate="no" class="notranslate">Telegram</span>
+### <img src="/content-images/image-2024-02-03-173937048-148e401d5e.webp" alt="نص بديل" width="50"/> <span translate="no" class="notranslate">Telegram</span>
 
 ينشط مجتمع Zcash بشكل كبير على <span translate="no" class="notranslate">Telegram</span> الخاص به. انضم للتحدث عن المستجدات اليومية، ومناقشة الأخبار والتحديثات، والتعرّف على بقية أعضاء المجتمع: [t.me/Zcash_Community](https://t.me/Zcash_Community)
 
-### <img src="https://i.ibb.co/kxVwQxM/image-2024-02-03-174056252.png" alt="نص بديل" width="50"/> <span translate="no" class="notranslate">Discord</span>
+### <img src="/content-images/image-2024-02-03-174056252-8a6a76eabf.webp" alt="نص بديل" width="50"/> <span translate="no" class="notranslate">Discord</span>
 
 - [Zcash Global](https://discord.gg/zcash) - خادم المجتمع الرئيسي
 - [Zcash R&D](https://discord.gg/xpzPR53xtU) - مناقشات البروتوكول والمطورين
@@ -34,7 +34,7 @@
 
 يُعد [منتدى مجتمع Zcash](https://forum.zcashcommunity.com/) المركز الرئيسي للنقاشات المطولة حول Zcash — الحوكمة، ومقترحات المنح، والنقاشات التقنية، وإعلانات المنظومة. وقد انتقلت الآن مسؤولية الإشراف إلى Zcash Foundation عقب انتقال ECC إلى ZODL.
 
-### <img src="https://i.ibb.co/mqKfr62/image-2024-02-03-174240928.png" alt="نص بديل" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
+### <img src="/content-images/image-2024-02-03-174240928-7a8f751301.webp" alt="نص بديل" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
 
 لدى Zcash حضور عالمي نشط على X. فيما يلي أبرز الحسابات التي يُنصح بمتابعتها:
 

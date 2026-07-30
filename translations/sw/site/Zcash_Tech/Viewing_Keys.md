@@ -47,7 +47,7 @@ Kwa nini mtumiaji angetaka kufanya hivi? Kutoka kwa blogi ya Electric Coin Co ju
 * Katika kona ya juu kulia, teua "Akaunti", bonyeza "+" katika kona ya chini kulia kuongeza na kuagiza yako kuangalia muhimu kuongeza yako 'kusoma tu' akaunti.
 
 <a href="">
-    <img src="https://i.ibb.co/C0b002N/image-2024-01-13-175554676.png" alt="" width="200" height="280"/>
+    <img src="/content-images/image-2024-01-13-175554676-8cdf988797.webp" alt="" width="200" height="280"/>
 </a>
 
 

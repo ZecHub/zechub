@@ -3,7 +3,7 @@
 </a>
 
 # Financial Privacy Foundation (FPF)
-![FPF](https://i.ibb.co/BsZc8Qv/FPFgrants.webp)
+![FPF](/content-images/FPFgrants-226bdea4bb.webp)
 
 ## 关于 FPF
 Financial Privacy Foundation (FPF) 是一家注册于开曼群岛的非营利组织。FPF 的主要目标是教育并赋能个人和社区，使其能够掌控自己的金融隐私与安全。FPF 还致力于推动建立一个公平、公正并尊重个人隐私的金融体系。FPF 在金融隐私相关领域的主要活动，是为个人和社区提供信息、资源与支持，以保护并优化他们的金融隐私。Financial Privacy Fund (FPF) 目前正在创建一项名为 FPF X FPF 的资助计划。

@@ -1,5 +1,5 @@
 ## [ZODL](https://zodl.com)
-![logo](https://github.com/user-attachments/assets/198608b2-9059-4cb7-aeb8-9354971376fd "ZODL")
+![logo](/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp "ZODL")
 - 设备：移动端
 - 操作系统：Android | iOS
 - 钱包支持：助记词 | Viewing Key | Unified Address | 硬件
@@ -9,7 +9,7 @@
 ---
 
 ## [Ywallet](https://ywallet.app/installation/)
-![logo](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
+![logo](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
 - 设备：移动端 | 桌面端
 - 操作系统：Android | iOS | Windows | Linux | macOS
 - 钱包支持：助记词 | Viewing Key | Unified Address | 硬件
@@ -19,7 +19,7 @@
 ---
 
 ## [Dizzy](https://youtu.be/IVkuo1CGPBU)
-![logo](https://i.ibb.co/FH918w9/Dizzy-3.png "Dizzy")
+![logo](/content-images/Dizzy-3-1a90249591.webp "Dizzy")
 - 设备：移动端 | 桌面端
 - 操作系统：Android | iOS | Windows | Linux | macOS
 - 钱包支持：助记词 | Viewing Key | Unified Address
@@ -29,7 +29,7 @@
 ---
 
 ## [Zingo!](https://www.zingolabs.org/)
-![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
+![logo](/content-images/zingocard-9a2546668d.webp "Zingo!")
 - 设备：移动端 | 桌面端
 - 操作系统：Android | iOS | Windows | Linux
 - 钱包支持：助记词 | Viewing Key | Unified Address
@@ -39,7 +39,7 @@
 ---
 
 ## [Edge](https://edge.app)
-![logo](https://i.ibb.co/4FVQLS9/image-2024-11-28-091312254.png "Edge")
+![logo](/content-images/image-2024-11-28-091312254-b2389ad332.webp "Edge")
 - 设备：移动端
 - 操作系统：Android | iOS
 - 钱包支持：助记词 | Unified Address
@@ -49,7 +49,7 @@
 ---
 
 ## [Unstoppable](https://unstoppable.money)
-![logo](https://i.ibb.co/C68mFCx/image-2024-11-28-091200540.png "Unstoppable")
+![logo](/content-images/image-2024-11-28-091200540-815817fda7.webp "Unstoppable")
 - 设备：移动端
 - 操作系统：Android | iOS
 - 钱包支持：助记词 | Unified Address
@@ -59,7 +59,7 @@
 ---
 
 ## [eZcash](https://blog.nerdbank.net/ezcash-app)
-![logo](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
+![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
 - 设备：移动端 | 桌面端
 - 操作系统：Android | iOS | Windows
 - 钱包支持：助记词 | Viewing Key | Unified Address
@@ -69,7 +69,7 @@
 ---
 
 ## [Zkool](https://github.com/hhanh00/zkool2/)
-![logo](https://i.ibb.co/BHGPff0K/zkool-1.png "Zkool")
+![logo](/content-images/zkool-1-22ab388e65.webp "Zkool")
 - 设备：移动端 | 桌面端
 - 操作系统：Android | iOS | Windows | Linux
 - 钱包支持：助记词 | Viewing Key | Unified Address | 硬件
@@ -79,7 +79,7 @@
 ---
 
 ## [Cake](https://cakewallet.com/install/)
-![logo](https://github.com/user-attachments/assets/a8234c70-3714-4e80-b918-8739d45aea00 "Cake")
+![logo](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
 - 设备：移动端 | 桌面端 
 - 操作系统：Android | iOS | Windows | Linux | macOS
 - 钱包支持：助记词 | Viewing Key | Unified Address
@@ -89,7 +89,7 @@
 ---
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
-![logo](https://i.ibb.co/VtPBnm6/zenith-2.png "Zenith")
+![logo](/content-images/zenith-2-cea75a34fd.webp "Zenith")
 - 设备：桌面端
 - 操作系统：Windows | Linux | macOS
 - 钱包支持：助记词 | Viewing Key | Unified Address | 全节点
@@ -99,7 +99,7 @@
 ---
 
 ## [Zingo-CLI](https://github.com/zingolabs/zingolib)
-![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo-CLI")
+![logo](/content-images/zingocard-9a2546668d.webp "Zingo-CLI")
 - 设备：桌面端
 - 操作系统：Windows | Linux | macOS
 - 钱包支持：助记词 | Viewing Key | Unified Address | 全节点
@@ -109,7 +109,7 @@
 ---
 
 ## [Zallet](https://github.com/zcash/wallet)
-![logo](https://i.ibb.co/3mCrR0dN/Brandmark-Yellow.png "Zallet")
+![logo](/content-images/Brandmark-Yellow-2eca7f6f68.webp "Zallet")
 - 设备：桌面端
 - 操作系统：Windows | Linux | macOS
 - 钱包支持：助记词 | Viewing Key | Unified Address | 全节点
@@ -119,7 +119,7 @@
 ---
 
 ## [Zcashd](https://github.com/zcash/zcash)
-![logo](https://i.ibb.co/Xz2NskW/zcashd.png "Zcashd")
+![logo](/content-images/zcashd-92df3291ad.webp "Zcashd")
 - 设备：桌面端
 - 操作系统：Windows | Linux | macOS
 - 钱包支持：助记词 | Viewing Key | Unified Address | 全节点
@@ -129,7 +129,7 @@
 ---
 
 ## [Brave](https://brave.com/web3-privacy/)
-![logo](https://i.ibb.co/6yqMNwZ/image-2024-01-13-170934865.png "Brave")
+![logo](/content-images/image-2024-01-13-170934865-733c5d91c6.webp "Brave")
 - 设备：网页端
 - 操作系统：浏览器
 - 钱包支持：助记词 | Unified Address
@@ -139,7 +139,7 @@
 ---
 
 ## [Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
-![logo](https://i.ibb.co/jn5t9Gy/metamask.png  "Metamask")
+![logo](/content-images/metamask-25048569f6.webp  "Metamask")
 - 设备：网页端
 - 操作系统：浏览器
 - 钱包支持：助记词 | Unified Address
@@ -149,7 +149,7 @@
 ---
 
 ## [Zucchini](https://zucchinifi.xyz/)
-![logo](https://github.com/user-attachments/assets/91a1005a-3daf-4747-9442-c178cbe50e49 "Zucchini")
+![logo](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
 - 设备：网页端 
 - 操作系统：浏览器
 - 钱包支持：助记词 | Unified Address
@@ -159,7 +159,7 @@
 ---
 
 ## [SSP Wallet](https://sspwallet.io)
-![logo](https://i.ibb.co/X3hdfSY/ssp-1.png "SSP Wallet")
+![logo](/content-images/ssp-1-7d96e66117.webp "SSP Wallet")
 - 设备：移动端 | 网页端
 - 操作系统：Android | iOS | 浏览器
 - 钱包支持：助记词
@@ -169,7 +169,7 @@
 ---
 
 ## [Trust Wallet](https://trustwallet.com/download)
-![logo](https://i.ibb.co/cNqxBJ1/trustwallet.png "Trust Wallet")
+![logo](/content-images/trustwallet-bec43acb59.webp "Trust Wallet")
 - 设备：移动端 | 网页端
 - 操作系统：Android | iOS | 浏览器
 - 钱包支持：助记词
@@ -179,7 +179,7 @@
 ---
 
 ## [Exodus](https://www.exodus.com/zcash-wallet-zec)
-![logo](https://i.ibb.co/w0NNZNp/exoduscard.png "Exodus")
+![logo](/content-images/exoduscard-2f77769db0.webp "Exodus")
 - 设备：移动端 | 桌面端 | 网页端
 - 操作系统：Android | iOS | Windows | Linux | macOS | 浏览器
 - 钱包支持：助记词
@@ -189,7 +189,7 @@
 ---
 
 ## [Coinomi](https://www.coinomi.com/en/downloads)
-![logo](https://i.ibb.co/QfHmjWY/coinomicard.png "Coinomi")
+![logo](/content-images/coinomicard-226bcbf876.webp "Coinomi")
 - 设备：移动端 | 桌面端
 - 操作系统：Android | iOS | Windows
 - 钱包支持：助记词
@@ -199,7 +199,7 @@
 ---
 
 ## [Keystone](https://shop.keyst.one)
-![logo](https://i.ibb.co/c1gn635/Keystone-1.png "Keystone")
+![logo](/content-images/Keystone-1-8177a83308.webp "Keystone")
 - 设备：
 - 操作系统：
 - 钱包支持：硬件 | Unified Address
@@ -209,7 +209,7 @@
 ---
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
-![logo](https://i.ibb.co/2qX6WCF/Desktop-Wallets.png "Ledger")
+![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
 - 设备： 
 - 操作系统：
 - 钱包支持：硬件
@@ -219,7 +219,7 @@
 ---
 
 ## [Safepal](https://safepal.com)
-![logo](https://i.ibb.co/h29h6d0/safepalcard.png "Safepal")
+![logo](/content-images/safepalcard-176b24c751.webp "Safepal")
 - 设备：移动端 | 网页端
 - 操作系统：Android | iOS | 浏览器
 - 钱包支持：助记词 | 硬件
@@ -229,7 +229,7 @@
 ---
 
 ## [Trezor](https://trezor.io/learn/a/zcash-zec)
-![logo](https://i.ibb.co/twLMCgzW/trezor1.png "Trezor")
+![logo](/content-images/trezor1-5004075d27.webp "Trezor")
 - 设备：
 - 操作系统：
 - 钱包支持：硬件
@@ -239,7 +239,7 @@
 ---
 
 ## [Vultisig](https://vultisig.com)
-![logo](https://i.ibb.co/93wSrxCc/vultisig.png "Vultisig")
+![logo](/content-images/vultisig-713626c5ba.webp "Vultisig")
 - 设备：网页端 | 移动端 | 桌面端
 - 操作系统：Android | iOS | Windows | Linux | macOS | 浏览器
 - 资金池：Transparent
@@ -248,7 +248,7 @@
 ---
 
 ## [Vizor](https://vizor.cash/)
-![logo](https://i.ibb.co/zhW2d2fV/Vizorphoto.png "Vizor")
+![logo](/content-images/Vizorphoto-6ade2417a5.webp "Vizor")
 - 设备：桌面端 | 移动端
 - 操作系统：macOS
 - 钱包支持：助记词 | Unified Address | 硬件
@@ -258,7 +258,7 @@
 ---
 
 ## [Noir wallet](https://www.zknoir.com/)
-![logo](https://i.ibb.co/23RkRZZS/Noirwallet.png "Noir")
+![logo](/content-images/Noirwallet-8589fe34e4.webp "Noir")
 - 设备：网页端 | 桌面端
 - 操作系统：浏览器
 - 资金池：Shielded | Transparent
@@ -267,7 +267,7 @@
 ---
 
 ## [LeoDex](https://leodex.io/)
-![logo](https://i.ibb.co/3YjpzYnH/Leo-Dexwallet.png "LeoDex")
+![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
 - 设备：网页端 | 桌面端
 - 操作系统：浏览器 | Windows | macOS
 - 钱包支持：助记词 | 外部钱包 | 接收地址 | 二维码 | 硬件
@@ -277,7 +277,7 @@
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
-![logo](https://i.ibb.co/mr8rF8y2/zapp-1.png "Zapp")
+![logo](/content-images/zapp-1-a6fa468edb.webp "Zapp")
 - 设备：移动端 
 - 操作系统：Android 
 - 钱包支持：Unified Address 

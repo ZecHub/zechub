@@ -15,7 +15,7 @@
 
 **Shielded Transaction** 指任何使用为 Sapling/Orchard 池编码地址的交易。
 
-![Transparent 与 Shielded 简介](https://pbs.twimg.com/media/FpmW00HWIAIZpQD.jpg)
+![Transparent 与 Shielded 简介](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
 
 **Unified Addresses (UAs)** 旨在将 shielded 或 transparent 交易**统一**到一个地址中。
 
@@ -31,9 +31,9 @@
 
 字符数量（因此二维码尺寸）会随着类型依次增加。
 
-![地址类型对比](https://pbs.twimg.com/media/FpmXe5bXsAEFeLY.png)
+![地址类型对比](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
 
-![二维码尺寸对比](https://pbs.twimg.com/media/FpmXmDwXoAIWxov.png)
+![二维码尺寸对比](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
 
 ---
 
@@ -50,7 +50,7 @@ Unified Address 的原始编码，是多个接收器编码（typecode、length�
 
 **重要**：每个 UA 中必须**至少包含一个 shielded payment address**。（Sprout 地址在 Canopy 升级后已不再受支持。）
 
-![UA 编码结构](https://pbs.twimg.com/media/FpmYW1ZXgAAvALT.png)
+![UA 编码结构](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
 
 完整规范：**[ZIP-316: Unified Addresses](https://zips.z.cash/zip-0316)**
 

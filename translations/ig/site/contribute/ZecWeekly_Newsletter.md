@@ -17,7 +17,7 @@ Tupu ị malite ide ihe:
 - Lelee [ZEC Bounties ](https://bounties.zechub.wiki/) maka ọrụ akwụkwọ akụkọ dị ugbu a.
 - Chere ka e kenye gị ọrụ
 
-![ss](https://github.com/user-attachments/assets/149a802c-b64f-4969-ad89-e83ffecf568e)
+![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
 
 
 
@@ -93,7 +93,7 @@ Jiri arịrịọ ndị a na-adọta akwụkwọ akụkọ dị ka ihe atụ nke
 - [Zcash Ecosystem Digest] Febụwarị 14](https://github.com/ZecHub/zechub/pull/1474)
 
 
-![Merged ZecWeekly akwụkwọ akụkọ na-adọta arịrịọ ihe atụ](https://github.com/user-attachments/assets/9230d68d-6406-4c8a-992c-df84e0d318d8)
+![Merged ZecWeekly akwụkwọ akụkọ na-adọta arịrịọ ihe atụ](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)
 
 When comparing your work with an example, focus on the file location, title format, section order, link descriptions, and whether the pull request connects back to the correct task.
 

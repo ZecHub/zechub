@@ -5,7 +5,7 @@
 # Tẹ Àwòrán kan jáde lórí IPFS
 
 <a href="">
-    <img src="https://blog.desdelinux.net/wp-content/uploads/2020/04/IPFS-.jpg" alt="" width="800" height="400"/>
+    <img src="/content-images/IPFS-40c2e22732.webp" alt="" width="800" height="400"/>
 </a>
 
 
@@ -52,7 +52,7 @@ Yan folda pẹlu awọn faili oju opo wẹẹbu rẹ ki o lọ si aṣayan Fikun
 
 
 <a href="">
-    <img src="https://i.ibb.co/ZHW4zsY/ipfs-site-folder.png" alt="" width="400" height="200"/>
+    <img src="/content-images/ipfs-site-folder-2c96524d98.webp" alt="" width="400" height="200"/>
 </a>
 
 –
@@ -89,14 +89,14 @@ Ninu ọran wa CID = QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3
 
 
 <a href="">
-    <img src="https://dnslink.io/assets/dns-query.a0134a75.png" alt="" width="400" height="100"/>
+    <img src="/content-images/dns-query.a0134a75-9ef7817f80.webp" alt="" width="400" height="100"/>
 </a>
 
 
 Ninu akojọ aṣayan awọn eto fun apoti aaye rẹ lori ohun elo tabili tabili IPFS yan Tẹjade si IPNS.
 
 <a href="">
-    <img src="https://i.ibb.co/Ch25dKf/IPNS.png" alt="" width="400" height="200"/>
+    <img src="/content-images/IPNS-2fe62cc369.webp" alt="" width="400" height="200"/>
 </a>
 
 
@@ -112,7 +112,7 @@ If you already own a web address you are able to add a new record using the TXT 
 
 
 <a href="">
-    <img src="https://i.ibb.co/MgRxBHj/example.png" alt="" width="400" height="100"/>
+    <img src="/content-images/example-c2a9edb28b.webp" alt="" width="400" height="100"/>
 </a>
 
 

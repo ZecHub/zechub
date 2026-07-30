@@ -102,7 +102,7 @@ Zcash (ZEC) 是一种以隐私为重点的加密货币，使用 Equihash 工作�
 3. 支付：大多数矿池在你达到最低门槛后会自动支付（例如 0.05 ZEC）。请查看矿池规则。
 
    
-![Zcash 挖矿监控设置](https://raw.githubusercontent.com/ZecHub/zechub/aac601cf85076960d334f4c841867a646a5a2f29/assets/images/zcashMining.jpg)
+![Zcash 挖矿监控设置](/content-images/zcashMining-5ca0019c17.webp)
 
 
 ## 提示与最佳实践

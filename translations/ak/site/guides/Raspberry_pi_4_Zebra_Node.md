@@ -4,7 +4,7 @@
 
 # Raspberry Pi 4 Guide for Running Zebra
 
-<img src="https://i.ibb.co/V3rjKwv/image-2023-11-28-172907488.png" alt="raspberry pi" width="300" height="300"/>
+<img src="/content-images/image-2023-11-28-172907488-e7e9fd4ac5.webp" alt="raspberry pi" width="300" height="300"/>
 
 Zebra node software no a wode di dwuma wɔ Raspberry Pi 4 so no ma wo kwan ma wode wo ho hyɛ Zcash network no mu sɛ node a ɛde ne ho, a ɛne adwene hyia. Saa akwankyerɛ yi bɛkyerɛ wo wɔ anammɔn a wobɛfa so asiesie na woatu Zebra wɔ wo Raspberry Pi 4 no so.
 
@@ -67,7 +67,7 @@ Zebra node software no a wode di dwuma wɔ Raspberry Pi 4 so no ma wo kwan ma wo
 7. __Nhwɛsoɔ__ .
    Wubetumi ahwɛ sɛnea wo Zebra node no rekɔ so ne ne tebea denam wɛb brawsa a wubebue na woakɔ __ so.http://127.0.0.1:8233/status__.
 
-<img src="https://i.ibb.co/BCtKrGp/image-2023-11-28-173024853.png" alt="zebra logo" width="200" height="200"/>
+<img src="/content-images/image-2023-11-28-173024853-99540511cf.webp" alt="zebra logo" width="200" height="200"/>
 
 ## Ɔhaw ahorow a wodi ho dwuma
 

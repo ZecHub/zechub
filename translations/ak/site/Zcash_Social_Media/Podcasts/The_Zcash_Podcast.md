@@ -4,7 +4,7 @@
 
 
 # Zcash Podcast a ɛwɔ Digital Cash Network so no
-![Nsɛm a wɔde kyerɛe_2023-01-22_21-50-14](https://user-images.githubusercontent.com/81990132/213973803-b0629c92-08d4-459b-99f1-594854a7db3a.png)
+![Nsɛm a wɔde kyerɛe_2023-01-22_21-50-14](/content-images/213973803-b0629c92-08d4-459b-99f1-594854-6272d02af6.webp)
 
 Zcash Podcast no gye nsɛm te sɛ updates, asɛmti pɔtee bi a emu dɔ, ne nea ɛkeka ho ma Zcash mpɔtam hɔfo a wɔwɔ hɔ dedaw no di na wɔkyɛ, na ɛsan nso ma hokwan ma Digital Cash Network channel akrafo a wɔwɔ hɔ dedaw no sɛ wobehu Zcash yiye. 
 

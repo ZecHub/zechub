@@ -12,32 +12,32 @@ Yɛsrɛ sɛ kenkan yɛn [Full Nodes akwankyerɛ](https://zechub.wiki/full-nodes)
 
 - Sɛnea Wɔboaboa Zcashd ano wɔ Raspberry Pi 4 so
 
-[![Video no mu mfonini ketewaa bi](https://img.youtube.com/vi/SGYrzhs1l2k/hqdefault.jpg)](https://www.youtube.com/watch?v=SGYrzhs1l2k)
+[![Video no mu mfonini ketewaa bi](/content-images/hqdefault-7968659090.webp)](https://www.youtube.com/watch?v=SGYrzhs1l2k)
 ____
 
 - Zcashd Sikakorabea Adwinnade
 
-[![Video no mu mfonini ketewaa bi](https://img.youtube.com/vi/9t2LX3HFldw/hqdefault.jpg)](https://www.youtube.com/watch?v=9t2LX3HFldw)
+[![Video no mu mfonini ketewaa bi](/content-images/hqdefault-0b326338e3.webp)](https://www.youtube.com/watch?v=9t2LX3HFldw)
 ____
 
 - Nea Ɛyɛ Mfaso a Wɔde Di Dwuma Zcashd 
 
-[![Video no mu mfonini ketewaa bi](https://img.youtube.com/vi/KNhd1KC0Bqk/hqdefault.jpg)](https://www.youtube.com/watch?v=KNhd1KC0Bqk)
+[![Video no mu mfonini ketewaa bi](/content-images/hqdefault-eddbbab4b4.webp)](https://www.youtube.com/watch?v=KNhd1KC0Bqk)
 ____
 
 - Sɛnea Wobɛma Zcashd Node no ayɛ kɛse
 
-[![Video no mu mfonini ketewaa bi](https://img.youtube.com/vi/YjAkaseEqAE/hqdefault.jpg)](https://www.youtube.com/watch?v=YjAkaseEqAE)
+[![Video no mu mfonini ketewaa bi](/content-images/hqdefault-e342e5e0b5.webp)](https://www.youtube.com/watch?v=YjAkaseEqAE)
 _____
 
 - Lightwalletd Server a wode bedi dwuma ne Zebra
 
-[![Video no mu mfonini ketewaa bi](https://img.youtube.com/vi/FfH5jiX8pT0/hqdefault.jpg)](https://www.youtube.com/watch?v=FfH5jiX8pT0)
+[![Video no mu mfonini ketewaa bi](/content-images/hqdefault-e1135bf69b.webp)](https://www.youtube.com/watch?v=FfH5jiX8pT0)
 
 
 ____
 
 - Post Comments wɔ Free2Z ne Zenith CLI
 
-[![Video no mu mfonini ketewaa bi](https://img.youtube.com/vi/HtorP8TJ5vk/hqdefault.jpg)](https://www.youtube.com/watch?v=HtorP8TJ5vk)
+[![Video no mu mfonini ketewaa bi](/content-images/hqdefault-1bd406037a.webp)](https://www.youtube.com/watch?v=HtorP8TJ5vk)
 

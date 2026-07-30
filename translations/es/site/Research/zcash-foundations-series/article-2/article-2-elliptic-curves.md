@@ -1,7 +1,7 @@
 # Curvas elípticas: donde nacen las claves y los compromisos de Zcash
 ##### Investigación original de [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![texto alternativo](image-10.png)
+![texto alternativo](/content-images/image-10-c1097b22d7.webp)
 
 ### Una calle de un solo sentido construida a partir de puntos sobre una curva
 
@@ -38,7 +38,7 @@ y^2 = x^3 + ax + b
 
 Sobre los números ordinarios, se ve como una curva suave y ondulante, a menudo con un lazo redondeado y dos colas:
 
-![texto alternativo](image-14.png)
+![texto alternativo](/content-images/image-14-1d2e8c25d2.webp)
 
 La parte realmente sorprendente: **puedes "sumar" dos puntos de esta curva para obtener un tercer punto en la misma curva.** No es una suma ordinaria de coordenadas. Es una regla geométrica, y es más fácil de *ver* que de explicar.
 
@@ -50,7 +50,7 @@ Para sumar `P + Q`:
 2. Esa línea corta la curva exactamente en un lugar más. Llámalo `R*`.
 3. **Refleja `R*` respecto del eje horizontal.** Ese reflejo es la respuesta, `P + Q`.
 
-![texto alternativo](image-11.png)
+![texto alternativo](/content-images/image-11-61f3df1989.webp)
 
 ### La regla de la tangente (sumar un punto consigo mismo)
 
@@ -117,7 +117,7 @@ Ahora viene la magia. Considera las dos direcciones:
 
 Esa asimetría es la **calle de un solo sentido** que necesitábamos en la Sección 1. El problema inverso ("¿qué `k` produjo este punto?") se llama el **Problema del Logaritmo Discreto en Curvas Elípticas (ECDLP)**, y en las curvas que usa Zcash, ningún método conocido lo resuelve antes de la muerte térmica del universo.
 
-![texto alternativo](image-12.png)
+![texto alternativo](/content-images/image-12-86b9ace6cb.webp)
 
 > En nuestra curva de juguete `F_17` sí *podrías* simplemente leer `k` de la tabla, porque solo tiene 19 puntos. Las curvas reales tienen alrededor de `2^(255)` puntos. La tabla tendría más filas que átomos hay en el universo, así que "leerlo de la tabla" no es una opción. Ese tamaño pequeño es lo que hace que la curva de juguete sea enseñable y también por qué no es segura.
 
@@ -160,7 +160,7 @@ Las huellas son concretas y comprobables.
 
 Las razones por las que una curva se "incrusta" dentro del campo de otra, y por las que un *ciclo* de dos curvas es útil, son reales e importantes, pero pertenecen a los artículos sobre sistemas de prueba. Por ahora, la conclusión es sólida: **cada clave de Zcash es un escalar multiplicado por un generador, y cada compromiso de Zcash es una suma de puntos de curva**, que viven en una de estas curvas con nombre.
 
-![texto alternativo](image-13.png)
+![texto alternativo](/content-images/image-13-ffdd703c60.webp)
 
 ---
 

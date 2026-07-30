@@ -43,7 +43,7 @@ Perché un utente dovrebbe volerlo fare? Dal blog di Electric Coin Co. sull'argo
 * In alto a destra, seleziona "Account", clicca su "+" in basso a destra per aggiungere e importare la tua Viewing Key al tuo account in modalità sola lettura.
 
 <a href="">
-    <img src="https://i.ibb.co/C0b002N/image-2024-01-13-175554676.png" alt="" width="200" height="280"/>
+    <img src="/content-images/image-2024-01-13-175554676-8cdf988797.webp" alt="" width="200" height="280"/>
 </a>
 
 

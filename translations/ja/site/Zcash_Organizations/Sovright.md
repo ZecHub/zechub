@@ -1,5 +1,5 @@
 # Sovright
-![Sovright](https://i.ibb.co/vvZNvNDT/sovright.png)
+![Sovright](/content-images/sovright-16a27c0d24.webp)
 
 **Sovright** は、人間の自律性を支援することに専念する米国の非営利団体（501(c3)）です。Zcash のインフラ、マイニング、プロトコル開発、エコシステムサポートから始まり、プロジェクトはプライベートなデジタル通貨のインフラを強化し、Zcash ネットワークの長期的な安定性を支えるためのツールとサービスを開発しています。
 

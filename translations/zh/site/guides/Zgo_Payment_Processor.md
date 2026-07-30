@@ -42,7 +42,7 @@ ZGo 采取了相反的方式。付款通过一笔 Zcash 屏蔽交易，直接从
 
 ZGo 可在桌面端或移动端的任何现代浏览器中运行，双方都无需安装。客户需要一个 Zcash 钱包；商家则需要一个 Zcash 钱包和一个 ZGo 账户。
 
-<img width="672" height="378" alt="ZGo 付款请求与区块链监控概览" src="https://github.com/user-attachments/assets/de50885b-b068-4157-bbda-0981ca23efc8" />
+<img width="672" height="378" alt="ZGo 付款请求与区块链监控概览" src="/content-images/de50885b-b068-4157-bbda-0981ca23efc8-a00a274776.webp" />
 
 ## 设置账户
 
@@ -77,7 +77,7 @@ ZEC 会进入商家的钱包，而不是任何由 ZGo 或 Xero 控制的账户�
 
 对于运行在 [WooCommerce](https://woocommerce.com/) 和 [WordPress](https://wordpress.org/) 上的网店，ZGo 提供了专用插件。该插件会在结账时加入 Zcash 作为支付方式，并在付款确认后自动处理订单状态。
 
-<img width="672" height="378" alt="ZGo WooCommerce 插件结账与订单流程" src="https://github.com/user-attachments/assets/55a791bb-1947-4f55-b5b9-55083be8ed49" />
+<img width="672" height="378" alt="ZGo WooCommerce 插件结账与订单流程" src="/content-images/55a791bb-1947-4f55-b5b9-55083be8ed49-2bc8d2571e.webp" />
 
 WooCommerce 商店中的端到端流程如下：
 

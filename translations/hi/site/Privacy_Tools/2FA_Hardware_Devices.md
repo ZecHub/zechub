@@ -10,7 +10,7 @@
 
 इन कुंजियों को आपके username और password के साथ मिलकर काम करने के लिए डिज़ाइन किया गया है, ताकि केवल अधिकृत उपयोगकर्ता ही आपके अकाउंट्स और डेटा तक पहुँच सकें। ये pen drive, NFC card या Bluetooth device जैसे विभिन्न रूपों में उपलब्ध होती हैं।
 
-![हार्डवेयर सुरक्षा कुंजी का उदाहरण](https://github.com/ZecHub/zechub/assets/81990132/1dff66a4-d8e6-483f-9a1e-065d3974d665)
+![हार्डवेयर सुरक्षा कुंजी का उदाहरण](/content-images/1dff66a4-d8e6-483f-9a1e-065d3974d665-a4c6c73e00.webp)
 
 ## हार्डवेयर सुरक्षा कुंजी कैसे काम करती है
 
@@ -26,7 +26,7 @@ YubiKey जैसी hardware security keys के साथ, आपको ब�
 
 नहीं, हार्डवेयर सुरक्षा कुंजियाँ कई formats में आती हैं और संभव है कि वे सभी डिवाइसों और operating systems के साथ compatible न हों। कोई key खरीदने से पहले सुनिश्चित कर लें कि वह आपके डिवाइस और operating system के साथ compatible है।
 
-![हार्डवेयर सुरक्षा कुंजी के form factors](https://github.com/ZecHub/zechub/assets/81990132/a830c435-ad20-4183-b381-475afe1089b3)
+![हार्डवेयर सुरक्षा कुंजी के form factors](/content-images/a830c435-ad20-4183-b381-475afe1089b3-5537cd7388.webp)
 
 ## क्या एक हार्डवेयर सुरक्षा कुंजी को कई अकाउंट्स के साथ उपयोग किया जा सकता है?
 
@@ -42,7 +42,7 @@ YubiKey जैसी hardware security keys के साथ, आपको ब�
 
 **Yubico YubiKey 5 NFC**
 
-![Yubico YubiKey 5 NFC](https://github.com/ZecHub/zechub/assets/81990132/bf1ac95e-7277-4559-b5ef-63117b66971b)
+![Yubico YubiKey 5 NFC](/content-images/bf1ac95e-7277-4559-b5ef-63117b66971b-3aa542aba7.webp)
 
 कई सुरक्षा कुंजियों में उपयोग होने वाले FIDO U2F open authentication standard के co-developer Yubico द्वारा निर्मित, YubiKey 5 NFC आपके डिवाइसों की सुरक्षा के लिए एक भरोसेमंद विकल्प है। जैसा कि इसके नाम से पता चलता है, यह USB A (या adapter का उपयोग करके USB C) या NFC के माध्यम से काम करता है।  
 यह Google Chrome, Facebook, Dropbox, LastPass, 1Password और अन्य कई services के साथ out of the box compatibility प्रदान करता है। YubiKey 5 compact, durable और lightweight है - और यह waterproof भी है।  
@@ -50,7 +50,7 @@ YubiKey जैसी hardware security keys के साथ, आपको ब�
 
 **Thetis Fido U2F Security Key**
 
-![Thetis Fido U2F Security Key](https://github.com/ZecHub/zechub/assets/81990132/b83e42e5-bba6-4175-ad6c-d64972ef54ef)
+![Thetis Fido U2F Security Key](/content-images/b83e42e5-bba6-4175-ad6c-d64972ef54ef-a2ef17a10d.webp)
 
 यदि आप किसी security key में सबसे अच्छा value-for-money विकल्प ढूँढ रहे हैं, तो Thetis का यह model आपकी सूची में होना चाहिए। इसमें onboard Bluetooth नहीं है (वह एक अधिक महंगे model में उपलब्ध है), और यह केवल FIDO U2F standard को support करता है, इसलिए इसमें UAF या OTP compatibility नहीं है। हालांकि, यदि आप Windows, macOS, या Linux पर Chrome या Opera browser का उपयोग करते हैं, तो यह website access को सुरक्षित बनाएगा।  
 सुविधाजनक रूप से, इस किफायती security key में एक compact folding design है, जिसमें rotating aluminum casing दी गई है, जो transport के दौरान connector को संभावित क्षति से बचाती है। यह तीन आकर्षक रंगों में आती है: Black, Gold, और Silver।  
@@ -58,7 +58,7 @@ YubiKey जैसी hardware security keys के साथ, आपको ब�
 
 **CryptoTrust OnlyKey**
 
-![CryptoTrust OnlyKey](https://github.com/ZecHub/zechub/assets/81990132/13be6ecc-227e-498c-8a36-6d52c023cd78)
+![CryptoTrust OnlyKey](/content-images/13be6ecc-227e-498c-8a36-6d52c023cd78-06e3e924dc.webp)
 
 जैसा कि इसके नाम से स्पष्ट है, OnlyKey में कुछ ऐसे उपयोगी features हैं जो इसके rivals में नहीं मिलते। onboard keypad की मदद से, जो computers में पहुँच जाने वाले keyloggers को bypass कर सकता है, यह online accounts को सुरक्षित रख सकता है, भले ही कोई computer या website compromised हो जाए। यह 2FA के कई methods को support करता है, जिनमें FIDO 2 U2F, Yubico OTP, और TOTP शामिल हैं।  
 हालाँकि मुख्यधारा के उपयोग के लिए यह सबसे अच्छा password manager नहीं है, फिर भी OnlyKey एक ही key पर 24 OTP accounts, 24 passwords, और 24 usernames/URLs store कर सकता है। यदि आप कई passwords याद रखने के इच्छुक नहीं हैं और चाहते हैं कि key यह काम आपके लिए संभाले, तो यह feature काफ़ी उपयोगी है।  
@@ -71,22 +71,22 @@ YubiKey जैसी hardware security keys के साथ, आपको ब�
 **Step 1**  
 अपने Gmail account में log in करें और **Manage Your Google Account** पर click करें
 
-![Google Account - Manage Account](https://github.com/ZecHub/zechub/assets/81990132/995fc955-791a-4456-9218-7e5964da48b5)
+![Google Account - Manage Account](/content-images/995fc955-791a-4456-9218-7e5964da48b5-31c64640b2.webp)
 
 **Step 2**  
 **Security** पर click करें
 
-![Google Security Settings](https://github.com/ZecHub/zechub/assets/81990132/246db235-6596-41ff-bd7a-f8ee4f80962b)
+![Google Security Settings](/content-images/246db235-6596-41ff-bd7a-f8ee4f80962b-340193c2c3.webp)
 
 **Step 3**  
 **2-Step Verification** पर click करें
 
-![2-Step Verification Screen](https://github.com/ZecHub/zechub/assets/81990132/19cd202a-1a70-47e6-a02a-aa24f6e199fa)
+![2-Step Verification Screen](/content-images/19cd202a-1a70-47e6-a02a-aa24f6e199fa-a9fcb911ce.webp)
 
 **Step 4**  
 **Show More Options** चुनें
 
-![Show More Options](https://github.com/ZecHub/zechub/assets/81990132/2ade9531-1cf6-48e8-b9a8-178d41a4cd30)
+![Show More Options](/content-images/2ade9531-1cf6-48e8-b9a8-178d41a4cd30-b1e9ea1400.webp)
 
 **Step 5**  
 अब **Security Key** चुनें और फिर **Advance** पर click करें

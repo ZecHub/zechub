@@ -7,14 +7,14 @@
 
 - نصائح مفيدة عند استخدام Zcash
 
-[![صورة مصغرة للفيديو](https://img.youtube.com/vi/tEfQaYPV0UE/hqdefault.jpg)](https://www.youtube.com/watch?v=tEfQaYPV0UE)
+[![صورة مصغرة للفيديو](/content-images/hqdefault-3bd7a8849a.webp)](https://www.youtube.com/watch?v=tEfQaYPV0UE)
 
 
 ____
 
 - كيفية إنشاء طلبات دفع باستخدام Zcash
 
-[![صورة مصغرة للفيديو](https://img.youtube.com/vi/l5auYQIzYsQ/hqdefault.jpg)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
+[![صورة مصغرة للفيديو](/content-images/hqdefault-43e8fb910c.webp)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
 
 
 ____ 
@@ -22,7 +22,7 @@ ____
 
 - إضافة أداة تبرع بـ Zcash إلى موقعك الإلكتروني
 
-[![صورة مصغرة للفيديو](https://img.youtube.com/vi/NbP4BcHC0uM/hqdefault.jpg)](https://www.youtube.com/watch?v=NbP4BcHC0uM)
+[![صورة مصغرة للفيديو](/content-images/hqdefault-2fabc62715.webp)](https://www.youtube.com/watch?v=NbP4BcHC0uM)
 
 
 ___ 
@@ -30,6 +30,6 @@ ___
 
 - كيفية إجراء معاملة محمية
 
-[![صورة مصغرة للفيديو](https://img.youtube.com/vi/5bx4GhQTi_8/hqdefault.jpg)](https://www.youtube.com/watch?v=5bx4GhQTi_8)
+[![صورة مصغرة للفيديو](/content-images/hqdefault-3c4fd66e97.webp)](https://www.youtube.com/watch?v=5bx4GhQTi_8)
 
 ___

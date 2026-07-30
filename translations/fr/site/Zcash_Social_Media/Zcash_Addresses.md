@@ -15,7 +15,7 @@ Aujourd’hui, nous allons les découvrir et aborder l’une des nouvelles fonct
 
 Une **transaction protégée** désigne toute transaction comportant des adresses encodées pour les pools Sapling/Orchard.
 
-![Introduction aux transactions transparentes vs protégées](https://pbs.twimg.com/media/FpmW00HWIAIZpQD.jpg)
+![Introduction aux transactions transparentes vs protégées](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
 
 Les **Unified Address (UA)** sont conçues pour **unifier** les transactions protégées ou transparentes dans une seule adresse.
 
@@ -31,9 +31,9 @@ Il existe 3 types d’adresses en usage :
 
 Le nombre de caractères (et donc la taille du code QR) augmente avec chaque type.
 
-![Comparaison des types d’adresses](https://pbs.twimg.com/media/FpmXe5bXsAEFeLY.png)
+![Comparaison des types d’adresses](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
 
-![Comparaison de la taille des codes QR](https://pbs.twimg.com/media/FpmXmDwXoAIWxov.png)
+![Comparaison de la taille des codes QR](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
 
 ---
 
@@ -50,7 +50,7 @@ Le raw encoding d’une Unified Address est une combinaison des encodages (typec
 
 **Important** : Il doit y avoir **au moins une adresse de paiement protégée** dans chaque UA. (Les adresses Sprout ne sont plus prises en charge après la mise à niveau Canopy.)
 
-![Structure d’encodage UA](https://pbs.twimg.com/media/FpmYW1ZXgAAvALT.png)
+![Structure d’encodage UA](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
 
 Spécification complète : **[ZIP-316 : Unified Addresses](https://zips.z.cash/zip-0316)**
 

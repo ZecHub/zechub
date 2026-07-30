@@ -1,7 +1,7 @@
 # Comment fonctionne réellement une transaction Zcash blindée
 ##### Recherche originale de [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![texte alternatif](image.png)
+![texte alternatif](/content-images/image-fedc371488.webp)
 
 ### L’intuition avant les maths : une explication des paiements privés sans formules
 
@@ -46,7 +46,7 @@ L’argent peut même passer d’un monde à l’autre : déplacer des fonds *ve
 
 Le monde transparent, c’est « le Bitcoin que vous comprenez déjà à peu près ». C’est le **monde blindé** qui contient toute la belle cryptographie, et c’est le seul monde qui nous intéresse dans cette série.
 
-![texte alternatif](image-1.png)
+![texte alternatif](/content-images/image-1-f821d24c6f.webp)
 
 ---
 
@@ -124,7 +124,7 @@ Le miracle, c’est que la preuve ne révèle **aucun** de ces faits. Ni le mont
 
 Une note *naît*, elle *vit* sur le panneau, puis finalement elle *meurt*, et surtout, sa naissance et sa mort paraissent sans rapport pour quiconque observe.
 
-![texte alternatif](image-2.png)
+![texte alternatif](/content-images/image-2-0eca0ea4f7.webp)
 
 ---
 
@@ -132,7 +132,7 @@ Une note *naît*, elle *vit* sur le panneau, puis finalement elle *meurt*, et su
 
 Regardons Alice payer Bob, avec chaque étape publique et privée étiquetée.
 
-![texte alternatif](image-4.png)
+![texte alternatif](/content-images/image-4-7af0dfe795.webp)
 
 Remarquez l’asymétrie qui rend la confidentialité possible :
 
@@ -187,7 +187,7 @@ Un bon contenu pédagogique gagne la confiance en disant ce qu’il a omis. Cett
 
 Chaque « nous y reviendrons » ci-dessus est un fil. Voici où chacun est noué :
 
-![texte alternatif](image-29.png)
+![texte alternatif](/content-images/image-29-27ef4636ff.webp)
 
 | Point laissé ouvert dans cet article | Où il est résolu |
 |---|---|

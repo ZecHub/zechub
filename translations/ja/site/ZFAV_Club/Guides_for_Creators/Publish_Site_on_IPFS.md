@@ -5,7 +5,7 @@
 # IPFS 上でサイトを公開する
 
 <a href="">
-    <img src="https://blog.desdelinux.net/wp-content/uploads/2020/04/IPFS-.jpg" alt="" width="800" height="400"/>
+    <img src="/content-images/IPFS-40c2e22732.webp" alt="" width="800" height="400"/>
 </a>
 
 
@@ -51,7 +51,7 @@ IPFS のファイルは *コンテンツアドレッシング* を使用して�
 ウェブサイトのファイルが含まれるフォルダーを選択し、「Add Folder（フォルダーを追加）」オプションに移動してください。
 
 <a href="">
-    <img src="https://i.ibb.co/ZHW4zsY/ipfs-site-folder.png" alt="" width="400" height="200"/>
+    <img src="/content-images/ipfs-site-folder-2c96524d98.webp" alt="" width="400" height="200"/>
 </a>
 
 –
@@ -87,13 +87,13 @@ IPFS のファイルは *コンテンツアドレッシング* を使用して�
 Interplanetary Naming System（IPNS）は、ウェブサイトに関連する IPFS CID を更新しながらも静的なリンクを提供できるようにするキーです。
 
 <a href="">
-    <img src="https://dnslink.io/assets/dns-query.a0134a75.png" alt="" width="400" height="100"/>
+    <img src="/content-images/dns-query.a0134a75-9ef7817f80.webp" alt="" width="400" height="100"/>
 </a>
 
 IPFS デスクトップアプリケーションのサイトフォルダー設定メニューで、**Publish to IPNS（IPNS に公開）** を選択してください。
 
 <a href="">
-    <img src="https://i.ibb.co/Ch25dKf/IPNS.png" alt="" width="400" height="200"/>
+    <img src="/content-images/IPNS-2fe62cc369.webp" alt="" width="400" height="200"/>
 </a>
 
 キー: “k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n”
@@ -107,7 +107,7 @@ IPFS デスクトップアプリケーションのサイトフォルダー設定
 すでにウェブアドレスを所有している場合は、TXTレコード _dnslink(your domain) を追加して新しいレコードを設定できます。プロバイダーによって自動で埋まる場合もあります。
 
 <a href="">
-    <img src="https://i.ibb.co/MgRxBHj/example.png" alt="" width="400" height="100"/>
+    <img src="/content-images/example-c2a9edb28b.webp" alt="" width="400" height="100"/>
 </a>
 
 ネットワークを通じて変更が反映されるまで時間がかかるため、それを確認するには少し時間がかかります。

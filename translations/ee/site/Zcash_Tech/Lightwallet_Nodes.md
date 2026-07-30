@@ -37,25 +37,25 @@ __Ʋu Ywallet/Zingo/Zashi/eZcash__: Dze wò gakotoku si nètia la gɔme le wò m
 
 Le Ywallet gome la, enye cog si le ɖusime ƒe dzogoe si le etame - Yi Zcash tab la gbɔ. 
 
-![Nunya ƒe Tiatia_20250313_105128](https://github.com/user-attachments/assets/b0a2910b-dbdf-4292-8e69-af5a386aa183)
+![Nunya ƒe Tiatia_20250313_105128](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
 
 #### Zingo:
 
 Le Zingo gome la, ele hamburger menu si le miame ƒe dzogoe si le etame la me, emegbe nàzi ɖoɖowo dzi eye nàʋu ayi anyime
 
-![Nunya Tiatia_20250313_105737_Zingo](https://github.com/user-attachments/assets/ea8f7672-e644-41a5-a422-db131740404a)
+![Nunya Tiatia_20250313_105737_Zingo](/content-images/ea8f7672-e644-41a5-a422-db131740404a-2626f5fa79.webp)
 
 #### Zashi:
 
 Le Zashi gome la, enye cog si le etame le ɖusime - Yi Advanced Settings, eye emegbe Tia server
 
-![Nunya ƒe Tiatia_20250313_110200_Zashi](https://github.com/user-attachments/assets/5a9d050a-8308-4cc2-907e-513072066aed)
+![Nunya ƒe Tiatia_20250313_110200_Zashi](/content-images/5a9d050a-8308-4cc2-907e-513072066aed-0bd414d520.webp)
 
 #### eZcash ƒe nyawo
 
 Le eZcash gome la, ele hamburger menu si le miame ƒe dzogoe si le etame la me, emegbe nàzi Settings dzi, zi Advanced dzi
 
-![Nunya ƒe Tiatia_20250313_110616](https://github.com/user-attachments/assets/655c0172-61a0-4322-b8cf-4eee4bb53b51)
+![Nunya ƒe Tiatia_20250313_110616](/content-images/655c0172-61a0-4322-b8cf-4eee4bb53b51-0b93df2e71.webp)
 
 
 ## Nyanuwuwuw

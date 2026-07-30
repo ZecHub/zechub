@@ -42,7 +42,7 @@ ZGo هو معالج دفع غير وصائي لـ Zcash. يدفع العميل �
 
 يعمل ZGo في أي متصفح حديث على سطح المكتب أو الهاتف المحمول، من دون تثبيت لدى أي من الطرفين. يحتاج العميل إلى محفظة Zcash؛ ويحتاج التاجر إلى محفظة Zcash وحساب ZGo.
 
-<img width="672" height="378" alt="نظرة عامة على طلب الدفع في ZGo ومراقبة البلوكتشين" src="https://github.com/user-attachments/assets/de50885b-b068-4157-bbda-0981ca23efc8" />
+<img width="672" height="378" alt="نظرة عامة على طلب الدفع في ZGo ومراقبة البلوكتشين" src="/content-images/de50885b-b068-4157-bbda-0981ca23efc8-a00a274776.webp" />
 
 ## إعداد حساب
 
@@ -77,7 +77,7 @@ ZGo هو معالج دفع غير وصائي لـ Zcash. يدفع العميل �
 
 بالنسبة للمتاجر الإلكترونية التي تعمل على [WooCommerce](https://woocommerce.com/) و[WordPress](https://wordpress.org/)، يوفّر ZGo إضافة مخصصة. تضيف هذه الإضافة Zcash كوسيلة دفع عند إتمام الشراء، وتتعامل تلقائيًا مع حالة الطلب عند تأكيد الدفع.
 
-<img width="672" height="378" alt="إضافة ZGo لـ WooCommerce وتدفق إتمام الشراء والطلبات" src="https://github.com/user-attachments/assets/55a791bb-1947-4f55-b5b9-55083be8ed49" />
+<img width="672" height="378" alt="إضافة ZGo لـ WooCommerce وتدفق إتمام الشراء والطلبات" src="/content-images/55a791bb-1947-4f55-b5b9-55083be8ed49-2bc8d2571e.webp" />
 
 التدفق الكامل داخل متجر WooCommerce:
 

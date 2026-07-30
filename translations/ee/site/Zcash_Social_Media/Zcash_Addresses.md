@@ -15,7 +15,7 @@ Egbea míesrɔ̃ nu tso wo ŋu & ƒo nu tso nu yeye siwo le #Zcash ecosystem me 
 
 **Shielded Transaction** fia asitsatsa ɖesiaɖe si ƒe adrɛswo woŋlɔ na Sapling/Orchard pools.
 
-![Gbeɖiɖi vs Akpoxɔnu ƒe ŋgɔdonya](https://pbs.twimg.com/media/FpmW00HWIAIZpQD.jpg)
+![Gbeɖiɖi vs Akpoxɔnu ƒe ŋgɔdonya](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
 
 Wotrɔ asi le **Unified Addresses (UAs)** be woatsɔ **awɔ ɖeka** le asitsatsa siwo ŋu wokpɔ ta na alo esiwo me kɔ la me ɖe adrɛs ɖeka me.
 
@@ -31,9 +31,9 @@ Adrɛs ƒomevi 3 ye wozãna:
 
 Ŋɔŋlɔdzesiwo ƒe xexlẽme (eye le esia ta QR-kɔda ƒe lolome) dzina ɖe edzi le ƒomevi ɖesiaɖe me.
 
-![Adrɛs ƒomeviwo tsɔtsɔ sɔ kple wo nɔewo](https://pbs.twimg.com/media/FpmXe5bXsAEFeLY.png)
+![Adrɛs ƒomeviwo tsɔtsɔ sɔ kple wo nɔewo](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
 
-![QR code ƒe lolome tsɔtsɔ sɔ kple wo nɔewo](https://pbs.twimg.com/media/FpmXmDwXoAIWxov.png)
+![QR code ƒe lolome tsɔtsɔ sɔ kple wo nɔewo](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
 
 ---
 
@@ -50,7 +50,7 @@ The raw encoding of a Unified Address is a combination of encodings (typecode, l
 
 **Vevietɔ**: Ele be **fexexe ƒe adrɛs ɖeka ya teti si wokpɔ ta na** nanɔ UA ɖesiaɖe me. (Womegale asi kpem ɖe Sprout adrɛswo ŋu le Canopy ƒe dodoɖeŋgɔ megbe o.)
 
-![UA ƒe nuŋɔŋlɔ ƒe ɖoɖo](https://pbs.twimg.com/media/FpmYW1ZXgAAvALT.png)
+![UA ƒe nuŋɔŋlɔ ƒe ɖoɖo](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
 
 Nyatakaka bliboa: **[ZIP-316: Adrɛs Siwo Wowɔ Ðeka](https://zips.z.cash/zip-0316)**
 

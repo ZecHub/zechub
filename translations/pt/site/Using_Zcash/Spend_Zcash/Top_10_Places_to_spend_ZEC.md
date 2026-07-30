@@ -57,7 +57,7 @@ Rosquinhas com frutas cristalizadas | Crédito: Sheila Vargas Rojas |
 
 Então, se você é um amante de cookies..,
 
-![https://media.tenor.com/Px4lboKQYbYAAAAC/champagne-barbie-cookie-monster.gif](https://media.tenor.com/Px4lboKQYbYAAAAC/champagne-barbie-cookie-monster.gif)
+![/content-images/champagne-barbie-cookie-monster-ded97640a2.webp](/content-images/champagne-barbie-cookie-monster-ded97640a2.webp)
 
 agora você sabe onde gastar seu ZEC!
 
@@ -149,7 +149,7 @@ Você quer se sentir *empoderada?*  **Emprendedoras Digitales de Venezuela** é 
 
 • construção de branding..,  entre outros. Sempre pensando em cada mulher na Venezuela que quer comandar o seu próprio negócio. 
 
-![https://i0.wp.com/emprendedorasdigitales.org/wp-content/uploads/2020/07/cropped-logo-nuevo_Mesa-de-trabajo-1-scaled-1.jpg?resize=300%2C208&ssl=1](https://i0.wp.com/emprendedorasdigitales.org/wp-content/uploads/2020/07/cropped-logo-nuevo_Mesa-de-trabajo-1-scaled-1.jpg?resize=300%2C208&ssl=1)
+![/content-images/cropped-logo-nuevo_Mesa-de-trabajo-1-sca-ba7d9d40e8.webp](/content-images/cropped-logo-nuevo_Mesa-de-trabajo-1-sca-ba7d9d40e8.webp)
 
 **Website**: [https://emprendedorasdigitales.org/](https://emprendedorasdigitales.org/) 
 

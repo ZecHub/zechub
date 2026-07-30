@@ -10,7 +10,7 @@ Donanım güvenlik anahtarı, hesaplarınızı ve cihazlarınızı korumak için
 
 Bu anahtarlar, yalnızca yetkili kullanıcıların hesaplarınıza ve verilerinize erişebilmesini sağlamak için kullanıcı adınız ve parolanızla birlikte çalışacak şekilde tasarlanmıştır. USB bellekler, NFC kartları veya Bluetooth cihazları gibi çeşitli biçimlerde gelirler.
 
-![Donanım Güvenlik Anahtarı Örneği](https://github.com/ZecHub/zechub/assets/81990132/1dff66a4-d8e6-483f-9a1e-065d3974d665)
+![Donanım Güvenlik Anahtarı Örneği](/content-images/1dff66a4-d8e6-483f-9a1e-065d3974d665-a4c6c73e00.webp)
 
 ## Donanım güvenlik anahtarı nasıl çalışır?
 
@@ -26,7 +26,7 @@ Donanım güvenlik anahtarları, geleneksel parola tabanlı kimlik doğrulama y�
 
 Hayır, donanım güvenlik anahtarları birçok farklı biçimde gelir ve tüm cihazlar ile işletim sistemleriyle uyumlu olmayabilir. Bir anahtar satın almadan önce, cihazınız ve işletim sisteminizle uyumlu olduğundan emin olun.
 
-![Donanım Güvenlik Anahtarı Form Faktörleri](https://github.com/ZecHub/zechub/assets/81990132/a830c435-ad20-4183-b381-475afe1089b3)
+![Donanım Güvenlik Anahtarı Form Faktörleri](/content-images/a830c435-ad20-4183-b381-475afe1089b3-5537cd7388.webp)
 
 ## Donanım güvenlik anahtarı birden fazla hesapla kullanılabilir mi?
 
@@ -42,7 +42,7 @@ Donanım güvenlik anahtarınızı kaybederseniz, hesaplarınızın kilitlenmesi
 
 **Yubico YubiKey 5 NFC**
 
-![Yubico YubiKey 5 NFC](https://github.com/ZecHub/zechub/assets/81990132/bf1ac95e-7277-4559-b5ef-63117b66971b)
+![Yubico YubiKey 5 NFC](/content-images/bf1ac95e-7277-4559-b5ef-63117b66971b-3aa542aba7.webp)
 
 Birçok güvenlik anahtarında kullanılan FIDO U2F açık kimlik doğrulama standardının ortak geliştiricisi olan Yubico tarafından üretilen YubiKey 5 NFC, cihazlarınızı korumak için güvenilir bir seçenektir. Adından da anlaşılacağı üzere, USB A (veya adaptör kullanılarak USB C) ya da NFC ile çalışır.  
 Google Chrome, Facebook, Dropbox, LastPass, 1Password ve daha birçok hizmetle kutudan çıktığı gibi uyumluluk sunar. YubiKey 5 kompakt, dayanıklı ve hafiftir - hatta su geçirmezdir.  
@@ -50,7 +50,7 @@ Hizmet talimatlarını izleyip istendiğinde anahtarı USB yuvasına takarak Yub
 
 **Thetis Fido U2F Security Key**
 
-![Thetis Fido U2F Security Key](https://github.com/ZecHub/zechub/assets/81990132/b83e42e5-bba6-4175-ad6c-d64972ef54ef)
+![Thetis Fido U2F Security Key](/content-images/b83e42e5-bba6-4175-ad6c-d64972ef54ef-a2ef17a10d.webp)
 
 Bir güvenlik anahtarında fiyat/performans açısından en iyi seçeneği arıyorsanız, Thetis’in bu modeli listenizde olmalı. Üzerinde Bluetooth yoktur (daha pahalı bir modelde mevcuttur) ve yalnızca FIDO U2F standardını destekler; dolayısıyla UAF veya OTP uyumluluğu yoktur. Ancak Windows, macOS veya Linux üzerinde tarayıcı olarak Chrome ya da Opera kullanıyorsanız web sitelerine güvenli erişim sağlar.  
 Kullanışlı bir şekilde, bu uygun fiyatlı güvenlik anahtarı, taşıma sırasında konektörün olası hasarlara maruz kalmasını önleyen döner alüminyum gövdeli kompakt katlanabilir bir tasarıma sahiptir. Siyah, Altın ve Gümüş olmak üzere üç çekici renkte sunulur.  
@@ -58,7 +58,7 @@ Plastik gövde sağlam ve nispeten dayanıklı hissettirir, ancak çantanızda a
 
 **CryptoTrust OnlyKey**
 
-![CryptoTrust OnlyKey](https://github.com/ZecHub/zechub/assets/81990132/13be6ecc-227e-498c-8a36-6d52c023cd78)
+![CryptoTrust OnlyKey](/content-images/13be6ecc-227e-498c-8a36-6d52c023cd78-06e3e924dc.webp)
 
 Adından da anlaşılacağı gibi, OnlyKey’de rakiplerinde bulunmayan bazı kullanışlı özellikler vardır. Bilgisayarlara sızan tuş kaydedicileri atlatabilen yerleşik bir tuş takımı sayesinde, bir bilgisayar veya web sitesi ele geçirilmiş olsa bile çevrimiçi hesapları güvende tutabilir. FIDO 2 U2F, Yubico OTP ve TOTP dahil olmak üzere birden fazla 2FA yöntemini destekler.  
 Genel kullanıcılar için en iyi parola yöneticisi olmasa da, OnlyKey tek bir anahtar üzerinde 24 OTP hesabı, 24 parola ve 24 kullanıcı adı/URL saklayabilir. Birden fazla parolayı ezberlemek istemiyorsanız ve bunu anahtarın sizin yerinize yapmasını istiyorsanız bu özellik oldukça kullanışlıdır.  
@@ -71,22 +71,22 @@ Artık 2FA donanım anahtarlarının ne olduğunu ve nasıl çalıştığını b
 **Adım 1**  
 Gmail hesabınıza giriş yapın ve **Google Hesabınızı Yönetin** seçeneğine tıklayın
 
-![Google Hesabı - Hesabı Yönet](https://github.com/ZecHub/zechub/assets/81990132/995fc955-791a-4456-9218-7e5964da48b5)
+![Google Hesabı - Hesabı Yönet](/content-images/995fc955-791a-4456-9218-7e5964da48b5-31c64640b2.webp)
 
 **Adım 2**  
 **Güvenlik** seçeneğine tıklayın
 
-![Google Güvenlik Ayarları](https://github.com/ZecHub/zechub/assets/81990132/246db235-6596-41ff-bd7a-f8ee4f80962b)
+![Google Güvenlik Ayarları](/content-images/246db235-6596-41ff-bd7a-f8ee4f80962b-340193c2c3.webp)
 
 **Adım 3**  
 **2 Adımlı Doğrulama** seçeneğine tıklayın
 
-![2 Adımlı Doğrulama Ekranı](https://github.com/ZecHub/zechub/assets/81990132/19cd202a-1a70-47e6-a02a-aa24f6e199fa)
+![2 Adımlı Doğrulama Ekranı](/content-images/19cd202a-1a70-47e6-a02a-aa24f6e199fa-a9fcb911ce.webp)
 
 **Adım 4**  
 **Daha Fazla Seçenek Göster** seçeneğini seçin
 
-![Daha Fazla Seçenek Göster](https://github.com/ZecHub/zechub/assets/81990132/2ade9531-1cf6-48e8-b9a8-178d41a4cd30)
+![Daha Fazla Seçenek Göster](/content-images/2ade9531-1cf6-48e8-b9a8-178d41a4cd30-b1e9ea1400.webp)
 
 **Adım 5**  
 Şimdi **Güvenlik Anahtarı** seçeneğini seçin ve ardından **Gelişmiş** seçeneğine tıklayın

@@ -3,7 +3,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
 </a>
 
-# <img src="https://i.ibb.co/tYvwnCW/image-2024-02-03-170636194.png" alt="Alt Text" width="50"/>    ZKAV Club
+# <img src="/content-images/image-2024-02-03-170636194-b507a57ff1.webp" alt="Alt Text" width="50"/>    ZKAV Club
 [Web sitesi](https://zkav.club) - [Github](https://github.com/copernicus-mogley/zkav.club) - [X/Twitter](https://x.com/ZkAv_Club) - [Youtube](https://www.youtube.com/@ZkAv_Club)
 
 *Zcash Foundation tarafından desteklenen bu iddialı taban projesi, yerel ve bölgesel eylemler yoluyla küresel etki yaratmayı amaçlıyor. İlham veren, eğiten ve Zcash ile finansal mahremiyetin vaadini paylaşan haberleri ve hikâyeleri öne çıkarmak ve yaymak için birlikte öğrenip çalışacak bir üretici topluluğunu davet ediyor*.

@@ -8,7 +8,7 @@
 
 الغرض من هذا الدليل هو المساعدة في تثقيف مستخدمي Zcash المهتمين بتشغيل عقدة كاملة على جهاز Raspberry Pi 4 منخفض الطاقة.
 
-<img src="https://user-images.githubusercontent.com/81990132/197372541-dcd886ab-a3d0-4614-b490-0294ddf3ffae.png" alt="zcashd" width="700" height="700"/>
+<img src="/content-images/197372541-dcd886ab-a3d0-4614-b490-0294dd-d45b1cd4ba.webp" alt="zcashd" width="700" height="700"/>
 
 
 ## فيديو
@@ -76,12 +76,12 @@
 
 `rpi-imager`
 
-<img src="https://user-images.githubusercontent.com/81990132/197372069-fb9f7417-d320-42cf-ad65-38d630512985.png" alt="برنامج rpi imager" width="400" height="400"/>
+<img src="/content-images/197372069-fb9f7417-d320-42cf-ad65-38d630-7d85096e88.webp" alt="برنامج rpi imager" width="400" height="400"/>
 
 اختر نظام التشغيل وجهاز التخزين. بما أن أجهزة Raspberry Pi 4 تعمل بمعمارية 64 بت، أوصي باختيار "Other general-purpose OS" => Ubuntu => Ubuntu Server 24.04.3 LTS (64 bit). انقر على Storage واختر بطاقة SD الخاصة بك. قبل الكتابة على بطاقة SD، انقر على Advanced options بالنقر على أيقونة الترس البيضاء بالقرب من الزاوية السفلية اليمنى.
 
 
-<img src="https://user-images.githubusercontent.com/81990132/197372159-1169c6f4-f6aa-4f44-9679-fe7aa542bbd3.png" alt="الترس" width="200" height="200"/>
+<img src="/content-images/197372159-1169c6f4-f6aa-4f44-9679-fe7aa5-fe6c968644.webp" alt="الترس" width="200" height="200"/>
 
 
 
@@ -94,7 +94,7 @@
 * Enable and configure your wi-fi if needed
 ```
  
-<img src="https://user-images.githubusercontent.com/81990132/197372149-8b85bfac-e473-4808-87cd-f27f15d05de8.png" alt="الخيارات المتقدمة" width="400" height="400"/>
+<img src="/content-images/197372149-8b85bfac-e473-4808-87cd-f27f15-269c28f6c3.webp" alt="الخيارات المتقدمة" width="400" height="400"/>
 
  
 بعد الانتهاء اضغط على Write
@@ -135,14 +135,14 @@
 ```
 
 
-  <img src="https://user-images.githubusercontent.com/81990132/197372846-e1279388-eaaa-4fbb-8d5d-f9928cb45195.png" alt="تسجيل دخول ssh" width="400" height="400"/>
+  <img src="/content-images/197372846-e1279388-eaaa-4fbb-8d5d-f9928c-caf89ea305.webp" alt="تسجيل دخول ssh" width="400" height="400"/>
        
 
 إذا كنت فضوليًا لمعرفة إصدار Raspberry Pi الذي تستخدمه، فجرّب هذا الأمر:
 
      `cat /sys/firmware/devicetree/base/model ; echo`
 
-  <img src="https://user-images.githubusercontent.com/81990132/197689888-367c8eb3-2667-4c8c-85b3-44d46afe07a7.png" alt="أي إصدار" width="700" height="400"/>
+  <img src="/content-images/197689888-367c8eb3-2667-4c8c-85b3-44d46a-ef72475028.webp" alt="أي إصدار" width="700" height="400"/>
 ### تثبيت *zcashd*
 
 تتضمن طريقتان لتثبيت zcashd تنزيل ملف ثنائي مُجمّع مسبقًا أو تجميع zcashd من المصدر. أوصي *بشدة* بالتجميع من المصدر. وللتجميع بنفسك، يُوصى بشدة بالتجميع العابر. التجميع العابر هو بناء ملف ثنائي على منصة واحدة ليعمل على منصة أخرى. وأحد أسباب ذلك هو أن أجهزة Raspberry Pi 4 منخفضة القدرة وبالتالي ليست سريعة جدًا! استفد من حاسوبك الرئيسي للمساعدة في ذلك. يمكنك الحصول على أحدث إصدار من [هنا](https://github.com/zcash/zcash/releases). ولإجراء التجميع العابر نحتاج إلى التأكد من توفر الحزم المطلوبة. ثبّت ما يلي:
@@ -213,7 +213,7 @@ lsblk will display all drives connected. Most will be of the format sda
 id will show your user and group id's.
 ```
           
-<img src="https://user-images.githubusercontent.com/81990132/197372643-abef88fd-9177-4bf9-abda-3c221188cd10.png" alt="lsblk" width="400" height="400"/>
+<img src="/content-images/197372643-abef88fd-9177-4bf9-abda-3c2211-e354e8ff47.webp" alt="lsblk" width="400" height="400"/>
 
 
           
@@ -236,7 +236,7 @@ tar - xvzf chainstate.tar.gz
 
 قم بإعداد /media/portableHD/.zcash/zcash.conf
 
-<img src="https://user-images.githubusercontent.com/81990132/197373699-18cc2c9f-b47d-44e9-9e6b-4c5cccf78d9e.png" alt="zconf" width="700" height="400"/>
+<img src="/content-images/197373699-18cc2c9f-b47d-44e9-9e6b-4c5ccc-3dac42f3c0.webp" alt="zconf" width="700" height="400"/>
 
 
  
@@ -275,7 +275,7 @@ screen -S zcashScreen`
 
     `zcash-cli getblockchaininfo`
 
-  <img src="https://user-images.githubusercontent.com/81990132/197373098-672aa228-d180-47ea-8a7c-c58dc3882426.png" alt="getblockchaininfo" width="400" height="400"/>
+  <img src="/content-images/197373098-672aa228-d180-47ea-8a7c-c58dc3-bf85ac08fb.webp" alt="getblockchaininfo" width="400" height="400"/>
 
 
 
@@ -289,7 +289,7 @@ screen -S zcashScreen`
 
      `tail -n 500 <path to>/.zcash/debug.log`
 
-  <img src="https://user-images.githubusercontent.com/81990132/197684416-9a083de4-4a62-4fe8-9cab-798781b38cd2.png" alt="الحالة" width="700" height="400"/>
+  <img src="/content-images/197684416-9a083de4-4a62-4fe8-9cab-798781-c1755f3f91.webp" alt="الحالة" width="700" height="400"/>
 
 
   
@@ -298,13 +298,13 @@ screen -S zcashScreen`
 
      `tail -n 10 <path to>/.zcash/debug.log | grep -o  'height=[^b]*'`
 
-  <img src="https://user-images.githubusercontent.com/81990132/199630447-6a6cd491-0cb3-47f8-95f0-45f6b6555870.png" alt="ارتفاع السجل" width="500" height="400"/>
+  <img src="/content-images/199630447-6a6cd491-0cb3-47f8-95f0-45f6b6-dc7b671d5a.webp" alt="ارتفاع السجل" width="500" height="400"/>
 
 
      
      `zcash-cli getinfo`
   
-<img src="https://user-images.githubusercontent.com/81990132/199646508-132da0eb-899e-49a6-8b31-e9011e159700.png" alt="معلومات getInfo" width="400" height="400"/>
+<img src="/content-images/199646508-132da0eb-899e-49a6-8b31-e9011e-839cbe5c04.webp" alt="معلومات getInfo" width="400" height="400"/>
 
      
      
@@ -314,7 +314,7 @@ screen -S zcashScreen`
           
 أنشئ مذكرة وحوّلها إلى hex. يمكنك التحويل مرة أخرى إلى ascii للاختبار.
           
-<img src="https://user-images.githubusercontent.com/81990132/199646812-782142d6-8846-443a-8dd9-4f332e49d3e9.png" alt="asciiGOOD" width="400" height="400"/>
+<img src="/content-images/199646812-782142d6-8846-443a-8dd9-4f332e-a552c26229.webp" alt="asciiGOOD" width="400" height="400"/>
 
 
   
@@ -334,38 +334,38 @@ screen -S zcashScreen`
 
 `zcash-cli z_getnewaccount`
      
-  <img src="https://user-images.githubusercontent.com/81990132/202352436-04c17be2-e914-4b9b-95d1-00cf6fc496d3.png" alt="حساب جديد" width="400" height="400"/>
+  <img src="/content-images/202352436-04c17be2-e914-4b9b-95d1-00cf6f-2d1a6ea572.webp" alt="حساب جديد" width="400" height="400"/>
 
     
 الآن ابنِ مستقبل UA وفقًا *لاحتياجاتك*. يشمل ذلك Orchard فقط، وOrchard + Sapling، وأخيرًا Orchard + Sapling + Transparent. لاحظ أنه يمكنك التمييز بين المستقبلات من خلال طولها.
      
-<img src="https://user-images.githubusercontent.com/81990132/202354319-2da6be33-ca95-4b6b-b29c-14805dcb9c21.png" alt="الأحرف" width="200" height="100"/>
+<img src="/content-images/202354319-2da6be33-ca95-4b6b-b29c-14805d-f0c8acd281.webp" alt="الأحرف" width="200" height="100"/>
 
 
 `zcash-cli z_getaddressforaccount 0 '["orchard"]'`
      
-<img src="https://user-images.githubusercontent.com/81990132/202353642-c36b5fea-de8a-41f6-a27c-d9ff42a0c8d3.png" alt="uaOrchard" width="400" height="400"/>
+<img src="/content-images/202353642-c36b5fea-de8a-41f6-a27c-d9ff42-5231dccf56.webp" alt="uaOrchard" width="400" height="400"/>
 
-<img src="https://user-images.githubusercontent.com/81990132/202355586-eaeb36e7-b000-4b99-8192-81e5002e6f11.png" alt="رمز QR لـ Orch" width="400" height="400"/>
+<img src="/content-images/202355586-eaeb36e7-b000-4b99-8192-81e500-de15c07940.webp" alt="رمز QR لـ Orch" width="400" height="400"/>
 
 `zcash-cli z_getaddressforaccount 0 '["orchard","sapling"]'`
      
-<img src="https://user-images.githubusercontent.com/81990132/202353732-740828e3-77b8-4684-8cf8-fb14256b1e61.png" alt="uaOrchardSapling" width="400" height="400"/>
-<img src="https://user-images.githubusercontent.com/81990132/202355596-c7b62854-9a9e-4627-ab5d-51091340de71.png" alt="رمز QR لـ OrchSap" width="300" height="200"/>
+<img src="/content-images/202353732-740828e3-77b8-4684-8cf8-fb1425-b1591ddd68.webp" alt="uaOrchardSapling" width="400" height="400"/>
+<img src="/content-images/202355596-c7b62854-9a9e-4627-ab5d-510913-e280eee165.webp" alt="رمز QR لـ OrchSap" width="300" height="200"/>
 
 
 `zcash-cli z_getaddressforaccount 0 '["orchard","sapling","p2pkh"]'`
      
-<img src="https://user-images.githubusercontent.com/81990132/202353793-3331c593-5286-4b84-93a7-adc4928839fd.png" alt="uaFull" width="400" height="400"/>
-<img src="https://user-images.githubusercontent.com/81990132/202355607-75de0750-2a57-4e10-883b-e0a626ed892a.png" alt="رمز QR الكامل" width="400" height="400"/>
+<img src="/content-images/202353793-3331c593-5286-4b84-93a7-adc492-c7730e3b3e.webp" alt="uaFull" width="400" height="400"/>
+<img src="/content-images/202355607-75de0750-2a57-4e10-883b-e0a626-2600e9b182.webp" alt="رمز QR الكامل" width="400" height="400"/>
 
 
 كيف ترسل ZEC باستخدام UA؟
 
 `zcash-cli z_sendmany "fromOaddress" "[{\"address\": \"dOrchardAddress\",\"amount\": 0.0001, \"memo\":\"yourMemoinHex\"}]" <minconf> <fee> <privacyPolicy>`
 
-<img src="https://user-images.githubusercontent.com/81990132/202365280-c184f622-eb7e-4095-bc38-90795121c43c.png" alt="نجاح UA" width="400" height="400"/>
-<img src="https://user-images.githubusercontent.com/81990132/202366758-40650460-aaeb-4e03-891f-b4bd08e18234.png" alt="صورة" width="400" height="400"/>
+<img src="/content-images/202365280-c184f622-eb7e-4095-bc38-907951-97c10ec6c2.webp" alt="نجاح UA" width="400" height="400"/>
+<img src="/content-images/202366758-40650460-aaeb-4e03-891f-b4bd08-31378cf6ff.webp" alt="صورة" width="400" height="400"/>
 ##### تجدر الإشارة إلى أن كِلَا عنوانَي *المرسل* و*الوجهة* يمكن أن يكونا عناوين شفافة أو Sapling أو Orchard، ومع ذلك قد تحتاج إلى تعديل علامة `privacyPolicy` لكي تكون المعاملة صالحة. (بعض التركيبات لن تعمل إذا لم تكن `privacyPolicy` منطقية!)
 
 أين يمكنني العثور على مزيد من المعلومات حول UA's؟

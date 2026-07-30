@@ -10,36 +10,36 @@
 ### 2. 选择你的国家和运营商
 滚动到左上角并选择你的国家；然后选择手机话费，并选择你想要充值的运营商（例如：MTN）。
 
-![步骤 2 - 选择国家和运营商](https://cdn-images-1.medium.com/max/1200/0*qvB7ZCWaVWa-C2d8)
+![步骤 2 - 选择国家和运营商](/content-images/0-qvB7ZCWaVWa-C2d8-db0d4ea372.webp)
 
 ### 3. 填写信息并购买
 填写正确的信息并点击“Buy Now”按钮。打开购物车查看你的订单，点击继续，然后使用 $ZEC 确认购买。
 
-![步骤 3 - 购买页面](https://cdn-images-1.medium.com/max/1200/0*ikF-ooBc9W7olfNt)
+![步骤 3 - 购买页面](/content-images/0-ikF-ooBc9W7olfNt-7a4584edda.webp)
 
 ### 4. 支付详情
 系统会提供等值的 $ZEC 金额，以及一个用于接收资金的透明地址。
 
-![步骤 4 - ZEC 支付详情](https://cdn-images-1.medium.com/max/1200/0*6_YhAhQnsLbrMvHN)
+![步骤 4 - ZEC 支付详情](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
 
 ### 5. 发送付款
 请仔细复制并粘贴金额和地址。在 memo 栏中，添加你的 YWallet 地址，以防需要退款。
 
-![步骤 5 - 发送 ZEC](https://cdn-images-1.medium.com/max/1200/0*DNnpyemsKcW-k-u-)
+![步骤 5 - 发送 ZEC](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
 
 ### 6. 处理中
 资金发送后，你的请求会在几分钟内得到处理。
 
-![步骤 6 - 处理页面](https://cdn-images-1.medium.com/max/1200/0*LgXuUVLVecqrUW5G)
+![步骤 6 - 处理页面](/content-images/0-LgXuUVLVecqrUW5G-a894c7b2dd.webp)
 
 ### 7. 确认
 嘿……我的号码已经充值成功了！你也可以在支付过程中确认你的邮箱，这样交易完成后你就会收到电子邮件通知。
 
-![步骤 7 - 充值成功](https://cdn-images-1.medium.com/max/1200/0*TJKIcqznQ4Y8_jgo)
+![步骤 7 - 充值成功](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
 
 ---
 
-![附加截图](https://cdn-images-1.medium.com/max/1200/0*Jn7tD9lb2xtMBpIw)
+![附加截图](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)
 
 ### 其他可使用 ZEC 的地方
 

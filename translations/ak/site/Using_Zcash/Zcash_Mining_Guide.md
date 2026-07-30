@@ -102,7 +102,7 @@ Mining pools kyekyɛ adwuma na wɔkyɛ akatua a egyina wo hashrate a wode ama no
 3. Akatua: Pool dodow no ara tua ho ka ara kwa bere a woadu nea esua koraa (e.g., 0.05 ZEC). Hwɛ pool ho mmara.
 
    
-![Zcash Mining Nhwehwɛmu Nhyehyɛe](https://raw.githubusercontent.com/ZecHub/zechub/aac601cf85076960d334f4c841867a646a5a2f29/assets/images/zcashMining.jpg)
+![Zcash Mining Nhwehwɛmu Nhyehyɛe](/content-images/zcashMining-5ca0019c17.webp)
 
 
 ## Afotu ne Nneyɛe Pa

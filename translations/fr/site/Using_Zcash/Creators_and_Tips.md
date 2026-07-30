@@ -59,7 +59,7 @@
 
 ## TipZ
 
-![Logo TipZ](https://pbs.twimg.com/profile_images/2023711029805350912/BbXM8cDV_400x400.jpg)
+![Logo TipZ](/content-images/BbXM8cDV_400x400-e6071ba983.webp)
 
 ### Vue d'ensemble
 

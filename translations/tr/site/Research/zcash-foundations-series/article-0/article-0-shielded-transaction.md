@@ -1,7 +1,7 @@
 # Korumalı Bir Zcash İşlemi Aslında Nasıl Çalışır?
 ##### [Annkkitaaa](https://github.com/Annkkitaaa) tarafından yapılan özgün araştırma
 
-![alt text](image.png)
+![alt text](/content-images/image-fedc371488.webp)
 
 ### Matematikten önce sezgi: özel ödemelerin formülsüz bir anlatımı
 
@@ -46,7 +46,7 @@ Para bu iki dünya arasında gidip bile gelebilir: fonları korumalı dünyaya t
 
 Şeffaf dünya, "zaten kabaca anladığınız Bitcoin"dir. Bütün o güzel kriptografinin bulunduğu yer **korumalı dünya**dır ve bu seri yalnızca onunla ilgilenir.
 
-![alt text](image-1.png)
+![alt text](/content-images/image-1-f821d24c6f.webp)
 
 ---
 
@@ -124,7 +124,7 @@ Mucize şu ki, ispat bunların **hiçbirini** açığa vurmaz. Ne tutarı, ne ad
 
 Bir note *doğar*, panoda *yaşar* ve sonunda *ölür*; kritik nokta ise onun doğumu ile ölümü, dışarıdan bakan herkes için birbirinden bağımsız görünür.
 
-![alt text](image-2.png)
+![alt text](/content-images/image-2-0eca0ea4f7.webp)
 
 ---
 
@@ -132,7 +132,7 @@ Bir note *doğar*, panoda *yaşar* ve sonunda *ölür*; kritik nokta ise onun do
 
 Şimdi Alice'in Bob'a ödeme yapışını izleyelim; herkese açık ve gizli her adımı etiketlenmiş olarak.
 
-![alt text](image-4.png)
+![alt text](/content-images/image-4-7af0dfe795.webp)
 
 Gizliliği mümkün kılan asimetriye dikkat edin:
 
@@ -187,7 +187,7 @@ Bu bir **zihinsel model**, teknik spesifikasyon değil. Yeni başlayanlar için 
 
 Yukarıda geçen her "buna geri döneceğiz" ifadesi bir ipliktir. İşte her biri nerede düğümleniyor:
 
-![alt text](image-29.png)
+![alt text](/content-images/image-29-27ef4636ff.webp)
 
 | Bu makaledeki açık uç | Çözüldüğü yer |
 |---|---|

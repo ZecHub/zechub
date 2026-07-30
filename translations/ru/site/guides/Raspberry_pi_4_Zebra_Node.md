@@ -4,7 +4,7 @@
 
 # Руководство по запуску Zebra на Raspberry Pi 4
 
-<img src="https://i.ibb.co/V3rjKwv/image-2023-11-28-172907488.png" alt="raspberry pi" width="300" height="300"/>
+<img src="/content-images/image-2023-11-28-172907488-e7e9fd4ac5.webp" alt="raspberry pi" width="300" height="300"/>
 
 Запуск программного обеспечения узла Zebra на Raspberry Pi 4 позволяет вам участвовать в сети Zcash как независимый узел, совместимый с консенсусом. Это руководство поможет вам выполнить шаги по настройке и запуску Zebra на вашем Raspberry Pi 4.
 
@@ -67,7 +67,7 @@
 7. __Мониторинг__
    Вы можете отслеживать прогресс и состояние вашего узла Zebra, открыв веб-браузер и перейдя по адресу __http://127.0.0.1:8233/status__.
 
-<img src="https://i.ibb.co/BCtKrGp/image-2023-11-28-173024853.png" alt="zebra logo" width="200" height="200"/>
+<img src="/content-images/image-2023-11-28-173024853-99540511cf.webp" alt="zebra logo" width="200" height="200"/>
 
 ## Устранение неполадок
 

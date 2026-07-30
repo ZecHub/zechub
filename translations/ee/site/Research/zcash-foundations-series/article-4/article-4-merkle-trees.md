@@ -1,7 +1,7 @@
 # Merkle Atiwo: Alesi Blockchain Ðoa ŋku Nuŋlɔɖi Ðesiaɖe Dzii
 ##### Numekuku Gbãtɔ tso [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt nuŋɔŋlɔ](image-19.png)
+![alt nuŋɔŋlɔ](/content-images/image-19-cfbdcf8f78.webp)
 
 ### Adzɔgbeɖeɖe miliɔn geɖe kpuie le asibidɛ sue ɖeka me
 
@@ -34,7 +34,7 @@ Kpɔe ɖa le susu me be knockout hoʋiʋli ƒe bracket, gake le esi teƒe be fef
 - Miwɔ dzilawo eve eve, mitsɔ hash eve ɖesiaɖe ƒo ƒu, kple bubuawo.
 - Yi edzi vaseɖe esime **asibidɛ ɖeka** nanɔ etame. Aʋawɔla mae nye **Merkle ke.**
 
-![alt nuŋɔŋlɔ](image-20.png)
+![alt nuŋɔŋlɔ](/content-images/image-20-f5d57e425a.webp)
 
 Nu ɖeka kolia si le vevie wu la kplɔa ahomya ƒe ŋusẽkpɔɖeamedzi ɖo tẽ (Se 3 lia):
 
@@ -77,7 +77,7 @@ step 2:  H(hAB , hCD)      = ROOT?     (combine with the uncle)
 
 Wobu akɔnta ŋutɔŋutɔ: esia naa ku `1b3faa3fcc5e...`, si **sɔ kple kea.** Woɖo kpe edzi be aŋgba la le ati la me.
 
-![alt nuŋɔŋlɔ](image-21.png)
+![alt nuŋɔŋlɔ](/content-images/image-21-d9e5d6eaf6.webp)
 
 Nu eve na ŋusẽ le esia ŋu:
 
@@ -99,7 +99,7 @@ Nya ʋee aɖewo siwo le tẽ ŋutɔŋutɔ:
 - **Fixed depth.** Zcash ƒe ati siwo wotsɔ akpoxɔnu wɔe la ƒe goglome nye **32**, si fia be woate ŋu alé wo ɖe te vaseɖe `2^(32)` (si wu biliɔn ene) ƒe gagbalẽwo.
 - **ZK-xɔlɔ̃wɔwɔ hashing.** Wometu ati la kple SHA-256 o. Sapling tsɔ **Pedersen hashes** ƒo ati la eye Orchard zãa **Sinsemilla** (wo ame evea siaa tso Se 3 lia me), nenema tututue hameviwo ƒe dziyiyia mexɔ asi be woaɖo kpe edzi le nutome sue aɖe me.
 
-![alt nuŋɔŋlɔ](image-22.png)
+![alt nuŋɔŋlɔ](/content-images/image-22-518354b8d5.webp)
 
 ### Nu ɖeka si ati la *mekpɔna* o: ezãa ga zi eve
 

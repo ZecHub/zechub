@@ -3,7 +3,7 @@
 </a>
 
 # Ganyawo Ŋuti Nyatakakawo Ŋuti Dɔwɔƒe (FPF) .
-![FPF](https://i.ibb.co/BsZc8Qv/FPFgrants.webp)
+![FPF](/content-images/FPFgrants-226bdea4bb.webp)
 
 ## Ku ɖe FPF ŋu
 Ganyawo Ŋuti Nyatakaka Dɔwɔƒe (FPF) nye habɔbɔ si mekpɔa viɖe aɖeke tso eme o si woɖo ɖe Cayman Ƒukpowo dzi. FPFwo ƒe taɖodzinu vevitɔe nye be woafia nu ame ɖekaɖekawo kple nutoawo ahado ŋusẽ wo be woakpɔ ŋusẽ ɖe woƒe ganyawo ƒe adzamenyawo kple dedienɔnɔ dzi. FPF ɖoe kplikpaa hã be yeado ganyawo ŋuti ɖoɖo si le dzɔdzɔe eye wòsɔ si dea bubu ame ŋutɔ ƒe nyatakakawo ŋu la ɖe ŋgɔ. FPFwo ƒe dɔwɔna vevitɔ si ku ɖe ganyawo ƒe adzamenyawo ŋue nye be woana ame ɖekaɖekawo kple nutoawo nyatakakawo, nunɔamesiwo kple kpekpeɖeŋu be woatsɔ akpɔ woƒe ganyawo ŋuti nyatakakawo ta ahawɔ wo nyuie wu. Ganyawo Ŋuti Nyatakakawo Gbɔkpɔha (FPF) le kpekpeɖeŋunana ƒe ɖoɖo aɖe si ƒe tanyae nye FPF X FPF wɔm fifia.

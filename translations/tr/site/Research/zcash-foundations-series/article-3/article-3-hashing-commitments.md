@@ -1,7 +1,7 @@
 # Hashing ve Taahhütler: Sihirli Mühürlü Zarf
 ##### [Annkkitaaa](https://github.com/Annkkitaaa) tarafından özgün araştırma
 
-![alt text](image-15.png)
+![alt text](/content-images/image-15-0c16784b27.webp)
 
 ### Bir sırrı herkesin gözü önünde kilitlemek ve sonra onun hakkında asla yalan söyleyememek
 
@@ -30,7 +30,7 @@ Bu "şimdi kilitle, sonra açıkla, yalan yok" aygıtına **taahhüt** denir ve 
 
 Bir **hash fonksiyonu**, tek bir harften bütün bir kütüphaneye kadar herhangi bir veriyi alır ve onu **özet** ya da **hash** denen kısa, sabit boyutlu bir dizeye indirger. Bunu **veri için bir parmak izi** gibi düşünün.
 
-![alt text](image-16.png)
+![alt text](/content-images/image-16-52fdf62c87.webp)
 
 İyi bir kriptografik parmak izinin dört özelliği vardır. Bunları denklem değil, sezgi olarak akılda tutun:
 
@@ -69,7 +69,7 @@ Bu sizi güzelce *bağlar* (sonradan farklı bir `v` iddia edemezsiniz, çünkü
 
 Artık aynı `v`, her seferinde farklı görünen bir taahhüt üretir, çünkü `r` farklıdır. İstediğimiz iki özellik sonunda aynı anda sağlanır:
 
-![alt text](image-17.png)
+![alt text](/content-images/image-17-3ec4617665.webp)
 
 Taahhüdü daha sonra **açmak** (ifşa etmek) için `v` ve `r` değerlerini yayımlarsınız; herkes `H(v, r)` değerini yeniden hesaplayıp eşleştiğini kontrol eder. Böylece değere kilitlenmiş olursunuz. Makale 0'daki sihirli mühürlü zarfın gerçek karşılığı budur.
 
@@ -100,7 +100,7 @@ SHA-256, gündelik hesaplama için mükemmel bir parmak izidir. Ama Zcash hash'l
 
 Bu yüzden Zcash kriptografları, iç yapıları zaten *alan aritmetiği* olan hash fonksiyonları tasarladılar; böylece bunları ispatlamak ucuz olur:
 
-![alt text](image-18.png)
+![alt text](/content-images/image-18-89ade807ad.webp)
 
 Bu tek mühendislik baskısı, *"ispatlaması ucuz olmalı,"* Zcash'in her yerde SHA-256'ya uzanmak yerine özel hash fonksiyonları icat edip benimsemesinin nedenidir.
 

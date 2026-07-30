@@ -17,7 +17,7 @@ ZecWeekly — это рассылка, которая выходит каждо�
 - Проверьте [ZEC Bounties ](https://bounties.zechub.wiki/) на наличие текущего задания по рассылке.
 - Дождитесь назначения
 
-![ss](https://github.com/user-attachments/assets/149a802c-b64f-4969-ad89-e83ffecf568e)
+![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
 
 
 
@@ -93,7 +93,7 @@ Summary:
 - [Zcash Ecosystem Digest | February 14th](https://github.com/ZecHub/zechub/pull/1474)
 
 
-![Merged ZecWeekly newsletter pull request example](https://github.com/user-attachments/assets/9230d68d-6406-4c8a-992c-df84e0d318d8)
+![Merged ZecWeekly newsletter pull request example](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)
 
 Когда вы сравниваете свою работу с примером, сосредоточьтесь на расположении файла, формате заголовка, порядке разделов, описаниях ссылок и на том, связан ли pull request с правильным заданием.
 

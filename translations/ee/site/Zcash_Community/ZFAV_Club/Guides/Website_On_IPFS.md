@@ -4,7 +4,7 @@
 
 # Ta Nyatakakadzraɖoƒe aɖe ɖe IPFS dzi 
 
-![](https://blog.desdelinux.net/wp-content/uploads/2020/04/IPFS-.jpg)
+![](/content-images/IPFS-40c2e22732.webp)
 
 ## IPFS ƒe ŋgɔdonya 
 
@@ -55,7 +55,7 @@ Zã Terminal alo sedede ƒe nyatakakadzraɖoƒea, Run command: <mark>ipfs ƒe g�
 
 Tia agbalẽdzraɖoƒe si me wò nyatakakadzraɖoƒea ƒe faɛlwo le eye nàyi Add Folder ƒe tiatia la dzi.
 
-![](https://i.ibb.co/ZHW4zsY/ipfs-site-folder.png)
+![](/content-images/ipfs-site-folder-2c96524d98.webp)
 
 --
 
@@ -92,11 +92,11 @@ Le míaƒe nya me la, CID = "QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3".
 
 Interplanetary Naming System (IPNS) na be nàte ŋu awɔ IPFS CID siwo do ƒome kple wò nyatakakadzraɖoƒea yeyee eye nàgasubɔ kadodo si meʋãna o kokoko. Wotsɔe na abe safui ene. 
 
-![](https://dnslink.io/assets/dns-query.a0134a75.png)
+![](/content-images/dns-query.a0134a75-9ef7817f80.webp)
 
 Le ɖoɖowo ƒe nyawo me na wò nyatakakadzraɖoƒea foldre le IPFS kplɔ̃dzi dɔwɔnu dzi tia Ta ɖe IPNS. 
 
-![](https://i.ibb.co/Ch25dKf/IPNS.png)
+![](/content-images/IPNS-2fe62cc369.webp)
 
 Safui: "k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n".
 
@@ -109,7 +109,7 @@ Wowɔ nyatakakadzraɖoƒea, fifia míehiã mɔnu aɖe si dzi míato afia URL aɖ
 
 Ne web adrɛs le asiwò xoxo la, àteŋu atsɔ nuŋlɔɖi yeye akpe ɖe eŋu to TXT nuŋlɔɖi "_dnslink(your domain)" zazã me. Le provider nu la, ate ŋu auto populate. 
 
-![](https://i.ibb.co/MgRxBHj/example.png)
+![](/content-images/example-c2a9edb28b.webp)
 
 Axɔ ɣeyiɣi hafi nàkakae to network la dzi hafi nàte ŋu akpɔe. 
 

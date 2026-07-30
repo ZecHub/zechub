@@ -1,7 +1,7 @@
 # Itifaki Iliyohifadhiwa, Mwisho kwa Mwisho
 ##### Utafiti wa awali kutoka [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [ alt maandishi](image-27.png)
+! [ alt maandishi](/content-images/image-27-4094293ec0.webp)
 
 ### Kuunganisha kila kipande katika moja ya kibinafsi Zcash shughuli
 
@@ -41,7 +41,7 @@ Zk-SNARK juu ya mzunguko wa hesabu (Art 5)
 
 Kila kitu mtumiaji anaweza kufanya mtiririko kutoka siri moja, ** kutumia ufunguo **, kwa njia ya uongozi moja ya njia moja (kila mshale ni derivation irreversible, ukarimu wa mitego katika vifungu 2 na 3):
 
-! [ alt maandishi](image-32.png)
+! [ alt maandishi](/content-images/image-32-f443f9bb72.webp)
 
 Mambo mawili yenye kustahili kuangaliwa, yote mawili matokeo ya makala za awali:
 
@@ -54,7 +54,7 @@ Mambo mawili yenye kustahili kuangaliwa, yote mawili matokeo ya makala za awali:
 
 Kutumia noti binafsi, lazima kushawishi mtandao wa mambo manne mara moja ** bila kufunua noti, thamani yake, nafasi yake, au utambulisho wako.** Kila madai ni kuridhika na sehemu ambayo tayari kujua.
 
-! [ alt maandishi](image-31.png)
+! [ alt maandishi](/content-images/image-31-86309af194.webp)
 
 Uthibitisho hufunua ** hakuna ** ya ukweli wa msingi (ambayo kumbuka, ambaye muhimu, nini thamani). Inaonyesha tu kwamba * madai yote manne ni kweli.* Hiyo ni hila nzima ya Zcash iliyohifadhiwa, iliyoonyeshwa kwenye mchoro mmoja.
 
@@ -92,7 +92,7 @@ Gharama maelezo (matumizi ya kumbuka) pato maelezo (kuunda kumbuka).
 
 Pamoja na moja ** kisheria saini ** juu ya mfuko mzima, kutekeleza thamani ya usawa (Sehemu ya 5).
 
-! [ alt maandishi](image-30.png)
+! [ alt maandishi](/content-images/image-30-98511eb2d0.webp)
 
 Trace the privacy: the network checked the anchor, checked the nullifier was fresh, verified the proof, and verified balance. It accepted a valid payment **having learned no amount, no address, and not which note was spent.** Meanwhile the spent note's **nullifier** (its death) and Bob's new **commitment** (his note's birth) sit in two different public structures with no visible link between them, the severed link from Article 0.
 
@@ -198,7 +198,7 @@ The amounts are hidden, but each is wrapped in a homomorphic value commitment, a
 
 Sasa umesafiri kutoka paradox moja hadi malipo kamili ya kibinafsi:
 
-! [ alt maandishi](https://github.com/user-attachments/assets/cd8bbb40-57b8-4854-b9cf-97f2485d126a)
+! [ alt maandishi](/content-images/cd8bbb40-57b8-4854-b9cf-97f2485d126a-8847fae521.webp)
 
 
 From here, the natural next arc goes deeper: the inner workings of Groth16 and Halo 2, trusted-setup ceremonies, the Sapling and Orchard circuits in detail, key derivation and diversified addresses, and the protocol's evolution across network upgrades. But the foundation is now in place, and every one of those topics has a home to attach to.

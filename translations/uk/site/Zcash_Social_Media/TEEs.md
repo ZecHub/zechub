@@ -5,7 +5,7 @@
 Серія «Від нуля до нульового розголошення» повертається з новою темою!  
 Цього тижня ми розглянемо **Trusted Execution Environments (TEE)** — як вони використовуються в privacy coins та інших блокчейн-застосунках.
 
-![Trusted Execution Environments intro](https://pbs.twimg.com/media/Fquj-h2WcAIgSnL.jpg)
+![Trusted Execution Environments intro](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
 
 ---
 
@@ -31,7 +31,7 @@
 
 Це відрізняється від Zcash, який використовує **докази з нульовим розголошенням** для забезпечення приватності. У Zcash shielded-транзакції транслюються та валідуються публічно без розкриття будь-яких додаткових даних мережі. Zcash Shielded Assets дотримуються того самого принципу.
 
-![Secret Network TEE diagram](https://pbs.twimg.com/media/FqulPjNX0AEfjRp.png)
+![Secret Network TEE diagram](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
 
 Для детального пояснення того, як TEE реалізовані в Secret Network, прочитайте цю чудову статтю від @l_woetzel:  
 https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerability-33ca94b6df38
@@ -55,11 +55,11 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 - Що застосунок не був скомпрометований  
 - Що він безпечно виконується всередині enclave Intel SGX
 
-![Remote Attestation explanation](https://pbs.twimg.com/media/FqumRjoWwAAeT-M.png)
+![Remote Attestation explanation](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
 
 Enclaves також містять приватні ключі підпису та attestation, до яких неможливо отримати доступ ззовні.
 
-![Enclave key protection](https://pbs.twimg.com/media/Fqumv83XoAQq-MO.png)
+![Enclave key protection](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
 
 ---
 
@@ -69,7 +69,7 @@ Enclaves також містять приватні ключі підпису т
 
 **Data Sealing** шифрує дані всередині enclave за допомогою ключа, похідного від CPU. Зашифрований блок можна розпечатати лише на **тій самій системі**.
 
-![Data Sealing diagram](https://pbs.twimg.com/media/FqunBwyWYAA-TR3.jpg)
+![Data Sealing diagram](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
 
 ---
 
@@ -79,7 +79,7 @@ Enclaves також містять приватні ключі підпису т
 
 Зашифровані дані потрапляють до TEE разом зі smart contract. Вони розшифровуються, обробляються та повторно шифруються перед виходом з enclave.
 
-![Oasis Network TEE flow](https://pbs.twimg.com/media/FqunJRDXwAMt4Ob.png)
+![Oasis Network TEE flow](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
 
 ---
 
@@ -94,7 +94,7 @@ Enclaves також містять приватні ключі підпису т
 
 **TEE** ідеально підходять для безпечного генерування та використання ключів валідатора.
 
-![Tendermint & PoS security](https://pbs.twimg.com/media/Fqun0HEX0AAooxW.jpg)
+![Tendermint & PoS security](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
 
 ---
 

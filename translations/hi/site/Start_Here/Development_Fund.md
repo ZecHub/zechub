@@ -17,7 +17,7 @@ Block producers (जिन्हें miners भी कहा जाता ह�
 Bitcoin और अन्य cryptocurrencies में सभी block rewards block producers को जाते हैं। Zcash इस मायने में विशिष्ट है कि block reward का 20% [Zcash development fund](https://zips.z.cash/zip-1014) में स्थानांतरित किया जाता है। यह fund उन टीमों को वित्तपोषित करता है जो Zcash प्रोटोकॉल पर काम कर रही हैं।
 
 वर्तमान में, [Zcash Community Grants](https://zcashcommunitygrants.org/) को block rewards का 8% मिलता है, Electric Coin Co. को 7% मिलता है, और Zcash Foundation को 5% मिलता है। यानी development fund का क्रमशः 40%, 35%, और 25% हिस्सा इन्हें मिलता है।
-![Dev Fund Recipients ](https://user-images.githubusercontent.com/43553081/212411570-4858a3d6-f7a1-465a-bf0c-d2ef726d41dc.jpeg)
+![Dev Fund Recipients ](/content-images/212411570-4858a3d6-f7a1-465a-bf0c-d2ef72-1efe3a104e.webp)
 
 2020 में, Zcash समुदाय ने development fund और उससे समर्थित टीमों पर मतदान किया था। 2024 में, development fund से किसे फंडिंग मिलेगी यह तय करने के लिए समुदाय फिर से मतदान करेगा।
 
@@ -30,11 +30,11 @@ Hybrid Deferred Dev Fund Lockbox, Zcash development fund की अगली प
 
 20% Dev Fund Lockbox को लागू करने का निर्णय एक व्यापक समुदाय-प्रेरित प्रक्रिया के माध्यम से लिया गया। इसमें Zcash Community Advisory Panel (ZCAP) polls के दो दौर, साथ ही पूरे ecosystem में कई polls शामिल थे। इन polls ने विभिन्न प्रकार के हितधारकों को अपनी राय रखने और निर्णय-प्रक्रिया में योगदान देने का अवसर दिया।
 
-![](https://global.discourse-cdn.com/zcash/original/3X/f/d/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd.png)
+![](/content-images/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd-8f378b3e3d.webp)
 
 चूँकि dev fund lockbox deferred है (अर्थात funds को बाद की किसी network upgrade के माध्यम से unlock किया जाएगा), Zcash Community जल्द ही funds के लिए एक distribution mechanism पर निर्णय लेगी। प्रस्तावित विकल्पों में से एक 'Zbloc' decentralised governance mechanism है। 
 
-![decentralised governance के संभावित नए रूप](https://global.discourse-cdn.com/zcash/original/3X/9/9/99588d6f43a3143cb3616e8a89df5125e855ba39.png)
+![decentralised governance के संभावित नए रूप](/content-images/99588d6f43a3143cb3616e8a89df5125e855ba39-5688d8901f.webp)
 
 ## संसाधन
 

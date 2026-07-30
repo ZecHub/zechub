@@ -8,7 +8,7 @@
 
 L’objectif de ce guide est d’aider à informer les utilisateurs de Zcash qui souhaitent faire tourner un nœud complet sur un Raspberry Pi 4 peu puissant.
 
-<img src="https://user-images.githubusercontent.com/81990132/197372541-dcd886ab-a3d0-4614-b490-0294ddf3ffae.png" alt="zcashd" width="700" height="700"/>
+<img src="/content-images/197372541-dcd886ab-a3d0-4614-b490-0294dd-d45b1cd4ba.webp" alt="zcashd" width="700" height="700"/>
 
 
 ## Vidéo
@@ -76,12 +76,12 @@ Ouvrez Raspberry Pi Imager
 
 `rpi-imager`
 
-<img src="https://user-images.githubusercontent.com/81990132/197372069-fb9f7417-d320-42cf-ad65-38d630512985.png" alt="imager rpi" width="400" height="400"/>
+<img src="/content-images/197372069-fb9f7417-d320-42cf-ad65-38d630-7d85096e88.webp" alt="imager rpi" width="400" height="400"/>
 
 Choisissez l’OS et le périphérique de stockage. Comme les Raspberry Pi 4 sont en 64 bits, je recommande de choisir "Other general-purpose OS" => Ubuntu => Ubuntu Server 24.04.3 LTS (64 bit). Cliquez sur Storage et sélectionnez votre carte SD. Avant d’écrire sur la carte SD, cliquez sur Advanced options en cliquant sur l’icône d’engrenage blanche près du coin inférieur droit.
 
 
-<img src="https://user-images.githubusercontent.com/81990132/197372159-1169c6f4-f6aa-4f44-9679-fe7aa542bbd3.png" alt="engrenage" width="200" height="200"/>
+<img src="/content-images/197372159-1169c6f4-f6aa-4f44-9679-fe7aa5-fe6c968644.webp" alt="engrenage" width="200" height="200"/>
 
 
 
@@ -94,7 +94,7 @@ Ici, vous pouvez mettre à jour :
 * Enable and configure your wi-fi if needed
 ```
  
-<img src="https://user-images.githubusercontent.com/81990132/197372149-8b85bfac-e473-4808-87cd-f27f15d05de8.png" alt="avancé" width="400" height="400"/>
+<img src="/content-images/197372149-8b85bfac-e473-4808-87cd-f27f15-269c28f6c3.webp" alt="avancé" width="400" height="400"/>
 
  
 Une fois terminé, cliquez sur Write
@@ -135,14 +135,14 @@ Cela affichera tous les appareils connectés à votre réseau domestique, ce qui
 ```
 
 
-  <img src="https://user-images.githubusercontent.com/81990132/197372846-e1279388-eaaa-4fbb-8d5d-f9928cb45195.png" alt="connexion ssh" width="400" height="400"/>
+  <img src="/content-images/197372846-e1279388-eaaa-4fbb-8d5d-f9928c-caf89ea305.webp" alt="connexion ssh" width="400" height="400"/>
        
 
 Si vous êtes curieux de savoir quelle version de Raspberry Pi vous utilisez, essayez cette commande :
 
      `cat /sys/firmware/devicetree/base/model ; echo`
 
-  <img src="https://user-images.githubusercontent.com/81990132/197689888-367c8eb3-2667-4c8c-85b3-44d46afe07a7.png" alt="lequel" width="700" height="400"/>
+  <img src="/content-images/197689888-367c8eb3-2667-4c8c-85b3-44d46a-ef72475028.webp" alt="lequel" width="700" height="400"/>
 ### Installation de *zcashd*
 
 Deux façons d’installer zcashd consistent à télécharger un binaire précompilé ou à compiler zcashd depuis le code source. Je recommande *vivement* de compiler depuis le code source. Pour compiler vous-même, il est fortement recommandé de faire une compilation croisée. La compilation croisée consiste à construire sur une plateforme un binaire qui s’exécutera sur une autre plateforme. L’une des raisons est que les Raspberry Pi 4 sont peu puissants et donc pas très rapides ! Appuyez-vous sur votre ordinateur principal pour vous aider dans cette tâche. Vous pouvez récupérer la dernière version [ici](https://github.com/zcash/zcash/releases). Pour faire une compilation croisée, nous devons nous assurer d’avoir les paquets nécessaires. Installez les éléments suivants :
@@ -213,7 +213,7 @@ lsblk affichera tous les disques connectés. La plupart seront au format sda
 id affichera votre identifiant utilisateur et vos identifiants de groupe.
 ```
           
-<img src="https://user-images.githubusercontent.com/81990132/197372643-abef88fd-9177-4bf9-abda-3c221188cd10.png" alt="lsblk" width="400" height="400"/>
+<img src="/content-images/197372643-abef88fd-9177-4bf9-abda-3c2211-e354e8ff47.webp" alt="lsblk" width="400" height="400"/>
 
 
           
@@ -236,7 +236,7 @@ tar - xvzf chainstate.tar.gz
 
 Configurez /media/portableHD/.zcash/zcash.conf
 
-<img src="https://user-images.githubusercontent.com/81990132/197373699-18cc2c9f-b47d-44e9-9e6b-4c5cccf78d9e.png" alt="zconf" width="700" height="400"/>
+<img src="/content-images/197373699-18cc2c9f-b47d-44e9-9e6b-4c5ccc-3dac42f3c0.webp" alt="zconf" width="700" height="400"/>
 
 
  
@@ -275,7 +275,7 @@ Prêt à l’emploi !
 
     `zcash-cli getblockchaininfo`
 
-  <img src="https://user-images.githubusercontent.com/81990132/197373098-672aa228-d180-47ea-8a7c-c58dc3882426.png" alt="getblockchaininfo" width="400" height="400"/>
+  <img src="/content-images/197373098-672aa228-d180-47ea-8a7c-c58dc3-bf85ac08fb.webp" alt="getblockchaininfo" width="400" height="400"/>
 
 
 
@@ -289,7 +289,7 @@ Comment vérifier l’état de votre nœud ?
 
      `tail -n 500 <path to>/.zcash/debug.log`
 
-  <img src="https://user-images.githubusercontent.com/81990132/197684416-9a083de4-4a62-4fe8-9cab-798781b38cd2.png" alt="état" width="700" height="400"/>
+  <img src="/content-images/197684416-9a083de4-4a62-4fe8-9cab-798781-c1755f3f91.webp" alt="état" width="700" height="400"/>
 
 
   
@@ -298,13 +298,13 @@ Pour obtenir la hauteur actuelle depuis votre journal
 
      `tail -n 10 <path to>/.zcash/debug.log | grep -o  'height=[^b]*'`
 
-  <img src="https://user-images.githubusercontent.com/81990132/199630447-6a6cd491-0cb3-47f8-95f0-45f6b6555870.png" alt="hauteurJournal" width="500" height="400"/>
+  <img src="/content-images/199630447-6a6cd491-0cb3-47f8-95f0-45f6b6-dc7b671d5a.webp" alt="hauteurJournal" width="500" height="400"/>
 
 
      
      `zcash-cli getinfo`
   
-<img src="https://user-images.githubusercontent.com/81990132/199646508-132da0eb-899e-49a6-8b31-e9011e159700.png" alt="getInfo" width="400" height="400"/>
+<img src="/content-images/199646508-132da0eb-899e-49a6-8b31-e9011e-839cbe5c04.webp" alt="getInfo" width="400" height="400"/>
 
      
      
@@ -314,7 +314,7 @@ Comment envoyer un mémo ? Comme indiqué [ici](https://zcash.readthedocs.io/en/
           
 Créez un mémo et convertissez-le en hexadécimal. Vous pouvez le reconvertir en ascii pour tester.
           
-<img src="https://user-images.githubusercontent.com/81990132/199646812-782142d6-8846-443a-8dd9-4f332e49d3e9.png" alt="asciiBON" width="400" height="400"/>
+<img src="/content-images/199646812-782142d6-8846-443a-8dd9-4f332e-a552c26229.webp" alt="asciiBON" width="400" height="400"/>
 
 
   
@@ -334,38 +334,38 @@ Comment créer une UA ?
 
 `zcash-cli z_getnewaccount`
      
-  <img src="https://user-images.githubusercontent.com/81990132/202352436-04c17be2-e914-4b9b-95d1-00cf6fc496d3.png" alt="nouveauCompte" width="400" height="400"/>
+  <img src="/content-images/202352436-04c17be2-e914-4b9b-95d1-00cf6f-2d1a6ea572.webp" alt="nouveauCompte" width="400" height="400"/>
 
     
 Construisez maintenant un récepteur UA selon *vos besoins*. Cela comprend Orchard uniquement, Orchard + Sapling, et enfin Orchard + Sapling + Transparent. Notez que vous pouvez distinguer les récepteurs par leur longueur.
      
-<img src="https://user-images.githubusercontent.com/81990132/202354319-2da6be33-ca95-4b6b-b29c-14805dcb9c21.png" alt="caractères" width="200" height="100"/>
+<img src="/content-images/202354319-2da6be33-ca95-4b6b-b29c-14805d-f0c8acd281.webp" alt="caractères" width="200" height="100"/>
 
 
 `zcash-cli z_getaddressforaccount 0 '["orchard"]'`
      
-<img src="https://user-images.githubusercontent.com/81990132/202353642-c36b5fea-de8a-41f6-a27c-d9ff42a0c8d3.png" alt="uaOrchard" width="400" height="400"/>
+<img src="/content-images/202353642-c36b5fea-de8a-41f6-a27c-d9ff42-5231dccf56.webp" alt="uaOrchard" width="400" height="400"/>
 
-<img src="https://user-images.githubusercontent.com/81990132/202355586-eaeb36e7-b000-4b99-8192-81e5002e6f11.png" alt="OrchQR" width="400" height="400"/>
+<img src="/content-images/202355586-eaeb36e7-b000-4b99-8192-81e500-de15c07940.webp" alt="OrchQR" width="400" height="400"/>
 
 `zcash-cli z_getaddressforaccount 0 '["orchard","sapling"]'`
      
-<img src="https://user-images.githubusercontent.com/81990132/202353732-740828e3-77b8-4684-8cf8-fb14256b1e61.png" alt="uaOrchardSapling" width="400" height="400"/>
-<img src="https://user-images.githubusercontent.com/81990132/202355596-c7b62854-9a9e-4627-ab5d-51091340de71.png" alt="OrchSapQR" width="300" height="200"/>
+<img src="/content-images/202353732-740828e3-77b8-4684-8cf8-fb1425-b1591ddd68.webp" alt="uaOrchardSapling" width="400" height="400"/>
+<img src="/content-images/202355596-c7b62854-9a9e-4627-ab5d-510913-e280eee165.webp" alt="OrchSapQR" width="300" height="200"/>
 
 
 `zcash-cli z_getaddressforaccount 0 '["orchard","sapling","p2pkh"]'`
      
-<img src="https://user-images.githubusercontent.com/81990132/202353793-3331c593-5286-4b84-93a7-adc4928839fd.png" alt="uaComplete" width="400" height="400"/>
-<img src="https://user-images.githubusercontent.com/81990132/202355607-75de0750-2a57-4e10-883b-e0a626ed892a.png" alt="QRComplet" width="400" height="400"/>
+<img src="/content-images/202353793-3331c593-5286-4b84-93a7-adc492-c7730e3b3e.webp" alt="uaComplete" width="400" height="400"/>
+<img src="/content-images/202355607-75de0750-2a57-4e10-883b-e0a626-2600e9b182.webp" alt="QRComplet" width="400" height="400"/>
 
 
 Comment envoyer des ZEC en utilisant une UA ?
 
 `zcash-cli z_sendmany "fromOaddress" "[{\"address\": \"dOrchardAddress\",\"amount\": 0.0001, \"memo\":\"yourMemoinHex\"}]" <minconf> <fee> <privacyPolicy>`
 
-<img src="https://user-images.githubusercontent.com/81990132/202365280-c184f622-eb7e-4095-bc38-90795121c43c.png" alt="UAsuccès" width="400" height="400"/>
-<img src="https://user-images.githubusercontent.com/81990132/202366758-40650460-aaeb-4e03-891f-b4bd08e18234.png" alt="image" width="400" height="400"/>
+<img src="/content-images/202365280-c184f622-eb7e-4095-bc38-907951-97c10ec6c2.webp" alt="UAsuccès" width="400" height="400"/>
+<img src="/content-images/202366758-40650460-aaeb-4e03-891f-b4bd08-31378cf6ff.webp" alt="image" width="400" height="400"/>
 ##### Il convient de noter que les adresses *source* ET de *destination* peuvent être des adresses transparentes, sapling ou orchard ; toutefois, vous devrez შესაძლოა ajuster le drapeau privacyPolicy afin que la transaction soit valide. (Certaines combinaisons ne fonctionneront pas si privacyPolicy n’a pas de sens !)
 
 

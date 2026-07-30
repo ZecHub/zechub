@@ -17,7 +17,7 @@ Yazmaya başlamadan önce:
 - Güncel bülten görevi için [ZEC Bounties ](https://bounties.zechub.wiki/) sayfasını kontrol edin.
 - Atanmayı bekleyin
 
-![ss](https://github.com/user-attachments/assets/149a802c-b64f-4969-ad89-e83ffecf568e)
+![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
 
 
 
@@ -93,7 +93,7 @@ Kabul edilmiş gönderim örnekleri olarak birleştirilmiş şu bülten pull req
 - [Zcash Ecosystem Digest | 14 Şubat](https://github.com/ZecHub/zechub/pull/1474)
 
 
-![Merged ZecWeekly newsletter pull request example](https://github.com/user-attachments/assets/9230d68d-6406-4c8a-992c-df84e0d318d8)
+![Merged ZecWeekly newsletter pull request example](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)
 
 Çalışmanızı bir örnekle karşılaştırırken, dosya konumuna, başlık biçimine, bölüm sırasına, bağlantı açıklamalarına ve pull request’in doğru göreve bağlanıp bağlanmadığına odaklanın.
 

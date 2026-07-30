@@ -6,7 +6,7 @@ O ecossistema Zcash está evoluindo. O nó completo tradicional Zcashd, mantido 
 - Zallet é uma carteira leve construída para interagir perfeitamente com nós Zebra desenvolvidos pela Zodl
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ChatGPTImageOct12202508_15_20A](https://hackmd.io/_uploads/SJNBsSYTel.jpg)
+![ChatGPTImageOct12202508_15_20A](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
 Este guia orienta você na migração de **Zcashd** para **Zebrad** e **Zallet**, incluindo configuração, importação da carteira e solução de problemas comuns de migração.
@@ -37,7 +37,7 @@ Mesmo deixando a descontinuação de lado, há razões convincentes para migrar:
 * Faça backup do seu wallet.dat (ou de qualquer outro arquivo de carteira / armazenamento de chaves) do seu nó zcashd.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (1)](https://hackmd.io/_uploads/SJ_0mUtTxg.svg)
+![bash (1)](/content-images/SJ_0mUtTxg-1441185a72.svg)
 </div>
 
 * Salve seu zcash.conf e quaisquer configurações personalizadas.
@@ -63,7 +63,7 @@ Você pode baixar um binário pré-compilado ou compilar a partir do código-fon
 No **Linux**/**macOS**:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (2)](https://hackmd.io/_uploads/HJhYu8Y6el.svg)
+![bash (2)](/content-images/HJhYu8Y6el-d2198f22c9.svg)
 </div>
 
 Isso instala a versão estável mais recente do zebrad.
@@ -71,20 +71,20 @@ Isso instala a versão estável mais recente do zebrad.
 **Opção B: Compilar a partir do código-fonte**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (3)](https://hackmd.io/_uploads/Syg8FUK6eg.svg)
+![bash (3)](/content-images/Syg8FUK6eg-b4557e52e0.svg)
 </div>
 
 Após compilar, mova o binário para o seu path:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![migration 11](https://hackmd.io/_uploads/BJ0zjLY6ll.png)
+![migration 11](/content-images/BJ0zjLY6ll-f77354d701.webp)
 </div>
 
 **4. Configuração e inicialização**  
 Gere uma configuração padrão:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![migration2](https://hackmd.io/_uploads/HJV1C8tTxx.png)
+![migration2](/content-images/HJV1C8tTxx-5823395651.webp)
 </div>
 
 Edite o **zebrad.toml** de acordo com suas preferências (endereço de escuta, portas, diretório de estado, cache).
@@ -92,7 +92,7 @@ Edite o **zebrad.toml** de acordo com suas preferências (endereço de escuta, p
 **Inicie o nó:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/H1KPkvt6gl.png)
+![image](/content-images/H1KPkvt6gl-864c48ca40.webp)
 </div>
 
 O nó começará a sincronizar a partir do gênese — espere várias horas (ou mais), dependendo do hardware e da rede.
@@ -106,7 +106,7 @@ Verifique a página do GitHub / de lançamentos do Zallet para obter os binário
 **Ou compile a partir do código-fonte:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/SyUFxvFTex.png)
+![image](/content-images/SyUFxvFTex-5bb10ee1d3.webp)
 </div>
 
 * Inicie a GUI ou CLI (conforme sua instalação oferecer).
@@ -118,7 +118,7 @@ Via exportação de chave privada
 No zcashd, exporte suas chaves privadas:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (4)](https://hackmd.io/_uploads/rJzgzwFagx.svg)
+![bash (4)](/content-images/rJzgzwFagx-4a0874f250.svg)
 </div>
 
 * No Zallet, escolha Importar Chaves ou uma opção semelhante.
@@ -143,13 +143,13 @@ Quando a sincronização for concluída, seus saldos e transações deverão apa
 Você pode verificar o status de sincronização do seu nó executando:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/SyIyVDY6xl.png)
+![image](/content-images/SyIyVDY6xl-10d6bed7b8.webp)
 </div>
 
 Ou verificar os logs.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/r1HfVPF6gg.png)
+![image](/content-images/r1HfVPF6gg-b6b76e9907.webp)
 </div>
 
 **8. Solução de problemas**

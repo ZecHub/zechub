@@ -40,7 +40,7 @@ Brave Wallet अब Orchard shielded ZEC को सपोर्ट करता 
 4. crypto dashboard तक पहुँचें
 
 
-![img1](https://github.com/user-attachments/assets/f54cd1a1-8569-4925-ba1c-7597d030593e)
+![img1](/content-images/f54cd1a1-8569-4925-ba1c-7597d030593e-8d83734cd5.webp)
 
 
 ## भाग 2: Brave Wallet में Zcash (ZEC) जोड़ना
@@ -54,7 +54,7 @@ Brave Wallet अब Orchard shielded ZEC को सपोर्ट करता 
 3. अब ZEC आपके wallet में दिखाई देगा
 
 
-![img2](https://github.com/user-attachments/assets/6f2b2190-cf55-4394-9d5f-29ff9b5bb525)
+![img2](/content-images/6f2b2190-cf55-4394-9d5f-29ff9b5bb525-13d37cb455.webp)
 
 
 ## भाग 3: Shielded ZEC प्राप्त करना (Unified Address)
@@ -73,7 +73,7 @@ Brave Wallet अब Orchard shielded ZEC को सपोर्ट करता 
 
 
 
-![img3](https://github.com/user-attachments/assets/53c940b6-1a03-4fa7-aefa-d3478f678a88)
+![img3](/content-images/53c940b6-1a03-4fa7-aefa-d3478f678a88-23f68a3855.webp)
 
 
 
@@ -92,7 +92,7 @@ Brave Wallet अब Orchard shielded ZEC को सपोर्ट करता 
 5. Send पर क्लिक करें - अब धनराशि Orchard pool का उपयोग करते हुए निजी रूप से ट्रांसफ़र हो जाती है
 
 
-![img4](https://raw.githubusercontent.com/Kellyjoe8/zechub/refs/heads/main/Internet_20250808_172118_4.webp)
+![img4](/content-images/Internet_20250808_172118_4-e6df0f7fe2.webp)
 
 
 

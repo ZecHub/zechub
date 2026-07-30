@@ -4,7 +4,7 @@
 
 # Eine Website auf IPFS veröffentlichen
 
-![](https://blog.desdelinux.net/wp-content/uploads/2020/04/IPFS-.jpg)
+![](/content-images/IPFS-40c2e22732.webp)
 
 ## Einführung in IPFS
 
@@ -55,7 +55,7 @@ Verwende ein Terminal oder eine Eingabeaufforderung und führe den Befehl aus: <
 
 Wähle den Ordner mit den Dateien deiner Website aus und navigiere zur Option Add Folder.
 
-![](https://i.ibb.co/ZHW4zsY/ipfs-site-folder.png)
+![](/content-images/ipfs-site-folder-2c96524d98.webp)
 
 --
 
@@ -92,11 +92,11 @@ In unserem Fall ist die CID = "QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3"
 
 Interplanetary Naming System (IPNS) ermöglicht es dir, die mit deiner Website verknüpften IPFS-CIDs zu aktualisieren und dennoch einen statischen Link bereitzustellen. Es wird als Schlüssel bereitgestellt.
 
-![](https://dnslink.io/assets/dns-query.a0134a75.png)
+![](/content-images/dns-query.a0134a75-9ef7817f80.webp)
 
 Wähle im Einstellungsmenü für deinen Website-Ordner in der IPFS-Desktop-Anwendung die Option Publish to IPNS aus.
 
-![](https://i.ibb.co/Ch25dKf/IPNS.png)
+![](/content-images/IPNS-2fe62cc369.webp)
 
 Schlüssel: "k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n"
 
@@ -109,7 +109,7 @@ Die Website wurde erstellt, jetzt brauchen wir eine Möglichkeit, eine URL auf d
 
 Wenn du bereits eine Webadresse besitzt, kannst du einen neuen Eintrag mit dem TXT-Record "_dnslink(your domain)" hinzufügen. Je nach Anbieter wird dieser möglicherweise automatisch ausgefüllt.
 
-![](https://i.ibb.co/MgRxBHj/example.png)
+![](/content-images/example-c2a9edb28b.webp)
 
 Es wird einige Zeit dauern, bis sich dies im Netzwerk verbreitet hat, bevor du es ansehen kannst.
 

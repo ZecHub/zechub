@@ -1,7 +1,7 @@
 # Sidzedze Zero-Kpeɖodziwo: Ðo kpe edzi be Èto Eteƒe Evɔ Mègagblɔ Nusitae O
 ##### Numekuku Gbãtɔ tso [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt nuŋɔŋlɔ](image-23.png)
+![alt nuŋɔŋlɔ](/content-images/image-23-71534bece9.webp)
 
 ### Vɔvɔli si na xexeame ɖo kpe nusi mate ŋu akpɔ gbeɖe o dzi
 
@@ -40,7 +40,7 @@ Agado ŋutinya ma ɖe **kakaɖedzi etɔ̃** siwo wòle be kpeɖodzi ɖesiaɖe si
 
 ## 3. Kakaɖedzi etɔ̃awo
 
-![alt nuŋɔŋlɔ](image-24.png)
+![alt nuŋɔŋlɔ](/content-images/image-24-b559d31849.webp)
 
 | Kakaɖedzinya | Le agado ŋutinya me | Le Zcash me |
 |---|---|---|
@@ -62,7 +62,7 @@ Tɔdzisasrãa nye susu aɖe si bla nu sia katã si kplɔ wo nɔewo ɖo ɖekae:
 
 Bu nutome suea be enye akɔntabubu ƒe mɔxenuwo ƒe xexlẽdzesi siwo *wo katã ƒe dzi dze eme ne nyagbɔgblɔa nye nyateƒe ko.* Woyɔa ame ŋutɔ ƒe nyawo tsɔtsɔ de eme siwo nana nusianu dzena, wò nuŋlɔɖi, wò safui, Merkle mɔ, be **ɖasefo.**
 
-![alt nuŋɔŋlɔ](image-25.png)
+![alt nuŋɔŋlɔ](/content-images/image-25-2479377e43.webp)
 
 Esia tae míezã Se 1 ɖe agble siwo ŋu seɖoƒe le ŋu eye Se 3 lia ɖe ZK-xɔlɔ̃wɔwɔ ƒe hashes ŋu: nutome suea ƒoa nu tso agble ƒe akɔntabubu ŋu, eyata ele be woaɖe dɔwɔwɔ ɖesiaɖe si le nyagbɔgblɔa me (si me hashing kple Merkle lialia si le Se 4 lia me hã le) afia nenema. Zi alesi dɔwɔwɔ ɖesiaɖe ɖeɖefia ƒe asi bɔbɔe la, zi nenemae kpeɖodzia le sue wu eye wòwɔa dɔ kabakabae.
 
@@ -90,7 +90,7 @@ Tsɔ esiawo ƒo ƒui eye àkpɔ kpukpui si nàkpɔ le afisiafi:
 
 Wotsɔ ŋkɔ na nya ɣaɣla sia si susɔ la be **gbeɖuɖɔ si me aɖi le.** Be woatsɔe aƒu gbe dedie la, Zcash wɔ **kɔnu geɖe siwo me wowɔa nu geɖe le** afisi gomekpɔla geɖe siwo le wo ɖokui si dometɔ ɖesiaɖe tsɔe kpe asi ɖe eŋu le vome; zi alesi *ɖeka gɔ̃ hã* tsrɔ̃ woƒe akpaa anukwaretɔe ko la, womate ŋu agbugbɔ aɖi gbegblẽawo axɔ o.
 
-![alt nuŋɔŋlɔ](image-26.png)
+![alt nuŋɔŋlɔ](/content-images/image-26-cdad6625cd.webp)
 
 Nuɖoanyi yeyewo ɖea nudidi sia ɖa keŋkeŋ, si nye susu gãtɔ siwo ta Zcash trɔ asi le eƒe kpeɖodziɖoɖo ŋu le ɣeyiɣi aɖe megbe la dometɔ ɖeka.
 

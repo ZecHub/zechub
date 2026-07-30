@@ -93,9 +93,9 @@ Pepper Sync 不再以庞大、笨重的区块重新扫描整个区块链，而�
 7. 完成 - 钱包已准备好进行交易。
 
 ### 可视化指南：
-- 详细流程 - 展示完整过程。 ![详细流程](https://github.com/user-attachments/assets/119c13ec-76be-42bd-b558-762d09275a1b)
+- 详细流程 - 展示完整过程。 ![详细流程](/content-images/119c13ec-76be-42bd-b558-762d09275a1b-8ba7a18302.webp)
 
-- 简化流程 - 面向日常用户的快速视图。 ![简化流程](https://github.com/user-attachments/assets/9b612cbd-f24d-4472-9b87-0f2c908bb368)
+- 简化流程 - 面向日常用户的快速视图。 ![简化流程](/content-images/9b612cbd-f24d-4472-9b87-0f2c908bb368-eb34a722a2.webp)
 
 ---
 

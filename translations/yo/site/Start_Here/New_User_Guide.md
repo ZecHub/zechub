@@ -101,7 +101,7 @@ After you've deposited some ZEC into your wallet, you're ready to send a fully s
 àwùjọ náà jẹ́ onífẹ̀ẹ́ àti ẹni tí ó máa ń tẹ́wọ́ gba àwọn ọmọ ẹgbẹ́ tuntun. nígbà míràn ìjíròrò lè jẹ́ ti ìmọ̀ ẹ̀rọ, ṣùgbọ́n má ṣàníyàn! bí o bá ní ìbéèrè, o lè béèrè.
 
 <a href="">
-    <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="https://github.com/user-attachments/assets/c1d40441-4336-4754-b3bf-5a746b19a9d5" />
+    <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="/content-images/c1d40441-4336-4754-b3bf-5a746b19a9d5-6d2eca6cbf.webp" />
 </a>
 
 ---

@@ -19,7 +19,7 @@
 - **사용되는 알고리즘** = 해시 함수  
 - **결과 출력** = 해시 값  
 
-![해시 함수 다이어그램](https://pbs.twimg.com/media/Fn_NkFHXgAEtgse.png)
+![해시 함수 다이어그램](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
 
 ### 직접 시도해 보세요!
 
@@ -57,12 +57,12 @@
 #### 1. 무결성 해싱 (데이터 무결성 검사)
 데이터 무결성 검사는 "무결성 해싱"의 예입니다. 데이터 파일에 체크섬을 생성하고 사용자에게 정확성을 보장하는 데 사용됩니다.
 
-![무결성 해싱 예시](https://pbs.twimg.com/media/Fn_Or0MWIAI6sgx.png)
+![무결성 해싱 예시](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
 
 #### 2. 머클 트리 (해시 트리)
 **해시 트리**(또는 **머클 트리**)는 데이터 블록의 암호학적 해시로 라벨이 붙은 가지와 리프 노드로 구성됩니다.
 
-![머클 트리 다이어그램](https://pbs.twimg.com/media/Fn_O7ndWIAY5PA-.jpg)
+![머클 트리 다이어그램](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
 
 머클 트리는 **암호학적 약속 체계**(cryptographic commitment scheme)의 예입니다. 트리 루트는 약속으로 간주되고, 리프 노드는 원래 약속에 포함되어 있음을 증명합니다.
 
@@ -74,7 +74,7 @@ Zcash **Sapling** 및 **Orchard** 가상 지갑에서 **노트 커밋먼트 트�
 #### 4. 서명 해시 (비트코인 스타일 블록)
 **SHA256**은 "서명 해시"의 예로, 비트코인 체인에서 각 블록의 불변성을 보장하는 데 사용됩니다. 마이너는 이전 블록의 해시 + 현재 블록 내 모든 거래의 해시(해시 머클 루트) + 타임스탬프 + 무작위 값 / 네트워크 난이도를 새로운 블록에 사용합니다.
 
-![SHA256 블록 다이어그램](https://pbs.twimg.com/media/Fn_PaVZXoAApHPf.jpg)
+![SHA256 블록 다이어그램](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
 
 #### 5. Equihash (Zcash 채굴)
 **Equihash**는 Zcash를 채굴하는 데 사용되는 해시 알고리즘입니다. Komodo 및 Horizen 네트워크에서도 사용됩니다.

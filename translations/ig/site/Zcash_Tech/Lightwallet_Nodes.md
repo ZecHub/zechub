@@ -37,25 +37,25 @@ __Open Ywallet/Zingo/Zashi/eZcash__: Mepee obere akpa gị na ngwaọrụ gị.
 
 Maka Ywallet ọ bụ cog na akuku aka nri elu - Gaa na taabụ Zcash. 
 
-[SmartSelect_20250313_105128] Ọ bụ ihe na-atọ ụtọ.](https://github.com/user-attachments/assets/b0a2910b-dbdf-4292-8e69-af5a386aa183)
+[SmartSelect_20250313_105128] Ọ bụ ihe na-atọ ụtọ.](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
 
 #### Zingo: Ọ bụ eziokwu.
 
 Maka Zingo ọ dị na menu hamburger na akuku aka ekpe elu, wee pịa ntọala ma gbadaa ala
 
-![SmartSelect_20250313_105737_Zingo](https://github.com/user-attachments/assets/ea8f7672-e644-41a5-a422-db131740404a)
+![SmartSelect_20250313_105737_Zingo](/content-images/ea8f7672-e644-41a5-a422-db131740404a-2626f5fa79.webp)
 
 #### Zashi: Ọ dị mma.
 
 Maka Zashi ọ bụ cog na akuku aka nri elu - Gaa na Ntọala di elu, wee Họrọ ihe nkesa
 
-![SmartSelect_20250313_110200_Zashi](https://github.com/user-attachments/assets/5a9d050a-8308-4cc2-907e-513072066aed)
+![SmartSelect_20250313_110200_Zashi](/content-images/5a9d050a-8308-4cc2-907e-513072066aed-0bd414d520.webp)
 
 #### eZcash
 
 Maka eZcash ọ dị na hamburger menu na akuku aka ekpe elu, wee pịa Ntọala, kpatụ Advanced
 
-![SmartSelect_20250313_110616](https://github.com/user-attachments/assets/655c0172-61a0-4322-b8cf-4eee4bb53b51)
+![SmartSelect_20250313_110616](/content-images/655c0172-61a0-4322-b8cf-4eee4bb53b51-0b93df2e71.webp)
 
 
 ## Mmechi

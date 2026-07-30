@@ -28,7 +28,7 @@
 
 
 <a href="">
-    <img width="853" height="396" alt="NPlanguage1" src="https://github.com/user-attachments/assets/d25345cf-e958-4ce2-b01d-f4e7f2db9551" alt="" width="600" height="400"/>
+    <img width="853" height="396" alt="NPlanguage1" src="/content-images/d25345cf-e958-4ce2-b01d-f4e7f2db9551-1ac56e56d7.webp" alt="" width="600" height="400"/>
 </a>
 
 
@@ -47,7 +47,7 @@
 
 
 <a href="">
- <img width="855" height="399" alt="IPmodel1" src="https://github.com/user-attachments/assets/1542be12-d3fd-4934-8413-0d16f95b8d10" alt="" width="600" height="400"/>
+ <img width="855" height="399" alt="IPmodel1" src="/content-images/1542be12-d3fd-4934-8413-0d16f95b8d10-58bfcb4059.webp" alt="" width="600" height="400"/>
 </a>
 
 
@@ -86,7 +86,7 @@ PSPACE  - 证明不同陈述之间的交替关系
 模拟视图：验证者模拟证明者与验证者之间所有可能的交互 
 
 <a href="">
-    <img width="850" height="397" alt="simulation1" src="https://github.com/user-attachments/assets/0e68649d-a231-44d8-a76a-25a307f68b9e"  alt="" width="600" height="400"/>
+    <img width="850" height="397" alt="simulation1" src="/content-images/0e68649d-a231-44d8-a76a-25a307f68b9e-ba1f0027cf.webp"  alt="" width="600" height="400"/>
 </a>
 
 一个多项式时间区分器会尝试判断自己看到的是真实视图还是模拟视图，并反复从二者中请求样本。
@@ -117,7 +117,7 @@ PSPACE  - 证明不同陈述之间的交替关系
 
 
 <a href="">
-<img width="785" height="368" alt="circuit1" src="https://github.com/user-attachments/assets/be1de1d6-60d3-4fd1-b9a2-5094c65d696f" alt="" width="300" height="200"/>
+<img width="785" height="368" alt="circuit1" src="/content-images/be1de1d6-60d3-4fd1-b9a2-5094c65d696f-dbd3177247.webp" alt="" width="300" height="200"/>
 </a>
 
 在这个例子中，证明者希望让验证者相信他知道该算术电路的一个解。  
@@ -143,7 +143,7 @@ Sha256 是可用于承诺方案的一种哈希函数示例。
 设置过程通过总结电路并输出公共参数来帮助验证者。 
 
 <a href="">
-<img width="845" height="398" alt="setup1" src="https://github.com/user-attachments/assets/c41212ca-b5e9-4ac8-8695-be612c45a679" alt="" width="600" height="300"/>
+<img width="845" height="398" alt="setup1" src="/content-images/c41212ca-b5e9-4ac8-8695-be612c45a679-80a6a87752.webp" alt="" width="600" height="300"/>
 </a>
 
 **预处理设置的类型**：
@@ -186,7 +186,7 @@ zk-SNARKS 在各种不同应用中都提供了若干优势。下面来看一些�
 基于证明的 Rollup（zk-Rollup）服务的优势在于，它可以处理数百/数千笔交易的批次，而 L1 只需验证一个简洁证明，就能确认所有交易都已被正确处理，从而将网络交易吞吐量提升 100 倍或 1000 倍。
 
 <a href="">
-  <img width="606" height="336" alt="zkvm1" src="https://github.com/user-attachments/assets/a3cbb5c9-8767-4b34-9fcb-868ca421838f" width="600" height="300"/>
+  <img width="606" height="336" alt="zkvm1" src="/content-images/a3cbb5c9-8767-4b34-9fcb-868ca421838f-d69b264b5b.webp" width="600" height="300"/>
 </a>
 
 

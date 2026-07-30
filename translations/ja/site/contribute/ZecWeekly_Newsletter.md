@@ -17,7 +17,7 @@ ZecWeekly は毎週日曜の朝に配信されるニュースレターです。Z
 - 現在のニュースレター作業について [ZEC Bounties ](https://bounties.zechub.wiki/) を確認する。
 - 割り当てを待つ
 
-![ss](https://github.com/user-attachments/assets/149a802c-b64f-4969-ad89-e83ffecf568e)
+![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
 
 
 
@@ -93,7 +93,7 @@ Summary:
 - [Zcash Ecosystem Digest | February 14th](https://github.com/ZecHub/zechub/pull/1474)
 
 
-![Merged ZecWeekly newsletter pull request example](https://github.com/user-attachments/assets/9230d68d-6406-4c8a-992c-df84e0d318d8)
+![Merged ZecWeekly newsletter pull request example](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)
 
 自分の作業を例と比較する際は、ファイルの場所、タイトル形式、セクション順、リンク説明、そしてプルリクエストが正しいタスクに結び付いているかに注目してください。
 

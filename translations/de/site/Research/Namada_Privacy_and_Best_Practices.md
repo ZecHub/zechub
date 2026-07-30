@@ -6,7 +6,7 @@ published: 2025-08-02
   <img src="https://img.shields.io/badge/Edit-blue" alt="Seite bearbeiten"/>
 </a>
 
-![Namada-Logo](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/nam.png)
+![Namada-Logo](/content-images/nam-078c7b6883.webp)
 
 # Bewährte Datenschutzpraktiken für Namada
 

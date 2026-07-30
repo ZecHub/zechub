@@ -1,7 +1,7 @@
 # **Приватний обмін SOL/USDC -> ZEC за допомогою Encrypt.trade**  
 
 
-![img1](https://hackmd.io/_uploads/Bkbg5alCll.jpg)
+![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
 *Ваш шлях до приватних міжмережевих обмінів на базі NEAR Intents.*  
@@ -12,7 +12,7 @@
 У сучасному світі блокчейну приватність — не опція, а необхідність. Завдяки [**encrypt.trade**](https://app.encifher.io/zec) користувачі можуть безперешкодно обмінювати **SOL або USDC** у мережі Solana на **Zcash (ZEC)**, зберігаючи транзакції повністю приватними. Жодних централізованих бірж, жодного розкриття особи — лише простий, зашифрований обмін.  
 
 
-![img2](https://hackmd.io/_uploads/ByQ2qpeRee.jpg)
+![img2](/content-images/ByQ2qpeRee-67fce2814c.webp)
 
 ---
 
@@ -20,7 +20,7 @@
 Відвідайте [encrypt.trade](https://app.encifher.io/zec) у **Chrome або Firefox** і підключіть свій гаманець **Phantom**, **Solflare** або **Slope**. Переконайтеся, що у вашому гаманці достатньо **SOL** для комісій за газ і токенів, якими ви хочете торгувати. Після підключення ви будете готові обгорнути свої активи.  
 
 
-![img3](https://hackmd.io/_uploads/SyVOs6lRxx.jpg)
+![img3](/content-images/SyVOs6lRxx-cbd8193e84.webp)
 
 
 
@@ -28,7 +28,7 @@
 
 ---
 
-![img4](https://hackmd.io/_uploads/Bkh_jTgCex.jpg)
+![img4](/content-images/Bkh_jTgCex-2fc8428592.webp)
 
 
 ---
@@ -39,13 +39,13 @@
 
 
 
-![img5](https://hackmd.io/_uploads/S10J26xCxg.jpg)
+![img5](/content-images/S10J26xCxg-6322a40b18.webp)
 
 ---
 
 
 
-![img6](https://hackmd.io/_uploads/Sk0y3Te0gl.jpg)
+![img6](/content-images/Sk0y3Te0gl-124792365a.webp)
 
 
 ---
@@ -54,7 +54,7 @@
 Завантажте [**Zashi**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn), офіційний гаманець Zcash від Electric Coin Co. Скопіюйте свій **Unified Address** з вкладки Receive — він підтримує як прозорі, так і захищені ZEC. Перш ніж продовжити, надійно збережіть свою seed-фразу.  
 
 
-![img7](https://hackmd.io/_uploads/SykjhpgRll.jpg)
+![img7](/content-images/SykjhpgRll-60d19f6979.webp)
 
 
 ---
@@ -64,19 +64,19 @@
 
 
 
-![img8](https://hackmd.io/_uploads/SJkI6pl0ge.jpg)
+![img8](/content-images/SJkI6pl0ge-9f93d8f34c.webp)
 
 ---
 
 
-![img9](https://hackmd.io/_uploads/S1yoapgRle.jpg)
+![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
 Механізм **NEAR Intents** автоматично виконує міжмережеву маршрутизацію — доставляючи **ZEC** безпосередньо до вашого гаманця Zashi за лічені секунди.  
 
 
 
-![img10](https://hackmd.io/_uploads/S1h36Tg0xl.jpg)
+![img10](/content-images/S1h36Tg0xl-2d7dd0a495.webp)
 
 ---
 

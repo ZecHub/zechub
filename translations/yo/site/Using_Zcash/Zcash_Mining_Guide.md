@@ -102,7 +102,7 @@ Awọn adagun iwakusa pin iṣẹ ati pin awọn ere ti o da lori hashrate ti o 
 3. Owó tó o máa san: Ọ̀pọ̀ jù lọ àwọn ilé ìfowópamọ́ ló máa ń san gbèsè náà fún ọ ní tààràtà nígbà tó o bá dé ìwọ̀n tó kéré jù lọ (bíi, 0.05 ZEC).
 
    
-[Ìtòlẹ́sẹẹsẹ Ìtọjú Ìwakùsà Zcash](https://raw.githubusercontent.com/ZecHub/zechub/aac601cf85076960d334f4c841867a646a5a2f29/assets/images/zcashMining.jpg)
+[Ìtòlẹ́sẹẹsẹ Ìtọjú Ìwakùsà Zcash](/content-images/zcashMining-5ca0019c17.webp)
 
 
 ## Àwọn Ìmọ̀ràn àti Ìlànà Tó Dára Jù Lọ

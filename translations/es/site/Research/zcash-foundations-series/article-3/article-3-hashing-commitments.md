@@ -1,7 +1,7 @@
 # Hashing y Compromisos: El sobre sellado mágico
 ##### Investigación original de [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![texto alternativo](image-15.png)
+![texto alternativo](/content-images/image-15-0c16784b27.webp)
 
 ### Cómo guardar un secreto en público y no poder mentir jamás sobre él
 
@@ -30,7 +30,7 @@ Este mecanismo de "bloquear ahora, revelar después, sin mentiras" se llama **co
 
 Una **función hash** toma cualquier dato, desde una sola letra hasta una biblioteca entera, y lo aplasta hasta convertirlo en una cadena corta de tamaño fijo llamada **digest** o **hash**. Piensa en ello como una **huella dactilar de los datos.**
 
-![texto alternativo](image-16.png)
+![texto alternativo](/content-images/image-16-52fdf62c87.webp)
 
 Una buena huella dactilar criptográfica tiene cuatro propiedades. Mantenlas como intuiciones, no como ecuaciones:
 
@@ -69,7 +69,7 @@ La solución se resume en una palabra: **aleatoriedad.**
 
 Ahora el mismo `v` produce un compromiso de aspecto distinto cada vez, porque `r` es distinto. Las dos propiedades que queríamos por fin se cumplen a la vez:
 
-![texto alternativo](image-17.png)
+![texto alternativo](/content-images/image-17-3ec4617665.webp)
 
 Para **abrir** (revelar) el compromiso más tarde, publicas `v` y `r`; cualquiera vuelve a calcular `H(v, r)` y comprueba que coincide. Quedas fijado. Ese es el sobre sellado mágico del Artículo 0, hecho realidad.
 
@@ -100,7 +100,7 @@ SHA-256 es una huella dactilar excelente para la computación cotidiana. Pero Zc
 
 Así que los criptógrafos de Zcash diseñaron funciones hash cuyos mecanismos internos *ya son* aritmética de campos, lo que las hace baratas de demostrar:
 
-![texto alternativo](image-18.png)
+![texto alternativo](/content-images/image-18-89ade807ad.webp)
 
 Esta única presión de ingeniería, *"debe ser barato de demostrar"*, es la razón por la que Zcash inventó y adoptó funciones hash especiales en lugar de recurrir a SHA-256 para todo.
 

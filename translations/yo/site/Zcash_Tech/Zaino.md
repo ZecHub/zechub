@@ -17,13 +17,13 @@ Also, Zaino will allow to separate light client functionality from the full node
 ## Diẹ ninu awọn aworan ti o fihan bi Zaino ṣe n ṣiṣẹ
 
 ### Àwòrán inú ilé Zaino
-[Àwòrán inú ilé Zaino]](https://i.ibb.co/mRTNtfy/image-2025-01-02-190143429.png)
+[Àwòrán inú ilé Zaino]](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
 
 ### Àdàkọ:Zaino Live Service Architecture (← àwọn ìjápọ̀ _ àtúnṣe)
-[Iṣẹ́-ọ̀nà Iṣẹ-iṣẹ́ Agbegbe Zebra]](https://i.ibb.co/x7dbRY8/image-2025-01-02-190349017.png)
+[Iṣẹ́-ọ̀nà Iṣẹ-iṣẹ́ Agbegbe Zebra]](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
 
 ### Ẹ̀rọ-ìmọ̀ Ọ̀nà Zaino
-[Àwòrán-ìmúra ètò Zaino](https://i.ibb.co/wwL0XZv/image-2025-01-02-190448037.png)
+[Àwòrán-ìmúra ètò Zaino](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
 
 
 ## Ibo ni mo ti lè rí ìsọfúnni síwájú sí i?

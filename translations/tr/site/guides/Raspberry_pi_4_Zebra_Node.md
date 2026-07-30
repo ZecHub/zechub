@@ -4,7 +4,7 @@
 
 # Zebra Çalıştırmak için Raspberry Pi 4 Rehberi
 
-<img src="https://i.ibb.co/V3rjKwv/image-2023-11-28-172907488.png" alt="raspberry pi" width="300" height="300"/>
+<img src="/content-images/image-2023-11-28-172907488-e7e9fd4ac5.webp" alt="raspberry pi" width="300" height="300"/>
 
 Bir Raspberry Pi 4 üzerinde Zebra düğüm yazılımını çalıştırmak, Zcash ağına bağımsız ve konsensüsle uyumlu bir düğüm olarak katılmanızı sağlar. Bu rehber, Raspberry Pi 4 cihazınızda Zebra kurmak ve çalıştırmak için gerekli adımları size gösterecektir.
 
@@ -67,7 +67,7 @@ Bir Raspberry Pi 4 üzerinde Zebra düğüm yazılımını çalıştırmak, Zcas
 7. __İzleme__
    Bir web tarayıcısı açıp __http://127.0.0.1:8233/status__ adresine giderek Zebra düğümünüzün ilerlemesini ve durumunu izleyebilirsiniz.
 
-<img src="https://i.ibb.co/BCtKrGp/image-2023-11-28-173024853.png" alt="zebra logo" width="200" height="200"/>
+<img src="/content-images/image-2023-11-28-173024853-99540511cf.webp" alt="zebra logo" width="200" height="200"/>
 
 ## Sorun Giderme
 

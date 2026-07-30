@@ -5,7 +5,7 @@
 ¡De cero a conocimiento cero está de vuelta con un nuevo tema!  
 Esta semana exploramos los **Entornos de Ejecución Confiables (TEEs)** - cómo se utilizan en las monedas de privacidad y otras aplicaciones de blockchain.
 
-![Introducción a los Entornos de Ejecución Confiables](https://pbs.twimg.com/media/Fquj-h2WcAIgSnL.jpg)
+![Introducción a los Entornos de Ejecución Confiables](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
 
 ---
 
@@ -31,7 +31,7 @@ Cada nodo validador ejecuta chips Intel SGX. Las capas de consenso y cómputo es
 
 Esto es diferente de Zcash, que usa **pruebas de conocimiento cero** para la privacidad. En Zcash, las transacciones blindadas se difunden y validan públicamente sin que se revele ningún dato adicional a la red. Los Shielded Assets de Zcash siguen el mismo principio.
 
-![Diagrama TEE de Secret Network](https://pbs.twimg.com/media/FqulPjNX0AEfjRp.png)
+![Diagrama TEE de Secret Network](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
 
 Para una explicación detallada de cómo se implementan los TEEs en Secret Network, lee este excelente artículo de @l_woetzel:  
 https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerability-33ca94b6df38
@@ -55,11 +55,11 @@ Permite a una parte remota verificar:
 - Que la aplicación no ha sido manipulada  
 - Que se está ejecutando de forma segura dentro de un enclave Intel SGX
 
-![Explicación de la atestación remota](https://pbs.twimg.com/media/FqumRjoWwAAeT-M.png)
+![Explicación de la atestación remota](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
 
 Los enclaves también contienen claves privadas de firma y atestación a las que no se puede acceder desde el exterior.
 
-![Protección de claves del enclave](https://pbs.twimg.com/media/Fqumv83XoAQq-MO.png)
+![Protección de claves del enclave](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
 
 ---
 
@@ -69,7 +69,7 @@ Dado que los enclaves no tienen estado, a veces los datos deben almacenarse fuer
 
 El **Sellado de datos** cifra los datos dentro del enclave usando una clave derivada de la CPU. El bloque cifrado solo puede desellarse en el **mismo sistema**.
 
-![Diagrama de sellado de datos](https://pbs.twimg.com/media/FqunBwyWYAA-TR3.jpg)
+![Diagrama de sellado de datos](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
 
 ---
 
@@ -79,7 +79,7 @@ El **Sellado de datos** cifra los datos dentro del enclave usando una clave deri
 
 Los datos cifrados entran en el TEE junto con el contrato inteligente. Se descifran, se procesan y se vuelven a cifrar antes de salir del enclave.
 
-![Flujo TEE de Oasis Network](https://pbs.twimg.com/media/FqunJRDXwAMt4Ob.png)
+![Flujo TEE de Oasis Network](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
 
 ---
 
@@ -94,7 +94,7 @@ Para los validadores PoS:
 
 Los **TEEs** son ideales para generar y usar de forma segura las claves de los validadores.
 
-![Seguridad de Tendermint y PoS](https://pbs.twimg.com/media/Fqun0HEX0AAooxW.jpg)
+![Seguridad de Tendermint y PoS](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
 
 ---
 

@@ -13,7 +13,7 @@ Os pools de mineração de Zcash são serviços que permitem que mineradores ind
 ### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/braiins_logo.jpg?raw=true" alt="Logo da Slush Pool (Braiins Pool)" width="200" height="100"/>
+    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Logo da Slush Pool (Braiins Pool)" width="200" height="100"/>
 </a>
 
 - Website: [Slush Pool (Braiins Pool)](https://braiins.com/pool)
@@ -26,7 +26,7 @@ Os pools de mineração de Zcash são serviços que permitem que mineradores ind
 ### [Luxor](https://luxor.tech/)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Luxor%20Pool.png?raw=true" alt="Logo da Luxor" width="200" height="100"/>
+    <img src="/content-images/Luxor-20Pool-3aa38cd52b.webp" alt="Logo da Luxor" width="200" height="100"/>
 </a>
 
 - Website: [Luxor](https://luxor.tech/)
@@ -39,7 +39,7 @@ Os pools de mineração de Zcash são serviços que permitem que mineradores ind
 ### [FlyPool](https://zcash.flypool.org/)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Flypool.jpg?raw=true" alt="Logo da FlyPool" width="200" height="100"/>
+    <img src="/content-images/Flypool-031c2edf57.webp" alt="Logo da FlyPool" width="200" height="100"/>
 </a>
 
 - Website: [FlyPool](https://zcash.flypool.org/)
@@ -52,7 +52,7 @@ Os pools de mineração de Zcash são serviços que permitem que mineradores ind
 ### [2Miners](https://zec.2miners.com/)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/2Miners.png?raw=true" alt="Logo da 2Miners" width="200" height="100"/>
+    <img src="/content-images/2Miners-3c99609047.webp" alt="Logo da 2Miners" width="200" height="100"/>
 </a>
 
 - Website: [2Miners](https://zec.2miners.com/)
@@ -65,7 +65,7 @@ Os pools de mineração de Zcash são serviços que permitem que mineradores ind
 ### [Nanopool](https://zec.nanopool.org/login)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Nanopool.jpg?raw=true" alt="Logo da Nanopool" width="200" height="100"/>
+    <img src="/content-images/Nanopool-e484b00998.webp" alt="Logo da Nanopool" width="200" height="100"/>
 </a>
 
 - Website: [Nanopool](https://zec.nanopool.org/login)
@@ -78,7 +78,7 @@ Os pools de mineração de Zcash são serviços que permitem que mineradores ind
 ### [Poolin](https://www.poolin.com/)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Poolin.jpg?raw=true" alt="Logo da Poolin" width="200" height="100"/>
+    <img src="/content-images/Poolin-6fd4b44ba3.webp" alt="Logo da Poolin" width="200" height="100"/>
 </a>
 
 - Website: [Poolin](https://www.poolin.com/)
@@ -91,7 +91,7 @@ Os pools de mineração de Zcash são serviços que permitem que mineradores ind
 ### [Antpool](https://v3.antpool.com/home)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Antpool.jpg?raw=true" alt="Logo da Antpool" width="200" height="100"/>
+    <img src="/content-images/Antpool-9c5dac3b65.webp" alt="Logo da Antpool" width="200" height="100"/>
 </a>
 
 - Website: [Antpool](https://v3.antpool.com/home)
@@ -104,7 +104,7 @@ Os pools de mineração de Zcash são serviços que permitem que mineradores ind
 ### [ViaBTC](https://www.viabtc.com/en/)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/ViaBTC.png?raw=true" alt="Logo da ViaBTC" width="200" height="100"/>
+    <img src="/content-images/ViaBTC-8fa5be7bd7.webp" alt="Logo da ViaBTC" width="200" height="100"/>
 </a>
 
 - Website: [ViaBTC](https://www.viabtc.com/en/)
@@ -117,7 +117,7 @@ Os pools de mineração de Zcash são serviços que permitem que mineradores ind
 ### [Zhash](https://zcash.zhash.pro/stats)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Logo da Zhash" width="200" height="100"/>
+    <img src="/content-images/Zhash-45ac9e6541.webp" alt="Logo da Zhash" width="200" height="100"/>
 </a>
 
 - Website: [Zhash](https://zcash.zhash.pro/stats)
@@ -130,7 +130,7 @@ Os pools de mineração de Zcash são serviços que permitem que mineradores ind
 ### [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Foundry.png?raw=true" alt="Logo da Foundry Zcash Mining Pool" width="200" height="100"/>
+    <img src="/content-images/Foundry-3f33346374.webp" alt="Logo da Foundry Zcash Mining Pool" width="200" height="100"/>
 </a>
 
 - Website: [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
@@ -143,7 +143,7 @@ Os pools de mineração de Zcash são serviços que permitem que mineradores ind
 ### [suprnova](https://zec.suprnova.cc/)
 
 <a href="https://binance.com">
-    <img src="https://www.suprnova.cc/suprnova-logo-1-small.jpg" alt="Logo da suprnova" width="200" height="100"/>
+    <img src="/content-images/suprnova-logo-1-small-e95de6cdb3.webp" alt="Logo da suprnova" width="200" height="100"/>
 </a>
 
 - Website: [suprnova](https://zec.suprnova.cc/)
