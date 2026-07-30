@@ -50,6 +50,10 @@ Interactive site featuring Zcash-themed games and live community events.
 Mobile application that aggregates Zcash news, community activity, network information, wallets, exchanges, and ecosystem resources in one place.  
 [Forum](https://forum.zcashcommunity.com/t/zec-app-is-coming-soon/56605)
 
+### PGPZ Community
+Community hub for Pretty Good Policy for Zcash (PGPZ), a Washington D.C. policy initiative focused on privacy-preserving digital cash, practical compliance, and the public-interest role of Zcash.  
+[Visit](https://community.pgpz.org/)
+
 ---
 
 ## Wallets and Payment Tools
