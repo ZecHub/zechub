@@ -1899,7 +1899,11 @@ function LoadContextitemInit() {
   });
 
   /* ===== DUPLICATE ===== */
-  contextMenu.querySelector('.menu-item:nth-child(2)').addEventListener('click', function () {
+  contextMenu.querySelector('.menu-item:nth-child(2)').addEventListener('click', function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    e.stopImmediatePropagation();
+
     if (!window.currentSubquest) return;
 
     const uuid = window.currentSubquest.dataset.subquestUuid;
@@ -1967,7 +1971,6 @@ function LoadContextitemInit() {
         questUX({ toast: data.message || "Duplicate failed", toastType: "error" });
       }
     });
-
 
     hideMenu();
   });

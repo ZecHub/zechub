@@ -14,6 +14,8 @@ body {
 *{
   -webkit-text-size-adjust: 100% !important;
   -webkit-tap-highlight-color: transparent;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(140, 140, 140, 0.6) transparent;
   box-sizing: border-box !important;
   font-family: 'Outfit', sans-serif !important;
 }

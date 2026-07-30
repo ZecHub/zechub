@@ -19,6 +19,8 @@
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
   font-family: 'Outfit', sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(140, 140, 140, 0.6) transparent;
 }
 
 html, body {
