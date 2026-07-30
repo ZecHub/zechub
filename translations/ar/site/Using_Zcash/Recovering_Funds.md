@@ -28,7 +28,7 @@
 
 4. في الزاوية العلوية اليمنى انقر على علامة الجمع 
 
-![زر علامة الجمع](/content-images/plus-3ca2c1649a.webp)
+![زر علامة الجمع](https://i.postimg.cc/xJbVz7gB/plus.png)
 
 5. فعّل 'Restore an account' 
 
@@ -46,7 +46,7 @@
 
 4. أدخل عبارة الاسترداد الخاصة بك (يقوم Gap limit بفحص العناوين الإضافية التي أنشأتها عبارة الاسترداد)
 
-![شاشة Sweep Funds](/content-images/sweep-6c956553a9.webp)
+![شاشة Sweep Funds](https://i.postimg.cc/3055CBcN/sweep.png)
 
 5. أدخل Value Pool للوجهة التي ترغب في استخدامها (تستخدم المنصات Exchanges العناوين الشفافة)
 

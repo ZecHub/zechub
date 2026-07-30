@@ -2,7 +2,7 @@
 
 # Ụkpụrụ Shade
 
-[Ihe ngosi Shade Protocol Logo]](/content-images/Af8EzlNiwGr4FTFX7oqdBuE-71316827d0.webp)
+[Ihe ngosi Shade Protocol Logo]](https://framerusercontent.com/images/Af8EzlNiwGr4FTFX7oqdBuE.png)
 
 ## Gịnị bụ Usoro Ndò?
 
@@ -14,7 +14,7 @@ Shade Protocol is a privacy preserving DeFi (Decentralized Finance) ecosystem th
 
 Shade Protocol is built on the Secret Network, a layer 1 blockchain that provides privacy preserving smart contracts. Secret Network uses encrypted inputs, outputs, and state to ensure transaction privacy, protecting user data from being exposed on the public ledger.
 
-[Ihe osise nzuzo nke netwọkụ]](/content-images/1-yyZ5hFOw6z8zXX_rgJn5iw-9091067aa1.webp)
+[Ihe osise nzuzo nke netwọkụ]](https://miro.medium.com/v2/resize:fit:828/format:webp/1*yyZ5hFOw6z8zXX_rgJn5iw.png)
 
 Secret Network enables developers to build decentralized applications with encrypted data, both natively on Secret and on other blockchains through cross chain communication, unlocking powerful new use cases for Web3.
 
@@ -23,7 +23,7 @@ Secret Network enables developers to build decentralized applications with encry
 Cosmos was created to interconnect heterogeneous blockchains by defining better and more modern ways to build these blockchains using new tools like Tendermint and the Cosmos SDK.  
 The protocol uses the Cosmos SDK, a modular framework for building scalable and interoperable blockchain applications. This allows Shade Protocol to benefit from the robustness and interoperability of the Cosmos ecosystem.
 
-[Cosmos SDK na Tendermint Core Diagram](/content-images/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e-ed16bb7658.webp)
+[Cosmos SDK na Tendermint Core Diagram](https://s3.ap-northeast-1.amazonaws.com/gimg.gateimg.com/learn/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e.jpg)
 
 For consensus and network security, Shade Protocol employs Tendermint Core, which provides Byzantine Fault Tolerant (BFT) consensus, ensuring high security and fast finality.
 
@@ -37,9 +37,9 @@ Privacy preserving DeFi leverages advanced cryptographic techniques like encrypt
 
 Shade Protocol utilizes viewing keys for its two main tokens: Shade ($SHD) and Silk ($SILK). Shade ($SHD) serves multiple roles, acting as the treasury, governance, and revenue sharing token within the ecosystem. It is used in staking, governance proposals, liquidity provision, transactions, and bonds. Silk ($SILK), on the other hand, is the protocol’s privacy focused stablecoin, pegged to a diverse basket of global currencies and commodities such as gold, Bitcoin, USD, Euro, and Yen.
 
-[Ojiji na Silk Tokens - Nkebi nke 1](/content-images/9wTrxCdx8AoRcCwsGub13QXuY-807ed3b400.webp)
+[Ojiji na Silk Tokens - Nkebi nke 1](https://framerusercontent.com/images/9wTrxCdx8AoRcCwsGub13QXuY.png?scale-down-to=1024)
 
-![Ojiji na Silk Tokens - Nkebi nke 2](/content-images/IUC9YWfErTebCBsMkdbCnjSWGEY-4ed6d5cedf.webp)
+![Ojiji na Silk Tokens - Nkebi nke 2](https://framerusercontent.com/images/IUC9YWfErTebCBsMkdbCnjSWGEY.png)
 
 ### Nzuzo nzuzo
 
@@ -57,7 +57,7 @@ As a DeFi platform, Shade Protocol operates without central control, providing u
 
 Being part of the Cosmos ecosystem means that Shade Protocol can easily interact with other blockchains, enhancing liquidity and providing more opportunities for users to leverage their assets across different networks. By utilizing privacy preserving technologies from the Secret Network, Shade Protocol ensures that these cross chain activities maintain confidentiality and integrity. This interoperability not only enhances the flexibility and functionality of decentralized applications but also fosters a more interconnected and robust blockchain ecosystem, reducing reliance on isolated networks and promoting broader adoption of decentralized finance solutions.
 
-[Ihe osise nke Interoperability Diagram](/content-images/3zIwSJHEwP9tkn4aI0do0lhgFTE-2aed930de0.webp)
+[Ihe osise nke Interoperability Diagram](https://framerusercontent.com/images/3zIwSJHEwP9tkn4aI0do0lhgFTE.png)
 
 ## Mmechi
 

@@ -6,7 +6,7 @@ wotae: 2025-08-02
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-![Namada ƒe dzesi](/content-images/nam-078c7b6883.webp)
+![Namada ƒe dzesi](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/nam.png)
 
 # Namada Ameŋunyatakakawo Ŋuti Nuwɔna Nyuitɔwo
 

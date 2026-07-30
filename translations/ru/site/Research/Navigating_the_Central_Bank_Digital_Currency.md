@@ -2,7 +2,7 @@
 published: 2023-12-07
 ---
 
-![CBDC](/content-images/cbdc-dfb8827faa.webp)
+![CBDC](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/cbdc.webp)
 # Раскрывая тёмную сторону: путь по одиссее цифровой валюты центрального банка (CBDC) среди финансовых теней
 Автор: [**Abhishek Tiwari**]
 
@@ -37,7 +37,7 @@ CBDC уязвимы к отключениям электроэнергии и н
 __Китай: Digital Currency Electronic Payment (DCEP)__
 
 
-![DCEP](/content-images/dcep-featured-c278cf0ef6.webp)
+![DCEP](https://forkast.news/wp-content/uploads/2020/08/dcep-featured.jpg)
 
 На антиутопических улицах Китая Digital Currency Electronic Payment (DCEP) разворачивается не как чудо, а как предвестник общественного контроля со своим набором зловещих финансовых теней. Повседневные транзакции пульсируют жизнью благодаря программируемым деньгам и привлекательности офлайн-возможностей.
 
@@ -50,7 +50,7 @@ DCEP — это не просто цифровой заменитель, он с
 
 __Соединённые Штаты: Digital Dollar Project__
 
-![Digital Dollar](/content-images/digital-dollar-CBDC-8e8120f52f.webp)
+![Digital Dollar](https://www.ledgerinsights.com/wp-content/uploads/2020/03/digital-dollar-CBDC.jpg)
 
 На огромных, унылых просторах Соединённых Штатов Digital Dollar Project появляется не как маяк прогресса, а как свидетельство эффективности и инклюзивности, пусть и с собственной долей неопределённости. Как инициатива частного сектора, он стремится изменить финансовый ландшафт в повествовании, окрашенном оттенками корпоративного контроля.
 
@@ -62,7 +62,7 @@ __Соединённые Штаты: Digital Dollar Project__
 
 __Швеция: E-Krona__
 
-![E-Krona](/content-images/ekrona_logo-4596e38b72.webp)
+![E-Krona](https://www.paymentscardsandmobile.com/wp-content/uploads/2018/10/ekrona_logo.png)
 
 Пока мы пересекаем безмолвные пейзажи Швеции, E-Krona разворачивается как история адаптивности, но не без финансовых ловушек. Это цифровая эволюция, сосредоточенная на сохранении доступа к валюте в обществе без наличных, изображающая общество, лишённое привычного комфорта физических денег.
 
@@ -95,7 +95,7 @@ __Европейский союз: CBDC еврозоны__
 
 Финансовая инклюзивность, некогда бывшая маяком надежды, сталкивается с тенями потенциальной дискриминации. Злоупотребление CBDC может привести к избирательному доступу, нарушая принципы равного обращения и инклюзивности. Это побочная сюжетная линия, ставящая под вопрос саму сущность финансовой свободы.
 
-![Flow](/content-images/futureofCBDC-2-45075d2d9c.webp)
+![Flow](https://blog.digitalasset.com/hubfs/Imported_Blog_Media/futureofCBDC-2.png)
 
 ## Ресурсы: карта для цифрового исследователя
 

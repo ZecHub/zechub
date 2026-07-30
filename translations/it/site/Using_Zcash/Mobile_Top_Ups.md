@@ -10,36 +10,36 @@ Visita [Coinsbee.com](https://www.coinsbee.com/en/shop/mobile-top-ups/) e crea u
 ### 2. Seleziona il tuo paese e la rete
 Scorri l'angolo in alto a sinistra e seleziona il tuo paese; poi scegli il credito per la telefonia mobile e seleziona la rete che desideri ricaricare (esempio: MTN).
 
-![Passo 2 - Selezione del paese e network](/content-images/0-qvB7ZCWaVWa-C2d8-db0d4ea372.webp)
+![Passo 2 - Selezione del paese e network](https://cdn-images-1.medium.com/max/1200/0*qvB7ZCWaVWa-C2d8)
 
 ### 3. Inserisci i dettagli e acquista
 Inserisci i dati corretti e premi il pulsante "Acquista ora". Apri il carrello per visualizzare l'ordine, clicca su continua e conferma l'acquisto con ZEC.
 
-![Passo 3 - Acquisto di screen](/content-images/0-ikF-ooBc9W7olfNt-7a4584edda.webp)
+![Passo 3 - Acquisto di screen](https://cdn-images-1.medium.com/max/1200/0*ikF-ooBc9W7olfNt)
 
 ### 4. Dettagli del pagamento
 Verrà fornito l'importo equivalente in ZEC e un indirizzo trasparente a cui inviare i fondi.
 
-![Passo 4 - Pagamento in ZEC details](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
+![Passo 4 - Pagamento in ZEC details](https://cdn-images-1.medium.com/max/1200/0*6_YhAhQnsLbrMvHN)
 
 ### 5. Invia il pagamento
 Copia e incolla con cura l'importo e l'indirizzo. Nel campo memo, aggiungi il tuo indirizzo YWallet nel caso in cui ci sia un rimborso.
 
-![Passo 5 - Invio di ZEC](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
+![Passo 5 - Invio di ZEC](https://cdn-images-1.medium.com/max/1200/0*DNnpyemsKcW-k-u-)
 
 ### 6. Elaborazione
 Una volta inviati i fondi, la tua richiesta verrà elaborata entro pochi minuti.
 
-![Fase 6 - Elaborazione screen](/content-images/0-LgXuUVLVecqrUW5G-a894c7b2dd.webp)
+![Fase 6 - Elaborazione screen](https://cdn-images-1.medium.com/max/1200/0*LgXuUVLVecqrUW5G)
 
 ### 7. Conferma
 Il tuo numero di telefono è stato ricaricato. Puoi anche confermare la tua e-mail durante il processo di pagamento, in modo da ricevere una notifica via e-mail una volta completata la transazione.
 
-![Fase 7 - Successo top-up](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
+![Fase 7 - Successo top-up](https://cdn-images-1.medium.com/max/1200/0*TJKIcqznQ4Y8_jgo)
 
 ---
 
-![Ulteriori informazioni su screenshot](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)
+![Ulteriori informazioni su screenshot](https://cdn-images-1.medium.com/max/1200/0*Jn7tD9lb2xtMBpIw)
 
 ### Altri luoghi dove spendere ZEC
 

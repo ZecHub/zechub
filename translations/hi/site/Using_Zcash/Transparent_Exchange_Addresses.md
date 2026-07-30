@@ -8,7 +8,7 @@ Zcash TEX पते प्राप्ति पते का एक विश�
 
 TEX पतों के लिए technical proposal Zcash [ZIP 320](https://zips.z.cash/zip-0320) में दिया गया है, जो एक ऐसा address type परिभाषित करता है जो विशेष रूप से Transparent Addresses से funds प्राप्त करने के लिए है।
 
-![TEX](/content-images/ZashiTex-b1cbec5f07.webp)
+![TEX](https://i.ibb.co/8m7HPqV/ZashiTex.png)
 
 
 हालाँकि TEX पते अभी व्यापक रूप से अपनाए नहीं गए हैं, Zcash उपयोगकर्ताओं को अंततः उनका उपयोग करना पड़ सकता है।

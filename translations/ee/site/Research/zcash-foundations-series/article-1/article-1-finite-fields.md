@@ -1,7 +1,7 @@
 # Agble Siwo Seɖoƒe Seɖoƒe Le: Xexlẽdzesiwo ƒe Ðoɖo Si Me Nyawo Ɣaɣla Le
 ##### Numekuku Gbãtɔ tso [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt nuŋɔŋlɔ](/content-images/image-5-6e8a8950f8.webp)
+![alt nuŋɔŋlɔ](image-5.png)
 
 ### Nukatae "wrapping around" nye Zcash ƒe gɔmeɖoanyi ɣaɣla
 
@@ -38,7 +38,7 @@ Cryptography di be yeawɔ xexlẽdzesiwo ƒe ɖoɖo si me:
 
 Le gaƒoƒo 12 ƒe gaƒoɖokui dzi la, xexlẽdzesiwo *xatsana*. Dze egɔme tso ga 10 me, tsɔ gaƒoƒo 5 kpee, eye màɖi ɖe "ga 15" dzi o, èɖi le **ga 3**. Teƒe wuieve koe gaƒoɖokui la le, eye ne èxlẽ to etame la, ɖeko wògatrɔna yia gɔmedzedzea.
 
-![alt nuŋɔŋlɔ](/content-images/image-9-30b39f4cc5.webp)
+![alt nuŋɔŋlɔ](image-9.png)
 
 Nu etɔ̃ aɖewo dzɔ teti koe nye ema siwo nye nyati sia ƒe nya bliboa:
 
@@ -107,7 +107,7 @@ Nyagbe evelia ma nye afɔku gã aɖe na akɔntabubu. Nu eve siwo menye zero o ƒ
 
 Le gɔmesese nu la, nu mawo tɔgbe aɖeke mele prime si o. Eyata mod a prime, zero divisors mateŋu adze o, nu ɖesiaɖe si menye zero o xɔa reciprocal dzadzɛ, eye structure la nye field si sɔ.
 
-![alt nuŋɔŋlɔ](/content-images/image-8-573914db92.webp)
+![alt nuŋɔŋlɔ](image-8.png)
 
 > **Woate ŋu azã one-liner ake na wò nyatiwo:** *prime modulus in, clean division out.*
 
@@ -159,7 +159,7 @@ Mehiã be nàtsɔ "Zcash zãa agble siwo seɖoƒe li na" ɖe xɔse dzi o. Anyigb
 - **Orchard** (si nye akpoxɔnu ƒe nɔnɔme si li fifia) zãa fli eve siwo woyɔna be **Pallas kple Vesta** ("Pasta" fliawo), siwo ƒe agblewo zãa prime siwo didi abe **255 bits** ene.
 - **note commitment**, **nullifier**, kple xexlẽdzesi siwo le **zero-knowledge proof** me tso Se 0 me katã nye, le ete, nusiwo le seɖoƒe siawo dometɔ ɖeka me. Ne ɖoɖowɔɖia gblɔ be "bu akɔnta le ɖokuitsɔtsɔna sia ŋu," efia be "wɔ akɔntabubu mod sia be prime."
 
-![alt nuŋɔŋlɔ](/content-images/image-7-c81fe982f0.webp)
+![alt nuŋɔŋlɔ](image-7.png)
 
 Eyata Nyati 0 ƒe nyabiase si woʋu ɖi ƒe ŋuɖoɖo, *"afikae nuɖaɖa ɣaɣlawo tso?"*, dze egɔme tso afisia: **nusianu dzea egɔme abe akɔntabubu ene le agble si seɖoƒe li na me.** Le nyati si kplɔe ɖo me la, míaxɔ agble ma eye míatu nu ŋutɔŋutɔwo, dzesiwo ɖe elliptic curve dzi, siwo zua safuiwo kple adzɔgbeɖeɖewo.
 

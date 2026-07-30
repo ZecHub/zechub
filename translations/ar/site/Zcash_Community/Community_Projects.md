@@ -67,7 +67,7 @@ Zlink هو أبسط طريقة للعثور على أي رابط أو أداة �
 محطة إذاعية عبر الإنترنت لإعلام مجتمع Zcash وتثقيفه وترفيهه، طوّرها Zcash en Español ونادي ZKAV.
 
 ## Zimppy.xyz
-[![شعار Zimppy.xyz](/content-images/og-40771e1849.webp)](https://zimppy.xyz/)
+[![شعار Zimppy.xyz](https://github.com/betterclever/zimppy/blob/main/site/og.png?raw=true)](https://zimppy.xyz/)
 
 Zimppy هو أسلوب الدفع ببروتوكول Machine Payment Protocol (MPP) الخاص بـ Zcash، والمصمم لوكلاء الذكاء الاصطناعي وسير العمل الآلي بين الآلات. أودِع مرة واحدة على السلسلة، ثم أجرِ عددًا غير محدود من الطلبات الفورية الحاملة دون أي تفاعل مع البلوكشين لكل طلب. يدعم مدفوعات Zcash المحمية بالكامل (Orchard) — إذ تبقى هوية المرسل والمستلم والمبلغ مشفّرة.
 
@@ -76,7 +76,7 @@ Zimppy هو أسلوب الدفع ببروتوكول Machine Payment Protocol (M
 ---
 
 ## CipherScan
-[![CipherScan](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
+[![CipherScan](https://github.com/Kenbak/cipherscan/blob/main/public/logo-small.png?raw=true)](https://cipherscan.app/)
 
 CipherScan هو مستكشف Zcash blockchain يضع الخصوصية أولًا. بُني باستخدام Next.js 15 و TypeScript و Rust/WASM، ويتيح للمستخدمين البحث عن الكتل والمعاملات والعناوين دون تسريب بيانات الاستعلام الوصفية. صُمم للمستخدمين الواعين بالخصوصية الذين يحتاجون إلى شفافية البلوكشين دون مراقبة.
 
@@ -85,7 +85,7 @@ CipherScan هو مستكشف Zcash blockchain يضع الخصوصية أولًا
 ---
 
 ## ZcashNames
-[![ZcashNames](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
+[![ZcashNames](https://github.com/zcashme/zcashnames/blob/main/public/brandkit/zcashnames-brand-banner-primary-logo-monochrome-green-monochrome-green-background-377x403.png?raw=true)](https://www.zcashnames.com/)
 
 يوفّر ZcashNames أسماءً مقروءة للبشر لعناوين Zcash المحمية. فبدلًا من مشاركة عنوان z طويل، يسجل المستخدمون اسمًا سهل التذكر (مثل `alice.zec`) يُحل إلى Unified Address الخاص بهم. وهذا يسهّل تلقي ZEC بشكل خاص دون كشف العناوين الخام.
 
@@ -102,20 +102,20 @@ CipherScan هو مستكشف Zcash blockchain يضع الخصوصية أولًا
 ---
 
 ## Cipherpay
-[![Cipherpay](/content-images/logo-mark-b8d7c702b0.webp)](https://www.cipherpay.app/en)
+[![Cipherpay](https://github.com/atmospherelabs-dev/cipherpay-web/blob/main/public/logo-mark.png?raw=true)](https://www.cipherpay.app/en)
 
 CipherPay يتيح مدفوعات خاصة للإنترنت. اقبل Zcash في دقائق — دون وصاية، ومن دون الحاجة إلى KYC. يتلقى التجار ZEC مباشرة إلى عناوين محمية، بما يحمي الخصوصية المالية لكل من المشتري والبائع.
 
 [زيارة الموقع](https://www.cipherpay.app/en)
 
 ## Cipherscan
-[![Cipherscan](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
+[![Cipherscan](https://github.com/Kenbak/cipherscan/blob/main/public/logo-small.png?raw=true)](https://cipherscan.app/)
 
 مستكشف Zcash Blockchain 🛡️ فكّ شفرة البلوكشين. حيث تلتقي الخصوصية بالشفافية.
 [زيارة الموقع](https://cipherscan.app/)
 
 ## ZcashNames
-[![ZcashNames](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
+[![ZcashNames](https://github.com/zcashme/zcashnames/blob/main/public/brandkit/zcashnames-brand-banner-primary-logo-monochrome-green-monochrome-green-background-377x403.png?raw=true)](https://www.zcashnames.com/)
 
 أسماء شخصية
 لـ
@@ -124,14 +124,14 @@ CipherPay يتيح مدفوعات خاصة للإنترنت. اقبل Zcash في
 [زيارة الموقع](https://www.zcashnames.com/)
 
 ## Zero-knowledge Audiovisual Club
-[![Zero-knowledge Audiovisual Club](/content-images/images-563ef94ac0.webp)](https://zkav.club/#additional-reading)
+[![Zero-knowledge Audiovisual Club](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS95FffUJjEeUHAZZ04xRHp9FW1Z0Gzef2UUg&s?raw=true)](https://zkav.club/#additional-reading)
 
 تجمّع سمعي بصري (AV) يضع الخصوصية أولًا لمجتمعات التقنية مفتوحة المصدر واللامركزية. نقوم بالتدريب والمشاركة في الإبداع وتشغيل دعم AV التطوعي في فعاليات المجتمع.
 
 [زيارة الموقع](https://zkav.club/#additional-reading)
 
 ## Shielded Labs
-[![Shielded Labs](/content-images/68747470733a2f2f736869656c6465646c616273-e449ae6540.webp)](https://shieldedlabs.net/)
+[![Shielded Labs](https://camo.githubusercontent.com/0244df9f30a80c45adfd80c448985f17a6c71cdc9fd0eccd7bf47dec157c0dd4/68747470733a2f2f736869656c6465646c6162732e6e65742f77702d636f6e74656e742f75706c6f6164732f323032342f31312f66617669636f6e5f37325f322e706e67?raw=true)](https://shieldedlabs.net/)
 
 Shielded Labs هي منظمة مستقلة لدعم Zcash مقرها سويسرا وتموَّل بالتبرعات. وهي أول منظمة في منظومة Zcash لم تتلقَّ تمويلًا مباشرًا أو غير مباشر من Development Fund أو من مكافآت الكتل.
 

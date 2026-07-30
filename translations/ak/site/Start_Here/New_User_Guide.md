@@ -101,7 +101,7 @@ Zcash Community Forum yɛ beaeɛ a Zcash mpɔtam hɔfoɔ susuw nneɛma a ɛfa Zc
 Mpɔtam hɔfo ani gye ho na wɔma asɔremma foforo akwaaba kɛse. Ɛtɔ mmere bi a nkɔmmɔbɔ betumi ayɛ mfiridwuma mu de, nanso mma ɛnhaw wo! Sɛ wowɔ asɛmmisa bi da bi a, wubetumi abisa.
 
 <a href="">
-    <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="/content-images/c1d40441-4336-4754-b3bf-5a746b19a9d5-6d2eca6cbf.webp" />
+    <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="https://github.com/user-attachments/assets/c1d40441-4336-4754-b3bf-5a746b19a9d5" />
 </a>
 
 ---

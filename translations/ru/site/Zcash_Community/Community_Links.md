@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Редактировать страницу"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-174147713-63a42e536c.webp" alt="Альтернативный текст" width="400"/> Ссылки сообщества Zcash
+# <img src="https://i.ibb.co/qYhRbJM/image-2024-02-03-174147713.png" alt="Альтернативный текст" width="400"/> Ссылки сообщества Zcash
 
 Сообщество Zcash — это активная группа людей, работающих над тем, чтобы сделать ZEC одной из самых широко используемых криптовалют с защитой приватности в мире. Сообщество состоит из самых разных людей со всего мира — разработчиков, преподавателей, сторонников и создателей, — объединённых общей верой в финансовую приватность.
 
@@ -10,11 +10,11 @@
 
 ## Где можно найти участников сообщества
 
-### <img src="/content-images/image-2024-02-03-173937048-148e401d5e.webp" alt="Альтернативный текст" width="50"/> <span translate="no" class="notranslate">Telegram</span>
+### <img src="https://i.ibb.co/qBrb4qK/image-2024-02-03-173937048.png" alt="Альтернативный текст" width="50"/> <span translate="no" class="notranslate">Telegram</span>
 
 Сообщество Zcash очень активно в своём <span translate="no" class="notranslate">Telegram</span>-сообществе. Присоединяйтесь, чтобы общаться о повседневных темах, обсуждать новости и обновления и знакомиться с другими участниками сообщества: [t.me/Zcash_Community](https://t.me/Zcash_Community)
 
-### <img src="/content-images/image-2024-02-03-174056252-8a6a76eabf.webp" alt="Альтернативный текст" width="50"/> <span translate="no" class="notranslate">Discord</span>
+### <img src="https://i.ibb.co/kxVwQxM/image-2024-02-03-174056252.png" alt="Альтернативный текст" width="50"/> <span translate="no" class="notranslate">Discord</span>
 
 - [Zcash Global](https://discord.gg/zcash) - Основной сервер сообщества
 - [Zcash R&D](https://discord.gg/xpzPR53xtU) - Обсуждения протокола и разработки
@@ -34,7 +34,7 @@
 
 [Форум сообщества Zcash](https://forum.zcashcommunity.com/) — это центр для развёрнутых обсуждений Zcash: управления, грантовых предложений, технических дебатов и объявлений экосистемы. Теперь его курирование перешло к Zcash Foundation после перехода ECC к ZODL.
 
-### <img src="/content-images/image-2024-02-03-174240928-7a8f751301.webp" alt="Альтернативный текст" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
+### <img src="https://i.ibb.co/mqKfr62/image-2024-02-03-174240928.png" alt="Альтернативный текст" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
 
 Zcash имеет активное глобальное присутствие в X. Основные аккаунты, на которые стоит подписаться:
 

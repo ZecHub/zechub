@@ -10,11 +10,11 @@
 
 __가상 사설망(VPN)__ : 전통적인 VPN은 사용자의 장치와 VPN 제공업체가 운영하는 원격 서버 사이에 안전하고 암호화된 터널을 생성합니다. 이 터널은 해커, 인터넷 서비스 공급자(ISP), 정부 기관 등이 사용자의 온라인 활동을 감시하는 것을 방지합니다. 익명 브라우징, 지역 제한 콘텐츠 접근 및 사이버 위협 대응 등의 목적으로 널리 사용됩니다.
 
-![image223](/content-images/image-223-399e3015e7.webp)
+![image223](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Privacy_Tools/assets/image-223.png)
 
 __분산형 가상 사설망(dVPN)__ : 반면, dVPN은 블록체인과 피어투피어 기술을 활용하여 분산된 노드 네트워크를 생성합니다. 사용자의 트래픽은 이러한 노드를 통해 전달되어, 어떤 단일 엔티티도 전체 네트워크를 감시하거나 통제하는 것이 어렵습니다. dVPN은 중앙 집중적인 권한이 없기 때문에 일반적으로 검열에 더 강하게 대응할 수 있습니다. 사용자가 향상된 프라이버시와 보안을 원하는 경우에 적합합니다.
 
-![dvpn](/content-images/dvpn-89698d4cb9.webp)
+![dvpn](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Privacy_Tools/assets/dvpn.png)
 
 # VPN 선택 시 고려해야 할 보안 요소
 

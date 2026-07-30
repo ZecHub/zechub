@@ -25,11 +25,11 @@ Zcash 桌面和移动钱包内置了一项功能，允许用户通过私密屏�
 
 试试看：https://z.cash/wallets
 
-![Zcash 加密备忘录](/content-images/Zcash-1177103374-7bca37eb4d.webp)
+![Zcash 加密备忘录](https://i.ibb.co/n8HbQZC/Zcash-1177103374.png)
 
 **Signal 应用**
 
-![Signal 应用](/content-images/signal-app-logo-scaled-454032876-81b24a0421.webp)
+![Signal 应用](https://i.ibb.co/7RbbxSs/signal-app-logo-scaled-454032876.jpg)
 
 Signal 私密通讯工具是一款将数据隐私做到极致的安全消息应用。Signal 私密通讯应用免费且易于使用，用户无需任何先前经验。Signal 应用采用端到端加密技术，确保你的通信完全私密。任何希望安全发送私人消息的人都应考虑使用 Signal 私密通讯应用，因为它将显著降低你的网络安全脆弱性和数据足迹。
 
@@ -37,7 +37,7 @@ Signal 私密通讯工具是一款将数据隐私做到极致的安全消息应�
 
 **BisonRelay**
 
-![Bison Relay](/content-images/ogimg-v1-1000556235-9390372d1e.webp)
+![Bison Relay](https://i.ibb.co/ZxpBVNv/ogimg-v1-1000556235.jpg)
 
 Bison Relay 应用于 2022 年首次亮相。Bison Relay 不依赖用户拥有账户——简直令人难以置信！在这里，每一条发送和接收的消息都通过 Decred Lightning Network 单独付费。该应用的唯一目的，就是在尽量减少元数据的同时，彻底消除对账户的需求。另一方面，Bison Relay 也阻止了审查制度通常实施的方式。
 
@@ -45,7 +45,7 @@ Bison Relay 应用于 2022 年首次亮相。Bison Relay 不依赖用户拥有�
 
 **Session 应用**
 
-![Session 应用](/content-images/logo-black-9e799f2b06.webp)
+![Session 应用](https://i.ibb.co/gdpwb1v/logo-black.png)
 
 如果你还不知道 Session 应用是什么，也不用担心！简单来说，Session 是一款具有竞争力的端到端加密通讯工具。该应用旨在尽可能减少敏感元数据。Session 应用是为那些希望获得绝对隐私、摆脱任何形式监控的人而设计的。在 Session 应用中，用户无需手机号或电子邮箱地址即可创建账户，这意味着它是完全匿名的。用户可以通过其网络安全地发送消息而不留下痕迹，因此没有任何信息可被泄露。
 

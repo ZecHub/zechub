@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Seite bearbeiten"/>
 </a>
 
-# <img src="/content-images/ZCG-Circle-Logo-10-f41b8229ca.webp" alt="Alternativtext" width="50"/>  Zcash Community Grants
+# <img src="https://i.ibb.co/bjYy15Yb/ZCG-Circle-Logo-10.png" alt="Alternativtext" width="50"/>  Zcash Community Grants
 
 ## Leitbild
 

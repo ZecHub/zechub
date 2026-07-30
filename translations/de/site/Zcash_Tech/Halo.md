@@ -47,13 +47,13 @@ Im [Halo-Paper](https://eprint.iacr.org/2019/1021.pdf) haben wir dieses Polynomi
 Halo 2 ist eine in Rust geschriebene Hochleistungs-zk-SNARK-Implementierung, die die Notwendigkeit eines Trusted Setups beseitigt und zugleich die Grundlage für Skalierbarkeit in Zcash legt. 
 
 <a href="">
-    <img src="/content-images/Halo-puzzle-03-1024x517-e034023d10.webp" alt="" width="500" height="300"/>
+    <img src="https://electriccoin.co/wp-content/uploads/2020/09/Halo-puzzle-03-1024x517.jpg" alt="" width="500" height="300"/>
 </a>
 
 Es enthält eine Verallgemeinerung unseres Ansatzes namens **accumulation scheme**. Diese neue Formalisierung zeigt auf, wie unsere Technik der nested amortization tatsächlich funktioniert: Indem Beweise zu einem Objekt namens **accumulator** hinzugefügt werden, wobei die Beweise über den vorherigen Zustand des accumulator argumentieren, können wir prüfen, dass alle vorherigen Beweise korrekt waren (durch Induktion), indem wir einfach den aktuellen Zustand des accumulator überprüfen.
 
 <a href="">
-    <img src="/content-images/l4HrYgE-1ea7bc32f7.webp" alt="" width="500" height="300"/>
+    <img src="https://i.imgur.com/l4HrYgE.png" alt="" width="500" height="300"/>
 </a>
 
 

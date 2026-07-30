@@ -52,7 +52,7 @@ Gbã la, n gomekpɔlawo wɔa distributed key generation (DKG) protocol tsɔ wɔa
 Le ema megbe la, t-out-of-n gomekpɔla ɖesiaɖe ateŋu awɔ threshold signing protocol be woawɔ Schnorr ƒe asidede agbalẽ te si sɔ le nuwɔwɔ aduadu me.
 
 <a href="">
-    <img src="/content-images/1634081807-frost-flexible-round-optimize-3697a713d9.webp" alt="" width="400" height="300"/>
+    <img src="https://static.cryptohopper.com/images/news/uploads/1634081807-frost-flexible-round-optimized-schnorr-threshold-signatures-1.jpg" alt="" width="400" height="300"/>
 </a>
 
 ## Nukpɔkpɔ / Nusɔsrɔ̃
@@ -76,7 +76,7 @@ Akpa sia tua aɖaŋu nyanyɛ siwo zãa additive secret sharing kple share conver
 Le dɔwɔwɔ do ŋgɔ ƒe afɔɖeɖea me la, gomekpɔla ɖesiaɖe dzraa Elliptic Curve (EC) ƒe teƒe eve ƒe xexlẽme si woɖo ɖi ɖo hena zazã emegbe. Afɔɖeɖe sia zɔna zi ɖeka to dzidzenu ƒe asidede agbalẽ te ƒe akpa geɖewo dzi.
 
 <a href="">
-    <img src="/content-images/preprocess-5cbb14f892.webp" alt="" width="400" height="300"/>
+    <img src="https://i.ibb.co/nQD1c3n/preprocess.png" alt="" width="400" height="300"/>
 </a>
 
 Asidede agbalẽ te ƒe Kpekpe 1: Gomenɔla ɖesiaɖe Pᵢ dzea egɔme kple ame ŋutɔ ƒe nonce eve (dᵢ, eᵢ) kple EC ƒe dzesi eve siwo sɔ (Dᵢ, Eᵢ) wɔwɔ, emegbe eɖea dzesi eve sia ɖe go na gomekpɔla bubuawo katã. Gomenɔla ɖesiaɖe dzraa EC-point eve siawo ɖo be woazã emegbe. Asidede agbalẽ te ƒe ƒoƒo 2 kple 3 nye dɔwɔwɔ ŋutɔŋutɔ siwo me t-out-of-n gomekpɔlawo wɔa nu aduadu le be woawɔ Schnorr ƒe asidede agbalẽ te si sɔ.
@@ -86,7 +86,7 @@ Asidede agbalẽ te ƒe Kpekpe 2 lia: Gomenɔlawo wɔa dɔ aduadu be woawɔ Schn
 Afɔɖeɖe sia xea mɔ na aʋatsokaka ƒe amedzidzedzewo elabena amedzidzelawo mate ŋu aƒo asidede agbalẽ te ƒe gomekpɔkpɔwo nu ƒu le asidede agbalẽ te ƒe dɔwɔna vovovowo me alo atrɔ asi le amesiwo de asi agbalẽ te ƒe hatsotso alo teƒe siwo wota na asidede agbalẽ te ɖesiaɖe ŋu o.
 
 <a href="">
-    <img src="/content-images/sign-402794d36a.webp" alt="" width="400" height="300"/>
+    <img src="https://i.ibb.co/b5rJbXx/sign.png" alt="" width="400" height="300"/>
 </a>
 
 Esi wobu kuxi c vɔ la, gomekpɔla ɖesiaɖe ate ŋu abu ŋuɖoɖo zᵢ to nonces siwo wozãna zi ɖeka kple adzame gomekpɔkpɔ siwo nɔa anyi didi, siwo nye t-out-of-n (degree t-1) Shamir adzame gomekpɔkpɔwo le ƒuƒoƒoa ƒe safui si nɔa anyi didi la zazã me. Le asidede agbalẽ te ƒe ƒoƒo 2 lia ƒe nuwuwu la, gomekpɔla ɖesiaɖe ɖea zᵢ ɖe go na gomekpɔla bubuwo.

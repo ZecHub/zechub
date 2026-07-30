@@ -1,7 +1,7 @@
 # Otu Azụmaahịa Zcash E Chebere na-arụ ọrụ n'ezie
 ##### Nnyocha mbụ sitere na [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [Alt ederede](/content-images/image-fedc371488.webp)
+! [Alt ederede](image.png)
 
 ### Ihe omuma tupu mgbakọ na mwepụ: enweghị usoro nhazi nke ịkwụ ụgwọ onwe onye
 
@@ -46,7 +46,7 @@ Ego nwedịrị ike ịgafe ókèala dị n'etiti ha: ịkwaga ego * n'ime * ụ
 
 The transparent world is "Bitcoin you already roughly understand." It's the **shielded world** that contains all the beautiful cryptography, and that's the only world this series cares about.
 
-! [Alt ederede](/content-images/image-1-f821d24c6f.webp)
+! [Alt ederede](image-1.png)
 
 ---
 
@@ -124,7 +124,7 @@ The miracle is that the proof reveals **none** of those facts. Not the amount, n
 
 A note is *born*, it *lives* on the board, and eventually it *dies*, and crucially, its birth and its death look unrelated to anyone watching.
 
-! [Alt ederede](/content-images/image-2-0eca0ea4f7.webp)
+! [Alt ederede](image-2.png)
 
 ---
 
@@ -132,7 +132,7 @@ A note is *born*, it *lives* on the board, and eventually it *dies*, and crucial
 
 Ka anyị lee ka Alice si kwụọ Bob ụgwọ, ka a na-edepụta nzọụkwụ ọ bụla o mere n'ihu ọha na nke onwe ya.
 
-! [Alt ederede](/content-images/image-4-7af0dfe795.webp)
+! [Alt ederede](image-4.png)
 
 Rịba ama asymmetry nke na-eme ka nzuzo ọrụ:
 
@@ -187,7 +187,7 @@ This is a **mental model**, not the spec. To keep it newcomer-friendly we've qui
 
 "Anyị ga-alaghachi na nke a" ọ bụla dị n'elu bụ eri. Nke a bụ ebe a na-ejikọta nke ọ bụla:
 
-! [Alt ederede](/content-images/image-29-27ef4636ff.webp)
+! [Alt ederede](image-29.png)
 
 ◯ N'isiokwu a, e nwere otu ihe a na-emebeghị. ◯ Ebe a ga-edozi ya.
 |---|---|

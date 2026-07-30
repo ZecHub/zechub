@@ -6,7 +6,7 @@ Zcash 생태계는 진화하고 있습니다. *Electric Coin Company (ECC)* / *Z
 - Zallet은 Zodl이 개발한 가벼운 지갑으로, Zebra 노드와 원활하게 인터페이스할 수 있도록 설계되었습니다.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ChatGPTImageOct12202508_15_20A](/content-images/SJNBsSYTel-dfd19f34e4.webp)
+![ChatGPTImageOct12202508_15_20A](https://hackmd.io/_uploads/SJNBsSYTel.jpg)
 </div>
 
 이 가이드는 **Zcashd**에서 **Zebrad** 및 **Zallet**로의 마이그레이션을 안내합니다. 설정, 지갑 임포트, 일반적인 마이그레이션 문제 해결을 포함하고 있습니다.
@@ -37,7 +37,7 @@ Zcash 생태계는 진화하고 있습니다. *Electric Coin Company (ECC)* / *Z
 * zcashd 노드에서 wallet.dat (또는 다른 지갑 파일/키 저장소)를 백업합니다.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (1)](/content-images/SJ_0mUtTxg-1441185a72.svg)
+![bash (1)](https://hackmd.io/_uploads/SJ_0mUtTxg.svg)
 </div>
 
 * zcash.conf 및 기타 사용자 정의 설정을 저장합니다.
@@ -63,7 +63,7 @@ Zcash 생태계는 진화하고 있습니다. *Electric Coin Company (ECC)* / *Z
 **Linux**/**macOS**:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (2)](/content-images/HJhYu8Y6el-d2198f22c9.svg)
+![bash (2)](https://hackmd.io/_uploads/HJhYu8Y6el.svg)
 </div>
 
 이 명령은 최신 안정 버전의 zebrad를 설치합니다.
@@ -71,20 +71,20 @@ Zcash 생태계는 진화하고 있습니다. *Electric Coin Company (ECC)* / *Z
 **옵션 B: 소스에서 빌드**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (3)](/content-images/Syg8FUK6eg-b4557e52e0.svg)
+![bash (3)](https://hackmd.io/_uploads/Syg8FUK6eg.svg)
 </div>
 
 빌드 후 바이너리를 경로에 이동합니다:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![migration 11](/content-images/BJ0zjLY6ll-f77354d701.webp)
+![migration 11](https://hackmd.io/_uploads/BJ0zjLY6ll.png)
 </div>
 
 **4. 설정 및 실행**
 기본 구성 파일 생성:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![migration2](/content-images/HJV1C8tTxx-5823395651.webp)
+![migration2](https://hackmd.io/_uploads/HJV1C8tTxx.png)
 </div>
 
 **zebrad.toml**을 편집하여 선호하는 설정(리슨 주소, 포트, 상태 디렉토리, 캐싱)으로 변경합니다.
@@ -92,7 +92,7 @@ Zcash 생태계는 진화하고 있습니다. *Electric Coin Company (ECC)* / *Z
 노드 실행:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](/content-images/H1KPkvt6gl-864c48ca40.webp)
+![image](https://hackmd.io/_uploads/H1KPkvt6gl.png)
 </div>
 
 노드는 생성자부터 동기화를 시작할 것이며, 하드웨어와 네트워크에 따라 몇 시간 이상 소요될 수 있습니다.
@@ -106,7 +106,7 @@ Zallet GitHub / 릴리스 페이지에서 바이너리를 확인하세요.
 **또는 소스에서 빌드:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](/content-images/SyUFxvFTex-5bb10ee1d3.webp)
+![image](https://hackmd.io/_uploads/SyUFxvFTex.png)
 </div>
 
 * GUI 또는 CLI(설치에 따라)를 실행합니다.
@@ -118,7 +118,7 @@ Zallet GitHub / 릴리스 페이지에서 바이너리를 확인하세요.
 zcashd에서 개인 키를 내보냅니다:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (4)](/content-images/rJzgzwFagx-4a0874f250.svg)
+![bash (4)](https://hackmd.io/_uploads/rJzgzwFagx.svg)
 </div>
 
 * Zallet에서 '키 임포트' 또는 유사한 옵션을 선택합니다.
@@ -143,13 +143,13 @@ zcashd에서 개인 키를 내보냅니다:
 노드의 동기 상태를 확인하려면 다음 명령어를 실행하세요:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](/content-images/SyIyVDY6xl-10d6bed7b8.webp)
+![image](https://hackmd.io/_uploads/SyIyVDY6xl.png)
 </div>
 
 또는 로그를 확인합니다.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](/content-images/r1HfVPF6gg-b6b76e9907.webp)
+![image](https://hackmd.io/_uploads/r1HfVPF6gg.png)
 </div>
 
 **8. 문제 해결**

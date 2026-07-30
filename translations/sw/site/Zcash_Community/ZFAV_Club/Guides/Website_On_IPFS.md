@@ -4,7 +4,7 @@
 
 # Kuchapisha Website juu ya IPFS 
 
-![](/content-images/IPFS-40c2e22732.webp)
+![](https://blog.desdelinux.net/wp-content/uploads/2020/04/IPFS-.jpg)
 
 ## Utangulizi wa IPFS 
 
@@ -55,7 +55,7 @@ Kutumia terminal au amri ya haraka, Run amri: <mark>ipfs init </mark>.
 
 Chagua folda na faili yako tovuti na navigate kwa chaguo Ongeza Folda.
 
-![](/content-images/ipfs-site-folder-2c96524d98.webp)
+![](https://i.ibb.co/ZHW4zsY/ipfs-site-folder.png)
 
 --
 
@@ -92,11 +92,11 @@ Katika kesi yetu CID = "QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3"
 
 Interplanetary Naming System (IPNS) inaruhusu update IPFS CID ya kuhusishwa na tovuti yako na bado kutumika kiungo tuli. Ni zinazotolewa kama ufunguo. 
 
-![](/content-images/dns-query.a0134a75-9ef7817f80.webp)
+![](https://dnslink.io/assets/dns-query.a0134a75.png)
 
 Katika Menyu ya mipangilio kwa foldre tovuti yako juu ya IPFS desktop maombi kuchagua kuchapisha kwa IPNS. 
 
-![](/content-images/IPNS-2fe62cc369.webp)
+![](https://i.ibb.co/Ch25dKf/IPNS.png)
 
 Key: "k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n"
 
@@ -109,7 +109,7 @@ Tovuti imeundwa, sasa tunahitaji njia ya kuelekeza URL kwa maudhui.
 
 Kama tayari umemiliki anwani ya mtandao wewe ni uwezo wa kuongeza rekodi mpya kwa kutumia rekodi TXT "_dnslink(domain yako)". Kulingana na mtoa inaweza auto kujaza. 
 
-![](/content-images/example-c2a9edb28b.webp)
+![](https://i.ibb.co/MgRxBHj/example.png)
 
 Itachukua muda kuenea kupitia mtandao kabla ya kuiona. 
 

@@ -41,7 +41,7 @@ MetaMask now supports **shielded Zcash (ZEC)** via the **ChainSafe-developed Zca
       Store data on your device
    ```
 
-[Zcash-snap-wụnye](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
+[Zcash-snap-wụnye](https://hackmd.io/_uploads/Hy5MSG2Oex.png)
 
 
 ---
@@ -59,7 +59,7 @@ Maka **BNB SmartChain**;
 -  Block Explorer URL: https://bscscan.com
 ```
 Nke a na-eme ka ozi netwọk na njikọ nchọpụta.
-[Tinye-a-ahaziri-Net...](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
+[Tinye-a-ahaziri-Net...](https://hackmd.io/_uploads/S1hq7f2Oel.png)
 
 Maka ** Zcash Mainnet **;
 ```markdown
@@ -75,13 +75,13 @@ Maka ** Zcash Mainnet **;
 1. Gaa na [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev).  
 2. Pịa ** Jikọọ MetaMask Snap **. 
 
-[Zcash-web-wallet](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
+[Zcash-web-wallet](https://hackmd.io/_uploads/Sk8nSz3dgl.png)
 
 3. Kwado njikọ ahụ. 
 4. Lelee nchịkọta akaụntụ Zcash gị, gụnyere:
    - Unified adreesị na Transparent address
 
-![Nchịkọta-akụkọ-na-otu...](/content-images/r17c_Mhdel-f4963826d5.webp)
+![Nchịkọta-akụkọ-na-otu...](https://hackmd.io/_uploads/r17c_Mhdel.jpg)
 
 
 5. Chere maka nhazi oge iji mezue.
@@ -96,7 +96,7 @@ Maka ** Zcash Mainnet **;
 > ** Gbanwee ETH -> ZEC ** - Jiri ọrụ dịka ** LeoDex ** ma zipụ na adreesị gị echedoro. 
 > ** Mgbanwe Mwepu ** - Wepụ ZEC zụrụ azụ na adreesị gị echedoro WebZjs. 
 
-[ LEODEX-SWAP ]](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+[ LEODEX-SWAP ]](https://hackmd.io/_uploads/HyLQ0G2ugg.png)
 
 
 > => Jiri adreesị ezoro ezo maka **nzuzo zuru oke**.
@@ -111,7 +111,7 @@ Maka ** Zcash Mainnet **;
    - Shielded recipient address  
    - Amount
 ```
-   [Nkwụnyefe-Balance]](/content-images/rkvcFfhdex-bd55d079eb.webp)
+   [Nkwụnyefe-Balance]](https://hackmd.io/_uploads/rkvcFfhdex.png)
 
 4. Kwado azụmahịa na MetaMask (banye azụmahịa ahụ). 
 5. Ego natara ga-apụta na WebZjs mgbe nkwenye.
@@ -145,7 +145,7 @@ Maka ** Zcash Mainnet **;
    Transparent Address
 ``` 
 
-[Adreesị-akụkụ](/content-images/SyPR2f2_gg-3907c5bf58.webp)
+[Adreesị-akụkụ](https://hackmd.io/_uploads/SyPR2f2_gg.png)
 
 
 

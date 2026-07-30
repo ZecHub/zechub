@@ -52,7 +52,7 @@ ZecHub의 통일된 외관을 유지하기 위해, 저장소에 페이지를 추
 기부: [여기](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
 <a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
-    <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
+    <img src="https://i.ibb.co/pfBM1z9/image-2023-11-18-141228046.png" alt="" width="200" height="200"/>
 </a>
 
 **경고: ZecHub는 Zcash 커뮤니티 구성원들이 설립한 완전히 독립적이고 오픈소스 프로젝트입니다. 이 GitHub 저장소에 포함된 내용은 금융 또는 투자 조언으로 간주되어서는 안 되며, 정보 제공 목적일 뿐입니다.**

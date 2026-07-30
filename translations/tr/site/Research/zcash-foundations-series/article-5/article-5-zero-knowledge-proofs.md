@@ -1,7 +1,7 @@
 # Sıfır Bilgi Kanıtları: Nedenini Söylemeden Haklı Olduğunu Kanıtlamak
 ##### [Annkkitaaa](https://github.com/Annkkitaaa) tarafından yapılan özgün araştırma
 
-![alt text](/content-images/image-23-71534bece9.webp)
+![alt text](image-23.png)
 
 ### Dünyanın asla göremeyeceği şeyi doğrulamasına izin veren perde
 
@@ -40,7 +40,7 @@ Bu mağara hikâyesi, her sıfır bilgi kanıtının sağlaması gereken **üç 
 
 ## 3. Üç güvence
 
-![alt text](/content-images/image-24-b559d31849.webp)
+![alt text](image-24.png)
 
 | Güvence | Mağara hikâyesinde | Zcash'te |
 |---|---|---|
@@ -62,7 +62,7 @@ Köprü, bu serinin tamamını birbirine bağlayan bir fikirdir:
 
 Devreyi, *yalnızca ifade doğruysa hepsi birlikte sağlanan* aritmetik kısıtların bir listesi olarak düşünün. Her şeyin kontrolü geçmesini sağlayan özel girdileriniz, yani note'unuz, anahtarınız, Merkle yolunuz, **tanık (witness)** olarak adlandırılır.
 
-![alt text](/content-images/image-25-2479377e43.webp)
+![alt text](image-25.png)
 
 Bu yüzden Makale 1'i sonlu alanlara ve Makale 3'ü ZK-dostu hash'lere ayırdık: devre alan aritmetiğiyle konuşur, dolayısıyla ifadenin içindeki her işlem (hash'leme ve Makale 4'teki Merkle tırmanışı dâhil) bu şekilde ifade edilmek zorundadır. Her işlem bu dilde ne kadar ucuz ifade edilirse, kanıt da o kadar küçük ve hızlı olur.
 
@@ -90,7 +90,7 @@ Bedava öğle yemeği yoktur. Birçok SNARK, devre için herkese açık parametr
 
 Bu geride kalan sırra **toxic waste** lakabı verilir. Onu güvenli biçimde bertaraf etmek için Zcash, birçok bağımsız katılımcının rastgelelik katkısında bulunduğu ayrıntılı **çok taraflı törenler** yürüttü; içlerinden *yalnızca birinin bile* kendi parçasını dürüstçe yok etmesi yeterlidir, çünkü bu durumda toxic waste geri kazanılamaz.
 
-![alt text](/content-images/image-26-cdad6625cd.webp)
+![alt text](image-26.png)
 
 Daha yeni sistemler bu gereksinimi tamamen ortadan kaldırır; Zcash'in zaman içinde kanıt sistemini geliştirmesinin en büyük nedenlerinden biri de budur.
 

@@ -5,7 +5,7 @@
 Сьогодні маємо дещо цікаве!  
 Протокол **CryptoNote** забезпечує сильну конфіденційність на рівні блокчейна. Сьогодні ми вивчимо всі його ключові особливості та те, як його було реалізовано в кількох відомих проєктах, орієнтованих на приватність.
 
-![Вступ до CryptoNote](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
+![Вступ до CryptoNote](https://pbs.twimg.com/media/FrXr5P8WIAAvx36.jpg)
 
 ---
 
@@ -35,7 +35,7 @@
 
 **Розмір кільця** суттєво впливає на набір анонімності. Більші кільця забезпечують кращу приватність.
 
-![Пояснення кільцевих підписів](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
+![Пояснення кільцевих підписів](https://pbs.twimg.com/media/FrXteGHXgAANE0F.png)
 
 **Порівняння із Zcash**:  
 Набір анонімності Zcash — це загальна кількість транзакцій, *коли-небудь* здійснених у певному shielded pool (що значно більше за типові розміри кілець у CryptoNote).
@@ -48,7 +48,7 @@
 
 Замість того щоб приховувати лише відправника, Ring CT також **обфускує суми транзакцій** між відправником і отримувачем.
 
-![Діаграма Ring CT](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
+![Діаграма Ring CT](https://pbs.twimg.com/media/FrXuivgWYAAze7B.png)
 
 Вона використовує:
 - криптографію на еліптичних кривих
@@ -59,7 +59,7 @@
 
 **Stealth Addresses** також додають одноразові адреси для отримувача.
 
-![Stealth Addresses + докази](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
+![Stealth Addresses + докази](https://pbs.twimg.com/media/FrXut5aWAAMhuRb.jpg)
 
 ---
 
@@ -74,7 +74,7 @@ CryptoNote прагне створити справедливішу систем
 2. Виконати численні операції читання/запису на scratchpad
 3. Хешувати весь scratchpad, щоб отримати фінальне значення
 
-![Майнінг CryptoNight](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
+![Майнінг CryptoNight](https://pbs.twimg.com/media/FrXvNs3XsAA37LG.jpg)
 
 (Примітка: відтоді Monero відійшов від CryptoNight до інших алгоритмів.)
 
@@ -86,7 +86,7 @@ CryptoNote прагне створити справедливішу систем
 
 Це створює набагато плавнішу криву емісії з часом.
 
-![Крива динамічної емісії](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
+![Крива динамічної емісії](https://pbs.twimg.com/media/FrXv8wpXoAEjUxW.png)
 
 **Зв’язок із Zcash**:  
 Розробники Zcash обговорювали впровадження плавнішої кривої емісії в майбутньому, потенційно через "Zcash Posterity Fund".

@@ -2,7 +2,7 @@
 
 
 
-! [img1](/content-images/SJOlnt-ceg-34468cfecd.webp)
+! [img1](https://hackmd.io/_uploads/SJOlnt-ceg.png)
 
 ---
 
@@ -11,7 +11,7 @@ Kuzindua ** programu Phantom ** na bonyeza juu ya ** kubadilishana ** kifungo,
 au tembelea **[solswap.org](https://solswap.org/)** kutoka kivinjari yako Phantom. 
 
 
-! [img2](/content-images/S1Cp-KWqxe-ab70e844b9.webp)
+! [img2](https://hackmd.io/_uploads/S1Cp-KWqxe.jpg)
 
 ---
 
@@ -19,7 +19,7 @@ au tembelea **[solswap.org](https://solswap.org/)** kutoka kivinjari yako Phanto
 - Kuchagua ** chanzo yako ya mtandao ** (kwa mfano, * Ethereum * au * Solana *) kisha amana kwa swapping. 
 
 
-! [img3](/content-images/S1SaGYZ9xx-2a27ccdd47.webp)
+! [img3](https://hackmd.io/_uploads/S1SaGYZ9xx.jpg)
 
 - Chagua ishara ya msingi kama ** SOL, USDT, au USDC **. 
 - Chagua ** ZEC ** kama yako ** alama ya marudio **. 
@@ -27,7 +27,7 @@ au tembelea **[solswap.org](https://solswap.org/)** kutoka kivinjari yako Phanto
 
 
 
-! [img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
+! [img4](https://hackmd.io/_uploads/ry4QQF-5gx.jpg)
 
 ---
 
@@ -36,7 +36,7 @@ au tembelea **[solswap.org](https://solswap.org/)** kutoka kivinjari yako Phanto
 - Phantom itaonyesha ** makadirio kupokea kiasi ** baada ya ada. 
 
 
-! [img5](/content-images/B1U1NYW5xe-58cf150668.webp)
+! [img5](https://hackmd.io/_uploads/B1U1NYW5xe.jpg)
 
 ---
 
@@ -63,7 +63,7 @@ Bonyeza ** Swap Settings** kwa:
 - Bonyeza ** Swap Sasa ** kuanzisha shughuli. 
 
 
-! [img6](/content-images/HkU1UKZ5gx-e068ea8d5a.webp)
+! [img6](https://hackmd.io/_uploads/HkU1UKZ5gx.jpg)
 
 ---
 
@@ -72,6 +72,6 @@ Bonyeza ** Swap Settings** kwa:
 - Kwa kubadilishana kwa msalaba, tumia kitambulisho chako cha ** shughuli ** na ** Li.Fi Scanner ** kwa sasisho za wakati halisi. 
 
 
-! [img7](/content-images/S1NBwKbcxe-5b7d11f5c1.webp)
+! [img7](https://hackmd.io/_uploads/S1NBwKbcxe.jpg)
 
 ## Next unaweza kuanza kulinda yako [ZEC na mwongozo huu](https://zechub.wiki/guides/using-zec-privately)

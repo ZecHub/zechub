@@ -10,7 +10,7 @@
 
 Ці ключі розроблені для роботи разом із вашим іменем користувача та паролем, щоб гарантувати, що лише авторизовані користувачі можуть отримати доступ до ваших облікових записів і даних. Вони бувають у різних формах, таких як флешнакопичувачі, NFC-картки або Bluetooth-пристрої.
 
-![Hardware Security Key Example](/content-images/1dff66a4-d8e6-483f-9a1e-065d3974d665-a4c6c73e00.webp)
+![Hardware Security Key Example](https://github.com/ZecHub/zechub/assets/81990132/1dff66a4-d8e6-483f-9a1e-065d3974d665)
 
 ## Як працює апаратний ключ безпеки
 
@@ -26,7 +26,7 @@
 
 Ні, апаратні ключі безпеки існують у багатьох форматах і можуть бути несумісними з усіма пристроями та операційними системами. Перед купівлею ключа переконайтеся, що він сумісний із вашим пристроєм та операційною системою.
 
-![Hardware Security Key Form Factors](/content-images/a830c435-ad20-4183-b381-475afe1089b3-5537cd7388.webp)
+![Hardware Security Key Form Factors](https://github.com/ZecHub/zechub/assets/81990132/a830c435-ad20-4183-b381-475afe1089b3)
 
 ## Чи можна використовувати апаратний ключ безпеки для кількох облікових записів?
 
@@ -42,7 +42,7 @@
 
 **Yubico YubiKey 5 NFC**
 
-![Yubico YubiKey 5 NFC](/content-images/bf1ac95e-7277-4559-b5ef-63117b66971b-3aa542aba7.webp)
+![Yubico YubiKey 5 NFC](https://github.com/ZecHub/zechub/assets/81990132/bf1ac95e-7277-4559-b5ef-63117b66971b)
 
 Вироблений компанією Yubico, співрозробником відкритого стандарту автентифікації FIDO U2F, який використовують багато ключів безпеки, YubiKey 5 NFC є надійним рішенням для захисту ваших пристроїв. Як випливає з його назви, він працює через USB A (або USB C за допомогою адаптера) чи NFC.  
 Він пропонує сумісність «із коробки» з багатьма сервісами, включно з Google Chrome, Facebook, Dropbox, LastPass, 1Password та іншими. YubiKey 5 компактний, міцний і легкий — до того ж він водонепроникний.  
@@ -50,7 +50,7 @@
 
 **Thetis Fido U2F Security Key**
 
-![Thetis Fido U2F Security Key](/content-images/b83e42e5-bba6-4175-ad6c-d64972ef54ef-a2ef17a10d.webp)
+![Thetis Fido U2F Security Key](https://github.com/ZecHub/zechub/assets/81990132/b83e42e5-bba6-4175-ad6c-d64972ef54ef)
 
 Якщо ви шукаєте найкраще співвідношення ціни та якості серед ключів безпеки, ця модель від Thetis має бути у вашому списку. Вона не має вбудованого Bluetooth (він доступний у дорожчій моделі) і підтримує лише стандарт FIDO U2F, тож сумісності з UAF або OTP немає. Однак вона забезпечить безпечний доступ до вебсайтів, якщо ви використовуєте Chrome або Opera як браузер у Windows, macOS або Linux.  
 Зручно, що цей доступний ключ безпеки має компактну складну конструкцію з поворотним алюмінієвим корпусом, який захищає роз’єм від можливих пошкоджень під час транспортування. Він доступний у трьох привабливих кольорах: чорному, золотому та сріблястому.  
@@ -58,7 +58,7 @@
 
 **CryptoTrust OnlyKey**
 
-![CryptoTrust OnlyKey](/content-images/13be6ecc-227e-498c-8a36-6d52c023cd78-06e3e924dc.webp)
+![CryptoTrust OnlyKey](https://github.com/ZecHub/zechub/assets/81990132/13be6ecc-227e-498c-8a36-6d52c023cd78)
 
 Як випливає з назви, OnlyKey має кілька корисних функцій, яких бракує його конкурентам. Завдяки вбудованій клавіатурі, яка може обходити кейлогери, що потрапляють на комп’ютери, він може захищати онлайн-акаунти, якщо комп’ютер або вебсайт скомпрометовано. Він підтримує кілька методів 2FA, зокрема FIDO 2 U2F, Yubico OTP і TOTP.  
 Хоча це не найкращий менеджер паролів для масового користувача, OnlyKey може зберігати 24 OTP-акаунти, 24 паролі та 24 імені користувача/URL на одному ключі. Ця функція досить зручна, якщо ви не хочете запам’ятовувати багато паролів і бажаєте, щоб ключ робив це за вас.  
@@ -71,22 +71,22 @@
 **Крок 1**  
 Увійдіть у свій обліковий запис Gmail і натисніть **Керувати обліковим записом Google**
 
-![Google Account - Manage Account](/content-images/995fc955-791a-4456-9218-7e5964da48b5-31c64640b2.webp)
+![Google Account - Manage Account](https://github.com/ZecHub/zechub/assets/81990132/995fc955-791a-4456-9218-7e5964da48b5)
 
 **Крок 2**  
 Натисніть **Безпека**
 
-![Google Security Settings](/content-images/246db235-6596-41ff-bd7a-f8ee4f80962b-340193c2c3.webp)
+![Google Security Settings](https://github.com/ZecHub/zechub/assets/81990132/246db235-6596-41ff-bd7a-f8ee4f80962b)
 
 **Крок 3**  
 Натисніть **2-етапна перевірка**
 
-![2-Step Verification Screen](/content-images/19cd202a-1a70-47e6-a02a-aa24f6e199fa-a9fcb911ce.webp)
+![2-Step Verification Screen](https://github.com/ZecHub/zechub/assets/81990132/19cd202a-1a70-47e6-a02a-aa24f6e199fa)
 
 **Крок 4**  
 Виберіть **Показати більше варіантів**
 
-![Show More Options](/content-images/2ade9531-1cf6-48e8-b9a8-178d41a4cd30-b1e9ea1400.webp)
+![Show More Options](https://github.com/ZecHub/zechub/assets/81990132/2ade9531-1cf6-48e8-b9a8-178d41a4cd30)
 
 **Крок 5**  
 Тепер виберіть **Ключ безпеки**, а потім натисніть **Далі**

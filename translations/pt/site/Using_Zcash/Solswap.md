@@ -2,7 +2,7 @@
 
 
 
-![img1](/content-images/SJOlnt-ceg-34468cfecd.webp)
+![img1](https://hackmd.io/_uploads/SJOlnt-ceg.png)
 
 ---
 
@@ -11,7 +11,7 @@ Abra o **app Phantom** e toque no botão **Swap**,
 ou visite **[solswap.org](https://solswap.org/)** no navegador da Phantom.  
 
 
-![img2](/content-images/S1Cp-KWqxe-ab70e844b9.webp)
+![img2](https://hackmd.io/_uploads/S1Cp-KWqxe.jpg)
 
 ---
 
@@ -19,7 +19,7 @@ ou visite **[solswap.org](https://solswap.org/)** no navegador da Phantom.
 - Escolha sua **rede de origem** (por exemplo, *Ethereum* ou *Solana*) e então faça o depósito para a troca.  
 
 
-![img3](/content-images/S1SaGYZ9xx-2a27ccdd47.webp)
+![img3](https://hackmd.io/_uploads/S1SaGYZ9xx.jpg)
 
 - Selecione um token base como **SOL, USDT ou USDC**.  
 - Escolha **ZEC** como seu **token de destino**.  
@@ -27,7 +27,7 @@ ou visite **[solswap.org](https://solswap.org/)** no navegador da Phantom.
 
 
 
-![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
+![img4](https://hackmd.io/_uploads/ry4QQF-5gx.jpg)
 
 ---
 
@@ -36,7 +36,7 @@ ou visite **[solswap.org](https://solswap.org/)** no navegador da Phantom.
 - A Phantom exibirá um **valor estimado de recebimento** após as taxas.  
 
 
-![img5](/content-images/B1U1NYW5xe-58cf150668.webp)
+![img5](https://hackmd.io/_uploads/B1U1NYW5xe.jpg)
 
 ---
 
@@ -63,7 +63,7 @@ Toque em **Swap Settings** para:
 - Toque em **Swap Now** para iniciar a transação.  
 
 
-![img6](/content-images/HkU1UKZ5gx-e068ea8d5a.webp)
+![img6](https://hackmd.io/_uploads/HkU1UKZ5gx.jpg)
 
 ---
 
@@ -72,6 +72,6 @@ Toque em **Swap Settings** para:
 - Para swaps cross-chain, use seu **ID da transação** com o **Li.Fi Scanner** para atualizações em tempo real. 
 
 
-![img7](/content-images/S1NBwKbcxe-5b7d11f5c1.webp)
+![img7](https://hackmd.io/_uploads/S1NBwKbcxe.jpg)
 
 ## Em seguida, você pode começar a proteger seus [ZEC com este guia](https://zechub.wiki/guides/using-zec-privately)

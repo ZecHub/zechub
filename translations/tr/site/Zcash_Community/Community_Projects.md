@@ -67,7 +67,7 @@ Zlink, Zcash ekosistemi hakkında ihtiyaç duyduğunuz herhangi bir bağlantıy�
 Zcash en Español ve ZKAV Club tarafından geliştirilen, Zcash topluluğunu bilgilendirmek, eğitmek ve eğlendirmek için çevrimiçi bir radyo istasyonu.
 
 ## Zimppy.xyz
-[![Zimppy.xyz Logo](/content-images/og-40771e1849.webp)](https://zimppy.xyz/)
+[![Zimppy.xyz Logo](https://github.com/betterclever/zimppy/blob/main/site/og.png?raw=true)](https://zimppy.xyz/)
 
 Zimppy, yapay zekâ ajanları ve otomatik makineden makineye iş akışları için tasarlanmış, Zcash için Machine Payment Protocol (MPP) ödeme yöntemidir. Zincir üstünde bir kez para yatırın, ardından her istek için blokzincir etkileşimi olmadan sınırsız anlık bearer isteği yapın. Tamamen shielded Zcash (Orchard) ödemelerini destekler — gönderen, alıcı ve miktar şifreli kalır.
 
@@ -76,7 +76,7 @@ Zimppy, yapay zekâ ajanları ve otomatik makineden makineye iş akışları iç
 ---
 
 ## CipherScan
-[![CipherScan](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
+[![CipherScan](https://github.com/Kenbak/cipherscan/blob/main/public/logo-small.png?raw=true)](https://cipherscan.app/)
 
 CipherScan, gizliliği önceleyen bir Zcash blokzinciri gezginidir. Next.js 15, TypeScript ve Rust/WASM ile oluşturulmuştur; kullanıcıların sorgu meta verilerini sızdırmadan blokları, işlemleri ve adresleri aramasını sağlar. Gözetim olmadan blokzincir şeffaflığına ihtiyaç duyan, gizlilik bilincine sahip kullanıcılar için tasarlanmıştır.
 
@@ -85,7 +85,7 @@ CipherScan, gizliliği önceleyen bir Zcash blokzinciri gezginidir. Next.js 15, 
 ---
 
 ## ZcashNames
-[![ZcashNames](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
+[![ZcashNames](https://github.com/zcashme/zcashnames/blob/main/public/brandkit/zcashnames-brand-banner-primary-logo-monochrome-green-monochrome-green-background-377x403.png?raw=true)](https://www.zcashnames.com/)
 
 ZcashNames, Zcash shielded adresleri için insan tarafından okunabilir adlar sağlar. Kullanıcılar uzun bir z-address paylaşmak yerine, Unified Address adreslerine çözümlenen akılda kalıcı bir ad (ör. `alice.zec`) kaydeder. Ham adresleri açığa çıkarmadan özel olarak ZEC almayı kolaylaştırır.
 
@@ -102,20 +102,20 @@ Gizlilik, öz egemenlik ve cypherpunk değerlerine adanmış bir şirket. Dijita
 ---
 
 ## Cipherpay
-[![Cipherpay](/content-images/logo-mark-b8d7c702b0.webp)](https://www.cipherpay.app/en)
+[![Cipherpay](https://github.com/atmospherelabs-dev/cipherpay-web/blob/main/public/logo-mark.png?raw=true)](https://www.cipherpay.app/en)
 
 CipherPay, internet için özel ödemeleri mümkün kılar. Dakikalar içinde Zcash kabul edin — gözetimsiz, KYC gerekmez. İşletmeler ZEC'yi doğrudan shielded adreslere alır; böylece hem alıcının hem satıcının finansal gizliliği korunur.
 
 [Siteyi Ziyaret Et](https://www.cipherpay.app/en)
 
 ## Cipherscan
-[![Cipherscan](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
+[![Cipherscan](https://github.com/Kenbak/cipherscan/blob/main/public/logo-small.png?raw=true)](https://cipherscan.app/)
 
 Zcash Blockchain Explorer 🛡️ Blokzinciri çözümleyin. Gizlilik şeffaflıkla buluşuyor.
 [Siteyi Ziyaret Et](https://cipherscan.app/)
 
 ## ZcashNames
-[![ZcashNames](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
+[![ZcashNames](https://github.com/zcashme/zcashnames/blob/main/public/brandkit/zcashnames-brand-banner-primary-logo-monochrome-green-monochrome-green-background-377x403.png?raw=true)](https://www.zcashnames.com/)
 
 Shielded adresler
 için
@@ -124,14 +124,14 @@ kişisel isimler. Özel işlem yapmak için ihtiyacınız olan tek şey bir isim
 [Siteyi Ziyaret Et](https://www.zcashnames.com/)
 
 ## Zero-knowledge Audiovisual Club
-[![Zero-knowledge Audiovisual Club](/content-images/images-563ef94ac0.webp)](https://zkav.club/#additional-reading)
+[![Zero-knowledge Audiovisual Club](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS95FffUJjEeUHAZZ04xRHp9FW1Z0Gzef2UUg&s?raw=true)](https://zkav.club/#additional-reading)
 
 Açık kaynaklı ve merkeziyetsiz teknoloji toplulukları için gizliliği önceleyen görsel-işitsel (AV) kolektifi. Topluluk etkinliklerinde eğitim veriyor, birlikte üretiyor ve gönüllü AV desteği sunuyoruz.
 
 [Siteyi Ziyaret Et](https://zkav.club/#additional-reading)
 
 ## Shielded Labs
-[![Shielded Labs](/content-images/68747470733a2f2f736869656c6465646c616273-e449ae6540.webp)](https://shieldedlabs.net/)
+[![Shielded Labs](https://camo.githubusercontent.com/0244df9f30a80c45adfd80c448985f17a6c71cdc9fd0eccd7bf47dec157c0dd4/68747470733a2f2f736869656c6465646c6162732e6e65742f77702d636f6e74656e742f75706c6f6164732f323032342f31312f66617669636f6e5f37325f322e706e67?raw=true)](https://shieldedlabs.net/)
 
 Shielded Labs, İsviçre merkezli, bağışlarla finanse edilen bağımsız bir Zcash destek kuruluşudur. Zcash ekosisteminde Development Fund veya blok ödüllerinden hiçbir zaman doğrudan ya da dolaylı fon almamış ilk kuruluştur.
 

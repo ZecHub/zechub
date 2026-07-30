@@ -22,12 +22,12 @@
 1. 打开 **Zkool app** 并进入 **New Account**。
 
 
-![img1](/content-images/ee906e49-361a-49b6-9484-904897fe2e3f-074e400a9c.webp)
+![img1](https://github.com/user-attachments/assets/ee906e49-361a-49b6-9484-904897fe2e3f)
 
 3. 输入一个 **Account Name**（例如 Anabelle）。  
    
 
-![img2](/content-images/e9c325d3-8507-433a-a0c6-6e8c1ea2a254-a637810ed5.webp)
+![img2](https://github.com/user-attachments/assets/e9c325d3-8507-433a-a0c6-6e8c1ea2a254)
 
 
 4. 如有需要，可选择切换 **Use Internal Change** 或 **Restore Account**。
@@ -36,7 +36,7 @@
 5. 创建完成后，该账户会显示在你的 **Account List** 中。  
 
 
-![img3](/content-images/c446cbca-fb3e-49b9-b1d4-fd727cd1b0fb-971cf76b33.webp)
+![img3](https://github.com/user-attachments/assets/c446cbca-fb3e-49b9-b1d4-fd727cd1b0fb)
 
 
 ## 2. 接收资金
@@ -55,7 +55,7 @@
 选择你想使用的类型并分享该地址，以接收资金。  
 
 
-![img4](/content-images/c9de5dfe-e9d7-423d-8d90-35c1a08ffd5d-a0d6a4e7b7.webp)
+![img4](https://github.com/user-attachments/assets/c9de5dfe-e9d7-423d-8d90-35c1a08ffd5d)
 
 
 
@@ -66,7 +66,7 @@
 1. 前往 **Recipient** 部分。  
 
 
-![img5](/content-images/9f3a03b9-dd56-450c-a8dc-4370f9289138-3217d846b7.webp)
+![img5](https://github.com/user-attachments/assets/9f3a03b9-dd56-450c-a8dc-4370f9289138)
 
 
 3. 输入**收款人地址**。  
@@ -79,7 +79,7 @@
 完成后，余额会在你的账户列表中更新。  
 
 
-![img6](/content-images/6e6da76b-cd18-4567-a5c0-74f07ddefc64-78dc3362dc.webp)
+![img6](https://github.com/user-attachments/assets/6e6da76b-cd18-4567-a5c0-74f07ddefc64)
 
 
 ## 4. 执行多重签名交易：设置分布式密钥生成（Multisig）
@@ -100,7 +100,7 @@ Zkool 中的多重签名使用**分布式密钥生成（DKG）**，以确保多�
 选择**资金账户**。
   
 
-![img7](/content-images/8a90ca85-5439-4937-b16d-a570e69d55f0-1477202a57.webp)
+![img7](https://github.com/user-attachments/assets/8a90ca85-5439-4937-b16d-a570e69d55f0)
 
 
 
@@ -117,7 +117,7 @@ Zkool 中的多重签名使用**分布式密钥生成（DKG）**，以确保多�
 等待所有参与者交换 **round 1** 和 **round 2** 数据包。  
 
 
-![img8](/content-images/cdaf6e00-3cb0-4774-8a96-5ded19bf31c4-b6bb50bbab.webp)
+![img8](https://github.com/user-attachments/assets/cdaf6e00-3cb0-4774-8a96-5ded19bf31c4)
 
 
 
@@ -125,7 +125,7 @@ Zkool 中的多重签名使用**分布式密钥生成（DKG）**，以确保多�
 完成后，将生成一个**共享地址**。  
 
 
-![img9](/content-images/741d1bc6-0102-4e67-bb83-9a1c184bd747-a508ea0371.webp)
+![img9](https://github.com/user-attachments/assets/741d1bc6-0102-4e67-bb83-9a1c184bd747)
 
 
 

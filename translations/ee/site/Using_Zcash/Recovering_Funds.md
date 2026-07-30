@@ -28,7 +28,7 @@ Wonya YWallet be enye tiatia nyuitɔwo dometɔ ɖeka hena ga siwo womate ŋu akp
 
 4. Le ɖusime le etame la, zi dzesi si nye plus dzi 
 
-![Tsɔ kpe ɖe dzesi ƒe dzesi ŋu](/content-images/plus-3ca2c1649a.webp)
+![Tsɔ kpe ɖe dzesi ƒe dzesi ŋu](https://i.postimg.cc/xJbVz7gB/plus.png)
 
 5. Trɔ asi le 'Gbugbɔ gbugbɔ akɔnta aɖe ɖo'. 
 
@@ -46,7 +46,7 @@ Wonya YWallet be enye tiatia nyuitɔwo dometɔ ɖeka hena ga siwo womate ŋu akp
 
 4. Ŋlɔ wò nuku ƒe nyagbe (Gap limit scans hena adrɛs bubu siwo nukua wɔ)
 
-![Sweep Gawo ƒe screen](/content-images/sweep-6c956553a9.webp)
+![Sweep Gawo ƒe screen](https://i.postimg.cc/3055CBcN/sweep.png)
 
 5. Ŋlɔ Asixɔxɔ ƒe Ta la ɖe teƒe si nèdi be yeazã (Exchanges use Transparent) .
 

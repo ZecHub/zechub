@@ -1,7 +1,7 @@
 # Finite Fields: Nnɔmba Nhyehyɛe a Cryptography Te Ase Wɔ Mu
 ##### Mfitiase Nhwehwɛmu a efi [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt nkyerɛwee](/content-images/image-5-6e8a8950f8.webp)
+![alt nkyerɛwee](image-5.png)
 
 ### Nea enti a "wrapping around" yɛ Zcash kokoam fapem
 
@@ -38,7 +38,7 @@ Wode afuw a anohyeto wom di dwuma dedaw da biara da. Ɛyɛ dɔn a ɛwɔ wo fasu 
 
 Wɔ dɔnhwerew 12 dɔn so no, nɔma *bɔ ho*. Fi ase nnɔn 10, fa nnɔnhwerew 5 ka ho, na woankɔ fam wɔ "nnɔn 15," wo si fam wɔ **nnɔn 3**. Dɔn no wɔ gyinabea dumien pɛ, na sɛ wokan twa soro a, ɛsan kɔ mfiase kɛkɛ.
 
-![alt nkyerɛwee](/content-images/image-9-30b39f4cc5.webp)
+![alt nkyerɛwee](image-9.png)
 
 Nneɛma abiɛsa na esisii nkyɛe a ɛno ne asɛm yi mu asɛm nyinaa:
 
@@ -107,7 +107,7 @@ Saa kasamu a ɛto so abien no yɛ ɔsɛe kɛse ma akontaabu. Nneɛma abien a ɛn
 
 Sɛnea wɔkyerɛ ase no, prime nni nneɛma a ɛtete saa. Enti mod a prime, zero divisors biara ntumi mpue, element biara a ɛnyɛ zero nya reciprocal a ɛho tew, na nhyehyɛe no yɛ field a ɛfata.
 
-![alt nkyerɛwee](/content-images/image-8-573914db92.webp)
+![alt nkyerɛwee](image-8.png)
 
 > **One-liner a wotumi san de di dwuma ma wo nsɛm:** *prime modulus in, clean division out.*
 
@@ -159,7 +159,7 @@ Afuo a ɛwɔ anohyetoɔ yɛ, wɔ kasasin baako mu no, **agorubea a wɔato mu pɛ
 - **Orchard** (mprempren shielded design) de curves mmienu a wɔfrɛ no **Pallas ne Vesta** ("Pasta" curves) di dwuma, a ne mfuo de primes a ne tenten bɛyɛ **255 bits** di dwuma.
 - **note commitment**, **nullifier**, ne akontabuo a ɛwɔ **zero-knowledge proof** a ɛfiri Ahyɛdeɛ 0 mu no nyinaa yɛ, wɔ aseɛ hɔ, nneɛma a ɛwɔ saa afuo a ɛwɔ anohyetoɔ yi mu baako mu. Sɛ protocol no ka sɛ "compute saa commitment yi," ɛkyerɛ sɛ "yɛ saa arithmetic mod yi sɛ prime."
 
-![alt nkyerɛwee](/content-images/image-7-c81fe982f0.webp)
+![alt nkyerɛwee](image-7.png)
 
 Enti Ahyɛde 0 asɛmmisa a wɔabue ano no mmuae, *"ɛhe na kokoam aduannoa ho nyansahyɛ ahorow no fi?"*, fi ase wɔ ha: **biribiara fi ase sɛ akontaabu wɔ afuw a ɛwɔ anohyeto mu.** Wɔ asɛm a edi hɔ no mu no yɛbɛfa saa afuw no na yɛasi nneɛma ankasa, nsɛntitiriw wɔ elliptic curve so, a ɛbɛyɛ nsafe ne bɔhyɛ ahorow.
 

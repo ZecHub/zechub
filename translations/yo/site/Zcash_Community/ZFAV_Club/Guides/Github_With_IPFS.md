@@ -26,7 +26,7 @@ Lati bẹrẹ, yan ibi ipamọ Git ti o fẹ lati gbalejo & ṣe ẹda rẹ:
 
 Ṣiṣẹ Àṣẹ: "Git clone https://github.com/zechub/zechub"
 
-![](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
+![](https://i.ibb.co/HxFX37b/Screenshot-from-2023-05-20-14-14-46.png)
 
 
 Wàyí o, kí á ṣe é ní ìmúrasílẹ̀ láti ṣe àdàkọ rẹ̀ nípasẹ̀ IPFS.
@@ -54,11 +54,11 @@ $ pwd
 
 $ ipfs ṣafikun -r .
 
-![](/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp)
+![](https://i.ibb.co/LJgK1q3/Screenshot-from-2023-05-20-14-22-38.png)
 
 Awọn esi CID: Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
 
-![](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
+![](https://i.ibb.co/GvhCLwn/Screenshot-from-2023-05-20-14-26-34.png)
 
 Ó dára gan-an! Wàyí o, ìpamọ́ rẹ ti wà lórí ìkànnì náà.
 

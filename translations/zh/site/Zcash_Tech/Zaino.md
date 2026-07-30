@@ -17,13 +17,13 @@ Rust 是一种现代、稳健且安全的语言，能够让 Zcash 为未来的�
 ## 一些展示 Zaino 工作方式的图表
 
 ### Zaino 内部架构
-![Zaino 内部架构](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
+![Zaino 内部架构](https://i.ibb.co/mRTNtfy/image-2025-01-02-190143429.png)
 
 ### Zaino 在线服务架构
-![Zebra 在线服务架构](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
+![Zebra 在线服务架构](https://i.ibb.co/x7dbRY8/image-2025-01-02-190349017.png)
 
 ### Zaino 系统架构
-![Zaino 系统架构](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
+![Zaino 系统架构](https://i.ibb.co/wwL0XZv/image-2025-01-02-190448037.png)
 
 
 ## 我可以在哪里了解更多？

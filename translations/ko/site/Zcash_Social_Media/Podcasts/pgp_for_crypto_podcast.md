@@ -3,7 +3,7 @@
 </a>
 
 # 암호화폐를 위한 PGP* 팟캐스트
-![bannerpgp](/content-images/221758326-06cea3f5-4c9e-4466-b9ee-738546-01f88aec39.webp)
+![bannerpgp](https://user-images.githubusercontent.com/81990132/221758326-06cea3f5-4c9e-4466-b9ee-73854628a6aa.png)
 
 "암호화폐를 위한 PGP* (Pretty Good Policy) 팟캐스트"는 Electric Coin Co.의 프로젝트입니다.
 

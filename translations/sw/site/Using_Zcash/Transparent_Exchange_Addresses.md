@@ -8,7 +8,7 @@ Mantiki ni kama ifuatavyo: Baada ya kugundua anwani ya TEX, mkoba sambamba decod
 
 Pendekezo la kiufundi kwa anwani za TEX imeelezwa katika Zcash [ZIP 320](https://zips.z.cash/zip-0320), ambayo inafafanua aina ya anwani peke kwa kupokea fedha kutoka anwani Uwazi.
 
-[TEX]](/content-images/ZashiTex-b1cbec5f07.webp)
+[TEX]](https://i.ibb.co/8m7HPqV/ZashiTex.png)
 
 
 Ingawa TEX anwani si sana kupitishwa, Zcash watumiaji inaweza kuwa zinahitajika kutumia yao hatimaye.

@@ -8,7 +8,7 @@ Zcash의 TEX 주소는 독특한 유형의 수신 주소를 나타냅니다. "Tr
 
 TEX 주소에 대한 기술적 제안은 Zcash [ZIP 320](https://zips.z.cash/zip-0320)에서 정의되어 있으며, 이는 투명 주소로부터 자금을 수신하기 위해 독점적으로 사용되는 주소 유형을 설명합니다.
 
-![TEX](/content-images/ZashiTex-b1cbec5f07.webp)
+![TEX](https://i.ibb.co/8m7HPqV/ZashiTex.png)
 
 TEX 주소는 아직 널리 채택되지 않았지만, Zcash 사용자는 결국 이를 사용해야 할 수도 있습니다.
 

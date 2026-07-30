@@ -101,7 +101,7 @@ Zcash Community Forum वह स्थान है जहाँ Zcash समु
 समुदाय उत्साही है और नए सदस्यों का बहुत स्वागत करता है। कभी-कभी बातचीत तकनीकी हो सकती है, लेकिन चिंता न करें! यदि आपके पास कभी कोई प्रश्न हो, तो आप पूछ सकते हैं।
 
 <a href="">
-    <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="/content-images/c1d40441-4336-4754-b3bf-5a746b19a9d5-6d2eca6cbf.webp" />
+    <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="https://github.com/user-attachments/assets/c1d40441-4336-4754-b3bf-5a746b19a9d5" />
 </a>
 
 ---

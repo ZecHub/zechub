@@ -37,25 +37,25 @@ __Ywallet/Zingo/Zashi/eZcash 열기__: 원하는 지갑을 기기에서 실행�
 
 Ywallet에서는 오른쪽 상단 모서리에 있는 톱니바퀴 아이콘으로 이동하여 Zcash 탭으로 들어갑니다. 
 
-![SmartSelect_20250313_105128](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
+![SmartSelect_20250313_105128](https://github.com/user-attachments/assets/b0a2910b-dbdf-4292-8e69-af5a386aa183)
 
 #### Zingo:
 
 Zingo에서는 왼쪽 상단 모서리에 있는 해amburger 메뉴에서 설정을 클릭하고 아래로 스크롤합니다.
 
-![SmartSelect_20250313_105737_Zingo](/content-images/ea8f7672-e644-41a5-a422-db131740404a-2626f5fa79.webp)
+![SmartSelect_20250313_105737_Zingo](https://github.com/user-attachments/assets/ea8f7672-e644-41a5-a422-db131740404a)
 
 #### Zashi:
 
 Zashi에서는 오른쪽 상단 모서리에 있는 톱니바퀴 아이콘으로 이동하여 고급 설정을 선택하고, 그 후 서버를 선택합니다.
 
-![SmartSelect_20250313_110200_Zashi](/content-images/5a9d050a-8308-4cc2-907e-513072066aed-0bd414d520.webp)
+![SmartSelect_20250313_110200_Zashi](https://github.com/user-attachments/assets/5a9d050a-8308-4cc2-907e-513072066aed)
 
 #### eZcash
 
 eZcash에서는 왼쪽 상단 모서리에 있는 해amburger 메뉴에서 설정을 클릭하고, 고급 설정으로 이동합니다.
 
-![SmartSelect_20250313_110616](/content-images/655c0172-61a0-4322-b8cf-4eee4bb53b51-0b93df2e71.webp)
+![SmartSelect_20250313_110616](https://github.com/user-attachments/assets/655c0172-61a0-4322-b8cf-4eee4bb53b51)
 
 
 ## 결론

@@ -1,7 +1,7 @@
 # Jinsi Usafirishaji wa Zcash Unavyofanya Kazi
 ##### Utafiti wa awali kutoka [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [ alt maandishi](/content-images/image-fedc371488.webp)
+! [ alt maandishi](image.png)
 
 ### Intuition kabla ya hesabu: hakuna-formula kutembea kwa njia ya malipo binafsi
 
@@ -46,7 +46,7 @@ Fedha inaweza hata kuvuka mpaka kati yao: kuhamisha fedha * katika * ulimwengu u
 
 Ulimwengu wa uwazi ni "Bitcoin tayari unaelewa kwa kiasi kikubwa. " Ni ** ulimwengu ulinzi ** ambayo ina cryptography zote nzuri, na kwamba ni dunia tu mfululizo huu anajali kuhusu.
 
-! [ alt maandishi](/content-images/image-1-f821d24c6f.webp)
+! [ alt maandishi](image-1.png)
 
 ---
 
@@ -124,7 +124,7 @@ The miracle is that the proof reveals **none** of those facts. Not the amount, n
 
 A note is *born*, it *lives* on the board, and eventually it *dies*, and crucially, its birth and its death look unrelated to anyone watching.
 
-! [ alt maandishi](/content-images/image-2-0eca0ea4f7.webp)
+! [ alt maandishi](image-2.png)
 
 ---
 
@@ -132,7 +132,7 @@ A note is *born*, it *lives* on the board, and eventually it *dies*, and crucial
 
 Hebu tuangalie Alice akimlipa Bob, na kila hatua ya umma na ya kibinafsi ikiwekwa alama.
 
-! [ alt maandishi](/content-images/image-4-7af0dfe795.webp)
+! [ alt maandishi](image-4.png)
 
 Angalia asymmetry ambayo inafanya kazi ya faragha:
 
@@ -187,7 +187,7 @@ Maudhui mazuri ya elimu hupata uaminifu kwa kusema kile kilichopotea. Sehemu hii
 
 Kila "tutarudi kwa hili" hapo juu ni thread. Hapa ni ambapo kila mmoja anapata amefungwa:
 
-! [ alt maandishi](/content-images/image-29-27ef4636ff.webp)
+! [ alt maandishi](image-29.png)
 
 ◯ Mwisho wa makala hii. ◯ Maelezo ya kina.
 |---|---|

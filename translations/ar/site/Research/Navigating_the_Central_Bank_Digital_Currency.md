@@ -2,7 +2,7 @@
 published: 2023-12-07
 ---
 
-![CBDC](/content-images/cbdc-dfb8827faa.webp)
+![CBDC](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/cbdc.webp)
 # كشف الجانب المظلم: خوض ملحمة العملة الرقمية للبنك المركزي (CBDC) وسط ظلال المال
 بقلم: [**Abhishek Tiwari**]
 
@@ -37,7 +37,7 @@ CBDCs عرضة لانقطاعات الكهرباء وضعف الاتصال با�
 __الصين: Digital Currency Electronic Payment (DCEP)__
 
 
-![DCEP](/content-images/dcep-featured-c278cf0ef6.webp)
+![DCEP](https://forkast.news/wp-content/uploads/2020/08/dcep-featured.jpg)
 
 في شوارع الصين الكئيبة، لا تنكشف Digital Currency Electronic Payment (DCEP) كأعجوبة، بل كإنذار بسيطرة مجتمعية تحمل معها مجموعة من الظلال المالية المشؤومة. تنبض المعاملات اليومية بالحياة، بفضل المال القابل للبرمجة وجاذبية القدرات غير المتصلة بالإنترنت.
 
@@ -50,7 +50,7 @@ __الصين: Digital Currency Electronic Payment (DCEP)__
 
 __الولايات المتحدة: Digital Dollar Project__
 
-![Digital Dollar](/content-images/digital-dollar-CBDC-8e8120f52f.webp)
+![Digital Dollar](https://www.ledgerinsights.com/wp-content/uploads/2020/03/digital-dollar-CBDC.jpg)
 
 في المساحات الشاسعة الكئيبة للولايات المتحدة، لا يظهر Digital Dollar Project كمنارة للتقدّم، بل كشهادة على الكفاءة والشمول، وإن كان ذلك مصحوبًا بنصيبه من الشكوك. وهو مبادرة من القطاع الخاص تهدف إلى إعادة تشكيل المشهد المالي ضمن سرد تتخلله ظلال من السيطرة المؤسسية.
 
@@ -62,7 +62,7 @@ __الولايات المتحدة: Digital Dollar Project__
 
 __السويد: E-Krona__
 
-![E-Krona](/content-images/ekrona_logo-4596e38b72.webp)
+![E-Krona](https://www.paymentscardsandmobile.com/wp-content/uploads/2018/10/ekrona_logo.png)
 
 بينما نعبر المشاهد القاحلة في السويد، تنكشف E-Krona كسرد عن القدرة على التكيف، ولكن ليس من دون مطبات مالية. إنها تطور رقمي يركز على الحفاظ على الوصول إلى العملة في مجتمع بلا نقد، مصوّرًا مجتمعًا خاليًا من الألفة التي يوفرها النقد المادي.
 
@@ -95,7 +95,7 @@ __الاتحاد الأوروبي: Eurozone CBDC__
 
 أما الشمول المالي، الذي كان يومًا منارة أمل، فيواجه ظلال التمييز المحتمل. فقد يؤدي سوء استخدام CBDCs إلى وصول انتقائي، بما ينتهك مبادئ المساواة في المعاملة والشمول. إنها حبكة فرعية تتحدى جوهر الحرية المالية ذاته.
 
-![Flow](/content-images/futureofCBDC-2-45075d2d9c.webp)
+![Flow](https://blog.digitalasset.com/hubfs/Imported_Blog_Media/futureofCBDC-2.png)
 
 ## الموارد: خريطة للمستكشف الرقمي
 

@@ -52,7 +52,7 @@ Primero, n participantes ejecutan un protocolo de generación distribuida de cla
 Después, cualquier conjunto de t de n participantes puede ejecutar un protocolo de firma umbral para generar colaborativamente una firma Schnorr válida.
 
 <a href="">
-    <img src="/content-images/1634081807-frost-flexible-round-optimize-3697a713d9.webp" alt="" width="400" height="300"/>
+    <img src="https://static.cryptohopper.com/images/news/uploads/1634081807-frost-flexible-round-optimized-schnorr-threshold-signatures-1.jpg" alt="" width="400" height="300"/>
 </a>
 
 ## Visual / Analogía
@@ -76,7 +76,7 @@ Esta fase se basa en técnicas conocidas que emplean compartición aditiva de se
 En la etapa de preprocesamiento, cada participante prepara un número fijo de pares de puntos de Curva Elíptica (EC) para uso posterior. Esta etapa se ejecuta una vez a lo largo de múltiples fases de firma umbral.
 
 <a href="">
-    <img src="/content-images/preprocess-5cbb14f892.webp" alt="" width="400" height="300"/>
+    <img src="https://i.ibb.co/nQD1c3n/preprocess.png" alt="" width="400" height="300"/>
 </a>
 
 Ronda de firma 1: Cada participante Pᵢ comienza generando un único par privado de nonces (dᵢ, eᵢ) y el correspondiente par de puntos EC (Dᵢ, Eᵢ), y luego difunde este par de puntos a todos los demás participantes. Cada participante almacena estos pares de puntos EC para uso posterior. Las rondas de firma 2 y 3 son las operaciones reales en las que t de n participantes cooperan para crear una firma Schnorr válida.
@@ -86,7 +86,7 @@ Ronda de firma 2: Los participantes trabajan juntos para crear una firma Schnorr
 Este paso previene ataques de falsificación porque los atacantes no pueden combinar participaciones de firma entre operaciones de firma distintas ni permutar el conjunto de firmantes o los puntos publicados para cada firmante.
 
 <a href="">
-    <img src="/content-images/sign-402794d36a.webp" alt="" width="400" height="300"/>
+    <img src="https://i.ibb.co/b5rJbXx/sign.png" alt="" width="400" height="300"/>
 </a>
 
 Habiendo calculado el desafío c, cada participante puede calcular la respuesta zᵢ usando los nonces de un solo uso y las participaciones secretas de largo plazo, que son participaciones secretas de Shamir t-de-n (de grado t-1) de la clave de larga duración del grupo. Al final de la ronda de firma 2, cada participante difunde zᵢ a los demás participantes.

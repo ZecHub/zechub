@@ -1,7 +1,7 @@
 # Kushiriki na ahadi: bahasha ya kichawi iliyofungwa
 ##### Utafiti wa awali kutoka [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [ alt maandishi](/content-images/image-15-0c16784b27.webp)
+! [ alt maandishi](image-15.png)
 
 ### Jinsi ya kufunga siri katika umma na kamwe kuwa na uwezo wa uongo kuhusu hilo
 
@@ -30,7 +30,7 @@ Hii "kufunga sasa, kufunua baadaye, hakuna uongo" gadget inaitwa ahadi, na ni ki
 
 kazi ** hash ** inachukua data yoyote wakati wote, herufi moja au maktaba nzima, na crushes chini ya mfululizo mfupi, fasta-saizi aitwaye ** digest ** au ** hash. Fikiria kama alama ya vidole kwa ajili ya data.
 
-! [ alt maandishi](/content-images/image-16-52fdf62c87.webp)
+! [ alt maandishi](image-16.png)
 
 Fingerprint encryptographic nzuri ina mali nne. kushikilia yao kama intuitions, si equations:
 
@@ -69,7 +69,7 @@ Suluhisho ni neno moja: ** randomness. **
 
 Sasa sawa `v` inazalisha tofauti-kuangalia ahadi kila wakati, kwa sababu `r` Sifa mbili tulitaka hatimaye wote kushikilia:
 
-! [ alt maandishi](/content-images/image-17-3ec4617665.webp)
+! [ alt maandishi](image-17.png)
 
 ** Kufungua ** (kufunua) ahadi baadaye, wewe kuchapisha `v` na `r`; mtu yeyote recalculates `H(v, r)` Hiyo ni bahasha ya kichawi iliyofungwa kutoka kwa Kifungu cha 0, iliyofanywa kuwa halisi.
 
@@ -100,7 +100,7 @@ SHA-256 is a superb fingerprint for everyday computing. But Zcash doesn't just *
 
 Hivyo Zcash cryptographers iliyoundwa kazi hash ambao ndani ni * tayari * uwanja arithmetic, na kuifanya nafuu kuthibitisha:
 
-! [ alt maandishi](/content-images/image-18-89ade807ad.webp)
+! [ alt maandishi](image-18.png)
 
 Hii moja ya uhandisi shinikizo, * "ni lazima kuwa na gharama nafuu kuthibitisha",* ni kwa nini Zcash zuliwa na kupitishwa maalum hash kazi badala ya kufikia kwa SHA-256 kila mahali.
 

@@ -10,7 +10,7 @@ Una chiave di sicurezza hardware è un dispositivo fisico usato per l'autenticaz
 
 Queste chiavi sono progettate per funzionare insieme al tuo nome utente e alla tua password per garantire che solo gli utenti autorizzati possano accedere ai tuoi account e ai tuoi dati. Sono disponibili in varie forme, come chiavette USB, schede NFC o dispositivi Bluetooth.
 
-![Hardware Security Key Example](/content-images/1dff66a4-d8e6-483f-9a1e-065d3974d665-a4c6c73e00.webp)
+![Hardware Security Key Example](https://github.com/ZecHub/zechub/assets/81990132/1dff66a4-d8e6-483f-9a1e-065d3974d665)
 
 ## Come funziona una chiave di sicurezza hardware
 
@@ -26,7 +26,7 @@ Le chiavi di sicurezza hardware offrono diversi vantaggi rispetto ai metodi di a
 
 No, le chiavi di sicurezza hardware sono disponibili in molti formati e potrebbero non essere compatibili con tutti i dispositivi e sistemi operativi. Prima di acquistare una chiave, assicurati che sia compatibile con il tuo dispositivo e il tuo sistema operativo.
 
-![Hardware Security Key Form Factors](/content-images/a830c435-ad20-4183-b381-475afe1089b3-5537cd7388.webp)
+![Hardware Security Key Form Factors](https://github.com/ZecHub/zechub/assets/81990132/a830c435-ad20-4183-b381-475afe1089b3)
 
 ## Una chiave di sicurezza hardware può essere usata con più account?
 
@@ -42,7 +42,7 @@ Ecco alcuni esempi di hardware 2FA disponibili sul mercato.
 
 **Yubico YubiKey 5 NFC**
 
-![Yubico YubiKey 5 NFC](/content-images/bf1ac95e-7277-4559-b5ef-63117b66971b-3aa542aba7.webp)
+![Yubico YubiKey 5 NFC](https://github.com/ZecHub/zechub/assets/81990132/bf1ac95e-7277-4559-b5ef-63117b66971b)
 
 Prodotta da Yubico, co-sviluppatore dello standard di autenticazione aperto FIDO U2F usato da molte chiavi di sicurezza, la YubiKey 5 NFC è in buone mani per proteggere i tuoi dispositivi. Come suggerisce il nome, funziona tramite USB A (o USB C usando un adattatore) o NFC.  
 Offre compatibilità immediata con molti servizi, tra cui Google Chrome, Facebook, Dropbox, LastPass, 1Password e altri ancora. La YubiKey 5 è compatta, resistente e leggera, ed è persino impermeabile.  
@@ -50,7 +50,7 @@ Puoi configurare la YubiKey come secondo fattore U2F senza alcun problema seguen
 
 **Thetis Fido U2F Security Key**
 
-![Thetis Fido U2F Security Key](/content-images/b83e42e5-bba6-4175-ad6c-d64972ef54ef-a2ef17a10d.webp)
+![Thetis Fido U2F Security Key](https://github.com/ZecHub/zechub/assets/81990132/b83e42e5-bba6-4175-ad6c-d64972ef54ef)
 
 Se cerchi il miglior rapporto qualità-prezzo in una chiave di sicurezza, questo modello di Thetis dovrebbe essere nella tua lista. Non c'è il Bluetooth a bordo (è disponibile su un modello più costoso) e supporta solo lo standard FIDO U2F, quindi non c'è compatibilità con UAF o OTP. Tuttavia, fornirà un accesso sicuro ai siti web se usi Chrome o Opera come browser su Windows, macOS o Linux.  
 Comodamente, questa economica chiave di sicurezza sfoggia un design pieghevole compatto con un involucro in alluminio rotante che impedisce al connettore di essere esposto a potenziali danni durante il trasporto. È disponibile in tre colori attraenti: Nero, Oro e Argento.  
@@ -58,7 +58,7 @@ L'involucro in plastica risulta robusto e relativamente resistente, ma è meglio
 
 **CryptoTrust OnlyKey**
 
-![CryptoTrust OnlyKey](/content-images/13be6ecc-227e-498c-8a36-6d52c023cd78-06e3e924dc.webp)
+![CryptoTrust OnlyKey](https://github.com/ZecHub/zechub/assets/81990132/13be6ecc-227e-498c-8a36-6d52c023cd78)
 
 Come suggerisce il nome, OnlyKey ha alcune funzionalità ingegnose che mancano ai suoi rivali. Grazie a un tastierino integrato che può aggirare i keylogger che si insinuano nei computer, può mantenere al sicuro gli account online se un computer o un sito web viene compromesso. Supporta più metodi di 2FA, tra cui FIDO 2 U2F, Yubico OTP e TOTP.  
 Sebbene non sia il miglior gestore di password per usi mainstream, OnlyKey può memorizzare 24 account OTP, 24 password e 24 nomi utente/URL su una singola chiave. Questa funzionalità è piuttosto comoda se non ti va di memorizzare più password e vuoi che sia la chiave a gestirle per te.  
@@ -71,22 +71,22 @@ Ora che sai cosa sono le chiavi hardware 2FA e come funzionano, ecco come connet
 **Passo 1**  
 Accedi al tuo account Gmail e clicca su **Gestisci il tuo account Google**
 
-![Google Account - Manage Account](/content-images/995fc955-791a-4456-9218-7e5964da48b5-31c64640b2.webp)
+![Google Account - Manage Account](https://github.com/ZecHub/zechub/assets/81990132/995fc955-791a-4456-9218-7e5964da48b5)
 
 **Passo 2**  
 Clicca su **Sicurezza**
 
-![Google Security Settings](/content-images/246db235-6596-41ff-bd7a-f8ee4f80962b-340193c2c3.webp)
+![Google Security Settings](https://github.com/ZecHub/zechub/assets/81990132/246db235-6596-41ff-bd7a-f8ee4f80962b)
 
 **Passo 3**  
 Clicca su **Verifica in due passaggi**
 
-![2-Step Verification Screen](/content-images/19cd202a-1a70-47e6-a02a-aa24f6e199fa-a9fcb911ce.webp)
+![2-Step Verification Screen](https://github.com/ZecHub/zechub/assets/81990132/19cd202a-1a70-47e6-a02a-aa24f6e199fa)
 
 **Passo 4**  
 Seleziona **Mostra altre opzioni**
 
-![Show More Options](/content-images/2ade9531-1cf6-48e8-b9a8-178d41a4cd30-b1e9ea1400.webp)
+![Show More Options](https://github.com/ZecHub/zechub/assets/81990132/2ade9531-1cf6-48e8-b9a8-178d41a4cd30)
 
 **Passo 5**  
 Ora seleziona **Chiave di sicurezza** e poi clicca su **Avanzate**

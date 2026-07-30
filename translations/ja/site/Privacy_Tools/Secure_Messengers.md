@@ -24,11 +24,11 @@ Zcashデスクトップおよびモバイルウォレットには、プライベ
 
 試してみる: https://z.cash/wallets 
 
-![Zcash暗号化メモ](/content-images/Zcash-1177103374-7bca37eb4d.webp)
+![Zcash暗号化メモ](https://i.ibb.co/n8HbQZC/Zcash-1177103374.png)
 
 **Signalアプリ**
 
-![Signalアプリ](/content-images/signal-app-logo-scaled-454032876-81b24a0421.webp)
+![Signalアプリ](https://i.ibb.co/7RbbxSs/signal-app-logo-scaled-454032876.jpg)
 
 Signalプライベートメッセンジャーアプリは、データプライバシーの面で非常に優れたセキュアメッセージングアプリです。Signalプライベートメッセンジャーアプリは無料で使いやすく、ユーザーは事前の経験が不要です。Signalアプリには端対端暗号化技術があり、あなたの通信を完全にプライベートに保証します。安全なプライベートメッセージの送信を希望する人はSignalプライベートメッセンジャーアプリを使用することを強くお勧めします。これにより、サイバーセキュリティ上の脆弱性とデータの足跡が指数関数的に減少します。
 
@@ -36,7 +36,7 @@ Signalプライベートメッセンジャーアプリは、データプライ�
 
 **BisonRelay**
 
-![Bison Relay](/content-images/ogimg-v1-1000556235-9390372d1e.webp)
+![Bison Relay](https://i.ibb.co/ZxpBVNv/ogimg-v1-1000556235.jpg)
 
 Bison Relayアプリは2022年に登場しました。Bison Relayはユーザーがアカウントを持つ必要がないため、信じられないほど驚きです！ここでは送信および受信されるすべてのメッセージがDecred Lightning Networkを通じて個別に支払われます。このアプリの唯一の目的は、アカウントが必要なことを完全に排除しメタデータを最小限にすることです。一方で、Bison Relayは通常通り行われる検閲の方法を停止させました。
 
@@ -44,7 +44,7 @@ Bison Relayアプリは2022年に登場しました。Bison Relayはユーザー
 
 **Sessionアプリ**
 
-![Sessionアプリ](/content-images/logo-black-9e799f2b06.webp)
+![Sessionアプリ](https://i.ibb.co/gdpwb1v/logo-black.png)
 
 Sessionアプリをご存知でない場合は心配しないでください！以下に簡単な紹介をします。Sessionは端対端暗号化メッセンジャーアプリの有力候補の一つです。このアプリは機密的なメタデータを最小限に抑えるように設計されています。Sessionアプリは、絶対的なプライバシーと監視からの自由を求めている個人のために作られています。Sessionアプリでは、電話番号やメールアドレスなしでアカウントを作成できるため、完全に匿名です。ユーザーはネットワークを通じてメッセージを安全に送信でき、その過程で何の痕跡も残らないので、漏洩する可能性はありません。
 

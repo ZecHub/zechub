@@ -4,7 +4,7 @@
 
 # Raspberry Pi 4 上での Zebra の実行ガイド
 
-<img src="/content-images/image-2023-11-28-172907488-e7e9fd4ac5.webp" alt="raspberry pi" width="300" height="300"/>
+<img src="https://i.ibb.co/V3rjKwv/image-2023-11-28-172907488.png" alt="raspberry pi" width="300" height="300"/>
 
 Raspberry Pi 4 上で Zebra ノードソフトウェアを実行することで、Zcash ネットワークに独立したコンセンサス互換ノードとして参加できます。このガイドでは、Raspberry Pi 4 上で Zebra をセットアップして実行する手順について説明します。
 
@@ -67,7 +67,7 @@ Raspberry Pi 4 上で Zebra ノードソフトウェアを実行することで�
 7. __モニタリング__
    Webブラウザを開き、__http://127.0.0.1:8233/status__ にアクセスして、Zebra ノードの進捗状況やステータスを確認できます。
 
-<img src="/content-images/image-2023-11-28-173024853-99540511cf.webp" alt="zebra logo" width="200" height="200"/>
+<img src="https://i.ibb.co/BCtKrGp/image-2023-11-28-173024853.png" alt="zebra logo" width="200" height="200"/>
 
 ## トラブルシューティング
 

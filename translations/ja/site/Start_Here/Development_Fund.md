@@ -17,7 +17,7 @@ Zcashは、独自のブロックチェーンプロトコルであり、自己資
 ビットコインや他の暗号資産では、すべてのブロック報酬がブロック製造者に渡されます。Zcashは、ブロック報酬の20％が[Zcash開発基金](https://zips.z.cash/zip-1014)に移転されるという点でユニークです。この基金は、Zcashプロトコルに取り組むチームを支援します。
 
 現在では、[Zcashコミュニティグランツ](https://zcashcommunitygrants.org/)がブロック報酬の8％を受け取り、Electric Coin Co.が7％、Zcash Foundationが5％受け取っています。これは開発基金全体の40％、35％、25％にそれぞれ該当します。
-![Dev Fund Recipients ](/content-images/212411570-4858a3d6-f7a1-465a-bf0c-d2ef72-1efe3a104e.webp)
+![Dev Fund Recipients ](https://user-images.githubusercontent.com/43553081/212411570-4858a3d6-f7a1-465a-bf0c-d2ef726d41dc.jpeg)
 
 2020年、Zcashコミュニティは開発基金とその支援するチームについて投票しました。2024年には、コミュニティが再び開発基金から資金を受け取る対象を決めるための投票が行われます。
 
@@ -29,11 +29,11 @@ Zcashは、独自のブロックチェーンプロトコルであり、自己資
 
 20%の開発基金ロックボックスの実装に関する決定は、包括的なコミュニティ主導のプロセスを通じて行われました。これは、Zcashコミュニティアドバイザリーパネル（ZCAP）による二回の投票と、エコシステム全体にわたるいくつかの投票を含んでいます。これらの投票により、幅広いステークホルダーが意見を表明し、意思決定プロセスに貢献することができました。
 
-![](/content-images/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd-8f378b3e3d.webp)
+![](https://global.discourse-cdn.com/zcash/original/3X/f/d/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd.png)
 
 開発基金ロックボックスはディレイド（資金が後日ネットワークアップグレードによって解除される）であるため、Zcashコミュニティは間もなく資金の配分メカニズムを決定する必要があります。提案されているオプションの一つとして、「Zbloc」分散型ガバナンスメカニズムがあります。
 
-![潜在的な新しい形の分散型ガバナンス](/content-images/99588d6f43a3143cb3616e8a89df5125e855ba39-5688d8901f.webp)
+![潜在的な新しい形の分散型ガバナンス](https://global.discourse-cdn.com/zcash/original/3X/9/9/99588d6f43a3143cb3616e8a89df5125e855ba39.png)
 
 ##リソース
 

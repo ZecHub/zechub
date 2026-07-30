@@ -41,7 +41,7 @@ MetaMask 现已通过 **由 ChainSafe 开发的 Zcash Snap** 支持 **屏蔽版 
       Store data on your device
    ```
 
-![安装 Zcash-snap](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
+![安装 Zcash-snap](https://hackmd.io/_uploads/Hy5MSG2Oex.png)
 
 
 ---
@@ -59,7 +59,7 @@ MetaMask 现已通过 **由 ChainSafe 开发的 Zcash Snap** 支持 **屏蔽版 
 -  Block Explorer URL: https://bscscan.com
 ```
 这将启用网络信息和区块浏览器链接。
-![添加自定义网络....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
+![添加自定义网络....](https://hackmd.io/_uploads/S1hq7f2Oel.png)
 
 对于 **Zcash Mainnet**；
 ```markdown
@@ -75,13 +75,13 @@ MetaMask 现已通过 **由 ChainSafe 开发的 Zcash Snap** 支持 **屏蔽版 
 1. 访问 [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev)。  
 2. 点击 **Connect MetaMask Snap**。  
 
-![Zcash 网页钱包](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
+![Zcash 网页钱包](https://hackmd.io/_uploads/Sk8nSz3dgl.png)
 
 3. 批准连接。  
 4. 查看你的 Zcash 账户摘要，其中包括：
    - Unified addresses 和 Transparent address
 
-![账户摘要-unif....](/content-images/r17c_Mhdel-f4963826d5.webp)
+![账户摘要-unif....](https://hackmd.io/_uploads/r17c_Mhdel.jpg)
 
 
 5. 等待同步完成。
@@ -96,7 +96,7 @@ MetaMask 现已通过 **由 ChainSafe 开发的 Zcash Snap** 支持 **屏蔽版 
 > **将 ETH 兑换为 ZEC** - 使用 **LeoDex** 等服务，并发送到你的屏蔽地址。  
 > **交易所提币** - 将购买的 ZEC 提现到你的 WebZjs 屏蔽地址。  
 
-![LEODEX 兑换](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LEODEX 兑换](https://hackmd.io/_uploads/HyLQ0G2ugg.png)
 
 
 > => 使用屏蔽（z）地址可获得 **完整隐私**。
@@ -111,7 +111,7 @@ MetaMask 现已通过 **由 ChainSafe 开发的 Zcash Snap** 支持 **屏蔽版 
    - Shielded recipient address  
    - Amount
 ```
-   ![转账余额](/content-images/rkvcFfhdex-bd55d079eb.webp)
+   ![转账余额](https://hackmd.io/_uploads/rkvcFfhdex.png)
 
 4. 在 MetaMask 中确认交易（签署交易）。  
 5. 收到的资金会在确认后显示在 WebZjs 中。
@@ -145,7 +145,7 @@ MetaMask 现已通过 **由 ChainSafe 开发的 Zcash Snap** 支持 **屏蔽版 
    Transparent Address
 ``` 
 
-![地址组成部分](/content-images/SyPR2f2_gg-3907c5bf58.webp)
+![地址组成部分](https://hackmd.io/_uploads/SyPR2f2_gg.png)
 
 
 

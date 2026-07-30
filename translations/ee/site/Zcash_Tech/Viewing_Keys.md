@@ -47,7 +47,7 @@ Nukatae zãla aɖe adi be yeawɔ esia gbeɖeka? Tso Electric Coin Co. ƒe blog s
 * Le ɖusime ƒe dzogoe si le etame la, tia "Akɔnta", zi "+" dzi le ete ɖusime be nàtsɔ wò nukpɔkpɔ ƒe safuia akpe ɖe eŋu eye nàtsɔe ade eme be nàtsɔ wò ‘nuxexlẽ ɖeɖeko’ akɔnta akpe ɖe eŋu.
 
 <a href="">
-    <img src="/content-images/image-2024-01-13-175554676-8cdf988797.webp" alt="" width="200" height="280"/>
+    <img src="https://i.ibb.co/C0b002N/image-2024-01-13-175554676.png" alt="" width="200" height="280"/>
 </a>
 
 

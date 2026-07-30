@@ -67,7 +67,7 @@ Zlink는 Zcash 생태계에 관한 모든 링크, 도구, 정보에 가장 간�
 Zcash en Español과 ZKAV Club이 개발한 온라인 라디오 방송국으로, Zcash 커뮤니티에 정보를 제공하고 교육하며 즐거움을 선사합니다.
 
 ## Zimppy.xyz
-[![Zimppy.xyz 로고](/content-images/og-40771e1849.webp)](https://zimppy.xyz/)
+[![Zimppy.xyz 로고](https://github.com/betterclever/zimppy/blob/main/site/og.png?raw=true)](https://zimppy.xyz/)
 
 Zimppy는 AI 에이전트와 자동화된 기계 간 워크플로를 위해 설계된 Zcash용 Machine Payment Protocol (MPP) 결제 방식입니다. 온체인에 한 번 입금하면 요청마다 블록체인 상호작용 없이 무제한의 즉시 무기명 요청을 보낼 수 있습니다. 완전히 shielded된 Zcash (Orchard) 결제를 지원하며, 발신자, 수신자, 금액은 모두 암호화된 상태로 유지됩니다.
 
@@ -76,7 +76,7 @@ Zimppy는 AI 에이전트와 자동화된 기계 간 워크플로를 위해 설�
 ---
 
 ## CipherScan
-[![CipherScan](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
+[![CipherScan](https://github.com/Kenbak/cipherscan/blob/main/public/logo-small.png?raw=true)](https://cipherscan.app/)
 
 CipherScan은 프라이버시 우선의 Zcash 블록체인 탐색기입니다. Next.js 15, TypeScript, Rust/WASM으로 구축되었으며, 사용자가 질의 메타데이터를 노출하지 않고 블록, 트랜잭션, 주소를 조회할 수 있게 해줍니다. 감시 없이 블록체인 투명성이 필요한 프라이버시 중시 사용자를 위해 설계되었습니다.
 
@@ -85,7 +85,7 @@ CipherScan은 프라이버시 우선의 Zcash 블록체인 탐색기입니다. N
 ---
 
 ## ZcashNames
-[![ZcashNames](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
+[![ZcashNames](https://github.com/zcashme/zcashnames/blob/main/public/brandkit/zcashnames-brand-banner-primary-logo-monochrome-green-monochrome-green-background-377x403.png?raw=true)](https://www.zcashnames.com/)
 
 ZcashNames는 Zcash shielded 주소에 사람이 읽기 쉬운 이름을 제공합니다. 긴 z-address를 공유하는 대신, 사용자는 기억하기 쉬운 이름(예: `alice.zec`)을 등록하여 자신의 Unified Address로 해석되게 할 수 있습니다. 원시 주소를 노출하지 않고 비공개로 ZEC를 받는 과정을 단순화합니다.
 
@@ -102,20 +102,20 @@ ZcashNames는 Zcash shielded 주소에 사람이 읽기 쉬운 이름을 제공�
 ---
 
 ## Cipherpay
-[![Cipherpay](/content-images/logo-mark-b8d7c702b0.webp)](https://www.cipherpay.app/en)
+[![Cipherpay](https://github.com/atmospherelabs-dev/cipherpay-web/blob/main/public/logo-mark.png?raw=true)](https://www.cipherpay.app/en)
 
 CipherPay는 인터넷을 위한 비공개 결제를 가능하게 합니다. 몇 분 만에 Zcash를 수락할 수 있으며, 비수탁형이고 KYC가 필요 없습니다. 상점은 ZEC를 직접 shielded 주소로 받기 때문에 구매자와 판매자 모두의 금융 프라이버시를 보호할 수 있습니다.
 
 [사이트 방문](https://www.cipherpay.app/en)
 
 ## Cipherscan
-[![Cipherscan](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
+[![Cipherscan](https://github.com/Kenbak/cipherscan/blob/main/public/logo-small.png?raw=true)](https://cipherscan.app/)
 
 Zcash 블록체인 탐색기 🛡️ 블록체인을 해독하세요. 프라이버시와 투명성이 만납니다.
 [사이트 방문](https://cipherscan.app/)
 
 ## ZcashNames
-[![ZcashNames](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
+[![ZcashNames](https://github.com/zcashme/zcashnames/blob/main/public/brandkit/zcashnames-brand-banner-primary-logo-monochrome-green-monochrome-green-background-377x403.png?raw=true)](https://www.zcashnames.com/)
 
 shielded 주소를 위한
 개인 이름.
@@ -125,14 +125,14 @@ shielded 주소를 위한
 [사이트 방문](https://www.zcashnames.com/)
 
 ## Zero-knowledge Audiovisual Club
-[![Zero-knowledge Audiovisual Club](/content-images/images-563ef94ac0.webp)](https://zkav.club/#additional-reading)
+[![Zero-knowledge Audiovisual Club](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS95FffUJjEeUHAZZ04xRHp9FW1Z0Gzef2UUg&s?raw=true)](https://zkav.club/#additional-reading)
 
 오픈소스 및 탈중앙화 기술 커뮤니티를 위한 프라이버시 우선 시청각(AV) 집단입니다. 우리는 커뮤니티 행사에서 교육하고, 공동 제작하며, 자원봉사 형태의 AV 지원을 운영합니다.
 
 [사이트 방문](https://zkav.club/#additional-reading)
 
 ## Shielded Labs
-[![Shielded Labs](/content-images/68747470733a2f2f736869656c6465646c616273-e449ae6540.webp)](https://shieldedlabs.net/)
+[![Shielded Labs](https://camo.githubusercontent.com/0244df9f30a80c45adfd80c448985f17a6c71cdc9fd0eccd7bf47dec157c0dd4/68747470733a2f2f736869656c6465646c6162732e6e65742f77702d636f6e74656e742f75706c6f6164732f323032342f31312f66617669636f6e5f37325f322e706e67?raw=true)](https://shieldedlabs.net/)
 
 Shielded Labs는 스위스에 기반을 둔 독립적인 기부금 기반 Zcash 지원 단체입니다. Zcash 생태계에서 Development Fund나 블록 보상으로부터 직간접적인 자금을 받은 적이 없는 최초의 조직입니다.
 

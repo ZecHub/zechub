@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="编辑页面"/>
 </a>
 
-# <img src="/content-images/ZCG-Circle-Logo-10-f41b8229ca.webp" alt="替代文本" width="50"/>  Zcash 社区资助
+# <img src="https://i.ibb.co/bjYy15Yb/ZCG-Circle-Logo-10.png" alt="替代文本" width="50"/>  Zcash 社区资助
 
 ## 使命宣言
 

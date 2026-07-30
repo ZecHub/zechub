@@ -1,7 +1,7 @@
 # Hashing Kple Ðokuitsɔtsɔna: Akunyawɔwɔ ƒe Agbalẽkotoku si Wotre Nu
 ##### Numekuku Gbãtɔ tso [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt nuŋɔŋlɔ](/content-images/image-15-0c16784b27.webp)
+![alt nuŋɔŋlɔ](image-15.png)
 
 ### Alesi woatu nya ɣaɣla aɖe ɖe dutoƒo eye womate ŋu aka alakpa tso eŋu gbeɖe o
 
@@ -30,7 +30,7 @@ Woyɔa "lock now, reveal later, no lying" gadget sia be **commitment**, eye wòl
 
 **hash dɔwɔwɔ** xɔa nyatakaka ɖesiaɖe kura, ŋɔŋlɔdzesi ɖeka alo agbalẽdzraɖoƒe blibo, eye wògbãnɛ ɖe anyi va zua ka kpui aɖe si ƒe lolome le ɖoɖo nu si woyɔna be **digest** alo **hash**. Bu eŋu be enye **asibidɛ ƒe dzesi na nyatakakawo.**
 
-![alt nuŋɔŋlɔ](/content-images/image-16-52fdf62c87.webp)
+![alt nuŋɔŋlɔ](image-16.png)
 
 Nɔnɔme ene le asibidɛ ƒe dzesi nyui si wotsɔa nya ɣaɣlawo ŋlɔna ŋu. Lé wo ɖe asi abe nusiwo wokpɔna le susu me ene, ke menye nusiwo sɔ kple wo nɔewo o:
 
@@ -69,7 +69,7 @@ Nya ɖeka si woɖɔ ɖoe nye: **randomness.**
 
 Fifia nenema ke `v` hea ɖokuitsɔtsɔna si ƒe dzedzeme to vovo ɣesiaɣi, elabena `r` la to vovo. Nu eve siwo míedi la katã lé ɖe asi mlɔeba:
 
-![alt nuŋɔŋlɔ](/content-images/image-17-3ec4617665.webp)
+![alt nuŋɔŋlɔ](image-17.png)
 
 Be **ʋu** (ɖee afia) ɖokuitsɔtsɔna la emegbe la, ètaae `v` kple `r`; ame sia ame gbugbɔa akɔntabubuwo `H(v, r)` eye wòléa ŋku ɖe eŋu be esɔ. Wotu wò ɖe eme.Emae nye akunyawɔwɔ ƒe agbalẽkotoku si wotre nu tsoe tso Nyati 0 lia me, si wowɔ wònye nu ŋutɔŋutɔ.
 
@@ -100,7 +100,7 @@ SHA-256 nye asibidɛ nyui aɖe ŋutɔ na gbesiagbe kɔmpiuta zazã. Gake Zcash m
 
 Eyata Zcash cryptographers wɔ hash functions siwo ƒe ememenuwo nye *xoxo* field arithmetic, si wɔe be woƒe asi bɔbɔ be woaɖo kpe edzi:
 
-![alt nuŋɔŋlɔ](/content-images/image-18-89ade807ad.webp)
+![alt nuŋɔŋlɔ](image-18.png)
 
 Mɔ̃ɖaŋudɔwɔwɔ ƒe nyaƒoɖeamenu ɖeka sia, *"ele be wòaxɔ asi be woaɖo kpe edzi,"* tae Zcash to hash dɔwɔwɔ tɔxɛwo vɛ eye wòxɔe tsɔ wu be wòaɖo SHA-256 gbɔ le afisiafi.
 

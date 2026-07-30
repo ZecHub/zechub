@@ -6,7 +6,7 @@
 
 - شراء ZEC على منصة Gemini Exchange 
  
-[![صورة مصغرة للفيديو](/content-images/hqdefault-c1ce14d1e2.webp)](https://www.youtube.com/watch?v=REUbkLzK7J4)
+[![صورة مصغرة للفيديو](https://img.youtube.com/vi/REUbkLzK7J4/hqdefault.jpg)](https://www.youtube.com/watch?v=REUbkLzK7J4)
 
 
 ___
@@ -14,21 +14,21 @@ ___
 
 - استخدام Atomix DEX
 
-[![صورة مصغرة للفيديو](/content-images/hqdefault-1aaee5b4b9.webp)](https://www.youtube.com/watch?v=TwKQE8X7McA)
+[![صورة مصغرة للفيديو](https://img.youtube.com/vi/TwKQE8X7McA/hqdefault.jpg)](https://www.youtube.com/watch?v=TwKQE8X7McA)
 
 
 ___
 
 - شراء Zcash على Coinbase للتحويل إلى Shielded
 
-[![صورة مصغرة للفيديو](/content-images/hqdefault-ae034eb9b5.webp)](https://www.youtube.com/watch?v=3xyKKer1Qvk)
+[![صورة مصغرة للفيديو](https://img.youtube.com/vi/3xyKKer1Qvk/hqdefault.jpg)](https://www.youtube.com/watch?v=3xyKKer1Qvk)
 
 
 ___
 
 - Sideshift Exchange لـ Shielded Zcash 
 
-[![صورة مصغرة للفيديو](/content-images/hqdefault-6d8953e12b.webp)](https://www.youtube.com/watch?v=joQtS8QUpdg)
+[![صورة مصغرة للفيديو](https://img.youtube.com/vi/joQtS8QUpdg/hqdefault.jpg)](https://www.youtube.com/watch?v=joQtS8QUpdg)
 
 
 ____

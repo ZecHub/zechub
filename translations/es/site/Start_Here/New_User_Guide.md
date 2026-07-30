@@ -101,7 +101,7 @@ El Foro de la Comunidad Zcash es el lugar donde los miembros de la comunidad Zca
 La comunidad es apasionada y muy acogedora con los nuevos miembros. A veces las conversaciones pueden ser técnicas, pero no te preocupes. Si alguna vez tienes una pregunta, puedes hacerla.
 
 <a href="">
-    <img width="auto" height="200" alt="logo-horizontal-transparente-de-zcash" src="/content-images/c1d40441-4336-4754-b3bf-5a746b19a9d5-6d2eca6cbf.webp" />
+    <img width="auto" height="200" alt="logo-horizontal-transparente-de-zcash" src="https://github.com/user-attachments/assets/c1d40441-4336-4754-b3bf-5a746b19a9d5" />
 </a>
 
 ---

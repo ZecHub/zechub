@@ -93,9 +93,9 @@ Le esi teƒe be Pepper Sync nagbugbɔ alé ŋku ɖe blockchain la ŋu le akpa g�
 7. Finish - Gakotokua le klalo be yeawɔ asitsatsa.
 
 ### NUKPƆKPƆ ƑE MƆFIAMEWO:
-- Detailed Flow - Fia ɖoɖo bliboa. ![Sisi si Wogblɔ Tsitotsito](/content-images/119c13ec-76be-42bd-b558-762d09275a1b-8ba7a18302.webp)
+- Detailed Flow - Fia ɖoɖo bliboa. ![Sisi si Wogblɔ Tsitotsito](https://github.com/user-attachments/assets/119c13ec-76be-42bd-b558-762d09275a1b)
 
-- Simplified Flow - Nukpɔkpɔ kabakaba na gbesiagbe zãlawo. ![Sisi si Wowɔ Blewu](/content-images/9b612cbd-f24d-4472-9b87-0f2c908bb368-eb34a722a2.webp)
+- Simplified Flow - Nukpɔkpɔ kabakaba na gbesiagbe zãlawo. ![Sisi si Wowɔ Blewu](https://github.com/user-attachments/assets/9b612cbd-f24d-4472-9b87-0f2c908bb368)
 
 ---
 

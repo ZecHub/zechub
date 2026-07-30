@@ -10,36 +10,36 @@ Tembelea [Coinsbee.com](https://www.coinsbee.com/en/shop/mobile-top-ups/) na kuu
 ### 2. Chagua nchi yako na mtandao
 Nenda kwenye kona ya juu kushoto na uchague nchi yako; kisha uchague mikopo ya simu ya mkononi na uchukue mtandao ambao ungependa kujaza (mfano: MTN).
 
-[Hatua 2 - Kuchagua nchi na mtandao](/content-images/0-qvB7ZCWaVWa-C2d8-db0d4ea372.webp)
+[Hatua 2 - Kuchagua nchi na mtandao](https://cdn-images-1.medium.com/max/1200/0*qvB7ZCWaVWa-C2d8)
 
 ### 3. Jaza maelezo na ununue
 Jaza maelezo sahihi na bonyeza kitufe cha "Nunua Sasa". Fungua kikapu ili uone agizo lako, bonyeza kuendelea, na uthibitishe ununuzi kwa $ ZEC.
 
-[Hatua ya 3 - Screen Ununuzi](/content-images/0-ikF-ooBc9W7olfNt-7a4584edda.webp)
+[Hatua ya 3 - Screen Ununuzi](https://cdn-images-1.medium.com/max/1200/0*ikF-ooBc9W7olfNt)
 
 ### 4. Maelezo ya malipo
 Kiasi sawa katika $ZEC kitatolewa, pamoja na anwani iliyo wazi ambapo fedha zinapaswa kutumwa.
 
-[Hatua ya 4 - ZEC maelezo ya malipo](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
+[Hatua ya 4 - ZEC maelezo ya malipo](https://cdn-images-1.medium.com/max/1200/0*6_YhAhQnsLbrMvHN)
 
 ### 5. Tuma malipo
 Nakala na kuweka kiasi na anwani kwa uangalifu. Katika uwanja memo, kuongeza anwani yako YWallet katika kesi kutakuwa na refund.
 
-[Hatua 5 - Kutuma ZEC](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
+[Hatua 5 - Kutuma ZEC](https://cdn-images-1.medium.com/max/1200/0*DNnpyemsKcW-k-u-)
 
 ### 6. Utaratibu
 Mara baada ya fedha zimetumwa, ombi lako litashughulikiwa ndani ya dakika chache.
 
-[Hatua ya 6 - Processing screen](/content-images/0-LgXuUVLVecqrUW5G-a894c7b2dd.webp)
+[Hatua ya 6 - Processing screen](https://cdn-images-1.medium.com/max/1200/0*LgXuUVLVecqrUW5G)
 
 ### 7 Uthibitisho
 Hey... line yangu imekuwa sifa! Unaweza pia kuthibitisha barua pepe yako wakati wa mchakato wa malipo hivyo utapata taarifa kupitia barua pepe mara tu shughuli ni kukamilika.
 
-[Hatua ya 7 - Mafanikio juu-up](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
+[Hatua ya 7 - Mafanikio juu-up](https://cdn-images-1.medium.com/max/1200/0*TJKIcqznQ4Y8_jgo)
 
 ---
 
-[Picha ya ziada ya skrini](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)
+[Picha ya ziada ya skrini](https://cdn-images-1.medium.com/max/1200/0*Jn7tD9lb2xtMBpIw)
 
 ### Maeneo Mengine ya Kutumia ZEC
 

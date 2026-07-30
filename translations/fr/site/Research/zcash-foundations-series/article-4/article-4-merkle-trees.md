@@ -1,7 +1,7 @@
 # Arbres de Merkle : comment la blockchain se souvient de chaque note
 ##### Recherche originale de [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![texte alternatif](/content-images/image-19-cfbdcf8f78.webp)
+![texte alternatif](image-19.png)
 
 ### Résumer des millions d'engagements en une minuscule empreinte
 
@@ -34,7 +34,7 @@ Imaginez un tableau de tournoi à élimination directe, mais au lieu que des jou
 - On met les parents par paires, on hache chaque paire ensemble, et ainsi de suite.
 - On continue jusqu'à ce qu'une **empreinte unique** se trouve au sommet. Ce champion est la **racine de Merkle.**
 
-![texte alternatif](/content-images/image-20-f5d57e425a.webp)
+![texte alternatif](image-20.png)
 
 La propriété la plus importante découle directement de l'effet d'avalanche (article 3) :
 
@@ -77,7 +77,7 @@ step 2:  H(hAB , hCD)      = ROOT?     (combine with the uncle)
 
 Calculé pour de vrai : cela donne `1b3faa3fcc5e...`, ce qui **correspond à la racine.** La présence de la feuille dans l'arbre est prouvée.
 
-![texte alternatif](/content-images/image-21-d9e5d6eaf6.webp)
+![texte alternatif](image-21.png)
 
 Deux choses rendent cela puissant :
 
@@ -99,7 +99,7 @@ Quelques précisions concrètes :
 - **Profondeur fixe.** Les arbres shielded de Zcash ont une profondeur de **32**, ce qui signifie qu'ils peuvent contenir jusqu'à `2^(32)` (plus de quatre milliards) de notes.
 - **Hachage compatible ZK.** L'arbre n'est pas construit avec SHA-256. Sapling hache l'arbre avec des **hachages Pedersen** et Orchard utilise **Sinsemilla** (tous deux issus de l'article 3), précisément pour que la remontée d'appartenance soit peu coûteuse à prouver à l'intérieur d'un circuit.
 
-![texte alternatif](/content-images/image-22-518354b8d5.webp)
+![texte alternatif](image-22.png)
 
 ### Une chose que l'arbre *ne* gère *pas* : les doubles dépenses
 

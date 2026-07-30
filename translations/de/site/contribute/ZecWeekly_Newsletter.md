@@ -17,7 +17,7 @@ Bevor Sie mit dem Schreiben beginnen:
 - Pr체fen Sie [ZEC Bounties ](https://bounties.zechub.wiki/) auf die aktuelle Newsletter-Aufgabe.
 - Warten Sie, bis Ihnen die Aufgabe zugewiesen wird
 
-![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
+![ss](https://github.com/user-attachments/assets/149a802c-b64f-4969-ad89-e83ffecf568e)
 
 
 
@@ -93,7 +93,7 @@ Verwenden Sie diese zusammengef체hrten Newsletter-Pull-Requests als Beispiele f�
 - [Zcash Ecosystem Digest | 14. Februar](https://github.com/ZecHub/zechub/pull/1474)
 
 
-![Beispiel f체r einen zusammengef체hrten ZecWeekly-Newsletter-Pull-Request](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)
+![Beispiel f체r einen zusammengef체hrten ZecWeekly-Newsletter-Pull-Request](https://github.com/user-attachments/assets/9230d68d-6406-4c8a-992c-df84e0d318d8)
 
 Wenn Sie Ihre Arbeit mit einem Beispiel vergleichen, achten Sie auf den Speicherort der Datei, das Titelformat, die Reihenfolge der Abschnitte, die Link-Beschreibungen und darauf, ob der Pull Request auf die richtige Aufgabe zur체ckverweist.
 

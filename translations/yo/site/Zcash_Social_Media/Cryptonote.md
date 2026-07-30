@@ -5,7 +5,7 @@
 Ohun kan tó gbàfiyèsí gan-an lọ́jọ́ òní! 
 Àlàkalẹ̀ **CryptoNote** ń jẹ́ kí ìpamọ́ra tó lágbára wà nínú ẹ̀ka. Lónìí a kọ́ gbogbo àwọn ohun pàtàkì rẹ̀ àti bí ó ti ṣe àṣeyege ní ọ̀pọ̀lọpọ̀ àwọn iṣẹ́ ìpamọ́ra tó ṣe pàtàkì.
 
-[Ìfilọlẹ ti CryptoNote]](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
+[Ìfilọlẹ ti CryptoNote]](https://pbs.twimg.com/media/FrXr5P8WIAAvx36.jpg)
 
 ---
 
@@ -35,7 +35,7 @@ Nígbà tó o bá ń fi owó ránṣẹ́, kókó tó wà fún gbogbo èèyàn ni
 
 **Iwọn oruka** ni ipa pataki lori eto ailorukọ. Awọn oruka ti o tobi julọ pese aṣiri ti o dara julọ.
 
-[Ìsọfúnni nípa àwọn àmì oríkì]](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
+[Ìsọfúnni nípa àwọn àmì oríkì]](https://pbs.twimg.com/media/FrXteGHXgAANE0F.png)
 
 **Ifiwewe pẹlu Zcash**: 
 Àkọsílẹ̀ tí a kò mọ orúkọ rẹ̀ ni Zcash jẹ́ iye ìnáwó tí a ti ṣe *lákòókò kan rí* nínú àgbá tí a fi ààbò ṣe (tó tóbi ju àwọn àgbá CryptoNote lọ).
@@ -48,7 +48,7 @@ Nígbà tó o bá ń fi owó ránṣẹ́, kókó tó wà fún gbogbo èèyàn ni
 
 Instead of only hiding the sender, Ring CT also **obfuscates the transaction amounts** between sender and recipient.
 
-[Àwòrán CT ti oruka](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
+[Àwòrán CT ti oruka](https://pbs.twimg.com/media/FrXuivgWYAAze7B.png)
 
 Ó ń lo:
 - Àkọsílẹ̀ Onírìísí Ẹ̀rọ Elliptic Curve
@@ -59,7 +59,7 @@ Instead of only hiding the sender, Ring CT also **obfuscates the transaction amo
 
 **Awọn Adirẹsi Stealth** tun ṣafikun awọn adiresi lilo akoko kan fun olugba.
 
-[Àwọn Adirẹsi Ìkòkò + Àwọn Ẹ̀rí](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
+[Àwọn Adirẹsi Ìkòkò + Àwọn Ẹ̀rí](https://pbs.twimg.com/media/FrXut5aWAAMhuRb.jpg)
 
 ---
 
@@ -74,7 +74,7 @@ O lo awọn ** CryptoNight ** alugoridimu (a iranti-ti o nira iṣẹ). Ko bi Bi
 2. Ṣe ọpọlọpọ ka / kọ awọn iṣẹ lori awọn scratchpad
 3. Hash gbogbo scratchpad lati gbe iye to lopin
 
-[Ìwakùsà CryptoNight]](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
+[Ìwakùsà CryptoNight]](https://pbs.twimg.com/media/FrXvNs3XsAA37LG.jpg)
 
 (Àkíyèsí: Monero ti kúrò ní CryptoNight sí àwọn alugoridimu míràn.)
 
@@ -86,7 +86,7 @@ Dípò kí àwọn ìṣẹ̀lẹ̀ tó ń dín kù sí ìdajì (bíi Bitcoin), 
 
 Èyí máa ń mú kí àwọn nǹkan tó ń túbọ̀ jáde máa rọra dà bí ìgbà tí àkókò ń lọ.
 
-[Igbesẹ igbohunsafẹfẹ ti o ni agbara](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
+[Igbesẹ igbohunsafẹfẹ ti o ni agbara](https://pbs.twimg.com/media/FrXv8wpXoAEjUxW.png)
 
 ** Asopọ Zcash **: 
 Awọn oludagbasoke Zcash ti jiroro lati ṣe imuse igbiyanju igbasilẹ ti o rọọrun ni ọjọ iwaju, o ṣee ṣe nipasẹ "Owo-owo Posterity Zcash".

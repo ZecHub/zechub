@@ -3,7 +3,7 @@
 </a>
 
 # क्रिप्टो के लिए PGP* पॉडकास्ट
-![bannerpgp](/content-images/221758326-06cea3f5-4c9e-4466-b9ee-738546-01f88aec39.webp)
+![bannerpgp](https://user-images.githubusercontent.com/81990132/221758326-06cea3f5-4c9e-4466-b9ee-73854628a6aa.png)
 
 "क्रिप्टो के लिए PGP* (पॉडकास्ट) के स्वागत है," इलेक्ट्रिक कॉइन कंपनी के पहल के रूप में!
 

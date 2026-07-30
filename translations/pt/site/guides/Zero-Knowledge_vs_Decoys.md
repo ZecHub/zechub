@@ -10,7 +10,7 @@ Certos projetos cripto ganharam reconhecimento por suas abordagens centradas em 
 
 
 <a href="">
-    <img src="/content-images/257773807-af8ae27d-0805-4a60-a5ba-749e2f-cafd67320f.webp" alt="" width="400" height="300"/>
+    <img src="https://user-images.githubusercontent.com/38798812/257773807-af8ae27d-0805-4a60-a5ba-749e2fea2490.png" alt="" width="400" height="300"/>
 </a>
 
 
@@ -39,7 +39,7 @@ Embora o algoritmo de isca da Monero (assinatura em anel) ajude a fornecer priva
 
 
 <a href="">
-    <img src="/content-images/257793324-2dcc6047-300e-4fa7-a28d-2e6cbb-7242c98ea4.webp" alt="" width="400" height="80"/>
+    <img src="https://user-images.githubusercontent.com/38798812/257793324-2dcc6047-300e-4fa7-a28d-2e6cbbadf1df.png" alt="" width="400" height="80"/>
 </a>
 
 
@@ -61,7 +61,7 @@ Em resumo, o que realmente mais importa é reduzir ou eliminar o vazamento de in
 
 
 <a href="">
-    <img src="/content-images/257788813-509f1139-7daa-4f95-bbb4-c53564-f815d11477.webp" alt="" width="400" height="200"/>
+    <img src="https://user-images.githubusercontent.com/38798812/257788813-509f1139-7daa-4f95-bbb4-c535641962f6.png" alt="" width="400" height="200"/>
 </a>
 
 

@@ -62,7 +62,7 @@
 
 ##### 选项 A：上传 SDL 文件（推荐）
 
-[![在 Akash 上部署](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
+[![在 Akash 上部署](https://raw.githubusercontent.com/akash-network/console/refs/heads/main/apps/deploy-web/public/images/deploy-with-akash-btn.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
 
 ##### 选项 B：使用 SDL 编辑器
 

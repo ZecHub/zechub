@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/Shielded-labs-shield-white-2-27aef199ae.webp" alt="Alt Text" width="50"/>    Shielded Labs
+# <img src="https://i.ibb.co/fGYHTfZ5/Shielded-labs-shield-white-2.png" alt="Alt Text" width="50"/>    Shielded Labs
 
 
 [Shielded Labs](https://shieldedlabs.net)는 2022년 12월 스위스 협회로 설립되었으며, Zcash 커뮤니티 그랜트(ZCG)와 관련이 없고, ZCG 자금 지원을 신청할 계획도 없습니다.

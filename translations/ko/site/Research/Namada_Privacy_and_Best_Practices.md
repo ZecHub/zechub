@@ -7,7 +7,7 @@ published: 2025-08-02
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-![Namada Logo](/content-images/nam-078c7b6883.webp)
+![Namada Logo](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/nam.png)
 
 # Namada 프라이버시 최고 실천 가이드
 

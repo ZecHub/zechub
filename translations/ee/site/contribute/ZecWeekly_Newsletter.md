@@ -17,7 +17,7 @@ Hafi nàdze nuŋɔŋlɔ gɔme la:
 - Kpɔ [ZEC ƒe Bounties ](https://bounties.zechub.wiki/) na nyadzɔdzɔgbalẽ ƒe dɔ si wɔm wole fifia.
 - Lala be woade dɔ asi na wò
 
-![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
+![ss](https://github.com/user-attachments/assets/149a802c-b64f-4969-ad89-e83ffecf568e)
 
 
 
@@ -93,7 +93,7 @@ Zã nyadzɔdzɔgbalẽ hehe biabia siawo siwo wotsɔ ƒo ƒui abe nusiwo woɖo �
 - [Zcash Nu gbagbewo ƒe agbenɔnɔ ŋuti nyatakaka | February 14 lia dzi](https://github.com/ZecHub/zechub/pull/1474)
 
 
-![Merged ZecWeekly nyadzɔdzɔgbalẽ he biabia kpɔɖeŋu](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)
+![Merged ZecWeekly nyadzɔdzɔgbalẽ he biabia kpɔɖeŋu](https://github.com/user-attachments/assets/9230d68d-6406-4c8a-992c-df84e0d318d8)
 
 Ne èle wò dɔa tsɔm sɔ kple kpɔɖeŋu aɖe la, lé fɔ ɖe faɛl la ƒe teƒe, tanya ƒe ɖoɖo, akpa ƒe ɖoɖo, kadodo ƒe numeɖeɖewo, kple nenye be hehe ƒe biabiaa do ƒome kple dɔ si sɔ la ŋu.
 

@@ -47,7 +47,7 @@ Por que um usuário desejaria fazer isso? Do blog da Electric Coin Co. sobre o a
 * No canto superior direito, selecione "Account", clique em "+" no canto inferior direito para adicionar e importar sua Viewing Key e adicionar sua conta de 'somente leitura'.
 
 <a href="">
-    <img src="/content-images/image-2024-01-13-175554676-8cdf988797.webp" alt="" width="200" height="280"/>
+    <img src="https://i.ibb.co/C0b002N/image-2024-01-13-175554676.png" alt="" width="200" height="280"/>
 </a>
 
 

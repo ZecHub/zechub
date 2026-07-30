@@ -4,7 +4,7 @@
 
 
 # بودكاست PGP* للعملات المشفرة
-![لافتة PGP](/content-images/221758326-06cea3f5-4c9e-4466-b9ee-738546-01f88aec39.webp)
+![لافتة PGP](https://user-images.githubusercontent.com/81990132/221758326-06cea3f5-4c9e-4466-b9ee-73854628a6aa.png)
 
 مرحبًا بكم في “بودكاست PGP* (Pretty Good Policy) للعملات المشفرة"، وهي مبادرة من Electric Coin Company!
 

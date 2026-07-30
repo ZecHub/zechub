@@ -11,12 +11,12 @@
 
 __仮想プライベートネットワーク（VPN）__: 伝統的なVPNは、あなたのデバイスとVPNプロバイダーが管理するリモートサーバーの間で安全な暗号化されたトンネルを作成します。このトンネルにより、ハッカー、ISP、または政府機関などの第三者によるオンライン活動の監視を防ぐことができます。匿名ブラウジングや地理的に制限されたコンテンツへのアクセス、サイバー脅威からの保護などに広く利用されています。
 
-![image223](/content-images/image-223-399e3015e7.webp)
+![image223](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Privacy_Tools/assets/image-223.png)
 
 
 __分散型VPN（dVPN）__: 一方で、dVPNはブロックチェーンとピアツーピア技術を活用してノードの分散ネットワークを作成します。ユーザーのトラフィックはこれらのノードを通じてルーティングされ、どの単一の実体もネットワーク全体を監視または制御することは困難になります。dVPNは一般的に中央集権的な権限が存在しないため、検閲に対してより耐性があります。プライバシーとセキュリティを強化したいユーザーにとって適しています。
 
-![dvpn](/content-images/dvpn-89698d4cb9.webp)
+![dvpn](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Privacy_Tools/assets/dvpn.png)
 
 
 # VPNを選択する際のセキュリティ上の考慮点

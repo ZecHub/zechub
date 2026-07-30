@@ -102,7 +102,7 @@ Madencilik havuzları işi dağıtır ve katkıda bulunduğunuz hash oranına g�
 3. Ödemeler: Çoğu havuz minimuma ulaştığınızda otomatik ödeme yapar (ör. 0.05 ZEC). Havuz kurallarını kontrol edin.
 
    
-![Zcash Madencilik İzleme Kurulumu](/content-images/zcashMining-5ca0019c17.webp)
+![Zcash Madencilik İzleme Kurulumu](https://raw.githubusercontent.com/ZecHub/zechub/aac601cf85076960d334f4c841867a646a5a2f29/assets/images/zcashMining.jpg)
 
 
 ## İpuçları ve En İyi Uygulamalar

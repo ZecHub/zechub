@@ -47,7 +47,7 @@ Shieldedアドレスにより、ユーザーは Zcash ブロックチェーン�
 * 右上で「Account」を選択し、右下の「+」をクリックして Viewing Key を追加・インポートし、「読み取り専用」アカウントを追加します。
 
 <a href="">
-    <img src="/content-images/image-2024-01-13-175554676-8cdf988797.webp" alt="" width="200" height="280"/>
+    <img src="https://i.ibb.co/C0b002N/image-2024-01-13-175554676.png" alt="" width="200" height="280"/>
 </a>
 
 

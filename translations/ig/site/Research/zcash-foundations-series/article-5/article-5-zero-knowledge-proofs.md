@@ -1,7 +1,7 @@
 # Ihe Akaebe Na-enweghị Ihe Ọmụma: Igosi na I Kwere Eziokwu n'Ekwughị Ihe Mere I Ji Kwere
 ##### Nnyocha mbụ sitere na [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [Alt ederede](/content-images/image-23-71534bece9.webp)
+! [Alt ederede](image-23.png)
 
 ### Ihe mkpuchi nke na-eme ka ụwa hụ ihe ọ na-apụghị ịhụ
 
@@ -40,7 +40,7 @@ Akụkọ banyere ọgba ahụ na-egosi n'ụzọ dị jụụ ihe atọ a na-ag
 
 ## 3. Ihe nchebe atọ ahụ
 
-! [Alt ederede](/content-images/image-24-b559d31849.webp)
+! [Alt ederede](image-24.png)
 
 Nkwado. N'akụkọ ọgba. Na Zcash.
 |---|---|---|
@@ -62,7 +62,7 @@ The cave proves one cute fact. Zcash needs to prove a rich statement: *"I know a
 
 Think of the circuit as a list of arithmetic constraints that are *all satisfied only if the statement is true.* The private inputs that make everything check out, your note, your key, the Merkle path, are called the **witness.**
 
-! [Alt ederede](/content-images/image-25-2479377e43.webp)
+! [Alt ederede](image-25.png)
 
 This is why we spent Article 1 on finite fields and Article 3 on ZK-friendly hashes: the circuit speaks field arithmetic, so every operation inside the statement (including hashing and the Merkle climb of Article 4) has to be expressed that way. The cheaper each operation is to express, the smaller and faster the proof.
 
@@ -90,7 +90,7 @@ There's no free lunch. Many SNARKs need a one-time **setup** that produces publi
 
 This leftover secret is nicknamed **toxic waste.** To dispose of it safely, Zcash ran elaborate **multi-party ceremonies** where many independent participants each contributed randomness; as long as *even one* destroyed their piece honestly, the toxic waste is unrecoverable.
 
-! [Alt ederede](/content-images/image-26-cdad6625cd.webp)
+! [Alt ederede](image-26.png)
 
 Usoro ọhụrụ na-ewepụ ihe a chọrọ kpamkpam, nke bụ otu n'ime isi ihe mere Zcash ji mepụta usoro ihe akaebe ya n'oge.
 

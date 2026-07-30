@@ -2,7 +2,7 @@
 
 # Shade Protocol
 
-![Shade Protocol Logo](/content-images/Af8EzlNiwGr4FTFX7oqdBuE-71316827d0.webp)
+![Shade Protocol Logo](https://framerusercontent.com/images/Af8EzlNiwGr4FTFX7oqdBuE.png)
 
 ## Що таке Shade Protocol?
 
@@ -14,7 +14,7 @@ Shade Protocol — це екосистема DeFi (децентралізова�
 
 Shade Protocol побудований на Secret Network — блокчейні першого рівня, який забезпечує смартконтракти зі збереженням приватності. Secret Network використовує зашифровані вхідні дані, вихідні дані та стан, щоб гарантувати приватність транзакцій, захищаючи дані користувачів від розкриття в публічному реєстрі.
 
-![Secret Network Diagram](/content-images/1-yyZ5hFOw6z8zXX_rgJn5iw-9091067aa1.webp)
+![Secret Network Diagram](https://miro.medium.com/v2/resize:fit:828/format:webp/1*yyZ5hFOw6z8zXX_rgJn5iw.png)
 
 Secret Network дає змогу розробникам створювати децентралізовані застосунки із зашифрованими даними як безпосередньо в Secret, так і в інших блокчейнах через міжланцюгову комунікацію, відкриваючи потужні нові сценарії використання для Web3.
 
@@ -23,7 +23,7 @@ Secret Network дає змогу розробникам створювати д�
 Cosmos було створено для взаємоз’єднання гетерогенних блокчейнів шляхом визначення кращих і сучасніших способів побудови цих блокчейнів за допомогою нових інструментів, таких як Tendermint і Cosmos SDK.  
 Протокол використовує Cosmos SDK — модульний фреймворк для створення масштабованих і взаємодіючих блокчейн-застосунків. Це дає Shade Protocol змогу отримувати переваги від надійності та сумісності екосистеми Cosmos.
 
-![Cosmos SDK and Tendermint Core Diagram](/content-images/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e-ed16bb7658.webp)
+![Cosmos SDK and Tendermint Core Diagram](https://s3.ap-northeast-1.amazonaws.com/gimg.gateimg.com/learn/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e.jpg)
 
 Для консенсусу та безпеки мережі Shade Protocol використовує Tendermint Core, який забезпечує візантійську відмовостійкість (BFT), гарантуючи високий рівень безпеки та швидку фіналізацію.
 
@@ -37,9 +37,9 @@ DeFi зі збереженням приватності використовує
 
 Shade Protocol використовує ключі перегляду для своїх двох основних токенів: Shade ($SHD) і Silk ($SILK). Shade ($SHD) виконує кілька ролей, слугуючи токеном казначейства, управління та розподілу доходів в екосистемі. Він використовується для стейкінгу, пропозицій щодо управління, надання ліквідності, транзакцій і облігацій. Silk ($SILK), зі свого боку, є орієнтованим на приватність стейблкоїном протоколу, прив’язаним до диверсифікованого кошика світових валют і товарів, таких як золото, Bitcoin, долар США, євро та єна.
 
-![Shade and Silk Tokens - Part 1](/content-images/9wTrxCdx8AoRcCwsGub13QXuY-807ed3b400.webp)
+![Shade and Silk Tokens - Part 1](https://framerusercontent.com/images/9wTrxCdx8AoRcCwsGub13QXuY.png?scale-down-to=1024)
 
-![Shade and Silk Tokens - Part 2](/content-images/IUC9YWfErTebCBsMkdbCnjSWGEY-4ed6d5cedf.webp)
+![Shade and Silk Tokens - Part 2](https://framerusercontent.com/images/IUC9YWfErTebCBsMkdbCnjSWGEY.png)
 
 ### Приватність
 
@@ -57,7 +57,7 @@ Shade Protocol використовує ключі перегляду для с�
 
 Будучи частиною екосистеми Cosmos, Shade Protocol може легко взаємодіяти з іншими блокчейнами, підвищуючи ліквідність і надаючи користувачам більше можливостей використовувати свої активи в різних мережах. Використовуючи технології збереження приватності від Secret Network, Shade Protocol гарантує, що ця міжланцюгова діяльність зберігає конфіденційність і цілісність. Така сумісність не лише підвищує гнучкість і функціональність децентралізованих застосунків, а й сприяє більш взаємопов’язаній і надійній блокчейн-екосистемі, зменшуючи залежність від ізольованих мереж і стимулюючи ширше впровадження рішень децентралізованих фінансів.
 
-![Interoperability Diagram](/content-images/3zIwSJHEwP9tkn4aI0do0lhgFTE-2aed930de0.webp)
+![Interoperability Diagram](https://framerusercontent.com/images/3zIwSJHEwP9tkn4aI0do0lhgFTE.png)
 
 ## Висновок
 

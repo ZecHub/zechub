@@ -90,7 +90,7 @@
 
 ### विकल्प A: SDL फ़ाइल अपलोड करें (अनुशंसित)
 
-[![Akash पर तैनात करें](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
+[![Akash पर तैनात करें](https://raw.githubusercontent.com/akash-network/console/refs/heads/main/apps/deploy-web/public/images/deploy-with-akash-btn.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
 
 ### विकल्प B: SDL Editor का उपयोग करें
 

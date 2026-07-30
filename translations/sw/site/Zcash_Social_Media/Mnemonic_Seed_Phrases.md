@@ -13,7 +13,7 @@ Sentensi za kupona zinafafanuliwa na vipimo vya ** BIP-39 **, aina ya kawaida ya
 
 Uundaji wa maneno ahueni huanza kwa kuzalisha ** randomness **. entropy zaidi ina maana usalama zaidi. ** 128 bits ** ya entropic inachukuliwa kutosha kwa watumiaji wengi.
 
-![Usemi mbegu dhana](/content-images/FooM3qWWACgrwzn-f222c4081f.webp)
+![Usemi mbegu dhana](https://pbs.twimg.com/media/FooM3qWWACgrwzn.jpg)
 
 Kulingana na urefu wa entropy ya awali, phrase ahueni itakuwa **12 kwa 24 maneno ** muda mrefu.
 
@@ -28,7 +28,7 @@ Sisi kuanza kwa kuzalisha ** 128 bits ** ya entropy.
 Sisi hash entropy kutumia ** SHA256 **. bits chache za kwanza ya hash hii kuwa checksum. 
 Hii inatupa kipekee alama ya vidole kwa entropy yetu.
 
-[Entropy + Checksum mchoro](/content-images/FooNoOEXgAAu-g6-613238fa7e.webp)
+[Entropy + Checksum mchoro](https://pbs.twimg.com/media/FooNoOEXgAAu-g6.png)
 
 ### 3. Kugawanywa katika vipande vya 11-bit
 Jumla ya 132 bits (128 entropy + 4 checksum) ni kutengwa katika chunks ya 11 bits.
@@ -39,7 +39,7 @@ Orodha ya maneno ya BIP-39 ina maneno halisi ya ** 2048 ** (Kiingereza, Kihispan
 
 Nambari hizi hutumiwa kupata neno linalolingana katika orodha ya maneno.
 
-![Mfano wa ramani ya neno](/content-images/FooN9rfXEBoQuU2-d11331fc0a.webp)
+![Mfano wa ramani ya neno](https://pbs.twimg.com/media/FooN9rfXEBoQuU2.png)
 
 ** Matokeo:** Sasa tuna salama, binadamu-readable 12-neno ahueni kifungu!
 
@@ -59,7 +59,7 @@ Mbegu ya mkoba hutokana na kifungu cha mnemonic kwa kutumia ** Key Derivation Fu
 
 Hii inazalisha mbegu ya ** 64-byte (512-bit).
 
-[Mbegu kwa funguo kuu](/content-images/FooOuumXEAgcBm1-dc7c66b84a.webp)
+[Mbegu kwa funguo kuu](https://pbs.twimg.com/media/FooOuumXEAgcBm1.jpg)
 
 ### Funguo Kuu
 Mbegu ni kugawanywa katika mbili 32-byte mfululizo:
@@ -83,7 +83,7 @@ Kutoka ** Expanded matumizi Key ** sisi kupata:
 
 Mifumo tofauti ya derivation kuzalisha nje anwani yanafaa kwa ajili ya kutoa nje kwa watumaji katika mabwawa shielded (Sapling & Orchard).
 
-![Zcash ufunguo derivation uongozi](/content-images/FooPKd4XEBUQhJ6-af133c01bf.webp)
+![Zcash ufunguo derivation uongozi](https://pbs.twimg.com/media/FooPKd4XEBUQhJ6.jpg)
 
 Zcash pia inasaidia ** anwani za ndani ** kwa shughuli za mkoba kama vile Auto-Shielding.
 

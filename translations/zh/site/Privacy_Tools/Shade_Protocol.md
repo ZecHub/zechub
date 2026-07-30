@@ -2,7 +2,7 @@
 
 # Shade Protocol
 
-![Shade Protocol 标志](/content-images/Af8EzlNiwGr4FTFX7oqdBuE-71316827d0.webp)
+![Shade Protocol 标志](https://framerusercontent.com/images/Af8EzlNiwGr4FTFX7oqdBuE.png)
 
 ## 什么是 Shade Protocol？
 
@@ -14,7 +14,7 @@ Shade Protocol 是一个注重隐私保护的 DeFi（去中心化金融）生态
 
 Shade Protocol 构建于 Secret Network 之上，这是一条提供隐私保护智能合约的第一层区块链。Secret Network 使用加密的输入、输出和状态来确保交易隐私，防止用户数据暴露在公共账本上。
 
-![Secret Network 示意图](/content-images/1-yyZ5hFOw6z8zXX_rgJn5iw-9091067aa1.webp)
+![Secret Network 示意图](https://miro.medium.com/v2/resize:fit:828/format:webp/1*yyZ5hFOw6z8zXX_rgJn5iw.png)
 
 Secret Network 使开发者能够基于加密数据构建去中心化应用，这既可以原生运行在 Secret 上，也可以通过跨链通信运行在其他区块链上，从而为 Web3 解锁强大的新用例。
 
@@ -23,7 +23,7 @@ Secret Network 使开发者能够基于加密数据构建去中心化应用，�
 Cosmos 的创建目标是通过定义更好、更现代化的区块链构建方式，并借助 Tendermint 和 Cosmos SDK 等新工具，来连接异构区块链。  
 该协议使用 Cosmos SDK，这是一个用于构建可扩展且可互操作区块链应用的模块化框架。这使 Shade Protocol 能够受益于 Cosmos 生态系统的稳健性与互操作性。
 
-![Cosmos SDK 和 Tendermint Core 示意图](/content-images/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e-ed16bb7658.webp)
+![Cosmos SDK 和 Tendermint Core 示意图](https://s3.ap-northeast-1.amazonaws.com/gimg.gateimg.com/learn/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e.jpg)
 
 在共识与网络安全方面，Shade Protocol 采用 Tendermint Core，它提供拜占庭容错（BFT）共识机制，确保高安全性和快速终局性。
 
@@ -37,9 +37,9 @@ Cosmos 的创建目标是通过定义更好、更现代化的区块链构建方�
 
 Shade Protocol 为其两种主要代币使用 viewing keys：Shade ($SHD) 和 Silk ($SILK)。Shade ($SHD) 在生态系统中承担多重角色，既是金库代币，也是治理代币和收益共享代币。它可用于质押、治理提案、流动性提供、交易和债券。另一方面，Silk ($SILK) 是该协议注重隐私的稳定币，锚定于由全球多种货币和大宗商品组成的多元化篮子，例如黄金、Bitcoin、美元、欧元和日元。
 
-![Shade 和 Silk 代币 - 第 1 部分](/content-images/9wTrxCdx8AoRcCwsGub13QXuY-807ed3b400.webp)
+![Shade 和 Silk 代币 - 第 1 部分](https://framerusercontent.com/images/9wTrxCdx8AoRcCwsGub13QXuY.png?scale-down-to=1024)
 
-![Shade 和 Silk 代币 - 第 2 部分](/content-images/IUC9YWfErTebCBsMkdbCnjSWGEY-4ed6d5cedf.webp)
+![Shade 和 Silk 代币 - 第 2 部分](https://framerusercontent.com/images/IUC9YWfErTebCBsMkdbCnjSWGEY.png)
 
 ### 隐私
 
@@ -57,7 +57,7 @@ Silk Stablecoin 提供价格稳定性，这对于希望避免加密货币常见�
 
 作为 Cosmos 生态系统的一部分，Shade Protocol 可以轻松与其他区块链交互，从而增强流动性，并为用户在不同网络之间利用其资产提供更多机会。通过利用 Secret Network 的隐私保护技术，Shade Protocol 确保这些跨链活动保持机密性和完整性。这种互操作性不仅增强了去中心化应用的灵活性和功能性，也促进了一个更互联、更强健的区块链生态系统，减少对孤立网络的依赖，并推动去中心化金融解决方案的更广泛采用。
 
-![互操作性示意图](/content-images/3zIwSJHEwP9tkn4aI0do0lhgFTE-2aed930de0.webp)
+![互操作性示意图](https://framerusercontent.com/images/3zIwSJHEwP9tkn4aI0do0lhgFTE.png)
 
 ## 结论
 

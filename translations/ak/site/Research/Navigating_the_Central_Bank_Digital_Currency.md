@@ -2,7 +2,7 @@
 wotintimii: 2023-12-07
 ---
 
-![CBDC](/content-images/cbdc-dfb8827faa.webp)
+![CBDC](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/cbdc.webp)
 # Esum Afã a Wɔda no Adi: Central Bank Digital Currency (CBDC) Odyssey no a Wɔbɛfa Sikasɛm Sunsuma Mu
 Ɔkyerɛwee : [**Abhishek Tiwari**]
 
@@ -37,7 +37,7 @@ CBDCs a yɛde bedi dwuma no bɛyɛ yɛn ɔbran hwehwɛ, akwantu a mfiridwuma, mm
 __China: Digitals Sika a Wɔde Tua Kɔkɔɔ (DCEP)__ .
 
 
-![DCEP na ɛwɔ hɔ](/content-images/dcep-featured-c278cf0ef6.webp)
+![DCEP na ɛwɔ hɔ](https://forkast.news/wp-content/uploads/2020/08/dcep-featured.jpg)
 
 Wɔ China mmɔnten a ɛyɛ dystopia so no, Digital Currency Electronic Payment (DCEP) no da adi sɛ anwonwade, na mmom sɛ ɔmanfo tumidi ho nkɔmhyɛ a ɛwɔ n’ankasa sikasɛm mu sunsuma a ɛyɛ hu. Da biara da nkitahodi pulse ne asetra, adɔe sika programmable ne allure of offline tumi.
 
@@ -50,7 +50,7 @@ China abakɔsɛm a ɛfa sikasɛm mu ahokyere ne aban a ɛde ne ho hyɛ sikakorab
 
 __United States: Digitals Dɔla Dwumadie__ .
 
-![Digital Dɔla a Wɔde Di Dwuma](/content-images/digital-dollar-CBDC-8e8120f52f.webp)
+![Digital Dɔla a Wɔde Di Dwuma](https://www.ledgerinsights.com/wp-content/uploads/2020/03/digital-dollar-CBDC.jpg)
 
 Wɔ United States nsase akɛse a abasamtu wom mu no, Digital Dollar Project no mpue sɛ ɛnyɛ nkɔso kanea na mmom sɛ adanse a ɛkyerɛ sɛ ɛyɛ adwuma yiye na ɛka obiara ho, ɛwom sɛ ɛwɔ ne kyɛfa wɔ nneɛma a wontumi nsi pi mu de. Ankorankoro adwuma, na ɛde asi n’ani so sɛ ɛbɛsan asiesie sikasɛm tebea no wɔ asɛm a nnwumakuw tumidi ho sunsuma ayɛ mu ma mu.
 
@@ -62,7 +62,7 @@ U.S. wɔ sikasɛm ho nhyehyɛe ho abakɔsɛm a ɛyɛ den, na wɔtaa gye akyinnye
 
 __Sweden: E-Krona__ Ɔde ne nsa kyerɛɛ ne so.
 
-![E-Krona na ɔkyerɛwee](/content-images/ekrona_logo-4596e38b72.webp)
+![E-Krona na ɔkyerɛwee](https://www.paymentscardsandmobile.com/wp-content/uploads/2018/10/ekrona_logo.png)
 
 Bere a yɛfa Sweden nsase a amamfõ so no, E-Krona no da adi sɛ asɛm a ɛfa sɛnea wotumi sesa nneɛma ho, nanso ɛnyɛ nea sikasɛm mu afiri biara nni mu. Ɛyɛ dijitaal nkɔsoɔ a ɛtwe adwene si sika a wɔbɛkɔ so anya wɔ ɔman a sika nni mu mu, a ɛkyerɛ ɔman a ahotɔ a wonim no yie a ɛfa honam fam sika ho.
 
@@ -95,7 +95,7 @@ Aban a wɔde hwɛ nneɛma so a bere bi na ɛyɛ adwene a ɛwɔ akyirikyiri no b�
 
 Sikasɛm mu nkabom a bere bi na ɛyɛ anidaso kanea no hyia nyiyim a ebetumi aba no sunsuma. CBDC ahorow a wɔde di dwuma ɔkwammɔne so no betumi ama wɔanya hokwan a wɔpaw, na wɔabu nnyinasosɛm ahorow a ɛfa sɛnea wɔyɛ no pɛ na wɔka obiara ho no so. Ɛyɛ subplot a ɛkasa tia sikasɛm mu ahofadi titiriw no.
 
-![Tene](/content-images/futureofCBDC-2-45075d2d9c.webp)
+![Tene](https://blog.digitalasset.com/hubfs/Imported_Blog_Media/futureofCBDC-2.png)
 
 ## Nneɛma a Wɔde Yɛ Adwuma: Asase Mfonini a Wɔde Yɛ Digital Explorer
 

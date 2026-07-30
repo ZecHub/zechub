@@ -27,7 +27,7 @@ Mfomso ahorow a wɔbɔ ho amanneɛ
 
 Yɛde nsɛmma nhoma to gua ma nnwuma a mprempren yɛwɔ bounties a wɔabue Memeneda biara. Wubetumi ahyɛ bounties nso ho nyansa! Eyinom titiriw na wohu wɔ ZEC Bounties.
 
-![zecbounties a ɛwɔ hɔ](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
+![zecbounties a ɛwɔ hɔ](https://github.com/user-attachments/assets/0e4f5109-c0c9-4a0a-8d71-8172e36b9726)
 
 
 

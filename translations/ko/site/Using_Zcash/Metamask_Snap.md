@@ -41,7 +41,7 @@
       Store data on your device
    ```
 
-![Zcash-snap-install](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
+![Zcash-snap-install](https://hackmd.io/_uploads/Hy5MSG2Oex.png)
 
 
 ---
@@ -59,7 +59,7 @@ MetaMask에서 **Add Network**를 선택하고 다음을 입력합니다:
 -  Block Explorer URL: https://bscscan.com
 ```
 이렇게 하면 네트워크 정보와 익스플로러 링크를 사용할 수 있습니다.
-![Add-a-custom-Net....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
+![Add-a-custom-Net....](https://hackmd.io/_uploads/S1hq7f2Oel.png)
 
 **Zcash Mainnet**의 경우;
 ```markdown
@@ -75,13 +75,13 @@ MetaMask에서 **Add Network**를 선택하고 다음을 입력합니다:
 1. [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev)에 방문합니다.  
 2. **Connect MetaMask Snap**을 클릭합니다.  
 
-![Zcash-web-wallet](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
+![Zcash-web-wallet](https://hackmd.io/_uploads/Sk8nSz3dgl.png)
 
 3. 연결을 승인합니다.  
 4. 다음을 포함한 Zcash 계정 요약을 확인합니다:
    - Unified 주소 및 Transparent 주소
 
-![Account-summary-unif....](/content-images/r17c_Mhdel-f4963826d5.webp)
+![Account-summary-unif....](https://hackmd.io/_uploads/r17c_Mhdel.jpg)
 
 
 5. 동기화가 완료될 때까지 기다립니다.
@@ -96,7 +96,7 @@ MetaMask에서 **Add Network**를 선택하고 다음을 입력합니다:
 > **ETH -> ZEC 스왑** - **LeoDex** 같은 서비스를 사용하고, 실드된 주소로 전송하세요.  
 > **거래소 출금** - 구매한 ZEC를 WebZjs 실드된 주소로 출금하세요.  
 
-![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+![LEODEX-SWAP](https://hackmd.io/_uploads/HyLQ0G2ugg.png)
 
 
 > => **완전한 프라이버시**를 위해 실드된 (z) 주소를 사용하세요.
@@ -111,7 +111,7 @@ MetaMask에서 **Add Network**를 선택하고 다음을 입력합니다:
    - 실드된 수신자 주소  
    - 금액
 ```
-   ![Transfer-Balance](/content-images/rkvcFfhdex-bd55d079eb.webp)
+   ![Transfer-Balance](https://hackmd.io/_uploads/rkvcFfhdex.png)
 
 4. MetaMask에서 트랜잭션을 확인합니다(트랜잭션 서명).  
 5. 수신한 자금은 확인 후 WebZjs에 표시됩니다.
@@ -145,7 +145,7 @@ MetaMask에서 **Add Network**를 선택하고 다음을 입력합니다:
    Transparent Address
 ``` 
 
-![Address-components](/content-images/SyPR2f2_gg-3907c5bf58.webp)
+![Address-components](https://hackmd.io/_uploads/SyPR2f2_gg.png)
 
 
 

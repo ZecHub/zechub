@@ -1,7 +1,7 @@
 # El Protocolo Blindado, de extremo a extremo
 ##### Investigación original de [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![texto alternativo](/content-images/image-27-4094293ec0.webp)
+![texto alternativo](image-27.png)
 
 ### Ensamblando cada pieza en una transacción privada de Zcash
 
@@ -41,7 +41,7 @@ Aquí está toda la serie en una sola página, mapeada desde la historia del Art
 
 Todo lo que un usuario puede hacer fluye desde un único secreto, la **spending key**, a través de una jerarquía unidireccional (cada flecha es una derivación irreversible, cortesía de las trapdoors de los Artículos 2 y 3):
 
-![texto alternativo](/content-images/image-32-f443f9bb72.webp)
+![texto alternativo](image-32.png)
 
 Hay dos cosas dignas de notar, ambas consecuencias de artículos anteriores:
 
@@ -54,7 +54,7 @@ Hay dos cosas dignas de notar, ambas consecuencias de artículos anteriores:
 
 Para gastar una note de forma privada, debes convencer a la red de cuatro cosas a la vez **sin revelar la note, su valor, su posición ni tu identidad.** Cada afirmación es satisfecha por un componente que ya conoces.
 
-![texto alternativo](/content-images/image-31-86309af194.webp)
+![texto alternativo](image-31.png)
 
 La prueba no revela **ninguno** de los hechos subyacentes (qué note, de quién es la clave, qué valor). Solo revela que *las cuatro afirmaciones se cumplen.* Ese es todo el truco del Zcash blindado, expresado en un diagrama.
 
@@ -92,7 +92,7 @@ Ensamblemos a Alice pagándole a Bob. Usaremos la clara estructura "lado de gast
 
 Más una **binding signature** sobre todo el conjunto, que hace cumplir el balance de valor (Sección 5).
 
-![texto alternativo](/content-images/image-30-98511eb2d0.webp)
+![texto alternativo](image-30.png)
 
 Sigue el rastro de la privacidad: la red comprobó el anchor, comprobó que el nullifier era nuevo, verificó la prueba y verificó el balance. Aceptó un pago válido **sin haber aprendido ninguna cantidad, ninguna dirección y tampoco qué note se gastó.** Mientras tanto, el **nullifier** de la note gastada (su muerte) y el nuevo **compromiso** de Bob (el nacimiento de su note) se encuentran en dos estructuras públicas distintas sin ningún vínculo visible entre ambos, el vínculo cortado del Artículo 0.
 
@@ -198,7 +198,7 @@ Las cantidades están ocultas, pero cada una está envuelta en un compromiso de 
 
 Ahora has viajado desde una única paradoja hasta un pago privado completo:
 
-![texto alternativo](/content-images/cd8bbb40-57b8-4854-b9cf-97f2485d126a-8847fae521.webp)
+![texto alternativo](https://github.com/user-attachments/assets/cd8bbb40-57b8-4854-b9cf-97f2485d126a)
 
 
 A partir de aquí, el siguiente arco natural profundiza más: el funcionamiento interno de Groth16 y Halo 2, las ceremonias de trusted setup, los circuitos de Sapling y Orchard en detalle, la derivación de claves y las direcciones diversificadas, y la evolución del protocolo a través de las actualizaciones de red. Pero la base ya está colocada, y cada uno de esos temas ya tiene un lugar al que conectarse.

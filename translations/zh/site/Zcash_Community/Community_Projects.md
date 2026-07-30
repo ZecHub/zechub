@@ -67,7 +67,7 @@ Zlink 是查找 Zcash 生态中任何链接、工具和信息的最简单方式�
 一个用于向 Zcash 社区传播信息、提供教育和娱乐的在线电台，由 Zcash en Español 和 ZKAV Club 开发。
 
 ## Zimppy.xyz
-[![Zimppy.xyz 标志](/content-images/og-40771e1849.webp)](https://zimppy.xyz/)
+[![Zimppy.xyz 标志](https://github.com/betterclever/zimppy/blob/main/site/og.png?raw=true)](https://zimppy.xyz/)
 
 Zimppy 是面向 Zcash 的 Machine Payment Protocol (MPP) 支付方式，专为 AI 代理和自动化机器对机器工作流设计。只需在链上充值一次，随后即可发起无限次即时持有者请求，而无需为每次请求与区块链交互。支持完全屏蔽的 Zcash (Orchard) 支付——发送方、接收方和金额都保持加密。
 
@@ -76,7 +76,7 @@ Zimppy 是面向 Zcash 的 Machine Payment Protocol (MPP) 支付方式，专为 
 ---
 
 ## CipherScan
-[![CipherScan](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
+[![CipherScan](https://github.com/Kenbak/cipherscan/blob/main/public/logo-small.png?raw=true)](https://cipherscan.app/)
 
 CipherScan 是一个以隐私为先的 Zcash 区块链浏览器。基于 Next.js 15、TypeScript 和 Rust/WASM 构建，允许用户查询区块、交易和地址，同时不泄露查询元数据。为注重隐私、需要区块链透明性但不愿被监控的用户而设计。
 
@@ -85,7 +85,7 @@ CipherScan 是一个以隐私为先的 Zcash 区块链浏览器。基于 Next.js
 ---
 
 ## ZcashNames
-[![ZcashNames](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
+[![ZcashNames](https://github.com/zcashme/zcashnames/blob/main/public/brandkit/zcashnames-brand-banner-primary-logo-monochrome-green-monochrome-green-background-377x403.png?raw=true)](https://www.zcashnames.com/)
 
 ZcashNames 为 Zcash 屏蔽地址提供人类可读名称。用户无需分享冗长的 z-address，而是注册一个易记的名称（例如 `alice.zec`），将其解析到自己的 Unified Address。在不暴露原始地址的情况下，更轻松地私密接收 ZEC。
 
@@ -102,20 +102,20 @@ ZcashNames 为 Zcash 屏蔽地址提供人类可读名称。用户无需分享�
 ---
 
 ## Cipherpay
-[![Cipherpay](/content-images/logo-mark-b8d7c702b0.webp)](https://www.cipherpay.app/en)
+[![Cipherpay](https://github.com/atmospherelabs-dev/cipherpay-web/blob/main/public/logo-mark.png?raw=true)](https://www.cipherpay.app/en)
 
 CipherPay 为互联网提供私密支付。几分钟内即可开始接受 Zcash——非托管、无需 KYC。商家直接将 ZEC 接收到屏蔽地址，从而保护买卖双方的财务隐私。
 
 [访问网站](https://www.cipherpay.app/en)
 
 ## Cipherscan
-[![Cipherscan](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
+[![Cipherscan](https://github.com/Kenbak/cipherscan/blob/main/public/logo-small.png?raw=true)](https://cipherscan.app/)
 
 Zcash 区块链浏览器 🛡️ 解码区块链。隐私与透明并存。
 [访问网站](https://cipherscan.app/)
 
 ## ZcashNames
-[![ZcashNames](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
+[![ZcashNames](https://github.com/zcashme/zcashnames/blob/main/public/brandkit/zcashnames-brand-banner-primary-logo-monochrome-green-monochrome-green-background-377x403.png?raw=true)](https://www.zcashnames.com/)
 
 用于
 屏蔽地址的
@@ -124,14 +124,14 @@ Zcash 区块链浏览器 🛡️ 解码区块链。隐私与透明并存。
 [访问网站](https://www.zcashnames.com/)
 
 ## Zero-knowledge Audiovisual Club
-[![Zero-knowledge Audiovisual Club](/content-images/images-563ef94ac0.webp)](https://zkav.club/#additional-reading)
+[![Zero-knowledge Audiovisual Club](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS95FffUJjEeUHAZZ04xRHp9FW1Z0Gzef2UUg&s?raw=true)](https://zkav.club/#additional-reading)
 
 面向开源与去中心化技术社区、以隐私为先的视听（AV）团体。我们在社区活动中提供培训、协作创作，并运营志愿者 AV 支持。
 
 [访问网站](https://zkav.club/#additional-reading)
 
 ## Shielded Labs
-[![Shielded Labs](/content-images/68747470733a2f2f736869656c6465646c616273-e449ae6540.webp)](https://shieldedlabs.net/)
+[![Shielded Labs](https://camo.githubusercontent.com/0244df9f30a80c45adfd80c448985f17a6c71cdc9fd0eccd7bf47dec157c0dd4/68747470733a2f2f736869656c6465646c6162732e6e65742f77702d636f6e74656e742f75706c6f6164732f323032342f31312f66617669636f6e5f37325f322e706e67?raw=true)](https://shieldedlabs.net/)
 
 Shielded Labs 是一家位于瑞士、独立运营并依靠捐赠资助的 Zcash 支持组织。它是 Zcash 生态中首个从未直接或间接获得 Development Fund 或区块奖励资助的组织。
 

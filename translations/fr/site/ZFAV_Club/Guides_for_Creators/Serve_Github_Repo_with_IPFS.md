@@ -26,7 +26,7 @@ Pour commencer, sélectionnez un dépôt Git que vous souhaitez héberger et clo
 
 Exécutez la commande : “git clone https://github.com/zechub/zechub”
 
-![/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
+![https://i.ibb.co/HxFX37b/Screenshot-from-2023-05-20-14-14-46.png](https://i.ibb.co/HxFX37b/Screenshot-from-2023-05-20-14-14-46.png)
 
 Maintenant, pour le préparer à être cloné via IPFS.
 
@@ -34,7 +34,7 @@ cd zechub git update-server-info
 
 Décompressez les objets Git :
 
-![](/content-images/image-2024-04-20-175848513-2ceb90dd7b.webp)
+![](https://i.ibb.co/25RwyWz/image-2024-04-20-175848513.png)
 
 Cela permettra à IPFS de dédupliquer les objets si vous mettez à jour le dépôt Git plus tard.
 
@@ -48,11 +48,11 @@ $ pwd
 
 $ ipfs add -r 
 
-![/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp](/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp)
+![https://i.ibb.co/LJgK1q3/Screenshot-from-2023-05-20-14-22-38.png](https://i.ibb.co/LJgK1q3/Screenshot-from-2023-05-20-14-22-38.png)
 
 Le CID obtenu : Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
 
-![/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
+![https://i.ibb.co/GvhCLwn/Screenshot-from-2023-05-20-14-26-34.png](https://i.ibb.co/GvhCLwn/Screenshot-from-2023-05-20-14-26-34.png)
 
 Formidable ! Votre dépôt est maintenant téléversé sur le réseau.
 

@@ -1,7 +1,7 @@
 # Hashing e impegni: la magica busta sigillata
 ##### Ricerca originale di [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt text](/content-images/image-15-0c16784b27.webp)
+![alt text](image-15.png)
 
 ### Come bloccare un segreto in pubblico senza poter mai mentire al riguardo
 
@@ -30,7 +30,7 @@ Questo congegno "blocca ora, rivela dopo, niente bugie" si chiama **commitment**
 
 Una **funzione hash** prende qualsiasi dato, una singola lettera o un'intera biblioteca, e lo comprime in una stringa breve e di dimensione fissa chiamata **digest** o **hash**. Pensala come un'**impronta digitale per i dati.**
 
-![alt text](/content-images/image-16-52fdf62c87.webp)
+![alt text](image-16.png)
 
 Una buona impronta digitale crittografica ha quattro proprietà. Tienile a mente come intuizioni, non come equazioni:
 
@@ -69,7 +69,7 @@ La soluzione è una sola parola: **casualità.**
 
 Ora lo stesso `v` produce un commitment dall'aspetto diverso ogni volta, perché `r` è diverso. Le due proprietà che volevamo finalmente valgono entrambe:
 
-![alt text](/content-images/image-17-3ec4617665.webp)
+![alt text](image-17.png)
 
 Per **aprire** (rivelare) il commitment in seguito, pubblichi `v` e `r`; chiunque ricalcola `H(v, r)` e verifica che corrisponda. Sei vincolato. Quella è la magica busta sigillata dell'Articolo 0, resa reale.
 
@@ -100,7 +100,7 @@ SHA-256 è un'eccellente impronta digitale per l'informatica di tutti i giorni. 
 
 Così i crittografi di Zcash hanno progettato funzioni hash i cui meccanismi interni sono *già* aritmetica su campi, rendendole economiche da provare:
 
-![alt text](/content-images/image-18-89ade807ad.webp)
+![alt text](image-18.png)
 
 Questa singola pressione ingegneristica, *"deve essere economico da provare"*, è il motivo per cui Zcash ha inventato e adottato funzioni hash speciali invece di ricorrere a SHA-256 ovunque.
 

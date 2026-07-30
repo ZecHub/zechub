@@ -26,7 +26,7 @@ Kuanza, kuchagua Git hazina unataka kuwa mwenyeji & clone ni:
 
 Run amri: "git clone https://github.com/zechub/zechub"
 
-![](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
+![](https://i.ibb.co/HxFX37b/Screenshot-from-2023-05-20-14-14-46.png)
 
 
 Sasa, kupata tayari kuwa cloned kupitia IPFS.
@@ -54,11 +54,11 @@ $ pwd
 
 $ ipfs kuongeza -r .
 
-![](/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp)
+![](https://i.ibb.co/LJgK1q3/Screenshot-from-2023-05-20-14-22-38.png)
 
 Matokeo CID: Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
 
-![](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
+![](https://i.ibb.co/GvhCLwn/Screenshot-from-2023-05-20-14-26-34.png)
 
 Ajabu! Sasa hazina yako imepakiwa kwenye mtandao.
 

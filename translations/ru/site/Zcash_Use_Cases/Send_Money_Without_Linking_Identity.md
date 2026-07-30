@@ -1,4 +1,4 @@
-# <img src="/content-images/send-svgrepo-com-b62f643de0.svg" width="24" height="24" alt="Журналист иконка"/> Отправляйте деньги без привязки к вашей личности
+# <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/send-svgrepo-com.svg" width="24" height="24" alt="Журналист иконка"/> Отправляйте деньги без привязки к вашей личности
 
 <span className="inline-flex items-center gap-[6px]"><span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>Средний уровень - 7 мин</span>
 
@@ -11,7 +11,7 @@
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка пользователя"/> Для кого это?
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка пользователя"/> Для кого это?
 
 - Для всех, кто отправляет чувствительные платежи
 - Для пользователей, заботящихся о приватности
@@ -19,7 +19,7 @@
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка предупреждения"/> Проблема
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка предупреждения"/> Проблема
 
 Отправка криптовалюты часто раскрывает:
 - Вашу идентичность кошелька
@@ -30,7 +30,7 @@
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка инструментов"/> Почему Zcash?
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка инструментов"/> Почему Zcash?
 
 Zcash позволяет осуществлять **полностью приватные переводы** с использованием защищённых транзакций.
 
@@ -40,14 +40,14 @@ Zcash позволяет осуществлять **полностью прив�
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка инструментов"/> Что вам нужно
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка инструментов"/> Что вам нужно
 
 - Кошелёк, поддерживающий защищённые транзакции
 - Базовое понимание z-адресов
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка шага"/> Пошаговое руководство
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка шага"/> Пошаговое руководство
 
 ### Шаг 1: Убедитесь, что средства защищены
 
@@ -76,7 +76,7 @@ Zcash позволяет осуществлять **полностью прив�
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка отмены"/> Распространённые ошибки, которые стоит избегать
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка отмены"/> Распространённые ошибки, которые стоит избегать
 
 - Отправка напрямую с прозрачных адресов  
 - Использование одного и того же адреса несколькими людьми  
@@ -85,7 +85,7 @@ Zcash позволяет осуществлять **полностью прив�
 
 <br/>
 
-## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="иконка выполнено"/> Результат
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="иконка выполнено"/> Результат
 
 Вы можете:
 - Приватно отправлять средства
@@ -94,12 +94,12 @@ Zcash позволяет осуществлять **полностью прив�
 
 <br/>
 
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка цепочки"/> Связанные статьи
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка цепочки"/> Связанные статьи
 - [Приватность - Защищённые vs Прозрачные](/privacy/shielded-vs-transparent)
 
 <br/>
 
-## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка прогресса"/> Прогресс
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/progress-arrows-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="иконка прогресса"/> Прогресс
 
 **Шаг 2 из 6**
 

@@ -40,7 +40,7 @@ Les utilisateurs peuvent maintenant envoyer/recevoir des ZEC sans révéler leur
 4. Accédez au tableau de bord crypto
 
 
-![img1](/content-images/f54cd1a1-8569-4925-ba1c-7597d030593e-8d83734cd5.webp)
+![img1](https://github.com/user-attachments/assets/f54cd1a1-8569-4925-ba1c-7597d030593e)
 
 
 ## Partie 2 : Ajouter Zcash (ZEC) à Brave Wallet
@@ -54,7 +54,7 @@ Les utilisateurs peuvent maintenant envoyer/recevoir des ZEC sans révéler leur
 3. ZEC apparaît maintenant dans votre portefeuille
 
 
-![img2](/content-images/6f2b2190-cf55-4394-9d5f-29ff9b5bb525-13d37cb455.webp)
+![img2](https://github.com/user-attachments/assets/6f2b2190-cf55-4394-9d5f-29ff9b5bb525)
 
 
 ## Partie 3 : Recevoir des ZEC protégés (Unified Address)
@@ -73,7 +73,7 @@ Les utilisateurs peuvent maintenant envoyer/recevoir des ZEC sans révéler leur
 
 
 
-![img3](/content-images/53c940b6-1a03-4fa7-aefa-d3478f678a88-23f68a3855.webp)
+![img3](https://github.com/user-attachments/assets/53c940b6-1a03-4fa7-aefa-d3478f678a88)
 
 
 
@@ -92,7 +92,7 @@ Les utilisateurs peuvent maintenant envoyer/recevoir des ZEC sans révéler leur
 5. Cliquez sur Send - les fonds sont maintenant transférés en privé, en utilisant le pool Orchard
 
 
-![img4](/content-images/Internet_20250808_172118_4-e6df0f7fe2.webp)
+![img4](https://raw.githubusercontent.com/Kellyjoe8/zechub/refs/heads/main/Internet_20250808_172118_4.webp)
 
 
 

@@ -8,7 +8,7 @@ Nteaseɛ no te sɛ nea ɛdidi soɔ yi: Sɛ wohu TEX Address bi a, sika kotokuo a
 
 Wɔakyerɛ mfiridwuma ho nyansahyɛ a ɛfa TEX address ho wɔ Zcash [ZIP 320](https://zips.z.cash/zip-0320), a ɛkyerɛkyerɛ address su bi a wɔde begye sika afi Transparent Addresses nkutoo mu.
 
-![TEX](/content-images/ZashiTex-b1cbec5f07.webp)
+![TEX](https://i.ibb.co/8m7HPqV/ZashiTex.png)
 
 
 Ɛwom sɛ TEX address ahorow a ɛnyɛ no yɛ nea wogye tom kɛse de, nanso ebia wɔbɛhwehwɛ sɛ Zcash dwumadiefoɔ de di dwuma awiei koraa.

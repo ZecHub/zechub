@@ -11,12 +11,12 @@ Le dijitaal ƒe ɣeyiɣia me la, Internet dzi nyatakakawo kple dedienɔnɔ dzi k
 
 __Virtual Private Networks (VPNs)__: VPN xoxowo wɔa mɔ si le dedie, si wotsɔ nya ɣaɣlawo ŋlɔe le wò mɔ̃a kple adzɔge dɔwɔƒe si dzi VPN dɔwɔƒea kpɔ ŋusẽ ɖo dome. Mɔ sia ɣlaa wò Internet dzi dɔwɔnawo ɖe ŋku siwo le ŋku lém ɖe ŋuwò, abe kɔmpiutadzidzelawo, ISP-wo, alo dziɖuɖudɔwɔƒewo ene. Wozãa VPN geɖe hena taɖodzinuwo abe amewo ƒe ŋkɔwo me toto, nyatakaka siwo ŋu woxe mɔ ɖo le anyigba ƒe nɔnɔme nu, kple ametakpɔkpɔ tso Internet dzi ŋɔdzidonamewo me ene.
 
-![nɔnɔmetata223](/content-images/image-223-399e3015e7.webp)
+![nɔnɔmetata223](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Privacy_Tools/assets/image-223.png)
 
 
 __Decentralized VPNs (dVPNs)__: To vovo na ema la, dVPNs zãa blockchain kple peer-to-peer mɔ̃ɖaŋununya tsɔ wɔa decentralized network of nodes. Wotoa node siawo dzi toa ezãlawo ƒe ʋuwo ƒe zɔzɔ dzi, si wɔnɛ be esesẽna na dɔwɔƒe ɖeka aɖeke be wòalé ŋku ɖe network bliboa ŋu alo akpɔ edzi. Zi geɖe la, dVPN-wo te ŋu nɔa te ɖe mɔxexeɖenu nu wu, elabena dziɖuɖumegã aɖeke meli si kpɔa network la dzi o. Wosɔ nyuie na ezãla siwo le adzamenyawo kple dedienɔnɔ si nyo wu dim.
 
-![dvpn ƒe ŋkɔ](/content-images/dvpn-89698d4cb9.webp)
+![dvpn ƒe ŋkɔ](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Privacy_Tools/assets/dvpn.png)
 
 
 # Dedienɔnɔ Ŋuti Nukpɔsusuwo Ne èle VPN Tiam

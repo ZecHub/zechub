@@ -1,7 +1,7 @@
 # Nkọwapụta na Nkwekọrịta: Envelopu E Ji Ime Anwansi Mechie
 ##### Nnyocha mbụ sitere na [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [Alt ederede](/content-images/image-15-0c16784b27.webp)
+! [Alt ederede](image-15.png)
 
 ### Otu esi emechi ihe nzuzo n'ihu ọha ma ghara inwe ike ịgha ụgha banyere ya
 
@@ -30,7 +30,7 @@ This "lock now, reveal later, no lying" gadget is called a **commitment**, and i
 
 A **hash function** takes any data at all, a single letter or an entire library, and crushes it down to a short, fixed-size string called a **digest** or **hash**. Think of it as a **fingerprint for data.**
 
-! [Alt ederede](/content-images/image-16-52fdf62c87.webp)
+! [Alt ederede](image-16.png)
 
 Ezigbo mkpisiaka mkpisi aka nwere njirimara anọ. Were ha dịka ihe omimi, ọ bụghị nha anya:
 
@@ -69,7 +69,7 @@ Ihe ngwọta ya bụ otu okwu: **randomness.**
 
 Ugbu a otu ihe ahụ `v` na-emepụta a dị iche iche na-achọ nkwa oge ọ bụla, n'ihi na `r` ihe abụọ anyị chọrọ n'ikpeazụ ma jide:
 
-! [Alt ederede](/content-images/image-17-3ec4617665.webp)
+! [Alt ederede](image-17.png)
 
 Iji **meghee** (gosi) nkwa ahụ mgbe e mesịrị, ị na-ebipụta `v` na `r`; onye ọ bụla recalculates `H(v, r)` ọ na-enyocha ma ọ dabara. Ị kpọchiri gị. Nke ahụ bụ envelopu ahụ e ji anwansi mechie nke si n'Akwụkwọ 0, nke e mere ka ọ dị adị.
 
@@ -100,7 +100,7 @@ SHA-256 is a superb fingerprint for everyday computing. But Zcash doesn't just *
 
 Ya mere, ndị na-emepụta Zcash chepụtara ọrụ hash nke dị n'ime ya bụ * ugbua * ubi arithmetic, na-eme ka ha dị ọnụ ala iji gosipụta:
 
-! [Alt ederede](/content-images/image-18-89ade807ad.webp)
+! [Alt ederede](image-18.png)
 
 Nrụgide injinịa a, * "ọ ga-abụrịrị ọnụ ala iji gosipụta",* bụ ihe mere Zcash ji mepụta ma nakweere ọrụ hash pụrụ iche kama iru SHA-256 ebe niile.
 

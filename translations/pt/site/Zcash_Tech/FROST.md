@@ -52,7 +52,7 @@ Primeiro, n participantes executam um protocolo de geração distribuída de cha
 Depois disso, quaisquer t de n participantes podem executar um protocolo de assinatura de limiar para gerar colaborativamente uma assinatura Schnorr válida.
 
 <a href="">
-    <img src="/content-images/1634081807-frost-flexible-round-optimize-3697a713d9.webp" alt="" width="400" height="300"/>
+    <img src="https://static.cryptohopper.com/images/news/uploads/1634081807-frost-flexible-round-optimized-schnorr-threshold-signatures-1.jpg" alt="" width="400" height="300"/>
 </a>
 
 ## Visual / Analogia
@@ -76,7 +76,7 @@ Esta fase se baseia em técnicas conhecidas que empregam compartilhamento aditiv
 Na etapa de pré-processamento, cada participante prepara um número fixo de pares de pontos de Curva Elíptica (EC) para uso posterior. Esta etapa é executada uma vez para múltiplas fases de assinatura de limiar.
 
 <a href="">
-    <img src="/content-images/preprocess-5cbb14f892.webp" alt="" width="400" height="300"/>
+    <img src="https://i.ibb.co/nQD1c3n/preprocess.png" alt="" width="400" height="300"/>
 </a>
 
 Rodada de assinatura 1: Cada participante Pᵢ começa gerando um único par privado de nonce (dᵢ, eᵢ) e o par correspondente de pontos EC (Dᵢ, Eᵢ), depois transmite esse par de pontos para todos os outros participantes. Cada participante armazena esses pares de pontos EC para uso posterior. As rodadas de assinatura 2 e 3 são as operações reais nas quais t de n participantes cooperam para criar uma assinatura Schnorr válida.
@@ -86,7 +86,7 @@ Rodada de assinatura 2: Os participantes trabalham juntos para criar uma assinat
 Esta etapa previne ataques de falsificação porque os atacantes não podem combinar partes de assinatura entre operações de assinatura distintas, nem permutar o conjunto de signatários ou os pontos publicados para cada signatário.
 
 <a href="">
-    <img src="/content-images/sign-402794d36a.webp" alt="" width="400" height="300"/>
+    <img src="https://i.ibb.co/b5rJbXx/sign.png" alt="" width="400" height="300"/>
 </a>
 
 Tendo calculado o desafio c, cada participante pode calcular a resposta zᵢ usando os nonces de uso único e as partes secretas de longo prazo, que são partes secretas de Shamir t-de-n (grau t-1) da chave de longa duração do grupo. Ao final da rodada de assinatura 2, cada participante transmite zᵢ aos outros participantes.

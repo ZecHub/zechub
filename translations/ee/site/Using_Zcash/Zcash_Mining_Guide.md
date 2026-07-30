@@ -102,7 +102,7 @@ Tomenukuƒewo maa dɔwɔwɔ eye woama teƒeɖoɖowo ɖe wò hashrate si nèdzɔ 
 3. Fexexe: Ta akpa gãtɔ xea fe le wo ɖokui si ne èɖo suetɔ gbɔ (e.g., 0.05 ZEC). Kpɔ tadeaguƒea ƒe sewo ɖa.
 
    
-![Zcash Tomenukuƒewo Dzikpɔkpɔ ƒe Ðoɖo](/content-images/zcashMining-5ca0019c17.webp)
+![Zcash Tomenukuƒewo Dzikpɔkpɔ ƒe Ðoɖo](https://raw.githubusercontent.com/ZecHub/zechub/aac601cf85076960d334f4c841867a646a5a2f29/assets/images/zcashMining.jpg)
 
 
 ## Aɖaŋuɖoɖowo Kple Nuwɔna Nyuitɔwo

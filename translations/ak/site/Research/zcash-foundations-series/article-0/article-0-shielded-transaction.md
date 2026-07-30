@@ -1,7 +1,7 @@
 # Sɛnea Shielded Zcash Transaction Yɛ Adwuma Ankasa
 ##### Mfitiase Nhwehwɛmu a efi [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt nkyerɛwee](/content-images/image-fedc371488.webp)
+![alt nkyerɛwee](image.png)
 
 ### Intuition ansa na akontaabu no: a no-formula walkthrough of private payments
 
@@ -46,7 +46,7 @@ Sika mpo betumi atwa wɔn ntam hye: sika a wɔde *kɔ* wiase a wɔabɔ ho ban no
 
 Wiase a ɛda adi pefee no ne "Bitcoin a wote ase dedaw bɛyɛ sɛ." Ɛyɛ **wiase a wɔabɔ ho ban** a ɛwɔ cryptography fɛfɛ no nyinaa, na ɛno nkutoo ne wiase a saa ntoatoaso yi dwen ho.
 
-![alt nkyerɛwee](/content-images/image-1-f821d24c6f.webp)
+![alt nkyerɛwee](image-1.png)
 
 ---
 
@@ -124,7 +124,7 @@ Anwonwadeɛ no ne sɛ adanseɛ no da saa nokwasɛm no mu biara adi **biara**. Ɛ
 
 Wɔwo *note*, *ɛte* board no so, na awiei koraa no *wu*, na nea ɛho hia titiriw no, n’awo ne ne wu no te sɛ nea ɛne obiara a ɔrehwɛ no nni abusuabɔ.
 
-![alt nkyerɛwee](/content-images/image-2-0eca0ea4f7.webp)
+![alt nkyerɛwee](image-2.png)
 
 ---
 
@@ -132,7 +132,7 @@ Wɔwo *note*, *ɛte* board no so, na awiei koraa no *wu*, na nea ɛho hia titiri
 
 Momma yɛnhwɛ sɛ Alice tua Bob ka, a wɔakyerɛw ɔmanfo ne kokoam anammɔn biara din.
 
-![alt nkyerɛwee](/content-images/image-4-7af0dfe795.webp)
+![alt nkyerɛwee](image-4.png)
 
 Hyɛ asymmetry a ɛma kokoam nsɛm no yɛ adwuma no nsow:
 
@@ -187,7 +187,7 @@ Nhomasua mu nsɛm pa ma wonya ahotoso denam nea egyaw no a wɔka so. Saa ɔfa yi
 
 "Yɛbɛsan aba eyi so" biara a ɛwɔ atifi hɔ no yɛ asaawa. Baabi a wɔkyekyere wɔn mu biara ni:
 
-![alt nkyerɛwee](/content-images/image-29-27ef4636ff.webp)
+![alt nkyerɛwee](image-29.png)
 
 | Loose end fi asɛm yi mu | Baabi a wɔasiesie |
 |---|---|

@@ -1,7 +1,7 @@
 # Curve Ellittiche: Dove Nascono le Chiavi e gli Impegni di Zcash
 ##### Ricerca originale di [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt text](/content-images/image-10-c1097b22d7.webp)
+![alt text](image-10.png)
 
 ### Una strada a senso unico costruita con punti su una curva
 
@@ -38,7 +38,7 @@ y^2 = x^3 + ax + b
 
 Sui numeri ordinari assomiglia a una curva liscia e ondulata, spesso con un cappio arrotondato e due code:
 
-![alt text](/content-images/image-14-1d2e8c25d2.webp)
+![alt text](image-14.png)
 
 La parte davvero sorprendente: **puoi "sommare" due punti su questa curva per ottenere un terzo punto sulla stessa curva.** Non è l'ordinaria addizione di coordinate. È una regola geometrica, ed è più facile da *vedere* che da spiegare.
 
@@ -50,7 +50,7 @@ Per sommare `P + Q`:
 2. Quella retta colpisce la curva esattamente in un altro punto. Chiamalo `R*`.
 3. **Rifletti `R*` rispetto all'asse orizzontale.** Quella riflessione è la risposta, `P + Q`.
 
-![alt text](/content-images/image-11-61f3df1989.webp)
+![alt text](image-11.png)
 
 ### La regola della tangente (sommare un punto a se stesso)
 
@@ -117,7 +117,7 @@ Ora la magia. Considera le due direzioni:
 
 Quell'asimmetria è la **strada a senso unico** di cui avevamo bisogno nella Sezione 1. Il problema all'indietro ("quale `k` ha prodotto questo punto?") si chiama **Problema del Logaritmo Discreto su Curva Ellittica (ECDLP)**, e sulle curve che Zcash usa, nessun metodo noto lo risolve prima della morte termica dell'universo.
 
-![alt text](/content-images/image-12-86b9ace6cb.webp)
+![alt text](image-12.png)
 
 > Nella nostra curva giocattolo `F_17` *potresti* semplicemente leggere `k` dalla tabella, perché ha solo 19 punti. Le curve reali hanno circa `2^(255)` punti. La tabella avrebbe più righe degli atomi presenti nell'universo, quindi "leggerlo dalla tabella" non è un'opzione. La piccolezza è ciò che rende la curva giocattolo didattica ed è anche il motivo per cui non è sicura.
 
@@ -160,7 +160,7 @@ Le impronte sono concrete e verificabili.
 
 Le ragioni per cui una curva viene "embedded" all'interno del campo di un'altra, e perché un *ciclo* di due curve è utile, sono reali e importanti, ma appartengono agli articoli sui sistemi di prove. Per ora il messaggio da portare a casa è solido: **ogni chiave di Zcash è uno scalare moltiplicato per un generatore, e ogni impegno di Zcash è una somma di punti della curva**, che vivono su una di queste curve nominate.
 
-![alt text](/content-images/image-13-ffdd703c60.webp)
+![alt text](image-13.png)
 
 ---
 

@@ -5,7 +5,7 @@
 Von Null zu Zero Knowledge ist mit einem neuen Thema zurück!  
 Diese Woche beschäftigen wir uns mit **Trusted Execution Environments (TEEs)** – wie sie in Privacy Coins und anderen Blockchain-Anwendungen eingesetzt werden.
 
-![Einführung in Trusted Execution Environments](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
+![Einführung in Trusted Execution Environments](https://pbs.twimg.com/media/Fquj-h2WcAIgSnL.jpg)
 
 ---
 
@@ -31,7 +31,7 @@ Jeder Validator-Knoten betreibt Intel-SGX-Chips. Die Konsens- und Berechnungssch
 
 Das unterscheidet sich von Zcash, das für Privatsphäre **Zero-Knowledge-Beweise** verwendet. In Zcash werden abgeschirmte Transaktionen gesendet und öffentlich validiert, ohne dass dem Netzwerk zusätzliche Daten offengelegt werden. Zcash Shielded Assets folgen demselben Prinzip.
 
-![TEE-Diagramm von Secret Network](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
+![TEE-Diagramm von Secret Network](https://pbs.twimg.com/media/FqulPjNX0AEfjRp.png)
 
 Für eine detaillierte Erklärung, wie TEEs auf Secret Network implementiert werden, lies diesen hervorragenden Artikel von @l_woetzel:  
 https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerability-33ca94b6df38
@@ -55,11 +55,11 @@ Sie ermöglicht es einer entfernten Partei zu verifizieren:
 - Dass die Anwendung nicht manipuliert wurde  
 - Dass sie sicher innerhalb einer Intel-SGX-Enklave ausgeführt wird
 
-![Erklärung von Remote Attestation](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
+![Erklärung von Remote Attestation](https://pbs.twimg.com/media/FqumRjoWwAAeT-M.png)
 
 Enklaven enthalten außerdem private Signatur- und Attestierungsschlüssel, auf die von außen nicht zugegriffen werden kann.
 
-![Schutz von Enklavenschlüsseln](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
+![Schutz von Enklavenschlüsseln](https://pbs.twimg.com/media/Fqumv83XoAQq-MO.png)
 
 ---
 
@@ -69,7 +69,7 @@ Da Enklaven zustandslos sind, müssen Daten manchmal außerhalb in nicht vertrau
 
 **Data Sealing** verschlüsselt Daten innerhalb der Enklave mit einem aus der CPU abgeleiteten Schlüssel. Der verschlüsselte Block kann nur auf **demselben System** wieder entschlüsselt werden.
 
-![Data-Sealing-Diagramm](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
+![Data-Sealing-Diagramm](https://pbs.twimg.com/media/FqunBwyWYAA-TR3.jpg)
 
 ---
 
@@ -79,7 +79,7 @@ Da Enklaven zustandslos sind, müssen Daten manchmal außerhalb in nicht vertrau
 
 Verschlüsselte Daten gelangen zusammen mit dem Smart Contract in das TEE. Sie werden entschlüsselt, verarbeitet und erneut verschlüsselt, bevor sie die Enklave verlassen.
 
-![TEE-Ablauf in Oasis Network](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
+![TEE-Ablauf in Oasis Network](https://pbs.twimg.com/media/FqunJRDXwAMt4Ob.png)
 
 ---
 
@@ -94,7 +94,7 @@ Für PoS-Validatoren gilt:
 
 **TEEs** sind ideal, um Validator-Schlüssel sicher zu erzeugen und zu verwenden.
 
-![Tendermint- & PoS-Sicherheit](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
+![Tendermint- & PoS-Sicherheit](https://pbs.twimg.com/media/Fqun0HEX0AAooxW.jpg)
 
 ---
 

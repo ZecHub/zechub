@@ -40,7 +40,7 @@ Nutzer können jetzt ZEC senden/empfangen, ohne Guthaben oder Metadaten offenzul
 4. Greife auf das Krypto-Dashboard zu
 
 
-![img1](/content-images/f54cd1a1-8569-4925-ba1c-7597d030593e-8d83734cd5.webp)
+![img1](https://github.com/user-attachments/assets/f54cd1a1-8569-4925-ba1c-7597d030593e)
 
 
 ## Teil 2: Zcash (ZEC) zu Brave Wallet hinzufügen
@@ -54,7 +54,7 @@ Nutzer können jetzt ZEC senden/empfangen, ohne Guthaben oder Metadaten offenzul
 3. ZEC erscheint jetzt in deiner Wallet
 
 
-![img2](/content-images/6f2b2190-cf55-4394-9d5f-29ff9b5bb525-13d37cb455.webp)
+![img2](https://github.com/user-attachments/assets/6f2b2190-cf55-4394-9d5f-29ff9b5bb525)
 
 
 ## Teil 3: Abgeschirmtes ZEC empfangen (Unified Address)
@@ -73,7 +73,7 @@ Nutzer können jetzt ZEC senden/empfangen, ohne Guthaben oder Metadaten offenzul
 
 
 
-![img3](/content-images/53c940b6-1a03-4fa7-aefa-d3478f678a88-23f68a3855.webp)
+![img3](https://github.com/user-attachments/assets/53c940b6-1a03-4fa7-aefa-d3478f678a88)
 
 
 
@@ -92,7 +92,7 @@ Nutzer können jetzt ZEC senden/empfangen, ohne Guthaben oder Metadaten offenzul
 5. Klicke auf Senden – die Mittel werden nun privat übertragen, unter Verwendung des Orchard-Pools
 
 
-![img4](/content-images/Internet_20250808_172118_4-e6df0f7fe2.webp)
+![img4](https://raw.githubusercontent.com/Kellyjoe8/zechub/refs/heads/main/Internet_20250808_172118_4.webp)
 
 
 

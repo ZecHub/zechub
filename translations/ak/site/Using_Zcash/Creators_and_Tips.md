@@ -59,7 +59,7 @@
 
 ## TipZ a ɛyɛ fɛ
 
-![Afotuo Ahyɛnsodeɛ](/content-images/BbXM8cDV_400x400-e6071ba983.webp)
+![Afotuo Ahyɛnsodeɛ](https://pbs.twimg.com/profile_images/2023711029805350912/BbXM8cDV_400x400.jpg)
 
 ### Nsɛm a wɔaka abom
 

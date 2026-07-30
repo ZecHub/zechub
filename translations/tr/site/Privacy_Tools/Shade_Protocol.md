@@ -2,7 +2,7 @@
 
 # Shade Protocol
 
-![Shade Protocol Logo](/content-images/Af8EzlNiwGr4FTFX7oqdBuE-71316827d0.webp)
+![Shade Protocol Logo](https://framerusercontent.com/images/Af8EzlNiwGr4FTFX7oqdBuE.png)
 
 ## Shade Protocol nedir?
 
@@ -14,7 +14,7 @@ Shade Protocol, kullanıcı gizliliğini ve güvenliğini sağlarken çeşitli f
 
 Shade Protocol, gizliliği koruyan akıllı sözleşmeler sunan bir katman 1 blokzinciri olan Secret Network üzerine kuruludur. Secret Network, işlem gizliliğini sağlamak için şifrelenmiş girdiler, çıktılar ve durum kullanır; böylece kullanıcı verilerinin kamuya açık defterde görünmesini engeller.
 
-![Secret Network Diagram](/content-images/1-yyZ5hFOw6z8zXX_rgJn5iw-9091067aa1.webp)
+![Secret Network Diagram](https://miro.medium.com/v2/resize:fit:828/format:webp/1*yyZ5hFOw6z8zXX_rgJn5iw.png)
 
 Secret Network, geliştiricilerin şifrelenmiş verilerle merkeziyetsiz uygulamalar oluşturmasını sağlar; hem Secret üzerinde yerel olarak hem de zincirler arası iletişim yoluyla diğer blokzincirlerde, Web3 için güçlü yeni kullanım senaryolarının önünü açar.
 
@@ -23,7 +23,7 @@ Secret Network, geliştiricilerin şifrelenmiş verilerle merkeziyetsiz uygulama
 Cosmos, Tendermint ve Cosmos SDK gibi yeni araçları kullanarak bu blokzincirleri inşa etmek için daha iyi ve daha modern yöntemler tanımlayarak heterojen blokzincirleri birbirine bağlamak amacıyla oluşturuldu.  
 Protokol, ölçeklenebilir ve birlikte çalışabilir blokzincir uygulamaları geliştirmek için modüler bir çerçeve olan Cosmos SDK’yı kullanır. Bu, Shade Protocol’ün Cosmos ekosisteminin sağlamlığından ve birlikte çalışabilirliğinden yararlanmasını sağlar.
 
-![Cosmos SDK and Tendermint Core Diagram](/content-images/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e-ed16bb7658.webp)
+![Cosmos SDK and Tendermint Core Diagram](https://s3.ap-northeast-1.amazonaws.com/gimg.gateimg.com/learn/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e.jpg)
 
 Uzlaşma ve ağ güvenliği için Shade Protocol, yüksek güvenlik ve hızlı kesinlik sağlayan Byzantine Fault Tolerant (BFT) uzlaşmasını sunan Tendermint Core kullanır.
 
@@ -37,9 +37,9 @@ Gizliliği koruyan DeFi, blokzincir ağlarında kullanıcı gizliliğini ve veri
 
 Shade Protocol, iki ana token’ı için viewing keys kullanır: Shade ($SHD) ve Silk ($SILK). Shade ($SHD), ekosistem içinde hazine, yönetişim ve gelir paylaşımı token’ı olarak birden fazla rol üstlenir. Staking, yönetişim teklifleri, likidite sağlama, işlemler ve tahvillerde kullanılır. Silk ($SILK) ise protokolün gizlilik odaklı stablecoin’idir ve altın, Bitcoin, USD, Euro ve Yen gibi çeşitli küresel para birimleri ve emtialardan oluşan bir sepete endekslidir.
 
-![Shade and Silk Tokens - Part 1](/content-images/9wTrxCdx8AoRcCwsGub13QXuY-807ed3b400.webp)
+![Shade and Silk Tokens - Part 1](https://framerusercontent.com/images/9wTrxCdx8AoRcCwsGub13QXuY.png?scale-down-to=1024)
 
-![Shade and Silk Tokens - Part 2](/content-images/IUC9YWfErTebCBsMkdbCnjSWGEY-4ed6d5cedf.webp)
+![Shade and Silk Tokens - Part 2](https://framerusercontent.com/images/IUC9YWfErTebCBsMkdbCnjSWGEY.png)
 
 ### Gizlilik
 
@@ -57,7 +57,7 @@ Bir DeFi platformu olarak Shade Protocol, merkezi kontrol olmadan çalışır ve
 
 Cosmos ekosisteminin bir parçası olması, Shade Protocol’ün diğer blokzincirlerle kolayca etkileşime girebilmesi anlamına gelir; bu da likiditeyi artırır ve kullanıcılara varlıklarını farklı ağlar arasında değerlendirmeleri için daha fazla fırsat sunar. Secret Network’ten gelen gizliliği koruyan teknolojileri kullanan Shade Protocol, bu zincirler arası faaliyetlerin gizliliğini ve bütünlüğünü korumasını sağlar. Bu birlikte çalışabilirlik yalnızca merkeziyetsiz uygulamaların esnekliğini ve işlevselliğini artırmakla kalmaz, aynı zamanda daha bağlantılı ve daha güçlü bir blokzincir ekosistemini teşvik eder; izole ağlara bağımlılığı azaltır ve merkeziyetsiz finans çözümlerinin daha geniş benimsenmesini destekler.
 
-![Interoperability Diagram](/content-images/3zIwSJHEwP9tkn4aI0do0lhgFTE-2aed930de0.webp)
+![Interoperability Diagram](https://framerusercontent.com/images/3zIwSJHEwP9tkn4aI0do0lhgFTE.png)
 
 ## Sonuç
 

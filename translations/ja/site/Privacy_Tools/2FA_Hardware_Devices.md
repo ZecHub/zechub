@@ -10,7 +10,7 @@
 
 これらのキーは、ユーザー名とパスワードと組み合わせて使用され、許可されたユーザーだけがアカウントやデータにアクセスできるように設計されています。USBドライブ、NFCカード、またはBluetoothデバイスなどのさまざまな形態で提供されます。
 
-![ハードウェアセキュリティキーの例](/content-images/1dff66a4-d8e6-483f-9a1e-065d3974d665-a4c6c73e00.webp)
+![ハードウェアセキュリティキーの例](https://github.com/ZecHub/zechub/assets/81990132/1dff66a4-d8e6-483f-9a1e-065d3974d665)
 
 ## ハードウェアセキュリティキーの動作方法
 
@@ -26,7 +26,7 @@ YubiKeyなどのハードウェアセキュリティキーデバイスを使用�
 
 いいえ、ハードウェアセキュリティキーデバイスには多くの形式があり、すべてのデバイスやオペレーティングシステムと互換性があるわけではありません。キーを購入する前に、自分のデバイスおよびオペレーティングシステムとの互換性があることを確認してください。
 
-![ハードウェアセキュリティキーのフォームファクター](/content-images/a830c435-ad20-4183-b381-475afe1089b3-5537cd7388.webp)
+![ハードウェアセキュリティキーのフォームファクター](https://github.com/ZecHub/zechub/assets/81990132/a830c435-ad20-4183-b381-475afe1089b3)
 
 ## ハードウェアセキュリティキーは複数のアカウントで使用できますか？
 
@@ -42,7 +42,7 @@ YubiKeyなどのハードウェアセキュリティキーデバイスを使用�
 
 **Yubico YubiKey 5 NFC**
 
-![Yubico YubiKey 5 NFC](/content-images/bf1ac95e-7277-4559-b5ef-63117b66971b-3aa542aba7.webp)
+![Yubico YubiKey 5 NFC](https://github.com/ZecHub/zechub/assets/81990132/bf1ac95e-7277-4559-b5ef-63117b66971b)
 
 Yubicoは、多くのセキュリティキーデバイスで使用されているFIDO U2Fオープン認証基準の共同開発者であり、その製品であるYubiKey 5 NFCはあなたのデバイスを安全に保護するための信頼できる選択肢です。名前の通り、USB A（またはアダプターを使用してUSB C）やNFCで動作します。
 Google Chrome、Facebook、Dropbox、LastPass、1Passwordなど多くのサービスと即座に互換性があります。YubiKey 5はコンパクトで耐久性があり軽量であり、防水機能も備えています。
@@ -50,7 +50,7 @@ Google Chrome、Facebook、Dropbox、LastPass、1Passwordなど多くのサー�
 
 **Thetis Fido U2F Security Key**
 
-![Thetis Fido U2F Security Key](/content-images/b83e42e5-bba6-4175-ad6c-d64972ef54ef-a2ef17a10d.webp)
+![Thetis Fido U2F Security Key](https://github.com/ZecHub/zechub/assets/81990132/b83e42e5-bba6-4175-ad6c-d64972ef54ef)
 
 セキュリティキーデバイスの中でコストパフォーマンスが最も良いとされるモデルの一つはThetis製です。このモデルにはBluetooth機能が搭載されておらず（より高価なモデルでは利用可能）、FIDO U2F標準のみをサポートしているため、UAFやOTPとの互換性はありません。ただし、Windows、macOS、LinuxでChromeまたはOperaブラウザを使用する場合に、安全なウェブサイトへのアクセスを提供します。
 この手頃な価格のセキュリティキーデバイスは、回転式アルミニウムケースが装備されており、輸送中に接続部分が損傷しないように設計されています。ブラック、ゴールド、シルバーの3つの色から選べます。
@@ -58,7 +58,7 @@ Google Chrome、Facebook、Dropbox、LastPass、1Passwordなど多くのサー�
 
 **CryptoTrust OnlyKey**
 
-![CryptoTrust OnlyKey](/content-images/13be6ecc-227e-498c-8a36-6d52c023cd78-06e3e924dc.webp)
+![CryptoTrust OnlyKey](https://github.com/ZecHub/zechub/assets/81990132/13be6ecc-227e-498c-8a36-6d52c023cd78)
 
 名前の通り、OnlyKeyは競合製品にはない便利な機能を備えています。コンピュータにキーロガーが侵入した場合でも、オンボードのキーパッドによりオンラインアカウントを安全に保つことができます。FIDO 2 U2F、Yubico OTP、TOTPなどの複数の2FA方法をサポートしています。
 主流用途では最適なパスワードマネージャーではありませんが、OnlyKeyは単一のキーで24つのOTPアカウント、24つのパスワード、24つのユーザー名/URLを保存できます。これは、複数のパスワードを覚えるのが苦手で、キーデバイスに任せたい場合に非常に便利です。
@@ -71,22 +71,22 @@ Google Chrome、Facebook、Dropbox、LastPass、1Passwordなど多くのサー�
 **ステップ1**  
 Gmailアカウントにログインし、**Googleアカウントの管理** をクリックしてください。
 
-![Googleアカウント - アカウントの管理](/content-images/995fc955-791a-4456-9218-7e5964da48b5-31c64640b2.webp)
+![Googleアカウント - アカウントの管理](https://github.com/ZecHub/zechub/assets/81990132/995fc955-791a-4456-9218-7e5964da48b5)
 
 **ステップ2**  
 **セキュリティ** をクリックしてください。
 
-![Googleのセキュリティ設定](/content-images/246db235-6596-41ff-bd7a-f8ee4f80962b-340193c2c3.webp)
+![Googleのセキュリティ設定](https://github.com/ZecHub/zechub/assets/81990132/246db235-6596-41ff-bd7a-f8ee4f80962b)
 
 **ステップ3**  
 **2段階認証** をクリックしてください。
 
-![2段階認証画面](/content-images/19cd202a-1a70-47e6-a02a-aa24f6e199fa-a9fcb911ce.webp)
+![2段階認証画面](https://github.com/ZecHub/zechub/assets/81990132/19cd202a-1a70-47e6-a02a-aa24f6e199fa)
 
 **ステップ4**  
 **もっとオプションを表示** を選択してください。
 
-![もっとオプションを表示](/content-images/2ade9531-1cf6-48e8-b9a8-178d41a4cd30-b1e9ea1400.webp)
+![もっとオプションを表示](https://github.com/ZecHub/zechub/assets/81990132/2ade9531-1cf6-48e8-b9a8-178d41a4cd30)
 
 **ステップ5**  
 今度は **セキュリティキー** を選択し、その後 **進む** をクリックしてください。

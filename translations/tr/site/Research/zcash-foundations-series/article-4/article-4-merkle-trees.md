@@ -1,7 +1,7 @@
 # Merkle Ağaçları: Blockchain Her Notu Nasıl Hatırlar?
 ##### Özgün araştırma: [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt text](/content-images/image-19-cfbdcf8f78.webp)
+![alt text](image-19.png)
 
 ### Milyonlarca commitment'ı tek bir küçücük parmak izinde özetlemek
 
@@ -34,7 +34,7 @@ Bir eleme turnuvası tablosu düşünün; ama ilerleyen şey oyuncular değil, *
 - Üst düğümleri eşleştirin, her çifti birlikte hash'leyin ve böyle devam edin.
 - En tepeye **tek bir parmak izi** kalana kadar sürdürün. O şampiyon, **Merkle root**'tur.
 
-![alt text](/content-images/image-20-f5d57e425a.webp)
+![alt text](image-20.png)
 
 En önemli özellik doğrudan çığ etkisinden gelir (Makale 3):
 
@@ -77,7 +77,7 @@ step 2:  H(hAB , hCD)      = ROOT?     (combine with the uncle)
 
 Gerçekte hesaplandığında sonuç `1b3faa3fcc5e...` olur; bu da **root ile eşleşir.** Böylece yaprağın ağaçta olduğu kanıtlanmış olur.
 
-![alt text](/content-images/image-21-d9e5d6eaf6.webp)
+![alt text](image-21.png)
 
 Bunu güçlü kılan iki şey vardır:
 
@@ -99,7 +99,7 @@ Birkaç somut ayrıntı:
 - **Sabit derinlik.** Zcash'in shielded ağaçları **32** derinliğindedir; yani `2^(32)` kadar (dört milyardan fazla) not tutabilirler.
 - **ZK-dostu hashing.** Ağaç SHA-256 ile kurulmaz. Sapling ağacı **Pedersen hashes** ile, Orchard ise **Sinsemilla** ile hash'ler (ikisi de Makale 3'ten gelir); bunun nedeni üyelik tırmanışının bir devre içinde kanıtlanmasının ucuz olmasıdır.
 
-![alt text](/content-images/image-22-518354b8d5.webp)
+![alt text](image-22.png)
 
 ### Ağacın *halletmediği* bir şey: double-spend'ler
 

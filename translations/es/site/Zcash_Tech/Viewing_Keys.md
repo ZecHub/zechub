@@ -47,7 +47,7 @@ Las direcciones blindadas permiten a los usuarios realizar transacciones revelan
 * En la esquina superior derecha, selecciona "Account", haz clic en "+" en la esquina inferior derecha para añadir e importar tu Viewing Key y agregar tu cuenta de 'solo lectura'.
 
 <a href="">
-    <img src="/content-images/image-2024-01-13-175554676-8cdf988797.webp" alt="" width="200" height="280"/>
+    <img src="https://i.ibb.co/C0b002N/image-2024-01-13-175554676.png" alt="" width="200" height="280"/>
 </a>
 
 

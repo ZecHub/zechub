@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
 </a>
 
-# <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Texte alternatif" width="50"/>   Bourses non dépositaires
+# <img src="https://i.ibb.co/BN7SxwY/ZEC-USD.png" alt="Texte alternatif" width="50"/>   Bourses non dépositaires
 
 [Bourses non dépositaires Zcash](/site/Using_Zcash/DEX_List)
 

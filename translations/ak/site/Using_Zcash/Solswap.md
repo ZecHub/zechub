@@ -2,7 +2,7 @@
 
 
 
-![img1](/content-images/SJOlnt-ceg-34468cfecd.webp)
+![img1](https://hackmd.io/_uploads/SJOlnt-ceg.png)
 
 ---
 
@@ -11,7 +11,7 @@ Fi ase **Phantom app** no na pia **Swap** bɔtn no so, .
 anaa kɔ **[solswap.org](https://solswap.org/)** fi wo Phantom browser no so. 
 
 
-![img2](/content-images/S1Cp-KWqxe-ab70e844b9.webp)
+![img2](https://hackmd.io/_uploads/S1Cp-KWqxe.jpg)
 
 ---
 
@@ -19,7 +19,7 @@ anaa kɔ **[solswap.org](https://solswap.org/)** fi wo Phantom browser no so.
 - Paw wo **source network** (e.g., *Ethereum* anaa *Solana*) afei fa to hɔ ma sesa. 
 
 
-![img3](/content-images/S1SaGYZ9xx-2a27ccdd47.webp)
+![img3](https://hackmd.io/_uploads/S1SaGYZ9xx.jpg)
 
 - Paw base token te sɛ **SOL, USDT, anaa USDC**. 
 - Paw **ZEC** sɛ wo **destination token**. 
@@ -27,7 +27,7 @@ anaa kɔ **[solswap.org](https://solswap.org/)** fi wo Phantom browser no so.
 
 
 
-![img4 na ɛwɔ hɔ](/content-images/ry4QQF-5gx-f3805528ea.webp)
+![img4 na ɛwɔ hɔ](https://hackmd.io/_uploads/ry4QQF-5gx.jpg)
 
 ---
 
@@ -36,7 +36,7 @@ anaa kɔ **[solswap.org](https://solswap.org/)** fi wo Phantom browser no so.
 - Phantom bɛda **sika a wɔabu akontaa sɛ wobenya** adi wɔ sika a wɔatua akyi. 
 
 
-![img5](/content-images/B1U1NYW5xe-58cf150668.webp)
+![img5](https://hackmd.io/_uploads/B1U1NYW5xe.jpg)
 
 ---
 
@@ -63,7 +63,7 @@ Kɔ **Sesa Nsiesiei** so kɔ:
 - Klik **Swap Now** na fi ase yɛ adwuma no. 
 
 
-![img6](/content-images/HkU1UKZ5gx-e068ea8d5a.webp)
+![img6](https://hackmd.io/_uploads/HkU1UKZ5gx.jpg)
 
 ---
 
@@ -72,6 +72,6 @@ Kɔ **Sesa Nsiesiei** so kɔ:
 - Sɛ wopɛ cross-chain swaps a, fa wo **transaction ID** ne **Li.Fi Scanner** di dwuma ma bere ankasa mu nsɛm foforo. 
 
 
-![img7](/content-images/S1NBwKbcxe-5b7d11f5c1.webp)
+![img7](https://hackmd.io/_uploads/S1NBwKbcxe.jpg)
 
 ## Afei wubetumi afi ase de akwankyerɛ yi abɔ wo [ZEC ho ban](https://zechub.wiki/guides/using-zec-privately)

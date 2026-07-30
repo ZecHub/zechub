@@ -4,7 +4,7 @@
 
 # Raspberry Pi 4 Mwongozo kwa Running Zebra
 
-<img src="/content-images/image-2023-11-28-172907488-e7e9fd4ac5.webp" alt="raspberry pi" width="300" height="300"/>
+<img src="https://i.ibb.co/V3rjKwv/image-2023-11-28-172907488.png" alt="raspberry pi" width="300" height="300"/>
 
 Kuendesha programu Zebra node juu ya Raspberry Pi 4 utapata kushiriki katika mtandao Zcash kama huru, makubaliano-sambamba node. Mwongozo huu kutembea wewe kupitia hatua za kuanzisha na kuendesha Zebra juu ya yako RaspBerry Pi 4.
 
@@ -67,7 +67,7 @@ Kuendesha programu Zebra node juu ya Raspberry Pi 4 utapata kushiriki katika mta
 7. __Kufuatilia__
    Unaweza kufuatilia maendeleo na hali ya node yako Zebra kwa kufungua kivinjari cha mtandao na navigating kwa __http://127.0.0.1:8233/status__.
 
-<img src="/content-images/image-2023-11-28-173024853-99540511cf.webp" alt="zebra logo" width="200" height="200"/>
+<img src="https://i.ibb.co/BCtKrGp/image-2023-11-28-173024853.png" alt="zebra logo" width="200" height="200"/>
 
 ## Kutatua matatizo
 

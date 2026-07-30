@@ -52,7 +52,7 @@ FROST 프로토콜에는 두 가지 중요한 구성 요소가 포함되어 있�
 이후에는 t-out-of-n 참여자가 임계 서명 프로토콜을 실행하여 협력적으로 유효한 Schnorr 서명을 생성할 수 있습니다.
 
 <a href="">
-    <img src="/content-images/1634081807-frost-flexible-round-optimize-3697a713d9.webp" alt="" width="400" height="300"/>
+    <img src="https://static.cryptohopper.com/images/news/uploads/1634081807-frost-flexible-round-optimized-schnorr-threshold-signatures-1.jpg" alt="" width="400" height="300"/>
 </a>
 
 ## 시각적 설명 / 비유
@@ -76,7 +76,7 @@ DKG 프로토콜이 끝나면 공동 검증 키 vk가 생성됩니다. 각 참�
 사전 준비 단계에서는 각 참여자가 이후 사용하기 위해 일정 수의 타원 곡선(EC) 포인트 쌍을 준비합니다. 이 단계는 여러 임계 서명 단계에 걸쳐 한 번만 실행됩니다.
 
 <a href="">
-    <img src="/content-images/preprocess-5cbb14f892.webp" alt="" width="400" height="300"/>
+    <img src="https://i.ibb.co/nQD1c3n/preprocess.png" alt="" width="400" height="300"/>
 </a>
 
 서명 라운드 1: 각 참여자 Pᵢ는 먼저 단일 비밀 nonce 쌍 (dᵢ, eᵢ) 및 해당 EC 포인트 쌍 (Dᵢ, Eᵢ)을 생성한 후 이 쌍의 포인트를 모든 다른 참여자에게 브로드캐스트합니다. 각 참여자는 이후 사용하기 위해 이러한 EC 포인트 쌍을 저장합니다. 서명 라운드 2 및 3은 t-out-of-n 참여자가 협력하여 유효한 Schnorr 서명을 생성하는 실제 작업입니다.
@@ -86,7 +86,7 @@ DKG 프로토콜이 끝나면 공동 검증 키 vk가 생성됩니다. 각 참�
 이 단계는 위조 공격을 방지하는 데 도움이 됩니다. 공격자는 다른 서명 작업에서 서명 셰어를 결합하거나 각 서명자 및 해당 서명자의 출판 포인트 집합을 순열할 수 없습니다.
 
 <a href="">
-    <img src="/content-images/sign-402794d36a.webp" alt="" width="400" height="300"/>
+    <img src="https://i.ibb.co/b5rJbXx/sign.png" alt="" width="400" height="300"/>
 </a>
 
 도전 c를 계산한 후, 각 참여자는 단일 사용 비밀 nonce 및 장기적인 비밀 셰어를 사용하여 응답 zᵢ를 계산할 수 있습니다. 이는 그룹의 장기 키에 대한 t-out-of-n (t-1 차수) Shamir 비밀 공유입니다. 서명 라운드 2가 끝나면 각 참여자는 zᵢ를 다른 참여자에게 브로드캐스트합니다.

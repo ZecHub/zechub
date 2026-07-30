@@ -13,7 +13,7 @@ Kurtarma ifadeleri, günümüzde kullanılan en yaygın kurtarma ifadesi türü 
 
 Kurtarma ifadelerinin oluşturulması **rastgelelik** üretilmesiyle başlar. Daha fazla entropi, daha yüksek güvenlik anlamına gelir. **128 bit** entropi çoğu kullanıcı için yeterli kabul edilir.
 
-![Tohum ifadesi kavramı](/content-images/FooM3qWWACgrwzn-f222c4081f.webp)
+![Tohum ifadesi kavramı](https://pbs.twimg.com/media/FooM3qWWACgrwzn.jpg)
 
 Başlangıç entropisinin uzunluğuna bağlı olarak, kurtarma ifadesi **12 ila 24 kelime** uzunluğunda olur.
 
@@ -28,7 +28,7 @@ Başlangıç entropisinin uzunluğuna bağlı olarak, kurtarma ifadesi **12 ila 
 Entropiyi **SHA256** kullanarak hash'liyoruz. Bu hash'in ilk birkaç biti sağlama toplamı olur.  
 Bu bize entropimiz için benzersiz bir parmak izi verir.
 
-![Entropi + Sağlama Toplamı diyagramı](/content-images/FooNoOEXgAAu-g6-613238fa7e.webp)
+![Entropi + Sağlama Toplamı diyagramı](https://pbs.twimg.com/media/FooNoOEXgAAu-g6.png)
 
 ### 3. 11 bitlik parçalara bölün
 Toplam 132 bit (128 entropi + 4 sağlama toplamı), 11 bitlik parçalara ayrılır.
@@ -39,7 +39,7 @@ BIP-39 kelime listeleri tam olarak **2048 kelime** içerir (İngilizce, İspanyo
 
 Bu sayılar, kelime listesindeki karşılık gelen kelimeyi bulmak için kullanılır.
 
-![Kelime eşleme örneği](/content-images/FooN9rfXEBoQuU2-d11331fc0a.webp)
+![Kelime eşleme örneği](https://pbs.twimg.com/media/FooN9rfXEBoQuU2.png)
 
 **Sonuç:** Artık güvenli, insanlar tarafından okunabilir 12 kelimelik bir kurtarma ifademiz var!
 
@@ -59,7 +59,7 @@ Cüzdan tohumu, anımsatıcı ifadeden bir **Anahtar Türetme Fonksiyonu (KDF)**
 
 Bu, **64 baytlık (512 bit)** bir tohum üretir.
 
-![Tohumdan ana anahtarlara](/content-images/FooOuumXEAgcBm1-dc7c66b84a.webp)
+![Tohumdan ana anahtarlara](https://pbs.twimg.com/media/FooOuumXEAgcBm1.jpg)
 
 ### Ana Anahtarlar
 Tohum iki adet 32 baytlık diziye ayrılır:
@@ -83,7 +83,7 @@ Bir **Expanded Spending Key**'den şunları türetiriz:
 
 Farklı türetme mekanizmaları, korumalı havuzlar (Sapling ve Orchard) boyunca göndericilere verilmek için uygun harici adresler üretir.
 
-![Zcash anahtar türetme hiyerarşisi](/content-images/FooPKd4XEBUQhJ6-af133c01bf.webp)
+![Zcash anahtar türetme hiyerarşisi](https://pbs.twimg.com/media/FooPKd4XEBUQhJ6.jpg)
 
 Zcash ayrıca, Auto-Shielding gibi cüzdan işlemleri için **dahili adresleri** de destekler.
 

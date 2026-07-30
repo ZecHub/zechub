@@ -5,7 +5,7 @@
 
 크로스링크 프로토콜은 Zcash의 진화에 있어 중요한 발전으로, **하이브리드 블록체인** 모델을 도입하고 있습니다. 전통적인 Proof-of-Work(PoW)는 네트워크 보안을 보장하는 데 효과적이지만, 산업적 채굴과 관련된 에너지 소비 및 중앙집중화 위험에 대해 비판을 받고 있습니다. 크로스링크는 PoW의 입증된 견고함과 PoS의 효율성 및 거버넌스 이점을 결합한 하이브리드 시스템을 도입합니다.
 
-![image](/content-images/a2ffb19d-e570-4723-b669-a66e14fc6b71-a727c958de.webp)
+![image](https://github.com/user-attachments/assets/a2ffb19d-e570-4723-b669-a66e14fc6b71)
 
 이 전환은 블록체인 혁신의 글로벌 트렌드와 일치하며, 프로젝트들이 환경 지속 가능성과 분산화된 메커니즘으로 이동하고 있습니다. 크로스링크의 이중 합의 모델은 Zcash가 강력한 암호학적 개인정보 보장과 함께 현대적인 도전에 대응할 수 있도록 합니다.
 
@@ -24,7 +24,7 @@
 
 구현 계획에는 Zcash의 Zebra 클라이언트에 Crosslink 2*를 통합하는 예상 공학 비용이 포함된 로드맵이 있습니다. 이 단계적 배포는 이해관계자 인센티브 균형, 중단 최소화 및 확장성, 사용성, 분산화 목표와 일치하도록 합니다. 프로토콜의 견고한 보안 특성을 대한 점점 높아지는 신뢰는 Zcash 진화에 있어 중요한 단계가 될 잠재력을 강화합니다. 에너지 효율성 개선과 합의 메커니즘 향상으로 크로스링크는 변화하는 블록체인 도전에 대한 미래 지향적인 해결책을 제공합니다. 더 많은 정보는 [GitHub 저장소](https://github.com/ShieldedLabs/crosslink-deployment) 및 [Zcash 커뮤니티 포럼](https://forum.zcashcommunity.com)에서 확인할 수 있습니다.
 
-![image](/content-images/b34afda4-fe33-448f-b0dd-279fd6cef1f5-73f58cdcc6.webp)
+![image](https://github.com/user-attachments/assets/b34afda4-fe33-448f-b0dd-279fd6cef1f5)
 
 
 #### **크로스링크의 목표 및 목적**
@@ -55,7 +55,7 @@
 
 낮은 지연 시간 레저는 최종 확정된 레저보다 최대 *L* 블록 만큼 확장됩니다. 이는 블록체인 프로토콜만으로 롤백 안전성을 보장하며, 기존 Zcash 모델과 동일하거나 더 나은 지연 시간 및 보안을 유지합니다. 간소화된 크로스링크 2* 설계에서는 낮은 지연 시간 레저가 PoW 체인으로 작동하여 개발 및 채택을 용이하게 합니다.
 
-![image](/content-images/fd039664-4852-4fb0-8c88-0615f1ed116e-41459b81dc.webp)
+![image](https://github.com/user-attachments/assets/fd039664-4852-4fb0-8c88-0615f1ed116e)
 
 
 ### 제한된 가용성 및 안전 모드

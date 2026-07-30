@@ -26,7 +26,7 @@ Iji malite, họrọ ebe nchekwa Git ịchọrọ ịnabata & mepụta ya:
 
 Gbaa Iwu: "git clone https://github.com/zechub/zechub"
 
-![](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
+![](https://i.ibb.co/HxFX37b/Screenshot-from-2023-05-20-14-14-46.png)
 
 
 Ugbu a, iji nweta ya njikere ka cloned site IPFS.
@@ -54,11 +54,11 @@ $ pwd
 
 $ ipfs gbakwunye -r .
 
-![](/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp)
+![](https://i.ibb.co/LJgK1q3/Screenshot-from-2023-05-20-14-22-38.png)
 
 Ihe si na CID pụta: Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
 
-![](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
+![](https://i.ibb.co/GvhCLwn/Screenshot-from-2023-05-20-14-26-34.png)
 
 Ọmarịcha! Ugbu a, a na-ebugote ebe nchekwa gị na netwọkụ.
 

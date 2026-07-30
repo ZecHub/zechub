@@ -102,7 +102,7 @@ Mining pools distribute work and share rewards based on your contributed hashrat
 3. Malipo: Mashindano mengi hulipwa moja kwa moja unapofika kiwango cha chini (kwa mfano, 0.05 ZEC).
 
    
-[Zcash Mining Ufuatiliaji Setup](/content-images/zcashMining-5ca0019c17.webp)
+[Zcash Mining Ufuatiliaji Setup](https://raw.githubusercontent.com/ZecHub/zechub/aac601cf85076960d334f4c841867a646a5a2f29/assets/images/zcashMining.jpg)
 
 
 ## Madokezo na Mazoea Bora

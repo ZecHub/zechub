@@ -20,7 +20,7 @@ Le Hash Functions prendono un input di qualsiasi lunghezza e producono un output
 - **Output risultante** = Hash Value  
 
 
-![Hash Function diagram](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
+![Hash Function diagram](https://pbs.twimg.com/media/Fn_NkFHXgAEtgse.png)
 
 ### Provalo tu stesso!
 
@@ -58,12 +58,12 @@ Esistono diverse classi di Hash Functions. Alcuni esempi:
 #### 1. Integrity Hashing (controlli di integrità dei dati)
 I controlli di integrità dei dati sono un esempio di "Integrity Hashing". Vengono usati per generare checksum sui file di dati e fornire all'utente la garanzia di correttezza.
 
-![Integrity Hashing example](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
+![Integrity Hashing example](https://pbs.twimg.com/media/Fn_Or0MWIAI6sgx.png)
 
 #### 2. Merkle Trees (Hash Trees)
 Un **hash tree** o **Merkle tree** è composto da rami e nodi foglia etichettati con l'hash crittografico di un blocco di dati.
 
-![Merkle Tree diagram](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
+![Merkle Tree diagram](https://pbs.twimg.com/media/Fn_O7ndWIAY5PA-.jpg)
 
 I Merkle tree sono un esempio di **commitment scheme crittografico**. La radice dell'albero è vista come un commitment e i nodi foglia vengono dimostrati far parte del commitment originale.
 
@@ -75,7 +75,7 @@ Nei pool schermati **Sapling** e **Orchard** di Zcash, il **Note Commitment Tree
 #### 4. Signature Hash (blocchi in stile Bitcoin)
 **SHA256** è un esempio di "Signature hash" usato per imporre l'immutabilità di ogni blocco nella chain di Bitcoin. I miner usano l'hash del blocco precedente + un hash di tutte le transazioni nel blocco corrente (hashMerkleRoot) + il timestamp + un valore casuale / la difficoltà di rete per i nuovi blocchi.
 
-![SHA256 block diagram](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
+![SHA256 block diagram](https://pbs.twimg.com/media/Fn_PaVZXoAApHPf.jpg)
 
 #### 5. Equihash (mining di Zcash)
 **Equihash** è l'algoritmo di hashing usato nel mining di Zcash. È usato anche da reti come Komodo e Horizen.

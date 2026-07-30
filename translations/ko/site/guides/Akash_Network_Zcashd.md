@@ -90,7 +90,7 @@ Akash에서 포트를 노출할 때(예: zcashd P2P용 8233포트), 이는 **제
 
 ### 옵션 A: SDL 파일 업로드 (추천)
 
-[![Akash에서 배포](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
+[![Akash에서 배포](https://raw.githubusercontent.com/akash-network/console/refs/heads/main/apps/deploy-web/public/images/deploy-with-akash-btn.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
 
 ### 옵션 B: SDL 편집기 사용
 

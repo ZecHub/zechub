@@ -3,7 +3,7 @@
 </a>
 
 
-<img width="371" height="397" alt="zebra-shirt-front__" src="/content-images/d8387514-a495-41c9-8435-dde732c7a859-e3864726c3.webp" />
+<img width="371" height="397" alt="zebra-shirt-front__" src="https://github.com/user-attachments/assets/d8387514-a495-41c9-8435-dde732c7a859" />
 
 
 

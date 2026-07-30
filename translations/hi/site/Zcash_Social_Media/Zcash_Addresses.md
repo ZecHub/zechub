@@ -15,7 +15,7 @@
 
 **छिपी गई लेनदेन** कोई भी लेनदेन है जिसमें पते Sapling/Orchard पॉल्स के लिए एनकोड किया गया है।
 
-![पारदर्शी बनाम संरक्षित परिचय](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
+![पारदर्शी बनाम संरक्षित परिचय](https://pbs.twimg.com/media/FpmW00HWIAIZpQD.jpg)
 
 **यूनाइड एड्रेस (UAs)** को **एकीकरण** के लिए डिज़ाइन किया गया है, ताकि छिपे हुए या पारदर्शी लेन-देन को एकल एड्रेस में जोड़ सके।
 
@@ -31,9 +31,9 @@
 
 कैरेक्टरों की संख्या (और इसलिए QR कोड के आकार) प्रत्येक प्रकार के साथ बढ़ता है।
 
-![पता प्रकारों की तुलना](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
+![पता प्रकारों की तुलना](https://pbs.twimg.com/media/FpmXe5bXsAEFeLY.png)
 
-![QR कोड आकार की तुलना](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
+![QR कोड आकार की तुलना](https://pbs.twimg.com/media/FpmXmDwXoAIWxov.png)
 
 ---
 
@@ -50,7 +50,7 @@
 
 **महत्वपूर्ण**: प्रत्येक यूए (UA) में **कम से कम एक शील्डेड भुगतान पता** होना आवश्यक है। (कैनोपी अपग्रेड के बाद स्प्रॉउट पते समर्थित नहीं हैं।)
 
-![UA एन्कोडिंग संरचना](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
+![UA एन्कोडिंग संरचना](https://pbs.twimg.com/media/FpmYW1ZXgAAvALT.png)
 
 पूर्ण विनिर्देश: **[ZIP-316: संयुक्त पते](https://zips.z.cash/zip-0316)**
 

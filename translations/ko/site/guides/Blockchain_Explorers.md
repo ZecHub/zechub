@@ -41,7 +41,7 @@
 
 위와 유사하게, 공개 블록체인 상의 모든 거래는 입력 및 출력 주소에 대한 금액이 모두 공개되어 있습니다. 예외는 Shielded Zcash를 선택하여 사용할 때이며, 이 경우 모든 금액이 숨겨집니다. 공정한 무역을 위해 필수적인 프라이버시가 필요한 소규모 사업자에게 이는 매우 큰 혜택입니다!
 
-![금액](/content-images/206312357-e9504151-830f-4fa1-81cb-f23619-210f51493c.webp)
+![금액](https://user-images.githubusercontent.com/81990132/206312357-e9504151-830f-4fa1-81cb-f23619fd7226.png)
 
 ### Zcash 탐색기의 기능 및 제한
 
@@ -74,13 +74,13 @@ Zcash에는 여러 종류의 주소가 있으며, 탐색기는 그들을 매우 
 * [Mintscan](https://hub.mintscan.io/chains/ibc-network)
 
 
-![비트코인 탐색기](/content-images/206279968-a06eb0a1-b3a6-49af-a30f-7d871b-1418d95d28.webp)
+![비트코인 탐색기](https://user-images.githubusercontent.com/81990132/206279968-a06eb0a1-b3a6-49af-a30f-7d871b906eeb.png)
 
 
-![이더리움 탐색기](/content-images/206280208-2ce5eddd-157e-4eed-90a0-680c15-488292c345.webp)
+![이더리움 탐색기](https://user-images.githubusercontent.com/81990132/206280208-2ce5eddd-157e-4eed-90a0-680c1520ec57.png)
 
 
-![Zcash 탐색기](/content-images/206280454-a2c7563f-e82d-47b9-9b58-02eece-76db7aec4c.webp)
+![Zcash 탐색기](https://user-images.githubusercontent.com/81990132/206280454-a2c7563f-e82d-47b9-9b58-02eece1c89ee.png)
 
 
-![코스모스](/content-images/206316791-2debfd28-923a-44f4-b7d3-701182-cf39a065fc.webp)
+![코스모스](https://user-images.githubusercontent.com/81990132/206316791-2debfd28-923a-44f4-b7d3-701182112c30.png)

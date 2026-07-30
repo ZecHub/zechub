@@ -17,7 +17,7 @@ Kabla ya kuanza kuandika:
 - Angalia [ZEC Bounties ](https://bounties.zechub.wiki/) kwa ajili ya sasa jarida kazi.
 - Kusubiri kwa kupewa
 
-![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
+![ss](https://github.com/user-attachments/assets/149a802c-b64f-4969-ad89-e83ffecf568e)
 
 
 
@@ -93,7 +93,7 @@ Tumia maombi haya ya kuunganishwa kwa jarida kama mifano ya mawasilisho yaliyoku
 - [Zcash Ecosystem Digest] Februari 14](https://github.com/ZecHub/zechub/pull/1474)
 
 
-![Kuunganishwa ZecWeekly jarida kuvuta ombi mfano](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)
+![Kuunganishwa ZecWeekly jarida kuvuta ombi mfano](https://github.com/user-attachments/assets/9230d68d-6406-4c8a-992c-df84e0d318d8)
 
 Wakati kulinganisha kazi yako na mfano, kuzingatia faili eneo, kichwa format, sehemu ya utaratibu, viungo maelezo, na kama kuvuta ombi unajumuisha nyuma kwa kazi sahihi.
 

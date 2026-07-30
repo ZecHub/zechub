@@ -3,7 +3,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-170636194-b507a57ff1.webp" alt="Alt Text" width="50"/>    Club ZKAV
+# <img src="https://i.ibb.co/tYvwnCW/image-2024-02-03-170636194.png" alt="Alt Text" width="50"/>    Club ZKAV
 [Sitio web](https://zkav.club) - [Github](https://github.com/copernicus-mogley/zkav.club) - [X/Twitter](https://x.com/ZkAv_Club) - [Youtube](https://www.youtube.com/@ZkAv_Club)
 
 *Con el apoyo de The Zcash Foundation, este ambicioso proyecto de base busca tener un impacto global a través de acciones locales y regionales. Invita a una comunidad de creadores a aprender y trabajar juntos para elevar y difundir noticias e historias que inspiren, eduquen y compartan la promesa de Zcash y la privacidad financiera*.

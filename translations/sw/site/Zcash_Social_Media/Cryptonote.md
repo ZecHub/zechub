@@ -5,7 +5,7 @@
 Leo ni siku yenye kupendeza! 
 ** CryptoNote ** itifaki itawezesha nguvu juu ya mlolongo faragha. Leo sisi kujifunza yote ya vipengele vyake muhimu na jinsi imekuwa kutekelezwa na miradi kadhaa mashuhuri faragha .
 
-[CryptoNote utangulizi](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
+[CryptoNote utangulizi](https://pbs.twimg.com/media/FrXr5P8WIAAvx36.jpg)
 
 ---
 
@@ -35,7 +35,7 @@ Unapotuma shughuli, ufunguo wako halisi wa umma unachanganywa na funguo kadhaa z
 
 ** ukubwa pete ** kwa kiasi kikubwa huathiri kuweka kutokujulikana. pete kubwa kutoa faragha bora.
 
-! [Ring Signatures maelezo](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
+! [Ring Signatures maelezo](https://pbs.twimg.com/media/FrXteGHXgAANE0F.png)
 
 ** Kulinganisha na Zcash **: 
 Zcash's anonymity set is the total number of transactions *ever* made in a given shielded pool (kubwa sana kuliko kawaida CryptoNote pete ukubwa).
@@ -48,7 +48,7 @@ Mfano wa **Ring CT** umeboresha sana faragha katika sarafu za msingi wa CryptoNo
 
 Badala ya tu kuficha mtumaji, Ring CT pia ** obfuscates kiasi cha shughuli ** kati ya mtumi na mpokeaji.
 
-[Ring CT mchoro](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
+[Ring CT mchoro](https://pbs.twimg.com/media/FrXuivgWYAAze7B.png)
 
 Inatumia:
 - Elliptic Curve Cryptography
@@ -59,7 +59,7 @@ Inatumia:
 
 ** Stealth Anwani ** pia kuongeza anwani ya matumizi ya mara moja kwa mpokeaji.
 
-[Anwani za siri + Ushuhuda](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
+[Anwani za siri + Ushuhuda](https://pbs.twimg.com/media/FrXut5aWAAMhuRb.jpg)
 
 ---
 
@@ -74,7 +74,7 @@ It uses the **CryptoNight** algorithm (a memory-hard function). Unlike Bitcoinâ€
 2. Kufanya wengi kusoma / kuandika shughuli juu ya scratchpad
 3. Hash scratchpad nzima kuzalisha thamani ya mwisho
 
-[CryptoNight madini](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
+[CryptoNight madini](https://pbs.twimg.com/media/FrXvNs3XsAA37LG.jpg)
 
 (Kumbuka: Monero tangu kuhamia mbali na CryptoNight kwa algorithms nyingine.)
 
@@ -86,7 +86,7 @@ Badala ya ghafla halving matukio (kama Bitcoin), CryptoNote inatumia **smoothly 
 
 Hii inaunda curve ya uzalishaji laini zaidi kwa muda.
 
-[Dynamic uzalishaji curve](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
+[Dynamic uzalishaji curve](https://pbs.twimg.com/media/FrXv8wpXoAEjUxW.png)
 
 ** Zcash Connection **: 
 Watengenezaji wa Zcash wamejadili utekelezaji wa curve laini ya uzalishaji katika siku zijazo, uwezekano wa kupitia "Zcash Posterity Fund".

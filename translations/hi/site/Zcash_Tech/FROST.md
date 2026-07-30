@@ -52,7 +52,7 @@ FROST protocol में दो महत्वपूर्ण components हो
 इसके बाद, कोई भी t-out-of-n participants threshold signing protocol चला सकते हैं ताकि मिलकर एक valid Schnorr signature बनाया जा सके।
 
 <a href="">
-    <img src="/content-images/1634081807-frost-flexible-round-optimize-3697a713d9.webp" alt="" width="400" height="300"/>
+    <img src="https://static.cryptohopper.com/images/news/uploads/1634081807-frost-flexible-round-optimized-schnorr-threshold-signatures-1.jpg" alt="" width="400" height="300"/>
 </a>
 
 ## दृश्य / उपमा
@@ -76,7 +76,7 @@ DKG protocol के अंत में, एक joint verification key vk उत
 Preprocessing stage में, प्रत्येक participant बाद में उपयोग के लिए Elliptic Curve (EC) points की pairs की एक निश्चित संख्या तैयार करता है। यह stage कई threshold signing phases में एक बार चलती है।
 
 <a href="">
-    <img src="/content-images/preprocess-5cbb14f892.webp" alt="" width="400" height="300"/>
+    <img src="https://i.ibb.co/nQD1c3n/preprocess.png" alt="" width="400" height="300"/>
 </a>
 
 Signing Round 1: प्रत्येक participant Pᵢ एक single private nonce pair (dᵢ, eᵢ) और उससे संबंधित EC points की pair (Dᵢ, Eᵢ) उत्पन्न करके शुरू करता है, फिर points की इस pair को अन्य सभी participants को broadcast करता है। प्रत्येक participant बाद में उपयोग के लिए इन EC points की pairs को store करता है। Signing rounds 2 और 3 वास्तविक operations हैं जिनमें t-out-of-n participants मिलकर एक valid Schnorr signature बनाते हैं।
@@ -86,7 +86,7 @@ Signing Round 2: Participants मिलकर एक valid Schnorr signature ब
 यह step forgery attacks को रोकता है क्योंकि attackers अलग-अलग signing operations के बीच signature shares को combine नहीं कर सकते, न ही signers के set या प्रत्येक signer के लिए प्रकाशित points को permute कर सकते हैं।
 
 <a href="">
-    <img src="/content-images/sign-402794d36a.webp" alt="" width="400" height="300"/>
+    <img src="https://i.ibb.co/b5rJbXx/sign.png" alt="" width="400" height="300"/>
 </a>
 
 Challenge c की गणना हो जाने के बाद, प्रत्येक participant single-use nonces और long-term secret shares का उपयोग करके response zᵢ की गणना कर सकता है, जो समूह की long-lived key के t-out-of-n (degree t-1) Shamir secret shares होते हैं। Signing round 2 के अंत में, प्रत्येक participant zᵢ को अन्य participants को broadcast करता है।

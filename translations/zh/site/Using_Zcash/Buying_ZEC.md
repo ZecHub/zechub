@@ -55,12 +55,12 @@ Flyp.me 是一家无需注册的加密货币交易所。它曾是将 30 多种�
 这些交易所支持透明提现。这意味着当你将 ZEC 提现到钱包时，需要发送到你的透明地址，也就是你的公开 ZEC 地址。 
 点击[这里](https://zechub.wiki/using-zcash/non-custodial-exchanges)查看更多详情。
 
-![dex](/content-images/bfe2e9cf-2def-4593-b790-152e14b23da3-f94f97c7e6.webp)
+![dex](https://github.com/user-attachments/assets/bfe2e9cf-2def-4593-b790-152e14b23da3)
 
 
 进行此操作时，我们建议使用以下[钱包](https://zechub.wiki/wallets)之一。 
 
-![mobile](/content-images/8b7618f5-dec6-4e6b-9804-db75be5c1e2f-14fa53d3bd.webp)
+![mobile](https://github.com/user-attachments/assets/8b7618f5-dec6-4e6b-9804-db75be5c1e2f)
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">

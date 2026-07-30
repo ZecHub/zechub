@@ -14,15 +14,15 @@ Free2Z — это платформа, где авторы и сторонник�
 
 Чтобы создать аккаунт или войти, перейдите на https://free2z.cash/ и нажмите кнопку 'CREATE'.
 
-![Login/signup form](/content-images/image-2023-11-19-133101013-3ee51e3b6f.webp)
+![Login/signup form](https://i.ibb.co/6rz0YPM/image-2023-11-19-133101013.png)
 
 В браузере появится форма входа/регистрации. Выберите имя пользователя и надежный пароль — это будут ваши данные для входа. Решите captcha и нажмите кнопку 'Enter', чтобы создать аккаунт.
 
-![Username and password entry form](/content-images/image-2023-11-19-133141052-0387984be1.webp)
+![Username and password entry form](https://i.ibb.co/d47k50g/image-2023-11-19-133141052.png)
 
 Кроме того, вы можете создать аккаунт Free2Z, подключив свой аккаунт Twitter. Для этого нажмите на логотип Twitter рядом с 'Login With', после чего вам будет предложено подключить ваш аккаунт Twitter.
 
-![Twitter login option](/content-images/image-2023-11-19-133210103-f65246bbee.webp)
+![Twitter login option](https://i.ibb.co/kc6QN7Z/image-2023-11-19-133210103.png)
 
 Нажмите **Authorize app**, чтобы подключить свой аккаунт Twitter к Free2Z.
 
@@ -30,27 +30,27 @@ Free2Z — это платформа, где авторы и сторонник�
 
 После создания аккаунта вы будете перенаправлены на страницу своего профиля Free2Z. Если вы создали аккаунт, подключив Twitter, большинство полей будет заполнено автоматически. Если вы создали аккаунт, введя имя пользователя и пароль, вам следует указать здесь свою информацию. Вместо настоящего имени можно использовать псевдоним.
 
-![Default empty profile header](/content-images/default-header-a11eb8328f.webp)
+![Default empty profile header](https://i.ibb.co/GxyHz1D/default-header.png)
 
 Сейчас это выглядит довольно скучно, так что давайте сделаем профиль интереснее, установив аватар и баннер. Интерфейс Free2Z делает этот шаг очень простым благодаря кнопке загрузки (стрелка вверх справа).
 
-![Avatar and banner upload buttons](/content-images/avatar-and-banner-bd20d0bbfb.webp)
+![Avatar and banner upload buttons](https://i.ibb.co/5jsjfZV/avatar-and-banner.png)
 
 Результат можно увидеть в верхней части страницы.
 
-![Profile page after customization](/content-images/resultatpage-f4ddacb8b8.webp)
+![Profile page after customization](https://i.ibb.co/7y542gp/resultatpage.png)
 
 А, так гораздо лучше! Если у вас есть художественные навыки, вы можете сделать страницу своего профиля Free2Z просто потрясающей! Напишите хорошее описание для своей страницы. Вы можете рассказать о себе или описать тип контента, который другие могут от вас ожидать. (Совет: используйте синтаксис markdown, чтобы персонализировать описание!)
 
-![Editing the description field](/content-images/edit-description-b52afabec1.webp)
+![Editing the description field](https://i.ibb.co/cD1DFXw/edit-description.png)
 
 Не забудьте указать свой защищенный адрес Zcash, чтобы сторонники могли отправлять пожертвования напрямую вам!
 
-![Zcash shielded address field](/content-images/p2p-address-b89f035bd9.webp)
+![Zcash shielded address field](https://i.ibb.co/8zRYgFS/p2p-address.png)
 
 Последний шаг в настройке страницы — установить 'Member Price'. Это цена в 2Zs (Tuzies), которую другие пользователи будут платить за подписку на вашу страницу! (Подробнее о 2Zs позже).
 
-![Member price setting](/content-images/member-price-2dafd7e399.webp)
+![Member price setting](https://i.ibb.co/VW9sYYz/member-price.png)
 
 Наконец, нажмите кнопку 'Update Profile', чтобы завершить настройку профиля!
 
@@ -65,35 +65,35 @@ Free2Z позволяет пользователям подписываться 
 
 Вы можете увидеть свой баланс 2Zs в заголовке страницы профиля.
 
-![2Zs / Tuzies balance in header](/content-images/tuzis-balance-9d6a9eff7f.webp)
+![2Zs / Tuzies balance in header](https://i.ibb.co/2dBPyPb/tuzis-balance.png)
 
 Вы можете купить больше 2Zs за Zcash, нажав на свой баланс 2Zs. Минимальная сумма покупки составляет 0.05 ZEC, а текущий курс конвертации — 0.05 ZEC = 10 2Zs.
 
-![Buying 2Zs interface](/content-images/buy-tuzies-e82c626047.webp)
+![Buying 2Zs interface](https://i.ibb.co/MgZb9rg/buy-tuzies.png)
 
 ## Пожертвования и подписка
 
 Когда вы находите автора, который вам нравится, вы можете выразить свою поддержку, отправив пожертвование и оформив подписку. Все пожертвования направляются напрямую в кошелек автора. В качестве примера давайте подпишемся на [собственную страницу Free2Z](https://free2z.cash/free2z).
 
-![Free2Z official page](/content-images/free2z-page-94c5fd5f4f.webp)
+![Free2Z official page](https://i.ibb.co/C2T6txY/free2z-page.png)
 
 Чтобы подписаться на страницу, вам нужно всего лишь нажать на значок подписки в заголовке страницы.
 
-![Subscribe button on creator page](/content-images/subscribe-to-creator-76c306d924.webp)
+![Subscribe button on creator page](https://i.ibb.co/k5Hbdfr/subscribe-to-creator.png)
 
 Вы увидите минимальную сумму для подписки. Проверьте, достаточно ли у вас tuzis, и нажмите subscribe.
 
-![Confirm subscription popup](/content-images/confirm-subscribe-7381923e36.webp)
+![Confirm subscription popup](https://i.ibb.co/8j4p73J/confirm-subscribe.png)
 
 ### Пожертвование с помощью 2Zs или Zcash
 
 Вы можете сделать пожертвование прямо на странице автора, нажав на значок Fund creator.
 
-![Fund creator button](/content-images/fund-creator-ac59aee7bf.webp)
+![Fund creator button](https://i.ibb.co/xCz5X92/fund-creator.png)
 
 Или внутри поста найдите плавающую кнопку с плюсом. Отсюда вы можете сделать пожертвование автору или продвинуть пост на Free2Z.
 
-![Floating action buttons inside a post](/content-images/post-floating-buttons-a1e2ef1102.webp)
+![Floating action buttons inside a post](https://i.ibb.co/Rzs7ST1/post-floating-buttons.png)
 
 ## Прямые трансляции
 
@@ -122,19 +122,19 @@ Free2z Live — это мощный инструмент, позволяющий
 
 Если автор выполняет **оба** условия выше, на странице его профиля будет доступен значок **Go Live**.
 
-![Go Live button](/content-images/go-live-4c8ac67505.webp)
+![Go Live button](https://i.ibb.co/7RFywwK/go-live.png)
 
 Чтобы начать прямую трансляцию, просто нажмите кнопку **Go Live**, и приложение Free2z запросит разрешение на использование микрофона и веб-камеры (если она у вас есть). После предоставления необходимых разрешений Free2z попросит вас ввести псевдоним, который вы хотите использовать во время прямой трансляции. После выбора псевдонима нажмите **Join**, чтобы начать трансляцию.
 
-![Select nickname for live stream](/content-images/select-nickname-414444b992.webp)
+![Select nickname for live stream](https://i.ibb.co/4VMbCrW/select-nickname.png)
 
 И готово! Когда вы начинаете прямую трансляцию, в вашем профиле появляется значок, указывающий, что вы в эфире, и ваши подписчики могут присоединиться к трансляции.
 
-![Joining a livestream](/content-images/join-livestream-679334ba53.webp)
+![Joining a livestream](https://i.ibb.co/qpBLcKr/join-livestream.png)
 
 Когда люди присоединяются к прямой трансляции, они могут общаться в чате, просить вывести их на сцену, взаимодействовать через голосование в опросах и многое другое.
 
-![Example of a Free2z Live session](/content-images/free2z-live-example-eecb2ae553.webp)
+![Example of a Free2z Live session](https://i.ibb.co/r3XTY8M/free2z-live-example.png)
 
 _(Пример сессии Free2z Live)_
 
@@ -146,13 +146,13 @@ Free2z Live — универсальный и мощный инструмент.
 
 В нижнем левом углу экрана мы видим несколько кнопок.
 
-![Bottom left controls](/content-images/free2z-live-left-60b450b01c.webp)
+![Bottom left controls](https://i.ibb.co/XLQBDk1/free2z-live-left.png)
 
 Одна из полезных функций здесь — возможность делиться своим экраном, чтобы другие пользователи могли видеть, что вы делаете.
 
 Внизу можно найти параметры прямой трансляции.
 
-![Bottom toolbar](/content-images/free2z-live-bottom-ae64a6960c.webp)
+![Bottom toolbar](https://i.ibb.co/7JbmDXc/free2z-live-bottom.png)
 
 Некоторые из ключевых опций здесь:  
 - Выключить / включить микрофон  
@@ -163,7 +163,7 @@ Free2z Live — универсальный и мощный инструмент.
 
 Чтобы завершить прямую трансляцию, нажмите кнопку 'Leave', а затем 'End meeting for all', чтобы остановить встречу для всех участников.
 
-![Bottom right interaction panel](/content-images/free2z-live-right-c83cb6d209.webp)
+![Bottom right interaction panel](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/free2z-live-right.png)
 
 Кнопки в правом нижнем углу содержат функции, связанные с взаимодействием во время прямой трансляции, такие как:  
 - **Chat**: позволяет участникам общаться друг с другом и с ведущим во время прямой трансляции.  
@@ -171,7 +171,7 @@ Free2z Live — универсальный и мощный инструмент.
 - **List of participants**: показывает список участников прямой трансляции.  
 - **Plugins**: позволяет ведущему добавлять плагины и расширения для улучшения опыта прямой трансляции.
 
-![Plugins panel](/content-images/free2z-live-plugins-e9a30ee355.webp)
+![Plugins panel](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/free2z-live-plugins.png)
 
 Цель этого wiki-doc — не объяснить все плагины, но я действительно рекомендую вам попробовать каждый из них, так как все они предлагают отличные возможности для взаимодействия между авторами и зрителями. Чтобы запустить плагин, просто нажмите кнопку 'rocket' справа.
 

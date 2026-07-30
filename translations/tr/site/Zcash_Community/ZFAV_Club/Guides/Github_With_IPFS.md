@@ -26,7 +26,7 @@ Başlamak için, barındırmak istediğiniz bir Git deposu seçin ve klonlayın:
 
 Komutu çalıştırın: "git clone https://github.com/zechub/zechub"
 
-![](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
+![](https://i.ibb.co/HxFX37b/Screenshot-from-2023-05-20-14-14-46.png)
 
 
 Şimdi, IPFS üzerinden klonlanmaya hazır hale getirmek için:
@@ -54,11 +54,11 @@ $ pwd
 
 $ ipfs add -r .
 
-![](/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp)
+![](https://i.ibb.co/LJgK1q3/Screenshot-from-2023-05-20-14-22-38.png)
 
 Ortaya çıkan CID: Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
 
-![](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
+![](https://i.ibb.co/GvhCLwn/Screenshot-from-2023-05-20-14-26-34.png)
 
 Harika! Artık deponuz ağa yüklenmiş durumda.
 

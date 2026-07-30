@@ -10,7 +10,7 @@ Ein Hardware-Sicherheitsschlüssel ist ein physisches Gerät, das für die Zwei-
 
 Diese Schlüssel sind dafür ausgelegt, gemeinsam mit Ihrem Benutzernamen und Passwort zu funktionieren, um sicherzustellen, dass nur autorisierte Benutzer auf Ihre Konten und Daten zugreifen können. Es gibt sie in verschiedenen Formen, etwa als USB-Sticks, NFC-Karten oder Bluetooth-Geräte.
 
-![Beispiel für einen Hardware-Sicherheitsschlüssel](/content-images/1dff66a4-d8e6-483f-9a1e-065d3974d665-a4c6c73e00.webp)
+![Beispiel für einen Hardware-Sicherheitsschlüssel](https://github.com/ZecHub/zechub/assets/81990132/1dff66a4-d8e6-483f-9a1e-065d3974d665)
 
 ## So funktioniert ein Hardware-Sicherheitsschlüssel
 
@@ -26,7 +26,7 @@ Hardware-Sicherheitsschlüssel bieten mehrere Vorteile gegenüber herkömmlichen
 
 Nein, Hardware-Sicherheitsschlüssel gibt es in vielen Formaten, und sie sind möglicherweise nicht mit allen Geräten und Betriebssystemen kompatibel. Stellen Sie vor dem Kauf eines Schlüssels sicher, dass er mit Ihrem Gerät und Betriebssystem kompatibel ist.
 
-![Bauformen von Hardware-Sicherheitsschlüsseln](/content-images/a830c435-ad20-4183-b381-475afe1089b3-5537cd7388.webp)
+![Bauformen von Hardware-Sicherheitsschlüsseln](https://github.com/ZecHub/zechub/assets/81990132/a830c435-ad20-4183-b381-475afe1089b3)
 
 ## Kann ein Hardware-Sicherheitsschlüssel mit mehreren Konten verwendet werden?
 
@@ -42,7 +42,7 @@ Hier sind einige Beispiele für 2FA-Hardware, die auf dem Markt erhältlich sind
 
 **Yubico YubiKey 5 NFC**
 
-![Yubico YubiKey 5 NFC](/content-images/bf1ac95e-7277-4559-b5ef-63117b66971b-3aa542aba7.webp)
+![Yubico YubiKey 5 NFC](https://github.com/ZecHub/zechub/assets/81990132/bf1ac95e-7277-4559-b5ef-63117b66971b)
 
 Hergestellt von Yubico, Mitentwickler des offenen Authentifizierungsstandards FIDO U2F, der von vielen Sicherheitsschlüsseln verwendet wird, ist der YubiKey 5 NFC in guten Händen, um Ihre Geräte zu schützen. Wie der Name schon andeutet, funktioniert er über USB A (oder USB C mit einem Adapter) oder NFC.  
 Er bietet sofortige Kompatibilität mit vielen Diensten, darunter Google Chrome, Facebook, Dropbox, LastPass, 1Password und weitere. Der YubiKey 5 ist kompakt, robust und leicht – und sogar wasserdicht.  
@@ -50,7 +50,7 @@ Sie können den YubiKey problemlos als zweiten U2F-Faktor konfigurieren, indem S
 
 **Thetis Fido U2F Security Key**
 
-![Thetis Fido U2F Security Key](/content-images/b83e42e5-bba6-4175-ad6c-d64972ef54ef-a2ef17a10d.webp)
+![Thetis Fido U2F Security Key](https://github.com/ZecHub/zechub/assets/81990132/b83e42e5-bba6-4175-ad6c-d64972ef54ef)
 
 Wenn Sie bei einem Sicherheitsschlüssel das beste Preis-Leistungs-Verhältnis suchen, sollte dieses Modell von Thetis auf Ihrer Liste stehen. Es verfügt über kein integriertes Bluetooth (dies ist bei einem teureren Modell verfügbar), und es unterstützt nur den FIDO-U2F-Standard, sodass keine UAF- oder OTP-Kompatibilität vorhanden ist. Dennoch bietet es sicheren Website-Zugang, wenn Sie Chrome oder Opera als Browser unter Windows, macOS oder Linux verwenden.  
 Praktischerweise verfügt dieser erschwingliche Sicherheitsschlüssel über ein kompaktes Klappdesign mit einem drehbaren Aluminiumgehäuse, das verhindert, dass der Anschluss beim Transport möglichen Schäden ausgesetzt wird. Er ist in drei attraktiven Farben erhältlich: Schwarz, Gold und Silber.  
@@ -58,7 +58,7 @@ Das Kunststoffgehäuse wirkt stabil und relativ langlebig, dennoch sollten Sie v
 
 **CryptoTrust OnlyKey**
 
-![CryptoTrust OnlyKey](/content-images/13be6ecc-227e-498c-8a36-6d52c023cd78-06e3e924dc.webp)
+![CryptoTrust OnlyKey](https://github.com/ZecHub/zechub/assets/81990132/13be6ecc-227e-498c-8a36-6d52c023cd78)
 
 Wie der Name schon andeutet, verfügt OnlyKey über einige raffinierte Funktionen, die seinen Konkurrenten fehlen. Dank einer integrierten Tastatur, die Keylogger umgehen kann, die ihren Weg auf Computer finden, kann es Online-Konten sicher halten, selbst wenn ein Computer oder eine Website kompromittiert ist. Es unterstützt mehrere 2FA-Methoden, darunter FIDO 2 U2F, Yubico OTP und TOTP.  
 Auch wenn es für den allgemeinen Gebrauch nicht der beste Passwort-Manager ist, kann OnlyKey 24 OTP-Konten, 24 Passwörter und 24 Benutzernamen/URLs auf einem einzigen Schlüssel speichern. Diese Funktion ist ziemlich praktisch, wenn Sie sich nicht mehrere Passwörter merken möchten und möchten, dass der Schlüssel das für Sie übernimmt.  
@@ -71,22 +71,22 @@ Jetzt, da Sie wissen, was 2FA-Hardware-Schlüssel sind und wie sie funktionieren
 **Schritt 1**  
 Melden Sie sich in Ihrem Gmail-Konto an und klicken Sie auf **Manage Your Google Account**
 
-![Google-Konto - Konto verwalten](/content-images/995fc955-791a-4456-9218-7e5964da48b5-31c64640b2.webp)
+![Google-Konto - Konto verwalten](https://github.com/ZecHub/zechub/assets/81990132/995fc955-791a-4456-9218-7e5964da48b5)
 
 **Schritt 2**  
 Klicken Sie auf **Security**
 
-![Google-Sicherheitseinstellungen](/content-images/246db235-6596-41ff-bd7a-f8ee4f80962b-340193c2c3.webp)
+![Google-Sicherheitseinstellungen](https://github.com/ZecHub/zechub/assets/81990132/246db235-6596-41ff-bd7a-f8ee4f80962b)
 
 **Schritt 3**  
 Klicken Sie auf **2-Step Verification**
 
-![Bildschirm für 2-Step Verification](/content-images/19cd202a-1a70-47e6-a02a-aa24f6e199fa-a9fcb911ce.webp)
+![Bildschirm für 2-Step Verification](https://github.com/ZecHub/zechub/assets/81990132/19cd202a-1a70-47e6-a02a-aa24f6e199fa)
 
 **Schritt 4**  
 Wählen Sie **Show More Options**
 
-![Weitere Optionen anzeigen](/content-images/2ade9531-1cf6-48e8-b9a8-178d41a4cd30-b1e9ea1400.webp)
+![Weitere Optionen anzeigen](https://github.com/ZecHub/zechub/assets/81990132/2ade9531-1cf6-48e8-b9a8-178d41a4cd30)
 
 **Schritt 5**  
 Wählen Sie nun **Security Key** und klicken Sie dann auf **Advance**

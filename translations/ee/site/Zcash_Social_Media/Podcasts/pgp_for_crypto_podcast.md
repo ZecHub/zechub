@@ -4,7 +4,7 @@
 
 
 # PGP* na Crypto Podcast
-![bannerpgp ƒe ƒuƒoƒo](/content-images/221758326-06cea3f5-4c9e-4466-b9ee-738546-01f88aec39.webp)
+![bannerpgp ƒe ƒuƒoƒo](https://user-images.githubusercontent.com/81990132/221758326-06cea3f5-4c9e-4466-b9ee-73854628a6aa.png)
 
 Míexɔ mi nyuie ɖe “PGP * (Pretty Good Policy) na Crypto Podcast,” si nye Electric Coin Co. ƒe ɖoɖo aɖe!
 

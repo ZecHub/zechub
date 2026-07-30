@@ -102,7 +102,7 @@ Mining pools distribute work and share rewards based on your contributed hashrat
 3. Ịkwụ Ụgwọ: Ihe ka ọtụtụ n'ụyọkọ ego na-akwụ ụgwọ na-akpaghị aka mgbe i ruru ego a chọrọ (dịka, 0.05 ZEC).
 
    
-[Zcash Mining Monitoring Setup](/content-images/zcashMining-5ca0019c17.webp)
+[Zcash Mining Monitoring Setup](https://raw.githubusercontent.com/ZecHub/zechub/aac601cf85076960d334f4c841867a646a5a2f29/assets/images/zcashMining.jpg)
 
 
 ## Atụmatụ na Omume Kasị Mma

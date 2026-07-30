@@ -11,12 +11,12 @@
 
 __Virtual Private Networks (VPNs)__: पारंपरिक VPNs आपके डिवाइस और VPN प्रदाता द्वारा नियंत्रित एक दूरस्थ server के बीच एक सुरक्षित, encrypted tunnel बनाते हैं। यह tunnel आपकी ऑनलाइन गतिविधियों को जासूसी करने वाली निगाहों से छुपाती है, जैसे hackers, ISPs, या सरकारी एजेंसियाँ। VPNs का व्यापक उपयोग anonymous browsing, geo-restricted content तक पहुँचने, और cyber threats से सुरक्षा जैसे उद्देश्यों के लिए किया जाता है।
 
-![image223](/content-images/image-223-399e3015e7.webp)
+![image223](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Privacy_Tools/assets/image-223.png)
 
 
 __Decentralized VPNs (dVPNs)__: इसके विपरीत, dVPNs blockchain और peer-to-peer तकनीक का उपयोग करके nodes का एक decentralized network बनाते हैं। उपयोगकर्ताओं का traffic इन nodes के माध्यम से route किया जाता है, जिससे किसी एक इकाई के लिए पूरे network की निगरानी या नियंत्रण करना कठिन हो जाता है। dVPNs सामान्यतः censorship के प्रति अधिक प्रतिरोधी होते हैं, क्योंकि network की देखरेख करने वाला कोई केंद्रीकृत प्राधिकरण नहीं होता। ये उन उपयोगकर्ताओं के लिए उपयुक्त हैं जो बेहतर गोपनीयता और सुरक्षा चाहते हैं।
 
-![dvpn](/content-images/dvpn-89698d4cb9.webp)
+![dvpn](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Privacy_Tools/assets/dvpn.png)
 
 
 # VPN चुनते समय सुरक्षा संबंधी विचार

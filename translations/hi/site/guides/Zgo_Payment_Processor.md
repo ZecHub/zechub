@@ -42,7 +42,7 @@ ZGo इसका उल्टा तरीका अपनाता है। �
 
 ZGo desktop या mobile पर किसी भी modern browser में चलता है, और किसी भी पक्ष को install की आवश्यकता नहीं होती। ग्राहक को एक Zcash wallet चाहिए; व्यापारी को एक Zcash wallet और एक ZGo account चाहिए।
 
-<img width="672" height="378" alt="ZGo payment request and blockchain monitoring overview" src="/content-images/de50885b-b068-4157-bbda-0981ca23efc8-a00a274776.webp" />
+<img width="672" height="378" alt="ZGo payment request and blockchain monitoring overview" src="https://github.com/user-attachments/assets/de50885b-b068-4157-bbda-0981ca23efc8" />
 
 ## Account सेट up करना
 
@@ -77,7 +77,7 @@ ZEC व्यापारी के wallet में पहुँचता ह�
 
 [WooCommerce](https://woocommerce.com/) और [WordPress](https://wordpress.org/) पर चलने वाली online shops के लिए, ZGo एक dedicated plugin प्रदान करता है। यह plugin checkout पर Zcash को payment method के रूप में जोड़ता है और payment confirm होने पर order state को अपने-आप संभालता है।
 
-<img width="672" height="378" alt="ZGo WooCommerce plugin checkout and order flow" src="/content-images/55a791bb-1947-4f55-b5b9-55083be8ed49-2bc8d2571e.webp" />
+<img width="672" height="378" alt="ZGo WooCommerce plugin checkout and order flow" src="https://github.com/user-attachments/assets/55a791bb-1947-4f55-b5b9-55083be8ed49" />
 
 WooCommerce store के भीतर end-to-end flow:
 

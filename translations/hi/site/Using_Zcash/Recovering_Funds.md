@@ -28,7 +28,7 @@ YWallet को inaccessible funds की recovery के लिए सबसे 
 
 4. ऊपर दाएँ कोने में plus sign पर क्लिक करें 
 
-![Plus sign button](/content-images/plus-3ca2c1649a.webp)
+![Plus sign button](https://i.postimg.cc/xJbVz7gB/plus.png)
 
 5. 'Restore an account' को toggle करें 
 
@@ -46,7 +46,7 @@ YWallet को inaccessible funds की recovery के लिए सबसे 
 
 4. अपना seed phrase दर्ज करें (Gap limit seed द्वारा उत्पन्न अतिरिक्त addresses के लिए scan करता है)
 
-![Sweep Funds screen](/content-images/sweep-6c956553a9.webp)
+![Sweep Funds screen](https://i.postimg.cc/3055CBcN/sweep.png)
 
 5. जिस destination का आप उपयोग करना चाहते हैं उसके लिए Value Pool दर्ज करें (Exchanges Transparent का उपयोग करते हैं)
 

@@ -1,7 +1,7 @@
 # Elliptic Curves: Afisi Wodzi Zcash ƒe Safuiwo Kple Adzɔgbeɖeɖewo Le
 ##### Numekuku Gbãtɔ tso [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt nuŋɔŋlɔ](/content-images/image-10-c1097b22d7.webp)
+![alt nuŋɔŋlɔ](image-10.png)
 
 ### Mɔdodo ɖeka si wotu tso teƒe siwo le mɔ si woƒo xlãe dzi
 
@@ -38,7 +38,7 @@ y^2 = x^3 + ax + b
 
 Le xexlẽdzesi dzrowo gome la, edzena abe ʋuƒo si le gbadzaa, si le ʋuʋum ene, eye zi geɖe la, eƒe ka le goglo eye eƒe asike eve:
 
-![alt nuŋɔŋlɔ](/content-images/image-14-1d2e8c25d2.webp)
+![alt nuŋɔŋlɔ](image-14.png)
 
 Akpa si wɔ nuku ŋutɔŋutɔ: **àte ŋu "atsɔ" teƒe eve akpe ɖe fli sia ŋu be nàkpɔ teƒe etɔ̃lia le fli ɖeka ma ke dzi.** Esia menye kɔordinatewo ƒe tsɔtsɔ kpee dzro ko o. Enye geometric se, eye ele bɔbɔe be * woakpɔ* wu be woagblɔ.
 
@@ -50,7 +50,7 @@ Be míatsɔ akpe ɖe eŋu `P + Q`:
 2. Fli ma dzea mɔa dzi le teƒe ɖeka pɛpɛpɛ. Yɔe `R*`.
 3. **Klẽ `R*` across the horizontal axis.** Ŋugbledede mae nye ŋuɖoɖoa, . `P + Q`.
 
-![alt nuŋɔŋlɔ](/content-images/image-11-61f3df1989.webp)
+![alt nuŋɔŋlɔ](image-11.png)
 
 ### Tangent rule (si tsɔa dzesi aɖe kpena ɖe eɖokui ŋu) .
 
@@ -117,7 +117,7 @@ Fifia akunyawɔwɔa. Bu mɔfiame eve siawo ŋu kpɔ:
 
 Asymmetry ma nye **mɔ ɖeka dzi** si míehiã le Akpa 1. Megbe ƒe kuxia ("si." `k` produced this point?") woyɔna be **Elliptic Curve Discrete Logarithm Problem (ECDLP)**, eye le curve siwo Zcash zãna dzi la, mɔnu aɖeke si wonya mekpɔ egbɔ hafi xexeame katã ƒe dzoxɔxɔ ku o.
 
-![alt nuŋɔŋlɔ](/content-images/image-12-86b9ace6cb.webp)
+![alt nuŋɔŋlɔ](image-12.png)
 
 > Le míaƒe fefenu me `F_17` curve si *ate ŋu* axlẽ ko `k` le kplɔ̃a dzi, elabena dzesi 19 koe le esi. Curves ŋutɔŋutɔwo le ƒo xlãe `2^(255)` nya veviwo. Fli geɖe anɔ kplɔ̃a ŋu wu atɔm siwo le xexeame, eyata "exlẽe ɖa" menye tiatia o. Suenyenyee nye nusi na fefenu ƒe ʋuʋudedi la te ŋu fiaa nu eye wòganye nusitae mele dedie o.
 
@@ -160,7 +160,7 @@ Asibidɛawo nye kɔnkrit eye woate ŋu alé ŋku ɖe wo ŋu.
 
 Susu siwo tae ʋuʋudedi ɖeka "gena ɖe" bubu ƒe agble me, kple nusitae *tsatsa* si me ʋuʋudedi eve le la ɖea vi, nye nu ŋutɔŋutɔwo eye wole vevie, gake wole kpeɖodzi-ɖoɖo ƒe nyatiwo me. Fifia la, takeaway la sesẽ: **Zcash safui ɖesiaɖe nye scalar zi gbɔ zi generator, eye Zcash ƒe ɖokuitsɔtsɔna ɖesiaɖe nye curve points ƒe ƒuƒoƒo**, si nɔa agbe ɖe curve siawo siwo ŋkɔ wo dometɔ ɖeka dzi.
 
-![alt nuŋɔŋlɔ](/content-images/image-13-ffdd703c60.webp)
+![alt nuŋɔŋlɔ](image-13.png)
 
 ---
 

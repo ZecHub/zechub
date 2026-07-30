@@ -42,7 +42,7 @@ Beş onay eşiği kilit sayıdır. Bundan önceki her şey alınmış bir ödeme
 
 ZGo, her iki tarafta da kurulum gerektirmeden masaüstünde veya mobilde herhangi bir modern tarayıcıda çalışır. Müşterinin bir Zcash cüzdanına ihtiyacı vardır; satıcının ise bir Zcash cüzdanına ve bir ZGo hesabına ihtiyacı vardır.
 
-<img width="672" height="378" alt="ZGo ödeme talebi ve blokzincir izleme genel görünümü" src="/content-images/de50885b-b068-4157-bbda-0981ca23efc8-a00a274776.webp" />
+<img width="672" height="378" alt="ZGo ödeme talebi ve blokzincir izleme genel görünümü" src="https://github.com/user-attachments/assets/de50885b-b068-4157-bbda-0981ca23efc8" />
 
 ## Hesap kurma
 
@@ -77,7 +77,7 @@ ZEC, ZGo veya Xero tarafından kontrol edilen herhangi bir hesaba değil, satıc
 
 [WooCommerce](https://woocommerce.com/) ve [WordPress](https://wordpress.org/) üzerinde çalışan çevrimiçi mağazalar için ZGo özel bir eklenti sunar. Eklenti, ödeme sırasında Zcash’i bir ödeme yöntemi olarak ekler ve ödeme onaylandığında sipariş durumunu otomatik olarak yönetir.
 
-<img width="672" height="378" alt="ZGo WooCommerce eklentisi ödeme ekranı ve sipariş akışı" src="/content-images/55a791bb-1947-4f55-b5b9-55083be8ed49-2bc8d2571e.webp" />
+<img width="672" height="378" alt="ZGo WooCommerce eklentisi ödeme ekranı ve sipariş akışı" src="https://github.com/user-attachments/assets/55a791bb-1947-4f55-b5b9-55083be8ed49" />
 
 Bir WooCommerce mağazası içindeki uçtan uca akış:
 

@@ -1,4 +1,4 @@
-#  <img src="/content-images/e38b13a9-d410-426a-a1e6-2dde105d56c4-6b8154e5ae.webp" alt="Alt Text" width="50"/> ZingoLabs
+#  <img src="https://github.com/user-attachments/assets/e38b13a9-d410-426a-a1e6-2dde105d56c4" alt="Alt Text" width="50"/> ZingoLabs
 
 [Dziɖuɖua ƒe Nyatakakadzraɖoƒe](https://zingolabs.org/) - [Github ƒe ŋkɔ](https://github.com/zingolabs) - [X/Twitter dzi](https://x.com/ZingoLabs) - [Instagram dzi](https://www.instagram.com/zingolabesp/)
 

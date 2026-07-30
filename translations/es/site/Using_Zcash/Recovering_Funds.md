@@ -28,7 +28,7 @@ YWallet es reconocida como una de las mejores opciones para recuperar fondos ina
 
 4. En la esquina superior derecha haz clic en el signo más 
 
-![Botón de signo más](/content-images/plus-3ca2c1649a.webp)
+![Botón de signo más](https://i.postimg.cc/xJbVz7gB/plus.png)
 
 5. Activa 'Restore an account' 
 
@@ -46,7 +46,7 @@ YWallet es reconocida como una de las mejores opciones para recuperar fondos ina
 
 4. Ingresa tu frase semilla (Gap limit busca direcciones adicionales generadas por la semilla)
 
-![Pantalla de Sweep Funds](/content-images/sweep-6c956553a9.webp)
+![Pantalla de Sweep Funds](https://i.postimg.cc/3055CBcN/sweep.png)
 
 5. Ingresa el Value Pool para el destino que deseas usar (los exchanges usan Transparent)
 

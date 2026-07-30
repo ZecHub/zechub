@@ -4,7 +4,7 @@
 
 # نشر موقع ويب على IPFS 
 
-![](/content-images/IPFS-40c2e22732.webp)
+![](https://blog.desdelinux.net/wp-content/uploads/2020/04/IPFS-.jpg)
 
 ## مقدمة إلى IPFS 
 
@@ -55,7 +55,7 @@
 
 حدّد المجلد الذي يحتوي على ملفات موقعك وانتقل إلى خيار إضافة مجلد.
 
-![](/content-images/ipfs-site-folder-2c96524d98.webp)
+![](https://i.ibb.co/ZHW4zsY/ipfs-site-folder.png)
 
 --
 
@@ -92,11 +92,11 @@
 
 يتيح لك Interplanetary Naming System (IPNS) تحديث CID الخاصة بـ IPFS المرتبطة بموقعك مع الاستمرار في تقديم رابط ثابت. ويتم توفيره على شكل مفتاح. 
 
-![](/content-images/dns-query.a0134a75-9ef7817f80.webp)
+![](https://dnslink.io/assets/dns-query.a0134a75.png)
 
 في قائمة الإعدادات الخاصة بمجلد موقعك على تطبيق IPFS لسطح المكتب، اختر Publish to IPNS.  
 
-![](/content-images/IPNS-2fe62cc369.webp)
+![](https://i.ibb.co/Ch25dKf/IPNS.png)
 
 المفتاح: "k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n"
 
@@ -109,7 +109,7 @@
 
 إذا كنت تمتلك بالفعل عنوان ويب، فيمكنك إضافة سجل جديد باستخدام سجل TXT ‏"_dnslink(your domain)". واعتمادًا على مزود الخدمة، قد يتم ملؤه تلقائيًا. 
 
-![](/content-images/example-c2a9edb28b.webp)
+![](https://i.ibb.co/MgRxBHj/example.png)
 
 سيستغرق الأمر بعض الوقت حتى ينتشر عبر الشبكة قبل أن تتمكن من عرضه. 
 

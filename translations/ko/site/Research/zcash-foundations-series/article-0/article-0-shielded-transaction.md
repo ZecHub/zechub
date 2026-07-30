@@ -1,7 +1,7 @@
 # Shielded Zcash 트랜잭션이 실제로 작동하는 방식
 ##### [Annkkitaaa](https://github.com/Annkkitaaa)의 원문 연구
 
-![alt text](/content-images/image-fedc371488.webp)
+![alt text](image.png)
 
 ### 수학에 앞서 직관부터: 수식 없이 따라가는 프라이빗 결제의 작동 원리
 
@@ -46,7 +46,7 @@ Zcash는 겉보기보다 훨씬 어려운 이 질문에 답하기 위해 만들�
 
 투명한 세계는 "당신이 이미 대략 이해하고 있는 Bitcoin"입니다. 아름다운 암호학이 들어 있는 쪽은 **Shielded 세계**이고, 이 시리즈가 관심을 두는 것도 오직 그 세계뿐입니다.
 
-![alt text](/content-images/image-1-f821d24c6f.webp)
+![alt text](image-1.png)
 
 ---
 
@@ -124,7 +124,7 @@ Note를 사용할 때, 당신은 그 note의 **nullifier**, 즉 "무효 토큰"�
 
 Note는 *태어나고*, 게시판 위에서 *살다가*, 결국 *죽습니다*. 그리고 결정적으로, 그것의 탄생과 죽음은 지켜보는 누구에게도 서로 관련 없어 보입니다.
 
-![alt text](/content-images/image-2-0eca0ea4f7.webp)
+![alt text](image-2.png)
 
 ---
 
@@ -132,7 +132,7 @@ Note는 *태어나고*, 게시판 위에서 *살다가*, 결국 *죽습니다*. 
 
 이제 Alice가 Bob에게 결제하는 장면을 보면서, 공개되는 단계와 비공개 단계에 각각 이름을 붙여 봅시다.
 
-![alt text](/content-images/image-4-7af0dfe795.webp)
+![alt text](image-4.png)
 
 프라이버시를 가능하게 만드는 비대칭성에 주목하세요.
 
@@ -187,7 +187,7 @@ Note는 *태어나고*, 게시판 위에서 *살다가*, 결국 *죽습니다*. 
 
 위에서 나온 모든 "이건 나중에 다시 다루겠습니다"는 각각 하나의 실마리입니다. 아래는 그 실마리들이 어디에서 회수되는지에 대한 안내입니다.
 
-![alt text](/content-images/image-29-27ef4636ff.webp)
+![alt text](image-29.png)
 
 | 이 글에서 남겨 둔 질문 | 어디에서 해소되는가 |
 |---|---|

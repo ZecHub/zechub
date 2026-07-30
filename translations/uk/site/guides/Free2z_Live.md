@@ -14,15 +14,15 @@ Free2Z — це платформа, де автори та прихильник�
 
 Щоб створити акаунт або увійти, перейдіть на https://free2z.cash/ і натисніть кнопку 'CREATE'.
 
-![Login/signup form](/content-images/image-2023-11-19-133101013-3ee51e3b6f.webp)
+![Login/signup form](https://i.ibb.co/6rz0YPM/image-2023-11-19-133101013.png)
 
 У вашому браузері з’явиться форма входу/реєстрації. Оберіть ім’я користувача та надійний пароль — це будуть ваші дані для входу. Пройдіть captcha і натисніть кнопку 'Enter', щоб створити акаунт.
 
-![Username and password entry form](/content-images/image-2023-11-19-133141052-0387984be1.webp)
+![Username and password entry form](https://i.ibb.co/d47k50g/image-2023-11-19-133141052.png)
 
 Крім того, ви можете створити акаунт Free2Z, підключивши свій акаунт Twitter. Для цього натисніть на логотип Twitter поруч із 'Login With', і вам буде запропоновано підключити свій акаунт Twitter.
 
-![Twitter login option](/content-images/image-2023-11-19-133210103-f65246bbee.webp)
+![Twitter login option](https://i.ibb.co/kc6QN7Z/image-2023-11-19-133210103.png)
 
 Натисніть **Authorize app**, щоб підключити свій акаунт Twitter до Free2Z.
 
@@ -30,27 +30,27 @@ Free2Z — це платформа, де автори та прихильник�
 
 Після створення акаунта вас буде перенаправлено на сторінку вашого профілю Free2Z. Якщо ви створили акаунт, підключивши Twitter, більшість полів буде заповнено автоматично. Якщо ж ви створили акаунт, ввівши ім’я користувача та пароль, вам слід ввести свою інформацію тут. Ви можете використовувати псевдонім замість справжнього імені.
 
-![Default empty profile header](/content-images/default-header-a11eb8328f.webp)
+![Default empty profile header](https://i.ibb.co/GxyHz1D/default-header.png)
 
 Зараз це виглядає доволі нудно, тож давайте зробимо сторінку цікавішою, налаштувавши аватар і банер. Інтерфейс Free2Z робить цей крок дуже простим завдяки кнопці завантаження (стрілка вгору праворуч).
 
-![Avatar and banner upload buttons](/content-images/avatar-and-banner-bd20d0bbfb.webp)
+![Avatar and banner upload buttons](https://i.ibb.co/5jsjfZV/avatar-and-banner.png)
 
 Результат можна побачити у верхній частині сторінки.
 
-![Profile page after customization](/content-images/resultatpage-f4ddacb8b8.webp)
+![Profile page after customization](https://i.ibb.co/7y542gp/resultatpage.png)
 
 О, значно краще! Якщо у вас є художні навички, ви можете зробити сторінку свого профілю Free2Z справді чудовою! Напишіть гарний опис для своєї сторінки. Ви можете розповісти про себе або описати тип контенту, якого інші можуть від вас очікувати. (Порада: використовуйте синтаксис markdown, щоб персоналізувати свій опис!)
 
-![Editing the description field](/content-images/edit-description-b52afabec1.webp)
+![Editing the description field](https://i.ibb.co/cD1DFXw/edit-description.png)
 
 Не забудьте вказати свою shielded-адресу Zcash, щоб прихильники могли надсилати вам донати безпосередньо!
 
-![Zcash shielded address field](/content-images/p2p-address-b89f035bd9.webp)
+![Zcash shielded address field](https://i.ibb.co/8zRYgFS/p2p-address.png)
 
 Останній крок для завершення налаштування сторінки — встановити 'Member Price'. Це ціна в 2Zs (Tuzies), яку інші користувачі платитимуть за підписку на вашу сторінку! (Більше про 2Zs — далі).
 
-![Member price setting](/content-images/member-price-2dafd7e399.webp)
+![Member price setting](https://i.ibb.co/VW9sYYz/member-price.png)
 
 Нарешті натисніть кнопку 'Update Profile', щоб завершити налаштування профілю!
 
@@ -65,35 +65,35 @@ Free2Z дозволяє користувачам підписуватися на
 
 Ви можете побачити свій баланс 2Zs у заголовку сторінки профілю.
 
-![2Zs / Tuzies balance in header](/content-images/tuzis-balance-9d6a9eff7f.webp)
+![2Zs / Tuzies balance in header](https://i.ibb.co/2dBPyPb/tuzis-balance.png)
 
 Ви можете купити більше 2Zs за допомогою Zcash, натиснувши на свій баланс 2Zs. Мінімальна сума для купівлі — 0.05 ZEC, а поточний курс конвертації становить 0.05 ZEC = 10 2Zs.
 
-![Buying 2Zs interface](/content-images/buy-tuzies-e82c626047.webp)
+![Buying 2Zs interface](https://i.ibb.co/MgZb9rg/buy-tuzies.png)
 
 ## Донати та підписка
 
 Коли ви знайдете автора, який вам подобається, ви можете висловити свою підтримку, надіславши донат і підписавшись на нього. Усі донати надходять безпосередньо на гаманець автора. Як приклад, давайте підпишемося на [власну сторінку Free2Z](https://free2z.cash/free2z).
 
-![Free2Z official page](/content-images/free2z-page-94c5fd5f4f.webp)
+![Free2Z official page](https://i.ibb.co/C2T6txY/free2z-page.png)
 
 Щоб підписатися на сторінку, достатньо натиснути на іконку підписки в заголовку сторінки.
 
-![Subscribe button on creator page](/content-images/subscribe-to-creator-76c306d924.webp)
+![Subscribe button on creator page](https://i.ibb.co/k5Hbdfr/subscribe-to-creator.png)
 
 Ви побачите мінімальну суму для підписки. Перевірте, чи достатньо у вас tuzis, і натисніть subscribe.
 
-![Confirm subscription popup](/content-images/confirm-subscribe-7381923e36.webp)
+![Confirm subscription popup](https://i.ibb.co/8j4p73J/confirm-subscribe.png)
 
 ### Донат за допомогою 2Zs або Zcash
 
 Ви можете зробити донат безпосередньо на сторінці автора, натиснувши іконку Fund creator.
 
-![Fund creator button](/content-images/fund-creator-ac59aee7bf.webp)
+![Fund creator button](https://i.ibb.co/xCz5X92/fund-creator.png)
 
 Або всередині допису знайдіть плаваючу кнопку з плюсом. Звідси ви можете зробити донат автору або просунути допис на Free2Z.
 
-![Floating action buttons inside a post](/content-images/post-floating-buttons-a1e2ef1102.webp)
+![Floating action buttons inside a post](https://i.ibb.co/Rzs7ST1/post-floating-buttons.png)
 
 ## Стріми наживо
 
@@ -122,19 +122,19 @@ Free2Z Live — це потужний інструмент, який дозво�
 
 Якщо автор виконує **обидві** наведені вище умови, на сторінці його профілю для нього буде доступна іконка **Go Live**.
 
-![Go Live button](/content-images/go-live-4c8ac67505.webp)
+![Go Live button](https://i.ibb.co/7RFywwK/go-live.png)
 
 Щоб почати стрим наживо, просто натисніть кнопку **Go Live**, і застосунок Free2Z попросить дозвіл на використання вашого мікрофона та вебкамери (якщо вона у вас є). Після надання необхідних дозволів Free2Z попросить вас ввести нікнейм, який ви хочете використовувати під час трансляції. Коли ви оберете нікнейм, натисніть **Join**, щоб почати свій стрим наживо.
 
-![Select nickname for live stream](/content-images/select-nickname-414444b992.webp)
+![Select nickname for live stream](https://i.ibb.co/4VMbCrW/select-nickname.png)
 
 І готово! Коли ви запускаєте стрим наживо, у вашому профілі з’являється іконка, що вказує на те, що ви в ефірі, тож ваші підписники можуть приєднатися до трансляції.
 
-![Joining a livestream](/content-images/join-livestream-679334ba53.webp)
+![Joining a livestream](https://i.ibb.co/qpBLcKr/join-livestream.png)
 
 Коли люди приєднуються до стриму наживо, вони можуть спілкуватися в чаті, просити вийти на сцену, взаємодіяти через голосування в опитуваннях тощо.
 
-![Example of a Free2z Live session](/content-images/free2z-live-example-eecb2ae553.webp)
+![Example of a Free2z Live session](https://i.ibb.co/r3XTY8M/free2z-live-example.png)
 
 _(Приклад сесії Free2Z Live)_
 
@@ -146,13 +146,13 @@ Free2Z Live — це універсальний і потужний інстру
 
 У нижньому лівому куті екрана ми бачимо кілька кнопок.
 
-![Bottom left controls](/content-images/free2z-live-left-60b450b01c.webp)
+![Bottom left controls](https://i.ibb.co/XLQBDk1/free2z-live-left.png)
 
 Одна з корисних функцій тут — можливість ділитися своїм екраном, щоб інші користувачі могли бачити, що ви робите.
 
 У нижній частині ми можемо знайти параметри стриму наживо.
 
-![Bottom toolbar](/content-images/free2z-live-bottom-ae64a6960c.webp)
+![Bottom toolbar](https://i.ibb.co/7JbmDXc/free2z-live-bottom.png)
 
 Деякі з ключових опцій тут:  
 - Вимкнути / увімкнути мікрофон  
@@ -163,7 +163,7 @@ Free2Z Live — це універсальний і потужний інстру
 
 Щоб завершити стрим наживо, потрібно натиснути кнопку 'Leave', а потім натиснути 'End meeting for all', щоб завершити зустріч для всіх учасників.
 
-![Bottom right interaction panel](/content-images/free2z-live-right-c83cb6d209.webp)
+![Bottom right interaction panel](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/free2z-live-right.png)
 
 Кнопки в нижньому правому куті містять функції, пов’язані з взаємодією під час стриму наживо, такі як:  
 - **Chat**: дозволяє учасникам спілкуватися між собою та з ведучим під час стриму наживо.  
@@ -171,7 +171,7 @@ Free2Z Live — це універсальний і потужний інстру
 - **List of participants**: показує список учасників стриму наживо.  
 - **Plugins**: дозволяє ведучому додавати плагіни та розширення, щоб покращити досвід стриму наживо.
 
-![Plugins panel](/content-images/free2z-live-plugins-e9a30ee355.webp)
+![Plugins panel](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/free2z-live-plugins.png)
 
 Мета цього wiki-doc — не пояснити всі плагіни, але я дуже заохочую вас спробувати кожен із них, адже всі вони дають чудову цінність для взаємодії між авторами та глядачами. Щоб запустити плагін, просто натисніть кнопку 'rocket' праворуч.
 

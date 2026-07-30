@@ -14,7 +14,7 @@
 * **[PGPMail](https://www.openpgp.org/software/)**: PGPMail هو عميل بريد إلكتروني تجاري يعتمد على PGP، وهو متاح لأنظمة Windows وmacOS.
 * **[Mailvelope](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope هو إضافة مجانية ومفتوحة المصدر لـ PGP لبريدي Gmail وThunderbird.
 
-![أدوات PGP](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
+![أدوات PGP](https://github.com/ZecHub/zechub/assets/81990132/44984a75-800a-4f7a-94a5-88827e39b431)
 
 ## كيفية إنشاء المفاتيح
 
@@ -28,7 +28,7 @@
 
 سيتم إنشاء زوج مفاتيح PGP الخاص بك.
 
-![إنشاء المفاتيح](/content-images/15721ce1-0a77-4ebe-87f4-33e1455f2a40-7699b1771d.webp)
+![إنشاء المفاتيح](https://github.com/ZecHub/zechub/assets/81990132/15721ce1-0a77-4ebe-87f4-33e1455f2a40)
 
 ## كيفية استخدام PGP للبريد الإلكتروني
 
@@ -36,7 +36,7 @@
 
 ستكون رسالة البريد الإلكتروني المشفرة غير قابلة للقراءة لأي شخص لا يملك المفتاح الخاص بالمستلم. ولفك تشفير الرسالة، يمكن للمستلم استخدام مفتاحه الخاص لفك تشفير البريد الإلكتروني.
 
-![بريد PGP الإلكتروني](/content-images/dafb761d-f399-40c9-9323-526ba3bd0bc4-98503ad98b.webp)
+![بريد PGP الإلكتروني](https://github.com/ZecHub/zechub/assets/81990132/dafb761d-f399-40c9-9323-526ba3bd0bc4)
 
 ## أفضل الممارسات
 
@@ -44,9 +44,9 @@
 
 * احتفظ بمفتاحك الخاص في مكان آمن. المفتاح الخاص هو أهم جزء في زوج مفاتيح PGP الخاص بك. إذا حصل شخص ما على مفتاحك الخاص، فسيتمكن من فك تشفير أي رسائل تم تشفيرها باستخدام مفتاحك العام.
 
-![أفضل الممارسات 1](/content-images/39a6fae4-a9a1-4061-a97c-4a9b975f6383-eced005c8b.webp)
+![أفضل الممارسات 1](https://github.com/ZecHub/zechub/assets/81990132/39a6fae4-a9a1-4061-a97c-4a9b975f6383)
 
-![أفضل الممارسات 2](/content-images/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd-50ca49a070.webp)
+![أفضل الممارسات 2](https://github.com/ZecHub/zechub/assets/81990132/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd)
 
 * شارك مفتاحك العام مع الأشخاص الذين تثق بهم. يمكنك مشاركة مفتاحك العام عبر إرساله إليهم مباشرة، أو عبر رفعه إلى خادم مفاتيح PGP.
 * استخدم كلمات مرور قوية لحافظة مفاتيح PGP الخاصة بك. حافظة مفاتيح PGP هي ملف يخزّن مفاتيح PGP الخاصة بك. ومن المهم استخدام كلمة مرور قوية لحماية هذا الملف.
@@ -61,11 +61,11 @@
 * انقر على زر "Encrypt".
 * سيتم تشفير رسالة البريد الإلكتروني.
 
-![تشفير البريد الإلكتروني](/content-images/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e-6edd4a03ea.webp)
+![تشفير البريد الإلكتروني](https://github.com/ZecHub/zechub/assets/81990132/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e)
 
 ---
 
-![تدفق التشفير](/content-images/da1499e9-fc87-46b2-93ed-28d43cf1fd86-86fdc87d10.webp)
+![تدفق التشفير](https://github.com/ZecHub/zechub/assets/81990132/da1499e9-fc87-46b2-93ed-28d43cf1fd86)
 
 ## كيفية فك تشفير رسالة بريد إلكتروني باستخدام PGP
 
@@ -76,4 +76,4 @@
 * انقر على زر "Decrypt".
 * سيتم فك تشفير رسالة البريد الإلكتروني.
 
-![فك تشفير البريد الإلكتروني](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)
+![فك تشفير البريد الإلكتروني](https://github.com/ZecHub/zechub/assets/81990132/beae714c-020f-4c1e-aa4f-3dd9430670cc)

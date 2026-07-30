@@ -5,7 +5,7 @@
 Un sujet intéressant aujourd’hui !  
 Le protocole **CryptoNote** permet une forte confidentialité on-chain. Aujourd’hui, nous découvrons toutes ses caractéristiques clés et comment il a été mis en œuvre par plusieurs projets de confidentialité notables.
 
-![Introduction à CryptoNote](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
+![Introduction à CryptoNote](https://pbs.twimg.com/media/FrXr5P8WIAAvx36.jpg)
 
 ---
 
@@ -35,7 +35,7 @@ Lors de l’envoi d’une transaction, votre véritable clé publique est mélan
 
 La **taille de l’anneau** affecte considérablement l’ensemble d’anonymat. Des anneaux plus grands offrent une meilleure confidentialité.
 
-![Explication des signatures en anneau](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
+![Explication des signatures en anneau](https://pbs.twimg.com/media/FrXteGHXgAANE0F.png)
 
 **Comparaison avec Zcash** :  
 L’ensemble d’anonymat de Zcash correspond au nombre total de transactions *jamais* effectuées dans un pool protégé donné (bien plus grand que les tailles d’anneau typiques de CryptoNote).
@@ -48,7 +48,7 @@ Le modèle **Ring CT** a considérablement amélioré la confidentialité dans l
 
 Au lieu de seulement masquer l’expéditeur, Ring CT **obscurcit également les montants des transactions** entre l’expéditeur et le destinataire.
 
-![Schéma de Ring CT](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
+![Schéma de Ring CT](https://pbs.twimg.com/media/FrXuivgWYAAze7B.png)
 
 Il utilise :
 - la cryptographie sur courbes elliptiques
@@ -59,7 +59,7 @@ Des **preuves** sont utilisées pour montrer que le montant est supérieur à 0 
 
 Les **adresses furtives** ajoutent également des adresses à usage unique pour le destinataire.
 
-![Adresses furtives + preuves](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
+![Adresses furtives + preuves](https://pbs.twimg.com/media/FrXut5aWAAMhuRb.jpg)
 
 ---
 
@@ -74,7 +74,7 @@ Il utilise l’algorithme **CryptoNight** (une fonction gourmande en mémoire). 
 2. Effectuer de nombreuses opérations de lecture/écriture sur le scratchpad
 3. Hacher l’ensemble du scratchpad pour produire la valeur finale
 
-![Minage CryptoNight](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
+![Minage CryptoNight](https://pbs.twimg.com/media/FrXvNs3XsAA37LG.jpg)
 
 (Remarque : Monero s’est depuis éloigné de CryptoNight au profit d’autres algorithmes.)
 
@@ -86,7 +86,7 @@ Au lieu d’événements de halving soudains (comme Bitcoin), CryptoNote utilise
 
 Cela crée une courbe d’émission beaucoup plus fluide au fil du temps.
 
-![Courbe d’émission dynamique](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
+![Courbe d’émission dynamique](https://pbs.twimg.com/media/FrXv8wpXoAEjUxW.png)
 
 **Lien avec Zcash** :  
 Les développeurs de Zcash ont discuté de la mise en œuvre d’une courbe d’émission plus fluide à l’avenir, potentiellement via un « Zcash Posterity Fund ».

@@ -1,7 +1,7 @@
 # Miti ya Merkle: Jinsi blockchain inakumbuka kila noti
 ##### Utafiti wa awali kutoka [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [ alt maandishi](/content-images/image-19-cfbdcf8f78.webp)
+! [ alt maandishi](image-19.png)
 
 ### Kujumlisha mamilioni ya ahadi katika alama moja ndogo ya kidole
 
@@ -34,7 +34,7 @@ Fikiria mzunguko wa mashindano ya knockout, lakini badala ya wachezaji kusonga m
 - Waunganishe wazazi wawili wawili, weka kila jozi pamoja, na kadhalika.
 - Endelea mpaka alama moja ya vidole ikae juu.
 
-! [ alt maandishi](/content-images/image-20-f5d57e425a.webp)
+! [ alt maandishi](image-20.png)
 
 Mali moja muhimu zaidi inafuata moja kwa moja kutoka athari ya mvua ya mawe (Kifungu cha 3):
 
@@ -77,7 +77,7 @@ step 2:  H(hAB , hCD)      = ROOT?     (combine with the uncle)
 
 Imehesabiwa kwa kweli: hii inazalisha `1b3faa3fcc5e...`, ambayo ** mechi mizizi. * * jani ni kuthibitika kuwa katika mti.
 
-! [ alt maandishi](/content-images/image-21-d9e5d6eaf6.webp)
+! [ alt maandishi](image-21.png)
 
 Vitu viwili vinafanya hii iwe na nguvu:
 
@@ -99,7 +99,7 @@ Maelezo machache halisi:
 - **Fixed kina.** miti Zcash ya ulinzi na kina **32**, maana wao wanaweza kushikilia hadi `2^(32)` (zaidi ya bilioni nne) noti.
 - **ZK-kirafiki hashing.** Mti si kujengwa na SHA-256. Sapling hashes mti na **Pedersen hashes** na Orchard anatumia **Sinsemilla** (wote kutoka Ibara ya 3), hasa hivyo uanachama kupanda ni nafuu kuthibitisha ndani ya mzunguko.
 
-! [ alt maandishi](/content-images/image-22-518354b8d5.webp)
+! [ alt maandishi](image-22.png)
 
 ### Jambo moja mti *hatutumii*: hutumia mara mbili
 

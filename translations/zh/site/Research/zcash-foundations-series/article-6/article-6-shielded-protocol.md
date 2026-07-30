@@ -1,7 +1,7 @@
 # 端到端的 Shielded Protocol
 ##### 来自 [Annkkitaaa](https://github.com/Annkkitaaa) 的原创研究
 
-![替代文本](/content-images/image-27-4094293ec0.webp)
+![替代文本](image-27.png)
 
 ### 将每个部分组装成一笔私密的 Zcash 交易
 
@@ -41,7 +41,7 @@
 
 用户能做的一切，都源自一个单一秘密：**spending key**，并通过一个单向层级派生出来（每个箭头都是不可逆派生，这要归功于第 2 和第 3 篇文章中的 trapdoor）：
 
-![替代文本](/content-images/image-32-f443f9bb72.webp)
+![替代文本](image-32.png)
 
 这里有两点值得注意，它们都来自前文的结论：
 
@@ -54,7 +54,7 @@
 
 要私密地花费一个 note，你必须在**不暴露该 note、其金额、其位置或你的身份**的前提下，同时向网络证明四件事。每一项声明都由你已经了解的某个组件来满足。
 
-![替代文本](/content-images/image-31-86309af194.webp)
+![替代文本](image-31.png)
 
 proof **不会**泄露任何底层事实（是哪一个 note、是谁的密钥、金额是多少）。它只揭示 *这四项声明全部成立*。这就是 shielded Zcash 的全部技巧，用一张图就能说明白。
 
@@ -92,7 +92,7 @@ proof **不会**泄露任何底层事实（是哪一个 note、是谁的密钥�
 
 此外，还有一个针对整个打包内容的 **binding signature**，用于强制金额平衡（第 5 节）。
 
-![替代文本](/content-images/image-30-98511eb2d0.webp)
+![替代文本](image-30.png)
 
 观察隐私是如何实现的：网络检查了 anchor，检查了 nullifier 尚未被使用，验证了 proof，也验证了余额。它接受了一笔有效支付，**却没有得知金额、地址，也不知道究竟花费了哪个 note。** 与此同时，被花费 note 的 **nullifier**（它的死亡）和 Bob 新的 **commitment**（他的 note 的诞生）分别位于两个不同的公共结构中，二者之间没有可见连接，这正是第 0 篇文章中被切断的那条联系。
 
@@ -198,7 +198,7 @@ Value commitments 具有同态可加性；一笔平衡交易中的 commitments �
 
 你现在已经从一个单一悖论，走到了完整的私密支付：
 
-![替代文本](/content-images/cd8bbb40-57b8-4854-b9cf-97f2485d126a-8847fae521.webp)
+![替代文本](https://github.com/user-attachments/assets/cd8bbb40-57b8-4854-b9cf-97f2485d126a)
 
 
 从这里开始，自然的下一段旅程会更深入：Groth16 与 Halo 2 的内部工作原理、trusted-setup 仪式、Sapling 和 Orchard 电路的详细结构、密钥派生与 diversified addresses，以及协议在各次网络升级中的演进。但现在，基础已经建立起来了，而以上每一个主题也都有了可以附着的正确位置。

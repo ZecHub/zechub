@@ -2,7 +2,7 @@
 
 # Shade Protocol
 
-![Logo do Shade Protocol](/content-images/Af8EzlNiwGr4FTFX7oqdBuE-71316827d0.webp)
+![Logo do Shade Protocol](https://framerusercontent.com/images/Af8EzlNiwGr4FTFX7oqdBuE.png)
 
 ## O que é o Shade Protocol?
 
@@ -14,7 +14,7 @@ Shade Protocol é um ecossistema DeFi (Finanças Descentralizadas) com preserva�
 
 Shade Protocol é construído sobre a Secret Network, uma blockchain de camada 1 que oferece contratos inteligentes com preservação de privacidade. A Secret Network usa entradas, saídas e estado criptografados para garantir a privacidade das transações, protegendo os dados dos usuários de serem expostos no livro-razão público.
 
-![Diagrama da Secret Network](/content-images/1-yyZ5hFOw6z8zXX_rgJn5iw-9091067aa1.webp)
+![Diagrama da Secret Network](https://miro.medium.com/v2/resize:fit:828/format:webp/1*yyZ5hFOw6z8zXX_rgJn5iw.png)
 
 A Secret Network permite que desenvolvedores construam aplicações descentralizadas com dados criptografados, tanto nativamente na Secret quanto em outras blockchains por meio de comunicação cross-chain, desbloqueando novos e poderosos casos de uso para a Web3.
 
@@ -23,7 +23,7 @@ A Secret Network permite que desenvolvedores construam aplicações descentraliz
 O Cosmos foi criado para interconectar blockchains heterogêneas, definindo maneiras melhores e mais modernas de construir essas blockchains usando novas ferramentas como Tendermint e o Cosmos SDK.  
 O protocolo utiliza o Cosmos SDK, um framework modular para construir aplicações blockchain escaláveis e interoperáveis. Isso permite que o Shade Protocol se beneficie da robustez e da interoperabilidade do ecossistema Cosmos.
 
-![Diagrama do Cosmos SDK e Tendermint Core](/content-images/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e-ed16bb7658.webp)
+![Diagrama do Cosmos SDK e Tendermint Core](https://s3.ap-northeast-1.amazonaws.com/gimg.gateimg.com/learn/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e.jpg)
 
 Para consenso e segurança da rede, o Shade Protocol emprega o Tendermint Core, que fornece consenso Byzantine Fault Tolerant (BFT), garantindo alta segurança e finalidade rápida.
 
@@ -37,9 +37,9 @@ DeFi com preservação de privacidade aproveita técnicas criptográficas avanç
 
 Shade Protocol utiliza viewing keys para seus dois principais tokens: Shade ($SHD) e Silk ($SILK). Shade ($SHD) desempenha múltiplos papéis, atuando como token de tesouraria, governança e compartilhamento de receita dentro do ecossistema. Ele é usado em staking, propostas de governança, provisão de liquidez, transações e títulos. Já Silk ($SILK) é a stablecoin do protocolo focada em privacidade, atrelada a uma cesta diversificada de moedas globais e commodities, como ouro, Bitcoin, dólar americano, euro e iene.
 
-![Tokens Shade e Silk - Parte 1](/content-images/9wTrxCdx8AoRcCwsGub13QXuY-807ed3b400.webp)
+![Tokens Shade e Silk - Parte 1](https://framerusercontent.com/images/9wTrxCdx8AoRcCwsGub13QXuY.png?scale-down-to=1024)
 
-![Tokens Shade e Silk - Parte 2](/content-images/IUC9YWfErTebCBsMkdbCnjSWGEY-4ed6d5cedf.webp)
+![Tokens Shade e Silk - Parte 2](https://framerusercontent.com/images/IUC9YWfErTebCBsMkdbCnjSWGEY.png)
 
 ### Privacidade
 
@@ -57,7 +57,7 @@ Como uma plataforma DeFi, o Shade Protocol opera sem controle central, oferecend
 
 Fazer parte do ecossistema Cosmos significa que o Shade Protocol pode interagir facilmente com outras blockchains, aumentando a liquidez e oferecendo mais oportunidades para que os usuários aproveitem seus ativos em diferentes redes. Ao utilizar tecnologias com preservação de privacidade da Secret Network, o Shade Protocol garante que essas atividades cross-chain mantenham confidencialidade e integridade. Essa interoperabilidade não apenas aumenta a flexibilidade e a funcionalidade das aplicações descentralizadas, mas também promove um ecossistema blockchain mais interconectado e robusto, reduzindo a dependência de redes isoladas e promovendo uma adoção mais ampla de soluções de finanças descentralizadas.
 
-![Diagrama de interoperabilidade](/content-images/3zIwSJHEwP9tkn4aI0do0lhgFTE-2aed930de0.webp)
+![Diagrama de interoperabilidade](https://framerusercontent.com/images/3zIwSJHEwP9tkn4aI0do0lhgFTE.png)
 
 ## Conclusão
 

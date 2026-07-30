@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="تحرير الصفحة"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-165803028-2532c6c3ac.webp" alt="نص بديل" width="50"/>  Zcash Foundation
+# <img src="https://i.ibb.co/Nr9xqgX/image-2024-02-03-165803028.png" alt="نص بديل" width="50"/>  Zcash Foundation
 
 ## بيان المهمة
 

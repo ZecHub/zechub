@@ -47,7 +47,7 @@
 * 在右上角选择“Account”，点击右下角的“+”以添加并导入你的 Viewing Key，从而添加你的“只读”账户。
 
 <a href="">
-    <img src="/content-images/image-2024-01-13-175554676-8cdf988797.webp" alt="" width="200" height="280"/>
+    <img src="https://i.ibb.co/C0b002N/image-2024-01-13-175554676.png" alt="" width="200" height="280"/>
 </a>
 
 

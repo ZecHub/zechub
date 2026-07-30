@@ -4,7 +4,7 @@
 
 
 # Zcash Podcast kwenye Mtandao wa Fedha za Dijiti
-[Screenshot_2023-01-22_21-50-14]](/content-images/213973803-b0629c92-08d4-459b-99f1-594854-6272d02af6.webp)
+[Screenshot_2023-01-22_21-50-14]](https://user-images.githubusercontent.com/81990132/213973803-b0629c92-08d4-459b-99f1-594854a7db3a.png)
 
 The Zcash Podcast hosts content such as updates, specific subject deep dives, etc. for the existing Zcash community to consume and share, as well as give an opportunity for existing Digital Cash Network channel subscribers to become more deeply familiar with Zcash. 
 

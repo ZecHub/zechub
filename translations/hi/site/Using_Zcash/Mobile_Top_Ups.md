@@ -10,36 +10,36 @@
 ### 2. अपना देश और नेटवर्क चुनें
 ऊपर बाएँ कोने तक स्क्रॉल करें और अपना देश चुनें; फिर मोबाइल फोन क्रेडिट चुनें और उस नेटवर्क का चयन करें जिसे आप टॉप-अप करना चाहते हैं (उदाहरण: MTN)।
 
-![Step 2 - Selecting country and network](/content-images/0-qvB7ZCWaVWa-C2d8-db0d4ea372.webp)
+![Step 2 - Selecting country and network](https://cdn-images-1.medium.com/max/1200/0*qvB7ZCWaVWa-C2d8)
 
 ### 3. विवरण भरें और खरीदारी करें
 सही विवरण भरें और "Buy Now" बटन दबाएँ। अपना ऑर्डर देखने के लिए कार्ट खोलें, continue पर क्लिक करें, और $ZEC के साथ खरीदारी की पुष्टि करें।
 
-![Step 3 - Purchase screen](/content-images/0-ikF-ooBc9W7olfNt-7a4584edda.webp)
+![Step 3 - Purchase screen](https://cdn-images-1.medium.com/max/1200/0*ikF-ooBc9W7olfNt)
 
 ### 4. भुगतान विवरण
 $ZEC में समतुल्य राशि प्रदान की जाएगी, साथ ही एक transparent address भी दिया जाएगा जहाँ धनराशि भेजी जानी चाहिए।
 
-![Step 4 - ZEC payment details](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
+![Step 4 - ZEC payment details](https://cdn-images-1.medium.com/max/1200/0*6_YhAhQnsLbrMvHN)
 
 ### 5. भुगतान भेजें
 राशि और address को सावधानीपूर्वक कॉपी और पेस्ट करें। memo फ़ील्ड में, अपना YWallet address जोड़ें ताकि यदि refund हो, तो वह प्राप्त किया जा सके।
 
-![Step 5 - Sending ZEC](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
+![Step 5 - Sending ZEC](https://cdn-images-1.medium.com/max/1200/0*DNnpyemsKcW-k-u-)
 
 ### 6. प्रोसेसिंग
 जैसे ही धनराशि भेज दी जाएगी, आपका अनुरोध कुछ ही मिनटों में प्रोसेस कर दिया जाएगा।
 
-![Step 6 - Processing screen](/content-images/0-LgXuUVLVecqrUW5G-a894c7b2dd.webp)
+![Step 6 - Processing screen](https://cdn-images-1.medium.com/max/1200/0*LgXuUVLVecqrUW5G)
 
 ### 7. पुष्टि
 अरे… मेरी लाइन में क्रेडिट आ गया! आप भुगतान प्रक्रिया के दौरान अपना ईमेल भी पुष्टि कर सकते हैं ताकि लेन-देन पूरा होने पर आपको ईमेल के माध्यम से सूचना मिल जाए।
 
-![Step 7 - Successful top-up](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
+![Step 7 - Successful top-up](https://cdn-images-1.medium.com/max/1200/0*TJKIcqznQ4Y8_jgo)
 
 ---
 
-![Additional screenshot](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)
+![Additional screenshot](https://cdn-images-1.medium.com/max/1200/0*Jn7tD9lb2xtMBpIw)
 
 ### ZEC खर्च करने के अन्य स्थान
 

@@ -15,7 +15,7 @@ Zcash について初めて学ぶ方は、利用できるトランザクショ�
 
 **Shielded Transaction** とは、Sapling/Orchard プール向けにエンコードされたアドレスを含むあらゆるトランザクションを指します。
 
-![Transparent vs Shielded intro](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
+![Transparent vs Shielded intro](https://pbs.twimg.com/media/FpmW00HWIAIZpQD.jpg)
 
 **Unified Addresses (UAs)** は、shielded または transparent のトランザクションを 1 つのアドレスに**統合**するために設計されています。
 
@@ -31,9 +31,9 @@ Zcash について初めて学ぶ方は、利用できるトランザクショ�
 
 種類が増えるごとに、文字数（したがって QR コードのサイズ）も大きくなります。
 
-![Address types comparison](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
+![Address types comparison](https://pbs.twimg.com/media/FpmXe5bXsAEFeLY.png)
 
-![QR code size comparison](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
+![QR code size comparison](https://pbs.twimg.com/media/FpmXmDwXoAIWxov.png)
 
 ---
 
@@ -50,7 +50,7 @@ Unified Address の raw encoding は、receiver のエンコード（typecode、
 
 **重要**: すべての UA には、**少なくとも 1 つの shielded payment address** が含まれていなければなりません。（Sprout アドレスは Canopy アップグレード以降サポートされていません。）
 
-![UA encoding structure](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
+![UA encoding structure](https://pbs.twimg.com/media/FpmYW1ZXgAAvALT.png)
 
 完全な仕様: **[ZIP-316: Unified Addresses](https://zips.z.cash/zip-0316)**
 

@@ -13,7 +13,7 @@ Recovery phrases को **BIP-39** specification द्वारा परिभ
 
 Recovery phrases का निर्माण **randomness** उत्पन्न करने से शुरू होता है। अधिक entropy का अर्थ है अधिक सुरक्षा। अधिकांश उपयोगकर्ताओं के लिए **128 bits** entropy पर्याप्त मानी जाती है।
 
-![Seed phrase concept](/content-images/FooM3qWWACgrwzn-f222c4081f.webp)
+![Seed phrase concept](https://pbs.twimg.com/media/FooM3qWWACgrwzn.jpg)
 
 प्रारंभिक entropy की लंबाई के आधार पर, recovery phrase **12 से 24 शब्दों** की होगी।
 
@@ -28,7 +28,7 @@ Recovery phrases का निर्माण **randomness** उत्पन्�
 हम entropy को **SHA256** का उपयोग करके hash करते हैं। इस hash के शुरुआती कुछ bits checksum बन जाते हैं।  
 यह हमारी entropy के लिए एक अद्वितीय fingerprint देता है।
 
-![Entropy + Checksum diagram](/content-images/FooNoOEXgAAu-g6-613238fa7e.webp)
+![Entropy + Checksum diagram](https://pbs.twimg.com/media/FooNoOEXgAAu-g6.png)
 
 ### 3. 11-bit खंडों में विभाजित करें
 कुल 132 bits (128 entropy + 4 checksum) को 11 bits के खंडों में विभाजित किया जाता है।
@@ -39,7 +39,7 @@ BIP-39 wordlists में ठीक **2048 शब्द** होते है�
 
 इन संख्याओं का उपयोग wordlist में संबंधित शब्द खोजने के लिए किया जाता है।
 
-![Word mapping example](/content-images/FooN9rfXEBoQuU2-d11331fc0a.webp)
+![Word mapping example](https://pbs.twimg.com/media/FooN9rfXEBoQuU2.png)
 
 **परिणाम:** अब हमारे पास एक सुरक्षित, मानव-पठनीय 12-शब्दों वाली recovery phrase है!
 
@@ -59,7 +59,7 @@ Wallet seed, mnemonic phrase से एक **Key Derivation Function (KDF)** क
 
 इससे एक **64-byte (512-bit)** seed उत्पन्न होती है।
 
-![Seed to master keys](/content-images/FooOuumXEAgcBm1-dc7c66b84a.webp)
+![Seed to master keys](https://pbs.twimg.com/media/FooOuumXEAgcBm1.jpg)
 
 ### Master Keys
 Seed को 32-byte के दो sequence में विभाजित किया जाता है:
@@ -83,7 +83,7 @@ Zcash में, **viewing authority** या **spending authority** को mast
 
 अलग-अलग derivation mechanisms ऐसी external addresses उत्पन्न करते हैं जो shielded pools (Sapling & Orchard) के बीच senders को देने के लिए उपयुक्त होती हैं।
 
-![Zcash key derivation hierarchy](/content-images/FooPKd4XEBUQhJ6-af133c01bf.webp)
+![Zcash key derivation hierarchy](https://pbs.twimg.com/media/FooPKd4XEBUQhJ6.jpg)
 
 Zcash wallet operations जैसे Auto-Shielding के लिए **internal addresses** का भी समर्थन करता है।
 

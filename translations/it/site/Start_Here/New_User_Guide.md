@@ -101,7 +101,7 @@ Il Forum della Comunità Zcash è il luogo in cui i membri della comunità discu
 La comunità è appassionata e molto accogliente con i nuovi arrivati. A volte le conversazioni possono essere tecniche, ma non preoccuparti! Se hai una domanda, puoi sempre chiederla.
 
 <a href="">
-    <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="/content-images/c1d40441-4336-4754-b3bf-5a746b19a9d5-6d2eca6cbf.webp" />
+    <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="https://github.com/user-attachments/assets/c1d40441-4336-4754-b3bf-5a746b19a9d5" />
 </a>
 
 ---

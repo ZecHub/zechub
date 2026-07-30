@@ -4,7 +4,7 @@
 
 # Guide du Raspberry Pi 4 pour exécuter Zebra
 
-<img src="/content-images/image-2023-11-28-172907488-e7e9fd4ac5.webp" alt="raspberry pi" width="300" height="300"/>
+<img src="https://i.ibb.co/V3rjKwv/image-2023-11-28-172907488.png" alt="raspberry pi" width="300" height="300"/>
 
 Exécuter le logiciel de nœud Zebra sur un Raspberry Pi 4 vous permet de participer au réseau Zcash en tant que nœud indépendant compatible avec le consensus. Ce guide vous expliquera les étapes pour configurer et exécuter Zebra sur votre Raspberry Pi 4.
 
@@ -67,7 +67,7 @@ Exécuter le logiciel de nœud Zebra sur un Raspberry Pi 4 vous permet de partic
 7. __Surveillance__
    Vous pouvez surveiller la progression et l'état de votre nœud Zebra en ouvrant un navigateur web et en accédant à __http://127.0.0.1:8233/status__.
 
-<img src="/content-images/image-2023-11-28-173024853-99540511cf.webp" alt="logo zebra" width="200" height="200"/>
+<img src="https://i.ibb.co/BCtKrGp/image-2023-11-28-173024853.png" alt="logo zebra" width="200" height="200"/>
 
 ## Dépannage
 

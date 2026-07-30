@@ -14,15 +14,15 @@ Free2Z, içerik üreticileri ve destekçilerin bağlantı kurup hedeflerine ula�
 
 Hesap oluşturmak veya giriş yapmak için https://free2z.cash/ adresini ziyaret edin ve 'CREATE' düğmesine tıklayın.
 
-![Giriş/kayıt formu](/content-images/image-2023-11-19-133101013-3ee51e3b6f.webp)
+![Giriş/kayıt formu](https://i.ibb.co/6rz0YPM/image-2023-11-19-133101013.png)
 
 Giriş/kayıt formu tarayıcınızda görünecektir. Kullanıcı adınızı ve güçlü bir şifre seçin - bunlar giriş bilgileriniz olacaktır. Captcha'yı çözün ve hesabınızı oluşturmak için 'Enter' düğmesine tıklayın.
 
-![Kullanıcı adı ve şifre giriş formu](/content-images/image-2023-11-19-133141052-0387984be1.webp)
+![Kullanıcı adı ve şifre giriş formu](https://i.ibb.co/d47k50g/image-2023-11-19-133141052.png)
 
 Alternatif olarak, Twitter hesabınızı bağlayarak bir Free2Z hesabı oluşturabilirsiniz. Bunu yapmak için 'Login With' yanındaki Twitter logosuna tıklayın; ardından Twitter hesabınızı bağlamanız istenecektir.
 
-![Twitter ile giriş seçeneği](/content-images/image-2023-11-19-133210103-f65246bbee.webp)
+![Twitter ile giriş seçeneği](https://i.ibb.co/kc6QN7Z/image-2023-11-19-133210103.png)
 
 Twitter hesabınızı Free2Z'ye bağlamak için **Authorize app** seçeneğine tıklayın.
 
@@ -30,27 +30,27 @@ Twitter hesabınızı Free2Z'ye bağlamak için **Authorize app** seçeneğine t
 
 Hesabınız oluşturulduktan sonra Free2Z profil sayfanıza yönlendirileceksiniz. Hesabınızı Twitter'ı bağlayarak oluşturduysanız, alanların çoğu otomatik olarak doldurulacaktır. Hesabı kullanıcı adı ve şifre girerek oluşturduysanız, bilgilerinizi burada girmelisiniz. Gerçek adınız yerine bir takma ad kullanabilirsiniz.
 
-![Varsayılan boş profil başlığı](/content-images/default-header-a11eb8328f.webp)
+![Varsayılan boş profil başlığı](https://i.ibb.co/GxyHz1D/default-header.png)
 
 Şu an oldukça sıkıcı görünüyor, bu yüzden bir avatar ve bir banner ayarlayarak onu daha ilgi çekici hale getirelim. Free2Z arayüzü, yükleme düğmesi (sağdaki yukarı ok) sayesinde bu adımı çok kolaylaştırır.
 
-![Avatar ve banner yükleme düğmeleri](/content-images/avatar-and-banner-bd20d0bbfb.webp)
+![Avatar ve banner yükleme düğmeleri](https://i.ibb.co/5jsjfZV/avatar-and-banner.png)
 
 Sonucu sayfanın en üstünde görebilirsiniz.
 
-![Özelleştirme sonrası profil sayfası](/content-images/resultatpage-f4ddacb8b8.webp)
+![Özelleştirme sonrası profil sayfası](https://i.ibb.co/7y542gp/resultatpage.png)
 
 Ah, çok daha iyi! Biraz sanatsal beceriniz varsa, Free2Z profil sayfanızın harika görünmesini sağlayabilirsiniz! Sayfanız için güzel bir açıklama yazın. Kendinizden bahsedebilir veya başkalarının sizden ne tür içerikler bekleyebileceğini anlatabilirsiniz. (İpucu: Açıklamanızı kişiselleştirmek için markdown sözdizimini kullanın!)
 
-![Açıklama alanını düzenleme](/content-images/edit-description-b52afabec1.webp)
+![Açıklama alanını düzenleme](https://i.ibb.co/cD1DFXw/edit-description.png)
 
 Zcash shielded adresinizi eklemeyi unutmayın; böylece destekçiler size doğrudan bağış yapabilir!
 
-![Zcash shielded adres alanı](/content-images/p2p-address-b89f035bd9.webp)
+![Zcash shielded adres alanı](https://i.ibb.co/8zRYgFS/p2p-address.png)
 
 Sayfa kurulumunuzu tamamlamadaki son adım, bir 'Member Price' belirlemektir. Bu, diğer kullanıcıların sayfanıza abone olmak için 2Zs (Tuzies) cinsinden ödeyeceği fiyattır! (2Zs hakkında daha fazlası ileride).
 
-![Üyelik fiyatı ayarı](/content-images/member-price-2dafd7e399.webp)
+![Üyelik fiyatı ayarı](https://i.ibb.co/VW9sYYz/member-price.png)
 
 Son olarak, profil kurulumunuzu tamamlamak için 'Update Profile' düğmesine tıklayın!
 
@@ -65,35 +65,35 @@ Free2Z, kullanıcıların favori içerik üreticilerine abone olmasına ve özel
 
 2Zs kredilerinizi profil sayfanızın üst kısmında görebilirsiniz.
 
-![Üst kısımda 2Zs / Tuzies bakiyesi](/content-images/tuzis-balance-9d6a9eff7f.webp)
+![Üst kısımda 2Zs / Tuzies bakiyesi](https://i.ibb.co/2dBPyPb/tuzis-balance.png)
 
 2Zs bakiyenize tıklayarak Zcash ile daha fazla 2Zs satın alabilirsiniz. Satın alma için minimum tutar 0.05 ZEC'tir ve mevcut dönüşüm oranı 0.05 ZEC = 10 2Zs şeklindedir.
 
-![2Zs satın alma arayüzü](/content-images/buy-tuzies-e82c626047.webp)
+![2Zs satın alma arayüzü](https://i.ibb.co/MgZb9rg/buy-tuzies.png)
 
 ## Bağış yapma ve abone olma
 
 Beğendiğiniz bir içerik üreticisini bulduğunuzda, ona bağış yaparak ve abone olarak takdirinizi gösterebilirsiniz. Tüm bağışlar doğrudan içerik üreticisinin cüzdanına gider. Örnek olarak, [Free2Z'nin kendi sayfasına](https://free2z.cash/free2z) abone olalım.
 
-![Free2Z resmi sayfası](/content-images/free2z-page-94c5fd5f4f.webp)
+![Free2Z resmi sayfası](https://i.ibb.co/C2T6txY/free2z-page.png)
 
 Bir sayfaya abone olmak için yapmanız gereken tek şey, sayfa başlığındaki abone ol simgesine tıklamaktır.
 
-![İçerik üreticisi sayfasındaki abone ol düğmesi](/content-images/subscribe-to-creator-76c306d924.webp)
+![İçerik üreticisi sayfasındaki abone ol düğmesi](https://i.ibb.co/k5Hbdfr/subscribe-to-creator.png)
 
 Abonelik için gereken minimum tutarı göreceksiniz. Yeterli tuzis'iniz olup olmadığını kontrol edin ve subscribe seçeneğine tıklayın.
 
-![Abonelik onay penceresi](/content-images/confirm-subscribe-7381923e36.webp)
+![Abonelik onay penceresi](https://i.ibb.co/8j4p73J/confirm-subscribe.png)
 
 ### 2Zs veya Zcash kullanarak bağış yapın
 
 Sayfalarında Fund creator simgesine tıklayarak doğrudan bağış yapabilirsiniz.
 
-![İçerik üreticisini fonla düğmesi](/content-images/fund-creator-ac59aee7bf.webp)
+![İçerik üreticisini fonla düğmesi](https://i.ibb.co/xCz5X92/fund-creator.png)
 
 Ya da bir gönderinin içindeyken kayan artı düğmesini arayın. Buradan içerik üreticisine bağış yapabilir veya gönderiyi Free2Z üzerinde öne çıkarabilirsiniz.
 
-![Bir gönderi içindeki kayan eylem düğmeleri](/content-images/post-floating-buttons-a1e2ef1102.webp)
+![Bir gönderi içindeki kayan eylem düğmeleri](https://i.ibb.co/Rzs7ST1/post-floating-buttons.png)
 
 ## Canlı Yayın
 
@@ -122,19 +122,19 @@ Free2z Live ile canlı yayın başlatmak çok kolaydır. Ancak yayınınıza ba�
 
 İçerik üreticisi yukarıdaki koşulların **ikisini de** karşılıyorsa, profil sayfasında **Go Live** adlı bir simge kullanılabilir olacaktır.
 
-![Go Live düğmesi](/content-images/go-live-4c8ac67505.webp)
+![Go Live düğmesi](https://i.ibb.co/7RFywwK/go-live.png)
 
 Canlı yayın başlatmak için yalnızca **Go Live** düğmesine tıklayın; Free2z uygulaması mikrofonunuzu ve web kameranızı (varsa) kullanmak için sizden izin isteyecektir. Gerekli izinleri verdikten sonra Free2z, canlı yayın sırasında kullanmak istediğiniz bir takma ad girmenizi isteyecektir. Bir takma ad seçtikten sonra canlı yayını başlatmak için **Join** düğmesine tıklayın.
 
-![Canlı yayın için takma ad seçimi](/content-images/select-nickname-414444b992.webp)
+![Canlı yayın için takma ad seçimi](https://i.ibb.co/4VMbCrW/select-nickname.png)
 
 Ve tamam! Bir canlı yayın başlattığınızda, profilinizde yayında olduğunuzu gösteren bir simge görünecektir; böylece aboneleriniz canlı yayına katılabilir.
 
-![Bir canlı yayına katılma](/content-images/join-livestream-679334ba53.webp)
+![Bir canlı yayına katılma](https://i.ibb.co/qpBLcKr/join-livestream.png)
 
 İnsanlar canlı yayına katıldığında sohbet edebilir, sahneye çıkmak için istekte bulunabilir, anketlerde oy vererek etkileşime girebilir ve daha fazlasını yapabilir.
 
-![Bir Free2z Live oturumu örneği](/content-images/free2z-live-example-eecb2ae553.webp)
+![Bir Free2z Live oturumu örneği](https://i.ibb.co/r3XTY8M/free2z-live-example.png)
 
 _(Free2z Live oturumu örneği)_
 
@@ -146,13 +146,13 @@ Bu wiki belgesi, Free2z veya Free2z Live için derinlemesine bir rehber olmayı 
 
 Ekranın sol alt kısmında birkaç düğme görüyoruz.
 
-![Sol alt kontroller](/content-images/free2z-live-left-60b450b01c.webp)
+![Sol alt kontroller](https://i.ibb.co/XLQBDk1/free2z-live-left.png)
 
 Buradaki güzel işlevlerden biri, ekranınızı paylaşabilmenizdir; böylece diğer kullanıcılar ne yaptığınızı görebilir.
 
 Alt kısımda canlı yayın seçeneklerini bulabiliriz.
 
-![Alt araç çubuğu](/content-images/free2z-live-bottom-ae64a6960c.webp)
+![Alt araç çubuğu](https://i.ibb.co/7JbmDXc/free2z-live-bottom.png)
 
 Buradaki temel seçeneklerden bazıları şunlardır:  
 - Mikrofonu sessize alma / sessizden çıkarma  
@@ -163,7 +163,7 @@ Buradaki temel seçeneklerden bazıları şunlardır:
 
 Bir canlı yayını sonlandırmak için 'Leave' düğmesine tıklamalı, ardından toplantıyı tüm katılımcılar için durdurmak üzere 'End meeting for all' seçeneğine tıklamalısınız.
 
-![Sağ alt etkileşim paneli](/content-images/free2z-live-right-c83cb6d209.webp)
+![Sağ alt etkileşim paneli](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/free2z-live-right.png)
 
 Sağ alttaki düğmeler, canlı yayın etkileşimiyle ilgili işlevler içerir; örneğin:  
 - **Chat**: Bu, katılımcıların canlı yayın sırasında birbirleriyle ve sunucuyla sohbet etmesini sağlar.  
@@ -171,7 +171,7 @@ Sağ alttaki düğmeler, canlı yayın etkileşimiyle ilgili işlevler içerir; 
 - **Katılımcı listesi**: Bu, canlı yayındaki katılımcıların listesini gösterir.  
 - **Plugins**: Bu, sunucunun canlı yayın deneyimini geliştirmek için eklentiler ve uzantılar eklemesini sağlar.
 
-![Eklentiler paneli](/content-images/free2z-live-plugins-e9a30ee355.webp)
+![Eklentiler paneli](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/free2z-live-plugins.png)
 
 Bu wiki belgesinin amacı tüm eklentileri açıklamak değil, ancak her birini denemenizi gerçekten tavsiye ederim; çünkü hepsi içerik üreticileri ile izleyiciler arasında harika bir etkileşim değeri sunuyor. Bir eklentiyi başlatmak için sağ taraftaki 'rocket' düğmesine tıklamanız yeterlidir.
 

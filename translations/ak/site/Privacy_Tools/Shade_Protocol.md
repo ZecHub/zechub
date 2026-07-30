@@ -2,7 +2,7 @@
 
 # Shade Protocol no ho nhyehyɛe
 
-![Shade Protocol Ahyɛnsode](/content-images/Af8EzlNiwGr4FTFX7oqdBuE-71316827d0.webp)
+![Shade Protocol Ahyɛnsode](https://framerusercontent.com/images/Af8EzlNiwGr4FTFX7oqdBuE.png)
 
 ## Dɛn ne Shade Protocol?
 
@@ -14,7 +14,7 @@ Shade Protocol yɛ DeFi (Decentralized Finance) abɔdeɛ a nkwa wom a ɛkora kok
 
 Wɔakyekye Shade Protocol wɔ Secret Network, layer 1 blockchain a ɛma kokoamsɛm a ɛkora smart contracts so. Secret Network de encrypted inputs, outputs, ne state di dwuma de hwɛ hu sɛ asɛm no yɛ kokoamsɛm, na ɛbɔ nea ɔde di dwuma no data ho ban na wɔada no adi wɔ ɔmanfo ledger no so.
 
-![Akontaabu Netwɛk Mfonini](/content-images/1-yyZ5hFOw6z8zXX_rgJn5iw-9091067aa1.webp)
+![Akontaabu Netwɛk Mfonini](https://miro.medium.com/v2/resize:fit:828/format:webp/1*yyZ5hFOw6z8zXX_rgJn5iw.png)
 
 Secret Network ma developers tumi kyekye decentralized applications a encrypted data, nyinaa natively wɔ Secret ne blockchains afoforo denam cross chain nkitahodi, bue tumi foforo dwumadie nsɛm ma Web3.
 
@@ -23,7 +23,7 @@ Secret Network ma developers tumi kyekye decentralized applications a encrypted 
 Wɔyɛɛ Cosmos sɛ wɔde bɛka heterogeneous blockchains abom denam akwan a eye na ɛyɛ nnɛyi de a wɔbɛkyerɛkyerɛ mu a wɔbɛfa so ayɛ saa blockchains yi denam nnwinnade foforo te sɛ Tendermint ne Cosmos SDK so. 
 Protocol no de Cosmos SDK, modular framework a wɔde kyekye blockchain applications a wotumi sesa na ɛyɛ adwuma bom di dwuma. Wei ma Shade Protocol nya mfasoɔ firi Cosmos abɔdeɛ a nkwa wom nhyehyɛeɛ a ɛyɛ den na ɛyɛ adwuma bom no mu.
 
-![Cosmos SDK ne Tendermint Core Mfonini](/content-images/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e-ed16bb7658.webp)
+![Cosmos SDK ne Tendermint Core Mfonini](https://s3.ap-northeast-1.amazonaws.com/gimg.gateimg.com/learn/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e.jpg)
 
 Sɛ wopɛ sɛ wonya adwene a ɛwɔ mu ne ntwamutam ahobanbɔ a, Shade Protocol de Tendermint Core di dwuma, a ɛma Byzantine Fault Tolerant (BFT) adwene hyia, na ɛhwɛ ma ahobammɔ a ɛkorɔn ne nea etwa to ntɛmntɛm.
 
@@ -37,9 +37,9 @@ Kokoamsɛm a wɔkora so DeFi de cryptographic akwan a ɛkɔ anim te sɛ encrypte
 
 Shade Protocol de hwɛ safoa di dwuma ma ne token atitiriw abien: Shade ($SHD) ne Silk ($SILK). Shade ($SHD) di dwuma ahorow pii, ɛyɛ adwuma sɛ sikakorabea, nniso, ne sika a wɔkyɛ ho sɛnkyerɛnne wɔ abɔde a nkwa wom nhyehyɛe no mu. Wɔde di dwuma wɔ staking, nniso ho nyansahyɛ ahorow, sika a wɔde di dwuma ho nhyehyɛe, nkitahodi, ne bonds mu. Silk ($SILK), ɔkwan foforo so no, yɛ protocol’s privacy focused stablecoin, pegged to a diverse basket of wiase nyinaa sika ne aguade te sɛ sika kɔkɔɔ, Bitcoin, USD, Euro, ne Yen.
 
-![Shade ne Silk Tokens - Ɔfa 1](/content-images/9wTrxCdx8AoRcCwsGub13QXuY-807ed3b400.webp)
+![Shade ne Silk Tokens - Ɔfa 1](https://framerusercontent.com/images/9wTrxCdx8AoRcCwsGub13QXuY.png?scale-down-to=1024)
 
-![Shade ne Silk Tokens - Ɔfa 2](/content-images/IUC9YWfErTebCBsMkdbCnjSWGEY-4ed6d5cedf.webp)
+![Shade ne Silk Tokens - Ɔfa 2](https://framerusercontent.com/images/IUC9YWfErTebCBsMkdbCnjSWGEY.png)
 
 ### Kokoamusɛm
 
@@ -57,7 +57,7 @@ Sɛ́ DeFi platform no, Shade Protocol yɛ adwuma a enni mfinimfini tumidi, na �
 
 Sɛ́ ɛyɛ Cosmos abɔdeɛ a nkwa wom nhyehyɛeɛ no fã no kyerɛ sɛ ɛnyɛ den sɛ Shade Protocol bɛtumi ne blockchains foforɔ adi nkitaho, ama sika a wɔde di dwuma no ayɛ kɛseɛ na ama wɔn a wɔde di dwuma no anya hokwan pii sɛ wɔde wɔn agyapadeɛ bɛdi dwuma wɔ nkitahodiɛ ahodoɔ so. Ɛdenam kokoam nsɛm a wɔkora so mfiridwuma a efi Secret Network so a wɔde di dwuma so no, Shade Protocol hwɛ hu sɛ saa cross chain dwumadi ahorow yi kura kokoamsɛm ne nokwaredi mu. Saa adwumayɛkuo yi nnyɛ sɛ ɛma dwumadie a wɔde ahyɛ aman no nsa no tumi yɛ nsakraeɛ ne dwumadie no kɔ anim nko na mmom ɛma blockchain abɔdeɛ a nkwa wom a ɛwɔ nkitahodie na ɛyɛ den kɛseɛ nso nya nkɔsoɔ, ɛtew ahotosoɔ a wɔde to nkitahodiɛ a atew ne ho so na ɛma sikasɛm ano aduru a wɔde ahyɛ aman nsa no gye tom wɔ ɔkwan a ɛtrɛ so.
 
-![Nkitahodi Ho Mfonini](/content-images/3zIwSJHEwP9tkn4aI0do0lhgFTE-2aed930de0.webp)
+![Nkitahodi Ho Mfonini](https://framerusercontent.com/images/3zIwSJHEwP9tkn4aI0do0lhgFTE.png)
 
 ## Awie
 

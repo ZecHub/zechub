@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 <a href="">
-    <img src="/content-images/image-2023-11-18-160742427-658dda69c0.webp" alt="" width="800" height="500"/>
+    <img src="https://i.ibb.co/0VfMFB5/image-2023-11-18-160742427.png" alt="" width="800" height="500"/>
 </a>
 
 # Zcash शील्डेड एसेट्स
@@ -22,7 +22,7 @@ ZSA के विकास [QEDIT](https://qed-it.com/) द्वारा क�
 
 ### ZSA डेमो पर Zebra 
 
-[![वीडियो थंबनेल](/content-images/hqdefault-3ae84de424.webp)](https://youtu.be/1MZMGC9ViyA)
+[![वीडियो थंबनेल](https://i.ytimg.com/vi/1MZMGC9ViyA/hqdefault.jpg?)](https://youtu.be/1MZMGC9ViyA)
 
 
 **अपने आपके लिए डेमो कार्य करें!** 

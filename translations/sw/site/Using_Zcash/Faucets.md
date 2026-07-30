@@ -4,7 +4,7 @@
 
 # Mabomba
 
-<img width="2138" height="878" alt="Screenshot_2025-10-30_10-36-45" src="/content-images/bba0da3b-7064-4680-9535-a0dfcf50cc00-1827fccf4b.webp" />
+<img width="2138" height="878" alt="Screenshot_2025-10-30_10-36-45" src="https://github.com/user-attachments/assets/bba0da3b-7064-4680-9535-a0dfcf50cc00" />
 
 
 Faucets are services that dispense small amounts of cryptocurrency for free. They are often used by developers to experiment with cryptocurrency and by users to earn small amounts of cryptocurrency without having to buy it. They typically limit the amount of cryptocurrency that an user can receive for a given amount of time.

@@ -17,7 +17,7 @@ Zcash는 자체 자금을 사용하는 유일한 블록체인 프로토콜입니
 비트코인 및 기타 암호화폐에서는 모든 블록 보상이 블록 생산자에게 돌아갑니다. 그러나 Zcash는 20%의 블록 보상을 [Zcash 개발 기금](https://zips.z.cash/zip-1014)으로 이전하는 것이 특징입니다. 이 기금은 Zcash 프로토콜에 참여하는 팀을 지원합니다.
 
 현재, [Zcash 커뮤니티 그랜트](https://zcashcommunitygrants.org/)는 블록 보상의 8%를 받고 있으며, Electric Coin Co.는 7%, Zcash Foundation은 5%를 받습니다. 이는 개발 기금의 각각 40%, 35%, 25%에 해당합니다.
-![Dev Fund Recipients ](/content-images/212411570-4858a3d6-f7a1-465a-bf0c-d2ef72-1efe3a104e.webp)
+![Dev Fund Recipients ](https://user-images.githubusercontent.com/43553081/212411570-4858a3d6-f7a1-465a-bf0c-d2ef726d41dc.jpeg)
 
 2020년, Zcash 커뮤니티는 개발 기금과 그에 지원되는 팀들에 대해 투표했습니다. 2024년에는 커뮤니티가 다시 투표하여 개발 기금으로부터 자금을 받을 수 있는 대상자를 결정하게 됩니다.
 
@@ -29,11 +29,11 @@ Zcash는 자체 자금을 사용하는 유일한 블록체인 프로토콜입니
 
 20% 개발 기금 잠금 상자의 도입 결정은 포괄적인 커뮤니티 주도 프로세스를 통해 이루어졌습니다. 이는 Zcash 커뮤니티 자문 패널(ZCAP)의 두 차례 투표와 여러 생태계 전체 투표를 포함했습니다. 이러한 투표들은 다양한 이해관계자들이 의견을 표명하고 의사결정 과정에 기여할 수 있도록 해주었습니다.
 
-![](/content-images/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd-8f378b3e3d.webp)
+![](https://global.discourse-cdn.com/zcash/original/3X/f/d/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd.png)
 
 개발 기금 잠금 상자가 지연되어 있다는 점(즉, 향후 네트워크 업그레이드를 통해 자금이 해제될 예정)을 고려하면 Zcash 커뮤니티는 곧 자금 분배 메커니즘에 대해 결정하게 될 것입니다. 제안된 옵션 중 하나는 'Zbloc'이라는 분산형 거버넌스 메커니즘입니다.
 
-![잠재적인 새로운 형태의 분산형 거버넌스](/content-images/99588d6f43a3143cb3616e8a89df5125e855ba39-5688d8901f.webp)
+![잠재적인 새로운 형태의 분산형 거버넌스](https://global.discourse-cdn.com/zcash/original/3X/9/9/99588d6f43a3143cb3616e8a89df5125e855ba39.png)
 
 ## 자료
 

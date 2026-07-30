@@ -52,7 +52,7 @@ FROST 协议包含两个重要组成部分：
 之后，任意 t-out-of-n 个参与者都可以运行一个阈值签名协议，协作生成一个有效的 Schnorr 签名。
 
 <a href="">
-    <img src="/content-images/1634081807-frost-flexible-round-optimize-3697a713d9.webp" alt="" width="400" height="300"/>
+    <img src="https://static.cryptohopper.com/images/news/uploads/1634081807-frost-flexible-round-optimized-schnorr-threshold-signatures-1.jpg" alt="" width="400" height="300"/>
 </a>
 
 ## 可视化 / 类比
@@ -76,7 +76,7 @@ FROST 在 Pedersen 的 DKG（GJKR03）基础上构建了自己的密钥生成阶
 在预处理阶段，每个参与者为后续使用准备固定数量的椭圆曲线（EC）点对。该阶段只需运行一次，即可服务于多个阈值签名阶段。
 
 <a href="">
-    <img src="/content-images/preprocess-5cbb14f892.webp" alt="" width="400" height="300"/>
+    <img src="https://i.ibb.co/nQD1c3n/preprocess.png" alt="" width="400" height="300"/>
 </a>
 
 签名第 1 轮：每个参与者 Pᵢ 首先生成一个私有 nonce 对 (dᵢ, eᵢ) 及其对应的 EC 点对 (Dᵢ, Eᵢ)，然后将这对点广播给所有其他参与者。每个参与者都会存储这些 EC 点对，以供后续使用。签名第 2 轮和第 3 轮才是 t-out-of-n 个参与者协作创建有效 Schnorr 签名的实际操作阶段。
@@ -86,7 +86,7 @@ FROST 在 Pedersen 的 DKG（GJKR03）基础上构建了自己的密钥生成阶
 这一步可以防止伪造攻击，因为攻击者无法跨不同的签名操作组合签名份额，也无法置换签名者集合或每个签名者已发布的点。
 
 <a href="">
-    <img src="/content-images/sign-402794d36a.webp" alt="" width="400" height="300"/>
+    <img src="https://i.ibb.co/b5rJbXx/sign.png" alt="" width="400" height="300"/>
 </a>
 
 在计算出挑战值 c 后，每个参与者都可以利用一次性 nonce 和长期秘密份额来计算响应 zᵢ，而这些长期秘密份额是该群组长期密钥的 t-out-of-n（次数为 t-1）Shamir 秘密份额。在签名第 2 轮结束时，每个参与者都会将 zᵢ 广播给其他参与者。

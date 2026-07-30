@@ -5,7 +5,7 @@
 Zero to Zero Nimdeɛ asan aba bio de asɛmti foforo aba! 
 Dapɛn yi yɛhwehwɛ **Trusted Execution Environments (TEEs)** - sɛnea wɔde di dwuma wɔ kokoam sika ne blockchain application afoforo mu.
 
-![Trusted Execution Nneɛma a Atwa Yɛn Ho Ahyia intro](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
+![Trusted Execution Nneɛma a Atwa Yɛn Ho Ahyia intro](https://pbs.twimg.com/media/Fquj-h2WcAIgSnL.jpg)
 
 ---
 
@@ -31,7 +31,7 @@ Validator node biara de Intel SGX chips di dwuma. Wɔaka adwene a ɛwɔ hɔ ne a
 
 Eyi yɛ soronko wɔ Zcash a ɛde **zero-knowledge proofs** di dwuma ma kokoam nsɛm. Wɔ Zcash mu no, wɔbɔ nnwuma a wɔabɔ ho ban no ho dawuru na wɔgye tom wɔ baguam a wɔda data foforo biara adi mma ntwamutam no. Zcash Shielded Assets di nnyinasosɛm koro no ara akyi.
 
-![Ahintasɛm Network TEE mfonini](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
+![Ahintasɛm Network TEE mfonini](https://pbs.twimg.com/media/FqulPjNX0AEfjRp.png)
 
 Sɛ wopɛ nkyerɛkyerɛmu a ɛkɔ akyiri wɔ sɛnea wɔde TEE ahorow di dwuma wɔ Secret Network so a, kenkan asɛm a eye kyɛn so yi a @l_woetzel kyerɛwee: 
 https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerability-33ca94b6df38
@@ -55,11 +55,11 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 - Wɔnsɛee akwammisa krataa no 
 - Ɛreyɛ adwuma yiye wɔ Intel SGX enclave mu
 
-![Remote Attestation nkyerɛkyerɛmu](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
+![Remote Attestation nkyerɛkyerɛmu](https://pbs.twimg.com/media/FqumRjoWwAAeT-M.png)
 
 Enclaves nso kura kokoam nsaano nkyerɛwee ne adansedi safe a wontumi mfi abɔnten nkɔ mu.
 
-![Enclave safoa ahobammɔ](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
+![Enclave safoa ahobammɔ](https://pbs.twimg.com/media/Fqumv83XoAQq-MO.png)
 
 ---
 
@@ -69,7 +69,7 @@ Esiane sɛ enclaves nni tebea nti, ɛtɔ mmere bi a ɛsɛ sɛ wɔde data sie ab�
 
 **Data Sealing** de safoa a wonya fi CPU no mu di dwuma de encrypt data a ɛwɔ enclave no mu. Wobetumi ayi block a wɔabɔ no encrypt no afi mu wɔ **system koro no ara** no so nkutoo.
 
-![Data Nsɔano ho mfonini](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
+![Data Nsɔano ho mfonini](https://pbs.twimg.com/media/FqunBwyWYAA-TR3.jpg)
 
 ---
 
@@ -79,7 +79,7 @@ Esiane sɛ enclaves nni tebea nti, ɛtɔ mmere bi a ɛsɛ sɛ wɔde data sie ab�
 
 Encrypted data hyɛn TEE no mu ka smart contract no ho. Wɔpae mu, wɔyɛ ho adwuma, na wɔsan de encrypt no ansa na wɔafi enclave no mu.
 
-![Oasis Network TEE nsuo a ɛsen](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
+![Oasis Network TEE nsuo a ɛsen](https://pbs.twimg.com/media/FqunJRDXwAMt4Ob.png)
 
 ---
 
@@ -94,7 +94,7 @@ Wɔ PoS validators fam no:
 
 **TEEs** yɛ papa ma ahobammɔ mu generating ne validator keys a wɔde bedi dwuma.
 
-![Tendermint & PoS ahobammɔ](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
+![Tendermint & PoS ahobammɔ](https://pbs.twimg.com/media/Fqun0HEX0AAooxW.jpg)
 
 ---
 

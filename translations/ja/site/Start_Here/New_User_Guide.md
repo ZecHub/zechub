@@ -98,7 +98,7 @@ Zcash コミュニティ フォーラムは、Zcash コミュニティのメン�
 コミュニティは情熱的で、新規メンバーも歓迎しています。時折会話が技術的な内容になることもありますが、心配しないでください！何か質問があればいつでも尋ねてください。
 
 <a href="">
-    <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="/content-images/c1d40441-4336-4754-b3bf-5a746b19a9d5-6d2eca6cbf.webp" />
+    <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="https://github.com/user-attachments/assets/c1d40441-4336-4754-b3bf-5a746b19a9d5" />
 </a>
 
 ---

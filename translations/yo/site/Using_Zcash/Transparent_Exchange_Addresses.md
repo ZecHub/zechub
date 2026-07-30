@@ -8,7 +8,7 @@ Idi rẹ nikan ni lati sọ fun apamọwọ ibaramu lati ṣe iṣowo Transparen
 
 Awọn imọran imọ fun awọn adirẹsi TEX ti wa ni apejuwe ni Zcash [ZIP 320](https://zips.z.cash/zip-0320), tí ó ṣalaye oríṣi adirẹsi kan fún gbígba owó láti inú àwọn Adirẹsì Àìláàrí.
 
-[Àdàkọ:](/content-images/ZashiTex-b1cbec5f07.webp)
+[Àdàkọ:](https://i.ibb.co/8m7HPqV/ZashiTex.png)
 
 
 Biotilejepe awọn adirẹsi TEX ko gba wọpọ, awọn olumulo Zcash le nilo lati lo wọn nigbamii.

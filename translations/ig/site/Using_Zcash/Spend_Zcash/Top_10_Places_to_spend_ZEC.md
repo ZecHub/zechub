@@ -57,7 +57,7 @@ Donuts na mkpụrụ osisi candied.
 
 Yabụ, ọ bụrụ na ị bụ nnukwu anụ kuki ..
 
-![/content-images/champagne-barbie-cookie-monster-ded97640a2.webp](/content-images/champagne-barbie-cookie-monster-ded97640a2.webp)
+![https://media.tenor.com/Px4lboKQYbYAAAAC/champagne-barbie-cookie-monster.gif](https://media.tenor.com/Px4lboKQYbYAAAAC/champagne-barbie-cookie-monster.gif)
 
 Ugbu a ị maara ebe ị ga-eji ZEC gị mee ihe!
 
@@ -149,7 +149,7 @@ u1u7unmxgr6efh0l94hz0ag6zku4rjeuuarhql5xsnt744e2lu0dsmhrye5a6mlahw067atgh6x0ykax
 
 Mgbe niile na-eche banyere nwanyị ọ bụla nọ na Venezuela chọrọ ịchịkwa azụmahịa nke aka ha. 
 
-![/content-images/cropped-logo-nuevo_Mesa-de-trabajo-1-sca-ba7d9d40e8.webp](/content-images/cropped-logo-nuevo_Mesa-de-trabajo-1-sca-ba7d9d40e8.webp)
+![https://i0.wp.com/emprendedorasdigitales.org/wp-content/uploads/2020/07/cropped-logo-nuevo_Mesa-de-trabajo-1-scaled-1.jpg?resize=300%2C208&ssl=1](https://i0.wp.com/emprendedorasdigitales.org/wp-content/uploads/2020/07/cropped-logo-nuevo_Mesa-de-trabajo-1-scaled-1.jpg?resize=300%2C208&ssl=1)
 
 ** Ebe nrụọrụ weebụ **: [https://emprendedorasdigitales.org/](https://emprendedorasdigitales.org/) 
 

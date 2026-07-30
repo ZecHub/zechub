@@ -4,7 +4,7 @@
 
 # IPFS 상에 웹사이트 게시
 
-![](/content-images/IPFS-40c2e22732.webp)
+![](https://blog.desdelinux.net/wp-content/uploads/2020/04/IPFS-.jpg)
 
 ## IPFS 소개
 
@@ -53,7 +53,7 @@ IPFS에서의 파일은 *콘텐츠 주소 지정* 방식으로 참조됩니다. 
 
 웹사이트 파일이 있는 폴더를 선택하고 "Add Folder" 옵션으로 이동합니다.
 
-![](/content-images/ipfs-site-folder-2c96524d98.webp)
+![](https://i.ibb.co/ZHW4zsY/ipfs-site-folder.png)
 
 --
 
@@ -89,11 +89,11 @@ IPFS에서의 파일은 *콘텐츠 주소 지정* 방식으로 참조됩니다. 
 
 Interplanetary Naming System (IPNS)은 웹사이트와 연결된 IPFS CID를 업데이트할 수 있도록 하여 정적 링크를 제공합니다. 이는 키로 제공됩니다.
 
-![](/content-images/dns-query.a0134a75-9ef7817f80.webp)
+![](https://dnslink.io/assets/dns-query.a0134a75.png)
 
 IPFS 데스크탑 애플리케이션의 사이트 폴더 설정 메뉴에서 "Publish to IPNS"를 선택하세요.
 
-![](/content-images/IPNS-2fe62cc369.webp)
+![](https://i.ibb.co/Ch25dKf/IPNS.png)
 
 키: "k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n"
 
@@ -106,7 +106,7 @@ IPFS 데스크탑 애플리케이션의 사이트 폴더 설정 메뉴에서 "Pu
 
 이미 웹 주소를 소유하고 있다면, TXT 레코드 "_dnslink(your domain)"을 추가하여 새 레코드를 만들 수 있습니다. 제공업체에 따라 자동으로 채워질 수도 있습니다.
 
-![](/content-images/example-c2a9edb28b.webp)
+![](https://i.ibb.co/MgRxBHj/example.png)
 
 이 변경 사항이 네트워크 상에서 전파되기까지는 시간이 걸릴 수 있습니다.
 

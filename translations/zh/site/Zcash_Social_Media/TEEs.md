@@ -5,7 +5,7 @@
 Zero to Zero Knowledge 带着一个新主题回来了！  
 本周我们来探索 **可信执行环境（TEEs）** —— 它们如何用于隐私币和其他区块链应用。
 
-![可信执行环境介绍](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
+![可信执行环境介绍](https://pbs.twimg.com/media/Fquj-h2WcAIgSnL.jpg)
 
 ---
 
@@ -31,7 +31,7 @@ Zero to Zero Knowledge 带着一个新主题回来了！
 
 这与 Zcash 不同，后者使用 **零知识证明** 来实现隐私。在 Zcash 中，屏蔽交易会被广播并公开验证，而不会向网络透露额外数据。Zcash Shielded Assets 也遵循同样的原则。
 
-![Secret Network TEE 图示](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
+![Secret Network TEE 图示](https://pbs.twimg.com/media/FqulPjNX0AEfjRp.png)
 
 如需详细了解 TEEs 在 Secret Network 中是如何实现的，请阅读 @l_woetzel 的这篇精彩文章：  
 https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerability-33ca94b6df38
@@ -55,11 +55,11 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 - 应用程序未被篡改  
 - 它正在 Intel SGX enclave 内安全执行
 
-![远程认证说明](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
+![远程认证说明](https://pbs.twimg.com/media/FqumRjoWwAAeT-M.png)
 
 enclave 还包含私有签名密钥和认证密钥，这些密钥无法从外部访问。
 
-![enclave 密钥保护](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
+![enclave 密钥保护](https://pbs.twimg.com/media/Fqumv83XoAQq-MO.png)
 
 ---
 
@@ -69,7 +69,7 @@ enclave 还包含私有签名密钥和认证密钥，这些密钥无法从外部
 
 **数据封装（Data Sealing）** 会在 enclave 内使用由 CPU 派生的密钥对数据进行加密。该加密数据块只能在 **同一系统** 上解封。
 
-![数据封装图示](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
+![数据封装图示](https://pbs.twimg.com/media/FqunBwyWYAA-TR3.jpg)
 
 ---
 
@@ -79,7 +79,7 @@ enclave 还包含私有签名密钥和认证密钥，这些密钥无法从外部
 
 加密数据会与智能合约一起进入 TEE。在离开 enclave 之前，数据会被解密、处理，然后重新加密。
 
-![Oasis Network TEE 流程](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
+![Oasis Network TEE 流程](https://pbs.twimg.com/media/FqunJRDXwAMt4Ob.png)
 
 ---
 
@@ -94,7 +94,7 @@ enclave 还包含私有签名密钥和认证密钥，这些密钥无法从外部
 
 **TEEs** 非常适合安全地生成和使用验证者密钥。
 
-![Tendermint 与 PoS 安全性](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
+![Tendermint 与 PoS 安全性](https://pbs.twimg.com/media/Fqun0HEX0AAooxW.jpg)
 
 ---
 

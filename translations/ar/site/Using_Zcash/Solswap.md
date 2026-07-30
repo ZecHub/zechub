@@ -2,7 +2,7 @@
 
 
 
-![img1](/content-images/SJOlnt-ceg-34468cfecd.webp)
+![img1](https://hackmd.io/_uploads/SJOlnt-ceg.png)
 
 ---
 
@@ -11,7 +11,7 @@
 أو زر **[solswap.org](https://solswap.org/)** من متصفح Phantom.  
 
 
-![img2](/content-images/S1Cp-KWqxe-ab70e844b9.webp)
+![img2](https://hackmd.io/_uploads/S1Cp-KWqxe.jpg)
 
 ---
 
@@ -19,7 +19,7 @@
 - اختر **شبكة المصدر** الخاصة بك (مثل *Ethereum* أو *Solana*) ثم أودِع لإجراء المبادلة.  
 
 
-![img3](/content-images/S1SaGYZ9xx-2a27ccdd47.webp)
+![img3](https://hackmd.io/_uploads/S1SaGYZ9xx.jpg)
 
 - اختر رمزًا أساسيًا مثل **SOL أو USDT أو USDC**.  
 - اختر **ZEC** بوصفه **رمز الوجهة**.  
@@ -27,7 +27,7 @@
 
 
 
-![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
+![img4](https://hackmd.io/_uploads/ry4QQF-5gx.jpg)
 
 ---
 
@@ -36,7 +36,7 @@
 - سيعرض Phantom **المبلغ التقديري الذي ستستلمه** بعد الرسوم.  
 
 
-![img5](/content-images/B1U1NYW5xe-58cf150668.webp)
+![img5](https://hackmd.io/_uploads/B1U1NYW5xe.jpg)
 
 ---
 
@@ -63,7 +63,7 @@
 - اضغط على **Swap Now** لبدء المعاملة.  
 
 
-![img6](/content-images/HkU1UKZ5gx-e068ea8d5a.webp)
+![img6](https://hackmd.io/_uploads/HkU1UKZ5gx.jpg)
 
 ---
 
@@ -72,6 +72,6 @@
 - بالنسبة إلى المبادلات عبر السلاسل، استخدم **معرّف المعاملة** الخاص بك مع **Li.Fi Scanner** للحصول على تحديثات فورية. 
 
 
-![img7](/content-images/S1NBwKbcxe-5b7d11f5c1.webp)
+![img7](https://hackmd.io/_uploads/S1NBwKbcxe.jpg)
 
 ## بعد ذلك يمكنك البدء في حماية خصوصية [ZEC باستخدام هذا الدليل](https://zechub.wiki/guides/using-zec-privately)

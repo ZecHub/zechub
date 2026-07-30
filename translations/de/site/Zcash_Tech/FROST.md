@@ -52,7 +52,7 @@ Zuerst führen n Teilnehmer ein Protokoll zur verteilten Schlüsselerzeugung (DK
 Danach können beliebige t-von-n Teilnehmer ein Schwellenwert-Signaturprotokoll ausführen, um gemeinsam eine gültige Schnorr-Signatur zu erzeugen.
 
 <a href="">
-    <img src="/content-images/1634081807-frost-flexible-round-optimize-3697a713d9.webp" alt="" width="400" height="300"/>
+    <img src="https://static.cryptohopper.com/images/news/uploads/1634081807-frost-flexible-round-optimized-schnorr-threshold-signatures-1.jpg" alt="" width="400" height="300"/>
 </a>
 
 ## Visualisierung / Analogie
@@ -76,7 +76,7 @@ Diese Phase baut auf bekannten Techniken auf, die additive Secret Sharing und di
 In der Vorverarbeitungsphase bereitet jeder Teilnehmer eine feste Anzahl von Paaren elliptischer Kurvenpunkte (EC) für die spätere Verwendung vor. Diese Phase wird einmalig über mehrere Schwellenwert-Signierphasen hinweg ausgeführt.
 
 <a href="">
-    <img src="/content-images/preprocess-5cbb14f892.webp" alt="" width="400" height="300"/>
+    <img src="https://i.ibb.co/nQD1c3n/preprocess.png" alt="" width="400" height="300"/>
 </a>
 
 Signierrunde 1: Jeder Teilnehmer Pᵢ beginnt damit, ein einzelnes Paar privater Nonces (dᵢ, eᵢ) und ein entsprechendes Paar von EC-Punkten (Dᵢ, Eᵢ) zu erzeugen und sendet dieses Punktepaar dann an alle anderen Teilnehmer. Jeder Teilnehmer speichert diese Paare von EC-Punkten zur späteren Verwendung. Die Signierrunden 2 und 3 sind die eigentlichen Vorgänge, bei denen t-von-n Teilnehmer zusammenarbeiten, um eine gültige Schnorr-Signatur zu erstellen.
@@ -86,7 +86,7 @@ Signierrunde 2: Die Teilnehmer arbeiten zusammen, um eine gültige Schnorr-Signa
 Dieser Schritt verhindert Fälschungsangriffe, weil Angreifer Signaturanteile nicht über verschiedene Signiervorgänge hinweg kombinieren oder die Menge der Unterzeichner oder die veröffentlichten Punkte für jeden Unterzeichner vertauschen können.
 
 <a href="">
-    <img src="/content-images/sign-402794d36a.webp" alt="" width="400" height="300"/>
+    <img src="https://i.ibb.co/b5rJbXx/sign.png" alt="" width="400" height="300"/>
 </a>
 
 Nachdem die Challenge c berechnet wurde, kann jeder Teilnehmer die Antwort zᵢ unter Verwendung der Einmal-Nonces und der langfristigen geheimen Anteile berechnen, bei denen es sich um t-von-n (Grad t-1) Shamir-Geheimnisanteile des langlebigen Schlüssels der Gruppe handelt. Am Ende von Signierrunde 2 sendet jeder Teilnehmer zᵢ an die anderen Teilnehmer.

@@ -12,7 +12,7 @@
 
 Attualmente esistono 4 [pool di valori](https://zcash.readthedocs.io/en/latest/rtd_pages/addresses.html) in Zcash: Sprout, Sapling, Orchard e Transparent.
 
-![img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
+![img1](https://github.com/user-attachments/assets/4ba8cca2-cea5-42d2-8ec2-2122b26f5144)
 
 
 ## Shielded Pools
@@ -21,7 +21,7 @@ Attualmente esistono 4 [pool di valori](https://zcash.readthedocs.io/en/latest/r
 ### Orchard
 
 
-![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
+![img2](https://github.com/user-attachments/assets/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72)
 
 
 L'Orchard Shielded Pool è stata lanciata il 31 maggio 2022 come parte del network upgrade NU5. Gli indirizzi Orchard sono noti anche come Unified Address (UA).
@@ -41,7 +41,7 @@ ____
 ### Sapling
 
 
-![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
+![img3](https://github.com/user-attachments/assets/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae)
 
 
 [Zcash Sapling](https://z.cash/upgrade/sapling) è stato un aggiornamento del protocollo Zcash introdotto il 28 ottobre 2018. Si tratta di un importante miglioramento rispetto alla versione precedente, nota come Sprout, che presentava alcune limitazioni in termini di privacy, efficienza e usabilità.
@@ -59,7 +59,7 @@ ____
 ### Sprout
 
 
-![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
+![img4](https://github.com/user-attachments/assets/956eceed-f4d6-4087-99d0-32a770449dda)
 
 
 Sprout è stato il primo protocollo di privacy a conoscenza zero, aperto e permissionless, mai lanciato. È stato lanciato il 28 ottobre 2016.
@@ -74,7 +74,7 @@ Con la continua espansione dell'ecosistema Zcash e il crescente numero di transa
 ### Transparent
 
 
-![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
+![img5](https://github.com/user-attachments/assets/01de2907-b62d-4421-83d7-ea4908faa828)
 
 
 La pool Transparent di Zcash non è schermata e non è privata. Gli indirizzi dei wallet Transparent su Zcash iniziano con la lettera "t" e la privacy è molto bassa quando si utilizza questo tipo di indirizzo per le transazioni.

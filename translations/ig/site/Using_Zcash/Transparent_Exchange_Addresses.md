@@ -8,7 +8,7 @@ The logic is as follows: Upon detecting a TEX Address, a compatible wallet decod
 
 A na-akọwapụta atụmatụ teknụzụ maka adreesị TEX na Zcash [ZIP 320](https://zips.z.cash/zip-0320), nke na-akọwa ụdị adreesị nanị maka ịnata ego site na Adreesị Transparent.
 
-[TEX](/content-images/ZashiTex-b1cbec5f07.webp)
+[TEX](https://i.ibb.co/8m7HPqV/ZashiTex.png)
 
 
 Ọ bụ ezie na adreesị TEX anaghị anabata nke ọma, ndị ọrụ Zcash nwere ike ịchọ ka ha jiri ha mee ihe n'ikpeazụ.

@@ -27,7 +27,7 @@ Akụkọ banyere ahụhụ
 
 We post issues for tasks that we currently have bounties open every Monday. You can suggest bounties too! Primarily these are found at ZEC Bounties.
 
-[Ihe nrite!](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
+[Ihe nrite!](https://github.com/user-attachments/assets/0e4f5109-c0c9-4a0a-8d71-8172e36b9726)
 
 
 

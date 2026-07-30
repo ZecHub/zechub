@@ -5,7 +5,7 @@
 今天这个很有意思！  
 **CryptoNote** 协议实现了强大的链上隐私。今天我们来了解它的所有关键特性，以及它如何被多个知名隐私项目所采用。
 
-![CryptoNote 介绍](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
+![CryptoNote 介绍](https://pbs.twimg.com/media/FrXr5P8WIAAvx36.jpg)
 
 ---
 
@@ -35,7 +35,7 @@ CryptoNote 协议提供三大主要特性：
 
 **环大小** 会显著影响匿名集。环越大，隐私性越强。
 
-![Ring Signatures 说明](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
+![Ring Signatures 说明](https://pbs.twimg.com/media/FrXteGHXgAANE0F.png)
 
 **与 Zcash 对比：**  
 Zcash 的匿名集是某个给定屏蔽池中*历史上所有*发生过的交易总数（远大于 CryptoNote 典型的环大小）。
@@ -48,7 +48,7 @@ Zcash 的匿名集是某个给定屏蔽池中*历史上所有*发生过的交易
 
 Ring CT 不仅隐藏发送者，还会**混淆发送者与接收者之间的交易金额**。
 
-![Ring CT 示意图](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
+![Ring CT 示意图](https://pbs.twimg.com/media/FrXuivgWYAAze7B.png)
 
 它使用了：
 - 椭圆曲线密码学
@@ -59,7 +59,7 @@ Ring CT 不仅隐藏发送者，还会**混淆发送者与接收者之间的交�
 
 **Stealth Addresses** 还会为接收者提供一次性使用地址。
 
-![Stealth Addresses + Proofs](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
+![Stealth Addresses + Proofs](https://pbs.twimg.com/media/FrXut5aWAAMhuRb.jpg)
 
 ---
 
@@ -74,7 +74,7 @@ CryptoNote 旨在通过抗 ASIC 的设计，创建一个更公平的挖矿系统
 2. 对 scratchpad 执行大量读写操作
 3. 对整个 scratchpad 进行哈希以生成最终值
 
-![CryptoNight 挖矿](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
+![CryptoNight 挖矿](https://pbs.twimg.com/media/FrXvNs3XsAA37LG.jpg)
 
 （注：Monero 此后已经从 CryptoNight 转向其他算法。）
 
@@ -86,7 +86,7 @@ CryptoNote 不采用像 Bitcoin 那样突发式的减半事件，而是使用**�
 
 这使得随着时间推移，发行曲线更加平滑。
 
-![动态发行曲线](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
+![动态发行曲线](https://pbs.twimg.com/media/FrXv8wpXoAEjUxW.png)
 
 **与 Zcash 的关联：**  
 Zcash 开发者曾讨论未来实现更平滑的发行曲线，可能通过 “Zcash Posterity Fund” 来完成。

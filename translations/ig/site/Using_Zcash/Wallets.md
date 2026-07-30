@@ -1,5 +1,5 @@
 ## [ZODL](https://zodl.com)
-[Ihe ngosi]](/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp "ZODL")
+[Ihe ngosi]](https://github.com/user-attachments/assets/198608b2-9059-4cb7-aeb8-9354971376fd "ZODL")
 - Ngwaọrụ: Mobile
 - Sistemụ arụmọrụ: Android; iOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
@@ -9,7 +9,7 @@
 ---
 
 ## [Ywallet](https://ywallet.app/installation/)
-[Ihe ngosi]](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
+[Ihe ngosi]](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
 - Ngwaọrụ: Mobile  Desktọpụ
 - Sistemụ arụmọrụ: Android  iOS  Windows  Linux  macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
@@ -19,7 +19,7 @@
 ---
 
 ## [Dizzy](https://youtu.be/IVkuo1CGPBU)
-[Ihe ngosi]](/content-images/Dizzy-3-1a90249591.webp "Dizzy")
+[Ihe ngosi]](https://i.ibb.co/FH918w9/Dizzy-3.png "Dizzy")
 - Ngwaọrụ: Mobile  Desktọpụ
 - Sistemụ arụmọrụ: Android  iOS  Windows  Linux  macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
@@ -29,7 +29,7 @@
 ---
 
 ## [Zingo!](https://www.zingolabs.org/)
-[Ihe ngosi]](/content-images/zingocard-9a2546668d.webp "Zingo!")
+[Ihe ngosi]](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
 - Ngwaọrụ: Mobile  Desktọpụ
 - Sistemụ arụmọrụ: Android  iOS  Windows  Linux
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
@@ -39,7 +39,7 @@
 ---
 
 ## [Akụkụ](https://edge.app)
-[Ihe ngosi]](/content-images/image-2024-11-28-091312254-b2389ad332.webp "Edge")
+[Ihe ngosi]](https://i.ibb.co/4FVQLS9/image-2024-11-28-091312254.png "Edge")
 - Ngwaọrụ: Mobile
 - Sistemụ arụmọrụ: Android; iOS
 - Nkwado Wallet: Okwu Mkpụrụ  Unified Address
@@ -49,7 +49,7 @@
 ---
 
 ## [A pụghị igbochi egbochi](https://unstoppable.money)
-[Ihe ngosi]](/content-images/image-2024-11-28-091200540-815817fda7.webp "Unstoppable")
+[Ihe ngosi]](https://i.ibb.co/C68mFCx/image-2024-11-28-091200540.png "Unstoppable")
 - Ngwaọrụ: Mobile
 - Sistemụ arụmọrụ: Android; iOS
 - Nkwado Wallet: Okwu Mkpụrụ  Unified Address
@@ -59,7 +59,7 @@
 ---
 
 ## [eZcash](https://blog.nerdbank.net/ezcash-app)
-[Ihe ngosi]](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
+[Ihe ngosi]](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
 - Ngwaọrụ: Mobile  Desktọpụ
 - Sistemụ arụmọrụ: Android  iOS  Windows
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
@@ -69,7 +69,7 @@
 ---
 
 ## [Zkool](https://github.com/hhanh00/zkool2/)
-[Ihe ngosi]](/content-images/zkool-1-22ab388e65.webp "Zkool")
+[Ihe ngosi]](https://i.ibb.co/BHGPff0K/zkool-1.png "Zkool")
 - Ngwaọrụ: Mobile  Desktọpụ
 - Sistemụ arụmọrụ: Android  iOS  Windows  Linux
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
@@ -79,7 +79,7 @@
 ---
 
 ## [Achịcha](https://cakewallet.com/install/)
-[Ihe ngosi]](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
+[Ihe ngosi]](https://github.com/user-attachments/assets/a8234c70-3714-4e80-b918-8739d45aea00 "Cake")
 - Ngwaọrụ: Mobile  Desktọpụ 
 - Sistemụ arụmọrụ: Android  iOS  Windows  Linux  macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
@@ -89,7 +89,7 @@
 ---
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
-[Ihe ngosi]](/content-images/zenith-2-cea75a34fd.webp "Zenith")
+[Ihe ngosi]](https://i.ibb.co/VtPBnm6/zenith-2.png "Zenith")
 - Ngwaọrụ: Desktọpụ
 - Sistemụ arụmọrụ: Windows  Linux  macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
@@ -99,7 +99,7 @@
 ---
 
 ## [Zingo-CLI](https://github.com/zingolabs/zingolib)
-[Ihe ngosi]](/content-images/zingocard-9a2546668d.webp "Zingo-CLI")
+[Ihe ngosi]](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo-CLI")
 - Ngwaọrụ: Desktọpụ
 - Sistemụ arụmọrụ: Windows  Linux  macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
@@ -109,7 +109,7 @@
 ---
 
 ## [Zallet](https://github.com/zcash/wallet)
-[Ihe ngosi]](/content-images/Brandmark-Yellow-2eca7f6f68.webp "Zallet")
+[Ihe ngosi]](https://i.ibb.co/3mCrR0dN/Brandmark-Yellow.png "Zallet")
 - Ngwaọrụ: Desktọpụ
 - Sistemụ arụmọrụ: Windows  Linux  macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
@@ -119,7 +119,7 @@
 ---
 
 ## [Zcashd](https://github.com/zcash/zcash)
-[Ihe ngosi]](/content-images/zcashd-92df3291ad.webp "Zcashd")
+[Ihe ngosi]](https://i.ibb.co/Xz2NskW/zcashd.png "Zcashd")
 - Ngwaọrụ: Desktọpụ
 - Sistemụ arụmọrụ: Windows  Linux  macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
@@ -129,7 +129,7 @@
 ---
 
 ## [Nwere obi ike](https://brave.com/web3-privacy/)
-[Ihe ngosi]](/content-images/image-2024-01-13-170934865-733c5d91c6.webp "Brave")
+[Ihe ngosi]](https://i.ibb.co/6yqMNwZ/image-2024-01-13-170934865.png "Brave")
 - Ngwaọrụ: Web
 - Sistemụ arụmọrụ: Nchọgharị
 - Nkwado Wallet: Okwu Mkpụrụ  Unified Address
@@ -139,7 +139,7 @@
 ---
 
 ## [Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
-[Ihe ngosi]](/content-images/metamask-25048569f6.webp  "Metamask")
+[Ihe ngosi]](https://i.ibb.co/jn5t9Gy/metamask.png  "Metamask")
 - Ngwaọrụ: Web
 - Sistemụ arụmọrụ: Nchọgharị
 - Nkwado Wallet: Okwu Mkpụrụ  Unified Address
@@ -149,7 +149,7 @@
 ---
 
 ## [Zucchini](https://zucchinifi.xyz/)
-[Ihe ngosi]](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
+[Ihe ngosi]](https://github.com/user-attachments/assets/91a1005a-3daf-4747-9442-c178cbe50e49 "Zucchini")
 - Ngwaọrụ: Web 
 - Sistemụ arụmọrụ: Nchọgharị
 - Nkwado Wallet: Okwu Mkpụrụ  Unified Address
@@ -159,7 +159,7 @@
 ---
 
 ## [SSP Wallet](https://sspwallet.io)
-[Ihe ngosi]](/content-images/ssp-1-7d96e66117.webp "SSP Wallet")
+[Ihe ngosi]](https://i.ibb.co/X3hdfSY/ssp-1.png "SSP Wallet")
 - Ngwaọrụ: Ekwentị  Web
 - Sistemụ arụmọrụ: Android  iOS  Nchọgharị
 - Nkwado obere akpa: mkpụrụ okwu
@@ -169,7 +169,7 @@
 ---
 
 ## [Ntụkwasị Obi obere akpa](https://trustwallet.com/download)
-[Ihe ngosi]](/content-images/trustwallet-bec43acb59.webp "Trust Wallet")
+[Ihe ngosi]](https://i.ibb.co/cNqxBJ1/trustwallet.png "Trust Wallet")
 - Ngwaọrụ: Ekwentị  Web
 - Sistemụ arụmọrụ: Android  iOS  Nchọgharị
 - Nkwado obere akpa: mkpụrụ okwu
@@ -179,7 +179,7 @@
 ---
 
 ## [Ọpụpụ](https://www.exodus.com/zcash-wallet-zec)
-[Ihe ngosi]](/content-images/exoduscard-2f77769db0.webp "Exodus")
+[Ihe ngosi]](https://i.ibb.co/w0NNZNp/exoduscard.png "Exodus")
 - Ngwaọrụ: Mobile  Desktọpụ  Web
 - Sistemụ arụmọrụ: Android  iOS  Windows  Linux  macOS  Nchọgharị
 - Nkwado obere akpa: mkpụrụ okwu
@@ -189,7 +189,7 @@
 ---
 
 ## [Coinomi](https://www.coinomi.com/en/downloads)
-[Ihe ngosi]](/content-images/coinomicard-226bcbf876.webp "Coinomi")
+[Ihe ngosi]](https://i.ibb.co/QfHmjWY/coinomicard.png "Coinomi")
 - Ngwaọrụ: Mobile  Desktọpụ
 - Sistemụ arụmọrụ: Android  iOS  Windows
 - Nkwado obere akpa: mkpụrụ okwu
@@ -199,7 +199,7 @@
 ---
 
 ## [Keystone](https://shop.keyst.one)
-[Ihe ngosi]](/content-images/Keystone-1-8177a83308.webp "Keystone")
+[Ihe ngosi]](https://i.ibb.co/c1gn635/Keystone-1.png "Keystone")
 - Ngwaọrụ:
 - Sistemụ arụmọrụ:
 - Nkwado obere akpa: Akụrụngwa  Unified Address
@@ -209,7 +209,7 @@
 ---
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
-[Ihe ngosi]](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
+[Ihe ngosi]](https://i.ibb.co/2qX6WCF/Desktop-Wallets.png "Ledger")
 - Ngwaọrụ: 
 - Sistemụ arụmọrụ:
 - Nkwado obere akpa: Akụrụngwa
@@ -219,7 +219,7 @@
 ---
 
 ## [Safepal](https://safepal.com)
-[Ihe ngosi]](/content-images/safepalcard-176b24c751.webp "Safepal")
+[Ihe ngosi]](https://i.ibb.co/h29h6d0/safepalcard.png "Safepal")
 - Ngwaọrụ: Ekwentị  Web
 - Sistemụ arụmọrụ: Android  iOS  Nchọgharị
 - Nkwado Wallet: Okwu Mkpụrụ  Akụrụngwa
@@ -229,7 +229,7 @@
 ---
 
 ## [Onye na-echekwa ego](https://trezor.io/learn/a/zcash-zec)
-[Ihe ngosi]](/content-images/trezor1-5004075d27.webp "Trezor")
+[Ihe ngosi]](https://i.ibb.co/twLMCgzW/trezor1.png "Trezor")
 - Ngwaọrụ:
 - Sistemụ arụmọrụ:
 - Nkwado obere akpa: Akụrụngwa
@@ -239,7 +239,7 @@
 ---
 
 ## [Vultisig](https://vultisig.com)
-[Ihe ngosi]](/content-images/vultisig-713626c5ba.webp "Vultisig")
+[Ihe ngosi]](https://i.ibb.co/93wSrxCc/vultisig.png "Vultisig")
 - Ngwaọrụ: Web  Mobile  Desktọpụ
 - Sistemụ arụmọrụ: Android  iOS  Windows  Linux  macOS  Nchọgharị
 - Ọdọ Mmiri: O doro anya
@@ -248,7 +248,7 @@
 ---
 
 ## [Ihe nlere anya](https://vizor.cash/)
-[Ihe ngosi]](/content-images/Vizorphoto-6ade2417a5.webp "Vizor")
+[Ihe ngosi]](https://i.ibb.co/zhW2d2fV/Vizorphoto.png "Vizor")
 - Ngwaọrụ: Desktọpụ  Mobile
 - Sistemụ arụmọrụ: macOS
 - Nkwado Wallet: Okwu Mkpụrụ  Unified Address  Hardware
@@ -258,7 +258,7 @@
 ---
 
 ## [Otu obere akpa ojii](https://www.zknoir.com/)
-[Ihe ngosi]](/content-images/Noirwallet-8589fe34e4.webp "Noir")
+[Ihe ngosi]](https://i.ibb.co/23RkRZZS/Noirwallet.png "Noir")
 - Ngwaọrụ: Web  Desktọpụ
 - Sistemụ arụmọrụ: Nchọgharị
 - Ọdọ Mmiri: A na-echebe ya.
@@ -267,7 +267,7 @@
 ---
 
 ## [LeoDex](https://leodex.io/)
-[Ihe ngosi]](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
+[Ihe ngosi]](https://i.ibb.co/3YjpzYnH/Leo-Dexwallet.png "LeoDex")
 - Ngwaọrụ: Web  Desktọpụ
 - Sistemụ arụmọrụ: Nchọgharị Windows  MacOS
 - Nkwado obere akpa: Okwu mmalite. Akpa ego mpụga. Adreesị nnata. Koodu QR. Akụrụngwa
@@ -277,7 +277,7 @@
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
-[Ihe ngosi]](/content-images/zapp-1-a6fa468edb.webp "Zapp")
+[Ihe ngosi]](https://i.ibb.co/mr8rF8y2/zapp-1.png "Zapp")
 - Ngwaọrụ: Mobile 
 - Sistemụ arụmọrụ: Android 
 - Nkwado obere akpa: Unified Address 

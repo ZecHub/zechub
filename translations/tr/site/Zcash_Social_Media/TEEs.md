@@ -5,7 +5,7 @@
 Sıfırdan Sıfır Bilgiye yeni bir konuyla geri döndü!  
 Bu hafta **Trusted Execution Environments (TEEs)** kavramını inceliyoruz - gizlilik coin'lerinde ve diğer blockchain uygulamalarında nasıl kullanıldıklarını.
 
-![Trusted Execution Environments giriş](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
+![Trusted Execution Environments giriş](https://pbs.twimg.com/media/Fquj-h2WcAIgSnL.jpg)
 
 ---
 
@@ -31,7 +31,7 @@ Her doğrulayıcı düğüm Intel SGX çipleri çalıştırır. Konsensüs ve he
 
 Bu, gizlilik için **zero-knowledge proofs** kullanan Zcash'ten farklıdır. Zcash'te shielded işlemler yayınlanır ve ağın geri kalanına ek veri açıklanmadan herkese açık şekilde doğrulanır. Zcash Shielded Assets de aynı ilkeyi takip eder.
 
-![Secret Network TEE diyagramı](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
+![Secret Network TEE diyagramı](https://pbs.twimg.com/media/FqulPjNX0AEfjRp.png)
 
 TEE'lerin Secret Network üzerinde nasıl uygulandığına dair ayrıntılı bir açıklama için, @l_woetzel tarafından yazılan bu mükemmel makaleyi okuyun:  
 https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerability-33ca94b6df38
@@ -55,11 +55,11 @@ Uzak bir tarafın şunları doğrulamasına olanak tanır:
 - Uygulamanın kurcalanmadığını  
 - Intel SGX enclave'i içinde güvenli şekilde yürütüldüğünü
 
-![Remote Attestation açıklaması](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
+![Remote Attestation açıklaması](https://pbs.twimg.com/media/FqumRjoWwAAeT-M.png)
 
 Enclave'ler ayrıca dışarıdan erişilemeyen özel imzalama ve attestation anahtarları da içerir.
 
-![Enclave anahtar koruması](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
+![Enclave anahtar koruması](https://pbs.twimg.com/media/Fqumv83XoAQq-MO.png)
 
 ---
 
@@ -69,7 +69,7 @@ Enclave'ler durumsuz olduğu için, verilerin bazen dışarıda, güvenilmeyen b
 
 **Data Sealing**, enclave içindeki verileri CPU'dan türetilen bir anahtar kullanarak şifreler. Şifrelenmiş blok yalnızca **aynı sistemde** yeniden açılabilir.
 
-![Data Sealing diyagramı](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
+![Data Sealing diyagramı](https://pbs.twimg.com/media/FqunBwyWYAA-TR3.jpg)
 
 ---
 
@@ -79,7 +79,7 @@ Enclave'ler durumsuz olduğu için, verilerin bazen dışarıda, güvenilmeyen b
 
 Şifrelenmiş veriler akıllı sözleşmeyle birlikte TEE'ye girer. Enclave'den çıkmadan önce çözülür, işlenir ve yeniden şifrelenir.
 
-![Oasis Network TEE akışı](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
+![Oasis Network TEE akışı](https://pbs.twimg.com/media/FqunJRDXwAMt4Ob.png)
 
 ---
 
@@ -94,7 +94,7 @@ PoS doğrulayıcıları için:
 
 **TEE'ler**, doğrulayıcı anahtarlarını güvenli şekilde üretmek ve kullanmak için idealdir.
 
-![Tendermint ve PoS güvenliği](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
+![Tendermint ve PoS güvenliği](https://pbs.twimg.com/media/Fqun0HEX0AAooxW.jpg)
 
 ---
 

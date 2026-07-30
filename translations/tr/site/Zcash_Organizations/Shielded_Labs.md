@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/Shielded-labs-shield-white-2-27aef199ae.webp" alt="Alt Text" width="50"/>    Shielded Labs
+# <img src="https://i.ibb.co/fGYHTfZ5/Shielded-labs-shield-white-2.png" alt="Alt Text" width="50"/>    Shielded Labs
 
 
 [Shielded Labs](https://shieldedlabs.net), Aralık 2022'de İsviçre'de bir Dernek olarak kurulmuştur ve Zcash Community Grants (ZCG) ile hiçbir bağlantısı yoktur; ayrıca ZCG fonlamasına başvurmayı planlamamaktadır.

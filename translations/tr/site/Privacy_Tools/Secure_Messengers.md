@@ -25,11 +25,11 @@ Zcash masaüstü ve mobil cüzdanları, kullanıcıların özel shielded işleml
 
 Deneyin: https://z.cash/wallets 
 
-![Zcash Şifreli Memo’lar](/content-images/Zcash-1177103374-7bca37eb4d.webp)
+![Zcash Şifreli Memo’lar](https://i.ibb.co/n8HbQZC/Zcash-1177103374.png)
 
 **Signal uygulaması**
 
-![Signal Uygulaması](/content-images/signal-app-logo-scaled-454032876-81b24a0421.webp)
+![Signal Uygulaması](https://i.ibb.co/7RbbxSs/signal-app-logo-scaled-454032876.jpg)
 
 Signal özel mesajlaşma uygulaması, veri gizliliğini en üst düzeyde sunan güvenli bir mesajlaşma uygulamasıdır. Signal özel mesajlaşma uygulaması ücretsizdir ve kullanımı kolaydır; kullanıcıların önceden herhangi bir deneyime sahip olması gerekmez. Signal uygulaması, iletişiminizin tamamen özel kalmasını sağlayan uçtan uca şifreleme teknolojisine sahiptir. Güvenli biçimde özel mesajlar göndermek isteyen herkes Signal özel mesajlaşma uygulamasını kullanmayı değerlendirmelidir; çünkü bu uygulama hem siber güvenlik açıklarınızı hem de veri izinizi büyük ölçüde azaltacaktır.
 
@@ -37,7 +37,7 @@ Deneyin: [https://signal.org/download](https://signal.org/download)
 
 **BisonRelay**
 
-![Bison Relay](/content-images/ogimg-v1-1000556235-9390372d1e.webp)
+![Bison Relay](https://i.ibb.co/ZxpBVNv/ogimg-v1-1000556235.jpg)
 
 Bison Relay uygulaması 2022 yılında piyasaya çıktı. Bison Relay, kullanıcıların hesap sahibi olmasına bağlı değildir - İnanılmaz ama gerçek! Burada gönderilen ve alınan her mesajın ücreti Decred Lightning Network üzerinden ayrı ayrı ödenir. Bu uygulamanın tek amacı, hesap ihtiyacını tamamen ortadan kaldırırken metadata miktarını en aza indirmektir. Öte yandan Bison Relay, sansürün tipik olarak uygulanma biçimine de son vermiştir. 
 
@@ -45,7 +45,7 @@ Deneyin: [https://bisonrelay.org/download](https://bisonrelay.org/download)
 
 **Session Uygulaması**
 
-![Session Uygulaması](/content-images/logo-black-9e799f2b06.webp)
+![Session Uygulaması](https://i.ibb.co/gdpwb1v/logo-black.png)
 
 Session uygulamasının ne olduğunu hâlâ bilmiyorsanız endişelenmeyin! İşte kısa bir bakış: Session, öne çıkan uçtan uca şifreli mesajlaşma uygulamalarından biridir. Uygulama, hassas metadata miktarını en aza indirmek için oluşturulmuştur. Session uygulaması, mutlak gizlilik ve her türlü gözetimden özgürlük isteyen bireyler için tasarlanmıştır. Session uygulamasında kullanıcılar telefon numarası veya e-posta adresi olmadan hesap oluşturabilir; bu da onun tamamen anonim olduğu anlamına gelir. Kullanıcılar ağları üzerinden iz bırakmadan güvenle mesaj gönderebilir, yani sızacak hiçbir şey yoktur.
 

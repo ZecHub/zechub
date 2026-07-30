@@ -8,7 +8,7 @@ La logica è la seguente: Quando rileva un indirizzo TEX, un portafoglio compati
 
 La proposta tecnica per gli indirizzi TEX è delineata in Zcash [ZIP 320](https://zips.z.cash/zip-0320), che definisce un tipo di indirizzo esclusivamente per ricevere fondi da indirizzi Transparent.
 
-![TEX](/content-images/ZashiTex-b1cbec5f07.webp)
+![TEX](https://i.ibb.co/8m7HPqV/ZashiTex.png)
 
 
 Sebbene gli indirizzi TEX non siano ancora ampiamente adottati, gli utenti di Zcash potrebbero doverli utilizzare prima o poi.

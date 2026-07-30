@@ -14,7 +14,7 @@ Es gibt viele verschiedene PGP-Tools, aber zu den beliebtesten gehören:
 * **[PGPMail](https://www.openpgp.org/software/)**: PGPMail ist ein kommerzieller PGP-E-Mail-Client, der für Windows und macOS verfügbar ist.
 * **[Mailvelope](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope ist eine freie Open-Source-PGP-Erweiterung für Gmail und Thunderbird.
 
-![PGP-Tools](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
+![PGP-Tools](https://github.com/ZecHub/zechub/assets/81990132/44984a75-800a-4f7a-94a5-88827e39b431)
 
 ## So erzeugt man Schlüssel
 
@@ -28,7 +28,7 @@ Um PGP zu verwenden, musst du ein Schlüsselpaar erzeugen: So erzeugst du PGP-Sc
 
 Dein PGP-Schlüsselpaar wird nun erzeugt.
 
-![Schlüssel erzeugen](/content-images/15721ce1-0a77-4ebe-87f4-33e1455f2a40-7699b1771d.webp)
+![Schlüssel erzeugen](https://github.com/ZecHub/zechub/assets/81990132/15721ce1-0a77-4ebe-87f4-33e1455f2a40)
 
 ## So verwendet man PGP für E-Mails
 
@@ -36,7 +36,7 @@ Sobald du ein PGP-Schlüsselpaar erzeugt hast, kannst du es zum Ver- und Entschl
 
 Die verschlüsselte E-Mail ist für jeden unlesbar, der nicht über den privaten Schlüssel des Empfängers verfügt. Zum Entschlüsseln der E-Mail kann der Empfänger seinen privaten Schlüssel verwenden.
 
-![PGP-E-Mail](/content-images/dafb761d-f399-40c9-9323-526ba3bd0bc4-98503ad98b.webp)
+![PGP-E-Mail](https://github.com/ZecHub/zechub/assets/81990132/dafb761d-f399-40c9-9323-526ba3bd0bc4)
 
 ## Bewährte Praktiken
 
@@ -44,9 +44,9 @@ Hier sind einige bewährte Praktiken für die Verwendung von PGP:
 
 * Bewahre deinen privaten Schlüssel sicher auf. Der private Schlüssel ist der wichtigste Teil deines PGP-Schlüsselpaars. Wenn jemand deinen privaten Schlüssel erhält, kann diese Person alle Nachrichten entschlüsseln, die mit deinem öffentlichen Schlüssel verschlüsselt wurden.
 
-![Bewährte Praktiken 1](/content-images/39a6fae4-a9a1-4061-a97c-4a9b975f6383-eced005c8b.webp)
+![Bewährte Praktiken 1](https://github.com/ZecHub/zechub/assets/81990132/39a6fae4-a9a1-4061-a97c-4a9b975f6383)
 
-![Bewährte Praktiken 2](/content-images/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd-50ca49a070.webp)
+![Bewährte Praktiken 2](https://github.com/ZecHub/zechub/assets/81990132/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd)
 
 * Teile deinen öffentlichen Schlüssel mit Menschen, denen du vertraust. Du kannst deinen öffentlichen Schlüssel weitergeben, indem du ihn ihnen direkt sendest oder ihn auf einen PGP-Schlüsselserver hochlädst.
 * Verwende starke Passwörter für deinen PGP-Schlüsselbund. Dein PGP-Schlüsselbund ist eine Datei, in der deine PGP-Schlüssel gespeichert werden. Es ist wichtig, ein starkes Passwort zu verwenden, um diese Datei zu schützen.
@@ -61,11 +61,11 @@ Hier sind einige bewährte Praktiken für die Verwendung von PGP:
 * Klicke auf die Schaltfläche „Verschlüsseln“.
 * Die E-Mail wird verschlüsselt.
 
-![E-Mail verschlüsseln](/content-images/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e-6edd4a03ea.webp)
+![E-Mail verschlüsseln](https://github.com/ZecHub/zechub/assets/81990132/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e)
 
 ---
 
-![Ablauf der Verschlüsselung](/content-images/da1499e9-fc87-46b2-93ed-28d43cf1fd86-86fdc87d10.webp)
+![Ablauf der Verschlüsselung](https://github.com/ZecHub/zechub/assets/81990132/da1499e9-fc87-46b2-93ed-28d43cf1fd86)
 
 ## So entschlüsselt man eine E-Mail mit PGP
 
@@ -76,4 +76,4 @@ Hier sind einige bewährte Praktiken für die Verwendung von PGP:
 * Klicke auf die Schaltfläche „Entschlüsseln“.
 * Die E-Mail wird entschlüsselt.
 
-![E-Mail entschlüsseln](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)
+![E-Mail entschlüsseln](https://github.com/ZecHub/zechub/assets/81990132/beae714c-020f-4c1e-aa4f-3dd9430670cc)

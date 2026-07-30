@@ -5,7 +5,7 @@
 Nea ɛyɛ anigye nnɛ! 
 **CryptoNote** protocol no ma on-chain kokoamsɛm a emu yɛ den tumi yɛ adwuma. Ɛnnɛ yesua ne nneɛma atitiriw nyinaa ne sɛnea wɔde kokoam nsɛm ho adwuma atitiriw pii de adi dwuma.
 
-![CryptoNote nnianim asɛm](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
+![CryptoNote nnianim asɛm](https://pbs.twimg.com/media/FrXr5P8WIAAvx36.jpg)
 
 ---
 
@@ -35,7 +35,7 @@ Sɛ wode asɛm bi remena a, wo baguam safoa ankasa no frafra decoy safoa pii ("r
 
 **Ring size** nya anonymity set no so nkɛntɛnso kɛse. Nkawa akɛse ma obi nya kokoam nsɛm a eye.
 
-![Ring Signatures nkyerɛkyerɛmu](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
+![Ring Signatures nkyerɛkyerɛmu](https://pbs.twimg.com/media/FrXteGHXgAANE0F.png)
 
 **Nneɛma a wɔde toto Zcash ho**: 
 Zcash’s anonymity set yɛ nkitahodi dodow a *pɛn* a wɔayɛ wɔ shielded pool a wɔde ama mu (ɛsõ sen CryptoNote ring akɛse a wɔtaa yɛ no nyinaa).
@@ -48,7 +48,7 @@ Zcash’s anonymity set yɛ nkitahodi dodow a *pɛn* a wɔayɛ wɔ shielded pool
 
 Sɛ anka ɛde nea ɔde kɔmaa no nkutoo besie no, Ring CT nso **ɛma asɛm no sika a ɛwɔ hɔ no yɛ basaa** wɔ nea ɔde kɔmaa ne nea ogye no ntam.
 
-![Ring CT mfonini a wɔde ayɛ](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
+![Ring CT mfonini a wɔde ayɛ](https://pbs.twimg.com/media/FrXuivgWYAAze7B.png)
 
 Ɛde:
 - Elliptic Curve Nsɛm a Wɔde Kyerɛw Nsɛm
@@ -59,7 +59,7 @@ Sɛ anka ɛde nea ɔde kɔmaa no nkutoo besie no, Ring CT nso **ɛma asɛm no si
 
 **Stealth Addresses** nso de address a wɔde di dwuma pɛnkoro ka ho ma nea ogye no.
 
-![Sawiafo Address + Adanse](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
+![Sawiafo Address + Adanse](https://pbs.twimg.com/media/FrXut5aWAAMhuRb.jpg)
 
 ---
 
@@ -74,7 +74,7 @@ CryptoNote botaeɛ ne sɛ ɛbɛbɔ nhyehyɛeɛ a ɛfata a wɔde tu fagudeɛ dena
 2. Yɛ akenkan/kyerɛw adwuma pii wɔ scratchpad no so
 3. Hash scratchpad no nyinaa na ama woanya bo a etwa to
 
-![CryptoAnadwo a wotu fagude](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
+![CryptoAnadwo a wotu fagude](https://pbs.twimg.com/media/FrXvNs3XsAA37LG.jpg)
 
 (Hyɛ no nsow: Efi saa bere no, Monero atwe ne ho afi CryptoNight so akɔ algorithms afoforo so.)
 
@@ -86,7 +86,7 @@ Sɛ anka ɛbɛtew nsɛm a esisi so mpofirim (te sɛ Bitcoin) no, CryptoNote de *
 
 Eyi ma emission curve a ɛyɛ mmerɛw kɛse bere kɔ so no.
 
-![Dynamic emission curve a ɛyɛ nnam](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
+![Dynamic emission curve a ɛyɛ nnam](https://pbs.twimg.com/media/FrXv8wpXoAEjUxW.png)
 
 **Zcash Nkitahodi**: 
 Zcash developers asusuw ho sɛ wɔde emission curve a ɛyɛ mmerɛw bedi dwuma daakye, a ebetumi aba sɛ ɛnam "Zcash Posterity Fund" so.

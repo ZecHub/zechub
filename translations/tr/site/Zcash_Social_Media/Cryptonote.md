@@ -5,7 +5,7 @@
 Bugün ilginç bir konu var!  
 **CryptoNote** protokolü güçlü zincir üstü gizlilik sağlar. Bugün tüm temel özelliklerini ve çeşitli önemli gizlilik projeleri tarafından nasıl uygulandığını öğreniyoruz.
 
-![CryptoNote intro](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
+![CryptoNote intro](https://pbs.twimg.com/media/FrXr5P8WIAAvx36.jpg)
 
 ---
 
@@ -35,7 +35,7 @@ Bir işlem gönderirken, gerçek açık anahtarınız birkaç sahte anahtarla ("
 
 **Ring boyutu**, anonimlik kümesini önemli ölçüde etkiler. Daha büyük ring’ler daha iyi gizlilik sağlar.
 
-![Ring Signatures explanation](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
+![Ring Signatures explanation](https://pbs.twimg.com/media/FrXteGHXgAANE0F.png)
 
 **Zcash ile karşılaştırma**:  
 Zcash’in anonimlik kümesi, belirli bir shielded pool içinde *şimdiye kadar* yapılmış tüm işlemlerin toplamıdır (tipik CryptoNote ring boyutlarından çok daha büyüktür).
@@ -48,7 +48,7 @@ Zcash’in anonimlik kümesi, belirli bir shielded pool içinde *şimdiye kadar*
 
 Yalnızca göndericiyi gizlemek yerine, Ring CT ayrıca gönderici ile alıcı arasındaki **işlem miktarlarını da gizler**.
 
-![Ring CT diagram](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
+![Ring CT diagram](https://pbs.twimg.com/media/FrXuivgWYAAze7B.png)
 
 Şunları kullanır:
 - Eliptik Eğri Kriptografisi
@@ -59,7 +59,7 @@ Yalnızca göndericiyi gizlemek yerine, Ring CT ayrıca gönderici ile alıcı a
 
 **Stealth Addresses** de alıcı için tek kullanımlık adresler ekler.
 
-![Stealth Addresses + Proofs](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
+![Stealth Addresses + Proofs](https://pbs.twimg.com/media/FrXut5aWAAMhuRb.jpg)
 
 ---
 
@@ -74,7 +74,7 @@ CryptoNote, ASIC’lere dayanıklı olarak daha adil bir madencilik sistemi olu�
 2. Scratchpad üzerinde çok sayıda okuma/yazma işlemi gerçekleştirmek
 3. Nihai değeri üretmek için tüm scratchpad’i hash’lemek
 
-![CryptoNight mining](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
+![CryptoNight mining](https://pbs.twimg.com/media/FrXvNs3XsAA37LG.jpg)
 
 (Not: Monero o zamandan beri CryptoNight’tan uzaklaşarak başka algoritmalara geçti.)
 
@@ -86,7 +86,7 @@ Ani yarılanma olayları (Bitcoin’de olduğu gibi) yerine, CryptoNote **kademe
 
 Bu, zaman içinde çok daha pürüzsüz bir emisyon eğrisi oluşturur.
 
-![Dynamic emission curve](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
+![Dynamic emission curve](https://pbs.twimg.com/media/FrXv8wpXoAEjUxW.png)
 
 **Zcash Bağlantısı**:  
 Zcash geliştiricileri, gelecekte muhtemelen bir "Zcash Posterity Fund" aracılığıyla daha pürüzsüz bir emisyon eğrisi uygulamayı tartıştılar.

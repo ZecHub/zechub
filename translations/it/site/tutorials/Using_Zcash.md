@@ -7,14 +7,14 @@
 
 - Consigli utili quando si usa Zcash
 
-[![Video Thumbnail](/content-images/hqdefault-3bd7a8849a.webp)](https://www.youtube.com/watch?v=tEfQaYPV0UE)
+[![Video Thumbnail](https://img.youtube.com/vi/tEfQaYPV0UE/hqdefault.jpg)](https://www.youtube.com/watch?v=tEfQaYPV0UE)
 
 
 ____
 
 - Come effettuare richieste di pagamento Zcash
 
-[![Video Thumbnail](/content-images/hqdefault-43e8fb910c.webp)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
+[![Video Thumbnail](https://img.youtube.com/vi/l5auYQIzYsQ/hqdefault.jpg)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
 
 
 ____ 
@@ -22,7 +22,7 @@ ____
 
 - Aggiungere un widget per donazioni Zcash al tuo sito web
 
-[![Video Thumbnail](/content-images/hqdefault-2fabc62715.webp)](https://www.youtube.com/watch?v=NbP4BcHC0uM)
+[![Video Thumbnail](https://img.youtube.com/vi/NbP4BcHC0uM/hqdefault.jpg)](https://www.youtube.com/watch?v=NbP4BcHC0uM)
 
 
 ___ 
@@ -30,7 +30,7 @@ ___
 
 - Come eseguire una transazione schermata
 
-[![Video Thumbnail](/content-images/hqdefault-3c4fd66e97.webp)](https://www.youtube.com/watch?v=5bx4GhQTi_8)
+[![Video Thumbnail](https://img.youtube.com/vi/5bx4GhQTi_8/hqdefault.jpg)](https://www.youtube.com/watch?v=5bx4GhQTi_8)
 
 ___
 

@@ -13,7 +13,7 @@
 
 リカバリーフレーズの作成は、まず **ランダム性** を生成することから始まります。エントロピーが大きいほど、セキュリティは高くなります。**128ビット** のエントロピーは、ほとんどのユーザーにとって十分と考えられています。
 
-![シードフレーズの概念](/content-images/FooM3qWWACgrwzn-f222c4081f.webp)
+![シードフレーズの概念](https://pbs.twimg.com/media/FooM3qWWACgrwzn.jpg)
 
 初期エントロピーの長さに応じて、リカバリーフレーズの長さは **12語から24語** になります。
 
@@ -28,7 +28,7 @@
 エントロピーを **SHA256** でハッシュ化します。このハッシュの先頭数ビットがチェックサムになります。  
 これにより、エントロピーに固有のフィンガープリントが与えられます。
 
-![エントロピー + チェックサムの図](/content-images/FooNoOEXgAAu-g6-613238fa7e.webp)
+![エントロピー + チェックサムの図](https://pbs.twimg.com/media/FooNoOEXgAAu-g6.png)
 
 ### 3. 11ビットごとの塊に分割する
 合計132ビット（128ビットのエントロピー + 4ビットのチェックサム）を、11ビットずつの塊に分けます。
@@ -39,7 +39,7 @@ BIP-39の単語リストには、**2048語** がちょうど含まれていま�
 
 これらの数値を使って、単語リスト内の対応する単語を見つけます。
 
-![単語対応付けの例](/content-images/FooN9rfXEBoQuU2-d11331fc0a.webp)
+![単語対応付けの例](https://pbs.twimg.com/media/FooN9rfXEBoQuU2.png)
 
 **結果:** これで、安全で人間が読みやすい12語のリカバリーフレーズができました！
 
@@ -59,7 +59,7 @@ BIP-39の単語リストには、**2048語** がちょうど含まれていま�
 
 これにより、**64バイト（512ビット）** の seed が生成されます。
 
-![seed からマスター鍵へ](/content-images/FooOuumXEAgcBm1-dc7c66b84a.webp)
+![seed からマスター鍵へ](https://pbs.twimg.com/media/FooOuumXEAgcBm1.jpg)
 
 ### マスター鍵
 seed は2つの32バイト列に分割されます:
@@ -83,7 +83,7 @@ Zcash では、マスター seed を損なうことなく、サブツリーに�
 
 異なる導出メカニズムによって、シールドプール（Sapling と Orchard）全体で送金者に渡すのに適した外部アドレスが生成されます。
 
-![Zcash 鍵導出の階層構造](/content-images/FooPKd4XEBUQhJ6-af133c01bf.webp)
+![Zcash 鍵導出の階層構造](https://pbs.twimg.com/media/FooPKd4XEBUQhJ6.jpg)
 
 Zcash はまた、Auto-Shielding のようなウォレット操作のための **内部アドレス** もサポートしています。
 

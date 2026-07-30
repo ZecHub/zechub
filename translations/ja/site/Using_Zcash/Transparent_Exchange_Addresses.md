@@ -8,7 +8,7 @@ ZcashのTEXアドレスは、受信用のユニークなタイプのアドレス
 
 TEXアドレスに関する技術提案は、Zcashの[ZIP 320](https://zips.z.cash/zip-0320)に記載されており、透明アドレスから資金を受け取るための専用のアドレスタイプを定義しています。
 
-![TEX](/content-images/ZashiTex-b1cbec5f07.webp)
+![TEX](https://i.ibb.co/8m7HPqV/ZashiTex.png)
 
 TEXアドレスは広く採用されていませんが、Zcashユーザーは最終的にそれらを使用する必要があるかもしれません。
 

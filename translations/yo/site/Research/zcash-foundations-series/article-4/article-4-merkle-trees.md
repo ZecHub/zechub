@@ -1,7 +1,7 @@
 # Àwọn Igi Merkle: Bí Blockchain ṣe máa ń rántí gbogbo nóòtì
 ##### Ìwádìí Àkọ́kọ́ láti [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![ì í ì °ë¦¬í ë ¤]](/content-images/image-19-cfbdcf8f78.webp)
+![ì í ì °ë¦¬í ë ¤]](image-19.png)
 
 ### Fífi àràádọ́ta ọ̀kẹ́ àwọn àdéhùn ṣe àkópọ̀ nínú àmì ìka kékeré kan
 
@@ -34,7 +34,7 @@ Fojú inú wo ìdíje kan tí wọ́n ti ń fi ẹ̀kúnrẹ́rẹ́ bọ́ àwọ
 - Ẹ so àwọn òbí náà pọ̀, kẹ́ ẹ sì fi àwọn méjèèjì pa pọ̀, àti bẹ́ẹ̀ lọ.
 - Ẹ máa báa lọ títí tí ẹ̀rọ kan ṣoṣo yóò fi dé orí òkè.
 
-![ì í ì °ë¦¬í ë ¤]](/content-images/image-20-f5d57e425a.webp)
+![ì í ì °ë¦¬í ë ¤]](image-20.png)
 
 Ohun kan ṣoṣo ti o ṣe pataki julọ ni o tẹle taara lati ipa iṣan omi (Abala 3):
 
@@ -77,7 +77,7 @@ step 2:  H(hAB , hCD)      = ROOT?     (combine with the uncle)
 
 Tí a bá kà á sí ojúlówó: èyí ń fún wa ní `1b3faa3fcc5e...`, èyí tí ó bá gbòǹgbò náà mu.** A ti fi hàn pé ewé náà wà nínú igi náà.
 
-![ì í ì °ë¦¬í ë ¤]](/content-images/image-21-d9e5d6eaf6.webp)
+![ì í ì °ë¦¬í ë ¤]](image-21.png)
 
 Ohun méjì ló mú kí èyí lágbára:
 
@@ -99,7 +99,7 @@ Díẹ̀ lára àwọn kókó pàtàkì:
 - **ìjìnlẹ̀ tí ó dúró ṣinṣin.** àwọn igi tí a fi ààbò Zcash ṣe ní ìjìnlẹ̀ **32**, èyí tó túmọ̀ sí pé wọ́n lè dúró títí di `2^(32)` (Ó lé ní bílíọ̀nù mẹ́rin) owó.
 - **ZK-friendly hashing.** Igi naa ko ni itumọ pẹlu SHA-256. Sapling ṣe igi igi pẹlu **Pedersen hashes** ati Orchard lo **Sinsemilla** (meji lati Abala 3), nitorina ni igbega ọmọ ẹgbẹ jẹ din owo lati fihan inu iyipo kan.
 
-![ì í ì °ë¦¬í ë ¤]](/content-images/image-22-518354b8d5.webp)
+![ì í ì °ë¦¬í ë ¤]](image-22.png)
 
 ### Ohun kan tí igi kò lè ṣe: ó máa ń náwó ní ìlọ́po méjì
 

@@ -8,7 +8,7 @@
 
 المقترح التقني لعناوين TEX موضح في Zcash ‏[ZIP 320](https://zips.z.cash/zip-0320)، والذي يعرّف نوع عنوان مخصصًا حصريًا لاستلام الأموال من عناوين Transparent.
 
-![TEX](/content-images/ZashiTex-b1cbec5f07.webp)
+![TEX](https://i.ibb.co/8m7HPqV/ZashiTex.png)
 
 
 على الرغم من أن عناوين TEX ليست معتمدة على نطاق واسع، فقد يُطلب من مستخدمي Zcash استخدامها في نهاية المطاف.

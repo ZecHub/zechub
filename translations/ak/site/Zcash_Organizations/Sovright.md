@@ -1,5 +1,5 @@
 # Sovright na ɔkyerɛwee
-![Sovright na ɔkyerɛwee](/content-images/sovright-16a27c0d24.webp)
+![Sovright na ɔkyerɛwee](https://i.ibb.co/vvZNvNDT/sovright.png)
 
 **Sovright** yɛ US 501(c3) adwumakuw a ɛnyɛ nea wɔhwehwɛ mfaso a wɔatu wɔn ho ama sɛ wɔbɛboa nnipa ahofadi. Sɛ yɛde yɛn adwene si Zcash nhyehyɛe, atuo, protocol nkɔso, ne abɔdeɛ a nkwa wom mmoa so a, adwuma no kyekye nnwinnadeɛ ne nnwuma a wɔabɔ wɔn tirim sɛ wɔbɛhyɛ ankorankoro digyital sika nhyehyɛeɛ mu den na wɔaboa Zcash ntam nkitahodiɛ no a ɛbɛtumi agyina ano bere tenten.
 

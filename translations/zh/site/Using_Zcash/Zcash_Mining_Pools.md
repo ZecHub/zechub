@@ -13,7 +13,7 @@ Zcash 矿池是允许个人矿工合并其算力（hashrate）的服务。通过
 ### [Slush Pool（Braiins Pool）](https://braiins.com/pool)
 
 <a href="https://binance.com">
-    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool（Braiins Pool）标志" width="200" height="100"/>
+    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/braiins_logo.jpg?raw=true" alt="Slush Pool（Braiins Pool）标志" width="200" height="100"/>
 </a>
 
 - 网站：[Slush Pool（Braiins Pool）](https://braiins.com/pool)
@@ -26,7 +26,7 @@ Zcash 矿池是允许个人矿工合并其算力（hashrate）的服务。通过
 ### [Luxor](https://luxor.tech/)
 
 <a href="https://binance.com">
-    <img src="/content-images/Luxor-20Pool-3aa38cd52b.webp" alt="Luxor 标志" width="200" height="100"/>
+    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Luxor%20Pool.png?raw=true" alt="Luxor 标志" width="200" height="100"/>
 </a>
 
 - 网站：[Luxor](https://luxor.tech/)
@@ -39,7 +39,7 @@ Zcash 矿池是允许个人矿工合并其算力（hashrate）的服务。通过
 ### [FlyPool](https://zcash.flypool.org/)
 
 <a href="https://binance.com">
-    <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool 标志" width="200" height="100"/>
+    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Flypool.jpg?raw=true" alt="FlyPool 标志" width="200" height="100"/>
 </a>
 
 - 网站：[FlyPool](https://zcash.flypool.org/)
@@ -52,7 +52,7 @@ Zcash 矿池是允许个人矿工合并其算力（hashrate）的服务。通过
 ### [2Miners](https://zec.2miners.com/)
 
 <a href="https://binance.com">
-    <img src="/content-images/2Miners-3c99609047.webp" alt="2Miners 标志" width="200" height="100"/>
+    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/2Miners.png?raw=true" alt="2Miners 标志" width="200" height="100"/>
 </a>
 
 - 网站：[2Miners](https://zec.2miners.com/)
@@ -65,7 +65,7 @@ Zcash 矿池是允许个人矿工合并其算力（hashrate）的服务。通过
 ### [Nanopool](https://zec.nanopool.org/login)
 
 <a href="https://binance.com">
-    <img src="/content-images/Nanopool-e484b00998.webp" alt="Nanopool 标志" width="200" height="100"/>
+    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Nanopool.jpg?raw=true" alt="Nanopool 标志" width="200" height="100"/>
 </a>
 
 - 网站：[Nanopool](https://zec.nanopool.org/login)
@@ -78,7 +78,7 @@ Zcash 矿池是允许个人矿工合并其算力（hashrate）的服务。通过
 ### [Poolin](https://www.poolin.com/)
 
 <a href="https://binance.com">
-    <img src="/content-images/Poolin-6fd4b44ba3.webp" alt="Poolin 标志" width="200" height="100"/>
+    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Poolin.jpg?raw=true" alt="Poolin 标志" width="200" height="100"/>
 </a>
 
 - 网站：[Poolin](https://www.poolin.com/)
@@ -91,7 +91,7 @@ Zcash 矿池是允许个人矿工合并其算力（hashrate）的服务。通过
 ### [Antpool](https://v3.antpool.com/home)
 
 <a href="https://binance.com">
-    <img src="/content-images/Antpool-9c5dac3b65.webp" alt="Antpool 标志" width="200" height="100"/>
+    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Antpool.jpg?raw=true" alt="Antpool 标志" width="200" height="100"/>
 </a>
 
 - 网站：[Antpool](https://v3.antpool.com/home)
@@ -104,7 +104,7 @@ Zcash 矿池是允许个人矿工合并其算力（hashrate）的服务。通过
 ### [ViaBTC](https://www.viabtc.com/en/)
 
 <a href="https://binance.com">
-    <img src="/content-images/ViaBTC-8fa5be7bd7.webp" alt="ViaBTC 标志" width="200" height="100"/>
+    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/ViaBTC.png?raw=true" alt="ViaBTC 标志" width="200" height="100"/>
 </a>
 
 - 网站：[ViaBTC](https://www.viabtc.com/en/)
@@ -117,7 +117,7 @@ Zcash 矿池是允许个人矿工合并其算力（hashrate）的服务。通过
 ### [Zhash](https://zcash.zhash.pro/stats)
 
 <a href="https://binance.com">
-    <img src="/content-images/Zhash-45ac9e6541.webp" alt="Zhash 标志" width="200" height="100"/>
+    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Zhash 标志" width="200" height="100"/>
 </a>
 
 - 网站：[Zhash](https://zcash.zhash.pro/stats)
@@ -130,7 +130,7 @@ Zcash 矿池是允许个人矿工合并其算力（hashrate）的服务。通过
 ### [Foundry Zcash 矿池](https://foundrydigital.com/foundry-zcash-pool/)
 
 <a href="https://binance.com">
-    <img src="/content-images/Foundry-3f33346374.webp" alt="Foundry Zcash 矿池标志" width="200" height="100"/>
+    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Foundry.png?raw=true" alt="Foundry Zcash 矿池标志" width="200" height="100"/>
 </a>
 
 - 网站：[Foundry Zcash 矿池](https://foundrydigital.com/foundry-zcash-pool/)
@@ -143,7 +143,7 @@ Zcash 矿池是允许个人矿工合并其算力（hashrate）的服务。通过
 ### [suprnova](https://zec.suprnova.cc/)
 
 <a href="https://binance.com">
-    <img src="/content-images/suprnova-logo-1-small-e95de6cdb3.webp" alt="suprnova 标志" width="200" height="100"/>
+    <img src="https://www.suprnova.cc/suprnova-logo-1-small.jpg" alt="suprnova 标志" width="200" height="100"/>
 </a>
 
 - 网站：[suprnova](https://zec.suprnova.cc/)

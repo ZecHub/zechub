@@ -1,7 +1,7 @@
 # Eliptik Eğriler: Zcash'nin Anahtarlarının ve Taahhütlerinin Doğduğu Yer
 ##### [Annkkitaaa](https://github.com/Annkkitaaa)'dan Özgün Araştırma
 
-![alternatif metin](/content-images/image-10-c1097b22d7.webp)
+![alternatif metin](image-10.png)
 
 ### Bir eğri üzerindeki noktalardan oluşturulmuş tek yönlü bir yol
 
@@ -38,7 +38,7 @@ y^2 = x^3 + ax + b
 
 Sıradan sayıların üzerinde, genellikle yuvarlak bir ilmek ve iki kuyruğa sahip, pürüzsüz ve kıvrımlı bir eğri gibi görünür:
 
-![alternatif metin](/content-images/image-14-1d2e8c25d2.webp)]
+![alternatif metin](image-14.png)]
 
 Gerçekten şaşırtıcı olan kısım şu: **bu eğri üzerindeki iki noktayı "toplayarak" yine aynı eğri üzerinde üçüncü bir nokta elde edebilirsiniz.** Bu, koordinatların bildiğimiz anlamda toplanması değildir. Bu geometrik bir kuraldır ve söylemektense *görmek* daha kolaydır.
 
@@ -50,7 +50,7 @@ Gerçekten şaşırtıcı olan kısım şu: **bu eğri üzerindeki iki noktayı 
 2. Bu çizgi, eğriyi tam olarak bir başka noktada daha keser. Bu noktaya `R*` deyin.
 3. **`R*`’yi yatay eksene göre yansıtın.** Bu yansıma, cevap olan `P + Q`’dir.
 
-![alternatif metin](/content-images/image-11-61f3df1989.webp)
+![alternatif metin](image-11.png)
 
 ### Teğet kuralı (bir noktayı kendisine ekleme)
 
@@ -119,7 +119,7 @@ Please paste the source fragment, and I’ll return only the Turkish translation
 
 Bu asimetri, 1. Bölümde ihtiyaç duyduğumuz **tek yönlü caddeydi**. Geriye dönük problem ("bu noktayı hangi `k` üretti?") **Eliptik Eğri Ayrık Logaritma Problemi (ECDLP)** olarak adlandırılır ve Zcash'in kullandığı eğrilerde, bilinen hiçbir yöntem bunu evrenin ısıl ölümünden önce çözemaz.
 
-![alternatif metin](/content-images/image-12-86b9ace6cb.webp)]
+![alternatif metin](image-12.png)]
 
 > Oyuncak `F_17` eğrimizde, yalnızca 19 noktası olduğu için `k`'i tablodan doğrudan okuyabilirdiniz. Gerçek eğrilerde yaklaşık `2^(255)` nokta vardır. Tabloda evrendeki atom sayısından daha fazla satır olurdu, bu yüzden "tablodan okuyup bulmak" bir seçenek değildir. Küçüklüğü, oyuncak eğriyi öğretilebilir kılan şeydir; aynı zamanda neden güvenli olmadığının da sebebidir.
 
@@ -162,7 +162,7 @@ Parmak izleri somut ve doğrulanabilirdir.
 
 Bir eğrinin neden başka bir eğrinin alanının içine "gömüldüğü" ve iki eğriden oluşan bir *döngü*nün neden faydalı olduğu gerçek ve önemli konulardır, ancak bunlar ispat sistemi makalelerine aittir. Şimdilik çıkarılacak sonuç nettir: **her Zcash anahtarı, bir üretecin skalerle çarpımıdır ve her Zcash taahhüdü, eğri noktalarının bir toplamıdır**; bunların her biri bu adlandırılmış eğrilerden biri üzerinde bulunur.
 
-![alternatif metin](/content-images/image-13-ffdd703c60.webp)]
+![alternatif metin](image-13.png)]
 
 Lütfen çevirmemi istediğiniz Markdown parçasını gönderin.
 

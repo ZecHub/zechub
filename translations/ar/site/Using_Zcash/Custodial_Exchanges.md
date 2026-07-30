@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="تحرير الصفحة"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="نص بديل" width="50"/>   منصات التداول الوصائية
+# <img src="https://i.ibb.co/bmS65xV/image-2024-02-03-173258092.png" alt="نص بديل" width="50"/>   منصات التداول الوصائية
 
 ---
 
@@ -45,7 +45,7 @@ ___
 ### [Coinbase](https://coinbase.com)
 
 <a href="https://coinbase.com">
-    <img src="/content-images/coinbase-8643659341.webp" alt="" width="200" height="100"/>
+    <img src="https://i.ibb.co/XWkqhdY/coinbase.png" alt="" width="200" height="100"/>
 </a>
 
 - الموقع الإلكتروني: [Coinbase](https://coinbase.com)
@@ -57,7 +57,7 @@ ___
  ### [Gemini](https://gemini.com)
 
 <a href="https://gemini.com">
-    <img src="/content-images/Gemini-Symbol-ddd31ee98b.webp" alt="شعار منصة التداول الوصائية Gemini" width="200" height="100"/>
+    <img src="https://logos-world.net/wp-content/uploads/2023/12/Gemini-Symbol.png" alt="شعار منصة التداول الوصائية Gemini" width="200" height="100"/>
 </a>
 
 - الموقع الإلكتروني: [Gemini](https://gemini.com)
@@ -69,7 +69,7 @@ ___
 ### [Huobi](https://huobi.com)
 
 <a href="https://huobi.com">
-    <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="شعار Huobi" width="200" height="100"/>
+    <img src="https://seeklogo.com/images/H/huobi-global-logo-82DAA48E43-seeklogo.com.png" alt="شعار Huobi" width="200" height="100"/>
 </a>
 
 - الموقع الإلكتروني: [Huobi](https://huobi.com)
@@ -81,7 +81,7 @@ ___
 ### [Kraken](https://kraken.com)
 
 <a href="https://kraken.com">
-    <img src="/content-images/kraken-logo-7407ab477f.webp" alt="صورة ترويجية لـ Kraken" width="200" height="100"/>
+    <img src="https://assets.kraken.com/marketing/static/kraken-logo.jpg" alt="صورة ترويجية لـ Kraken" width="200" height="100"/>
 </a>
 
 - الموقع الإلكتروني: [Kraken](https://kraken.com)
@@ -93,7 +93,7 @@ ___
 ### [KuCoin](https://kucoin.com)
 
 <a href="https://kucoin.com">
-    <img src="/content-images/kucoin-ee0c21f9fd.svg" alt="شعار KuCoin" width="200" height="100"/>
+    <img src="https://www.svgrepo.com/show/331460/kucoin.svg" alt="شعار KuCoin" width="200" height="100"/>
 </a>
 
 - الموقع الإلكتروني: [KuCoin](https://kucoin.com)

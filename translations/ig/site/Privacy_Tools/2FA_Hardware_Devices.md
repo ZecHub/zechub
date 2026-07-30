@@ -10,7 +10,7 @@ A hardware security key is a physical device used for two-factor authentication 
 
 These keys are designed to work in conjunction with your username and password to ensure that only authorized users can access your accounts and data. They come in various forms such as pen drives, NFC cards or Bluetooth devices.
 
-![Ihe Nlereanya Nchekwa Hardware](/content-images/1dff66a4-d8e6-483f-9a1e-065d3974d665-a4c6c73e00.webp)
+![Ihe Nlereanya Nchekwa Hardware](https://github.com/ZecHub/zechub/assets/81990132/1dff66a4-d8e6-483f-9a1e-065d3974d665)
 
 ## Olee otu igodo nchedo ngwaike si arụ ọrụ
 
@@ -26,7 +26,7 @@ Hardware security keys offer several advantages over traditional password-based 
 
 No, hardware security keys come in many formats and may not be compatible with all devices and operating systems. Before purchasing a key, make sure it is compatible with your device and operating system.
 
-[Nchekwa Akụrụngwa Key Form Factors](/content-images/a830c435-ad20-4183-b381-475afe1089b3-5537cd7388.webp)
+[Nchekwa Akụrụngwa Key Form Factors](https://github.com/ZecHub/zechub/assets/81990132/a830c435-ad20-4183-b381-475afe1089b3)
 
 ## Enwere ike iji igodo nchekwa ngwaike na ọtụtụ akaụntụ?
 
@@ -42,7 +42,7 @@ Ndị a bụ ụfọdụ ihe atụ nke 2FA Hardware dị na ahịa.
 
 ** Yubico YubiKey 5 NFC **
 
-[Yubico YubiKey 5 NFC](/content-images/bf1ac95e-7277-4559-b5ef-63117b66971b-3aa542aba7.webp)
+[Yubico YubiKey 5 NFC](https://github.com/ZecHub/zechub/assets/81990132/bf1ac95e-7277-4559-b5ef-63117b66971b)
 
 Manufactured by Yubico, co-developer of the FIDO U2F open authentication standard used by many security keys, the YubiKey 5 NFC is in safe hands to protect your devices. As its name suggests, it works using USB A (or USB C using an adapter) or NFC.  
 It offers out of the box compatibility with many services including Google Chrome, Facebook, Dropbox, LastPass, 1Password and more. The YubiKey 5 is compact, durable and lightweight - and it is even waterproof.  
@@ -50,7 +50,7 @@ It offers out of the box compatibility with many services including Google Chrom
 
 ** Thetis Fido U2F Nchekwa Igodo **
 
-[Thetis Fido U2F Nchekwa Igodo](/content-images/b83e42e5-bba6-4175-ad6c-d64972ef54ef-a2ef17a10d.webp)
+[Thetis Fido U2F Nchekwa Igodo](https://github.com/ZecHub/zechub/assets/81990132/b83e42e5-bba6-4175-ad6c-d64972ef54ef)
 
 If you are looking for the best bang-for-buck in a security key, this model from Thetis should be on your list. There is no Bluetooth onboard (it is available on a more expensive model), and it only supports the FIDO U2F standard so there is no UAF or OTP compatibility. However, it will provide secure website access if you use Chrome or Opera as a browser on Windows, macOS, or Linux.  
 Handily, this affordable security key sports a compact folding design with a rotating aluminum casing that prevents the connector from being exposed to potential damage while transporting. It comes in three attractive colors: Black, Gold, and Silver.  
@@ -58,7 +58,7 @@ Ihe mkpuchi plastik ahụ siri ike ma dịtụ ike, mana ị ga-achọ izere iti
 
 **CryptoTrust NaanịKey**
 
-[CryptoTrust OnlyKey]](/content-images/13be6ecc-227e-498c-8a36-6d52c023cd78-06e3e924dc.webp)
+[CryptoTrust OnlyKey]](https://github.com/ZecHub/zechub/assets/81990132/13be6ecc-227e-498c-8a36-6d52c023cd78)
 
 As its name suggests, OnlyKey has some nifty features its rivals lack. Thanks to an onboard keypad that can bypass keyloggers that find their way onto computers, it can keep online accounts safe if a computer or website is compromised. It supports multiple methods of 2FA, including FIDO 2 U2F, Yubico OTP, and TOTP.  
 While it is not the best password manager for mainstream purposes, OnlyKey can store 24 OTP accounts, 24 passwords, and 24 usernames/URLs, on a single key. This feature is pretty handy if you're not keen on memorizing multiple passwords and want the key to handle it for you.  
@@ -71,22 +71,22 @@ Ugbu a ị maara ihe igodo 2FA Hardware bụ na otu ha si arụ ọrụ, lee otu
 **Nzọụkwụ 1** 
 Banye na akaụntụ Gmail gị wee pịa **Jikwaa Akaụntụ Google gị**
 
-[Akaụntụ Google - Jikwaa Akaụntụ](/content-images/995fc955-791a-4456-9218-7e5964da48b5-31c64640b2.webp)
+[Akaụntụ Google - Jikwaa Akaụntụ](https://github.com/ZecHub/zechub/assets/81990132/995fc955-791a-4456-9218-7e5964da48b5)
 
 **Nzọụkwụ 2** 
 Pịa na ** Nchebe **
 
-Ntọala Nchedo Google](/content-images/246db235-6596-41ff-bd7a-f8ee4f80962b-340193c2c3.webp)
+Ntọala Nchedo Google](https://github.com/ZecHub/zechub/assets/81990132/246db235-6596-41ff-bd7a-f8ee4f80962b)
 
 **Nzọụkwụ 3** 
 Pịa na ** Nyocha Nzọụkwụ Abụọ **
 
-![Ihe Nyocha Nzọụkwụ Abụọ](/content-images/19cd202a-1a70-47e6-a02a-aa24f6e199fa-a9fcb911ce.webp)
+![Ihe Nyocha Nzọụkwụ Abụọ](https://github.com/ZecHub/zechub/assets/81990132/19cd202a-1a70-47e6-a02a-aa24f6e199fa)
 
 **Nzọụkwụ 4** 
 Họrọ ** Gosi Nhọrọ Ndị Ọzọ **
 
-[Gosi Nhọrọ Ndị Ọzọ](/content-images/2ade9531-1cf6-48e8-b9a8-178d41a4cd30-b1e9ea1400.webp)
+[Gosi Nhọrọ Ndị Ọzọ](https://github.com/ZecHub/zechub/assets/81990132/2ade9531-1cf6-48e8-b9a8-178d41a4cd30)
 
 **Nzọụkwụ 5** 
 Ugbu a họrọ ** Nchekwa Key ** wee pịa na ** Advance **

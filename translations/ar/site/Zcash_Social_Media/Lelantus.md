@@ -6,7 +6,7 @@
 
 أُطلِق هذا البروتوكول في عام 2019، وهو يبني على Zerocoin. ويُستخدم في عملة **Firo** (المعروفة سابقًا باسم Zcoin) لتمكين المعاملات الخاصة على السلسلة. وهو يشبه Zcash من بعض الجوانب، لكنه يختلف عنه بوضوح في معظم النواحي.
 
-![مقدمة عن Lelantus](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
+![مقدمة عن Lelantus](https://pbs.twimg.com/media/Fsk18DgXsAEc0Ob.jpg)
 
 ---
 
@@ -15,7 +15,7 @@
 - **Zcash** - يبني على بروتوكول **Zerocash**  
 - **Firo (Zcoin)** - يبني على بروتوكول **Zerocoin**
 
-![مقارنة بين Zerocash وZerocoin](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
+![مقارنة بين Zerocash وZerocoin](https://pbs.twimg.com/media/Fsk2Fk7WcAA81ty.png)
 
 ---
 
@@ -28,7 +28,7 @@
 - **Sigma** - نظام فئات ثابتة
 - **Lelantus 1.0** - افتقر إلى براهين أمنية صحيحة
 
-![تطور البروتوكول](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
+![تطور البروتوكول](https://pbs.twimg.com/media/Fsk2NdaWAAAKVgH.png)
 
 ---
 
@@ -38,7 +38,7 @@
 
 وقد أدى ذلك إلى مجموعات إخفاء هوية أصغر، وفتح المجال أمام هجمات التوقيت بين عمليتي السك والاسترداد (إضافة إلى مشكلة "الباقي الملوّث").
 
-![فئات Sigma](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
+![فئات Sigma](https://pbs.twimg.com/media/Fsk2fxfWcAMUBDo.png)
 
 ---
 
@@ -53,7 +53,7 @@
 
 **قيد**: حجم المجموعة محدود حاليًا عند **65,000 coins**.
 
-![مزايا Lelantus](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
+![مزايا Lelantus](https://pbs.twimg.com/media/Fsk2wK3X0AA6MEe.png)
 
 ---
 
@@ -65,7 +65,7 @@
 
 ويُنشر التزام العملة ويُخزَّن على الدفتر عند إنشاء العملة (عبر معاملات Mint أو Spend).
 
-![مخطط التزام العملة](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
+![مخطط التزام العملة](https://pbs.twimg.com/media/Fsk3AWNX0AIHya8.png)
 
 ---
 
@@ -77,7 +77,7 @@
 
 وكما في Zcash، يجب أن يختار المستخدم المعاملات الشفافة بشكل صريح.
 
-![تدفق Lelantus](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
+![تدفق Lelantus](https://pbs.twimg.com/media/Fsk3HrjXgAMgqmX.png)
 
 ---
 
@@ -87,7 +87,7 @@
 
 وتُستخدم هذه البراهين أيضًا في **Triptych** (التي ذُكرت في سلسلة CryptoNote الخاصة بنا).
 
-![براهين واحد من بين كثير](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
+![براهين واحد من بين كثير](https://pbs.twimg.com/media/Fsk3Z0nWIAAPD4k.jpg)
 
 ---
 
@@ -103,7 +103,7 @@
 
 وهذا يجعل تتبّع مصدر المعاملة عبر تحليل الشبكة أكثر صعوبة بكثير.
 
-![شرح Dandelion++](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
+![شرح Dandelion++](https://pbs.twimg.com/media/Fsk4A8VWcAU84MR.png)
 
 ---
 
@@ -117,7 +117,7 @@
 
 وتوازي هذه الميزات أصول Zcash المحمية.
 
-![إعلان Lelantus-Spark](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
+![إعلان Lelantus-Spark](https://pbs.twimg.com/media/Fsk4jXeXsAACQ3h.jpg)
 
 ---
 

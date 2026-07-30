@@ -13,7 +13,7 @@
 
 恢复短语的创建始于生成**随机性**。熵越高，安全性越强。对于大多数用户来说，**128 bits** 的熵已被认为足够安全。
 
-![种子短语概念](/content-images/FooM3qWWACgrwzn-f222c4081f.webp)
+![种子短语概念](https://pbs.twimg.com/media/FooM3qWWACgrwzn.jpg)
 
 根据初始熵的长度，恢复短语通常会有 **12 到 24 个单词**。
 
@@ -28,7 +28,7 @@
 我们使用 **SHA256** 对熵进行哈希。该哈希的前几个比特会作为校验和。  
 这样就为我们的熵生成了一个独特的指纹。
 
-![熵 + 校验和示意图](/content-images/FooNoOEXgAAu-g6-613238fa7e.webp)
+![熵 + 校验和示意图](https://pbs.twimg.com/media/FooNoOEXgAAu-g6.png)
 
 ### 3. 切分为 11 比特块
 总计 132 bits（128 熵 + 4 校验和）会被拆分为多个 11 比特的块。
@@ -39,7 +39,7 @@ BIP-39 词表恰好包含 **2048 个单词**（英语、西班牙语、中文等
 
 然后使用这些数字在词表中找到对应的单词。
 
-![单词映射示例](/content-images/FooN9rfXEBoQuU2-d11331fc0a.webp)
+![单词映射示例](https://pbs.twimg.com/media/FooN9rfXEBoQuU2.png)
 
 **结果：** 现在我们得到了一个安全且便于人类阅读的 12 个单词恢复短语！
 
@@ -59,7 +59,7 @@ BIP-39 词表恰好包含 **2048 个单词**（英语、西班牙语、中文等
 
 这会生成一个 **64-byte (512-bit)** 的种子。
 
-![从种子到主密钥](/content-images/FooOuumXEAgcBm1-dc7c66b84a.webp)
+![从种子到主密钥](https://pbs.twimg.com/media/FooOuumXEAgcBm1.jpg)
 
 ### 主密钥
 该种子会被拆分为两个 32-byte 序列：
@@ -83,7 +83,7 @@ BIP-39 词表恰好包含 **2048 个单词**（英语、西班牙语、中文等
 
 不同的派生机制会生成适合提供给付款发送者的外部地址，可用于屏蔽池（Sapling 与 Orchard）之间。
 
-![Zcash 密钥派生层级](/content-images/FooPKd4XEBUQhJ6-af133c01bf.webp)
+![Zcash 密钥派生层级](https://pbs.twimg.com/media/FooPKd4XEBUQhJ6.jpg)
 
 Zcash 还支持**内部地址**，用于自动屏蔽等钱包操作。
 

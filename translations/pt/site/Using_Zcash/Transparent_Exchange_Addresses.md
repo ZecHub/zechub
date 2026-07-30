@@ -8,7 +8,7 @@ A lógica é a seguinte: ao detectar um endereço TEX, uma carteira compatível 
 
 A proposta técnica para endereços TEX está descrita no Zcash [ZIP 320](https://zips.z.cash/zip-0320), que define um tipo de endereço exclusivamente para receber fundos de endereços Transparentes.
 
-![TEX](/content-images/ZashiTex-b1cbec5f07.webp)
+![TEX](https://i.ibb.co/8m7HPqV/ZashiTex.png)
 
 
 Embora os endereços TEX ainda não sejam amplamente adotados, os usuários de Zcash podem vir a precisar usá-los no futuro.

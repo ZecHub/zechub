@@ -67,7 +67,7 @@ Zlink yɛ ɔkwan a ɛyɛ mmerɛw a wobɛfa so ahwehwɛ link, adwinnade, nsɛm bi
 Radio Dwumadibea a ɛwɔ intanɛt so a wɔde bɛbɔ Zcash Community amanneɛ, akyerɛkyerɛ na wɔagye wɔn ani, a Zcash en Español ne ZKAV Club na wɔyɛe.
 
 ## Zimppy.xyz na ɔkyerɛwee
-[![Zimppy.xyz Ahyɛnsodeɛ](/content-images/og-40771e1849.webp)](https://zimppy.xyz/)
+[![Zimppy.xyz Ahyɛnsodeɛ](https://github.com/betterclever/zimppy/blob/main/site/og.png?raw=true)](https://zimppy.xyz/)
 
 Zimppy yɛ Machine Payment Protocol (MPP) sikatua kwan a wɔfa so tua Zcash, a wɔayɛ ama AI adwumayɛfoɔ ne mfiri-kɔ-mfiri adwumayɛ nhyehyɛeɛ a ɛyɛ adwuma. Deposit pɛnkoro wɔ-nkɔnsɔnkɔnsɔn, afei yɛ anohyeto a enni instant bearer abisade a biara biara-abisade blockchain nkitahodi. Boa Zcash (Orchard) sikatua a wɔabɔ ho ban koraa — nea ɔde kɔmaa, nea ogye, ne sika dodow da so ara yɛ encrypted.
 
@@ -76,7 +76,7 @@ Zimppy yɛ Machine Payment Protocol (MPP) sikatua kwan a wɔfa so tua Zcash, a w
 ---
 
 ## CipherScan a wɔde kyerɛw nsɛm
-[![CipherScan a wɔde kyerɛw nsɛm](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
+[![CipherScan a wɔde kyerɛw nsɛm](https://github.com/Kenbak/cipherscan/blob/main/public/logo-small.png?raw=true)](https://cipherscan.app/)
 
 CipherScan yɛ kokoamsɛm-di kan Zcash blockchain nhwehwɛmufo. Wɔde Next.js 15, TypeScript, ne Rust/WASM na ɛkyekyee, ɛma wɔn a wɔde di dwuma no hwehwɛ blocks, transactions, ne address ahorow a wɔmfa query metadata nkɔ. Wɔayɛ ama wɔn a wɔde kokoam nsɛm di dwuma a wohia blockchain a ɛda adi pefee a wɔnhwɛ wɔn so.
 
@@ -85,7 +85,7 @@ CipherScan yɛ kokoamsɛm-di kan Zcash blockchain nhwehwɛmufo. Wɔde Next.js 15
 ---
 
 ## ZcashEdin ahorow
-[![ZcashEdin ahorow](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
+[![ZcashEdin ahorow](https://github.com/zcashme/zcashnames/blob/main/public/brandkit/zcashnames-brand-banner-primary-logo-monochrome-green-monochrome-green-background-377x403.png?raw=true)](https://www.zcashnames.com/)
 
 ZcashNames ma edin a nnipa betumi akenkan ama Zcash address ahorow a wɔabɔ ho ban. Sɛ́ anka wɔbɛkyɛ z-address tenten bi no, wɔn a wɔde di dwuma no kyerɛw din a wɔbɛkae (e.g., . `alice.zec`) that resolves to their Unified Address. Simplifies receiving ZEC privately without exposing raw addresses.
 
@@ -102,20 +102,20 @@ Adwumakuw a wɔatu wɔn ho ama sɛ wɔbɛyɛ kokoam nsɛm, wɔn ankasa tumidi, n
 ---
 
 ## Cipherpay a wɔde tua ho ka
-[![Cipherpay a wɔde tua ho ka](/content-images/logo-mark-b8d7c702b0.webp)](https://www.cipherpay.app/en)
+[![Cipherpay a wɔde tua ho ka](https://github.com/atmospherelabs-dev/cipherpay-web/blob/main/public/logo-mark.png?raw=true)](https://www.cipherpay.app/en)
 
 CipherPay ma wotumi tua kokoam sika ma intanɛt. Gye Zcash tom wɔ simma kakraa bi mu — ɛnyɛ afiase, KYC biara nhia. Aguadifo nya ZEC tẽẽ kɔ address ahorow a wɔabɔ ho ban so, na ɛbɔ adetɔfo ne adetɔnfo nyinaa sikasɛm mu kokoamsɛm ho ban.
 
 [Kɔ Site no so](https://www.cipherpay.app/en)
 
 ## Cipherscan a wɔde kyerɛw nsɛm
-[![Nsɛm a wɔde kyerɛw nsɛm](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
+[![Nsɛm a wɔde kyerɛw nsɛm](https://github.com/Kenbak/cipherscan/blob/main/public/logo-small.png?raw=true)](https://cipherscan.app/)
 
 Zcash Blockchain Explorer 🛡️ Kyerɛw blockchain no ase. Kokoamsɛm hyia nea ɛda adi pefee.
 [Kɔ Site no so](https://cipherscan.app/)
 
 ## ZcashEdin ahorow
-[![ZcashEdin ahorow](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
+[![ZcashEdin ahorow](https://github.com/zcashme/zcashnames/blob/main/public/brandkit/zcashnames-brand-banner-primary-logo-monochrome-green-monochrome-green-background-377x403.png?raw=true)](https://www.zcashnames.com/)
 
 Ankorankoro din ahorow
 ma
@@ -124,14 +124,14 @@ address ahorow a wɔabɔ ho ban. Edin nkutoo ne nea wuhia na wode adi nkitaho w�
 [Kɔ Site no so](https://www.zcashnames.com/)
 
 ## Zero-nimdeɛ Audiovisual Club
-[![Nimdeɛ a wonni Audiovisual Club](/content-images/images-563ef94ac0.webp)](https://zkav.club/#additional-reading)
+[![Nimdeɛ a wonni Audiovisual Club](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS95FffUJjEeUHAZZ04xRHp9FW1Z0Gzef2UUg&s?raw=true)](https://zkav.club/#additional-reading)
 
 Kokoamsɛm-di kan audiovisual (AV) kuw ma open-source & decentralized tech mpɔtam. Yɛtete, yɛbom yɛ & yɛyɛ volunteer AV mmoa wɔ mpɔtam hɔ nhyiam ahorow ase.
 
 [Kɔ Site no so](https://zkav.club/#additional-reading)
 
 ## Labs a Wɔabɔ ho Ban
-[![Shielded Labs a wɔde wɔn ho ahyɛ mu](/content-images/68747470733a2f2f736869656c6465646c616273-e449ae6540.webp)](https://shieldedlabs.net/)
+[![Shielded Labs a wɔde wɔn ho ahyɛ mu](https://camo.githubusercontent.com/0244df9f30a80c45adfd80c448985f17a6c71cdc9fd0eccd7bf47dec157c0dd4/68747470733a2f2f736869656c6465646c6162732e6e65742f77702d636f6e74656e742f75706c6f6164732f323032342f31312f66617669636f6e5f37325f322e706e67?raw=true)](https://shieldedlabs.net/)
 
 Shielded Labs yɛ Zcash mmoa ahyehyɛdeɛ a ɛde ne ho, a wɔde ntoboa na ɛyɛ adwuma a ɛwɔ Switzerland. Ɛyɛ ahyehyɛdeɛ a ɛdi kan wɔ Zcash abɔdeɛ a nkwa wom nhyehyɛeɛ mu a ɛnnyaa sika tẽẽ anaa ɛnte saa mfi Nkɔsoɔ Fotoɔ anaa block akatua mu da.
 

@@ -4,7 +4,7 @@
 
 # Publicar un sitio web en IPFS 
 
-![](/content-images/IPFS-40c2e22732.webp)
+![](https://blog.desdelinux.net/wp-content/uploads/2020/04/IPFS-.jpg)
 
 ## Introducción a IPFS 
 
@@ -55,7 +55,7 @@ Usando una terminal o símbolo del sistema, ejecuta el comando: <mark>ipfs init 
 
 Selecciona la carpeta con los archivos de tu sitio web y navega hasta la opción Add Folder.
 
-![](/content-images/ipfs-site-folder-2c96524d98.webp)
+![](https://i.ibb.co/ZHW4zsY/ipfs-site-folder.png)
 
 --
 
@@ -92,11 +92,11 @@ En nuestro caso el CID = "QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3"
 
 Interplanetary Naming System (IPNS) te permite actualizar los CID de IPFS asociados con tu sitio web y seguir sirviendo un enlace estático. Se proporciona como una clave. 
 
-![](/content-images/dns-query.a0134a75-9ef7817f80.webp)
+![](https://dnslink.io/assets/dns-query.a0134a75.png)
 
 En el menú de configuración de la carpeta de tu sitio en la aplicación de escritorio de IPFS, selecciona Publish to IPNS.  
 
-![](/content-images/IPNS-2fe62cc369.webp)
+![](https://i.ibb.co/Ch25dKf/IPNS.png)
 
 Clave: "k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n"
 
@@ -109,7 +109,7 @@ El sitio ha sido creado, ahora necesitamos una forma de apuntar una URL al conte
 
 Si ya posees una dirección web, puedes añadir un nuevo registro usando el registro TXT "_dnslink(your domain)". Dependiendo del proveedor, puede que se complete automáticamente. 
 
-![](/content-images/example-c2a9edb28b.webp)
+![](https://i.ibb.co/MgRxBHj/example.png)
 
 Tomará tiempo propagarse por la red antes de que puedas verlo. 
 

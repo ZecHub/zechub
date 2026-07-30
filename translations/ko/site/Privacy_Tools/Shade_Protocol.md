@@ -2,7 +2,7 @@
 
 # Shade Protocol
 
-![Shade Protocol 로고](/content-images/Af8EzlNiwGr4FTFX7oqdBuE-71316827d0.webp)
+![Shade Protocol 로고](https://framerusercontent.com/images/Af8EzlNiwGr4FTFX7oqdBuE.png)
 
 ## Shade Protocol이란?
 
@@ -14,7 +14,7 @@ Shade Protocol은 사용자의 프라이버시와 보안을 유지하면서 금�
 
 Shade Protocol은 Secret Network에 구축되어 있으며, 이는 거래 프라이버시를 보장하는 레이어 1 블록체인입니다. Secret Network는 암호화된 입력값, 출력값 및 상태를 사용하여 공개 장부에서 사용자 데이터가 노출되는 것을 방지합니다.
 
-![Secret Network 다이어그램](/content-images/1-yyZ5hFOw6z8zXX_rgJn5iw-9091067aa1.webp)
+![Secret Network 다이어그램](https://miro.medium.com/v2/resize:fit:828/format:webp/1*yyZ5hFOw6z8zXX_rgJn5iw.png)
 
 Secret Network는 개발자가 Secret에서 직접적으로 또는 다른 블록체인과의 교차 체인 통신을 통해 암호화된 데이터를 사용하는 분산형 애플리케이션을 구축할 수 있도록 합니다. 이는 Web3에 대한 강력한 새로운 용도를 가능하게 합니다.
 
@@ -23,7 +23,7 @@ Secret Network는 개발자가 Secret에서 직접적으로 또는 다른 블록
 Cosmos는 다양한 블록체인 간의 상호 연결을 위해 더 나은, 현대적인 방법으로 이러한 블록체인을 구축할 수 있는 새로운 도구인 Tendermint과 Cosmos SDK를 사용하여 설계되었습니다.  
 이 프로토콜은 확장성과 호환성을 갖춘 블록체인 애플리케이션을 만들 수 있는 모듈형 프레임워크인 Cosmos SDK를 사용합니다. 이는 Shade Protocol이 Cosmos 생태계의 견고함과 호환성을 활용할 수 있도록 합니다.
 
-![Cosmos SDK 및 Tendermint Core 다이어그램](/content-images/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e-ed16bb7658.webp)
+![Cosmos SDK 및 Tendermint Core 다이어그램](https://s3.ap-northeast-1.amazonaws.com/gimg.gateimg.com/learn/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e.jpg)
 
 공감과 네트워크 보안을 위해 Shade Protocol은 Byzantine Fault Tolerant(BFT) 공감을 제공하는 Tendermint Core를 사용합니다. 이는 높은 보안성과 빠른 최종성을 보장합니다.
 
@@ -37,9 +37,9 @@ Cosmos는 다양한 블록체인 간의 상호 연결을 위해 더 나은, 현�
 
 Shade Protocol은 두 주요 토큰인 Shade($SHD) 및 Silk($SILK)에 대한 뷰잉 키를 사용합니다. Shade($SHD)는 생태계 내에서 재정, 거버넌스 및 수익 공유 토큰으로 다양한 역할을 수행하며, 스테이킹, 거버넌스 제안, 유동성 제공, 거래 및 채권에 사용됩니다. 반면, Silk($SILK)는 프라이버시 중심의 안정 통화로, 금, 비트코인, 달러, 유로, 엔 등 다양한 글로벌 통화와 상품과 연결된 바스켓에 고정되어 있습니다.
 
-![Shade 및 Silk 토큰 - 1부](/content-images/9wTrxCdx8AoRcCwsGub13QXuY-807ed3b400.webp)
+![Shade 및 Silk 토큰 - 1부](https://framerusercontent.com/images/9wTrxCdx8AoRcCwsGub13QXuY.png?scale-down-to=1024)
 
-![Shade 및 Silk 토큰 - 2부](/content-images/IUC9YWfErTebCBsMkdbCnjSWGEY-4ed6d5cedf.webp)
+![Shade 및 Silk 토큰 - 2부](https://framerusercontent.com/images/IUC9YWfErTebCBsMkdbCnjSWGEY.png)
 
 ### 프라이버시
 
@@ -57,7 +57,7 @@ DeFi 플랫폼으로서 Shade Protocol은 중앙 집중적인 제어 없이 운�
 
 Cosmos 생태계의 일부로 Shade Protocol은 다른 블록체인과 쉽게 상호작용할 수 있으며, 이는 유동성을 향상시키고 사용자가 다양한 네트워크에서 자산을 활용할 수 있는 기회를 제공합니다. Secret Network의 프라이버시 보존형 기술을 이용함으로써 Shade Protocol은 이러한 교차 체인 활동이 기밀성과 무결성을 유지하도록 합니다. 이 호환성은 분산형 애플리케이션의 유연성 및 기능성을 향상시키는 동시에 더 밀접하게 연결되고 견고한 블록체인 생태계를 조성하며, 고립된 네트워크에 대한 의존도를 줄이고 분산형 금융 솔루션의 보다 광범위한 채택을 장려합니다.
 
-![호환성 다이어그램](/content-images/3zIwSJHEwP9tkn4aI0do0lhgFTE-2aed930de0.webp)
+![호환성 다이어그램](https://framerusercontent.com/images/3zIwSJHEwP9tkn4aI0do0lhgFTE.png)
 
 ## 결론
 

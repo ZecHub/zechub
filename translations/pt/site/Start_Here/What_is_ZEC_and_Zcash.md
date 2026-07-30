@@ -43,7 +43,7 @@ Zcash é uma implementação do protocolo "Zerocash". É um registro de código 
 Zcash resolve a maior falha do Bitcoin: a propriedade privada e a transferência de dados. Em um mundo no qual aplicações de blockchain e criptomoedas estão sendo aceitas de forma cada vez mais ampla, transações pseudônimas já não são uma opção viável para proteger a privacidade dos usuários. Aplicações de vigilância estão sendo cada vez mais usadas para analisar transações em blockchain.
 
 <a href="">
-    <img src="/content-images/Zcash-logo-1-26747e0dd3.webp" alt="" width="60" height="60"/>
+    <img src="https://i.ibb.co/NN3XxrG/Zcash-logo-1.png" alt="" width="60" height="60"/>
 </a>
 
 #### Recursos

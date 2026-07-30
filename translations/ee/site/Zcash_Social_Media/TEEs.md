@@ -5,7 +5,7 @@
 Zero to Zero Knowledge trɔ gbɔ kple nyati yeye aɖe! 
 Kwasiɖa sia me la, míedzro **Trusted Execution Environments (TEEs)** - alesi wozãa wo le adzame gakuwo kple blockchain dɔ bubuwo me.
 
-![Amewuwu ƒe Nɔnɔme siwo dzi Woka ɖo intro](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
+![Amewuwu ƒe Nɔnɔme siwo dzi Woka ɖo intro](https://pbs.twimg.com/media/Fquj-h2WcAIgSnL.jpg)
 
 ---
 
@@ -31,7 +31,7 @@ Validator node ɖesiaɖe zãa Intel SGX chips. Woƒo nusiwo dzi woda asi ɖo kpl
 
 Esia to vovo na Zcash, si zãa **sidzedze zero-kpeɖodzi** hena ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla. Le Zcash me la, woɖea gbeƒã adzɔnuwɔna siwo wokpɔ ta na eye woɖoa kpe wo dzi le dutoƒo eye womeɖea nyatakaka bubu aɖeke fiana na network la o. Zcash Shielded Assets hã zɔna ɖe gɔmeɖose ma ke dzi.
 
-![Network TEE ƒe nɔnɔmetata ɣaɣla](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
+![Network TEE ƒe nɔnɔmetata ɣaɣla](https://pbs.twimg.com/media/FqulPjNX0AEfjRp.png)
 
 Ne èdi numeɖeɖe tsitotsito tso alesi wowɔa TEEwo ŋudɔ le Secret Network dzi ŋu la, xlẽ nyati nyui sia si @l_woetzel ŋlɔ: 
 https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerability-33ca94b6df38
@@ -55,11 +55,11 @@ Enaa mɔnukpɔkpɔ ame aɖe si le didiƒe be wòaɖo kpe edzi be:
 - Wometrɔ asi le dɔbiagbalẽvia ŋu o 
 - Ele dɔ wɔm dedie le Intel SGX enclave me
 
-![Adzɔge Ðaseɖiɖi ƒe numeɖeɖe](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
+![Adzɔge Ðaseɖiɖi ƒe numeɖeɖe](https://pbs.twimg.com/media/FqumRjoWwAAeT-M.png)
 
 Ame ŋutɔ ƒe asidede agbalẽ te kple ɖaseɖiɖi ƒe safui siwo womate ŋu akpɔ tso egodo o hã le enclaves me.
 
-![Enclave safui takpɔkpɔ](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
+![Enclave safui takpɔkpɔ](https://pbs.twimg.com/media/Fqumv83XoAQq-MO.png)
 
 ---
 
@@ -69,7 +69,7 @@ Esi wònye be enclavewo nye esiwo me nɔnɔme aɖeke mele o ta la, ele be woadzr
 
 **Data Sealing** tsɔa nyatakaka siwo le enclave la me ɣlana to safui si wokpɔ tso CPU me zazã me. Woateŋu aɖe mɔxenu si wotsɔ nya ɣaɣlawo ŋlɔ la le **ɖoɖo ɖeka ma ke** dzi ko.
 
-![Data Sealing ƒe nɔnɔmetata](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
+![Data Sealing ƒe nɔnɔmetata](https://pbs.twimg.com/media/FqunBwyWYAA-TR3.jpg)
 
 ---
 
@@ -79,7 +79,7 @@ Esi wònye be enclavewo nye esiwo me nɔnɔme aɖeke mele o ta la, ele be woadzr
 
 Nyatakaka siwo wotsɔ nya ɣaɣlawo ŋlɔ la gena ɖe TEE la me kpe ɖe smart contract la ŋu. Woɖea nya ɣaɣlawo me, wowɔa dɔ tso eŋu, eye wogbugbɔa nya ɣaɣlawo dea eme hafi dzona le enclave la me.
 
-![Oasis Network TEE ƒe sisi](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
+![Oasis Network TEE ƒe sisi](https://pbs.twimg.com/media/FqunJRDXwAMt4Ob.png)
 
 ---
 
@@ -94,7 +94,7 @@ Le PoS ƒe kpeɖodzinalawo gome la:
 
 **TEEs** nyo ŋutɔ na validator keys wɔwɔ kple wo zazã dedie.
 
-![Tendermint & PoS ƒe dedienɔnɔ](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
+![Tendermint & PoS ƒe dedienɔnɔ](https://pbs.twimg.com/media/Fqun0HEX0AAooxW.jpg)
 
 ---
 

@@ -3,7 +3,7 @@
 </a>
 
 # Financial Privacy Foundation (FPF)
-![FPF](/content-images/FPFgrants-226bdea4bb.webp)
+![FPF](https://i.ibb.co/BsZc8Qv/FPFgrants.webp)
 
 ## FPF Hakkında
 Financial Privacy Foundation (FPF), Cayman Adaları'nda kurulmuş kâr amacı gütmeyen bir kuruluştur. FPF'nin temel amacı, bireyleri ve toplulukları finansal gizlilikleri ve güvenlikleri üzerinde kontrol sahibi olmaları için eğitmek ve güçlendirmektir. FPF ayrıca kişisel gizliliğe saygı duyan adil ve eşitlikçi bir finansal sistemi teşvik etmeye de kararlıdır. FPF'nin finansal gizlilikle ilgili temel faaliyeti, bireylere ve topluluklara finansal gizliliklerini korumaları ve optimize etmeleri için bilgi, kaynak ve destek sağlamaktır. Financial Privacy Fund (FPF) şu anda FPF X FPF adlı bir hibe programı oluşturmaktadır.

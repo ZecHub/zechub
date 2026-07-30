@@ -56,7 +56,7 @@ Wo àwọn [Github repo](https://github.com/red-dev-inc/zavax-bridge/tree/main/A
 Fun awọn alaye imọ-ẹrọ diẹ sii, a gba awọn olumulo niyanju lati ṣe atunyẹwo ibi ipamọ ati iwe aṣẹ fun iṣẹ akanṣe RedBridge lati [ṣawari](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) àwọn àkànṣe ìkójọpọ, àwọn ètò ìdánwò, àti àwọn ìlànà ààbò.
 
 
-! [ì ì1 ]](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)
+! [ì ì1 ]](https://github.com/user-attachments/assets/b8c5d267-1711-458a-8a32-1df9d56fae8a)
 
 
 * Àwọn ohun tí wọ́n lè mú jáde: 

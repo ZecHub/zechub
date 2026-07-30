@@ -1,4 +1,4 @@
-# <img src="/content-images/money-business-and-finance-svgrepo-com-eac0e054bd.svg" width="24" height="24" alt="Finanzsymbol"/> Spenden privat mit Zcash empfangen
+# <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/money-business-and-finance-svgrepo-com.svg" width="24" height="24" alt="Finanzsymbol"/> Spenden privat mit Zcash empfangen
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
@@ -15,7 +15,7 @@
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Benutzersymbol"/> Für wen ist das?
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Benutzersymbol"/> Für wen ist das?
 - Kreative, die Spenden annehmen
 - Open-Source-Mitwirkende
 - Gemeinschaften, die Geld sammeln
@@ -23,7 +23,7 @@
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Warnsymbol"/> Das Problem
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Warnsymbol"/> Das Problem
 
 Die meisten Kryptowährungen legen alles offen:
 - Deinen Wallet-Kontostand
@@ -37,7 +37,7 @@ Das schafft erhebliche Risiken:
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Werkzeugsymbol"/> Warum Zcash?
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Werkzeugsymbol"/> Warum Zcash?
 
 Zcash shielded Transaktionen verbergen:
 - Absenderadresse
@@ -48,7 +48,7 @@ Dadurch kannst du Gelder empfangen, **ohne deinen finanziellen Graphen offenzule
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Werkzeugsymbol"/> Was du brauchst
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Werkzeugsymbol"/> Was du brauchst
 
 - Eine Zcash Wallet, die shielded Adressen unterstützt:
   - Zashi
@@ -57,7 +57,7 @@ Dadurch kannst du Gelder empfangen, **ohne deinen finanziellen Graphen offenzule
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Schrittsymbol"/> Schritt-für-Schritt-Anleitung
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Schrittsymbol"/> Schritt-für-Schritt-Anleitung
 
 ### Schritt 1: Eine Shielded-Adresse erstellen
 Öffne deine Wallet und generiere eine **z-Adresse**.
@@ -86,7 +86,7 @@ Ermutige Spender dazu:
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Abbruchsymbol"/> Häufige Fehler, die du vermeiden solltest
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Abbruchsymbol"/> Häufige Fehler, die du vermeiden solltest
 
 - Eine transparente (t) Adresse teilen  
 - Deine Wallet zusammen mit deiner persönlichen Identität veröffentlichen  
@@ -95,7 +95,7 @@ Ermutige Spender dazu:
 
 <br/>
 
-## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="Erledigt-Symbol"/> Ergebnis
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="Erledigt-Symbol"/> Ergebnis
 
 Du kannst:
 - Spenden privat empfangen
@@ -104,14 +104,14 @@ Du kannst:
 
 <br/>
 
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Kettenglied-Symbol"/> Verwandt
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Kettenglied-Symbol"/> Verwandt
 
 - [Privatsphäre - Shielded vs Transparent](/privacy/shielded-vs-transparent)
 - [Wallets](/wallets)
 
 <br/>
 
-## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Fortschrittssymbol"/> Fortschritt
+## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/progress-arrows-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Fortschrittssymbol"/> Fortschritt
 
 **Schritt 1 von 6**
 

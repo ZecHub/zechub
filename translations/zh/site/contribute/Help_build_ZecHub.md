@@ -27,7 +27,7 @@
 
 我们每周一都会发布当前开放赏金任务的 issues。你也可以提议赏金任务！这些任务主要发布在 ZEC Bounties。
 
-![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
+![zecbounties](https://github.com/user-attachments/assets/0e4f5109-c0c9-4a0a-8d71-8172e36b9726)
 
 
 
