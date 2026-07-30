@@ -27,7 +27,7 @@ Zcash 및 Privacy 생태계를 위한 포스터/그래픽/애니메이션 등의
 
 현재 바운티가 열려 있는 작업에 대한 이슈는 매주 월요일에 게시합니다. 바운티를 제안할 수도 있습니다! 주로 ZEC Bounties에서 확인할 수 있습니다.
 
-![zecbounties](https://github.com/user-attachments/assets/0e4f5109-c0c9-4a0a-8d71-8172e36b9726)
+![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 
 
 

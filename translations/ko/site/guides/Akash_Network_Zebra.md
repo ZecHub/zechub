@@ -62,7 +62,7 @@ AKT 잔액이 오른쪽 상단에 표시됩니다. 0이라면 먼저 지갑을 �
 
 ##### 옵션 A: SDL 파일 업로드 (추천)
 
-[![Akash에서 배포](https://raw.githubusercontent.com/akash-network/console/refs/heads/main/apps/deploy-web/public/images/deploy-with-akash-btn.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
+[![Akash에서 배포](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
 
 ##### 옵션 B: SDL 편집기 사용
 

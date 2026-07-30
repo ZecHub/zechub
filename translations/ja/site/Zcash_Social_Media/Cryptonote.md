@@ -5,7 +5,7 @@
 今日は興味深い話題です！  
 **CryptoNote** プロトコルは、強力なオンチェーンプライバシーを実現します。今日はその主な特徴と、いくつかの著名なプライバシープロジェクトでどのように実装されているかについて学びましょう。
 
-![CryptoNote intro](https://pbs.twimg.com/media/FrXr5P8WIAAvx36.jpg)
+![CryptoNote intro](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
 
 ---
 
@@ -35,7 +35,7 @@ CryptoNoteプロトコルには以下の3つの主な特徴があります：
 
 **リングサイズ** は匿名セットに大きな影響を与えます。より大きいリングほどプライバシーが向上します。
 
-![リング署名の説明](https://pbs.twimg.com/media/FrXteGHXgAANE0F.png)
+![リング署名の説明](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
 
 **Zcashとの比較**:  
 Zcashの匿名セットは、特定されたシールドプール内で*これまでに*行われた取引の総数（通常のCryptoNoteリングサイズよりはるかに大きい）です。
@@ -48,7 +48,7 @@ Zcashの匿名セットは、特定されたシールドプール内で*これ�
 
 送信者だけでなく、リングCTは**送信者と受取人間の取引金額も曖昧化**します。
 
-![リングCT図解](https://pbs.twimg.com/media/FrXuivgWYAAze7B.png)
+![リングCT図解](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
 
 使用される技術:
 - 楕円曲線暗号
@@ -59,7 +59,7 @@ Zcashの匿名セットは、特定されたシールドプール内で*これ�
 
 **ステルスアドレス**も受取人に一時的な使用アドレスを追加します。
 
-![ステルスアドレス + 証明](https://pbs.twimg.com/media/FrXut5aWAAMhuRb.jpg)
+![ステルスアドレス + 証明](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
 
 ---
 
@@ -74,7 +74,7 @@ CryptoNoteはASICに耐性を持つことで、より公平なマイニングシ
 2. スクラッチパッドに対して多数の読み書き操作を行う
 3. 全体のスクラッチパッドをハッシュし、最終的な値を生成
 
-![CryptoNightマイニング](https://pbs.twimg.com/media/FrXvNs3XsAA37LG.jpg)
+![CryptoNightマイニング](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
 
 （注: Moneroはその後CryptoNightから他のアルゴリズムに移行しました。）
 
@@ -86,7 +86,7 @@ CryptoNoteはASICに耐性を持つことで、より公平なマイニングシ
 
 これにより、時間経過とともに発行曲線がずっと滑らかになります。
 
-![動的発行曲線](https://pbs.twimg.com/media/FrXv8wpXoAEjUxW.png)
+![動的発行曲線](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
 
 **Zcashとの関連**:  
 Zcash開発者たちは将来的に、より滑らかな発行曲線を実装する可能性について議論しており、その方法として「Zcash後継基金（Zcash Posterity Fund）」が検討されています。

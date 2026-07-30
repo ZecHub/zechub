@@ -10,36 +10,36 @@
 ### 2. 国とネットワークを選択
 左上までスクロールして国を選択し、次に携帯電話の空き容量を選択し、チャージしたいネットワーク（例: MTN）を選びましょう。
 
-![ステップ2 - 国とネットワークの選択](https://cdn-images-1.medium.com/max/1200/0*qvB7ZCWaVWa-C2d8)
+![ステップ2 - 国とネットワークの選択](/content-images/0-qvB7ZCWaVWa-C2d8-db0d4ea372.webp)
 
 ### 3. 詳細を入力して購入
 正しい情報を入力し、「Buy Now（今すぐ購入）」ボタンをクリックしてください。カートを開いて注文内容を確認し、続けて$ZECで購入を確定してください。
 
-![ステップ3 - 購入手続き画面](https://cdn-images-1.medium.com/max/1200/0*ikF-ooBc9W7olfNt)
+![ステップ3 - 購入手続き画面](/content-images/0-ikF-ooBc9W7olfNt-7a4584edda.webp)
 
 ### 4. 支払い詳細
 $ZECの等価額が提示され、資金を送金するための透明なアドレスも提供されます。
 
-![ステップ4 - ZEC支払い詳細](https://cdn-images-1.medium.com/max/1200/0*6_YhAhQnsLbrMvHN)
+![ステップ4 - ZEC支払い詳細](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
 
 ### 5. 支払いを送信
 金額とアドレスを慎重にコピー＆ペーストしてください。メモ欄には、返金がある場合のためにYWalletのアドレスを入力してください。
 
-![ステップ5 - ZECの送信](https://cdn-images-1.medium.com/max/1200/0*DNnpyemsKcW-k-u-)
+![ステップ5 - ZECの送信](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
 
 ### 6. 処理中
 資金が送金された後、数分以内にあなたのリクエストが処理されます。
 
-![ステップ6 - 処理中の画面](https://cdn-images-1.medium.com/max/1200/0*LgXuUVLVecqrUW5G)
+![ステップ6 - 処理中の画面](/content-images/0-LgXuUVLVecqrUW5G-a894c7b2dd.webp)
 
 ### 7. 確認
 Hey… 私の携帯に空き容量が追加されました！支払い処理中にメールアドレスを確認しておくと、取引が完了した際にメールで通知されます。
 
-![ステップ7 - 成功したチャージ](https://cdn-images-1.medium.com/max/1200/0*TJKIcqznQ4Y8_jgo)
+![ステップ7 - 成功したチャージ](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
 
 ---
 
-![追加のスクリーンショット](https://cdn-images-1.medium.com/max/1200/0*Jn7tD9lb2xtMBpIw)
+![追加のスクリーンショット](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)
 
 ### ZECを支払える他の場所
 

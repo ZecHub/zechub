@@ -47,13 +47,13 @@ Halo надає користувачам дві важливі гарантії 
 Halo 2 — це високопродуктивна реалізація zk-SNARK, написана на Rust, яка усуває потребу в довіреному налаштуванні та закладає основу для масштабованості в Zcash. 
 
 <a href="">
-    <img src="https://electriccoin.co/wp-content/uploads/2020/09/Halo-puzzle-03-1024x517.jpg" alt="" width="500" height="300"/>
+    <img src="/content-images/Halo-puzzle-03-1024x517-e034023d10.webp" alt="" width="500" height="300"/>
 </a>
 
 Вона включає узагальнення нашого підходу під назвою **accumulation scheme**. Ця нова формалізація показує, як насправді працює наша техніка nested amortization: додаючи докази до об’єкта під назвою **accumulator,** де докази «міркують» про попередній стан accumulator, ми можемо перевірити, що всі попередні докази були правильними (за індукцією), просто перевіривши поточний стан accumulator.
 
 <a href="">
-    <img src="https://i.imgur.com/l4HrYgE.png" alt="" width="500" height="300"/>
+    <img src="/content-images/l4HrYgE-1ea7bc32f7.webp" alt="" width="500" height="300"/>
 </a>
 
 

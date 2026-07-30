@@ -4,7 +4,7 @@
 
 
 # Àkọlé àwòrán Zcash Podcast lórí ẹ̀rọ-ayélujára Digital Cash Network
-[Àwòrán ojú-ewé_2023-01-22_21-50-14](https://user-images.githubusercontent.com/81990132/213973803-b0629c92-08d4-459b-99f1-594854a7db3a.png)
+[Àwòrán ojú-ewé_2023-01-22_21-50-14](/content-images/213973803-b0629c92-08d4-459b-99f1-594854-6272d02af6.webp)
 
 Zcash Podcast gba akoonu bii awọn imudojuiwọn, awọn ijinle jinlẹ koko-ọrọ kan pato, ati bẹbẹ lọ fun agbegbe Zcash ti o wa tẹlẹ lati jẹ ati pin, bakanna bi fifun aye fun awọn alabapin ikanni Nẹtiwọọki Owo oni-nọmba ti tẹlẹ lati di mimọ jinlẹ pẹlu Zcash. 
 

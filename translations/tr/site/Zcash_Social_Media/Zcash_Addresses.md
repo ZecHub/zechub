@@ -15,7 +15,7 @@ Bugün bunları öğrenecek ve #Zcash ekosistemindeki yeni özelliklerden biri o
 
 **Shielded Transaction**, Sapling/Orchard havuzları için kodlanmış adresler içeren her türlü işlemi ifade eder.
 
-![Transparent vs Shielded intro](https://pbs.twimg.com/media/FpmW00HWIAIZpQD.jpg)
+![Transparent vs Shielded intro](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
 
 **Unified Addresses (UA'lar)**, shielded veya transparent işlemleri tek bir adres altında **birleştirmek** için tasarlanmıştır.
 
@@ -31,9 +31,9 @@ Kullanımda olan 3 adres türü vardır:
 
 Karakter sayısı (ve dolayısıyla QR kod boyutu) her türde artar.
 
-![Address types comparison](https://pbs.twimg.com/media/FpmXe5bXsAEFeLY.png)
+![Address types comparison](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
 
-![QR code size comparison](https://pbs.twimg.com/media/FpmXmDwXoAIWxov.png)
+![QR code size comparison](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
 
 ---
 
@@ -50,7 +50,7 @@ Bir Unified Address'in raw encoding'i, alıcıların encoding'lerinin (typecode,
 
 **Önemli**: Her UA içinde **en az bir shielded ödeme adresi** bulunmalıdır. (Sprout adresleri, Canopy yükseltmesinden sonra artık desteklenmiyor.)
 
-![UA encoding structure](https://pbs.twimg.com/media/FpmYW1ZXgAAvALT.png)
+![UA encoding structure](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
 
 Tam spesifikasyon: **[ZIP-316: Unified Addresses](https://zips.z.cash/zip-0316)**
 

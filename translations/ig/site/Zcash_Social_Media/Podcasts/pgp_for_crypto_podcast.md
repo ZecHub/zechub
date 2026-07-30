@@ -4,7 +4,7 @@
 
 
 # PGP* maka Crypto Podcast
-! [banner pgp](https://user-images.githubusercontent.com/81990132/221758326-06cea3f5-4c9e-4466-b9ee-73854628a6aa.png)
+! [banner pgp](/content-images/221758326-06cea3f5-4c9e-4466-b9ee-738546-01f88aec39.webp)
 
 Nabata na PGP* (Pretty Good Policy) maka Crypto Podcast, "ihe omume nke Electric Coin Co.!
 

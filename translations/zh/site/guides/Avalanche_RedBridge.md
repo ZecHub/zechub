@@ -56,7 +56,7 @@ RedBridge 支持广泛的用例，包括跨链去中心化金融（DeFi）、私
 如需更多技术细节，建议用户查看 RedBridge 项目的仓库和文档，以[了解](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)集成细节、测试框架和安全协议。
 
 
-![img1](https://github.com/user-attachments/assets/b8c5d267-1711-458a-8a32-1df9d56fae8a)
+![img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)
 
 
 * 交付成果：

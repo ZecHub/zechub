@@ -93,9 +93,9 @@ Sɛ́ anka Pepper Sync bɛsan ahwehwɛ blockchain no mu asinasin akɛse a ɛyɛ 
 7. Finish - Wallet ayɛ krado sɛ wobɛdi ho dwuma.
 
 ### NKYERƐKYERƐMU A ƐFA AKWANKYERƐ HO:
-- Detailed Flow - Kyerɛ adeyɛ no nyinaa. ![Nsuo a Ɛkɔ Akyiri](https://github.com/user-attachments/assets/119c13ec-76be-42bd-b558-762d09275a1b)
+- Detailed Flow - Kyerɛ adeyɛ no nyinaa. ![Nsuo a Ɛkɔ Akyiri](/content-images/119c13ec-76be-42bd-b558-762d09275a1b-8ba7a18302.webp)
 
-- Simplified Flow - Ntɛmntɛm hwɛ ma wɔn a wɔde di dwuma da biara da. ![Nsuo a Wɔayɛ no Mmerewa](https://github.com/user-attachments/assets/9b612cbd-f24d-4472-9b87-0f2c908bb368)
+- Simplified Flow - Ntɛmntɛm hwɛ ma wɔn a wɔde di dwuma da biara da. ![Nsuo a Wɔayɛ no Mmerewa](/content-images/9b612cbd-f24d-4472-9b87-0f2c908bb368-eb34a722a2.webp)
 
 ---
 

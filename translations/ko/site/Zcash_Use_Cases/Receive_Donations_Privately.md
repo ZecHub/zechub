@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/money-business-and-finance-svgrepo-com.svg" width="24" height="24" alt="finance icon"/> Zcash를 사용하여 기부금을 비공개로 수령하기
+# <img src="/content-images/money-business-and-finance-svgrepo-com-eac0e054bd.svg" width="24" height="24" alt="finance icon"/> Zcash를 사용하여 기부금을 비공개로 수령하기
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
@@ -14,7 +14,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> 이 가이드는 누구에게 적합한가요?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> 이 가이드는 누구에게 적합한가요?
 - 기부금을 받는 창작자
 - 오픈소스 기여자
 - 자금을 모집하는 커뮤니티
@@ -22,7 +22,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> 문제점
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> 문제점
 
 대부분의 암호화폐는 모든 정보를 노출합니다:
 - 지갑 잔액
@@ -36,7 +36,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Zcash의 장점
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Zcash의 장점
 
 Zcash 보호된 거래는 다음을 숨깁니다:
 - 송신자 주소
@@ -47,7 +47,7 @@ Zcash 보호된 거래는 다음을 숨깁니다:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> 필요한 사항
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> 필요한 사항
 
 - 보호된 주소를 지원하는 Zcash 지갑:
   - Zashi
@@ -56,7 +56,7 @@ Zcash 보호된 거래는 다음을 숨깁니다:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> 단계별 가이드
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> 단계별 가이드
 
 ### 1단계: 보호된 주소 생성
 지갑을 열고 **z주소**를 생성합니다.
@@ -84,7 +84,7 @@ Zcash 보호된 거래는 다음을 숨깁니다:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> 피해야 할 일반적인 실수
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> 피해야 할 일반적인 실수
 
 - 투명한 (t) 주소 공유
 - 개인 신분과 함께 지갑을 게시
@@ -93,7 +93,7 @@ Zcash 보호된 거래는 다음을 숨깁니다:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> 결과
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> 결과
 
 이제 다음과 같이 할 수 있습니다:
 - 기부금을 비공개로 받기
@@ -102,14 +102,14 @@ Zcash 보호된 거래는 다음을 숨깁니다:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> 관련 자료
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> 관련 자료
 
 - [프라이버시 - 보호된 vs 투명한](/privacy/shielded-vs-transparent)
 - [지갑](/wallets)
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/progress-arrows-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> 진행 상황
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> 진행 상황
 
 **6단계 중 1단계**
 

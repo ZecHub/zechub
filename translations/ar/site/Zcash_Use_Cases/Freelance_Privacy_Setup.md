@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/amochuko/zechub/68acdb6f311bff85fe8ded7b47b2e362d7712474/assets/icons/programmer-software-engineer-coder-software-developer-svgrepo-com.svg" width="24" height="24" alt="أيقونة مستقل"/> إعداد الخصوصية للمستقلين باستخدام Zcash
+# <img src="/content-images/programmer-software-engineer-coder-softw-bce5a0cb5b.svg" width="24" height="24" alt="أيقونة مستقل"/> إعداد الخصوصية للمستقلين باستخدام Zcash
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
@@ -15,7 +15,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة مستخدم"/> لمن هذا؟
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة مستخدم"/> لمن هذا؟
 
 - المستقلون والمتعاقدون
 - العاملون عن بُعد الذين يتقاضون أجورهم بالعملات الرقمية
@@ -23,7 +23,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة تحذير"/> المشكلة
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة تحذير"/> المشكلة
 
 المستقلون الذين يستخدمون العملات الرقمية العامة يكشفون:
 - دخلهم
@@ -38,7 +38,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة صندوق الأدوات"/> لماذا Zcash؟
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة صندوق الأدوات"/> لماذا Zcash؟
 
 يتيح لك Zcash ما يلي:
 - استلام المدفوعات بشكل خاص
@@ -47,7 +47,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة صندوق الأدوات"/> ما الذي تحتاجه
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة صندوق الأدوات"/> ما الذي تحتاجه
 
 - محفظة Zcash تدعم المذكرات
 - فهم أساسي للعناوين المحمية
@@ -55,7 +55,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة خطوة"/> دليل خطوة بخطوة
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة خطوة"/> دليل خطوة بخطوة
 
 ### الخطوة 1: أنشئ عنوانًا لاستلام المدفوعات
 
@@ -89,7 +89,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة إلغاء"/> أخطاء شائعة يجب تجنبها
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة إلغاء"/> أخطاء شائعة يجب تجنبها
 
 - استخدام العناوين الشفافة لاستلام المدفوعات  
 - إعادة استخدام العنوان نفسه مع جميع العملاء  
@@ -99,7 +99,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة تم"/> النتيجة
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة تم"/> النتيجة
 
 يمكنك:
 - استلام المدفوعات بشكل خاص
@@ -108,13 +108,13 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة روابط السلسلة"/> ذو صلة
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة روابط السلسلة"/> ذو صلة
 
 - [المحافظ](/wallets)
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/progress-arrows-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة التقدم"/> التقدم
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة التقدم"/> التقدم
 
 **الخطوة 3 من 6**
 

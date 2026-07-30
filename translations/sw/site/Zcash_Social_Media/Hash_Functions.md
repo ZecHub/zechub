@@ -20,7 +20,7 @@ Hash Kazi kuchukua pembejeo ya urefu wowote na kuzalisha pato la urefu wa kudumu
 - ** Matokeo ya pato ** = Hash Value 
 
 
-! [Hash kazi mchoro](https://pbs.twimg.com/media/Fn_NkFHXgAEtgse.png)
+! [Hash kazi mchoro](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
 
 ### Jaribu wewe mwenyewe!
 
@@ -58,12 +58,12 @@ Kuna madarasa kadhaa ya Hash Kazi. Baadhi ya mifano:
 #### 1. Uadilifu Hashing (Data Uadilifu Checks)
 Data integrity checks are an example of "Integrity Hashing". They are used to generate checksums on data files and provide assurance of correctness to a user.
 
-![Uadilifu Hashing mfano](https://pbs.twimg.com/media/Fn_Or0MWIAI6sgx.png)
+![Uadilifu Hashing mfano](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
 
 #### 2. Miti ya Merkle (Miti ya Hashi)
 Mti wa **hash** au **Merkle mti** unajumuisha matawi na nodes za majani ambazo zimewekwa alama na hash ya cryptographic ya block ya data.
 
-[Merkle mti mchoro](https://pbs.twimg.com/media/Fn_O7ndWIAY5PA-.jpg)
+[Merkle mti mchoro](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
 
 Merkle miti ni mfano wa ** cryptographic ahadi mpango **. mti Mizizi ni kuonekana kama ahadi na majani nodes kuthibitika kuwa sehemu ya ahadi ya awali.
 
@@ -75,7 +75,7 @@ Katika Zcash **Sapling** & **Orchard** mifereji ulinzi, **Kumbuka Commitment Mti
 #### 4. saini Hash (Bitcoin-style vitalu)
 **SHA256** is an example of a "Signature hash" used to enforce immutability of each block in the Bitcoin chain. Miners use the hash of previous block + A hash of all transactions in the current block (hashMerkleRoot) + Timestamp + random value / network difficulty for new blocks.
 
-[SHA256 block mchoro](https://pbs.twimg.com/media/Fn_PaVZXoAApHPf.jpg)
+[SHA256 block mchoro](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
 
 #### 5. Equihash (Zcash Mining)
 **Equihash** ni hashing algorithm kutumika katika madini Zcash. Pia ni kutumika na mitandao kama vile Komodo & Horizen.

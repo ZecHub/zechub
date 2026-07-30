@@ -1,7 +1,7 @@
 # Provas de Conhecimento Zero: Provando que Você Está Certo Sem Dizer Por Quê
 ##### Pesquisa original de [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![texto alternativo](image-23.png)
+![texto alternativo](/content-images/image-23-71534bece9.webp)
 
 ### A cortina que permite ao mundo verificar o que ele nunca pode ver
 
@@ -40,7 +40,7 @@ Essa história da caverna demonstra discretamente as **três garantias** que tod
 
 ## 3. As três garantias
 
-![texto alternativo](image-24.png)
+![texto alternativo](/content-images/image-24-b559d31849.webp)
 
 | Garantia | Na história da caverna | No Zcash |
 |---|---|---|
@@ -62,7 +62,7 @@ A ponte é uma ideia que conecta toda esta série:
 
 Pense no circuito como uma lista de restrições aritméticas que são *todas satisfeitas apenas se a afirmação for verdadeira.* As entradas privadas que fazem tudo bater, sua nota, sua chave, o caminho de Merkle, são chamadas de **testemunha**.
 
-![texto alternativo](image-25.png)
+![texto alternativo](/content-images/image-25-2479377e43.webp)
 
 É por isso que passamos o Artigo 1 em campos finitos e o Artigo 3 em hashes amigáveis para ZK: o circuito fala a linguagem da aritmética de campos, então toda operação dentro da afirmação (incluindo hashing e a subida na árvore de Merkle do Artigo 4) precisa ser expressa dessa forma. Quanto mais barato for expressar cada operação, menor e mais rápida será a prova.
 
@@ -90,7 +90,7 @@ Não existe almoço grátis. Muitos SNARKs precisam de uma **configuração** ú
 
 Esse segredo residual é apelidado de **lixo tóxico.** Para descartá-lo com segurança, o Zcash realizou elaboradas **cerimônias multipartes** nas quais muitos participantes independentes contribuíram com aleatoriedade; contanto que *ao menos um* deles tenha destruído sua parte honestamente, o lixo tóxico é irrecuperável.
 
-![texto alternativo](image-26.png)
+![texto alternativo](/content-images/image-26-cdad6625cd.webp)
 
 Sistemas mais novos eliminam completamente essa exigência, e essa é uma das maiores razões pelas quais o Zcash evoluiu seu sistema de provas ao longo do tempo.
 

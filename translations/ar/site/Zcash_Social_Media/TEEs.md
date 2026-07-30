@@ -5,7 +5,7 @@
 تعود سلسلة من الصفر إلى المعرفة الصفرية بموضوع جديد!  
 نستكشف هذا الأسبوع **بيئات التنفيذ الموثوقة (TEEs)** — كيف تُستخدم في عملات الخصوصية وتطبيقات البلوكتشين الأخرى.
 
-![مقدمة عن بيئات التنفيذ الموثوقة](https://pbs.twimg.com/media/Fquj-h2WcAIgSnL.jpg)
+![مقدمة عن بيئات التنفيذ الموثوقة](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
 
 ---
 
@@ -31,7 +31,7 @@
 
 وهذا يختلف عن Zcash، الذي يستخدم **إثباتات المعرفة الصفرية** من أجل الخصوصية. ففي Zcash، يتم بث المعاملات المحمية والتحقق منها علنًا من دون الكشف عن أي بيانات إضافية للشبكة. وتتبع Zcash Shielded Assets المبدأ نفسه.
 
-![مخطط TEE في Secret Network](https://pbs.twimg.com/media/FqulPjNX0AEfjRp.png)
+![مخطط TEE في Secret Network](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
 
 للاطلاع على شرح مفصل لكيفية تطبيق TEEs في Secret Network، اقرأ هذا المقال الممتاز بقلم @l_woetzel:  
 https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerability-33ca94b6df38
@@ -55,11 +55,11 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 - أن التطبيق لم يتم العبث به  
 - أنه يُنفَّذ بشكل آمن داخل جيب Intel SGX آمن
 
-![شرح Remote Attestation](https://pbs.twimg.com/media/FqumRjoWwAAeT-M.png)
+![شرح Remote Attestation](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
 
 تحتوي الجيوب الآمنة أيضًا على مفاتيح توقيع ومصادقة خاصة لا يمكن الوصول إليها من الخارج.
 
-![حماية مفاتيح الجيب الآمن](https://pbs.twimg.com/media/Fqumv83XoAQq-MO.png)
+![حماية مفاتيح الجيب الآمن](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
 
 ---
 
@@ -69,7 +69,7 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 
 يقوم **ختم البيانات** بتشفير البيانات داخل الجيب الآمن باستخدام مفتاح مشتق من وحدة المعالجة المركزية. ولا يمكن فك ختم الكتلة المشفرة إلا على **النظام نفسه**.
 
-![مخطط ختم البيانات](https://pbs.twimg.com/media/FqunBwyWYAA-TR3.jpg)
+![مخطط ختم البيانات](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
 
 ---
 
@@ -79,7 +79,7 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 
 تدخل البيانات المشفرة إلى TEE مع العقد الذكي. ثم يتم فك تشفيرها ومعالجتها وإعادة تشفيرها قبل مغادرة الجيب الآمن.
 
-![تدفق TEE في Oasis Network](https://pbs.twimg.com/media/FqunJRDXwAMt4Ob.png)
+![تدفق TEE في Oasis Network](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
 
 ---
 
@@ -94,7 +94,7 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 
 تُعد **TEEs** مثالية لتوليد مفاتيح المُصدِّقين واستخدامها بشكل آمن.
 
-![أمان Tendermint وPoS](https://pbs.twimg.com/media/Fqun0HEX0AAooxW.jpg)
+![أمان Tendermint وPoS](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
 
 ---
 

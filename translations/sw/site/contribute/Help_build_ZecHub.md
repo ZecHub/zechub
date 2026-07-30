@@ -27,7 +27,7 @@ Ripoti ya mende
 
 Sisi kuchapisha masuala kwa ajili ya kazi ambayo sisi sasa kuwa na zawadi wazi kila Jumatatu. Unaweza kupendekeza zawadi pia! Hasa hizi zinapatikana katika ZEC Bounties.
 
-[Zekbounties]](https://github.com/user-attachments/assets/0e4f5109-c0c9-4a0a-8d71-8172e36b9726)
+[Zekbounties]](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 
 
 

@@ -55,12 +55,12 @@ Flyp.me هي منصة تداول عملات مشفرة لا تتطلب التس�
 تدعم هذه المنصات السحوبات الشفافة. وهذا يعني أنه عند سحب ZEC إلى محفظتك، تحتاج إلى إرساله إلى عنوانك الشفاف، أي عنوان ZEC العام الخاص بك. 
 انقر [هنا](https://zechub.wiki/using-zcash/non-custodial-exchanges) لمزيد من التفاصيل.
 
-![منصات تداول لامركزية](https://github.com/user-attachments/assets/bfe2e9cf-2def-4593-b790-152e14b23da3)
+![منصات تداول لامركزية](/content-images/bfe2e9cf-2def-4593-b790-152e14b23da3-f94f97c7e6.webp)
 
 
 عند القيام بذلك، نوصي باستخدام إحدى [المحافظ](https://zechub.wiki/wallets) التالية. 
 
-![الهاتف المحمول](https://github.com/user-attachments/assets/8b7618f5-dec6-4e6b-9804-db75be5c1e2f)
+![الهاتف المحمول](/content-images/8b7618f5-dec6-4e6b-9804-db75be5c1e2f-14fa53d3bd.webp)
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">

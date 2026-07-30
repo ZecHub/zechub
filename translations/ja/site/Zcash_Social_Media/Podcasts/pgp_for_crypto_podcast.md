@@ -3,7 +3,7 @@
 </a>
 
 # クリプト用PGP* ポッドキャスト
-![bannerpgp](https://user-images.githubusercontent.com/81990132/221758326-06cea3f5-4c9e-4466-b9ee-73854628a6aa.png)
+![bannerpgp](/content-images/221758326-06cea3f5-4c9e-4466-b9ee-738546-01f88aec39.webp)
 
 Electric Coin Co.による「PGP* (Pretty Good Policy) for Crypto ポッドキャスト」へようこそ！
 

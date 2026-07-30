@@ -26,7 +26,7 @@ Iji malite, họrọ ebe nchekwa Git ịchọrọ ịnabata & mepụta ya:
 
 Gbaa Iwu: git clone https://github.com/zechub/zechub”
 
-![https://i.ibb.co/HxFX37b/Screenshot-from-2023-05-20-14-14-46.png](https://i.ibb.co/HxFX37b/Screenshot-from-2023-05-20-14-14-46.png)
+![/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
 
 Ugbu a, iji nweta ya njikere ka cloned site IPFS.
 
@@ -34,7 +34,7 @@ cd zechub git update-server-info
 
 Wepụ ihe Gits:
 
-![](https://i.ibb.co/25RwyWz/image-2024-04-20-175848513.png)
+![](/content-images/image-2024-04-20-175848513-2ceb90dd7b.webp)
 
 Ime nke a ga-ekwe ka IPFS wepụ ihe ndị ahụ ma ọ bụrụ na ị melite ebe nchekwa Git mgbe e mesịrị.
 
@@ -48,11 +48,11 @@ $ pwd
 
 $ ipfs gbakwunye -r 
 
-![https://i.ibb.co/LJgK1q3/Screenshot-from-2023-05-20-14-22-38.png](https://i.ibb.co/LJgK1q3/Screenshot-from-2023-05-20-14-22-38.png)
+![/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp](/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp)
 
 Ihe si na CID pụta: Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
 
-![https://i.ibb.co/GvhCLwn/Screenshot-from-2023-05-20-14-26-34.png](https://i.ibb.co/GvhCLwn/Screenshot-from-2023-05-20-14-26-34.png)
+![/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
 
 Ọmarịcha! Ugbu a, a na-ebugote ebe nchekwa gị na netwọkụ.
 

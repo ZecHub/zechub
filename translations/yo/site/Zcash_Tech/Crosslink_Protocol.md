@@ -6,7 +6,7 @@
 
 Crosslink Protocol jẹ idagbasoke pataki ninu itankalẹ Zcash, ti o n ṣakoso rẹ si ọna ** Hybrid Proof-of-Stake (PoS) ** ati ** Proof of Work (PoW) ** awoṣe.
 
-[Àwòrán](https://github.com/user-attachments/assets/a2ffb19d-e570-4723-b669-a66e14fc6b71)
+[Àwòrán](/content-images/a2ffb19d-e570-4723-b669-a66e14fc6b71-a727c958de.webp)
 
 This transition aligns with global trends in blockchain innovation, where projects are shifting to environmentally sustainable and decentralized mechanisms. Crosslinks dual consensus model ensures Zcash maintains its strong cryptographic privacy guarantees while evolving to meet contemporary challenges.
 
@@ -26,7 +26,7 @@ The Crosslink protocol is a proposed design for Zcash hybrid Proof-of-Work/Proof
 
 The implementation plan includes a roadmap with estimated engineering costs for integrating Crosslink 2* into Zcash's Zebra client. this phased deployment focuses on balancing stakeholder incentives, reducing disruption, and aligning with Zcash goals for scalability, usability, and decentralization. growing confidence in the protocol's robust security properties further solidifies its potential as a key step in Zcash evolution. by addressing energy efficiency and enhancing consensus mechanisms, Crosslank offers a forward looking solution to evolving blockchain challenges. fún ìsọfúnni síwájú sí i, tọka sí [ìpamọ GitHub]](https://github.com/ShieldedLabs/crosslink-deployment) àti [Àjọ Ìgbìmọ̀ Zcash](https://forum.zcashcommunity.com).
 
-[Àwòrán](https://github.com/user-attachments/assets/b34afda4-fe33-448f-b0dd-279fd6cef1f5)
+[Àwòrán](/content-images/b34afda4-fe33-448f-b0dd-279fd6cef1f5-73f58cdcc6.webp)
 
 
 #### **Afojúsùn àti Ìlépa Crosslink**
@@ -57,7 +57,7 @@ The Crosslink protocol aims to provide two types of ledgers for Zcash: a **final
 
 The lower-latency ledger extends the finalized ledger by no more than *L* blocks. It ensures rollback safety under the blockchain protocol alone and maintains latency and security no worse than the existing Zcash model. In the streamlined Crosslink 2* design, the lower latency ledger simplifies development and adoption by functioning as a PoW chain.
 
-[Àwòrán](https://github.com/user-attachments/assets/fd039664-4852-4fb0-8c88-0615f1ed116e)
+[Àwòrán](/content-images/fd039664-4852-4fb0-8c88-0615f1ed116e-41459b81dc.webp)
 
 
 ### Ìmúṣẹ tí ó ní ààlà àti Ọ̀nà Ààbò

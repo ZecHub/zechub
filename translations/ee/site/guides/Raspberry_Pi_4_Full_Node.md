@@ -8,7 +8,7 @@
 
 Taɖodzinu si le mɔfiame sia ŋue nye be wòakpe ɖe eŋu woafia nu Zcashers siwo di be yewoawɔ node blibo le Raspberry Pi 4 si me ŋusẽ boo mele o dzi.
 
-<img src="https://user-images.githubusercontent.com/81990132/197372541-dcd886ab-a3d0-4614-b490-0294ddf3ffae.png" alt="zcashd" width="700" height="700"/>
+<img src="/content-images/197372541-dcd886ab-a3d0-4614-b490-0294dd-d45b1cd4ba.webp" alt="zcashd" width="700" height="700"/>
 
 
 ## Video
@@ -76,12 +76,12 @@ Le kpɔɖeŋu me le linux me la, àŋlɔ nya siawo le eƒe kɔpiwɔwɔ vɔ megbe
 
 `rpi-imager`
 
-<img src="https://user-images.githubusercontent.com/81990132/197372069-fb9f7417-d320-42cf-ad65-38d630512985.png" alt="rpi imager" width="400" height="400"/>
+<img src="/content-images/197372069-fb9f7417-d320-42cf-ad65-38d630-7d85096e88.webp" alt="rpi imager" width="400" height="400"/>
 
 Tia OS kple Nudzraɖoƒe ƒe Mɔ̃. Esi wònye Raspberry Pi 4 ƒewo nye 64 bit ta la, mekafui be nàtia "Other general-purpose OS" => Ubuntu => Ubuntu Server 24.04.3 LTS (64 bit). Zi Storage dzi eye nàtia wò SD Card. Hafi nàŋlɔ nu ɖe ​​SD card dzi la, zi Advanced options dzi to gear ƒe dzesi ɣi si te ɖe ete le ɖusime la dzi.
 
 
-<img src="https://user-images.githubusercontent.com/81990132/197372159-1169c6f4-f6aa-4f44-9679-fe7aa542bbd3.png" alt="gear" width="200" height="200"/>
+<img src="/content-images/197372159-1169c6f4-f6aa-4f44-9679-fe7aa5-fe6c968644.webp" alt="gear" width="200" height="200"/>
 
 
 
@@ -94,7 +94,7 @@ Tia OS kple Nudzraɖoƒe ƒe Mɔ̃. Esi wònye Raspberry Pi 4 ƒewo nye 64 bit t
 * Enable and configure your wi-fi if needed
 ```
  
-<img src="https://user-images.githubusercontent.com/81990132/197372149-8b85bfac-e473-4808-87cd-f27f15d05de8.png" alt="advanced" width="400" height="400"/>
+<img src="/content-images/197372149-8b85bfac-e473-4808-87cd-f27f15-269c28f6c3.webp" alt="advanced" width="400" height="400"/>
 
  
 Ne èwu enu vɔ la, ƒo Ŋlɔ
@@ -135,14 +135,14 @@ Esia aɖe mɔ̃ siwo katã do ƒome kple wò aƒeme network la afia, si wòle be
 ```
 
 
-  <img src="https://user-images.githubusercontent.com/81990132/197372846-e1279388-eaaa-4fbb-8d5d-f9928cb45195.png" alt="sshLogin" width="400" height="400"/>
+  <img src="/content-images/197372846-e1279388-eaaa-4fbb-8d5d-f9928c-caf89ea305.webp" alt="sshLogin" width="400" height="400"/>
        
 
 Ne èdi be yeanya Raspberry Pi ƒe tɔtrɔ si zãm nèle la, te sedede sia kpɔ:
 
      `cat /sys/firmware/devicetree/base/model ; echo`
 
-  <img src="https://user-images.githubusercontent.com/81990132/197689888-367c8eb3-2667-4c8c-85b3-44d46afe07a7.png" alt="which" width="700" height="400"/>
+  <img src="/content-images/197689888-367c8eb3-2667-4c8c-85b3-44d46a-ef72475028.webp" alt="which" width="700" height="400"/>
 
          
 
@@ -216,7 +216,7 @@ lsblk will display all drives connected. Most will be of the format sda
 id will show your user and group id's.
 ```
           
-<img src="https://user-images.githubusercontent.com/81990132/197372643-abef88fd-9177-4bf9-abda-3c221188cd10.png" alt="lsblk" width="400" height="400"/>
+<img src="/content-images/197372643-abef88fd-9177-4bf9-abda-3c2211-e354e8ff47.webp" alt="lsblk" width="400" height="400"/>
 
 
           
@@ -239,7 +239,7 @@ tar - xvzf chainstate.tar.gz
 
 Ðoɖo /nyadzɔdzɔgblɔmɔnuwo/siwo woate ŋu atsɔ adzoeHD/.zcash/zcash.conf
 
-<img src="https://user-images.githubusercontent.com/81990132/197373699-18cc2c9f-b47d-44e9-9e6b-4c5cccf78d9e.png" alt="zconf" width="700" height="400"/>
+<img src="/content-images/197373699-18cc2c9f-b47d-44e9-9e6b-4c5ccc-3dac42f3c0.webp" alt="zconf" width="700" height="400"/>
 
 
  
@@ -278,7 +278,7 @@ Dzra ɖo be woazãe!
 
     `zcash-cli getblockchaininfo`
 
-  <img src="https://user-images.githubusercontent.com/81990132/197373098-672aa228-d180-47ea-8a7c-c58dc3882426.png" alt="getblockchaininfo" width="400" height="400"/>
+  <img src="/content-images/197373098-672aa228-d180-47ea-8a7c-c58dc3-bf85ac08fb.webp" alt="getblockchaininfo" width="400" height="400"/>
 
 
 
@@ -292,7 +292,7 @@ Aleke nèwɔna léa ŋku ɖe wò node ƒe nɔnɔme ŋu?
 
      `tail -n 500 <path to>/.zcash/debug.log`
 
-  <img src="https://user-images.githubusercontent.com/81990132/197684416-9a083de4-4a62-4fe8-9cab-798781b38cd2.png" alt="status" width="700" height="400"/>
+  <img src="/content-images/197684416-9a083de4-4a62-4fe8-9cab-798781-c1755f3f91.webp" alt="status" width="700" height="400"/>
 
 
   
@@ -301,13 +301,13 @@ Be nàkpɔ kɔkɔme si li fifia tso wò log me
 
      `tail -n 10 <path to>/.zcash/debug.log | grep -o  'height=[^b]*'`
 
-  <img src="https://user-images.githubusercontent.com/81990132/199630447-6a6cd491-0cb3-47f8-95f0-45f6b6555870.png" alt="logHeight" width="500" height="400"/>
+  <img src="/content-images/199630447-6a6cd491-0cb3-47f8-95f0-45f6b6-dc7b671d5a.webp" alt="logHeight" width="500" height="400"/>
 
 
      
      `zcash-cli getinfo`
   
-<img src="https://user-images.githubusercontent.com/81990132/199646508-132da0eb-899e-49a6-8b31-e9011e159700.png" alt="getInfo" width="400" height="400"/>
+<img src="/content-images/199646508-132da0eb-899e-49a6-8b31-e9011e-839cbe5c04.webp" alt="getInfo" width="400" height="400"/>
 
      
      
@@ -317,7 +317,7 @@ Aleke nèwɔna ɖoa nuŋlɔɖi aɖe ɖa? Abe alesi wokpɔe [le afisia ene](https
           
 Wɔ memo eye nàtrɔe wòazu hex. Àte ŋu atrɔ ɖe ascii ŋu be nàdoe kpɔ.
           
-<img src="https://user-images.githubusercontent.com/81990132/199646812-782142d6-8846-443a-8dd9-4f332e49d3e9.png" alt="asciiGOOD" width="400" height="400"/>
+<img src="/content-images/199646812-782142d6-8846-443a-8dd9-4f332e-a552c26229.webp" alt="asciiGOOD" width="400" height="400"/>
 
 
   
@@ -337,38 +337,38 @@ Aleke nàwɔ awɔ UA?
 
 `zcash-cli z_getnewaccount`
      
-  <img src="https://user-images.githubusercontent.com/81990132/202352436-04c17be2-e914-4b9b-95d1-00cf6fc496d3.png" alt="newAccount" width="400" height="400"/>
+  <img src="/content-images/202352436-04c17be2-e914-4b9b-95d1-00cf6f-2d1a6ea572.webp" alt="newAccount" width="400" height="400"/>
 
     
 Now build a UA receiver according to *your needs*. This includes Orchard only, Orchard + Sapling, and finally Orchard + Sapling + Transparent. Note you can tell the difference between receivers by how long they are.
      
-<img src="https://user-images.githubusercontent.com/81990132/202354319-2da6be33-ca95-4b6b-b29c-14805dcb9c21.png" alt="chars" width="200" height="100"/>
+<img src="/content-images/202354319-2da6be33-ca95-4b6b-b29c-14805d-f0c8acd281.webp" alt="chars" width="200" height="100"/>
 
 
 `zcash-cli z_getaddressforaccount 0 '["orchard"]'`
      
-<img src="https://user-images.githubusercontent.com/81990132/202353642-c36b5fea-de8a-41f6-a27c-d9ff42a0c8d3.png" alt="uaOrchard" width="400" height="400"/>
+<img src="/content-images/202353642-c36b5fea-de8a-41f6-a27c-d9ff42-5231dccf56.webp" alt="uaOrchard" width="400" height="400"/>
 
-<img src="https://user-images.githubusercontent.com/81990132/202355586-eaeb36e7-b000-4b99-8192-81e5002e6f11.png" alt="OrchQR" width="400" height="400"/>
+<img src="/content-images/202355586-eaeb36e7-b000-4b99-8192-81e500-de15c07940.webp" alt="OrchQR" width="400" height="400"/>
 
 `zcash-cli z_getaddressforaccount 0 '["orchard","sapling"]'`
      
-<img src="https://user-images.githubusercontent.com/81990132/202353732-740828e3-77b8-4684-8cf8-fb14256b1e61.png" alt="uaOrchardSapling" width="400" height="400"/>
-<img src="https://user-images.githubusercontent.com/81990132/202355596-c7b62854-9a9e-4627-ab5d-51091340de71.png" alt="OrchSapQR" width="300" height="200"/>
+<img src="/content-images/202353732-740828e3-77b8-4684-8cf8-fb1425-b1591ddd68.webp" alt="uaOrchardSapling" width="400" height="400"/>
+<img src="/content-images/202355596-c7b62854-9a9e-4627-ab5d-510913-e280eee165.webp" alt="OrchSapQR" width="300" height="200"/>
 
 
 `zcash-cli z_getaddressforaccount 0 '["orchard","sapling","p2pkh"]'`
      
-<img src="https://user-images.githubusercontent.com/81990132/202353793-3331c593-5286-4b84-93a7-adc4928839fd.png" alt="uaFull" width="400" height="400"/>
-<img src="https://user-images.githubusercontent.com/81990132/202355607-75de0750-2a57-4e10-883b-e0a626ed892a.png" alt="FullQR" width="400" height="400"/>
+<img src="/content-images/202353793-3331c593-5286-4b84-93a7-adc492-c7730e3b3e.webp" alt="uaFull" width="400" height="400"/>
+<img src="/content-images/202355607-75de0750-2a57-4e10-883b-e0a626-2600e9b182.webp" alt="FullQR" width="400" height="400"/>
 
 
 Aleke nàwɔ aɖo ZEC ɖa to UA zazã me?
 
 `zcash-cli z_sendmany "fromOaddress" "[{\"address\": \"dOrchardAddress\",\"amount\": 0.0001, \"memo\":\"yourMemoinHex\"}]" <minconf> <fee> <privacyPolicy>`
 
-<img src="https://user-images.githubusercontent.com/81990132/202365280-c184f622-eb7e-4095-bc38-90795121c43c.png" alt="UAsuccess" width="400" height="400"/>
-<img src="https://user-images.githubusercontent.com/81990132/202366758-40650460-aaeb-4e03-891f-b4bd08e18234.png" alt="pic" width="400" height="400"/>
+<img src="/content-images/202365280-c184f622-eb7e-4095-bc38-907951-97c10ec6c2.webp" alt="UAsuccess" width="400" height="400"/>
+<img src="/content-images/202366758-40650460-aaeb-4e03-891f-b4bd08-31378cf6ff.webp" alt="pic" width="400" height="400"/>
 
     
 ##### Ele be míade dzesii evea siaa, *tso* KPLE *destination* adrɛswo ateŋu anye transparent,sapling, alo orchard adrɛswo ke hã ateŋu ahiã be nàtrɔ asi le privacyPolicy ƒe aflaga ŋu be asitsatsa la nawɔ dɔ. (Combo aɖewo mawɔ dɔ ne gɔmesese mele privacyPolicy o!)

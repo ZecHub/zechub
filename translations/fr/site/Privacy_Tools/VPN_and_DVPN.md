@@ -11,12 +11,12 @@
 
 __Réseaux privés virtuels (VPN)__ : Les VPN traditionnels créent un tunnel sécurisé et chiffré entre votre appareil et un serveur distant contrôlé par le fournisseur VPN. Ce tunnel dissimule vos activités en ligne aux regards indiscrets, tels que les hackers, les FAI ou les agences gouvernementales. Les VPN sont largement utilisés pour des usages tels que la navigation anonyme, l’accès à des contenus géo-restreints et la protection contre les cybermenaces.
 
-![image223](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Privacy_Tools/assets/image-223.png)
+![image223](/content-images/image-223-399e3015e7.webp)
 
 
 __VPN décentralisés (dVPN)__ : À l’inverse, les dVPN s’appuient sur la blockchain et la technologie pair à pair pour créer un réseau décentralisé de nœuds. Le trafic des utilisateurs est acheminé à travers ces nœuds, ce qui rend difficile pour une entité unique de surveiller ou de contrôler l’ensemble du réseau. Les dVPN sont généralement plus résistants à la censure, car aucune autorité centralisée ne supervise le réseau. Ils conviennent particulièrement aux utilisateurs recherchant une confidentialité et une sécurité renforcées.
 
-![dvpn](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Privacy_Tools/assets/dvpn.png)
+![dvpn](/content-images/dvpn-89698d4cb9.webp)
 
 
 # Considérations de sécurité lors du choix d’un VPN

@@ -1,6 +1,6 @@
 # **암호화된 SOL/USDC -> ZEC 스왑 사용법: Encrypt.trade**  
 
-![img1](https://hackmd.io/_uploads/Bkbg5alCll.jpg)
+![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 *NEAR Intents를 기반으로 한 암호화된 크로스체인 스왑의 게이트웨이.*  
 
@@ -9,51 +9,51 @@
 ### 소개  
 현대 블록체인 세계에서 프라이버시는 선택사항이 아니라 필수입니다. [**encrypt.trade**](https://app.encifher.io/zec)를 사용하면 사용자가 Solana에서 **SOL 또는 USDC**를 **Zcash (ZEC)**로 쉽게 스왑할 수 있습니다. 거래가 완전히 비밀 유지되도록 합니다. 중앙 집중식 교환 없이, 신분 노출도 없습니다. 단순하고 암호화된 스왑만 제공합니다.  
 
-![img2](https://hackmd.io/_uploads/ByQ2qpeRee.jpg)
+![img2](/content-images/ByQ2qpeRee-67fce2814c.webp)
 
 ---
 
 ### 단계 1: Solana 지갑 연결  
 **Chrome 또는 Firefox**를 사용하여 [encrypt.trade](https://app.encifher.io/zec)에 접속하고 **Phantom**, **Solflare**, 또는 **Slope** 지갑을 연결합니다. 지갑이 충분한 **SOL**과 교환하려는 토큰을 포함하고 있는지 확인하세요. 연결되면 자산을 래핑할 준비가 되었습니다.  
 
-![img3](https://hackmd.io/_uploads/SyVOs6lRxx.jpg)
+![img3](/content-images/SyVOs6lRxx-cbd8193e84.webp)
 
 ---
 
-![img4](https://hackmd.io/_uploads/Bkh_jTgCex.jpg)
+![img4](/content-images/Bkh_jTgCex-2fc8428592.webp)
 
 ---
 
 ### 단계 2: 토큰 래핑  
 **Wrap** 섹션으로 이동합니다. **SOL 또는 USDC**를 선택하고 금액을 입력한 후 확인합니다. 앱은 자산을 잠급니다. 그리고 **암호화된 버전 (eSOL 또는 eUSDC)**을 발행합니다. 프라이버시를 높이기 위해 예정된 스왑보다 약간 더 많은 금액으로 래핑하세요. 이는 일대일 추적성을 방지합니다.  
 
-![img5](https://hackmd.io/_uploads/S10J26xCxg.jpg)
+![img5](/content-images/S10J26xCxg-6322a40b18.webp)
 
 ---
 
-![img6](https://hackmd.io/_uploads/Sk0y3Te0gl.jpg)
+![img6](/content-images/Sk0y3Te0gl-124792365a.webp)
 
 ---
 
 ### 단계 3: Zashi 지갑 준비  
 [**Zashi**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn)를 다운로드하세요. 이는 Electric Coin Co.에서 제공하는 공식 Zcash 지갑입니다. 수신 탭에서 **Unified Address**를 복사합니다. 이 주소는 투명하고 보호된 ZEC 모두 지원합니다. 계속하기 전에 시드 구문을 안전하게 저장하세요.  
 
-![img7](https://hackmd.io/_uploads/SykjhpgRll.jpg)
+![img7](/content-images/SykjhpgRll-60d19f6979.webp)
 
 ---
 
 ### 단계 4: 암호화된 스왑  
 다시 **encrypt.trade**로 돌아가 **Swap**으로 이동합니다. **eSOL/eUSDC -> ZEC**을 선택하고, Zashi 주소를 붙여넣고 세부 정보를 확인한 후 확인합니다.  
 
-![img8](https://hackmd.io/_uploads/SJkI6pl0ge.jpg)
+![img8](/content-images/SJkI6pl0ge-9f93d8f34c.webp)
 
 ---
 
-![img9](https://hackmd.io/_uploads/S1yoapgRle.jpg)
+![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 **NEAR Intents** 엔진이 자동으로 크로스체인 라우팅을 처리합니다. 몇 초 안에 **ZEC**가 바로 Zashi 지갑으로 전송됩니다.  
 
-![img10](https://hackmd.io/_uploads/S1h36Tg0xl.jpg)
+![img10](/content-images/S1h36Tg0xl-2d7dd0a495.webp)
 
 ---
 

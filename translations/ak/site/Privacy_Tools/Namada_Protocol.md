@@ -2,7 +2,7 @@
 
 # Namada Nsɛm a Wɔahyehyɛ
 
-![Namada Ahyɛnsode](https://i.ibb.co/BZcZHS1/logo.png)
+![Namada Ahyɛnsode](/content-images/logo-2067e2533d.webp)
 
 
 ## Dɛn ne Namada?
@@ -26,7 +26,7 @@ Namada de kokoamsɛm di kan denam Multi-Asset Shielded Pool (MASP) circuit no it
 
 Ethereum bridge no a wɔde bɛka Namada ho no ma ɛho nhia sɛ wɔyɛ protocol a ɛyɛ soronko, efisɛ ɛbɛyɛ Namada abɔdeɛ a nkwa wom nhyehyɛeɛ no fã titire. Wɔde ahyɛ Validators a wɔwɔ Namada mu no nsa sɛ wɔmfa bridge no nkɔ Namada protocol titiriw no nkyɛn. Saa validators yi nso yɛ relayers bere a ɛfa agyapadeɛ a wɔde bɛma Namada ho no, na ɛma actors foforɔ a wɔde wɔn ho bɛhyɛ mu no ho nhia. Ɔkwan foforo so no, sɛ wɔde agyapade rekɔma Ethereum a, abɔnten so nnipa (a wonim wɔn sɛ relayers) na wɔde wɔn ho hyɛ mu, ɛwom sɛ wonni asɛyɛde biara sɛ wɔbɛma bridge no ayɛ nokware anaasɛ wɔbɛbɔ ho ban de.
 
-![Ethereum Bridge Mfonini](https://i.ibb.co/wKds5RP/image.jpg)
+![Ethereum Bridge Mfonini](/content-images/image-0fd8f754ba.webp)
 
 Namada Protocol nso wɔ tumi a ɛde ne nkɔnsɔnkɔnsɔn biara a ɛba awiei ntɛmntɛm a ɛboa Inter-Blockchain Communication (IBC) protocol no di nkitaho a ɛnyɛ den. Sɛ ɛba sɛ wɔne Ethereum bɛyɛ adwuma a, Namada de Ethereum bridge soronko bi a ahobammɔ wom a ɛyɛ adwuma wɔ ɔkwan a wontumi mfa wɔn ho nto so so di dwuma. Wɔayɛ saa bridge yi yie sɛ ɛbɛma ahobanbɔ adi kan denam flow controls a wɔbɛhyɛ mu den ama bridge connections nyinaa na wɔabu Ethereum transfer biara a ɛdi mfomsoɔ sɛ mfomsoɔ kɛseɛ a ɛbɛtumi ama wɔatwa asotweɛ so.
 
@@ -40,7 +40,7 @@ Wɔ Namada mu no, wobu set a wɔabɔ ho ban no sɛ ɛyɛ ɔmanfo yiyedi a ɛnyɛ
 
 Sɛ ɛba shielded transfers so a, sɛ́ ɛfa Ethereum non-fungible token (NFT), ATOM, anaa NAM ho no, wontumi nkyerɛ nsonsonoe a ɛda wɔn ho wɔn ho ntam. Wei kyerɛ sɛ nneɛma a ɛkora kokoamsɛm so a MASP (Modified Accumulator Sapling Protocol), Zcash Sapling circuit no fã a wɔama anya nkɔsoɔ de ama no, fa agyapadeɛ ahodoɔ nyinaa ho pɛpɛɛpɛ. MASP amansin no ma agyapadeɛ a ɛwɔ Namada abɔdeɛ a nkwa wom nhyehyɛeɛ no mu nyinaa tumi kyɛ nhyehyɛeɛ korɔ a wɔabɔ ho ban. Saa kwan yi hwɛ hu sɛ wɔrenkyekyɛ kokoam nsɛm ho bɔhyɛ ahorow mu wɔ ankorankoro agyapade ahorow mu. Ɛmfa ho sɛnea aguadi dodow a ɛbata agyapade pɔtee bi ho no, kokoam nsɛm ho banbɔ no da so ara yɛ nea ɛkɔ so daa na ɛde ne ho.
 
-![Agyapadeɛ a Wɔabɔ ho Ban Nkitahodiɛ Mfonini](https://i.ibb.co/7CDmWk6/image-1.png)
+![Agyapadeɛ a Wɔabɔ ho Ban Nkitahodiɛ Mfonini](/content-images/image-1-512c639d56.webp)
 
 Ɛdenam sheelded set a ɛka bom wɔ agyapade ahorow so no, Namada hwɛ hu sɛ wɔbɛdi kokoam nsɛm so pɛpɛɛpɛ, a agyapade pɔtee a ɛka ho wɔ shielded transfer mu mfa ho. Saa kwan yi hyɛ kokoam nsɛm nhyehyɛe a ɛyɛ biako ho nkuran wɔ protocol no mu na ɛma kokoamsɛm a ɛwɔ nkitahodi ahorow a ɛfa Ethereum NFTs, ATOM, NAM, ne agyapade afoforo a wɔboa ho no yɛ kɛse. Namada nso ma kokoam de kɔ baabi foforo a wɔde token a wotumi sesa ne nea ɛnyɛ nea wotumi de di dwuma denam zk-SNARKs a ɛyɛ foforo so, hwɛ hu sɛ kokoamsɛm bɛba ama token a ɛwɔ hɔ ne nea ɛnyɛ kurom hɔ sɛnea wɔyɛ wɔ Zcash so no.
 
@@ -54,7 +54,7 @@ Bio nso, Namada de nnɛyi BFT consensus algorithms di dwuma, a ɛhwɛ ma nkitaho
 
 Sɛnea nnansa yi nhoma bi a wobetumi ahu kyerɛ no [Namada Protocol Blog](https://blog.namada.net/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/), kuw a ɛwɔ Namada Protocol akyi no ani agye sɛ wɔde nsusuiɛ ne abisadeɛ a wɔde bɛka ho (RFC) a ɛfa apam a ɛfa akwankyerɛ ho a ɛbɛda Namada ne Zcash agyapadeɛ, nkɔnsɔnkɔnsɔn, ne mpɔtam ntam bɛma.
 
-![Namada-Zcash Akwankyerɛ Apam Mfonini](https://i.ibb.co/FqsmkMb/image-2.png)
+![Namada-Zcash Akwankyerɛ Apam Mfonini](/content-images/image-2-68804c60f3.webp)
 
 Apam a wɔahyɛ ho nyansa no ka nneɛma atitiriw abiɛsa ho. Nea edi kan no, grant pool bi wɔ hɔ a wɔbɛhyehyɛ de sika ama nnwuma a ɛde mfasoɔ bɛba Zcash ne Namada nyinaa so. Nea ɛtɔ so mmienu, wɔde NAM tokens airdrop bɛma wɔn a wɔwɔ ZEC. Nea etwa to no, wɔayɛ nhyehyɛe sɛ wɔbɛhyehyɛ abɔntenban a ahotoso kakraa bi na ɛbɛka Zcash ne Namada abom. Sɛ wɔde di dwuma wie a, saa bridge yi bɛma ZEC wuranom a wɔfrɛ wɔn Zolders no atumi de wɔn ZEC adi dwuma wɔ Namada so. Bio nso, Zolders benya hokwan afa Namada so anya Cosmos ne Ethereum abɔdeɛ a nkwa wom a ɛtrɛ no. Wubetumi asua pii afa strategic alliance no ho wɔ [Zcash Community Forum](https://forum.zcashcommunity.com/t/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/44372)
 

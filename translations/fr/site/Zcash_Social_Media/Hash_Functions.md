@@ -20,7 +20,7 @@ Les fonctions de hachage prennent une entrée de n’importe quelle longueur et 
 - **Sortie résultante** = Valeur de hachage  
 
 
-![Schéma d’une fonction de hachage](https://pbs.twimg.com/media/Fn_NkFHXgAEtgse.png)
+![Schéma d’une fonction de hachage](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
 
 ### Essayez par vous-même !
 
@@ -58,12 +58,12 @@ Il existe plusieurs classes de fonctions de hachage. Quelques exemples :
 #### 1. Hachage d’intégrité (vérifications de l’intégrité des données)
 Les vérifications de l’intégrité des données sont un exemple de « hachage d’intégrité ». Elles servent à générer des sommes de contrôle sur des fichiers de données et à fournir à l’utilisateur une assurance de validité.
 
-![Exemple de hachage d’intégrité](https://pbs.twimg.com/media/Fn_Or0MWIAI6sgx.png)
+![Exemple de hachage d’intégrité](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
 
 #### 2. Arbres de Merkle (arbres de hachage)
 Un **arbre de hachage** ou **arbre de Merkle** est composé de branches et de nœuds feuilles étiquetés avec le hachage cryptographique d’un bloc de données.
 
-![Schéma d’un arbre de Merkle](https://pbs.twimg.com/media/Fn_O7ndWIAY5PA-.jpg)
+![Schéma d’un arbre de Merkle](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
 
 Les arbres de Merkle sont un exemple de **schéma d’engagement cryptographique**. La racine de l’arbre est considérée comme un engagement, et les nœuds feuilles sont prouvés comme faisant partie de l’engagement d’origine.
 
@@ -75,7 +75,7 @@ Dans les pools protégés **Sapling** et **Orchard** de Zcash, l’**arbre d’e
 #### 4. Hachage de signature (blocs de type Bitcoin)
 **SHA256** est un exemple de « hachage de signature » utilisé pour garantir l’immuabilité de chaque bloc dans la chaîne Bitcoin. Les mineurs utilisent le hachage du bloc précédent + un hachage de toutes les transactions du bloc actuel (hashMerkleRoot) + l’horodatage + une valeur aléatoire / la difficulté du réseau pour les nouveaux blocs.
 
-![Schéma de bloc SHA256](https://pbs.twimg.com/media/Fn_PaVZXoAApHPf.jpg)
+![Schéma de bloc SHA256](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
 
 #### 5. Equihash (minage de Zcash)
 **Equihash** est l’algorithme de hachage utilisé pour miner Zcash. Il est également utilisé par des réseaux tels que Komodo et Horizen.

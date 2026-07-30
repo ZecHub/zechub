@@ -5,7 +5,7 @@
 Zero to Zero Knowledge est de retour avec un nouveau sujet !  
 Cette semaine, nous explorons les **Trusted Execution Environments (TEEs)** — comment ils sont utilisés dans les privacy coins et d’autres applications blockchain.
 
-![Introduction aux Trusted Execution Environments](https://pbs.twimg.com/media/Fquj-h2WcAIgSnL.jpg)
+![Introduction aux Trusted Execution Environments](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
 
 ---
 
@@ -31,7 +31,7 @@ Chaque nœud validateur exécute des puces Intel SGX. Les couches de consensus e
 
 Ceci est différent de Zcash, qui utilise des **preuves à divulgation nulle de connaissance** pour la confidentialité. Dans Zcash, les transactions blindées sont diffusées et validées publiquement sans qu’aucune donnée supplémentaire ne soit révélée au réseau. Les Zcash Shielded Assets suivent le même principe.
 
-![Schéma TEE de Secret Network](https://pbs.twimg.com/media/FqulPjNX0AEfjRp.png)
+![Schéma TEE de Secret Network](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
 
 Pour une explication détaillée de la manière dont les TEEs sont implémentés sur Secret Network, lisez cet excellent article de @l_woetzel :  
 https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerability-33ca94b6df38
@@ -55,11 +55,11 @@ Elle permet à une partie distante de vérifier :
 - Que l’application n’a pas été altérée  
 - Qu’elle s’exécute de manière sécurisée à l’intérieur d’une enclave Intel SGX
 
-![Explication de l’attestation à distance](https://pbs.twimg.com/media/FqumRjoWwAAeT-M.png)
+![Explication de l’attestation à distance](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
 
 Les enclaves contiennent également des clés privées de signature et d’attestation qui ne peuvent pas être accessibles depuis l’extérieur.
 
-![Protection des clés de l’enclave](https://pbs.twimg.com/media/Fqumv83XoAQq-MO.png)
+![Protection des clés de l’enclave](/content-images/Fqumv83XoAQq-MO-47c3ab77e0.webp)
 
 ---
 
@@ -69,7 +69,7 @@ Comme les enclaves sont sans état, les données doivent parfois être stockées
 
 Le **scellement des données** chiffre les données à l’intérieur de l’enclave à l’aide d’une clé dérivée du CPU. Le bloc chiffré ne peut être descellé que sur le **même système**.
 
-![Schéma du scellement des données](https://pbs.twimg.com/media/FqunBwyWYAA-TR3.jpg)
+![Schéma du scellement des données](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
 
 ---
 
@@ -79,7 +79,7 @@ Le **scellement des données** chiffre les données à l’intérieur de l’enc
 
 Les données chiffrées entrent dans le TEE avec le smart contract. Elles sont déchiffrées, traitées, puis rechiffrées avant de quitter l’enclave.
 
-![Flux TEE d’Oasis Network](https://pbs.twimg.com/media/FqunJRDXwAMt4Ob.png)
+![Flux TEE d’Oasis Network](/content-images/FqunJRDXwAMt4Ob-0e7969c7a8.webp)
 
 ---
 
@@ -94,7 +94,7 @@ Pour les validateurs PoS :
 
 Les **TEEs** sont idéaux pour générer et utiliser en toute sécurité les clés des validateurs.
 
-![Tendermint et sécurité PoS](https://pbs.twimg.com/media/Fqun0HEX0AAooxW.jpg)
+![Tendermint et sécurité PoS](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
 
 ---
 

@@ -4,7 +4,7 @@
 
 # IPFS 上にウェブサイトを公開する
 
-![](https://blog.desdelinux.net/wp-content/uploads/2020/04/IPFS-.jpg)
+![](/content-images/IPFS-40c2e22732.webp)
 
 ## IPFS とは？
 
@@ -51,7 +51,7 @@ IPFS 上のファイルは *コンテンツアドレッシング* を使用し�
 
 ウェブサイトのファイルが含まれるフォルダを選択し、「フォルダを追加」オプションを使用してください。
 
-![](https://i.ibb.co/ZHW4zsY/ipfs-site-folder.png)
+![](/content-images/ipfs-site-folder-2c96524d98.webp)
 
 --
 
@@ -85,11 +85,11 @@ IPFS 上のファイルは *コンテンツアドレッシング* を使用し�
 
 Interplanetary Naming System（IPNS）は、ウェブサイトに関連する IPFS CID を更新しながらも静的なリンクを提供できるようにします。これは鍵として提供されます。
 
-![](https://dnslink.io/assets/dns-query.a0134a75.png)
+![](/content-images/dns-query.a0134a75-9ef7817f80.webp)
 
 IPFS デスクトップアプリケーションの設定メニューで、サイトフォルダを選択し、「IPNS に公開」を選択してください。
 
-![](https://i.ibb.co/Ch25dKf/IPNS.png)
+![](/content-images/IPNS-2fe62cc369.webp)
 
 鍵: "k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n"
 
@@ -102,7 +102,7 @@ IPFS デスクトップアプリケーションの設定メニューで、サイ
 
 すでにウェブアドレスを所有している場合は、TXTレコード "_dnslink(your domain)" を使用して新しいレコードを追加できます。プロバイダーによって自動で埋まる場合もあります。
 
-![](https://i.ibb.co/MgRxBHj/example.png)
+![](/content-images/example-c2a9edb28b.webp)
 
 ネットワークを通じて反映されるまでに時間がかかるため、表示できるようになるには少し時間がかかります。
 

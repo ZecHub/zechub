@@ -6,7 +6,7 @@
 
 Випущений у 2019 році, цей протокол розвиває Zerocoin. Він використовується у валюті **Firo** (раніше Zcoin) для забезпечення приватних ончейн-транзакцій. У деяких аспектах він нагадує Zcash, але в більшості аспектів суттєво відрізняється.
 
-![Lelantus intro](https://pbs.twimg.com/media/Fsk18DgXsAEc0Ob.jpg)
+![Lelantus intro](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
 
 ---
 
@@ -15,7 +15,7 @@
 - **Zcash** - Побудований на протоколі **Zerocash**  
 - **Firo (Zcoin)** - Побудований на протоколі **Zerocoin**
 
-![Zerocash vs Zerocoin comparison](https://pbs.twimg.com/media/Fsk2Fk7WcAA81ty.png)
+![Zerocash vs Zerocoin comparison](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
 
 ---
 
@@ -28,7 +28,7 @@
 - **Sigma** - Система фіксованих номіналів
 - **Lelantus 1.0** - Бракувало коректних доказів безпеки
 
-![Protocol evolution](https://pbs.twimg.com/media/Fsk2NdaWAAAKVgH.png)
+![Protocol evolution](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
 
 ---
 
@@ -38,7 +38,7 @@
 
 Це створювало менші набори анонімності й відкривало можливість для таймінгових атак між операціями mint і redeem (а також проблеми «tainted change»).
 
-![Sigma denominations](https://pbs.twimg.com/media/Fsk2fxfWcAMUBDo.png)
+![Sigma denominations](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
 
 ---
 
@@ -53,7 +53,7 @@
 
 **Обмеження**: Розмір набору наразі обмежений **65,000 coins**.
 
-![Lelantus advantages](https://pbs.twimg.com/media/Fsk2wK3X0AA6MEe.png)
+![Lelantus advantages](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
 
 ---
 
@@ -65,7 +65,7 @@
 
 Зобов’язання монети публікується та зберігається в реєстрі, коли монета створюється (через транзакції Mint або Spend).
 
-![Coin commitment diagram](https://pbs.twimg.com/media/Fsk3AWNX0AIHya8.png)
+![Coin commitment diagram](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
 
 ---
 
@@ -77,7 +77,7 @@ Lelantus використовує класичну модель **basecoin < - >
 
 Як і в Zcash, прозорі транзакції мають бути явно обрані користувачем.
 
-![Lelantus flow](https://pbs.twimg.com/media/Fsk3HrjXgAMgqmX.png)
+![Lelantus flow](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
 
 ---
 
@@ -87,7 +87,7 @@ Lelantus використовує **One-of-Many Proofs** для отриманн
 
 Ці докази також використовуються в **Triptych** (згаданому в нашій гілці про CryptoNote).
 
-![One-of-Many Proofs](https://pbs.twimg.com/media/Fsk3Z0nWIAAPD4k.jpg)
+![One-of-Many Proofs](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
 
 ---
 
@@ -103,7 +103,7 @@ Lelantus використовує **One-of-Many Proofs** для отриманн
 
 Це значно ускладнює відстеження походження транзакції за допомогою мережевого аналізу.
 
-![Dandelion++ explanation](https://pbs.twimg.com/media/Fsk4A8VWcAU84MR.png)
+![Dandelion++ explanation](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
 
 ---
 
@@ -117,7 +117,7 @@ Lelantus використовує **One-of-Many Proofs** для отриманн
 
 Ці функції є паралеллю до Zcash Shielded Assets.
 
-![Lelantus-Spark announcement](https://pbs.twimg.com/media/Fsk4jXeXsAACQ3h.jpg)
+![Lelantus-Spark announcement](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
 
 ---
 

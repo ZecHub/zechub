@@ -33,7 +33,7 @@ Zcashが進化するにつれて、セキュリティ、プライバシー、使
 
 <br/>
 
-![img1](https://github.com/user-attachments/assets/4ba8cca2-cea5-42d2-8ec2-2122b26f5144)
+![img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
 図1: 2025年10月時点での現在の4つのポールを示したチャート
 
 <br/>
@@ -43,7 +43,7 @@ Zcashが進化するにつれて、セキュリティ、プライバシー、使
 
 1. <h3 id="orchard" class="text-3xl font-bold my-4">Orchard ポール</h3>
 
-![img2](https://github.com/user-attachments/assets/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72)
+![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
 図2: 2025年10月時点でのOrchardポールを示したチャート
 
 <br/>
@@ -60,7 +60,7 @@ ____
 
 2. <h3 id="sapling" class="text-3xl font-bold my-4">Sapling ポール</h3>
 
-![img3](https://github.com/user-attachments/assets/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae)
+![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
 図3: 2025年10月時点でのSaplingポールを示したチャート
 
 <br/>
@@ -77,7 +77,7 @@ ____
 
 3. <h3 id="sprout" class="text-3xl font-bold my-4">Sprout ポール</h3>
 
-![img4](https://github.com/user-attachments/assets/956eceed-f4d6-4087-99d0-32a770449dda)
+![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
 図4: 2025年10月時点でのSproutポールを示したチャート
 
 Sproutは、最初のオープンで権限なきゼロ知識プライバシープロトコルであり、2016年10月28日にローンチされました。
@@ -92,7 +92,7 @@ Zcashエコシステムが拡大し、シャドウドトランザクションの
 4. <h3 id="transparent" class="text-3xl font-bold my-4">Transparent ポール</h3>
 <br/>
 
-![img5](https://github.com/user-attachments/assets/01de2907-b62d-4421-83d7-ea4908faa828)
+![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
 図5: 2025年10月時点でのTransparentポールを示したチャート
 
 <br/>

@@ -20,7 +20,7 @@ Hash Functions fa input a ne tenten biara na ɛma output a ne tenten yɛ fixed.
 - **Nneɛma a ɛfiri mu ba** = Hash Value 
 
 
-![Hash Dwumadie mfonini](https://pbs.twimg.com/media/Fn_NkFHXgAEtgse.png)
+![Hash Dwumadie mfonini](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
 
 ### W’ankasa sɔ hwɛ!
 
@@ -58,12 +58,12 @@ Hash Functions ahorow pii wɔ hɔ. Nhwɛso ahorow bi:
 #### 1. Integrity Hashing (Data mudi mudi Nhwehwɛmu) .
 Data mudi mudi nhwehwɛmu yɛ "Integrity Hashing" ho nhwɛso. Wɔde yɛ checksums wɔ data fael ahorow so na ɛma awerɛhyem sɛ ɛteɛ ma obi a ɔde di dwuma.
 
-![Integrity Hashing nhwɛsoɔ](https://pbs.twimg.com/media/Fn_Or0MWIAI6sgx.png)
+![Integrity Hashing nhwɛsoɔ](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
 
 #### 2. Merkle Nnua (Hash Nnua) .
 **hash dua** anaa **Merkle dua** yɛ nkorabata ne nhaban node a wɔde data block bi cryptographic hash ahyɛ so.
 
-![Merkle Dua ho mfonini](https://pbs.twimg.com/media/Fn_O7ndWIAY5PA-.jpg)
+![Merkle Dua ho mfonini](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
 
 Merkle nnua yɛ nhwɛsoɔ a ɛfa **cryptographic commitment scheme** ho. Wohu dua Ntini no sɛ ahofama ne ahaban ntini a wɔada no adi sɛ ɛyɛ mfitiase ahofama no fã.
 
@@ -75,7 +75,7 @@ Wɔ Zcash **Sapling** & **Orchard** shielded pools mu no, wɔde **Note Commitmen
 #### 4. Signature Hash (Bitcoin-kwan so blocks) .
 **SHA256** yɛ nhwɛsoɔ a ɛfa "Signature hash" a wɔde di dwuma de hyɛ inmutability a ɛwɔ block biara mu wɔ Bitcoin chain no mu. Miners de hash a ɛwɔ block a atwam no di dwuma + Hash a ɛfa nnwuma nyinaa a ɛwɔ mprempren block no mu (hashMerkleRoot) + Timestamp + random value / network difficulty ma blocks foforo.
 
-![SHA256 block mfonini](https://pbs.twimg.com/media/Fn_PaVZXoAApHPf.jpg)
+![SHA256 block mfonini](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
 
 #### 5. Equihash (Zcash a Wɔde Tu Fam) .
 **Equihash** yɛ hashing algorithm a wɔde di dwuma wɔ Zcash a wotu mu. Ɛsan nso de di dwuma wɔ networks te sɛ Komodo & Horizen.

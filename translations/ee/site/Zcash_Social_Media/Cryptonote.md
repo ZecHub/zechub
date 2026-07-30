@@ -5,7 +5,7 @@
 Dodzidzɔname aɖe egbea! 
 **CryptoNote** ƒe ɖoɖowɔɖia na be adzamenyawo sesẽ le kɔsɔkɔsɔ dzi. Egbea míesrɔ̃a eƒe nɔnɔme veviwo katã kple alesi ameŋunyatakakawo takpɔkpɔ ƒe dɔ ɖedzesi geɖewo tsɔe wɔ dɔe.
 
-![CryptoNote ƒe ŋgɔdonya](https://pbs.twimg.com/media/FrXr5P8WIAAvx36.jpg)
+![CryptoNote ƒe ŋgɔdonya](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
 
 ---
 
@@ -35,7 +35,7 @@ Ne èle asitsatsa ɖom ɖa la, wotsaka wò dutoƒo safui ŋutɔŋutɔ kple decoy
 
 **Ring size** kpɔa ŋusẽ ɖe ŋkɔmaɖemaɖe ƒe ɖoɖoa dzi vevie. Kplɔ̃ gãwo naa ame ŋutɔ ƒe adzamenyawo nɔa anyi nyuie wu.
 
-![Ring Signatures ƒe numeɖeɖe](https://pbs.twimg.com/media/FrXteGHXgAANE0F.png)
+![Ring Signatures ƒe numeɖeɖe](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
 
 **Ne wotsɔe sɔ kple Zcash**: 
 Zcash ƒe ŋkɔmaɖemaɖe ƒe ƒuƒoƒo nye asitsatsa *ɣeyiɣi* si wowɔ le ta si wotsɔ akpoxɔnu na me ƒe xexlẽme bliboa (si lolo wu CryptoNote ƒe asigɛ ƒe lolome siwo bɔ sã).
@@ -48,7 +48,7 @@ Zcash ƒe ŋkɔmaɖemaɖe ƒe ƒuƒoƒo nye asitsatsa *ɣeyiɣi* si wowɔ le ta 
 
 Le esi teƒe be Ring CT naɣla amesi ɖoe ɖa ko la, ega **tɔtɔa asitsatsa ƒe ga homewo** le ame si ɖoe ɖa kple amesi xɔe dome.
 
-![King CT nɔnɔmetata](https://pbs.twimg.com/media/FrXuivgWYAAze7B.png)
+![King CT nɔnɔmetata](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
 
 Ezãa:
 - Elliptic Curve ƒe Nuŋɔŋlɔ
@@ -59,7 +59,7 @@ Ezãa:
 
 **Adzame Adrɛs** hã tsɔa adrɛs siwo wozãna zi ɖeka kpena ɖe amesi xɔe ŋu.
 
-![Adzame Adrɛswo + Kpeɖodziwo](https://pbs.twimg.com/media/FrXut5aWAAMhuRb.jpg)
+![Adzame Adrɛswo + Kpeɖodziwo](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
 
 ---
 
@@ -74,7 +74,7 @@ Ezãa **CryptoNight** ƒe akɔntabubu (si nye ŋkuɖodzinu sesẽ ƒe dɔwɔwɔ)
 2. Wɔ nuxexlẽ/ŋɔŋlɔ ƒe dɔ gbogbo aɖewo le scratchpad la dzi
 3. Hash scratchpad bliboa be nàwɔ asixɔxɔ mamlɛtɔ
 
-![CryptoNight tomenukuƒe](https://pbs.twimg.com/media/FrXvNs3XsAA37LG.jpg)
+![CryptoNight tomenukuƒe](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
 
 (De dzesii: Tso ɣemaɣi la, Monero ʋu tso CryptoNight gbɔ yi algorithm bubuwo gbɔ.)
 
@@ -86,7 +86,7 @@ Le esi teƒe be wòaɖe nudzɔdzɔwo dzi akpɔtɔ zi ɖeka le afã me (abe Bitco
 
 Esia nana be ya si dona le yame ƒe ʋuʋu nɔa bɔbɔe wu le ɣeyiɣi aɖe megbe.
 
-![Dynamic emission curve ƒe ʋuʋudedi](https://pbs.twimg.com/media/FrXv8wpXoAEjUxW.png)
+![Dynamic emission curve ƒe ʋuʋudedi](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
 
 **Zcash Kadodo**: 
 Zcash dɔwɔlawo ƒo nu tso ya si dona le yame ƒe mɔnu si le bɔbɔe wu ŋudɔwɔwɔ ŋu le etsɔme, si ateŋu ato "Zcash Posterity Fund" dzi.

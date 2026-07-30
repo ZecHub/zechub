@@ -14,7 +14,7 @@ Pretty Good Privacy (PGP) एक क्रिप्टोग्राफिक �
 * **[PGPMail](https://www.openpgp.org/software/)**: PGPMail एक व्यावसायिक PGP ईमेल क्लाइंट है, जो Windows और macOS के लिए उपलब्ध है।
 * **[Mailvelope](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope Gmail और Thunderbird के लिए एक निःशुल्क और ओपन-सोर्स PGP extension है।
 
-![PGP Tools](https://github.com/ZecHub/zechub/assets/81990132/44984a75-800a-4f7a-94a5-88827e39b431)
+![PGP Tools](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
 
 ## Keys कैसे जनरेट करें
 
@@ -28,7 +28,7 @@ PGP का उपयोग करने के लिए, आपको keys क�
 
 आपकी PGP key pair जनरेट हो जाएगी।
 
-![Generate Keys](https://github.com/ZecHub/zechub/assets/81990132/15721ce1-0a77-4ebe-87f4-33e1455f2a40)
+![Generate Keys](/content-images/15721ce1-0a77-4ebe-87f4-33e1455f2a40-7699b1771d.webp)
 
 ## ईमेल के लिए PGP का उपयोग कैसे करें
 
@@ -36,7 +36,7 @@ PGP का उपयोग करने के लिए, आपको keys क�
 
 encrypted ईमेल किसी भी ऐसे व्यक्ति के लिए अपठनीय होगी जिसके पास प्राप्तकर्ता की private key नहीं है। ईमेल को decrypt करने के लिए, प्राप्तकर्ता अपनी private key का उपयोग करके ईमेल को decrypt कर सकता है।
 
-![PGP Email](https://github.com/ZecHub/zechub/assets/81990132/dafb761d-f399-40c9-9323-526ba3bd0bc4)
+![PGP Email](/content-images/dafb761d-f399-40c9-9323-526ba3bd0bc4-98503ad98b.webp)
 
 ## सर्वोत्तम अभ्यास
 
@@ -44,9 +44,9 @@ PGP का उपयोग करने के लिए यहाँ कुछ 
 
 * अपनी private key को सुरक्षित रखें। private key आपकी PGP key pair का सबसे महत्वपूर्ण हिस्सा है। यदि किसी को आपकी private key मिल जाती है, तो वह उन सभी संदेशों को decrypt कर सकता है जिन्हें आपकी public key से encrypt किया गया है।
 
-![Best Practices 1](https://github.com/ZecHub/zechub/assets/81990132/39a6fae4-a9a1-4061-a97c-4a9b975f6383)
+![Best Practices 1](/content-images/39a6fae4-a9a1-4061-a97c-4a9b975f6383-eced005c8b.webp)
 
-![Best Practices 2](https://github.com/ZecHub/zechub/assets/81990132/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd)
+![Best Practices 2](/content-images/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd-50ca49a070.webp)
 
 * अपनी public key केवल उन लोगों के साथ साझा करें जिन पर आप भरोसा करते हैं। आप अपनी public key उन्हें सीधे भेजकर, या उसे किसी PGP keyserver पर अपलोड करके साझा कर सकते हैं।
 * अपनी PGP keyring के लिए मजबूत passwords का उपयोग करें। आपकी PGP keyring एक फ़ाइल होती है जिसमें आपकी PGP keys संग्रहीत होती हैं। इस फ़ाइल की सुरक्षा के लिए मजबूत password का उपयोग करना महत्वपूर्ण है।
@@ -61,11 +61,11 @@ PGP का उपयोग करने के लिए यहाँ कुछ 
 * "Encrypt" बटन पर क्लिक करें।
 * ईमेल encrypt हो जाएगी।
 
-![Encrypt Email](https://github.com/ZecHub/zechub/assets/81990132/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e)
+![Encrypt Email](/content-images/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e-6edd4a03ea.webp)
 
 ---
 
-![Encryption Flow](https://github.com/ZecHub/zechub/assets/81990132/da1499e9-fc87-46b2-93ed-28d43cf1fd86)
+![Encryption Flow](/content-images/da1499e9-fc87-46b2-93ed-28d43cf1fd86-86fdc87d10.webp)
 
 ## PGP के साथ ईमेल को decrypt कैसे करें
 
@@ -76,4 +76,4 @@ PGP का उपयोग करने के लिए यहाँ कुछ 
 * "Decrypt" बटन पर क्लिक करें।
 * ईमेल decrypt हो जाएगी।
 
-![Decrypt Email](https://github.com/ZecHub/zechub/assets/81990132/beae714c-020f-4c1e-aa4f-3dd9430670cc)
+![Decrypt Email](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)

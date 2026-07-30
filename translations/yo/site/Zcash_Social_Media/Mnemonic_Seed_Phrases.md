@@ -13,7 +13,7 @@ Awọn gbolohun isọdọtun ni a ṣalaye nipasẹ awọn alaye ** BIP-39 **, i
 
 Ṣiṣẹda awọn gbolohun ọrọ imularada bẹrẹ nipasẹ ipilẹṣẹ ** randomness **. Entropy diẹ sii tumọ si aabo ti o ga julọ. ** 128 bits ** ti entropy ni a kà pe o to fun ọpọlọpọ awọn olumulo.
 
-[Ìtumọ̀ ọ̀rọ̀ ìkókó](https://pbs.twimg.com/media/FooM3qWWACgrwzn.jpg)
+[Ìtumọ̀ ọ̀rọ̀ ìkókó](/content-images/FooM3qWWACgrwzn-f222c4081f.webp)
 
 Ti o da lori ipari ti entropy akọkọ, ọrọ imularada yoo jẹ ** 12 si 24 ọrọ ** gun.
 
@@ -28,7 +28,7 @@ A bẹ̀rẹ̀ nípa kíkó 128 bit ti entropy.
 A ṣe hash entropy nipa lilo **SHA256**. Awọn bits diẹ akọkọ ti hash yi di iye ayẹwo. 
 Èyí ló fún wa ní àmì kan tó ṣàrà ọ̀tọ̀ fún entropy wa.
 
-![Etobi + Àkọsílẹ̀ Àkójọ àyẹ̀wò](https://pbs.twimg.com/media/FooNoOEXgAAu-g6.png)
+![Etobi + Àkọsílẹ̀ Àkójọ àyẹ̀wò](/content-images/FooNoOEXgAAu-g6-613238fa7e.webp)
 
 ### 3. A lè pín in sí ìpele-ìpín méjìlá
 Apapọ 132 bit (128 entropy + 4 checksum) ni a ya sọtọ si awọn ege ti 11 bits.
@@ -39,7 +39,7 @@ Awọn akojọ ọrọ BIP-39 ni deede awọn ọrọ ** 2048 ** (Gẹẹsi, Spa
 
 A máa ń lo àwọn nọ́ńbà yìí láti wá ọ̀rọ̀ tó bá a mu nínú ìtòlẹ́sẹẹsẹ ọ̀rọ.
 
-[Àpẹẹrẹ àwòrán ọ̀rọ̀](https://pbs.twimg.com/media/FooN9rfXEBoQuU2.png)
+[Àpẹẹrẹ àwòrán ọ̀rọ̀](/content-images/FooN9rfXEBoQuU2-d11331fc0a.webp)
 
 Àbájáde: A ní ọ̀rọ̀ ìmúpadàbọ̀ tí ó ní ọ̀rọ̀ méjìlá tí ó ṣeé kà fún ènìyàn!
 
@@ -59,7 +59,7 @@ A ṣe àdàkọ àpò-ìpamọ́ láti inú gbólóhùn mnemonic náà nípa l�
 
 Eyi n ṣe agbejade irugbin ** 64-byte (512-bit) **.
 
-[Irú-ọmọ sí àwọn kókó pàtàkì](https://pbs.twimg.com/media/FooOuumXEAgcBm1.jpg)
+[Irú-ọmọ sí àwọn kókó pàtàkì](/content-images/FooOuumXEAgcBm1-dc7c66b84a.webp)
 
 ### Àwọn Kọ́kọ́rọ́
 A pín àgbékalẹ̀ náà sí ìpele méjì tí ó jẹ́ 32 byte:
@@ -83,7 +83,7 @@ Láti inú àlàfo ìnáwó tí a mú jáde:
 
 Different derivation mechanisms produce external addresses suitable for giving out to senders across shielded pools (Sapling & Orchard).
 
-![Awọn ọna ṣiṣe ipilẹṣẹ bọtini Zcash](https://pbs.twimg.com/media/FooPKd4XEBUQhJ6.jpg)
+![Awọn ọna ṣiṣe ipilẹṣẹ bọtini Zcash](/content-images/FooPKd4XEBUQhJ6-af133c01bf.webp)
 
 Zcash tun ṣe atilẹyin awọn adirẹsi inu ** fun awọn iṣẹ apamọwọ bii Auto-Shielding.
 

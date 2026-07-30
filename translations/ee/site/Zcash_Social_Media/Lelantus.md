@@ -6,7 +6,7 @@ Egbea míelé ŋku ɖe **Lelantus** ŋu!
 
 Woɖee ɖe go le ƒe 2019 me, ɖoɖowɔɖi sia tu ɖe Zerocoin dzi. Wozãnɛ le **Firo** ga (si woyɔna tsã be Zcoin) me tsɔ naa ame ŋutɔ ƒe asitsatsa le kɔsɔkɔsɔ dzi. Eɖi Zcash le mɔ aɖewo nu gake eto vovo kura le go akpa gãtɔ me.
 
-![Lelantus ƒe ŋgɔdonya](https://pbs.twimg.com/media/Fsk18DgXsAEc0Ob.jpg)
+![Lelantus ƒe ŋgɔdonya](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
 
 ---
 
@@ -15,7 +15,7 @@ Woɖee ɖe go le ƒe 2019 me, ɖoɖowɔɖi sia tu ɖe Zerocoin dzi. Wozãnɛ le 
 - **Zcash** - Tu ɖe **Zerocash** ƒe ɖoɖowɔɖia dzi 
 - **Firo (Zcoin)** - Tu ɖe **Zerocoin** ƒe ɖoɖowɔɖia dzi
 
-![Zerocash vs Zerocoin tsɔtsɔ sɔ kple wo nɔewo](https://pbs.twimg.com/media/Fsk2Fk7WcAA81ty.png)
+![Zerocash vs Zerocoin tsɔtsɔ sɔ kple wo nɔewo](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
 
 ---
 
@@ -28,7 +28,7 @@ Abe alesi wòle le Zcash gome ene la, Firo zãa adrɛs siwo wokpɔ ta na tsɔ xe
 - **Sigma** - Subɔsubɔhawo ƒe ɖoɖo si woɖo ɖi
 - **Lelantus 1.0** - Dedienɔnɔ ƒe kpeɖodzi nyui aɖeke mele eme o
 
-![Protocol ƒe nɔnɔmetɔtrɔ](https://pbs.twimg.com/media/Fsk2NdaWAAAKVgH.png)
+![Protocol ƒe nɔnɔmetɔtrɔ](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
 
 ---
 
@@ -38,7 +38,7 @@ Seɖoƒe gã aɖe nɔ Σ (Sigma) ɖoɖowɔɖi si wozã le Zcoin/Firo ƒe tɔtrɔ
 
 Esia na ŋkɔmaɖemaɖe ƒe hatsotso suewo eye wòʋu ʋɔtru na ɣeyiɣi ƒe amedzidzedze le mint kple redeem dɔwɔwɔwo dome (kple "tainted change" kuxia).
 
-![Sigma subɔsubɔhawo](https://pbs.twimg.com/media/Fsk2fxfWcAMUBDo.png)
+![Sigma subɔsubɔhawo](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
 
 ---
 
@@ -53,7 +53,7 @@ Viɖe vevi siwo dona tso eme:
 
 **Seɖoƒe**: Set ƒe lolome ƒe seɖoƒe le **gaku 65,000** fifia.
 
-![Lelantus ƒe viɖewo](https://pbs.twimg.com/media/Fsk2wK3X0AA6MEe.png)
+![Lelantus ƒe viɖewo](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
 
 ---
 
@@ -65,7 +65,7 @@ Esiawo wɔa dɔ abe **Notes** le Zcash me ene.
 
 Wotaa gaku ƒe ŋugbedodoa eye wodzraae ɖo ɖe agbalẽ gã la dzi ne wowɔ gaku la (to Mint alo Spend ƒe asitsatsa dzi).
 
-![Gaku ƒe ɖokuitsɔtsɔna ƒe nɔnɔmetata](https://pbs.twimg.com/media/Fsk3AWNX0AIHya8.png)
+![Gaku ƒe ɖokuitsɔtsɔna ƒe nɔnɔmetata](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
 
 ---
 
@@ -77,7 +77,7 @@ Lelantus zãa **basecoin si wonya nyuie < - > zerocoin** ƒe kpɔɖeŋu.
 
 Abe Zcash ene la, ele be ezãla natia asitsatsa siwo me kɔ la tẽ.
 
-![Lelantus ƒe sisi](https://pbs.twimg.com/media/Fsk3HrjXgAMgqmX.png)
+![Lelantus ƒe sisi](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
 
 ---
 
@@ -87,7 +87,7 @@ Lelantus zãa **Ðeka-ɖe-Kpeɖodzi Geɖe** tsɔ ɖea nyawo tsɔtsɔ de eme ƒe 
 
 Wozãa kpeɖodzi siawo le **Triptych** (si woyɔ le míaƒe CryptoNote ka me) hã me.
 
-![Kpeɖodzi Geɖeawo dometɔ Ðeka](https://pbs.twimg.com/media/Fsk3Z0nWIAAPD4k.jpg)
+![Kpeɖodzi Geɖeawo dometɔ Ðeka](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
 
 ---
 
@@ -103,7 +103,7 @@ Abe Monero ene la, Firo wɔ **Dandelion++** tsɔ tsɔ adzamenyawo kpee to asitsa
 
 Esia wɔnɛ be esesẽna ŋutɔ be woadi afisi asitsatsa aɖe dzɔ tso to network numekuku me.
 
-![Dandelion++ numeɖeɖe](https://pbs.twimg.com/media/Fsk4A8VWcAU84MR.png)
+![Dandelion++ numeɖeɖe](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
 
 ---
 
@@ -117,7 +117,7 @@ Atsɔ kpekpeɖeŋu hã akpe ɖe eŋu na:
 
 Nɔnɔme siawo sɔ kple Zcash Shielded Assets.
 
-![Lelantus-Spark ƒe gbeƒãɖeɖe](https://pbs.twimg.com/media/Fsk4jXeXsAACQ3h.jpg)
+![Lelantus-Spark ƒe gbeƒãɖeɖe](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
 
 ---
 

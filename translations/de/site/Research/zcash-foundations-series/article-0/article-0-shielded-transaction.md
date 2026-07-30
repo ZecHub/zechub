@@ -1,7 +1,7 @@
 # Wie eine abgeschirmte Zcash-Transaktion tatsächlich funktioniert
 ##### Originalforschung von [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![Alternativtext](image.png)
+![Alternativtext](/content-images/image-fedc371488.webp)
 
 ### Die Intuition vor der Mathematik: eine formelfreie Erklärung privater Zahlungen
 
@@ -46,7 +46,7 @@ Geld kann sogar die Grenze zwischen beiden überqueren: Gelder *in* die abgeschi
 
 Die transparente Welt ist „Bitcoin, das du grob schon verstehst“. Es ist die **abgeschirmte Welt**, die all die wunderschöne Kryptografie enthält, und nur für diese Welt interessiert sich diese Serie.
 
-![Alternativtext](image-1.png)
+![Alternativtext](/content-images/image-1-f821d24c6f.webp)
 
 ---
 
@@ -124,7 +124,7 @@ Das Wunder ist, dass der Beweis **keine** dieser Tatsachen offenlegt. Weder den 
 
 Eine Note wird *geboren*, sie *lebt* auf der Tafel, und irgendwann *stirbt* sie, und entscheidend ist, dass ihre Geburt und ihr Tod für jeden Beobachter unverbunden aussehen.
 
-![Alternativtext](image-2.png)
+![Alternativtext](/content-images/image-2-0eca0ea4f7.webp)
 
 ---
 
@@ -132,7 +132,7 @@ Eine Note wird *geboren*, sie *lebt* auf der Tafel, und irgendwann *stirbt* sie,
 
 Schauen wir Alice dabei zu, wie sie Bob bezahlt, wobei jeder öffentliche und private Schritt beschriftet ist.
 
-![Alternativtext](image-4.png)
+![Alternativtext](/content-images/image-4-7af0dfe795.webp)
 
 Beachte die Asymmetrie, die die Privatsphäre möglich macht:
 
@@ -187,7 +187,7 @@ Gute Bildungsinhalte verdienen Vertrauen, indem sie sagen, was sie ausgelassen h
 
 Jedes „darauf kommen wir zurück“ weiter oben ist ein Faden. Hier wird jeder davon verknüpft:
 
-![Alternativtext](image-29.png)
+![Alternativtext](/content-images/image-29-27ef4636ff.webp)
 
 | Offenes Ende aus diesem Artikel | Wo es aufgelöst wird |
 |---|---|

@@ -4,7 +4,7 @@
 
 
 # Digital Cash Network 上的 The Zcash Podcast
-![2023-01-22_21-50-14 截图](https://user-images.githubusercontent.com/81990132/213973803-b0629c92-08d4-459b-99f1-594854a7db3a.png)
+![2023-01-22_21-50-14 截图](/content-images/213973803-b0629c92-08d4-459b-99f1-594854-6272d02af6.webp)
 
 The Zcash Podcast 为现有 Zcash 社区提供更新、特定主题深度解析等内容，供大家观看和分享，同时也让现有 Digital Cash Network 频道订阅者有机会更深入地了解 Zcash。 
 

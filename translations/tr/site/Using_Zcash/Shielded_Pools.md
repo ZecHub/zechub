@@ -34,7 +34,7 @@ Zcash geliştikçe, mevcut fonlarla uyumluluğu korurken güvenliği, gizliliği
 
 <br/>
 
-![img1](https://github.com/user-attachments/assets/4ba8cca2-cea5-42d2-8ec2-2122b26f5144)
+![img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
 Şekil 1: Ekim 2025 itibarıyla mevcut 4 havuzu gösteren bir grafik
 
 <br/>
@@ -45,7 +45,7 @@ Zcash geliştikçe, mevcut fonlarla uyumluluğu korurken güvenliği, gizliliği
 1. <h3 id="orchard" class="text-3xl font-bold my-4">Orchard Havuzu</h3>
 
 
-![img2](https://github.com/user-attachments/assets/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72)
+![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
 Şekil 2: Ekim 2025 itibarıyla Orchard havuzunu gösteren bir grafik
 
 <br/>
@@ -63,7 +63,7 @@ ____
 2. <h3 id="sapling" class="text-3xl font-bold my-4">Sapling Havuzu</h3>
 
 
-![img3](https://github.com/user-attachments/assets/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae)
+![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
 Şekil 3: Ekim 2025 itibarıyla Sapling havuzunu gösteren bir grafik
 
 <br/>
@@ -83,7 +83,7 @@ ____
 3. <h3 id="sprout" class="text-3xl font-bold my-4">Sprout Havuzu</h3>
 
 
-![img4](https://github.com/user-attachments/assets/956eceed-f4d6-4087-99d0-32a770449dda)
+![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
 Şekil 4: Ekim 2025 itibarıyla Sprout havuzunu gösteren bir grafik
 
 Sprout, şimdiye kadar başlatılan ilk açık ve izinsiz Zero Knowledge gizlilik protokolüydü. 28 Ekim 2016'da başlatıldı.
@@ -98,7 +98,7 @@ Shielded işlemlerin sayısı arttıkça Zcash ekosistemi genişlemeye devam ede
 4. <h3 id="transparent" class="text-3xl font-bold my-4">Transparent Havuzu</h3>
 <br/>
 
-![img5](https://github.com/user-attachments/assets/01de2907-b62d-4421-83d7-ea4908faa828)
+![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
 Şekil 5: Ekim 2025 itibarıyla Transparent havuzunu gösteren bir grafik
 
 <br/>

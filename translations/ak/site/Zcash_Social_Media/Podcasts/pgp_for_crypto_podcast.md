@@ -4,7 +4,7 @@
 
 
 # PGP* a wɔde yɛ Crypto Podcast
-![bannerpgp a wɔde yɛ adwuma](https://user-images.githubusercontent.com/81990132/221758326-06cea3f5-4c9e-4466-b9ee-73854628a6aa.png)
+![bannerpgp a wɔde yɛ adwuma](/content-images/221758326-06cea3f5-4c9e-4466-b9ee-738546-01f88aec39.webp)
 
 Yɛma wo akwaaba ba “PGP * (Pretty Good Policy) ma Crypto Podcast," Electric Coin Co. nhyehyɛe bi!
 

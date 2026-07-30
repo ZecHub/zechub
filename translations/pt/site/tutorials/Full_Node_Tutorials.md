@@ -12,31 +12,31 @@ Leia o nosso guia sobre [Nós Completos](https://zechub.wiki/full-nodes) para ma
 
 - Como compilar Zcashd no Raspberry Pi 4
 
-[![Miniatura do vídeo](https://img.youtube.com/vi/SGYrzhs1l2k/hqdefault.jpg)](https://www.youtube.com/watch?v=SGYrzhs1l2k)
+[![Miniatura do vídeo](/content-images/hqdefault-7968659090.webp)](https://www.youtube.com/watch?v=SGYrzhs1l2k)
 ____
 
 - Ferramenta de carteira Zcashd
 
-[![Miniatura do vídeo](https://img.youtube.com/vi/9t2LX3HFldw/hqdefault.jpg)](https://www.youtube.com/watch?v=9t2LX3HFldw)
+[![Miniatura do vídeo](/content-images/hqdefault-0b326338e3.webp)](https://www.youtube.com/watch?v=9t2LX3HFldw)
 ____
 
 - Guia prático para usar o Zcashd 
 
-[![Miniatura do vídeo](https://img.youtube.com/vi/KNhd1KC0Bqk/hqdefault.jpg)](https://www.youtube.com/watch?v=KNhd1KC0Bqk)
+[![Miniatura do vídeo](/content-images/hqdefault-eddbbab4b4.webp)](https://www.youtube.com/watch?v=KNhd1KC0Bqk)
 ____
 
 - Como atualizar um nó Zcashd
 
-[![Miniatura do vídeo](https://img.youtube.com/vi/YjAkaseEqAE/hqdefault.jpg)](https://www.youtube.com/watch?v=YjAkaseEqAE)
+[![Miniatura do vídeo](/content-images/hqdefault-e342e5e0b5.webp)](https://www.youtube.com/watch?v=YjAkaseEqAE)
 _____
 
 - Utilizar o servidor lightwalletd com Zebra
 
-[![Miniatura do vídeo](https://img.youtube.com/vi/FfH5jiX8pT0/hqdefault.jpg)](https://www.youtube.com/watch?v=FfH5jiX8pT0)
+[![Miniatura do vídeo](/content-images/hqdefault-e1135bf69b.webp)](https://www.youtube.com/watch?v=FfH5jiX8pT0)
 
 
 ____
 
 - Publicar comentários no Free2Z com o Zenith CLI
 
-[![Miniatura do vídeo](https://img.youtube.com/vi/HtorP8TJ5vk/hqdefault.jpg)](https://www.youtube.com/watch?v=HtorP8TJ5vk)
+[![Miniatura do vídeo](/content-images/hqdefault-1bd406037a.webp)](https://www.youtube.com/watch?v=HtorP8TJ5vk)

@@ -5,7 +5,7 @@
 ¡Una interesante hoy!  
 El protocolo **CryptoNote** permite una sólida privacidad on-chain. Hoy aprendemos todas sus características clave y cómo ha sido implementado por varios proyectos de privacidad destacados.
 
-![Introducción a CryptoNote](https://pbs.twimg.com/media/FrXr5P8WIAAvx36.jpg)
+![Introducción a CryptoNote](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
 
 ---
 
@@ -35,7 +35,7 @@ Al enviar una transacción, tu clave pública real se mezcla con varias claves s
 
 El **tamaño del anillo** afecta significativamente el conjunto de anonimato. Los anillos más grandes proporcionan mejor privacidad.
 
-![Explicación de las Firmas de Anillo](https://pbs.twimg.com/media/FrXteGHXgAANE0F.png)
+![Explicación de las Firmas de Anillo](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
 
 **Comparación con Zcash**:  
 El conjunto de anonimato de Zcash es el número total de transacciones realizadas *alguna vez* en un determinado pool blindado (mucho mayor que los tamaños de anillo típicos de CryptoNote).
@@ -48,7 +48,7 @@ El modelo **Ring CT** mejoró enormemente la privacidad en las monedas basadas e
 
 En lugar de ocultar solo al remitente, Ring CT también **ofusca los montos de las transacciones** entre remitente y destinatario.
 
-![Diagrama de Ring CT](https://pbs.twimg.com/media/FrXuivgWYAAze7B.png)
+![Diagrama de Ring CT](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
 
 Utiliza:
 - Criptografía de curva elíptica
@@ -59,7 +59,7 @@ Se utilizan **pruebas** para demostrar que la cantidad es mayor que 0 y está de
 
 Las **Direcciones ocultas** también añaden direcciones de un solo uso para el destinatario.
 
-![Direcciones ocultas + Pruebas](https://pbs.twimg.com/media/FrXut5aWAAMhuRb.jpg)
+![Direcciones ocultas + Pruebas](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
 
 ---
 
@@ -74,7 +74,7 @@ Utiliza el algoritmo **CryptoNight** (una función memory-hard). A diferencia de
 2. Realizar numerosas operaciones de lectura/escritura en el scratchpad
 3. Hashear todo el scratchpad para producir el valor final
 
-![Minería con CryptoNight](https://pbs.twimg.com/media/FrXvNs3XsAA37LG.jpg)
+![Minería con CryptoNight](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
 
 (Nota: desde entonces, Monero se ha alejado de CryptoNight y ha pasado a otros algoritmos).
 
@@ -86,7 +86,7 @@ En lugar de eventos repentinos de halving (como Bitcoin), CryptoNote utiliza una
 
 Esto crea una curva de emisión mucho más suave a lo largo del tiempo.
 
-![Curva de emisión dinámica](https://pbs.twimg.com/media/FrXv8wpXoAEjUxW.png)
+![Curva de emisión dinámica](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
 
 **Conexión con Zcash**:  
 Los desarrolladores de Zcash han debatido implementar en el futuro una curva de emisión más suave, potencialmente mediante un "Zcash Posterity Fund".

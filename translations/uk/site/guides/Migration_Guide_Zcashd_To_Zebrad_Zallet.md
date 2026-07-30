@@ -6,7 +6,7 @@
 - Zallet — це легкий гаманець, створений для безшовної взаємодії з вузлами Zebra, розробленими Zodl
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ChatGPTImageOct12202508_15_20A](https://hackmd.io/_uploads/SJNBsSYTel.jpg)
+![ChatGPTImageOct12202508_15_20A](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
 Цей посібник проведе вас через міграцію з **Zcashd** на **Zebrad** і **Zallet**, включно з налаштуванням, імпортом гаманця та усуненням типових проблем під час міграції.
@@ -37,7 +37,7 @@
 * Зробіть резервну копію вашого wallet.dat (або будь-якого іншого файлу гаманця / сховища ключів) з вашого вузла zcashd.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (1)](https://hackmd.io/_uploads/SJ_0mUtTxg.svg)
+![bash (1)](/content-images/SJ_0mUtTxg-1441185a72.svg)
 </div>
 
 * Збережіть ваш zcash.conf і всі власні налаштування.
@@ -63,7 +63,7 @@
 На **Linux**/**macOS**:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (2)](https://hackmd.io/_uploads/HJhYu8Y6el.svg)
+![bash (2)](/content-images/HJhYu8Y6el-d2198f22c9.svg)
 </div>
 
 Це встановить останню стабільну версію zebrad.
@@ -71,20 +71,20 @@
 **Варіант B: Збірка з джерельного коду**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (3)](https://hackmd.io/_uploads/Syg8FUK6eg.svg)
+![bash (3)](/content-images/Syg8FUK6eg-b4557e52e0.svg)
 </div>
 
 Після збірки перемістіть бінарний файл у ваш path:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![migration 11](https://hackmd.io/_uploads/BJ0zjLY6ll.png)
+![migration 11](/content-images/BJ0zjLY6ll-f77354d701.webp)
 </div>
 
 **4. Конфігурація та запуск**  
 Згенеруйте стандартний конфіг:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![migration2](https://hackmd.io/_uploads/HJV1C8tTxx.png)
+![migration2](/content-images/HJV1C8tTxx-5823395651.webp)
 </div>
 
 Відредагуйте **zebrad.toml** відповідно до ваших уподобань (адреса прослуховування, порти, каталог стану, кешування).
@@ -92,7 +92,7 @@
 **Запуск вузла:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/H1KPkvt6gl.png)
+![image](/content-images/H1KPkvt6gl-864c48ca40.webp)
 </div>
 
 Вузол почне синхронізацію з genesis — залежно від обладнання та мережі це може тривати кілька годин (або більше).
@@ -106,7 +106,7 @@ Zallet створений, щоб замінити частину zcashd, пов
 **Або зберіть із джерельного коду:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/SyUFxvFTex.png)
+![image](/content-images/SyUFxvFTex-5bb10ee1d3.webp)
 </div>
 
 * Запустіть GUI або CLI (залежно від того, що передбачає ваше встановлення).
@@ -118,7 +118,7 @@ Zallet створений, щоб замінити частину zcashd, пов
 У zcashd експортуйте ваші приватні ключі:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (4)](https://hackmd.io/_uploads/rJzgzwFagx.svg)
+![bash (4)](/content-images/rJzgzwFagx-4a0874f250.svg)
 </div>
 
 * У Zallet виберіть Import Keys або схожу опцію.
@@ -143,13 +143,13 @@ Zallet створений, щоб замінити частину zcashd, пов
 Ви можете перевірити статус синхронізації вашого вузла, виконавши:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/SyIyVDY6xl.png)
+![image](/content-images/SyIyVDY6xl-10d6bed7b8.webp)
 </div>
 
 Або перевірте логи.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/r1HfVPF6gg.png)
+![image](/content-images/r1HfVPF6gg-b6b76e9907.webp)
 </div>
 
 **8. Усунення проблем**

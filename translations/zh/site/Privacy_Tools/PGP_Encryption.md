@@ -14,7 +14,7 @@ Pretty Good Privacy (PGP) 是一个密码学软件包，用于在不安全的信
 * **[PGPMail](https://www.openpgp.org/software/)**：PGPMail 是一个商用的 PGP 电子邮件客户端，可用于 Windows 和 macOS。
 * **[Mailvelope](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**：Mailvelope 是一个适用于 Gmail 和 Thunderbird 的免费开源 PGP 扩展。
 
-![PGP 工具](https://github.com/ZecHub/zechub/assets/81990132/44984a75-800a-4f7a-94a5-88827e39b431)
+![PGP 工具](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
 
 ## 如何生成密钥
 
@@ -28,7 +28,7 @@ Pretty Good Privacy (PGP) 是一个密码学软件包，用于在不安全的信
 
 你的 PGP 密钥对将会生成。
 
-![生成密钥](https://github.com/ZecHub/zechub/assets/81990132/15721ce1-0a77-4ebe-87f4-33e1455f2a40)
+![生成密钥](/content-images/15721ce1-0a77-4ebe-87f4-33e1455f2a40-7699b1771d.webp)
 
 ## 如何将 PGP 用于电子邮件
 
@@ -36,7 +36,7 @@ Pretty Good Privacy (PGP) 是一个密码学软件包，用于在不安全的信
 
 对于任何没有收件人私钥的人来说，这封加密邮件都是不可读的。要解密邮件，收件人可以使用他们的私钥来进行解密。
 
-![PGP 电子邮件](https://github.com/ZecHub/zechub/assets/81990132/dafb761d-f399-40c9-9323-526ba3bd0bc4)
+![PGP 电子邮件](/content-images/dafb761d-f399-40c9-9323-526ba3bd0bc4-98503ad98b.webp)
 
 ## 最佳实践
 
@@ -44,9 +44,9 @@ Pretty Good Privacy (PGP) 是一个密码学软件包，用于在不安全的信
 
 * 妥善保管你的私钥。私钥是 PGP 密钥对中最重要的部分。如果有人获取了你的私钥，他们就可以解密任何使用你公钥加密的消息。
 
-![最佳实践 1](https://github.com/ZecHub/zechub/assets/81990132/39a6fae4-a9a1-4061-a97c-4a9b975f6383)
+![最佳实践 1](/content-images/39a6fae4-a9a1-4061-a97c-4a9b975f6383-eced005c8b.webp)
 
-![最佳实践 2](https://github.com/ZecHub/zechub/assets/81990132/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd)
+![最佳实践 2](/content-images/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd-50ca49a070.webp)
 
 * 仅与信任的人分享你的公钥。你可以通过直接发送给对方，或将其上传到 PGP 密钥服务器来共享你的公钥。
 * 为你的 PGP 密钥环使用强密码。PGP 密钥环是存储 PGP 密钥的文件。使用强密码来保护该文件非常重要。
@@ -61,11 +61,11 @@ Pretty Good Privacy (PGP) 是一个密码学软件包，用于在不安全的信
 * 点击“Encrypt”按钮。
 * 电子邮件将被加密。
 
-![加密电子邮件](https://github.com/ZecHub/zechub/assets/81990132/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e)
+![加密电子邮件](/content-images/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e-6edd4a03ea.webp)
 
 ---
 
-![加密流程](https://github.com/ZecHub/zechub/assets/81990132/da1499e9-fc87-46b2-93ed-28d43cf1fd86)
+![加密流程](/content-images/da1499e9-fc87-46b2-93ed-28d43cf1fd86-86fdc87d10.webp)
 
 ## 如何使用 PGP 解密电子邮件
 
@@ -76,4 +76,4 @@ Pretty Good Privacy (PGP) 是一个密码学软件包，用于在不安全的信
 * 点击“Decrypt”按钮。
 * 电子邮件将被解密。
 
-![解密电子邮件](https://github.com/ZecHub/zechub/assets/81990132/beae714c-020f-4c1e-aa4f-3dd9430670cc)
+![解密电子邮件](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)

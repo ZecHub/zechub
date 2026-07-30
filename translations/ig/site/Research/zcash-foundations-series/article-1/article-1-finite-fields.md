@@ -1,7 +1,7 @@
 # Ogige ndị nwere njedebe: Usoro ọnụọgụgụ nke Cryptography bi na ya
 ##### Nnyocha mbụ sitere na [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [Alt ederede](image-5.png)
+! [Alt ederede](/content-images/image-5-6e8a8950f8.webp)
 
 ### Ihe mere "ịtụgharị" bụ ntọala nzuzo nke Zcash
 
@@ -38,7 +38,7 @@ Ndepụta ọchịchọ ahụ nwere aha. Ọ bụ ** ubi a na-ejedebe **. Ka any
 
 On a 12-hour clock, numbers *wrap around*. Start at 10 o'clock, add 5 hours, and you don't land on "15 o'clock," you land on **3 o'clock**. The clock has only twelve positions, and counting past the top simply loops back to the start.
 
-! [Alt ederede](image-9.png)
+! [Alt ederede](/content-images/image-9-30b39f4cc5.webp)
 
 Ihe atọ mere n'oge na-adịbeghị anya bụ isi ihe dị n'isiokwu a:
 
@@ -107,7 +107,7 @@ That second sentence is a catastrophe for arithmetic. Two nonzero things multipl
 
 A prime, by definition, has no such factors. So mod a prime, no zero divisors can appear, every nonzero element gets a clean reciprocal, and the structure is a proper field.
 
-! [Alt ederede](image-8.png)
+! [Alt ederede](/content-images/image-8-573914db92.webp)
 
 > ** Otu-liner reusable maka isiokwu gị: ** * prime modulus n'ime, ọcha nkewa si.*
 
@@ -159,7 +159,7 @@ Ikwesighi iwere "Zcash na-eji ubi ndị nwere njedebe" na okwukwe. Nke a bụ ma
 - **Orchard** (the current shielded design) uses a pair of curves called **Pallas and Vesta** (the "Pasta" curves), whose fields use primes roughly **255 bits** long.
 - **not commitment**, the **nullifier**, and the numbers inside a **zero-knowledge proof** from Article 0 are all, at bottom, elements of one of these finite fields. Mgbe protocol kwuru "compute this commitment", ọ pụtara "mee nke a arithmetic mod that prime".
 
-! [Alt ederede](image-7.png)
+! [Alt ederede](/content-images/image-7-c81fe982f0.webp)
 
 So the answer to Article 0's open question, *"where do the secret recipes come from?"*, begins here: **everything starts as arithmetic in a finite field.** In the next article we'll take that field and build the actual objects, points on an elliptic curve, that become keys and commitments.
 

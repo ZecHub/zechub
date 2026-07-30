@@ -17,13 +17,13 @@ Inoltre, Zaino permetterà di separare le funzionalità del light client dal nod
 ## Alcuni diagrammi che mostrano come funziona Zaino
 
 ### Architettura Interna di Zaino
-![Architettura Interna di Zaino](https://i.ibb.co/mRTNtfy/image-2025-01-02-190143429.png)
+![Architettura Interna di Zaino](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
 
 ### Architettura del Servizio Live di Zaino
-![Architettura del Servizio Live di Zebra](https://i.ibb.co/x7dbRY8/image-2025-01-02-190349017.png)
+![Architettura del Servizio Live di Zebra](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
 
 ### Architettura di Sistema di Zaino
-![Architettura di Sistema di Zaino](https://i.ibb.co/wwL0XZv/image-2025-01-02-190448037.png)
+![Architettura di Sistema di Zaino](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
 
 
 ## Dove posso saperne di più?

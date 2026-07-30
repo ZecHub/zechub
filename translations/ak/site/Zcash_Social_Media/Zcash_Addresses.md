@@ -15,7 +15,7 @@ Sɛ woresua Zcash ho ade nea edi kan a wubehu sɛ nnwuma ahorow abien na ɛwɔ h
 
 **Shielded Transaction** kyerɛ asɛm biara a ɛwɔ address a wɔde encoded ama Sapling/Orchard pools.
 
-![Transparent vs Shielded nnianim asɛm](https://pbs.twimg.com/media/FpmW00HWIAIZpQD.jpg)
+![Transparent vs Shielded nnianim asɛm](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
 
 **Wɔayɛ Unified Addresses (UAs)** sɛ **wɔbɛka** nnwuma a wɔabɔ ho ban anaa ɛda adi pefee ayɛ no address baako.
 
@@ -31,9 +31,9 @@ Address ahorow 3 na wɔde di dwuma:
 
 Nkyerɛwde dodow (na ɛno nti QR koodu kɛse) kɔ soro bere biara a wɔakyerɛw no.
 
-![Address ahorow a wɔde toto ho](https://pbs.twimg.com/media/FpmXe5bXsAEFeLY.png)
+![Address ahorow a wɔde toto ho](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
 
-![QR koodu kɛseɛ ntotoho](https://pbs.twimg.com/media/FpmXmDwXoAIWxov.png)
+![QR koodu kɛseɛ ntotoho](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
 
 ---
 
@@ -50,7 +50,7 @@ Unified Address no raw encoding yɛ encodings (typecode, tenten, addr) a wɔaka 
 
 **Nea ɛho hia**: Ɛsɛ sɛ **anyɛ yiye koraa no, address biako a wɔde tua sika a wɔabɔ ho ban** wɔ UA biara mu. (Wɔmmoa Sprout address ahorow bio wɔ Canopy upgrade no akyi.)
 
-![UA encoding nhyehyɛe](https://pbs.twimg.com/media/FpmYW1ZXgAAvALT.png)
+![UA encoding nhyehyɛe](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
 
 Nkyerɛkyerɛmu a edi mũ: **[ZIP-316: Address ahorow a Wɔaka abom](https://zips.z.cash/zip-0316)**
 

@@ -2,7 +2,7 @@
 published: 2023-12-07
 ---
 
-![CBDC](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/cbdc.webp)
+![CBDC](/content-images/cbdc-dfb8827faa.webp)
 # Svelando il lato oscuro: navigare l'odissea delle Central Bank Digital Currency (CBDC) tra le ombre finanziarie
 Di : [**Abhishek Tiwari**]
 
@@ -37,7 +37,7 @@ Implementare le CBDC diventa la missione del nostro eroe, un viaggio irto di sfi
 __Cina: Digital Currency Electronic Payment (DCEP)__
 
 
-![DCEP](https://forkast.news/wp-content/uploads/2020/08/dcep-featured.jpg)
+![DCEP](/content-images/dcep-featured-c278cf0ef6.webp)
 
 Nelle strade distopiche della Cina, il Digital Currency Electronic Payment (DCEP) si dispiega non come una meraviglia, ma come un presagio di controllo sociale con il proprio insieme di ombre finanziarie minacciose. Le transazioni di tutti i giorni pulsano di vita, grazie al denaro programmabile e al fascino delle funzionalità offline.
 
@@ -50,7 +50,7 @@ La storia cinese di opacità finanziaria e di ingerenza governativa nel settore 
 
 __Stati Uniti: Digital Dollar Project__
 
-![Digital Dollar](https://www.ledgerinsights.com/wp-content/uploads/2020/03/digital-dollar-CBDC.jpg)
+![Digital Dollar](/content-images/digital-dollar-CBDC-8e8120f52f.webp)
 
 Nei vasti e desolanti paesaggi degli Stati Uniti, il Digital Dollar Project emerge non come un faro di progresso, ma come una testimonianza di efficienza e inclusività, sebbene con la sua dose di incertezze. Iniziativa del settore privato, mira a ridisegnare il panorama finanziario in una narrazione tinta di sfumature di controllo aziendale.
 
@@ -62,7 +62,7 @@ Gli USA hanno una storia complessa di regolamentazione finanziaria, con frequent
 
 __Svezia: E-Krona__
 
-![E-Krona](https://www.paymentscardsandmobile.com/wp-content/uploads/2018/10/ekrona_logo.png)
+![E-Krona](/content-images/ekrona_logo-4596e38b72.webp)
 
 Mentre attraversiamo i paesaggi desolati della Svezia, l'E-Krona si dispiega come una narrazione di adattabilità, ma non senza le sue insidie finanziarie. È un'evoluzione digitale incentrata sul mantenimento dell'accesso alla valuta in una società senza contanti, che ritrae una società priva delle familiari comodità del contante fisico.
 
@@ -95,7 +95,7 @@ La sorveglianza governativa, un tempo concetto lontano, diventa un potenziale an
 
 L'inclusione finanziaria, un tempo faro di speranza, affronta le ombre di una potenziale discriminazione. L'uso improprio delle CBDC potrebbe portare a un accesso selettivo, violando i principi di parità di trattamento e di inclusività. È una trama secondaria che sfida l'essenza stessa della libertà finanziaria.
 
-![Flow](https://blog.digitalasset.com/hubfs/Imported_Blog_Media/futureofCBDC-2.png)
+![Flow](/content-images/futureofCBDC-2-45075d2d9c.webp)
 
 ## Risorse: una mappa per l'esploratore digitale
 

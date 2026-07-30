@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/amochuko/zechub/68acdb6f311bff85fe8ded7b47b2e362d7712474/assets/icons/programmer-software-engineer-coder-software-developer-svgrepo-com.svg" width="24" height="24" alt="Freelancer icon"/> फ्रीलांसर के लिए Zcash के साथ गोपनीयता सेटअप
+# <img src="/content-images/programmer-software-engineer-coder-softw-bce5a0cb5b.svg" width="24" height="24" alt="Freelancer icon"/> फ्रीलांसर के लिए Zcash के साथ गोपनीयता सेटअप
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
@@ -15,7 +15,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> यह किसके लिए है?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> यह किसके लिए है?
 
 - फ्रीलांसर और संबोधक  
 - क्रिप्टो में भुगतान प्राप्त करने वाले रिमोट कर्मचारी  
@@ -24,7 +24,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> समस्या
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> समस्या
 
 पब्लिक क्रिप्टो उपयोग करने वाले फ्रीलांसर प्रकट करते हैं:
 - अपनी आय  
@@ -38,7 +38,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> क्यों Zcash?
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> क्यों Zcash?
 
 Zcash आपको अनुमति देता है:
 - गोपनीय रूप से भुगतान प्राप्त करें  
@@ -47,14 +47,14 @@ Zcash आपको अनुमति देता है:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> आवश्यकता
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> आवश्यकता
 
 - मेमो समर्थन के साथ Zcash वॉलेट  
 - छिपे हुए पतों के बारे में मूल ज्ञान  
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> चरण-दर-चरण मार्गदर्शन
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> चरण-दर-चरण मार्गदर्शन
 
 ### चरण 1: भुगतान पता बनाएं
 
@@ -86,7 +86,7 @@ Zcash आपको अनुमति देता है:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> बचाव के लिए सामान्य गलतियों
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> बचाव के लिए सामान्य गलतियों
 
 - भुगतान के लिए प्रकाशित पता का उपयोग  
 - सभी ग्राहकों में एक ही पता का पुनर्उपयोग  
@@ -95,7 +95,7 @@ Zcash आपको अनुमति देता है:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> परिणाम
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> परिणाम
 
 आप कर सकते हैं:
 - गोपनीय रूप से भुगतान प्राप्त करें  
@@ -104,13 +104,13 @@ Zcash आपको अनुमति देता है:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> संबंधित
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> संबंधित
 
 - [वॉलेट्स](/wallets)
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/progress-arrows-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> प्रगति
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> प्रगति
 
 **6 चरणों में 3वाँ चरण**
 

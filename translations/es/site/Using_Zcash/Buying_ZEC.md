@@ -55,12 +55,12 @@ La mayoría de los principales exchanges admiten Zcash. Consulta aquí una lista
 Estos exchanges admiten retiros transparentes. Esto significa que, cuando retiras ZEC a tu wallet, necesitas enviarlo a tu dirección transparente, tu dirección pública de ZEC. 
 Haz clic [aquí](https://zechub.wiki/using-zcash/non-custodial-exchanges) para ver más detalles.
 
-![dex](https://github.com/user-attachments/assets/bfe2e9cf-2def-4593-b790-152e14b23da3)
+![dex](/content-images/bfe2e9cf-2def-4593-b790-152e14b23da3-f94f97c7e6.webp)
 
 
 Al hacer esto, recomendamos usar una de las siguientes [wallets](https://zechub.wiki/wallets). 
 
-![móvil](https://github.com/user-attachments/assets/8b7618f5-dec6-4e6b-9804-db75be5c1e2f)
+![móvil](/content-images/8b7618f5-dec6-4e6b-9804-db75be5c1e2f-14fa53d3bd.webp)
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">

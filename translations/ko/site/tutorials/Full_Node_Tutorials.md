@@ -12,31 +12,31 @@ Zcash 풀 노드는 네트워크에서 투명 트랜잭션과 실드 트랜잭�
 
 - Raspberry Pi 4에서 Zcashd 컴파일하는 방법
 
-[![Video Thumbnail](https://img.youtube.com/vi/SGYrzhs1l2k/hqdefault.jpg)](https://www.youtube.com/watch?v=SGYrzhs1l2k)
+[![Video Thumbnail](/content-images/hqdefault-7968659090.webp)](https://www.youtube.com/watch?v=SGYrzhs1l2k)
 ____
 
 - Zcashd 지갑 도구
 
-[![Video Thumbnail](https://img.youtube.com/vi/9t2LX3HFldw/hqdefault.jpg)](https://www.youtube.com/watch?v=9t2LX3HFldw)
+[![Video Thumbnail](/content-images/hqdefault-0b326338e3.webp)](https://www.youtube.com/watch?v=9t2LX3HFldw)
 ____
 
 - Zcashd 사용 실전 가이드 
 
-[![Video Thumbnail](https://img.youtube.com/vi/KNhd1KC0Bqk/hqdefault.jpg)](https://www.youtube.com/watch?v=KNhd1KC0Bqk)
+[![Video Thumbnail](/content-images/hqdefault-eddbbab4b4.webp)](https://www.youtube.com/watch?v=KNhd1KC0Bqk)
 ____
 
 - Zcashd 노드 업그레이드 방법
 
-[![Video Thumbnail](https://img.youtube.com/vi/YjAkaseEqAE/hqdefault.jpg)](https://www.youtube.com/watch?v=YjAkaseEqAE)
+[![Video Thumbnail](/content-images/hqdefault-e342e5e0b5.webp)](https://www.youtube.com/watch?v=YjAkaseEqAE)
 _____
 
 - Zebra와 함께 Lightwalletd 서버 사용하기
 
-[![Video Thumbnail](https://img.youtube.com/vi/FfH5jiX8pT0/hqdefault.jpg)](https://www.youtube.com/watch?v=FfH5jiX8pT0)
+[![Video Thumbnail](/content-images/hqdefault-e1135bf69b.webp)](https://www.youtube.com/watch?v=FfH5jiX8pT0)
 
 
 ____
 
 - Zenith CLI로 Free2Z에 댓글 게시하기
 
-[![Video Thumbnail](https://img.youtube.com/vi/HtorP8TJ5vk/hqdefault.jpg)](https://www.youtube.com/watch?v=HtorP8TJ5vk)
+[![Video Thumbnail](/content-images/hqdefault-1bd406037a.webp)](https://www.youtube.com/watch?v=HtorP8TJ5vk)

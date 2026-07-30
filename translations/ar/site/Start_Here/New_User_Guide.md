@@ -101,7 +101,7 @@
 يتسم هذا المجتمع بالحماس والترحيب الكبير بالأعضاء الجدد. قد تكون بعض المحادثات تقنية أحيانًا، لكن لا تقلق! إذا كان لديك أي سؤال، يمكنك طرحه.
 
 <a href="">
-    <img width="auto" height="200" alt="شعار zcash الأفقي الشفاف" src="https://github.com/user-attachments/assets/c1d40441-4336-4754-b3bf-5a746b19a9d5" />
+    <img width="auto" height="200" alt="شعار zcash الأفقي الشفاف" src="/content-images/c1d40441-4336-4754-b3bf-5a746b19a9d5-6d2eca6cbf.webp" />
 </a>
 
 ---

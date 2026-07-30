@@ -41,7 +41,7 @@ MetaMask ora supporta **Zcash (ZEC) schermati** tramite lo **Zcash Snap sviluppa
       Store data on your device
    ```
 
-![Zcash-snap-install](https://hackmd.io/_uploads/Hy5MSG2Oex.png)
+![Zcash-snap-install](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
 
 
 ---
@@ -59,7 +59,7 @@ Per **BNB SmartChain**;
 -  Block Explorer URL: https://bscscan.com
 ```
 Questo abilita le informazioni di rete e i link per l'explorer.
-![Add-a-custom-Net....](https://hackmd.io/_uploads/S1hq7f2Oel.png)
+![Add-a-custom-Net....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
 
 Per **Zcash Mainnet**;
 ```markdown
@@ -75,13 +75,13 @@ Per **Zcash Mainnet**;
 1. Visita [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev).  
 2. Clicca **Connetti MetaMask Snap**.  
 
-![Zcash-web-wallet](https://hackmd.io/_uploads/Sk8nSz3dgl.png)
+![Zcash-web-wallet](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
 
 3. Approva la connessione.  
 4. Visualizza il riepilogo del tuo account Zcash, inclusi:
    - Unified Address e Transparent address
 
-![Account-summary-unif....](https://hackmd.io/_uploads/r17c_Mhdel.jpg)
+![Account-summary-unif....](/content-images/r17c_Mhdel-f4963826d5.webp)
 
 
 5. Attendi il completamento della sincronizzazione.
@@ -96,7 +96,7 @@ Per **Zcash Mainnet**;
 > **Scambia ETH -> ZEC** - Utilizza servizi come **LeoDex** e invia al tuo indirizzo schermato.  
 > **Prelievo da Exchange** - Preleva ZEC acquistati verso il tuo indirizzo schermato di WebZjs.  
 
-![LEODEX-SWAP](https://hackmd.io/_uploads/HyLQ0G2ugg.png)
+![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => Usa indirizzi schermati (z) per la **privacy completa**.
@@ -111,7 +111,7 @@ Per **Zcash Mainnet**;
    - Shielded recipient address  
    - Amount
 ```
-   ![Transfer-Balance](https://hackmd.io/_uploads/rkvcFfhdex.png)
+   ![Transfer-Balance](/content-images/rkvcFfhdex-bd55d079eb.webp)
 
 4. Conferma la transazione in MetaMask (firma la transazione).  
 5. I fondi ricevuti appariranno in WebZjs dopo la conferma.
@@ -145,7 +145,7 @@ Per **Zcash Mainnet**;
    Transparent Address
 ``` 
 
-![Address-components](https://hackmd.io/_uploads/SyPR2f2_gg.png)
+![Address-components](/content-images/SyPR2f2_gg-3907c5bf58.webp)
 
 
 

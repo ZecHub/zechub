@@ -27,7 +27,7 @@
 
 ننشر المشكلات الخاصة بالمهام التي لدينا حاليًا مكافآت مفتوحة لها كل يوم اثنين. يمكنك أيضًا اقتراح مكافآت! توجد هذه بشكل أساسي في ZEC Bounties.
 
-![zecbounties](https://github.com/user-attachments/assets/0e4f5109-c0c9-4a0a-8d71-8172e36b9726)
+![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 
 
 

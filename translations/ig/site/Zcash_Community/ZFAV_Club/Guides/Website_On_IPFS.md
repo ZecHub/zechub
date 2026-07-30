@@ -4,7 +4,7 @@
 
 # Bipute Weebụsaịtị na IPFS 
 
-![](https://blog.desdelinux.net/wp-content/uploads/2020/04/IPFS-.jpg)
+![](/content-images/IPFS-40c2e22732.webp)
 
 ## Okwu Mmalite nke IPFS 
 
@@ -55,7 +55,7 @@ Iji Terminal ma ọ bụ ngwa ngwa iwu, Run command: <mark>ipfs init </mark>.
 
 Họrọ nchekwa na faịlụ weebụsaịtị gị ma gaa na nhọrọ Tinye nchekwa.
 
-![](https://i.ibb.co/ZHW4zsY/ipfs-site-folder.png)
+![](/content-images/ipfs-site-folder-2c96524d98.webp)
 
 --
 
@@ -92,11 +92,11 @@ N'okwu anyị CID = "QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3"
 
 Interplanetary Naming System (IPNS) allows you to update the IPFS CID's associated with your website and still serve a static link. It is provided as a key. 
 
-![](https://dnslink.io/assets/dns-query.a0134a75.png)
+![](/content-images/dns-query.a0134a75-9ef7817f80.webp)
 
 Na menu ntọala maka ebe nrụọrụ weebụ gị foldre na ngwa desktọọpụ IPFS họrọ Bipute na IPNS. 
 
-![](https://i.ibb.co/Ch25dKf/IPNS.png)
+![](/content-images/IPNS-2fe62cc369.webp)
 
 Key: "k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n"
 
@@ -109,7 +109,7 @@ E mepụtara saịtị ahụ, ugbu a anyị chọrọ ụzọ iji tụọ URL na
 
 If you already own a web address you are able to add a new record using the TXT record "_dnslink(your domain)". Depending on provider it may auto populate. 
 
-![](https://i.ibb.co/MgRxBHj/example.png)
+![](/content-images/example-c2a9edb28b.webp)
 
 Ọ ga-ewe oge iji gbasaa site na netwọk tupu ị nwee ike ile ya anya. 
 

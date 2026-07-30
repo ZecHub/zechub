@@ -1,7 +1,7 @@
 # Uthibitisho wa Ujuzi-Zero: Kuthibitisha Wewe ni haki bila kusema kwa nini
 ##### Utafiti wa awali kutoka [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [ alt maandishi](image-23.png)
+! [ alt maandishi](/content-images/image-23-71534bece9.webp)
 
 ### Pazia ambalo huruhusu ulimwengu kuthibitisha kile ambacho hakiwezi kamwe kuona
 
@@ -40,7 +40,7 @@ Hadithi hiyo ya pango inaonyesha kwa utulivu dhamana tatu ambazo kila uthibitish
 
 ## 3. Dhamana tatu
 
-! [ alt maandishi](image-24.png)
+! [ alt maandishi](/content-images/image-24-b559d31849.webp)
 
 Dhamana katika hadithi ya pango katika Zcash
 |---|---|---|
@@ -62,7 +62,7 @@ Daraja ni wazo ambalo linaunganisha mfululizo huu wote pamoja:
 
 Fikiria mzunguko kama orodha ya vikwazo arithmetic kwamba ni * wote kuridhika tu kama taarifa ni kweli.* pembejeo binafsi kwamba kufanya kila kitu kuangalia nje, kumbuka yako, ufunguo wako, njia Merkle, ni kuitwa ** shahidi.**
 
-! [ alt maandishi](image-25.png)
+! [ alt maandishi](/content-images/image-25-2479377e43.webp)
 
 This is why we spent Article 1 on finite fields and Article 3 on ZK-friendly hashes: the circuit speaks field arithmetic, so every operation inside the statement (including hashing and the Merkle climb of Article 4) has to be expressed that way. The cheaper each operation is to express, the smaller and faster the proof.
 
@@ -90,7 +90,7 @@ Hakuna chakula cha mchana bure. wengi SNARKs haja ya mara moja ** kuanzisha ** a
 
 Siri hii iliyobaki ina jina la utani ** taka zenye sumu. * Ili kuiondoa salama, Zcash iliendesha sherehe za vyama vingi ambapo washiriki wengi huru kila mmoja alichangia nasibu; kwa muda mrefu kama * hata moja * iliharibu kipande chao kwa uaminifu, taka yenye sumu haiwezi kupatikana.
 
-! [ alt maandishi](image-26.png)
+! [ alt maandishi](/content-images/image-26-cdad6625cd.webp)
 
 Mifumo mpya kuondoa mahitaji haya kabisa, ambayo ni moja ya sababu kubwa Zcash maendeleo mfumo wake ushahidi baada ya muda.
 

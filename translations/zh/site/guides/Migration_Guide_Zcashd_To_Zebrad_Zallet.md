@@ -6,7 +6,7 @@ Zcash 生态系统正在演进。由 *Electric Coin Company (ECC)* / *Zodl* 维�
 - Zallet 是由 Zodl 开发的轻量级钱包，旨在与 Zebra 节点无缝对接
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ChatGPTImageOct12202508_15_20A](https://hackmd.io/_uploads/SJNBsSYTel.jpg)
+![ChatGPTImageOct12202508_15_20A](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
 本指南将带你完成从 **Zcashd** 到 **Zebrad** 和 **Zallet** 的迁移过程，包括安装配置、钱包导入以及常见迁移问题的排查。
@@ -37,7 +37,7 @@ Zcash 生态系统正在演进。由 *Electric Coin Company (ECC)* / *Zodl* 维�
 * 备份 zcashd 节点中的 wallet.dat（或任何其他钱包文件 / 密钥存储）。
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (1)](https://hackmd.io/_uploads/SJ_0mUtTxg.svg)
+![bash (1)](/content-images/SJ_0mUtTxg-1441185a72.svg)
 </div>
 
 * 保存你的 zcash.conf 和所有自定义设置。
@@ -63,7 +63,7 @@ Zcash 生态系统正在演进。由 *Electric Coin Company (ECC)* / *Zodl* 维�
 在 **Linux**/**macOS** 上：
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (2)](https://hackmd.io/_uploads/HJhYu8Y6el.svg)
+![bash (2)](/content-images/HJhYu8Y6el-d2198f22c9.svg)
 </div>
 
 这将安装最新稳定版的 zebrad。
@@ -71,20 +71,20 @@ Zcash 生态系统正在演进。由 *Electric Coin Company (ECC)* / *Zodl* 维�
 **选项 B：从源码构建**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (3)](https://hackmd.io/_uploads/Syg8FUK6eg.svg)
+![bash (3)](/content-images/Syg8FUK6eg-b4557e52e0.svg)
 </div>
 
 构建完成后，将二进制文件移动到你的路径中：
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![migration 11](https://hackmd.io/_uploads/BJ0zjLY6ll.png)
+![migration 11](/content-images/BJ0zjLY6ll-f77354d701.webp)
 </div>
 
 **4. 配置与启动**  
 生成默认配置：
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![migration2](https://hackmd.io/_uploads/HJV1C8tTxx.png)
+![migration2](/content-images/HJV1C8tTxx-5823395651.webp)
 </div>
 
 根据你的偏好编辑 **zebrad.toml**（监听地址、端口、状态目录、缓存）。
@@ -92,7 +92,7 @@ Zcash 生态系统正在演进。由 *Electric Coin Company (ECC)* / *Zodl* 维�
 **启动节点：**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/H1KPkvt6gl.png)
+![image](/content-images/H1KPkvt6gl-864c48ca40.webp)
 </div>
 
 节点将从创世区块开始同步——根据硬件和网络情况，预计需要数小时（或更久）。
@@ -106,7 +106,7 @@ Zallet 旨在替代 zcashd 的钱包部分。
 **或者从源码构建：**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/SyUFxvFTex.png)
+![image](/content-images/SyUFxvFTex-5bb10ee1d3.webp)
 </div>
 
 * 启动 GUI 或 CLI（取决于你的安装方式）。
@@ -118,7 +118,7 @@ Zallet 旨在替代 zcashd 的钱包部分。
 在 zcashd 上，导出你的私钥：
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (4)](https://hackmd.io/_uploads/rJzgzwFagx.svg)
+![bash (4)](/content-images/rJzgzwFagx-4a0874f250.svg)
 </div>
 
 * 在 Zallet 中，选择 Import Keys 或类似选项。
@@ -143,13 +143,13 @@ Zallet 旨在替代 zcashd 的钱包部分。
 你可以通过运行以下命令来验证节点的同步状态：
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/SyIyVDY6xl.png)
+![image](/content-images/SyIyVDY6xl-10d6bed7b8.webp)
 </div>
 
 或者查看日志。
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![image](https://hackmd.io/_uploads/r1HfVPF6gg.png)
+![image](/content-images/r1HfVPF6gg-b6b76e9907.webp)
 </div>
 
 **8. 故障排查**

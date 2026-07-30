@@ -42,7 +42,7 @@ The five-confirmation threshold is the key number. Anything earlier is a payment
 
 ZGo n ṣiṣẹ ni eyikeyi aṣàwákiri igbalode lori tabili tabi alagbeka, laisi fifi sori ẹrọ ni ẹgbẹ mejeeji. Onibara nilo apamọwọ Zcash; oniṣowo nilo apamọ Zcash ati akọọlẹ ZGo kan.
 
-<img width="672" height="378" alt="ZGo payment request and blockchain monitoring overview" src="https://github.com/user-attachments/assets/de50885b-b068-4157-bbda-0981ca23efc8" />
+<img width="672" height="378" alt="ZGo payment request and blockchain monitoring overview" src="/content-images/de50885b-b068-4157-bbda-0981ca23efc8-a00a274776.webp" />
 
 ## Ṣíṣíṣe àkọọ́lẹ̀
 
@@ -77,7 +77,7 @@ Fun iṣeto akoko akọkọ, tẹle igbesẹ ti a ṣe pataki: [Awọn iṣeto I
 
 Fun awọn ile itaja ori ayelujara ti n ṣiṣẹ lori [WooCommerce](https://woocommerce.com/) àti [WordPress](https://wordpress.org/), ZGo pese ohun itanna ti a ṣe iyasọtọ. Ohun itanna naa ṣafikun Zcash bi ọna isanwo ni iṣayẹwo ati mu ipo aṣẹ ṣiṣẹ laifọwọyi nigbati isanwo ba jẹrisi.
 
-<img width="672" height="378" alt="ZGo WooCommerce plugin checkout and order flow" src="https://github.com/user-attachments/assets/55a791bb-1947-4f55-b5b9-55083be8ed49" />
+<img width="672" height="378" alt="ZGo WooCommerce plugin checkout and order flow" src="/content-images/55a791bb-1947-4f55-b5b9-55083be8ed49-2bc8d2571e.webp" />
 
 Ìṣàn láti òpin dé òpin nínú ilé ìtajà WooCommerce:
 

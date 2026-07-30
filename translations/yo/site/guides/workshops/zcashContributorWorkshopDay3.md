@@ -54,7 +54,7 @@ note2: A ti n yan Zkool nibi, ṣùgbọ́n ÀWỌN àpò tí ó ní iṣẹ́-�
 
 https://github.com/hhanh00/zkool2
 
-<img width="1496" height="646" alt="1" src="https://github.com/user-attachments/assets/125adfe8-6be3-4798-8ee8-b96bba9fb9ac" />
+<img width="1496" height="646" alt="1" src="/content-images/125adfe8-6be3-4798-8ee8-b96bba9fb9ac-d7ff97c6f8.webp" />
 
 
 
@@ -63,7 +63,7 @@ https://github.com/hhanh00/zkool2
 
 Lọ si awọn oke ọtun akojọ aṣayan ki o si yan "Export Transactions"
 
-<img width="1398" height="718" alt="2" src="https://github.com/user-attachments/assets/4287ceb6-669b-4ef0-ba24-3f7e2d9860b6" />
+<img width="1398" height="718" alt="2" src="/content-images/4287ceb6-669b-4ef0-ba24-3f7e2d9860b6-6fd3ed5a03.webp" />
 
 
 #### Ìgbésè 3
@@ -77,7 +77,7 @@ Díẹ̀ lára àwọn àpẹẹrẹ tó lè ràn ọ́ lọ́wọ́ láti bẹ�
 
 "Báwo ni mo ṣe lè lo "bash/rust/python/ ... etc. " láti yí àwọn fáìlì CSV padà"
 
-<img width="1098" height="480" alt="3" src="https://github.com/user-attachments/assets/6503f4be-6fbc-473f-919c-8914e09181bc" />
+<img width="1098" height="480" alt="3" src="/content-images/6503f4be-6fbc-473f-919c-8914e09181bc-27520b5960.webp" />
 
 àkíyèsí: O ṣì nílò láti lóye àwọn ìpìlẹ̀ ṣùgbọ́n lílo àwọn ìdánilẹ́kọ̀ọ́ wọ̀nyí ni ọ̀nà tí o fi lè lóye ÌṢÒLÚ ti ètò náà.
 
@@ -97,7 +97,7 @@ Awọn iwe afọwọkọ iṣeto fun lilo ati ṣiṣe
 
 
 
-<img width="2132" height="942" alt="4" src="https://github.com/user-attachments/assets/1097030d-c0f4-44c4-b15c-f86706a77bdc" />
+<img width="2132" height="942" alt="4" src="/content-images/1097030d-c0f4-44c4-b15c-f86706a77bdc-6c81ca3df0.webp" />
 
 
 
