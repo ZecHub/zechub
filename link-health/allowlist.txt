@@ -1,0 +1,16 @@
+# Hosts to skip during link checking.
+#
+# One substring per line. A URL is skipped if it contains any of these. Use this
+# for sites that block automated requests or rate-limit aggressively, not for
+# links that are genuinely broken. Comments start with #.
+
+# Blocks non-browser traffic outright
+x.com
+twitter.com
+linkedin.com
+
+# Aggressive bot protection, returns 403 to any automated request
+medium.com
+
+# Rate-limits hard enough to produce false timeouts on a weekly sweep
+reddit.com

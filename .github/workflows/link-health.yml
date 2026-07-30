@@ -1,0 +1,102 @@
+name: Link health dashboard
+
+# Scans site/**/*.md for broken links, dead domains, redirects, missing assets and
+# unresolvable internal routes, then publishes the result to a single pinned
+# "Link health dashboard" issue. Reporting only — never edits content, never opens
+# a pull request. See link-health/README.md.
+
+on:
+  schedule:
+    - cron: "23 5 * * 1" # Mondays, weekly sweep
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: link-health
+  cancel-in-progress: true
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Scan links
+        env:
+          # Lets the asset check read the wiki app repo's public/ tree.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node link-health/check-links.mjs --json link-health.json --markdown link-health.md
+
+      # The issue body is capped, so the complete list is kept as an artifact.
+      - name: Upload full report
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-health-report
+          path: |
+            link-health.json
+            link-health.md
+          retention-days: 30
+
+      - name: Publish dashboard issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('link-health.md', 'utf8');
+            const report = JSON.parse(fs.readFileSync('link-health.json', 'utf8'));
+            const marker = '<!-- link-health-dashboard -->';
+            const title = '🔗 Link health dashboard';
+            const label = 'link-health';
+            const { owner, repo } = context.repo;
+
+            // Ensure the tracking label exists.
+            try {
+              await github.rest.issues.getLabel({ owner, repo, name: label });
+            } catch (e) {
+              if (e.status === 404) {
+                await github.rest.issues.createLabel({
+                  owner, repo, name: label, color: '0e8a16',
+                  description: 'Auto-maintained link health dashboard',
+                });
+              } else { throw e; }
+            }
+
+            // Reuse the existing dashboard issue rather than opening a new one each run.
+            const existing = await github.paginate(github.rest.issues.listForRepo, {
+              owner, repo, state: 'open', labels: label, per_page: 100,
+            });
+            const dash = existing.find((i) => !i.pull_request && (i.body || '').includes(marker));
+
+            const summary =
+              `Link health: ${report.serious} needing attention ` +
+              `(broken=${report.totals.broken} dns=${report.totals.dns} ` +
+              `routes=${report.totals.route} assets=${report.totals.asset}), ` +
+              `${report.totals.redirect} redirects, across ${report.filesScanned} pages.`;
+
+            if (dash) {
+              await github.rest.issues.update({ owner, repo, issue_number: dash.number, title, body });
+              core.info(`Updated dashboard issue #${dash.number}`);
+              core.notice(summary);
+              return;
+            }
+
+            const created = await github.rest.issues.create({ owner, repo, title, body, labels: [label] });
+            core.info(`Created dashboard issue #${created.data.number}`);
+            core.notice(summary);
+
+            // Best-effort pin (GraphQL). Non-fatal if it fails (e.g. 3-pin cap).
+            try {
+              await github.graphql(
+                `mutation($id:ID!){ pinIssue(input:{issueId:$id}){ issue { number } } }`,
+                { id: created.data.node_id },
+              );
+              core.info('Pinned dashboard issue.');
+            } catch (e) {
+              core.warning(`Could not pin issue: ${e.message}`);
+            }
