@@ -8,6 +8,7 @@ Here are some of the active ones:
 
 | Blog / Author              | Description                                              | Link |
 |----------------------------|----------------------------------------------------------|------|
+| How Zcash works            | Build a working model of Zcash                           | [Visit ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
 | Max Desalle                | Mastering Zcash                                          | [Visit ->](https://maxdesalle.com/mastering-zcash/) |
 | Mike Rosulek               | The Joy of Cryptography                                  | [Visit ->](https://joyofcryptography.com/) |
 | James Katz                 | Personal writings and thoughts on Zcash and privacy      | [Visit ->](https://free2z.cash/James_Katz/) |
