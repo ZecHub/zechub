@@ -1,8 +1,8 @@
-
+*{
+  scrollbar-width: thin;
+  scrollbar-color: rgba(140, 140, 140, 0.6) transparent;
+}
  
-
- 
-
 
 .team-header h1 {
   font-size: 2rem;

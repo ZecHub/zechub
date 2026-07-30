@@ -200,3 +200,91 @@ const revealObserver = new IntersectionObserver(entries => {
   entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add("active"); });
 }, { threshold: 0.12 });
 document.querySelectorAll(".reveal").forEach(el => revealObserver.observe(el));
+
+
+
+const featuredContainer = document.getElementById("featured-communities");
+
+function renderCommunitySkeletons(count = 4) {
+  if (!featuredContainer) return;
+
+  featuredContainer.innerHTML = "";
+
+  for (let i = 0; i < count; i++) {
+    featuredContainer.insertAdjacentHTML(
+      "beforeend",
+      `
+      <div class="spotlight-card skeleton">
+        <div class="spotlight-image skeleton-box"></div>
+
+        <div class="spotlight-content">
+          <div class="skeleton-line short"></div>
+          <div class="skeleton-line"></div>
+          <div class="skeleton-pill"></div>
+        </div>
+      </div>
+      `
+    );
+  }
+}
+
+async function loadFeaturedCommunities() {
+  if (!featuredContainer) return;
+
+  renderCommunitySkeletons();
+
+  try {
+    const res = await fetch("/api/public/communities");
+    const communities = await res.json();
+
+    featuredContainer.innerHTML = "";
+
+    communities.forEach(c => {
+
+      const badge =
+        c.slug.toLowerCase() === "gleyo"
+          ? "Official"
+          : "Verified";
+
+      featuredContainer.insertAdjacentHTML(
+        "beforeend",
+        `
+        <a href="${c.url}" class="spotlight-link">
+
+          <div class="spotlight-card">
+
+            <div class="spotlight-image">
+              <img
+                src="${c.logo}"
+                loading="lazy"
+                alt="${c.name}">
+            </div>
+
+            <div class="spotlight-content">
+
+              <h3>${c.name}</h3>
+
+              <p>${c.about}</p>
+
+              <span class="comm-badge">${badge}</span>
+
+            </div>
+
+          </div>
+
+        </a>
+        `
+      );
+    });
+
+  } catch (err) {
+    console.error(err);
+
+    featuredContainer.innerHTML =
+      "<p>Unable to load communities.</p>";
+  }
+}
+
+window.addEventListener("load", () => {
+  loadFeaturedCommunities();
+});

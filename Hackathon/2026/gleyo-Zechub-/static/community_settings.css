@@ -84,7 +84,7 @@
 
 }
 
-* { box-sizing: border-box;  -webkit-tap-highlight-color: transparent; -webkit-text-size-adjust: 100%;}
+* { box-sizing: border-box;  -webkit-tap-highlight-color: transparent; -webkit-text-size-adjust: 100%;   scrollbar-width: thin; scrollbar-color: rgba(140, 140, 140, 0.6) transparent;}
 * { 
  font-family: 'Outfit', sans-serif !important;  
 }
