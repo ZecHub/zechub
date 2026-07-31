@@ -14,3 +14,5 @@ Mainnet: <a href="https://zecfaucet.com">zecfaucet</a>
 Testnet: <a href="https://testnet.zecfaucet.com">testnet.zecaucet.com</a>
 
 Testnet: <a href="https://fauzec.com/">fauzec.com</a>
+
+Testnet: <a href="https://zcashfaucet.jinolabs.xyz/">zcashfaucet.jinolabs.xyz</a>
