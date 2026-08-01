@@ -1,0 +1,524 @@
+# Zcash Ecosystem Digest | August 1st
+
+Dive into the  Ironwood is live on Zcash, Zebra 6.2.3 is out 🦓, ZF Engineering Update - July 13–26 🛠️, Zooko’s Must-Read Guide on Surviving the Ironwood Migration Without Losing Your Zcash or Your Privacy, Migrating Zcash Ironwood Over NYMVPN, When will the migration to Ironwood be complete?, Over $100M secured by Ironwood, New Zallet beta build available. 🛡️, Zodl 3.8.1 is now available, Zodl 3.8.0: Enabling Ironwood, Ironwood:Steps for Zodl Users, New update for the Zingo wallet!, Zecd: Audit released of our zcashd wallet alternative, Ironwood in Zingo, Cake Wallet v6.4.0 is live with full Ironwood support, Noir Wallet support Ironwood - V 0.1.26, Ironwood migration is live in Vizor, NanoGPT Integrates Zcash Ironwood Shielded Payments, Argos v1.1 adds support for Ironwood, Fortitude Boosts Zcash Mining Capacity With Major Equihash Hashrate Expansion, Ironwood is officially supported at Gemini, New Zakura Release: 1.0.5, Formal Verification of Zcash Ironwood Completed. 
+
+
+Curated by [Gorga](https://x.com/GianGorga)
+
+## Shielded Labs, Zcash Foundation , and Zcash Updates 🛠️
+
+[Ironwood is live on Zcash  - @zodl_co](https://x.com/zodl_co/status/2082106258740420648?s=20)
+
+[Zebra 6.2.3 is out 🦓 - @ZcashFoundation](https://x.com/ZcashFoundation/status/2082142732261212666?s=20)
+
+[ZF Engineering Update - July 13–26 🛠️ - @ZcashFoundation](https://x.com/ZcashFoundation/status/2082505262951260583?s=20)
+
+[ Zooko’s Must-Read Guide on Surviving the Ironwood Migration Without Losing Your Zcash or Your Privacy - @zooko](https://x.com/zooko/status/2081777709957386611?s=20)
+
+[Migrating Zcash Ironwood Over NYMVPN - @nym](https://x.com/nym/status/2081733319700394417)
+
+[When will the migration to Ironwood be complete?  - @zodl_co](https://x.com/zodl_co/status/2083190948809355764?s=20)
+
+[  Over $100M secured by Ironwood  - @zodl_co](https://x.com/zodl_co/status/2082533742883536921?s=20)
+
+[New Zallet beta build available. 🛡️   - @zodl_co](https://x.com/zodl_co/status/2082468680332370077?s=20)
+
+[Zodl 3.8.1 is now available - @zodl_app](https://x.com/zodl_app/status/2082943322625393055?s=20)
+
+[Zodl 3.8.0: Enabling Ironwood  - @zodl_app](https://x.com/zodl_app/status/2081864441105191388?s=20)
+
+[Ironwood:Steps for Zodl Users - @zodl_app ](https://x.com/zodl_app/status/2081751701590073459?s=20)
+
+[New update for the Zingo wallet! - @ZingoLabs ](https://x.com/ZingoLabs/status/2082356523863286259)
+
+[Zecd: Audit released of our zcashd wallet alternative  - @emersonian](https://forum.zcashcommunity.com/t/zecd-audit-released-of-our-zcashd-wallet-alternative/56820)
+
+[NanoGPT Integrates Zcash Ironwood Shielded Payments  - @NanoGPTcom](https://x.com/NanoGPTcom/status/2083188209324839011?s=20)
+
+[Argos v1.1 adds support for Ironwood - @sovright_](https://x.com/sovright_/status/2082375402949853691?s=20)
+
+[Fortitude Boosts Zcash Mining Capacity With Major Equihash Hashrate Expansion -@FortitudeCrypto](https://x.com/FortitudeCrypto/status/2082791678822461462?s=20)
+
+[New Zakura Release: 1.0.5 - @ZakuraZcash](https://x.com/ZakuraZcash/status/2081958808033931651?s=20)
+
+[Formal Verification of Zcash Ironwood Completed - @TachyonZcash](https://x.com/TachyonZcash/status/2082102669297295840)
+
+[Ironwood migration dashboards - @Zebraman](https://forum.zcashcommunity.com/t/ironwood-migration-dashboards/56841)
+
+[How Zcash Works: The Guide I Wish I’d Had - @paulbrigner](https://x.com/paulbrigner/status/2082484359638995027?s=20)
+
+[Fresh Zcash Data - @ozymandias](https://forum.zcashcommunity.com/t/fresh-zcash-data/56858)
+
+[Migration from Orchard to Ironwood in Zcash wallets - @palmar ](https://forum.zcashcommunity.com/t/migration-from-orchard-to-ironwood-in-zcash-wallets/56790/3)
+
+[Zcash and Entropy: How to long chaos  - @will__mcevoy](https://x.com/will__mcevoy/status/2082508327603277843)
+
+[Weekly Policy Memo: Week of July 27, 2026 - @paulbrigner](https://x.com/paulbrigner/status/2083540755826483268?s=20)
+
+[Why Your VPN Isn’t Enough: The Future of Digital Privacy Runs Through Mixnets  - @ZecHub](https://x.com/ZecHub/status/2083605520217227307?s=20)
+
+[Another week… What’s next? - @thecodebuffet](https://x.com/thecodebuffet/status/2083278602561356093?s=20)
+
+
+
+---
+
+
+## Zcash Community Grants 🏛️
+
+[ZCG RFP: Community Note Taker 2025 - July 23rd Arborist Call Summary Update - @lisa001](https://forum.zcashcommunity.com/t/zcg-rfp-community-note-taker-2025/50450/54)
+
+[Blindvault - Privacy-Preserving Credential Issuance for the Zcash Ecosystem (REMAINS OPEN)  - @rawbytedev](https://forum.zcashcommunity.com/t/blindvault-privacy-preserving-credential-issuance-for-the-zcash-ecosystem/56793)
+
+[Educational Material for Noncustodial Shielded ZEC Spending Architecture Framework - @syla](https://forum.zcashcommunity.com/t/educational-material-for-noncustodial-shielded-zec-spending-architecture-framework/56823)
+
+[Idea + Detailed Roadmap: Decentralized Multi-Operator Light Client Infrastructure Optimized for Zakura – Seeking Community Feedback Before MVP (REMAINS OPEN) - @jatinsahijwani](https://forum.zcashcommunity.com/t/grant-application-open-light-nodes-independent-zcash-light-client-infrastructure-for-asia/56847)
+
+[Grant Application - Open Light Nodes: Independent Zcash Light Client Infrastructure for Asia  - @jatinsahijwani](https://forum.zcashcommunity.com/t/draft-grant-proposal-feedback-wanted-open-light-nodes-independent-zcash-light-client-infrastructure-for-asia/56836)
+
+[Grant Application - hanh - Maintenance and Improvements to Coin Voting UPDATE - @hanh ](https://forum.zcashcommunity.com/t/grant-application-hanh-maintenance-and-improvements-to-coin-voting/52350/16)
+
+[Grant Application (community review): Ironwood Sentinel - Conformance and Readiness Testing for Zcash Wallets and Infrastructure - @Danieldere](https://forum.zcashcommunity.com/t/grant-application-community-review-ironwood-sentinel-conformance-and-readiness-testing-for-zcash-wallets-and-infrastructure/56843)
+
+[Block explorer + Testnet infrastructure 2025 UPDATE - @conradoplg](https://forum.zcashcommunity.com/t/block-explorer-testnet-infrastructure-2025/51451/30)
+
+[Grant Application - Hito Hardware Wallet - Zcash Cold Signing (Orchard) PROGRESS UPDATE (MILESTONE 2 COMPLETED) - @hito](https://forum.zcashcommunity.com/t/grant-application-hito-hardware-wallet-zcash-cold-signing-orchard/55539/16)
+
+[Grant Application: Tensor-Core Accelerated Proving for Orchard/Ironwood (REMAINS OPEN!) - @strahncryptography](https://forum.zcashcommunity.com/t/grant-application-tensor-core-accelerated-proving-for-orchard-ironwood/56664/13)
+
+[Grant Application - Constant-Time Hardening and Explicit Timing Semantics for Zcash Rust Cryptography {REMAINS OPEN} - @fdecroix](https://forum.zcashcommunity.com/t/grant-application-constant-time-hardening-and-explicit-timing-semantics-for-zcash-rust-cryptography/56503)
+
+[Grant Application - ELLIPAL Zcash Ironwood Shielded Transaction Support - @Ellipal](https://forum.zcashcommunity.com/t/grant-application-ellipal-zcash-ironwood-shielded-transaction-support/56856)
+
+[Zcash Community Media Infrastructure & Support | Zk Av Club 2026 - Milestone 7 Report — July 2026 - @ryan.taylor](https://forum.zcashcommunity.com/t/zcash-community-media-infrastructure-support-zk-av-club-2026/53913/48)
+
+[Zcash Nigeria 2026 - Monthly Report – July 2026 - @lisa001](https://forum.zcashcommunity.com/t/zcash-nigeria-2026/53654/18)
+
+[Zcash Brazil | 2026 - Milestone 07 - @Michae2xl](https://forum.zcashcommunity.com/t/zcash-brazil-2026/53702/25)
+
+[Bringing Zcash to Web3Lagos 2026 UPDATE - @Dre_Nesthub](https://forum.zcashcommunity.com/t/bringing-zcash-to-web3lagos-2026/56588/10)
+
+[Global Ambassador Elzz July 2026 Report - @elzz-ux](https://forum.zcashcommunity.com/t/global-ambassador-elzz-july-2026-report/56859)
+
+[Grant Application – A Plural Case for Privacy: Zcash and Islamic Digital Finance (REMAINS OPEN) - @cavalla](https://forum.zcashcommunity.com/t/grant-application-a-plural-case-for-privacy-zcash-and-islamic-digital-finance/56791)
+
+
+
+---
+
+
+
+## Community Projects 🌐
+
+[Ironwood in Zingo  - @zancas](https://forum.zcashcommunity.com/t/ironwood-in-zingo/56833/5)
+
+[Cake Wallet v6.4.0 is live with full Ironwood support + privacy-preserving migrations  - @sethforprivacy](https://forum.zcashcommunity.com/t/cake-wallet-v6-4-0-is-live-with-full-ironwood-support-privacy-preserving-migrations/56840)
+
+[Gem Wallet Successfully Completes Post-Ironwood Transparent ZEC Transaction  -  @Anzus_GemWallet ](https://forum.zcashcommunity.com/t/gem-wallet-integration-with-zcash/53206/6)
+
+[New Version of Zingo-PC - @Juanky](https://forum.zcashcommunity.com/t/new-version-of-zingo-pc/45359/132)
+
+[Noir Wallet support Ironwood - V 0.1.26 - @noir_wallet](https://forum.zcashcommunity.com/t/noir-wallet-support-ironwood-v-0-1-26/56831)
+
+
+[Ironwood migration is live in Vizor - @vizorwallet](https://x.com/vizorwallet/status/2082107610267083076?s=20)
+
+[Zcash India – Progress Update | July 2026  - @jatinsahijwani](https://forum.zcashcommunity.com/t/zcash-india-2026/54762/11)
+
+[Privacy hardening — the follow-ups have now landed - @bloxster](https://forum.zcashcommunity.com/t/zechub-dao-proposal-a149-phase-1-progress-report/56030/4)
+
+[[Contest] Presenting Zcash Irondevs, a gift to the heroic Zcash developers (CLOSED)   - @jenkin](https://forum.zcashcommunity.com/t/contest-presenting-zcash-irondevs-a-gift-to-the-heroic-zcash-developers/56666/17)
+
+[Fork Around and Find Out: DAOs, Network States, and Self-Governance in Crypto - @ryan.taylor](https://forum.zcashcommunity.com/t/zk-av-club-recording-station-at-berlin-blockchain-week-2025/51333/32)
+
+[Zcash Ecosystem Digest | July 26th   - @ZecHub](https://x.com/ZecHub/status/2081506821156544837?s=20)
+
+[Road to Ironwood Part 3 🔥🔥🔥 - @ZecHub](https://x.com/ZecHub/status/2081716661699109373?s=20)
+
+[Free 1-month NymVPN access for Zcashers! 🛡️ - @ZecHub ](https://x.com/ZecHub/status/2082086823069618302?s=20)
+
+[Here we go! Ironwood era has begun! $ZEC - @ZecHub](https://x.com/ZecHub/status/2082107531149910201?s=20)
+
+[Find out which wallets support migrating ZEC into the most secure shielded pool ever created. - @ZecHub](https://x.com/ZecHub/status/2082147138536874419?s=20)
+
+[100k.  - @ZecHub](https://x.com/ZecHub/status/2082180561293246863?s=20)
+
+[Yesterday @FortitudeCrypto announced construction is complete and power is now flowing to their Grand Island, Nebraska 12 MW Facility! - @ZecHub](https://x.com/ZecHub/status/2082444843230376159?s=20)
+
+[Zcash Shielded News | Vol.29  - @ZecHub](https://x.com/ZecHub/status/2082911388096454684?s=20)
+
+[Running a Zcash full node has never been easier thanks to @ZakuraZcash 🌸 - @ZecHub](https://x.com/ZecHub/status/2083255011618807958?s=20)
+
+[I did something! Infochat - SimpleX and Signal chatbot with news digest   - @zCat_App](https://x.com/zCat_App/status/2081663267299070335?s=20)
+
+[ZCASH IRONWOOD IS ALMOST HERE   - @nym](https://x.com/nym/status/2081679038586716439?s=20)
+
+[What is @Zcash Ironwood?🦓 - @ZcashIND](https://x.com/ZcashIND/status/2083145597444636840?s=20)
+
+[If you hold $ZEC on a keystone, please update: ⤵️ - @Zcash](https://x.com/Zcash/status/2081802545249350020?s=20)
+
+[Who's going to mine the first Ironwood block? 👀 $ZEC - @Zcash](https://x.com/Zcash/status/2081911127773175985?s=20)
+
+[NU6.3 Ironwood Activation in 200 blocks!  - @Zcash](https://x.com/Zcash/status/2082042129321185423?s=20)
+
+[Ironwood. 🥳 $ZEC - @Zcash](https://x.com/Zcash/status/2082106355733958709?s=20)
+
+[Congrats! 🛡️♥️ $ZEC - @Zcash](https://x.com/Zcash/status/2082116474433663117?s=20)
+
+[Life moves quickly. $ZEC - @Zcash](https://x.com/Zcash/status/2082118000300392769?s=20)
+
+[Say it with me, 100k. 😍 $ZEC - @Zcash](https://x.com/Zcash/status/2082179052149026845?s=20)
+
+[Learn how to .@zodl_app ⤵️ $ZEC @Zcash](https://x.com/Zcash/status/2082849804003234088?s=20)
+
+[Ready to contribute to a community digital archive? - @ZkAv_Club](https://x.com/ZkAv_Club/status/2081782577799614741?s=20)
+
+[Privacy starts with using the right tools. - @ZkAv_Club](https://x.com/ZkAv_Club/status/2082126433842073874?s=20)
+
+[🔴We're live now! - @ZkAv_Club](https://x.com/ZkAv_Club/status/2082157689698648095?s=20)
+
+[Where does “code is law” break, and how do we govern without kings? - @ZkAv_Club](https://x.com/ZkAv_Club/status/2082462028568924653?s=20)
+
+[🚨 We're live! - @ZkAv_Club](https://x.com/ZkAv_Club/status/2082845901702213959?s=20)
+
+[July was a gnarly one for Zk Av Club. - @ZkAv_Club](https://x.com/ZkAv_Club/status/2083216414786142707?s=20)
+
+[Zcash cofounder Sean Bowe on Tachyon and the future of transparent blockchains: - @arjunkhemani](https://x.com/arjunkhemani/status/2082300255736066188?s=20)
+
+[We'll be having a lil party to celebrate IRONWOOD launch on Zcash discord soon, hop in @ZecHub chat and join us. - @ox_wrld](https://x.com/ox_wrld/status/2082057092794355967?s=20)
+
+[The 7th Meetup of the Zcash Querétaro Club is here! 🥳  - @zkradioz](https://x.com/zcashqro/status/2082657341367796115)
+
+[DIGITAL SELF-DEFENSE - @zkradioz](https://x.com/zkradioz/status/2082542296239587337)
+
+[CRYPTO NEWS - @zkradioz](https://x.com/zkradioz/status/2082522763688862152)
+
+[Let's support this initiative. - @zkradioz](https://x.com/zkradioz/status/2071032433751851326?s=20)
+
+[Privacy shouldn't mean flying blind. - @AmunnadiG](https://x.com/AmunnadiG/status/2082433222193901741?s=20)
+
+[FROST Is Not a Custody Model: Six ZecHub Projects Compared - @AnticsDecoded](https://x.com/AnticsDecoded/status/2082592831831740862)
+
+[How to migrate shielded $ZEC to Ironwood  - @khalkaz](https://x.com/khalkaz/status/2082873027914518852?s=20)
+
+
+[Zcash's biggest network upgrade in years is now live - @Gemini](https://x.com/Gemini/status/2082192509384487080?s=20)
+
+[Here's the guide: http://justzappit.xyz/ironwood - @JustZappIt](https://x.com/JustZappIt/status/2081968086643540245?s=20)
+
+[This is the recipe for a Zcash Orchard shielded note🛡️ - @JustZappit](https://x.com/JustZappIt/status/2082903418037842251?s=20)
+
+[What is that? - @michael2xl](https://x.com/michael2xl/status/2082564781202927825?s=20)
+
+[IRONWOOD IS COMING!!! 🛡️🦓 - @Zcash_SA](https://x.com/Zcash_SA/status/2081427228009631756)
+
+[Our Quote-Tweet Challenge is live! 🦓 - @Zcash_SA](https://x.com/Zcash_SA/status/2082174260110610932?s=20)
+
+[The Zcash South Africa Quote-Tweet Challenge Has Officially Ended - @Zcash_SA](https://x.com/Zcash_SA/status/2082968741034250518?s=20)
+
+[The Zcash South Africa Quote-Tweet Challenge winners have been chosen 🚀 - @Zcash_SA](https://x.com/Zcash_SA/status/2083255397570253276?s=20)
+
+[📰 CRYPTO UPDATE: Zcash introduces the Ironwood upgrade, strengthening privacy, security, and ZEC supply integrity verification. - @ZcashIdn](https://x.com/ZcashIdn/status/2083261696353960083)
+
+[🛡️ Zcash Shielded News Vol. 28 is now live! - @ZcashIdn](https://x.com/ZcashIdn/status/2083262500171329579)
+
+[Not every break is a setback. Sometimes, it's the beginning of something much bigger. - @zcashbrazil](https://x.com/zcashbrazil/status/2081777897845432378?s=20)
+
+[On-chain privacy is entering a new phase. - @tokennation_io](https://x.com/tokennation_io/status/2081828799906197994)
+
+[✅ LiveZEC is fully operational on Ironwood. - @LiveZEC](https://x.com/LiveZEC/status/2083279839943889273)
+
+[Launch week couldn't end better: featured in  @zcashbrazil's Shielded Magazine, alongside Ironwood, Zebra 6.2.1 and the Zodl Summit. 🦓 - @LiveZEC](https://x.com/LiveZEC/status/2081783199391170917?s=20)
+
+[Privacy does not depend on blind trust. - @zcashbrazil](https://x.com/zcashbrazil/status/2081877782846480876?s=20)
+
+[Welcome Ironwood. - @zcashbrazil](https://x.com/zcashbrazil/status/2082127669005611504?s=20)
+
+[Zona Z 🧠 - Edition 47 with @AAmandita_ - @zcashbrasil](https://x.com/zcashbrazil/status/2082146431717028346?s=20)
+
+[The #zcashmemechallenge has begun! 🎉 - @zcashbrazil](https://x.com/zcashbrazil/status/2078240583349305436?s=20)
+
+[Radar TokenNation #03 |  Recebe Zcash - Tudo sobre a atualização Ironwood - @zcashbrazil](https://x.com/zcashbrazil/status/2082232428479783085)
+
+[An AI found a bug that 4 years of human audits failed to find. - @anarchychains](https://x.com/anarchychains/status/2082235045868388403?s=20)
+
+[ZEC Insider | Community Call🦓  - @zcashbrazil](https://x.com/zcashbrazil/status/2082451158883237933)
+
+[Radar TokenNation #03 |  Recebe Zcash - Tudo sobre a atualização Ironwood - @tokennation_io](https://x.com/i/spaces/1RKZzzMZqlzKB?s=20)
+
+[Zcash Brasil will be present at @BlockchainRio talking about financial privacy. - @zcashbrazil](https://x.com/zcashbrazil/status/2082544861085884526?s=20)
+
+[Zebra Talks🎙️live on Discord and on X  - @zcashbrazil](https://x.com/zcashbrazil/status/2082180051802763346?s=20)
+
+[Zebra Talks - The Day After with @castacrypto - @zcashbrazil](https://x.com/zcashbrazil/status/2082603475926458668?s=20)
+
+[ZEC INSIDER | Inside the Zcash Brazil Community: Voices, Vision & Privacy Movement - @zcashbrasil](https://x.com/zcashbrazil/status/2082965205009494136?s=20)
+
+[Shielded Magazine #29 📰 - @zcashbrasil](https://x.com/zcashbrazil/status/2082973066678698166?s=20)
+
+[Arborist Call #128 🌳 - @zcashbrasil](https://x.com/zcashbrazil/status/2083192649658315134?s=20)
+
+[Winners of the #zcashmemechallenge. - @zcashbrasil](https://x.com/zcashbrazil/status/2083282037771796945?s=20)
+
+[We are pleased to announce the first in-person gathering of the Zcash community in Algeria. 🎉 - @ZcashArabia](https://x.com/ZcashArabia/status/2081673407557489101?s=20)
+
+[ZEC INSIDER | Keystone Users Prepare for Ironwood: Cypherpunk v3.0.2 Now Available - @ZcashArabia](https://x.com/ZcashArabia/status/2081798985488986360?s=20)
+
+[🛡️ NymVPN has become free for Zcash users for a month.Why? Because privacy advocates support each other. - @ZcashArabia](https://x.com/ZcashArabia/status/2081803587471003878)
+
+[1/ Summary of Ironwood Upgrade Steps for Zodl Users - @ZcashArabia](https://x.com/ZcashArabia/status/2082049652749164639)
+
+[🎉 By the grace of God, the first in-person meeting of our community in Algeria has taken place!  - @ZcashArabia](https://x.com/ZcashArabia/status/2083528658174496968)
+
+[🚀 A must-read resource for those who truly want to understand how Zcash works! - @ZcashTR](https://x.com/ZcashTR/status/2083237129878929676)
+
+[There's already more $ZEC in the Ironwood pool than in the Sprout pool. - @thecodebuffet](https://x.com/thecodebuffet/status/2082130938721423693?s=20)
+
+[We are delighted to announce our sponsorship agreement with Zcash (@ZcashTR @Zcash) for Rlay Blockchain Week 2026! - @RlayHub](https://x.com/RlayHub/status/2081773099620409410)
+
+[🚀 Zakura 1.0.5 Released - @ZcashTR](https://x.com/ZcashTR/status/2082139113700933729)
+
+[JUST IN: $ZEC activates its Ironwood (NU6.3) network upgrade tomorrow around block 3,428,143 - @CoinDesk](https://x.com/CoinDesk/status/2081689830082191553?s=20)
+
+[🔄 @KeystoneWallet users, update your firmware! - @zodl_support](https://x.com/zodl_support/status/2081735871431073821?s=20)
+
+[The entire crypto industry needs to understand how Ironwood was developed and brought to life. - @Batuzec](https://x.com/Batuzec/status/2081818282882224384?s=20)
+
+[🚀 Zcash Ecosystem Summary | July 26 - @ZcashTR](https://x.com/ZcashTR/status/2081661493129404470)
+
+[Don't bet against @LadaleLowo and @Nozywallet - @shieldedmark](https://x.com/shieldedmark/status/2081486650882810192?s=20)
+
+[🚨 NymVPN, During the Ironwood Transition, Offers 1 Month Free to Zcash Users! 🔒 - @ZcashTR](https://x.com/ZcashTR/status/2081802813508862197)
+
+[How to migrate from the Orchard pool to Ironwood — in Noir Wallet or the Noir dApp?  - @noir_wallet](https://x.com/noir_wallet/status/2082466935460266214?s=20)
+
+[🚨 Attention Keystone users! - @ZcashTR](https://x.com/ZcashTR/status/2081830534724874559)
+
+[🦓 Zebra 6.2.3 Released - @ZcashTR](https://x.com/ZcashTR/status/2082501577865126292)
+
+[A New Era Begins in Zcash with the Ironwood Update - @ZcashTR](https://x.com/ZcashTR/status/2082558647444316541)
+
+[🌳 Tree Care Expert Meeting Summary | July 23 - @ZcashTR](https://x.com/ZcashTR/status/2082720310600626518)
+
+[So good! @Gemini is the only exchange to support shielded withdrawals, Ironwood.  - @jswihart](https://x.com/jswihart/status/2082676262573879548?s=20)
+
+[🚨 Zcash Shielded News | Volume 29 - @ZcashTR](https://x.com/ZcashTR/status/2083124419270959256)
+
+[Barry Silbert Backed Zcash Miner Moves To Expand Zcash Mining - @BSCNews](https://x.com/BSCNews/status/2083059078121541932?s=20)
+
+[🚀 Ironwood is here! 🌲🛡️ - @ZcashGH](https://x.com/ZcashGH/status/2082055400833315197?s=20)
+
+[As we approach the Ironwood network upgrade, all community members are encouraged to update their Zcash wallet Apps - @ZcashNigeria](https://x.com/ZcashNigeria/status/2081647522242580869?s=20)
+
+[The Newsletter for this week is now available in Yoruba Language. - @ZcashNigeria](https://x.com/ZcashNigeria/status/2082352336903475509?s=20)
+
+[We'll be back in July! 🔥 - @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social/post/3mrnhadsbis2y)
+
+[A new episode of @zcastesp.bsky.social is here: “Digital Hygiene for Your Finances. - @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social/post/3mrnniugiec2y)
+
+[Tomorrow: Ironwood, the new privacy pool for #Zcash. - @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social/post/3mro7zi3en22n)
+
+[Harry Halpin from Nym VPN shares some tips on how to implement Nym VPN - @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social/post/3mroar3pn6s2n)
+
+[🛡 ORCHARD ➡️ IRONWOOD (NU6.3) - @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social/post/3mrpgrb4ad22n)
+
+[📺 How to Transfer Your ZEC to Vizor Wallet - @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social/post/3mrphqtsqbs2n)
+
+[@zingolabs.bsky.social is also ready to migrate to Ironwood. 🔥 - @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social/post/3mrpkcd2shc2n)
+
+[Obscura Labs is now featured on the ZecHub wiki! - @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social/post/3mrpq4yp4oz2k)
+
+[📢 Unstoppable Wallet Announcement - @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social/post/3mrprmo6cds2y)
+
+[📢 Noir Wallet Announcement - @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social/post/3mrpso3j3d22y)
+
+[The recording of the “Zcash Arborist Call” meeting from July 23 is now available! - @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social/post/3mrpwty3t7k27)
+
+[📢 Cake Wallet Announcement - @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social/post/3mrq5ofl6us2r)
+
+[In this post, we'll discuss a new browser extension wallet designed for decentralized finance (DeFi): Noir Wallet, a multi-functional wallet. - @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social/post/3mrs4bo73os2e)
+
+[🔴 LIVE! - @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social/post/3mrvd56k6as2m)
+
+[ Zcash in Spanish @zcashesp.bsky.social· 1 day ago- @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social/post/3mrxbksuutf2d)
+
+[The Zcash mining industry has benefited major players. That is about to change. - @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social/post/3mrznep7anv2v)
+
+
+[How to run @ZakuraZcash on Mac? - @maxdesalle](https://x.com/maxdesalle/status/2082816407281057935?s=20)
+
+[Scaling Zcash to Visa levels 🏎️ - @zkMarketer](https://x.com/zkMarketer/status/2082880148924190798?s=20)
+
+[.@mert on Zcash and fungibility: - @will__mcevoy](https://x.com/will__mcevoy/status/2079232563806138619?s=20)
+
+[.@mert on what's coming to Zcash after Ironwood. - @will__mcevoy](https://x.com/will__mcevoy/status/2082127997520285925?s=20)
+
+[Ironwood for @zodl_app users TL;DR:   - @zodl_app](https://x.com/zodl_app/status/2082108853592744301?s=20)
+
+[Zodl 3.8.0 is now available on iOS. - @zodl_app](https://x.com/zodl_app/status/2081894474041499800?s=20)
+
+[Day 3 post-Ironwood activation: - @zodl_co](https://x.com/zodl_co/status/2082897780503187577?s=20)
+
+[129,396 ZEC migrated to the Ironwood pool today, representing over $60M in value. - @z0dl_co](https://x.com/zodl_co/status/2082239682944065698?s=20)
+
+[Wow! Over $100M  has already been secured by Ironwood in just 24 Hours? 😳 - @hardaeborla](https://x.com/hardaeborla/status/2082595447600787532?s=20)
+
+[Now that Ironwood has successfully passed, all focus should be on scaling. - @cypherpunk](https://x.com/cypherpunk/status/2082647057429311702?s=20)
+
+[Time to upgrade 🫡 - @cypherpunk](https://x.com/cypherpunk/status/2082207466511606153?s=20)
+
+[The Zcash Ironwood is now live! - @hardaeborla](https://x.com/hardaeborla/status/2082391931615658387?s=20)
+
+[PSA: not all wallets have automated private migration support right now. - @cypherpunk](https://x.com/cypherpunk/status/2082176804409008609?s=20)
+
+[Under-appreciated amount of work to maximize privacy here. - @zkDragon](https://x.com/zkDragon/status/2082169901721047361?s=20)
+
+[#3,428,143 Ironwood is here. - @zkMarketer](https://x.com/zkMarketer/status/2082103793253335140?s=20)
+
+[.@mert on what Ironwood actually delivers: - @cypherpunk](https://x.com/cypherpunk/status/2082081985896272210?s=20)
+
+[Making Ironwood Migration Practical on Keystone - @czarcas7ic](https://x.com/czarcas7ic/status/2081842368412885141?s=20)
+
+[NEW EPISODE: #246 - JOSH SWIHART (@jswihart) - @0FJAKE](https://x.com/0FJAKE/status/2083178486282264786?s=20)
+
+
+[I get asked a lot why Zcash over Monero.   - @will__mcevoy](https://x.com/will__mcevoy/status/2082872335938232614?s=20)
+
+
+[Ironwood is officially supported at @Gemini for @Zcash!   - @erickuhn19](https://x.com/erickuhn19/status/2082109762322264198)
+
+[Underrated: much of privacy’s value comes from how *others* use it. - @cypherpunk](https://x.com/cypherpunk/status/2081827482328817837?s=20)
+
+[A preview walkthrough of Ironwood on Vizor wallet. - @vizorwallet](https://x.com/vizorwallet/status/2081691378309026281?s=20)
+
+[Zcash vs Fiat - @will_mcevoy](https://x.com/will__mcevoy/status/2081440266649497694?s=20)
+
+[Crazy that Zcash is speedrunning into perfect Bitcoin with barely a reaction from Bitcoiners. - @cypherpunk](https://x.com/cypherpunk/status/2081081864442261693?s=20)
+
+
+[Today we will be releasing a wallet app update update which will make Unstoppable Wallet compatible with today's planned Zcash upgrade (referred to as IRONWOOD) - @unstoppablebyhs](https://x.com/unstoppablebyhs/status/2082036591099548105?s=20)
+
+[#meme - @unstoppablebyhs](https://x.com/unstoppablebyhs/status/2081793444272353721?s=20)
+
+
+[The global #Zcash community is rapidly expanding across the African continent. - @ZcastEsp](https://x.com/ZcastEsp/status/2081747687037366614)
+
+[🛡️ Do you know how exposed your finances are on the internet? - @ZcastEsp](https://x.com/ZcastEsp/status/2081820607419691211)
+
+[🎧 Zcast Live #14 - Digital Hygiene to Protect Your Finances - @ZcastEsp](https://x.com/ZcastEsp/status/2082180359899496515)
+
+[Testing Ironwood on @zodl_app with the #Zcash en Español node... - @gordonesTV](https://x.com/gordonesTV/status/2082141198018290057?s=20)
+
+[🎙️⚡ Time to review! In this new episode of #Zcast, we summarize EVERYTHING that happened in the #Zcash ecosystem during the month of July.  - @ZcastEsp](https://x.com/ZcastEsp/status/2082959836895911971)
+
+[The beginning of a new era. - @ZecMap](https://x.com/ZecMap/status/2082119173497324019?s=20)
+
+[Today, we're excited to share a new project we've just started working on. - @ZecMap](https://x.com/ZecMap/status/2082558042265272492?s=20)
+
+[We remain committed to building. - @ZecMarket](https://x.com/ZecMarket/status/2082935913877840042?s=20)
+
+
+[11 Orphan blocks in the last 24 hours.  - @sovright_](https://x.com/sovright_/status/2083573984965034366?s=20)
+
+[Sovright has almost "died" more than once. Months of runway left, no light at the end of the tunnel. - @sovright_](https://x.com/sovright_/status/2082925951487291731?s=20)
+
+[A censorship-resistant mining pool should not ask miners to just take its word for anything. - @sovright_](https://x.com/sovright_/status/2082462299839713361?s=20)
+
+[Demand for Zcash block space has 9x since the Ironwood migration started. - @sovright_](https://x.com/sovright_/status/2082389471165579461?s=20)
+
+[Why Ironwood Matters... - @sovright_](https://x.com/sovright_/status/2082075120399475035?s=20)
+
+[101,171 $ZEC left the Orchard pool over the last 24 hours. - @ZcashNames](https://x.com/ZcashNames/status/2083576350464471409?s=20)
+
+[Network difficulty is at its highest point in the last 30 days. - @ZcashNames](https://x.com/ZcashNames/status/2082851355148906533)
+
+[We're making privacy as normal as names - @ZcashNames](https://x.com/ZcashNames/status/2081977933758132249?s=20)
+
+[barrysilbert still leads the all-time rewards board at 24.54 $ZEC for making 574 referrals (455 direct and 119 indirect). - @ZcashNames](https://x.com/ZcashNames/status/2081794656447156505?s=20)
+
+[Déjà vu! Double-check my math: - @ZcashNames](https://x.com/ZcashNames/status/2081766428936749554?s=20)
+
+[ZcashNames is taking over the wallet ecosystem that supports #Zcash. What's next? - @yoditarzk](https://x.com/yoditarzk/status/2081744918981071094)
+
+[Holding $ZEC on Keystone? 🤔 - @KeystoneWallet](https://x.com/KeystoneWallet/status/2082813468558975009?s=20)
+
+[Fan of @vizorwallet x Keystone? You can migrate your $ZEC privately 🛡️ - @KeystoneWallet](https://x.com/KeystoneWallet/status/2082503923017871522?s=20)
+
+[If you're using Keystone + @zodl_app  for Zcash, here's what you need to know about Ironwood migration ↓ - @KeystoneWallet](https://x.com/KeystoneWallet/status/2082451076465209361?s=20)
+
+[Shoutout to @czarcas7ic, @zkDragon, and everyone for crushing the Ironwood migration UX. - @KeystoneWallet](https://x.com/KeystoneWallet/status/2082088863464624322?s=20)
+
+[Time to get Ironwood ready, @zcash fam 🔥Update your Keystone 3 Pro to Cypherpunk firmware V-3.0.2 now: → Ironwood support → PCZT signing - @KeystoneWallet](https://x.com/KeystoneWallet/status/2081756217110941913)
+
+
+[BREAKING: There is now more ZEC in the Ironwood pool than in the Sapling pool. - @genzcash](https://x.com/genzcash/status/2083199107276120533?s=20)
+
+[latest zkool worked well for ironwood migration - @Zerodartz](https://x.com/Zerodartz/status/2082931738951520417?s=20)
+
+[Peak Ironwood migration: 6:00 PM UTC. - @cipherscan_app](https://x.com/cipherscan_app/status/2082546368040562906?s=20)
+
+[New on CipherScan: "Who's migrating to Ironwood?" - @cipherscan_app](https://x.com/cipherscan_app/status/2082178989167120423?s=20)
+
+[Block 3,428,143.  - @cipherscan_app](https://x.com/cipherscan_app/status/2082106132613443727?s=20)
+
+[Less than 100 blocks to go. - @cipherscan_app](https://x.com/cipherscan_app/status/2082070892318728526?s=20)
+
+[Here's what CipherScan tracks live from block 3,428,143. - @cipherscan_app](https://x.com/cipherscan_app/status/2081724536211308994?s=20)
+
+[Audits reduce risk. Formal verification aims to eliminate entire classes of vulnerabilities. - @WorldOfMercek](https://x.com/WorldOfMercek/status/2082377573942665369?s=20)
+
+[fresh edition off the press https://blog.zksecurity.xyz - @zksecurityXYZ](https://x.com/zksecurityXYZ/status/2082224258030174673?s=20)
+
+[We've had a great time working with the zcash project, from auditing, to formal verification, to zkao - @zksecurityXYZ](https://x.com/zksecurityXYZ/status/2082163056587440268?s=20)
+
+[A new golf course has opened on zkGolf! ⛳️ - @zksecurityXYZ](https://x.com/zksecurityXYZ/status/2081787012596555968?s=20)
+
+[ "is zkao still the best AI tool to find bugs?" - @zkaol](https://x.com/zkaol/status/2083037444736213398?s=20)
+
+[Grayscale has filed a new amendment to its application to launch the #Zcash ETF. - @ruZCASH](https://x.com/ruZCASH/status/2083191599589199906)
+
+[Privacy is getting an upgrade. Zcash $ZEC Ironwood network upgrade is live. - @Grayscale](https://x.com/Grayscale/status/2082107681712771231?s=20)
+
+[Migration keeps growing! Ironwood era is here. - @Ztack_ZEC](https://x.com/Ztack_ZEC/status/2083522693136093368?s=20)
+
+[I've been asked a few times now: when will the Ironwood migration be 'complete'? When will we finally know if there was inflation? - @BostonZcash](https://x.com/BostonZcash/status/2082576682540544385)
+
+[in other news, you can sign up to http://zkao.io today and actually find critical bugs in your code :) - @cryptodavidw](https://x.com/cryptodavidw/status/2083034230095794627?s=20)
+
+[Soundness of our zk-SNARK would have been great on its own. - @ebfull](https://x.com/ebfull/status/2082104977196270052?s=20)
+
+[⚡️ INSIGHT: Zcash founder Zooko says ZEC’s supply is verifiable today at exactly 16,848,458, shutting down fears of hidden inflation. - @Cointelegraph](https://x.com/Cointelegraph/status/2082794272625991747?s=20)
+
+[Tushar Jain says the next buyers of Zcash (ZEC) are the same people who bought Bitcoin in 2015-2020: - @therollupco](https://x.com/therollupco/status/2082173107159364079?s=20)
+
+[Zaki answers the question that spooked Zcash holders: is there infinite ZEC out there waiting to debase you? - @therollupco](https://x.com/therollupco/status/2083285436433395797?s=20)
+
+[Zcash's Ironwood upgrade addressed a flaw that could've quietly minted counterfeit $ZEC. Here's everything you need to know. - @CoinDesk](https://x.com/CoinDesk/status/2082912004013261146?s=20)
+
+
+
+
+
+
+---
+
+## Meme of the week 😊
+
+[#meme - @genzcash](https://x.com/genzcash/status/2082147283152585214?s=20)
+
+---
+
+## Video Of the Week 
+
+[IronWood Migration Real Time! - @zkradioz](https://x.com/zkradioz/status/2082118638039863409)
+
+
+---
+
+## Jobs in the Ecosystem
+
+- [ZecHub Bounties](https://bounties.zechub.wiki/)
+- [ZKAV Club Opportunities](https://zkav.club/opportunities/)
+- [zkSNARKs Grants](https://zksnarks.net/grants.html)
+- [Principal Engineer - ZODL](https://jobs.ashbyhq.com/zodl/3cc7aac7-9d53-49c9-bdc4-94c2b9c6a5e4)
+- [Careers On ZODL](https://jobs.ashbyhq.com/zodl)
