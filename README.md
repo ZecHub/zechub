@@ -2,7 +2,7 @@
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 <div style="text-align: center;">
-    <img src="https://i.ibb.co/Gv7Jd8Q/Zec-Hub-blue-globe.png" alt="Logo" style="width: 70px; height: auto;">
+    <img src="https://github.com/user-attachments/assets/0b8077dc-4495-412c-aa97-aa290b6ce87e" alt="Logo" style="width: 70px; height: auto;">
     <h3>
         <em>
             An open-source education hub for <a href="https://z.cash/" target="_blank">Zcash</a>
