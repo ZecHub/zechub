@@ -7,6 +7,14 @@
 
 ZEC is a widely-used digital asset for payments, offering strong privacy features that make it suitable for various transactions like paying friends, making purchases, or donating. To maximize privacy and security, it is essential to understand how different types of transactions work within Zcash.
 
+## TL;DR
+
+- Zcash supports two kinds of transaction: **shielded**, which keeps the details private, and **transparent**, which records them publicly.
+- Shielded addresses begin with `u` or `z`. Transparent addresses begin with `t` and behave much like a Bitcoin address.
+- The choice is yours on every payment. Privacy is an option Zcash gives you, not a setting someone else decides for you.
+- Withdrawing from an exchange is the most common place people lose privacy. If the exchange only supports transparent withdrawals, shield the funds yourself once they arrive.
+- Fees follow [ZIP 317](https://zips.z.cash/zip-0317) and grow with the size of the transaction. Wallets still sending the old flat fee can see their transactions delayed.
+
 ## Shielded Transactions
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -39,8 +47,15 @@ Transparent transactions work similarly but lack privacy protections, making tra
   />
 </div>
 
+## A Simple Way to Picture It
 
-### Managing Fees for Transparent Transactions
+A transparent transaction is a postcard. The postman delivers it, but anyone who handles it along the way can read the message, see who sent it and see who receives it.
+
+A shielded transaction is a sealed envelope. The postal service still confirms that a real letter with real postage passed through the system, and nobody can forge one or send the same letter twice. What the envelope contains stays between sender and recipient.
+
+The important part is that Zcash lets you decide which one to send, payment by payment.
+
+## Managing Fees for Transparent Transactions
 
 ZIP-317 Guidance: The fee structure scales with transaction complexity, requiring adjustments beyond the standard 0.00001 ZEC fee.
 Example Calculation: A simple one-note transaction might require a 0.0001 ZEC fee, increasing by roughly 0.00005 ZEC per additional note.
@@ -50,14 +65,28 @@ Editing Fees in Wallets
 Trust Wallet: Access advanced settings by tapping the gear icon while creating a transaction. Adjust Miner Tip Gwei and Max Fee Gwei fields carefully to avoid transaction failure. Trust Wallet only charges network fees.
 Coinomi Wallet: Offers three dynamic fee options Low, Normal, High based on network conditions. For manual adjustments, select Custom on supported coins or use Change Fee in the top-right corner. Users can set fees per byte or kilobyte, impacting confirmation times. Its recommended to use dynamic options if unsure.
 
-This version incorporates fee management guidance, dynamic fee options, and customization settings across Trust Wallet and Coinomi, providing users with comprehensive fee control details.
+## Common Mistakes
 
-#### Resources
+- **Assuming that any wallet listing ZEC can send it privately.** A number of multi-coin wallets support the transparent side of Zcash only. Check the wallet's supported pools before you rely on it for privacy. The [Wallets](https://zechub.wiki/using-zcash/wallets) page lists this for each option.
+- **Withdrawing to a transparent address and leaving the funds there.** The withdrawal itself is public, and every later movement from that address stays public too. Shield the funds once they arrive.
+- **Treating privacy as something you turn on once.** Each transaction is a separate choice. Sending shielded today does not undo a transparent payment you made last week.
+- **Reusing a transparent address for everything.** Because transparent activity is permanently visible, a single reused address gradually links payments that had no reason to be connected.
+- **Sending with an outdated default fee.** Wallets that have not adopted ZIP 317 may still send the older flat fee, which can leave a transaction sitting unconfirmed.
+
+## Note
+
+Please note that the safest way to use ZEC is using only shielded transactions. Some wallets are in the process of implementing [unified addresses](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) which allows users and exchanges to combine transparent and shielded addresses together.
+
+## Resources
 
 [ZIPS](https://zips.z.cash/)
 
-#### Note
+## Related Pages
 
-Please note that the safest way to use ZEC is using only shielded transactions. Some wallets are in the process of implementing [unified addresses](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) which allows users and exchanges to combine transparent and shielded addresses together. 
+- [Wallets](/using-zcash/wallets) — which wallets support shielded sending, and which are transparent only
+- [Shielded Pools](/using-zcash/shielded-pools) — Sapling and Orchard, the pools your shielded funds live in
+- [Memos](/using-zcash/memos) — encrypted messages that can travel with a shielded transaction
+- [Transparent Exchange Addresses](/using-zcash/transparent-exchange-addresses) — TEX addresses and why exchanges use them
+- [Custodial Exchanges](/using-zcash/custodial-exchanges) — which exchanges support shielded withdrawals
 
 ## ZEC to ZAT Converter
