@@ -30,56 +30,63 @@ Two situations are covered here:
 ### 1) Restoring an Account
 
 1. Install Zkool from the [releases page](https://github.com/hhanh00/zkool2/releases) and open it
-2. On the **Account Manager** (the main page), tap the **+** button
+2. On the **Account Manager** (the main page), tap the **+** button to reach the **New Account** screen
 3. Enter an **Account Name** to identify this account
-4. Turn on **Restore Account?**
+4. Turn on **Restore Account?**. This reveals the key and birth height fields
 5. Paste your key into **Key (Seed Phrase, Private Key, or Viewing Key)**. Zkool accepts a seed phrase, a Sapling secret key, a transparent extended key, or a viewing key
 6. Enter a **Birth Height** if you know roughly when the wallet was first used. This tells Zkool where to start scanning, which saves a lot of time
 
-> **No birth height?** Leave it blank and confirm the **No Birth Height** warning. Zkool will scan from the start of the chain, which is slower but will not miss anything. If your funds predate the Sapling upgrade of October 2018, leave it blank rather than guessing a later height, or the scan can skip your transactions entirely.
+![Zkool New Account screen with Restore Account turned on](/content-images/zkool-restore-account-8802460c6a.webp)
 
-7. Tap to save, then sync the account
+> **No birth height?** Leave it blank and confirm the warning. Zkool will scan from the start of the chain, which is slower but will not miss anything. If your funds predate the Sapling upgrade of October 2018, leave it blank rather than guessing a later height, or the scan can skip your transactions entirely.
+
+7. Save the account, then sync it
 
 ### Restoring a seed from a different wallet
 
 If the seed came from another wallet and the balance looks wrong after syncing, the change address derivation is usually why.
 
-Open **Advanced Options** on the restore screen and turn on **Use Internal Change** before saving.
+Turn on the **Advanced Options** switch, further down the same New Account screen, and turn on **Use Internal Change** before saving.
 
-Wallets do not all derive change addresses the same way. Restoring a Zodl seed into Zkool without this setting can show a balance that is missing your change notes, which looks like lost funds but is not. There are also two other fields under **Advanced Options** worth knowing:
+Wallets do not all derive change addresses the same way. Restoring a ZODL seed into Zkool without this setting can show a balance that is missing your change notes, which looks like lost funds but is not. Zkool's tooltip for the switch still refers to Zashi, which is what ZODL used to be called.
 
-- **Extra Passphrase (optional)** — only if the original wallet used one
-- **Account Index** — if the original wallet held several accounts on one seed, the funds may be under a different index
+Two more fields live under **Advanced Options**:
+
+- **Extra Passphrase (optional)**, only if the original wallet used one
+- **Account Index**, if the original wallet held several accounts on one seed. The funds may be under a different index
+
+> **These two only appear once a valid seed phrase is in the Key field.** With the field empty, or holding a private or viewing key, Zkool shows just **Use Internal Change** and **H/W Ledger**. Paste the seed first, then open Advanced Options.
 
 ### 2) Sweeping Funds from a Transparent-Only Wallet
 
 If your funds are in a wallet that never supported shielded addresses (Trust, Coinomi, Guarda and similar), restore the account first, then move the funds into the shielded pool.
 
 1. Restore the account using the steps above
-2. Open the account and go to the **Receive** page
-3. Use the search button to **scan for related transparent addresses**. Wallets often generate many transparent addresses from one seed, and this finds the ones holding funds
-4. Go to the **Send** page
-5. Choose how to shield:
-   - **Shield All** moves everything from every transparent address in one go
-   - **Shield One** uses a single transparent address at a time. This is slower, but it avoids linking your transparent addresses together in one transaction
+2. Open the account and go to the **Receive Funds** page
+3. Tap the magnifying glass in the top bar (**Find other transparent addresses**). Wallets that rotate addresses, such as Ledger and Exodus, generate many transparent addresses from one seed, and this finds the ones holding funds
+4. **Reset and sync the account afterwards.** The newly found addresses only pick up their balances on the next scan, so skipping this makes it look like the sweep found nothing
+5. Go to the **Send** page. Near the balance you will find three icon buttons. They have no text labels, so hover or long press to see their names:
+   - **Shield One** (outlined shield) moves one transparent address at a time
+   - **Shield All** (solid shield) moves everything from every transparent address at once
+   - **Unshield All** (open padlock) goes the other way, into a transparent address
 
-> **Shield One is the more private choice.** Shielding several addresses in one transaction publicly links them as belonging to the same person.
+> **Shield One is the more private choice.** Shielding several addresses in one transaction publicly links them as belonging to the same person. Zkool warns about this itself before running Shield All.
 
 6. Review the transaction and send it
 
-You can also use **Unshield All** in the same place to go the other direction, for example when withdrawing to an exchange that only accepts transparent addresses.
+Unshield All is useful when withdrawing to an exchange that only accepts transparent addresses. The shielding buttons only appear if the account has a shielded address, and Unshield All only if it has a transparent one.
 
 ## Recovered funds and the Ironwood pool
 
 Since the Ironwood (NU6.3) upgrade activated on 28 July 2026, the Orchard pool is spend-only. No new value can enter it, and existing value leaves through the turnstile into Ironwood.
 
-If your recovered funds are in Orchard, they will need to migrate before they behave normally. In Zkool this is under **Note Migration** on the account page:
+If your recovered funds are in Orchard, they will need to migrate before they behave normally. Open the account menu and choose **Note Migration**. The option only shows up when there is actually something to migrate.
 
-- **Orchard to Ironwood Migration** shows what is left to move
-- **Migration Speed** controls the delay between steps
-- **Start Migration** runs it in stages; **One Shot** does it in a single pass
+The screen is titled **Orchard to Ironwood Migration** and runs in two phases. First it splits non-standard notes into standard denominations, then it moves those notes one at a time. **Migration Speed** is a slider from Ultra Fast to Slow that sets the random delay between steps. **Start Migration** runs the staged process in the background, and you can close the page and resume later. **One Shot** does it in a single pass.
 
-> **Migration amounts are public.** When value crosses the turnstile, the amount and the block height are visible on chain, even though the sender and receiver stay shielded. Distinctive amounts can identify you, so prefer the staged migration over one shot, and consider routing your connection through Tor or a VPN first so your IP address is not linked to the amount you moved.
+Each step is its own transaction, so each one pays a fee.
+
+> **Migration amounts are public.** When value crosses the turnstile, the amount and the block height are visible on chain, even though the sender and receiver stay shielded. Distinctive amounts can identify you, so prefer the staged migration at a slower speed over one shot, and consider routing your connection through Tor or a VPN first so your IP address is not linked to the amount you moved.
 
 ## Deep Recovery with ZExCavator
 
