@@ -36,7 +36,7 @@ Two situations are covered here:
 5. Paste your key into **Key (Seed Phrase, Private Key, or Viewing Key)**. Zkool accepts a seed phrase, a Sapling secret key, a transparent extended key, or a viewing key
 6. Enter a **Birth Height** if you know roughly when the wallet was first used. This tells Zkool where to start scanning, which saves a lot of time
 
-![Zkool New Account screen with Restore Account turned on](/content-images/zkool-restore-account-8802460c6a.webp)
+![Zkool New Account screen with Restore Account and Advanced Options both turned on](/content-images/zkool-restore-account-60b1d2777e.webp)
 
 > **No birth height?** Leave it blank and confirm the warning. Zkool will scan from the start of the chain, which is slower but will not miss anything. If your funds predate the Sapling upgrade of October 2018, leave it blank rather than guessing a later height, or the scan can skip your transactions entirely.
 
