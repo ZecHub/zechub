@@ -4,7 +4,7 @@
 
 # <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Alt Text" width="50"/>   Non-Custodial Exchanges
 
-[Zcash Non-Custodial Exchanges](/site/Using_Zcash/DEX_List)
+[Zcash Non-Custodial Exchanges](/dex)
 
 In the ever-evolving world of cryptocurrency trading, the rise of non-custodial exchanges which is also known as Decentralized Exchanges or DEXs is redefining how users engage with digital assets. These platforms offer a revolutionary approach to trading by eliminating the need for intermediaries or third parties and returning control to users.
 
