@@ -20,7 +20,7 @@
 
 ## Why this matters
 
-New arrivals to Zcash meet a wall of names, ECC, ZODL, the Zcash Foundation, Shielded Labs, Sovright, Project Tachyon, and more, with no clear sense of who does what. Understanding the structure makes everything else easier. It tells you who maintains the code you rely on, who to approach for a grant, and who is responsible for the part of the network you care about. It also reveals one of Zcash's quiet strengths: because the work is spread across independent groups, no single point of failure can capture or stall the project.
+Understanding the structure makes everything else easier. It tells you who maintains the code you rely on, who to approach for a grant, and who is responsible for the part of the network you care about. It also reveals one of Zcash's quiet strengths: because the work is spread across independent groups, no single point of failure can capture or stall the project.
 
 This page is a map. For each organization that already has a full page on this wiki, you will find a short note and a link to read more, rather than a repeat of what is written there.
 
@@ -69,8 +69,8 @@ The work today is spread across independent organizations, each owning a clear p
 
 ### Scaling and cryptography
 
-6. Project Tachyon is a scaling effort led by cryptographer Sean Bowe. It proposes a new way for wallets to sync with the blockchain, called oblivious synchronization, that shrinks transactions and, as a side effect, moves Zcash toward post-quantum privacy. It does not yet have its own page on this wiki.
-7. The Valar Group is a cryptography research and engineering lab working on the Zcash protocol for private, post-quantum digital cash at scale. It collaborates closely with Project Tachyon on the scaling and quantum work. It does not yet have its own page on this wiki.
+6. Project Tachyon is a scaling effort led by cryptographer Sean Bowe. It proposes a new way for wallets to sync with the blockchain, called oblivious synchronization, that shrinks transactions and, as a side effect, moves Zcash toward post-quantum privacy. Its work is documented at [tachyon.z.cash](https://tachyon.z.cash/).
+7. The Valar Group is a cryptography research and engineering lab working on the Zcash protocol for private, post-quantum digital cash at scale. It collaborates closely with Project Tachyon on the scaling and quantum work. More on its work is at [valargroup.dev](https://valargroup.dev/).
 
 ### Regional and community organizations
 
@@ -85,7 +85,7 @@ The work today is spread across independent organizations, each owning a clear p
 10. Zcash Community Grants funds independent contributors and community projects from a portion of the block reward, spreading work across many teams beyond the core organizations. See [Zcash Community Grants](https://zechub.wiki/zcash-organizations/zcash-community-grants).
 11. The Financial Privacy Foundation supports the Zcash ecosystem and community projects. See [Financial Privacy Foundation](https://zechub.wiki/zcash-organizations/financial-privacy-foundation).
 
-Alongside these sit many more contributors, wallet teams, regional communities, and independent developers, as well as investors who hold and support ZEC without building the protocol. The list above is the backbone, not the whole picture.
+All of these organizations maintain open source repositories, so their work can be read, checked, and built on by anyone. And the organizations are not the whole story. Many significant contributions come from individuals and from contracted companies funded through grants, rather than from the core organizations alone. Alongside them sit wallet teams, regional communities, independent developers, and investors who hold and support ZEC without building the protocol. The list above is the backbone, not the full picture.
 
 <br/>
 

@@ -172,7 +172,7 @@
   "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": "Migration Guide: From zcashd to Zebrad/Zallet",
   "guides/My_First_Zcash_Workbook.md": "My First Zcash Workbook",
   "guides/Nym_VPN.md": "Nym VPN",
-  "guides/Raspberry_Pi_4_Full_Node.md": "Raspberry Pi 4: a zcashd Full node guide",
+  "guides/Raspberry_Pi_4_Full_Node.md": "Run a Full Node on a Raspberry Pi 4 (Zebra + Zallet)",
   "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": "RPi5 Zebra Lightwalletd with Zingo",
   "guides/Raspberry_pi_4_Zebra_Node.md": "Raspberry Pi 4 Guide for Running Zebra",
   "guides/ShapeShift_Zcash.md": "ShapeShift and Zcash: Privacy-First Decentralized Trading",
