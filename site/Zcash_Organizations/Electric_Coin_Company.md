@@ -3,20 +3,24 @@
 </a>
 
 # <img src="/content-images/image-2024-02-03-164918723-f59419848a.webp" alt="Alt Text" width="50"/>    Electric Coin Company (Sunset)
-[Website](https://electriccoin.co) - [Github](https://github.com/Electric-Coin-Company) - [X/Twitter](https://x.com/ElectricCoinCo)
+[Website](https://electriccoin.co) - [Github](https://github.com/zodl-inc) - [X/Twitter](https://x.com/ElectricCoinCo)
+
+> **About that GitHub link.** ECC's repositories are at `zodl-inc`. That is the same organization, renamed when the team moved to [ZODL](/zcash-organizations/zodl). The old `github.com/Electric-Coin-Company` name was registered by an unrelated party in May 2026 and has nothing to do with ECC or ZODL, so do not trust code published there.
 
 ## Mission Statement
 
 The mission at ECC is to empower economic freedom. Financial privacy is core to this endeavor, and essential to protect human dignity, security, self-sovereignty, and consent. Obtaining financial privacy should be as easy as closing the curtains in your home. But with the emergence of Web2, power is deeply centralized, and those with control are already in your living room. You cannot close the curtains. We must build something new.
 This new system of financial tools, accessible to everyone, will be user-friendly, fully private with options for disclosure, and its supporting infrastructure will be distributed and robust.
 
-## Zashi:  [iOS](https://apps.apple.com/us/app/zashi-zcash-wallet/id1672392439) - [Android](https://play.google.com/store/apps/details?id=co.electriccoin.zcash) - [F-Droid](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
+## Zodl, formerly Zashi:  [iOS](https://apps.apple.com/us/app/zashi-zcash-wallet/id1672392439) - [Android](https://play.google.com/store/apps/details?id=co.electriccoin.zcash) - [F-Droid](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
 
-Built for Private Payments. Zashi is a self-custody shielded ZEC wallet for encrypted digital transactions.
+Built for Private Payments. Zashi was a self-custody shielded ZEC wallet for encrypted digital transactions, built by ECC and released in 2024.
 
-Zashi is the perfect tool for onboarding friends and family into Zcash and private digital payments. Its intuitive design makes it easy for anyone, even those with no prior crypto experience to set up a wallet, get ZEC, and start transacting in minutes.
+It was designed to onboard friends and family into Zcash and private digital payments, with an interface simple enough for people with no prior crypto experience to set up a wallet, get ZEC, and start transacting in minutes.
 
-Integrations:
+The wallet was renamed **Zodl** in February 2026 after the team moved to ZODL. Existing users did not have to do anything, as the app rebranded on its next update, which is why the store links above open Zodl. It is now maintained there rather than by ECC, so see the [ZODL page](/zcash-organizations/zodl) for current information.
+
+Integrations built during the ECC years:
 - [Coinbase:](https://electriccoin.co/blog/coinbase-zashi-1-2-release/) crypto newbies can buy ZEC directly within the wallet skipping the hassles of account registration, KYC, and withdrawing coins from exchanges.
 
 - [Flexa:](https://electriccoin.co/blog/zashi-flexa-integration-is-here-spend-zec-at-thousands-of-retailers/) makes it simple to actually use ZEC, allowing new users to spend it at thousands of retail locations like Barnes & Noble, GameStop, and Chipotle.
