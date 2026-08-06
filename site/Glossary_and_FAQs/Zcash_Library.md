@@ -61,6 +61,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | Term | Definition |
 |------|-----------|
 | Fiat-Shamir | A technique for taking an interactive proof of knowledge and creating a digital signature based on it. This way, some fact (e.g. knowledge of a secret) can be publicly proven without revealing underlying information. |
+| Formal Verification | Proving mathematically that a system behaves exactly as specified, rather than relying on testing alone. The Ironwood Action circuit was verified this way by contributors from zkSecurity and ZODL using the Lean theorem prover, to demonstrate the absence of soundness bugs. |
 | Founders Reward | The Founder reward represents 20 percent of the total block reward and it is deducted from every block's value and transparently distributed to drive protocol development and growth. |
 | Free2z | A tool for anonymous content and private donations powered by Zcash. [Free2z](https://free2z.com) |
 | FROST | Flexible Round-Optimized Schnorr Threshold signature scheme. [Research Paper](https://eprint.iacr.org/2020/852) |
@@ -87,6 +88,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | Integrations | You can accept Zcash payments through a number of 3rd party providers. [Payment Processors](https://z.cash/zcash-for-business/) |
 | Interactive Proof System | An abstract machine that models computation as the exchange of messages between two parties: a Prover and a Verifier. |
 | Investment | A number of Financial options are available for institutional investors or family offices who want to gain exposure to Zcash. [Full list](https://z.cash/investors/) |
+| Ironwood | The network upgrade (NU6.3) that activated on mainnet on 28 July 2026 at block 3,428,143. It introduced a new shielded pool, also called Ironwood, and made the Orchard pool spend-only so existing value migrates across the turnstile. [More info](/zcash-tech/ironwood) |
 
 ## J
 
@@ -131,6 +133,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 
 | Term | Definition |
 |------|-----------|
+| Oblivious Synchronization | A method under development in Project Tachyon that lets a wallet request the data it needs from an untrusted server without revealing which notes it is asking about. The server never learns your nullifiers, because the protocol makes them evolve in an unlinkable way. [Write-up](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
 | Orchard Shielded Pool | The third shielded pool for Zcash and represents the continued evolution of our zk-SNARK technology stack. [Full details](https://electriccoin.co/blog/explaining-halo-2/) |
 | Overwinter | The 1st Network Upgrade for Zcash. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
@@ -139,7 +142,9 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | Term | Definition |
 |------|-----------|
 | Payments | It is possible to use Zcash for everyday purchases through a number of different payment providers. [Payment Apps](https://z.cash/pay-with-zcash/) |
+| PCD (Proof-Carrying Data) | A primitive where data travels alongside a proof of its own correctness, so combining data also combines the proofs. Project Tachyon rebuilds the shielded protocol around PCD, letting each wallet carry a recursive proof that its own balance is correct instead of rescanning the chain. The Zcash implementation is [Ragu](https://github.com/tachyon-zcash/ragu), which follows Halo and needs no trusted setup. |
 | Peer-to-Peer Network | P2P networks are based on the concept of decentralization. The foundational architecture of blockchain technology. |
+| PIR (Private Information Retrieval) | Techniques that let you fetch a record from a server without the server learning which record you asked for. Under active research for Zcash as a way for light wallets to retrieve what they need without leaking what they are looking for. |
 | Podcast | [Radiolab (Zcash Ceremony)](https://archive.org/details/radiolab_podcast17crypto_zcash_ceremony) / [RealVisionFinance](https://www.youtube.com/watch?v=ibA_4kwd_YI) / [EthDenver](https://www.youtube.com/watch?v=t62isi58XcQ) / [UpOnlyPodcast](https://www.youtube.com/watch?v=AjC9T938o3Q) / [Zcast en Español](https://www.youtube.com/@ZcastEsp) |
 
 ## Q
@@ -147,6 +152,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | Term | Definition |
 |------|-----------|
 | QR Code | A machine-readable code used to encode Zcash addresses for easy scanning. Unified Addresses (UAs) are typically shared via QR codes in modern Zcash wallets. |
+| Quantum Recoverability | A property of Ironwood notes, specified in [ZIP 2005](https://zips.z.cash/zip-2005), that keeps a coin's on-chain record recoverable if a future quantum computer breaks the cryptography protecting it today. It is a recovery path rather than quantum resistance, and it applies to Ironwood notes, not to existing Sprout, Sapling or Orchard funds. |
 
 ## R
 
@@ -170,6 +176,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 
 | Term | Definition |
 |------|-----------|
+| Tachyon | Zcash's scaling programme, targeted at NU7. It moves wallets away from scanning every block toward proof-carrying wallet state, oblivious synchronization and prunable node state, aiming for shielded throughput in the thousands of transactions per second. [Project site](https://tachyon.z.cash/overview/) |
 | TAZ | Testnet Zcash (valueless test currency). |
 | Testnet | A separate blockchain for testing upgrades and features before mainnet. |
 | Transaction | A payment between users, submitted to the network and eventually confirmed in a block. |
@@ -177,6 +184,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | Transaction Fee | Default fee is 0.0001 ZEC. Higher fees get priority; very low fees may cause delays or expiry. |
 | Transparent Address | Also called taddr. Starts with t. Fully public (like Bitcoin). |
 | Transparent Transaction | A transaction exclusively between transparent addresses - everything is publicly visible. |
+| Turnstile | The accounting rule that tracks how much value enters and leaves each shielded pool, so no pool can release more than went into it. Used at every pool transition in Zcash's history, and currently guarding the migration from Orchard into Ironwood. [More info](/zcash-tech/the-turnstile) |
 
 ## U
 
@@ -219,6 +227,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | ZEC | The official currency code for Zcash (some exchanges still show XZC). |
 | Zerocash | The academic protocol (2014) that Zcash is based on. |
 | Zaino | The next-generation Zcash indexer replacing lightwalletd, built by the Zcash Foundation. Enables light clients to sync faster and more privately. Part of the Zcash Z3 infrastructure upgrade. |
+| Zakura | A Zcash full node implementation released in July 2026, built as a fork of Zebra by Valar Group and Project Tachyon. It targets throughput and sync speed, with snapshot bootstrapping and a stated goal of card-network scale, around 50,000 transactions per second. [zakura.com](https://zakura.com) |
 | Zallet | The upcoming official Zcash wallet by the Electric Coin Co / ZODL team, built on Zaino. Zallet Alpha is in active development as of 2026. [Forum](https://forum.zcashcommunity.com/t/zcash-z3-updates-formerly-zcashd-deprecation/48965) |
 | Zebra | The Zcash Foundation's Rust-based full node implementation (alternative to zcashd). Production-ready and actively maintained. [GitHub](https://github.com/ZcashFoundation/zebra) |
 | ZIP | Zcash Improvement Proposal - the community governance process used to propose and ratify protocol changes. [ZIP Repository](https://github.com/zcash/zips) |
