@@ -56,7 +56,7 @@ Orchard significantly improved usability, efficiency, and privacy by reducing tr
 
 Today, Orchard remains the primary shielded pool for Zcash. However, the community is evaluating a future migration to a new shielded pool called Ironwood, which would provide additional assurance regarding the integrity of the shielded ZEC supply while preserving Zcash's privacy guarantees.
 
-[Zcash Shielded wallets](/site/Using_Zcash/Wallets) now support Orchard. 
+[Zcash Shielded wallets](/wallets) now support Orchard.
 
 ____
 

@@ -124,5 +124,5 @@ You now understand how to receive income privately.
 
 ## Next Step
 
-- [Accept Payments as a Merchant](/use-cases/accept-payments-as-a-merchant)
+- [Accept Payments as a Merchant](/zcash-use-cases/accept-payments-as-a-merchant)
 <br/>

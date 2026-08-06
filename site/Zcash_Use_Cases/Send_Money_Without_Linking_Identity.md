@@ -110,4 +110,4 @@ You can now send funds privately without exposing identity.
 
 ## Next Step
 
-- [Freelancer Privacy Setup](/use-cases/freelancer-privacy-setup)
+- [Freelancer Privacy Setup](/zcash-use-cases/freelance-privacy-setup)
