@@ -110,4 +110,4 @@ Zcash 通过屏蔽交易实现**完全私密的转账**。
 
 ## 下一步
 
-- [自由职业者隐私设置](/use-cases/freelancer-privacy-setup)
+- [自由职业者隐私设置](/zcash-use-cases/freelance-privacy-setup)

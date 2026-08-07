@@ -120,5 +120,5 @@ Zcash आपको अनुमति देता है:
 
 ## अगला चरण
 
-- [एक व्यापारी के रूप में भुगतान प्राप्त करें](/use-cases/accept-payments-as-a-merchant)
+- [एक व्यापारी के रूप में भुगतान प्राप्त करें](/zcash-use-cases/accept-payments-as-a-merchant)
 <br/>

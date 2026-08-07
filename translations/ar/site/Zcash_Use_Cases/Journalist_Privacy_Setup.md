@@ -114,7 +114,7 @@
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة روابط"/> ذو صلة
 
 - [الخصوصية - أفضل الممارسات](/privacy/best-practices)
-- [أرسل المال دون ربط الهوية](/use-cases/send-money-without-linking-identity)
+- [أرسل المال دون ربط الهوية](/zcash-use-cases/send-money-without-linking-identity)
 
  <br/>
 

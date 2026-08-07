@@ -129,5 +129,5 @@ Zcash를 사용하면 다음과 같은 이점을 얻을 수 있습니다:
 
 ## 다음 단계
 
-- [상인으로 결제 수락하기](/use-cases/accept-payments-as-a-merchant)
+- [상인으로 결제 수락하기](/zcash-use-cases/accept-payments-as-a-merchant)
 <br/>

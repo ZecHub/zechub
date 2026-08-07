@@ -125,5 +125,5 @@ Zcash इसकी अनुमति देता है:
 
 ## अगला चरण
 
-- [एक गोपनीय समुदाय कोष चलाएँ](/use-cases/private-community-treasury)
+- [एक गोपनीय समुदाय कोष चलाएँ](/zcash-use-cases/private-community-treasury)
 <br/>

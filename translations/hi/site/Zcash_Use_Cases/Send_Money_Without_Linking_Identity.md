@@ -109,4 +109,4 @@ Zcash **पूरी तरह से गोपनीय ट्रांसफ�
 
 ## अगला चरण
 
-- [फ्रीलांसर गोपनीयता सेटअप](/use-cases/freelancer-privacy-setup)
+- [फ्रीलांसर गोपनीयता सेटअप](/zcash-use-cases/freelance-privacy-setup)
