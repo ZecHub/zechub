@@ -135,5 +135,5 @@ Zcash надає:
 
 ## Наступний крок
 
-- [Керуйте приватною громадською скарбницею](/use-cases/private-community-treasury)
+- [Керуйте приватною громадською скарбницею](/zcash-use-cases/private-community-treasury)
 <br/>

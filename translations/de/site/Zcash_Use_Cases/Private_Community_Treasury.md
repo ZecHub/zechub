@@ -122,7 +122,7 @@ Deine Community kann:
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="Kettenglied-Symbol"/> Verwandt
 
 - [Privatsphäre - Best Practices](/privacy/best-practices)
-- [Geld senden, ohne die Identität zu verknüpfen](/use-cases/send-money-without-linking-identity)
+- [Geld senden, ohne die Identität zu verknüpfen](/zcash-use-cases/send-money-without-linking-identity)
  
 
 <br/>
@@ -137,4 +137,4 @@ Du verstehst, wie du gemeinsame Mittel privat verwalten kannst.
 
 ## Nächster Schritt
 
-- [Datenschutzeinrichtung für Journalisten](/use-cases/journalist-privacy-setup)
+- [Datenschutzeinrichtung für Journalisten](/zcash-use-cases/journalist-privacy-setup)

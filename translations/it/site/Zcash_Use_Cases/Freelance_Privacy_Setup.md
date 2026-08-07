@@ -124,5 +124,5 @@ Ora capisci come ricevere reddito in modo privato.
 
 ## Passo successivo
 
-- [Accettare pagamenti come commerciante](/use-cases/accept-payments-as-a-merchant)
+- [Accettare pagamenti come commerciante](/zcash-use-cases/accept-payments-as-a-merchant)
 <br/>

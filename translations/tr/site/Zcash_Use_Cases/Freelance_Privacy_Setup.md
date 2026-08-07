@@ -124,5 +124,5 @@ Artık geliri nasıl gizli şekilde alacağınızı anlıyorsunuz.
 
 ## Sonraki Adım
 
-- [Bir İşletme Olarak Ödeme Kabul Edin](/use-cases/accept-payments-as-a-merchant)
+- [Bir İşletme Olarak Ödeme Kabul Edin](/zcash-use-cases/accept-payments-as-a-merchant)
 <br/>

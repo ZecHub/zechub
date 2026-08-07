@@ -135,5 +135,5 @@ Ora puoi gestire flussi di pagamento privati per la tua attività.
 
 ## Passo successivo
 
-- [Gestire una tesoreria di comunità privata](/use-cases/private-community-treasury)
+- [Gestire una tesoreria di comunità privata](/zcash-use-cases/private-community-treasury)
 <br/>

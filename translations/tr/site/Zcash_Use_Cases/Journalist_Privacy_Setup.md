@@ -114,7 +114,7 @@ Kaynaklara ödeme yapıyorsanız:
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> İlgili
 
 - [Gizlilik - En iyi uygulamalar](/privacy/best-practices)
-- [Kimliği ilişkilendirmeden para gönderin](/use-cases/send-money-without-linking-identity)
+- [Kimliği ilişkilendirmeden para gönderin](/zcash-use-cases/send-money-without-linking-identity)
 
  <br/>
 
