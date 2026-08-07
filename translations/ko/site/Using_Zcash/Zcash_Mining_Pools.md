@@ -130,7 +130,7 @@ Zcash 채굴 풀은 개인 채굴자가 컴퓨팅 파워(해시레이트)를 결
 ### [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
 
 <a href="https://binance.com">
-    <img src="/content-images/Foundry-3f33346374.webp" alt="Foundry Zcash Mining Pool 로고" width="200" height="100"/>
+    <img src="/content-images/Foundry-3f33346374.webp" alt="Foundry Zcash Mining Pool Logo" width="200" height="100"/>
 </a>
 
 - 웹사이트: [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
@@ -143,7 +143,7 @@ Zcash 채굴 풀은 개인 채굴자가 컴퓨팅 파워(해시레이트)를 결
 ### [suprnova](https://zec.suprnova.cc/)
 
 <a href="https://binance.com">
-    <img src="/content-images/suprnova-logo-1-small-e95de6cdb3.webp" alt="suprnova 로고" width="200" height="100"/>
+    <img src="/content-images/suprnova-logo-1-small-e95de6cdb3.webp" alt="suprnova Logo" width="200" height="100"/>
 </a>
 
 - 웹사이트: [suprnova](https://zec.suprnova.cc/)

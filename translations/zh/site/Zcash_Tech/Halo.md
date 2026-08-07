@@ -9,7 +9,7 @@
 
 Halo 是由 Electric Coin Co. 的 Sean Bowe 提出的一种无需信任、可递归的零知识证明（ZKP）。它消除了可信设置，并使 Zcash 区块链具备更强的可扩展性。Halo 是首个同时兼具高效性与递归性的零知识证明系统，被广泛认为是一项科学突破。
 
-![halo](https://electriccoin.co/wp-content/uploads/2021/01/Halo-on-Z-1440x720.png "halo")
+![halo](/content-images/_unavailable.svg "halo")
 
 
 **组成部分**

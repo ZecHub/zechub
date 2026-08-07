@@ -8,6 +8,9 @@
 
 | ब्लॉग / लेखक              | विवरण                                              | लिंक |
 |----------------------------|----------------------------------------------------------|------|
+| How Zcash works            | Zcash का एक कार्यशील मॉडल तैयार करें                           | [देखें ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
+| Max Desalle                | Mastering Zcash                                          | [देखें ->](https://maxdesalle.com/mastering-zcash/) |
+| Mike Rosulek               | The Joy of Cryptography                                  | [देखें ->](https://joyofcryptography.com/) |
 | James Katz                 | Zcash और privacy पर व्यक्तिगत लेखन और विचार      | [देखें ->](https://free2z.cash/James_Katz/) |
 | Thumbs' Update             | नियमित ecosystem अपडेट और अंतर्दृष्टियाँ                   | [देखें ->](https://thumbsup.substack.com) |
 | roomatemusing              | विचार-लेख और समुदाय सामग्री                            | [देखें ->](https://free2z.cash/roommatemusing) |

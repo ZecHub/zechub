@@ -9,7 +9,7 @@
 
 Halo هو برهان معرفة صفرية (ZKP) عديم الثقة ومتكرر، اكتشفه Sean Bowe في Electric Coin Co. وهو يلغي الإعداد الموثوق ويتيح قابلية توسع أكبر لسلسلة كتل Zcash. وكان Halo أول نظام براهين معرفة صفرية يجمع بين الكفاءة والتكرار، ويُنظر إليه على نطاق واسع باعتباره اختراقًا علميًا.
 
-![Halo](https://electriccoin.co/wp-content/uploads/2021/01/Halo-on-Z-1440x720.png "halo")
+![halo](/content-images/_unavailable.svg "halo")
 
 
 **المكوّنات**
