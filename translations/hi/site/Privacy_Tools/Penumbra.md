@@ -2,7 +2,7 @@
 
 Penumbra एक अत्याधुनिक, पूर्णतः shielded layer-1 नेटवर्क के रूप में मौजूद है, जो Cosmos ecosystem में प्रतिस्पर्धा कर रहा है। यह अपने उपयोगकर्ताओं को on-chain अपना metadata प्रकट किए बिना सुरक्षित रूप से लेन-देन करने, tokens को stake और swap करने, तथा market making करने में सक्षम बनाता है। एक पूर्णतः shielded blockchain के रूप में, यह गोपनीयता या decentralization से समझौता किए बिना web पर shielded transactions भी प्रदान करता है — Penumbra में privacy डिफ़ॉल्ट रूप से होती है, और इसमें न तो transparent transactions हैं और न ही transparent value pool।
 
-![image.png](https://drive.google.com/file/d/16CcFQ1ZhG_pi4ENQuhFKPwN-J1diELRX/view?usp=drive_link)
+![image.png](/content-images/_unavailable.svg)
 
 ## Penumbra IBC में उपयोग की जाने वाली तकनीक 
 
@@ -10,7 +10,7 @@ IBC Integration: सबसे पहले आता है Inter-Blockchain Com
 
 Zero-Knowledge Proofs (ZKPs): Penumbra zero-knowledge proof cryptography तकनीक का उपयोग करता है ताकि सभी transactions का verification और validation इस तरह हो सके कि sender, receiver, या transfer की गई राशि जैसी कोई भी जानकारी उजागर न हो।
 
-![image.png](https://drive.google.com/file/d/1BxY5PlHBdV5iwZDgi86Z4Jz6CEesSjvO/view?usp=drive_link)
+![image.png](/content-images/_unavailable.svg)
 
 Decentralized Exchange with Privacy: Panumbra network के मूल में privacy है। यह नेटवर्क संभवतः एक decentralized exchange mechanism का उपयोग करता है, जो trades और crypto transactions की privacy को बढ़ावा देता है, साथ ही financial data की सुरक्षा करता है और उपयोगकर्ताओं को अपनी trading strategies के खुलासे पर नियंत्रण रखने का अधिकार देता है।
 

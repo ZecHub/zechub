@@ -2,7 +2,7 @@
 
 Penumbra 旨在成为 Cosmos 生态中具有竞争力的、最前沿的全隐私 layer-1 网络。它使用户能够在不暴露链上元数据的情况下，安全地进行交易、质押、代币交换和做市。作为一条完全隐私保护的区块链，它还支持在 Web 上进行隐私交易，同时不牺牲隐私性或去中心化——Penumbra 默认启用隐私，不存在透明交易，也不存在透明价值池。
 
-![image.png](https://drive.google.com/file/d/16CcFQ1ZhG_pi4ENQuhFKPwN-J1diELRX/view?usp=drive_link)
+![image.png](/content-images/_unavailable.svg)
 
 ## Penumbra IBC 中使用的技术 
 
@@ -10,7 +10,7 @@ IBC 集成：排在首位的是 Inter-Blockchain Communication (IBC) 协议，�
 
 零知识证明（ZKPs）：Penumbra 利用零知识证明密码学技术，确保所有交易都能在不泄露任何细节的情况下完成验证和确认，例如发送方、接收方或转账金额。
 
-![image.png](https://drive.google.com/file/d/1BxY5PlHBdV5iwZDgi86Z4Jz6CEesSjvO/view?usp=drive_link)
+![image.png](/content-images/_unavailable.svg)
 
 具备隐私性的去中心化交易所：隐私是 Panumbra 网络的核心。该网络可能采用一种去中心化交易机制，在保护金融数据的同时增强交易和加密货币交易的隐私，并赋予用户控制其交易策略披露范围的权利。
 

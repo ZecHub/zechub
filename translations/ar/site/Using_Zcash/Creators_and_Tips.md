@@ -15,7 +15,7 @@
 
 ## Zcash.me
 
-![شعار Zcash.me](https://pbs.twimg.com/profile_images/1983177127806533632/LbLuoQjB_400x400.jpg)
+![شعار Zcash.me](/content-images/_unavailable.svg)
 
 ### نظرة عامة
 

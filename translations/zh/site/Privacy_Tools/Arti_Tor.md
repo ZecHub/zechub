@@ -1,7 +1,7 @@
-![Tor 标志](https://gitlab.torproject.org/uploads/-/system/appearance/header_logo/1/purple.svg)
+![Tor 标志](/content-images/_unavailable.svg)
 
 # **Arti：下一代 Rust Tor 客户端**
-![Atri 标志](https://gitlab.torproject.org/uploads/-/system/project/avatar/647/sliced-onions.png)
+![Atri 标志](/content-images/_unavailable.svg)
 
 **Arti** 是 Tor Project 发起的一项计划，旨在使用 **Rust** 编程语言构建下一代 **Tor** 客户端。Arti 被设计为模块化、可嵌入且可用于生产环境，提供对 **Tor** 匿名协议更安全、更高效的实现。随着 **Arti version 1.4.0** 的发布，引入了若干重要更新：
 
