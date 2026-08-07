@@ -457,11 +457,11 @@
       "edited": false
     },
     "Using_Zcash/Wallets.md": {
-      "src": "sha256:a61b07ff15b653ce0d978eea99b731560d8ef3d868582b8b44447b623324f0f6",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:3e38de995e7a8cde6edf15339eb6d0f82c7a0341c80db012cf46fcc3cbc871e8",
+      "src_commit": "f9a14988a8a25b8599900f9822d5a87cfb505aac",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Using_Zcash/Zcash_Mining_Guide.md": {
@@ -921,11 +921,11 @@
       "edited": false
     },
     "Zcash_Tech/Pepper_Sync.md": {
-      "src": "sha256:5c78bd0ebdbd6379abc1dbd2528c9e347c602b96cacbcabe7b03ba2892a2fe38",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:92af230702d0659ed75ffb2e58a959fb7d00c97b924b92547ad7057809b15e44",
+      "src_commit": "f9a14988a8a25b8599900f9822d5a87cfb505aac",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Tech/Post_Quantum_Security.md": {
