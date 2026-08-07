@@ -104,7 +104,7 @@ Les pools de minage Zcash sont des services qui permettent aux mineurs individue
 ### [ViaBTC](https://www.viabtc.com/en/)
 
 <a href="https://binance.com">
-    <img src="/content-images/ViaBTC-8fa5be7bd7.webp" alt="Logo de ViaBTC" width="200" height="100"/>
+    <img src="/content-images/ViaBTC-8fa5be7bd7.webp" alt="ViaBTC Logo" width="200" height="100"/>
 </a>
 
 - Site web : [ViaBTC](https://www.viabtc.com/en/)
@@ -117,7 +117,7 @@ Les pools de minage Zcash sont des services qui permettent aux mineurs individue
 ### [Zhash](https://zcash.zhash.pro/stats)
 
 <a href="https://binance.com">
-    <img src="/content-images/Zhash-45ac9e6541.webp" alt="Logo de Zhash" width="200" height="100"/>
+    <img src="/content-images/Zhash-45ac9e6541.webp" alt="Zhash Logo" width="200" height="100"/>
 </a>
 
 - Site web : [Zhash](https://zcash.zhash.pro/stats)

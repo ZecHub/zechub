@@ -9,7 +9,7 @@
 
 Halo est une preuve à divulgation nulle de connaissance (ZKP) récursive et sans confiance, découverte par Sean Bowe chez Electric Coin Co. Elle élimine la configuration de confiance et permet une plus grande scalabilité de la blockchain Zcash. Halo a été le premier système de preuve à divulgation nulle de connaissance à être à la fois efficace et récursif, largement considéré comme une percée scientifique.
 
-![halo](https://electriccoin.co/wp-content/uploads/2021/01/Halo-on-Z-1440x720.png "halo")
+![halo](/content-images/_unavailable.svg "halo")
 
 
 **Composants**

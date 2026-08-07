@@ -39,7 +39,7 @@ Os pools de mineração de Zcash são serviços que permitem que mineradores ind
 ### [FlyPool](https://zcash.flypool.org/)
 
 <a href="https://binance.com">
-    <img src="/content-images/Flypool-031c2edf57.webp" alt="Logo da FlyPool" width="200" height="100"/>
+    <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
 </a>
 
 - Website: [FlyPool](https://zcash.flypool.org/)
@@ -91,7 +91,7 @@ Os pools de mineração de Zcash são serviços que permitem que mineradores ind
 ### [Antpool](https://v3.antpool.com/home)
 
 <a href="https://binance.com">
-    <img src="/content-images/Antpool-9c5dac3b65.webp" alt="Logo da Antpool" width="200" height="100"/>
+    <img src="/content-images/Antpool-9c5dac3b65.webp" alt="Antpool Logo" width="200" height="100"/>
 </a>
 
 - Website: [Antpool](https://v3.antpool.com/home)
@@ -117,7 +117,7 @@ Os pools de mineração de Zcash são serviços que permitem que mineradores ind
 ### [Zhash](https://zcash.zhash.pro/stats)
 
 <a href="https://binance.com">
-    <img src="/content-images/Zhash-45ac9e6541.webp" alt="Logo da Zhash" width="200" height="100"/>
+    <img src="/content-images/Zhash-45ac9e6541.webp" alt="Zhash Logo" width="200" height="100"/>
 </a>
 
 - Website: [Zhash](https://zcash.zhash.pro/stats)

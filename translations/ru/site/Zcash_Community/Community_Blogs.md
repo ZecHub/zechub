@@ -8,6 +8,9 @@
 
 | Блог / Автор              | Описание                                                   | Ссылка |
 |---------------------------|------------------------------------------------------------|--------|
+| How Zcash works           | Создайте рабочую модель Zcash                              | [Перейти ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
+| Max Desalle               | Освоение Zcash                                             | [Перейти ->](https://maxdesalle.com/mastering-zcash/) |
+| Mike Rosulek              | Радость криптографии                                       | [Перейти ->](https://joyofcryptography.com/) |
 | James Katz                | Личные статьи и размышления о Zcash и конфиденциальности   | [Перейти ->](https://free2z.cash/James_Katz/) |
 | Thumbs' Update            | Регулярные обновления экосистемы и аналитические заметки   | [Перейти ->](https://thumbsup.substack.com) |
 | roomatemusing             | Размышления и контент сообщества                           | [Перейти ->](https://free2z.cash/roommatemusing) |

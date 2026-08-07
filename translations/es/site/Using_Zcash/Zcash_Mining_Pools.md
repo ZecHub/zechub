@@ -78,7 +78,7 @@ Los pools de minería de Zcash son servicios que permiten a los mineros individu
 ### [Poolin](https://www.poolin.com/)
 
 <a href="https://binance.com">
-    <img src="/content-images/Poolin-6fd4b44ba3.webp" alt="Logo de Poolin" width="200" height="100"/>
+    <img src="/content-images/Poolin-6fd4b44ba3.webp" alt="Poolin Logo" width="200" height="100"/>
 </a>
 
 - Sitio web: [Poolin](https://www.poolin.com/)
@@ -117,7 +117,7 @@ Los pools de minería de Zcash son servicios que permiten a los mineros individu
 ### [Zhash](https://zcash.zhash.pro/stats)
 
 <a href="https://binance.com">
-    <img src="/content-images/Zhash-45ac9e6541.webp" alt="Logo de Zhash" width="200" height="100"/>
+    <img src="/content-images/Zhash-45ac9e6541.webp" alt="Zhash Logo" width="200" height="100"/>
 </a>
 
 - Sitio web: [Zhash](https://zcash.zhash.pro/stats)
@@ -143,7 +143,7 @@ Los pools de minería de Zcash son servicios que permiten a los mineros individu
 ### [suprnova](https://zec.suprnova.cc/)
 
 <a href="https://binance.com">
-    <img src="/content-images/suprnova-logo-1-small-e95de6cdb3.webp" alt="Logo de suprnova" width="200" height="100"/>
+    <img src="/content-images/suprnova-logo-1-small-e95de6cdb3.webp" alt="suprnova Logo" width="200" height="100"/>
 </a>
 
 - Sitio web: [suprnova](https://zec.suprnova.cc/)
