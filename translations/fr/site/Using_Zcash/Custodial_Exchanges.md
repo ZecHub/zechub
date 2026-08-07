@@ -2,14 +2,14 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Texte alternatif" width="50"/>   Exchanges centralisés
+# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   Exchanges centralisés
 
 ---
 
 ### [Binance](https://binance.com)
 
 <a href="https://binance.com">
-    <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png" alt="Logo Binance" width="200" height="100"/>
+    <img src="/content-images/_unavailable.svg" alt="Logo Binance" width="200" height="100"/>
 </a>
 
 - Site web : [Binance](https://binance.com)
@@ -21,7 +21,7 @@ ___
 ### [BitcoinVN](https://bitcoinvn.io)
 
 <a href="https://bitcoinvn.io">
-    <img src="https://bitcoinvn.io/img/bitcoinvn-logo.png" alt="Logo BitcoinVN" width="200" height="100"/>
+    <img src="/content-images/_unavailable.svg" alt="Logo BitcoinVN" width="200" height="100"/>
 </a>
 
 - Site web : [BitcoinVN](https://bitcoinvn.io)
@@ -57,7 +57,7 @@ ___
  ### [Gemini](https://gemini.com)
 
 <a href="https://gemini.com">
-    <img src="/content-images/Gemini-Symbol-ddd31ee98b.webp" alt="Logo d’exchange centralisé Gemini" width="200" height="100"/>
+    <img src="/content-images/Gemini-Symbol-ddd31ee98b.webp" alt="Gemini Custodian Exchange Logo" width="200" height="100"/>
 </a>
 
 - Site web : [Gemini](https://gemini.com)
@@ -69,7 +69,7 @@ ___
 ### [Huobi](https://huobi.com)
 
 <a href="https://huobi.com">
-    <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Logo Huobi" width="200" height="100"/>
+    <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
 - Site web : [Huobi](https://huobi.com)

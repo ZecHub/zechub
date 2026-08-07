@@ -15,7 +15,7 @@ ZecHub est un hub éducatif décentralisé pour Zcash. L'objectif de [ZecHub](ht
 
 Les tutoriels, les blogs au format court et la newsletter sont open source et hébergés sur GitHub, ce qui signifie que n'importe quel membre de la communauté peut y contribuer. Cela permet de garantir l'exactitude du contenu et d'éviter que le canal lui-même ne dépende d'un point de défaillance unique.
 
-Si vous débutez avec Zcash, utilisez [ce guide](/site/Start_Here/New_User_Guide).****
+Si vous débutez avec Zcash, utilisez [ce guide](/start-here/new-user-guide).****
 
 ## Comment apporter des modifications à ZecHub
 

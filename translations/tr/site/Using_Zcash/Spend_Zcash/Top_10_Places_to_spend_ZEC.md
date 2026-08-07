@@ -41,15 +41,15 @@ Venezuelada özellikle, fiziksel ve çevrimiçi birçok yerde ürün ya da hizme
 
 Kekeşlerinin yanı sıra diğer hizmetleri de sunarken en iyi kısmı budur: ZEC ile ödeme yapabilirsiniz!
 
-![1_20230829_214024_0000.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/1_20230829_214024_0000.png)
+![1_20230829_214024_0000.png](/content-images/_unavailable.svg)
 
 Çatlak çikolata kekeşi | Kaynak: Sheila Vargas Rojas
 
-![2_20230829_214024_0001.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/2_20230829_214024_0001.png)
+![2_20230829_214024_0001.png](/content-images/_unavailable.svg)
 
 Çörek otu tozu & kuru üzüm kekeşi | Kaynak: Sheila Vargas Rojas
 
-![Untitled design_20230829_215327_0000.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Untitled_design_20230829_215327_0000.png)
+![Untitled design_20230829_215327_0000.png](/content-images/_unavailable.svg)
 
 Kuruyemişli dondurma | Kaynak: Sheila Vargas Rojas
 
@@ -57,7 +57,7 @@ Kuruyemişli dondurma | Kaynak: Sheila Vargas Rojas
 
 O halde, bir çerez yiyicisiyseniz..,
 
-![/content-images/champagne-barbie-cookie-monster-ded97640a2.webp](/content-images/champagne-barbie-cookie-monster-ded97640a2.webp)
+![https://media.tenor.com/Px4lboKQYbYAAAAC/champagne-barbie-cookie-monster.gif](/content-images/champagne-barbie-cookie-monster-ded97640a2.webp)
 
 hangi yerde ZEC harcamanız gerektiğini artık biliyorsunuz!
 
@@ -75,15 +75,15 @@ u1pu63k8tfcf0v06qr6f9qn3qpfh2hj8wjnc3wchguaqy2jc9xxmf4f424jns282qfwzvs6qq3tcd9er
 
 Rosa Ma. Rangel, meslek olarak bilgisayar mühendisi ancak *chocolatière* olarak inançlı biri; kendini çikolata seven ve pastane ve pâtisserie ile ilgilenen biri olarak tanımlayan, Venezüella geleneksel tatlıları ve pastane ürünlerinden oluşan geniş bir yelpazede el yapımı ürünleri sunar.
 
-![Untitled](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Untitled.png)
+![Untitled](/content-images/_unavailable.svg)
 
 Kurutulmuş meyve ve çilekli çikolata 
 
-![20230829_232246.jpg](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/20230829_232246.jpg)
+![20230829_232246.jpg](/content-images/_unavailable.svg)
 
 Rosa, **Zcash** kabul ediyor olduğunu gururla gösterir.
 
-![Screenshot_20230829-232755.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Screenshot_20230829-232755.png)
+![Screenshot_20230829-232755.png](/content-images/_unavailable.svg)
 
 **Web sitesi**: [https://somosdulceros.com/](https://somosdulceros.com/) 
 
@@ -103,21 +103,21 @@ u12vp85edmrkqy9uvall4wqqn2s9fx8nm5phsxu2nyme5yh8hn5xh8mv3qgunynskjy3t0w89234a83r
 
 Elizabeth, el işlerine ve tasarımına olan tutkusuyla genç bir annedir. Her şeyde kendini vermesinin en önemli motivasyonu: ailesidir.*💙*
 
-![BackgroundEraser_20230830_134315142.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/BackgroundEraser_20230830_134315142.png)
+![BackgroundEraser_20230830_134315142.png](/content-images/_unavailable.svg)
 
 **Blog:** 
 
 [https://papelesacolor.blogspot.com/](https://papelesacolor.blogspot.com/) 
 
-![2_20230830_152443_0001~2.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/2_20230830_152443_00012.png)
+![2_20230830_152443_0001~2.png](/content-images/_unavailable.svg)
 
 Çocuklarınız bir üst sınıfa geçiyor mu? **Papeles a color** onların başarılarını kutlamak için size yardımcı olabilir.
 
-![3_20230830_152443_0002~2.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/3_20230830_152443_00022.png)
+![3_20230830_152443_0002~2.png](/content-images/_unavailable.svg)
 
 Bir şey farklı ve benzersiz? **Zcash** mobil telefon şarj tabanı!
 
-![1_20230830_152443_0000.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/1_20230830_152443_0000.png)
+![1_20230830_152443_0000.png](/content-images/_unavailable.svg)
 
 Papeles a Color’un elde ettiği diğer güzel şeylerden bazıları.
 
@@ -149,7 +149,7 @@ Kendini *güçlendirme* hissi istiyorsan, **Venezuelanın Dijital Girişimcileri
 
 • marka oluşturma, vb. Her zaman Venezuela'daki kendi işlerini yönetmek isteyen her kadını düşünerek.
 
-![/content-images/cropped-logo-nuevo_Mesa-de-trabajo-1-sca-ba7d9d40e8.webp](/content-images/cropped-logo-nuevo_Mesa-de-trabajo-1-sca-ba7d9d40e8.webp)
+![https://i0.wp.com/emprendedorasdigitales.org/wp-content/uploads/2020/07/cropped-logo-nuevo_Mesa-de-trabajo-1-scaled-1.jpg?resize=300%2C208&ssl=1](/content-images/cropped-logo-nuevo_Mesa-de-trabajo-1-sca-ba7d9d40e8.webp)
 
 **Web sitesi**: [https://emprendedorasdigitales.org/](https://emprendedorasdigitales.org/) 
 
@@ -167,7 +167,7 @@ u14g5wzyan35s5fq4glf7hsf0wteuskr3dgfs25wkr2tk5dq6sqrfpq8pqmme5yp7c3eq42tlssgv5hw
 
 1. **GorBrit Sosyal Medya**
 
-![Untitled](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Untitled%201.png)
+![Untitled](/content-images/_unavailable.svg)
 
 Bu yer **Roosevelt Gordones ve Aura Brito** tarafından yönetilir ve şunlarla ilgili hizmetler sunar:
 
@@ -200,7 +200,7 @@ Dijital tasarımcı olmanın yanında, Robmar bir fotoğrafçıdır ve aynı zam
 
 O'nun işi, ZFAV kulübüne katkısı sayesinde Zcash ekosisteminde çok iyi bilinir.
 
-![Screenshot_20230830-163829-271~2.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Screenshot_20230830-163829-2712.png)
+![Screenshot_20230830-163829-271~2.png](/content-images/_unavailable.svg)
 
 • Video yapımı / düzenleme
 
@@ -218,7 +218,7 @@ O'nun işi, ZFAV kulübüne katkısı sayesinde Zcash ekosisteminde çok iyi bil
 
 1. **Karin Beauty Studio | By Karin Gordones**
 
-![Screenshot_20230830-131043-768~2.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Screenshot_20230830-131043-7682.png
+![Screenshot_20230830-131043-768~2.png](/content-images/_unavailable.svg)
 
 Güzel tırnaklar, güzel eller Karin Beauty Studio sayesinde.
 
@@ -238,13 +238,13 @@ Müdahele planla
 
 ---
 
-![BackgroundEraser_20230901_110901449.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/BackgroundEraser_20230901_110901449.png)
+![BackgroundEraser_20230901_110901449.png](/content-images/_unavailable.svg)
 
 1. **Corona de Brillitos.** | **Gissell** **B**. tarafından
 
 Bilir misiniz Zcash'in ne kadar harika olduğunu? Gissell gibi, 16 yaşında bir kızın, el işi yapmayı seven ve güzel erkekler için aksesuarlar yapan ve bu yaştaki biri olarak Zcash kullanarak kendi gelişen işini sürdürüyor olması
 
-![20230830_235143_0000.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/20230830_235143_0000.png)
+![20230830_235143_0000.png](/content-images/_unavailable.svg)
 
 Sıkma bandı için güzel ve zarif sunum | Corona de brillitos 
 
@@ -274,7 +274,7 @@ Tecnopapapi ile iletişime geçmenin doğru yolu!
 
 • Android İşletim Sistemi (telefonlar)
 
-![IMG_20230901_093618_042.jpg](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/IMG_20230901_093618_042.jpg)
+![IMG_20230901_093618_042.jpg](/content-images/_unavailable.svg)
 
 **Web Sitesi**
 
@@ -300,7 +300,7 @@ Altos Mirandinos, Valles del Tuy, Guarenas, Guatire, La Guaira, Simón Bolívar 
 
 O **Zcash** dahil kripto paraları kabul eder
 
-![IMG_20230831_172209_058.jpg](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/IMG_20230831_172209_058.jpg)
+![IMG_20230831_172209_058.jpg](/content-images/_unavailable.svg)
 
 Mr. Mendoza'nın zingo cüzdanını gösteriyor. | Görsel: Edickson Gonzalez
 
@@ -316,7 +316,7 @@ Ekstra: **Allegrini Ristorante** 🇪🇸 | Pizzacı | İtalyan yemekler | Yakı
 
 Pişirme hizmeti | Alışveriş | Rezervasyon
 
-![BackgroundEraser_20230901_114615839.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/BackgroundEraser_20230901_114615839.png)
+![BackgroundEraser_20230901_114615839.png](/content-images/_unavailable.svg)
 
 **Web Sitesi**: [www.alleginiristorante.com](http://www.alleginiristorante.com) (yapım aşamasında)
 
@@ -326,7 +326,7 @@ Pişirme hizmeti | Alışveriş | Rezervasyon
 
 (Yakında [free2z.cash](http://free2z.cash). )
 
-![20230901_121633_0000.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/20230901_121633_0000.png)
+![20230901_121633_0000.png](/content-images/_unavailable.svg)
 
 **Zcash Unified Address** 
 

@@ -2,7 +2,7 @@
 
 Penumbra existe en tant que réseau de couche 1 de pointe, entièrement protégé, en concurrence dans l’écosystème Cosmos. Il permet à ses utilisateurs d’effectuer des transactions en toute sécurité, de staker et d’échanger des tokens, ainsi que de fournir de la liquidité sans révéler leurs métadonnées on-chain. En tant que blockchain entièrement protégée, il propose également des transactions protégées sur le web sans compromettre la confidentialité ni la décentralisation — Penumbra offre la confidentialité par défaut, sans transactions transparentes ni réserve de valeur transparente.
 
-![image.png](https://drive.google.com/file/d/16CcFQ1ZhG_pi4ENQuhFKPwN-J1diELRX/view?usp=drive_link)
+![image.png](/content-images/_unavailable.svg)
 
 ## Technologie utilisée dans Penumbra IBC 
 
@@ -10,7 +10,7 @@ Intégration IBC : En première position figure le protocole Inter-Blockchain Co
 
 Preuves à divulgation nulle de connaissance (ZKPs) : Penumbra exploite la technologie cryptographique des preuves à divulgation nulle de connaissance pour garantir que toutes les transactions sont vérifiées et validées sans révéler aucun détail tel que l’expéditeur, le destinataire ou le montant transféré.
 
-![image.png](https://drive.google.com/file/d/1BxY5PlHBdV5iwZDgi86Z4Jz6CEesSjvO/view?usp=drive_link)
+![image.png](/content-images/_unavailable.svg)
 
 Bourse décentralisée avec confidentialité : Au cœur du réseau Panumbra se trouve la confidentialité. Le réseau peut s’appuyer sur un mécanisme d’échange décentralisé qui favorise la confidentialité des échanges et des transactions crypto tout en protégeant les données financières et en donnant aux utilisateurs le droit de contrôler la divulgation de leurs stratégies de trading.
 

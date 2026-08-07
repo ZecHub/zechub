@@ -56,7 +56,7 @@ Orchard, geleneksel shielded girdiler ve çıktılar yerine Actions tabanlı dah
 
 Bugün Orchard, Zcash için birincil shielded havuz olmaya devam ediyor. Ancak topluluk, gizlilik garantilerini korurken shielded ZEC arzının bütünlüğü konusunda ek güvence sağlayacak Ironwood adlı yeni bir shielded havuza gelecekte geçişi değerlendiriyor.
 
-[Zcash Shielded cüzdanları](/site/Using_Zcash/Wallets) artık Orchard'ı destekliyor. 
+[Zcash Shielded cüzdanları](/wallets) artık Orchard'ı destekliyor.
 
 ____
 
