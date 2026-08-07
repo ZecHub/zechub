@@ -1,264 +1,255 @@
-<a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Community_Projects.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="编辑页面"/>
-</a>
+# 社区项目
 
-## Zcash 社区项目
-
-[ZShieldHer](https://zshieldher.com/)
-
- 一个面向家庭暴力幸存者的 Zcash 教育网站
-
-[ZECping](https://github.com/emersonian/zecping)
-
-查看 Zcash [Lightwalletd](https://github.com/zcash/lightwalletd) 节点的 gRPC 响应时间。
-
-[Ziggurat](https://github.com/runziggurat/zcash)
-
-Ziggurat 是一个网络测试套件，为 zcashd 和 Zebra 开发者提供这一可靠基础。该套件还包含一个 Zcash [爬虫](https://github.com/runziggurat/zcash/tree/main/src/tools/crawler)。
-
-[Exblo](https://testnet.exblo.app/#/)
-
-一个专为在 Zcash 测试网中测试交易的应用设计的区块浏览器。目前仍在积极开发中
-
-Zcash 区块浏览器提供交易数据 / 区块信息 / 地址 / 内存池区块等信息，也支持使用交易支付披露 Viewing Key。
-
-[Dizzy Wallet](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
-
-Dizzy Wallet 是一个 Discord 机器人，可无缝且安全地访问 Zcash 交易。 
-
-[Frost](https://eprint.iacr.org/2020/852)
-
-Zcash Foundation 的研究人员正与滑铁卢大学及其他多家机构的研究人员合作，推进一份关于 FROST 的 IETF 信息性草案，并正朝着在 Zcash 生态及更广范围内获得更广泛采用的方向发展。
-
-[Free2z](https://free2z.cash)
-
-Free2z 是一个用于匿名内容发布和私人捐赠的工具。
-
-[Ezcash](https://blog.nerdbank.net/ezcash-app)
-
-一个易于使用、功能完整的多平台 Zcash 钱包，支持自动屏蔽。
-
-[My First Zcash](https://github.com/massadoptionorg/My-First-Zcash)
-
-一本教育工作手册，由来自全球 Zcash 社区、才华横溢且投入奉献的内容创作者和图形设计师团队共同制作。
-
-[Zapp](https://www.justzappit.xyz/)
-
-Zapp 是一款以隐私为先的即时通讯工具，将 ZEC 聊天与现实支付连接起来。[加入抢先体验](https://www.justzappit.xyz/app)
-
-[Zcash Block Explorer](https://mainnet.zcashexplorer.app/)
-
-来自 Nighthawk Apps 的一个细节丰富、内容全面的 Zcash 区块浏览器。
-
-[ZECPublish](https://www.zecpublish.com)
-
-ZECPublish 是一个抗审查、由 Zcash 区块链驱动的社交媒体平台。它包含一个 zcash 用户目录以及一个由 Zcash 驱动的匿名留言板。
-
-[ZGo](https://zgo.cash)
-
-ZGo 是一个 Zcash 收银台。它让商家和零售商能够接受 Zcash。目前正在测试该应用，以获得关于 ZGo 可用性和功能的高质量反馈。
-
-[Zlink](https://zlink.click)
-
-Zlink 是查找 Zcash 生态中任何链接、工具和信息的最简单方式。
-
-[ZK Radio](https://zcashesp.com/zk-radio/)
-
-一个用于向 Zcash 社区传播信息、提供教育和娱乐的在线电台，由 Zcash en Español 和 ZKAV Club 开发。
-
-## Zimppy.xyz
-[![Zimppy.xyz 标志](/content-images/og-40771e1849.webp)](https://zimppy.xyz/)
-
-Zimppy 是面向 Zcash 的 Machine Payment Protocol (MPP) 支付方式，专为 AI 代理和自动化机器对机器工作流设计。只需在链上充值一次，随后即可发起无限次即时持有者请求，而无需为每次请求与区块链交互。支持完全屏蔽的 Zcash (Orchard) 支付——发送方、接收方和金额都保持加密。
-
-[访问网站](https://zimppy.xyz/) | [完整 Wiki 页面](/using-zcash/zimppy)
+探索由 Zcash 社区以及更广泛的零知识生态系统构建的工具、钱包、应用程序、库和生态倡议。
 
 ---
 
-## CipherScan
-[![CipherScan](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
+## 教育、媒体与社区
 
-CipherScan 是一个以隐私为先的 Zcash 区块链浏览器。基于 Next.js 15、TypeScript 和 Rust/WASM 构建，允许用户查询区块、交易和地址，同时不泄露查询元数据。为注重隐私、需要区块链透明性但不愿被监控的用户而设计。
+### My First Zcash
+由 Zcash 全球社区创建的教育练习册。  
+[访问](https://github.com/massadoptionorg/My-First-Zcash)
 
-[访问网站](https://cipherscan.app/)
+### ZECPublish
+抗审查、由 Zcash blockchain 驱动的社交媒体。包含 Zcash 用户目录和匿名留言板。  
+[访问](https://www.zecpublish.com)
+
+### ZK Radio
+为 Zcash 社区提供信息、教育与娱乐的在线电台。由 Zcash en Español 和 ZKAV Club 开发。  
+[访问](https://zcashesp.com/zk-radio/)
+
+### ZShieldHer
+面向家庭暴力幸存者的 Zcash 教育网站。  
+[访问](https://zshieldher.com/)
+
+### ZecForge
+面向 Zcash 生态系统的创作者孵化平台，专注于新用户引导、创作者发展和内容分发。  
+[访问](https://x.com/zec_forge)
+
+### Mastering Zcash Video Series
+全面的教育系列，涵盖 Zcash 技术、密码学、经济学和治理。  
+[访问](https://www.youtube.com/watch?v=YWUzh_VtrR8)
+
+### Zcast
+提供最新生态更新的西班牙语 Zcash 播客。  
+[访问](https://www.youtube.com/@ZcastEsp)
+
+### Zero-knowledge Audiovisual Club (ZKAV)
+以隐私为先的视听协作组织，为开源和去中心化技术社区活动提供培训、协作创作及志愿 AV 支持。  
+[访问](https://zkav.club/)
+
+### Zcash Network School
+为新的 Zcash 用户和开发者提供结构化教育内容。  
+[论坛](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
+
+### Zectastic
+提供 Zcash 主题游戏和实时社区活动的互动网站。  
+[访问](https://zectastic.com/)
+
+### Zec App
+移动应用程序，将 Zcash 新闻、社区动态、网络信息、钱包、交易所和生态资源聚合于一处。  
+[论坛](https://forum.zcashcommunity.com/t/zec-app-is-coming-soon/56605)
+
+### PGPZ Community
+Pretty Good Policy for Zcash (PGPZ) 的社区枢纽。这是一项位于华盛顿特区的政策倡议，聚焦于保护隐私的数字现金、务实合规，以及 Zcash 的公共利益角色。  
+[访问](https://community.pgpz.org/)
 
 ---
 
-## ZcashNames
-[![ZcashNames](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
+## 钱包与支付工具
 
-ZcashNames 为 Zcash 屏蔽地址提供人类可读名称。用户无需分享冗长的 z-address，而是注册一个易记的名称（例如 `alice.zec`），将其解析到自己的 Unified Address。在不暴露原始地址的情况下，更轻松地私密接收 ZEC。
+### Cipherpay
+面向互联网的私密支付。非托管，无需 KYC。商户可直接将 ZEC 接收到屏蔽地址。  
+[访问](https://www.cipherpay.app/en)
 
-[访问网站](https://www.zcashnames.com/)
+### eZcash
+易于使用、功能齐全的跨平台 Zcash 钱包，支持自动屏蔽。  
+[访问](https://blog.nerdbank.net/ezcash-app)
+
+### Nozy Wallet
+面向 Orchard 的 Zcash 钱包，为 Zebrad 构建，支持完全屏蔽交易和安全密钥管理。  
+[访问](https://github.com/LEONINE-DAO/Nozy-wallet)
+
+### Overpay.com
+支付网关，让用户能够将屏蔽 ZEC 用于现实世界购物（当前处于 alpha 阶段）。  
+[访问](https://overpay.com)
+
+### Zafu Wallet
+适用于 Zcash 和 Penumbra 的开源隐私钱包。浏览器扩展，具备客户端证明、经过验证的轻客户端架构、冷签名、FROST 多重签名，并且 view key 不会离开设备。  
+[访问](https://chromewebstore.google.com/detail/zafu-wallet-beta/bhlogefpcebekhjpomlodifcelldoimn)
+
+### ZGo
+Zcash 收银工具，使供应商和商户能够接受 Zcash 支付。  
+[访问](https://zgo.cash)
+
+### Zimppy
+面向 Zcash 的机器支付协议（MPP）。专为 AI 代理和自动化机器对机器工作流设计。支持完全屏蔽的 Orchard 支付。  
+[访问](https://zimppy.xyz/)
+
+### Dizzy Wallet
+提供无缝且安全的 Zcash 交易访问的 Discord 机器人。  
+[访问](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
+
+### ZODL
+来自 Shielded Labs 的旗舰 Zcash 钱包（前身为 Zashi）。可用于 iOS 和 Android。支持屏蔽 ZEC 和 NU7 持币者投票。  
+[访问](https://zodl.app/)
+
+### Noir Wallet
+以隐私为重点的 Zcash 钱包，专为简单且私密的 ZEC 交易而设计。  
+[论坛](https://forum.zcashcommunity.com/t/first-look-at-noir-wallet/55667)
+
+### ZecVault
+基于 Zcash 屏蔽交易的目标储蓄钱包。  
+[论坛](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
+
+### Zkool
+Ywallet 的继任者，支持包括 Orchard 在内的最新 Zcash 协议功能。  
+[论坛](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
+
+### MonteZecret
+用 Rust 编写的 Zcash 实验性轻量桌面钱包。  
+[论坛](https://forum.zcashcommunity.com/t/montezecret-a-desktop-wallet-for-zcash-in-rust-instead-of-tweets/56164)
+
+### Gem Wallet
+支持发送、接收和兑换 ZEC 的多链、开源、自托管钱包。  
+[访问](https://gemwallet.com/)
+
+### TIPZ
+实时非托管打赏平台，每一笔打赏都会以屏蔽 ZEC 的形式到账。支持通过 NEAR Intents 进行跨链入金。  
+[访问](https://tipz.cash/)
 
 ---
 
-## Cypherpunk
+## 浏览器、数据与网络仪表板
 
-一家致力于隐私、自主权和 cypherpunk 价值观的公司。为需要保护其数字生活的个人构建工具。
+### CipherScan
+以隐私为先的 Zcash blockchain 浏览器。使用 Next.js 15、TypeScript 和 Rust/WASM 构建。查询不会泄露查询元数据。  
+[访问](https://cipherscan.app/)
 
-[访问网站](https://cypherpunk.com/)
+### Exblo
+为在 Zcash Testnet 上测试交易而设计的区块浏览器。  
+[访问](https://testnet.exblo.app/)
+
+### OpenZcash
+面向 Zcash Dev Fund 的公共透明度仪表板，包含 ZCG 和 FPF 的资助记账、Lockbox、治理和资金发放。  
+[访问](https://openzcash.org/)
+
+### Zcash Block Explorer
+由 Nighthawk Apps 提供的综合性 Zcash 区块浏览器。  
+[访问](https://mainnet.zcashexplorer.app/)
+
+### Zcash.Space
+基于浏览器的 Zcash Unified Address 解析器，用于检查 Unified Address。  
+[访问](https://zcash.space/)
+
+### ZecMap
+展示接受 Zcash 的商家和地点的全球地图。  
+[访问](https://zecmap.com/)
+
+### ZECping
+用于检查 Zcash Lightwalletd 节点 gRPC 响应时间的工具。  
+[访问](https://github.com/emersonian/zecping)
+
+### ZecStats
+用于实时 Zcash 网络统计和屏蔽指标的仪表板。  
+[访问](https://zecstats.com)
+
+### zecprice
+用于跟踪 Zcash 市场价格表现和数据指标的工具。  
+[访问](https://zecprice.com)
+
+### Zlink
+用于查找 Zcash 生态系统链接、工具和信息的目录。  
+[访问](https://zlink.click)
 
 ---
 
-## Cipherpay
-[![Cipherpay](/content-images/logo-mark-b8d7c702b0.webp)](https://www.cipherpay.app/en)
+## 身份、名称与用户体验
 
-CipherPay 为互联网提供私密支付。几分钟内即可开始接受 Zcash——非托管、无需 KYC。商家直接将 ZEC 接收到屏蔽地址，从而保护买卖双方的财务隐私。
+### ZcashNames
+适用于 Zcash 屏蔽地址的人类可读名称（例如，`alice.zec` 可解析为一个 Unified Address）。  
+[访问](https://www.zcashnames.com/)
 
-[访问网站](https://www.cipherpay.app/en)
+### Zapp / JustZappIt
+以隐私为先的即时通讯工具，将 ZEC 聊天与现实世界支付连接起来。  
+[访问](https://www.justzappit.xyz/)
 
-## Cipherscan
-[![Cipherscan](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
+### Zentat
+浏览器扩展，可在你浏览网页时将法币价格实时转换为 ZEC。  
+[访问](https://chromewebstore.google.com/detail/zentat/lpndbahladndclecodadoljlplfaldac)
 
-Zcash 区块链浏览器 🛡️ 解码区块链。隐私与透明并存。
-[访问网站](https://cipherscan.app/)
+### Shielded Wall
+由 Zcash 隐私能力驱动的匿名告白平台。  
+[访问](https://shieldedwall.org/)
 
-## ZcashNames
-[![ZcashNames](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
+### Ztrash
+使用屏蔽 ZEC 付费的一次性电子邮件收件箱。  
+[访问](https://ztrash.com/)
 
-用于
-屏蔽地址的
-个人名称。私密交易，你只需要一个名字。
+---
 
-[访问网站](https://www.zcashnames.com/)
+## 开发者、测试与基础设施
 
-## Zero-knowledge Audiovisual Club
-[![Zero-knowledge Audiovisual Club](/content-images/images-563ef94ac0.webp)](https://zkav.club/#additional-reading)
+### Ziggurat
+面向 zcashd 和 Zebra 开发者的网络测试套件。包含一个 Zcash 爬虫。  
+[访问](https://github.com/runziggurat/zcash)
 
-面向开源与去中心化技术社区、以隐私为先的视听（AV）团体。我们在社区活动中提供培训、协作创作，并运营志愿者 AV 支持。
+### ZecDev
+以 Linux 为优先的工具包，可启动一个 Zebra regtest 网络，附带 faucet、Unified Address 固定样例，以及 lightwalletd 或 Zaino，并提供可复用的 GitHub Actions，用于屏蔽端到端流程。  
+[访问](https://github.com/zecdev)
 
-[访问网站](https://zkav.club/#additional-reading)
+### Zebra Coverage-Guided Fuzzing Infrastructure
+对 Zebra 的解析、网络和密码学组件进行系统化测试，以检验其面对畸形输入时的表现。  
+[论坛](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/234)
 
-## Shielded Labs
-[![Shielded Labs](/content-images/68747470733a2f2f736869656c6465646c616273-e449ae6540.webp)](https://shieldedlabs.net/)
+### FROST
+正在推进的门限签名方案（FROST）工作，旨在推动其在更广泛的 Zcash 生态系统中被采用。  
+[论文](https://eprint.iacr.org/2020/852)
 
-Shielded Labs 是一家位于瑞士、独立运营并依靠捐赠资助的 Zcash 支持组织。它是 Zcash 生态中首个从未直接或间接获得 Development Fund 或区块奖励资助的组织。
+### MonteZcret Benchmark
+开源性能测试项目，用于评估同步 Zcash blockchain 数据的不同方法。  
+[访问](https://github.com/openkoder/benchmarks_zcash/)
 
-[访问网站](https://shieldedlabs.net/)
+---
 
-## JustZappIt
+## 利用 Zcash 的更广泛应用
 
-JustZappIt 是一款适用于 iOS 和 Android 的私密消息应用。聊天内发送 Zcash (ZEC) 功能即将推出，届时你将使用外部钱包（如 ZODL）直接在对话中向联系人发送 ZEC。无需 KYC。没有中间人。
+### aftok
+建立在 Zcash 之上的合作式、自下而上的商业组织模型。  
+[访问](https://aftok.com)
 
-[访问网站](https://www.justzappit.xyz/)
-[访问 Github](https://github.com/JustZappIt/justZappIt/tree/main)
+### ZK Global Credit
+原生于 Zcash 的信贷和投票基础设施，用于选择性披露、结算就绪、跨境声誉以及屏蔽治理。  
+[访问](https://voting.zkglobalcredit.tech/)
 
-##  Mastering Zcash 视频系列 
+### Free2Z
+由 Zcash 驱动的匿名内容创作和私密捐赠工具。  
+[访问](https://free2z.cash)
 
-Mastering Zcash 视频系列是关于 Zcash 最全面的教育内容之一，涵盖其技术、密码学、经济模型和治理。
+### Rhea Finance
+提供浏览器钱包和跨链 DeFi 访问的 Zcash 网关。  
+[论坛](https://forum.zcashcommunity.com/t/rhea-finance-zcash-gateway-browser-wallet-cross-chain-defi/55073)
 
-[访问网站](https://www.youtube.com/watch?v=YWUzh_VtrR8)
-[访问 Github](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/263)
+### BazaarSwap
+原生于 Zcash 的 DEX，通过 WalletConnect 将屏蔽 ZEC 引入 Web3 DeFi。  
+[论坛](https://forum.zcashcommunity.com/t/introducing-bazaarswap-bringing-zec-to-web3-defi/55479)
 
-##  Zcast
+### DCRDEX
+Decred 的去中心化交易所，支持 Zcash。  
+[访问](https://dex.decred.org)
 
-Zcast 是西班牙语 Zcash 播客，你可以在这里找到所有关于 Zcash 的最新信息和动态。
+### Brave Wallet
+支持 Zcash 的浏览器钱包。  
+[访问](https://brave.com/wallet/)
 
-[访问网站](https://www.youtube.com/@ZcastEsp)
+---
 
-## Zebra Coverage-Guided Fuzzing Infrastructure
+## 组织与实验室
 
-Zebra Coverage-Guided Fuzzing Infrastructure 专注于系统化测试 Zebra 关键的解析、网络和加密组件，以应对畸形输入，从而持续、自动地发现安全漏洞和边界情况 bug。
+### Shielded Labs
+位于瑞士、独立且由捐赠资助的 Zcash 支持组织。它是生态系统中首个从未获得 Development Fund 或区块奖励资助的组织。  
+[访问](https://shieldedlabs.net/)
 
-[访问网站](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/234)
-
-## ZecDev
-
-ZecDev Launchpad 是一个 Linux 优先的工具包，可快速搭建一个 Zebra regtest 网络，附带水龙头、Unified Address 固件，以及可选的 lightwalletd 或 Zaino；同时还提供一个可复用的 GitHub Action，在每次 pull request 上运行标准的端到端屏蔽流程。随着 zcashd 被弃用，它填补了一个关键空白，为每个钱包、SDK 和服务提供一条快速、可重复的本地开发与 CI 路径，在用户发现问题之前就捕获破坏性变更。
-
-[访问网站](https://github.com/zecdev)
-
-## TIPZ
-
-TIPZ 是一个实时、非托管的小费平台，每一笔小费都会以屏蔽 ZEC 形式到账。通过 ZODL 集成了完全私密的 ZEC 到 ZEC 支付，同时还通过 NEAR Intents 提供来自 ETH、USDC、USDT 和 SOL 的跨链入口。
-
-[访问网站](https://tipz.cash/)
-[访问 Github](https://github.com/tipz-cash/tipz.cash)
-
-## Zectastic.com
-
-Zectastic.com 提供发射 Zcash 火箭、玩记忆游戏，以及参与实时 flippening 派对等内容
-
-[访问网站](https://zectastic.com/)
-
-## Zecmap
-
-Zecmap 是接受 Zcash 商家的全球地图。发现、验证并补充支持隐私支付的地点。
-
-[访问网站](https://zecmap.com/)
-
-
-## ZODL
-
-[![ZODL](https://github.com/Electric-Coin-Company/zashi-android/blob/main/assets/logos/Zashi_Logo_green_lg.png?raw=true)](https://zodl.app/)
-
-ZODL（原 Zashi）是来自 Shielded Labs 的旗舰 Zcash 钱包。ZODL 可在 iOS 和 Android 上使用，为发送和接收屏蔽 ZEC 提供简洁优雅的体验。它还支持[NU7 coinholder voting](https://forum.zcashcommunity.com/t/nu7-sentiment-polling-questions-for-community-review-coinholder-voting-via-zodl/55713)，用于协议治理。
-
-[访问网站](https://zodl.app/)
-
-## Overpay.com
-
-Overpay.com 让你可以在任何地方消费 ZEC——将屏蔽 ZEC 转化为现实世界中的购买力。目前处于 alpha 阶段。
-
-[论坛公告](https://forum.zcashcommunity.com/t/introducing-overpay-com-spend-zec-anywhere-alpha/54798)
-
-## Noir Wallet
-
-Noir Wallet 是一款于 2026 年 5 月发布的全新隐私导向 Zcash 钱包，专为简单且私密的 ZEC 交易而设计。
-
-[首次预览帖](https://forum.zcashcommunity.com/t/first-look-at-noir-wallet/55667)
-
-## ZecVault
-
-ZecVault 是一个基于 Zcash 屏蔽交易的目标储蓄钱包。设定储蓄目标、跟踪进度，并在完全隐私的前提下实现财务里程碑。
-
-[论坛帖子](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
-
-## Rhea Finance
-
-Rhea Finance 是一个 Zcash Gateway，提供浏览器钱包和跨链 DeFi 访问。它将 ZEC 持有者连接到更广泛的 DeFi 生态。
-
-[论坛帖子](https://forum.zcashcommunity.com/t/rhea-finance-zcash-gateway-browser-wallet-cross-chain-defi/55073)
-
-## BazaarSwap
-
-BazaarSwap 通过原生 Zcash DEX 将 ZEC 带入 Web3 DeFi。它集成 WalletConnect v2，并支持使用屏蔽 ZEC 进行去中心化兑换。
-
-[论坛帖子](https://forum.zcashcommunity.com/t/introducing-bazaarswap-bringing-zec-to-web3-defi/55479)
-
-## Zkool
-
-Zkool 是 Ywallet 的继任者，支持最新的 Zcash 协议功能，包括 Orchard 屏蔽交易。
-
-[论坛帖子](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
-
-## Zcash Network School
-
-Zcash Network School 为新的 Zcash 用户和开发者提供结构化教育内容。
-
-[论坛帖子](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
-
-___
-
-## 使用 Zcash 的应用
-
-[aftok](https://aftok.com)
-
-aftok 是一种激进的新型合作式、自下而上的商业组织形式。它让你和一些值得信赖的朋友可以一起构建事物，并因你们的努力获得报酬，而无需传统公司的层级结构或管理开销。
-
-[Atomic DEX](https://atomicdex.io/en/)
-
-AtomicDEX 是一款集多币种钱包、桥接和 DEX 于一体的应用。提供移动端/桌面端版本。
-
-[Brave Wallet](https://brave.com/es/wallet/)
-
-直接集成在 Brave 浏览器中的安全加密钱包，支持 Zcash 透明交易。
-
-[DCRDEX](https://dex.decred.org)
-
-DCRDEX 是由 Decred Project 构建的去中心化交易所。仅提供桌面客户端。
-
-[Zcash CoinHolder Polling](https://forum.zcashcommunity.com/t/coin-holder-polling-instructions/40170)
-
-一种通过 T-addresses 在 Zcash 区块链上进行按币权重投票的方法，并通过社区论坛进行安排。
+### Cypherpunk
+致力于隐私、自主权和 cypherpunk 价值观的公司。为需要保护其数字生活的个人构建工具。  
+[访问](https://cypherpunk.com/)
