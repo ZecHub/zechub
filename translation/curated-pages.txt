@@ -110,11 +110,13 @@ Zcash_Social_Media/Zcash_Addresses.md
 Zcash_Social_Media/Zero_to_Zero-knowledge.md
 Zcash_Tech/Crosslink_Protocol.md
 Zcash_Tech/FROST.md
+Zcash_Tech/FROST_Threshold_Custody.md
 Zcash_Tech/Full_Nodes.md
 Zcash_Tech/Halo.md
 Zcash_Tech/Lightwallet_Nodes.md
 Zcash_Tech/Pepper_Sync.md
 Zcash_Tech/Post_Quantum_Security.md
+Zcash_Tech/The_Turnstile.md
 Zcash_Tech/Viewing_Keys.md
 Zcash_Tech/ZAP1_Attestation_Protocol.md
 Zcash_Tech/Zaino.md
@@ -130,6 +132,7 @@ Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md
 Zcash_Use_Cases/Private_Community_Treasury.md
 Zcash_Use_Cases/Receive_Donations_Privately.md
 Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md
+Zcash_Use_Cases/Sign_in_With_Zcash.md
 contribute/Community_Infrastructure.md
 contribute/Contributing_Guide.md
 contribute/Help_build_ZecHub.md
