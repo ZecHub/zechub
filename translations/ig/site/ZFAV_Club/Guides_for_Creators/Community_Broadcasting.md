@@ -2,11 +2,11 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Mgbasa ozi obodo na-eji VDO.Ninja na OBS Studio
+# Mgbasa ozi obodo na-eji VDO.Ninja na OBS Studio eme ihe
 
-E mepụtara nkuzi a dị mkpirikpi n'oge [DWeb Camp 2023](https://dwebcamp.org/) Ebumnuche nke ihe omume a bụ iji ngwaọrụ ekwentị smart ejikọtara na netwọk MESH na-anọghị n'ịntanetị maka ndekọ vidiyo na nkwanye.
+E kere obere nkuzi a n'oge nke ahụ. [Ogige DWeb 2023](https://dwebcamp.org/) Ebumnuche nke ihe omume a bụ iji ngwaọrụ ekwentị nwere njikọ na netwọk MESH offline maka ndekọ vidiyo na nkwanye.
 
-Anyị na-eji sọftụwia abụọ mepere emepe [OBS Studio (Software Broadcaster Open)](https://obsproject.com/) na [VDO.Ninja](https://vdo.ninja/)A pụrụ ibudata ngwanrọ ndị a ma na-agba ọsọ na kọmputa gị.
+Anyị na-eji sọftụwia abụọ mepere emepe. [OBS Studio (Software nke Onye Na-agbasa Ozi)](https://obsproject.com/) na nke a: [VDO.Ninja (n'asụsụ Igbo)](https://vdo.ninja/). A pụrụ ibudata ngwanrọ ndị a ma na-agba ọsọ n'ógbè gị.
 
 ## OBS Studio (Software nke Open Boardcaster)
 
@@ -16,20 +16,20 @@ The OBS Studio user interfaces could look quite daunting for the first the time 
 
 In order to stream from a remote camera stream from VDO.ninja into OBS Studio, you start by adding a new "Browser Source" with "Sources > Add > Browser". In the new window, you can provide the source URL from VDO.Ninja and select "Make source visible".
 
-Ugbu a, ị nwere ike ịmalite igosipụta iyi ndị dịpụrụ adịpụ.
+Ugbu a ị nwere ike ịmalitezi igosipụta iyi ndị dịpụrụ adịpụ.
 
-## VDO.Ninja
+## VDO.Ninja (n'asụsụ Igbo)
 
-[VDO.Ninja](https://vdo.ninja/) is an Free and open source web application that allows you to turn your mobile devices into live streaming camera. The software could downloaded and deployed onto your local computer or you can directly use the [online version at https://vdo.ninja](https://vdo.ninja/).
+[VDO.Ninja (n'asụsụ Igbo)](https://vdo.ninja/) bụ Free na oghe isi web ngwa nke-enye gị ohere atụgharị mkpanaka gị ngwaọrụ n'ime ndụ gụgharia igwefoto. The software nwere ike ibudata ma tinye ya rụọ ọrụ na kọmputa gị ma ọ bụ i nwere ike ozugbo iji usoro ihe omume ahụ dị ka a video mgbake ngwá ọrụ, site na ịpị bọtịnụ "Gbanyụọ" (ma ọ bụghị pịa) mgbe niile. [na ntanetị n'ịntanetị: https://vdo.ninja](https://vdo.ninja/).
 
 The VOD.Ninja interface is simple, just open the VDO.Ninja in your mobile devices web browser and select "Add your camera to OBS". You'll then select your camera and audio device from list of devices and click "Start".  You'll then get "view" link which can add to OBS Studio.
 
-## Na-eduzi oku obodo na VDO.Ninja
+## Ịkpọ oku obodo na VDO.Ninja
 
-Malite site na ịga na [VDO.ninja](http://VDO.ninja) na ihe nchọgharị weebụ gị na desktọọpụ / laptọọpụ.
+Bido site na ịga n'ebe a: [VDO.ninja (Ninja) [ihe nkiri]](http://VDO.ninja) na ihe nchọgharị weebụ gị n'elu desktọọpụ / laptọọpụ.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8ded1b54-602b-4e66-af92-127990eff723/Screenshot_2023-08-23_162222/w=3840,quality=80" alt="" width="300" height="400"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="300" height="400"/>
 </a>
 
 
@@ -38,54 +38,54 @@ Iji mepụta ụlọ ọhụrụ ma duzie oku nke obodo gị, pịa Mepụta Ụ
 Ihuenyo na-esote ga-ajụ maka ozi ndị bụ isi iji hazie ụlọ gị.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ae698696-7b4d-458e-8de0-58a198c36e73/Screenshot_2023-08-23_183900/w=3840,quality=80" alt="" width="400" height="400"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
 </a>
 
-Ozugbo e mepụtara ụlọ, onye nduzi nwere ọtụtụ nhọrọ nchịkwa dị na ihuenyo na-esonụ.
+Ozugbo e kere ụlọ, onye nduzi nwere ọtụtụ nhọrọ nchịkwa dị na ihuenyo ọzọ.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/35b43544-5114-4e74-ac41-9e8993fe62ea/Screenshot_2023-08-23_184015/w=3840,quality=80" alt="" width="400" height="400"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
 </a>
 
 
 When people join your room then you, the director, will see all of the source options and controls appear with their video and audio.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2247f187-b005-478e-9e5e-471cb8f070d3/Screenshot_2023-08-23_194136/w=3840,quality=80" alt="" width="400" height="300"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="300"/>
 </a>
 
 
-## FAQ
+## Ajụjụ ndị a na-ajụkarị
 
 - Kedu ụdị kaadị vidiyo dị mkpa maka OBS Studio ?
 
-Ị nwere ike iji a onye na kọmputa na ezi eserese kaadị na ọtụtụ nke ebe nchekwa ma ọ bụ ọzọ ị nwere ike jiri a ngwaike encoders [Teradek VidiU](https://www.bhphotovideo.com/c/product/1609186-REG/teradek_10_0235_vidiu_x_modem.html?gclid=EAIaIQobChMIl4aIo7zX_wIVDhqtBh0PgwhxEAAYAiAAEgInufD_BwE)
-- OBS ọ na-enye gị ohere ịsụgharị okwu na ide ihe n'okpuru ya?
+Ị nwere ike iji kọmputa nkeonwe na kaadị eserese dị mma ma nwee ọtụtụ ebe nchekwa ma ọ bụ ọzọ ị nwere ike jiri ngwaike encoders [Teradek VidiU (Onye na-ahụ ụzọ)](https://www.bhphotovideo.com/c/product/1609186-REG/teradek_10_0235_vidiu_x_modem.html?gclid=EAIaIQobChMIl4aIo7zX_wIVDhqtBh0PgwhxEAAYAiAAEgInufD_BwE)
+- OBS ọ na-ekwe gị ịsụgharị okwu ndụ ma dee ya n'okpuru?
 
-Enwere ụfọdụ plugins ndị obodo nyere nke yiri ka ọ na-enye ụdị njirimara a. [https://github.com/eddieoz/OBS-live-translation](https://github.com/eddieoz/OBS-live-translation)
+Enwere ụfọdụ plugins ndị obodo nyere onyinye nke yiri ka ọ na-enye ụdị njirimara a. [https://github.com/eddieoz/OBS-live-translation](https://github.com/eddieoz/OBS-live-translation)
 
 - Ị nwere ike ịmepụta plugins nke gị maka OBS Studio?
 
-Ee, OBS nwere nkwado lua, python scripting. Ọzọkwa JavaScript maka Overlays na webviews.
+Ee, OBS nwere nkwado lua, python scripting. Ọzọkwa JavaScript maka Overlays na webviews .
 
-- Ànyị na-eji ndụ na-agbaze ka ọ bụrụ oji ma ọ bụ mgbanwe?
+- Ànyị na-eji ndụ fade gaa n'ọchịchịrị ma ọ bụ mgbanwe?
 
 Nke ahụ dị gị n'aka, onye na-emepụta ihe!
 
-- È nwere oge ị na-anọghị n'ịntanetị mgbe i na-agbasa ozi?
+- Enwere oge ị na-eji eme ihe mgbe a na-eme ya?
 
-This depends mostly on the destination to where you are streaming. For example, YouTube might have a delay of a minute or more due to video processing that is done on their servers before being broadcast.
+Nke a na-adabere n'ụzọ dị ukwuu na ebe ị ga - aga. Dịka ọmụmaatụ, YouTube nwere ike ịnwe oge nke otu nkeji ma ọ bụ karịa n'ihi nhazi vidiyo emere na sava ha tupu agbasa ozi ọma.
 
-- Audio drops when using OBS on slow machine and while doing green-screening
+- Audio tụlee mgbe eji OBS na ngwaike dị nwayọọ ma na-eme nyocha akwụkwọ ndụ akwụkwọ ndụ.
 
 Jiri Hardware encoder ma ọ bụ jiri iyi ubi
-[https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard](https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard) ma ọ bụ [RiverSide.FM](http://riverside.fm/)
+[https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard](https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard) or [RiverSide.FM [Obi ụtọ]](http://riverside.fm/)
 
-## Ebe E Si Nweta
+## Ihe e dere na ya
 
-- Ryan , biko .
-- Ajay
-- Arky
+- Ryan , ọ bụ gị .
+- Ajay . - Gịnị ?
+- Arky (onye na-agba ọsọ)
 
 ## Akụnụba
 
@@ -93,5 +93,5 @@ Jiri Hardware encoder ma ọ bụ jiri iyi ubi
 
 [https://docs.vdo.ninja/](https://docs.vdo.ninja/)
 
-Oge Ọfịs: Mgbasa ozi na mmemme mmemme dijitalụ
+Oge Ọfịs: Mgbasa ozi na mmemme dijitalụ.
 [https://alex4d.com/notes/item/media-and-digital-event-community](https://alex4d.com/notes/item/media-and-digital-event-community)

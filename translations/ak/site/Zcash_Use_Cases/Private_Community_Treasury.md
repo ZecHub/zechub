@@ -2,139 +2,139 @@
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  Mfinimfini - 7 min
+  Ntɛm - simma 7
 </span>
 
 ## TL;DR
 
-- Fa address ahorow a wɔabɔ ho ban di dwuma de kura sika a wɔkyɛ mu
-- Tow sika a aka ne nnwuma a wotumi hu no ano hye
-- Tetew adwumayɛ dwumadi ahorow fi ɔmanfo nipasu ho
-- Fa memos di dwuma ma emu akontaabu
+- Fa adrɛs a w'ayi no asi hɔ ma wode sie sika ahorow a wo ne afoforo di dwuma
+- Hwԑ sԑ wobedi nkaeemu ne nsesaeԑ ahorow ho dwuma yiye.
+- Adwuma mu dwumadi a wɔtwe no firi nnipa ani so ho nsunsuansoɔ
+- Fa memo di dwuma ma wo ho asodie wɔ w'ankasa mu.
 
 <br/>
 
 ## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
 
-- DAO ahorow ne mpɔtam hɔfo
-- Ntoboa nhyehyɛe ahorow
-- Akuw a wɔde nneɛma a wɔabue ano
-- Crypto akuw a wɔaboaboa ano
+- DAOs ne amanfoↄ no
+- Nkrataa a wɔde ma no ho nhyehyɛe
+- Adwumayɛfoɔ a wɔn ani da hɔ akuakuo
+- Krataafa a wɔde di dwuma wɔ ɔfese no mu
   
 
 <br/>
 
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
 
-Mpɔtam hɔ sika a ɛwɔ ɔmanfo blockchains mu no da:
-- Sikakorabea a aka nyinaa
-- Sika a wɔsɛe no ho abakɔsɛm
-- Wɔn a wɔde mmoa mae no ho nkyerɛkyerɛmu
+Amanfo sika wɔ blockchain a ɔman no de di dwuma mu da adi:
+- Sika a wɔtɔ no nyinaa so akatua
+- Sika a wɔde yɛ nhwehwɛmu ho abakɔsɛm
+- Afoforɔ din a wɔde ma dwumadie no bi ne:
 
-Eyi de asiane ahorow ba:
-- Sika a wɔde besi wɔn ani so
-- Ntawntawdi a ɛba wɔ ɔman no mu esiane nhyɛso a ɛma wɔyɛ nneɛma a ɛda adi pefee nti
-- Kokoamsɛm a wɔde di dwuma wɔ ɔkwan a ɛyɛ nwonwa so a wɔhwere
+Eyi de asiane ba:
+- Sika a wɔde yɛ adwuma no ho botae pɔtee
+- Abɔde mu ntɔkwaw a ɛnam nsɛm ho dawurubɔ so ba ntia
+- Dwumadibea ho ahintasɛm a woahwere no
 
 <br/>
 
 ## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash?
 
-Zcash ma mpɔtam hɔfoɔ kwan ma:
-- Fa sika sie wɔ kokoam
-- Yɛ nnwuma a woremfa nsɛm a ɛkɔ akyiri nkyerɛ
-- Kura emu akontaabu mu a ɔmanfo mfa wɔn ho nhyɛ mu
+Zcash ma kwan sɛ nnipa a wɔwɔ mpɔtam no:
+- Fa sika hyɛ wo ankasa nsam.
+- Yɛ adwuma a yɛmfa ho nkontaabu mma no mu biara.
+- Ma w'adwumam no ho asɛyɛde a ɛnfa mmata nnipa anim nnianim.
 
 <br/>
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
-- Zcash sika kotoku (anaasɛ sika kotoku pii a wɔde yɛ dwumadi mu mpaapaemu) .
-- Nneɛma a ɛwɔ mu a emu da hɔ a wɔde hwɛ sika so
-- Optional: nkrataa a wɔakyekyɛ ama akyi
+- Zcash sika nkontaabuo (anaa sikakorabea bebree a wɔde di dwuma ma wɔn ho)
+- Ɔman mu nhyehyɛeɛ a emu da hɔ ma sika no di dwuma
+- Nhyehyɛeɛ a wɔfa so di dwuma: nkitahodie ho krataa aa wɔn nyinaa de to nsa frɛ afoforɔ.
 
 <br/>
 
 ## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
 
-### Anamɔn 1: Yɛ Sikakorabea Address a Wɔabɔ ho ban
+### Anammɔn 1: Yɛ adansedie a w'atumi de abɔ wo ho ban wɔ sika mu no bi
 
-- Yɛ **z-address** ma sikakorabea no
-- Eyi bɛyɛ akontaabu titiriw a wɔde sie
-
-
-### Anamɔn 2: Kyerɛkyerɛ Dwumadi ahorow mu
-
-Asɛyɛde ahorow a ɛsono emu biara:
-- Sikakorabea sohwɛfo (ɔhwɛ sika so) .
-- Wɔn a wɔde mmoa ma (bisa sɛ wɔmfa sika nni dwuma) .
-- Nhwehwɛmufo (wɔpene so wɔ wɔn mu) .
-
-Kwati sɛ wode dwumadi ahorow yi bɛbata ɔmanfo nipasu ho.
+- Yɛ nkrataa a yɛde kɔto aban no so wɔ kasa biara mu.
+- Eyi na ɛbɛdan ne de titiriw a wɔde bɛhwɛ so.
 
 
+### Nea Ɛto so Abien: Kyerɛkyerɛ asɛyɛde ahorow mu
 
-### Anamɔn 3: Gye Sika wɔ Kokoam
+Asɛdeɛ a ɛsisi:
+- Sika sohwɛfoɔ (nea ɔhwɛ sika no)
+- Wɔn a wɔboa (ɔhwehwɛ sɛ wɔde sika no bɛtua)
+- Adesuafoɔ (ɔwɔ mu a, wɔgye tom)
 
-- Gye ntoboa denam address a wɔabɔ ho ban no so
-- Hyɛ wɔn a wɔde ntoboa no nkuran ma wɔmfa sika kotoku a wɔabɔ ho ban mu nkɔma
+Mmafa ɛ nwo ɛnto ninyɛne ɛhye mɔ mɔɔ menli yɛ la azo.
 
 
 
-### Anamɔn 4: Track Transactions wɔ mu
+### Anammɔn 3: Fa sika no fa wo ho kɔma obi a ɔnte w'ase.
+
+- Gye ntoboa fa adansedie a w'ayi no ano so ma wo.
+- Hyɛ wɔn a wɔboa no nkuran ma wɔmfa nto nkrataa so mfa nkɔma obi.
+
+
+
+### Anammɔn 4: Di dwuma wɔ afidie no mu.
 
 Fa di dwuma:
-- Wallet ho nkrataa a wɔde kyerɛw nsɛm
-- Off-chain logs (e.g., nkrataa a wɔakyekyɛ) .
+- Adaka mu nkaeԑbɔsԑm
+- Logs a ɛnfa chain no ho (tesɛ, docs a wɔkyekyɛ)
 
-Nhwɛso memo: 
- - Grant #12 - Developer Katua
+Nhwɛsoɔ nkaeɛ: 
+ - Nkrataa a wode bɛkyerɛ sɛ woagye ato mu - Developer Payment No. 12
 
 
 
-### Anamɔn 5: Yɛ Katua Ho Ka wɔ Kokoam
+### Anammɔn 5: Yɛ ka no wɔ kokoam
 
-- Fa sika mena denam nnwuma a wɔabɔ ho ban so (z → z) .
-- Kwati sɛ wobɛpa wɔn a wogye no no din wɔ baguam
+- Fa sika kɔma obi wɔ dwumadie a wɔde sie mu (z → z)
+- Mma mmfa w'adwenkyerɛ nnto gua mma obiara nhu.
 
 <br/>
 
 ## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
 
-- Address ahorow a ɛda adi pefee a wɔde bedi dwuma ama sikakorabea 
-- Sika kotoku mu sika a wɔde tintim wɔ baguam 
-- Ɛnyɛ nkitahodi ahorow a wodi akyi wɔ wɔn mu 
-- Sikakorabea address a wɔde bɛbata ankorankoro a wobetumi ahu wɔn ho 
+- Fa adrɛs a w'atumi ahu no di dwuma ma sika. 
+- Woma wɔn a wɔtua sika no ho ka kyerɛ ɔmanfo. 
+- Ɛnsɛ sɛ wɔdi dwuma firi mfinimfini hɔ. 
+- Ɔman no adansedie a ɛfa nnipa bi ho kɔma wɔn ankasa. 
 
 
 <br/>
 
 ## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
 
-Wo mpɔtam hɔfo betumi:
-- Di sika ho dwuma yiye
-- Bɔ wɔn a wɔde mmoa ma ne wɔn a wogye no ho ban
-- Yɛ adwuma a worenpa sikasɛm ho nhyehyɛe ho ntama
+W'asafo betumi:
+- Fa sika di dwuma yiye wɔ ɔkwan a ahobammɔ wom so.
+- Bɔ wɔn a wɔboa ne wɔn a wonya mmoa no ho ban.
+- Yɛ adwuma bere a yɛnnya nkontaabu mma wɔn wɔ sika ho nhyehyɛe no mu.
 
 
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Privacy - Nneyɛe a eye sen biara](/privacy/best-practices)
-- [Fa sika mena a womfa wo ho nhyɛ wo ho](/use-cases/send-money-without-linking-identity)
+- [Ahintasɛm - Agyede pa a wobɛtumi ayɛ](/privacy/best-practices)
+- [Sende sika a ɛnfa ho adansedie ntoatoaa so](/zcash-use-cases/send-money-without-linking-identity)
  
 
 <br/>
 
 ## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
 
-**Anamɔn 5 wɔ 6 mu**
+**Ɔfã a ɛto so 5 wɔ 6** mu
 
-Wote sɛnea wɔhwɛ sika a wɔkyɛ so wɔ kokoam ase.
+Wugye di sɛ wubehu sɛnea wobedi sika a wode boa afoforo no so wɔ kokoam.
 
  <br/>
 
-## Anamɔn a Edi Hɔ
+## Nkɔsoɔ a Edi Hɔn Anim
 
-- [Nsɛm ho amanneɛbɔfo Kokoam Nsɛm Ho Nhyehyɛe](/use-cases/journalist-privacy-setup)
+- [Nsɛm ho amanneɛbɔfoɔ ahobammɔ nhyehyɛeɛ](/zcash-use-cases/journalist-privacy-setup)

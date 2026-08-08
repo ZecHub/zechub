@@ -513,11 +513,11 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Community_Broadcasting.md": {
-      "src": "sha256:55d3e777b9458d8786bcdbc5b33d8d44aadf0accdda04e733b128d1e66498f56",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:04955b0d4e2f787c458c6b751dd400d66730cd65285326c17ff34987599fa583",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Creating_Zcon_Highlights.md": {
@@ -993,35 +993,35 @@
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
-      "src": "sha256:de081f6e5a7568ed134b6bc8454ebe3d13f819170a274a55d480c7dfba52d3c5",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:bd3db270f7712d25567f3a0f377f3cc29a69bc6c03d77e9131c49b4666d8e370",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
-      "src": "sha256:db68b3e1a181e387eecfd0ee1120966191ac0334ea59001c7eeb9a8eab837771",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:e4d3b1088fbc0fbeb8a69fc401cb5ef81dacbfee34cefc8a84ee12a70b3f9c5b",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Use_Cases/Freelance_Privacy_Setup.md": {
-      "src": "sha256:5220c4fb4ee8678049241302b23e1c2e0d2faf085d09b7821b07b3acd591076c",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:fa405011b2b5b03209788e11f69776616f6e5b4fa8e5ff808de265f1cfbc2162",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Use_Cases/Journalist_Privacy_Setup.md": {
-      "src": "sha256:64c67c5a7015e91818670fa6205d4585cfc029b5e57929ec4b0e660192f0b241",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:92c120408191057bbc20711fffa3965741f717971c69001688fb6a2a8c13e536",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md": {
@@ -1033,11 +1033,11 @@
       "edited": false
     },
     "Zcash_Use_Cases/Private_Community_Treasury.md": {
-      "src": "sha256:13ed73528bd3dc9deea309b5ae6cbfb0382ab6ca216c2651d67e6277ce6a2d2d",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:04dcf6a5d7ad1c421a458cf96eb44ac1cca1e0d12ffc4f2e9e5b9c89f9a414c4",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Use_Cases/Receive_Donations_Privately.md": {
@@ -1049,11 +1049,11 @@
       "edited": false
     },
     "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": {
-      "src": "sha256:308d210568d73b0c0b017e4f167c8a752eef53cdf550ca94565d7afe0f884448",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:86e9ea0348816fc50b0e92a8416deb379aa636dda0d04e11ff2766b395b0c531",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
@@ -1459,6 +1459,14 @@
     "Zcash_Tech/FROST_Threshold_Custody.md": {
       "src": "sha256:520c296bee596559649103a20083aca30668ea59871d494252484e06948c0769",
       "src_commit": "3a7237b8e9f1049fbf2f1ef7572c2490789aec5d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Sign_in_With_Zcash.md": {
+      "src": "sha256:c991b5f313e30be2bb7858f614bf86fe3ddeb79fc63eccc645c7da1b75650b55",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
       "mode": "full",
       "tool": "nllb-200-3.3B",
@@ -4879,11 +4887,11 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Community_Broadcasting.md": {
-      "src": "sha256:55d3e777b9458d8786bcdbc5b33d8d44aadf0accdda04e733b128d1e66498f56",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:04955b0d4e2f787c458c6b751dd400d66730cd65285326c17ff34987599fa583",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Creating_Zcon_Highlights.md": {
@@ -5359,35 +5367,35 @@
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
-      "src": "sha256:de081f6e5a7568ed134b6bc8454ebe3d13f819170a274a55d480c7dfba52d3c5",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:bd3db270f7712d25567f3a0f377f3cc29a69bc6c03d77e9131c49b4666d8e370",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
-      "src": "sha256:db68b3e1a181e387eecfd0ee1120966191ac0334ea59001c7eeb9a8eab837771",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:e4d3b1088fbc0fbeb8a69fc401cb5ef81dacbfee34cefc8a84ee12a70b3f9c5b",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Use_Cases/Freelance_Privacy_Setup.md": {
-      "src": "sha256:5220c4fb4ee8678049241302b23e1c2e0d2faf085d09b7821b07b3acd591076c",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:fa405011b2b5b03209788e11f69776616f6e5b4fa8e5ff808de265f1cfbc2162",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Use_Cases/Journalist_Privacy_Setup.md": {
-      "src": "sha256:64c67c5a7015e91818670fa6205d4585cfc029b5e57929ec4b0e660192f0b241",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:92c120408191057bbc20711fffa3965741f717971c69001688fb6a2a8c13e536",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md": {
@@ -5399,11 +5407,11 @@
       "edited": false
     },
     "Zcash_Use_Cases/Private_Community_Treasury.md": {
-      "src": "sha256:13ed73528bd3dc9deea309b5ae6cbfb0382ab6ca216c2651d67e6277ce6a2d2d",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:04dcf6a5d7ad1c421a458cf96eb44ac1cca1e0d12ffc4f2e9e5b9c89f9a414c4",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Use_Cases/Receive_Donations_Privately.md": {
@@ -5415,11 +5423,11 @@
       "edited": false
     },
     "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": {
-      "src": "sha256:308d210568d73b0c0b017e4f167c8a752eef53cdf550ca94565d7afe0f884448",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
+      "src": "sha256:86e9ea0348816fc50b0e92a8416deb379aa636dda0d04e11ff2766b395b0c531",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
@@ -5825,6 +5833,14 @@
     "Zcash_Tech/FROST_Threshold_Custody.md": {
       "src": "sha256:520c296bee596559649103a20083aca30668ea59871d494252484e06948c0769",
       "src_commit": "3a7237b8e9f1049fbf2f1ef7572c2490789aec5d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Sign_in_With_Zcash.md": {
+      "src": "sha256:c991b5f313e30be2bb7858f614bf86fe3ddeb79fc63eccc645c7da1b75650b55",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
       "mode": "full",
       "tool": "nllb-200-3.3B",
@@ -10695,10 +10711,10 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Community_Broadcasting.md": {
-      "src": "sha256:55d3e777b9458d8786bcdbc5b33d8d44aadf0accdda04e733b128d1e66498f56",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:04955b0d4e2f787c458c6b751dd400d66730cd65285326c17ff34987599fa583",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
-      "mode": "seed",
+      "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     },
@@ -11175,34 +11191,34 @@
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
-      "src": "sha256:de081f6e5a7568ed134b6bc8454ebe3d13f819170a274a55d480c7dfba52d3c5",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:bd3db270f7712d25567f3a0f377f3cc29a69bc6c03d77e9131c49b4666d8e370",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
-      "mode": "seed",
+      "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
-      "src": "sha256:db68b3e1a181e387eecfd0ee1120966191ac0334ea59001c7eeb9a8eab837771",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:e4d3b1088fbc0fbeb8a69fc401cb5ef81dacbfee34cefc8a84ee12a70b3f9c5b",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
-      "mode": "seed",
+      "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Use_Cases/Freelance_Privacy_Setup.md": {
-      "src": "sha256:5220c4fb4ee8678049241302b23e1c2e0d2faf085d09b7821b07b3acd591076c",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:fa405011b2b5b03209788e11f69776616f6e5b4fa8e5ff808de265f1cfbc2162",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
-      "mode": "seed",
+      "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Use_Cases/Journalist_Privacy_Setup.md": {
-      "src": "sha256:64c67c5a7015e91818670fa6205d4585cfc029b5e57929ec4b0e660192f0b241",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:92c120408191057bbc20711fffa3965741f717971c69001688fb6a2a8c13e536",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
-      "mode": "seed",
+      "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     },
@@ -11215,10 +11231,10 @@
       "edited": false
     },
     "Zcash_Use_Cases/Private_Community_Treasury.md": {
-      "src": "sha256:13ed73528bd3dc9deea309b5ae6cbfb0382ab6ca216c2651d67e6277ce6a2d2d",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:04dcf6a5d7ad1c421a458cf96eb44ac1cca1e0d12ffc4f2e9e5b9c89f9a414c4",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
-      "mode": "seed",
+      "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     },
@@ -11231,10 +11247,10 @@
       "edited": false
     },
     "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": {
-      "src": "sha256:308d210568d73b0c0b017e4f167c8a752eef53cdf550ca94565d7afe0f884448",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:86e9ea0348816fc50b0e92a8416deb379aa636dda0d04e11ff2766b395b0c531",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
-      "mode": "seed",
+      "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     },
@@ -11641,6 +11657,14 @@
     "Zcash_Tech/FROST_Threshold_Custody.md": {
       "src": "sha256:520c296bee596559649103a20083aca30668ea59871d494252484e06948c0769",
       "src_commit": "3a7237b8e9f1049fbf2f1ef7572c2490789aec5d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Sign_in_With_Zcash.md": {
+      "src": "sha256:c991b5f313e30be2bb7858f614bf86fe3ddeb79fc63eccc645c7da1b75650b55",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
       "mode": "full",
       "tool": "nllb-200-3.3B",
@@ -19411,10 +19435,10 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Community_Broadcasting.md": {
-      "src": "sha256:55d3e777b9458d8786bcdbc5b33d8d44aadf0accdda04e733b128d1e66498f56",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:04955b0d4e2f787c458c6b751dd400d66730cd65285326c17ff34987599fa583",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
-      "mode": "seed",
+      "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     },
@@ -19891,34 +19915,34 @@
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
-      "src": "sha256:de081f6e5a7568ed134b6bc8454ebe3d13f819170a274a55d480c7dfba52d3c5",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:bd3db270f7712d25567f3a0f377f3cc29a69bc6c03d77e9131c49b4666d8e370",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
-      "mode": "seed",
+      "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
-      "src": "sha256:db68b3e1a181e387eecfd0ee1120966191ac0334ea59001c7eeb9a8eab837771",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:e4d3b1088fbc0fbeb8a69fc401cb5ef81dacbfee34cefc8a84ee12a70b3f9c5b",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
-      "mode": "seed",
+      "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Use_Cases/Freelance_Privacy_Setup.md": {
-      "src": "sha256:5220c4fb4ee8678049241302b23e1c2e0d2faf085d09b7821b07b3acd591076c",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:fa405011b2b5b03209788e11f69776616f6e5b4fa8e5ff808de265f1cfbc2162",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
-      "mode": "seed",
+      "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Use_Cases/Journalist_Privacy_Setup.md": {
-      "src": "sha256:64c67c5a7015e91818670fa6205d4585cfc029b5e57929ec4b0e660192f0b241",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:92c120408191057bbc20711fffa3965741f717971c69001688fb6a2a8c13e536",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
-      "mode": "seed",
+      "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     },
@@ -19931,10 +19955,10 @@
       "edited": false
     },
     "Zcash_Use_Cases/Private_Community_Treasury.md": {
-      "src": "sha256:13ed73528bd3dc9deea309b5ae6cbfb0382ab6ca216c2651d67e6277ce6a2d2d",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:04dcf6a5d7ad1c421a458cf96eb44ac1cca1e0d12ffc4f2e9e5b9c89f9a414c4",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
-      "mode": "seed",
+      "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     },
@@ -19947,10 +19971,10 @@
       "edited": false
     },
     "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": {
-      "src": "sha256:308d210568d73b0c0b017e4f167c8a752eef53cdf550ca94565d7afe0f884448",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:86e9ea0348816fc50b0e92a8416deb379aa636dda0d04e11ff2766b395b0c531",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
-      "mode": "seed",
+      "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     },
@@ -20357,6 +20381,14 @@
     "Zcash_Tech/FROST_Threshold_Custody.md": {
       "src": "sha256:520c296bee596559649103a20083aca30668ea59871d494252484e06948c0769",
       "src_commit": "3a7237b8e9f1049fbf2f1ef7572c2490789aec5d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Sign_in_With_Zcash.md": {
+      "src": "sha256:c991b5f313e30be2bb7858f614bf86fe3ddeb79fc63eccc645c7da1b75650b55",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
       "mode": "full",
       "tool": "nllb-200-3.3B",
@@ -23777,10 +23809,10 @@
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Community_Broadcasting.md": {
-      "src": "sha256:55d3e777b9458d8786bcdbc5b33d8d44aadf0accdda04e733b128d1e66498f56",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:04955b0d4e2f787c458c6b751dd400d66730cd65285326c17ff34987599fa583",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
-      "mode": "seed",
+      "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     },
@@ -24257,34 +24289,34 @@
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
-      "src": "sha256:de081f6e5a7568ed134b6bc8454ebe3d13f819170a274a55d480c7dfba52d3c5",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:bd3db270f7712d25567f3a0f377f3cc29a69bc6c03d77e9131c49b4666d8e370",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
-      "mode": "seed",
+      "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md": {
-      "src": "sha256:db68b3e1a181e387eecfd0ee1120966191ac0334ea59001c7eeb9a8eab837771",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:e4d3b1088fbc0fbeb8a69fc401cb5ef81dacbfee34cefc8a84ee12a70b3f9c5b",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
-      "mode": "seed",
+      "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Use_Cases/Freelance_Privacy_Setup.md": {
-      "src": "sha256:5220c4fb4ee8678049241302b23e1c2e0d2faf085d09b7821b07b3acd591076c",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:fa405011b2b5b03209788e11f69776616f6e5b4fa8e5ff808de265f1cfbc2162",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
-      "mode": "seed",
+      "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     },
     "Zcash_Use_Cases/Journalist_Privacy_Setup.md": {
-      "src": "sha256:64c67c5a7015e91818670fa6205d4585cfc029b5e57929ec4b0e660192f0b241",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:92c120408191057bbc20711fffa3965741f717971c69001688fb6a2a8c13e536",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
-      "mode": "seed",
+      "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     },
@@ -24297,10 +24329,10 @@
       "edited": false
     },
     "Zcash_Use_Cases/Private_Community_Treasury.md": {
-      "src": "sha256:13ed73528bd3dc9deea309b5ae6cbfb0382ab6ca216c2651d67e6277ce6a2d2d",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:04dcf6a5d7ad1c421a458cf96eb44ac1cca1e0d12ffc4f2e9e5b9c89f9a414c4",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
-      "mode": "seed",
+      "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     },
@@ -24313,10 +24345,10 @@
       "edited": false
     },
     "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": {
-      "src": "sha256:308d210568d73b0c0b017e4f167c8a752eef53cdf550ca94565d7afe0f884448",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:86e9ea0348816fc50b0e92a8416deb379aa636dda0d04e11ff2766b395b0c531",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
-      "mode": "seed",
+      "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     },
@@ -24723,6 +24755,14 @@
     "Zcash_Tech/FROST_Threshold_Custody.md": {
       "src": "sha256:520c296bee596559649103a20083aca30668ea59871d494252484e06948c0769",
       "src_commit": "3a7237b8e9f1049fbf2f1ef7572c2490789aec5d",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Sign_in_With_Zcash.md": {
+      "src": "sha256:c991b5f313e30be2bb7858f614bf86fe3ddeb79fc63eccc645c7da1b75650b55",
+      "src_commit": "cd02c6fdd62229f033c968948e429bc85f583830",
       "engine": "nllb",
       "mode": "full",
       "tool": "nllb-200-3.3B",

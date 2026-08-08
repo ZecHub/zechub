@@ -4,110 +4,110 @@
 
 ## TL;DR
 
-- Ðoe ɖa ɣesiaɣi tso **adrɛs si wokpɔ ta na** .
-- Ƒo asa na asitsatsa tẽ t to t
-- Gblẽ kadodo si le amenyenyewo dome la me
-- Lé ŋku ɖe ɣeyiɣi kple nɔnɔmewo ŋu
+- Ðo ame ɖe dɔdzikpɔƒe si ŋu wotrɔ asi le la ɣesiaɣi.
+- Ƒo asa na nuwɔwɔ kple ame bubuwo tẽe le asitsatsa me.
+- Madzudzɔ kadodo le ameɖokuiwo dome o.
+- Bu ɣeyiɣi si nàzãe kple ale si nàwɔe ŋu nyuie.
 
 <br/>
 
 ## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
 
-- Ame sia ame si le fexexe veviwo ɖom ɖa
-- Zãla siwo tsia dzi ɖe ame ŋutɔ ƒe nyawo ŋu
-- Ame siwo le dɔ wɔm le ŋkuléle ɖe wo ŋu te ƒe afɔku
+- Ame sia ame si ɖoa ga siwo ŋu wotrɔ asi le bɔbɔe ɖa la,
+- Privacy-conscious users
+- Amesiwo le ŋudzɔ ƒe afɔku me
 
 <br/>
 
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
 
-Zi geɖe la, crypto ɖoɖo ɖa ɖenɛ fiana be:
-- Wò gakotokua ƒe dzesidenu
-- Wò asitsatsa ŋutinya
-- Ame siwo nèwɔa nu kplii
+Zi geɖe la, nyatakaka siwo le kɔmpiuta dzi zazã ɖea nu sia fiana:
+- Wò gaɖaka ƒe ŋkɔwo
+- Wò nuxexlẽ ƒe ŋutinyaa
+- Ame siwo nèdoa ka kplii la ŋu nya me nyuie
 
-Esia wɔa **ganyawo ŋuti nɔnɔmetata si woate ŋu akpɔ**.
+Esia naa wokpɔa ga ŋuti nɔnɔmetata si ŋu woate ŋu ake ɖo.
 
 <br/>
 
 ## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash?
 
 
-Zcash na **ame ŋutɔ ƒe asitɔtrɔ bliboe** te ŋu zãa adzɔnuwɔna siwo wokpɔ ta na.
+Zcash naa **wotea ŋu tsɔa ga siwo woxe ɖe adzame la dea ame bubuwo si** to asitsatsa ƒe mɔnu aɖe dzi.
 
-Esia gblẽa nu le:
-- Adrɛs ƒe kadodo ƒe ŋutete
-- Dutoƒonuwɔnawo didi
+Esia gblẽ:
+- Adrɛs ƒe kadodowɔwɔ kple ame bubuwo
+- Dukɔwo dome nuwɔwɔ ŋuti numekukuwo wɔwɔ
 
 <br/>
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
-- Gakotoku si doa alɔ asitsatsa siwo ŋu wokpɔa akpoxɔnu le
-- Z-adrɛswo gɔmesese veviwo
+- Ga si dzi wotona wɔa nu siwo ŋu woɣla ɖo la ƒe akpa aɖe.
+- Z-adrɛswo ŋuti gɔmesese vevi aɖe
 
 <br/>
 
 ## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
 
-### Afɔɖeɖe 1: Kpɔ egbɔ be Wokpɔ Gawo Ta
+### Afɔɖeɖe Gbãtɔ: Kpɔ Nyuie Be Woakpɔ Gawo Ta
 
-Ne wò ga le adrɛs si me kɔ dzi la:
-- Tsɔ wo yi adrɛs si ŋu wokpɔ akpoxɔnu ɖo me gbã
-
-
-### Afɔɖeɖe 2: Ðoe tso Shielded yi Shielded
-Elɔ̃na wu ɣesiaɣi `z to z` asitsatsa
-
-Esia wɔnɛ be ame ŋutɔ ƒe nyawo nɔa ɣaɣla wu.
+Ne ga si nèdzra ɖo la le adrɛs aɖe dzi:
+- Ʋu wo yi adrɛs si ŋu wotrɔ asi le la me gbã.
 
 
-### Afɔɖeɖe 3: Ƒo asa na Dzesidede Ame ƒe Kadodo
+### Afɔɖeɖe 2: Ɖo Akpoxiwo le Kpovitɔwo Gbɔ Va Ðo Amesiwo Wotsrɔ̃ La Domee
+Melɔ̃a nuƒoƒo le ame ŋu ɣesiaɣi o. `z to z` nuwɔwɔ kple ame bubuwo
 
-MÈGAWƆ:
-- Ðe gbeƒã asitsatsa le dutoƒo
-- Gbugbɔ zã adrɛs ɖeka ma ke le nya siwo ƒo xlãe me
-- Tsɔ adrɛswo do ƒome kple ame siwo wonya
+Esia naa ame ƒe nya me nɔa ɣaɣla ale si wòanya wɔ.
 
-### Afɔɖeɖe 4: Bu Ɣeyiɣi ƒe Ðoɖowo Ŋu
 
-Aɖaŋuɖoɖo deŋgɔ:
-- Ƒo asa na eɖoɖo enumake ne èxɔ ga gbogbo aɖewo vɔ
-- Gblẽ nɔnɔme siwo woate ŋu agblɔ ɖi le afisi wòanya wɔ le
+### Afɔɖeɖe 3: Mègana Amewo Nava Nɔ Nu Ƒom Wò Kple Ame Bubu Aɖeke O
+
+MEGADE asi nu siawo wɔwɔ me o:
+- Ðe gbeƒã nu siwo wowɔ la le dutoƒo.
+- Zã adrɛs ɖeka la le go vovovowo me
+- Do ka kple adrɛs siwo wonya la.
+
+### Afɔɖeɖe 4: Bu Ɣeyiɣi Siwo Nàzã Nu Ƒomeviwo Nawɔe Ŋu
+
+Nuxlɔ̃ame si le ŋgɔ:
+- Mègaɖo ga gbogbowo ɖe ame aɖeke enumake o.
+- Wɔ nusi nàte ŋu awɔ atsɔ aɖe nɔnɔme siwo le abe alesi nàkpɔ mɔe ene la ɖa ne anya wɔ.
 
 <br/>
 
 ## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
 
-- Woɖoe ɖa tẽ tso adrɛs siwo me kɔ dzi 
-- Adrɛswo gbugbɔgazã le ame geɖe dome 
-- Asitsatsa ƒe kpeɖodzi le dutoƒo 
-- Aɖabaŋeŋe ƒu metadata dzi (ɣeyiɣi, zi gbɔ zi geɖe) .
+- Woɖoa wo ɖa tẽ tso adrɛs siwo me kɔ nyuie la dzi. 
+- Adrɛswo zazã le ame geɖe dome 
+- Nuwɔnawo ŋuti ɖaseɖiɖi le dutoƒo 
+- Wometsɔ metadatawo (ɣeyiɣi, zi gbɔɖi) o.
 
 <br/>
 
 ## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
 
-Ate ŋu:
-- Miɖo ga ɖe ame ŋutɔ
-- Ƒo asa na kadodo kple wò amenyenye
-- Ðe alesi woate ŋu akplɔe ɖo dzi akpɔtɔ
+Àte ŋu:
+- Ðo ga ɖe ame bubuwo le adzame
+- Mègana amewo nanya wò ŋkɔ o
+- Woate ŋu akpɔ egbɔ be womagakpɔ ame aɖeke o.
 
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
-- [Adzamenyawo - Shielded vs Transparent](/privacy/shielded-vs-transparent)
+- [Ame Ŋuti Nyawo - Amesi Wotsɔna Ðe Nu Ŋu Kple Amesi Wometsɔa ɖeke le Eme O](/privacy/shielded-vs-transparent)
 
 <br/>
 
 ## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
 
-**Afɔɖeɖe 2 le 6 me**
+** Afɔɖeɖe 2 le 6 me**
 
-Fifia àte ŋu aɖo ga ɖe ame ŋutɔ evɔ màɖe amenyenye afia o.
+Fifia àte ŋu aɖo ga ɖa le adzame evɔ màna amewo nanya ame si nènye o.
 
 <br/>
 
-## Afɔɖeɖe si kplɔe ɖo
+## Afɔɖeɖe Si Akplɔ Esia Yia Edzi
 
-- [Freelancer ƒe Nyatakakawo Ŋuti Ðoɖowɔwɔ](/use-cases/freelancer-privacy-setup)
+- [Freelancer ƒe Nyatakakawo Ŋuti Ðoɖowɔƒe](/zcash-use-cases/freelance-privacy-setup)

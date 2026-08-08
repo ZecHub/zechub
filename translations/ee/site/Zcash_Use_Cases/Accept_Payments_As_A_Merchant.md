@@ -2,117 +2,117 @@
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  Gɔmedzela - 5 min
+  Mɔdeasi - Miniti 5
 </span>
 
 ## TL;DR
 
-- Xɔ fexexe to adrɛs si wokpɔ ta na zazã me
-- Ƒo asa na asisiwo ƒe asitsatsa ŋuti nyatakakawo ɖeɖe ɖe go
-- Zã nuŋlɔɖiwo alo off-chain systems hena nudɔdɔwo yometiti
-- Na ga si wokpɔna tso asitsatsa me nanye ame ŋutɔ tɔ
+- Xɔxefewo to adrɛs si ŋu wotrɔ asi le me dzi
+- Mègaɖe asi le asitsalawo ƒe nuƒle ŋuti nyatakakawo ŋu o.
+- Zã memos alo ɖoɖo siwo le mɔ̃ dzi be woalé ŋku ɖe nuƒlewo ŋu la.
+- Mègaɖe gbeƒã wò dɔwɔƒe ƒe viɖewo o.
 
 <br/>
 
 ## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
 
-- Asitsalawo le Internet dzi
-- Subɔsubɔhawo ƒe dɔwɔƒewo
-- Asitsaha suewo
-- Fiase siwo me crypto-xɔlɔ̃ le
+- Internet dzi asitsalawo
+- Subɔsubɔdɔwɔlawo
+- Dɔwɔƒe suewo
+- Dɔwɔƒe siwo wɔa nu kple gaƒlegbalẽvi dzi nuwo.
 
 <br/>
 
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
 
-Dekɔnu crypto fexexe ɖea nu me ɖe go:
-- Asitsalawo ƒe nuƒle ƒe nuwɔna
-- Asitsalawo ƒe gakpɔkpɔ
-- Asitsatsa ŋutinya
+Gbegbɔgblɔ siwo me wozãa ga le tsɔ xea fe ɖe mɔ̃ dzi la:
+- Ameƒlewo ƒe Nuƒeƒle Nɔnɔme
+- Asitsalawo ƒe ga si wokpɔna
+- Nuwɔnawo ƒe ŋutinya
 
 Esia kplɔa ame yia:
-- Asitsalawo ƒe nya ɣaɣlawo ƒe bu
-- Hoʋiʋli ƒe nyatakakawo doa go
-- Ðewohĩ màdi be ganyawo nadze le gaglãgbe o
+- Ame ƒe ameŋkumekpɔkpɔ bubu me gblẽna le eŋu
+- Nunya si ku ɖe hoʋiʋli ŋu ƒe nugblẽnyawo
+- Ganyawo me Kɔkɔnyawo Si Nèdi O
 
 <br/>
 
 ## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash?
 
-Zcash na be:
-- Ame ŋutɔ ƒe asisiwo ƒe fexexe
-- Gakpɔkpɔ le nya ɣaɣlawo me yometiti
-- Asitsatsa ƒe dɔwɔnawo takpɔkpɔ
+Zcash naa:
+- Ameɖokuiwo ƒe asitsatsafewo
+- Gawo ƒe numekuku le adzame ŋuti nyatakaka siwo ŋu woke ɖo la me.
+- Dɔwɔɖui ƒe dedienɔnɔ ta kpɔkpɔ
 
 
 <br/>
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
-- Zcash gakotoku si doa alɔ asitsatsa siwo wokpɔ ta na
-- Fexexe ƒe ɖoɖo bɔbɔe aɖe (si wotsɔ asi alo esi wotsɔ ƒo ƒui) .
-- Tiatia: nudɔdɔwo yometiti ƒe ɖoɖo
+- Zcash ga si le asi kpem ɖe nu siwo ŋu woɣla ɖo la wɔwɔ me.
+- Fetuwo ƒe ɖoɖo bɔbɔe (asi alo esi wowɔ ɖe mɔ̃ dzi)
+- Ne èdi la: ɖoɖowo yome nɔnɔ ƒe mɔnu.
 
 
 <br/>
 
 ## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
 
-### Afɔɖeɖe 1: Ðo Fexexe ƒe Adrɛs
+### Afɔɖeɖe Gbãtɔ: Ðo Fetuƒe aɖe Ði
 
-- Wɔ adrɛs si wokpɔ ta na (z).
-- Zã esia hena fexexe
+- Wɔa adrɛs si ŋu wotrɔ asi le (z) la ƒe kɔpi.
+- Zã esia nàtsɔ axɔ ga le ame si.
 
 
-### Afɔɖeɖe 2: Fia Fexexe Ŋuti Mɔfiamewo
+### Afɔɖeɖe 2: Ðe Fewo Fetu Ŋuti Mɔfiamewo Fia
 
-Le asitsatsa ɖesiaɖe gome la:
-- Fia wò z-adrɛs
-- Na ga home si nàxe
-- Ne èdi la, tsɔ nuŋlɔɖi aɖe si me woŋlɔ nu ɖo la kpe ɖe eŋu
+Le nuwɔwɔ ɖe sia ɖe me:
+- Na wò z-dzesi la nadze le afi sia.
+- Na woagblɔ fe si nèxe la ƒe home.
+- Ne ehiã la, de nyatakakawo ƒe ŋkɔ ɖe eme.
 
-### Afɔɖeɖe 3: Kpɔ Nudɔdɔwo Dzi
+### Afɔ 3: Ŋlɔ Dɔ Siwo Nèwɔ La Ðe Toƒe
 
-Zã:
-- Nuŋlɔɖiwo (e.g., Nudɔdɔ ƒe ID) .
-- Alo off-chain tracking (nyatakakadzraɖoƒe, agbalẽvi) .
+Woazãe:
+- Numeɖeɖewo (le kpɔɖeŋu me, Order ID)
+- Alo wo ŋuti nyatakakawo didi le mɔ bubu nu (database, spreadsheet)
 
 
 Kpɔɖeŋu:
-- Nudɔdɔ #4821
+- Sedede #4821
 
 
-### Afɔɖeɖe 4: Ðo kpe Fexexe dzi
+### Afɔɖeɖe 4: Ka ɖe edzi be woxe fea dzi.
 
-- Lé ŋku ɖe asitsatsa siwo wotsɔ akpoxɔnu wɔe siwo gbɔna ŋu
-- Tsɔ memo alo ga home si nèbia la sɔ kple wo nɔewo
+- Kpɔa asitsatsa siwo ŋu wotrɔ asi le la dzi.
+- Wɔ ɖoɖo ɖe ga si nàna la ŋu alo na wòasɔ kple esi nèdi be yeaxe.
 
 
-### Afɔɖeɖe 5: Lé Adzamenyawo Me Dzadzɛnyenye me ɖe asi
+### Afɔɖeɖe 5: Kpɔ Wò Ŋutilãa Ta nyuie
 
-- Ƒo asa na adrɛswo gbugbɔgazã le dutoƒo ne anya wɔ
-- Mègaɖe asitsatsa ŋutinya ɖe go o
-- Miɖe gakotokuwo ɖe vovo na asitsaha vovovowo ne ehiã
+- Mègagazã adrɛswo le dutoƒo o ne anya wɔ.
+- Mègaɖe nuŋɔŋlɔwo me le dɔwɔna ƒe ŋutinyaa dzi o.
+- Ne ehiã la, ga si woadzra ɖo ɖe dɔwɔƒe vovovo ŋu le vovo.
 
 
 <br/>
 
 ## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
 
-- Adrɛs siwo me kɔ zazã hena fexexe 
-- Asitsatsa ŋuti kpeɖodziwo tata le dutoƒo 
-- Asisiwo ƒe dzesidede kadodo kple blockchain nyatakakawo 
-- Fexexewo yometiti nyuie o 
+- Adrɛs siwo dzi woate ŋu ato awɔ nu le mɔ si me kɔ nyuie la zazã na fewo xexe 
+- Woana amewo nanya nu tso asitsatsa ŋuti kpeɖodziwo ŋu 
+- Ame si le asitelefon dzi ƒe ŋkɔ kple blockchain ŋuti nyatakakawo dome kadodo 
+- Medzɔna ɖe ga siwo woxe la dzi nyuie o. 
 
 
 <br/>
 
 ## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
 
-Ate ŋu:
-- Lɔ̃ ɖe fexexe dzi le ɖokuiwò si
-- Ta wò asisiwo ta
-- Na wò asitsatsa ŋuti nyatakakawo nanye nya ɣaɣla
+Àte ŋu:
+- Xɔxewo le adzame
+- Kpɔ wò asisiwo ta
+- Mègaɖe wò dɔwɔɖui ŋuti nyatakakawo ɖe go o
 
 
 <br/>
@@ -120,20 +120,20 @@ Ate ŋu:
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
 
-- [Gakotokuwo](/wallets)
-- [Adzamenyawo - Nuwɔna Nyuitɔwo](/privacy/best-practices)
+- [Gaɖakawo](/wallets)
+- [Ame Ŋuti Nyawo Gbɔ Ðoɖo - Nu Siwo Sɔ Wu Wɔwɔ](/privacy/best-practices)
 
 <br/>
 
 ## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
 
-**Afɔɖeɖe 4 lia le 6 me**
+** Afɔ 4 le 6 lia me**
 
-Fifia àte ŋu awɔ ame ŋutɔ ƒe fexexe ƒe ɖoɖowo na asitsatsa.
+Fifia àte ŋu awɔ gaxeɖoɖowo na ɖokuiwò le asitsatsa me.
 
 <br/>
 
-## Afɔɖeɖe si kplɔe ɖo
+## Afɔɖeɖe Si Akplɔ Esia Yia Edzi
 
-- [Mikpɔ Nutoa Me Gadzɔdzɔ Dɔwɔƒe si nye Ame ŋutɔ tɔ dzi](/use-cases/private-community-treasury)
+- [Ƒomevi Siwo Le Wo Nɔewo Ƒe Gaxɔ Me ƒe Dɔ Wɔwɔ](/zcash-use-cases/private-community-treasury)
 <br/>
