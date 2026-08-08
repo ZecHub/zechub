@@ -1,27 +1,30 @@
-[![Trɔ Asi Le Axaa Ŋu](https://img.shields.io/badge/Edit-blue)](https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Community_Blogs.md)
+[![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Community_Blogs.md)
 
-# Nutoa me Blogwo
+# Ƒomewo ƒe Nyatakakawo
 
-Nutoa me tɔwo wɔa blog nyui geɖe siwo ƒo nu tso Zcash, adzamenyawo, cryptocurrency, kple nyati siwo do ƒome kplii ŋu.
+Ƒome sia me tɔwo wɔa blog nyui geɖe siwo ƒo nu tso Zcash, ame ƒe gomenɔamesi, cryptocurrency kple nya bubuwo ŋu.
 
-Wo dometɔ aɖewoe nye esiwo doa vevie nu:
+Wo dometɔ siwo le dɔ wɔm fifia la ƒe ɖewoe nye:
 
-| Blog / Agbalẽŋlɔla | Numeɖeɖe | Kadodo |
+ Blog / Auteur  Description Link  Eʋe: Xlẽ agbalẽ sia nàkpɔ.
 |----------------------------|----------------------------------------------------------|------|
-| James Katz ƒe agbalẽ | Ame ŋutɔ ƒe nuŋɔŋlɔwo kple susuwo le Zcash kple adzamenyawo ŋu | [Tsa le ->](https://free2z.cash/James_Katz/) |
-| Thumbs ƒe Nyatakaka yeye | Nu gbagbewo ƒe agbenɔnɔ ŋuti tɔtrɔ yeyewo kple gɔmesesewo edziedzi | [Tsa le ->](https://thumbsup.substack.com) |
-| xɔmetɔwo ƒe modzakaɖeɖe | Musings kple nutoa me tɔwo ƒe nyawo | [Tsa le ->](https://free2z.cash/roommatemusing) |
-| NerdBank ƒe Blog | Technical blog si ku ɖe Zcash ƒe ŋgɔyiyi kple dɔwɔnuwo ŋu | [Tsa le ->](https://blog.nerdbank.net/) |
-| Thor Lɔ̃a | Nyadzɔdzɔwo, nukpɔsusuwo, kple numeɖeɖewo le Zcash | [Tsa le ->](https://www.thorlikes.com/) |
-| ZecMec ƒe | Nyati siwo ku ɖe Zcash ŋu le Medium | [Tsa le ->](https://zecmec21.medium.com/) |
-| Ian Sagstetter ƒe agbalẽ | Nyati deto kple nyadzɔdzɔgbalẽ | [Tsa le ->](https://iansagstetter.substack.com/) |
-| Naomi Brockwell (NBTV) ƒe nyatakakadzraɖoƒea | Gbebiame siwo ŋu ŋkɔ deŋgɔ le kple nyatakaka siwo ku ɖe ame ŋutɔ ƒe nyawo ŋu | [Tsa le ->](https://naomibrockwell.com/highprofileinterviews) |
-| Sqribbles ƒe nyawo | Nuwɔwɔ kple nutoa me tɔwo ƒe Zcash me nyawo | [Tsa le ->](https://free2z.cash/sqribbles) |
-| Str4d ƒe ƒuƒoƒo | Mɔ̃ɖaŋu nuŋɔŋlɔwo tso Zcash core developer gbɔ | [Tsa le ->](https://words.str4d.xyz/) |
-| CipherScan Kwasiɖa sia Kwasiɖa | Kwasiɖa sia kwasiɖa ƒe blog me nya siwo ƒo nu tso Zcash blockchain analytics | [Tsa le ->](https://cipherscan.app/) |
-| Zcash Shielded Nyadzɔdzɔwo | Kwasiɖa sia kwasiɖa ƒe adzamenyawo kple lãwo ƒe agbenɔnɔ ŋuti nyadzɔdzɔwo digest | [Tsa le ->](https://zechub.wiki) |
-| ZecHub DAO ƒe Blog | Nyatiwo kple nufiamenyawo tso ZecHub DAO habɔbɔa gbɔ | [Tsa le ->](https://zechub.wiki) |
+ Alesi Zcash wɔa dɔe. Xlẽ nu tso alesi wowɔa eƒe dɔwɔwɔ ŋu le [Yi ->]](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
+Max Desalle: Zcash ƒe Ŋutetewo [Yi ->]](https://maxdesalle.com/mastering-zcash/) |
+Mike Rosulek. Cryptography ƒe Dzidzɔkpɔkpɔ [Yi ->](https://joyofcryptography.com/) |
+James Katz: Ame ŋutɔ ƒe nuŋlɔɖiwo kple susuwo le Zcash kpakple ame ɖokui ŋu [Trɔ yi ->]](https://free2z.cash/James_Katz/) |
+[Dɔdrɔ̃e] Gbadagbawo ƒe Nyatakakawo. Ecosystem ŋuti nyatakaka yeye siwo le edzi yim edziedzi kple nu bubu geɖe tso eŋu. [Yi ->](https://thumbsup.substack.com) |
+[Yi Ŋkuɖodzia dzi]](https://free2z.cash/roommatemusing) |
+ NerdBank Blog. Technical blog si te ɖe Zcash ƒe ŋgɔyiyi kple dɔwɔnuwo ŋu [Visit ->](https://blog.nerdbank.net/) |
+Thor lɔ̃a nya, nukpɔsusuwo kple numeɖeɖe siwo ku ɖe Zcash ŋu. [Yi ->]](https://www.thorlikes.com/) |
+ ZecMec Zcash-ŋɔŋlɔwo le Medium [Yi ->]](https://zecmec21.medium.com/) |
+Ian Sagstetter Nyatakakawo kple nyadzɔdzɔgbalẽ siwo me nyawo de to [Yi ->](https://iansagstetter.substack.com/) |
+Naomi Brockwell (NBTV) Ame ŋkutawo ƒe gbebiame kple nusiwo le edzi si ku ɖe ame ɖokui ŋu [Yi ->]](https://naomibrockwell.com/highprofileinterviews) |
+Sqribbles Zcash ƒe nu siwo ŋu amewo wɔa dɔ le la [Yi ->](https://free2z.cash/sqribbles) |
+Str4d Zcash Core Developer ƒe Technical Writings [Yi ->](https://words.str4d.xyz/) |
+ CipherScan Weekly  Wiki blog posts covering Zcash blockchain analytics [Visit ->](https://cipherscan.app/) |
+Zcash Shielded News kwasiɖa sia kwasiɖa ƒe ame ɖokui kple nutoa me nyadzɔdzɔwo [Yi ->]](https://zechub.wiki) |
+ ZecHub DAO Blog. Nyatiwo kple nu siwo ku ɖe hehexɔxɔ ŋu tso ZecHub DAo-ha la gbɔ [Yi ->](https://zechub.wiki) |
 
 ---
 
-Blog aɖewo siwo nutoa me tɔwo ɖo ɖa lae nye esi. Ne èdi be ZecHub naɖe wò blog me nyawo dometɔ ɖeka afia alo atsɔ wò ŋutɔ wò blog akpe ɖe afisia la, taflatse wɔ Hehe Biabia si me nyatakakaawo le!
+Ne èdi be ZecHub naɖe wò blog ƒe nyawo ɖe go alo nàtsɔ ɖokuiwò tɔa wo la, ke wɔ kukuɖeɖe le afi sia kple nyatakakawo!

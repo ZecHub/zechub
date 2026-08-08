@@ -3,52 +3,56 @@
 </a>
 
 # <img src="/content-images/image-2024-02-03-164918723-f59419848a.webp" alt="Alt Text" width="50"/>    Electric Coin Company (Sunset)
-[Wɛbsaet no](https://electriccoin.co) - [Github a woagye atom](https://github.com/Electric-Coin-Company) - [X/Twitter so na woagye atom](https://x.com/ElectricCoinCo)
+[Yɛn wɛbsaet wɔ ha]](https://electriccoin.co) - [Github] Woyɛ ɔmansin sohwɛfo.](https://github.com/zodl-inc) - [X/Twitter] (Ɔwɔ hɔ wɔ Twi mu)](https://x.com/ElectricCoinCo)
 
-## Asɛmpatrɛw Asɛm
+> **Ɛfa saa GitHub link no ho.** ECC nkorabea wɔ hɔ wɔ: `zodl-inc`Saa ahyehyɛde koro no ara na wɔsesaa din maa wɔn bere a kuw no tu kɔɔ [ZODL]](/zcash-organizations/zodl). Nea ɔtetee no `github.com/Electric-Coin-Company` edin no na obi a ɔnfa ho twerɛɛ wɔ May 2026 mu, na ɛnni ECC anaa ZODL hwee yɛ, enti mma wo mfa w'ani nto code a wɔatwerɛ wɔ hɔ so.
 
-Adwuma a ɛwɔ ECC ne sɛ wɔbɛma sikasɛm mu ahofadi anya tumi. Sikasɛm mu kokoamsɛm yɛ ade titiriw wɔ saa mmɔdenbɔ yi mu, na ɛho hia na wɔabɔ nnipa nidi, ahobammɔ, wɔn ankasa tumidi, ne pene a wɔpene so ho ban. Ɛsɛ sɛ sikasɛm mu kokoamsɛm a wubenya no yɛ mmerɛw te sɛ wo fie ntama a wobɛto mu no. Nanso bere a Web2 aba no, tumi no akɔ mfinimfini kɛse, na wɔn a wɔwɔ tumi no wɔ wo dan mu dedaw. Worentumi ntoto ntama no mu. Ɛsɛ sɛ yɛkyekye biribi foforo.
-Saa sikasɛm nnwinnade nhyehyɛe foforo yi, a obiara betumi anya bi, bɛyɛ nea ɛyɛ mmerɛw sɛ wɔde bedi dwuma, ɛyɛ kokoam de koraa a ɛwɔ akwan horow a wɔbɛfa so ada no adi, na wɔbɛkyekyɛ ne nhyehyɛe a ɛboa no na ayɛ den.
+## Adwuma ho nkrataa
 
-## Zashi: [iOS](https://apps.apple.com/us/app/zashi-zcash-wallet/id1672392439) - [Adroid] no](https://play.google.com/store/apps/details?id=co.electriccoin.zcash) - [F-Droid a wɔde yɛ adwuma](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
+The mission at ECC is to empower economic freedom. Financial privacy is core to this endeavor, and essential to protect human dignity, security, self-sovereignty, and consent. Obtaining financial privacy should be as easy as closing the curtains in your home. But with the emergence of Web2, power is deeply centralized, and those with control are already in your living room. You cannot close the curtains. We must build something new.
+Saa nhyehyɛeɛ foforɔ a wɔde di dwuma wɔ sikasɛm mu yi, obiara betumi anya bi. Ɛbɛyɛ mmerɛ sɛ obi de bedi dwuma na ayɛ kokoam koraa ne ɛho kwan ahorow no ho dawuro, ɛne n'afedie bɛyɛ nea wɔn nyinaa ani gye ho paa.
 
-Wɔasi ama Ankorankoro Katua. Zashi yɛ ZEC sika kotoku a wɔabɔ ho ban a wɔde wɔn ankasa hwɛ ma dijitaal nkitahodi a wɔabɔ no kokoam.
+## Zodl, a kan no na wɔfrɛ no Zashi: [iOS]](https://apps.apple.com/us/app/zashi-zcash-wallet/id1672392439) - [Android] Wifi, wi-Fi.](https://play.google.com/store/apps/details?id=co.electriccoin.zcash) - [F-Droid] (Ɔwɔ kasa a emu yɛ den)](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
 
-Zashi yɛ adwinnade a ɛyɛ pɛpɛɛpɛ a wode bɛ onboarding nnamfo ne abusuafo akɔ Zcash ne kokoam dijitaal sikatua mu. Ne nhyehyɛe a ɛyɛ mmerɛw no ma ɛyɛ mmerɛw ma obiara, mpo wɔn a wonni kan crypto osuahu biara sɛ wɔbɛhyehyɛ sika kotoku, anya ZEC, na wɔafi ase adi nkitaho wɔ simma kakraa bi mu.
+Built for Private Payments. Zashi was a self-custody shielded ZEC wallet for encrypted digital transactions, built by ECC and released in 2024.
 
-Nneɛma a wɔde ka bom:
-- [Nneɛma a wɔde yɛ adwuma:](https://electriccoin.co/blog/coinbase-zashi-1-2-release/) crypto newbies betumi atɔ ZEC tẽẽ wɔ sika kotoku no mu skipping hassles of account registration, KYC, ne sika a woyi fi exchanges.
+Wɔyɛɛ no sɛ wɔmfa wɔn nnamfo ne abusuafoɔ nkɔ Zcash mu na wɔmmɔ ka a wɔde di dwuma ma ankorankoro, ɛne interface bi a ɛyɛ tiawa ama nnipa a wonni kan crypto suahu de asiesie sika kotoku, nya ZEC, na fi ase yɛ adwuma simma kakraa bi ntam.
 
-- [Flexa: 1 .](https://electriccoin.co/blog/zashi-flexa-integration-is-here-spend-zec-at-thousands-of-retailers/) ma ɛyɛ mmerɛw sɛ wode ZEC bedi dwuma ankasa, na ɛma wɔn a wɔde di dwuma foforo no tumi sɛe wɔ mmeae mpempem pii a wɔtɔn nneɛma te sɛ Barnes & Noble, GameStop, ne Chipotle.
+The wallet was renamed **Zodl** in February 2026 after the team moved to ZODL. Existing users did not have to do anything, as the app rebranded on its next update, which is why the store links above open Zodl. It is now maintained there rather than by ECC, so see the [ZODL page](/zcash-organizations/zodl) sɛ ɛbɛyɛ ne bere mu nsɛm.
 
-- [Keystone:](https://electriccoin.co/blog/drumroll-please-introducing-zashi-keystone-hardware-wallet-integration-for-shielded-zec/) nkɔsoɔ kɛseɛ ma Zcash mpɔtam hɔfoɔ a wɔde mfeɛ pii reyɛ. Saa nkabom yi hyɛ nkɔsoɔ kɛseɛ agyiraeɛ wɔ Zcash dwumadie mu denam ZEC a wɔabɔ ho ban no a ɛma wɔtumi de sie awɔw mu no so.
+Nkrataa a w'atwerɛ no, fa wo ho to hɔ ma wɔn.
+- [Nkrataafa a wɔde di dwuma:](https://electriccoin.co/blog/coinbase-zashi-1-2-release/) Crypto newbies betumi atɔ ZEC tẽẽ wɔ sika kotoku no mu a ɛmpɛ sɛ wɔde wɔn ho hyɛ nkonta, KYC ne sikasesafo hɔ.
 
-## Nhwehwɛmu ne Nkɔso
+- [Flexa: ɛmu no so]](https://electriccoin.co/blog/zashi-flexa-integration-is-here-spend-zec-at-thousands-of-retailers/) ma ɛyɛ mmerɛw sɛ wɔde ZEC bedi dwuma ankasa, na ama wɔn a wɔyɛ foforo no atumi de adi gua wɔ mmeae mpempem pii te sɛ Barnes & Noble, GameStop ne Chipotle.
 
-Kuw no adi nkɔso ahorow a wogye tom anim mpɛn pii, nea edi kan ne [Zcash a wɔde sii hɔ](https://electriccoin.co/blog/zcash-begins/) sɛ wiase no mu nea edi kan a wɔde Zero-Knowledge Proofs dii dwuma wɔ aguadi mu.
+- [Keystone:](https://electriccoin.co/blog/drumroll-please-introducing-zashi-keystone-hardware-wallet-integration-for-shielded-zec/) Saa nkabom yi kyerɛ sɛ Zcash yɛ ade a ɛho hia paa wɔ ne fahodie mu, efisɛ ɛma ɛyɛ yie sɛ wobɛtumi de ZEC asie.
 
-Nnipa pii foforo a wodi akyi te sɛ [Sapling network upgrade](https://electriccoin.co/blog/sapling-activation-complete/) a ɛma kwan ma wɔyɛ nkitahodi a emu yɛ hare, a wɔabɔ ho ban a bere a wɔtew so 90% ma nkitahodi a wɔkyekye, ne nkae a wɔtew so bɛboro 97%, a ɛma wotumi yɛ nkitahodi a wɔabɔ ho ban wɔ mobile device so nea edi kan.
+## Nhwehwɛmu ne Nkɔsoɔ
 
-Nkɔso a ɛho hia sen biara ne nea ɛbae nnansa yi ara. [Abɔde ne nea wɔde di dwuma](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/) no ho halo2 ahotoso a enni adanse nhyehyɛe wɔ Network Upgrade 5 ma Zcash. Eyi yii nhyehyɛe a wogye di no fii hɔ na ɛde bere foforo sii hɔ maa Zcash. Efi afe 2022 no, eyi ayɛ adwuma wɔ Zcash Mainnet so na ɛma wɔn a wɔde di dwuma no tumi de adansi a ahobammɔ wom & ɛyɛ mmerɛw sɛ wɔbɛkɔ so ayɛ no di dwuma ma wɔn sikatua nhyehyɛe. 
+Saa kuw yi adi dwuma wɔ akwan pii so, nea edi kan ne Zcash [ɔde no baa wiase] a wɔde wɔn ho hyem.](https://electriccoin.co/blog/zcash-begins/) Ɛne sɛ, wiase no mu nnipa a wodi kan de Zero-Knowledge Proofs di dwuma wɔ aguadi fam.
 
-## Nkɔmmɔbɔ & Nkɔmmɔbɔ 
+Nkrataa ahodoɔ a etwa sɛ yɛhyehyɛ wɔ kasa ahodoɔ mu no bi ne: [Sapling network upgrade]](https://electriccoin.co/blog/sapling-activation-complete/) Ɛma kwan ma dwumadie a ɛyɛ mmerɛ, na wɔayi no afiri ho de 90% so yɛ adwuma ntɛmntɛm. Na ɛma adwene tumi tɔ fam sen 97%, enti afei deɛ wɔde nneɛma di dwuma wɔ fon afidie so.
 
-ECC kuo no boa na wɔboa Zcash abɔdeɛ a nkwa wom nhyehyɛeɛ no wɔ akwan pii so, wɔne emu & abɔnten akuo nyinaa yɛ adwuma daa de boa ma wɔhwɛ Zcash protocol no so na wɔtu mpɔn. 
+N'abodin a edi kan ne sɛ, "Nea ɛyɛ soronko wɔ nnipa mu no yɛ nea ɛbaa akyiri yi". [The creation and deployment of the newest version is the most recent. ]](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/) halo2 trustless proving system wɔ Network Upgrade 5 ma Zcash. Eyi yii trustee setup no na ɛhyɛɛ bere foforɔ ase maa Zcash .Efi afe 2022 mu, eyi ayɛ adwuma wɔ Zcash Mainnet so a ɛma wɔn tumi nya kwan de yɛ adepa bi a ɛyɛ den paa ne nea wotumi twe kɔ soro ntɛmntɛm ama wɔn ka ho nhyehyɛeɛ. 
 
-Nkɔmmɔbɔ no bi ne sɛ wɔne Gemini bɛyɛ adwuma de atumi ayɛ shielded transactions wɔ wɔn platform so, Flexa ama Zcash mobile payments a ɛnyɛ den wɔ retal mmeae, hardware wallet nnwumakuw te sɛ Keystone ma shielded cold storage of ZEC, Brave for Zcash support wɔ browser no mu, & akuw afoforo a wɔwɔ Zcash ecosystem no mu de nkɔso aba Zcash. 
+## Ayɔnkofa ne fekuw ahorow 
 
-ECC nso yɛ [PGPforCrypto](https://x.com/pgpforcrypto) nhyiamu a ɛtoatoa so a ɛka adwumayɛfoɔ, wɔn a wɔn ani gye ho, ne abenfoɔ a wɔwɔ cryptocurrency ahunmu bom de susuw nkɔsoɔ ho, kyɛ nhumu, na ɛma mpɔtam hɔfoɔ de wɔn ho hyɛ mu. PGPforCrypto yɛ Board Member ne VP of Strategic Alliances wɔ Electric Coin Co, Paul Brigner na odi anim.
+ECC kuo no boa na wɔboa ma Zcash mu nneɛma kɔ so yie, a wɔne wɔn ankasa ne nnipa foforo bom yɛ adwuma daa de bɔ mmɔden sɛ wɔbɛhwɛ ama Zcash nhyehyɛeɛ no akɔ yiye. 
 
-## Nhyehyɛe & Mmarahyɛ
+Partnerships include working with Gemini to enable shielded transactions on their platform, Flexa to enable easy Zcash mobile payments at retal locations, hardware wallet companies like Keystone to enable shielded cold storage of ZEC, Brave for Zcash support in the browser, & other teams in the Zcash ecosystem to bring imrovements to Zcash. 
 
-ECCs nhumu ne akanni a ɛfa nkɔnsɔnkɔnsɔn so kokoamsɛm ne nea ɛkyerɛ ma ankorankoro ne ɔman ahobammɔ ho no som bo yiye ma nhyehyɛeyɛfo. Wɔabɔ mmɔden daa sɛ wɔbɛkyerɛ nhyehyɛe kwan sɛnea ɛfata wɔ baabiara a ɛbɛyɛ yiye fi bere a wɔde ECC sii hɔ no. 
+ECC nso yɛ ɔkwampaefo a ɔde ahantan di dwuma wɔ [PGPforCrypto] mu.](https://x.com/pgpforcrypto) Nhyiam ahorow a wɔbom ma adwumayɛfo, wɔn a wɔwɔ anigye ne abenfo wɔ cryptocurrency mu no ka nkɔso ho asɛm, kyerɛ nsusuɛ ase na ɛhyɛ amanfoɔ nkuran. PGPforCrypto yɛ adwuma sɛ nhyiamu bi a wɔde di dwuma fa Electric Coin Co., Paul Brigner anim.
 
-Nhwɛsoɔ a ɛfa nkɔmmɔdie ho ne nkɔmmɔdie a wɔne Sikasɛm Dwumadie Adwumakuo (FATF) de wɔn ho hyɛɛ nhyiamu ahodoɔ mu a ɛde ahyehyɛdeɛ no nyansahyɛ maeɛ maa cryptocurrency adwumayɛkuo no. Esiane saa mmɔdenbɔ ahorow yi nti Zcash bɛyɛɛ nea New York Mantam Sikasɛm Dwumadibea (NYDFS) a ɛyɛ cryptocurrency biako pɛ a ɛbɔ kokoam nsɛm ho ban a ɛyɛɛ saa no penee so. 
+## Amanyɔ & Nhyehyɛeɛ
 
-## Ahyehyɛde Nhyehyɛe
+ECCs insight and leadership around on-chain privacy and its implications for personal and national security is incredibly valuable for policy makers. Consistent efforts to appropriately guide policy wherever possible have been made since the ECC was founded. 
 
-Electric Coin Company no nyinaa yɛ Bootstrap Project no dea. Bootstrap Project yɛ 501(c)(3) a wɔde ama adesamma nkɔsoɔ denam mfiridwuma, nyansahu mu nnoɔma a wɔhunu, nwomasua ne nnipa nhyehyɛeɛ so. Bootstrap ne Electric Coin Company nyinaa wɔ akwankyerɛfo bagua, na Electric Coin Company nso wɔ Nyansahu mu Afotu Kuw.
+Nhwɛsoɔ a ɛfa nkɔanim ho no bi ne, wɔne Financial Action Task Force (FATF) dii nkɔmmɔ wɔ nhyiamu ahorow mu ma wɔnyaa ahyehyɛde no nkontaabu maa cryptocurrency adwuma. Saa mmɔdenbɔ yi nti na New York Ɔman Sika Dwumadibea (NYDFS), gye toom sɛ Zcash yɛ sika krataa koro pɛ a ɛhwɛ nnipa ahofadi so de di dwuma saa kwan yi so. 
 
-## Sika a wɔde ma
+## Ahyehyɛde no Nhyehyɛe
 
-Wobetumi ahu sika a wɔde ma, sikasɛm a wɔde di dwuma, & nsɛm afoforo a ɛfa ho wɔ Transparency Reports a ɛwɔ wɔn [blog](https://electriccoin.co/blog/).
+Electric Coin Company no yɛ adwuma a ne nyinaa wɔ Bootstrap Project. The Bootstrape Project yε 501c) 3 kuo bi a wɔde wɔn ho hyɛ nnipa nkɔso mu denam mfiridwuma, nyansahu nhwehwɛmu, nhomasua ne nipa ahyehyɛde so.
+
+## Sika a wɔde ma no
+
+Sika a wɔde ma, sika no fa so ne ɛho nsɛm foforo wɔ Transparency Reports [blog] hɔ.](https://electriccoin.co/blog/).

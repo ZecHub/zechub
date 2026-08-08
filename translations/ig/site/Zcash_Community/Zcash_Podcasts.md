@@ -2,17 +2,17 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Podcasts
-Ịchọrọ ịmụtakwu banyere gburugburu ebe obibi Zcash? Nke a bụ ndepụta nke pọdkastị ị nwere ike ịgbaso:
+# Podcasts ndị ọzọ
+Ịchọrọ ịmụtakwu banyere usoro okike Zcash? Nke a bụ ndepụta nke pọdkastị ị nwere ike ịgbaso:
 
 <ul class="podcast-list grid grid-cols-1 imd:grid-cols-2 md:grid-cols-3 gap-6">
 <li>
-<a href="https://www.youtube.com/playlist?list=PL8avDn0zigvoWqj_f7MrO5mx8JhsLY4kT"><img class="podcast-img" src="https://zechub.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc5e5e7d2-f2f7-4db7-815c-adba35a6bb78%2Fzcast.jpg?table=block&amp;id=26031a2e-953b-4f73-ba47-5af17e5b9c20&amp;spaceId=38cc715a-cc23-4f85-9429-2b9e6dd2c3b9&amp;width=40&amp;userId=&amp;cache=v2" alt="" width="40" height="41" />Zcast Podcast Playlist</a>
+<a href="https://www.youtube.com/playlist?list=PL8avDn0zigvoWqj_f7MrO5mx8JhsLY4kT"><img class="podcast-img" src="/content-images/_unavailable.svg" alt="" width="40" height="41" />Zcast Podcast Playlist</a>
 <iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=vG5H6UhCHpS0r546&amp;list=PL8avDn0zigvoWqj_f7MrO5mx8JhsLY4kT" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </li>
 
 <li>
-<a href="https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O"><img class="podcast-img" src="https://zechub.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F21f78eb9-4be4-4aee-90ae-ea499c884b8b%2FScreenshot_2023-02-25_08-08-36.png?table=block&amp;id=b1b24e20-e4ba-47d4-b89e-49b513015d1c&amp;spaceId=38cc715a-cc23-4f85-9429-2b9e6dd2c3b9&amp;width=40&amp;userId=&amp;cache=v2" alt="" width="40" height="41" />The ZecHub Podcast Playlist</a>
+<a href="https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O"><img class="podcast-img" src="/content-images/_unavailable.svg" alt="" width="40" height="41" />The ZecHub Podcast Playlist</a>
 <iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=QE_B4lmB49YseOjy&amp;list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </li>
 
@@ -37,5 +37,5 @@
 </li>
 </ul>
 
-Ọ bụ na anyị na-efu a mma Podcast? Kpọtụrụ anyị na [Discord](https://discord.gg/zcash) anyị ga-agbakwunye ya na ndepụta ahụ.
+Ọ bụrụ na anyị nwere ike ịnye gị ihe ọ bụla, biko kpọtụrụ [Discord] ma gwa m mgbe i mechara.](https://discord.gg/zcash) anyị ga-agbakwunye ya na ndepụta ahụ.
 
