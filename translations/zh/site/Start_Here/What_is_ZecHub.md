@@ -15,7 +15,7 @@ ZecHub 是一个面向 Zcash 的去中心化教育中心。[ZecHub](http://zechu
 
 这些教程、短篇博客和新闻简报都是开源并托管在 GitHub 上的，这意味着社区中的任何人都可以参与贡献。这样做是为了确保内容准确，同时让该渠道本身不受单点故障影响。
 
-如果你是 Zcash 新手，请使用[本指南](/site/Start_Here/New_User_Guide)。****
+如果你是 Zcash 新手，请使用[本指南](/start-here/new-user-guide)。****
 
 ## 如何对 ZecHub 进行更改
 

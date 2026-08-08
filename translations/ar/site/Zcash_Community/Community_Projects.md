@@ -1,264 +1,256 @@
-<a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Community_Projects.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="تحرير الصفحة"/>
-</a>
+---
+# مشاريع المجتمع
 
-## مشاريع مجتمع Zcash
-
-[ZShieldHer](https://zshieldher.com/)
-
- موقع تعليمي عن Zcash للناجيات من العنف المنزلي
-
-[ZECping](https://github.com/emersonian/zecping)
-
-اطّلع على أزمنة استجابة gRPC لعُقد Zcash [Lightwalletd](https://github.com/zcash/lightwalletd).
-
-[Ziggurat](https://github.com/runziggurat/zcash)
-
-Ziggurat هي مجموعة اختبارات للشبكة توفّر لمطوري zcashd و zebra هذا الأساس الموثوق. وتتضمن هذه المجموعة أيضًا [زاحفًا](https://github.com/runziggurat/zcash/tree/main/src/tools/crawler) لـ Zcash.
-
-[Exblo](https://testnet.exblo.app/#/)
-
-مستكشف كتل مصمم خصيصًا لاختبار معاملات التطبيقات على Zcash Testnet. وهو حاليًا قيد التطوير النشط
-
-يوفّر Zcash Block Explorer معلومات مثل بيانات المعاملات / معلومات الكتل / العناوين / كتل Mempool وغيرها. كما يتيح استخدام Viewing Key الخاص بكشف مدفوعات المعاملات.
-
-[Dizzy Wallet](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
-
-Dizzy Wallet هو بوت Discord يوفّر وصولًا سلسًا وآمنًا إلى معاملات Zcash. 
-
-[Frost](https://eprint.iacr.org/2020/852)
-
-يتعاون باحثون في Zcash Foundation على مسودة معلوماتية ضمن IETF حول FROST مع باحثين من University of Waterloo وعدة منظمات أخرى، وهو في طريقه نحو اعتماد أوسع داخل منظومة Zcash وخارجها.
-
-[Free2z](https://free2z.cash)
-
-Free2z هي أداة للمحتوى المجهول والتبرعات الخاصة.
-
-[Ezcash](https://blog.nerdbank.net/ezcash-app)
-
-محفظة Zcash متعددة المنصات سهلة الاستخدام وكاملة الميزات، مع دعم للحماية التلقائية.
-
-[My First Zcash](https://github.com/massadoptionorg/My-First-Zcash)
-
-كتيّب تعليمي أعدّه فريق من صانعي المحتوى والمصممين الجرافيكيين الموهوبين والمتفانين من مختلف أنحاء مجتمع Zcash العالمي.
-
-[Zapp](https://www.justzappit.xyz/)
-
-Zapp هو تطبيق مراسلة يضع الخصوصية أولًا، ويربط دردشات ZEC بالمدفوعات في العالم الحقيقي. [انضم للوصول المبكر](https://www.justzappit.xyz/app)
-
-[Zcash Block Explorer](https://mainnet.zcashexplorer.app/)
-
-مستكشف كتل Zcash مفصل وشامل للغاية من Nighthawk Apps.
-
-[ZECPublish](https://www.zecpublish.com)
-
-ZECPublish هي منصة تواصل اجتماعي مقاومة للرقابة ومدعومة بـ Zcash blockchain. وتتضمن دليلًا لمستخدمي zcash ولوحة رسائل مجهولة مدعومة بـ Zcash.
-
-[ZGo](https://zgo.cash)
-
-ZGo هو سجل نقدي لـ Zcash. يمكّن البائعين والتجار من قبول Zcash. ويجري حاليًا اختبار التطبيق للحصول على ملاحظات عالية الجودة بشأن سهولة الاستخدام وميزات ZGo.
-
-[Zlink](https://zlink.click)
-
-Zlink هو أبسط طريقة للعثور على أي رابط أو أداة أو معلومة تحتاجها حول منظومة Zcash.
-
-[ZK Radio](https://zcashesp.com/zk-radio/)
-
-محطة إذاعية عبر الإنترنت لإعلام مجتمع Zcash وتثقيفه وترفيهه، طوّرها Zcash en Español ونادي ZKAV.
-
-## Zimppy.xyz
-[![شعار Zimppy.xyz](/content-images/og-40771e1849.webp)](https://zimppy.xyz/)
-
-Zimppy هو أسلوب الدفع ببروتوكول Machine Payment Protocol (MPP) الخاص بـ Zcash، والمصمم لوكلاء الذكاء الاصطناعي وسير العمل الآلي بين الآلات. أودِع مرة واحدة على السلسلة، ثم أجرِ عددًا غير محدود من الطلبات الفورية الحاملة دون أي تفاعل مع البلوكشين لكل طلب. يدعم مدفوعات Zcash المحمية بالكامل (Orchard) — إذ تبقى هوية المرسل والمستلم والمبلغ مشفّرة.
-
-[زيارة الموقع](https://zimppy.xyz/) | [صفحة الويكي الكاملة](/using-zcash/zimppy)
+اكتشف الأدوات، والمحافظ، والتطبيقات، والمكتبات، ومبادرات المنظومة التي بناها مجتمع Zcash ومنظومة zero-knowledge الأوسع.
 
 ---
 
-## CipherScan
-[![CipherScan](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
+## التعليم، والإعلام، والمجتمع
 
-CipherScan هو مستكشف Zcash blockchain يضع الخصوصية أولًا. بُني باستخدام Next.js 15 و TypeScript و Rust/WASM، ويتيح للمستخدمين البحث عن الكتل والمعاملات والعناوين دون تسريب بيانات الاستعلام الوصفية. صُمم للمستخدمين الواعين بالخصوصية الذين يحتاجون إلى شفافية البلوكشين دون مراقبة.
+### My First Zcash
+كتيّب تعليمي أنشأه مجتمع Zcash العالمي.  
+[زيارة](https://github.com/massadoptionorg/My-First-Zcash)
 
-[زيارة الموقع](https://cipherscan.app/)
+### ZECPublish
+منصة تواصل اجتماعي مقاومة للرقابة ومدعومة بـ blockchain الخاصة بـ Zcash. تتضمن دليلاً لمستخدمي Zcash ولوحة رسائل مجهولة الهوية.  
+[زيارة](https://www.zecpublish.com)
+
+### ZK Radio
+محطة إذاعية عبر الإنترنت لإعلام مجتمع Zcash وتثقيفه وترفيهه. طُوِّرت بواسطة Zcash en Español وZKAV Club.  
+[زيارة](https://zcashesp.com/zk-radio/)
+
+### ZShieldHer
+موقع تعليمي عن Zcash للناجيات من العنف المنزلي.  
+[زيارة](https://zshieldher.com/)
+
+### ZecForge
+ورشة للمبدعين ضمن منظومة Zcash تركز على الاستيعاب، وتطوير المبدعين، وتوزيع المحتوى.  
+[زيارة](https://x.com/zec_forge)
+
+### Mastering Zcash Video Series
+سلسلة تعليمية شاملة تغطي تقنية Zcash، والتشفير، والاقتصاد، والحوكمة.  
+[زيارة](https://www.youtube.com/watch?v=YWUzh_VtrR8)
+
+### Zcast
+بودكاست Zcash باللغة الإسبانية يتضمن أحدث مستجدات المنظومة.  
+[زيارة](https://www.youtube.com/@ZcastEsp)
+
+### Zero-knowledge Audiovisual Club (ZKAV)
+مجموعة سمعية بصرية تضع الخصوصية أولاً، وتقوم بالتدريب والمشاركة في الإبداع وتقديم دعم سمعي بصري تطوعي لفعاليات مجتمع التقنية مفتوحة المصدر واللامركزية.  
+[زيارة](https://zkav.club/)
+
+### Zcash Network School
+محتوى تعليمي منظّم لمستخدمي Zcash الجدد والمطورين.  
+[المنتدى](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
+
+### Zectastic
+موقع تفاعلي يضم ألعاباً مستوحاة من Zcash وفعاليات مجتمعية مباشرة.  
+[زيارة](https://zectastic.com/)
+
+### Zec App
+تطبيق للهاتف المحمول يجمع أخبار Zcash، ونشاط المجتمع، ومعلومات الشبكة، والمحافظ، ومنصات التداول، وموارد المنظومة في مكان واحد.  
+[المنتدى](https://forum.zcashcommunity.com/t/zec-app-is-coming-soon/56605)
+
+### PGPZ Community
+مركز مجتمعي لـ Pretty Good Policy for Zcash (PGPZ)، وهي مبادرة سياسات في Washington D.C. تركز على النقد الرقمي الحافظ للخصوصية، والامتثال العملي، والدور ذي المصلحة العامة الذي تؤديه Zcash.  
+[زيارة](https://community.pgpz.org/)
 
 ---
 
-## ZcashNames
-[![ZcashNames](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
+## المحافظ وأدوات الدفع
 
-يوفّر ZcashNames أسماءً مقروءة للبشر لعناوين Zcash المحمية. فبدلًا من مشاركة عنوان z طويل، يسجل المستخدمون اسمًا سهل التذكر (مثل `alice.zec`) يُحل إلى Unified Address الخاص بهم. وهذا يسهّل تلقي ZEC بشكل خاص دون كشف العناوين الخام.
+### Cipherpay
+مدفوعات خاصة للإنترنت. غير وصائية، ولا تتطلب KYC. يتلقى التجار ZEC مباشرة إلى عناوين محمية.  
+[زيارة](https://www.cipherpay.app/en)
 
-[زيارة الموقع](https://www.zcashnames.com/)
+### Ezcash
+محفظة Zcash متعددة المنصات وسهلة الاستخدام وكاملة الميزات، مع دعم autoshielding.  
+[زيارة](https://blog.nerdbank.net/ezcash-app)
+
+### Nozy Wallet
+محفظة Zcash تركّز على Orchard ومبنية لـ Zebrad، وتدعم المعاملات المحمية بالكامل وإدارة المفاتيح الآمنة.  
+[زيارة](https://github.com/LEONINE-DAO/Nozy-wallet)
+
+### Overpay.com
+بوابة دفع تتيح للمستخدمين إنفاق ZEC المحمية على مشتريات من العالم الحقيقي (حالياً في مرحلة alpha).  
+[زيارة](https://overpay.com)
+
+### Zafu Wallet
+محفظة خصوصية مفتوحة المصدر لـ Zcash وPenumbra. إضافة متصفح تتضمن الإثبات على جهة العميل، وبنية light-client موثقة، والتوقيع البارد، وFROST multisig، وعدم خروج مفتاح العرض من الجهاز.  
+[زيارة](https://chromewebstore.google.com/detail/zafu-wallet-beta/bhlogefpcebekhjpomlodifcelldoimn)
+
+### ZGo
+سجل Zcash يمكّن البائعين والتجار من قبول مدفوعات Zcash.  
+[زيارة](https://zgo.cash)
+
+### Zimppy
+بروتوكول Machine Payment Protocol (MPP) لـ Zcash. صُمم لوكلاء AI ولسير العمل الآلي بين الآلات. يدعم مدفوعات Orchard المحمية بالكامل.  
+[زيارة](https://zimppy.xyz/)
+
+### Dizzy Wallet
+بوت Discord يوفّر وصولاً سلساً وآمناً إلى معاملات Zcash.  
+[زيارة](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
+
+### ZODL
+محفظة Zcash الرائدة من Shielded Labs (المعروفة سابقاً باسم Zashi). متاحة على iOS وAndroid. تدعم ZEC المحمية وتصويت مالكي العملات في NU7.  
+[زيارة](https://zodl.app/)
+
+### Noir Wallet
+محفظة Zcash تركّز على الخصوصية ومصممة لمعاملات ZEC بسيطة وخاصة.  
+[المنتدى](https://forum.zcashcommunity.com/t/first-look-at-noir-wallet/55667)
+
+### ZecVault
+محفظة ادخار قائمة على الأهداف ومبنية على معاملات Zcash المحمية.  
+[المنتدى](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
+
+### Zkool
+الخليفة لـ Ywallet ويدعم أحدث ميزات بروتوكول Zcash بما في ذلك Orchard.  
+[المنتدى](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
+
+### MonteZecret
+محفظة سطح مكتب خفيفة تجريبية لـ Zcash مكتوبة بلغة Rust.  
+[المنتدى](https://forum.zcashcommunity.com/t/montezecret-a-desktop-wallet-for-zcash-in-rust-instead-of-tweets/56164)
+
+### Gem Wallet
+محفظة متعددة السلاسل، مفتوحة المصدر، وذاتية الوصاية تدعم إرسال ZEC واستقباله ومبادلته.  
+[زيارة](https://gemwallet.com/)
+
+### TIPZ
+منصة tipping مباشرة وغير وصائية تصل فيها كل إكرامية على شكل ZEC محمية. تدعم on-ramps متعددة السلاسل عبر NEAR Intents.  
+[زيارة](https://tipz.cash/)
 
 ---
 
-## Cypherpunk
+## المستكشفات والبيانات ولوحات معلومات الشبكة
 
-شركة مكرسة للخصوصية والسيادة الذاتية وقيم cypherpunk. تبني أدوات للأفراد الذين يحتاجون إلى حماية حياتهم الرقمية.
+### CipherScan
+مستكشف Zcash blockchain يضع الخصوصية أولاً. مبني باستخدام Next.js 15 وTypeScript وRust/WASM. لا تؤدي عمليات البحث إلى تسريب بيانات الاستعلام الوصفية.  
+[زيارة](https://cipherscan.app/)
 
-[زيارة الموقع](https://cypherpunk.com/)
+### Exblo
+مستكشف كتل مصمم لاختبار المعاملات على Zcash Testnet.  
+[زيارة](https://testnet.exblo.app/)
+
+### OpenZcash
+لوحة شفافية عامة لصندوق تطوير Zcash، تشمل محاسبة منح ZCG وFPF، وLockbox، والحوكمة، والمدفوعات.  
+[زيارة](https://openzcash.org/)
+
+### Zcash Block Explorer
+مستكشف كتل شامل لـ Zcash من Nighthawk Apps.  
+[زيارة](https://mainnet.zcashexplorer.app/)
+
+### Zcash.Space
+محلل Zcash Unified Address قائم على المتصفح لفحص Unified Addresses.  
+[زيارة](https://zcash.space/)
+
+### ZecMap
+خريطة عالمية للشركات والمواقع التي تقبل Zcash.  
+[زيارة](https://zecmap.com/)
+
+### ZECping
+أداة للتحقق من أزمنة استجابة gRPC لعقد lightwalletd الخاصة بـ Zcash.  
+[زيارة](https://github.com/emersonian/zecping)
+
+### ZecStats
+لوحة معلومات لإحصاءات شبكة Zcash في الوقت الفعلي ومقاييس shielding.  
+[زيارة](https://zecstats.com)
+
+### zecprice
+أداة تتبع وقياس بيانات لأداء سعر Zcash في السوق.  
+[زيارة](https://zecprice.com)
+
+### Zlink
+دليل للعثور على الروابط والأدوات والمعلومات حول منظومة Zcash.  
+[زيارة](https://zlink.click)
 
 ---
 
-## Cipherpay
-[![Cipherpay](/content-images/logo-mark-b8d7c702b0.webp)](https://www.cipherpay.app/en)
+## الهوية والأسماء وتجربة المستخدم
 
-CipherPay يتيح مدفوعات خاصة للإنترنت. اقبل Zcash في دقائق — دون وصاية، ومن دون الحاجة إلى KYC. يتلقى التجار ZEC مباشرة إلى عناوين محمية، بما يحمي الخصوصية المالية لكل من المشتري والبائع.
+### ZcashNames
+أسماء مقروءة للبشر لعناوين Zcash المحمية (على سبيل المثال، يتم حل `alice.zec` إلى Unified Address).  
+[زيارة](https://www.zcashnames.com/)
 
-[زيارة الموقع](https://www.cipherpay.app/en)
+### Zapp / JustZappIt
+تطبيق مراسلة يضع الخصوصية أولاً ويربط محادثات ZEC بالمدفوعات في العالم الحقيقي.  
+[زيارة](https://www.justzappit.xyz/)
 
-## Cipherscan
-[![Cipherscan](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
+### Zentat
+إضافة متصفح تحوّل أسعار العملات الورقية إلى ZEC في الوقت الفعلي أثناء تصفحك الويب.  
+[زيارة](https://chromewebstore.google.com/detail/zentat/lpndbahladndclecodadoljlplfaldac)
 
-مستكشف Zcash Blockchain 🛡️ فكّ شفرة البلوكشين. حيث تلتقي الخصوصية بالشفافية.
-[زيارة الموقع](https://cipherscan.app/)
+### Shielded Wall
+منصة اعترافات مجهولة الهوية مدعومة بخصوصية Zcash.  
+[زيارة](https://shieldedwall.org/)
 
-## ZcashNames
-[![ZcashNames](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
+### Ztrash
+صندوق بريد إلكتروني مؤقت يُدفع مقابله باستخدام ZEC المحمية.  
+[زيارة](https://ztrash.com/)
 
-أسماء شخصية
-لـ
-العناوين المحمية. الاسم وحده كل ما تحتاجه للتعامل بخصوصية.
+---
 
-[زيارة الموقع](https://www.zcashnames.com/)
+## التطوير والاختبار والبنية التحتية
 
-## Zero-knowledge Audiovisual Club
-[![Zero-knowledge Audiovisual Club](/content-images/images-563ef94ac0.webp)](https://zkav.club/#additional-reading)
+### Ziggurat
+حزمة اختبارات للشبكة لمطوري zcashd وZebra. تتضمن زاحفاً لـ Zcash.  
+[زيارة](https://github.com/runziggurat/zcash)
 
-تجمّع سمعي بصري (AV) يضع الخصوصية أولًا لمجتمعات التقنية مفتوحة المصدر واللامركزية. نقوم بالتدريب والمشاركة في الإبداع وتشغيل دعم AV التطوعي في فعاليات المجتمع.
+### ZecDev
+حزمة أدوات تركز على Linux وتُنشئ شبكة Zebra regtest مع faucet، وعينات Unified Address، وlightwalletd أو Zaino، بالإضافة إلى GitHub Actions قابلة لإعادة الاستخدام لتدفقات end-to-end المحمية.  
+[زيارة](https://github.com/zecdev)
 
-[زيارة الموقع](https://zkav.club/#additional-reading)
+### Zebra Coverage-Guided Fuzzing Infrastructure
+اختبار منهجي لمكوّنات التحليل، والشبكات، والتشفير في Zebra في مواجهة المدخلات المشوهة.  
+[المنتدى](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/234)
 
-## Shielded Labs
-[![Shielded Labs](/content-images/68747470733a2f2f736869656c6465646c616273-e449ae6540.webp)](https://shieldedlabs.net/)
+### Frost
+عمل على مخطط التوقيع الحدّي (FROST) يجري تطويره من أجل تبنٍ أوسع في منظومة Zcash.  
+[الورقة](https://eprint.iacr.org/2020/852)
 
-Shielded Labs هي منظمة مستقلة لدعم Zcash مقرها سويسرا وتموَّل بالتبرعات. وهي أول منظمة في منظومة Zcash لم تتلقَّ تمويلًا مباشرًا أو غير مباشر من Development Fund أو من مكافآت الكتل.
+### MonteZcret Benchmark
+مشروع مفتوح المصدر لاختبار الأداء يقيّم طرقاً مختلفة لمزامنة بيانات Zcash blockchain.  
+[زيارة](https://github.com/openkoder/benchmarks_zcash/)
 
-[زيارة الموقع](https://shieldedlabs.net/)
+---
 
-## JustZappIt
+## تطبيقات أوسع تستخدم Zcash
 
-JustZappIt هو تطبيق مراسلة خاص لنظامي iOS و Android. وسيتم قريبًا دعم إرسال Zcash (ZEC) داخل الدردشة، وستستخدم محفظة خارجية مثل ZODL لإرسال ZEC إلى جهات الاتصال مباشرة داخل المحادثة. لا حاجة إلى KYC. ولا وسطاء.
+### aftok
+نموذج لتنظيم الأعمال التعاونية من القاعدة إلى القمة مبني على Zcash.  
+[زيارة](https://aftok.com)
 
-[زيارة الموقع](https://www.justzappit.xyz/)
-[زيارة Github](https://github.com/JustZappIt/justZappIt/tree/main)
+### ZK Global Credit
+بنية ائتمان وتصويت أصلية لـ Zcash من أجل الإفصاح الانتقائي، والاستعداد للتسوية، والسمعة العابرة للحدود، والحوكمة المحمية.  
+[زيارة](https://voting.zkglobalcredit.tech/)
 
-##  سلسلة فيديوهات Mastering Zcash 
+### Free2z
+أداة لإنشاء المحتوى المجهول والتبرعات الخاصة، مدعومة بـ Zcash.  
+[زيارة](https://free2z.cash)
 
-تُعد سلسلة فيديوهات Mastering Zcash واحدة من أكثر المواد التعليمية شمولًا حول Zcash، إذ تغطي تقنيته وتشفيره واقتصاده وحوكمته.
+### Rhea Finance
+بوابة Zcash توفّر محفظة متصفح ووصولاً إلى DeFi متعدد السلاسل.  
+[المنتدى](https://forum.zcashcommunity.com/t/rhea-finance-zcash-gateway-browser-wallet-cross-chain-defi/55073)
 
-[زيارة الموقع](https://www.youtube.com/watch?v=YWUzh_VtrR8)
-[زيارة Github](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/263)
+### BazaarSwap
+منصة DEX أصلية لـ Zcash تُدخل ZEC المحمية إلى Web3 DeFi عبر WalletConnect.  
+[المنتدى](https://forum.zcashcommunity.com/t/introducing-bazaarswap-bringing-zec-to-web3-defi/55479)
 
-##  Zcast
+### DCRDEX
+المنصة اللامركزية التابعة لـ Decred والتي تدعم Zcash.  
+[زيارة](https://dex.decred.org)
 
-Zcast هو بودكاست Zcash باللغة الإسبانية، حيث يمكنك العثور على أحدث المعلومات المحدّثة عن Zcash.
+### Brave Wallet
+محفظة متصفح تدعم Zcash.  
+[زيارة](https://brave.com/wallet/)
 
-[زيارة الموقع](https://www.youtube.com/@ZcastEsp)
+---
 
-## البنية التحتية للاختبار الموجّه بالتغطية لـ Zebra
+## المنظمات والمختبرات
 
-تركّز البنية التحتية للاختبار الموجّه بالتغطية لـ Zebra على الاختبار المنهجي للمكونات الحرجة في Zebra الخاصة بالتحليل، والشبكات، والتشفير، في مواجهة المدخلات غير السليمة، بما يتيح اكتشافًا مستمرًا وآليًا للثغرات الأمنية والأخطاء الحدّية.
+### Shielded Labs
+منظمة مستقلة لدعم Zcash مقرها سويسرا وتموَّل بالتبرعات. وهي أول منظمة في المنظومة لم تتلقَّ قط تمويلاً من صندوق التطوير أو من مكافآت الكتل.  
+[زيارة](https://shieldedlabs.net/)
 
-[زيارة الموقع](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/234)
-
-## ZecDev
-
-ZecDev Launchpad هي مجموعة أدوات تضع Linux أولًا، وتقوم بإعداد شبكة Zebra regtest مع faucet وتجهيزات Unified Address وخيارك بين lightwalletd أو Zaino، بالإضافة إلى GitHub Action قابلة لإعادة الاستخدام تُشغّل تدفقات shielded شاملة ومرجعية على كل pull request. وهي تسد فجوة حرجة مع إيقاف zcashd، من خلال منح كل محفظة و SDK وخدمة مسارًا سريعًا قابلًا للتكرار للتطوير المحلي و CI يلتقط الأعطال قبل أن يكتشفها المستخدمون.
-
-[زيارة الموقع](https://github.com/zecdev)
-
-## TIPZ
-
-TIPZ هي منصة إكراميات مباشرة وغير وصائية، تصل فيها كل إكرامية على شكل ZEC محمي. وتُدمج مدفوعات ZEC إلى ZEC الخاصة بالكامل عبر ZODL، إلى جانب مسارات دخول عبر سلاسل متعددة من ETH و USDC و USDT و SOL من خلال NEAR Intents.
-
-[زيارة الموقع](https://tipz.cash/)
-[زيارة Github](https://github.com/tipz-cash/tipz.cash)
-
-## Zectastic.com
-
-Zectastic.com هو أطلق صاروخ Zcash، والعب لعبة الذاكرة، وتابع حفلة flippening المباشرة
-
-[زيارة الموقع](https://zectastic.com/)
-
-## Zecmap
-
-Zecmap هي الخريطة العالمية للأعمال التي تقبل Zcash. اكتشف الأماكن التي تدعم المدفوعات المرتكزة على الخصوصية، وتحقق منها، وساهم فيها.
-
-[زيارة الموقع](https://zecmap.com/)
-
-
-## ZODL
-
-[![ZODL](https://github.com/Electric-Coin-Company/zashi-android/blob/main/assets/logos/Zashi_Logo_green_lg.png?raw=true)](https://zodl.app/)
-
-ZODL (المعروفة سابقًا باسم Zashi) هي محفظة Zcash الرائدة من Shielded Labs. وهي متاحة على iOS و Android، وتوفّر تجربة بسيطة وأنيقة لإرسال واستقبال ZEC المحمي. كما تتيح [تصويت حاملي العملات NU7](https://forum.zcashcommunity.com/t/nu7-sentiment-polling-questions-for-community-review-coinholder-voting-via-zodl/55713) لحوكمة البروتوكول.
-
-[زيارة الموقع](https://zodl.app/)
-
-## Overpay.com
-
-يتيح Overpay.com إنفاق ZEC في أي مكان — عبر تحويل ZEC المحمي إلى مشتريات من العالم الحقيقي. وهو حاليًا في مرحلة alpha.
-
-[إعلان المنتدى](https://forum.zcashcommunity.com/t/introducing-overpay-com-spend-zec-anywhere-alpha/54798)
-
-## Noir Wallet
-
-Noir Wallet هي محفظة Zcash جديدة تركّز على الخصوصية، كُشف عنها في مايو 2026، ومصممة لمعاملات ZEC بسيطة وخاصة.
-
-[سلسلة الانطباع الأول](https://forum.zcashcommunity.com/t/first-look-at-noir-wallet/55667)
-
-## ZecVault
-
-ZecVault هي محفظة ادخار قائمة على الأهداف ومبنية على معاملات Zcash المحمية. حدّد أهداف الادخار، وتتبع التقدم، وحقق الإنجازات المالية — وكل ذلك مع خصوصية كاملة.
-
-[نقاش المنتدى](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
-
-## Rhea Finance
-
-Rhea Finance هي بوابة Zcash توفّر محفظة متصفح ووصولًا إلى DeFi عبر السلاسل. وهي تربط حاملي ZEC بمنظومة DeFi الأوسع.
-
-[نقاش المنتدى](https://forum.zcashcommunity.com/t/rhea-finance-zcash-gateway-browser-wallet-cross-chain-defi/55073)
-
-## BazaarSwap
-
-BazaarSwap تجلب ZEC إلى Web3 DeFi من خلال DEX أصلي لـ Zcash. وهي تدمج WalletConnect v2 وتتيح عمليات المبادلة اللامركزية باستخدام ZEC المحمي.
-
-[نقاش المنتدى](https://forum.zcashcommunity.com/t/introducing-bazaarswap-bringing-zec-to-web3-defi/55479)
-
-## Zkool
-
-Zkool هو الخليفة لـ Ywallet، ويدعم أحدث ميزات بروتوكول Zcash بما في ذلك معاملات Orchard المحمية.
-
-[نقاش المنتدى](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
-
-## مدرسة شبكة Zcash
-
-توفّر مدرسة شبكة Zcash محتوى تعليميًا منظمًا لمستخدمي Zcash الجدد والمطورين.
-
-[نقاش المنتدى](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
-
-___
-
-## التطبيقات التي تستخدم Zcash
-
-[aftok](https://aftok.com)
-
-aftok هو نوع جديد جذريًا من تنظيم الأعمال التعاوني القاعدي. إنه وسيلة لك ولبعض الأصدقاء الموثوقين لبناء الأشياء معًا والحصول على مقابل لجهودكم، دون التسلسل الهرمي أو الأعباء العامة للشركة التقليدية.
-
-[Atomic DEX](https://atomicdex.io/en/)
-
-AtomicDEX هو محفظة متعددة العملات، وجسر، و DEX مدمجة كلها في تطبيق واحد. تتوفر منه نسخ للجوال وسطح المكتب.
-
-[Brave Wallet](https://brave.com/es/wallet/)
-
-محفظة عملات رقمية آمنة مدمجة مباشرة في Brave Browser وتدعم معاملات Zcash الشفافة.
-
-[DCRDEX](https://dex.decred.org)
-
-DCRDEX هي منصة تداول لامركزية بناها مشروع Decred. عميل سطح مكتب فقط.
-
-[استطلاع حاملي Zcash](https://forum.zcashcommunity.com/t/coin-holder-polling-instructions/40170)
-
-طريقة جرى من خلالها إجراء تصويت مرجّح بالعملات على Zcash blockchain باستخدام T-addresses وبتنظيم عبر منتدى المجتمع.
+### Cypherpunk
+شركة مكرسة للخصوصية، والسيادة الذاتية، وقيم cypherpunk. تبني أدوات للأفراد الذين يحتاجون إلى حماية حياتهم الرقمية.  
+[زيارة](https://cypherpunk.com/)

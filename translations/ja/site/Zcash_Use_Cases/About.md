@@ -30,14 +30,14 @@ Zcashは理論的なプライバシーだけでなく、**実用的で日常的�
 ### [身分情報をリンクせずに送金する](/zcash-use-cases/send-money-without-linking-identity) 
 資金を送金する際に、ウォレット、身分情報、またはトランザクショングラフを暴露しない方法を学びます。
 
-### [フリーランサー向けプライバシー設定](/zcash-use-cases/freelancer-privacy-setup)  
-Zcashで支払いを受けながら、顧客や収入情報をプライベートに保つ方法を学びます。
+### [フリーランサー向けプライバシー設定](/zcash-use-cases/freelance-privacy-setup)  
+Zcashで支払いを受けながら、顧客や収入をプライベートに保ちます。
 
-### [店舗として支払いを受け取る](/zcash-use-cases/accept-payment-as-a-merchant)  
-シールドされたアドレスを使用して支払いを受け取り、顧客のトランザクションデータを暴露しない方法を学びます。
+### [店舗として支払いを受け取る](/zcash-use-cases/accept-payments-as-a-merchant)  
+シールドされたアドレスを使用して支払いを受け取り、顧客のトランザクションデータを暴露しないようにします。
 
-### [プライベートなコミュニティ財産を運用する](/zcash-use-cases/run-a-private-community-treasury)
-共有資金を保持するためにシールドされたアドレスを使用し、残高や取引の可視性を最小限に抑える方法を学びます。
+###  [プライベートなコミュニティ財産を運用する](/zcash-use-cases/private-community-treasury)
+共有資金を保持するためにシールドされたアドレスを使用し、残高や取引の可視性を制限します。
 
 ### [ジャーナリスト向けプライバシー設定](/zcash-use-cases/journalist-privacy-setup)   
 すべてのトランザクションでシールドされたアドレスを使用し、追跡可能な支払いを避けて情報源を保護する方法を学びます。セキュアなコミュニケーションのためにメモは慎重に使用してください。

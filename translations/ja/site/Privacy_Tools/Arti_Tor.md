@@ -1,7 +1,7 @@
-![Torロゴ](https://gitlab.torproject.org/uploads/-/system/appearance/header_logo/1/purple.svg)
+![Torロゴ](/content-images/_unavailable.svg)
 
 # **Arti: Rustで構築された次世代のTorクライアント**
-![Atri ロゴ](https://gitlab.torproject.org/uploads/-/system/project/avatar/647/sliced-onions.png)
+![Atri ロゴ](/content-images/_unavailable.svg)
 
 **Arti**は、**Torプロジェクト**が**Rust**プログラミング言語を使用して構築する次世代の**Tor**クライアントを開発するためのイニシアチブです。**Arti**はモジュール式で埋め込み可能であり、本番環境での使用に適しており、**Tor**匿名プロトコルをより安全かつ効率的に実装しています。**Artiバージョン1.4.0**では、以下の重要なアップデートが導入されています：
 

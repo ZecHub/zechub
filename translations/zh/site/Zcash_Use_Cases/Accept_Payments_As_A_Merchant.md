@@ -135,5 +135,5 @@ Zcash 可实现：
 
 ## 下一步
 
-- [运行一个私密社区金库](/use-cases/private-community-treasury)
+- [运行一个私密社区金库](/zcash-use-cases/private-community-treasury)
 <br/>

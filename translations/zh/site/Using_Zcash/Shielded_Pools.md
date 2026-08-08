@@ -56,7 +56,7 @@ Orchard 通过减少交易元数据泄露，并引入一种基于 Actions 而非
 
 如今，Orchard 仍然是 Zcash 的主要屏蔽池。不过，社区正在评估未来迁移到一个名为 Ironwood 的新屏蔽池，该池将在保留 Zcash 隐私保障的同时，为屏蔽 ZEC 供应的完整性提供额外保证。
 
-[Zcash 屏蔽钱包](/site/Using_Zcash/Wallets) 现已支持 Orchard。 
+[Zcash 屏蔽钱包](/wallets) 现已支持 Orchard。
 
 ____
 

@@ -125,5 +125,5 @@ Zcash는 다음과 같은 기능을 제공합니다:
 
 ## 다음 단계
 
-- [비공개 커뮤니티 금고 운영하기](/use-cases/private-community-treasury)
+- [비공개 커뮤니티 금고 운영하기](/zcash-use-cases/private-community-treasury)
 <br/>

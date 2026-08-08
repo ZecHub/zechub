@@ -9,7 +9,7 @@
 ### [Binance](https://binance.com)
 
 <a href="https://binance.com">
-    <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png" alt="Binance 로고" width="200" height="100"/>
+    <img src="/content-images/_unavailable.svg" alt="Binance Logo" width="200" height="100"/>
 </a>
 
 - 웹사이트: [Binance](https://binance.com)
@@ -21,7 +21,7 @@ ___
 ### [BitcoinVN](https://bitcoinvn.io)
 
 <a href="https://bitcoinvn.io">
-    <img src="https://bitcoinvn.io/img/bitcoinvn-logo.png" alt="BitcoinVN 로고" width="200" height="100"/>
+    <img src="/content-images/_unavailable.svg" alt="BitcoinVN 로고" width="200" height="100"/>
 </a>
 
 - 웹사이트: [BitcoinVN](https://bitcoinvn.io)
@@ -69,7 +69,7 @@ ___
 ### [Huobi](https://huobi.com)
 
 <a href="https://huobi.com">
-    <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi 로고" width="200" height="100"/>
+    <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
 - 웹사이트: [Huobi](https://huobi.com)
