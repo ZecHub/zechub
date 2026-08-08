@@ -1,5 +1,5 @@
 ---
-wotintimii: 2024-01-12 
+wɔatintim: 2024-01-12 
 ---
 
 <a href="https://github.com/zechub/zechub/edit/main/site/Research/ZK_Shielded_Asset_Platforms.md" target="_blank">
@@ -7,93 +7,93 @@ wotintimii: 2024-01-12
 </a>
 
 
-# Zero Nimdeɛ Agyapadeɛ Nhyiamu
+# Zero Knowledge Asset Platforms (Nɔhalɛ Nrɛlɛbɛ Mɔɔ Ɛnle Nu)
 
 
 
-**[Firn Nsɛm a Wɔahyehyɛ](https://app.firn.cash/)**: Firn yɛ kokoamsɛm a edi kan koraa a nimdeɛ nnim wɔ akontaabu so nhwɛso no mu, na ɛde kokoamsɛm a wotumi de plug, a ɛyɛ mmerɛw ba Ethereum-gyina nkɔnsɔnkɔnsɔn so.Using zero-nimdeɛ adansedi, Firn de sika kokoamsɛm a ahobammɔ wom, etu mpɔn ma wɔn a wɔde Ethereum ne Ethereum-gyina L2s di dwuma. **SƐNEA ƐYƐ ADWUMA?**
-Sɛ wode Firn bedi dwuma a, fa ETH gu protocol no mu. Sɛ wonya Firn balance wie a, wobɛtumi de sika akɔma Firn dwumadiefoɔ foforɔ wɔ kokoam, anaasɛ wode wo ho ahyɛ protocol foforɔ mu, te sɛ Uniswap. Wubetumi nso ayi sika afi kokoam asan akɔ netɛw no mu. Firn gye sika ketewaa bi, a ɛyɛ 0.79%, wɔ ETH nyinaa a wɔtwetwe no ho. Wɔde saa sika yi ma wɔn a wɔwɔ FIRN Token - [Whitepaper](https://firn.cash/whitepaper.pdf) 
+*[Mfirinhyia a ɛtoso mmienu ne baako mu nsԑm]](https://app.firn.cash/)Firn yɛ ade a edi kan koraa wɔ account-based model mu, na ɛde pluggable, flexible privacy to Ethereum chains. Ɛde zero-knowledge proofs di dwuma no, firn de sika ho ahobammɔ ma wɔn a wɔde ethereum ne L2s a ɛgyina ethereums so no. **ƐYƐ DEN?**
+Sɛ wore fa Firn adi dwuma a, di ETH ho sika wɔ protocol no mu. Wonya Firn balance bi wie aa wobɛtumi de wo funds akɔma afoforo anaa wode w'ade aka Uniswap so. Wobetumi nso ayi wo sika asan aba network no mu bio. Firn gye ka ketewa bi te sɛ 0.79% firi ETH nyinaa a woyi fi ne hɔ no so. Saa ɛka yi na wɔde ma wɔn a wɔwɔ FIRN Token - [Whitepaper]](https://firn.cash/whitepaper.pdf) 
 
 
-**[RAILGUN AKWANKYERƐ](https://railgun.org/):** Sɛ́ layer-1 nyansa apam,Railgun wɔ hɔ sɛ ɛbɛyɛ Private transfers ne DeFi infrastructure esiane ne ba a ɛwɔ hɔ no ma Ethereum, Polygon, Binance Smart Chain, ne Arbitrum.
-Setup wo non-custodial RAILGUN Wallet, Shield biara ERC-20 token wɔ 0zk address a wopɛ, Sɛ wɔbɔ ho ban wie a, tokens, balances, ne transactions yɛ encrypted - [Whitepaper](https://docs.railgun.org/wiki) 
+**[Aban a wɔhyehyɛ no fa akodeɛ ho]](https://railgun.org/) Sɛ layer-1 smart contract, Railgun wɔ hɔ sɛ Private transfers ne DeFi mfitiaseɛ a ɛwɔ Ethereum, Polygon, Binance Smart Chain, ɛne Arbitrum.
+Sete wo RAILGUN Wallet a wonfa nto hɔ, Bɔ ERC-20 tokens biara ho ban wɔ 0zk address bi a wopԑ mu. Sɛ w'abɔ no ho ban wie a, wɔde tokens, nkaeemu ne nsesaeɛ nyinaa bɛhyɛ ntankɛseɛ - [Whitepaper]](https://docs.railgun.org/wiki) 
 
 
-**[StarkEX na ɔkyerɛwee](https://starkware.co/starkex/):** Layer-2 scalability engine, a ɛte ase wɔ Ethereum Mainnet so. Wɔde nnwuma no batched off-chain na wɔde kɔ StarEX services so. StarEX di nnwuma ho adanse na wɔyɛ sika a ɛka ho a ɛfa ho no foforo;ɛma STARK adanse a egyina asɛm no mu nokware so. An on-chain verifier smart contracts gye na ɛkyerɛ sɛ STARK adanse no yɛ nokware - [Whitepaper](https://docs.starkware.co/starkex-v4/)
+*[StarkEX] no no no](https://starkware.co/starkex/):** A Layer-2 scalability engine, live on Ethereum Mainnet. Transactions are batched off-chain and sent to StarEX services. StarEX validates transactions and relevant balances are updated; it generates STARK proofs based on the validity of the transaction. An on-chain verifier smart contracts receive and verify the STAR K Proof - [Whitepaper] (Ɔwɔ hɔ wɔ aberɛ a wɔde yɛ adwuma no mu)](https://docs.starkware.co/starkex-v4/)
 
 
-**[Manta Nkitahodi](https://www.manta.network/):** On-Chain Privacy ma Wɛb 3, DeFi ne nea ɛkeka ho.  Manta Atlantic, ZK L1 nkɔnsɔnkɔnsɔn a ɛyɛ ntɛm sen biara no, de kokoamsɛm a wotumi yɛ ho nhyehyɛe ba web3 so denam nkɔnsɔnkɔnsɔn no so kokoamsɛm ne nipasu a ɛne mmara hyia so. $MANTA wɔ fixed supply a ɛyɛ 1,000,000,000 a enni nhyehyɛe biara a ɛbɛma nneɛma bo akɔ soro. $MANTA tokens no bɛhyew no ara bere a wɔagye no ara pɛ - [Whitepaper](https://docs.manta.network/) 
+**[Manta Network] Manteɛ a ɛwɔ hɔ no so.](https://www.manta.network/)Manta Atlantic, a ɔyɛ ZK L1 chain no mu nea ɛkyɛn biara de programmatible privacy ba web3 so denam on-chain ahobanbɔ ne ahoni ho. $MANTA wɔ 1,000,000,000 bi a wɔde ma bere nyinaa na ɛnni sikasɛm nhyehyɛe. Wɔbɛhyew $MANTa tokens no afidie ara pɛ sɛ wonya di dwuma - [Whitepaper]](https://docs.manta.network/) 
 
-**[Boltz na ɔkyerɛwee](https://boltz.exchange/):** Boltz yɛ Layer 2 ano aduru. Boltz yɛ kokoamsɛm-di kan, ɛnyɛ custodial bitcoin exchange a wɔasi sɛ bridge ahodoɔ layers of Bitcoin te sɛ nsuo ne anyinam ntam nkitahodi. Boltz, users betumi seamlessly seamlessly wɔn bitcoin ntam layers. Boltz Swaps yɛ non-custodial, a ɛkyerɛ sɛ wɔn a wɔde di dwuma no betumi anya awerɛhyem bere nyinaa sɛ wɔbɛdi wɔn bitcoin so koraa wɔ swap bi a ɛsen nyinaa mu [Whitepaper](https://docs.boltz.exchange/en/latest/) 
-
-
-**[ShadeProtocol a ɛwɔ hɔ](https://shadeprotocol.io/)**: Shade Protocol yɛ layer-2 nhyehyɛe a ɛwɔ nkitahodi a ɛkora kokoamsɛm so DeFi aplikeshɔn a wɔasi wɔ Secret Network so. Saa dwumadie titire yi ne stablecoins, nnisoɔ, bonds, staking derivatives, insurance, synthetics, boseabɔ, DEXs, ne nea ɛkeka ho - [Whitepaper].
-
-**[PantherProtocol a wɔde yɛ adwuma](https://www.pantherprotocol.io/)**: Nimdeɛ zero, cross-protocol layer a ɛbɔ wo on-chain data ho ban na ɛma DeFi kwan a ɛne mmara hyia no tumi yɛ adwuma. **Sɛnea ɛyɛ adwuma?** Fa w’agyapade to Panther mu na fa 1:1 collateralized shielded assets a wɔfrɛ no zAssets nni dwuma. Fa agyapade ahorow pii sie Panther Pools mu, bere a wode adanse a wonni nimdeɛ biara bɔ wo on-chain data ho ban. Ɛnam sɛ Layer-1 ne 2 blockchains pii, a wɔn nyinaa de gyinapɛn ahodoɔ, adwene, ne akwan ahodoɔ ho nyansahyɛ ma nti, Panther bɔ infrastructure a ɛbɛka wɔn abom wɔ kokoam, sene sɛ ɔbɛhwɛ kwan sɛ wɔn mu baako bɛgye biribiara. - [Nkrataa fitaa](https://docs.pantherprotocol.io/) 
+**[Boltz]](https://boltz.exchange/)Boltz yɛ Layer 2 ano aduru.Boltz yε ahobammɔ-kan, non-custodial bitcoin exchange a wͻasi no sε wobetu Bitcoin afã horow te sɛ liquid ne lightning network so kwan.Wᴐn bƆltz mu no, wotumi de wɔn bitcoins sesa wɔ afa ahorow ntam.Boltz swaps nyɛ custodial, na ɛkyerɛ sɛ wobetumi ama amanfo anya awerɛhyem bere nyinaa sɛ wɔwɔ wɔn bitcoin ho tumi koraa wɔ nsesaeԑ biara ase [Whitepaper]](https://docs.boltz.exchange/en/latest/) 
 
 
-**[Sienna Nkitahodibea](https://sienna.network/)**: Sienna.network yɛ kokoamsɛm-di kan decentralized open source frontend a wubetumi ne swap ne boseabɔ apam ahorow adi nkitaho wɔ Secret Network nkɔnsɔnkɔnsɔn no so. Nya aba denam kokoam token ahorow a wode bɛma afoforo ma wɔabɔ bosea no so, anaasɛ fa token ahorow bosea denam nneɛma a wode bɛma atia collateral so. Guadidan a wɔrefi ase ne sBTC, sETH, sSCRT, sXMR, sLUNA, sUST, sUSDT, sUSDC ne nea ɛkeka ho. Wɔyɛɛ Sienna Network (Layer-2 protocol) no. SiennaLend yɛ kokoam boseabɔ nhyehyɛe a edi kan a ɛma kokoam boseabɔ tumi ma blockchain abɔde a nkwa wom nhyehyɛe ahorow pii bere a wokura wo kokoam nsɛm mu. Ɛnyɛ nea wɔma ho kwan na enni ahwehwɛde biara a ɛbɛma woakyerɛw wo din, enni anohyeto biara wɔ sika a wode bɛto hɔ ho, ɛnyɛ ɔman a ɛwɔ mfinimfini a ɛbɛma wo akontaabu no ayɛ nwini, na SIENNA nniso agyiraehyɛde - **Asset Swap**: Yiw - [Whitepaper](https://sienna.network/whitepaper/) - ![Sienna Ahyɛnsodeɛ](/content-images/1-51y4R6V7JALmXtG_ZAsdcw-76d7d91c7a.webp)
+**[ShapeProtocol] *o no o*](https://shadeprotocol.io/)Shade Protocol yɛ layer-2 array a wɔde DeFi dwumadie ahorow di dwuma de bɔ ahobanbɔ ho ban na wɔhyehyɛ no Secret Network so. Saa dwumadi atitiriw yi ne stablecoins, nniso, nkontaabuo, adaka mu nneɛma bi, insurance, synthetics, bosea, DEXs, ɛne nea ɛboro saa - [Whitepaper]
+
+**[PantherProtocol]](https://www.pantherprotocol.io/)**: A zero-knowledge, cross-protocol layer protecting your on-chain data and enabling compliant DeFi access. **How it works?** Deposit your assets into Panther to use 1:1 collateralized shielded assets called zAssets. Store multiple asset types in Panther Pools, whilst protecting your on-chain data with zero-knowledge proofs. With many Layer-1 and 2 blockchains, all proposing different values, ideas, and mechanisms, Panther creates the infrastructure to connect them privately, rather than expecting one of them to take over everything. - [Whitepaper](https://docs.pantherprotocol.io/) 
+
+
+**[Sienna Network]](https://sienna.network/)**: Sienna.network is a privacy-first decentralized open source frontend where you can interact with swap and lending contracts on the Secret Network chain. Earn yield by providing secret tokens for others to borrow, or borrow tokens by providing against collateral. Markets launching are sBTC, sETH, sSCRT, sXMR, sLUNA, sUST, sUSDT, sUSDC and more. Sienna Network (Layer-2 protocol) was developed. SiennaLend is the first private lending protocol to enable private lending for multiple blockchain ecosystems while maintaining your privacy. It is permissionless and has no signup requirements, no limit to deposits, no centralized party to freeze your account, and is governed by the SIENNA governance token - **Asset Swap**: Yes - [Whitepaper](https://sienna.network/whitepaper/) - ![Sienna Logo](/content-images/1-51y4R6V7JALmXtG_ZAsdcw-76d7d91c7a.webp)
 ***
 
 
 
-**[Hann Kyɛm](https://shield.lightprotocol.com/)**: Hann yɛ open-source layer 2 zkLayer a ɛma kokoam dwumadi no yɛ adwuma, a wɔayɛ ama Solana. Light Protocol ma kwan ma wɔde encryption a ɛwɔ on-chain tebea no mu. Nea ɔde di dwuma no nkutoo na obetumi decrypt wɔn kokoam tebea no; enti wɔn titiriw "wɔn" no. Kokoam tebea no betumi ayɛ nea ɔde di dwuma biako anaasɛ ɔdefo kuw bi a wɔkyɛ decryption safoa bi dea.
-Sɛ nhwɛso no, susuw NFT a wɔakyerɛw wɔ Solana so ho hwɛ; ne ɔmanfo tebea (e.g., bo) no yɛ nea obiara hu, a nokwasɛm a ɛyɛ sɛ wɔretɔn no ka ho. Nanso ɛsɛ sɛ nneɛma a wɔde ma ne aguadi kɔ so yɛ kokoam - **Asset Swap**: Yiw - [Whitepaper](https://shield.lightprotocol.com/) - ![Hann Kyɛm Logo](/content-images/1-C4Pe23afCwS05seCeZWBLA-d85910d03f.webp)
+**[Hannade Akwankyerɛ]](https://shield.lightprotocol.com/)**: Light yɛ ɔfã a wɔn ani tua 2 zkLayer na ɛma dwumadi no tumi di dwuma wɔ ɔkwan soronko so, ɛno nti w'ayɛ ama Solana. light protocol ma kwan sɛ wobɛyɛ on-chain tebea mu nsɛm asekyerɛ (encryption). user nko ara na obetumi akyerɛw ne private state; enti ɔno ankasa "wɔ" ho asɛm kyerɛ saa. Private state betumi ayɛ nea obiako anaa nnipa bebree de kyɛ decryption key bi aka ho.
+Sɛ nhwɛso no, susuw NFT a wɔabɔ din wɔ Solana so; ne manfo tebea (te sɛ boɔ) da adi ma obiara. Nanso ɛwɔsɛ wɔde wɔn ho to hɔ na wɔyɛ adwuma - **Asset Swap**: Yiw - [Whitepaper]](https://shield.lightprotocol.com/) - ![Light Shield Logo](/content-images/1-C4Pe23afCwS05seCeZWBLA-d85910d03f.webp)
 ***
 
-**[Wɔde Network no sie](https://conceal.network/wiki/doku.php)**: Wɔkyekyeree Conceal Network no sɛdeɛ ɛbɛyɛ a ankorankoro bɛtumi adi nkitaho na wɔne wɔn ho wɔn ho adi nkitaho wɔ sikasɛm mu wɔ ɔkwan a wɔmmɔ wɔn din na wɔde ahyɛ wɔn nsa. Sɛ wode Conceal di dwuma a, wontumi mfa nkitahodi nkɔ nea ɔde kɔma ne nea ogye no ntam. Bio nso, Conceal de ring signatures ne address a wɔde di dwuma pɛnkoro di dwuma ma sikatua a wɔmmɔ din ankasa - **Asset Swap**: Yiw - [Whitepaper](https://conceal.network/wiki/doku.php) - ![Wɔde sie.png](/content-images/media_articles_01-ecae30ec1a.webp)
+**[Akwan a wɔfa so de sie no]](https://conceal.network/wiki/doku.php)**: Conceal Network no na wɔsii sɛ ɛbɛma nnipa atumi adi nkitaho ne wɔn ho aka sika fam ɔkwan a enni din so. Ɛmfa ho sƐ wɔde conceal di dwuma no, wontumi mfa obi a ɔretwerɛ ade ne nea ɔde n'asɛm brɛ afoforo mma mu biara. Bio nso, conceal de ring signatures ne one-time addresses yɛ adwuma ma wotua ka bere nyinaa - **Asset Swap**: Yes - [Whitepaper]](https://conceal.network/wiki/doku.php) - ![Conceal.png](/content-images/media_articles_01-ecae30ec1a.webp)
 ***
 
-**[Namada na ɔkyerɛwee](https://namada.net/testnets)**: TLDR: Namada yɛ adanseɛ a ɛkyerɛ sɛ ɛwɔ kyɛfa Layer 1 ma interchain agyapadeɛ-agnostic kokoamsɛm. Namada natively interoperates ne fast-finality nkɔnsɔnkɔnsɔn via IBC ne Ethereum denam ahotoso abien-akwan bridge. Sɛnea ɛbɛyɛ a wobɛkora kokoamsɛm so no, Namada de multi-asset shielded pool (MASP) circuit a wɔayɛ no foforo a ɛma agyapade nyinaa (fungible ne non-fungible) kyɛ shielded set a wɔbom yɛ no di dwuma – saa kwan yi so no, CryptoKitty a wɔde kɔ baabi foforo no nyɛ soronko koraa wɔ ETH, DAI, ATOM, OSMO, NAM (Namada native asset) anaa agyapade foforo biara a wɔde kɔ baabi foforo no ho Namada. **Agyapadeɛ Nsesa**: Yiw - [Krataa fitaa](https://docs.namada.net/) - ![Namada.png](/content-images/y4D30_VO_400x400-312a479be4.webp)
-***
-
-
- **[Asɛmfua Nsakraeɛ](https://fairyswap.finance/swap)**: Fairyswap yɛ Layer 1 awo ntoatoaso a edi hɔ, mpɔtam hɔfo a wɔhwɛ kokoam DEX a wɔahyɛ bɔ sɛ wɔbɛma kwan na wɔde ahyɛ aman nyinaa nsa. Ɛdenam nimdeɛ a wonni adanse a wɔde asie wɔ Findora mu a wɔde bedi dwuma so no, kokoam DEXs, ne Dapps te sɛ FairySwap ma wɔn a wɔde di dwuma no tumi paw nsɛm a wɔpɛ sɛ wohu wɔ ɔmanfo blockchain so, ne nea wɔbɛpɛ sɛ wɔbɔ ho ban. Nsɛm a wɔpɛ sɛ wɔyɛ a wontumi nhu no da so ara betumi de adanse a wonni nimdeɛ biara adi ho adanse wɔ baguam a wɔrenna nsɛm biara adi - **Asset Swap**: Yiw - [Whitepaper](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Ahyɛnsodeɛ](https://images.cointelegraph.com/images/1434_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8yOWE2NzFmMDFhOGIxN2M3MDg1ZjhkMDJhNjA4NzMzNS5qcGc=.jpg)
-***
-
-**[ZKSync na ɛyɛ adwuma](https://zksync.io/)**: zkSync yɛ Layer 2 scaling solution wɔ Ethereum a ɛma gas a ɛba fam ne nnwuma a ɛyɛ ntɛm, a ɛnsɛe ahobammɔ. Nkurɔfo betumi ayi agyapade akɔ Layer 1 bere biara. Sɛ wobɛnya zkSync ecosystem no nyinaa na woanya mfasoɔ afiri nnwuma a ne boɔ yɛ mmerɛw na ɛyɛ ntɛm ara mu a, di kan hia [sika kotokuo te sɛ Argent](https://argent.link/zksync). Sɛ wo nni sika kotokuo a, worentumi nkɔ onboard nkɔ network no so ɛfiri sɛ ɛrentumi nyɛ yie sɛ wobɛfa exchange te sɛ Coinbase anaa Binance so akɔ zkSync. Walets ma wo ɔkwan a ɛyɛ mmerɛw a wobɛfa so atɔ, atɔn, na wode asie crypto na woanya wiase a ɛyɛ anigye a ɛwɔ DeFi, NFTs, ne nea ɛkeka ho pii mu osuahu - **Asset Swap**: Yiw - [Whitepaper](https://era.zksync.io/docs/) - ![ZKSync.png](/content-images/63edde073465de1ef6bf89d3_zkSync-20Testne-3a4e9e2324.webp)
-***
-
-**[Penumbra a ɛwɔ hɔ](https://penumbra.zone/blog/valetudo-testnet/)**: Penumbra yɛ layer-1 ntam nkitahodi a wɔabɔ ho ban koraa wɔ Cosmos abɔde a nkwa wom nhyehyɛe no mu. Ɛyɛ nkitahodi a wɔabɔ ho ban, a ɛwɔ nkɔnsɔnkɔnsɔn a ɛtrɛw a ɛma obiara tumi di gua, de ne ho hyɛ mu, sesa, anaa ɔtɔn nneɛma a ahobammɔ wom a ɔmfa n’ankasa ho nsɛm nkɔ wiase. Sɛ́ blockchain a wɔabɔ ho ban koraa no, Penumbra kyerɛw gyinapɛn ahorow nyinaa wɔ ɔtare biako a wɔabɔ ho ban a ebetumi akyerɛw agyapade biara. Penumbra wɔ kokoamsɛm default, a enni nkitahodi a ɛda adi pefee anaasɛ bo a ɛsom a ɛda adi pefee - **Asset Swap**: Yiw - ![Penumbra.png](/content-images/CrNB0cKl_400x400-3bdcf7cfb9.webp)
+**[Namada]](https://namada.net/testnets)**: TLDR: Namada is a proof-of-stake Layer 1 for interchain asset-agnostic privacy. Namada natively interoperates with fast-finality chains via IBC and with Ethereum via a trustless two-way bridge. For privacy, Namada deploys an upgraded version of the multi-asset shielded pool (MASP) circuit that allows all assets (fungible and non-fungible) to share a common shielded set – this way, transferring a CryptoKitty is indistinguishable from transferring ETH, DAI, ATOM, OSMO, NAM (Namada's native asset) or any other asset on Namada. **Asset Swap**: Yes - [Whitepaper](https://docs.namada.net/) - ![Namada.png](/content-images/y4D30_VO_400x400-312a479be4.webp)
 ***
 
 
-**[Dadeɛ mpataa Nkitahodiɛ](https://ironfish.network/)**: Ironfish de kokoam asɛm biara a wobɛyɛ, na ɛbɔ w’agyapade ho nsɛm a ɛho hia ho ban na ɔmanfo anhu. Sɛ wode akenkan nkutoo view keys di dwuma a, wokɔ so di mmara no so na wodi so. Iron Fish yɛ decentralized layer 1 blockchain, adanse a ɛkyerɛ adwuma (PoW) a egyina, censorship-resistant, na ɔmanfo betumi anya blockchain adwuma. Wɔayɛ no sɛ ɛbɛboa kokoamsɛm ho bɔhyɛ a emu yɛ den wɔ asɛm biara mu - **Asset Swap**: Yiw - [Whitepaper](https://ironfish.network/learn/whitepaper) - ![Dadeɛ mpataa.png](/content-images/kxDDjheA_400x400-2aca14fa6f.webp)
+ **[FairySwap]](https://fairyswap.finance/swap)**: Fairyswap is a Layer 1 next-generation, community-driven privacy DEX that is committed to being permissionless and decentralized. By leveraging the zero-knowledge proof technology built into Findora, privacy DEXs, and Dapps like FairySwap give users the ability to choose what information they want to be visible on a public blockchain, and what they would rather shield. The information they want to be invisible can still be publicly verified with zero-knowledge proofs without revealing any details - **Asset Swap**: Yes - [Whitepaper](https://fairy-swap.gitbook.io/fairyswap-v2/) - ![FairySwap Logo](/content-images/_unavailable.svg)
+***
+
+**[ZKSync]](https://zksync.io/)**: zkSync yɛ Layer 2 scaling solution wɔ Ethereum a ɛde gas kakra ne transaction ntɛmntɛm, bere biara. Nnipa betumi ayi sika kɔ Layer 1 so bere biara . Sɛ w'atumi anya zk SYNC ecosystem no nyinaa mu na woanya mfaso afi ntɔnnennen ho dwuma aa ɛnnye koraa hɔ nti, wohia [wallet te sɛ Argent]](https://argent.link/zksync)Sɛ wo nni sika nkotoku a, worentumi mfa w'ani nto so wɔ network no mu efisɛ wontumi nnya zkSync ho kwan denam exchange te sɛ Coinbase anaa Binance. Sika nkotokoma ma wonya ɔkwan tiawa de tɔ, tɔn ne kora crypto na hu DeFi wiase pa no, NFTs, ɛne nea ɛboro saa - **Asset Swap**: Yiw - [Whitepaper]](https://era.zksync.io/docs/) - ![ZKSync.png](/content-images/63edde073465de1ef6bf89d3_zkSync-20Testne-3a4e9e2324.webp)
+***
+
+**[Penumbra]](https://penumbra.zone/blog/valetudo-testnet/)**: Penumbra is a fully shielded layer-1 network within the Cosmos ecosystem. It is a shielded, cross-chain network allowing anyone to securely transact, stake, swap, or market make without broadcasting their personal information to the world. As a fully shielded blockchain, Penumbra records all values in a single shielded pool that can record any kind of asset. Penumbra has privacy by default, with no transparent transactions or transparent value pool - **Asset Swap**: Yes - ![Penumbra.png](/content-images/CrNB0cKl_400x400-3bdcf7cfb9.webp)
 ***
 
 
-**[ZKBOB na ɔkyerɛwee](https://zkbob.com/)**: Fa zkBob smart contract wallet bɔ wo kokoam nsɛm ho ban. Wɔ zkBob mu no, wo sika kotoku mu nneɛma ne sika a wosɛe no na wo nsa ka no yɛ kokoam koraa. Fa zkBob di dwuma de mena anaa gye akatua, sikatua, ntoboa, ne nea ɛkeka ho a ɛwɔ kokoamsɛm ne mmara a wɔahyɛ mu. Ɛsan nso ma kwan ma wɔde kokoam P2P kɔ baabi foforo a wɔde zero-knowledge proof technology di dwuma de bɔ wɔn a wogye no ho ban na wɔmmɔ sika dodow ho ban - **Asset Swap**: Yiw - ![ZKBOB.png](/content-images/aalptltf_400x400-0fa94999b5.webp) - [Nkrataa fitaa](https://docs.zkbob.com/zkbob-overview/basic-concepts)
-***
-
-**[Firo na ɔkyerɛwee](https://firo.org/)**: Firo, a kan no na wɔfrɛ no Zcoin, yɛ Layer 1 kokoamsɛm blockchain a ɛhwɛ cryptocurrency kokoamsɛm ne mining so. Firo di anim wɔ cryptocurrency kokoamsɛm mu a Lelantus ne Lelantus Spark de ahotoso, on-chain kokoamsɛm a ɛkorɔn anonymity sets ma. Dandelion ++ mfiridwuma nso ma network-layer kokoamsɛm. Firo di anim wɔ cryptocurrency kokoamsɛm mu a Lelantus ne Lelantus Spark de ahotoso, on-chain kokoamsɛm a ɛkorɔn anonymity sets ma. Dandelion++ mfiridwuma nso ma network-layer kokoamsɛm - **Asset Swap**: Yiw - ![Firo.png](/content-images/22083410-abd57747d1.webp)
-***
-
-**[PIVX na ɛyɛ adwuma](https://pivx.org/)**: PIVX De Tier Two layer di dwuma kɔ ne network so, de masternodes di dwuma de boa ma wɔde wɔn ho hyɛ nniso no mu. PIVX yɛ sika a wɔabue ano na wɔde ahyɛ atipɛnfoɔ mu a ɛwɔ dwumadiefoɔ data ahobanbɔ nneɛma a ɛkɔ anim, mpɔtam nnisoɔ akwan, Proof of Stake consensus algorithm, ne Masternodes a ɛwɔ atirimpɔw ahodoɔ pii. PIVX no, wɔn a wɔde di dwuma no benya ahofadi a ɛwɔ wiase nyinaa dijitaal sika mu a ɛnyɛ den denam SHIELD User Data Protection so. Yɛ w'ankasa sikakorabea a wowɔ wo dijitaal agyapade so tumi nyinaa - **Asset Swap**: Yiw -[Whitepaper](https://pivx.org/whitepaper) - ![PIVX.png](/content-images/1169-c01a9208a4.webp)
-***
-
-**[BUM](https://beam.mw/)**: Beam yɛ Mimblewimble L1 kokoam blockchain a ɛwɔ soro, a ɛde nnwuma sie koraa. Twe Beam Wallet na woanya DeFi osuahu a ɛyɛ kokoamsɛm a etwa to - **Asset Swap**: Yiw - [Whitepaper](https://beam.mw/en/docs) - ![BEAM.png](/content-images/diZpv5uB_400x400-80e644b1cf.webp)
-***
-
-**[Anantwi](https://oxen.io/)**: Oxen (kan no na wɔfrɛ no LOKI) yɛ privacy tech project a ɛwɔ asɛmpatrɛw adwuma. Ɛyɛ kokoam cryptocurrency a ɛwɔ nkitahodi ntɛm ara. PoS ntam nkitahodi kɛse na tumi wom. Nkrasɛm ho nhyehyɛe a ahobammɔ wom. App no ​​reyɛ nsakraeɛ afiri layer-1 Oxen nkɔnsɔnkɔnsɔn no so akɔ nkɔnsɔnkɔnsɔn a ɛne EVM hyia so, na OXEN sika no bɛyɛ Session Token: ERC-20 token foforɔ a ɛbɛkɔ so wɔ layer 2 nkɔnsɔnkɔnsɔn so na ɛne Web3 aplikeshɔn dodoɔ no ara ahyia - **Asset Swap**: Yiw - [Whitepaper](https://docs.oxen.io/) - ![Nantwinini.png](/content-images/GJAsdyzF_400x400-bb04eed625.webp)
-***
-
-**[Asɛmti](https://particl.io/coin)**: Particl, ano aduru a ɛyɛ layer 1 a wɔayɛ sɛ ɛbɛma ankorankoro atumi de sika amena na wɔagye wɔ kokoam a anohyeto biara nni ho na wonni mfinimfini kwan so. Ɛnyɛ den, ɛyɛ ntɛmntɛm, na ahobammɔ wom. Ɛte sɛ sika ara kwa, nanso dijitaal! Ma wo sikasɛm nyɛ kokoamsɛm. Sɛ wode PART di dwuma a, wubetumi apaw sɛ wobɛyɛ baguam nkitahodi anaa kokoam de a wontumi nhwehwɛ mu koraa. Nea wobɛpaw no yɛ wo dea; ɛmfa ho sɛnea w'ahiade te, ano aduru bi wɔ hɔ ma wo - **Asset Swap**: Yiw - [Whitepaper](https://raw.githubusercontent.com/particl/whitepaper/master/Particl%20Whitepaper%20Draft%20v0.3.pdf) - ![Asɛmfua.png](/content-images/WJ070Lrr_400x400-7b7a6ee533.webp)
-***
-
-**[Zano na ɔkyerɛwee](https://zano.org/)**: Zano, layer 1 ano aduru ne open-source cryptocurrency ne ecosystem a enterprise-grade kokoamsɛm, ahobammɔ, ne scalability a ɛyɛ adwuma sɛ fapem a ɛyɛ den ma kokoam agyapade ne decentralized applications (dApps).Wo kokoamsɛm ho hia. Paw Zano, blockchain platform a edi kan a ɛde kokoamsɛm ne ahobammɔ di kan. Wɔde ring signatures ne stealth address ahorow ma Zano network mufo ntam nkitahodi a wontumi nhwehwɛ. Afei nso, ɔkwan a wɔfa so sie asɛm no ho nsɛm wɔ blockchain no so no ma afã horow a wɔmaa tumi krataa no nkutoo nya kwan kɔ mu, na wontintim kokoam nsɛm no mu biara wɔ baguam da. Zano nnwuma nyinaa kokoamsɛm yɛ hard-coded wɔ core no mu. Ɛdenam address a yɛde mena ne nea wogye nyinaa a yɛde sie so no yɛama kokoamsɛm a ɛwɔ Zano dwumayɛni biara mu no ayɛ kɛse - **Asset Swap**: Yiw - [Whitepaper](https://docs.zano.org/) - ![Zano.png](/content-images/FrSPUjYWIAMMWGJ-404fe8a085.webp)
+**[Ironfish Network] (Skype a wɔhwɛ so sɛ ɛrekeka)](https://ironfish.network/)Ironfish yɛ decentralized layer 1 blockchain, proof-of-work (PoW) based, censorship-resistant, and publicly accessible blockchain project. Wɔayɛ no sɛ ɛbɛboa ma wɔadi nkitaho a emu dɔ ho ban wɔ dwumadie biara mu - Aset Swap: Yiw - [Whitepaper]](https://ironfish.network/learn/whitepaper) - ![Ironfish.png](/content-images/kxDDjheA_400x400-2aca14fa6f.webp)
 ***
 
 
-
-**[Esum.fi](https://dark.fi/)**: DarkFi yɛ L1 a wɔmmɔ din a egyina zero-nimdeɛ, multi-party computation, ne homomorphic encryption so. Anonymous proof-of-stake hwɛ hu sɛ wɔde validators asie. DarkFi de tebea a ɛko tia fragile ma a wɔde bɛbɔ na wɔde ayɛ apps a wɔmmɔ din - **Asset Swap**: Yiw - [Whitepaper](https://darkrenaissance.github.io/darkfi/) - ![Esumfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
+**[ZKBOB] *o no o*](https://zkbob.com/)**: Bɔ wo kokoam ho ban fa zkBob smart contract wallet no so. Fa zk Bobo, nea ɛwɔ w'akoroa mu ne sika a wotua na wonya yɛ krado koraa. Fa Zk Bob di dwuma de soma anaa gye akatua, ka ahorow, ntoboa, ɛne pii wɔ ahobanbɔ ne mmara kwan bɔbea bi akyi. Afei nso ma kwan sɛ wode P2P nkrataa to hɔ bere biara denam nimdeɛ-nkoraberɛ adansedie (zero knowledge proof) mfidie a wɔde bɛbɔ wɔn a wogye saa nneɛma yi ho ban na ama ɛka no ayɛ anonim - **Asset Swap**: Yiw - ![ZKBOB.png](/content-images/aalptltf_400x400-0fa94999b5.webp) - [Nkrataa kronkron a wɔato din]](https://docs.zkbob.com/zkbob-overview/basic-concepts)
 ***
 
+**[Firo no ho yɛ hu]](https://firo.org/)Firo, a kan no na wɔfrɛ no Zcoin, yɛ Layer 1 ahobanbɔ blockchain de ma cryptocurrency ahotɔ ne ho ban. Firo di anim wɔ cryptocurrency ahobanbͻ mu wͻ Lelantus ne Lelantos Spark a εma nokwaredie a enni ahotosoɔ, on-chain ahoban bεyε anonymous sets pii. Dandelion++ technology nso ma network layer ahobanobͻ. Fero di anim wͻ cryptocurrency ahobonobͻ mu sεnea Lelannus ne Lelatus Spark yεde nya trustless, on chain ahobanoboa a wonni din pa set bebree. Dantelion++ Ԑwɔsԑ ɔwↄfo kwan so kͻmpa - Aset Swap: Yes - ![Firo.png](/content-images/22083410-abd57747d1.webp)
+***
 
-**[Ahintasɛm Ntrɛwmu](https://scrt.network/)**: Secret Network yɛ layer 1 blockchain a wɔde Cosmos SDK na ɛkyekyee na ɛyɛ Cosmos amansan (IBC) a ɛtrɛw a ɛka bom no fã. Secret Network yɛ mainnet blockchain a ɛdi kan a ɛwɔ smart contracts a ɛkora kokoamsɛm so, a wɔde sii hɔ wɔ afe 2020. Wei ma ɛyɛ yie sɛ wɔbɛkyekyere apps a wɔde ahyɛ aman nyinaa nsa na wɔmma ho kwan—nanso ɛyɛ kokoam - **Asset Swap**: Yiw - [Whitepaper](https://docs.scrt.network/) -
-![Ahintasɛm.png](https://images.contentstack.io/v3/assets/blt38dd155f8beb7337/blt67f1d3f934bfa9b9/6229b0ba429f83163fd8ffbb/Untitled_(4).png) .
+**[PIVX] no ho asεm.](https://pivx.org/)PIVX de Tier Two layer to ne network, deploying masternodes to help participate in the governance.PIVX yɛ open-source na decentralized peer-to-peer currency a ɛwɔ advanced user data protection features, community governance mechanisms, Proof of Stake consensus algorithm, and multi-purpose Masternodes.Wɔnam PIVx so no, wɔn a wɔdi dwuma bɛhunu wiase nyinaa digital cash ahofadie denam SHIELD User Data Protection so. Yɛ wo ankasa bank a w'adi wo sika ho dwuma afebɔɔ - **Asset Swap**: Yes -[Whitepaper]](https://pivx.org/whitepaper) - ![PIVX.png](/content-images/1169-c01a9208a4.webp)
+***
+
+**[BEAM] *o no o*](https://beam.mw/)Beam yɛ Mimblewimble L1 ahobanbɔ blockchain a ɛkorɔn, na ɛma wɔde dwumadie sie koraa. Twe Beam Wallet ma DeFi mu ahintasɛm no ho nimdeɛ - Aset Swap: Yiw - [Whitepaper]](https://beam.mw/en/docs) - ![BEAM.png](/content-images/diZpv5uB_400x400-80e644b1cf.webp)
+***
+
+**[Oxen no ho yɛ hu]](https://oxen.io/)Oxen (a kan no na wɔfrɛ no LOKI) yɛ ahintasɛm ho nimdeɛ dwumadie a ɛwɔ adwuma. Ɛyɛ sika kronn wɔ mprenprɛn mu ntɔnnennen so. Ɛwɔ PoS network kɛse bi ne ahoɔdenfoɔ, ɛyɛ messaging platform a ahobammɔ wom. App no reyɛ n'adane afiri layer-1 Oxen chain akɔ EVM-compatible chains hɔ, OXEN coin bɛyɛ Session Token: ERC-20 tokens foforo a ɛbɛtu mpuntuo 2 nketenkete ase ma ɛne Web3 application pii adi afra - **Asset Swap**: Yiw - [Whitepaper]](https://docs.oxen.io/) - ![Oxen.png](/content-images/GJAsdyzF_400x400-bb04eed625.webp)
+***
+
+**[Particl no ho a w'atwe adwene asi so]](https://particl.io/coin)**: Particl, a layer 1 solution designed to enable individuals to privately send and receive money with no restrictions and no middleman. It's easy, fast, and safe. It’s just like cash, but digital! Keep your finances private. With PART, you can choose to make public transactions or private ones that are completely untraceable. The choice is yours; regardless of your needs, there's a solution for you - **Asset Swap**: Yes - [Whitepaper](https://raw.githubusercontent.com/particl/whitepaper/master/Particl%20Whitepaper%20Draft%20v0.3.pdf) - ![Particl.png](/content-images/WJ070Lrr_400x400-7b7a6ee533.webp)
+***
+
+**[Zano](https://zano.org/)**: Zano, a layer 1 solution and an open-source cryptocurrency and ecosystem with enterprise-grade privacy, security, and scalability that operates as a robust foundation for confidential assets and decentralized applications (dApps).Your privacy matters. Choose Zano, the leading blockchain platform that prioritizes confidentiality and security. The transactions between Zano network members are made untraceable with ring signatures and stealth addresses. Also, the way transaction data is stored on the blockchain allows access by parties who authorized the transactions only, and none of the private data is ever publicly published. The confidentiality of all Zano transactions is hard-coded into the core. By concealing all sending and receiving addresses we have maximalized the level of privacy for every Zano user - **Asset Swap**: Yes - [Whitepaper](https://docs.zano.org/) - ![Zano.png](/content-images/FrSPUjYWIAMMWGJ-404fe8a085.webp)
 ***
 
 
 
-**[TomoNkɔnsɔnkɔnsɔn](https://tomochain.com/ecosystem/)**: TOMO yɛ layer 1 ɔmanfo blockchain. Tomochain yɛ kokoamsɛm nhyehyɛe a wɔayɛ wɔ TomoChain so na wɔayɛ sɛ ɛbɛma nkitahodi a ahobammɔ wom na wontumi nhwehwɛ mu -**Asset Swap**: Yiw- [Whitepaper](https://tomochain.com/files/technical-whitepaper-1.0.pdf) - ![TomoNkɔnsɔnkɔnsɔn.png](/content-images/tomochain-7598abfbb7.webp)
+**[Dark.fi](https://dark.fi/)DarkFi yɛ anonymous L1 a egyina zero-knowledge, multi-party computation ne homomorphic encryption so. Anonymous proof-of-stake ma no hu sɛ validators ahintaw. DarkFi de anti-fragile ho kwan bɔ afɔre na ama woatumi ayɛ apps - **Asset Swap**: Yes - [Whitepaper]](https://darkrenaissance.github.io/darkfi/) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
+***
+
+
+**[Asɛm mu Kuw]](https://scrt.network/)*: Secret Network yɛ layer 1 blockchain a w'ayɛ no Cosmos SDK na ɛyɛ part of the wider interconnected Cosmos universe (IBC).* Secret Network ne mainnet blockchains a edi kan wɔ smart contracts a ɛbɔ privacy ho ban, wɔde sii hɔ afe 2020 mu. Eyi maa kwan sɛ wobetumi ayɛ apps a wɔn de decentralized and permissionlessyet private - **Asset Swap**: Yes - [Whitepaper]](https://docs.scrt.network/) -
+![Secret.png](/content-images/_unavailable.svg)
+***
+
+
+
+**[TomoChain]](https://tomochain.com/ecosystem/)TOMO yɛ layer 1 public blockchain. Tomochain yε ahobanbɔ nhyehyɛeɛ a wͻde asiesiee wɔ TomoChain so na ͻwͻ sɛ ɛbɛma dwumadie no ho adwenhareɛ ne nea wontumi nhunu -**Asset Swap**: Yiw- [Whitepaper]](https://tomochain.com/files/technical-whitepaper-1.0.pdf) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
 ***

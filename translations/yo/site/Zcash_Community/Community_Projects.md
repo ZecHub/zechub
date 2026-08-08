@@ -1,264 +1,255 @@
-<a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Community_Projects.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
-</a>
+# Àwọn Ìpèsè Àjọṣe
 
-## Àwọn Iṣẹ́ Ìjọ Zcash
-
-[Ṣọ́ra fún Un]](https://zshieldher.com/)
-
- ìkànnì ìdánilẹ́kọ̀ọ́ Zcash fún àwọn tí ìwà ipá inú ilé bá lára mu
-
-[Àmì ìdánimọ̀](https://github.com/emersonian/zecping)
-
-Wo awọn akoko idahun gRPC ti Zcash [Lightwalletd](https://github.com/zcash/lightwalletd) àwọn ìsọ̀rí.
-
-[Ìlú Ìgírátì](https://github.com/runziggurat/zcash)
-
-Ziggurat is network test suite that provides zcashd and zebra devs with this reliable foundation. Included in this suite is a Zcash [crawler](https://github.com/runziggurat/zcash/tree/main/src/tools/crawler).
-
-[Àtúnṣe ojú ìwé]](https://testnet.exblo.app/#/)
-
-A block explorer pataki apẹrẹ fun apps igbeyewo awọn iṣowo lori awọn Zcash Testnet. Lọwọlọwọ ni lọwọlọwọ idagbasoke
-
-The Zcash Block Explorer provides information such as transaction data / block information / Addresses / Mempool Blocks etc. Also allows for Transaction Payment Disclosure Viewing Key to be used.
-
-[Dizzy Wallet](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
-
-Dizzy Wallet jẹ bot Discord ti o pese wiwọle alailowaya ati aabo si awọn iṣowo Zcash. 
-
-[Ìrì dídì](https://eprint.iacr.org/2020/852)
-
-Researchers at the Zcash Foundation are collaborating on an IETF informational draft for FROST with researchers at the University of Waterloo and several other organizations, and it’s on the path towards greater adoption within the Zcash ecosystem and beyond.
-
-[Free2z ì ì 'í ë ¤.](https://free2z.cash)
-
-Free2z jẹ́ irinṣẹ́ fún ìsọfúnni tí a kò dárúkọ àti ọrẹ àdáni.
-
-[Ezkash]](https://blog.nerdbank.net/ezcash-app)
-
-A rọrun lati lo ati ni kikun-ara Zcash apamọwọ multiplatform Zcash Wallet pẹlu autoshielding atilẹyin.
-
-[Ìgbà àkọ́kọ́ tí mo rí Zcash](https://github.com/massadoptionorg/My-First-Zcash)
-
-Iwe iṣẹ ẹkọ ti a ṣẹda nipasẹ ẹgbẹ ti awọn ẹlẹda akoonu ti o ni ẹbun ati iyasọtọ ati awọn apẹẹrẹ ayaworan lati gbogbo agbegbe agbaye Zcash.
-
-[Ìsọfúnni láti Zapp](https://www.justzappit.xyz/)
-
-Zapp jẹ ohun elo ifiranṣẹ aṣiri-akọkọ ti o sopọ awọn iwiregbe ZEC si awọn sisanwo gidi-aye.](https://www.justzappit.xyz/app)
-
-[Ìwádìí Ìdìpọ̀ Zcash](https://mainnet.zcashexplorer.app/)
-
-Oníwádìí ìdìpò Zcash tí ó kún fún ìsọfúnni, tí ó sì kún fún àlàyé láti Nighthawk Apps.
-
-[Ìwé Ìròyìn]](https://www.zecpublish.com)
-
-ZECPublish is a censorship resistant, Zcash blockchain-powered social media. It includes a directory of zcash users and an anonymous message board powered by Zcash.
-
-[ì í ì](https://zgo.cash)
-
-ZGo jẹ́ ìwé ìforúkọsílẹ̀ Zcash. Ó ń jẹ́ kí àwọn oníṣòwò àti àwọn oníbàárà gba Zcash . Lọwọ́lóde yìí, ó ń dán ohun èlò náà wò láti rí àbájáde tó dára lórí bí wọ́n ṣe lè lo ZGo àti àwọn ànímọ́ rẹ̀.
-
-[ìyẹn Zlink](https://zlink.click)
-
-Zlink jẹ́ ọ̀nà tó rọrùn jùlọ láti rí ìjápọ̀, ọ̀rọ̀, ìwífún tí o nílò nípa àyíká-ayé Zcash.
-
-[Rídíò ZK](https://zcashesp.com/zk-radio/)
-
-Redio ori ayelujara kan lati sọ, kọ ẹkọ ati ṣe idanilaraya agbegbe Zcash, ti a ṣe nipasẹ Zcash en Español ati Ile-iṣẹ ZKAV.
-
-## Zimppy.xyz - Àwọn ojúewé wọ̀nyí jápọ̀ mọ́
-[![Àmì ojúewé Zimppy.xyz](/content-images/og-40771e1849.webp)](https://zimppy.xyz/)
-
-Zimppy is the Machine Payment Protocol (MPP) payment method for Zcash, designed for AI agents and automated machine-to-machine workflows. Deposit once on-chain, then make unlimited instant bearer requests with no per-request blockchain interaction. Supports fully shielded Zcash (Orchard) payments — sender, receiver, and amount remain encrypted.
-
-[Wá síbi ìfọ̀rọ̀wérọ̀]](https://zimppy.xyz/) [Ojú-ìwé Wiki lódindi]](/using-zcash/zimppy)
+Ṣawari awọn irinṣẹ, apamọwọ owo, ohun elo, ile-ikawe ati eto ilolupo eda abemi ti a kọ nipasẹ agbegbe Zcash ati eto ayika imọ odo gbooro.
 
 ---
 
-## Àkọsílẹ̀ àyèsí
-[![CipherScan ì í ì 'í ë¦¬](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
+## Ẹ̀kọ́, Ìròyìn àti Àwùjọ
 
-CipherScan is a privacy-first Zcash blockchain explorer. Built with Next.js 15, TypeScript, and Rust/WASM, it lets users look up blocks, transactions, and addresses without leaking query metadata. Designed for privacy-conscious users who need blockchain transparency without surveillance.
+### Owó Zcash Mi Àkọ́kọ́
+Ìwé iṣẹ́ ìkọ̀wé tí àwùjọ Zcash lágbàáyé dá. 
+[Wá síbi tá a wà yìí]](https://github.com/massadoptionorg/My-First-Zcash)
 
-[Wá síbi ìfọ̀rọ̀wérọ̀]](https://cipherscan.app/)
+### ZECÌwéjáde
+Ojú-ìwòye, Zcash blockchain-powered social media. A ní ìwé atọ́ka àwọn oníṣe Zcash àti àtẹ ìsọfúnni tí kò mọ ẹni tó ń lò ó nínú rẹ̀. 
+[Wá síbi tá a wà yìí]](https://www.zecpublish.com)
+
+### Redio ZK
+Redio ori ayelujara lati sọ, kọ ẹkọ ati ṣe idanilaraya agbegbe Zcash. Ti dagbasoke nipasẹ Zcash en Español ati Club ZKAV . 
+[Wá síbi tá a wà yìí]](https://zcashesp.com/zk-radio/)
+
+### ZShieldHer (ìdánàbò bo òun)
+Ojú-ìwé ìkọ́nilé Zcash fún àwọn tí wọ́n bá jà nínú ilé. 
+[Wá síbi tá a wà yìí]](https://zshieldher.com/)
+
+### ZecForge (ìmọ̀ràn)
+Ẹlẹda forge fun eto ilolupo Zcash ti o dojukọ lori onboarding, idagbasoke ẹda ati pinpin akoonu. 
+[Wá síbi tá a wà yìí]](https://x.com/zec_forge)
+
+### Gbigba Awọn fidio Zcash Series
+Awọn lẹta ẹkọ ti o ni kikun nipa imọ-ẹrọ Zcash, cryptography, ọrọ aje ati iṣakoso. 
+[Wá síbi tá a wà yìí]](https://www.youtube.com/watch?v=YWUzh_VtrR8)
+
+### Zcast (ìmọ̀ràn)
+Àkọlé àwòrán, Zcash podcast tí ó ní èdè Spanish pẹ̀lú àwọn àtúnṣe ètò ìsálú ayé tuntun. 
+[Wá síbi tá a wà yìí]](https://www.youtube.com/@ZcastEsp)
+
+### Ẹgbẹ́ Olùgbọ̀rọ-ìran tí kò ní ìmọ (ZKAV)
+Àkọlé àwòrán, Ìdáàbòbò ìpamọ́-ìkómọ̀lára àwùjọ tí ó ń dáni lẹ́kọ̀ọ́, tó sì tún máa ń ṣe àpapò àti láti pèsè ìrànlọ́wọ́ àwọn olùyọjúsílẹ̀ AV fún ètò ìmọ̀ ẹ̀rọ alátagbà. 
+[Wá síbi tá a wà yìí]](https://zkav.club/)
+
+### Ilé-ìwé Ìkànnì Zcash
+Àwọn ohun èlò ìkọ́nilẹ̀kò tí a ṣe fún àwọn olùlo Zcash tuntun àti àwọn tó ń ṣètò rẹ. 
+[Àwùjọ àwọn èèyàn]](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
+
+### Ìṣòro ìṣẹ́jú kan ṣoṣo
+Ojú-ìwé alágbèéká tí ó ní àwọn eré orí ìtàgé Zcash àti àpéjọ àwùjọ. 
+[Wá síbi tá a wà yìí]](https://zectastic.com/)
+
+### Zec App (ìkànnì)
+Ohun elo alagbeka ti o ṣajọpọ awọn iroyin Zcash, iṣẹ agbegbe, alaye nẹtiwọọki, apamọwọ, paṣipaarọ ati awọn orisun ilolupo eda abemi ni ibi kan. 
+[Àwùjọ àwọn èèyàn]](https://forum.zcashcommunity.com/t/zec-app-is-coming-soon/56605)
+
+### Ẹgbẹ́ PGPZ
+Aarin agbegbe fun Eto imulo ti o dara pupọ fun Zcash (PGPZ), ipilẹṣẹ eto-ọrọ Washington DC kan ni idojukọ lori aabo asiri owo oni-nọmba, ibamu iṣe, ati ipa anfani gbogbo eniyan ti Zcash. 
+[Wá síbi tá a wà yìí]](https://community.pgpz.org/)
 
 ---
 
-## Àwọn orúkọ Zcash
-[![Àwọn orúkọ Zcash](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
+## Àwọn Wàléètì àti Ohun Ìṣírò Owó-Ìyàfúnni
 
-ZcashNames n pese awọn orukọ ti eniyan le ka fun awọn adirẹsi Zcash ti o ni aabo. Dipo pinpin adiresi z gigun, awọn olumulo forukọsilẹ orukọ ti o ṣe iranti (fun apẹẹrẹ, `alice.zec`) that resolves to their Unified Address. Simplifies receiving ZEC privately without exposing raw addresses.
+### Àkọlé àwòrán Cipherpay
+Awọn sisanwo ti ara ẹni fun intanẹẹti. Ko si ẹri, ko si KYC. Awọn oniṣowo gba ZEC taara si awọn adirẹsi aabo. 
+[Wá síbi tá a wà yìí]](https://www.cipherpay.app/en)
 
-[Wá síbi ìfọ̀rọ̀wérọ̀]](https://www.zcashnames.com/)
+### Èdè Àsìá ilẹ̀:
+O rọrun lati lo, apamọwọ Zcash ti o ni ọpọlọpọ awọn ẹya pẹlu atilẹyin autoshielding. 
+[Wá síbi tá a wà yìí]](https://blog.nerdbank.net/ezcash-app)
+
+### Owó àpò Nozy
+Orchard-focused Zcash wallet built for Zebrad, supporting fully shielded transactions and secure key management.  
+[Wá síbi tá a wà yìí]](https://github.com/LEONINE-DAO/Nozy-wallet)
+
+### Overpay.com (ì í ì ë ¤)
+Ọ̀nà ìsanwó tí ó jẹ́ kí àwọn oníṣe ná ZEC ní ààbò lórí ọjà gidi (ní báyìí nínú alpha). 
+[Wá síbi tá a wà yìí]](https://overpay.com)
+
+### Owó àpò Zafu
+Open-source ìpamọ wallet fun Zcash ati Penumbra. Browser itẹsiwaju pẹlu onibara-ipin ti o nfihan, ṣayẹwo imọlẹ-onibara ayaworan, tutu ami, FROST multisig, ko si wiwo bọtini fi ẹrọ silẹ. 
+[Wá síbi tá a wà yìí]](https://chromewebstore.google.com/detail/zafu-wallet-beta/bhlogefpcebekhjpomlodifcelldoimn)
+
+### ZGo (ì í ì)
+Àkọsílẹ̀ Zcash tó ń jẹ́ kí àwọn oníṣòwò àti òǹtajà lè gba owó tí wọ́n bá san ní Zcash. 
+[Wá síbi tá a wà yìí]](https://zgo.cash)
+
+### Zimppy (ìyẹn ọmọ ìbílẹ̀)
+Machine Payment Protocol (MPP) fún Zcash. A ṣe àdàkọ rẹ̀ fun àwọn aṣojú AI àti iṣẹ́-iṣẹ́ tí ó jẹ́ ti ara ẹni láti orí ẹrọ sí ẹ̀rọ. Ó ń ṣètìlẹyìn fún ìsanwó Orchard tó ní ìdènà pátápátá. 
+[Wá síbi tá a wà yìí]](https://zimppy.xyz/)
+
+### Dizzy Wallet
+Discord bot tí ó ń pèsè ààyè àti ìwífún tó dáàbò bo sí àwọn ìṣòwò Zcash. 
+[Wá síbi tá a wà yìí]](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
+
+### ZODL (ì í ì ë ¤)
+Flagship Zcash wallet lati Shielded Labs (tẹlẹ Zashi). O wa lori iOS ati Android. Ṣe atilẹyin ibojuwo ti o ni aabo ZEC ati NU7. 
+[Wá síbi tá a wà yìí]](https://zodl.app/)
+
+### Àpò-ìwé Noir
+Àpò Zcash tí ó dá lórí ìpamọ́ ti a ṣe fún àwọn ìṣòwò ZEC tó rọrùn àti èyí tí kò ní àdáni. 
+[Àwùjọ àwọn èèyàn]](https://forum.zcashcommunity.com/t/first-look-at-noir-wallet/55667)
+
+### ZecVault (ìkóhunsókè)
+Àpamọ́ ìṣúnná owó tí ó dá lórí ìlépa ti a kọ sórí àwọn ìdánwò ààbò Zcash. 
+[Àwùjọ àwọn èèyàn]](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
+
+### Zkool
+Oludasile si Ywallet ti o ṣe atilẹyin awọn ẹya Zcash protocol tuntun pẹlu Orchard. 
+[Àwùjọ àwọn èèyàn]](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
+
+### MonteZecret - Àmì ojúewé
+Àdánwò àpò owó orí kọ̀ǹpútà tí ó rọrùn fún Zcash, èyí ti a kọ̀wé sí Rust. 
+[Àwùjọ àwọn èèyàn]](https://forum.zcashcommunity.com/t/montezecret-a-desktop-wallet-for-zcash-in-rust-instead-of-tweets/56164)
+
+### Àpò-ìpamọ́ Gem
+Àpò-ìpamọ́ alágbàtà, àtòjọ ìsọfúnni tí ó ṣí sílẹ̀ tó sì ń ṣe ìdánwò ara ẹni ti o nṣe atilẹyin fun fifiranṣẹ, gbigba àti pàṣípààrọ̀ ZEC. 
+[Wá síbi tá a wà yìí]](https://gemwallet.com/)
+
+### TIPZ (ì í ì ë ¤)
+Àwòrán tí kò ní ìdìbò ti ń gbé àwọn ohun èlò tó wà nínú rẹ̀ jáde, níbi tí gbogbo nǹkan wọ́n fi máa ń dé bí ZEC. Ó ṣe àtìlẹyìn fún oríṣiríṣi ọjà-ìpínlẹ̀ lórí pẹpẹ nípa NEAR Intents. 
+[Wá síbi tá a wà yìí]](https://tipz.cash/)
 
 ---
 
-## Àwọn òǹkàwé
+## Àwọn Àkọsílẹ̀, Ìsọfúnni àti àwọn Ètò-ìdarí Oríkàn (Dashboards)
 
-A company dedicated to privacy, self-sovereignty, and cypherpunk values. Builds tools for individuals who need to protect their digital lives.
+### Ìṣàmúlò Àkọsílẹ̀
+Àkọ́kó̀ ìpamọ Zcash blockchain explorer. A kọ pẹlu Next.js 15, TypeScript, àti Rust/WASM. Àwọn àwòdì kò tú metadata ìbéèrè jáde. 
+[Wá síbi tá a wà yìí]](https://cipherscan.app/)
 
-[Wá síbi ìfọ̀rọ̀wérọ̀]](https://cypherpunk.com/)
+### Exblo ì ¬ì§ í ë ¤.
+Olùwádìí ìdìpò tí a ṣe fún àyẹ̀wò àwọn ìṣòwò lórí Zcash Testnet. 
+[Wá síbi tá a wà yìí]](https://testnet.exblo.app/)
+
+### OpenZcash (ì ì í ë ¤)
+Public transparency dashboard for the Zcash Dev Fund, including ZCG and FPF grant accounting, the Lockbox, governance, and disbursements.  
+[Wá síbi tá a wà yìí]](https://openzcash.org/)
+
+### Zcash Block Explorer (ìwádìí ìdìpọ̀)
+Olùwádìí ìdìpò Zcash tó kún fún àlàyé láti Nighthawk Apps. 
+[Wá síbi tá a wà yìí]](https://mainnet.zcashexplorer.app/)
+
+### Zcash. Space (ì í ì ë ¤)
+Browser-based Zcash Unified Address parser for inspecting Unified Addresses.  
+[Wá síbi tá a wà yìí]](https://zcash.space/)
+
+### Àmì ojúewé ZecMap
+Àwòrán ayé ti àwọn ilé-iṣẹ́ àti ibi tí ó gba Zcash. 
+[Wá síbi tá a wà yìí]](https://zecmap.com/)
+
+### ZECping (ìdásílẹ̀)
+Ọpa lati ṣayẹwo awọn akoko idahun gRPC ti Zcash Lightwalletd nodes. 
+[Wá síbi tá a wà yìí]](https://github.com/emersonian/zecping)
+
+### Àwọn Àkọsílẹ̀ Ìsọfúnni ZecStats
+Àkọsílẹ̀ fún ìsọfúnni nípa ètò-ìṣirò àti àwọn ìlànà ààbò Zcash. 
+[Wá síbi tá a wà yìí]](https://zecstats.com)
+
+### iye owó tí wọ́n ń san fún un
+Aṣayan iṣawari ati awọn metiriki data fun iṣẹ idiyele ọja Zcash. 
+[Wá síbi tá a wà yìí]](https://zecprice.com)
+
+### Zlink (ìmọ̀ràn)
+Atọ́ka fún wíwá àwọn ìjápọ, irinṣẹ́ àti àlàyé nípa ètò ìṣèdá Zcash. 
+[Wá síbi tá a wà yìí]](https://zlink.click)
 
 ---
 
-## Àkọlé àwòrán
-[![Cipherpay ì ì ì](/content-images/logo-mark-b8d7c702b0.webp)](https://www.cipherpay.app/en)
+## Àmì, Orúkọ àti Ìrírí Olùṣàmúlò
 
-CipherPay enables private payments for the internet. Accept Zcash in minutes — non-custodial, no KYC required. Merchants receive ZEC directly to shielded addresses, protecting both buyer and seller financial privacy.
+### ZcashNames (Àwọn orúkọ)
+Awọn orukọ ti eniyan le ka fun awọn adirẹsi Zcash ni aabo (fun apẹẹrẹ: "ZEC") ati pe o jẹ deede. `alice.zec` resolves to a Unified Address).  
+[Wá síbi tá a wà yìí]](https://www.zcashnames.com/)
 
-[Wá síbi ìfọ̀rọ̀wérọ̀]](https://www.cipherpay.app/en)
+### Zapp / JustZappIt (ì í ì ë ¤)
+Ìsọfúnni-ìpamọ́ àkọkọ tí ó so ìjíròrò ZEC pọ̀ mọ àwọn owó tó ń wọlé. 
+[Wá síbi tá a wà yìí]](https://www.justzappit.xyz/)
 
-## Àkọsílẹ̀ àyèsí
-[![ì ì í êμ¬ë§¤í ì '](/content-images/logo-small-96b606d10d.webp)](https://cipherscan.app/)
+### Zentat (ìmọ̀ràn)
+Àfikún aṣàwákiri tí ó ń yí iye owó ẹyọ owo sí ZEC ní àkókò gidi bí o ṣe n ṣàmúlò ayélujára. 
+[Wá síbi tá a wà yìí]](https://chromewebstore.google.com/detail/zentat/lpndbahladndclecodadoljlplfaldac)
 
-Zcash Blockchain Explorer ️ Ṣe àdàkọ blockchain. Ìpamọ́ pàdé ìwífún.
-[Wá síbi ìfọ̀rọ̀wérọ̀]](https://cipherscan.app/)
+### Odi Tí Wọ́n Fi Ń Dáàbò Bo Ara Wọn
+Àwòrán ìbúra tí a kò dárúkọ ẹni tó ń lo owó Zcash láti dáàbò bo ẹ̀mí ara rẹ. 
+[Wá síbi tá a wà yìí]](https://shieldedwall.org/)
 
-## Àwọn orúkọ Zcash
-[![Àwọn orúkọ Zcash](/content-images/zcashnames-brand-banner-primary-logo-mon-939ef904e5.webp)](https://www.zcashnames.com/)
+### Ìdọ̀tí
+Àpótí ìfìwéránṣẹ́ oní-e-mail tí a lè fi pa dà lò, èyí tá a sanwó rẹ̀ pẹ̀lú ZEC. 
+[Wá síbi tá a wà yìí]](https://ztrash.com/)
 
-Orúkọ àwọn èèyàn
-fún
-orúkọ nìkan lo nílò láti ṣe òwò ní ìkọ̀kọ̀.
+---
 
-[Wá síbi ìfọ̀rọ̀wérọ̀]](https://www.zcashnames.com/)
+## Olùgbéejáde, Àdánwò àti Ìpèsè-Infrastructure
 
-## Ẹgbẹ́ Olùgbọ́-ìmọ̀ Ọ̀rọ̀-ìwòye
-[![Awùjọ Àwọn Onígbọ́-ìmọ-Kò-ní-Ojú-Ìran]](/content-images/images-563ef94ac0.webp)](https://zkav.club/#additional-reading)
+### Ìlú ìbílẹ̀ Ziggurat
+Àkójọ àyẹ̀wò nẹ́túwù fún àwọn olùdàgbàsókè zcashd àti Zebra. Ó ní nínú ohun èlò ìwádìí Zcash crawler kan. 
+[Wá síbi tá a wà yìí]](https://github.com/runziggurat/zcash)
 
-Àkọ́kọ́ ìpamọ́-ìkọ̀kọ̀ (AV) àjọṣepọ̀ fún àwọn àwùjọ ìmọ̀-ẹ̀rọ tí ó ṣí sílẹ̀. A máa ń kọ́ni, a máa ń ṣe àpapọ̀, a sì máa ń ṣètò ìtìlẹ́yìn AV fún àwọn olùyọ̀ǹda ara ẹni níbi àwọn ìṣẹ̀lẹ̀ àwùjọ.
+### ZecDev (ì í ì)
+Linux-first toolkit tí ó mú kí nẹ́tàkì Zebra regtest pẹ̀lú faucet, Unified Address fixtures àti lightwalletd tàbí Zaino, àfikún sí àwọn ìṣe GitHub tó ṣeé lò fún dídìbò láti òpin dé òpin. 
+[Wá síbi tá a wà yìí]](https://github.com/zecdev)
 
-[Wá síbi ìfọ̀rọ̀wérọ̀]](https://zkav.club/#additional-reading)
+### Zebra Coverage-Guided Fuzzing Infrastructure (Àwọn ohun èlò tó ń darí ìmúlẹ̀sílẹ̀)
+Àyẹ̀wò tí ó wà ní ṣísẹ́-n-ṣe ti àwọn ohun èlò Zebra's parsing, networking àti cryptographic lòdì sí ìmúṣẹ àbájáde. 
+[Àwùjọ àwọn èèyàn]](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/234)
 
-## Àwọn Ilé Iṣẹ́ Ààbò
-[![Àwọn Ilé Iṣẹ́ Ààbò]](/content-images/68747470733a2f2f736869656c6465646c616273-e449ae6540.webp)](https://shieldedlabs.net/)
+### Òjò dídì
+Iṣẹ́-ṣiṣe lórí ètò ìforúkọsílẹ̀ àlàfo (FROST) ti ń tẹsiwaju fún gbígba wọlé sí i nínú ẹ̀dá abẹ́rẹ́ Zcash. 
+[Ìwé tí a fi ń ṣe àdàkọ]](https://eprint.iacr.org/2020/852)
 
-Shielded Labs jẹ olominira, ọrẹ-owo Zcash atilẹyin agbari ti o da ni Switzerland. O jẹ agbari akọkọ ninu ilolupo eda abemi Zcash ti ko ti gba owo taara tabi aifọwọyi lati Fund Development tabi awọn ẹsan bulọọki.
+### MonteZcret Àmì ìfiwéra
+Iṣẹ́ àyẹ̀wò iṣẹ́-ṣiṣe ti o ṣílẹ̀ tí ó ń ṣe ayẹwo àwọn ọ̀nà oriṣiriṣi láti ṣàmúlò ìsọfúnni Zcash blockchain. 
+[Wá síbi tá a wà yìí]](https://github.com/openkoder/benchmarks_zcash/)
 
-[Wá síbi ìfọ̀rọ̀wérọ̀]](https://shieldedlabs.net/)
+---
 
-## O kàn máa ń sọ pé:
+## Àwọn Àpèsè Tó Gbọ̀ Sí I Lórí Lílo Zcash
 
-JustZappIt jẹ ohun elo ifiranṣẹ ikọkọ fun iOS ati Android. In-chat Zcash (ZEC) fifiranṣẹ n bọ ati pe iwọ yoo lo apamọwọ ita bi Zodl lati firanṣẹ ZEC si awọn olubasọrọ taara ni ibaraẹnisọrọ. Ko si KYC. Ko ṣe alagbata.
+### ìyókù
+Àpẹẹrẹ àjọṣepọ̀, ètò ìṣòwò láti ìsàlẹ dé òkè tí a kọ sórí Zcash. 
+[Wá síbi tá a wà yìí]](https://aftok.com)
 
-[Wá síbi ìfọ̀rọ̀wérọ̀]](https://www.justzappit.xyz/)
-[Ẹ lọ sí Github](https://github.com/JustZappIt/justZappIt/tree/main)
+### ZK Global Credit (ìyẹn ilé-ifowópamọ́)
+Awọn ohun elo ti o ni ẹtọ fun awọn owo-owo ati eto idibo Zcash, lati ṣe afihan ifitonileti ayanfẹ, igbaradi idunadura, orukọ rere kọja aala, ati iṣakoso idaabobo. 
+[Wá síbi tá a wà yìí]](https://voting.zkglobalcredit.tech/)
 
-##  Gbigba Awọn jara fidio Zcash 
+### Free2z (ì ì í ë ¤)
+Ọpa fun ẹda akoonu ti a ko mọ ati awọn ọrẹ aladani ni agbara nipasẹ Zcash. 
+[Wá síbi tá a wà yìí]](https://free2z.cash)
 
-Mastering Zcash Video Series jẹ́ ọ̀kan lára àwọn ẹ̀kọ́ tí ó kúnjú ìwọ̀n nípa Zcash, tó ń bo ìmọ̀-ẹ̀rọ rẹ̀, ìdìwé-ìfiwéra, ọrọ̀-ajé, àti ìṣàkóso.
+### Ìnáwó Rhea
+Ọna ìléwọ́ Zcash tí ó pèsè àpò-ìwé aṣàwákiri àti ọ̀nà déètí fífi. 
+[Àwùjọ àwọn èèyàn]](https://forum.zcashcommunity.com/t/rhea-finance-zcash-gateway-browser-wallet-cross-chain-defi/55073)
 
-[Wá síbi ìfọ̀rọ̀wérọ̀]](https://www.youtube.com/watch?v=YWUzh_VtrR8)
-[Ẹ lọ sí Github](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/263)
+### BazaarSwap (ì ì í ë ¤)
+Zcash-abinibi DEX ti o mu awọn aabo ZEC sinu Web3 DeFi nipasẹ WalletConnect. 
+[Àwùjọ àwọn èèyàn]](https://forum.zcashcommunity.com/t/introducing-bazaarswap-bringing-zec-to-web3-defi/55479)
 
-##  Zcast
+### DCRDEX ì ¬ì§ ë ¤ë¥1⁄4 í ' ê°
+Decreds decentralized exchange tí ó ń ṣe àtìlẹ́yìn fún Zcash. 
+[Wá síbi tá a wà yìí]](https://dex.decred.org)
 
-Zcast jẹ́ àwo orin Zcash tí ó wà ní èdè Spanish, níbi tí o ti lè rí gbogbo ìwífún tó ṣẹ̀ṣẹ̀ dé àti èyí tí ó péjú nípa Zcash.
+### Owó Àkáǹtì Onígboyà
+Àkáǹtì àwòkẹ́kò́ó pẹlú ìfọwọ́sowọpọ Zcash. 
+[Wá síbi tá a wà yìí]](https://brave.com/wallet/)
 
-[Wá síbi ìfọ̀rọ̀wérọ̀]](https://www.youtube.com/@ZcastEsp)
+---
 
-## Zebra Coverage-Guided Fuzzing Infrastructure (Àwọn ohun èlò tí ó ń darí ìbòjú)
+## Àwọn àjọ & àwọn yàrá ìwádìí
 
-Zebra Coverage-Guided Fuzzing Infrastructure focuses on systematically testing Zebra’s critical parsing, networking, and cryptographic components against malformed inputs, enabling continuous, automated discovery of security vulnerabilities and edge-case bugs.
+### Àwọn Ilé Iṣẹ́ Ààbò
+Ẹgbẹ́ alátìlẹyìn Zcash tí ó dá-tó, ti owó ẹ̀bùn fi ń ṣètìlẹ́yìn ní Switzerland. Àjọ àkọ́kọ́ nínú ètò àyíká tó kò tíì gba ìtìlẹyìn láti inú Ìpèsè fún Idagbasoke tàbí èrè ìdínà dídánilẹnuwò kankan rí. 
+[Wá síbi tá a wà yìí]](https://shieldedlabs.net/)
 
-[Wá síbi ìfọ̀rọ̀wérọ̀]](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/234)
-
-## ZecDev
-
-ZecDev Launchpad is a Linux first toolkit that brings up a Zebra regtest network with a faucet, Unified Address fixtures, and your choice of lightwalletd or Zaino, plus a reusable GitHub Action that runs golden end to end shielded flows on every pull request. It closes a critical gap as zcashd is deprecated by giving every wallet, SDK, and service a fast repeatable path for local development and CI that catches breakage before users do.
-
-[Wá síbi ìfọ̀rọ̀wérọ̀]](https://github.com/zecdev)
-
-## TIPZ
-
-TIPZ is a live, non-custodial tipping platform where every tip arrives as shielded ZEC. Fully private ZEC-to-ZEC payments are integrated via Zodl, alongside cross-chain on-ramps from ETH, USDC, USDT, and SOL via NEAR Intents.
-
-[Wá síbi ìfọ̀rọ̀wérọ̀]](https://tipz.cash/)
-[Ẹ lọ sí Github](https://github.com/tipz-cash/tipz.cash)
-
-## Zectastic.com
-
-Zectastic.com ni Ẹ ṣe ifilọlẹ roketi Zcash, Ẹ ṣere ere iranti, ki ẹ si tẹle ayẹyẹ flippening laaye
-
-[Wá síbi ìfọ̀rọ̀wérọ̀]](https://zectastic.com/)
-
-## Àwòrán ilẹ̀ Zecmap
-
-Zecmap jẹ́ àwòrán àgbáyé ti àwọn ilé-iṣẹ́ tí ó gba Zcash. Ṣawari, ṣayẹwo, kí o sì kópa sí àwọn ibi tí ó ń ṣe ìtìlẹ́yìn fún ìsanwó tí ó dá lórí ìpamọ́.
-
-[Wá síbi ìfọ̀rọ̀wérọ̀]](https://zecmap.com/)
-
-
-## ZODL
-
-[![ZODL ì ì](https://github.com/Electric-Coin-Company/zashi-android/blob/main/assets/logos/Zashi_Logo_green_lg.png?raw=true)](https://zodl.app/)
-
-ZODL (tẹlẹ Zashi) ni awọn flagship Zcash apamọwọ lati Shielded Labs. wa lori iOS ati Android, ZOLD nfun a rọrun, elege iriri fun fifiranṣẹ ati gbigba shielded ZEC. o tun faye gba [NU7 coinholder voting](https://forum.zcashcommunity.com/t/nu7-sentiment-polling-questions-for-community-review-coinholder-voting-via-zodl/55713) fún ìṣàkóso ìlànà.
-
-[Wá síbi ìfọ̀rọ̀wérọ̀]](https://zodl.app/)
-
-## Overpay.com - Àwọn ojúewé wọ̀nyí jápọ̀ mọ́
-
-Overpay.com jẹ ki o lo ZEC nibikibi  iyipada ZEC ti o ni aabo si awọn rira agbaye gidi. Lọwọlọwọ ni alpha.
-
-[Ìkéde Ìpàdé]](https://forum.zcashcommunity.com/t/introducing-overpay-com-spend-zec-anywhere-alpha/54798)
-
-## Owó àpò dúdú
-
-Noir Wallet is a new privacy-focused Zcash wallet unveiled in May 2026, designed for simple and private ZEC transactions.
-
-[Ìwọ̀n Àkọ́kọ́]](https://forum.zcashcommunity.com/t/first-look-at-noir-wallet/55667)
-
-## ZecVault (ìkànnì ìpamọ́)
-
-ZecVault jẹ́ àpamọ́ owó tí ó dá lórí ìlépa tí a kọ sí orí àwọn ìnáwó tí a fi ààbò Zcash ṣe.
-
-[Ìsọfúnni tó wà nínú fóònù]](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
-
-## Rhea Finance
-
-Rhea Finance jẹ ẹnu-ọna Zcash ti o pese apamọwọ aṣawakiri ati iraye si DeFi agbelebu. O sopọ awọn oniwun ZEC si ilolupo eda abemi DeFi gbooro.
-
-[Ìsọfúnni tó wà nínú fóònù]](https://forum.zcashcommunity.com/t/rhea-finance-zcash-gateway-browser-wallet-cross-chain-defi/55073)
-
-## BazaarSwap
-
-BazaarSwap mu ZEC wa si Web3 DeFi nipasẹ DEX abinibi Zcash. O ṣepọ WalletConnect v2 ati jẹ ki awọn paṣipaarọ ti ko ni idojukọ lo lilo ZEC ti o ni aabo.
-
-[Ìsọfúnni tó wà nínú fóònù]](https://forum.zcashcommunity.com/t/introducing-bazaarswap-bringing-zec-to-web3-defi/55479)
-
-## Zkool
-
-Zkool ni arọpo si Ywallet, o ṣe atilẹyin fun awọn ẹya ilana Zcash tuntun pẹlu awọn iṣowo Orchard ti o ni aabo.
-
-[Ìsọfúnni tó wà nínú fóònù]](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
-
-## Ilé ẹ̀kọ́ Nẹtiwọọki Zcash
-
-Ile-iwe Nẹtiwọọki Zcash pese akoonu ẹkọ ti a ṣe ilana fun awọn olumulo Zcash tuntun ati awọn olupilẹṣẹ.
-
-[Ìsọfúnni tó wà nínú fóònù]](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
-
-___
-
-## Àwọn ohun èlò tó ń lo Zcash
-
-[ìrọ̀lẹ́](https://aftok.com)
-
-aftok jẹ́ oríṣi tuntun ti àjọṣepọ̀, àjọ-iṣẹ́ láti ìsàlẹ̀ wá. ó jẹ́ ọ̀nà fún ìwọ àti àwọn ọ̀rẹ́ tí o fọkàn tán láti kọ nǹkan pọ̀ kí wọ́n sì sanwó fún ìsapá yín, láìsí ipò ọlá tàbí ìnáwó ilé iṣẹ́ àbáláyé.
-
-[Atomic DEX]](https://atomicdex.io/en/)
-
-AtomicDEX jẹ apamọwọ owo pupọ, afara, ati DEX ti a fi sinu ohun elo kan. Awọn ẹya alagbeka / tabili wa.
-
-[Àpò Àpamọ́ Onígboyà]](https://brave.com/es/wallet/)
-
-A secure crypto wallet directly integrated into Brave Browser that supports Zcash transparent transactions.
-
-[DCRDEX](https://dex.decred.org)
-
-DCRDEX jẹ àdàkọ tí a kò dáwọ́lé tí Decred Project kọ. Olùṣàmúlò orí kọ̀ǹpútà nìkan.
-
-[Ìwádìí àwọn tó ní owó ẹyọ Zcash]](https://forum.zcashcommunity.com/t/coin-holder-polling-instructions/40170)
-
-Ọna kan nipa eyiti ibo ti o ni iwuwo owo-owo waye lori blockchain Zcash nipa lilo awọn adirẹsi T ati ṣeto nipasẹ apejọ agbegbe.
+### Àwọn oníwà ìbàjẹ́-ọkàn
+Ile-iṣẹ ti a ṣe igbẹhin si asiri, iṣakoso ara ẹni ati awọn iye cypherpunk. Ṣiṣe irinṣẹ fun awọn eniyan kọọkan ti o nilo lati daabobo igbesi aye oni nọmba wọn. 
+[Wá síbi tá a wà yìí]](https://cypherpunk.com/)
