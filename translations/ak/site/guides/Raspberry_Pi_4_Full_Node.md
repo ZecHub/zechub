@@ -149,9 +149,9 @@ Hwɛ sɛ wallet no rebua, na bere a Zebra wie ne syncing no so ara pɛ no, ɛne 
 Zebra ne Zallet yɛ CPU mu mmerɛ wɔ setup bere a ɛboro zcashd kyekyɛ so, efiri sɛ worehwɛ binaries/containers. 4 GB RAM yɛ mfitiaseɛ pa; hwɛ nea w'atumi adi dwuma no yiye na fa di dwuma ntɛmntɛm. `htop` na sɛ wuhu senea wɔsakra nneɛma pii a, susuw 8 GB Pi 4 no ho.
 
 ## Nnwumakuo a ɛboa ma wɔn nsa ka sika no bi.
-- [Zebra Nhoma]](https://zebra.zfnd.org)  Official Zebra documentation (Nkrataa ahodoɔ a etwa sɛ yɛhyehyɛ wɔ kasa no mu)
-- [Zallet Nhoma no]](https://zcash.github.io/wallet)  Zallet krataa a w'atwerԑ no mu nsɛm nyinaa
-- [zcashd Nkɔsoɔ a wɔtɔ no ho nkrataa]](https://z.cash/support/zcashd-deprecation)
+- [Zebra Nhoma](https://zebra.zfnd.org)  Official Zebra documentation (Nkrataa ahodoɔ a etwa sɛ yɛhyehyɛ wɔ kasa no mu)
+- [Zallet Nhoma no](https://zcash.github.io/wallet)  Zallet krataa a w'atwerԑ no mu nsɛm nyinaa
+- [zcashd Nkɔsoɔ a wɔtɔ no ho nkrataa](https://z.cash/support/zcashd-deprecation)
 
 ---
 

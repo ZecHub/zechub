@@ -13,8 +13,8 @@
 Zcash Shielded Assets (ZSA) are a proposed protocol extension that would let assets **other than ZEC** — stablecoins, governance tokens, or any custom asset — live inside Zcash's shielded pool, with the sender, the recipient, and the amount kept private.
 
 - Nea ɛyɛ: Custom assets a ɛte sɛ ERC-20, nanso wɔabɔ ho ban.
-- **Nea ɔreyɛ no:** [QEDIT]](https://qed-it.com/), wɔ Zcash Foundation mmoa a wɔde ma no mu, ne Electric Coin Company ayɛ adwuma.
-- **Sɛnea wɔ kyerɛ no:** [ZIP code 226]](https://zips.z.cash/zip-0226) (de akɔto na wɔ ahyew) ne [ZIP code 227] nyinaa bom.](https://zips.z.cash/zip-0227) (Ɔfã a wɔyi no).
+- **Nea ɔreyɛ no:** [QEDIT](https://qed-it.com/), wɔ Zcash Foundation mmoa a wɔde ma no mu, ne Electric Coin Company ayɛ adwuma.
+- **Sɛnea wɔ kyerɛ no:** [ZIP code 226](https://zips.z.cash/zip-0226) (de akɔto na wɔ ahyew) ne [ZIP code 227] nyinaa bom.](https://zips.z.cash/zip-0227) (Ɔfã a wɔyi no).
 - **Status:** no live on mainnet. ZSA protocol na w'ahyehyɛ sɛ wɔde bɛyɛ adwuma wɔ Network Upgrade 7 (NU7).
 - ** Fees:** always paid in ZEC, regardless of the asset being moved. - Akwantu no a wɔfa so de kɔ mmeae foforo biara yɛ nea wɔde di dwuma bere nyinaa.
 
@@ -26,9 +26,9 @@ Zcash Shielded Assets (ZSA) yɛ nhyehyɛeɛ a wɔabɔ ho dawuro sɛ wɔbɛboa am
 
 Sɛ w'ani gye [ERC-20 ho a, fa yɛ nhwehwɛmu na hu sɛ:](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) Token a y'atwe no asi hɔ wɔ Ethereum blockchain so, ZSAs yɛ ma Zcash te sɛ ERC-20 tokens ne Ethereum.
 
-Zcash Shielded Assets bɛma kwan ama aberɛbɔ tokens wɔ zcash blockchain so, na ɛnam saa nti no ɛbɛma tokens a ɛnnyɛ [ZEC]](/guides/using-zec-privately) sɛ wobenya mfasoɔ afi din a wɔnnim ne kokoam nsɛm mu wɔ Zcash blockchain so.
+Zcash Shielded Assets bɛma kwan ama aberɛbɔ tokens wɔ zcash blockchain so, na ɛnam saa nti no ɛbɛma tokens a ɛnnyɛ [ZEC](/guides/using-zec-privately) sɛ wobenya mfasoɔ afi din a wɔnnim ne kokoam nsɛm mu wɔ Zcash blockchain so.
 
-A major potential use of ZSAs would be to issue stablecoins on the Zcash protocol. Stablecoins are cryptocurrencies that peg their value to a fiat currency, such as the US Dollar or Euro. Currently, some of the most widely circulated stablecoins are ERC-20 tokens such as [USDC](https://www.circle.com/en/usdc) ne [Dai no ho a'a]](https://docs.makerdao.com/).
+A major potential use of ZSAs would be to issue stablecoins on the Zcash protocol. Stablecoins are cryptocurrencies that peg their value to a fiat currency, such as the US Dollar or Euro. Currently, some of the most widely circulated stablecoins are ERC-20 tokens such as [USDC](https://www.circle.com/en/usdc) ne [Dai no ho a'a](https://docs.makerdao.com/).
 
 Ade foforo a wobetumi de ZSA adi dwuma ne sɛ wɔbɛma wɔn kwan ama wɔadi akwankyerɛ so. SƐ nhwɛso no, Zechub (ɔno na ɔhyehyɛ wiki yi) yɛ Decentralized Autonomous Organization (DAO), enti obetumi abɔ ma n'asafofoɔ anya tumi atow aba afa nhyehyɛe ho anaa aban gyinaesi ahorow mu.
 
@@ -141,7 +141,7 @@ ZSAs yɛ adwuma wɔ Zcash nnɛ. "Ɛnyɛ saa, ɛyɛ a na ɛreyɛ ayɛ sɛ wɔbɛf
 ## Nkrataafa a Ɛwɔ Ho Nsɛm
 
 - [Halo] Ɔyɛ ɔkɛse.](/zcash-tech/halo)  the proving system behind Orchard, protocol ZSA extends
-- [Zk-SNARKs]](/zcash-tech/zk-snarks)  no-knowledge proofs a ma kwan sɛ wobԑdi ntransem bi so na wɔayi w'ano
-- [Nsuo a wɔabɔ ho ban]](/using-zcash/shielded-pools)  baabi a ZSAs bɛtena afa ZEC ho
-- [Nsɛm a wobɛyɛ de ayi ntoboa]](/using-zcash/transactions)  sɛdeɛ Zcash transaction yɛ no bom a,
-- [Zebra Node a Ɛwɔ Mu Yiye]](/zcash-tech/zebra-full-node)  node implementations used in the ZSA demo above (ZSA) - noode implementation use, a.k.a., "nood" implemention;
+- [Zk-SNARKs](/zcash-tech/zk-snarks)  no-knowledge proofs a ma kwan sɛ wobԑdi ntransem bi so na wɔayi w'ano
+- [Nsuo a wɔabɔ ho ban](/using-zcash/shielded-pools)  baabi a ZSAs bɛtena afa ZEC ho
+- [Nsɛm a wobɛyɛ de ayi ntoboa](/using-zcash/transactions)  sɛdeɛ Zcash transaction yɛ no bom a,
+- [Zebra Node a Ɛwɔ Mu Yiye](/zcash-tech/zebra-full-node)  node implementations used in the ZSA demo above (ZSA) - noode implementation use, a.k.a., "nood" implemention;

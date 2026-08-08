@@ -13,7 +13,7 @@ Blockchain explorers are simply tools that allow one to visualize what has alrea
 
 - [Ìwádìí Ìdìpọ̀ Zcash](https://mainnet.zcashexplorer.app/)
 
-- [Ìjókòó alágbèéká]](https://blockchair.com)
+- [Ìjókòó alágbèéká](https://blockchair.com)
 
 - [3ì ì ì](https://3xpl.com/zcash)
 

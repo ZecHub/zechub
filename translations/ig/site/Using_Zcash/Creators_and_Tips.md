@@ -6,10 +6,10 @@
 
 ## Isiokwu Ndị Dị na Ya
 
-1. [Zcash.me]](#zcashme)
-2. [Ihe nketa]](#tipz)
-3. [Ihe Mere Nzuzo Ji Dị Ndị Okike Mkpa]](#why-privacy-matters-for-creators)
-4. [Ihe ndị ọzọ]](#additional-resources)
+1. [Zcash.me](#zcashme)
+2. [Ihe nketa](#tipz)
+3. [Ihe Mere Nzuzo Ji Dị Ndị Okike Mkpa](#why-privacy-matters-for-creators)
+4. [Ihe ndị ọzọ](#additional-resources)
 
 ---
 
@@ -24,7 +24,7 @@
 Ihe. Nkọwapụta ihe.
 |-------------------|---------|
 ** Ebe nrụọrụ weebụ** [https://zcash.me/](https://zcash.me/) |
- @zcashme  #twitter# [@zcashmE]](https://x.com/zcashme) |
+ @zcashme  #twitter# [@zcashmE](https://x.com/zcashme) |
  Ọdịdị Profaịlụ  `zcash.me/[username]` |
  **Ọnọdụ** Live (na atụmatụ na mmepe)
 
@@ -68,7 +68,7 @@ Ngwa mkpanaka. Ahụmịhe ekwentị zuru oke.
 Ihe. Nkọwapụta ihe.
 |-------------------|---------|
 ** Ebe nrụọrụ weebụ** [https://tipz.cash/](https://tipz.cash/) |
- @tipz_cash  #twitter# [@tipsz_ cash]](https://x.com/tipz_cash) |
+ @tipz_cash  #twitter# [@tipsz_ cash](https://x.com/tipz_cash) |
  Ọdịdị Profaịlụ  `tipz.cash/@[username]` |
 **Ọnọdụ**. Ndụ.
 

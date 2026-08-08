@@ -34,7 +34,7 @@ Jambo moja muhimu ni kwamba si lazima ununue 1 *ZEC* kamili.
 
 Baada ya kununua baadhi * ZEC *, unaweza kutaka kuhamisha kwa mkoba Zcash. 
 
-[Makala hii inaeleza]](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) kwa nini kuweka *ZEC* katika mkoba ni muhimu. 
+[Makala hii inaeleza](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) kwa nini kuweka *ZEC* katika mkoba ni muhimu. 
 
 Tunapendekeza kutumia [wallet kulindwa](https://zechub.wiki/wallets) kwa sababu pochi hizi kutoa vipengele faragha kwamba kufanya * ZEC * kipekee. 
 

@@ -37,5 +37,5 @@ Want to learn more about the Zcash ecosystem? Here's a list of podcasts you can 
 </li>
 </ul>
 
-Ṣé a ò rí ìtòlẹ́sẹẹsẹ tó dára? Ẹ kàn sí wa lórí [Discord]](https://discord.gg/zcash) a ó sì fi kún orúkọ náà.
+Ṣé a ò rí ìtòlẹ́sẹẹsẹ tó dára? Ẹ kàn sí wa lórí [Discord](https://discord.gg/zcash) a ó sì fi kún orúkọ náà.
 

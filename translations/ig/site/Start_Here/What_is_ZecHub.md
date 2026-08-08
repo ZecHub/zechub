@@ -6,22 +6,22 @@
 # Gịnị bụ ZecHub?
 ---
 
-ZecHub bụ ebe a na-ahụ maka agụmakwụkwọ nke Zcash. [ZecHub]](http://zechub.xyz) is to provide an educational platform where community members can work together on creating, validating, and promoting content that supports the Zcash ecosystem. We do this through a few mechanisms.
+ZecHub bụ ebe a na-ahụ maka agụmakwụkwọ nke Zcash. [ZecHub](http://zechub.xyz) is to provide an educational platform where community members can work together on creating, validating, and promoting content that supports the Zcash ecosystem. We do this through a few mechanisms.
 
-1. [Nkuzi nkuzi]](https://www.youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O)
-2. [Wiki-docs]](https://zechub.wiki/)
+1. [Nkuzi nkuzi](https://www.youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O)
+2. [Wiki-docs](https://zechub.wiki/)
 3. [A Podcast na-agba ndị obodo ajụjụ ọnụ.](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O).
 4. [A Weekly Zcash akwụkwọ akụkọ.](https://zechub.substack.com/)
 
 The tutorials, short-form blogs, and newsletter are open sourced and hosted on GitHub, meaning anyone from the community can contribute. This is to ensure content is accurate and that the channel itself suffers from no single point of failure.
 
-Ọ bụrụ na ị bụ onye ọhụrụ nye Zcash, jiri [nduzi a]](/start-here/new-user-guide).****
+Ọ bụrụ na ị bụ onye ọhụrụ nye Zcash, jiri [nduzi a](/start-here/new-user-guide).****
 
 ## Otu esi eme mgbanwe na ZecHub
 
 ---
 
-1. Gaa na [ZecHub's Github repo]](https://github.com/ZecHub/zechub)
+1. Gaa na [ZecHub's Github repo](https://github.com/ZecHub/zechub)
    
 2. Mepụta akaụntụ Github ọhụrụ ma ọ bụ banye na nke gị
    
@@ -51,7 +51,7 @@ N'ihi na ịnọgide na-enwe otu ụdị anya ka ZecHub, e nwere a template nke 
 3. No inappropriate content.
 ```
 
-Onyinye: [n'ebe a]](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
+Onyinye: [n'ebe a](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
 <a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
     <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>

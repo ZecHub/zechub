@@ -4,7 +4,7 @@
 
 
 # PGP* kwa Crypto Podcast
-[banner pgp]](/content-images/221758326-06cea3f5-4c9e-4466-b9ee-738546-01f88aec39.webp)
+[banner pgp](/content-images/221758326-06cea3f5-4c9e-4466-b9ee-738546-01f88aec39.webp)
 
 Karibu kwenye "PGP* (Pretty Good Policy) for Crypto Podcast", mpango wa Electric Coin Co.!
 

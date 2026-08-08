@@ -27,7 +27,7 @@ Tẹle awọn igbesẹ wọnyi lati fi sori ẹrọ ati ṣiṣe **Arti** bi a�
 
 #### Lati Fi Rust sori ẹrọ:
 
-1. Lọ sí ojú-ìwé Rust [Ojú-ìkànnì]](https://www.rust-lang.org/).
+1. Lọ sí ojú-ìwé Rust [Ojú-ìkànnì](https://www.rust-lang.org/).
 2. Tẹle awọn itọnisọna fifi sori ẹrọ fun eto iṣiṣẹ rẹ.
 3. Ṣayẹwo fifi sori ẹrọ nipa ṣiṣe:
    
@@ -38,13 +38,13 @@ Tẹle awọn igbesẹ wọnyi lati fi sori ẹrọ ati ṣiṣe **Arti** bi a�
 Èyí yóò jẹ́ ìdánilójú wípé o ní àtúnṣe tuntun ti Rust tí ó wà lórí ẹ̀rọ rẹ.
 
 #### **Àkíyèsí fún Àwọn Olùṣàmúlò Windows**:
-- Rust le fi sori ẹrọ lori Windows nipasẹ [**Rustup**]](https://rustup.rs/), ohun toolchain installer. Rii daju wipe o ti tun ṣeto soke a ibaramu kọ ayika (o le nilo ** Visual Studio Kọ irinṣẹ** on Windows).
+- Rust le fi sori ẹrọ lori Windows nipasẹ [**Rustup**](https://rustup.rs/), ohun toolchain installer. Rii daju wipe o ti tun ṣeto soke a ibaramu kọ ayika (o le nilo ** Visual Studio Kọ irinṣẹ** on Windows).
   
 ---
 
 ### **Igbesẹ 2: Ṣàtúnṣe Ibi-ipamọ Arti**
 
-Lati gba ẹya tuntun ti alabara Arti, o nilo lati ṣe ẹda ibi ipamọ naa lati [**GitLab**]](https://gitlab.torproject.org/tpo/core/arti).
+Lati gba ẹya tuntun ti alabara Arti, o nilo lati ṣe ẹda ibi ipamọ naa lati [**GitLab**](https://gitlab.torproject.org/tpo/core/arti).
 
 #### Àwọn ìgbésẹ̀:
 1. Ṣii ebute rẹ (Iṣẹ-ìmọ̀, PowerShell, tabi Git Bash lori Windows).
@@ -129,7 +129,7 @@ Eyi yoo ṣalaye gbogbo ijabọ lati awọn ohun elo rẹ nipasẹ ** Tor nẹti
 
 Bí o bá ní ìfẹ́ láti ṣe àfikún sí ìdàgbàsókè ti Arti, ìwọ lè ṣàwárí kókó náà kí o sì ṣètìlẹyìn nípa lílo GitLab.
 
-- **Rípò ìsọfúnni: [Arti GitLab Repository]](https://gitlab.torproject.org/tpo/core/arti)
+- **Rípò ìsọfúnni: [Arti GitLab Repository](https://gitlab.torproject.org/tpo/core/arti)
 - **Ṣàdàkọ Àtẹ̀wò**:
   ```sh
   git clone https://gitlab.torproject.org/tpo/core/arti.git
@@ -171,7 +171,7 @@ Bí o bá ní ìfẹ́ láti ṣe àfikún sí ìdàgbàsókè ti Arti, ìwọ l
 
 
 
-Ti o ba nife ninu lati se iranwo fun ise agbese na, ma ṣe ṣiyemeji lati wo koodu naa jade, pin ibi ipamọ naa, ki o si fi ibeere isopọpọ kan ranṣẹ. Fun alaye siwaju sii, awọn imudojuiwọn ati iṣatunṣe iṣoro, tọka si [Arti GitLab Repository]](https://gitlab.torproject.org/tpo/core/arti). 
+Ti o ba nife ninu lati se iranwo fun ise agbese na, ma ṣe ṣiyemeji lati wo koodu naa jade, pin ibi ipamọ naa, ki o si fi ibeere isopọpọ kan ranṣẹ. Fun alaye siwaju sii, awọn imudojuiwọn ati iṣatunṣe iṣoro, tọka si [Arti GitLab Repository](https://gitlab.torproject.org/tpo/core/arti). 
 
 Ẹ gbádùn ìrírí yín pẹ̀lú Arti àti ìjábá aláyọ̀!
 

@@ -6,10 +6,10 @@
 
 ## Eƒe Akpawo
 
-1. [Zcash.me]](#zcashme)
-2. [Aɖaŋuɖoɖo]](#tipz)
-3. [Nusi Ta Wòle Be Nuwo Naganɔ Ame Sia Me o]](#why-privacy-matters-for-creators)
-4. [Gɔmeɖose Bubuwo]](#additional-resources)
+1. [Zcash.me](#zcashme)
+2. [Aɖaŋuɖoɖo](#tipz)
+3. [Nusi Ta Wòle Be Nuwo Naganɔ Ame Sia Me o](#why-privacy-matters-for-creators)
+4. [Gɔmeɖose Bubuwo](#additional-resources)
 
 ---
 

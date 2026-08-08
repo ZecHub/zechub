@@ -94,8 +94,8 @@ Pepper Sync doa ŋusẽ Zcash ƒe nu gbagbewo katã to eƒe gaɖaka me nɔnɔ na
 ### Gɔmedzedze: Zingo 2.0 ƒe dɔwɔwɔ gɔme ɖeɖe
 
 1. Download the Wallet - Get the right version from [Zingo GitHub releases page] Eʋevi la ƒe kɔpi le axa si nye Zingo Github ɖewo dzi.](https://github.com/zingolabs/zingolib)
-2. Ðo Woƒe Agbaɖakawo - Wɔ bubu alo gbugbɔ ɖo tso nuŋɔŋlɔ aɖe si li xoxo me. [Zingo 2.0 kple Zingo Labs]](https://www.youtube.com/watch?v=FREwMzf_LlM)
-3. Na Pepper Sync nanɔ dɔ wɔm - Kpɔ ŋgɔyiyi ƒe dzesiwo dzi ne wò gaɖaka ɖo. [Pepper Synch Run]](https://x.com/ZingoLabs/status/1961871338441724191)
+2. Ðo Woƒe Agbaɖakawo - Wɔ bubu alo gbugbɔ ɖo tso nuŋɔŋlɔ aɖe si li xoxo me. [Zingo 2.0 kple Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
+3. Na Pepper Sync nanɔ dɔ wɔm - Kpɔ ŋgɔyiyi ƒe dzesiwo dzi ne wò gaɖaka ɖo. [Pepper Synch Run](https://x.com/ZingoLabs/status/1961871338441724191)
 4. Dze Zcash zazã gɔme - Ðoɖo kple xɔxɔ le ZEC si dzi woalé ŋku ɖo me ne ewɔwɔ vɔ ko.
 5. Ðiɖi le Nuwo Dzi Kpɔkpɔ ŋu - Ne app la tsi anyi alo kadodoa me gblẽ, Pepper Sync gawɔa dɔ ake.
 
@@ -139,16 +139,16 @@ Menye ɖeko Zingo 2.0 kple Pepper Sync nye ŋgɔyiyi ko o; enye afɔɖeɖe gã a
 
 ## Axawo Siwo Do Ka Kple Wo Nɔewo
 
-- [Zcash Gadzɛwo ƒe Ðɔɖɔɖotaɖi]](/zcash-tech/zcash-wallet-syncing)  ale si gaƒoɖokuigbalẽwo ƒe dɔwɔwɔ wɔa dɔ le Zcash-mɔ̃a me.
-- [Adzagba Kpuivi ƒe Dzesiwo]](/zcash-tech/lightwallet-nodes)  mɔ̃ɖaŋunu siwo dzi gaɖabaɖa bɔbɔe abe Zingo ene wɔa dɔ le.
+- [Zcash Gadzɛwo ƒe Ðɔɖɔɖotaɖi](/zcash-tech/zcash-wallet-syncing)  ale si gaƒoɖokuigbalẽwo ƒe dɔwɔwɔ wɔa dɔ le Zcash-mɔ̃a me.
+- [Adzagba Kpuivi ƒe Dzesiwo](/zcash-tech/lightwallet-nodes)  mɔ̃ɖaŋunu siwo dzi gaɖabaɖa bɔbɔe abe Zingo ene wɔa dɔ le.
 - [Zaino] Nyee nye ame si le wo dome.](/zcash-tech/zaino)  agbalẽ si Zingo ƒe dɔwɔha wɔ.
-- [Gbɔdzigbalẽvi siwo le ga me]](/wallets)  Zcash gaɖigbalẽviwo kple woƒe nɔnɔmewo katã.
+- [Gbɔdzigbalẽvi siwo le ga me](/wallets)  Zcash gaɖigbalẽviwo kple woƒe nɔnɔmewo katã.
 
 ## Nusɔsrɔ̃ Bubuwo
 
-- [Zingo! GitHub ƒe Nudzraɖoƒe]](https://github.com/zingolabs/zingolib)
-- [Zcash Ƒuƒoƒo ƒe Takpekpewɔƒe]](https://forum.zcashcommunity.com/)
-- Ametakpɔkpɔ ƒe Ŋgɔdonyawo - [Zingo Labs Twitter]](https://twitter.com/ZingoLabs)
+- [Zingo! GitHub ƒe Nudzraɖoƒe](https://github.com/zingolabs/zingolib)
+- [Zcash Ƒuƒoƒo ƒe Takpekpewɔƒe](https://forum.zcashcommunity.com/)
+- Ametakpɔkpɔ ƒe Ŋgɔdonyawo - [Zingo Labs Twitter](https://twitter.com/ZingoLabs)
 
 ___
 ___

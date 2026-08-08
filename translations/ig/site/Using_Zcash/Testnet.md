@@ -130,7 +130,7 @@ A **faucet** bụ ọrụ na-enye mkpụrụ ego TAZ n'efu maka ule:
 - Na-ezere mkpa iji kpochapụ TAZ aka 
 
 **Ihe atụ:** 
-1. Gaa na Testnet faucet (dịka, [testnet.zecfaucet.com](https://testnet.zecfaucet.com) [fauzec.com]](https://fauzec.com/))  
+1. Gaa na Testnet faucet (dịka, [testnet.zecfaucet.com](https://testnet.zecfaucet.com) [fauzec.com](https://fauzec.com/))  
 2. Tinye adreesị Testnet gị 
 3. Arịrịọ TAZ 
 4. Nweta TAZ ozugbo iji malite ule 

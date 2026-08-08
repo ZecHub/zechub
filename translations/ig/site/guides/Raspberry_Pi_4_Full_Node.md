@@ -149,8 +149,8 @@ Nyochaa na obere akpa ahụ zara, ma ozugbo Zebra mechara mmekọrịta ya, nke 
 Zebra and Zallet are generally lighter on CPU during setup than compiling zcashd was, since you're running pre-built binaries/containers. 4 GB RAM is a reasonable starting point; monitor with `htop` ma tụlee 8 GB Pi 4 variant ọ bụrụ na ị hụ nnukwu swapping.
 
 ## Ihe ndị ọzọ e ji enyere ndụ aka
-- [Akwụkwọ Zebra]](https://zebra.zfnd.org)  akwụkwọ ndị ọrụ Zebra
-- [Akwụkwọ Zallet]](https://zcash.github.io/wallet)  akwụkwọ akụkọ Zallet na-ekwu maka ya.
+- [Akwụkwọ Zebra](https://zebra.zfnd.org)  akwụkwọ ndị ọrụ Zebra
+- [Akwụkwọ Zallet](https://zcash.github.io/wallet)  akwụkwọ akụkọ Zallet na-ekwu maka ya.
 - [zcashd End-of-Support notice](https://z.cash/support/zcashd-deprecation)
 
 ---

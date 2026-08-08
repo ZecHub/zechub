@@ -93,8 +93,8 @@ Nípa mímú ìrírí àpò owó sunwọ̀n sí i, Pepper Sync ń fún gbogbo è
 
 ### Bẹrẹ: gbígbé pẹlú Zingo 2.0
 
-1. Ṣe igbasilẹ Iwe-owo naa - Gba ẹya ti o tọ lati oju-iwe [Zingo GitHub fifunni]](https://github.com/zingolabs/zingolib)
-2. Ṣeto apamọwọ rẹ - ṣẹda tuntun kan tabi mu pada lati inu gbolohun ọrọ irugbin ti o wa tẹlẹ. [Zingo 2.0 pẹlu Zingo Labs]](https://www.youtube.com/watch?v=FREwMzf_LlM)
+1. Ṣe igbasilẹ Iwe-owo naa - Gba ẹya ti o tọ lati oju-iwe [Zingo GitHub fifunni](https://github.com/zingolabs/zingolib)
+2. Ṣeto apamọwọ rẹ - ṣẹda tuntun kan tabi mu pada lati inu gbolohun ọrọ irugbin ti o wa tẹlẹ. [Zingo 2.0 pẹlu Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
 3. Jẹ ki Pepper Sync Ṣiṣẹ - Wo awọn afihan ilọsiwaju bi imudojuiwọn apamọwọ rẹ. [Pepper Synch Run](https://x.com/ZingoLabs/status/1961871338441724191)
 4. Bẹrẹ Lilo Zcash - Fi ati gba awọn ohun elo ti o ni aabo ZEC lẹsẹkẹsẹ bi isọdọkan ba pari.
 5. Rọ́ra nípa àwọn ìkórìíra - Bí app bá ti pa tàbí tí àjápò ba já, Pepper Sync yóò tún padà bẹ̀rẹ̀ nídàá.
@@ -139,16 +139,16 @@ Zingo 2.0 pẹlu Pepper Sync kì í ṣe àtúnṣe lásán; ó jẹ ìyípadà 
 
 ## Àwọn ojúewé tó ní í ṣe pẹ̀lú rẹ̀
 
-- [Ìṣètò Ìpínwó Zcash]](/zcash-tech/zcash-wallet-syncing)  bí ìfiwéra àpò ṣe ń ṣiṣẹ́ ní gbogbo ètò ìṣẹ̀dá Zcash.
-- [Àwọn Ìpín Lightwallet]](/zcash-tech/lightwallet-nodes)  ìlé-iṣẹ́ tí àpò owó tó rọrùn bíi Zingo ń bá lò.
+- [Ìṣètò Ìpínwó Zcash](/zcash-tech/zcash-wallet-syncing)  bí ìfiwéra àpò ṣe ń ṣiṣẹ́ ní gbogbo ètò ìṣẹ̀dá Zcash.
+- [Àwọn Ìpín Lightwallet](/zcash-tech/lightwallet-nodes)  ìlé-iṣẹ́ tí àpò owó tó rọrùn bíi Zingo ń bá lò.
 - [Zaino] Èmi náà sì ni.](/zcash-tech/zaino)  àtòjọ ìsọfúnni tí ẹgbẹ́ Zingo ṣe.
-- [Àwọn àpamọ́wọ́n]](/wallets)  gbogbo ìwé ìsọfúnni nípa àwọn àpò Zcash àti ohun tí wọ́n ní.
+- [Àwọn àpamọ́wọ́n](/wallets)  gbogbo ìwé ìsọfúnni nípa àwọn àpò Zcash àti ohun tí wọ́n ní.
 
 ## Mímọ Sí I
 
-- [Zingo! Àpamọ́ GitHub]](https://github.com/zingolabs/zingolib)
-- [Ìjọ Ìjùmọ̀ Zcash]](https://forum.zcashcommunity.com/)
-- Àwọn Ìkéde Ìjọba - [Ìwé Twitter Zingo Labs]](https://twitter.com/ZingoLabs)
+- [Zingo! Àpamọ́ GitHub](https://github.com/zingolabs/zingolib)
+- [Ìjọ Ìjùmọ̀ Zcash](https://forum.zcashcommunity.com/)
+- Àwọn Ìkéde Ìjọba - [Ìwé Twitter Zingo Labs](https://twitter.com/ZingoLabs)
 
 ___
 ___

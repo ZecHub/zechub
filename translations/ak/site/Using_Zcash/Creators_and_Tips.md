@@ -8,8 +8,8 @@
 
 1. [Zcash.me] no yɛ ɔfã biara a wɔhwɛ so ma wɔn sika](#zcashme)
 2. [TipZ] no ho asεm.](#tipz)
-3. [Dɛn nti na ahobammɔ ho hia ma wɔn a wɔyɛ nneɛma no]](#why-privacy-matters-for-creators)
-4. [Nneɛma foforo a yɛde bɛboa]](#additional-resources)
+3. [Dɛn nti na ahobammɔ ho hia ma wɔn a wɔyɛ nneɛma no](#why-privacy-matters-for-creators)
+4. [Nneɛma foforo a yɛde bɛboa](#additional-resources)
 
 ---
 

@@ -37,7 +37,7 @@ Kódà, tá a bá fi ọ̀rọ̀ pé àwọn èèyàn ò kà wá sí mọ́, àwọ
 * Ṣe afẹyinti wallet.dat rẹ (tabi eyikeyi faili apamọwọ / ibi ipamọ bọtini miiran) lati oju opo zcashd rẹ.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ì1⁄2 ì ¤í ì ']](/content-images/SJ_0mUtTxg-1441185a72.svg)
+![ì1⁄2 ì ¤í ì '](/content-images/SJ_0mUtTxg-1441185a72.svg)
 </div>
 
 * Fi zcash.conf rẹ pamọ ati eyikeyi awọn eto aṣa.
@@ -63,7 +63,7 @@ O le ṣe igbasilẹ kan ti a ti kọ tẹlẹ tabi kọ lati orisun.
 Lori ** Linux **/** macOS**:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ì ¬í ì2 ]](/content-images/HJhYu8Y6el-d2198f22c9.svg)
+![ì ¬í ì2 ](/content-images/HJhYu8Y6el-d2198f22c9.svg)
 </div>
 
 This installs the latest stable version of zebrad.
@@ -118,7 +118,7 @@ Nípasẹ̀ Ibi ìkóhunsílẹ̀ Àkọ́kọ́
 Lori zcashd, kó àwọn kókó ìpamọ́ rẹ jáde:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ì ¤ë¥1⁄4 ì 1⁄4ì ì ']](/content-images/rJzgzwFagx-4a0874f250.svg)
+![ì ¤ë¥1⁄4 ì 1⁄4ì ì '](/content-images/rJzgzwFagx-4a0874f250.svg)
 </div>
 
 * Ni Zallet, yan Awọn bọtini Gbigbe tabi aṣayan ti o jọra.
@@ -199,4 +199,4 @@ Tàbí kí wọ́n ṣàyẹ̀wò àkọsílẹ̀.
 Pẹlu aabo ti o da lori Rust, apẹrẹ modulu, ati irinṣẹ ti o dara julọ, iṣeto yii rii daju pe node ati apamọwọ rẹ wa ni ọjọ iwaju-ṣetan bi ilolupo eda abemi Zcash tẹsiwaju lati dagbasoke.
 
 Ìmọ̀ràn: Pa àwọn kókó àpamọ́ rẹ mọ́, kí o sì máa ṣe àtìlẹyìn àwọn ìsọfúnni Zallet rẹ déédéé.
-Lọ sí [zebra.zfnd.org]](https://zebra.zfnd.org) àti [zallet.zfnd.org](https://zallet.zfnd.org) fún àtúnṣe àti ìtìlẹyìn àwùjọ.
+Lọ sí [zebra.zfnd.org](https://zebra.zfnd.org) àti [zallet.zfnd.org](https://zallet.zfnd.org) fún àtúnṣe àti ìtìlẹyìn àwùjọ.

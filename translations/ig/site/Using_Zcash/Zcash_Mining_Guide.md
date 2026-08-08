@@ -27,7 +27,7 @@ This guide focuses on mining Zcash using personal hardware (e.g., a home PC with
 - ** Wallet:** Akpa ego Zcash iji nata ịkwụ ụgwọ. Na-atụ aro ya:
   - Echebe (nkeonwe): Zashi Wallet, Zingo (Mobile/Desktop) YWallet (mobile/desktop).
   - Ihe na-enweghị ihe ọ bụla (dị mfe ma obere nzuzo): Edge Wallet, Zecwallet Lite.
-  - Budata site na [akpa ego]](https://zechub.wiki/wallets). Mepụta adreesị echedoro (na-amalite na 'zs') maka nzuzo ma ọ bụrụ na ọdọ mmiri ahụ kwadoro ya.
+  - Budata site na [akpa ego](https://zechub.wiki/wallets). Mepụta adreesị echedoro (na-amalite na 'zs') maka nzuzo ma ọ bụrụ na ọdọ mmiri ahụ kwadoro ya.
 
 ### Ndị ọzọ
 - Eletrik: Gbakọọ ụgwọ. GPU na-eji 150-300W kwa kaadị; ASICs 1000W+.
@@ -36,7 +36,7 @@ This guide focuses on mining Zcash using personal hardware (e.g., a home PC with
 ## Ntuziaka Nzọụkwụ-site-nzọụkwụ Iji Jikọọ na Mmiri Ngwuputa Mmanụ Ala
 
 ### Nzọụkwụ 1: Tọọ obere akpa Zcash gị
-1. Budata ma wụnye obere akpa site na ebe nrụọrụ weebụ Zcash [akpa ego]](https://zechub.wiki/wallets).
+1. Budata ma wụnye obere akpa site na ebe nrụọrụ weebụ Zcash [akpa ego](https://zechub.wiki/wallets).
 2. Mepụta obere akpa ego ọhụrụ ma chekwaa mkpụrụ okwu gị n'ụzọ dị nchebe.
 3. Nweta adreesị nnata (ọkacha mma maka nzuzo). Dee ya, dịka ọmụmaatụ: `zs1exampleaddress...`.
 4. Ọ bụrụ na iji adreesị doro anya (na-amalite site 't'), ọ dị mfe ma nye obere nzuzo.

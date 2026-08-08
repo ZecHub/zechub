@@ -93,9 +93,9 @@ Site na imeziwanye ahụmịhe obere akpa, Pepper Sync na-ewusi usoro okike Zcas
 
 ### Ịmalite: ịbanye na Zingo 2.0
 
-1. Budata obere akpa - Nweta ụdị ziri ezi site na [Zingo GitHub releases page]](https://github.com/zingolabs/zingolib)
-2. Tọọ obere akpa gị - Mepụta nke ọhụrụ ma ọ bụ weghachite site na mkpụrụ okwu dị. [Zingo 2.0 with Zingo Labs]](https://www.youtube.com/watch?v=FREwMzf_LlM)
-3. Ka Pepper Sync Run - Lelee ihe ngosi ọganihu ka obere akpa gị na-emelite. [Pepper Synch Run]](https://x.com/ZingoLabs/status/1961871338441724191)
+1. Budata obere akpa - Nweta ụdị ziri ezi site na [Zingo GitHub releases page](https://github.com/zingolabs/zingolib)
+2. Tọọ obere akpa gị - Mepụta nke ọhụrụ ma ọ bụ weghachite site na mkpụrụ okwu dị. [Zingo 2.0 with Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
+3. Ka Pepper Sync Run - Lelee ihe ngosi ọganihu ka obere akpa gị na-emelite. [Pepper Synch Run](https://x.com/ZingoLabs/status/1961871338441724191)
 4. Bido Iji Zcash - Na-ezipụ ma na-anata ZEC echedoro ozugbo syncing zuru ezu.
 5. Na-enwe obi iru ala banyere nkwụsị - Ọ bụrụ na ngwa ahụ mechie ma ọ bụ njikọ adaba, Pepper Sync ga-amaliteghachi akpaghị aka.
 
@@ -140,15 +140,15 @@ Zingo 2.0 na Pepper Sync abụghị naanị nkwalite; ọ bụ ihe dị elu maka
 ## Peeji ndị metụtara ya
 
 - [Zcash Wallet Syncing] (Nke a bụ ihe dị mkpa)](/zcash-tech/zcash-wallet-syncing)  etu akpa ego si arụ ọrụ n'ime usoro okike Zcash.
-- [Nọmba Lightwallet Nodes]](/zcash-tech/lightwallet-nodes)  ihe owuwu a na-eji obere akpa ego dị ka Zingo eme.
+- [Nọmba Lightwallet Nodes](/zcash-tech/lightwallet-nodes)  ihe owuwu a na-eji obere akpa ego dị ka Zingo eme.
 - [Zaino] Ọ bụ onye na-eme ihe nkiri.](/zcash-tech/zaino)  indexer mepụtara site na Zingo otu.
-- [Ebe ego ndị dị na ya]](/wallets)  akwụkwọ ndekọ aha zuru ezu nke obere akpa Zcash na atụmatụ ha.
+- [Ebe ego ndị dị na ya](/wallets)  akwụkwọ ndekọ aha zuru ezu nke obere akpa Zcash na atụmatụ ha.
 
 ## Ịmụtakwu Ihe
 
-- [Zingo! GitHub Ebe nchekwa]](https://github.com/zingolabs/zingolib)
+- [Zingo! GitHub Ebe nchekwa](https://github.com/zingolabs/zingolib)
 - [Zcash Community Forum] Ọ bụ ihe na-atọ ụtọ.](https://forum.zcashcommunity.com/)
-- Nkwupụta Ndị Ọrụ - [Zingo Labs Twitter]](https://twitter.com/ZingoLabs)
+- Nkwupụta Ndị Ọrụ - [Zingo Labs Twitter](https://twitter.com/ZingoLabs)
 
 ___
 ___

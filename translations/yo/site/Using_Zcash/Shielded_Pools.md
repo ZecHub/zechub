@@ -56,7 +56,7 @@ Orchard ṣe ilọsiwaju lilo, ṣiṣe ati asiri ni pataki nipa idinku idasil�
 
 Loni, Orchard jẹ ṣiṣan akọkọ fun Zcash. Sibẹsibẹ, agbegbe n ṣe ayẹwo gbigbe iwaju si adagun tuntun ti a pe ni Ironwood, eyiti yoo pese idaniloju afikun nipa iduroṣinṣin ipese ZEC aabo lakoko mimu awọn iṣeduro aṣiri Zcash pamọ.
 
-[Àwọn àpamọ́ tí a fi ìbòjú Zcash ṣe]](/wallets) now support Orchard.
+[Àwọn àpamọ́ tí a fi ìbòjú Zcash ṣe](/wallets) now support Orchard.
 
 ____
 
@@ -90,7 +90,7 @@ Sprout ni àkọ́kọ́ nínú àwọn ìlànà ìpamọ̀ tí kò ní àṣẹ
 
 Awọn adirẹsi Sprout ni a mọ nipasẹ awọn lẹta meji akọkọ wọn eyiti o jẹ "zc" nigbagbogbo. O ti pe orukọ rẹ ni "Sprout" fun idi pataki lati tẹnumọ pe sọfitiwia naa jẹ ọdọ, blockchain budding pẹlu agbara nla lati dagba ati ṣiṣi silẹ fun idagbasoke. 
 
-Sprout ti a lo bi ohun elo tete fun [Zcash slow start Mining]](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) èyí tí ó mú kí ìfúnni ZEC àti èrè Block fún àwọn Miners. 
+Sprout ti a lo bi ohun elo tete fun [Zcash slow start Mining](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) èyí tí ó mú kí ìfúnni ZEC àti èrè Block fún àwọn Miners. 
 
 Bi eto ilolupo Zcash ti n tẹsiwaju lati faagun pẹlu nọmba awọn iṣowo ideri, o ṣe akiyesi pe jara Sprout Series di opin ati ṣiṣe to kere si nigbati o ba de asiri olumulo, iṣiro owo-owo ati sisẹ. Eyi yori si atunṣe ti nẹtiwọọki ati Sapling Upgrade . 
 
@@ -166,8 +166,8 @@ Ti o ba ti ṣiṣẹ nipasẹ awọn igbesoke nẹtiwọọki ọjọ iwaju, Ir
 
 ## Àwọn ojúewé tó ní í ṣe pẹ̀lú rẹ̀
 
-- [Àwọn àpamọ́wọ́n]](/using-zcash/wallets)  Àwọn àpò-ìpamọ́ wo ló ń ṣe ìtìlẹyìn fún àwọn adágún Orchard àti Sapling?
-- [Àwọn ìnáwó]](/using-zcash/transactions)  Bí a ṣe ń fi àwọn ìnáwó tí ó ní ààbò ránṣẹ́
-- [Ìràwọ̀ ZEC]](/using-zcash/buying-zec)  Gbígba ZEC kí o tó lò ó nínú àwọn àgbájọ.
-- [Àwọn ZK-SNARKs]](/zcash-tech/zk-snarks)  Ìpilẹ̀ṣẹ̀ ìkọsílẹ̀ àwọn àgbá tí a fi ọṣọ bojú
+- [Àwọn àpamọ́wọ́n](/using-zcash/wallets)  Àwọn àpò-ìpamọ́ wo ló ń ṣe ìtìlẹyìn fún àwọn adágún Orchard àti Sapling?
+- [Àwọn ìnáwó](/using-zcash/transactions)  Bí a ṣe ń fi àwọn ìnáwó tí ó ní ààbò ránṣẹ́
+- [Ìràwọ̀ ZEC](/using-zcash/buying-zec)  Gbígba ZEC kí o tó lò ó nínú àwọn àgbájọ.
+- [Àwọn ZK-SNARKs](/zcash-tech/zk-snarks)  Ìpilẹ̀ṣẹ̀ ìkọsílẹ̀ àwọn àgbá tí a fi ọṣọ bojú
 - [Kí ni ZEC àti Zcash?](/start-here/what-is-zec-and-zcash)  Ìtàn nípa ìpamọ́ Zcash

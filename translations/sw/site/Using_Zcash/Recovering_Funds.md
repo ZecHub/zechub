@@ -16,7 +16,7 @@ Kwa kudumisha udhibiti wa funguo zako binafsi, mchakato ahueni ni daima inawezek
 
 Ni muhimu kwa watumiaji kuelewa hatari zinazohusika katika kushughulika na funguo za kibinafsi na kuweka hizi kufuli kulindwa kutokana na ufikiaji usioidhinishwa. usalama wa fedha inategemea wajibu mtumiaji ya kuhifadhi yao binafsi keys.
 
-> ** Kabla ya kuanza:** recovery guides used to point at Ywallet. its developer has confirmed it will not be updated for the Ironwood (NU6.3) network upgrade, so it can no longer follow the chain. Use **Zkool**, which is by the same developer and is the maintained successor. Angalia [Ywallet haidumishwi tena]](#ywallet-is-no-longer-maintained) chini ya ukurasa huu.
+> ** Kabla ya kuanza:** recovery guides used to point at Ywallet. its developer has confirmed it will not be updated for the Ironwood (NU6.3) network upgrade, so it can no longer follow the chain. Use **Zkool**, which is by the same developer and is the maintained successor. Angalia [Ywallet haidumishwi tena](#ywallet-is-no-longer-maintained) chini ya ukurasa huu.
 
 ## Fedha Recovery na Zkool
 
@@ -29,7 +29,7 @@ Hali mbili zimezungumziwa hapa:
 
 ### 1) Kurudisha Akaunti
 
-1. Kufunga Zkool kutoka [releases ukurasa]](https://github.com/hhanh00/zkool2/releases) na kuifungua.
+1. Kufunga Zkool kutoka [releases ukurasa](https://github.com/hhanh00/zkool2/releases) na kuifungua.
 2. Katika ** Akaunti Meneja** (ukurasa kuu), bonyeza kitufe cha ** +** kufikia screen ya ** New Account**
 3. Ingiza ** Jina la Akaunti** kutambua akaunti hii.
 4. Kuwasha ** Rejesha Akaunti?** Hii inaonyesha muhimu na kuzaliwa urefu mashamba
@@ -90,7 +90,7 @@ Kila hatua ni shughuli yake mwenyewe, hivyo kila mmoja hulipa ada.
 
 ## Deep Recovery na ZExCavator
 
-[ZExCavator]](https://github.com/zingolabs/zexcavator) ni chombo cha kufufua kutoka Zingo Labs kwa ajili ya kesi ambapo kurejesha kawaida haifanyi kazi, kama vile faili iliyoharibiwa au sehemu.
+[ZExCavator](https://github.com/zingolabs/zexcavator) ni chombo cha kufufua kutoka Zingo Labs kwa ajili ya kesi ambapo kurejesha kawaida haifanyi kazi, kama vile faili iliyoharibiwa au sehemu.
 
 > Mwisho wake update kabla ya upgrades wa hivi karibuni mtandao, hivyo kutibu kama mapumziko na kuthibitisha yoyote kufufuliwa funguo katika kuhifadhiwa mkoba kabla kutegemea matokeo.
 
@@ -107,4 +107,4 @@ Kama tayari una fedha kukaa katika Ywallet, kurejesha sawa mbegu maneno ya ndani
 - [Mifuko ya fedha](/using-zcash/wallets) - ambayo pochi ni iimarishwe na Ironwood yao tayari
 - [Ironwood](/zcash-tech/ironwood) - nini kuboresha iliyopita na kwa nini fedha kuhamia
 - [Memo za](/using-zcash/memos) - jinsi memo encrypted kazi
-- [Kuona funguo za]](/zcash-tech/viewing-keys) - kusoma tu kupata bila matumizi ya nguvu
+- [Kuona funguo za](/zcash-tech/viewing-keys) - kusoma tu kupata bila matumizi ya nguvu

@@ -173,7 +173,7 @@ N'ozuzu, ihe akaebe na-enweghị ihe ọmụma bụ ngwá ọrụ iji mezuo omum
 
 Zcash is a public blockchain that facilitates private transactions. zk-SNARK's are used to prove that a private transaction is valid within the network consensus rules without revealing any other details about the transaction. 
 
-[Ihe E Ji Akụziri Mmadụ Vidio]](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - In this lecture Ariel Gabizon provides descriptions of the Zcash Note Commitment Tree, Blind Polynomial Evaluation & Homomorphically Hidden Challenges and how they are implemented on the network. 
+[Ihe E Ji Akụziri Mmadụ Vidio](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - In this lecture Ariel Gabizon provides descriptions of the Zcash Note Commitment Tree, Blind Polynomial Evaluation & Homomorphically Hidden Challenges and how they are implemented on the network. 
 
 Gụọ akwụkwọ Halo 2 .](https://zcash.github.io/halo2/index.html) maka ozi ndị ọzọ.
 

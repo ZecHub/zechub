@@ -37,7 +37,7 @@ Le Venezuela la, teƒe gbogbo aɖewo li (ƒe ŋutɔŋutɔ kple internet dzi) siw
 
 1.  **Sheila Vargas** Nutritionist Blogger Dzɔdzɔmeŋutinunyala Mentorship 
 
-[@SheEmprende_ le Habɔbɔdzikpɔlawo ƒe Nyakakadɔwɔƒewo]](https://www.sheemprende.com/enlaces-sheemprende/)Eʋã ɖe fefewɔƒea le eƒe Galletas de la FeliZidad si nya kpɔ ŋutɔ ta.](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
+[@SheEmprende_ le Habɔbɔdzikpɔlawo ƒe Nyakakadɔwɔƒewo](https://www.sheemprende.com/enlaces-sheemprende/)Eʋã ɖe fefewɔƒea le eƒe Galletas de la FeliZidad si nya kpɔ ŋutɔ ta.](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
 
 Tsɔ kpe ɖe eƒe kukuawo ŋu la, enaa nu bubuwo hã eye nusi nyo wu enye si: àte ŋu atsɔ ZEC axe fe!
 
@@ -87,7 +87,7 @@ Rosa ko alɔgbɔnu kple dada tsɔ ɖee fia be yeaxɔ Zcash. *
 
 Nyatakakadzraɖoƒe: [https://somosdulceros.com/](https://somosdulceros.com/) 
 
-** Hadomegbenɔnɔ ŋuti nyatakakadzraɖoƒe:** [Instagram]](https://www.instagram.com/somos_dulceros) [X-Taflatsɛwɔƒe]](https://twitter.com/RosaMRangel) [Free2z]](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+** Hadomegbenɔnɔ ŋuti nyatakakadzraɖoƒe:** [Instagram](https://www.instagram.com/somos_dulceros) [X-Taflatsɛwɔƒe](https://twitter.com/RosaMRangel) [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:** 
 
@@ -125,9 +125,9 @@ Nu nyui bubu siwo Papeles a Color wɔ kple asi.
 
 ** Hadomegbenɔnɔ ŋuti nyatakakadzraɖoƒewo** 
 
-[Instagram ƒe video]](https://instagram.com/papelesacolor) [Free2z]](https://free2z.cash/PapelesaColor) 
+[Instagram ƒe video](https://instagram.com/papelesacolor) [Free2z](https://free2z.cash/PapelesaColor) 
 
-[Ati si ŋu wodea dzesi le]](https://linktr.ee/Papelesacolor)
+[Ati si ŋu wodea dzesi le](https://linktr.ee/Papelesacolor)
 
 **Zcash Unified Address** 
 
@@ -155,7 +155,7 @@ Nyatakakadzraɖoƒe: [https://emprendedorasdigitales.org/](https://emprendedoras
 
 ** Hadomegbenɔnɔ ŋuti nyatakakadzraɖoƒewo:** 
 
-[Instagram ƒe video]](https://instagram.com/emprendedorasdigitalesve) [Nɔnɔmetata si le axa 6]](https://twitter.com/EmpreDigiVE) [Telegram si woɖo ɖe wo]](https://t.me/emprendedorasdigitalesve) [LinkedIn]](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
+[Instagram ƒe video](https://instagram.com/emprendedorasdigitalesve) [Nɔnɔmetata si le axa 6](https://twitter.com/EmpreDigiVE) [Telegram si woɖo ɖe wo](https://t.me/emprendedorasdigitalesve) [LinkedIn](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
 
 **Unified Address:** 
 
@@ -180,7 +180,7 @@ Nyatakakadzraɖoƒe: [https://gorbrit.com/](https://gorbrit.com/)
 
 ** Hadomegbenɔnɔ Ŋuti Nyatakakadzraɖoƒewo**
 
-[Telegram] Woɖo eŋu nam be:](https://t.me/gorbritsm) [Instagram ƒe video]](https://www.instagram.com/gorbritsm/) [X-Tafɔdzisasrã]](https://twitter.com/GorBritSM) | 
+[Telegram] Woɖo eŋu nam be:](https://t.me/gorbritsm) [Instagram ƒe video](https://www.instagram.com/gorbritsm/) [X-Tafɔdzisasrã](https://twitter.com/GorBritSM) | 
 
 GorBrit lɔ̃na ɖe fexexenu vovovowo dzi, siwo dometɔ aɖewoe nye Cryptocurrencies. Woƒe ɖeka enye Zcash.**
 
@@ -210,7 +210,7 @@ Eƒe dɔwo nya nu le Zcash ƒe nutoa me nyuie to eƒe kpekpeɖeŋu si wòna na Z
 
 ** Hadomegbenɔnɔ ŋuti nyatakakadzraɖoƒewo:**
 
-[Telegram] Woɖo eŋu nam be:](https://t.me/Robmarn) [X-Taflatsɛwɔƒe]](https://twitter.com/robmarn) [Free2z]](https://free2z.cash/robmarn)
+[Telegram] Woɖo eŋu nam be:](https://t.me/Robmarn) [X-Taflatsɛwɔƒe](https://twitter.com/robmarn) [Free2z](https://free2z.cash/robmarn)
 
  Barquisimeto - Venezuela 
 
@@ -224,7 +224,7 @@ Dzedze kple asi dzeaniwo le Karin Beauty Studio.
 
 ** Hadomegbenɔnɔ ŋuti nyatakakadzraɖoƒewo:** 
 
-[Instagram ƒe video]](https://instagram.com/karinbeautystudio) 
+[Instagram ƒe video](https://instagram.com/karinbeautystudio) 
 
 **Unified Address:** 
 
@@ -250,7 +250,7 @@ Nuwɔwɔ si me atsyɔ̃ le nyuie na nutatawo. Corona de brilllitos
 
 ** Hadomegbenɔnɔ Ŋuti Nyatakakadzraɖoƒewo**
 
-[Instagram ƒe video]](https://instagram.com/coronadebrillitos) 
+[Instagram ƒe video](https://instagram.com/coronadebrillitos) 
 
 **Zcash Unified Address** 
 
@@ -282,7 +282,7 @@ Tecnopapapi ye nye amesi wòle be nàƒo ka kplii!
 
 ** Hadomegbenɔnɔ ŋuti nyatakakadzraɖoƒewo** 
 
-Free2z [Telegram] Eʋegbe me:](https://t.me/Lexihel) [YouTube]](https://youtube.com/@tecnopapapi) [X-Taflatsɛwɔƒe]](https://twitter.com/tecnopapapi) [TikTok]](https://www.tiktok.com/@lexihel) [Instagram ƒe video]](https://www.instagram.com/tecnopapapi/) [Facebook ƒe ŋkɔ]](https://www.facebook.com/tecnopapapi) 
+Free2z [Telegram] Eʋegbe me:](https://t.me/Lexihel) [YouTube](https://youtube.com/@tecnopapapi) [X-Taflatsɛwɔƒe](https://twitter.com/tecnopapapi) [TikTok](https://www.tiktok.com/@lexihel) [Instagram ƒe video](https://www.instagram.com/tecnopapapi/) [Facebook ƒe ŋkɔ](https://www.facebook.com/tecnopapapi) 
 
 Tecnopapapi lɔ̃na ɖe ga siwo wotsɔ wɔa adzɔnu le Internet dzi (siwo dometɔ aɖewoe nye 3ZEC) kple nuxexlẽ ƒe mɔnuwo bubuwo hã ŋu. 
 
@@ -318,11 +318,11 @@ Nuɖuvɔsa. Kplɔ wo yi aƒe me. Nudzraɖoƒewo
 
 ![BackgroundEraser_20230901_114615839.png](/content-images/_unavailable.svg)
 
-[Aƒedzraɖoƒe si nye alleginiristorante.com]](http://www.alleginiristorante.com) (Wole etutu dzi)
+[Aƒedzraɖoƒe si nye alleginiristorante.com](http://www.alleginiristorante.com) (Wole etutu dzi)
 
 ** Hadomegbenɔnɔ ŋuti nyatakakadzraɖoƒewo** 
 
-[Instagram ƒe video]](https://instagram.com/allegriniristorante) [X-Taflatsɛwɔƒe]](https://twitter.com/AllegriniRisto) [Telegram si woɖo ɖe wo]](https://t.me/AllegriniRistorante) [Pinterest ƒe video]](https://pin.it/6z8hq6F)
+[Instagram ƒe video](https://instagram.com/allegriniristorante) [X-Taflatsɛwɔƒe](https://twitter.com/AllegriniRisto) [Telegram si woɖo ɖe wo](https://t.me/AllegriniRistorante) [Pinterest ƒe video](https://pin.it/6z8hq6F)
 
 (Esusɔ vie ko le [free2z.cash] dzi)](http://free2z.cash). )
 

@@ -37,5 +37,5 @@ Ne èdi be yeanya nu geɖe tso Zcash ƒe nutoa me ŋu la, podcast siwo nàte ŋu
 </li>
 </ul>
 
-Ðe podcast nyui aɖe to mía sia? [Discord]](https://discord.gg/zcash) eye míatsɔe akpe ɖe eŋu.
+Ðe podcast nyui aɖe to mía sia? [Discord](https://discord.gg/zcash) eye míatsɔe akpe ɖe eŋu.
 

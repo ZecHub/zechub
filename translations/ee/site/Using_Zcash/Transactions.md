@@ -13,7 +13,7 @@ ZEC is a widely-used digital asset for payments, offering strong privacy feature
 - Adrɛs siwo ŋu wotrɔ asi le la dzea egɔme kple: `u` or `z`Adrɛs siwo me kɔna nyuie la dzea egɔme kple . `t` eye wòwɔa nu abe Bitcoin ƒe adrɛs ene.
 - Wòe atia fe sia fe si nàxe. Ameɖokui ta kpɔkpɔ nye tiatia aɖe si Zcash na wò, menye ɖoɖowɔɖi si ame bubu ate ŋu awɔ ɖe dziwò o.
 - Ne ga siwo nèxɔna le asitsatsa aɖe me la nyea nu si ŋu amewo megatea ŋu dea ha kplii o. Eya ta ne ame aɖewo gblɔ be yewomate ŋu awɔ naneke tso eŋu o hã, ele vevie ŋutɔ be wò ŋutɔ nàkpɔ wo dzi nyuie hafi woaɖo ŋuwò.
-- Fewo [ZIP 317]](https://zips.z.cash/zip-0317) Ga si woɖena ɖe gaƒleƒewo la ate ŋu ana woƒe dɔwɔnawo natsi megbe.
+- Fewo [ZIP 317](https://zips.z.cash/zip-0317) Ga si woɖena ɖe gaƒleƒewo la ate ŋu ana woƒe dɔwɔnawo natsi megbe.
 
 ## Nuwɔna Siwo Wotsɔna Kpena Ðe Ame Ŋu
 
@@ -67,7 +67,7 @@ Coinomi Wallet: Ena nu etɔ̃ siwo woɖona be woaxe fe na ame la le esi wole sue
 
 ## Vodada Siwo Dzɔna Zi Geɖe La
 
-- **Ne míebui be gaɖaka ɖe sia ɖe si le ZEC dzi ate ŋu aɖoe ɖa ame bubuwo ko.** Gaƒokplo siwo me wozãa gaku vovovowo le la dometɔ geɖe doa alɔ nuŋɔŋlɔdzesi aɖe si nye Zcash ƒe akpa si dze gaglã. Kpɔ gaɖakaa ƒe ƒuƒoƒowo ne nàdi be yeakpɔ eƒe nya ɣaɣlawo ta hafi wòazã wo o. [Gaƒoƒewo]](https://zechub.wiki/using-zcash/wallets) axa sia gblɔa esiawo na tiatia ɖesiaɖe.
+- **Ne míebui be gaɖaka ɖe sia ɖe si le ZEC dzi ate ŋu aɖoe ɖa ame bubuwo ko.** Gaƒokplo siwo me wozãa gaku vovovowo le la dometɔ geɖe doa alɔ nuŋɔŋlɔdzesi aɖe si nye Zcash ƒe akpa si dze gaglã. Kpɔ gaɖakaa ƒe ƒuƒoƒowo ne nàdi be yeakpɔ eƒe nya ɣaɣlawo ta hafi wòazã wo o. [Gaƒoƒewo](https://zechub.wiki/using-zcash/wallets) axa sia gblɔa esiawo na tiatia ɖesiaɖe.
 - **Axɔ ɖe adrɛs si dzi nu sia nu le la me eye nàgblẽ ga siwo nèɖo ɖi.** Ame aɖeke mate ŋu akpɔ nudzɔdzɔawo o, eya ta ne ame aɖe va tso teƒe ma emegbe hã ate ŋu anɔ eŋu. Ne wokpɔe be yewokpɔ gaa ko la, woagblẽ eƒe akpa aɖewo nɛ.
 - **Treating privacy as something you turn on once.** Each transaction is a separate choice. Sending shielded today does not undo a transparent payment you made last week.
 - **Alesi woagbugbɔ azã adrɛs si me nuwo katã le la zazã.** Esi wònye be wokpɔa nu siwo wowɔna to edzi ɣesiaɣi ta la, address ɖeka aɖe ko zãm wole tsɔ dea kadodo gaxeɖetawo dome vivivi evɔ susu aɖeke meli si tae wòle be woawɔ esia o.
@@ -79,14 +79,14 @@ Míeɖe kuku de dzesii be mɔnu si le dedie wu na ZEC zazã enye asitsatsa siwo 
 
 ## Ganyawo ƒe Kpekpeɖeŋu
 
-[Adzesi siwo le ʋu me]](https://zips.z.cash/)
+[Adzesi siwo le ʋu me](https://zips.z.cash/)
 
 ## Axawo Siwo Do Ka Kple Wo Nɔewo
 
-- [Gbɔdzigbalẽvi siwo le ga me]](/using-zcash/wallets)  ga si woɖena ɖe akplo dzi, eye esiwo me wodzona le gota ko la.
-- [Tsiƒedɔwo le Tsiɖɔɖuwo me]](/using-zcash/shielded-pools)  Sapling kple Orchard, tsi siwo me miaƒe ga si le dedie la nɔna.
-- [Nɔnɔmetatawo]](/using-zcash/memos)  nyatakaka siwo ŋu wotrɔ asi le si woate ŋu azã kple nuŋɔŋlɔwo atsɔ akpɔ wo ta la me nyawo.
-- [Adzesi Siwo Wozãna Le Mɔ̃ɖoɖo Me si Dzi Nuteƒewɔwɔ le]](/using-zcash/transparent-exchange-addresses)  TEX adrɛswo kple nusitae asitsatsaƒewo zãa wo ɖo
-- [Gakpɔla ƒe Tɔtrɔdzraɖo]](/using-zcash/custodial-exchanges)  gadzraɖoƒe siwo doa alɔ ga si woɖea le adzame to mɔ aɖe dzi la ƒe ŋkɔwo.
+- [Gbɔdzigbalẽvi siwo le ga me](/using-zcash/wallets)  ga si woɖena ɖe akplo dzi, eye esiwo me wodzona le gota ko la.
+- [Tsiƒedɔwo le Tsiɖɔɖuwo me](/using-zcash/shielded-pools)  Sapling kple Orchard, tsi siwo me miaƒe ga si le dedie la nɔna.
+- [Nɔnɔmetatawo](/using-zcash/memos)  nyatakaka siwo ŋu wotrɔ asi le si woate ŋu azã kple nuŋɔŋlɔwo atsɔ akpɔ wo ta la me nyawo.
+- [Adzesi Siwo Wozãna Le Mɔ̃ɖoɖo Me si Dzi Nuteƒewɔwɔ le](/using-zcash/transparent-exchange-addresses)  TEX adrɛswo kple nusitae asitsatsaƒewo zãa wo ɖo
+- [Gakpɔla ƒe Tɔtrɔdzraɖo](/using-zcash/custodial-exchanges)  gadzraɖoƒe siwo doa alɔ ga si woɖea le adzame to mɔ aɖe dzi la ƒe ŋkɔwo.
 
 ## ZEC yi ZAT Gbedola

@@ -41,7 +41,7 @@
 
 ---
 
-## [Ebe dị n'akụkụ]](https://edge.app)
+## [Ebe dị n'akụkụ](https://edge.app)
 ![logo](/content-images/image-2024-11-28-091312254-b2389ad332.webp "Edge")
 - Ngwaọrụ: Mobile
 - Sistemụ arụmọrụ: Android; iOS
@@ -51,7 +51,7 @@
 
 ---
 
-## [A pụghị igbochi ya]](https://unstoppable.money)
+## [A pụghị igbochi ya](https://unstoppable.money)
 ![logo](/content-images/image-2024-11-28-091200540-815817fda7.webp "Unstoppable")
 - Ngwaọrụ: Mobile
 - Sistemụ arụmọrụ: Android; iOS
@@ -62,7 +62,7 @@
 
 ---
 
-## [eZcash]](https://blog.nerdbank.net/ezcash-app)
+## [eZcash](https://blog.nerdbank.net/ezcash-app)
 ![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
 - Ngwaọrụ: Mobile  Desktọpụ
 - Sistemụ arụmọrụ: Android  iOS Windows
@@ -126,7 +126,7 @@
 
 ---
 
-## [Zcashd na-ekwu okwu]](https://github.com/zcash/zcash)
+## [Zcashd na-ekwu okwu](https://github.com/zcash/zcash)
 ![logo](/content-images/zcashd-92df3291ad.webp "Zcashd")
 - Ngwaọrụ: Desktọpụ
 - Sistemụ arụmọrụ: Windows  Linux  macOS
@@ -137,7 +137,7 @@
 
 ---
 
-## [Nwere obi ike]](https://brave.com/web3-privacy/)
+## [Nwere obi ike](https://brave.com/web3-privacy/)
 ![logo](/content-images/image-2024-01-13-170934865-733c5d91c6.webp "Brave")
 - Ngwaọrụ: Web
 - Sistemụ arụmọrụ: Nchọgharị
@@ -177,7 +177,7 @@
 
 ---
 
-## [Ebe E Si Nweta Ihe Na-enye Obi Ike]](https://trustwallet.com/download)
+## [Ebe E Si Nweta Ihe Na-enye Obi Ike](https://trustwallet.com/download)
 ![logo](/content-images/trustwallet-bec43acb59.webp "Trust Wallet")
 - Ngwaọrụ: Mobile  Web
 - Sistemụ arụmọrụ: Android  iOS Browser
@@ -187,7 +187,7 @@
 
 ---
 
-## [Ọpụpụ 2:7]](https://www.exodus.com/zcash-wallet-zec)
+## [Ọpụpụ 2:7](https://www.exodus.com/zcash-wallet-zec)
 ![logo](/content-images/exoduscard-2f77769db0.webp "Exodus")
 - Ngwaọrụ: Mobile  Desktọpụ  Web
 - Sistemụ arụmọrụ: Android  iOS Windows Linux macOS Nchọgharị
@@ -239,7 +239,7 @@
 
 ---
 
-## [Onye na-echekwa ego]](https://trezor.io/learn/a/zcash-zec)
+## [Onye na-echekwa ego](https://trezor.io/learn/a/zcash-zec)
 ![logo](/content-images/trezor1-5004075d27.webp "Trezor")
 - Ngwaọrụ:
 - Sistemụ arụmọrụ:
@@ -269,7 +269,7 @@
 
 ---
 
-## [Obere obere akpa ojii]](https://www.zknoir.com/)
+## [Obere obere akpa ojii](https://www.zknoir.com/)
 ![logo](/content-images/Noirwallet-8589fe34e4.webp "Noir")
 - Ngwaọrụ: Web  Desktọpụ
 - Sistemụ arụmọrụ: Nchọgharị
@@ -312,7 +312,7 @@
 
 ---
 
-## [Zend: Zcash obere akpa]](https://justzend.com/)
+## [Zend: Zcash obere akpa](https://justzend.com/)
 ![logo](/content-images/zend.webp "Zend:Zcash Wallet")
 - Ngwaọrụ: Mobile  Desktọpụ
 - Sistemụ arụmọrụ: iOS  MacOS
@@ -322,7 +322,7 @@
 
 ---
 
-## [Nkwụnye ego Nozy]](https://github.com/LEONINE-DAO/Nozy-wallet)
+## [Nkwụnye ego Nozy](https://github.com/LEONINE-DAO/Nozy-wallet)
 ![logo](/content-images/nozy.webp "Nozy Wallet")
 - Ngwaọrụ: Desktọpụ  Nchọgharị
 - Sistemụ arụmọrụ: Linux  iOS  macOS

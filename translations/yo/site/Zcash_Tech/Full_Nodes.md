@@ -68,7 +68,7 @@ Rii daju lati ka iwe Zebra fun awọn itọnisọna iṣeto, ati darapọ mọ o
 
 [Github](https://github.com/ZcashFoundation/zebra/)
 
-[Ìwé Zebra]](https://zebra.zfnd.org) 
+[Ìwé Zebra](https://zebra.zfnd.org) 
 
 [Àìfohùnṣọ̀kan](https://discord.gg/uvEdHsrb)
 
@@ -90,7 +90,7 @@ Eyi ni awọn apẹẹrẹ awọn iru ẹrọ ti o fun laaye iraye si data Nẹt
 
 [Àwọn ìlànà ìṣirò owó](https://docs.coinmetrics.io/info/assets/zec)
 
-[Ìjókòó alágbèéká]](https://blockchair.com/zcash)
+[Ìjókòó alágbèéká](https://blockchair.com/zcash)
 
 O tun le ṣe alabapin si idagbasoke nẹtiwọọki nipa ṣiṣe awọn idanwo tabi sisọ awọn ilọsiwaju tuntun & pese awọn iṣiro. 
 
@@ -116,9 +116,9 @@ Eyi ni anfani afikun ti gbigba awọn olumulo miiran lati sopọ ni ikọkọ si
 
 Ìrànlọ́wọ́ wo lo nílò?
 
-Ka [Àwọn Àkọsílẹ̀ Ìtìlẹyìn]](https://zcash.readthedocs.io/en/latest/)
+Ka [Àwọn Àkọsílẹ̀ Ìtìlẹyìn](https://zcash.readthedocs.io/en/latest/)
 
-Ẹ darapọ̀ mọ́ wa [Apá Ìdàrúdàpò](https://discord.gg/zcash) tàbí kó o kàn sí wa lórí [twitter]](https://twitter.com/ZecHub)
+Ẹ darapọ̀ mọ́ wa [Apá Ìdàrúdàpò](https://discord.gg/zcash) tàbí kó o kàn sí wa lórí [twitter](https://twitter.com/ZecHub)
 
 
 

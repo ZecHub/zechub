@@ -26,7 +26,7 @@ Zebra 1.8.0 Mbipụta Ọhụrụ, E bipụtara FROST, Zooko Na-ebido Zcash Ọh
 
 [Shielded ZEC swaps na Maya Protocol](https://x.com/GiMa9550/status/1808960168681476288)
 
-[Official shielded support for zcash in ledger hw-wallet] [Onye ọrụ gọọmentị na-echebe nkwado maka zcash na akwụkwọ ndekọ ego hw-obere akpa ego]](https://forum.zcashcommunity.com/t/official-shielded-support-for-zcash-in-ledger-hw-wallet/45965/90)
+[Official shielded support for zcash in ledger hw-wallet] [Onye ọrụ gọọmentị na-echebe nkwado maka zcash na akwụkwọ ndekọ ego hw-obere akpa ego](https://forum.zcashcommunity.com/t/official-shielded-support-for-zcash-in-ledger-hw-wallet/45965/90)
 
 [Zcash Ecosystem Security Lead melite](https://forum.zcashcommunity.com/t/grant-update-zcash-ecosystem-security-lead/47541/4)
 

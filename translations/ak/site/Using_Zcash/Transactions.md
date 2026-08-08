@@ -13,7 +13,7 @@ ZEC is a widely-used digital asset for payments, offering strong privacy feature
 - Adesamma a wɔabɔ wɔn ho ban fi ase ne: `u` or `z`. Adesamma a wɔn ho tew no fi ase wɔ: `t` Na ne suban te sɛ Bitcoin address.
 - W'ankasa na wobɛpaw wɔ tua biara ho. Ahofadi yɛ ade a Zcash de ma wo, ɛnyɛ biribi a obi foforo si w'ananmu gyina so.
 - Withdrawing from an exchange is the most common place people lose privacy. If the exchange only supports transparent withdrawals, shield the funds yourself once they arrive.
-- Akwantu no di so [ZIP code 317]](https://zips.z.cash/zip-0317) Wallets a w'akyekyere wɔn dedaw no betumi ahu sɛ wɔretwe wɔn ho.
+- Akwantu no di so [ZIP code 317](https://zips.z.cash/zip-0317) Wallets a w'akyekyere wɔn dedaw no betumi ahu sɛ wɔretwe wɔn ho.
 
 ## Adwuma a wɔhwɛ so bɔ ho ban
 
@@ -83,10 +83,10 @@ Yɛsrɛ wo hyɛ no nsow sɛ ɔkwan a eye sen biara wɔ ZEC ho ne sε wode dwumad
 
 ## Nkrataafa a Ɛwɔ Ho Nsɛm
 
-- [Nkrataa nkekaho]](/using-zcash/wallets)  wallets a' wɔgye shielded sending tom, na no yɛ transparent nko ara.
-- [Nsuo a wɔabɔ ho ban]](/using-zcash/shielded-pools)  Sapling ne Orchard, mmura a wo sika no te mu wɔ hɔ
-- [Nsɛm a wode bɛto dwa]](/using-zcash/memos)  nkrataa a w'akyekyere no ntumi nkɔ so wɔ dwumadie bi mu.
-- [Yԑde Adansedie a' yԑbԑtumi de adi dwuma yie]](/using-zcash/transparent-exchange-addresses)  TEX addresses ne deɛn nti na exchange di dwuma no
-- [Asomdwoe a w'atumi de wo nsa aka no]](/using-zcash/custodial-exchanges)  deεn na exchange boa ma wכtwe ban a εbεto ho no mu.
+- [Nkrataa nkekaho](/using-zcash/wallets)  wallets a' wɔgye shielded sending tom, na no yɛ transparent nko ara.
+- [Nsuo a wɔabɔ ho ban](/using-zcash/shielded-pools)  Sapling ne Orchard, mmura a wo sika no te mu wɔ hɔ
+- [Nsɛm a wode bɛto dwa](/using-zcash/memos)  nkrataa a w'akyekyere no ntumi nkɔ so wɔ dwumadie bi mu.
+- [Yԑde Adansedie a' yԑbԑtumi de adi dwuma yie](/using-zcash/transparent-exchange-addresses)  TEX addresses ne deɛn nti na exchange di dwuma no
+- [Asomdwoe a w'atumi de wo nsa aka no](/using-zcash/custodial-exchanges)  deεn na exchange boa ma wכtwe ban a εbεto ho no mu.
 
 ## ZEC kɔ ZAT kasasin no

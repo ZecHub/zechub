@@ -27,7 +27,7 @@ Tupu ị nwee ike iwulite Arti site na isi mmalite, ịkwesịrị ịnwe ụd�
 
 #### Iji Wụnye Rust:
 
-1. Gaa na ebe nrụọrụ weebụ gọọmentị [Rust website]](https://www.rust-lang.org/).
+1. Gaa na ebe nrụọrụ weebụ gọọmentị [Rust website](https://www.rust-lang.org/).
 2. Soro ntuziaka ntinye maka sistemụ arụmọrụ gị.
 3. Nyochaa nrụnye site na ịgba ọsọ:
    
@@ -38,13 +38,13 @@ Tupu ị nwee ike iwulite Arti site na isi mmalite, ịkwesịrị ịnwe ụd�
 Nke a ga-egosi na ị nwere ụdị kachasị ọhụrụ nke Rust arụnyere na sistemụ gị.
 
 #### **Mara maka ndị ọrụ Windows**:
-- Rust nwere ike arụnyere na Windows site [**Rustup**]](https://rustup.rs/), onye na-arụ ọrụ ngwá ọrụ. Jide n'aka na ị melitela gburugburu ebe obibi dakọtara (ị nwere ike ịchọ ** Visual Studio Build Tools ** na Windows).
+- Rust nwere ike arụnyere na Windows site [**Rustup**](https://rustup.rs/), onye na-arụ ọrụ ngwá ọrụ. Jide n'aka na ị melitela gburugburu ebe obibi dakọtara (ị nwere ike ịchọ ** Visual Studio Build Tools ** na Windows).
   
 ---
 
 ### **Nzọụkwụ 2: Iṅomi Arti Repository**
 
-Iji nweta ụdị kachasị ọhụrụ nke onye ahịa Arti, ị ga-achọ iṅomi ebe nchekwa ahụ site na [**GitLab**]](https://gitlab.torproject.org/tpo/core/arti).
+Iji nweta ụdị kachasị ọhụrụ nke onye ahịa Arti, ị ga-achọ iṅomi ebe nchekwa ahụ site na [**GitLab**](https://gitlab.torproject.org/tpo/core/arti).
 
 #### Nzọụkwụ:
 1. Mepee ọnụ gị (Command Prompt, PowerShell, ma ọ bụ Git Bash na Windows).
@@ -129,7 +129,7 @@ Nke a bụ eserese dị mfe iji gosipụta otú Arti si arụ ọrụ na netwọ
 
 Ọ bụrụ na ị nwere mmasị inye aka n'ịzụlite Arti, ịnwere ike inyocha koodu ma nye onyinye site na GitLab.
 
-- ** Njikọ Ebe nchekwa**: [Arti GitLab Repository]](https://gitlab.torproject.org/tpo/core/arti)
+- ** Njikọ Ebe nchekwa**: [Arti GitLab Repository](https://gitlab.torproject.org/tpo/core/arti)
 - **Kpọgharia Repo**:
   ```sh
   git clone https://gitlab.torproject.org/tpo/core/arti.git
@@ -171,7 +171,7 @@ Nke a bụ eserese dị mfe iji gosipụta otú Arti si arụ ọrụ na netwọ
 
 
 
-Ọ bụrụ na ị nwere mmasị inye aka n'ọrụ ahụ, nweere onwe gị ileba anya koodu ahụ, kesaa ebe nchekwa ya ma nyefee arịrịọ njikọta. Maka ozi ndị ọzọ, mmelite, yana nchọpụta nsogbu, lelee [Arti GitLab Repository]](https://gitlab.torproject.org/tpo/core/arti). 
+Ọ bụrụ na ị nwere mmasị inye aka n'ọrụ ahụ, nweere onwe gị ileba anya koodu ahụ, kesaa ebe nchekwa ya ma nyefee arịrịọ njikọta. Maka ozi ndị ọzọ, mmelite, yana nchọpụta nsogbu, lelee [Arti GitLab Repository](https://gitlab.torproject.org/tpo/core/arti). 
 
 Nwee ahụmịhe gị na Arti ma nwee ọ happyụ hacking!
 

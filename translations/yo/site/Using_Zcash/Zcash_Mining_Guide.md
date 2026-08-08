@@ -27,7 +27,7 @@ This guide focuses on mining Zcash using personal hardware (e.g., a home PC with
 - **Wọ́léètì:** Wọọlì Zcash láti gba owó. Àbájáde rẹ̀ ni pé:
   - Ti a fi bo (ti ara ẹni): Zashi Wallet, Zingo (Mobile/Desktop) YWallet (mobile/desktop).
   - Àwòdì tí ó ṣe kedere (ó rọrùn jùlọ ṣùgbọ́n kò ní ìpamọ̀ tó pọ̀): Edge Wallet, Zecwallet Lite.
-  - Ṣe igbasilẹ lati [awọn apamọwọ]](https://zechub.wiki/wallets). Ṣẹda adirẹsi ti o ni aabo (ti bẹrẹ pẹlu 'zs') fun asiri bi ikọkọ ba ṣe atilẹyin rẹ.
+  - Ṣe igbasilẹ lati [awọn apamọwọ](https://zechub.wiki/wallets). Ṣẹda adirẹsi ti o ni aabo (ti bẹrẹ pẹlu 'zs') fun asiri bi ikọkọ ba ṣe atilẹyin rẹ.
 
 ### Àwọn mìíràn
 - Omi-ọmọ: Ṣiro awọn idiyele. Awọn GPU lo 150-300W fun kaadi kan; ASICs 1000W+.
@@ -36,7 +36,7 @@ This guide focuses on mining Zcash using personal hardware (e.g., a home PC with
 ## Àwọn Ohun Tó Lè Mú Kí O Di Òṣìṣẹ́ Iwakùsà Kan - Ìtọ́ni Nípa Bí Wọ́n Ṣe Ń Ṣiwọ́ Pọ̀ síbi tí wọ́n Ti Ń Wa Irin-Iṣẹ́
 
 ### Igbesẹ 1: Ṣeto Wọ́lìtì Zcash Rẹ
-1. Ṣe igbasilẹ ki o fi apamọwọ kan sori ẹrọ lati oju opo wẹẹbu osise Zcash [awọn apo-owo]](https://zechub.wiki/wallets).
+1. Ṣe igbasilẹ ki o fi apamọwọ kan sori ẹrọ lati oju opo wẹẹbu osise Zcash [awọn apo-owo](https://zechub.wiki/wallets).
 2. Ṣẹda apamọwọ tuntun ki o ṣe afẹyinti gbolohun ọrọ irugbin rẹ ni aabo.
 3. Ṣẹda adirẹsi gbigba (ti o dara julọ fun aabo aṣiri). Kọ ọ silẹ, gẹgẹbi: `zs1exampleaddress...`.
 4. Bí o bá lo adirẹsi tí ó ṣe kedere (tí yóò bẹ̀rẹ̀ pẹ̀lú 't'), èyí rọrùn jùlọ ṣùgbọ́n kò ní fúnni láyè ìpamọ́.

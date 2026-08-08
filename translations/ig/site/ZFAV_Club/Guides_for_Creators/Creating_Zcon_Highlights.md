@@ -8,11 +8,11 @@ Ntuziaka a ga-eduzi gị site na usoro nke edezi na ibipụta obere vidiyo site 
 
 **Zcon vidiyo listi ọkpụkpọ:**
 
-- [Zcon0 - Nzuzo: Site na A ruo Zcon (2018) ]](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
-- [Zcon1: Zero to Privacy Hero (2019) ]](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
-- [Zcon2 Lite - Nzuzo ruo na ala (2021) ]](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
-- [Zcon3: Koodu Onwe Ya Agaghị Egbutu Ya (2022) ]](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
-- [Zcon4: E Debeghị Ọdịnihu (2023) ]](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)
+- [Zcon0 - Nzuzo: Site na A ruo Zcon (2018) ](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
+- [Zcon1: Zero to Privacy Hero (2019) ](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
+- [Zcon2 Lite - Nzuzo ruo na ala (2021) ](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
+- [Zcon3: Koodu Onwe Ya Agaghị Egbutu Ya (2022) ](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
+- [Zcon4: E Debeghị Ọdịnihu (2023) ](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)
 
 **Zcon Isi ihe ndị dị na listi ọkpụkpọ:**
 

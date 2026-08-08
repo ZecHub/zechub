@@ -29,7 +29,7 @@ By repeatedly collapsing multiple instances of hard problems together over cycle
 
 Halo provides users with two important assurances regarding the security of the large-scale zero-knowledge proof system. Firstly, it enables users to prove that no one who was involved in the genesis ceremony has created a secret backdoor to execute fraudulent transactions. Secondly, it allows users to demonstrate that the system has remained secure over time, even as it has undergone updates and changes.
 
-[Sean Bowes ƒe Nuteƒekpɔkpɔ le Dystopia Labs ŋu]](https://www.youtube.com/watch?v=KdkVTEHUxgo) 
+[Sean Bowes ƒe Nuteƒekpɔkpɔ le Dystopia Labs ŋu](https://www.youtube.com/watch?v=KdkVTEHUxgo) 
  
 
 
@@ -62,7 +62,7 @@ Le ɣeyiɣi ma ke me la, ƒuƒoƒo bubu geɖewo nɔ Polynomial IOP yeyewo si nyo
 
 Mɔ̃ɖoɖo yeye siawo dometɔ si wɔa dɔ nyuie wue nye PLONK, eye wònaa mɔɖeɖe geɖe be woate ŋu awɔ ɖoɖo ɖe alesi woawɔ wo ŋudɔe le ɖekawɔwɔ me kple dɔwɔnu aɖe koŋ ƒe hiahiãwo ahana ɣeyiɣi agbɔsɔsɔme 5 wu esi wozãna tsɔ kpɔa egbɔ.
 
-[Nɔnɔmewo Ŋuti Numekuku]](https://www.youtube.com/watch?v=P1JeN30RdwQ)
+[Nɔnɔmewo Ŋuti Numekuku](https://www.youtube.com/watch?v=P1JeN30RdwQ)
 
 
 ### Aleke esia ɖea vi na Zcash?
@@ -84,11 +84,11 @@ Hekpe ɖe eŋu la, Halo 2 le MIT kple Apache 2.0 ʋuʋu-tsoƒe mɔɖegbalẽviwo
 
 Tso esime Halo2 ƒe agbalẽdzraɖoƒea dze dɔwɔwɔ gɔme la, wodze eyɔyɔ le ɖoɖowo abe zkEVM ene me. Eye woate ŋu atsɔe ade Filecoin Virtual Machine si nye kpeɖodzinya ŋuti mɔnu hã me. Ele be woaxe ga geɖe ɖe SpaceTime/replication dzi hafi wòateŋu awɔ esia. Alea ke wòle na Halo 2 ne wole teƒe aɖe zãm nyuie eye woɖoe ɖa kaba wu?
 
-[Filecoin Foundation ƒe video si me Zooko le]](https://www.youtube.com/watch?v=t4XOdagc9xw)
+[Filecoin Foundation ƒe video si me Zooko le](https://www.youtube.com/watch?v=t4XOdagc9xw)
 
 Azɔ hã, anyo ŋutɔ na Filecoin kple Zcash ecosystems siaa ne woate ŋu awɔ filecoin storage payment le ZEC me, eye wòana be ame ƒe nuŋɔŋlɔwo nanɔ dedie abe ale si wòle le zcash shielded transfer. Esia ana ŋutete wo be woaxe mɔ̃ ɖe files siwo le Filecoin dzi la ta ahado alɔ mobile clients ale be woate ŋu ade media alo fayel aɖewo asi na Zcash encrypted memo . 
 
-[ECC x Filecoin Blog ƒe Nyatakaka]](https://electriccoin.co/blog/ethereum-zcash-filecoin-collab/)
+[ECC x Filecoin Blog ƒe Nyatakaka](https://electriccoin.co/blog/ethereum-zcash-filecoin-collab/)
 
 ### Ethereum (Ethereum)
 
@@ -98,33 +98,33 @@ Woateŋu azãe abe nusi nana be nuwo dzɔna le ɖoɖo nu ene, eye woazãnɛ hã 
 
 ECC, Filecoin Foundation, Protocol Labs kple Ethereum Foundation hã awɔ dɔ aduadu kple [SupraNational] le woƒe dɔwɔƒe si nye Electronic Commodity Exchange (ECX) la.](https://www.supranational.net/), si nye asitelefon-dɔwɔƒe aɖe si nya nu tso kɔmpiuta ƒe nuŋlɔɖi ŋu, be wòate ŋu awɔ GPU kple ASIC ŋuti dɔ le VDF la wɔwɔ me.
 
-[Ame Ŋuti Nyawo Gbɔkpɔ Kple Amesiwo Wotsɔna Dea Dɔwɔƒee]](https://appliedzkp.org/) le numekuku wɔm tso mɔ vovovo siwo dzi Halo 2 ƒe kpeɖodziawo ate ŋu ana be Ethereum nutoa me nuwo nanɔ dedie wu eye wòateŋu ato vovo hã la ŋuti. Ƒuƒoƒo sia va ɖo Ethereum gɔmeɖoanyi gbɔ, eye eƒe susu katã nɔ zero-knowledge proofs kple cryptographic primitives ŋu vevie. 
+[Ame Ŋuti Nyawo Gbɔkpɔ Kple Amesiwo Wotsɔna Dea Dɔwɔƒee](https://appliedzkp.org/) le numekuku wɔm tso mɔ vovovo siwo dzi Halo 2 ƒe kpeɖodziawo ate ŋu ana be Ethereum nutoa me nuwo nanɔ dedie wu eye wòateŋu ato vovo hã la ŋuti. Ƒuƒoƒo sia va ɖo Ethereum gɔmeɖoanyi gbɔ, eye eƒe susu katã nɔ zero-knowledge proofs kple cryptographic primitives ŋu vevie. 
 
 ## Dɔ bubu siwo me wozã Halo le
 
-+ [Anoma, enye adzameɖoɖo si wotsɔna trɔa asi le atomik-mɔ̃wo ŋu ƒe kɔpi siwo li to vovo me]](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
++ [Anoma, enye adzameɖoɖo si wotsɔna trɔa asi le atomik-mɔ̃wo ŋu ƒe kɔpi siwo li to vovo me](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
 
-+ [Oribis, L2 zkRollup le Cardano dzi]](https://docs.orbisprotocol.com/orbis/technology/halo-2)
++ [Oribis, L2 zkRollup le Cardano dzi](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
-+ [Darkfi, L1 zkEVM ƒe blockchain si le ame ŋutɔ tɔ me]](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
++ [Darkfi, L1 zkEVM ƒe blockchain si le ame ŋutɔ tɔ me](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
 
-+ [Miku, L2 zkRollup le Ethereum dzi]](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
++ [Miku, L2 zkRollup le Ethereum dzi](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 
 
 ** Nusɔsrɔ̃ Bubuwo**:
 
-[Afɔku si nye ZKP kple Halo 2 - Hanh Huynh Huu ƒe ŋgɔdonya]](https://www.youtube.com/watch?v=jDHWJLjQ9oA)
+[Afɔku si nye ZKP kple Halo 2 - Hanh Huynh Huu ƒe ŋgɔdonya](https://www.youtube.com/watch?v=jDHWJLjQ9oA)
 
-[Halo 2 kple Daira & Str4d - ZKPodcast]](https://www.youtube.com/watch?v=-lZH8T5i-K4)
+[Halo 2 kple Daira & Str4d - ZKPodcast](https://www.youtube.com/watch?v=-lZH8T5i-K4)
 
-[Nunyala aɖe ƒe Nyatakakawo Ŋuti Dzeɖoɖo]](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)
+[Nunyala aɖe ƒe Nyatakakawo Ŋuti Dzeɖoɖo](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)
 
-[Halo 2 Community Showcase - Ying Tong @Zcon3 Eʋegbe me tɔ]](https://www.youtube.com/watch?v=JJi2TT2Ahp0)
+[Halo 2 Community Showcase - Ying Tong @Zcon3 Eʋegbe me tɔ](https://www.youtube.com/watch?v=JJi2TT2Ahp0)
 
 ** Agbalẽwo**
 
-[Halo 2 ƒe dɔwɔnuwo]](https://github.com/adria0/awesome-halo2)
+[Halo 2 ƒe dɔwɔnuwo](https://github.com/adria0/awesome-halo2)
 
-[Halo 2 ƒe nuŋlɔɖiwo]](https://zcash.github.io/halo2/)
+[Halo 2 ƒe nuŋlɔɖiwo](https://zcash.github.io/halo2/)
 
-[Halo 2 github]](https://github.com/zcash/halo2)
+[Halo 2 github](https://github.com/zcash/halo2)

@@ -18,7 +18,7 @@
 - **Summary:** Anna chats with Ismael Hishon-Rezaizadeh, Founder and CEO at Lagrange Labs, and Charalampos (Babis) Papamanthou, Head of Research at Lagrange. They revisit zk-powered coprocessors, Verifiable SQL, Reckle Trees, and discuss their new prover marketplace.
 - **Ndị ọbịa:**
   - Ismael Hishon-Rezaizadeh ([ismael_h_r](https://x.com/ismael_h_r))
-  - Charalampos (Babis) Papamanthou ([chbpap]](https://x.com/chbpap))
+  - Charalampos (Babis) Papamanthou ([chbpap](https://x.com/chbpap))
 - ** Onye ọbịa:**
   - Anna ([AnnaRose](https://x.com/AnnaRRose))
 
@@ -30,7 +30,7 @@
   - Hart Lambur ([hal2001](https://x.com/hal2001))
 - ** Ndị ọbịa:**
   - Anna ([AnnaRose](https://x.com/AnnaRRose))
-  - Tarun ([tarunchitra]](https://x.com/tarunchitra))
+  - Tarun ([tarunchitra](https://x.com/tarunchitra))
 
 ### Nkebi nke 331  Farcaster na Varun Srinivasan
 - ** Ụbọchị:** July 10, 2024
@@ -40,7 +40,7 @@
   - Varun Srinivasan ([varunsrin](https://x.com/varunsrin))
 - ** Ndị ọbịa:**
   - Anna ([AnnaRose](https://x.com/AnnaRRose))
-  - Tarun ([tarunchitra]](https://x.com/tarunchitra))
+  - Tarun ([tarunchitra](https://x.com/tarunchitra))
 
 ### Nkebi nke 330  Frameworks for Programmable Privacy na Ying Tong na Bryan Gillespie
 - ** Ụbọchị:** Julaị 3, 2024
@@ -48,7 +48,7 @@
 - **Summary:** Anna and Guille chat with Ying Tong Lai from Geometry Research and Bryan Gillespie from Inversed Tech about their work on ‘SoK: Programmable Privacy in Distributed Systems’, exploring new classifications and frameworks.
 - **Ndị ọbịa:**
   - Ying Tong Lai ([e nwere onye na-enyocha asụsụ](https://x.com/therealyingtong))
-  - Bryan Gillespie ([bryan_gillespie]](https://x.com/bryan_gillespie))
+  - Bryan Gillespie ([bryan_gillespie](https://x.com/bryan_gillespie))
 - ** Ndị ọbịa:**
   - Anna ([AnnaRose](https://x.com/AnnaRRose))
   - Guille ([GuilleAngeris](https://x.com/GuilleAngeris))
@@ -59,7 +59,7 @@
 - **Summary:** Anna and Nico chat with Alessandro Chiesa, Associate Professor at EPFL, and Eylon Yogev, Professor at Bar-Ilan University, about their publication on building cryptographic proofs from hash functions.
 - **Ndị ọbịa:**
   - Alessandro Chiesa ([profaịlụ](https://ic-people.epfl.ch/~achiesa/))
-  - Eylon Yogev ([profaịlụ]](https://eylonyogev.com/))
+  - Eylon Yogev ([profaịlụ](https://eylonyogev.com/))
 - ** Ndị ọbịa:**
   - Anna ([AnnaRose](https://x.com/AnnaRRose))
   - Nico ([nico_mnbl](https://x.com/nico_mnbl))

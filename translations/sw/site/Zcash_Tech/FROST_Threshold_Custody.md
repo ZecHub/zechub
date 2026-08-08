@@ -4,7 +4,7 @@
 
 # FROST & Kiwango cha Kuweka kwa ZEC Shielded
 
-> Kwa maelezo kamili ya cryptographic wa itifaki FROST, angalia [FROST ukurasa kiufundi]](FROST.md).
+> Kwa maelezo kamili ya cryptographic wa itifaki FROST, angalia [FROST ukurasa kiufundi](FROST.md).
 
 Ulinzi wa kizingiti cha FROST unaendelea kuja katika mazungumzo ya Zcash  ilikuwa wimbo bora kwenye ZecHub Hackathon 2026  lakini dhana hiyo haijaelezewa kila wakati kwa lugha rahisi. Ukurasa huu unashughulikia inamaanisha nini, unapohitaji kweli, biashara-offs, na ni zana zipi zinaunga mkono leo.
 
@@ -146,14 +146,14 @@ hatua ya kuanzia vitendo kwa timu zaidi: ** 2-ya-3** (kuweza kukabiliana, ushiri
 - [FROST — Technical Deep Dive](FROST.md)  maelezo ya usiri wa itifaki (DKG, saini raundi, uthibitisho usalama)
 - [YWallet FROST Demo Mwongozo](/guides/Ywallet_FROST_Demo)  hatua kwa hatua mikono-juu demo
 - [FROST Demo (frostdemo)](/guides/frostdemo)  Zcash Foundation demo kutembea kwa njia ya
-- [Kuona funguo za]](Viewing_Keys.md)  kusoma tu kupata anwani za ulinzi (mchanganyiko wa kuhifadhi kizingiti)
+- [Kuona funguo za](Viewing_Keys.md)  kusoma tu kupata anwani za ulinzi (mchanganyiko wa kuhifadhi kizingiti)
 - [Zcash Shielded Mali ya](Zcash_Shielded_Assets.md)  FROST pia ni muhimu miundombinu kwa ajili ya ZSA utoaji
 
 ## Rasilimali
 
-- [Karatasi ya utafiti wa FROST (Komlo & Goldberg, 2020) ]](https://eprint.iacr.org/2020/852.pdf)
-- [IETF FROST rasimu ya kiwango (rasimu-irtf-cfrg-frozen) ]](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/)
-- [Zcash Foundation FROST utekelezaji]](https://frost.zfnd.org)
-- [Chelsea Komlo  Nini ni Saini ya Kiwango cha Threshold? (Zcon3) ]](https://youtu.be/cAfTTfblzoU?t=110)
+- [Karatasi ya utafiti wa FROST (Komlo & Goldberg, 2020) ](https://eprint.iacr.org/2020/852.pdf)
+- [IETF FROST rasimu ya kiwango (rasimu-irtf-cfrg-frozen) ](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/)
+- [Zcash Foundation FROST utekelezaji](https://frost.zfnd.org)
+- [Chelsea Komlo  Nini ni Saini ya Kiwango cha Threshold? (Zcon3) ](https://youtu.be/cAfTTfblzoU?t=110)
 - [Coinbase  Threshold Digital Signatures] (Mfumo wa sarafu ya msingi)](https://www.coinbase.com/blog/threshold-digital-signatures)
-- [ROST  imara Async Schnorr Threshold Signatures (Blockstream) ]](https://eprint.iacr.org/2022/550.pdf)
+- [ROST  imara Async Schnorr Threshold Signatures (Blockstream) ](https://eprint.iacr.org/2022/550.pdf)

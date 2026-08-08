@@ -1,5 +1,5 @@
 # Sovright
-[N'ụzọ doro anya]](/content-images/sovright-16a27c0d24.webp)
+[N'ụzọ doro anya](/content-images/sovright-16a27c0d24.webp)
 
 **Sovright** is a US 501(c3) non-profit dedicated to supporting human autonomy. Starting with a focus on Zcash infrastructure, mining, protocol development, and ecosystem support the project builds tools and services intended to strengthen private digital currency infrastructure and support the long-term resilience of the Zcash network.
 
@@ -17,7 +17,7 @@ Sovrights work began with Zcash, a privacy-preserving cryptocurrency that uses z
 
 Sovright na-arụ ọrụ Zcash na-egwupụta akụ na:
 
-[mining.sovright.com]](https://mining.sovright.com/)
+[mining.sovright.com](https://mining.sovright.com/)
 
 The Sovright Mining Pool is designed to support miner sovereignty and reduce mining pool concentration. Mining pool concentration is a recurring concern in proof-of-work networks because a small number of pools can end up controlling a large share of network hashrate. This can weaken decentralization and increase reliance on the behavior of major pool operators.
 

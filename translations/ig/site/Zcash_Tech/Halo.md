@@ -21,7 +21,7 @@ Polynomial Interactive Oracle Proof: Verifier na-ajụ prover (algọridim) ka h
 
 ### Enweghị Ntọala A Tụkwasịrị Obi
 
-zkSNARKs na-adabere n'usoro ntụaka nkịtị (CRS) dị ka ihe ngosi ọha maka igosi & nyochaa. A ghaghị ịmepụta CRS a tupu oge eruo site n'aka onye tụkwasịrị obi. Ruo mgbe nso nso, kọwaa ọtụtụ ngụkọta nke multiparty computations (MPC) dịka ndị Aztec network & Zcash mere bụ mkpa iji belata ihe ize ndụ metụtara ya [nkwado ntọala usoro]](https://zkproof.org/2021/06/30/setup-ceremonies/amp/). 
+zkSNARKs na-adabere n'usoro ntụaka nkịtị (CRS) dị ka ihe ngosi ọha maka igosi & nyochaa. A ghaghị ịmepụta CRS a tupu oge eruo site n'aka onye tụkwasịrị obi. Ruo mgbe nso nso, kọwaa ọtụtụ ngụkọta nke multiparty computations (MPC) dịka ndị Aztec network & Zcash mere bụ mkpa iji belata ihe ize ndụ metụtara ya [nkwado ntọala usoro](https://zkproof.org/2021/06/30/setup-ceremonies/amp/). 
 
 Previously Zcash's Sprout & Sapling shielded pools utilised the BCTV14 & Groth 16 zk-proving systems. While these were secure there were limitations. They were not scalable as they were tied to a single application, the "toxic waste" (remnants from cryptographic material generated during the genesis ceremony) could persist, and there was an element of trust (albeit minute) for users to deem the ceremony acceptable.
 
@@ -29,7 +29,7 @@ Site na-agbagha ọtụtụ nsogbu siri ike ọnụ n'oge usoro nke elliptic cur
 
 Halo provides users with two important assurances regarding the security of the large-scale zero-knowledge proof system. Firstly, it enables users to prove that no one who was involved in the genesis ceremony has created a secret backdoor to execute fraudulent transactions. Secondly, it allows users to demonstrate that the system has remained secure over time, even as it has undergone updates and changes.
 
-[Sean Bowes Nkọwa na Dystopia Labs]](https://www.youtube.com/watch?v=KdkVTEHUxgo) 
+[Sean Bowes Nkọwa na Dystopia Labs](https://www.youtube.com/watch?v=KdkVTEHUxgo) 
  
 
 
@@ -39,7 +39,7 @@ Recursive proof composition allows a single proof to attest to the correctness o
 
 Prior to Halo, achieving recursive proof composition required large computational expense and a trusted setup. One of the main discoveries was a technique called **nested amortization**. This technique allows for recursive composition using the polynomial commitment scheme based on inner product argument, massively improving on performance and avoiding the trusted setup.
 
-Na [akwụkwọ Halo]](https://eprint.iacr.org/2019/1021.pdf), anyị kọwara nke ọma usoro nkwenye a na-eme ọtụtụ ihe ma chọpụta ụzọ nchịkọta ọhụrụ dị n'ime ya. Usoro ahụ na -enye ohere ka ọnụ ọgụgụ buru ibu nke akaebe ndị e mepụtara onwe ha wee bụrụ onye nyocha ngwa ngwa dịka nyochaa otu ihe ngosi. Nke a naanị ga -enye nhọrọ ọzọ karịa zk-SNARKs mbụ eji eme Zcash .
+Na [akwụkwọ Halo](https://eprint.iacr.org/2019/1021.pdf), anyị kọwara nke ọma usoro nkwenye a na-eme ọtụtụ ihe ma chọpụta ụzọ nchịkọta ọhụrụ dị n'ime ya. Usoro ahụ na -enye ohere ka ọnụ ọgụgụ buru ibu nke akaebe ndị e mepụtara onwe ha wee bụrụ onye nyocha ngwa ngwa dịka nyochaa otu ihe ngosi. Nke a naanị ga -enye nhọrọ ọzọ karịa zk-SNARKs mbụ eji eme Zcash .
 
 
 ### Halo 2 (nke abụọ)
@@ -62,7 +62,7 @@ N'otu oge ahụ, ọtụtụ ndị ọzọ na-achọpụta ihe ọhụrụ Polyn
 
 Ihe kachasị dị irè n'ime usoro iwu ọhụrụ ndị a bụ PLONK, nke na-enye mgbanwe dị ukwuu n'ịmepụta mmejuputa arụmọrụ dabere na mkpa ngwa ahụ ma nye oge 5x ka mma karịa Sonic.
 
-[Nkọwa nke PLONK]](https://www.youtube.com/watch?v=P1JeN30RdwQ)
+[Nkọwa nke PLONK](https://www.youtube.com/watch?v=P1JeN30RdwQ)
 
 
 ### Kedụ ka nke a si abara Zcash uru?
@@ -84,7 +84,7 @@ Tụkwasị na nke ahụ, Halo 2 dị n'okpuru [MIT and Apache 2.0 open-source l
 
 Kemgbe e depụtara ya, a nabatara ọba akwụkwọ halo2 na ọrụ dịka zkEVM. Enwere ike itinye Halo 2 n'ime usoro ihe akaebe maka Filecoin Virtual Machine. Filecoin chọrọ ọtụtụ nkwenye dị oke ọnụ nke oge / ohere / nnwale nke mmegharị ahụ. Halo2 ga-abụ isi iji belata ojiji oghere, ka mma ịbawanye netwọkụ.
 
-[Filecoin Foundation video na Zooko]](https://www.youtube.com/watch?v=t4XOdagc9xw)
+[Filecoin Foundation video na Zooko](https://www.youtube.com/watch?v=t4XOdagc9xw)
 
 Additionally, it would be highly beneficial to both the Filecoin and Zcash ecosystems if Filecoin storage payments could be made in ZEC, affording the same level of privacy for storage purchases that exists in Zcash shielded transfers. This support would add the ability to encrypt files in Filecoin storage and add support to mobile clients so that they could **attach** media or files to a Zcash encrypted memo. 
 
@@ -96,35 +96,35 @@ Ntinye nke Halo 2 na-egosi maka arụmọrụ arụ ọrụ (VDF) a na - emepe. 
 
 Enwere ike iji ya dị ka isi iyi nke ebumnuche izugbe gụnyere ojiji na ngwa nkwekọrịta smart yana ntuli aka onye ndu n'ime Ihe Akaebe nke Stake on Ethereum & protocols ndị ọzọ.
 
-ECC, Filecoin Foundation, Protocol Labs na Ethereum Foundation ga-arụkwa ọrụ [SupraNational]](https://www.supranational.net/), onye na-ere ahịa ọkachamara n'ihe gbasara ngwaike nke akwadoro, maka GPU nwere ike imepụta ma mepee VDF.
+ECC, Filecoin Foundation, Protocol Labs na Ethereum Foundation ga-arụkwa ọrụ [SupraNational](https://www.supranational.net/), onye na-ere ahịa ọkachamara n'ihe gbasara ngwaike nke akwadoro, maka GPU nwere ike imepụta ma mepee VDF.
 
-[Nzuzo na Ịmụba Exploration Group]](https://appliedzkp.org/) is also researching different ways Halo 2 proofs can improve privacy and scalability for the Ethereum ecosystem. This group rolls up to the Ethereum foundation, and has a broad focus on zero-knowledge proofs and cryptographic primitives. 
+[Nzuzo na Ịmụba Exploration Group](https://appliedzkp.org/) is also researching different ways Halo 2 proofs can improve privacy and scalability for the Ethereum ecosystem. This group rolls up to the Ethereum foundation, and has a broad focus on zero-knowledge proofs and cryptographic primitives. 
 
 ## Ihe oru ndi ozo eji Halo eme ihe
 
-+ [Anoma, a nzuzo ichebe multichain atomic swap protocol]](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
++ [Anoma, a nzuzo ichebe multichain atomic swap protocol](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
 
-+ [Oribis, ihe L2 zkRollup na Cardano]](https://docs.orbisprotocol.com/orbis/technology/halo-2)
++ [Oribis, ihe L2 zkRollup na Cardano](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
 + [Darkfi, a onwe L1 zkEVM blockchain](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
 
-+ [Mgbanwe, L2 zkRollup na Ethereum]](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
++ [Mgbanwe, L2 zkRollup na Ethereum](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 
 
 **Ịmụtakwu ihe**:
 
-[Ntughari aka na zkp na halo 2 - Hanh Huynh Huu]](https://www.youtube.com/watch?v=jDHWJLjQ9oA)
+[Ntughari aka na zkp na halo 2 - Hanh Huynh Huu](https://www.youtube.com/watch?v=jDHWJLjQ9oA)
 
-[Halo 2 na Daira & Str4d - ZKPodcast]](https://www.youtube.com/watch?v=-lZH8T5i-K4)
+[Halo 2 na Daira & Str4d - ZKPodcast](https://www.youtube.com/watch?v=-lZH8T5i-K4)
 
-[Blọọgụ Nkọwapụta Ọkachamara]](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)
+[Blọọgụ Nkọwapụta Ọkachamara](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)
 
-[Ihe ngosi obodo Halo 2 - Ying Tong @Zcon3]](https://www.youtube.com/watch?v=JJi2TT2Ahp0)
+[Ihe ngosi obodo Halo 2 - Ying Tong @Zcon3](https://www.youtube.com/watch?v=JJi2TT2Ahp0)
 
 ** Akwụkwọ**
 
-[Halo 2 ego]](https://github.com/adria0/awesome-halo2)
+[Halo 2 ego](https://github.com/adria0/awesome-halo2)
 
-[Ihe nkiri Halo 2]](https://zcash.github.io/halo2/)
+[Ihe nkiri Halo 2](https://zcash.github.io/halo2/)
 
-[Halo 2 github]](https://github.com/zcash/halo2)
+[Halo 2 github](https://github.com/zcash/halo2)

@@ -27,7 +27,7 @@ Ansa na wobɛtumi abɔ Arti afi source no, ehia sɛ wode Rust a edi kan pa ara d
 
 #### Deɛ wode bɛhyɛ Rust:
 
-1. Kɔ wɛbsaet a wɔn ani gye ho no so. [Rust website]](https://www.rust-lang.org/).
+1. Kɔ wɛbsaet a wɔn ani gye ho no so. [Rust website](https://www.rust-lang.org/).
 2. Di akwankyerɛ a ɛfa sɛnea wobɛhyehyɛ wo operating system no so.
 3. Hwɛ sɛ woahyehyɛ no denam:
    
@@ -38,7 +38,7 @@ Ansa na wobɛtumi abɔ Arti afi source no, ehia sɛ wode Rust a edi kan pa ara d
 Eyi bɛkyerɛ sɛ wowɔ Rust a edi mu paa no wɔ wo afidie so.
 
 #### **Nteaseɛ ma Windows Users**:
-- Wobetumi de Rust asi Windows so wɔ [**Rustup**]](https://rustup.rs/)Hunu sɛ woahyehyɛ nhyehyɛɛ a ɛne no bɔ mu nso (obɛtumi ahwehwɛ Visual Studio Build Tools wɔ Windows so).
+- Wobetumi de Rust asi Windows so wɔ [**Rustup**](https://rustup.rs/)Hunu sɛ woahyehyɛ nhyehyɛɛ a ɛne no bɔ mu nso (obɛtumi ahwehwɛ Visual Studio Build Tools wɔ Windows so).
   
 ---
 
@@ -129,7 +129,7 @@ Sεnea y'akyerɛ no wɔ mfoni a emu da hɔ yi mu na ama wo ahu sɛnea Arti ne To
 
 Sɛ w'ani gye ho sɛ wobɛboa ma wɔayɛ Arti a, wobɛtumi asua ne nkyerɛwee no na woaboa wɔ GitLab so.
 
-- **Nkɔmmɔbea Ntwerɔne**: [Arti GitLab Nkɔmmɔ bea]](https://gitlab.torproject.org/tpo/core/arti)
+- **Nkɔmmɔbea Ntwerɔne**: [Arti GitLab Nkɔmmɔ bea](https://gitlab.torproject.org/tpo/core/arti)
 - **Fa Repo no yɛ adwuma**:
   ```sh
   git clone https://gitlab.torproject.org/tpo/core/arti.git

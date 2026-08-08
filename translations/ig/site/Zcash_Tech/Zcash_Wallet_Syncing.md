@@ -62,7 +62,7 @@ Besides that, it uses Out-of-Order Sync by decoupling the components of the sync
 
 DAGSync bụ algorithm synchronization a tụrụ aro nke na-achọ imeziwanye ahụmịhe onye ọrụ nke obere akpa Zcash echedoro site n'ịgba ọsọ mmekọrịta.
 
-Ọ na-eji [Directed Acyclic Graph (DAG) ]](https://words.str4d.xyz/dagsync-graph-aware-zcash-wallets/) iji gosipụta ịdabere n'etiti ihe edeturu, ndị akaebe, na ndị na-emebi ihe na obere akpa Zcash.
+Ọ na-eji [Directed Acyclic Graph (DAG) ](https://words.str4d.xyz/dagsync-graph-aware-zcash-wallets/) iji gosipụta ịdabere n'etiti ihe edeturu, ndị akaebe, na ndị na-emebi ihe na obere akpa Zcash.
 
 A DAG is a data structure that consists of nodes and edges, where each edge has a direction that indicates a relationship between two nodes. A DAG has no cycles, meaning that there is no way to start from a node and follow the edges back to the same node.
 
@@ -74,7 +74,7 @@ A DAG is a data structure that consists of nodes and edges, where each edge has 
 
 Interestingly, all these mechanisms aim to address the questions raised by Zcash Security in its post on [Scalable Private Messaging](https://zecsec.com/posts/scalable-private-money-needs-scalable-private-messaging/) and its relationship with private payment systems. Some even take the extra step of downloading all memo data from servers, except for data exclusive to an address, increasing privacy at the cost of a bit of extra resources.
 
-Ọzọkwa, Zcash Foundation nọ na-achọ ihe ndị ọzọ iji melite arụmọrụ nke obere akpa ego. Nke ahụ bụ ikpe na [Oblivious Message Retrieval (OMR) ]](https://zfnd.org/oblivious-message-retrieval/), ihe owuwu nke ntọala ahụ na-amụ iji chọpụta ma ọ na-enye ihe ngwọta nwere ike iji dozie nsogbu arụmọrụ na-adịbeghị anya nke metụtara ndị ọrụ obere akpa Zcash.
+Ọzọkwa, Zcash Foundation nọ na-achọ ihe ndị ọzọ iji melite arụmọrụ nke obere akpa ego. Nke ahụ bụ ikpe na [Oblivious Message Retrieval (OMR) ](https://zfnd.org/oblivious-message-retrieval/), ihe owuwu nke ntọala ahụ na-amụ iji chọpụta ma ọ na-enye ihe ngwọta nwere ike iji dozie nsogbu arụmọrụ na-adịbeghị anya nke metụtara ndị ọrụ obere akpa Zcash.
 
 ## Mmehie Ndị A Na-emekarị
 
@@ -89,5 +89,5 @@ Interestingly, all these mechanisms aim to address the questions raised by Zcash
 
 - [Lightwallet Nodes](/zcash-tech/lightwallet-nodes)  lightwalletd akụrụngwa nke obere akpa na-adabere.
 - [Ịhụ Igodo](/zcash-tech/viewing-keys)  mkpịsị ugodi wallets na-eji achọpụta ma decrypt ha onwe ha edetu.
-- [Pepper Sync]](/zcash-tech/pepper-sync)  ụzọ ọzọ maka ijikọ obere akpa Zcash.
+- [Pepper Sync](/zcash-tech/pepper-sync)  ụzọ ọzọ maka ijikọ obere akpa Zcash.
 - [FROST](/zcash-tech/frost)  kesaa ikike ịbịanye aka maka ZEC echedoro.

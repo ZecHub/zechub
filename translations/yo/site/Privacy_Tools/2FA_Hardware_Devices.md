@@ -50,7 +50,7 @@ You can configure the YubiKey as a second U2F factor without any problems by fol
 
 **Thetis Fido U2F Àkọlé Ààbò**
 
-[Ìkóhun Ààbò Fido U2F]](/content-images/b83e42e5-bba6-4175-ad6c-d64972ef54ef-a2ef17a10d.webp)
+[Ìkóhun Ààbò Fido U2F](/content-images/b83e42e5-bba6-4175-ad6c-d64972ef54ef-a2ef17a10d.webp)
 
 If you are looking for the best bang-for-buck in a security key, this model from Thetis should be on your list. There is no Bluetooth onboard (it is available on a more expensive model), and it only supports the FIDO U2F standard so there is no UAF or OTP compatibility. However, it will provide secure website access if you use Chrome or Opera as a browser on Windows, macOS, or Linux.  
 Ọ̀nà tó rọrùn láti lò ni pé, kọ́kọ́rọ́ aláàbò yìí kò wọ́n, ó sì ṣeé ká, ó ní àpò onírin tí ń yí padà, èyí tí kì í jẹ́ kí ìsopọ̣ náà lè bà jẹ́ nígbà tí wọ́ n gbé e lọ. 

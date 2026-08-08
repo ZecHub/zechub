@@ -90,7 +90,7 @@ Sprout bụ nke mbụ na-enweghị ikike, Zero Knowledge nzuzo protocol mgbe ọ
 
 A na-amata adreesị Sprout site n'akwụkwọ ozi abụọ mbụ ha nke bụ "zc" mgbe niile. E nyere ya aha ahụ maka isi ebumnuche iji mesie ike na ngwanrọ a ka dị ọhụrụ, budding blockchain nwere nnukwu ikike itolite ma mepee mmepe. 
 
-A na-eji Sprout dị ka ngwá ọrụ mbụ maka [Zcash slow start Mining]](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) nke mere ka e kee ndị na-egwu ọla kọpa ụgwọ ọrụ ZEC na Block. 
+A na-eji Sprout dị ka ngwá ọrụ mbụ maka [Zcash slow start Mining](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) nke mere ka e kee ndị na-egwu ọla kọpa ụgwọ ọrụ ZEC na Block. 
 
 As the Zcash ecosystem continued  to expand with increasing number of shielded transactions, it was observed that the Zcash Sprout Series became limited and less efficient when it comes to user privacy, transaction scalability and processing. This led to the modification of the network and Sapling Upgrade. 
 
@@ -166,8 +166,8 @@ Ebumnuche abụghị iji dochie nzuzo Zcash, kama ọ bụ ime ka ntụkwasị o
 
 ## Peeji ndị metụtara ya
 
-- [Ebe ego ndị dị na ya]](/using-zcash/wallets)  Kedu obere akpa na-akwado Orchard na Sapling pools
-- [Ihe ndị a na-eme n'ụlọ akụ]](/using-zcash/transactions)  Otu esi eziga azụmahịa echekwara
-- [Ịzụta ZEC]](/using-zcash/buying-zec)  Ịzụta ZEC tupu iji ya na ọdọ mmiri.
+- [Ebe ego ndị dị na ya](/using-zcash/wallets)  Kedu obere akpa na-akwado Orchard na Sapling pools
+- [Ihe ndị a na-eme n'ụlọ akụ](/using-zcash/transactions)  Otu esi eziga azụmahịa echekwara
+- [Ịzụta ZEC](/using-zcash/buying-zec)  Ịzụta ZEC tupu iji ya na ọdọ mmiri.
 - [ZK-SNARKs](/zcash-tech/zk-snarks)  Ntọala nzuzo nke ọdọ mmiri ndị e chebere
 - [Gịnị bụ ZEC na Zcash?](/start-here/what-is-zec-and-zcash)  Ndabere na nzuzo Zcash

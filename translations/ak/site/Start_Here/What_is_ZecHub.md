@@ -6,11 +6,11 @@
 # Dԑn ne ZecHub?
 ---
 
-ZecHub yɛ adesua bea a ɛhwɛ Zcash so. [ZecHub botae ne sɛ ɛbɛboa ma nnipa anya nimdeɛ wɔ sika ho, na ama wɔatumi de adi dwuma yiye]](http://zechub.xyz) yεn botae ne sε yebeyi nhyehyεεbea a emufo bεtumi ayε adwuma abom de abɔ, agye atom na w'akyekyε nkrataa a εboa Zcash amansan nhyehyɛe no. Yεde saa ade yi di dwuma denam akwan kakra so.
+ZecHub yɛ adesua bea a ɛhwɛ Zcash so. [ZecHub botae ne sɛ ɛbɛboa ma nnipa anya nimdeɛ wɔ sika ho, na ama wɔatumi de adi dwuma yiye](http://zechub.xyz) yεn botae ne sε yebeyi nhyehyεεbea a emufo bεtumi ayε adwuma abom de abɔ, agye atom na w'akyekyε nkrataa a εboa Zcash amansan nhyehyɛe no. Yεde saa ade yi di dwuma denam akwan kakra so.
 
-1. [Nkyerɛkyerɛ a wɔde ma wɔ sukuu no mu]](https://www.youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O)
-2. [Wiki-docs]](https://zechub.wiki/)
-3. [Podcast a wobisabisa nnipa bi nsɛm wɔ hɔ]](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O).
+1. [Nkyerɛkyerɛ a wɔde ma wɔ sukuu no mu](https://www.youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O)
+2. [Wiki-docs](https://zechub.wiki/)
+3. [Podcast a wobisabisa nnipa bi nsɛm wɔ hɔ](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O).
 4. [Apam biara Zcash nsɛm a wɔde to gua.](https://zechub.substack.com/)
 
 Nkyerɛkyerɛ no, nsɛm a wɔtwerɛ tiawa ne nsrahwɛfoɔ no yɛ abuebue na wɔde ato GitHub so. Eyi kyerɛ sɛ obiara betumi de aboa ma ayɛ adwuma ama wɔn. Wei nyinaa nti ɛyɛ papa sɛ emu nsɛm biara bɛyɛ pɛpɛɛpɛ sɛdeɛ ɛbɛyɛ a ɔhaw bɛfiri ɔkwan yi mu ankasa hɔ bere tenten bi mpo.
@@ -21,7 +21,7 @@ Sɛ wo yɛ Zcash foforo a, fa [nkrataa yi] di dwuma na ma no nyɛ adwuma yiye.](
 
 ---
 
-1. Kɔ [ZecHub's Github repo so na kɔhwɛ sɛ wobɛtumi de wo nsɛm no adi dwuma anaa]](https://github.com/ZecHub/zechub)
+1. Kɔ [ZecHub's Github repo so na kɔhwɛ sɛ wobɛtumi de wo nsɛm no adi dwuma anaa](https://github.com/ZecHub/zechub)
    
 2. Yɛ account foforɔ wɔ Github so anaa fa wo de kɔ mu.
    
@@ -51,7 +51,7 @@ Sɛ ɛbɛyɛ na woatumi ama ZecHub anya ahosuo a, ɛwɔ template bi wɔ hɔ a wo
 3. No inappropriate content.
 ```
 
-Ntoboa: [wɔ ha]](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
+Ntoboa: [wɔ ha](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
 <a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
     <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
@@ -63,4 +63,4 @@ Ntoboa: [wɔ ha]](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9
 
 ---
 
-*Sɛ wopɛ sɛ wode ka, anaa woyɛ nsakrae wɔ saa wiki kratafa yi ho a, yɛsrɛ kɔ [ZecHub github repo no so]](https://github.com/ZecHub/zechub) na fa kɔma no sɛ ɔmmra.*
+*Sɛ wopɛ sɛ wode ka, anaa woyɛ nsakrae wɔ saa wiki kratafa yi ho a, yɛsrɛ kɔ [ZecHub github repo no so](https://github.com/ZecHub/zechub) na fa kɔma no sɛ ɔmmra.*

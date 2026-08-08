@@ -8,9 +8,9 @@
 
 ZecHub nye hehexɔƒe si le dukɔmeviwo dome na Zcash. [ZecHub ƒe taɖodzinu enye be] woana ame sia ame nanya nu tso ga ŋu nyuie, eye wòakpɔe hã be ele bɔbɔe ŋutɔ".](http://zechub.xyz) míaƒe taɖodzinue nye be míana hehe amewo le afi ma ale be woate ŋu awɔ dɔ ɖekae atsɔ atu nu siwo akpe ɖe Zcash ŋuti la ɖo, ada asi ɖe wo dzi ahado ŋusẽe. Míetoa mɔnu aɖewo dzi wɔa esia.
 
-1. [Nufiafiagbalẽwo]](https://www.youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O)
-2. [Wiki-docs]](https://zechub.wiki/)
-3. [Agbegbeɖoɖoɖi si me woƒo nu kple nutoa me tɔwo le]](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O).
+1. [Nufiafiagbalẽwo](https://www.youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O)
+2. [Wiki-docs](https://zechub.wiki/)
+3. [Agbegbeɖoɖoɖi si me woƒo nu kple nutoa me tɔwo le](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O).
 4. [Zcash ƒe nyadzɔdzɔgbalẽ si wota kwasiɖa sia kwasiɖa.](https://zechub.substack.com/)
 
 Nufiagbalẽwo, blog-kpui kple nyadzɔdzɔ yeyeawo nye nu siwo ŋu wotrɔ asi le eye wole GitHub dzi. Esia fia be amesiame ateŋu awɔ woƒe akpa aɖe alebe woakpɔ egbɔ be nyatakaka si woana la de pɛpɛpɛ eye wɔna ɖeka aɖeke magblẽ o.
@@ -21,7 +21,7 @@ Ne ènye ame yeye le Zcash ŋu la, zã [agbalẽ sia] si nye "Zcash" ƒe mɔfian
 
 ---
 
-1. Yi [ZecHub ƒe Github repo dzi]](https://github.com/ZecHub/zechub)
+1. Yi [ZecHub ƒe Github repo dzi](https://github.com/ZecHub/zechub)
    
 2. Wɔ Github account yeye alo nàdze wò ŋutɔ tɔ gɔme.
    
@@ -51,7 +51,7 @@ Le alesi woana ZecHub ƒe dzedzeme nanɔ ɖeka la, mɔnu aɖe li si nàte ŋu az
 3. No inappropriate content.
 ```
 
-Nunanawo: [le afi sia]](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
+Nunanawo: [le afi sia](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
 <a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
     <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>

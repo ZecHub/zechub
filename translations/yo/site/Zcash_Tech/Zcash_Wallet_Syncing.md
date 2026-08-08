@@ -62,7 +62,7 @@ Besides that, it uses Out-of-Order Sync by decoupling the components of the sync
 
 DAGSync is a proposed synchronization algorithm that aims to improve the user experience of Zcash shielded wallets by speeding up synchronization.
 
-Ó ń lo [Directed Acyclic Graph (DAG) ]](https://words.str4d.xyz/dagsync-graph-aware-zcash-wallets/) to represent the dependencies among notes, witnesses, and nullifiers in a Zcash wallet.
+Ó ń lo [Directed Acyclic Graph (DAG) ](https://words.str4d.xyz/dagsync-graph-aware-zcash-wallets/) to represent the dependencies among notes, witnesses, and nullifiers in a Zcash wallet.
 
 A DAG is a data structure that consists of nodes and edges, where each edge has a direction that indicates a relationship between two nodes. A DAG has no cycles, meaning that there is no way to start from a node and follow the edges back to the same node.
 

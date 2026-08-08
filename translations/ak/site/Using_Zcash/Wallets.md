@@ -41,7 +41,7 @@
 
 ---
 
-## [Nkyene a ɛtwe wedeɛ no]](https://edge.app)
+## [Nkyene a ɛtwe wedeɛ no](https://edge.app)
 ![logo](/content-images/image-2024-11-28-091312254-b2389ad332.webp "Edge")
 - Afidie: Mfonini a wɔde di dwuma
 - Adwumakuo a ɛhwɛ dwumadie so: Android  iOS
@@ -51,7 +51,7 @@
 
 ---
 
-## [Nnipa a wontumi nsiw wɔn kwan]](https://unstoppable.money)
+## [Nnipa a wontumi nsiw wɔn kwan](https://unstoppable.money)
 ![logo](/content-images/image-2024-11-28-091200540-815817fda7.webp "Unstoppable")
 - Afidie: Mfonini a wɔde di dwuma
 - Adwumakuo a ɛhwɛ dwumadie so: Android  iOS
@@ -83,7 +83,7 @@
 
 ---
 
-## [Kaka a wɔde ayɛ no]](https://cakewallet.com/install/)
+## [Kaka a wɔde ayɛ no](https://cakewallet.com/install/)
 ![logo](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
 - Akwan: Mfonini Ԑmfidie a wͻn de yɛ adwuma (desktop) 
 - Adwumadie nhyehyɛe: Android  iOS Windows Linux macOS
@@ -94,7 +94,7 @@
   
 ---
 
-## [Zenith]](https://code.vergara.tech/Vergara_Tech/zenith)
+## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
 ![logo](/content-images/zenith-2-cea75a34fd.webp "Zenith")
 - Afidie: Dwumadiebea
 - Adwumadie Nhyehyɛeɛ: Windows  Linux  macOS
@@ -115,7 +115,7 @@
 
 ---
 
-## [Zallet]](https://github.com/zcash/wallet)
+## [Zallet](https://github.com/zcash/wallet)
 ![logo](/content-images/Brandmark-Yellow-2eca7f6f68.webp "Zallet")
 - Afidie: Dwumadiebea
 - Adwumadie Nhyehyɛeɛ: Windows  Linux  macOS
@@ -137,7 +137,7 @@
 
 ---
 
-## [Akokoduru]](https://brave.com/web3-privacy/)
+## [Akokoduru](https://brave.com/web3-privacy/)
 ![logo](/content-images/image-2024-01-13-170934865-733c5d91c6.webp "Brave")
 - Afidie: Intanɛt so
 - Adwumakuo no: Browser
@@ -157,7 +157,7 @@
 
 ---
 
-## [Zucchini]](https://zucchinifi.xyz/)
+## [Zucchini](https://zucchinifi.xyz/)
 ![logo](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
 - Afidie: Intanɛt so 
 - Adwumakuo no: Browser
@@ -197,7 +197,7 @@
 
 ---
 
-## [Coinomi]](https://www.coinomi.com/en/downloads)
+## [Coinomi](https://www.coinomi.com/en/downloads)
 ![logo](/content-images/coinomicard-226bcbf876.webp "Coinomi")
 - Akwan: Mfonini Ԑmfidie a wͻn de yɛ adwuma (desktop)
 - Adwumadie nhyehyɛe: Android  iOS Windows
@@ -239,7 +239,7 @@
 
 ---
 
-## [Nea ɔhwɛ sika so]](https://trezor.io/learn/a/zcash-zec)
+## [Nea ɔhwɛ sika so](https://trezor.io/learn/a/zcash-zec)
 ![logo](/content-images/trezor1-5004075d27.webp "Trezor")
 - Nhyehyɛeɛ:
 - Adwumakuo a wɔdi dwuma no:
@@ -258,7 +258,7 @@
 
 ---
 
-## [Nhwɛsofo]](https://vizor.cash/)
+## [Nhwɛsofo](https://vizor.cash/)
 ![logo](/content-images/Vizorphoto-6ade2417a5.webp "Vizor")
 - Akwan: Dwumadie hɔ  Mfonini so dwumadie
 - Adwumade nhyehyɛe: macOS
@@ -269,7 +269,7 @@
 
 ---
 
-## [Nneɛma a wɔde sika ayɛ wɔ fon no so]](https://www.zknoir.com/)
+## [Nneɛma a wɔde sika ayɛ wɔ fon no so](https://www.zknoir.com/)
 ![logo](/content-images/Noirwallet-8589fe34e4.webp "Noir")
 - Akwan: Intanɛt  Desktop
 - Adwumakuo no: Browser
@@ -279,7 +279,7 @@
 
 ---
 
-## [LeoDex]](https://leodex.io/)
+## [LeoDex](https://leodex.io/)
 ![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
 - Akwan: Intanɛt  Desktop
 - Adwumadie nhyehyɛe: Browser Windows  MacOS
@@ -312,7 +312,7 @@
 
 ---
 
-## [Zend: Zcash Akwammoaa]](https://justzend.com/)
+## [Zend: Zcash Akwammoaa](https://justzend.com/)
 ![logo](/content-images/zend.webp "Zend:Zcash Wallet")
 - Akwan: Mfonini Ԑmfidie a wͻn de yɛ adwuma (desktop)
 - Adwumadie Nhyehyɛeɛ: iOS  MacOS
@@ -322,7 +322,7 @@
 
 ---
 
-## [Nneɛma a Ɛwɔ Sika Mu]](https://github.com/LEONINE-DAO/Nozy-wallet)
+## [Nneɛma a Ɛwɔ Sika Mu](https://github.com/LEONINE-DAO/Nozy-wallet)
 ![logo](/content-images/nozy.webp "Nozy Wallet")
 - Akwan: Dwumadie no. Browser
 - Adwumadie Nhyehyɛeɛ: Linux  iOS macOS

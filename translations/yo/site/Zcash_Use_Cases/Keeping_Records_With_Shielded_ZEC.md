@@ -83,4 +83,4 @@ The good news is that shielded Zcash does not stop you from meeting these obliga
 
 - [Àwọn ìwé ìrántí](/using-zcash/memos) - bí àwọn ìwé ìránnilétí tí wọ́n fi kọ̀ǹpútà ṣe ń ṣiṣẹ́
 - [Àwọn Kọ́kọ́rọ́ Ìwòye](/zcash-tech/viewing-keys) - bi o ṣe le gbe ati pin iraye si kika nikan
-- [Ìtòlẹ́sẹẹsẹ Ìpamọ́ fún Òṣìṣẹ́ Aládàáni]](/zcash-use-cases/freelance-privacy-setup) - gbígba owó tó ń wọlé fúnni ní ìdákọ́ńkọ́, ìgbésẹ̀ tó ṣáájú kíkọ àkọsílẹ̀
+- [Ìtòlẹ́sẹẹsẹ Ìpamọ́ fún Òṣìṣẹ́ Aládàáni](/zcash-use-cases/freelance-privacy-setup) - gbígba owó tó ń wọlé fúnni ní ìdákọ́ńkọ́, ìgbésẹ̀ tó ṣáájú kíkọ àkọsílẹ̀

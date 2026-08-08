@@ -4,7 +4,7 @@
 
 # <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Alt Text" width="50"/>   Non-Custodial Exchanges
 
-[Zcash Non-Custodial Kubadilishana]](/dex)
+[Zcash Non-Custodial Kubadilishana](/dex)
 
 Katika ulimwengu unaobadilika wa biashara ya cryptocurrency, kuongezeka kwa kubadilishana bila uhifadhi ambayo pia inajulikana kama Kubadilisha Kutokana au DEXs inabadilisha jinsi watumiaji wanavyojihusisha na mali za dijiti. Jukwaa hizi zinatoa njia mpya ya kufanya biashara kwa kuondoa hitaji la wapatanishi au watu wengine na kurudisha udhibiti kwa watumiaje.
 

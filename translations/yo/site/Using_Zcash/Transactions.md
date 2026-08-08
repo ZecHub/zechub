@@ -13,7 +13,7 @@ ZEC is a widely-used digital asset for payments, offering strong privacy feature
 - Àwọn àdírésì tí a fi ààbò bo bẹ̀rẹ̀ pẹlú: `u` or `z`. Àwọn àdírẹ́sì tí ó ṣe kedere bẹ̀rẹ̀ pẹ̀lú: `t` ó sì máa ń ṣe bíi àdírẹ́sì Bitcoin.
 - Ìpínlẹ̀ ìpamọ́ jẹ àyè tí Zcash fún ọ, kìí ṣe ipò ti ẹlòmíràn pinnu rẹ.
 - Yíyọ kúrò nínú ilé ìfowópamọ́ jẹ́ ibi tí àwọn ènìyàn ti máa ń pàdánù ààbò ara ẹni. Bí ilé-ìfowópárò bá ṣe atilẹyin fún ṣíṣípadà owó lọ ní ọ̀nà tó mọlẹ, dáàbò bo owó náà fúnra rẹ nígbàtí wọ́n dé.
-- Àwọn owó tó wà nísàlẹ̀ [ZIP 317]](https://zips.z.cash/zip-0317) àwọn àpamọ́ owó tí wọ́n ṣì ń fi iye kan pàtó ránṣẹ́ lè rí i pé ìnáwó wọn máa pẹ̀yìn.
+- Àwọn owó tó wà nísàlẹ̀ [ZIP 317](https://zips.z.cash/zip-0317) àwọn àpamọ́ owó tí wọ́n ṣì ń fi iye kan pàtó ránṣẹ́ lè rí i pé ìnáwó wọn máa pẹ̀yìn.
 
 ## Àwọn Àdéhùn tí a fi ààbò bo
 
@@ -75,18 +75,18 @@ Coinomi Wallet: Offers three dynamic fee options Low, Normal, High based on netw
 
 ## Àkíyèsí
 
-Jọwọ ṣe akiyesi pe ọna ti o ni aabo julọ lati lo ZEC jẹ lilo awọn iṣowo ipamọ nikan. Diẹ ninu awọn apamọ wa ni ilana imuse [awọn adirẹsi iṣọkan]](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) tí ó jẹ́ kí àwọn olùṣàmúlò àti ilé-ìpamọ̀ lè pa àdírésì tó ṣe kedere àti èyí tí a fi ààbò bo pọ̀.
+Jọwọ ṣe akiyesi pe ọna ti o ni aabo julọ lati lo ZEC jẹ lilo awọn iṣowo ipamọ nikan. Diẹ ninu awọn apamọ wa ni ilana imuse [awọn adirẹsi iṣọkan](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) tí ó jẹ́ kí àwọn olùṣàmúlò àti ilé-ìpamọ̀ lè pa àdírésì tó ṣe kedere àti èyí tí a fi ààbò bo pọ̀.
 
 ## Àwọn Owó-ìṣúnná owó
 
-[Àmì ìdìpọ̀ tí a fi ń ṣàpèjúwe]](https://zips.z.cash/)
+[Àmì ìdìpọ̀ tí a fi ń ṣàpèjúwe](https://zips.z.cash/)
 
 ## Àwọn ojúewé tó ní í ṣe pẹ̀lú rẹ̀
 
-- [Àwọn àpamọ́wọ́n]](/using-zcash/wallets)  àwọn àpò tí ó ń ṣe ìfọwọ́sí sí fífi èdìdì ránṣẹ́, àti èyí tó jẹ́ pé ìmọ̀ nìkan ni wọ́n fi ń ríran.
-- [Àwọn Erékùṣù Tí Wọ́n Fi Ààbò Pa Mọ́]](/using-zcash/shielded-pools)  Sapling àti Orchard, àwọn adágún tí owó rẹ tó wà lábẹ́ ìbòjú ń gbé inú wọn.
-- [Àwọn ìwé ìrántí]](/using-zcash/memos)  àwọn ìsọfúnni tí a fi kọ̀ǹpútà ṣe, èyí tó lè rìnrìn àjò pẹlú ìṣòwò kan tí ó ní ìdènà.
-- [Àwọn Àdúgbò Ìpàdé Tó Ṣeé Ríran]](/using-zcash/transparent-exchange-addresses)  Àwọn àdírẹ́sì TEX àti ìdí tí àwọn ilé-ìtajà fi ń lò wọ́n.
-- [Ìpàdé àyípadà ẹ̀wọ̀n]](/using-zcash/custodial-exchanges)  àwọn ilé-ìtajà wo ló ń ṣe àtìlẹ́yìn fún ìsínwó tí a fi ọ̀pá dì?
+- [Àwọn àpamọ́wọ́n](/using-zcash/wallets)  àwọn àpò tí ó ń ṣe ìfọwọ́sí sí fífi èdìdì ránṣẹ́, àti èyí tó jẹ́ pé ìmọ̀ nìkan ni wọ́n fi ń ríran.
+- [Àwọn Erékùṣù Tí Wọ́n Fi Ààbò Pa Mọ́](/using-zcash/shielded-pools)  Sapling àti Orchard, àwọn adágún tí owó rẹ tó wà lábẹ́ ìbòjú ń gbé inú wọn.
+- [Àwọn ìwé ìrántí](/using-zcash/memos)  àwọn ìsọfúnni tí a fi kọ̀ǹpútà ṣe, èyí tó lè rìnrìn àjò pẹlú ìṣòwò kan tí ó ní ìdènà.
+- [Àwọn Àdúgbò Ìpàdé Tó Ṣeé Ríran](/using-zcash/transparent-exchange-addresses)  Àwọn àdírẹ́sì TEX àti ìdí tí àwọn ilé-ìtajà fi ń lò wọ́n.
+- [Ìpàdé àyípadà ẹ̀wọ̀n](/using-zcash/custodial-exchanges)  àwọn ilé-ìtajà wo ló ń ṣe àtìlẹ́yìn fún ìsínwó tí a fi ọ̀pá dì?
 
 ## ZEC sí Olùyípadà ZAT

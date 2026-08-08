@@ -56,7 +56,7 @@ Orchard de nkekae, mfasoɔ ne ahobanbɔ asisi yie denam transaction metadata lea
 
 Ɛnnɛ, Orchard da so yɛ ɔbodan a wɔabɔ ho ban ma Zcash. Nanso, nnipa no rehwɛ sɛ daakye wɔbɛtu akɔ abodan foforo bi a wɔfrɛ no Ironwood mu, na ɛbɛma wɔn awerɛhyem aka nea ɛfa ahobanbɔ ZEC nkuraaseɛ no nyinaa ho bere a ɛrekora Zcash kokoam nsɛm ho bɔ anoɔden yi.
 
-[Zcash Akwampanin a wɔabɔ ho ban]](/wallets) afei de, boa Orchard.
+[Zcash Akwampanin a wɔabɔ ho ban](/wallets) afei de, boa Orchard.
 
 ____
 
@@ -90,7 +90,7 @@ Sprout yɛ abɛɛfo kwan a wɔnni ho kwan biara so, Zero Knowledge ahobanbɔ nhy
 
 Wɔkyerɛ sɛ wɔn a wɔdi kan no yɛ "zc". Wode din "Sprout" maa dwumadie yi, na ɛkyerɛ sɛ ɛyɛ mfidie ketewa bi. Saa nhyehyeɛ no ma wotumi nya nkɔso ne hokwan pii de di dwuma. 
 
-Na wɔde Sprout adi dwuma sɛ mfitiaseɛ dwumadie ma [Zcash slow start Mining]](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) a ɛmaa ZEC ne Block akatua no kyekyɛɛ maa Miners. 
+Na wɔde Sprout adi dwuma sɛ mfitiaseɛ dwumadie ma [Zcash slow start Mining](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) a ɛmaa ZEC ne Block akatua no kyekyɛɛ maa Miners. 
 
 Ɛberɛ a Zcash mu nneɛma kɔɔ so trɛwee na nnwumakuo bebree yɛɛ adwuma no, wɔhunuu sɛ wɔn deɛ yɛmu nsesaeɛ ne emu mfasoɔ nyinaa bɛdɔɔso. Wei maa wɔyɛɛ network modification (nkrataa ahodoɔ a etwa to) bi nso de ho ban bɔɔ Sapling Upgrade. 
 
@@ -166,8 +166,8 @@ Sɛ wɔ de no di dwuma denam daakye nketewa a wɔbɛsesa so, Ironwood bɛyɛ nky
 
 ## Nkrataafa a Ɛwɔ Ho Nsɛm
 
-- [Nkrataa nkekaho]](/using-zcash/wallets)  Which wallets support Orchard and Sapling pools? (Ɛhe na sika nkontaabu ahodoɔ a ɛboa ma wɔtumi nya nnuaba ne mfuo)
-- [Nsɛm a wobɛyɛ de ayi ntoboa]](/using-zcash/transactions)  Sεnea wobεfa nnwumakuo a w'atwe wɔn ho afiri asiane mu no so de adi dwuma.
-- [Ɛtɔ ZEC no a, yɛfa so tu kɔ]](/using-zcash/buying-zec)  W'ɔpɛ ZEC ansa na wode no adi dwuma wɔ mpuntuo mu
+- [Nkrataa nkekaho](/using-zcash/wallets)  Which wallets support Orchard and Sapling pools? (Ɛhe na sika nkontaabu ahodoɔ a ɛboa ma wɔtumi nya nnuaba ne mfuo)
+- [Nsɛm a wobɛyɛ de ayi ntoboa](/using-zcash/transactions)  Sεnea wobεfa nnwumakuo a w'atwe wɔn ho afiri asiane mu no so de adi dwuma.
+- [Ɛtɔ ZEC no a, yɛfa so tu kɔ](/using-zcash/buying-zec)  W'ɔpɛ ZEC ansa na wode no adi dwuma wɔ mpuntuo mu
 - [ZK-SNARKs](/zcash-tech/zk-snarks)  The cryptographic foundation of shielded pools (Nkrataa ahodoɔ a etwa sɛ yɛhyehyɛ wɔ kasa foforɔ mu)
 - [Dɛn ne ZEC na Zcash yɛ?](/start-here/what-is-zec-and-zcash)  Zcash ahobanbɔ ho nsɛm a ɛfa nnipa asetena mu no.

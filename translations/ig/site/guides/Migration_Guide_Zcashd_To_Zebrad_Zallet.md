@@ -77,7 +77,7 @@ This installs the latest stable version of zebrad.
 Mgbe i wuchara ya, bugharịa binary ahụ n'ụzọ gị:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Migration 11]](/content-images/BJ0zjLY6ll-f77354d701.webp)
+[Migration 11](/content-images/BJ0zjLY6ll-f77354d701.webp)
 </div>
 
 **4. Nhazi & Mwepụta** 
@@ -92,7 +92,7 @@ Dezie **zebrad.toml** na mmasị gị (na-ege ntị na adreesị, ọdụ ụgb�
 ** Malite ọnụ:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Ihe osise]](/content-images/H1KPkvt6gl-864c48ca40.webp)
+[Ihe osise](/content-images/H1KPkvt6gl-864c48ca40.webp)
 </div>
 
 The node will begin syncing from genesis - expect several hours (or more) depending on hardware and network.
@@ -106,7 +106,7 @@ Lelee Zallet GitHub / wepụta peeji maka ọnụọgụ abụọ.
 ** Ma ọ bụ wuo site na isi iyi:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Ihe osise]](/content-images/SyUFxvFTex-5bb10ee1d3.webp)
+[Ihe osise](/content-images/SyUFxvFTex-5bb10ee1d3.webp)
 </div>
 
 * Bido GUI ma ọ bụ CLI (dị ka nrụnye gị nyere).
@@ -143,13 +143,13 @@ Mgbe synchronization zuru ezu, nguzo gị na azụmahịa kwesịrị ịpụta 
 Ị nwere ike ịchọpụta ọnọdụ sync gị site na ịgba ọsọ:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Ihe osise]](/content-images/SyIyVDY6xl-10d6bed7b8.webp)
+[Ihe osise](/content-images/SyIyVDY6xl-10d6bed7b8.webp)
 </div>
 
 Ma ọ bụ na-enyocha ihe ndekọ.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Ihe osise]](/content-images/r1HfVPF6gg-b6b76e9907.webp)
+[Ihe osise](/content-images/r1HfVPF6gg-b6b76e9907.webp)
 </div>
 
 **8. Nchọpụta nsogbu**
@@ -199,4 +199,4 @@ Migrating from zcashd to Zebrad and Zallet gives you a faster, safer, and more m
 With Rust-based security, modular design, and better tooling, this setup ensures your node and wallet remain future-ready as the Zcash ecosystem continues to evolve.
 
 Ndụmọdụ: Debe igodo obere akpa gị na-anọghị n'ịntanetị ma na-echekwa data Zallet gị mgbe niile.
-Gaa na [zebra.zfnd.org]](https://zebra.zfnd.org) na [zallet.zfnd.org](https://zallet.zfnd.org) maka mmelite na nkwado obodo.
+Gaa na [zebra.zfnd.org](https://zebra.zfnd.org) na [zallet.zfnd.org](https://zallet.zfnd.org) maka mmelite na nkwado obodo.

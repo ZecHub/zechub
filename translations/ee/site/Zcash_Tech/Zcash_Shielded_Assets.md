@@ -13,8 +13,8 @@
 Zcash Shielded Assets (ZSA) nye ɖoɖowɔɖi si woɖo be woana ga siwo mele ZEC me o, abe stablecoins alo nu bubu ɖe sia ɖe ƒomevi ene nanɔ zcash ƒe asime le eƒe akpa dzi. Ame si ɖo eŋu kple ame si xɔe kpakple woƒe homea katã anɔ ɣaɣla ɖaa.
 
 - **Nukae wònye:** Eʋeawo ƒe akpa si le abe ERC-20 ene, gake woxɔa asi na wo to mɔ̃ dzi.
-- Amekae le etutu dzi? [QEDIT]](https://qed-it.com/), si le Zcash Foundation ƒe gakpekpeɖeŋu te, kple Electric Coin Company.
-- ** Ale si woatsɔe ade dzesi:** [ZIP 226]](https://zips.z.cash/zip-0226) (woaɖɔe ɖo eye woatɔ dzoe) kple [ZIP 227] ɖekae.](https://zips.z.cash/zip-0227) (nuwo ƒe dodo).
+- Amekae le etutu dzi? [QEDIT](https://qed-it.com/), si le Zcash Foundation ƒe gakpekpeɖeŋu te, kple Electric Coin Company.
+- ** Ale si woatsɔe ade dzesi:** [ZIP 226](https://zips.z.cash/zip-0226) (woaɖɔe ɖo eye woatɔ dzoe) kple [ZIP 227] ɖekae.](https://zips.z.cash/zip-0227) (nuwo ƒe dodo).
 - ** Nɔnɔme:** menyea agbe le internet dzi o. Woɖo ɖoɖo be woazã ZSA ƒe protocol la na Network Upgrade 7 (NU7).
 - ** Fewo:** woxena le ZEC me ɣesiaɣi, eɖanye nusi dzi wole asi trɔm ɖo o.
 
@@ -28,7 +28,7 @@ Ne ènya [ERC-20] la, ke na míagblɔe wòade dzi ƒo na wò.](https://ethereum.
 
 Zcash Shielded Assets ana be woate ŋu awɔ tokens siwo le ame ŋutɔ tɔ dzi ɖe zcash blockchain la me, si awɔe be woazã token bubuwo tsɔ wu [ZEC] ƒe dɔdeasiwo.](/guides/using-zec-privately) be woazã nu siwo wowɔna le Zcash ƒe kɔmpiuta dzi atsɔ akpɔ egbɔ be ame aɖeke magblɔ ŋkɔ na yewo o.
 
-A major potential use of ZSAs would be to issue stablecoins on the Zcash protocol. Stablecoins are cryptocurrencies that peg their value to a fiat currency, such as the US Dollar or Euro. Currently, some of the most widely circulated stablecoins are ERC-20 tokens such as [USDC](https://www.circle.com/en/usdc) kple [Dai]](https://docs.makerdao.com/).
+A major potential use of ZSAs would be to issue stablecoins on the Zcash protocol. Stablecoins are cryptocurrencies that peg their value to a fiat currency, such as the US Dollar or Euro. Currently, some of the most widely circulated stablecoins are ERC-20 tokens such as [USDC](https://www.circle.com/en/usdc) kple [Dai](https://docs.makerdao.com/).
 
 ZSA ƒe dɔwɔna bubu enye be woade dziɖuɖumɔnuwo asi na ame bubuwo. Le kpɔɖeŋu me, Zechub (xexea si ta wiki sia) nye Decentralized Autonomous Organization (DAO), eye ate ŋu awɔ nu ahaɖo ZSA aɖe ɖe eƒe hameviwo hena akɔdada le ɖoɖo kple dziɖuɖu ŋuti nyametsotsowo ŋu.
 
@@ -97,7 +97,7 @@ ZIP 226 defines the OrchardZSA protocol — an extension of the Orchard protocol
 
 [QEDIT] tsɔ ZSA ƒe ɖoɖo si nye Asset Shielded (ZSA/UDA) la ɖo anyi.](https://qed-it.com/) Woyɔa wo be User Defined Assets (UDA) alo Zcash Shielded Asset (ZSA).
 
-Le ɖoɖo sia ta la, [QEDIT] ƒe ƒuƒoƒo si le dɔ wɔm kple dɔwɔƒe aɖe be yewoawɔ numekuku tso alesi nuwo wɔa va yinae ŋu.](https://qed-it.com/) Edzro be yewoatsɔ DeFi ade Zcash ƒe nutoa me eye le ɣeyiɣi ma ke me la, woana woawɔ nu kple ame ŋuti nyatakakawo ŋu dɔ nyuie wu. Le numekuku aɖe si wowɔ na ƒuƒoƒo sia me tɔwo ta la, wobia gbee heɖo eŋu nɛ be [generic shielded assets (ZSA/UDA) ye nye nɔnɔme siwo amewo dina vevie fifia]](https://twitter.com/BenarrochDaniel/status/1428327864034791429).
+Le ɖoɖo sia ta la, [QEDIT] ƒe ƒuƒoƒo si le dɔ wɔm kple dɔwɔƒe aɖe be yewoawɔ numekuku tso alesi nuwo wɔa va yinae ŋu.](https://qed-it.com/) Edzro be yewoatsɔ DeFi ade Zcash ƒe nutoa me eye le ɣeyiɣi ma ke me la, woana woawɔ nu kple ame ŋuti nyatakakawo ŋu dɔ nyuie wu. Le numekuku aɖe si wowɔ na ƒuƒoƒo sia me tɔwo ta la, wobia gbee heɖo eŋu nɛ be [generic shielded assets (ZSA/UDA) ye nye nɔnɔme siwo amewo dina vevie fifia](https://twitter.com/BenarrochDaniel/status/1428327864034791429).
 
 Nya siawo wɔ ɖeka kple [Zcash Improvement Proposal (ZIP) ] ƒe aɖaŋuɖoɖowo.](https://zips.z.cash/zip-0000) Woɖe wo me le ZIP 226 kple ZIP 277 la me.
 
@@ -141,7 +141,7 @@ Nya siawo wɔ ɖeka kple [Zcash Improvement Proposal (ZIP) ] ƒe aɖaŋuɖoɖowo
 ## Axawo Siwo Do Ka Kple Wo Nɔewo
 
 - [Halo](/zcash-tech/halo)  ɖoɖo si dzi woato awɔ numekuku le Orchard megbe, enye ZSA ƒe mɔfianuwo.
-- [Zk-SNARKs]](/zcash-tech/zk-snarks)  kpeɖodzi siwo me womenya naneke le o, si na wokpɔa nu sia ƒe dzɔdzɔmesewo dzi evɔ womeɖea wo ɖe go o la ŋu.
-- [Tsiƒedɔwo le Tsiɖɔɖuwo me]](/using-zcash/shielded-pools)  afisi ZSAwo anɔ agbe le hekpe ɖe ZEC ŋu.
-- [Gadzraɖowɔƒewo]](/using-zcash/transactions)  alesi wowɔa Zcash-gafewoe
-- [Zebra ƒe Nuƒowo Katã]](/zcash-tech/zebra-full-node)  nuwɔmɔnu si wozã le ZSA ƒe wɔwɔfia me la dzi.
+- [Zk-SNARKs](/zcash-tech/zk-snarks)  kpeɖodzi siwo me womenya naneke le o, si na wokpɔa nu sia ƒe dzɔdzɔmesewo dzi evɔ womeɖea wo ɖe go o la ŋu.
+- [Tsiƒedɔwo le Tsiɖɔɖuwo me](/using-zcash/shielded-pools)  afisi ZSAwo anɔ agbe le hekpe ɖe ZEC ŋu.
+- [Gadzraɖowɔƒewo](/using-zcash/transactions)  alesi wowɔa Zcash-gafewoe
+- [Zebra ƒe Nuƒowo Katã](/zcash-tech/zebra-full-node)  nuwɔmɔnu si wozã le ZSA ƒe wɔwɔfia me la dzi.

@@ -29,7 +29,7 @@ By repeatedly collapsing multiple instances of hard problems together over cycle
 
 Halo ma wɔn a wɔde di dwuma no awerɛhyem mmienu fa ahobanbɔ ho. Nea edi kan, ɛma wotumi kyerɛ sɛ obiara nni hɔ a ɔde ne ho hyɛɛ Genesis afahyɛ mu na wabue ɔfasuo akyi de ayɛ nnaadaa nnwuma. Ne mprenu so nso, ɛboa nnipa ma wɔhunu sɛ bere tenten ni mpo deɛ wɔayɛ nsakrae bi aba ama nhyehyɛe no adi ban.
 
-[Sean Bowes Nkyerɛkyerɛmu wɔ Dystopia Labs ho]](https://www.youtube.com/watch?v=KdkVTEHUxgo) 
+[Sean Bowes Nkyerɛkyerɛmu wɔ Dystopia Labs ho](https://www.youtube.com/watch?v=KdkVTEHUxgo) 
  
 
 
@@ -39,7 +39,7 @@ Recursive proof composition ma kwan sɛ ɔdanse baako bɛtumi adi adanseɛ a ɛn
 
 Ansa na Halo reba no, sɛ wobɛyɛ recursive proof composition a ɛhwehwɛ kɔmputa mu nnɔbae bebree ne setup bi a wɔgye di. N'abɛfidie titiriw baako yɛ ɔkwan bi a wɔfrɛ no "nested amortization". Saa kwan yi ma wotumi de polynomial commitment scheme gyina nsunsuanso afrafra so yɛ adeyɛ pa pii bere a wɔnte trusted setup ase koraa.
 
-Wɔ [Halo krataa no mu]](https://eprint.iacr.org/2019/1021.pdf)Yԑde nsesaeԑ a ԑfa ho no kyerԑkyerԑ sԑ y'atumi de nkontaabu foforɔ bi adi dwuma. Nkontaabuo yi ma yetumi di adanse bebree so wɔ bere tiaa mu te sɛ nea yɛdi adanse baako akyi. Eyi nkutoo betumi ama yɛanya ɔkwan foforo afa zk-SNARKs dedaw a wɔde dii dwuma wͻ Zcash ase no.
+Wɔ [Halo krataa no mu](https://eprint.iacr.org/2019/1021.pdf)Yԑde nsesaeԑ a ԑfa ho no kyerԑkyerԑ sԑ y'atumi de nkontaabu foforɔ bi adi dwuma. Nkontaabuo yi ma yetumi di adanse bebree so wɔ bere tiaa mu te sɛ nea yɛdi adanse baako akyi. Eyi nkutoo betumi ama yɛanya ɔkwan foforo afa zk-SNARKs dedaw a wɔde dii dwuma wͻ Zcash ase no.
 
 
 ### Halo 2 mu nkrataa
@@ -62,7 +62,7 @@ Saa ara nso na, akuw afoforo pii rehwehwɛ Polynomial IOPs foforo a ɛboro Sonic
 
 Saa akwankyerԑ foforɔ yi mu nea ԑyε adwuma paa ne PLONK, a εma ahobammɔ kɛse wɔ nhyehyεε a wɔde di dwuma yiye ho gyinabea ahorow so na ɛma wonya bere tenten koraa sen Sonic.
 
-[PLONK ho nsɛm nyinaa]](https://www.youtube.com/watch?v=P1JeN30RdwQ)
+[PLONK ho nsɛm nyinaa](https://www.youtube.com/watch?v=P1JeN30RdwQ)
 
 
 ### Ɔkwan bɛn so na eyi boa Zcash?
@@ -84,11 +84,11 @@ Bio nso, Halo 2 wɔ [MIT ne Apache 2.0 open-source licenses ase.](https://github
 
 Since its deployment, the halo2 library has been adopted in projects like the zkEVM, there is potential integration of Halo 2 into the proof system for the Filecoin Virtual Machine. Filecoin requires numerous costly proofs of spacetime / proofs of replication. Halo2 will be pivotal in compressing the space usage, better scaling the network.
 
-[Filecoin Foundation video a ɛne Zooko wɔ no]](https://www.youtube.com/watch?v=t4XOdagc9xw)
+[Filecoin Foundation video a ɛne Zooko wɔ no](https://www.youtube.com/watch?v=t4XOdagc9xw)
 
 Additionally, it would be highly beneficial to both the Filecoin and Zcash ecosystems if Filecoin storage payments could be made in ZEC, affording the same level of privacy for storage purchases that exists in Zcash shielded transfers. This support would add the ability to encrypt files in Filecoin storage and add support to mobile clients so that they could **attach** media or files to a Zcash encrypted memo. 
 
-[ECC x Filecoin Nkrataafa a Ɛwɔ Adansedie mu]](https://electriccoin.co/blog/ethereum-zcash-filecoin-collab/)
+[ECC x Filecoin Nkrataafa a Ɛwɔ Adansedie mu](https://electriccoin.co/blog/ethereum-zcash-filecoin-collab/)
 
 ### Ethereum ne ɔmo kaseɛbɔ
 
@@ -98,33 +98,33 @@ Wobetumi de adi dwuma sɛ abɛɛfo atirimpɔ a wɔde di dwuma wɔ nyansahyɛ dwu
 
 ECC, Filecoin Foundation, Protocol Labs ne Ethereum Foundation nso bɛyɛ adwuma wɔ [SupraNational] so.](https://www.supranational.net/), a ɔyɛ hardware-accelerated cryptography ho adwuma no, na ɔde ne nsa ahyɛ GPU ne ASIC dwumadie mu.
 
-[Yareɛ a wɔhwɛ so bɔ wɔn ho ban ne nhwehwɛmu no]](https://appliedzkp.org/) is also researching different ways Halo 2 proofs can improve privacy and scalability for the Ethereum ecosystem. This group rolls up to the Ethereum foundation, and has a broad focus on zero-knowledge proofs and cryptographic primitives. 
+[Yareɛ a wɔhwɛ so bɔ wɔn ho ban ne nhwehwɛmu no](https://appliedzkp.org/) is also researching different ways Halo 2 proofs can improve privacy and scalability for the Ethereum ecosystem. This group rolls up to the Ethereum foundation, and has a broad focus on zero-knowledge proofs and cryptographic primitives. 
 
 ## Nnwumakuo a wɔde Halo di dwuma foforɔ
 
-+ [Anoma, ahintasɛm a ɛhwɛ atomic swap protocol so wɔ mprɛte pii mu no]](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
++ [Anoma, ahintasɛm a ɛhwɛ atomic swap protocol so wɔ mprɛte pii mu no](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
 
-+ [Oribis, a L2 zkRollup on Cardano]](https://docs.orbisprotocol.com/orbis/technology/halo-2)
++ [Oribis, a L2 zkRollup on Cardano](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
-+ [Darkfi, L1 zkEVM blockchain a wɔn ankasa yɛ no]](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
++ [Darkfi, L1 zkEVM blockchain a wɔn ankasa yɛ no](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
 
-+ [Scroll, a L2 zkRollup wɔ Ethereum so]](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
++ [Scroll, a L2 zkRollup wɔ Ethereum so](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 
 
 **Nkɔso Adesua**:
 
-[Nneɛma a wɔde ba zkp ne halo 2 ho - Hanh Huynh Huu]](https://www.youtube.com/watch?v=jDHWJLjQ9oA)
+[Nneɛma a wɔde ba zkp ne halo 2 ho - Hanh Huynh Huu](https://www.youtube.com/watch?v=jDHWJLjQ9oA)
 
-[Halo 2 a Daira ne Str4d - ZKPodcast ka ho]](https://www.youtube.com/watch?v=-lZH8T5i-K4)
+[Halo 2 a Daira ne Str4d - ZKPodcast ka ho](https://www.youtube.com/watch?v=-lZH8T5i-K4)
 
-[Nsɛm a wɔaka afa mfidie ho]](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)
+[Nsɛm a wɔaka afa mfidie ho](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)
 
-[Halo 2 Community Showcase - Ying Tong @Zcon3]](https://www.youtube.com/watch?v=JJi2TT2Ahp0)
+[Halo 2 Community Showcase - Ying Tong @Zcon3](https://www.youtube.com/watch?v=JJi2TT2Ahp0)
 
 *Nkrataa ahodoɔ a etwa sɛ yɛhyehyɛ wɔ kasa ahodoɔ mu*
 
-[Halo 2 nneɛma a ɛwɔ hɔ no]](https://github.com/adria0/awesome-halo2)
+[Halo 2 nneɛma a ɛwɔ hɔ no](https://github.com/adria0/awesome-halo2)
 
-[Halo 2 docs]](https://zcash.github.io/halo2/)
+[Halo 2 docs](https://zcash.github.io/halo2/)
 
-[Halo 2 github]](https://github.com/zcash/halo2)
+[Halo 2 github](https://github.com/zcash/halo2)

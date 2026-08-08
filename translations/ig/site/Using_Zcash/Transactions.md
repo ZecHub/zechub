@@ -13,7 +13,7 @@ ZEC bụ akụ dijitalụ eji eme ihe maka ịkwụ ụgwọ, na-enye atụmat�
 - Adreesị echedoro na-amalite site na: `u` or `z`. Adreesị ndị na-enweghị ihe ọ bụla malitere site na: `t` na-akpa àgwà dị ka adreesị Bitcoin.
 - Nhọrọ bụ nke gị na ugwo ọ bụla. Nzuzo bu nhọrọ Zcash nyere gi, obughi ihe onye ozo kpebiri maka gi.
 - Iwepụ ego na mgbanwe bụ ebe ndị mmadụ kachasị atụfu nzuzo. Ọ bụrụ na mgbanwe ahụ kwadoro naanị iwepu ihe doro anya, chebe onwe gị ozugbo ha rutere.
-- Ụgwọ ndị na-eso [ZIP 317]](https://zips.z.cash/zip-0317) na-etolite site n'ogo nke azụmahịa ahụ. Wallets ka na-eziga ụgwọ ochie nwere ike ịhụ azụmaahịa ha egbu oge.
+- Ụgwọ ndị na-eso [ZIP 317](https://zips.z.cash/zip-0317) na-etolite site n'ogo nke azụmahịa ahụ. Wallets ka na-eziga ụgwọ ochie nwere ike ịhụ azụmaahịa ha egbu oge.
 
 ## Azụmahịa Ndị E Chebere
 
@@ -75,7 +75,7 @@ Coinomi Wallet: Offers three dynamic fee options Low, Normal, High based on netw
 
 ## Ihe edeturu
 
-Biko rịba ama na ụzọ kachasị nchebe iji ZEC bụ naanị iji azụmahịa echekwara. Ụfọdụ obere akpa ego nọ n'usoro mmejuputa [adreesị dị iche iche]](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) nke na-enye ohere ka ndị ọrụ na mgbanwe jikọta adreesị doro anya ma kpuchie ọnụ.
+Biko rịba ama na ụzọ kachasị nchebe iji ZEC bụ naanị iji azụmahịa echekwara. Ụfọdụ obere akpa ego nọ n'usoro mmejuputa [adreesị dị iche iche](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) nke na-enye ohere ka ndị ọrụ na mgbanwe jikọta adreesị doro anya ma kpuchie ọnụ.
 
 ## Akụnụba
 
@@ -83,10 +83,10 @@ Biko rịba ama na ụzọ kachasị nchebe iji ZEC bụ naanị iji azụmahị
 
 ## Peeji ndị metụtara ya
 
-- [Ebe ego ndị dị na ya]](/using-zcash/wallets)  nke wallets akwado shielded eziga, na ndị bụ naanị uzo.
-- [Egwuregwu Ndị E Chebere]](/using-zcash/shielded-pools)  Sapling na Orchard, ọdọ mmiri gị echekwara ego bi n'ime ya
-- [Ihe ncheta]](/using-zcash/memos)  ozi ezoro ezo nke nwere ike ịga njem na azụmahịa echekwara.
-- [Adreesị mgbanwe doro anya]](/using-zcash/transparent-exchange-addresses)  Adreesị TEX na ihe kpatara mgbanwe ji eji ha eme ihe
-- [Mgbanwe nke Ndị Nọ n'Ụlọ Mkpọrọ]](/using-zcash/custodial-exchanges)  nke mgbanwe na-akwado ekpuchi withdrawals
+- [Ebe ego ndị dị na ya](/using-zcash/wallets)  nke wallets akwado shielded eziga, na ndị bụ naanị uzo.
+- [Egwuregwu Ndị E Chebere](/using-zcash/shielded-pools)  Sapling na Orchard, ọdọ mmiri gị echekwara ego bi n'ime ya
+- [Ihe ncheta](/using-zcash/memos)  ozi ezoro ezo nke nwere ike ịga njem na azụmahịa echekwara.
+- [Adreesị mgbanwe doro anya](/using-zcash/transparent-exchange-addresses)  Adreesị TEX na ihe kpatara mgbanwe ji eji ha eme ihe
+- [Mgbanwe nke Ndị Nọ n'Ụlọ Mkpọrọ](/using-zcash/custodial-exchanges)  nke mgbanwe na-akwado ekpuchi withdrawals
 
 ## ZEC ka onye ntụgharị nke ZAT

@@ -72,16 +72,16 @@ Fun **Zcash Mainnet**;
 
 ## **3. So pọ̀ mọ́ àpò-ìpamọ́ ChainSafe WebZjs**
 
-1. Lọ sí [webzjs.chainsafe.dev]](https://webzjs.chainsafe.dev).  
+1. Lọ sí [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev).  
 2. Tẹ **Sopọ MetaMask Snap**. 
 
-[Ìwó orí ayélujára Zcash]](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
+[Ìwó orí ayélujára Zcash](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
 
 3. Ẹ fọwọ́ sí ìsopọ̀ náà. 
 4. Wo àkójọpọ̀ àkọsílẹ̀ Zcash rẹ, pẹlu:
    - Àwọn adirẹsi tí ó wà ní ọ̀kan àti Adirẹẹsi tí kò fi ojú síta
 
-[Ìsọfúnni-ní-ìdìpọ̀-ìdílé]](/content-images/r17c_Mhdel-f4963826d5.webp)
+[Ìsọfúnni-ní-ìdìpọ̀-ìdílé](/content-images/r17c_Mhdel-f4963826d5.webp)
 
 
 5. Dúró títí dìgbà tí ìṣọ̀kan yóò parí.

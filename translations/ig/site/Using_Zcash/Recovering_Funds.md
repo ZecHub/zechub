@@ -16,7 +16,7 @@ By maintaining control over your private keys, the recovery process is always po
 
 Ọ dị oke mkpa ka ndị ọrụ ghọta ihe ize ndụ metụtara na-emeso nzuzo igodo ma debe ha chebe site n'aka ikike ịnweta. Nche nke ego dabere na ibu ọrụ onye ọrụ iji chekwaa mkpịsị ugodi onwe ya.
 
-> ** Tupu ịmalite:** ntuziaka mgbake na-ezo aka Ywallet. Onye mmepe ya ekwenyela na a gaghị emelite maka nkwalite netwọk Ironwood (NU6.3), n'ihi ya, ọ nweghị ike ịgbaso agbụ ahụ ọzọ. Jiri ** Zkool ** , nke bụ site otu onye nrụpụta ma bụrụ onye nọchiri anya ya. Lee [Ywallet anaghịzi edobe]](#ywallet-is-no-longer-maintained) n'ala ala peeji a.
+> ** Tupu ịmalite:** ntuziaka mgbake na-ezo aka Ywallet. Onye mmepe ya ekwenyela na a gaghị emelite maka nkwalite netwọk Ironwood (NU6.3), n'ihi ya, ọ nweghị ike ịgbaso agbụ ahụ ọzọ. Jiri ** Zkool ** , nke bụ site otu onye nrụpụta ma bụrụ onye nọchiri anya ya. Lee [Ywallet anaghịzi edobe](#ywallet-is-no-longer-maintained) n'ala ala peeji a.
 
 ## Nchịkọta ego na Zkool
 
@@ -29,7 +29,7 @@ E nwere ọnọdụ abụọ a na-ekwu okwu ha ebe a:
 
 ### 1) Ịgbanwe Akaụntụ Gị
 
-1. Wụnye Zkool site na [wepụtara peeji nke]](https://github.com/hhanh00/zkool2/releases) mepee ya .
+1. Wụnye Zkool site na [wepụtara peeji nke](https://github.com/hhanh00/zkool2/releases) mepee ya .
 2. Na ** Onye njikwa akaụntụ** (isi peeji), pịa bọtịnụ **+** iji nweta ihuenyo ** Akaụntụ Ọhụrụ**
 3. Tinye ** Aha Akaụntụ** iji mata akaụntụ a.
 4. Tinye ** Weghachite Akaụntụ?** Nke a na-ekpughe igodo ahụ ma ọ bụ ubi ọmụmụ.
@@ -104,7 +104,7 @@ Onye mmepe ya ekwenyela na a gaghị emelite maka Ironwood. Akpa ego nke anagh�
 
 ## Peeji ndị metụtara ya
 
-- [Ebe ego ndị dị na ya]](/using-zcash/wallets) - nke wallets na-nọgidere na ha Ironwood njikere
-- [Ironwood osisi na-eme ka ọ dị mma]](/zcash-tech/ironwood) - ihe nkwalite gbanwere na gịnị kpatara ego ji akwaga ebe ọzọ.
-- [Ihe ncheta]](/using-zcash/memos) - etu akwụkwọ ozi ezoro ezo si arụ ọrụ.
+- [Ebe ego ndị dị na ya](/using-zcash/wallets) - nke wallets na-nọgidere na ha Ironwood njikere
+- [Ironwood osisi na-eme ka ọ dị mma](/zcash-tech/ironwood) - ihe nkwalite gbanwere na gịnị kpatara ego ji akwaga ebe ọzọ.
+- [Ihe ncheta](/using-zcash/memos) - etu akwụkwọ ozi ezoro ezo si arụ ọrụ.
 - [Ịhụ Igodo](/zcash-tech/viewing-keys) - naanị ịgụ ohere na-enweghị ike mmefu.

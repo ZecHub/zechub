@@ -204,7 +204,7 @@ Wowɔ ɖoɖo be yewoado Zebra ƒe nuŋɔŋlɔ, kadodo kple kɔmpiuta ŋuti nyata
 
 ### Dzatawo
 Wole dɔ wɔm le nuxexlẽ ƒe ɖoɖo si dzi woade asii (FROST) ŋu be woatsɔ adze egɔme nyuie wu le Zcash-mɔ̃a me. 
-[Agbalẽa ƒe akpa si le axa 1]](https://eprint.iacr.org/2020/852)
+[Agbalẽa ƒe akpa si le axa 1](https://eprint.iacr.org/2020/852)
 
 ### MonteZcret Dzidzenu si Dzi Woato Adzrɔ̃ Nyae
 Open-source performance-testing project that evaluates different methods of synchronizing Zcash blockchain data.  

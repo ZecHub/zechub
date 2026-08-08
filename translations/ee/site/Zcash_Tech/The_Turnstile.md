@@ -108,17 +108,17 @@ Esiae nye susu si ta tourniquet la le vevie wu akɔntabubu ko. Enye mɔnu aɖe s
 
 ## Ŋutilãmenuwo
 
-1. [ZIP 209: Se ɖe asi le nu siwo meɖo kpe edzi be nuwo mele ɖoɖo aɖe si dzi woato akpɔ ga ta o la ŋu]](https://zips.z.cash/zip-0209) - ɖekawɔwɔ ƒe se si le glikpowo megbe la dzi wɔwɔ
-2. [ZIP 211: Eʋevi si le mɔ dzi be womagawɔ viɖe yeyewo ɖe eƒe asi ŋu o]](https://zips.z.cash/zip-0211) - ale si woɖe mɔ be ame aɖeke nagava kpɔ ga le Sprout-ta la me o.
-3. [ZIP 258: NU6.3]](https://zips.z.cash/zip-0258) - Egbegbe si me wotsɔ Ironwood-ta la ɖo anyi eye wòna asixɔxɔ va le ʋua ƒe akpa vovovowo dzi.
-4. [Aʋawɔwɔ Ðe Asitsahawo Ŋu le Mɔ̃wo Dzi]](https://electriccoin.co/blog/turnstile-enforcement-against-counterfeiting/) - Electric Coin Company ƒe numeɖeɖe gbãtɔa.
-5. [Zcash Protocol Ŋuti Mɔfiamewo]](https://zips.z.cash/protocol/protocol.pdf) - Kpɔ akpa siwo ku ɖe nudzidzenu kple asiɖeɖe le agbalẽ dzi ŋu la me nyawo katã.
-6. [Nuvɔ̃, Zebra-gbalẽa]](https://zebra.zfnd.org/dev/rfcs/0012-value-pools.html) - ale si nuƒolanɔƒe léa ŋku ɖe akpa ɖesiaɖe ƒe asixɔxɔ ŋu la ŋuti.
+1. [ZIP 209: Se ɖe asi le nu siwo meɖo kpe edzi be nuwo mele ɖoɖo aɖe si dzi woato akpɔ ga ta o la ŋu](https://zips.z.cash/zip-0209) - ɖekawɔwɔ ƒe se si le glikpowo megbe la dzi wɔwɔ
+2. [ZIP 211: Eʋevi si le mɔ dzi be womagawɔ viɖe yeyewo ɖe eƒe asi ŋu o](https://zips.z.cash/zip-0211) - ale si woɖe mɔ be ame aɖeke nagava kpɔ ga le Sprout-ta la me o.
+3. [ZIP 258: NU6.3](https://zips.z.cash/zip-0258) - Egbegbe si me wotsɔ Ironwood-ta la ɖo anyi eye wòna asixɔxɔ va le ʋua ƒe akpa vovovowo dzi.
+4. [Aʋawɔwɔ Ðe Asitsahawo Ŋu le Mɔ̃wo Dzi](https://electriccoin.co/blog/turnstile-enforcement-against-counterfeiting/) - Electric Coin Company ƒe numeɖeɖe gbãtɔa.
+5. [Zcash Protocol Ŋuti Mɔfiamewo](https://zips.z.cash/protocol/protocol.pdf) - Kpɔ akpa siwo ku ɖe nudzidzenu kple asiɖeɖe le agbalẽ dzi ŋu la me nyawo katã.
+6. [Nuvɔ̃, Zebra-gbalẽa](https://zebra.zfnd.org/dev/rfcs/0012-value-pools.html) - ale si nuƒolanɔƒe léa ŋku ɖe akpa ɖesiaɖe ƒe asixɔxɔ ŋu la ŋuti.
 
 <br/>
 
 ## Axa siwo do ƒome kplii
 
-- [Tsiƒedɔwo le Tsiɖɔɖuwo me]](https://zechub.wiki/using-zcash/shielded-pools) - ale si Zcash ƒe nuxexlẽa me nyawo nɔa ɣaɣla le adzame la ŋu nyawo.
+- [Tsiƒedɔwo le Tsiɖɔɖuwo me](https://zechub.wiki/using-zcash/shielded-pools) - ale si Zcash ƒe nuxexlẽa me nyawo nɔa ɣaɣla le adzame la ŋu nyawo.
 - [Halo](https://zechub.wiki/zcash-tech/halo) - tsidzɔƒe si le Orchard tsiƒuƒua megbe la dzi kpɔkpɔ ƒe mɔnu.
-- [Azɔdzinuwo ƒe Kɔkɔtɔyiyi]](https://zechub.wiki/start-here/network-upgrades) - ale si Zcash wɔa tɔtrɔwo abe tsimɔ yeye siwo ŋu wotrɔ asi le ene dzii
+- [Azɔdzinuwo ƒe Kɔkɔtɔyiyi](https://zechub.wiki/start-here/network-upgrades) - ale si Zcash wɔa tɔtrɔwo abe tsimɔ yeye siwo ŋu wotrɔ asi le ene dzii

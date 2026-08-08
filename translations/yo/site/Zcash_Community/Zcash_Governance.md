@@ -22,7 +22,7 @@ Lockbox (ìlànà tó ń darí rẹ̀) 12% Owó tó ń kóra jọ; kò tíì sí
   - 5% -> Zcash Foundation (ZF)  
   - 8% -> Ìpínlẹ̀ Zcash Community Grants (ZCG)
 
-A ti rọpo 20% "iṣowo dev" yii nipasẹ awoṣe 8% ZCG + 12% lockbox nipasẹ [ZIP 1015]](https://zips.z.cash/zip-1015).
+A ti rọpo 20% "iṣowo dev" yii nipasẹ awoṣe 8% ZCG + 12% lockbox nipasẹ [ZIP 1015](https://zips.z.cash/zip-1015).
 
 ### Ìdàgbàsókè tí a dábàá: ZIP 1016 - Ẹgbẹ́ àti Àpẹẹrẹ Ìdánilójú Olùmú owó
 ZIP 1016 (ti a dabaa ni Kínní 2025, ipo: A dabaa) ṣafihan awoṣe inawo ti ko ni idojukọ diẹ sii.
@@ -125,11 +125,11 @@ Nov 2024 - ní báyìí 80% 0% 0% 8% 12% Àpẹẹrẹ NU6 + ìmúgbòòrò ZCG
 
 ## 5. Àwọn Ohun Ìní Tó Wà Níbàámu
 
-- Àlàyé ìfúnnilókun ìjọba -> [ìpín ìfọnilókun z.cash/network funding]](https://z.cash/network/?funding=#funding)  
+- Àlàyé ìfúnnilókun ìjọba -> [ìpín ìfọnilókun z.cash/network funding](https://z.cash/network/?funding=#funding)  
 - ZIP 1015 (NU6 ìyípadà owó) -> [zips.z.cash/zip-1015](https://zips.z.cash/zip-1015)  
 - ZIP 1016 (awọn ti a dabaa awoṣe coinholder) -> [zips.z.cash/zip-1016](https://zips.z.cash/zip-1016)  
-- Àwọn Àbá fún Àtúnṣe Zcash -> [zips.z.cash]](https://zips.z.cash)  
-- Oju opo wẹẹbu Awọn ẹbun Agbegbe Zcash -> [grants.zcashcommunity.com]](https://grants.zcashcommunity.com) (tàbí ibi tí FPF wà báyìí)
+- Àwọn Àbá fún Àtúnṣe Zcash -> [zips.z.cash](https://zips.z.cash)  
+- Oju opo wẹẹbu Awọn ẹbun Agbegbe Zcash -> [grants.zcashcommunity.com](https://grants.zcashcommunity.com) (tàbí ibi tí FPF wà báyìí)
 
 ## 6. Àpótí Ìkáwọ́
 

@@ -56,7 +56,7 @@ Orchard na be nu siwo ŋu wotrɔ asi le la ƒe dɔwɔwɔ nyo ɖe edzi, eye woƒe
 
 Egbea, Orchard ganye afisi koŋ Zcash ƒe nuxexlẽ le. Gake nutoa me tɔwo nɔ ŋku lém ɖe alesi woatrɔ ayi teƒe bubu si woyɔna be Ironwood la ŋu, eye esia ana kakaɖedzi geɖe wu ku ɖe nusianu si woate ŋu awɔ atsɔ akpɔ ZEC ta dzi kple ale si woakpɔ ame ɖokui ta tso afɔkuwo gbɔe ŋuti.
 
-[Zcash Gaxɔ siwo ŋu wotrɔ asi le be woagblẽ nu le ame ŋu o]](/wallets) miwɔ ɖeka kple Orchard.
+[Zcash Gaxɔ siwo ŋu wotrɔ asi le be woagblẽ nu le ame ŋu o](/wallets) miwɔ ɖeka kple Orchard.
 
 ____
 
@@ -68,7 +68,7 @@ Fig 3: Afisi woɖe Sapling-ta le October, 2025 me fiae.
 
 <br/>
 
-[Zcash Sapling ƒe ŋkɔ]](https://z.cash/upgrade/sapling) enye Zcash ƒe ɖoɖo si woɖe ɖe go le 28th October, 2018 me la ŋu. Enye ŋgɔyiyi gã aɖe tso Sprout tɔa gbɔ esi nuɖoanyi sia nɔ te sesĩe eye womete ŋu wɔa naneke o gake ame bubuwo hã meteŋu wɔ wo dzi nyuie o. 
+[Zcash Sapling ƒe ŋkɔ](https://z.cash/upgrade/sapling) enye Zcash ƒe ɖoɖo si woɖe ɖe go le 28th October, 2018 me la ŋu. Enye ŋgɔyiyi gã aɖe tso Sprout tɔa gbɔ esi nuɖoanyi sia nɔ te sesĩe eye womete ŋu wɔa naneke o gake ame bubuwo hã meteŋu wɔ wo dzi nyuie o. 
 
 Wowɔ tɔtrɔ siawo dometɔ aɖewo be, wole dɔ wɔm nyuie wu le adrɛs siwo ŋu wotrɔ asi le la gome. Wodo ŋgɔ ale si woagate ŋu akpɔ nu sia nu me bɔbɔe eye womana amewo nanya ame aɖeke ƒe ŋkɔ o hã hafi woate ŋu awɔ esia kple woƒe kɔmpiutawo kpakple mɔ̃ɖaŋunu bubuwo dzi dɔwɔlawo ƒe nyatakakawo. 
 
@@ -166,8 +166,8 @@ Ne wowɔe be Ironwood va zu Zcash ƒe nu gbagbewo dome ɖoɖo si dzi wotona la m
 
 ## Axawo Siwo Do Ka Kple Wo Nɔewo
 
-- [Gbɔdzigbalẽvi siwo le ga me]](/using-zcash/wallets)  Ga si woazã atsɔ ada gbe siwo nye Orchard kple Sapling la ɖe akpa ɖeka dzi.
-- [Gadzraɖowɔƒewo]](/using-zcash/transactions)  Alesi woazã nufitifitiwɔwɔ ƒe mɔnu si ŋu wotrɔ asi le la
-- [ZEC ƒeƒle]](/using-zcash/buying-zec)  ZEC xɔxɔ hafi azãe le ƒuƒoƒowo me
+- [Gbɔdzigbalẽvi siwo le ga me](/using-zcash/wallets)  Ga si woazã atsɔ ada gbe siwo nye Orchard kple Sapling la ɖe akpa ɖeka dzi.
+- [Gadzraɖowɔƒewo](/using-zcash/transactions)  Alesi woazã nufitifitiwɔwɔ ƒe mɔnu si ŋu wotrɔ asi le la
+- [ZEC ƒeƒle](/using-zcash/buying-zec)  ZEC xɔxɔ hafi azãe le ƒuƒoƒowo me
 - [ZK-SNARKs](/zcash-tech/zk-snarks)  Kpeɖodzi siwo le nya ɣaɣla si ŋu wotrɔ asi le be wòakpɔ ame ta la dzi wɔwɔ
 - [Nukae nye ZEC kple Zcash?](/start-here/what-is-zec-and-zcash)  Nya tso Zcash ƒe ameŋkumekpɔkpɔ ŋu

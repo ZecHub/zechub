@@ -37,7 +37,7 @@ Implementing CBDCs becomes our hero's quest, a journey fraught with technical, r
 __China: Fedha ya Dijiti Malipo ya Elektroniki (DCEP)__
 
 
-[DCEP]](/content-images/dcep-featured-c278cf0ef6.webp)
+[DCEP](/content-images/dcep-featured-c278cf0ef6.webp)
 
 In the dystopian streets of China, the Digital Currency Electronic Payment (DCEP) unfolds not as a marvel, but as a harbinger of societal control with its own set of ominous financial shadows. Everyday transactions pulse with life, courtesy of programmable money and the allure of offline capabilities.
 

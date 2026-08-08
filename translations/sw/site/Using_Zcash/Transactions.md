@@ -67,7 +67,7 @@ Coinomi Wallet: Offers three dynamic fee options Low, Normal, High based on netw
 
 ## Makosa ya Kawaida
 
-- ** Kwa kudhani kuwa yoyote ya orodha za mkoba ZEC inaweza kutuma faragha.** Idadi kadhaa ya pochi nyingi zinaunga mkono upande wa uwazi wa Zcash tu. Angalia mifuko inayoungwa mkono na mkoba kabla ya kutegemea kwa faragha. [Mifukoni]](https://zechub.wiki/using-zcash/wallets) ukurasa orodha hii kwa kila chaguo.
+- ** Kwa kudhani kuwa yoyote ya orodha za mkoba ZEC inaweza kutuma faragha.** Idadi kadhaa ya pochi nyingi zinaunga mkono upande wa uwazi wa Zcash tu. Angalia mifuko inayoungwa mkono na mkoba kabla ya kutegemea kwa faragha. [Mifukoni](https://zechub.wiki/using-zcash/wallets) ukurasa orodha hii kwa kila chaguo.
 - ** Kuondoa kwa anwani ya uwazi na kuacha fedha huko.** Uondoaji yenyewe ni umma, na kila harakati baadaye kutoka kwenye anwani hiyo inabaki kuwa wazi pia. Kulinda pesa mara tu zinapofika.
 - **Kutibu faragha kama kitu wewe kugeuka juu mara moja.** Kila shughuli ni uchaguzi tofauti. Kutuma ulinzi leo haina undo uwazi malipo uliyofanya wiki iliyopita.
 - **Kutumia tena anwani ya uwazi kwa kila kitu.** Kwa sababu shughuli za uwazi zinaonekana daima, anwani moja inayotumiwa mara nyingi huunganisha malipo ambayo hayakuwa na sababu yoyote ya kuunganishwa.
@@ -75,18 +75,18 @@ Coinomi Wallet: Offers three dynamic fee options Low, Normal, High based on netw
 
 ## Kumbuka:
 
-Tafadhali kumbuka kuwa njia salama ya kutumia ZEC ni kwa kutumia tu shughuli za ulinzi. baadhi pochi ni katika mchakato wa utekelezaji [anwani umoja]](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) ambayo inaruhusu watumiaji na kubadilishana kuchanganya anwani uwazi na walinzi pamoja.
+Tafadhali kumbuka kuwa njia salama ya kutumia ZEC ni kwa kutumia tu shughuli za ulinzi. baadhi pochi ni katika mchakato wa utekelezaji [anwani umoja](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) ambayo inaruhusu watumiaji na kubadilishana kuchanganya anwani uwazi na walinzi pamoja.
 
 ## Rasilimali
 
-[ZIP]](https://zips.z.cash/)
+[ZIP](https://zips.z.cash/)
 
 ## Kurasa Zinazohusiana
 
 - [Mifuko ya fedha](/using-zcash/wallets)  ambayo pochi msaada shielded kutuma, na ambazo ni uwazi tu
-- [Bwawa za Kuhifadhi]](/using-zcash/shielded-pools)  Sapling na Orchard, mabwawa yako ulinzi fedha kuishi katika
+- [Bwawa za Kuhifadhi](/using-zcash/shielded-pools)  Sapling na Orchard, mabwawa yako ulinzi fedha kuishi katika
 - [Memo za](/using-zcash/memos)  ujumbe encrypted ambayo inaweza kusafiri na shughuli ulinzi
-- [Anwani za Kubadilishana Uwazi]](/using-zcash/transparent-exchange-addresses)  TEX anwani na kwa nini kubadilishana kuzitumia
-- [Mabadilishano ya Walinzi]](/using-zcash/custodial-exchanges)  ambayo kubadilishana msaada shielded uondoaji
+- [Anwani za Kubadilishana Uwazi](/using-zcash/transparent-exchange-addresses)  TEX anwani na kwa nini kubadilishana kuzitumia
+- [Mabadilishano ya Walinzi](/using-zcash/custodial-exchanges)  ambayo kubadilishana msaada shielded uondoaji
 
 ## ZEC kwa ZAT Converter

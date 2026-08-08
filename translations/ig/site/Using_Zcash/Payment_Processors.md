@@ -13,12 +13,12 @@ Nkwado maka akụ nzuzo na-agbanwe mgbe niile, yabụ ahịrị ọ bụla nwere
  Processor  Custody  Shielded ZEC  Self-host  Merchant fee  Regions / KYC  Verified  Onye na - eme ihe n'eziokwu  Nhazi oge: Ọ bụrụ na ị nwere ike ịchọta ozi gbasara onye ahịa gị, biko kpọtụrụ anyị.
 |:--|:--|:--|:--|:--|:--|:--|
 [CipherPay] Ọ bụ ihe na-atọ ụtọ.](https://www.cipherpay.app)  Non-custodial. Ee, Orchard site Unified Addresses. Ee open source 1% kwa ugwo, free ma ọ bụrụ na onwe kwadoro Ọ dịghị KYC, mpaghara adịghị kwuru 2026-07-29
-[BTCPay Server]](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) ❑ Enweghị njide, igodo nlele naanị. ● Ee, ọta nanị (Sapling, Orchard, UA) ▪ Ee, isi mmalite emeghe □ Mba, ị na-akwụ ụgwọ netwọkụ naanị Global, enweghị KYC 2026-07-29
-[Zaga n'ihu]](https://zgo.cash/) ❑ N'enweghị onye na-elekọta ya. □ Ee, Sapling and Orchard. ● Mba, ọrụ a kwadoro. ◆ Oge ịkwụ ụgwọ tupu oge eruo, ọnụahịa e bipụtaghị. ▪ Ọ dịghị KYC kwuru, ógbè ndị ahụ ekwughị 2026-07-29
+[BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) ❑ Enweghị njide, igodo nlele naanị. ● Ee, ọta nanị (Sapling, Orchard, UA) ▪ Ee, isi mmalite emeghe □ Mba, ị na-akwụ ụgwọ netwọkụ naanị Global, enweghị KYC 2026-07-29
+[Zaga n'ihu](https://zgo.cash/) ❑ N'enweghị onye na-elekọta ya. □ Ee, Sapling and Orchard. ● Mba, ọrụ a kwadoro. ◆ Oge ịkwụ ụgwọ tupu oge eruo, ọnụahịa e bipụtaghị. ▪ Ọ dịghị KYC kwuru, ógbè ndị ahụ ekwughị 2026-07-29
 [Flexa] Ọ bụ ihe na-atọ ụtọ.](https://flexa.co/) ◯ Ndị ahịa na-echekwa onwe ha, ndị ọchụnta ego ji mkpụrụ ego nkịtị akwụ ụgwọ. Onye ahịa na emefu ihe n'ụzọ a ga-eji chebe ya, onye natara onyinye ahụ enweghị akwụkwọ e dere ede. Ọ dịghị otu pasent kwa ịkwụ ụgwọ US na mba 37 nke SEPA, ZEC EU ekwenyebeghị 2026-07-29
-[Ugbu a ịkwụ ụgwọ]](https://nowpayments.io/supported-coins/zcash-payments)  Enweghị njide site na ndabara. Mba, naanị adreesị doro anya. Ọ dịghị 0.5%, ma ọ bụ 1% nwere ntụgharị. Global belụsọ ebe amachibidoro ya iwu, enweghị KYC ịmalite 2026-07-29
+[Ugbu a ịkwụ ụgwọ](https://nowpayments.io/supported-coins/zcash-payments)  Enweghị njide site na ndabara. Mba, naanị adreesị doro anya. Ọ dịghị 0.5%, ma ọ bụ 1% nwere ntụgharị. Global belụsọ ebe amachibidoro ya iwu, enweghị KYC ịmalite 2026-07-29
 [Plisio] Ọ bụ ihe na-atọ ụtọ.](https://plisio.net/accept-zcash) ◯ Nchebe, n'agbanyeghị ahịa. A dịghị edeba aha ya na akwụkwọ ọ bụla. Mba 0.5% API, 1.5% akara ọcha. Ọ nweghị KYC ịnata 2026-07-29
-[Binance na-akwụ ụgwọ]](https://pay.binance.com/en) ◯ Nchebe, n'èzí-mgbasa ozi. ❑ Mba, a jụrụ ego echekwara na nchekwa. ❖ Ee e. ● E nweghị ụgwọ ọ bụla maka obere akpa gị, ịkwụghachi ya bụ 0.8% ▪ Ebe i bi adịghị ekwe ka mmadụ bata ebe ahụ, ZEC ewepụla aha ha ná mba FR, ES, IT, PL 2026-07-29
+[Binance na-akwụ ụgwọ](https://pay.binance.com/en) ◯ Nchebe, n'èzí-mgbasa ozi. ❑ Mba, a jụrụ ego echekwara na nchekwa. ❖ Ee e. ● E nweghị ụgwọ ọ bụla maka obere akpa gị, ịkwụghachi ya bụ 0.8% ▪ Ebe i bi adịghị ekwe ka mmadụ bata ebe ahụ, ZEC ewepụla aha ha ná mba FR, ES, IT, PL 2026-07-29
 
 </div>
 
@@ -55,7 +55,7 @@ One caveat worth repeating: a transparent-only processor publishes every payment
 ## [CipherPay](https://www.cipherpay.app) <img src="/content-images/cipherpay-mark.png" alt="CipherPay logo" class="processor-logo" />
 - ** Ụdị Nkwado**: Echebe (Orchard, site na Unified Addresses)
 - Nkọwa: Nabata Zcash na nkeji, Enweghị njide, data onye zụrụ ihe efu, enweghị ndị etiti.
-- ** URL**: [CipherPay]](https://www.cipherpay.app)
+- ** URL**: [CipherPay](https://www.cipherpay.app)
 <img src="/content-images/cipherpay-mark.png" alt="CipherPay logo" width="200" hidden />
 
 Ị na-enye CipherPay igodo naanị, yabụ ịkwụ ụgwọ gafere ozugbo n'akpa gị ma ọ dịghị mgbe o nwere ego. Ọ na - eji adreesị ọhụrụ maka akwụkwọ ọnụahịa niile.
@@ -95,7 +95,7 @@ Enweghị ụgwọ maka ngwanrọ ahụ n'onwe ya. Ị na-akwụ ụgwọ netw�
 ## [ZGo](https://zgo.cash/) <img src="/content-images/zgo-prp2-497679039b.webp" alt="ZGo logo" class="processor-logo" />
 - ** Ụdị nkwado**: Echebe (Sapling na Orchard)
 - **Nkọwa**: ZGo bụ usoro ịkwụ ụgwọ elektrọnik nke na-esi n'aka onye ahịa gị gaa ozugbo, na enweghị ndị ọzọ.
-- ** URL**: [ZGo]](https://zgo.cash/)
+- ** URL**: [ZGo](https://zgo.cash/)
 <img src="/content-images/zgo-prp2-497679039b.webp" alt="ZGo logo" width="200" hidden />
 
 A na-agba ọsọ n'ime ihe nchọgharị, yabụ laptọọpụ, mbadamba ma ọ bụ ekwentị ghọrọ ego. E nwekwara WooCommerce ngwa mgbakwunye na REST API. Ọ wuru Vergara Teknụzụ wee kwụọ ụgwọ site na Zcash Community Grants, gụnyere ịkwaga zcashd ka Zebra .
@@ -115,7 +115,7 @@ You cannot really self-host it. ZGo runs the Zcash infrastructure for you and pu
 ## [Flexa](https://flexa.co/) <img src="/content-images/flexa-mark.png" alt="Flexa logo" class="processor-logo" />
 - ** Ụdị nkwado**: Onye ahịa na-emefu ihe echekwara, akụkụ nnata anaghị edepụta ya.
 - **Nkọwa**: Flexa bụ netwọkụ ịkwụ ụgwọ nke na-enye ndị ahịa ohere itinye ego dijitalụ, gụnyere Zcash, n'ebe a na-ere ere site na obere akpa nchekwa onwe.
-- ** URL**: [Flexa]](https://flexa.co/)
+- ** URL**: [Flexa](https://flexa.co/)
 <img src="/content-images/flexa-mark.png" alt="Flexa logo" width="200" hidden />
 
 Flexa abụghị ọnụ ụzọ ịkwụ ụgwọ, yabụ na ọ bụghị mgbanwe maka ndị ọzọ nọ ebe a. Onye ahịa mepee obere akpa ego nke nwere ike ime ka Flexa dị ka Zodl, gosipụta koodu otu oge, ụlọ ahịa ahụ wee nyochaa ya. Enweghị akwụkwọ ọnụahịa ZEC ma ọ bụ ngwa mgbakwunye e-commerce.
@@ -135,7 +135,7 @@ Nkwupụta nke Flexa n'onwe ya na-akọwa njikọta Zcash dị ka ịkwụ ụgw
 ## [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) <img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments logo" class="processor-logo processor-logo-wide" />
 - ** Ụdị nkwado**: Naanị ihe na-ekpuchi anya.
 - **Nkọwa**: NOWPayments bụ ọnụ ụzọ ịkwụ ụgwọ crypto nke na-enyere ndị ahịa aka ịnabata Zcash ịkwụ ego na onyinye n'ụzọ dị mfe.
-- ** URL**: [Ugbu a ịkwụ ụgwọ]](https://nowpayments.io/supported-coins/zcash-payments)
+- ** URL**: [Ugbu a ịkwụ ụgwọ](https://nowpayments.io/supported-coins/zcash-payments)
 <img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments logo" width="200" hidden />
 
 Enweghị nkwado echedoro. akwụkwọ ha na-agwa gị ka ị setịpụ adreesị doro anya maka Zcash, ma ZEC bụ naanị mkpụrụ ego ha wepụtara n'ụzọ ahụ. ugwo ọ bụla i nwetara ga-abụ nke ọha na eze na blockchain.
@@ -153,7 +153,7 @@ Enweghị njide site na ndabara. FAQ ha kwuru na ha anaghị echekwa ego ma ghar
 ## [Plisio](https://plisio.net/accept-zcash) <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" class="processor-logo processor-logo-wide" />
 - ** Ụdị nkwado**: Transparent (enweghị akwụkwọ)
 - **Nkọwa**: Plisio bụ ọnụ ụzọ ịkwụ ụgwọ cryptocurrency nke na-enye ohere azụmaahịa ịnabata ịkwụ ego Zcash.
-- ** URL**: [Plisio]](https://plisio.net/accept-zcash)
+- ** URL**: [Plisio](https://plisio.net/accept-zcash)
 <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" width="200" hidden />
 
 Treat it as custodial. Plisio's marketing calls it non-custodial, but its own help pages describe balances held on the platform, cold storage and a withdrawal process. The non-custodial claim could not be confirmed.

@@ -16,7 +16,7 @@ By maintaining control over your private keys, the recovery process is always po
 
 It is crucial for users to understand the risks involved in dealing with private keys and to keep these keys protected from unauthorized access. The security of funds depends on the user's responsibility to safeguard their private keys.
 
-> ** Ṣaaju ki o to bẹrẹ:** awọn itọsọna imularada ti a lo lati tọka si Ywallet. Olùgbéejáde rẹ ti jẹrisi pe kii yoo ṣe imudojuiwọn fun igbesoke nẹtiwọọki Ironwood (NU6.3), nitorinaa ko le tẹle ẹdọju mọ. Lo ** Zkool, eyiti o wa nipasẹ oludasile kanna ati ni aropin itọju. Wo [Ywallet ko tun ṣetọju]](#ywallet-is-no-longer-maintained) ó wà ní ìsàlẹ̀ ojú ìwé yìí.
+> ** Ṣaaju ki o to bẹrẹ:** awọn itọsọna imularada ti a lo lati tọka si Ywallet. Olùgbéejáde rẹ ti jẹrisi pe kii yoo ṣe imudojuiwọn fun igbesoke nẹtiwọọki Ironwood (NU6.3), nitorinaa ko le tẹle ẹdọju mọ. Lo ** Zkool, eyiti o wa nipasẹ oludasile kanna ati ni aropin itọju. Wo [Ywallet ko tun ṣetọju](#ywallet-is-no-longer-maintained) ó wà ní ìsàlẹ̀ ojú ìwé yìí.
 
 ## Gbigba Owo pada pẹlu Zkool
 
@@ -29,7 +29,7 @@ Ipò méjì la máa jíròrò nínú àpilẹ̀kọ yìí:
 
 ### 1) Bá A Ṣe Lè Tún Àkáǹtì Kan Ṣẹ̀ Sípò
 
-1. Fi Zkool sori ẹrọ lati [iboju ti o tu silẹ]](https://github.com/hhanh00/zkool2/releases) kí o sì ṣí i.
+1. Fi Zkool sori ẹrọ lati [iboju ti o tu silẹ](https://github.com/hhanh00/zkool2/releases) kí o sì ṣí i.
 2. Lori ** Account Manager** (orílé ojúewé), tẹ bọtini **+** láti dé sí àtẹ̀wò́kọsílẹ̀ ** New Account**
 3. Kọ ** Orukọ Àkáǹtì** láti dá àkáǹtà yìí mọ̀.
 4. Ṣii **Tún Àkọsílẹ̀ ṣe?**. Èyí fi àwọn ìpamọ́ kókó àti ibi tí a bí wọn sí hàn
@@ -90,7 +90,7 @@ Ti o ba ti rẹ gba pada owo ni Orchard, won yoo nilo lati gbe ṣaaju ki nwọn
 
 ## Ìmúpadàpọ̀ ní ìjìnlẹ̀ pẹlú ZExCavator
 
-[Awọn ohun elo ti o wa ni isalẹ]](https://github.com/zingolabs/zexcavator) jẹ́ ọ̀rọ̀-ìmúpadàbọ̀ láti Zingo Labs fún àwọn ìgbà tí àtúnṣe tó bágbà ò ṣiṣẹ́, bíi fáílì wallet ti ó bàjẹ́ tàbí èyí tí kò kún.
+[Awọn ohun elo ti o wa ni isalẹ](https://github.com/zingolabs/zexcavator) jẹ́ ọ̀rọ̀-ìmúpadàbọ̀ láti Zingo Labs fún àwọn ìgbà tí àtúnṣe tó bágbà ò ṣiṣẹ́, bíi fáílì wallet ti ó bàjẹ́ tàbí èyí tí kò kún.
 
 > Àtúnṣe rẹ̀ tó kẹ́yìn ti wà ṣáájú àwọn àgbéjáde nẹtiwọọki tí ó ṣẹṣẹ, nítorí náà ṣe é gẹ́gẹ́ bí ohun ìkẹhìn àti ṣètìlẹ́rí gbogbo kókó tí o bá rí nínú apamọwọ kan kí o to gbára lé èsì.
 
@@ -104,7 +104,7 @@ Ti o ba ti ni owo tẹlẹ ninu Ywallet, mu gbolohun kanna pada sinu Zkool nipa 
 
 ## Àwọn ojúewé tó ní í ṣe pẹ̀lú rẹ̀
 
-- [Àwọn àpamọ́wọ́n]](/using-zcash/wallets) - àwọn àpamọ́ tí a ń tọjú àti bí wọ́n ṣe wà ní ìmúrasílẹ̀ Ironwood tó.
+- [Àwọn àpamọ́wọ́n](/using-zcash/wallets) - àwọn àpamọ́ tí a ń tọjú àti bí wọ́n ṣe wà ní ìmúrasílẹ̀ Ironwood tó.
 - [Ironwood] Àwọn igi tí ó nípọn.](/zcash-tech/ironwood) - ohun tí àtúnṣe náà yí padà àti ìdí ti owó fi ń ṣí lọ síbòmíràn
-- [Àwọn ìwé ìrántí]](/using-zcash/memos) - bí àwọn ìwé ìránnilétí tí a fi kọ̀ǹpútà sí ṣe ń ṣiṣẹ́.
-- [Àwọn Kọ́kọ́rọ́ Ìwòye]](/zcash-tech/viewing-keys) - kà nikan wiwọle lai lilo agbara
+- [Àwọn ìwé ìrántí](/using-zcash/memos) - bí àwọn ìwé ìránnilétí tí a fi kọ̀ǹpútà sí ṣe ń ṣiṣẹ́.
+- [Àwọn Kọ́kọ́rọ́ Ìwòye](/zcash-tech/viewing-keys) - kà nikan wiwọle lai lilo agbara

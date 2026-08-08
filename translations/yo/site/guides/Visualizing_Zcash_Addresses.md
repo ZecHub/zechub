@@ -16,15 +16,15 @@ Lọwọlọwọ awọn oriṣi adirẹsi mẹta lo wa ni lilo titi di oni.
 
 * tó ṣe kedere
 
-! [ì ì1 ]](/content-images/219261771-a9957ec3-2841-4073-9cfd-1db9d6-574fc930f0.webp)
+! [ì ì1 ](/content-images/219261771-a9957ec3-2841-4073-9cfd-1db9d6-574fc930f0.webp)
 
 * ọmọ ọ̀dọ́
 
-! [ì ì ì2 ]](/content-images/219261784-1a617e70-f588-4eed-96bf-f0789d-e10ebfc543.webp)
+! [ì ì ì2 ](/content-images/219261784-1a617e70-f588-4eed-96bf-f0789d-e10ebfc543.webp)
 
 * Unified Address (Full)
 
-! [ì ì ì3 ]](/content-images/219261794-bcc79db6-4dc6-4c6a-867b-3717b8-a3650f8968.webp)
+! [ì ì ì3 ](/content-images/219261794-bcc79db6-4dc6-4c6a-867b-3717b8-a3650f8968.webp)
 
 
 First thing to notice is how the length of each type of address is different. You can see this visually by the number of characters in the address string *or* by looking at the associated QR codes. As length of the address increases, the QR code tends to zoom out and fit more data into the square.
@@ -60,7 +60,7 @@ Yàtọ̀ sí àwọn àbùdá tí kò ṣeé fojú rí yìí, àwọn tó wọ́p
 
 * ọgbà èso
   
-![ì ì ì£1⁄4ì í ]](/content-images/219267538-1a748fff-4034-4559-96ac-182723-3d69e23dac.webp)
+![ì ì ì£1⁄4ì í ](/content-images/219267538-1a748fff-4034-4559-96ac-182723-3d69e23dac.webp)
 
 Ohun akọkọ lati ṣe akiyesi ni wipe kọọkan ti awọn wọnyi UA ká wa ni lati kanna ikọkọ bọtini! ohun keji lati se akiyesi ni awọn ipari ti kọọkan iru ti UA:
 

@@ -44,7 +44,7 @@ Hii kuthibitisha kwamba una latest imara toleo la Rust imewekwa kwenye mfumo wak
 
 ### ** Hatua ya 2: Clone Arti Repository**
 
-Ili kupata toleo la karibuni wa mteja Arti, unahitaji clone hazina kutoka [** GitLab **]](https://gitlab.torproject.org/tpo/core/arti).
+Ili kupata toleo la karibuni wa mteja Arti, unahitaji clone hazina kutoka [** GitLab **](https://gitlab.torproject.org/tpo/core/arti).
 
 #### Hatua:
 1. Fungua terminal yako (Command Prompt, PowerShell, au Git Bash kwenye Windows).
@@ -171,7 +171,7 @@ Kama una nia ya kuchangia katika maendeleo ya Arti, unaweza kugundua kanuni na k
 
 
 
-Kama una nia ya kuchangia mradi, jisikie huru kuangalia nje code, gable hazina, na kuwasilisha ombi la kuunganisha. Kwa habari zaidi, updates, na utatuzi wa matatizo, rejea [Arti GitLab Repository]](https://gitlab.torproject.org/tpo/core/arti). 
+Kama una nia ya kuchangia mradi, jisikie huru kuangalia nje code, gable hazina, na kuwasilisha ombi la kuunganisha. Kwa habari zaidi, updates, na utatuzi wa matatizo, rejea [Arti GitLab Repository](https://gitlab.torproject.org/tpo/core/arti). 
 
 Kufurahia uzoefu wako na Arti na hacking furaha!
 

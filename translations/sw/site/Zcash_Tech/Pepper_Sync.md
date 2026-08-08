@@ -94,7 +94,7 @@ Kwa kuboresha uzoefu wa mkoba, Pepper Sync inaimarisha mfumo mzima wa Zcash.
 ### Kuanza: onboarding na Zingo 2.0
 
 1. Download Wallet - Kupata toleo sahihi kutoka [Zingo GitHub releases ukurasa](https://github.com/zingolabs/zingolib)
-2. Kuanzisha mkoba wako - kujenga moja mpya au kurejesha kutoka kwa kifungu mbegu zilizopo. [Zingo 2.0 na Zingo Labs]](https://www.youtube.com/watch?v=FREwMzf_LlM)
+2. Kuanzisha mkoba wako - kujenga moja mpya au kurejesha kutoka kwa kifungu mbegu zilizopo. [Zingo 2.0 na Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
 3. Acha Pepper Sync Run - Kuangalia viashiria maendeleo kama updates mkoba wako. [Pepper Synch Run](https://x.com/ZingoLabs/status/1961871338441724191)
 4. Anza kutumia Zcash - Tuma na kupokea walinzi wa ZEC mara tu usawazishaji ukikamilika.
 5. Kupumzika Kuhusu Kusumbuliwa - Kama programu kufunga au uhusiano drops, Pepper Sync itaanza moja kwa moja.
@@ -139,7 +139,7 @@ Zingo 2.0 na Pepper Sync si tu kuboresha; ni leap mbele kwa faragha, usable cryp
 
 ## Kurasa Zinazohusiana
 
-- [Zcash mkoba Syncing]](/zcash-tech/zcash-wallet-syncing)  jinsi mkoba usawazishaji kazi katika mazingira Zcash.
+- [Zcash mkoba Syncing](/zcash-tech/zcash-wallet-syncing)  jinsi mkoba usawazishaji kazi katika mazingira Zcash.
 - [Lightwallet Nodes] (Ndoa za mkoba mwepesi)](/zcash-tech/lightwallet-nodes)  miundombinu light mkoba kama vile Zingo syncs dhidi.
 - [Zaino](/zcash-tech/zaino)  indexer zilizotengenezwa na timu Zingo.
 - [Mifuko ya fedha](/wallets)  orodha kamili ya pochi Zcash na sifa zao.
@@ -148,7 +148,7 @@ Zingo 2.0 na Pepper Sync si tu kuboresha; ni leap mbele kwa faragha, usable cryp
 
 - [Zingo! GitHub Repository] (Kifungu cha habari)](https://github.com/zingolabs/zingolib)
 - [Zcash Jamii Forum](https://forum.zcashcommunity.com/)
-- Matangazo rasmi - [Zingo Labs Twitter]](https://twitter.com/ZingoLabs)
+- Matangazo rasmi - [Zingo Labs Twitter](https://twitter.com/ZingoLabs)
 
 ___
 ___

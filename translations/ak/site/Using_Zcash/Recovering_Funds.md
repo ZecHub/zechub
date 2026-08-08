@@ -16,7 +16,7 @@ By maintaining control over your private keys, the recovery process is always po
 
 It is crucial for users to understand the risks involved in dealing with private keys and to keep these keys protected from unauthorized access. The security of funds depends on the user's responsibility to safeguard their private keys.
 
-> **Ansa na wo bɛfiri ase:** recovery guides used to point at Ywallet. Ne developer no agye atom sɛ ɔrenyɛ update wɔ Ironwood (NU6.3) network upgrade, enti entumi nni chain no akyi bio. Use **Zkool**, a ɛyɛ same developer ne deɛ ɔdi akyire ma wɔn no. See [Ywallet is no longer maintained]](#ywallet-is-no-longer-maintained) wɔ kratafa yi ase.
+> **Ansa na wo bɛfiri ase:** recovery guides used to point at Ywallet. Ne developer no agye atom sɛ ɔrenyɛ update wɔ Ironwood (NU6.3) network upgrade, enti entumi nni chain no akyi bio. Use **Zkool**, a ɛyɛ same developer ne deɛ ɔdi akyire ma wɔn no. See [Ywallet is no longer maintained](#ywallet-is-no-longer-maintained) wɔ kratafa yi ase.
 
 ## Sika a wo nsa bɛka wɔ Zkool ho no
 
@@ -104,7 +104,7 @@ Sɛ wowɔ sika a ɛda Ywallet mu dada no, fa saa asɛmfua koro yi ara san kɔ Zk
 
 ## Nkrataafa a ɛfa ho
 
-- [Nkrataa nkekaho]](/using-zcash/wallets) - nkotoku a w'ɔhwɛ so ne Ironwood ahobanbɔ no.
-- [Nkyekyere nnua]](/zcash-tech/ironwood) - nea upgrade no sesae ne deɛn nti na sika kɔ baabi foforɔ a, ɛnneɛ ɛhe na ɛde nkuro ba?
-- [Nsɛm a wode bɛto dwa]](/using-zcash/memos) - sɛnea nkrataa a wɔde ahyɛnsode ayɛ yɛ adwuma no.
-- [Kyerԑkyerԑmu Nsaano Nkyea]](/zcash-tech/viewing-keys) - nea wotumi kenkan nkutoo a wontua tumi so ka biara nni hɔ
+- [Nkrataa nkekaho](/using-zcash/wallets) - nkotoku a w'ɔhwɛ so ne Ironwood ahobanbɔ no.
+- [Nkyekyere nnua](/zcash-tech/ironwood) - nea upgrade no sesae ne deɛn nti na sika kɔ baabi foforɔ a, ɛnneɛ ɛhe na ɛde nkuro ba?
+- [Nsɛm a wode bɛto dwa](/using-zcash/memos) - sɛnea nkrataa a wɔde ahyɛnsode ayɛ yɛ adwuma no.
+- [Kyerԑkyerԑmu Nsaano Nkyea](/zcash-tech/viewing-keys) - nea wotumi kenkan nkutoo a wontua tumi so ka biara nni hɔ

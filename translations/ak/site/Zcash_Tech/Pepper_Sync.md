@@ -94,8 +94,8 @@ Pepper Sync boa ma:
 ### Ahyɛaseɛ: Zingo 2.0 a wɔde adi dwuma no mu kɔ so yɛ adwuma.
 
 1. Twe Kɔntakt no - Nya nea ɛfata firi [Zingo GitHub releases page] so](https://github.com/zingolabs/zingolib)
-2. Sete Wo Kɔntakt - Yɛ foforo anaa san fi mfitiase asɛm bi a ɛwɔ hɔ mu. [Zingo 2.0 ne Zingo Labs]](https://www.youtube.com/watch?v=FREwMzf_LlM)
-3. Ma Pepper Sync Run - Hwɛ nkɔso ho nkataho bere a wo sika krataa no resan aba. [Pepper Synch Run]](https://x.com/ZingoLabs/status/1961871338441724191)
+2. Sete Wo Kɔntakt - Yɛ foforo anaa san fi mfitiase asɛm bi a ɛwɔ hɔ mu. [Zingo 2.0 ne Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
+3. Ma Pepper Sync Run - Hwɛ nkɔso ho nkataho bere a wo sika krataa no resan aba. [Pepper Synch Run](https://x.com/ZingoLabs/status/1961871338441724191)
 4. Start Using Zcash - Send and receive shielded ZEC as soon as syncing completes.
 5. Hyɛ w'adwene wɔ nsɛm a ɛhaw wo ho - Sɛ app no to anaa ne nsɛso yera a, Pepper Sync bɛtoa so ayɛ adwuma.
 
@@ -139,16 +139,16 @@ Zingo 2.0 a Pepper Sync ka ho no nyɛ nkɔso kɛkɛ; ɛyɛ ɔkwampa bi wɔ hɔ m
 
 ## Nkrataafa a Ɛwɔ Ho Nsɛm
 
-- [Zcash Kuro no a wɔde di dwuma wɔ bere koro mu]](/zcash-tech/zcash-wallet-syncing)  sɛnea akwantufoɔ a wɔde wɔn ho to so yɛ adwuma wɔ Zcash mu.
+- [Zcash Kuro no a wɔde di dwuma wɔ bere koro mu](/zcash-tech/zcash-wallet-syncing)  sɛnea akwantufoɔ a wɔde wɔn ho to so yɛ adwuma wɔ Zcash mu.
 - [Lightwallet Nodes] (Node) nkrataafa a wɔde di dwuma wɔ wiase nyinaa.](/zcash-tech/lightwallet-nodes)  mfidie a wɔde di dwuma te sɛ Zingo no yɛ adwuma wɔ ne ho.
-- [Zaino]](/zcash-tech/zaino)  indexer a Zingo kuo no ayɛ.
-- [Nkrataa nkekaho]](/wallets)  Zcash sika nkotoku ne emu nsɛntitiriw no nyinaa.
+- [Zaino](/zcash-tech/zaino)  indexer a Zingo kuo no ayɛ.
+- [Nkrataa nkekaho](/wallets)  Zcash sika nkotoku ne emu nsɛntitiriw no nyinaa.
 
 ## Nkɔso Adesua Ho Nneɛma A Yɛbɛsua
 
-- [Zingo! GitHub akoraeɛ]](https://github.com/zingolabs/zingolib)
+- [Zingo! GitHub akoraeɛ](https://github.com/zingolabs/zingolib)
 - [Zcash Community Forum] Yԑn botae sԑ y'agye atom.](https://forum.zcashcommunity.com/)
-- Amansan Nhyehyɛe - [Zingo Labs Twitter]](https://twitter.com/ZingoLabs)
+- Amansan Nhyehyɛe - [Zingo Labs Twitter](https://twitter.com/ZingoLabs)
 
 ___
 ___

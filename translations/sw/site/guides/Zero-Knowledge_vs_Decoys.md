@@ -50,7 +50,7 @@ Wakati Monero ya decoy algorithm (ring saini) husaidia katika kutoa faragha, hai
 
 Matumizi ya decoys haina kuongeza anonymity kuweka. Hata hivyo mbinu hii ni tegemezi kabisa juu ya idadi ya * halisi * watumiaji kwenye mtandao. 
 
-4) ** No Trusted Setup**: Zcash's Sprout & Sapling setup utilized a multi-party computation known as the "trusted setup ceremony". The recent NU5 upgrade did not require any Trust in the integrity of the zero knowledge circuit's setup. [Soma Blogi ya ECC kwenye NU5]](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/).
+4) ** No Trusted Setup**: Zcash's Sprout & Sapling setup utilized a multi-party computation known as the "trusted setup ceremony". The recent NU5 upgrade did not require any Trust in the integrity of the zero knowledge circuit's setup. [Soma Blogi ya ECC kwenye NU5](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/).
 
 5) **Data Privacy**: Teknolojia ya [zk-SNARK](https://wiki.zechub.xyz/zcash-technology) matumizi katika mabwawa Zcash ya ulinzi inaruhusu kwa kiasi kikubwa kuimarishwa usalama kwa watumiaji. Kupunguza uvujaji metadata on-chain ina maana kwamba watumizi ni salama kutoka kwa wapinzani kama vile walaghai uwezo au vyombo vya serikali ya ukandamizaji. 
 

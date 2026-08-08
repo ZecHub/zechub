@@ -6,10 +6,10 @@
 
 ## Habari Zilizo Ndani ya Toleo Hili
 
-1. [Zcash.me]](#zcashme)
-2. [TipZ]](#tipz)
+1. [Zcash.me](#zcashme)
+2. [TipZ](#tipz)
 3. [Kwa nini faragha ni muhimu kwa wabunifu](#why-privacy-matters-for-creators)
-4. [Rasilimali za ziada]](#additional-resources)
+4. [Rasilimali za ziada](#additional-resources)
 
 ---
 
@@ -24,7 +24,7 @@
 Kitu. Maelezo.
 |-------------------|---------|
 ** Tovuti** [https://zcash.me/](https://zcash.me/) |
- Twitter  [@zcashme]](https://x.com/zcashme) |
+ Twitter  [@zcashme](https://x.com/zcashme) |
  * Profile Format ** ya juu. `zcash.me/[username]` |
  ** Hali ya sasa**. Live (na vipengele katika maendeleo)
 
@@ -68,7 +68,7 @@ Programu ya simu. Uzoefu kamili wa rununu.
 Kitu. Maelezo.
 |-------------------|---------|
 ** Tovuti** [https://tipz.cash/](https://tipz.cash/) |
- Twitter  [@tipz_cash]](https://x.com/tipz_cash) |
+ Twitter  [@tipz_cash](https://x.com/tipz_cash) |
  * Profile Format ** ya juu. `tipz.cash/@[username]` |
 ** Hali ya sasa**. Live.
 

@@ -14,7 +14,7 @@ Kuna zana nyingi tofauti za PGP zinazopatikana, lakini baadhi ya maarufu zaidi n
 * **[PGPMail](https://www.openpgp.org/software/)**: PGPMail ni kibiashara PGP barua pepe mteja ambayo inapatikana kwa Windows na MacOS.
 * **[Amri za posta](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope ni bure na wazi chanzo PGP ugani kwa Gmail na Thunderbird.
 
-[PGP Tools]](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
+[PGP Tools](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
 
 ## Jinsi ya Kuzalisha Funguo
 

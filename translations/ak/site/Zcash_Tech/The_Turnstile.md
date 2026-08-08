@@ -109,16 +109,16 @@ This is the deeper reason the turnstile matters beyond simple accounting. It is 
 ## Nneɛma a wɔde bɔ afɔre
 
 1. [ZIP 209: Ban out-of-range chain value pool balances] (Ɔkwan a wɔfa so de sika kɔtɔ nneɛma no mu)](https://zips.z.cash/zip-0209) - ne nhyehyeԑ mmara a ԑwɔ akyire no mu.
-2. [ZIP 211: Deɛ ɛbɛboa ma wɔayi sika foforɔ adi ama wɔn a wɔde nketenkete ka ho no]](https://zips.z.cash/zip-0211) - sɛnea wɔtoo Sprout pool no mu maa nkura foforo a wɔde bɛhyɛ ase.
+2. [ZIP 211: Deɛ ɛbɛboa ma wɔayi sika foforɔ adi ama wɔn a wɔde nketenkete ka ho no](https://zips.z.cash/zip-0211) - sɛnea wɔtoo Sprout pool no mu maa nkura foforo a wɔde bɛhyɛ ase.
 3. [ZIP 258: NU6.3 (Ɔmanfo) kasahorow](https://zips.z.cash/zip-0258) - nkɔso a ɛde Ironwood abura no ba na ɛtwe bo kɔ ɔdan mu hɔ nyinaa so
-4. [Turnstile Ahyɛso a Ɛne Adansekurum Ho Nsɛm Ntɔmmɔ hyia]](https://electriccoin.co/blog/turnstile-enforcement-against-counterfeiting/) - Electric Coin Company no nkyerɛkyerɛmu a edi kan
+4. [Turnstile Ahyɛso a Ɛne Adansekurum Ho Nsɛm Ntɔmmɔ hyia](https://electriccoin.co/blog/turnstile-enforcement-against-counterfeiting/) - Electric Coin Company no nkyerɛkyerɛmu a edi kan
 5. [Zcash protocol specification] Nkrataafa a ɛfa kasa ho nkontabuo.](https://zips.z.cash/protocol/protocol.pdf) - hwɛ nkyekyɛmu a ɛfa nkae ne nsaano ahoma ho no mu na wubehu nkekaho nyinaa.
-6. [Nokware a Ɛsom Bo, Zebra Nhoma no]](https://zebra.zfnd.org/dev/rfcs/0012-value-pools.html) - kwan a node no fa so hwɛ nkrataa biara mu mfaso ano.
+6. [Nokware a Ɛsom Bo, Zebra Nhoma no](https://zebra.zfnd.org/dev/rfcs/0012-value-pools.html) - kwan a node no fa so hwɛ nkrataa biara mu mfaso ano.
 
 <br/>
 
 ## Nkrataafa a ɛfa ho
 
-- [Nsuo a wɔabɔ ho ban]](https://zechub.wiki/using-zcash/shielded-pools) - sɛnea Zcash nnwumakuw a wɔbɔ ho ban no bɔ wɔn nsɛm so faako.
+- [Nsuo a wɔabɔ ho ban](https://zechub.wiki/using-zcash/shielded-pools) - sɛnea Zcash nnwumakuw a wɔbɔ ho ban no bɔ wɔn nsɛm so faako.
 - [Halo] Ɔyɛ ɔkɛse.](https://zechub.wiki/zcash-tech/halo) - adansedi nhyehyɛe a ɛwɔ Orchard abura no akyi
-- [Nea ɛfa nkitahodi ho a wɔsakra no]](https://zechub.wiki/start-here/network-upgrades) - sɛnea Zcash de nsakrae te sɛ nsu a wɔabɔ ho ban foforo di dwuma no
+- [Nea ɛfa nkitahodi ho a wɔsakra no](https://zechub.wiki/start-here/network-upgrades) - sɛnea Zcash de nsakrae te sɛ nsu a wɔabɔ ho ban foforo di dwuma no

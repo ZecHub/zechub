@@ -36,7 +36,7 @@ This guide focuses on mining Zcash using personal hardware (e.g., a home PC with
 ## Akwankyerɛ a Ɛfa Nkɔsoɔ Ho Ma Obi De Ne Ho Hyɛ Aguadifo Kuw Bi Mu
 
 ### Akwantu 1: Siesie Wo Zcash Kɔntaktir no
-1. Twe na fa wo sika nkrataa krataa firi Zcash wɛbsaet no so [nkrataafa]](https://zechub.wiki/wallets).
+1. Twe na fa wo sika nkrataa krataa firi Zcash wɛbsaet no so [nkrataafa](https://zechub.wiki/wallets).
 2. Yɛ wallet foforɔ na fa wo asɛmfua a wode di dwuma no to hɔ.
 3. Yɛ address a wɔde rebɛgye (ɛfata sɛ wɔkora so ma wɔn ho ahofadi). Twerɛ no, te sԑ: `zs1exampleaddress...`.
 4. Sɛ wode address a ɛnkyerɛ obiara (ɛfiri ase wɔ 't'), ɛyɛ tiawa nanso ɛmma no ahobammɔ.

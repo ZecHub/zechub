@@ -149,8 +149,8 @@ Kpɔ egbɔ be gaɖaka la ɖo eŋu, eye ne Zebra wu kadodoa nu ko la, eƒe gadzɛ
 Zebra kple Zallet me le bɔbɔe wu CPU dzi ne wole ɖoɖo wɔm tsɔ wu be woaƒo zcashd nu ƒu, elabena èle binary/container siwo wowɔ xoxo la zãm. RAM 4 GB nye afisi dze nyuie; kpɔ egbɔe be wota kɔmpiuta si ŋu wotrɔ asi le na wò ƒe dɔwɔwɔwo ɖe edzi eye nàkpɔ alesi woawɔ esiawoe hã ɖa. `htop` eye ne èkpɔ be woɖɔli nu geɖe la, bu 8 GB Pi 4 ƒe tɔtrɔa ŋu.
 
 ## Ga Bubuwo
-- [Zebra Agbalẽ]](https://zebra.zfnd.org)  Zebra ƒe agbalẽwo le dɔ wɔm kple wo nɔewo
-- [Zallet Agbalẽ]](https://zcash.github.io/wallet)  Zallet ƒe agbalẽ si le dukɔa me la dzi.
+- [Zebra Agbalẽ](https://zebra.zfnd.org)  Zebra ƒe agbalẽwo le dɔ wɔm kple wo nɔewo
+- [Zallet Agbalẽ](https://zcash.github.io/wallet)  Zallet ƒe agbalẽ si le dukɔa me la dzi.
 - [zcashd End-of-Support notice](https://z.cash/support/zcashd-deprecation)
 
 ---

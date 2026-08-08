@@ -13,8 +13,8 @@
 Zcash Shielded Assets (ZSA) bụ ndọtị usoro iwu a chọrọ nke ga-ekwe ka akụ ** ndị ọzọ karịa ZEC**  stablecoins, akara ngosi ọchịchị, ma ọ bụ ihe onwunwe omenala ọ bụla na -ebi n'ime ọdọ mmiri echekwara nke Zcash, ya na onye zitere ya, onye natara ya, yana ego ahụ.
 
 - ** Ihe ọ bụ:** Ụdị ERC-20 omenala, ma echekwara ya na ndabara.
-- **Onye na-ewu ya:** [QEDIT]](https://qed-it.com/), n'okpuru onyinye sitere na Zcash Foundation, na mmekorita ya na Electric Coin Company.
-- **Otu esi akọwa ya:** [ZIP 226]](https://zips.z.cash/zip-0226) (na-ebufe ma na-ere ọkụ) tinyere [ZIP 227](https://zips.z.cash/zip-0227) (mgbapụta).
+- **Onye na-ewu ya:** [QEDIT](https://qed-it.com/), n'okpuru onyinye sitere na Zcash Foundation, na mmekorita ya na Electric Coin Company.
+- **Otu esi akọwa ya:** [ZIP 226](https://zips.z.cash/zip-0226) (na-ebufe ma na-ere ọkụ) tinyere [ZIP 227](https://zips.z.cash/zip-0227) (mgbapụta).
 - **Ọnọdụ:** adịghị ndụ na mainnet. A haziri usoro ZSA maka nkesa na Network Upgrade 7 (NU7).
 - ** Fees:** always paid in ZEC, irrespective of the asset being moved. Ego a na-akwụ mgbe niile bụ ego ndị dị n'obodo ahụ.
 
@@ -24,7 +24,7 @@ Zcash Shielded Assets (ZSA) bụ ndọtị usoro iwu a chọrọ nke ga-ekwe ka 
 
 Zcash Shielded Assets (ZSA) bụ nkwalite a na-atụ aro maka usoro iwu Zcash nke ga - eme ka okike, nyefe, ma gbaa akụ omenala n'agbụ Zcash.
 
-Ọ bụrụ na ị maara nke ọma [ERC-20]](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) akara ngosi na Ethereum blockchain, ZSAs bụ maka Zcash dị ka ERC-20 tokens bụ maka Ethereum.
+Ọ bụrụ na ị maara nke ọma [ERC-20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) akara ngosi na Ethereum blockchain, ZSAs bụ maka Zcash dị ka ERC-20 tokens bụ maka Ethereum.
 
 Zcash Shielded Assets ga-eme ka e nwee ike ịmepụta akara ngosi omenala na blockchain nke Zcash, si otú ahụ kwe ka ndị ọzọ karịa [ZEC] tokens.](/guides/using-zec-privately) iji rite uru site na amaghị aha na nzuzo nke azụmahịa echekwara na Zcash blockchain.
 
@@ -32,7 +32,7 @@ Otu ihe dị mkpa nke ZSA ga-abụ inyefe stablecoins na protocol Zcash. Stablec
 
 Ihe ọzọ enwere ike iji ZSA mee bụ maka inye akara njikwa. Dịka ọmụmaatụ, Zechub (onye na-ebipụta wiki a) bụ Decentralized Autonomous Organization (DAO) ma nwee ike ịmepụta ma nye ndị otu ya ZSA ka ha votu na atụmatụ na mkpebi ọchịchị.
 
-A na-emepe ZSA site n'aka [QEDIT]](https://qed-it.com/), n'okpuru a isi onyinye si [Zcash Foundation]](/zcash-organizations/zcash-foundation) na mmekorita ya na [Electric Coin Company]](/zcash-organizations/electric-coin-company)Ebe ọ bụ na a ka na-arụ ọrụ nke ọma, mmelite ndị ọzọ dị n'isiokwu a.](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153) nke Zcash forum. The [ZSA onyinye ngwa na-enye a dịgasị iche iche nke ego]](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/) site na QEDIT dị na ebe nrụọrụ weebụ Zcash Foundation.
+A na-emepe ZSA site n'aka [QEDIT](https://qed-it.com/), n'okpuru a isi onyinye si [Zcash Foundation](/zcash-organizations/zcash-foundation) na mmekorita ya na [Electric Coin Company](/zcash-organizations/electric-coin-company)Ebe ọ bụ na a ka na-arụ ọrụ nke ọma, mmelite ndị ọzọ dị n'isiokwu a.](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153) nke Zcash forum. The [ZSA onyinye ngwa na-enye a dịgasị iche iche nke ego](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/) site na QEDIT dị na ebe nrụọrụ weebụ Zcash Foundation.
 
 ---
 
@@ -89,7 +89,7 @@ Kpoo ebe nchekwa zcash-tx: <https://github.com/QED-it/zcash_tx_tool>
 - [ZIP 227](https://zips.z.cash/zip-0227): Mwepụta nke Zcash Shielded Assets
 - [ZIP 230](https://zips.z.cash/zip-0230): Ụdị Mmekọrịta Version 6
 
-> ** Ihe edeturu na ZIP 230:** A kagbuola ZIP 230, a gaghịkwa eji ya eme ihe. Usoro azụmahịa 6 ka akọwapụtara ugbu a site [ZIP 229]](https://zips.z.cash/zip-0229). Lee ọkwa dị n'elu [ZIP 230](https://zips.z.cash/zip-0230) peeji nke.
+> ** Ihe edeturu na ZIP 230:** A kagbuola ZIP 230, a gaghịkwa eji ya eme ihe. Usoro azụmahịa 6 ka akọwapụtara ugbu a site [ZIP 229](https://zips.z.cash/zip-0229). Lee ọkwa dị n'elu [ZIP 230](https://zips.z.cash/zip-0230) peeji nke.
 
 ZIP 226 defines the OrchardZSA protocol — an extension of the Orchard protocol that carries the transfer and burn of custom assets. ZIP 227 defines how those assets are created in the first place, and must only be implemented alongside ZIP 226.
 
@@ -99,7 +99,7 @@ The ZSA aro maka echebe Àgwà (ZSA / UDA) e gosiri site [QEDIT] na-ekwu okwu nk
 
 Site na atụmatụ a, ndị otu nọ [QEDIT] ga-enye aka mee ka usoro ihe omume ahụ dị mfe.](https://qed-it.com/) plans to bring DeFi to the Zcash ecosystem and, at the same time, enable the use of the best privacy technology within the existing DeFi ecosystem. In a poll survey, the team asked, and the community answered that [generic shielded assets (ZSA/UDA) are the most requested feature at the moment](https://twitter.com/BenarrochDaniel/status/1428327864034791429).
 
-Ndị a na-atụ aro bụ n'ụzọ nkà kwekọrọ [Zcash Improvement Proposal (ZIP) ]](https://zips.z.cash/zip-0000) nkọwapụta ma kọwaa ya na ZIP 226 & ZIP227.
+Ndị a na-atụ aro bụ n'ụzọ nkà kwekọrọ [Zcash Improvement Proposal (ZIP) ](https://zips.z.cash/zip-0000) nkọwapụta ma kọwaa ya na ZIP 226 & ZIP227.
 
 1. [ZIP 226](https://zips.z.cash/zip-0226): Nyefe na Ọkụ nke Akụrụngwa Zcash Echebe
 2. [ZIP 227](https://zips.z.cash/zip-0227): Mwepụta nke Zcash Shielded Assets
@@ -141,7 +141,7 @@ ZSA na-eweta nkwekọrịta smart na Zcash.ZSA akọwapụta mbipụta, nyefe ma
 ## Peeji ndị metụtara ya
 
 - [Halo](/zcash-tech/halo)  usoro ihe omimi n'azụ Orchard, protocol ZSA na-agbatị
-- [Zk-SNARKs]](/zcash-tech/zk-snarks)  ihe akaebe nke enweghị ihe ọmụma na-ekwe ka a chọpụta nnyefe echekwara n'enweghị ekpughere ya.
-- [Egwuregwu Ndị E Chebere]](/using-zcash/shielded-pools)  ebe ZSA ga-ebi n'akụkụ ZEC.
-- [Ihe ndị a na-eme n'ụlọ akụ]](/using-zcash/transactions)  otu esi etinye azụmahịa Zcash ọnụ.
-- [Zebra Full Ụyọkọ]](/zcash-tech/zebra-full-node)  mmejuputa iwu nke ejiri mee ihe na ZSA ngosi dị n'elu
+- [Zk-SNARKs](/zcash-tech/zk-snarks)  ihe akaebe nke enweghị ihe ọmụma na-ekwe ka a chọpụta nnyefe echekwara n'enweghị ekpughere ya.
+- [Egwuregwu Ndị E Chebere](/using-zcash/shielded-pools)  ebe ZSA ga-ebi n'akụkụ ZEC.
+- [Ihe ndị a na-eme n'ụlọ akụ](/using-zcash/transactions)  otu esi etinye azụmahịa Zcash ọnụ.
+- [Zebra Full Ụyọkọ](/zcash-tech/zebra-full-node)  mmejuputa iwu nke ejiri mee ihe na ZSA ngosi dị n'elu

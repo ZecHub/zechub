@@ -4,7 +4,7 @@
 
 # <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Alt Text" width="50"/>   Non-Custodial Exchanges
 
-[Zcash-adzraɖoƒe siwo me ame aɖeke mele o]](/dex)
+[Zcash-adzraɖoƒe siwo me ame aɖeke mele o](/dex)
 
 Le cryptocurrency ƒe asitsatsa si le tɔtrɔm ɖaa me la, dzikpɔkpɔ teƒeteƒewo (non-custodial exchanges) siwo wogayɔna be Decentralized Exchanges alo DEXs va nɔ alesi amewo wɔa nu kple ga ŋuti numekukuwo ŋu ɖɔm ɖo. Mɔnu yeye aɖe li platform siawo tsɔ ɖea asi tso adzɔnuwo wɔwɔe ŋu to ameɖokuisiwo alo amesiwo menye etɔ̃lia o ɖeɖe ɖa eye wogana ŋusẽa ɖoa woƒe dɔwɔlawo gbɔ dzi.
 

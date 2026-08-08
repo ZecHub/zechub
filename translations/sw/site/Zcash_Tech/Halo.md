@@ -21,7 +21,7 @@ Polynomial Interactive Oracle Proof: Verifier anauliza prover (algoritm) kufungu
 
 ### Hakuna Confidence Setup
 
-zkSNARKs kutegemea kawaida rejea string (CRS) kama parameter umma kwa kuthibitisha & kuangalia. CRS hii lazima yanayotokana mapema na chama cha kuaminiwa. Hadi hivi karibuni, elaborate salama mahesabu ya pande nyingi (MPC) kama wale uliofanywa na Aztec mtandao & Zcash walikuwa muhimu ili kupunguza hatari inayohusika wakati huu [kuaminika sherehe setup]](https://zkproof.org/2021/06/30/setup-ceremonies/amp/). 
+zkSNARKs kutegemea kawaida rejea string (CRS) kama parameter umma kwa kuthibitisha & kuangalia. CRS hii lazima yanayotokana mapema na chama cha kuaminiwa. Hadi hivi karibuni, elaborate salama mahesabu ya pande nyingi (MPC) kama wale uliofanywa na Aztec mtandao & Zcash walikuwa muhimu ili kupunguza hatari inayohusika wakati huu [kuaminika sherehe setup](https://zkproof.org/2021/06/30/setup-ceremonies/amp/). 
 
 Zcash's Sprout & Sapling shielded pools utilized the BCTV14 & Groth 16 zk-proving systems. Wakati hizi zilikuwa salama kulikuwa na mapungufu. Hazikupangwa kama walivyofungwa kwa programu moja, "takataka za sumu" (mabaki kutoka nyenzo ya cryptographic iliyotengenezwa wakati wa sherehe ya genesis) inaweza kuendelea, na kuna kipengele cha uaminifu (ingawa dakika) kwa watumiaji kuamua sherehe inakubalika.
 
@@ -62,7 +62,7 @@ Kwa sambamba, timu nyingine nyingi walikuwa kugundua mpya Polynomial IOPs kwamba
 
 ufanisi zaidi ya hizi itifaki mpya ni PLONK, ambayo inaruhusu kubadilika kubwa katika kubuni utekelezaji wa ufanisi kulingana na mahitaji maalum maombi na kutoa 5x bora wakati prover kutoka Sonic.
 
-[Mtazamo wa PLONK]](https://www.youtube.com/watch?v=P1JeN30RdwQ)
+[Mtazamo wa PLONK](https://www.youtube.com/watch?v=P1JeN30RdwQ)
 
 
 ### Hii inafaidi Zcash vipi?
@@ -96,9 +96,9 @@ Utekelezaji wa Halo 2 uthibitisho kwa ufanisi Verifiable Delay Kazi (VDF) kuwa m
 
 Inaweza kutumika kama chanzo cha kusudi la jumla randomness ikiwa ni pamoja na matumizi katika maombi smart mkataba kama vile kiongozi uchaguzi katika uthibitisho wa hisa juu ya Ethereum & itifaki nyingine.
 
-ECC, Filecoin Foundation, Protocol Labs na Ethereum Foundation pia watafanya kazi pamoja [SupraNational]](https://www.supranational.net/), muuzaji maalumu katika vifaa-haraka encryption, kwa uwezo GPU na ASIC kubuni na maendeleo ya VDF.
+ECC, Filecoin Foundation, Protocol Labs na Ethereum Foundation pia watafanya kazi pamoja [SupraNational](https://www.supranational.net/), muuzaji maalumu katika vifaa-haraka encryption, kwa uwezo GPU na ASIC kubuni na maendeleo ya VDF.
 
-[Usiri na Scaling Utafiti Group]](https://appliedzkp.org/) Pia ni kutafiti njia tofauti Halo 2 uthibitisho unaweza kuboresha faragha na scalability kwa Ethereum mazingira. kundi hili rolls up ya msingi Ethereum, na ina lengo pana juu zero-ujuzi ushahidi na cryptographic primitives. 
+[Usiri na Scaling Utafiti Group](https://appliedzkp.org/) Pia ni kutafiti njia tofauti Halo 2 uthibitisho unaweza kuboresha faragha na scalability kwa Ethereum mazingira. kundi hili rolls up ya msingi Ethereum, na ina lengo pana juu zero-ujuzi ushahidi na cryptographic primitives. 
 
 ## Miradi mingine kutumia Halo
 
@@ -115,7 +115,7 @@ ECC, Filecoin Foundation, Protocol Labs na Ethereum Foundation pia watafanya kaz
 
 [Kuanzishwa kwa ZKP na Halo 2 - Hanh Huynh Huu](https://www.youtube.com/watch?v=jDHWJLjQ9oA)
 
-[Halo 2 na Daira & Str4d - ZKPodcast]](https://www.youtube.com/watch?v=-lZH8T5i-K4)
+[Halo 2 na Daira & Str4d - ZKPodcast](https://www.youtube.com/watch?v=-lZH8T5i-K4)
 
 [Technical Explainer Blog] (Kifungu cha Maelezo ya Ufundi)](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)
 
@@ -123,7 +123,7 @@ ECC, Filecoin Foundation, Protocol Labs na Ethereum Foundation pia watafanya kaz
 
 ** Nyaraka**
 
-[Halo 2 rasilimali]](https://github.com/adria0/awesome-halo2)
+[Halo 2 rasilimali](https://github.com/adria0/awesome-halo2)
 
 [Halo 2 docs](https://zcash.github.io/halo2/)
 

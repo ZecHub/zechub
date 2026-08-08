@@ -37,7 +37,7 @@ Karịsịa, na Venezuela, enwere ọtụtụ ebe (ebe anụ ahụ na oghere nta
 
 1.  **Sheila Vargas** Foodie Blogger Onye ọchụnta ego Mentorship 
 
-[@SheEmprende_ na Social Media]](https://www.sheemprende.com/enlaces-sheemprende/)Ọ wụlitere n'elu ikpo okwu site na Galletas de la Felizidad ya a ma ama (ma dịkwa ụtọ) **[Galletas de La Felicidad]](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
+[@SheEmprende_ na Social Media](https://www.sheemprende.com/enlaces-sheemprende/)Ọ wụlitere n'elu ikpo okwu site na Galletas de la Felizidad ya a ma ama (ma dịkwa ụtọ) **[Galletas de La Felicidad](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
 
 E wezụga kuki ya, ọ na-enye ọrụ ndị ọzọ ma nke kachasị mma bụ: ị nwere ike iji ZEC kwụọ ụgwọ!
 
@@ -61,7 +61,7 @@ Ya mere, ọ bụrụ na ị bụ onye kuki anụ ọhịa ..!
 
 Ugbu a ị marala ebe i ga-eji ZEC gị emefu!
 
-** Weebụsaịtị**: [Sheemprende.com]](http://Sheemprende.com) 
+** Weebụsaịtị**: [Sheemprende.com](http://Sheemprende.com) 
 
 **Zcash Unified Address:** Ọ bụrụ na ị chọrọ ka a zụọ gị, biko kpọtụrụ anyị. 
 
@@ -87,7 +87,7 @@ Rosa ji mpako mụmụọ ọnụ ọchị na-egosi na ọ nabatara **Zcash.**
 
 ** Ebe nrụọrụ weebụ**: [https://somosdulceros.com/](https://somosdulceros.com/) 
 
-**Mgbasa mgbasa ozi:** [Instagram]](https://www.instagram.com/somos_dulceros) [X Platform]](https://twitter.com/RosaMRangel) [Free2z] Ọ bụ ihe na-atọ ụtọ.](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+**Mgbasa mgbasa ozi:** [Instagram](https://www.instagram.com/somos_dulceros) [X Platform](https://twitter.com/RosaMRangel) [Free2z] Ọ bụ ihe na-atọ ụtọ.](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:** Ọ bụrụ na ị chọrọ ka a zụọ gị, biko kpọtụrụ anyị. 
 
@@ -155,7 +155,7 @@ u1u7unmxgr6efh0l94hz0ag6zku4rjeuuarhql5xsnt744e2lu0dsmhrye5a6mlahw067atgh6x0ykax
 
 **Mgbasa mgbasa ozi:** 
 
-[Instagram] Ihe nkiri a na-egosi:](https://instagram.com/emprendedorasdigitalesve) [Ihe ngosi]](https://twitter.com/EmpreDigiVE) [Onye ozi telegram]](https://t.me/emprendedorasdigitalesve) [LinkedIn]](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
+[Instagram] Ihe nkiri a na-egosi:](https://instagram.com/emprendedorasdigitalesve) [Ihe ngosi](https://twitter.com/EmpreDigiVE) [Onye ozi telegram](https://t.me/emprendedorasdigitalesve) [LinkedIn](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
 
 **Unified Address:** Onye na-ahụ maka ọrụ ahụ bụ onye isi ụlọọrụ. 
 
@@ -180,7 +180,7 @@ Ebe a nke **Roosevelt Gordones na Aura Brito** chịrị, nwere ọrụ ndị me
 
 **Mgbasa Ozi Ọha na eze**
 
-[Ozi Telegram]](https://t.me/gorbritsm) [Instagram] Ọ bụ ihe na-atọ ụtọ.](https://www.instagram.com/gorbritsm/) [X Platform] Ọ bụ ihe a na-akpọ X.](https://twitter.com/GorBritSM) | 
+[Ozi Telegram](https://t.me/gorbritsm) [Instagram] Ọ bụ ihe na-atọ ụtọ.](https://www.instagram.com/gorbritsm/) [X Platform] Ọ bụ ihe a na-akpọ X.](https://twitter.com/GorBritSM) | 
 
 GorBrit na-anabata usoro ịkwụ ụgwọ dị iche, gụnyere Cryptocurrencies, n'etiti nke ahụ bụ ** Zcash. *
 
@@ -210,7 +210,7 @@ A maara ọrụ ya nke ọma na gburugburu ebe obibi Zcash n'ihi onyinye ya maka
 
 **Mgbasa mgbasa ozi:**
 
-[Ozi Telegram]](https://t.me/Robmarn) [X Platform]](https://twitter.com/robmarn) [Free2z] Ọ bụ ihe na-atọ ụtọ.](https://free2z.cash/robmarn)
+[Ozi Telegram](https://t.me/Robmarn) [X Platform](https://twitter.com/robmarn) [Free2z] Ọ bụ ihe na-atọ ụtọ.](https://free2z.cash/robmarn)
 
 Barquisimeto - Venezuela 
 
@@ -282,7 +282,7 @@ Tecnopapapi bụ onye kwesịrị ekwesị ịkpọtụrụ!
 
 **Mgbasa mgbasa ozi** 
 
-Free2z [Telegram]](https://t.me/Lexihel) [YouTube] Ọ bụ ihe na-atọ ụtọ.](https://youtube.com/@tecnopapapi) [X Platform]](https://twitter.com/tecnopapapi) [TikTok] Ọ bụ naanị otu onye.](https://www.tiktok.com/@lexihel) [Instagram] Ọ bụ ihe na-atọ ụtọ.](https://www.instagram.com/tecnopapapi/) [Facebook]](https://www.facebook.com/tecnopapapi) 
+Free2z [Telegram](https://t.me/Lexihel) [YouTube] Ọ bụ ihe na-atọ ụtọ.](https://youtube.com/@tecnopapapi) [X Platform](https://twitter.com/tecnopapapi) [TikTok] Ọ bụ naanị otu onye.](https://www.tiktok.com/@lexihel) [Instagram] Ọ bụ ihe na-atọ ụtọ.](https://www.instagram.com/tecnopapapi/) [Facebook](https://www.facebook.com/tecnopapapi) 
 
 Tecnopapapi na-anabata cryptocurrencies (gụnyere 3ZEC) yana usoro ịkwụ ụgwọ ndị ọzọ. 
 
@@ -318,13 +318,13 @@ Ego: **Allegrini Ristorante** 🇪. Ebe Pizza. Nri Ịtalian. **Nke na-adịgh�
 
 ![BackgroundEraser_20230901_114615839.png](/content-images/_unavailable.svg)
 
-** Weebụsaịtị**: [www.alleginiristorante.com]](http://www.alleginiristorante.com) (na-ewu)
+** Weebụsaịtị**: [www.alleginiristorante.com](http://www.alleginiristorante.com) (na-ewu)
 
 **Mgbasa mgbasa ozi** 
 
-[Instagram] Ihe nkiri a na-egosi:](https://instagram.com/allegriniristorante) [X Platform]](https://twitter.com/AllegriniRisto) [Onye ozi telegram]](https://t.me/AllegriniRistorante) [Pinterest] Ọ bụ ihe na-atọ ụtọ.](https://pin.it/6z8hq6F)
+[Instagram] Ihe nkiri a na-egosi:](https://instagram.com/allegriniristorante) [X Platform](https://twitter.com/AllegriniRisto) [Onye ozi telegram](https://t.me/AllegriniRistorante) [Pinterest] Ọ bụ ihe na-atọ ụtọ.](https://pin.it/6z8hq6F)
 
-(N'oge na-adịghị anya, n'ebe a [free2z.cash]](http://free2z.cash). )
+(N'oge na-adịghị anya, n'ebe a [free2z.cash](http://free2z.cash). )
 
 ![20230901_121633_0000.png](/content-images/_unavailable.svg)
 

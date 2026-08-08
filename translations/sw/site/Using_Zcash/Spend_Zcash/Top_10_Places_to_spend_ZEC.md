@@ -37,7 +37,7 @@ Hasa, nchini Venezuela kuna maeneo mengi (maeneo ya kimwili na sehemu za mtandao
 
 1.  **Sheila Vargas** Foodie Blogger Mjasiriamali Uongozi 
 
-[@SheEmprende_ kwenye Mitandao ya Kijamii]](https://www.sheemprende.com/enlaces-sheemprende/)Yeye aliruka katika hatua shukrani kwa wake maarufu (na ladha) **[Galletas de la FeliZidad]](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
+[@SheEmprende_ kwenye Mitandao ya Kijamii](https://www.sheemprende.com/enlaces-sheemprende/)Yeye aliruka katika hatua shukrani kwa wake maarufu (na ladha) **[Galletas de la FeliZidad](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
 
 Mbali na cookies yake, yeye inatoa huduma nyingine zote na bora ya yote ni hii: unaweza kulipa kwa ZEC!
 
@@ -61,7 +61,7 @@ Hivyo, kama wewe ni biskuti monster ..!
 
 sasa unajua wapi kutumia ZEC yako!
 
-**Website**: [Sheemprende.com]](http://Sheemprende.com) 
+**Website**: [Sheemprende.com](http://Sheemprende.com) 
 
 **Zcash Unified Address:** 
 
@@ -87,7 +87,7 @@ Rosa anatabasamu kwa fahari akionyesha kwamba anakubali **Zcash.**
 
 ** Tovuti**: [https://somosdulceros.com/](https://somosdulceros.com/) 
 
-** Mitandao ya kijamii:** [Instagram]](https://www.instagram.com/somos_dulceros) [X Jukwaa la]](https://twitter.com/RosaMRangel) [Free2z]](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+** Mitandao ya kijamii:** [Instagram](https://www.instagram.com/somos_dulceros) [X Jukwaa la](https://twitter.com/RosaMRangel) [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:** 
 
@@ -125,9 +125,9 @@ Baadhi ya vitu vingine nzuri Papeles a rangi handcrafts.
 
 ** Mitandao ya kijamii** 
 
-[Instagram]](https://instagram.com/papelesacolor) [Free2z]](https://free2z.cash/PapelesaColor) 
+[Instagram](https://instagram.com/papelesacolor) [Free2z](https://free2z.cash/PapelesaColor) 
 
-[Linktree]](https://linktr.ee/Papelesacolor)
+[Linktree](https://linktr.ee/Papelesacolor)
 
 **Zcash Unified Address** 
 
@@ -155,7 +155,7 @@ Je, unataka kujisikia *uwezo?* **Emprendedoras Digitales de Venezuela** ni mahal
 
 ** Mitandao ya kijamii:** 
 
-[Instagram]](https://instagram.com/emprendedorasdigitalesve) [Jukwaa la]](https://twitter.com/EmpreDigiVE) [Telegramu]](https://t.me/emprendedorasdigitalesve) [LinkedIn]](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
+[Instagram](https://instagram.com/emprendedorasdigitalesve) [Jukwaa la](https://twitter.com/EmpreDigiVE) [Telegramu](https://t.me/emprendedorasdigitalesve) [LinkedIn](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
 
 **Unified Address:** 
 
@@ -180,7 +180,7 @@ Mahali hapa, linalodhibitiwa na **Roosevelt Gordones and Aura Brito** hutoa hudu
 
 ** Mitandao ya Kijamii**
 
-[Telegramu ya]](https://t.me/gorbritsm) [Instagram]](https://www.instagram.com/gorbritsm/) [X Jukwaa la]](https://twitter.com/GorBritSM) | 
+[Telegramu ya](https://t.me/gorbritsm) [Instagram](https://www.instagram.com/gorbritsm/) [X Jukwaa la](https://twitter.com/GorBritSM) | 
 
 GorBrit inakubali mbinu mbalimbali za malipo, ikiwa ni pamoja na Cryptocurrencies, kati ya ambayo, ni ** Zcash. *
 
@@ -210,7 +210,7 @@ Kazi yake inajulikana katika mazingira ya Zcash shukrani kwa mchango wake kwenye
 
 ** Mitandao ya kijamii:**
 
-[Telegramu ya]](https://t.me/Robmarn) [X Jukwaa la]](https://twitter.com/robmarn) [Free2z]](https://free2z.cash/robmarn)
+[Telegramu ya](https://t.me/Robmarn) [X Jukwaa la](https://twitter.com/robmarn) [Free2z](https://free2z.cash/robmarn)
 
  Barquisimeto - Venezuela 
 
@@ -224,7 +224,7 @@ Misumari nzuri, mikono mizuri shukrani kwa Karin Beauty Studio.
 
 ** Mitandao ya kijamii:** 
 
-[Instagram]](https://instagram.com/karinbeautystudio) 
+[Instagram](https://instagram.com/karinbeautystudio) 
 
 **Unified Address:** 
 
@@ -250,7 +250,7 @@ Nice kifahari kuwasilisha kwa ajili ya scrunchies Corona de brilllitos
 
 ** Mitandao ya Kijamii**
 
-[Instagram]](https://instagram.com/coronadebrillitos) 
+[Instagram](https://instagram.com/coronadebrillitos) 
 
 **Zcash Unified Address** 
 
@@ -282,7 +282,7 @@ Tecnopapapi ndiye mtu sahihi wa kuwasiliana naye!
 
 ** Mitandao ya kijamii** 
 
-Free2z. [Telegramu]](https://t.me/Lexihel) [YouTube]](https://youtube.com/@tecnopapapi) [X Jukwaa la]](https://twitter.com/tecnopapapi) [TikTok]](https://www.tiktok.com/@lexihel) [Instagram]](https://www.instagram.com/tecnopapapi/) [Facebook]](https://www.facebook.com/tecnopapapi) 
+Free2z. [Telegramu](https://t.me/Lexihel) [YouTube](https://youtube.com/@tecnopapapi) [X Jukwaa la](https://twitter.com/tecnopapapi) [TikTok](https://www.tiktok.com/@lexihel) [Instagram](https://www.instagram.com/tecnopapapi/) [Facebook](https://www.facebook.com/tecnopapapi) 
 
 Tecnopapapi inakubali cryptocurrencies (ikiwa ni pamoja na 3ZEC) na mbinu nyingine za malipo. 
 
@@ -318,13 +318,13 @@ Huduma ya utoaji. Kuchukua mbali. Uhifadhi
 
 ![BackgroundEraser_20230901_114615839.png](/content-images/_unavailable.svg)
 
-** Tovuti**: [www.alleginiristorante.com]](http://www.alleginiristorante.com) (katika ujenzi)
+** Tovuti**: [www.alleginiristorante.com](http://www.alleginiristorante.com) (katika ujenzi)
 
 ** Mitandao ya kijamii** 
 
-[Instagram]](https://instagram.com/allegriniristorante) [X Jukwaa la]](https://twitter.com/AllegriniRisto) [Telegramu]](https://t.me/AllegriniRistorante) [Pinterest]](https://pin.it/6z8hq6F)
+[Instagram](https://instagram.com/allegriniristorante) [X Jukwaa la](https://twitter.com/AllegriniRisto) [Telegramu](https://t.me/AllegriniRistorante) [Pinterest](https://pin.it/6z8hq6F)
 
-(Karibuni katika [free2z.cash]](http://free2z.cash). )
+(Karibuni katika [free2z.cash](http://free2z.cash). )
 
 ![20230901_121633_0000.png](/content-images/_unavailable.svg)
 

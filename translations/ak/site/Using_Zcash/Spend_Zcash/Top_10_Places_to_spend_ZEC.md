@@ -37,7 +37,7 @@ Ne titiriw no, wɔ Venezuela hɔ na (bea a ɛwɔ honam mu ne intanɛt so) mmeae 
 
 1.  *Sheila Vargas* Foodie Blogger Entrepreneur Mentorship (Nneɛma a ɛyɛ anika) 
 
-[@SheEmprende_ wɔ Social Media so]](https://www.sheemprende.com/enlaces-sheemprende/)Ɔde ne din a agye din (na ɛyɛ dɛ) Galletas de la FeliZidad no bɔɔ n'aba so.](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
+[@SheEmprende_ wɔ Social Media so](https://www.sheemprende.com/enlaces-sheemprende/)Ɔde ne din a agye din (na ɛyɛ dɛ) Galletas de la FeliZidad no bɔɔ n'aba so.](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
 
 Ne keksie akyi no, ɔsan de nnwuma afoforo nso ma na nea eye paa ne sɛ: wobɛtumi atua sika wɔ ZEC mu!
 
@@ -61,7 +61,7 @@ Enti, sɛ woyɛ obi a w'ani gye keki ho paa a,..
 
 Afei woahu nea wode wo ZEC no bɛyɛ!
 
-**Website**: [Sheemprende.com]](http://Sheemprende.com) 
+**Website**: [Sheemprende.com](http://Sheemprende.com) 
 
 **Zcash Unified Address:** Zcash Uniform Address (Ɛwɔ sɛ wode wo din di dwuma wɔ kasa biara mu) 
 
@@ -87,7 +87,7 @@ Rosa de ahantan serew kyerɛ sɛ ogye Zcash.
 
 **Ɔweɛbsaet**: [https://somosdulceros.com/](https://somosdulceros.com/) 
 
-Mfonini a wɔde di dwuma wɔ nnipa mu: [Instagram]](https://www.instagram.com/somos_dulceros) [X-Stream]](https://twitter.com/RosaMRangel) [Free2z] So, no way.](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+Mfonini a wɔde di dwuma wɔ nnipa mu: [Instagram](https://www.instagram.com/somos_dulceros) [X-Stream](https://twitter.com/RosaMRangel) [Free2z] So, no way.](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:** Zcash Uniform Address (Ɛwɔ sɛ wode wo din di dwuma wɔ kasa biara mu) 
 
@@ -127,7 +127,7 @@ Nneɛma foforo a Papeles a Color ayɛ no bi wɔ hɔ.
 
 [Instagram] yɛ wo ho te dɛn?](https://instagram.com/papelesacolor) [Free2z] So, no way.](https://free2z.cash/PapelesaColor) 
 
-[Kekae dua no]](https://linktr.ee/Papelesacolor)
+[Kekae dua no](https://linktr.ee/Papelesacolor)
 
 **Zcash Unified Address** (Ɔfese a wɔaka abom no) 
 
@@ -155,7 +155,7 @@ EDVE,** a w'atwe adwene asi mmaa adwadifoɔ so no de dwumadie ahodoɔ bi ma:
 
 **Nneɛma a w'abɔ wɔ intanɛt so:** 
 
-[Instagram] yɛ wo ho te dɛn?](https://instagram.com/emprendedorasdigitalesve) [Nneɛma a ɛwɔ hɔ ma wɔn]](https://twitter.com/EmpreDigiVE) [Telegram a wɔde kɔmaa me]](https://t.me/emprendedorasdigitalesve) [LinkedIn]](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
+[Instagram] yɛ wo ho te dɛn?](https://instagram.com/emprendedorasdigitalesve) [Nneɛma a ɛwɔ hɔ ma wɔn](https://twitter.com/EmpreDigiVE) [Telegram a wɔde kɔmaa me](https://t.me/emprendedorasdigitalesve) [LinkedIn](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
 
 ** Unified Address:** no aaeeaaaeeo?aaiy aey iieaeia. 
 
@@ -180,7 +180,7 @@ Saa bea yi a Roosevelt Gordones ne Aura Brito di so no de nneɛma bi ma:
 
 **Nneɛma a w'abɔ wɔ intanɛt so**
 
-[Nsɛm a wɔahyehyɛ wɔ telegram so]](https://t.me/gorbritsm) [Instagram] Ɔyɛ dɛn?](https://www.instagram.com/gorbritsm/) [X-Stream]](https://twitter.com/GorBritSM) | 
+[Nsɛm a wɔahyehyɛ wɔ telegram so](https://t.me/gorbritsm) [Instagram] Ɔyɛ dɛn?](https://www.instagram.com/gorbritsm/) [X-Stream](https://twitter.com/GorBritSM) | 
 
 GorBrit gye akwan ahodoɔ a wɔfa so tua ka, ɛne Cryptocurrencies no bi. Ebi ne sɛ yɛ bɛtumi afa Zcash* mu na yɛde ayɛ adwuma.
 
@@ -210,7 +210,7 @@ Ne nnwuma no agye din wɔ Zcash mu, na n'aboa a ɔde ama club ZFAV nti.
 
 **Nneɛma a wͻde di dwuma wɔ aman afoforɔ so:**
 
-[Nsɛm a wɔahyehyɛ wɔ telegram so]](https://t.me/Robmarn) [X-Stream]](https://twitter.com/robmarn) [Free2z] So, no way.](https://free2z.cash/robmarn)
+[Nsɛm a wɔahyehyɛ wɔ telegram so](https://t.me/Robmarn) [X-Stream](https://twitter.com/robmarn) [Free2z] So, no way.](https://free2z.cash/robmarn)
 
 Barquisimeto - Venezuela 
 
@@ -282,7 +282,7 @@ Tecnopapapi ne onipa a ɛsɛ sɛ wofa no!
 
 **Nneɛma a wͻde di dwuma wɔ aman afoforɔ so** 
 
-Free2z. [Telegram] Wo ho yɛ den, wo ho yɛ hare!](https://t.me/Lexihel) [YouTube wɔ kasa ahodoɔ mu]](https://youtube.com/@tecnopapapi) [X-Stream]](https://twitter.com/tecnopapapi) [TikTok]](https://www.tiktok.com/@lexihel) [Instagram] Ɔyɛ dɛn?](https://www.instagram.com/tecnopapapi/) [Facebook] Woyɛ ɔmansin sohwɛfo?](https://www.facebook.com/tecnopapapi) 
+Free2z. [Telegram] Wo ho yɛ den, wo ho yɛ hare!](https://t.me/Lexihel) [YouTube wɔ kasa ahodoɔ mu](https://youtube.com/@tecnopapapi) [X-Stream](https://twitter.com/tecnopapapi) [TikTok](https://www.tiktok.com/@lexihel) [Instagram] Ɔyɛ dɛn?](https://www.instagram.com/tecnopapapi/) [Facebook] Woyɛ ɔmansin sohwɛfo?](https://www.facebook.com/tecnopapapi) 
 
 Tecnopapapi gye cryptocurrencies (a 3ZEC ka ho) ne akwan afoforɔ a wɔfa so tua sika. 
 
@@ -318,11 +318,11 @@ Akwantufoɔ. Fa kɔ no. Nkɔhyɛe
 
 ![BackgroundEraser_20230901_114615839.png](/content-images/_unavailable.svg)
 
-**Website**: [www.alleginiristorante.com]](http://www.alleginiristorante.com) (wɔ siesie mu)
+**Website**: [www.alleginiristorante.com](http://www.alleginiristorante.com) (wɔ siesie mu)
 
 **Nneɛma a wͻde di dwuma wɔ aman afoforɔ so** 
 
-[Instagram] yɛ wo ho te dɛn?](https://instagram.com/allegriniristorante) [X-Stream]](https://twitter.com/AllegriniRisto) [Telegram a wɔde kɔmaa me]](https://t.me/AllegriniRistorante) [Pinterest]](https://pin.it/6z8hq6F)
+[Instagram] yɛ wo ho te dɛn?](https://instagram.com/allegriniristorante) [X-Stream](https://twitter.com/AllegriniRisto) [Telegram a wɔde kɔmaa me](https://t.me/AllegriniRistorante) [Pinterest](https://pin.it/6z8hq6F)
 
 (Ɔrenkyɛ wɔ [free2z.cash] so)](http://free2z.cash). )
 

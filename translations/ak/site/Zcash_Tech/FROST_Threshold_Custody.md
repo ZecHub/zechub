@@ -144,16 +144,16 @@ Asεm a emu yε den sε wobedi kan aka no ma ekuo dodow no ara: **2-of-3** (aho�
 ## Nkrataafa a Ɛwɔ Ho Nsɛm
 
 - [FROST — Technical Deep Dive](FROST.md)  protocol no ho nkrataa a wɔabɔ (DKG, signing rounds, security proofs)
-- [YWallet FROST Demo Akwankyerɛ]](/guides/Ywallet_FROST_Demo)  step-by-step hands-on demo
+- [YWallet FROST Demo Akwankyerɛ](/guides/Ywallet_FROST_Demo)  step-by-step hands-on demo
 - [FROST Demo (frostdemo)](/guides/frostdemo)  Zcash Foundation demo akwankyerԑ mu nsunsuansoɔ
-- [Kyerԑkyerԑmu Nsaano Nkyea]](Viewing_Keys.md)  kwan a wɔfa so kenkan ade nkutoo kɔ address ahorow a w'ayi no asi nkyɛn (a ɛboa ma wɔde sie)
+- [Kyerԑkyerԑmu Nsaano Nkyea](Viewing_Keys.md)  kwan a wɔfa so kenkan ade nkutoo kɔ address ahorow a w'ayi no asi nkyɛn (a ɛboa ma wɔde sie)
 - [Zcash Shielded Assets](Zcash_Shielded_Assets.md)  FROST yɛ nhyehyɛɛ titire ma ZSA a wɔtɔ no nso.
 
 ## Nneɛma a wɔde bɔ afɔre
 
-- [FROST nhwehwɛmu krataa (Komlo & Goldberg, 2020) ]](https://eprint.iacr.org/2020/852.pdf)
+- [FROST nhwehwɛmu krataa (Komlo & Goldberg, 2020) ](https://eprint.iacr.org/2020/852.pdf)
 - [IETF FROST standard draft (draft-irtf-cfrg-frost) ] no de, w'akyerɛ mu wɔ ha sɛ: "Ɛwɔ hɔ ara".](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/)
-- [Zcash Foundation FROST dwumadie a wɔdi no so]](https://frost.zfnd.org)
-- [Chelsea Komlo  Dɛn ne Nsaano Ahorow? (Zcon3) ]](https://youtu.be/cAfTTfblzoU?t=110)
-- [Coinbase  Nkrataafa a Ɛwɔ Dodow A Wɔtwerɛ De Di dwuma]](https://www.coinbase.com/blog/threshold-digital-signatures)
-- [ROAST  Robust Async Schnorr Threshold Signatures (Blockstream) ]](https://eprint.iacr.org/2022/550.pdf)
+- [Zcash Foundation FROST dwumadie a wɔdi no so](https://frost.zfnd.org)
+- [Chelsea Komlo  Dɛn ne Nsaano Ahorow? (Zcon3) ](https://youtu.be/cAfTTfblzoU?t=110)
+- [Coinbase  Nkrataafa a Ɛwɔ Dodow A Wɔtwerɛ De Di dwuma](https://www.coinbase.com/blog/threshold-digital-signatures)
+- [ROAST  Robust Async Schnorr Threshold Signatures (Blockstream) ](https://eprint.iacr.org/2022/550.pdf)

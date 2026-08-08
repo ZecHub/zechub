@@ -14,7 +14,7 @@ Ugbu a, enwere ụzọ abụọ iji mepụta akaụntụ gị na Free2Z:
 
 Iji mepụta akaụntụ ma ọ bụ banye, gaa na https://free2z.cash/ wee pịa bọtịnụ 'CREATE'.
 
-[Nbanye/ntinye akwụkwọ]](/content-images/image-2023-11-19-133101013-3ee51e3b6f.webp)
+[Nbanye/ntinye akwụkwọ](/content-images/image-2023-11-19-133101013-3ee51e3b6f.webp)
 
 The login/signup form will appear in your browser. Choose your username and a strong password - this will be your login information. Solve the captcha and click the 'Enter' button to create your account.
 
@@ -89,7 +89,7 @@ Iji denye aha na ibe, naanị ihe ị ga-eme bụ pịa akara ngosi denye aka na
 
 Ị nwere ike inye onyinye ozugbo na ibe ha, site na ịpị akara ngosi onye okike Fund.
 
-[Bọtịnụ onye okike ego]](/content-images/fund-creator-ac59aee7bf.webp)
+[Bọtịnụ onye okike ego](/content-images/fund-creator-ac59aee7bf.webp)
 
 Ma ọ bụ, site n'ime post, chọọ bọtịnụ gbakwunyere na-ese n'elu mmiri. Site ebe a, ị nwere ike inye onyinye nye onye okike ma ọ bụ kwalite post na Free2Z.
 
@@ -188,7 +188,7 @@ In conclusion, Free2z is a versatile platform for creators to showcase their abi
 [2Z Nchịkọta](https://free2z.cash/docs/2Zs/)  
 [Ịmepụta profaịlụ](https://free2z.cash/docs/creators/creating-a-profile)  
 [Gịnị bụ Free2z Live?](https://free2z.cash/docs/creators/free2z-live)  
-[Free2z maka ndị na-akwado]](https://free2z.cash/docs/category/for-supporters)
+[Free2z maka ndị na-akwado](https://free2z.cash/docs/category/for-supporters)
 
 ---
 

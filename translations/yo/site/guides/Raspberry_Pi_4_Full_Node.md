@@ -149,8 +149,8 @@ Fọwọsi pe apamọ naa dahun, ati ni kete ti Zebra ba pari isọdọkan, aw�
 Zebra ati Zallet ni o wa lapapọ fẹẹrẹfẹ lori CPU nigba iṣeto ju compiling zcashd jẹ, niwon ti o ba n ṣiṣẹ ṣaju-itumọ alakomeji / apoti. 4 GB Ramu jẹ a reasonable ibẹrẹ ojuami; iboju pẹlu `htop` ki o si ro awọn 8 GB Pi 4 eya ti o ba ri ọpọ swapping.
 
 ## Àwọn ohun èlò àfikún
-- [Ìwé Zebra]](https://zebra.zfnd.org)  ìwé àṣẹ Zebra tí ó wà nípamọ́
-- [Ìwé Zallet]](https://zcash.github.io/wallet)  ìwé àṣẹ Zallet tí ó wà nílẹ̀-èdè rẹ.
+- [Ìwé Zebra](https://zebra.zfnd.org)  ìwé àṣẹ Zebra tí ó wà nípamọ́
+- [Ìwé Zallet](https://zcash.github.io/wallet)  ìwé àṣẹ Zallet tí ó wà nílẹ̀-èdè rẹ.
 - [zcashd End-of-Support notice](https://z.cash/support/zcashd-deprecation)
 
 ---

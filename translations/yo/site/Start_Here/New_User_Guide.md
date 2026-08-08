@@ -34,7 +34,7 @@ Ohun pàtàkì kan tó yẹ kó o fi sọ́kàn ni pé kò pọn dandan kó o ra 
 
 Lẹ́yìn tí o bá ra àwọn *ZEC*, o lè fẹ́ gbé e lọ sí àpò Zcash. 
 
-[Ìwé yìí ṣàlàyé]](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) ìdí tó fi ṣe pàtàkì láti ní *ZEC* nínú pọ́ọ̀sì. 
+[Ìwé yìí ṣàlàyé](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) ìdí tó fi ṣe pàtàkì láti ní *ZEC* nínú pọ́ọ̀sì. 
 
 A dábàá pé kí o lo àpò tí ó ní ààbò](https://zechub.wiki/wallets) nítorí pé àwọn àpamọ́ owó wọ̀nyí ń pèsè àwọn ohun ìní ìpamọ́ra tí ó sọ *ZEC* di àrà ọ̀tọ̀. 
 

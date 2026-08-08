@@ -37,5 +37,5 @@ Unataka kujifunza zaidi kuhusu mazingira ya Zcash? Hapa ni orodha ya podcast una
 </li>
 </ul>
 
-Je, sisi ni kukosa podcast nzuri? Wasiliana nasi juu ya [Discord]](https://discord.gg/zcash) na tutaongeza kwenye orodha.
+Je, sisi ni kukosa podcast nzuri? Wasiliana nasi juu ya [Discord](https://discord.gg/zcash) na tutaongeza kwenye orodha.
 

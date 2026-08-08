@@ -1,7 +1,7 @@
 # Àwọn Ẹ̀rí Tí Kò Ní Ìmọ̀kan: Fífi Hàn Pé Òótọ́ Lo Sọ Láìsọ Ìdí
 ##### Ìwádìí Àkọ́kọ́ láti [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![ì í ì °ë¦¬í ë ¤]](/content-images/image-23-71534bece9.webp)
+![ì í ì °ë¦¬í ë ¤](/content-images/image-23-71534bece9.webp)
 
 ### Àwòrán tí ó jẹ́ kí ayé rí ohun tí kò lè rí
 
@@ -40,7 +40,7 @@ A **zero-knowledge proof (ZKP)** is the reconciliation. It lets a **prover** con
 
 ## 3. Àwọn ìdánilójú mẹ́ta náà
 
-![ì í ì °ë¦¬í ë ¤]](/content-images/image-24-b559d31849.webp)
+![ì í ì °ë¦¬í ë ¤](/content-images/image-24-b559d31849.webp)
 
 Ìdánilójú. Nínú ìtàn ihò àpáta. Nínú Zcash.
 |---|---|---|
@@ -62,7 +62,7 @@ The cave proves one cute fact. Zcash needs to prove a rich statement: *"I know a
 
 Think of the circuit as a list of arithmetic constraints that are *all satisfied only if the statement is true.* The private inputs that make everything check out, your note, your key, the Merkle path, are called the **witness.**
 
-![ì í ì °ë¦¬í ë ¤]](/content-images/image-25-2479377e43.webp)
+![ì í ì °ë¦¬í ë ¤](/content-images/image-25-2479377e43.webp)
 
 This is why we spent Article 1 on finite fields and Article 3 on ZK-friendly hashes: the circuit speaks field arithmetic, so every operation inside the statement (including hashing and the Merkle climb of Article 4) has to be expressed that way. The cheaper each operation is to express, the smaller and faster the proof.
 
@@ -90,7 +90,7 @@ Ko si ounjẹ ọsan ọfẹ. Ọpọlọpọ awọn SNARK nilo iṣeto akoko ka
 
 This leftover secret is nicknamed **toxic waste.** To dispose of it safely, Zcash ran elaborate **multi-party ceremonies** where many independent participants each contributed randomness; as long as *even one* destroyed their piece honestly, the toxic waste is unrecoverable.
 
-![ì í ì °ë¦¬í ë ¤]](/content-images/image-26-cdad6625cd.webp)
+![ì í ì °ë¦¬í ë ¤](/content-images/image-26-cdad6625cd.webp)
 
 Awọn ọna ṣiṣe tuntun yọ ibeere yii kuro patapata, eyiti o jẹ ọkan ninu awọn idi nla julọ ti Zcash ṣe agbekalẹ eto ẹri rẹ ni akoko.
 

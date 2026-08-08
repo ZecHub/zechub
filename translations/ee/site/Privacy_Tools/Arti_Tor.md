@@ -129,7 +129,7 @@ Kpɔ nɔnɔmetata si me woɖe alesi Arti wɔa dɔ kple Tor-hadzraɖoƒea le la �
 
 Ne èdi be yeakpe asi ɖe Arti ƒe ŋgɔyiyi ŋu la, àte ŋu adzro eƒe kɔdzenu me eye nàna kpekpeɖeŋu to GitLab dzi.
 
-- **Adzraɖoƒe ƒe kadodo**: [Arti GitLab Dzraɖoƒea]](https://gitlab.torproject.org/tpo/core/arti)
+- **Adzraɖoƒe ƒe kadodo**: [Arti GitLab Dzraɖoƒea](https://gitlab.torproject.org/tpo/core/arti)
 - **Tsɔ Ŋgɔdonyawo Wɔ Nuviwoe**:
   ```sh
   git clone https://gitlab.torproject.org/tpo/core/arti.git
@@ -171,7 +171,7 @@ Ne èdi be yeakpe asi ɖe Arti ƒe ŋgɔyiyi ŋu la, àte ŋu adzro eƒe kɔdzen
 
 
 
-Ne èdi be yeakpe asi ɖe dɔa ŋu la, àteŋu akpɔ eƒe kɔdzia ɖa ahaƒo nu tso eŋu le afi si míedzra wo ɖo ɖi na wò. [Arti GitLab Repository]](https://gitlab.torproject.org/tpo/core/arti). 
+Ne èdi be yeakpe asi ɖe dɔa ŋu la, àteŋu akpɔ eƒe kɔdzia ɖa ahaƒo nu tso eŋu le afi si míedzra wo ɖo ɖi na wò. [Arti GitLab Repository](https://gitlab.torproject.org/tpo/core/arti). 
 
 Miwɔ nu siwo katã miate ŋui be miaɖu agbe kple Arti eye mianɔ dzidzɔ kpɔm le hacking me!
 

@@ -5,7 +5,7 @@ Na ntuziaka a, ị ga-amụta otu esi azụ oge ikuku na ZEC.
 ## Soro nzọụkwụ ndị a:
 
 ### 1. Mepụta akaụntụ
-Gaa na [Coinsbee.com]](https://www.coinsbee.com/en/shop/mobile-top-ups/) mepụta akaụntụ.
+Gaa na [Coinsbee.com](https://www.coinsbee.com/en/shop/mobile-top-ups/) mepụta akaụntụ.
 
 ### 2. Họrọ mba gị na netwọk gị
 Pịgharịa gaa n'elu aka ekpe wee họrọ mba gị; wee họta ekwentị mkpanaaka ma họta netwọk ịchọrọ ịkwụ ụgwọ (ihe atụ: MTN).

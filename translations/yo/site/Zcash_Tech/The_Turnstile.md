@@ -108,17 +108,17 @@ Eyi ni idi ti o jinlẹ julọ fun awọn ọrọ turntile ju iṣiro lọ. O j�
 
 ## Àwọn Owó-ìṣúnná owó
 
-1. [ZIP 209: Èèwọ̀ fún àwọn ìsókò tí ó wà ní òde-ìwòye àgbájọ iye owó tó ń lọ láìsí ibi ti wọ́n lè rí i gbà]](https://zips.z.cash/zip-0209) - ìlànà ìfohùnṣọ̀kan tó wà lẹ́yìn ilé àyíká náà.
-2. [ZIP 211: Ṣiṣiṣẹda fifi iye tuntun kun si Ẹrọ Iye Ọja Ipilẹ]](https://zips.z.cash/zip-0211) - bí wọ́n ṣe ti àgbá omi Sprout pa fún àwọn ìsọ̀ǹbá tuntun.
+1. [ZIP 209: Èèwọ̀ fún àwọn ìsókò tí ó wà ní òde-ìwòye àgbájọ iye owó tó ń lọ láìsí ibi ti wọ́n lè rí i gbà](https://zips.z.cash/zip-0209) - ìlànà ìfohùnṣọ̀kan tó wà lẹ́yìn ilé àyíká náà.
+2. [ZIP 211: Ṣiṣiṣẹda fifi iye tuntun kun si Ẹrọ Iye Ọja Ipilẹ](https://zips.z.cash/zip-0211) - bí wọ́n ṣe ti àgbá omi Sprout pa fún àwọn ìsọ̀ǹbá tuntun.
 3. [ZIP 258: NU6.3] Àwọn ojúewé wọ̀nyí jápọ̀ mọ́:](https://zips.z.cash/zip-0258) - ìyípadà tí ó mú omi-ìmọ̀ Ironwood wọlé, tó sì darí iye owó náà síbi àgbá yípo.
-4. [Ìmúṣẹ Ìpínlẹ̀-ìmọ́lé lòdì sí Àdàkọ]](https://electriccoin.co/blog/turnstile-enforcement-against-counterfeiting/) - the original explanation from Electric Coin Company
-5. [Àlàyé fún Àlàkalẹ̀ Zcash]](https://zips.z.cash/protocol/protocol.pdf) - wo àwọn ìpínrọ̀ tó dá lórí ìfiwéra àti òǹtẹ̀ tí ó nípìn-ín fún àlàyé kíkún.
-6. [Àwọn Ìkùdu Iyebíye, Ìwé Zebra]](https://zebra.zfnd.org/dev/rfcs/0012-value-pools.html) - bí àpò kan ṣe ń tọpinpin ìdìbò iye tí ó wà nínú àwọn ẹgbẹ́ kòkòrò ọ̀gbìn kọ̀ọ̀kan.
+4. [Ìmúṣẹ Ìpínlẹ̀-ìmọ́lé lòdì sí Àdàkọ](https://electriccoin.co/blog/turnstile-enforcement-against-counterfeiting/) - the original explanation from Electric Coin Company
+5. [Àlàyé fún Àlàkalẹ̀ Zcash](https://zips.z.cash/protocol/protocol.pdf) - wo àwọn ìpínrọ̀ tó dá lórí ìfiwéra àti òǹtẹ̀ tí ó nípìn-ín fún àlàyé kíkún.
+6. [Àwọn Ìkùdu Iyebíye, Ìwé Zebra](https://zebra.zfnd.org/dev/rfcs/0012-value-pools.html) - bí àpò kan ṣe ń tọpinpin ìdìbò iye tí ó wà nínú àwọn ẹgbẹ́ kòkòrò ọ̀gbìn kọ̀ọ̀kan.
 
 <br/>
 
 ## Àwọn ojúewé tó ní í ṣe pẹ̀lú rẹ̀
 
-- [Àwọn Erékùṣù Tí Wọ́n Fi Ààbò Pa Mọ́]](https://zechub.wiki/using-zcash/shielded-pools) - bí àwọn ìnáwó tí a fi ààbò Zcash ṣe ń pa àṣírí mọ́.
+- [Àwọn Erékùṣù Tí Wọ́n Fi Ààbò Pa Mọ́](https://zechub.wiki/using-zcash/shielded-pools) - bí àwọn ìnáwó tí a fi ààbò Zcash ṣe ń pa àṣírí mọ́.
 - [Halo](https://zechub.wiki/zcash-tech/halo) - ètò ìdánilójú tó wà lẹ́yìn adágún Orchard.
-- [Ìyípadà sí Àtòjọ Ìsọfúnni]](https://zechub.wiki/start-here/network-upgrades) - bí Zcash ṣe ń mú àwọn àyípadà ṣiṣẹ́ bíi ìsọ̀rí tí a fi ọ̀pá ìdáàbòbò tuntun sí.
+- [Ìyípadà sí Àtòjọ Ìsọfúnni](https://zechub.wiki/start-here/network-upgrades) - bí Zcash ṣe ń mú àwọn àyípadà ṣiṣẹ́ bíi ìsọ̀rí tí a fi ọ̀pá ìdáàbòbò tuntun sí.

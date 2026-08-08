@@ -95,7 +95,7 @@ Menye xexeame ƒe nuwuwu enye be woagblẽ nu le eƒe akpa aɖe ŋu o (si nye nu
 Zcash Foundation ɖo FROST ƒe dɔwɔwɔ kple demo site ɖe wo. Esiae nye nusiwo wowɔna le numekuku me kple ŋgɔyiyiwo wɔwɔ me la dometɔ ɖeka si wozãna na dɔ sia wɔdɔme.
 
 ### YWallet FROST Demo
-YWallet (Zcash ga si wɔa dɔ nyuie) le FROST demo ƒe akpa aɖe. Kpɔ [YWallet FROST Demo guide]](/guides/Ywallet_FROST_Demo) be nàkpɔ mɔfiamewo tso afɔɖeɖe ɖe sia ɖe ŋu.
+YWallet (Zcash ga si wɔa dɔ nyuie) le FROST demo ƒe akpa aɖe. Kpɔ [YWallet FROST Demo guide](/guides/Ywallet_FROST_Demo) be nàkpɔ mɔfiamewo tso afɔɖeɖe ɖe sia ɖe ŋu.
 
 ### ZecHub Hackathon 2026 — FROST Track Projects
 
@@ -143,17 +143,17 @@ Mɔ nyui si dzi woate ŋu ato adze dɔe nye: **2-tso-3** (nuwɔwɔ ɖeka le ɖo�
 
 ## Axawo Siwo Do Ka Kple Wo Nɔewo
 
-- [Tɔtrɔ si le FROST  Technical Deep Dive me]](FROST.md)  ɖoɖowɔɖia ƒe nya ɣaɣla (DKG, asiɖeɖe ɖe agbalẽ dzi wɔwɔ ŋu, dedienɔnɔ ŋuti kpeɖodziwo)
+- [Tɔtrɔ si le FROST  Technical Deep Dive me](FROST.md)  ɖoɖowɔɖia ƒe nya ɣaɣla (DKG, asiɖeɖe ɖe agbalẽ dzi wɔwɔ ŋu, dedienɔnɔ ŋuti kpeɖodziwo)
 - [YWallet FROST Demo Guide] (Mɔɖeɖewo ƒe Kplɔla)](/guides/Ywallet_FROST_Demo)  Ŋgɔdonya si me woato awɔ dɔ tso nɔnɔmea ŋu vivivi le.
 - [FROST Demo (frostdemo)](/guides/frostdemo)  Zcash Foundation ƒe dɔwɔnawo ŋuti nyatakaka siwo le eme.
-- [Kpɔ Kpuiawo]](Viewing_Keys.md)  Adrɛs siwo ŋu wotrɔ asi le be woaxlẽ ko (woazu nu bubu si akpe ɖe mɔxenu ƒe dzikpɔkpɔ ŋu)
-- [Zcash-Dɔ Siwo Woxe Mɔ̃ Na Toɖoɖo Me]](Zcash_Shielded_Assets.md)  FROST hã nye mɔ̃ɖaŋunu vevi aɖe si dzi ZSA-gbalẽwo dona le.
+- [Kpɔ Kpuiawo](Viewing_Keys.md)  Adrɛs siwo ŋu wotrɔ asi le be woaxlẽ ko (woazu nu bubu si akpe ɖe mɔxenu ƒe dzikpɔkpɔ ŋu)
+- [Zcash-Dɔ Siwo Woxe Mɔ̃ Na Toɖoɖo Me](Zcash_Shielded_Assets.md)  FROST hã nye mɔ̃ɖaŋunu vevi aɖe si dzi ZSA-gbalẽwo dona le.
 
 ## Ganyawo ƒe Kpekpeɖeŋu
 
-- [FROST ƒe numekuku (Komlo & Goldberg, 2020) ]](https://eprint.iacr.org/2020/852.pdf)
-- [IETF FROST ƒe ɖoɖowɔɖi si me wota ɖo (drafts-irtf-cfrg-frost) ]](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/)
-- [Zcash Foundation FROST ƒe dɔwɔwɔ]](https://frost.zfnd.org)
-- [Chelsea Komlo  Nukae Nye Ŋkeke Ƒe Seɖoƒe ƒe Dzesiwo? (Zcon3) ]](https://youtu.be/cAfTTfblzoU?t=110)
-- [Coinbase  Numeɖeɖewo ƒe Ŋkɔ si Wotsɔna le Internet Dzi]](https://www.coinbase.com/blog/threshold-digital-signatures)
-- [AGBALẼDZƆ  Async Schnorr ƒe Ŋkekeɖekedzimɔ̃ Siwo Mewɔ Ðeka O (Blockstream) ]](https://eprint.iacr.org/2022/550.pdf)
+- [FROST ƒe numekuku (Komlo & Goldberg, 2020) ](https://eprint.iacr.org/2020/852.pdf)
+- [IETF FROST ƒe ɖoɖowɔɖi si me wota ɖo (drafts-irtf-cfrg-frost) ](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/)
+- [Zcash Foundation FROST ƒe dɔwɔwɔ](https://frost.zfnd.org)
+- [Chelsea Komlo  Nukae Nye Ŋkeke Ƒe Seɖoƒe ƒe Dzesiwo? (Zcon3) ](https://youtu.be/cAfTTfblzoU?t=110)
+- [Coinbase  Numeɖeɖewo ƒe Ŋkɔ si Wotsɔna le Internet Dzi](https://www.coinbase.com/blog/threshold-digital-signatures)
+- [AGBALẼDZƆ  Async Schnorr ƒe Ŋkekeɖekedzimɔ̃ Siwo Mewɔ Ðeka O (Blockstream) ](https://eprint.iacr.org/2022/550.pdf)

@@ -16,7 +16,7 @@ By maintaining control over your private keys, the recovery process is always po
 
 Ele vevie be amesiwo zãa mɔnu sia nanya afɔku siwo le eme ne wole nu wɔm kple woƒe private keys eye woana woakpɔ mɔ na nya siawo. Ame bubuwo ƒe ga ŋuti dedienɔnɔ nɔ te ɖe alesi ame si zãm la akpɔ eƒe private key dzii ŋu.
 
-> ** Hafi nàdze egɔme:** recovery guides used to point at Ywallet. Eƒe developer ɖo kpe edzi be womagaɖɔe ɖe Ironwood (NU6.3) network upgrade nu o, eyata mate ŋu anɔ kɔsɔkɔsɔa me azɔ o. Zã **Zkool** si tso developer ma ke gbɔ eye enye eƒe susɔxɔla siwo dzi wotena kpɔna la. Kpɔ [Ywallet is no longer maintained]](#ywallet-is-no-longer-maintained) le axa sia ƒe ete.
+> ** Hafi nàdze egɔme:** recovery guides used to point at Ywallet. Eƒe developer ɖo kpe edzi be womagaɖɔe ɖe Ironwood (NU6.3) network upgrade nu o, eyata mate ŋu anɔ kɔsɔkɔsɔa me azɔ o. Zã **Zkool** si tso developer ma ke gbɔ eye enye eƒe susɔxɔla siwo dzi wotena kpɔna la. Kpɔ [Ywallet is no longer maintained](#ywallet-is-no-longer-maintained) le axa sia ƒe ete.
 
 ## Gaxɔle ɖe Zkool gbɔ
 
@@ -90,7 +90,7 @@ Afɔɖeɖe ɖe sia ɖe nye eƒe nuwɔwɔ, eyata wo dometɔ ɖesiaɖe xe fe.
 
 ## Kɔmpiuta si wotsɔna ɖea nu me le eme to ZExCavator dzi
 
-[ZExCavator ƒe ŋkɔ]](https://github.com/zingolabs/zexcavator) enye agbadzraɖoƒe tso Zingo Labs na afisiwo dzadzɛdzedze meɖea vi o, abe gaɖabaŋuti ƒe file si gblẽ alo eƒe akpa aɖe.
+[ZExCavator ƒe ŋkɔ](https://github.com/zingolabs/zexcavator) enye agbadzraɖoƒe tso Zingo Labs na afisiwo dzadzɛdzedze meɖea vi o, abe gaɖabaŋuti ƒe file si gblẽ alo eƒe akpa aɖe.
 
 > Eƒe update mamlɛtɔ do ŋgɔ na network upgrades siwo va yi nyitsɔ laa, eyata wɔe abe mɔnu mamletɔ ene eye nàkpɔa nu sia nu si ŋu nèke ɖo le gaɖaba aɖe me la dzi hafi aka ɖe eƒe dzidzedzewo dzi.
 
@@ -104,7 +104,7 @@ Ne ga le asiwò xoxo ɖe Ywallet me la, zã afɔɖeɖe siwo dze ŋgɔ nàtsɔ ag
 
 ## Axa siwo do ƒome kplii
 
-- [Gbɔdzigbalẽvi siwo le ga me]](/using-zcash/wallets) - Gaɖaka siwo woɖɔ ɖo kple alesi Ironwood dzraa woe.
-- [Ati si wotsɔ ga wɔ la]](/zcash-tech/ironwood) - nusi tɔtrɔ si wowɔ le ŋgɔyiyi sia me kple nusita gawo ʋuna ɖo
-- [Nɔnɔmetatawo]](/using-zcash/memos) - ale si nyatakaka siwo ŋu wotrɔ asi le la wɔa dɔe
-- [Kpɔ Kpuiawo]](/zcash-tech/viewing-keys) - Xlẽ nu ko ƒe mɔɖeɖe le ŋusẽ zazã manɔmee
+- [Gbɔdzigbalẽvi siwo le ga me](/using-zcash/wallets) - Gaɖaka siwo woɖɔ ɖo kple alesi Ironwood dzraa woe.
+- [Ati si wotsɔ ga wɔ la](/zcash-tech/ironwood) - nusi tɔtrɔ si wowɔ le ŋgɔyiyi sia me kple nusita gawo ʋuna ɖo
+- [Nɔnɔmetatawo](/using-zcash/memos) - ale si nyatakaka siwo ŋu wotrɔ asi le la wɔa dɔe
+- [Kpɔ Kpuiawo](/zcash-tech/viewing-keys) - Xlẽ nu ko ƒe mɔɖeɖe le ŋusẽ zazã manɔmee

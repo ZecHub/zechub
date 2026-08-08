@@ -34,7 +34,7 @@ Otu ihe dị mkpa ị ga-eburu n'uche bụ na ọ dịghị mkpa ka ị zụta 1
 
 Mgbe ịzụrụ ụfọdụ *ZEC*, ị nwere ike ịchọrọ ịkwaga ya na obere akpa Zcash. 
 
-[Isiokwu a kọwara]](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) ihe mere iwere *ZEC* n'akpa ji dị mkpa. 
+[Isiokwu a kọwara](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) ihe mere iwere *ZEC* n'akpa ji dị mkpa. 
 
 Anyị na-atụ aro iji [akpa ego echedoro](https://zechub.wiki/wallets) n'ihi na obere akpa ndị a na-enye atụmatụ nzuzo nke na-eme ka *ZEC* bụrụ ihe pụrụ iche. 
 
@@ -96,7 +96,7 @@ Mgbe ị debere ụfọdụ ZEC n'ime obere akpa gị, ị dịla njikere izipu 
 
 Zcash Community Forum bụ ebe ndị otu obodo Zcash na-atụle ihe niile metụtara Zcash. Anyị nwekwara sava esemokwu.
 
-[Zcash Community Forum](https://forum.zcashcommunity.com/) [Zcash Global]](https://discord.gg/zcash).
+[Zcash Community Forum](https://forum.zcashcommunity.com/) [Zcash Global](https://discord.gg/zcash).
 
 Obodo a na-anụ ọkụ n'obi ma na-anabata ndị ọhụrụ. Mgbe ụfọdụ mkparịta ụka nwere ike ịbụ teknụzụ, mana echegbula! Ọ bụrụ na ị nwere ajụjụ, ị nwere ike ịjụ.
 

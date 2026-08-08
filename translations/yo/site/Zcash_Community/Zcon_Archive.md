@@ -11,7 +11,7 @@ Zcon jẹ apejọ ọdọọdun ti a ṣeto nipasẹ [Zcash Foundation](https://
 
 Zcon0 ni ìpàdé ọdọọdún wa àkọ́kọ́, ó sì lọ dáadáa gan-an. A lo ọjọ́ kẹrìndínlọ́gbọ̀n sí ọjọ́ kọkàndínláàádọ́rin oṣù kẹfà ọdún 2018 ní ìlú Montreal tó rẹwà
 
-[Ìtòjọ orin Zcon0]](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
+[Ìtòjọ orin Zcon0](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -101,7 +101,7 @@ Zcon3 wáyé ní Las Vegas láti August 7-9th 2022.
 
 ZconV waye ni Oṣu Karun ọjọ 6-10th, 2024.
 
-[Ìtòjọ orin ZconV]](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJ41e2uSOJItvbW1YVR49aR)
+[Ìtòjọ orin ZconV](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJ41e2uSOJItvbW1YVR49aR)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

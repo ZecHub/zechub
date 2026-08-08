@@ -1,4 +1,4 @@
-## [ZODL]](https://zodl.com)
+## [ZODL](https://zodl.com)
 ![logo](/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp "ZODL")
 - Vifaa: Simu ya Mkononi
 - Mfumo wa Uendeshaji: Android  iOS
@@ -51,7 +51,7 @@
 
 ---
 
-## [Usioshindwa kusimamishwa]](https://unstoppable.money)
+## [Usioshindwa kusimamishwa](https://unstoppable.money)
 ![logo](/content-images/image-2024-11-28-091200540-815817fda7.webp "Unstoppable")
 - Vifaa: Simu ya Mkononi
 - Mfumo wa Uendeshaji: Android  iOS
@@ -62,7 +62,7 @@
 
 ---
 
-## [eZcash]](https://blog.nerdbank.net/ezcash-app)
+## [eZcash](https://blog.nerdbank.net/ezcash-app)
 ![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
 - Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa uendeshaji: Android  iOS Windows
@@ -83,7 +83,7 @@
 
 ---
 
-## [Keki ya mkate]](https://cakewallet.com/install/)
+## [Keki ya mkate](https://cakewallet.com/install/)
 ![logo](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
 - Vifaa: Simu ya mkononi  Desktop 
 - Mfumo wa uendeshaji: Android  iOS Windows Linux macOS
@@ -104,7 +104,7 @@
 
 ---
 
-## [Zingo-CLI]](https://github.com/zingolabs/zingolib)
+## [Zingo-CLI](https://github.com/zingolabs/zingolib)
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo-CLI")
 - Vifaa: Desktop
 - Mfumo wa uendeshaji: Windows Linux MacOS
@@ -126,7 +126,7 @@
 
 ---
 
-## [Zcashd]](https://github.com/zcash/zcash)
+## [Zcashd](https://github.com/zcash/zcash)
 ![logo](/content-images/zcashd-92df3291ad.webp "Zcashd")
 - Vifaa: Desktop
 - Mfumo wa uendeshaji: Windows Linux MacOS
@@ -137,7 +137,7 @@
 
 ---
 
-## [Ujasiri]](https://brave.com/web3-privacy/)
+## [Ujasiri](https://brave.com/web3-privacy/)
 ![logo](/content-images/image-2024-01-13-170934865-733c5d91c6.webp "Brave")
 - Vifaa: Mtandao
 - Mfumo wa Uendeshaji: Browser
@@ -147,7 +147,7 @@
 
 ---
 
-## [Metamask Snap]](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
+## [Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
 ![logo](/content-images/metamask-25048569f6.webp  "Metamask")
 - Vifaa: Mtandao
 - Mfumo wa Uendeshaji: Browser
@@ -167,7 +167,7 @@
 
 ---
 
-## [SSP Wallet]](https://sspwallet.io)
+## [SSP Wallet](https://sspwallet.io)
 ![logo](/content-images/ssp-1-7d96e66117.webp "SSP Wallet")
 - Vifaa: Simu ya mkononi  Web
 - Mfumo wa uendeshaji: Android  iOS Browser
@@ -187,7 +187,7 @@
 
 ---
 
-## [Kutoka]](https://www.exodus.com/zcash-wallet-zec)
+## [Kutoka](https://www.exodus.com/zcash-wallet-zec)
 ![logo](/content-images/exoduscard-2f77769db0.webp "Exodus")
 - Vifaa: Simu ya mkononi  Desktop  Mtandao
 - Mfumo wa uendeshaji: Android  iOS Windows Linux MacOS Browser
@@ -197,7 +197,7 @@
 
 ---
 
-## [Coinomi]](https://www.coinomi.com/en/downloads)
+## [Coinomi](https://www.coinomi.com/en/downloads)
 ![logo](/content-images/coinomicard-226bcbf876.webp "Coinomi")
 - Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa uendeshaji: Android  iOS Windows
@@ -229,7 +229,7 @@
 
 ---
 
-## [Safepal]](https://safepal.com)
+## [Safepal](https://safepal.com)
 ![logo](/content-images/safepalcard-176b24c751.webp "Safepal")
 - Vifaa: Simu ya mkononi  Web
 - Mfumo wa uendeshaji: Android  iOS Browser
@@ -239,7 +239,7 @@
 
 ---
 
-## [Hazina ya]](https://trezor.io/learn/a/zcash-zec)
+## [Hazina ya](https://trezor.io/learn/a/zcash-zec)
 ![logo](/content-images/trezor1-5004075d27.webp "Trezor")
 - Vifaa:
 - Mfumo wa Uendeshaji:
@@ -258,7 +258,7 @@
 
 ---
 
-## [Vizor ya macho]](https://vizor.cash/)
+## [Vizor ya macho](https://vizor.cash/)
 ![logo](/content-images/Vizorphoto-6ade2417a5.webp "Vizor")
 - Vifaa: Desktop  Mobiles
 - Mfumo wa Uendeshaji: macOS
@@ -279,7 +279,7 @@
 
 ---
 
-## [LeoDex]](https://leodex.io/)
+## [LeoDex](https://leodex.io/)
 ![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
 - Vifaa: Mtandao  Desktop
 - Mfumo wa uendeshaji: Browser Windows MacOS
@@ -290,7 +290,7 @@
 
 ---
 
-## [Zapp]](https://www.justzappit.xyz/app)
+## [Zapp](https://www.justzappit.xyz/app)
 ![logo](/content-images/zapp.webp "Zapp")
 - Vifaa: Simu ya Mkononi 
 - Mfumo wa Uendeshaji: Android 
@@ -301,7 +301,7 @@
   
 ---
 
-## [Zecd]](https://zecd.org/quickstart.html)
+## [Zecd](https://zecd.org/quickstart.html)
 ![logo](/content-images/zecd.webp "Zecd")
 - Vifaa: Desktop 
 - Mfumo wa Uendeshaji: Linux
@@ -312,7 +312,7 @@
 
 ---
 
-## [Zend: Zcash Wallet]](https://justzend.com/)
+## [Zend: Zcash Wallet](https://justzend.com/)
 ![logo](/content-images/zend.webp "Zend:Zcash Wallet")
 - Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa Uendeshaji: iOS  MacOS
@@ -333,7 +333,7 @@
 
 ---
 
-## [Zipher]](https://github.com/atmospherelabs-dev/zipher-app)
+## [Zipher](https://github.com/atmospherelabs-dev/zipher-app)
 ![logo](/content-images/zipher.webp "Zipher")
 - Vifaa: Simu ya mkononi  Desktop 
 - Mfumo wa uendeshaji: Android  Windows Linux (CLI na MCP Server) iOS macOS

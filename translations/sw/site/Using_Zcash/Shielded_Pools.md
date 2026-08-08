@@ -68,7 +68,7 @@ Mchoro 3: Chati inayoonyesha bwawa la Sapling mnamo Oktoba, 2025
 
 <br/>
 
-[Zcash Sapling]](https://z.cash/upgrade/sapling) ilikuwa ni upgrading ya Zcash protocol iliyotangazwa tarehe 28 Oktoba, 2018. Ni uboreshaji mkubwa juu ya toleo la awali linalojulikana kama Sprout ambalo lilikuwa na mapungufu kadhaa katika suala la faragha, ufanisi na matumizi. 
+[Zcash Sapling](https://z.cash/upgrade/sapling) ilikuwa ni upgrading ya Zcash protocol iliyotangazwa tarehe 28 Oktoba, 2018. Ni uboreshaji mkubwa juu ya toleo la awali linalojulikana kama Sprout ambalo lilikuwa na mapungufu kadhaa katika suala la faragha, ufanisi na matumizi. 
 
 Baadhi ya upgrades ni pamoja na utendaji bora kwa anwani ulinzi, Kuboreshwa kuona funguo kuwawezesha watumiaji kuangalia shughuli zinazoingia na zinazotoka bila kufichua mtumiaji siri muhimu na Independent Zero maarifa keys kwa ajili ya vifaa mkoba wakati wa usajili manunuzi. 
 
@@ -90,7 +90,7 @@ Sprout ilikuwa ya kwanza kabisa wazi ruhusa Zero maarifa faragha itifaki milele 
 
 Anwani za Sprout hutambuliwa na herufi zao mbili za kwanza ambazo daima ni "zc". Iliitwa "Sprout" kwa kusudi kuu la kusisitiza kuwa programu hiyo ilikuwa mpya, blockchain inayoibuka yenye uwezo mkubwa wa kukua na kufunguliwa kwa maendeleo. 
 
-Sprout ilitumika kama chombo mapema kwa [Zcash polepole kuanza Mining]](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) ambayo imesababisha usambazaji wa ZEC na Block zawadi kwa wachimbaji. 
+Sprout ilitumika kama chombo mapema kwa [Zcash polepole kuanza Mining](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) ambayo imesababisha usambazaji wa ZEC na Block zawadi kwa wachimbaji. 
 
 As the Zcash ecosystem continued  to expand with increasing number of shielded transactions, it was observed that the Zcash Sprout Series became limited and less efficient when it comes to user privacy, transaction scalability and processing. This led to the modification of the network and Sapling Upgrade. 
 
@@ -167,7 +167,7 @@ Kama kuanzishwa kwa njia ya upgrades mtandao baadaye, Ironwood itakuwa kizazi ch
 ## Kurasa Zinazohusiana
 
 - [Mifuko ya fedha](/using-zcash/wallets)  Ni pochi ambayo inasaidia Orchard na Sapling mabwawa
-- [Mashirika ya biashara]](/using-zcash/transactions)  Jinsi ya kutuma shughuli shielded
+- [Mashirika ya biashara](/using-zcash/transactions)  Jinsi ya kutuma shughuli shielded
 - [Kununua ZEC](/using-zcash/buying-zec)  Kupata ZEC kabla ya kuitumia katika makundi
 - [ZK-SNARKs](/zcash-tech/zk-snarks)  msingi cryptographic ya mabwawa shielded
 - [Ni nini ZEC na Zcash](/start-here/what-is-zec-and-zcash)  Background juu ya faragha Zcash

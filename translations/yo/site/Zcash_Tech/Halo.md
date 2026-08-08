@@ -21,7 +21,7 @@ Polynomial Interactive Oracle Proof: Verifier béèrè prover (algorithm) lati �
 
 ### Kò sí Àdásílẹ̀ Ìgbéga kankan
 
-zkSNARKs gbekele lori kan wọpọ itọkasi okun (CRS) bi a gbangba paramita fun fi & verifying. yi CRS gbọdọ wa ni ipilẹṣẹ tẹlẹ nipa ohun gbẹkẹle ẹgbẹ. titi laipe, elaborated ailewu multi-apakan iṣiro (MPC) bi awon ti ṣe nipasẹ Aztec nẹtiwọki & Zcash won pataki lati din awọn ewu lowo nigba yi [gbẹkẹle ṣeto ayeye]](https://zkproof.org/2021/06/30/setup-ceremonies/amp/). 
+zkSNARKs gbekele lori kan wọpọ itọkasi okun (CRS) bi a gbangba paramita fun fi & verifying. yi CRS gbọdọ wa ni ipilẹṣẹ tẹlẹ nipa ohun gbẹkẹle ẹgbẹ. titi laipe, elaborated ailewu multi-apakan iṣiro (MPC) bi awon ti ṣe nipasẹ Aztec nẹtiwọki & Zcash won pataki lati din awọn ewu lowo nigba yi [gbẹkẹle ṣeto ayeye](https://zkproof.org/2021/06/30/setup-ceremonies/amp/). 
 
 Previously Zcash's Sprout & Sapling shielded pools utilised the BCTV14 & Groth 16 zk-proving systems. While these were secure there were limitations. They were not scalable as they were tied to a single application, the "toxic waste" (remnants from cryptographic material generated during the genesis ceremony) could persist, and there was an element of trust (albeit minute) for users to deem the ceremony acceptable.
 
@@ -39,7 +39,7 @@ Halo provides users with two important assurances regarding the security of the 
 
 Ṣaaju ki o to Halo, aṣeyọri recursive ẹri akopọ beere tobi iṣiro inawo ati a gbẹkẹle ṣeto. Ọkan ninu awọn akọkọ àwárí je kan ilana ti a npe ni ** nested amortization** . Yi ọna faye gba fun recursive akopọ lilo awọn polynomial adehun eto da lori inu ọja ariyanjiyan , massively imudarasi on iṣẹ ṣiṣe ati yago fun awọn gbẹkẹlé setup.
 
-Nínú [ìwé Halo]](https://eprint.iacr.org/2019/1021.pdf), a ṣe apejuwe eto ifaramọ polynomial yii ni kikun ati pe o wa ọna iṣakojọpọ tuntun ti o wa ninu rẹ. Ọna naa gba nọmba nla ti awọn ẹri ti a ṣẹda ominira lati jẹrisi fere bi iyara bi idanwo ẹri kan ṣoṣo. Eyi nikan yoo funni ni yiyan to dara julọ si zk-SNARKs tẹlẹ lo Zcash .
+Nínú [ìwé Halo](https://eprint.iacr.org/2019/1021.pdf), a ṣe apejuwe eto ifaramọ polynomial yii ni kikun ati pe o wa ọna iṣakojọpọ tuntun ti o wa ninu rẹ. Ọna naa gba nọmba nla ti awọn ẹri ti a ṣẹda ominira lati jẹrisi fere bi iyara bi idanwo ẹri kan ṣoṣo. Eyi nikan yoo funni ni yiyan to dara julọ si zk-SNARKs tẹlẹ lo Zcash .
 
 
 ### Halo 2 (ìmọ̀lára)
@@ -62,7 +62,7 @@ Ni igbakanna, ọpọlọpọ awọn ẹgbẹ miiran n ṣe awari Awọn IOPs Po
 
 Awọn julọ daradara ti awọn wọnyi titun ilana ni PLONK, eyi ti o funni nla irọrun ninu oniru munadoko imuse da lori ohun elo-pataki aini ati pese 5x dara akoko Prover lati Sonic.
 
-[Ìsọfúnni nípa PLONK]](https://www.youtube.com/watch?v=P1JeN30RdwQ)
+[Ìsọfúnni nípa PLONK](https://www.youtube.com/watch?v=P1JeN30RdwQ)
 
 
 ### Báwo ni èyí ṣe ṣàǹfààní fún Zcash?
@@ -84,7 +84,7 @@ Ni afikun, Halo 2 wa labẹ awọn [MIT ati Apache 2.0 orisun-orisun iwe aṣẹ
 
 Lati igba ti a gbe e jade, ile-ikawe halo2 ni wọn gba ninu awọn iṣẹ bii zkEVM. O ṣee ṣe lati ṣajọ Halo 2 sinu eto ẹri fun Filecoin Virtual Machine .Filecoin nilo ọpọlọpọ awọn idaniloju iyebiye ti aaye / akoko itẹwọgba.Halo2 yoo jẹ pataki ni sisun lilo aye, titobi nẹtiwọki daradara.
 
-[Filecoin Foundation fídíò pẹ̀lú Zooko]](https://www.youtube.com/watch?v=t4XOdagc9xw)
+[Filecoin Foundation fídíò pẹ̀lú Zooko](https://www.youtube.com/watch?v=t4XOdagc9xw)
 
 Additionally, it would be highly beneficial to both the Filecoin and Zcash ecosystems if Filecoin storage payments could be made in ZEC, affording the same level of privacy for storage purchases that exists in Zcash shielded transfers. This support would add the ability to encrypt files in Filecoin storage and add support to mobile clients so that they could **attach** media or files to a Zcash encrypted memo. 
 
@@ -96,35 +96,35 @@ Additionally, it would be highly beneficial to both the Filecoin and Zcash ecosy
 
 O le ṣee lo bi orisun ti gbogbogbo idi randomness pẹlu lilo ni smati adehun ohun elo bii olori yiyan ninu Ẹri ti Igbese lori Ethereum & awọn ilana miiran.
 
-ECC, Ile-iṣẹ Filecoin Foundation, Awọn ile-iṣelọpọ Protocol Labs ati Ẹgbẹ Ethereum yoo tun ṣiṣẹ pẹlu [SupraNational]](https://www.supranational.net/), olutaja ti o ṣe amọja ni ohun elo-iṣẹ cryptography, fun GPU ati ASIC apẹrẹ agbara ati idagbasoke VDF.
+ECC, Ile-iṣẹ Filecoin Foundation, Awọn ile-iṣelọpọ Protocol Labs ati Ẹgbẹ Ethereum yoo tun ṣiṣẹ pẹlu [SupraNational](https://www.supranational.net/), olutaja ti o ṣe amọja ni ohun elo-iṣẹ cryptography, fun GPU ati ASIC apẹrẹ agbara ati idagbasoke VDF.
 
-[Awọn ẹgbẹ ti Iwadii Asiri ati Ṣiṣe iwọn]](https://appliedzkp.org/) tun n ṣe iwadi awọn ọna oriṣiriṣi ti ẹri Halo 2 le mu aṣiri ati iwọn didun pọ si fun eto ilolupo Ethereum. Ẹgbẹ yii ṣan soke si ipilẹ Ethereum, o ni idojukọ gbooro lori awọn idaniloju imọ-kukuru ati awọn primitives cryptographic. 
+[Awọn ẹgbẹ ti Iwadii Asiri ati Ṣiṣe iwọn](https://appliedzkp.org/) tun n ṣe iwadi awọn ọna oriṣiriṣi ti ẹri Halo 2 le mu aṣiri ati iwọn didun pọ si fun eto ilolupo Ethereum. Ẹgbẹ yii ṣan soke si ipilẹ Ethereum, o ni idojukọ gbooro lori awọn idaniloju imọ-kukuru ati awọn primitives cryptographic. 
 
 ## Àwọn iṣẹ́ míì tí wọ́n ń lo Halo
 
-+ [Anoma, Àdéhùn ìyípadà atomiki tí ó ní ẹ̀rọ-ìmọ́lẹ̀ tó pọ̀ lọ́nà púpọ̀ ti ń dáàbò bo àṣírí]](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
++ [Anoma, Àdéhùn ìyípadà atomiki tí ó ní ẹ̀rọ-ìmọ́lẹ̀ tó pọ̀ lọ́nà púpọ̀ ti ń dáàbò bo àṣírí](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
 
-+ [Oribis, ohun L2 zkRollup lori Cardano]](https://docs.orbisprotocol.com/orbis/technology/halo-2)
++ [Oribis, ohun L2 zkRollup lori Cardano](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
 + [Darkfi, a ikọkọ L1 zkEVM blockchain](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
 
-+ [Iyípadà, a L2 zkRollup on Ethereum]](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
++ [Iyípadà, a L2 zkRollup on Ethereum](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 
 
 **Ìkẹ́kọ̀ọ́ síwájú sí i**:
 
 [ìdásílẹ̀ sí zkp àti halo 2 - Hanh Huynh Huu](https://www.youtube.com/watch?v=jDHWJLjQ9oA)
 
-[Halo 2 pẹ̀lú Daira & Str4d - ZKPodcast]](https://www.youtube.com/watch?v=-lZH8T5i-K4)
+[Halo 2 pẹ̀lú Daira & Str4d - ZKPodcast](https://www.youtube.com/watch?v=-lZH8T5i-K4)
 
-[Ìwé Àlàyé nípa Ìmòye]](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)
+[Ìwé Àlàyé nípa Ìmòye](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)
 
 [Halo 2 Community Showcase - Ying Tong @Zcon3](https://www.youtube.com/watch?v=JJi2TT2Ahp0)
 
 **Ìwé-ìfiweranṣẹ**
 
-[Àwọn ohun àmúṣọrọ̀ Halo 2]](https://github.com/adria0/awesome-halo2)
+[Àwọn ohun àmúṣọrọ̀ Halo 2](https://github.com/adria0/awesome-halo2)
 
-[Àwọn ìwé ìròyìn Halo 2]](https://zcash.github.io/halo2/)
+[Àwọn ìwé ìròyìn Halo 2](https://zcash.github.io/halo2/)
 
-[Halo 2 github ì í ë ¤ì 'í ̧ë¦¬]](https://github.com/zcash/halo2)
+[Halo 2 github ì í ë ¤ì 'í ̧ë¦¬](https://github.com/zcash/halo2)

@@ -41,7 +41,7 @@
 
 ---
 
-## [Ìlà tí ó wà ní ìsàlẹ̀]](https://edge.app)
+## [Ìlà tí ó wà ní ìsàlẹ̀](https://edge.app)
 ![logo](/content-images/image-2024-11-28-091312254-b2389ad332.webp "Edge")
 - Àwọn Ẹrọ: Ètò alágbèéká
 - Àwọn ètò ìṣiṣẹ: Android; iOS
@@ -62,7 +62,7 @@
 
 ---
 
-## [eZcash ì í ë ¤ì 'í ¬ë¦¬]](https://blog.nerdbank.net/ezcash-app)
+## [eZcash ì í ë ¤ì 'í ¬ë¦¬](https://blog.nerdbank.net/ezcash-app)
 ![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
 - Àwọn ohun èlò: Mobile  Desktop
 - Àwọn ètò ìṣiṣẹ: Android  iOS Windows
@@ -83,7 +83,7 @@
 
 ---
 
-## [Àkàrà tí wọ́n fi ń ṣe é]](https://cakewallet.com/install/)
+## [Àkàrà tí wọ́n fi ń ṣe é](https://cakewallet.com/install/)
 ![logo](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
 - Àwọn ohun èlò: Mobile  Desktop 
 - Àwọn ètò ìṣiṣẹ́: Android  iOS Windows Linux macOS
@@ -137,7 +137,7 @@
 
 ---
 
-## [Ìgboyà]](https://brave.com/web3-privacy/)
+## [Ìgboyà](https://brave.com/web3-privacy/)
 ![logo](/content-images/image-2024-01-13-170934865-733c5d91c6.webp "Brave")
 - Àwọn ohun èlò: Ayelujara
 - Ètò ìṣiṣẹ́: Àwòrán-ìwòye (Browser)
@@ -147,7 +147,7 @@
 
 ---
 
-## [Ìdánwò Ìdìbò Metamask]](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
+## [Ìdánwò Ìdìbò Metamask](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
 ![logo](/content-images/metamask-25048569f6.webp  "Metamask")
 - Àwọn ohun èlò: Ayelujara
 - Ètò ìṣiṣẹ́: Àwòrán-ìwòye (Browser)
@@ -177,7 +177,7 @@
 
 ---
 
-## [Ìgbàgbọ́ Àpò-ìpamọ̀]](https://trustwallet.com/download)
+## [Ìgbàgbọ́ Àpò-ìpamọ̀](https://trustwallet.com/download)
 ![logo](/content-images/trustwallet-bec43acb59.webp "Trust Wallet")
 - Àwọn ohun èlò: Ẹrọ alágbèéká  Web
 - Ẹrọ isẹ: Android  iOS  Àwòrán-ìwòye
@@ -187,7 +187,7 @@
 
 ---
 
-## [Ìṣípayá]](https://www.exodus.com/zcash-wallet-zec)
+## [Ìṣípayá](https://www.exodus.com/zcash-wallet-zec)
 ![logo](/content-images/exoduscard-2f77769db0.webp "Exodus")
 - Àwọn ohun èlò: Ẹrọ alágbèéká  Dísíkòpò̩  Ìkànnì orí Íńtánẹ́ẹ̀tì
 - Ẹrọ isẹ: Android  iOS Windows Linux macOS Àwòrán aṣàwákiri
@@ -239,7 +239,7 @@
 
 ---
 
-## [Olùkọ́ni ní Ìpamọ́]](https://trezor.io/learn/a/zcash-zec)
+## [Olùkọ́ni ní Ìpamọ́](https://trezor.io/learn/a/zcash-zec)
 ![logo](/content-images/trezor1-5004075d27.webp "Trezor")
 - Àwọn ohun èlò:
 - Ètò Ṣiṣẹ́:
@@ -258,7 +258,7 @@
 
 ---
 
-## [Ojú-ìwòran náà]](https://vizor.cash/)
+## [Ojú-ìwòran náà](https://vizor.cash/)
 ![logo](/content-images/Vizorphoto-6ade2417a5.webp "Vizor")
 - Àwọn ohun èlò: Àpótí  Òǹkàran alágbèéká
 - Ètò ìṣiṣẹ́: macOS
@@ -269,7 +269,7 @@
 
 ---
 
-## [Àpò owó dúdú]](https://www.zknoir.com/)
+## [Àpò owó dúdú](https://www.zknoir.com/)
 ![logo](/content-images/Noirwallet-8589fe34e4.webp "Noir")
 - Àwọn ohun èlò: Wẹ́busaiti  Dísíkòpópù
 - Ètò ìṣiṣẹ́: Àwòrán-ìwòye (Browser)
@@ -290,7 +290,7 @@
 
 ---
 
-## [Ìsọfúnni nípa Zapp]](https://www.justzappit.xyz/app)
+## [Ìsọfúnni nípa Zapp](https://www.justzappit.xyz/app)
 ![logo](/content-images/zapp.webp "Zapp")
 - Àwọn Ẹrọ: Ètò alágbèéká 
 - Ètò Ṣiṣẹ́: Android 
@@ -312,7 +312,7 @@
 
 ---
 
-## [Zend: Zcash Wọ́léètì]](https://justzend.com/)
+## [Zend: Zcash Wọ́léètì](https://justzend.com/)
 ![logo](/content-images/zend.webp "Zend:Zcash Wallet")
 - Àwọn ohun èlò: Mobile  Desktop
 - Àwọn ètò ìṣiṣẹ́: iOS  MacOS
@@ -322,7 +322,7 @@
 
 ---
 
-## [Àpò Ìdókòwò Oníṣàn]](https://github.com/LEONINE-DAO/Nozy-wallet)
+## [Àpò Ìdókòwò Oníṣàn](https://github.com/LEONINE-DAO/Nozy-wallet)
 ![logo](/content-images/nozy.webp "Nozy Wallet")
 - Àwọn ohun èlò: Àpótí  aṣàwákiri
 - Àwọn ètò ìṣiṣẹ: Linux  iOS macOS
@@ -333,7 +333,7 @@
 
 ---
 
-## [Ìsọ̀rí ìdìbò]](https://github.com/atmospherelabs-dev/zipher-app)
+## [Ìsọ̀rí ìdìbò](https://github.com/atmospherelabs-dev/zipher-app)
 ![logo](/content-images/zipher.webp "Zipher")
 - Àwọn ohun èlò: Mobile  Desktop 
 - Àwọn ètò ìṣiṣẹ́: Android  Windows Linux (CLI àti MCP Server) iOS macOS

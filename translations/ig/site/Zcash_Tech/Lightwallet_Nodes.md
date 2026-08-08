@@ -24,8 +24,8 @@ __Efficient Synchronization__: Lightwalletd enables efficient synchronization fo
 
 ## Ndepụta nke Lightwalletd Servers ugbu a
 
-* [status.zec.rocks]](https://status.zec.rocks/)
-* [hosh.zec.rocks]](https://hosh.zec.rocks/zec)
+* [status.zec.rocks](https://status.zec.rocks/)
+* [hosh.zec.rocks](https://hosh.zec.rocks/zec)
 
 ## Ịgbanwe sava na Wallets Mobile
 

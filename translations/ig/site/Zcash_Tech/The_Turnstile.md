@@ -108,17 +108,17 @@ This is the deeper reason the turnstile matters beyond simple accounting. It is 
 
 ## Akụnụba
 
-1. [ZIP 209: machibido Out-of-nso Chain Uru Pool Balances]](https://zips.z.cash/zip-0209) - iwu nkwekọrịta n'azụ turnstile ahụ.
-2. [ZIP 211: Gbanyụọ Mgbakwunye nke Uru Ọhụrụ na Sprout Chain Value Pool]](https://zips.z.cash/zip-0211) - etu esi mechie ọdọ mmiri Sprout maka nkwụnye ego ọhụrụ.
-3. [ZIP 258: NU6.3]](https://zips.z.cash/zip-0258) - nkwalite nke na-ewebata ọdọ mmiri Ironwood ma na-eduzi uru gafee turnstile ahụ.
-4. [Njide nke Nkwado megide counterfeiting]](https://electriccoin.co/blog/turnstile-enforcement-against-counterfeiting/) - nkọwa mbụ sitere na Electric Coin Company .
-5. [Zcash Protocol Nkọwapụta]](https://zips.z.cash/protocol/protocol.pdf) - lee ngalaba na nguzozi na mbinye aka maka nkọwa zuru ezu.
-6. [Otu Akụ̀ Dị Oké Ọnụ Ahịa, Akwụkwọ Zebra]](https://zebra.zfnd.org/dev/rfcs/0012-value-pools.html) - otú a ọnụ nsuso ọ bụla ọdọ mmiri si uru itule
+1. [ZIP 209: machibido Out-of-nso Chain Uru Pool Balances](https://zips.z.cash/zip-0209) - iwu nkwekọrịta n'azụ turnstile ahụ.
+2. [ZIP 211: Gbanyụọ Mgbakwunye nke Uru Ọhụrụ na Sprout Chain Value Pool](https://zips.z.cash/zip-0211) - etu esi mechie ọdọ mmiri Sprout maka nkwụnye ego ọhụrụ.
+3. [ZIP 258: NU6.3](https://zips.z.cash/zip-0258) - nkwalite nke na-ewebata ọdọ mmiri Ironwood ma na-eduzi uru gafee turnstile ahụ.
+4. [Njide nke Nkwado megide counterfeiting](https://electriccoin.co/blog/turnstile-enforcement-against-counterfeiting/) - nkọwa mbụ sitere na Electric Coin Company .
+5. [Zcash Protocol Nkọwapụta](https://zips.z.cash/protocol/protocol.pdf) - lee ngalaba na nguzozi na mbinye aka maka nkọwa zuru ezu.
+6. [Otu Akụ̀ Dị Oké Ọnụ Ahịa, Akwụkwọ Zebra](https://zebra.zfnd.org/dev/rfcs/0012-value-pools.html) - otú a ọnụ nsuso ọ bụla ọdọ mmiri si uru itule
 
 <br/>
 
 ## Peeji ndị metụtara ya
 
-- [Nchekwa ọdọ mmiri ndị e chebere echebe]](https://zechub.wiki/using-zcash/shielded-pools) - etu azụmahịa Zcash si echekwa ihe niile gbasara ya n'onwe ha.
+- [Nchekwa ọdọ mmiri ndị e chebere echebe](https://zechub.wiki/using-zcash/shielded-pools) - etu azụmahịa Zcash si echekwa ihe niile gbasara ya n'onwe ha.
 - [Halo](https://zechub.wiki/zcash-tech/halo) - usoro ihe akaebe n'azụ ọdọ mmiri Orchard .
-- [Nwelite Ntanetị]](https://zechub.wiki/start-here/network-upgrades) - otu Zcash si eme mgbanwe dịka ọdọ mmiri ọhụrụ echedoro.
+- [Nwelite Ntanetị](https://zechub.wiki/start-here/network-upgrades) - otu Zcash si eme mgbanwe dịka ọdọ mmiri ọhụrụ echedoro.

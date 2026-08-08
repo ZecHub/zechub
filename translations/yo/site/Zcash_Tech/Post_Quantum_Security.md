@@ -258,6 +258,6 @@ Fún àwọn tí ó ṣẹ̀ṣẹ̀ bẹ̀rẹ̀, èrò pàtàkì náà kò ṣ
 - [NIST: Ìlànà àkọ́kọ́ tí wọ́n ṣe tán nípa àdàkọ lẹ́yìn-ọ̀rọ̀-ìmọ̀-nǹkan](https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards)
 - [NIST Post-Quantum Cryptography Project] Àkọsílẹ̀ àyọrísí àwọn ìṣẹ̀lẹ̀ tó wáyé](https://csrc.nist.gov/projects/post-quantum-cryptography)
 - [ZIP 2005: Orchard Quantum Recoverability] Àkọsílẹ̀ tí wọ́n fi ń ṣe àyẹ̀wò](https://zips.z.cash/zip-2005)
-- [Ìpolongo Tachyon]](https://tachyon.z.cash/)
+- [Ìpolongo Tachyon](https://tachyon.z.cash/)
 - [Awọn alaye ti Ilana Zcash](https://zips.z.cash/protocol/protocol.pdf)
 - [Ìwé Halo 2](https://zcash.github.io/halo2/)

@@ -1,12 +1,12 @@
 # Àwọn Igi Merkle: Bí Blockchain ṣe máa ń rántí gbogbo nóòtì
 ##### Ìwádìí Àkọ́kọ́ láti [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![ì í ì °ë¦¬í ë ¤]](/content-images/image-19-cfbdcf8f78.webp)
+![ì í ì °ë¦¬í ë ¤](/content-images/image-19-cfbdcf8f78.webp)
 
 ### Fífi àràádọ́ta ọ̀kẹ́ àwọn àdéhùn ṣe àkópọ̀ nínú àmì ìka kékeré kan
 
 > **Series:** *Zcash from First Principles* . **Article 4 . Merkle Trees** (Àdàkọ:Ojúewé ojúewé)
-> A tẹ̀lé [Àpilẹ̀kọ 3 (ìfipamọ́ àti àwọn àdéhùn) ]](article-3-hashing-commitments.md)Tó o bá mọ ohun tí àmì ìka àti àdéhùn jẹ́, o ti ṣe tán.
+> A tẹ̀lé [Àpilẹ̀kọ 3 (ìfipamọ́ àti àwọn àdéhùn) ](article-3-hashing-commitments.md)Tó o bá mọ ohun tí àmì ìka àti àdéhùn jẹ́, o ti ṣe tán.
 > **What you'll leave with:** an intuitive, correct picture of Merkle trees, how to prove membership without revealing which item you mean, and exactly how this becomes Zcash's note commitment tree.
 
 [Àpilẹ̀kọ 0](article-0-shielded-transaction.md) described a "public board" that holds every note ever created and only ever grows. By now you can guess what's pinned to it: **commitments** (Article 3), the sealed envelopes. But a real board would hold *hundreds of millions* of them. How does the network store that, verify it, and let you prove your envelope is on the board without pointing to it? The answer is one of the most elegant structures in computer science: the **Merkle tree.**
@@ -34,7 +34,7 @@ Fojú inú wo ìdíje kan tí wọ́n ti ń fi ẹ̀kúnrẹ́rẹ́ bọ́ àwọ
 - Ẹ so àwọn òbí náà pọ̀, kẹ́ ẹ sì fi àwọn méjèèjì pa pọ̀, àti bẹ́ẹ̀ lọ.
 - Ẹ máa báa lọ títí tí ẹ̀rọ kan ṣoṣo yóò fi dé orí òkè.
 
-![ì í ì °ë¦¬í ë ¤]](/content-images/image-20-f5d57e425a.webp)
+![ì í ì °ë¦¬í ë ¤](/content-images/image-20-f5d57e425a.webp)
 
 Ohun kan ṣoṣo ti o ṣe pataki julọ ni o tẹle taara lati ipa iṣan omi (Abala 3):
 
@@ -77,7 +77,7 @@ step 2:  H(hAB , hCD)      = ROOT?     (combine with the uncle)
 
 Tí a bá kà á sí ojúlówó: èyí ń fún wa ní `1b3faa3fcc5e...`, èyí tí ó bá gbòǹgbò náà mu.** A ti fi hàn pé ewé náà wà nínú igi náà.
 
-![ì í ì °ë¦¬í ë ¤]](/content-images/image-21-d9e5d6eaf6.webp)
+![ì í ì °ë¦¬í ë ¤](/content-images/image-21-d9e5d6eaf6.webp)
 
 Ohun méjì ló mú kí èyí lágbára:
 
@@ -99,7 +99,7 @@ Díẹ̀ lára àwọn kókó pàtàkì:
 - **ìjìnlẹ̀ tí ó dúró ṣinṣin.** àwọn igi tí a fi ààbò Zcash ṣe ní ìjìnlẹ̀ **32**, èyí tó túmọ̀ sí pé wọ́n lè dúró títí di `2^(32)` (Ó lé ní bílíọ̀nù mẹ́rin) owó.
 - **ZK-friendly hashing.** Igi naa ko ni itumọ pẹlu SHA-256. Sapling ṣe igi igi pẹlu **Pedersen hashes** ati Orchard lo **Sinsemilla** (meji lati Abala 3), nitorina ni igbega ọmọ ẹgbẹ jẹ din owo lati fihan inu iyipo kan.
 
-![ì í ì °ë¦¬í ë ¤]](/content-images/image-22-518354b8d5.webp)
+![ì í ì °ë¦¬í ë ¤](/content-images/image-22-518354b8d5.webp)
 
 ### Ohun kan tí igi kò lè ṣe: ó máa ń náwó ní ìlọ́po méjì
 

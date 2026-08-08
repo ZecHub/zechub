@@ -14,7 +14,7 @@ Enwere ọtụtụ ngwaọrụ PGP dị iche iche, mana ụfọdụ n'ime ndị 
 * **[PGPMail](https://www.openpgp.org/software/)**: PGPMail bụ onye ahịa PGP email nke dị maka Windows na macOS.
 * ** [Envelopu ozi](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope bụ free na-emeghe-isi iyi PGP ndọtị maka Gmail na Thunderbird.
 
-[Ngwaọrụ PGP]](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
+[Ngwaọrụ PGP](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
 
 ## Ụzọ Isi Mepụta Igodo
 
@@ -36,7 +36,7 @@ Once you have generated a PGP key pair, you can use it to encrypt and decrypt em
 
 Email ahụ ezoro ezo agaghị enwe ike ịgụ onye ọ bụla na-enweghị igodo nzuzo nke onye nnata. Iji decrypt email ahụ, onye natara ya nwere ike iji igodo onwe ya mepee email ahụ.
 
-[Email PGP]](/content-images/dafb761d-f399-40c9-9323-526ba3bd0bc4-98503ad98b.webp)
+[Email PGP](/content-images/dafb761d-f399-40c9-9323-526ba3bd0bc4-98503ad98b.webp)
 
 ## Omume Kasị Mma
 
@@ -61,11 +61,11 @@ Ndị a bụ ụfọdụ usoro kachasị mma maka iji PGP:
 * Pịa na bọtịnụ "Encrypt".
 * E-mail ahụ ga-abụ nke ezoro ezo.
 
-[Encrypt Email]](/content-images/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e-6edd4a03ea.webp)
+[Encrypt Email](/content-images/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e-6edd4a03ea.webp)
 
 ---
 
-[Encryption Flow]](/content-images/da1499e9-fc87-46b2-93ed-28d43cf1fd86-86fdc87d10.webp)
+[Encryption Flow](/content-images/da1499e9-fc87-46b2-93ed-28d43cf1fd86-86fdc87d10.webp)
 
 ## Otu esi edozi ozi-e na PGP
 
@@ -76,4 +76,4 @@ Ndị a bụ ụfọdụ usoro kachasị mma maka iji PGP:
 * Pịa na bọtịnụ "Decrypt".
 * A ga-emechi ozi email ahụ.
 
-[Kọwaa Email]](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)
+[Kọwaa Email](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)

@@ -14,14 +14,14 @@ BTCPay Server allows online businesses to accept cryptocurrency payments directl
 - [Ebee Ka A Na-echekwa Ego? Ònye Na-achịkwa Mkpịsị Ugodi Onwe Onye?](#Where-Are-Funds-Stored-Who-Controls-the-Private-Keys)
 - [Otu esi edozi BTCPay Server maka ịnakwere Zcash](#How-to-Set-Up-BTCPay-Server-for-Accepting-Zcash)
   - [Itinye BTCPay Server na Nkwado Zcash](#Deploying-BTCPay-Server-with-Zcash-Support)
-  - [Running Your Own Zcash Full Node (Zebra + Lightwalletd) ]](#Running-Your-Own-Zcash-Full-Node)
-  - [Ijikọ na mpụga lightwalletd Node (Omenala nhazi) ]](#Connecting-to-an-External-Lightwalletd-Node)
+  - [Running Your Own Zcash Full Node (Zebra + Lightwalletd) ](#Running-Your-Own-Zcash-Full-Node)
+  - [Ijikọ na mpụga lightwalletd Node (Omenala nhazi) ](#Connecting-to-an-External-Lightwalletd-Node)
   - [Ịnweta BTCPay Server n'ụlọ na Cloudflare Tunnel](#Hosting-BTCPay-Server-at-Home-with-Cloudflare-Tunnel)
 - [Ịhazi Zcash Plugin na BTCPay Server Web Interface](#Configuring-the-Zcash-Plugin-in-the-BTCPay-Server-Web-Interface)
 - [Ijikọta BTCPay Server na weebụsaịtị gị](#Integrating-BTCPay-Server-with-Your-Website)
   - [Njikọ API](#API-Integration)
     - [Ịmepụta API Key](#Generating-an-API-Key)
-    - [Ihe Nlereanya: Ịmepụta akwụkwọ ọnụahịa site na API]](#Example-Creating-an-Invoice-via-API)
+    - [Ihe Nlereanya: Ịmepụta akwụkwọ ọnụahịa site na API](#Example-Creating-an-Invoice-via-API)
     - [Ịtọlite a Webhook](#Setting-Up-a-Webhook-Optional)
   - [Njikọ CMS](#CMS-Integration)
   - [Payment Button ma ọ bụ Iframe](#Payment-Button-or-Iframe-No-CMS-or-API-Needed)
@@ -475,7 +475,7 @@ Usoro a na-ezere nnyefe ọdụ ụgbọ mmiri ma zoo ezigbo adreesị IP gị n
 
 ### Nzọụkwụ 1: Wụnye Cloudflare Tunnel
 
-1. Mepụta akaụntụ na [cloudflare.com]](https://www.cloudflare.com) ma tinye ngalaba gị.
+1. Mepụta akaụntụ na [cloudflare.com](https://www.cloudflare.com) ma tinye ngalaba gị.
 2. Na ihe nkesa gị, wụnye Cloudflare Tunnel:
 
 ```
@@ -537,7 +537,7 @@ Mgbe emechara ọwara ahụ, Cloudflare ga-agbakwunye ihe ndekọ CNAME DNS maka
 
 Ọ bụrụ na ọ pụtaghị na akpaghị aka, tinye ya na aka:
 
-1. Gaa na gị [Cloudflare Dashboard]](https://dash.cloudflare.com/)
+1. Gaa na gị [Cloudflare Dashboard](https://dash.cloudflare.com/)
 2. Na-agagharị na ngalaba ** DNS **
 3. Tinye ihe ndekọ CNAME ọhụrụ:
    - ** Aha **: `btcpay`
@@ -887,11 +887,11 @@ Anyị na-achọ ka ị nwee ihe ịga nke ọma n'ịchọpụta usoro okike BT
 * [BTCPay FAQ](https://docs.btcpayserver.org/FAQ/)
 * [BTCPay Server GitHub Ebe nchekwa](https://github.com/btcpayserver/btcpayserver)
 * [BTCPay Server Mainnet Demo](https://mainnet.demo.btcpayserver.org/login?ReturnUrl=%2F)
-* [Zcash Plugin maka BTCPay (GitHub) ]](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
+* [Zcash Plugin maka BTCPay (GitHub) ](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
 * [Zcash Plugin Ntinye Ntuziaka](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
 * [Custom zcash-lightwalletd.custom.yml Ihe Nlereanya](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml)
-* [Lightwalletd Docker mepụta faịlụ (Zebra) ]](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
-* [BTCPay API Key Docs (Greenfield API) ]](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
+* [Lightwalletd Docker mepụta faịlụ (Zebra) ](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
+* [BTCPay API Key Docs (Greenfield API) ](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
 * [Mepụta Ọwara Igwe ojii](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
-* [Ndepụta ndakọrịta nke obere akpa Zcash (ZecHub) ]](https://zechub.wiki/wallets)
-* [Zebra + Lightwalletd na Raspberry Pi 5 (ZecHub) ]](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)
+* [Ndepụta ndakọrịta nke obere akpa Zcash (ZecHub) ](https://zechub.wiki/wallets)
+* [Zebra + Lightwalletd na Raspberry Pi 5 (ZecHub) ](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)

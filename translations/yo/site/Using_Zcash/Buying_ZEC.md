@@ -28,13 +28,13 @@ Gemini jẹ paṣipaarọ cryptocurrency ti a ṣe ilana, apamọwọ, ati olut�
 
 BitcoinVN is a non-custodial instant exchange that supports shielded (z-address) deposits and withdrawals for ZEC — one of very few exchanges globally with full z-address support. Operating since 2014, you can swap BTC, ETH, USDT, and other cryptocurrencies for ZEC directly to your shielded wallet.
 
-**[Flyp.me]](https://flyp.me)**
+**[Flyp.me](https://flyp.me)**
 
 Flyp.me is a no sign-up crypto exchange. It was one of the safest and most private ways to exchange 30+ cryptocurrencies straight to your wallet. You can buy ZEC with other cryptocurrencies.
 
 ## Awọn paṣipaarọ ti o ṣe atilẹyin fun awọn yiyọ kuro lasan
 
-Pupọ awọn paṣipaarọ pataki ṣe atilẹyin Zcash. Wo nibi fun atokọ alaye: [nibi]](https://zechub.wiki/using-zcash/custodial-exchanges).
+Pupọ awọn paṣipaarọ pataki ṣe atilẹyin Zcash. Wo nibi fun atokọ alaye: [nibi](https://zechub.wiki/using-zcash/custodial-exchanges).
 
 
 **[Ìlànà owó](https://www.coinbase.com)**
@@ -53,14 +53,14 @@ Pupọ awọn paṣipaarọ pataki ṣe atilẹyin Zcash. Wo nibi fun atokọ al
 ## Awọn paṣipaarọ Aladani ti o ṣe atilẹyin awọn yiyọ kuro lasan
 
 Àwọn àdàkọ wọ̀nyí ń ṣe àtìlẹ́yìn fún àwọn ìsínwó tí ó ṣe kedere. Èyí túmọ̀ sí wípé nígbàtí o bá yọ ZEC kúrò nínú àpamọ́ rẹ, o ní láti fi ránṣẹ́ sí adirẹsi rẹ tó ṣe kedere, àdírẹ́sì ZEC tí gbogbo ènìyàn mọ̀. 
-Tẹ [bíi]](https://zechub.wiki/using-zcash/non-custodial-exchanges) fún mi ní kúlẹ̀kúlẹ̀.
+Tẹ [bíi](https://zechub.wiki/using-zcash/non-custodial-exchanges) fún mi ní kúlẹ̀kúlẹ̀.
 
 ![ì í ì](/content-images/bfe2e9cf-2def-4593-b790-152e14b23da3-f94f97c7e6.webp)
 
 
 Nigbati o ba n ṣe eyi, a ṣeduro lilo ọkan ninu awọn apamọwọ wọnyi [](https://zechub.wiki/wallets). 
 
-[ìkànnì alágbèéká]](/content-images/8b7618f5-dec6-4e6b-9804-db75be5c1e2f-14fa53d3bd.webp)
+[ìkànnì alágbèéká](/content-images/8b7618f5-dec6-4e6b-9804-db75be5c1e2f-14fa53d3bd.webp)
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">

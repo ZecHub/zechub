@@ -13,11 +13,11 @@ Mmoa a wɔde ma ahobanbɔ ho nneɛma sesa mpɛn pii, enti ɔfasu biara wɔ ne da
 | Processor | Custody | Shielded ZEC | Self-host | Merchant fee | Regions / KYC | Verified |
 |:--|:--|:--|:--|:--|:--|:--|
 [CipherPay] Woyɛ ɔkwampaefo?](https://www.cipherpay.app)  Non-custodial. Yes, Orchard via Unified Addresses. Yes open source 1% per payment, free if self hosted. No KYC, regions not stated 2026-07-29 (Ɔkwan a wɔfa so de di dwuma no yɛ: "Ɛnyɛ ahobanbɔ" anaa "Egyina hɔ ma nnipa")
-[BTCPay Servers]](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)  Non-custodial, view key only. Yes, shielded only (Sapling, Orchard, UA)  Open source. None, you pay network fees only. Global, no KYC 2026-07-29  W'atumi ayi w'abodin afiri wo fonkɔn so anaa wode adi dwuma wɔ aberɛ a wonhyehyɛ sika biara ma obi foforɔ?
+[BTCPay Servers](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)  Non-custodial, view key only. Yes, shielded only (Sapling, Orchard, UA)  Open source. None, you pay network fees only. Global, no KYC 2026-07-29  W'atumi ayi w'abodin afiri wo fonkɔn so anaa wode adi dwuma wɔ aberɛ a wonhyehyɛ sika biara ma obi foforɔ?
 [ZGo] Kyɛ no, yɛ ntɛm!](https://zgo.cash/) : Non-custodial. Yes, Sapling and Orchard. No, hosted service. Prepaid session, price not published. KYC no stated, regions not stated. 2026-07-29 (Mmm) mmm! Mmra a w'atumi adi dwuma wɔ wo ho so na wode di dwuma bere biara; ɛnnyɛ sɛ wobɛtwe obi afi adwuma mu anaa wobɛte wɔn nka sɛ wɔyɛ adwumaden bi ntia.
 [Flexa] Ɔyɛ ɔmansin sohwɛfo.](https://flexa.co/) 客户自保,商家以法币结算.客户支付受的部分没有文件记录.每次不计1% 的收费率.美国和 37个 SEPA国家,欧盟 ZEC未经确认 2026-07-29
-[NEA ƐYƐ PAASADE]](https://nowpayments.io/supported-coins/zcash-payments) de no to hɔ ma obi biara. Nnyɛ, address nko na ɛyɛ trɛmaa. Ɛnsԑ 0.5%, anaa 1% wɔ adane mu. Mmerε nyinaa gye sε w'ama kwan a, KYC nni hͻ 2026-07-29
-[Plisio]](https://plisio.net/accept-zcash) nfa ho no, wͻbεyε aguade a εno so nndi mu. Wonnkyerεw dεεm biara fa API 0.5%, 1.5% white label No KYC to receive 2026-07-29
+[NEA ƐYƐ PAASADE](https://nowpayments.io/supported-coins/zcash-payments) de no to hɔ ma obi biara. Nnyɛ, address nko na ɛyɛ trɛmaa. Ɛnsԑ 0.5%, anaa 1% wɔ adane mu. Mmerε nyinaa gye sε w'ama kwan a, KYC nni hͻ 2026-07-29
+[Plisio](https://plisio.net/accept-zcash) nfa ho no, wͻbεyε aguade a εno so nndi mu. Wonnkyerεw dεεm biara fa API 0.5%, 1.5% white label No KYC to receive 2026-07-29
 [Binance Pay] Wo de, yɛrebɔ mmɔden sɛ yɛbɛma wo nsa aka sika no.](https://pay.binance.com/en) | Custodial, off-chain | No, shielded deposits rejected | No | Free wallet to wallet, 0.8% payouts | Geo-restricted, ZEC delisted in FR, ES, IT, PL | 2026-07-29 |
 
 </div>
@@ -55,7 +55,7 @@ Ade baako a ɛsɛ sɛ yɛkae ne sε, ɔhwεsofoɔ bi de sika biara a woatua no n
 ## [CipherPay](https://www.cipherpay.app) <img src="/content-images/cipherpay-mark.png" alt="CipherPay logo" class="processor-logo" />
 - **Nkɔanim no su**: Akwankyerɛ (Orchard, via Unified Addresses)
 - Description: Gye Zcash wɔ simma kakraa bi mu, no-custodial, zero buyer data, no middleman.
-- **URL**: [CipherPay]](https://www.cipherpay.app)
+- **URL**: [CipherPay](https://www.cipherpay.app)
 <img src="/content-images/cipherpay-mark.png" alt="CipherPay logo" width="200" hidden />
 
 Wode CipherPay kyɛfa a wohwɛ no nkutoo ma, enti wotua sika kɔ w'ankasa wallet mu tẽẽ na ɛnkora sika biara. Ɛde address foforo di dwuma wɔ ka biara ho.
@@ -75,7 +75,7 @@ Nneɛma mmienu bi wɔ hɔ a ɛsɛ sɛ yɛsusu ho. Wodee no February 2026 na w'ak
 ## [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) <img src="/content-images/btcpay-mark.png" alt="BTCPay Server logo" class="processor-logo" />
 - **Support Type**: Shielded only (Sapling, Orchard, Unified Address) - Abɔdin a wɔhwɛ so no fa mu.
 - **Nkyerɛmu**: BTCPay Server yɛ aberɛ a wobue, self-hosted cryptocurrency payment processor.
-- **URL**: [BTCPay Somadewa no]](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
+- **URL**: [BTCPay Somadewa no](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
 <img src="/content-images/btcpay-mark.png" alt="BTCPay Server logo" width="200" hidden />
 
 N'adehye akyi no yɛ nea wohwɛ so nkutoo na enni nkodi anaa ahintasɛm biara, enti sɛ woboa obi a wɔagye ne ho afiri mu mpo a ontumi mfa wo sika nni dwuma.
@@ -115,7 +115,7 @@ ZGo tɔn prepaid sessions na ɛhia Pro session ma WooCommerce, nanso ɛnnɛ yɛ 
 ## [Flexa](https://flexa.co/) <img src="/content-images/flexa-mark.png" alt="Flexa logo" class="processor-logo" />
 - **Nkɔboa su: Ɔtɔfoɔ no de ne sika to ban, ɔgyefo fa a ɔnni nkrataa biara.
 - **Nkyerɛmu**: Flexa yɛ akatua ho kwan a ɛma n'adwumakuo de sika di dwuma wɔ baabiara, te sɛ Zcash.
-- *URL*: [Flexa]](https://flexa.co/)
+- *URL*: [Flexa](https://flexa.co/)
 <img src="/content-images/flexa-mark.png" alt="Flexa logo" width="200" hidden />
 
 Flexa is not a checkout gateway, so it is not a swap for the others here. The customer opens a Flexa-enabled wallet such as Zodl, shows a one-time code, and the shop scans it. There is no ZEC invoice and no e-commerce plugin.

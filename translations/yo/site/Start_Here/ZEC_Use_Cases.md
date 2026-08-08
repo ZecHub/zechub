@@ -22,6 +22,6 @@ Awọn eniyan le lo aaye akọsilẹ ni iṣowo Z-Z ti o ni aabo lati firanṣ�
 
 [Awọn ti paroko Memo Field](https://electriccoin.co/blog/encrypted-memo-field/)
 
-[Fi Owó Zcash Sanwó]](https://z.cash/pay-with-zcash/)
+[Fi Owó Zcash Sanwó](https://z.cash/pay-with-zcash/)
 
 [Ibo ni láti fi Zcash sanwó](https://paywithz.cash/)

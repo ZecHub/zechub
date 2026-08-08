@@ -150,7 +150,7 @@ Zebra na Zallet ni kwa ujumla nyepesi juu ya CPU wakati wa kuanzisha kuliko kuku
 
 ## Rasilimali za ziada
 - [Kitabu Zebra](https://zebra.zfnd.org)  hati rasmi Zebra
-- [Kitabu cha Zallet]](https://zcash.github.io/wallet)  hati rasmi za Zallet
+- [Kitabu cha Zallet](https://zcash.github.io/wallet)  hati rasmi za Zallet
 - [zcashd End-of-Support notice](https://z.cash/support/zcashd-deprecation)
 
 ---

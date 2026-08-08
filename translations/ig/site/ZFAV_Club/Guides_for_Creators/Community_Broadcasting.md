@@ -26,7 +26,7 @@ The VOD.Ninja interface is simple, just open the VDO.Ninja in your mobile device
 
 ## Ịkpọ oku obodo na VDO.Ninja
 
-Bido site na ịga n'ebe a: [VDO.ninja (Ninja) [ihe nkiri]](http://VDO.ninja) na ihe nchọgharị weebụ gị n'elu desktọọpụ / laptọọpụ.
+Bido site na ịga n'ebe a: [VDO.ninja (Ninja) [ihe nkiri](http://VDO.ninja) na ihe nchọgharị weebụ gị n'elu desktọọpụ / laptọọpụ.
 
 <a href="">
     <img src="/content-images/_unavailable.svg" alt="" width="300" height="400"/>
@@ -79,7 +79,7 @@ Nke a na-adabere n'ụzọ dị ukwuu na ebe ị ga - aga. Dịka ọmụmaatụ
 - Audio tụlee mgbe eji OBS na ngwaike dị nwayọọ ma na-eme nyocha akwụkwọ ndụ akwụkwọ ndụ.
 
 Jiri Hardware encoder ma ọ bụ jiri iyi ubi
-[https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard](https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard) or [RiverSide.FM [Obi ụtọ]](http://riverside.fm/)
+[https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard](https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard) or [RiverSide.FM [Obi ụtọ](http://riverside.fm/)
 
 ## Ihe e dere na ya
 

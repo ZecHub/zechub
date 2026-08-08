@@ -2,7 +2,7 @@
 bipụtara: 2023-12-07
 ---
 
-[CBDC]](/content-images/cbdc-dfb8827faa.webp)
+[CBDC](/content-images/cbdc-dfb8827faa.webp)
 # Igosipụta akụkụ gbara ọchịchịrị: Ịgagharị na Central Bank Digital Currency (CBDC) Odyssey n'etiti Onyunyo Ego
 Site na: [**Abhishek Tiwari**]
 
@@ -37,7 +37,7 @@ Implementing CBDCs becomes our hero's quest, a journey fraught with technical, r
 __China: Digital Currency Electronic Payment (DCEP)__
 
 
-[DCEP]](/content-images/dcep-featured-c278cf0ef6.webp)
+[DCEP](/content-images/dcep-featured-c278cf0ef6.webp)
 
 In the dystopian streets of China, the Digital Currency Electronic Payment (DCEP) unfolds not as a marvel, but as a harbinger of societal control with its own set of ominous financial shadows. Everyday transactions pulse with life, courtesy of programmable money and the allure of offline capabilities.
 
@@ -62,7 +62,7 @@ The U.S. has a complex history of financial regulation, with frequent debates on
 
 __Sweden: E-Krona__
 
-[E-Krona]](/content-images/ekrona_logo-4596e38b72.webp)
+[E-Krona](/content-images/ekrona_logo-4596e38b72.webp)
 
 As we traverse the desolate landscapes of Sweden, the E-Krona unfolds as a narrative of adaptability, but not without its financial pitfalls. It's a digital evolution focused on maintaining access to currency in a cashless society, portraying a society devoid of the familiar comforts of physical cash.
 
@@ -74,7 +74,7 @@ Sweden's past record of financial innovation is overshadowed by the potential ch
 
 __European Union: Mpaghara Euro CBDC__
 
-[Ebe Eurozone nọ]](https://upload.wikimedia.org/wikipedia/commons/c/cb/Logo_European_Central_Bank.svg)
+[Ebe Eurozone nọ](https://upload.wikimedia.org/wikipedia/commons/c/cb/Logo_European_Central_Bank.svg)
 
 Our journey concludes in the mosaic of nations forming the European Union, where the Eurozone CBDC seeks not to complement physical cash, but to forge a path of control and conformity in a bleak financial landscape.
 
@@ -100,7 +100,7 @@ Financial inclusion, once a beacon of hope, faces the shadows of potential discr
 ## Akụrụngwa: Map maka Digital Explorer
 
 Maka ndị na-abanye n'ókèala a na-amaghị nke CBDCs, ihe onwunwe na-aghọ kompas gị.
-1. Bank for International Settlements ([BIS]](https://www.bis.org/search/index.htm?globalset_q=cbdc))
+1. Bank for International Settlements ([BIS](https://www.bis.org/search/index.htm?globalset_q=cbdc))
 2. Ụlọ ọrụ International Monetary Fund ([IMF](https://www.imf.org/en/About))
 3. Akwụkwọ nyocha ([akwụkwọ](https://deliverypdf.ssrn.com/delivery.php?ID=998105006000066124067099122099097121053040051018055094125101013098095097071065120123041031008002042043044095080119019124023085025010021006031087083026113098095102030064008046091121005002106021127103088122029021016098108064080120068125070088112093101069&EXT=pdf&INDEX=TRUE))
 4. Akwụkwọ akụkọ agụmakwụkwọ ([akwụkwọ akụkọ](https://www.bis.org/publ/work976.pdf))
