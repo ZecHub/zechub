@@ -2,336 +2,336 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Mmeae a Wɔde Di Dwuma ZEC
+# Mmeae a Wobɛtumi De ZEC Atotɔ Ade wɔ Hɔ
 
-Mprempren, bere a surveillance (a asɛmfua *transparency kata so) reyɛ* da no nhyehyɛe titiriw ma aban ahorow ne sikasɛm wiase no, ɛte sɛ nea wɔmfa kokoamsɛm, sɛ́ onipa hokwan no nyɛ hwee.
+Ɛnnɛ, bere a anibuei (a wɔde asɛmfua *transparency) akata so no* abɛyɛ da biara ade titiriw wɔ aban ne sikasɛm wiase mu no, ɛte sɛ nea wobu ahofadi te sɛ onipa kyɛfa animtiaa.
 
-Nanso, ɛdefa sikasɛm akwan foforo ho no, nnipa bi wɔ hɔ -te sɛ Zcash- a wɔreyɛ adwuma de ahwɛ wo ahobammɔ ne wo kokoam nsɛm so, esiane sɛ ɛho hia ara kwa nti-.
+Nanso, ɛfa sikasɛm akwan foforɔ ho no, nnipa bi te sɛ Zcash reyɛ adwuma de ahwɛ wo ahobammɔ ne w'ahobanbɔ so yie esiane sɛ ɛho hia nti.
 
-Zcash a ɛwɔ ZEC no de kokoamsɛm ne ahobammɔ ho nneɛma a ɛkɔ anim nyinaa ma. Nanso, sɛnea ɛyɛ anammɔn a edi kan koraa a wɔfa so gye wɔn tom na wɔde di dwuma no fi ase wɔ nokwasɛm a ɛyɛ sɛ nnwuma pii (ankasa), sotɔɔ ahorow ne nnipa a wɔde nnwuma ma no regye **ZEC** atom sɛ ɔkwan a wɔfa so tua ka., 
+Zcash a wͻde ZEC di dwuma no de ahobanbɔ ne bεyεn nsεm nyinaa ma. Nanso, sε εno yε anammɔn kane koraa ama agyinatuo na fa adi kan no, asεm pii (a ankasa) nnwuma, sotɔɔ ahorow ne nnipa a wɔkyerε ɔsom mu kwan re gye **ZEC** tom sɛ akatua akwanmu". 
 
-# Adɛn nti na ebia adwumakuw / ɔsom bi bɛpɛ sɛ wogye $ZEC?
+# Dԑn nti na adwumakuw bi / ɔsom adwuma betumi agye $ZEC?
 
-Sɛ wowɔ adwumakuw bi anaa wotɔn ade anaa dwumadie biara a, ebia wobɛpɛ sɛ wo nsa ka Zcash. Adɛn? Ɛha yi, saa nteaseɛ ne mfasoɔ ahodoɔ no bi a wobɛtumi abu no sɛ ɛyɛ wo kwan a wobɛfa so tua ka. 
+Sɛ wowɔ adwuma anaa wode biribi to gua a, ebia wobɛpɛ sɛ wunya Zcash. Deɛ ntia? Ɛha yi mu no, nsɛm pii ne mfasoɔ bi wɔ hɔ a wobɛtumi afa so ayɛ wo ka ho nhyehyɛeɛ. 
 
-- **Ma kokoam nsɛm nkɔ anim. |** Nea ɛnte sɛ akwan a wonim no yiye na ɛyɛ atetesɛm a wɔfa so tua ka no, Zcash, ɛnam zk-SNARKs so, ma wo nnwuma yɛ nea ahobammɔ wom na ɛyɛ kokoam denam ahobammɔ a wɔbɔ (ɛnyɛ nea ɔmanfo nhu) wɔ blockchain no so na data a wɔkyerɛ wɔ nkitahodi mu no fa wɔn nyinaa ho (na wotumi hu) ma wɔn baanu nyinaa, nea ɔde kɔma ne nea ogye nkutoo.
-- **Ɔkwan a wɔfa so tua ka ntɛmntɛm na ɛho ka sua. |** ZEC nkitahodi yɛ tẽẽ na enhia nnipa foforo biara (te sɛ sikakorabea ahorow), na ɛma bere a wɔde di dwuma no yɛ tiaa na ɛka a wɔbɔ no sua sen akwan a wɔfa so tua sika a wɔde di dwuma wɔ amanne kwan so no, enti wo werɛ betumi afi Paypal. Seesei wunim sɛ ɛno nyɛ *ɛfata* option.
-- **Ma wo adetɔfoɔ dodoɔ nkɔ soro.** | Ɛdenam ZEC a wubegye so no, wo adwumakuw / ade anaa adwuma no betumi atwetwe nnipa a wɔpɛ sɛ wɔde crytocurrencies di dwuma no botae a ɛtrɛw.
-- **Hyɛ nkuran na ma adetɔfo nokwaredi nkɔ anim. |** Ɛdenam tapping wɔ gua so fã yi mu na woma nkurɔfo hu sɛ wo beae no regye ZEC atom so no, eyi betumi ama woanya mfaso ne nea wopɛ wɔ wɔn a wɔtaa yɛ ne wɔn a wobetumi atɔ no mu, a wɔbɛdan akɔ wo nkyɛn bere biara a ɛsɛ sɛ wɔde wɔn ZEC di dwuma.
-- **Ma nsonsonoeɛ no yɛ *innovative*. |** Sɛ woresi gyinae sɛ wobɛgye ZEC wɔ wo sotɔɔ, adwuma mu, anaa mpo wode ɔsom bi bɛma sɛ taksikafoɔ a, wobɛtumi de wo ho ahyɛ wɔn a wɔyɛ ma sikasɛm, sikatua ne anigyeɛ ahodoɔ no mu.
+- **Enhance privacy. |** Unlike well-known and traditional payment methods, Zcash, thanks to zk-SNARKs, keeps your transactions safe and private by being shielded (not publicly visible) on the blockchain and data implied in transactions are relevant (and visible) to both, sender and receiver only.
+- **Nneɛma a wobɛyɛ wɔ ZEC no yɛ nea obi ankasa bɛyɛ, na wonhia nnipa foforo biara (te sɛ bank) ma enti ɛgye bere kakra ansa woatumi ayɛ bi ne ka pii sen PayPal. Seesei woahu sɛ ɛnyɛ ɛno *yԑ ade pa* koraa.
+- ** W'anya w'adwumamfo no.**. Wofa ZEC a, wo adwumakuw/ afidie anaa adwuma betumi atwe nnipa bebree aba wɔn ho mu na wɔpɛ sɛ wɔde cryptocurrency di dwuma.
+- **Promote and enhance customer loyalty. |** By tapping in this market segment and let people know your place is accepting ZEC, this can give you an advantage and preference among usual and potential customers, who would turn to you any time they need to spend their ZEC.
+- **Ma nsonsonoe no yɛ *nnwomdefo.*** Sɛ worepaw sɛ wobɛgye ZEC wɔ w'adwumam, adwuma mu anaa mpo wode wo ho rehyɛ adwumakuo bi a wɔyɛ taxi drivers nsa a, wobɛtumi anya nnipa pii a wɔn ani gye sikasɛm ne akatua ahodoɔ ho.
 
-Sɛ wususuw nneɛma a ɛwɔ atifi hɔ no nyinaa ho a, mmeae pii wɔ hɔ a wubetumi asɛe ZEC. Momma yɛnhwehwɛ nea yɛafrɛ no mu: 
+Sɛ wohwɛ nea yɛaka yi nyinaa a, baabi pii wɔ hɔ a wobɛtumi de ZEC ayɛ adwuma. Ma yɛnhwehwɛ deɛ yɛfrɛ no: 
 
-# #Top10 Places a wogye ZEC (na wopɛ sɛ wosɛe sika)
+# #Top10 Beae a wogye ZEC (na wopɛ sɛ wotɔ)
 
  ****
 
-Titiriw no, wɔ Venezuela no, mmeae ahorow bi wɔ hɔ (honam fam mmeae ne intanɛt so mmeae) a wubetumi anya nneɛma anaa nnwuma na wode Zcash atua ka... Momma yenfi ase!
+Ne titiriw no, wɔ Venezuela hɔ na (bea a ɛwɔ honam mu ne intanɛt so) mmeae pii wɔ hɔ faako a wobetumi anya nnwadeɛ anaa dwumadie bi de atua ka wɔ Zcash... Ma y'afi ase!
 
 <aside>
-📌 Wɔabobɔ eyi din random, sɛnea ɛbɛyɛ a nkurɔfo behu baabi a wobetumi akɔ na wɔde ahotɔ atua ka a wɔwɔ afiri a wotumi fa so (telefon, laptop anaa ledger), Zcash sika kotoku ne intanɛt anaa data nkitahodi pa ara kwa
+📌 Wode wei di dwuma a, ɛnnyɛ no biara na ama nnipa ahu baabiara a wobetumi akɔ ne fahodie wɔ wɔn fon (fon, laptop anaa ledger), Zcash sika kotoku ne internet anaa data ho nkitaho pa so.
 
 </aside>
 
-[**Adidibea - Bakery & Chocolaterie**]. 
+[**Aduonwom - Paanoo ne Chocolaterie **] 
 
-1.  **Sheila Vargas** a ɔyɛ ɔbarima a ɔyɛ ɔdefoɔ | Aduan a wɔpɛ | Blogger | Adwumayɛfoɔ | Afotu a wɔde ma 
+1.  *Sheila Vargas* Foodie Blogger Entrepreneur Mentorship (Nneɛma a ɛyɛ anika) 
 
-[@SheEmprende_ wɔ Social Media so](https://www.sheemprende.com/enlaces-sheemprende/). Ohuruw kɔɔ asɛnka agua no so esiane ne **[Galletas de la FeliZidad a agye din (na ɛyɛ dɛ) no nti](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
+[@SheEmprende_ wɔ Social Media so]](https://www.sheemprende.com/enlaces-sheemprende/)Ɔde ne din a agye din (na ɛyɛ dɛ) Galletas de la FeliZidad no bɔɔ n'aba so.](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
 
-Sɛ ne cookies da nkyɛn a, ɔde nnwuma afoforo ma na nea eye sen biara ne eyi: wubetumi de ZEC atua ka!
+Ne keksie akyi no, ɔsan de nnwuma afoforo nso ma na nea eye paa ne sɛ: wobɛtumi atua sika wɔ ZEC mu!
 
-![1_20230829_214024_0000.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/1_20230829_214024_0000.png)
+![1_20230829_214024_0000.png](/content-images/_unavailable.svg)
 
- Crackle chocolate kukisi a wɔde yɛ aduan | Nea ɔde mae: Sheila Vargas Rojas
+ Coklat no bi wɔ hɔ a, ɛyɛ papa sɛ wode di dwuma.
 
-![2_20230829_214024_0001.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/2_20230829_214024_0001.png)
+![2_20230829_214024_0001.png](/content-images/_unavailable.svg)
 
-Oat flakes & borɔdɔma kukisi | Nea ɔde mae: Sheila Vargas Rojas
+Oat flakes & raisin cookies | Credit: Sheila Vargas Rojas
 
-![Nsusuwii a enni asɛmti_20230829_215327_0000.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Untitled_design_20230829_215327_0000.png)
+![Untitled design_20230829_215327_0000.png](/content-images/_unavailable.svg)
 
-Donuts a wɔde nnuaba a wɔde candied ayɛ | Nneɛma a wɔde gyee: Sheila Vargas Rojas | 
+Donuts a wɔde aduaba ayɛ no dɛdɛ. Sheila Vargas Rojas na ɔde ne nsa kaa saa nhoma yi. 
 
 [https://twitter.com/Edicksonjga/status/1656458011278204929?t=oRSUKXQ71IsTv0tcqY10tA&s=19](https://twitter.com/Edicksonjga/status/1656458011278204929?t=oRSUKXQ71IsTv0tcqY10tA&s=19)
 
-Enti, sɛ woyɛ cookie monster a..,
+Enti, sɛ woyɛ obi a w'ani gye keki ho paa a,..
 
-![/content-images/champagne-barbie-cookie-monster-ded97640a2.webp](/content-images/champagne-barbie-cookie-monster-ded97640a2.webp)
+![https://media.tenor.com/Px4lboKQYbYAAAAC/champagne-barbie-cookie-monster.gif](/content-images/champagne-barbie-cookie-monster-ded97640a2.webp)
 
-afei deɛ woanim baabi a wode wo ZEC bedi dwuma!
+Afei woahu nea wode wo ZEC no bɛyɛ!
 
-**Wɛbsaet**: [Sheemprende.com](http://Sheemprende.com) 
+**Website**: [Sheemprende.com]](http://Sheemprende.com) 
 
-**Zcash Unified Address:** 
+**Zcash Unified Address:** Zcash Uniform Address (Ɛwɔ sɛ wode wo din di dwuma wɔ kasa biara mu) 
 
-u1pu63k8tfcf0v06qr6f9qn3qpfh2hj8wjnc3wchguaqy2jc9xxmf4f424jns282qfwzvs6qq3tcd9erv3udraj435hl7r6pz3q5ehdjnh a2ve9c4ley9l0wh8um9s0zlvqungxexjerfkp8gjvemgtp6pgm694txw5p0mw4at49jzwcxygy7c72gceph340zscg7kscqhqw2yzg3alkh
+u1pu63k8tfcf0v06qr6f9qn3qpfh2hj8wjnc3wchguaqy2jc9xxmf4f424jns282qfwzvs6qq3tcd9erv3udraj435hl7r6pz3q5ehdjnha2ve9c4ley9l0wh8um9s0zlvqungxexjerfkp8gjvemgtp6pgm694txw5p0mw4at49jzwcxygy7c72gceph340zscg7kscqhqw2yzg3alkh
 
-📍 Caracas - Venezuela na ɛwɔ hɔ 
-
----
-
-1. **Somos Dulceros a ɔyɛ ɔbarima |  Rosa Rangel na ɔkyerɛwee** 
-
-Rosa Ma. Rangel, a ɔyɛ Kɔmputa mfiridwumayɛfoɔ wɔ n’adwuma mu nanso *chocolatière* wɔ gyidie mu, ɔka ne ho asɛm sɛ ɔdɔ chocolate na n’ani gye paanoo ne paanoo a wɔyɛ ho, de nsaanodwuma nneɛma ahodoɔ pii a ɛfiri chocolate, venezuelafoɔ amammerɛ mu aduane a ɛyɛ dɛ ne paanoo a wɔyɛ mu ma. 
-
-![Wɔnnkyerɛw asɛmti](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Untitled.png)
-
-Nnuaba a ayow & strawberry chocolate 
-
-![20230829_232246.jpg](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/20230829_232246.jpg)
-
-Rosa serew de ahantan kyerɛ sɛ ogye **Zcash.** tom.
-
-![Nsɛm a Wɔakyerɛw_20230829-232755.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Screenshot_20230829-232755.png)
-
-**Wɛbsite**: [https://somosdulceros.com/](https://somosdulceros.com/) 
-
-**Social media:** [Instagram](https://www.instagram.com/somos_dulceros) | [X Asɛnka agua so](https://twitter.com/RosaMRangel) | [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
-
-**Zcash Unified Address:** 
-
-u12vp85edmrkqy9uvall4wqqn2s9fx8nm5phsxu2nyme5yh8hn5xh8mv3qgunynskjy3t0w89234a83rv8vpy98k7ztghur22z6fdrjpvj scjxtdwfj5w0dfj6jv6pw3ns5lx257lsndfe0ul2mer22kzanphyjvaxgxydfkwm9rvww78gd2n9xadfdyxr50430d3hwz59c4hhjaq5qyh
-
-📍 Caracas - Venezuela na ɛwɔ hɔ 
+ Caracas - Venezuela (wɔ Brɔfonini mu) 
 
 ---
 
-[**Nnwumayɛ | Nsusuwii | Apontow ho nhyehyɛefo]**
+1. *Somos Dulceros, a Rosa Rangel kyerɛwee* 
 
-1. **Papeles a Kɔla bi** | **Elizabeth** **B.** na ɔkyerɛwee.
+Rosa Ma. Rangel, ɔbenfo a ɔde kɔmputa yɛ adwuma nanso ne botae ankasa ne sɛ ɔbɛyɛ *chocolatière* na wayɛ n'adwene sɛ ɔpɛ chocolate no bi paa, afei nso ɔwɔ anigye wɔ paanoo ho nneɛma mu nti, ɔyɛ nnwuma pii de kyerɛ nnipa kwan; efi chocolate so kɔma Venezuela atokoɔ papa biara anaa paneɛ pa ara. 
 
-Elizabeth yɛ maame kumaa a n’ani gye ho a n’ani gye nsaanodwuma ne mfoniniyɛ ho. Ɔwɔ nkannyan a ɛho hia paa sɛ ɔde ne ho ma wɔ biribiara a ɔyɛ mu: n'abusua*.💙*
+![Untitled](/content-images/_unavailable.svg)
 
-![Akyi Popa_20230830_134315142.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/BackgroundEraser_20230830_134315142.png)
+Dried fruit & strawberry chocolate (aba a w'ayi no ne prɔmpe) 
+
+![20230829_232246.jpg](/content-images/_unavailable.svg)
+
+Rosa de ahantan serew kyerɛ sɛ ogye Zcash.
+
+![Screenshot_20230829-232755.png](/content-images/_unavailable.svg)
+
+**Ɔweɛbsaet**: [https://somosdulceros.com/](https://somosdulceros.com/) 
+
+Mfonini a wɔde di dwuma wɔ nnipa mu: [Instagram]](https://www.instagram.com/somos_dulceros) [X-Stream]](https://twitter.com/RosaMRangel) [Free2z] So, no way.](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+
+**Zcash Unified Address:** Zcash Uniform Address (Ɛwɔ sɛ wode wo din di dwuma wɔ kasa biara mu) 
+
+u12vp85edmrkqy9uvall4wqqn2s9fx8nm5phsxu2nyme5yh8hn5xh8mv3qgunynskjy3t0w89234a83rv8vpy98k7ztghur22z6fdrjpvjscjxtdwfj5w0dfj6jv6pw3ns5lx257lsndfe0ul2mer22kzanphyjvaxgxydfkwm9rvww78gd2n9xadfdyxr50430d3hwz59c4hhjaq5qyh
+
+ Caracas - Venezuela (wɔ Brɔfonini mu) 
+
+---
+
+[** Crafting. Design. Party organizers] ** Ɔyɛ a, yɛ ma no bi na ɛyɛ ɔfã biara wɔ wiase nyinaa.
+
+1. *Papeles a Color* de Elizabeth B. Kramer na ɛyɛ nnwom no mu biako, ɛno nso yɛ ɔfã bi wɔ Borɔfo kasa mu.
+
+Elizabeth yɛ ɛna a ɔwɔ anigye na ɔpɛ adwuma ne adwini. Ɔwɔ biribi titiriw bi nti sɛ ɔde n'adwene nyinaa si biribiara a ɔyɛ so: ne abusua.*💙*
+
+![BackgroundEraser_20230830_134315142.png](/content-images/_unavailable.svg)
 
 **Blog:** 
 
 [https://papelesacolor.blogspot.com/](https://papelesacolor.blogspot.com/) 
 
-![2_20230830_152443_0001 ~ 2.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/2_20230830_152443_00012.png)
+![2_20230830_152443_0001~2.png](/content-images/_unavailable.svg)
 
-So wɔrema wo mma anya nkɔanim? **Papeles a color** betumi aboa wo ma woadi wɔn nkɔso ho afahyɛ.
+W'awofoɔ rebɔ mmɔden sɛ wɔbɛma wɔn dibea so anaa? * Papeles a color betumi aboa wo ma w'ani agye nea wɔayɛ ho.
 
-![3_20230830_152443_0002 ~ 2.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/3_20230830_152443_00022.png)
+![3_20230830_152443_0002~2.png](/content-images/_unavailable.svg)
 
-Biribi a ɛyɛ soronko na ɛyɛ soronko? **Zcash** telefon a wokura kyin charger nnyinaso!
+Biribi a ɛyɛ soronko na edi mũ? *Zcash* telefon so charger gyinabea!
 
-![1_20230830_152443_0000.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/1_20230830_152443_0000.png)
+![1_20230830_152443_0000.png](/content-images/_unavailable.svg)
 
-Nneɛma afoforo a ɛyɛ fɛ bi Papeles a Color nsaanodwuma.
-
----
-
-**Social media** 
-
-[Instagram so na ɛwɔ hɔ](https://instagram.com/papelesacolor) | [Free2z](https://free2z.cash/PapelesaColor) 
-
-[Nkitahodi](https://linktr.ee/Papelesacolor)
-
-**Zcash Unified Address** 
-
-u1u7unmxgr6efh0l94hz0ag6zku4rjeuuarhql5xsnt744e2lu0dsmhrye5a6mlahw067atgh6x0ykaxrsdraepu08qhu5f6e3udmpl72a 8vtsclwwvx9ux2mmk5jyy83asu5957pwac07jhmpgn7unz96dljetqylp34l5mvj3grjwqm7wmdxgcyehhnntafrl5r727klaklt29lykvg
-
-📍 San Juan de los Morros - Ɔman a ɛwɔ ɔman no mu. 
+Nneɛma foforo a Papeles a Color ayɛ no bi wɔ hɔ.
 
 ---
 
-**[Mpɔtam Hɔ Dansi | Digitals a Wɔde Di Dwuma | Wɛbsaet Nsusuwii | Video]**
+**Nneɛma a wͻde di dwuma wɔ aman afoforɔ so** 
 
-1. **Emprendedoras Digitals a ɛwɔ Venezuela no**
+[Instagram] yɛ wo ho te dɛn?](https://instagram.com/papelesacolor) [Free2z] So, no way.](https://free2z.cash/PapelesaColor) 
 
-So wopɛ sɛ wote nka sɛ *wɔama wo tumi?* **Emprendedoras Digitales de Venezuela** yɛ beae pa a wubetumi afi ase**.** Eyi yɛ mmea adwumayɛfo kuw bi a wɔn ho yɛ fɛ na wɔn ho yɛ nwonwa a wɔn atirimpɔw ahorow a Aura Brito di wɔn anim na wɔahyehyɛ. 
+[Kekae dua no]](https://linktr.ee/Papelesacolor)
 
-**EDVE,** a ɛtwe adwene si mmea adwumayɛfo so**,** de nnwuma pii a ɛfa:
+**Zcash Unified Address** (Ɔfese a wɔaka abom no) 
 
-• adwumayɛ ho adwene nkɔso 
+u1u7unmxgr6efh0l94hz0ag6zku4rjeuuarhql5xsnt744e2lu0dsmhrye5a6mlahw067atgh6x0ykaxrsdraepu08qhu5f6e3udmpl72a8vtsclwwvx9ux2mmk5jyy83asu5957pwac07jhmpgn7unz96dljetqylp34l5mvj3grjwqm7wmdxgcyehhnntafrl5r727klaklt29lykvg
 
-• branding adansi.., ne afoforo. Bere nyinaa a wosusuw ɔbea sigyani biara a ɔwɔ Venezuela a ɔpɛ sɛ odi wɔn ankasa adwuma so no ho. 
-
-![/content-images/cropped-logo-nuevo_Mesa-de-trabajo-1-sca-ba7d9d40e8.webp](/content-images/cropped-logo-nuevo_Mesa-de-trabajo-1-sca-ba7d9d40e8.webp)
-
-**Wɛbsite**: [https://emprendedorasdigitales.org/](https://emprendedorasdigitales.org/) 
-
-**Social media:** 
-
-[Instagram so na ɛwɔ hɔ](https://instagram.com/emprendedorasdigitalesve) |  [Prama](https://twitter.com/EmpreDigiVE) | [Telegram a wɔde ma](https://t.me/emprendedorasdigitalesve) | [Wɔabɔ mu](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
-
-**Unified Address:** 
-
-14g5wzyan35s5fq4glf7hsf0wteuskr3dgfs25wkr2tk5dq6sqrfpq8pqmme5yp7c3eq42tlssgv5hw7def5anezwzgyp857uw2gjjk7z wxdz9p6m8uxg05mhsgwxnxndn42k4mxmxftuqpmvet4vl7uf8a0m5q2e65lwyl8fq0425ys6ny8un6g5j07t0vxlwauhps605zypydl9h44
-
-📍 San Antonio de los Altos - Ɔman a ɛwɔ ɔman no mu 
+ San Juan de los Morros - Venezuela. 
 
 ---
 
-1. **GorBrit Sohyial Media**
+[Nkrataa a wɔde hyɛ nkurɔfo nkuran. Digital Marketing, Web Design Video]**
 
-![Wɔnnkyerɛw asɛmti](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Untitled%201.png)
+1. ** Emprendedoras Digitales de Venezuela**
 
-Saa beae yi a **Roosevelt Gordones ne Aura Brito** di so yi de nnwuma a ɛfa:
+Wopɛ sɛ wote nka sε *wowɔ tumi bi a wode bɛyɛ adwuma?* Emprendedoras Digitales de Venezuela yɛ beae pa a wobɛtumi afi ase.** Eyi na ɛyɛ mmea adwumakuo a wɔn ho yɛ fɛ, wɔ botae ahorow no akyi a Aura Brito di anim. 
 
-- Wɛb nkratafa / Wɛb nkratafa
-- Hosting a wɔde ma
-- Branding /Adwumayɛ ho afotuo
-- Social media ho akwan horow
+EDVE,** a w'atwe adwene asi mmaa adwadifoɔ so no de dwumadie ahodoɔ bi ma:
 
-**Wɛbsite**: [https://gorbrit.com/](https://gorbrit.com/) 
+• adwadie ho nsusuɛ a yɛreyɛ no mu. 
 
-**Social Media**
+• branding construction.., ne afoforɔ. Da biara a, dwene Venezuela mmaa baako-baakofoɔ a wɔpɛ sɛ wɔn ara di wɔn nnwuma so no ho. 
 
-[Telegram a wɔde ma](https://t.me/gorbritsm) | [Instagram so na ɛwɔ hɔ](https://www.instagram.com/gorbritsm/) |  [X Asɛnka agua so](https://twitter.com/GorBritSM) | 
+![https://i0.wp.com/emprendedorasdigitales.org/wp-content/uploads/2020/07/cropped-logo-nuevo_Mesa-de-trabajo-1-scaled-1.jpg?resize=300%2C208&ssl=1](/content-images/cropped-logo-nuevo_Mesa-de-trabajo-1-sca-ba7d9d40e8.webp)
 
-GorBrit gye akwan horow a wɔfa so tua sika, a Cryptocurrecies ka ho, a nea ɛka ho ne **Zcash.**
+**Ɔweɛbsaet**: [https://emprendedorasdigitales.org/](https://emprendedorasdigitales.org/) 
 
-**Address a wɔaka abom** 
+**Nneɛma a w'abɔ wɔ intanɛt so:** 
 
-u1l2lxdx2en962h3utm24fthm0r9q5cxc4705jeatq4lckm92k06htdk8jear9tsay7w8xz4najnv0mpnngalctdtqnh9dv3d4fsr3lqxk 0jhgfukujzca752eqj4pyeklgymk0j72lfs85r3vnpx48jkgk5v0zk5zl7nx4mlyaxq7xm0k7wfjnt9h86d4wxvrm45w358qkd60cdckp4h
+[Instagram] yɛ wo ho te dɛn?](https://instagram.com/emprendedorasdigitalesve) [Nneɛma a ɛwɔ hɔ ma wɔn]](https://twitter.com/EmpreDigiVE) [Telegram a wɔde kɔmaa me]](https://t.me/emprendedorasdigitalesve) [LinkedIn]](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
 
-📍 Caracas - Venezuela na ɛwɔ hɔ. 
+** Unified Address:** no aaeeaaaeeo?aaiy aey iieaeia. 
 
-Wɔ ankasa ne intanɛt so nnwuma. 
+u14g5wzyan35s5fq4glf7hsf0wteuskr3dgfs25wkr2tk5dq6sqrfpq8pqmme5yp7c3eq42tlssgv5hw7def5anezwzgyp857uw2gjjk7zwxdz9p6m8uxg05mhsgwxnxndn42k4mxmxftuqpmvet4vl7uf8a0m5q2e65lwyl8fq0425ys6ny8un6g5j07t0vxlwauhps605zypydl9h44
 
----
-
-1. **RobmarEscool** Ɔde ne nsa kyerɛɛ ne so. 
-
-Sɛ yɛde digyital designer to nkyɛn a, Robmar yɛ mfoninitwafoɔ a ɔsan nso gye bere bi de kyerɛkyerɛ **adwumayɛbea** fa **mfonini ne nnwinnadeɛ a ɛfa ho** ho, na saa berɛ yi nso ɔtrɛw zcash ho asɛm mu 
-
-N’adwuma no yɛ nea wonim no yiye wɔ Zcash ecosystem mu esiane ne mmoa a ɔde maa ZFAV kuw no nti.
-
-![Nsɛm a Wɔakyerɛw_20230830-163829-271 ~ 2.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Screenshot_20230830-163829-2712.png)
-
-• Video yɛ / edition
-
-• Logo adebɔ & Animation
-
-• Podcast ɔdio/ video a wɔatintim 
-
-**Social media:**
-
-[Telegram a wɔde ma](https://t.me/Robmarn) | [X Asɛnka agua so](https://twitter.com/robmarn) | [Free2z](https://free2z.cash/robmarn)
-
-📍Barquisimeto - Ɔde ne nsa kyerɛɛ ne so 
-
-**[Ahoɔfɛ | Manicure a wɔde yɛ adwuma | Nsa & Nnadewa hwɛbea | Nneɛma a wɔde boa]** 
-
-1. **Karin Ahoɔfɛ Studio | Karin Gordones na ɔkyerɛwee**
-
-![Nsɛm a Wɔakyerɛw_20230830-131043-768 ~ 2.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Screenshot_20230830-131043-7682.png)
-
-Nnadewa a ɛyɛ fɛ, nsa fɛfɛ esiane Karin Beauty Studio nti.
-
-**Social media:** 
-
-[Instagram so na ɛwɔ hɔ](https://instagram.com/karinbeautystudio) 
-
-**Unified Address:** 
-
-u1nvhfur5lruk4lzy7v5j4wqs65rvslk7tvgxvcjpe7f8u08vjs98rsg9sralpnwgzzkevtr6k2flh7g9hqqk07m9eff222ljyg9ge2d7u px9ycr9lqzmwmww05npwypmw5t2cvt32tnuylnud4qts3hq2af5w50t3czatklrv5f7spwpfasjdr3rm7qpklpmvv5fc5vpl2spyysvvwra
-
-📍 El Valle - Caracas - Venezuela 
-
-Ofie som adwuma (Caracas | San Antonio de los Altos) .
-
-Yɛ nhyehyɛe sɛ wobɛhyehyɛ 
+ San Antonio de los Altos - Venezuela 
 
 ---
 
-![Akyi Popa_20230901_110901449.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/BackgroundEraser_20230901_110901449.png)
+1. **GorBrit Nkrataa a Ɛwɔ Dwumadibea**
 
-1. **Korona de Brillitos.** | **Gissell** **B** na ɔkyerɛwee. 
+![Untitled](/content-images/_unavailable.svg)
 
-Wunim nea ɛyɛ nwonwa wɔ Zcash ho? Sɛ ɔwɔ nnipa te sɛ Gissell, abeawa a wadi mfe 16 a n’ani gye nsaanodwuma ho, ɔyɛ girly beautiful accesories na onim sɛ wɔ ne mfe mu no, ɔde Zcash di dwuma wɔ n’adwuma a ɛrenya nkɔso no mu
+Saa bea yi a Roosevelt Gordones ne Aura Brito di so no de nneɛma bi ma:
 
-![20230830_235143_0000.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/20230830_235143_0000.png)
+- Intanɛt so nkratafa / intanɛt dwumadibea ho nhyehyɛe
+- Ɔhwɛfoɔ a ɔgye ahɔhoɔ
+- Branding / Adwuma mu afotuo
+- Social media akwankyerԑ
 
-Nice elegant nkyerɛkyerɛmu ma scrunchies | Corona de brillitos a ɛyɛ ɔyare mmoawa 
+**Ɔweɛbsaet**: [https://gorbrit.com/](https://gorbrit.com/) 
 
-**Social Media**
+**Nneɛma a w'abɔ wɔ intanɛt so**
 
-[Instagram so na ɛwɔ hɔ](https://instagram.com/coronadebrillitos) 
+[Nsɛm a wɔahyehyɛ wɔ telegram so]](https://t.me/gorbritsm) [Instagram] Ɔyɛ dɛn?](https://www.instagram.com/gorbritsm/) [X-Stream]](https://twitter.com/GorBritSM) | 
 
-**Zcash Unified Address** 
+GorBrit gye akwan ahodoɔ a wɔfa so tua ka, ɛne Cryptocurrencies no bi. Ebi ne sɛ yɛ bɛtumi afa Zcash* mu na yɛde ayɛ adwuma.
 
-154h5wxyqf5lr4hdraqzc2n8x8398x6u95km2z7ryx8k5tdpjym59xqvlz54kq6pd96q5xrsxrmtcpl886s3kayxzfy4lhhdegr2a9ahg htuv9gwgc74wc6xf7p48gktq065nxzgvyvt7ka3jm0nzm8wimdyjp8n2s47wu769j87f9vk84gz6mxzvrfjzm09m2zew80msv7efueltfx
+**Nkyerεkyerɛmu a εwͻ hͻ no nyinaa** 
 
-📍 San Juan de los Morros - Ɔman a ɛwɔ ɔman no mu 
+u1l2lxdx2en962h3utm24fthm0r9q5cxc4705jeatq4lckm92k06htdk8jear9tsay7w8xz4najnv0mpnngalctdtqnh9dv3d4fsr3lqxk0jhgfukujzca752eqj4pyeklgymk0j72lfs85r3vnpx48jkgk5v0zk5zl7nx4mlyaxq7xm0k7wfjnt9h86d4wxvrm45w358qkd60cdckp4h
+
+ Caracas - Venezuela. 
+
+Wɔ nnipa ankasa ne intanɛt so dwumadi ahorow mu. 
 
 ---
 
-**[Kɔmputa so adwumayɛ]**
+1. *RobmarEscool* 
 
-1. **Tecnopapapi** Ɔde ne nsa kyerɛɛ ne so. 
+Sɛso sɛ ɔyɛ digital designer, Robmar yɛ ɔfotorefoɔ a ɔde bere bi nso kyerɛkyerɛ wɔ adesuabea fa mfoni ne nnwinnade ahodoɔ ho. Saa berɛ yi mu no na ɔno nso bɔ zcash dawuro 
+
+Ne nnwuma no agye din wɔ Zcash mu, na n'aboa a ɔde ama club ZFAV nti.
+
+![Screenshot_20230830-163829-271~2.png](/content-images/_unavailable.svg)
+
+• Video a wɔyɛ / nea wɔto no mu nsɛm
+
+• Logo a wobɛyɛ & Animation
+
+• Podcast audio/video edition (Ɔkasa ne video a wɔakyere agu nsɛm so) 
+
+**Nneɛma a wͻde di dwuma wɔ aman afoforɔ so:**
+
+[Nsɛm a wɔahyehyɛ wɔ telegram so]](https://t.me/Robmarn) [X-Stream]](https://twitter.com/robmarn) [Free2z] So, no way.](https://free2z.cash/robmarn)
+
+Barquisimeto - Venezuela 
+
+[Anyansafo] Manikye Nsa ne nsateaa ho ban, nkekaho. 
+
+1. Karin Beauty Studio, a ɛyɛ Karin Gordones dea.
+
+![Screenshot_20230830-131043-768~2.png](/content-images/_unavailable.svg)
+
+Nnadewa a ɛyɛ fɛ, nsa a ɛyɛ anigye esiane Karin Beauty Studio nti.
+
+**Nneɛma a wͻde di dwuma wɔ aman afoforɔ so:** 
+
+[Instagram] yɛ wo ho te dɛn?](https://instagram.com/karinbeautystudio) 
+
+** Unified Address:** no aaeeaaaeeo?aaiy aey iieaeia. 
+
+u1nvhfur5lruk4lzy7v5j4wqs65rvslk7tvgxvcjpe7f8u08vjs98rsg9sralpnwgzzkevtr6k2flh7g9hqqk07m9eff222ljyg9ge2d7upx9ycr9lqzmwmww05npwypmw5t2cvt32tnuylnud4qts3hq2af5w50t3czatklrv5f7spwpfasjdr3rm7qpklpmvv5fc5vpl2spyysvvwra
+
+ El Valle - Caracas - Venezuela 
+
+Efie adwuma (Caracas; San Antonio de los Altos)
+
+Nhyehyɛe a wɔhyehyɛ no hyɛ da. 
+
+---
+
+![BackgroundEraser_20230901_110901449.png](/content-images/_unavailable.svg)
+
+1. *Corona de Brillitos.** Gissell B. yɛ no ɔfoforo, na ɔyɛ obi a n'ani gye ho sɛ ɔbɛka nsɛm bi akyerɛ afoforo wɔ ne kasa mu. 
+
+Wo nim nea ɛyɛ nwonwa wɔ Zcash ho? Sɛ wowɔ nnipa te sɛ Gissell, abaayewa a wadi mfe 16 na n'ani gye nsa ano adwuma ho, yɛ nneɛma fɛfɛɛfɛ ma mmeawa no ne sɛ ɔno de saa bere yi mu nso ɔde Zcash di dwuma wɔ nnwuma pa pii a ɔyɛe no mu.
+
+![20230830_235143_0000.png](/content-images/_unavailable.svg)
+
+N'ani so yɛ fɛ sɛ ɔde bɛkyerɛ n'adwuma ase. Corona de brilllitos 
+
+**Nneɛma a w'abɔ wɔ intanɛt so**
+
+[Instagram] yɛ wo ho te dɛn?](https://instagram.com/coronadebrillitos) 
+
+**Zcash Unified Address** (Ɔfese a wɔaka abom no) 
+
+u154h5wxyqf5lr4hdraqzc2n8x8398x6u95km2z7ryx8k5tdpjym59xqvlz54kq6pd96q5xrsxrmtcpl886s3kayxzfy4lhhdegr2a9ahghtuv9gwgc74wc6xf7p48gktq065nxzgvyvt7ka3jm0nzm8skydyjp8n2s47wu769j87f9vk84gz6mxzvrfjzm09m2zew80msv7efueeltfx
+
+ San Juan de los Morros - Venezuela 
+
+---
+
+[Kɔmputa dwumadie]**
+
+1. *Tecnopapapi* 
 
 Ɛno ne @Lexihel - Alexis López Abreu.
 
-So wowɔ asɛm bi wɔ wo PC anaa Android fon no ho? 
+So wowɔ ɔhaw bi wɔ wo PC anaa Android fon no ho? 
 
-Tecnopapapi yɛ onipa a ɔfata sɛ wo ne no di nkitaho! 
+Tecnopapapi ne onipa a ɛsɛ sɛ wofa no! 
 
-• Kɔmputa so adwumayɛ (Windows) . 
+• Kɔmputa dwumadi (Windows) 
 
-• Android Dwumadi Nhyehyɛe (telefon ahorow) .
+• Android Dwumadi Afidie (fon)
 
-![IMG_20230901_093618_042.jpg](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/IMG_20230901_093618_042.jpg)
+![IMG_20230901_093618_042.jpg](/content-images/_unavailable.svg)
 
-**Wɛbsite** 
+** Intanɛt so dwumadibea** 
 
 [https://tecnopapapi.com](https://tecnopapapi.com/)
 
-**Social media** 
+**Nneɛma a wͻde di dwuma wɔ aman afoforɔ so** 
 
-Free2z | [Telegram a wɔde ma](https://t.me/Lexihel) | [YouTube so na ɛwɔ hɔ](https://youtube.com/@tecnopapapi) | [X Asɛnka agua so](https://twitter.com/tecnopapapi) | [TikTok a wɔde di dwuma](https://www.tiktok.com/@lexihel) | [Instagram so na ɛwɔ hɔ](https://www.instagram.com/tecnopapapi/) |  [Facebook so na ɛwɔ hɔ](https://www.facebook.com/tecnopapapi) 
+Free2z. [Telegram] Wo ho yɛ den, wo ho yɛ hare!](https://t.me/Lexihel) [YouTube wɔ kasa ahodoɔ mu]](https://youtube.com/@tecnopapapi) [X-Stream]](https://twitter.com/tecnopapapi) [TikTok]](https://www.tiktok.com/@lexihel) [Instagram] Ɔyɛ dɛn?](https://www.instagram.com/tecnopapapi/) [Facebook] Woyɛ ɔmansin sohwɛfo?](https://www.facebook.com/tecnopapapi) 
 
-Tecnopapapi gye cryptocurrecies (a 3ZEC ka ho) ne akwan foforo a wɔfa so tua sika. 
+Tecnopapapi gye cryptocurrencies (a 3ZEC ka ho) ne akwan afoforɔ a wɔfa so tua sika. 
 
-**Unified Address**
+** Unified Address** * no address* no phone number*
 
-u1sa0tnr9ac7ul8ad3ftdk4pgcxuq8j9vagjwz7apf8lylryhhklu4j68745trlga62a68qtfaqllmmdpv6zghw560qgzgughejre4ekmq vzf6agtu82a8qx2s3nj3gu50ye6r06rce595rvp0k4t28ecn5kzqu53q99guuzmrej94hr4u6l34rctvwsyzdhtq2ap070qrnvcwg4tgj
+u1sa0tnr9ac7ul8ad3ftdk4pgcxuq8j9vagjwz7apf8lylryhhklu4j68745trlga62a68qtfaqllmmdpv6zghw560qgzgughejre4ekmqvzf6agtu82a8qx2s3nj3gu50ye6r06rce595rvp0k4t28ecn5kzqu53q99guuzmrej94hr4u6l34rctvwsyzdhtq2ap070qrnvcwg4tgj66
 
-📍 San Juan de los Morros - Ɔman a ɛwɔ ɔman no mu 
+ San Juan de los Morros - Venezuela 
 
-1. **Jossy Mendoza - Ɔyɛ karkafoɔ.**
+1. Jossy Mendoza - Driver no.
 
-**Driving services** fi ne kɔ Caracas ne mmeae afoforo te sɛ: 
+**Driving services** fi ne kɔ Caracas ɛne mmeae afoforo te sɛ: 
 
-Altos Mirandinos, Valles, na ɔkyerɛwee. del Tuy, Guarenas, Guatire, La Guaira, Simón Bolívar Amanaman Ntam Wimhyɛn Gyinabea.
+Altos Mirandinos, Valles. del Tuy, Guarenas, Guatire, La Guaira, Simón Bolívar Amanaman Ntam Kɔɔbea no.
 
-Ɔgye cryptocurrecies, a **Zcash** ka ho.
+Ɔgye cryptocurrencies, a Zcash ka ho.
 
-![IMG_20230831_172209_058.jpg](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/IMG_20230831_172209_058.jpg)
+![IMG_20230831_172209_058.jpg](/content-images/_unavailable.svg)
 
- Owura Mendoza a ɔde ne zingo sika kotoku rekyerɛ. | Mfonini no: Edickson Gonzalez 
+ Owura Mendoza a ɔrekyerɛ ne sika kotoku no. Foto: Edickson Gonzalez 
 
-**Zcash Unified Address:**
+**Zcash Unified Address:** Zcash Uniform Address (Ɛwɔ sɛ wode wo din di dwuma wɔ kasa biara mu)
 
-u10jd0tcj24p9rcju047lymtp9nx38h90j09rnr4ru6e8476822ka sɛ wgn6phe373q78myrf2ew2j6kstdfjnwz2d34w5ahjeae7hvag73m f3t3ect7qcuxd6yycgzwu8pchhqu23m4cmkezrxtcvzdxc7a7n4xkcqqkzwrtudzsmd947dgg0am974me4cwedn0pp7xchpqwr0n6y9uc32
+u10jd0tcj24p9rcju047lymtp9nx38h90j09rnr4ru6e8476822saywgn6phe373q78myrf2ew2j6kstdfjnwz2d34w5ahjeae7hvag73mf3t3ect7qcuxd6yycgzwu8pchhqu23m4cmkezrxtcvzdxc7a7n4xkcqqkzwrtudzsmd947dgg0am974me4cwedn0pp7xchpqwr0n6y9uc32
 
 ---
 
-**[Nnuan a wɔde di ntɛmntɛm | Italia kasa**].
+*[Aduan a wɔdi no ntɛm. Italiafo] **
 
-Bonus : **Allegrini Ristorante** 🇪🇸 | Pizza Beae a Ɛwɔ | Italiafo nnuan | **Wɔregye Zcash atom nnansa yi ara.** 
+Bonus: Allegrini Ristorante 🇪 Pizza Place Italian food Zcash soon. ***** 
 
-Nneɛma a wɔde kɔma nkurɔfo | Fa kɔ | Nneɛma a wɔde besie
+Akwantufoɔ. Fa kɔ no. Nkɔhyɛe
 
-![Akyi Popa_20230901_114615839.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/BackgroundEraser_20230901_114615839.png)
+![BackgroundEraser_20230901_114615839.png](/content-images/_unavailable.svg)
 
-**Wɛbsaet**: [www.alleginiristorante.com](http://www.alleginiristorante.com) (wɔ adansi mu) .
+**Website**: [www.alleginiristorante.com]](http://www.alleginiristorante.com) (wɔ siesie mu)
 
-**Social media** 
+**Nneɛma a wͻde di dwuma wɔ aman afoforɔ so** 
 
-[Instagram so na ɛwɔ hɔ](https://instagram.com/allegriniristorante) | [X Asɛnka agua so](https://twitter.com/AllegriniRisto) | [Telegram a wɔde ma](https://t.me/AllegriniRistorante) | [Pinterest a wɔde kyerɛw nsɛm](https://pin.it/6z8hq6F)
+[Instagram] yɛ wo ho te dɛn?](https://instagram.com/allegriniristorante) [X-Stream]](https://twitter.com/AllegriniRisto) [Telegram a wɔde kɔmaa me]](https://t.me/AllegriniRistorante) [Pinterest]](https://pin.it/6z8hq6F)
 
-(Ɛrenkyɛ na wɔakɔ [free2z.cash](http://free2z.cash). )
+(Ɔrenkyɛ wɔ [free2z.cash] so)](http://free2z.cash). )
 
-![20230901_121633_0000.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/20230901_121633_0000.png)
+![20230901_121633_0000.png](/content-images/_unavailable.svg)
 
-**Zcash Unified Address** 
+**Zcash Unified Address** (Ɔfese a wɔaka abom no) 
 
-u10wuf4pauet00u3n4sp7l0jjer28stp5l8q3peq4ffrpvhfm0zn8up3xwewy64fyeps6r6ctv3yfmwvrrnrsseet3ety9aj48kqk52el m0xee87t87fu86wtxq357gxz2j978rgyy799pex3amwhtc3mt2yz544tn6dcqcq48sy2lvsfp2vqjhe9skchgpgsqzjnhcnflhe2w2l465s
+u10wuf4pauet00u3n4sp7l0jjer28stp5l8q3peq4ffrpvhfm0zn8up3xwewy64fyeps6r6ctv3yfmwvrrnrsseet3ety9aj48kqk52el0m0xee87t87fu86wtxq357gxz2j978rgyy799pex3amwhtc3mt2yz544tn6dcqcq48sy2lvsfp2vqjhe9skchgpgsqzjnhcnflhe2w2l465s
 
-Nneɛma a wɔde kɔma nkurɔfo | Fa kɔ | Nneɛma a wɔde besie.
+Ɔsom a wɔde ma. Fa kɔ. Nkɔmmɔhyɛde.
 
-📍 Madrid - Spain na ɛwɔ hɔ
+ Madrid - Spain (Spain)

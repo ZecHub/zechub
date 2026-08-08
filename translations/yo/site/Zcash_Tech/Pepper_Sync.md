@@ -1,141 +1,154 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Pepper_Sync.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Zingo 2.0 - Pepper Sync
 
-## ÌBÉÈRÈ
-Zingo 2.0 ni titun ti ikede ti awọn Zingo! apamọwọ, a lightweight, ṣiṣi-orisun apamọwọ kọ fun awọn Zcash awujo.
+## TL;DR
 
-In the past, syncing could feel painfully slow, error-prone, and resource heavy sometimes forcing users to restart from scratch. Pepper Sync changes all that. It makes syncing faster, smoother, more reliable, and less demanding on your device, while fully preserving the privacy of shielded transactions.
+* Pepper Sync ni ẹrọ isọdọkan ti a ṣe afihan ninu Zingo! 2.0, apamọwọ orisun ṣiṣi-orisun Zcash ti o kọ nipasẹ Awọn ile -iṣẹ Zingo.
+* Ó ń lo ìsopọ̀ tí kò bára mu dípò kí ó máa ṣàyẹwò ẹrù náà ní àwọn àlàfo ńláńlá, nítorí náà owó rẹ àti ìṣòfò rẹ̀ á tètè fara hàn.
+* Ìlọsíwájú ni a fi pamọ ní pẹrẹu. Bí ìjápọ̀ bá já tàbí tí app náà ba pa, àfijọpọ yóò tún padà bẹ́ sílẹ̀ láti ibi tó ti dúró dípò kí ó máa dáwọ́lé.
+* O lè náwó kí ìfọwọ́sowọ̀pọ̀ náà tó parí.
+* Àwọn ìnáwó tí a fi ààbò ṣe máa ń wà ní àṣírí jálẹ̀ gbogbo ètò náà.
 
-Bóyá o jẹ́ olùṣàmúlò tuntun tó ń dán Zcash wò fún ìgbà àkọ́kọ́, tàbí ọmọ ẹgbẹ́ alákòókò gígùn tó ń ṣakoso ọ̀pọ̀ àpamọ́ tí a fi ààbò ṣe, Pepper Sync mú kí ìrírí náà túbọ̀ wúlò àti dídùn.
+## Àlàyé Ìpilẹ̀ṣẹ̀
 
----
+Zingo 2.0 is the latest version of the Zingo! wallet, a lightweight, open-source wallet built for the Zcash community. The star of this release is Pepper Sync, a major upgrade that completely rethinks how wallets connect with the blockchain.
 
-## ÀWỌN NÍNÚ ÀWÒRÁN PÉPÉRÉ SYNC
-Pepper Sync ṣafihan ọpọlọpọ awọn ilọsiwaju:
-- Ìmúṣiṣẹ́pọ̀ Tó Yára Gan-an - Ọ̀sẹ̀ díẹ̀ ló máa gbà kí pọ́ọ̀sì rẹ tó ṣètò.
-- Awọn imudojuiwọn Smart - A ṣe ilana data ni awọn ege kekere, yago fun awọn ọlọjẹ kikun.
-- Resilient to Interruptions - Ti asopọ rẹ ba ṣubu, isọdọkan tun bẹrẹ nibiti o ti duro.
-- Ó rọrùn láti lò, ó sì gbéṣẹ́ gan-an - A ṣe é fún àwọn fóònù, kọ̀ǹpútà alágbèéká, àtàwọn ẹ̀rọ míì tí agbára wọn kéré.
-- Ìdáhùn tó ṣe kedere - Ìsọfúnni nípa bí nǹkan ṣe ń lọ ní àkókò gidi máa ń dín ìdàrúdàpọ̀ kù.
-- Ìpamọ́-ìdáàbòbò - Àwọn ìsòwò tí a fi ààbò ṣe máa ń jẹ́ àṣírí ní gbogbo ìgbà tí wọ́n bá ń ṣe é.
+Ni igba atijọ, isọdọkan le rilara irora ti o lọra pupọ, aṣiṣe-ara ẹni, ati awọn orisun agbara, nigbakan fi ipa mu awọn olumulo lati tun bẹrẹ lati ibẹrẹ. Pepper Sync yipada gbogbo iyẹn. O jẹ ki iṣọkan yara sii, rọọrun, igbẹkẹle diẹ sii, ati ibeere kekere lori ẹrọ rẹ, lakoko fifipamọ ni kikun asiri ti awọn iṣowo aabo.
 
----
+Bóyá o jẹ́ olùṣàmúlò tuntun tí ó ń dán Zcash wò fún ìgbà àkọ́kọ́, tàbí ọmọ ẹgbẹ́ aládàáni tó ti pẹ̀lú n ṣakoso ọpọ àpamọ́ owó aláàbò, Pepper Sync mú kí ìrírí náà túbọ̀ wúlò àti dídùn.
 
-## Ohun Tó Dára Jù Tá A Ti Rò Tẹ́lẹ̀
-Older versions of Zingo often frustrated users with long syncing times, unclear error handling, and heavy resource usage. Pepper Sync fixes these common issues:
+### Àwọn ohun pàtàkì ti Pepper Sync
 
-<div className="overflow-x-auto my-8">
-  <table className="w-full min-w-[640px] max-w-[950px] mx-auto border-collapse shadow-xl rounded-2xl overflow-hidden dark:shadow-2xl">
-    <thead>
-      <tr>
-        <th className="bg-emerald-400 dark:bg-emerald-700 text-white px-4 py-4 sm:px-6 sm:py-5 text-left font-bold text-base sm:text-lg tracking-tight">Feature</th>
-        <th className="bg-emerald-400 dark:bg-emerald-700 text-white px-4 py-4 sm:px-6 sm:py-5 text-left font-bold text-base sm:text-lg tracking-tight">Previous Zingo Versions</th>
-        <th className="bg-emerald-400 dark:bg-emerald-700 text-white px-4 py-4 sm:px-6 sm:py-5 text-left font-bold text-base sm:text-lg tracking-tight">Zingo 2.0 with Pepper Sync</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="bg-slate-50 hover:bg-slate-100 dark:bg-slate-800 dark:hover:bg-slate-700">
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 font-semibold text-slate-800 dark:text-slate-200">Sync Speed</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Slower, especially on first setup</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 bg-emerald-50 dark:bg-emerald-950 font-medium text-emerald-800 dark:text-emerald-300">Much faster initial and ongoing sync</td>
-      </tr>
-      <tr className="hover:bg-slate-100 dark:hover:bg-slate-700">
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 font-semibold text-slate-800 dark:text-slate-200">Error Handling</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Occasional stalls and unclear failures</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 bg-emerald-50 dark:bg-emerald-950 font-medium text-emerald-800 dark:text-emerald-300">Improved stability with automatic recovery</td>
-      </tr>
-      <tr className="bg-slate-50 hover:bg-slate-100 dark:bg-slate-800 dark:hover:bg-slate-700">
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 font-semibold text-slate-800 dark:text-slate-200">User Experience</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Sync felt "opaque" to newcomers</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 bg-emerald-50 dark:bg-emerald-950 font-medium text-emerald-800 dark:text-emerald-300">Transparent, with clearer status and updates</td>
-      </tr>
-      <tr className="hover:bg-slate-100 dark:hover:bg-slate-700">
-        <td className="px-4 py-4 sm:px-6 sm:py-5 font-semibold text-slate-800 dark:text-slate-200">Device Performance</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 text-slate-700 dark:text-slate-300">High CPU/memory usage</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 bg-emerald-50 dark:bg-emerald-950 font-medium text-emerald-800 dark:text-emerald-300">Optimized for smooth resource use</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Pepper Sync ṣe àtúnṣe sí àwọn ohun tó wà nínú rẹ̀:
 
-Ní kúkúrú: ìfọwọ́sowọ́pọ̀ ti yára báyìí, ó ṣeé gbára lé, ó sì rọrùn láti lóye.
+- Ìmúṣiṣẹ́pọ̀ Tó Yára Gan-an - Wọléètì rẹ á ti wà ní sẹpé nínú ìṣẹ́jú dípò wákàtí.
+- Awọn imudojuiwọn Smart - A ṣe ilana data ni awọn ege kekere, yago fun kikun rescans.
+- Resilient to Interruptions - Bí ìsopọ̀ rẹ bá já, ìṣàdákọ́rọ̀ yóò tún padà bẹ̀rẹ̀ níbi tí ó ti dúró.
+- Ó rọrùn láti lò, ó sì gbéṣẹ́ - A ṣe é fún àwọn fóònù alágbèéká àti àwọn èlò míì tí kò fi bẹ́ẹ̀ gba agbára.
+- Ìdáhùn tó ṣe kedere - Àtúnṣe ìlọsíwájú ojú-ọjọ́ dín ìdàrúdàpò.
+- Ìpamọ́-ìdáàbòbò - Àwọn ìsòwò tí a fi ààlà ṣe máa ń jẹ́ àṣírí ní gbogbo ìgbà.
 
----
+### Ohun tó dára ju ti ìṣáájú lọ ni
 
-## TA LÓ Ń JẸ́ ÀǸFÀÀNÍ LÁTI ỌLỌ́RUN PÉPẸ́RÌ?
-- Àwọn Olùṣàmúlò Tuntun - Ó lè dá àwọn àpamọ́lẹ̀ sílẹ̀ ní kíákíá láìsí ìrẹ̀wẹ̀sì nítorí ìdádúró.
-- Awọn Olumulo Ojoojumọ - Ṣiṣiṣẹpọ ti o gbẹkẹle jẹ ki awọn sisanwo aabo wulo fun lilo ojoojumọ.
-- Developers & Testers - Shorter sync times mean faster testing cycles.
-- Mobile & Light Devices - Zingo bayi n ṣiṣẹ daradara paapaa lori ohun elo ti o ni opin.
+Awọn ẹya atijọ ti Zingo nigbagbogbo ṣe ibanujẹ awọn olumulo pẹlu akoko isọdọkan pipẹ, mimu aṣiṣe ṣiṣanwo ko han gbangba, ati lilo orisun agbara. Pepper Sync ṣatunṣe awọn iṣoro wọpọ wọnyi:
 
----
+Àwọn Àṣejèrè Ẹ̀dà Zingo ti tẹlẹ. Zingo 2.0 pẹlú Pepper Sync
+| ------------------ | -------------------------------------- | -------------------------------------------- |
+ìmúṣiṣẹ́pọ̀ ìyára. Ó máa ń lọra, pàápàá nígbà tí a bá kọ́kọ́ ṣe é. Ìmúlùmọ̀ tó yára gan-an ni ó wà níbẹ̀rẹ̀ àti bí wọ́n ti ń tẹ̀ síwájú sí i.
+ Ìtọjú àṣìṣe. Àìdáa àti àwọn ìkùdíẹ̀-káàtó tí kò ṣe kedere. Ó mú kí ìdánilójú pọ̀ sí i pẹlú igbala aládàáṣiṣẹ́.
+ìmúlò oníṣe. Ṣíṣàmúṣẹ̀ rí "bí òkùnkùn" fún àwọn tí ó ṣẹ̀ṣẹ̀ dé. Ó ṣe kedere, pẹlú ipò àti àtúntò tó hàn gbangba jùlọ.
+ Ìṣiṣẹ́ Ẹ̀rọ  Gbigba CPU/ìrántí lọpọlọpọ  Ti a ṣe ààyò fún lílo àwọn ohun àmúṣe ní rọra.
 
-## OHUN TÓ JẸ́ KÍ Ó ṢE LÓRÍ LÓJÚ ÌWÉ ZCASH
-Zcash is built around shielded transactions, one of the most powerful privacy tools in cryptocurrency. But privacy is only useful if it's accessible.
+Ní ṣókí: ìfiwéra-ìṣiṣẹ́pọ̀ ti wá yára báyìí, ó ṣeé gbára lé jù àti pé kò ṣòro láti lóye.
 
-Pepper Sync ṣe iranlọwọ nipa:
-- Ṣíṣí àwọn ohun tó ń díwọ̀n wọlé kù - Àwọn oníṣe tuntun lè tètè bẹ̀rẹ̀.
-- Atilẹyin lilo ojoojumọ - Awọn adirẹsi ti o ni aabo di rọrun lati gbẹkẹle.
-- Ifilọlẹ idagba eto-aye - Iriri apamọwọ ti o dara julọ n ṣe awakọ gbigba diẹ sii, awọn ohun elo, ati awọn iṣẹ.
+## Ìran / Àfiwé
 
-Nipa imudarasi iriri apamọwọ, Pepper Sync ṣe okunkun gbogbo ilolupo eda abemi Zcash.
+ronú nípa àpò ìwé tí ó ti pẹ́ bíi kíkàwé tó gùn gan-an láti ojúewé kan, lóhùn rara, kó o to lè sọ ohunkóhun nípa rẹ̀. dúró ní ìdajì ọ̀nà, àti bẹ̀rẹ̀ padà láti ojúwé kìíní. Pepper Sync ka ìwé náà, ṣùgbọ́n yóò pa àmì àkọsílẹ̀ mọ́, á kọkọ kà àwọn orí tó ṣe pàtàkì fún ẹ, yóò sì jẹ́ kí ìwọ bá a sọ̀rọ̀ lórí ìtàn náà ṣáájú kí o tó parí ojúewè kẹyìn.
 
----
+Àmì ojúewé ni apá pàtàkì. Gbogbo àtúnṣe tó ti wà tẹ́lẹ̀ ń wo ìmúṣiṣẹ́pọ̀ tí ó dáwọ́ dúró bí iṣẹ́ tí a pàdánù; Pepper Sync ṣe é bíi ìdákẹ́sẹ̀.
 
-## BÍ PÉPÉRÙ SÍNÀÌ ṢE ṢE (Ọ̀RỌ̀ TÓ RẸ̀RẸ̀)
-Instead of rescanning the blockchain in huge, clunky chunks, Pepper Sync works in small, manageable steps—always saving your place as it goes.
+### Àwọn ìwé tó ń fi àwòrán hàn
+
+- Ìsọfúnni tó kún fún ìjìnlẹ̀ - Ó fi gbogbo ìgbésẹ̀ hàn. ![Detailed Flow](https://github.com/user-attachments/assets/119c13ec-76be-42bd-b558-762d09275a1b)
+
+- Ìṣàn tí a mú rọrùn - Àwòran kíákíá fún àwọn oníṣe ojoojúmọ́. ![Simplified Flow](https://github.com/user-attachments/assets/9b612cbd-f24d-4472-9b87-0f2c908bb368)
+
+## Wọlé Lọ Jìnnà
+
+### Bí Pepper Sync ṣe ń ṣiṣẹ́ (ìwòye tó rọrùn)
+
+Dípò kí ó tún àdàkọ blockchain ṣe ní ìpele-ìpín, Pepper Sync ń ṣiṣẹ́ ni àwọn ìgbésẹ̀ kéékèèké tí a lè darí - nígbà gbogbo á máa pa ibi rẹ mọ́ bí o ti n lọ.
 
 1. So pọ - Àpò-ìpamọ́ wọlé pẹ̀lú nẹtiwọọki.
-2. Gbigba Awọn bulọọki - A ṣe igbasilẹ data ni ilọsiwaju.
-3. Ṣayẹwo - Awọn idunadura ti wa ni idaniloju.
-4. Ṣakoso Awọn Akọsilẹ Aṣọ - Ìpamọ ti a pa mọ ni gbogbo igba.
-5. Ṣe àtúnṣe sí Àlàfo - Wọ́ọ̀lì máa ń sọ̀tun láìséwu.
-6. Fi Ìlọsíwájú pamọ́ - Yóò dáwọ́ dúró, yóò sì tún máa bá iṣẹ́ rẹ̀ lọ.
-7. parí - àpò-ìpamọ́ ti ṣetán láti ṣe ìnáwó.
+2. Gbigba Awọn bulọọki - A gba data silẹ ni ilọsiwaju.
+3. Ṣayẹwo - Awọn iṣowo ti wa ni idaniloju.
+4. Ṣakoso Awọn Akọsilẹ Aṣọ - Ìpamọ́ ti wa ni ipamọ ní gbogbo ìgbà.
+5. Àtúnṣe Ìṣòro - Wọ́léètì ń sọ̀tun ní ààbò.
+6. Fi Àṣeyọrí pamọ́ - Yóò dáwọ̀ dúró, yóò sì tún padà lọ láìṣe àbùkù.
+7. Ṣẹ́yìn - Wọléètì ti ṣetan láti ṣe ìnáwó.
 
-### ÀWỌN ÀMỌ̀RÁN ÌWÉ:
-- Ìṣàn Àlàyé - Ó fi gbogbo ìgbésẹ̀ hàn. ![Ìṣàn àlàyé](/content-images/119c13ec-76be-42bd-b558-762d09275a1b-8ba7a18302.webp)
+## Àwọn Ohun Tó Lè Yọrí sí Lóòótọ́
 
-- Ṣiṣan ti o rọrun - Wiwo iyara fun awọn olumulo lojoojumọ. ![Simplified Flow](/content-images/9b612cbd-f24d-4472-9b87-0f2c908bb368-eb34a722a2.webp)
+### Àwọn wo ló ń jàǹfààní látinú Pepper Sync?
 
----
+- Àwọn Olùloyè tuntun - Le ṣe ìsopọ̀ àwọn àpamọ́ owó láìní díẹ̀ lọ́kàn nítorí ìdádúró.
+- Awọn Olumulo Ojoojumọ - Iṣọkan ti o gbẹkẹle jẹ ki awọn sisanwo aabo wulo fun lilo ojoojumọ.
+- Awọn Olùgbéejáde & Àwọn Onídánwò - Àkókò ìsopọ̀ tí ó kúrú túmọ̀ sí àwọn ayẹyẹ ìdánwò tó yá.
+- Mobile & Light Devices - Zingo n ṣiṣẹ daradara paapaa lori ohun elo ti o ni opin.
 
-## ÀWỌN ÌṢẸ̀KÒRÍ: Wọ́n ń wọ ọkọ̀ pẹ̀lú ZINGO 2.0
-1. Ṣe igbasilẹ apamọwọ naa - Gba ẹya ti o tọ lati oju-iwe itusilẹ Zingo GitHub[](https://github.com/zingolabs/zingolib?utm_source=chatgpt.com)
-2. Ṣeto apamọwọ rẹ - Ṣẹda tuntun kan tabi mu pada lati gbolohun ọrọ irugbin ti o wa tẹlẹ. Zingo 2.0 pẹlu Zingo Labs[](https://www.youtube.com/watch?v=FREwMzf_LlM)
-3. Jẹ ki Pepper Sync Run - Wo awọn ifihan ilọsiwaju bi awọn imudojuiwọn apamọwọ rẹ.](https://x.com/ZingoLabs/status/1961871338441724191)
-4. Bẹrẹ Lilo Zcash - Firanṣẹ ki o si gba ZEC ti o ni aabo ni kete ti isọdọkan ba pari.
-5. Rọra Nipa Awọn Idilọwọ - Ti ohun elo ba pa tabi asopọ ba ṣubu, Pipọ Sync tun bẹrẹ laifọwọyi.
+### Ìdí tí ó fi ṣe pàtàkì fún Zcash
 
----
+Zcash ni a kọ si ayika awọn iṣowo ti o bo, ọkan ninu awọn irinṣẹ aṣiri to lagbara julọ ni cryptocurrency. Ṣugbọn asiri jẹ wulo nikan bi o ba wa wọle.
 
-## Àwọn Ìbéèrè Tí A Máa Ń Béèrè - ÌBÉÈRÈ TÓ WỌN ṢE
-Q: Ṣe mo ní láti tún àyẹ̀wò ṣe ní gbogbo ìgbà tí mo bá ṣí àpò náà? 
-A: Rárá. Pepper Sync máa ń fi ìlọsíwájú pamọ́, nítorí náà o máa ń ṣe àtúnṣe láti ibi tó kẹ́yìn.
+Pepper Sync ṣe iranlọwọ nipa:
 
-Ìbéèrè: Kí ló máa ṣẹlẹ̀ tí ayélujára mi bá dàrú? 
+- Ṣíṣá àwọn ohun tó ń díwọ̀n wọlé - Àwọn olùlowó tuntun lè tètè bẹ̀rẹ̀.
+- Atilẹyin lilo ojoojumọ - Awọn adirẹsi ti o ni aabo di rọrun lati gbẹkẹle.
+- Ifilọlẹ idagbasoke eto-aye - Iriri apamọwọ ti o dara julọ n ṣe awakọ gbigba diẹ sii, awọn ohun elo ati iṣẹ.
+
+Nípa mímú ìrírí àpò owó sunwọ̀n sí i, Pepper Sync ń fún gbogbo ètò ìsálú Zcash lókun.
+
+### Bẹrẹ: gbígbé pẹlú Zingo 2.0
+
+1. Ṣe igbasilẹ Iwe-owo naa - Gba ẹya ti o tọ lati oju-iwe [Zingo GitHub fifunni]](https://github.com/zingolabs/zingolib)
+2. Ṣeto apamọwọ rẹ - ṣẹda tuntun kan tabi mu pada lati inu gbolohun ọrọ irugbin ti o wa tẹlẹ. [Zingo 2.0 pẹlu Zingo Labs]](https://www.youtube.com/watch?v=FREwMzf_LlM)
+3. Jẹ ki Pepper Sync Ṣiṣẹ - Wo awọn afihan ilọsiwaju bi imudojuiwọn apamọwọ rẹ. [Pepper Synch Run](https://x.com/ZingoLabs/status/1961871338441724191)
+4. Bẹrẹ Lilo Zcash - Fi ati gba awọn ohun elo ti o ni aabo ZEC lẹsẹkẹsẹ bi isọdọkan ba pari.
+5. Rọ́ra nípa àwọn ìkórìíra - Bí app bá ti pa tàbí tí àjápò ba já, Pepper Sync yóò tún padà bẹ̀rẹ̀ nídàá.
+
+## Àwọn Àṣìṣe Tó Máa Ń Ṣẹlẹ̀ Lóde Òní
+
+**Tẹ́jú Pepper Sync gẹ́gẹ́ bí àpò owó ní ẹ̀tọ́ tirè rẹ**. Pepper sync ni ẹrọ ìsopọ nínú Zingo! àpò, kìí ṣe ohun èlò tó yàtọ̀ síra. O fi Zingo sori; Peppersync jẹ èyí tí ó ń ṣiṣẹ lábẹ́ rèé.
+
+** Ifá pé ìsínkálọ́pọ̀ tí ó yá jù túmọ̀ sí àṣírí tó rẹlẹ̀ ju**. Ìyára náà wá láti bí a ṣe ń mú data àdìpọ̀, bó o ti pàṣẹ fún un àti báa fi pamọ́ sínú ìṣàpamọ́, kì í ṣe láti ṣí àwọn ìmọ̀ síwájú síi payá. Àwọn ìdánwò dídènà wà ní aṣiri títí dé àsìkò kan.
+
+**Ti o ba ro pe o gbọdọ wa ni ibamu daradara ṣaaju ki o to lo**. Ṣiṣowo ṣaaju iṣọkan ti pari jẹ ọkan ninu awọn ẹya akọle ti Pepper Sync, nitorinaa iwọ ko nilo lati duro fun apamọwọ naa lati de opin pqp.
+
+## FAQ - Àwọn ìbéèrè tí a sábà máa ń béèrè
+
+Q: Ṣe mo ní láti tún àyẹ̀wò ṣe nígbàkigbà tí mo bá ṣí apamọwọ náà?
+
+A: Rárá. Pepper Sync ń pa ìlọsíwájú mọ́, nítorí náà o máa ṣe àtúnṣe láti ibi tó kẹyìn nìkan ni.
+
+**Ibeere: Kí ló máa ṣẹlẹ̀ tí ayélujára mi bá jáwọ́?**
+
 A: Ṣiṣakojọpọ duro ati tẹsiwaju nigbamii laisi tun bẹrẹ.
 
-Ìbéèrè: Ṣé ìpamọ́ mi wà ní ààbò nígbà tí mo bá ń ṣe àdàkọ? 
-A: Bẹ́ẹ̀ ni. Àwọn ìnáwó tí a fi ààbò ṣe máa ń wà ní ìpamọ́ pátápátá.
+Q: Ṣé ìpamọ́ mi wà ní ààbò nígbà tí mo bá ń ṣe ìṣàmúlò?
 
-** Q: Bawo ni igba pipẹ ni akọkọ isọdọkan gba? ** 
-Ìdáhùn: Lọ́pọ̀ ìgbà, ó máa ń tó ìṣẹ́jú dípò wákàtí, ìyẹn sinmi lórí ohun tó o lò àti ìkànnì Íńtánẹ́ẹ̀tì tó o ní.
+A: Bẹ́ẹ̀ ni. Àwọn ìnáwó tí a fi ààbò ṣe máa ń jẹ́ àṣírí pátápátá.
 
-Ìbéèrè: Ṣé mo lè lo àpò-ìpamọ́ náà kó tó di pé a ṣe àdàkọ rẹ̀ tán? 
-Ìdáhùn: O ní láti ṣe àdàkọ rẹ sí ìparí ẹ̀ka, ṣùgbọ́n Pepper Sync yóò mú ọ dé ibẹ̀ ní kíákíá.
+Q: Bawo ni gun ti akọkọ isọdọkan gba? **
 
----
+Ìdáhùn: Lọ́pọ̀ ìgbà, ó máa ń tó ìṣẹ́jú dípò wákàtí. Ó sinmi lórí ohun èlò àti Íńtánẹ́ẹ̀tì tí o ní.
 
-## ÀWỌN OJÚMỌ́ ÀTI ÀRÍWỌ́
-- Zingo! Àpamọ́ GitHub[](https://github.com/zingolabs/zingolib?utm_source=chatgpt.com)
-- Àjọ Ìjọ Zcash[](https://forum.zcashcommunity.com/?utm_source=chatgpt.com)
-- Àwọn Ìkéde Ìjọba - Zingo Labs Twitter[](https://twitter.com/ZingoLabs?utm_source=chatgpt.com)
+Ìbéèrè: Ṣé mo lè lo àpò-ìpamọ́ kí ìfọwọ̀sopọ̀ tó parí?
 
----
+A: Bẹẹni. Pepper Sync ṣe atilẹyin inawo ṣaaju ki isọdọkan ti pari, nitorinaa o ko nilo lati duro fun apamọwọ naa lati de opin pqp.
 
-## ÌPÍTÍLẸ̀
-Pẹlu Zingo 2.0 Pepper Sync, isọdọkan ko jẹ aaye irora ti o tobi julọ ti awọn apamọwọ ideri. O jẹ bayi ni iyara, iduroṣinṣin, ati ore-olumulo, dinku idena fun awọn tuntun ati ṣiṣe lilo ojoojumọ diẹ sii wulo.
+## Ìparí Ọ̀rọ̀
 
-For users, it means less waiting and more privacy. For developers, it means a stronger foundation to build on. For the Zcash ecosystem, it's another step toward making shielded transactions accessible to everyone.
+Pẹlu Zingo 2.0 Pepper Sync, isọdọkan ko si ni aaye irora nla ti awọn apamọwọ aabo. O jẹ bayi iyara, iduroṣinṣin ati ore-olumulo, fifun idiwọ fun awọn tuntun ati ṣiṣe lilo ojoojumọ diẹ sii wulo.
 
-Zingo 2.0 pẹlú Pepper Sync kì í ṣe àtúnṣe lásán, ó jẹ ìlọsíwájú fún ẹ̀rọ-ìpamọ́ tí a lè lò.
+fún àwọn oníṣe, ó túmọ̀ sí dídúró tí kò tó nǹkan àti ìpamọ́sí púpọ̀. fún àwọn olùdàgbàsókè, ó tọ́ka sí ìpìlẹ̀ lílágbára láti kọlé lé lórí. fún ètò ìṣètò Zcash, ìgbésẹ̀ mìíràn ni èyí jẹ́ ní títúbọ̀ ṣe kí àdáwó-ààbò wà lárọ̀ọ́wọ́tó gbogbo ènìyàn.
+
+Zingo 2.0 pẹlu Pepper Sync kì í ṣe àtúnṣe lásán; ó jẹ ìyípadà síwájú fún ẹ̀rọ-ìpamọ́, tí a lè lò.
+
+## Àwọn ojúewé tó ní í ṣe pẹ̀lú rẹ̀
+
+- [Ìṣètò Ìpínwó Zcash]](/zcash-tech/zcash-wallet-syncing)  bí ìfiwéra àpò ṣe ń ṣiṣẹ́ ní gbogbo ètò ìṣẹ̀dá Zcash.
+- [Àwọn Ìpín Lightwallet]](/zcash-tech/lightwallet-nodes)  ìlé-iṣẹ́ tí àpò owó tó rọrùn bíi Zingo ń bá lò.
+- [Zaino] Èmi náà sì ni.](/zcash-tech/zaino)  àtòjọ ìsọfúnni tí ẹgbẹ́ Zingo ṣe.
+- [Àwọn àpamọ́wọ́n]](/wallets)  gbogbo ìwé ìsọfúnni nípa àwọn àpò Zcash àti ohun tí wọ́n ní.
+
+## Mímọ Sí I
+
+- [Zingo! Àpamọ́ GitHub]](https://github.com/zingolabs/zingolib)
+- [Ìjọ Ìjùmọ̀ Zcash]](https://forum.zcashcommunity.com/)
+- Àwọn Ìkéde Ìjọba - [Ìwé Twitter Zingo Labs]](https://twitter.com/ZingoLabs)
+
+___
+___

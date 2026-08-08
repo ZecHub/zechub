@@ -2,56 +2,56 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ìpolongo Ìsọfúnni nípa Ìpínlẹ̀ ní lílo VDO.Ninja àti OBS Studio
+# Ìròyìn nípa àwùjọ tí ó ń lo VDO.Ninja àti OBS Studio
 
-A ṣe ẹkọ kukuru yii lakoko [DWeb Camp 2023](https://dwebcamp.org/) ìlépa ìdánrawò yìí ni láti lo àwọn ẹ̀rọ alágbèéká tí wọ́n so pọ̀ mọ́ àkànṣe MESH fún fídíò kíkọ àti gbígbóhùnsá.
+A ṣe ẹkọ kukuru yii lakoko awọn akoko ti o wa ni ayika. [Àgó DWeb 2023](https://dwebcamp.org/) ìlépa ìdánrawò yìí ni láti lo àwọn ẹ̀rọ alágbèéká tí ó so mọ́ àgbélẹ̀ MESH fún fídíò kíkọ àti gbígbóhùnsí.
 
-A lo awọn software orisun ṣiṣi meji [OBS Studio (Open Broadcaster software)](https://obsproject.com/) àti [VDO.Ninja](https://vdo.ninja/)Àwọn ètò yìí lè wà lórí ẹ̀rọ rẹ kó sì máa ṣiṣẹ́.
+A lo software ìkànnì alátagbà méjì. [OBS Studio (ìpèsè ìtòlẹ́sẹẹsẹ fún àwọn onífèròwérò tí ó ṣí sílẹ̀)](https://obsproject.com/) àti pé, [VDO.Ninja (ì í ì ë ¤)](https://vdo.ninja/)Àwọn ètò yìí lè wà lórí ẹ̀rọ rẹ kó o sì máa lò ó.
 
 ## OBS Studio (ìpèsè Open Boardcaster)
 
-OBS Studio is Free and Open source software for recording and live streaming that is available for multiple operating systems. The software was first released in 2012 and enjoys quite a large following among game streaming community and independent video content creators.
+OBS Studio jẹ Free ati Open orisun software fun gbigbasilẹ ki o si gbe sisanwọle ti wa ni wiwo fun orisirisi awọn ọna šiše. Awọn software akọkọ tu jade ninu 2012 ati ki o gbadun kan oyimbo tobi atẹle laarin ere ṣiṣan agbegbe ati ominira fidio akoonu creators.
 
-The OBS Studio user interfaces could look quite daunting for the first the time users. The OBS studio is divided into two windows "Preview" and "Broadcast". The preview window shows available videos (various cameras such as webcam, Iriun Webcam, OBS Virtual Camera, Video and Browser source) called "Scenes" and "Broadcast" shows the live stream.
+Awọn OBS Studio olumulo interfaces le wo gan daunting fun awọn igba akọkọ ti akoko users. The OBS studio ni pin si meji windows "Atijọwo" ati "Broadcast". awá" n preview window fihan wa fidio (orisirisi kamẹra bi webcam, Iriun Webcam, OBS foju Kamẹra, Video ati Browser orisun) a pe ni "Scenes" ati ki o "B broadcast" han laaye sisanwọle .
 
 In order to stream from a remote camera stream from VDO.ninja into OBS Studio, you start by adding a new "Browser Source" with "Sources > Add > Browser". In the new window, you can provide the source URL from VDO.Ninja and select "Make source visible".
 
-Wàyí o, ẹ lè bẹ̀rẹ̀ sí gbé àwọn ìsọfúnni náà jáde.
+Ní báyìí ẹ lè bẹ̀rẹ̀ sí gbé àwọn ìsọfúnni tó wà ní òkèèrè jáde.
 
-## VDO.Ninja
+## VDO.Ninja (ì í ì ë ¤)
 
-[VDO.Ninja]](https://vdo.ninja/) is an Free and open source web application that allows you to turn your mobile devices into live streaming camera. The software could downloaded and deployed onto your local computer or you can directly use the [online version at https://vdo.ninja](https://vdo.ninja/).
+[VDO.Ninja (ì í ì ë ¤)](https://vdo.ninja/) is an Free and open source web application that allows you to turn your mobile devices into live streaming camera. The software could downloaded and deployed onto your local computer or you can directly use the [orí ìkànnì www.europa.eu/en-us https://vdo.ninja](https://vdo.ninja/).
 
-The VOD.Ninja interface is simple, just open the VDO.Ninja in your mobile devices web browser and select "Add your camera to OBS". You'll then select your camera and audio device from list of devices and click "Start".  You'll then get "view" link which can add to OBS Studio.
+VOD.Ninja ni wiwo jẹ rọrun, o kan ṣii VDO.Ninya ninu ẹrọ alagbeka rẹ ati yan "Fi kamẹra rẹ si OBS". Iwọ yoo lẹhinna yan kamera rẹ ati ohun afetigbọ lati atokọ awọn ẹrọ ki o tẹ lori"Bẹrẹ". iwọ yoo gba ọna asopọ "wiwo" eyiti o le fi sii si Studio OBS .
 
-## Ṣiṣakoso ipe agbegbe pẹlu VDO.Ninja
+## Ṣíṣe ìkésíni àwùjọ pẹ̀lú VDO.Ninja
 
-Bẹrẹ nipa lilọ si [VDO.ninja](http://VDO.ninja) pẹlú aṣàwákiri orí ayélujára rẹ lórí kọ̀ǹpútà alágbèéká.
+Bẹrẹ nipa lilọ si: [VDO.ninja (ì í ì ë ¤)](http://VDO.ninja) pẹlu aṣàwákiri ayelujara rẹ lori deskitọpu/kọǹpútà alágbèéká.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8ded1b54-602b-4e66-af92-127990eff723/Screenshot_2023-08-23_162222/w=3840,quality=80" alt="" width="300" height="400"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="300" height="400"/>
 </a>
 
 
-Láti dá yàrá tuntun kan àti láti darí ìkésíni àwùjọ tirẹ, tẹ Ṣẹda yàrá kan.
+Láti dá yàrá tuntun àti láti darí ìkésíni àwùjọ rẹ, tẹ Ṣẹda iyàrá.
 
-Àwòrán tó tẹ̀ lé e yóò béèrè fún ìsọfúnni pàtàkì láti fi ṣètò yàrá rẹ.
+Àwòrán tó kàn á béèrè fún ìsọfúnni pàtàkì láti fi yàrá rẹ sípò.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ae698696-7b4d-458e-8de0-58a198c36e73/Screenshot_2023-08-23_183900/w=3840,quality=80" alt="" width="400" height="400"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
 </a>
 
-Nígbà tí a bá ti dá yàrá kan, olùdarí náà ní ọ̀pọ̀lọpọ̀ àwọn àyè ìṣàkóso tó wà ní ojú iboju tó tẹ̀ lé e.
+Nígbà tí a bá ti dá yàrá kan, olùdarí ní ọ̀pọ̀lọpọ̀ àwọn àyè ìṣàkóso tó wà lórí ìwòrán-ìwòye.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/35b43544-5114-4e74-ac41-9e8993fe62ea/Screenshot_2023-08-23_184015/w=3840,quality=80" alt="" width="400" height="400"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
 </a>
 
 
-Nigba ti awon eniyan ba darapo si yara re, o, oludari, yoo ri gbogbo awon orisirisi orisun ati awọn iṣakoso ti o han pẹlu fidio ati ohun orin won.
+Nigbati awon eniyan ba darapo si yara re, o ni oludari yoo ri gbogbo orisirisi orisun ati awọn iṣakoso ti a fi han pẹlu fidio wọn ati ohun.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2247f187-b005-478e-9e5e-471cb8f070d3/Screenshot_2023-08-23_194136/w=3840,quality=80" alt="" width="400" height="300"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="300"/>
 </a>
 
 
@@ -59,35 +59,35 @@ Nigba ti awon eniyan ba darapo si yara re, o, oludari, yoo ri gbogbo awon orisir
 
 - Iru awọn kaadi fidio wo ni o nilo fun OBS Studio ?
 
-O le lo kan ti ara ẹni kọmputa pẹlu kan ti o dara kaadi aworan ati ọpọlọpọ awọn ti iranti tabi dipo o le lo a hardware encoders [Teradek VidiU](https://www.bhphotovideo.com/c/product/1609186-REG/teradek_10_0235_vidiu_x_modem.html?gclid=EAIaIQobChMIl4aIo7zX_wIVDhqtBh0PgwhxEAAYAiAAEgInufD_BwE)
-- Ǹjẹ́ OBS fàyè gbà ọ láti ṣe ìtumọ̀ àti àkọlé?
+O le lo a ara ẹni kọmputa pẹlu kan ti o dara kaadi aworan ati ọpọlọpọ awọn iranti tabi dipo o le lo ohun hardware encoders [Teradek VidiU ì í ë ¤ì 'ë¦¬í ¬](https://www.bhphotovideo.com/c/product/1609186-REG/teradek_10_0235_vidiu_x_modem.html?gclid=EAIaIQobChMIl4aIo7zX_wIVDhqtBh0PgwhxEAAYAiAAEgInufD_BwE)
+- Ṣé OBS fàyè gba ọ láti ṣe ìtumọ̀ àti àkọlé?
 
-Àwọn àfikún kan wà tí àwọn aráàlú ti fi kún un tí ó dàbí ẹni pé ó ń pèsè irú iṣẹ́ yìí. [https://github.com/eddieoz/OBS-live-translation](https://github.com/eddieoz/OBS-live-translation)
+Àwọn àfikún kan wà tí àwọn aráàlú ti ṣe ìtìlẹyìn fún, tó dàbí ẹni pé wọ́n ń pèsè irú iṣẹ́ yìí. [https://github.com/eddieoz/OBS-live-translation](https://github.com/eddieoz/OBS-live-translation)
 
-- Ǹjẹ́ o lè ṣe àtúnṣe àwọn àfikún rẹ fún OBS Studio?
+- Ṣé o lè ṣe àtúnṣe àwọn ohun-ìmọ̀ rẹ fún OBS Studio?
 
-Bẹ́ẹ̀ ni, OBS ní ìtìlẹ́yìn lua, python scripting. Bákan náà JavaScript fún Overlays àti webviews.
+Bẹẹni, OBS ni atilẹyin lua, Python scripting. Pẹlupẹlu JavaScript fun Overlays ati awọn iwo oju-iwe ayelujara.
 
-- Ṣé a máa ń lo àyípadà láti dúdú dórí dúdú tàbí àtúnṣe?
+- Ṣé a máa lo àdàpọ̀ òdòdó tàbí àwọn ìyípadà?
 
 Ìwọ ni yóò pinnu ìyẹn, ìwọ tó o jẹ́ olùṣèwé!
 
-- Ṣé ó máa ń pẹ́ díẹ̀ nígbà tí o bá ń gbé ìsọfúnni jáde?
+- Ṣé ó ní ìró tí kò dúró nígbàtí o bá ń gbé ìròyìn jáde?
 
-Eyi da lori ibi ti o ti n ṣe igbohunsafefe. Fun apẹẹrẹ, YouTube le ni idaduro iṣẹju kan tabi diẹ sii nitori ṣiṣe fidio ti a ṣe lori awọn olupin wọn ṣaaju gbigbe.
+Eyi da lori ibi ti o n lọ, fun apẹẹrẹ YouTube le ni idaduro iṣẹju kan tabi diẹ sii nitori ṣiṣe fidio ti a ṣe lori awọn olupin wọn ṣaaju igbohunsafefe.
 
-- Audio drops nigba ti lilo OBS on lọra ẹrọ ati nigba ti o n ṣe alawọ ewe-iṣayẹwo
+- Audio drops nigba ti lilo OBS on lọra ẹrọ ati lakoko ṣiṣe alawọ ewe-iṣayẹwo
 
-Lo ohun èlò tí ó ń ṣe àdàkọ tàbí lo ọ̀pá ìsọ̀rí
-[https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard](https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard) tàbí [RiverSide.FM](http://riverside.fm/)
+Lo ohun èlò ìkọ̀rọ́ tàbí lo ọgbà ìṣàn-ìmọ̀ràn.
+[https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard](https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard) or [Àdúgbò RiverSide.FM](http://riverside.fm/)
 
-## Àwọn owó tí wọ́n gbà
+## Àwọn ìsọfúnni tó wà nínú ìwé náà
 
-- Ryan, ṣé ìwọ náà rí i?
-- Ajayi
-- Arky
+- Ryan, ṣé o mọ ohun tó ń ṣe?
+- Ajay (ìyẹn)
+- Arky (ìmọ̀ràn)
 
-## Àwọn ohun àmúṣọrọ̀
+## Àwọn Owó-ìṣúnná owó
 
 [https://obsproject.com/help](https://obsproject.com/help)
 

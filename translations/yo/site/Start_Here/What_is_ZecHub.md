@@ -6,26 +6,26 @@
 # Kí ni ZecHub?
 ---
 
-ZecHub jẹ a decentralized eko aarin fun Zcash.](http://zechub.xyz) ni lati pese pẹpẹ ẹkọ nibi ti awọn ọmọ ẹgbẹ agbegbe le ṣiṣẹ papọ lori ṣiṣẹda, ifọwọsi, ati igbega akoonu ti o ṣe atilẹyin ilolupo eda abemi Zcash. A ṣe eyi nipasẹ awọn ilana diẹ.
+ZecHub jẹ a decentralized eko hub fun Zcash. Awọn ìlépa ti [ZecHub] ni lati mu awọn oniwe-ašẹ ati ki o ṣe awari gbogbo owo, bi daradara bi ohun elo to wa ninu rẹ.](http://zechub.xyz) ni lati pese pẹpẹ ẹkọ nibi ti awọn ọmọ ẹgbẹ agbegbe le ṣiṣẹ papọ lori ṣiṣe, idanimọ ati igbega akoonu ti o ṣe atilẹyin ilolupo eda abemi Zcash. A ṣe eyi nipasẹ diẹ ninu awọn ilana kan.
 
-1. [Àwọn ìdánilẹ́kọ̀ọ́](https://www.youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O)
-2. [Àwọn ìwé-ìwé Wiki](https://zechub.wiki/)
-3. [Àkọsílẹ̀ ìfọ̀rọ̀wérọ̀ pẹ̀lú àwọn ọmọ ìjọ](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O).
-4. [Ìwé ìròyìn Zcash tó máa ń jáde lọ́sọ̀ọ̀sẹ̀.](https://zechub.substack.com/)
+1. [Àwọn ìdánilẹ́kọ̀ọ́]](https://www.youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O)
+2. [Àwọn ìwé-ìwé Wiki]](https://zechub.wiki/)
+3. [Àkọlé àwòrán, A fi àwọn ọmọ ìjọ ṣe ìfòhùnwérò]](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O).
+4. [Ìwé ìròyìn Zcash tó ń jáde lọ́sọ̀ọ̀sẹ̀.](https://zechub.substack.com/)
 
-Awọn ẹkọ, awọn bulọọgi kukuru, ati iwe iroyin jẹ orisun ṣiṣi ati ti gbalejo lori GitHub, itumo ẹnikẹni lati agbegbe le ṣe alabapin. Eyi ni lati rii daju pe akoonu jẹ deede ati pe ikanni funrararẹ ko jiya lati aaye kan ti ikuna.
+Àwọn ẹ̀kọ́, àwọn ìkànnì orí íńtánẹ́ẹ̀tì àti ìwé ìròyìn jẹ àtẹjáde tí ó ní orísun ìmọ̀lẹ̀-sí ati ti a gbalejo lórí GitHub. Èyí túmọ̀ sí pé ẹnikẹni láti inú àwùjọ lè ṣe ìrànwọ́. Eyi ni lati rii daju wípé àkójọpọ̀ rẹ kò ṣókùnkùn kankan àti wípé ọ̀nà náà fúnra rẹ̀ kì yóò jìyà látàrí ìdásílẹ̀ kan ṣoṣo.
 
-Ti o ba ti o ba titun si Zcash, lo [yi guide](/site/Start_Here/New_User_Guide).****
+Ti o ba ti wa ni titun si Zcash, lo [yi guide]](/start-here/new-user-guide).****
 
-## Bii o ṣe le ṣe awọn ayipada si ZecHub
+## Bii o ṣe le yi awọn ayipada pada si ZecHub
 
 ---
 
-1. Lọ sí [ZecHub's Github repo](https://github.com/ZecHub/zechub)
+1. Lọ sí [ìpamọ́ Github ti ZecHub]](https://github.com/ZecHub/zechub)
    
-2. Ṣẹ̀dá àkọọ́lẹ̀ Github tuntun tàbí wọlé pẹ̀lú tìrẹ
+2. Ṣẹ̀dá àkọọ́lẹ̀ Github tuntun tàbí wọlé pẹlú tìrẹ fúnra rẹ.
    
-3. Tẹle itọsọna yii lati kọ bi o ṣe le ṣe ibeere fa:
+3. Tẹle itọsọna yii lati kọ bi o ṣe le mu ibeere:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -33,17 +33,17 @@ Ti o ba ti o ba titun si Zcash, lo [yi guide](/site/Start_Here/New_User_Guide).*
     src="https://www.youtube.com/embed/8eYDTyV39a4"
     title="How to Contribute to ZecHub!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    gba Àwòrán-ìwòyí ní kíkún (FullScreen)
     loading="lazy"
   />
 </div>
 
 
-## Àwọn Ìlànà fún Àwọn Tó Ń Ṣètìlẹyìn
+## Àwọn Ìtọ́ni fún Olùfúnni ní Àfikún Ètò
 
 ---
 
-Láti lè mú kí ZecHub máa rí bákan náà, àwòkọ́ṣe kan wà tí o lè lò nígbà tí o bá ń fi ojúewé kún ilé ìfowópamọ́.
+Láti lè mú kí ojúewé ZecHub máa rí bákan náà, àwòkọ́ṣe kan wà tí o le lò nígbàtí ó ń fi àwọn ojúewè kún inú ilé ìfowópamọ̀.
 
 ```markdown
 1. All pages should have additional resources (ie. links to z.cash) to support content
@@ -59,8 +59,8 @@ Láti lè mú kí ZecHub máa rí bákan náà, àwòkọ́ṣe kan wà tí o l�
 
 
 
-**DISCLAIMER: ZecHub jẹ́ ètò aládàáni àti ìmọ̀-ìmọ̀ tí a dá sílẹ̀ láti ọwọ́ àwọn ọmọ ẹgbẹ́ Zcash. Kò sí ohunkóhun nínú ibi ìpamọ́ Github yìí tí ó yẹ kí a kà sí ìmọ̀ràn nípa owó tàbí ìnáwó - ó wà fún ìsọfúnni nìkan.**
+**IYẸRỌ: ZecHub jẹ ipilẹṣẹ ti o ni ominira ati orisun ṣiṣi silẹ nipasẹ awọn ọmọ ẹgbẹ agbegbe Zcash. Ko si nkankan ninu ibi ipamọ Github yii yẹ ki a ṣe akiyesi imọran owo tabi idoko-owo - o wa fun idi alaye nikan.**
 
 ---
 
-*Bí o bá fẹ́ fi kún, tàbí dá àtúnṣe sí ojúewé wiki yìí, jọ̀wọ́ lọ sí [ZecHub github repo](https://github.com/ZecHub/zechub) kó o sì fi ohun kan ránṣẹ́.*
+*Bí o bá fẹ́ fi kún, tàbí dá àtúnṣe sí ojúewé wiki yìí, jọ̀wọ́ lọ sí [ZecHub github repo](https://github.com/ZecHub/zechub) kí o sì fi ohun kan tí wọ́n pè ní pull request ránṣẹ́.*

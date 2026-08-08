@@ -2,40 +2,40 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Àwọn Àkójọ Iye Zcash 
+# Àwọn Ìpín iye Zcash 
 
 ## TL;DR
 
-- Zcash ni lọwọlọwọ ni ** Awọn adagun iye iye 4 **: Sprout (ogún), Sapling, Orchard, ati Transparent.
-- **Orchard** ni adiro akọkọ ti o ni aabo lọwọlọwọ ti a lo nipasẹ Awọn Adirẹsi Aladani (u1...).
-- **Sapling** (àwọn adirẹsi z tí ó bẹ̀rẹ̀ pẹ̀lú `zs`) ṣì ní ìtìlẹ́yìn tó gbòòrò, ó sì ń bá a lọ láti rí i pé àwọn ZEC tí wọ́n fi ààbò bo pọ̀.
-- Àwọn àdírẹ́ẹ̀sì tí ó ṣe kedere (t...) kì í pèsè ìpamọ́ fún ìsàmúlò, wọ́n sì ń ṣiṣẹ́ bíi ti Bitcoin.
-- **Sprout** jẹ́ adágún tí a fi ààbò ṣe tí a ti mú kúrò nínú lílò.
-- A future shielded pool known as **Ironwood** has been proposed to strengthen confidence in the integrity of the shielded ZEC supply while preserving privacy.
-- Fun awọn iṣeduro aṣiri ti o lagbara julọ, awọn olumulo yẹ ki o tẹsiwaju lati fẹ ** shielded-to-shielded (z → z) ** awọn iṣowo nigbakugba ti o ba ṣeeṣe.
+- Zcash ní báyìí ni àwọn ìsọ̀rí iye mẹ́rin: Sprout (àjogúnbá), Sapling, Orchard àti Transparent.
+- **Orchard** ni àgbá tí a fi ọ̀pá ìkọ́lé dídì lò báyìí ti Unified Addresses (u1...).
+- **Sapling** (àwọn adirẹsi z tí ó bẹ̀rẹ̀ pẹlú: `zs`) ṣì ní ìtìlẹyìn tó gbòòrò, ó sì ń bá a lọ láti rí i pé àwọn ZEC tí wọ́n fi ààbò bo wà nínú iye kan.
+- Àwọn àdírẹ́sì tí ó ṣe kedere (t...) kì í pèsè ìpamọ̀ fún àwọn ìdánwò, wọ́n sì ń ṣiṣẹ́ bíi ti Bitcoin.
+- **Sprout** jẹ adágún omi tí a fi ààbò ṣe, èyí ti wọn kò lò mọ́.
+- A ti dabaa adagun-odo ideri kan ni ọjọ iwaju ti a mọ bi ** Ironwood** lati ṣe okunkun igbẹkẹle ninu iṣedede ipese ZEC iboju lakoko mimu asiri.
+- Fun awọn iṣeduro aṣiri ti o lagbara julọ, awọn olumulo yẹ ki o tẹsiwaju lati fẹ ** shielded-to-shielded (z → z)** iṣowo nigbakugba ti o ba ṣeeṣe.
 
 
 <br/>
 
-## Òye àwọn Ìpín Iye Zcash
+## Mọ Awọn Apapo Iye Zcash
 
-Zcash separates funds into distinct accounting systems known as value pools. Each pool has its own cryptographic rules and privacy properties, while the protocol tracks the total value moving between them.
+Zcash pín owó sí àwọn ètò ìsòwò tí ó yàtọ̀, èyí tí a mọ bí àpò iye. Àpótí kọ̀ọ̀kan ní ìlànà ìdánimọ́ àti ohun-ìní àṣírí tirẹ̀, nígbà ti àdéhùn náà ń tọpinpin gbogbo iye tó nlọ láàrin wọn.
 
 Loni, nẹtiwọọki naa ni awọn adagun iye pataki mẹrin:
 
-- Transparent  Public ati ki o ni kikun han lori-pupọ.
-- Sapling  Ìsàlẹ̀ odò tí wọ́n kọ́kọ́ ń lò lóde òní.
-- Orchard  Àkójọ ìpamọ́ àkọ́kọ́ tí wọ́n ń lò nísinsìnyí tí a mú wá pẹ̀lú Adirẹsi Oníṣọ̀kan.
-- Sprout  Àkójọ ìpamọ́ ìpilẹ̀ṣẹ̀ tí a ṣe pẹ̀lú Zcash ní ọdún 2016.
+- Transparent  Public ati ki o ni kikun han lori-ṣaja.
+- Sapling  Ìsàlẹ̀ omi tó ní ààbò tí wọ́n kọ́kọ́ ń lò lóde òní.
+- Orchard  Ìpínlẹ̀ tí a fi ààbò bo ti ìgbàlódé, èyí táa mú wá pẹlú Adirẹsi Oníṣọ́kan.
+- Sprout  Ìkójọ ìpamọ́ tí ó jẹ́ ti àkọkọ ni a ṣe pẹ̀lú Zcash ní 2016.
   
 
 
-Bi Zcash ṣe n dagbasoke, a le ṣe agbekalẹ awọn adagun ideri tuntun lati mu aabo, aṣiri, lilo, ati iṣayẹwo pọ si lakoko ti o n ṣetọju ibaramu pẹlu awọn owo ti o wa tẹlẹ.
+Bi Zcash ṣe n dagbasoke, awọn adagun-odo tuntun ti o ni aabo le ṣee ṣafihan lati mu ilọsiwaju ailewu, asiri, lilo ati iṣayẹwo pọ si lakoko mimu ibaramu pẹlu awọn owo to wa tẹlẹ.
 
 <br/>
 
-! [ì ì1 ]](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
-Àwòrán 1: Àkọsílẹ̀ tí ó fi àwọn àgbá mẹ́rin tó wà nísinsìnyí hàn ní October, 2025
+![img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
+Àwòrán 1: Ìtòlẹ́sẹẹsẹ tó fi àwọn ìsọ̀rí 4 tí ó wà nísinsìnyí hàn láti oṣù October, 2025
 
 <br/>
 
@@ -45,36 +45,36 @@ Bi Zcash ṣe n dagbasoke, a le ṣe agbekalẹ awọn adagun ideri tuntun lati 
 1. <h3 id="orchard" class="text-3xl font-bold my-4">Orchard Pool</h3>
 
 
-! [ì ì ì2 ]](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
-Àwòrán 2: Àtẹ tí ó ń fi àgbá Orchard hàn ní October, 2025
+![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
+Àwòrán 2: Ìtòlẹ́sẹẹsẹ tó fi àgbá Orchard hàn ní oṣù October, 2025
 
 <br/>
 
-The Orchard Shielded Pool was activated on May 31, 2022 as part of the NU5 network upgrade. Orchard introduced a new shielded protocol that eliminated the need for a trusted setup and became the primary shielded pool used by Unified Addresses (UAs).
+A ṣe ifilọlẹ Orchard Shielded Pool ni Oṣu Karun ọjọ 31, Ọdun 2022 gẹgẹbi apakan ti igbesoke nẹtiwọki NU5. Orchid ṣafihan ilana aabo tuntun kan eyiti o yọkuro iwulo fun iṣeto igbẹkẹle ati di adagun idaabobo akọkọ ti a lo nipasẹ Awọn adirẹsi Iṣọkan (UA).
 
-Orchard ṣe ilọsiwaju lilo, ṣiṣe, ati aṣiri ni pataki nipasẹ idinku idasilẹ metadata idunadura ati ṣafihan awoṣe idunwo ti o rọ diẹ sii ti o da lori Awọn iṣe dipo awọn titẹsi ati awọn abajade ti a bo.
+Orchard ṣe ilọsiwaju lilo, ṣiṣe ati asiri ni pataki nipa idinku idasilẹ metadata iṣowo ati ṣafihan awoṣe iṣiro ti o rọ diẹ sii da lori Awọn iṣe dipo awọn titẹsi ihamọra aṣa ati awọn abajade.
 
-Today, Orchard remains the primary shielded pool for Zcash. However, the community is evaluating a future migration to a new shielded pool called Ironwood, which would provide additional assurance regarding the integrity of the shielded ZEC supply while preserving Zcash's privacy guarantees.
+Loni, Orchard jẹ ṣiṣan akọkọ fun Zcash. Sibẹsibẹ, agbegbe n ṣe ayẹwo gbigbe iwaju si adagun tuntun ti a pe ni Ironwood, eyiti yoo pese idaniloju afikun nipa iduroṣinṣin ipese ZEC aabo lakoko mimu awọn iṣeduro aṣiri Zcash pamọ.
 
-[Àwọn pọ́ọ̀sì tí a fi ààbò Zcash ṣe]](/site/Using_Zcash/Wallets) now support Orchard. 
+[Àwọn àpamọ́ tí a fi ìbòjú Zcash ṣe]](/wallets) now support Orchard.
 
 ____
 
 2. <h3 id="sapling" class="text-3xl font-bold my-4">Sapling Pool</h3>
 
 
-! [ì ì ì3 ]](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
-Àwòrán 3: Àtẹ tí ó ń fi ìsédò Sapling hàn ní October, 2025
+![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
+Àwòrán 3: Ìtòlẹ́sẹẹsẹ tó fi àgbègbè ìsun omi Sapling hàn ní oṣù October, 2025
 
 <br/>
 
-[Zcash Sapling]](https://z.cash/upgrade/sapling) was an upgrade to the Zcash protocol introduced on 28th of October, 2018. It is a major improvement over the earlier version of the known as Sprout which had some limitations in terms of privacy, efficiency and usability. 
+[Zcash Sapling](https://z.cash/upgrade/sapling) jẹ́ àtúnṣe sí ìlànà Zcash tí a ṣe ní ọjọ́ 28 oṣù kẹwàá, ọdún 2018. Ó jé ìyípadà ńlá lórí ẹ̀dà ti tẹlẹ èyí tí ó mọ̀ bí Sprout tó ni àwọn ìdíwọ́ kan nínú ọ̀rọ̀ àṣírí ẹni, òye àti lílò. 
 
 Some of the upgrades include improved performance for shielded addresses, Improved viewing keys to enable users view incoming and outgoing transactions without exposing user private keys and Independent Zero Knowledge keys for hardware wallet during transaction signature. 
 
-Zcash Sapling gba awọn olumulo laaye lati ṣe awọn iṣowo ti ara ẹni ni awọn aaya diẹ nikan nigbati a ba ṣe afiwe si akoko pipẹ ti o gba ni Sprout Series. 
+Zcash Sapling gba awọn olumulo laaye lati ṣe iṣowo ti ara ẹni ni iṣẹju diẹ nigbati a ba fiwe si iye akoko to gun julọ ninu Sprout Series. 
 
-Ààbò ìsòwò ń mú kí ìpamọ̀ pọ̀ sí i, tí kò jẹ́ kí ẹnikẹ́ni kẹta lè so ìsówòpọ̀ àti pinnu iye ZEC tí a ń gbé kiri. Sapling tún ń mú ìmúlò sunwọ̀n sí i nípa fífi àwọn ohun àmúṣọrọ̀ dídánáńgìrì tí ó nílò láti ṣe ìsòsòwò àdáni dín kù nípa jíjẹ́ kí ó ṣeé wọlé fún àwọn oníṣe.
+Ààbò ìsòwò ń mú kí àṣírí túbọ̀ jẹ́ àdáni, tí ó sì sọ ọ di aláìṣeé ṣe fún àwọn ẹgbẹ́ kẹta láti so ìṣàdálẹ̀ pọ̀ àti dípinnu iye ZEC ti a n gbe. Sapling tún mu ki ìlúlò sunwọ̀n sí i nípa yíyẹnu ohun-èlò tó nílò nípasẹ̀ kímọ òye ìdánimọ̀ fun ṣíṣe ètò ìbániṣiṣẹ́kọlẹ̀ láìsí ẹni to mọ̀ ọ́n dá lóhùn nípa jíjẹ́ kó rọrùn fáwọn onílò láti lòó.
 
 Sapling wallet addresses begin with "zs" and this can be observed in all supported Zcash Shielded Wallet (YWallet, Zingo Wallet Nighthawk etc.) which has built-in Sapling addresses. Zcash Sapling represents a significant development in technology when it comes to privacy and efficiency of transactions which makes Zcash a practical and effective cryptocurrency for users who value privacy and security.
 
@@ -83,91 +83,91 @@ ____
 3. <h3 id="sprout" class="text-3xl font-bold my-4">Sprout Pool</h3>
 
 
-! [ì ì 1⁄4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
-Àwòrán 4: Àtẹ tí ó ń fi àgbá Ìdárò hàn láti oṣù October, 2025
+![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
+Àwòrán 4: Ìtòlẹ́sẹẹsẹ tó fi àgbá ìrẹ̀ǹgbẹ hàn ní oṣù October, 2025
 
-Sprout ni àkọ́kọ́ nínú àwọn ìlànà ìpamọ́ tí kò ní ìyọ̀ǹda kankan tí wọ́n ṣe. Ó wáyé ní ọjọ́ kejìdínlọ́gbọ̀n oṣù kẹwàá ọdún 2016.
+Sprout ni àkọ́kọ́ nínú àwọn ìlànà ìpamọ̀ tí kò ní àṣẹ, Zero Knowledge. Ó ti bẹ̀rẹ̀ láti 28 October 2016.
 
-Awọn adirẹsi Sprout ni a ṣe idanimọ nipasẹ awọn lẹta meji akọkọ wọn eyiti o jẹ "zc" nigbagbogbo. A pe ni "Sprout" fun idi pataki ti tẹnumọ pe sọfitiwia naa jẹ ọdọ, blockchain budding pẹlu agbara nla lati dagba ati ṣiṣi fun idagbasoke. 
+Awọn adirẹsi Sprout ni a mọ nipasẹ awọn lẹta meji akọkọ wọn eyiti o jẹ "zc" nigbagbogbo. O ti pe orukọ rẹ ni "Sprout" fun idi pataki lati tẹnumọ pe sọfitiwia naa jẹ ọdọ, blockchain budding pẹlu agbara nla lati dagba ati ṣiṣi silẹ fun idagbasoke. 
 
-Sprout ni a lo bi ohun elo tete fun [Zcash slow start Mining](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) eyi ti o mu ki pinpin ti ZEC ati Block ere fun Miners. 
+Sprout ti a lo bi ohun elo tete fun [Zcash slow start Mining]](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) èyí tí ó mú kí ìfúnni ZEC àti èrè Block fún àwọn Miners. 
 
-As the Zcash ecosystem continued  to expand with increasing number of shielded transactions, it was observed that the Zcash Sprout Series became limited and less efficient when it comes to user privacy, transaction scalability and processing. This led to the modification of the network and Sapling Upgrade. 
+Bi eto ilolupo Zcash ti n tẹsiwaju lati faagun pẹlu nọmba awọn iṣowo ideri, o ṣe akiyesi pe jara Sprout Series di opin ati ṣiṣe to kere si nigbati o ba de asiri olumulo, iṣiro owo-owo ati sisẹ. Eyi yori si atunṣe ti nẹtiwọọki ati Sapling Upgrade . 
 
 ---
 4. <h3 id="transparent" class="text-3xl font-bold my-4">Transparent Pool</h3>
 <br/>
 
-! [ì í ì °5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
-Àwòrán 5: Àtẹ tí ó ń fi àwọn ìsọ̀rí tí ó ṣe kedere hàn ní October, 2025
+![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
+Àwòrán 5: Ìtòlẹ́sẹẹsẹ tó fi àwọn ìsọ̀rí tí ó wà ní October, 2025 hàn.
 
 <br/>
 
-Àdírẹ́ẹ̀sì àpamọ́ tí ó ṣe kedere lórí Zcash máa ń bẹ̀rẹ̀ pẹ̀lú lẹ́tà "t", ìpamọ́ra jẹ́ díẹ̀ ní lílo irú àdírẹ̀ẹ́sì yìí fún àwọn ìnáwó.
+Àdírẹ́sì àpò owó tí ó ní ìmójútó lórí Zcash bẹ̀rẹ̀ pẹ̀lú lẹta "t", ìdánimọ̀ jẹ díẹ̀ nínú lílo irú àdíréìsì yìí fún àwọn ìṣàmúlò.
 
 Transparent transactions in Zcash are similar to Bitcoin transactions which supports multi-signature transactions and make use of standard public addresses.
 
-Awọn Zcash Transparent ni o wa julọ lo nipa centralized paṣipaarọ lati rii daju nibẹ ni ga transparency ati nẹtiwọki ijẹrisi nigba fifiranṣẹ ati gbigba ZEC laarin awọn olumulo.
+Awọn Zcash Transparent ni o wa julọ lo nipa centralized paṣipaarọ lati rii daju nibẹ ti jẹ ga transparency ati nẹtiwọki ijẹrisi nigba fifiranṣẹ ki o si gbigba ZEC laarin awọn olumulo.
 
 It's also important to note that while Zcash Shielded addresses provides high privacy during transactions, they also require more computational resources to process transactions. Therefore, some users may adopt Transparent addresses for transactions which doesn't require the same level of privacy.
 
 <br/>
 
-## Ìlànà tí a dámọ̀ràn fún gbígbé àpò ìsọfúnni lọ
+## Ìlànà tí a dámọ̀ràn fún ìmúpòsíwájú nínú àwọn ẹgbẹ́-ìpínwó.
 
-When it comes to considering high level of privacy during transaction on the Zcash Network, it's recommended you follow the below practices;
+Nígbà tí ó bá di wíwo ìpamọ́ gíga nígbà ìṣòwò lórí Àjọ Zcash, a dábàá pé kí o tẹ̀lé àwọn ìlànà tó wà nísàlẹ;
 
-Transaction occurring between "z to z" wallets on the Zcash blockchain are mostly shielded and it is sometimes called Private Transaction due to the high level of Privacy generated. This is usually the best and the most recommended way of sending and receiving $ZEC when privacy is required. 
-
----
-
-Nigba ti o ba firanṣẹ ZEC lati "Z-adiresi" si "T-adirẹsi", o wulẹ jẹ ọna kan ti iṣowo Deshielding. Ni iru iṣowo yii, ipele aṣiri ko ga nigbagbogbo bi diẹ ninu alaye yoo han lori blockchain nitori ipa ti fifiranṣẹ ZCE lori Adirẹsii Transparent. A ko ṣe iṣeduro iṣowo Desheelding nigbagbogbo nigbati a nilo aṣiri giga. 
+Awọn iṣowo ti o waye laarin awọn apamọwọ "z si z" lori blockchain Zcash ni a ṣe aabo pupọ ati pe nigbakan wọn npe ni Iṣowo Ikọkọ nitori ipele giga ti Asiri. Eyi jẹ igbagbogbo ọna ti o dara julọ ati ọna iṣeduro lati firanṣẹ ati gbigba $ZEC nigbati aṣiri ba nilo. 
 
 ---
 
-Gbigbe ZEC lati Adirẹsi Transparent (T-address) si adirẹẹsi Z ni a mọ nikan bi Shielding. Ni iru iṣowo yii ipele ti aṣiri ko ga nigbagbogbo nigbati a ba ṣe afiwe rẹ si ti iṣowo z-z ṣugbọn o tun ṣe iṣeduro nigbati a nilo aṣiri. 
+Nigba ti o ba firanṣẹ ZEC lati "Z-adiresi" si "T-address", o kan nfihan iru iṣowo Deshielding. Ni iru idunadura yii, ipele aṣiri ko ga nigbagbogbo bi diẹ ninu alaye yoo han lori blockchain nitori ipa fifiranṣẹ ZCE ni Adirẹsi Transparent . A ko ṣe iṣeduro adehun deshielded nigbati a nilo asiri giga. 
 
 ---
 
-Sending ZEC from a Transparent Address (T-address) to another Transparent Address (T-address) on Zcash Network (T-T transaction) is very similar to that of Bitcoin transaction and this is why T-T transactions on Zcash are always called Public transactions because both the sender and the receiver transaction details becomes visible to the public which makes the level of Privacy very low in such transaction. 
+Gbigbe ZEC lati Adirẹsi Transparent (T-address) si adirẹti Z ni a mọ nikan bi Shielding. Ni iru iṣowo yii ipele ti asiri ko ga nigbagbogbo nigbati o ba ṣe afiwe pẹlu eyi ti idunadura z-z ṣugbọn o tun ṣeduro nigba ti aṣiri nilo. 
 
-Pupọ awọn paṣipaarọ Cryptocurrency Centralized lo Adirẹsi Transparent ("T-address) nigbati o ba de si iṣowo lori blockchain Zcash ṣugbọn iru iṣowo yii (T-T) kii yoo ni awọn ohun-ini ikọkọ eyikeyi.
+---
+
+Fifiranṣẹ ZEC lati Adirẹsi Transparent (T-address) si Adirẹẹsi Transparant miiran (T -Address) lori Nẹtiwọọki Zcash (iṣowo T-T) jẹ iru pupọ si ti iṣowo Bitcoin ati pe eyi ni idi ti awọn iṣiro T-t lori Zcash nigbagbogbo npe ni Awọn idunadura gbangba nitori mejeeji oluranlowo ati alaye gbigbe olugba di han fun gbogbo eniyan eyiti o mu ki ipele Asiri kekere ninu iru iṣowo bẹẹ. 
+
+Pupọ julọ Awọn paṣipaarọ Cryptocurrency ti a ṣepọ lo Adirẹsi Transparent ("T-address) nigbati o ba de si iṣowo lori blockchain Zcash ṣugbọn iru idunadura yii (T-T) kii yoo ni awọn ohun ini ikọkọ eyikeyi.
 
 <br/>
 
 ## Ohun Tó Máa Ṣẹlẹ̀ Lọ́jọ́ Iwájú: Adágún Igi Irin
 
-Ẹgbẹ́ Zcash ń ṣe àgbéyẹ̀wò ìgbìmọ̀ tí wọ́n fẹ́ dáàbò bò, tí a pè ní Ironwood.
+Ẹgbẹ́ Zcash ń ṣe àgbéyẹ̀wò ìsọ̀ omi tí wọ́n pè ní Ironwood.
 
-Ironwood is designed to address a recently discovered and patched vulnerability in Orchard's proving system. Although there is no evidence that the vulnerability was ever exploited, Ironwood would provide an additional layer of assurance by enabling a controlled migration from Orchard into a newly created shielded pool.
+Ironwood ti ṣe apẹrẹ lati koju aisan kan laipe ni awari ati patched ninu eto idaniloju Orchard. Biotilejepe ko si ẹri pe ailagbara naa jẹ lilo, Ironwood yoo pese afikun ipele iṣeduro nipa gbigba gbigbe iṣakoso lati inu igi gbigbẹ oloorun sinu adagun-odo tuntun ti o ṣẹda titun .
 
-Ero naa kii ṣe lati rọpo aṣiri Zcash, ṣugbọn lati ṣe okunkun igbẹkẹle ninu iduroṣinṣin ti ipese ZEC ti o ni aabo.
+Ifojusi naa kii ṣe lati rọpo asiri Zcash, ṣugbọn lati mu igbẹkẹle ninu iduroṣinṣin ti ipese ZEC aabo.
 
-## Ní abẹ́ àbá náà:
+## Lábẹ́ àbá náà:
 
-1. Àwọn nǹkan tuntun tó wà lábẹ́ àwọn apata náà á wá máa ṣẹlẹ̀ sí Ironwood.
-2. Awọn owo ti o wa tẹlẹ ti Orchard le gbe lọ si ikọkọ.
-3. Ìṣírò owó tí ìjọba ń ṣe lórí àwọn nǹkan tó ń yí padà yóò fúnni ní ẹ̀rí tó lágbára ju ti tẹ́lẹ̀ lọ pé gbogbo owó tó wà lábẹ́ ìbòjú ni a fi ààbò bò.
-4. Awọn olumulo yoo tọju awọn idaabobo aṣiri kanna ti wọn nireti lati Zcash.
-
-<br/>
-If activated through future network upgrades, Ironwood would become the next generation of Zcash's shielded ecosystem while preserving compatibility with existing shielded funds.
+1. Àwọn ohun tó ń lọ lábẹ́ àwọn apata tuntun á wá máa ṣí kiri ní kẹ̀rẹ̀kẹ̀rè̀ sí Ironwood.
+2. Owó tí ó wà ní Orchard lè di èyí tó máa ń lọ sókè láìsí owó.
+3. Ìṣirò ìsopọ̀ tí ìjọba ń ṣe yóò fúnni ní ẹ̀rí tó lágbára pé gbogbo owó táa fi ààbò bo ara wọn ni a ṣì máa tì lé e pátápátá.
+4. Àwọn oníṣe yóò ní ààbò ìpamọ́ kan náà tí wọ́n retí láti Zcash.
 
 <br/>
+Ti o ba ti ṣiṣẹ nipasẹ awọn igbesoke nẹtiwọọki ọjọ iwaju, Ironwood yoo di iran tuntun ti ilolupo eda abemi aabo Zcash lakoko mimu ibaramu pẹlu awọn owo idaabobo to wa tẹlẹ.
 
-## Àwọn Àṣìṣe Tó Wà Lọ́pọ̀lọpọ̀ Tó Yẹ Kó O Yẹra fún
+<br/>
 
-- ** Ifiranṣẹ lati t-adiresi si t-address **  gbangba patapata, ko si asiri. Nigbagbogbo daabobo awọn owo ni akọkọ.
-- **Ṣíṣe àdàkàdekè àwọn adirẹsi Sapling àti Orchard**  Àwọn adirẹẹsi Saplings bẹ̀rẹ̀ pẹ̀lú `zs`, Orchard/Àwọn àdírẹ́sì tí ó wà ní ìṣọ̀kan bèèrè fún `u1`
-- ** Fifi owó sílẹ̀ nínú pápá ìṣeré Sprout**  Sprout ti di ohun tí kò wúlò mọ́; kó owó lọ sí Orchard
-- **Gbigba pe t → z (iboju) jẹ ikọkọ ni kikun**  iṣe ti iboju funrararẹ ni o han lori pq; awọn akoonu ko han
+## Àwọn Àṣìṣe Tó Yẹ Kó O Sá fún
+
+- **Fífi ránṣẹ́ láti t-adiresi sí t-address**  gbangba pátápátá, kò ní ìpamọ́. Ẹ máa kókó fi owó pamọ́ nígbà gbogbo.
+- **Ṣíṣe àdàkàdekè àwọn adirẹsi Sapling àti Orchard**  Àwọn àdírẹ́sì Sapling bẹ̀rẹ̀ pẹlú: `zs`, Orchard/Unified addresses start with `u1`
+- ** Fifi owó sílẹ̀ nínú pápá ìsọ̀rí Sprout**  A ti sọ Sprout di ohun tí kò bóde mu mọ́; ṣípòsíwájú àwọn owó lọ sí Orchard.
+- **Gbigba t → z (igbohunsafẹfẹ) jẹ aṣiri patapata**  iṣe ti igbohunsifa funrararẹ ni o han lori-ṣaja; awọn akoonu ko wa
 
 ---
 
-## Àwọn ojúewé tó tan mọ́ ọn
+## Àwọn ojúewé tó ní í ṣe pẹ̀lú rẹ̀
 
-- [Àwọn pọ́ọ̀sì](/using-zcash/wallets)  Awọn apamọwọ wo ni o ṣe atilẹyin Orchard ati awọn adagun Sapling
-- [Ìṣirò](/using-zcash/transactions)  Bii o ṣe le firanṣẹ awọn idunadura ti o ni aabo
-- [Ríra ZEC](/using-zcash/buying-zec)  Gbígba ZEC kí o tó lò ó nínú àwọn àgbájọ
-- [Àwọn ZK-SNARKs](/zcash-tech/zk-snarks)  Ìdásílẹ̀ ẹ̀rọ-ìfiwéra ti àwọn ìsọ̀rí tí a fi ààbò bo
+- [Àwọn àpamọ́wọ́n]](/using-zcash/wallets)  Àwọn àpò-ìpamọ́ wo ló ń ṣe ìtìlẹyìn fún àwọn adágún Orchard àti Sapling?
+- [Àwọn ìnáwó]](/using-zcash/transactions)  Bí a ṣe ń fi àwọn ìnáwó tí ó ní ààbò ránṣẹ́
+- [Ìràwọ̀ ZEC]](/using-zcash/buying-zec)  Gbígba ZEC kí o tó lò ó nínú àwọn àgbájọ.
+- [Àwọn ZK-SNARKs]](/zcash-tech/zk-snarks)  Ìpilẹ̀ṣẹ̀ ìkọsílẹ̀ àwọn àgbá tí a fi ọṣọ bojú
 - [Kí ni ZEC àti Zcash?](/start-here/what-is-zec-and-zcash)  Ìtàn nípa ìpamọ́ Zcash

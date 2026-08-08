@@ -1,50 +1,50 @@
-# Fa Zcash di dwuma wɔ Wiase Ankasa no mu
+# Fa Zcash di dwuma wɔ wiase ankasa mu
 
-Zcash nyɛ kokoamsɛm nko ara wɔ nsusuwii mu — ɛfa **sikasɛm mu ahofadi a mfaso wɔ so, da biara da** ho.
+Zcash nyɛ ahobammɔ wɔ nkyerɛkyerɛmu mu nko ara  ɛyɛ a ɛfa **nwomade ho fahodie daa biara**.
 
-Saa ɔfa yi kyerɛ wo **sɛnea wode Zcash bedi dwuma pɛpɛɛpɛ wɔ asetra mu tebea horow mu**, a anammɔn anammɔn akwankyerɛ ne nneyɛe pa ka ho.
+Saa ɔfã yi bɛkyerɛ wo kwan pa ara a wobɛfa so de Zcash adi dwuma wɔ asetena mu tebea horow ankasa, ne akwankyerεfoɔ nkyerԑmuɔ ahodoɔ.
 
-## Nea Wubesua
+## Nea Wobɛsua
 
-- Sɛnea wobɛbɔ wo sikasɛm mu kokoam nsɛm ho ban
-- Sɛnea wobɛkwati mfomso a ɛtaa ba a ɛma wo data da adi
-- Sɛnea wɔde Zcash bedi dwuma wɔ wiase tebea horow ankasa mu
+- Sɛnea wobɛbɔ wo sika ho ban a, ɛnyɛ den sɛ wobɛyɛ saa.
+- Sɛnea wobɛkwati mfomso a wɔtaa di na ɛde wo data kɔ asiane mu no
+- Sεnea wobεfa Zcash adi dwuma wɔ wiase ankasa tebea mu.
 
-## Sɛnea Wɔde Akwankyerɛ Nhoma Yi Di Dwuma
+## Sɛnea Wobɛfa Saa Akwankyerɛ Yi Adi Dwuma
 
-Agorudi nhoma biara ne:
-- Tiatiaa (simma 5-7) .
-- Anamɔn biara
-- Wɔde wɔn adwene asi wiase ankasa so 
-
-
-Sɛ woyɛ foforo a, fi ase wɔ ha: [Dɛn ne Zcash](/start-here/what-is-zec-and-zcash)
+Akwankyerɛ nhoma biara yɛ:
+- Mmerɛ tiawa (5-7 minutes)
+- Nkɔsoɔ a wɔde ba nkakrankakra.
+- W'adwene si wiase ankasa so. 
 
 
-##  Ɔkwan a Wɔkamfo Kyerɛ
-
-Di anammɔn anammɔn akwantu yi akyi na woatumi ayɛ Zcash a wɔde di dwuma wɔ wiase ankasa mu yiye:
-
-###  [Gye Ntoboa Wɔ Kokoam](/zcash-use-cases/receive-donations-privately)
-Sua sɛnea wubegye sika a worenkyerɛ wo nipasu anaa wo sikasɛm ho abakɔsɛm.
+Sɛ woyɛ foforo a, fi ase ha: [Deɛn ne Zcash?](/start-here/what-is-zec-and-zcash)
 
 
-###  [Fa Sika Kɔma a Womfa Nkitahodi Nkitahodi](/zcash-use-cases/send-money-without-linking-identity) 
-Kwati sɛ wobɛda wo sika kotoku, wo nipasu, anaa wo aguadi ho mfonini adi bere a wode sika remena no.
+##  Akwan a wɔatu ho fo no
+
+Di akwantu a ɛtwa toɔ yi akyi na ama woatumi de Zcash adi dwuma wɔ wiase ankasa mu:
+
+###  [Gye ntoboa wɔ kokoam](/zcash-use-cases/receive-donations-privately)
+Sua sɛnea wubegye sika a wontua mma obiara nhu wo nipaban anaa sikasɛm ho nsɛm.
 
 
-###  [Freelancer Kokoam Nsɛm Ho Nhyehyɛe](/zcash-use-cases/freelancer-privacy-setup)  
-Nya akatua wɔ Zcash mu bere a wode wo clients ne sika a wonya no sie kokoam.
+###  [Sende Sika a Wonnim Wo Ho Ankasa](/zcash-use-cases/send-money-without-linking-identity) 
+Sɛ woresoma sika a, mma w'akodeɛ anaa wo din nkyerɛ obiara.
 
 
-###  [Gye Katua tom sɛ Oguadifo](/zcash-use-cases/accept-payment-as-a-merchant)  
-Gye sikatua denam address a wɔabɔ ho ban so na kwati sɛ wobɛda adetɔfo nkitahodi ho nsɛm adi
+###  [Freelancer ahobanbɔ nhyehyɛeɛ](/zcash-use-cases/freelance-privacy-setup)
+Get paid in Zcash while keeping your clients and income private.
 
 
-###  [Di Private Community Sikakorabea bi so](/zcash-use-cases/run-a-private-community-treasury)
-Fa address ahorow a wɔabɔ ho ban di dwuma de kura sika a wɔkyɛ mu na siw sika a aka ne nnwuma a wotumi hu no ano hye
+###  [Gye akatua te sɛ aguadifo](/zcash-use-cases/accept-payments-as-a-merchant)
+Gye akatua a wode adi dwuma wɔ address bi so na twe wo ho fi kwantenom transaction data ho.
 
-###  [Nsɛm ho amanneɛbɔfo Kokoam Nsɛm Ho Nhyehyɛe](/zcash-use-cases/journalist-privacy-setup)   
-Fa address a wɔabɔ ho ban di dwuma ma nnwuma nyinaa na bɔ fibea ahorow ho ban denam kwati a wobɛkwati sɛ wubetua sika a wotumi hwehwɛ mu no so. Fa memos di dwuma yiye ma nkitahodi a ahobammɔ wom
+
+###  [Di oman no sika a wɔkora so ma wɔn ho so.](/zcash-use-cases/private-community-treasury)
+Fa adrɛs a w'ayi no asi hɔ na fa sika bi to so, ne nea ɛgyina ho ka nso yɛ hu.
+
+###  [Nsɛm ho amanneɛbɔfoɔ ahobammɔ nhyehyɛeɛ](/zcash-use-cases/journalist-privacy-setup)   
+Fa adansedie a w'atumi de ayɛ adwuma no nyinaa di dwuma na bɔ wo ho ban denam akatua biara a wobɛtumi adi akyi kwan so. Di kan fa nkaeɛ ne nkitahodie pa yɛ adwuma yiye ma ɛne nsɛmdi mu akɔ yie
 
 <br/>

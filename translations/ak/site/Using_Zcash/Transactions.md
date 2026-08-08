@@ -3,11 +3,19 @@
 </a>
 
 
-# Nkitahodi ahorow
+# Adwuma a wɔyɛe no
 
-ZEC yɛ dijitaal agyapadeɛ a wɔde di dwuma kɛseɛ ma sikatua, ɛde kokoam nsɛm a ɛyɛ den a ɛma ɛfata ma nnwuma ahodoɔ te sɛ nnamfoɔ a wɔbɛtua, adetɔ, anaa ntoboa ma. Sɛnea ɛbɛyɛ a kokoamsɛm ne ahobammɔ bɛyɛ kɛse no, ɛho hia sɛ wote sɛnea nnwuma ahorow yɛ adwuma wɔ Zcash mu no ase.
+ZEC is a widely-used digital asset for payments, offering strong privacy features that make it suitable for various transactions like paying friends, making purchases, or donating. To maximize privacy and security, it is essential to understand how different types of transactions work within Zcash.
 
-## Nkitahodi a Wɔabɔ Ho Ban
+## TL;DR
+
+- Zcash boa ma wɔde dwumadie ahodoɔ mmienu di dwuma: **shielded**, a ɛhwɛ sɛ nkontabuo no bɛyɛ kokoam na ɛnnyɛ obiara dea ne **transparent**, deɛ ɔtwerɛ wɔn din wɔ baguam.
+- Adesamma a wɔabɔ wɔn ho ban fi ase ne: `u` or `z`. Adesamma a wɔn ho tew no fi ase wɔ: `t` Na ne suban te sɛ Bitcoin address.
+- W'ankasa na wobɛpaw wɔ tua biara ho. Ahofadi yɛ ade a Zcash de ma wo, ɛnyɛ biribi a obi foforo si w'ananmu gyina so.
+- Withdrawing from an exchange is the most common place people lose privacy. If the exchange only supports transparent withdrawals, shield the funds yourself once they arrive.
+- Akwantu no di so [ZIP code 317]](https://zips.z.cash/zip-0317) Wallets a w'akyekyere wɔn dedaw no betumi ahu sɛ wɔretwe wɔn ho.
+
+## Adwuma a wɔhwɛ so bɔ ho ban
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -15,18 +23,18 @@ ZEC yɛ dijitaal agyapadeɛ a wɔde di dwuma kɛseɛ ma sikatua, ɛde kokoam ns�
     src="https://www.youtube.com/embed/bZM3o_eIovU"
     title="Zcash Explained: Zcash Shielded Transactions"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    ma no yɛ FullScreen
     loading="lazy"
   />
 </div>
 
 ---
 
-Nkitahodi a wɔabɔ ho ban no ba bere a wode ZEC kɔ wo sika kotoku a wɔabɔ ho ban no mu. Wo shielded wallet address fi ase wɔ U anaa Z. Sɛ wode shielded transactions remena a, worehwɛ sɛ wo, ne nnipa a wo ne wɔn reyɛ adwuma no, de kokoamsɛm bi sie a ɛrentumi nyɛ yiye wɔ P2P payment networks afoforo so. Sɛ wode shielded transaction bɛmena a, ɛyɛ mmerɛw yiye, ɛsɛ sɛ wohwɛ hu sɛ nneɛma abien na ɛwɔ hɔ ara kwa. Nea edi kan ne sɛ wode sika kotoku a ɛfata redi dwuma. Ɔkwan a ɛyɛ mmerɛw a wobɛfa so ahwɛ ahu sɛ wode sika kotoku a ɛfata redi dwuma ne sɛ wobɛtwe [sika kotoku](https://zechub.wiki/wallets). Ade a ɛto so abien a ɛho hia ne sɛ wode ZEC bɛkɔ sika kotoku a wɔabɔ ho ban mu. Sɛ woreyi ZEC afi exchange bi mu a, ɛsɛ sɛ wuhu sɛ ebia exchange no boa shielded anaasɛ transparent withdrawals. Sɛ wɔboa shielded withdrawals a, wobɛtumi atwe ZEC akɔ wo shielded address no so kɛkɛ. Sɛ exchange no boa transparent withdrawals nko ara a, ɛnde ɛsɛ sɛ wode YWallet di dwuma na wode autoshield wo ZEC bere a woanya no. Nneɛma a wɔabɔ ho ban nkutoo a wɔde bedi dwuma de akɔma na wɔagye sika no ne ɔkwan a eye sen biara a wobɛfa so akura kokoam nsɛm mu na wɔatew asiane a ɛwɔ hɔ sɛ data bɛpue no so
+Shielded transactions occur when you move ZEC into your shielded wallet. Your shielded wallet address starts with a U or Z. When sending shielded transactions, you're ensuring that you, and the people you're transacting with, are keeping a level of privacy not possible on other P2P payment networks. Sending a shielded transaction is very easy, you just have to make sure of two things. The first is that you're using the right wallet type. The easiest way to ensure that you're using the right type of wallet is by downloading a [wallet](https://zechub.wiki/wallets). The second important thing is moving ZEC to a shielded wallet. When withdrawing ZEC from an exchange, you need to know whether the exchange supports shielded or transparent withdrawals. If they support shielded withdrawals, you can simply withdraw ZEC to your shielded address. If the exchange only supports transparent withdrawals, then you need to use YWallet and autoshield your ZEC once received. Using only shielded transactions to send and receive funds is the best way maintain privacy and reduce the risk of leaking data
 
-## Nkitahodi a ɛda adi pefee
+## Trataeɛ a emu da hɔ
 
-Nkitahodi a ɛda adi pefee yɛ adwuma saa ara nanso enni kokoam ahobammɔ, na ɛma nkitahodi ho nsɛm da adi wɔ baguam wɔ blockchain no so. Ɛsɛ sɛ wɔkwati nkitahodi a ɛda adi pefee bere a kokoam nsɛm yɛ ade titiriw no. Hyɛ no nsow: Sika kotoku a ɛda adi pefee betumi ahyia nsɛm esiane ZIP-317 nti, a ɛhwehwɛ sɛ wotua sika a ɛne asɛm no mu nsɛnnennen hyia. Ebia sika a wotua a wɔmfa ntua ka no bɛma wɔapow anaasɛ wɔakyɛ, na ama sika a wotua no sɛnea wɔpɛ no ho hia kɛse.
+Transparent transactions yɛ adwuma tesɛ saa nanso wɔnni ahobanbɔ ho ban, na ɛma transaction details da adi wɔ blockchain no so. Ɛsɛ sɛ wotwe wo ho fi transparent transactions ho bere a privacy yɛ ade titiriw bi ma obi biara. Hyɛ no nso: Transparent wallets betumi ahyia nsɛnnennen esiane ZIP-317 nti, ɛhwehwɛ akatua a ɛne nsesaeԑ mu dennen di dwuma. Default fees bɛtumi ama wagyae anaa akyere aba, enti ɛho hia paa sɛ wobɛyɛ fee customization.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -34,30 +42,51 @@ Nkitahodi a ɛda adi pefee yɛ adwuma saa ara nanso enni kokoam ahobammɔ, na ɛ
     src="https://www.youtube.com/embed/R-krX1UpsIg"
     title="Learn 🛡️Zcash shielded wallets!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
+    ma no yɛ FullScreen
     loading="lazy"
   />
 </div>
 
+## Ɔkwan a Ɛnteɛ A Wobɛtumi Asusuw Ho
 
-### Nneɛma a Wɔbɔ wɔ Nkitahodi a ɛda adi pefee ho a wɔhwɛ so
+Akwan a wɔfa so yɛ adwuma no te sɛ nkrataa. Posɔfoma na ɔde ma, nanso obiara a ɔhwɛ mu bere tenten betumi akenkan asɛm no ahu onii a ɔsomaa ne nea ogyee.
 
-ZIP-317 Akwankyerɛ: Ɛkatua nhyehyɛe no sesa ne nkitahodi a ɛyɛ den, ɛhwehwɛ sɛ wɔyɛ nsakrae kɔ akyiri sen gyinapɛn 0.00001 ZEC ka.
-Nhwɛsoɔ Nkontabuo: Aguadiɛ a ɛnyɛ den a wɔde krataa baako na ɛbɛtumi ahwehwɛ sɛ wɔtua ZEC 0.0001, na ɛkɔ soro bɛyɛ 0.00005 ZEC wɔ krataa foforɔ biara mu.
+Akwan a wɔfa so yɛ adwuma no bi ne sɛ, wɔde krataa hyɛ envelope mu. Postal Service di adanseɛ sɛ nokware nkrataa na ɛfaa kwan ankasa, obiara ntumi mfa faako anaa ɔnsoma saa krataa koro yi mprenu mma obi bio. Nea ɛwɔ envelopu no mu nyinaa tra nea ɔde kɔma onipa no hɔ ma ɔno nso nsa ka.
 
-Editing Fees wɔ Walets mu
+Ade a ɛho hia ne sɛ Zcash ma wo kwan sɛ wobɛpaw nea wode bɛsoma, ka biara mu.
 
-Trust Wallet: Nya nhyehyɛe a ɛkɔ anim denam gear icon no a wobɛbɔ so bere a woreyɛ asɛm bi no. Siesie Miner Tip Gwei ne Max Fee Gwei afuw no yiye na woakwati sɛ asɛm no bedi nkogu. Trust Wallet gye network ho ka nkutoo.
-Coinomi Wallet: Ɛde abiɛsa a ɛyɛ nnam fee options Low, Normal, High a egyina network tebea horow so ma. Sɛ wopɛ nsaano nsakrae a, paw Custom wɔ sika a wɔboa so anaa fa Change Fee di dwuma wɔ atifi nifa so. Wɔn a wɔde di dwuma no betumi ahyɛ sika a wɔbɔ wɔ baiti anaa kilobyte biara ho, na ɛka mmere a wɔde si so dua. Nea wɔkamfo kyerɛ sɛ wɔmfa dynamic options nni dwuma sɛ wunnim a.
+## Akwankyerɛ a wɔfa so de di dwuma ma nnwuma no mu da hɔ.
 
-Saa nkyerɛaseɛ yi de akwankyerɛ a ɛfa ɛka a wɔbɔ ho, sikatua ho akwan a ɛyɛ nnam, ne nhyehyeɛ a wɔde yɛ nsakraeɛ wɔ Trust Wallet ne Coinomi nyinaa ka ho, na ɛma wɔn a wɔde di dwuma no nya sikatua sohwɛ ho nsɛm a ɛkɔ akyiri.
+ZIP-317 Akwankyerɛ: Akatua no gyinabea yɛ adwuma wɔ akwan a emu yɛ den mu, na ɛho hia sɛ wɔyɛ nsakrae ahorow kɔ akyiri sen nea ɛgyina hɔ ma 0.00001 ZEC.
+Nhwɛsoɔ a wɔgyina so bu akontaa: Akwantuo baako pɛ no bɛtumi ama woatua sika 0.0001 ZEC, na ɛka biara bɛyɛ sɛ 0,00005 ZEC.
 
-#### Akadeɛ
+Editing Fees wɔ Wallets mu
 
-[ZIPS a ɛwɔ hɔ](https://zips.z.cash/)
+Trust Wallet: Twe kɔ akyiri ntwenee so denam gear icon no a wobɛbɔ transaction. Sesa Miner Tip Gwei ne Max Fee Gwei nsase yie na woantumi annya tranzaction ho mfasoɔ. Trust wallet gye network fees nko ara.
+Coinomi Wallet: Ɛma akwan mmiɛnsa a wobɛtumi afa so atoto wo ka no. Sɛ wopɛ sɛ woyɛ nsakrae wɔ biribi mu, na w'atwe bi nso aa, twe Custom to supported coins or use Change Fee in the top-right corner. Wobetumi de sika biara ato byte anaa kilobyte ho ma ayɛ adwuma ama confirmation times. Wopɛsɛ wode dynamic options di dwuma sε wonhu nea ɛsɛsɛ wosesa ansaana woretua ne nyinaa.
 
-#### Hyɛ nso
+## Mfomso a Wɔtaa Di
 
-Yɛsrɛ sɛ hyɛ no nsow sɛ ɔkwan a ahobammɔ wom sen biara a wobɛfa so de ZEC adi dwuma ne sɛ wode nnwuma a wɔabɔ ho ban nkutoo bedi dwuma. Wallet ahorow bi reyɛ [address ahorow a wɔaka abom](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) a ɛma wɔn a wɔde di dwuma ne wɔn a wɔsesa no tumi ka address a ɛda adi ne nea wɔabɔ ho ban bom. 
+- **Assuming that any wallet listing ZEC can send it privately.** A number of multi-coin wallets support the transparent side of Zcash only. Check the wallet's supported pools before you rely on it for privacy. The [Wallets](https://zechub.wiki/using-zcash/wallets) kratafa a ɛka eyi ho ma akwan biara.
+- **Withdrawing to a transparent address and leaving the funds there.** Wode wo sika no bɛto baabi na obiara ahu, ne nea wobɛyɛ wɔ saa adrɛs yi so biara nso yɛ daa. Sɛ wonya de ba hɔ pɛ a fa nneɛma sie ho.
+- ** Yɛde ahobanbɔ yɛ biribi a wo de di dwuma prɛko.** Akwantu biara gyina ne ankasa so. Sɛ wode nneɛma to ban nnɛ a, ɛnkyerɛ sɛ wotuaa sika no wɔ ɔkwan foforo so na w'atumi ayi afi hɔ nnawɔtwe a etwaam no mu.
+- **Fa adrɛs a w'atumi ahu mu yɛ adwuma wɔ biribiara ho.** Esiane sɛ dwumadi biara a wobɛyɛ no da adi bere nyinaa nti, address baako pɛ a wobɛsan de ayɛ adwuma no bɛboa ama woayɛ nhyehyɛe afa nneɛma bi so.
+- **Sending with an outdated default fee.** Wallets a wɔnfa ZIP 317 nyɛ adwuma no betumi de tete kabea baako pɛ, na ebetumi ama asesae bi asi hɔ.
 
-## ZEC kɔ ZAT Nsakraeɛ
+## Hyɛ no nsow:
+
+Yɛsrɛ wo hyɛ no nsow sɛ ɔkwan a eye sen biara wɔ ZEC ho ne sε wode dwumadie bi bεto ban. Wͻn de [unified addresses] di dwuma wͻ nkotoku binom mu, na εwכ nsεm so nnidisoɔ pii wom ma obiara tumi fa emu nnoama nyinaa to nsa frɛ amannefoɔ foforɔ ama wɔn adi kan afa akwan horow yi so ayɛ adwuma.](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) a ɛma wɔn a wɔde di dwuma ne sikakorabea no tumi ka adrɛs ahorow a ani tua na wɔabɔ ho ban bom.
+
+## Nneɛma a wɔde bɔ afɔre
+
+[ZIPs] no ho asεm.](https://zips.z.cash/)
+
+## Nkrataafa a Ɛwɔ Ho Nsɛm
+
+- [Nkrataa nkekaho]](/using-zcash/wallets)  wallets a' wɔgye shielded sending tom, na no yɛ transparent nko ara.
+- [Nsuo a wɔabɔ ho ban]](/using-zcash/shielded-pools)  Sapling ne Orchard, mmura a wo sika no te mu wɔ hɔ
+- [Nsɛm a wode bɛto dwa]](/using-zcash/memos)  nkrataa a w'akyekyere no ntumi nkɔ so wɔ dwumadie bi mu.
+- [Yԑde Adansedie a' yԑbԑtumi de adi dwuma yie]](/using-zcash/transparent-exchange-addresses)  TEX addresses ne deɛn nti na exchange di dwuma no
+- [Asomdwoe a w'atumi de wo nsa aka no]](/using-zcash/custodial-exchanges)  deεn na exchange boa ma wכtwe ban a εbεto ho no mu.
+
+## ZEC kɔ ZAT kasasin no

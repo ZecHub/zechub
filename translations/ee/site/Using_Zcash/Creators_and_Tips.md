@@ -1,106 +1,106 @@
-# Zcash Dɔwɔnuwo na Wɔlawo: Tipping & Profile Platforms
+# Zcash dɔwɔnuwo na nuwɔlawo: Aɖaŋuɖoɖo kple Profile Platforms
 
-> **Mɔfiame blibo si ku ɖe ameŋunyatakakawo takpɔkpɔ ƒe tipping kple profile dɔwɔnu siwo wotu ɖe Zcash dzi na nyatakakawo wɔlawo, cypherpunks, kple ameŋunyatakakawo takpɔkpɔ ƒe nuto.**
-
----
-
-## Emenyawo ƒe Tabla
-
-1. [Zcash.me ƒe nyatakakadzraɖoƒea](#zcashme)
-2. [AɖaŋuɖoɖoZ](#tipz)
-3. [Nusita Ameŋunyatakakawo Ŋuti Nyatakaka Le Vevie Na Wɔlawo](#why-privacy-matters-for-creators)
-4. [Nu Bubuwo](#additional-resources)
+> **Agbalẽ si me mɔfiamewo le na ame siwo kpɔa woƒe nu ɣaɣlawo ta, kple nyatakaka bubuwo ƒe kɔpiwɔwɔ ŋuti dɔwɔnu siwo wotu ɖe Zcash dzi hena nyatia ŋlɔla gãwo, kɔmpiuta-ŋutasẽnuwɔlawo kpakple amesiwo tsɔa nya sia dea susu me.**
 
 ---
 
-## Zcash.me ƒe nyatakakadzraɖoƒea
+## Eƒe Akpawo
 
-![Zcash.me ƒe dzesi](https://pbs.twimg.com/profile_images/1983177127806533632/LbLuoQjB_400x400.jpg)
+1. [Zcash.me]](#zcashme)
+2. [Aɖaŋuɖoɖo]](#tipz)
+3. [Nusi Ta Wòle Be Nuwo Naganɔ Ame Sia Me o]](#why-privacy-matters-for-creators)
+4. [Gɔmeɖose Bubuwo]](#additional-resources)
 
-### Kpɔɖeŋu bliboa
+---
 
-**Zcash.me** nye profile directory kple discovery platform si na wòle bɔbɔe na amesiame be wòake ɖe ZEC ŋu ahaɖoe ɖe Zcash zãlawo. Ewɔa dɔ abe "Linktree na Zcash" - mɔnu bɔbɔe aɖe si dzi nàto ama wò adrɛs si wokpɔ ta na kple hadome anyinɔnɔ kple kadodo ɖeka.
+## Zcash.me
 
-| Nusi wotsɔ wɔe | Nyatakakawo Tsitotsito |
+![Zcash.me Logo](/content-images/_unavailable.svg)
+
+### Ŋkuléle Ðe Nu Ŋu Kɔkɔe
+
+**Zcash.me** is a profile directory and discovery platform that makes it easy for anyone to find and send ZEC to Zcash users. It serves as the "Linktree for Zcash" - a simple way to share your shielded address and social presence with a single link.
+
+Nu si me míedzro: Nyawo.
 |-------------------|---------|
-| **Nyatakakadzraɖoƒe** | [https://zcash.me/](https://zcash.me/) |
-| **Twitter** ƒe nyatakakadzraɖoƒea | [@zcashme dzi](https://x.com/zcashme) |
-| **Nyatakaka ƒe Nɔnɔme**| `zcash.me/[username]` |
-| **Nɔnɔme** | Live (kple nɔnɔme siwo le ŋgɔyiyi me) |
+[Adzraɖoƒe]https://zcash.me/](https://zcash.me/) |
+[@zcashme] @ZCashMe: Nye dzi dze eme ŋutɔ.](https://x.com/zcashme) |
+Ŋutinya ƒe Mɔnuɖoɖowo. `zcash.me/[username]` |
+️ ** Nɔnɔme si le ame ŋu**. Live (features in development)
 
-### Nu Vevi Siwo Le Eme
+### Eƒe Nɔnɔme Veviwo
 
-#### Fifia si Li
-- **Custom Profile Pages** - Axa si wowɔ na ame ŋutɔ si me zãla ƒe ŋkɔ, bio, avatar, kple teƒe si wòle
-- **Shielded Address Display** - Zi ɖeka ƒe kɔpi ƒe dzesi na wò adrɛs ɖekawɔwɔ
-- **Hadomegbenɔnɔ ƒe Kadodowo ƒe Ðekawɔwɔ** - X, LinkedIn, Telegram, kple nyatakakadzraɖoƒe siwo wowɔ ɖe ɖoɖo nu
-- **Verification System** - Akɔtagbalẽvi si ŋu woɖo kpee na nutoa me tɔwo ƒe kakaɖedzi
-- **Referral Leaderboard** - Kpɔ ame siwo woɖo ɖe amewo ƒe tatɔ kple nutoa me kplɔlawo yome
-- **Dɔwɔwɔ ƒe Nɔnɔme** - Fia dɔwɔwɔ ƒe ɣeyiɣi mamlɛtɔ
+#### Nusiwo Le Eŋu Wɔm Fifia
+- **Custom Profile Pages** - Ame ŋutɔ ƒe axa si me ŋkɔ, nɔnɔmetata kple teƒe le.
+- ** Adrɛs Siwo Woɣla Ðe Nuƒomɔ̃ Dzi** - Kpi-bɔt la ƒe kɔpi ɖeka na wò adrɛs si le nuƒomɔnu dzi.
+- ** Social Link Integration** - X, LinkedIn, Telegram kple nyatakakadzraɖoƒe siwo le ame ŋutɔ tɔ dzi.
+- **Nɔviwɔwɔ ƒe Ðoɖowɔɖi** - Dzɔdzɔenyenye ŋuti dzesi si ana amewo naka ɖe dziwò
+- ** Referral Leaderboard** - Dzro ame siwo nana amewo ɖoa aɖaŋu kple nutoa me tɔwo ƒe tatɔwo dzi.
+- **Activity Status** - Efia ɣeyiɣi si wowɔ dɔ le ŋkeke mamlɛa dzi.
 
-#### Egbɔna kpuie
-| Feature | Numeɖeɖe |
+#### Egbɔna kpuie.
+Ŋutinyawo. Nuŋɔŋlɔ:
 |--------------------|-------------|
-| Teƒea ƒe Nɔnɔmetata | Di Zcash zãla siwo te ɖe ŋuwò |
-| Nuƒolanɔƒe ƒe Akɔntabubuwo| Kpɔ tsitsi ƒe xexlẽdzesiwo |
-| Nutoa me ƒe Numekukuwo | Vote le lãwo ƒe agbenɔnɔ ŋuti nyatiwo ŋu |
-| Nyadzɔdzɔwo & Gbeƒãɖeɖewo | Dziɖuɖumegãwo ƒe nyatakaka yeyewo |
-| Nyamedzroƒe | Nutoa me numedzodzro |
-| Asitelefon dzi Dɔwɔɖoɖo | Asitelefon dzi nuteƒekpɔkpɔ blibo |
+ Anyigbatata. Xlẽ Zcash-ƒola siwo te ɖe ŋuwò ƒe ŋkɔwo le afi sia.
+Platform. Statistics eye View growth metrics. Eʋevi kple nu siwo le edzi yim la ƒe dzesiwo.
+▪ Ƒomewo ƒe Numekuku. ▪ Ðoɖowɔha me nyawo ŋu nya le numedzodzro si wowɔna kple nutoa me tɔwo la me.
+ Nyadzɔdzɔwo & Gbeƒãɖeɖewo  Ametakpɔkpɔ Ŋutɔŋutɔ.
+Ɖoɖowɔƒe. Ƒomewo ƒe dzeɖoɖo.
+❑ Mɔ̃ɖaŋunuwo ƒe dɔwɔnu. □ Amegbetɔ siwo le mɔ̃ dzi la katã kpɔ gome le eme.
 
-### Gɔmedzedze
-1. Sasrã [https://zcash.me/](https://zcash.me/) eye nàzi **Join** dzi.
-2. Tia ŋkɔ tɔxɛ aɖe, tsɔ bio kple profile picture kpee
-3. Kpe wò Zcash unified adrɛs (`u1...`)
-4. Do ka kple wò hadomenyatakakadzraɖoƒewo
-5. Ma wò kadodoa: `zcash.me/[yourusername]`
+### Ale Si Nàdze Egɔmee
+1. Tsaɖiɖi [https://zcash.me/](https://zcash.me/) eye nàzi ** De Ha** dzi.
+2. Tia ŋkɔ tɔxɛ, kpe nu kple foto si le wò nyatakakawo me ɖo.
+3. Mido mia Zcash ƒe adrɛs ɖeka (`u1...`)
+4. Mido ka kple mia nɔewo le social media dzi.
+5. Ɖo wò link la ɖa: `zcash.me/[yourusername]`
 
 ---
 
-## AɖaŋuɖoɖoZ
+## TipZ (Akpa)
 
-![TipZ ƒe dzesi](/content-images/BbXM8cDV_400x400-e6071ba983.webp)
+![TipZ Logo](/content-images/BbXM8cDV_400x400-e6071ba983.webp)
 
-### Kpɔɖeŋu bliboa
+### Ŋkuléle Ðe Nu Ŋu Kɔkɔe
 
-**TipZ** nye **ame ŋutɔ ƒe tipping protocol** si wotu ɖe taɖodzinu aɖe nu na nuwɔlawo kple cypherpunks. Fans tia le cryptocurrency gã ɖesiaɖe me; wotrɔa asi le eŋu le eɖokui si eye wotsɔnɛ yinae abe **shielded ZEC** ene.
+TipZ nye ɖoɖo si wowɔna na ame siwo wɔa nu kple kɔmpiuta dzi ŋɔŋlɔlawo. Eʋalawo tsɔa ga gbogbo aɖe ɖoa teƒea; wotrɔnɛ wòzua ZEC eye wotsɔnɛ naa wo le mɔ̃ me.
 
-| Nusi wotsɔ wɔe | Nyatakakawo Tsitotsito |
+Nu si me míedzro: Nyawo.
 |-------------------|---------|
-| **Nyatakakadzraɖoƒe** | [https://tipz.cash/](https://tipz.cash/) |
-| **Twitter** ƒe nyatakakadzraɖoƒea | [@tipz_cash dzi](https://x.com/tipz_cash) |
-| **Nyatakaka ƒe Nɔnɔme**| `tipz.cash/@[username]` |
-| **Nɔnɔme** | Agbe |
+[Adzraɖoƒe]https://tipz.cash/](https://tipz.cash/) |
+[@tipz_cash] Eʋegbe me tɔ: @tips.com/twitter#$%CashFresh!](https://x.com/tipz_cash) |
+Ŋutinya ƒe Mɔnuɖoɖowo. `tipz.cash/@[username]` |
+Ŋutinya: Agbenɔnɔ le agbe me.
 
-> *"tipz.cash nye ame ŋutɔ ƒe tipping ɖoɖowɔɖi na nuwɔlawo kple cypherpunks."*
+> "tipz.cash nye ɖoɖo si dzi woato ana tifi le adzame na nuwɔlawo kple asitelefon-dɔwɔlawo".*
 
-### Nusita Ameŋunyatakakawo Ŋuti Nyatakaka Le Vevie Na Wɔlawo
+### Nu Si Tae Ame Ŋuti Nyawo Ƒe Dzɔdzɔenyenye Le Vevie Na Wɔlawo
 
 #### Ganyawo ƒe Ablɔɖe
-- 0% ƒe nuƒolanɔƒe ƒe fewo
-- Non-custodial & ame ŋutɔ ƒe vidzikpɔkpɔ
-- Domenɔla aɖeke meli o
+- 0% platform fees (adzraɖoƒe ƒe fewo)
+- Amesiwo mele gaxɔ me o kple amesiwo le wo ɖokui si la ƒe ga home
+- Ame aɖeke manɔ anyi ato eme o.
 
-#### Adzamenyawo-Gbãtɔ ƒe Aɖaŋuwɔwɔ
-- Nugbɔ ɖesiaɖe va ɖona abe ZEC si wotsɔ akpoxɔnu wɔe ene
-- Ame ŋutɔ ƒe gakotoku ƒe ga si susɔ
-- Gbedasɛwo ɖoɖo ɖe nya ɣaɣlawo kple aɖaŋuɖoɖowo
-- Bliboe wɔla ƒe ŋkɔmaɖemaɖe tiatia
+#### Ame Ŋuti Nyawo Gbɔkpɔ le Mɔ̃ɖaŋununya Me
+- Wo dometɔ ɖesiaɖe va ɖo ZEC si ŋu wotrɔ asi le la me.
+- Ameɖokui ƒe ga si le eƒe kotoku me la dzi
+- Gbedeasi si me nyatakakawo le kple nu siwo woana la ŋuti kɔpiwɔwɔ.
+- Ŋgɔdonyawo Wɔla ƒe ŋkɔ manɔmee nɔnɔ ŋuti tiatia blibo
 
-#### Fexexe le Kɔsɔkɔsɔwo Me
-| Ga si woatsɔ awɔ dɔe | Netwɔƒe |
+#### Fetu Siwo Woxe Ðe Ame Bubuwo Nu
+Gaku. Ðekawɔwɔ le kadodo me kple amewo.
 |----------|---------|
-| ETH | Ethereum ƒe ƒuƒoƒo |
-| USDC ƒe | Kɔsɔkɔsɔ geɖe |
-| SOL | Solana |
-| ZEC | Zcash tẽe |
+ETH. Ethereum. (Ethiopia) Woyɔ wo be "eth".
+USDC. Kɔntavi geɖe le eŋu.
+SOLANA: Solana, nye ŋkɔe nye "Sol".
+ZEC: Gadzraɖoƒleƒe si nye Zcash.
 
-#### Wɔla Takpɔkpɔ
-- Afɔku aɖeke meli si ana woaɖe asi le mɔ̃a ŋu o
-- Censorship tsi tre ɖe eŋu
-- KYC aɖeke mehiã o
+#### Wɔla la Ƒe Ametakpɔkpɔ
+- Ʋu si le ʋuʋu ge la megale ʋua ƒe akpa aɖeke o.
+- Womeɖea mɔ ɖe numetoto ŋu o
+- Womehiã KYC o.
 
-### Dɔwɔnu Bubuwo
+### Kpekpeɖeŋu Bubuwo
 
 ```
 TipZ Payment Flow

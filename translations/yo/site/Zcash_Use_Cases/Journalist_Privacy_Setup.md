@@ -2,15 +2,15 @@
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  Olùbẹ̀rẹ̀ - Ìṣẹ́jú 7
+  Àkóbá fún àwọn tó ń ṣe eré ìdárayá - Ìṣẹ́jú 7
 </span>
 
 ## TL;DR
 
-- Lo àwọn àdírẹ́ẹ̀sì tí a fi ààbò pamọ́ fún gbogbo ìsòwò
-- Má ṣe fi àpamọ́ owó rẹ hàn fún gbogbo ènìyàn
-- Dáàbò bo àwọn orísun nípa yíyẹra fún àwọn ìsanwó tí a lè tọpinpin
-- Lo àwọn ìpamọ́ra fún ìjùmọ̀sọ̀rọ̀ tí ó ní ààbò
+- Lo àwọn àdírẹ́sì tí a fi ààbò bo fún gbogbo ìsòwò
+- Má ṣe fi orúkọ àpò ìnáwó hàn fún gbogbo ènìyàn rí.
+- Dáàbò bo àwọn orísun nípa yíyẹra fún ìsanwó tí a lè tọpinpin rẹ̀.
+- Lo àwọn àlàyé ìparí pẹ̀lú ìṣọ́ra fún ìbánisọ̀rọ̀ tí ó ní ìdènà.
 
 <br/>
 
@@ -18,22 +18,22 @@
 
 - Àwọn oníròyìn
 - Àwọn olùwádìí
-- Àwọn Òsìsẹ́
-- Àwọn ẹni-kọọkan tó ní ewu gíga tí wọ́n ń bójú tó àwọn ìsanwó tó ṣe pàtàkì
+- Àwọn Òsìsẹ́-Ìjàpá
+- Àwọn ẹni-kọọkan tí ó ní ewu gíga tó ń ṣètò àwọn owó ìdókòwò dídákẹ́lẹ̀.
 
 
 <br/>
 
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
 
-Àwọn akọ̀ròyìn ń kojú:
+Àwọn oníròyìn ń kojú:
 - Ìṣọ́
-- Àwọn ewu tí ó wà nínú ìmúlẹ̀sílẹ̀
-- Àkọsílẹ̀ owó tí àwọn alátakò ń ṣe
+- Àwọn ewu tí ó jẹ́ ti ìmúmu sí ibi ààbò
+- Ìtọjú owó àwọn alátakò
 
 Lílò àwọn ẹ̀rọ-ìpamọ́ tí ó ṣe kedere lè fi hàn:
 - Ta ló sanwó fún ọ?
-- Àwọn tí o sanwó fún
+- Àwọn tí o sanwó fún.
 - Ìgbà wo ni wọ́n máa ṣe é àti iye tó máa gbà?
 
 <br/>
@@ -42,79 +42,79 @@ Lílò àwọn ẹ̀rọ-ìpamọ́ tí ó ṣe kedere lè fi hàn:
 
 
 Zcash n pese:
-- Ìpamọ́ ìṣúnná owó tó lágbára
-- Ààbò fún àwọn ìṣòwò tó ní ìjìnlẹ̀ òye
-- Ìdènà tí ó dín kù láti so àwọn oníròyìn mọ́ àwọn orísun
+- Ìpamọ́ra tó lágbára nípa ìṣúnná owó
+- Ààbò fún àwọn ìnáwó tó ní òye
+- Ìdẹwò dídíjú láti so àwọn oníròyìn pọ̀ mọ́ orísun ìsọfúnni wọn.
 
 <br/>
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
-- Pese Zcash pẹlu atilẹyin aabo
-- Ọ̀nà ìjùmọ̀sọ̀rọ̀ tí ó ní ààbò (ní òde blockchain)
-- Ìbáwí ìgbòkègbodò
+- Àpò Zcash tí ó ní ìtìlẹyìn ààbò.
+- Ọna ìjùmọ̀sọfúnni tí ó ní ààbò (níta blockchain)
+- Ìwà ìrẹ́nijẹ nínú iṣẹ́ náà
 
 <br/>
 
 ## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
 
 
-### Ìgbésẹ̀ 1: Ṣẹ̀dá Àpamọ́ kan
+### Ìgbésẹ̀ 1: Ṣídá Àpamọ́ kan Tí a Ya Ara Rẹ Sítọ̀ fún Iṣẹ́-ìṣúná rẹ.
 
-- Lo àpamọ́ owó fún iṣẹ́ tó ṣe pàtàkì nìkan
-- Má ṣe da nǹkan pọ̀ mọ́ àwọn òwò tó o bá ṣe fúnra rẹ
+- Lo àpò owó fún iṣẹ́ tó ṣe pàtàkì nìkan.
+- Má ṣe fi nǹkan tí kò ní í jẹ́ ti ara ẹni kún un.
 
-### Igbese 2: Lo Awọn Adirẹsi Ti o Ni aabo Nikan
+### Igbesẹ 2: Lo Àwọn Adirẹsi Ààbò Nìkan
 
-- Nigbagbogbo ṣe iṣowo nipa lilo awọn adirẹsi z
-- Yẹra fun awọn iṣowo ti o ni oye patapata
+- Nigbagbogbo ṣe iṣowo nipa lilo awọn adirẹsi z-adiresi.
+- Yẹra fún àwọn ìnáwó tí ó ṣe kedere pátápátá.
 
 
-### Ìgbésẹ̀ Kẹta: Dáàbò Bo Àwọn Owó Tí Wọ́n Ń San
+### Ìgbésẹ̀ 3: Dáàbò Bo Àwọn Owó Tí Wọ́n Ń San Láti Orílé-Èdè Náà
 
 Bí àwọn orísun tó ń sanwó bá:
 - Lo àwọn ìnáwó tí a fi ààbò bo (z → z)
-- Yẹra fún ṣíṣe àwọn nǹkan tó máa ń wáyé ní àkókò kan pàtó
-- Má ṣe tún lo àwọn àdírẹ́sì
+- Má ṣe máa fi àkókò tó o ti mọ̀ tẹ́lẹ̀ ṣètò rẹ.
+- Má ṣe lo àdírẹ́sì náà padà.
 
 
-### Ìgbésẹ̀ Kẹrin: Ṣọ́ra fún Àwọn Ìwé Ìránnilétí
+### Ìgbésẹ̀ Kẹrin: Ṣọ́ra fún Àwọn Àlàyé Tó O Máa Ń Fi Sílẹ̀ Lára Ìwé Ètò Iṣẹ́ Òjíṣẹ́ Rẹ
 
-- Má ṣe fi ìsọfúnni tó ṣe pàtàkì kún àwọn ìwé ìránnilétí
-- Lo àwọn atọ́ka tí kò ní nǹkan kan ṣe pẹ̀lú ọ̀rọ̀ náà tàbí kó o fi kọ́kọ́pù ṣe é
+- Má ṣe fi ìsọfúnni tó ní í ṣe pẹ̀lú ọ̀ràn pàtàkì kún àwọn ìwé ìránnilétí.
+- Lo àwọn àlàyé tí kò ní í ṣe pẹ̀lú ọ̀rọ̀ tàbí èyí tó wà nínú kóòtù bí ó bá pọn dandan.
 
 
-### Ìgbésẹ̀ 5: Ṣọ́ra fún Ààbò Ìṣiṣẹ́
+### Ìgbésẹ̀ 5: Ṣíṣètò bí ètò náà á ṣe máa lọ déédéé.
 
-- Yẹra fún fífi àpamọ́wọ́ wé ìdánimọ̀ rẹ
-- Maṣe jẹrisi awọn iṣowo ni gbangba
-- Máa lo ọ̀nà ọ̀tọ̀ọ̀tò́ láti bá àwọn èèyàn sọ̀rọ̀
+- Má ṣe fi àpamọ́ owó rẹ mọ ẹni tó o jẹ́
+- Má ṣe jẹ́ kí àwọn ìnáwó náà di mímọ̀ fún gbogbo ènìyàn.
+- Máa lo ọ̀nà tó yàtọ̀ síra láti fi bá àwọn èèyàn sọ̀rọ̀.
 
 
 <br/>
 
 ## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
 
-- Lílo àwọn àdírẹ́sì tí ó ṣe kedere 
-- Lílo àwọn àdírẹ́sì padà ní oríṣiríṣi orísun 
-- Lára àwọn ìsọfúnni tó ṣe pàtàkì nínú àwọn ìwé ìránnilétí 
-- Sísopọ àpò-ìpamọ́ sí ìdánimọ̀ aráàlú 
+- Lílò àwọn àdírẹ́sì tí ó ṣe kedere 
+- Lílò àwọn àdírẹ́sì padà ní oríṣiríṣi orísun 
+- A fi mọ data to ṣe pataki ninu awọn akọsilẹ. 
+- Lílo apamọwọ sí ìdánimọ gbogbo ènìyàn 
 
 <br/>
 
 ## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
 
 O lè:
-- Máa dáàbò bo àwọn ibi tó o ti ń kéde ìròyìn
-- Dín àwọn ewu tó wà nínú ìwádìí náà kù
-- Ṣọ́ra fún ìfọ̀kànbalẹ̀ nípa owó nínú iṣẹ́ tó ní í ṣe pẹ̀lú ọ̀ràn pàtàkì
+- Máa dáàbò bo àwọn ibi tó o ti ń wá ìsọfúnni.
+- Dín ewu ìfọ̀rọ̀wániléwò kù
+- Má ṣe jẹ́ kí àwọn èèyàn mọ̀ nípa owó tó o bá ń bójú tó ọ̀ràn pàtàkì kan.
 
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Ìpamọ́ - Àwọn Àṣà Rere](/privacy/best-practices)
-- [Fífi owó ránṣẹ́ láìsí ìsopọ̀ ìdánimọ̀](/use-cases/send-money-without-linking-identity)
+- [Ìpamọ́ - Àwọn Àṣà Rere Jù Lọ](/privacy/best-practices)
+- [Fi owó ránṣẹ́ láìfi ìdánimọ̀ rẹ mọ̀.](/zcash-use-cases/send-money-without-linking-identity)
 
  <br/>
 
@@ -122,19 +122,19 @@ O lè:
 
 **Igbesẹ 6 nínú 6  Ti parí**
 
-You’ve reached the most advanced level of Zcash usage.
+O ti dé ipele to gaju julọ ninu lilo Zcash.
 
-Wàyí o, o ti mọ̀ báyìí.
-- Àwọn ìnáwó ti ara ẹni
+O ti wá lóye báyìí:
+- Àwọn ìnáwó tí kò ní ti ara ẹni lọ́wọ́
 - Ààbò ìdánimọ̀
-- Ààbò iṣẹ́
+- Ààbò iṣẹ́-ṣiṣe
 
 <br/> 
 
 ## Kí Ló Máa Ṣẹlẹ̀ Lẹ́yìn Náà?
 
-- [Lọ sí ojú ìwé àkọ́kọ́]](/)
-- [Ṣàwárí àwọn ọ̀nà olùgbèrú](/developers)
+- [Lọ sí ojúewé àkọ́kọ́.](/)
+- [Ṣawari awọn ọna ti o ni idagbasoke](/developers)
 - [Ṣíṣe àfikún sí ZecHub](/contribute/help-build-zechub)
 
 <br/> 
