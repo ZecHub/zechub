@@ -8,7 +8,9 @@ This project is mirrored on **Radicle** — a sovereign, peer-to-peer code colla
 |---------------|--------------------------------------------------|----------------------------------------------|--------------|
 | **zechub**    | A decentralized education hub for Zcash          | `rad:zad2NSrsw3NYdkvx1sTn6EYAqRHc`         | [View on Radicle](https://app.radicle.xyz/nodes/iris.radicle.xyz/rad:zad2NSrsw3NYdkvx1sTn6EYAqRHc) |
 | **zechub-wiki** | Educational wiki for Zcash and privacy         | `rad:z2cawajJ9dAqR35UhHQvSxuFNA6SL`         | [View on Radicle](https://app.radicle.xyz/nodes/iris.radicle.xyz/rad:z2cawajJ9dAqR35UhHQvSxuFNA6SL) |
+| **zec-bounties** | Bounty Platform with Native ZEC Payments | `rad:z26j8nK8Mu6ksH6Wettko11kMDdLE` | [View on Radicle](https://app.radicle.xyz/nodes/iris.radicle.xyz/rad:z26j8nK8Mu6ksH6Wettko11kMDdLE)
 | **namada**    | Namada governance and network metrics dashboard | `rad:z4Wg7andG6uee1EAyWEhCuivji41V`         | [View on Radicle](https://app.radicle.xyz/nodes/iris.radicle.xyz/rad:z4Wg7andG6uee1EAyWEhCuivji41V) |
+
 
 ### How to Support These Repos
 
