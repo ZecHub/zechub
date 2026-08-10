@@ -2,24 +2,24 @@
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  Mfitiase - simma 7
+  Mfitiaseɛ - 7 min
 </span>
 
 ## TL;DR
 
-- Fa adansedie a w'ayi no asiesie so ma dwumadie biara
-- Mma w'ankyerɛ wo sika no ho anidahɔ wɔ baguam da.
-- Bɔ akatua ho ban denam a wobɛkwati sɛ wobɛyɛ sika bi de ahwehwɛ wo din akyi no so.
-- Fa nkae no di dwuma yiye ma wo ne afoforo adi nkitaho a ani da hɔ.
+- Fa address ahorow a wɔabɔ ho ban di dwuma ma nnwuma nyinaa
+- Mma sika kotoku no ho nsɛm nkyerɛ wɔ baguam da
+- Bɔ fibea ahorow ho ban denam kwati a wobɛkwati sɛ wubetua sika a wotumi hwehwɛ mu no so
+- Fa memos di dwuma yiye ma nkitahodi a ahobammɔ wom
 
 <br/>
 
 ## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
 
-- Atesɛmpatrɛwfo
-- Wɔn a wɔhwehwɛ mu no
-- Wɔn a wɔpere wɔn ho bɔ bra
-- Nnipa a wɔn ho asisi mu na wɔhwɛ nkatua ahorow so yie no
+- Nsɛm ho amanneɛbɔfo
+- Nhwehwɛmufo
+- Wɔn a wɔyɛ adwumaden
+- Ankorankoro a asiane kɛse wom a wodi sikatua a ɛho hia ho dwuma
 
 
 <br/>
@@ -27,114 +27,114 @@
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
 
 Nsɛm ho amanneɛbɔfo hyia:
-- Ahwɛsoɔ
-- Nsonsiansoɔ a ɛde ba asiane mu
-- Adwenfo a wɔn ho aka no sikasɛm mu nhwehwɛmu
+- Nhwehwɛmu
+- Asiane ahorow a ɛwɔ Source exposure mu
+- Sikasɛm mu akyidi a atamfo yɛ
 
-Sɛ wode crypto a emu da hɔ di dwuma a, ebetumi ada adi sɛ:
-- Hena na ɔtua wo ka?
-- Nea woatua no ka a, ɛyɛ dɛn?
-- Bere bɛn ne dodoɔ sɛn?
+Sɛ wode crypto a ɛda adi di dwuma a, ebetumi ada no adi:
+- Hena na ɔtuaa wo ka
+- Wɔn a wotua wɔn ka
+- Bere bɛn ne dodow a ɛdɔɔso
 
 <br/>
 
 ## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash?
 
 
-Zcash de:
-- Sika ho ahobammɔ a emu yɛ den
-- Dwumadie a ɛho hia ho banbɔ
-- Nsɛm ho dawurubɔfo a wɔfa wɔn nsɛm ma no, asiane kakra bi nti na wɔyɛ saa.
+Zcash de ma:
+- Sikasɛm mu kokoamsɛm a emu yɛ den
+- Ahobammɔ a wɔde ma wɔ nnwuma a ɛho hia ho
+- Asiane a ɛwɔ hɔ sɛ wɔde nsɛm ho amanneɛbɔfo bɛbata nneɛma a wonya fi mmeae ahorow ho no so tew
 
 <br/>
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
-- Zcash sika nkotoku a wɔabɔ ho ban no
-- Nkitahodie kwan a ahobↄ so (wɔ abankɛseɛm akyi)
-- Adwuma mu nteɛsoɔ
+- Zcash sika kotoku a wɔde kyɛm a ɛboa
+- Nkitahodi kwan a ahobammɔ wom (blockchain akyi) .
+- Adwumayɛ mu nteɛso
 
 <br/>
 
 ## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
 
 
-### Anammɔn 1: Yɛ sika krataa a yɛde bɛhyɛ wo nsa no bi
+### Anamɔn 1: Yɛ Sikakorabea a Wɔahyira So
 
-- Fa sika kotoku yɛ adwuma a ɛho hia nkutoo.
-- Mma wɔmfa mmɔ wo ho ban mfi ankorankoro nnwuma mu.
+- Fa sika kotoku di dwuma ma adwuma a ɛho hia nkutoo
+- Mfa w’ankasa nnwuma nnfrafra
 
-### Anammɔn 2: Fa Address a Ɛwɔ Sohwɛsoɔ nkutoo di dwuma
+### Anamɔn 2: Fa Address a Wɔabɔ ho ban Nkutoo Di Dwuma
 
-- Da biara fa z-address di dwuma.
-- Twe wo ho fi aguadi a ani tua mu koraa ho.
-
-
-### Nnyԑmfua 3: Bɔ fekuw a' ɔfaso no ho ban
-
-Sɛ wɔtua sika a:
-- Fa nnwumakuo a wɔn ho ban no di dwuma (z → z)
-- Mma mmfa bere a wɔahyɛ no nnsi w'ani so mma nneɛma nkɔ yiye.
-- Mmafa adrɛs mma dwuma bio
+- Bere nyinaa fa z-address ahorow di dwuma
+- Kwati nnwuma a ɛda adi pefee koraa
 
 
-### Anammɔn 4: Hwɛ Yiye Wɔ Nkrataa a Wɔde Kɔto So Ho
+### Anamɔn 3: Bɔ Source Payments ho ban
 
-- Mfa nsɛm a ɛho hia nka nkrataa ho wɔ krataa mu.
-- Sɛ ɛho hia a, fa nsɛm no bi to hɔ anaa ma wo nkyerɛwde mfa ho.
+Sɛ fibea ahorow a wotua ho ka a:
+- Fa nkitahodi a wɔabɔ ho ban (z → z) di dwuma .
+- Kwati bere nhyehyɛe ahorow a wotumi hyɛ ho nkɔm
+- Mfa address ahorow nni dwuma bio
 
 
-### Adesuadeɛ a ɛtɔ so nnum: Dwumadie ho banbכ ho nhyehyεeɛ
+### Anamɔn 4: Hwɛ yiye wɔ Memos ho
 
-- Mmafa wo sika nkotoku no nka w'ahonim ho
-- Mfa tratract ho nkyerεkyerεmu mma ɔmanfo no mu.
-- Fa akwan a ɛsonsono so di nkitaho no.
+- MFA nsɛm a ɛho hia nhyɛ memos mu
+- Fa nsɛm a wɔde gyina hɔ ma a ɛnyɛ nea ɛfa biribiara ho anaasɛ wɔde code ahyɛ mu di dwuma sɛ ɛho hia a
+
+
+### Anamɔn 5: Kura Adwumayɛ mu Ahobammɔ mu
+
+- Kwati sɛ wode sika kotoku bɛbata wo nipasu ho
+- Mma nnsi nnwuma a wɔayɛ no so dua wɔ baguam
+- Fa akwan horow a ɛsono emu biara di dwuma ma nkitahodi
 
 
 <br/>
 
 ## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
 
-- Fa adrɛs a w'ani da so di dwuma no yɛ adwuma. 
-- Adesamma nyinaa mu a wɔde address di dwuma bio 
-- Deɛ ɛfa nsɛm a ɛho hia wɔ memo mu ka ho. 
-- Kyɛw a wɔde di dwuma wɔ ɔman mu no ne nnipa din ntam abusuabɔ. 
+- Address ahorow a ɛda adi pefee a wɔde bedi dwuma 
+- Address ahorow a wɔsan de di dwuma wɔ mmeae ahorow nyinaa 
+- Data a ɛho hia a ɛwɔ memos mu ka ho 
+- Sika kotoku a wɔde bata ɔmanfo nipasu ho 
 
 <br/>
 
 ## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
 
-Wubetumi:
-- Bɔ wo nnyinaso ho ban.
-- Sԑdeԑ wobԑtoto ahobanbɔ mu nsunsuansoɔ ahorow no ase.
-- Ma w'adwumam ho nsɛm mu nna hɔ wɔ adwuma a ɛho hia no mu.
+Wobɛtumi:
+- Bɔ wo fibea ahorow ho ban
+- Tew asiane ahorow a ɛwɔ hɔ sɛ wɔbɛhwɛ nneɛma so no so
+- Kura sikasɛm mu kokoamsɛm mu wɔ adwuma a ɛho hia mu
 
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Ahintasɛm - Agyede pa a wobɛtumi ayɛ](/privacy/best-practices)
-- [Sende sika a ɛnfa ho adansedie ntoatoaa so](/zcash-use-cases/send-money-without-linking-identity)
+- [Privacy - Nneyɛe a eye sen biara](/privacy/best-practices)
+- [Fa sika mena a womfa wo ho nhyɛ wo ho](/zcash-use-cases/send-money-without-linking-identity)
 
  <br/>
 
 ## <img src="/content-images/celebration-spark-svgrepo-com-bc98dec7c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="celebration icon"/> Completion
 
-**Ɔfã a ɛtɔ so 6 wɔ afahyɛ no mu  Wɔawie**
+**Anamɔn 6 wɔ 6 mu — Wɔawie**
 
-Woatumi anya Zcash a wode di dwuma no mu nimdeɛ paa.
+Woadu Zcash dwumadie a ɛkɔ anim paa.
 
-Afei woabɛte ase:
-- Ntotoe a w'ayɛ no
-- Adansedie ho banbɔ
-- Adwumayɛ mu ahobanbɔ
+Seesei woate ase sɛ:
+- Ankorankoro nkitahodi ahorow
+- Nnipa a wɔyɛ ho banbɔ
+- Adwumayɛ mu ahobammɔ
 
 <br/> 
 
-## Afei Deɛ Ɛto So Yi?
+## Dɛn na Ɛdi Akyi?
 
-- [Kɔ fie hɔ nkratafa so](/)
-- [Sukoa developer akwan no mu nsɛm](/developers)
-- [Fa wo ho hyɛ ZecHub mu](/contribute/help-build-zechub)
+- [Kɔ home page no so](/)
+- [Hwehwɛ developer akwan mu](/developers)
+- [Boa ma ZecHub](/contribute/help-build-zechub)
 
 <br/> 

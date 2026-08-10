@@ -2,29 +2,29 @@
 
 # Mpɔtam hɔ Blogs
 
-Nnipa a wɔwɔ mpɔtam hɔ no yɛ blogs pa pii wɔ Zcash, ahobammɔ, cryptocurrency ne nsɛm foforo ho.
+Mpɔtam hɔfoɔ di blog ahodoɔ pii a ɛyɛ papa a ɛfa Zcash, kokoamsɛm, cryptocurrency, ne nsɛmti a ɛfa ho.
 
-Emu bi a ɛreyɛ adwuma no ni:
+Wɔn a wɔyɛ nnam no bi ni:
 
- Blog / Author  Description Link  Ɛho hia sɛ wo bɛ twe w'adwene asi nea ɛrekɔ so no so.
+| Blog / Ɔkyerɛwfo | Nkyerɛkyerɛmu | Link |
 |----------------------------|----------------------------------------------------------|------|
- Zcash yɛ adwuma sɛn? Bԑyԑ zcash mfoni a' edwuma yi bi. [YƐsrasra ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
-Max Desalle. Zcash a wɔresua no yiye [Sɔhwɛ ->](https://maxdesalle.com/mastering-zcash/) |
-Mike Rosulek. Cryptography no anigye [Sɔhwɛ ->](https://joyofcryptography.com/) |
-James Katz: Nkrataa a ɛfa Zcash ne ahobammɔ ho [Sɔhwɛ ->](https://free2z.cash/James_Katz/) |
- Nsaano krataa a wͻde hyehyɛ no. [YƐN WƆ ABIENSAE > YƐWOM](https://thumbsup.substack.com) |
-[Yԑde nsrahwɛ a ԑfa beae hɔ ho na y'ayԑ nhwehwεmu ne nnipa bi mu nkitahodie](https://free2z.cash/roommatemusing) |
- NerdBank Blog. Technical blog a ɛtwe adwene si Zcash nkɔso ne nnwinnade so [YƐ BESUA WƆN AFOTUSE HO SƐ YƐBƐKAN](https://blog.nerdbank.net/) |
-Thor Likes News, opinions and comments on Zcash [Bae -> N'ani bɛgye ho](https://www.thorlikes.com/) |
- ZecMec Zcash-focused articles on Medium [Bae -> Nkɔhwɛ a ɛnni hɔ wɔ Media](https://zecmec21.medium.com/) |
-Ian Sagstetter. Nsɛm a emu dɔ ne nsɛmma nhoma [Sɔhwɛ ->](https://iansagstetter.substack.com/) |
-Naomi Brockwell (NBTV) Nsɛm a wɔka ne nsɛm pii wɔ ahotɔ ho [Sɔhwɛ ->](https://naomibrockwell.com/highprofileinterviews) |
-Sqribbles  Zcash mu nsɛm a w'abɔ no ne nea nnipa ayɛ na ɛboa [Straw ->](https://free2z.cash/sqribbles) |
-Str4d Zcash core developer no technical nkyerɛwee [Sɔhwɛ ->](https://words.str4d.xyz/) |
- CipherScan Weekly. Ɛdwoada biara, yɛ de nsɛm to Zcash blockchain ho nhwehwɛmu so [Yɛnhwɛ ->](https://cipherscan.app/) |
-Zcash Shielded News. Nnawɔtwe biara ahobanbɔ ne ecosystem nsɛm a wɔtwe no mu [Sɔhwɛ ->](https://zechub.wiki) |
- ZecHub DAO Blog. Nkrataa ne adesua nsɛm a efi ZecHub DAo community hɔ [Kɔhwɛ ->](https://zechub.wiki) |
+| Sɛnea Zcash yɛ adwuma | Si Zcash | [Nsrahwɛ ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
+| Max Desalle na ɔkyerɛwee | Mastering Zcash | [Nsrahwɛ ->](https://maxdesalle.com/mastering-zcash/) |
+| Mike Rosulek a ɔyɛ | Anigye a Ɛwɔ Cryptography Mu | [Nsrahwɛ ->](https://joyofcryptography.com/) |
+| James Katz | Ankorankoro nkyerɛwee ne nsusuwii wɔ Zcash ne kokoam nsɛm ho | [Nsrahwɛ ->](https://free2z.cash/James_Katz/) |
+| Thumbs' Nsɛm a Wɔahyehyɛ | Abɔde a nkwa wom ho nhyehyɛe foforo ne nhumu a wɔde ma daa | [Nsrahwɛ ->](https://thumbsup.substack.com) |
+| dan mufo a wɔte asetena | Musings ne mpɔtam hɔ nsɛm | [Nsrahwɛ ->](https://free2z.cash/roommatemusing) |
+| NerdBank Blog a Wɔde Di Dwuma | Technical blog twee adwene sii Zcash nkɔso ne nnwinnade so | [Nsrahwɛ ->](https://blog.nerdbank.net/) |
+| Thor Ani gye ho | Nsɛm, adwene, ne nkyerɛkyerɛmu a ɛfa Zcash | [Nsrahwɛ ->](https://www.thorlikes.com/) |
+| ZecMec a ɛwɔ | Nsɛm a ɛfa Zcash ho wɔ Medium | [Nsrahwɛ ->](https://zecmec21.medium.com/) |
+| Ian Sagstetter a ɔkyerɛwee | Nsɛm a emu dɔ ne nsɛmma nhoma | [Nsrahwɛ ->](https://iansagstetter.substack.com/) |
+| Naomi Brockwell (NBTV) na ɔkyerɛwee | Nsɛmbisa a ɛkorɔn ne nsɛm a ɛfa kokoam nsɛm ho | [Nsrahwɛ ->](https://naomibrockwell.com/highprofileinterviews) |
+| Sqribbles Nsɛm a Wɔka Kyerɛ | Adebɔ ne mpɔtam hɔfo a wɔde di dwuma Zcash content | [Nsrahwɛ ->](https://free2z.cash/sqribbles) |
+| Str4d | Mfiridwuma ho nkyerɛwee a efi Zcash core developer | [Nsrahwɛ ->](https://words.str4d.xyz/) |
+| CipherScan Nnawɔtwe biara | Nnawɔtwe biara blog nsɛm a ɛfa Zcash blockchain analytics ho | [Nsrahwɛ ->](https://cipherscan.app/) |
+| Zcash Shielded Nsɛm ho amanneɛbɔ | Nnawɔtwe biara kokoam nsɛm ne abɔde a nkwa wom ho amanneɛbɔ digest | [Nsrahwɛ ->](https://zechub.wiki) |
+| ZecHub DAO Nsɛm a Wɔka Kyerɛ | Nsɛm ne nkyerɛkyerɛ mu nsɛm a efi ZecHub DAO mpɔtam hɔ | [Nsrahwɛ ->](https://zechub.wiki) |
 
 ---
 
-Sε wopε sε ZecHub de wo nkrataa a w'atwerɛ no bi bͻto gua anaa wode wo ankasa blog ka ho wɔ ha, yεεsε to nsa frɛ kɔfa nsusuyεm!
+Blog ahorow bi a mpɔtam hɔfo de amena ni. Sɛ wopɛ sɛ ZecHub de wo blog nsɛm no mu baako kyerɛ anaasɛ ɛde w’ankasa blog ka ho wɔ ha a, yɛsrɛ wo yɛ Pull Request a nsɛm no ka ho!

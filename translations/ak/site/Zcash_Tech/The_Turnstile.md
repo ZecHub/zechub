@@ -1,124 +1,124 @@
-# Nsrahwɛbea no.
+# Nneɛma a wɔde dannan nneɛma
 
 ## TL;DR
 
-- Turnstile no yɛ aban akontaabu mmara a ɛhwɛ sika dodow a ɛkɔ ne nea efi ɔfasu biara mu ba so.
-- Ɛma obiara hu sɛ, sika a wɔde hyɛ po ase no mmɔ ka pii sen nea wɔhyehyɛe mu da. Ɛwom mpo sɛ emu nneɛma yɛ kokoam de, nanso ɛnyɛ nnipa nyinaa na wɔyɛ saa adwuma yi bi
-- Eyi bɔ ZEC no ho ban fi nsisi a ahintaw bi, efisԑ sika nkontompo ntumi mfi ɔbodan mu bere a wonnii kan nni ano
-- Ɛtumi yɛ adwuma a ɛnsɛe kokoam nsɛm, ɛfiri sɛ wɔn nyinaa ka bom wɔ baguamu na ɛnyɛ ankorankoro nnwuma.
-- Nsrahwɛ no ne ade a enti Orchard kɔ Ironwood akwantu no betumi akyerɛ sɛ nneɛma a wɔde bɔ ho ban no yɛ nea edi mu.
+- Turnstile yɛ ɔmanfo akontaabu mmara a ɛkyerɛ bo dodow a ɛkɔ mu na efi ɔtare biara a wɔabɔ ho ban mu
+- Ɛma obiara hu sɛ ɔtare bi ntua sika a ɛboro nea wɔde guu mu no da, ɛwom mpo sɛ nnwuma a ɛwɔ mu no yɛ kokoam de
+- Eyi bɔ ZEC a wɔde ma no ho ban fi mmoawa a wɔde asie ho, efisɛ sika a ɛnyɛ nokware ntumi mfi ɔtare bi mu a ɛremmu akontaabu no mu
+- Ɛyɛ adwuma a ɛmma kokoam nsɛm nyɛ mmerɛw, efisɛ pool totals nkutoo na ɛyɛ ɔmanfo de, ɛnyɛ ankorankoro nkitahodi da
+- Turnstile no ne nea enti a Orchard to Ironwood atutra no betumi akyerɛ sɛ shielded supply no yɛ papa
 
 <br/>
 
-## Hena na eyi yɛ ma no?
+## Hena na eyi yɛ ma no
 
-- Obiara a ɔpɛ sɛ ɔte sɛnea Zcash ma ne kokoam nneɛma di mu no ase.
-- Users a w'adi Orchard akɔ Ironwood akwantu akyi no bisa sɛ ɔkwan bɛn so na ɛkyerɛ sɛ nneɛma yi wɔ hɔ ankasa?
-- Nnipa a wɔaba foforo no pɛ sɛ wohu sɛnea wobetumi ayɛ sikasɛm ho nhyehyɛe bi so nhwehwɛmu.
-
-<br/>
-
-## Ɔhaw no
-
-Shielded Zcash hides amounts, senders, and receivers. That privacy is the point. But it raises a hard question: if nobody can see inside the shielded pool, how does anyone know the total amount of ZEC is correct? How do you audit money you cannot see?
-
-If a bug ever let someone forge coins inside a shielded pool, the forgery would be hidden by the same privacy that protects honest users. Without a safeguard, that uncertainty would undermine confidence in the whole supply. The turnstile is the safeguard that solves this.
+- Obiara a ɔpɛ sɛ ɔte sɛnea Zcash ma ne kokoam nneɛma kɔ so yɛ nea wotumi de ho to so ase
+- Wɔn a wɔde di dwuma no di Orchard to Ironwood atutra akyi na wosusuw sɛnea ɛkyerɛ sɛ nneɛma a wɔde ma no yɛ nokware no ho
+- Wɔn a wɔaba foforo no pɛ sɛ wohu sɛnea wobetumi akɔ so ayɛ ankorankoro sikasɛm nhyehyɛe bi ho akontaabu
 
 <br/>
 
-## Dɛn ne ahwehwɛ no?
+## Asɛnnennen no
 
-Think of each shielded pool as a room with a single counted doorway. Every time value enters the pool from outside, or leaves it to go elsewhere, it passes through the doorway and is tallied in public. The transactions inside the room stay private, but the running total at the door is visible to everyone.
+Shielded Zcash de sika dodoɔ, wɔn a wɔde kɔma, ne wɔn a wɔgye no sie. Saa kokoam nsɛm no ne asɛm no. Nanso ɛma asɛmmisa a emu yɛ den sɔre: sɛ obiara ntumi nhu ɔtare a wɔabɔ ho ban no mu a, ɛbɛyɛ dɛn na obi ahu sɛ ZEC dodow no nyinaa teɛ? Wobɛyɛ dɛn ahwɛ sika a wuntumi nhu?
 
-N'ahyehyɛde no yɛ tiawa: obi ntumi mma ne bo so nsen nea ɔde aba mu. Ntam nkɔnsɔnkɔnsɔn biara a ɛbɛtwe pool sika ase akɔ zero ho no, wɔpo. Sika dodow a wogye di sɛ ɛwɔ poom hɔ no na wonim bere nyinaa efisɛ ɛyɛ pɛsɛmenkomenya a wɔde baa mu minus deɛ ɛgyaa mu. Saa nnipa dodoɔ yi ara na ɛma wɔn gyinabea ba fam.
-
-<br/>
-
-## Sɛnea ɛyɛ adwuma no
-
-Zcash wɔ nnwumakuo bebree a wɔn ho ban, te sɛ Sprout, Sapling ne Orchard. Ɛsom no tu kɔ baabiara firi saa nkɔnsɔnkɔnsɔn yi mu na ɛtɔ da bi nso a ɛsan ba hɔ ma nsubɔnten ankasa no. Saa akwantufoɔ no hwɛ:
-
-1. Sɛ ZEC tu kɔhyɛ banbɔ a, wɔ de sika no ka saa banbɔ no ho akatua nyinaa ho.
-2. Sɛ ZEC tu firi pool mu a, wɔtwe sika no fi ho.
-3. Kuw no po biribiara a ɛbɛma akatua bi akɔ negative, kyerɛ sɛ nnipa bebree na wɔakɔ akyiri sen wɔn a wɔde aba.
-4. Akwan a wɔfa so di dwuma no yɛ kokoam, na wɔn nyinaa ka ho bi.
-
-The network tracks a balance for every value pool this way, including Sprout, Sapling, Orchard, the new Ironwood pool, and the transparent and lockbox balances. Because of this, even if the exact contents of a pool are hidden, the maximum that can ever come out is capped by what went in. No hidden inflation can escape into circulation.
+Sɛ bɔne bi ma obi ma ɔyɛ sika wɔ ɔtare a wɔabɔ ho ban mu da bi a, anka kokoamsɛm koro no ara a ɛbɔ wɔn a wɔde di dwuma nokwaredifo ho ban no de atoro no besie. Sɛ ahobammɔ biara nni hɔ a, anka saa adwenem naayɛ no bɛsɛe ahotoso a wɔwɔ wɔ nneɛma a wɔde ma no nyinaa mu. Turnstile no ne ahobammɔ a edi eyi ho dwuma.
 
 <br/>
 
-## Sεnea wɔde boɔ toto akatua ho no, ɔkwan bɛn so na wɔhwɛ?
+## Nea turnstile no yɛ
 
-The tally at the door is only trustworthy because every transaction is forced to prove it moved a truthful amount, even though the amount itself stays hidden. Each shielded transaction publishes one honest number: the net value it moves into or out of the pool, called its value balance. A positive value balance means funds left the pool to the transparent side, a negative one means funds entered. The private details stay sealed, but this single net figure is public, and it is what the turnstile adds up.
+Fa ɔtare biara a wɔabɔ ho ban sɛ ɔdan a ɔpon biako a wɔakan wom. Bere biara a value befi abɔnten akɔ ɔtare no mu, anaasɛ ebefi hɔ akɔ baabi foforo no, ɛfa ɔpon no ano na wɔkan wɔ baguam. Nkitahodi a ɛwɔ dan no mu no tra hɔ kokoam, nanso sika a wɔde tu mmirika wɔ ɔpon no ano no yɛ nea obiara hu.
 
-Ade a nyansa wom ne sɛnea aguadi kyerɛ sɛ nnipa dodow no yɛ anokwafo bere a wonyi kokoam sika ahorow adi. Ɛsono ɔkwan a wɔfa so di agoru, na eyi ne nea ɛma nneɛma sesa ankasa.
+Mmara no yɛ mmerɛw: pool ntumi mma bo pii nkɔ mu da sen nea akɔ mu Nodes pow block biara a ɛbɛpia pool bi kari pɛ akɔ fam zero. Wonim sika dodow a wogye di sɛ ɛwɔ ɔtare bi mu bere nyinaa, efisɛ ɛyɛ nea ɛkɔɔ mu nyinaa a wɔayi ne nyinaa a ɛkɔɔ mu no afi mu ara kwa. Saa baguam akontaabu yi ne turnstile.
 
-In the original Sprout pool, each transaction uses a JoinSplit. A JoinSplit spends two hidden notes and creates two new ones, and it carries two public fields: vpub_old, the value entering the shielded pool from the transparent side, and vpub_new, the value leaving the pool back to the transparent side. Every JoinSplit must balance on its own, and its zero knowledge proof guarantees the hidden inputs and hidden outputs add up correctly. Sprout's pool balance is simply the running total of all vpub_old minus all vpub_new across the chain. This is why Sprout is a useful example later: because vpub_old is the only way value can enter the pool, a single rule turning it off can seal the pool for good.
+<br/>
 
-In Sapling, Orchard, and Ironwood, balance is proven a smarter way, using a binding signature. Instead of each transfer balancing alone, the whole transaction commits to each hidden amount using a value commitment. A value commitment is a sealed envelope for a number, built with a homomorphic Pedersen commitment, which has a special property: the envelopes can be added and subtracted without opening them. The network adds up all the input commitments, subtracts all the output commitments, and compares the result against the transaction's single declared net figure, its valueBalance field. Only a transaction whose hidden amounts genuinely match that public valueBalance can produce a valid binding signature over the combined commitments. If someone tried to move more value than they declared, the commitments would not add up, the binding signature would not verify, and the transaction would be rejected. Ironwood uses the same Orchard protocol, so it works the same way.
+## Sɛnea ɛyɛ adwuma
 
-This is also what makes a cross-pool transfer safe to check. When funds move from one shielded pool to another, for example from Orchard into Ironwood, the transaction cannot hide the amounts from the accounting. Each pool has its own value balance that must be satisfied by its own proofs: the Orchard side must show a matching outflow through its binding signature, and the Ironwood side must show the corresponding inflow through its own. The value leaving one pool and the value entering the other are each proven independently, so a cross-pool move is really two turnstile crossings happening in one transaction, one out, one in, and both are tallied in public even though the underlying amounts stay private.
+Zcash wɔ atare pii a wɔabɔ ho ban wɔ n’abakɔsɛm mu, te sɛ Sprout, Sapling, ne Orchard. Botae kɔ nkɔnsɔnkɔnsɔn a ɛda adi pefee ne saa atare yi ntam, na ɛtɔ mmere bi a ɛkɔ atare no ankasa ntam. Turstile no hwɛ saa kankyee ahorow no:
 
-Enti, no nsεm a εkyerε sε ͻhaw biara yε ne ankasa net effect. network no de saa nkyerεwde kכma nea w'aka ho asotwe wɔ pool mu na (ZIP 209) gyinabea bi so pow kwan biara a ɛbɛma pool no akatua ayɛ negative. adanse wᴐ transaction level, enforcement at the chain level.
+1. Sɛ ZEC tu kɔ ɔtare a wɔabɔ ho ban mu a, wɔde sika no ka saa ɔtare no ɔmanfo sika ho
+2. Sɛ ZEC tu fi ɔtare bi mu a, woyi dodow no fi mu
+3. Network no pow block biara a ɛbɛma pool bi balance akɔ negative, a ɛkyerɛ sɛ pii aka sen bere biara a wɔahyɛ mu
+4. Ankorankoro shielded nkitahodi tra kokoam koraa, pool totals nkutoo na ɛyɛ baguam
+
+Netwɛk no di kari pɛ akyi ma botaeɛ kuo biara wɔ saa kwan yi so, a Sprout, Sapling, Orchard, Ironwood pool foforɔ no, ne transparent ne lockbox balances ka ho. Esiane eyi nti, sɛ wɔde ɔtare bi mu nneɛma pɔtee ahintaw mpo a, nea ɛkɔɔ mu no na ɛkata nea ɛsen biara a ebetumi afi adi da no so.
+
+<br/>
+
+## Sɛnea wɔhwɛ value balance
+
+Nkontaabu a ɛwɔ ɔpon no ano no yɛ nea wotumi de ho to so nkutoo efisɛ wɔhyɛ atɔ biara ma ɛkyerɛ sɛ ɛde sika a ɛyɛ nokware tu kɔɔ baabi foforo, ɛwom mpo sɛ sika no ankasa da so ara sie de. Aguadi biara a wɔabɔ ho ban tintim nɔma biako a ɛyɛ nokware: bo a ɛsom a ɛde kɔ anaa efi ɔtare no mu, a wɔfrɛ no ne bo a ɛkari pɛ. Botaeɛ pa a ɛkari pɛ kyerɛ sɛ sika a ɛfiri ɔtare no mu kɔɔ ɔfa a ɛda adi pefee no, bɔne kyerɛ sɛ sika a wɔde ahyɛ mu. Kokoam nsɛm no kɔ so yɛ nea wɔahyɛ no agyirae, nanso saa asau akontaabu biako yi yɛ ɔmanfo de, na ɛno ne nea turnstile no ka bom.
+
+Ɔfã a ɛyɛ anifere ne sɛnea asɛm bi da no adi sɛ ɔmanfo nɔma di nokware a ɛnna kokoam sika a ɛwɔ akyi no adi. Ɛsono sɛnea wɔde afiri no yɛ adwuma wɔ ɔtare biara mu, na eyi ne mfiri ankasa a wɔde yɛ turnstile no.
+
+Wɔ Sprout pool a edi kan no mu no, asɛm biara de JoinSplit di dwuma. JoinSplit bi sɛe nkyerɛwde abien a ahintaw na ɛyɛ foforo abien, na ɛde ɔmanfo afuw abien: vpub_old, botae a ɛhyɛn ɔtare a wɔabɔ ho ban no mu fi ɔfã a ɛda adi no, ne vpub_new, botae a efi ɔtare no mu san kɔ ɔfã a ɛda adi no. Ɛsɛ sɛ JoinSplit biara kari pɛ wɔ n’ankasa so, na ne nimdeɛ adanse a ɛyɛ zero no hyɛ bɔ sɛ nsɛm a wɔde hyɛ mu a ahintaw ne nsɛm a wɔde fi adi a ahintaw no ka bom yiye. Sprout pool balance no yɛ running total a ɛyɛ vpub_old nyinaa a wɔayi vpub_new nyinaa afi mu wɔ nkɔnsɔnkɔnsɔn no nyinaa mu ara kwa. Wei nti na Sprout yɛ nhwɛsoɔ a mfasoɔ wɔ so akyiri yi: ɛfiri sɛ vpub_old ne ɔkwan baako pɛ a boɔ bɛtumi afa so akɔ pool no mu, mmara baako a ɛdum no bɛtumi asɔ pool no ano yie.
+
+Wɔ Sapling, Orchard, ne Ironwood mu no, wɔada no adi sɛ kari pɛ yɛ ɔkwan a nyansa wom, na wɔde nsaano nkyerɛwee a ɛkyekyere di dwuma. Sɛ́ anka ɛbɛkari pɛ wɔ transfer biara mu nkutoo no, asɛm no nyinaa de ne ho to sika biara a ahintaw so denam bo a wɔde ahyɛ bɔ so. Botaeɛ bɔhyɛ yɛ envelope a wɔatoto mu ama nɔma bi, a wɔde homomorphic Pedersen commitment asisi, a ɛwɔ agyapadeɛ soronko: wɔbɛtumi de envelopes no aka ho na wɔayi afiri mu a wɔremmue. Netwɛk no ka input commitments nyinaa bom, yi output commitments nyinaa fi mu, na ɛde nea efi mu ba no toto transaction no net figure biako a wɔabɔ ho dawuru, ne valueBalance field no ho. Aguadi a ne sika a ahintaw no ne saa ɔmanfo valueBalance no hyia ankasa nkutoo na ebetumi ama nsaano nkyerɛwee a ɛfata a ɛkyekyere wɔ bɔhyɛ ahorow a wɔaka abom no so. Sɛ obi bɔ mmɔden sɛ ɔbɛma bo a ɛsom kɛse asen nea wɔpae mu kaa no akɔ baabi foforo a, na bɔhyɛ ahorow no renka ho, na nsaano nkyerɛwee a ɛkyekyere no no renkyerɛ sɛ ɛyɛ nokware, na wɔbɛpow asɛm no. Ironwood de Orchard protocol koro no ara di dwuma, enti ɛyɛ adwuma ɔkwan koro no ara so.
+
+Eyi nso ne nea ɛma cross-pool transfer yɛ nea ahobammɔ wom sɛ wobɛhwɛ. Sɛ sika fi ɔtare biako a wɔabɔ ho ban mu kɔ foforo mu, sɛ nhwɛso no, efi Orchard kɔ Ironwood a, asɛm no ntumi mfa sika dodow no nsie akontaabu no. Ɔtare biara wɔ n’ankasa bo a ɛkari pɛ a ɛsɛ sɛ wɔde n’ankasa adanse di ho dwuma: ɛsɛ sɛ Orchard fã no kyerɛ nsu a ɛsen a ɛne no hyia denam ne nsaano nkyerɛwee a ɛkyekyere so, na ɛsɛ sɛ Ironwood fã no kyerɛ nsu a ɛba a ɛne no hyia no denam n’ankasa de so. Botae a efi ɔtare biako mu ne bo a ɛkɔ ɔfoforo no mu biara yɛ nea wɔada no adi wɔ ahofadi mu, enti cross-pool move yɛ ankasa turnstile crossings abien a ɛkɔ so wɔ asɛm biako mu, biako fi adi, biako kɔ mu, na wɔkan abien no nyinaa wɔ baguam ɛwom mpo sɛ sika a ɛwɔ ase no tra kokoam de.
+
+Enti turnstile no nyɛ ahotoso. Adwuma biara de akontabuo di n’ankasa net effect ho adanseɛ, network no bɔ saa net effects a wɔada no adi no bom wɔ pool biara mu, na mmara a wɔpene so (ZIP 209) pow block biara a ɛbɛma pool bi balance negative. Adanse wɔ asɛmdi gyinabea, enforcement wɔ nkɔnsɔnkɔnsɔn gyinabea.
 
 <br/>
 
 ## Nea enti a ɛho hia
 
-N'adwumayɛbea no de nneɛma abiɛsa na ɛboa Zcash prɛko pɛ.
+Turnstile no ma Zcash nneɛma abiɛsa prɛko pɛ.
 
-Nea edi kan no, ɛma asiane mu yɛ hare. Nkrataa a wɔde di dwuma wɔ ɔfese biako mu no hyɛ saa ɔfase no ase efisɛ nea ɛdan dan yi ma mfaso biara fi so ba nnipa pii nkyɛn.
+Nea edi kan no, ɛkyekyɛ asiane mu. Cryptographic bug a ɛwɔ ɔtare baako mu no wɔ saa ɔtare no mu, ɛfiri sɛ turnstile no gyae forged value sɛ ɛbɛtwa akɔ supply a ɛtrɛ no mu.
 
-Second, it lets the community verify the supply in retrospect. If a bug is later discovered, the turnstile record shows whether more value ever left a pool than entered it. A clean record is strong evidence that no counterfeiting was exploited.
+Nea ɛto so abien no, ɛma mpɔtam hɔfo hwɛ nneɛma a wɔde ma no ho adanse wɔ wɔn akyi hwɛ mu. Sɛ akyiri yi wohu bɔne bi a, turnstile kyerɛwtohɔ no kyerɛ sɛ ebia bo a ɛsom pii fii ɔtare bi mu pɛn sen nea ɛhyɛn mu. Kyerɛwtohɔ a ɛho tew yɛ adanse a emu yɛ den a ɛkyerɛ sɛ wɔamfa atoro nneɛma biara nni dwuma.
 
-Nea ɛtɔ so mmiɛnsa, ɛbɔ kokoam bere a woreyɛ yeinom nyinaa. nko ara ne faako-nkorakoraa no mu dodow na ɛyɛ baguamu de. wo ankorankoro akwantu ahorow no da so yɛ banbɔde. ɔhwɛfoɔ tumi di nneɛma ho dwuma wɔ ɔkwan pa so ma emu biara kɔ yiye. ɛne ahobanbɔ bɔ abira - ɛnyɛ ade a ɛte saa daa, ɛno nso ka Zcash ahoɔden ahodoɔ no ho bi.
-
-<br/>
-
-## Turnical no reyɛ adwuma
-
-Nsεnkyerεmu no nyɛ foforo, na wɔde adi dwuma wɔ mmere titiriw mu wͻ Zcash abakɔsɛm mu.
-
-When Zcash moved from the original Sprout pool toward the newer Sapling pool, the turnstile guarded the transition. The Sprout pool was later restricted so it could not receive new inflows, which encouraged users to migrate while the turnstile kept the accounting honest. Years later, the fact that no value ever improperly left Sprout stands as evidence that its early cryptography was never successfully exploited.
-
-The same design now guards the move from Orchard to Ironwood. In 2026 a soundness bug was found and patched in the Orchard proving system. There is no evidence it was ever exploited, but because shielded activity is private, certainty was impossible. The response is to seal the old Orchard pool and have everyone migrate their funds through the turnstile into Ironwood, a fresh pool using the corrected protocol. Forcing funds through the turnstile means any hypothetical counterfeit coins left behind cannot follow, and once migration completes, anyone can confirm the shielded supply is sound.
+Nea ɛto so abiɛsa no, ɛkora kokoam nsɛm so bere a ɛreyɛ eyinom nyinaa no. Pool-level totals nkutoo na ɛyɛ ɔmanfo de. W’ankorankoro nnwuma da so ara yɛ nea wɔabɔ ho ban. Auditability ne privacy bom tra, a ɛyɛ soronko na ɛyɛ Zcash ahoɔden a ɛyɛ komm no mu biako.
 
 <br/>
 
-## Akwantufoɔ a wɔn wɔ sika no ho nimdeɛ pii na wɔde di dwuma.
+## Turnstile a ɛreyɛ adwuma
 
-Saa kwan no so na wobetumi de nsu a ɛwɔ ɔtare dedaw mu akɔto bea foforo, wɔ ɔkwan biako pɛ so, bere biara a wonhwiee ahina bi ngu hɔ. Ɔkwan titiriw ne sɛ wɔbɛtoto apon no ano ma abuebue ato hɔ ama obi afi adi.
+Turnstile no nyɛ foforo, na wɔde adi dwuma wɔ mmere atitiriw mu wɔ Zcash abakɔsɛm mu.
 
-Sprout is the clearest example. To deprecate it, ZIP 211 added a single consensus rule: from its activation height, the vpub_old field of every JoinSplit must be zero. Since vpub_old is the only way value can enter Sprout, forcing it to zero means no new value can ever go in again, while value can still flow out to the transparent side or onward to Sapling. The pool became one-way. It can only drain, never fill. The turnstile keeps counting the whole time, so the balance can fall as funds leave but can never rise, and it can never go negative.
+Bere a Zcash fii Sprout ɔtare a edi kan no mu kɔɔ Sapling ɔtare foforo no mu no, turnstile no wɛn nsakrae no. Akyiri yi wɔbaraa Sprout pool no enti entumi nnya sika foforo a ɛbae, a ɛhyɛɛ wɔn a wɔde di dwuma no nkuran sɛ wontu bere a turnstile no maa akontaabu no kɔɔ so dii nokware. Mfe bi akyi no, nokwasɛm a ɛyɛ sɛ mfaso biara nni hɔ a ennyaw Sprout wɔ ɔkwan a ɛmfata so da no gyina hɔ sɛ adanse a ɛkyerɛ sɛ wɔamfa ne mfitiase cryptography no anni dwuma yiye da.
 
-The Orchard to Ironwood migration uses the same idea. At the NU6.3 upgrade, the Orchard pool is closed to new inflows, and wallets are directed to send Orchard funds across the turnstile into the new Ironwood pool. Orchard becomes a one-way pool that can only empty. Because every exit is a turnstile crossing that must be proven, any hypothetical counterfeit value left behind in Orchard cannot quietly follow the honest funds out. It is stuck in a pool that only drains and is watched at the door. Over time this drives the old pool toward empty and lets anyone confirm that the value which came out was never more than the value that honestly went in.
-
-This is the deeper reason the turnstile matters beyond simple accounting. It is the mechanism that lets Zcash deprecate a shielded pool, whether to reduce complexity as with Sprout, or to recover from a discovered bug as with Orchard, while keeping a continuous, public, provable guarantee about the supply.
+Mprempren adwini koro no ara na ɛwɛn tu a wobetu afi Orchard akɔ Ironwood no. Wɔ afe 2026 mu no, wɔhunuu soundness bug bi na wɔde patch hyɛɛ Orchard proving system no mu. Adanse biara nni hɔ sɛ wɔde dii dwuma da, nanso esiane sɛ dwumadi a wɔabɔ ho ban yɛ kokoam nti, na wontumi nnya awerɛhyem. Mmuae no ne sɛ wɔbɛsɔ Orchard ɔtare dedaw no ano na wɔama obiara atu ne sika afa turnstile no mu akɔ Ironwood, ɔtare foforo a wɔde protocol a wɔateɛteɛ no di dwuma. Sika a wɔhyɛ ma fa turnstile no kyerɛ sɛ sika biara a ɛyɛ atoro a wosusuw sɛ wobegyaw wɔ akyi no ntumi nni akyi, na sɛ atutra wie a, obiara betumi asi so dua sɛ sika a wɔabɔ ho ban no yɛ nea ɛfata.
 
 <br/>
 
-## Adwene a ɛmfata a wɔtaa nya
+## Ɔkwan biako so pool deprecation
 
-- N'asɛmti no kyerɛ sɛ, wo de sika a wode yɛ adwuma wɔ ɔdan mu na ɛyɛe. Ɛkyerɛ nea ɛbaa ne so nyinaa kɛkɛ; ɛnkyerɛ onipa ko a ɔde biribi kɔmaa obi foforo
-- Ɛmfa ho sɛ wɔn a wɔtɔn nneɛma atotɔatotɔ no din na ɛkyerɛ, nanso ɛbɔ nnipa dodow a wobetumi afi ɔbodan mu aba ano hye ma enti ɛma wɔde nea ɛwɔ hɔ nyinaa bɔ ban.
-- Ɛnyɛ ade foforo mma Ironwood. Ɛhwɛ asuhina a wɔde bɔ ho ban biara so wɔ Zcash abakɔsɛm mu
-- Nnipakuw a w'aka wɔn ho asɛm no nyinaa ntumi mma ahobammɔ nsɛe. Ahobammɔ wɔ nnwuma a wɔyɛ wɔ nnipakuo no mu, na ɛda so ara yɛ ahintasɛm
+Turstile no ma wotumi de ɔtare dedaw bi kɔ pɛnhyen dwoodwoo, wɔ ɔkwan biako pɛ so, a wonsɛe nneɛma a wɔde bɛma ho bɔhyɛ no da. Afiri no ne sɛ wobɛto ɔkwan a wɔfa so kɔ mu no mu bere a wogyaw ɔkwan a wɔfa so fi adi no mu no.
 
-<br/>
+Sprout ne nhwɛso a emu da hɔ sen biara. Sɛnea ɛbɛyɛ a wɔbɛpow no, ZIP 211 de mmara biako a wɔpene so kaa ho: efi ne dwumadie sorokɔ so no, ɛsɛ sɛ vpub_old field a ɛwɔ JoinSplit biara mu no yɛ zero. Esiane sɛ vpub_old ne ɔkwan biako pɛ a botae betumi afa so akɔ Sprout mu nti, sɛ wɔhyɛ no ma ɛkɔ zero a, ɛkyerɛ sɛ botae foforo biara rentumi nkɔ mu bio, bere a botae da so ara tumi sen kɔ ɔfã a ɛda adi no anaasɛ ɛkɔ so kɔ Sapling. Ɔtare no bɛyɛɛ ɔkwan biako so. Etumi ma nsuo nkɔ mu nko, ɛnhyɛ ma da. Turnstile no kɔ so kan bere no nyinaa, enti sika a aka no betumi akɔ fam bere a sika no kɔ nanso entumi nkɔ soro da, na entumi nkɔ nea enye da.
 
-## Nneɛma a wɔde bɔ afɔre
+Orchard to Ironwood atutra no de adwene koro no ara di dwuma. Wɔ NU6.3 nkɔsoɔ no mu no, wɔato Orchard pool no mu ama nnipa foforɔ a wɔbɛba, na wɔkyerɛ sika kotokuo sɛ wɔmfa Orchard sika nkɔfa turnstile no mu nkɔ Ironwood pool foforɔ no mu. Nnua turo bɛyɛ ɔtare a ɛkɔ ɔkwan biako so a ebetumi ayɛ nea ɛda mpan nkutoo. Esiane sɛ ɔkwan biara a wɔfa so fi adi no yɛ ɔkwan a wɔfa so twa kwan a ɛdannan a ɛsɛ sɛ wodi ho adanse nti, atoro bo biara a wosusuw sɛ wɔagyaw wɔ Orchard no ntumi nni sika a ɛyɛ nokwaredi no akyi komm. Ɛde akɔhyɛ ɔtare bi a nsu a ɛkɔ mu nkutoo mu na wɔhwɛ no wɔ ɔpon no ano. Bere kɔ so no eyi ma ɔtare dedaw no kɔ baabi a hwee nni hɔ na ɛma obiara si so dua sɛ bo a epuei no ansen bo a efii mu bae no da.
 
-1. [ZIP 209: Ban out-of-range chain value pool balances] (Ɔkwan a wɔfa so de sika kɔtɔ nneɛma no mu)](https://zips.z.cash/zip-0209) - ne nhyehyeԑ mmara a ԑwɔ akyire no mu.
-2. [ZIP 211: Deɛ ɛbɛboa ma wɔayi sika foforɔ adi ama wɔn a wɔde nketenkete ka ho no](https://zips.z.cash/zip-0211) - sɛnea wɔtoo Sprout pool no mu maa nkura foforo a wɔde bɛhyɛ ase.
-3. [ZIP 258: NU6.3 (Ɔmanfo) kasahorow](https://zips.z.cash/zip-0258) - nkɔso a ɛde Ironwood abura no ba na ɛtwe bo kɔ ɔdan mu hɔ nyinaa so
-4. [Turnstile Ahyɛso a Ɛne Adansekurum Ho Nsɛm Ntɔmmɔ hyia](https://electriccoin.co/blog/turnstile-enforcement-against-counterfeiting/) - Electric Coin Company no nkyerɛkyerɛmu a edi kan
-5. [Zcash protocol specification] Nkrataafa a ɛfa kasa ho nkontabuo.](https://zips.z.cash/protocol/protocol.pdf) - hwɛ nkyekyɛmu a ɛfa nkae ne nsaano ahoma ho no mu na wubehu nkekaho nyinaa.
-6. [Nokware a Ɛsom Bo, Zebra Nhoma no](https://zebra.zfnd.org/dev/rfcs/0012-value-pools.html) - kwan a node no fa so hwɛ nkrataa biara mu mfaso ano.
+Eyi ne ade a emu dɔ nti a turnstile no ho hia sen akontaabu a ɛnyɛ den. Ɛyɛ adwinnade a ɛma Zcash bu ɔtare a wɔabɔ ho ban no animtiaa, sɛ́ ebia ɛbɛtew nsɛnnennen so sɛnea ɛte wɔ Sprout ho no, anaasɛ ɛbɛsan anya ahoɔden afi bɔne bi a wɔahu mu sɛnea ɛte wɔ Orchard ho no, bere a ɛkora awerɛhyem a ɛkɔ so, baguam, a wotumi di ho adanse wɔ nneɛma a wɔde ma ho no so.
 
 <br/>
 
-## Nkrataafa a ɛfa ho
+## Adwene a ɛnteɛ a wɔtaa nya
 
-- [Nsuo a wɔabɔ ho ban](https://zechub.wiki/using-zcash/shielded-pools) - sɛnea Zcash nnwumakuw a wɔbɔ ho ban no bɔ wɔn nsɛm so faako.
-- [Halo] Ɔyɛ ɔkɛse.](https://zechub.wiki/zcash-tech/halo) - adansedi nhyehyɛe a ɛwɔ Orchard abura no akyi
-- [Nea ɛfa nkitahodi ho a wɔsakra no](https://zechub.wiki/start-here/network-upgrades) - sɛnea Zcash de nsakrae te sɛ nsu a wɔabɔ ho ban foforo di dwuma no
+- Turnstile no nkyerɛ wo nnwuma. Ɛkan pool totals nkutoo, ɛnyɛ nea ɔde nea ɔde kɔmaa hena
+- Ɛnkyere atorofo bi din. Ɛka dodow a ebetumi agyaw ɔtare bi ho, na ɛno ne nea ɛbɔ nneɛma a wɔde ma no ho ban
+- Ɛnyɛ ade foforo a Ironwood ayɛ. Ɛwɛn shielded pool nsakrae titiriw biara wɔ Zcash abakɔsɛm mu
+- Ɔmanfo pool total mma kokoam nsɛm nyɛ mmerɛw. Kokoamsɛm no wɔ nnwuma a ɛwɔ ɔtare no mu, a ɛkɔ so sie no mu
+
+<br/>
+
+## Akadeɛ
+
+1. [ZIP 209: Bara Out-of-Range Chain Value Pool Kari pɛ](https://zips.z.cash/zip-0209) - a wogye tom mmara a ewo turnstile no akyi
+2. [ZIP 211: Botae Foforo a Wɔde Ka Sprout Nkɔnsɔnkɔnsɔn Botae Pool no a Wɔbɛma ayɛ adwuma](https://zips.z.cash/zip-0211) - sedee wotoo Sprout pool no mu maa deposite foforo
+3. [ZIP 258: NU6.3](https://zips.z.cash/zip-0258) - upgrade a ɛde Ironwood pool no ba na ɛkyerɛ boɔ kwan fa turnstile no so
+4. [Turnstile Enforcement a Wɔde Tia Atoro Atoro](https://electriccoin.co/blog/turnstile-enforcement-against-counterfeiting/) - mfitiaseɛ nkyerɛkyerɛmu a ɛfiri Electric Coin Company hɔ
+5. [Zcash Protocol no ho nkyerɛkyerɛmu](https://zips.z.cash/protocol/protocol.pdf) - hwɛ nkyekyɛmu a ɛfa balance ne binding signature ho ma nsɛm no nyinaa
+6. [Value Pools, the Zebra Book](https://zebra.zfnd.org/dev/rfcs/0012-value-pools.html) - sedee node bi di pool biara value balance akyi
+
+<br/>
+
+## Nkratafa a ɛfa ho
+
+- [Atare a Wɔabɔ Ho Ban](https://zechub.wiki/using-zcash/shielded-pools) - sedee Zcash shielded transactions sie details kokoam
+- [Halo](https://zechub.wiki/zcash-tech/halo) - adansedie nhyehyeee a ewo Orchard pool no akyi
+- [Network Nkɔsoɔ a Wɔayɛ](https://zechub.wiki/start-here/network-upgrades) - sedee Zcash ma nsakraee te se shielded pools foforɔ

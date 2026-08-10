@@ -2,153 +2,153 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zingo 2.0 - Pepper Sync (Ðeɖiƒoƒo)
+# Zingo 2.0 - Atadi ƒe Ðoɖowɔwɔ
 
 ## TL;DR
 
-* Pepper Sync nye nuŋɔŋlɔdzesi si wotsɔ do ɖe Zingo! 2.0 me, eye enye open-source Zcash gaɖabaƒe si tso Zingo Labs gbɔ.
-* Ewɔa nu le ɖoɖo aɖe si to vovo kura la dzi tsɔ wu be wòazã mɔnu sia atsɔ adzro kadodoa me tsitotsito, eya ta ne èkpɔ ga kple fe siwo nèda ɖe asitelefon dzi ko la, àva kpɔ wo kaba.
-* Eʋua ŋgɔyiyiwo ɣesiaɣi. Ne kadodoa me gblẽ alo app la tsi anyi, woagawɔ ɖeka tso afisi wodzudzɔ le tsɔ wu be woaɖo egɔme ake.
-* Àte ŋu azã ga hafi woadzra ɖo vɔ.
-* Nuwɔna siwo ŋu wotrɔ asi le be woagakpɔ ŋusẽ ɖe edzi o la nɔa ɣaɣla ɖaa.
+* Pepper Sync nye synchronization engine si woto vɛ le Zingo me! 2.0, si nye Zcash gakotoku si woate ŋu azã le mɔ gbadza nu si Zingo Labs tu.
+* Ezãa non-linear synchronization tsɔ wu be wòalé ŋku ɖe kɔsɔkɔsɔa ŋu le akpa gã siwo kplɔ wo nɔewo ɖo me, eyata wò ga si susɔ kple asitsatsa la dzena kaba ŋutɔ.
+* Wodzraa ŋgɔyiyi ɖo ɣesiaɣi. Ne kadodoa ɖiɖi alo dɔwɔnua tu la, wogadzea wɔwɔ ɖekae gɔme tso afisi wòtɔ ɖo tsɔ wu be woagadze egɔme ake.
+* Àte ŋu azãe hafi synchronization nawu enu.
+* Asitsatsa siwo wokpɔ ta na la gakpɔtɔ nye ame ŋutɔ tɔ le ɖoɖo bliboa me.
 
-## Nya Vevi Siwo Woɖe Fia
+## Numeɖeɖe Vevitɔ
 
-Zingo 2.0 is the latest version of the Zingo! wallet, a lightweight, open-source wallet built for the Zcash community. The star of this release is Pepper Sync, a major upgrade that completely rethinks how wallets connect with the blockchain.
+Zingo 2.0 nye Zingo ƒe tɔtrɔ yeyetɔ! gakotoku, gakotoku si le bɔbɔe, si woate ŋu aʋu na Zcash nutoa me tɔwo. Ɣletivi si woɖe ɖe go siae nye Pepper Sync, si nye tɔtrɔ gã aɖe si gbugbɔ bu alesi gakotokuwo do ƒome kple blockchain la ŋu keŋkeŋ.
 
-Le blema la, wotea ŋu dea dzesi nuŋɔŋlɔ ɖekawɔwɔa be ele gbɔdzɔgbɔdzɔm ŋutɔ eye vodadawo nɔa eme si nana wòhiãna vevie. Pepper Sync trɔa esia katã: Enaa nuwo ƒe ɖoɖowɔɖi sɔna ɖe enu kabakaba wu, wonyo na ame geɖe wu, womebiaa nya boo tso dɔwɔnu aɖe si le asiwò o, evɔ wòkpɔa nyatakaka siwo dzi wotona ɖa hã ta keŋkeŋ.
+Tsã la, nuwɔwɔ ɖekae ate ŋu ase le eɖokui me be ele blewu vevesesetɔe, vodadawo ate ŋu adzɔ, eye nunɔamesiwo sɔ gbɔ, eye ɣeaɖewoɣi la, zinɛ ɖe ezãlawo dzi be woagadze egɔme tso gɔmedzedzea me ke. Pepper Sync trɔa nu mawo katã. Enaa nuwɔwɔ ɖekae kabakaba, wònɔa bɔbɔe, kakaɖedzi nɔa eŋu, eye mebiaa nu geɖe tso wò mɔ̃a dzi o, evɔ wòkpɔa asitsatsa siwo ŋu wokpɔ ta na ƒe adzamenyawo ta bliboe.
 
-Ne ènye ame yeye si le Zcash zãm zi gbãtɔ, alo nènye hamevi xoxo aɖe si kpɔa gaƒoɖokuigbalẽ geɖe dzi la, Pepper Sync nana be nuteƒekpɔkpɔa me va nɔa bɔbɔe eye wòvivina wu.
+Eɖanye zãla yeye aɖee nènye si le Zcash dom kpɔ zi gbãtɔ o, alo nutoa me tɔ si le gakotoku geɖe siwo ŋu wokpɔ akpoxɔnu le dzi kpɔm ɣeyiɣi didi aɖee nènye o, Pepper Sync na nuteƒekpɔkpɔa wɔa dɔ wu eye wòvivina wu.
 
-### Pepper Sync ƒe nu vevi aɖewoe nye:
+### Nu vevi siwo le Pepper Sync me
 
-Pepper Sync na wowɔ ŋgɔyiyi geɖe:
+Pepper Sync to ŋgɔyiyi geɖe vɛ:
 
-- Ewɔwɔ Kplikpaa - Wò gaɖaka la anɔ dzadzraɖoɖi le minitiwo me, ke menye gaƒoƒo geɖe o.
-- Nyatakakawo ƒe Ŋutete Yeye - Wowɔa wo ŋu dɔ le akpa sue aɖewo me, eye womegadzroa nuwo katã o.
-- Edoa Dzi Ðe Nuwo Tsɔtsɔtsrɔ̃e Me - Ne wò kadodoa me gblẽ la, woagawɔ ɖeka ake le afisi wodzudzɔ ɖo.
-- Ele Kpekpem Eye Eɖea Vi - Wowɔe nyuie be wòasɔ na asitelefonwo, kɔmpiuta siwo dzi woŋlɔa nu ɖo kple dɔwɔnu bubu siwo me ŋusẽ mele o.
-- Nya Siwo Woagblɔ Tso Nu Dzɔdzɔwo Ŋu - Nyatakaka siwo le ɣeyiɣi si tututu me la nana amewo megatea ŋu sea nu gɔme o.
-- Ame Ŋuti Nyawo Me Kpɔkpɔ - Nu siwo wowɔna le adzame la nɔa ɣaɣla ɣesiaɣi.
+- Much Faster Syncing - Wò gakotokua le klalo le aɖabaƒoƒo ʋɛ aɖewo me, ke menye gaƒoƒo ʋɛ aɖewo me o.
+- Smart Updates - Wowɔa dɔ tso nyatakakawo ŋu le akpa suewo me, woƒoa asa na gbugbɔgakpɔkpɔ bliboe.
+- Resilient to Interruptions - Ne wò kadodoa ɖiɖi la, syncing gadzea egɔme le afisi wòtɔ ɖo.
+- Lightweight & Efficient - Wowɔe wònyo wu na telefonwo, kɔmpiutawo, kple mɔ̃ bubu siwo ƒe ŋusẽ le sue wu.
+- Nyaŋuɖoɖo si me kɔ wu - Ɣeyiɣi ŋutɔŋutɔ ƒe ŋgɔyiyi yeyewo ɖea tɔtɔ dzi kpɔtɔna.
+- Ameŋunyatakakawo Takpɔkpɔ - Asitsatsa siwo wokpɔ ta na la gakpɔtɔ nye ame ŋutɔ tɔ le dɔwɔwɔ bliboa me.
 
-### Nu kae nyo wu tsã?
+### Nukae nyo wu tsã
 
-Zingo ƒe kɔmiwo doa dziku na amewo le ɣeyiɣi didi si woazãna atsɔ awɔ numekuku, vodada siwo womenya o kple nu gbogbo aɖewo zazã ta. Pepper Sync ɖɔ kuxi siawo ɖo:
+Zingo ƒe tɔtrɔ xoxowo doa dziku na zãlawo zi geɖe le ɣeyiɣi didi siwo wotsɔ wɔa nu ɖekae, vodadawo gbɔ kpɔkpɔ si me mekɔ o, kple nunɔamesiwo zazã vevie ta. Pepper Sync ɖɔa nya siawo siwo bɔ ɖo:
 
-Feature Zingo ƒe kɔpi xoxowo. Zingo 2.0 kple Pepper Sync
+| Feature | Zingo ƒe gɔmeɖeɖe siwo do ŋgɔ | Zingo 2.0 kple Atadi Sync |
 | ------------------ | -------------------------------------- | -------------------------------------------- |
-Sync Speed. Egbɔna ɖe eme, vevietɔ le ɖoɖo gbãtɔ me. Enɔa ŋgɔ kabakaba wu eye enana be wotea ŋu wɔa nu ɖeka zi geɖe hã.
-▪ Vodadawo Gbɔ Kpɔkpɔ ● Nu gblẽna ɣeaɖewoɣi eye womenya nu si tututu dzɔ o ● Dzidodo nyuie kple dzadzraɖo le eɖokui si na nuwo ƒe anyinɔnɔ nyo wu.
-User Experience Sync se le eɖokui me be "nu mele nyanya na ame yeyewo o" Transparent, kple nɔnɔme si dze kɔte wu kpakple nyatakaka siwo woxɔna.
-❑ Mɔ̃wo ƒe dɔwɔwɔ. ● CPU/ŋkuɖodzigbalẽ zazã fũu akpa. □ Dɔwɔƒe siwo ŋu wotrɔ asi le nyuie hena mɔ̃awo ŋudɔwɔwɔ bɔbɔe.
+| Sync ƒe Duƒuƒu | Blewu, vevietɔ le ɖoɖo gbãtɔ me | Gbãtɔ kple edziyiyi ƒe wɔwɔ ɖekae kabakaba wu sã |
+| Vodadawo Gbɔkpɔkpɔ | Ɣeaɖewoɣi ƒe nudzraƒewo kple kpododonu siwo me mekɔ o | Liƒo si nyo wu kple automatic recovery |
+| Zãla ƒe Nuteƒekpɔkpɔ | Sync se le eɖokui me be "opaque" na ame yeyewo | Edzena le gaglãgbe, kple nɔnɔme si me kɔ wu kple yeyewo |
+| Mɔ̃a ƒe Dɔwɔwɔ | CPU/ŋkuɖodzinu zazã si lolo | Wowɔe wònyo wu na nunɔamesiwo zazã nyuie |
 
-Kpuie ko la, fifia wotea ŋu wɔa nu ɖeka kaba wu tsã eye woate ŋu aka ɖe edzi bɔbɔe.
+Kpuie ko la: nuwɔwɔ ɖekae le kabakaba wu fifia, kakaɖedzi le eŋu wu, eye egɔmesese le bɔbɔe wu.
 
-## Ŋutega / Nuŋububu
+## Nukpɔkpɔ / Nusɔsrɔ̃
 
-Bu ga si ƒe kadodo kple ame bubuwo le abe agbalẽ didi aɖe xexlẽ tso axa gbãtɔ dzi, hafi woana nàgblɔ nya aɖeke la ene. Dzudzɔ ɖe eƒe afã eye nàdze egɔme ake tso axa ɖekaa dzi. Pepper Sync xlẽa agbalẽ ma ke gake enɔa dzesi me na wò, exlẽnɛ ta siwo ŋu nètsɔ ɖe le vevie gbã, eye ena be nàte nuƒoƒo tso ŋutinyaa ŋu do ŋgɔ hafi wòawu axa mamlɛtɔa ŋɔŋlɔ nu.
+Bu gakotoku ƒe ɖekawɔwɔ xoxo aɖe abe agbalẽ didi ŋutɔ aɖe xexlẽ tso axa gbãtɔ dzi, sesĩe, hafi woaɖe mɔ na wò be nàgblɔ nya aɖe tso eŋu ene ŋu kpɔ. Dzudzɔ mɔa ƒe afã, eye nàgadze egɔme tso axa gbãtɔ dzi. Pepper Sync xlẽa agbalẽ ma ke, gake eléa dzesidenu ɖe ​​asi, exlẽa ta siwo le vevie na wò gbã, eye wònana nèƒoa nu tso ŋutinyaa ŋu hafi wu axa mamlɛtɔ nu.
 
-Agbalẽdzesi la nye akpa vevi aɖe. Egbegbe gɔmeɖeɖewo katã bua nuŋɔŋlɔ ɖekawɔwɔ si wotsi anyi be enye dɔ gbegblẽ; Pepper Sync wɔa eŋu abe dzudzɔ ene.
+Dzesi lae nye akpa vevitɔ. Trɔtrɔ ɖesiaɖe si do ŋgɔ bu sync si wotso la be enye dɔ gbegblẽ; Pepper Sync bua eŋu abe ɖiɖiɖeme ene.
 
-### Ŋutegafiagbalẽviwo
+### Mɔfiame siwo wokpɔna
 
-- Nu Siwo Le Eme Vavã - Efiaa nu siwo katã yia edzi le eme. ![Detailed Flow](https://github.com/user-attachments/assets/119c13ec-76be-42bd-b558-762d09275a1b)
+- Detailed Flow - Fia ɖoɖo bliboa. ![Detailed Flow](https://github.com/user-attachments/assets/119c13ec-76be-42bd-b558-762d09275a1b)
 
-- Simplified Flow - Ewɔwɔ kpata na ame siwo zãae gbesiagbe. ![Simplified Flow](https://github.com/user-attachments/assets/9b612cbd-f24d-4472-9b87-0f2c908bb368)
+- Simplified Flow - Nukpɔkpɔ kabakaba na gbesiagbe zãlawo. ![Simplified Flow](https://github.com/user-attachments/assets/9b612cbd-f24d-4472-9b87-0f2c908bb368)
 
-## Ƒu Tsi Kɔkɔe
+## Deep Dive (Tsi me tsi goglo).
 
-### Alesi Pepper Sync wɔa dɔe (ɖeko)
+### Alesi Pepper Sync wɔa dɔe (nukpɔkpɔ bɔbɔe) .
 
-Le esi teƒe be woagbugbɔ adzro blockchain la me le akpa gã siwo ŋu womate ŋu awɔ naneke tsoe o me, Pepper Sync wɔa dɔ to afɔɖeɖe suewo dzi - eye wòɖea afi si nèle ɣesiaɣi.
+Le esi teƒe be Pepper Sync nagbugbɔ alé ŋku ɖe blockchain la ŋu le akpa gã siwo me mekɔ o me la, ewɔa dɔ le afɔɖeɖe suesuesue siwo dzi nàte ŋu aɖu me—eɖea wò teƒe ɖa ɣesiaɣi ne ele yiyim.
 
-1. Ƒo ka - Gaxɔ la nɔa kadodo me kple internet-ʋɔdzikpɔƒea.
-2. Fetch Blocks - Woɖea nyatakakawo ɖe edzi vivivi.
-3. Verify - Woxɔa asi le nu siwo wowɔ ŋu.
-4. Zã Ŋkuɖodzinya Siwo Woɣla - Wodzraa ame ƒe nuŋɔŋlɔa me ɖe asi ɣeawokatãɣi.
-5. Gadzraɖoƒewo ƒe Ŋutete - Ga me ga le dzadzram ɖo nyuie.
-6. Ɖo Ŋgɔyiyi Dzi - Edzudzɔa nu eye wògayi edzi nyuie.
-7. Ewu - Gaxɔdzraɖoƒea le klalo be woawɔ nu.
+1. Do ka - Gakotokua léa ŋku ɖe network la ŋu.
+2. Fetch Blocks - Woɖea nyatakakawo vivivi.
+3. Kpɔ egbɔ - Woda asi ɖe asitsatsa dzi.
+4. Handle Shielded Notes - Wokpɔa ame ŋutɔ ƒe nyawo ta ɣesiaɣi.
+5. Update Balances - Gakotokua gbugbɔa nu yeyee dedie.
+6. Save Progress - Dzudzɔ eye wògadzea egɔme ake le mɔ si mewɔa dɔ o nu.
+7. Finish - Gakotokua le klalo be yeawɔ asitsatsa.
 
-## Nusiwo Woate Ŋu Awɔ le Agbe Me
+## Nusiwo wòfia ŋutɔŋutɔ
 
 ### Amekawoe Pepper Sync ɖea vi na?
 
-- Ame yeyewo - Woate ŋu aɖo gaɖakawo kaba evɔ womagatsi dzi ɖe ɣeyiɣi didi si woazã la ŋuti o.
-- Gbesi Gbe Zãlawo - Nuwɔwɔ ɖeka kple ame nɔewo nyuie na be ga siwo wotsɔna xea fe ɖe mɔ̃ dzi la sɔ le gbesiagbe zazã me.
-- Numekulawo Kple Dodokpɔlawo - Ne ɣeyiɣi si woazã atsɔ awɔ numekuku la le kpuie wu la, ekema esia ana be woate ŋu adzro nuwo me kaba.
-- Mobile & Light Devices - Zingo le dɔ wɔm nyuie fifia gɔ̃ hã ne dɔwɔnu ʋɛ aɖewo koe li.
+- Zãla Yeyewo - Ate ŋu aɖo gakotokuwo kaba evɔ womaɖe dzi le ƒo le megbedede ta o.
+- Gbesiagbe Zãlawo - Nuwɔwɔ ɖekae si ŋu kakaɖedzi le na be fexexe si wokpɔ ta na la wɔa dɔ na gbesiagbe zazã.
+- Developers & Testers - Sync ɣeyiɣi kpuiwo fia dodokpɔ ƒe tsatsam kabakaba.
+- Mobile & Light Devices - Zingo wɔa dɔ nyuie fifia le xɔtunu siwo ƒe nunɔamesiwo seɖoƒe li na gɔ̃ hã dzi.
 
-### Nu si tae wòle vevie na Zcash
+### Nusita wòle vevie na Zcash
 
-Wowɔ Zcash ɖe nu siwo ŋu wotrɔ asi le si dzi woate ŋu akpɔ mɔ ɖo ta, eye wònye mɔnu sesẽtɔ kekeakewo dometɔ ɖeka na ame ɖokui. Gake ne amewo te ŋu kpɔa wo ɖokuiwo ƒe agbe ŋuti nyatakakawo ko hafi viɖe nɔa eŋu.
+Wotu Zcash ɖe asitsatsa siwo wokpɔ ta na, si nye ameŋunyatakakawo ŋuti dɔwɔnu sesẽtɔwo kekeake dometɔ ɖeka le cryptocurrency me. Gake ne woate ŋu akpɔe ko hafi ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla ɖea vi.
 
-Pepper Sync kpena ɖe mía ŋu to:
+Pepper Sync kpena ɖe ame ŋu to:
 
-- Woɖe mɔxeɖenuwo dzi kpɔtɔ - Ame yeye siwo va le Internet zãm ate ŋu adze egɔme kaba.
-- Kpekpe ɖe gbesiagbe zazã ŋu - Adrɛs siwo dzi wotɔ kpɔna la nɔa bɔbɔe wu be woaɖo ŋu ɖe wo ŋu.
-- Eʋãa nu gbagbewo ƒe ɖoɖowɔwɔ ɖe ŋgɔyiyi ŋu - Ga si le ga me la nana be woazã dɔwɔnu kple dɔwɔɖoɖo bubuwo geɖe wu.
+- Mɔxenu siwo xea mɔ na gege ɖe eme dzi ɖeɖe kpɔtɔ - Zãla yeyewo ateŋu adze egɔme kaba.
+- Do alɔ gbesiagbe zazã - Adrɛs siwo wokpɔ ta na la va nɔa bɔbɔe be woaka ɖe wo dzi.
+- Nu gbagbewo ƒe lãmenugbagbeviwo ƒe dzidziɖedzi ƒe dzidedeƒo - Gakotoku ƒe nuteƒekpɔkpɔ nyuitɔ ʋãa amewo be woaxɔ wo, dɔwɔɖoɖowo, kple dɔwɔnawo geɖe wu.
 
-Pepper Sync doa ŋusẽ Zcash ƒe nu gbagbewo katã to eƒe gaɖaka me nɔnɔ na ame geɖe wu dzi.
+To gakotoku ƒe nuteƒekpɔkpɔ ƒe nyonyo me la, Pepper Sync doa ŋusẽ Zcash ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖo bliboa.
 
-### Gɔmedzedze: Zingo 2.0 ƒe dɔwɔwɔ gɔme ɖeɖe
+### Gɔmedzedze: onboarding kple Zingo 2.0
 
-1. Download the Wallet - Get the right version from [Zingo GitHub releases page] Eʋevi la ƒe kɔpi le axa si nye Zingo Github ɖewo dzi.](https://github.com/zingolabs/zingolib)
-2. Ðo Woƒe Agbaɖakawo - Wɔ bubu alo gbugbɔ ɖo tso nuŋɔŋlɔ aɖe si li xoxo me. [Zingo 2.0 kple Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
-3. Na Pepper Sync nanɔ dɔ wɔm - Kpɔ ŋgɔyiyi ƒe dzesiwo dzi ne wò gaɖaka ɖo. [Pepper Synch Run](https://x.com/ZingoLabs/status/1961871338441724191)
-4. Dze Zcash zazã gɔme - Ðoɖo kple xɔxɔ le ZEC si dzi woalé ŋku ɖo me ne ewɔwɔ vɔ ko.
-5. Ðiɖi le Nuwo Dzi Kpɔkpɔ ŋu - Ne app la tsi anyi alo kadodoa me gblẽ, Pepper Sync gawɔa dɔ ake.
+1. Download the Wallet - Xɔ eƒe tɔtrɔ nyuitɔ tso [Zingo GitHub ɖea axa ɖe go](https://github.com/zingolabs/zingolib)
+2. Ðo Wò Gakotoku - Wɔ yeye alo gbugbɔe tso nuku ƒe nyagbe si li xoxo me. [Zingo 2.0 kple Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
+3. Let Pepper Sync Run - Kpɔ ŋgɔyiyi ƒe dzesiwo esime wò gakotokua le tɔtrɔm. [Pepper Sync Duƒuƒu](https://x.com/ZingoLabs/status/1961871338441724191)
+4. Dze Zcash Zazã gɔme - Ðo ZEC si wokpɔ ta na la ɖa eye nàxɔe ne wonya wu enu ko.
+5. Ði ɖe eme le Nutsotsowo Ŋu - Ne dɔwɔnua tu alo kadodoa ɖiɖi la, Pepper Sync agadze egɔme le eɖokui si.
 
-## Vodada Siwo Dzɔna Zi Geɖe La
+## Vodada Siwo Wowɔna Zi geɖe
 
-**Mɔɖeɖe ɖe Pepper Sync ŋu abe gaɖaba ɖeka ene le eya ŋutɔ ƒe gome me**. Pepper sync nye nuŋɔŋlɔmɔnu si nɔa Zingo! gaƒobɔa me, menye dɔwɔƒe bubu o. Ède Zingo; pepper synch ye zua nusi zɔna le ete.
+**Nuwɔwɔ ɖe Pepper Sync ŋu abe gakotoku ene le eɖokui si**. Pepper Sync nye synchronization engine si le Zingo la me! gakotoku, ke menye dɔwɔnu si woɖe ɖe vovo o. Ède Zingo ɖe wò kɔmpiuta dzi; Pepper Sync ye nye nusi ƒua du le ete.
 
-**Ne míebua be nuwɔwɔ ɖeka kple amewo le ɣeyiɣi kpui aɖe me fiaa ame ɖokui ƒe dedienɔnɔ gbɔdzɔgbɔdzɔwo**. Ale si woxɔna nyatakakawo, dzraa woe ɖo heɖona ɖe woƒe nudzraɖoƒe gbɔe wòtsona ne wole zɔzɔm kabakaba la tsoa ke menye ale si woɖe nya geɖe fianae o. Nuwɔna siwo ŋu wotrɔ asi le nyuie nɔa ɣaɣla ɣeawokatãɣi.
+**Ne míetsɔe be nuwɔwɔ ɖekae kabakaba wu fia be adzamenyawo gbɔdzɔ wu**. Duƒuƒua tso alesi woxɔa block data, ɖoa ɖoɖo ɖe wo ŋu, eye wodzraa wo ɖo me, ke menye tso nyatakaka bubuwo ɖeɖefia me o. Asitsatsa siwo wotsɔ akpoxɔnu wɔe la nɔa ame ŋutɔ ƒe nya me le ɣeyiɣi bliboa me.
 
-**Ne èbu be ele be nàdze simɔ̃e blibo hafi ate ŋu azã ga**. Gblẽfexeɖoɖo do ŋgɔ na sinkrɔnikadzidodoa ƒe nuwuwu nye Pepper Sync me nu vevi aɖe, eyata mahiã be nànɔ lalam va se ɖe esime gakotoku la ɖo kɔsɔkɔsɔa dzi o.
+**Ne míetsɔe be ele be nàwɔ ɖeka bliboe hafi nàte ŋu azãe**. Gazazã hafi woawu nuwo wɔwɔ ɖekae nu nye Pepper Sync ƒe tanyawo dometɔ ɖeka, eyata mehiã be nàlala be gakotokua naɖo kɔsɔkɔsɔa ƒe nugbɔ o.
 
-## Nya Siwo Amewo Biana Edziedzi - Biabia Veviwo
+## FAQ - Nyabiase siwo bɔ
 
-A: Ðe wòle be magbugbɔ adzro ga sia ɣeawokatãɣi ne meʋu gakotokua?
+**Q: Ðe wòle be magawɔ scan ɣesiaɣi si meʋu gakotokua?**
 
-A: Ao. Pepper Sync dzraa ŋgɔyiyi ɖo, eyata nu yeyewo koe nèŋlɔna tso teƒe mamlɛa ko.
+A: Ao, Pepper Sync dzraa ŋgɔyiyi ɖo, eyata teƒe mamlɛtɔ koe nèwɔa yeyee.
 
-B: Nu kae adzɔ ne nye internet me gblẽ?
+**Q: Nukae adzɔ ne nye internet la tso?**
 
-A: Sync tsia anyi eye wòyia edzi emegbe evɔ megale egɔme dzem o.
+A: Sync tɔ vie eye wòayi edzi emegbe evɔ màgadze egɔme ake o.
 
-A: Ðe nye nuŋɔŋlɔwo anɔ dedie ne mele wo me dzrom?
+**Q: Ðe nye adzamenyawo le dedie esime mele wɔwɔm ɖekaea?**
 
-Ŋuɖoɖoa: Ɛ̃. Nu siwo wowɔna le adzame la nɔa ɣaɣla ɖaa.
+A: Ɛ̃. Asitsatsa siwo wokpɔ ta na la gakpɔtɔ nye ame ŋutɔ tɔ bliboe.
 
-B: Ɣeyiɣi didi kae wòle be woazã na numedzodzro gbãtɔ?
+**Q: Ɣeyiɣi didi kae sync gbãtɔ xɔa?**
 
-Ŋuɖoɖoa: Zi geɖe la, minitiwoe le esi teƒe be wòanye gaƒoƒowo. Esia nɔa te ɖe dɔwɔnu si zãm nèle kple Internet dzi nu.
+A: Zi geɖe la, minitiwo tsɔ wu gaƒoƒo, le wò mɔ̃a kple internet dzi.
 
-**Biabia: Mate ŋu azã gaɖaka la hafi adzra ɖo vɔa?**
+**Q: Ðe mate ŋu azã gakotokua hafi syncing nawu enua?**
 
-A: Ɛ̃. Pepper Sync doa alɔ gazã hafi wua nuwɔwɔ aduadu kple ame nɔewo, eyata mehiã be nàlala va se ɖe esime gakotoku la ɖo eƒe kɔme o.
+A: Ɛ̃. Pepper Sync doa alɔ gazazã hafi wɔwɔ ɖeka wu enu, eyata mehiã be nàlala be gakotokua naɖo kɔsɔkɔsɔa ƒe nugbɔ o.
 
-## Nyaƒoɖeamenuwo
+## Nyanuwuwuw
 
-Le Zingo 2.0 Pepper Sync me la, menye gaɖɔɖonuwo ƒe akpa si ŋu wotrɔ asi le be woagadze o ye nyea nuwɔwɔ kpata azɔ. Egbɔna kabakaba fifia eye wònɔa anyi ɖaa hã; ele bɔbɔe ŋutɔ na ame siwo va zi gbãtɔ la ale gbegbe be womate ŋu awɔ naneke tso eŋu gbeɖe o.
+Le Zingo 2.0 Pepper Sync me la, nuwɔwɔ ɖekae meganye vevesese gãtɔ kekeake le gakotoku siwo ŋu wokpɔ akpoxɔnuwo le o. Fifia ewɔa dɔ kabakaba, eli ke, eye wòzãna le bɔbɔe, si ɖea mɔxenu si le ame yeyewo ŋu dzi kpɔtɔna eye wòna gbesiagbe zazã ɖea vi wu sã.
 
-Ne ame siwo zãa ga la le mɔ kpɔm na ɣeyiɣi si woazã ɖe eŋu eye be woakpɔ egbɔ hã, esia awɔe be woƒe agbe nanɔ dedie wu. Le Zcash-dɔwɔƒewo ya gome la, enye afɔɖeɖe bubu aɖe si ana amesiame nate ŋu awɔ asitsatsa kple kɔmpiuta dzi nyatakakawo to Internet dzi bɔbɔe.
+Le ezãlawo gome la, efia be womagalala fũ o eye woanɔ adzame geɖe wu. Le dɔwɔlawo gome la, efia gɔmeɖoanyi sesẽ si dzi woatu ɖo. Le Zcash ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa gome la, enye afɔɖeɖe bubu si ana woawɔ asitsatsa siwo ŋu wokpɔ ta na la nate ŋu akpɔ amesiame.
 
-Menye ɖeko Zingo 2.0 kple Pepper Sync nye ŋgɔyiyi ko o; enye afɔɖeɖe gã aɖe le ame ŋutɔ ƒe ga ŋuti nyatakakawo zazã me.
+Zingo 2.0 kple Pepper Sync menye tɔtrɔ dzro aɖe ko o; enye titri yi ŋgɔ na ame ŋutɔ ƒe crypto si woate ŋu azã.
 
-## Axawo Siwo Do Ka Kple Wo Nɔewo
+## Axa Siwo Do Ƒome Kplii
 
-- [Zcash Gadzɛwo ƒe Ðɔɖɔɖotaɖi](/zcash-tech/zcash-wallet-syncing)  ale si gaƒoɖokuigbalẽwo ƒe dɔwɔwɔ wɔa dɔ le Zcash-mɔ̃a me.
-- [Adzagba Kpuivi ƒe Dzesiwo](/zcash-tech/lightwallet-nodes)  mɔ̃ɖaŋunu siwo dzi gaɖabaɖa bɔbɔe abe Zingo ene wɔa dɔ le.
-- [Zaino] Nyee nye ame si le wo dome.](/zcash-tech/zaino)  agbalẽ si Zingo ƒe dɔwɔha wɔ.
-- [Gbɔdzigbalẽvi siwo le ga me](/wallets)  Zcash gaɖigbalẽviwo kple woƒe nɔnɔmewo katã.
+- [Zcash Gakotoku ƒe Ðoɖowɔwɔ](/zcash-tech/zcash-wallet-syncing) — alesi gakotoku ƒe wɔwɔ ɖekae wɔa dɔ le Zcash ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa katã me.
+- [Lightwallet ƒe Nodes](/zcash-tech/lightwallet-nodes) — xɔtuɖoɖo si gakotoku si me kɔ abe Zingo ene wɔ ɖeka kplii.
+- [Zaino](/zcash-tech/zaino) — indexer si Zingo ƒe ƒuƒoƒoa to vɛ.
+- [Gakotokuwo](/wallets) — Zcash gakotokuwo ƒe nyatakakadzraɖoƒe bliboa kple woƒe nɔnɔmewo.
 
 ## Nusɔsrɔ̃ Bubuwo
 
-- [Zingo! GitHub ƒe Nudzraɖoƒe](https://github.com/zingolabs/zingolib)
-- [Zcash Ƒuƒoƒo ƒe Takpekpewɔƒe](https://forum.zcashcommunity.com/)
-- Ametakpɔkpɔ ƒe Ŋgɔdonyawo - [Zingo Labs Twitter](https://twitter.com/ZingoLabs)
+- [Zingo! GitHub Nudzraɖoƒe](https://github.com/zingolabs/zingolib)
+- [Zcash Nutome Nyamedzroƒe](https://forum.zcashcommunity.com/)
+- Gbeƒãɖeɖewo le Dziɖuɖua Me - . [Zingo Labs ƒe Twitter dzi](https://twitter.com/ZingoLabs)
 
 ___
 ___

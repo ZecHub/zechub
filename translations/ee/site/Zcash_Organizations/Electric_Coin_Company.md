@@ -3,56 +3,56 @@
 </a>
 
 # <img src="/content-images/image-2024-02-03-164918723-f59419848a.webp" alt="Alt Text" width="50"/>    Electric Coin Company (Sunset)
-[Agbalẽdzraɖoƒe](https://electriccoin.co) - [Github ƒe ŋkɔ](https://github.com/zodl-inc) - [X/Twitter] (Eʋegbe)](https://x.com/ElectricCoinCo)
+[Nyatakakadzraɖoƒe](https://electriccoin.co) - [Github ƒe mɔnu](https://github.com/zodl-inc) - [X/Twitter ƒe nyatakakadzraɖoƒea](https://x.com/ElectricCoinCo)
 
-> **Esi wònye GitHub ƒe kadodoa.** ECC-ƒe nudzraɖoƒewo le: `zodl-inc`Enye habɔbɔ ma ke si wotsɔ ŋkɔ na esime woʋu yi ZODL [Zone for Democratic Democracy] me.](/zcash-organizations/zodl).Tso blema ke. `github.com/Electric-Coin-Company` ame aɖe si mele kadodo me kpli wo o ye de ŋkɔ sia agbalẽa le May 2026 eye naneke mewɔe kple ECC alo ZODL o, eya ta mègaɖo ŋu ɖe kɔdi siwo woɖe ɖe go le afi ma la ŋu o.
+> **Le GitHub kadodo ma ŋu.** ECC ƒe nudzraɖoƒewo le `zodl-inc`. Habɔbɔ ma ke, si wogbugbɔ ŋkɔ na esime ƒuƒoƒoa ʋu yi [ZODL](/zcash-organizations/zodl). Xoxoawo `github.com/Electric-Coin-Company` ŋkɔa nye esi ame aɖe si medo ƒome kplii o de agbalẽ me le May 2026 me eye meku ɖe ECC alo ZODL ŋu o, eyata mègaka ɖe kɔpi si wota ɖe afima dzi o.
 
-## Dɔ si Wodɔna ƒe Nyagbɔgblɔ
+## Dɔdasi Ŋuti Nyatakaka
 
-ECC ƒe dɔe nye be wòado ŋusẽ ganyawo. Ganyawo ŋuti nya ɣaɣla le vevie na agbagbadzedze sia, eye ele vevie hena amegbetɔ ƒe bubu, dedienɔnɔ, ɖokuisinɔnɔ kple lɔlɔ̃nu ɖeɖe fia. Ele be gaŋutiɖoɖowo ŋu ɖoɖo nanɔ bɔbɔe abe xɔmeʋuʋuwo tutu ene. Gake esi Internet 2 va do la, dziɖuɖu nɔ te sesĩe ŋutɔ, eye amesiwo kpɔa nyawo dzi xoxo lae nɔa aƒe me. Màte ŋu atu xɔmeƒoa o. Ehiã be míatu nu yeye aɖe ɖo.
-Gaŋutimɔ̃ yeye sia si amesiame ate ŋu azã la anɔ bɔbɔe, eye ame aɖeke magblɔe o. Woana nyatakakawo nanɔ amewo dome le mɔ vovovowo nu, woazã mɔnu siwo dzi woate ŋu ato awɔ esia hã nyuie ahado ŋusẽ eŋu.
+Dɔdasi si le ECC enye be woado ŋusẽ ganyawo ƒe ablɔɖe. Ganyawo ƒe adzamenyawo gbɔ kpɔkpɔ nye nu vevitɔ le agbagbadzedze sia me, eye wòle vevie be woakpɔ amegbetɔ ƒe bubu, dedienɔnɔ, ɖokuidziɖuɖu, kple lɔlɔ̃ ɖe edzi ta. Ele be ganyawo ŋuti nyatakakawo xɔxɔ nanɔ bɔbɔe abe xɔmetsovɔwo tutu le wò aƒea me ene. Gake esi Web2 do la, ŋusẽ va le teƒe ɖeka ŋutɔ, eye amesiwo si ŋusẽ le la le wò xɔdɔme me xoxo. Màte ŋu atu xɔmetsovɔawo o. Ele be míatu nu yeye aɖe.
+Gazazãwo ƒe ɖoɖo yeye sia, si ŋu amesiame ate ŋu akpɔ la, anye esi zazã le bɔbɔe, ame ŋutɔ tɔ bliboe eye tiatia siwo woawɔ atsɔ aɖe nyatakakawo afia, eye woama eƒe kpeɖeŋutɔ ƒe xɔtuɖoɖowo eye woasẽ.
 
-## Zodl, si woyɔna tsã be Zashi: [iOS](https://apps.apple.com/us/app/zashi-zcash-wallet/id1672392439) - [Android](https://play.google.com/store/apps/details?id=co.electriccoin.zcash) - [F-Droid] (Aʋawɔnu si wɔa dɔ kple ŋusẽ)](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
+## Zodl, si woyɔna tsã be Zashi: [iOS](https://apps.apple.com/us/app/zashi-zcash-wallet/id1672392439) - [Android dzi](https://play.google.com/store/apps/details?id=co.electriccoin.zcash) - [F-Droid ƒe dɔwɔwɔ](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
 
-Built for Private Payments. Zashi was a self-custody shielded ZEC wallet for encrypted digital transactions, built by ECC and released in 2024.
+Wotue na Ame ŋutɔ ƒe Fexexe. Zashi nye ZEC gakotoku si wotsɔa wo ɖokui dzikpɔkpɔ kpɔna na dijitaal asitsatsa siwo wotsɔ nya ɣaɣlawo ŋlɔ, si ECC tu eye woɖee ɖe go le ƒe 2024 me.
 
-It was designed to onboard friends and family into Zcash and private digital payments, with an interface simple enough for people with no prior crypto experience to set up a wallet, get ZEC, and start transacting in minutes.
+Wotrɔ asi le eŋu be wòatsɔ xɔlɔ̃wo kple ƒometɔwo ade Zcash kple ame ŋutɔ ƒe dijitaal fexexe me, kple ŋgɔdonya si le bɔbɔe ale gbegbe be amesiwo si crypto ŋuti nuteƒekpɔkpɔ aɖeke mele do ŋgɔ o ate ŋu aɖo gakotoku, axɔ ZEC, eye woadze asitsatsa gɔme le aɖabaƒoƒo ʋɛ aɖewo ko me.
 
-Woɖɔ ŋkɔ na gaƒleƒea be **Zodl** le February 2026 esi ƒuƒoƒo la ʋu yi ZODL. Mehiã be amesiwo li fifia nawɔ naneke o, elabena wotrɔ asi le app ŋu le eƒe update si kplɔe ɖo me, esia tae adzɔnudzraɖoƒe siwo dze ŋgɔa ʋua Zodl ɖo. Fifia wo dzraae ɖe afima ke menye ECC gbɔ o, eyata kpɔ [ZODL axa](/zcash-organizations/zodl) be nàkpɔ nyatakaka siwo li fifia.
+Wotrɔ ŋkɔ na gakotokua be **Zodl** le February 2026 me le esi ƒuƒoƒoa ʋu yi ZODL megbe. Mehiã be ezãla siwo li fifia nawɔ naneke o, elabena wogbugbɔ ŋkɔ na dɔwɔnua le eƒe tɔtrɔ yeye si kplɔe ɖo me, si tae fiase ƒe kadodo siwo le etame ʋu Zodl ɖo. Woléa be nɛ le afima fifia tsɔ wu be ECC nalé be nɛ, eyata kpɔ... [ZODL ƒe axa](/zcash-organizations/zodl) hena nyatakaka siwo li fifia.
 
-Dɔwɔƒe si wowɔ le ƒe siwo ECC wɔ me:
-- [Gɔmeɖeɖe:](https://electriccoin.co/blog/coinbase-zashi-1-2-release/) Ame siwo nye crypto-nudzrala yeyewo ate ŋu aƒle ZEC tẽ le woƒe gaɖaba me, eye womagatsɔ agbagbadzedze si hiã be woaŋlɔ ŋkɔ ɖe asitelefon dzi o, woana woanya ame si wonye kple ale si woaɖe ga tso gadzraɖoƒewo la awɔ dɔe o.
+Ðekawɔwɔ siwo wotu le ECC ƒeawo me:
+- [Coinbase ƒe ƒuƒoƒo:](https://electriccoin.co/blog/coinbase-zashi-1-2-release/) crypto newbies ate ŋu aƒle ZEC tẽ le gakotokua me adzo le fuɖename siwo nye akɔntabubu ƒe ŋkɔ dede agbalẽ me, KYC, kple gaku ɖeɖe tso gakuwo me.
 
-- [Flexa:](https://electriccoin.co/blog/zashi-flexa-integration-is-here-spend-zec-at-thousands-of-retailers/) enana ZEC zazã le bɔbɔe, eye wònana be ame yeyewo tea ŋu tsɔnɛ ƒlea nu le nudzraƒe akpe geɖe abe Barnes & Noble, GameStop kple Chipotle ene.
+- [Flexa:](https://electriccoin.co/blog/zashi-flexa-integration-is-here-spend-zec-at-thousands-of-retailers/) na wòle bɔbɔe be woazã ZEC ŋutɔŋutɔ, si wɔnɛ be ezãla yeyewo te ŋu zãnɛ le asitsaƒe akpe geɖe abe Barnes & Noble, GameStop, kple Chipotle ene.
 
-- [Keystone:](https://electriccoin.co/blog/drumroll-please-introducing-zashi-keystone-hardware-wallet-integration-for-shielded-zec/) a major breakthrough for the Zcash community that has been years in the making. This integration marks a significant evolution in Zcash usability by enabling cold storage of shielded ZEC.
+- [Keystone:](https://electriccoin.co/blog/drumroll-please-introducing-zashi-keystone-hardware-wallet-integration-for-shielded-zec/) ŋgɔyiyi gã aɖe na Zcash nutoa me tɔwo si ƒe geɖe le ewɔm. Ðekawɔwɔ sia de dzesi tɔtrɔ gã aɖe le Zcash zazã me to ZEC si wokpɔ ta na ƒe nudzraɖoƒe le vuvɔ me.
 
-## Numekuku Kple Tsitsiɖoɖo
+## Numekuku Kple Ŋgɔyiyi
 
-Dɔwɔha la kpɔ ŋgɔ le nu geɖe wɔwɔ me, gbãtɔ enye [Zcash ƒe ɖoɖo anyi] kple eƒe dɔdeasiwo.](https://electriccoin.co/blog/zcash-begins/) Enye xexeame ƒe asitsatsa gbãtɔ si me wozãa Nu Siwo Nenye Nyateƒenya o la ŋuti kpeɖodzi.
+Agbalẽtaƒea xɔ ŋgɔ le ŋgɔyiyi siwo wonya nyuie me zi geɖe, eye gbãtɔe nye... [Zcash ƒe dodo ɖe ŋgɔ](https://electriccoin.co/blog/zcash-begins/) abe xexeame ƒe Sidzedze Zero-Kpeɖodziwo zazã zi gbãtɔ le asitsatsa me ene.
 
-[Sapling-mɔ̃wo ƒe dzadzraɖo](https://electriccoin.co/blog/sapling-activation-complete/) allowing for lighter, shielded transactions with a time reduction of 90% for constructing transactions, and a memory reduction of over 97%, enabling for shielded transactions on a mobile device for the first time.
+Ame geɖe bubu siwo kplɔe ɖo abe... [Sapling network ƒe ŋgɔyiyi](https://electriccoin.co/blog/sapling-activation-complete/) si ɖe mɔ ɖe asitsatsa siwo le bɔbɔe wu, siwo ŋu wokpɔ ta na ŋu kple ɣeyiɣi dzi ɖeɖe kpɔtɔ 90% hena asitsatsa tutu, kple ŋkuɖodzinu dzi ɖeɖe kpɔtɔ wu 97%, si na be woate ŋu awɔ asitsatsa siwo ŋu wokpɔ ta na le asitelefon dzi zi gbãtɔ.
 
-Nusi ɖe dzesi wu si wowɔ enye esi va yi nyitsɔ laa. [Tsɔɖo anyi kple ewɔwɔ](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/) Halo2 trustless proving system le Network Upgrade 5 na Zcash. Esia ɖe nuɖoanyi si dzi woka ɖo ɖa eye wòde asi ɣeyiɣi yeyea me na Z Cash. Tso ƒe 2022 la, esia va nɔ dɔ wɔm le Zcash Mainnet ŋu eye enana be zãlawo te ŋu wɔa ɖoɖo siwo nɔa dedie wu kple esiwo gɔme woate ŋu atu bɔbɔe hena woƒe fexexlẽ ŋuti mɔfianuwo zazã. 
+Nusi ɖe dzesi wue nye esi wowɔ nyitsɔ laa. [Nuwɔwɔ kple dɔwɔwɔ](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/) ƒe halo2 kakaɖedzimanɔamesi kpeɖodziɖoɖo le Network Upgrade 5 na Zcash. Esia ɖe ɖoɖo si dzi woka ɖo la ɖa eye wòdze ɣeyiɣi yeye aɖe gɔme na Zcash. Tso ƒe 2022 me la, esia le dɔ wɔm le Zcash Mainnet dzi eye wòna ezãlawo te ŋu wɔa xɔtutu si le dedie wu & si woate ŋu atrɔ asi le bɔbɔe wu ŋudɔ na woƒe fexexe ƒe ɖoɖowɔɖi. 
 
-## Dɔwɔwɔ Kple Hadedewo 
+## Nuwɔwɔ aduadu & Habɔbɔwo 
 
-ECC ƒe dɔwɔha la doa alɔ Zcash-mɔ̃a eye wònana eƒe akpa aɖe yia edzi le mɔ vovovowo nu, wowɔa dɔ kple woƒe dɔwɔƒeawo kpakple esiwo tso gota siaa edziedzi be yewoakpe ɖe wo ŋu woakpɔ egbɔ be woawɔ ɖoɖo si dzi wotu Zcash ɖo ahana wòanɔ nyonyom. 
+ECC ƒe ƒuƒoƒoa doa alɔ Zcash ƒe lãwo ƒe agbenɔnɔ eye wòkpena ɖe eŋu le mɔ geɖe nu, wowɔa dɔ aduadu kple ememe & egodo ƒuƒoƒo siaa edziedzi be woakpe asi ɖe Zcash ƒe ɖoɖowɔɖia dzi kpɔkpɔ kple edziwɔwɔ ŋu. 
 
-Wowɔ dɔ kple Gemini be woana woawɔ nuxexlẽ siwo ŋu wotɔ asii le woƒe mɔnu dzi, Flexa na Zcash ƒe ga homewo ɖoɖo bɔbɔe to asitelefon dzi le teƒe si wodzraa nuwo ɖo me, dɔwɔnuwo ŋuti dɔwɔƒe abe Keystone ene hena ZEC tɔxɛe ɖe yame nyuie, Brave for Zcash support in the browser kpakple ƒuƒoƒo bubuwo le Zcash ecosystem la me tsɔ wɔ ŋgɔyiyi geɖe. 
+Habɔbɔwo dometɔ aɖewoe nye dɔwɔwɔ kple Gemini be woate ŋu awɔ asitsatsa siwo ŋu wokpɔ ta na le woƒe mɔ̃ dzi, Flexa be wòana Zcash asitelefon dzi fexexe bɔbɔe le teƒe siwo wodzraa nu le, hardware gakotoku dɔwɔƒewo abe Keystone be woate ŋu ana ZEC ƒe nudzraɖoƒe fafɛ si wokpɔ ta na, Brave na Zcash ƒe kpekpeɖeŋu le browser me, & ƒuƒoƒo bubu siwo le Zcash ecosystem me be woahe ŋgɔyiyi vɛ na Zcash. 
 
-ECC hã nye [PGPforCrypto] ƒe gadzikpɔla si dzi wodana ɖo.](https://x.com/pgpforcrypto) enye kpekpewo ƒe ƒuƒoƒo si me dɔwɔlawo, amesiwo lɔ̃a ga kple numekula siwo le cryptocurrency dome ƒoa nu tso nusiwo dzɔ ŋu, ɖea woƒe susu gblɔna eye wodea ha la dzi. PGPforCrypto kplɔla nye Electric Coin Co ƒe Dɔdzikpɔha Me tɔ kple Strategic Alliances VP Paul Brigner.
+ECC hã nye dada ƒe gaxɔla na... [PGPforCrypto ƒe nyawo](https://x.com/pgpforcrypto) kpekpe siwo kplɔ wo nɔewo ɖo si ƒoa eŋutinunyalawo, dzonɔamemetɔwo, kple eŋutinunyala siwo le cryptocurrency ƒe teƒea nu ƒu be woadzro ŋgɔyiyiwo me, ama gɔmesesewo, eye woado nutoa me tɔwo ƒe gomekpɔkpɔ le eme ɖe ŋgɔ. PGPforCrypto le ŋgɔ na Dɔwɔha me tɔ kple VP le Aɖaŋuɖoɖo ƒe Nubabla le Electric Coin Co, Paul Brigner.
 
-## Mɔfiamewo Kple Ðoɖowɔɖiwo
+## Ðoɖo & Ðoɖowɔwɔ
 
-ECC ƒe nugɔmesese kple ŋgɔyiyi le nu siwo ku ɖe ame ŋutɔ ƒe dedienɔnɔ ŋu kpakple alesi wòɖea vi na amewo kple dukɔmeviwo la xɔ asi ale gbegbe na dunyahelawo. Wowɔ agbagbadzedze geɖe tso esime woɖo ECC anyi be woafia mɔ nyuitɔ si dzi woawɔ ɖoɖo ɖo ɣesiaɣi si anya wɔ. 
+ECCs ƒe gɔmesese kple kplɔlanyenye ƒo xlã ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla le kɔsɔkɔsɔ me kple eƒe ŋusẽkpɔɖeamedzi ɖe ame ŋutɔ kple dukɔa ƒe dedienɔnɔ dzi xɔ asi ŋutɔ na ɖoɖowɔlawo. Wodze agbagba ɣesiaɣi be woafia mɔ ɖoɖowo nyuie le afisiafi si wòanya wɔ le tso esime woɖo ECC. 
 
-Le kpɔɖeŋu me, Financial Action Task Force (FATF) wɔ ɖoɖo kple habɔbɔa be woade ga le gadzraɖoƒe siwo dzi wowɔna dɔwo ɖo la. Esia wɔe be New York Dukɔa ƒe Ganyawo Gbɔkpɔha si kpɔa gadzramɔnu ŋu nyawo gbɔ lɔ̃ ɖe Zcash dzi eye eya koe nye ameŋkumemakpɔmakpɔ ŋuti nyatakaka xɔxɔƒe ɖeka kolia si kpɔ mɔ awɔ esia. 
+Kpɔɖeŋu siwo ku ɖe amewo gbɔ yiyi ŋue nye dzeɖoɖo kple Ganyawo ƒe Dɔwɔha (FATF) si kpɔ gome le kpekpewo me si na habɔbɔawo kafui na cryptocurrency dɔwɔƒea. Le agbagbadzedze siawo ta la, New York Dukɔa ƒe Ganyawo Gbɔkpɔƒe (NYDFS), si nye cryptocurrency ɖeka kolia si kpɔa ame ŋutɔ ƒe nyatakakawo ta si wɔe la da asi ɖe Zcash dzi. 
 
-## Ðoɖowɔɖi si Le Wo Si
+## Habɔbɔ ƒe Dɔwɔɖoɖo
 
-Electric Coin Company nye Bootstrap Project ƒe nunɔamesi blibo. The Bootstrape Project enye 501c) 3 habɔbɔ si le agbagba dzem be yeana amegbetɔwo nakpɔ dzidzedze to mɔ̃ɖaŋununya, dzɔdzɔmeŋutinunya me numekukuwo wɔwɔ, hehexɔxɔ kple amegbetɔƒomea dzi kpɔkpɔ me. Both Bootstrapa and the Electric Coin company have a board of directors, eye Electric Coin Co hã li na Scientific Advisory Group (Scientific Advising Group).
+Elektrik Gaku Dɔwɔƒea nye Bootstrap Dɔwɔha la tɔ bliboe. Bootstrap Dɔwɔɖoɖoa nye 501(c)(3) si wotsɔ ɖe adzɔgbe na ameƒomea dodo ɖe dzi to mɔ̃ɖaŋununya, dzɔdzɔmeŋutinunya me nusiwo ŋu woke ɖo, hehenana kple amegbetɔ ƒe ɖoɖowɔwɔ me. Bootstrap kple Electric Coin Company siaa ƒe dɔdzikpɔha le wo si, eye Dzɔdzɔmeŋutinunya ƒe Aɖaŋuɖoha hã le Electric Coin Company hã si.
 
-## Ga si Woxɔna ɖe eta
+## Gakpekpeɖeŋunana
 
-Woate ŋu akpɔ ga, ganyawo zazã kple nyatakaka bubuwo le Transparency Reports me le woƒe [blog] dzi.](https://electriccoin.co/blog/).
+Woate ŋu akpɔ gazazã, gazazã zazã, & nyatakaka bubu siwo do ƒome kplii le Transparency Reports me le woƒe... [blog dzi](https://electriccoin.co/blog/).

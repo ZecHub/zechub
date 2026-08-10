@@ -2,109 +2,109 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Wallet Fund Recovery (Ɔkwampa a wobɛtumi de agye sika)
+# Zcash Wallet Sikakorabea a Wɔsan Yɛ
 
-Adɛn nti na wode wo kokoam safoa no sie?
+**Dɛn nti na wode wo private key sie?**
 
-Private keys ne ahintasɛm a ɛhwɛ wo digital assets no ahobammɔ so. Ɛho hia sɛ wode sie wɔn yiye na w'akyɛ wɔ nnipa foforɔ biara nkyɛn da.
+Private keys ne ahintasɛm a ɛma wo dijitaal agyapade ahobammɔ. Wɔn a wɔbɛkora wɔn so na woremfa wɔn nkyerɛ nnipa foforo da no ho hia.
 
-> Wɔ saa kwan yi so no, wobetumi ahu sɛ **Seed Phrase** yɛ ade a ɛne private key hyia.
+> Wɔ saa tebea yi mu no wobetumi ahu **Aba Kasasin** sɛ ɛne kokoam safoa yɛ pɛ.
 
-By maintaining control over your private keys, the recovery process is always possible. There are 2 types of Zcash private keys (transparent and shielded), you can easily import them into your wallet, whether by using the Sweep Funds function or importing them as a new account. By keeping control over your private keys, you maintain total control over your assets, ensuring ownership, security and peace of mind.
+Ɛdenam wo kokoam safe no so tumi a wobɛkɔ so akura mu so no, ɔkwan a wobɛfa so asan anya no betumi ayɛ yiye bere nyinaa. Zcash private keys ahodoɔ 2 na ɛwɔ hɔ (transparent na shielded), ɛnyɛ den sɛ wobɛtumi de akɔ wo wallet mu, sɛ ɛyɛ Sweep Funds dwumadie no a wode bedi dwuma anaasɛ wode bɛba sɛ account foforɔ. Ɛdenam wo kokoam safe a wobɛkɔ so adi so no so no, wokura w’agyapade so tumi koraa, na wohwɛ hu sɛ wowɔ wo dea, ahobammɔ ne asomdwoe wɔ w’adwene mu.
 
-# Ahotɔ ne Asɛyɛde
+# Ahobammɔ ne Asɛyɛde
 
-It is crucial for users to understand the risks involved in dealing with private keys and to keep these keys protected from unauthorized access. The security of funds depends on the user's responsibility to safeguard their private keys.
+Ɛho hia sɛ wɔn a wɔde di dwuma no te asiane ahorow a ɛwɔ kokoam safe ho dwuma a wodi mu no ase na wɔbɔ saa nsafe yi ho ban na obiara amma ho kwan. Sika a ahobammɔ wom no gyina asɛyɛde a nea ɔde di dwuma no wɔ sɛ ɔbɔ wɔn kokoam safe ho ban so.
 
-> **Ansa na wo bɛfiri ase:** recovery guides used to point at Ywallet. Ne developer no agye atom sɛ ɔrenyɛ update wɔ Ironwood (NU6.3) network upgrade, enti entumi nni chain no akyi bio. Use **Zkool**, a ɛyɛ same developer ne deɛ ɔdi akyire ma wɔn no. See [Ywallet is no longer maintained](#ywallet-is-no-longer-maintained) wɔ kratafa yi ase.
+> **Ansa na wobɛhyɛ aseɛ:** recovery guides a wɔde kyerɛ Ywallet. Nea ɔyɛɛ no ​​no asi so dua sɛ wɔrennyɛ no foforo mma Ironwood (NU6.3) network upgrade no, enti entumi nni nkɔnsɔnkɔnsɔn no akyi bio. Fa **Zkool** di dwuma, a ɛyɛ developer koro no ara na ɛyɛ adedifo a wɔhwɛ so. Hwɛ [Wɔnhwɛ Ywallet so bio](#ywallet-is-no-longer-maintained) wɔ kratafa yi ase.
 
-## Sika a wo nsa bɛka wɔ Zkool ho no
+## Sika a Wɔsan Yɛ ne Zkool
 
-[Zkool] Ɔyɛ ɔkwampaefo.](https://github.com/hhanh00/zkool2/releases) Ywallet a ne deε edi yεn anim no, na ɔboa ma wͻtumi nya nsesaeԑ anaa ntweaso.
+[Zkool na ɔkyerɛwee](https://github.com/hhanh00/zkool2/releases) yɛ Ywallet adedifoɔ, a ɛfiri developer korɔ no ara mu, na ɛboa transparent ne shielded recovery nyinaa.
 
-Nsɛm mmienu na yɛreka ho asɛm wɔ ha:
+Wɔaka tebea abien ho asɛm wɔ ha:
 
-1. **Sane account** firi seed phrase, private key anaa viewing key so
-2. **Sweeping funds** afi sika kotoku a daa na ɛboa address ahorow a emu da hɔ nkutoo so
+1. **Akontaabuo a wobɛsan de aba** afiri aba kasasin, kokoam safoa, anaa hwɛ safoa mu
+2. **Sweeping funds** fi sika kotoku a na ɛboa address ahorow a ɛda adi nkutoo da biara
 
-### 1) Dwumadi no a wobɛma so aba foforo
+### 1) Akontaabu bi a wɔbɛsan de aba
 
-1. Fa Zkool si hɔ firi [ɛfa nsɛm a wɔayi adi] so.](https://github.com/hhanh00/zkool2/releases) na bue no
-2. Wɔ **Account Manager** (ɔmanfofidie) so no, mia button a ɛkyerɛ sɛ woahyehyɛ akaw foforo bi.
-3. Fa **Account Name** hyɛ aseɛ na hu saa account yi.
-4. SƐ W'ayi wͻn adi no, na wo de wei ato dwa a, wobɛtumi ahu ne abodin ɛne n'awoɔ tenten.
-5. Paste your key into **Key (Seed Phrase, Private Key, or Viewing Key)**. Zkool accepts a seed phrase, a Sapling secret key, a transparent extended key, or a viewing key
-6. Sε wokura wo bͻne a, fa w'abrabᴐ mu tenten to hɔ. Eyi ma Zkool hu baabi a wobɛtumi afi ase ayԑ nhwehwεmu no de agye bere pii
+1. Fa Zkool hyɛ mu fi [yi kratafa no adi](https://github.com/hhanh00/zkool2/releases) na bue mu
+2. Wɔ **Akontaabu sohwɛfo** (kratafa titiriw no) so no, pia **+** bɔtn no na du **Akontaabu Foforo** screen no so
+3. Hyehyɛ **Akontaabu Din** na kyerɛ akonta yi
+4. Dane **San Fa Akontaabu no Ba?**. Eyi da safe ne awo tenten mfuw adi
+5. Fa wo safoa no hyɛ **Key (Seed Phrase, Private Key, anaa Viewing Key)** mu. Zkool gye aba kasasin, Sapling kokoam safoa, safoa a wɔatrɛw mu a ɛda adi pefee, anaa safe a wɔde hwɛ nneɛma tom
+6. Hyehyɛ **Birth Height** sɛ wunim bɛyɛ bere a wodii kan de sika kotoku no dii dwuma a. Eyi kyerɛ Zkool baabi a ɛsɛ sɛ ofi ase scan, na ɛma ɛkora bere pii so
 
 ![Zkool New Account screen with Restore Account and Advanced Options both turned on](/content-images/zkool-restore-account-60b1d2777e.webp)
 
-> **Nnipa a wɔwoo wɔn no tenten?** Ma ɛho ntew na ma wohu sɛ saa kɔkɔbɔ yi yɛ nokware. Zkool bɛ hwehwɛ afiri chain no mfiase, nea ɛyɛ katee nanso ɛrenhunu biribiara. Sɛ w'ahodeɛ firi ansaana Sapling upgrade bɛyɛ October 2018, gyaa ho hunu sene sɛ wobɛka akyiri ne kɛse mu nsɛm bi akyerɛ obi foforo, anyɛ saa deɛ scan no betumi abu n'ani agu wo transaction nyinaa so koraa.
+> **No birth height?** Gyae no kwa na si kɔkɔbɔ no so dua. Zkool bɛ scan fi nkɔnsɔnkɔnsɔn no mfiase, a ɛyɛ brɛoo nanso ɛrempa biribiara. Sɛ wo sika no di Sapling upgrade a ɛbaa October 2018 anim a, gyaw no kwa sen sɛ wobɛsusu sɛ ɛbɛkɔ akyiri akyiri yi, anyɛ saa a scan no betumi ahuru wo nnwuma no koraa.
 
-7. Kyekyɛ account no, na afei sync no
+7. Fa akontaabu no sie, afei fa yɛ sync
 
-### Ɔbaako firi sika kotoku foforo mu resane de aba no asi hɔ bio
+### Aba bi a wɔsan de fi sika kotoku foforo mu ba
 
-Sɛ aba no fi sika kotoku foforo mu na ne nkae hunu sɛ ɛnyɛ saa wɔ bere a wɔde di dwuma akyi, mpɛn pii no address nsesaeɛ ho nhwehwɛmu kyerɛ nea enti.
+Sɛ aba no fi sika kotoku foforo mu na nea aka no hwɛ sɛ ɛnteɛ wɔ syncing akyi a, nsakrae address derivation no taa yɛ nea enti a ɛte saa.
 
-Sesa **Advanced Options** no, na kɔ soro wɔ New Account screen koro no ara so, na senea saa to **Use Internal Change** ansa na woagye.
+Dane **Advanced Options** switch no, kɔ akyiri kɔ New Account screen koro no ara so, na dane **Use Internal Change** ansa na wode asie.
 
-Wallets nyinaa mfa ɔkwan koro so nya change address. Sɛ wode ZODL aba bi hyɛ Zkool mu a, sɛ woanyɛ saa no de sika kakra bɛtumi ayera wɔ w'asesaw ho nkrataa mu na ayɛ te sɛ nea sika pii afi hɔ nanso ɛnyɛ ɛno ankasa. Zkools tooltip ma switch no da so ara kyerɛ Zashi, ɛne deɛ anka wɔfrɛ ZOLD no.
+Ɛnyɛ sika kotoku nyinaa nnya nsakrae address wɔ ɔkwan koro so. ZODL aba bi a wobɛsan de aba Zkool mu a nhyehyeɛ yi nka ho no bɛtumi akyerɛ sɛ ɛkari pɛ a ɛyera wo nsakraeɛ nkrataa, a ɛte sɛ sika a ayera nanso ɛnte saa. Zkool adwinnade a ɔde ma switch no da so ara kyerɛ Zashi, a ɛno ne nea na wɔfrɛ ZODL kan no.
 
-Nsase foforo mmienu na ɛwɔ **Advanced Options**:
+Mfuw abien foforo te **Advanced Options** ase:
 
-- ** Extra Passphrase (ntumi nsiw)**, sɛ mfoni kotoku a edi kan no de baako na ɛfaa so aa.
-- **Account Index**, sε mfidie a w'ayi no adi kan de aka nkonta pii wɔ aba koro so. Sika betumi abͻ index soronko bi ase
+- **Extra Passphrase (optional)**, sɛ mfitiase sika kotoku no de bi dii dwuma nkutoo a
+- **Account Index**, sɛ mfitiase sika kotoku no kura akontaabu pii wɔ aba biako so a. Ebia sika no wɔ index soronko bi ase
 
-> **Saa mmienu yi da adi bere a aba bi wɔ Key afedie no mu.** Sɛ mfidie no nni hwee, anaa wo kura private key anaasɛ wokura viewing key a, Zkool kyerɛ sɛ fa Internal Change na H/W Ledger di dwuma. Fa aba no to hɔ kan ansa na woabue Advanced Options.
+> **Saa mmienu yi pue pɛnkoro pɛ bere a aba kasasin a ɛfata wɔ Key field no mu.** Sɛ afuw no da mpan, anaasɛ wokura kokoam anaa hwɛ safoa a, Zkool kyerɛ **Fa Internal Change** ne **H/W Ledger** kɛkɛ. Di kan fa aba no hyɛ mu, afei bue Advanced Options.
 
-### 2) Sika a woayi afi sika kotoku bi mu no, w'atumi ahu ne nyinaa wɔ hɔ.
+### 2) Sika a Wɔpopa Fi Sikakorabea a Ɛda Nneɛma Mu Nkutoo Mu
 
-Sɛ wo sika wɔ wallet a ɛnni adansedie bi da (Trust, Coinomi, Guarda ne nea ɛtete saa), san fa account no di kan na afei twe sika no kɔ baabi foforo.
+Sɛ wo sika wɔ sika kotoku a ɛnboaa address ahorow a wɔabɔ ho ban da (Trust, Coinomi, Guarda ne nea ɛtete saa) mu a, di kan san fa akontaabu no ba, afei fa sika no kɔ ɔtare a wɔabɔ ho ban no mu.
 
-1. Fa akwan a ɛwɔ soro no so san fa account no si hɔ
-2. bue account no na kɔ **Receive Funds** kratafa so.
-3. Wɔmfa adansedie a ɛsakra, te sɛ Ledger ne Exodus no yɛ akwantuo pii wɔ abodin baako mu na eyi ma wɔn nsa ka sika ahorow.
-4. **Sete na sync account no akyiri yi.** Adesamma a wohuu wɔn foforo no bɛgye wɔn sika wɔ scan foforɔ mu, enti sɛ wompɛ wei aa ɛbɛte sε nea wonhu hwee.
-5. Kɔ w'abodin no so na fa ahyɛnsode mmiɛnsa yi to hɔ. Wonni text label, enti hover anaa long press hwɛ wɔn din:
-   - **Shield One** (ɛkyerɛ ɔfasuo) twe address baako a ani tua bere biara mu
-   - **Shield All** (ɔfasuo a ɛyɛ den) twe biribiara fi baabiara wɔ bere koro mu
-   - **Wɔn a wɔantoto wɔn ho ban no nyinaa** (n'abankɛseɛ a abue) kɔ ɔkwan foforo so, akɔ baabi a emu da hɔ ma obiara hu.
+1. Fa anammɔn a ɛwɔ atifi hɔ no san fa akontaabu no ba
+2. Bue akontaabu no na kɔ **Gye Sika** krataafa no so
+3. Klik magnifying glass a ɛwɔ soro bar no so (**Hwehwɛ address afoforo a ɛda adi**). Sika kotoku a ɛkyinkyin address ahorow te sɛ Ledger ne Exodus no ma wonya address ahorow pii a ɛda adi pefee fi aba biako mu, na eyi hu wɔn a wokura sika
+4. **Reset na sync account no akyi.** Address foforo a wɔahu no gye wɔn balances nkutoo wɔ scan a edi hɔ no mu, enti sɛ wohuw eyi a, ɛma ɛyɛ te sɛ nea sweep no anhu hwee
+5. Kɔ **Send** krataafa no so. Bɛn balance no wubehu icon buttons abiɛsa. Wɔn nni nkyerɛwee nkyerɛwde biara, enti fa wo nsa hyɛ wo nsa anaa mia so tenten na wubehu wɔn din:
+   - **Shield One** (kyɛm a wɔakyerɛkyerɛ mu) tu address biako a ɛda adi pefee bere koro mu
+   - **Shield All** (solid shield) de biribiara fi address biara a ɛda adi pefee so prɛko pɛ
+   - **Unshield All** (bue padlock) kɔ ɔkwan foforo so, kɔ address a ɛda adi mu
 
-> *Shield One yɛ ade a ɛtaa fa nnipa ho.** Sɛ wode address bebree sie wɔ dwumadie baako mu a, ɛma obiara hu sɛ ɛyɛ obi koro dea. Zkool ankasa bɔ kɔkɔ ansa na ɔde Shield All adi dwuma no.
+> **Shield One yɛ kokoam paw.** Address pii a wobɛbɔ ho ban wɔ asɛm biako mu no de bata ho wɔ baguam sɛ ɛyɛ onipa koro dea. Zkool bɔ kɔkɔ wɔ eyi ankasa ho ansa na watu mmirika Shield All.
 
-6. Hwɛ adwuma no na fa to hɔ.
+6. Hwɛ asɛm no mu na fa mena
 
-Unshield All yɛ adepa bere a woreyi wo sika wɔ sikakorabea bi so na wogye adrɛs ahodoɔ nko ara. Adwumayɛfoɔ no bɔ wɔn ho ban, nanso sɛ account no kura address a ɛbɔ ne ho ban nkutoo a, ɛnna unshield all nso ba saa aberɛ yi mu.
+Unshield All ho wɔ mfaso bere a woretwe wo ho akɔ exchange a egye address a ɛda adi nkutoo nkutoo no. Sɛ akontaabu no wɔ address a wɔabɔ ho ban nkutoo a, shielding buttons no bɛda adi, na Unshield All no pue sɛ ɛwɔ nea ɛda adi nkutoo a.
 
-## Sika a wɔgye fii wɔn nsam ne Ironwood pool no
+## Sika a wɔsan nyae ne Ironwood ɔtare no
 
-Efi Ironwood (NU6.3) upgrade a wɔde dii dwuma wɔ July 28, 2026 no, Orchard pool yɛ nea wotumi de sika to mu nkutoo. Ɛnsɛ sɛ wode biribi foforo kɔ hɔ na mmom wofa nneɛma bi a ɛwɔ hɔ ma ɛkɔ Ironwood so.
+Efi bere a Ironwood (NU6.3) upgrade no yɛɛ adwuma wɔ 28 July 2026 no, Orchard pool no yɛ nea wɔsɛe no nkutoo. Botae foforo biara ntumi nkɔ mu, na bo a ɛwɔ hɔ dedaw no fa turnstile no mu kɔ Ironwood.
 
-Sɛ wo sika a w'atwe no aba Orchard mu aa, ɛhia sɛ wɔ sesa ansa na ayɛ adwuma. bue account menu na yi **Ntoasoɔ Sesae** . saa kwan yi da adi bere biara a biribi ankasa bɛsesa.
+Sɛ wo sika a woasan anya no wɔ Orchard a, ɛho behia sɛ wotu kɔtra mmeae foforo ansa na wɔayɛ wɔn ade sɛnea ɛsɛ. Bue akontaabu menu no na paw **Hyɛ no nsow sɛ wotu kɔ baabi foforo**. Option no da adi bere a biribi wɔ hɔ ankasa a ɛsɛ sɛ wotu kɔ baabi foforo nkutoo.
 
-The screen is titled **Orchard to Ironwood Migration** and runs in two phases. First it splits non-standard notes into standard denominations, then it moves those notes one at a time. **Migration Speed** is a slider from Ultra Fast to Slow that sets the random delay between steps. **Start Migration** runs the staged process in the background, and you can close the page and resume later. **One Shot** does it in a single pass.
+Wɔato screen no din **Orchard to Ironwood Migration** na ɛkɔ so wɔ akwan abien so. Nea edi kan no ɛkyekyɛ nkyerɛwde a ɛnyɛ nea wɔahyɛ da ayɛ mu ma ɛyɛ asɔre ahorow a wɔahyɛ da ayɛ, afei ɛde saa nkyerɛwde no tu mmiako mmiako. **Migration Speed** yɛ slider a ɛfiri Ultra Fast kɔ Slow a ɛde random delay a ɛda anammɔn ntam no si hɔ. **Start Migration** yɛ staged process no wɔ akyi, na wobɛtumi ato krataafa no mu na woasan ahyɛ aseɛ akyiri yi. **One Shot** yɛ no wɔ pass biako mu.
 
-Ninyɛne ne mɔ ko biala le ngyehyɛleɛ, ɔti bɛ nuhua ko biala lɛ ezukoa mɔɔ ɔbava yeabɔ la.
+Anamɔn biara yɛ n’ankasa asɛm, enti emu biara tua ka.
 
-> **Nneɛma a w'ayi no yɛ baguam.** Sɛ ɛmu kɔ soro wɔ ɔdan mu, ne dodoɔ ne ntramu tenten nyinaa da adi wɔ chain so. Ɛmfa ho sɛ nea ɔsomaa woɔ ne deɛ ogyee woɔ no hyɛ ban mpo. Nnansa soronko bi betumi ama woahu wo din, enti fa akwantu nketewa kwan a ɛnkyɛ ntɛmntɛm sen bere koro pɛ na di kan susuw sɛnea wode Tor anaa VPN bɛfa afa wo ahokafoɔ ansa na wɔde IP address aka sika dodow a wosesae no ho.
+> **Migration amounts are public.** Sɛ botae no twa turnstile no a, dodow no ne block no sorokɔ da adi wɔ nkɔnsɔnkɔnsɔn so, ɛwom mpo sɛ nea ɔde kɔma ne nea ogye no tra hɔ a wɔabɔ wɔn ho ban de. Dodow soronko betumi akyerɛ wo, enti pɛ staged migration wɔ ahoɔhare a ɛyɛ brɛoo sen shot biako, na susuw ho sɛ wobɛfa Tor anaa VPN so kan na wo IP address no ne dodow a woatu no nni abusuabɔ.
 
-## Deep Recovery a ZExCavator yɛ no so
+## Deep Recovery ne ZExCavator
 
-[ZExCavator] no ne ho yɛ hu.](https://github.com/zingolabs/zexcavator) Ɛyɛ dwumadie a wɔfa so nya sika fi Zingo Labs hɔ ma nsɛm tebea ahorow mu, sɛ daa ɔsan yɛ adwuma no anyɛ yiye te sɛ adaka fael a asɛe anaa emu bi.
+[ZExCavator na ɛyɛ adwuma](https://github.com/zingolabs/zexcavator) yɛ adwinnade a wɔde san nya fi Zingo Labs ma nsɛm a sanba a ɛyɛ daa no ntumi nyɛ adwuma, te sɛ sika kotoku fael a asɛe anaa ne fã bi.
 
-> Ne update a etwa to no di kan wɔ network upgrades foforo yi, enti fa yɛ sɛ nea aka akyire na hwɛ sɛ wo nsa bɛka keys biara wɔ wallet bi mu ansa na wode w'ani ato ne so.
+> Ne update a etwa to no di nnansa yi network upgrades no anim, enti fa no sɛ ɔkwan a etwa to na hwɛ sɛ safe biara a wɔasan anya wɔ wallet a wɔahwɛ so no mu ansa na wode wo ho ato nea ebefi mu aba no so.
 
-## Ywallet no nni hɔ bio.
+## Wɔnhwɛ Ywallet so bio
 
-Ywallet yɛ dwumadie a wɔhyɛɛ ho nkuran sɛ wɔde bɛgye obi afiri mu bere tenten, na akwankyerεfoɔ dada no pii da so de wɔn ani si ɛno so.
+Na Ywallet yɛ adwinnade a wɔkamfo kyerɛe sɛ wɔmfa nnya ahoɔden bio wɔ kratafa yi so bere tenten, na akwankyerɛfo dedaw pii da so ara twe adwene si so.
 
-N'adwumayɛni no aka sɛ ɔrenyɛ adwuma wɔ Ironwood. Akwanhodeɛ a ɛnni mprenpren mmara mu tumi yɛ tratraaksɔn, enti wontumi mfa nyɛ adwuma bio na ama sika aba so. **Zkool** ne nea ɔdi hɔ ma saa adwadie yi seesei ara.
+Nea ɔyɛɛ no ​​no asi so dua sɛ wɔrennyɛ no foforo mma Ironwood. Sika kotoku a ɛnfoa mprempren mmara a wɔpene so no ntumi nsi nnwuma a ɛfata, enti wontumi mfa nni dwuma bio mfa nkɔfa sika a wɔasan anya no nkɔ baabi foforo. **Zkool**, a ɔdebɔfoɔ korɔ no ara na ɔyɛeɛ, ne nea wɔahwɛ so a ɛdi akyire na ɛyɛ deɛ krataafa yi de di dwuma seesei.
 
-Sɛ wowɔ sika a ɛda Ywallet mu dada no, fa saa asɛmfua koro yi ara san kɔ Zkool so denam anammɔn ahorow a ɛwɔ soro hɔ no so.
+Sɛ wowɔ sika a ɛte Ywallet dedaw a, san fa aba kasasin koro no ara kɔ Zkool mu denam anammɔn a ɛwɔ atifi hɔ no so.
 
-## Nkrataafa a ɛfa ho
+## Nkratafa a ɛfa ho
 
-- [Nkrataa nkekaho](/using-zcash/wallets) - nkotoku a w'ɔhwɛ so ne Ironwood ahobanbɔ no.
-- [Nkyekyere nnua](/zcash-tech/ironwood) - nea upgrade no sesae ne deɛn nti na sika kɔ baabi foforɔ a, ɛnneɛ ɛhe na ɛde nkuro ba?
-- [Nsɛm a wode bɛto dwa](/using-zcash/memos) - sɛnea nkrataa a wɔde ahyɛnsode ayɛ yɛ adwuma no.
-- [Kyerԑkyerԑmu Nsaano Nkyea](/zcash-tech/viewing-keys) - nea wotumi kenkan nkutoo a wontua tumi so ka biara nni hɔ
+- [Sika kotoku](/using-zcash/wallets) - a wode sika kotokuo a wodi so ne won Ironwood ahoboa
+- [Dade dua](/zcash-tech/ironwood) - dee upgrade no sesae ne nea enti a sika tu tu
+- [Memos a wɔde kyerɛw nsɛm](/using-zcash/memos) - sedee encrypted memos y adwuma
+- [Nneɛma a Wɔde Hwɛ](/zcash-tech/viewing-keys) - akenkan nkoaa kwan a wonnye tumi

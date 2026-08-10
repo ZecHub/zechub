@@ -2,8 +2,8 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Podcasts
-Wopɛ sɛ wusua pii fa Zcash mu nneɛma ho? Podcasts a wobɛtumi adi so no nie:
+# Podcast ahorow a wɔde di dwuma
+Wopɛ sɛ wusua pii fa Zcash abɔde a nkwa wom ho? Podcast ahorow a wubetumi adi akyi ni:
 
 <ul class="podcast-list grid grid-cols-1 imd:grid-cols-2 md:grid-cols-3 gap-6">
 <li>
@@ -37,5 +37,5 @@ Wopɛ sɛ wusua pii fa Zcash mu nneɛma ho? Podcasts a wobɛtumi adi so no nie:
 </li>
 </ul>
 
-So yɛrehwere podcast a eye bi? [Discord] so no ma yɛn nsa nka nsɛmmisa yi.](https://discord.gg/zcash) na yɛde bɛka ho wɔ yɛn din mu.
+So yɛreyera podcast pa bi? Di yɛn ho nkɔmmɔ wɔ [Akasakasa](https://discord.gg/zcash) na yɛde bɛka nea wɔahyehyɛ no ho.
 

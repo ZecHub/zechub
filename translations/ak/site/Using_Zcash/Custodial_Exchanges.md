@@ -6,16 +6,16 @@
 
 ---
 
-### [Nneɛma a ɛfa sikasɛm ho](https://binance.com)
+### [Binance a wɔde yɛ nneɛma](https://binance.com)
 
 <a href="https://binance.com">
     <img src="/content-images/_unavailable.svg" alt="Binance Logo" width="200" height="100"/>
 </a>
 
-- Website: [Binance] (Ɔwɔ hɔ wɔ Ghana)](https://binance.com)
-- Pairs: ALL/ZEC (All / ZEC)
-- Nkwadaa a w'ɔwɔ mu: Transparent (TEX Address Deposit)
-- Deposit Time: simma aduonu
+- Wɛbsaet: [Binance a wɔde yɛ nneɛma](https://binance.com)
+- Nnipa baanu: ALL/ZEC
+- Mmoa: Ɛyɛ nea ɛda adi pefee (TEX Address Deposit) .
+- Bere a Wɔde Sie: Simma 20
 ___
 
 ### [BitcoinVN](https://bitcoinvn.io)
@@ -24,92 +24,92 @@ ___
     <img src="/content-images/_unavailable.svg" alt="BitcoinVN Logo" width="200" height="100"/>
 </a>
 
-- Ɔweɛbe: [BitcoinVN](https://bitcoinvn.io)
-- Pairs: BTC/ZEC, ETH/ZCE, USDT/ZC, XMR/ZCC, LTC/ZCO, DASH/ZCA.
-- Nkwadaa: Transparent de ban (z-address Deposit & Withdrawal)
-- Deposit Time: Instant (non-custodial swap)
+- Wɛbsaet: [BitcoinVN](https://bitcoinvn.io)
+- Nnipa baanu: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
+- Nneɛma a wɔboa: Transparent | Shielded (z-address Sika a Wɔde Sie & Wɔde Sie) .
+- Bere a Wɔde Sie: Ntɛm ara (a ɛnyɛ nea wɔde sesa nneɛma a wɔde asie) .
 ___
 
-### [Bitfinex](https://bitfinex.com)
+### [Bitfinex a ɛwɔ hɔ](https://bitfinex.com)
 
 <a href="https://bitfinex.com">
     <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Bitfinex_Logo_light.svg" alt="Bitfinex Logo" width="200" height="100"/>
 </a>
 
-- Ɔweɛbsaet: [Bitfinex](https://bitfinex.com)
-- Pairs: ALL/ZEC (All / ZEC)
-- Nkɔsoɔ: Ahyεaseɛ
-- Deposit Time: 25 Minutes (Ɔgyeɛ berɛ) 
+- Wɛbsaet: [Bitfinex a ɛwɔ hɔ](https://bitfinex.com)
+- Nnipa baanu: ALL/ZEC
+- Nneɛma a wɔboa: Ɛyɛ nea ɛda adi pefee
+- Bere a Wɔde Sie: Simma 25 
 ___
 
-### [Nkrataafa a wɔde di dwuma wɔ kasa mu](https://coinbase.com)
+### [Coinbase a wɔde yɛ adwuma](https://coinbase.com)
 
 <a href="https://coinbase.com">
     <img src="/content-images/coinbase-8643659341.webp" alt="" width="200" height="100"/>
 </a>
 
-- Ɔweɔn-Aban: [Coinbase](https://coinbase.com)
-- Pairs: ALL/ZEC (All / ZEC)
-- Nkɔsoɔ: Ahyεaseɛ
-- Deposit Time: 150 minutes (Ɔbɛgye berɛ de asie)
+- Wɛbsaet: [Coinbase a wɔde yɛ adwuma](https://coinbase.com)
+- Nnipa baanu: ALL/ZEC
+- Nneɛma a wɔboa: Ɛyɛ nea ɛda adi pefee
+- Bere a Wɔde Sie: Simma 150
 ___
 
- ### [Gemini] yɛ ɔmansin a ɛwɔ Ghana.](https://gemini.com)
+ ### [Gemini a ɛyɛ fɛ](https://gemini.com)
 
 <a href="https://gemini.com">
     <img src="/content-images/Gemini-Symbol-ddd31ee98b.webp" alt="Gemini Custodian Exchange Logo" width="200" height="100"/>
 </a>
 
-- Intanɛt so: [Gemini](https://gemini.com)
-- Pairs: ALL/ZEC (All / ZEC)
-- Nkɔanim: Transparent de bɔ ho ban Ɛho a w'ayi no adi
-- Deposit Time: 50 Minutes (Ɔbɛgye berɛ de asie) 
+- Wɛbsaet: [Gemini a ɛyɛ fɛ](https://gemini.com)
+- Nnipa baanu: ALL/ZEC
+- Nneɛma a wɔboa: Transparent | Shielded a Wɔtwe Wɔn Ho
+- Bere a Wɔde Siesie Nneɛma: Simma 50 
 ___
 
-### [Huobi](https://huobi.com)
+### [Huobi na ɔkyerɛwee](https://huobi.com)
 
 <a href="https://huobi.com">
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- Intanɛt so: [Huobi](https://huobi.com)
-- Pairs: ALL/ZEC (All / ZEC)
-- Nkɔsoɔ: Ahyεaseɛ
-- Deposit Time: 35 Minutes (Ɔgyeɛ berɛ) 
+- Wɛbsaet: [Huobi na ɔkyerɛwee](https://huobi.com)
+- Nnipa baanu: ALL/ZEC
+- Nneɛma a wɔboa: Ɛyɛ nea ɛda adi pefee
+- Bere a Wɔde Sie: Simma 35 
 ___
 
-### Krakene [Krakow](https://kraken.com)
+### [Kraken na ɔkyerɛwee](https://kraken.com)
 
 <a href="https://kraken.com">
     <img src="/content-images/kraken-logo-7407ab477f.webp" alt="Kraken Promotional" width="200" height="100"/>
 </a>
 
-- Intanɛt so: [Kraken](https://kraken.com)
-- Pairs: ALL/ZEC (All / ZEC)
-- Nkɔsoɔ: Ahyεaseɛ
-- Deposit Time: 60 minutes (Ɔbɛgye bere adu hɔ)
+- Wɛbsaet: [Kraken na ɔkyerɛwee](https://kraken.com)
+- Nnipa baanu: ALL/ZEC
+- Nneɛma a wɔboa: Ɛyɛ nea ɛda adi pefee
+- Bere a Wɔde Sie: Simma 60
 ___
 
-### [KuCoin] Ɔyɛ ɔmansin sohwɛfo.](https://kucoin.com)
+### [KuCoin na ɛwɔ hɔ](https://kucoin.com)
 
 <a href="https://kucoin.com">
     <img src="/content-images/kucoin-ee0c21f9fd.svg" alt="KuCoin Logo" width="200" height="100"/>
 </a>
 
-- Ɔweɔn-Aban: [KuCoin](https://kucoin.com)
-- Pairs: ALL/ZEC (All / ZEC)
-- Nkɔsoɔ: Ahyεaseɛ
-- Deposit Time: 20 Minutes (Ɔgyeɛ berɛ) 
+- Wɛbsaet: [KuCoin na ɛwɔ hɔ](https://kucoin.com)
+- Nnipa baanu: ALL/ZEC
+- Nneɛma a wɔboa: Ɛyɛ nea ɛda adi pefee
+- Bere a Wɔde Siesie Nneɛma: Simma 20 
 ___
 
-## [Yԑ srԑ sԑ](https://okex.com)
+## [OKEx](https://okex.com)
 
 <a href="https://okex.com">
     <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKEx Logo" width="200" height="100"/>
 </a>
 
-- Website: [OKEx] www.okex.org/home](https://okex.com)
-- Pairs: ALL/ZEC (All / ZEC)
-- Nkɔsoɔ: Ahyεaseɛ
-- Deposit Time: 25 Minutes (Ɔgyeɛ berɛ) 
+- Wɛbsaet: [OKEx](https://okex.com)
+- Nnipa baanu: ALL/ZEC
+- Nneɛma a wɔboa: Ɛyɛ nea ɛda adi pefee
+- Bere a Wɔde Sie: Simma 25 
 ___

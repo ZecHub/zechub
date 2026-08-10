@@ -2,109 +2,109 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Gadzraɖoƒe ƒe Ga Gbɔ Kpɔkpɔ
+# Zcash Gakotoku ƒe Gaxɔmenɔnɔ
 
-** Nu ka tae nèdzra wò dɔwɔƒegã ƒe safui ɖo?**
+**Nukatae nàdzra wò safui ɣaɣla ɖo?**
 
-Aƒemɔ̃vi siwo le ame ŋutɔ si la nye nu vevi aɖe na wò kɔmpiuta dzi nuwo ƒe dedienɔnɔ. Ele vevie be nàdzra wo ɖo eye màgaƒo ka kpli wo gbeɖe o.
+Ame ŋutɔ ƒe safuiwoe nye nya ɣaɣla na wò dijitaal nunɔamesiwo ƒe dedienɔnɔ. Wo léle ɖe te eye màma wo na ame bubuwo gbeɖe o le vevie ŋutɔ.
 
-> Le go sia me la, woate ŋu abu **Seed Phrase** be enye nu si sɔ kple private key.
+> Le nya sia me la, woateŋu akpɔ **Nuku ƒe Nyagbe** be esɔ kple safui si nye ame ŋutɔ tɔ.
 
-By maintaining control over your private keys, the recovery process is always possible. There are 2 types of Zcash private keys (transparent and shielded), you can easily import them into your wallet, whether by using the Sweep Funds function or importing them as a new account. By keeping control over your private keys, you maintain total control over your assets, ensuring ownership, security and peace of mind.
+Ne èlé wò safui ɣaɣlawo dzi kpɔkpɔ me ɖe asi la, nuwo gbugbɔgaxɔ ƒe ɖoɖoa ate ŋu adzɔ ɣesiaɣi. Zcash private keys ƒomevi 2 li (siwo me kɔ eye wokpɔa ta na), àteŋu atsɔ wo ade wò gakotoku me bɔbɔe, eɖanye to Sweep Funds dɔwɔwɔ zazã me alo wo tsɔtsɔ va abe akɔnta yeye ene o. Ne èkpɔ ŋusẽ ɖe wò safui siwo nye ame ŋutɔ tɔ dzi la, èléa wò nunɔamesiwo dzi kpɔkpɔ bliboe me ɖe asi, eye nèkpɔa egbɔ be yewo tɔ, dedienɔnɔ kple susu ƒe akɔdzeanyi le ye si.
 
-# Dedienɔnɔ Kple Agbanɔamedziwɔwɔ
+# Dedienɔnɔ Kple Agbanɔamedzi
 
-Ele vevie be amesiwo zãa mɔnu sia nanya afɔku siwo le eme ne wole nu wɔm kple woƒe private keys eye woana woakpɔ mɔ na nya siawo. Ame bubuwo ƒe ga ŋuti dedienɔnɔ nɔ te ɖe alesi ame si zãm la akpɔ eƒe private key dzii ŋu.
+Ele vevie ŋutɔ be ezãlawo nase afɔku siwo le ame ŋutɔ ƒe safuiwo gbɔ kpɔkpɔ me gɔme eye woakpɔ safui siawo ta tso ame siwo ŋu womeɖe mɔ ɖo o ƒe gege ɖe eme me. Ga ƒe dedienɔnɔ nɔ te ɖe ezãla ƒe agbanɔamedzi be wòakpɔ woƒe safui ɣaɣlawo ta dzi.
 
-> ** Hafi nàdze egɔme:** recovery guides used to point at Ywallet. Eƒe developer ɖo kpe edzi be womagaɖɔe ɖe Ironwood (NU6.3) network upgrade nu o, eyata mate ŋu anɔ kɔsɔkɔsɔa me azɔ o. Zã **Zkool** si tso developer ma ke gbɔ eye enye eƒe susɔxɔla siwo dzi wotena kpɔna la. Kpɔ [Ywallet is no longer maintained](#ywallet-is-no-longer-maintained) le axa sia ƒe ete.
+> **Hafi nàdze egɔme:** mɔfiame siwo wozãna tsɔ fiaa asi Ywallet. Eƒe dɔwɔƒe ɖo kpe edzi be womawɔ yeye na Ironwood (NU6.3) network upgrade o, eyata megate ŋu kplɔ kɔsɔkɔsɔa ɖo o. Zã **Zkool**, si tso dɔwɔla ma ke gbɔ eye wònye esi wolé be na ɖe eteƒe. Kpɔ [Womegaléa be na Ywallet o](#ywallet-is-no-longer-maintained) le axa sia ƒe gɔmedzedze.
 
-## Gaxɔle ɖe Zkool gbɔ
+## Ga Gbugbɔgadzɔ kple Zkool
 
-[Zkool] Nyee nye ame si le wo dome.](https://github.com/hhanh00/zkool2/releases) enye Ywallet ƒe dzidzimevi, tso developer ma ke gbɔ eye ekpena ɖe gaglãgbe kple wo dzi kpɔkpɔ ŋu.
+[Zkool ƒe ŋkɔ](https://github.com/hhanh00/zkool2/releases) nye Ywallet teƒenɔla, tso dɔwɔƒe ma ke gbɔ, eye wòdoa alɔ gagbugbɔgaxɔ si me kɔ kple esi wotsɔ akpoxɔnu wɔe siaa.
 
-Míadzro nɔnɔme eve aɖewo me le afisia:
+Woƒo nu tso nɔnɔme eve ŋu le afisia:
 
-1. **Akpaɖoɖo ƒe gbugbɔɖoanyi** tso nyagbe, private key alo viewing key dzi
-2. **Axɔ ga le gakotoku si me wotea ŋu ʋua adrɛs siwo dzi woate ŋu akpɔ nu ɖo ko la me**
+1. **Akɔntabubu gbugbɔgaɖoanyi** tso nuku ƒe nyagbe, ame ŋutɔ ƒe safui, alo nukpɔkpɔ safui me
+2. **Ga tutu** tso gakotoku si doa alɔ adrɛs siwo me kɔ ko kpɔ
 
-### 1) Akɔnta Ðɔɖɔɖo
+### 1) Akɔntabubu aɖe Gbugbɔgaɖoanyi
 
-1. Ðo Zkool le [gbeɖeɖewo ƒe axa] dzi.](https://github.com/hhanh00/zkool2/releases) eye nàʋui.
-2. Le ** Account Manager** (ƒe akpa gãtɔ dzi) la, ka asi kpukpui si nye **+** ŋu be nàkpɔ nu siwo le afi sia.
-3. Ŋlɔ **Nudzraɖoƒe Ƒe Ŋkɔ** be nàde dzesi nyatakaka sia.
-4. Ʋu **Gbugbɔ Account ɖo?**. Esia ana nàkpɔ nu vevi kple dzidzi ƒe kɔkɔme teƒewo
-5. Mido miaƒlevi ɖe **Key (Seed Phrase, Private Key, or Viewing Key) me. Zkool lɔ̃na na ƒlevi aɖe ƒe nyagbewo, Sapling ɣaɣlaɖui, gaglãaɖe si dzi wotrɔ asi le la alo nuŋɔŋlɔawo kpɔkpɔ kpokploe
-6. Ne ènya ɣeyiɣi si me wozã ga sia zi gbãtɔ la, ke de dzesi eƒe dzidzi ƒe kɔkɔme. Esia ana Zkool nanya afisi wòadze numekuku gɔme le eye esia aɖe ɣeyiɣi geɖe dzi akpɔtɔ na wo
+1. De Zkool tso... [ɖea axaa ɖe go](https://github.com/hhanh00/zkool2/releases) eye nàʋui
+2. Le **Akɔntabubudzikpɔla** (axa vevitɔ) dzi la, zi **+** ƒe dzesi dzi be nàɖo **Akɔntabubu Yeye** ƒe akpaa
+3. Ŋlɔ **Akɔntabubu ƒe Ŋkɔ** be nàde dzesi akɔnta sia
+4. Ʋu **Gbugbɔ Akɔntabubua?**. Esia ɖea safui kple dzidzi ƒe kɔkɔme ƒe agblewo fiana
+5. Kpe wò safuia ɖe **Key (Seed Phrase, Private Key, alo Viewing Key)** me. Zkool xɔa nuku ƒe nyagbe, Sapling ƒe adzame safui, safui si keke ɖe enu si me kɔ, alo nukpɔkpɔ ƒe safui
+6. Ŋlɔ **Dzidzi ƒe Kɔkɔme** ne ènya ɣeyiɣi si me wozã gakotokua zi gbãtɔ teti. Esia naa Zkool gblɔa afisi wòadze scanning gɔme le, si wɔnɛ be ɣeyiɣi geɖe menɔa anyi o
 
 ![Zkool New Account screen with Restore Account and Advanced Options both turned on](/content-images/zkool-restore-account-60b1d2777e.webp)
 
-> **Eƒe dzidzi ƒe kɔkɔme mele eme o?** Na wòatsi ƒuƒlu eye nàɖo kpe nuxlɔ̃amea dzi. Zkool adzro nuwo me tso woƒe dzɔdzɔmedzedze, si le blewu wu gake naneke matsi eŋu o la gbɔ. Ne ga siwo nètsɔ ɖo ɖe wo ŋu do ŋgɔ na Sapling tɔtrɔwo wɔwɔ le October 2018 me la, gblẽe ɖi tsɔ wu be nànɔ akɔnta bum tso eƒe tsitsi megbe loo alo scan ate ŋu asi miaƒe asitsatsawo katã dzi.
+> **Dzidzi ƒe kɔkɔme aɖeke meli o?** Gblẽe ɖi ƒuƒlu eye nàɖo kpe nuxlɔ̃amea dzi. Zkool awɔ scan tso kɔsɔkɔsɔa ƒe gɔmedzedze, si le blewu gake naneke mato eŋu o. Ne wò ga do ŋgɔ na Sapling ƒe dodoɖeŋgɔ le October 2018 me la, gblẽe ɖi ƒuƒlu tsɔ wu be nàsusu be eƒe kɔkɔme ava emegbe, alo scan la ate ŋu adzo le wò asitsatsa dzi keŋkeŋ.
 
-7. Dzra nyatakaka la ɖo, eyome wɔ ɖeka kplii
+7. Dzra akɔnta la ɖo, emegbe nàwɔe wòasɔ ɖe enu
 
-### Nuku aɖe gbugbɔgaɖoanyi tso gaɖaka bubu me
+### Nuku aɖe gbugbɔgaɖoanyi tso gakotoku bubu me
 
-Ne ga si le kotoku bubu me la ƒe akpa aɖe gblẽ eye eƒe homea megadze abe ale si wòle ene o, zi geɖe la tɔtrɔ siwo wowɔna na adrɛswo gbɔe wòtsona.
+Ne nukua tso gakotoku bubu me eye ga si susɔ la dze abe ɖe wòsɔ le ewɔwɔ ɖekae vɔ megbe la, zi geɖe la, tɔtrɔ ƒe adrɛs ƒe dzɔtsoƒee nye nusitae.
 
-Ʋu **Advanced Options** switch, yi ɖagadze New Account screen la dzi eye nàʋu **Use Internal Change** hafi adzra ɖo.
+Ʋu **Tiatia Deŋgɔ** ƒe tɔtrɔ, yi ŋgɔ wu le Akɔntabubu Yeye ƒe screen ma ke dzi, eye nàʋu **Zã Ememe Tɔtrɔ** hafi adzrae ɖo.
 
-Gaxɔwo katã mehea tɔtrɔ ƒe adrɛs le mɔ ɖeka nu o. ZODL-dzidzime aɖe gbugbɔɖoanyi ɖe Zkool dzi ne ɖoɖo sia meli o la ate ŋu ana ga si susɔ na wò tɔtrɔwo, siwo adze abe ga búbu ene gake menye nenemae wonye o. Dɔwɔgbalẽvi si nye Zkoel's tooltip hena asitɔtrɔgaɖoa gakpɔtɔ yɔna be Zashi, eye eyae woyɔna tsã na ZOLD.
+Menye gakotokuwo katã xɔa tɔtrɔ ƒe adrɛswo le mɔ ɖeka nu o. ZODL nuku aɖe gbugbɔgaɖo ɖe Zkool me ɖoɖo sia manɔmee ate ŋu afia dadasɔ si bu wò tɔtrɔ nuŋlɔɖiwo, si dze abe ga si bu ene gake menye nenemae o. Zkool ƒe dɔwɔnu ƒe aɖaŋuɖoɖo na tɔtrɔa gakpɔtɔ le nu ƒom tso Zashi ŋu, si nye nusi woyɔna tsã be ZODL.
 
-Nudzɔdzɔ eve bubu le **Advanced Options**:
+Agble eve bubuwo le agbe le **Tiatia Deŋgɔ** te:
 
-- **Extra Passphrase (ele be nàtiae)**, ne gaɖaba gbãtɔ zã ɖeka ko la koe wòate ŋu awɔ esia.
-- **Adzesiwo ƒe Numedzodzro**, ne ga si le gakotoku gbãtɔa me la nye esi nɔ akɔntabubu geɖewo dzi ɖe nu ɖeka aɖe ŋu. Ga siwo anɔ eme ate ŋu anye esiwo woazã na numekɔkɔ bubu
+- **Extra Passphrase (optional)**, ne gakotoku gbãtɔa zã ɖeka ko
+- **Account Index**, ne gakotoku gbãtɔa lé akɔnta geɖe ɖe nuku ɖeka dzi. Gaawo ate ŋu anɔ index bubu te
 
-> **These two only appear once a valid seed phrase is in the Key field.** With the field empty, or holding a private or viewing key, Zkool shows just **Use Internal Change** and **H/W Ledger**. Paste the seed first, then open Advanced Options.
+> **Ne nuku ƒe nyagbe si sɔ le Safui ƒe agblea me ko hafi eve siawo dzena.** Ne agblea le ƒuƒlu, alo lé ame ŋutɔ ƒe safui alo nukpɔkpɔ ƒe safui ɖe asi la, Zkool ɖea **Zã Ememe Tɔtrɔ** kple **H/W Ledger** ko fiana. Kpe nukua gbã, emegbe nàʋu Tiatia Deŋgɔwo.
 
-### 2) Gawo Tsɔtsɔ Yi Gadzɛ aɖe si Dzi Nu Kekeake Le La Me
+### 2) Ga Siwo Woaɖe Tso Gakotoku Si Me Wowɔa Nu Le Gaglãgbe Ko Me
 
-Ne ga siwo le wò kotoku me mewɔ dɔ ɖe adrɛs si dzi wotona kpɔa wo ta o (Trust, Coinomi, Guarda kple bubuawo) la, gbugbɔ axaa ɖo gbã eye nàtsɔ gaawo ayi asrafodɔ ƒe akpa si wokpɔna.
+Ne wò ga le gakotoku si medo alɔ adrɛs siwo wokpɔ ta na gbeɖe o (Trust, Coinomi, Guarda kple esiawo tɔgbe) me la, gbugbɔ gakɔnta la ɖo gbã, emegbe tsɔ ga la yi ta si wotsɔ akpoxɔnu wɔe la me.
 
-1. Zã afɔɖeɖe siwo le etame nàtsɔ agbugbɔ axa la aɖo te
-2. Ʋu wò account eye nàyi le axa si nye **Xɔ Ga** dzi.
-3. Ʋu ʋeʋẽ si le dziƒoxɔ la ƒe akpa aɖe (** Find other transparent addresses **) Gaɖaka siwo trɔna ɖe adrɛswo ŋu, abe Ledger kple Exodus ene, wɔa dɔ tso nuku ɖeka me tsɔ dea dzesi adres gbogbo aɖewo eye esia kpena ɖe wo dometɔ siwo léa ga ɖi la ŋu.
-4. **Gbugbɔ ɖoɖoa kple kadodoa me le ema megbe.** Adrɛs siwo ŋu woke ɖo ye nye esiwo ƒe ga susɔna la koe woakplɔ ayii ne wodzro eme ake, eya ta to esia dzi wɔwɔ ana wòadze abe naneke meli si wokpɔ o ene.
-5. Yi ɖe axa si nye **Send**. Àkpɔ dzesivi etɔ̃ le teƒe siwo sɔ gbɔ na wo la ŋu. Womeŋlɔa nu aɖeke o, eyata zi edzi nàtsɔ nutrenu alo aɖabaƒoƒo didi aɖe aɖɔli woƒe ŋkɔwo:
-   - **Kpɔkplɔ̃ Gbãtɔ** (kpɔkplɔa ƒe akpa si woɖe) ʋuna adrɛs ɖeka le ɣeyiɣi aɖe me
-   - **Shield All** (ʋɔ̃kpo sesẽ) ʋuna nuwo katã tso adrɛs siwo me wodzena le la dometɔ ɖesiaɖe gbɔ zi ɖeka
-   - **Menye Akɔkpae O All** (akpoxɔnu si le ʋuʋu) yia akpa bubu, yi adrɛs aɖe dzi.
+1. Gbugbɔ akɔnta la ɖo to afɔɖeɖe siwo le etame zazã me
+2. Ʋu akɔnta la eye nàyi **Xɔ Ga** ƒe axaa dzi
+3. Zi nukpɔkpɔ gã si le etame ƒe ʋuƒoa dzi (**Di adrɛs bubu siwo me kɔ**). Gakotoku siwo trɔa adrɛswo, abe Ledger kple Exodus ene, naa adrɛs geɖe siwo me kɔ la tso nuku ɖeka me, eye esia kpɔa esiwo léa ga ɖe asi
+4. **Trɔ asi le akɔntabubua ŋu eye nàwɔe wòasɔ ɖe enu emegbe.** Adrɛs yeye siwo ŋu woke ɖo la xɔa woƒe ga si susɔ le scan si kplɔe ɖo me ko, eyata ne èdzo le esia dzi la, edzena abe ɖe sweep la mekpɔ naneke o ene
+5. Yi **Dɔ** ƒe axaa dzi. Àkpɔ dzesi ƒe dzesi etɔ̃ le dadasɔa gbɔ. Nuŋɔŋlɔ ƒe dzesi aɖeke mele wo ŋu o, eyata tsɔ asi alo te edzi didi be nàkpɔ woƒe ŋkɔwo:
+   - **Akpoxɔnu Ðeka** (akpoxɔnu si woɖe fia) ʋua adrɛs ɖeka si me kɔ le ɣeyiɣi ɖeka me
+   - **Shield All** (solid shield) ʋua nusianu tso adrɛs ɖesiaɖe si me kɔ la dzi zi ɖeka
+   - **Unshield All** (ʋu padlock) yi mɔ bubu dzi, yi ɖe adrɛs si me kɔ me
 
-> **Shield One nye tiatia si me ame aɖeke mele o.** Ne ètsɔ adrɛs geɖe le nu ɖeka aɖe wɔwɔ me la, ana amewo nakpɔe be amea tɔ ɖekae wonye. Zkool ŋutɔ xlɔ̃a nu tso esia ŋu hafi wòazã Shield All.
+> **Akpoxɔnu Gbãtɔ nye tiatia si ame ŋutɔ ate ŋu atia wu.** Adrɛs geɖe takpɔkpɔ le asitsatsa ɖeka me doa ka kple wo le dutoƒo be wonye ame ɖeka tɔ. Zkool xlɔ̃ nu tso esia ŋutɔ ŋu hafi ƒu du Shield All.
 
-6. Dzro nu si nèwɔ la me eye nàɖoe ɖa.
+6. Dzro asitsatsa la me eye nàɖoe ɖa
 
-Unshield All enye nu nyui aɖe ne èle ga ɖem le asitsaƒe si xɔa adrɛs siwo me kɔna ko. Ne address la nye esi dzi wotrɔ asi ɖo o, ke boŋ eƒe ŋkɔa ƒe akpa suewo koe wòɖea ɖe go eye unshield all hã ya ɖea dzesi nenye be ele eme tututu.
+Unshield All ɖea vi ne èle asi ɖem le asitsaƒe si xɔa adrɛs siwo me kɔ ko. Ne adrɛs si wokpɔ ta na akɔnta la le ko hafi akpoxɔnuawo adze, eye ne adrɛs si me kɔ le esi ko hafi Unshield All.
 
-## Ga siwo woxɔ kple Ironwood ƒe gaƒoƒoa
+## Ga si wogbugbɔ xɔ kple Ironwood ta la
 
-Esi Ironwood (NU6.3) upgrade la dze dɔwɔwɔ gɔme le 28 July 2026 dzi ta, ga yeye aɖeke mate ŋu age ɖe Orchard pool me o. Ga si li xoxoa dona to tourniquet yi Ironwood me.
+Tso esime Ironwood (NU6.3) ƒe ɖɔɖɔɖoa dze dɔwɔwɔ gɔme le 28 July 2026 dzi la, Orchard ta la nye gazazã ɖeɖeko. Asixɔxɔ yeye aɖeke mate ŋu age ɖe eme o, eye asixɔxɔ si li xoxo la dona to ʋuƒoa me yia Ironwood.
 
-Ne ga siwo nèxɔ le Orchard me la, ele be woatrɔ asie hafi wòava nɔ abe alesi wòle ene. Ʋu account menu eye nàtia **Note Migration**. Eʋɔnu sia dzena ne nane li ŋutɔŋutɔ si ŋu woaʋu ɖo ko.
+Ne wò ga si nèxɔ la le Orchard la, ahiã be woaʋu hafi awɔ nu abe alesi wòle ene. Ʋu akɔnta ƒe nyatakakadzraɖoƒea eye natia **De dzesii Ʋuʋu**. Ne nane li ŋutɔŋutɔ be woaʋu ko hafi tiatia la dzena.
 
-Eŋkɔe nye **Orchard to Ironwood Migration** eye ekpena ɖe eŋu le akpa eve me. Gbã la, eɖea agbalẽ siwo menye esi sɔ o ƒe xexlẽme dea esiwo sɔ gbɔ wu dzi, eyome etrɔa wo ɖekaɖeka yia bubui. **Migration Speed** enye slider tso Ultra Fast yi Slow si trɔa ɣeyiɣi didi aɖe ɖi na afɔɖeɖewo. **Start Migration*** wɔa nu sia le megbe kple susu be yeate ŋu ava tu axa ahagawɔ edzi emegbe. **One Shot* wɔna esia zi ɖeka pɛ ko.
+Wotsɔ ŋkɔ na screen la be **Orchard to Ironwood Migration** eye wòzɔna le akpa eve me. Gbã la, ema gagbalẽ siwo mesɔ o ɖe gagbalẽ siwo wozãna ɖaa me, emegbe eʋuʋua gagbalẽ mawo ɖekaɖeka. **Ʋuʋu ƒe Duƒuƒu** nye slider tso Ultra Fast yi Slow si ɖoa megbedede le vome le afɔɖeɖewo dome. **Dze Ʋuʋu gɔme** wɔa ɖoɖo si wowɔ ɖe ɖoɖo nu le megbe, eye àte ŋu atu axaa eye nàgadze egɔme emegbe. **One Shot** wɔa esia le pass ɖeka me.
 
-Afɔɖeɖe ɖe sia ɖe nye eƒe nuwɔwɔ, eyata wo dometɔ ɖesiaɖe xe fe.
+Afɔɖeɖe ɖesiaɖe nye eya ŋutɔ ƒe asitsatsa, eyata wo dometɔ ɖesiaɖe xea fe aɖe.
 
-> **Migation amounts are public.** Ne ga la to tourniquet dzi, eƒe home kple block height adze le chain me togbɔ be woɣla ame si ɖo eŋu ɖe edzi eye woaxɔe hã. Nume vovovo ate ŋu ana woanya wò, eyata tia migration ƒe ɖoɖowo wɔwɔ kabakaba wu ɖekawɔwɔa ko, eye bu mɔɖeɖe na wò kadodo via Tor alo VPN gbã alebe IP address manɔ te ɖe nu siwo nèʋu o.
+> **Migration amounts are public.** Ne asixɔxɔ tso turnstile la, agbɔsɔsɔme kple block ƒe kɔkɔme dzena le kɔsɔkɔsɔ dzi, togbɔ be ame si ɖoe ɖa kple amesi xɔe la nɔa akpoxɔnu me hã. Agbɔsɔsɔme vovovowo ate ŋu ade dzesi wò, eyata lɔ̃ ʋuʋu si woɖo ɖe ɖoɖo nu le duƒuƒu blewu wu tudada ɖeka, eye nàbu wò kadodoa to Tor alo VPN dzi gbã ale be wò IP adrɛs nagado ƒome kple ga home si nèʋu o.
 
-## Kɔmpiuta si wotsɔna ɖea nu me le eme to ZExCavator dzi
+## Deep Recovery kple ZExCavator
 
-[ZExCavator ƒe ŋkɔ](https://github.com/zingolabs/zexcavator) enye agbadzraɖoƒe tso Zingo Labs na afisiwo dzadzɛdzedze meɖea vi o, abe gaɖabaŋuti ƒe file si gblẽ alo eƒe akpa aɖe.
+[ZExCavator ƒe mɔ̃](https://github.com/zingolabs/zexcavator) nye dɔwɔnu si wotsɔ gbugbɔa nu tso Zingo Labs gbɔ na nɔnɔme siwo me gbugbɔgaɖoanyi si sɔ mewɔa dɔ o, abe gakotoku ƒe faɛl si gblẽ alo eƒe akpa aɖe ene.
 
-> Eƒe update mamlɛtɔ do ŋgɔ na network upgrades siwo va yi nyitsɔ laa, eyata wɔe abe mɔnu mamletɔ ene eye nàkpɔa nu sia nu si ŋu nèke ɖo le gaɖaba aɖe me la dzi hafi aka ɖe eƒe dzidzedzewo dzi.
+> Eƒe tɔtrɔ mamlɛtɔ do ŋgɔ na network ƒe tɔtrɔ yeye siwo wowɔ nyitsɔ laa, eyata bu eŋu abe mɔnu mamlɛtɔ ene eye nàɖo kpe safui ɖesiaɖe si wogakpɔ le gakotoku si wodzra ɖo me dzi hafi nàɖo ŋu ɖe emetsonua ŋu.
 
-## Ywallet megale edzi o.
+## Womegaléa be na Ywallet o
 
-Ywallet nye mɔ̃ si ŋu woƒo nu tsoe le axa sia dzi hena ɣeyiɣi didi aɖe, eye agbalẽ xoxo geɖe gakpɔtɔ fiaa asi eŋu.
+Ywallet ye nye dɔwɔnu si wokafu be woagbugbɔ axɔ le axa sia dzi ɣeyiɣi didi aɖe, eye mɔfiala xoxo geɖe gakpɔtɔ fia asi edzi.
 
-Eƒe nufialaa ɖo kpe edzi be womagaɖɔe ɖe Ironwood o. Ga si meɖo to egbe ƒe ɖoɖowo mate ŋu awɔ dɔdada siwo sɔ o, eyata womagateŋu azãe atsɔ atrɔ ga agbɔ va aƒea mee azɔ o. **Zkool** la nye ame bubu aɖe si le ŋgɔ na esia eye eyae axa sia zãna fifia.
+Eƒe dɔwɔƒe ɖo kpe edzi be womawɔ yeye na Ironwood o. Gakotoku si meda asi ɖe se siwo dzi woda asi ɖo fifia dzi o la mate ŋu atu asitsatsa siwo sɔ o, eyata womagate ŋu azãe atsɔ aʋuʋu ga siwo woxɔ la o. **Zkool**, si dɔwɔla ma ke wɔ, ye nye esi wolé be na ɖe eteƒe eye eyae nye nusi axa sia zãna fifia.
 
-Ne ga le asiwò xoxo ɖe Ywallet me la, zã afɔɖeɖe siwo dze ŋgɔ nàtsɔ agbugbɔ nuŋɔŋlɔa aɖo Zkool.
+Ne ga le asiwò xoxo si bɔbɔ nɔ Ywallet la, gbugbɔ nuku ƒe nyagbe ma ke ɖo ɖe Zkool me to afɔɖeɖe siwo le etame zazã me.
 
 ## Axa siwo do ƒome kplii
 
-- [Gbɔdzigbalẽvi siwo le ga me](/using-zcash/wallets) - Gaɖaka siwo woɖɔ ɖo kple alesi Ironwood dzraa woe.
-- [Ati si wotsɔ ga wɔ la](/zcash-tech/ironwood) - nusi tɔtrɔ si wowɔ le ŋgɔyiyi sia me kple nusita gawo ʋuna ɖo
-- [Nɔnɔmetatawo](/using-zcash/memos) - ale si nyatakaka siwo ŋu wotrɔ asi le la wɔa dɔe
-- [Kpɔ Kpuiawo](/zcash-tech/viewing-keys) - Xlẽ nu ko ƒe mɔɖeɖe le ŋusẽ zazã manɔmee
+- [Gakotokuwo](/using-zcash/wallets) - gakotoku siwo dzi wodzrana ɖo kple woƒe Ironwood dzadzraɖo
+- [Ironwood ƒe ati](/zcash-tech/ironwood) - nusi tɔtrɔa trɔ kple nusita ga ʋuna
+- [Nuŋlɔɖiwo](/using-zcash/memos) - alesi nuŋlɔɖi siwo wotsɔ nya ɣaɣlawo ŋlɔe wɔa dɔe
+- [Safuiwo Kpɔkpɔ](/zcash-tech/viewing-keys) - nuxexlẽ ɖeɖeko ƒe mɔɖeɖe mazã ŋusẽ manɔmee

@@ -2,8 +2,8 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Podcastwo
-Ne èdi be yeanya nu geɖe tso Zcash ƒe nutoa me ŋu la, podcast siwo nàte ŋu asrɔ̃e nye esiawo:
+# Podcastwo ƒe nyawo
+Àdi be yeanya nu geɖe tso Zcash ƒe lãwo ƒe agbenɔnɔ ŋua? Podcast siwo nàte ŋu akplɔ ɖo ƒe xexlẽdzesiwoe nye esi:
 
 <ul class="podcast-list grid grid-cols-1 imd:grid-cols-2 md:grid-cols-3 gap-6">
 <li>
@@ -37,5 +37,5 @@ Ne èdi be yeanya nu geɖe tso Zcash ƒe nutoa me ŋu la, podcast siwo nàte ŋu
 </li>
 </ul>
 
-Ðe podcast nyui aɖe to mía sia? [Discord](https://discord.gg/zcash) eye míatsɔe akpe ɖe eŋu.
+Ðe podcast nyui aɖe to mía ŋua? Te ɖe mía ŋu le [Masɔmasɔ](https://discord.gg/zcash) eye míatsɔe akpe ɖe xexlẽdzesiawo ŋu.
 

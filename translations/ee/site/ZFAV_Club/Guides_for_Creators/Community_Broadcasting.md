@@ -2,96 +2,96 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Community Broadcasting to VDO.Ninja kple OBS Studio dzi
+# Nutoa me Gbeƒãɖeɖe to VDO.Ninja kple OBS Studio zazã me
 
-Wowɔ nufiafiamenu kpui sia le ƒea me. [DWeb-asaɖa 2023](https://dwebcamp.org/) Dɔ sia ƒe taɖodzinu enye be woazã asitelefon siwo le internet dzi si wotsɔ ƒo ka kple MESH-ha la atsɔ awɔ videowo.
+Wowɔ nufiame kpui sia le ƒe... [DWeb Asaɖa 2023 me](https://dwebcamp.org/) to hatiwo kple lɔlɔ̃nu faa dɔwɔlawo ƒe ƒuƒoƒo aɖe dzi. Taɖodzinu si le dɔ sia ŋue nye be woawɔ viɖe tso smart phone dɔwɔnu siwo do ƒome kple offline MESH network zazã me hena video léle ɖe mɔ̃ dzi kple eɖeɖe ɖe go le nuwɔwɔ aduadu me.
 
-Míezãa kɔmpiutaɖoɖo eve siwo dzi nyatakakadzraɖoƒe le. [OBS Studio (Aʋeƒomɔ̃ ƒe kɔmpiutaɖoɖo)](https://obsproject.com/) kple [VDO.Ninja](https://vdo.ninja/)Woate ŋu aɖe kɔmpiutaɖoɖo siawo le wò ŋutɔ wò asitelefon dzi.
+Míezãa kɔmpiutadziɖoɖo eve siwo ŋu woate ŋu awɔ dɔ le [OBS Studio (Open Broadcaster ƒe kɔmpiutadziɖoɖo) .](https://obsproject.com/) kple [VDO.Ninja](https://vdo.ninja/). Woate ŋu awɔ kɔmpiutadziɖoɖo siawo ƒe kɔpi ahawɔ dɔ le wò kɔmpiuta dzi le mia gbɔ.
 
-## OBS Studio (Aʋatɔa ƒe Kɔmpiutaɖoɖo)
+## OBS Studio (Ʋu Boardcaster ƒe kɔmpiutadziɖoɖo) .
 
-OBS Studio nye femaxee kple Open source software na nuŋlɔɖi kple live streaming si li le dɔwɔɖoɖo geɖe dzi. Woɖe mɔ̃ɖaŋunuawo ɖe go zi gbãtɔ le ƒe 2012 me eye woxɔ ŋkɔ ŋutɔ le game stream community la kpakple video content wɔlawo dome .
+OBS Studio nye Free and Open source software hena nuŋɔŋlɔ kple live streaming si li na dɔwɔɖoɖo geɖewo. Woɖe kɔmpiutadziɖoɖoa ɖe go zi gbãtɔ le ƒe 2012 me eye ame geɖe ŋutɔ kplɔnɛ ɖo le fefewɔƒewo kple video me nyatakakawo wɔlawo siwo le wo ɖokui si dome.
 
-OBS Studio ƒe user interfaces ate ŋu adze nu sesẽ na ame siwo zãa wo zi gbãtɔ. Eƒo eƒe studio la ɖe fesre eve me "Preview" kple "Broadcast". Fesrea si nye preview fia videowo (video vovovowo abe webcam, Iriun Webcam, OBS Virtual Camera, Video and Browser source) le ŋkɔme be "Scenes", eye "B broadcast" hã ɖea live stream fiana.
+OBS Studio ƒe zãlawo ƒe ŋgɔdonyawo ate ŋu adze nu dziŋɔ ŋutɔ na zi gbãtɔ si zãlawo. OBS studio la ma ɖe fesre eve me "Preview" kple "Broadcast". Do ŋgɔ ƒe fesrea ɖea video siwo li (fomera vovovowo abe webcam, Iriun Webcam, OBS Virtual Camera, Video kple Browser dzɔtsoƒe) si woyɔna be "Scenes" fiana eye "Broadcast" ɖea live stream fiana.
 
-Be nàna videowo tso VDO.ninja gbɔ ayi OBS Studio me la, àte ŋu adze egɔme kple "Browser Source" yeye si nye "Sources > Add> Browser". Le fesre yeyea me la àteŋu ana URL siwo le vdo.Ninja ƒe ŋkɔ eye nàtiae be "Make source visible".
+Be nàte ŋu atso didiƒe fotoɖemɔ̃ ƒe sisi tso VDO.ninja me ayi OBS Studio me la, èdzea egɔme kple "Browser Source" yeye tsɔtsɔ kpee kple "Sources > Add > Browser". Le fesre yeyea me la, àteŋu ana dzɔtsoƒe URL tso VDO.Ninja eye nàtia "Na dzɔtsoƒe nadze".
 
-Fifia miate ŋu adze nuƒomɔ̃ siwo le adzɔge la ɖoɖo gɔme.
+Fifia àte ŋu adze adzɔge tɔsisiawo kaka gɔme azɔ.
 
 ## VDO.Ninja
 
-[VDO.Ninja](https://vdo.ninja/) enye Free kple Open Source web application si ana miatrɔ miaƒe mobile devices ɖe live streaming camera me. software la ate ŋu adze mia local computer dzi alo àteŋu azã app sia tẽe le internet dzi, eye wòateŋu akpe ɖe ŋuwò nàkpɔ video siwo nèdi be yeakpɔ tso Internet dzi ne èle wo zãm ko. [Internet dzi nɔnɔmetata le: https://vdo.ninja](https://vdo.ninja/).
+[VDO.Ninja](https://vdo.ninja/) nye nyatakakadzraɖoƒe ƒe dɔwɔnu si woate ŋu azã Femaxee eye wòʋu ɖi si ana nàte ŋu atrɔ wò asitelefonwo woazu fotoɖemɔ̃ si woɖena fiana le agbe me. Woate ŋu awɔ kɔmpiutadziɖoɖoa ƒe kɔpi ahatsɔe ade kɔmpiuta si le mia gbɔ dzi alo àte ŋu azã... [internet dzi tɔ le https://vdo.ninja](https://vdo.ninja/).
 
-VOD.Ninja ƒe nuƒomɔ la le bɔbɔe, ʋu VDO.Ninya ko ɖe wò asitelefonwo dzi eye nàtia "Add your camera to OBS". Emegbe àte ŋu atia fotoɖemɔ̃ kple gbeɖiɖiwɔmɔnu tso dɔwɔnuwo me ahaƒo ka na "Start" (Ðe asi ɖa). Eyome àkpɔ kadodo si nye "view", si nàte ŋu atsɔ akpe ɖe OBS Studio ŋu.
+VOD.Ninja ƒe ŋgɔdonya le bɔbɔe, ɖeko nàʋu VDO.Ninja le wò asitelefonwo ƒe nyatakakadzraɖoƒe eye nàtia "Tsɔ wò fotoɖemɔ̃ kpe ɖe OBS ŋu". Emegbe àtia wò fotoɖemɔ̃ kple odiomɔ̃ tso mɔ̃awo ƒe xexlẽdzesiwo me eye nàzi "Dze egɔme" dzi.  Emegbe àkpɔ "kpɔ" kadodo si ateŋu atsɔ akpe ɖe OBS Studio ŋu.
 
-## Ƒome ƒe kadodo kple VDO.Ninja
+## Mɔfiame na nutoa me yɔyɔ kple VDO.Ninja
 
-Dze egɔme kple alesi nàyi: [VDO.ninja (Ninja) ƒe ŋkɔwo:](http://VDO.ninja) le wò Internet nyatakakadzraɖoƒe dzi.
+Dze egɔme kple yiyi ɖe... [VDO.ninja](http://VDO.ninja) kple wò web browser le kɔmpiuta/kɔmpiuta dzi.
 
 <a href="">
     <img src="/content-images/_unavailable.svg" alt="" width="300" height="400"/>
 </a>
 
 
-Ne èdi be yeawɔ xɔ yeye eye yeaɖo wò ŋutɔ ƒe kɔmitia me yɔyɔwo ɖe go la, zi Create a Room dzi.
+Ne èdi be yeawɔ xɔ yeye eye nàfia mɔ wò ŋutɔ wò nutoa me kaƒoƒo le livestream la, zi Create a Room dzi.
 
-Nyatakaka vevi siwo akpe ɖe ŋuwò nàɖo wò xɔa gɔme la anɔ afi si kplɔe ɖo.
-
-<a href="">
-    <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
-</a>
-
-Ne woɖo xɔ aɖe anyi vɔ la, mɔfianu geɖe li si dzi ame ate ŋu ato akpɔ egbɔ le nɔnɔmetata siwo gbɔna me.
+Screen si kplɔe ɖo abia nyatakaka vevi siwo nàtsɔ aɖo wò xɔae.
 
 <a href="">
     <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
 </a>
 
+Ne wonya wɔ xɔ aɖe ko la, tiatia geɖe le nufialagã la si be wòakpɔ edzi le screen si gbɔna dzi.
 
-Ne amewo ge ɖe wò xɔ me la, ekema wò amesi nye dɔdzikpɔlaa akpɔe be video kple gbeɖiɖi ƒe mɔfianuwo katã le dzedzem.
+<a href="">
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
+</a>
+
+
+Ne amewo va kpe ɖe wò xɔ ŋu la ekema wò, dɔdzikpɔla, akpɔ dzɔtsoƒe ƒe tiatia kple dziɖunuwo katã adze kple woƒe video kple odio.
 
 <a href="">
     <img src="/content-images/_unavailable.svg" alt="" width="400" height="300"/>
 </a>
 
 
-## Nya Siwo Amewo Biana Edziedzi
+## Nyabiasewo ƒe Nyabiasewo
 
-- Video-ɖemɔ̃ kawo ƒomevi hiã le OBS Studio ŋu?
+- Video graphic card ƒomevi kawoe hiã na OBS Studio ?
 
-Àte ŋu azã kɔmpiuta si me nɔnɔmetataɖaka nyui le kple esi dzi nyatakakadzraɖoƒe geɖe le alo àte ŋu awɔ dɔwɔnu siwo wotsɔ wɔa nuŋɔŋlɔ la ŋudɔ hã [Teradek VidiU](https://www.bhphotovideo.com/c/product/1609186-REG/teradek_10_0235_vidiu_x_modem.html?gclid=EAIaIQobChMIl4aIo7zX_wIVDhqtBh0PgwhxEAAYAiAAEgInufD_BwE)
-- Ðe OBS ɖea mɔ na wò be nàɖe nyawo gɔme kple nya siwo le etea?
+Àte ŋu azã wò ŋutɔ wò kɔmpiuta si me graphic card nyui le eye ŋkuɖodzinu geɖe le alo le mɔ bubu nu la, àte ŋu azã hardware encoders [Teradek ƒe VidiU](https://www.bhphotovideo.com/c/product/1609186-REG/teradek_10_0235_vidiu_x_modem.html?gclid=EAIaIQobChMIl4aIo7zX_wIVDhqtBh0PgwhxEAAYAiAAEgInufD_BwE)
+- Ðe OBS ɖe mɔ na wò be nàwɔ gbegɔmeɖeɖe le agbe me kple nyawo ƒe nuŋɔŋlɔa?
 
-Plugin aɖewo li siwo amewo tsɔ ɖo dɔe si me wokpɔa nɔnɔme sia le. [https://github.com/eddieoz/OBS-live-translation](https://github.com/eddieoz/OBS-live-translation)
+Plugin aɖewo li siwo nutoa me tɔwo kpe asi ɖe eŋu siwo dze abe ɖe wole nɔnɔme ma tɔgbe nam ene. [https://github.com/eddieoz/OBS-live-translation](https://github.com/eddieoz/OBS-live-translation)
 
-- Àte ŋu awɔ wò ŋutɔ ƒe pluginswo na OBS Studio?
+- Àte ŋu awɔ wò ŋutɔ wò plugins na OBS Studio?
 
-Ẽ, OBS de lua kple python scripting dzi. JavaScript hã le eme na Overlaywo kpakple webviews.
+Ẽ, OBS le kpekpeɖeŋu lua, python ŋɔŋlɔdzesiwo. JavaScript hã na Overlays kple webviews.
 
-- Ðe míezãa vivimeŋutete si dzi wotrɔa asi le be wòava zu yibɔ alo tɔtrɔ siwo wowɔna?
+- Ðe míezãa live fade yi black alo transitions?
 
-Wòe atso nya me, wò amesi nye dɔa wɔla!
+Wò, nuwɔla la ŋutɔ gbɔe wòtso!
 
-- Ðe ɣeyiɣi si nèzãna le wò videowo me la nɔa anyi didina?
+- Ðe latency aɖe li ne èle streaming wɔma?
 
-Esia nɔ te ɖe afisi nèle mɔ zɔm yina dzi. Le kpɔɖeŋu me, YouTube ate ŋu atsi megbe miniti ɖeka alo esi wu nenema le videowo ƒe dɔwɔwɔ si wowɔna na wo serverwo hafi wova ƒoa sa la ta.
+Esia nɔ te ɖe teƒe si yim nèle yi afisi nèle streaming wɔm le dzi koŋ. Le kpɔɖeŋu me, YouTube ate ŋu ahe ɖe megbe aɖabaƒoƒo ɖeka alo esi wu nenema le video ŋuti dɔwɔwɔ si wowɔna le woƒe serverwo dzi hafi woɖea gbeƒãe ta.
 
-- Gbe dzi ɖena le ne wole OBS zãm kple mɔ̃ si ƒe dɔwɔwɔ nu sẽ eye wòle dzadzɛtɔ dom ɖe anyi la me.
+- Odio dzi ɖena kpɔtɔna ne èle OBS zãm le slow machine dzi kple ne èle green-screening wɔm
 
-Zã mɔ̃ɖaŋunu siwo dzi woazã kɔmpiutawo le alo zãa nu si me wolɔ̃na tsɔ wɔa dɔe la.
-[https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard](https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard) or [RiverSide.FM ƒe akpa aɖe](http://riverside.fm/)
+Zã Hardware encoder alo zã stream yard
+[https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard](https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard) or [Tɔsisi ƒe Akpa.FM](http://riverside.fm/)
 
-## Nu siwo ŋu woda asi ɖo
+## Kafukafunyawo
 
-- Ryan, ènya?
-- Ajay, èle agbe le afi sia.
-- Arky
+- Ryan ƒe ŋkɔ
+- Ajay ƒe nya
+- Arky ƒe ŋkɔ
 
-## Ganyawo ƒe Kpekpeɖeŋu
+## Nunɔamesiwo
 
 [https://obsproject.com/help](https://obsproject.com/help)
 
 [https://docs.vdo.ninja/](https://docs.vdo.ninja/)
 
-Dɔwɔƒe Ƒe Gaƒoƒowo: Nyadzɔdzɔgblɔmɔnuwo kple nyatakakadzraɖoƒe siwo dzi wowɔa numekuku le la me tɔwo.
+Ɔfis Gaƒoƒo: Nyadzɔdzɔgblɔmɔnuwo kple dijitaal wɔnawo ƒe habɔbɔ
 [https://alex4d.com/notes/item/media-and-digital-event-community](https://alex4d.com/notes/item/media-and-digital-event-community)

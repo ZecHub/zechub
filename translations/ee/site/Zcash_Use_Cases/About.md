@@ -1,50 +1,50 @@
-# Zã Zcash le Xexeame Vavã me
+# Zã Zcash le Xexeme Nyateƒetɔ me
 
-Menye nu siwo le ɣaɣla ɖe Zcash ŋu koe nye eƒe susu o, ke boŋ enye ga si míezãna gbe sia gbe tsɔ kpɔa mía ɖokui ta.
+Zcash menye ame ŋutɔ ƒe nyawo ɖeɖeko ŋue wòku ɖo le susu me o — eƒo nu tso **ganyawo ƒe ablɔɖe ŋutɔŋutɔ, gbesiagbe** ŋu.
 
-Akpa sia fia alesi tututu nàzã Zcash le agbenɔnɔ ŋutɔŋutɔ me la wò, eye woafia mɔa na wò to afɔɖeɖewo kple mɔnu nyuitɔ dzi.
+Akpa sia fia wò **alesi tututu nàzã Zcash le agbeme nɔnɔme ŋutɔŋutɔwo me**, kple afɔɖeɖe ɖesiaɖe ƒe mɔfiamewo kple nuwɔna nyuitɔwo.
 
-## Nusi Nàsrɔ̃
+## Nusiwo Nàsrɔ̃
 
-- Alesi nàkpɔ wò ganyawo ta le adzame
-- Ale si nàƒo asa na vodada siwo amewo wɔna zi geɖe be woagblẽ wò nyatakakawo me la
-- Alesi woazã Zcash le xexeame ŋutɔŋutɔ ƒe nɔnɔmewo me
+- Ale si nàkpɔ wò ganyawo ŋuti nyatakakawo ta
+- Alesi nàwɔ aƒo asa na vodada siwo bɔ siwo ɖea wò nyatakakawo ɖe go
+- Alesi woawɔ Zcash ŋudɔ le xexeame ŋutɔŋutɔ ƒe nɔnɔmewo me
 
-## Alesi Woazã Mɔfiagbalẽ Siawoe
+## Ale Si Nàzã Mɔfiame Siawo
 
-Wo dometɔ ɖesiaɖe ƒe dɔdeasiwoe nye:
-- Kpuie (5-7 min.)
-- Afɔɖeɖewo ƒe ɖoɖowɔɖi si le ŋgɔ la me.
-- Etsɔ ɖe le xexeme ŋutɔŋutɔ me nyawo ŋu. 
-
-
-Ne ènye ame yeye la, dze egɔme tso afi sia: [Nukae nye Zcash?](/start-here/what-is-zec-and-zcash)
+Fefegbalẽ ɖesiaɖee nye:
+- Kpuie (aɖabaƒoƒo 5-7) .
+- Afɔɖeɖe ɖesiaɖe
+- Woƒe susu nɔ xexeame ŋutɔŋutɔ ŋu 
 
 
-##  Mɔ si ŋu woxlɔ̃ nu le
-
-Follow this step-by-step journey to master real-world Zcash usage:
-
-###  [Xɔ Nunanawo le Ame Ŋutɔ Si Me](/zcash-use-cases/receive-donations-privately)
-Srɔ̃ ale si nàxɔ ga evɔ màgblɔ ame siwo nènye alo wò ganyawo o.
+Ne ènye ame yeye la, ke dze egɔme tso afisia: [Nukae nye Zcash](/start-here/what-is-zec-and-zcash)
 
 
-###  [Ðo Ga Le Ame Ŋutɔŋutɔ Dometɔmanɔmee](/zcash-use-cases/send-money-without-linking-identity) 
-Mègaɖe wò gaɖaka, ame si nènye alo nu siwo nèwɔ tsɔ ɖo dɔe la fia ne èle gakpekpeɖeŋu ɖom ɖa o.
+##  Mɔ si Wokafu
+
+Wɔ ɖe afɔɖeɖe ɖesiaɖe ƒe mɔzɔzɔ sia dzi be nàbi ɖe xexeame ŋutɔŋutɔ ƒe Zcash zazã me:
+
+###  [Xɔ Nudzɔdzɔwo Le Adzame](/zcash-use-cases/receive-donations-privately)
+Srɔ̃ alesi nàxɔ ga evɔ màɖe wò amenyenye alo ganyawo ŋuti ŋutinya ɖe go o.
 
 
-###  [Freelancer ƒe Nyatakakawo Ŋuti Ðoɖowɔƒe](/zcash-use-cases/freelance-privacy-setup)
-Woxe fe na wò le Zcash me eye mègaɖe gbeƒã ame aɖeke o.
+###  [Ðo Ga Ðo Ðe Ame Ŋu Matsɔ Kadodo Dzesidede Ame Ŋu O](/zcash-use-cases/send-money-without-linking-identity) 
+Ƒo asa na wò gakotoku, amenyenye, alo asitsatsa ƒe nɔnɔmetata ɖeɖefia ne èle ga ɖom ɖa.
 
 
-###  [Xɔ Fetuwo abe Asitsala Ene](/zcash-use-cases/accept-payments-as-a-merchant)
-Xɔxefewo to adrɛs si ŋu wotrɔ asi le dzi eye nàƒo asa na asitsalawo ƒe nuƒle ŋuti nyatakaka ɖeɖe ɖe go
+###  [Freelancer ƒe Nyatakakawo Ŋuti Ðoɖowɔwɔ](/zcash-use-cases/freelance-privacy-setup)
+Xɔ fetu le Zcash me esime nèle wò asisiwo kple gakpɔkpɔ me tom.
 
 
-###  [Ƒomevi Siwo Le Wo Nɔewo Ƒe Gaxɔ Me ƒe Dɔ Wɔwɔ](/zcash-use-cases/private-community-treasury)
-Zã adrɛs siwo ŋu wotrɔ asi le be woatsɔ alé ga si amewo katã zãna ɖe te eye nàxe mɔ na asitsatsa kple nu bubuwo ƒe dzedzeme.
+###  [Xɔ Fexexewo Abe Asitsala ene](/zcash-use-cases/accept-payments-as-a-merchant)
+Xɔ fexexe to adrɛs si wokpɔ ta na zazã me eye nàƒo asa na asisiwo ƒe asitsatsa ŋuti nyatakakawo ɖeɖe ɖe go
 
-###  [Nyadzɔdzɔgblɔlawo ƒe Nyawo Ŋuti Kɔpiwɔwɔe](/zcash-use-cases/journalist-privacy-setup)   
-Zã adrɛs siwo ŋu wotrɔ asi le nyuie na nu sia nu wɔwɔ eye nàkpɔ afisiwo nètso ta to alesi màwɔ ga si woate ŋu ake ɖe eŋu o la dzi. Wɔ memoawo ŋudɔ nyuie hena kadodo dediewɔwɔ kple amewo
+
+###  [Dzra Nutoa me Gaxɔdzikpɔƒe si nye Ame ŋutɔ tɔ dzi](/zcash-use-cases/private-community-treasury)
+Zã adrɛs siwo ŋu wokpɔ ta na nàtsɔ alé ga siwo woama la ɖe asi eye nàɖo seɖoƒe na ga si susɔ kple asitsatsa ƒe dzedzeme
+
+###  [Nyadzɔdzɔŋlɔlawo ƒe Nyatakakawo Ŋuti Ðoɖowɔwɔ](/zcash-use-cases/journalist-privacy-setup)   
+Zã adrɛs siwo ŋu wokpɔ ta na le asitsatsa katã me eye nàkpɔ dzɔtsoƒewo ta to asaƒoƒo na fexexe si ŋu woate ŋu ake ɖo me. Zã nuŋlɔɖiwo nyuie hena kadodo dedie
 
 <br/>

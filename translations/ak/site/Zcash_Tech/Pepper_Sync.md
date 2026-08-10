@@ -2,153 +2,153 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zingo 2.0 - Pepper Sync (Nneɛma a ɛwɔ hɔ ma wo)
+# Zingo 2.0 - Ɛmo a wɔde yɛ Sync
 
 ## TL;DR
 
-* Pepper Sync is the synchronization engine introduced in Zingo! 2.0, the open-source Zcash wallet built by Zingo Labs.
-* Ɛde ne ho to hɔ wɔ ɔkwan a ɛnyɛ tee so sen sɛ wobɛyɛ kyinhyia no nketenkete, enti wo sika ne nneɛma foforo nyinaa bɛdu ntɛmntɛm.
-* Progress is saved continuously. If the connection drops or the app closes, syncing resumes from where it stopped rather than restarting.
-* Wubetumi atotɔ ansa na woayɛ no pɛpɛɛpɛ.
-* Adwuma a wɔabɔ ho ban no yɛ kokoam adwuma bere nyinaa.
+* Pepper Sync yɛ synchronization engine a wɔde aba Zingo mu! 2.0, Zcash sika kotoku a wɔabue ano a Zingo Labs ayɛ.
+* Ɛde non-linear synchronization di dwuma sen sɛ ɛbɛhwehwɛ nkɔnsɔnkɔnsɔn no mu wɔ asinasin akɛse a ɛtoatoa so, enti wo sika a aka ne nkitahodi ahorow no da adi ntɛm koraa.
+* Wɔkora nkɔso so bere nyinaa. Sɛ nkitahodi no gyae anaasɛ app no ​​to mu a, syncing no san fi ase fi baabi a egyinae sen sɛ ɛbɛsan afi ase bio.
+* Wubetumi asɛe sika ansa na synchronization no awie.
+* Nkitahodi a wɔabɔ ho ban no da so ara yɛ kokoam wɔ adeyɛ no nyinaa mu.
 
-## Nkyerεkyerεmu Titiriw
+## Nkyerɛkyerɛmu Titiriw
 
-Zingo 2.0 is the latest version of the Zingo! wallet, a lightweight, open-source wallet built for the Zcash community. The star of this release is Pepper Sync, a major upgrade that completely rethinks how wallets connect with the blockchain.
+Zingo 2.0 yɛ Zingo no fã a aba foforo! wallet, sika kotoku a emu yɛ hare, a wɔabue ano a wɔasi ama Zcash mpɔtam hɔfo. Nsoromma a ɛwɔ saa yi a wɔayi no adi yi mu ne Pepper Sync, nkɔso kɛse a ɛsan susuw sɛnea sika kotoku ne blockchain no di nkitaho no ho koraa.
 
-Tete no, sɛ wo di syncing a na ɛyɛ mmerɛ dodo, mfomsoɔ yɛ den, ne resource-heavy ma ɛtɔ mmere bi a ɛhia sɛ wosane firi aseɛ. Pepper Sync sesa saa nneɛma yi nyinaa. Ɛma syncing yɛ ntɛmntɛm, bɔkɔɔ, gyidie wɔ mu, na ɛnyɛ adwuma pii w'afedie so, bere koro no ara nso ɛma wotumi hwɛ tratract ho nsɛm yiye.
+Bere bi a atwam no, na syncing betumi ate nka sɛ ɛyɛ brɛoo wɔ ɔkwan a ɛyɛ yaw so, ɛyɛ nea mfomso taa yɛ, na ɛyɛ nea ɛho hia kɛse, na ɛtɔ mmere bi a ɛhyɛ wɔn a wɔde di dwuma no ma wɔsan fi ase fi mfiase. Pepper Sync sesa saa nneɛma no nyinaa. Ɛma syncing yɛ ntɛmntɛm, ɛyɛ mmerɛw, wotumi de ho to so, na ɛnyɛ den pii wɔ wo device no so, bere a ɛkora kokoam nsɛm a wɔabɔ ho ban no so koraa.
 
-Sɛ woyɛ obi a woadi kan asɔ Zcash ahwɛ, anaa w'ayɛ nipa dedaw bi na wode wallet bebree di dwuma no, Pepper Sync ma adwuma yi yɛ yie paa.
+Sɛ́ ebia woyɛ ɔdefo foforo koraa a woresɔ Zcash ahwɛ nea edi kan, anaasɛ mpɔtam hɔni a wode bere tenten ahwɛ sika kotoku pii a wɔabɔ ho ban so no, Pepper Sync ma osuahu no yɛ nea mfaso wɔ so na ɛyɛ anigye kɛse.
 
-### Pepper Sync mfoni no mu nsɛntitiriw
+### Nneɛma atitiriw a ɛwɔ Pepper Sync mu
 
-Pepper Sync de nkɔsoɔ bebree aba:
+Pepper Sync de nkɔso pii ba:
 
-- Nkrataafa a Ɛwɔ Ntɛm - Wo sika krataa no bɛyɛ krado wɔ simma kakraa bi mu, ɛnyɛ nnɔnhwerew.
-- Akwankyerԑ a' ԑfata - Wɔyε nkrataa no mu kͻkͻso, na wכn pεεsε sε wobesane ahwehwε bio.
-- Sɛ wo connection no to a, syncing bɛtoa so wɔ baabi a egyaee.
-- Ne mu yɛ hare na ne ho nni asɛm - Wɔayɛ no ma fon, kɔmputa nkenkan so, ne mfiri foforo a emu ahoɔden sua.
-- Nkyerɛkyerɛmu a emu da hɔ - Bere-amannɔne mu nkɔso ho nsɛm foforo ma nneɛma nhyia.
-- Ahintasɛm-Ahwɛfoɔ - Akwan a wɔfa so di dwuma no yɛ kokoam adwuma bere nyinaa.
+- Much Faster Syncing - Wo sika kotoku no ayɛ krado wɔ simma kakraa bi mu, ɛnyɛ nnɔnhwerew kakraa bi mu.
+- Smart Updates - Wɔyɛ data ho adwuma wɔ nketenkete mu, kwati rescans a edi mũ.
+- Resilient to Interruptions - Sɛ wo nkitahodi no kɔ fam a, syncing san fi ase wɔ baabi a egyaee no.
+- Lightweight & Efficient - Wɔayɛ no yiye ama fon, laptop, ne mfiri afoforo a ahoɔden sua.
+- Clearer Feedback - Bere ankasa mu nkɔso foforo brɛ adwene mu naayɛ ase.
+- Privacy-Preserving - Nkitahodi a wɔabɔ ho ban no kɔ so yɛ kokoam wɔ adeyɛ no nyinaa mu.
 
-### Nea ɛyɛ papa sen kan no
+### Dɛn na eye sen kan no
 
-Zingo nsεm a wͻtaa de di dwuma dada no taa ma nnipa nya ahoyeraw esiane bere tenten, mfomso ho nsɛnkyerɛne ne nnwumakuo pii fa mu. Pepper Sync siesie saa ɔhaw ahorow yi:
+Zingo dedaw no taa ma wɔn a wɔde di dwuma no abam bu denam bere tenten a wɔde yɛ synch, mfomso a wɔde di dwuma a emu nna hɔ, ne nneɛma a wɔde di dwuma kɛse so. Pepper Sync siesie nsɛm a ɛtaa ba yi:
 
-¢kyerÉ›ma: Zingo nsesae a atwam no. Zingo 2.0 wÉ" Pepper Sync so, yÉ›de bÉ'ne wo adi nkyerÉ›w sÉ› wode di dwuma yiye ama ne ho afonofo bi abere biara na watumi de asensεm yi ano É-E1⁄2rÉ› afa nsem anaa kasa foforo mu.
+| Feature a ɛwɔ | Zingo Nkyerɛase ahorow a atwam | Zingo 2.0 ne Ɛmo Sync |
 | ------------------ | -------------------------------------- | -------------------------------------------- |
-Sync Speed. Slow, especially on first setup. Much faster initial and ongoing sync. (Sync speed) slow, especially at the first set up. much quicker initial and continuous sync (Initial and ongoed sync). slower, especially in first set-up. much faster Initial and continued sync
- Error Handling. Ɛtɔ da bi a, nneɛma kɔ yiye na emu nso ankɔ yie koraa. YƐde pɛsɛmenkomenya ma no yɛ adwuma ntɛmntɛm.
-Ԑwͻ sε w'afidie no yε nea εnyε "nehyεε" ma wɔn a wɔaba foforo. Ɛwɔ ahobanbɔ, ne tebea mu da hɔ na nsesaeԑ biara nni ho.
- Device Performance. High CPU/memory usage. Optimized for smooth resource use.
+| Sync Ahoɔhare | Slower, titiriw wɔ nhyehyɛe a edi kan | Pii ntɛmntɛm mfiase ne kɔ so sync |
+| Mfomso a Wɔde Di Dwuma | Bere ne bere mu stalls ne huammɔdi a emu nna hɔ | Ntu mpɔn a ɛma wotumi gyina pintinn a automatic recovery |
+| Osuahu a Wɔde Di Dwuma | Sync tee nka sɛ "opaque" ma wɔn a wɔaba foforo | Transparent, a ɛwɔ tebea ne updates a emu da hɔ |
+| Mfiri no Adwumayɛ | CPU/memory dwumadie a ɛkorɔn | Wɔayɛ no yiye ama nneɛma a wɔde di dwuma yiye |
 
-Ne tiawa mu no: mprempren, syncing yɛ ntɛmntɛm, ɛyɛ nea wotumi de ho to so kɛse na ntease wom.
+Ne tiawa mu no: seesei syncing yɛ ntɛmntɛm, wotumi de ho to so, na ɛnyɛ den sɛ wobɛte ase.
 
-## Adwene a wohwɛ mu / Sɛnsεm
+## Aniwa so / Nsɛso
 
-Think of an older wallet sync like reading a very long book from page one, out loud, before you are allowed to say anything about it. Stop halfway, and you start again from page one. Pepper Sync reads the same book, but it keeps a bookmark, reads the chapters that matter to you first, and lets you talk about the story before you have finished the last page.
+Susuw wallet sync dedaw bi te sɛ nhoma tenten paa a wobɛkenkan afi kratafa biako, denden, ansa na wɔama wo kwan ma woaka ho asɛm biara. Gyina fã, na wufi ase bio fi kratafa a edi kan. Pepper Sync kenkan nhoma koro no ara, nanso ɛkora nhoma agyiraehyɛde so, ɛkenkan ti ahorow a ɛho hia wo no kan, na ɛma woka asɛm no ho asɛm ansa na woawie kratafa a etwa to no.
 
-Nhyehyɛeɛ a edi kan no nyinaa bu nsɛm mu nsakrae bi sɛ ɛyɛ adwuma hunu; Pepper Sync de yɛ biribi te sɛ ɔhome.
+Bookmark no ne ɔfã a ɛho hia. Nkyerɛase biara a atwam no buu sync a wɔatwa mu sɛ adwuma a wɔasɛe no; Pepper Sync di ho dwuma sɛ home a wɔde gyina hɔ.
 
-### Adwelielilɛ nwo adehilelɛ
+### Akwankyerɛ ahorow a wɔde aniwa hu
 
-- Detailed Flow - Ɛkyerɛ adwuma no nyinaa. ![Detailed Flow](https://github.com/user-attachments/assets/119c13ec-76be-42bd-b558-762d09275a1b)
+- Detailed Flow - Kyerɛ adeyɛ no nyinaa. ![Detailed Flow](https://github.com/user-attachments/assets/119c13ec-76be-42bd-b558-762d09275a1b)
 
-- Simplified Flow - Hwε ma daa wͻn a w'ɔde di dwuma no. ![Simplified Flow](https://github.com/user-attachments/assets/9b612cbd-f24d-4472-9b87-0f2c908bb368)
+- Simplified Flow - Ntɛmntɛm hwɛ ma wɔn a wɔde di dwuma da biara da. ![Simplified Flow](https://github.com/user-attachments/assets/9b612cbd-f24d-4472-9b87-0f2c908bb368)
 
-## Fa Wo Ho Hyɛ Ahonya Mu Kɔɔ Firi Ase
+## Deep Dive a Wɔde Nsu Gu Mu
 
-### Sɛnea Pepper Sync yɛ adwuma (ɔkwan a ɛnyɛ den)
+### Sɛnea Pepper Sync yɛ adwuma (hwɛ a ɛnyɛ den) .
 
-Sɛ anka wobɛyɛ blockchain no mu nhwehwɛmu bio wɔ afã akɛseɛ a emu yɛ duru so no, Pepper Sync di dwuma nketenkete bi mu - bere nyinaa na ɛkora wo baabi.
+Sɛ́ anka Pepper Sync bɛsan ahwehwɛ blockchain no mu asinasin akɛse a ɛyɛ mmerɛw no, ɛyɛ adwuma wɔ anammɔn nketenkete a wotumi di ho dwuma mu —bere nyinaa ɛkora wo beae bere a ɛkɔ so no.
 
-1. Fa wo ho bɔ - Kuro no di dwuma wɔ network mu.
-2. Fetch Blocks - Wɔtwe data no so nkakrankakra.
-3. Verify - Nkrataa a wɔde di dwuma no yɛ nea wɔagye ato mu.
-4. Hyɛ nsɛm a wɔabɔ ho ban no so - Fa w'ankasa wo nsɛm sie bere nyinaa.
-5. Ntua no ho nketenkete - Akatabo no yɛ adwuma yiye.
-6. Fa nkɔanim kora - Gyae na fa so yɛ adwuma yiye.
-7. Di awieɛ - Adaka no ayɛ krado sɛ wobɛyɛ adwuma.
+1. Connect - Wallet hwɛ mu wɔ network no mu.
+2. Fetch Blocks - Wɔtwe data no nkakrankakra.
+3. Verify - Nkitahodi no agye atom.
+4. Handle Shielded Notes - Wɔakora kokoam nsɛm so bere nyinaa.
+5. Update Balances - Wallet no yɛ foforo yiye.
+6. Save Progress - Gyina na ɛsan fi ase a ɛnyɛ den.
+7. Finish - Wallet ayɛ krado sɛ wobɛdi ho dwuma.
 
-## Nea Ɛfa Ho a Ɛbɛboa Wo Wɔ Asetram
+## Nkyerɛkyerɛmu a mfaso wɔ so
 
 ### Henanom na wonya Pepper Sync so mfaso?
 
-- New Users - Wobɛtumi asiesie sika nkotoku ntɛmntɛm a wontwentwɛn wɔn nan ase.
-- Da biara Users - Syncing a w'atumi de ho ato so ma ntotosoɔ dudu no yɛ nea mfaso wɔ so sɛ wode di dwuma daa.
-- Developers & Testers - Sync mmere a ɛyɛ tiawa kyerɛ sɛ wɔsɔ hwɛ ntɛmntɛm.
-- Mobile & Light Devices - Zingo seesei yɛ adwuma yie mpo wɔ hardware a wɔn tumi so nni hɔ.
+- Wɔn a Wɔde Di Dwuma Foforo - Wobetumi asiesie sika kotoku ntɛmntɛm a wɔremma wɔn abam mmu esiane sɛ wɔkyɛ nti.
+- Dabiara a Wɔde Di Dwuma - Syncing a wotumi de ho to so ma shielded payments yɛ nea mfaso wɔ so ma da biara da dwumadie.
+- Developers & Testers - Sync mmerɛ tiawa kyerɛ sɛ sɔhwɛ kyinhyia yɛ ntɛmntɛm.
+- Mobile & Light Devices - Zingo seesei ɛyɛ adwuma yie mpo wɔ hardware a ɛwɔ nneɛma kakraa bi so.
 
-### Deɛ enti a ɛho hia ma Zcash
+### Nea enti a ɛho hia ma Zcash
 
-Zcash gyina ntɔnnennen a wɔde bɔ ho ban so, ɛne ahintasɛm mu nnwinnade ahorow a tumi wom no biako. Nanso ahobammɔ yɛ nea mfaso wɔ so ara sɛ wotumi hu bi nkutoo.
+Wɔakyekye Zcash atwa shielded transactions ho ahyia, kokoamsɛm nnwinnade a tumi wom sen biara wɔ cryptocurrency mu no mu biako. Nanso sɛ wotumi nya kokoam nsɛm nkutoo a, mfaso wɔ so.
 
-Pepper Sync boa ma:
+Pepper Sync boa denam:
 
-- Nkɔsoɔ a ɛtwe obi ba mu no so atew - Wɔn a wɔyɛ foforo betumi afi ase ntɛm.
-- Da biara da a wɔde di dwuma no, ɛboa - Adesamma tumi nya adansedi wɔ address ahorow a wɔn ho ban so.
-- Ahyehyɛde no nkɔanim a wɔhyɛ nkuran - Akwampanin mu osuahu pa ma wɔde di dwuma, dwumadi ne dwumadie pii.
+- Akwanside ahorow a ɛmma wontumi nkɔ mu no ase - Wɔn a wɔde di dwuma foforo betumi afi ase ntɛmntɛm.
+- Da biara da dwumadie a wɔboa - Address a wɔabɔ ho ban no bɛyɛ mmerɛw sɛ wobɛgye adi.
+- Ecosystem nkɔsoɔ a wɔhyɛ ho nkuran - Sika kotokuo mu suahunu a ɛyɛ papa ma wɔgye tom, apps, ne dwumadie pii.
 
-Ɛnam sika kotoku mu osuahu a Pepper Sync ma ɛyɛ den no so hyɛ Zcash amansan nhyehyɛe nyinaa den.
+Ɛdenam sika kotoku mu osuahu a ɛma tu mpɔn so no, Pepper Sync hyɛ Zcash abɔde a nkwa wom nhyehyɛe no nyinaa mu den.
 
-### Ahyɛaseɛ: Zingo 2.0 a wɔde adi dwuma no mu kɔ so yɛ adwuma.
+### Sɛnea wobɛhyɛ aseɛ: onboarding ne Zingo 2.0
 
-1. Twe Kɔntakt no - Nya nea ɛfata firi [Zingo GitHub releases page] so](https://github.com/zingolabs/zingolib)
-2. Sete Wo Kɔntakt - Yɛ foforo anaa san fi mfitiase asɛm bi a ɛwɔ hɔ mu. [Zingo 2.0 ne Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
-3. Ma Pepper Sync Run - Hwɛ nkɔso ho nkataho bere a wo sika krataa no resan aba. [Pepper Synch Run](https://x.com/ZingoLabs/status/1961871338441724191)
-4. Start Using Zcash - Send and receive shielded ZEC as soon as syncing completes.
-5. Hyɛ w'adwene wɔ nsɛm a ɛhaw wo ho - Sɛ app no to anaa ne nsɛso yera a, Pepper Sync bɛtoa so ayɛ adwuma.
+1. Twe Wallet no - Nya nea ɛfata fi [Zingo GitHub yi krataafa no adi](https://github.com/zingolabs/zingolib)
+2. Set Up Your Wallet - Yɛ foforo anaa san fa fi aba kasasin a ɛwɔ hɔ dedaw mu. [Zingo 2.0 a ɛwɔ Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
+3. Ma Pepper Sync Run - Hwɛ nkɔsoɔ nsɛnkyerɛnneɛ berɛ a wo sika kotokuo no reyɛ foforɔ. [Pepper Sync Mmirikatu](https://x.com/ZingoLabs/status/1961871338441724191)
+4. Fi ase Fa Zcash Di Dwuma - Soma na gye ZEC a wɔabɔ ho ban bere a syncing no awie ara pɛ.
+5. Relax About Interruptions - Sɛ app no ​​to mu anaasɛ nkitahodi no gyae a, Pepper Sync san fi ase ankasa.
 
-## Mfomso a Wɔtaa Di
+## Mfomso a Ɛtaa Tu
 
-**Sunsum Pepper Sync sɛ ne ankasa sika nkotoku**. Pepper sync yɛ nsunsuansoɔ afiri a ɛwɔ Zingo! no mu, ɛnyɛ dwumadi soronko bi. Wode Zingo si hɔ; Peppersync na ɛgyina ase wɔ ho.
+**Pepper Sync a wɔde bedi dwuma sɛ sika kotoku wɔ n'ankasa mu**. Pepper Sync yɛ synchronization engine a ɛwɔ Zingo no mu! sika kotoku, ɛnyɛ application a ɛyɛ soronko. Wode Zingo ahyɛ mu; Pepper Sync ne nea ɛkɔ n’ase.
 
-** Sɛ yɛgye tom sɛ syncing a ɛreyɛ ntɛm no kyerɛ sɛ woahwere ahobammɔ**. Ɛnkasa nti na wɔde saa data yi di dwuma, wɔhyehyɛ mu, ne sɛnea wɔyɛ cache ho adwuma, ɛnyɛ nsɛm pii a wɔbɛda adi. Akwantuo a w'abɔ ho ban no bɛtena kokoam bere nyinaa.
+**Sɛ yɛfa no sɛ syncing ntɛmntɛm kyerɛ sɛ kokoamsɛm yɛ mmerɛw**. Ahoɔhare no fi sɛnea wɔfa block data, hyehyɛ, na wɔde sie, na ɛnyɛ sɛ wɔda nsɛm pii adi. Nkitahodi a wɔabɔ ho ban no tra kokoam wɔ bere nyinaa mu.
 
-**Woma w'ani da so sɛ ɛsɛsɛ wo di sync ansa na watumi atotɔ**. Atotɔ a wobɛtoto no yɛ Pepper Sync dwumadie titiriw, enti ɛnhia sɛ wotwɛn kɔsi sɛ wallet no bɛdu chain tip ho.
+**Fa no sɛ ɛsɛ sɛ woyɛ sync koraa ansa na woatumi asɛe sika**. Sika a wɔsɛe no ansa na synchronization no awie no yɛ Pepper Sync asɛmti no mu biako, enti ɛnsɛ sɛ wotwɛn ma sika kotoku no du nkɔnsɔnkɔnsɔn no ano.
 
 ## FAQ - Nsɛmmisa a wɔtaa bisa
 
-Asԑmmisa: So ɛsɛ sԑ me san hwɛ no bio bere biara a mibue nkotoku no?
+**Q: So ɛsɛ sɛ mesan scan bere biara a mɛbue sika kotoku no?**
 
-Mmuae: Dabi. Pepper Sync kora nkɔso so, enti wo de no di dwuma firi beae a etwa to nkutoo.
+A: Dabi Pepper Sync sie nkɔso, enti wo update fi beae a etwa to no nkutoo.
 
-Asԑmmisa: Na sԑ me internet no gyae a?
+**Asɛmmisa: Sɛ me intanɛt twa a, dɛn na ɛba?**
 
-Mmuae: Sync gyina na ɛtoa so akyiri yi a ɛnhyɛ ase bio.
+A: Sync no gyina kakra na ɛtoa so akyiri yi a ɛnsan mfi ase bio.
 
-Asԑmmisa: So me ahobanbɔ bԑyԑ huam bere a mereko ne no adi nkitaho?
+**Asɛmmisa: So me kokoam nsɛm yɛ ahobammɔ bere a mereyɛ synch?**
 
-Mmuae: Yiw. Nneɛma a wɔde bɔ ho ban no yɛ kokoam nneɛma ara kwa.
+A: Yiw. Nkitahodi a wɔabɔ ho ban no da so ara yɛ kokoam de koraa.
 
-Asԑmmisa: Bere tenten ahe na edi kan a wo bԑyԑ sync no?
+**Q: Bere tenten ahe na sync a edi kan no gye?**
 
-Mmuae: Mpɛn pii no, ɛnyɛ nnɔnhwerew na ɛyɛe; egyina wo afidie ne intanɛt so.
+A: Mpɛn pii no simma mmom sen nnɔnhwerew, a egyina wo mfiri ne intanɛt so.
 
-Asԑmmisa: So metumi de atwerԑde no adi dwuma ansa na syncing awie?
+**Asɛmmisa: So metumi de sika kotoku no adi dwuma ansa na syncing no awie?**
 
-Mmuae: Yiw. Pepper Sync boa ma wototɔ nneɛma ansa na w'ayɛ no pɛpɛɛpɛ, enti enhia sɛ wo twɛn kosi sɛ sika kotoku no bedu chain tip no ho.
+A: Yiw. Pepper Sync boa sika a wɔsɛe no ansa na synchronization no awie, enti enhia sɛ wotwɛn ma sika kotoku no du nkɔnsɔnkɔnsɔn no ano.
 
-## Nkɔsoɔ a ɛbae:
+## Awie
 
-Zingo 2.0 Pepper Sync no, syncing nyɛ ade a ɛhaw adwene wɔ wallet ahorow mu bio. Seesei ɛyɛ ntɛmntɛm, gyinaye na emu yɛ mmerɛw ma wɔn a wɔyɛ foforo no, ɛma wotumi de di dwuma daa.
+Zingo 2.0 Pepper Sync nti, syncing nyɛ ɛyaw kɛse a ɛwɔ sika kotoku a wɔabɔ ho ban mu bio. Mprempren ɛyɛ ntɛmntɛm, ɛyɛ den, na ɛyɛ mmerɛw sɛ wɔde bedi dwuma, na ɛma akwanside a ɛwɔ hɔ ma wɔn a wɔaba foforo no so tew na ɛma da biara da dwumadie no yɛ nea mfasoɔ wɔ so koraa.
 
-Sɛ yɛhwɛ nea wɔde adi dwuma no a, ɛkyerɛ sɛ wɔntwɛn kakraa bi na wɔanya ahobammɔ pii. Ɛkyerɛ sɛ ɛyɛ nhyɛaseɛ pa ma adwumayɛfo no. Zcash mu nneɛma nyinaa gyinabea ho nti, ɛyɛ ɔkwampa foforo wɔ akwantuo a ɛbɔ anibuei kwan so ama obiara anya hokwan de ayɛ adwuma.
+Wɔ wɔn a wɔde di dwuma fam no, ɛkyerɛ sɛ wɔrentwɛn pii na wɔde kokoam nsɛm pii bɛto hɔ. Wɔ developers fam no, ɛkyerɛ fapem a ɛyɛ den a ɛsɛ sɛ wɔde si so. Wɔ Zcash abɔdeɛ a nkwa wom nhyehyɛeɛ no fam no, ɛyɛ anammɔn foforɔ a ɛbɛma obiara anya nkitahodie a wɔabɔ ho ban.
 
-Zingo 2.0 a Pepper Sync ka ho no nyɛ nkɔso kɛkɛ; ɛyɛ ɔkwampa bi wɔ hɔ ma obi ankasa, na wotumi de di dwuma.
+Zingo 2.0 a ɛwɔ Pepper Sync no nyɛ nkɔsoɔ kɛkɛ; ɛyɛ ahurututu a ɛkɔ anim ma kokoam, crypto a wotumi de di dwuma.
 
-## Nkrataafa a Ɛwɔ Ho Nsɛm
+## Nkratafa a Ɛfa Ho
 
-- [Zcash Kuro no a wɔde di dwuma wɔ bere koro mu](/zcash-tech/zcash-wallet-syncing)  sɛnea akwantufoɔ a wɔde wɔn ho to so yɛ adwuma wɔ Zcash mu.
-- [Lightwallet Nodes] (Node) nkrataafa a wɔde di dwuma wɔ wiase nyinaa.](/zcash-tech/lightwallet-nodes)  mfidie a wɔde di dwuma te sɛ Zingo no yɛ adwuma wɔ ne ho.
-- [Zaino](/zcash-tech/zaino)  indexer a Zingo kuo no ayɛ.
-- [Nkrataa nkekaho](/wallets)  Zcash sika nkotoku ne emu nsɛntitiriw no nyinaa.
+- [Zcash Sikakorabea Syncing](/zcash-tech/zcash-wallet-syncing) — sɛnea wallet synchronization yɛ adwuma wɔ Zcash ecosystem no nyinaa mu.
+- [Lightwallet Nodes a Wɔde Di Dwuma](/zcash-tech/lightwallet-nodes) — infrastructure a hann sika kotoku te sɛ Zingo syncs tia.
+- [Zaino na ɔkyerɛwee](/zcash-tech/zaino) — indexer a Zingo kuw no na ɛyɛe.
+- [Sika kotoku](/wallets) — Zcash sika kotoku ne ne nneɛma ho kyerɛwtohɔ a edi mũ.
 
-## Nkɔso Adesua Ho Nneɛma A Yɛbɛsua
+## Adesua a Ɛkɔ Akyiri
 
-- [Zingo! GitHub akoraeɛ](https://github.com/zingolabs/zingolib)
-- [Zcash Community Forum] Yԑn botae sԑ y'agye atom.](https://forum.zcashcommunity.com/)
-- Amansan Nhyehyɛe - [Zingo Labs Twitter](https://twitter.com/ZingoLabs)
+- [Zingo! GitHub Adekorabea](https://github.com/zingolabs/zingolib)
+- [Zcash Mpɔtam Hɔ Nhyiam](https://forum.zcashcommunity.com/)
+- Ɔmanfoɔ Nsɛm a Wɔde To gua - . [Zingo Labs no wɔ Twitter so](https://twitter.com/ZingoLabs)
 
 ___
 ___

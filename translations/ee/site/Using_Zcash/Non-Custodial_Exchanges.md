@@ -4,44 +4,44 @@
 
 # <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Alt Text" width="50"/>   Non-Custodial Exchanges
 
-[Zcash-adzraɖoƒe siwo me ame aɖeke mele o](/dex)
+[Zcash Nusiwo Menye Custodial Exchanges O](/dex)
 
-Le cryptocurrency ƒe asitsatsa si le tɔtrɔm ɖaa me la, dzikpɔkpɔ teƒeteƒewo (non-custodial exchanges) siwo wogayɔna be Decentralized Exchanges alo DEXs va nɔ alesi amewo wɔa nu kple ga ŋuti numekukuwo ŋu ɖɔm ɖo. Mɔnu yeye aɖe li platform siawo tsɔ ɖea asi tso adzɔnuwo wɔwɔe ŋu to ameɖokuisiwo alo amesiwo menye etɔ̃lia o ɖeɖe ɖa eye wogana ŋusẽa ɖoa woƒe dɔwɔlawo gbɔ dzi.
+Le xexe si le tɔtrɔm ɣesiaɣi si nye cryptocurrency asitsatsa me la, dzidziɖedzi si menye gaxɔgbalẽviwo ƒe asitɔtrɔ siwo woyɔna hã be Decentralized Exchanges alo DEXs le alesi zãlawo wɔa nu kple dijitaal nunɔamesiwoe la gbugbɔ ɖem fia. Mɔ̃ siawo naa asitsatsa ƒe mɔnu si trɔa asi le nu ŋu to domenɔlawo alo ame etɔ̃lia ƒe hiahiã ɖeɖeɖa kple dziɖuɖu gbugbɔgaɖoanyi na ezãlawo me.
 
-Woyɔ gaɖɔɖoƒe siwo me wometɔa asi le o la ɖe etame, eye woana nàkpɔ Zcash ahawɔ eƒe asitsatsae faa tso gbɔwò, evɔ màhiã be ame aɖeke nanɔ nu ƒom kpli wò hafi awɔ dɔ sia o.
+Woŋlɔ ɖe etame be wonye asitɔtrɔ siwo menye gaxɔgbalẽviwo ɖɔliɖɔli o siwo wɔnɛ be nàte ŋu axɔ Zcash ahadzrae le ɖokuiwò si agbagbadzedze aɖeke manɔmee, eye mehiã be domenɔlawo nanɔ asitsatsa ƒe ɖoɖoa me o.
 
-### **Nusiwo Menye Gadzraɖoƒe Tɔtrɔ O ƒe Gɔmesese**
+### **Nu Siwo Menye Vidzikpɔkpɔ ƒe Nuɖɔliɖɔli Gɔmesese**
 
-Non-custodial exchanges, si wogayɔna be Decentralized Exchanges (DEXs) nye platform siwo nana cryptocurrency ƒe asitsatsa nɔa bɔbɔe eye mebiaa tso ame dɔdɔwo gbɔ be woaɖo woƒe ga ɖe exchange la ŋutɔ o. Ke boŋ amewo kpɔa ŋusẽ ɖe woƒe private keys dzi hewɔa asi kple woƒe wallets tẽe le esi womebia akpa etɔ̃liawo ta o.
+Nudzraɖoƒe siwo menye gaxɔgbalẽviwo o, siwo woyɔna hã be Decentralized Exchanges (DEXs) nye mɔnu siwo naa cryptocurrency asitsatsa nɔa bɔbɔe evɔ mehiã be ezãlawo nade woƒe ga asitsaƒea ŋutɔ o. Ke boŋ ezãlawo kpɔa ŋusẽ ɖe woƒe safui siwo nye ame ŋutɔ tɔ dzi eye wodzraa wo tso woƒe gakotokuwo me tẽ evɔ mehiã be ame bubuwo nava o.
 
-Mɔnu sia nana be amewo ƒe dedienɔnɔ kple dedienɔnyawo nɔa dedie, elabena ame siwo zãa mɔnuwo la meɖoa ŋu ɖe wo dzi o eye esia wɔnɛ hã be womegatea ŋu wɔa nu gbegblẽwo le woƒe asitsatsa alo ga ŋuti dɔdɔwo wɔwɔ me o. Ame geɖe tsɔa ɖoɖo si wowɔna na gadzraɖoƒe bubuwo tsɔ kpɔa mɔe be woaɖo asi le nuwo ŋu nyuie evɔ womexɔa ame aɖeke dzi se o la wɔ nudzralawoe.
+Mɔnu sia doa dedienɔnɔ kple adzamenyawo ɖe ŋgɔ, elabena ezãlawo meɖoa ŋu ɖe asitɔtrɔa ŋu be woalé woƒe nunɔamesiwo ɖe asi o si hã ɖea afɔku si le hacks alo wo dzi kpɔkpɔ gbegblẽ me dzi kpɔtɔna. Zi geɖe la, asitsatsa le asitsaƒe siwo menye gaxɔgbalẽviwo o me wɔa nubabla siwo me nunya le ŋudɔ tsɔ kpɔa egbɔ be asitsatsa si dzi womate ŋu aka ɖo o eye wòle gaglãgbe.
 
-Ne ame aɖe le ga zãm ɖe asitsatsa si me woɖua asii o ŋu la, viɖe vevi aɖee nye be ŋusẽ geɖe wu anɔ eŋu. Esi wònye be gadzraɖoƒe siawo medzraa woƒe kesinɔnuwo dzi ɖi o ta la, amewo kpɔa gome bliboe le woƒe kɔmpiuta-gawo kple esiwo wozãna ŋuti eye wokpɔa mɔ hã na esia wɔwɔ.
+Viɖe vevi aɖe si le cryptocurrency ƒe asitɔtrɔ siwo menye gaxɔgbalẽviwo ɖɔliɖɔli o ŋue nye alesi wokpɔa ŋusẽ ɖe ezãlawo dzi ɖe woƒe nunɔamesiwo dzi geɖe wu. Esi wònye be gaɖɔliƒe siawo meléa nunɔamesiawo ɖe asi o ta la, ezãlawo kpɔa gome le woƒe dijitaal gawo dzi bliboe eye wokpɔa ŋusẽ ɖe wo dzi.
 
-### **Gbe si me Womexɔa Ame Le O Kple Gbegblẽ Siwo Woɖena le Ame Ŋu**
+### **Non Custodial Exchanges Vs Custodial ƒe asitɔtrɔ**
 
-**#1 Security**: Non-custodial exchanges eliminate the need for users to trust a central entity with their funds or assets. This enable users to maintain and have control of their private keys, reducing the risk of hacks, insider attacks and platform vulnerabilities that custodial exchanges may experience.
+**#1 Dedienɔnɔ**: Nuwo ɖɔliɖɔli siwo menye gaxɔgbalẽviwo ɖɔliɖɔli o ɖea alesi wòhiã be ezãlawo naka ɖe dɔwɔƒe vevi aɖe dzi kple woƒe ga alo nunɔamesiwo ɖa. Esia wɔnɛ be ezãlawo te ŋu léa woƒe safui siwo nye ame ŋutɔ tɔ me ɖe asi eye wokpɔa ŋusẽ ɖe wo dzi, si ɖea afɔku si le hacks, amedzidzedze kple amedzidzedze kple platform ƒe afɔku siwo ate ŋu ato gaxɔmenɔnɔ ƒe asitɔtrɔwo me dzi kpɔtɔna.
 
-Ameŋkumekpɔkpɔ: Amesiwo menye asitsalawo o la ƒe nudzadzraɖoƒewo nana ame geɖe nɔa adzame to mɔ sia dzi be woazã woƒe ga si le yewo ŋu tẽe atsɔ awɔ nu kple amewo eye womegana kpekpeɖeŋu tso ganyawo gbɔ na amea aɖeke hã o. Woate ŋu azã ŋkɔmawuwo tsɔ wɔa dɔ, elabena womeɖoa nyatakaka vevi ɖe edzi abe alesi wowɔna le dɔwɔƒe siwo nyea Asitsatsawɔlawo ene o.
+**#2 Ameŋunyatakakawo**: Zi geɖe la, asitɔtrɔ siwo menye gaxɔmenɔnɔ ƒe asitɔtrɔwo o naa ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla geɖe wu to mɔɖeɖe na ezãlawo be woawɔ asitsadɔ tso woƒe gakotokuwo me tẽ evɔ mehiã be domenɔla aɖeke nava o. Woate ŋu awɔ asitsatsa kple ŋkɔmaɖemaɖe geɖe wu, elabena womedzraa nyatakaka veviwo ɖo o to vovo na Centralized Exchanges
 
-**#3 Decentralization**: Non-custodial exchanges (dzidzɔƒe siwo me ame aɖeke mele o) wɔa ɖeka kple cryptocurrencies ƒe decentralised ethos. Wo zãlawo nɔa wo ɖokui si eye wokpɔa woƒe asitsatsawo dzi, le ɖoɖo gã aɖe nu abe blockchain technology ene.
+**#3 Decentralization**: Nusiwo menye decentralization exchanges o sɔ kple decentralized ethos si le cryptocurrencies me wu. Zãlawo ƒe ɖokuisinɔnɔ kple ŋusẽ geɖe wu le woƒe asitsatsa ƒe dɔwɔnawo dzi, le ɖekawɔwɔ me kple gɔmeɖose siwo keke ta wu le blockchain mɔ̃ɖaŋununya me.
 
-Ne ele nuƒleƒe siwo dzi woɖoa ga ɖo me la, zi geɖe la, ameɖokuimedzedze ƒe agbɔsɔsɔme si le teƒea mede naneke kura o eye esia wɔnɛ be dɔwɔha alo dɔwɔla aɖewo kpɔa amewo ŋuti nyatakakawo gbɔ.
+Ne míeƒo nu tso Custodial Exchanges ŋu la, Decentralization ƒe seƒe nɔa sue ŋutɔ zi geɖe le centralized exchange akpa gãtɔ me si naa exchange team alo amegã siwo kpɔa zãlawo ƒe nyatakakawo alo nyatakaka siwo le exchange la dzi la dona.
 
-**#4 Ewɔwɔ be woate ŋu awɔ nu ɖe ɖoɖowo ƒe tɔtrɔ dzi**: Zi geɖe la, asitsatsa siwo me woxɔa ga le o tea ŋu wɔa nu nyuie wu ne wole seawo kple sewo trɔm. Esi wònye be womeléa ameƒlelawo ƒe gae ɖe asi o ta la, ɖewohĩ kuxi ʋɛ aɖewo koe ava nɔ wo ŋgɔ hafi woawɔ ɖoɖoawo abe alesi wòle le gadzraɖoƒe si wotsɔ nudzikpɔdɔ wɔ na ene.
+**#4 Trɔtrɔ ɖe Sedede siwo le Tɔtrɔm Ŋu**: Zi geɖe la, asitɔtrɔ siwo menye gaxɔmenɔnɔ ƒe asitɔtrɔwo o la te ŋu trɔna ɖe sedede ƒe nɔnɔme siwo le tɔtrɔm ŋu wu. Esi wònye be womeléa ga si zãlawo zãna ɖe asi o ta la, ɖewohĩ kuxi ʋɛ aɖewo koe anɔ wo ŋu le sedziwɔwɔ me ne wotsɔe sɔ kple ga si wotsɔ ɖɔa li gae.
 
-**#5 Nu yeye wɔwɔ kple dodokpɔ**: Ne menye gaɖɔɖɔnuwo dzraɖoƒewoe le asi trɔm na nu yeyewo la, edoa ŋusẽ ame siwo zãa mɔ̃ɖaŋununya si ŋu bubu mele o abe automated market makers (AMMs) kple gadzraɖoƒonu ƒe mɔnu bubuwo ene.
+**#5 Nu yeyewo dodo ɖe ŋgɔ kple dodokpɔ**: Nusiwo menye gaxɔmenɔnɔ ƒe asitɔtrɔwo ʋãa nu yeyewo wɔwɔ zi geɖe le crypto teƒea. Wodea mɔ̃ɖaŋununya siwo woɖe ɖe vovo ƒe ŋgɔyiyi ƒe dzi ƒo, abe asitsaha siwo wowɔna le wo ɖokui si (AMMs) kple ganyawo ƒe dɔwɔƒewo (DeFi) dɔwɔɖoɖowo ene.
 
-**#6 Xexeame Katã ƒe Mɔɖeɖe ɖe Eŋu**: Ame siwo meɖo gaɖɔliƒe o la nana amewo kpɔa woƒe gaƒleƒewo le xexea me godoo, eye esia lɔ nuto aɖewo hã si dzi sewo ate ŋu axe mɔ na ame be woagazã gaɖɔlia o.
+**#6 Xexeame Katã ƒe Mɔnukpɔkpɔ**: Zi geɖe la, gaɖɔliɖɔli siwo menye gaxɔgbalẽviwo ɖɔliɖɔli o naa mɔnukpɔkpɔ ezãlawo le xexeame godoo, eye nuto siwo me sedede ƒe mɔxenuwo ate ŋu axe mɔ ɖe gaxɔgbalẽviwo ɖɔliɖɔli ƒe dɔwɔnawo ƒe anyinɔnɔ nu hã le.
 
-**#7 No KYC Requirements**: Many non-custodial exchanges do not require users to undergo extensive know-your-customer (KYC) procedures, offering a level of privacy and inclusivity that is absent in some custodial platforms.
+**#7 KYC ƒe Nudidi aɖeke Meli o**: Asitɔtrɔ geɖe siwo menye vidzikpɔkpɔ o mebia tso ezãlawo si be woato nyanya wò asisi (KYC) ƒe ɖoɖo geɖe me o, si naa adzamenyawo kple amewo katã ƒe nyawo gbɔ kpɔkpɔ ƒe ɖoɖo aɖe si mele vidzikpɔkpɔ ƒe mɔnu aɖewo me o.
 
-Azɔ na míadzro asitsatsa siwo me ame aɖeke mele o, si nana Zcash-dzadzrawɔwɔ nɔa bɔbɔe la dometɔ aɖewo me. Esi nèzãa mɔnu siawo ta la, àkpɔe be ele bɔbɔe ŋutɔ be nàƒle ga geɖe le Zcash dzi.
+Azɔ, mina míadzro ʋee aɖewo siwo gbɔ woate ŋu akpɔ non-custodial exchanges siwo naa Zcash ƒe asitsatsa nɔa bɔbɔe la me. Mɔ̃ siawo zazã ana nàkpɔ mɔnu bɔbɔe aɖe si dzi nàto axɔ Zcash gaku geɖe.
 
-### **Kpɔɖeŋgɔdzedze**
+### **Totoɖeme**
 
-Non-custodial exchanges, alo DEXs nye decentralized platform siwo naa be woadzra cryptocurrency tẽ tso amewo ƒe gaƒoƒonuwo me. Edzralawoe kpɔa woƒe private keys dzi eye wonana security kple privacy nɔa anyi nyuie wu.
+Non-custodial exchanges, alo DEXs, nye decentralized platforms si wɔnɛ be woate ŋu adzra cryptocurrency tẽ tso ezãlawo ƒe gakotokuwo me. Zãlawo léa woƒe safui ɣaɣlawo dzi kpɔkpɔ me ɖe asi, si wɔnɛ be dedienɔnɔ kple adzamenyawo nyona ɖe edzi.
 
-Togbɔ be viɖe geɖe le asitsatsa siwo me ame aɖeke mele o ŋu hã la, ele vevie be míanyae be afɔku aɖewo ate ŋu anɔ wo si abe ga ƒe anyimanɔmanɔ kple nusɔsrɔ̃ tso nu yeyewo ŋu na amesiwo menya naneke boo tso eŋu o ene.
+Togbɔ be viɖe sẽŋuwo le asitɔtrɔ siwo menye gaxɔmenɔnɔ ŋu o hã la, ele vevie be míalɔ̃ ɖe edzi be woate ŋu ahe kuxiwo vɛ, abe gazazã ƒe nya siwo ate ŋu ado mo ɖa kple nusɔsrɔ̃ ƒe mɔnu si me kɔ wu na ezãla siwo si nuteƒekpɔkpɔ boo aɖeke mele o ene.
 
-Abe ale si wòle le ganyawo gome ene la, ele be asitsalawo nabu nu siwo woadi vevie wu ŋu nyuie ahade dzesi alesi wolɔ̃na faa xɔa afɔkue kple mɔɖaŋununyawo hafi atia esiwo me wodzraa ga ɖo tsɔ kpɔa ame ɖokui dzi alo esiwo gbɔ womedzrae ɖo o.
+Abe alesi wòle le ganyawo ŋuti nyametsotso ɖesiaɖe gome ene la, ele be asitsalawo nalé ŋku ɖe nusiwo wotsɔ ɖo nɔƒe gbãtɔ, afɔku dzi ɖuɖu, kple mɔ̃ɖaŋununya si wonya nyuie ŋu nyuie hafi atiae be woaɖɔli nusiwo menye gaxɔmenɔnɔ o kple esiwo woatsɔ adzra gae.

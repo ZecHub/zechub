@@ -6,26 +6,26 @@
 # Nukae nye ZecHub?
 ---
 
-ZecHub nye hehexɔƒe si le dukɔmeviwo dome na Zcash. [ZecHub ƒe taɖodzinu enye be] woana ame sia ame nanya nu tso ga ŋu nyuie, eye wòakpɔe hã be ele bɔbɔe ŋutɔ".](http://zechub.xyz) míaƒe taɖodzinue nye be míana hehe amewo le afi ma ale be woate ŋu awɔ dɔ ɖekae atsɔ atu nu siwo akpe ɖe Zcash ŋuti la ɖo, ada asi ɖe wo dzi ahado ŋusẽe. Míetoa mɔnu aɖewo dzi wɔa esia.
+ZecHub nye sukudede ƒe dɔwɔƒe si woɖe ɖe vovo na Zcash. Taɖodzinu si le... [ZecHub ƒe ŋkɔ](http://zechub.xyz) nye be woana hehenana ƒe mɔnu si me nutoa me tɔwo ateŋu awɔ dɔ aduadu le le nyatakaka siwo doa alɔ Zcash ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa wɔwɔ, wo dzi dada, kple wo dodo ɖe ŋgɔ me. Míewɔa esia to mɔnu ʋɛ aɖewo dzi.
 
-1. [Nufiafiagbalẽwo](https://www.youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O)
-2. [Wiki-docs](https://zechub.wiki/)
-3. [Agbegbeɖoɖoɖi si me woƒo nu kple nutoa me tɔwo le](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O).
-4. [Zcash ƒe nyadzɔdzɔgbalẽ si wota kwasiɖa sia kwasiɖa.](https://zechub.substack.com/)
+1. [Nufiamewo](https://www.youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O)
+2. [Wiki-nuŋlɔɖiwo](https://zechub.wiki/)
+3. [Podcast si me wobia gbe nutoa me tɔwo](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O).
+4. [Kwasiɖa sia Kwasiɖa ƒe Zcash nyadzɔdzɔgbalẽ aɖe.](https://zechub.substack.com/)
 
-Nufiagbalẽwo, blog-kpui kple nyadzɔdzɔ yeyeawo nye nu siwo ŋu wotrɔ asi le eye wole GitHub dzi. Esia fia be amesiame ateŋu awɔ woƒe akpa aɖe alebe woakpɔ egbɔ be nyatakaka si woana la de pɛpɛpɛ eye wɔna ɖeka aɖeke magblẽ o.
+Nufiameawo, blog kpuiwo, kple nyadzɔdzɔgbalẽwo nye esiwo woʋu ɖi eye woxɔ wo ɖe GitHub, si fia be amesiame tso nutoa me ateŋu akpe asi ɖe eŋu. Esia nye be woakpɔ egbɔ be nyatakaka siwo le eme la de pɛpɛpɛ eye be mɔ̃a ŋutɔ mekpe fu le kpododonu ɖeka pɛ hã me o.
 
-Ne ènye ame yeye le Zcash ŋu la, zã [agbalẽ sia] si nye "Zcash" ƒe mɔfianu.](/start-here/new-user-guide).****
+Ne ènye ame yeye le Zcash me la, zãe [mɔfiame sia](/start-here/new-user-guide).****
 
-## Alesi woawɔ tɔtrɔ le ZecHub me
+## Alesi woawɔ tɔtrɔwo le ZecHub ŋu
 
 ---
 
-1. Yi [ZecHub ƒe Github repo dzi](https://github.com/ZecHub/zechub)
+1. Go to [ZecHub ƒe Github ƒe nuŋlɔɖi](https://github.com/ZecHub/zechub)
    
-2. Wɔ Github account yeye alo nàdze wò ŋutɔ tɔ gɔme.
+2. Wɔ Github akɔnta yeye alo nàge ɖe eme kple tɔwò
    
-3. Zɔ ɖe mɔfiagbalẽ sia dzi nàsrɔ̃ alesi nàwɔ pull request:
+3. Wɔ ɖe mɔfiame sia dzi be nàsrɔ̃ alesi nàwɔ hehe ƒe biabiawo:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -33,17 +33,17 @@ Ne ènye ame yeye le Zcash ŋu la, zã [agbalẽ sia] si nye "Zcash" ƒe mɔfian
     src="https://www.youtube.com/embed/8eYDTyV39a4"
     title="How to Contribute to ZecHub!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowFullScreen (Kpɔ̃ Kɔkɔ)
+    ɖe mɔ ɖeFullScreen ŋu
     loading="lazy"
   />
 </div>
 
 
-## Mɔfiamewo Na Kpekpeɖeŋunala Siwo Le Dɔ Wɔm
+## Nudzɔlawo ƒe Mɔfiamewo
 
 ---
 
-Le alesi woana ZecHub ƒe dzedzeme nanɔ ɖeka la, mɔnu aɖe li si nàte ŋu azã ne èle axawo kpe ge ɖe agbalẽdzraɖoƒea me.
+Le didi be woalé ZecHub ƒe dzedzeme ɖeka me ɖe asi ta la, nɔnɔmetata aɖe li si nàte ŋu azã ne èle axawo kpem ɖe repo la ŋu.
 
 ```markdown
 1. All pages should have additional resources (ie. links to z.cash) to support content
@@ -51,7 +51,7 @@ Le alesi woana ZecHub ƒe dzedzeme nanɔ ɖeka la, mɔnu aɖe li si nàte ŋu az
 3. No inappropriate content.
 ```
 
-Nunanawo: [le afi sia](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
+Nudzɔdzɔwo: [afi sia](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
 <a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
     <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
@@ -59,8 +59,8 @@ Nunanawo: [le afi sia](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7s
 
 
 
-**DZƆÐEŊU: ZecHub nye dukɔ si le eɖokui dzi eye eƒe nyatakakadzraɖoƒewo ʋuʋu, ame siwo Zcash habɔbɔa me tɔwo ɖo. Mele be woabu nu sia ƒe akpa aɖeke si dze le Github-dzudzɔƒe sia be enye ganyawo alo ga ŋuti aɖaŋuɖoɖo o - ɖeɖeko wònye na nyadzɔdzɔgbalẽwo ko.**
+**AGBALẼŊLƆÐI: ZecHub nye ɖoɖo si le eɖokui si keŋkeŋ eye wòʋu ɖi si Zcash nutoa me tɔwo ɖo. Mele be woabu naneke si le Github ƒe nudzraɖoƒe sia be enye ganyawo alo gadodo ƒe aɖaŋuɖoɖo o - nyatakakawo ɖeɖeko tae.**
 
 ---
 
-*Ne èdi be yeado, alo aɖo aɖaŋu le wiki sia ƒe axa ŋu la, taflatse yi [ZecHub github repo] dzi.](https://github.com/ZecHub/zechub) eye nàbia be woagbugbɔe aƒle.*
+*Ne èdi be yeatsɔe akpe ɖe, alo aɖo aɖaŋu be woawɔ asitɔtrɔ le wiki ƒe axa sia ŋu la, taflatse yi ɖe... [ZecHub github ƒe nyatakaka](https://github.com/ZecHub/zechub) eye nàtsɔ hehe ƒe biabiawo aɖo ɖa.*
