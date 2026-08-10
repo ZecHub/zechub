@@ -40,14 +40,6 @@
       "tool": "gt-static",
       "edited": false
     },
-    "Privacy_Tools/Arti_Tor.md": {
-      "src": "sha256:ec9e0f29ba81a00f9913890aec89ffbf3c13373ebaac9df478dabea2d927762d",
-      "src_commit": "d7a1e6c69d92b9953cb92fd433faac01fe0204d1",
-      "engine": "nllb",
-      "mode": "full",
-      "tool": "nllb-200-3.3B",
-      "edited": false
-    },
     "Privacy_Tools/GrapheneOS.md": {
       "src": "sha256:52f4a4bc525f32e427a28b2449d16f8cd7f85d3d81629cab29f2040ef52b1082",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
@@ -1469,6 +1461,14 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
+      "tool": "gt-static",
+      "edited": false
+    },
+    "Privacy_Tools/Arti_Tor.md": {
+      "src": "sha256:ec9e0f29ba81a00f9913890aec89ffbf3c13373ebaac9df478dabea2d927762d",
+      "src_commit": "ded3f826111d1b585d29f8a4faa6f91696c1fdf9",
+      "engine": "gt",
+      "mode": "full",
       "tool": "gt-static",
       "edited": false
     }
