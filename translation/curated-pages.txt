@@ -87,6 +87,7 @@ Zcash_Community/Zcon_Vozes.md
 Zcash_Organizations/CoinHolder_Directed_Retroactive_Grants.md
 Zcash_Organizations/Electric_Coin_Company.md
 Zcash_Organizations/Financial_Privacy_Foundation.md
+Zcash_Organizations/Obscura_Labs.md
 Zcash_Organizations/Shielded_Labs.md
 Zcash_Organizations/Sovright.md
 Zcash_Organizations/ZKAV.md
