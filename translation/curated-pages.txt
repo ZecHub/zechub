@@ -130,6 +130,8 @@ Zcash_Tech/NU6_2.md
 Zcash_Tech/Overwinter.md
 Zcash_Tech/Pepper_Sync.md
 Zcash_Tech/Post_Quantum_Security.md
+Zcash_Tech/Sapling.md
+Zcash_Tech/Sprout.md
 Zcash_Tech/The_Turnstile.md
 Zcash_Tech/Viewing_Keys.md
 Zcash_Tech/What_a_Block_Explorer_Can_See.md
