@@ -125,11 +125,11 @@ Nov 2024 - ugbu a 80% 0% 0% 8% 12% NU6 nlereanya + ZCG ndọtị
 
 ## 5. Akụrụngwa Ndị metụtara ya
 
-- Nkọwa ego gọọmentị -> [z.cash/network funding section]](https://z.cash/network/?funding=#funding)  
+- Nkọwa ego gọọmentị -> [z.cash/network funding section](https://z.cash/network/?funding=#funding)  
 - ZIP 1015 (NU6 mgbanwe ego) -> [zips.z.cash/zip-1015](https://zips.z.cash/zip-1015)  
-- ZIP 1016 (atụmatụ mkpụrụ ego) -> [zips.z.cash/zip-1016]](https://zips.z.cash/zip-1016)  
-- Zcash Improvement Proposals -> [zips.z.cash]](https://zips.z.cash)  
-- Zcash Community Grants portal -> [grants.zcashcommunity.com]](https://grants.zcashcommunity.com) (ma ọ bụ ebe FPF dị ugbu a)
+- ZIP 1016 (atụmatụ mkpụrụ ego) -> [zips.z.cash/zip-1016](https://zips.z.cash/zip-1016)  
+- Zcash Improvement Proposals -> [zips.z.cash](https://zips.z.cash)  
+- Zcash Community Grants portal -> [grants.zcashcommunity.com](https://grants.zcashcommunity.com) (ma ọ bụ ebe FPF dị ugbu a)
 
 ## 6. Ogwe njikwa Lockbox
 

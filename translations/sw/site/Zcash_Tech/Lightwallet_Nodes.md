@@ -24,7 +24,7 @@ __Efficient Synchronization__: Lightwalletd inawezesha ufanisi wa usawazishaji k
 
 ## Orodha ya sasa ya Lightwalletd Servers
 
-* [status.zec.rocks]](https://status.zec.rocks/)
+* [status.zec.rocks](https://status.zec.rocks/)
 * [hosh.zec.rocks](https://hosh.zec.rocks/zec)
 
 ## Kubadilisha Servers katika Wallets Simu
@@ -37,7 +37,7 @@ __Open Ywallet/Zingo/Zashi/eZcash__: Kuzindua mkoba wako wa uchaguzi kwenye kifa
 
 Kwa Ywallet ni cog katika kona ya juu kulia - Nenda kwenye kichupo Zcash. 
 
-[SmartSelect_20250313_105128]](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
+[SmartSelect_20250313_105128](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
 
 #### Zingo:
 
@@ -55,7 +55,7 @@ Kwa Zashi ni cog juu ya kona ya kulia - Nenda kwa Mipangilio ya juu, na kisha Ch
 
 For eZcash it is in the hamburger menu on the top left corner, then click on Settings, tap on Advanced
 
-[SmartSelect_20250313_110616]](/content-images/655c0172-61a0-4322-b8cf-4eee4bb53b51-0b93df2e71.webp)
+[SmartSelect_20250313_110616](/content-images/655c0172-61a0-4322-b8cf-4eee4bb53b51-0b93df2e71.webp)
 
 
 ## Matokeo

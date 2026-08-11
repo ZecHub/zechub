@@ -1,7 +1,7 @@
-![شعار Tor](https://gitlab.torproject.org/uploads/-/system/appearance/header_logo/1/purple.svg)
+![شعار Tor](/content-images/_unavailable.svg)
 
 # **Arti: عميل Tor من الجيل التالي بلغة Rust**
-![شعار Atri](https://gitlab.torproject.org/uploads/-/system/project/avatar/647/sliced-onions.png)
+![شعار Atri](/content-images/_unavailable.svg)
 
 **Arti** هي مبادرة مشروع Tor لبناء عميل **Tor** من الجيل التالي باستخدام لغة البرمجة **Rust**. صُممت Arti لتكون معيارية، وقابلة للتضمين، وجاهزة للاستخدام الإنتاجي، بما يوفر تنفيذًا أكثر أمانًا وكفاءة لبروتوكولات إخفاء الهوية الخاصة بـ **Tor**. ومع **Arti الإصدار 1.4.0**، تم تقديم عدة تحديثات مهمة:
 

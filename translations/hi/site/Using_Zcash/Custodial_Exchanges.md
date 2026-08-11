@@ -9,7 +9,7 @@
 ### [Binance](https://binance.com)
 
 <a href="https://binance.com">
-    <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png" alt="Binance Logo" width="200" height="100"/>
+    <img src="/content-images/_unavailable.svg" alt="Binance Logo" width="200" height="100"/>
 </a>
 
 - वेबसाइट: [Binance](https://binance.com)
@@ -21,7 +21,7 @@ ___
 ### [BitcoinVN](https://bitcoinvn.io)
 
 <a href="https://bitcoinvn.io">
-    <img src="https://bitcoinvn.io/img/bitcoinvn-logo.png" alt="BitcoinVN Logo" width="200" height="100"/>
+    <img src="/content-images/_unavailable.svg" alt="BitcoinVN Logo" width="200" height="100"/>
 </a>
 
 - वेबसाइट: [BitcoinVN](https://bitcoinvn.io)

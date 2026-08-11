@@ -1,3 +1,4 @@
+---
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Halo.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
@@ -7,50 +8,50 @@
 
 ## Haloとは？
 
-Haloは、Electric Coin Co.のSean Boweによって発見された、信頼を必要としない再帰的ゼロ知識証明（ZKP）です。これは、信頼設定を排除し、Zcashブロックチェーンのスケーラビリティを向上させます。Haloは、効率的かつ再帰的なゼロ知識証明システムとして広く認められ、科学的な突破と見なされています。
+Haloは、Electric Coin Co. のSean Boweによって発見された、トラストレスで再帰的なゼロ知識証明（ZKP）です。これはトラステッドセットアップを不要にし、Zcashブロックチェーンのより高いスケーラビリティを可能にします。Haloは、効率的かつ再帰的である最初のゼロ知識証明システムであり、科学的ブレークスルーとして広く評価されています。
 
-![halo](https://electriccoin.co/wp-content/uploads/2021/01/Halo-on-Z-1440x720.png "halo")
-
-
-**コンポーネント**
-
-簡潔な多項式コミットメント方式：コミッターが、短い文字列で多項式にコミットし、検証者がコミットされた多項式の評価を確認できるようにします。
-
-多項式インタラクティブオラクル証明：検証者はプロバー（アルゴリズム）に、多項式コミットメント方式を使って任意の点でコミットメントを開くよう要求し、それらの間の同一性を確認します。
+![halo](/content-images/_unavailable.svg "halo")
 
 
-### 信頼設定不要
+**構成要素**
 
-zkSNARKsは、証明と検証に共通参照文字列（CRS）というパブリックパラメータを使用しています。このCRSは、信頼できる当事者によって事前に生成する必要があります。最近まで、AztecネットワークやZcashが行っていたような複雑なセキュアマルチパーティコンピュテーション（MPC）が必要で、この[信頼設定儀式](https://zkproof.org/2021/06/30/setup-ceremonies/amp/)中に発生するリスクを軽減していました。
+簡潔な多項式コミットメント方式: コミッターが短い文字列で多項式にコミットできるようにし、その文字列を使って検証者が、コミットされた多項式の主張された評価値を確認できます。
 
-以前のZcashのSproutとSaplingのシールドプールは、BCTV14およびGroth 16 zk証明システムを使用していました。これらは安全でしたが、制限がありました。これらは単一アプリケーションに結びついていたためスケーラビリティが低く、「有害な廃棄物」（ジェネシス儀式中に生成された暗号化材料の残り）が残る可能性があり、また儀式が信頼を必要としました（ただし非常にわずかなものです）。
+多項式インタラクティブ・オラクル証明: 検証者が証明者（アルゴリズム）に対し、多項式コミットメント方式を使って、選択したさまざまな点で全てのコミットメントを開示するよう求め、それらの間で恒等式が成り立つことを確認します。 
 
-楕円曲線のサイクル上で複数回にわたって困難な問題のインスタンスを繰り返し圧縮することで、計算証明が自分自身について効率的に推論できるようにする（ネストされた償却）ことで、信頼設定が必要なくなるようになりました。これにより、構造化参照文字列（儀式の出力）はアップグレード可能になり、スマートコントラクトなどのアプリケーションが可能になります。
 
-Haloは、大規模なゼロ知識証明システムのセキュリティに関するユーザーにとって重要な2つの保証を提供します。まず、 genesis儀式に関与した誰もが詐欺的なトランザクションを実行するために秘密のバックドアを作成していないことをユーザーに証明できるようにします。次に、システムがアップグレードや変更を受けた後でも時間経過とともにセキュリティが維持されていることをユーザーに示すことができます。
+### トラステッドセットアップ不要
 
-[Sean BowesによるDystopia Labsでの説明](https://www.youtube.com/watch?v=KdkVTEHUxgo) 
+zkSNARKは、証明と検証のための公開パラメータとして共通参照文字列（CRS）に依存しています。このCRSは、信頼できる当事者によって事前に生成されなければなりません。最近まで、Aztec networkやZcashが実施したような精巧で安全なマルチパーティ計算（MPC）が、この[トラステッドセットアップセレモニー](https://zkproof.org/2021/06/30/setup-ceremonies/amp/)に伴うリスクを軽減するために必要でした。 
+
+以前のZcashのSproutおよびSaplingシールドプールでは、BCTV14とGroth 16のzk証明システムが使われていました。これらは安全ではあったものの、いくつかの制約がありました。単一アプリケーションに結びついていたためスケーラブルではなく、「toxic waste」（ジェネシスセレモニー中に生成された暗号学的素材の残留物）が残存する可能性があり、また、ユーザーがそのセレモニーを受け入れ可能だと見なすための信頼要素（ごくわずかではあるものの）が存在していました。
+
+計算証明が自分自身について効率的に推論できるように、楕円曲線のサイクル上で難しい問題の複数のインスタンスを繰り返し一つに畳み込むことにより（ネストされた償却）、トラステッドセットアップの必要性は排除されます。これはまた、構造化参照文字列（セレモニーの出力）がアップグレード可能になることを意味し、スマートコントラクトのようなアプリケーションを可能にします。
+
+Haloは、大規模なゼロ知識証明システムの安全性に関して、ユーザーに2つの重要な保証を提供します。第一に、ジェネシスセレモニーに関与した誰もが不正な取引を実行するための秘密のバックドアを作成していないことを、ユーザーが証明できるようにします。第二に、更新や変更が加えられてきた期間を通じても、システムが安全性を維持してきたことを、ユーザーが示せるようにします。
+
+[Dystopia LabsでのSean Bowesによる解説](https://www.youtube.com/watch?v=KdkVTEHUxgo) 
  
 
 
-### 再帰証明
+### 再帰的証明
 
-再帰的な証明の構成により、1つの証明が実質的に無限に多くの他の証明の正しさを証明できるようになり、大量の計算（および情報）を圧縮することが可能になります。これはスケーラビリティにとって不可欠な要素であり、特にネットワークを水平方向に拡張しながらも、参加者の一部がネットワークの残りの部分の整合性を信頼できるようにする点で重要です。
+再帰的証明合成により、単一の証明で事実上無制限の他の証明の正しさを証明でき、大量の計算（および情報）を圧縮できます。これはスケーラビリティにとって不可欠な要素であり、とりわけ、ネットワークの残りの部分の完全性を参加者の一部が信頼できるまま、ネットワークを水平方向にスケールできるようにします。
 
-Halo以前では、再帰的な証明構成には大きな計算コストと信頼設定が必要でした。主要な発見の一つは、**ネストされた償却**という技術です。この技術により、内積議論に基づく多項式コミットメント方式を使用して再帰的構成が可能となり、パフォーマンスを大幅に向上させ、信頼設定を回避しました。
+Halo以前は、再帰的証明合成を実現するには大きな計算コストとトラステッドセットアップが必要でした。主要な発見の1つが、**nested amortization** と呼ばれる技術です。この技術により、内積引数に基づく多項式コミットメント方式を使った再帰的合成が可能になり、性能が大幅に向上するとともに、トラステッドセットアップを回避できます。
 
-[Haloの論文](https://eprint.iacr.org/2019/1021.pdf)では、この多項式コミットメント方式を完全に説明し、その中に新しい集約技術が存在することを発見しました。この技術により、大量の独立して作成された証明をほぼ単一の証明を検証するのと同じくらい速く検証することが可能になります。これだけで、Zcashで以前使用されていたzk-SNARKsよりも優れた代替手段を提供します。
+[Halo論文](https://eprint.iacr.org/2019/1021.pdf)では、この多項式コミットメント方式を完全に記述し、その中に新しい集約技術が存在することを発見しました。この技術により、独立して作成された多数の証明を、単一の証明を検証するのとほぼ同じ速さで検証できます。これだけでも、Zcashで以前使われていたzk-SNARKsより優れた代替手段となります。
 
 
 ### Halo 2
 
-Halo 2は、Rustで書かれた高性能なzk-SNARK実装であり、信頼設定の必要性を取り除き、Zcashにおけるスケーラビリティのための基盤を築きます。
+Halo 2は、Rustで書かれた高性能なzk-SNARK実装であり、トラステッドセットアップの必要性を排除しつつ、Zcashのスケーラビリティへの基盤を整えます。 
 
 <a href="">
     <img src="/content-images/Halo-puzzle-03-1024x517-e034023d10.webp" alt="" width="500" height="300"/>
 </a>
 
-これは、我々のアプローチの一般化として**蓄積方式**を含んでいます。この新しい形式化により、ネストされた償却技術が実際にどのように機能するかが明らかになります；証明を**蓄積器**と呼ばれるオブジェクトに追加し、証明が蓄積器の以前の状態について推論することで、蓄積器の現在の状態を確認することによって、すべての以前の証明が正しいことを（帰納法により）確認できます。
+これには、**accumulation scheme** と呼ばれる私たちのアプローチの一般化が含まれています。この新しい定式化は、ネストされた償却技術が実際にどのように機能するかを明らかにします。つまり、**accumulator** と呼ばれるオブジェクトに証明を追加し、それらの証明がaccumulatorの前の状態について推論することで、accumulatorの現在の状態を確認するだけで、以前の全ての証明が正しかったことを（帰納的に）確認できます。
 
 <a href="">
     <img src="/content-images/l4HrYgE-1ea7bc32f7.webp" alt="" width="500" height="300"/>
@@ -58,72 +59,73 @@ Halo 2は、Rustで書かれた高性能なzk-SNARK実装であり、信頼設�
 
 
 
-一方で、他の多くのチームもSonic（Halo 1で使用されていた）よりも効率的な新しい多項式IOPを発見していました。その中でも最も効率的なのはPLONKであり、これはアプリケーション固有のニーズに基づいて効率的な実装を設計する際の非常に大きな柔軟性を提供し、Sonicから5倍速い証明時間を持つことができます。
+並行して、多くの他チームも、Sonic（Halo 1で使用）より効率的な新しいPolynomial IOPを発見していました。たとえばMarlinなどです。 
 
-[PLONK概要](https://www.youtube.com/watch?v=P1JeN30RdwQ)
+これら新しいプロトコルの中で最も効率的なのがPLONKであり、アプリケーション固有のニーズに基づく効率的な実装設計に非常に大きな柔軟性を与え、Sonicと比べて5倍優れた証明者時間を実現します。
 
-
-### これはZcashにどのような利点をもたらしますか？
-
-OrchardシールドプールはNU5でアクティブ化され、Zcashネットワーク上でのこの新しい証明システムの実装です。SproutとSapling間で使用された同じターンスタイ尔設計により、古いシールドプールを段階的に退役する意図があります。これは、完全な信頼設定不要な証明システムへの移行を促進し、通貨ベースの健全性に対する信頼を強化し、Zcash全体における実装複雑さと攻撃面を削減します。2022年中盤にNU5がアクティブ化された後、再帰証明の統合が可能になりました（ただし完全にはありません）。いくつかのプライバシー向上も間接的に行われました。「Actions」の導入により、入力/出力を置き換えることでトランザクションメタデータの量を減少させました。
-
-信頼設定は一般的に調整するのが困難であり、システム的なリスクを提示します。それぞれの主要なプロトコルアップグレードごとに繰り返す必要があります。それらを取り除くことは、新しいプロトコルアップグレードを安全に実装するための大きな改善です。
-
-再帰証明構成は、無限量の計算を圧縮し、監査可能な分散システムを作成する可能性を持っています。これは特にProof of Stakeへの移行によりZcashが非常に強力になることを意味します。また、Zcashシールド資産の拡張や、将来的にフルノード使用の上位レベルでのレイヤー1容量向上にも役立ちます。
+[PLONKの概要](https://www.youtube.com/watch?v=P1JeN30RdwQ)
 
 
-## Haloと広いエコシステムにおける関係
+### これはZcashにどのような利益をもたらすのか？
 
-Electric Coin CompanyはProtocol Labs、Filecoin Foundation、Ethereum Foundationと協定を結び、Halo R&Dを探索しています。これは、それぞれのネットワークで技術がどのように使用されるかについてです。この協定は、エコシステム全体およびWeb 3.0にわたるスケーラビリティ、相互運用性、プライバシーの向上を目指しています。
+Orchard Shielded poolはNU5で有効化され、Zcashネットワーク上でこの新しい証明システムを実装したものです。SproutとSaplingの間で使われたものと同じターンスタイル設計で保護されており、古いシールドプールを段階的に退役させることを意図しています。これにより、完全にトラストレスな証明システムへの移行が促進され、マネタリーベースの健全性に対する信頼が強化され、Zcash全体の実装複雑性と攻撃面が削減されます。2022年半ばのNU5有効化に続き、再帰的証明の統合が可能になりました（ただし、これはまだ完了していません）。また、これに付随していくつかのプライバシー強化も行われました。入力/出力を置き換える「Actions」の導入は、取引メタデータ量の削減に役立ちました。 
 
-さらに、Halo 2は[MITとApache 2.0オープンソースライセンス](https://github.com/zcash/halo2#readme)の下で提供されており、エコシステム内の誰もが証明システムを使用して構築できます。
+トラステッドセットアップは一般に調整が難しく、システム全体のリスクをもたらしていました。主要なプロトコルアップグレードごとに、それらを繰り返す必要がありました。それを取り除くことは、新しいプロトコルアップグレードを安全に実装するうえで大きな改善となります。 
 
+再帰的証明合成は、無制限の計算量を圧縮し、監査可能な分散システムを作り出す可能性を持っており、特にProof of Stakeへの移行により、Zcashを非常に高機能なものにします。これは、Zcash Shielded Assetsのような拡張や、今後数年におけるZcashのフルノード利用の上限側でのレイヤー1容量改善にも有用です。
+
+
+## より広いエコシステムにおけるHalo 
+
+Electric Coin Companyは、Protocol Labs、Filecoin Foundation、Ethereum Foundationと、Haloの研究開発、およびこの技術がそれぞれのネットワークでどのように利用できるかを探るための契約を締結しています。この契約は、エコシステム間およびWeb 3.0に向けて、より高いスケーラビリティ、相互運用性、プライバシーを提供することを目的としています。
+
+さらに、Halo 2は[MITおよびApache 2.0のオープンソースライセンス](https://github.com/zcash/halo2#readme)の下で提供されており、エコシステム内の誰もがこの証明システムを用いて構築できます。
 
 ### Filecoin
 
-デプロイ以来、halo2ライブラリはzkEVMなどのプロジェクトに採用されています。Filecoin仮想マシンの証明システムへのHalo 2の統合の可能性があります。Filecoinでは、多くのコストのかかる時空証明/複製証明が必要です。Halo2はネットワークのスケーリングをより良くするために空間使用量を圧縮する上で画期的な役割を果たします。
+デプロイ以降、halo2ライブラリはzkEVMのようなプロジェクトで採用されており、Filecoin Virtual Machineの証明システムへのHalo 2の統合の可能性があります。Filecoinでは、多数の高コストなproofs of spacetime / proofs of replicationが必要です。Halo2は、容量使用量を圧縮し、ネットワークをよりよくスケールさせるうえで重要な役割を果たすでしょう。
 
-[Filecoin FoundationとZookoのビデオ](https://www.youtube.com/watch?v=t4XOdagc9xw)
+[Zookoを迎えたFilecoin Foundationの動画](https://www.youtube.com/watch?v=t4XOdagc9xw)
 
-さらに、Filecoinストレージ支払いがZECで行われることにより、Zcashシールドトランザクションと同じレベルのプライバシーをストレージ購入に提供できる場合、FilecoinとZcashエコシステムにとって非常に有益です。このサポートは、Filecoinストレージ内でファイルを暗号化する機能を追加し、モバイルクライアントが**添付**メディアやファイルをZcash暗号化メモに接続できるようにすることも可能になります。
+さらに、FilecoinとZcashの両エコシステムにとって、Filecoinのストレージ支払いをZECで行えるようになれば非常に有益でしょう。そうすることで、Zcashのシールド送金に存在するのと同等のプライバシー水準を、ストレージ購入にも与えられます。このサポートにより、Filecoinストレージ内のファイルを暗号化する機能が追加され、さらにモバイルクライアントがZcashの暗号化メモにメディアやファイルを**添付**できるようになります。 
 
-[ECC x Filecoinブログ投稿](https://electriccoin.co/blog/ethereum-zcash-filecoin-collab/)
+[ECC x Filecoin ブログ記事](https://electriccoin.co/blog/ethereum-zcash-filecoin-collab/)
 
 ### Ethereum
 
-効率的な検証遅延関数（VDF）のHalo 2証明の実装が進行中です。VDFは、多くの潜在的な用途を持つ暗号化プリミティブです。
+効率的なVerifiable Delay Function（VDF）のためのHalo 2証明の実装が進められています。VDFは、多くの潜在的ユースケースを持つ暗号プリミティブです。 
 
-スマートコントラクトアプリケーションやEthereumおよび他のプロトコルでのProof of Stakeにおけるリーダー選出として一般目的ランダム性のソースとして使用できます。
+これは、汎用的な乱数源として利用でき、スマートコントラクトアプリケーションでの利用や、Ethereumおよび他のプロトコルにおけるProof of Stakeのリーダー選出にも使用できます。
 
-ECC、Filecoin Foundation、Protocol Labs、Ethereum Foundationはまた、ハードウェア加速暗号化に特化したベンダーである[SupraNational](https://www.supranational.net/)と協力し、VDFのGPUおよびASIC設計開発について検討しています。
+ECC、Filecoin Foundation、Protocol Labs、Ethereum Foundationはまた、ハードウェア加速暗号を専門とするベンダーである[SupraNational](https://www.supranational.net/)と協力し、VDFのためのGPUおよびASICの設計・開発の可能性を探ります。
 
-[プライバシーとスケーリング探索グループ](https://appliedzkp.org/)も、Halo 2証明がEthereumエコシステムにおけるプライバシーとスケーラビリティを改善する方法について研究しています。このグループはEthereum Foundationに属し、ゼロ知識証明および暗号化プリミティブに関する幅広い焦点を持っています。
+[Privacy and Scaling Exploration group](https://appliedzkp.org/)も、Halo 2証明がEthereumエコシステムのプライバシーとスケーラビリティを改善できるさまざまな方法を研究しています。このグループはEthereum foundation配下にあり、ゼロ知識証明と暗号プリミティブ全般に幅広く焦点を当てています。 
 
-## Haloを使用している他のプロジェクト
+## Haloを使用しているその他のプロジェクト
 
-+ [Anoma, プライバシー保護型マルチチェーンアトミックスワッププロトコル](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
++ [Anoma、プライバシー保護型マルチチェーン原子的スワッププロトコル](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
 
-+ [Oribis, Cardano上のL2 zkRollup](https://docs.orbisprotocol.com/orbis/technology/halo-2)
++ [Oribis、Cardano上のL2 zkRollup](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
-+ [Darkfi, プライベートL1 zkEVMブロックチェーン](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
++ [Darkfi、プライベートなL1 zkEVMブロックチェーン](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
 
-+ [Scroll, Ethereum上のL2 zkRollup](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
++ [Scroll、Ethereum上のL2 zkRollup](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 
 
 **さらに学ぶ**:
 
-[ZKPとHalo 2の紹介 - Hanh Huynh Huu](https://www.youtube.com/watch?v=jDHWJLjQ9oA)
+[zkpとhalo 2の入門 - Hanh Huynh Huu](https://www.youtube.com/watch?v=jDHWJLjQ9oA)
 
-[Halo 2についてDaira & Str4dが説明 - ZKPodcast](https://www.youtube.com/watch?v=-lZH8T5i-K4)
+[Daira & Str4dと学ぶHalo 2 - ZKPodcast](https://www.youtube.com/watch?v=-lZH8T5i-K4)
 
-[技術的な説明ブログ](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)
+[技術解説ブログ](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)
 
-[Halo 2コミュニティショーケース - Ying Tong @Zcon3](https://www.youtube.com/watch?v=JJi2TT2Ahp0)
+[Halo 2 Community Showcase - Ying Tong @Zcon3](https://www.youtube.com/watch?v=JJi2TT2Ahp0)
 
 **ドキュメント**
 
-[Halo 2リソース](https://github.com/adria0/awesome-halo2)
+[Halo 2 リソース](https://github.com/adria0/awesome-halo2)
 
-[Halo 2ドキュメント](https://zcash.github.io/halo2/)
+[Halo 2 ドキュメント](https://zcash.github.io/halo2/)
 
-[Halo 2 GitHub](https://github.com/zcash/halo2)
+[Halo 2 github](https://github.com/zcash/halo2)

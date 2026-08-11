@@ -2,7 +2,7 @@
 
 # Ụkpụrụ Shade
 
-[Ihe ngosi Shade Protocol Logo]](/content-images/Af8EzlNiwGr4FTFX7oqdBuE-71316827d0.webp)
+[Ihe ngosi Shade Protocol Logo](/content-images/Af8EzlNiwGr4FTFX7oqdBuE-71316827d0.webp)
 
 ## Gịnị bụ Usoro Ndò?
 
@@ -14,7 +14,7 @@ Shade Protocol is a privacy preserving DeFi (Decentralized Finance) ecosystem th
 
 Shade Protocol is built on the Secret Network, a layer 1 blockchain that provides privacy preserving smart contracts. Secret Network uses encrypted inputs, outputs, and state to ensure transaction privacy, protecting user data from being exposed on the public ledger.
 
-[Ihe osise nzuzo nke netwọkụ]](/content-images/1-yyZ5hFOw6z8zXX_rgJn5iw-9091067aa1.webp)
+[Ihe osise nzuzo nke netwọkụ](/content-images/1-yyZ5hFOw6z8zXX_rgJn5iw-9091067aa1.webp)
 
 Secret Network enables developers to build decentralized applications with encrypted data, both natively on Secret and on other blockchains through cross chain communication, unlocking powerful new use cases for Web3.
 

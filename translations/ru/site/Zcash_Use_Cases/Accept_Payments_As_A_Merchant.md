@@ -126,5 +126,5 @@ Zcash позволяет:
 
 ## Следующий шаг
 
-- [Запустите приватный фонд сообщества](/use-cases/private-community-treasury)
+- [Запустите приватный фонд сообщества](/zcash-use-cases/private-community-treasury)
 <br/>

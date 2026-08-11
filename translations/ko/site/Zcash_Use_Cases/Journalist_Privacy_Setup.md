@@ -107,7 +107,7 @@ Zcash는 다음과 같은 기능을 제공합니다:
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="연결 아이콘"/> 관련 정보
 
 - [프라이버시 - 최선의 실천](/privacy/best-practices)
-- [정체성을 연결하지 않고 돈 보내기](/use-cases/send-money-without-linking-identity)
+- [정체성을 연결하지 않고 돈 보내기](/zcash-use-cases/send-money-without-linking-identity)
 
  <br/>
 

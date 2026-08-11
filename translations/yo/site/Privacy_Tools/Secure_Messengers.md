@@ -25,7 +25,7 @@ Zcash Desktop & Mobile wallets have an in-built feature that allows users to sen
 
 Gbìyànjú ẹ wò: https://z.cash/wallets 
 
-[Ìsọfúnni tó wà nínú àkọsílẹ̀ Zcash]](/content-images/Zcash-1177103374-7bca37eb4d.webp)
+[Ìsọfúnni tó wà nínú àkọsílẹ̀ Zcash](/content-images/Zcash-1177103374-7bca37eb4d.webp)
 
 **Ìpolongo ìwúlò**
 

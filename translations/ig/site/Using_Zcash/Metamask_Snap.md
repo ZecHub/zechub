@@ -96,7 +96,7 @@ Maka ** Zcash Mainnet **;
 > ** Gbanwee ETH -> ZEC ** - Jiri ọrụ dịka ** LeoDex ** ma zipụ na adreesị gị echedoro. 
 > ** Mgbanwe Mwepu ** - Wepụ ZEC zụrụ azụ na adreesị gị echedoro WebZjs. 
 
-[ LEODEX-SWAP ]](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+[ LEODEX-SWAP ](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => Jiri adreesị ezoro ezo maka **nzuzo zuru oke**.
@@ -111,7 +111,7 @@ Maka ** Zcash Mainnet **;
    - Shielded recipient address  
    - Amount
 ```
-   [Nkwụnyefe-Balance]](/content-images/rkvcFfhdex-bd55d079eb.webp)
+   [Nkwụnyefe-Balance](/content-images/rkvcFfhdex-bd55d079eb.webp)
 
 4. Kwado azụmahịa na MetaMask (banye azụmahịa ahụ). 
 5. Ego natara ga-apụta na WebZjs mgbe nkwenye.

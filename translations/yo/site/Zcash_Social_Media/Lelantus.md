@@ -87,7 +87,7 @@ Lelantus nlo **One-of-Many Proofs** lati fa awọn iye titẹ sii ti o nilo fun 
 
 Àwọn ẹ̀rí wọ̀nyí ni a tún lò nínú Triptych (tí a mẹ́nu kàn nínú ọ̀rọ̀ wa CryptoNote).
 
-[Àmì kan-Lára-Ọ̀pọ̀]](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
+[Àmì kan-Lára-Ọ̀pọ̀](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
 
 ---
 
@@ -103,7 +103,7 @@ Gẹgẹ bi Monero, Firo ṣe imuse **Dandelion++** lati ṣafikun aṣiri nipa 
 
 Eyi jẹ ki o nira pupọ lati tọpinpin ipilẹṣẹ ti iṣowo kan nipasẹ itupalẹ nẹtiwọọki.
 
-[ìtumọ̀ Dandelion++]](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
+[ìtumọ̀ Dandelion++](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
 
 ---
 

@@ -124,5 +124,5 @@
 
 ## الخطوة التالية
 
-- [قبول المدفوعات كتاجر](/use-cases/accept-payments-as-a-merchant)
+- [قبول المدفوعات كتاجر](/zcash-use-cases/accept-payments-as-a-merchant)
 <br/>

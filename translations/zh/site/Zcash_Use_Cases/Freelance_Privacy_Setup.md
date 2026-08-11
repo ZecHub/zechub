@@ -124,5 +124,5 @@ Zcash 让你能够：
 
 ## 下一步
 
-- [作为商家接受付款](/use-cases/accept-payments-as-a-merchant)
+- [作为商家接受付款](/zcash-use-cases/accept-payments-as-a-merchant)
 <br/>

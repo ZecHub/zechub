@@ -60,9 +60,9 @@ Soro ntuziaka ndị a n'okpuru iji jikọọ Tor na Zcash Wallet *(Ywallet) *:
 
 Zcashd is the official linux-based full-node wallet which is updated and maintained by core developers from the Electric coin Co. It is intended for users who may want to mine and validate zcash transactions, as well as sending and receing Zcash.
 
-* Enwere ike ịchọta ebe nrụọrụ weebụ gọọmentị iji budata obere akpa Zcashd [ebe a]](https://electriccoin.co/zcashd/) 
+* Enwere ike ịchọta ebe nrụọrụ weebụ gọọmentị iji budata obere akpa Zcashd [ebe a](https://electriccoin.co/zcashd/) 
 
-* Wụnye obere akpa: Njikọ na vidiyo nkuzi [ebe a]](https://www.youtube.com/watch?v=hTKL0jPu7X0) nke ndị mmepe obere akpa Zcash nyere.
+* Wụnye obere akpa: Njikọ na vidiyo nkuzi [ebe a](https://www.youtube.com/watch?v=hTKL0jPu7X0) nke ndị mmepe obere akpa Zcash nyere.
 
 ##  Gbaa Zcashd n'elu Tor 
 

@@ -14,7 +14,7 @@ ZecHub는 Zcash를 위한 분산형 교육 플랫폼입니다. [ZecHub](http://z
 
 튜토리얼, 짧은 형식의 블로그 및 뉴스레터는 GitHub에 오픈소스로 호스팅되어 있어 커뮤니티 구성원 누구나 기여할 수 있습니다. 이는 콘텐츠가 정확하고 채널 자체가 단일 고장 지점이 없도록 보장하기 위함입니다.
 
-Zcash에 새로 오셨다면 [이 가이드](/site/Start_Here/New_User_Guide)를 사용하세요.****
+Zcash에 처음 오셨다면 [이 가이드](/start-here/new-user-guide)를 이용하세요.****
 
 ## ZecHub에 변경 사항을 적용하는 방법
 

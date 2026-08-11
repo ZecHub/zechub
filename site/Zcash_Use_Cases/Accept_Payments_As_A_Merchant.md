@@ -135,5 +135,5 @@ You can now run private payment flows for business.
 
 ## Next Step
 
-- [Run a Private Community Treasury](/use-cases/private-community-treasury)
+- [Run a Private Community Treasury](/zcash-use-cases/private-community-treasury)
 <br/>

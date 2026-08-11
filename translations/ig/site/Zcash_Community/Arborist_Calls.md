@@ -22,7 +22,7 @@ Peeji nke Foundation bụ isi iyi nke eziokwu maka njikọ ndebanye aha, faịl�
 
 ## Ihe Ndekọ, Usoro Ihe Omume, na Ihe Ndị E Dekọrọ
 
-- Usoro ihe omume na nkeji zuru ezu: [ihe edeturu osisi osisi]](https://github.com/ZcashCommunityGrants/arboretum-notes)
+- Usoro ihe omume na nkeji zuru ezu: [ihe edeturu osisi osisi](https://github.com/ZcashCommunityGrants/arboretum-notes)
 - Ndekọ ndị na-adịbeghị anya: [Zcash Arborist Call playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
 - Mkparịta ụka Zcash R&D: [Zcash R & D Discord](https://discord.gg/xpzPR53xtU)
 - Mkparịta ụka ogologo oge: [Zcash Community Forum](https://forum.zcashcommunity.com/)

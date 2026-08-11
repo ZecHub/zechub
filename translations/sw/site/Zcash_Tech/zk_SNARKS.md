@@ -173,7 +173,7 @@ Kwa ujumla zero-ujuzi uthibitisho ni chombo cha kutekeleza tabia ya uaminifu kat
 
 Zcash is a public blockchain that facilitates private transactions. zk-SNARK's are used to prove that a private transaction is valid within the network consensus rules without revealing any other details about the transaction. 
 
-[Video ya Kueleza]](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - Katika hotuba hii Ariel Gabizon hutoa maelezo ya Zcash Note Commitment Tree, Blind Polynomial Evaluation & Homomorphically Hidden Challenges na jinsi zinavyotekelezwa kwenye mtandao. 
+[Video ya Kueleza](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - Katika hotuba hii Ariel Gabizon hutoa maelezo ya Zcash Note Commitment Tree, Blind Polynomial Evaluation & Homomorphically Hidden Challenges na jinsi zinavyotekelezwa kwenye mtandao. 
 
 Soma kitabu [Halo2](https://zcash.github.io/halo2/index.html) kwa habari zaidi.
 

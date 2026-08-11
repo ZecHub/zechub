@@ -129,5 +129,5 @@ Zcash позволяет вам:
 
 ## Следующий шаг
 
-- [Принятие платежей как продавца](/use-cases/accept-payments-as-a-merchant)
+- [Принятие платежей как продавца](/zcash-use-cases/accept-payments-as-a-merchant)
 <br/>

@@ -1,402 +1,158 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/guides/Raspberry_Pi_4_Full_Node.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
-</a>
+# Raspberry Pi 4 Üzerinde Bir Tam Düğüm Çalıştırın (Zebra + Zallet)
 
+*Orijinal zcashd tabanlı rehberden taşındı. zcashd, 18 Temmuz 2026'da otomatik Destek Sonu durdurmasına ulaştı; bu nedenle bu rehber artık **Zebra**'yı (Zcash Foundation tarafından sürdürülen mevcut tam düğüm) ve **Zallet**'i (zcashd'nin yerleşik cüzdanının yerini almak için geliştirilen cüzdan) kullanıyor.*
 
-# Raspberry Pi 4: bir *zcashd* Tam düğüm rehberi
+## Neler öğreneceksiniz
+- Headless kullanım için Raspberry Pi 4 üzerinde Ubuntu Server 22.04+ (64-bit) nasıl flashlanır ve yapılandırılır
+- Zebra'nın Docker veya önceden derlenmiş bir binary aracılığıyla nasıl kurulup çalıştırılacağı
+- Zallet'in nasıl kurulacağı, yapılandırılacağı ve başlatılacağı; buna cüzdan şifreleme kurulumu da dahildir
+- İsteğe bağlı olarak mevcut bir zcashd config/cüzdanının Zallet'e nasıl taşınacağı
 
+## Eski rehberden neler değişti
+Bu rehberin önceki sürümü, **zcashd**'nin Pi 4 üzerinde yerel olarak nasıl derleneceğini anlatıyordu — Pi 4 paralel (`-j$(nproc)`) derleme için yeterli belleğe sahip olmadığından, tek iş parçacıklı bir derleme 3–4 saat sürüyordu. Zebra ve Zallet artık **resmi önceden derlenmiş ARM64 binary'ler ve Docker image'ları** yayımlıyor; bu nedenle çoğu durumda artık Pi üzerinde kaynak koddan herhangi bir şey derlemeniz gerekmiyor.
 
-Bu rehberin amacı, düşük güçlü bir Raspberry Pi 4 üzerinde tam düğüm çalıştırmakla ilgilenen Zcash kullanıcılarını eğitmeye yardımcı olmaktır.
+## Önkoşullar
+- Bir Raspberry Pi 4 (4 GB RAM veya daha fazlası önerilir)
+- İşletim sistemi için bir microSD kart (32 GB+)
+- USB 3.0 destekli harici bir SSD/HDD — **Zebra, önbelleğe alınmış Mainnet verisi için yaklaşık 300 GB alana ihtiyaç duyar** ve bu zamanla büyür, bu yüzden bunu yalnızca microSD kart üzerinden çalıştırmayı denemeyin
+- Bir microSD kart yuvasına sahip bir bilgisayar (OS image'ını flashlamak için)
+- Kablolu Ethernet bağlantısı veya Wi-Fi
+- SSH üzerinden komut satırını temel düzeyde rahat kullanabilme
 
-<img src="/content-images/197372541-dcd886ab-a3d0-4614-b490-0294dd-d45b1cd4ba.webp" alt="zcashd" width="700" height="700"/>
+## Adım 1: Ubuntu Server 22.04+ (64-bit) flashlayın
+Zebra ve Zallet'in önceden derlenmiş binary'leri ile Docker image'ları **glibc 2.34+** gerektirir; bu da **Ubuntu Server 22.04 veya daha yenisi (64-bit/aarch64)** anlamına gelir.
 
+1. Ana bilgisayarınıza Raspberry Pi Imager'ı kurun.
+2. microSD kartınızı takın.
+3. **Other general-purpose OS → Ubuntu → Ubuntu Server 22.04 LTS (64-bit)** (veya daha yenisi) seçin.
+4. İlk açılışı headless yapmak için Imager'ın gelişmiş seçeneklerini (dişli simgesi) kullanarak hostname'i önceden yapılandırın, SSH'yi etkinleştirin ve gerekirse Wi-Fi kimlik bilgilerini ayarlayın.
+5. Image'ı yazın, kartı takın ve Pi'yi açın.
+6. SSH ile bağlanın: `ssh <username>@<pi-hostname-or-ip>`
 
-## Video
+## Adım 2: Harici depolamayı bağlayın ve mount edin
+1. Harici SSD/HDD'nizi USB 3.0 üzerinden bağlayın.
+2. Aygıtı belirleyin: `lsblk`
+3. (Yeniyse) biçimlendirin ve örneğin `/mnt/zcash-data` konumuna mount edin; yeniden başlatmada otomatik mount olması için standart bir `mkfs`/`fstab` kurulumu kullanın.
 
-<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
-  <iframe
-    className="w-full h-full"
-    src="https://www.youtube.com/embed/SGYrzhs1l2k"
-    title="How to compile Zcash Node on Raspberry Pi!"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowFullScreen
-    loading="lazy"
-  />
-</div>
-
-## Destek
-
-Bu rehberi faydalı bulursanız, ZecHub’i desteklemek için ZEC bağış yapmayı düşünebilirsiniz:
-
-`u1rl2zw85dmjc8m4dmqvtstcyvdjn23n0ad53u5533c97affg9jq208du0vf787vfx4vkd6cd0ma4pxkkuc6xe6ue4dlgjvn9dhzacgk9peejwxdn0ksw3v3yf0dy47znruqftfqgf6xpuelle29g2qxquudxsnnen3dvdx8az6w3tggalc4pla3n4jcs8vf4h29ach3zd8enxulush89`
-
-
-## Ne öğreneceksiniz
-
-```markdown
-* How to create a bootable Ubuntu Server microSD card
-* How to setup internet connectivity on the Raspberry Pi 4
-* How to access your Raspberry Pi 4 remotely
-* How to install zcashd
-* How to setup zcashd
-* How to use zcashd
+## Adım 3: Sistemi güncelleyin
+```bash
+sudo apt update && sudo apt full-upgrade -y
+sudo reboot
 ```
 
-
-## Ön Koşullar
-
-> [8GB Raspberry Pi 4 Canakit](https://www.canakit.com/raspberry-pi-4-starter-max-kit.html) veya eşdeğeri
-
-> microSD kart sürücüsüne sahip bir bilgisayar
-
-> İnternet bağlantısı olan bir Wi‑Fi ağı veya bir ethernet kablosu
-
-> USB3 destekli harici SSD/HHD
-
-
-##### not: sunucunuzu güvende tutmak *hiç de* basit bir iş değildir. Bu kılavuzda ele alınanların ötesinde herhangi bir ipucu/tavsiye/en iyi uygulama biliyorsanız *lütfen* bir PR oluşturun ve bu kılavuzun mümkün olduğunca güncel kalmasına yardımcı olun.
-
-
-
-### SD Kartı Hazırlayın
-
-Bu adımda, Raspberry Pi 4'ünüzün açılmasını sağlayacak *önyüklenebilir* bir SD kart oluşturacaksınız. microSD kartı bilgisayarınıza takın. Canakit ile birlikte gelen adaptörü veya buna eşdeğer başka bir adaptörü kullanmanız gerekebilir. İşletim sisteminiz için Raspberry Pi Imager'ı kurun. Şu anda erişiminiz olan işletim sistemi için olan sürümü indirin.
-     
-> [Ubuntu](https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb)
-     
-> [Windows](https://downloads.raspberrypi.org/imager/imager_latest.exe)
-     
-> [macOS](https://downloads.raspberrypi.org/imager/imager_latest.dmg)
-
-Örneğin Linux'ta, indirdikten sonra aşağıdakini yazarsınız:
-
-`sudo dpkg -i imager_latest_amd64.deb`
-
-Raspberry Pi Imager'ı Açın
-
-`rpi-imager`
-
-<img src="/content-images/197372069-fb9f7417-d320-42cf-ad65-38d630-7d85096e88.webp" alt="rpi imager" width="400" height="400"/>
-
-İşletim Sistemini ve Depolama Aygıtını seçin. Raspberry Pi 4’ler 64 bit olduğu için, "Other general-purpose OS" => Ubuntu => Ubuntu Server 24.04.3 LTS (64 bit) seçmenizi öneririm. Storage’a tıklayın ve SD Kartınızı seçin. SD karta yazmadan önce, sağ alt köşeye yakın beyaz dişli simgesine tıklayarak Advanced options’ı açın.
-
-
-<img src="/content-images/197372159-1169c6f4-f6aa-4f44-9679-fe7aa5-fe6c968644.webp" alt="gear" width="200" height="200"/>
-
-
-
-Çevrilecek Markdown parçası mesajda yer almıyor. Lütfen İngilizce fragmenti buraya yapıştırın; ben de yalnızca Türkçe çeviriyi, aynı Markdown yapısını koruyarak döndüreyim.
-
-```markdown
-* Hostname of your Raspberry Pi 4
-* Enable SSH
-* Create a username and pw
-* Enable and configure your wi-fi if needed
+## Adım 4: Zebra'yı kurun ve çalıştırın
+### Seçenek A — Docker (önerilir)
+```bash
+sudo apt install -y docker.io
+sudo usermod -aG docker $USER   # bundan sonra çıkış yapıp tekrar giriş yapın
+docker run -d \
+  --name zebra \
+  -p 8233:8233 \
+  -v /mnt/zcash-data/zebra:/home/zebra/.cache/zebra \
+  zfnd/zebra:latest
 ```
- 
-<img src="/content-images/197372149-8b85bfac-e473-4808-87cd-f27f15-269c28f6c3.webp" alt="advanced" width="400" height="400"/>
+İlerlemeyi kontrol edin: `docker logs -f zebra`
 
- 
-Çevrilecek Markdown parçasını paylaşın lütfen.
+### Seçenek B — cargo binstall ile önceden derlenmiş binary
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source "$HOME/.cargo/env"
+cargo install cargo-binstall
+cargo binstall zebrad
+zebrad start
+```
+Bu, önceden derlenmiş bir `aarch64` binary kurar — derleme gerekmez.
 
+**Senkronizasyon süresi hakkında:** bunun biraz zaman almasını bekleyin — sıkça alıntılanan ilk senkronizasyon rakamları (yaklaşık 2 saat), Pi 4'ün CPU'sundan daha güçlü referans donanımlardan gelir; bu yüzden gerçek Pi 4 donanımında gerçek senkronizasyon süreniz muhtemelen daha uzun olacaktır.
 
-### Ubuntu Server'ı Başlatın
+## Adım 5: Zallet'i kurun
+Zallet şu anda **alpha** aşamasındadır — uyumluluğu bozan değişiklikler bekleyin ve henüz önemli miktarda fon için üretime hazır saklama çözümü olarak değerlendirmeyin.
 
-Ek bir monitörünüz ve klavyeniz varsa şimdi bunları bağlayın. Not: bunlar isteğe bağlıdır. Az önce biçimlendirdiğiniz SD kartı Raspberry Pi 4’e takın ve ayrıca Harici SSD/HHD’yi USB3 portuna bağlayın. Güç kablosunu da takın ve cihazı açın.
+### Seçenek A — Docker (önerilir)
+```bash
+docker pull zodlinc/zallet:latest
+```
+Bu image ARM64'ü destekler (Nix tabanlı bir derleme aracılığıyla) ve minimal, shellsiz bir dosya sisteminden çalışır — yapılandırma ve veri yollarını `--datadir` ile volume mount'ları üzerinden açıkça belirtin (bkz. Adım 6).
 
-### Raspberry Pi 4’ünüze uzaktan bağlanın
+### Seçenek B — Kaynak koddan derleyin
+```bash
+# Rust 1.85+ gerektirir (rustup kurulumu için Adım 4B'ye bakın)
+sudo apt install -y clang libclang-dev protobuf-compiler
+cargo install --locked --git https://github.com/zcash/wallet.git
+```
+Zallet'in crate'leri alpha aşamasında henüz crates.io üzerinde yayımlanmadığı için git reposundan doğrudan kurulum, Docker dışındaki desteklenen yöntemdir.
 
-Şimdi Raspberry Pi 4'ünüze bağlanmamız gerekiyor. İhtiyacımız olanlar:
+## Adım 6: Zallet'i yapılandırın
+Seçtiğiniz veri dizininde (örneğin `/mnt/zcash-data/zallet`) `zallet.toml` oluşturun:
+```toml
+[builder.limits]
+[consensus]
+network = "main"
+[database]
+[external]
+[features]
+as_of_version = "0.0.0"
+[features.deprecated]
+[features.experimental]
+[indexer]
+validator_address = "127.0.0.1:8232"   # Zebra'nın JSON-RPC uç noktası
+[keystore]
+[note_management]
+[rpc]
+bind = ["127.0.0.1:SOMEPORT"]
+```
+Zebra farklı bir host/port üzerinde çalışıyorsa `validator_address` değerini ayarlayın ve `[indexer]` altında `validator_cookie_auth`/`validator_user`/`validator_password` ayarlarını Zebra RPC kimlik doğrulama kurulumunuza uyacak şekilde yapılandırın.
 
-```markdown
-* Username and pw (from previous step)
-* IP address so we can use SSH
-* Monitor, and keyboard (optional)
-* If you have a monitor and keyboard connected directly to your pi, the rest of this section can be skipped.
+**zcashd'den mi geçiyorsunuz?** Hâlâ eski bir `zcash.conf` dosyanız varsa:
+```bash
+zallet migrate-zcash-conf --datadir /path/to/old/zcashd/datadir -o /mnt/zcash-data/zallet/zallet.toml
 ```
 
-IP adresinizi bulmanın iki yolu vardır: yönlendiricinizin yönetici sayfası üzerinden veya `nmap` ile. Yönlendiriciyi kullanıyorsanız, bu hangi üretici olduğuna bağlıdır; bu ayrıntılar için sizi hızlı bir Google aramasına yönlendireceğim. `nmap` için önce kurulu olduğundan emin olun:
-
-`sudo apt-get install nmap`
-     
-Mevcut bilgisayarınızın IP adresini bulun ve ilk üç bölümü not edin. Bu genellikle `192.168.1.xxx` veya `192.168.50.xxx` şeklindedir. Bu ayrıntıları aşağıdaki gibi `nmap` içine girin:
-          
-`sudo nmap -sn 192.168.50.0/24`
-
-Çevrilecek Markdown parçası eksik görünüyor. Lütfen fragmenti gönder; yalnızca Türkçe çeviriyi döndüreceğim.
-
-`sudo nmap -sn 192.168.1.0/24`
-
-Bu, ev ağınıza bağlı tüm cihazları gösterecektir; bu da Raspberry Pi 4’ünüzün IP adresini / MAC adresini ortaya çıkarmalıdır. Kullanıcı adınızı, parolanızı ve IP adresinizi kullanarak artık SSH ile giriş yapabiliriz.
-
-```markdown
-* ssh <username>@<ip address of your pi> note: you must plugin *your* username and *your* IP address, and *your* pw when prompted.
-* For example: `ssh ubuntu@192.168.1.25 where the username is *ubuntu* and IP address is 192.168.1.25.
+## Adım 7: Cüzdan şifrelemesini kurun
+Zallet, tüm anahtar materyalini `age`/`rage` kullanarak şifreler:
+```bash
+cargo install rage
+rage -p -o /mnt/zcash-data/zallet/encryption-identity.txt <(rage-keygen)
 ```
+Bu bir açık anahtar ve otomatik oluşturulmuş bir parola üretir — **parolayı kaydedin; identity dosyasını onsuz kurtaramazsınız.**
 
-
-<img src="/content-images/197372846-e1279388-eaaa-4fbb-8d5d-f9928c-caf89ea305.webp" alt="sshLogin" width="400" height="400"/>
-       
-
-Hangi Raspberry Pi sürümünü kullandığınızı merak ediyorsanız, şu komutu deneyin:
-
-`cat /sys/firmware/devicetree/base/model ; echo`
-
-<img src="/content-images/197689888-367c8eb3-2667-4c8c-85b3-44d46a-ef72475028.webp" alt="which" width="700" height="400"/>
-
-         
-
-### *zcashd* Kurulumu
-
-zcashd kurmanın iki yolu vardır: önceden derlenmiş bir ikili dosya indirmek veya zcashd’i kaynak koddan derlemek. Ben *kesinlikle* kaynak koddan derlemenizi tavsiye ederim. Kendiniz derleyecekseniz, çapraz derleme yapmanız şiddetle önerilir. Çapraz derleme, bir platformda başka bir platformda çalışacak bir ikili dosya oluşturmaktır. Bunun bir nedeni de Raspberry Pi 4’lerin düşük güçlü olması ve bu yüzden çok hızlı olmamasıdır! Bu konuda yardımcı olması için ana bilgisayarınızın gücünden yararlanın. En son sürümü [buradan](https://github.com/zcash/zcash/releases) alabilirsiniz. Çapraz derleme yapmak için gerekli paketlere sahip olduğumuzdan emin olmamız gerekir. Aşağıdakileri yükleyin:
+## Adım 8: Cüzdanı başlatın ve çalıştırın
+```bash
+zallet -d /mnt/zcash-data/zallet init-wallet-encryption
+zallet -d /mnt/zcash-data/zallet generate-mnemonic
+```
+Birden fazla bağımsız harcama kökü istemediğiniz sürece `generate-mnemonic` komutunu **yalnızca bir kez çalıştırın**.
 
 ```bash
-sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python3 python3-zmq zlib1g-dev curl bsdmainutils automake libtinfo5
-sudo apt-get install gcc-aarch64-linux-gnu
+zallet -d /mnt/zcash-data/zallet start
 ```
 
-Ardından yeni indirilen zcashd sürümünün dizinine geçin ve şunu çalıştırın:
-
-`HOST=aarch64-linux-gnu ./zcutil/build.sh`
-          
-
-### Kurulum *zcashd*
-
-<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
-  <iframe
-    className="w-full h-full"
-    src="https://www.youtube.com/embed/9t2LX3HFldw"
-    title="Zcashd Wallet Tool - Generate & Import Private Key"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowFullScreen
-    loading="lazy"
-  />
-</div>
-
-Lütfen çevrilecek Markdown parçasını gönderin.
-
-Şimdi tüm zcashd ikili dosyalarını Raspberry Pi 4’ünüze aktarmamız gerekiyor. Zcashd v5.3 itibarıyla gerekli dosyalar şunlardır:
-
-```markdown
-zcashd
-zcash-cli
-zcash-tx
-zcash-gtest
-zcash-inspect
-zcashd-wallet-tool
-fetch-params.sh
-```
-
-Bu dosyalar, eğer kendiniz derlediyseniz en son sürüm indirme konumunuzun `/src` dizininde bulunur. Aksi takdirde, önceden derlenmiş dosyalar onları indirdiğiniz yerde bulunur. Aktarımları gerçekleştirmenin iki yolu ise SFTP kullanmak veya Harici sürücünüzü kullanmaktır.
-
-#### SFTP
-
+## Adım 9: Mevcut bir zcashd cüzdanını taşıma (isteğe bağlı)
 ```bash
-sftp username@<ip of RaspberryPi4>
-put zcash*
+zallet -d /mnt/zcash-data/zallet migrate-zcashd-wallet --zcashd-datadir /path/to/old/zcashd/datadir
 ```
-   
-#### Harici Kopya
-     
-Dosyaları Raspberry Pi 4'e takmadan önce harici diske kopyalamanız yeterlidir. Zaten senkronize edilmiş tam bir düğümünüz varsa ve zaman kazanmak istiyorsanız, `blocks` ve `chainstate` verilerini de kopyalayabilirsiniz.
-   
-` cd ~/.zcash/`
-     
-Sadece şunu çalıştırın:
+Bu, `db_dump` yardımcı aracını gerektirir (Berkeley DB 6.2.23'e karşı derlenmiş) — sistem kurulumu veya zcashd'nin yerel kaynak derlemesinden. Artık zcashd kurulu değilse, bu henüz Zallet içinde tamamen kendi kendine yeterli olmayan tek taşıma adımıdır.
 
+## Adım 10: Her şeyin çalıştığını doğrulayın
 ```bash
-tar -zcvf blocks.tar.gz /blocks
-tar -zcvf chainstate.tar.gz /chainstate
+zallet -d /mnt/zcash-data/zallet help
 ```
-     
-Blokları ve chainstate `.gz` dosyalarını Harici SSD/HDD’nize kopyalayın. Ardından, görebilmeniz için Harici SSD/HDD’yi Media klasörüne bağlayın:
+Cüzdanın yanıt verdiğini ve Zebra senkronizasyonu tamamladıktan sonra bakiyelerin/adreslerin beklendiği gibi olduğunu doğrulayın.
 
-```markdown
-lsblk will display all drives connected. Most will be of the format sda
-id will show your user and group id's.
-```
-          
-<img src="/content-images/197372643-abef88fd-9177-4bf9-abda-3c2211-e354e8ff47.webp" alt="lsblk" width="400" height="400"/>
+## Sorun giderme
+- **ARM üzerinde Zebra derleme/çalışma zamanı sorunları:** Kaynak koddan derliyorsanız Rust ARM toolchain'ini kurun — Zebra'nın kendi belgelerine göre, ARM donanımı üzerinde x86_64 derleme araçlarını çalıştırmak belirgin şekilde daha yavaş olacaktır.
+- **Depolama alanının dolması:** Zebra'nın yaklaşık 300 GB'lık alan kullanımı büyümeye devam eder — buna göre boş alan planlayın.
+- **Docker izin hataları:** Kullanıcınızı `docker` grubuna ekledikten sonra çıkış yapıp tekrar giriş yapın veya bu arada `sudo` kullanın.
+- **Zallet container'ında shell yok:** Resmi `zodlinc/zallet` image'ı tasarım gereği from-scratch'tır — her zaman `--datadir` parametresini açıkça verin ve veri dizininizi bir volume olarak mount edin.
 
+## Eski zcashd rehberine kıyasla donanım notları
+Önceden derlenmiş binary'ler/container'lar çalıştırdığınız için Zebra ve Zallet, kurulum sırasında genel olarak zcashd derlemeye kıyasla CPU açısından daha hafiftir. 4 GB RAM makul bir başlangıç noktasıdır; `htop` ile izleyin ve yoğun swap görürseniz 8 GB'lık Pi 4 varyantını değerlendirin.
 
-          
-`sudo mount -o umask=0077,gid=<groupid>,uid=<userid> /dev/sda1 /media/portableHD/`
-          
-Hem klasörlerin/dosyaların sahipliğine hem de izinlere dikkat edin.
+## Ek kaynaklar
+- [Zebra Kitabı](https://zebra.zfnd.org) — resmi Zebra belgeleri
+- [Zallet Kitabı](https://zcash.github.io/wallet) — resmi Zallet belgeleri
+- [zcashd Destek Sonu bildirimi](https://z.cash/support/zcashd-deprecation)
 
-```bash
-sudo chown -R <username>: portableHD
-sudo chmod -R 600 portableHD/
-```
-     
-Diğer bilgisayarınızdan blokları ve chainstate `.gz` dosyalarını kopyaladıysanız, şimdi bunların arşivini açın. Harici sürücünüzdeki `.zcash` klasöründe olduklarından emin olun.
+---
 
-```bash
-tar - xvzf blocks.tar.gz
-tar - xvzf chainstate.tar.gz
-```
-
-
-Kurulum /media/portableHD/.zcash/zcash.conf
-
-<img src="/content-images/197373699-18cc2c9f-b47d-44e9-9e6b-4c5ccc-3dac42f3c0.webp" alt="zconf" width="700" height="400"/>
-
-
- 
-Veri dizinini, çok daha fazla kullanılabilir alana sahip Harici SSD/HDD'ye nasıl taşıdığımıza dikkat edin. Varsayılan `.zcash` klasör konumu taşındığı için, sembolik bağlantılar kullanarak bunu *zcashd*'a bildirmemiz gerekiyor:
-
-```markdown
-cp -rp ~/.zcash/* /new_dir         // Make copy of datadir or supply with an external HD
-rm -rf ~/.zcash                    // Remove default folder
-ln -s /media/portableHD/ ~/.zcash  // Symbolic link new data location to the default so zcashd is happy
-```
-   
-
-zcashd için gerekli verileri indirmek üzere fetch-params.sh betiğini çalıştırın
-   
-`./fetch-params.sh`
-
-
-Linux'ta yeni bir `screen` [ programı ] başlatın. zcashd'yi `-datadir` ayarlanmış şekilde açın:
-
-```bash
-screen -S zcashScreen`     
-./zcashd -datadir=/media/portableHD/.zcash/
-```
-     
-Ekranı çıkarın:
-
-`Ctrl+a , Ctrl+d`
-
-
-Tüm bu ek veri konumu komutlarını yazmak zorunda kalmamak için bir takma ad oluşturun.
-
-`alias zcash-cli="./zcash-cli -datadir=/media/portableHD/.zcash/"`
-
-
-Kullanıma hazır!
-
-`zcash-cli getblockchaininfo`
-
-<img src="/content-images/197373098-672aa228-d180-47ea-8a7c-c58dc3-bf85ac08fb.webp" alt="getblockchaininfo" width="400" height="400"/>
-
-
-
-### *zcashd* Kullanımı
-
-<iframe class="w-full h-auto md:h-96" src="https://www.youtube.com/embed/KNhd1KC0Bqk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Kaynak Markdown parçası mesajda yer almıyor. Çeviriyi yapabilmem için İngilizce Markdown FRAGMENT’ini göndermeniz gerekiyor.
-
-Düğümünüzün durumunu nasıl kontrol edersiniz?
-
-`tail -n 500 <path to>/.zcash/debug.log`
-
-<img src="/content-images/197684416-9a083de4-4a62-4fe8-9cab-798781-c1755f3f91.webp" alt="status" width="700" height="400"/>
-
-
-  
-     
-Logunuzdan mevcut yüksekliği almak için
-
-`tail -n 10 <path to>/.zcash/debug.log | grep -o  'height=[^b]*'`
-
-<img src="/content-images/199630447-6a6cd491-0cb3-47f8-95f0-45f6b6-dc7b671d5a.webp" alt="logHeight" width="500" height="400"/>
-
-
-     
-`zcash-cli getinfo`
-  
-<img src="/content-images/199646508-132da0eb-899e-49a6-8b31-e9011e-839cbe5c04.webp" alt="getInfo" width="400" height="400"/>
-
-     
-     
-Bir memo nasıl gönderirsiniz? [burada](https://zcash.readthedocs.io/en/latest/rtd_pages/memos.html)] görüldüğü gibi, *ascii2hex* ve *hex2ascii* dosyalarını indirin ve bunları çalıştırılabilir yapın
-
-`chmod +x ascii2hex hex2ascii`
-          
-Bir not oluştur ve onu hex'e dönüştür. Test etmek için tekrar ascii'ye dönüştürebilirsin.
-          
-<img src="/content-images/199646812-782142d6-8846-443a-8dd9-4f332e-a552c26229.webp" alt="asciiGOOD" width="400" height="400"/>
-
-
-  
-Yukarıdaki memo’nuzun hex sürümünü kullanarak bir z2z işlemi (Sapling) oluşturun
-
-`zcash-cli z_sendmany "ztestsapling1kg3u0y7szv6509732at34alct46cyn0g26kppgf2a7h5tpqxldtwm7cmhf8rqmhgt" "[{\"address\": \"ztestsapling2kg3u0y7szv6509732at34alct46cyn0g26kppgf2a7h5tpqxldtwm7cmhf8rqmhgtmpakcz5mdv\",\"amount\": 0.0001, \"memo\":\"5A656348756221\"}]"`
-
-Ayırdıktan sonra `zcashScreen` oturumunuzu nasıl yeniden başlatırsınız?
-
-`screen -r zcashScreen`
-     
-*zcashd* nasıl durdurulur?
-
-`zcash-cli stop`
-     
-Bir UA'yı nasıl oluşturursunuz?
-
-`zcash-cli z_getnewaccount`
-     
-<img src="/content-images/202352436-04c17be2-e914-4b9b-95d1-00cf6f-2d1a6ea572.webp" alt="newAccount" width="400" height="400"/>
-
-    
-Şimdi *ihtiyaçlarınıza* göre bir UA alıcısı oluşturun. Buna yalnızca Orchard, Orchard + Sapling ve son olarak Orchard + Sapling + Transparent dahildir. Alıcılar arasındaki farkı uzunluklarına bakarak anlayabileceğinizi unutmayın.
-     
-<img src="/content-images/202354319-2da6be33-ca95-4b6b-b29c-14805d-f0c8acd281.webp" alt="chars" width="200" height="100"/>
-
-
-`zcash-cli z_getaddressforaccount 0 '["orchard"]'`
-     
-<img src="/content-images/202353642-c36b5fea-de8a-41f6-a27c-d9ff42-5231dccf56.webp" alt="uaOrchard" width="400" height="400"/>
-
-<img src="/content-images/202355586-eaeb36e7-b000-4b99-8192-81e500-de15c07940.webp" alt="OrchQR" width="400" height="400"/>
-
-`zcash-cli z_getaddressforaccount 0 '["orchard","sapling"]'`
-     
-<img src="/content-images/202353732-740828e3-77b8-4684-8cf8-fb1425-b1591ddd68.webp" alt="uaOrchardSapling" width="400" height="400"/>
-<img src="/content-images/202355596-c7b62854-9a9e-4627-ab5d-510913-e280eee165.webp" alt="OrchSapQR" width="300" height="200"/>
-
-
-`zcash-cli z_getaddressforaccount 0 '["orchard","sapling","p2pkh"]'`
-     
-<img src="/content-images/202353793-3331c593-5286-4b84-93a7-adc492-c7730e3b3e.webp" alt="uaFull" width="400" height="400"/>
-<img src="/content-images/202355607-75de0750-2a57-4e10-883b-e0a626-2600e9b182.webp" alt="FullQR" width="400" height="400"/>
-
-
-Bir UA kullanarak ZEC nasıl gönderirsiniz?
-
-`zcash-cli z_sendmany "fromOaddress" "[{\"address\": \"dOrchardAddress\",\"amount\": 0.0001, \"memo\":\"yourMemoinHex\"}]" <minconf> <fee> <privacyPolicy>`
-
-<img src="/content-images/202365280-c184f622-eb7e-4095-bc38-907951-97c10ec6c2.webp" alt="UAsuccess" width="400" height="400"/>
-<img src="/content-images/202366758-40650460-aaeb-4e03-891f-b4bd08-31378cf6ff.webp" alt="pic" width="400" height="400"/>
-
-    
-##### Hem *gönderen* hem de *alıcı* adreslerinin transparent, sapling veya orchard adresleri olabileceği unutulmamalıdır; ancak işlemin geçerli olması için `privacyPolicy` bayrağını buna göre ayarlamanız gerekebilir. (`privacyPolicy` mantıklı değilse bazı kombinasyonlar çalışmaz!)
-
-
-UA'lar hakkında daha fazla bilgiyi nerede bulabilirim?
-
-> [Hanh'ın](https://medium.com/@hanh425/transaction-privacy-78f80f9f175e) işlem gizliliği hakkındaki gönderisine göz atın. Ayrıca zcash forumundaki [bu](https://forum.zcashcommunity.com/t/unified-addresses-full-node-rpc-api/41980/2) gönderiye de bakın.
-
-> [Bu](https://github.com/zcash/zips/issues/470)
-
-     
-### Kaynaklar
-
-<div>
-
-- https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview
-- https://github.com/zcash/zcash
-- https://zcash.readthedocs.io/en/latest/rtd_pages/Debian-Ubuntu-build.html
-- https://zcash.readthedocs.io/en/latest/rtd_pages/memos.html
-- https://en.wikipedia.org/wiki/Secure_Shell
-- https://itsfoss.com/how-to-find-what-devices-are-connected-to-network-in-ubuntu/
-- https://youtu.be/YS5Zh7KExvE
-- https://twitter.com/BostonZcash/status/1531798627512877059
-- https://forum.zcashcommunity.com/t/unified-addresses-full-node-rpc-api/41980/2
-- https://medium.com/@hanh425/transaction-privacy-78f80f9f175e
-- https://znewsletter.netlify.app/
-- https://github.com/zcash/zips/issues/470
-- https://zips.z.cash/protocol/nu5.pdf#unifiedpaymentaddrencoding
-
-</div>
+*Bu rehberi faydalı bulduysanız, ZecHub'ı desteklemeyi düşünebilirsiniz: [güncel ZecHub shielded bağış adresini zechub.wiki/donation sayfasından ekleyin — hâlâ güncel olduğunu doğrulayamadığım için buraya eklenmedi].*

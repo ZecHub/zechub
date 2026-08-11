@@ -61,7 +61,7 @@ Bi o tilẹ jẹ pe imọ-ẹrọ nla ni, a ṣe iṣeduro pe ki o lo awọn b�
 
 Ṣayẹwo ẹkọ yii lori wiwo awọn bọtini. Akojọ awọn orisun lori koko-ọrọ wa ni isalẹ ti o ba fẹ lati jinlẹ jinlẹ:
 
-- [ECC, Ó Ń Ṣàlàyé Àwọn Kíkọ́ni Láti Rí I]](https://electriccoin.co/blog/explaining-viewing-keys/)
+- [ECC, Ó Ń Ṣàlàyé Àwọn Kíkọ́ni Láti Rí I](https://electriccoin.co/blog/explaining-viewing-keys/)
 - [ECC, Ṣiṣafihan Aṣayan ati Awọn bọtini wiwo](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
 - [ECC, Zcash Viewing Key Video Presentation](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
 - [ZIP 310](https://zips.z.cash/zip-0310)

@@ -24,9 +24,9 @@ All nodes, lightwalletd instances and other infrastructure is freely accessible 
 
 - [Zcash Ka àwọn ìwé](https://zcash.readthedocs.io/en/latest/)
 
-- [Ìwé Zebra]](https://zebra.zfnd.org)
+- [Ìwé Zebra](https://zebra.zfnd.org)
 
-- [Àwọn Àkọsílẹ̀ Ìkànnì Akash]](https://akash.network/docs/)
+- [Àwọn Àkọsílẹ̀ Ìkànnì Akash](https://akash.network/docs/)
 
 - [Ṣiṣeto Zcashd lori Nẹtiwọọki Akash](https://zechub.wiki/guides/how-to-run-zcashd-on-akash-network)
 
@@ -34,7 +34,7 @@ All nodes, lightwalletd instances and other infrastructure is freely accessible 
 
 - [Àlàyé nípa ZIP-321](https://zips.z.cash/zip-0321)
 
-Ti o ba nilo imọran jinlẹ lati ọdọ awọn olupilẹṣẹ Zcash o le ṣe ifiweranṣẹ lori [Awọn apejọ Agbegbe]](https://forum.zcashcommunity.com).
+Ti o ba nilo imọran jinlẹ lati ọdọ awọn olupilẹṣẹ Zcash o le ṣe ifiweranṣẹ lori [Awọn apejọ Agbegbe](https://forum.zcashcommunity.com).
 
 
 

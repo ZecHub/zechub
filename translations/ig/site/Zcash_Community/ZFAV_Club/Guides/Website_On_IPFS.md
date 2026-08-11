@@ -39,7 +39,7 @@ Maka ihe atụ a anyị na-ekebe weebụsaịtị dị mfe.
 
 ## Ịtọlite Njikọ
 
-Budata ma wụnye IPFS site na [Official website]](https://docs.ipfs.tech/install/ipfs-desktop/).
+Budata ma wụnye IPFS site na [Official website](https://docs.ipfs.tech/install/ipfs-desktop/).
 
 
 

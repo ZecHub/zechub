@@ -226,4 +226,4 @@ N'iji tebụl e nyochara enyocha dị na Nkebi nke 3, gịnị bụ `9G + 10G` G
 
 **Article 3 . Hashing and commitments:** we'll open up the "magic sealed envelope" properly. You've now seen one way to build a commitment from curve points; next we ask what hiding and binding really mean, meet hash functions, and connect both to the note commitments that anchor every Zcash payment.
 
-* Akụkụ nke usoro Zcash sitere na First Principles * maka [ZecHub]](https://zechub.org)Akwụkwọ ikike CC BY-SA 4.0.*
+* Akụkụ nke usoro Zcash sitere na First Principles * maka [ZecHub](https://zechub.org)Akwụkwọ ikike CC BY-SA 4.0.*

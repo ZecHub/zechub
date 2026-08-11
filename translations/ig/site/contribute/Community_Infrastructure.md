@@ -30,7 +30,7 @@ All nodes, lightwalletd instances and other infrastructure is freely accessible 
 
 - [Ịtọlite Zcashd na Akash Network](https://zechub.wiki/guides/how-to-run-zcashd-on-akash-network)
 
-- [A kọwara arịrịọ ịkwụ ụgwọ Zcash (vidiyo) ]](https://www.youtube.com/watch?v=l5auYQIzYsQ)
+- [A kọwara arịrịọ ịkwụ ụgwọ Zcash (vidiyo) ](https://www.youtube.com/watch?v=l5auYQIzYsQ)
 
 - [ZIP-321 nkọwapụta](https://zips.z.cash/zip-0321)
 

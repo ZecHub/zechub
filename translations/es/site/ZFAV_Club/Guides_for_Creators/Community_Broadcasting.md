@@ -29,7 +29,7 @@ La interfaz de VOD.Ninja es simple: solo abre VDO.Ninja en el navegador web de t
 Comienza yendo a [VDO.ninja](http://VDO.ninja) con tu navegador web en una computadora de escritorio o laptop.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8ded1b54-602b-4e66-af92-127990eff723/Screenshot_2023-08-23_162222/w=3840,quality=80" alt="" width="300" height="400"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="300" height="400"/>
 </a>
 
 
@@ -38,20 +38,20 @@ Para crear una nueva sala y dirigir la transmisión en vivo de tu propia llamada
 La siguiente pantalla te pedirá información básica para configurar tu sala.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ae698696-7b4d-458e-8de0-58a198c36e73/Screenshot_2023-08-23_183900/w=3840,quality=80" alt="" width="400" height="400"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
 </a>
 
 Una vez que se crea una sala, el director tiene muchas opciones de control disponibles en la siguiente pantalla.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/35b43544-5114-4e74-ac41-9e8993fe62ea/Screenshot_2023-08-23_184015/w=3840,quality=80" alt="" width="400" height="400"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
 </a>
 
 
 Cuando las personas se unen a tu sala, tú, como director, verás aparecer todas las opciones de fuentes y controles junto con su video y audio.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2247f187-b005-478e-9e5e-471cb8f070d3/Screenshot_2023-08-23_194136/w=3840,quality=80" alt="" width="400" height="300"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="300"/>
 </a>
 
 

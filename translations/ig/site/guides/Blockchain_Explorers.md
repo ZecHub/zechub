@@ -78,16 +78,16 @@ Ndị a bụ ezigbo ihe atụ anọ nke ndị nchọpụta dị iche iche nke bl
 * [Mintscan](https://hub.mintscan.io/chains/ibc-network)
 
 
-[BitcoinExlporer]](/content-images/206279968-a06eb0a1-b3a6-49af-a30f-7d871b-1418d95d28.webp)
+[BitcoinExlporer](/content-images/206279968-a06eb0a1-b3a6-49af-a30f-7d871b-1418d95d28.webp)
 
 
-[EthExplorer]](/content-images/206280208-2ce5eddd-157e-4eed-90a0-680c15-488292c345.webp)
+[EthExplorer](/content-images/206280208-2ce5eddd-157e-4eed-90a0-680c15-488292c345.webp)
 
 
-[ZcashExplorer]](/content-images/206280454-a2c7563f-e82d-47b9-9b58-02eece-76db7aec4c.webp)
+[ZcashExplorer](/content-images/206280454-a2c7563f-e82d-47b9-9b58-02eece-76db7aec4c.webp)
 
 
-[Eluigwe na ụwa]](/content-images/206316791-2debfd28-923a-44f4-b7d3-701182-cf39a065fc.webp)
+[Eluigwe na ụwa](/content-images/206316791-2debfd28-923a-44f4-b7d3-701182-cf39a065fc.webp)
 
 
 

@@ -227,4 +227,4 @@ In `F_7`, ihe bụ `5 - 6`(Cheta: nọrọ n'ime ụlọ `{0,...,6}` site n'ịt
 
 **Article 2 . Elliptic curves:** we take the finite field we just built and use it to draw a strange kind of curve whose points can be "added" together. Those points become Zcash's keys and commitments, and they hide a one-way trapdoor that makes the whole privacy system possible. Intuition first, as always.
 
-* Akụkụ nke usoro Zcash sitere na First Principles * maka [ZecHub]](https://zechub.org)Akwụkwọ ikike CC BY-SA 4.0.*
+* Akụkụ nke usoro Zcash sitere na First Principles * maka [ZecHub](https://zechub.org)Akwụkwọ ikike CC BY-SA 4.0.*

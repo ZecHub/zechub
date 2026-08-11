@@ -22,7 +22,7 @@ Owo ti o rọrun-kan-tẹ ni aabo ati eto aaye tita fun awọn ile itaja biriki 
 
 The Global Ambassador program helps Zcash gain broader representation internationally and for in-person community events around the world. 
 
-Àwọn iṣẹ́ mìíràn tí Ìgbìmọ̀ Ètò Ìdámọ̀ràn Zcash tún ti ṣàyẹ̀wò, wo [Àtòjọ Pípé, Àtúnṣe]](https://docs.google.com/spreadsheets/d/1FQ28rDCyRW0TiNxrm3rgD8ai2KGUsXAjPieQmI1kKKg/edit?gid=135980745#gid=135980745) àwọn ìwé ìròyìn tí wọ́n fi ránṣẹ́.
+Àwọn iṣẹ́ mìíràn tí Ìgbìmọ̀ Ètò Ìdámọ̀ràn Zcash tún ti ṣàyẹ̀wò, wo [Àtòjọ Pípé, Àtúnṣe](https://docs.google.com/spreadsheets/d/1FQ28rDCyRW0TiNxrm3rgD8ai2KGUsXAjPieQmI1kKKg/edit?gid=135980745#gid=135980745) àwọn ìwé ìròyìn tí wọ́n fi ránṣẹ́.
 
 ## Ètò Ìṣètò
 

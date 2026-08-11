@@ -1,10 +1,22 @@
-<a href="https://github.com/ZecHub/zechub/new/main/site/Using_Zcash/Zallet_Quick_Reference_Guide.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Zallet_Quick_Reference_Guide.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Zallet Quick Reference Guide
 
-## RPC Commands
+## TL;DR
+
+- Zallet is a full-node Zcash wallet written in Rust. It replaces the wallet that used to live inside zcashd.
+- zcashd reached its End-of-Support halt on 18 July 2026 and no longer runs. Zebra now handles the node side; Zallet handles the wallet side.
+- You drive Zallet from the command line with `zallet rpc <command>`, much as you used `zcash-cli` before.
+- Every argument after the command name must be valid JSON, which means string values keep their double quotes.
+- Zallet is still in alpha. Commands can change between releases, and not every zcashd RPC has been ported across yet.
+
+## Core Explanation
+
+Zallet exposes its functionality through JSON-RPC, the same interface style the zcashd wallet used. Anything you want the wallet to do — check a balance, create an account, send a shielded payment — is a command you pass to `zallet rpc`.
+
+Two things differ from the old `zcash-cli` habit and account for most early mistakes. First, arguments must be valid JSON rather than bare text, so a string argument carries its own quotation marks inside the shell quotes. Second, the set of available commands depends on which alpha release you are running, so the list built into your binary is more reliable than any written page, including this one.
 
 To list all available RPCs:
 
@@ -21,7 +33,14 @@ zallet rpc help '"<command>"'
 > **Important:** Every argument after the method name **must be valid JSON**.  
 > String values must be written as `"value"` (including the double quotes).
 
----
+## Common Mistakes
+
+- **Dropping the inner quotes on string arguments.** `zallet rpc validateaddress u1abc...` fails, because the address has to arrive as JSON. It needs to be written `'"u1abc..."'`.
+- **Assuming every zcashd RPC exists here.** Porting is still in progress. Some methods behave identically, some need different usage, and some will not be carried over at all.
+- **Treating this page as authoritative over your binary.** Zallet is in alpha and moves quickly. When a command here does not work, check `zallet rpc help` before assuming something is broken.
+- **Expecting Zallet to be a node.** It is the wallet half of the pair. Zebra runs the node, and Zallet talks to it.
+
+## RPC Commands
 
 ### decoderawtransaction
 
@@ -450,3 +469,13 @@ zallet rpc z_viewtransaction '"<txid>"'
 | Parameter | Type   | Required | Description     |
 |-----------|--------|----------|-----------------|
 | txid      | string | yes      | Transaction ID  |
+
+---
+
+## Related Pages
+
+- [Migration Guide: Zcashd to Zebrad and Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — step-by-step move from an existing zcashd setup
+- [Zebra Full Node](/zcash-tech/zebra-full-node) — the node implementation Zallet works alongside
+- [Full Nodes](/zcash-tech/full-nodes) — what running a full node involves and why you might want one
+- [Wallets](/using-zcash/wallets) — lighter wallet options if a full node is more than you need
+- [Transactions](/using-zcash/transactions) — how shielded and transparent transactions differ

@@ -176,4 +176,4 @@ N'osisi anyị nwere akwụkwọ anọ, ka e were ya na onye na-awakpo anyị zo
 
 **Article 5 . Zero-knowledge proofs:** the crescendo. We've now built notes, commitments, and the tree, and we keep saying "proven in zero knowledge." Article 5 finally explains how you can prove a statement is true, that your note is in the tree, that your nullifier is correct, that money balances, while revealing none of it.
 
-* Akụkụ nke usoro Zcash sitere na First Principles * maka [ZecHub]](https://zechub.org)Akwụkwọ ikike CC BY-SA 4.0.*
+* Akụkụ nke usoro Zcash sitere na First Principles * maka [ZecHub](https://zechub.org)Akwụkwọ ikike CC BY-SA 4.0.*

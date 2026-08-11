@@ -21,7 +21,7 @@ Nẹtiwọọki I2P, tí a tún mọ̀ sí [Invisible Internet Project](https://
 
 Both Tor and I2P are decentralized and anonymous peer-to-peer networks, but I2P provides higher levels of security compared to Tor. However, I2P is primarily designed for accessing services like email, chat, and torrenting within its network and cannot be used to access the regular internet. On the other hand, Tor allows users to access the deep web, just like I2P, but it also functions as a regular browser for accessing websites on the surface web.
 
-*Àkíyèsí: fún àlàyé síwájú sí i lórí àwọn ìṣẹ̀lẹ̀ tó jọra àti ìyàtọ̀ tó wà nínú Tor & I2P, lọ sí [bíi]](https://geti2p.net/en/comparison/tor)*
+*Àkíyèsí: fún àlàyé síwájú sí i lórí àwọn ìṣẹ̀lẹ̀ tó jọra àti ìyàtọ̀ tó wà nínú Tor & I2P, lọ sí [bíi](https://geti2p.net/en/comparison/tor)*
 
 ## Lílo Tor pẹ̀lú Ywallet lórí fóònù alágbèéká
 
@@ -39,7 +39,7 @@ Tẹ̀lé àwọn ìtọ́ni tó wà nísàlẹ̀ yìí láti so Tor mọ́ àp�
 
 5. Ṣàkíyèsí ọ̀pá ìṣẹ́ tàbí ojú-ewé Orbot láti rí i pé Tor ń ṣiṣẹ́, èyí ni a jẹ́rìí sí nígbà tí o bá rí 'A so mọ́ nẹ́tàkì Tor'.
 
-* Fún ìtòlẹ́sẹẹsẹ fídíò [níbí]](https://drive.google.com/file/d/12ODTLrjgSzYFeAOTrv-P9LvfBVOvrSXK/view?usp=sharing)
+* Fún ìtòlẹ́sẹẹsẹ fídíò [níbí](https://drive.google.com/file/d/12ODTLrjgSzYFeAOTrv-P9LvfBVOvrSXK/view?usp=sharing)
 
 *Àkíyèsí: Bí Tor bá ti dí mọ́ ọ̀nà lórí ẹ̀rọ alágbèéká rẹ, o lè lo Olùpèsè Afárá gẹ́gẹ́ bí ọ̀na àtúnṣe láti so pọ̀.*
 
@@ -62,7 +62,7 @@ Zcashd is the official linux-based full-node wallet which is updated and maintai
 
 * Ojú-ìkànnì osise láti gba Zcashd Wallet là le ri [níbí](https://electriccoin.co/zcashd/) 
 
-* Fi apo apamọwọ sori ẹrọ: Asopọ si fidio Itọsọna [nibi]](https://www.youtube.com/watch?v=hTKL0jPu7X0) ti a pese nipasẹ awọn olupilẹṣẹ apamọwọ Zcash.
+* Fi apo apamọwọ sori ẹrọ: Asopọ si fidio Itọsọna [nibi](https://www.youtube.com/watch?v=hTKL0jPu7X0) ti a pese nipasẹ awọn olupilẹṣẹ apamọwọ Zcash.
 
 ##  Ṣiṣẹ Zcashd lori Tor 
 

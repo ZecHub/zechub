@@ -87,7 +87,7 @@ Lelantus na-eji ** One-of-Many Proofs ** ewepụta ụkpụrụ ntinye dị mkpa
 
 A na-ejikwa ihe akaebe ndị a na **Triptych** (nke a kpọtụrụ aha na isiokwu CryptoNote anyị).
 
-[Otu n'ime ọtụtụ ihe akaebe]](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
+[Otu n'ime ọtụtụ ihe akaebe](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
 
 ---
 

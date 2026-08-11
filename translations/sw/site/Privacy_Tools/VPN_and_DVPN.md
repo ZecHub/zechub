@@ -16,7 +16,7 @@ __Virtual Private Networks (VPNs)__: Traditional VPNs create a secure, encrypted
 
 __Decentralized VPNs (dVPNs)__: In contrast, dVPNs leverage blockchain and peer-to-peer technology to create a decentralized network of nodes. Users' traffic is routed through these nodes, making it difficult for any single entity to monitor or control the entire network. dVPNs are typically more resistant to censorship, as there is no centralized authority overseeing the network. They are well-suited for users seeking enhanced privacy and security.
 
-[DVPN]](/content-images/dvpn-89698d4cb9.webp)
+[DVPN](/content-images/dvpn-89698d4cb9.webp)
 
 
 # Mambo ya Kuzingatia Kuhusu Usalama Unapochagua VPN

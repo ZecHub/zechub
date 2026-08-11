@@ -110,4 +110,4 @@ Du kannst jetzt Mittel privat senden, ohne deine Identität offenzulegen.
 
 ## Nächster Schritt
 
-- [Datenschutz-Setup für Freelancer](/use-cases/freelancer-privacy-setup)
+- [Datenschutz-Setup für Freelancer](/zcash-use-cases/freelance-privacy-setup)

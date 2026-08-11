@@ -2,7 +2,7 @@
 
 Penumbra, Cosmos ekosisteminde yarışan, son teknoloji ürünü ve tamamen shielded bir layer-1 ağ olmak için var. Kullanıcılarının on-chain metadata’larını ifşa etmeden güvenli biçimde işlem yapmasını, stake etmesini, token swap etmesini ve market making yapmasını sağlar. Tamamen shielded bir blockchain olarak, gizlilikten veya merkeziyetsizlikten ödün vermeden web üzerinde de shielded işlemler sunar — Penumbra’da gizlilik varsayılandır; şeffaf işlemler veya şeffaf değer havuzu yoktur.
 
-![image.png](https://drive.google.com/file/d/16CcFQ1ZhG_pi4ENQuhFKPwN-J1diELRX/view?usp=drive_link)
+![image.png](/content-images/_unavailable.svg)
 
 ## Penumbra IBC’de kullanılan teknoloji 
 
@@ -10,7 +10,7 @@ IBC Entegrasyonu: İlk sırada, Penumbra’nın operasyonlarını mümkün kıla
 
 Zero-Knowledge Proofs (ZKPs): Penumbra, tüm işlemlerin gönderen, alıcı veya transfer edilen miktar gibi hiçbir ayrıntıyı açığa çıkarmadan doğrulanıp onaylanmasını sağlamak için zero-knowledge proof kriptografi teknolojisinden yararlanır.
 
-![image.png](https://drive.google.com/file/d/1BxY5PlHBdV5iwZDgi86Z4Jz6CEesSjvO/view?usp=drive_link)
+![image.png](/content-images/_unavailable.svg)
 
 Gizlilik Odaklı Merkeziyetsiz Borsa: Panumbra ağının merkezinde gizlilik yer alır. Ağ, finansal verileri korurken ve kullanıcılara işlem stratejilerinin ne kadarını açıklayacaklarını kontrol etme hakkı verirken; alım satım işlemlerinin ve kripto transferlerinin gizliliğini teşvik eden merkeziyetsiz bir borsa mekanizmasından yararlanabilir.
 

@@ -110,4 +110,4 @@ Ora puoi inviare fondi in modo privato senza esporre la tua identità.
 
 ## Passo successivo
 
-- [Configurazione della privacy per freelancer](/use-cases/freelancer-privacy-setup)
+- [Configurazione della privacy per freelancer](/zcash-use-cases/freelance-privacy-setup)

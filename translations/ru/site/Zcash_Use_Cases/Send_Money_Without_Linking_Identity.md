@@ -109,4 +109,4 @@ Zcash позволяет осуществлять **полностью прив�
 
 ## Следующий шаг
 
-- [Настройка приватности для фрилансера](/use-cases/freelancer-privacy-setup)
+- [Настройка приватности для фрилансера](/zcash-use-cases/freelance-privacy-setup)

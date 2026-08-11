@@ -33,15 +33,15 @@ Learn how to accept funds without exposing your identity or financial history.
 Avoid exposing your wallet, identity, or transaction graph when sending funds.
 
 
-###  [Freelancer Privacy Setup](/zcash-use-cases/freelancer-privacy-setup)  
+###  [Freelancer Privacy Setup](/zcash-use-cases/freelance-privacy-setup)
 Get paid in Zcash while keeping your clients and income private.
 
 
-###  [Accept Payments as a Merchant](/zcash-use-cases/accept-payment-as-a-merchant)  
+###  [Accept Payments as a Merchant](/zcash-use-cases/accept-payments-as-a-merchant)
 Accept payments using a shielded address and avoid exposing customer transaction data
 
 
-###  [Run a Private Community Treasury](/zcash-use-cases/run-a-private-community-treasury)
+###  [Run a Private Community Treasury](/zcash-use-cases/private-community-treasury)
 Use shielded addresses to hold shared funds and limit visibility of balances and transactions
 
 ###  [Journalist Privacy Setup](/zcash-use-cases/journalist-privacy-setup)   

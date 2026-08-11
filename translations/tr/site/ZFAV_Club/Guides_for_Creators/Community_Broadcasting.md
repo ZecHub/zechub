@@ -29,7 +29,7 @@ VOD.Ninja arayüzü basittir; mobil cihazınızın web tarayıcısında VDO.Ninj
 Masaüstü/dizüstü bilgisayarınızda web tarayıcınızla [VDO.ninja](http://VDO.ninja) adresine giderek başlayın.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8ded1b54-602b-4e66-af92-127990eff723/Screenshot_2023-08-23_162222/w=3840,quality=80" alt="" width="300" height="400"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="300" height="400"/>
 </a>
 
 
@@ -38,20 +38,20 @@ Yeni bir oda oluşturmak ve kendi community çağrısı canlı yayınınızı y�
 Bir sonraki ekranda odanızı kurmak için temel bilgiler istenecektir.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ae698696-7b4d-458e-8de0-58a198c36e73/Screenshot_2023-08-23_183900/w=3840,quality=80" alt="" width="400" height="400"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
 </a>
 
 Bir oda oluşturulduktan sonra, yönetmen olarak bir sonraki ekranda kullanabileceğiniz çok sayıda kontrol seçeneğiniz olur.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/35b43544-5114-4e74-ac41-9e8993fe62ea/Screenshot_2023-08-23_184015/w=3840,quality=80" alt="" width="400" height="400"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
 </a>
 
 
 İnsanlar odanıza katıldığında, yönetmen olarak tüm kaynak seçeneklerinin ve kontrollerin video ve sesleriyle birlikte göründüğünü göreceksiniz.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2247f187-b005-478e-9e5e-471cb8f070d3/Screenshot_2023-08-23_194136/w=3840,quality=80" alt="" width="400" height="300"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="300"/>
 </a>
 
 

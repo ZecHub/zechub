@@ -1,33 +1,22 @@
-# Zcash Ağ Yükseltmeleri 
+---
+# Zcash Ağ Yükseltmeleri
 
-Yıllar içinde Zcash, protokole önemli değişiklikler ve iyileştirmeler getirdi ve bugün bu yükseltmelerin her birini inceliyoruz:
+Zcash, ağ yükseltmeleri aracılığıyla gelişir: her düğümün üzerinde uzlaştığı kurallarda yapılan koordineli değişikliklerdir ve her biri belirli bir blok yüksekliğinde etkinleştirilir. Aşağıdaki her yükseltmenin, neyi değiştirdiğini ve nedenini sade bir dille açıklayan kendi sayfası vardır. Zcash'e yeni mi başladınız? Bunları Sprout'tan Ironwood'a doğru sırayla okuyun.
 
-[OverWinter:](https://bitzecbzc.github.io/blog/overwinter/index.html) 347500. blokta etkinleştirildi, 26 Haziran 2018'de kazıldı. Overwinter, ilk lansmandan sonra Zcash için ilk ağ yükseltmesiydi. Overwinter'ın temel amacı, gelecekteki ağ yükseltmeleri için protokolü güçlendirmekti. Overwinter'ın merkezinde ağ yükseltmeleri için tekrar oynatma koruması, sürümleme, şeffaf işlemler için performans iyileştirmeleri ve işlemlerin süresinin dolması şeklinde yeni bir özellik yer alır.
+Zcash'in gizliliğinin bu yükseltmeler boyunca görsel olarak nasıl evrildiğini görmek için [Gizliliğin Evrimi](https://zechub.wiki/zcash-evolution) sayfasına bakın. Bu sayfa dizindir. O sayfa ise zaman çizelgesidir.
 
+| Yükseltme | Etkinleştirme (UTC) | Blok | Branch id | Neyi değiştirdi |
+|---|---|---|---|---|
+| [Sprout](../zcash-tech/sprout) | 28 Ekim 2016 | genesis | 00000000 | Başlangıç: ilk shielded havuz ve zk-SNARK özel işlemleri |
+| [Overwinter](../zcash-tech/overwinter) | 26 Haziran 2018 | 347,500 | 5ba81b19 | Replay koruması, işlem sürümleme ve son kullanma süresi; böylece güvenli yükseltmeler mümkün oldu |
+| [Sapling](../zcash-tech/sapling) | 29 Ekim 2018 | 419,200 | 76b809bb | Verimli shielded işlemler; telefonlar ve donanım cüzdanları için yeterince hızlı |
+| [Blossom](../zcash-tech/blossom) | 11 Aralık 2019 | 653,600 | 2bb40e60 | Daha hızlı bloklar, yaklaşık 75 saniye, ve daha yüksek işlem kapasitesi |
+| [Heartwood](../zcash-tech/heartwood) | 16 Temmuz 2020 | 903,000 | f5b9230b | Shielded madencilik ödülleri ve daha hafif istemciler (FlyClient) |
+| [Canopy](../zcash-tech/canopy) | 18 Kasım 2020 | 1,046,400 | e9ff75a6 | Geliştirme Fonu, ilk yarılanma ve Sprout havuzunun kademeli olarak kapatılması |
+| [NU5](../zcash-tech/nu5) | 31 Mayıs 2022 | 1,687,104 | c2d6d0b4 | Halo 2 üzerinde Orchard havuzu (trusted setup yok), birleşik adresler ve v5 işlemleri |
+| [NU6](../zcash-tech/nu6) | 23 Kasım 2024 | 2,726,400 | c8e71055 | Ertelenmiş Geliştirme Fonu Lockbox'ı ve geliştirme fonlaması için yeni bir bölüşüm |
+| [NU6.1](../zcash-tech/nu6-1) | 24 Kasım 2025 | 3,146,400 | 4dec4df0 | Bu fonlamanın topluluk ve coin sahipleri tarafından yönetişimi |
+| [NU6.2](../zcash-tech/nu6-2) | 3 Haziran 2026 | 3,364,600 | 5437f330 | Orchard devresini düzelten acil bir düzeltme |
+| [Ironwood (NU6.3)](../zcash-tech/ironwood) | ~28 Temmuz 2026 | 3,428,143 | 37a5165b | Ironwood havuzu ve herkesin arzı denetlemesine olanak tanıyan herkese açık bir turnike |
 
-[Sapling:](https://coinbureau.com/analysis/zcash-sapling-upgrade/) 419200. blokta etkinleştirildi, 29 Ekim 2018'de kazıldı. Bu, Zcash ağı için ikinci büyük ve etkileyici yükseltmedir ve öncelikli olarak korumalı işlemler için zk-SNARKs verimliliğini artırmaya odaklanmıştır. Sapling sürümünün ortaya çıktığı dönemde, zk-SNARKs etrafında yükseltilebilirlik sorunlarından uygulama karmaşıklıklarına ve trusted setup gereksinimlerine kadar uzanan çeşitli zorluklar vardı. Neyse ki Sapling, zk-SNARK proof oluşturma verimliliğini artırarak kripto paranın potansiyel benimsenmesini genişletti; bugün bunun faydasını görüyoruz! Sapling için öngörülen bir diğer dikkat çekici düzenleme de (genel parametre üretim töreni) idi ve bu da Zcash ekibinin geliştirmek istediği konulardan biriydi. 
-
-
-[Zcash Blossom:](https://electriccoin.co/blog/blossom-upgrade-improves-speed-scalability-capacity/) 653600. blokta etkinleştirildi, 11 Aralık 2019'da kazıldı. Bu kritik ağ yükseltmesi, blok sürelerini yarıya indirerek yaklaşık 75 saniyeye düşürmek suretiyle ölçeklenebilirliği ve kullanıcı deneyimini iyileştirmek için tasarlandı. Sonuçları ne oldu? İşlem onayları daha hızlı hale geldi, ağ throughput'u iki katına çıktı ve işlem ücretleri düşük maliyetli oldu. Blossom yükseltmesi, Zcash ağının güvenlik ve güvenilirlik konusundaki yüksek standartlarını korurken ağ kapasitesini artırmak için pragmatik mühendislik kararları alabileceğini hemen göstermektedir. 
-
-
-[HeartWood:](https://electriccoin.co/blog/introducing-heartwood/) 903000. blokta etkinleştirildi, 16 Temmuz 2020'de kazıldı. Heartwood'un tek amacı, madencilerin ödülleri shielded adreslerde almasına olanak tanıyan shielded Coinbase sayesinde daha fazla üçüncü taraf entegrasyonunu ve gelişmiş gizliliği mümkün kılmaktır. Ayrıca Heartwood, geliştirilmiş ağ merkeziyetsizliği ve birlikte çalışabilirlik ile desteklenmektedir. Heartwood yükseltmesi ayrıca, hafif istemcilerin işlemleri verimli biçimde doğrulamasını sağlayan Flyclient'ı entegre etti; bu da ölçeklenebilirliği ve üçüncü taraf entegrasyonunu iyileştirdi. Shielded Coinbase olarak bilinen ZIP 213'ün, Coinbase fonlarının shielded Sapling adreslerine kazılabilmesi için Zcash uzlaşma kurallarını değiştirmeyi amaçladığını da belirtmek gerekir. Sapling yükseltmesinden önce, shielded işlemler oluşturmak önemli miktarda bellek ve CPU kaynağı gerektirdiğinden shielded Coinbase mümkün değildi.
-
-
-[Canopy:](https://youtu.be/R8O1SZMfESM?si=qoBL1dBp4E_af-eM) 1046400. blokta etkinleştirildi, 18 Kasım 2020'de kazıldı. Bu yükseltme hem Electric Coin Co (ECC) hem de Zcash Foundation tarafından desteklendi. Canopy, founders reward'un sonunu işaret etti, yeni bir fonlama mekanizması tanıtıldı (Zcash development fund) ve yeni bir yönetişim modeli Zcash ekosistemi için finansmanın devamını destekledi. Canopy kapsamında önümüzdeki dört yıl için yeni bir development fund oluşturulacaktır. Madencilik ödülünün %80'i madencilere gidecektir. Kalan %20 ise yeni Major Grants Fund (%8), Electric Coin Co (%7) ve Zcash Foundation (%5) arasında bölüştürülecektir. ‘Canopy’ adı, Zcash’in gizlilik ve merkeziyetsizlik ilkelerine sadık kalırken sürdürülebilir ve gelişen bir ekosistem oluşturma misyonunu yansıtır.
-
-
-[NU5:](https://electriccoin.co/blog/nu5-proposed-features/) 1687104. blokta etkinleştirildi, 31 Mayıs 2022'de kazıldı. Zcash Network Upgrade 5'in, 2016'daki başlangıcından bu yana kripto para için önemli bir dönüm noktasının başlangıcını işaret ettiğini belirtmek gerekir. Zcash için altıncı büyük yükseltme olan NU5; Orchard shielded protokolünü, Unified Address yapısını ve Halo proving system'i içeriyordu. Zcash NU5 yükseltmesi, trusted setup'ı ortadan kaldırmak ve protokolün temelindeki kriptografik güvenliği yükseltmek amacıyla inşa edilmiş zk-SNARK teknoloji yığınının sürekli evrimidir. NU5 ayrıca ECC ve Zcash Foundation tarafından da desteklenmektedir. 
-
-
-[NU6:](https://zips.z.cash/zip-0253) NU6, yeni bir Zcash development fund uyguladı (Hybrid Deferred Dev Fund'ın doğrudan olmayan bir fonlama modeline geçişi) ve ardından gelecekteki herhangi bir merkeziyetsiz hibe finansmanı için ihraç oranının bir kısmının ayrılacağı bir lockbox kuracaktır. Bu fonların serbest bırakılması, gelecekte Zcash topluluğu tarafından belirlenecek bir mekanizma tarafından tamamen yönetilecektir. NU6'nın misyonu, blok sübvansiyonunu azaltmak ve daha fazla şeffaflık sağlarken gizliliği güçlendirmek için bir lockbox mekanizması aracılığıyla merkeziyetsiz bir fonlama modeli oluşturmaktır.
-
-[NU6.2:](https://zips.z.cash/zip-0257) NU6.2 ağ yükseltmesi, Orchard shielded protokolünü yeniden etkinleştirir ve orijinal Orchard kurallarına kıyasla iki uzlaşma değişikliği içerir:
-
-* Orchard Action devresinin variable-base scalar multiplication gadget'ı düzeltilmiştir ve böylece soundness açığı giderilmiştir. Bu, Orchard verifying key'i değiştirir. NU6.2 öncesi Action proof'ları yalnızca tarihsel (güvensiz) verifying key altında doğrulanır ve NU6.2 sonrası proof'lar yalnızca düzeltilmiş anahtar altında doğrulanır. Düzeltme halo2_gadgets v0.5.0 10 ve orchard v0.14.0. 11 sürümlerinde yayımlandı.
-
-* NU6.2'nin etkinleşmesinden itibaren, bir Orchard Action proof'u düzeltilmiş devre için canonical uzunluğa SAHİP OLMALIDIR. NU6.2'den önce, bu uzunluk bir uzlaşma kuralı olarak zorunlu tutulmuyordu. 8
-
-NU6.2'nin etkinleşmesinden itibaren, geçici hafifletme artık uygulanmaz. Orchard Action açıklamaları içeren işlemler, proof'ların düzeltilmiş devre ve canonical-length kuralı altında doğrulanmasına tabi olarak yeniden kabul edilmelidir. NU6.2, zcashd v6.20.0 ve zebra v5.0.0 içinde dağıtıldı.
-
-[NU6.3:](https://zips.z.cash/zip-0258) NU6.3 ağ yükseltmesi, Ironwood shielded pool'u tanıtır. NU6.3 için uzlaşma değişiklikleri; sürüm 6 işlem formatı 5, Orchard Action devresi güncellemesi 6, ZIP 2005 7 ve bu ZIP boyunca belirtilmiştir; bu ZIP, etkinleştirme parametrelerini ve işlem sürümünden bağımsız olarak NU6.3 etkinleştirmesine bağlı uzlaşma kurallarını düzeltir.
+Tarihler UTC olarak gösterilmiştir. Bazı panolar bunları yerel saatte gösterir; bu aynı blok ve aynı andır. Ironwood'un tarihi, sabit tetikleyici olan etkinleştirme blok yüksekliğinden yapılan bir tahmindir; bu yüzden tam gün biraz kayabilir. Gelecekteki bir yükseltme olan NU7 hâlâ planlama aşamasındadır ve Ironwood ile aynı şey değildir.

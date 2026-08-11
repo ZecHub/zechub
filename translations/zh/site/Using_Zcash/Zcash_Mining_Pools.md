@@ -13,7 +13,7 @@ Zcash 矿池是允许个人矿工合并其算力（hashrate）的服务。通过
 ### [Slush Pool（Braiins Pool）](https://braiins.com/pool)
 
 <a href="https://binance.com">
-    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool（Braiins Pool）标志" width="200" height="100"/>
+    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
 </a>
 
 - 网站：[Slush Pool（Braiins Pool）](https://braiins.com/pool)
@@ -26,7 +26,7 @@ Zcash 矿池是允许个人矿工合并其算力（hashrate）的服务。通过
 ### [Luxor](https://luxor.tech/)
 
 <a href="https://binance.com">
-    <img src="/content-images/Luxor-20Pool-3aa38cd52b.webp" alt="Luxor 标志" width="200" height="100"/>
+    <img src="/content-images/Luxor-20Pool-3aa38cd52b.webp" alt="Luxor Logo" width="200" height="100"/>
 </a>
 
 - 网站：[Luxor](https://luxor.tech/)
@@ -39,7 +39,7 @@ Zcash 矿池是允许个人矿工合并其算力（hashrate）的服务。通过
 ### [FlyPool](https://zcash.flypool.org/)
 
 <a href="https://binance.com">
-    <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool 标志" width="200" height="100"/>
+    <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
 </a>
 
 - 网站：[FlyPool](https://zcash.flypool.org/)
@@ -78,7 +78,7 @@ Zcash 矿池是允许个人矿工合并其算力（hashrate）的服务。通过
 ### [Poolin](https://www.poolin.com/)
 
 <a href="https://binance.com">
-    <img src="/content-images/Poolin-6fd4b44ba3.webp" alt="Poolin 标志" width="200" height="100"/>
+    <img src="/content-images/Poolin-6fd4b44ba3.webp" alt="Poolin Logo" width="200" height="100"/>
 </a>
 
 - 网站：[Poolin](https://www.poolin.com/)
@@ -91,7 +91,7 @@ Zcash 矿池是允许个人矿工合并其算力（hashrate）的服务。通过
 ### [Antpool](https://v3.antpool.com/home)
 
 <a href="https://binance.com">
-    <img src="/content-images/Antpool-9c5dac3b65.webp" alt="Antpool 标志" width="200" height="100"/>
+    <img src="/content-images/Antpool-9c5dac3b65.webp" alt="Antpool Logo" width="200" height="100"/>
 </a>
 
 - 网站：[Antpool](https://v3.antpool.com/home)

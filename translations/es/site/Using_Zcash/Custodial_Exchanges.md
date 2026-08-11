@@ -2,14 +2,14 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Texto alternativo" width="50"/>   Exchanges con custodia
+# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   Exchanges con custodia
 
 ---
 
 ### [Binance](https://binance.com)
 
 <a href="https://binance.com">
-    <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png" alt="Logotipo de Binance" width="200" height="100"/>
+    <img src="/content-images/_unavailable.svg" alt="Logotipo de Binance" width="200" height="100"/>
 </a>
 
 - Sitio web: [Binance](https://binance.com)
@@ -21,7 +21,7 @@ ___
 ### [BitcoinVN](https://bitcoinvn.io)
 
 <a href="https://bitcoinvn.io">
-    <img src="https://bitcoinvn.io/img/bitcoinvn-logo.png" alt="Logotipo de BitcoinVN" width="200" height="100"/>
+    <img src="/content-images/_unavailable.svg" alt="Logotipo de BitcoinVN" width="200" height="100"/>
 </a>
 
 - Sitio web: [BitcoinVN](https://bitcoinvn.io)

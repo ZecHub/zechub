@@ -135,5 +135,5 @@ Agora você pode executar fluxos de pagamento privados para negócios.
 
 ## Próxima Etapa
 
-- [Gerencie uma Tesouraria Comunitária Privada](/use-cases/private-community-treasury)
+- [Gerencie uma Tesouraria Comunitária Privada](/zcash-use-cases/private-community-treasury)
 <br/>

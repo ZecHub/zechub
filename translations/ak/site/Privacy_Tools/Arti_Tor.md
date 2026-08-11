@@ -1,7 +1,7 @@
-![Tor ahyɛnsode](https://gitlab.torproject.org/uploads/-/system/appearance/header_logo/1/purple.svg)
+![Tor logo](/content-images/_unavailable.svg)
 
 # **Arti: Awo Ntoatoaso a Edi Hɔ Tor Client wɔ Rust**
-![Atri Ahyɛnsode](https://gitlab.torproject.org/uploads/-/system/project/avatar/647/sliced-onions.png)
+![Atri Logo](/content-images/_unavailable.svg)
 
 **Arti** yɛ Tor Project no nhyehyɛe a wɔde bɛkyekye awo ntoatoaso a edi hɔ **Tor** afɛfo a wɔde **Rust** nhyehyɛe kasa no bedi dwuma. Wɔayɛ Arti sɛ ɛbɛyɛ modular, embeddable, na ayɛ krado sɛ wɔbɛyɛ, na ɛma **Tor** anonymity protocols no a wɔde bedi dwuma a ahobammɔ wom na etu mpɔn. **Arti version 1.4.0** no, wɔde nsakraeɛ a ɛho hia pii aba:
 
@@ -21,13 +21,13 @@ Di anammɔn yi akyi na fa instɔl na fa **Arti** yɛ adwuma sɛ SOCKS proxy wɔ 
 
 ---
 
-### **Anamɔn 1: Fa Rust Development Environment Si hɔ**
+### **Anamɔn 1: Fa Rust Nkɔso Atwa Yɛn Ho Ahyia** .
 
 Ansa na wobɛtumi ayɛ Arti afiri fibea no, ɛsɛ sɛ wonya **Rust** a ɛyɛ stable version a ɛtwa toɔ a wɔde ahyɛ mu.
 
 #### Sɛ Wobɛhyehyɛ Rust a:
 
-1. Kɔ [Rust wɛbsaet a ɛyɛ aban de no so](https://www.rust-lang.org/).
+1. Kɔsra ɔpanyin no [Rust wɛbsaet hɔ](https://www.rust-lang.org/).
 2. Di akwankyerɛ a ɛfa instɔlehyɛn a ɛfa wo operating system ho no akyi.
 3. Hwɛ sɛ instɔlehyɛn no yɛ nokware denam:
    
@@ -38,13 +38,13 @@ Ansa na wobɛtumi ayɛ Arti afiri fibea no, ɛsɛ sɛ wonya **Rust** a ɛyɛ sta
 Wei bɛsi so dua sɛ wowɔ Rust a ɛyɛ stable version a ɛtwa toɔ a wɔde ahyɛ wo system no so.
 
 #### **Hyɛ no nsow ma Windows Dwumadifo**:
-- Wobetumi de [**Rustup** so ahyɛ Rust wɔ Windows so.](https://rustup.rs/), adwinnade a wɔde hyɛ mu. Hwɛ sɛ woasan nso asiesie adansi tebea a ɛne no hyia (ebia wubehia **Visual Studio Build Tools** wɔ Windows so).
+- Wobetumi de Rust ahyɛ Windows so denam [**Rustup** .](https://rustup.rs/), adwinnade a wɔde hyɛ mu. Hwɛ sɛ woasan nso asiesie adansi tebea a ɛne no hyia (ebia wubehia **Visual Studio Build Tools** wɔ Windows so).
   
 ---
 
 ### **Anamɔn 2: Clone Arti Adekorabea no**
 
-Sɛ wopɛ sɛ wonya Arti afɛfoɔ no nkyerɛaseɛ a ɛtwa toɔ a, ɛho bɛhia sɛ woyɛ akoraeɛ no clone firi [**GitLab** .](https://gitlab.torproject.org/tpo/core/arti).
+Sɛ wopɛ sɛ wunya Arti client no nkyerɛase a aba foforo a, ɛho behia sɛ wo clone repository no fi [**GitLab** na ɛyɛ adwuma.](https://gitlab.torproject.org/tpo/core/arti).
 
 #### Anamɔn a wobɛfa so:
 1. Bue wo terminal (Ahyɛde Nkrasɛm, PowerShell, anaa Git Bash wɔ Windows so).
@@ -90,7 +90,7 @@ Wubetumi ayɛ saa binary yi tẽẽ afi terminal no so.
 Sɛ wode Arti bedi dwuma sɛ SOCKS proxy (a ɛbɛma wo intanɛt akwantuo afa Tor ntwamutam no so) a, ɛhia sɛ wohyɛ proxy no ase.
 
 #### Sɛ wopɛ sɛ wohyɛ SOCKS Proxy no ase a:
-1. Fa ahyɛde a edidi so yi di dwuma:
+1. Fa ahyɛde a edidi so yi yɛ adwuma:
    ```sh
    ./target/release/arti proxy -p 9150
    ```
@@ -121,7 +121,7 @@ Mfonini a wɔayɛ no mmerɛw a ɛkyerɛ sɛnea Arti ne Tor ntwamutam no bom yɛ 
 ```
 
 - **Application** no de **SOCKS5** protocol no di dwuma de di nkitaho ne **Arti SOCKS Proxy**.
-- Afei Arti ne **Tor network** no di nkitaho, hwɛ sɛ wo traffic no yɛ anonymized bere a ɛfa network no so.
+- Afei Arti ne **Tor network** no di nkitaho, hwɛ hu sɛ wo traffic no yɛ nea wɔmmɔ din bere a ɛfa network no so no.
 
 ---
 
@@ -129,7 +129,7 @@ Mfonini a wɔayɛ no mmerɛw a ɛkyerɛ sɛnea Arti ne Tor ntwamutam no bom yɛ 
 
 Sɛ w'ani gye ho sɛ wobɛboa ma **Arti** anya nkɔsoɔ a, wobɛtumi ahwehwɛ koodu no mu na woafa **GitLab** so aboa.
 
-- **Akoraeɛ Nkitahodi**: [Arti GitLab Adekorabea](https://gitlab.torproject.org/tpo/core/arti)
+- **Akorae Nkitahodi**: [Arti GitLab Adekorabea](https://gitlab.torproject.org/tpo/core/arti)
 - **Clone Repo no ho mfonini**:
   ```sh
   git clone https://gitlab.torproject.org/tpo/core/arti.git
@@ -171,7 +171,7 @@ Sɛ w'ani gye ho sɛ wobɛboa ma **Arti** anya nkɔsoɔ a, wobɛtumi ahwehwɛ ko
 
 
 
-Sɛ w’ani gye ho sɛ wobɛboa adwuma no a, ntwentwɛn wo nan ase sɛ wobɛhwɛ koodu no, fork akorae no, na fa Merge Request mena. Sɛ wopɛ nsɛm pii, nsɛm foforo, ne ɔhaw ahorow ano aduru a, hwɛ [Arti GitLab Repository](https://gitlab.torproject.org/tpo/core/arti). 
+Sɛ w’ani gye ho sɛ wobɛboa adwuma no a, ntwentwɛn wo nan ase sɛ wobɛhwɛ koodu no, fork akorae no, na fa Merge Request mena. Sɛ wopɛ nsɛm pii, nsɛm foforo, ne ɔhaw ahorow ano aduru a, hwɛ [Arti GitLab Adekorabea](https://gitlab.torproject.org/tpo/core/arti). 
 
 Nya anigye wɔ wo suahu a ɛfa **Arti** ne anigye hacking ho!
 

@@ -22,7 +22,7 @@
 
 1. [Kí ni Zimppy.xyz?](#what-is-zimppyxyz)
 2. [Kí ló dé tí wọ́n fi ń sanwó fún àwọn aṣojú AI?](#why-shielded-payments-for-ai-agents)
-3. [Àdéhùn Ìsanwó Ẹ̀rọ (MPP) ]](#machine-payment-protocol-mpp)
+3. [Àdéhùn Ìsanwó Ẹ̀rọ (MPP) ](#machine-payment-protocol-mpp)
 4. [Bí Zimppy ṣe ń ṣiṣẹ́](#how-zimppy-works)
    - [Àwọn Ìpàdé (A Rọ̀nà fún)](#sessions-recommended)
    - [Ìṣàn](#streaming)
@@ -31,8 +31,8 @@
 6. [Ìmúgbòòrò](#installation)
 7. [Bí wọ́n ṣe ń gbé àpò Zimppy kalẹ̀](#setting-up-the-zimppy-wallet)
 8. [Ìkójọpọ Zimppy](#integrating-zimppy--typescript-sdk)
-   - [Oríṣiṣẹ́ (Aṣọ́) ]](#typescript-server--shielded)
-   - [Ojú-ìránṣẹ́ (Ọ̀nà tí ó ṣe kedere) ]](#typescript-server--transparent)
+   - [Oríṣiṣẹ́ (Aṣọ́) ](#typescript-server--shielded)
+   - [Ojú-ìránṣẹ́ (Ọ̀nà tí ó ṣe kedere) ](#typescript-server--transparent)
    - [Alejò](#typescript-client)
 9. [Ìkójọpọ Zimppy - Rust SDK](#integrating-zimppy--rust-sdk)
    - [Ojú-iṣẹ (Axum)](#rust-server-axum)
@@ -40,7 +40,7 @@
 10. [Ìsọfúnni tó wà nínú CLI](#cli-reference)
 11. [Àwọn Ànímọ́ Pàtàkì](#key-features)
 12. [Àwòrán ilé](#architecture)
-13. [Àwọn Àpẹẹrẹ & Àfihàn]](#examples--demos)
+13. [Àwọn Àpẹẹrẹ & Àfihàn](#examples--demos)
 
 ---
 

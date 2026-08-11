@@ -1,141 +1,154 @@
-# Zingo 2.0 - Pepper Sync
+<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Pepper_Sync.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
 
-## IHE NDỊ M GA - AKỤZI
-Zingo 2.0 is the latest version of the Zingo! wallet, a lightweight, open-source wallet built for the Zcash community. The star of this release is Pepper Sync, a major upgrade that completely rethinks how wallets connect with the blockchain.
+# Zingo 2.0 - Pepper Sync (Nke a bụ ihe ọhụrụ)
 
-In the past, syncing could feel painfully slow, error-prone, and resource heavy sometimes forcing users to restart from scratch. Pepper Sync changes all that. It makes syncing faster, smoother, more reliable, and less demanding on your device, while fully preserving the privacy of shielded transactions.
+## TL;DR
 
-Whether you're a brand-new user testing Zcash for the first time, or a long-time community member managing multiple shielded wallets, Pepper Sync makes the experience far more practical and enjoyable.
+* Pepper Sync bụ engine synchronization nke e webatara na Zingo! 2.0, obere akpa ego Zcash mepere emepe wuru site na ụlọ ọrụ Zingo Labs.
+* Ọ na-eji usoro nkwekọrịta nke abụghị n'usoro kama inyocha agbụ ahụ site n'ịchịkọta ya, ka ego gị na azụmahịa gị wee pụta ngwa ngwa.
+* A na echekwa ọganihu ahụ mgbe niile. Ọ bụrụ njikọ adaala maọbụ ngwa mechie, syncing ga-amaliteghachi site ebe o kwụsịrị kama ịmalitegharịa ya ọzọ.
+* Ị nwere ike imefu ego tupu oge agwụ.
+* Mmekọrịta echekwara na-anọgide na nzuzo n'oge usoro dum.
 
----
+## Nkọwa nke isi ihe dị na ya.
 
-## IHE ndị bụ isi nke PEPPER SYNC
+Zingo 2.0 bụ ụdị ọhụrụ nke obere akpa ego Zingo! , obere akpa dị mfe, mepere emepe e wuru maka obodo Zcash. Kpakpando nke ntọhapụ a bụ Pepper Sync, nnukwu nkwalite na-echegharị kpamkpam etu wallets si ejikọ ya na blockchain .
+
+In the past, syncing could feel painfully slow, error-prone, and resource-heavy, sometimes forcing users to restart from scratch. Pepper Sync changes all that. It makes syncing faster, smoother, more reliable, and less demanding on your device, while fully preserving the privacy of shielded transactions.
+
+Ma ị bụ onye ọrụ ọhụụ na-anwale Zcash maka oge mbụ, ma ọ bụ otu ndị obodo ogologo oge jikwaa ọtụtụ obere akpa echedoro, Pepper Sync na -eme ka ahụmịhe dịkwuo mma.
+
+### Njirimara ndị dị mkpa nke Pepper Sync
+
 Pepper Sync na-ewebata ọtụtụ ndozi:
-- Nkwekọrịta Ngwa Ngwa - Akpa ego gị dị njikere n'ime nkeji, ọ bụghị awa.
-- Smart Updates - A na-edozi data n'ime obere iberibe, na-ezere nyocha zuru ezu.
-- Na-eguzogide Nkwụsị - Ọ bụrụ na njikọ gị adaa, syncing ga-amaliteghachi ebe ọ kwụsịrị.
-- Ọ Dị Mfe Ma Na-arụ Ọrụ nke Ọma - E mere ya maka fon, laptọọpụ, na ngwaọrụ ndị ọzọ na-adịghị ike.
-- Nzaghachi doro anya - Nwelite oge ọganihu na-ebelata ọgba aghara.
-- Nzuzo-Idebe - Azụmahịa echedoro na-anọgide na nzuzo n'oge niile.
 
----
+- Nkwekọrịta Ngwa - Akpa ego gị dị njikere na nkeji, ọ bụghị awa.
+- Nwelite Smart - A na-edozi data n'obere obere, zere nyocha zuru ezu.
+- Na-eguzogide nkwụsị - Ọ bụrụ na njikọ gị adaa, mmekọrịta ga-amaliteghachi ebe ọ kwụsịrị.
+- Ọ Dị Mfe & Na-arụ Ọrụ nke Ọma - E mere ya maka fon, laptọọpụ na ngwaọrụ ndị ọzọ dị obere.
+- Nkwupụta doro anya - Oge mmelite ọganihu oge na-ebelata mgbagwoju anya.
+- Nzuzo-Idebe - Azụmahịa echekwara na nzuzo n'oge niile.
 
-## Ihe Ka Mma Karịa Mgbe Mbụ
-Older versions of Zingo often frustrated users with long syncing times, unclear error handling, and heavy resource usage. Pepper Sync fixes these common issues:
+### Ihe dị mma karịa na mbụ.
 
-<div className="overflow-x-auto my-8">
-  <table className="w-full min-w-[640px] max-w-[950px] mx-auto border-collapse shadow-xl rounded-2xl overflow-hidden dark:shadow-2xl">
-    <thead>
-      <tr>
-        <th className="bg-emerald-400 dark:bg-emerald-700 text-white px-4 py-4 sm:px-6 sm:py-5 text-left font-bold text-base sm:text-lg tracking-tight">Feature</th>
-        <th className="bg-emerald-400 dark:bg-emerald-700 text-white px-4 py-4 sm:px-6 sm:py-5 text-left font-bold text-base sm:text-lg tracking-tight">Previous Zingo Versions</th>
-        <th className="bg-emerald-400 dark:bg-emerald-700 text-white px-4 py-4 sm:px-6 sm:py-5 text-left font-bold text-base sm:text-lg tracking-tight">Zingo 2.0 with Pepper Sync</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="bg-slate-50 hover:bg-slate-100 dark:bg-slate-800 dark:hover:bg-slate-700">
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 font-semibold text-slate-800 dark:text-slate-200">Sync Speed</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Slower, especially on first setup</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 bg-emerald-50 dark:bg-emerald-950 font-medium text-emerald-800 dark:text-emerald-300">Much faster initial and ongoing sync</td>
-      </tr>
-      <tr className="hover:bg-slate-100 dark:hover:bg-slate-700">
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 font-semibold text-slate-800 dark:text-slate-200">Error Handling</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Occasional stalls and unclear failures</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 bg-emerald-50 dark:bg-emerald-950 font-medium text-emerald-800 dark:text-emerald-300">Improved stability with automatic recovery</td>
-      </tr>
-      <tr className="bg-slate-50 hover:bg-slate-100 dark:bg-slate-800 dark:hover:bg-slate-700">
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 font-semibold text-slate-800 dark:text-slate-200">User Experience</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Sync felt "opaque" to newcomers</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 bg-emerald-50 dark:bg-emerald-950 font-medium text-emerald-800 dark:text-emerald-300">Transparent, with clearer status and updates</td>
-      </tr>
-      <tr className="hover:bg-slate-100 dark:hover:bg-slate-700">
-        <td className="px-4 py-4 sm:px-6 sm:py-5 font-semibold text-slate-800 dark:text-slate-200">Device Performance</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 text-slate-700 dark:text-slate-300">High CPU/memory usage</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 bg-emerald-50 dark:bg-emerald-950 font-medium text-emerald-800 dark:text-emerald-300">Optimized for smooth resource use</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Ụdị ochie nke Zingo na-emekarị ka ndị ọrụ nwee nkụda mmụọ site n'ogologo oge syncing, njikwa njehie doro anya, na iji ihe onwunwe dị arọ. Pepper Sync edozi nsogbu ndị a:
 
-N'igbu ya nkenke: ịmekọrịta ugbu a dị ngwa, bụrụ nke a pụrụ ịdabere na ya, ma dị mfe nghọta.
+Njirimara: Zingo gara aga nsụgharị. Zingo 2.0 na Pepper Sync.
+| ------------------ | -------------------------------------- | -------------------------------------------- |
+| Sync Speed         | Slower, especially on first setup      | Much faster initial and ongoing sync         |
+◯ Nchịkwa njehie ❖ Ịkwụsị ọrụ mgbe ụfọdụ na ọdịda ndị a na-akọwaghị nke ọma ❑ Mma nkwụsi ike site n'ịrụpụta mgbake akpaaka ▸ Ọdịmma dị mma maka usoro ihe omume gị ❏ Nchekwa onwe onye: Ihe niile ga - adị ka ọ bụrụ na ị nọ ebe ahụ.
+◯ Ahụmahụ onye ọrụ. Sync chere "opaque" nye ndị bịara ọhụrụ. Transparent, na ọnọdụ doro anya karị na mmelite.
+❑ Ọrụ Ngwaọrụ ◆ Ọdịda CPU/ebe nchekwa dị elu □ Ịhazi maka iji ihe onwunwe eme ihe n'ụzọ na-enweghị nsogbu ● Nrụpụta nke ngwa ọrụ ▪ Njikọ aka ndị ọzọ: Jiri usoro a mee ihe.
 
----
+Na nkenke: ịmekọrịta ugbu a dị ngwa, ntụkwasị obi karị ma dịkwa mfe nghọta.
 
-## ÒNYE NA-ERITE URU N'ỌRỤ PEPPER SYNC?
-- Ndị ọrụ ọhụrụ - Nwere ike ịtọlite obere akpa ngwa ngwa na-enweghị nkụda mmụọ site na igbu oge.
-- Ndị na-eji kwa ụbọchị - Nkwekọrịta a pụrụ ịdabere na ya na-eme ka ịkwụ ụgwọ echedoro dị irè maka iji kwa ụbọchị.
-- Ndị mmepe na ndị nyocha - Oge nkenke dị mkpirikpi pụtara usoro nnwale ngwa ngwa.
-- Ngwaọrụ Mobile & Light - Zingo na-agba ọsọ ugbu a ọbụna na ngwaike nwere oke ego.
+## Ihe Anya / Ntụle
 
----
+Chee echiche banyere otu obere akpa ochie dị ka ịgụ akwụkwọ buru ibu site na peeji nke mbụ, n'olu dara ụda, tupu e kwe gị ikwu ihe ọ bụla gbasara ya. Kwụsị etiti ụzọ, ma ị maliteghachi ọzọ site na ibe mbụ Pepper Sync gụrụ otu akwụkwọ ahụ, mana o debere akara ngosi, gụọ isiakwụkwọ ndị kachasị mkpa nye gị, wee hapụ gị ka ị kwuo maka akụkọ a tupu i mechaa peeji ikpeazụ.
 
-## IHE MERE O JI DỊ ZCASH Mkpa
-E wuru Zcash gburugburu azụmahịa echekwara, otu n'ime ngwá ọrụ nzuzo kachasị ike na cryptocurrency. Ma nzuzo bara uru naanị ma ọ bụrụ na enwere ike ịnweta ya.
+Ihe edeturu bụ akụkụ dị mkpa. Ọ bụla mbipute gara aga na-emeso mmekọrịta a kwụsịrị dịka ọrụ furu efu; Pepper Sync na-eme ya ka ọ bụrụ nkwụsịtụ.
 
-Pepper Sync na-enyere aka site na:
-- Ibelata ihe mgbochi ịbanye - Ndị ọrụ ọhụrụ nwere ike ịmalite ngwa ngwa.
-- Na-akwado ojiji kwa ụbọchị - Adreesị echedoro na-adị mfe ịtụkwasị obi.
-- Na-agba ume uto nke usoro okike - Ahụmịhe obere akpa ka mma na-eme ka nnabata, ngwa, na ọrụ ndị ọzọ.
+### Ihe ndị na-egosi ihe nkiri
 
-Site na imeziwanye ahụmịhe obere akpa, Pepper Sync na-ewusi usoro okike Zcash dum ike.
+- Nkọwa zuru ezu - Na-egosi usoro dum. ![Detailed Flow](https://github.com/user-attachments/assets/119c13ec-76be-42bd-b558-762d09275a1b)
 
----
+- Mfe Flow - Nlele ngwa maka ndị ọrụ kwa ụbọchị. ![Simplified Flow](https://github.com/user-attachments/assets/9b612cbd-f24d-4472-9b87-0f2c908bb368)
 
-## OTÚ PEPPER SYNC SI EBI NDỤ (ỤZỌ Dị Mfe)
-Instead of rescanning the blockchain in huge, clunky chunks, Pepper Sync works in small, manageable steps—always saving your place as it goes.
+## Ịbanye n'Okpuru Mmiri Dị Omimi
 
-1. Jikọọ - Akpa ego na-enyocha na netwọkụ.
-2. Nweta Blocks - A na-ebudata data na incrementally.
+### Olee otú Pepper Sync si arụ ọrụ (nlele dị mfe)
+
+Kama inyocha ihe nkesa ahụ n'ọtụtụ nnukwu, nke na-adịghị mma, Pepper Sync na-arụ ọrụ obere oge. Ọ ga-echekwa ebe gị mgbe niile ka ọ na-aga.
+
+1. Jikọọ - Akpa ego na-enyocha n'ime netwọkụ.
+2. Bịaruo Blocks - A na-ebudata data n'ụzọ dị elu.
 3. Nyochaa - A na-enyocha azụmahịa.
-4. Jikwaa Ihe Ndekọ E Chebere - Nzuzo echekwara n'oge niile.
+4. Jikwaa Ihe Ndetu E Chebere - Nzuzo echekwara n'oge niile.
 5. Melite Balances - Akpa ego na-eme ka nchekwa dị ọhụrụ.
 6. Chekwaa Ọganihu - Kwụsị ma maliteghachi n'enweghị nsogbu.
 7. Emechara - Wallet dị njikere maka azụmahịa.
 
-### IHE NDỊ A NA - EJIRI IHE Anya Ahụ:
-- Nkọwa zuru ezu - Na-egosi usoro zuru ezu.](/content-images/119c13ec-76be-42bd-b558-762d09275a1b-8ba7a18302.webp)
+## Ihe Ndị A Pụrụ Ime n'Ọrụ Ahụ
 
-- Simplified Flow - Nlele ngwa ngwa maka ndị ọrụ kwa ụbọchị. ![SimplifiedFlow](/content-images/9b612cbd-f24d-4472-9b87-0f2c908bb368-eb34a722a2.webp)
+### Ole ndị na-erite uru site n'aka Pepper Sync?
 
----
+- Ndị ọrụ ọhụrụ - Nwere ike ịtọlite obere akpa ngwa ngwa na-enweghị nkụda mmụọ site na igbu oge.
+- Ndị na-eji kwa ụbọchị - Nkwekọrịta a pụrụ ịdabere na ya na-eme ka ịkwụ ụgwọ echekwara dị irè maka iji kwa ụbọchị.
+- Ndị mmepe & ndị nyocha - Oge mkpirisi oge sync pụtara usoro nnwale ngwa ngwa.
+- Ngwaọrụ Mobile & Light - Zingo na-agba ọsọ ugbu a ọbụna n'ụzọ dị irè na ngwaike nwere oke ego.
 
-## Ịmalite: Ịbanye na ZINGO 2.0
-1. Budata obere akpa - Nweta ụdị ziri ezi site na Zingo GitHub na-ewepụta peeji nke[](https://github.com/zingolabs/zingolib?utm_source=chatgpt.com)
-2. Hazie obere akpa gị - Mepụta nke ọhụrụ ma ọ bụ weghachite site na mkpụrụ okwu dị. Zingo 2.0 na Zingo Labs[](https://www.youtube.com/watch?v=FREwMzf_LlM)
-3. Ka Pepper Sync Run - Lelee ihe ngosi ọganihu ka obere akpa gị na-emelite. Pepper sync Run[](https://x.com/ZingoLabs/status/1961871338441724191)
-4. Bido Iji Zcash - Ziga ma nata ZEC echedoro ozugbo syncing zuru ezu.
-5. Nwee obi iru ala banyere nkwụsị - Ọ bụrụ na ngwa ahụ mechie ma ọ bụ njikọ adaa, Pepper Sync na-amaliteghachi na akpaghị aka.
+### Ihe mere o ji dị mkpa maka Zcash
 
----
+Zcash wuru gburugburu azụmahịa echekwara, otu n'ime ihe kachasị ike na nzuzo nke cryptocurrency. Ma nzuzo bara uru naanị ma ọ bụrụ na enwere ya.
 
-## Ajụjụ Ndị A Na-ajụkarị - AJỤJỤ NDỊ A NA-AJỤKARỊ
-Ajụjụ: M ga-eme nyocha ọzọ oge ọ bụla m meghere obere akpa ahụ? 
-A: Mba. Pepper Sync na-echekwa ọganihu, yabụ ị na-emelite naanị site na njedebe ikpeazụ.
+Pepper Sync na-enyere aka site:
 
-Ajụjụ: Gịnị ga-eme ma ọ bụrụ na njikọ ịntanetị m agbaji? 
-A: Mmekọrịta na-akwụsị ma na-aga n'ihu mgbe e mesịrị na-enweghị ịmalitegharịa.
+- Ibelata ihe mgbochi ịbanye - Ndị ọrụ ọhụrụ nwere ike ịmalite ngwa ngwa.
+- Na-akwado ojiji kwa ụbọchị - Adreesị echedoro na-adị mfe ịtụkwasị obi.
+- Ịgba ume uto nke usoro okike - Ahụmịhe obere akpa ka mma na-eme ka nnabata, ngwa ọdịnala, yana ọrụ.
 
-Ajụjụ: Ọ bụ na nzuzo m dị mma mgbe ị na-emekọrịta? 
-Azịza: Ee. azụmahịa ndị e chebere na-anọgide na nzuzo.
+Site na imeziwanye ahụmịhe obere akpa, Pepper Sync na-ewusi usoro okike Zcash dum ike.
 
-Ajụjụ: Ogologo oge ole ka sync mbụ na-ewe? 
-A: Usually minutes instead of hours, depending on your device and internet.
+### Ịmalite: ịbanye na Zingo 2.0
 
-** Ajụjụ: Enwere m ike iji obere akpa tupu syncing agwụ? ** 
-A: Ị ga-adị mkpa ka ejikọta gị na njedebe nke agbụ, ma Pepper Sync na-eme ka ị nweta ya ngwa ngwa.
+1. Budata obere akpa - Nweta ụdị ziri ezi site na [Zingo GitHub releases page](https://github.com/zingolabs/zingolib)
+2. Tọọ obere akpa gị - Mepụta nke ọhụrụ ma ọ bụ weghachite site na mkpụrụ okwu dị. [Zingo 2.0 with Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
+3. Ka Pepper Sync Run - Lelee ihe ngosi ọganihu ka obere akpa gị na-emelite. [Pepper Synch Run](https://x.com/ZingoLabs/status/1961871338441724191)
+4. Bido Iji Zcash - Na-ezipụ ma na-anata ZEC echedoro ozugbo syncing zuru ezu.
+5. Na-enwe obi iru ala banyere nkwụsị - Ọ bụrụ na ngwa ahụ mechie ma ọ bụ njikọ adaba, Pepper Sync ga-amaliteghachi akpaghị aka.
 
----
+## Ihe Ndị A Na-emekarịhie Emeghị
 
-## AKWỤKWỌ NDỊ ỌZỌ NA NJIKỌTA
-- Zingo! Ebe nchekwa GitHub[](https://github.com/zingolabs/zingolib?utm_source=chatgpt.com)
-- Nzukọ Obodo Zcash[](https://forum.zcashcommunity.com/?utm_source=chatgpt.com)
-- Nkwupụta Ọchịchị - Zingo Labs Twitter[](https://twitter.com/ZingoLabs?utm_source=chatgpt.com)
+** Ịgwọ Pepper Sync dị ka obere akpa n'onwe ya.** Pepper sync bụ engine nke na-emekọrịta ihe n'ime Zingo! wallet, ọ bụghị ngwa dị iche.Ị wụnye Zingo; Peppersync bụ ihe na -agba ọsọ n'okpuru ya.
 
----
+** Iche na ngwa syncing pụtara nzuzo dị ala.** Ọsọ ahụ sitere n'otú e si enweta data, nyere iwu ma debe ya, ọ bụghị site n'ikpughe ozi ndị ọzọ. Azụmahịa echedoro ga-anọgide na nzuzo niile.
 
-## NKE BỤ́ EZIOKWU
-With Zingo 2.0 Pepper Sync, syncing is no longer the biggest pain point of shielded wallets. It's now fast, stable, and user-friendly, lowering the barrier for newcomers and making everyday use far more practical.
+** Iche na ị ga-enwerịrị mmekọrịta zuru oke tupu i nwee ike imefu**. Imefu ego tupu imekọrịta emechaa bụ otu n'ime isi ihe dị iche iche nke Pepper Sync, yabụ ịkwesighi ichere ka obere akpa ahụ rute njedebe agbụ.
+
+## Ajụjụ Ndị A Na-ajụkarị - Ọtụtụ mgbe jụrụ ajụjụ.
+
+Ajụjụ: M ga-eme nyocha ọzọ oge ọ bụla m mepere obere akpa ahụ?
+
+A: Mba. Pepper Sync na-echekwa ọganihu, yabụ ị ga - emelite naanị site n'oge ikpeazụ.
+
+**Q: Gịnị ga-eme ma ọ bụrụ na ịntanetị m agbapụ?**
+
+A: Sync na-akwụsị ma gaa n'ihu mgbe e mesịrị na -enweghị ịmalitegharịa.
+
+** Ajụjụ: Ọ bụ na nzuzo m dị mma mgbe ịmekọrịta?**
+
+Azịza: Ee. azụmahịa ndị e chebere na-anọgide bụrụ ihe nzuzo kpamkpam.
+
+**Q: Ogologo oge ole ka sync mbụ na-ewe?**
+
+Azịza: Ọ na-abụkarị nkeji ole na ole kama ịbụ awa ole, dabere n'ụdị ngwaọrụ ị ji ma ọ bụ ihe Ịntanet gị.
+
+** Q: Enwere m ike iji obere akpa tupu syncing agwụ?**
+
+A: Ee. Pepper Sync na-akwado mmefu tupu mmekọrịta ahụ emechaa, yabụ ịkwesighi ichere ka obere akpa ego rute n'isi agbụ.
+
+## Ihe Ndị A Na-ekwu na Ya
+
+Site na Zingo 2.0 Pepper Sync, mmekọrịta abụghịzi isi ihe mgbu nke obere akpa echedoro. Ọ bụ ugbu a ngwa ngwa, kwụsie ike ma nwee enyi-enyi, belata ihe mgbochi maka ndị bịara ọhụrụ wee mee ka ojiji kwa ụbọchị dịkwuo mfe karị.
 
 For users, it means less waiting and more privacy. For developers, it means a stronger foundation to build on. For the Zcash ecosystem, it's another step toward making shielded transactions accessible to everyone.
 
-Zingo 2.0 na Pepper Sync abụghị naanị nkwalite, ọ bụ ọganihu maka nzuzo, crypto nwere ike iji.
+Zingo 2.0 na Pepper Sync abụghị naanị nkwalite; ọ bụ ihe dị elu maka nzuzo, crypto nwere ike iji.
+
+## Peeji ndị metụtara ya
+
+- [Zcash Wallet Syncing] (Nke a bụ ihe dị mkpa)](/zcash-tech/zcash-wallet-syncing)  etu akpa ego si arụ ọrụ n'ime usoro okike Zcash.
+- [Nọmba Lightwallet Nodes](/zcash-tech/lightwallet-nodes)  ihe owuwu a na-eji obere akpa ego dị ka Zingo eme.
+- [Zaino] Ọ bụ onye na-eme ihe nkiri.](/zcash-tech/zaino)  indexer mepụtara site na Zingo otu.
+- [Ebe ego ndị dị na ya](/wallets)  akwụkwọ ndekọ aha zuru ezu nke obere akpa Zcash na atụmatụ ha.
+
+## Ịmụtakwu Ihe
+
+- [Zingo! GitHub Ebe nchekwa](https://github.com/zingolabs/zingolib)
+- [Zcash Community Forum] Ọ bụ ihe na-atọ ụtọ.](https://forum.zcashcommunity.com/)
+- Nkwupụta Ndị Ọrụ - [Zingo Labs Twitter](https://twitter.com/ZingoLabs)
+
+___
+___

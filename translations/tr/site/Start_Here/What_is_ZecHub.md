@@ -15,7 +15,7 @@ ZecHub, Zcash için merkeziyetsiz bir eğitim merkezidir. [ZecHub](http://zechub
 
 Eğitimler, kısa biçimli bloglar ve bülten açık kaynaklıdır ve GitHub üzerinde barındırılır; bu da topluluktaki herkesin katkıda bulunabileceği anlamına gelir. Bu, içeriğin doğru olmasını ve kanalın kendisinin tek bir hata noktasından etkilenmemesini sağlamak içindir.
 
-Zcash'e yeniyseniz, [bu kılavuzu](/site/Start_Here/New_User_Guide) kullanın.****
+Zcash'e yeniyseniz, [bu kılavuzu](/start-here/new-user-guide) kullanın.****
 
 ## ZecHub üzerinde nasıl değişiklik yapılır
 

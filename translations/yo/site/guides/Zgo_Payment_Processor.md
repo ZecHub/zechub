@@ -17,7 +17,7 @@ This guide explains how the payment flow works, how to set up an account, and ho
 5. [ZGo pẹlu WooCommerce](#zgo-with-woocommerce)
 6. [Àwọn Ànímọ́](#features)
 7. [Àwọn àṣìṣe tó wọ́pọ̀](#common-mistakes)
-8. [Ìparí Àlàyé]](#conclusion)
+8. [Ìparí Àlàyé](#conclusion)
 9. [Àwọn ohun àmúṣọrọ̀](#resources)
 
 ## Ìdí tí a fi ń lo ZGo
@@ -122,9 +122,9 @@ Fun iṣeto, ọna naa kuru: gba apamọwọ Zcash, ṣẹda akọọlẹ kan ni
 
 - [Ìkànnì àjọ ZGo](https://zgo.cash/)
 - [Xero Integration Configuration walkthrough] Àwọn àlàyé tó ṣe pàtàkì](https://hedgedoc.vergara.tech/s/4iXC67fmb)
-- [WooCommerce] [ì í ì ¤í ë ¤]](https://woocommerce.com/) àti [WordPress](https://wordpress.org/)
+- [WooCommerce] [ì í ì ¤í ë ¤](https://woocommerce.com/) àti [WordPress](https://wordpress.org/)
 - [Xero](https://www.xero.com/)
 - [Ojúewé ìkànnì iṣẹ́ Zcash](https://z.cash/)
 - [Àwọn Wàléètì ZecHub](https://zechub.wiki/wallets), akojọ awọn apamọwọ Zcash ti o ni ibamu
-- [Àkópòsí àwọn Ẹ̀rọ Ìṣiṣẹ́ Ìsanwó ZecHub]](https://zechub.wiki/payment-processors), ZGo nínú ìtumọ̀ àwọn ètò ìsanwó Zcash mìíràn
+- [Àkópòsí àwọn Ẹ̀rọ Ìṣiṣẹ́ Ìsanwó ZecHub](https://zechub.wiki/payment-processors), ZGo nínú ìtumọ̀ àwọn ètò ìsanwó Zcash mìíràn
 - [BTCPayServer Zcash Àfikún](https://zechub.wiki/guides/btcpayserver-zcash-plugin), itọsọna ZecHub ti o ni ibatan fun yiyan ti o gbalejo ara ẹni

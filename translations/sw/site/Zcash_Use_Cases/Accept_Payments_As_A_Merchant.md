@@ -8,9 +8,9 @@
 ## TL;DR
 
 - Kubali malipo kwa kutumia anwani ya ulinzi
-- Epuka kufichua data ya shughuli ya mteja
+- Epuka kufichua data ya shughuli za wateja
 - Matumizi memos au nje ya mfumo wa mlolongo kwa utaratibu kufuatilia
-- Weka mapato ya biashara siri
+- Weka mapato ya biashara faragha
 
 <br/>
 
@@ -25,9 +25,9 @@
 
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
 
-Malipo ya jadi ya crypto yanafichua:
+Malipo ya jadi crypto yatangaza:
 - Ununuzi tabia ya mteja
-- Mapato ya biashara
+- Mapato ya mfanyabiashara
 - Historia ya shughuli
 
 Hii inaongoza kwa:
@@ -58,7 +58,7 @@ Zcash inawezesha:
 
 ## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
 
-### Hatua ya 1: Weka anwani ya malipo
+### Hatua ya 1: Kuweka anwani malipo
 
 - Kuzalisha kinga (z) anwani
 - Matumizi hii kwa kupokea malipo
@@ -67,7 +67,7 @@ Zcash inawezesha:
 ### Hatua ya 2: Onyesha Maagizo ya Malipo
 
 Kwa kila shughuli:
-- Onyesha yako z-anwani
+- Onyesha anwani yako ya z-mahali pa kuishi.
 - Kutoa kiasi cha malipo
 - Optionally ni pamoja na kumbukumbu rejea
 
@@ -85,14 +85,14 @@ Mfano:
 ### Hatua ya 4: Thibitisha Malipo
 
 - Kufuatilia shughuli zinazoingia za ulinzi
-- Mechi memo au kiasi ili
+- Mechi memo au kiasi kwa utaratibu
 
 
 ### Hatua ya 5: Dumisha Usafi wa Kibinafsi
 
 - Epuka kutumia tena anwani hadharani kama inawezekana
-- Usifunue historia ya shughuli
-- Mkoba tofauti kwa vitengo tofauti vya biashara kama inahitajika
+- Je, si kufichua historia ya shughuli
+- Wamiliki tofauti wa pochi kwa vitengo vya biashara mbalimbali kama inahitajika.
 
 
 <br/>
@@ -100,7 +100,7 @@ Mfano:
 ## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
 
 - Kutumia anwani uwazi kwa ajili ya malipo 
-- Kuchapisha uthibitisho wa manunuzi kwa umma 
+- Kuchapisha uthibitisho wa shughuli kwa umma 
 - Kuunganisha utambulisho wa mteja kwa data blockchain 
 - Si kufuatilia malipo vizuri 
 
@@ -120,14 +120,14 @@ Unaweza:
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
 
-- [Mifuko ya fedha](/wallets)
-- [Usiri - Mazoea Bora](/privacy/best-practices)
+- [Mkoba](/wallets)
+- [Faragha - Mazoea Bora Zaidi](/privacy/best-practices)
 
 <br/>
 
 ## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
 
-** Hatua ya 4 ya 6**
+** Hatua ya 4 kati ya 6**
 
 Sasa unaweza kuendesha mtiririko wa malipo binafsi kwa ajili ya biashara.
 
@@ -135,5 +135,5 @@ Sasa unaweza kuendesha mtiririko wa malipo binafsi kwa ajili ya biashara.
 
 ## Hatua Inayofuata
 
-- [Kuendesha Hazina ya Jumuiya ya Kibinafsi](/use-cases/private-community-treasury)
+- [Fanya Kazi ya Hazina ya Jumuiya ya Kibinafsi](/zcash-use-cases/private-community-treasury)
 <br/>

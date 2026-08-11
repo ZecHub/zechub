@@ -31,7 +31,7 @@ Onye ọ bụla na-agba ọsọ Intel SGX ibe. A na-ejikọta nkwekọrịta na 
 
 This is different from Zcash, which uses **zero-knowledge proofs** for privacy. In Zcash, shielded transactions are broadcast and validated publicly with no additional data revealed to the network. Zcash Shielded Assets follow the same principle.
 
-[Ihe osise nzuzo nke TEE Network]](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
+[Ihe osise nzuzo nke TEE Network](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
 
 Maka nkọwa zuru ezu banyere etu esi etinye TEEs na Secret Network, gụọ ọmarịcha edemede a site n'aka @l_woetzel: 
 https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerability-33ca94b6df38
@@ -55,7 +55,7 @@ https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerabilit
 - A gbanwebeghị ngwa ahụ. 
 - Ọ na-agba ọsọ n'enweghị nsogbu n'ime Intel SGX enclave
 
-[Nkọwapụta Nkwupụta Nkwụsị]](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
+[Nkọwapụta Nkwupụta Nkwụsị](/content-images/FqumRjoWwAAeT-M-6eff73af4d.webp)
 
 Enclaves na-enwekwa mbinye aka nke onwe na igodo nkwenye nke na-enweghị ike ịnweta site n'èzí.
 

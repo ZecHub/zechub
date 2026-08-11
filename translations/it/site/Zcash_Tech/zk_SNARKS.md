@@ -151,7 +151,7 @@ Gli SNARK sono utili quando sono necessari più verifier come in una blockchain 
 
 In generale, le prove a conoscenza zero sono uno strumento per garantire un comportamento onesto nei protocolli senza rivelare alcuna informazione. Zcash è una blockchain pubblica che facilita transazioni private. Le zk-SNARK vengono utilizzate per dimostrare che una transazione privata è valida secondo le regole di consenso della rete senza rivelare altri dettagli sulla transazione.
 
-[Video esplicativo [EN]](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - In questa lezione, Ariel Gabizon fornisce descrizioni del Zcash Note Commitment Tree, della Blind Polynomial Evaluation e delle Homomorphically Hidden Challenges e come sono implementati nella rete.
+[Video esplicativo [EN](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - In questa lezione, Ariel Gabizon fornisce descrizioni del Zcash Note Commitment Tree, della Blind Polynomial Evaluation e delle Homomorphically Hidden Challenges e come sono implementati nella rete.
 
 Per ulteriori informazioni, leggere il manuale di [Halo2](https://zcash.github.io/halo2/index.html).
 

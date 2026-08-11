@@ -1,6 +1,6 @@
 # Atọ́nà Olùṣàmúlò Keystone Zashi
 
-Atọ́nà Twitter: => [Ìtọ́nà Zashi x Keystone Hardware Wallet Integration Twitter]](https://x.com/zashi_app/status/1869793574880973144) 
+Atọ́nà Twitter: => [Ìtọ́nà Zashi x Keystone Hardware Wallet Integration Twitter](https://x.com/zashi_app/status/1869793574880973144) 
 
 This integration marks a significant evolution in Zcash usability by enabling cold storage of shielded ZEC. The Zcash community has faced setbacks with other hardware wallet platforms in the past, but Keystone emerged as a collaborative partner willing to push boundaries and innovate alongside the Electric Coin Company. The Keystone team received a ZCG grant to fuel their side of the work.
 
@@ -32,7 +32,7 @@ Wiwọle si oju opo wẹẹbu osise Keystones fun Ijẹrisi ati Imudojuiwọn Fi
 
 Ṣiṣeto ohun elo Zashi lori ẹrọ alagbeka rẹ.
 
-## [Ìtọ́sọ́nà Ní Ìgbésẹ̀-Ní-Ìgbésẹ̀ (Keystone Device) ]](https://keyst.one/get-started) 
+## [Ìtọ́sọ́nà Ní Ìgbésẹ̀-Ní-Ìgbésẹ̀ (Keystone Device) ](https://keyst.one/get-started) 
 
 
 **Yàn Èdè Rẹ**
@@ -47,7 +47,7 @@ Wiwọle si oju opo wẹẹbu osise Keystones fun Ijẹrisi ati Imudojuiwọn Fi
   - Ṣe àtúnṣe nípasẹ̀ káàdì MicroSD
     - Ẹ rí i dájú pé báǹtì Keystone yín ti fi nǹkan bí ìpín ogún nínú ọgọ́rùn-ún kún un.
     - Fi kaadi SD sínú kọ̀ǹpútà rẹ kí o sì ṣe àdàkọ rẹ̀ sí FAT32.
-    - Ṣe igbasilẹ ikede famuwia Cypherpunk tuntun lati oju-iwe [Keystone Firmware Update]](https://keyst.one/firmware) ki o si fipamọ faili keystone3.bin si gbongbo ti kaadi MicroSD rẹ.
+    - Ṣe igbasilẹ ikede famuwia Cypherpunk tuntun lati oju-iwe [Keystone Firmware Update](https://keyst.one/firmware) ki o si fipamọ faili keystone3.bin si gbongbo ti kaadi MicroSD rẹ.
     - Fi káàdì SD pẹ̀lú ẹ̀rọ alágbèéká sínú àpò Keystone rẹ.
     - Lọ sí "Àtúnṣe" lórí àpò Keystone rẹ, lẹ́yìn náà tẹ̀lé àwọn ìtọ́ni tí ó wà ní ojúewé láti bẹ̀rẹ̀ ìgbésẹ̀ àtúnṣe.
   - **Mímú àwọn ìsọfúnni tó wà nínú rẹ̀ kúnlẹ̀ nípasẹ̀ USB Cable**
