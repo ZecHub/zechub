@@ -54,6 +54,17 @@ Mobile application that aggregates Zcash news, community activity, network infor
 Community hub for Pretty Good Policy for Zcash (PGPZ), a Washington D.C. policy initiative focused on privacy-preserving digital cash, practical compliance, and the public-interest role of Zcash.  
 [Visit](https://community.pgpz.org/)
 
+### Gleyo 
+Community engagement and rewards platform designed for Zcash communities, Web3 projects, and Web2 organizations. It helps communities onboard and engage members through quests, chat, and rewards, while allowing users to earn and withdraw private shielded ZEC.
+
+[Visit](https://gleyo.app/)
+
+### Zcash Grants Hub
+Community-focused grants dashboard designed to simplify how Zcash grants are discovered, tracked, and reviewed. It brings grant applications, milestones, budgets, discussions, and analytics into one place by pulling live data from the Zcash Community Grants GitHub repository. The platform aims to provide a clearer and more user-friendly experience for applicants, committee members, and community reviewers.
+
+[Visit](https://staging.zgrantshub.com/)
+
+
 ---
 
 ## Wallets and Payment Tools
@@ -162,6 +173,18 @@ Tracking and data metrics tool for Zcash market price performance.
 Directory for finding links, tools, and information about the Zcash ecosystem.  
 [Visit](https://zlink.click)
 
+### Zecmarket
+The privacy-first marketplace of the Zcash ecosystem. Payments settle directly and the platform never holds your funds.
+
+[Visit](https://zecmarket.org/)
+
+### Zecsite
+A privacy-focused static website that aggregates Zcash news, statistics, and educational content without using JavaScript.
+
+[Visit](https://zecsite/org)
+
+[Forum](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
+
 ---
 
 ## Identity, Names, and User Experience
@@ -185,6 +208,16 @@ Anonymous confession platform powered by Zcash privacy.
 ### Ztrash
 Disposable email inbox paid for with shielded ZEC.  
 [Visit](https://ztrash.com/)
+
+### LiveZEC
+A privacy-focused tipping platform for streamers that enables viewers to send shielded ZEC directly to a streamer’s self-custodial wallet.
+
+[Visit](https://zec.live/)
+
+### ZecLedger
+A privacy-preserving financial tracking and accounting tool for Zcash. It combines a public dashboard for transparent network data with local private accounting that uses viewing keys without exposing them, helping users track balances, transaction history, cost basis, and eventually budgeting and tax-ready reports while keeping their funds secure and private.
+
+[Visit](https://zecledger-web.vercel.app/)
 
 ---
 
@@ -241,6 +274,12 @@ Decred’s decentralized exchange that supports Zcash.
 ### Brave Wallet
 Browser wallet with Zcash support.  
 [Visit](https://brave.com/wallet/)
+
+### Nano-GPT
+AI platform that provides access to multiple leading AI models while supporting cryptocurrency payments, including Zcash.
+
+[Visit](https://nano-gpt.com/conversation/new)
+
 
 ---
 
