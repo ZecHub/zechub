@@ -6,12 +6,13 @@
 
 ## TL;DR
 
-- Zcash currently has **4 value pools**: Sprout (legacy), Sapling, Orchard, and Transparent.
-- **Orchard** is the current primary shielded pool used by Unified Addresses (u1...).
+- Zcash currently has **5 value pools**: Sprout (legacy), Sapling, Orchard (spend-only), Ironwood, and Transparent.
+- **Ironwood** is the current primary shielded pool, live since the NU6.3 upgrade on 28 July 2026.
+- **Orchard** is now **spend-only**: no new value can enter it, and existing funds migrate out into Ironwood.
 - **Sapling** (z-addresses starting with `zs`) remains widely supported and continues to secure a significant amount of shielded ZEC.
 - **Transparent** addresses (t...) provide no transaction privacy and operate similarly to Bitcoin.
 - **Sprout** is a legacy shielded pool that has been retired from active use.
-- A future shielded pool known as **Ironwood** has been proposed to strengthen confidence in the integrity of the shielded ZEC supply while preserving privacy.
+- The Orchard to Ironwood migration is **in progress** and is audited in public by the turnstile.
 - For the strongest privacy guarantees, users should continue to prefer **shielded-to-shielded (z → z)** transactions whenever possible.
 
 
@@ -21,11 +22,12 @@
 
 Zcash separates funds into distinct accounting systems known as value pools. Each pool has its own cryptographic rules and privacy properties, while the protocol tracks the total value moving between them.
 
-Today, the network contains four primary value pools:
+Today, the network contains five primary value pools:
 
 - Transparent — Public and fully visible on-chain.
-- Sapling — The first widely adopted modern shielded pool.
-- Orchard — The current primary shielded pool introduced with Unified Addresses.
+- Sapling — The first widely adopted modern shielded pool, still active.
+- Orchard — The previous primary shielded pool, now spend-only.
+- Ironwood — The current primary shielded pool, introduced by NU6.3.
 - Sprout — The original shielded pool launched with Zcash in 2016.
   
 
@@ -42,7 +44,19 @@ Fig 1: A chart showing the current 4 pools as of October, 2025
 ## The Shielded Pools 
 
 
-1. <h3 id="orchard" class="text-3xl font-bold my-4">Orchard Pool</h3>
+1. <h3 id="ironwood" class="text-3xl font-bold my-4">Ironwood Pool</h3>
+
+Ironwood is the current primary shielded pool. It activated on 28 July 2026 at block 3,428,143 as part of the NU6.3 network upgrade, and is where new shielded value now lives.
+
+It exists because a vulnerability was found in Orchard's proving system in May 2026. There is no evidence it was ever exploited, but the flaw meant the shielded supply could not be proven sound by the proofs alone. Rather than patch in place, the network created a fresh pool with a corrected circuit and moved value across a turnstile that counts every coin in public. That accounting is what restores the guarantee that the shielded supply is fully backed.
+
+Ironwood reuses Orchard's Action model and Halo 2 proofs, so it behaves the same way day to day. Two things are new: transactions use the v6 format, and Ironwood notes are **quantum-recoverable** under [ZIP 2005](https://zips.z.cash/zip-2005), meaning a coin's on-chain record stays recoverable if a future quantum computer breaks today's cryptography. That is a recovery path, not quantum resistance, and it does not apply to older pools.
+
+You do not need a new address. Unified addresses bundle several receivers, and wallets pick the right pool for you.
+
+____
+
+2. <h3 id="orchard" class="text-3xl font-bold my-4">Orchard Pool</h3>
 
 
 ![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
@@ -54,13 +68,13 @@ The Orchard Shielded Pool was activated on May 31, 2022 as part of the NU5 netwo
 
 Orchard significantly improved usability, efficiency, and privacy by reducing transaction metadata leakage and introducing a more flexible transaction model based on Actions rather than traditional shielded inputs and outputs.
 
-Today, Orchard remains the primary shielded pool for Zcash. However, the community is evaluating a future migration to a new shielded pool called Ironwood, which would provide additional assurance regarding the integrity of the shielded ZEC supply while preserving Zcash's privacy guarantees.
+Since the Ironwood upgrade activated on 28 July 2026, **Orchard is spend-only**. No new value can enter the pool. Funds already held there can still be spent, and are migrating out into Ironwood through the turnstile. Wallets handle this for you, though most give you some control over the pace.
 
-[Zcash Shielded wallets](/wallets) now support Orchard.
+If you hold Orchard funds, see [Ironwood](/zcash-tech/ironwood) for what the migration means in practice.
 
 ____
 
-2. <h3 id="sapling" class="text-3xl font-bold my-4">Sapling Pool</h3>
+3. <h3 id="sapling" class="text-3xl font-bold my-4">Sapling Pool</h3>
 
 
 ![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
@@ -80,7 +94,7 @@ Sapling wallet addresses begin with "zs" and this can be observed in all support
 
 ____
 
-3. <h3 id="sprout" class="text-3xl font-bold my-4">Sprout Pool</h3>
+4. <h3 id="sprout" class="text-3xl font-bold my-4">Sprout Pool</h3>
 
 
 ![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
@@ -95,7 +109,7 @@ Sprout was used as an early tool for [Zcash slow start Mining](https://electricc
 As the Zcash ecosystem continued  to expand with increasing number of shielded transactions, it was observed that the Zcash Sprout Series became limited and less efficient when it comes to user privacy, transaction scalability and processing. This led to the modification of the network and Sapling Upgrade. 
 
 ---
-4. <h3 id="transparent" class="text-3xl font-bold my-4">Transparent Pool</h3>
+5. <h3 id="transparent" class="text-3xl font-bold my-4">Transparent Pool</h3>
 <br/>
 
 ![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
@@ -135,38 +149,39 @@ Most Cryptocurrency Centralized exchanges make use of Transparent Address ("T-ad
 
 <br/>
 
-## The Future: Ironwood Pool
+## The Orchard to Ironwood Migration
 
-The Zcash community is currently evaluating a proposed shielded pool called Ironwood.
+The migration is happening now. Orchard is sealed to new deposits, and the value still sitting there is moving into Ironwood a transaction at a time. You can watch the totals at [ironwood.live](https://ironwood.live/).
 
-Ironwood is designed to address a recently discovered and patched vulnerability in Orchard's proving system. Although there is no evidence that the vulnerability was ever exploited, Ironwood would provide an additional layer of assurance by enabling a controlled migration from Orchard into a newly created shielded pool.
+What this means depends on where your funds are:
 
-The goal is not to replace Zcash privacy, but to strengthen confidence in the integrity of the shielded ZEC supply.
+1. **New shielded activity** goes into Ironwood automatically. Nothing to do.
+2. **Existing Orchard funds** need to migrate. Maintained wallets do this for you, usually in stages rather than all at once.
+3. **Sapling is unaffected** and still accepts funds. Only Orchard was sealed.
+4. **The turnstile counts everything** crossing between pools, which is what proves no coin was invented along the way.
 
-## Under the proposal:
+> **One privacy caveat worth knowing.** The turnstile publishes the *amount* that crosses between pools, along with the block height. Sender and receiver stay hidden as always, but a distinctive amount can be linked back to you. This is why wallets migrate in stages using standard denominations instead of moving your balance in one recognisable lump. Let your wallet pace itself, and consider using Tor or a VPN so your IP is not tied to the amounts you move.
 
-1. New shielded activity would gradually move into Ironwood.
-2. Existing Orchard funds could be migrated privately.
-3. Public turnstile accounting would provide stronger evidence that all shielded funds remain fully backed.
-4. Users would retain the same privacy protections they expect from Zcash.
-
-<br/>
-If activated through future network upgrades, Ironwood would become the next generation of Zcash's shielded ecosystem while preserving compatibility with existing shielded funds.
+See [Ironwood](/zcash-tech/ironwood) for the upgrade itself, and [The Turnstile](/zcash-tech/the-turnstile) for how the accounting works.
 
 <br/>
 
 ## Common Mistakes to Avoid
 
 - **Sending from t-address to t-address** — fully public, no privacy. Always shield funds first.
-- **Confusing Sapling and Orchard addresses** — Sapling addresses start with `zs`, Orchard/Unified addresses start with `u1`
-- **Leaving funds in the Sprout pool** — Sprout is deprecated; migrate funds to Orchard
+- **Assuming Orchard still accepts funds** — it is spend-only since 28 July 2026. Value can leave, but nothing new goes in
+- **Confusing Sapling and Unified addresses** — Sapling addresses start with `zs`. Unified addresses start with `u1` and bundle several receivers, so the pool your payment lands in depends on which receivers that address carries
+- **Leaving funds in the Sprout pool** — Sprout has been deprecated for years; move those funds out
+- **Expecting a migration to be completely invisible** — the amount crossing the turnstile is public, even though sender and receiver are not
 - **Assuming t → z (shielding) is fully private** — the act of shielding itself is visible on-chain; the contents are not
 
 ---
 
 ## Related Pages
 
-- [Wallets](/using-zcash/wallets) — Which wallets support Orchard and Sapling pools
+- [Ironwood](/zcash-tech/ironwood) — The upgrade that created the current pool
+- [The Turnstile](/zcash-tech/the-turnstile) — How value moving between pools is audited
+- [Wallets](/using-zcash/wallets) — Which wallets are maintained and Ironwood ready
 - [Transactions](/using-zcash/transactions) — How to send shielded transactions
 - [Buying ZEC](/using-zcash/buying-zec) — Acquiring ZEC before using it in pools
 - [ZK-SNARKs](/zcash-tech/zk-snarks) — The cryptographic foundation of shielded pools
