@@ -56,7 +56,7 @@ Orchard는 기존의 실드 입력과 출력 대신 Action에 기반한 더 유�
 
 오늘날 Orchard는 Zcash의 주요 실드 풀로 남아 있습니다. 그러나 커뮤니티는 Zcash의 프라이버시 보장을 유지하면서 실드된 ZEC 공급의 무결성에 대해 추가적인 확신을 제공할 새로운 실드 풀 Ironwood로의 미래 마이그레이션을 검토하고 있습니다.
 
-[Zcash 실드 지갑](/site/Using_Zcash/Wallets)은 이제 Orchard를 지원합니다. 
+[Zcash 실드 지갑](/wallets)은 이제 Orchard를 지원합니다.
 
 ____
 

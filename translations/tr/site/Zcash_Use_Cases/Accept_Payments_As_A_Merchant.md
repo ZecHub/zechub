@@ -135,5 +135,5 @@ Artık işletmeniz için özel ödeme akışları yürütebilirsiniz.
 
 ## Sonraki Adım
 
-- [Özel Bir Topluluk Hazinesi Yürütün](/use-cases/private-community-treasury)
+- [Özel Bir Topluluk Hazinesi Yürütün](/zcash-use-cases/private-community-treasury)
 <br/>

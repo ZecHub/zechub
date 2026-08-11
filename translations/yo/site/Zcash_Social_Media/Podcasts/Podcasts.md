@@ -9,18 +9,18 @@
 - Àwọn àlejò:
   - Joe Bonneau ([/josephbonneau] ojúewé](https://eprint.iacr.org/2023/1472.pdf))
 - Àwọn onílé:
-  - Anna ([AnnaRose]](https://x.com/AnnaRRose))
-  - Guille ([GuilleAngeris]](https://x.com/guilleangeris))
+  - Anna ([AnnaRose](https://x.com/AnnaRRose))
+  - Guille ([GuilleAngeris](https://x.com/guilleangeris))
 
 ### Ìpínlẹ̀ 333  Àyẹ̀wò SQL, Reckle Trees àti ZK Coprocessing pẹ̀lú Lagrange Labs
 - **Ọjọ́:** Ọjọ́ kẹrìnlélógún oṣù keje ọdún 2024
 - Ìjápọ̀:https://zeroknowledge.fm/333-2](https://zeroknowledge.fm/333-2)
 - **ìkóhunsókè:** Anna bá Ismael Hishon-Rezaizadeh, Olùdásílẹ̀ àti CEO ní Lagrange Labs sọ̀rọ̀, àti Charalampos (Babis) Papamanthou, Olórí Ètò Ìwádìí ní Lagrange. Wọ́n tún ṣàyẹ̀wò àwọn oníṣiṣẹ́pọ̀ tí ó ń lo zk, Verifiable SQL, Reckle Trees, wọ́n sì jíròrò ọjà tuntun wọn.
 - Àwọn àlejò:
-  - Ismael Hishon-Rezaizadeh ([ismael_h_r]](https://x.com/ismael_h_r))
-  - Charalampos (Babis) Papamanthou ([chbpap]](https://x.com/chbpap))
+  - Ismael Hishon-Rezaizadeh ([ismael_h_r](https://x.com/ismael_h_r))
+  - Charalampos (Babis) Papamanthou ([chbpap](https://x.com/chbpap))
 - ** Olùgbàlejò:**
-  - Anna ([AnnaRose]](https://x.com/AnnaRRose))
+  - Anna ([AnnaRose](https://x.com/AnnaRRose))
 
 ### Ìpínlẹ̀ 332  Brussels Catch-Up with Hart from Across
 - **Ọjọ́:** July 18, 2024
@@ -29,7 +29,7 @@
 - Àwọn àlejò:
   - Hart Lambur ([hal2001](https://x.com/hal2001))
 - Àwọn onílé:
-  - Anna ([AnnaRose]](https://x.com/AnnaRRose))
+  - Anna ([AnnaRose](https://x.com/AnnaRRose))
   - Tarun ([tarunchitra] Àdàkọ:Àtúnṣe ojúewé)](https://x.com/tarunchitra))
 
 ### Apá 331  Farcaster àti Varun Srinivasan
@@ -39,7 +39,7 @@
 - Àwọn àlejò:
   - Varun Srinivasan ([varunsrin](https://x.com/varunsrin))
 - Àwọn onílé:
-  - Anna ([AnnaRose]](https://x.com/AnnaRRose))
+  - Anna ([AnnaRose](https://x.com/AnnaRRose))
   - Tarun ([tarunchitra] Àdàkọ:Àtúnṣe ojúewé)](https://x.com/tarunchitra))
 
 ### Ìpínlẹ̀ 330  Àwọn àlàfo fún Ìpamọ́ tí a lè ṣe ètò pẹ̀lú Ying Tong àti Bryan Gillespie
@@ -50,18 +50,18 @@
   - Ying Tong Lai ([therealyingtong](https://x.com/therealyingtong))
   - Bryan Gillespie ([bryan_gillespie] ojúewé àtúnṣe)](https://x.com/bryan_gillespie))
 - Àwọn onílé:
-  - Anna ([AnnaRose]](https://x.com/AnnaRRose))
-  - Guille ([GuilleAngeris]](https://x.com/GuilleAngeris))
+  - Anna ([AnnaRose](https://x.com/AnnaRRose))
+  - Guille ([GuilleAngeris](https://x.com/GuilleAngeris))
 
 ### Apá 329  Ṣíṣe Àrídájú Ìkọ̀ǹkọ̀rọ̀ pẹ̀lú Àwọn Iṣẹ́ Hash láti Alessandro Chiesa & Eylon Yogev
 - **Ọjọ́:** June 26, 2024
 - Ìjápọ̀:https://zeroknowledge.fm/329-2](https://zeroknowledge.fm/329-2)
 - **Akóyọ̀:** Anna àti Nico bá Alessandro Chiesa, Olùkọ́ Àjọ ní EPFL, àti Eylon Yogev, Òǹkọ̀wé ní Yunifásítì Bar-Ilan, sọ̀rọ̀ nípa ìwé tí wọ́n kọ nípa bí wọ́ n ṣe ń kọ àwọn ẹ̀rí ìpamọ́ láti inú àwọn iṣẹ́ hash.
 - Àwọn àlejò:
-  - Alessandro Chiesa ([ìdánimọ̀]](https://ic-people.epfl.ch/~achiesa/))
+  - Alessandro Chiesa ([ìdánimọ̀](https://ic-people.epfl.ch/~achiesa/))
   - Eylon Yogev ([ì ì í ])](https://eylonyogev.com/))
 - Àwọn onílé:
-  - Anna ([AnnaRose]](https://x.com/AnnaRRose))
+  - Anna ([AnnaRose](https://x.com/AnnaRRose))
   - Nico ([nico_mnbl](https://x.com/nico_mnbl))
 
 ## ZL;DR Àfihàn

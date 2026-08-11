@@ -124,5 +124,5 @@ Agora você entende como receber renda de forma privada.
 
 ## Próxima Etapa
 
-- [Aceitar Pagamentos como um Comerciante](/use-cases/accept-payments-as-a-merchant)
+- [Aceitar Pagamentos como um Comerciante](/zcash-use-cases/accept-payments-as-a-merchant)
 <br/>

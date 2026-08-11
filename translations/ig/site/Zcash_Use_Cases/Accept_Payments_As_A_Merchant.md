@@ -2,15 +2,15 @@
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  Onye mbido - 5 min
+  Onye mbido - 5 min.
 </span>
 
 ## TL;DR
 
-- Nabata ịkwụ ụgwọ site na iji adreesị ezoro ezo
+- Nabata ịkwụ ụgwọ site na iji adreesị echekwara
 - Zere ikpughe data azụmahịa ndị ahịa
-- Jiri memos ma ọ bụ sistemụ na-abụghị nke usoro maka nsuso iwu
-- Na-eme ka ego ị na-enweta n'azụmahịa bụrụ ihe nzuzo
+- Jiri akwụkwọ ozi ma ọ bụ usoro mpụga maka nsuso iwu.
+- Na-edebe ego azụmahịa na nzuzo.
 
 <br/>
 
@@ -19,14 +19,14 @@
 - Ndị na-ere ahịa n'ịntanetị
 - Ndị na-enye ọrụ
 - Obere ụlọ ọrụ
-- Ụlọ ahịa ndị na-akwado crypto
+- Ụlọ ahịa ndị na-akwado crypto.
 
 <br/>
 
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
 
 Ịkwụ ụgwọ crypto ọdịnala na-ekpughe:
-- Omume ịzụ ahịa ndị ahịa
+- Omume ịzụta ndị ahịa
 - Ego ndị ahịa na-enweta
 - Akụkọ azụmahịa
 
@@ -41,37 +41,37 @@ Nke a na - eduga:
 
 Zcash na-enye ohere:
 - Ịkwụ ụgwọ ndị ahịa onwe ha
-- Nchịkọta ụtụ isi nzuzo
-- Nchebe nke ọrụ azụmahịa
+- Nchịkọta ego nzuzo nke ụtụ isi
+- Nchedo nke ọrụ azụmahịa
 
 
 <br/>
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
-- Akpa ego Zcash na-akwado azụmahịa echekwara
+- Akpa ego Zcash na-akwado azụmahịa echekwara.
 - Usoro ịkwụ ụgwọ dị mfe (aka ma ọ bụ jikọtara)
-- Nhọrọ: usoro nsuso usoro
+- Nhọrọ: usoro nlekota oru iwu.
 
 
 <br/>
 
 ## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
 
-### Nzọụkwụ 1: Mepụta Adreesị Ịkwụ Ụgwọ
+### Nzọụkwụ 1: Tinye Adreesị Ịkwụ Ụgwọ
 
-- Mepụta adreesị ezoro ezo (z)
-- Jiri nke a maka ịkwụ ụgwọ
+- Mepụta adreesị echekwara (z)
+- Jiri nke a maka ịnata ịkwụ ụgwọ.
 
 
 ### Nzọụkwụ 2: Gosi Ntụziaka Ịkwụ Ụgwọ
 
 Maka azụmahịa ọ bụla:
-- Gosi adreesị z gị
-- Nye ego ịkwụ ụgwọ
-- Ị nwere ike ịgụnye ihe edeturu
+- Gosi adreesị z gị.
+- Nye ego ịkwụ ụgwọ ahụ.
+- N'ụzọ nhọrọ tinye ebe e dere ihe na memo ahụ .
 
-### Nzọụkwụ 3: Soro iwu
+### Nzọụkwụ 3: Track iwu
 
 Jiri:
 - Memo (dịka, Order ID)
@@ -82,17 +82,17 @@ Ihe atụ:
 - Iwu #4821
 
 
-### Nzọụkwụ 4: Kwado ịkwụ ụgwọ
+### Nzọụkwụ 4: Kwenye na ịkwụ ụgwọ ahụ.
 
-- Nyochaa azụmahịa echekwara na-abata
-- Nkwekọrịta memo ma ọ bụ ego iji nye iwu
+- Nyochaa azụmahịa ndị echekwara na-abata.
+- Nkwekọrịta memo ma ọ bụ ego iji nye iwu.
 
 
-### Nzọụkwụ nke Ise: Na-eme Ihe Ndị Ga-eme Ka I Nwere Onwe Gị Mgbe Niile
+### Nke Ise: Na-akpa Àgwà Ọma Mgbe Gị na Ndị Ọzọ Nọ
 
-- Zere iji adreesị eme ihe n'ihu ọha ma ọ bụrụ na ọ ga-ekwe omume
-- Ekwela ka ekpughe akụkọ azụmahịa
-- Ekewapụ obere akpa ego maka ngalaba azụmahịa dị iche iche ma ọ bụrụ na ọ dị mkpa
+- Zere iji adreesị eme ihe n'ihu ọha ma ọ bụrụ na o kwere omume.
+- Ekwela ka ekpughere akụkọ azụmahịa gị .
+- E nwere ike iji obere akpa ego dị iche maka ngalaba azụmahịa ndị ọzọ ma ọ bụrụ na achọrọ ya .
 
 
 <br/>
@@ -101,7 +101,7 @@ Ihe atụ:
 
 - Iji adreesị doro anya maka ịkwụ ụgwọ 
 - Ikwupụta ihe akaebe nke azụmahịa n'ihu ọha 
-- Njikọ njirimara ndị ahịa na data blockchain 
+- Ijikọta njirimara ndị ahịa na data blockchain 
 - Ịchọghị ịkwụ ụgwọ n'ụzọ kwesịrị ekwesị 
 
 
@@ -111,8 +111,8 @@ Ihe atụ:
 
 I nwere ike:
 - Nabata ịkwụ ụgwọ na nzuzo
-- Chebe ndị ahịa gị
-- Debe ihe ọmụma azụmahịa gị na nzuzo
+- Chebe ndị ahịa gị .
+- Na-edebe ihe ọmụma azụmahịa gị na nzuzo
 
 
 <br/>
@@ -121,7 +121,7 @@ I nwere ike:
 
 
 - [Akpa ego](/wallets)
-- [Nzuzo - Omume Kasị Mma](/privacy/best-practices)
+- [Nzuzo - Ụzọ Ndị Kasị Mma Isi Mee Ya](/privacy/best-practices)
 
 <br/>
 
@@ -129,11 +129,11 @@ I nwere ike:
 
 **Nzọụkwụ 4 nke 6**
 
-Ị nwere ike ugbu a na-agba ọsọ onwe ugwo aga n'ihi na azụmahịa.
+Ị nwere ike ugbu a na-agba ọsọ onwe ugwo aga n'ihi azụmahịa.
 
 <br/>
 
 ## Nzọụkwụ Ọzọ
 
-- [Na-arụ ọrụ ego obodo nke onwe ya](/use-cases/private-community-treasury)
+- [Na-elekọta Akụ̀ Ndị Dị n'Ụlọ Gị nke Onwe Ya](/zcash-use-cases/private-community-treasury)
 <br/>

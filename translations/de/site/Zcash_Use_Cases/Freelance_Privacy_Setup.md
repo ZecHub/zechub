@@ -124,5 +124,5 @@ Du verstehst jetzt, wie du Einkommen privat empfangen kannst.
 
 ## Nächster Schritt
 
-- [Zahlungen als Händler akzeptieren](/use-cases/accept-payments-as-a-merchant)
+- [Zahlungen als Händler akzeptieren](/zcash-use-cases/accept-payments-as-a-merchant)
 <br/>

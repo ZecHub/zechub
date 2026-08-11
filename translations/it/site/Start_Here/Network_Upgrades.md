@@ -1,33 +1,22 @@
-# Aggiornamenti della rete Zcash 
+---
+# Aggiornamenti di rete di Zcash
 
-Nel corso degli anni, Zcash ha introdotto cambiamenti e miglioramenti significativi al protocollo, e oggi esploriamo ognuno di questi aggiornamenti:
+Zcash migliora attraverso aggiornamenti di rete: modifiche coordinate alle regole su cui ogni nodo concorda, ciascuna attivata a un'altezza di blocco prestabilita. Ogni aggiornamento qui sotto ha una propria pagina che spiega, in linguaggio semplice, che cosa ha cambiato e perché. Sei nuovo su Zcash? Leggile in ordine, da Sprout a Ironwood.
 
-[OverWinter:](https://bitzecbzc.github.io/blog/overwinter/index.html) Attivato al blocco 347500, minato il 26 giugno 2018. Overwinter è stato il primo aggiornamento di rete per Zcash dopo il lancio iniziale. L'obiettivo principale di Overwinter era rafforzare il protocollo per i futuri aggiornamenti di rete. Al centro di Overwinter vi sono la protezione dal replay per gli aggiornamenti di rete, il versionamento, il miglioramento delle prestazioni per le transazioni trasparenti e una nuova funzionalità di scadenza delle transazioni.
+Per la storia visiva di come la privacy di Zcash si è evoluta attraverso questi aggiornamenti, vedi [L'evoluzione della privacy](https://zechub.wiki/zcash-evolution). Questa pagina è l'indice. Quella è la cronologia.
 
+| Aggiornamento | Attivazione (UTC) | Blocco | Branch id | Cosa ha cambiato |
+|---|---|---|---|---|
+| [Sprout](../zcash-tech/sprout) | 28 ottobre 2016 | genesis | 00000000 | Il lancio: il primo pool shielded e le transazioni private zk-SNARK |
+| [Overwinter](../zcash-tech/overwinter) | 26 giugno 2018 | 347,500 | 5ba81b19 | Protezione dai replay, versionamento delle transazioni e scadenza, così sono diventati possibili aggiornamenti sicuri |
+| [Sapling](../zcash-tech/sapling) | 29 ottobre 2018 | 419,200 | 76b809bb | Transazioni shielded efficienti, abbastanza veloci per telefoni e hardware wallet |
+| [Blossom](../zcash-tech/blossom) | 11 dicembre 2019 | 653,600 | 2bb40e60 | Blocchi più veloci, circa 75 secondi, e maggiore throughput |
+| [Heartwood](../zcash-tech/heartwood) | 16 luglio 2020 | 903,000 | f5b9230b | Ricompense di mining shielded e client più leggeri (FlyClient) |
+| [Canopy](../zcash-tech/canopy) | 18 novembre 2020 | 1,046,400 | e9ff75a6 | Il Development Fund, il primo halving e la progressiva dismissione del pool Sprout |
+| [NU5](../zcash-tech/nu5) | 31 maggio 2022 | 1,687,104 | c2d6d0b4 | Il pool Orchard su Halo 2 (senza trusted setup), unified addresses e transazioni v5 |
+| [NU6](../zcash-tech/nu6) | 23 novembre 2024 | 2,726,400 | c8e71055 | Il Deferred Dev Fund Lockbox e una nuova ripartizione del finanziamento allo sviluppo |
+| [NU6.1](../zcash-tech/nu6-1) | 24 novembre 2025 | 3,146,400 | 4dec4df0 | Governance di quel finanziamento da parte della comunità e dei detentori di coin |
+| [NU6.2](../zcash-tech/nu6-2) | 3 giugno 2026 | 3,364,600 | 5437f330 | Una correzione d'emergenza che ha corretto il circuito Orchard |
+| [Ironwood (NU6.3)](../zcash-tech/ironwood) | ~28 luglio 2026 | 3,428,143 | 37a5165b | Il pool Ironwood e un turnstile pubblico che permette a chiunque di verificare l'offerta |
 
-[Sapling:](https://coinbureau.com/analysis/zcash-sapling-upgrade/) Attivato al blocco 419200, minato il 29 ottobre 2018. Questo è il secondo grande e impressionante aggiornamento per la rete Zcash, incentrato principalmente sul miglioramento dell'efficienza degli zk-SNARKs per le transazioni shielded. Al momento dell'arrivo del rilascio di Sapling, vi erano diverse sfide incombenti attorno agli zk-SNARKs, dai problemi di aggiornabilità alle complessità di implementazione fino ai requisiti di trusted setup. Fortunatamente, Sapling ha migliorato l'efficienza della creazione delle prove zk-SNARK per ampliare la potenziale adozione della criptovaluta, di cui oggi beneficiamo! Un altro importante setup previsto per Sapling era una cerimonia pubblica di generazione dei parametri, che era anch'essa un aspetto che il team di Zcash voleva migliorare. 
-
-
-[Zcash Blossom:](https://electriccoin.co/blog/blossom-upgrade-improves-speed-scalability-capacity/) Attivato al blocco 653600, minato l'11 dicembre 2019. Questo cruciale aggiornamento di rete è stato progettato per migliorare la scalabilità e l'esperienza utente dimezzando i tempi dei blocchi a circa 75 secondi. Le implicazioni? Le conferme delle transazioni sono diventate più rapide, il throughput della rete è raddoppiato e le commissioni di transazione sono rimaste contenute. L'aggiornamento Blossom dimostra immediatamente che la rete Zcash può prendere decisioni ingegneristiche pragmatiche per aumentare la capacità della rete mantenendo al contempo i nostri elevati standard di sicurezza e affidabilità. 
-
-
-[HeartWood:](https://electriccoin.co/blog/introducing-heartwood/) Attivato al blocco 903000, minato il 16 luglio 2020. Lo scopo esclusivo di Heartwood è consentire più integrazioni di terze parti e una privacy migliorata attraverso una Coinbase shielded che permette ai miner di ricevere ricompense in indirizzi shielded. Inoltre, Heartwood è supportato da una maggiore decentralizzazione della rete e interoperabilità. L'aggiornamento Heartwood ha anche integrato Flyclient, che consente ai client leggeri di verificare le transazioni in modo efficiente, migliorando la scalabilità e l'integrazione con terze parti. Vale anche la pena ricordare che la shielded Coinbase, nota come ZIP 213, mira a modificare le regole di consenso di Zcash in modo che i fondi Coinbase possano essere minati verso indirizzi Sapling shielded. Prima dell'aggiornamento Sapling, la shielded Coinbase non era praticabile perché le transazioni shielded richiedevano notevoli risorse di memoria e CPU per essere create.
-
-
-[Canopy:](https://youtu.be/R8O1SZMfESM?si=qoBL1dBp4E_af-eM) Attivato al blocco 1046400, minato il 18 novembre 2020. Questo aggiornamento è stato sostenuto sia da Electric Coin Co (ECC) sia dalla Zcash Foundation. Canopy ha segnato la fine del founders reward, è stato introdotto un nuovo meccanismo di finanziamento (Zcash development fund) e un nuovo modello di governance ha sostenuto il finanziamento continuativo per l'ecosistema Zcash. Con Canopy, è stato istituito un nuovo development fund per i quattro anni successivi. L'80% della ricompensa di mining andrà ai miner. Il 20% restante sarà suddiviso tra il nuovo Major Grants Fund (8%), Electric Coin Co (7%) e la Zcash Foundation (5%). Il nome "canopy" riflette la missione di Zcash di creare un ecosistema sostenibile e florido restando fedele ai suoi principi di privacy e decentralizzazione.
-
-
-[NU5:](https://electriccoin.co/blog/nu5-proposed-features/) Attivato al blocco 1687104, minato il 31 maggio 2022. Vale la pena sottolineare che Zcash Network Upgrade 5 segna l'inizio di un'importante pietra miliare per la criptovaluta dalla sua nascita nel 2016. Essendo il sesto grande aggiornamento di Zcash, NU5 ha introdotto il protocollo shielded Orchard, gli Unified Address, così come il sistema di proving Halo. L'aggiornamento Zcash NU5 rappresenta una continua evoluzione dello stack tecnologico zk-SNARKs costruita per eliminare il trusted setup e aggiornare la sicurezza crittografica sottostante del protocollo. NU5 è inoltre supportato da ECC e dalla Zcash Foundation. 
-
-
-[NU6:](https://zips.z.cash/zip-0253) NU6 ha implementato un nuovo Zcash development fund (Hybrid Deferred Dev Fund in transizione verso un modello di finanziamento non diretto) e poi istituirà una lockbox in cui una parte dell'emissione sarà riservata a eventuali futuri finanziamenti di grant decentralizzati. Il rilascio di questi fondi sarà governato esclusivamente da un meccanismo determinato in futuro dalla comunità Zcash. La missione di NU6 è ridurre il sussidio di blocco e istituire un modello di finanziamento decentralizzato tramite un meccanismo di lockbox per garantire una maggiore trasparenza, rafforzando al contempo la privacy.
-
-[NU6.2:](https://zips.z.cash/zip-0257) L'aggiornamento di rete NU6.2 riabilita il protocollo shielded Orchard, con due modifiche di consenso rispetto alle regole originali di Orchard:
-
-* Il gadget di moltiplicazione scalare a base variabile del circuito Orchard Action è stato corretto, risolvendo la vulnerabilità di soundness. Questo modifica la chiave di verifica di Orchard. Le prove Action pre-NU6.2 vengono verificate solo con la chiave di verifica storica (insicura), mentre le prove da NU6.2 in poi solo con quella corretta. La correzione è stata pubblicata in halo2_gadgets v0.5.0 10 e orchard v0.14.0. 11
-
-* Dall'attivazione di NU6.2, una prova Orchard Action DEVE avere la lunghezza canonica per il circuito corretto. Prima di NU6.2, questa lunghezza non era applicata come regola di consenso. 8
-
-Dall'attivazione di NU6.2, la mitigazione temporanea non si applica più. Le transazioni contenenti descrizioni Orchard Action DEVONO essere nuovamente accettate, con prove soggette a verifica secondo il circuito corretto e la regola della lunghezza canonica. NU6.2 è stato distribuito in zcashd v6.20.0 e zebra v5.0.0.
-
-[NU6.3:](https://zips.z.cash/zip-0258) L'aggiornamento di rete NU6.3 introduce il pool shielded Ironwood. Le modifiche di consenso per NU6.3 sono specificate nel formato di transazione versione 6 5, nell'aggiornamento del circuito Orchard Action 6, in ZIP 2005 7 e in questa ZIP, che definisce i parametri di attivazione e le regole di consenso che dipendono dall'attivazione di NU6.3 indipendentemente dalla versione della transazione.
+Le date sono mostrate in UTC. Alcune dashboard le mostrano nell'ora locale, che corrisponde allo stesso blocco e allo stesso momento. La data di Ironwood è una stima basata sulla sua altezza di attivazione del blocco, che è il trigger fisso, quindi il giorno esatto potrebbe slittare leggermente. Un aggiornamento futuro, NU7, è ancora in fase di pianificazione e non è la stessa cosa di Ironwood.

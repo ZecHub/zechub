@@ -4,7 +4,7 @@
 
 # <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Alt-Text" width="50"/>   Non-Custodial Börsen
 
-[Zcash Non-Custodial Börsen](/site/Using_Zcash/DEX_List)
+[Zcash Non-Custodial-Börsen](/dex)
 
 In der sich ständig weiterentwickelnden Welt des Kryptowährungshandels definiert der Aufstieg von Non-Custodial Börsen, die auch als dezentrale Börsen oder DEXs bekannt sind, neu, wie Nutzer mit digitalen Vermögenswerten interagieren. Diese Plattformen bieten einen revolutionären Ansatz für den Handel, indem sie die Notwendigkeit von Vermittlern oder Drittparteien beseitigen und die Kontrolle an die Nutzer zurückgeben.
 

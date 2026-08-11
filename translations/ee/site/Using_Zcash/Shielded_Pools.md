@@ -25,12 +25,12 @@ Egbea la, asixɔxɔ vevi ene ƒe ƒuƒoƒo ene le network la me:
 
 - Transparent — Dutoƒo kple bliboe dzedze le kɔsɔkɔsɔ.
 - Sapling — Egbegbe ta gbãtɔ si ame geɖe zãna si ŋu wokpɔa akpoxɔnu le.
-- Orchard — Fifia gbãtɔ si wokpɔ ta na si woto vɛ kple Adrɛs Ðeka.
+- Orchard — The current primary shielded pool introduced with Unified Addresses.
 - Sprout — Gbãtɔ si wotsɔ akpoxɔnu ta la dze egɔme kple Zcash le ƒe 2016 me.
   
 
 
-Esi Zcash le ŋgɔ yim la, woate ŋu ato tadeaguƒe yeye siwo ŋu wokpɔ ta na vɛ be woatsɔ ana dedienɔnɔ, adzamenyawo, zazã, kple agbalẽdzikpɔkpɔ nanyo ɖe edzi esime wole ɖekawɔwɔ me kple ga siwo li fifia.
+Esi Zcash le ŋgɔ yim la, woate ŋu ato tadeaguƒe yeye siwo ŋu wokpɔ ta na vɛ be woatsɔ ana dedienɔnɔ, ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ, zazã, kple agbalẽdzikpɔkpɔ nanyo ɖe edzi esime wole ɖekawɔwɔ me kple ga siwo li fifia.
 
 <br/>
 
@@ -54,9 +54,9 @@ Wowɔ Orchard Shielded Pool la ŋudɔ le May 31, 2022 dzi abe NU5 ƒe network ƒ
 
 Orchard na zazã, dɔwɔwɔ nyuie, kple adzamenyawo nyo ɖe edzi ŋutɔ to asitsatsa ƒe metadata ƒe sisi dzi ɖeɖe kpɔtɔ kple asitsatsa ƒe kpɔɖeŋu si te ŋu trɔna bɔbɔe wu si wotu ɖe Nuwɔnawo dzi tsɔ wu nusiwo wotsɔ de eme kple nusiwo woɖe tso eme siwo wokpɔ ta na tsã la dodo ɖe ŋgɔ me.
 
-Egbea la, Orchard gakpɔtɔ nye ta vevitɔ si wokpɔ ta na Zcash. Ke hã, nutoa me tɔwo le ŋku lém ɖe ʋuʋu yi ta yeye si ŋu wokpɔ akpoxɔnu le si woyɔna be Ironwood me le etsɔme ŋu, si ana kakaɖedzi bubu ku ɖe ZEC ƒe nuzazã si ŋu wokpɔ ta na ƒe blibonyenye ŋu esime wòle Zcash ƒe ameŋunyatakakawo takpɔkpɔ ƒe kakaɖedziwo ta kpɔm.
+Egbea la, Orchard gakpɔtɔ nye ta vevitɔ si wokpɔ ta na Zcash. Ke hã, nutoa me tɔwo le ŋku lém ɖe ʋuʋu yi ta yeye si ŋu wokpɔ akpoxɔnu le si woyɔna be Ironwood me le etsɔme ŋu, si ana kakaɖedzi bubu ku ɖe ZEC ƒe nuzazã si wokpɔ ta na ƒe blibonyenye ŋu esime wòle Zcash ƒe ameŋunyatakakawo takpɔkpɔ ƒe kakaɖedziwo ta kpɔm.
 
-[Zcash Gakotoku siwo wotsɔ akpoxɔnu wɔe](/site/Using_Zcash/Wallets) fifia do alɔ Orchard. 
+[Zcash Gakotoku siwo wotsɔ akpoxɔnu wɔe](/wallets) fifia do alɔ Orchard.
 
 ____
 
@@ -74,7 +74,7 @@ Dodoɖeŋgɔ aɖewo dometɔ aɖewoe nye dɔwɔwɔ nyuie wu na adrɛs siwo wokpɔ
 
 Zcash Sapling na be ezãlawo te ŋu wɔa ame ŋutɔ ƒe asitsatsa le sɛkɛnd ʋee aɖewo ko me ne wotsɔe sɔ kple ɣeyiɣi didi si wòxɔ le Sprout Series me. 
 
-Asitsatsa ƒe ametakpɔkpɔ nana ame ŋutɔ ƒe nyatakakawo nyona ɖe edzi, si wɔnɛ be ame etɔ̃lia mate ŋu atsɔ asitsatsa aƒo ƒui ahanya ZEC ƒe agbɔsɔsɔ si woatsɔ aɖo ame bubu gbɔ o. Sapling hã naa zazã nyona ɖe edzi to akɔntabubu ƒe nudidi siwo hiã hena ame ŋutɔ ƒe asitsatsa wɔwɔ dzi ɖeɖe kpɔtɔ to ewɔwɔ be wòate ŋu akpɔe na ezãlawo wu me.
+Asitsatsa ƒe ametakpɔkpɔ nana ame ŋutɔ ƒe nyatakakawo nyona ɖe edzi, si wɔnɛ be ame etɔ̃lia mate ŋu atsɔ asitsatsa aƒo ƒui ahanya ZEC ƒe agbɔsɔsɔ si woatsɔ aɖo ame bubu gbɔ o. Sapling hã naa zazã nyona ɖe edzi to akɔntabubu ƒe nudidi siwo hiã hena ame ŋutɔ ƒe asitsatsa wɔwɔ dzi ɖeɖe kpɔtɔ to ewɔwɔ be wòanɔ bɔbɔe na ezãlawo me.
 
 Sapling gakotoku adrɛswo dzea egɔme kple "zs" eye woateŋu akpɔ esia le Zcash Shielded Wallet (YWallet, Zingo Wallet Nighthawk kple bubuawo) siwo katã wodo alɔe si me Sapling adrɛswo le la me. Zcash Sapling tsi tre ɖi na ŋgɔyiyi ɖedzesi aɖe le mɔ̃ɖaŋununya me ne wole nu ƒom tso adzamenyawo kple asitsatsa ƒe dɔwɔwɔ nyuie ŋu si na Zcash nye cryptocurrency si wɔa dɔ eye wòwɔa dɔ nyuie na ezãla siwo dea asixɔxɔ adzamenyawo kple dedienɔnɔ ŋu.
 
@@ -84,13 +84,13 @@ ____
 
 
 ![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
-Fig 4: Tabla si fia Sprout ƒe ta la tso October, 2025 me
+Fig 4: Tabla si ɖe Sprout-ta la fia tso October, 2025 me
 
-Sprout nye Zero Knowledge ƒe ameŋunyatakakawo ŋuti ɖoɖo gbãtɔ si ŋu mɔɖeɖe mele o si woʋu kpɔ. Wodze egɔme le October 28th, 2016 dzi.
+Sprout ye nye Zero Knowledge ƒe ameŋunyatakakawo ŋuti ɖoɖo gbãtɔ si ŋu mɔɖeɖe mele o si woʋu kpɔ. Wodze egɔme le October 28th, 2016 dzi.
 
 Wodea dzesi sprout adrɛswo to woƒe ŋɔŋlɔdzesi eve gbãtɔ siwo nye "zc" ɣesiaɣi. Wotsɔ ŋkɔ nɛ be "Sprout" kple taɖodzinu vevitɔ be woate gbe ɖe edzi be kɔmpiutadziɖoɖoa nye sɔhɛ, blockchain si le tsitsim si si ŋutete gã aɖe le be wòatsi eye wòʋu na ŋgɔyiyi. 
 
-Wozã Sprout abe dɔwɔnu gbãtɔ ene na [Zcash slow start Mining](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) si he ZEC kple Block ƒe teƒeɖoɖowo mama na Tomenukulawo vɛ. 
+Wozã Sprout abe dɔwɔnu gbãtɔ ene na... [Zcash blewu dze Mining gɔme](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) si he ZEC kple Block ƒe teƒeɖoɖowo mama na Tomenukulawo vɛ. 
 
 Esi Zcash ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa yi edzi le kekem ɖe enu kple asitsatsa siwo wokpɔ ta na ƒe xexlẽme si le dzidzim ɖe edzi la, wode dzesii be Zcash Sprout Series va zu seɖoƒe eye megawɔa dɔ nyuie o ne wole nu ƒom tso zãla ƒe adzamenyawo, asitsatsa ƒe dzidziɖedzi kple dɔwɔwɔ ŋu. Esia na wotrɔ asi le network la ŋu eye wowɔ Sapling Upgrade. 
 
@@ -103,13 +103,13 @@ Fig 5: Tabla si ɖe Transparent pool fia tso October, 2025 me
 
 <br/>
 
-Zcash Transparent ta la nye esi womekpɔ ta na o eye menye ame ŋutɔ tɔ o. Gakotoku ƒe adrɛs si me kɔ le Zcash dzea egɔme kple ŋɔŋlɔdzesi "t", adzamenyawo le sue ŋutɔ le adrɛs ƒomevi sia zazã na asitsatsa me.
+Zcash Transparent ta la nye esi womekpɔ ta na o eye menye ame ŋutɔ tɔ o. Gakotoku ƒe adrɛs si me kɔ le Zcash dzi dzea egɔme kple ŋɔŋlɔdzesi "t", adzamenyawo le sue ŋutɔ le adrɛs ƒomevi sia zazã na asitsatsa me.
 
-Asitsatsa siwo me kɔ le Zcash me sɔ kple Bitcoin asitsatsa si doa alɔ asitsatsa siwo me wode asi geɖe te eye wòwɔa dutoƒo adrɛs siwo wozãna ɖaa ŋudɔ.
+Asitsatsa siwo me kɔ le Zcash me sɔ kple Bitcoin ƒe asitsatsa si doa alɔ asitsatsa siwo me wode asi geɖe te eye wòwɔa dutoƒo adrɛs siwo wozãna ɖaa ŋudɔ.
 
-Zcash Transparent la zãa zi geɖe to centralized exchanges dzi be woakpɔ egbɔ be there’s high transparency kple network confirmation ne wole ZEC ɖom ɖa hele exɔm le ezãlawo dome.
+Zcash Transparent la wozãna zi geɖe to centralized exchanges dzi be woakpɔ egbɔ be there’s high transparency and network confirmation ne wole ZEC ɖom ɖa hele exɔm le ezãlawo dome.
 
-Ele vevie hã be míade dzesii be togbɔ be Zcash Shielded adrɛswo naa adzamenyawo gbɔ kpɔkpɔ deŋgɔ le asitsatsa me hã la, wohiãa akɔntabubu ƒe dɔwɔnu geɖe wu hã be woatsɔ awɔ asitsatsa ŋudɔ. Eyata, ezãla aɖewo ate ŋu axɔ Adrɛs siwo me kɔ na asitsatsa siwo mehiã be woatsɔ ame ŋutɔ ƒe nyawo aɣla ƒe ɖoɖo ɖeka ma ke o.
+Ele vevie hã be míade dzesii be togbɔ be Zcash Shielded adrɛswo naa adzamenyawo gbɔ kpɔkpɔ deŋgɔ le asitsatsa me hã la, wohiãa akɔntabubu dɔwɔnu geɖe wu hã be woatsɔ awɔ asitsatsa ŋudɔ. Eyata, ezãla aɖewo ate ŋu axɔ Adrɛs siwo me kɔ na asitsatsa siwo mehiã be woatsɔ ame ŋutɔ ƒe nyawo aɣla ƒe ɖoɖo ɖeka ma ke o.
 
 <br/>
 
@@ -117,7 +117,7 @@ Ele vevie hã be míade dzesii be togbɔ be Zcash Shielded adrɛswo naa adzameny
 
 Ne eva hiã be nàbu ameŋunyatakakawo ƒe ɖoƒe kɔkɔ ŋu le asitsatsa me le Zcash Network dzi la, eɖo aɖaŋu be nàwɔ ɖe nuwɔna siwo le ete dzi;
 
-Asitsatsa si yia edzi le "z vaseɖe z" gakotokuwo dome le Zcash blockchain dzi la ƒe akpa gãtɔ nyea ametakpɔnu eye woyɔnɛ ɣeaɖewoɣi be Ame ŋutɔ ƒe Asitsatsa le Adzamenyawo ƒe ɖoɖo gã si wowɔ ta. Zi geɖe la, esiae nye mɔ nyuitɔ kple esi wokafu wu si dzi woato aɖo $ZEC ɖa ahaxɔe ne ehiã be woazã ame ŋutɔ ƒe nyawo. 
+Asitsatsa si yia edzi le "z vaseɖe z" gakotokuwo dome le Zcash blockchain dzi la ƒe akpa gãtɔ nyea ametakpɔnu eye woyɔnɛ ɣeaɖewoɣi be Ame ŋutɔ ƒe Asitsatsa le Adzamenyawo ƒe ɖoɖo gã si wowɔ ta. Zi geɖe la, esiae nye mɔ nyuitɔ kple esi wokafu wu si dzi woato aɖo $ZEC ɖa ahaxɔe ne ehiã be woatsɔ ame ŋutɔ ƒe nyatakakawo aɣla. 
 
 ---
 
@@ -125,11 +125,11 @@ Ne èɖo ZEC tso "Z-adrɛs" dzi yi "T-adrɛs" dzi la, ɖeko wòfia Deshielding �
 
 ---
 
-ZEC tsɔtsɔ tso Adrɛs si me kɔ (T-adrɛs) me yi Z-adrɛs dzi koe woyɔna be Shielding. Le asitsatsa sia ƒomevi me la, ameŋunyatakakawo ƒe seƒe mekɔna ɣesiaɣi ne wotsɔe sɔ kple z-z asitsatsa tɔ o gake wokafui hã ne wobia adzamenyawo. 
+ZEC tsɔtsɔ tso Adrɛs si me kɔ (T-adrɛs) me yi Z-adrɛs dzi koe woyɔna be Shielding. Le asitsatsa sia ƒomevi me la, adzamenyawo ƒe seƒe mekɔna ɣesiaɣi ne wotsɔe sɔ kple z-z asitsatsa tɔ o gake wokafui hã ne wobia adzamenyawo. 
 
 ---
 
-ZEC ɖoɖo tso Adrɛs si me kɔ (T-adrɛs) yi Adrɛs si me kɔ (T-adrɛs) bubu me le Zcash Network (T-T asitsatsa) dzi sɔ kple Bitcoin ƒe asitsatsa tɔ ŋutɔ eye esia tae woyɔa T-T asitsatsa le Zcash dzi ɣesiaɣi be Dutoƒo asitsatsa elabena amesi ɖoe ɖa kple amesi xɔe siaa ƒe asitsatsa ŋuti nyatakakawo va dzena na dukɔa si wɔnɛ be Adzamenyawo ƒe seƒe bɔbɔ ŋutɔ le asitsatsa ma tɔgbe me. 
+ZEC ɖoɖo tso Adrɛs si me kɔ (T-adrɛs) yi Adrɛs si me kɔ (T-adrɛs) bubu me le Zcash Network (T-T asitsatsa) dzi sɔ kple Bitcoin ƒe asitsatsa tɔ ŋutɔ eye esia tae woyɔa T-T asitsatsa le Zcash dzi ɣesiaɣi be Dutoƒo asitsatsa elabena amesi ɖoe ɖa kple amesi xɔe siaa ƒe asitsatsa ŋuti nyatakakawo va dzena na dukɔa si wɔnɛ be Ameŋunyatakakawo ƒe seƒe bɔbɔ ŋutɔ le asitsatsa ma tɔgbe me. 
 
 Cryptocurrency Centralized exchange akpa gãtɔ wɔa Transparent Address ("T-address) ŋudɔ ne eva le asitsatsa le Zcash blockchain dzi gake asitsatsa sia ƒomevi (T-T) makpɔ ame ŋutɔ ƒe nunɔamesi aɖeke o.
 
@@ -137,15 +137,15 @@ Cryptocurrency Centralized exchange akpa gãtɔ wɔa Transparent Address ("T-add
 
 ## Etsɔme: Ironwood Ta
 
-Zcash nutoa me tɔwo le ŋku lém ɖe ta aɖe si woɖo be woatsɔ akpɔ ta na si woyɔna be Ironwood ŋu fifia.
+Zcash nutoa le ŋku lém ɖe ta aɖe si woɖo be woatsɔ akpɔ ta na si woyɔna be Ironwood ŋu fifia.
 
-Wotrɔ asi le Ironwood ŋu be wòakpɔ afɔku aɖe si ŋu woke ɖo nyitsɔ laa eye woɖɔe ɖo le Orchard ƒe kpeɖodziɖoɖoa me gbɔ. Togbɔ be kpeɖodzi aɖeke meli be wowɔ afɔku sia ŋudɔ kpɔ o hã la, Ironwood ana kakaɖedzi ƒe akpa bubu to ʋuʋu si dzi wokpɔ ŋusẽ ɖo tso Orchard yi ta si wowɔ yeyee si ŋu wokpɔ ta na me.
+Wotrɔ asi le Ironwood ŋu be wòakpɔ afɔku aɖe si ŋu woke ɖo nyitsɔ laa eye woɖɔe ɖo le Orchard ƒe kpeɖodziɖoɖoa me gbɔ. Togbɔ be kpeɖodzi aɖeke meli be wowɔ afɔku sia ŋudɔ kpɔ o hã la, Ironwood ana kakaɖedzi bubu to ʋuʋu si dzi wokpɔ ŋusẽ ɖo tso Orchard yi ta si wowɔ yeyee si ŋu wokpɔ akpoxɔnu le me.
 
 Menye taɖodzinuae nye be woaxɔ ɖe Zcash ƒe adzamenyawo teƒe o, ke boŋ be woado ŋusẽ kakaɖedzi le ZEC ƒe nuzazã si wokpɔ ta na ƒe blibonyenye ŋu.
 
 ## Le aɖaŋuɖoɖoa te la:
 
-1. Dɔ yeye siwo ŋu wokpɔ ta na la aʋu ayi Ironwood vivivi.
+1. Dɔ yeye siwo ŋu wokpɔa akpoxɔnuwo le la aʋu ayi Ironwood vivivi.
 2. Woate ŋu aʋu Orchard ƒe ga si li fifia la ayi teƒe bubu le ame ŋutɔ gbɔ.
 3. Dutoƒo ga si wotsɔ trɔa asi le ga ŋu ƒe akɔntabubu ana kpeɖodzi sẽŋu wu be ga siwo katã wokpɔ ta na la gakpɔtɔ le megbe na wo bliboe.
 4. Zãlawo alé ameŋunyatakakawo takpɔkpɔ siwo wokpɔ mɔ na tso Zcash gbɔ la ke ɖe asi.
@@ -158,7 +158,7 @@ Ne wowɔ dɔ to etsɔme network ƒe ɖɔɖɔɖowo me la, Ironwood ava zu dzidzim
 ## Vodada Siwo Wòaƒo Asa na Zi geɖe
 
 - **Dɔdɔ tso t-adrɛs dzi yi t-adrɛs dzi** — dutoƒo bliboe, ame ŋutɔ ƒe nya aɖeke mele eme o. Kpɔ ga ta gbã ɣesiaɣi.
-- **Tɔtɔ Sapling kple Orchard adrɛswo** — Sapling adrɛswo dzea egɔme kple `zs`, Orchard/Unified ƒe adrɛswo dzea egɔme kple `u1`
+- **Tɔtɔ Sapling kple Orchard adrɛswo** — Sapling adrɛswo dzea egɔme kple `zs`, Orchard/Unified adrɛswo dzea egɔme kple `u1`
 - **Gagblẽ ɖe Sprout-ta la me** — Woɖe asi le Sprout ŋu; ʋuʋu ga yi Orchard
 - **Ne míetsɔe be t → z (ametakpɔnu) nye ame ŋutɔ tɔ bliboe** — ametakpɔnu ŋutɔ ƒe nuwɔna dzena le kɔsɔkɔsɔ me; emenyawo mele nenema o
 
@@ -167,7 +167,7 @@ Ne wowɔ dɔ to etsɔme network ƒe ɖɔɖɔɖowo me la, Ironwood ava zu dzidzim
 ## Axa Siwo Do Ƒome Kplii
 
 - [Gakotokuwo](/using-zcash/wallets) — Gakotoku kawoe doa alɔ Orchard kple Sapling tadeaguƒewo
-- [Adzɔnuwo ƒe asitsatsa](/using-zcash/transactions) — Alesi woaɖo asitsatsa siwo ŋu wokpɔ akpoxɔnu le ɖa
+- [Adzɔnuwo ƒe asitsatsa](/using-zcash/transactions) — Alesi woaɖo adzɔnuwɔna siwo ŋu wokpɔ ta na
 - [ZEC ƒeƒle](/using-zcash/buying-zec) — ZEC xɔxɔ hafi azãe le tadeaguƒewo
 - [ZK-SNARKs ƒe nyawo](/zcash-tech/zk-snarks) — Ta siwo ŋu wokpɔ akpoxɔnu le ƒe gɔmeɖoanyi si wotsɔa nya ɣaɣlawo ŋlɔnae
 - [Nukae nye ZEC kple Zcash](/start-here/what-is-zec-and-zcash) — Zcash ƒe ameŋunyatakakawo ŋuti nyatakakawo

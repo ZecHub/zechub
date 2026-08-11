@@ -17,9 +17,9 @@
 
 [Ìwé Zcashd náà](https://zcash.github.io/zcash/)
 
-[Ìwé Zebrad]](https://zebra.zfnd.org/)
+[Ìwé Zebrad](https://zebra.zfnd.org/)
 
-[Ìlànà Ìránisọ̀rọ̀ Oníṣe-òwò Rọrun]](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html)
+[Ìlànà Ìránisọ̀rọ̀ Oníṣe-òwò Rọrun](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html)
 
 [Android Mobile SDK] Àtúnṣe ojúewé](https://github.com/zcash/zcash-android-wallet-sdk) / [iOS Mobile SDK](https://github.com/zcash/ZcashLightClientKit)
 
@@ -27,9 +27,9 @@
 
 [ZIP List](https://zips.z.cash)
 
-[Àdúgbò tí a fi kọ̀ǹpútà sí]](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys)
+[Àdúgbò tí a fi kọ̀ǹpútà sí](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys)
 
-[Ilé Ìpamọ́ Zebrad]](https://github.com/ZcashFoundation/zebra) / [Ìbéèrè láti fa Zebrad]](https://github.com/ZcashFoundation/zebra/pulls)
+[Ilé Ìpamọ́ Zebrad](https://github.com/ZcashFoundation/zebra) / [Ìbéèrè láti fa Zebrad](https://github.com/ZcashFoundation/zebra/pulls)
 
 [Ìwé Ìwé Aláṣẹ Ìkọ̀ǹkà](https://github.com/orgs/ZcashFoundation/repositories?type=all)
 
@@ -45,9 +45,9 @@
 
 [Ìyọrísí Zechub Hackathon 2024](https://x.com/ZecHub/status/1845212469809033489)
 
-[Ìyọrísí Zechub Hackathon 2025]](https://x.com/ZecHub/status/1975565960661635283)
+[Ìyọrísí Zechub Hackathon 2025](https://x.com/ZecHub/status/1975565960661635283)
 
-[Ìyọrísí Zypherpunk Hackathon 2025]](https://forum.zcashcommunity.com/t/zypherpunk-hackathon-winners/53985)
+[Ìyọrísí Zypherpunk Hackathon 2025](https://forum.zcashcommunity.com/t/zypherpunk-hackathon-winners/53985)
 
 [Arti ToR oníbàárà ní Rust](https://docs.rs/arti/latest/arti/)
 
@@ -55,7 +55,7 @@
 
 [Zcash wallet Warp2-Sync nipasẹ Hanh](https://github.com/hhanh00/warp2)
 
-[Ìwádìí Ìdánwò Zcash]](https://testnet.zcashblockexplorer.com/)
+[Ìwádìí Ìdánwò Zcash](https://testnet.zcashblockexplorer.com/)
 
 
 A ṣe akojọ yii lati awọn iṣeduro ti awọn olupilẹṣẹ lati Zcash Foundation & ECC pese. 

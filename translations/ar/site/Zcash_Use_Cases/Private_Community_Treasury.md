@@ -122,7 +122,7 @@
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة روابط السلسلة"/> ذو صلة
 
 - [الخصوصية - أفضل الممارسات](/privacy/best-practices)
-- [أرسل الأموال دون ربط الهوية](/use-cases/send-money-without-linking-identity)
+- [أرسل الأموال دون ربط الهوية](/zcash-use-cases/send-money-without-linking-identity)
  
 
 <br/>
@@ -137,4 +137,4 @@
 
 ## الخطوة التالية
 
-- [إعداد خصوصية الصحفي](/use-cases/journalist-privacy-setup)
+- [إعداد خصوصية الصحفي](/zcash-use-cases/journalist-privacy-setup)

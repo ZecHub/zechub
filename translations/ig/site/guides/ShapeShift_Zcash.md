@@ -163,11 +163,11 @@ The ShapeShift and Zcash integration represents a meaningful step forward for pr
 
 [ShapeShift Platform](https://shapeshift.com/)
 
-[Zcash Weebụsaịtị Weebụ]](https://z.cash/)
+[Zcash Weebụsaịtị Weebụ](https://z.cash/)
 
 [Zashi obere akpa (site Electric Mkpụrụ ego Co.)](https://electriccoin.co/zashi/)
 
-[ShapeShift DAO Ọchịchị (FOX Token) ]](https://shapeshift.com/fox-token)
+[ShapeShift DAO Ọchịchị (FOX Token) ](https://shapeshift.com/fox-token)
 
 [Zcash Community Grants](https://zcashcommunitygrants.org/)
 

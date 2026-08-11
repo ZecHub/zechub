@@ -161,13 +161,13 @@ Awọn ShapeShift ati Zcash isopọmọ duro fun a significant igbesẹ siwaju f
 
 ### Àwọn ohun àmúṣọrọ̀
 
-[ShapeShift Platform] [Ìpínlẹ̀ Ìpínlẹ̀]](https://shapeshift.com/)
+[ShapeShift Platform] [Ìpínlẹ̀ Ìpínlẹ̀](https://shapeshift.com/)
 
 [Ìkànnì Ọ̀fẹ́ Zcash](https://z.cash/)
 
 [Àpamọ́ Zashi (nípasẹ̀ Electric Coin Co.)](https://electriccoin.co/zashi/)
 
-[Ìyípadà Ìdarí DAO (Fox Token) ]](https://shapeshift.com/fox-token)
+[Ìyípadà Ìdarí DAO (Fox Token) ](https://shapeshift.com/fox-token)
 
 [Ìpínlẹ̀ Àjọ Zcash](https://zcashcommunitygrants.org/)
 

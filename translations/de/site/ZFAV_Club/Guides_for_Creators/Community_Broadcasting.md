@@ -29,7 +29,7 @@ Die Benutzeroberfläche von VOD.Ninja ist einfach: Öffne VDO.Ninja einfach im W
 Beginne, indem du mit deinem Webbrowser auf einem Desktop/Laptop zu [VDO.ninja](http://VDO.ninja) gehst.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8ded1b54-602b-4e66-af92-127990eff723/Screenshot_2023-08-23_162222/w=3840,quality=80" alt="" width="300" height="400"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="300" height="400"/>
 </a>
 
 
@@ -38,20 +38,20 @@ Um einen neuen Raum zu erstellen und deinen eigenen Community-Call-Livestream zu
 Der nächste Bildschirm fragt nach grundlegenden Informationen, um deinen Raum einzurichten.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ae698696-7b4d-458e-8de0-58a198c36e73/Screenshot_2023-08-23_183900/w=3840,quality=80" alt="" width="400" height="400"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
 </a>
 
 Sobald ein Raum erstellt wurde, stehen dem Regisseur auf dem folgenden Bildschirm viele Steuerungsoptionen zur Verfügung.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/35b43544-5114-4e74-ac41-9e8993fe62ea/Screenshot_2023-08-23_184015/w=3840,quality=80" alt="" width="400" height="400"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
 </a>
 
 
 Wenn Personen deinem Raum beitreten, siehst du als Regisseur alle Quelloptionen und Steuerungen zusammen mit ihrem Video und Audio erscheinen.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2247f187-b005-478e-9e5e-471cb8f070d3/Screenshot_2023-08-23_194136/w=3840,quality=80" alt="" width="400" height="300"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="300"/>
 </a>
 
 

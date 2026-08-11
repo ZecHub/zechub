@@ -15,7 +15,7 @@
 
 ## Zcash.me
 
-![Zcash.me 标志](https://pbs.twimg.com/profile_images/1983177127806533632/LbLuoQjB_400x400.jpg)
+![Zcash.me 标志](/content-images/_unavailable.svg)
 
 ### 概述
 

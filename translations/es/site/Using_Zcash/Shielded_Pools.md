@@ -56,7 +56,7 @@ Orchard mejoró significativamente la usabilidad, la eficiencia y la privacidad 
 
 Hoy en día, Orchard sigue siendo el pool blindado principal de Zcash. Sin embargo, la comunidad está evaluando una futura migración a un nuevo pool blindado llamado Ironwood, que proporcionaría garantías adicionales sobre la integridad del suministro de ZEC blindado, preservando al mismo tiempo las garantías de privacidad de Zcash.
 
-Las [billeteras blindadas de Zcash](/site/Using_Zcash/Wallets) ahora son compatibles con Orchard. 
+Las [billeteras blindadas de Zcash](/wallets) ahora son compatibles con Orchard.
 
 ____
 

@@ -14,7 +14,7 @@ Shade Protocol is a privacy preserving DeFi (Decentralized Finance) ecosystem th
 
 Shade Protocol ti wa ni itumọ lori Secret Network, a ipele 1 blockchain ti o pese ìpamọ ifipamọ smati awọn adehun. Secret Network nlo encrypted inputs, outputs, ati ipinle lati rii daju idunadura ìpamó, idaabobo olumulo data lati jije farahan lori gbangba ledger.
 
-[Àwòrán Ìkànnì Àṣírí]](/content-images/1-yyZ5hFOw6z8zXX_rgJn5iw-9091067aa1.webp)
+[Àwòrán Ìkànnì Àṣírí](/content-images/1-yyZ5hFOw6z8zXX_rgJn5iw-9091067aa1.webp)
 
 Secret Network enables developers to build decentralized applications with encrypted data, both natively on Secret and on other blockchains through cross chain communication, unlocking powerful new use cases for Web3.
 
@@ -67,7 +67,7 @@ Shade Protocol's principles of cohesiveness and value capture provide a solid fo
 
 #### Àwọn ìjápọ̀ ìsọfúnni
  
-[Ìkànnì Shade Protocol]](https://shadeprotocol.com)
+[Ìkànnì Shade Protocol](https://shadeprotocol.com)
 
 [Awọn alabọde (Ojiji Ilana) ](https://medium.com/@shadeprotocoldevs/what-is-shade-protocol-efc1ef7aeabf)
 

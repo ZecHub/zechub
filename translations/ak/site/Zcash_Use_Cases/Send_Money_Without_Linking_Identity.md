@@ -110,4 +110,4 @@ Seesei wubetumi de sika amena kokoam a worenda wo ho adi.
 
 ## Anamɔn a Edi Hɔ
 
-- [Freelancer Kokoam Nsɛm Ho Nhyehyɛe](/use-cases/freelancer-privacy-setup)
+- [Freelancer Kokoam Nsɛm Ho Nhyehyɛe](/zcash-use-cases/freelance-privacy-setup)

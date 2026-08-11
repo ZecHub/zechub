@@ -1,112 +1,114 @@
-# <img src="/content-images/send-svgrepo-com-b62f643de0.svg" width="24" height="24" alt="기자 아이콘"/> 신분을 드러내지 않고 돈 보내기
+---
+# <img src="/content-images/send-svgrepo-com-b62f643de0.svg" width="24" height="24" alt="Journalist icon"/> 신원을 연결하지 않고 돈 보내기
 
-<span className="inline-flex items-center gap-[6px]"><span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>중급 - 7 분</span>
+<span className="inline-flex items-center gap-[6px]"><span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>중급 - 7분</span>
 
 ## TL;DR
 
-- 항상 **보호된 주소**에서 보내기
-- 직접 t to t 거래는 피하기
-- 신분 간의 연관성을 끊기
-- 타이밍과 패턴에 주의하기
+- 항상 **shielded address**에서 보내세요
+- 직접적인 t 대 t 거래는 피하세요
+- 신원 간 연결 가능성을 끊으세요
+- 타이밍과 패턴에 유의하세요
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="사용자 아이콘"/> 이 문서는 누구에게 적합한가요?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> 이 문서는 누구를 위한 것인가요?
 
-- 민감한 결제를 보내는 사람
-- 개인정보 보호에 관심 있는 사용자
-- 감시 위험에 처한 사람들
-
-<br/>
-
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="경고 아이콘"/> 문제점
-
-암호화폐를 보내는 행위는 종종:
-- 당신의 지갑 신분
-- 거래 내역
-- 상호작용하는 사람을 드러냅니다.
-
-이로 인해 **추적 가능한 금융 그래프**가 생성됩니다.
+- 민감한 결제를 보내는 모든 사람
+- 프라이버시를 중시하는 사용자
+- 감시 위험 아래에서 활동하는 사람들
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="도구 상자 아이콘"/> Zcash의 장점
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> 문제점
 
-Zcash는 **완전히 비공개된 이체**를 가능하게 합니다.
+암호화폐를 보내면 종종 다음이 드러납니다:
+- 당신의 지갑 신원
+- 당신의 거래 내역
+- 당신이 누구와 상호작용하는지
 
-이로 인해 다음을 끊습니다:
-- 주소 간 연관성
+이로 인해 **추적 가능한 금융 그래프**가 만들어집니다.
+
+<br/>
+
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> 왜 Zcash인가요?
+
+
+Zcash는 shielded transaction을 사용해 **완전히 비공개인 전송**을 가능하게 합니다.
+
+이로써 다음이 차단됩니다:
+- 주소 연결 가능성
 - 공개 거래 추적
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="도구 상자 아이콘"/> 필요한 사항
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> 준비물
 
-- 보호된 거래를 지원하는 지갑
-- z 주소에 대한 기본 이해
+- shielded transaction을 지원하는 지갑
+- z-address에 대한 기본적인 이해
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="단계 아이콘"/> 단계별 가이드
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> 단계별 가이드
 
-### 단계 1: 자금이 보호된 주소에 있는지 확인하기
+### 1단계: 자금이 Shielded 상태인지 확인하기
 
-자금이 투명한 주소에 있다면:
-- 먼저 보호된 주소로 이동시켜야 합니다.
+자금이 transparent address에 있다면:
+- 먼저 shielded address로 옮기세요
 
-### 단계 2: 보호된 주소에서 보호된 주소로 보내기
 
-항상 `z to z` 거래를 선호하세요.
+### 2단계: Shielded에서 Shielded로 보내기
+항상 `z to z` 거래를 우선하세요
 
-이렇게 하면 최대의 프라이버시가 보장됩니다.
+이렇게 하면 최대 수준의 프라이버시가 보장됩니다.
 
-### 단계 3: 신분 연관성 피하기
 
-절대 하지 마세요:
-- 공개적으로 거래를 발표하는 것
-- 여러 상황에서 동일한 주소를 재사용하는 것
-- 주소를 알려진 신분과 연결하는 것
+### 3단계: 신원 연결 피하기
 
-### 단계 4: 타이밍 패턴 고려하기
+다음을 하지 마세요:
+- 거래를 공개적으로 알리기
+- 같은 주소를 여러 맥락에서 재사용하기
+- 주소를 알려진 신원과 연결하기
+
+### 4단계: 타이밍 패턴 고려하기
 
 고급 팁:
-- 대규모 자금을 받은 후 즉시 보내는 것을 피하세요.
-- 예측 가능한 패턴을 만들지 않도록 하세요.
+- 큰 금액을 받은 직후 바로 보내는 것을 피하세요
+- 가능하다면 예측 가능한 패턴을 끊으세요
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="취소 아이콘"/> 피해야 할 일반적인 실수
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> 피해야 할 흔한 실수
 
-- 투명한 주소에서 직접 보내기
-- 여러 사람에게 동일한 주소 재사용하기
-- 거래를 공개적으로 확인하기
+- transparent address에서 직접 보내기  
+- 여러 사람에 걸쳐 주소 재사용하기  
+- 거래를 공개적으로 확인해주기  
 - 메타데이터(타이밍, 빈도) 무시하기
 
 <br/>
 
-## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="완료 아이콘"/> 결과
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> 결과
 
-이제 다음과 같이 할 수 있습니다:
+이제 다음이 가능합니다:
 - 자금을 비공개로 보내기
-- 신분을 연결하지 않기
-- 추적 가능성을 줄이기
+- 신원이 연결되는 것 피하기
+- 추적 가능성 줄이기
 
 <br/>
 
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="연결 아이콘"/> 관련 문서
-
-- [프라이버시 - 보호된 vs 투명한](/privacy/shielded-vs-transparent)
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> 관련 문서
+- [프라이버시 - Shielded와 Transparent 비교](/privacy/shielded-vs-transparent)
 
 <br/>
 
-## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="진행 아이콘"/> 진행 상황
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> 진행 상황
 
 **6단계 중 2단계**
 
-이제 신분을 드러내지 않고 자금을 비공개로 보낼 수 있습니다.
+이제 신원을 노출하지 않고 자금을 비공개로 보낼 수 있습니다.
 
 <br/>
 
 ## 다음 단계
 
-- [프리랜서 프라이버시 설정](/use-cases/freelancer-privacy-setup)
+- [프리랜서를 위한 프라이버시 설정](/zcash-use-cases/freelance-privacy-setup)

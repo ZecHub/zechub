@@ -9,6 +9,6 @@ Foresight Institute is a research organization and non-profit that supports the 
 - [Àwọn Àdéhùn Ààbò # 1] Ta Ló Máa Ní Àṣírí Rẹ àti Àmì Rẹ ní Ọjọ́ Ọ̀la? (pẹ̀lú Andrew Miller)](https://www.youtube.com/watch?v=UVlPHlm1I3o&list=PLH78wfbGI1x0QS-1GIjARHRWjVBKF-ofB&index=37)
 - [Àwọn Àdánwò Ààbò #2 ]. Ìṣòro Ìpamọ́ Bitcoin (pẹ̀lú Zooko Wilcox)](https://www.youtube.com/watch?v=WXXVoK92zN8)
 - [Àwọn Àdéhùn Ààbò #3] Ta Ló Yẹ́ Kí Ó Ṣàkóso Ìpamọ́ Rẹ? (pẹ̀lú Whyrusleeping)](https://www.youtube.com/watch?v=BgLXB_L3STQ)
-- [Àwọn Àdéhùn Ààbò #4  Marta Belcher, Filecoin Foundation  Ìpamọ́ àti Òfin ní Ọ̀rúndún Ẹ̀rọ Amọ̀nà]](https://www.youtube.com/watch?v=fzsKiQKvLWU)
+- [Àwọn Àdéhùn Ààbò #4  Marta Belcher, Filecoin Foundation  Ìpamọ́ àti Òfin ní Ọ̀rúndún Ẹ̀rọ Amọ̀nà](https://www.youtube.com/watch?v=fzsKiQKvLWU)
 - [Ìṣirò Ààbò #5  Avichal Garg, Electric Capital  Kí ni ọjọ́ iwájú fún àwọn ìṣirọ ààbò?](https://www.youtube.com/watch?v=TZPHhgPIcYw)
 - [Àwọn Àdéhùn Ààbò #6] Zaki Manian, Iqlusion](https://www.youtube.com/watch?v=7UI94ybEkpw)

@@ -18,7 +18,7 @@ Ide ihe kachasị mma nwere usoro mmụta. Ọ ga-ekwe omume ịmụta isi ihe n
 
 - [Anthropic si Claude](https://claude.ai/) - nwere ike ịchọ VPN ịdebanye aha (US naanị)
 - [ChatGPT 3.5](https://chat.openai.com/) - na-arịọ maka nọmba ekwentị
-- [Bing Chat (GPT4) ]](https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx) - ole na ole a na- agwa mmadụ ka o mee kwa ụbọchị
+- [Bing Chat (GPT4) ](https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx) - ole na ole a na- agwa mmadụ ka o mee kwa ụbọchị
 - [Llama 2 - 70B](https://www.llama2.ai/) - n'efu na webụsaịtị
 
 ### Ngwá ọrụ akwụ ụgwọ:
@@ -45,7 +45,7 @@ banye na X, Google, Discord, Telegram
 
 ### Ngwá ọrụ akwụ ụgwọ:
 
-- [Midjourney Bot] [Onye na-akwọ ụgbọelu]](https://discord.com/invite/midjourney) na Discord - site na $ 10 / ọnwa - [Ntuziaka Mmalite](https://docs.midjourney.com/docs/quick-start)
+- [Midjourney Bot] [Onye na-akwọ ụgbọelu](https://discord.com/invite/midjourney) na Discord - site na $ 10 / ọnwa - [Ntuziaka Mmalite](https://docs.midjourney.com/docs/quick-start)
 ị nwere ike nweta ihe dị ka 100 ọgbọ n'efu site n'ịtụle ọtụtụ ndị ọzọ [ihe oyiyi dị ebe a](https://www.midjourney.com/app/rank-pairs/)
 (kwesịrị ime ka ọ gaa n'elu 2000 raters - ihe dị ka nkeji 15 nke ihe osise ogo)
 - [DALL-E 2](https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 ọgbọ - (free 15 ọgbọ/ọnwa)

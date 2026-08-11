@@ -33,15 +33,15 @@ Scopri come accettare fondi senza esporre la tua identità o la tua storia finan
 Evita di esporre il tuo portafoglio, identità o grafico delle transazioni quando invii fondi.
 
 
-###  [Configurazione Privacy per Freelancer](/zcash-use-cases/freelancer-privacy-setup)  
+###  [Configurazione Privacy per Freelancer](/zcash-use-cases/freelance-privacy-setup)  
 Fatti pagare in Zcash mantenendo privati i tuoi clienti e il tuo reddito.
 
 
-###  [Accetta Pagamenti come Commerciante](/zcash-use-cases/accept-payment-as-a-merchant)  
+###  [Accetta Pagamenti come Commerciante](/zcash-use-cases/accept-payments-as-a-merchant)  
 Accetta pagamenti usando un indirizzo shielded ed evita di esporre i dati delle transazioni dei clienti
 
 
-###  [Gestisci una Tesoreria Comunitaria Privata](/zcash-use-cases/run-a-private-community-treasury)
+###  [Gestisci una Tesoreria Comunitaria Privata](/zcash-use-cases/private-community-treasury)
 Usa indirizzi shielded per detenere fondi condivisi e limitare la visibilità dei saldi e delle transazioni
 
 ###  [Configurazione Privacy per Giornalisti](/zcash-use-cases/journalist-privacy-setup)   

@@ -8,6 +8,9 @@ Aqui estão alguns dos que estão ativos:
 
 | Blog / Autor               | Descrição                                                | Link |
 |----------------------------|----------------------------------------------------------|------|
+| How Zcash works            | Construa um modelo funcional de Zcash                    | [Visitar ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
+| Max Desalle                | Dominar Zcash                                            | [Visitar ->](https://maxdesalle.com/mastering-zcash/) |
+| Mike Rosulek               | A Alegria da Criptografia                                | [Visitar ->](https://joyofcryptography.com/) |
 | James Katz                 | Escritos e reflexões pessoais sobre Zcash e privacidade  | [Visitar ->](https://free2z.cash/James_Katz/) |
 | Thumbs' Update             | Atualizações regulares do ecossistema e análises         | [Visitar ->](https://thumbsup.substack.com) |
 | roomatemusing              | Reflexões e conteúdo da comunidade                       | [Visitar ->](https://free2z.cash/roommatemusing) |

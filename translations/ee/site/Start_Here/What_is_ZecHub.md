@@ -6,22 +6,22 @@
 # Nukae nye ZecHub?
 ---
 
-ZecHub nye sukudede ƒe dɔwɔƒe si woɖe ɖe vovo na Zcash. Taɖodzinu si le [ZecHub](http://zechub.xyz) nye be woana hehenana ƒe mɔnu si me nutoa me tɔwo ateŋu awɔ dɔ aduadu le le nyatakaka siwo doa alɔ Zcash ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa wɔwɔ, wo dzi dada, kple wo dodo ɖe ŋgɔ me. Míewɔa esia to mɔnu ʋɛ aɖewo dzi.
+ZecHub nye sukudede ƒe dɔwɔƒe si woɖe ɖe vovo na Zcash. Taɖodzinu si le... [ZecHub ƒe ŋkɔ](http://zechub.xyz) nye be woana hehenana ƒe mɔnu si me nutoa me tɔwo ateŋu awɔ dɔ aduadu le le nyatakaka siwo doa alɔ Zcash ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa wɔwɔ, wo dzi dada, kple wo dodo ɖe ŋgɔ me. Míewɔa esia to mɔnu ʋɛ aɖewo dzi.
 
 1. [Nufiamewo](https://www.youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O)
 2. [Wiki-nuŋlɔɖiwo](https://zechub.wiki/)
-3. [Podcast si bia gbe nutoa me tɔwo](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O).
-4. [Kwasiɖa sia Kwasiɖa Zcash nyadzɔdzɔgbalẽ aɖe.](https://zechub.substack.com/)
+3. [Podcast si me wobia gbe nutoa me tɔwo](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O).
+4. [Kwasiɖa sia Kwasiɖa ƒe Zcash nyadzɔdzɔgbalẽ aɖe.](https://zechub.substack.com/)
 
 Nufiameawo, blog kpuiwo, kple nyadzɔdzɔgbalẽwo nye esiwo woʋu ɖi eye woxɔ wo ɖe GitHub, si fia be amesiame tso nutoa me ateŋu akpe asi ɖe eŋu. Esia nye be woakpɔ egbɔ be nyatakaka siwo le eme la de pɛpɛpɛ eye be mɔ̃a ŋutɔ mekpe fu le kpododonu ɖeka pɛ hã me o.
 
-Ne ènye ame yeye le Zcash me la, zã [mɔfiame sia](/site/Start_Here/New_User_Guide).****
+Ne ènye ame yeye le Zcash me la, zãe [mɔfiame sia](/start-here/new-user-guide).****
 
 ## Alesi woawɔ tɔtrɔwo le ZecHub ŋu
 
 ---
 
-1. Yi [ZecHub ƒe Github ƒe nudzraɖoƒe](https://github.com/ZecHub/zechub)
+1. Go to [ZecHub ƒe Github ƒe nuŋlɔɖi](https://github.com/ZecHub/zechub)
    
 2. Wɔ Github akɔnta yeye alo nàge ɖe eme kple tɔwò
    
@@ -51,7 +51,7 @@ Le didi be woalé ZecHub ƒe dzedzeme ɖeka me ɖe asi ta la, nɔnɔmetata aɖe 
 3. No inappropriate content.
 ```
 
-Nudzɔdzɔwo: [le afisia](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
+Nudzɔdzɔwo: [afi sia](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
 <a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
     <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
@@ -63,4 +63,4 @@ Nudzɔdzɔwo: [le afisia](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2
 
 ---
 
-*Ne èdi be yeatsɔe akpe ɖe, alo aɖo aɖaŋu be woawɔ asitɔtrɔ le wiki ƒe axa sia ŋu la, taflatse yi [ZecHub github repo](https://github.com/ZecHub/zechub) eye nàtsɔ hehe ƒe biabiawo aɖo ɖa.*
+*Ne èdi be yeatsɔe akpe ɖe, alo aɖo aɖaŋu be woawɔ asitɔtrɔ le wiki ƒe axa sia ŋu la, taflatse yi ɖe... [ZecHub github ƒe nyatakaka](https://github.com/ZecHub/zechub) eye nàtsɔ hehe ƒe biabiawo aɖo ɖa.*

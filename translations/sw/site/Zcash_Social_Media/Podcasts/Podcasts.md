@@ -58,8 +58,8 @@
 - ** Kiungo:** [https://zeroknowledge.fm/329-2](https://zeroknowledge.fm/329-2)
 - ** Muhtasari:** Anna na Nico kuzungumza na Alessandro Chiesa, Profesa Mshirika katika EPFL, na Eylon Yogev, Professa katika Chuo Kikuu Bar-Ilan, kuhusu uchapishaji wao juu ya kujenga uthibitisho cryptographic kutoka kazi hash.
 - **Wageni:**
-  - Alessandro Chiesa ([profile]](https://ic-people.epfl.ch/~achiesa/))
-  - Eylon Yogev ([profile]](https://eylonyogev.com/))
+  - Alessandro Chiesa ([profile](https://ic-people.epfl.ch/~achiesa/))
+  - Eylon Yogev ([profile](https://eylonyogev.com/))
 - ** Wenyeji:**
   - Anna ([AnnaRose](https://x.com/AnnaRRose))
   - Nico ([nico_mnbl](https://x.com/nico_mnbl))

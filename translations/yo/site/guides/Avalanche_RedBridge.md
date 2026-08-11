@@ -25,7 +25,7 @@ Apejuwe: Ẹrọ-iṣẹ adehun ọlọgbọn ti o ṣe atilẹyin fun afara Zca
 
 ## Àwọn ohun tí wọ́n lè mú jáde àti Àkọsílẹ̀
 
-**Zcash Elastic Subnet Bridge on Avalanche**: [Ìmọ̀ràn fún Ìtìlẹ́yìn]](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
+**Zcash Elastic Subnet Bridge on Avalanche**: [Ìmọ̀ràn fún Ìtìlẹ́yìn](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
 Ni isalẹ ni awọn ifijiṣẹ pataki ati awọn orisun imọ-ẹrọ ti a pari fun iṣẹ akanṣe Zcash Avalanche RedBridge:
 
 Deliverable 1.1: Preliminary PoC that supports querying testnet Zcash transactions from a testnet Avalanche subnet with a CLI, published on Github and with a one node subnet on the Avalanche testnet. https://github.com/red-dev-inc/zavax-oracle
@@ -56,7 +56,7 @@ Wo àwọn [Github repo](https://github.com/red-dev-inc/zavax-bridge/tree/main/A
 Fun awọn alaye imọ-ẹrọ diẹ sii, a gba awọn olumulo niyanju lati ṣe atunyẹwo ibi ipamọ ati iwe aṣẹ fun iṣẹ akanṣe RedBridge lati [ṣawari](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) àwọn àkànṣe ìkójọpọ, àwọn ètò ìdánwò, àti àwọn ìlànà ààbò.
 
 
-! [ì ì1 ]](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)
+! [ì ì1 ](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)
 
 
 * Àwọn ohun tí wọ́n lè mú jáde: 

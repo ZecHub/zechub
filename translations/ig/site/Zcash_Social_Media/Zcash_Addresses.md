@@ -15,7 +15,7 @@ Taa, anyị ga-amụta maka ha & kpuchie otu n'ime atụmatụ ọhụrụ na #Z
 
 **Shielded Transaction** na-ezo aka na azụmahịa ọ bụla nwere adreesị ezoro ezo maka ọdọ mmiri Sapling/Orchard.
 
-[Nkọwapụta Transparent vs Shielded]](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
+[Nkọwapụta Transparent vs Shielded](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
 
 A haziri Unified Addresses (UA) iji mee ka azụmahịa ndị e chebere ma ọ bụ ndị doro anya banye n'otu adreesị.
 

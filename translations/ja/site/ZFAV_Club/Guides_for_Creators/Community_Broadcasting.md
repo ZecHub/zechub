@@ -1,80 +1,88 @@
+---
 <a href="https://github.com/Zechub/zechub/edit/main/site/ZFAV_Club/Guides_for_Creators/Community_Broadcasting.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
 </a>
 
-# VDO.NinjaとOBS Studioを使用したコミュニティ放送
+# VDO.Ninja と OBS Studio を使ったコミュニティ配信
 
-この短いチュートリアルは、[DWeb Camp 2023](https://dwebcamp.org/)でフェローおよびボランティアのグループによって作成されました。この練習の目的は、オフラインMESHネットワークに接続されたスマートフォンデバイスを使用して協力的な動画録画とストリーミングを行うことです。
+この短いチュートリアルは、[DWeb Camp 2023](https://dwebcamp.org/) の期間中に、フェローとボランティアのグループによって作成されました。この演習の目的は、オフラインの MESH ネットワークに接続されたスマートフォン端末を活用し、共同での動画収録と配信を行うことです。
 
-我々はオープンソースソフトウェアである[OBS Studio (Open Broadcaster software)](https://obsproject.com/)および[VDO.Ninja](https://vdo.ninja/)を使用します。これらのソフトウェアは、あなたのコンピュータにローカルでダウンロードして実行可能です。
+ここでは、2つのオープンソースソフトウェアである [OBS Studio (Open Broadcaster software)](https://obsproject.com/) と [VDO.Ninja](https://vdo.ninja/) を使用します。これらのソフトウェアはダウンロードして、あなたのコンピューター上でローカルに実行できます。
 
-## OBS Studio (Open Broadcaster Software)
+## OBS Studio (Open Boardcaster software)
 
-OBS Studioは、ゲームストリーミングコミュニティおよび独立した動画コンテンツクリエイターの間で広く利用されている、複数のオペレーティングシステムで使用可能な無料でオープンソースソフトウェアです。このソフトウェアは2012年に最初にリリースされ、多くのユーザーがいます。
+OBS Studio は、複数のオペレーティングシステムで利用可能な、録画およびライブ配信用の無料オープンソースソフトウェアです。このソフトウェアは 2012 年に初めて公開され、ゲーム配信コミュニティや独立系動画コンテンツ制作者の間で非常に大きな支持を得ています。
 
-OBS Studioのユーザーインターフェースは、初めて使うユーザーにとっては少し難しいかもしれません。OBS Studioは、「プレビュー」と「放送」の二つのウィンドウに分かれています。「プレビュー」ウィンドウでは、ウェブカメラ、Iriun Webcam、OBS Virtual Camera、動画およびブラウザソースなどの利用可能な動画（さまざまなカメラ）が表示され、「シーン」と呼ばれます。「放送」はライブストリームを表示します。
+OBS Studio のユーザーインターフェースは、初めて使うユーザーにはかなり圧倒的に見えるかもしれません。OBS Studio は「Preview」と「Broadcast」という2つのウィンドウに分かれています。Preview ウィンドウには利用可能な映像（ウェブカメラ、Iriun Webcam、OBS Virtual Camera、Video、Browser source などのさまざまなカメラ）が「Scenes」として表示され、「Broadcast」にはライブ配信が表示されます。
 
-VDO.Ninjaから遠隔カメラストリームをOBS Studioにストリーミングするには、「Sources > Add > Browser」を選択して新しい「ブラウザソース」を追加します。新しく開いたウィンドウで、VDO.NinjaのソースURLを提供し、「Make source visible（ソースを表示）」を選択します。
+VDO.ninja からのリモートカメラ配信を OBS Studio に取り込んで配信するには、まず「Sources > Add > Browser」から新しい「Browser Source」を追加します。新しいウィンドウで、VDO.Ninja から取得したソース URL を入力し、「Make source visible」を選択します。
 
-これで、遠隔ストリームの放送を開始できます。
+これで、リモート配信の配信を開始できます。
 
 ## VDO.Ninja
 
-[VDO.Ninja](https://vdo.ninja/)は、あなたのモバイルデバイスをライブストリーミングカメラに変えることができる無料でオープンソースのウェブアプリケーションです。このソフトウェアはローカルコンピュータにダウンロードして展開することもできますし、[オンライン版（https://vdo.ninja）](https://vdo.ninja/)を使用することも可能です。
+[VDO.Ninja](https://vdo.ninja/) は、あなたのモバイル端末をライブ配信用カメラに変えることができる、無料のオープンソース Web アプリケーションです。このソフトウェアはダウンロードしてローカルコンピューター上にデプロイすることもできますし、直接 [オンライン版 https://vdo.ninja](https://vdo.ninja/) を利用することもできます。
 
-VDO.Ninjaのインターフェースは非常にシンプルで、モバイルデバイスのウェブブラウザでVDO.Ninjaを開き、「OBSにカメラを追加」を選択します。その後、リストからカメラおよびオーディオデバイスを選択し「Start（開始）」をクリックします。「View（表示）」リンクが取得でき、それをOBS Studioに追加できます。
+VOD.Ninja のインターフェースはシンプルで、モバイル端末の Web ブラウザーで VDO.Ninja を開き、「Add your camera to OBS」を選択するだけです。続いて、デバイス一覧からカメラと音声デバイスを選び、「Start」をクリックします。すると、OBS Studio に追加できる「view」リンクが取得できます。
 
-## VDO.Ninjaを使用したコミュニティコールのディレクション
+## VDO.Ninja でコミュニティ通話をディレクションする
 
-まず、あなたのデスクトップ/ラップトップでウェブブラウザを開き、[VDO.ninja](http://VDO.ninja)にアクセスします。
-
-<a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8ded1b54-602b-4e66-af92-127990eff723/Screenshot_2023-08-23_162222/w=3840,quality=80" alt="" width="300" height="400"/>
-</a>
-
-新しいルームを作成し、自分のコミュニティコールライブストリームをディレクションするには、「Create a Room（ルームの作成）」をクリックします。
-
-次の画面では、ルームの設定に必要な基本情報が尋ねられます。
+まず、デスクトップまたはノートパソコンの Web ブラウザーで [VDO.ninja](http://VDO.ninja) にアクセスします。
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ae698696-7b4d-458e-8de0-58a198c36e73/Screenshot_2023-08-23_183900/w=3840,quality=80" alt="" width="400" height="400"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="300" height="400"/>
 </a>
 
-ルームが作成されると、ディレクターは次の画面で多くのコントロールオプションを使用できます。
+
+新しいルームを作成し、自分のコミュニティ通話のライブ配信をディレクションするには、Create a Room をクリックします。
+
+次の画面では、ルームの設定に必要な基本情報の入力が求められます。
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/35b43544-5114-4e74-ac41-9e8993fe62ea/Screenshot_2023-08-23_184015/w=3840,quality=80" alt="" width="400" height="400"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
 </a>
 
-人々がルームに参加すると、ディレクターはその人の動画とオーディオとともにすべてのソースオプションとコントロールを表示します。
+ルームが作成されると、ディレクターは次の画面で多くの制御オプションを利用できます。
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2247f187-b005-478e-9e5e-471cb8f070d3/Screenshot_2023-08-23_194136/w=3840,quality=80" alt="" width="400" height="300"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
 </a>
 
-## FAQ
 
-- OBS Studioにはどのようなビデオグラフィックカードが必要ですか？
+人々があなたのルームに参加すると、ディレクターであるあなたには、各参加者の映像と音声とともに、すべてのソースオプションとコントロールが表示されます。
 
-高性能なグラフィックカードと多くのメモリを持つ個人用コンピュータを使用するか、またはハードウェアエンコーダーを使用することができます。[Teradek VidiU](https://www.bhphotovideo.com/c/product/1609186-REG/teradek_10_0235_vidiu_x_modem.html?gclid=EAIaIQobChMIl4aIo7zX_wIVDhqtBh0PgwhxEAAYAiAAEgInufD_BwE)
-- OBSはライブ翻訳や字幕をサポートしていますか？
+<a href="">
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="300"/>
+</a>
 
-コミュニティが提供したいくつかのプラグインがあり、そのような機能を提供しているようです。[https://github.com/eddieoz/OBS-live-translation](https://github.com/eddieoz/OBS-live-translation)
-- OBS Studio用に独自のプラグインを開発できますか？
 
-はい、OBSではLuaやPythonスクリプティングがサポートされており、オーバーレイおよびウェブビューにはJavaScriptも使用可能です。
-- ライブ放送中に黒画面へのフェードまたはトランジションを使用できますか？
+## よくある質問
 
-それはプロデューサーの裁量に委ねられます！
-- ストリーミング中に遅延はありますか？
+- OBS Studio にはどのような種類のビデオ用グラフィックカードが必要ですか？
 
-これは、ストリーミング先によって大きく異なります。たとえば、YouTubeではサーバーでの動画処理が行われるため、1分以上遅延することがあります。
-- OBSを使用してグリーンスクリーンを行うときに音声が途切れてしまう
+高性能なグラフィックカードと大容量メモリを備えたパーソナルコンピューターを使用できます。あるいは、ハードウェアエンコーダー [Teradek VidiU](https://www.bhphotovideo.com/c/product/1609186-REG/teradek_10_0235_vidiu_x_modem.html?gclid=EAIaIQobChMIl4aIo7zX_wIVDhqtBh0PgwhxEAAYAiAAEgInufD_BwE) を使用することもできます。
+- OBS ではライブ翻訳や字幕表示を行えますか？
 
-ハードウェアエンコーダーを使用するか、Stream Yardを使用してください
+そのような機能を提供していると思われる、コミュニティ提供のプラグインがいくつかあります。[https://github.com/eddieoz/OBS-live-translation](https://github.com/eddieoz/OBS-live-translation)
+
+- OBS Studio 用の独自プラグインを開発できますか？
+
+はい。OBS は lua、python スクリプトをサポートしています。また、オーバーレイや Web ビュー向けに JavaScript も利用できます。
+
+- ライブ中にフェード・トゥ・ブラックやトランジションを使いますか？
+
+それはプロデューサーであるあなた次第です！
+
+- 配信中に遅延はありますか？
+
+これは主に、どこへ配信しているかという配信先に依存します。たとえば YouTube では、配信前にサーバー上で行われる動画処理のため、1分以上の遅延が発生することがあります。
+
+- 低速なマシンで OBS を使い、さらにグリーンスクリーン処理をしていると音声が途切れます
+
+ハードウェアエンコーダーを使うか、stream yard を使用してください。
 [https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard](https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard) または [RiverSide.FM](http://riverside.fm/)
 
-## 謝辞
+## クレジット
 
 - Ryan
 - Ajay
@@ -86,5 +94,5 @@ VDO.Ninjaのインターフェースは非常にシンプルで、モバイル�
 
 [https://docs.vdo.ninja/](https://docs.vdo.ninja/)
 
-Office Hours: メディアおよびデジタルイベントコミュニティ
+Office Hours: メディアおよびデジタルイベントのコミュニティ
 [https://alex4d.com/notes/item/media-and-digital-event-community](https://alex4d.com/notes/item/media-and-digital-event-community)

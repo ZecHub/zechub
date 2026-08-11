@@ -14,7 +14,7 @@ Pretty Good Privacy (PGP) is a cryptographic software package that provides secu
 * **[PGPMail](https://www.openpgp.org/software/)**: PGPMail jẹ onibara imeeli PGP ti iṣowo ti o wa fun Windows ati macOS.
 * **[Àpótí ìfìwéránṣẹ́](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope jẹ́ àfikún PGP tí ó jẹ́ ọ̀fẹ́ àti ìmọ̀-ìmọ̀ fún Gmail àti Thunderbird.
 
-[Àwọn irinṣẹ́ PGP]](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
+[Àwọn irinṣẹ́ PGP](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
 
 ## Bó O Ṣe Lè Rí Àwọn Kọ́kọ́rọ́
 
@@ -36,7 +36,7 @@ Once you have generated a PGP key pair, you can use it to encrypt and decrypt em
 
 The encrypted email will be unreadable to anyone who does not have the recipient's private key. To decrypt the email, the recipient can use their private key to decrypt the email.
 
-[Àpótí PGP]](/content-images/dafb761d-f399-40c9-9323-526ba3bd0bc4-98503ad98b.webp)
+[Àpótí PGP](/content-images/dafb761d-f399-40c9-9323-526ba3bd0bc4-98503ad98b.webp)
 
 ## Àwọn Ìṣe Tó Dára Jù Lọ
 
@@ -61,11 +61,11 @@ Eyi ni diẹ ninu awọn ilana ti o dara julọ fun lilo PGP:
 * Tẹ lori bọtini "Encrypt".
 * A ó ṣe àdàkọ imeeli náà.
 
-[Ṣàdàkọ Imeeli]](/content-images/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e-6edd4a03ea.webp)
+[Ṣàdàkọ Imeeli](/content-images/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e-6edd4a03ea.webp)
 
 ---
 
-[Ìṣàn ìkọ̀ǹkà]](/content-images/da1499e9-fc87-46b2-93ed-28d43cf1fd86-86fdc87d10.webp)
+[Ìṣàn ìkọ̀ǹkà](/content-images/da1499e9-fc87-46b2-93ed-28d43cf1fd86-86fdc87d10.webp)
 
 ## Bawo ni lati decrypt imeeli pẹlu PGP
 
@@ -76,4 +76,4 @@ Eyi ni diẹ ninu awọn ilana ti o dara julọ fun lilo PGP:
 * Tẹ lori bọtini "Decrypt".
 * A óò tú àdàkọ ìsọfúnni tí wọ́n fi ránṣẹ́ náà.
 
-[Ṣípòdípò Àkọsílẹ̀ Imeeli]](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)
+[Ṣípòdípò Àkọsílẹ̀ Imeeli](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)

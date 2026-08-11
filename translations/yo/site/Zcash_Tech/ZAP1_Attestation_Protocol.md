@@ -39,10 +39,10 @@ Olùṣiṣẹ́ kọ̀ọ̀kan n ṣiṣẹ́ ìṣẹ̀lẹ̀ ZAP1 tirẹ̀ p�
 
 ## Ibi tó o ti lè kẹ́kọ̀ọ́ sí i
 
-- Orísun: [github.com/Frontier-Compute/zap1]](https://github.com/Frontier-Compute/zap1)
-- Ṣayẹwo SDK: [crates.io/crates/zap1-verify]](https://crates.io/crates/zap1-verify)
+- Orísun: [github.com/Frontier-Compute/zap1](https://github.com/Frontier-Compute/zap1)
+- Ṣayẹwo SDK: [crates.io/crates/zap1-verify](https://crates.io/crates/zap1-verify)
 - Àkọsílẹ̀ àdììtú: [crates.io/crates/zcash-memo-decode](https://crates.io/crates/zcash-memo-decode)
 - Àkọsílẹ̀ ìlànà: [ONCHAIN_PROTOCOL.md](https://github.com/Frontier-Compute/zap1/blob/main/ONCHAIN_PROTOCOL.md)
 - Àkọlé ZIP: [PR #1243](https://github.com/zcash/zips/pull/1243)
-- Àkọsílẹ̀ API: [pay.frontiercompute.io/protocol/info]](https://pay.frontiercompute.io/protocol/info)
+- Àkọsílẹ̀ API: [pay.frontiercompute.io/protocol/info](https://pay.frontiercompute.io/protocol/info)
 - Itọsọna Awọn oniṣẹ: [frontiercompute.io/operators.html](https://frontiercompute.io/operators.html)

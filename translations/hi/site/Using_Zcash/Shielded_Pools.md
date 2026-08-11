@@ -56,7 +56,7 @@ Orchard ने transaction metadata leakage को कम करके और �
 
 आज Orchard, Zcash का मुख्य shielded pool बना हुआ है। हालांकि, community Ironwood नामक एक नए shielded pool में भविष्य के migration का मूल्यांकन कर रही है, जो Zcash की privacy guarantees को बनाए रखते हुए shielded ZEC supply की अखंडता के संबंध में अतिरिक्त assurance प्रदान करेगा।
 
-[Zcash Shielded wallets](/site/Using_Zcash/Wallets) अब Orchard को support करते हैं। 
+[Zcash Shielded वॉलेट](/wallets) अब Orchard को support करते हैं।
 
 ____
 

@@ -2,7 +2,7 @@
 
 Penumbra è una rete layer-1 all'avanguardia e completamente schermata che compete nell'ecosistema Cosmos. Permette ai suoi utenti di transare in modo sicuro, fare staking e swap di token e fare market making senza rivelare i propri metadati on-chain. In quanto blockchain completamente schermata, offre anche transazioni schermate sul web senza compromettere privacy o decentralizzazione: Penumbra ha la privacy per impostazione predefinita, senza transazioni trasparenti né pool di valore trasparente.
 
-![image.png](https://drive.google.com/file/d/16CcFQ1ZhG_pi4ENQuhFKPwN-J1diELRX/view?usp=drive_link)
+![image.png](/content-images/_unavailable.svg)
 
 ## Tecnologia usata in Penumbra IBC 
 
@@ -10,7 +10,7 @@ Integrazione IBC: in arrivo al primo posto c'è il protocollo Inter-Blockchain C
 
 Prove a conoscenza zero (ZKP): Penumbra sfrutta la tecnologia crittografica delle prove a conoscenza zero per garantire che tutte le transazioni siano verificate e validate senza rivelare alcun dettaglio come il mittente, il destinatario o l'importo trasferito.
 
-![image.png](https://drive.google.com/file/d/1BxY5PlHBdV5iwZDgi86Z4Jz6CEesSjvO/view?usp=drive_link)
+![image.png](/content-images/_unavailable.svg)
 
 Exchange decentralizzato con privacy: al centro della rete Penumbra c'è la privacy. La rete può sfruttare un meccanismo di exchange decentralizzato che favorisce la privacy degli scambi e delle transazioni cripto, proteggendo al contempo i dati finanziari e dando agli utenti il diritto di controllare la divulgazione delle proprie strategie di trading.
 

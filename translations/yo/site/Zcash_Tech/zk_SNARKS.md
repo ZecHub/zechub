@@ -159,7 +159,7 @@ Trusted but Universal Setup - Nikan ni lati ṣiṣe iṣeto ti o gbẹkẹle l�
 
 **Àwọn oríṣi àwọn ìkópa tí kò ní í ṣe pẹ̀lú SNARK**:
 
-[Grọ́ọ̀sì 16]](https://www.youtube.com/watch?v=QDplVkyncYQ): Nilo Iṣeto Igbẹkẹle ṣugbọn o ni awọn ẹri kukuru pupọ ti o le ṣayẹwo ni kiakia.
+[Grọ́ọ̀sì 16](https://www.youtube.com/watch?v=QDplVkyncYQ): Nilo Iṣeto Igbẹkẹle ṣugbọn o ni awọn ẹri kukuru pupọ ti o le ṣayẹwo ni kiakia.
 
 [Ìró tó ń dún](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://cryptocurrencywiki.org/PLONK)Ìdásílẹ̀ Tí Gbogbo Èèyàn Gbára Lé.
 
@@ -173,7 +173,7 @@ Ni gbogbogbo awọn ẹri-imọ-kukuru jẹ ọpa lati mu ihuwasi otitọ ni aw�
 
 Zcash jẹ blockchain gbangba ti o dẹrọ awọn iṣowo ikọkọ. zk-SNARKs ni a lo lati fi idi rẹ mulẹ pe idunadura aladani jẹ wulo laarin awọn ofin ifọkanbalẹ nẹtiwọọki laisi fifihan eyikeyi awọn alaye miiran nipa idunwo naa. 
 
-[Àwòrán tó ṣàlàyé]](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - Ninu ẹkọ yii Ariel Gabizon pese awọn apejuwe ti Igi Iṣeduro Akọsilẹ Zcash, Iyẹwo Polynomial afọju & Awọn ipenija ti o farapamọ Homomorphically ati bi wọn ṣe ṣe imuse wọn lori nẹtiwọọki naa. 
+[Àwòrán tó ṣàlàyé](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - Ninu ẹkọ yii Ariel Gabizon pese awọn apejuwe ti Igi Iṣeduro Akọsilẹ Zcash, Iyẹwo Polynomial afọju & Awọn ipenija ti o farapamọ Homomorphically ati bi wọn ṣe ṣe imuse wọn lori nẹtiwọọki naa. 
 
 Ka ìwé [Halo2 book](https://zcash.github.io/halo2/index.html) fún ìsọfúnni síwájú sí i.
 
@@ -204,13 +204,13 @@ ____
 
 [Ìwé-ìwé tí kò ní ìmọ̀ kankan - a16z Crypto](https://a16zcrypto.com/zero-knowledge-canon/)
 
-[ZKSNARK's with Hanh Huynh Huu] [Àwòrán tí wọ́n ṣe fún Hanh Huyú]](https://www.youtube.com/watch?v=zXF-BDohZjk)
+[ZKSNARK's with Hanh Huynh Huu] [Àwòrán tí wọ́n ṣe fún Hanh Huyú](https://www.youtube.com/watch?v=zXF-BDohZjk)
 
-[Zcash: Halo 2 and SNARKs without Trusted Setups - Sean Bowe on Dystopia labs] [Àkọlé àwòrán: Àjọ tó ń rí sí àyípadà nínú ìṣẹ̀dá]](https://www.youtube.com/watch?v=KdkVTEHUxgo)
+[Zcash: Halo 2 and SNARKs without Trusted Setups - Sean Bowe on Dystopia labs] [Àkọlé àwòrán: Àjọ tó ń rí sí àyípadà nínú ìṣẹ̀dá](https://www.youtube.com/watch?v=KdkVTEHUxgo)
 
 [Ohun tí kò ní ìmọ̀ kankan fi hàn pé Avi Wigderson - Numberphile](https://youtu.be/5ovdoxnfFVc)
 
-[Awọn Ẹri-Imọ-Ohun-Ile-iṣẹ - Chainlink article]](https://blog.chain.link/interactive-zero-knowledge-proofs/)
+[Awọn Ẹri-Imọ-Ohun-Ile-iṣẹ - Chainlink article](https://blog.chain.link/interactive-zero-knowledge-proofs/)
 
 [Èdè 1: Ìfilọ́lẹ̀ àti Ìtàn ZKP - zklearning.org](https://www.youtube.com/watch?v=uchjTIlPzFo)
 

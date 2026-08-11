@@ -89,7 +89,7 @@ Iwọ yoo wo iye to kere julọ fun ṣiṣe alabapin. Ṣayẹwo ti o ba ni aw�
 
 O le ṣe ọrẹ taara lori oju-iwe wọn, nipa titẹ aami oludasile Fund.
 
-[Pákó olùdásílẹ̀ owó]](/content-images/fund-creator-ac59aee7bf.webp)
+[Pákó olùdásílẹ̀ owó](/content-images/fund-creator-ac59aee7bf.webp)
 
 Or, from inside a post, look for the floating plus button. From here, you can donate to the creator or promote the post on Free2Z.
 
@@ -130,7 +130,7 @@ To start a live stream, just click the **Go Live** button, and the Free2z app wi
 
 Àti ṣe! Nígbà tí o bá bẹ̀rẹ̀ ìtòlẹ́sẹẹsẹ gbígbádùn, àkọọ́lẹ̀ rẹ yóò fi àmì kan hàn tó fi hàn pé o wà láàyè, kí àwọn oníbàárà rẹ lè darapọ̀ mọ́ ìtòlẹ́sẹẹẹẹsẹ náà.
 
-[Ìkópa nínú ìtòlẹ́sẹẹsẹ tí ó wà láàyè]](/content-images/join-livestream-679334ba53.webp)
+[Ìkópa nínú ìtòlẹ́sẹẹsẹ tí ó wà láàyè](/content-images/join-livestream-679334ba53.webp)
 
 Nígbà tí àwọn ènìyàn bá darapọ̀ mọ́ ìtòlẹ́sẹẹsẹ náà, wọ́n lè bára wọn sọ̀rọ̀, kí wọ́N béèrè láti darapọ́ mọ́ wọn lórí ìtàgé, kí wọ́n ṣe àjọṣepọ̀ nípa dídìbò nínú ìwádìí, àti púpọ̀lọpọ̀.
 
@@ -188,7 +188,7 @@ In conclusion, Free2z is a versatile platform for creators to showcase their abi
 [2Z Àkópọ̀](https://free2z.cash/docs/2Zs/)  
 [Ṣídá àwòrán ara ẹni](https://free2z.cash/docs/creators/creating-a-profile)  
 [Kí ni Free2z Live?](https://free2z.cash/docs/creators/free2z-live)  
-[Free2z fún Àwọn Alátìlẹyìn]](https://free2z.cash/docs/category/for-supporters)
+[Free2z fún Àwọn Alátìlẹyìn](https://free2z.cash/docs/category/for-supporters)
 
 ---
 

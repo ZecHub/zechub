@@ -38,7 +38,7 @@ As the dev fund lockbox is deferred (meaning funds will be unlocked via network 
 
 ## Àwọn ohun àmúṣọrọ̀
 
-[Àpótí Àpamọ́ Ètò Ìdàgbàsókè]](https://forum.zcashcommunity.com/t/important-deadline-for-zips-likely-dev-fund-related-that-want-to-be-activated-next-halvening/48004/)
+[Àpótí Àpamọ́ Ètò Ìdàgbàsókè](https://forum.zcashcommunity.com/t/important-deadline-for-zips-likely-dev-fund-related-that-want-to-be-activated-next-halvening/48004/)
 
 [Ìwádìí ZCAP lórí Lockbox](https://zfnd.org/zcap-dev-fund-poll-results-july-2024)
 

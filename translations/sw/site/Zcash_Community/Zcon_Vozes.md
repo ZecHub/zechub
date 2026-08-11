@@ -5,7 +5,7 @@
 Yafuatayo ni mkusanyiko wa wengi Zcon Sauti vyombo vya habari kuhusiana katika rahisi kupata eneo.
 
 # Sauti za Zcon
-Zcon Vozes ni mkutano wa kila mwaka ulioandaliwa na [Zcash Brazil](https://zcashbr.com/) [zcashbrasil.com.br]](https://zcashbrasil.com.br/).
+Zcon Vozes ni mkutano wa kila mwaka ulioandaliwa na [Zcash Brazil](https://zcashbr.com/) [zcashbrasil.com.br](https://zcashbrasil.com.br/).
 
 ## Zcon Vozes Brasil
 

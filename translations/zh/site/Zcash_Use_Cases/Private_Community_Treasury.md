@@ -122,7 +122,7 @@ Zcash 让社区能够：
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="链接图标"/> 相关内容
 
 - [隐私 - 最佳实践](/privacy/best-practices)
-- [在不关联身份的情况下转账](/use-cases/send-money-without-linking-identity)
+- [在不关联身份的情况下转账](/zcash-use-cases/send-money-without-linking-identity)
  
 
 <br/>
@@ -137,4 +137,4 @@ Zcash 让社区能够：
 
 ## 下一步
 
-- [记者隐私设置](/use-cases/journalist-privacy-setup)
+- [记者隐私设置](/zcash-use-cases/journalist-privacy-setup)

@@ -41,7 +41,7 @@ Esia ate ŋu ana:
 ## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash?
 
 Zcash ɖe mɔ na wò be:
-- Xɔ fetuawo le ɖokuiwò si
+- Xɔ fewo le ɖokuiwò si
 - Ɣla ga si nèkpɔna
 - Takpɔ asisiwo dome ƒomedodowo ta
 
@@ -50,7 +50,7 @@ Zcash ɖe mɔ na wò be:
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
 - Zcash gakotoku si me memo ƒe kpekpeɖeŋu le
-- Adrɛs siwo wotsɔ akpoxɔnu wɔe ƒe gɔmesese veviwo
+- Adrɛs siwo wotsɔ akpoxɔnu wɔe ƒe gɔmesese vevi
 
 
 <br/>
@@ -75,7 +75,7 @@ De axa:
 ### Afɔɖeɖe 3: Zã Memos hena Tracking
 
 Ne èle fewo xɔm:
-- Bia tso asisiwo si be woatsɔ nuŋlɔɖi aɖe (e.g., invoice ID) akpe ɖe eŋu .
+- Bia tso asisiwo si be woade nuŋlɔɖi aɖe eme (e.g., invoice ID) .
 
 Esia kpena ɖe ŋuwò be:
 - Lé ŋku ɖe fexexe ŋu evɔ màɖe nyatakakawo ɖe go le dutoƒo o
@@ -102,7 +102,7 @@ Ne ehiã la:
 ## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
 
 Ate ŋu:
-- Xɔ fetuawo le ɖokuiwò si
+- Xɔ fewo le ɖokuiwò si
 - Ta wò gakpɔkpɔ ŋuti nyatakakawo ta
 - Lé dɔnyala ƒe asitɔtrɔ le nɔnɔmewo ŋu me ɖe asi
 
@@ -124,5 +124,5 @@ Ate ŋu:
 
 ## Afɔɖeɖe si kplɔe ɖo
 
-- [Lɔ̃ Fexexewo Abe Asitsala ene](/use-cases/accept-payments-as-a-merchant)
+- [Xɔ Fexexewo Abe Asitsala ene](/zcash-use-cases/accept-payments-as-a-merchant)
 <br/>

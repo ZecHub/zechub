@@ -116,9 +116,9 @@ Nke a nwere uru ọzọ nke ikwe ka ndị ọrụ ndị ọzọ jikọọ na nzu
 
 Enyemaka ọ dị gị mkpa?
 
-Gụọ [Ihe Ndị E Dere Iji Kwado Ya]](https://zcash.readthedocs.io/en/latest/)
+Gụọ [Ihe Ndị E Dere Iji Kwado Ya](https://zcash.readthedocs.io/en/latest/)
 
-Jikọọ anyị [Discord Sever]](https://discord.gg/zcash) maọbụ kpọtụrụ anyị na [twitter]](https://twitter.com/ZecHub)
+Jikọọ anyị [Discord Sever](https://discord.gg/zcash) maọbụ kpọtụrụ anyị na [twitter](https://twitter.com/ZecHub)
 
 
 

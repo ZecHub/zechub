@@ -2,7 +2,7 @@
 
 ## Dɛn ne Zcash Mining Pools?
 
-Zcash mining pools yɛ dwumadie a ɛma ankorankoro a wɔtu fagudeɛ no tumi ka wɔn kɔmputa tumi (hashrate) bom. Ɛdenam nneɛma a wɔboaboa ano so no, wɔn a wɔde wɔn ho hyɛ mu no ma wɔn hokwan a wɔwɔ sɛ wobedi nkitahodi nhyehyɛe ahorow ho dwuma no yɛ kɛse na wonya sika a wotua daa, nketenkete sen sɛ wɔde wɔn ho bɛto solo mining’s loto nhyehyɛe a wontumi nhu so.
+Zcash mining pools yɛ dwumadie a ɛma ankorankoro a wɔtu fagudeɛ no tumi ka wɔn kɔmputa tumi (hashrate) bom. Ɛdenam nneɛma a wɔboaboa ano so no, wɔn a wɔde wɔn ho hyɛ mu no ma wɔn hokwan a wɔwɔ sɛ wobedi nkitahodi nhyehyɛe ahorow ho dwuma no yɛ kɛse na wonya sika a wotua daa, nketewa sen sɛ wɔde wɔn ho bɛto solo mining’s loto nhyehyɛe a wontumi nhu so.
 
 ---
 
@@ -16,33 +16,33 @@ Zcash mining pools yɛ dwumadie a ɛma ankorankoro a wɔtu fagudeɛ no tumi ka w
     <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
 </a>
 
-- Wɛbsaet: [Slush Pool (Braiins Po)](https://braiins.com/pool)
+- Wɛbsaet: [Slush Ɔtare (Braiins Ɔtare) .](https://braiins.com/pool)
 - Ankorankoro Katua: YIW
 - Pool Type: Tua Kyɛfa Biara
 - Pool ho ka: 2% .
 
 ---
 
-### [Luxor, na ɔde ne nsa kyerɛɛ ne so](https://luxor.tech/)
+### [Luxor na ɔkyerɛwee](https://luxor.tech/)
 
 <a href="https://binance.com">
     <img src="/content-images/Luxor-20Pool-3aa38cd52b.webp" alt="Luxor Logo" width="200" height="100"/>
 </a>
 
-- Wɛbsaet: [Luxor](https://luxor.tech/)
+- Wɛbsaet: [Luxor na ɔkyerɛwee](https://luxor.tech/)
 - Ankorankoro Katua: YIW
 - Pool Type: Tua Kyɛfa Biara
 - Pool ho ka: 3% .
 
 ---
 
-### [FlyPool a ɛwɔ hɔ](https://zcash.flypool.org/)
+### [FlyPool na ɛwɔ hɔ](https://zcash.flypool.org/)
 
 <a href="https://binance.com">
     <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
 </a>
 
-- Wɛbsaet: [FlyPool](https://zcash.flypool.org/)
+- Wɛbsaet: [FlyPool na ɛwɔ hɔ](https://zcash.flypool.org/)
 - Ankorankoro Katua: YIW
 - Pool Type: Tua Ka Wɔ Nea Etwa To N 
 - Pool ho ka: 1% .
@@ -55,33 +55,33 @@ Zcash mining pools yɛ dwumadie a ɛma ankorankoro a wɔtu fagudeɛ no tumi ka w
     <img src="/content-images/2Miners-3c99609047.webp" alt="2Miners Logo" width="200" height="100"/>
 </a>
 
-- Wɛbsaet: [2Miners](https://zec.2miners.com/)
+- Wɛbsaet: [2Atuo mu adwumayɛfo](https://zec.2miners.com/)
 - Ankorankoro Katua: Dabi
 - Pool Type: Tua Ka Wɔ Nea Etwa To N 
 - Pool ho ka: 1% .
 
 ---
 
-### [Nanopool a ɛwɔ hɔ](https://zec.nanopool.org/login)
+### [Nanopool na ɛwɔ hɔ](https://zec.nanopool.org/login)
 
 <a href="https://binance.com">
     <img src="/content-images/Nanopool-e484b00998.webp" alt="Nanopool Logo" width="200" height="100"/>
 </a>
 
-- Wɛbsaet: [Nanopool](https://zec.nanopool.org/login)
+- Wɛbsaet: [Nanopool na ɛwɔ hɔ](https://zec.nanopool.org/login)
 - Ankorankoro Katua: Dabi
 - Pool Type: Tua Ka Wɔ Nea Etwa To N 
 - Pool ho ka: 1% .
 
 ---
 
-### [Poolin, na ɔde ne nsa kyerɛɛ ne so](https://www.poolin.com/)
+### [Poolin na ɔkyerɛwee](https://www.poolin.com/)
 
 <a href="https://binance.com">
     <img src="/content-images/Poolin-6fd4b44ba3.webp" alt="Poolin Logo" width="200" height="100"/>
 </a>
 
-- Wɛbsaet: [Poolin](https://www.poolin.com/)
+- Wɛbsaet: [Poolin na ɔkyerɛwee](https://www.poolin.com/)
 - Ankorankoro Katua: Dabi
 - Pool Type: Tua Kyɛfa Biara
 - Pool ho ka: 3% .
@@ -94,20 +94,20 @@ Zcash mining pools yɛ dwumadie a ɛma ankorankoro a wɔtu fagudeɛ no tumi ka w
     <img src="/content-images/Antpool-9c5dac3b65.webp" alt="Antpool Logo" width="200" height="100"/>
 </a>
 
-- Wɛbsaet: [Antpool](https://v3.antpool.com/home)
+- Wɛbsaet: [Antpool a ɛwɔ hɔ](https://v3.antpool.com/home)
 - Ankorankoro Katua: Dabi
 - Pool Type: Tua Kyɛfa Biara
 - Pool ho ka: 3% .
 
 ---
 
-### [Ɛnam BTC so](https://www.viabtc.com/en/)
+### [ViaBTC so na ɛyɛ](https://www.viabtc.com/en/)
 
 <a href="https://binance.com">
     <img src="/content-images/ViaBTC-8fa5be7bd7.webp" alt="ViaBTC Logo" width="200" height="100"/>
 </a>
 
-- Wɛbsaet: [ViaBTC](https://www.viabtc.com/en/)
+- Wɛbsaet: [ViaBTC so na ɛyɛ](https://www.viabtc.com/en/)
 - Ankorankoro Katua: Dabi
 - Pool Type: Tua Kyɛfa Biara +
 - Pool ho ka: 4% .
@@ -120,7 +120,7 @@ Zcash mining pools yɛ dwumadie a ɛma ankorankoro a wɔtu fagudeɛ no tumi ka w
     <img src="/content-images/Zhash-45ac9e6541.webp" alt="Zhash Logo" width="200" height="100"/>
 </a>
 
-- Wɛbsaet: [Zhash](https://zcash.zhash.pro/stats)
+- Wɛbsaet: [Zhash na ɔkyerɛwee](https://zcash.zhash.pro/stats)
 - Ankorankoro Katua: Dabi
 - Pool Type: Pay Per Last N Kyɛfa
 - Pool ho ka: 0% .
@@ -133,7 +133,7 @@ Zcash mining pools yɛ dwumadie a ɛma ankorankoro a wɔtu fagudeɛ no tumi ka w
     <img src="/content-images/Foundry-3f33346374.webp" alt="Foundry Zcash Mining Pool Logo" width="200" height="100"/>
 </a>
 
-- Wɛbsaet: [Foundry Zcash Tuo a Wɔde Tu Fam](https://foundrydigital.com/foundry-zcash-pool/)
+- Wɛbsaet: [Foundry Zcash Nneɛma a Wɔde Tu Fam](https://foundrydigital.com/foundry-zcash-pool/)
 - Ankorankoro Katua: Dabi
 - Pool Type: Pay Per Last N Kyɛfa
 - Pool fee: Ɛnyɛ Baguam
@@ -146,7 +146,7 @@ Zcash mining pools yɛ dwumadie a ɛma ankorankoro a wɔtu fagudeɛ no tumi ka w
     <img src="/content-images/suprnova-logo-1-small-e95de6cdb3.webp" alt="suprnova Logo" width="200" height="100"/>
 </a>
 
-- Wɛbsaet: [suprnova](https://zec.suprnova.cc/)
+- Wɛbsaet: [suprnova a ɛwɔ soro](https://zec.suprnova.cc/)
 - Ankorankoro Katua: Dabi
 - Pool Type: Pay Per Last N Kyɛfa
 - Pool ho ka: 0,5% - 1% .
@@ -159,7 +159,7 @@ Zcash mining pools yɛ dwumadie a ɛma ankorankoro a wɔtu fagudeɛ no tumi ka w
     <img src="data:image/png;base64,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" alt="NiceHash Logo" width="200" height="100"/>
 </a>
 
-- Wɛbsaet: [NiceHash](https://www.nicehash.com/blog/post/how-to-start-mining-zec-equihash-on-nicehash)
+- Wɛbsaet: [NiceHash a ɛyɛ fɛ](https://www.nicehash.com/blog/post/how-to-start-mining-zec-equihash-on-nicehash)
 - Private Payouts: nya akatua wɔ Bitcoin (BTC) mu .
 - Pool Type: Hashrate Guadidan / Proxy Pool
 - Pool ho ka: 0,5% - 1% .

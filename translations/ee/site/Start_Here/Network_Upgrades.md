@@ -1,34 +1,21 @@
-# Zcash Network ƒe Ðɔɖɔɖowo 
+# Zcash Network ƒe Ðɔɖɔɖowo
 
-Le ƒe siwo va yi me la, Zcash to tɔtrɔ gãwo kple ŋgɔyiyiwo vɛ le ɖoɖowɔɖia me, eye egbea la, míedzro ŋgɔyiyi siawo dometɔ ɖesiaɖe me:
+Zcash nyona ɖe edzi to network ƒe ɖɔɖɔɖowo me: tɔtrɔ siwo wowɔ ɖekae le se siwo dzi node ɖesiaɖe lɔ̃ ɖo ŋu, wo dometɔ ɖesiaɖe wɔa dɔ le block ƒe kɔkɔme si woɖo me. Dodoɖeŋgɔ ɖesiaɖe si le ete la kple eƒe axa si ɖea nusi wòtrɔ kple nusitae me, le gbegbɔgblɔ si me kɔ me. Nu yeyee le Zcash mea? Xlẽ wo ɖe ɖoɖo nu, tso Sprout dzi va ɖo Ironwood dzi.
 
-[Le Dzomeŋɔli:](https://bitzecbzc.github.io/blog/overwinter/index.html) Activated at block 347500, mined June 26, 2018. Dzomeŋɔli nye network ƒe tɔtrɔ gbãtɔ na Zcash le gɔmedzedze gbãtɔ megbe. Overwinter ƒe taɖodzinu vevitɔe nye be yeado ŋusẽ ɖoɖowɔɖi si woatsɔ awɔ network ƒe ɖɔɖɔɖo le etsɔme. Overwinter ƒe taɖodzinu vevitɔe nye replay takpɔkpɔ na network ƒe ɖɔɖɔɖo, versioning, dɔwɔwɔ ƒe nyonyome na asitsatsa siwo me kɔ, si nye nu yeye aɖe le asitsatsa ƒe nuwuwu me.
+Ne èdi ŋutinya si wokpɔna le alesi Zcash ƒe adzamenyawo trɔ le ŋgɔyiyi siawo me ŋu la, kpɔ [Ameŋunyatakakawo ƒe Nɔnɔmetɔtrɔ](https://zechub.wiki/zcash-evolution). Axa siae nye index la. Emae nye ɣeyiɣi si woɖo ɖi.
 
+| Dodo ɖe ŋgɔ | Dɔwɔwɔ (UTC) | Block | Alɔdzedɔwɔƒe ƒe id | Nusi wòtrɔ |
+|---|---|---|---|---|
+| [Sprout](../zcash-tech/sprout) | Dzove 28, 2016 | ƒe gɔmedzedze | 00000000 | The launch: gbãtɔ si wokpɔ ta na kple zk-SNARK ame ŋutɔ ƒe asitsatsa |
+| [Dzomeŋɔli](../zcash-tech/overwinter) | Dzove 26, 2018 | 347,500 ƒe xexlẽme | 5ba81b19 ƒe xexlẽme | Gbugbɔ ƒoƒo takpɔkpɔ, asitsatsa ƒe tɔtrɔ, kple eƒe nuwuwu, eyata ŋgɔyiyi dedie va te ŋu dzɔ |
+| [Sapling](../zcash-tech/sapling) | Dzove 29, 2018 | 419,200 ƒe xexlẽme | 76b809bb ƒe xexlẽme | Asitsatsa siwo wokpɔ ta na nyuie, siwo le kabakaba ale gbegbe na telefonwo kple gakotoku siwo me wozãa xɔtunuwo le |
+| [Seƒoƒo ƒe ʋuʋu](../zcash-tech/blossom) | Dzove 11, 2019 | 653,600 ƒe xexlẽme | 2bb40e60 ƒe xexlẽme | Block siwo le kabakaba wu, abe sɛkɛnd 75 ene, kple throughput si lolo wu |
+| [Dzimeƒu ƒe ati](../zcash-tech/heartwood) | Dzove 16, 2020 | 903,000 ƒe xexlẽme | f5b9230b | Tomenukuƒe ƒe teƒeɖoɖo siwo wokpɔ ta na kple asisi siwo le bɔbɔe wu (FlyClient) |
+| [Canopy ƒe xɔmenuwo](../zcash-tech/canopy) | Dzove 18, 2020 | 1,046,400 ƒe xexlẽme | e9ff75a6 ƒe ƒuƒoƒo | Hlɔ̃nyawo Gbɔkpɔha, si nye afã gbãtɔ ɖeɖeɖa, kple Sprout-ta la ƒe ʋuʋu |
+| [NU5](../zcash-tech/nu5) | Dzove 31, 2022 | 1,687,104 ƒe xexlẽme | c2d6d0b4 ƒe ƒuƒoƒo | Orchard ƒe ta si le Halo 2 (ɖoɖo si dzi woka ɖo aɖeke meli o), adrɛs siwo wɔ ɖeka, kple v5 ƒe asitsatsa |
+| [NU6](../zcash-tech/nu6) | Dzove 23, 2024 | 2,726,400 ƒe xexlẽme | c8e71055 ƒe ƒuƒoƒo | Deferred Dev Fund Lockbox kple ŋgɔyiyi ƒe ga yeye si woma |
+| [NU6.1](../zcash-tech/nu6-1) | Dzove 24, 2025 | 3,146,400 ƒe xexlẽme | 4dec4df0 ƒe xexlẽme | Nutoa me kple gaku-xɔlawo ƒe dziɖuɖu le gadodo ma me |
+| [NU6.2](../zcash-tech/nu6-2) | Dzove 3, 2026 | 3,364,600 ƒe xexlẽme | 5437f330 | Dzadzraɖo kpata aɖe si ɖɔ Orchard nutome suea ɖo |
+| [Gayibɔti (NU6.3) .](../zcash-tech/ironwood) | ~Dzomeŋkeke 28, 2026 | 3,428,143 ƒe xexlẽme | 37a5165b | Ironwood ta la kple dutoƒo turnstile si na amesiame léa ŋku ɖe nusiwo wotsɔna naa amewo ŋu |
 
-[Sapling:](https://coinbureau.com/analysis/zcash-sapling-upgrade/) Activated at block 419200, mined October 29, 2018. Esia nye tɔtrɔ gã wɔdɔɖeamedzi evelia na Zcash network, vevietɔ si ƒe taɖodzinue nye be woana zk-SNARKs ƒe dɔwɔwɔ nyuie nanyo ɖe edzi na asitsatsa siwo wokpɔ ta na. Le sapling ƒe dodo ƒe vava me la, kuxi geɖe siwo gbɔna la nɔ tsatsam le zk-SNARKs ŋu, tso kuxi siwo le asitɔtrɔ le wo ŋu dzi va ɖo dɔwɔwɔ ƒe kuxiwo dzi va ɖo ɖoɖowɔwɔ ƒe nudidi siwo dzi woka ɖo dzi. Akpe be Sapling do zk-SNARK kpeɖodzi wɔwɔ ƒe dɔwɔwɔ ɖe ŋgɔ be wòakeke cryptocurrency ƒe xɔxlɔ̃ si ate ŋu adzɔ ɖe enu, si míele vivi sem egbea! Setup ɖedzesi bubu si wokpɔ le susu me na Sapling enye (dutoƒo parameter dzidzi ƒe kɔnu) si hã nye nusi Zcash ƒuƒoƒoa nɔ didim be yeawɔ ŋgɔyiyi le. 
-
-
-[Zcash Seƒoƒo:](https://electriccoin.co/blog/blossom-upgrade-improves-speed-scalability-capacity/) Activated at block 653600, mined December 11, 2019. Wotrɔ asi le network ƒe tɔtrɔ vevi sia ŋu be wòana scalability kple user experience nanyo ɖe edzi to block ɣeyiɣiwo ɖeɖeɖa le afã me va ɖo abe sɛkɛnd 75 ene. Nusiwo wòfia? Asitsatsa ƒe kpeɖodziwo va kabakaba, network ƒe dɔwɔwɔ dzi ɖe edzi zi gbɔ zi eve eye asitsatsa ƒe fewo mexɔ asi boo o. Blossom ƒe ɖɔɖɔɖoa ɖee fia enumake be Zcash network ateŋu awɔ mɔ̃ɖaŋu ŋuti nyametsotso siwo woateŋu awɔ be woadzi network la ƒe ŋutete ɖe edzi esime míelé míaƒe dzidzenu kɔkɔwo me ɖe asi le dedienɔnɔ kple kakaɖedzi ŋu. 
-
-
-[Dzimeti:](https://electriccoin.co/blog/introducing-heartwood/) Activated at block 903000, mined July 16, 2020. Taɖodzinu ɖeka kolia si le Heartwood ŋue nye be wòana ame etɔ̃lia ƒe ƒoƒo ɖekae geɖe wu kple adzamenyawo nanyo ɖe edzi to Coinbase si wokpɔ ta na si ana tomenukulawo naxɔ teƒeɖoɖowo le adrɛs siwo wokpɔ ta na me. Tsɔ kpe ɖe eŋu la, wodoa alɔ Heartwood la to network decentralization kple dɔwɔwɔ ɖekae si wodo ɖe ŋgɔ me. Heartwood ƒe ɖɔɖɔɖoa hã tsɔ Flyclient wɔ ɖeka, si na be asisi siwo ƒe kpekpeme le bɔbɔe la te ŋu ɖoa kpe asitsatsa dzi nyuie, si wɔnɛ be woate ŋu atrɔ asi le asitsatsa ŋu nyuie wu eye ame etɔ̃lia ƒe ƒoƒo ɖekae nyona ɖe edzi. Anyo hã be míagblɔ be Coinbase si wokpɔ ta na, si woyɔna be ZIP 213, dina be yeatrɔ asi le Zcash ƒe nukpɔsusu ɖeka ƒe sewo ŋu ale be woate ŋu aku Coinbase ƒe ga ɖe Sapling adrɛs siwo wokpɔ ta na la dzi. Hafi woawɔ Sapling ƒe tɔtrɔ la, Coinbase si wokpɔ ta na la mate ŋu adzɔ o elabena asitsatsa siwo wokpɔ ta na la hiã ŋkuɖodzinu kple CPU nunɔamesi veviwo hafi woate ŋu awɔ.
-
-
-[Akpa dzi:](https://youtu.be/R8O1SZMfESM?si=qoBL1dBp4E_af-eM) Wowɔ dɔ le block 1046400, woɖe tome le November 18, 2020. Electric Coin Co (ECC) kple Zcash Foundation siaa do alɔ ŋgɔyiyi sia. Canopy de dzesi gɔmeɖolawo ƒe fetu ƒe nuwuwu, woto gadodo ƒe mɔnu yeye aɖe vɛ (Zcash ŋgɔyiyi ƒe ga), eye dziɖuɖu ƒe kpɔɖeŋu yeye aɖe do alɔ gadodo si yi edzi na Zcash ƒe lãwo ƒe agbenɔnɔ. Le Canopy gome la, woaɖo ŋgɔyiyi ƒe ga yeye aɖe anyi na ƒe ene siwo gbɔna. Tomenukuƒea ƒe fetu ƒe 80% ayi na tomenukulawo. 20%, si nye susɔea, amae ɖe Major Grants Fund yeyea (8%), Electric Coin Co (7%), kple Zcash Foundation (5%) dome. Ŋkɔ ‘canopy’ ɖe Zcash ƒe dɔdasi si nye be wòawɔ lãwo ƒe agbenɔnɔ ƒe ɖoɖo si anɔ anyi ɖaa eye wòakpɔ dzidzedze esime wòle eƒe gɔmeɖose siwo nye ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ kple dɔwɔƒewo ƒe ɖoɖowo dzi wɔwɔ me la fia.
-
-
-[NU5:](https://electriccoin.co/blog/nu5-proposed-features/) Activated at block 1687104, mined May 31, 2022. Edze be míagblɔ be Zcash Network Upgrade 5 de dzesi nu vevi aɖe ƒe gɔmedzedze na cryptocurrency tso esime wòdze egɔme le ƒe 2016. Esi wònye adelia gãtɔ na Zcash ta la, NU5 ɖe atikutsetsebɔ ƒe ɖoɖo si wokpɔ ta na, adrɛs siwo wɔ ɖeka, kpakple Halo proving system la fia. Zcash NU5 ƒe dodoɖeŋgɔ nye tɔtrɔ si yi edzi le zk-SNARK mɔ̃ɖaŋununya ƒe ƒuƒoƒo si wotu be woaɖe ɖoɖo si dzi woka ɖo la ɖa eye woado ɖoɖowɔɖia ƒe nya ɣaɣlawo ƒe dedienɔnɔ si le ete la ɖe ŋgɔ. ECC kple Zcash Foundation hã da asi ɖe NU5 dzi. 
-
-
-[NU6:](https://zips.z.cash/zip-0253) NU6 wɔ Zcash ŋgɔyiyi ƒe ga yeye aɖe (Hybrid Deferred Dev Fund si le tɔtrɔm yi gadodo ƒe kpɔɖeŋu si menye tẽ o dzi) eye emegbe woaɖo gaxɔ si me woadzra ga si woaɖe ɖe go ƒe akpa aɖe ɖo na gakpekpeɖeŋu ɖesiaɖe si woatsɔ awɔ dɔe le etsɔme. Mɔnu aɖe si Zcash habɔbɔa atso nya me le etsɔme koe akpɔ ga siawo ƒe dodo dzi. NU6 ƒe dɔdeasie nye be wòaɖe block subsidy dzi akpɔtɔ eye wòaɖo gadodo ƒe ɖoɖo si woɖe ɖe vovo to lockbox mɔnu dzi be woakpɔ egbɔ be wowɔ nu le gaglãgbe nyuie wu esime wole ŋusẽ dom ame ŋutɔ ƒe nyatakakawo.
-
-[NU6.2:](https://zips.z.cash/zip-0257) NU6.2 network ƒe ɖɔɖɔɖoa gawɔ Orchard shielded protocol la ŋudɔ, kple tɔtrɔ eve siwo dzi woda asi ɖo ne wotsɔe sɔ kple Orchard ƒe se gbãtɔwo:
-
-* Woɖɔ Orchard Action circuit’s variable-base scalar multiplication gadget ɖo, si ɖɔ gbeɖiɖi ƒe afɔkua ɖo. Esia trɔa Orchard ƒe kpeɖodzi safuia. Do ŋgɔ na NU6.2 Dɔwɔwɔ ƒe kpeɖodziwo ɖoa kpe edzi le ŋutinya (si mele dedie o) ƒe kpeɖodzi safui te ko, eye NU6.2-yi ŋgɔ ƒe kpeɖodziwo le esi woɖɔ ɖo te ko. Wota ɖɔɖɔɖoa ɖe halo2_gadgets v0.5.0 10 kple orchard v0.14.0 me. 11. 11.
-
-* Tso NU6.2 ƒe dɔwɔwɔ dzi la, ELE BE Orchard Action ƒe kpeɖodzi nanye canonical didime na nutome si woɖɔ ɖo. Do ŋgɔ na NU6.2 la, womewɔa didime sia dzi abe se si dzi woda asi ɖo ene o. 8. 8.
-
-Tso NU6.2 ƒe dɔwɔwɔ dzi la, ɣeyiɣi kpui aɖe ƒe edziɖeɖedɔa megawɔa dɔ o. ELE BE woagaxɔ asitsatsa siwo me Orchard Action ƒe numeɖeɖewo le ake, eye woate ŋu aɖo kpe kpeɖodziwo dzi le nutome sue si woɖɔ ɖo kple canonical-length sea te. Wozã NU6.2 le zcashd v6.20.0 kple zebra v5.0.0 me.
-
-[NU6.3:](https://zips.z.cash/zip-0258) NU6.3 network upgrade to Ironwood shielded pool vɛ. Wogblɔ tɔtrɔ siwo dzi woda asi ɖo na NU6.3 le tɔtrɔ 6 ƒe asitsatsa ƒe ɖoɖo 5, Orchard Action nutome ƒe yeyewɔwɔ 6, ZIP 2005 7, kple ZIP sia, si ɖɔa dɔwɔwɔ ƒe nɔnɔmewo kple nukpɔsusu ɖeka ƒe se siwo gate ɖe NU6.3 ƒe dɔwɔwɔ dzi metsɔ le asitsatsa ƒe tɔtrɔ me o.
-
+Woɖe ŋkekeawo fia le UTC me. Dashboard aɖewo ɖea wo fiana le nutoa me ƒe ɣeyiɣi dzi, si nye block ɖeka kple ɣeyiɣi ɖeka. Ironwood ƒe ŋkekea nye akɔntabubu tso eƒe activation block ƒe kɔkɔme, si nye nusi woɖo ɖi be wòaʋãe, eyata ŋkekea tututu ate ŋu atrɔ vie. Wogale ɖoɖo wɔm ɖe etsɔme tɔtrɔ, NU7, ŋu eye menye nu ɖeka kple Ironwood tɔ o.

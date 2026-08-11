@@ -29,7 +29,7 @@ Gbalịa ya: https://z.cash/wallets
 
 ** Ngosipụta ngwa**
 
-[Mgbaàmà App]](/content-images/signal-app-logo-scaled-454032876-81b24a0421.webp)
+[Mgbaàmà App](/content-images/signal-app-logo-scaled-454032876-81b24a0421.webp)
 
 The Signal private messenger is a secure messaging app with data privacy at its peak. The Signal private messenger app is free and easy to use, users do not need any prior experience. The Signal app has an end-to-end encryption technology that ensures your communication is completely private. Anyone looking to send private messages securely should consider using the Signal private messenger app because it will exponentially reduce both your cybersecurity vulnerabilities and your data footprint.
 
@@ -45,7 +45,7 @@ Gbalịa ya: [https://bisonrelay.org/download](https://bisonrelay.org/download)
 
 **Ngwa Oge**
 
-[Ngwa Oge]](/content-images/logo-black-9e799f2b06.webp)
+[Ngwa Oge](/content-images/logo-black-9e799f2b06.webp)
 
 If you don't already know what Session app is, don't fret! Here is a glimpse, Session is one of the vying end-to-end encrypted messengers. The app was built to minimize sensitive metadata. The session app was designed for individuals who want absolute privacy, and freedom from any form of surveillance. On the Session app, users can create an account without phone numbers or email addresses which means it is completely anonymous. Users can send messages safely via their network without any trace so, there's nothing to leak.
 

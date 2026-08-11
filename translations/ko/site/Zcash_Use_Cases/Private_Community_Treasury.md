@@ -112,7 +112,7 @@ Zcash는 커뮤니티가 다음과 같이 할 수 있도록 합니다:
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="연결 아이콘"/> 관련 문서
 
 - [프라이버시 - 최고 실천 사례](/privacy/best-practices)
-- [신분을 연결하지 않고 돈 보내기](/use-cases/send-money-without-linking-identity)
+- [신분을 연결하지 않고 돈 보내기](/zcash-use-cases/send-money-without-linking-identity)
 
 <br/>
 
@@ -126,4 +126,4 @@ Zcash는 커뮤니티가 다음과 같이 할 수 있도록 합니다:
 
 ## 다음 단계
 
-- [기자 프라이버시 설정](/use-cases/journalist-privacy-setup)
+- [기자 프라이버시 설정](/zcash-use-cases/journalist-privacy-setup)

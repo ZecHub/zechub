@@ -25,11 +25,11 @@ Zcash Desktop & Mobile wallets have an in-built feature that allows users to sen
 
 Jaribu: https://z.cash/wallets 
 
-[Zcash Encrypted Memos]](/content-images/Zcash-1177103374-7bca37eb4d.webp)
+[Zcash Encrypted Memos](/content-images/Zcash-1177103374-7bca37eb4d.webp)
 
 ** Programu ya ishara **
 
-[Signal App]](/content-images/signal-app-logo-scaled-454032876-81b24a0421.webp)
+[Signal App](/content-images/signal-app-logo-scaled-454032876-81b24a0421.webp)
 
 The Signal private messenger is a secure messaging app with data privacy at its peak. The Signal private messenger app is free and easy to use, users do not need any prior experience. The Signal app has an end-to-end encryption technology that ensures your communication is completely private. Anyone looking to send private messages securely should consider using the Signal private messenger app because it will exponentially reduce both your cybersecurity vulnerabilities and your data footprint.
 
@@ -37,7 +37,7 @@ Jaribu: [https://signal.org/download](https://signal.org/download)
 
 **BisonRelay**
 
-[Bison Relay]](/content-images/ogimg-v1-1000556235-9390372d1e.webp)
+[Bison Relay](/content-images/ogimg-v1-1000556235-9390372d1e.webp)
 
 Programu ya Bison Relay ilianza kutumika mwaka wa 2022. Programu hii haitegemei watumiaji kuwa na akaunti - ni jambo lisiloaminika! Hapa, kila ujumbe unaotumwa na kupokelewa hulipwa kibinafsi kupitia Mtandao wa Umeme uliopangwa. Kusudi pekee la programu hii ni kuondoa kabisa hitaji la akaunti huku ikipunguza metadata. Kwa upande mwingine, Bisson Relay inasimamisha njia ambayo udhibiti hutekelezwa kawaida. 
 

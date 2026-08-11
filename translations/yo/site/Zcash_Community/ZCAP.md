@@ -28,7 +28,7 @@ The Zcash Community Advisory Panel, or ZCAP, is a panel conformed by members of 
 
 The idea behind ZCAP is that it is formed by a diverse group of community members with different nationalities, roles and opinions, to guarantee it remains comitted to its goal of representing the voice and interest of Zcash users and stake holders, while maintining an open and diverse network.
 
-Gẹgẹ bi Oṣu Kẹwa ọdun 2023, ZCAP ni awọn ọmọ ẹgbẹ [188]](https://docs.google.com/spreadsheets/d/1Y-GbVFA1csIgPbvHOR-1ruOlh7YdA-CHvMtd6R8iSdY/edit#gid=0)Pẹlupẹlu, Ile-iṣẹ Zcash Foundation ti "faagun awọn ibeere fun idibo fun ẹgbẹ ZCAP, pẹlu awọn ibeere ti a daba nipasẹ awọn ọmọ ẹgbẹ ti agbegbe Zcash".
+Gẹgẹ bi Oṣu Kẹwa ọdun 2023, ZCAP ni awọn ọmọ ẹgbẹ [188](https://docs.google.com/spreadsheets/d/1Y-GbVFA1csIgPbvHOR-1ruOlh7YdA-CHvMtd6R8iSdY/edit#gid=0)Pẹlupẹlu, Ile-iṣẹ Zcash Foundation ti "faagun awọn ibeere fun idibo fun ẹgbẹ ZCAP, pẹlu awọn ibeere ti a daba nipasẹ awọn ọmọ ẹgbẹ ti agbegbe Zcash".
 
 ## Àwọn Ẹlẹ́gbẹ́ Òkìkí
 - Ian Miers

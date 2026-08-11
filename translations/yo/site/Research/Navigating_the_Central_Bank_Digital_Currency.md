@@ -1,7 +1,7 @@
 ti a tẹjade: 2023-12-07
 ---
 
-[CBDC]](/content-images/cbdc-dfb8827faa.webp)
+[CBDC](/content-images/cbdc-dfb8827faa.webp)
 # Ṣíṣí Ìhòòhò Ìhà Òkùnkùn: Ṣíṣàmúlò Owó-ìpamọ́ Oníṣòwò (CBDC) Láàárín Àwọn Òjìji Ìnáwó
 Àkọlé àwòrán: [Abhishek Tiwari]
 
@@ -49,7 +49,7 @@ DCEP goes beyond being a digital surrogate, designed to seamlessly facilitate ev
 
 Orílẹ̀-èdè Amẹ́ríkà: Digital Dollar Project
 
-[Dọ́là orí ẹ̀rọ]](/content-images/digital-dollar-CBDC-8e8120f52f.webp)
+[Dọ́là orí ẹ̀rọ](/content-images/digital-dollar-CBDC-8e8120f52f.webp)
 
 In the vast, despondent landscapes of the United States, the Digital Dollar Project emerges not as a beacon of progress but as a testament to efficiency and inclusivity, albeit with its share of uncertainties. A private-sector initiative, it aims to reshape the financial landscape in a narrative tinged with shades of corporate control.
 
@@ -73,7 +73,7 @@ Sweden's past record of financial innovation is overshadowed by the potential ch
 
 __European Union: Eurozone CBDC__ Àwọn àkànṣe owó ìdókòwò
 
-[Àdúgbò Euro]](https://upload.wikimedia.org/wikipedia/commons/c/cb/Logo_European_Central_Bank.svg)
+[Àdúgbò Euro](https://upload.wikimedia.org/wikipedia/commons/c/cb/Logo_European_Central_Bank.svg)
 
 Ìrìn àjò wa parí nínú àwọn orílẹ̀-èdè tí wọ́n ń ṣe àjọ European Union, níbi tí CBDC ti Eurozone kò ti ń wá bí yóò ṣe ṣàfikún owó gidi, ṣùgbọ́n láti ṣe ipa ọ̀nà àkóso àti ìmúṣẹ nínú àyíká ìṣúnná owó tí kò dára.
 

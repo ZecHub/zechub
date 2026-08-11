@@ -20,10 +20,10 @@ Also, Zaino will allow to separate light client functionality from the full node
 [Zaino Ime ụlọ Architecture](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
 
 ### Zaino Live Service Architecture
-[Zebra Live Service Architecture]](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
+[Zebra Live Service Architecture](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
 
 ### Ụlọ ọrụ Zaino System Architecture
-[Zaino System Architecture]](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
+[Zaino System Architecture](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
 
 
 ## Ebee ka m nwere ike ịmụtakwu ihe?

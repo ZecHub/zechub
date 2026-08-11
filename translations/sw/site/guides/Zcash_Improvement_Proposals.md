@@ -40,7 +40,7 @@ Kwa kila ZIP ambayo inakuja, lazima ipitie mchakato wa ukaguzi. Wahariri wa ZIP 
 
 > Rasimu: [Transaction Identifier Digests & Signature Validation for Transparent Zcash Extensions](https://github.com/zcash/zips/blob/main/zip-0245)
 
-> Rasimu: [Standardized Memo Field Format]](https://github.com/zcash/zips/blob/main/zip-0302)
+> Rasimu: [Standardized Memo Field Format](https://github.com/zcash/zips/blob/main/zip-0302)
 
 > Rasimu: [Sapling Anwani Saini](https://github.com/zcash/zips/blob/main/zip-0304)
 

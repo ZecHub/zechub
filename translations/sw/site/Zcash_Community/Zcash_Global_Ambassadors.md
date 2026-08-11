@@ -26,10 +26,10 @@ Eneo Jumuiya Shughuli Muhimu
 [Zcash Brazili](https://x.com/zcashbrazil) Warsha, mikutano, Magazeti ya Shielded.
 | Turkey | [Zcash Turkey](https://x.com/ZcashTR) Habari za elimu, Istanbul blockchain wiki ushiriki.
 Arabia. [Zcash Arabia](https://x.com/ZcashArabia) Maudhui ya elimu ya Kiarabu, AMAs.
-[Zcash Nigeria]](https://x.com/ZcashNigeria) Mafunzo ya watengenezaji, kuingizwa kwa jamii.
+[Zcash Nigeria](https://x.com/ZcashNigeria) Mafunzo ya watengenezaji, kuingizwa kwa jamii.
 | East Africa | [Zcash East Africa](https://forum.zcashcommunity.com/t/privacy-has-landed-in-south-africa-join-in/55706) Afrika Kusini, ukuaji wa jamii ya Uganda.
-Kenya [KBCC 2026 Activation]](https://forum.zcashcommunity.com/t/zcash-gold-sponsorship-kenya-kbcc-2026-activation-privacy-workshop/55520) Mkutano wa blockchain wa Kenya unafadhili + semina ya faragha.
-[CodeRaiz Mexico]](https://forum.zcashcommunity.com/t/zcash-university-outreach-initiative-mexico-2026-coderaiz-proposal/55506) Kampuni ya ufikiaji wa chuo kikuu na developer onboarding.
+Kenya [KBCC 2026 Activation](https://forum.zcashcommunity.com/t/zcash-gold-sponsorship-kenya-kbcc-2026-activation-privacy-workshop/55520) Mkutano wa blockchain wa Kenya unafadhili + semina ya faragha.
+[CodeRaiz Mexico](https://forum.zcashcommunity.com/t/zcash-university-outreach-initiative-mexico-2026-coderaiz-proposal/55506) Kampuni ya ufikiaji wa chuo kikuu na developer onboarding.
 Tanzania Pesa Ya Siri](https://forum.zcashcommunity.com/t/pesa-ya-siri-making-zcash-a-household-name-in-tanzania/55558) Kufanya Zcash kuwa jina la kawaida nchini Tanzania.
 Urusi.](https://x.com/ruZCASH)  Maudhui ya lugha ya Kirusi na jamii 
 India. [Zcash India](https://forum.zcashcommunity.com/t/zcash-india-2026/54762) Elimu ya watengenezaji na ukuaji wa jamii.

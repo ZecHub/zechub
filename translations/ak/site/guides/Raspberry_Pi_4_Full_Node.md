@@ -1,402 +1,158 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/guides/Raspberry_Pi_4_Full_Node.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
-</a>
+# Fa Node a Ɛyɛ Pɛ no di dwuma wɔ Raspberry Pi 4 (Zebra + Zallet) so .
 
-
-# Raspberry Pi 4: *zcashd* Node akwankyerɛ a edi mũ 
-
-
-Akwankyerɛ yi botaeɛ ne sɛ ɛbɛboa ama wɔakyerɛkyerɛ Zcashers a wɔn ani gye ho sɛ wɔbɛtu mmirika node a ɛyɛ pɛpɛɛpɛ wɔ Raspberry Pi 4 a ahoɔden sua so.
-
-<img src="/content-images/197372541-dcd886ab-a3d0-4614-b490-0294dd-d45b1cd4ba.webp" alt="zcashd" width="700" height="700"/>
-
-
-## Video
-
-<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
-  <iframe
-    className="w-full h-full"
-    src="https://www.youtube.com/embed/SGYrzhs1l2k"
-    title="How to compile Zcash Node on Raspberry Pi!"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
-    loading="lazy"
-  />
-</div>
-
-## Mmoa
-
-Sɛ wuhu sɛ akwankyerɛ yi ho wɔ mfaso a, susuw ho sɛ wode ZEC bɛma de aboa ZecHub:
-
-`u1rl2zw85dmjc8m4dmqvtstcyvdjn23n0ad53u5533c97affg9jq208du0vf787vfx4vkd6cd0ma4pxkkuc6xe6ue4dlgjvn9dhzacgk9peejwxdn0ksw3v3yf0dy47znruqftfqgf6xpuelle29g2qxquudxsnnen3dvdx8az6w3tggalc4pla3n4jcs8vf4h29ach3zd8enxulush89`
-
+*Wɔtu firii mfitiaseɛ zcashd-gyina akwankyerɛ no so. zcashd duu ne automatic End-of-Support gyinabea wɔ July 18, 2026, enti mprempren akwankyerɛ yi de **Zebra** (mprempren node a ɛyɛ ma, a Zcash Foundation na ɛhwɛ so) ne **Zallet** (sika kotoku a wɔasi sɛ wɔde besi zcashd sika kotoku a wɔde ahyɛ mu ananmu) di dwuma.*
 
 ## Nea wubesua
+- Sɛnea wobɛ flash na woasiesie Ubuntu Server 22.04+ (64-bit) wɔ Raspberry Pi 4 so ama wode adi dwuma a wonni ti
+- Sɛnea wobɛhyehyɛ na woayɛ Zebra, denam Docker anaa binary a wɔadi kan ayɛ so
+- Sɛnea wobɛhyehyɛ, asiesie, na woahyɛ Zallet ase, a wallet encryption nhyehyɛe ka ho
+- Sɛnea wobɛpaw sɛ wobɛtu zcashd config/wallet a ɛwɔ hɔ dedaw no akɔ Zallet mu
 
-```markdown
-* How to create a bootable Ubuntu Server microSD card
-* How to setup internet connectivity on the Raspberry Pi 4
-* How to access your Raspberry Pi 4 remotely
-* How to install zcashd
-* How to setup zcashd
-* How to use zcashd
-```
-
+## Nea ɛsakrae fii akwankyerɛfo dedaw no ho
+Akwankyerɛ yi a atwam no nantew faa **zcashd** a wɔboaboaa ano no mu natively wɔ Pi 4 — a ɛyɛ biako-threaded compile a egyee nnɔnhwerew 3–4 efisɛ Pi 4 no nni memory a ɛdɔɔso mma parallel (`-j$(nproc)`) si. Zebra ne Zallet nyinaa mprempren de **official pre-built ARM64 binaries ne Docker images** mena, enti wɔ nsɛm dodow no ara mu no, ɛho nhia bio sɛ ​​wobɛboaboa biribiara ano afi fibea wɔ Pi no ankasa so.
 
 ## Nneɛma a ɛsɛ sɛ wodi kan yɛ
+- Raspberry Pi 4 (wɔkamfo 4 GB RAM anaa nea ɛboro saa kyerɛ) .
+- MicroSD kaad (32 GB+) a wɔde yɛ OS no
+- Abɔnten SSD/HDD a USB 3.0 mmoa — **Zebra hia bɛyɛ 300 GB ma Cached Mainnet data**, ɛrenyin bere tenten, enti mmɔ mmɔden sɛ wobɛtu eyi afi microSD kaad no nkutoo so
+- Kɔmputa a ɛwɔ microSD card slot (a ɛbɛma OS mfonini no ayɛ flash) .
+- Ethernet nkitahodi a wɔde nhama ayɛ anaa Wi-Fi
+- Mfitiaseɛ ahotɔ ne ahyɛdeɛ kwan a ɛwɔ SSH so
 
-> [8GB Raspberry Pi 4 Canakit a wɔde di dwuma wɔ ɔkwan a ɛyɛ nwonwa so](https://www.canakit.com/raspberry-pi-4-starter-max-kit.html) anaa nea ɛne no sɛ
+## Anamɔn 1: Flash Ubuntu Server 22.04 + (64-bit) .
+Zebra ne Zallet binaries a wɔadi kan ayɛ ne Docker mfonini ahorow no hwehwɛ **glibc 2.34+**, a ɛkyerɛ sɛ **Ubuntu Server 22.04 anaa foforo (64-bit/aarch64)**.
 
-> Kɔmputa a ɛwɔ microSD kaad drive
+1. Fa Raspberry Pi Imager no hyɛ wo kɔmputa titiriw no so.
+2. Fa wo microSD kaad no hyɛ mu.
+3. Paw **OS foforo a wɔde di dwuma wɔ ɔkwan a ɛkɔ akyiri so → Ubuntu → Ubuntu Server 22.04 LTS (64-bit)** (anaasɛ foforo).
+4. Fa Imager no advanced options (gear icon) di kan hyehyɛ hostname, ma SSH nyɛ adwuma, na hyehyɛ Wi-Fi credentials sɛ ɛho hia a, ma headless first boot.
+5. Kyerɛw mfonini no, fa kaad no hyɛ mu, fa ahoɔden hyɛ Pi no so.
+6. SSH wɔ: `ssh <username>@<pi-hostname-or-ip>`
 
-> Wi-Fi ntwamutam anaa ethernet nhama a ɛwɔ intanɛt nkitahodi
+## Anamɔn 2: Fa abɔnten so nneɛma akorae no bata ho na fa hyɛ so
+1. Fa USB 3.0 so fa wo abɔnten SSD/HDD no bata ho.
+2. Kyerɛ mfiri no: `lsblk`
+3. Format (sɛ foforo a) na fa mount, s.e. kɔ `/mnt/zcash-data`, a ɛwɔ gyinapɛn bi `mkfs`/`fstab` setup enti ɛyɛ auto-mounts wɔ reboot so.
 
-> Abɔnten SSD / HHD a USB3 mmoa
-
-
-##### hyɛ no nsow: wo server a wobɛkora so no *nyɛ* mmerɛw ɔkwan biara so. Afotuo/nyansahyɛ/nneyɛeɛ pa biara a ɛboro deɛ wɔaka ho asɛm wɔ akwankyerɛ yi mu *yɛsrɛ wo* yɛ PR na boa ma akwankyerɛ yi nyɛ foforɔ sɛdeɛ ɛbɛyɛ yie.
-
-
-
-### Siesie SD Card no
-
-Wɔ saa anammɔn yi mu no wobɛbɔ *bootable* SD card a ɛbɛma wo Raspberry Pi 4 no atumi ayɛ boot. Fa microSD card no hyɛ wo kɔmputa no mu. Ebia ɛho behia sɛ wode adapter a ɛka Canakit anaa adaptor foforo biara a ɛne no sɛ no di dwuma. Fa Raspberry Pi Imager hyɛ wo dwumadi nhyehyɛe no mu. Twe version no ma OS a wowɔ mprempren no.
-     
-     > [Ubuntu a wɔde yɛ adwuma](https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb)
-     
-     > [Mfɛnsere ahorow](https://downloads.raspberrypi.org/imager/imager_latest.exe)
-     
-     > [macOS] na ɛyɛ adwuma](https://downloads.raspberrypi.org/imager/imager_latest.dmg)
-
-Sɛ nhwɛso no wɔ linux mu no wobɛkyerɛw nea edidi so yi bere a woatwe awie no:
-
-`sudo dpkg -i imager_latest_amd64.deb`
-
-Bue Raspberry Pi Mfoninitwafo
-
-`rpi-imager`
-
-<img src="/content-images/197372069-fb9f7417-d320-42cf-ad65-38d630-7d85096e88.webp" alt="rpi imager" width="400" height="400"/>
-
-Paw OS ne Storage Device. Esiane sɛ Raspberry Pi 4's yɛ 64 bit nti, mekamfo kyerɛ sɛ paw "Other general-purpose OS" => Ubuntu => Ubuntu Server 24.04.3 LTS (64 bit). Klik Storage so na paw wo SD Card no. Ansa na wobɛkyerɛw akɔ SD card so no, klik Advanced options so denam gear icon fitaa a ɛbɛn ase nifa so no a wobɛma so.
-
-
-<img src="/content-images/197372159-1169c6f4-f6aa-4f44-9679-fe7aa5-fe6c968644.webp" alt="gear" width="200" height="200"/>
-
-
-
-Ɛha na wubetumi ayɛ foforo:
-
-```markdown
-* Hostname of your Raspberry Pi 4
-* Enable SSH
-* Create a username and pw
-* Enable and configure your wi-fi if needed
-```
- 
-<img src="/content-images/197372149-8b85bfac-e473-4808-87cd-f27f15-269c28f6c3.webp" alt="advanced" width="400" height="400"/>
-
- 
-Sɛ wowie pɛ a, bɔ Twerɛ
-
-
-### Bɔ Ubuntu Server no ase
-
-Sɛ wowɔ monitor ne keyboard foforo a, fa wɔn hyɛ mu mprempren. Hyɛ no nsow: eyinom yɛ nea wobetumi apaw. Fa SD kaad a woayɛ no seesei ara no hyɛ Raspberry Pi 4 no mu na fa External SSD/HHD no nso hyɛ USB3 port no mu. Afei nso fa anyinam ahoɔden nhama no hyɛ mu na dan no.
-
-### Fa wo Raspberry Pi 4 no di nkitaho wɔ akyirikyiri
-
-Seesei ɛsɛ sɛ yɛde yɛn ho hyɛ wo Raspberry Pi 4. Nneɛma a yehia:
-
-```markdown
-* Username and pw (from previous step)
-* IP address so we can use SSH
-* Monitor, and keyboard (optional)
-* If you have a monitor and keyboard connected directly to your pi, the rest of this section can be skipped.
+## Anamɔn 3: Yɛ nhyehyɛe no foforo
+```bash
+sudo apt update && sudo apt full-upgrade -y
+sudo reboot
 ```
 
-Akwan mmienu a wobɛfa so ahunu wo IP address ne wo router admin page, anaasɛ nmap. Sɛ wode router no redi dwuma a, egyina nea wɔyɛ so na mɛtwe saa nsɛm no akɔ google hwehwɛ ntɛmntɛm so. Wɔ nmap ho no, di kan hwɛ hu sɛ wɔde ahyɛ mu:
+## Anamɔn 4: Fa Zebra hyɛ mu na fa di dwuma
+### Ɔkwan A — Docker (wɔkamfo kyerɛ) .
+```bash
+sudo apt install -y docker.io
+sudo usermod -aG docker $USER   # log out/in after this
+docker run -d \
+  --name zebra \
+  -p 8233:8233 \
+  -v /mnt/zcash-data/zebra:/home/zebra/.cache/zebra \
+  zfnd/zebra:latest
+```
+Hwɛ nkɔso a ɛrekɔ so: `docker logs -f zebra`
 
-     `sudo apt-get install nmap`
-     
-Hwehwɛ IP address a ɛwɔ wo kɔmputa a wowɔ mprempren no so na hyɛ afã abiɛsa a edi kan no nsow. Eyi taa yɛ 192.168.1.xxx anaa 192.168.50.xxx. Fa saa nsɛm yi hyɛ nmap mu sɛnea edidi so yi:
-          
-`sudo nmap -sn 192.168.50.0/24`
+### Option B — Wɔadi kan asi binary denam cargo binstall so
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source "$HOME/.cargo/env"
+cargo install cargo-binstall
+cargo binstall zebrad
+zebrad start
+```
+Eyi de nea wɔadi kan asi no hyɛ mu `aarch64` binary — ɛho nhia sɛ wɔboaboa ano.
 
-or
+**Wɔ sync bere so:** hwɛ kwan sɛ eyi begye bere kakra — akontaabu a wɔtaa fa ka ho asɛm a edi kan-sync (bɛyɛ nnɔnhwerew 2) fi reference hardware a ahoɔden wom sen Pi 4 CPU, enti ɛda adi sɛ wo sync bere ankasa wɔ Pi 4 hardware ankasa so no bɛkɔ so akyɛ.
 
-`sudo nmap -sn 192.168.1.0/24`
+## Anamɔn 5: Fa Zallet hyɛ mu
+Zallet mprempren wɔ **alpha** — hwɛ kwan sɛ ɛbɛbubu nsakrae, na mfa no sɛ production-ready custody ma sika a ɛho hia de besi nnɛ.
 
-Wei bɛkyerɛ mfiri a ɛka wo fie ntwamutam nyinaa, a ɛsɛ sɛ ɛda wo Raspberry Pi 4 IP address / MAC address adi. Sɛ yɛde wo username, pw, ne IP address di dwuma a, afei yebetumi de SSH akɔ mu
+### Ɔkwan A — Docker (wɔkamfo kyerɛ) .
+```bash
+docker pull zodlinc/zallet:latest
+```
+Saa mfonini yi boa ARM64 (ɛnam Nix-based build so) na ɛtu mmirika firi minimal, shell-less filesystem — pass nhyehyeɛ ne data akwan pefee fa `--datadir` ne volume mounts (hwɛ Anammɔn 6).
 
-```markdown
-* ssh <username>@<ip address of your pi> note: you must plugin *your* username and *your* IP address, and *your* pw when prompted.
-* For example: `ssh ubuntu@192.168.1.25 where the username is *ubuntu* and IP address is 192.168.1.25.
+### Option B — Si fi fibea
+```bash
+# Requires Rust 1.85+ (see Step 4B for rustup install)
+sudo apt install -y clang libclang-dev protobuf-compiler
+cargo install --locked --git https://github.com/zcash/wallet.git
+```
+Zallet crates no nnya ntintimii wɔ crates.io wɔ alpha phase no mu, enti instɔlehyɛn a efi git repo no mu tẽẽ ne ɔkwan a ɛnyɛ Docker a wɔboa.
+
+## Anamɔn 6: Hyehyɛ Zallet
+Yɛ `zallet.toml` wɔ datadir a woapaw no mu (e.g. `/mnt/zcash-data/zallet`):
+```toml
+[builder.limits]
+[consensus]
+network = "main"
+[database]
+[external]
+[features]
+as_of_version = "0.0.0"
+[features.deprecated]
+[features.experimental]
+[indexer]
+validator_address = "127.0.0.1:8232"   # Zebra's JSON-RPC endpoint
+[keystore]
+[note_management]
+[rpc]
+bind = ["127.0.0.1:SOMEPORT"]
+```
+Dane mu `validator_address` sɛ Zebra tu mmirika wɔ host/port soronko so a, na hyehyɛ `validator_cookie_auth`/`validator_user`/`validator_password` aseɛ `[indexer]` sɛnea ɛbɛyɛ a ɛne wo Zebra RPC auth nhyehyɛe no bɛyɛ pɛ.
+
+**Migrating from zcashd?** Sɛ woda so ara wɔ dedaw bi a `zcash.conf`:
+```bash
+zallet migrate-zcash-conf --datadir /path/to/old/zcashd/datadir -o /mnt/zcash-data/zallet/zallet.toml
 ```
 
+## Anamɔn 7: Siesie sika kotoku mu encryption
+Zallet de encrypts nneɛma atitiriw nyinaa a wɔde di dwuma `age`/`rage`:
+```bash
+cargo install rage
+rage -p -o /mnt/zcash-data/zallet/encryption-identity.txt <(rage-keygen)
+```
+Wei tintim ɔmanfoɔ safoa ne passphrase a wɔayɛ no ankasa — **kora passphrase no so; worentumi nsan nnya identity file no a enni hɔ.**
 
-  <img src="/content-images/197372846-e1279388-eaaa-4fbb-8d5d-f9928c-caf89ea305.webp" alt="sshLogin" width="400" height="400"/>
-       
-
-Sɛ wopɛ sɛ wuhu Raspberry Pi version bɛn na wode redi dwuma a, sɔ ahyɛde yi hwɛ:
-
-     `cat /sys/firmware/devicetree/base/model ; echo`
-
-  <img src="/content-images/197689888-367c8eb3-2667-4c8c-85b3-44d46a-ef72475028.webp" alt="which" width="700" height="400"/>
-
-         
-
-### *zcashd* a wɔde ahyɛ mu.
-
-Akwan mmienu a wobɛfa so ahyɛ zcashd ne sɛ wobɛtwe binary a wɔadi kan aboaboa ano anaasɛ wobɛboaboa zcashd ano afiri fibea. Me *highly* kamfo kyerɛ sɛ wobɛboaboa ano afi fibea. Sɛ wopɛ sɛ woboaboa wo ho ano a, wɔkamfo kyerɛ kɛse sɛ wobɛboaboa ano wɔ cross-compile. Cross-compile ne sɛ wobɛkyekyere binary a ɛbɛkɔ so wɔ platform foforo so wɔ platform biako so. Ade biako nti a ɛte saa ne sɛ Raspberry Pi 4 ahorow no nni ahoɔden pii na enti ɛnyɛ ntɛmntɛm koraa! Fa wo kɔmputa titiriw no di dwuma na boa wɔ eyi mu. Wubetumi agye nea wɔayi no adi nnansa yi ara [ha](https://github.com/zcash/zcash/releases). Sɛ yɛbɛ cross compile a ɛhia sɛ yɛhwɛ sɛ yɛwɔ packages a ɛhia. Fa nea edidi so yi hyɛ mu:
+## Anamɔn 8: Fi ase na fi ase sika kotoku no
+```bash
+zallet -d /mnt/zcash-data/zallet init-wallet-encryption
+zallet -d /mnt/zcash-data/zallet generate-mnemonic
+```
+**Mmirikatu nkutoo `generate-mnemonic` pɛnkoro** gye sɛ wohyɛ da pɛ sɛ wonya sika a wɔsɛe no ntini pii a ɛde ne ho.
 
 ```bash
-sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python3 python3-zmq zlib1g-dev curl bsdmainutils automake libtinfo5
-sudo apt-get install gcc-aarch64-linux-gnu
+zallet -d /mnt/zcash-data/zallet start
 ```
 
-Afei sesa directory kɔ zcashd a wɔatwe no foforo no mu na tu mmirika:
+## Step 9: Migrating an existing zcashd wallet (optional)
+```bash
+zallet -d /mnt/zcash-data/zallet migrate-zcashd-wallet --zcashd-datadir /path/to/old/zcashd/datadir
+```
+Eyi hwehwɛ sɛ... `db_dump` utility (wɔasi atia Berkeley DB 6.2.23) — firi system install anaa local source-build a ɛwɔ zcashd mu. Sɛ wo nni zcashd a wɔde ahyɛ mu bio a, eyi ne tu a wotu kɔ baabi foforo a ennya nyɛɛ ne ho koraa wɔ Zallet mu de besi nnɛ.
 
-`HOST=aarch64-linux-gnu ./zcutil/build.sh`
-          
+## Anamɔn 10: Hwɛ sɛ biribiara yɛ adwuma
+```bash
+zallet -d /mnt/zcash-data/zallet help
+```
+Si so dua sɛ sika kotoku no bua, na sɛ Zebra wie syncing a, sɛ balances/addresses ne akwanhwɛ hyia.
 
-### Nsiesiei *zcashd* .
+## Ɔhaw ahorow a wodi ho dwuma
+- **Zebra build/runtime nsɛm wɔ ARM:** sɛ wosi fi fibea a, instɔl Rust ARM toolchain — sɛ wode x86_64 build tools di dwuma wɔ ARM hardware so a, ɛbɛkɔ so brɛoo a ɛda adi, sɛnea Zebra ankasa nkrataa kyerɛ.
+- **Storage filling up:** Zebra ~300 GB nan ase kɔ so nyin — nhyehyɛe headroom.
+- **Docker kwan mfomso:** fi mu/san kɔ mu bere a wode wo dwumadie no aka ho awie no `docker` kuw, anaa fa di dwuma `sudo` wɔ saa bere yi mu.
+- **Zallet container no nni shell:** ɔpanyin no `zodlinc/zallet` mfonini no fi-mfiase denam nhyehyɛe so — bere nyinaa twam `--datadir` pefee na fa wo data directory no mount sɛ volume.
 
-<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
-  <iframe
-    className="w-full h-full"
-    src="https://www.youtube.com/embed/9t2LX3HFldw"
-    title="Zcashd Wallet Tool - Generate & Import Private Key"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    ma kwan maFullScreen no
-    loading="lazy"
-  />
-</div>
+## Hardware nsɛm vs. dedaw no zcashd akwankyerɛ
+Zebra ne Zallet taa yɛ hare wɔ CPU so bere a wɔreyɛ nhyehyɛe sen sɛnea na zcashd a wɔboaboa ano no te, efisɛ woreyɛ binaries/containers a wɔadi kan asi. 4 GB RAM yɛ mfiase a ntease wom; monitor ne `htop` na susuw 8 GB Pi 4 variant no ho sɛ wuhu heavy swapping a.
+
+## Nneɛma foforo a wɔde bɛyɛ adwuma
+- [Zebra Book](https://zebra.zfnd.org) — Zebra nkrataa a ɛyɛ aban de
+- [Zallet Nhoma no](https://zcash.github.io/wallet) — Zallet ho nkrataa a ɛyɛ aban de
+- [zcashd Mmoa Awieeɛ ho amanneɛbɔ](https://z.cash/support/zcashd-deprecation)
 
 ---
 
-Seesei ɛsɛ sɛ yɛde zcashd binary fael no nyinaa kɔ wo Raspberry Pi 4. Sɛnea ɛte wɔ Zcashd v5.3 no fael a wohia no bi ne:
-
-```markdown
-zcashd
-zcash-cli
-zcash-tx
-zcash-gtest
-zcash-inspect
-zcashd-wallet-tool
-fetch-params.sh
-```
-
-Wohu saa fael yi wɔ /src directory a ɛwɔ wo latest release download beae no mu sɛ w’ankasa woaboaboa ano a. Sɛ ɛnte saa a, fael ahorow a wɔadi kan aboaboa ano no wɔ baabi a wotwee no. Akwan mmienu a wobɛfa so anya transfers no ne sɛ wode SFTP bedi dwuma, anaasɛ wode wo External drive bedi dwuma.
-
-#### SFTP na ɛyɛ adwuma
-
-```bash
-sftp username@<ip of RaspberryPi4>
-put zcash*
-```
-   
-#### Abɔnten so Mfonini
-     
-Kɔpi fael ahorow no kɔ External no so kɛkɛ ansa na wode ahyɛ Raspberry Pi 4. Sɛ wowɔ node a edi mũ dedaw a wɔayɛ no sync na wopɛ sɛ wokora bere so a, wubetumi nso ayɛ blocks ne chainstate data no kɔpi.
-   
-` cd ~/.zcash/`
-     
-Tu mmirika kɛkɛ:
-
-```bash
-tar -zcvf blocks.tar.gz /blocks
-tar -zcvf chainstate.tar.gz /chainstate
-```
-     
-Kɔpi blocks ne chainstate .gz fael ahorow no kɔ wo External SSD/HHD mu. Afei fa External SSD/HDD no hyɛ Media folda no mu sɛnea ɛbɛyɛ a wubetumi ahu:
-
-```markdown
-lsblk will display all drives connected. Most will be of the format sda
-id will show your user and group id's.
-```
-          
-<img src="/content-images/197372643-abef88fd-9177-4bf9-abda-3c2211-e354e8ff47.webp" alt="lsblk" width="400" height="400"/>
-
-
-          
-          `sudo mount -o umask=0077,gid=<groupid>,uid=<userid> /dev/sda1 /media/portableHD/`
-          
-Hwɛ nea ɔwɔ folda/fael ahorow no ne tumi krataa no nso.
-
-```bash
-sudo chown -R <username>: portableHD
-sudo chmod -R 600 portableHD/
-```
-     
-Sɛ wo kɔpi blocks ne chainstate .gz fael ahorow no fi wo kɔmputa foforo no so a untar eyinom mprempren. Hwɛ sɛ wɔwɔ .zcash folda a ɛwɔ wo External drive no so.
-
-```bash
-tar - xvzf blocks.tar.gz
-tar - xvzf chainstate.tar.gz
-```
-
-
-Nsiesiei /media/portableHD/.zcash/zcash.conf
-
-<img src="/content-images/197373699-18cc2c9f-b47d-44e9-9e6b-4c5ccc-3dac42f3c0.webp" alt="zconf" width="700" height="400"/>
-
-
- 
-Hyɛ sɛnea yɛde datadir no kɔɔ External SSD/HDD a ɛwɔ baabi pii a ɛwɔ hɔ no nsow. Esiane sɛ wɔatu default .zcash folda beae no nti, ɛsɛ sɛ yɛka eyi kyerɛ *zcashd* denam sɛnkyerɛnne kwan so nkitahodi ahorow a yɛde bedi dwuma so:
-
-```markdown
-cp -rp ~/.zcash/* /new_dir         // Make copy of datadir or supply with an external HD
-rm -rf ~/.zcash                    // Remove default folder
-ln -s /media/portableHD/ ~/.zcash  // Symbolic link new data location to the default so zcashd is happy
-```
-   
-
-Run fetch-params.sh script na twe data a ɛho hia ma zcashd
-   
-    `./fetch-params.sh`
-
-
-Fi ase yɛ 'screen' foforo [ program wɔ linux mu ]. Bue zcashd ne -datadir nhyehyɛe:
-
-```bash
-screen -S zcashScreen`     
-./zcashd -datadir=/media/portableHD/.zcash/
-```
-     
-Yi screen no fi mu:
-
-`Ctrl+a , Ctrl+d`
-
-
-Yɛ alias sɛnea ɛbɛyɛ a ɛnsɛ sɛ wokyerɛw saa data beae ahyɛde ahorow a ɛboro so yi nyinaa
-
-     `alias zcash-cli="./zcash-cli -datadir=/media/portableHD/.zcash/"`
-
-
-Wɔasiesie ne ho sɛ wɔde bedi dwuma!
-
-    `zcash-cli getblockchaininfo`
-
-  <img src="/content-images/197373098-672aa228-d180-47ea-8a7c-c58dc3-bf85ac08fb.webp" alt="getblockchaininfo" width="400" height="400"/>
-
-
-
-### Sɛ wode *zcashd* redi dwuma.
-
-<iframe class="w-full h-auto md:h-96" src="https://www.youtube.com/embed/KNhd1KC0Bqk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
-Wobɛyɛ dɛn ahwɛ sɛnea wo node no te?
-
-     `tail -n 500 <path to>/.zcash/debug.log`
-
-  <img src="/content-images/197684416-9a083de4-4a62-4fe8-9cab-798781-c1755f3f91.webp" alt="status" width="700" height="400"/>
-
-
-  
-     
-Sɛnea ɛbɛyɛ a wubenya mprempren sorokɔ afi wo log no mu
-
-     `tail -n 10 <path to>/.zcash/debug.log | grep -o  'height=[^b]*'`
-
-  <img src="/content-images/199630447-6a6cd491-0cb3-47f8-95f0-45f6b6-dc7b671d5a.webp" alt="logHeight" width="500" height="400"/>
-
-
-     
-     `zcash-cli getinfo`
-  
-<img src="/content-images/199646508-132da0eb-899e-49a6-8b31-e9011e-839cbe5c04.webp" alt="getInfo" width="400" height="400"/>
-
-     
-     
-Wobɛyɛ dɛn de memo amena? Sɛnea yehu [ha](https://zcash.readthedocs.io/en/latest/rtd_pages/memos.html), twe *ascii2hex* ne *hex2ascii* na yɛ no executable 
-
-`chmod +x ascii2hex hex2ascii`
-          
-Yɛ memo na dane no kɔ hex mu. Wubetumi adan akɔ ascii so akɔ asɔ ahwɛ.
-          
-<img src="/content-images/199646812-782142d6-8846-443a-8dd9-4f332e-a552c26229.webp" alt="asciiGOOD" width="400" height="400"/>
-
-
-  
-Yɛ z2z asɛm (Sapling) denam wo memo no hex version a efi soro no so
-
-`zcash-cli z_sendmany "ztestsapling1kg3u0y7szv6509732at34alct46cyn0g26kppgf2a7h5tpqxldtwm7cmhf8rqmhgt" "[{\"address\": \"ztestsapling2kg3u0y7szv6509732at34alct46cyn0g26kppgf2a7h5tpqxldtwm7cmhf8rqmhgtmpakcz5mdv\",\"amount\": 0.0001, \"memo\":\"5A656348756221\"}]"`
-
-Wobɛyɛ dɛn asan ahyɛ wo zcashScreen ase bere a woayi afi mu awie no?
-
-`screen -r zcashScreen`
-     
-Wobɛyɛ dɛn agyae *zcashd* ?
-
-`zcash-cli stop`
-     
-Wobɛyɛ dɛn abɔ UA?
-
-`zcash-cli z_getnewaccount`
-     
-  <img src="/content-images/202352436-04c17be2-e914-4b9b-95d1-00cf6f-2d1a6ea572.webp" alt="newAccount" width="400" height="400"/>
-
-    
-Afei yɛ UA receiver sɛdeɛ *w'ahiadeɛ* teɛ. Eyi ka Orchard nkutoo, Orchard + Sapling, ne awiei koraa no Orchard + Sapling + Transparent ho. Hyɛ no nsow sɛ wubetumi ahu nsonsonoe a ɛda receivers ntam denam bere tenten a wɔde di dwuma so.
-     
-<img src="/content-images/202354319-2da6be33-ca95-4b6b-b29c-14805d-f0c8acd281.webp" alt="chars" width="200" height="100"/>
-
-
-`zcash-cli z_getaddressforaccount 0 '["orchard"]'`
-     
-<img src="/content-images/202353642-c36b5fea-de8a-41f6-a27c-d9ff42-5231dccf56.webp" alt="uaOrchard" width="400" height="400"/>
-
-<img src="/content-images/202355586-eaeb36e7-b000-4b99-8192-81e500-de15c07940.webp" alt="OrchQR" width="400" height="400"/>
-
-`zcash-cli z_getaddressforaccount 0 '["orchard","sapling"]'`
-     
-<img src="/content-images/202353732-740828e3-77b8-4684-8cf8-fb1425-b1591ddd68.webp" alt="uaOrchardSapling" width="400" height="400"/>
-<img src="/content-images/202355596-c7b62854-9a9e-4627-ab5d-510913-e280eee165.webp" alt="OrchSapQR" width="300" height="200"/>
-
-
-`zcash-cli z_getaddressforaccount 0 '["orchard","sapling","p2pkh"]'`
-     
-<img src="/content-images/202353793-3331c593-5286-4b84-93a7-adc492-c7730e3b3e.webp" alt="uaFull" width="400" height="400"/>
-<img src="/content-images/202355607-75de0750-2a57-4e10-883b-e0a626-2600e9b182.webp" alt="FullQR" width="400" height="400"/>
-
-
-Wobɛyɛ dɛn de UA asoma ZEC?
-
-`zcash-cli z_sendmany "fromOaddress" "[{\"address\": \"dOrchardAddress\",\"amount\": 0.0001, \"memo\":\"yourMemoinHex\"}]" <minconf> <fee> <privacyPolicy>`
-
-<img src="/content-images/202365280-c184f622-eb7e-4095-bc38-907951-97c10ec6c2.webp" alt="UAsuccess" width="400" height="400"/>
-<img src="/content-images/202366758-40650460-aaeb-4e03-891f-b4bd08-31378cf6ff.webp" alt="pic" width="400" height="400"/>
-
-    
-##### Ɛsɛ sɛ yɛhyɛ no nsow abien no nyinaa, *fi* NE *destination* address ahorow betumi ayɛ transparent,sapling, anaa orchard address nanso ebia ɛho behia sɛ wosakra privacyPolicy frankaa no sɛnea ɛbɛyɛ a nsakrae no bɛyɛ adwuma. (Ebi combos wont adwuma sɛ privacyPolicy ntease nnim!)
-
-
-Ɛhe na metumi anya info pii wɔ UA's ho?
-
-> Hwɛ [Hanh de no](https://medium.com/@hanh425/transaction-privacy-78f80f9f175e) post wɔ transaction kokoamsɛm so. Afei nso [eyi](https://forum.zcashcommunity.com/t/unified-addresses-full-node-rpc-api/41980/2) post fi zcash forum no so.
-
-> [Wei](https://github.com/zcash/zips/issues/470)
-
-     
-### Nneɛma a wonya fi mu
-
-<div>
-
-- https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview
-- https://github.com/zcash/zcash
-- https://zcash.readthedocs.io/en/latest/rtd_pages/Debian-Ubuntu-build.html
-- https://zcash.readthedocs.io/en/latest/rtd_pages/memos.html
-- https://en.wikipedia.org/wiki/Secure_Shell
-- https://itsfoss.com/how-to-find-what-devices-are-connected-to-network-in-ubuntu/
-- https://youtu.be/YS5Zh7KExvE
-- https://twitter.com/BostonZcash/status/1531798627512877059
-- https://forum.zcashcommunity.com/t/unified-addresses-full-node-rpc-api/41980/2
-- https://medium.com/@hanh425/transaction-privacy-78f80f9f175e
-- https://znewsletter.netlify.app/
-- https://github.com/zcash/zips/issues/470
-- https://zips.z.cash/protocol/nu5.pdf#unifiedpaymentaddrencoding
-
-</div>
+*Sɛ wuhu sɛ akwankyerɛ yi ho wɔ mfaso a, susuw ho sɛ wobɛboa ZecHub: [insert current ZecHub donation shielded address from zechub.wiki/donation — wɔmfa nka ho wɔ ha efisɛ mantumi anhwɛ sɛ ɛda so ara yɛ mprempren].*

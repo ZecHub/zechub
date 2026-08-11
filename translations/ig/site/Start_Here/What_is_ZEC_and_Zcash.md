@@ -58,7 +58,7 @@ Zcash solves Bitcoin's biggest flaw; private ownership and transfer of data. In 
 
 ## Peeji ndị metụtara ya
 
-- [Ntuziaka Onye Ọrụ Ọhụrụ]](/start-here/new-user-guide)  Nzọụkwụ-site-nzọụkwụ onboarding maka ọhụrụ ZEC ịgụ
+- [Ntuziaka Onye Ọrụ Ọhụrụ](/start-here/new-user-guide)  Nzọụkwụ-site-nzọụkwụ onboarding maka ọhụrụ ZEC ịgụ
 - [Akpa ego](/using-zcash/wallets)  Họrọ obere akpa echedoro iji jide ZEC gị
 - [Ịzụta ZEC](/using-zcash/buying-zec)  Ebee na otu esi enweta ZEC
 - [Egwú Mmiri Ndị E Chebere](/using-zcash/shielded-pools)  Otu Zcash pools si eme ka azụmahịa dị na nzuzo

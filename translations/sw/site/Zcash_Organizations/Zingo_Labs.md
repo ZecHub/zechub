@@ -1,6 +1,6 @@
 #  <img src="/content-images/e38b13a9-d410-426a-a1e6-2dde105d56c4-6b8154e5ae.webp" alt="Alt Text" width="50"/> ZingoLabs
 
-[Tovuti rasmi]](https://zingolabs.org/) - [Github](https://github.com/zingolabs) - [X/Twitter](https://x.com/ZingoLabs) - [Instagram](https://www.instagram.com/zingolabesp/)
+[Tovuti rasmi](https://zingolabs.org/) - [Github](https://github.com/zingolabs) - [X/Twitter](https://x.com/ZingoLabs) - [Instagram](https://www.instagram.com/zingolabesp/)
 
 ZingoLabs ni timu ya maono kujitolea kuboresha uzoefu wa binadamu. Tunaamini kuwa teknolojia inapaswa kufaidi ubinadamu na kwamba sisi kustawi kupitia mwingiliano wa makubaliano. Sisi ni kutambua mifumo ambayo kufanya hii inawezekana.
 

@@ -91,7 +91,7 @@ Zcash tun ṣe atilẹyin awọn adirẹsi inu ** fun awọn iṣẹ apamọwọ
 
 ## Àwọn ohun àmúṣọrọ̀
 
-- [ZIP-32: Awọn apo-ifowopamọ Deterministic Hierarchical ti o ni aabo]](https://zips.z.cash/zip-0032)  
+- [ZIP-32: Awọn apo-ifowopamọ Deterministic Hierarchical ti o ni aabo](https://zips.z.cash/zip-0032)  
 - [Awọn alaye ti Ilana Zcash (NU5)](https://zips.z.cash/protocol/protocol.pdf)  
 - [Ìwòye àpapọ̀ àwọn pọ́ọ̀sì tí a dáàbò bò nípasẹ̀ àfojúsùn](https://zechub.wiki)
 

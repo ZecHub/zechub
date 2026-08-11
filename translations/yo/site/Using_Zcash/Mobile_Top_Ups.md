@@ -5,7 +5,7 @@ Nínú ìwé yìí, ẹ̀yin yóò kọ́ bí ẹ ṣe lè ra àkókò tẹlifí
 ## Ṣe àwọn nǹkan yìí:
 
 ### 1. Ṣẹda àkọọlẹ kan
-Lọ sí [Coinsbee.com]](https://www.coinsbee.com/en/shop/mobile-top-ups/) kí o sì ṣe àkọọ́lẹ̀.
+Lọ sí [Coinsbee.com](https://www.coinsbee.com/en/shop/mobile-top-ups/) kí o sì ṣe àkọọ́lẹ̀.
 
 ### 2. Yan orilẹ-ede rẹ ati nẹtiwọọki rẹ
 Tẹ lọ si igun apa osi oke ki o yan orilẹ-ede rẹ; lẹhinna yan kirẹditi foonu alagbeka ati yan nẹtiwọọki ti o fẹ lati fi sii (apẹrẹ: MTN).

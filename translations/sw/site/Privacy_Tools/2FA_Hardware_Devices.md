@@ -58,7 +58,7 @@ Plastiki casing anahisi imara na kiasi kudumu, lakini utasikia wanataka kuepuka 
 
 **CryptoTrust tu Key**
 
-[CryptoTrust tu Key]](/content-images/13be6ecc-227e-498c-8a36-6d52c023cd78-06e3e924dc.webp)
+[CryptoTrust tu Key](/content-images/13be6ecc-227e-498c-8a36-6d52c023cd78-06e3e924dc.webp)
 
 Kama jina lake linavyosema, OnlyKey ina baadhi ya vipengele nifty wapinzani wake kukosa. Shukrani kwa bodi keyboard ambayo inaweza bypass keyloggers kwamba kupata njia yao kwenye kompyuta, inaweza kuweka akaunti online salama kama kompyuta au tovuti ni compromised. Inasaidia mbinu nyingi za 2FA, ikiwa ni pamoja na FIDO 2 U2F, Yubico OTP, na TOTP. 
 While it is not the best password manager for mainstream purposes, OnlyKey can store 24 OTP accounts, 24 passwords, and 24 usernames/URLs, on a single key. This feature is pretty handy if you're not keen on memorizing multiple passwords and want the key to handle it for you.  

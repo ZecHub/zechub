@@ -110,4 +110,4 @@
 
 ## الخطوة التالية
 
-- [إعداد خصوصية المستقل](/use-cases/freelancer-privacy-setup)
+- [إعداد خصوصية المستقل](/zcash-use-cases/freelance-privacy-setup)

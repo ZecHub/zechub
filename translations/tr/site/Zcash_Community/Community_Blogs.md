@@ -8,7 +8,10 @@ Topluluk üyeleri, Zcash, gizlilik, kripto para ve ilgili konuları kapsayan bir
 
 | Blog / Yazar               | Açıklama                                                 | Bağlantı |
 |----------------------------|----------------------------------------------------------|------|
-| James Katz                 | Zcash ve gizlilik üzerine kişisel yazılar ve düşünceler | [Ziyaret et ->](https://free2z.cash/James_Katz/) |
+| How Zcash works            | Zcash'in çalışan bir modelini oluşturun                  | [Ziyaret et ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
+| Max Desalle                | Zcash'te Ustalaşmak                                      | [Ziyaret et ->](https://maxdesalle.com/mastering-zcash/) |
+| Mike Rosulek               | Kriptografinin Neşesi                                    | [Ziyaret et ->](https://joyofcryptography.com/) |
+| James Katz                 | Zcash ve gizlilik üzerine kişisel yazılar ve düşünceler  | [Ziyaret et ->](https://free2z.cash/James_Katz/) |
 | Thumbs' Update             | Düzenli ekosistem güncellemeleri ve içgörüler            | [Ziyaret et ->](https://thumbsup.substack.com) |
 | roomatemusing              | Düşünceler ve topluluk içeriği                           | [Ziyaret et ->](https://free2z.cash/roommatemusing) |
 | NerdBank Blog              | Zcash geliştirmesi ve araçlarına odaklanan teknik blog   | [Ziyaret et ->](https://blog.nerdbank.net/) |

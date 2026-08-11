@@ -21,7 +21,7 @@ Nchịkọta sara mbara nke otu Blockchains & Zcash si arụ ọrụ:
 
 [Light Client Protocol](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html)
 
-[Android Mobile SDK]](https://github.com/zcash/zcash-android-wallet-sdk) / [iOS Mobile SDK](https://github.com/zcash/ZcashLightClientKit)
+[Android Mobile SDK](https://github.com/zcash/zcash-android-wallet-sdk) / [iOS Mobile SDK](https://github.com/zcash/ZcashLightClientKit)
 
 Ịzụlite nghọta nke otu esi enyocha & jigide ndị otu:
 

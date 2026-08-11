@@ -4,7 +4,7 @@
 
 # <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Alt Text" width="50"/>   비선점형 거래소
 
-[Zcash 비선점형 거래소](/site/Using_Zcash/DEX_List)
+[Zcash 비수탁형 거래소](/dex)
 
 암호화폐 거래의 끊임없는 진화 속에서, 비선점형 거래소(Decentralized Exchanges 또는 DEXs)가 등장하면서 사용자가 디지털 자산과 상호작용하는 방식이 재정의되고 있다. 이러한 플랫폼은 중개자나 제3자의 필요성을 없애고 사용자에게 통제권을 돌려주는 혁신적인 거래 방식을 제공한다.
 

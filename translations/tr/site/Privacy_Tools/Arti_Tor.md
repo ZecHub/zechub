@@ -1,7 +1,7 @@
-![Tor logo](https://gitlab.torproject.org/uploads/-/system/appearance/header_logo/1/purple.svg)
+![Tor logosu](/content-images/_unavailable.svg)
 
 # **Arti: Rust ile Yeni Nesil Tor İstemcisi**
-![Atri Logo](https://gitlab.torproject.org/uploads/-/system/project/avatar/647/sliced-onions.png)
+![Atri Logo](/content-images/_unavailable.svg)
 
 **Arti**, Tor Project'in **Rust** programlama dilini kullanarak yeni nesil bir **Tor** istemcisi oluşturma girişimidir. Arti; modüler, gömülebilir ve üretime hazır olacak şekilde tasarlanmıştır ve **Tor** anonimlik protokollerinin daha güvenli ve verimli bir uygulamasını sunar. **Arti sürüm 1.4.0** ile birlikte birkaç önemli güncelleme sunulmuştur:
 

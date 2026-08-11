@@ -1,402 +1,158 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/guides/Raspberry_Pi_4_Full_Node.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
-</a>
+# Gbaa Full Node na Raspberry Pi 4 (Zebra + Zallet)
 
+*Migrated from the original zcashd-based guide. zcashd reached its automatic End-of-Support halt on July 18, 2026, so this guide now uses **Zebra** (the current full node, maintained by the Zcash Foundation) and **Zallet** (the wallet built to replace zcashd's built-in wallet).*
 
-# Raspberry Pi 4: a *zcashd* Ntuziaka zuru oke 
+## Ihe Ị Ga-amụta
+- Otu esi eme flash na nhazi Ubuntu Server 22.04+ (64-bit) na Raspberry Pi 4 maka iji isi mee ihe
+- Esi wụnye ma na-agba ọsọ Zebra, site na Docker ma ọ bụ ihe dị iche iche e mepụtara tupu oge eruo
+- Otu esi etinye, hazie ma melite Zallet, gụnyere nhazi nke nchekwa ego.
+- Otu esi eme ka ịkwaga zcashd config / wallet dị na Zallet
 
+## Ihe gbanwere site na ntuziaka ochie ahụ.
+Ntuziaka gara aga nke ndu a na-agafe site n'ịchịkọta ** zcashd** natively on Pi 4  otu nchịkọta ihe ntinye ederede nke were 3 × 4 awa n'ihi na Pi 4 enweghị ebe nchekwa zuru ezu maka usoro yiri ya (`-j$(nproc)`) build. Zebra and Zallet both now ship **official pre-built ARM64 binaries and Docker images**, so in most cases you no longer need to compile anything from source on the Pi itself.
 
-Ebumnuche nke ntuziaka a bụ iji nyere aka kụziere ndị Zcashers ndị nwere mmasị na-agba ọsọ zuru oke na Raspberry Pi 4 dị ala.
+## Ihe ndị a chọrọ iji mee ya bụ:
+- Raspberry Pi 4 (Rịọrọ RAM nke GB ma ọ bụ karịa)
+- Kaadị microSD (32 GB +) maka OS
+- Mpụga SSD / HDD na nkwado USB 3.0  ** Zebra chọrọ ihe dịka 300 GB maka data Mainnet echekwara**, nke na-etolite oge niile, yabụ anwala ịgba ọsọ a site na kaadị microSD naanị gị.
+- Kọmputa nwere oghere kaadị microSD (iji gosipụta onyinyo OS)
+- Njikọ Ethernet wired ma ọ bụ Wi-Fi .
+- Ntọala nkasi obi na akara iwu n'elu SSH
 
-<img src="/content-images/197372541-dcd886ab-a3d0-4614-b490-0294dd-d45b1cd4ba.webp" alt="zcashd" width="700" height="700"/>
+## Nzọụkwụ 1: Flash Ubuntu Server 22.04+ (64-bit)
+Zebra na Zallet's pre-built binaries and Docker images chọrọ **glibc 2.34+**, nke pụtara **Ubuntu Server 22.04 ma ọ bụ ọhụrụ (64-bit/aarch64) **.
 
+1. Wụnye Raspberry Pi Imager na kọmputa gị.
+2. Tinye kaadị microSD gị.
+3. Họrọ **Other general-purpose OS → Ubuntu → Ubuntu Server 22.04 LTS (64-bit)** (ma ọ bụ ọhụrụ).
+4. Jiri nhọrọ dị elu nke Imager (akara ngosi) iji hazie aha nnabata, mee ka SSH rụọ ọrụ ma tọọ nzere Wi-Fi ọ bụrụ na achọrọ ya, maka isi mmalite mbụ.
+5. Dee ihe oyiyi ahụ, tinye kaadị ahụ ma gbanye Pi.
+6. SSH na: `ssh <username>@<pi-hostname-or-ip>`
 
-## Vidio
+## Nzọụkwụ 2: Tinye ma tinye nchekwa mpụga.
+1. Jikọọ SSD / HDD gị dị na mpụga site na USB 3.0.
+2. Chọpụta ngwaọrụ: `lsblk`
+3. Ọkpụkpọ (ma ọ bụrụ na ọhụrụ) ma tinye ya, dịka ọmụmaatụ iji: `/mnt/zcash-data`, na a ọkọlọtọ `mkfs`/`fstab` setup ka ọ na-akpaghị aka arụnyere mgbe a maliteghachiri.
 
-<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
-  <iframe
-    className="w-full h-full"
-    src="https://www.youtube.com/embed/SGYrzhs1l2k"
-    title="How to compile Zcash Node on Raspberry Pi!"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
-    loading="lazy"
-  />
-</div>
-
-## Nkwado
-
-Ọ bụrụ na ị chọpụta na ntuziaka a bara uru, tụlee inye onyinye ZEC iji kwado ZecHub:
-
-`u1rl2zw85dmjc8m4dmqvtstcyvdjn23n0ad53u5533c97affg9jq208du0vf787vfx4vkd6cd0ma4pxkkuc6xe6ue4dlgjvn9dhzacgk9peejwxdn0ksw3v3yf0dy47znruqftfqgf6xpuelle29g2qxquudxsnnen3dvdx8az6w3tggalc4pla3n4jcs8vf4h29ach3zd8enxulush89`
-
-
-## Ihe ị ga-amụta
-
-```markdown
-* How to create a bootable Ubuntu Server microSD card
-* How to setup internet connectivity on the Raspberry Pi 4
-* How to access your Raspberry Pi 4 remotely
-* How to install zcashd
-* How to setup zcashd
-* How to use zcashd
+## Nzọụkwụ 3: Melite usoro ahụ
+```bash
+sudo apt update && sudo apt full-upgrade -y
+sudo reboot
 ```
 
-
-## Ihe ndị a chọrọ
-
-> [8GB Raspberry Pi 4 Canakit](https://www.canakit.com/raspberry-pi-4-starter-max-kit.html) ma ọ bụ ihe yiri ya
-
-> Kọmputa nwere kaadị microSD
-
-> Netwọk Wi-Fi ma ọ bụ eriri ethernet nwere njikọ ịntanetị
-
-> Mpụga SSD / HHD na nkwado USB3
-
-
-##### edeturu: idebe ihe nkesa gị * abụghị * dị mfe n'ụzọ ọ bụla. Atụmatụ ọ bụla / ndụmọdụ / omume kachasị mma karịa ihe a na-ekwu maka ya na ntuziaka a * biko * mepụta PR ma nyere aka mee ka nduzi a dị ọhụrụ dị ka o kwere mee.
-
-
-
-### Kwadebe Kaadị SD
-
-Na nzọụkwụ a, ị ga-emepụta * bootable * SD kaadị nke ga-ekwe ka gị Raspberry Pi 4 buut. Tinye microSD kaadị n'ime kọmputa gị. Ị nwere ike mkpa iji nkwụnye na-abịa na Canakit ma ọ bụ ihe ọ bụla ọzọ kwekọrọ ekwekọ nkwụnye. Wụnye RaspBerry Pi Imager maka sistemụ arụmọrụ gị. Budata nsụgharị maka OS ị nwere ugbu a.
-     
-     > [Ubuntu](https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb)
-     
-     > [Windo](https://downloads.raspberrypi.org/imager/imager_latest.exe)
-     
-     > [macOS](https://downloads.raspberrypi.org/imager/imager_latest.dmg)
-
-Dịka ọmụmaatụ na linux ị ga-ede ihe ndị a mgbe ibudatara:
-
-`sudo dpkg -i imager_latest_amd64.deb`
-
-Mepee Raspberry Pi Imager
-
-`rpi-imager`
-
-<img src="/content-images/197372069-fb9f7417-d320-42cf-ad65-38d630-7d85096e88.webp" alt="rpi imager" width="400" height="400"/>
-
-Choose OS and Storage Device. Since Raspberry Pi 4's are 64 bit, I recommend choosing "Other general-purpose OS" => Ubuntu => Ubuntu Server 24.04.3 LTS (64 bit). Click on Storage and select your SD Card. Before writing to SD card, click on Advanced options by clicking on the white gear icon near the bottom right corner.
-
-
-<img src="/content-images/197372159-1169c6f4-f6aa-4f44-9679-fe7aa5-fe6c968644.webp" alt="gear" width="200" height="200"/>
-
-
-
-N'ebe a ị nwere ike imelite:
-
-```markdown
-* Hostname of your Raspberry Pi 4
-* Enable SSH
-* Create a username and pw
-* Enable and configure your wi-fi if needed
+## Nzọụkwụ 4: Wụnye ma na-agba ọsọ Zebra
+### Nhọrọ A  Docker (akwadoro)
+```bash
+sudo apt install -y docker.io
+sudo usermod -aG docker $USER   # log out/in after this
+docker run -d \
+  --name zebra \
+  -p 8233:8233 \
+  -v /mnt/zcash-data/zebra:/home/zebra/.cache/zebra \
+  zfnd/zebra:latest
 ```
- 
-<img src="/content-images/197372149-8b85bfac-e473-4808-87cd-f27f15-269c28f6c3.webp" alt="advanced" width="400" height="400"/>
+Lelee ọganihu: `docker logs -f zebra`
 
- 
-Ozugbo zuru ezu kụrụ Dee
+### Nhọrọ B  Pre-wuru binary site ibu binstall
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source "$HOME/.cargo/env"
+cargo install cargo-binstall
+cargo binstall zebrad
+zebrad start
+```
+Nke a na-etinye ihe eji arụ ọrụ tupu oge eruo. `aarch64` ọnụọgụ abụọ  enweghị nchịkọta achọrọ.
 
+**Na oge sync:** na-atụ anya nke a iji were obere oge  ọnụ ọgụgụ mbụ e hotara (ihe dị ka awa 2) sitere na ngwaike ntụle bụ ihe siri ike karịa CPU Pi 4, yabụ ezigbo oge ịmekọrịta gị n'ezie ga - adị ogologo.
 
-### Bido Ubuntu Server
+## Nzọụkwụ 5: Wụnye Zallet
+Zallet nọ ugbu a na **alpha**  chere mgbanwe ndị ga-emebi, ma ghara ile ya anya dị ka nchekwa maka mmepụta nke ọma.
 
-If you have an extra monitor and keyboard plug those in now. Note: these are optional. Install the SD card you just formatted into the Raspberry Pi 4 and also plug in the External SSD/HHD into the USB3 port. Also plug in the power cord and turn it on.
+### Nhọrọ A  Docker (akwadoro)
+```bash
+docker pull zodlinc/zallet:latest
+```
+This image supports ARM64 (via a Nix-based build) and runs from a minimal, shell-less filesystem — pass configuration and data paths explicitly via `--datadir` na olu mounts (lee Nzọụkwụ 6).
 
-### Jikọọ na Raspberry Pi 4 gị
+### Nhọrọ B  Wụpụta site na isi iyi
+```bash
+# Requires Rust 1.85+ (see Step 4B for rustup install)
+sudo apt install -y clang libclang-dev protobuf-compiler
+cargo install --locked --git https://github.com/zcash/wallet.git
+```
+A naghị ebipụta igbe Zallet na crates.io n'oge oge alpha, yabụ ịwụnye site na git repo ozugbo bụ usoro akwadoghị Docker.
 
-Ugbu a, anyị kwesịrị ijikọ na gị Raspberry Pi 4. Ihe anyị chọrọ:
+## Nzọụkwụ 6: Hazie Zallet
+Mepụta ihe . `zallet.toml` na dataadir ị họọrọ (dịka. `/mnt/zcash-data/zallet`):
+```toml
+[builder.limits]
+[consensus]
+network = "main"
+[database]
+[external]
+[features]
+as_of_version = "0.0.0"
+[features.deprecated]
+[features.experimental]
+[indexer]
+validator_address = "127.0.0.1:8232"   # Zebra's JSON-RPC endpoint
+[keystore]
+[note_management]
+[rpc]
+bind = ["127.0.0.1:SOMEPORT"]
+```
+Gbanwee . `validator_address` ma ọ bụrụ na Zebra agba ọsọ n'elu ihe dị iche / ọdụ ụgbọ mmiri, wee hazie ya `validator_cookie_auth`/`validator_user`/`validator_password` n'okpuru `[indexer]` iji kwekọọ na Zebra RPC gị.
 
-```markdown
-* Username and pw (from previous step)
-* IP address so we can use SSH
-* Monitor, and keyboard (optional)
-* If you have a monitor and keyboard connected directly to your pi, the rest of this section can be skipped.
+** Ị na-esi zcashd?** Ọ bụrụ n'ị ka nwere otu agadi gị, ị ga-eji ya mee ihe. `zcash.conf`:
+```bash
+zallet migrate-zcash-conf --datadir /path/to/old/zcashd/datadir -o /mnt/zcash-data/zallet/zallet.toml
 ```
 
-Two ways to find your IP address are via your router admin page, or with nmap. If using the router, it depends on which manufacture and I'll defer those details to a quick google search. For nmap, first make sure it is installed:
-
-     `sudo apt-get install nmap`
-     
-Find the IP address of your current computer and note the first three sections. This is typically 192.168.1.xxx or 192.168.50.xxx. Plug these details into nmap as follows:
-          
-`sudo nmap -sn 192.168.50.0/24`
-
-or
-
-`sudo nmap -sn 192.168.1.0/24`
-
-Nke a ga-egosipụta ngwaọrụ niile ejikọrọ na netwọkụ ụlọ gị, nke kwesịrị ikpughe adreesị IP / adreesì MAC nke Raspberry Pi 4 gị. Iji aha njirimara gị, pw, na adiresi IP anyị nwere ike ịbanye ugbu a site na iji SSH
-
-```markdown
-* ssh <username>@<ip address of your pi> note: you must plugin *your* username and *your* IP address, and *your* pw when prompted.
-* For example: `ssh ubuntu@192.168.1.25 where the username is *ubuntu* and IP address is 192.168.1.25.
+## Nzọụkwụ 7: Tinye koodu mkpuchi akpa ego gị n'ọrụ.
+Zallet na-eji ihe niile dị mkpa eji eme ihe site n'iji `age`/`rage`:
+```bash
+cargo install rage
+rage -p -o /mnt/zcash-data/zallet/encryption-identity.txt <(rage-keygen)
 ```
+Nke a na-ebipụta igodo ọha na paswọọdụ akpaaka  ** chekwaa passphrase; ị pụghị iweghachite faịlụ njirimara n'enweghị ya.**
 
-
-  <img src="/content-images/197372846-e1279388-eaaa-4fbb-8d5d-f9928c-caf89ea305.webp" alt="sshLogin" width="400" height="400"/>
-       
-
-Ọ bụrụ na ị chọrọ ịmata ụdị mbipute Raspberry Pi ị na-eji, gbalịa iwu a:
-
-     `cat /sys/firmware/devicetree/base/model ; echo`
-
-  <img src="/content-images/197689888-367c8eb3-2667-4c8c-85b3-44d46a-ef72475028.webp" alt="which" width="700" height="400"/>
-
-         
-
-### Ịwụnye *zcashd*
-
-Two ways of installing zcashd include downloading a precompiled binary or compiling zcashd from source. I *highly* recommend compiling from source. For compiling yourself it is highly recommended to cross-compile. Cross-compile is to build on one platform a binary that will run on another platform. One reason for this is Raspberry Pi 4's are low-powered and thus not very fast! Leverage your main computer to help with this. You can grab the latest release [here](https://github.com/zcash/zcash/releases)Iji jikọta ọnụ anyị kwesịrị ijide n'aka na anyị nwere ngwugwu ndị dị mkpa. Wụnye ihe ndị a:
+## Nzọụkwụ 8: Bido ma malite obere akpa ahụ
+```bash
+zallet -d /mnt/zcash-data/zallet init-wallet-encryption
+zallet -d /mnt/zcash-data/zallet generate-mnemonic
+```
+**Naanị ịgba ọsọ** `generate-mnemonic` otu ugboro** ma ọ bụrụ na ị kpachapụrụ anya chọrọ ọtụtụ mgbọrọgwụ mmefu onwe ha.
 
 ```bash
-sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python3 python3-zmq zlib1g-dev curl bsdmainutils automake libtinfo5
-sudo apt-get install gcc-aarch64-linux-gnu
+zallet -d /mnt/zcash-data/zallet start
 ```
 
-Ntughari mgbanwe ọzọ n'ime mbipụta zcashd ọhụrụ ebudatara ma gbaa ọsọ:
+## Nzọụkwụ 9: Ịkwaga obere akpa zcashd dị (nhọrọ)
+```bash
+zallet -d /mnt/zcash-data/zallet migrate-zcashd-wallet --zcashd-datadir /path/to/old/zcashd/datadir
+```
+Nke a chọrọ ka ndị na-eme ihe nkiri ahụ. `db_dump` ihe eji eme (wuru megide Berkeley DB 6.2.23)  site na ntinye usoro ma ọ bụ isi iyi nke zcashd. Ọ bụrụ na ị nwekwaghị zcashD arụnyere, nke a bụ otu nzọụkwụ mbugharị ahụ adịghị ezu n'onwe ya na Zallet ka dị ugbu a.
 
-`HOST=aarch64-linux-gnu ./zcutil/build.sh`
-          
+## Nzọụkwụ 10: Nyochaa ihe niile na-arụ ọrụ
+```bash
+zallet -d /mnt/zcash-data/zallet help
+```
+Nyochaa na obere akpa ahụ zara, ma ozugbo Zebra mechara mmekọrịta ya, nke ga-eme ka ego/adreesị kwekọọ n'ihe ndị a tụrụ anya.
 
-### Nhazi *zcashd*
+## Nchọpụta nsogbu
+- **Zebra build/runtime issues on ARM:** if building from source, install the Rust ARM toolchain — running x86_64 build tools on ARM hardware will run noticeably slower, per Zebra's own documentation.
+- ** Nchekwa na-ejupụta:** Zebra's ~ 300 GB footprint keeps growing  plan headroom.
+- **Ihie ikikere Docker:** wepu aha/banyeghachi mgbe ị gbakwunyere onye ọrụ gị na ngalaba ahụ. `docker` otu, ma ọ bụ iji ya eme ihe. `sudo` ka ọ dịgodị.
+- ** Ihe nkedo Zallet enweghị mkpuchi:** onye ọrụ gọọmenti ahụ. `zodlinc/zallet` ihe oyiyi bụ site na ncha site n'imepụta  mgbe niile gafere `--datadir` n'ụzọ doro anya ma tinye akwụkwọ ndekọ data gị dị ka mpịakọta.
 
-<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
-  <iframe
-    className="w-full h-full"
-    src="https://www.youtube.com/embed/9t2LX3HFldw"
-    title="Zcashd Wallet Tool - Generate & Import Private Key"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    kweeFullScreen
-    loading="lazy"
-  />
-</div>
+## Ihe edeturu ngwaike vs. akwụkwọ ntuziaka ochie zcashd
+Zebra and Zallet are generally lighter on CPU during setup than compiling zcashd was, since you're running pre-built binaries/containers. 4 GB RAM is a reasonable starting point; monitor with `htop` ma tụlee 8 GB Pi 4 variant ọ bụrụ na ị hụ nnukwu swapping.
+
+## Ihe ndị ọzọ e ji enyere ndụ aka
+- [Akwụkwọ Zebra](https://zebra.zfnd.org)  akwụkwọ ndị ọrụ Zebra
+- [Akwụkwọ Zallet](https://zcash.github.io/wallet)  akwụkwọ akụkọ Zallet na-ekwu maka ya.
+- [zcashd End-of-Support notice](https://z.cash/support/zcashd-deprecation)
 
 ---
 
-Ugbu a, ọ dị anyị mkpa ịnyefe faịlụ ọnụọgụ abụọ zcashd niile na Raspberry Pi gị 4. Dịka nke Zcashd v5.3 faịlụ ndị dị mkpa gụnyere:
-
-```markdown
-zcashd
-zcash-cli
-zcash-tx
-zcash-gtest
-zcash-inspect
-zcashd-wallet-tool
-fetch-params.sh
-```
-
-These files are found in the /src directory of your latest release download location if you compiled them yourself. Otherwise, the precompiled files are where you downloaded them. Two ways of achieving the tranfers are either using SFTP, or by using your External drive.
-
-#### SFTP
-
-```bash
-sftp username@<ip of RaspberryPi4>
-put zcash*
-```
-   
-#### Mpempe akwụkwọ mpụga
-     
-Simply copy the files onto the External before you plug it into the Raspberry Pi 4. If you already have a full node synced and want to save time, you can also copy the blocks and chainstate data.
-   
-` cd ~/.zcash/`
-     
-Naanị gbaa ọsọ:
-
-```bash
-tar -zcvf blocks.tar.gz /blocks
-tar -zcvf chainstate.tar.gz /chainstate
-```
-     
-Detuo ihe mgbochi na chainstate .gz faịlụ n'ime mpụga SSD / HDD gị. Na-esote ịwụnye mpụgo SSD / HDD na nchekwa Mgbasa ozi ka ị nwee ike ịhụ ya:
-
-```markdown
-lsblk will display all drives connected. Most will be of the format sda
-id will show your user and group id's.
-```
-          
-<img src="/content-images/197372643-abef88fd-9177-4bf9-abda-3c2211-e354e8ff47.webp" alt="lsblk" width="400" height="400"/>
-
-
-          
-          `sudo mount -o umask=0077,gid=<groupid>,uid=<userid> /dev/sda1 /media/portableHD/`
-          
-Na-elekwasị anya ma onye nwere folda / faịlụ na ikike.
-
-```bash
-sudo chown -R <username>: portableHD
-sudo chmod -R 600 portableHD/
-```
-     
-If you copied the blocks and chainstate .gz files from your other computer untar these now. Make sure they are in the .zcash folder on your External drive.
-
-```bash
-tar - xvzf blocks.tar.gz
-tar - xvzf chainstate.tar.gz
-```
-
-
-Ntọala /media/portableHD/.zcash/zcash.conf
-
-<img src="/content-images/197373699-18cc2c9f-b47d-44e9-9e6b-4c5ccc-3dac42f3c0.webp" alt="zconf" width="700" height="400"/>
-
-
- 
-Rịba ama otú anyị si kpaliri dataadir na SSD / HDD nke nwere ohere dị ukwuu. Ebe ọ bụ na ebe nchekwa .zcash ndabara akwagala, anyị kwesịrị ịgwa * zcashd * nke a site na iji njikọ akara ngosi:
-
-```markdown
-cp -rp ~/.zcash/* /new_dir         // Make copy of datadir or supply with an external HD
-rm -rf ~/.zcash                    // Remove default folder
-ln -s /media/portableHD/ ~/.zcash  // Symbolic link new data location to the default so zcashd is happy
-```
-   
-
-Gbaa edemede fetch-params.sh iji budata data dị mkpa maka zcashd
-   
-    `./fetch-params.sh`
-
-
-Malite 'ihuenyo' ọhụrụ [usoro ihe omume na linux ]. Mepee zcashd na -datadir set:
-
-```bash
-screen -S zcashScreen`     
-./zcashd -datadir=/media/portableHD/.zcash/
-```
-     
-Wepụ ihuenyo ahụ:
-
-`Ctrl+a , Ctrl+d`
-
-
-Mepụta aha njirimara nke mere na ị gaghị edepụta iwu ebe data ndị a niile
-
-     `alias zcash-cli="./zcash-cli -datadir=/media/portableHD/.zcash/"`
-
-
-Dị njikere iji ya!
-
-    `zcash-cli getblockchaininfo`
-
-  <img src="/content-images/197373098-672aa228-d180-47ea-8a7c-c58dc3-bf85ac08fb.webp" alt="getblockchaininfo" width="400" height="400"/>
-
-
-
-### Iji *zcashd*
-
-<iframe class="w-full h-auto md:h-96" src="https://www.youtube.com/embed/KNhd1KC0Bqk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
-Kedu ka ị si enyocha ọnọdụ nke ọnụ gị?
-
-     `tail -n 500 <path to>/.zcash/debug.log`
-
-  <img src="/content-images/197684416-9a083de4-4a62-4fe8-9cab-798781-c1755f3f91.webp" alt="status" width="700" height="400"/>
-
-
-  
-     
-Iji nweta elu ugbu a site na log gị
-
-     `tail -n 10 <path to>/.zcash/debug.log | grep -o  'height=[^b]*'`
-
-  <img src="/content-images/199630447-6a6cd491-0cb3-47f8-95f0-45f6b6-dc7b671d5a.webp" alt="logHeight" width="500" height="400"/>
-
-
-     
-     `zcash-cli getinfo`
-  
-<img src="/content-images/199646508-132da0eb-899e-49a6-8b31-e9011e-839cbe5c04.webp" alt="getInfo" width="400" height="400"/>
-
-     
-     
-Kedụ ka ị ga-esi zipụ akwụkwọ ozi?](https://zcash.readthedocs.io/en/latest/rtd_pages/memos.html), budata *ascii2hex* na *hex2ascii* ma mee ka ha rụọ ọrụ 
-
-`chmod +x ascii2hex hex2ascii`
-          
-Mepụta ihe ncheta ma gbanwee ya na hex. Ị nwere ike ịgbanwe azụ na ascii iji nwalee.
-          
-<img src="/content-images/199646812-782142d6-8846-443a-8dd9-4f332e-a552c26229.webp" alt="asciiGOOD" width="400" height="400"/>
-
-
-  
-Mepụta azụmahịa z2z (Sapling) na-eji nsụgharị hex nke memo gị site n'elu
-
-`zcash-cli z_sendmany "ztestsapling1kg3u0y7szv6509732at34alct46cyn0g26kppgf2a7h5tpqxldtwm7cmhf8rqmhgt" "[{\"address\": \"ztestsapling2kg3u0y7szv6509732at34alct46cyn0g26kppgf2a7h5tpqxldtwm7cmhf8rqmhgtmpakcz5mdv\",\"amount\": 0.0001, \"memo\":\"5A656348756221\"}]"`
-
-Kedu ka ị ga-esi maliteghachi ZcashScreen gị mgbe ị wepụrụ ya?
-
-`screen -r zcashScreen`
-     
-Kedụ ka ị ga-esi kwụsị *zcashd*?
-
-`zcash-cli stop`
-     
-Kedụ ka ị ga-esi mepụta UA?
-
-`zcash-cli z_getnewaccount`
-     
-  <img src="/content-images/202352436-04c17be2-e914-4b9b-95d1-00cf6f-2d1a6ea572.webp" alt="newAccount" width="400" height="400"/>
-
-    
-Now build a UA receiver according to *your needs*. This includes Orchard only, Orchard + Sapling, and finally Orchard + Sapling + Transparent. Note you can tell the difference between receivers by how long they are.
-     
-<img src="/content-images/202354319-2da6be33-ca95-4b6b-b29c-14805d-f0c8acd281.webp" alt="chars" width="200" height="100"/>
-
-
-`zcash-cli z_getaddressforaccount 0 '["orchard"]'`
-     
-<img src="/content-images/202353642-c36b5fea-de8a-41f6-a27c-d9ff42-5231dccf56.webp" alt="uaOrchard" width="400" height="400"/>
-
-<img src="/content-images/202355586-eaeb36e7-b000-4b99-8192-81e500-de15c07940.webp" alt="OrchQR" width="400" height="400"/>
-
-`zcash-cli z_getaddressforaccount 0 '["orchard","sapling"]'`
-     
-<img src="/content-images/202353732-740828e3-77b8-4684-8cf8-fb1425-b1591ddd68.webp" alt="uaOrchardSapling" width="400" height="400"/>
-<img src="/content-images/202355596-c7b62854-9a9e-4627-ab5d-510913-e280eee165.webp" alt="OrchSapQR" width="300" height="200"/>
-
-
-`zcash-cli z_getaddressforaccount 0 '["orchard","sapling","p2pkh"]'`
-     
-<img src="/content-images/202353793-3331c593-5286-4b84-93a7-adc492-c7730e3b3e.webp" alt="uaFull" width="400" height="400"/>
-<img src="/content-images/202355607-75de0750-2a57-4e10-883b-e0a626-2600e9b182.webp" alt="FullQR" width="400" height="400"/>
-
-
-Kedụ ka ị ga-esi zipụ ZEC site na iji UA?
-
-`zcash-cli z_sendmany "fromOaddress" "[{\"address\": \"dOrchardAddress\",\"amount\": 0.0001, \"memo\":\"yourMemoinHex\"}]" <minconf> <fee> <privacyPolicy>`
-
-<img src="/content-images/202365280-c184f622-eb7e-4095-bc38-907951-97c10ec6c2.webp" alt="UAsuccess" width="400" height="400"/>
-<img src="/content-images/202366758-40650460-aaeb-4e03-891f-b4bd08-31378cf6ff.webp" alt="pic" width="400" height="400"/>
-
-    
-##### It should be noted both, *from* AND *destination* addresses can be transparent,sapling, or orchard addresses however you may need to adjust the privacyPolicy flag in order for the transation to be valid. (Some combos wont work if privacyPolicy doesn't make sense!)
-
-
-Ebee ka m nwere ike ịchọta ihe ọmụma ndị ọzọ gbasara UA?
-
-> Lelee [Hanh's](https://medium.com/@hanh425/transaction-privacy-78f80f9f175e) post na azụmahịa nzuzo. Ọzọkwa [nke a](https://forum.zcashcommunity.com/t/unified-addresses-full-node-rpc-api/41980/2) post site na nzukọ Zcash.
-
-> [Nke a](https://github.com/zcash/zips/issues/470)
-
-     
-### Isi mmalite
-
-<div>
-
-- https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview
-- https://github.com/zcash/zcash
-- https://zcash.readthedocs.io/en/latest/rtd_pages/Debian-Ubuntu-build.html
-- https://zcash.readthedocs.io/en/latest/rtd_pages/memos.html
-- https://en.wikipedia.org/wiki/Secure_Shell
-- https://itsfoss.com/how-to-find-what-devices-are-connected-to-network-in-ubuntu/
-- https://youtu.be/YS5Zh7KExvE
-- https://twitter.com/BostonZcash/status/1531798627512877059
-- https://forum.zcashcommunity.com/t/unified-addresses-full-node-rpc-api/41980/2
-- https://medium.com/@hanh425/transaction-privacy-78f80f9f175e
-- https://znewsletter.netlify.app/
-- https://github.com/zcash/zips/issues/470
-- https://zips.z.cash/protocol/nu5.pdf#unifiedpaymentaddrencoding
-
-</div>
+*If you found this guide useful, consider supporting ZecHub: [insert current ZecHub donation shielded address from zechub.wiki/donation — not included here since I couldn't verify it's still current].*

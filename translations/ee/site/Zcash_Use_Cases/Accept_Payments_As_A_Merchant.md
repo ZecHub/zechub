@@ -32,7 +32,7 @@ Dekɔnu crypto fexexe ɖea nu me ɖe go:
 
 Esia kplɔa ame yia:
 - Asitsalawo ƒe nya ɣaɣlawo ƒe bu
-- Hoʋiʋli ƒe nyatakakawo doa go
+- Hoʋiʋli ŋuti nyatakakawo doa go
 - Ðewohĩ màdi be ganyawo nadze le gaglãgbe o
 
 <br/>
@@ -121,7 +121,7 @@ Ate ŋu:
 
 
 - [Gakotokuwo](/wallets)
-- [Adzamenyawo - Nuwɔna Nyuitɔwo](/privacy/best-practices)
+- [Ameŋunyatakakawo - Nuwɔna Nyuitɔwo](/privacy/best-practices)
 
 <br/>
 
@@ -135,5 +135,5 @@ Fifia àte ŋu awɔ ame ŋutɔ ƒe fexexe ƒe ɖoɖowo na asitsatsa.
 
 ## Afɔɖeɖe si kplɔe ɖo
 
-- [Mikpɔ Nutoa Me Gadzɔdzɔ Dɔwɔƒe si nye Ame ŋutɔ tɔ dzi](/use-cases/private-community-treasury)
+- [Dzra Nutoa me Gaxɔdzikpɔƒe si nye Ame ŋutɔ tɔ dzi](/zcash-use-cases/private-community-treasury)
 <br/>

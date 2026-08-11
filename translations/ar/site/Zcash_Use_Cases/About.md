@@ -33,15 +33,15 @@
 تجنّب كشف محفظتك أو هويتك أو مخطط معاملاتك عند إرسال الأموال.
 
 
-###  [إعداد الخصوصية للمستقلين](/zcash-use-cases/freelancer-privacy-setup)  
+###  [إعداد الخصوصية للمستقلين](/zcash-use-cases/freelance-privacy-setup)  
 احصل على أموالك باستخدام Zcash مع الحفاظ على خصوصية عملائك ودخلك.
 
 
-###  [قبول المدفوعات كتاجر](/zcash-use-cases/accept-payment-as-a-merchant)  
+###  [قبول المدفوعات كتاجر](/zcash-use-cases/accept-payments-as-a-merchant)  
 اقبل المدفوعات باستخدام عنوان محمي وتجنّب كشف بيانات معاملات العملاء
 
 
-###  [إدارة خزينة مجتمعية خاصة](/zcash-use-cases/run-a-private-community-treasury)
+###  [إدارة خزينة مجتمعية خاصة](/zcash-use-cases/private-community-treasury)
 استخدم العناوين المحمية للاحتفاظ بالأموال المشتركة والحد من إمكانية الاطلاع على الأرصدة والمعاملات
 
 ###  [إعداد الخصوصية للصحفيين](/zcash-use-cases/journalist-privacy-setup)   

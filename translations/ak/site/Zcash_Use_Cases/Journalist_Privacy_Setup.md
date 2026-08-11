@@ -64,7 +64,7 @@ Zcash de ma:
 - Fa sika kotoku di dwuma ma adwuma a ɛho hia nkutoo
 - Mfa w’ankasa nnwuma nnfrafra
 
-### Anamɔn 2: Fa Address a Wɔabɔ Ho Ban Nkutoo Di Dwuma
+### Anamɔn 2: Fa Address a Wɔabɔ ho ban Nkutoo Di Dwuma
 
 - Bere nyinaa fa z-address ahorow di dwuma
 - Kwati nnwuma a ɛda adi pefee koraa
@@ -97,7 +97,7 @@ Sɛ fibea ahorow a wotua ho ka a:
 
 - Address ahorow a ɛda adi pefee a wɔde bedi dwuma 
 - Address ahorow a wɔsan de di dwuma wɔ mmeae ahorow nyinaa 
-- Data a ɛho hia a wɔde ka ho wɔ memos mu 
+- Data a ɛho hia a ɛwɔ memos mu ka ho 
 - Sika kotoku a wɔde bata ɔmanfo nipasu ho 
 
 <br/>
@@ -114,7 +114,7 @@ Wobɛtumi:
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
 - [Privacy - Nneyɛe a eye sen biara](/privacy/best-practices)
-- [Fa sika mena a womfa wo ho nhyɛ wo ho](/use-cases/send-money-without-linking-identity)
+- [Fa sika mena a womfa wo ho nhyɛ wo ho](/zcash-use-cases/send-money-without-linking-identity)
 
  <br/>
 
@@ -134,7 +134,7 @@ Seesei woate ase sɛ:
 ## Dɛn na Ɛdi Akyi?
 
 - [Kɔ home page no so](/)
-- [Hwehwɛ developer akwan](/developers)
-- [Fa ntoboa ma ZecHub](/contribute/help-build-zechub)
+- [Hwehwɛ developer akwan mu](/developers)
+- [Boa ma ZecHub](/contribute/help-build-zechub)
 
 <br/> 

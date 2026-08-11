@@ -1,7 +1,7 @@
 # ** Private SOL/USDC -> ZEC Swap Lilo Encrypt.trade** 
 
 
-! [ì ì1 ]](/content-images/Bkbg5alCll-7a02545c00.webp)
+! [ì ì1 ](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
 *Ọ̀nà àbáwọlé rẹ sí ìdásílẹ̀, àwọn ìyípadà orí-ẹ̀ka tí NEAR Intents ń gbé lárugẹ.* 
@@ -12,15 +12,15 @@
 Ni agbaye blockchain oni, asiri kii ṣe aṣayan - o ṣe pataki. Pẹlu [**encrypt.trade**](https://app.encifher.io/zec), awọn olumulo le rọpo **SOL tabi USDC** lori Solana sinu **Zcash (ZEC) ** lakoko ti o n tọju awọn iṣowo patapata ni ikọkọ. Ko si awọn paṣipaarọ aarin, ko si ifihan idanimọ - nikan rọrun, paṣipopada ti a fi sii. 
 
 
-! [ì ì ì2 ]](/content-images/ByQ2qpeRee-67fce2814c.webp)
+! [ì ì ì2 ](/content-images/ByQ2qpeRee-67fce2814c.webp)
 
 ---
 
 ###  Ìgbésẹ̀ 1: So Ẹ̀wádù Solana Rẹ pọ̀ 
-Lọ sí [encrypt.trade]](https://app.encifher.io/zec) using **Chrome or Firefox**, and connect your **Phantom**, **Solflare**, or **Slope** wallet. Ensure your wallet contains enough **SOL** for gas fees and the tokens you want to trade. Once connected, you're ready to wrap your assets.  
+Lọ sí [encrypt.trade](https://app.encifher.io/zec) using **Chrome or Firefox**, and connect your **Phantom**, **Solflare**, or **Slope** wallet. Ensure your wallet contains enough **SOL** for gas fees and the tokens you want to trade. Once connected, you're ready to wrap your assets.  
 
 
-! [ì ì ì3 ]](/content-images/SyVOs6lRxx-cbd8193e84.webp)
+! [ì ì ì3 ](/content-images/SyVOs6lRxx-cbd8193e84.webp)
 
 
 
@@ -54,7 +54,7 @@ Yọ lọ si abala ** Wrap **. Yan ** SOL ** tabi ** USDC **, tẹ iye naa, ki o
 Ẹ̀rọ ìkápá:](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn), àpamọ́ Zcash osise ti Electric Coin Co. Ṣe àdàkọ rẹ ** Unified Address ** lati inu itẹwe Gba - o ṣe atilẹyin fun ZEC ṣiṣan ati aabo. Fi gbolohun ọrọ irugbin rẹ pamọ ni aabo ṣaaju ki o to tẹsiwaju. 
 
 
-![ì ì ì£1⁄4ì í ]](/content-images/SykjhpgRll-60d19f6979.webp)
+![ì ì ì£1⁄4ì í ](/content-images/SykjhpgRll-60d19f6979.webp)
 
 
 ---

@@ -1,402 +1,159 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/guides/Raspberry_Pi_4_Full_Node.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
-</a>
+---
+# Запуск повного вузла на Raspberry Pi 4 (Zebra + Zallet)
 
-
-# Raspberry Pi 4: посібник із повного вузла *zcashd* 
-
-
-Мета цього посібника — допомогти навчити Zcashers, які зацікавлені у запуску повного вузла на малопотужному Raspberry Pi 4.
-
-<img src="/content-images/197372541-dcd886ab-a3d0-4614-b490-0294dd-d45b1cd4ba.webp" alt="zcashd" width="700" height="700"/>
-
-
-## Відео
-
-<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
-  <iframe
-    className="w-full h-full"
-    src="https://www.youtube.com/embed/SGYrzhs1l2k"
-    title="How to compile Zcash Node on Raspberry Pi!"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowFullScreen
-    loading="lazy"
-  />
-</div>
-
-## Підтримка
-
-Якщо цей посібник був для вас корисним, розгляньте можливість пожертвувати ZEC на підтримку ZecHub:
-
-`u1rl2zw85dmjc8m4dmqvtstcyvdjn23n0ad53u5533c97affg9jq208du0vf787vfx4vkd6cd0ma4pxkkuc6xe6ue4dlgjvn9dhzacgk9peejwxdn0ksw3v3yf0dy47znruqftfqgf6xpuelle29g2qxquudxsnnen3dvdx8az6w3tggalc4pla3n4jcs8vf4h29ach3zd8enxulush89`
-
+*Перенесено з оригінального посібника на основі zcashd. zcashd досяг автоматичної зупинки через End-of-Support 18 липня 2026 року, тому тепер у цьому посібнику використовуються **Zebra** (поточний повний вузол, який підтримує Zcash Foundation) і **Zallet** (гаманець, створений як заміна вбудованого гаманця zcashd).*
 
 ## Що ви дізнаєтеся
+- Як записати й налаштувати Ubuntu Server 22.04+ (64-bit) на Raspberry Pi 4 для безголового використання
+- Як встановити та запустити Zebra — через Docker або за допомогою попередньо зібраного бінарного файла
+- Як встановити, налаштувати та ініціалізувати Zallet, включно з налаштуванням шифрування гаманця
+- Як за бажанням перенести наявний конфігураційний файл/гаманець zcashd у Zallet
 
-```markdown
-* How to create a bootable Ubuntu Server microSD card
-* How to setup internet connectivity on the Raspberry Pi 4
-* How to access your Raspberry Pi 4 remotely
-* How to install zcashd
-* How to setup zcashd
-* How to use zcashd
-```
-
+## Що змінилося порівняно зі старим посібником
+Попередня версія цього посібника описувала, як компілювати **zcashd** нативно на Pi 4 — однопотокова компіляція тривала 3–4 години, тому що Pi 4 не має достатньо пам’яті для паралельної збірки (`-j$(nproc)`). І Zebra, і Zallet тепер постачаються з **офіційними попередньо зібраними ARM64-бінарниками та Docker-образами**, тож у більшості випадків вам більше не потрібно компілювати щось із вихідного коду безпосередньо на самому Pi.
 
 ## Передумови
+- Raspberry Pi 4 (рекомендовано 4 ГБ RAM або більше)
+- Карта microSD (32 ГБ+) для ОС
+- Зовнішній SSD/HDD із підтримкою USB 3.0 — **Zebra потребує приблизно 300 ГБ для кешованих даних Mainnet**, і цей обсяг зростатиме з часом, тому не намагайтеся запускати це лише з карти microSD
+- Комп’ютер зі слотом для microSD-карти (щоб записати образ ОС)
+- Дротове підключення Ethernet або Wi-Fi
+- Базове вміння працювати з командним рядком через SSH
 
-> [8GB Raspberry Pi 4 Canakit](https://www.canakit.com/raspberry-pi-4-starter-max-kit.html) або еквівалент
+## Крок 1: Запишіть Ubuntu Server 22.04+ (64-bit)
+Попередньо зібрані бінарники та Docker-образи Zebra і Zallet потребують **glibc 2.34+**, а це означає **Ubuntu Server 22.04 або новішу версію (64-bit/aarch64)**.
 
-> Комп’ютер із пристроєм для читання microSD-карт
+1. Встановіть Raspberry Pi Imager на свій основний комп’ютер.
+2. Вставте карту microSD.
+3. Виберіть **Other general-purpose OS → Ubuntu → Ubuntu Server 22.04 LTS (64-bit)** (або новішу версію).
+4. Скористайтеся розширеними параметрами Imager (значок шестерні), щоб заздалегідь налаштувати hostname, увімкнути SSH і, за потреби, вказати облікові дані Wi-Fi для першого безголового запуску.
+5. Запишіть образ, вставте карту, увімкніть Pi.
+6. Підключіться через SSH: `ssh <username>@<pi-hostname-or-ip>`
 
-> Wi‑Fi мережа або Ethernet-кабель із доступом до інтернету
+## Крок 2: Під’єднайте та змонтуйте зовнішнє сховище
+1. Під’єднайте зовнішній SSD/HDD через USB 3.0.
+2. Визначте пристрій: `lsblk`
+3. Відформатуйте (якщо він новий) і змонтуйте його, наприклад у `/mnt/zcash-data`, використовуючи стандартне налаштування `mkfs`/`fstab`, щоб він автоматично монтувався після перезавантаження.
 
-> Зовнішній SSD/HHD із підтримкою USB3
-
-
-##### примітка: підтримувати безпеку вашого сервера *аж ніяк* не просто. Якщо у вас є будь-які поради/рекомендації/найкращі практики понад те, про що йдеться в цьому посібнику, *будь ласка*, створіть PR і допоможіть підтримувати цей посібник якомога актуальнішим.
-
-
-
-### Підготуйте SD-карту
-
-На цьому кроці ви створите *завантажувальну* SD-карту, яка дозволить завантажити ваш Raspberry Pi 4. Вставте microSD-карту у ваш комп’ютер. Можливо, вам знадобиться адаптер, що постачається з Canakit, або будь-який інший еквівалентний адаптер. Встановіть Raspberry Pi Imager для вашої операційної системи. Завантажте версію для ОС, до якої ви зараз маєте доступ.
-     
-     > [Ubuntu](https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb)
-     
-     > [Windows](https://downloads.raspberrypi.org/imager/imager_latest.exe)
-     
-     > [macOS](https://downloads.raspberrypi.org/imager/imager_latest.dmg)
-
-Наприклад, у Linux після завантаження ви введете таке:
-
-`sudo dpkg -i imager_latest_amd64.deb`
-
-Відкрийте Raspberry Pi Imager
-
-`rpi-imager`
-
-<img src="/content-images/197372069-fb9f7417-d320-42cf-ad65-38d630-7d85096e88.webp" alt="rpi imager" width="400" height="400"/>
-
-Виберіть ОС і пристрій зберігання. Оскільки Raspberry Pi 4 є 64-бітними, я рекомендую вибрати "Other general-purpose OS" => Ubuntu => Ubuntu Server 24.04.3 LTS (64 bit). Натисніть на Storage і виберіть вашу SD-карту. Перш ніж записувати на SD-карту, натисніть Advanced options, клацнувши на білу іконку шестерні в нижньому правому куті.
-
-
-<img src="/content-images/197372159-1169c6f4-f6aa-4f44-9679-fe7aa5-fe6c968644.webp" alt="gear" width="200" height="200"/>
-
-
-
-Тут ви можете оновити:
-
-```markdown
-* Hostname of your Raspberry Pi 4
-* Enable SSH
-* Create a username and pw
-* Enable and configure your wi-fi if needed
-```
- 
-<img src="/content-images/197372149-8b85bfac-e473-4808-87cd-f27f15-269c28f6c3.webp" alt="advanced" width="400" height="400"/>
-
- 
-Після завершення натисніть Write
-
-
-### Завантаження Ubuntu Server
-
-Якщо у вас є додатковий монітор і клавіатура, підключіть їх зараз. Примітка: це необов’язково. Вставте щойно відформатовану SD-карту в Raspberry Pi 4, а також підключіть зовнішній SSD/HHD до порту USB3. Також підключіть кабель живлення й увімкніть пристрій.
-
-### Підключіться віддалено до вашого Raspberry Pi 4
-
-Тепер нам потрібно підключитися до вашого Raspberry Pi 4. Що нам знадобиться:
-
-```markdown
-* Username and pw (from previous step)
-* IP address so we can use SSH
-* Monitor, and keyboard (optional)
-* If you have a monitor and keyboard connected directly to your pi, the rest of this section can be skipped.
+## Крок 3: Оновіть систему
+```bash
+sudo apt update && sudo apt full-upgrade -y
+sudo reboot
 ```
 
-Є два способи знайти вашу IP-адресу: через сторінку адміністрування роутера або за допомогою nmap. Якщо використовуєте роутер, це залежить від виробника, тож деталі пропоную швидко пошукати в Google. Для nmap спочатку переконайтеся, що його встановлено:
+## Крок 4: Встановіть і запустіть Zebra
+### Варіант A — Docker (рекомендовано)
+```bash
+sudo apt install -y docker.io
+sudo usermod -aG docker $USER   # log out/in after this
+docker run -d \
+  --name zebra \
+  -p 8233:8233 \
+  -v /mnt/zcash-data/zebra:/home/zebra/.cache/zebra \
+  zfnd/zebra:latest
+```
+Перевірка прогресу: `docker logs -f zebra`
 
-     `sudo apt-get install nmap`
-     
-Знайдіть IP-адресу вашого поточного комп’ютера й зверніть увагу на перші три секції. Зазвичай це 192.168.1.xxx або 192.168.50.xxx. Підставте ці дані в nmap так:
-          
-`sudo nmap -sn 192.168.50.0/24`
+### Варіант B — Попередньо зібраний бінарний файл через cargo binstall
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source "$HOME/.cargo/env"
+cargo install cargo-binstall
+cargo binstall zebrad
+zebrad start
+```
+Це встановлює попередньо зібраний бінарний файл `aarch64` — компіляція не потрібна.
 
-або
+**Щодо часу синхронізації:** очікуйте, що це займе певний час — часто згадувані показники першої синхронізації (приблизно 2 години) отримані на еталонному обладнанні, потужнішому за CPU Pi 4, тому фактичний час синхронізації на реальному Raspberry Pi 4, імовірно, буде довшим.
 
-`sudo nmap -sn 192.168.1.0/24`
+## Крок 5: Встановіть Zallet
+Наразі Zallet перебуває в стадії **alpha** — очікуйте несумісних змін і поки що не розглядайте його як готове до промислового використання рішення для зберігання значних коштів.
 
-Це покаже всі пристрої, підключені до вашої домашньої мережі, що має дозволити визначити IP-адресу / MAC-адресу вашого Raspberry Pi 4. Використовуючи ваше ім’я користувача, pw та IP-адресу, тепер ми можемо увійти через SSH
+### Варіант A — Docker (рекомендовано)
+```bash
+docker pull zodlinc/zallet:latest
+```
+Цей образ підтримує ARM64 (через збірку на базі Nix) і запускається з мінімальної файлової системи без оболонки — явно передавайте шляхи конфігурації та даних через `--datadir` і монтування томів (див. Крок 6).
 
-```markdown
-* ssh <username>@<ip address of your pi> note: you must plugin *your* username and *your* IP address, and *your* pw when prompted.
-* For example: `ssh ubuntu@192.168.1.25 where the username is *ubuntu* and IP address is 192.168.1.25.
+### Варіант B — Збірка з вихідного коду
+```bash
+# Requires Rust 1.85+ (see Step 4B for rustup install)
+sudo apt install -y clang libclang-dev protobuf-compiler
+cargo install --locked --git https://github.com/zcash/wallet.git
+```
+Пакети Zallet поки що не опубліковані на crates.io на етапі alpha, тому встановлення безпосередньо з git-репозиторію є підтримуваним методом без Docker.
+
+## Крок 6: Налаштуйте Zallet
+Створіть `zallet.toml` у вибраному каталозі даних (наприклад, `/mnt/zcash-data/zallet`):
+```toml
+[builder.limits]
+[consensus]
+network = "main"
+[database]
+[external]
+[features]
+as_of_version = "0.0.0"
+[features.deprecated]
+[features.experimental]
+[indexer]
+validator_address = "127.0.0.1:8232"   # Zebra's JSON-RPC endpoint
+[keystore]
+[note_management]
+[rpc]
+bind = ["127.0.0.1:SOMEPORT"]
+```
+Скоригуйте `validator_address`, якщо Zebra працює на іншому хості/порту, і налаштуйте `validator_cookie_auth`/`validator_user`/`validator_password` у `[indexer]` відповідно до ваших параметрів автентифікації Zebra RPC.
+
+**Перехід із zcashd?** Якщо у вас досі є старий `zcash.conf`:
+```bash
+zallet migrate-zcash-conf --datadir /path/to/old/zcashd/datadir -o /mnt/zcash-data/zallet/zallet.toml
 ```
 
+## Крок 7: Налаштуйте шифрування гаманця
+Zallet шифрує весь ключовий матеріал за допомогою `age`/`rage`:
+```bash
+cargo install rage
+rage -p -o /mnt/zcash-data/zallet/encryption-identity.txt <(rage-keygen)
+```
+Буде виведено публічний ключ і автоматично згенеровану парольну фразу — **збережіть цю парольну фразу; без неї ви не зможете відновити файл ідентичності.**
 
-  <img src="/content-images/197372846-e1279388-eaaa-4fbb-8d5d-f9928c-caf89ea305.webp" alt="sshLogin" width="400" height="400"/>
-       
-
-Якщо вам цікаво, яку версію Raspberry Pi ви використовуєте, спробуйте цю команду:
-
-     `cat /sys/firmware/devicetree/base/model ; echo`
-
-  <img src="/content-images/197689888-367c8eb3-2667-4c8c-85b3-44d46a-ef72475028.webp" alt="which" width="700" height="400"/>
-
-         
-
-### Встановлення *zcashd*
-
-Існує два способи встановлення zcashd: завантаження попередньо скомпільованого бінарного файлу або компіляція zcashd з джерельного коду. Я *наполегливо* рекомендую компілювати з джерела. Якщо ви компілюєте самостійно, дуже бажано використовувати cross-compile. Cross-compile — це збірка бінарного файлу на одній платформі, який працюватиме на іншій платформі. Одна з причин у тому, що Raspberry Pi 4 малопотужні, а отже не дуже швидкі! Використайте свій основний комп’ютер, щоб допомогти з цим. Останній реліз можна взяти [тут](https://github.com/zcash/zcash/releases). Для cross compile нам потрібно переконатися, що встановлено необхідні пакети. Встановіть таке:
+## Крок 8: Ініціалізуйте та запустіть гаманець
+```bash
+zallet -d /mnt/zcash-data/zallet init-wallet-encryption
+zallet -d /mnt/zcash-data/zallet generate-mnemonic
+```
+**Запускайте `generate-mnemonic` лише один раз**, якщо тільки ви навмисно не хочете мати кілька незалежних коренів витрачання.
 
 ```bash
-sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python3 python3-zmq zlib1g-dev curl bsdmainutils automake libtinfo5
-sudo apt-get install gcc-aarch64-linux-gnu
+zallet -d /mnt/zcash-data/zallet start
 ```
 
-Далі перейдіть у каталог щойно завантаженого релізу zcashd і виконайте:
+## Крок 9: Перенесення наявного гаманця zcashd (необов’язково)
+```bash
+zallet -d /mnt/zcash-data/zallet migrate-zcashd-wallet --zcashd-datadir /path/to/old/zcashd/datadir
+```
+Для цього потрібна утиліта `db_dump` (зібрана з Berkeley DB 6.2.23) — із системного встановлення або локальної збірки zcashd з вихідного коду. Якщо у вас більше не встановлено zcashd, це той єдиний крок міграції, який у Zallet поки що ще не є повністю самодостатнім.
 
-`HOST=aarch64-linux-gnu ./zcutil/build.sh`
-          
+## Крок 10: Переконайтеся, що все працює
+```bash
+zallet -d /mnt/zcash-data/zallet help
+```
+Переконайтеся, що гаманець відповідає, а після завершення синхронізації Zebra — що баланси/адреси відповідають очікуванням.
 
-### Налаштування *zcashd*
+## Усунення несправностей
+- **Проблеми зі збіркою/виконанням Zebra на ARM:** якщо збираєте з вихідного коду, встановіть Rust toolchain для ARM — запуск інструментів збірки x86_64 на ARM-обладнанні буде помітно повільнішим, згідно з власною документацією Zebra.
+- **Сховище заповнюється:** обсяг Zebra приблизно у 300 ГБ продовжує зростати — заздалегідь плануйте запас місця.
+- **Помилки дозволів Docker:** вийдіть із сеансу та увійдіть знову після додавання вашого користувача до групи `docker`, або тимчасово використовуйте `sudo`.
+- **Контейнер Zallet не має оболонки:** офіційний образ `zodlinc/zallet` навмисно створений як from-scratch — завжди явно передавайте `--datadir` і монтуйте каталог даних як том.
 
-<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
-  <iframe
-    className="w-full h-full"
-    src="https://www.youtube.com/embed/9t2LX3HFldw"
-    title="Zcashd Wallet Tool - Generate & Import Private Key"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowFullScreen
-    loading="lazy"
-  />
-</div>
+## Примітки щодо обладнання порівняно зі старим посібником для zcashd
+Zebra і Zallet зазвичай легші для CPU на етапі налаштування, ніж була компіляція zcashd, оскільки ви запускаєте попередньо зібрані бінарні файли/контейнери. 4 ГБ RAM — цілком розумна стартова точка; стежте за станом через `htop` і розгляньте варіант Pi 4 з 8 ГБ, якщо помітите активне використання swap.
+
+## Додаткові ресурси
+- [Книга Zebra](https://zebra.zfnd.org) — офіційна документація Zebra
+- [Книга Zallet](https://zcash.github.io/wallet) — офіційна документація Zallet
+- [Повідомлення про End-of-Support для zcashd](https://z.cash/support/zcashd-deprecation)
 
 ---
 
-Тепер нам потрібно перенести всі бінарні файли zcashd на ваш Raspberry Pi 4. Починаючи з Zcashd v5.3, потрібні файли включають:
-
-```markdown
-zcashd
-zcash-cli
-zcash-tx
-zcash-gtest
-zcash-inspect
-zcashd-wallet-tool
-fetch-params.sh
-```
-
-Ці файли знаходяться в каталозі /src місця завантаження вашого останнього релізу, якщо ви компілювали їх самостійно. Інакше попередньо скомпільовані файли будуть там, куди ви їх завантажили. Є два способи виконати перенесення: за допомогою SFTP або через зовнішній диск.
-
-#### SFTP
-
-```bash
-sftp username@<ip of RaspberryPi4>
-put zcash*
-```
-   
-#### Копіювання через зовнішній носій
-     
-Просто скопіюйте файли на зовнішній носій перед тим, як підключити його до Raspberry Pi 4. Якщо у вас уже є синхронізований повний вузол і ви хочете заощадити час, ви також можете скопіювати дані blocks і chainstate.
-   
-` cd ~/.zcash/`
-     
-Просто виконайте:
-
-```bash
-tar -zcvf blocks.tar.gz /blocks
-tar -zcvf chainstate.tar.gz /chainstate
-```
-     
-Скопіюйте файли blocks і chainstate .gz на ваш зовнішній SSD/HHD. Далі змонтуйте зовнішній SSD/HDD у папці Media, щоб ви могли його бачити:
-
-```markdown
-lsblk will display all drives connected. Most will be of the format sda
-id will show your user and group id's.
-```
-          
-<img src="/content-images/197372643-abef88fd-9177-4bf9-abda-3c2211-e354e8ff47.webp" alt="lsblk" width="400" height="400"/>
-
-
-          
-          `sudo mount -o umask=0077,gid=<groupid>,uid=<userid> /dev/sda1 /media/portableHD/`
-          
-Слідкуйте як за тим, кому належать папки/файли, так і за правами доступу.
-
-```bash
-sudo chown -R <username>: portableHD
-sudo chmod -R 600 portableHD/
-```
-     
-Якщо ви скопіювали файли blocks і chainstate .gz з іншого комп’ютера, розпакуйте їх зараз. Переконайтеся, що вони знаходяться в папці .zcash на вашому зовнішньому диску.
-
-```bash
-tar - xvzf blocks.tar.gz
-tar - xvzf chainstate.tar.gz
-```
-
-
-Налаштуйте /media/portableHD/.zcash/zcash.conf
-
-<img src="/content-images/197373699-18cc2c9f-b47d-44e9-9e6b-4c5ccc-3dac42f3c0.webp" alt="zconf" width="700" height="400"/>
-
-
- 
-Зверніть увагу, що ми перенесли datadir на зовнішній SSD/HDD, де доступно значно більше місця. Оскільки стандартне розташування папки .zcash було змінено, потрібно повідомити про це *zcashd* за допомогою символічних посилань:
-
-```markdown
-cp -rp ~/.zcash/* /new_dir         // Make copy of datadir or supply with an external HD
-rm -rf ~/.zcash                    // Remove default folder
-ln -s /media/portableHD/ ~/.zcash  // Symbolic link new data location to the default so zcashd is happy
-```
-   
-
-Запустіть скрипт fetch-params.sh, щоб завантажити потрібні дані для zcashd
-   
-    `./fetch-params.sh`
-
-
-Запустіть нову програму 'screen' [ у Linux ]. Відкрийте zcashd із вказаним -datadir:
-
-```bash
-screen -S zcashScreen`     
-./zcashd -datadir=/media/portableHD/.zcash/
-```
-     
-Від’єднайте screen:
-
-`Ctrl+a , Ctrl+d`
-
-
-Створіть alias, щоб не вводити щоразу всі ці додаткові команди розташування даних
-
-     `alias zcash-cli="./zcash-cli -datadir=/media/portableHD/.zcash/"`
-
-
-Готово до використання!
-
-    `zcash-cli getblockchaininfo`
-
-  <img src="/content-images/197373098-672aa228-d180-47ea-8a7c-c58dc3-bf85ac08fb.webp" alt="getblockchaininfo" width="400" height="400"/>
-
-
-
-### Використання *zcashd*
-
-<iframe class="w-full h-auto md:h-96" src="https://www.youtube.com/embed/KNhd1KC0Bqk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
-Як перевірити статус вашого вузла?
-
-     `tail -n 500 <path to>/.zcash/debug.log`
-
-  <img src="/content-images/197684416-9a083de4-4a62-4fe8-9cab-798781-c1755f3f91.webp" alt="status" width="700" height="400"/>
-
-
-  
-     
-Щоб отримати поточну висоту з вашого журналу
-
-     `tail -n 10 <path to>/.zcash/debug.log | grep -o  'height=[^b]*'`
-
-  <img src="/content-images/199630447-6a6cd491-0cb3-47f8-95f0-45f6b6-dc7b671d5a.webp" alt="logHeight" width="500" height="400"/>
-
-
-     
-     `zcash-cli getinfo`
-  
-<img src="/content-images/199646508-132da0eb-899e-49a6-8b31-e9011e-839cbe5c04.webp" alt="getInfo" width="400" height="400"/>
-
-     
-     
-Як надіслати memo? Як показано [тут](https://zcash.readthedocs.io/en/latest/rtd_pages/memos.html), завантажте *ascii2hex* і *hex2ascii* та зробіть їх виконуваними 
-
-`chmod +x ascii2hex hex2ascii`
-          
-Створіть memo і перетворіть його на hex. Ви можете конвертувати його назад в ascii для перевірки.
-          
-<img src="/content-images/199646812-782142d6-8846-443a-8dd9-4f332e-a552c26229.webp" alt="asciiGOOD" width="400" height="400"/>
-
-
-  
-Створіть транзакцію z2z (Sapling), використовуючи hex-версію вашого memo, створеного вище
-
-`zcash-cli z_sendmany "ztestsapling1kg3u0y7szv6509732at34alct46cyn0g26kppgf2a7h5tpqxldtwm7cmhf8rqmhgt" "[{\"address\": \"ztestsapling2kg3u0y7szv6509732at34alct46cyn0g26kppgf2a7h5tpqxldtwm7cmhf8rqmhgtmpakcz5mdv\",\"amount\": 0.0001, \"memo\":\"5A656348756221\"}]"`
-
-Як відновити вашу zcashScreen після від’єднання?
-
-`screen -r zcashScreen`
-     
-Як зупинити *zcashd* ?
-
-`zcash-cli stop`
-     
-Як створити UA?
-
-`zcash-cli z_getnewaccount`
-     
-  <img src="/content-images/202352436-04c17be2-e914-4b9b-95d1-00cf6f-2d1a6ea572.webp" alt="newAccount" width="400" height="400"/>
-
-    
-Тепер створіть receiver UA відповідно до *ваших потреб*. Це включає лише Orchard, Orchard + Sapling і, нарешті, Orchard + Sapling + Transparent. Зверніть увагу, що ви можете відрізнити receiver за їхньою довжиною.
-     
-<img src="/content-images/202354319-2da6be33-ca95-4b6b-b29c-14805d-f0c8acd281.webp" alt="chars" width="200" height="100"/>
-
-
-`zcash-cli z_getaddressforaccount 0 '["orchard"]'`
-     
-<img src="/content-images/202353642-c36b5fea-de8a-41f6-a27c-d9ff42-5231dccf56.webp" alt="uaOrchard" width="400" height="400"/>
-
-<img src="/content-images/202355586-eaeb36e7-b000-4b99-8192-81e500-de15c07940.webp" alt="OrchQR" width="400" height="400"/>
-
-`zcash-cli z_getaddressforaccount 0 '["orchard","sapling"]'`
-     
-<img src="/content-images/202353732-740828e3-77b8-4684-8cf8-fb1425-b1591ddd68.webp" alt="uaOrchardSapling" width="400" height="400"/>
-<img src="/content-images/202355596-c7b62854-9a9e-4627-ab5d-510913-e280eee165.webp" alt="OrchSapQR" width="300" height="200"/>
-
-
-`zcash-cli z_getaddressforaccount 0 '["orchard","sapling","p2pkh"]'`
-     
-<img src="/content-images/202353793-3331c593-5286-4b84-93a7-adc492-c7730e3b3e.webp" alt="uaFull" width="400" height="400"/>
-<img src="/content-images/202355607-75de0750-2a57-4e10-883b-e0a626-2600e9b182.webp" alt="FullQR" width="400" height="400"/>
-
-
-Як надсилати ZEC за допомогою UA?
-
-`zcash-cli z_sendmany "fromOaddress" "[{\"address\": \"dOrchardAddress\",\"amount\": 0.0001, \"memo\":\"yourMemoinHex\"}]" <minconf> <fee> <privacyPolicy>`
-
-<img src="/content-images/202365280-c184f622-eb7e-4095-bc38-907951-97c10ec6c2.webp" alt="UAsuccess" width="400" height="400"/>
-<img src="/content-images/202366758-40650460-aaeb-4e03-891f-b4bd08-31378cf6ff.webp" alt="pic" width="400" height="400"/>
-
-    
-##### Слід зазначити, що і адреси *from*, і адреси *destination* можуть бути transparent, sapling або orchard адресами, однак вам може знадобитися скоригувати прапорець privacyPolicy, щоб транзакція була дійсною. (Деякі комбінації не працюватимуть, якщо privacyPolicy не має сенсу!)
-
-
-Де я можу знайти більше інформації про UA?
-
-> Перегляньте допис [Hanh](https://medium.com/@hanh425/transaction-privacy-78f80f9f175e) про приватність транзакцій. А також [цей](https://forum.zcashcommunity.com/t/unified-addresses-full-node-rpc-api/41980/2) допис на форумі zcash.
-
-> [Це](https://github.com/zcash/zips/issues/470)
-
-     
-### Джерела
-
-<div>
-
-- https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview
-- https://github.com/zcash/zcash
-- https://zcash.readthedocs.io/en/latest/rtd_pages/Debian-Ubuntu-build.html
-- https://zcash.readthedocs.io/en/latest/rtd_pages/memos.html
-- https://en.wikipedia.org/wiki/Secure_Shell
-- https://itsfoss.com/how-to-find-what-devices-are-connected-to-network-in-ubuntu/
-- https://youtu.be/YS5Zh7KExvE
-- https://twitter.com/BostonZcash/status/1531798627512877059
-- https://forum.zcashcommunity.com/t/unified-addresses-full-node-rpc-api/41980/2
-- https://medium.com/@hanh425/transaction-privacy-78f80f9f175e
-- https://znewsletter.netlify.app/
-- https://github.com/zcash/zips/issues/470
-- https://zips.z.cash/protocol/nu5.pdf#unifiedpaymentaddrencoding
-
-</div>
+*Якщо цей посібник був для вас корисним, розгляньте можливість підтримати ZecHub: [вставте актуальну shielded-адресу для пожертв ZecHub із zechub.wiki/donation — її тут не включено, оскільки я не зміг перевірити, що вона досі актуальна].*

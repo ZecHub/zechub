@@ -35,7 +35,7 @@ When sending a transaction, your real public key is mixed with several decoy key
 
 **Ogo mgbanaka** na-emetụta ihe a na-akpọghị aha. Mgbaaka buru ibu na-enye nzuzo ka mma.
 
-[Mgbaaka Signatures nkọwa]](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
+[Mgbaaka Signatures nkọwa](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
 
 **Nkọwa na Zcash**: 
 Zcash's anonymity set bụ ngụkọta ọnụ ọgụgụ nke azụmahịa * mgbe ọ bụla * emere na ọdọ mmiri echedoro (nke buru ibu karịa nha mgbanaka CryptoNote).
@@ -74,7 +74,7 @@ It uses the **CryptoNight** algorithm (a memory-hard function). Unlike Bitcoin�
 2. Na-eme ọtụtụ ọgụgụ / dee arụmọrụ na scratchpad
 3. Hash dum scratchpad iji mepụta uru ikpeazụ
 
-[Mgbapụta CryptoNight]](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
+[Mgbapụta CryptoNight](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
 
 (Mara: Monero esila na CryptoNight pụọ gaa na algọridim ndị ọzọ.)
 
@@ -86,7 +86,7 @@ Kama ịbelata ihe omume na mberede (dịka Bitcoin), CryptoNote na-eji ** ụgw
 
 Nke a na-eme ka usoro mmepụta ihe dị nro karịa oge.
 
-[Dynamic emission curve]](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
+[Dynamic emission curve](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
 
 ** Njikọ Zcash **: 
 Ndị mmepe Zcash atụlewo itinye usoro nkwụsị nke ọma n'ọdịnihu, ikekwe site na "Zcash Posterity Fund".
