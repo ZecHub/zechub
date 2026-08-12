@@ -1,4 +1,3 @@
----
 # Aggiornamenti di rete di Zcash
 
 Zcash migliora attraverso aggiornamenti di rete: modifiche coordinate alle regole su cui ogni nodo concorda, ciascuna attivata a un'altezza di blocco prestabilita. Ogni aggiornamento qui sotto ha una propria pagina che spiega, in linguaggio semplice, che cosa ha cambiato e perché. Sei nuovo su Zcash? Leggile in ordine, da Sprout a Ironwood.

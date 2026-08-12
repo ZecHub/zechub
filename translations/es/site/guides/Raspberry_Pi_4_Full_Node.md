@@ -1,4 +1,3 @@
----
 # Ejecuta un Nodo Completo en una Raspberry Pi 4 (Zebra + Zallet)
 
 *Migrado de la guía original basada en zcashd. zcashd alcanzó su detención automática de Fin de Soporte el 18 de julio de 2026, por lo que esta guía ahora usa **Zebra** (el nodo completo actual, mantenido por la Zcash Foundation) y **Zallet** (la wallet creada para reemplazar la wallet integrada de zcashd).*

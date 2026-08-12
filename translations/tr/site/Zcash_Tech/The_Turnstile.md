@@ -1,4 +1,3 @@
----
 # Turnike
 
 ## Kısaca

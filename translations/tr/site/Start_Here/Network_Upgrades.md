@@ -1,4 +1,3 @@
----
 # Zcash Ağ Yükseltmeleri
 
 Zcash, ağ yükseltmeleri aracılığıyla gelişir: her düğümün üzerinde uzlaştığı kurallarda yapılan koordineli değişikliklerdir ve her biri belirli bir blok yüksekliğinde etkinleştirilir. Aşağıdaki her yükseltmenin, neyi değiştirdiğini ve nedenini sade bir dille açıklayan kendi sayfası vardır. Zcash'e yeni mi başladınız? Bunları Sprout'tan Ironwood'a doğru sırayla okuyun.

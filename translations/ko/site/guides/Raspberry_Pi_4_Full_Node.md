@@ -1,4 +1,3 @@
----
 # Raspberry Pi 4에서 풀 노드 실행하기 (Zebra + Zallet)
 
 *원래의 zcashd 기반 가이드에서 이전되었습니다. zcashd는 2026년 7월 18일에 자동 End-of-Support 중단에 도달했으므로, 이 가이드는 이제 **Zebra**(Zcash Foundation이 유지 관리하는 현재 풀 노드)와 **Zallet**(zcashd의 내장 지갑을 대체하기 위해 만들어진 지갑)을 사용합니다.*

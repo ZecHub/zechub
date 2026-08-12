@@ -1,4 +1,3 @@
----
 # Zcash-Bibliothek
 
 Ein umfassendes Glossar zentraler Begriffe, Konzepte und Ressourcen rund um Zcash.

@@ -1,4 +1,3 @@
----
 # El torniquete
 
 ## TL;DR
