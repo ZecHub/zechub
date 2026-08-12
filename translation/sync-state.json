@@ -16691,7 +16691,7 @@
       "src_commit": "7a2bd73fd47df7de2c47ccd6d105c3da6a9762b7",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4",
+      "tool": "hand-edit-front-matter",
       "edited": true
     },
     "Using_Zcash/Payment_Request_URIs.md": {
