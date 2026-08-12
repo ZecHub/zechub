@@ -1,4 +1,3 @@
----
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Pepper_Sync.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Modifica Pagina"/>
 </a>

@@ -1,4 +1,3 @@
----
 <a href="https://github.com/ZecHub/zechub/edit/main/site/Zcash_Organizations/ZKAV.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
 </a>

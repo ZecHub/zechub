@@ -1,4 +1,3 @@
----
 # <img src="/content-images/send-svgrepo-com-b62f643de0.svg" width="24" height="24" alt="Journalist icon"/> 신원을 연결하지 않고 돈 보내기
 
 <span className="inline-flex items-center gap-[6px]"><span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>중급 - 7분</span>

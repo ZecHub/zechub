@@ -1,4 +1,3 @@
----
 # Zcash-Mining-Leitfaden: Beitritt zu einem Mining-Pool mit eigener Hardware
 
 ## Einführung

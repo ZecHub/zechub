@@ -1,4 +1,3 @@
----
 # Guide de minage Zcash : rejoindre un pool de minage avec du matériel personnel
 
 ## Introduction
