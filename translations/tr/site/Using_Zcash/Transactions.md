@@ -1,4 +1,3 @@
----
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Transactions.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
 </a>

@@ -1,4 +1,3 @@
----
 <a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Arborist_Calls.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="पृष्ठ संपादित करें"/>
 </a>

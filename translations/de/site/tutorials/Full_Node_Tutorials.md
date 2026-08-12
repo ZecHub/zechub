@@ -1,4 +1,3 @@
----
 <a href="https://github.com/zechub/zechub/edit/main/site/tutorials/Full_Node_Tutorials.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Seite bearbeiten"/>
 </a>

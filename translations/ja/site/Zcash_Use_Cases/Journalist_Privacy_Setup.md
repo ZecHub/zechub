@@ -1,4 +1,3 @@
----
 # <img src="/content-images/journalist-host-profession-interview-svg-2eb63ae5c9.svg" width="24" height="24" alt="Journalist icon"/> Zcashを使ったジャーナリスト向けプライバシー設定
 
 <span className="inline-flex items-center gap-[6px]">

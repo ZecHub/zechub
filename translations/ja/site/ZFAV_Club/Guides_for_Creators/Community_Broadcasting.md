@@ -1,4 +1,3 @@
----
 <a href="https://github.com/Zechub/zechub/edit/main/site/ZFAV_Club/Guides_for_Creators/Community_Broadcasting.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
 </a>
