@@ -1512,7 +1512,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": true
+      "edited": false
     },
     "Privacy_Tools/2FA_Hardware_Devices.md": {
       "src": "sha256:e8c54a864b1671595f24c1398d4725f99599e91b7920533d764b6addfc0342e9",
@@ -1928,7 +1928,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": true
+      "edited": false
     },
     "Using_Zcash/Transparent_Exchange_Addresses.md": {
       "src": "sha256:1c6fe528a374cbb705e3473b3eaf469c6012f4a049fd3cce7979b6a3e10f1d26",
@@ -13368,7 +13368,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Privacy_Tools/2FA_Hardware_Devices.md": {
       "src": "sha256:e8c54a864b1671595f24c1398d4725f99599e91b7920533d764b6addfc0342e9",
@@ -14248,7 +14248,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Zcash_Tech/Full_Nodes.md": {
       "src": "sha256:98eff2f62cfcc28bab311929f311857dcd576730c27079ae96062ed643a5db7b",
