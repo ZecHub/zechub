@@ -1,4 +1,3 @@
----
 # Das Drehkreuz
 
 ## TL;DR

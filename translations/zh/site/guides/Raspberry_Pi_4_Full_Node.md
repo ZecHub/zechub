@@ -1,4 +1,3 @@
----
 # 在 Raspberry Pi 4 上运行完整节点（Zebra + Zallet）
 
 *已从原始基于 zcashd 的指南迁移。zcashd 已于 2026 年 7 月 18 日达到其自动停止支持（End-of-Support）期限，因此本指南现改用 **Zebra**（当前的完整节点，由 Zcash Foundation 维护）和 **Zallet**（为替代 zcashd 内置钱包而构建的钱包）。*

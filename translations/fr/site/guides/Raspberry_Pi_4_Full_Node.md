@@ -1,4 +1,3 @@
----
 # Exécuter un nœud complet sur un Raspberry Pi 4 (Zebra + Zallet)
 
 *Migré depuis le guide original basé sur zcashd. zcashd a atteint son arrêt automatique de fin de support le 18 juillet 2026, donc ce guide utilise désormais **Zebra** (le nœud complet actuel, maintenu par la Zcash Foundation) et **Zallet** (le portefeuille conçu pour remplacer le portefeuille intégré de zcashd).*

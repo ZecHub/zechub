@@ -1,4 +1,3 @@
----
 # Einen Full Node auf einem Raspberry Pi 4 betreiben (Zebra + Zallet)
 
 *Aus der ursprünglichen zcashd-basierten Anleitung migriert. zcashd erreichte seinen automatischen End-of-Support-Stopp am 18. Juli 2026, daher verwendet diese Anleitung nun **Zebra** (den aktuellen Full Node, gepflegt von der Zcash Foundation) und **Zallet** (die Wallet, die als Ersatz für die integrierte Wallet von zcashd entwickelt wurde).*

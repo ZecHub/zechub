@@ -1,4 +1,3 @@
----
 # Raspberry Pi 4でフルノードを運用する（Zebra + Zallet）
 
 *元のzcashdベースのガイドから移行しました。zcashdは2026年7月18日に自動的なサポート終了停止に達したため、このガイドでは現在**Zebra**（Zcash Foundationが保守する現行のフルノード）と**Zallet**（zcashdの内蔵ウォレットを置き換えるために作られたウォレット）を使用します。*

@@ -1,4 +1,3 @@
----
 ![Tor logo](/content-images/_unavailable.svg)
 
 # **Arti: Rust로 만들어진 차세대 Tor 클라이언트**

@@ -1512,7 +1512,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Privacy_Tools/2FA_Hardware_Devices.md": {
       "src": "sha256:e8c54a864b1671595f24c1398d4725f99599e91b7920533d764b6addfc0342e9",
@@ -1648,7 +1648,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Research/zcash-foundations-series/article-0/article-0-shielded-transaction.md": {
       "src": "sha256:16211c5d1f153e97b1865c87c37349ddf35e2894e31fa7ee039882e22229e2af",
@@ -2080,7 +2080,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
       "src": "sha256:57c464b8a8c1a1ca93196173c94ee49b990a475eaa9c166cd05d42cbd959f684",
@@ -2744,7 +2744,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
       "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
@@ -2994,7 +2994,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Privacy_Tools/2FA_Hardware_Devices.md": {
       "src": "sha256:e8c54a864b1671595f24c1398d4725f99599e91b7920533d764b6addfc0342e9",
@@ -3130,7 +3130,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Research/zcash-foundations-series/article-0/article-0-shielded-transaction.md": {
       "src": "sha256:16211c5d1f153e97b1865c87c37349ddf35e2894e31fa7ee039882e22229e2af",
@@ -3562,7 +3562,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
       "src": "sha256:57c464b8a8c1a1ca93196173c94ee49b990a475eaa9c166cd05d42cbd959f684",
@@ -3922,7 +3922,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Zcash_Tech/Viewing_Keys.md": {
       "src": "sha256:ab019e4a9d16d3981ae90e2144e24875c6ce92e5732d53a51dc638bfbbfce7d0",
@@ -4226,7 +4226,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
       "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
@@ -6094,7 +6094,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Research/zcash-foundations-series/article-0/article-0-shielded-transaction.md": {
       "src": "sha256:16211c5d1f153e97b1865c87c37349ddf35e2894e31fa7ee039882e22229e2af",
@@ -6526,7 +6526,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
       "src": "sha256:57c464b8a8c1a1ca93196173c94ee49b990a475eaa9c166cd05d42cbd959f684",
@@ -6886,7 +6886,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Zcash_Tech/Viewing_Keys.md": {
       "src": "sha256:ab019e4a9d16d3981ae90e2144e24875c6ce92e5732d53a51dc638bfbbfce7d0",
@@ -7190,7 +7190,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
       "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
@@ -8008,7 +8008,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
       "src": "sha256:57c464b8a8c1a1ca93196173c94ee49b990a475eaa9c166cd05d42cbd959f684",
@@ -8672,7 +8672,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
       "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
@@ -9058,7 +9058,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Research/zcash-foundations-series/article-0/article-0-shielded-transaction.md": {
       "src": "sha256:16211c5d1f153e97b1865c87c37349ddf35e2894e31fa7ee039882e22229e2af",
@@ -10154,7 +10154,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
       "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
@@ -11886,7 +11886,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Privacy_Tools/2FA_Hardware_Devices.md": {
       "src": "sha256:e8c54a864b1671595f24c1398d4725f99599e91b7920533d764b6addfc0342e9",
@@ -12102,7 +12102,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Start_Here/New_User_Guide.md": {
       "src": "sha256:34259b0d572be1ea578af13581808c2563c15ad6ad449f718c400ae4eab08da5",
@@ -14296,7 +14296,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Zcash_Tech/Viewing_Keys.md": {
       "src": "sha256:ab019e4a9d16d3981ae90e2144e24875c6ce92e5732d53a51dc638bfbbfce7d0",
@@ -14600,7 +14600,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
       "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
@@ -14866,7 +14866,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Privacy_Tools/GrapheneOS.md": {
       "src": "sha256:52f4a4bc525f32e427a28b2449d16f8cd7f85d3d81629cab29f2040ef52b1082",
@@ -14898,7 +14898,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Privacy_Tools/Secure_Messengers.md": {
       "src": "sha256:583ff3c67de6ad2dff1cb2cd848350847ca9f4f68bc6378e9f7e6109ba385a4b",
@@ -16082,7 +16082,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
       "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
@@ -16332,7 +16332,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Privacy_Tools/2FA_Hardware_Devices.md": {
       "src": "sha256:e8c54a864b1671595f24c1398d4725f99599e91b7920533d764b6addfc0342e9",
@@ -16692,7 +16692,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Using_Zcash/Payment_Request_URIs.md": {
       "src": "sha256:9c9a6773f7a7ca5072db5ae5950f9a352f79aff6335487108ec739a18b3027a3",
@@ -17564,7 +17564,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
       "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
@@ -17814,7 +17814,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Privacy_Tools/2FA_Hardware_Devices.md": {
       "src": "sha256:e8c54a864b1671595f24c1398d4725f99599e91b7920533d764b6addfc0342e9",
@@ -17950,7 +17950,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Research/zcash-foundations-series/article-0/article-0-shielded-transaction.md": {
       "src": "sha256:16211c5d1f153e97b1865c87c37349ddf35e2894e31fa7ee039882e22229e2af",
@@ -18382,7 +18382,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
       "src": "sha256:57c464b8a8c1a1ca93196173c94ee49b990a475eaa9c166cd05d42cbd959f684",
@@ -19046,7 +19046,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
       "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
@@ -20778,7 +20778,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Privacy_Tools/2FA_Hardware_Devices.md": {
       "src": "sha256:e8c54a864b1671595f24c1398d4725f99599e91b7920533d764b6addfc0342e9",
@@ -20914,7 +20914,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Research/zcash-foundations-series/article-0/article-0-shielded-transaction.md": {
       "src": "sha256:16211c5d1f153e97b1865c87c37349ddf35e2894e31fa7ee039882e22229e2af",
@@ -20994,7 +20994,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Start_Here/New_User_Guide.md": {
       "src": "sha256:34259b0d572be1ea578af13581808c2563c15ad6ad449f718c400ae4eab08da5",
@@ -21706,7 +21706,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Zcash_Tech/Viewing_Keys.md": {
       "src": "sha256:ab019e4a9d16d3981ae90e2144e24875c6ce92e5732d53a51dc638bfbbfce7d0",
@@ -22396,7 +22396,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Research/zcash-foundations-series/article-0/article-0-shielded-transaction.md": {
       "src": "sha256:16211c5d1f153e97b1865c87c37349ddf35e2894e31fa7ee039882e22229e2af",
@@ -23492,7 +23492,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
       "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",
@@ -25224,7 +25224,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Privacy_Tools/2FA_Hardware_Devices.md": {
       "src": "sha256:e8c54a864b1671595f24c1398d4725f99599e91b7920533d764b6addfc0342e9",
@@ -25360,7 +25360,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Research/zcash-foundations-series/article-0/article-0-shielded-transaction.md": {
       "src": "sha256:16211c5d1f153e97b1865c87c37349ddf35e2894e31fa7ee039882e22229e2af",
@@ -25440,7 +25440,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Start_Here/New_User_Guide.md": {
       "src": "sha256:34259b0d572be1ea578af13581808c2563c15ad6ad449f718c400ae4eab08da5",
@@ -25664,7 +25664,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Using_Zcash/Zcash_Mining_Pools.md": {
       "src": "sha256:bac3f385f45ef2020284984baf943b3d308c282a63594184bcadac2b04f1e296",
@@ -26152,7 +26152,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "Zcash_Tech/Viewing_Keys.md": {
       "src": "sha256:ab019e4a9d16d3981ae90e2144e24875c6ce92e5732d53a51dc638bfbbfce7d0",
@@ -26456,7 +26456,7 @@
       "engine": "llm",
       "mode": "full",
       "tool": "gpt-5.4",
-      "edited": false
+      "edited": true
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
       "src": "sha256:05f77f65cd81f14f90c49f756eab4c3d6caedae372614aa4ac4edf7e18d7d018",

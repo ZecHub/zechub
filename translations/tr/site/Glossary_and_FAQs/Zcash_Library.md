@@ -1,4 +1,3 @@
----
 # Zcash Kütüphanesi
 
 Zcash ile ilgili temel terimler, kavramlar ve kaynaklar için kapsamlı bir sözlük.

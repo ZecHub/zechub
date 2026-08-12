@@ -1,4 +1,3 @@
----
 # Executar um Nó Completo num Raspberry Pi 4 (Zebra + Zallet)
 
 *Migrado do guia original baseado em zcashd. O zcashd atingiu a sua paragem automática de Fim de Suporte em 18 de julho de 2026, por isso este guia utiliza agora o **Zebra** (o nó completo atual, mantido pela Zcash Foundation) e o **Zallet** (a wallet criada para substituir a wallet integrada do zcashd).*
