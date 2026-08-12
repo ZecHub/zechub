@@ -20,6 +20,7 @@
   "Research/Social_Media_Data_Collection.md": "Social Media Data Collection",
   "Research/Track_Early_Onchain_And_Social_Signals_for_Zcash.md": "Tracking Early On-chain & Social Signals for Zcash (ZEC)",
   "Research/ZK_Shielded_Asset_Platforms.md": "Zero Knowledge Asset Platforms",
+  "Research/confidentiality-compared.md": "Confidentiality compared: what four privacy architectures promise",
   "Research/zcash-foundations-series/article-0/article-0-shielded-transaction.md": "How a Shielded Zcash Transaction Actually Works",
   "Research/zcash-foundations-series/article-1/article-1-finite-fields.md": "Finite Fields: The Number System Cryptography Lives In",
   "Research/zcash-foundations-series/article-2/article-2-elliptic-curves.md": "Elliptic Curves: Where Zcash's Keys and Commitments Are Born",
