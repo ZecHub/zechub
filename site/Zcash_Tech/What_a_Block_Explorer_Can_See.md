@@ -56,7 +56,7 @@ Query the raw data and the shielded sender and receiver fields come back empty. 
 
 ## Put it into practice
 
-- Use a wallet that defaults to shielded addresses, such as [Zashi](https://electriccoin.co/zashi/) or [Ywallet](https://ywallet.app/).
+- Use a wallet that defaults to shielded addresses, such as [Zodl](https://zodl.com) or [Ywallet](https://ywallet.app/).
 - When you receive ZEC at a transparent address, move it into a shielded address before you spend it.
 - Pay to shielded addresses where you can. Every transparent payment is fully public; a shielded one is not.
 

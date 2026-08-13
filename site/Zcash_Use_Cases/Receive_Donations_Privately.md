@@ -51,7 +51,7 @@ This allows you to receive funds **without exposing your financial graph**.
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
 - A Zcash wallet that supports shielded addresses:
-  - Zashi
+  - Zodl
   - YWallet
   - Other supported wallets
 
