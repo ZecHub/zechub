@@ -336,7 +336,7 @@
       "tool": "gt-static",
       "edited": false
     },
-    "Using_Zcash/zimppy.md": {
+    "Using_Zcash/Zimppy.md": {
       "src": "sha256:c30e6efd84b35cb00b1d172b08d1c838cf5590218dab7ef028cc1423ea175edb",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
@@ -1962,7 +1962,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Using_Zcash/zimppy.md": {
+    "Using_Zcash/Zimppy.md": {
       "src": "sha256:c30e6efd84b35cb00b1d172b08d1c838cf5590218dab7ef028cc1423ea175edb",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -3444,7 +3444,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Using_Zcash/zimppy.md": {
+    "Using_Zcash/Zimppy.md": {
       "src": "sha256:c30e6efd84b35cb00b1d172b08d1c838cf5590218dab7ef028cc1423ea175edb",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -4782,7 +4782,7 @@
       "tool": "gt-static",
       "edited": false
     },
-    "Using_Zcash/zimppy.md": {
+    "Using_Zcash/Zimppy.md": {
       "src": "sha256:c30e6efd84b35cb00b1d172b08d1c838cf5590218dab7ef028cc1423ea175edb",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
@@ -6408,7 +6408,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Using_Zcash/zimppy.md": {
+    "Using_Zcash/Zimppy.md": {
       "src": "sha256:c30e6efd84b35cb00b1d172b08d1c838cf5590218dab7ef028cc1423ea175edb",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -7890,7 +7890,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Using_Zcash/zimppy.md": {
+    "Using_Zcash/Zimppy.md": {
       "src": "sha256:c30e6efd84b35cb00b1d172b08d1c838cf5590218dab7ef028cc1423ea175edb",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -9372,7 +9372,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Using_Zcash/zimppy.md": {
+    "Using_Zcash/Zimppy.md": {
       "src": "sha256:c30e6efd84b35cb00b1d172b08d1c838cf5590218dab7ef028cc1423ea175edb",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -10854,7 +10854,7 @@
       "tool": "nllb-200-3.3B",
       "edited": false
     },
-    "Using_Zcash/zimppy.md": {
+    "Using_Zcash/Zimppy.md": {
       "src": "sha256:c30e6efd84b35cb00b1d172b08d1c838cf5590218dab7ef028cc1423ea175edb",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
@@ -12336,7 +12336,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Using_Zcash/zimppy.md": {
+    "Using_Zcash/Zimppy.md": {
       "src": "sha256:c30e6efd84b35cb00b1d172b08d1c838cf5590218dab7ef028cc1423ea175edb",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -13818,7 +13818,7 @@
       "tool": "qwen3-14b",
       "edited": false
     },
-    "Using_Zcash/zimppy.md": {
+    "Using_Zcash/Zimppy.md": {
       "src": "sha256:c30e6efd84b35cb00b1d172b08d1c838cf5590218dab7ef028cc1423ea175edb",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -15300,7 +15300,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Using_Zcash/zimppy.md": {
+    "Using_Zcash/Zimppy.md": {
       "src": "sha256:c30e6efd84b35cb00b1d172b08d1c838cf5590218dab7ef028cc1423ea175edb",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -16782,7 +16782,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Using_Zcash/zimppy.md": {
+    "Using_Zcash/Zimppy.md": {
       "src": "sha256:c30e6efd84b35cb00b1d172b08d1c838cf5590218dab7ef028cc1423ea175edb",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -18264,7 +18264,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Using_Zcash/zimppy.md": {
+    "Using_Zcash/Zimppy.md": {
       "src": "sha256:c30e6efd84b35cb00b1d172b08d1c838cf5590218dab7ef028cc1423ea175edb",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -19746,7 +19746,7 @@
       "tool": "nllb-200-3.3B",
       "edited": false
     },
-    "Using_Zcash/zimppy.md": {
+    "Using_Zcash/Zimppy.md": {
       "src": "sha256:c30e6efd84b35cb00b1d172b08d1c838cf5590218dab7ef028cc1423ea175edb",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
@@ -21228,7 +21228,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Using_Zcash/zimppy.md": {
+    "Using_Zcash/Zimppy.md": {
       "src": "sha256:c30e6efd84b35cb00b1d172b08d1c838cf5590218dab7ef028cc1423ea175edb",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -22710,7 +22710,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Using_Zcash/zimppy.md": {
+    "Using_Zcash/Zimppy.md": {
       "src": "sha256:c30e6efd84b35cb00b1d172b08d1c838cf5590218dab7ef028cc1423ea175edb",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
@@ -24192,7 +24192,7 @@
       "tool": "nllb-200-3.3B",
       "edited": false
     },
-    "Using_Zcash/zimppy.md": {
+    "Using_Zcash/Zimppy.md": {
       "src": "sha256:c30e6efd84b35cb00b1d172b08d1c838cf5590218dab7ef028cc1423ea175edb",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
@@ -25674,7 +25674,7 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Using_Zcash/zimppy.md": {
+    "Using_Zcash/Zimppy.md": {
       "src": "sha256:c30e6efd84b35cb00b1d172b08d1c838cf5590218dab7ef028cc1423ea175edb",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
