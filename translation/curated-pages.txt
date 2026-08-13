@@ -60,8 +60,8 @@ Using_Zcash/Wallets.md
 Using_Zcash/Zallet_Quick_Reference_Guide.md
 Using_Zcash/Zcash_Mining_Guide.md
 Using_Zcash/Zcash_Mining_Pools.md
-Using_Zcash/zecmap.md
-Using_Zcash/zimppy.md
+Using_Zcash/Zecmap.md
+Using_Zcash/Zimppy.md
 ZFAV_Club/Guides_for_Creators.md
 ZFAV_Club/Guides_for_Creators/AI_tools.md
 ZFAV_Club/Guides_for_Creators/AI_tools_for_offline.md
