@@ -1,10 +1,8 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/zecmap.md" target="_blank">
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Zecmap.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # ZecMap
-
-> 🇧🇷 [Versão em Português](/zechubglobal/zcashbrasil/usandozec/zecmap)
 
 ZecMap is a global, community-driven directory for discovering businesses and services that accept Zcash (ZEC). Built around an interactive map interface, it helps ZEC holders answer a practical question: **"Where can I spend my ZEC?"**
 
