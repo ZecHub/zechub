@@ -129,6 +129,16 @@ Multi-chain, open-source, self-custodial wallet that supports sending, receiving
 Live non-custodial tipping platform where every tip arrives as shielded ZEC. Supports cross-chain on-ramps via NEAR Intents.  
 [Visit](https://tipz.cash/)
 
+### CYZE
+A collaborative wallet and coordination platform that allows multiple team members to manage shielded Zcash funds together. It uses FROST threshold signatures, enabling groups to authorize Orchard transactions collectively without giving a single participant complete control over the wallet.
+
+[Visit](https://github.com/USCMig/Cyze)
+
+### Pendrake Watch
+A watch-only desktop wallet designed for individuals and organizations that need to monitor shielded funds without having the ability to spend them. It supports transaction and balance monitoring, Orchard and Sapling notes, memo viewing, historical fiat valuation, transaction notifications, wallet encryption, and privacy-focused screen-sharing features.
+
+[Visit](https://github.com/auzum197/pendrake-watch)
+
 ---
 
 ## Explorers, Data, and Network Dashboards
@@ -185,6 +195,11 @@ A privacy-focused static website that aggregates Zcash news, statistics, and edu
 
 [Forum](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 
+### ZEC-OS
+Aretro-style desktop interface that combines various Zcash ecosystem tools and information into one application. It includes a blockchain explorer, mempool viewer, network statistics, historical charts, shielded pool information, mining tools, a Unified Address decoder, calculator, games, terminal, and other utilities.
+
+[Visit](https://www.zec-os.com/)
+
 ---
 
 ## Identity, Names, and User Experience
@@ -218,6 +233,11 @@ A privacy-focused tipping platform for streamers that enables viewers to send sh
 A privacy-preserving financial tracking and accounting tool for Zcash. It combines a public dashboard for transparent network data with local private accounting that uses viewing keys without exposing them, helping users track balances, transaction history, cost basis, and eventually budgeting and tax-ready reports while keeping their funds secure and private.
 
 [Visit](https://zecledger-web.vercel.app/)
+
+### Authentication with ZcashMe
+A privacy-focused authentication system that uses shielded Zcash transactions as a login mechanism. Users scan a QR code and send a small authentication transaction.
+
+[Visit](https://github.com/zcashme/zns-login)
 
 ---
 
@@ -279,6 +299,11 @@ Browser wallet with Zcash support.
 AI platform that provides access to multiple leading AI models while supporting cryptocurrency payments, including Zcash.
 
 [Visit](https://nano-gpt.com/conversation/new)
+
+### zk.poker
+A peer-to-peer poker platform that combines end-to-end encryption, mental poker, and Zcash privacy technology. It is designed so that the operator does not need to know players' cards or directly hold the betting funds.
+
+[Visit](https://zkbtc.org/)
 
 
 ---
