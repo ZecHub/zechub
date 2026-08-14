@@ -2,14 +2,14 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="페이지 편집"/>
 </a>
 
-# <img src="https://i.ibb.co/bmS65xV/image-2024-02-03-173258092.png" alt="Alt Text" width="50"/>   보관형 거래소
+# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   보관형 거래소
 
 ---
 
 ### [Binance](https://binance.com)
 
 <a href="https://binance.com">
-    <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png" alt="Binance 로고" width="200" height="100"/>
+    <img src="/content-images/_unavailable.svg" alt="Binance Logo" width="200" height="100"/>
 </a>
 
 - 웹사이트: [Binance](https://binance.com)
@@ -21,7 +21,7 @@ ___
 ### [BitcoinVN](https://bitcoinvn.io)
 
 <a href="https://bitcoinvn.io">
-    <img src="https://bitcoinvn.io/img/bitcoinvn-logo.png" alt="BitcoinVN 로고" width="200" height="100"/>
+    <img src="/content-images/_unavailable.svg" alt="BitcoinVN 로고" width="200" height="100"/>
 </a>
 
 - 웹사이트: [BitcoinVN](https://bitcoinvn.io)
@@ -45,7 +45,7 @@ ___
 ### [Coinbase](https://coinbase.com)
 
 <a href="https://coinbase.com">
-    <img src="https://i.ibb.co/XWkqhdY/coinbase.png" alt="" width="200" height="100"/>
+    <img src="/content-images/coinbase-8643659341.webp" alt="" width="200" height="100"/>
 </a>
 
 - 웹사이트: [Coinbase](https://coinbase.com)
@@ -57,7 +57,7 @@ ___
  ### [Gemini](https://gemini.com)
 
 <a href="https://gemini.com">
-    <img src="https://logos-world.net/wp-content/uploads/2023/12/Gemini-Symbol.png" alt="Gemini 보관형 거래소 로고" width="200" height="100"/>
+    <img src="/content-images/Gemini-Symbol-ddd31ee98b.webp" alt="Gemini 보관형 거래소 로고" width="200" height="100"/>
 </a>
 
 - 웹사이트: [Gemini](https://gemini.com)
@@ -69,7 +69,7 @@ ___
 ### [Huobi](https://huobi.com)
 
 <a href="https://huobi.com">
-    <img src="https://seeklogo.com/images/H/huobi-global-logo-82DAA48E43-seeklogo.com.png" alt="Huobi 로고" width="200" height="100"/>
+    <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
 - 웹사이트: [Huobi](https://huobi.com)
@@ -81,7 +81,7 @@ ___
 ### [Kraken](https://kraken.com)
 
 <a href="https://kraken.com">
-    <img src="https://assets.kraken.com/marketing/static/kraken-logo.jpg" alt="Kraken 홍보 이미지" width="200" height="100"/>
+    <img src="/content-images/kraken-logo-7407ab477f.webp" alt="Kraken 홍보 이미지" width="200" height="100"/>
 </a>
 
 - 웹사이트: [Kraken](https://kraken.com)
@@ -93,7 +93,7 @@ ___
 ### [KuCoin](https://kucoin.com)
 
 <a href="https://kucoin.com">
-    <img src="https://www.svgrepo.com/show/331460/kucoin.svg" alt="KuCoin 로고" width="200" height="100"/>
+    <img src="/content-images/kucoin-ee0c21f9fd.svg" alt="KuCoin 로고" width="200" height="100"/>
 </a>
 
 - 웹사이트: [KuCoin](https://kucoin.com)

@@ -1,7 +1,7 @@
 # O Protocolo Shielded, de Ponta a Ponta
 ##### Pesquisa Original de [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![texto alternativo](image-27.png)
+![texto alternativo](/content-images/image-27-4094293ec0.webp)
 
 ### Montando cada peça em uma única transação privada de Zcash
 
@@ -41,7 +41,7 @@ Aqui está a série inteira em uma página, mapeada da história do Artigo 0 par
 
 Tudo o que um usuário pode fazer flui de um único segredo, a **spending key**, por meio de uma hierarquia unidirecional (cada seta é uma derivação irreversível, cortesia dos alçapões dos Artigos 2 e 3):
 
-![texto alternativo](image-32.png)
+![texto alternativo](/content-images/image-32-f443f9bb72.webp)
 
 Duas coisas que vale a pena notar, ambas consequências dos artigos anteriores:
 
@@ -54,7 +54,7 @@ Duas coisas que vale a pena notar, ambas consequências dos artigos anteriores:
 
 Para gastar uma note de forma privada, você precisa convencer a rede de quatro coisas ao mesmo tempo **sem revelar a note, seu valor, sua posição ou sua identidade.** Cada alegação é satisfeita por um componente que você já conhece.
 
-![texto alternativo](image-31.png)
+![texto alternativo](/content-images/image-31-86309af194.webp)
 
 A prova não revela **nenhum** dos fatos subjacentes (qual note, de qual chave, qual valor). Ela revela apenas que *as quatro alegações são verdadeiras.* Esse é todo o truque do Zcash shielded, expresso em um único diagrama.
 
@@ -92,7 +92,7 @@ Vamos montar Alice pagando Bob. Usaremos a estrutura clara de Sapling de "lado d
 
 Além de uma **binding signature** sobre o pacote inteiro, impondo o saldo de valor (Seção 5).
 
-![texto alternativo](image-30.png)
+![texto alternativo](/content-images/image-30-98511eb2d0.webp)
 
 Acompanhe a privacidade: a rede verificou o anchor, verificou que o nullifier era novo, verificou a prova e verificou o saldo. Ela aceitou um pagamento válido **sem ter aprendido nenhum valor, nenhum endereço e nem qual note foi gasta.** Enquanto isso, o **nullifier** da note gasta (sua morte) e o novo **commitment** de Bob (o nascimento da note dele) ficam em duas estruturas públicas diferentes sem ligação visível entre eles, o elo rompido do Artigo 0.
 
@@ -198,7 +198,7 @@ Os valores estão ocultos, mas cada um é encapsulado em um value commitment hom
 
 Agora você percorreu o caminho de um único paradoxo até um pagamento privado completo:
 
-![texto alternativo](https://github.com/user-attachments/assets/cd8bbb40-57b8-4854-b9cf-97f2485d126a)
+![texto alternativo](/content-images/cd8bbb40-57b8-4854-b9cf-97f2485d126a-8847fae521.webp)
 
 
 A partir daqui, o próximo arco natural vai mais fundo: o funcionamento interno de Groth16 e Halo 2, cerimônias de trusted setup, os circuitos de Sapling e Orchard em detalhe, derivação de chaves e endereços diversificados e a evolução do protocolo ao longo das network upgrades. Mas a fundação agora está no lugar, e cada um desses tópicos já tem uma base à qual se conectar.

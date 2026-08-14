@@ -43,7 +43,7 @@ Zcash is an implementation of the "Zerocash" protocol. It is an open-source, blo
 Zcash solves Bitcoin's biggest flaw; private ownership and transfer of data. In a world where blockchain applications and cryptocurrencies are becoming more widely accepted, pseudonymous transactions are no longer a viable option to protect user privacy. Surveillance applications are becoming more widely used to analyze blockchain transactions.
 
 <a href="">
-    <img src="https://i.ibb.co/NN3XxrG/Zcash-logo-1.png" alt="" width="60" height="60"/>
+    <img src="/content-images/Zcash-logo-1-26747e0dd3.webp" alt="" width="60" height="60"/>
 </a>
 
 #### Akụnụba
@@ -58,7 +58,7 @@ Zcash solves Bitcoin's biggest flaw; private ownership and transfer of data. In 
 
 ## Peeji ndị metụtara ya
 
-- [Ntuziaka Onye Ọrụ Ọhụrụ]](/start-here/new-user-guide)  Nzọụkwụ-site-nzọụkwụ onboarding maka ọhụrụ ZEC ịgụ
+- [Ntuziaka Onye Ọrụ Ọhụrụ](/start-here/new-user-guide)  Nzọụkwụ-site-nzọụkwụ onboarding maka ọhụrụ ZEC ịgụ
 - [Akpa ego](/using-zcash/wallets)  Họrọ obere akpa echedoro iji jide ZEC gị
 - [Ịzụta ZEC](/using-zcash/buying-zec)  Ebee na otu esi enweta ZEC
 - [Egwú Mmiri Ndị E Chebere](/using-zcash/shielded-pools)  Otu Zcash pools si eme ka azụmahịa dị na nzuzo

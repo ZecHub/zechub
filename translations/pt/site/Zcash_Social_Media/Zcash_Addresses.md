@@ -15,7 +15,7 @@ Hoje vamos aprender sobre elas e abordar um dos novos recursos do ecossistema #Z
 
 **Transação Blindada** refere-se a qualquer transação com endereços codificados para os pools Sapling/Orchard.
 
-![Introdução a Transparentes vs Blindadas](https://pbs.twimg.com/media/FpmW00HWIAIZpQD.jpg)
+![Introdução a Transparentes vs Blindadas](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
 
 As **Unified Addresses (UAs)** foram projetadas para **unificar** transações blindadas ou transparentes em um único endereço.
 
@@ -31,9 +31,9 @@ Há 3 tipos de endereço em uso:
 
 O número de caracteres (e, portanto, o tamanho do código QR) aumenta a cada tipo.
 
-![Comparação dos tipos de endereço](https://pbs.twimg.com/media/FpmXe5bXsAEFeLY.png)
+![Comparação dos tipos de endereço](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
 
-![Comparação do tamanho do código QR](https://pbs.twimg.com/media/FpmXmDwXoAIWxov.png)
+![Comparação do tamanho do código QR](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
 
 ---
 
@@ -50,7 +50,7 @@ A codificação bruta de uma Unified Address é uma combinação das codificaç�
 
 **Importante**: Deve haver **pelo menos um endereço de pagamento blindado** em toda UA. (Endereços Sprout não são mais suportados após a atualização Canopy.)
 
-![Estrutura de codificação da UA](https://pbs.twimg.com/media/FpmYW1ZXgAAvALT.png)
+![Estrutura de codificação da UA](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
 
 Especificação completa: **[ZIP-316: Unified Addresses](https://zips.z.cash/zip-0316)**
 

@@ -17,7 +17,7 @@ Zcash 是一种独特的区块链协议，因为它是自筹资金的。这意�
 在 Bitcoin 和其他加密货币中，所有区块奖励都会发放给区块生产者。Zcash 的独特之处在于，其中 20% 的区块奖励会转入 [Zcash development fund](https://zips.z.cash/zip-1014)。该基金为从事 Zcash 协议开发的团队提供资金支持。
 
 目前，[Zcash Community Grants](https://zcashcommunitygrants.org/) 获得 8% 的区块奖励，Electric Coin Co. 获得 7%，而 Zcash Foundation 获得 5%。换算下来，分别占开发基金的 40%、35% 和 25%。
-![开发基金接收方](https://user-images.githubusercontent.com/43553081/212411570-4858a3d6-f7a1-465a-bf0c-d2ef726d41dc.jpeg)
+![开发基金接收方](/content-images/212411570-4858a3d6-f7a1-465a-bf0c-d2ef72-1efe3a104e.webp)
 
 2020 年，Zcash 社区就开发基金及其所支持的团队进行了投票。2024 年，社区将再次投票，以决定谁将从开发基金中获得资助。
 
@@ -30,11 +30,11 @@ Zcash 是一种独特的区块链协议，因为它是自筹资金的。这意�
 
 实施 20% 开发基金锁箱的决定，是通过一个全面的社区驱动流程达成的。这包括两轮 Zcash Community Advisory Panel (ZCAP) 投票，以及若干覆盖整个生态系统的投票。这些投票让广泛的利益相关方能够表达意见，并参与决策过程。
 
-![](https://global.discourse-cdn.com/zcash/original/3X/f/d/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd.png)
+![](/content-images/fdb9fcfc723fbfdc57c1ee276e7d4a57cd40fbbd-8f378b3e3d.webp)
 
 由于开发基金锁箱是递延的（意味着资金将在未来某次网络升级时解锁），Zcash 社区很快将决定这些资金的分配机制。其中一个提议的方案是 “Zbloc” 去中心化治理机制。
 
-![潜在的新型去中心化治理形式](https://global.discourse-cdn.com/zcash/original/3X/9/9/99588d6f43a3143cb3616e8a89df5125e855ba39.png)
+![潜在的新型去中心化治理形式](/content-images/99588d6f43a3143cb3616e8a89df5125e855ba39-5688d8901f.webp)
 
 ## 资源
 

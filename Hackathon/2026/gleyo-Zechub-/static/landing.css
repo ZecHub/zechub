@@ -34,8 +34,11 @@
 *{
   -webkit-text-size-adjust: 100% !important;
   -webkit-tap-highlight-color: transparent;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(140, 140, 140, 0.6) transparent;
   box-sizing: border-box !important;
 }
+
 
 ::-webkit-scrollbar {
   width: 4px;         
@@ -1355,4 +1358,74 @@ body::before {
   overflow-y: auto;
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
+}
+
+
+.spotlight-card.skeleton {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px;
+  height: 116px;
+  border-radius: 18px;
+  pointer-events: none;
+}
+
+.skeleton-box,
+.skeleton-line,
+.skeleton-pill {
+    position: relative;
+    overflow: hidden;
+    background: #22223697;
+}
+
+.skeleton-box::after,
+.skeleton-line::after,
+.skeleton-pill::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    transform: translateX(-100%);
+    background: linear-gradient(
+        90deg,
+        transparent,
+        #222236e5,
+        transparent
+    );
+    animation: skeleton-shimmer 1.2s infinite;
+}
+
+.skeleton-box {
+  width: 32px; height: 32px;
+  position: relative;
+  top: -30px;
+  border-radius: 18px;
+  flex-shrink: 0;
+}
+
+.skeleton-line {
+    height: 12px;
+    border-radius: 999px;
+    margin-bottom: 10px;
+}
+
+.skeleton-line.short {
+    width: 45%;
+}
+
+.skeleton-line:not(.short) {
+    width: 100%;
+}
+
+.skeleton-pill {
+    width: 80px;
+    height: 26px;
+    border-radius: 999px;
+    margin-top: 8px;
+}
+
+@keyframes skeleton-shimmer {
+    to {
+        transform: translateX(100%);
+    }
 }

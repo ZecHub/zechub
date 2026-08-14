@@ -15,7 +15,7 @@
 
 ## Zcash.me
 
-![Логотип Zcash.me](https://pbs.twimg.com/profile_images/1983177127806533632/LbLuoQjB_400x400.jpg)
+![Логотип Zcash.me](/content-images/_unavailable.svg)
 
 ### Обзор
 
@@ -59,7 +59,7 @@
 
 ## TipZ
 
-![Логотип TipZ](https://pbs.twimg.com/profile_images/2023711029805350912/BbXM8cDV_400x400.jpg)
+![Логотип TipZ](/content-images/BbXM8cDV_400x400-e6071ba983.webp)
 
 ### Обзор
 

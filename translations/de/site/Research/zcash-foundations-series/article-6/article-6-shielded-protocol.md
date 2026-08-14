@@ -1,7 +1,7 @@
 # Das Shielded Protocol, von Anfang bis Ende
 ##### Originalforschung von [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![Alt-Text](image-27.png)
+![Alt-Text](/content-images/image-27-4094293ec0.webp)
 
 ### Jedes Teil zu einer privaten Zcash-Transaktion zusammenfügen
 
@@ -41,7 +41,7 @@ Hier ist die gesamte Reihe auf einer Seite, von der Geschichte aus Artikel 0 auf
 
 Alles, was ein Benutzer tun kann, entspringt einem einzigen Geheimnis, dem **Spending Key**, durch eine Einweg-Hierarchie (jeder Pfeil ist eine irreversible Ableitung, ermöglicht durch die Trapdoors aus den Artikeln 2 und 3):
 
-![Alt-Text](image-32.png)
+![Alt-Text](/content-images/image-32-f443f9bb72.webp)
 
 Zwei Dinge sind bemerkenswert, beides Folgen früherer Artikel:
 
@@ -54,7 +54,7 @@ Zwei Dinge sind bemerkenswert, beides Folgen früherer Artikel:
 
 Um eine Note privat auszugeben, musst du das Netzwerk gleichzeitig von vier Dingen überzeugen, **ohne die Note, ihren Wert, ihre Position oder deine Identität offenzulegen.** Jede Behauptung wird von einer Komponente erfüllt, die du bereits kennst.
 
-![Alt-Text](image-31.png)
+![Alt-Text](/content-images/image-31-86309af194.webp)
 
 Der Beweis offenbart **keine** der zugrunde liegenden Fakten (welche Note, wessen Schlüssel, welcher Wert). Er offenbart nur, dass *alle vier Behauptungen zutreffen.* Das ist der gesamte Trick von shielded Zcash, in einem Diagramm ausgedrückt.
 
@@ -92,7 +92,7 @@ Setzen wir Alice zusammen, die Bob bezahlt. Wir verwenden die klare Struktur von
 
 Dazu kommt eine **binding signature** über das gesamte Bündel, die die Wertbilanz erzwingt (Abschnitt 5).
 
-![Alt-Text](image-30.png)
+![Alt-Text](/content-images/image-30-98511eb2d0.webp)
 
 Verfolge die Privatsphäre: Das Netzwerk hat den anchor geprüft, geprüft, dass der Nullifier frisch war, den Beweis verifiziert und die Bilanz verifiziert. Es akzeptierte eine gültige Zahlung, **ohne Betrag, Adresse oder welche Note ausgegeben wurde zu erfahren.** Gleichzeitig befinden sich der **Nullifier** der ausgegebenen Note (ihr Tod) und Bobs neues **Commitment** (die Geburt seiner Note) in zwei verschiedenen öffentlichen Strukturen ohne sichtbare Verbindung zwischen ihnen – die getrennte Verbindung aus Artikel 0.
 
@@ -198,7 +198,7 @@ Die Beträge sind verborgen, aber jeder ist in ein homomorphes Value commitment 
 
 Du bist jetzt von einem einzelnen Paradoxon zu einer vollständigen privaten Zahlung gereist:
 
-![Alt-Text](https://github.com/user-attachments/assets/cd8bbb40-57b8-4854-b9cf-97f2485d126a)
+![Alt-Text](/content-images/cd8bbb40-57b8-4854-b9cf-97f2485d126a-8847fae521.webp)
 
 
 Von hier aus führt der natürliche nächste Bogen tiefer hinein: in die inneren Funktionsweisen von Groth16 und Halo 2, Trusted-Setup-Zeremonien, die Sapling- und Orchard-Schaltkreise im Detail, Schlüsselableitung und diversifizierte Adressen sowie die Entwicklung des Protokolls über Netzwerk-Upgrades hinweg. Aber das Fundament steht jetzt, und jedes dieser Themen hat nun einen Platz, an den es anknüpfen kann.

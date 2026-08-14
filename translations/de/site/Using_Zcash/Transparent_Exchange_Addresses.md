@@ -8,7 +8,7 @@ Die Logik ist wie folgt: Beim Erkennen einer TEX-Adresse dekodiert eine kompatib
 
 Der technische Vorschlag für TEX-Adressen ist in Zcash [ZIP 320](https://zips.z.cash/zip-0320) beschrieben, das einen Adresstyp definiert, der ausschließlich für den Empfang von Mitteln von Transparent-Adressen vorgesehen ist.
 
-![TEX](https://i.ibb.co/8m7HPqV/ZashiTex.png)
+![TEX](/content-images/ZashiTex-b1cbec5f07.webp)
 
 
 Obwohl TEX-Adressen noch nicht breit angenommen sind, könnten Zcash-Nutzer sie künftig verwenden müssen.

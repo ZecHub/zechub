@@ -74,7 +74,7 @@ unaweza kupata kuhusu 100 vizazi bure kwa rating wengine wengi [picha katika hap
 ### Kuzalisha muziki
 
 - [Picha ya sauti](https://soundraw.io/) - jaribu kwa bure - (usajili kutoka $ 16.99 / mwezi)
-- [beatoven.ai]](https://www.beatoven.ai/) - kujaribu kwa ajili ya bure - (usajili kutoka $ 3 / mwezi au $ 1 / dakika yanayotokana)
+- [beatoven.ai](https://www.beatoven.ai/) - kujaribu kwa ajili ya bure - (usajili kutoka $ 3 / mwezi au $ 1 / dakika yanayotokana)
 - [Soundful.com](https://soundful.com/) - jaribu bure - (usajili kutoka $ 59.99 / mwezi au 29.99 / m mwaka)
 - [boomy](https://boomy.com/) - jaribu bure - (usajili kutoka $9.99/mwezi)
 - [Kwa sauti kubwa](https://www.loudly.com/) - jaribu bure - (usajili kutoka $7.99/mwezi)

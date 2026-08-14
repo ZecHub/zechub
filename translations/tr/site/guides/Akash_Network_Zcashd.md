@@ -90,7 +90,7 @@ Cüzdanınızda AKT bakiyeniz üst sağ köşede görünmelidir. Eğer sıfır i
 
 ### Seçenek A: SDL Dosyasını Yükleme (Tavsiyelenir)
 
-[![Akash üzerinde Dağıt](https://raw.githubusercontent.com/akash-network/console/refs/heads/main/apps/deploy-web/public/images/deploy-with-akash-btn.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
+[![Akash üzerinde Dağıt](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
 
 ### Seçenek B: SDL Düzenleyici Kullanımı
 

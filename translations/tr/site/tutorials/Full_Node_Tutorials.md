@@ -1,4 +1,3 @@
----
 <a href="https://github.com/zechub/zechub/edit/main/site/tutorials/Full_Node_Tutorials.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
 </a>
@@ -13,31 +12,31 @@ Daha fazla bilgi için lütfen [Full Node'lar rehberimizi](https://zechub.wiki/f
 
 - Raspberry Pi 4'te Zcashd Nasıl Derlenir
 
-[![Video Küçük Resmi](https://img.youtube.com/vi/SGYrzhs1l2k/hqdefault.jpg)](https://www.youtube.com/watch?v=SGYrzhs1l2k)
+[![Video Küçük Resmi](/content-images/hqdefault-7968659090.webp)](https://www.youtube.com/watch?v=SGYrzhs1l2k)
 ____
 
 - Zcashd Cüzdan Aracı
 
-[![Video Küçük Resmi](https://img.youtube.com/vi/9t2LX3HFldw/hqdefault.jpg)](https://www.youtube.com/watch?v=9t2LX3HFldw)
+[![Video Küçük Resmi](/content-images/hqdefault-0b326338e3.webp)](https://www.youtube.com/watch?v=9t2LX3HFldw)
 ____
 
 - Zcashd Kullanımı için Pratik Rehber 
 
-[![Video Küçük Resmi](https://img.youtube.com/vi/KNhd1KC0Bqk/hqdefault.jpg)](https://www.youtube.com/watch?v=KNhd1KC0Bqk)
+[![Video Küçük Resmi](/content-images/hqdefault-eddbbab4b4.webp)](https://www.youtube.com/watch?v=KNhd1KC0Bqk)
 ____
 
 - Zcashd Düğümü Nasıl Yükseltilir
 
-[![Video Küçük Resmi](https://img.youtube.com/vi/YjAkaseEqAE/hqdefault.jpg)](https://www.youtube.com/watch?v=YjAkaseEqAE)
+[![Video Küçük Resmi](/content-images/hqdefault-e342e5e0b5.webp)](https://www.youtube.com/watch?v=YjAkaseEqAE)
 _____
 
 - Zebra ile Lightwalletd Sunucusu Kullanımı
 
-[![Video Küçük Resmi](https://img.youtube.com/vi/FfH5jiX8pT0/hqdefault.jpg)](https://www.youtube.com/watch?v=FfH5jiX8pT0)
+[![Video Küçük Resmi](/content-images/hqdefault-e1135bf69b.webp)](https://www.youtube.com/watch?v=FfH5jiX8pT0)
 
 
 ____
 
 - Zenith CLI ile Free2Z'de Yorum Gönderme
 
-[![Video Küçük Resmi](https://img.youtube.com/vi/HtorP8TJ5vk/hqdefault.jpg)](https://www.youtube.com/watch?v=HtorP8TJ5vk)
+[![Video Küçük Resmi](/content-images/hqdefault-1bd406037a.webp)](https://www.youtube.com/watch?v=HtorP8TJ5vk)

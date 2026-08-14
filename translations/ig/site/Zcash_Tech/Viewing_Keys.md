@@ -47,7 +47,7 @@ Kedu ihe mere onye ọrụ ga-eji chọọ ime nke a? Site na blọọgụ Elect
 * N'elu aka nri, họrọ "Akaụntụ", pịa "+" na akuku aka nri ala iji tinye ma bubata igodo nlele gị iji tinye akaụntụ 'agụ naanị' gị.
 
 <a href="">
-    <img src="https://i.ibb.co/C0b002N/image-2024-01-13-175554676.png" alt="" width="200" height="280"/>
+    <img src="/content-images/image-2024-01-13-175554676-8cdf988797.webp" alt="" width="200" height="280"/>
 </a>
 
 

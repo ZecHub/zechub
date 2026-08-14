@@ -6,7 +6,7 @@
 
 2019年にリリースされたこのプロトコルは、Zerocoinに基づいています。**Firo**通貨（かつてはZcoin）で使用されており、オンチェーンでのプライベートな取引を可能にしています。Zcashといくつかの点では似ていますが、多くの面では明確に異なります。
 
-![Lelantus intro](https://pbs.twimg.com/media/Fsk18DgXsAEc0Ob.jpg)
+![Lelantus intro](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
 
 ---
 
@@ -15,7 +15,7 @@
 - **Zcash** - **Zerocash**プロトコルに基づく  
 - **Firo (Zcoin)** - **Zerocoin**プロトコルに基づく
 
-![Zerocash vs Zerocoin 比較](https://pbs.twimg.com/media/Fsk2Fk7WcAA81ty.png)
+![Zerocash vs Zerocoin 比較](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
 
 ---
 
@@ -28,7 +28,7 @@ Zcashと同様に、Firoはシールドされたアドレスを使用して匿�
 - **Sigma** - 定額システムが修正された  
 - **Lelantus 1.0** - 正しいセキュリティ証明が欠如していた
 
-![プロトコルの進化](https://pbs.twimg.com/media/Fsk2NdaWAAAKVgH.png)
+![プロトコルの進化](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
 
 ---
 
@@ -38,7 +38,7 @@ Zcashと同様に、Firoはシールドされたアドレスを使用して匿�
 
 これにより、匿名性のセットが小さくなり、発行と引き換え操作間でのタイミング攻撃の可能性が開かれました（また、「汚染された変更」問題も生じました）。
 
-![Sigma 定額](https://pbs.twimg.com/media/Fsk2fxfWcAMUBDo.png)
+![Sigma 定額](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
 
 ---
 
@@ -53,7 +53,7 @@ Zcashと同様に、Firoはシールドされたアドレスを使用して匿�
 
 **制限**: セットサイズは現在 **65,000コイン**に上限されています。
 
-![Lelantus の利点](https://pbs.twimg.com/media/Fsk2wK3X0AA6MEe.png)
+![Lelantus の利点](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
 
 ---
 
@@ -65,7 +65,7 @@ Zcashと同様に、Firoはシールドされたアドレスを使用して匿�
 
 コインが作成されたとき（MintまたはSpendトランザクションを通じて）、このコミットメントは公開され、帳簿に保存されます。
 
-![コインコミットメント図](https://pbs.twimg.com/media/Fsk3AWNX0AIHya8.png)
+![コインコミットメント図](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
 
 ---
 
@@ -77,7 +77,7 @@ Lelantusは古典的な **basecoin < - > zerocoin** モデルを使用してい�
 
 Zcashと同様に、透明なトランザクションはユーザーによって明示的に選択される必要があります。
 
-![Lelantus フロー](https://pbs.twimg.com/media/Fsk3HrjXgAMgqmX.png)
+![Lelantus フロー](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
 
 ---
 
@@ -87,7 +87,7 @@ Lelantusは **One-of-Many 証明** を使用して、入力値を証明するた
 
 これらの証明はまた、**Triptych**（私たちのCryptoNoteスレッドで言及）でも使用されています。
 
-![One-of-Many 証明](https://pbs.twimg.com/media/Fsk3Z0nWIAAPD4k.jpg)
+![One-of-Many 証明](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
 
 ---
 
@@ -103,7 +103,7 @@ Moneroと同様に、Firoでは **Dandelion++** が実装されており、ト�
 
 これにより、ネットワーク分析を通じてトランザクションの起源をたどるのがはるかに難しくなります。
 
-![Dandelion++ 説明](https://pbs.twimg.com/media/Fsk4A8VWcAU84MR.png)
+![Dandelion++ 説明](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
 
 ---
 
@@ -117,7 +117,7 @@ Moneroと同様に、Firoでは **Dandelion++** が実装されており、ト�
 
 これらの機能はZcashのShielded Assetsと類似しています。
 
-![Lelantus-Spark 公表](https://pbs.twimg.com/media/Fsk4jXeXsAACQ3h.jpg)
+![Lelantus-Spark 公表](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
 
 ---
 

@@ -2,53 +2,57 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="https://i.ibb.co/2MghCyb/image-2024-02-03-164918723.png" alt="Alt Text" width="50"/>    Electric Coin Company
-[वेबसाइट](https://electriccoin.co) - [Github](https://github.com/Electric-Coin-Company) - [X/Twitter](https://x.com/ElectricCoinCo)
+# <img src="/content-images/image-2024-02-03-164918723-f59419848a.webp" alt="Alt Text" width="50"/>    Electric Coin Company (सनसेट)
+[वेबसाइट](https://electriccoin.co) - [GitHub](https://github.com/zodl-inc) - [X/Twitter](https://x.com/ElectricCoinCo)
 
-## मिशन कथन
+> **उस GitHub लिंक के बारे में।** ECC की repositories `zodl-inc` पर हैं। यह वही संगठन है, जिसका नाम तब बदला गया जब टीम [ZODL](/zcash-organizations/zodl) में चली गई। पुराना `github.com/Electric-Coin-Company` नाम मई 2026 में एक असंबंधित पक्ष द्वारा पंजीकृत किया गया था और उसका ECC या ZODL से कोई संबंध नहीं है, इसलिए वहाँ प्रकाशित code पर भरोसा न करें।
 
-ECC का उद्देश्य आर्थिक स्वतंत्रता को सशक्त बनाना है। वित्तीय गोपनीयता इस प्रयास के लिए मुख्य है, और मानव के अभिमान, सुरक्षा, स्व-शासन और सहमति की रक्षा के लिए आवश्यक है। वित्तीय गोपनीयता प्राप्त करना आसान होना चाहिए - अपने घर में छाद के बंद करने जैसा आसान। लेकिन Web2 के उदय के साथ, शक्ति गहराई से केंद्रीत हो गई है, और जो व्यक्ति इसका नियंत्रण करते हैं, आपके घर में पहले से ही हैं। आप छाद बंद नहीं कर सकते। हमें कुछ नया बनाना चाहिए।
-इस नए वित्तीय उपकरणों के प्रणाली, जो सभी के लिए उपलब्ध है, आसानी से उपयोग करने योग्य होगा, पूरी तरह गोपनीय होगा और खुदाई के विकल्पों के साथ, इसकी समर्थन बुनियादी ढांचा वितरित और मजबूत होगा।
+## मिशन वक्तव्य
 
-## Zashi:  [iOS](https://apps.apple.com/us/app/zashi-zcash-wallet/id1672392439) - [Android](https://play.google.com/store/apps/details?id=co.electriccoin.zcash) - [F-Droid](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
+ECC का मिशन आर्थिक स्वतंत्रता को सशक्त बनाना है। वित्तीय गोपनीयता इस प्रयास का मूल है, और मानव गरिमा, सुरक्षा, स्व-स्वायत्तता तथा सहमति की रक्षा के लिए आवश्यक है। वित्तीय गोपनीयता प्राप्त करना उतना ही आसान होना चाहिए जितना अपने घर में परदे बंद करना। लेकिन Web2 के उभरने के साथ शक्ति गहराई से केंद्रीकृत हो गई है, और नियंत्रण रखने वाले लोग पहले से ही आपके ड्रॉइंग रूम में मौजूद हैं। आप परदे बंद नहीं कर सकते। हमें कुछ नया बनाना होगा.
+यह वित्तीय tools की नई प्रणाली, जो सभी के लिए सुलभ होगी, user-friendly होगी, खुलासे के विकल्पों के साथ पूरी तरह निजी होगी, और इसकी सहायक अवसंरचना वितरित तथा मजबूत होगी।
 
-निजी भुगतान के लिए बनाया गया। Zashi एक स्व-संचालित छिपे हुए ZEC वॉलेट है एन्क्रिप्टेड डिजिटल लेनदेन के लिए।
+## Zodl, पूर्व में Zashi:  [iOS](https://apps.apple.com/us/app/zashi-zcash-wallet/id1672392439) - [Android](https://play.google.com/store/apps/details?id=co.electriccoin.zcash) - [F-Droid](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
 
-Zashi अपने दोस्तों और परिवार को Zcash और गोपनीय डिजिटल भुगतान में प्रवेश कराने के लिए आदर्श उपकरण है। इसका समझदार डिज़ाइन कोई भी व्यक्ति - जो पहले से ही क्रिप्टोग्राफी के अनुभव के बिना - कुछ मिनटों में एक वॉलेट सेटअप करने, ZEC प्राप्त करने और लेनदेन शुरू करने के लिए आसान बनाता है।
+निजी भुगतानों के लिए बनाया गया। Zashi encrypted digital transactions के लिए एक self-custody shielded ZEC wallet था, जिसे ECC ने बनाया और 2024 में जारी किया।
 
-एकीकरण:
-- [Coinbase:](https://electriccoin.co/blog/coinbase-zashi-1-2-release/) क्रिप्टो नवागत अपने वॉलेट में सीधे ZEC खरीद सकते हैं - एग्जचेंज से खाता पंजीकरण, KYC और कोइन निकास के असुविधाओं को छोड़कर।
+इसे दोस्तों और परिवार को Zcash और निजी डिजिटल भुगतानों से जोड़ने के लिए डिज़ाइन किया गया था, ऐसे interface के साथ जो इतना सरल हो कि बिना किसी पूर्व crypto अनुभव वाले लोग भी wallet सेट कर सकें, ZEC प्राप्त कर सकें, और कुछ ही मिनटों में लेन-देन शुरू कर सकें।
 
-- [Flexa:](https://electriccoin.co/blog/zashi-flexa-integration-is-here-spend-zec-at-thousands-of-retailers/) ZEC का वास्तव में उपयोग करने के लिए सरल बनाता है, नए उपयोगकर्ताओं को Barnes & Noble, GameStop, और Chipotle जैसी हज़ारों खुदरा स्थानों में इसे खर्च करने की अनुमति देता है।
+फरवरी 2026 में टीम के ZODL में जाने के बाद wallet का नाम बदलकर **Zodl** कर दिया गया। मौजूदा उपयोगकर्ताओं को कुछ भी करने की आवश्यकता नहीं थी, क्योंकि app ने अपने अगले update में स्वयं rebrand कर लिया, इसी कारण ऊपर दिए गए store links Zodl खोलते हैं। अब इसका रखरखाव ECC के बजाय वहीं किया जाता है, इसलिए वर्तमान जानकारी के लिए [ZODL page](/zcash-organizations/zodl) देखें।
 
-- [Keystone:](https://electriccoin.co/blog/drumroll-please-introducing-zashi-keystone-hardware-wallet-integration-for-shielded-zec/) Zcash समुदाय के लिए एक महत्वपूर्ण प्रगति, जो कई वर्षों तक बना रहा है। इस एकीकरण ने Zcash के उपयोगिता में एक महत्वपूर्ण विकास को संचालित किया है, जो छिपे हुए ZEC के ठंडा संग्रहण की अनुमति देता है।
+ECC के वर्षों के दौरान बनाए गए integrations:
+- [Coinbase:](https://electriccoin.co/blog/coinbase-zashi-1-2-release/) crypto में नए उपयोगकर्ता account registration, KYC और exchanges से coins withdraw करने की झंझटों को छोड़कर सीधे wallet के भीतर ZEC खरीद सकते हैं।
 
-## शोध और विकास
+- [Flexa:](https://electriccoin.co/blog/zashi-flexa-integration-is-here-spend-zec-at-thousands-of-retailers/) वास्तव में ZEC का उपयोग करना आसान बनाता है, जिससे नए उपयोगकर्ता इसे Barnes & Noble, GameStop और Chipotle जैसी हजारों retail locations पर खर्च कर सकते हैं।
 
-टीम ने कई बार मान्यता प्राप्त उल्लेखनीय अग्रणी द्वारा अग्रणी बनाया है, पहला [Zcash के शुरुआत](https://electriccoin.co/blog/zcash-begins/) के रूप में जीवन में पहला व्यावसायिक उपयोग शून्य-ज्ञान साबित करता है।
+- [Keystone:](https://electriccoin.co/blog/drumroll-please-introducing-zashi-keystone-hardware-wallet-integration-for-shielded-zec/) Zcash समुदाय के लिए एक बड़ी उपलब्धि, जिस पर कई वर्षों से काम हो रहा था। यह integration shielded ZEC की cold storage को सक्षम बनाकर Zcash usability में एक महत्वपूर्ण प्रगति दर्शाता है।
 
-इसके बाद कई अन्य जैसे [Sapling नेटवर्क अपग्रेड](https://electriccoin.co/blog/sapling-activation-complete/) जो 90% समय की कमी के साथ, छिपे हुए लेनदेन के लिए भारी और छिपे हुए लेनदेन के लिए 97% से अधिक मेमोरी कमी के साथ, पहली बार एक मोबाइल उपकरण पर छिपे हुए लेनदेन की अनुमति देता है।
+## अनुसंधान और विकास
 
-सबसे महत्वपूर्ण ब्रेकथ्रू सबसे हालिया है। [Halo2 भरोसा रहित साबित करने प्रणाली](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/) में नेटवर्क अपग्रेड 5 के रूप में Zcash में तैनात किया गया है। इसने भरोसा स्थापना को खत्म कर दिया और Zcash के लिए एक नई अवधि शुरू की है। 2022 के बाद से, यह Zcash मेननेट पर सक्रिय है और उपयोगकर्ताओं को अपने भुगतान प्रोटोकॉल के लिए अधिक सुरक्षित और आसानी से अपग्रेड करने योग्य निर्माण का उपयोग करने की अनुमति देता है। 
+टीम ने कई अवसरों पर उल्लेखनीय breakthroughs का नेतृत्व किया है, जिनमें पहला [Zcash का launch](https://electriccoin.co/blog/zcash-begins/) था, जो दुनिया में पहली बार Zero-Knowledge Proofs का व्यावसायिक उपयोग था।
 
-## सहयोग और साझेदारी
+इसके बाद और भी कई उपलब्धियाँ आईं, जैसे [Sapling network upgrade](https://electriccoin.co/blog/sapling-activation-complete/), जिसने हल्के, shielded transactions को संभव बनाया, transaction निर्माण के समय में 90% की कमी की, और memory उपयोग में 97% से अधिक की कमी लाई, जिससे पहली बार mobile device पर shielded transactions संभव हुए।
 
-ECC टीम Zcash प्रोटोकॉल के बरखास्तगी और सुधार में सहायता के लिए अपने विभिन्न तरीकों से Zcash प्रणाली के समर्थन और योगदान करती है, आंतरिक और बाहरी टीमों के साथ नियमित रूप से सहयोग करती है। 
+सबसे महत्वपूर्ण breakthrough सबसे हालिया था। Zcash के लिए Network Upgrade 5 में halo2 trustless proving system का [निर्माण और deployment](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/)। इससे trusted setup समाप्त हो गया और Zcash के लिए एक नए युग की शुरुआत हुई। 2022 से यह Zcash Mainnet पर सक्रिय है और उपयोगकर्ताओं को अपने payment protocol के लिए अधिक सुरक्षित और आसानी से upgrade होने वाली संरचना का लाभ लेने की अनुमति देता है। 
 
-साझेदारियाँ जेमिनी के साथ काम करके अपने प्लेटफ़ॉर्म पर छिपे हुए लेनदेन को सक्षम करता है, फ्लेक्सा के साथ मोबाइल भुगतान के आसान Zcash खुदरा स्थानों पर, हार्डवेयर वॉलेट कंपनियों जैसे कीस्टोन के साथ छिपे हुए ZEC के ठंडा संग्रहण को सक्षम करता है, ब्रेव के लिए ब्राउज़र में Zcash की समर्थन के लिए, और Zcash प्रणाली में अन्य टीमों के साथ Zcash में सुधार लाने के लिए। 
+## सहयोग और साझेदारियाँ 
 
-ECC [PGPforCrypto](https://x.com/pgpforcrypto) का गौरवपूर्ण प्रायोजक भी है, जो सिक्का विशेषज्ञों, प्रशंसकों और विशेषज्ञों के बीच एक मुलाकात श्रृंखला है जो विकासों के बारे में चर्चा, अपने दृष्टिकोण साझा करती है और समुदाय भागीदारी को प्रोत्साहित करती है। PGPforCrypto Electric Coin Co में बोर्ड सदस्य और संघीय सहयोग के उपाध्यक्ष, पॉल ब्रिगनर द्वारा नेतृत्व में है।
+ECC टीम कई तरीकों से Zcash ecosystem का समर्थन करती है और उसमें योगदान देती है, तथा Zcash protocol को बनाए रखने और बेहतर बनाने में मदद के लिए आंतरिक और बाहरी दोनों टीमों के साथ नियमित रूप से सहयोग करती है। 
 
-## नीति और नियमन
+साझेदारियों में Gemini के साथ काम शामिल है ताकि उनके platform पर shielded transactions सक्षम किए जा सकें, Flexa के साथ ताकि retail locations पर आसान Zcash mobile payments संभव हो सकें, Keystone जैसी hardware wallet कंपनियों के साथ ताकि shielded cold storage of ZEC सक्षम हो सके, Brave के साथ browser में Zcash support के लिए, तथा Zcash ecosystem की अन्य टीमों के साथ ताकि Zcash में सुधार लाए जा सकें। 
 
-ECC के चेन पर गोपनीयता के बारे में अपने दृष्टिकोण और इसके व्यक्तिगत और राष्ट्रीय सुरक्षा पर प्रभाव के बारे में दृष्टि और नेतृत्व नीति निर्माताओं के लिए अत्यधिक मूल्यवान है। ECC की स्थापना के बाद से, जहाँ संभव हो सके, उचित रूप से नीति के मार्गदर्शन के लिए नियमित प्रयास किए गए हैं। 
+ECC [PGPforCrypto](https://x.com/pgpforcrypto) का एक गर्वित प्रायोजक भी है, जो एक बैठक-श्रृंखला है और cryptocurrency क्षेत्र के professionals, enthusiasts तथा experts को developments पर चर्चा करने, insights साझा करने और community engagement को बढ़ावा देने के लिए साथ लाती है। PGPforCrypto का नेतृत्व Electric Coin Co के Board Member और VP of Strategic Alliances, Paul Brigner करते हैं।
 
-आउटरीच के उदाहरणों में, वित्तीय कार्रवाई के लिए अभियोजन समूह (FATF) के साथ संवाद करते हुए शामिल बैठकों में भाग लेना शामिल है, जिसके परिणामस्वरूप संगठन के क्रिप्टोकरेंसी क्षेत्र के लिए अपनी भला रखने के लिए परामर्श दिया गया। इन प्रयासों के परिणामस्वरूप, Zcash नई यॉर्क राज्य वित्तीय सेवा विभाग (NYDFS) द्वारा मंजूरी प्राप्त कर लिया, जो ऐसे एकमात्र गोपनीयता सुरक्षित क्रिप्टोकरेंसी है। 
+## नीति और विनियमन
+
+on-chain privacy तथा उसके व्यक्तिगत और राष्ट्रीय सुरक्षा पर प्रभावों को लेकर ECC की समझ और नेतृत्व नीति-निर्माताओं के लिए अत्यंत मूल्यवान है। ECC की स्थापना के बाद से जहाँ भी संभव हो, नीति को उचित दिशा देने के लिए लगातार प्रयास किए गए हैं। 
+
+आउटरीच के उदाहरणों में Financial Action Task Force (FATF) के साथ संवाद शामिल है, जहाँ बैठकों में भाग लिया गया जिनके परिणामस्वरूप cryptocurrency sector के लिए संगठन की recommendations बनीं। इन प्रयासों के परिणामस्वरूप Zcash को New York State Department of Financial Services (NYDFS) की स्वीकृति मिली, और ऐसा करने वाली यह एकमात्र privacy-protecting cryptocurrency बनी। 
 
 ## संगठनात्मक संरचना
 
-ईलेक्ट्रिक कॉइन कंपनी बूटस्ट्रैप प्रोजेक्ट द्वारा पूर्णतः स्वामित्व है। बूटस्ट्रैप प्रोजेक्ट 501(c)(3) है, जो तकनीक, वैज्ञानिक खोज, शिक्षा और मानव संगठन के माध्यम से मानवता के उत्थान के लिए समर्पित है। बूटस्ट्रैप और ईलेक्ट्रिक कॉइन कंपनी में दोनों के बोर्ड ऑफ़ डायरेक्टर्स हैं, और ईलेक्ट्रिक कॉइन कंपनी में एक वैज्ञानिक सलाहकार समूह भी है।
+Electric Coin Company पूरी तरह से Bootstrap Project के स्वामित्व में है। Bootstrap Project एक 501(c)(3) है, जो technology, scientific discovery, education और human organization के माध्यम से मानवता के उत्थान के लिए समर्पित है। Bootstrap और Electric Coin Company दोनों का एक board of directors है, और Electric Coin Company का एक Scientific Advisory Group भी है।
 
-## वित्त पोषण
+## वित्तपोषण
 
-वित्त पोषण, धन के उपयोग और अन्य संबंधित जानकारी उनके [ब्लॉग](https://electriccoin.co/blog/) पर पारदर्शिता रिपोर्ट में पाई जा सकती है।
+Funding, finances के उपयोग, और अन्य संबंधित जानकारी उनके [blog](https://electriccoin.co/blog/) पर उपलब्ध Transparency Reports में पाई जा सकती है।

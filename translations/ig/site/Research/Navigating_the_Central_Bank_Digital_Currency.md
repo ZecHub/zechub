@@ -1,8 +1,7 @@
----
 bipụtara: 2023-12-07
 ---
 
-[CBDC]](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/cbdc.webp)
+[CBDC](/content-images/cbdc-dfb8827faa.webp)
 # Igosipụta akụkụ gbara ọchịchịrị: Ịgagharị na Central Bank Digital Currency (CBDC) Odyssey n'etiti Onyunyo Ego
 Site na: [**Abhishek Tiwari**]
 
@@ -37,7 +36,7 @@ Implementing CBDCs becomes our hero's quest, a journey fraught with technical, r
 __China: Digital Currency Electronic Payment (DCEP)__
 
 
-[DCEP]](https://forkast.news/wp-content/uploads/2020/08/dcep-featured.jpg)
+[DCEP](/content-images/dcep-featured-c278cf0ef6.webp)
 
 In the dystopian streets of China, the Digital Currency Electronic Payment (DCEP) unfolds not as a marvel, but as a harbinger of societal control with its own set of ominous financial shadows. Everyday transactions pulse with life, courtesy of programmable money and the allure of offline capabilities.
 
@@ -50,7 +49,7 @@ China's history of financial opacity and government interference in banking is a
 
 United States: Digital Dollar Project
 
-[Dọla Dijitalụ](https://www.ledgerinsights.com/wp-content/uploads/2020/03/digital-dollar-CBDC.jpg)
+[Dọla Dijitalụ](/content-images/digital-dollar-CBDC-8e8120f52f.webp)
 
 In the vast, despondent landscapes of the United States, the Digital Dollar Project emerges not as a beacon of progress but as a testament to efficiency and inclusivity, albeit with its share of uncertainties. A private-sector initiative, it aims to reshape the financial landscape in a narrative tinged with shades of corporate control.
 
@@ -62,7 +61,7 @@ The U.S. has a complex history of financial regulation, with frequent debates on
 
 __Sweden: E-Krona__
 
-[E-Krona]](https://www.paymentscardsandmobile.com/wp-content/uploads/2018/10/ekrona_logo.png)
+[E-Krona](/content-images/ekrona_logo-4596e38b72.webp)
 
 As we traverse the desolate landscapes of Sweden, the E-Krona unfolds as a narrative of adaptability, but not without its financial pitfalls. It's a digital evolution focused on maintaining access to currency in a cashless society, portraying a society devoid of the familiar comforts of physical cash.
 
@@ -74,7 +73,7 @@ Sweden's past record of financial innovation is overshadowed by the potential ch
 
 __European Union: Mpaghara Euro CBDC__
 
-[Ebe Eurozone nọ]](https://upload.wikimedia.org/wikipedia/commons/c/cb/Logo_European_Central_Bank.svg)
+[Ebe Eurozone nọ](https://upload.wikimedia.org/wikipedia/commons/c/cb/Logo_European_Central_Bank.svg)
 
 Our journey concludes in the mosaic of nations forming the European Union, where the Eurozone CBDC seeks not to complement physical cash, but to forge a path of control and conformity in a bleak financial landscape.
 
@@ -95,12 +94,12 @@ Government surveillance, once a distant concept, becomes a potential antagonist.
 
 Financial inclusion, once a beacon of hope, faces the shadows of potential discrimination. The misuse of CBDCs could lead to selective access, violating principles of equal treatment and inclusivity. It's a subplot that challenges the very essence of financial freedom.
 
-[Ọsọ ọsọ](https://blog.digitalasset.com/hubfs/Imported_Blog_Media/futureofCBDC-2.png)
+[Ọsọ ọsọ](/content-images/futureofCBDC-2-45075d2d9c.webp)
 
 ## Akụrụngwa: Map maka Digital Explorer
 
 Maka ndị na-abanye n'ókèala a na-amaghị nke CBDCs, ihe onwunwe na-aghọ kompas gị.
-1. Bank for International Settlements ([BIS]](https://www.bis.org/search/index.htm?globalset_q=cbdc))
+1. Bank for International Settlements ([BIS](https://www.bis.org/search/index.htm?globalset_q=cbdc))
 2. Ụlọ ọrụ International Monetary Fund ([IMF](https://www.imf.org/en/About))
 3. Akwụkwọ nyocha ([akwụkwọ](https://deliverypdf.ssrn.com/delivery.php?ID=998105006000066124067099122099097121053040051018055094125101013098095097071065120123041031008002042043044095080119019124023085025010021006031087083026113098095102030064008046091121005002106021127103088122029021016098108064080120068125070088112093101069&EXT=pdf&INDEX=TRUE))
 4. Akwụkwọ akụkọ agụmakwụkwọ ([akwụkwọ akụkọ](https://www.bis.org/publ/work976.pdf))

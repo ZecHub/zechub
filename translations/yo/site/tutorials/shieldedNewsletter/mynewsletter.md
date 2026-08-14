@@ -6,7 +6,7 @@ Zebra 1.8.0 Ẹ̀dà tó ṣẹ̀ṣẹ̀ jáde, FROST ti jáde, Zooko Ti Bẹ̀
 
 [Zebra 1.8.0 titun tu silẹ](https://github.com/ZcashFoundation/zebra/releases/tag/v1.8.0)
 
-[Àtúnṣe ECC: Tẹ̀síwájú Ìrètí Tó Ń Ṣiṣẹ́]](https://x.com/jswihart/status/1809385692512022710)
+[Àtúnṣe ECC: Tẹ̀síwájú Ìrètí Tó Ń Ṣiṣẹ́](https://x.com/jswihart/status/1809385692512022710)
 
 [Ìròyìn Ìfòyebánilò ECC fún Q4 '23'](https://electriccoin.co/blog/ecc-transparency-report-for-q4-2023/)
 
@@ -22,13 +22,13 @@ Zebra 1.8.0 Ẹ̀dà tó ṣẹ̀ṣẹ̀ jáde, FROST ti jáde, Zooko Ti Bẹ̀
 
 ### Awọn Ifunni Agbegbe Zcash:
 
-[Zcash Avalanche Elastic Subnet Bridge Àtúnṣe]](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220/63)
+[Zcash Avalanche Elastic Subnet Bridge Àtúnṣe](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220/63)
 
 [Aṣọ́ ZEC pààrọ̀ pẹ̀lú Ìlànà Maya](https://x.com/GiMa9550/status/1808960168681476288)
 
 [Awọn osise shielded support fun zcash ni ledger hw-apamọwọ](https://forum.zcashcommunity.com/t/official-shielded-support-for-zcash-in-ledger-hw-wallet/45965/90)
 
-[Ìsọfúnni tó ṣe kókó nípa ààbò ètò ìṣètò-ayé Zcash]](https://forum.zcashcommunity.com/t/grant-update-zcash-ecosystem-security-lead/47541/4)
+[Ìsọfúnni tó ṣe kókó nípa ààbò ètò ìṣètò-ayé Zcash](https://forum.zcashcommunity.com/t/grant-update-zcash-ecosystem-security-lead/47541/4)
 
 [Ìwé Ìpàdé Àwọn Ẹ̀bùn Ìpínlẹ̀ Zcash 6-25](https://forum.zcashcommunity.com/t/zcash-community-grants-meeting-minutes-6-25-2024/48199)
 

@@ -4,7 +4,7 @@
 
 # Ntuziaka Raspberry Pi 4 maka ịgba ọsọ Zebra
 
-<img src="https://i.ibb.co/V3rjKwv/image-2023-11-28-172907488.png" alt="raspberry pi" width="300" height="300"/>
+<img src="/content-images/image-2023-11-28-172907488-e7e9fd4ac5.webp" alt="raspberry pi" width="300" height="300"/>
 
 Running the Zebra node software on a Raspberry Pi 4 allows you to participate in the Zcash network as an independent, consensus-compatible node. This guide will walk you through the steps to set up and run Zebra on your Raspberry Pi 4.
 
@@ -67,7 +67,7 @@ Running the Zebra node software on a Raspberry Pi 4 allows you to participate in
 7. __Nlekota__
    You can monitor the progress and status of your Zebra node by opening a web browser and navigating to __http://127.0.0.1:8233/status__.
 
-<img src="https://i.ibb.co/BCtKrGp/image-2023-11-28-173024853.png" alt="zebra logo" width="200" height="200"/>
+<img src="/content-images/image-2023-11-28-173024853-99540511cf.webp" alt="zebra logo" width="200" height="200"/>
 
 ## Nchọpụta nsogbu
 

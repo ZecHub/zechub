@@ -62,7 +62,7 @@ Zcash Shielded Assets / User Defined Assets have been in development with the as
 
 ### Akụrụngwa:
 
-[Zcon3 Private Cross-Chain Transfers (Nkwụnye ego nke onwe) ]](https://youtu.be/vCvMk2-CJN8)
+[Zcon3 Private Cross-Chain Transfers (Nkwụnye ego nke onwe) ](https://youtu.be/vCvMk2-CJN8)
 
 [Zcon3 QEDIT Ihe ngosi na Defi](https://youtu.be/EGjcYhovty0) / [Ihe osise](https://miro.com/app/board/uXjVOhuveHo=/)
 

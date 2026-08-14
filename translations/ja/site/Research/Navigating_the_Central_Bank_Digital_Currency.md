@@ -2,7 +2,7 @@
 published: 2023-12-07
 ---
 
-![CBDC](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/cbdc.webp)
+![CBDC](/content-images/cbdc-dfb8827faa.webp)
 # 暗黒面の解明：金融の影の中で中央銀行デジタル通貨（CBDC）のオディッセイをナビゲートする
 By : [**Abhishek Tiwari**]
 
@@ -36,7 +36,7 @@ CBDCの実装は、ヒーローの冒険であり、技術的、規制的、物�
 
 __中国: デジタル通貨電子決済（DCEP）__
 
-![DCEP](https://forkast.news/wp-content/uploads/2020/08/dcep-featured.jpg)
+![DCEP](/content-images/dcep-featured-c278cf0ef6.webp)
 
 中国のディストピア的な街では、デジタル通貨電子決済（DCEP）は奇跡ではなく、社会的統制の先駆者として、独自の不気味な金融の影をもたらしています。プログラマブルな通貨とオフライン機能の魅力により、日常的な取引が生命を宿しています。
 
@@ -48,7 +48,7 @@ DCEPは単なるデジタル代理ではなく、日常的な取引をスムー�
 
 __アメリカ合衆国: デジタルドルプロジェクト__
 
-![Digital Dollar](https://www.ledgerinsights.com/wp-content/uploads/2020/03/digital-dollar-CBDC.jpg)
+![Digital Dollar](/content-images/digital-dollar-CBDC-8e8120f52f.webp)
 
 広大で、希望のないアメリカ合衆国の風景では、デジタルドルプロジェクトは進歩の灯台ではなく、効率性と包摂性という点において、企業支配の影を伴う物語として登場します。
 
@@ -60,7 +60,7 @@ __アメリカ合衆国: デジタルドルプロジェクト__
 
 __スウェーデン: E-Krona__
 
-![E-Krona](https://www.paymentscardsandmobile.com/wp-content/uploads/2018/10/ekrona_logo.png)
+![E-Krona](/content-images/ekrona_logo-4596e38b72.webp)
 
 スウェーデンの荒廃した風景を歩く中、E-Kronaは適応性のある物語として展開しますが、金融的な落とし穴もあります。これは現金を使わない社会において通貨へのアクセスを維持することに焦点を当てたデジタル進化であり、物理的現金のなじみある快適さから遠ざかる社会を描いています。
 
@@ -93,7 +93,7 @@ EU加盟国の多様な規制風景は、スムーズな統合に課題をもた
 
 金融包摂というかつて希望の灯台は、潜在的な差別という影に直面します。CBDCの悪用により選択的なアクセスが生じる可能性があり、平等な扱いや包摂性の原則に反するかもしれません。これは金融自由の本質を挑戦するサブプロットです。
 
-![Flow](https://blog.digitalasset.com/hubfs/Imported_Blog_Media/futureofCBDC-2.png)
+![Flow](/content-images/futureofCBDC-2-45075d2d9c.webp)
 
 ## 資源：デジタル探求者向けの地図
 

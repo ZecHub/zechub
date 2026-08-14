@@ -56,7 +56,7 @@ Users can send ZEC between transparent and shielded addresses. For maximum priva
 
 ### Unified Addresses
 
-Modern Zcash wallets like [Zashi](https://electriccoin.co/zashi/) use **Unified Addresses**, which combine both transparent and shielded receivers into a single address. This simplifies the user experience while defaulting to the highest level of privacy available.
+Modern Zcash wallets like [Zodl](https://zodl.com) use **Unified Addresses**, which combine both transparent and shielded receivers into a single address. This simplifies the user experience while defaulting to the highest level of privacy available.
 
 ### Why Privacy Matters
 
@@ -82,7 +82,7 @@ Connect a compatible self-custody wallet. ShapeShift supports a range of wallets
 - **Keplr** (for Cosmos-based assets)
 - **WalletConnect-compatible wallets**
 
-Since you are swapping to or from ZEC, ensure you have a Zcash-compatible wallet (such as Zashi) ready to receive your funds.
+Since you are swapping to or from ZEC, ensure you have a Zcash-compatible wallet (such as Zodl) ready to receive your funds.
 
 ### Step 3: Select Your Swap Pair
 
@@ -98,7 +98,7 @@ Review the transaction details and confirm. The swap is executed on-chain throug
 
 ### Step 6: Shield Your ZEC
 
-Once your ZEC arrives, use your Zcash wallet's **shield** function (available in wallets like Zashi) to move the funds into the shielded pool. This ensures that your balance and future transactions remain fully private.
+Once your ZEC arrives, use your Zcash wallet's **shield** function (available in wallets like Zodl) to move the funds into the shielded pool. This ensures that your balance and future transactions remain fully private.
 
 ### Supported Cross-Chain Pairs
 
@@ -165,7 +165,7 @@ The ShapeShift and Zcash integration represents a meaningful step forward for pr
 
 [Zcash Official Website](https://z.cash/)
 
-[Zashi Wallet (by Electric Coin Co.)](https://electriccoin.co/zashi/)
+[Zodl Wallet](https://zodl.com)
 
 [ShapeShift DAO Governance (FOX Token)](https://shapeshift.com/fox-token)
 

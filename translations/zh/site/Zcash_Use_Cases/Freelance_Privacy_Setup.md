@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/amochuko/zechub/68acdb6f311bff85fe8ded7b47b2e362d7712474/assets/icons/programmer-software-engineer-coder-software-developer-svgrepo-com.svg" width="24" height="24" alt="自由职业者图标"/> 使用 Zcash 的自由职业者隐私设置
+# <img src="/content-images/programmer-software-engineer-coder-softw-bce5a0cb5b.svg" width="24" height="24" alt="自由职业者图标"/> 使用 Zcash 的自由职业者隐私设置
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
@@ -15,7 +15,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="用户图标"/> 这适合谁？
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="用户图标"/> 这适合谁？
 
 - 自由职业者和合同工
 - 以加密货币收款的远程工作者
@@ -23,7 +23,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="警告图标"/> 问题所在
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="警告图标"/> 问题所在
 
 使用公开加密货币的自由职业者会暴露：
 - 他们的收入
@@ -38,7 +38,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="工具箱图标"/> 为什么选择 Zcash？
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="工具箱图标"/> 为什么选择 Zcash？
 
 Zcash 让你能够：
 - 私密地接收付款
@@ -47,7 +47,7 @@ Zcash 让你能够：
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="工具箱图标"/> 你需要什么
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="工具箱图标"/> 你需要什么
 
 - 一个支持 memo 的 Zcash 钱包
 - 对屏蔽地址的基本了解
@@ -55,7 +55,7 @@ Zcash 让你能够：
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="步骤图标"/> 分步指南
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="步骤图标"/> 分步指南
 
 ### 第 1 步：创建收款地址
 
@@ -89,7 +89,7 @@ Zcash 让你能够：
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="取消图标"/> 需要避免的常见错误
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="取消图标"/> 需要避免的常见错误
 
 - 使用透明地址收款  
 - 在所有客户之间重复使用同一个地址  
@@ -99,7 +99,7 @@ Zcash 让你能够：
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="完成图标"/> 结果
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="完成图标"/> 结果
 
 你可以：
 - 私密地接收付款
@@ -108,13 +108,13 @@ Zcash 让你能够：
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="链接图标"/> 相关内容
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="链接图标"/> 相关内容
 
 - [钱包](/wallets)
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/progress-arrows-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="进度图标"/> 进度
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="进度图标"/> 进度
 
 **第 3 步，共 6 步**
 
@@ -124,5 +124,5 @@ Zcash 让你能够：
 
 ## 下一步
 
-- [作为商家接受付款](/use-cases/accept-payments-as-a-merchant)
+- [作为商家接受付款](/zcash-use-cases/accept-payments-as-a-merchant)
 <br/>

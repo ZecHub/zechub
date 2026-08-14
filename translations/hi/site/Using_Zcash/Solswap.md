@@ -2,7 +2,7 @@
 
 
 
-![img1](https://hackmd.io/_uploads/SJOlnt-ceg.png)
+![img1](/content-images/SJOlnt-ceg-34468cfecd.webp)
 
 ---
 
@@ -11,7 +11,7 @@
 या अपने Phantom browser से **[solswap.org](https://solswap.org/)** पर जाएँ।  
 
 
-![img2](https://hackmd.io/_uploads/S1Cp-KWqxe.jpg)
+![img2](/content-images/S1Cp-KWqxe-ab70e844b9.webp)
 
 ---
 
@@ -19,7 +19,7 @@
 - अपना **source network** चुनें (उदाहरण के लिए, *Ethereum* या *Solana*), फिर swap करने के लिए जमा करें।  
 
 
-![img3](https://hackmd.io/_uploads/S1SaGYZ9xx.jpg)
+![img3](/content-images/S1SaGYZ9xx-2a27ccdd47.webp)
 
 - **SOL, USDT, या USDC** जैसे किसी base token का चयन करें।  
 - अपने **destination token** के रूप में **ZEC** चुनें।  
@@ -27,7 +27,7 @@
 
 
 
-![img4](https://hackmd.io/_uploads/ry4QQF-5gx.jpg)
+![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
 
 ---
 
@@ -36,7 +36,7 @@
 - Phantom fees के बाद **अनुमानित प्राप्त राशि** दिखाएगा।  
 
 
-![img5](https://hackmd.io/_uploads/B1U1NYW5xe.jpg)
+![img5](/content-images/B1U1NYW5xe-58cf150668.webp)
 
 ---
 
@@ -63,7 +63,7 @@
 - लेनदेन शुरू करने के लिए **Swap Now** पर टैप करें।  
 
 
-![img6](https://hackmd.io/_uploads/HkU1UKZ5gx.jpg)
+![img6](/content-images/HkU1UKZ5gx-e068ea8d5a.webp)
 
 ---
 
@@ -72,6 +72,6 @@
 - Cross-chain swaps के लिए, real-time updates पाने हेतु अपने **transaction ID** का उपयोग **Li.Fi Scanner** के साथ करें। 
 
 
-![img7](https://hackmd.io/_uploads/S1NBwKbcxe.jpg)
+![img7](/content-images/S1NBwKbcxe-5b7d11f5c1.webp)
 
 ## इसके बाद आप [इस guide के साथ अपने ZEC को shield करना शुरू कर सकते हैं](https://zechub.wiki/guides/using-zec-privately)

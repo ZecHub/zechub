@@ -25,11 +25,11 @@ Zcash Desktop & Mobile wallets have an in-built feature that allows users to sen
 
 Jaribu: https://z.cash/wallets 
 
-[Zcash Encrypted Memos]](https://i.ibb.co/n8HbQZC/Zcash-1177103374.png)
+[Zcash Encrypted Memos](/content-images/Zcash-1177103374-7bca37eb4d.webp)
 
 ** Programu ya ishara **
 
-[Signal App]](https://i.ibb.co/7RbbxSs/signal-app-logo-scaled-454032876.jpg)
+[Signal App](/content-images/signal-app-logo-scaled-454032876-81b24a0421.webp)
 
 The Signal private messenger is a secure messaging app with data privacy at its peak. The Signal private messenger app is free and easy to use, users do not need any prior experience. The Signal app has an end-to-end encryption technology that ensures your communication is completely private. Anyone looking to send private messages securely should consider using the Signal private messenger app because it will exponentially reduce both your cybersecurity vulnerabilities and your data footprint.
 
@@ -37,7 +37,7 @@ Jaribu: [https://signal.org/download](https://signal.org/download)
 
 **BisonRelay**
 
-[Bison Relay]](https://i.ibb.co/ZxpBVNv/ogimg-v1-1000556235.jpg)
+[Bison Relay](/content-images/ogimg-v1-1000556235-9390372d1e.webp)
 
 Programu ya Bison Relay ilianza kutumika mwaka wa 2022. Programu hii haitegemei watumiaji kuwa na akaunti - ni jambo lisiloaminika! Hapa, kila ujumbe unaotumwa na kupokelewa hulipwa kibinafsi kupitia Mtandao wa Umeme uliopangwa. Kusudi pekee la programu hii ni kuondoa kabisa hitaji la akaunti huku ikipunguza metadata. Kwa upande mwingine, Bisson Relay inasimamisha njia ambayo udhibiti hutekelezwa kawaida. 
 
@@ -45,7 +45,7 @@ Jaribu: [https://bisonrelay.org/download](https://bisonrelay.org/download)
 
 ** Kipindi cha Programu**
 
-[Kikao App](https://i.ibb.co/gdpwb1v/logo-black.png)
+[Kikao App](/content-images/logo-black-9e799f2b06.webp)
 
 If you don't already know what Session app is, don't fret! Here is a glimpse, Session is one of the vying end-to-end encrypted messengers. The app was built to minimize sensitive metadata. The session app was designed for individuals who want absolute privacy, and freedom from any form of surveillance. On the Session app, users can create an account without phone numbers or email addresses which means it is completely anonymous. Users can send messages safely via their network without any trace so, there's nothing to leak.
 

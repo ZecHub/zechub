@@ -6,7 +6,7 @@ Bugün **Lelantus**'a göz atıyoruz!
 
 2019'da yayımlanan bu protokol, Zerocoin üzerine inşa edilmiştir. Özel on-chain işlemleri mümkün kılmak için **Firo** para biriminde (eski adıyla Zcoin) kullanılır. Bazı yönleriyle Zcash'e benzer, ancak çoğu açıdan belirgin şekilde farklıdır.
 
-![Lelantus intro](https://pbs.twimg.com/media/Fsk18DgXsAEc0Ob.jpg)
+![Lelantus intro](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
 
 ---
 
@@ -15,7 +15,7 @@ Bugün **Lelantus**'a göz atıyoruz!
 - **Zcash** - **Zerocash** protokolü üzerine inşa edilmiştir  
 - **Firo (Zcoin)** - **Zerocoin** protokolü üzerine inşa edilmiştir
 
-![Zerocash vs Zerocoin comparison](https://pbs.twimg.com/media/Fsk2Fk7WcAA81ty.png)
+![Zerocash vs Zerocoin comparison](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
 
 ---
 
@@ -28,7 +28,7 @@ Zcash'e benzer şekilde, Firo anonim ödemeleri gerçekleştirmek için shielded
 - **Sigma** - Sabit kupür sistemi
 - **Lelantus 1.0** - Doğru güvenlik ispatlarından yoksundu
 
-![Protocol evolution](https://pbs.twimg.com/media/Fsk2NdaWAAAKVgH.png)
+![Protocol evolution](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
 
 ---
 
@@ -38,7 +38,7 @@ Zcoin/Firo'nun önceki sürümlerinde kullanılan Σ (Sigma) protokolünün öne
 
 Bu, daha küçük anonimlik kümeleri oluşturdu ve mint ile redeem işlemleri arasında zamanlama saldırılarına kapı araladı (ayrıca "tainted change" sorunu da vardı).
 
-![Sigma denominations](https://pbs.twimg.com/media/Fsk2fxfWcAMUBDo.png)
+![Sigma denominations](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
 
 ---
 
@@ -53,7 +53,7 @@ Temel avantajlar:
 
 **Sınırlama**: Küme boyutu şu anda **65.000 coin** ile sınırlıdır.
 
-![Lelantus advantages](https://pbs.twimg.com/media/Fsk2wK3X0AA6MEe.png)
+![Lelantus advantages](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
 
 ---
 
@@ -65,7 +65,7 @@ Bunlar, Zcash'teki **Notes** ile benzer işlev görür.
 
 Coin commitment, coin oluşturulduğunda (Mint veya Spend işlemleri yoluyla) yayımlanır ve ledger üzerinde saklanır.
 
-![Coin commitment diagram](https://pbs.twimg.com/media/Fsk3AWNX0AIHya8.png)
+![Coin commitment diagram](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
 
 ---
 
@@ -77,7 +77,7 @@ Lelantus, klasik **basecoin < - > zerocoin** modelini kullanır.
 
 Zcash'te olduğu gibi, transparent işlemler kullanıcı tarafından açıkça seçilmelidir.
 
-![Lelantus flow](https://pbs.twimg.com/media/Fsk3HrjXgAMgqmX.png)
+![Lelantus flow](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
 
 ---
 
@@ -87,7 +87,7 @@ Lelantus, dengeyi kanıtlamak için gerekli giriş değerlerini, girişlerin kö
 
 Bu ispatlar ayrıca **Triptych**'te de kullanılır (CryptoNote başlığımızda bahsedilmişti).
 
-![One-of-Many Proofs](https://pbs.twimg.com/media/Fsk3Z0nWIAAPD4k.jpg)
+![One-of-Many Proofs](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
 
 ---
 
@@ -103,7 +103,7 @@ Monero gibi, Firo da işlemi yayınlayan kişinin IP adresini gizleyerek gizlili
 
 Bu, ağ analizi yoluyla bir işlemin kaynağını izlemeyi çok daha zor hâle getirir.
 
-![Dandelion++ explanation](https://pbs.twimg.com/media/Fsk4A8VWcAU84MR.png)
+![Dandelion++ explanation](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
 
 ---
 
@@ -117,7 +117,7 @@ Ayrıca şu özellikler için destek ekleyecektir:
 
 Bu özellikler Zcash Shielded Assets ile paraleldir.
 
-![Lelantus-Spark announcement](https://pbs.twimg.com/media/Fsk4jXeXsAACQ3h.jpg)
+![Lelantus-Spark announcement](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
 
 ---
 

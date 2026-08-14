@@ -15,7 +15,7 @@ ZecHub هو مركز تعليمي لامركزي لـ Zcash. الهدف من [Ze
 
 الدروس التعليمية، والمدونات القصيرة، والنشرة الإخبارية كلها مفتوحة المصدر ومستضافة على GitHub، ما يعني أن أي شخص من المجتمع يمكنه المساهمة. وذلك لضمان دقة المحتوى وألّا تعاني القناة نفسها من نقطة فشل وحيدة.
 
-إذا كنت جديدًا على Zcash، فاستخدم [هذا الدليل](/site/Start_Here/New_User_Guide).****
+إذا كنت جديدًا على Zcash، فاستخدم [هذا الدليل](/start-here/new-user-guide).****
 
 ## كيفية إجراء تغييرات على ZecHub
 
@@ -54,7 +54,7 @@ ZecHub هو مركز تعليمي لامركزي لـ Zcash. الهدف من [Ze
 التبرعات: [هنا](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
 <a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
-    <img src="https://i.ibb.co/pfBM1z9/image-2023-11-18-141228046.png" alt="" width="200" height="200"/>
+    <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
 </a>
 
 

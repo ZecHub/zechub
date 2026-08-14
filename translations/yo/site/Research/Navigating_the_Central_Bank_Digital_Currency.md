@@ -1,7 +1,7 @@
 ti a tẹjade: 2023-12-07
 ---
 
-[CBDC]](https://raw.githubusercontent.com/ZecHub/zechub-wiki/main/public/cbdc.webp)
+[CBDC](/content-images/cbdc-dfb8827faa.webp)
 # Ṣíṣí Ìhòòhò Ìhà Òkùnkùn: Ṣíṣàmúlò Owó-ìpamọ́ Oníṣòwò (CBDC) Láàárín Àwọn Òjìji Ìnáwó
 Àkọlé àwòrán: [Abhishek Tiwari]
 
@@ -36,7 +36,7 @@ Gbigba awọn CBDCs di wiwa akikanju wa, irin-ajo ti o kun fun awọn imọ-ẹr
 __China: Owo oni-nọmba Owo Iṣowo Iṣeduro (DCEP)__
 
 
-[DCEP] Èmi náà ò lè ṣe bẹ́ẹ̀!](https://forkast.news/wp-content/uploads/2020/08/dcep-featured.jpg)
+[DCEP] Èmi náà ò lè ṣe bẹ́ẹ̀!](/content-images/dcep-featured-c278cf0ef6.webp)
 
 In the dystopian streets of China, the Digital Currency Electronic Payment (DCEP) unfolds not as a marvel, but as a harbinger of societal control with its own set of ominous financial shadows. Everyday transactions pulse with life, courtesy of programmable money and the allure of offline capabilities.
 
@@ -49,7 +49,7 @@ DCEP goes beyond being a digital surrogate, designed to seamlessly facilitate ev
 
 Orílẹ̀-èdè Amẹ́ríkà: Digital Dollar Project
 
-[Dọ́là orí ẹ̀rọ]](https://www.ledgerinsights.com/wp-content/uploads/2020/03/digital-dollar-CBDC.jpg)
+[Dọ́là orí ẹ̀rọ](/content-images/digital-dollar-CBDC-8e8120f52f.webp)
 
 In the vast, despondent landscapes of the United States, the Digital Dollar Project emerges not as a beacon of progress but as a testament to efficiency and inclusivity, albeit with its share of uncertainties. A private-sector initiative, it aims to reshape the financial landscape in a narrative tinged with shades of corporate control.
 
@@ -61,7 +61,7 @@ The U.S. has a complex history of financial regulation, with frequent debates on
 
 __Sweden: E-Krona__
 
-[E-Krona] Èmi náà ò lè ṣe é!](https://www.paymentscardsandmobile.com/wp-content/uploads/2018/10/ekrona_logo.png)
+[E-Krona] Èmi náà ò lè ṣe é!](/content-images/ekrona_logo-4596e38b72.webp)
 
 As we traverse the desolate landscapes of Sweden, the E-Krona unfolds as a narrative of adaptability, but not without its financial pitfalls. It's a digital evolution focused on maintaining access to currency in a cashless society, portraying a society devoid of the familiar comforts of physical cash.
 
@@ -73,7 +73,7 @@ Sweden's past record of financial innovation is overshadowed by the potential ch
 
 __European Union: Eurozone CBDC__ Àwọn àkànṣe owó ìdókòwò
 
-[Àdúgbò Euro]](https://upload.wikimedia.org/wikipedia/commons/c/cb/Logo_European_Central_Bank.svg)
+[Àdúgbò Euro](https://upload.wikimedia.org/wikipedia/commons/c/cb/Logo_European_Central_Bank.svg)
 
 Ìrìn àjò wa parí nínú àwọn orílẹ̀-èdè tí wọ́n ń ṣe àjọ European Union, níbi tí CBDC ti Eurozone kò ti ń wá bí yóò ṣe ṣàfikún owó gidi, ṣùgbọ́n láti ṣe ipa ọ̀nà àkóso àti ìmúṣẹ nínú àyíká ìṣúnná owó tí kò dára.
 
@@ -94,7 +94,7 @@ Government surveillance, once a distant concept, becomes a potential antagonist.
 
 Financial inclusion, once a beacon of hope, faces the shadows of potential discrimination. The misuse of CBDCs could lead to selective access, violating principles of equal treatment and inclusivity. It's a subplot that challenges the very essence of financial freedom.
 
-[Ìṣàn](https://blog.digitalasset.com/hubfs/Imported_Blog_Media/futureofCBDC-2.png)
+[Ìṣàn](/content-images/futureofCBDC-2-45075d2d9c.webp)
 
 ## Àwọn Ohun Tó Wúlò: Àwòrán Ayé fún Àwọn Tó Ń Lo Íńtánẹ́ẹ̀tì
 

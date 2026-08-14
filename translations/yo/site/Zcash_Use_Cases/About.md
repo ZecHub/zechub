@@ -1,50 +1,50 @@
 # Lo Zcash ní Ayé Òtítọ́
 
-Zcash kì í ṣe nípa ìpamọ́ ní èrò orí nìkan  ó jẹ́ nípa **ìṣe, òmìnira ìṣúnná owó ojoojúmọ́**.
+Zcash kì í ṣe nípa ìpamọ́ ní èrò orí nìkan  ó jẹ̀ nipa **ìṣe, òmìnira owó ojoojúmọ**.
 
-Abala yii fihan ọ gangan bi o ṣe le lo Zcash ni awọn oju iṣẹlẹ igbesi aye gidi, pẹlu awọn itọnisọna igbesẹ-ni-igbesẹ ati awọn iṣe ti o dara julọ.
+Abala yii fihan ọ **ni pato bi o ṣe le lo Zcash ni awọn oju iṣẹlẹ igbesi aye gidi**, pẹlu awọn itọnisọna igbesẹ-nipasẹ ati awọn iṣe ti o dara julọ.
 
-## Ohun Tó Yẹ Kó O Kọ́
+## Ohun Tó O Máa Kọ́
 
-- Bó o ṣe lè dáàbò bo owó rẹ
-- Bii o ṣe le yago fun awọn aṣiṣe ti o wọpọ ti o ṣafihan data rẹ
-- Bii o ṣe le lo Zcash ni awọn ipo aye gidi
+- Bó o ṣe lè dáàbò bo ìfọ̀kànbalẹ̀ nípa owó rẹ
+- Bii o ṣe le yago fun awọn aṣiṣe ti o wọpọ ti o fi data rẹ han
+- Bii o ṣe le lo Zcash ni awọn ipo gidi-aye
 
-## Bó O Ṣe Lè Lo Àwọn Ìwé Atọ́nà Náà
+## Bó O Ṣe Lè Lo Àwọn Ìwé Ìtọ́ni Náà
 
-Ìwé ìṣeré kọ̀ọ̀kan jẹ́:
-- Kúrú (ìyẹn ìṣẹ́jú márùn-ún sí méje)
-- Ìgbésẹ̀-ní-ìgbésẹ̀
-- Ó dá lórí ayé gidi 
+Ìwé ìṣeré kọ̀ọ̀kan ni:
+- Ìrọ̀lẹ́ (5-7 ìṣẹ́jú)
+- Ìgbésẹ̀-ìgbésẹ̀
+- Ó dá lórí ayé gidi. 
 
 
-Ti o ba jẹ tuntun, bẹrẹ nibi: [Kini Zcash](/start-here/what-is-zec-and-zcash)
+Tó bá jẹ́ pé o ṣẹ̀ṣẹ̀ dé, bèèrè níbí: [Kí ni Zcash?](/start-here/what-is-zec-and-zcash)
 
 
 ##  Ọ̀nà tí a dámọ̀ràn
 
-Tẹlé ìrìnàjò ìgbésẹ̀-ìgbésẹ̀ yìí láti mọ bí a ṣe ń lo Zcash nínú ayé gidi:
+Tẹle ìrìn àjò ìgbésẹ̀-lé-ìgbésè̀ yìí láti mọ bí a ṣe ń lo Zcash nínú ayé gidi:
 
-###  [Gba Ẹ̀bùn Náà Ní Ìkọ̀kọ̀](/zcash-use-cases/receive-donations-privately)
-Kẹ́kọ̀ọ́ nípa bó o ṣe lè gba owó láìsí pé ò ń jẹ́ káwọn èèyàn mọ ẹni tó o jẹ́ tàbí kó o sọ bí owó rẹ ṣe pọ̀ tó.
-
-
-###  [Fífi Owó ránṣẹ́ Láìsí Àkọsílẹ̀ Ẹni](/zcash-use-cases/send-money-without-linking-identity) 
-Má ṣe fi àpamọ́wọ́ rẹ, ìwé ìdánimọ rẹ, tàbí àwòrán ìnáwó rẹ hàn nígbà tó o bá ń fi owó ránṣẹ́.
+###  [Gba Ọrẹ Ní Ìkọ̀kọ̀](/zcash-use-cases/receive-donations-privately)
+Kọ́ bó o ṣe lè gba owó láìjẹ́ kí ẹnikẹ́ni mọ ẹni tó ò ń jẹ́ tàbí bí wọ́n ṣe máa rí owó rẹ gbà.
 
 
-###  [Ìtòlẹ́sẹẹsẹ Ìpamọ́ fún Òṣìṣẹ́ Aládàáni]](/zcash-use-cases/freelancer-privacy-setup)  
-Wá sanwó rẹ ní Zcash nígbà tí o sì ń pa àwọn oníbàárà rẹ àti owó tó ń wọlé fún ọ mọ́.
+###  [Fi Owó Ránṣẹ́ Láìjẹ́ Pé Ìwọ Ni Ẹni Náà](/zcash-use-cases/send-money-without-linking-identity) 
+Má ṣe fi àpamọ́wọ́ rẹ, ìwé ìdánimọ tàbí àwòrán ìnájà hàn nígbà tó o bá ń rán owó.
 
 
-###  [Gba Awọn Owo bi Oniṣowo]](/zcash-use-cases/accept-payment-as-a-merchant)  
-Gba awọn sisanwo nipa lilo adirẹsi ti o ni aabo ati yago fun ṣiṣafihan data iṣowo alabara
+###  [Àkójọ Ìpamọ́ fún Òṣìṣẹ́-Afẹ̀ẹ́lẹ̀](/zcash-use-cases/freelance-privacy-setup)
+Wá owó rẹ gbà ní Zcash, kó o sì máa fi àwọn oníbàárà àti èrè tó ń wọlé fún ẹ pa mọ́.
 
 
-###  [Máa Ṣọ́ Iṣẹ́ Ìkáwọ́ Àkànṣe fún Ìjọ](/zcash-use-cases/run-a-private-community-treasury)
-Use shielded addresses to hold shared funds and limit visibility of balances and transactions
+###  [Máa Gba Owó Gẹ́gẹ́ Bí Oníṣòwò](/zcash-use-cases/accept-payments-as-a-merchant)
+Gba owo sisan nipa lilo adirẹsi ti a fi pamọ ati yago fun fifihan data iṣowo alabara
 
-###  [Ìtòlẹ́sẹẹsẹ Ìpamọ́ fún Oníròyìn]](/zcash-use-cases/journalist-privacy-setup)   
-Lo àwọn àdírẹ́sì tí a fi ààbò bo fún gbogbo ìsòwò àti ààbò àwọn orísun nípa yíyẹra fún àwọn ìsanwó tí a lè tọpinpin.
+
+###  [Ṣíṣètò Ìpamọ́ Owó Àkànṣe fún Àwọn Èèyàn](/zcash-use-cases/private-community-treasury)
+Lo àwọn àdírésì tí a fi ààbò bo láti tọ́jú owó ti wọ̀nyí àti dídènà wíwo ìdìpọ̀-ìṣòro àti ìṣòwò.
+
+###  [Àkójọ Ìpamọ́ fún Oníròyìn](/zcash-use-cases/journalist-privacy-setup)   
+Lo àwọn àdírẹ́sì tí a fi ààbò bo fún gbogbo ìsòwò àti dáàbò bò orísun nípa yíyẹra sí owó-ìsanwó tó ṣeé tọpinpin. Ṣọjú lo ìwé ìránnilétí láti lè ní ìbánisọ̀rọ̀ aláìséwu
 
 <br/>

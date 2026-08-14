@@ -17,67 +17,71 @@ In the digital era, safeguarding your [privacy](https://www.privacyguides.org/en
 
 The I2P network, also known as the [Invisible Internet Project](https://geti2p.net/en/about/intro), is a fully encrypted peer-to-peer overlay network. It ensures that the contents, source, and destination of messages are hidden from observers. In other words, nobody can see the origin or destination of the traffic or the actual contents of the messages being transmitted. The encryption used in I2P ensures a high level of privacy and anonymity for its users.
 
+### Installing I2P
+
+There are two implementations. The original [Java I2P](https://geti2p.net/en/download) runs on Windows, macOS, Linux and Android. [i2pd](https://i2pd.website/), written in C++, is lighter and is the usual choice on a server or a low-powered machine.
+
+Once it is running, I2P exposes a local console on `127.0.0.1:7657` and proxies on `127.0.0.1:4444` (HTTP) and `127.0.0.1:4447` (SOCKS). Expect it to take several minutes on first start: I2P has to build tunnels through the network before anything works, and it gets faster the longer it stays online.
+
+### Using I2P with Zcash
+
+Be aware that **no current Zcash node speaks I2P natively.** Zebra has no I2P support, and neither did zcashd. If you see a guide claiming to run a Zcash node over I2P, it is describing something the software does not do.
+
+What I2P is genuinely useful for here is everything around the wallet: reaching a site, a forum or a service without revealing your address. For anonymising the wallet connection itself, Tor is the practical option today, and the sections below cover it.
+
 ## Tor and I2P share common features but also have significant differences. 
 
 Both Tor and I2P are decentralized and anonymous peer-to-peer networks, but I2P provides higher levels of security compared to Tor. However, I2P is primarily designed for accessing services like email, chat, and torrenting within its network and cannot be used to access the regular internet. On the other hand, Tor allows users to access the deep web, just like I2P, but it also functions as a regular browser for accessing websites on the surface web.
 
 *Note: For more information on similarities and differences of Tor & I2P visit [here](https://geti2p.net/en/comparison/tor)*
 
-## Intergrating Tor with Ywallet on Smartphone
+## Routing a mobile wallet through Tor with Orbot
 
 Orbot is a no-cost virtual private network (VPN) designed for smartphones that directs traffic from all applications on your device through the Tor network.
 
-Follow these instructions below to Connect Tor to Zcash Wallet *(Ywallet)*:
+Follow these instructions to route a Zcash wallet through Tor. Note that Ywallet, which earlier versions of this guide used, is no longer maintained and will not follow the network after Ironwood, so pick a maintained wallet from the [Wallets](/using-zcash/wallets) page.
 
 1.  Download and install *Orbot* from the app store.
 
 2.  After insatllation, a greetings message will appear. Continue to the *Orbot* home page and click on *'Tor Enabled Apps'.*              
 
-3. This will prompt a page on the screen showing the Tor-compatible applications. Look For the *Ywallet* App and make sure it is selected.
+3. This will prompt a page on the screen showing the Tor-compatible applications. Find your Zcash wallet in the list and make sure it is selected.
 
 4. A connection request to set up a VPN will appear, which will allow *Orbot* to monitor the network traffic. *Orbot* will Initialise once this permission has been approved. 
 
 5. Check the taskbar or the Orbot homepage to verify that Tor is runnung, this is confirmed when you see 'Connected to the Tor network'.
 
-* For video tutorial wacth [here](https://drive.google.com/file/d/12ODTLrjgSzYFeAOTrv-P9LvfBVOvrSXK/view?usp=sharing)
-
 *Note: If Tor is blocked by your mobile network, you may use a Bridge Server as an alternative way to connect.*
 
 
-## How to set up a Zcash wallet with Torbot on PC/Desktop
-
-## Tor support in Zcash?
+## Installing Tor on PC or desktop
 
 * Tor browser can be downloaded from the official website, you can access the link [here](https://www.torproject.org/download/).
 
  The most convenient way for installing Tor is through the Tor Browser Bundle. If you prefer headless installations, you may opt to install the Tor daemon separately. 
 
-*Note: By default, Tor Browser bundle esxposes a SOCKS listtener on tcp/9150 and Tor daemon exposes the SOCKS listener on tcp/9050.*
+*Note: By default, the Tor Browser bundle exposes a SOCKS listener on tcp/9150 and the Tor daemon exposes the SOCKS listener on tcp/9050.*
 
 * Refer to the installation [instructions](https://support.torproject.org/apt/) specific to your operating system as provided by the Tor Project.
 
-## Install Zcashd wallet
+## Running a node over Tor
 
-Zcashd is the official linux-based full-node wallet which is updated and maintained by core developers from the Electric coin Co. It is intended for users who may want to mine and validate zcash transactions, as well as sending and receing Zcash.
+This is the part that has changed most, and the honest answer is that it is currently harder than it was.
 
-* The official website to download Zcashd Wallet can be found [here](https://electriccoin.co/zcashd/) 
+**zcashd is gone.** It reached end of support and halted on 18 July 2026 at block 3,417,100. It will not restart, its download page returns a 404, and the apt repository is no longer served. Any instruction telling you to run `zcashd -proxy=127.0.0.1:9050` no longer applies to anything.
 
-* Install wallet: Link to the Tutorial video [here](https://www.youtube.com/watch?v=hTKL0jPu7X0) provided by the Zcash wallet developers.
+**Zebra cannot do it yet either.** Zebra is the maintained node, and its network crate does contain isolated-connection code for Tor, but the feature is commented out in `zebra-network/Cargo.toml`:
 
-##  Run Zcashd over Tor 
+```
+# tor = ["arti-client", "tor-rtcompat"]
+```
 
-* In order to Configure Zcashd to use Tor SOCKS proxy, you can append the -proxy command line argument to the daemon command.
+The crate documentation says the same thing plainly: *"Tor connections are currently disabled until `arti-client`'s dependency `x25519-dalek v1.2.0` is updated."* The `connect_isolated_tor` function is commented out along with it. So there is no supported way to run a Zcash node over Tor today.
 
- For example:
+If you need node-level anonymity now, the workable approach is to put the whole machine behind Tor or a VPN at the operating-system level rather than configuring the node itself. That protects your network location without relying on node features that are not built.
 
-  $ zcashd -proxy=127.0.0.1:9050
-      
-Alternatively, add the following line to the zcash.conf file:
+### What you can still do today
 
-  proxy=127.0.0.1:9050
-
-For configuration changes to take effect, it is advised to restart zcashd.
-
-Note that this assumes that the Tor daemon is being used. In case the Tor Browser Bundle is being used, replace 9050 with 9150.
-
-Additionally, you can append the command line argument -listenonion to make the daemon generate an .onion address at which your node can be reached.
+- **Route your wallet through Tor** with Orbot on mobile, as described above. This is the practical option for most people, and it hides your IP from the lightwalletd server your wallet talks to
+- **Use Tor Browser** for block explorers, forums and anything else where you would rather not be linked by address
+- **Remember what Tor does not hide.** It anonymises your network location, not your on-chain activity. Sending from a transparent address is still public, and value crossing between shielded pools still publishes the amount. See [Shielded Pools](/using-zcash/shielded-pools) for what stays visible

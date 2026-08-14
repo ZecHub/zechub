@@ -1,140 +1,154 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Pepper_Sync.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
+</a>
+
 # Zingo 2.0 - Pepper Sync
 
-## はじめに
-Zingo 2.0 は、Zcash コミュニティのために作られた軽量でオープンソースのウォレットである Zingo! ウォレットの最新バージョンです。このリリースの最大の特徴は、ウォレットがブロックチェーンと接続する方法を完全に再考した Pepper Sync という大規模なアップグレードです。
+## TL;DR
 
-以前は、同期処理が非常に遅く、エラーが多く発生しやすく、リソースを多く消費することもあり、ユーザーが最初からやり直す必要がある場合がありました。Pepper Sync はすべてのこれらの問題を解決します。同期処理をより速く、滑らかに、信頼性高く、デバイスへの負荷も軽減しながら、シールドされた取引のプライバシーを完全に保つことができます。
+* Pepper Sync は、Zingo Labs が構築したオープンソースの Zcash ウォレットである Zingo! 2.0 に導入された同期エンジンです。
+* 大きな連続チャンクでチェーンをスキャンするのではなく、非線形の同期を使用するため、残高や取引がはるかに早く表示されます。
+* 進行状況は継続的に保存されます。接続が切れたりアプリが閉じたりしても、最初からやり直すのではなく、中断した地点から同期が再開されます。
+* 同期が完了する前でも支払いができます。
+* シールドされた取引は、プロセス全体を通じてプライバシーが保たれます。
 
-Zcash を初めて試してみる新規ユーザーであったり、複数のシールドウォレットを管理している長年コミュニティの一員であったりするすべてのユーザーにとって、Pepper Sync は体験をはるかに実用的で楽しめるものにします。
+## 基本説明
 
----
+Zingo 2.0 は Zingo! ウォレットの最新バージョンであり、Zcash コミュニティ向けに作られた軽量なオープンソースウォレットです。このリリースの主役は Pepper Sync で、ウォレットがブロックチェーンに接続する方法を根本から見直した大幅なアップグレードです。
 
-## Pepper Sync の主要な機能
-Pepper Sync はいくつかの改善点を導入しています：
-- **はるかに高速な同期** - ウォレットが数分で準備できます。何時間もかかる必要はありません。
-- **スマートなアップデート** - データは小さなチャンクで処理され、フルスキャンを避けています。
-- **中断に対して頑健** - 接続が切れた場合でも、同期はその場所から再開します。
-- **軽量かつ効率的** - スマートフォンやノートパソコンなどの低性能デバイスにも最適化されています。
-- **明確なフィードバック** - 実時間での進捗状況の更新により、混乱を減らしています。
-- **プライバシー保護** - シールドされた取引はプロセス全体を通して完全にプライバシーが保たれます。
+以前は、同期はひどく遅く、エラーが起きやすく、リソース消費も大きく、ときには最初からやり直さなければならないこともありました。Pepper Sync はそれを一変させます。シールドされた取引のプライバシーを完全に維持しながら、同期をより速く、よりスムーズに、より信頼性高くし、さらにデバイスへの負荷も軽減します。
 
----
+初めて Zcash を試すまったくの新規ユーザーであっても、複数のシールドウォレットを管理する長年のコミュニティメンバーであっても、Pepper Sync はその体験をはるかに実用的で快適なものにします。
 
-## 以前よりも改善されている点
-旧バージョンの Zingo では、長時間かかる同期処理、曖昧なエラーハンドリング、リソース使用量が多いことがユーザーを不満にさせました。Pepper Sync はこれらの一般的な問題を解決します：
+### Pepper Sync の主な機能
 
-<div className="overflow-x-auto my-8">
-  <table className="w-full min-w-[640px] max-w-[950px] mx-auto border-collapse shadow-xl rounded-2xl overflow-hidden dark:shadow-2xl">
-    <thead>
-      <tr>
-        <th className="bg-emerald-400 dark:bg-emerald-700 text-white px-4 py-4 sm:px-6 sm:py-5 text-left font-bold text-base sm:text-lg tracking-tight">機能</th>
-        <th className="bg-emerald-400 dark:bg-emerald-700 text-white px-4 py-4 sm:px-6 sm:py-5 text-left font-bold text-base sm:text-lg tracking-tight">以前の Zingo バージョン</th>
-        <th className="bg-emerald-40线 dark:bg-emerald-700 text-white px-4 py-4 sm:px-6 sm:py-5 text-left font-bold text-base sm:text-lg tracking-tight">Pepper Sync 付き Zingo 2.0</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="bg-slate-50 hover:bg-slate-100 dark:bg-slate-800 dark:hover:bg-slate-700">
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 font-semibold text-slate-800 dark:text-slate-200">同期速度</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">特に最初のセットアップでは遅い</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 bg-emerald-50 dark:bg-emerald-950 font-medium text-emerald-800 dark:text-emerald-300">初期および継続的な同期がはるかに高速</td>
-      </tr>
-      <tr className="hover:bg-slate-100 dark:hover:bg-slate-700">
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 font-semibold text-slate-800 dark:text-slate-200">エラーハンドリング</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">一時停止や不明な失敗が発生</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 bg-emerald-50 dark:bg-emerald-950 font-medium text-emerald-800 dark:text-emerald-300">自動回復機能付きで安定性が向上</td>
-      </tr>
-      <tr className="bg-slate-50 hover:bg-slate-100 dark:bg-slate-800 dark:hover:bg-slate-700">
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 font-semibold text-slate-800 dark:text-slate-200">ユーザー体験</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">新規ユーザーには「不透明」に感じられた</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 bg-emerald-50 dark:bg-emerald-950 font-medium text-emerald-800 dark:text-emerald-300">ステータスやアップデートが明確</td>
-      </tr>
-      <tr className="hover:bg-slate-100 dark:hover:bg-slate-700">
-        <td className="px-4 py-4 sm:px-6 sm:py-5 font-semibold text-slate-800 dark:text-slate-200">デバイス性能</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 text-slate-700 dark:text-slate-300">CPU/メモリ使用量が高かった</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 bg-emerald-50 dark:bg-emerald-950 font-medium text-emerald-800 dark:text-emerald-300">リソースの使用を滑らかに最適化</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Pepper Sync はいくつかの改善を導入しています。
 
-要するに、同期は今やより速く、信頼性が高く、理解しやすくなりました。
+- 大幅に高速な同期 - ウォレットの準備が数時間ではなく数分で整います。
+- スマートな更新 - データをより小さな単位で処理し、完全な再スキャンを回避します。
+- 中断への強さ - 接続が切れても、同期は中断した地点から再開されます。
+- 軽量かつ効率的 - スマートフォン、ノートPC、その他の低性能デバイス向けに最適化されています。
+- より明確なフィードバック - リアルタイムの進行状況更新により混乱が減ります。
+- プライバシー保護 - シールドされた取引はプロセス全体を通じてプライベートに保たれます。
 
----
+### 以前より良くなった点
 
-## Pepper Sync で恩恵を受けられるユーザー
-- **新規ユーザー** - 遅延による discouragement を感じることなくウォレットをすぐにセットアップできる。
-- **日常的なユーザー** - 安定した同期により、シールドされた支払いが日常生活に実用的になる。
-- **開発者とテスト担当者** - 短い同期時間により、テストサイクルが速くなる。
-- **モバイルおよび軽量デバイス** - Zingo はリソース制限のあるハードウェアでも効率的に動作する。
+従来の Zingo のバージョンでは、同期に長時間かかること、不明瞭なエラー処理、リソース使用量の多さが、しばしばユーザーの不満の原因となっていました。Pepper Sync はこうした一般的な問題を解決します。
 
----
+| Feature            | Previous Zingo Versions                | Zingo 2.0 with Pepper Sync                   |
+| ------------------ | -------------------------------------- | -------------------------------------------- |
+| Sync Speed         | より遅い、特に初回セットアップ時      | 初回同期と継続的な同期が大幅に高速化         |
+| Error Handling     | ときどき停止し、失敗の原因も不明瞭    | 自動回復による安定性の向上                   |
+| User Experience    | 初心者には同期が「見えにくい」         | 状態や更新がより明確で、透明性が高い         |
+| Device Performance | CPU/メモリ使用量が高い                | リソースを滑らかに使うよう最適化             |
 
-## Zcash にとってなぜ重要か
-Zcash はシールドされた取引を中心に構築されており、暗号通貨の中で最も強力なプライバシーツールの一つです。しかし、プライバシーが実際に利用可能でなければ意味がありません。
+要するに、同期は今やより速く、より信頼性が高く、より理解しやすくなりました。
 
-Pepper Sync は以下により貢献します：
-- **参入障壁を下げる** - 新規ユーザーがすぐに開始できる。
-- **日常的な使いやすさをサポート** - シールドされたアドレスがより信頼しやすくなる。
-- **エコシステムの成長を促進** - より良いウォレット体験により、採用やアプリ、サービスが増えます。
+## 視覚的な説明 / たとえ話
 
-ウォレット体験の改善により、Pepper Sync は全体的な Zcash エコシステムを強化します。
+古いウォレットの同期は、非常に長い本を1ページ目から声に出して読み終えるまで、その内容について何も話してはいけないようなものだと考えてください。途中で止まれば、また1ページ目からやり直しです。Pepper Sync は同じ本を読みますが、しおりを挟み、自分に関係のある章を先に読み、最後のページまで読み終えていなくても物語について話せるようにしてくれます。
 
----
+重要なのはそのしおりです。従来のすべてのバージョンは、中断された同期を無駄な作業として扱っていましたが、Pepper Sync はそれを一時停止として扱います。
 
-## Pepper Sync の仕組み（簡単なビュー）
-巨大で使いにくいチャンクではなく、Pepper Sync は小さな管理可能なステップで動作し、進捗を常に保存していきます。
+### ビジュアルガイド
 
-1. **接続** - ウォレットがネットワークにチェックイン。
-2. **ブロックの取得** - データが段階的にダウンロードされる。
-3. **検証** - 取引が検証される。
-4. **シールドノートの処理** - いつでもプライバシーが保たれる。
-5. **残高の更新** - ウォレットがセキュアにリフレッシュされる。
-6. **進捗の保存** - 停止して再開することができるようにスムーズに。
-7. **完了** - ウォレットが取引準備ができる。
+- 詳細フロー - 全体のプロセスを示します。 ![詳細フロー](https://github.com/user-attachments/assets/119c13ec-76be-42bd-b558-762d09275a1b)
 
-### ビジュアルガイド:
-- **詳細なフロー** - 全プロセスを表示。![Detailed Flow](https://github.com/user-attachments/assets/119c13ec-76be-42bd-b558-762d09275a1b)
-- **簡易フロー** - 日常的なユーザー向けのクイックビュー。![Simplified Flow](https://github.com/user-attachments/assets/9b612cbd-f24d-4472-9b87-0f2c908bb368)
+- 簡易フロー - 日常のユーザー向けのクイックビューです。 ![簡易フロー](https://github.com/user-attachments/assets/9b612cbd-f24d-4472-9b87-0f2c908bb368)
 
----
+## 詳細解説
 
-## セットアップ: Zingo 2.0 でのオンボーディング
-1. **ウォレットをダウンロード** - Zingo GitHub リリースページ[](https://github.com/zingolabs/zingolib?utm_source=chatgpt.com)から正しいバージョンを取得。
-2. **ウォレットのセットアップ** - 新規作成または既存のシードフレーズから復元。Zingo 2.0 with Zingo Labs[](https://www.youtube.com/watch?v=FREwMzf_LlM)
-3. **Pepper Sync を実行** - ウォレットが更新される際の進捗状況を確認。Pepper Sync Run[](https://x.com/ZingoLabs/status/1961871338441724191)
-4. **Zcash の使用開始** - 同期完了後、シールドされた ZEC をすぐに送金・受信可能。
-5. **中断についてリラックス** - アプリが閉じたり接続が切れた場合でも、Pepper Sync は自動的に再開します。
+### Pepper Sync の仕組み（シンプル版）
 
----
+Pepper Sync は、ブロックチェーンを巨大で扱いにくい単位で再スキャンするのではなく、小さく管理しやすい手順で動作し、その過程で常に現在位置を保存します。
+
+1. 接続 - ウォレットがネットワークに接続します。
+2. ブロック取得 - データが段階的にダウンロードされます。
+3. 検証 - 取引が検証されます。
+4. シールドされたノートの処理 - プライバシーは常に保たれます。
+5. 残高更新 - ウォレットが安全に更新されます。
+6. 進捗保存 - 停止と再開がシームレスに行われます。
+7. 完了 - ウォレットは取引可能な状態になります。
+
+## 実際の意味合い
+
+### Pepper Sync の恩恵を受けるのは誰ですか？
+
+- 新規ユーザー - 遅延に気落ちすることなく、すばやくウォレットをセットアップできます。
+- 日常利用者 - 信頼性の高い同期により、シールド支払いが日常利用でも実用的になります。
+- 開発者とテスター - 同期時間の短縮により、テストサイクルが速くなります。
+- モバイルおよび軽量デバイス - Zingo はリソースが限られたハードウェア上でも効率的に動作するようになりました。
+
+### なぜ Zcash にとって重要なのか
+
+Zcash は、暗号通貨の中でも最も強力なプライバシーツールの1つであるシールドされた取引を中核に据えて構築されています。しかし、プライバシーは利用しやすくなければ意味がありません。
+
+Pepper Sync は次の点で役立ちます。
+
+- 参入障壁を下げる - 新規ユーザーがすぐに始められます。
+- 日常的な使いやすさを支える - シールドアドレスをより信頼しやすくなります。
+- エコシステムの成長を促進する - より良いウォレット体験が、採用、アプリ、サービスの拡大を後押しします。
+
+ウォレット体験を改善することで、Pepper Sync は Zcash エコシステム全体を強化します。
+
+### はじめ方: Zingo 2.0 でのオンボーディング
+
+1. ウォレットをダウンロード - 正しいバージョンを [Zingo GitHub releases page](https://github.com/zingolabs/zingolib) から入手します
+2. ウォレットを設定 - 新規作成するか、既存のシードフレーズから復元します。 [Zingo 2.0 with Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
+3. Pepper Sync を実行 - ウォレットの更新中に進行状況インジケーターを確認します。 [Pepper Sync Run](https://x.com/ZingoLabs/status/1961871338441724191)
+4. Zcash を使い始める - 同期が完了したらすぐにシールドされた ZEC を送受信できます。
+5. 中断を気にしない - アプリが閉じたり接続が切れたりしても、Pepper Sync は自動的に再開します。
+
+## よくある間違い
+
+**Pepper Sync を独立したウォレットだと考えること**。Pepper Sync は Zingo! ウォレット内の同期エンジンであり、別個のアプリケーションではありません。インストールするのは Zingo であり、その裏側で動作するのが Pepper Sync です。
+
+**同期が速いほどプライバシーが弱いと思い込むこと**。高速化は、ブロックデータの取得、順序付け、キャッシュの方法によるものであり、より多くの情報を明かしているわけではありません。シールドされた取引はその全過程でプライベートに保たれます。
+
+**完全同期が終わるまで支払いできないと思い込むこと**。同期完了前に支払いできることは Pepper Sync の目玉機能の1つであり、ウォレットがチェーン先端に到達するまで待つ必要はありません。
 
 ## FAQ - よくある質問
-**Q: 毎回ウォレットを開くたびにスキャンしなければならない？**  
-A: いいえ。Pepper Sync は進捗を保存するので、最後のポイントからだけ更新します。
 
-**Q: インターネットが切断されたらどうなる？**  
-A: 同期は一時停止し、後で再開しますが、最初からやり直す必要はありません。
+**Q: ウォレットを開くたびに毎回再スキャンする必要がありますか？**
 
-**Q: 同期中にプライバシーは安全ですか？**  
-A: はい。シールドされた取引は常に完全にプライバシーを保ちます。
+A: いいえ。Pepper Sync は進行状況を保存するため、最後の地点から更新するだけで済みます。
 
-**Q: 最初の同期にはどれくらい時間がかかる？**  
-A: デバイスやインターネット環境によりますが、通常は数分で済みます（以前のように何時間もかかりません）。
+**Q: インターネット接続が切れたらどうなりますか？**
 
-**Q: 同期が完了する前にもウォレットを使用できますか？**  
-A: はい。ただし、チェーンの先頭に同期している必要がありますが、Pepper Sync によりそのプロセスははるかに迅速になります。
+A: 同期は一時停止し、再起動することなく後で続行されます。
 
----
+**Q: 同期中もプライバシーは安全ですか？**
 
-## リソースと参考資料
-- Zingo! GitHub リポジトリ[](https://github.com/zingolabs/zingolib?utm_source=chatgpt.com)
-- Zcash コミュニティフォーラム[](https://forum.zcashcommunity.com/?utm_source=chatgpt.com)
-- 公式発表 - Zingo Labs Twitter[](https://twitter.com/ZingoLabs?utm_source=chatgpt.com)
+A: はい。シールドされた取引は完全にプライベートなままです。
 
----
+**Q: 初回同期にはどれくらい時間がかかりますか？**
+
+A: 通常は、デバイスやインターネット接続にもよりますが、数時間ではなく数分です。
+
+**Q: 同期が終わる前にウォレットを使えますか？**
+
+A: はい。Pepper Sync は同期完了前の支払いをサポートしているため、ウォレットがチェーン先端に到達するまで待つ必要はありません。
 
 ## 結論
-Zingo 2.0 Pepper Sync により、シールドウォレットの最大の痛みポイントであった同期処理は過去のものとなりました。今や、高速で安定し、ユーザーにとって使いやすいものになり、新規ユーザーへの障壁を下げ、日常的な使用がはるかに実用的になりました。
 
-ユーザーにとっては、待つ時間が減りプライバシーが増えることになります。開発者にとっては、より強固な基盤上での構築が可能になります。Zcash エコシステムにとっても、シールドされた取引を誰でも利用できるようにするための重要なステップです。
+Zingo 2.0 の Pepper Sync によって、同期はもはやシールドウォレット最大の悩みではなくなりました。今では高速で安定しており、ユーザーフレンドリーになったことで、新規ユーザーの参入障壁を下げ、日常利用をはるかに実用的なものにしています。
 
-Zingo 2.0 Pepper Sync は単なるアップグレードではなく、プライバシーと使いやすさを兼ね備えた暗号通貨への一歩前進です。
+ユーザーにとっては、待ち時間が減り、プライバシーが増すことを意味します。開発者にとっては、その上に構築できるより強固な基盤を意味します。Zcash エコシステムにとっては、シールドされた取引を誰でも利用しやすくするための、また一歩前進です。
+
+Pepper Sync を備えた Zingo 2.0 は単なるアップグレードではありません。プライベートで実用的な暗号通貨に向けた大きな飛躍です。
+
+## 関連ページ
+
+- [Zcash ウォレット同期](/zcash-tech/zcash-wallet-syncing) — Zcash エコシステム全体でウォレット同期がどのように機能するか。
+- [Lightwallet ノード](/zcash-tech/lightwallet-nodes) — Zingo のようなライトウォレットが同期先とするインフラストラクチャ。
+- [Zaino](/zcash-tech/zaino) — Zingo チームが開発したインデクサー。
+- [ウォレット](/wallets) — Zcash ウォレットとその機能の完全な一覧。
+
+## さらに学ぶ
+
+- [Zingo! GitHub リポジトリ](https://github.com/zingolabs/zingolib)
+- [Zcash Community Forum](https://forum.zcashcommunity.com/)
+- 公式発表 - [Zingo Labs Twitter](https://twitter.com/ZingoLabs)
+
+___
+___

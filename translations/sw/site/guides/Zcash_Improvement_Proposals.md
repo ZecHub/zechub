@@ -4,7 +4,7 @@
 
 # Mapendekezo ya Uboreshaji wa Zcash
 
-<img width="672" height="378" alt="1" src="https://github.com/user-attachments/assets/fbce4a28-585b-4caa-b306-4cf06bcb5977" />
+<img width="672" height="378" alt="1" src="/content-images/fbce4a28-585b-4caa-b306-4cf06bcb5977-0b61791008.webp" />
 
 
 
@@ -40,7 +40,7 @@ Kwa kila ZIP ambayo inakuja, lazima ipitie mchakato wa ukaguzi. Wahariri wa ZIP 
 
 > Rasimu: [Transaction Identifier Digests & Signature Validation for Transparent Zcash Extensions](https://github.com/zcash/zips/blob/main/zip-0245)
 
-> Rasimu: [Standardized Memo Field Format]](https://github.com/zcash/zips/blob/main/zip-0302)
+> Rasimu: [Standardized Memo Field Format](https://github.com/zcash/zips/blob/main/zip-0302)
 
 > Rasimu: [Sapling Anwani Saini](https://github.com/zcash/zips/blob/main/zip-0304)
 

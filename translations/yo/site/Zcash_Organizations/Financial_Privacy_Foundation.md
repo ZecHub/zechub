@@ -3,7 +3,7 @@
 </a>
 
 # Ẹgbẹ́ Ìdáàbòbò Ìpamọ́-Ọ̀rọ̀-Iṣuna (FPF)
-![ì ¤í ì ¬í](https://i.ibb.co/BsZc8Qv/FPFgrants.webp)
+![ì ¤í ì ¬í](/content-images/FPFgrants-226bdea4bb.webp)
 
 ## Nípa FPF
 The Financial Privacy Foundation (FPF) is a non-profit organization incorporated in the Cayman Islands. FPFs primary goal is to educate and empower individuals and communities to take control of their financial privacy and security. FPF is also committed to promoting a fair and equitable financial system that respects personal privacy. FPFs primary activity related to financial privacy is to provide individuals and communities with information, resources and support to protect and optimize their financial privacy. The Financial Privacy Fund (FPF) is currently creating a grant program titled FPF X FPF.
@@ -13,7 +13,7 @@ The Financial Privacy Foundation (FPF) is a non-profit organization incorporated
  FPF X FPF is about FPFs first experimental grant program, the Financial Privacy Fund (FPF x FPF). The program will fund engineering projects within the Zcash ecosystem that are nearing completion, or projects that will immediately contribute to the ecosystem and can be completed within the specified time and funding limits. FPF X FPF is launching with very limited funds to refine the grant funding process and hopes to launch future rounds. 
 
 
-## [FPF x ZecHub Bounty Program - Àkọlé Ìròyìn]](https://www.financialprivacyfoundation.org/post/partnership-announcement-zechub)
+## [FPF x ZecHub Bounty Program - Àkọlé Ìròyìn](https://www.financialprivacyfoundation.org/post/partnership-announcement-zechub)
 
 ## FPF X Ìsọfúnni nípa ètò FPF 
 
@@ -32,7 +32,7 @@ The FPF X FPF grant application process includes several processes. First, appli
 
 ## Ìsọfúnni síwájú sí i nípa FPF X FPF 
 
-Alaye siwaju sii nipa FPF X FPF le rii lori oju opo wẹẹbu ti Financial Privacy Fun (FPF) [nibi]](https://www.financialprivacyfoundation.org/grants) ati pe ti o ba tun ni iyanilenu nipa eto FPF X FPF, o le ṣabẹwo si iwe FAQs nibi: [FAQs](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
+Alaye siwaju sii nipa FPF X FPF le rii lori oju opo wẹẹbu ti Financial Privacy Fun (FPF) [nibi](https://www.financialprivacyfoundation.org/grants) ati pe ti o ba tun ni iyanilenu nipa eto FPF X FPF, o le ṣabẹwo si iwe FAQs nibi: [FAQs](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
 
 Ti o ba nifẹ lati di Olutọju Onigbọwọ fun iyipo yii ti eto FPF X FPF, jọwọ ṣabẹwo si eyi [asopọ](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)Fun awọn ibeere siwaju sii nipa FPF X FPF Grant Program, o le beere taara nipa fifiranṣẹ imeeli [FPF](info@financialprivacyfoundation.org).
 

@@ -2,9 +2,9 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="https://i.ibb.co/BN7SxwY/ZEC-USD.png" alt="Alt Text" width="50"/>   Non-Custodial एक्सचेंज
+# <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Alt Text" width="50"/>   Non-Custodial एक्सचेंज
 
-[Zcash Non-Custodial एक्सचेंज](/site/Using_Zcash/DEX_List)
+[Zcash Non-Custodial एक्सचेंज](/dex)
 
 क्रिप्टोकरेंसी ट्रेडिंग की लगातार विकसित होती दुनिया में, non-custodial एक्सचेंजों का उदय, जिन्हें Decentralized Exchanges या DEXs भी कहा जाता है, यह फिर से परिभाषित कर रहा है कि उपयोगकर्ता digital assets के साथ कैसे जुड़ते हैं। ये प्लेटफ़ॉर्म ट्रेडिंग के लिए एक क्रांतिकारी दृष्टिकोण प्रदान करते हैं, क्योंकि ये बिचौलियों या third parties की आवश्यकता को समाप्त करते हैं और नियंत्रण वापस उपयोगकर्ताओं को सौंपते हैं।
 

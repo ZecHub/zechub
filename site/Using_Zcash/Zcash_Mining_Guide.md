@@ -25,7 +25,7 @@ This guide focuses on mining Zcash using personal hardware (e.g., a home PC with
   - For GPUs: lolMiner (supports AMD/NVIDIA), GMiner, or miniZ (NVIDIA-focused). Download from official GitHub repos (e.g., github.com/Lolliedieb/lolMiner-releases).
   - For ASICs: Use the manufacturer's built-in firmware/dashboard (e.g., Bitmain's web interface).
 - **Wallet:** A Zcash wallet to receive payouts. Recommended:
-  - Shielded (private): Zashi Wallet, Zingo (Mobile/Desktop) YWallet (mobile/desktop).
+  - Shielded (private): Zodl Wallet, Zingo (Mobile/Desktop) YWallet (mobile/desktop).
   - Transparent (easier but less private): Edge Wallet, Zecwallet Lite.
   - Download from [wallets](https://zechub.wiki/wallets). Generate a shielded address (starts with 'zs') for privacy if the pool supports it.
 
@@ -61,6 +61,7 @@ Mining pools distribute work and share rewards based on your contributed hashrat
 - **F2Pool (zec.f2pool.com)**: 2% fee, PPS+ payout, multi-coin support. Large pool (~2.57 GSol/s).
 - **ViaBTC (zec.viabtc.com)**: 2% fee (PPS+), user-friendly dashboard, global servers.
 - **AntPool (zec.antpool.com)**: 1% fee, from Bitmain, good for ASICs (~494 MSol/s).
+- **Sovright (mining.sovright.com)**: A Zcash pool built on Stratum V2, currently running as a public testnet. No live ZEC payouts yet, so treat it as a way to test your setup rather than an earnings source. See the dedicated section below for details.
 - Others: Kryptex Pool, Luxor (check poolwatch.io/coin/zcash for real-time stats).
 
 1. Visit the pool's website and create an account (email or no registration for some like 2Miners).
@@ -112,6 +113,39 @@ To combat this, the Zcash ecosystem features the **Sovright Relay Network ([rela
 *   **Why it matters:** It levels the playing field. Smaller and independent pools hear about blocks just as fast as the largest, well-funded operations, significantly reducing the network orphan rate and maximizing everyone's profitability.
    
 ![Zcash Mining Monitoring Setup](/content-images/zcashMining-5ca0019c17.webp)
+
+
+## Sovright: Testnet Pool and Relay Network
+
+Sovright (sovright.com) runs a Stratum V2 mining pool and a separate block relay network. They do different jobs, so they are covered separately below.
+
+### Mining Pool (mining.sovright.com)
+
+Sovright's pool runs on a public Zcash testnet (NU6, Stratum V2), not mainnet. The testnet does not pay out real ZEC. Use it to test your miner configuration, not to earn.
+
+- No account is required to start. Point a CPU or ASIC Equihash miner at the pool and your shares show up on a live dashboard.
+- Sovright also publishes an open source Stratum V2 proxy for miners who want to choose their own block templates instead of just taking the pool's jobs:
+  ```
+  git clone https://github.com/sovright/mining-infra
+  cd mining-infra
+  cargo build --release -p sovright-v1-stratum-proxy
+  ./target/release/sovright-v1-stratum-proxy --listen 0.0.0.0:3334 --upstream 34.28.134.13:3333
+  ```
+  Point your miner at the proxy instead of the pool directly:
+  ```
+  stratum+tcp://<your-proxy-ip>:3334
+  ```
+  using a worker name like `yourname.rig1`.
+- Sovright's transparency page states an "include all" policy for shielded transactions, unlike some pools that filter them out. Each block gets a signed attestation so the policy can be checked independently.
+- Create an account at mining.sovright.com (Google or email sign in) to track your own workers instead of the sample dashboard data.
+
+### Relay Network (relay.sovright.com)
+
+Sovright separately runs a public block relay network on Zcash mainnet. When a pool finds a block, how fast that block reaches the rest of the network determines how often it gets orphaned, meaning it loses the propagation race and the reward for it is lost. The relay forwards blocks across four regions using compact block relay with forward error correction.
+
+The public dashboard shows the effect live: relay-connected regions see new blocks in well under half the time plain peer to peer gossip takes, and the dashboard tracks the network's live orphan rate.
+
+This is infrastructure for pool operators, not individual miners. Sovright's open source `mining-infra` repository documents a `submitblock` relay gateway for fanning found blocks into the mesh faster than native P2P. To connect, contact Sovright directly (support@sovright.com) for relay peer addresses and an auth key.
 
 
 ## Tips and Best Practices

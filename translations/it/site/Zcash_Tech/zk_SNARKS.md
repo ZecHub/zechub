@@ -20,7 +20,7 @@ Prover (o dimostratore) ---> Fa una dichiarazione ---> Verifier (o verificatore)
 
 In informatica il termine per dimostrazioni verificabili in modo efficiente è NP proofs. Queste brevi dimostrazioni possono essere verificate in tempo polinomiale. L'idea generale è "Esiste una soluzione per un teorema e viene passata al verifier per verificarla"
 
-![NP proofs](https://github.com/user-attachments/assets/d25345cf-e958-4ce2-b01d-f4e7f2db9551 "Linguaggio NP")
+![NP proofs](/content-images/d25345cf-e958-4ce2-b01d-f4e7f2db9551-1ac56e56d7.webp "Linguaggio NP")
 
 
 In un linguaggio NP = devono valere due condizioni:
@@ -36,7 +36,7 @@ Solidità: le false affermazioni non avranno prove (per tutte le strategie di pr
 
 **Casualità**: le richieste del verifier di provare sono randomizzate e il prover deve essere in grado di rispondere correttamente a ciascuna.
 
-![IP proofs](https://github.com/user-attachments/assets/1542be12-d3fd-4934-8413-0d16f95b8d10 "IP protocol")
+![IP proofs](/content-images/1542be12-d3fd-4934-8413-0d16f95b8d10-58bfcb4059.webp "IP protocol")
 
 Usando l'interazione e la casualità insieme è possibile dimostrare una rivendicazione a un verifier cieco in tempo polinomiale probabilistico (PPT).
 
@@ -72,7 +72,7 @@ Vista reale: tutte le possibili storie di interazioni tra Prover e Verifier (P,V
 
 Vista simulata: il verifier simula tutte le possibili interazioni tra Prover e Verifier
 
-![simulation paradigm](https://github.com/user-attachments/assets/0e68649d-a231-44d8-a76a-25a307f68b9e "Simulation Paradigm")
+![simulation paradigm](/content-images/0e68649d-a231-44d8-a76a-25a307f68b9e-ba1f0027cf.webp "Simulation Paradigm")
 
 Un distinguo polinomiale-temporale tenta di determinare se stanno guardando la vista reale o simulata e richiede ripetutamente un campione da entrambi.
 
@@ -100,7 +100,7 @@ Esempio: "3x² + 8x + 17"
 
 **Circuito Aritmetico**: Un modello per il calcolo di polinomi. Più generalmente, può essere definito come un grafo aciclico diretto sul quale ad ogni nodo del grafo grafo viene eseguita un'operazione aritmetica. Il circuito è costituito da porte di addizione, porte di moltiplicazione e alcune porte costanti. Allo stesso modo in cui i circuiti booleani trasportano bit in fili, i circuiti aritmetici trasportano interi.
 
-![circuit](https://github.com/user-attachments/assets/be1de1d6-60d3-4fd1-b9a2-5094c65d696f "DAG")
+![circuit](/content-images/be1de1d6-60d3-4fd1-b9a2-5094c65d696f-dbd3177247.webp "DAG")
 
 In questo esempio, il Prover vuole convincere il Verifier che conosce una soluzione per il circuito aritmetico.
 
@@ -124,7 +124,7 @@ Polynomial Interactive Oracle: Il verifier chiede al prover (algoritmo) di aprir
 
 Le procedure di configurazione aiutano il verifier a riassumere un circuito e produrre parametri pubblici.
 
-![Setup](https://github.com/user-attachments/assets/c41212ca-b5e9-4ac8-8695-be612c45a679 "Setup")
+![Setup](/content-images/c41212ca-b5e9-4ac8-8695-be612c45a679-80a6a87752.webp "Setup")
 
 **Tipi di configurazione di preelaborazione**:
 
@@ -151,7 +151,7 @@ Gli SNARK sono utili quando sono necessari più verifier come in una blockchain 
 
 In generale, le prove a conoscenza zero sono uno strumento per garantire un comportamento onesto nei protocolli senza rivelare alcuna informazione. Zcash è una blockchain pubblica che facilita transazioni private. Le zk-SNARK vengono utilizzate per dimostrare che una transazione privata è valida secondo le regole di consenso della rete senza rivelare altri dettagli sulla transazione.
 
-[Video esplicativo [EN]](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - In questa lezione, Ariel Gabizon fornisce descrizioni del Zcash Note Commitment Tree, della Blind Polynomial Evaluation e delle Homomorphically Hidden Challenges e come sono implementati nella rete.
+[Video esplicativo [EN](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - In questa lezione, Ariel Gabizon fornisce descrizioni del Zcash Note Commitment Tree, della Blind Polynomial Evaluation e delle Homomorphically Hidden Challenges e come sono implementati nella rete.
 
 Per ulteriori informazioni, leggere il manuale di [Halo2](https://zcash.github.io/halo2/index.html).
 
@@ -163,7 +163,7 @@ Le zk-SNARK offrono diversi vantaggi in una varietà di applicazioni diverse. Ve
 
 Il vantaggio di un servizio Rollup basato su proof (zk-Rollup) consiste nel processare un batch di centinaia o migliaia di transazioni, e L1 è in grado di verificare una prova succinta che tutte le transazioni sono state elaborate correttamente, aumentando la scalabilità della rete di fattore 100 o 1000 rispetto a quella senza zk-Rollup.
 
-![zkvm](https://github.com/user-attachments/assets/a3cbb5c9-8767-4b34-9fcb-868ca421838f "ZKVM")
+![zkvm](/content-images/a3cbb5c9-8767-4b34-9fcb-868ca421838f-d69b264b5b.webp "ZKVM")
 
 **Interoperabilità**: Questa è ottenuta su uno zk-Bridge 'bloccando' gli asset su una catena di origine e dimostrando alla catena di destinazione che gli asset sono stati bloccati (proof of consensus).
 

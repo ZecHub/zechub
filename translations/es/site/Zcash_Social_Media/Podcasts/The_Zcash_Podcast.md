@@ -4,7 +4,7 @@
 
 
 # El Podcast de Zcash en Digital Cash Network
-![Captura de pantalla_2023-01-22_21-50-14](https://user-images.githubusercontent.com/81990132/213973803-b0629c92-08d4-459b-99f1-594854a7db3a.png)
+![Captura de pantalla_2023-01-22_21-50-14](/content-images/213973803-b0629c92-08d4-459b-99f1-594854-6272d02af6.webp)
 
 El Podcast de Zcash presenta contenido como actualizaciones, análisis profundos sobre temas específicos, etc., para que la comunidad existente de Zcash lo consuma y lo comparta, además de brindar una oportunidad para que los suscriptores actuales del canal Digital Cash Network se familiaricen más a fondo con Zcash. 
 

@@ -41,15 +41,15 @@ In particolare, in Venezuela, ci sono un sacco di posti (luoghi fisici e online)
 
 Oltre ai suoi biscotti, offre altri servizi e il migliore di tutti è questo: puoi pagare con ZEC!
 
-![1_20230829_214024_0000.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/1_20230829_214024_0000.png)
+![1_20230829_214024_0000.png](/content-images/_unavailable.svg)
 
  Biscotti al cioccolato scrocchiarelli | Credit: Sheila Vargas Rojas
 
-![2_20230829_214024_0001.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/2_20230829_214024_0001.png)
+![2_20230829_214024_0001.png](/content-images/_unavailable.svg)
 
 Biscotti con fiocchi d'avena e uvetta | Credit: Sheila Vargas Rojas
 
-![Untitled design_20230829_215327_0000.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Untitled_design_20230829_215327_0000.png)
+![Untitled design_20230829_215327_0000.png](/content-images/_unavailable.svg)
 
 Ciambelle con frutta candita | Credit: Sheila Vargas Rojas |
 
@@ -57,7 +57,7 @@ Ciambelle con frutta candita | Credit: Sheila Vargas Rojas |
 
 Quindi, se sei un mostro dei biscotti..,
 
-![https://media.tenor.com/Px4lboKQYbYAAAAC/champagne-barbie-cookie-monster.gif](https://media.tenor.com/Px4lboKQYbYAAAAC/champagne-barbie-cookie-monster.gif)
+![https://media.tenor.com/Px4lboKQYbYAAAAC/champagne-barbie-cookie-monster.gif](/content-images/champagne-barbie-cookie-monster-ded97640a2.webp)
 
 ora sai dove spendere il tuo ZEC!
 
@@ -75,15 +75,15 @@ u1pu63k8tfcf0v06qr6f9qn3qpfh2hj8wjnc3wchguaqy2jc9xxmf4f424jns282qfvs6q3tcd9erv3u
 
 Rosa Ma. Rangel, ingegnere informatico di professione ma *cioccolatiera* per convinzione, amante del cioccolato e appassionata di panetteria e pasticceria, offre una vasta gamma di prodotti artigianali di cioccolato, dolci tradizionali venezuelani e pasticceria.
 
-![Untitled](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Untitled.png)
+![Senza titolo](/content-images/_unavailable.svg)
 
 Frutta secca e cioccolato alla fragola
 
-![20230829_232246.jpg](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/20230829_232246.jpg)
+![20230829_232246.jpg](/content-images/_unavailable.svg)
 
 Rosa sorride con orgoglio dimostrando di accettare **Zcash.**
 
-![Screenshot_20230829-232755.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Screenshot_20230829-232755.png)
+![Screenshot_20230829-232755.png](/content-images/_unavailable.svg)
 
 **Sito web**: [https://somosdulceros.com/](https://somosdulceros.com/)
 
@@ -103,21 +103,21 @@ u12vp85edmrkqy9uvall4wqqn2s9fx8nm5phsxu2nyme5yh8hn5xh8mv3qgunynskjy3t0w89234a83r
 
 Elizabeth è una giovane mamma appassionata che ama il crafting e il design. La motivazione più importante che la spinge a dedicarsi a tutto ciò che fa è la sua famiglia*
 
-![BackgroundEraser_20230830_134315142.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/BackgroundEraser_20230830_134315142.png)
+![BackgroundEraser_20230830_134315142.png](/content-images/_unavailable.svg)
 
 **Blog:**
 
 [https://papelesacolor.blogspot.com/](https://papelesacolor.blogspot.com/)
 
-![2_20230830_152443_0001~2.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/2_20230830_152443_00012.png)
+![2_20230830_152443_0001~2.png](/content-images/_unavailable.svg)
 
 I tuoi figli sono stati promossi? *le *Papelle a colori** possono aiutarti a festeggiare i loro successi.
 
-![3_20230830_152443_0002~2.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/3_20230830_152443_00022.png)
+![3_20230830_152443_0002~2.png](/content-images/_unavailable.svg)
 
 Qualcosa di diverso e unico? Una base per caricabatterie per cellulari di **Zcash**!
 
-![1_20230830_152443_0000.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/1_20230830_152443_0000.png)
+![1_20230830_152443_0000.png](/content-images/_unavailable.svg)
 
 Alcune delle altre bellissime cose che Papeles a Color realizza a mano.
 
@@ -149,7 +149,7 @@ Vuoi sentirti *autonomo? * **Emprendedoras Digitales de Venezuela** è un ottimo
 
 - costruzione del marchio..., tra gli altri. Pensiamo sempre a tutte le donne venezuelane che desiderano gestire la propria attività.
 
-![https://i0.wp.com/emprendedorasdigitales.org/wp-content/uploads/2020/07/cropped-logo-nuevo_Mesa-de-trabajo-1-scaled-1.jpg?resize=300%2C208&ssl=1](https://i0.wp.com/emprendedorasdigitales.org/wp-content/uploads/2020/07/cropped-logo-nuevo_Mesa-de-trabajo-1-scaled-1.jpg?resize=300%2C208&ssl=1)
+![https://i0.wp.com/emprendedorasdigitales.org/wp-content/uploads/2020/07/cropped-logo-nuevo_Mesa-de-trabajo-1-scaled-1.jpg?resize=300%2C208&ssl=1](/content-images/cropped-logo-nuevo_Mesa-de-trabajo-1-sca-ba7d9d40e8.webp)
 
 **Sito web**: [https://emprendedorasdigitales.org/](https://emprendedorasdigitales.org/)
 
@@ -167,7 +167,7 @@ u14g5wzyan35s5fq4glf7hsf0wteuskr3dgfs25wkr2tk5dq6sqrfpq8pqmme5yp7c3eq42tlssgv5hw
 
 1. **GorBrit Social Media**
 
-![Untitled](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Untitled%201.png)
+![Untitled](/content-images/_unavailable.svg)
 
 Questo luogo governato da **Roosevelt Gordones e Aura Brito** offre servizi relativi a:
 
@@ -200,7 +200,7 @@ Oltre ad essere un designer digitale, Robmar è un fotografo che si dedica anche
 
 Il suo lavoro è noto nell'ecosistema Zcash grazie al suo contributo al club ZFAV.
 
-![Screenshot_20230830-163829-271~2.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Screenshot_20230830-163829-2712.png)
+![Screenshot_20230830-163829-271~2.png](/content-images/_unavailable.svg)
 
 - Realizzazione video / edizione
 
@@ -218,7 +218,7 @@ Il suo lavoro è noto nell'ecosistema Zcash grazie al suo contributo al club ZFA
 
 1. **Karin Beauty Studio | By Karin Gordones**
 
-![Screenshot_20230830-131043-768~2.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Screenshot_20230830-131043-7682.png)
+![Screenshot_20230830-131043-768~2.png](/content-images/_unavailable.svg)
 
 Unghie bellissime, mani bellissime grazie a Karin Beauty Studio.
 
@@ -238,13 +238,13 @@ Fissa un appuntamento
 
 ---
 
-![BackgroundEraser_20230901_110901449.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/BackgroundEraser_20230901_110901449.png)
+![BackgroundEraser_20230901_110901449.png](/content-images/_unavailable.svg)
 
 1. **Corona de Brillitos.** | By **Gissell** **B**.
 
 Sai cos'è incredibile di Zcash? Avere persone come Gissell, una ragazza di 16 anni che ama il crafting, creare accessori femminili e sapere che, alla sua età, utilizza Zcash per la sua fiorente attività
 
-![20230830_235143_0000.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/20230830_235143_0000.png)
+![20230830_235143_0000.png](/content-images/_unavailable.svg)
 
 Bella presentazione elegante per gli scrunchies | Corona de brillitos
 
@@ -274,7 +274,7 @@ Tecnopapi è la persona giusta con cui metterti in contatto!
 
 - Sistema operativo Android (telefoni)
 
-![IMG_20230901_093618_042.jpg](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/IMG_20230901_093618_042.jpg)
+![IMG_20230901_093618_042.jpg](/content-images/_unavailable.svg)
 
 **Sito web
 
@@ -300,7 +300,7 @@ Altos Mirandinos, Valles. del Tuy, Guarenas, Guatire, La Guaira, Aeroporto Inter
 
 Accetta le criptovalute, tra cui **Zcash**
 
-![IMG_20230831_172209_058.jpg](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/IMG_20230831_172209_058.jpg)
+![IMG_20230831_172209_058.jpg](/content-images/_unavailable.svg)
 
  Il signor Mendoza mostra il suo portafoglio Zingo. | Crediti immagine: Edickson Gonzalez
 
@@ -316,7 +316,7 @@ Bonus : **Allegrini Ristorante** 🇪🇸 | Pizza Place | Cibo italiano | **Acce
 
 Servizio di consegna | Take away | Prenotazioni
 
-![BackgroundEraser_20230901_114615839.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/BackgroundEraser_20230901_114615839.png)
+![BackgroundEraser_20230901_114615839.png](/content-images/_unavailable.svg)
 
 **Sito web**: [www.alleginiristorante.com](http://www.alleginiristorante.com) (in costruzione)
 
@@ -326,7 +326,7 @@ Servizio di consegna | Take away | Prenotazioni
 
 (Presto su [free2z.cash](http://free2z.cash). )
 
-![20230901_121633_0000.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/20230901_121633_0000.png)
+![20230901_121633_0000.png](/content-images/_unavailable.svg)
 
 **Zcash Unified Address**
 

@@ -1,7 +1,7 @@
 # Ìlànà Ààbò, Láti Ìbẹ̀rẹ̀ Dé Ìparí
 ##### Ìwádìí Àkọ́kọ́ láti [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![ì í ì °ë¦¬í ë ¤]](image-27.png)
+![ì í ì °ë¦¬í ë ¤](/content-images/image-27-4094293ec0.webp)
 
 ### Ṣíṣètò gbogbo ẹ̀yà sínú ìnáwó Zcash kan ṣoṣo tó jẹ́ ti ara ẹni
 
@@ -41,7 +41,7 @@ Owó inú àpòòwé kan. **Àkíyèsí** (iye, ẹni tí ó gbà á, ìṣẹ̀
 
 Gbogbo ohun tí olùṣàmúlò lè ṣe máa ń ṣàn láti inú àṣírí kan ṣoṣo, **kókó ìnáwó**, nípasẹ̀ ètò-àlàkalẹ̀ ọ̀nà kan (ohun tí ọfà kọ̀ọ̀kan jẹ́ àdàkọ tí kò ṣeé yí padà, pẹ̀lú àwọn ẹnubodè inú Àpilẹ̀kọ 2 àti 3):
 
-![ì í ì °ë¦¬í ë ¤]](image-32.png)
+![ì í ì °ë¦¬í ë ¤](/content-images/image-32-f443f9bb72.webp)
 
 Àwọn nǹkan méjì tó yẹ ká kíyè sí, àwọn méjèèjì ló jẹ́ àbájáde àwọn àpilẹ̀kọ tó ṣáájú:
 
@@ -54,7 +54,7 @@ Gbogbo ohun tí olùṣàmúlò lè ṣe máa ń ṣàn láti inú àṣírí ka
 
 To spend a note privately, you must convince the network of four things at once **without revealing the note, its value, its position, or your identity.** Each claim is satisfied by a component you already know.
 
-![ì í ì °ë¦¬í ë ¤]](image-31.png)
+![ì í ì °ë¦¬í ë ¤](/content-images/image-31-86309af194.webp)
 
 Àrídájú náà kò fi hàn **kò sí** nínú àwọn òtítọ́ tí ó wà nídìí rẹ̀ (ìwé wo, kí ni kókó rẹ̀, iye wo). Ó fi hàn nìkan wípé *gbogbo ẹ̀sùn mẹ́rin náà jẹ́ òótọ́.* Ìyẹn ni gbogbo ẹ̀tàn ti Zcash tí a fi ààbò bo, tí a sọ nínú àwòrán kan.
 
@@ -92,7 +92,7 @@ a **zk-SNARK** ti o fi idi awọn ẹtọ mẹrin han. a **zK-SNAK** fi idi wi p
 
 Pẹlupẹlu ọkan ** ifọwọsi ibuwọlu ** lori gbogbo akopọ, fifun iwontunwonsi iye (Abala 5).
 
-![ì í ì °ë¦¬í ë ¤]](image-30.png)
+![ì í ì °ë¦¬í ë ¤](/content-images/image-30-98511eb2d0.webp)
 
 Trace the privacy: the network checked the anchor, checked the nullifier was fresh, verified the proof, and verified balance. It accepted a valid payment **having learned no amount, no address, and not which note was spent.** Meanwhile the spent note's **nullifier** (its death) and Bob's new **commitment** (his note's birth) sit in two different public structures with no visible link between them, the severed link from Article 0.
 
@@ -198,7 +198,7 @@ The amounts are hidden, but each is wrapped in a homomorphic value commitment, a
 
 O ti rìnrìn àjò báyìí láti inú ìdàrúdàpọ̀ kan ṣoṣo lọ sí ìsanwó tí kò ṣe tàwọn ẹlòmíràn:
 
-![ì í ì °ë¦¬í ë ¤]](https://github.com/user-attachments/assets/cd8bbb40-57b8-4854-b9cf-97f2485d126a)
+![ì í ì °ë¦¬í ë ¤](/content-images/cd8bbb40-57b8-4854-b9cf-97f2485d126a-8847fae521.webp)
 
 
 From here, the natural next arc goes deeper: the inner workings of Groth16 and Halo 2, trusted-setup ceremonies, the Sapling and Orchard circuits in detail, key derivation and diversified addresses, and the protocol's evolution across network upgrades. But the foundation is now in place, and every one of those topics has a home to attach to.

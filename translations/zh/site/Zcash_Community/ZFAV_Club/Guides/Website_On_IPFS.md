@@ -4,7 +4,7 @@
 
 # 在 IPFS 上发布网站
 
-![](https://blog.desdelinux.net/wp-content/uploads/2020/04/IPFS-.jpg)
+![](/content-images/IPFS-40c2e22732.webp)
 
 ## IPFS 简介
 
@@ -55,7 +55,7 @@ IPFS（InterPlanetary File System）是一种点对点协议和网络，旨在�
 
 选择包含你网站文件的文件夹，然后进入 Add Folder 选项。
 
-![](https://i.ibb.co/ZHW4zsY/ipfs-site-folder.png)
+![](/content-images/ipfs-site-folder-2c96524d98.webp)
 
 --
 
@@ -92,11 +92,11 @@ IPFS（InterPlanetary File System）是一种点对点协议和网络，旨在�
 
 Interplanetary Naming System（IPNS）允许你更新与你网站关联的 IPFS CID，同时仍然提供一个静态链接。它以密钥的形式提供。
 
-![](https://dnslink.io/assets/dns-query.a0134a75.png)
+![](/content-images/dns-query.a0134a75-9ef7817f80.webp)
 
 在 IPFS 桌面应用中，打开你的网站文件夹设置菜单并选择 Publish to IPNS。
 
-![](https://i.ibb.co/Ch25dKf/IPNS.png)
+![](/content-images/IPNS-2fe62cc369.webp)
 
 密钥："k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n"
 
@@ -109,7 +109,7 @@ Interplanetary Naming System（IPNS）允许你更新与你网站关联的 IPFS 
 
 如果你已经拥有一个网址，你可以使用 TXT 记录 "_dnslink(your domain)" 添加一条新记录。具体取决于服务提供商，它可能会自动填充。
 
-![](https://i.ibb.co/MgRxBHj/example.png)
+![](/content-images/example-c2a9edb28b.webp)
 
 在你可以查看它之前，还需要等待它在网络中传播。
 

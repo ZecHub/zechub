@@ -15,7 +15,7 @@ ZecHub é um hub de educação descentralizado para Zcash. O objetivo do [ZecHub
 
 Os tutoriais, blogs de formato curto e o boletim são open source e hospedados no GitHub, o que significa que qualquer pessoa da comunidade pode contribuir. Isso garante que o conteúdo seja preciso e que o próprio canal não sofra com um único ponto de falha.
 
-Se você é novo no Zcash, use [este guia](/site/Start_Here/New_User_Guide).****
+Se é novo no Zcash, use [este guia](/start-here/new-user-guide).****
 
 ## Como fazer alterações no ZecHub
 
@@ -54,7 +54,7 @@ No interesse de manter uma aparência uniforme no ZecHub, há um modelo que voc�
 Doações: [aqui](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
 <a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
-    <img src="https://i.ibb.co/pfBM1z9/image-2023-11-18-141228046.png" alt="" width="200" height="200"/>
+    <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
 </a>
 
 

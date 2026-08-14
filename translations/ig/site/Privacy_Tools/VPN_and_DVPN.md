@@ -11,12 +11,12 @@ In the digital age, maintaining online privacy and security is of paramount impo
 
 __Virtual Private Networks (VPNs)__: Traditional VPNs create a secure, encrypted tunnel between your device and a remote server controlled by the VPN provider. This tunnel conceals your online activities from prying eyes, such as hackers, ISPs, or government agencies. VPNs are widely used for purposes like anonymous browsing, accessing geo-restricted content, and protecting against cyber threats.
 
-[Foto nke 223]](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Privacy_Tools/assets/image-223.png)
+[Foto nke 223](/content-images/image-223-399e3015e7.webp)
 
 
 __Decentralized VPNs (dVPNs)__: In contrast, dVPNs leverage blockchain and peer-to-peer technology to create a decentralized network of nodes. Users' traffic is routed through these nodes, making it difficult for any single entity to monitor or control the entire network. dVPNs are typically more resistant to censorship, as there is no centralized authority overseeing the network. They are well-suited for users seeking enhanced privacy and security.
 
-! [dvpn]](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Privacy_Tools/assets/dvpn.png)
+! [dvpn](/content-images/dvpn-89698d4cb9.webp)
 
 
 # Nchekwa Nchekwa Mgbe Ịhọrọ VPN
@@ -58,7 +58,7 @@ Zcash (ZEC) is a cryptocurrency designed for enhanced privacy, making it a favor
 
    __Zcash Payment__: Mullvad na-anabata Zcash dị ka nhọrọ ịkwụ ụgwọ, na-ekwe ka ndị ọrụ kwụọ ụgwọ maka ndenye aha ha na nzuzo dị elu.Mullvad VPN.
 
-3. [__Nym VPN (dVPN) ]](https://nymtech.net/)
+3. [__Nym VPN (dVPN) ](https://nymtech.net/)
    
    Nym VPN bụ decentralized VPN (dVPN) nke na-elekwasị anya n'ịkwalite nzuzo onye ọrụ na nchekwa site na netwọkụ nzuzo-centric. 
    iji mixnet, ebe a na-eduzi okporo ụzọ onye ọrụ site na netwọk nke ọnụ. Isi atụmatụ nke Nym VPN gụnyere:

@@ -9,12 +9,12 @@
 E guzobere ọrụ Zcash Ecosystem Security Lead site na onyinye ZCG iji nye injinịa nchekwa raara onwe ya nye maka usoro okike Zcash ka ukwuu  ọkachasị ndị nyere ZCG  na mpụga ECC na ZF.
 
 - **2022 2023:** [Earthrise](https://forum.zcashcommunity.com/t/zcash-ecosystem-security-lead/42090) na-eje ozi dị ka onye mbụ Ecosystem Security Lead.](https://zecsec.com).
-- **20242025:** ZCG ahọrọ [Nke kacha nta ikike](https://leastauthority.com) ịnọgide na-arụ ọrụ site na ọhụrụ [RFP](https://forum.zcashcommunity.com/t/rfp-zcash-ecosystem-security-lead-2023/45723)Enwere ike ịchọta mmelite [ebe a]](https://forum.zcashcommunity.com/t/grant-update-zcash-ecosystem-security-lead/47541).
-- 2026: Shielded Labs [na-arụ ọrụ Taylor Hornby]](https://forum.zcashcommunity.com/t/shielded-labs-engages-taylor-hornby-as-security-consultant/55421) dị ka onye na-ahụ maka nchekwa iji kwado ikike nchekwa Zcash.
+- **20242025:** ZCG ahọrọ [Nke kacha nta ikike](https://leastauthority.com) ịnọgide na-arụ ọrụ site na ọhụrụ [RFP](https://forum.zcashcommunity.com/t/rfp-zcash-ecosystem-security-lead-2023/45723)Enwere ike ịchọta mmelite [ebe a](https://forum.zcashcommunity.com/t/grant-update-zcash-ecosystem-security-lead/47541).
+- 2026: Shielded Labs [na-arụ ọrụ Taylor Hornby](https://forum.zcashcommunity.com/t/shielded-labs-engages-taylor-hornby-as-security-consultant/55421) dị ka onye na-ahụ maka nchekwa iji kwado ikike nchekwa Zcash.
 
 ## ZCG Security & Vulnerability Disclosure Initiative
 
-[ZCG Security & Vulnerability Disclosure Initiative]](https://forum.zcashcommunity.com/t/zcg-security-vulnerability-disclosure-initiative/55545) na-enye usoro maka nkwupụta nkwekọrịta nke nchebe nchebe n'ofe usoro okike Zcash.
+[ZCG Security & Vulnerability Disclosure Initiative](https://forum.zcashcommunity.com/t/zcg-security-vulnerability-disclosure-initiative/55545) na-enye usoro maka nkwupụta nkwekọrịta nke nchebe nchebe n'ofe usoro okike Zcash.
 
 ## Mmelite Nchedo Na-adịbeghị Anya (2026)
 

@@ -18,7 +18,7 @@ Fefegbalẽ ɖesiaɖee nye:
 - Woƒe susu nɔ xexeame ŋutɔŋutɔ ŋu 
 
 
-Ne ènye ame yeye la, dze egɔme tso afisia: [Nukae nye Zcash](/start-here/what-is-zec-and-zcash)
+Ne ènye ame yeye la, ke dze egɔme tso afisia: [Nukae nye Zcash](/start-here/what-is-zec-and-zcash)
 
 
 ##  Mɔ si Wokafu
@@ -29,22 +29,22 @@ Wɔ ɖe afɔɖeɖe ɖesiaɖe ƒe mɔzɔzɔ sia dzi be nàbi ɖe xexeame ŋutɔŋ
 Srɔ̃ alesi nàxɔ ga evɔ màɖe wò amenyenye alo ganyawo ŋuti ŋutinya ɖe go o.
 
 
-###  [Ðo Ga Ðo Ðe Ame Ŋu Matsɔ Dzesidede Ame Ŋu O](/zcash-use-cases/send-money-without-linking-identity) 
+###  [Ðo Ga Ðo Ðe Ame Ŋu Matsɔ Kadodo Dzesidede Ame Ŋu O](/zcash-use-cases/send-money-without-linking-identity) 
 Ƒo asa na wò gakotoku, amenyenye, alo asitsatsa ƒe nɔnɔmetata ɖeɖefia ne èle ga ɖom ɖa.
 
 
-###  [Freelancer ƒe Nyatakakawo Ŋuti Ðoɖowɔwɔ](/zcash-use-cases/freelancer-privacy-setup)  
+###  [Freelancer ƒe Nyatakakawo Ŋuti Ðoɖowɔwɔ](/zcash-use-cases/freelance-privacy-setup)
 Xɔ fetu le Zcash me esime nèle wò asisiwo kple gakpɔkpɔ me tom.
 
 
-###  [Lɔ̃ Fexexewo Abe Asitsala ene](/zcash-use-cases/accept-payment-as-a-merchant)  
+###  [Xɔ Fexexewo Abe Asitsala ene](/zcash-use-cases/accept-payments-as-a-merchant)
 Xɔ fexexe to adrɛs si wokpɔ ta na zazã me eye nàƒo asa na asisiwo ƒe asitsatsa ŋuti nyatakakawo ɖeɖe ɖe go
 
 
-###  [Mikpɔ Nutoa Me Gadzɔdzɔ Dɔwɔƒe si nye Ame ŋutɔ tɔ dzi](/zcash-use-cases/run-a-private-community-treasury)
-Zã adrɛs siwo ŋu wokpɔ ta na tsɔ lé ga si woama la ɖe asi eye nàɖo seɖoƒe na ga si susɔ kple asitsatsa ƒe dzedzeme
+###  [Dzra Nutoa me Gaxɔdzikpɔƒe si nye Ame ŋutɔ tɔ dzi](/zcash-use-cases/private-community-treasury)
+Zã adrɛs siwo ŋu wokpɔ ta na nàtsɔ alé ga siwo woama la ɖe asi eye nàɖo seɖoƒe na ga si susɔ kple asitsatsa ƒe dzedzeme
 
-###  [Nyadzɔdzɔŋlɔlawo ƒe Nyatakakawo Ŋuti Ðoɖo](/zcash-use-cases/journalist-privacy-setup)   
+###  [Nyadzɔdzɔŋlɔlawo ƒe Nyatakakawo Ŋuti Ðoɖowɔwɔ](/zcash-use-cases/journalist-privacy-setup)   
 Zã adrɛs siwo ŋu wokpɔ ta na le asitsatsa katã me eye nàkpɔ dzɔtsoƒewo ta to asaƒoƒo na fexexe si ŋu woate ŋu ake ɖo me. Zã nuŋlɔɖiwo nyuie hena kadodo dedie
 
 <br/>

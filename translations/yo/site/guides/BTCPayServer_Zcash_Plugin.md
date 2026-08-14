@@ -14,18 +14,18 @@ BTCPay Server allows online businesses to accept cryptocurrency payments directl
 - [Ibo La Ti Ń Fi Owó Pa Mọ́? Ta Ló Ń Ṣàkóso Àwọn Kọ́kọ́rọ́ Àdáni?](#Where-Are-Funds-Stored-Who-Controls-the-Private-Keys)
 - [Bawo ni lati Ṣeto BTCPay Server fun gbigba Zcash](#How-to-Set-Up-BTCPay-Server-for-Accepting-Zcash)
   - [Gbigba BTCPay Server pẹlu atilẹyin Zcash](#Deploying-BTCPay-Server-with-Zcash-Support)
-  - [Running Your Own Zcash Full Node (Zebra + Lightwalletd) ] [Ṣíṣiṣẹ Zcash Rẹ Ni Gbogbo Nọ́ọ̀dù]](#Running-Your-Own-Zcash-Full-Node)
+  - [Running Your Own Zcash Full Node (Zebra + Lightwalletd) ] [Ṣíṣiṣẹ Zcash Rẹ Ni Gbogbo Nọ́ọ̀dù](#Running-Your-Own-Zcash-Full-Node)
   - [Connecting to an External lightwalletd Node (Custom Configuration)](#Connecting-to-an-External-Lightwalletd-Node)
   - [Gbigba BTCPay Server ni Ile pẹlu Cloudflare Tunnel](#Hosting-BTCPay-Server-at-Home-with-Cloudflare-Tunnel)
 - [Ṣiṣeto ohun itanna Zcash ni wiwo wẹẹbu BTCPay Server](#Configuring-the-Zcash-Plugin-in-the-BTCPay-Server-Web-Interface)
 - [Ṣíṣepọ BTCPay Server pẹ̀lú Ìkànnì Rẹ](#Integrating-BTCPay-Server-with-Your-Website)
   - [Ìkójọpọ API](#API-Integration)
-    - [Ṣídá kókó API kan]](#Generating-an-API-Key)
-    - [Àpẹẹrẹ: Ṣiṣẹda Invoice nipasẹ API]](#Example-Creating-an-Invoice-via-API)
-    - [Lífi Àpótí Ìdánwò Orí Íńtánẹ́ẹ̀tì Ṣiṣẹ́]](#Setting-Up-a-Webhook-Optional)
+    - [Ṣídá kókó API kan](#Generating-an-API-Key)
+    - [Àpẹẹrẹ: Ṣiṣẹda Invoice nipasẹ API](#Example-Creating-an-Invoice-via-API)
+    - [Lífi Àpótí Ìdánwò Orí Íńtánẹ́ẹ̀tì Ṣiṣẹ́](#Setting-Up-a-Webhook-Optional)
   - [Ìkójọpọ CMS](#CMS-Integration)
   - [Bọtini Ìsanwó tàbí Iframe](#Payment-Button-or-Iframe-No-CMS-or-API-Needed)
-- [Ìparí Àlàyé]](#Conclusion)
+- [Ìparí Àlàyé](#Conclusion)
 - [Àwọn ohun àmúṣọrọ̀](#Resources)
 
 
@@ -475,7 +475,7 @@ O tun ṣe iranlọwọ fun ọ ** lati yago fun idiyele ti yiyalo VPS **, eyiti
 
 ### Ìgbésẹ̀ 1: Fi Cloudflare Tunnel sori ẹrọ
 
-1. Ṣẹ̀dá àkọọ́lẹ̀ ní [cloudflare.com]](https://www.cloudflare.com) kí o sì fi àdúgbò rẹ kún un.
+1. Ṣẹ̀dá àkọọ́lẹ̀ ní [cloudflare.com](https://www.cloudflare.com) kí o sì fi àdúgbò rẹ kún un.
 2. Lori rẹ ** ile olupin **, fi sori ẹrọ Cloudflare Tunnel:
 
 ```
@@ -537,7 +537,7 @@ Lẹ́yìn tí o bá ti dá ọ̀nà náà, Cloudflare yóò fi àkọsílẹ̀ 
 
 Ti o ko ba han laifọwọyi, fi sii ni ọwọ:
 
-1. Lọ sí [Àpótí Ìdarí Cloudflare rẹ]](https://dash.cloudflare.com/)
+1. Lọ sí [Àpótí Ìdarí Cloudflare rẹ](https://dash.cloudflare.com/)
 2. Yọ lọ sí abala **DNS**
 3. Ṣafikun igbasilẹ CNAME tuntun:
    - ** Orúkọ**: `btcpay`
@@ -660,7 +660,7 @@ Lẹ́yìn tí o bá ti fi àfikún náà sori ẹrọ, abala **Zcash** tuntun k
 
 > Kì í ṣe gbogbo wallets ló ń ṣe àtìlẹ́yìn **Unified Full Viewing Key (UFVK) ** export báyìí. 
 > Àwọn àbá: 
->  [**YWallet**]](https://ywallet.app/installation)  
+>  [**YWallet**](https://ywallet.app/installation)  
 >  [**Zingo! Wọléètì (àtúnṣe fún PC) **](https://zingolabs.org/)  
 > Ninu awọn ohun elo mejeeji, wa fun gbigbe UFVK ni apakan afẹyinti / gbigbe.
 
@@ -883,15 +883,15 @@ A fẹ́ kí o ṣàṣeyọrí nínú wíwá BTCPay àti ṣíṣe ìsanwó r�
 
 ## Àwọn ohun àmúṣọrọ̀
 
-* [Ojúlé Ìkànnì Ọ̀fẹ́ BTCPay Server]](https://btcpayserver.org/)
-* [BTCPay FAQ]](https://docs.btcpayserver.org/FAQ/)
+* [Ojúlé Ìkànnì Ọ̀fẹ́ BTCPay Server](https://btcpayserver.org/)
+* [BTCPay FAQ](https://docs.btcpayserver.org/FAQ/)
 * [BTCPay Server GitHub Àpamọ́](https://github.com/btcpayserver/btcpayserver)
 * [BTCPay Server Mainnet Àdánwò](https://mainnet.demo.btcpayserver.org/login?ReturnUrl=%2F)
 * [Zcash Plugin fún BTCPay (GitHub)](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
 * [Ìtọ́wọ́ọ̀wọ́ Ìsopọ Zcash Plugin](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/installation.md)
 * [Àṣà zcash-lightwalletd.custom.yml Àpẹẹrẹ](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin/blob/master/docs/zcash-lightwalletd.custom.yml)
 * [Lightwalletd Docker Compose File (Zebra) ] Àtúnṣe ojúewé](https://github.com/ZcashFoundation/zebra/blob/main/docker/docker-compose.lwd.yml)
-* [BTCPay API Key Docs (Greenfield API) ]](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
-* [Ṣẹ́ Àgbélébùú Àwọsánmà]](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
-* [Àtòjọ Àwọn Owó-ìpamọ́ Zcash (ZecHub) ]](https://zechub.wiki/wallets)
-* [Zebra + Lightwalletd lórí Raspberry Pi 5 (ZecHub) ]](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)
+* [BTCPay API Key Docs (Greenfield API) ](https://docs.btcpayserver.org/API/Greenfield/v1/#tag/API-Keys)
+* [Ṣẹ́ Àgbélébùú Àwọsánmà](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
+* [Àtòjọ Àwọn Owó-ìpamọ́ Zcash (ZecHub) ](https://zechub.wiki/wallets)
+* [Zebra + Lightwalletd lórí Raspberry Pi 5 (ZecHub) ](https://free2z.com/ZecHub/zpage/zcash-101-zebra-lightwalletd-sync-journal-on-raspberry-pi-5)

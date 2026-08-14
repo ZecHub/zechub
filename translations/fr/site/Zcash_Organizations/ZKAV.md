@@ -1,9 +1,8 @@
----
 <a href="https://github.com/ZecHub/zechub/edit/main/site/Zcash_Organizations/ZKAV.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
 </a>
 
-# <img src="https://i.ibb.co/tYvwnCW/image-2024-02-03-170636194.png" alt="Texte alternatif" width="50"/>    Club ZKAV
+# <img src="/content-images/image-2024-02-03-170636194-b507a57ff1.webp" alt="Texte alternatif" width="50"/>    Club ZKAV
 [Site web](https://zkav.club) - [Github](https://github.com/copernicus-mogley/zkav.club) - [X/Twitter](https://x.com/ZkAv_Club) - [Youtube](https://www.youtube.com/@ZkAv_Club)
 
 *Avec le soutien de The Zcash Foundation, cet ambitieux projet communautaire vise à avoir un impact mondial grâce à des actions locales et régionales. Il invite une communauté de créateurs à apprendre et à travailler ensemble afin de valoriser et de diffuser des nouvelles et des récits qui inspirent, éduquent et partagent la promesse de Zcash et de la confidentialité financière*.

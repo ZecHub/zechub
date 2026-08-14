@@ -10,7 +10,7 @@ Hardware security key nye mɔ̃ ŋutɔŋutɔ si wozãna hena nu eve ƒe kpeɖodz
 
 Wotrɔ asi le safui siawo ŋu be woawɔ dɔ aduadu kple wò ŋkɔ kple nyagbe si nàzã atsɔ akpɔ egbɔ be ame siwo ŋu woɖe mɔ ɖo koe ate ŋu akpɔ wò akɔntabubuwo kple nyatakakawo. Wole nɔnɔme vovovowo me abe pen drive, NFC card alo Bluetooth dɔwɔnuwo ene.
 
-![Hardware Dedienɔnɔ ƒe Safui ƒe Kpɔɖeŋu](https://github.com/ZecHub/zechub/assets/81990132/1dff66a4-d8e6-483f-9a1e-065d3974d665)
+![Hardware Dedienɔnɔ ƒe Safui ƒe Kpɔɖeŋu](/content-images/1dff66a4-d8e6-483f-9a1e-065d3974d665-a4c6c73e00.webp)
 
 ## Alesi hardware security key wɔa dɔe
 
@@ -26,7 +26,7 @@ Hardware dedienɔnɔ ƒe safuiwo naa viɖe geɖe wu ɖaseɖiɖimɔnu xoxo siwo w
 
 Ao, hardware dedienɔnɔ ƒe safuiwo le nɔnɔme vovovowo me eye ɖewohĩ womawɔ ɖeka kple mɔ̃wo kple dɔwɔɖoɖowo katã o. Hafi nàƒle safui aɖe la, kpɔ egbɔ be esɔ kple wò mɔ̃a kple dɔwɔɖoɖoa.
 
-![Hardware Dedienɔnɔ ƒe Nɔnɔme Veviwo](https://github.com/ZecHub/zechub/assets/81990132/a830c435-ad20-4183-b381-475afe1089b3)
+![Hardware Dedienɔnɔ ƒe Nɔnɔme Veviwo](/content-images/a830c435-ad20-4183-b381-475afe1089b3-5537cd7388.webp)
 
 ## Ðe woate ŋu azã hardware security key kple akɔntabubu geɖea?
 
@@ -42,7 +42,7 @@ Ne wò hardware security key bu la, àde afɔku me be woaxe mɔ ɖe wò akɔntab
 
 **Yubico YubiKey 5 NFC ** Ƒe 1999 ƒe ɣleti gbãtɔ me.
 
-![Yubico YubiKey 5 NFC ƒe ƒuƒoƒo](https://github.com/ZecHub/zechub/assets/81990132/bf1ac95e-7277-4559-b5ef-63117b66971b)
+![Yubico YubiKey 5 NFC ƒe ƒuƒoƒo](/content-images/bf1ac95e-7277-4559-b5ef-63117b66971b-3aa542aba7.webp)
 
 Yubico, si nye FIDO U2F ƒe ɖaseɖiɖi ƒe dzidzenu si le ʋuʋu ɖi si dedienɔnɔ ƒe safui geɖe zãna ƒe kpeɖeŋutɔ wɔe, eye YubiKey 5 NFC le asi dedie me be wòakpɔ wò mɔ̃wo ta. Abe alesi eƒe ŋkɔa ɖee fia ene la, ewɔa dɔ to USB A (alo USB C si zãa adapter) alo NFC zazã me. 
 Enaa out of the box compatability kple subɔsubɔdɔ geɖe siwo dometɔ aɖewoe nye Google Chrome, Facebook, Dropbox, LastPass, 1Password kple bubuwo. YubiKey 5 la le sue, enɔa anyi didina eye eƒe kpekpeme le bɔbɔe - eye tsi gɔ̃ hã mate ŋu age ɖe eme o. 
@@ -50,7 +50,7 @@ Enaa out of the box compatability kple subɔsubɔdɔ geɖe siwo dometɔ aɖewoe 
 
 **Thetis Fido U2F Dedienɔnɔ ƒe Safui**
 
-![Thetis Fido U2F Dedienɔnɔ ƒe Safui](https://github.com/ZecHub/zechub/assets/81990132/b83e42e5-bba6-4175-ad6c-d64972ef54ef)
+![Thetis Fido U2F Dedienɔnɔ ƒe Safui](/content-images/b83e42e5-bba6-4175-ad6c-d64972ef54ef-a2ef17a10d.webp)
 
 Ne èle bang-for-buck nyuitɔ dim le dedienɔnɔ ƒe safui me la, ele be mɔ̃ sia si tso Thetis nanɔ wò xexlẽdzesiwo me. Bluetooth aɖeke mele ʋua me o (ele mɔ̃ si xɔ asi wu dzi), eye FIDO U2F ƒe dzidzenu koe wòdoa alɔ eyata UAF alo OTP ƒe ɖekawɔwɔ aɖeke mele eme o. Gake ana nàge ɖe nyatakakadzraɖoƒea dedie ne èzã Chrome alo Opera abe web-browser ene le Windows, macOS, alo Linux dzi. 
 Le asi me la, dedienɔnɔ ƒe safui sia si ƒe asi bɔbɔ la wɔa kamedefefe si ƒe nɔnɔme le bɔbɔe si woate ŋu abla kple aluminum-nutunu si le tɔtrɔm si xea mɔ na kadodoa be wòagagblẽ nu le eŋu ne ele etsɔm o. Amadede dzeani etɔ̃e le eŋu: Yevu, Sika, kple Klosalo. 
@@ -58,7 +58,7 @@ Plastik-nutunua sena le eɖokui me be esẽ eye wònɔa anyi didina vie, gake à
 
 **CryptoTrust Ko Safui**
 
-![CryptoTrust Ko ƒe Safui](https://github.com/ZecHub/zechub/assets/81990132/13be6ecc-227e-498c-8a36-6d52c023cd78)
+![CryptoTrust Ko ƒe Safui](/content-images/13be6ecc-227e-498c-8a36-6d52c023cd78-06e3e924dc.webp)
 
 Abe alesi eƒe ŋkɔa ɖee fia ene la, OnlyKey ƒe nɔnɔme nyui aɖewo mele eƒe hoʋlilawo si o. Akpe na keypad si le ʋua me si ate ŋu ato keyloggers siwo dia mɔ ɖe kɔmpiutawo dzi ŋu ta la, ate ŋu ana Internet dzi akɔntabubuwo nanɔ dedie ne kɔmpiuta alo nyatakakadzraɖoƒe aɖe gblẽ. Edoa alɔ 2FA ƒe mɔnu geɖewo, siwo dometɔ aɖewoe nye FIDO 2 U2F, Yubico OTP, kple TOTP. 
 Togbɔ be menye nyagbewo dzikpɔla nyuitɔ kekeake na taɖodzinu veviwo o hã la, OnlyKey ateŋu adzra OTP akɔnta 24, nyagbe 24, kple zãla ƒe ŋkɔ/URL 24 ɖo, ɖe safui ɖeka dzi. Nɔnɔme sia le asiwò ŋutɔ ne mèdi vevie be yealé nyagbe geɖe ɖe susu me o eye nèdi be safuia nakpɔ egbɔ na ye. 
@@ -71,22 +71,22 @@ Fifia si nènya nusi 2FA Hardware safuiwo nye kple alesi wowɔa dɔe la, alesi n
 **Afɔɖeɖe 1** 
 Ge ɖe wò Gmail akɔnta me eye nàzi **Manage Your Google Account** dzi.
 
-![Google Akɔntabubu - Dzra Akɔntabubu Dzi](https://github.com/ZecHub/zechub/assets/81990132/995fc955-791a-4456-9218-7e5964da48b5)
+![Google Akɔntabubu - Dzra Akɔntabubu Dzi](/content-images/995fc955-791a-4456-9218-7e5964da48b5-31c64640b2.webp)
 
 **Afɔɖeɖe 2 lia** 
 Zi **Dedienɔnɔ** dzi.
 
-![Google ƒe Dedienɔnɔ ƒe Ðoɖowo](https://github.com/ZecHub/zechub/assets/81990132/246db235-6596-41ff-bd7a-f8ee4f80962b)
+![Google ƒe Dedienɔnɔ ƒe Ðoɖowo](/content-images/246db235-6596-41ff-bd7a-f8ee4f80962b-340193c2c3.webp)
 
 **Afɔɖeɖe 3 lia** 
 Zi **Afɔɖeɖe 2 ƒe Kpeɖodzi** dzi.
 
-![2-Afɔɖeɖewo ƒe Dzesidede Dzeside](https://github.com/ZecHub/zechub/assets/81990132/19cd202a-1a70-47e6-a02a-aa24f6e199fa)
+![2-Afɔɖeɖewo ƒe Dzesidede Dzeside](/content-images/19cd202a-1a70-47e6-a02a-aa24f6e199fa-a9fcb911ce.webp)
 
 **Afɔɖeɖe 4 lia** 
 Tia **Fia Tiatia Bubuwo**
 
-![Fia Tiatia Bubuwo](https://github.com/ZecHub/zechub/assets/81990132/2ade9531-1cf6-48e8-b9a8-178d41a4cd30)
+![Fia Tiatia Bubuwo](/content-images/2ade9531-1cf6-48e8-b9a8-178d41a4cd30-b1e9ea1400.webp)
 
 **Afɔɖeɖe 5 lia** 
 Azɔ tia **Security Key** eye emegbe nàzi **Advance** dzi.

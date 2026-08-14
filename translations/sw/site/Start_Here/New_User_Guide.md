@@ -34,7 +34,7 @@ Jambo moja muhimu ni kwamba si lazima ununue 1 *ZEC* kamili.
 
 Baada ya kununua baadhi * ZEC *, unaweza kutaka kuhamisha kwa mkoba Zcash. 
 
-[Makala hii inaeleza]](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) kwa nini kuweka *ZEC* katika mkoba ni muhimu. 
+[Makala hii inaeleza](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) kwa nini kuweka *ZEC* katika mkoba ni muhimu. 
 
 Tunapendekeza kutumia [wallet kulindwa](https://zechub.wiki/wallets) kwa sababu pochi hizi kutoa vipengele faragha kwamba kufanya * ZEC * kipekee. 
 
@@ -101,7 +101,7 @@ Zcash Jamii Forum ni mahali ambapo wanachama wa jamii Zcash kujadili mambo yote 
 Jumuiya ni shauku na kuwakaribisha sana ya wanachama wapya. Wakati mwingine mazungumzo inaweza kuwa kiufundi, lakini usijali! Kama milele una swali, unaweza kuuliza.
 
 <a href="">
-    <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="https://github.com/user-attachments/assets/c1d40441-4336-4754-b3bf-5a746b19a9d5" />
+    <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="/content-images/c1d40441-4336-4754-b3bf-5a746b19a9d5-6d2eca6cbf.webp" />
 </a>
 
 ---

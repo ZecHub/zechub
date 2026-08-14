@@ -1,561 +1,158 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/guides/Raspberry_Pi_4_Full_Node.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
-</a>
+# Raspberry Pi 4에서 풀 노드 실행하기 (Zebra + Zallet)
 
-# 라즈베리 파이 4: *zcashd* 전체 노드 가이드
+*원래의 zcashd 기반 가이드에서 이전되었습니다. zcashd는 2026년 7월 18일에 자동 End-of-Support 중단에 도달했으므로, 이 가이드는 이제 **Zebra**(Zcash Foundation이 유지 관리하는 현재 풀 노드)와 **Zallet**(zcashd의 내장 지갑을 대체하기 위해 만들어진 지갑)을 사용합니다.*
 
-이 가이드의 목적은 저전력 라즈베리 파이 4에서 전체 노드를 실행하려는 Zcash 사용자들에게 도움을 주는 것입니다.
+## 배울 내용
+- 헤드리스 사용을 위해 Raspberry Pi 4에 Ubuntu Server 22.04+ (64-bit)를 플래시하고 구성하는 방법
+- Docker 또는 사전 빌드된 바이너리를 통해 Zebra를 설치하고 실행하는 방법
+- 지갑 암호화 설정을 포함해 Zallet을 설치, 구성, 초기화하는 방법
+- 기존 zcashd config/wallet을 선택적으로 Zallet으로 마이그레이션하는 방법
 
-<img src="https://user-images.githubusercontent.com/81990132/197372541-dcd886ab-a3d0-4614-b490-0294ddf3ffae.png" alt="zcashd" width="700" height="700"/>
+## 이전 가이드에서 달라진 점
+이 가이드의 이전 버전은 Pi 4에서 **zcashd**를 네이티브로 컴파일하는 과정을 다뤘습니다. Pi 4에는 병렬(`-j$(nproc)`) 빌드를 할 만큼 메모리가 충분하지 않기 때문에, 단일 스레드 컴파일에 3~4시간이 걸렸습니다. 이제 Zebra와 Zallet은 모두 **공식 사전 빌드 ARM64 바이너리와 Docker 이미지**를 제공하므로, 대부분의 경우 Pi 자체에서 소스로부터 무언가를 컴파일할 필요가 აღარ 없습니다.
 
-## 동영상
+## 사전 준비물
+- Raspberry Pi 4 (RAM 4 GB 이상 권장)
+- OS용 microSD 카드 (32 GB+)
+- USB 3.0를 지원하는 외장 SSD/HDD — **Zebra는 캐시된 Mainnet 데이터에 대략 300 GB가 필요**하며 시간이 지날수록 더 증가하므로, microSD 카드만으로 실행하려고 하지 마세요
+- microSD 카드 슬롯이 있는 컴퓨터 (OS 이미지를 플래시하기 위해)
+- 유선 Ethernet 연결 또는 Wi-Fi
+- SSH를 통한 커맨드라인 사용에 대한 기본적인 익숙함
 
-<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
-  <iframe
-    className="w-full h-full"
-    src="https://www.youtube.com/embed/SGYrzhs1l2k"
-    title="How to compile Zcash Node on Raspberry Pi!"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowFullScreen
-    loading="lazy"
-  />
-</div>
+## 1단계: Ubuntu Server 22.04+ (64-bit) 플래시
+Zebra와 Zallet의 사전 빌드 바이너리 및 Docker 이미지는 **glibc 2.34+**를 요구하며, 이는 **Ubuntu Server 22.04 이상 (64-bit/aarch64)**을 의미합니다.
 
-## 지원
+1. 메인 컴퓨터에 Raspberry Pi Imager를 설치합니다.
+2. microSD 카드를 삽입합니다.
+3. **Other general-purpose OS → Ubuntu → Ubuntu Server 22.04 LTS (64-bit)**(또는 그 이상)를 선택합니다.
+4. Imager의 고급 옵션(톱니바퀴 아이콘)을 사용해 헤드리스 첫 부팅을 위해 호스트명, SSH 활성화, 필요시 Wi-Fi 자격 증명을 미리 구성합니다.
+5. 이미지를 기록한 뒤 카드를 삽입하고 Pi의 전원을 켭니다.
+6. SSH로 접속합니다: `ssh <username>@<pi-hostname-or-ip>`
 
-이 가이드가 유용하다고 생각되면, ZecHub을 지원하기 위해 ZEC 기부를 고려해 주세요:
+## 2단계: 외부 저장소 연결 및 마운트
+1. 외장 SSD/HDD를 USB 3.0으로 연결합니다.
+2. 장치를 식별합니다: `lsblk`
+3. (새 장치라면) 포맷하고 `/mnt/zcash-data` 같은 위치에 마운트하며, 재부팅 시 자동 마운트되도록 표준 `mkfs`/`fstab` 설정을 사용합니다.
 
-`u1rl2zw85dmjc8m4dmqvtstcyvdjn23n0ad53u5533c97affg9jq208du0vf787vfx4vkd6cd0ma4pxkkuc6xe6ue4dlgjvn9dhzacgk9peejwxdn0ksw3v3yf0dy47znruqftfqgf6xpuelle29g2qxquudxsnnen3dvdx8az6w3tggalc4pla3n4jcs8vf4h29ach3zd8enxulush89`
-
-## 배우게 될 내용
-
-```markdown
-* 부팅 가능한 Ubuntu Server 마이크로SD 카드를 만드는 방법
-* 라즈베리 파이 4에서 인터넷 연결을 설정하는 방법
-* 라즈베리 파이 4에 원격으로 액세스하는 방법
-* zcashd를 설치하는 방법
-* zcashd를 설정하는 방법
-* zcashd를 사용하는 방법
+## 3단계: 시스템 업데이트
+```bash
+sudo apt update && sudo apt full-upgrade -y
+sudo reboot
 ```
 
-## 사전 조건
-
-> [8GB 라즈베리 파이 4 Canakit](https://www.canakit.com/raspberry-pi-4-starter-max-kit.html) 또는 동등한 제품
-
-> 마이크로SD 카드 드라이브가 있는 컴퓨터
-
-> 와이파이나 인터넷 연결이 가능한 이더넷 케이블
-
-> USB3 지원 외부 SSD/HDD
-
-##### 참고: 서버를 보호하는 것은 결코 간단하지 않습니다. 이 가이드에서 다루지 않은 팁/추천/최선의 실천 방법은 *절대* PR을 생성하여 이 가이드가 최신 상태를 유지하도록 도와주세요.
-
-### SD 카드 준비
-
-이 단계에서는 라즈베리 파이 4가 부팅할 수 있는 *부팅 가능한* SD 카드를 만들 것입니다. 컴퓨터에 마이크로SD 카드를 삽입하세요. Canakit 또는 다른 동등한 어댑터를 사용해야 할 수도 있습니다. 운영 체제에 맞는 Raspberry Pi Imager를 설치하세요. 현재 사용 중인 OS의 버전을 다운로드합니다.
-
-     > [Ubuntu](https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb)
-     
-     > [Windows](https://downloads.raspberrypi.org/imager/imager_latest.exe)
-     
-     > [macOS](https://downloads.raspberrypi.org/imager/imager_latest.dmg)
-
-예를 들어, 리눅스에서 다운로드 후 다음을 입력합니다:
-
-`sudo dpkg -i imager_latest_amd64.deb`
-
-Raspberry Pi Imager를 실행합니다.
-
-`rpi-imager`
-
-<img src="https://user-images.githubusercontent.com/81990132/197372069-fb9f7417-d320-42cf-ad65-38d630512985.png" alt="rpi imager" width="400" height="400"/>
-
-OS와 저장 장치를 선택합니다. 라즈베리 파이 4는 64비트이므로 "Other general-purpose OS" => Ubuntu => Ubuntu Server 24.04.3 LTS (64 bit)를 추천합니다. 저장을 클릭하고 SD 카드를 선택하세요. SD 카드에 쓰기 전, 하단 오른쪽 근처의 흰색 기어 아이콘을 클릭하여 고급 옵션을 클릭합니다.
-
-<img src="https://user-images.githubusercontent.com/81990132/197372159-1169c6f4-f6aa-4f44-9679-fe7aa542bbd3.png" alt="gear" width="200" height="200"/>
-
-여기서 업데이트할 수 있습니다:
-
-```markdown
-* 라즈베리 파이 4의 호스트 이름
-* SSH 활성화
-* 사용자 이름 및 비밀번호 생성
-* 필요 시 Wi-Fi를 활성화하고 구성
+## 4단계: Zebra 설치 및 실행
+### 옵션 A — Docker (권장)
+```bash
+sudo apt install -y docker.io
+sudo usermod -aG docker $USER   # log out/in after this
+docker run -d \
+  --name zebra \
+  -p 8233:8233 \
+  -v /mnt/zcash-data/zebra:/home/zebra/.cache/zebra \
+  zfnd/zebra:latest
 ```
- 
-<img src="https://user-images.githubusercontent.com/81990132/197372149-8b85bfac-e473-4808-87cd-f27f15d05de8.png" alt="advanced" width="400" height="400"/>
+진행 상황 확인: `docker logs -f zebra`
 
-작성 완료 후 "Write"를 클릭합니다.
-
-### Ubuntu Server 부팅
-
-추가 모니터와 키보드가 있다면 지금 연결하세요. 참고: 이 것은 선택 사항입니다. 방금 포맷한 SD 카드를 라즈베리 파이 4에 삽입하고 외부 SSD/HDD도 USB3 포트에 연결합니다. 전원 코드를 꽂고 켜세요.
-
-### 라즈베리 파이 4에 원격으로 연결
-
-이제 라즈베리 파이 4에 연결해야 합니다. 필요한 사항은 다음과 같습니다:
-
-```markdown
-* 사용자 이름 및 비밀번호 (이전 단계에서 생성한 것)
-* IP 주소를 사용하여 SSH로 연결할 수 있도록
-* 모니터, 키보드 (선택사항)
-* 만약 직접 Pi에 모니터와 키보드가 연결되어 있다면 이 섹션의 나머지는 건너뛸 수 있습니다.
+### 옵션 B — cargo binstall을 통한 사전 빌드 바이너리
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source "$HOME/.cargo/env"
+cargo install cargo-binstall
+cargo binstall zebrad
+zebrad start
 ```
+이 방법은 사전 빌드된 `aarch64` 바이너리를 설치하므로 컴파일이 필요 없습니다.
 
-IP 주소를 찾는 두 가지 방법은 라우터 관리자 페이지 또는 nmap을 사용하는 것입니다. 라우터를 사용할 경우 제조사에 따라 다릅니다. 구글 검색으로 간단히 확인하세요. nmap을 사용할 경우, 먼저 설치되어 있는지 확인합니다:
+**동기화 시간에 대해:** 어느 정도 시간이 걸릴 것으로 예상하세요 — 흔히 인용되는 초기 동기화 수치(대략 2시간)는 Pi 4의 CPU보다 더 강력한 기준 하드웨어에서 나온 것이므로, 실제 Pi 4 하드웨어에서의 동기화 시간은 이보다 더 오래 걸릴 가능성이 높습니다.
 
-     `sudo apt-get install nmap`
-     
-현재 컴퓨터의 IP 주소를 찾고 첫 세 섹션을 메모해 둡니다. 일반적으로 192.168.1.xxx 또는 192.168.50.xxx입니다. 다음 명령어로 nmap에 입력합니다:
-          
-`sudo nmap -sn 192.168.50.0/24`
+## 5단계: Zallet 설치
+Zallet은 현재 **alpha** 상태입니다 — 호환성이 깨지는 변경이 있을 수 있으며, 아직 상당한 자금을 위한 프로덕션 수준의 보관 수단으로 취급하지 마세요.
 
-또는
+### 옵션 A — Docker (권장)
+```bash
+docker pull zodlinc/zallet:latest
+```
+이 이미지는 ARM64를 지원하며(Nix 기반 빌드를 통해), 셸이 없는 최소 파일시스템에서 실행됩니다 — 구성 및 데이터 경로는 `--datadir`와 볼륨 마운트를 통해 명시적으로 전달해야 합니다(6단계 참고).
 
-`sudo nmap -sn 192.168.1.0/24`
+### 옵션 B — 소스에서 빌드
+```bash
+# Requires Rust 1.85+ (see Step 4B for rustup install)
+sudo apt install -y clang libclang-dev protobuf-compiler
+cargo install --locked --git https://github.com/zcash/wallet.git
+```
+Zallet의 crate들은 아직 alpha 단계 동안 crates.io에 게시되지 않았으므로, git 저장소에서 직접 설치하는 것이 지원되는 비-Docker 방식입니다.
 
-이 명령은 홈 네트워크에 연결된 모든 장치를 표시하며, 라즈베리 파이 4의 IP 주소 / MAC 주소를 보여줄 것입니다. 사용자 이름, 비밀번호 및 IP 주소를 사용하여 이제 SSH로 로그인할 수 있습니다
+## 6단계: Zallet 구성
+선택한 datadir(예: `/mnt/zcash-data/zallet`)에 `zallet.toml`을 생성합니다:
+```toml
+[builder.limits]
+[consensus]
+network = "main"
+[database]
+[external]
+[features]
+as_of_version = "0.0.0"
+[features.deprecated]
+[features.experimental]
+[indexer]
+validator_address = "127.0.0.1:8232"   # Zebra's JSON-RPC endpoint
+[keystore]
+[note_management]
+[rpc]
+bind = ["127.0.0.1:SOMEPORT"]
+```
+Zebra가 다른 호스트/포트에서 실행 중이라면 `validator_address`를 조정하고, `[indexer]` 아래의 `validator_cookie_auth`/`validator_user`/`validator_password`를 Zebra의 RPC 인증 설정에 맞게 구성하세요.
 
-```markdown
-* ssh <username>@<ip address of your pi> 참고: 여기에 *당신의* 사용자 이름과 *당신의* IP 주소와 *당신의* 비밀번호를 입력해야 합니다.
-* 예시: `ssh ubuntu@192.168.1.25` 여기서 사용자 이름은 *ubuntu*이고 IP 주소는 192.168.1.25입니다.
+**zcashd에서 마이그레이션 중인가요?** 예전 `zcash.conf`가 아직 있다면:
+```bash
+zallet migrate-zcash-conf --datadir /path/to/old/zcashd/datadir -o /mnt/zcash-data/zallet/zallet.toml
 ```
 
-  <img src="https://user-images.githubusercontent.com/81990132/197372846-e1279388-eaaa-4fbb-8d5d-f9928cb45195.png" alt="sshLogin" width="400" height="400"/>
-       
+## 7단계: 지갑 암호화 설정
+Zallet은 모든 키 자료를 `age`/`rage`로 암호화합니다:
+```bash
+cargo install rage
+rage -p -o /mnt/zcash-data/zallet/encryption-identity.txt <(rage-keygen)
+```
+이 명령은 공개 키와 자동 생성된 패스프레이즈를 출력합니다 — **패스프레이즈를 저장해 두세요. 이것 없이는 identity 파일을 복구할 수 없습니다.**
 
-사용 중인 라즈베리 파이의 버전을 알고 싶다면 다음 명령어를 사용하세요:
-
-     `cat /sys/firmware/devicetree/base/model ; echo`
-
-  <img src="https://user-images.githubusercontent.com/81990132/197689888-367c8eb3-2667-4c8c-85b3-44d46afe07a7.png" alt="which" width="700" height="400"/>
-
-         
-
-### *zcashd* 설치
-
-zcashd를 설치하는 두 가지 방법은 사전 컴파일된 바이너리를 다운로드하거나 zcashd를 직접 소스에서 컴파일하는 것입니다. 저는 *강력히 추천*합니다. 직접 컴파일할 경우, 크로스 컴파일을 강력히 권장합니다. 크로스 컴파일은 한 플랫폼에서 다른 플랫폼에서 실행될 수 있는 바이너리를 빌드하는 것입니다. 그 이유 중 하나는 라즈베리 파이 4가 저전력으로 인해 매우 느릴 수 있기 때문입니다! 주 컴퓨터를 사용하여 이를 도와주세요. 최신 릴리스를 여기서 얻을 수 있습니다 [여기](https://github.com/zcash/zcash/releases). 크로스 컴파일을 위해 필요한 패키지가 설치되어 있는지 확인해야 합니다. 다음을 설치하세요:
+## 8단계: 지갑 초기화 및 시작
+```bash
+zallet -d /mnt/zcash-data/zallet init-wallet-encryption
+zallet -d /mnt/zcash-data/zallet generate-mnemonic
+```
+여러 개의 독립적인 지출 루트를 의도적으로 만들고 싶은 경우가 아니라면 **`generate-mnemonic`은 한 번만 실행하세요**.
 
 ```bash
-sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python3 python3-zmq zlib1g-dev curl bsdmainutils automake libtinfo5
-sudo apt-get install gcc-aarch64-linux-gnu
+zallet -d /mnt/zcash-data/zallet start
 ```
 
-다운로드한 후 다음을 입력하세요:
-
-`sudo dpkg -i imager_latest_amd64.deb`
-
-Raspberry Pi Imager를 열어주세요
-
-`rpi-imager`
-
-<img src="https://user-images.githubusercontent.com/81990132/197372069-fb9f7417-d320-42cf-ad65-38d630512985.png" alt="rpi imager" width="400" height="400"/>
-
-OS와 저장 장치를 선택하세요. 라즈베리 파이 4는 64비트이므로 "Other general-purpose OS" => Ubuntu => Ubuntu Server 24.04.3 LTS (64 bit)를 추천합니다. 저장을 클릭하고 SD 카드를 선택하세요. SD 카드에 쓰기 전에 하단 오른쪽 근처의 흰색 기어 아이콘을 클릭하여 고급 옵션을 클릭하세요.
-
-
-<img src="https://user-images.githubusercontent.com/81990132/197372159-1169c6f4-f6aa-4f44-9679-fe7aa542bbd3.png" alt="gear" width="200" height="200"/>
-
-
-
-여기서 업데이트할 수 있습니다:
-
-```markdown
-* 라즈베리 파이 4의 호스트 이름
-* SSH 활성화
-* 사용자 이름 및 비밀번호 생성
-* 필요 시 Wi-Fi를 활성화하고 구성
-```
- 
-<img src="https://user-images.githubusercontent.com/81990132/197372149-8b85bfac-e473-4808-87cd-f27f15d05de8.png" alt="advanced" width="400" height="400"/>
-
- 
-작성 완료 후 "Write"를 클릭합니다.
-
-### Ubuntu Server 부팅
-
-추가 모니터와 키보드가 있다면 지금 연결하세요. 참고: 이 것은 선택 사항입니다. 방금 포맷한 SD 카드를 라즈베리 파이 4에 삽입하고 외부 SSD/HDD도 USB3 포트에 연결합니다. 전원 코드를 꽂고 켜세요.
-
-### 라즈베리 파이 4에 원격으로 연결
-
-이제 라즈베리 파이 4에 연결해야 합니다. 필요한 사항은 다음과 같습니다:
-
-```markdown
-* 사용자 이름 및 비밀번호 (이전 단계에서 생성한 것)
-* IP 주소를 사용하여 SSH로 연결할 수 있도록
-* 모니터, 키보드 (선택사항)
-* 만약 직접 Pi에 모니터와 키보드가 연결되어 있다면 이 섹션의 나머지는 건너뛸 수 있습니다.
-```
-
-IP 주소를 찾는 두 가지 방법은 라우터 관리자 페이지 또는 nmap을 사용하는 것입니다. 라우터를 사용할 경우 제조사에 따라 다릅니다. 구글 검색으로 간단히 확인하세요. nmap을 사용할 경우, 먼저 설치되어 있는지 확인합니다:
-
-     `sudo apt-get install nmap`
-     
-현재 컴퓨터의 IP 주소를 찾고 첫 세 섹션을 메모해 둡니다. 일반적으로 192.168.1.xxx 또는 192.168.50.xxx입니다. 다음 명령어로 nmap에 입력합니다:
-          
-`sudo nmap -sn 192.168.50.0/24`
-
-또는
-
-`sudo nmap -sn 192.168.1.0/24`
-
-이 명령은 홈 네트워크에 연결된 모든 장치를 표시하며, 라즈베리 파이 4의 IP 주소 / MAC 주소를 보여줄 것입니다. 사용자 이름, 비밀번호 및 IP 주소를 사용하여 이제 SSH로 로그인할 수 있습니다
-
-```markdown
-* ssh <username>@<ip address of your pi> 참고: 여기에 *당신의* 사용자 이름과 *당신의* IP 주소와 *당신의* 비밀번호를 입력해야 합니다.
-* 예시: `ssh ubuntu@192.168.1.25` 여기서 사용자 이름은 *ubuntu*이고 IP 주소는 192.168.1.25입니다.
-```
-
-  <img src="https://user-images.githubusercontent.com/81990132/197372846-e1279388-eaaa-4fbb-8d5d-f9928cb45195.png" alt="sshLogin" width="400" height="400"/>
-       
-
-사용 중인 라즈베리 파이의 버전을 알고 싶다면 다음 명령어를 사용하세요:
-
-     `cat /sys/firmware/devicetree/base/model ; echo`
-
-  <img src="https://user-images.githubusercontent.com/81990132/197689888-367c8eb3-2667-4c8c-85b3-44d46afe07a7.png" alt="which" width="700" height="400"/>
-
-         
-
-### *zcashd* 설치
-
-zcashd를 설치하는 두 가지 방법은 사전 컴파일된 바이너리 다운로드 또는 소스에서 zcashd 컴파일입니다. 저는 *매우* 소스에서 컴파일하는 것을 추천합니다. 직접 컴파일할 경우 교차 컴파일을 강력히 권장합니다. 교차 컴파일은 한 플랫폼에서 다른 플랫폼에 실행될 수 있는 바이너리를 빌드하는 것입니다. 이는 라즈베리 파이 4가 저전력으로 인해 매우 느리기 때문입니다. 주요 컴퓨터를 활용하여 이를 도와줄 수 있습니다. 최신 릴리스를 여기에서 얻을 수 있습니다 [https://github.com/zcash/zcash/releases](https://github.com/zcash/zcash/releases). 교차 컴파일하기 위해 필요한 패키지가 있는지 확인해야 합니다. 다음을 설치하세요:
-
+## 9단계: 기존 zcashd 지갑 마이그레이션 (선택 사항)
 ```bash
-sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python3 python3-zmq zlib1g-dev curl bsdmainutils automake libtinfo5
-sudo apt-get install gcc-aarch64-linux-gnu
+zallet -d /mnt/zcash-data/zallet migrate-zcashd-wallet --zcashd-datadir /path/to/old/zcashd/datadir
 ```
+이 작업에는 `db_dump` 유틸리티가 필요합니다(Berkeley DB 6.2.23에 맞춰 빌드된 것) — 시스템 설치본 또는 로컬 소스 빌드된 zcashd에서 가져올 수 있습니다. 더 이상 zcashd를 설치해 두지 않았다면, 이것은 아직 Zallet 안에서 완전히 자체적으로 해결되지 않은 유일한 마이그레이션 단계입니다.
 
-다음으로 새로 다운로드한 zcashd 릴리스 디렉토리로 이동하고 실행하세요:
+## 10단계: 모든 것이 작동하는지 확인
+```bash
+zallet -d /mnt/zcash-data/zallet help
+```
+지갑이 응답하는지 확인하고, Zebra의 동기화가 완료되면 잔액/주소가 예상과 일치하는지도 확인하세요.
 
-`HOST=aarch64-linux-gnu ./zcutil/build.sh`
-          
+## 문제 해결
+- **ARM에서의 Zebra 빌드/런타임 문제:** 소스에서 빌드하는 경우 Rust ARM toolchain을 설치하세요 — Zebra 자체 문서에 따르면, ARM 하드웨어에서 x86_64 빌드 도구를 실행하면 눈에 띄게 더 느리게 동작합니다.
+- **저장소가 가득 참:** Zebra의 약 300 GB 용량은 계속 증가합니다 — 여유 공간을 충분히 계획하세요.
+- **Docker 권한 오류:** 사용자를 `docker` 그룹에 추가한 뒤 로그아웃/로그인하거나, 그동안은 `sudo`를 사용하세요.
+- **Zallet 컨테이너에는 셸이 없음:** 공식 `zodlinc/zallet` 이미지는 설계상 from-scratch입니다 — 항상 `--datadir`를 명시적으로 전달하고 데이터 디렉터리를 볼륨으로 마운트하세요.
 
-### *zcashd* 설정
+## 이전 zcashd 가이드와 비교한 하드웨어 참고 사항
+Zebra와 Zallet은 일반적으로 설정 중 CPU 부담이 zcashd를 컴파일하던 때보다 더 가볍습니다. 사전 빌드 바이너리/컨테이너를 실행하기 때문입니다. 4 GB RAM은 합리적인 시작점이며, `htop`으로 모니터링하고 스와핑이 심하다면 8 GB Pi 4 모델도 고려하세요.
 
-<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
-  <iframe
-    className="w-full h-full"
-    src="https://www.youtube.com/embed/9t2LX3HFldw"
-    title="Zcashd Wallet Tool - Generate & Import Private Key"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowFullScreen
-    loading="lazy"
-  />
-</div>
+## 추가 리소스
+- [Zebra Book](https://zebra.zfnd.org) — 공식 Zebra 문서
+- [Zallet Book](https://zcash.github.io/wallet) — 공식 Zallet 문서
+- [zcashd End-of-Support 공지](https://z.cash/support/zcashd-deprecation)
 
 ---
 
-이제 zcashd 바이너리 파일을 라즈베리 파이 4로 전송해야 합니다. Zcashd v5.3 기준으로 필요한 파일은 다음과 같습니다:
-
-```markdown
-zcashd
-zcash-cli
-zcash-tx
-zcash-gtest
-zcash-inspect
-zcashd-wallet-tool
-fetch-params.sh
-```
-
-이 파일들은 자신이 직접 컴파일한 경우, 최신 릴리스 다운로드 위치의 /src 디렉토리에 있습니다. 그렇지 않으면 사전 컴파일된 파일은 다운로드한 위치에 있습니다. 전송을 달성하는 두 가지 방법은 SFTP 사용 또는 외부 드라이브 사용입니다.
-
-#### SFTP
-
-```bash
-sftp username@<ip of RaspberryPi4>
-put zcash*
-```
-   
-#### 외부 복사
-     
-외부 드라이브에 파일을 복사한 후 라즈베리 파이 4에 연결하세요. 이미 전체 노드가 동기화되어 있고 시간을 절약하고 싶다면, 블록과 chainstate 데이터도 복사할 수 있습니다.
-   
-` cd ~/.zcash/`
-     
-다음 명령어를 실행하세요:
-
-```bash
-tar -zcvf blocks.tar.gz /blocks
-tar -zcvf chainstate.tar.gz /chainstate
-```
-     
-외부 SSD/HHD에 blocks 및 chainstate .gz 파일을 복사합니다. 다음으로 Media 폴더에서 외부 SSD/HDD를 마운트하여 보고 싶습니다:
-
-```markdown
-lsblk는 연결된 드라이브를 표시합니다. 대부분은 sda 형식입니다.
-id는 사용자 및 그룹 ID를 표시합니다.
-```
-          
-<img src="https://user-images.githubusercontent.com/81990132/197372643-abef88fd-9177-4bf9-abda-3c221188cd10.png" alt="lsblk" width="400" height="400"/>
-
-
-          
-`sudo mount -o umask=0077,gid=<groupid>,uid=<userid> /dev/sda1 /media/portableHD/`
-          
-소유자와 파일의 권한을 주의 깊게 확인하세요.
-
-```bash
-sudo chown -R <username>: portableHD
-sudo chmod -R 600 portableHD/
-```
-     
-기타 컴퓨터에서 blocks 및 chainstate .gz 파일을 복사했다면 지금 압축을 풀어주세요. 외부 드라이브의 .zcash 폴더에 있어야 합니다.
-
-```bash
-tar - xvzf blocks.tar.gz
-tar - xvzf chainstate.tar.gz
-```
-
-
-/media/portableHD/.zcash/zcash.conf 설정
-
-<img src="https://user-images.githubusercontent.com/81990132/197373699-18cc2c9f-b47d-44e9-9e6b-4c5cccf78d9e.png" alt="advanced" width="400" height="400"/>
-
- 
-이제 완료되면 Write를 클릭하세요.
-
-
-### Ubuntu Server 부팅
-
-추가 모니터와 키보드가 있다면 지금 연결하세요. 참고: 이는 선택 사항입니다. 방금 포맷한 SD 카드를 라즈베리 파이 4에 삽입하고 외부 SSD/HHD도 USB3 포트에 연결하세요. 또한 전원 코드를 꽂고 켜세요.
-
-### Raspberry Pi 4에 원격으로 연결
-
-이제 Raspberry Pi 4에 연결해야 합니다. 필요한 사항:
-
-```markdown
-* 사용자 이름 및 비밀번호 (이전 단계에서)
-* IP 주소로 SSH 사용
-* 모니터, 키보드 (선택 사항)
-* 만약 모니터와 키보드가 직접 Pi에 연결되어 있다면 이 섹션의 나머지는 건너뛸 수 있습니다.
-```
-
-IP 주소를 찾는 두 가지 방법은 라우터 관리자 페이지 또는 nmap을 사용하는 것입니다. 라우터를 사용하는 경우 제조사에 따라 다르므로 간단한 구글 검색으로 세부 정보를 확인하세요. nmap을 사용하려면 먼저 설치되어 있는지 확인해야 합니다:
-
-     `sudo apt-get install nmap`
-     
-현재 컴퓨터의 IP 주소를 찾아서 처음 세 개의 섹션을 메모해주세요. 일반적으로 192.168.1.xxx 또는 192.168.50.xxx입니다. 다음 명령어로 nmap에 입력하세요:
-          
-`sudo nmap -sn 192.168.50.0/24`
-
-또는
-
-`sudo nmap -sn 192.168.1.0/2线`
-
-이렇게 하면 홈 네트워크에 연결된 모든 장치가 표시되며, Raspberry Pi 4의 IP 주소 / MAC 주소도 드러납니다. 사용자 이름, 비밀번호 및 IP 주소를 사용하여 이제 SSH로 로그인할 수 있습니다
-
-```markdown
-* ssh <username>@<ip address of your pi> 참고: 여기에 *당신의* 사용자 이름과 *당신의* IP 주소와 *당신의* 비밀번호를 입력해야 합니다.
-* 예시: `ssh ubuntu@192.168.1.25` 여기서 사용자 이름은 *ubuntu*이고 IP 주소는 192.168.1.25입니다.
-```
-
-
-  <img src="https://user-images.githubusercontent.com/81990132/197372846-e1279388-eaaa-4fbb-8d5d-f9928cb45195.png" alt="sshLogin" width="400" height="400"/>
-       
-
-어떤 버전의 라즈베리 파이를 사용하는지 궁금하다면 다음 명령어를 실행하세요:
-
-     `cat /sys/firmware/devicetree/base/model ; echo`
-
-  <img src="https://user-images.githubusercontent.com/81990132/197689888-367c8eb3-2667-4c8c-85b3-44d46afe07a7.png" alt="which" width="700" height="400"/>
-
-         
-
-### *zcashd* 설치
-
-zcashd를 설치하는 두 가지 방법은 사전 컴파일된 바이너리 다운로드 또는 소스에서 zcashd 컴파일입니다. 저는 *매우* 소스에서 컴파일하는 것을 추천합니다. 직접 컴파일할 경우 교차 컴파일을 강력히 권장합니다. 교차 컴파일은 한 플랫폼에서 다른 플랫폼에 실행될 수 있는 바이너리를 빌드하는 것입니다. 하나의 이유는 라즈베리 파이 4가 저전력으로 인해 매우 느리기 때문입니다. 주요 컴퓨터를 활용하여 이를 도와줄 수 있습니다. 최신 릴리스를 여기에서 얻을 수 있습니다 [https://github.com/zcash/zcash/releases](https://github.com/zcash/zcash/releases). 교차 컴파일하기 위해 필요한 패키지가 있는지 확인해야 합니다. 다음을 설치하세요:
-
-```bash
-sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python3 python3-zmq zlib1g-dev curl bsdmainutils automake libtinfo5
-sudo apt-get install gcc-aarch64-linux-gnu
-```
-
-다음으로 새로 다운로드한 zcashd 릴리스 디렉토리로 이동하고 실행하세요:
-
-`HOST=aarch64-linux-gnu ./zcutil/build.sh`
-          
-
-### *zcashd* 설정
-
-<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
-  <iframe
-    className="w-full h-full"
-    src="https://www.youtube.com/embed/9t2LX3HFldw"
-    title="Zcashd Wallet Tool - Generate & Import Private Key"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowFullScreen
-    loading="lazy"
-  />
-</div>
-
----
-
-이제 zcashd 이진 파일을 Raspberry Pi 4로 전송해야 합니다. Zcashd v5.3 기준으로 필요한 파일은 다음과 같습니다:
-
-```markdown
-zcashd
-zcash-cli
-zcash-tx
-zcash-gtest
-zcash-inspect
-zcashd-wallet-tool
-fetch-params.sh
-```
-
-이 파일들은你自己가 직접 컴파일했다면 최신 릴리스 다운로드 위치의 /src 디렉토리에 있습니다. 그렇지 않다면 사전 컴파일된 파일은 다운로드한 위치에 있습니다. 전송을 달성하는 두 가지 방법은 SFTP를 사용하거나 외부 드라이브를 사용하는 것입니다.
-
-#### SFTP
-
-```bash
-sftp username@<RaspberryPi4의 IP>
-put zcash*
-```
-   
-#### 외부 복사
-     
-먼저 Raspberry Pi 4에 연결하기 전에 외부 드라이브에 파일을 복사하세요. 이미 전체 노드가 동기화되어 있고 시간을 절약하고 싶다면 블록과 chainstate 데이터도 복사할 수 있습니다.
-   
-` cd ~/.zcash/`
-     
-간단히 실행하세요:
-
-```bash
-tar -zcvf blocks.tar.gz /blocks
-tar -zcvf chainstate.tar.gz /chainstate
-```
-     
-블록 및 chainstate .gz 파일을 외부 SSD/HHD에 복사합니다. 다음으로 Media 폴더에서 외부 SSD/HDD를 마운트하여 보고 싶습니다:
-
-```markdown
-lsblk는 연결된 모든 드라이브를 표시합니다. 대부분은 sda 형식입니다.
-id는 사용자 및 그룹 ID를 표시합니다.
-```
-          
-<img src="https://user-images.githubusercontent.com/81990132/197372643-abef88fd-9177-4bf9-abda-3c221188cd10.png" alt="lsblk" width="400" height="400"/>
-
-
-          
-          `sudo mount -o umask=0077,gid=<groupid>,uid=<userid> /dev/sda1 /media/portableHD/`
-          
-두 사람이 폴더/파일을 소유하고 있는지 확인하고 퍼미션도 주의 깊게 살펴보세요.
-
-```bash
-sudo chown -R <username>: portableHD
-sudo chmod -R 600 portableHD/
-```
-     
-이전 컴퓨터에서 블록 및 chainstate .gz 파일을 복사했다면 지금 해제하세요. 외부 드라이브의 .zcash 폴더에 있어야 합니다.
-
-```bash
-tar - xvzf blocks.tar.gz
-tar - xvzf chainstate.tar.gz
-```
-
-
-Setup /media/portableHD/.zcash/zcash.conf
-
-<img src="https://user-images.githubusercontent.com/81990132/197373699-18cc2c9f-b47d-44e9-9e6b-4c5cccf78d9e.png" alt="zconf" width="700" height="400"/>
-
-
- 
-주의: 우리는 datadir을 외부 SSD/HDD로 이동했는데, 그곳은 훨씬 더 많은 공간이 있습니다. 기본 .zcash 폴더 위치가 변경되었으므로 *zcashd*에게 이를 알려줘야 합니다. 이는 심볼릭 링크를 사용하여 수행할 수 있습니다:
-
-```markdown
-cp -rp ~/.zcash/* /new_dir         // Make copy of datadir or supply with an external HD
-rm -rf ~/.zcash                    // Remove default folder
-ln -s /media/portableHD/ ~/.zcash  // Symbolic link new data location to the default so zcashd is happy
-```
-   
-
-Run fetch-params.sh 스크립트를 실행하여 zcashd에 필요한 데이터를 다운로드합니다.
-   
-    `./fetch-params.sh`
-
-
-Start a new 'screen' [ program in linux ]. Open zcashd with -datadir set:
-
-```bash
-screen -S zcashScreen`     
-./zcashd -datadir=/media/portableHD/.zcash/
-```
-     
-Detach the screen:
-
-`Ctrl+a , Ctrl+d`
-
-
-Create an alias so you dont have to type out all these extra data location commands
-
-     `alias zcash-cli="./zcash-cli -datadir=/media/portableHD/.zcash/"`
-
-
-Ready to use!
-
-    `zcash-cli getblockchaininfo`
-
-  <img src="https://user-images.githubusercontent.com/81990132/197373098-672aa228-d180-47ea-8a7c-c58dc3882426.png" alt="getblockchaininfo" width="400" height="400"/>
-
-
-
-### *zcashd* 사용
-
-<iframe class="w-full h-auto md:h-96" src="https://www.youtube.com/embed/KNhd1KC0Bqk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
----
-
-이제 노드 상태를 확인하려면 어떻게 해야 하나요?
-
-     `tail -n 500 <path to>/.zcash/debug.log`
-
-  <img src="https://user-images.githubusercontent.com/81990132/197684416-9a083de4-4a62-4fe8-9cab-798781b38cd2.png" alt="status" width="700" height="400"/>
-
-
-  
-     
-현재 높이를 로그에서 얻는 방법
-
-     `tail -n 10 <path to>/.zcash/debug.log | grep -o  'height=[^b]*'`
-
-  <img src="https://user-images.githubusercontent.com/81990132/199630447-6a6cd491-0cb3-47f8-95f0-45f6b6555870.png" alt="logHeight" width="500" height="400"/>
-
-
-     
-     `zcash-cli getinfo`
-  
-<img src="https://user-images.githubusercontent.com/81990132/199646508-132da0eb-899e-49a6-8b31-e9011e159700.png" alt="getInfo" width="400" height="400"/>
-
-     
-     
-메모를 보내는 방법은 어떻게 하나요? 여기서 보는 것처럼 [here](https://zcash.readthedocs.io/en/latest/rtd_pages/memos.html), *ascii2hex*와 *hex2ascii*를 다운로드하고 실행 가능한 파일로 만듭니다 
-
-`chmod +x ascii2hex hex2ascii`
-          
-메모를 생성하고 헥스로 변환합니다. 다시 ASCII로 변환하여 테스트할 수 있습니다.
-          
-<img src="https://user-images.githubusercontent.com/81990132/199646812-782142d6-8846-443a-8dd9-4f332e49d3e9.png" alt="asciiGOOD" width="400" height="400"/>
-
-
-  
-Sapling을 사용하여 위에서 생성한 메모의 헥스 버전으로 z2z 거래를 만듭니다
-
-`zcash-cli z_sendmany "ztestsapling1kg3u0y7szv6509732at34alct46cyn0g26kppgf2a7h5tpqxldtwm7cmhf8rqmhgt" "[{\"address\": \"ztestsapling2kg3u0y7szv6509732at34alct46cyn0g26kppgf2a7h5tpqxldtwm7cmhf8rqmhgtmpakcz5mdv\",\"amount\": 0.0001, \"memo\":\"5A656348756221\"}]"`
-
-zcashScreen을 다시 시작하려면 어떻게 해야 하나요?
-
-`screen -r zcashScreen`
-     
-zcashd를 중지하려면 어떻게 해야 하나요?
-
-`zcash-cli stop`
-     
-UA를 생성하려면 어떻게 해야 하나요?
-
-`zcash-cli z_getnewaccount`
-     
-  <img src="https://user-images.githubusercontent.com/81990132/202352436-04c17be2-e914-4b9b-95d1-00cf6fc496d3.png" alt="newAccount" width="400" height="400"/>
-
-    
-이제 *당신의* 요구에 따라 UA 수신자(Receiver)를 생성하세요. 이는 Orchard만, Orchard + Sapling, 그리고 마지막으로 Orchard + Sapling + Transparent입니다. 참고로 수신자의 차이점은 길이에 따라 구분할 수 있습니다.
-     
-<img src="https://user-images.githubusercontent.com/81990132/202354319-2da6be33-ca95-4
+*이 가이드가 유용했다면 ZecHub 후원을 고려해 주세요: [현재 ZecHub donation shielded address를 zechub.wiki/donation에서 삽입 — 여기서는 아직 최신인지 확인할 수 없어 포함하지 않았습니다].*

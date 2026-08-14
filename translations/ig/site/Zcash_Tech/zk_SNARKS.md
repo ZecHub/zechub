@@ -28,7 +28,7 @@ In computer science the term for efficiently verifiable proofs is NP proofs. The
 
 
 <a href="">
-    <img width="853" height="396" alt="NPlanguage1" src="https://github.com/user-attachments/assets/d25345cf-e958-4ce2-b01d-f4e7f2db9551" alt="" width="600" height="400"/>
+    <img width="853" height="396" alt="NPlanguage1" src="/content-images/d25345cf-e958-4ce2-b01d-f4e7f2db9551-1ac56e56d7.webp" alt="" width="600" height="400"/>
 </a>
 
 
@@ -47,7 +47,7 @@ Eziokwu: Nkwupụta ụgha agaghị enwe ihe akaebe (maka usoro aghụghọ ọ 
 
 
 <a href="">
- <img width="855" height="399" alt="IPmodel1" src="https://github.com/user-attachments/assets/1542be12-d3fd-4934-8413-0d16f95b8d10" alt="" width="600" height="400"/>
+ <img width="855" height="399" alt="IPmodel1" src="/content-images/1542be12-d3fd-4934-8413-0d16f95b8d10-58bfcb4059.webp" alt="" width="600" height="400"/>
 </a>
 
 
@@ -86,7 +86,7 @@ Ezigbo Echiche: Akụkọ niile nwere ike ịdị n'etiti Prover & Verifier (P,V
 Nlele nlele: Onye nyocha ahụ na-eme ka mmekọrịta niile dị n'etiti Prover & Verifier 
 
 <a href="">
-    <img width="850" height="397" alt="simulation1" src="https://github.com/user-attachments/assets/0e68649d-a231-44d8-a76a-25a307f68b9e"  alt="" width="600" height="400"/>
+    <img width="850" height="397" alt="simulation1" src="/content-images/0e68649d-a231-44d8-a76a-25a307f68b9e-ba1f0027cf.webp"  alt="" width="600" height="400"/>
 </a>
 
 A polynomial-time distinguisher makes an attempt to determine whether they are looking at the real or simulated view and requests a sample from both repeatedly.
@@ -117,7 +117,7 @@ ihe atụ: "3x2 + 8x + 17"
 
 
 <a href="">
-<img width="785" height="368" alt="circuit1" src="https://github.com/user-attachments/assets/be1de1d6-60d3-4fd1-b9a2-5094c65d696f" alt="" width="300" height="200"/>
+<img width="785" height="368" alt="circuit1" src="/content-images/be1de1d6-60d3-4fd1-b9a2-5094c65d696f-dbd3177247.webp" alt="" width="300" height="200"/>
 </a>
 
 In this example, the prover wants to convince the verifier that he knows a solution to the arithmetic circuit.  
@@ -143,7 +143,7 @@ Polynomial interactive oracle: Verifier na-ajụ prover (algorithm) ka o mepee n
 Usoro nhazi na-enyere onye nyocha aka site na ichikota sekit & mmepụta ihe ngosi ọha. 
 
 <a href="">
-<img width="845" height="398" alt="setup1" src="https://github.com/user-attachments/assets/c41212ca-b5e9-4ac8-8695-be612c45a679" alt="" width="600" height="300"/>
+<img width="845" height="398" alt="setup1" src="/content-images/c41212ca-b5e9-4ac8-8695-be612c45a679-80a6a87752.webp" alt="" width="600" height="300"/>
 </a>
 
 ** Types nke tupu nhazi ntọlite **:
@@ -173,7 +173,7 @@ N'ozuzu, ihe akaebe na-enweghị ihe ọmụma bụ ngwá ọrụ iji mezuo omum
 
 Zcash is a public blockchain that facilitates private transactions. zk-SNARK's are used to prove that a private transaction is valid within the network consensus rules without revealing any other details about the transaction. 
 
-[Ihe E Ji Akụziri Mmadụ Vidio]](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - In this lecture Ariel Gabizon provides descriptions of the Zcash Note Commitment Tree, Blind Polynomial Evaluation & Homomorphically Hidden Challenges and how they are implemented on the network. 
+[Ihe E Ji Akụziri Mmadụ Vidio](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - In this lecture Ariel Gabizon provides descriptions of the Zcash Note Commitment Tree, Blind Polynomial Evaluation & Homomorphically Hidden Challenges and how they are implemented on the network. 
 
 Gụọ akwụkwọ Halo 2 .](https://zcash.github.io/halo2/index.html) maka ozi ndị ọzọ.
 
@@ -186,7 +186,7 @@ zk-SNARKS provide several advantages in a variety of different applications. Let
 The advantage of a proof based Rollup (zk-Rollup) service is to process a batch of hundreds/thousands of transactions & the L1 is able to verify a succinct proof that all transactions were processed correctly, scaling the networks transaction throughput by a factor of 100 or 1000.
 
 <a href="">
-  <img width="606" height="336" alt="zkvm1" src="https://github.com/user-attachments/assets/a3cbb5c9-8767-4b34-9fcb-868ca421838f" width="600" height="300"/>
+  <img width="606" height="336" alt="zkvm1" src="/content-images/a3cbb5c9-8767-4b34-9fcb-868ca421838f-d69b264b5b.webp" width="600" height="300"/>
 </a>
 
 

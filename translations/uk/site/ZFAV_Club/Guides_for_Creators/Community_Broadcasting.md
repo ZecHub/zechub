@@ -29,7 +29,7 @@ OBS Studio — це безкоштовне програмне забезпече
 Почніть із переходу на [VDO.ninja](http://VDO.ninja) у веббраузері на настільному комп’ютері чи ноутбуці.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8ded1b54-602b-4e66-af92-127990eff723/Screenshot_2023-08-23_162222/w=3840,quality=80" alt="" width="300" height="400"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="300" height="400"/>
 </a>
 
 
@@ -38,20 +38,20 @@ OBS Studio — це безкоштовне програмне забезпече
 На наступному екрані вас попросять вказати базову інформацію для налаштування вашої кімнати.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/ae698696-7b4d-458e-8de0-58a198c36e73/Screenshot_2023-08-23_183900/w=3840,quality=80" alt="" width="400" height="400"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
 </a>
 
 Щойно кімнату створено, режисер отримує багато параметрів керування, доступних на наступному екрані.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/35b43544-5114-4e74-ac41-9e8993fe62ea/Screenshot_2023-08-23_184015/w=3840,quality=80" alt="" width="400" height="400"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
 </a>
 
 
 Коли люди приєднуються до вашої кімнати, ви як режисер бачитимете всі варіанти джерел і елементи керування разом із їхнім відео та аудіо.
 
 <a href="">
-    <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/2247f187-b005-478e-9e5e-471cb8f070d3/Screenshot_2023-08-23_194136/w=3840,quality=80" alt="" width="400" height="300"/>
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="300"/>
 </a>
 
 

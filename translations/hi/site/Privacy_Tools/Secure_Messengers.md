@@ -25,11 +25,11 @@ Zcash डेस्कटॉप और मोबाइल wallet में एक
 
 इसे आज़माएँ: https://z.cash/wallets 
 
-![Zcash Encrypted Memos](https://i.ibb.co/n8HbQZC/Zcash-1177103374.png)
+![Zcash Encrypted Memos](/content-images/Zcash-1177103374-7bca37eb4d.webp)
 
 **Signal app**
 
-![Signal App](https://i.ibb.co/7RbbxSs/signal-app-logo-scaled-454032876.jpg)
+![Signal App](/content-images/signal-app-logo-scaled-454032876-81b24a0421.webp)
 
 Signal private messenger एक सुरक्षित messaging app है जिसमें डेटा गोपनीयता अपने उच्चतम स्तर पर होती है। Signal private messenger app निःशुल्क है और उपयोग में आसान है, उपयोगकर्ताओं को किसी पूर्व अनुभव की आवश्यकता नहीं होती। Signal app में एंड-टू-एंड एन्क्रिप्शन तकनीक है जो सुनिश्चित करती है कि आपका संचार पूरी तरह निजी रहे। जो भी व्यक्ति निजी संदेश सुरक्षित रूप से भेजना चाहता है, उसे Signal private messenger app का उपयोग करने पर विचार करना चाहिए क्योंकि यह आपकी साइबर सुरक्षा कमजोरियों और आपके data footprint — दोनों को बहुत कम कर देगा।
 
@@ -37,7 +37,7 @@ Signal private messenger एक सुरक्षित messaging app है �
 
 **BisonRelay**
 
-![Bison Relay](https://i.ibb.co/ZxpBVNv/ogimg-v1-1000556235.jpg)
+![Bison Relay](/content-images/ogimg-v1-1000556235-9390372d1e.webp)
 
 Bison Relay app ने 2022 में शुरुआत की। Bison Relay में उपयोगकर्ताओं के लिए accounts होना आवश्यक नहीं है - यह अविश्वसनीय रूप से अनोखी बात है! यहाँ, भेजे और प्राप्त किए जाने वाले हर संदेश के लिए Decred Lightning Network के माध्यम से अलग-अलग भुगतान किया जाता है। इस app का एकमात्र उद्देश्य accounts की आवश्यकता को पूरी तरह समाप्त करना और metadata को न्यूनतम करना है। दूसरी ओर, Bison Relay ने censorship लागू करने के प्रचलित तरीकों को भी रोक दिया।
 
@@ -45,7 +45,7 @@ Bison Relay app ने 2022 में शुरुआत की। Bison Relay �
 
 **Session App**
 
-![Session App](https://i.ibb.co/gdpwb1v/logo-black.png)
+![Session App](/content-images/logo-black-9e799f2b06.webp)
 
 यदि आप अभी तक नहीं जानते कि Session app क्या है, तो चिंता मत कीजिए! यहाँ एक संक्षिप्त परिचय है: Session उन प्रमुख एंड-टू-एंड एन्क्रिप्टेड मैसेंजरों में से एक है। इस app को संवेदनशील metadata को न्यूनतम करने के लिए बनाया गया था। Session app उन लोगों के लिए डिज़ाइन किया गया है जो पूर्ण गोपनीयता और किसी भी प्रकार की निगरानी से स्वतंत्रता चाहते हैं। Session app पर उपयोगकर्ता बिना phone number या email address के account बना सकते हैं, जिसका अर्थ है कि यह पूरी तरह anonymous है। उपयोगकर्ता इसके network के माध्यम से बिना किसी निशान के सुरक्षित रूप से संदेश भेज सकते हैं, इसलिए लीक होने के लिए कुछ भी नहीं रहता।
 

@@ -101,7 +101,7 @@
 Сообщество увлечённое и очень приветливо относится к новым участникам. Иногда обсуждения могут быть технически сложными, но не переживайте! Если у вас появится вопрос, вы всегда можете его задать.
 
 <a href="">
-    <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="https://github.com/user-attachments/assets/c1d40441-4336-4754-b3bf-5a746b19a9d5" />
+    <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="/content-images/c1d40441-4336-4754-b3bf-5a746b19a9d5-6d2eca6cbf.webp" />
 </a>
 
 ---

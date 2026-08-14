@@ -40,7 +40,7 @@ Awọn olumulo le bayi firanṣẹ / gba ZEC laisi fifihan awọn iwontunwonsi t
 4. Wọlé sí àtẹ ìsọfúnni crypto
 
 
-! [ì ì1 ]](https://github.com/user-attachments/assets/f54cd1a1-8569-4925-ba1c-7597d030593e)
+! [ì ì1 ](/content-images/f54cd1a1-8569-4925-ba1c-7597d030593e-8d83734cd5.webp)
 
 
 ## Apá 2: Fífi Zcash (ZEC) kún Brave Wallet
@@ -54,7 +54,7 @@ Awọn olumulo le bayi firanṣẹ / gba ZEC laisi fifihan awọn iwontunwonsi t
 3. ZEC ti fara hàn ní báyìí nínú àpamọ́ rẹ
 
 
-! [ì ì ì2 ]](https://github.com/user-attachments/assets/6f2b2190-cf55-4394-9d5f-29ff9b5bb525)
+! [ì ì ì2 ](/content-images/6f2b2190-cf55-4394-9d5f-29ff9b5bb525-13d37cb455.webp)
 
 
 ## Part 3: Receiving Shielded ZEC (Unified Address)
@@ -73,7 +73,7 @@ Awọn olumulo le bayi firanṣẹ / gba ZEC laisi fifihan awọn iwontunwonsi t
 
 
 
-! [ì ì ì3 ]](https://github.com/user-attachments/assets/53c940b6-1a03-4fa7-aefa-d3478f678a88)
+! [ì ì ì3 ](/content-images/53c940b6-1a03-4fa7-aefa-d3478f678a88-23f68a3855.webp)
 
 
 
@@ -92,7 +92,7 @@ Awọn olumulo le bayi firanṣẹ / gba ZEC laisi fifihan awọn iwontunwonsi t
 5. Tẹ Fi - awọn owo ti wa ni bayi gbe ikọkọ, lilo awọn Orchard pool
 
 
-! [ì ì 1⁄4](https://raw.githubusercontent.com/Kellyjoe8/zechub/refs/heads/main/Internet_20250808_172118_4.webp)
+! [ì ì 1⁄4](/content-images/Internet_20250808_172118_4-e6df0f7fe2.webp)
 
 
 

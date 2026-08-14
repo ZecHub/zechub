@@ -9,7 +9,7 @@
 
 Halo هو برهان معرفة صفرية (ZKP) عديم الثقة ومتكرر، اكتشفه Sean Bowe في Electric Coin Co. وهو يلغي الإعداد الموثوق ويتيح قابلية توسع أكبر لسلسلة كتل Zcash. وكان Halo أول نظام براهين معرفة صفرية يجمع بين الكفاءة والتكرار، ويُنظر إليه على نطاق واسع باعتباره اختراقًا علميًا.
 
-![Halo](https://electriccoin.co/wp-content/uploads/2021/01/Halo-on-Z-1440x720.png "halo")
+![halo](/content-images/_unavailable.svg "halo")
 
 
 **المكوّنات**
@@ -47,13 +47,13 @@ Halo هو برهان معرفة صفرية (ZKP) عديم الثقة ومتكر�
 Halo 2 هو تنفيذ عالي الأداء لـ zk-SNARK مكتوب بلغة Rust، ويُلغي الحاجة إلى إعداد موثوق مع تمهيد الطريق لقابلية التوسع في Zcash. 
 
 <a href="">
-    <img src="https://electriccoin.co/wp-content/uploads/2020/09/Halo-puzzle-03-1024x517.jpg" alt="" width="500" height="300"/>
+    <img src="/content-images/Halo-puzzle-03-1024x517-e034023d10.webp" alt="" width="500" height="300"/>
 </a>
 
 ويتضمن تعميمًا لنهجنا يُسمى **مخطط التراكم**. ويكشف هذا التأطير الجديد كيف تعمل تقنية Nested amortization الخاصة بنا فعليًا؛ فمن خلال إضافة البراهين إلى كائن يُسمى **المُراكِم،** حيث تستدل البراهين على الحالة السابقة للمُراكِم، يمكننا التحقق من أن جميع البراهين السابقة كانت صحيحة (بالاستقراء) بمجرد التحقق من الحالة الحالية للمُراكِم.
 
 <a href="">
-    <img src="https://i.imgur.com/l4HrYgE.png" alt="" width="500" height="300"/>
+    <img src="/content-images/l4HrYgE-1ea7bc32f7.webp" alt="" width="500" height="300"/>
 </a>
 
 

@@ -15,7 +15,7 @@ ZecHub 是一个面向 Zcash 的去中心化教育中心。[ZecHub](http://zechu
 
 这些教程、短篇博客和新闻简报都是开源并托管在 GitHub 上的，这意味着社区中的任何人都可以参与贡献。这样做是为了确保内容准确，同时让该渠道本身不受单点故障影响。
 
-如果你是 Zcash 新手，请使用[本指南](/site/Start_Here/New_User_Guide)。****
+如果你是 Zcash 新手，请使用[本指南](/start-here/new-user-guide)。****
 
 ## 如何对 ZecHub 进行更改
 
@@ -54,7 +54,7 @@ ZecHub 是一个面向 Zcash 的去中心化教育中心。[ZecHub](http://zechu
 捐款：[这里](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
 <a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
-    <img src="https://i.ibb.co/pfBM1z9/image-2023-11-18-141228046.png" alt="" width="200" height="200"/>
+    <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
 </a>
 
 

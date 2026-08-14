@@ -1,6 +1,6 @@
 # Zcash Dɔwɔnuwo na Wɔlawo: Tipping & Profile Platforms
 
-> **Mɔfiame blibo si ku ɖe ameŋunyatakakawo takpɔkpɔ ƒe tipping kple profile dɔwɔnu siwo wotu ɖe Zcash dzi na nyatakakawo wɔlawo, cypherpunks, kple ameŋunyatakakawo takpɔkpɔ ƒe nuto.**
+> **Mɔfiame blibo si ku ɖe ameŋunyatakakawo takpɔkpɔ ƒe aɖaŋuɖoɖo kple ameŋunyatakaka ƒe dɔwɔnu siwo wotu ɖe Zcash dzi na nyatakakawo wɔlawo, cypherpunks, kple ameŋunyatakakawo takpɔkpɔ ƒe nuto.**
 
 ---
 
@@ -9,22 +9,22 @@
 1. [Zcash.me ƒe nyatakakadzraɖoƒea](#zcashme)
 2. [AɖaŋuɖoɖoZ](#tipz)
 3. [Nusita Ameŋunyatakakawo Ŋuti Nyatakaka Le Vevie Na Wɔlawo](#why-privacy-matters-for-creators)
-4. [Nu Bubuwo](#additional-resources)
+4. [Dɔwɔnu Bubuwo](#additional-resources)
 
 ---
 
 ## Zcash.me ƒe nyatakakadzraɖoƒea
 
-![Zcash.me ƒe dzesi](https://pbs.twimg.com/profile_images/1983177127806533632/LbLuoQjB_400x400.jpg)
+![Zcash.me Logo](/content-images/_unavailable.svg)
 
 ### Kpɔɖeŋu bliboa
 
-**Zcash.me** nye profile directory kple discovery platform si na wòle bɔbɔe na amesiame be wòake ɖe ZEC ŋu ahaɖoe ɖe Zcash zãlawo. Ewɔa dɔ abe "Linktree na Zcash" - mɔnu bɔbɔe aɖe si dzi nàto ama wò adrɛs si wokpɔ ta na kple hadome anyinɔnɔ kple kadodo ɖeka.
+**Zcash.me** nye profile directory kple discovery platform si na wònɔa bɔbɔe na amesiame be wòake ɖe ZEC ŋu ahaɖoe ɖe Zcash zãlawo. Ewɔa dɔ abe "Linktree for Zcash" - mɔnu bɔbɔe aɖe si dzi nàto ama wò adrɛs si wokpɔ ta na kple hadome anyinɔnɔ kple kadodo ɖeka.
 
-| Nusi wotsɔ wɔe | Nyatakakawo Tsitotsito |
+| Nu si nye | Nyatakakawo Tsitotsito |
 |-------------------|---------|
 | **Nyatakakadzraɖoƒe** | [https://zcash.me/](https://zcash.me/) |
-| **Twitter** ƒe nyatakakadzraɖoƒea | [@zcashme dzi](https://x.com/zcashme) |
+| **Twitter** ƒe nyatakakadzraɖoƒea | [@zcashme ƒe nyawo](https://x.com/zcashme) |
 | **Nyatakaka ƒe Nɔnɔme**| `zcash.me/[username]` |
 | **Nɔnɔme** | Live (kple nɔnɔme siwo le ŋgɔyiyi me) |
 
@@ -59,13 +59,13 @@
 
 ## AɖaŋuɖoɖoZ
 
-![TipZ ƒe dzesi](https://pbs.twimg.com/profile_images/2023711029805350912/BbXM8cDV_400x400.jpg)
+![TipZ Logo](/content-images/BbXM8cDV_400x400-e6071ba983.webp)
 
 ### Kpɔɖeŋu bliboa
 
-**TipZ** nye **ame ŋutɔ ƒe tipping protocol** si wotu ɖe taɖodzinu aɖe nu na nuwɔlawo kple cypherpunks. Fans tia le cryptocurrency gã ɖesiaɖe me; wotrɔa asi le eŋu le eɖokui si eye wotsɔnɛ yinae abe **shielded ZEC** ene.
+**TipZ** nye **ame ŋutɔ ƒe tipping protocol** si wotu ɖe taɖodzinu aɖe ta na nuwɔlawo kple cypherpunks. Fans tia le cryptocurrency gã ɖesiaɖe me; wotrɔa asi le eŋu le eɖokui si eye wotsɔnɛ yinae abe **shielded ZEC** ene.
 
-| Nusi wotsɔ wɔe | Nyatakakawo Tsitotsito |
+| Nu si nye | Nyatakakawo Tsitotsito |
 |-------------------|---------|
 | **Nyatakakadzraɖoƒe** | [https://tipz.cash/](https://tipz.cash/) |
 | **Twitter** ƒe nyatakakadzraɖoƒea | [@tipz_cash dzi](https://x.com/tipz_cash) |

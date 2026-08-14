@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/money-business-and-finance-svgrepo-com.svg" width="24" height="24" alt="finance icon"/> Receive Donations Privately with Zcash
+# <img src="/content-images/money-business-and-finance-svgrepo-com-eac0e054bd.svg" width="24" height="24" alt="finance icon"/> Receive Donations Privately with Zcash
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
@@ -15,7 +15,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
 - Àwọn olùdásílẹ̀ tó ń gba ọrẹ
 - Àwọn olùkópa-ìmọ̀-ìmújáde
 - Àwọn ìjọ tó ń kó owó jọ
@@ -23,7 +23,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
 
 Ọ̀pọ̀lọpọ̀ àwọn owó-ìpamọ́ máa ń tú gbogbo rẹ̀ fó:
 - Àkójọ owó rẹ
@@ -37,7 +37,7 @@
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash?
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash?
 
 Awọn iṣowo Zcash ti o ni aabo pamọ:
 - Adirẹsi Olùfúnni
@@ -48,7 +48,7 @@ Eyi jẹ ki o gba owo **laisi fifi aworan owo rẹ han**.
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
 - Iwe apamọwọ Zcash ti o ṣe atilẹyin awọn adirẹsi ti a fi pamọ:
   - Zashi
@@ -57,7 +57,7 @@ Eyi jẹ ki o gba owo **laisi fifi aworan owo rẹ han**.
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
 
 ### Igbese 1: Ṣẹda Adirẹsi Aṣọ
 Ṣii àpamọ́ rẹ kí o sì ṣe àdírẹ́sì z.
@@ -86,7 +86,7 @@ Gba àwọn olùfúnni níyànjú láti:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
 
 - Pípín adirẹsi (t) tí ó ṣe kedere 
 - Fífi àpamọ́wọ́ rẹ lẹ́gbẹ̀ẹ́ ìwé ìdánimọ̀ ara ẹni 
@@ -95,7 +95,7 @@ Gba àwọn olùfúnni níyànjú láti:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
 
 O lè:
 - Gba ọrẹ ní ìdákọ́ńkọ́
@@ -104,14 +104,14 @@ O lè:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
 - [Ìpamọ́ - Ààbò àti Òrékọjá](/privacy/shielded-vs-transparent)
 - [Àwọn pọ́ọ̀sì](/wallets)
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/progress-arrows-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
 
 **Igbesẹ 1 nínú 6**
 

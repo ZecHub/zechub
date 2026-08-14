@@ -41,7 +41,7 @@ MetaMask now supports **shielded Zcash (ZEC)** via the **ChainSafe-developed Zca
       Store data on your device
    ```
 
-[Zcash-snap-kuweka]](https://hackmd.io/_uploads/Hy5MSG2Oex.png)
+[Zcash-snap-kuweka](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
 
 
 ---
@@ -59,7 +59,7 @@ Kwa **BNB SmartChain**;
 -  Block Explorer URL: https://bscscan.com
 ```
 Hii inawezesha mtandao habari na explorer viungo.
-[Ongeza-a-Custom-Net....]](https://hackmd.io/_uploads/S1hq7f2Oel.png)
+[Ongeza-a-Custom-Net....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
 
 Kwa ** Zcash Mainnet **;
 ```markdown
@@ -75,13 +75,13 @@ Kwa ** Zcash Mainnet **;
 1. Tembelea [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev).  
 2. Bonyeza ** Unganisha MetaMask Snap **. 
 
-[Zcash-mtandao-mkoba](https://hackmd.io/_uploads/Sk8nSz3dgl.png)
+[Zcash-mtandao-mkoba](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
 
 3. Kubali uhusiano huo. 
 4. Angalia muhtasari wa akaunti yako ya Zcash, ikiwa ni pamoja na:
    - Unified anwani na Uwazi anwani
 
-![Kifupisho cha akaunti-unif....](https://hackmd.io/_uploads/r17c_Mhdel.jpg)
+![Kifupisho cha akaunti-unif....](/content-images/r17c_Mhdel-f4963826d5.webp)
 
 
 5. Kusubiri usawazishaji kukamilika.
@@ -96,7 +96,7 @@ Kwa ** Zcash Mainnet **;
 > **Swap ETH -> ZEC** - Tumia huduma kama **LeoDex** na kutuma kwa anwani yako ulinzi. 
 > ** Kubadilishana Kuondoa ** - Kuondoa kununuliwa ZEC kwa anwani yako WebZjs kulindwa. 
 
-[LEODEX-SWAP]](https://hackmd.io/_uploads/HyLQ0G2ugg.png)
+[LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => Matumizi ya ulinzi (z) anwani kwa ** faragha kamili **.
@@ -111,7 +111,7 @@ Kwa ** Zcash Mainnet **;
    - Shielded recipient address  
    - Amount
 ```
-   [Uhamisho-Balance](https://hackmd.io/_uploads/rkvcFfhdex.png)
+   [Uhamisho-Balance](/content-images/rkvcFfhdex-bd55d079eb.webp)
 
 4. Thibitisha shughuli katika MetaMask (saini shughuli). 
 5. Fedha kupokea itaonekana katika WebZjs baada ya uthibitisho.
@@ -145,7 +145,7 @@ Kwa ** Zcash Mainnet **;
    Transparent Address
 ``` 
 
-[Anwani-sehemu](https://hackmd.io/_uploads/SyPR2f2_gg.png)
+[Anwani-sehemu](/content-images/SyPR2f2_gg-3907c5bf58.webp)
 
 
 

@@ -13,7 +13,7 @@ Les pools de minage Zcash sont des services qui permettent aux mineurs individue
 ### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/braiins_logo.jpg?raw=true" alt="Logo de Slush Pool (Braiins Pool)" width="200" height="100"/>
+    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Logo de Slush Pool (Braiins Pool)" width="200" height="100"/>
 </a>
 
 - Site web : [Slush Pool (Braiins Pool)](https://braiins.com/pool)
@@ -26,7 +26,7 @@ Les pools de minage Zcash sont des services qui permettent aux mineurs individue
 ### [Luxor](https://luxor.tech/)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Luxor%20Pool.png?raw=true" alt="Logo de Luxor" width="200" height="100"/>
+    <img src="/content-images/Luxor-20Pool-3aa38cd52b.webp" alt="Logo de Luxor" width="200" height="100"/>
 </a>
 
 - Site web : [Luxor](https://luxor.tech/)
@@ -39,7 +39,7 @@ Les pools de minage Zcash sont des services qui permettent aux mineurs individue
 ### [FlyPool](https://zcash.flypool.org/)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Flypool.jpg?raw=true" alt="Logo de FlyPool" width="200" height="100"/>
+    <img src="/content-images/Flypool-031c2edf57.webp" alt="Logo de FlyPool" width="200" height="100"/>
 </a>
 
 - Site web : [FlyPool](https://zcash.flypool.org/)
@@ -52,7 +52,7 @@ Les pools de minage Zcash sont des services qui permettent aux mineurs individue
 ### [2Miners](https://zec.2miners.com/)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/2Miners.png?raw=true" alt="Logo de 2Miners" width="200" height="100"/>
+    <img src="/content-images/2Miners-3c99609047.webp" alt="Logo de 2Miners" width="200" height="100"/>
 </a>
 
 - Site web : [2Miners](https://zec.2miners.com/)
@@ -65,7 +65,7 @@ Les pools de minage Zcash sont des services qui permettent aux mineurs individue
 ### [Nanopool](https://zec.nanopool.org/login)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Nanopool.jpg?raw=true" alt="Logo de Nanopool" width="200" height="100"/>
+    <img src="/content-images/Nanopool-e484b00998.webp" alt="Logo de Nanopool" width="200" height="100"/>
 </a>
 
 - Site web : [Nanopool](https://zec.nanopool.org/login)
@@ -78,7 +78,7 @@ Les pools de minage Zcash sont des services qui permettent aux mineurs individue
 ### [Poolin](https://www.poolin.com/)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Poolin.jpg?raw=true" alt="Logo de Poolin" width="200" height="100"/>
+    <img src="/content-images/Poolin-6fd4b44ba3.webp" alt="Logo de Poolin" width="200" height="100"/>
 </a>
 
 - Site web : [Poolin](https://www.poolin.com/)
@@ -91,7 +91,7 @@ Les pools de minage Zcash sont des services qui permettent aux mineurs individue
 ### [Antpool](https://v3.antpool.com/home)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Antpool.jpg?raw=true" alt="Logo de Antpool" width="200" height="100"/>
+    <img src="/content-images/Antpool-9c5dac3b65.webp" alt="Logo de Antpool" width="200" height="100"/>
 </a>
 
 - Site web : [Antpool](https://v3.antpool.com/home)
@@ -104,7 +104,7 @@ Les pools de minage Zcash sont des services qui permettent aux mineurs individue
 ### [ViaBTC](https://www.viabtc.com/en/)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/ViaBTC.png?raw=true" alt="Logo de ViaBTC" width="200" height="100"/>
+    <img src="/content-images/ViaBTC-8fa5be7bd7.webp" alt="ViaBTC Logo" width="200" height="100"/>
 </a>
 
 - Site web : [ViaBTC](https://www.viabtc.com/en/)
@@ -117,7 +117,7 @@ Les pools de minage Zcash sont des services qui permettent aux mineurs individue
 ### [Zhash](https://zcash.zhash.pro/stats)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zhash.png?raw=true" alt="Logo de Zhash" width="200" height="100"/>
+    <img src="/content-images/Zhash-45ac9e6541.webp" alt="Zhash Logo" width="200" height="100"/>
 </a>
 
 - Site web : [Zhash](https://zcash.zhash.pro/stats)
@@ -130,7 +130,7 @@ Les pools de minage Zcash sont des services qui permettent aux mineurs individue
 ### [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
 
 <a href="https://binance.com">
-    <img src="https://github.com/gorgagian123/Exchanges-Logo/blob/main/Foundry.png?raw=true" alt="Logo de Foundry Zcash Mining Pool" width="200" height="100"/>
+    <img src="/content-images/Foundry-3f33346374.webp" alt="Logo de Foundry Zcash Mining Pool" width="200" height="100"/>
 </a>
 
 - Site web : [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
@@ -143,7 +143,7 @@ Les pools de minage Zcash sont des services qui permettent aux mineurs individue
 ### [suprnova](https://zec.suprnova.cc/)
 
 <a href="https://binance.com">
-    <img src="https://www.suprnova.cc/suprnova-logo-1-small.jpg" alt="Logo de suprnova" width="200" height="100"/>
+    <img src="/content-images/suprnova-logo-1-small-e95de6cdb3.webp" alt="Logo de suprnova" width="200" height="100"/>
 </a>
 
 - Site web : [suprnova](https://zec.suprnova.cc/)

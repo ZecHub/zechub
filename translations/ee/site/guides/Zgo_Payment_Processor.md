@@ -42,7 +42,7 @@ Kpeɖodzi atɔ̃ ƒe dzidzenue nye xexlẽdzesi vevitɔ. Nusianu si wowɔ do ŋg
 
 ZGo zɔna le egbegbe browser ɖesiaɖe me le kɔmpiuta alo asitelefon dzi, eye womeɖoae ɖe akpa eveawo siaa o. Asisi la hiã Zcash gakotoku; asitsala la hiã Zcash gakotoku kple ZGo akɔnta.
 
-<img width="672" height="378" alt="ZGo payment request and blockchain monitoring overview" src="https://github.com/user-attachments/assets/de50885b-b068-4157-bbda-0981ca23efc8" />
+<img width="672" height="378" alt="ZGo payment request and blockchain monitoring overview" src="/content-images/de50885b-b068-4157-bbda-0981ca23efc8-a00a274776.webp" />
 
 ## Akɔntabubu ɖoɖo
 
@@ -77,7 +77,7 @@ Ne èdi be yeaɖoe zi gbãtɔ la, wɔ ɖe azɔlizɔzɔ si woɖo ɖi la dzi: [Xer
 
 Le Internet dzi fiase siwo le dɔ wɔm le [WooCommerce](https://woocommerce.com/) kple [WordPress](https://wordpress.org/), ZGo naa plugin si woɖo ɖi. Plugin la tsɔa Zcash kpena ɖe eŋu abe fexexemɔnu ene le nuƒleɣi eye wòkpɔa nudɔdɔ ƒe nɔnɔmea gbɔ le eɖokui si ne fexexea ɖo kpe edzi.
 
-<img width="672" height="378" alt="ZGo WooCommerce plugin checkout and order flow" src="https://github.com/user-attachments/assets/55a791bb-1947-4f55-b5b9-55083be8ed49" />
+<img width="672" height="378" alt="ZGo WooCommerce plugin checkout and order flow" src="/content-images/55a791bb-1947-4f55-b5b9-55083be8ed49-2bc8d2571e.webp" />
 
 Sisi tso nuwuwu yi nuwuwu le WooCommerce fiase aɖe me:
 

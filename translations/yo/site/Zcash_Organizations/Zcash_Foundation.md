@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="https://i.ibb.co/Nr9xqgX/image-2024-02-03-165803028.png" alt="Alt Text" width="50"/>  Zcash Foundation
+# <img src="/content-images/image-2024-02-03-165803028-2532c6c3ac.webp" alt="Alt Text" width="50"/>  Zcash Foundation
 
 ## Àlàyé Ìpolongo
 
@@ -14,13 +14,13 @@ The Zcash Foundation has ~12 employees that are distributed across the world. W�
 
 Zcash Foundation Grants n pese eto ilolupo pẹlu ọna lati ṣe inawo awọn iṣẹ akanṣe ti o ṣe alabapin si eto-aye aṣiri bii [Zebra](https://zebra.zfnd.org/) (ìmúṣẹ ìsopọ̀ tí ó wà fún Zcash) & [FROST](https://frost.zfnd.org/) àti [oríṣiríṣi](https://www.coindesk.com/tech/2021/06/08/tor-project-receives-670k-from-zcash-open-major-grants-for-coding-language-upgrade/) àwọn iṣẹ́ mìíràn nípasẹ̀ [Ìgbìmọ̀ Ìpínlẹ̀ Zcash](https://zcashcommunitygrants.org/). 
 
-Ilé-ìdásílẹ̀ náà tún ní [Zcon](https://zfnd.org/zcon/), apejọ ọdọọdun kan ti o da lori ilolupo eda abemi Zcash ati ṣe atilẹyin awọn ipilẹ, awọn ipilẹṣẹ agbegbe bii [Zcon Vozes](https://zfnd.org/zcon-voices/), àwọn àpéjọ àgbègbè kan](https://zfnd.org/zcash-dev-summits/), awọn Zcash Foundation A / V [Club](https://forum.zcashcommunity.com/t/the-zero-knowledge-audiovisual-club/43733), nísinsin yìí, Zero Knowledge Audio Visual [Club]](https://www.zkav.club/) àti oríṣiríṣi àwọn àwùjọ mìíràn tó wà ní gbangba [pè](https://zfnd.org/arborist-calls/), àwùjọ [àwọn ìṣẹ̀lẹ̀](https://zfnd.org/zf-events/#:~:text=Zcomm) àti [Àjọ tó ń rí sí ọ̀ràn ààbò]](https://forum.zcashcommunity.com/t/community-call-with-the-zcg-candidates-december-2024/49707).
+Ilé-ìdásílẹ̀ náà tún ní [Zcon](https://zfnd.org/zcon/), apejọ ọdọọdun kan ti o da lori ilolupo eda abemi Zcash ati ṣe atilẹyin awọn ipilẹ, awọn ipilẹṣẹ agbegbe bii [Zcon Vozes](https://zfnd.org/zcon-voices/), àwọn àpéjọ àgbègbè kan](https://zfnd.org/zcash-dev-summits/), awọn Zcash Foundation A / V [Club](https://forum.zcashcommunity.com/t/the-zero-knowledge-audiovisual-club/43733), nísinsin yìí, Zero Knowledge Audio Visual [Club](https://www.zkav.club/) àti oríṣiríṣi àwọn àwùjọ mìíràn tó wà ní gbangba [pè](https://zfnd.org/arborist-calls/), àwùjọ [àwọn ìṣẹ̀lẹ̀](https://zfnd.org/zf-events/#:~:text=Zcomm) àti [Àjọ tó ń rí sí ọ̀ràn ààbò](https://forum.zcashcommunity.com/t/community-call-with-the-zcg-candidates-december-2024/49707).
 
 The Zcash Foundation enforces the [Zcash Trademark policy](https://zfnd.org/new-zcash-trademark-policy/) per the updated conditions of it's donation by the Electric Coin Co. which helps "Protect the reputation of Zcash, its associated entities, and the Zcash community" by "identify(ing) official sources of information, reducing the likelihood of fraudulent or incorrect information" and "Identify(ing) official apps and services, reducing the likelihood of fraudulent activities." 
 
 ## Ètò Ìṣètò
 
-Awọn Zcash Foundation jẹ a [501c)](https://projects.propublica.org/nonprofits/organizations/820707962) kò ní owó orí, kò ní èrè [àánú]](https://zfnd.org/#:~:text=Committed%20to%20Transparency)[Àwùjọ wọn]](https://zfnd.org/#:~:text=Our%20Team), wọ́n ní ìgbìmọ̀ olùdarí [](https://zfnd.org/#:~:text=Board%20of%20Directors) ati ṣe irọrun awọn idibo iṣakoso agbegbe nipasẹ idibo ti Zcash Community Advisory [Panel](https://zfnd.org/zcash-community-advisory-panel/).
+Awọn Zcash Foundation jẹ a [501c)](https://projects.propublica.org/nonprofits/organizations/820707962) kò ní owó orí, kò ní èrè [àánú](https://zfnd.org/#:~:text=Committed%20to%20Transparency)[Àwùjọ wọn](https://zfnd.org/#:~:text=Our%20Team), wọ́n ní ìgbìmọ̀ olùdarí [](https://zfnd.org/#:~:text=Board%20of%20Directors) ati ṣe irọrun awọn idibo iṣakoso agbegbe nipasẹ idibo ti Zcash Community Advisory [Panel](https://zfnd.org/zcash-community-advisory-panel/).
 
 ## Ìpèsè owó
 

@@ -1,7 +1,7 @@
 # シールドされたZcash取引の実際の仕組み
 ##### [Annkkitaaa](https://github.com/Annkkitaaa)によるオリジナル研究
 
-![alt text](image.png)
+![alt text](/content-images/image-fedc371488.webp)
 
 ### 数式なしで私的な支払いを理解する直感的説明
 
@@ -46,7 +46,7 @@ Zcashは以下の非常に難しい質問に答えようとして作られまし
 
 透明世界は「あなたがすでにほぼ理解しているビットコイン」です。**シールドされた世界**にはすべての美しい暗号技術が含まれており、このシリーズが唯一関心を持つ世界です。
 
-![alt text](image-1.png)
+![alt text](/content-images/image-1-f821d24c6f.webp)
 
 ---
 
@@ -124,7 +124,7 @@ Zcashは以下の非常に難しい質問に答えようとして作られまし
 
 ノートは*生まれ*、*掲示板上で生き*、やがて*死ぬ*。そして重要に、その出生と死亡は見ている誰にも関係ないように見える。
 
-![alt text](image-2.png)
+![alt text](/content-images/image-2-0eca0ea4f7.webp)
 
 ---
 
@@ -132,7 +132,7 @@ Zcashは以下の非常に難しい質問に答えようとして作られまし
 
 アリスがボブに支払う様子を、すべての公開およびプライベートなステップをラベル付きで見ていきましょう。
 
-![alt text](image-4.png)
+![alt text](/content-images/image-4-7af0dfe795.webp)
 
 プライバシーが機能するための非対称性に注目してください：
 
@@ -187,7 +187,7 @@ Zcashは以下の非常に難しい質問に答えようとして作られまし
 
 上記のすべての「後で戻ってくる」という言葉は糸です。それぞれがどのように結ばれるか：
 
-![alt text](image-29.png)
+![alt text](/content-images/image-29-27ef4636ff.webp)
 
 | この記事からの未解決の点 | 解決される場所 |
 |---|---|

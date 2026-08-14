@@ -1,7 +1,7 @@
 # Osisi Merkle: Otu Blockchain si echeta Nkọwa Ọ bụla
 ##### Nnyocha mbụ sitere na [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! [Alt ederede](image-19.png)
+! [Alt ederede](/content-images/image-19-cfbdcf8f78.webp)
 
 ### Nchịkọta nke ọtụtụ nde nkwekọrịta n'otu mkpịsị aka pere mpe
 
@@ -34,7 +34,7 @@ Cheedị echiche banyere asọmpi nkwụsị, ma kama ndị egwuregwu ịga n'ih
 - Gwakọta nne na nna ahụ, jikọta ha abụọ ọnụ, werezie ha mee otu.
 - Gaa n'ihu ruo mgbe otu mkpịsị aka na-anọdụ n'elu. Onye mmeri ahụ bụ mgbọrọgwụ Merkle.
 
-! [Alt ederede](image-20.png)
+! [Alt ederede](/content-images/image-20-f5d57e425a.webp)
 
 Otu ihe kachasị mkpa na-esote ozugbo site na mmetụta avalanche (Nkeji edemede 3):
 
@@ -77,7 +77,7 @@ step 2:  H(hAB , hCD)      = ROOT?     (combine with the uncle)
 
 Gbakọọ maka n'ezie: nke a na-enye `1b3faa3fcc5e...`, nke ** kwekọrọ na mgbọrọgwụ.** A na-egosi na akwụkwọ ahụ dị n'osisi ahụ.
 
-! [Alt ederede](image-21.png)
+! [Alt ederede](/content-images/image-21-d9e5d6eaf6.webp)
 
 Ihe abụọ na-eme ka nke a dị ike:
 
@@ -99,7 +99,7 @@ Ihe ole na ole doro anya:
 - Osisi ndị Zcash na-echebe nwere omimi nke 32m, nke pụtara na ha nwere ike ijide ruo `2^(32)` (ihe karịrị ijeri anọ)
 - **ZK-friendly hashing.** The tree isn't built with SHA-256. Sapling hashes the tree with **Pedersen hashes** and Orchard uses **Sinsemilla** (both from Article 3), precisely so the membership climb is cheap to prove inside a circuit.
 
-! [Alt ederede](image-22.png)
+! [Alt ederede](/content-images/image-22-518354b8d5.webp)
 
 ### Otu ihe osisi anaghị eme bụ imefu ego okpukpu abụọ
 
@@ -176,4 +176,4 @@ N'osisi anyị nwere akwụkwọ anọ, ka e were ya na onye na-awakpo anyị zo
 
 **Article 5 . Zero-knowledge proofs:** the crescendo. We've now built notes, commitments, and the tree, and we keep saying "proven in zero knowledge." Article 5 finally explains how you can prove a statement is true, that your note is in the tree, that your nullifier is correct, that money balances, while revealing none of it.
 
-* Akụkụ nke usoro Zcash sitere na First Principles * maka [ZecHub]](https://zechub.org)Akwụkwọ ikike CC BY-SA 4.0.*
+* Akụkụ nke usoro Zcash sitere na First Principles * maka [ZecHub](https://zechub.org)Akwụkwọ ikike CC BY-SA 4.0.*

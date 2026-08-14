@@ -24,11 +24,11 @@ Zcash 데스크톱 및 모바일 지갑에는 사용자가 비공개된 쉴드 �
 
 사용해 보세요: https://z.cash/wallets 
 
-![Zcash 암호화 메모](https://i.ibb.co/n8HbQZC/Zcash-1177103374.png)
+![Zcash 암호화 메모](/content-images/Zcash-1177103374-7bca37eb4d.webp)
 
 **Signal 앱**
 
-![Signal 앱](https://i.ibb.co/7RbbxSs/signal-app-logo-scaled-454032876.jpg)
+![Signal 앱](/content-images/signal-app-logo-scaled-454032876-81b24a0421.webp)
 
 Signal 개인 메신저는 데이터 프라이버시가 최고 수준인 보안 메신저 앱입니다. Signal 개인 메신저 앱은 무료이며 사용하기 쉽습니다. 사용자는 이전 경험 없이도 쉽게 사용할 수 있습니다. Signal 앱에는 통신이 완전히 비밀로 유지되도록 보장하는 엔드투엔드 암호화 기술이 포함되어 있습니다. 개인 메시지를 안전하게 전송하고자 하는 사람들은 Signal 개인 메신저 앱을 고려해야 합니다. 이는 사이버보안 취약점과 데이터 흔적을 지수적으로 줄일 수 있기 때문입니다.
 
@@ -36,7 +36,7 @@ Signal 개인 메신저는 데이터 프라이버시가 최고 수준인 보안 
 
 **BisonRelay**
 
-![Bison Relay](https://i.ibb.co/ZxpBVNv/ogimg-v1-1000556235.jpg)
+![Bison Relay](/content-images/ogimg-v1-1000556235-9390372d1e.webp)
 
 Bison Relay 앱은 2022년에 출시되었습니다. Bison Relay는 사용자가 계정을 소유해야 하지 않으며, 믿기 어려운 점입니다! 여기서 모든 전송 및 수신된 메시지는 Decred Lightning Network를 통해 개별적으로 지불됩니다. 이 앱의 목적은 계정이 필요하지 않은 상태에서 메타데이터를 최소화하는 것입니다. 반면에 Bison Relay는 일반적인 검열 방식을 중단합니다.
 
@@ -44,7 +44,7 @@ Bison Relay 앱은 2022년에 출시되었습니다. Bison Relay는 사용자가
 
 **Session 앱**
 
-![Session 앱](https://i.ibb.co/gdpwb1v/logo-black.png)
+![Session 앱](/content-images/logo-black-9e799f2b06.webp)
 
 Session 앱이 무엇인지 모르는 경우 걱정하지 마세요! 여기서 간단히 소개합니다. Session은 엔드투엔드 암호화 메신저 중 하나입니다. 이 앱은 민감한 메타데이터를 최소화하도록 설계되었습니다. Session 앱은 절대적인 프라이버시와 감시로부터의 자유를 원하는 사람들에게 만들어졌습니다. Session 앱에서는 전화번호나 이메일 주소 없이도 계정을 생성할 수 있습니다. 즉, 완전히 익명입니다. 사용자는 네트워크를 통해 메시지를 안전하게 보낼 수 있으며, 어떤 흔적도 남기지 않으므로 누출될 것이 없습니다.
 

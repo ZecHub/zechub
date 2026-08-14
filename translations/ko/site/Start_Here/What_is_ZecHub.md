@@ -14,7 +14,7 @@ ZecHub는 Zcash를 위한 분산형 교육 플랫폼입니다. [ZecHub](http://z
 
 튜토리얼, 짧은 형식의 블로그 및 뉴스레터는 GitHub에 오픈소스로 호스팅되어 있어 커뮤니티 구성원 누구나 기여할 수 있습니다. 이는 콘텐츠가 정확하고 채널 자체가 단일 고장 지점이 없도록 보장하기 위함입니다.
 
-Zcash에 새로 오셨다면 [이 가이드](/site/Start_Here/New_User_Guide)를 사용하세요.****
+Zcash에 처음 오셨다면 [이 가이드](/start-here/new-user-guide)를 이용하세요.****
 
 ## ZecHub에 변경 사항을 적용하는 방법
 
@@ -52,7 +52,7 @@ ZecHub의 통일된 외관을 유지하기 위해, 저장소에 페이지를 추
 기부: [여기](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
 <a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
-    <img src="https://i.ibb.co/pfBM1z9/image-2023-11-18-141228046.png" alt="" width="200" height="200"/>
+    <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
 </a>
 
 **경고: ZecHub는 Zcash 커뮤니티 구성원들이 설립한 완전히 독립적이고 오픈소스 프로젝트입니다. 이 GitHub 저장소에 포함된 내용은 금융 또는 투자 조언으로 간주되어서는 안 되며, 정보 제공 목적일 뿐입니다.**

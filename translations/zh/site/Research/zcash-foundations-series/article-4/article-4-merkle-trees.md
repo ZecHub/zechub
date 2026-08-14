@@ -1,7 +1,7 @@
 # Merkle Trees：区块链如何记住每一张 Note
 ##### 来自 [Annkkitaaa](https://github.com/Annkkitaaa) 的原创研究
 
-![替代文本](image-19.png)
+![替代文本](/content-images/image-19-cfbdcf8f78.webp)
 
 ### 用一个微小的指纹概括数百万个 commitment
 
@@ -34,7 +34,7 @@ Merkle tree 可以同时解决这两个问题。它把整张列表压缩成一�
 - 再把这些父节点两两配对，把每一对一起哈希。
 - 持续这样做，直到顶部只剩下**一个指纹**。这个冠军就是**Merkle root。**
 
-![替代文本](image-20.png)
+![替代文本](/content-images/image-20-f5d57e425a.webp)
 
 最重要的性质直接来自雪崩效应（第 3 篇）：
 
@@ -77,7 +77,7 @@ step 2:  H(hAB , hCD)      = ROOT?     (再与叔叔节点合并)
 
 实际算出来，这会得到 `1b3faa3fcc5e...`，它**与 root 匹配。** 于是这个叶子被证明确实在树中。
 
-![替代文本](image-21.png)
+![替代文本](/content-images/image-21-d9e5d6eaf6.webp)
 
 这之所以强大，有两个原因：
 
@@ -99,7 +99,7 @@ step 2:  H(hAB , hCD)      = ROOT?     (再与叔叔节点合并)
 - **固定深度。** Zcash 的 shielded 树深度为 **32**，这意味着它们最多可以容纳 `2^(32)`（超过 40 亿）张 note。
 - **对 ZK 友好的哈希。** 这棵树并不是用 SHA-256 构建的。Sapling 用 **Pedersen hashes** 来对树进行哈希，Orchard 使用 **Sinsemilla**（两者都见第 3 篇），原因正是这样可以让成员资格路径的计算在电路内部被低成本地证明。
 
-![替代文本](image-22.png)
+![替代文本](/content-images/image-22-518354b8d5.webp)
 
 ### 树*不能*处理的一件事：双花
 

@@ -2,9 +2,9 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
 </a>
 
-# <img src="https://i.ibb.co/BN7SxwY/ZEC-USD.png" alt="Alt Text" width="50"/>   Saklamasız Borsalar
+# <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Alt Text" width="50"/>   Saklamasız Borsalar
 
-[Zcash Saklamasız Borsaları](/site/Using_Zcash/DEX_List)
+[Zcash Saklamasız Borsaları](/dex)
 
 Kripto para ticaretinin sürekli gelişen dünyasında, Merkeziyetsiz Borsalar veya DEX'ler olarak da bilinen saklamasız borsaların yükselişi, kullanıcıların dijital varlıklarla etkileşim kurma biçimini yeniden tanımlıyor. Bu platformlar, aracıları veya üçüncü tarafları ortadan kaldırarak ve kontrolü kullanıcılara geri vererek ticarete devrim niteliğinde bir yaklaşım sunuyor.
 

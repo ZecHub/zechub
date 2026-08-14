@@ -34,7 +34,7 @@ Ohun pàtàkì kan tó yẹ kó o fi sọ́kàn ni pé kò pọn dandan kó o ra 
 
 Lẹ́yìn tí o bá ra àwọn *ZEC*, o lè fẹ́ gbé e lọ sí àpò Zcash. 
 
-[Ìwé yìí ṣàlàyé]](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) ìdí tó fi ṣe pàtàkì láti ní *ZEC* nínú pọ́ọ̀sì. 
+[Ìwé yìí ṣàlàyé](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) ìdí tó fi ṣe pàtàkì láti ní *ZEC* nínú pọ́ọ̀sì. 
 
 A dábàá pé kí o lo àpò tí ó ní ààbò](https://zechub.wiki/wallets) nítorí pé àwọn àpamọ́ owó wọ̀nyí ń pèsè àwọn ohun ìní ìpamọ́ra tí ó sọ *ZEC* di àrà ọ̀tọ̀. 
 
@@ -101,7 +101,7 @@ After you've deposited some ZEC into your wallet, you're ready to send a fully s
 àwùjọ náà jẹ́ onífẹ̀ẹ́ àti ẹni tí ó máa ń tẹ́wọ́ gba àwọn ọmọ ẹgbẹ́ tuntun. nígbà míràn ìjíròrò lè jẹ́ ti ìmọ̀ ẹ̀rọ, ṣùgbọ́n má ṣàníyàn! bí o bá ní ìbéèrè, o lè béèrè.
 
 <a href="">
-    <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="https://github.com/user-attachments/assets/c1d40441-4336-4754-b3bf-5a746b19a9d5" />
+    <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="/content-images/c1d40441-4336-4754-b3bf-5a746b19a9d5-6d2eca6cbf.webp" />
 </a>
 
 ---

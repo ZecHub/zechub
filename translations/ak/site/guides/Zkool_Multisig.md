@@ -22,12 +22,12 @@ Saa akwankyerɛ yi ma anammɔn anammɔn nanteɛ a ɛfa sɛdeɛ wɔbɛyɛ multisi
 1. Bue **Zkool app** no na kɔ **Akontaabu Foforo**.
 
 
-![img1](https://github.com/user-attachments/assets/ee906e49-361a-49b6-9484-904897fe2e3f)
+![img1](/content-images/ee906e49-361a-49b6-9484-904897fe2e3f-074e400a9c.webp)
 
 3. Hyehyɛ **Akontaabu Din** (sɛ nhwɛso no, Anabelle). 
    
 
-![img2](https://github.com/user-attachments/assets/e9c325d3-8507-433a-a0c6-6e8c1ea2a254)
+![img2](/content-images/e9c325d3-8507-433a-a0c6-6e8c1ea2a254-a637810ed5.webp)
 
 
 4. Sɛ wopɛ a, toggle **Fa Internal Change** anaa **San Fa Akontaabu** di dwuma sɛ ɛho hia a.
@@ -36,7 +36,7 @@ Saa akwankyerɛ yi ma anammɔn anammɔn nanteɛ a ɛfa sɛdeɛ wɔbɛyɛ multisi
 5. Sɛ wobɔ wie a, akonta no bɛda adi wɔ wo **Akontaabu Nkyerɛwde** mu. 
 
 
-![img3](https://github.com/user-attachments/assets/c446cbca-fb3e-49b9-b1d4-fd727cd1b0fb)
+![img3](/content-images/c446cbca-fb3e-49b9-b1d4-fd727cd1b0fb-971cf76b33.webp)
 
 
 ## 2. Sika a Wogye
@@ -55,7 +55,7 @@ Akontaabu biara ma address ahorow pii ba:
 Paw ɔkwan a wopɛ sɛ wode di dwuma na kyɛ na woanya sika. 
 
 
-![img4 na ɛwɔ hɔ](https://github.com/user-attachments/assets/c9de5dfe-e9d7-423d-8d90-35c1a08ffd5d)
+![img4 na ɛwɔ hɔ](/content-images/c9de5dfe-e9d7-423d-8d90-35c1a08ffd5d-a0d6a4e7b7.webp)
 
 
 
@@ -66,7 +66,7 @@ Paw ɔkwan a wopɛ sɛ wode di dwuma na kyɛ na woanya sika.
 1. Kɔ **Recipient** ɔfa no so. 
 
 
-![img5](https://github.com/user-attachments/assets/9f3a03b9-dd56-450c-a8dc-4370f9289138)
+![img5](/content-images/9f3a03b9-dd56-450c-a8dc-4370f9289138-3217d846b7.webp)
 
 
 3. Hyehyɛ **wɔn a wogye no address** no. 
@@ -79,7 +79,7 @@ Paw ɔkwan a wopɛ sɛ wode di dwuma na kyɛ na woanya sika.
 Sɛ wowie a, sika a aka no yɛ foforo wɔ wo akontaabu mu. 
 
 
-![img6](https://github.com/user-attachments/assets/6e6da76b-cd18-4567-a5c0-74f07ddefc64)
+![img6](/content-images/6e6da76b-cd18-4567-a5c0-74f07ddefc64-78dc3362dc.webp)
 
 
 ## 4. Multisig Nkitahodi a Wɔyɛ: Setting Up Distributed Key Generation (Multisig) .
@@ -100,7 +100,7 @@ Kyerɛkyerɛ **Nnipa dodow a wɔde wɔn nsa hyɛ ase a wɔhwehwɛ (Threshold)**.
 Paw **Sika a Wɔde Ma Akontaabu**.
   
 
-![img7](https://github.com/user-attachments/assets/8a90ca85-5439-4937-b16d-a570e69d55f0)
+![img7](/content-images/8a90ca85-5439-4937-b16d-a570e69d55f0-1477202a57.webp)
 
 
 
@@ -117,7 +117,7 @@ Sɛ wopɛ sɛ wo ne no hyia na wotumi sesa a, fa **Unified Addresses** di dwuma 
 Twɛn ma wɔn a wɔbɛkɔ bi no nyinaa bɛsesa **round 1** ne **round 2** packages. 
 
 
-![img8 na ɛwɔ hɔ](https://github.com/user-attachments/assets/cdaf6e00-3cb0-4774-8a96-5ded19bf31c4)
+![img8 na ɛwɔ hɔ](/content-images/cdaf6e00-3cb0-4774-8a96-5ded19bf31c4-b6bb50bbab.webp)
 
 
 
@@ -125,7 +125,7 @@ Twɛn ma wɔn a wɔbɛkɔ bi no nyinaa bɛsesa **round 1** ne **round 2** packag
 Sɛ wowie a, wɔyɛ **address a wɔakyekyɛ**. 
 
 
-![img9 na ɛwɔ hɔ](https://github.com/user-attachments/assets/741d1bc6-0102-4e67-bb83-9a1c184bd747)
+![img9 na ɛwɔ hɔ](/content-images/741d1bc6-0102-4e67-bb83-9a1c184bd747-a508ea0371.webp)
 
 
 

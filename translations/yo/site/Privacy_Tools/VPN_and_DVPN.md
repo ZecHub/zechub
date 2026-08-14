@@ -11,12 +11,12 @@ In the digital age, maintaining online privacy and security is of paramount impo
 
 __Virtual Private Networks (VPNs)__: Traditional VPNs create a secure, encrypted tunnel between your device and a remote server controlled by the VPN provider. This tunnel conceals your online activities from prying eyes, such as hackers, ISPs, or government agencies. VPNs are widely used for purposes like anonymous browsing, accessing geo-restricted content, and protecting against cyber threats.
 
-[Àwòrán 223](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Privacy_Tools/assets/image-223.png)
+[Àwòrán 223](/content-images/image-223-399e3015e7.webp)
 
 
 __Decentralized VPNs (dVPNs)__: In contrast, dVPNs leverage blockchain and peer-to-peer technology to create a decentralized network of nodes. Users' traffic is routed through these nodes, making it difficult for any single entity to monitor or control the entire network. dVPNs are typically more resistant to censorship, as there is no centralized authority overseeing the network. They are well-suited for users seeking enhanced privacy and security.
 
-![ì í ¬í ì ¤](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Privacy_Tools/assets/dvpn.png)
+![ì í ¬í ì ¤](/content-images/dvpn-89698d4cb9.webp)
 
 
 # Àwọn Ohun Tó Yẹ Kó O Mọ̀ Nípa Ààbò Nígbà Tó O Bá Fẹ́ Lo Íńtánẹ́ẹ̀tì Alágbèéká
@@ -41,7 +41,7 @@ Nigbati o ba yan iṣẹ VPN, o ṣe pataki lati ro awọn ifosiwewe aabo wọny
 
 Zcash (ZEC) is a cryptocurrency designed for enhanced privacy, making it a favored choice for individuals seeking anonymity in their financial transactions. While not all VPN services accept Zcash directly, some may accept cryptocurrency payments through intermediary services. However, it's essential to check with the VPN provider directly for the most up-to-date payment options. Here are a few VPN services known to accept cryptocurrency payments:
 
-1. [Mullvad VPN]](https://mullvad.net/en)
+1. [Mullvad VPN](https://mullvad.net/en)
    
    Mullvad VPN jẹ iṣẹ VPN ti o gbajumọ pupọ ti a mọ fun ifaramọ to lagbara si aṣiri olumulo ati aabo. O jẹ ọkan ninu awọn olupese VPN diẹ ti o ṣe itẹwọgba cryptocurrency, pẹlu 
    Zcash, bi ọna isanwo. Awọn ẹya ara ẹrọ pataki ti Mullvad pẹlu:
@@ -58,7 +58,7 @@ Zcash (ZEC) is a cryptocurrency designed for enhanced privacy, making it a favor
 
    __Zcash Payment__: Mullvad gba Zcash gẹgẹbi aṣayan isanwo, gbigba awọn olumulo laaye lati sanwo fun alabapin wọn pẹlu aṣiri ti o ni ilọsiwaju.Mullvad VPN.
 
-3. [__Nym VPN (dVPN) ]](https://nymtech.net/)
+3. [__Nym VPN (dVPN) ](https://nymtech.net/)
    
    Nym VPN jẹ VPN ti ko ni idojukọ (dVPN) ti o fojusi lori imudarasi aṣiri olumulo ati aabo nipasẹ nẹtiwọọki aṣiri-aarin. NymVPN ṣiṣẹ yatọ si awọn VPNs ibile nipasẹ 
    lilo a mixnet, ibi ti olumulo ijabọ ti wa ni routed nipasẹ a nẹtiwọki ti awọn nodes.

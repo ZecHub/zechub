@@ -20,7 +20,7 @@ Las funciones hash toman una entrada de cualquier longitud y producen una salida
 - **Salida resultante** = Valor hash  
 
 
-![Diagrama de función hash](https://pbs.twimg.com/media/Fn_NkFHXgAEtgse.png)
+![Diagrama de función hash](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
 
 ### ¡Pruébalo tú mismo!
 
@@ -58,12 +58,12 @@ Existen varias clases de funciones hash. Algunos ejemplos:
 #### 1. Hash de integridad (comprobaciones de integridad de datos)
 Las comprobaciones de integridad de datos son un ejemplo de "Hash de integridad". Se utilizan para generar sumas de verificación en archivos de datos y proporcionar al usuario una garantía de corrección.
 
-![Ejemplo de hash de integridad](https://pbs.twimg.com/media/Fn_Or0MWIAI6sgx.png)
+![Ejemplo de hash de integridad](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
 
 #### 2. Árboles de Merkle (árboles hash)
 Un **árbol hash** o **árbol de Merkle** está compuesto por ramas y nodos hoja que están etiquetados con el hash criptográfico de un bloque de datos.
 
-![Diagrama de árbol de Merkle](https://pbs.twimg.com/media/Fn_O7ndWIAY5PA-.jpg)
+![Diagrama de árbol de Merkle](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
 
 Los árboles de Merkle son un ejemplo de un **esquema de compromiso criptográfico**. La raíz del árbol se considera un compromiso y se demuestra que los nodos hoja forman parte del compromiso original.
 
@@ -75,7 +75,7 @@ En los pools blindados de Zcash **Sapling** y **Orchard**, el **Árbol de compro
 #### 4. Hash de firma (bloques al estilo Bitcoin)
 **SHA256** es un ejemplo de "Hash de firma" utilizado para hacer cumplir la inmutabilidad de cada bloque en la cadena de Bitcoin. Los mineros utilizan el hash del bloque anterior + un hash de todas las transacciones del bloque actual (`hashMerkleRoot`) + marca de tiempo + valor aleatorio / dificultad de la red para los nuevos bloques.
 
-![Diagrama de bloque SHA256](https://pbs.twimg.com/media/Fn_PaVZXoAApHPf.jpg)
+![Diagrama de bloque SHA256](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
 
 #### 5. Equihash (minería de Zcash)
 **Equihash** es el algoritmo hash utilizado en la minería de Zcash. También lo utilizan redes como Komodo y Horizen.

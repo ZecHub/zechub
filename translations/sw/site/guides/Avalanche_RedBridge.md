@@ -56,7 +56,7 @@ Kuchukua kuangalia [Github repo](https://github.com/red-dev-inc/zavax-bridge/tre
 Kwa maelezo zaidi ya kiufundi, watumiaji wanahimizwa kupitia hazina na nyaraka kwa ajili ya mradi RedBridge [kuchunguza](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) maalum ya ushirikiano, mifumo ya kupima, na itifaki za usalama.
 
 
-! [img1](https://github.com/user-attachments/assets/b8c5d267-1711-458a-8a32-1df9d56fae8a)
+! [img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)
 
 
 * Utoaji: 

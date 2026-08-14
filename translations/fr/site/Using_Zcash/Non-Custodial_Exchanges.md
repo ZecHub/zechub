@@ -2,9 +2,9 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
 </a>
 
-# <img src="https://i.ibb.co/BN7SxwY/ZEC-USD.png" alt="Texte alternatif" width="50"/>   Bourses non dépositaires
+# <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Texte alternatif" width="50"/>   Bourses non dépositaires
 
-[Bourses non dépositaires Zcash](/site/Using_Zcash/DEX_List)
+[Échanges non dépositaires Zcash](/dex)
 
 Dans le monde en constante évolution du trading de cryptomonnaies, l’essor des bourses non dépositaires, également connues sous le nom de bourses décentralisées ou DEX, redéfinit la manière dont les utilisateurs interagissent avec les actifs numériques. Ces plateformes offrent une approche révolutionnaire du trading en éliminant le besoin d’intermédiaires ou de tiers et en redonnant le contrôle aux utilisateurs.
 

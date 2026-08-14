@@ -2,7 +2,7 @@
 
 # Shade Protocol
 
-![شعار Shade Protocol](https://framerusercontent.com/images/Af8EzlNiwGr4FTFX7oqdBuE.png)
+![شعار Shade Protocol](/content-images/Af8EzlNiwGr4FTFX7oqdBuE-71316827d0.webp)
 
 ## ما هو Shade Protocol؟
 
@@ -14,7 +14,7 @@ Shade Protocol هو نظام DeFi (التمويل اللامركزي) يحافظ
 
 تم بناء Shade Protocol على Secret Network، وهي blockchain من الطبقة الأولى توفّر عقودًا ذكية تحافظ على الخصوصية. تستخدم Secret Network مدخلات ومخرجات وحالة مشفّرة لضمان خصوصية المعاملات، وحماية بيانات المستخدم من الانكشاف على السجل العام.
 
-![مخطط Secret Network](https://miro.medium.com/v2/resize:fit:828/format:webp/1*yyZ5hFOw6z8zXX_rgJn5iw.png)
+![مخطط Secret Network](/content-images/1-yyZ5hFOw6z8zXX_rgJn5iw-9091067aa1.webp)
 
 تُمكّن Secret Network المطورين من بناء تطبيقات لامركزية ببيانات مشفّرة، سواء بشكل أصيل على Secret أو على blockchains أخرى عبر الاتصال بين السلاسل، مما يفتح حالات استخدام جديدة وقوية لـ Web3.
 
@@ -23,7 +23,7 @@ Shade Protocol هو نظام DeFi (التمويل اللامركزي) يحافظ
 تم إنشاء Cosmos لربط blockchains غير المتجانسة ببعضها من خلال تحديد طرق أفضل وأكثر حداثة لبناء هذه blockchains باستخدام أدوات جديدة مثل Tendermint و Cosmos SDK.  
 يستخدم البروتوكول Cosmos SDK، وهو إطار عمل معياري لبناء تطبيقات blockchain قابلة للتوسع وقابلة للتشغيل البيني. وهذا يتيح لـ Shade Protocol الاستفادة من المتانة وقابلية التشغيل البيني في نظام Cosmos البيئي.
 
-![مخطط Cosmos SDK and Tendermint Core](https://s3.ap-northeast-1.amazonaws.com/gimg.gateimg.com/learn/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e.jpg)
+![مخطط Cosmos SDK and Tendermint Core](/content-images/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e-ed16bb7658.webp)
 
 ولأجل الإجماع وأمن الشبكة، يستخدم Shade Protocol Tendermint Core، الذي يوفّر آلية إجماع متحمّلة للأخطاء البيزنطية (BFT)، بما يضمن أمانًا عاليًا ونهائية سريعة.
 
@@ -37,9 +37,9 @@ Shade Protocol هو نظام DeFi (التمويل اللامركزي) يحافظ
 
 يستخدم Shade Protocol مفاتيح العرض لرمزيه الرئيسيين: Shade ($SHD) و Silk ($SILK). يؤدّي Shade ($SHD) أدوارًا متعددة، إذ يعمل كرمز للخزانة والحوكمة وتقاسم الإيرادات داخل النظام البيئي. ويُستخدم في الرهن، ومقترحات الحوكمة، وتوفير السيولة، والمعاملات، والسندات. أما Silk ($SILK)، فهو العملة المستقرة التي تركّز على الخصوصية ضمن البروتوكول، وهو مرتبط بسلة متنوعة من العملات العالمية والسلع مثل الذهب وBitcoin والدولار الأمريكي واليورو والين.
 
-![رموز Shade و Silk - الجزء 1](https://framerusercontent.com/images/9wTrxCdx8AoRcCwsGub13QXuY.png?scale-down-to=1024)
+![رموز Shade و Silk - الجزء 1](/content-images/9wTrxCdx8AoRcCwsGub13QXuY-807ed3b400.webp)
 
-![رموز Shade و Silk - الجزء 2](https://framerusercontent.com/images/IUC9YWfErTebCBsMkdbCnjSWGEY.png)
+![رموز Shade و Silk - الجزء 2](/content-images/IUC9YWfErTebCBsMkdbCnjSWGEY-4ed6d5cedf.webp)
 
 ### الخصوصية
 
@@ -57,7 +57,7 @@ Shade Protocol هو نظام DeFi (التمويل اللامركزي) يحافظ
 
 كونه جزءًا من نظام Cosmos البيئي يعني أن Shade Protocol يمكنه التفاعل بسهولة مع blockchains أخرى، مما يعزّز السيولة ويوفّر المزيد من الفرص للمستخدمين للاستفادة من أصولهم عبر شبكات مختلفة. ومن خلال استخدام تقنيات الحفاظ على الخصوصية من Secret Network، يضمن Shade Protocol أن تحافظ هذه الأنشطة العابرة للسلاسل على السرية والسلامة. ولا تعزّز قابلية التشغيل البيني هذه مرونة ووظائف التطبيقات اللامركزية فحسب، بل تدعم أيضًا نظامًا بيئيًا أكثر ترابطًا ومتانة في عالم blockchain، وتقلّل الاعتماد على الشبكات المعزولة وتدفع نحو اعتماد أوسع لحلول التمويل اللامركزي.
 
-![مخطط قابلية التشغيل البيني](https://framerusercontent.com/images/3zIwSJHEwP9tkn4aI0do0lhgFTE.png)
+![مخطط قابلية التشغيل البيني](/content-images/3zIwSJHEwP9tkn4aI0do0lhgFTE-2aed930de0.webp)
 
 ## الخلاصة
 

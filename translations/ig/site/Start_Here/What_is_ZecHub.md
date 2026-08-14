@@ -6,16 +6,16 @@
 # Gịnị bụ ZecHub?
 ---
 
-ZecHub bụ ebe a na-ahụ maka agụmakwụkwọ maka Zcash.](http://zechub.xyz) is to provide an educational platform where community members can work together on creating, validating, and promoting content that supports the Zcash ecosystem. We do this through a few mechanisms.
+ZecHub bụ ebe a na-ahụ maka agụmakwụkwọ nke Zcash. [ZecHub](http://zechub.xyz) is to provide an educational platform where community members can work together on creating, validating, and promoting content that supports the Zcash ecosystem. We do this through a few mechanisms.
 
-1. [Nkuzi](https://www.youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O)
+1. [Nkuzi nkuzi](https://www.youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O)
 2. [Wiki-docs](https://zechub.wiki/)
-3. [A Podcast na-agba ndị obodo ajụjụ ọnụ](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O).
+3. [A Podcast na-agba ndị obodo ajụjụ ọnụ.](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O).
 4. [A Weekly Zcash akwụkwọ akụkọ.](https://zechub.substack.com/)
 
 The tutorials, short-form blogs, and newsletter are open sourced and hosted on GitHub, meaning anyone from the community can contribute. This is to ensure content is accurate and that the channel itself suffers from no single point of failure.
 
-Ọ bụrụ na ị bụ onye ọhụrụ na Zcash, jiri [nduzi a](/site/Start_Here/New_User_Guide).****
+Ọ bụrụ na ị bụ onye ọhụrụ nye Zcash, jiri [nduzi a](/start-here/new-user-guide).****
 
 ## Otu esi eme mgbanwe na ZecHub
 
@@ -43,7 +43,7 @@ The tutorials, short-form blogs, and newsletter are open sourced and hosted on G
 
 ---
 
-In the interest of maintaining a uniform look to ZecHub, there's a template that you can use when adding pages to the repo.
+N'ihi na ịnọgide na-enwe otu ụdị anya ka ZecHub, e nwere a template nke ị pụrụ iji mgbe agbakwunye peeji ndị repo.
 
 ```markdown
 1. All pages should have additional resources (ie. links to z.cash) to support content
@@ -51,16 +51,16 @@ In the interest of maintaining a uniform look to ZecHub, there's a template that
 3. No inappropriate content.
 ```
 
-Onyinye: [ebe a]](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
+Onyinye: [n'ebe a](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
 <a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
-    <img src="https://i.ibb.co/pfBM1z9/image-2023-11-18-141228046.png" alt="" width="200" height="200"/>
+    <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
 </a>
 
 
 
-** DISCLAIMER: ZecHub bụ kpam kpam onwe na oghe-isi mmalite malitere site Zcash obodo òtù. Ọ dịghị ihe dị na nke a Github repository ga-atụle ego ma ọ bụ ego ndụmọdụ - ọ bụ maka ozi nzube naanị.**
+**DISCLAIMER: ZecHub is a completely independent and open-source initiative founded by Zcash community members. Nothing contained in this Github repository should be considered financial or investment advice - it is for informational purposes only.**
 
 ---
 
-*Ọ bụrụ na ịchọrọ ịgbakwunye, ma ọ bụ tụọ aro ndezi na ibe wiki a, biko gaa na [ZecHub github repo](https://github.com/ZecHub/zechub) ma tinye arịrịọ ịdọrọ.*
+*Ọ bụrụ na ịchọrọ ịgbakwunye, ma ọ bụ tụọ aro ndezi maka ibe wiki a, biko gaa [ZecHub github repo](https://github.com/ZecHub/zechub) ma nyefee arịrịọ ịdọrọ.*

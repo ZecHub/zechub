@@ -17,7 +17,7 @@ This guide explains how the payment flow works, how to set up an account, and ho
 5. [ZGo pẹlu WooCommerce](#zgo-with-woocommerce)
 6. [Àwọn Ànímọ́](#features)
 7. [Àwọn àṣìṣe tó wọ́pọ̀](#common-mistakes)
-8. [Ìparí Àlàyé]](#conclusion)
+8. [Ìparí Àlàyé](#conclusion)
 9. [Àwọn ohun àmúṣọrọ̀](#resources)
 
 ## Ìdí tí a fi ń lo ZGo
@@ -42,7 +42,7 @@ The five-confirmation threshold is the key number. Anything earlier is a payment
 
 ZGo n ṣiṣẹ ni eyikeyi aṣàwákiri igbalode lori tabili tabi alagbeka, laisi fifi sori ẹrọ ni ẹgbẹ mejeeji. Onibara nilo apamọwọ Zcash; oniṣowo nilo apamọ Zcash ati akọọlẹ ZGo kan.
 
-<img width="672" height="378" alt="ZGo payment request and blockchain monitoring overview" src="https://github.com/user-attachments/assets/de50885b-b068-4157-bbda-0981ca23efc8" />
+<img width="672" height="378" alt="ZGo payment request and blockchain monitoring overview" src="/content-images/de50885b-b068-4157-bbda-0981ca23efc8-a00a274776.webp" />
 
 ## Ṣíṣíṣe àkọọ́lẹ̀
 
@@ -77,7 +77,7 @@ Fun iṣeto akoko akọkọ, tẹle igbesẹ ti a ṣe pataki: [Awọn iṣeto I
 
 Fun awọn ile itaja ori ayelujara ti n ṣiṣẹ lori [WooCommerce](https://woocommerce.com/) àti [WordPress](https://wordpress.org/), ZGo pese ohun itanna ti a ṣe iyasọtọ. Ohun itanna naa ṣafikun Zcash bi ọna isanwo ni iṣayẹwo ati mu ipo aṣẹ ṣiṣẹ laifọwọyi nigbati isanwo ba jẹrisi.
 
-<img width="672" height="378" alt="ZGo WooCommerce plugin checkout and order flow" src="https://github.com/user-attachments/assets/55a791bb-1947-4f55-b5b9-55083be8ed49" />
+<img width="672" height="378" alt="ZGo WooCommerce plugin checkout and order flow" src="/content-images/55a791bb-1947-4f55-b5b9-55083be8ed49-2bc8d2571e.webp" />
 
 Ìṣàn láti òpin dé òpin nínú ilé ìtajà WooCommerce:
 
@@ -122,9 +122,9 @@ Fun iṣeto, ọna naa kuru: gba apamọwọ Zcash, ṣẹda akọọlẹ kan ni
 
 - [Ìkànnì àjọ ZGo](https://zgo.cash/)
 - [Xero Integration Configuration walkthrough] Àwọn àlàyé tó ṣe pàtàkì](https://hedgedoc.vergara.tech/s/4iXC67fmb)
-- [WooCommerce] [ì í ì ¤í ë ¤]](https://woocommerce.com/) àti [WordPress](https://wordpress.org/)
+- [WooCommerce] [ì í ì ¤í ë ¤](https://woocommerce.com/) àti [WordPress](https://wordpress.org/)
 - [Xero](https://www.xero.com/)
 - [Ojúewé ìkànnì iṣẹ́ Zcash](https://z.cash/)
 - [Àwọn Wàléètì ZecHub](https://zechub.wiki/wallets), akojọ awọn apamọwọ Zcash ti o ni ibamu
-- [Àkópòsí àwọn Ẹ̀rọ Ìṣiṣẹ́ Ìsanwó ZecHub]](https://zechub.wiki/payment-processors), ZGo nínú ìtumọ̀ àwọn ètò ìsanwó Zcash mìíràn
+- [Àkópòsí àwọn Ẹ̀rọ Ìṣiṣẹ́ Ìsanwó ZecHub](https://zechub.wiki/payment-processors), ZGo nínú ìtumọ̀ àwọn ètò ìsanwó Zcash mìíràn
 - [BTCPayServer Zcash Àfikún](https://zechub.wiki/guides/btcpayserver-zcash-plugin), itọsọna ZecHub ti o ni ibatan fun yiyan ti o gbalejo ara ẹni

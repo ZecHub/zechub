@@ -2,7 +2,7 @@
 
 Penumbra existiert als hochmodernes, vollständig abgeschirmtes Layer-1-Netzwerk, das im Cosmos-Ökosystem konkurriert. Es ermöglicht seinen Nutzern, sicher Transaktionen durchzuführen, Tokens zu staken und zu tauschen sowie als Market Maker zu agieren, ohne ihre Metadaten on-chain offenzulegen. Als vollständig abgeschirmte Blockchain bietet es zudem abgeschirmte Transaktionen im Web, ohne Kompromisse bei Privatsphäre oder Dezentralisierung einzugehen — Penumbra bietet standardmäßig Privatsphäre, ohne transparente Transaktionen oder einen transparenten Wertpool.
 
-![image.png](https://drive.google.com/file/d/16CcFQ1ZhG_pi4ENQuhFKPwN-J1diELRX/view?usp=drive_link)
+![image.png](/content-images/_unavailable.svg)
 
 ## In Penumbra IBC verwendete Technologie 
 
@@ -10,7 +10,7 @@ IBC-Integration: Ganz vorne steht das Inter-Blockchain Communication (IBC)-Proto
 
 Zero-Knowledge Proofs (ZKPs): Penumbra nutzt die Kryptografie-Technologie der Zero-Knowledge Proofs, um sicherzustellen, dass alle Transaktionen verifiziert und validiert werden, ohne Details wie Absender, Empfänger oder den übertragenen Betrag offenzulegen.
 
-![image.png](https://drive.google.com/file/d/1BxY5PlHBdV5iwZDgi86Z4Jz6CEesSjvO/view?usp=drive_link)
+![image.png](/content-images/_unavailable.svg)
 
 Dezentrale Börse mit Privatsphäre: Im Kern des Panumbra-Netzwerks steht die Privatsphäre. Das Netzwerk kann einen dezentralen Börsenmechanismus nutzen, der die Privatsphäre von Trades und Krypto-Transaktionen fördert, gleichzeitig Finanzdaten schützt und Nutzern das Recht gibt, die Offenlegung ihrer Handelsstrategien zu kontrollieren.
 

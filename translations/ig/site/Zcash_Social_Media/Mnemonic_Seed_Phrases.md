@@ -13,7 +13,7 @@ A na-akọwa ahịrịokwu mgbake site na nkọwapụta ** BIP-39 **, ụdị �
 
 Eke nkebi ahịrịokwu mgbake na-amalite site na ịmepụta ** randomness **. More entropy pụtara nchebe dị elu. ** 128 bits ** nke enttropy ka a na-ewere dị ka ihe zuru ezu maka ọtụtụ ndị ọrụ.
 
-[Nkọwa okwu mkpụrụ](https://pbs.twimg.com/media/FooM3qWWACgrwzn.jpg)
+[Nkọwa okwu mkpụrụ](/content-images/FooM3qWWACgrwzn-f222c4081f.webp)
 
 Dabere na ogologo nke entropy mbụ, okwu mgbake ga-abụ **12 ruo 24 okwu ** ogologo.
 
@@ -28,7 +28,7 @@ Anyị na-amalite site na ịmepụta 128 bits nke entropy.
 Anyị na-eji **SHA256** mee ka entropy ahụ. Bit ole na ole mbụ nke hash a na-aghọ nchọpụta nchọpụta. 
 Nke a na-enye anyị akara mkpịsị aka pụrụ iche maka entropy anyị.
 
-[Entropy + Checksum eserese](https://pbs.twimg.com/media/FooNoOEXgAAu-g6.png)
+[Entropy + Checksum eserese](/content-images/FooNoOEXgAAu-g6-613238fa7e.webp)
 
 ### 3. E kewara ya n'ime iberibe 11-bit
 A na-ekewa 132 bit (128 entropy + 4 checksum) n'ime iberibe nke 11 bits.
@@ -39,7 +39,7 @@ Ndepụta okwu BIP-39 nwere kpọmkwem **2048 okwu** (Bekee, Spanish, Chinese, w
 
 A na-eji nọmba ndị a achọta okwu kwekọrọ na ya n'ihe ndepụta okwu.
 
-![Ihe atụ nke mkpụrụokwu](https://pbs.twimg.com/media/FooN9rfXEBoQuU2.png)
+![Ihe atụ nke mkpụrụokwu](/content-images/FooN9rfXEBoQuU2-d11331fc0a.webp)
 
 ** Nsonaazụ: ** Anyị nwere ugbu a, okwu nchekwa nke mmadụ nwere ike ịgụ 12 okwu!
 
@@ -59,7 +59,7 @@ A na-enweta mkpụrụ nke obere akpa site na ahịrịokwu mnemonic site na iji
 
 Nke a na-emepụta mkpụrụ nke **64-byte (512-bit) **.
 
-[Mkpụrụ na isi igodo](https://pbs.twimg.com/media/FooOuumXEAgcBm1.jpg)
+[Mkpụrụ na isi igodo](/content-images/FooOuumXEAgcBm1-dc7c66b84a.webp)
 
 ### Igodo ndị bụ isi
 A na-ekewa mkpụrụ ahụ n'ime usoro abụọ 32-byte:
@@ -83,7 +83,7 @@ Site na ** Expanded Spending Key ** anyị na-enweta:
 
 Usoro dị iche iche na-emepụta adreesị mpụga kwesịrị ekwesị maka inye ndị na-ezipụ gafee ọdọ mmiri ndị e chebere (Sapling & Orchard).
 
-![Zcash isi mmepụta usoro nhazi](https://pbs.twimg.com/media/FooPKd4XEBUQhJ6.jpg)
+![Zcash isi mmepụta usoro nhazi](/content-images/FooPKd4XEBUQhJ6-af133c01bf.webp)
 
 Zcash na-akwadokwa ** adreesị dị n'ime ** maka ọrụ obere akpa dịka Auto-Shielding.
 
@@ -91,9 +91,9 @@ Zcash na-akwadokwa ** adreesị dị n'ime ** maka ọrụ obere akpa dịka Aut
 
 ## Akụrụngwa
 
-- [ZIP-32: Shielded Hierarchical Deterministic Wallets] [Akwụkwọ ego ndị a na-eji eme ihe n'ụzọ ziri ezi]](https://zips.z.cash/zip-0032)  
+- [ZIP-32: Shielded Hierarchical Deterministic Wallets] [Akwụkwọ ego ndị a na-eji eme ihe n'ụzọ ziri ezi](https://zips.z.cash/zip-0032)  
 - [Zcash Protocol nkọwapụta (NU5)](https://zips.z.cash/protocol/protocol.pdf)  
-- [Nchịkọta nke obere akpa ego echedoro site na ndabara]](https://zechub.wiki)
+- [Nchịkọta nke obere akpa ego echedoro site na ndabara](https://zechub.wiki)
 
 ---
 

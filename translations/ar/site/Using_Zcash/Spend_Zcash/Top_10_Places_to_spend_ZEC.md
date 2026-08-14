@@ -41,15 +41,15 @@
 
 إلى جانب الكوكيز التي تقدمها، فهي تقدم خدمات أخرى، وأفضل ما في الأمر هو هذا: يمكنك الدفع باستخدام ZEC!
 
-![1_20230829_214024_0000.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/1_20230829_214024_0000.png)
+![1_20230829_214024_0000.png](/content-images/_unavailable.svg)
 
  كوكيز شوكولاتة مقرمشة | المصدر: Sheila Vargas Rojas
 
-![2_20230829_214024_0001.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/2_20230829_214024_0001.png)
+![2_20230829_214024_0001.png](/content-images/_unavailable.svg)
 
 كوكيز رقائق الشوفان والزبيب | المصدر: Sheila Vargas Rojas
 
-![Untitled design_20230829_215327_0000.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Untitled_design_20230829_215327_0000.png)
+![Untitled design_20230829_215327_0000.png](/content-images/_unavailable.svg)
 
 دونات بالفواكه المسكرة | المصدر: Sheila Vargas Rojas | 
 
@@ -57,7 +57,7 @@
 
 لذا، إذا كنت من عشاق الكوكيز..،
 
-![https://media.tenor.com/Px4lboKQYbYAAAAC/champagne-barbie-cookie-monster.gif](https://media.tenor.com/Px4lboKQYbYAAAAC/champagne-barbie-cookie-monster.gif)
+![https://media.tenor.com/Px4lboKQYbYAAAAC/champagne-barbie-cookie-monster.gif](/content-images/champagne-barbie-cookie-monster-ded97640a2.webp)
 
 فالآن تعرف أين تنفق ZEC الخاصة بك!
 
@@ -75,15 +75,15 @@ u1pu63k8tfcf0v06qr6f9qn3qpfh2hj8wjnc3wchguaqy2jc9xxmf4f424jns282qfwzvs6qq3tcd9er
 
 روزا ما. رانخيل، مهندسة كمبيوتر بالمهنة ولكن *صانعة شوكولاتة* عن قناعة، محبة للشوكولاتة باعترافها وشغوفة بالمخبوزات والحلويات، تقدم مجموعة واسعة من المنتجات الحرفية من الشوكولاتة، والحلويات الفنزويلية التقليدية، والمخبوزات. 
 
-![بدون عنوان](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Untitled.png)
+![بدون عنوان](/content-images/_unavailable.svg)
 
 شوكولاتة بالفواكه المجففة والفراولة
 
-![20230829_232246.jpg](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/20230829_232246.jpg)
+![20230829_232246.jpg](/content-images/_unavailable.svg)
 
 روزا تبتسم بفخر وهي تُظهر أنها تقبل **Zcash.**
 
-![Screenshot_20230829-232755.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Screenshot_20230829-232755.png)
+![Screenshot_20230829-232755.png](/content-images/_unavailable.svg)
 
 **الموقع الإلكتروني**: [https://somosdulceros.com/](https://somosdulceros.com/) 
 
@@ -103,21 +103,21 @@ u12vp85edmrkqy9uvall4wqqn2s9fx8nm5phsxu2nyme5yh8hn5xh8mv3qgunynskjy3t0w89234a83r
 
 إليزابيث أم شابة شغوفة تحب الأعمال اليدوية والتصميم. لديها الدافع الأهم الذي يجعلها مخلصة في كل شيء تفعله: عائلتها*.💙*
 
-![BackgroundEraser_20230830_134315142.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/BackgroundEraser_20230830_134315142.png)
+![BackgroundEraser_20230830_134315142.png](/content-images/_unavailable.svg)
 
 **المدونة:** 
 
 [https://papelesacolor.blogspot.com/](https://papelesacolor.blogspot.com/) 
 
-![2_20230830_152443_0001~2.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/2_20230830_152443_00012.png)
+![2_20230830_152443_0001~2.png](/content-images/_unavailable.svg)
 
 هل يترقى أطفالك؟ يمكن لـ **Papeles a color** مساعدتك في الاحتفال بإنجازاتهم.
 
-![3_20230830_152443_0002~2.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/3_20230830_152443_00022.png)
+![3_20230830_152443_0002~2.png](/content-images/_unavailable.svg)
 
 شيء مختلف وفريد؟ قاعدة شحن هاتف محمول من **Zcash**!
 
-![1_20230830_152443_0000.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/1_20230830_152443_0000.png)
+![1_20230830_152443_0000.png](/content-images/_unavailable.svg)
 
 بعض الأشياء الجميلة الأخرى التي تصنعها **Papeles a Color** يدويًا.
 
@@ -149,7 +149,7 @@ u1u7unmxgr6efh0l94hz0ag6zku4rjeuuarhql5xsnt744e2lu0dsmhrye5a6mlahw067atgh6x0ykax
 
 • بناء الهوية التجارية..، من بين أمور أخرى. مع التفكير دائمًا في كل امرأة في فنزويلا ترغب في إدارة عملها الخاص. 
 
-![https://i0.wp.com/emprendedorasdigitales.org/wp-content/uploads/2020/07/cropped-logo-nuevo_Mesa-de-trabajo-1-scaled-1.jpg?resize=300%2C208&ssl=1](https://i0.wp.com/emprendedorasdigitales.org/wp-content/uploads/2020/07/cropped-logo-nuevo_Mesa-de-trabajo-1-scaled-1.jpg?resize=300%2C208&ssl=1)
+![https://i0.wp.com/emprendedorasdigitales.org/wp-content/uploads/2020/07/cropped-logo-nuevo_Mesa-de-trabajo-1-scaled-1.jpg?resize=300%2C208&ssl=1](/content-images/cropped-logo-nuevo_Mesa-de-trabajo-1-sca-ba7d9d40e8.webp)
 
 **الموقع الإلكتروني**: [https://emprendedorasdigitales.org/](https://emprendedorasdigitales.org/) 
 
@@ -167,7 +167,7 @@ u14g5wzyan35s5fq4glf7hsf0wteuskr3dgfs25wkr2tk5dq6sqrfpq8pqmme5yp7c3eq42tlssgv5hw
 
 1. **GorBrit Social Media**
 
-![بلا عنوان](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Untitled%201.png)
+![بلا عنوان](/content-images/_unavailable.svg)
 
 هذا المكان الذي يديره **Roosevelt Gordones وAura Brito** يقدّم خدمات تتعلق بـ:
 
@@ -200,7 +200,7 @@ u1l2lxdx2en962h3utm24fthm0r9q5cxc4705jeatq4lckm92k06htdk8jear9tsay7w8xz4najnv0mp
 
 أصبح عمله معروفًا جيدًا في نظام Zcash البيئي بفضل مساهمته في نادي ZFAV.
 
-![لقطة شاشة_20230830-163829-271~2.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Screenshot_20230830-163829-2712.png)
+![لقطة شاشة_20230830-163829-271~2.png](/content-images/_unavailable.svg)
 
 • صناعة / تحرير الفيديو
 
@@ -218,7 +218,7 @@ u1l2lxdx2en962h3utm24fthm0r9q5cxc4705jeatq4lckm92k06htdk8jear9tsay7w8xz4najnv0mp
 
 1. **Karin Beauty Studio | بواسطة Karin Gordones**
 
-![لقطة شاشة_20230830-131043-768~2.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Screenshot_20230830-131043-7682.png)
+![لقطة شاشة_20230830-131043-768~2.png](/content-images/_unavailable.svg)
 
 أظافر جميلة، وأيدٍ جميلة بفضل Karin Beauty Studio.
 
@@ -238,13 +238,13 @@ u1nvhfur5lruk4lzy7v5j4wqs65rvslk7tvgxvcjpe7f8u08vjs98rsg9sralpnwgzzkevtr6k2flh7g
 
 ---
 
-![BackgroundEraser_20230901_110901449.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/BackgroundEraser_20230901_110901449.png)
+![BackgroundEraser_20230901_110901449.png](/content-images/_unavailable.svg)
 
 1. **Corona de Brillitos.** | بواسطة **Gissell** **B**. 
 
 هل تعرف ما المدهش في Zcash؟ وجود أشخاص مثل Gissell، وهي فتاة تبلغ من العمر 16 عامًا تحب الأشغال اليدوية وصنع الإكسسوارات الجميلة ذات الطابع الأنثوي، ومعرفة أنها في هذا العمر تستخدم Zcash في مشروعها المزدهر
 
-![20230830_235143_0000.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/20230830_235143_0000.png)
+![20230830_235143_0000.png](/content-images/_unavailable.svg)
 
 عرض أنيق وجميل لربطات الشعر | Corona de brillitos 
 
@@ -274,7 +274,7 @@ Tecnopapapi هو الشخص المناسب للتواصل معه!
 
 • نظام تشغيل Android (الهواتف)
 
-![IMG_20230901_093618_042.jpg](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/IMG_20230901_093618_042.jpg)
+![IMG_20230901_093618_042.jpg](/content-images/_unavailable.svg)
 
 **الموقع الإلكتروني** 
 
@@ -300,7 +300,7 @@ Altos Mirandinos، Valles. del Tuy، Guarenas، Guatire، La Guaira، مطار S
 
 يقبل العملات المشفرة، بما في ذلك **Zcash**
 
-![IMG_20230831_172209_058.jpg](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/IMG_20230831_172209_058.jpg)
+![IMG_20230831_172209_058.jpg](/content-images/_unavailable.svg)
 
  السيد Mendoza وهو يعرض محفظة Zingo الخاصة به. | حقوق الصورة: Edickson Gonzalez 
 
@@ -316,7 +316,7 @@ u10jd0tcj24p9rcju047lymtp9nx38h90j09rnr4ru6e8476822saywgn6phe373q78myrf2ew2j6kst
 
 خدمة توصيل | سفري | حجوزات
 
-![BackgroundEraser_20230901_114615839.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/BackgroundEraser_20230901_114615839.png)
+![BackgroundEraser_20230901_114615839.png](/content-images/_unavailable.svg)
 
 **الموقع الإلكتروني**: [www.alleginiristorante.com](http://www.alleginiristorante.com) (قيد الإنشاء)
 
@@ -326,7 +326,7 @@ u10jd0tcj24p9rcju047lymtp9nx38h90j09rnr4ru6e8476822saywgn6phe373q78myrf2ew2j6kst
 
 (قريبًا على [free2z.cash](http://free2z.cash). )
 
-![20230901_121633_0000.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/20230901_121633_0000.png)
+![20230901_121633_0000.png](/content-images/_unavailable.svg)
 
 **Zcash Unified Address** 
 

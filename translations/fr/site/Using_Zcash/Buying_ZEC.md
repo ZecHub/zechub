@@ -55,12 +55,12 @@ La plupart des grandes plateformes d'échange prennent en charge Zcash. Voir ici
 Ces plateformes d'échange prennent en charge les retraits transparents. Cela signifie que lorsque vous retirez des ZEC vers votre portefeuille, vous devez les envoyer à votre adresse transparente, votre adresse ZEC publique. 
 Cliquez [ici](https://zechub.wiki/using-zcash/non-custodial-exchanges) pour plus de détails.
 
-![dex](https://github.com/user-attachments/assets/bfe2e9cf-2def-4593-b790-152e14b23da3)
+![dex](/content-images/bfe2e9cf-2def-4593-b790-152e14b23da3-f94f97c7e6.webp)
 
 
 Lorsque vous faites cela, nous recommandons d'utiliser l'un des [portefeuilles](https://zechub.wiki/wallets) suivants. 
 
-![mobile](https://github.com/user-attachments/assets/8b7618f5-dec6-4e6b-9804-db75be5c1e2f)
+![mobile](/content-images/8b7618f5-dec6-4e6b-9804-db75be5c1e2f-14fa53d3bd.webp)
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">

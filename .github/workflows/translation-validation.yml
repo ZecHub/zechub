@@ -19,12 +19,41 @@ jobs:
       # TODO: pin actions to full commit SHAs (supply-chain hardening).
       - uses: actions/checkout@v4
         with:
+          # Full history so the gate can read source and translations at the
+          # base and tell an introduced violation from inherited staleness.
+          fetch-depth: 0
           persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Determine base ref
+        id: base
+        # Pass the (attacker-influenceable) ref names through env, never inline
+        # into the shell, to avoid command injection via a crafted branch name.
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BASE_REF: ${{ github.base_ref }}
+          EVENT_BEFORE: ${{ github.event.before }}
+        run: |
+          if [ "$EVENT_NAME" = "pull_request" ]; then
+            git fetch --no-tags --quiet origin "$BASE_REF"
+            echo "ref=origin/$BASE_REF" >> "$GITHUB_OUTPUT"
+          elif git rev-parse --verify --quiet "$EVENT_BEFORE^{commit}" >/dev/null; then
+            echo "ref=$EVENT_BEFORE" >> "$GITHUB_OUTPUT"
+          else
+            # A branch-creation push sends the all-zero SHA, and a force-push can
+            # leave the previous tip unreachable. Compare against the preceding
+            # commit rather than failing the job for a history reason.
+            echo "ref=HEAD^" >> "$GITHUB_OUTPUT"
+          fi
       - name: Validate protected terminology
-        run: node scripts/check-protected-terms.mjs
+        # Scoped to what this change did to translations. Inherited staleness
+        # (English edited, translations not yet re-synced) is reported as a
+        # notice and tracked on the translation staleness dashboard instead of
+        # reddening every unrelated PR.
+        env:
+          BASE_REF_OUT: ${{ steps.base.outputs.ref }}
+        run: node scripts/check-protected-terms.mjs --base "$BASE_REF_OUT"
 
   hash-lib-tests:
     runs-on: ubuntu-latest

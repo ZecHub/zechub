@@ -2,9 +2,9 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="https://i.ibb.co/BN7SxwY/ZEC-USD.png" alt="Alt Text" width="50"/>   非信託型取引所
+# <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Alt Text" width="50"/>   非信託型取引所
 
-[Zcash 非信託型取引所](/site/Using_Zcash/DEX_List)
+[Zcash 非信託型取引所](/dex)
 
 暗号資産の取引が常に進化する中、非信託型取引所（Decentralized Exchanges / DEXs）の台頭は、ユーザーがデジタル資産とどのように関わるかを再定義しています。これらのプラットフォームは、仲介者や第三者の必要性を取り除き、ユーザー自身にコントロールを戻す画期的な取引方法を提供します。
 

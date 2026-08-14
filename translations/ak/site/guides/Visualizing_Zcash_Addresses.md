@@ -16,15 +16,15 @@ Mprempren address ahorow atitiriw abiɛsa na wɔde di dwuma de besi nnɛ. Eyinom
 
 * fann
 
-![img1](https://user-images.githubusercontent.com/81990132/219261771-a9957ec3-2841-4073-9cfd-1db9d6356693.png)
+![img1](/content-images/219261771-a9957ec3-2841-4073-9cfd-1db9d6-574fc930f0.webp)
 
 * dua a wɔde yɛ nnuadewa
 
-![img2](https://user-images.githubusercontent.com/81990132/219261784-1a617e70-f588-4eed-96bf-f0789d7af58a.png)
+![img2](/content-images/219261784-1a617e70-f588-4eed-96bf-f0789d-e10ebfc543.webp)
 
 * Unified Address (Full)
 
-![img3](https://user-images.githubusercontent.com/81990132/219261794-bcc79db6-4dc6-4c6a-867b-3717b81e6b71.png)
+![img3](/content-images/219261794-bcc79db6-4dc6-4c6a-867b-3717b8-a3650f8968.webp)
 
 
 Ade a edi kan a ɛsɛ sɛ yɛhyɛ no nsow ne sɛnea ɛsono address ahorow biara tenten. Wubetumi ahu eyi wɔ w’ani so denam nkyerɛwde dodow a ɛwɔ address string no mu *anaasɛ* denam QR code ahorow a ɛbata ho a wobɛhwɛ so. Bere a address no tenten kɔ soro no, QR code no taa brɛ ase na ɛde data pii hyɛ ahinanan no mu.
@@ -46,21 +46,21 @@ Sɛ UA a edi mũ da nkyɛn a, nea ɛtaa ba a wubehu wɔ wuram no ni:
 
 * transparent + dua a ɛyɛ nnuadewa
 
-![img4 na ɛwɔ hɔ](https://user-images.githubusercontent.com/81990132/219267475-38ad1419-0aac-4205-b18e-6873283f9d85.png)
+![img4 na ɛwɔ hɔ](/content-images/219267475-38ad1419-0aac-4205-b18e-687328-46b8f12f80.webp)
 
 * transparent + nnuaba turo
 
 
-![img5](https://user-images.githubusercontent.com/81990132/219267496-90db21ff-f4e1-4a50-8f2a-1a71d995652a.png)
+![img5](/content-images/219267496-90db21ff-f4e1-4a50-8f2a-1a71d9-7423486eb5.webp)
 
 * nnuadewa + nnuaba turo
 
 
-![img6](https://user-images.githubusercontent.com/81990132/219267520-6b731ec2-e911-4469-acc5-c39d4addcac2.png)
+![img6](/content-images/219267520-6b731ec2-e911-4469-acc5-c39d4a-a89ba01b88.webp)
 
 * nnuaba turo
   
-![img7](https://user-images.githubusercontent.com/81990132/219267538-1a748fff-4034-4559-96ac-182723409b3a.png)
+![img7](/content-images/219267538-1a748fff-4034-4559-96ac-182723-3d69e23dac.webp)
 
 Adeɛ a ɛdi kan a ɛsɛ sɛ yɛhyɛ no nsow ne sɛ saa UA yi mu biara firi private key korɔ no ara mu! Ade a ɛto so abien a ɛsɛ sɛ yɛhyɛ no nsow ne UA ahorow biara tenten:
 

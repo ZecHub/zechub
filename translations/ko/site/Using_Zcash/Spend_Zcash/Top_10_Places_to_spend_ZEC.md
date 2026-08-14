@@ -41,15 +41,15 @@ Zcash와 ZEC는 향상된 프라이버시와 보안 기능을 모두 제공합�
 
 쿠키 외에도 다양한 서비스를 제공하며, 무엇보다 좋은 점은 이것입니다: ZEC로 결제할 수 있습니다!
 
-![1_20230829_214024_0000.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/1_20230829_214024_0000.png)
+![1_20230829_214024_0000.png](/content-images/_unavailable.svg)
 
 크래클 초콜릿 쿠키 | 출처: Sheila Vargas Rojas
 
-![2_20230829_214024_0001.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/2_20230829_214024_0001.png)
+![2_20230829_214024_0001.png](/content-images/_unavailable.svg)
 
 오트 플레이크 & 건포도 쿠키 | 출처: Sheila Vargas Rojas
 
-![Untitled design_20230829_215327_0000.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Untitled_design_20230829_215327_0000.png)
+![Untitled design_20230829_215327_0000.png](/content-images/_unavailable.svg)
 
 캔디드 과일 도넛 | 출처: Sheila Vargas Rojas | 
 
@@ -57,7 +57,7 @@ Zcash와 ZEC는 향상된 프라이버시와 보안 기능을 모두 제공합�
 
 그러니, 당신이 쿠키를 너무 좋아하는 사람이라면..,
 
-![https://media.tenor.com/Px4lboKQYbYAAAAC/champagne-barbie-cookie-monster.gif](https://media.tenor.com/Px4lboKQYbYAAAAC/champagne-barbie-cookie-monster.gif)
+![https://media.tenor.com/Px4lboKQYbYAAAAC/champagne-barbie-cookie-monster.gif](/content-images/champagne-barbie-cookie-monster-ded97640a2.webp)
 
 이제 어디에서 ZEC를 써야 할지 알겠죠!
 
@@ -75,15 +75,15 @@ u1pu63k8tfcf0v06qr6f9qn3qpfh2hj8wjnc3wchguaqy2jc9xxmf4f424jns282qfwzvs6qq3tcd9er
 
 Rosa Ma. Rangel은 직업은 컴퓨터 엔지니어이지만 신념으로는 *쇼콜라티에*이며, 자칭 초콜릿 애호가이자 베이커리와 페이스트리에 열정을 가진 사람으로, 초콜릿부터 전통 베네수엘라 디저트, 베이커리까지 다양한 수제 제품을 제공합니다. 
 
-![Untitled](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Untitled.png)
+![Untitled](/content-images/_unavailable.svg)
 
 건과일 & 딸기 초콜릿 
 
-![20230829_232246.jpg](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/20230829_232246.jpg)
+![20230829_232246.jpg](/content-images/_unavailable.svg)
 
 Rosa가 **Zcash**를 받는다는 사실을 자랑스럽게 미소 지으며 보여주고 있습니다.
 
-![Screenshot_20230829-232755.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Screenshot_20230829-232755.png)
+![Screenshot_20230829-232755.png](/content-images/_unavailable.svg)
 
 **웹사이트**: [https://somosdulceros.com/](https://somosdulceros.com/) 
 
@@ -103,21 +103,21 @@ u12vp85edmrkqy9uvall4wqqn2s9fx8nm5phsxu2nyme5yh8hn5xh8mv3qgunynskjy3t0w89234a83r
 
 Elizabeth는 공예와 디자인을 사랑하는 열정적인 젊은 엄마입니다. 그녀가 하는 모든 일에 헌신할 수 있게 하는 가장 중요한 동기는 바로 가족입니다*.💙*
 
-![BackgroundEraser_20230830_134315142.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/BackgroundEraser_20230830_134315142.png)
+![BackgroundEraser_20230830_134315142.png](/content-images/_unavailable.svg)
 
 **블로그:** 
 
 [https://papelesacolor.blogspot.com/](https://papelesacolor.blogspot.com/) 
 
-![2_20230830_152443_0001~2.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/2_20230830_152443_00012.png)
+![2_20230830_152443_0001~2.png](/content-images/_unavailable.svg)
 
 아이들이 진급했나요? **Papeles a color**가 그들의 성취를 축하할 수 있도록 도와드립니다.
 
-![3_20230830_152443_0002~2.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/3_20230830_152443_00022.png)
+![3_20230830_152443_0002~2.png](/content-images/_unavailable.svg)
 
 색다르고 특별한 것? **Zcash** 휴대폰 충전 거치대입니다!
 
-![1_20230830_152443_0000.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/1_20230830_152443_0000.png)
+![1_20230830_152443_0000.png](/content-images/_unavailable.svg)
 
 Papeles a Color가 손수 만드는 또 다른 아름다운 작품들입니다.
 
@@ -149,7 +149,7 @@ u1u7unmxgr6efh0l94hz0ag6zku4rjeuuarhql5xsnt744e2lu0dsmhrye5a6mlahw067atgh6x0ykax
 
 • 브랜딩 구축.., 그 외에도 다양합니다. 자신의 사업을 직접 이끌고자 하는 베네수엘라의 모든 여성을 늘 생각합니다. 
 
-![https://i0.wp.com/emprendedorasdigitales.org/wp-content/uploads/2020/07/cropped-logo-nuevo_Mesa-de-trabajo-1-scaled-1.jpg?resize=300%2C208&ssl=1](https://i0.wp.com/emprendedorasdigitales.org/wp-content/uploads/2020/07/cropped-logo-nuevo_Mesa-de-trabajo-1-scaled-1.jpg?resize=300%2C208&ssl=1)
+![https://i0.wp.com/emprendedorasdigitales.org/wp-content/uploads/2020/07/cropped-logo-nuevo_Mesa-de-trabajo-1-scaled-1.jpg?resize=300%2C208&ssl=1](/content-images/cropped-logo-nuevo_Mesa-de-trabajo-1-sca-ba7d9d40e8.webp)
 
 **웹사이트**: [https://emprendedorasdigitales.org/](https://emprendedorasdigitales.org/) 
 
@@ -167,7 +167,7 @@ u14g5wzyan35s5fq4glf7hsf0wteuskr3dgfs25wkr2tk5dq6sqrfpq8pqmme5yp7c3eq42tlssgv5hw
 
 1. **GorBrit Social Media**
 
-![Untitled](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Untitled%201.png)
+![제목 없음](/content-images/_unavailable.svg)
 
 **Roosevelt Gordones와 Aura Brito**가 운영하는 이곳은 다음과 같은 서비스를 제공합니다:
 
@@ -200,7 +200,7 @@ u1l2lxdx2en962h3utm24fthm0r9q5cxc4705jeatq4lckm92k06htdk8jear9tsay7w8xz4najnv0mp
 
 그의 작업은 Zcash 생태계에서 잘 알려져 있으며, 이는 ZFAV 클럽에 대한 그의 기여 덕분입니다.
 
-![Screenshot_20230830-163829-271~2.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Screenshot_20230830-163829-2712.png)
+![Screenshot_20230830-163829-271~2.png](/content-images/_unavailable.svg)
 
 • 영상 제작 / 편집
 
@@ -218,7 +218,7 @@ u1l2lxdx2en962h3utm24fthm0r9q5cxc4705jeatq4lckm92k06htdk8jear9tsay7w8xz4najnv0mp
 
 1. **Karin Beauty Studio | By Karin Gordones**
 
-![Screenshot_20230830-131043-768~2.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/Screenshot_20230830-131043-7682.png)
+![Screenshot_20230830-131043-768~2.png](/content-images/_unavailable.svg)
 
 Karin Beauty Studio 덕분에 아름다운 네일, 아름다운 손을 가꿀 수 있습니다.
 
@@ -238,13 +238,13 @@ u1nvhfur5lruk4lzy7v5j4wqs65rvslk7tvgxvcjpe7f8u08vjs98rsg9sralpnwgzzkevtr6k2flh7g
 
 ---
 
-![BackgroundEraser_20230901_110901449.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/BackgroundEraser_20230901_110901449.png)
+![BackgroundEraser_20230901_110901449.png](/content-images/_unavailable.svg)
 
 1. **Corona de Brillitos.** | **Gissell** **B** 제작. 
 
 Zcash의 놀라운 점이 무엇인지 아시나요? 공예를 사랑하고, 여성스럽고 아름다운 액세서리를 만들며, 겨우 16살의 나이에 자신의 성장하는 사업에서 Zcash를 사용하고 있는 Gissell 같은 사람이 있다는 점입니다.
 
-![20230830_235143_0000.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/20230830_235143_0000.png)
+![20230830_235143_0000.png](/content-images/_unavailable.svg)
 
 스크런치용 멋지고 우아한 포장 | Corona de brillitos 
 
@@ -274,7 +274,7 @@ Tecnopapapi가 바로 연락해야 할 적임자입니다!
 
 • Android 운영체제 (휴대폰)
 
-![IMG_20230901_093618_042.jpg](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/IMG_20230901_093618_042.jpg)
+![IMG_20230901_093618_042.jpg](/content-images/_unavailable.svg)
 
 **웹사이트** 
 
@@ -300,7 +300,7 @@ Altos Mirandinos, Valles. del Tuy, Guarenas, Guatire, La Guaira, Simón Bolívar
 
 그는 암호화폐를 받으며, 그중에는 **Zcash**도 포함됩니다.
 
-![IMG_20230831_172209_058.jpg](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/IMG_20230831_172209_058.jpg)
+![IMG_20230831_172209_058.jpg](/content-images/_unavailable.svg)
 
  Mendoza 씨가 자신의 zingo 지갑을 보여주고 있습니다. | 이미지 출처: Edickson Gonzalez 
 
@@ -316,7 +316,7 @@ u10jd0tcj24p9rcju047lymtp9nx38h90j09rnr4ru6e8476822saywgn6phe373q78myrf2ew2j6kst
 
 배달 서비스 | 포장 | 예약
 
-![BackgroundEraser_20230901_114615839.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/BackgroundEraser_20230901_114615839.png)
+![BackgroundEraser_20230901_114615839.png](/content-images/_unavailable.svg)
 
 **웹사이트**: [www.alleginiristorante.com](http://www.alleginiristorante.com) (준비 중)
 
@@ -326,7 +326,7 @@ u10jd0tcj24p9rcju047lymtp9nx38h90j09rnr4ru6e8476822saywgn6phe373q78myrf2ew2j6kst
 
 (곧 [free2z.cash](http://free2z.cash)에서도 만날 수 있습니다. )
 
-![20230901_121633_0000.png](Places%20to%20Spend%20ZEC%20b8e91641a9d2470a90949c5a543c9b06/20230901_121633_0000.png)
+![20230901_121633_0000.png](/content-images/_unavailable.svg)
 
 **Zcash Unified Address** 
 

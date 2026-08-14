@@ -32,7 +32,7 @@ USB USB ma ọ bụ Kaadị SD:
 
 Ntọala ngwa Zashi na ngwaọrụ mkpanaka gị.
 
-## [Nzọụkwụ site Nzọụkwụ Guide (Keystone Device) ]](https://keyst.one/get-started) 
+## [Nzọụkwụ site Nzọụkwụ Guide (Keystone Device) ](https://keyst.one/get-started) 
 
 
 **Họrọ Asụsụ Gị**

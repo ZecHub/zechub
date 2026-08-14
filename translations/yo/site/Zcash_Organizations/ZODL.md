@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="https://github.com/user-attachments/assets/198608b2-9059-4cb7-aeb8-9354971376fd" alt="ZODL Logo" width="50"/> ZODL (Zcash Open Development Lab)
+# <img src="/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp" alt="ZODL Logo" width="50"/> ZODL (Zcash Open Development Lab)
 
 [Ìkànnì](https://zodl.com/) - [GitHub](https://github.com/AgoraCyber) - [X/Twitter] - Àìmọ̀lé](https://x.com/zodl_app) - [Àìfohùnṣọ̀kan](https://discord.gg/zodl)
 
@@ -45,8 +45,8 @@ Owó-ìdílé náà ni a ń lò láti mú ìdàgbàsókè bá ètò Zcash àti �
 Zodl is a self-custodial mobile wallet designed for private Zcash transactions. It combines deep protocol-level knowledge with user-friendly design, hiding complexity while maintaining security.
 
 **Àwọn pápákọ̀:**
-- [iOS (App Store) ]](https://apps.apple.com/app/zodl/id6444974742)
-- [Àwòrán Android (Ilé Ìtajà Play) ]](https://play.google.com/store/apps/details?id=co.electriccoin.zcash)
+- [iOS (App Store) ](https://apps.apple.com/app/zodl/id6444974742)
+- [Àwòrán Android (Ilé Ìtajà Play) ](https://play.google.com/store/apps/details?id=co.electriccoin.zcash)
 - [F-Droid] Àtúnṣe ojúewé](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
 - [GitHub](https://github.com/AgoraCyber)
 
@@ -89,7 +89,7 @@ ZODL n ṣe ipa meji ninu ilolupo eda abemi Zcash:
 
 ## Àwọn ohun àmúṣọrọ̀
 
-- [Ìkànnì ZODL]](https://zodl.com/)
+- [Ìkànnì ZODL](https://zodl.com/)
 - [ZODL Nípa ojúewé](https://zodl.com/about/)
 - [X/Twitter] Àkọlé àwòrán](https://x.com/zodl_app)
 - [Josh Swihart ní X](https://x.com/jswihart)

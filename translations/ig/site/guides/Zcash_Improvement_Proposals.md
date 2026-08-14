@@ -4,7 +4,7 @@
 
 # Nkwupụta Mmezi Zcash
 
-<img width="672" height="378" alt="1" src="https://github.com/user-attachments/assets/fbce4a28-585b-4caa-b306-4cf06bcb5977" />
+<img width="672" height="378" alt="1" src="/content-images/fbce4a28-585b-4caa-b306-4cf06bcb5977-0b61791008.webp" />
 
 
 
@@ -32,7 +32,7 @@ For every ZIP that comes in, it must undergo the review process. ZIP editors are
 
 > Atụmatụ: [Transarent Zcash Extensions](https://github.com/zcash/zips/blob/main/zip-0222)
 
-> Draft: [Nnyefe na Ọkụ nke Zcash Shielded Assets]](https://github.com/zcash/zips/blob/main/zip-0226)
+> Draft: [Nnyefe na Ọkụ nke Zcash Shielded Assets](https://github.com/zcash/zips/blob/main/zip-0226)
 
 > Draft: [Mgbapụta nke Zcash Shielded Assets](https://github.com/zcash/zips/blob/main/zip-0227)
 
@@ -48,7 +48,7 @@ For every ZIP that comes in, it must undergo the review process. ZIP editors are
 
 > Draft: [Nchekwa Njirimara nke Sapling Ịhụ igodo](https://github.com/zcash/zips/blob/main/zip-0310)
 
-> Draft: [Definition of an Address Type to which funds can only be sent from Transparent Addresses] [Nkọwa nke ụdị adreesị nke enwere ike izipu ego site na Adreesị doro anya]](https://github.com/zcash/zips/blob/main/zip-0320)
+> Draft: [Definition of an Address Type to which funds can only be sent from Transparent Addresses] [Nkọwa nke ụdị adreesị nke enwere ike izipu ego site na Adreesị doro anya](https://github.com/zcash/zips/blob/main/zip-0320)
 
 > Draft: [Ụdị Wallet.dat](https://github.com/zcash/zips/blob/main/zip-0400)
 

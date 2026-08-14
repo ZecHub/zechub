@@ -55,12 +55,12 @@ Nsesa akɛse dodow no ara boa Zcash. Hwɛ ha ma nsɛm a wɔahyehyɛ a ɛkɔ akyi
 Saa nneɛma a wɔde sesa nneɛma yi boa sika a woyi fi mu a ɛda adi pefee. Wei kyerɛ sɛ sɛ woyi ZEC kɔ wo sika kotokuo mu a, ɛsɛ sɛ wode kɔ wo address a ɛda adi pefee, wo ɔmanfoɔ ZEC address. 
 Klik [ha](https://zechub.wiki/using-zcash/non-custodial-exchanges) me fam no, nsɛm a ɛkɔ akyiri.
 
-![dex](https://github.com/user-attachments/assets/bfe2e9cf-2def-4593-b790-152e14b23da3)
+![dex](/content-images/bfe2e9cf-2def-4593-b790-152e14b23da3-f94f97c7e6.webp)
 
 
 Sɛ woreyɛ eyi a, yɛhyɛ nyansa sɛ fa [sika kotoku] a edidi so yi mu biako di dwuma](https://zechub.wiki/wallets). 
 
-![moobaa](https://github.com/user-attachments/assets/8b7618f5-dec6-4e6b-9804-db75be5c1e2f)
+![moobaa](/content-images/8b7618f5-dec6-4e6b-9804-db75be5c1e2f-14fa53d3bd.webp)
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">

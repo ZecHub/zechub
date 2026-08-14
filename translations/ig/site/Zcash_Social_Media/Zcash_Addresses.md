@@ -15,7 +15,7 @@ Taa, anyị ga-amụta maka ha & kpuchie otu n'ime atụmatụ ọhụrụ na #Z
 
 **Shielded Transaction** na-ezo aka na azụmahịa ọ bụla nwere adreesị ezoro ezo maka ọdọ mmiri Sapling/Orchard.
 
-[Nkọwapụta Transparent vs Shielded]](https://pbs.twimg.com/media/FpmW00HWIAIZpQD.jpg)
+[Nkọwapụta Transparent vs Shielded](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
 
 A haziri Unified Addresses (UA) iji mee ka azụmahịa ndị e chebere ma ọ bụ ndị doro anya banye n'otu adreesị.
 
@@ -31,9 +31,9 @@ E nwere ụdị adreesị atọ eji eme ihe:
 
 Ọnụ ọgụgụ nke ihe odide (na ya mere ogo QR code) na-abawanye na ụdị ọ bụla.
 
-[Nkọwa ụdị adreesị](https://pbs.twimg.com/media/FpmXe5bXsAEFeLY.png)
+[Nkọwa ụdị adreesị](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
 
-![Nkọwapụta nha QR](https://pbs.twimg.com/media/FpmXmDwXoAIWxov.png)
+![Nkọwapụta nha QR](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
 
 ---
 
@@ -50,7 +50,7 @@ Nkọwapụta nke Unified Address bụ ngwakọta nke encodings (typecode, ogolo
 
 **Dị mkpa**: A ga-enwerịrị **ọ dịkarịa ala otu adreesị akwụ ụgwọ echedoro** na UA ọ bụla. (A naghị akwado adreesì akwụkwọ ntuziaka ọzọ mgbe nkwalite Canopy.)
 
-![Ọdịdị koodu UA](https://pbs.twimg.com/media/FpmYW1ZXgAAvALT.png)
+![Ọdịdị koodu UA](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
 
 Nkọwa zuru ezu: **[ZIP-316: Unified Addresses](https://zips.z.cash/zip-0316)**
 

@@ -841,21 +841,23 @@ background-color: var(--bg-app);
   user-select: none;
 }
 
-
 .subquest-name {
   font-size: 14px;
   font-weight: bold;
   color: var(--text-main) !important;
 
-  display: block;
-  width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   overflow: hidden;
-  white-space: nowrap;
   text-overflow: ellipsis;
+
+  width: 100%;
+  word-break: break-word;
 }
 
 .preview-text.multi-reward .subquest-name {
-  white-space: nowrap;
+  -webkit-line-clamp: 2;
   overflow: hidden;
   text-overflow: ellipsis;
 }

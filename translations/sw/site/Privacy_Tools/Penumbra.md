@@ -1,18 +1,18 @@
-# Kivuli 
+# Kivuli cha Nuru (penumbra) 
 
-Penumbra ipo kwa kuwa ya kukata makali, kikamilifu ulinzi safu-1 mtandao vying katika Cosmos mazingira. Inawezesha watumiaji wake kufanya shughuli salama, hisa na kubadilishana ishara, na soko kufanya bila ya kufunua metadata yao juu ya mnyororo. Kama blockchain kikamilifu kulindwa, pia inatoa shughuli ulinzi kwenye mtandao bila kuathiri faragha au utengamano  Penumbra ina faragha kwa default, na hakuna shughuli uwazi au uwazi thamani pool.
+Penumbra ipo kuwa ya kukata makali, kikamilifu ulinzi safu-1 mtandao vying katika Cosmos mazingira. Inawezesha watumiaji wake kufanya shughuli salama, hisa na kubadilishana ishara, na soko bila kufunua metadata yao juu-mnyororo. Kama blockchain kabisa kulindwa, pia inatoa mikataba walinda kwenye wavuti bila kuathiri faragha au utengamano  Penumbla ina faragha kwa default, hakuna miamala uwazi au thamani wazi pool.
 
-! [picha.png](https://drive.google.com/file/d/16CcFQ1ZhG_pi4ENQuhFKPwN-J1diELRX/view?usp=drive_link)
+![image.png](/content-images/_unavailable.svg)
 
 ## Teknolojia kutumika katika Penumbra IBC 
 
 IBC Integration: Coming in hot at number one is the Inter-Blockchain Communication (IBC) protocol, a groundbreaking and innovative technology that facilitates Penumbra’s operations. It is crucial for enhancing interoperability within the network. IBC also works by enabling different blockchain networks to communicate and exchange data. More so, IBC plays a key role in facilitating seamless asset transfers, data sharing, and interaction between Penumbra. This interoperability and technology help users move tokens and assets across various blockchains without hassle. On the other hand, IBC also contributes to scalability, enhancing fast transactions, optimizing performance, and reducing delay in Penumbra’s network.
 
-Zero-Knowledge Proofs (ZKPs): Penumbra leverages the zero-knowledge proof cryptography technology to ensure that all transactions are verified and validated without revealing any details such as the sender, receiver, or the amount that was transferred.
+Ushahidi wa ujuzi (ZKPs): Penumbra hutumia teknolojia ya usimbuaji-ujuzi ili kuhakikisha kuwa shughuli zote zinathibitishwa na kuthibitishwa bila kufunua maelezo yoyote kama vile mtumaji, mpokeaji au kiasi kilichopitishwa.
 
-! [picha.png](https://drive.google.com/file/d/1BxY5PlHBdV5iwZDgi86Z4Jz6CEesSjvO/view?usp=drive_link)
+![image.png](/content-images/_unavailable.svg)
 
-Decentralized Exchange with Privacy: At the core of the  Panumbra network is privacy. The network may leverage a decentralized exchange mechanism that fosters the privacy of trades and crypto transactions while also protecting  financial data and giving users the right to control the disclosure of their trading strategies.
+Decentralized Exchange with Privacy: Katika msingi wa mtandao Panumbra ni faragha. Mtandao unaweza leverage utaratibu madaraka kubadilishana ambayo kukuza usiri wa biashara na crypto shughuli wakati pia kulinda data ya kifedha na kutoa watumiaji haki ya kudhibiti ufunuo wa mikakati yao ya biashara.
 
 ## Matumizi ya kesi
 
@@ -22,4 +22,4 @@ Staking: From a birds-eye view, Penumbra wants to stay at the top of the food ch
 
 Token Swap: Token Swap is yet another use case for Penumbra. The network supports shielded swaps between any kind of crypto asset — upon submission, all swaps are sealed! By leveraging ZSwap, users can swap any pairs of crypto assets without revealing sensitive details like trading history or timestamps which can potentially help combat financial fraud. While Maximal Extractable Value (MEV) is synonymous with transparent chains, fully shielded chains like Penumbra have no MEV since the network transactions do not leak data about user activity.
 
-Marketmake: The fully shielded chain  Penumbra, inatoa watengenezaji wa soko udhibiti wa kufichua habari kuhusu mikakati yao ya biashara na sifa badala ya kufunua shughuli zao zote kwa ulimwengu.
+Marketmake: mlolongo kamili ulinzi  Penumbra, inatoa watengenezaji soko udhibiti wa kutoa taarifa kuhusu mikakati yao ya biashara na sifa badala ya kufunua shughuli zao zote kwa dunia.

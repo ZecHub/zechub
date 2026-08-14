@@ -4,7 +4,7 @@
 
 
 # Подкаст The Zcash Podcast на Digital Cash Network
-![Screenshot_2023-01-22_21-50-14](https://user-images.githubusercontent.com/81990132/213973803-b0629c92-08d4-459b-99f1-594854a7db3a.png)
+![Screenshot_2023-01-22_21-50-14](/content-images/213973803-b0629c92-08d4-459b-99f1-594854-6272d02af6.webp)
 
 The Zcash Podcast пропонує контент, зокрема оновлення, глибокі занурення в окремі теми тощо, для вже наявної спільноти Zcash, щоб вона могла його споживати й поширювати, а також дає можливість чинним підписникам каналу Digital Cash Network глибше ознайомитися із Zcash. 
 

@@ -5,7 +5,7 @@
 # Опубликование сайта на IPFS
 
 <a href="">
-    <img src="https://blog.desdelinux.net/wp-content/uploads/2020/04/IPFS-.jpg" alt="" width="800" height="400"/>
+    <img src="/content-images/IPFS-40c2e22732.webp" alt="" width="800" height="400"/>
 </a>
 
 
@@ -51,7 +51,7 @@ IPFS (InterPlanetary File System) — это протокол и сеть peer-t
 Выберите папку с файлами вашего веб-сайта и перейдите к опции "Добавить папку".
 
 <a href="">
-    <img src="https://i.ibb.co/ZHW4zsY/ipfs-site-folder.png" alt="" width="400" height="200"/>
+    <img src="/content-images/ipfs-site-folder-2c96524d98.webp" alt="" width="400" height="200"/>
 </a>
 
 –
@@ -88,14 +88,14 @@ IPFS (InterPlanetary File System) — это протокол и сеть peer-t
 
 
 <a href="">
-    <img src="https://dnslink.io/assets/dns-query.a0134a75.png" alt="" width="400" height="100"/>
+    <img src="/content-images/dns-query.a0134a75-9ef7817f80.webp" alt="" width="400" height="100"/>
 </a>
 
 
 В меню настроек для вашей папки сайта в приложении IPFS desktop выберите "Опубликовать на IPNS".
 
 <a href="">
-    <img src="https://i.ibb.co/Ch25dKf/IPNS.png" alt="" width="400" height="200"/>
+    <img src="/content-images/IPNS-2fe62cc369.webp" alt="" width="400" height="200"/>
 </a>
 
 
@@ -111,7 +111,7 @@ IPFS (InterPlanetary File System) — это протокол и сеть peer-t
 
 
 <a href="">
-    <img src="https://i.ibb.co/MgRxBHj/example.png" alt="" width="400" height="100"/>
+    <img src="/content-images/example-c2a9edb28b.webp" alt="" width="400" height="100"/>
 </a>
 
 

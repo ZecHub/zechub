@@ -9,7 +9,7 @@
 
 Halo 是由 Electric Coin Co. 的 Sean Bowe 提出的一种无需信任、可递归的零知识证明（ZKP）。它消除了可信设置，并使 Zcash 区块链具备更强的可扩展性。Halo 是首个同时兼具高效性与递归性的零知识证明系统，被广泛认为是一项科学突破。
 
-![halo](https://electriccoin.co/wp-content/uploads/2021/01/Halo-on-Z-1440x720.png "halo")
+![halo](/content-images/_unavailable.svg "halo")
 
 
 **组成部分**
@@ -47,13 +47,13 @@ zkSNARK 依赖公共参考字符串（CRS）作为证明和验证的公共参数
 Halo 2 是一个用 Rust 编写的高性能 zk-SNARK 实现，它消除了对可信设置的需求，同时为 Zcash 的可扩展性奠定了基础。 
 
 <a href="">
-    <img src="https://electriccoin.co/wp-content/uploads/2020/09/Halo-puzzle-03-1024x517.jpg" alt="" width="500" height="300"/>
+    <img src="/content-images/Halo-puzzle-03-1024x517-e034023d10.webp" alt="" width="500" height="300"/>
 </a>
 
 它包含了我们方法的一种泛化，称为**累积方案**。这一新的形式化揭示了我们的嵌套摊销技术究竟如何运作：通过将证明添加到一个称为**累加器**的对象中，而这些证明会对累加器的先前状态进行推理，我们只需检查累加器的当前状态，就可以通过归纳法验证此前所有证明都正确。
 
 <a href="">
-    <img src="https://i.imgur.com/l4HrYgE.png" alt="" width="500" height="300"/>
+    <img src="/content-images/l4HrYgE-1ea7bc32f7.webp" alt="" width="500" height="300"/>
 </a>
 
 

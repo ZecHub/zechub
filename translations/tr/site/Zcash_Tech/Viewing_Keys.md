@@ -47,7 +47,7 @@ Bir kullanıcı neden bunu yapmak istesin ki? Electric Coin Co.'nun bu konudaki 
 * Sağ üst köşede "Account" seçeneğini seçin, ardından sağ altta bulunan "+" simgesine tıklayarak viewing key'inizi içe aktarın ve 'read-only' hesabınızı ekleyin.
 
 <a href="">
-    <img src="https://i.ibb.co/C0b002N/image-2024-01-13-175554676.png" alt="" width="200" height="280"/>
+    <img src="/content-images/image-2024-01-13-175554676-8cdf988797.webp" alt="" width="200" height="280"/>
 </a>
 
 

@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/amochuko/zechub/68acdb6f311bff85fe8ded7b47b2e362d7712474/assets/icons/programmer-software-engineer-coder-software-developer-svgrepo-com.svg" width="24" height="24" alt="Freelancer icon"/> Freelancer Privacy Setup with Zcash
+# <img src="/content-images/programmer-software-engineer-coder-softw-bce5a0cb5b.svg" width="24" height="24" alt="Freelancer icon"/> Freelancer Privacy Setup with Zcash
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
@@ -10,22 +10,22 @@
 - Kupokea malipo kupitia anwani za ulinzi
 - Kitambulisho tofauti kwa kila mteja (ikiwa inahitajika)
 - Matumizi memos kwa kufuatilia ndani
-- Usifunue mapato yako
+- Usifunue mapato yako.
 
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/user-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
 
-- Wafanyakazi wa kujitegemea na wakandarasi
-- Wafanyakazi wa mbali wanalipwa kwa crypto
-- Wataalamu wanaojali faragha
+- Wafanyakazi huru na wakandarasi
+- Wafanyakazi wa mbali wanalipwa kwa crypto.
+- Wataalamu wanaothamini faragha yao
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/warning-error-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
 
-Wafanyakazi huru wanaotumia crypto ya umma wanafichua:
+Wafanyakazi huru wanaotumia crypto ya umma hufunua:
 - Mapato yao
 - Wateja wao
 - Historia yao ya kifedha
@@ -33,21 +33,21 @@ Wafanyakazi huru wanaotumia crypto ya umma wanafichua:
 Hii inaweza kusababisha:
 - Kupoteza nguvu ya mazungumzo
 - Hatari za faragha
-- Visibility zisizohitajika
+- visibility zisizohitajika
   
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-lock.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash?
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash?
 
 Zcash inaruhusu wewe:
 - Kupokea malipo binafsi
-- Ficha mapato yako
+- Ficha mapato yako.
 - Kulinda mahusiano ya mteja
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-toolbox.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
 - Zcash mkoba na memo msaada
 - Uelewa wa msingi wa anwani za ulinzi
@@ -55,14 +55,14 @@ Zcash inaruhusu wewe:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/ladder-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
 
-### Hatua ya 1: Unda anwani ya malipo
+### Hatua ya 1: Kujenga anwani ya malipo
 
-Kuzalisha kinga (z) anwani.
+Kuzalisha kusitiri (z) anwani.
 
 Kwa hiari:
-- Tumia anwani tofauti kwa wateja tofauti
+- Tumia anwani tofauti kwa wateja mbalimbali
 
 
 ### Hatua ya 2: Kushiriki anwani na mteja
@@ -70,7 +70,7 @@ Kwa hiari:
 Tuma anwani yako ya Z moja kwa moja kwa mteja wako.
 
 Epuka:
-- Kuchapisha kwa umma kama si lazima
+- Kuweka wazi ikiwa sio lazima
 
 ### Hatua ya 3: Matumizi Memos kwa Kufuatilia
 
@@ -78,10 +78,10 @@ Wakati wa kupokea malipo:
 - Uliza wateja kuingiza memo (kwa mfano, ID ya ankara)
 
 Hii itakusaidia:
-- Kufuatilia malipo bila kufichua data hadharani
+- Kufuatilia malipo bila ya kufichua data hadharani
 
 
-### Hatua ya 4: Dumisha Utambulisho Wako
+### Hatua ya 4: Dumisha Utambulisho wa Kutenganishwa
 
 Ikiwa ni lazima:
 - Matumizi tofauti pochi au anwani kwa kila mteja
@@ -89,34 +89,34 @@ Ikiwa ni lazima:
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/icons8-cancel.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
 
 - Kutumia anwani uwazi kwa ajili ya malipo 
 - Reusing anwani sawa katika wateja wote 
-- Kuunganisha umma mkoba kwa utambulisho 
-- Si kufuatilia malipo (kuongoza kwa kuchanganyikiwa)
+- Umma kuunganisha mkoba kwa utambulisho 
+- Si kufuatilia malipo (kuongoza kwa mkanganyiko)
 
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/checked-checkbox-svgrepo-com.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
 
 Unaweza:
 - Kupokea malipo binafsi
-- Kulinda data yako ya mapato
+- Linda data yako ya mapato
 - Kudumisha kubadilika kitaaluma
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/chain-for-links-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Mifuko ya fedha](/wallets)
+- [Mkoba](/wallets)
 
 <br/>
 
-## <img src="https://raw.githubusercontent.com/amochuko/zechub/82d2046091b73a626d818571a978fcaffdc7ebf4/assets/icons/progress-arrows-svgrepo-com.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
 
-** Hatua ya 3 ya 6**
+** Hatua ya 3 kati ya 6**
 
 Sasa unaelewa jinsi ya kupokea mapato binafsi.
 
@@ -124,5 +124,5 @@ Sasa unaelewa jinsi ya kupokea mapato binafsi.
 
 ## Hatua Inayofuata
 
-- [Kukubali Malipo kama Mfanyabiashara](/use-cases/accept-payments-as-a-merchant)
+- [Kubali Malipo Kama Mfanyabiashara](/zcash-use-cases/accept-payments-as-a-merchant)
 <br/>

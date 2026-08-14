@@ -16,15 +16,15 @@ Lọwọlọwọ awọn oriṣi adirẹsi mẹta lo wa ni lilo titi di oni.
 
 * tó ṣe kedere
 
-! [ì ì1 ]](https://user-images.githubusercontent.com/81990132/219261771-a9957ec3-2841-4073-9cfd-1db9d6356693.png)
+! [ì ì1 ](/content-images/219261771-a9957ec3-2841-4073-9cfd-1db9d6-574fc930f0.webp)
 
 * ọmọ ọ̀dọ́
 
-! [ì ì ì2 ]](https://user-images.githubusercontent.com/81990132/219261784-1a617e70-f588-4eed-96bf-f0789d7af58a.png)
+! [ì ì ì2 ](/content-images/219261784-1a617e70-f588-4eed-96bf-f0789d-e10ebfc543.webp)
 
 * Unified Address (Full)
 
-! [ì ì ì3 ]](https://user-images.githubusercontent.com/81990132/219261794-bcc79db6-4dc6-4c6a-867b-3717b81e6b71.png)
+! [ì ì ì3 ](/content-images/219261794-bcc79db6-4dc6-4c6a-867b-3717b8-a3650f8968.webp)
 
 
 First thing to notice is how the length of each type of address is different. You can see this visually by the number of characters in the address string *or* by looking at the associated QR codes. As length of the address increases, the QR code tends to zoom out and fit more data into the square.
@@ -46,21 +46,21 @@ Yàtọ̀ sí àwọn àbùdá tí kò ṣeé fojú rí yìí, àwọn tó wọ́p
 
 * ìmọ́lẹ̀ + ọ̀wọ́ igi
 
-! [ì ì 1⁄4](https://user-images.githubusercontent.com/81990132/219267475-38ad1419-0aac-4205-b18e-6873283f9d85.png)
+! [ì ì 1⁄4](/content-images/219267475-38ad1419-0aac-4205-b18e-687328-46b8f12f80.webp)
 
 * àlàfo + ọgbà èso
 
 
-! [ì í ì °5](https://user-images.githubusercontent.com/81990132/219267496-90db21ff-f4e1-4a50-8f2a-1a71d995652a.png)
+! [ì í ì °5](/content-images/219267496-90db21ff-f4e1-4a50-8f2a-1a71d9-7423486eb5.webp)
 
 * ọgbà àjàrà + ọgbà èso
 
 
-! [ì ì °6](https://user-images.githubusercontent.com/81990132/219267520-6b731ec2-e911-4469-acc5-c39d4addcac2.png)
+! [ì ì °6](/content-images/219267520-6b731ec2-e911-4469-acc5-c39d4a-a89ba01b88.webp)
 
 * ọgbà èso
   
-![ì ì ì£1⁄4ì í ]](https://user-images.githubusercontent.com/81990132/219267538-1a748fff-4034-4559-96ac-182723409b3a.png)
+![ì ì ì£1⁄4ì í ](/content-images/219267538-1a748fff-4034-4559-96ac-182723-3d69e23dac.webp)
 
 Ohun akọkọ lati ṣe akiyesi ni wipe kọọkan ti awọn wọnyi UA ká wa ni lati kanna ikọkọ bọtini! ohun keji lati se akiyesi ni awọn ipari ti kọọkan iru ti UA:
 

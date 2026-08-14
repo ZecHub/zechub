@@ -10,36 +10,36 @@ Bu rehberde, ZEC ile nasıl kontör satın alacağınızı öğreneceksiniz.
 ### 2. Ülkenizi ve operatörünüzü seçin
 Sol üst köşeye gidin ve ülkenizi seçin; ardından mobil telefon kredisi seçeneğini belirleyin ve kontör yüklemek istediğiniz operatörü seçin (örnek: MTN).
 
-![Adım 2 - Ülke ve operatör seçimi](https://cdn-images-1.medium.com/max/1200/0*qvB7ZCWaVWa-C2d8)
+![Adım 2 - Ülke ve operatör seçimi](/content-images/0-qvB7ZCWaVWa-C2d8-db0d4ea372.webp)
 
 ### 3. Bilgileri doldurun ve satın alın
 Doğru bilgileri girin ve "Buy Now" düğmesine basın. Siparişinizi görüntülemek için sepeti açın, devam et'e tıklayın ve satın alma işlemini $ZEC ile onaylayın.
 
-![Adım 3 - Satın alma ekranı](https://cdn-images-1.medium.com/max/1200/0*ikF-ooBc9W7olfNt)
+![Adım 3 - Satın alma ekranı](/content-images/0-ikF-ooBc9W7olfNt-7a4584edda.webp)
 
 ### 4. Ödeme bilgileri
 $ZEC cinsinden eşdeğer tutar ve fonların gönderilmesi gereken şeffaf bir adres size sunulacaktır.
 
-![Adım 4 - ZEC ödeme bilgileri](https://cdn-images-1.medium.com/max/1200/0*6_YhAhQnsLbrMvHN)
+![Adım 4 - ZEC ödeme bilgileri](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
 
 ### 5. Ödemeyi gönderin
 Tutarı ve adresi dikkatlice kopyalayıp yapıştırın. Geri ödeme gerekmesi ihtimaline karşı, memo alanına YWallet adresinizi ekleyin.
 
-![Adım 5 - ZEC gönderimi](https://cdn-images-1.medium.com/max/1200/0*DNnpyemsKcW-k-u-)
+![Adım 5 - ZEC gönderimi](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
 
 ### 6. İşlem
 Fonlar gönderildikten sonra, talebiniz birkaç dakika içinde işleme alınacaktır.
 
-![Adım 6 - İşlem ekranı](https://cdn-images-1.medium.com/max/1200/0*LgXuUVLVecqrUW5G)
+![Adım 6 - İşlem ekranı](/content-images/0-LgXuUVLVecqrUW5G-a894c7b2dd.webp)
 
 ### 7. Onay
 Hey… Hattıma kontör yüklendi! Ayrıca ödeme süreci sırasında e-postanızı da onaylayabilirsiniz; böylece işlem tamamlandığında e-posta ile bilgilendirilirsiniz.
 
-![Adım 7 - Başarılı kontör yükleme](https://cdn-images-1.medium.com/max/1200/0*TJKIcqznQ4Y8_jgo)
+![Adım 7 - Başarılı kontör yükleme](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
 
 ---
 
-![Ek ekran görüntüsü](https://cdn-images-1.medium.com/max/1200/0*Jn7tD9lb2xtMBpIw)
+![Ek ekran görüntüsü](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)
 
 ### ZEC Harcanabilecek Diğer Yerler
 

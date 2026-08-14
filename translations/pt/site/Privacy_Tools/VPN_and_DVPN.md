@@ -11,12 +11,12 @@ Na era digital, manter a privacidade e a segurança online é de extrema import�
 
 __Virtual Private Networks (VPNs)__: As VPNs tradicionais criam um túnel seguro e encriptado entre o seu dispositivo e um servidor remoto controlado pelo fornecedor da VPN. Este túnel oculta as suas atividades online de olhares indiscretos, como hackers, ISPs ou agências governamentais. As VPNs são amplamente utilizadas para fins como navegação anónima, acesso a conteúdo com restrição geográfica e proteção contra ameaças cibernéticas.
 
-![image223](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Privacy_Tools/assets/image-223.png)
+![image223](/content-images/image-223-399e3015e7.webp)
 
 
 __Decentralized VPNs (dVPNs)__: Em contraste, as dVPNs utilizam blockchain e tecnologia peer-to-peer para criar uma rede descentralizada de nós. O tráfego dos utilizadores é encaminhado através desses nós, tornando difícil para qualquer entidade única monitorizar ou controlar toda a rede. As dVPNs são normalmente mais resistentes à censura, uma vez que não existe uma autoridade centralizada a supervisionar a rede. São especialmente adequadas para utilizadores que procuram maior privacidade e segurança.
 
-![dvpn](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Privacy_Tools/assets/dvpn.png)
+![dvpn](/content-images/dvpn-89698d4cb9.webp)
 
 
 # Considerações de Segurança ao Selecionar uma VPN

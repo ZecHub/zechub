@@ -1,286 +1,343 @@
----
 ## [ZODL](https://zodl.com)
-![logo](https://github.com/user-attachments/assets/198608b2-9059-4cb7-aeb8-9354971376fd "ZODL")
+![logo](/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp "ZODL")
 - Appareils : Mobile
 - Système d’exploitation : Android | iOS
-- Support wallet : Seed Phrase | Viewing Key | Unified Address | Hardware
+- Prise en charge du portefeuille : Phrase de récupération | Viewing Key | Unified Address | Hardware
 - Pools : Transparent | Sapling | Orchard
-- Fonctionnalités : Carnet d’adresses | CrossPay | Near Intents | Paiements Flexa | MultiSignature | Demande de paiement | Shielded Memo | Dépenser avant la synchronisation | Adresse TEX | Support Tor | F-droid
+- Fonctionnalités : Carnet d’adresses | CrossPay | Near Intents | Paiements Flexa | Multisignature | Demande de paiement | Mémo blindé | Dépenser avant synchronisation | Adresse TEX | Prise en charge de Tor | F-droid
+- Ironwood : Prêt
 
 ---
 
 ## [Ywallet](https://ywallet.app/installation/)
-![logo](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
-- Appareils : Mobile | Bureau
+![logo](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
+- Appareils : Mobile | Ordinateur
 - Système d’exploitation : Android | iOS | Windows | Linux | macOS
-- Support wallet : Seed Phrase | Viewing Key | Unified Address | Hardware
+- Prise en charge du portefeuille : Phrase de récupération | Viewing Key | Unified Address | Hardware
 - Pools : Transparent | Sapling | Orchard
-- Fonctionnalités : Carnet d’adresses | Stockage à froid | Adresse diversifiée | Demande de paiement | Transfert entre pools | Shielded Memo | Adresse TEX | Vote | WarpSync
+- Fonctionnalités : Carnet d’adresses | Stockage à froid | Adresse diversifiée | Demande de paiement | Transfert entre pools | Mémo blindé | Adresse TEX | Vote | WarpSync
+- Ironwood : Pas prêt
 
 ---
 
 ## [Dizzy](https://youtu.be/IVkuo1CGPBU)
-![logo](https://i.ibb.co/FH918w9/Dizzy-3.png "Dizzy")
-- Appareils : Mobile | Bureau
+![logo](/content-images/Dizzy-3-1a90249591.webp "Dizzy")
+- Appareils : Mobile | Ordinateur
 - Système d’exploitation : Android | iOS | Windows | Linux | macOS
-- Support wallet : Seed Phrase | Viewing Key | Unified Address
+- Prise en charge du portefeuille : Phrase de récupération | Viewing Key | Unified Address
 - Pools : Sapling | Orchard
 - Fonctionnalités : Bot Discord
 
 ---
 
 ## [Zingo!](https://www.zingolabs.org/)
-![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
-- Appareils : Mobile | Bureau
+![logo](/content-images/zingocard-9a2546668d.webp "Zingo!")
+- Appareils : Mobile | Ordinateur
 - Système d’exploitation : Android | iOS | Windows | Linux
-- Support wallet : Seed Phrase | Viewing Key | Unified Address
+- Prise en charge du portefeuille : Phrase de récupération | Viewing Key | Unified Address
 - Pools : Transparent | Sapling | Orchard
-- Fonctionnalités : Carnet d’adresses | Aperçus financiers | Demande de paiement | PepperSync | Shielded Memo | Support Testnet
+- Fonctionnalités : Carnet d’adresses | Informations financières | Demande de paiement | PepperSync | Mémo blindé | Prise en charge du testnet
+- Ironwood : Prêt
 
 ---
 
 ## [Edge](https://edge.app)
-![logo](https://i.ibb.co/4FVQLS9/image-2024-11-28-091312254.png "Edge")
+![logo](/content-images/image-2024-11-28-091312254-b2389ad332.webp "Edge")
 - Appareils : Mobile
 - Système d’exploitation : Android | iOS
-- Support wallet : Seed Phrase | Unified Address
+- Prise en charge du portefeuille : Phrase de récupération | Unified Address
 - Pools : Transparent | Sapling
-- Fonctionnalités : Shielding automatique | Swaps DEX | Multi Coin | Shielded Memo | Dépenser avant la synchronisation
+- Fonctionnalités : Blindage automatique | Swaps DEX | Multi-coin | Mémo blindé | Dépenser avant synchronisation
 
 ---
 
 ## [Unstoppable](https://unstoppable.money)
-![logo](https://i.ibb.co/C68mFCx/image-2024-11-28-091200540.png "Unstoppable")
+![logo](/content-images/image-2024-11-28-091200540-815817fda7.webp "Unstoppable")
 - Appareils : Mobile
 - Système d’exploitation : Android | iOS
-- Support wallet : Seed Phrase | Unified Address
+- Prise en charge du portefeuille : Phrase de récupération | Unified Address
 - Pools : Transparent | Sapling | Orchard
-- Fonctionnalités : Swaps DEX | Multi Coin | Dépenser avant la synchronisation
+- Fonctionnalités : Swaps DEX | Multi-coin | Dépenser avant synchronisation
+- Ironwood : Prêt
 
 ---
 
 ## [eZcash](https://blog.nerdbank.net/ezcash-app)
-![logo](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
-- Appareils : Mobile | Bureau
+![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
+- Appareils : Mobile | Ordinateur
 - Système d’exploitation : Android | iOS | Windows
-- Support wallet : Seed Phrase | Viewing Key | Unified Address
+- Prise en charge du portefeuille : Phrase de récupération | Viewing Key | Unified Address
 - Pools : Transparent | Sapling | Orchard
-- Fonctionnalités : Carnet d’adresses | Vérification d’adresse | Shielding automatique | Adresse diversifiée | Demande de paiement | Shielded Memo | Adresse TEX | Support Testnet
+- Fonctionnalités : Carnet d’adresses | Vérification d’adresse | Blindage automatique | Adresse diversifiée | Demande de paiement | Mémo blindé | Adresse TEX | Prise en charge du testnet
 
 ---
 
 ## [Zkool](https://github.com/hhanh00/zkool2/)
-![logo](https://i.ibb.co/BHGPff0K/zkool-1.png "Zkool")
-- Appareils : Mobile | Bureau
+![logo](/content-images/zkool-1-22ab388e65.webp "Zkool")
+- Appareils : Mobile | Ordinateur
 - Système d’exploitation : Android | iOS | Windows | Linux
-- Support wallet : Seed Phrase | Viewing Key | Unified Address | Hardware
+- Prise en charge du portefeuille : Phrase de récupération | Viewing Key | Unified Address | Hardware
 - Pools : Transparent | Sapling | Orchard
-- Fonctionnalités : Rotation d’adresses | Large prise en charge des clés | Exportations chiffrées | Multisig FROST | Synchronisation multi-comptes | Shielded Memo | Support Testnet
+- Fonctionnalités : Rotation d’adresses | Large prise en charge des clés | Exportations chiffrées | Multisig FROST | Synchronisation multi-comptes | Mémo blindé | Prise en charge du testnet
+- Ironwood : Prêt
 
 ---
 
 ## [Cake](https://cakewallet.com/install/)
-![logo](https://github.com/user-attachments/assets/a8234c70-3714-4e80-b918-8739d45aea00 "Cake")
-- Appareils : Mobile | Bureau 
+![logo](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
+- Appareils : Mobile | Ordinateur 
 - Système d’exploitation : Android | iOS | Windows | Linux | macOS
-- Support wallet : Seed Phrase | Viewing Key | Unified Address
+- Prise en charge du portefeuille : Phrase de récupération | Viewing Key | Unified Address
 - Pools : Transparent | Sapling | Orchard
-- Fonctionnalités : Carnet d’adresses | Rotation d’adresses | Shielding automatique | Swaps DEX | Multi Coin | Shielded Memo | Support Tor
-
+- Fonctionnalités : Carnet d’adresses | Rotation d’adresses | Blindage automatique | Swaps DEX | Multi-coin | Mémo blindé | Prise en charge de Tor
+- Ironwood : Prêt
+  
 ---
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
-![logo](https://i.ibb.co/VtPBnm6/zenith-2.png "Zenith")
-- Appareils : Bureau
+![logo](/content-images/zenith-2-cea75a34fd.webp "Zenith")
+- Appareils : Ordinateur
 - Système d’exploitation : Windows | Linux | macOS
-- Support wallet : Seed Phrase | Viewing Key | Unified Address | Full Node
+- Prise en charge du portefeuille : Phrase de récupération | Viewing Key | Unified Address | Nœud complet
 - Pools : Transparent | Sapling | Orchard
-- Fonctionnalités : Carnet d’adresses | Interface graphique | Shielded Memo | Support Testnet
+- Fonctionnalités : Carnet d’adresses | Interface graphique | Mémo blindé | Prise en charge du testnet
 
 ---
 
 ## [Zingo-CLI](https://github.com/zingolabs/zingolib)
-![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo-CLI")
-- Appareils : Bureau
+![logo](/content-images/zingocard-9a2546668d.webp "Zingo-CLI")
+- Appareils : Ordinateur
 - Système d’exploitation : Windows | Linux | macOS
-- Support wallet : Seed Phrase | Viewing Key | Unified Address | Full Node
+- Prise en charge du portefeuille : Phrase de récupération | Viewing Key | Unified Address | Nœud complet
 - Pools : Transparent | Sapling | Orchard
-- Fonctionnalités : Interface en ligne de commande | PepperSync | Shielded Memo | Support Testnet 
+- Fonctionnalités : Interface en ligne de commande | PepperSync | Mémo blindé | Prise en charge du testnet 
+- Ironwood : En cours
 
 ---
 
 ## [Zallet](https://github.com/zcash/wallet)
-![logo](https://i.ibb.co/3mCrR0dN/Brandmark-Yellow.png "Zallet")
-- Appareils : Bureau
+![logo](/content-images/Brandmark-Yellow-2eca7f6f68.webp "Zallet")
+- Appareils : Ordinateur
 - Système d’exploitation : Windows | Linux | macOS
-- Support wallet : Seed Phrase | Viewing Key | Unified Address | Full Node
+- Prise en charge du portefeuille : Phrase de récupération | Viewing Key | Unified Address | Nœud complet
 - Pools : Transparent | Sapling | Orchard
-- Fonctionnalités : Version alpha | Interface JSON-RPC | Shielded Memo | Support Testnet
+- Fonctionnalités : Version alpha | Interface JSON-RPC | Mémo blindé | Prise en charge du testnet
+- Ironwood : Prêt
 
 ---
 
 ## [Zcashd](https://github.com/zcash/zcash)
-![logo](https://i.ibb.co/Xz2NskW/zcashd.png "Zcashd")
-- Appareils : Bureau
+![logo](/content-images/zcashd-92df3291ad.webp "Zcashd")
+- Appareils : Ordinateur
 - Système d’exploitation : Windows | Linux | macOS
-- Support wallet : Seed Phrase | Viewing Key | Unified Address | Full Node
+- Prise en charge du portefeuille : Phrase de récupération | Viewing Key | Unified Address | Nœud complet
 - Pools : Transparent | Sapling | Orchard
-- Fonctionnalités : Interface en ligne de commande | Adresse diversifiée | Shielded Memo | Support Testnet
+- Fonctionnalités : Interface en ligne de commande | Adresse diversifiée | Mémo blindé | Prise en charge du testnet
+- Ironwood : Pas prêt
 
 ---
 
 ## [Brave](https://brave.com/web3-privacy/)
-![logo](https://i.ibb.co/6yqMNwZ/image-2024-01-13-170934865.png "Brave")
+![logo](/content-images/image-2024-01-13-170934865-733c5d91c6.webp "Brave")
 - Appareils : Web
 - Système d’exploitation : Navigateur
-- Support wallet : Seed Phrase | Unified Address
+- Prise en charge du portefeuille : Phrase de récupération | Unified Address
 - Pools : Transparent | Orchard
-- Fonctionnalités : Shielded Memo | Dépenser avant la synchronisation | Support Testnet
+- Fonctionnalités : Mémo blindé | Dépenser avant synchronisation | Prise en charge du testnet
 
 ---
 
 ## [Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
-![logo](https://i.ibb.co/jn5t9Gy/metamask.png  "Metamask")
+![logo](/content-images/metamask-25048569f6.webp  "Metamask")
 - Appareils : Web
 - Système d’exploitation : Navigateur
-- Support wallet : Seed Phrase | Unified Address
+- Prise en charge du portefeuille : Phrase de récupération | Unified Address
 - Pools : Transparent | Sapling | Orchard
-- Fonctionnalités : Multi Coin
+- Fonctionnalités : Multi-coin
 
 ---
 
 ## [Zucchini](https://zucchinifi.xyz/)
-![logo](https://github.com/user-attachments/assets/91a1005a-3daf-4747-9442-c178cbe50e49 "Zucchini")
+![logo](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
 - Appareils : Web 
 - Système d’exploitation : Navigateur
-- Support wallet : Seed Phrase | Unified Address
+- Prise en charge du portefeuille : Phrase de récupération | Unified Address
 - Pools : Transparent | Sapling | Orchard
 - Fonctionnalités : Swaps DEX
 
 ---
 
 ## [SSP Wallet](https://sspwallet.io)
-![logo](https://i.ibb.co/X3hdfSY/ssp-1.png "SSP Wallet")
+![logo](/content-images/ssp-1-7d96e66117.webp "SSP Wallet")
 - Appareils : Mobile | Web
 - Système d’exploitation : Android | iOS | Navigateur
-- Support wallet : Seed Phrase
+- Prise en charge du portefeuille : Phrase de récupération
 - Pools : Transparent
-- Fonctionnalités : Multi Coin
+- Fonctionnalités : Multi-coin
 
 ---
 
 ## [Trust Wallet](https://trustwallet.com/download)
-![logo](https://i.ibb.co/cNqxBJ1/trustwallet.png "Trust Wallet")
+![logo](/content-images/trustwallet-bec43acb59.webp "Trust Wallet")
 - Appareils : Mobile | Web
 - Système d’exploitation : Android | iOS | Navigateur
-- Support wallet : Seed Phrase
+- Prise en charge du portefeuille : Phrase de récupération
 - Pools : Transparent
-- Fonctionnalités : Multi Coin
+- Fonctionnalités : Multi-coin
 
 ---
 
 ## [Exodus](https://www.exodus.com/zcash-wallet-zec)
-![logo](https://i.ibb.co/w0NNZNp/exoduscard.png "Exodus")
-- Appareils : Mobile | Bureau | Web
+![logo](/content-images/exoduscard-2f77769db0.webp "Exodus")
+- Appareils : Mobile | Ordinateur | Web
 - Système d’exploitation : Android | iOS | Windows | Linux | macOS | Navigateur
-- Support wallet : Seed Phrase
+- Prise en charge du portefeuille : Phrase de récupération
 - Pools : Transparent
-- Fonctionnalités : Multi Coin
+- Fonctionnalités : Multi-coin
 
 ---
 
 ## [Coinomi](https://www.coinomi.com/en/downloads)
-![logo](https://i.ibb.co/QfHmjWY/coinomicard.png "Coinomi")
-- Appareils : Mobile | Bureau
+![logo](/content-images/coinomicard-226bcbf876.webp "Coinomi")
+- Appareils : Mobile | Ordinateur
 - Système d’exploitation : Android | iOS | Windows
-- Support wallet : Seed Phrase
+- Prise en charge du portefeuille : Phrase de récupération
 - Pools : Transparent
-- Fonctionnalités : Multi Coin
+- Fonctionnalités : Multi-coin
 
 ---
 
 ## [Keystone](https://shop.keyst.one)
-![logo](https://i.ibb.co/c1gn635/Keystone-1.png "Keystone")
+![logo](/content-images/Keystone-1-8177a83308.webp "Keystone")
 - Appareils :
 - Système d’exploitation :
-- Support wallet : Hardware | Unified Address
+- Prise en charge du portefeuille : Hardware | Unified Address
 - Pools : Transparent | Sapling | Orchard
-- Fonctionnalités : Multi Coin
+- Fonctionnalités : Multi-coin
+- Ironwood : Prêt
 
 ---
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
-![logo](https://i.ibb.co/2qX6WCF/Desktop-Wallets.png "Ledger")
+![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
 - Appareils : 
 - Système d’exploitation :
-- Support wallet : Hardware
+- Prise en charge du portefeuille : Hardware
 - Pools : Transparent 
-- Fonctionnalités : Multi Coin
+- Fonctionnalités : Multi-coin
+- Ironwood : En cours
 
 ---
 
 ## [Safepal](https://safepal.com)
-![logo](https://i.ibb.co/h29h6d0/safepalcard.png "Safepal")
+![logo](/content-images/safepalcard-176b24c751.webp "Safepal")
 - Appareils : Mobile | Web
 - Système d’exploitation : Android | iOS | Navigateur
-- Support wallet : Seed Phrase | Hardware
+- Prise en charge du portefeuille : Phrase de récupération | Hardware
 - Pools : Transparent
-- Fonctionnalités : Multi Coin
+- Fonctionnalités : Multi-coin
 
 ---
 
 ## [Trezor](https://trezor.io/learn/a/zcash-zec)
-![logo](https://i.ibb.co/twLMCgzW/trezor1.png "Trezor")
+![logo](/content-images/trezor1-5004075d27.webp "Trezor")
 - Appareils :
 - Système d’exploitation :
-- Support wallet : Hardware
+- Prise en charge du portefeuille : Hardware
 - Pools : Transparent
-- Fonctionnalités : Multi Coin
+- Fonctionnalités : Multi-coin
 
 ---
 
 ## [Vultisig](https://vultisig.com)
-![logo](https://i.ibb.co/93wSrxCc/vultisig.png "Vultisig")
-- Appareils : Web | Mobile | Bureau
+![logo](/content-images/vultisig-713626c5ba.webp "Vultisig")
+- Appareils : Web | Mobile | Ordinateur
 - Système d’exploitation : Android | iOS | Windows | Linux | macOS | Navigateur
 - Pools : Transparent
-- Fonctionnalités : Multi Coin | Application web
+- Fonctionnalités : Multi-coin | Application web
 
 ---
 
 ## [Vizor](https://vizor.cash/)
-![logo](https://i.ibb.co/zhW2d2fV/Vizorphoto.png "Vizor")
-- Appareils : Bureau | Mobile
+![logo](/content-images/Vizorphoto-6ade2417a5.webp "Vizor")
+- Appareils : Ordinateur | Mobile
 - Système d’exploitation : macOS
-- Support wallet : Seed Phrase | Unified Address | Hardware
+- Prise en charge du portefeuille : Phrase de récupération | Unified Address | Hardware
 - Pools : Transparent | Sapling | Orchard
-- Fonctionnalités : Shielding automatique | Shielded Memo | Support Testnet | Multisig FROST
+- Fonctionnalités : Blindage automatique | Mémo blindé | Prise en charge du testnet | Multisig FROST
+- Ironwood : Prêt
 
 ---
 
 ## [Noir wallet](https://www.zknoir.com/)
-![logo](https://i.ibb.co/23RkRZZS/Noirwallet.png "Noir")
-- Appareils : Web | Bureau
+![logo](/content-images/Noirwallet-8589fe34e4.webp "Noir")
+- Appareils : Web | Ordinateur
 - Système d’exploitation : Navigateur
-- Pools : Shielded | Transparent
-- Fonctionnalités : Extension de navigateur | Transactions shielded | Swaps cross-chain | Prêt et emprunt | Connexions DApp | Rhea
+- Pools : Blindé | Transparent
+- Fonctionnalités : Extension de navigateur | Transactions blindées | Swaps cross-chain | Prêt et emprunt | Connexions DApp | Rhea
+- Ironwood : Prêt
 
 ---
 
 ## [LeoDex](https://leodex.io/)
-![logo](https://i.ibb.co/3YjpzYnH/Leo-Dexwallet.png "LeoDex")
-- Appareils : Web | Bureau
+![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
+- Appareils : Web | Ordinateur
 - Système d’exploitation : Navigateur | Windows | macOS
-- Support wallet : Seed Phrase | External Wallet | Receive Address | QR Code | Hardware
+- Prise en charge du portefeuille : Phrase de récupération | Portefeuille externe | Adresse de réception | Code QR | Hardware
 - Pools : Sapling | Transparent
-- Fonctionnalités : Multi Coin | Near Intents | Maya DEX | Sans KYC | Non-custodial | Application web | Application de bureau | Shielded ZEC | AnyPay
+- Fonctionnalités : Multi-coin | Near Intents | Maya DEX | Sans KYC | Non dépositaire | Application web | Application de bureau | ZEC blindé | AnyPay
+- Ironwood : Prêt
 
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
-![logo](https://i.ibb.co/mr8rF8y2/zapp-1.png "Zapp")
+![logo](/content-images/zapp.webp "Zapp")
 - Appareils : Mobile 
 - Système d’exploitation : Android 
-- Support wallet : Unified Address 
+- Prise en charge du portefeuille : Unified Address 
 - Pools : Transparent | Sapling | Orchard
 - Fonctionnalités : Messagerie chiffrée de bout en bout | NEAR Intents | P2P.me Offramp | Bêta
+- Ironwood : Prêt
+  
+---
+
+## [Zecd](https://zecd.org/quickstart.html)
+![logo](/content-images/zecd.webp "Zecd")
+- Appareils : Ordinateur 
+- Système d’exploitation : Linux
+- Prise en charge du portefeuille : Phrase de récupération | Viewing Key | Unified Address | Clé privée | Spending Key | Sauvegarde du portefeuille / Export de clé | Portefeuille à nœud complet 
+- Pools : Transparent | Sapling | Orchard | Sprout
+- Fonctionnalités : Mémo chiffré | Sauvegarde du portefeuille (données du portefeuille) | Interface RPC | Mémo blindé | Gestion des clés privées
+- Ironwood : Prêt
+
+---
+
+## [Zend:Zcash Wallet](https://justzend.com/)
+![logo](/content-images/zend.webp "Zend:Zcash Wallet")
+- Appareils : Mobile | Ordinateur
+- Système d’exploitation : iOS | macOS
+- Prise en charge du portefeuille : Phrase de récupération | Passkey | Unified Address | Clé privée | Portefeuille en auto-garde 
+- Pools : Transparent | Sapling | Orchard 
+- Fonctionnalités : Auto-garde | Clé privée stockée localement | Aucun KYC requis | Aucune dépendance au serveur Zend pour l’activité du portefeuille | Transaction blindée chiffrée | Récupération de la seed | Mémo blindé | Authentification par Passkey
+
+---
+
+## [Nozy Wallet](https://github.com/LEONINE-DAO/Nozy-wallet)
+![logo](/content-images/nozy.webp "Nozy Wallet")
+- Appareils : Ordinateur | Navigateur
+- Système d’exploitation : Linux | iOS | macOS
+- Prise en charge du portefeuille : Phrase de récupération | Viewing Key | Unified Address | Spending Key | Portefeuille HD | Gestion des clés privées 
+- Pools : Transparent | Sapling | Orchard 
+- Fonctionnalités : Carnet d’adresses | Prise en charge de Tor | Prise en charge d’I2P | Intégration Zebra/Zebrad | Historique des transactions | Export des transactions | Dérivation locale des témoins | Frais dynamiques (ZIP-317) | Compatibilité NU6.2 | Prise en charge de la migration vers NU6.3 | Mémo blindé
+- Ironwood : Prêt
+
+---
+
+## [Zipher](https://github.com/atmospherelabs-dev/zipher-app)
+![logo](/content-images/zipher.webp "Zipher")
+- Appareils : Mobile | Ordinateur 
+- Système d’exploitation : Android | Windows | Linux (CLI and MCP Server) | iOS | macOS
+- Prise en charge du portefeuille : Phrase de récupération | Viewing Key | Unified Address | Portefeuille multi-comptes | Portefeuille en auto-garde | Gestion des clés privées | Prise en charge des portefeuilles d’agent
+- Pools : Transparent | Sapling | Orchard 
+- Fonctionnalités : NEAR Intents | Demandes de paiement | Mémo blindé | Transaction blindée par défaut | Testnet | Swap cross-chain | CipherPay | Viewing Key | Agent IA | Serveur MCP | Portefeuille CLI | FROST | Bêta 
+- Ironwood : En cours

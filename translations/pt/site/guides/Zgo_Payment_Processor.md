@@ -42,7 +42,7 @@ O limite de cinco confirmações é o número-chave. Qualquer coisa antes disso 
 
 O ZGo funciona em qualquer navegador moderno em desktop ou mobile, sem necessidade de instalação em nenhum dos lados. O cliente precisa de uma carteira Zcash; o comerciante precisa de uma carteira Zcash e de uma conta ZGo.
 
-<img width="672" height="378" alt="Visão geral da solicitação de pagamento do ZGo e do monitoramento da blockchain" src="https://github.com/user-attachments/assets/de50885b-b068-4157-bbda-0981ca23efc8" />
+<img width="672" height="378" alt="Visão geral da solicitação de pagamento do ZGo e do monitoramento da blockchain" src="/content-images/de50885b-b068-4157-bbda-0981ca23efc8-a00a274776.webp" />
 
 ## Configurando uma conta
 
@@ -77,7 +77,7 @@ Para a configuração inicial, siga o passo a passo dedicado: [Configuração da
 
 Para lojas online que funcionam com [WooCommerce](https://woocommerce.com/) e [WordPress](https://wordpress.org/), o ZGo oferece um plugin dedicado. O plugin adiciona o Zcash como método de pagamento no checkout e gerencia automaticamente o estado do pedido quando o pagamento é confirmado.
 
-<img width="672" height="378" alt="Checkout do plugin ZGo WooCommerce e fluxo do pedido" src="https://github.com/user-attachments/assets/55a791bb-1947-4f55-b5b9-55083be8ed49" />
+<img width="672" height="378" alt="Checkout do plugin ZGo WooCommerce e fluxo do pedido" src="/content-images/55a791bb-1947-4f55-b5b9-55083be8ed49-2bc8d2571e.webp" />
 
 Fluxo completo dentro de uma loja WooCommerce:
 

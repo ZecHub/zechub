@@ -15,7 +15,7 @@ ZecHub, Zcash için merkeziyetsiz bir eğitim merkezidir. [ZecHub](http://zechub
 
 Eğitimler, kısa biçimli bloglar ve bülten açık kaynaklıdır ve GitHub üzerinde barındırılır; bu da topluluktaki herkesin katkıda bulunabileceği anlamına gelir. Bu, içeriğin doğru olmasını ve kanalın kendisinin tek bir hata noktasından etkilenmemesini sağlamak içindir.
 
-Zcash'e yeniyseniz, [bu kılavuzu](/site/Start_Here/New_User_Guide) kullanın.****
+Zcash'e yeniyseniz, [bu kılavuzu](/start-here/new-user-guide) kullanın.****
 
 ## ZecHub üzerinde nasıl değişiklik yapılır
 
@@ -54,7 +54,7 @@ ZecHub'ın tutarlı bir görünüme sahip olmasını sağlamak amacıyla, depoya
 Bağışlar: [burada](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
 <a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
-    <img src="https://i.ibb.co/pfBM1z9/image-2023-11-18-141228046.png" alt="" width="200" height="200"/>
+    <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
 </a>
 
 

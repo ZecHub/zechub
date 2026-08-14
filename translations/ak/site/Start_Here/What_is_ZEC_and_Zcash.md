@@ -43,7 +43,7 @@ Zcash yɛ "Zerocash" protocol no a wɔde di dwuma. Ɛyɛ open-source, blockchain
 Zcash siesie Bitcoin sintɔ kɛse no; ankorankoro wurayɛ ne data a wɔde ma afoforo. Wɔ wiase a blockchain application ne cryptocurrencies regye atom kɛse mu no, nkitahodi a wɔde din atoro di no nyɛ ɔkwan a ɛfata bio a wɔfa so bɔ nea ɔde di dwuma no kokoam nsɛm ho ban. Surveillance applications reyɛ adwuma kɛse de ahwehwɛ blockchain nkitahodi mu.
 
 <a href="">
-    <img src="https://i.ibb.co/NN3XxrG/Zcash-logo-1.png" alt="" width="60" height="60"/>
+    <img src="/content-images/Zcash-logo-1-26747e0dd3.webp" alt="" width="60" height="60"/>
 </a>
 
 #### Akadeɛ

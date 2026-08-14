@@ -10,7 +10,7 @@ Certain crypto projects have gained recognition for their privacy-centric approa
 
 
 <a href="">
-    <img src="https://user-images.githubusercontent.com/38798812/257773807-af8ae27d-0805-4a60-a5ba-749e2fea2490.png" alt="" width="400" height="300"/>
+    <img src="/content-images/257773807-af8ae27d-0805-4a60-a5ba-749e2f-cafd67320f.webp" alt="" width="400" height="300"/>
 </a>
 
 
@@ -39,14 +39,14 @@ Lakoko ti alugoridimu decoy Monero (iforukọsilẹ oruka) ṣe iranlọwọ ni 
 
 
 <a href="">
-    <img src="https://user-images.githubusercontent.com/38798812/257793324-2dcc6047-300e-4fa7-a28d-2e6cbbadf1df.png" alt="" width="400" height="80"/>
+    <img src="/content-images/257793324-2dcc6047-300e-4fa7-a28d-2e6cbb-7242c98ea4.webp" alt="" width="400" height="80"/>
 </a>
 
 
 2) **Optional Visibility**: Zcash allows users to choose between transparent (non-private) and shielded (private) transactions. This connotes that Zcash offers users the flexibility to either keep their financial information private (shielded) or make it transparent and publicly available similar to most other blockchains as explained on [Zcash official website](https://z.cash/learn/what-is-the-difference-between-shielded-and-transparent-zcash/). This opt-in privacy allows for greater flexibility and business/organisational relevant use cases, as some transactions may require less privacy for public scrutiny, while others benefit from enhanced privacy.
 
 
-3) **Aṣayan Aṣayan Àìmòye**: [Awọn ohun ti a ko mọ]](https://blog.wasabiwallet.io/what-is-the-difference-between-an-anonymity-set-and-an-anonymity-score/) of zero knowledge shielded pools comprises all transactions that have *ever* occurred. Eyi tobi pupọ ju ọpọlọpọ awọn ọna on-chain miiran lọ lati ṣaṣeyọri unlinkability idunadura. Akọsilẹ: eyi kan nikan si awọn iṣowo laarin iṣupọ aabo kanna.
+3) **Aṣayan Aṣayan Àìmòye**: [Awọn ohun ti a ko mọ](https://blog.wasabiwallet.io/what-is-the-difference-between-an-anonymity-set-and-an-anonymity-score/) of zero knowledge shielded pools comprises all transactions that have *ever* occurred. Eyi tobi pupọ ju ọpọlọpọ awọn ọna on-chain miiran lọ lati ṣaṣeyọri unlinkability idunadura. Akọsilẹ: eyi kan nikan si awọn iṣowo laarin iṣupọ aabo kanna.
 
 Lilo awọn decoys ṣe mu ki a mọ ẹni ti a ṣeto. Sibẹsibẹ ọna yii da lori iye awọn olumulo * gidi * lori nẹtiwọọki. 
 
@@ -61,7 +61,7 @@ Ni akojọpọ ohun ti o ṣe pataki julọ ni lati dinku tabi yọkuro didasil�
 
 
 <a href="">
-    <img src="https://user-images.githubusercontent.com/38798812/257788813-509f1139-7daa-4f95-bbb4-c535641962f6.png" alt="" width="400" height="200"/>
+    <img src="/content-images/257788813-509f1139-7daa-4f95-bbb4-c53564-f815d11477.webp" alt="" width="400" height="200"/>
 </a>
 
 

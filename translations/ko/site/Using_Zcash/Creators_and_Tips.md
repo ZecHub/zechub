@@ -15,7 +15,7 @@
 
 ## Zcash.me
 
-![Zcash.me 로고](https://pbs.twimg.com/profile_images/1983177127806533632/LbLuoQjB_400x400.jpg)
+![Zcash.me 로고](/content-images/_unavailable.svg)
 
 ### 개요
 
@@ -59,7 +59,7 @@
 
 ## TipZ
 
-![TipZ 로고](https://pbs.twimg.com/profile_images/2023711029805350912/BbXM8cDV_400x400.jpg)
+![TipZ 로고](/content-images/BbXM8cDV_400x400-e6071ba983.webp)
 
 ### 개요
 

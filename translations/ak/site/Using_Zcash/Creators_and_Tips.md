@@ -7,15 +7,15 @@
 ## Nsɛm a Wɔahyehyɛ
 
 1. [Zcash.me na ɛwɔ hɔ](#zcashme)
-2. [Afotuo Z](#tipz)
+2. [TipZ a ɛyɛ fɛ](#tipz)
 3. [Nea Enti a Kokoam Nsɛm Ho Hia Ma Adebɔfo](#why-privacy-matters-for-creators)
-4. [Nneɛma a Wɔde Yɛ Adwuma](#additional-resources)
+4. [Nneɛma Afoforo a Wɔde Yɛ Adwuma](#additional-resources)
 
 ---
 
 ## Zcash.me na ɛwɔ hɔ
 
-![Zcash.me Ahyɛnsodeɛ](https://pbs.twimg.com/profile_images/1983177127806533632/LbLuoQjB_400x400.jpg)
+![Zcash.me Logo](/content-images/_unavailable.svg)
 
 ### Nsɛm a wɔaka abom
 
@@ -24,7 +24,7 @@
 | Adeɛ a ɛwɔ | Nsɛm a ɛkɔ akyiri |
 |-------------------|---------|
 | **Wɛbsite** | [https://zcash.me/](https://zcash.me/) |
-| **Twitter ** Nsɛm a wɔka kyerɛ | [@zcashme so na ɔkyerɛwee](https://x.com/zcashme) |
+| **Twitter ** Nsɛm a wɔka kyerɛ | [@zcashme na ɔwom](https://x.com/zcashme) |
 | **Profael Nkyekyɛm**| `zcash.me/[username]` |
 | **Gyinabea** | Live (a features wɔ nkɔsoɔ mu) |
 
@@ -59,7 +59,7 @@
 
 ## TipZ a ɛyɛ fɛ
 
-![Afotuo Ahyɛnsodeɛ](https://pbs.twimg.com/profile_images/2023711029805350912/BbXM8cDV_400x400.jpg)
+![TipZ Logo](/content-images/BbXM8cDV_400x400-e6071ba983.webp)
 
 ### Nsɛm a wɔaka abom
 
@@ -68,7 +68,7 @@
 | Adeɛ a ɛwɔ | Nsɛm a ɛkɔ akyiri |
 |-------------------|---------|
 | **Wɛbsite** | [https://tipz.cash/](https://tipz.cash/) |
-| **Twitter ** Nsɛm a wɔka kyerɛ | [@tipz_sika a wɔde yɛ adwuma](https://x.com/tipz_cash) |
+| **Twitter ** Nsɛm a wɔka kyerɛ | [@tipz_cash na ɛyɛ adwuma](https://x.com/tipz_cash) |
 | **Profael Nkyekyɛm**| `tipz.cash/@[username]` |
 | **Gyinabea** | Live |
 
@@ -77,7 +77,7 @@
 ### Nea Enti a Kokoam Nsɛm Ho Hia Ma Adebɔfo
 
 #### Sikasɛm mu Ahofadi
-- 0% platform ho ka
+- 0% a wɔde tua platform ho ka
 - Non-custodial & obi ankasa hwɛ
 - Ntamgyinafo biara nni hɔ
 

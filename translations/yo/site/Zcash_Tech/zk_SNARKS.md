@@ -28,7 +28,7 @@ Ninu imọ-ẹrọ kọnputa ọrọ fun awọn ẹri ti o le ṣayẹwo daradar
 
 
 <a href="">
-    <img width="853" height="396" alt="NPlanguage1" src="https://github.com/user-attachments/assets/d25345cf-e958-4ce2-b01d-f4e7f2db9551" alt="" width="600" height="400"/>
+    <img width="853" height="396" alt="NPlanguage1" src="/content-images/d25345cf-e958-4ce2-b01d-f4e7f2db9551-1ac56e56d7.webp" alt="" width="600" height="400"/>
 </a>
 
 
@@ -47,7 +47,7 @@ Nínú èdè NP = àwọn ipò méjì ní láti ṣẹ:
 
 
 <a href="">
- <img width="855" height="399" alt="IPmodel1" src="https://github.com/user-attachments/assets/1542be12-d3fd-4934-8413-0d16f95b8d10" alt="" width="600" height="400"/>
+ <img width="855" height="399" alt="IPmodel1" src="/content-images/1542be12-d3fd-4934-8413-0d16f95b8d10-58bfcb4059.webp" alt="" width="600" height="400"/>
 </a>
 
 
@@ -86,7 +86,7 @@ Real View: Gbogbo àwọn ìtàn tí ó ṣeé ṣe ti ìfọ̀rọ̀wérọ̀ l
 Àwòran tí a ṣe àfarawé: Olùdánilójú náà ń ṣàfarawé gbogbo ìfọ̀rọ̀wérọ̀ tó ṣeé ṣe láàrin Prover & Olùdáa 
 
 <a href="">
-    <img width="850" height="397" alt="simulation1" src="https://github.com/user-attachments/assets/0e68649d-a231-44d8-a76a-25a307f68b9e"  alt="" width="600" height="400"/>
+    <img width="850" height="397" alt="simulation1" src="/content-images/0e68649d-a231-44d8-a76a-25a307f68b9e-ba1f0027cf.webp"  alt="" width="600" height="400"/>
 </a>
 
 Olùyàtọ̀ àkókò polynomial máa ń gbìyànjú láti mọ̀ bóyá ojúlówó tàbí àfarawé ni wọ́n ń wò, ó sì máa ń béèrè fún àwòkọ́ṣe láti ọ̀dọ̀ àwọn méjèèjì léraléra.
@@ -117,7 +117,7 @@ Ninu zk-SNARK ẹri naa ko fi ohunkohun han nipa ifiranṣẹ (m).
 
 
 <a href="">
-<img width="785" height="368" alt="circuit1" src="https://github.com/user-attachments/assets/be1de1d6-60d3-4fd1-b9a2-5094c65d696f" alt="" width="300" height="200"/>
+<img width="785" height="368" alt="circuit1" src="/content-images/be1de1d6-60d3-4fd1-b9a2-5094c65d696f-dbd3177247.webp" alt="" width="300" height="200"/>
 </a>
 
 Nínú àpèjúwe yìí, ẹni tí ó ń ṣe àyẹ̀wò náà fẹ́ kí ẹni tó ń ṣàyẹ̀wò ọ̀rọ̀ náà gbà pé òun mọ ojútùú sí àyíká ìṣirò náà. 
@@ -143,7 +143,7 @@ Polynomial interactive oracle: Verifier béèrè prover (algorithm) lati ṣii g
 Awọn ilana iṣeto ṣe iranlọwọ fun olutọwo nipa ṣakojọpọ iyipo kan & fifi awọn iṣiro gbangba jade. 
 
 <a href="">
-<img width="845" height="398" alt="setup1" src="https://github.com/user-attachments/assets/c41212ca-b5e9-4ac8-8695-be612c45a679" alt="" width="600" height="300"/>
+<img width="845" height="398" alt="setup1" src="/content-images/c41212ca-b5e9-4ac8-8695-be612c45a679-80a6a87752.webp" alt="" width="600" height="300"/>
 </a>
 
 **Àwọn oríṣi ìmúrasílẹ̀-ìṣelọpọ**:
@@ -159,7 +159,7 @@ Trusted but Universal Setup - Nikan ni lati ṣiṣe iṣeto ti o gbẹkẹle l�
 
 **Àwọn oríṣi àwọn ìkópa tí kò ní í ṣe pẹ̀lú SNARK**:
 
-[Grọ́ọ̀sì 16]](https://www.youtube.com/watch?v=QDplVkyncYQ): Nilo Iṣeto Igbẹkẹle ṣugbọn o ni awọn ẹri kukuru pupọ ti o le ṣayẹwo ni kiakia.
+[Grọ́ọ̀sì 16](https://www.youtube.com/watch?v=QDplVkyncYQ): Nilo Iṣeto Igbẹkẹle ṣugbọn o ni awọn ẹri kukuru pupọ ti o le ṣayẹwo ni kiakia.
 
 [Ìró tó ń dún](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://cryptocurrencywiki.org/PLONK)Ìdásílẹ̀ Tí Gbogbo Èèyàn Gbára Lé.
 
@@ -173,7 +173,7 @@ Ni gbogbogbo awọn ẹri-imọ-kukuru jẹ ọpa lati mu ihuwasi otitọ ni aw�
 
 Zcash jẹ blockchain gbangba ti o dẹrọ awọn iṣowo ikọkọ. zk-SNARKs ni a lo lati fi idi rẹ mulẹ pe idunadura aladani jẹ wulo laarin awọn ofin ifọkanbalẹ nẹtiwọọki laisi fifihan eyikeyi awọn alaye miiran nipa idunwo naa. 
 
-[Àwòrán tó ṣàlàyé]](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - Ninu ẹkọ yii Ariel Gabizon pese awọn apejuwe ti Igi Iṣeduro Akọsilẹ Zcash, Iyẹwo Polynomial afọju & Awọn ipenija ti o farapamọ Homomorphically ati bi wọn ṣe ṣe imuse wọn lori nẹtiwọọki naa. 
+[Àwòrán tó ṣàlàyé](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - Ninu ẹkọ yii Ariel Gabizon pese awọn apejuwe ti Igi Iṣeduro Akọsilẹ Zcash, Iyẹwo Polynomial afọju & Awọn ipenija ti o farapamọ Homomorphically ati bi wọn ṣe ṣe imuse wọn lori nẹtiwọọki naa. 
 
 Ka ìwé [Halo2 book](https://zcash.github.io/halo2/index.html) fún ìsọfúnni síwájú sí i.
 
@@ -186,7 +186,7 @@ zk-SNARKS pese orisirisi awọn anfani ni orisii ti o yatọ si awọn ohun elo.
 The advantage of a proof based Rollup (zk-Rollup) service is to process a batch of hundreds/thousands of transactions & the L1 is able to verify a succinct proof that all transactions were processed correctly, scaling the networks transaction throughput by a factor of 100 or 1000.
 
 <a href="">
-  <img width="606" height="336" alt="zkvm1" src="https://github.com/user-attachments/assets/a3cbb5c9-8767-4b34-9fcb-868ca421838f" width="600" height="300"/>
+  <img width="606" height="336" alt="zkvm1" src="/content-images/a3cbb5c9-8767-4b34-9fcb-868ca421838f-d69b264b5b.webp" width="600" height="300"/>
 </a>
 
 
@@ -204,13 +204,13 @@ ____
 
 [Ìwé-ìwé tí kò ní ìmọ̀ kankan - a16z Crypto](https://a16zcrypto.com/zero-knowledge-canon/)
 
-[ZKSNARK's with Hanh Huynh Huu] [Àwòrán tí wọ́n ṣe fún Hanh Huyú]](https://www.youtube.com/watch?v=zXF-BDohZjk)
+[ZKSNARK's with Hanh Huynh Huu] [Àwòrán tí wọ́n ṣe fún Hanh Huyú](https://www.youtube.com/watch?v=zXF-BDohZjk)
 
-[Zcash: Halo 2 and SNARKs without Trusted Setups - Sean Bowe on Dystopia labs] [Àkọlé àwòrán: Àjọ tó ń rí sí àyípadà nínú ìṣẹ̀dá]](https://www.youtube.com/watch?v=KdkVTEHUxgo)
+[Zcash: Halo 2 and SNARKs without Trusted Setups - Sean Bowe on Dystopia labs] [Àkọlé àwòrán: Àjọ tó ń rí sí àyípadà nínú ìṣẹ̀dá](https://www.youtube.com/watch?v=KdkVTEHUxgo)
 
 [Ohun tí kò ní ìmọ̀ kankan fi hàn pé Avi Wigderson - Numberphile](https://youtu.be/5ovdoxnfFVc)
 
-[Awọn Ẹri-Imọ-Ohun-Ile-iṣẹ - Chainlink article]](https://blog.chain.link/interactive-zero-knowledge-proofs/)
+[Awọn Ẹri-Imọ-Ohun-Ile-iṣẹ - Chainlink article](https://blog.chain.link/interactive-zero-knowledge-proofs/)
 
 [Èdè 1: Ìfilọ́lẹ̀ àti Ìtàn ZKP - zklearning.org](https://www.youtube.com/watch?v=uchjTIlPzFo)
 

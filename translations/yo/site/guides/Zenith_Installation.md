@@ -136,7 +136,7 @@ zebraPort = 8232
 
 ## Àdàkọ:Raspi-config
 
-> [wá ìtòlẹ́sẹẹsẹ ìdánwò gldriver tó ṣẹ̀ṣẹ̀ jáde]](https://archive.raspberrypi.org/debian/pool/main/g/gldriver-test/)
+> [wá ìtòlẹ́sẹẹsẹ ìdánwò gldriver tó ṣẹ̀ṣẹ̀ jáde](https://archive.raspberrypi.org/debian/pool/main/g/gldriver-test/)
   
 > sudo dpkg - gldriver-test_0.15_all.deb
   

@@ -1,140 +1,154 @@
-# Zingo 2.0 - 페퍼 싱크
+<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Pepper_Sync.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
 
-## 소개
-Zingo 2.0은 Zcash 커뮤니티를 위해 설계된 가벼운 오픈소스 지갑인 Zingo! 지갑의 최신 버전입니다. 이번 릴리스의 주요 특징은 페퍼 싱크로, 이는 지갑이 블록체인과 연결되는 방식을 완전히 새롭게 고안한 중요한 업그레이드입니다.
+# Zingo 2.0 - Pepper Sync
 
-과거에는 동기화가 느리고 오류가 많으며 자원 소모가 커서 사용자가 처음부터 다시 시작해야 하는 경우도 있었습니다. 페퍼 싱크는 이러한 문제를 모두 해결합니다. 이 기능은 동기화 속도를 빠르게 하고, 부드럽게 하며, 더욱 안정적이며, 장치에 대한 요구 사항을 줄여줍니다. 동시에, 보호된 거래의 프라이버시는 완전히 유지됩니다.
+## TL;DR
 
-새로운 사용자가 Zcash를 처음 테스트하거나 오랜 시간 커뮤니티에 참여해 여러 보호된 지갑을 관리하는 사용자에게도 페퍼 싱크는 경험을 훨씬 실용적이고 즐겁게 만들어줍니다.
+* Pepper Sync는 Zingo Labs가 만든 오픈소스 Zcash 지갑인 Zingo! 2.0에 도입된 동기화 엔진입니다.
+* 대규모 순차 청크로 체인을 스캔하는 대신 비선형 동기화를 사용하므로, 잔액과 거래가 훨씬 더 빨리 표시됩니다.
+* 진행 상황이 계속 저장됩니다. 연결이 끊기거나 앱이 닫혀도 처음부터 다시 시작하지 않고 멈춘 지점부터 동기화가 재개됩니다.
+* 동기화가 끝나기 전에 지출할 수 있습니다.
+* Shielded 거래는 전체 과정 내내 프라이버시가 유지됩니다.
 
----
+## 핵심 설명
 
-## 페퍼 싱크의 핵심 기능
-페퍼 싱크는 다음과 같은 개선 사항을 도입합니다:
-- **더 빠른 동기화** - 지갑이 몇 분 만에 준비됩니다. 수시간은 걸리지 않습니다.
-- **스마트 업데이트** - 데이터가 작은 조각으로 처리되어 전체 재검색 없이 진행됩니다.
-- **중단에 강한 기능** - 연결이 끊기면 동기화는 중단된 지점에서 계속됩니다.
-- **경량 및 효율성** - 스마트폰, 노트북, 기타 저전력 장치를 위해 최적화되었습니다.
-- **더 명확한 피드백** - 실시간 진행 상황 업데이트로 혼란을 줄입니다.
-- **프라이버시 보호** - 보호된 거래는 전체 과정에서 프라이버시가 유지됩니다.
+Zingo 2.0은 Zcash 커뮤니티를 위해 만들어진 가볍고 오픈소스인 지갑 Zingo!의 최신 버전입니다. 이번 릴리스의 핵심은 Pepper Sync로, 지갑이 블록체인과 연결되는 방식을 완전히 새롭게 설계한 대규모 업그레이드입니다.
 
----
+과거에는 동기화가 몹시 느리고, 오류가 잦고, 리소스를 많이 소모하는 작업처럼 느껴졌으며, 때로는 사용자가 처음부터 다시 시작해야 했습니다. Pepper Sync는 이 모든 것을 바꿉니다. 동기화를 더 빠르고, 더 매끄럽고, 더 안정적이며, 기기 부담은 더 적게 만들면서도 shielded 거래의 프라이버시는 완전히 유지합니다.
 
-## 이전 버전보다 더 나은 점
-이전 Zingo 버전은 오랜 동기화 시간, 불분명한 오류 처리 및 높은 자원 사용으로 사용자에게 짜증을 주었습니다. 페퍼 싱크는 이러한 일반적인 문제를 해결합니다:
+처음으로 Zcash를 써보는 완전 초보 사용자든, 여러 개의 shielded 지갑을 관리하는 오랜 커뮤니티 구성원이든, Pepper Sync는 이 경험을 훨씬 더 실용적이고 즐겁게 만들어 줍니다.
 
-<div className="overflow-x-auto my-8">
-  <table className="w-full min-w-[640px] max-w-[950px] mx-auto border-collapse shadow-xl rounded-2xl overflow-hidden dark:shadow-2xl">
-    <thead>
-      <tr>
-        <th className="bg-emerald-400 dark:bg-emerald-700 text-white px-4 py-4 sm:px-6 sm:py-5 text-left font-bold text-base sm:text-lg tracking-tight">기능</th>
-        <th className="bg-emerald-400 dark:bg-emerald-700 text-white px-4 py-4 sm:px-6 sm:py-5 text-left font-bold text-base sm:text-lg tracking-tight">이전 Zingo 버전</th>
-        <th className="bg-emerald-400 dark:bg-emerald-700 text-white px-4 py-4 sm:px-6 sm:py-5 text-left font-bold text-base sm:text-lg tracking-tight">페퍼 싱크가 포함된 Zingo 2.0</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="bg-slate-50 hover:bg-slate-100 dark:bg-slate-800 dark:hover:bg-slate-700">
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 font-semibold text-slate-800 dark:text-slate-200">동기화 속도</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">처음 설정 시 특히 느림</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 bg-emerald-50 dark:bg-emerald-950 font-medium text-emerald-800 dark:text-emerald-300">초기 및 지속적인 동기화가 훨씬 빠름</td>
-      </tr>
-      <tr className="hover:bg-slate-100 dark:hover:bg-slate-700">
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 font-semibold text-slate-800 dark:text-slate-200">오류 처리</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">가끔 멈춤 및 불분명한 실패</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 bg-emerald-50 dark:bg-emerald-950 font-medium text-emerald-800 dark:text-emerald-300">자동 복구 기능을 갖춘 안정성 향상</td>
-      </tr>
-      <tr className="bg-slate-50 hover:bg-slate-100 dark:bg-slate-800 dark:hover:bg-slate-700">
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 font-semibold text-slate-800 dark:text-slate-200">사용자 경험</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">새로운 사용자에게는 "불투명"하게 느껴짐</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 border-b border-slate-200 dark:border-slate-700 bg-emerald-50 dark:bg-emerald-950 font-medium text-emerald-800 dark:text-emerald-300">더 명확한 상태 및 업데이트 제공</td>
-      </tr>
-      <tr className="hover:bg-slate-100 dark:hover:bg-slate-700">
-        <td className="px-4 py-4 sm:px-6 sm:py-5 font-semibold text-slate-800 dark:text-slate-200">장치 성능</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 text-slate-700 dark:text-slate-300">높은 CPU/메모리 사용량</td>
-        <td className="px-4 py-4 sm:px-6 sm:py-5 bg-emerald-50 dark:bg-emerald-950 font-medium text-emerald-800 dark:text-emerald-300">자원 사용이 부드럽게 최적화됨</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+### Pepper Sync의 핵심 기능
 
-간단히 말해, 동기화는 이제 더 빠르고 안정적이며 이해하기 쉬워졌습니다.
+Pepper Sync는 여러 개선점을 도입했습니다:
 
----
+- 훨씬 더 빠른 동기화 - 이제 지갑이 몇 시간이 아니라 몇 분 안에 준비됩니다.
+- 스마트 업데이트 - 데이터를 더 작은 청크로 처리하여 전체 재스캔을 피합니다.
+- 중단에 강함 - 연결이 끊겨도 동기화는 중단된 지점에서 재개됩니다.
+- 가볍고 효율적 - 휴대폰, 노트북 및 기타 저사양 기기에 최적화되었습니다.
+- 더 명확한 피드백 - 실시간 진행 상황 업데이트로 혼란을 줄입니다.
+- 프라이버시 보존 - 과정 전반에 걸쳐 shielded 거래의 프라이버시가 유지됩니다.
 
-## 페퍼 싱크가 누굴 도와줄까요?
-- **새로운 사용자** - 지연 없이 빠르게 지갑을 설정할 수 있어 초보자가 좌절하지 않습니다.
-- **일상적인 사용자** - 신뢰할 수 있는 보호된 결제를 일상생활에서 실용적으로 사용할 수 있습니다.
-- **개발자 및 테스터** - 짧은 동기화 시간으로 더 빠른 테스트 주기를 가능하게 합니다.
-- **모바일 및 경량 장치** - 자원이 제한된 하드웨어에서도 Zingo가 효율적으로 작동합니다.
+### 이전보다 무엇이 더 좋아졌나
 
----
+이전 버전의 Zingo는 긴 동기화 시간, 불분명한 오류 처리, 높은 리소스 사용으로 종종 사용자들을 답답하게 했습니다. Pepper Sync는 이러한 흔한 문제들을 해결합니다:
 
-## ZCASH에 중요한 이유
-Zcash는 보호된 거래를 중심으로 설계되어 있으며, 암호화폐에서 가장 강력한 프라이버시 도구 중 하나입니다. 그러나 프라이버시는 접근 가능해야만 유용합니다.
+| 기능               | 이전 Zingo 버전                         | Pepper Sync가 적용된 Zingo 2.0                 |
+| ------------------ | -------------------------------------- | --------------------------------------------- |
+| 동기화 속도        | 더 느림, 특히 최초 설정 시             | 초기 및 이후 동기화가 훨씬 더 빠름            |
+| 오류 처리          | 가끔 멈추고 실패 원인이 불분명함       | 자동 복구로 안정성이 향상됨                   |
+| 사용자 경험        | 초보자에게 동기화가 "불투명하게" 느껴짐 | 더 명확한 상태와 업데이트로 투명해짐          |
+| 기기 성능          | CPU/메모리 사용량이 높음               | 리소스를 부드럽게 사용할 수 있도록 최적화됨   |
 
-페퍼 싱크는 다음과 같이 도움을 줍니다:
-- **입문 장벽 낮춤** - 새로운 사용자가 빠르게 시작할 수 있습니다.
-- **일상적인 사용성 지원** - 보호된 주소가 더 쉽게 신뢰될 수 있도록 합니다.
-- **생태계 성장 촉진** - 더 나은 지갑 경험은 더 많은 채택, 앱 및 서비스를 유도합니다.
+요컨대 이제 동기화는 더 빠르고, 더 안정적이며, 더 이해하기 쉬워졌습니다.
 
-지갑 경험을 개선함으로써 페퍼 싱크는 전체 Zcash 생태계를 강화합니다.
+## 시각적 설명 / 비유
 
----
+예전 지갑의 동기화는 아주 긴 책을 1페이지부터 소리 내어 끝까지 읽고 나서야 그 내용에 대해 말할 수 있는 것과 비슷하다고 생각해 보세요. 중간에 멈추면 다시 1페이지로 돌아가야 합니다. Pepper Sync는 같은 책을 읽지만, 책갈피를 유지하고, 먼저 당신에게 중요한 장부터 읽으며, 마지막 페이지를 다 읽기 전에도 이야기에 대해 말할 수 있게 해줍니다.
 
-## 페퍼 싱크 작동 방식 (간단한 시각)
-대량의 블록체인을 재검색하는 대신, 페퍼 싱크는 작은 단위로 관리 가능한 단계에서 작동하며, 진행 중에 항상 위치를 저장합니다.
+중요한 부분은 바로 그 책갈피입니다. 이전 버전들은 중단된 동기화를 모두 헛수고로 취급했지만, Pepper Sync는 그것을 일시정지로 취급합니다.
 
-1. **연결** - 지갑이 네트워크와 연결됩니다.
-2. **블록 다운로드** - 데이터가 점진적으로 다운로드됩니다.
-3. **검증** - 거래가 검증됩니다.
-4. **보호된 노트 처리** - 모든 시점에서 프라이버시가 유지됩니다.
-5. **잔액 업데이트** - 지갑이 보안적으로 갱신됩니다.
-6. **진행 상황 저장** - 중단 및 재개가 원활하게 이루어집니다.
-7. **완료** - 지갑이 거래를 위해 준비됩니다.
+### 시각 자료
 
-### 시각 가이드:
-- **상세 흐름** - 전체 과정을 보여줍니다. ![상세 흐름](https://github.com/user-attachments/assets/119c13ec-76be-42bd-b558-762d09275a1b)
-- **간단한 흐름** - 일상 사용자용 빠른 시각. ![간단한 흐름](https://github.com/user-attachments/assets/9b612cbd-f24d-4472-9b87-0f2c908bb368)
+- 상세 흐름도 - 전체 과정을 보여줍니다. ![상세 흐름도](https://github.com/user-attachments/assets/119c13ec-76be-42bd-b558-762d09275a1b)
 
----
+- 간단한 흐름도 - 일반 사용자를 위한 빠른 개요입니다. ![간단한 흐름도](https://github.com/user-attachments/assets/9b612cbd-f24d-4472-9b87-0f2c908bb368)
 
-## 시작하기: Zingo 2.0으로 온보딩
-1. **지갑 다운로드** - Zingo GitHub 릴리스 페이지[](https://github.com/zingolabs/zingolib?utm_source=chatgpt.com)에서 적절한 버전을 받습니다.
-2. **지갑 설정** - 새 지갑을 생성하거나 기존 시드 구문으로 복구합니다. Zingo 2.0 with Zingo Labs[](https://www.youtube.com/watch?v=FREwMzf_LlM)
-3. **페퍼 싱크 실행** - 지갑이 업데이트되는 동안 진행 상황 표시를 확인합니다. Pepper Sync Run[](https://x.com/ZingoLabs/status/1961871338441724191)
-4. **Zcash 사용 시작** - 동기화가 완료되면 보호된 ZEC을 즉시 송금 및 수신할 수 있습니다.
-5. **중단에 대한 걱정 없음** - 앱이 닫히거나 연결이 끊기면 페퍼 싱크가 자동으로 재개됩니다.
+## 자세히 보기
 
----
+### Pepper Sync의 작동 방식 (간단한 설명)
 
-## FAQ - 일반적인 질문
-**Q: 매번 지갑을 열 때마다 전체 스캔해야 하나요?**  
-A: 아니요. 페퍼 싱크는 진행 상황을 저장하므로 마지막 지점에서만 업데이트합니다.
+Pepper Sync는 블록체인을 크고 둔탁한 청크 단위로 재스캔하는 대신, 작고 관리하기 쉬운 단계로 작업하며 진행하면서 항상 현재 위치를 저장합니다.
 
-**Q: 인터넷이 끊기면 어떻게 되나요?**  
-A: 동기화가 일시 중지되고 나중에 다시 시작되며, 처음부터 다시 시작하지 않습니다.
+1. 연결 - 지갑이 네트워크와 연결을 확인합니다.
+2. 블록 가져오기 - 데이터를 점진적으로 다운로드합니다.
+3. 검증 - 거래를 검증합니다.
+4. Shielded 노트 처리 - 항상 프라이버시를 유지합니다.
+5. 잔액 업데이트 - 지갑을 안전하게 갱신합니다.
+6. 진행 상황 저장 - 끊김 없이 중지하고 재개합니다.
+7. 완료 - 지갑이 거래할 준비를 마칩니다.
 
-**Q: 동기화 중에도 프라이버시는 안전하나요?**  
-A: 네. 보호된 거래는 항상 완전히 비공개 상태를 유지합니다.
+## 실질적인 의미
 
-**Q: 최초 동기화가 얼마나 걸리나요?**  
-A: 일반적으로 몇 분이면 되며, 장치와 인터넷에 따라 수시간은 걸리지 않습니다.
+### 누가 Pepper Sync의 혜택을 받나?
 
-**Q: 동기화가 끝나기 전에도 지갑을 사용할 수 있나요?**  
-A: 체인의 최신 상태에 동기화되어야 하지만, 페퍼 싱크는 이 과정을 훨씬 더 빠르게 처리합니다.
+- 신규 사용자 - 지연 때문에 좌절하지 않고 빠르게 지갑을 설정할 수 있습니다.
+- 일상 사용자 - 안정적인 동기화로 shielded 결제를 일상적으로 사용하는 것이 실용적이 됩니다.
+- 개발자 및 테스터 - 동기화 시간이 짧아져 테스트 주기가 빨라집니다.
+- 모바일 및 경량 기기 - 이제 Zingo는 리소스가 제한된 하드웨어에서도 효율적으로 실행됩니다.
 
----
+### 왜 이것이 Zcash에 중요한가
 
-## 자료 및 참고
-- **Zingo! GitHub 저장소[](https://github.com/zingolabs/zingolib?utm_source=chatgpt.com)**
-- **Zcash 커뮤니티 포럼[](https://forum.zcashcommunity.com/?utm_source=chatgpt.com)**
-- **공식 발표 - Zingo Labs 트위터[](https://twitter.com/ZingoLabs?utm_source=chatgpt.com)**
+Zcash는 암호화폐에서 가장 강력한 프라이버시 도구 중 하나인 shielded 거래를 중심으로 구축되었습니다. 하지만 프라이버시는 접근 가능할 때만 유용합니다.
 
----
+Pepper Sync는 다음과 같은 방식으로 도움을 줍니다:
+
+- 진입 장벽을 낮춤 - 신규 사용자가 빠르게 시작할 수 있습니다.
+- 일상적 사용성 지원 - Shielded 주소를 더 쉽게 신뢰할 수 있게 됩니다.
+- 생태계 성장 장려 - 더 나은 지갑 경험이 더 많은 채택, 앱, 서비스로 이어집니다.
+
+지갑 경험을 개선함으로써 Pepper Sync는 Zcash 생태계 전체를 강화합니다.
+
+### 시작하기: Zingo 2.0 온보딩
+
+1. 지갑 다운로드 - [Zingo GitHub releases page](https://github.com/zingolabs/zingolib)에서 올바른 버전을 받으세요
+2. 지갑 설정 - 새 지갑을 만들거나 기존 시드 구문으로 복원하세요. [Zingo Labs와 함께하는 Zingo 2.0](https://www.youtube.com/watch?v=FREwMzf_LlM)
+3. Pepper Sync 실행 - 지갑이 업데이트되는 동안 진행 표시기를 확인하세요. [Pepper Sync 실행](https://x.com/ZingoLabs/status/1961871338441724191)
+4. Zcash 사용 시작 - 동기화가 완료되는 즉시 shielded ZEC를 송금하고 받을 수 있습니다.
+5. 중단에 대해 걱정하지 않기 - 앱이 닫히거나 연결이 끊겨도 Pepper Sync가 자동으로 재개됩니다.
+
+## 흔한 실수
+
+**Pepper Sync를 그 자체로 하나의 지갑이라고 여기는 것**. Pepper Sync는 Zingo! 지갑 내부의 동기화 엔진이지, 별도의 애플리케이션이 아닙니다. 설치하는 것은 Zingo이고, 그 아래에서 실행되는 것이 Pepper Sync입니다.
+
+**더 빠른 동기화가 더 약한 프라이버시를 의미한다고 가정하는 것**. 속도 향상은 더 많은 정보를 드러내서가 아니라 블록 데이터를 가져오고, 정렬하고, 캐시하는 방식에서 비롯됩니다. Shielded 거래는 전체 과정 내내 프라이버시를 유지합니다.
+
+**지출하려면 반드시 완전히 동기화되어야 한다고 가정하는 것**. 동기화가 완료되기 전에 지출할 수 있다는 점은 Pepper Sync의 대표 기능 중 하나이므로, 지갑이 체인 tip에 도달할 때까지 기다릴 필요가 없습니다.
+
+## FAQ - 자주 묻는 질문
+
+**Q: 지갑을 열 때마다 매번 재스캔해야 하나요?**
+
+A: 아니요. Pepper Sync는 진행 상황을 저장하므로 마지막 지점부터만 업데이트하면 됩니다.
+
+**Q: 인터넷 연결이 끊기면 어떻게 되나요?**
+
+A: 동기화가 일시 중지되었다가 나중에 처음부터 다시 시작하지 않고 이어서 계속됩니다.
+
+**Q: 동기화 중에도 제 프라이버시는 안전한가요?**
+
+A: 네. Shielded 거래는 완전히 비공개로 유지됩니다.
+
+**Q: 첫 동기화는 얼마나 걸리나요?**
+
+A: 보통 기기와 인터넷 환경에 따라 몇 시간이 아니라 몇 분 정도 걸립니다.
+
+**Q: 동기화가 끝나기 전에 지갑을 사용할 수 있나요?**
+
+A: 네. Pepper Sync는 동기화가 완료되기 전 지출을 지원하므로, 지갑이 체인 tip에 도달할 때까지 기다릴 필요가 없습니다.
 
 ## 결론
-Zingo 2.0 페퍼 싱크를 통해 보호된 지갑의 가장 큰 과제였던 동기화는 더 이상 문제가 되지 않습니다. 이제 빠르고 안정적이며 사용자 친화적인 방식으로, 새로운 사용자의 진입 장벽을 낮추고 일상 사용이 훨씬 실용적으로 됩니다.
 
-사용자에게는 기다림이 줄어들고 프라이버시가 더 강화됩니다. 개발자에게는 더 견고한 기반 위에서 구축할 수 있는 기회를 제공합니다. Zcash 생태계에겐 보호된 거래가 모두에게 접근 가능하도록 한 또 다른 단계입니다.
+Zingo 2.0의 Pepper Sync 덕분에 동기화는 더 이상 shielded 지갑의 가장 큰 골칫거리가 아닙니다. 이제 동기화는 빠르고, 안정적이며, 사용자 친화적이어서 신규 사용자의 진입 장벽을 낮추고 일상적 사용을 훨씬 더 실용적으로 만듭니다.
 
-Zingo 2.0과 페퍼 싱크는 단순한 업그레이드를 넘어, 프라이버시와 사용성을 갖춘 암호화폐의 발전을 위한 중요한 전진입니다.
+사용자에게는 기다림이 줄고 프라이버시가 늘어난다는 뜻입니다. 개발자에게는 더 강력한 기반 위에서 구축할 수 있다는 뜻입니다. Zcash 생태계 전체에는 shielded 거래를 모두가 접근할 수 있게 만드는 또 하나의 진전입니다.
+
+Pepper Sync가 적용된 Zingo 2.0은 단순한 업그레이드가 아니라, 프라이빗하고 실용적인 암호화폐를 위한 도약입니다.
+
+## 관련 페이지
+
+- [Zcash 지갑 동기화](/zcash-tech/zcash-wallet-syncing) — Zcash 생태계 전반에서 지갑 동기화가 어떻게 작동하는지 설명합니다.
+- [Lightwallet 노드](/zcash-tech/lightwallet-nodes) — Zingo 같은 라이트 지갑이 동기화하는 대상이 되는 인프라입니다.
+- [Zaino](/zcash-tech/zaino) — Zingo 팀이 개발한 인덱서입니다.
+- [지갑](/wallets) — Zcash 지갑과 그 기능을 한눈에 볼 수 있는 전체 디렉터리입니다.
+
+## 더 알아보기
+
+- [Zingo! GitHub 저장소](https://github.com/zingolabs/zingolib)
+- [Zcash 커뮤니티 포럼](https://forum.zcashcommunity.com/)
+- 공식 발표 - [Zingo Labs Twitter](https://twitter.com/ZingoLabs)
+
+___
+___

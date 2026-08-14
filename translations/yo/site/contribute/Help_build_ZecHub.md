@@ -23,11 +23,11 @@ Túmọ̀ èyíkéyìí nínú àwọn ojúewé wiki tó wà.
 
 Ìròyìn àwọn àṣìṣe
 
-#### Fun awọn alaye lori awọn iye ẹbun, jọwọ ka oju-iwe wa ti o ṣe alabapin -> [nibi]](https://zechub.wiki/contribute/contributing-guide#content).
+#### Fun awọn alaye lori awọn iye ẹbun, jọwọ ka oju-iwe wa ti o ṣe alabapin -> [nibi](https://zechub.wiki/contribute/contributing-guide#content).
 
 A máa ń gbé àwọn ẹ̀dà jáde fún àwọn iṣẹ́ tí a ní nísinsìnyí. Ẹ̀yin náà lè dá àwọn ẹrù sílẹ̀! Lákọ̀ọ́kọ́, wọ́n wà ní ZEC Bounties.
 
-[ìràpadà èrè!](https://github.com/user-attachments/assets/0e4f5109-c0c9-4a0a-8d71-8172e36b9726)
+[ìràpadà èrè!](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 
 
 

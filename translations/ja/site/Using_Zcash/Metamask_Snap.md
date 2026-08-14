@@ -41,7 +41,7 @@ MetaMask は現在、**ChainSafe が開発した Zcash Snap** により **shield
       デバイス上へのデータ保存
    ```
 
-![Zcash-snap-install](https://hackmd.io/_uploads/Hy5MSG2Oex.png)
+![Zcash-snap-install](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
 
 
 ---
@@ -59,7 +59,7 @@ MetaMask で **Add Network** を選択し、次を入力します:
 -  Block Explorer URL: https://bscscan.com
 ```
 これにより、ネットワーク情報とエクスプローラーのリンクが有効になります。
-![Add-a-custom-Net....](https://hackmd.io/_uploads/S1hq7f2Oel.png)
+![Add-a-custom-Net....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
 
 **Zcash Mainnet** の場合;
 ```markdown
@@ -75,13 +75,13 @@ MetaMask で **Add Network** を選択し、次を入力します:
 1. [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev) にアクセスします。  
 2. **Connect MetaMask Snap** をクリックします。  
 
-![Zcash-web-wallet](https://hackmd.io/_uploads/Sk8nSz3dgl.png)
+![Zcash-web-wallet](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
 
 3. 接続を承認します。  
 4. 次を含む Zcash アカウントの概要を確認します:
    - Unified Address と Transparent address
 
-![Account-summary-unif....](https://hackmd.io/_uploads/r17c_Mhdel.jpg)
+![Account-summary-unif....](/content-images/r17c_Mhdel-f4963826d5.webp)
 
 
 5. 同期が完了するまで待ちます。
@@ -96,7 +96,7 @@ MetaMask で **Add Network** を選択し、次を入力します:
 > **ETH -> ZEC をスワップ** - **LeoDex** などのサービスを使用し、あなたの shielded address に送信します。  
 > **取引所からの出金** - 購入した ZEC をあなたの WebZjs shielded address に出金します。  
 
-![LEODEX-SWAP](https://hackmd.io/_uploads/HyLQ0G2ugg.png)
+![LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => **完全なプライバシー**のために shielded (z) addresses を使用してください。
@@ -111,7 +111,7 @@ MetaMask で **Add Network** を選択し、次を入力します:
    - Shielded recipient address  
    - 金額
 ```
-   ![Transfer-Balance](https://hackmd.io/_uploads/rkvcFfhdex.png)
+   ![Transfer-Balance](/content-images/rkvcFfhdex-bd55d079eb.webp)
 
 4. MetaMask でトランザクションを確認します（トランザクションに署名します）。  
 5. 受信した資金は確認後に WebZjs に表示されます。
@@ -145,7 +145,7 @@ MetaMask で **Add Network** を選択し、次を入力します:
    Transparent Address
 ``` 
 
-![Address-components](https://hackmd.io/_uploads/SyPR2f2_gg.png)
+![Address-components](/content-images/SyPR2f2_gg-3907c5bf58.webp)
 
 
 

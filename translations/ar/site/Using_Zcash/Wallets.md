@@ -1,285 +1,343 @@
 ## [ZODL](https://zodl.com)
-![logo](https://github.com/user-attachments/assets/198608b2-9059-4cb7-aeb8-9354971376fd "ZODL")
-- الأجهزة: Mobile
+![logo](/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp "ZODL")
+- الأجهزة: محمول
 - نظام التشغيل: Android | iOS
-- دعم المحفظة: Seed Phrase | Viewing Key | Unified Address | Hardware
-- المجمعات: Transparent | Sapling | Orchard
-- الميزات: دفتر العناوين | CrossPay | Near Intents | Flexa Payments | MultiSignature | طلب دفع | Shielded Memo | الإنفاق قبل المزامنة | TEX Address | دعم Tor | F-droid
+- دعم المحفظة: عبارة الاسترداد | Viewing Key | Unified Address | أجهزة
+- المجمّعات: شفافة | Sapling | Orchard
+- الميزات: دفتر عناوين | CrossPay | Near Intents | Flexa Payments | توقيع متعدد | طلب دفع | Shielded Memo | الإنفاق قبل المزامنة | عنوان TEX | دعم Tor | F-droid
+- Ironwood: جاهز
 
 ---
 
 ## [Ywallet](https://ywallet.app/installation/)
-![logo](https://i.ibb.co/z4QxCWp/ywalletcard.png "Ywallet")
-- الأجهزة: Mobile | Desktop
+![logo](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
+- الأجهزة: محمول | سطح المكتب
 - نظام التشغيل: Android | iOS | Windows | Linux | macOS
-- دعم المحفظة: Seed Phrase | Viewing Key | Unified Address | Hardware
-- المجمعات: Transparent | Sapling | Orchard
-- الميزات: دفتر العناوين | تخزين بارد | Diversified Address | طلب دفع | نقل بين المجمعات | Shielded Memo | TEX Address | التصويت | WarpSync
+- دعم المحفظة: عبارة الاسترداد | Viewing Key | Unified Address | أجهزة
+- المجمّعات: شفافة | Sapling | Orchard
+- الميزات: دفتر عناوين | تخزين بارد | عنوان متنوع | طلب دفع | نقل بين المجمّعات | Shielded Memo | عنوان TEX | تصويت | WarpSync
+- Ironwood: غير جاهز
 
 ---
 
 ## [Dizzy](https://youtu.be/IVkuo1CGPBU)
-![logo](https://i.ibb.co/FH918w9/Dizzy-3.png "Dizzy")
-- الأجهزة: Mobile | Desktop
+![logo](/content-images/Dizzy-3-1a90249591.webp "Dizzy")
+- الأجهزة: محمول | سطح المكتب
 - نظام التشغيل: Android | iOS | Windows | Linux | macOS
-- دعم المحفظة: Seed Phrase | Viewing Key | Unified Address
-- المجمعات: Sapling | Orchard
+- دعم المحفظة: عبارة الاسترداد | Viewing Key | Unified Address
+- المجمّعات: Sapling | Orchard
 - الميزات: Discord Bot
 
 ---
 
 ## [Zingo!](https://www.zingolabs.org/)
-![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo!")
-- الأجهزة: Mobile | Desktop
+![logo](/content-images/zingocard-9a2546668d.webp "Zingo!")
+- الأجهزة: محمول | سطح المكتب
 - نظام التشغيل: Android | iOS | Windows | Linux
-- دعم المحفظة: Seed Phrase | Viewing Key | Unified Address
-- المجمعات: Transparent | Sapling | Orchard
-- الميزات: دفتر العناوين | رؤى مالية | طلب دفع | PepperSync | Shielded Memo | دعم Testnet
+- دعم المحفظة: عبارة الاسترداد | Viewing Key | Unified Address
+- المجمّعات: شفافة | Sapling | Orchard
+- الميزات: دفتر عناوين | رؤى مالية | طلب دفع | PepperSync | Shielded Memo | دعم الشبكة التجريبية
+- Ironwood: جاهز
 
 ---
 
 ## [Edge](https://edge.app)
-![logo](https://i.ibb.co/4FVQLS9/image-2024-11-28-091312254.png "Edge")
-- الأجهزة: Mobile
+![logo](/content-images/image-2024-11-28-091312254-b2389ad332.webp "Edge")
+- الأجهزة: محمول
 - نظام التشغيل: Android | iOS
-- دعم المحفظة: Seed Phrase | Unified Address
-- المجمعات: Transparent | Sapling
-- الميزات: Shielding تلقائي | DEX Swaps | Multi Coin | Shielded Memo | الإنفاق قبل المزامنة
+- دعم المحفظة: عبارة الاسترداد | Unified Address
+- المجمّعات: شفافة | Sapling
+- الميزات: تدريع تلقائي | DEX Swaps | عملات متعددة | Shielded Memo | الإنفاق قبل المزامنة
 
 ---
 
 ## [Unstoppable](https://unstoppable.money)
-![logo](https://i.ibb.co/C68mFCx/image-2024-11-28-091200540.png "Unstoppable")
-- الأجهزة: Mobile
+![logo](/content-images/image-2024-11-28-091200540-815817fda7.webp "Unstoppable")
+- الأجهزة: محمول
 - نظام التشغيل: Android | iOS
-- دعم المحفظة: Seed Phrase | Unified Address
-- المجمعات: Transparent | Sapling | Orchard
-- الميزات: DEX Swaps | Multi Coin | الإنفاق قبل المزامنة
+- دعم المحفظة: عبارة الاسترداد | Unified Address
+- المجمّعات: شفافة | Sapling | Orchard
+- الميزات: DEX Swaps | عملات متعددة | الإنفاق قبل المزامنة
+- Ironwood: جاهز
 
 ---
 
 ## [eZcash](https://blog.nerdbank.net/ezcash-app)
-![logo](https://i.ibb.co/C0q3jvw/e-Zcash-1.png "eZcash")
-- الأجهزة: Mobile | Desktop
+![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
+- الأجهزة: محمول | سطح المكتب
 - نظام التشغيل: Android | iOS | Windows
-- دعم المحفظة: Seed Phrase | Viewing Key | Unified Address
-- المجمعات: Transparent | Sapling | Orchard
-- الميزات: دفتر العناوين | التحقق من العنوان | Shielding تلقائي | Diversified Address | طلب دفع | Shielded Memo | TEX Address | دعم Testnet
+- دعم المحفظة: عبارة الاسترداد | Viewing Key | Unified Address
+- المجمّعات: شفافة | Sapling | Orchard
+- الميزات: دفتر عناوين | التحقق من العنوان | تدريع تلقائي | عنوان متنوع | طلب دفع | Shielded Memo | عنوان TEX | دعم الشبكة التجريبية
 
 ---
 
 ## [Zkool](https://github.com/hhanh00/zkool2/)
-![logo](https://i.ibb.co/BHGPff0K/zkool-1.png "Zkool")
-- الأجهزة: Mobile | Desktop
+![logo](/content-images/zkool-1-22ab388e65.webp "Zkool")
+- الأجهزة: محمول | سطح المكتب
 - نظام التشغيل: Android | iOS | Windows | Linux
-- دعم المحفظة: Seed Phrase | Viewing Key | Unified Address | Hardware
-- المجمعات: Transparent | Sapling | Orchard
-- الميزات: تدوير العناوين | دعم واسع للمفاتيح | صادرات مشفرة | FROST Multisig | مزامنة متعددة الحسابات | Shielded Memo | دعم Testnet
+- دعم المحفظة: عبارة الاسترداد | Viewing Key | Unified Address | أجهزة
+- المجمّعات: شفافة | Sapling | Orchard
+- الميزات: تدوير العناوين | دعم واسع للمفاتيح | تصديرات مشفرة | FROST Multisig | مزامنة متعددة الحسابات | Shielded Memo | دعم الشبكة التجريبية
+- Ironwood: جاهز
 
 ---
 
 ## [Cake](https://cakewallet.com/install/)
-![logo](https://github.com/user-attachments/assets/a8234c70-3714-4e80-b918-8739d45aea00 "Cake")
-- الأجهزة: Mobile | Desktop 
+![logo](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
+- الأجهزة: محمول | سطح المكتب 
 - نظام التشغيل: Android | iOS | Windows | Linux | macOS
-- دعم المحفظة: Seed Phrase | Viewing Key | Unified Address
-- المجمعات: Transparent | Sapling | Orchard
-- الميزات: دفتر العناوين | تدوير العناوين | Shielding تلقائي | DEX Swaps | Multi Coin | Shielded Memo | دعم Tor
-
+- دعم المحفظة: عبارة الاسترداد | Viewing Key | Unified Address
+- المجمّعات: شفافة | Sapling | Orchard
+- الميزات: دفتر عناوين | تدوير العناوين | تدريع تلقائي | DEX Swaps | عملات متعددة | Shielded Memo | دعم Tor
+- Ironwood: جاهز
+  
 ---
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
-![logo](https://i.ibb.co/VtPBnm6/zenith-2.png "Zenith")
-- الأجهزة: Desktop
+![logo](/content-images/zenith-2-cea75a34fd.webp "Zenith")
+- الأجهزة: سطح المكتب
 - نظام التشغيل: Windows | Linux | macOS
-- دعم المحفظة: Seed Phrase | Viewing Key | Unified Address | Full Node
-- المجمعات: Transparent | Sapling | Orchard
-- الميزات: دفتر العناوين | واجهة رسومية | Shielded Memo | دعم Testnet
+- دعم المحفظة: عبارة الاسترداد | Viewing Key | Unified Address | عقدة كاملة
+- المجمّعات: شفافة | Sapling | Orchard
+- الميزات: دفتر عناوين | واجهة رسومية | Shielded Memo | دعم الشبكة التجريبية
 
 ---
 
 ## [Zingo-CLI](https://github.com/zingolabs/zingolib)
-![logo](https://i.ibb.co/bdJ49Ld/zingocard.png "Zingo-CLI")
-- الأجهزة: Desktop
+![logo](/content-images/zingocard-9a2546668d.webp "Zingo-CLI")
+- الأجهزة: سطح المكتب
 - نظام التشغيل: Windows | Linux | macOS
-- دعم المحفظة: Seed Phrase | Viewing Key | Unified Address | Full Node
-- المجمعات: Transparent | Sapling | Orchard
-- الميزات: واجهة سطر الأوامر | PepperSync | Shielded Memo | دعم Testnet 
+- دعم المحفظة: عبارة الاسترداد | Viewing Key | Unified Address | عقدة كاملة
+- المجمّعات: شفافة | Sapling | Orchard
+- الميزات: واجهة سطر الأوامر | PepperSync | Shielded Memo | دعم الشبكة التجريبية 
+- Ironwood: قيد التنفيذ
 
 ---
 
 ## [Zallet](https://github.com/zcash/wallet)
-![logo](https://i.ibb.co/3mCrR0dN/Brandmark-Yellow.png "Zallet")
-- الأجهزة: Desktop
+![logo](/content-images/Brandmark-Yellow-2eca7f6f68.webp "Zallet")
+- الأجهزة: سطح المكتب
 - نظام التشغيل: Windows | Linux | macOS
-- دعم المحفظة: Seed Phrase | Viewing Key | Unified Address | Full Node
-- المجمعات: Transparent | Sapling | Orchard
-- الميزات: إصدار ألفا | واجهة JSON-RPC | Shielded Memo | دعم Testnet
+- دعم المحفظة: عبارة الاسترداد | Viewing Key | Unified Address | عقدة كاملة
+- المجمّعات: شفافة | Sapling | Orchard
+- الميزات: إصدار Alpha | واجهة JSON-RPC | Shielded Memo | دعم الشبكة التجريبية
+- Ironwood: جاهز
 
 ---
 
 ## [Zcashd](https://github.com/zcash/zcash)
-![logo](https://i.ibb.co/Xz2NskW/zcashd.png "Zcashd")
-- الأجهزة: Desktop
+![logo](/content-images/zcashd-92df3291ad.webp "Zcashd")
+- الأجهزة: سطح المكتب
 - نظام التشغيل: Windows | Linux | macOS
-- دعم المحفظة: Seed Phrase | Viewing Key | Unified Address | Full Node
-- المجمعات: Transparent | Sapling | Orchard
-- الميزات: واجهة سطر الأوامر | Diversified Address | Shielded Memo | دعم Testnet
+- دعم المحفظة: عبارة الاسترداد | Viewing Key | Unified Address | عقدة كاملة
+- المجمّعات: شفافة | Sapling | Orchard
+- الميزات: واجهة سطر الأوامر | عنوان متنوع | Shielded Memo | دعم الشبكة التجريبية
+- Ironwood: غير جاهز
 
 ---
 
 ## [Brave](https://brave.com/web3-privacy/)
-![logo](https://i.ibb.co/6yqMNwZ/image-2024-01-13-170934865.png "Brave")
-- الأجهزة: Web
+![logo](/content-images/image-2024-01-13-170934865-733c5d91c6.webp "Brave")
+- الأجهزة: الويب
 - نظام التشغيل: المتصفح
-- دعم المحفظة: Seed Phrase | Unified Address
-- المجمعات: Transparent | Orchard
-- الميزات: Shielded Memo | الإنفاق قبل المزامنة | دعم Testnet
+- دعم المحفظة: عبارة الاسترداد | Unified Address
+- المجمّعات: شفافة | Orchard
+- الميزات: Shielded Memo | الإنفاق قبل المزامنة | دعم الشبكة التجريبية
 
 ---
 
 ## [Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
-![logo](https://i.ibb.co/jn5t9Gy/metamask.png  "Metamask")
-- الأجهزة: Web
+![logo](/content-images/metamask-25048569f6.webp  "Metamask")
+- الأجهزة: الويب
 - نظام التشغيل: المتصفح
-- دعم المحفظة: Seed Phrase | Unified Address
-- المجمعات: Transparent | Sapling | Orchard
-- الميزات: Multi Coin
+- دعم المحفظة: عبارة الاسترداد | Unified Address
+- المجمّعات: شفافة | Sapling | Orchard
+- الميزات: عملات متعددة
 
 ---
 
 ## [Zucchini](https://zucchinifi.xyz/)
-![logo](https://github.com/user-attachments/assets/91a1005a-3daf-4747-9442-c178cbe50e49 "Zucchini")
-- الأجهزة: Web 
+![logo](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
+- الأجهزة: الويب 
 - نظام التشغيل: المتصفح
-- دعم المحفظة: Seed Phrase | Unified Address
-- المجمعات: Transparent | Sapling | Orchard
+- دعم المحفظة: عبارة الاسترداد | Unified Address
+- المجمّعات: شفافة | Sapling | Orchard
 - الميزات: DEX Swaps
 
 ---
 
 ## [SSP Wallet](https://sspwallet.io)
-![logo](https://i.ibb.co/X3hdfSY/ssp-1.png "SSP Wallet")
-- الأجهزة: Mobile | Web
+![logo](/content-images/ssp-1-7d96e66117.webp "SSP Wallet")
+- الأجهزة: محمول | الويب
 - نظام التشغيل: Android | iOS | المتصفح
-- دعم المحفظة: Seed Phrase
-- المجمعات: Transparent
-- الميزات: Multi Coin
+- دعم المحفظة: عبارة الاسترداد
+- المجمّعات: شفافة
+- الميزات: عملات متعددة
 
 ---
 
 ## [Trust Wallet](https://trustwallet.com/download)
-![logo](https://i.ibb.co/cNqxBJ1/trustwallet.png "Trust Wallet")
-- الأجهزة: Mobile | Web
+![logo](/content-images/trustwallet-bec43acb59.webp "Trust Wallet")
+- الأجهزة: محمول | الويب
 - نظام التشغيل: Android | iOS | المتصفح
-- دعم المحفظة: Seed Phrase
-- المجمعات: Transparent
-- الميزات: Multi Coin
+- دعم المحفظة: عبارة الاسترداد
+- المجمّعات: شفافة
+- الميزات: عملات متعددة
 
 ---
 
 ## [Exodus](https://www.exodus.com/zcash-wallet-zec)
-![logo](https://i.ibb.co/w0NNZNp/exoduscard.png "Exodus")
-- الأجهزة: Mobile | Desktop | Web
+![logo](/content-images/exoduscard-2f77769db0.webp "Exodus")
+- الأجهزة: محمول | سطح المكتب | الويب
 - نظام التشغيل: Android | iOS | Windows | Linux | macOS | المتصفح
-- دعم المحفظة: Seed Phrase
-- المجمعات: Transparent
-- الميزات: Multi Coin
+- دعم المحفظة: عبارة الاسترداد
+- المجمّعات: شفافة
+- الميزات: عملات متعددة
 
 ---
 
 ## [Coinomi](https://www.coinomi.com/en/downloads)
-![logo](https://i.ibb.co/QfHmjWY/coinomicard.png "Coinomi")
-- الأجهزة: Mobile | Desktop
+![logo](/content-images/coinomicard-226bcbf876.webp "Coinomi")
+- الأجهزة: محمول | سطح المكتب
 - نظام التشغيل: Android | iOS | Windows
-- دعم المحفظة: Seed Phrase
-- المجمعات: Transparent
-- الميزات: Multi Coin
+- دعم المحفظة: عبارة الاسترداد
+- المجمّعات: شفافة
+- الميزات: عملات متعددة
 
 ---
 
 ## [Keystone](https://shop.keyst.one)
-![logo](https://i.ibb.co/c1gn635/Keystone-1.png "Keystone")
+![logo](/content-images/Keystone-1-8177a83308.webp "Keystone")
 - الأجهزة:
 - نظام التشغيل:
-- دعم المحفظة: Hardware | Unified Address
-- المجمعات: Transparent | Sapling | Orchard
-- الميزات: Multi Coin
+- دعم المحفظة: أجهزة | Unified Address
+- المجمّعات: شفافة | Sapling | Orchard
+- الميزات: عملات متعددة
+- Ironwood: جاهز
 
 ---
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
-![logo](https://i.ibb.co/2qX6WCF/Desktop-Wallets.png "Ledger")
+![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
 - الأجهزة: 
 - نظام التشغيل:
-- دعم المحفظة: Hardware
-- المجمعات: Transparent 
-- الميزات: Multi Coin
+- دعم المحفظة: أجهزة
+- المجمّعات: شفافة 
+- الميزات: عملات متعددة
+- Ironwood: قيد التنفيذ
 
 ---
 
 ## [Safepal](https://safepal.com)
-![logo](https://i.ibb.co/h29h6d0/safepalcard.png "Safepal")
-- الأجهزة: Mobile | Web
+![logo](/content-images/safepalcard-176b24c751.webp "Safepal")
+- الأجهزة: محمول | الويب
 - نظام التشغيل: Android | iOS | المتصفح
-- دعم المحفظة: Seed Phrase | Hardware
-- المجمعات: Transparent
-- الميزات: Multi Coin
+- دعم المحفظة: عبارة الاسترداد | أجهزة
+- المجمّعات: شفافة
+- الميزات: عملات متعددة
 
 ---
 
 ## [Trezor](https://trezor.io/learn/a/zcash-zec)
-![logo](https://i.ibb.co/twLMCgzW/trezor1.png "Trezor")
+![logo](/content-images/trezor1-5004075d27.webp "Trezor")
 - الأجهزة:
 - نظام التشغيل:
-- دعم المحفظة: Hardware
-- المجمعات: Transparent
-- الميزات: Multi Coin
+- دعم المحفظة: أجهزة
+- المجمّعات: شفافة
+- الميزات: عملات متعددة
 
 ---
 
 ## [Vultisig](https://vultisig.com)
-![logo](https://i.ibb.co/93wSrxCc/vultisig.png "Vultisig")
-- الأجهزة: Web | Mobile | Desktop
+![logo](/content-images/vultisig-713626c5ba.webp "Vultisig")
+- الأجهزة: الويب | محمول | سطح المكتب
 - نظام التشغيل: Android | iOS | Windows | Linux | macOS | المتصفح
-- المجمعات: Transparent
-- الميزات: Multi Coin | تطبيق ويب
+- المجمّعات: شفافة
+- الميزات: عملات متعددة | تطبيق ويب
 
 ---
 
 ## [Vizor](https://vizor.cash/)
-![logo](https://i.ibb.co/zhW2d2fV/Vizorphoto.png "Vizor")
-- الأجهزة: Desktop | Mobile
+![logo](/content-images/Vizorphoto-6ade2417a5.webp "Vizor")
+- الأجهزة: سطح المكتب | محمول
 - نظام التشغيل: macOS
-- دعم المحفظة: Seed Phrase | Unified Address | Hardware
-- المجمعات: Transparent | Sapling | Orchard
-- الميزات: Shielding تلقائي | Shielded Memo | دعم Testnet | FROST Multisig
+- دعم المحفظة: عبارة الاسترداد | Unified Address | أجهزة
+- المجمّعات: شفافة | Sapling | Orchard
+- الميزات: تدريع تلقائي | Shielded Memo | دعم الشبكة التجريبية | FROST Multisig
+- Ironwood: جاهز
 
 ---
 
 ## [Noir wallet](https://www.zknoir.com/)
-![logo](https://i.ibb.co/23RkRZZS/Noirwallet.png "Noir")
-- الأجهزة: Web | Desktop
+![logo](/content-images/Noirwallet-8589fe34e4.webp "Noir")
+- الأجهزة: الويب | سطح المكتب
 - نظام التشغيل: المتصفح
-- المجمعات: Shielded | Transparent
-- الميزات: إضافة متصفح | معاملات Shielded | Cross-chain Swaps | الإقراض والاقتراض | اتصالات DApp | Rhea
+- المجمّعات: محمية | شفافة
+- الميزات: إضافة متصفح | معاملات محمية | Cross-chain Swaps | الإقراض والاقتراض | اتصالات DApp | Rhea
+- Ironwood: جاهز
 
 ---
 
 ## [LeoDex](https://leodex.io/)
-![logo](https://i.ibb.co/3YjpzYnH/Leo-Dexwallet.png "LeoDex")
-- الأجهزة: Web | Desktop
+![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
+- الأجهزة: الويب | سطح المكتب
 - نظام التشغيل: المتصفح | Windows | macOS
-- دعم المحفظة: Seed Phrase | External Wallet | Receive Address | QR Code | Hardware
-- المجمعات: Sapling | Transparent
-- الميزات: Multi Coin | Near Intents | Maya DEX | بدون KYC | غير وصائية | تطبيق ويب | تطبيق سطح مكتب | Shielded ZEC | AnyPay
+- دعم المحفظة: عبارة الاسترداد | محفظة خارجية | عنوان استلام | رمز QR | أجهزة
+- المجمّعات: Sapling | شفافة
+- الميزات: عملات متعددة | Near Intents | Maya DEX | بدون KYC | غير احتجازية | تطبيق ويب | تطبيق سطح المكتب | Shielded ZEC | AnyPay
+- Ironwood: جاهز
 
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
-![logo](https://i.ibb.co/mr8rF8y2/zapp-1.png "Zapp")
-- الأجهزة: Mobile 
+![logo](/content-images/zapp.webp "Zapp")
+- الأجهزة: محمول 
 - نظام التشغيل: Android 
 - دعم المحفظة: Unified Address 
-- المجمعات: Transparent | Sapling | Orchard
-- الميزات: Messenger مشفر من الطرف إلى الطرف | NEAR Intents | P2P.me Offramp | Beta
+- المجمّعات: شفافة | Sapling | Orchard
+- الميزات: Messenger مشفر من طرف إلى طرف | NEAR Intents | P2P.me Offramp | Beta
+- Ironwood: جاهز
+  
+---
+
+## [Zecd](https://zecd.org/quickstart.html)
+![logo](/content-images/zecd.webp "Zecd")
+- الأجهزة: سطح المكتب 
+- نظام التشغيل: Linux
+- دعم المحفظة: عبارة الاسترداد | Viewing Key | Unified Address | مفتاح خاص | Spending Key | نسخة احتياطية للمحفظة / تصدير المفتاح | محفظة عقدة كاملة 
+- المجمّعات: شفافة | Sapling | Orchard | Sprout
+- الميزات: مذكرة مشفرة | نسخة احتياطية للمحفظة (بيانات المحفظة) | واجهة RPC | Shielded Memo | إدارة المفاتيح الخاصة
+- Ironwood: جاهز
+
+---
+
+## [Zend:Zcash Wallet](https://justzend.com/)
+![logo](/content-images/zend.webp "Zend:Zcash Wallet")
+- الأجهزة: محمول | سطح المكتب
+- نظام التشغيل: iOS | macOS
+- دعم المحفظة: عبارة الاسترداد | Passkey | Unified Address | مفتاح خاص | محفظة ذاتية الحفظ 
+- المجمّعات: شفافة | Sapling | Orchard 
+- الميزات: حفظ ذاتي | تخزين المفتاح الخاص محليًا | لا يتطلب KYC | لا اعتماد على خادم Zend لنشاط المحفظة | معاملة محمية مشفرة | استعادة العبارة الأولية | Shielded Memo | مصادقة Passkey
+
+---
+
+## [Nozy Wallet](https://github.com/LEONINE-DAO/Nozy-wallet)
+![logo](/content-images/nozy.webp "Nozy Wallet")
+- الأجهزة: سطح المكتب | المتصفح
+- نظام التشغيل: Linux | iOS | macOS
+- دعم المحفظة: عبارة الاسترداد | Viewing Key | Unified Address | Spending Key | محفظة HD | إدارة المفاتيح الخاصة 
+- المجمّعات: شفافة | Sapling | Orchard 
+- الميزات: دفتر عناوين | دعم Tor | دعم I2P | تكامل Zebra/Zebrad | سجل المعاملات | تصدير المعاملات | اشتقاق Witness محلي | رسوم ديناميكية (ZIP-317) | توافق NU6.2 | دعم الترحيل إلى NU6.3 | Shielded Memo
+- Ironwood: جاهز
+
+---
+
+## [Zipher](https://github.com/atmospherelabs-dev/zipher-app)
+![logo](/content-images/zipher.webp "Zipher")
+- الأجهزة: محمول | سطح المكتب 
+- نظام التشغيل: Android | Windows | Linux (CLI and MCP Server) | iOS | macOS
+- دعم المحفظة: عبارة الاسترداد | Viewing Key | Unified Address | محفظة متعددة الحسابات | محفظة ذاتية الحفظ | إدارة المفاتيح الخاصة | دعم محفظة الوكيل
+- المجمّعات: شفافة | Sapling | Orchard 
+- الميزات: NEAR Intents | طلبات دفع | Shielded Memo | المعاملات المحمية افتراضيًا | الشبكة التجريبية | Cross-chain Swap | CipherPay | Viewing Key | وكيل AI | MCP Server | محفظة CLI | FROST | Beta 
+- Ironwood: قيد التنفيذ

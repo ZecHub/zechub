@@ -29,19 +29,19 @@ Di anammɔn anammɔn akwantu yi akyi na woatumi ayɛ Zcash a wɔde di dwuma wɔ 
 Sua sɛnea wubegye sika a worenkyerɛ wo nipasu anaa wo sikasɛm ho abakɔsɛm.
 
 
-###  [Fa Sika Kɔma a Womfa Nkitahodi Nkitahodi](/zcash-use-cases/send-money-without-linking-identity) 
+###  [Fa Sika Mena a Womfa Nkitahodi Nkitahodi](/zcash-use-cases/send-money-without-linking-identity) 
 Kwati sɛ wobɛda wo sika kotoku, wo nipasu, anaa wo aguadi ho mfonini adi bere a wode sika remena no.
 
 
-###  [Freelancer Kokoam Nsɛm Ho Nhyehyɛe](/zcash-use-cases/freelancer-privacy-setup)  
+###  [Freelancer Kokoam Nsɛm Ho Nhyehyɛe](/zcash-use-cases/freelance-privacy-setup)
 Nya akatua wɔ Zcash mu bere a wode wo clients ne sika a wonya no sie kokoam.
 
 
-###  [Gye Katua tom sɛ Oguadifo](/zcash-use-cases/accept-payment-as-a-merchant)  
+###  [Gye Katua tom sɛ Oguadifo](/zcash-use-cases/accept-payments-as-a-merchant)
 Gye sikatua denam address a wɔabɔ ho ban so na kwati sɛ wobɛda adetɔfo nkitahodi ho nsɛm adi
 
 
-###  [Di Private Community Sikakorabea bi so](/zcash-use-cases/run-a-private-community-treasury)
+###  [Di Private Community Sikakorabea bi so](/zcash-use-cases/private-community-treasury)
 Fa address ahorow a wɔabɔ ho ban di dwuma de kura sika a wɔkyɛ mu na siw sika a aka ne nnwuma a wotumi hu no ano hye
 
 ###  [Nsɛm ho amanneɛbɔfo Kokoam Nsɛm Ho Nhyehyɛe](/zcash-use-cases/journalist-privacy-setup)   

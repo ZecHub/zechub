@@ -1,7 +1,7 @@
 # Hashing ne Bɔhyɛ ahorow: The Magic Sealed Envelope
 ##### Mfitiase Nhwehwɛmu a efi [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt nkyerɛwee](image-15.png)
+![alt nkyerɛwee](/content-images/image-15-0c16784b27.webp)
 
 ### Sɛnea wobɛto ahintasɛm bi mu wɔ baguam na worentumi nni atoro da
 
@@ -30,7 +30,7 @@ Wɔfrɛ saa "lock now, reveal later, no lying" gadget yi **commitment**, na ɛw�
 
 **hash dwumadie** gye data biara koraa, nkyerɛwdeɛ baako anaa nwomakorabea mũ nyinaa, na ɛbubu no kɔ fam kɔ ​​ahama tiawa a ne kɛseɛ yɛ pɛpɛɛpɛ a wɔfrɛ no **digest** anaa **hash**. Fa no sɛ ɛyɛ **nsateaa nkyerɛwee ma data.**
 
-![alt nkyerɛwee](image-16.png)
+![alt nkyerɛwee](/content-images/image-16-52fdf62c87.webp)
 
 Cryptographic nsateaa nkyerɛwee pa wɔ nneɛma anan. Fa kura wɔn sɛ intuitions, na ɛnyɛ equations:
 
@@ -69,7 +69,7 @@ Fix no yɛ asɛmfua biako: **randomness.**
 
 Afei nso saa ara `v` de ahofama a ɛte sɛ soronko ba bere biara, efisɛ `r` yɛ soronko. Agyapade abien a na yɛpɛ no awiei koraa no abien no nyinaa kura:
 
-![alt nkyerɛwee](image-17.png)
+![alt nkyerɛwee](/content-images/image-17-3ec4617665.webp)
 
 Sɛ **bue** (da) bɔhyɛ no adi akyiri yi a, wotintim `v` ne `r`; obiara san bu akontaa `H(v, r)` na ɔhwɛ sɛ ɛne no hyia. Wɔato wo mu Ɛno ne nkonyaayi a wɔatoto mu envelope a efi Ahyɛde 0 mu, a wɔayɛ no ankasa.
 
@@ -100,7 +100,7 @@ SHA-256 yɛ nsateaa a ɛyɛ fɛ yiye a wɔde yɛ kɔmputa a wɔde di dwuma da bi
 
 Enti Zcash cryptographers yɛɛ hash functions a ne mu nsɛm yɛ *dedaw* field akontabuo, na ɛmaa ne boɔ yɛ mmerɛw sɛ wɔbɛkyerɛ sɛ:
 
-![alt nkyerɛwee](image-18.png)
+![alt nkyerɛwee](/content-images/image-18-89ade807ad.webp)
 
 Saa engineering nhyɛsoɔ baako yi, *"ɛsɛ sɛ ɛyɛ mmerɛw sɛ wobɛda no adi,"* ɛno nti na Zcash yɛɛ na ɛfaa hash dwumadie soronko mmom sen sɛ ɛbɛduru SHA-256 wɔ baabiara.
 

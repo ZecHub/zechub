@@ -15,7 +15,7 @@
 
 ## Zcash.me
 
-![Logo do Zcash.me](https://pbs.twimg.com/profile_images/1983177127806533632/LbLuoQjB_400x400.jpg)
+![Logo do Zcash.me](/content-images/_unavailable.svg)
 
 ### Visão geral
 
@@ -59,7 +59,7 @@
 
 ## TipZ
 
-![Logo do TipZ](https://pbs.twimg.com/profile_images/2023711029805350912/BbXM8cDV_400x400.jpg)
+![Logo do TipZ](/content-images/BbXM8cDV_400x400-e6071ba983.webp)
 
 ### Visão geral
 

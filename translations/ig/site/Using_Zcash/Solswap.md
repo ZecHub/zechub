@@ -2,7 +2,7 @@
 
 
 
-! [img1](https://hackmd.io/_uploads/SJOlnt-ceg.png)
+! [img1](/content-images/SJOlnt-ceg-34468cfecd.webp)
 
 ---
 
@@ -11,7 +11,7 @@ Bido ngwa Phantom wee pịa bọtịnụ Gbanwee.
 ma ọ bụ gaa **[solswap.org](https://solswap.org/)** site na ihe nchọgharị Phantom gị. 
 
 
-! [img2](https://hackmd.io/_uploads/S1Cp-KWqxe.jpg)
+! [img2](/content-images/S1Cp-KWqxe-ab70e844b9.webp)
 
 ---
 
@@ -19,7 +19,7 @@ ma ọ bụ gaa **[solswap.org](https://solswap.org/)** site na ihe nchọghar�
 - Họrọ **netwọk isi mmalite gị** (dịka, *Ethereum* ma ọ bụ *Solana*) wee tinye ego maka ịgbanwere. 
 
 
-! [img3](https://hackmd.io/_uploads/S1SaGYZ9xx.jpg)
+! [img3](/content-images/S1SaGYZ9xx-2a27ccdd47.webp)
 
 - Họrọ akara ngosi dị ka ** SOL, USDT, ma ọ bụ USDC **. 
 - Họrọ **ZEC** dị ka gị **nkwekọrịta akara**. 
@@ -27,7 +27,7 @@ ma ọ bụ gaa **[solswap.org](https://solswap.org/)** site na ihe nchọghar�
 
 
 
-! [img4](https://hackmd.io/_uploads/ry4QQF-5gx.jpg)
+! [img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
 
 ---
 
@@ -36,7 +36,7 @@ ma ọ bụ gaa **[solswap.org](https://solswap.org/)** site na ihe nchọghar�
 - Phantom ga-egosipụta ** atụmatụ ego ị ga-enweta ** mgbe akwụsịrị ụgwọ. 
 
 
-! [img5](https://hackmd.io/_uploads/B1U1NYW5xe.jpg)
+! [img5](/content-images/B1U1NYW5xe-58cf150668.webp)
 
 ---
 
@@ -63,7 +63,7 @@ Kpatụ ** Swap Settings** ka:
 - Kpatụ ** Gbanwee Ugbu a ** iji malite azụmahịa ahụ. 
 
 
-! [img6](https://hackmd.io/_uploads/HkU1UKZ5gx.jpg)
+! [img6](/content-images/HkU1UKZ5gx-e068ea8d5a.webp)
 
 ---
 
@@ -72,6 +72,6 @@ Kpatụ ** Swap Settings** ka:
 - Maka mgbanwe n'etiti usoro, jiri ** ID azụmahịa gị ** na ** Li.Fi Scanner ** maka mmelite oge. 
 
 
-! [img7](https://hackmd.io/_uploads/S1NBwKbcxe.jpg)
+! [img7](/content-images/S1NBwKbcxe-5b7d11f5c1.webp)
 
 ## Ọzọ ị nwere ike ịmalite ichebe gị [ZEC na a ndu](https://zechub.wiki/guides/using-zec-privately)

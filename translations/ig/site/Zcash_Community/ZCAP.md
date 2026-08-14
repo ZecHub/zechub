@@ -3,7 +3,7 @@
 </a>
 
 
-<img width="371" height="397" alt="zebra-shirt-front__" src="https://github.com/user-attachments/assets/d8387514-a495-41c9-8435-dde732c7a859" />
+<img width="371" height="397" alt="zebra-shirt-front__" src="/content-images/d8387514-a495-41c9-8435-dde732c7a859-e3864726c3.webp" />
 
 
 
@@ -28,7 +28,7 @@ Zcash Community Advisory Panel, ma ọ bụ ZCAP, bụ panel nke ndị otu Zcash
 
 The idea behind ZCAP is that it is formed by a diverse group of community members with different nationalities, roles and opinions, to guarantee it remains comitted to its goal of representing the voice and interest of Zcash users and stake holders, while maintining an open and diverse network.
 
-Site na Ọktọba 2023, ZCAP mejupụtara [ndị otu 188]](https://docs.google.com/spreadsheets/d/1Y-GbVFA1csIgPbvHOR-1ruOlh7YdA-CHvMtd6R8iSdY/edit#gid=0)Ọzọkwa, Zcash Foundation "agbasawo njirisi iru eru maka ndị otu ZCAP, gụnyere njirisi nke ndị otu obodo Zcash tụrụ aro".
+Site na Ọktọba 2023, ZCAP mejupụtara [ndị otu 188](https://docs.google.com/spreadsheets/d/1Y-GbVFA1csIgPbvHOR-1ruOlh7YdA-CHvMtd6R8iSdY/edit#gid=0)Ọzọkwa, Zcash Foundation "agbasawo njirisi iru eru maka ndị otu ZCAP, gụnyere njirisi nke ndị otu obodo Zcash tụrụ aro".
 
 ## Ndị otu a ma ama
 - Ian Miers

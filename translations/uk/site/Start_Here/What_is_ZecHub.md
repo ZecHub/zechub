@@ -15,7 +15,7 @@ ZecHub — це децентралізований освітній хаб дл�
 
 Навчальні матеріали, короткі блоги та інформаційний бюлетень мають відкритий вихідний код і розміщені на GitHub, а це означає, що будь-хто зі спільноти може долучитися. Це зроблено для того, щоб забезпечити точність контенту й щоб сам канал не мав єдиної точки відмови.
 
-Якщо ви новачок у Zcash, скористайтеся [цим посібником](/site/Start_Here/New_User_Guide).****
+Якщо ви новачок у Zcash, скористайтеся [цим посібником](/start-here/new-user-guide).****
 
 ## Як вносити зміни до ZecHub
 
@@ -54,7 +54,7 @@ ZecHub — це децентралізований освітній хаб дл�
 Пожертви: [тут](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
 <a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
-    <img src="https://i.ibb.co/pfBM1z9/image-2023-11-18-141228046.png" alt="" width="200" height="200"/>
+    <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
 </a>
 
 

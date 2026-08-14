@@ -47,7 +47,7 @@ Spend-before-sync nye nu yeye aɖe le Zcash Mobile Wallet SDK V2 me si na be ez�
 Spend-before-sync wɔa dɔ to compact-blocks synchronization algorithm zazã me si wɔa blocks tso lightwalletd server la gbɔ le ɖoɖo si menye linear o nu. Esia fia be le esi teƒe be gakotokuwo nalala be woawɔ dɔ tso block ɖeka ŋu bliboe hafi ayi edzi la, woate ŋu azã ŋkuɖodzinu kple dɔwɔwɔ ƒe ŋusẽ si sɔ gbɔ vie atsɔ akpɔ blockchain la ƒe akpa vovovowo. Zi geɖe la, ewɔa scan ɖe range vovovowo dzi, dia asitsatsa yeyewo esime wole block xoxoawo ƒe kɔpi wɔm hele dɔ wɔm tso wo ŋu. Ne woke ɖe gagbalẽ aɖe si womezã nyitsɔ laa o ŋu la, woana wòanɔ anyi enumake.
 
 <a href="">
-    <img src="https://github.com/ZecHub/zechub/assets/9355622/363d08df-b7b7-461b-a386-251d9ad702ca" alt="" width="140" height="150"/>
+    <img src="/content-images/363d08df-b7b7-461b-a386-251d9ad702ca-a857cd8385.webp" alt="" width="140" height="150"/>
 </a>
 
 ### Blaze ƒe Sync
@@ -67,7 +67,7 @@ Ezãa [Directed Acyclic Graph (DAG) .](https://words.str4d.xyz/dagsync-graph-awa
 DAG nye nyatakaka ƒe ɖoɖo si me nugbɔ kple nugbɔ le, afisi nugbɔ ɖesiaɖe ƒe mɔfiame le si fia ƒomedodo si le nugbɔ eve dome. DAG mekpɔa tsatsam o, si fia be mɔ aɖeke meli si dzi woato adze egɔme tso node aɖe dzi eye woakplɔ goawo ɖo atrɔ ayi node ma ke gbɔ o.
 
 <a href="">
-    <img src="https://github.com/ZecHub/zechub/assets/9355622/eee7e08d-5c98-4c88-a48e-12f7a92a195f" alt="" width="110" height="230"/>
+    <img src="/content-images/eee7e08d-5c98-4c88-a48e-12f7a92a195f-316493530f.webp" alt="" width="110" height="230"/>
 </a>
 
 ## Nusiwo wòfia ŋutɔŋutɔ

@@ -17,6 +17,6 @@
 
 There are ways to replace some of this equipment with more readily available solutions (like using a phone instead of a camera) which will be discussed in another wiki post.
 
-![Example scheme how to connect all devices for streaming. Author: [decentralistdan](/content-images/_unavailable.svg)](Livestream%20Setup%2078cbdbd99e4a42d7b5565978aa5e4488/stream-cable-setup.jpg)
+![Example scheme how to connect all devices for streaming. Author: [decentralistdan](https://twitter.com/decentralistdan)](Livestream%20Setup%2078cbdbd99e4a42d7b5565978aa5e4488/stream-cable-setup.jpg)
 
 Example scheme how to connect all devices for streaming. Author: [decentralistdan](https://twitter.com/decentralistdan)

@@ -10,7 +10,7 @@
 
 这些密钥旨在与你的用户名和密码配合使用，以确保只有获得授权的用户才能访问你的账户和数据。它们有多种形式，例如 U 盘、NFC 卡或蓝牙设备。
 
-![硬件安全密钥示例](https://github.com/ZecHub/zechub/assets/81990132/1dff66a4-d8e6-483f-9a1e-065d3974d665)
+![硬件安全密钥示例](/content-images/1dff66a4-d8e6-483f-9a1e-065d3974d665-a4c6c73e00.webp)
 
 ## 硬件安全密钥如何工作
 
@@ -26,7 +26,7 @@
 
 不是，硬件安全密钥有多种格式，可能无法兼容所有设备和操作系统。在购买密钥之前，请确保它与你的设备和操作系统兼容。
 
-![硬件安全密钥外形规格](https://github.com/ZecHub/zechub/assets/81990132/a830c435-ad20-4183-b381-475afe1089b3)
+![硬件安全密钥外形规格](/content-images/a830c435-ad20-4183-b381-475afe1089b3-5537cd7388.webp)
 
 ## 一个硬件安全密钥可以用于多个账户吗？
 
@@ -42,7 +42,7 @@
 
 **Yubico YubiKey 5 NFC**
 
-![Yubico YubiKey 5 NFC](https://github.com/ZecHub/zechub/assets/81990132/bf1ac95e-7277-4559-b5ef-63117b66971b)
+![Yubico YubiKey 5 NFC](/content-images/bf1ac95e-7277-4559-b5ef-63117b66971b-3aa542aba7.webp)
 
 YubiKey 5 NFC 由 Yubico 制造，而 Yubico 也是许多安全密钥所使用的 FIDO U2F 开放认证标准的共同开发者，因此它在保护你的设备方面值得信赖。正如其名称所示，它可通过 USB A（或使用适配器的 USB C）或 NFC 工作。  
 它开箱即用，兼容许多服务，包括 Google Chrome、Facebook、Dropbox、LastPass、1Password 等。YubiKey 5 小巧、耐用且轻便，甚至还防水。  
@@ -50,7 +50,7 @@ YubiKey 5 NFC 由 Yubico 制造，而 Yubico 也是许多安全密钥所使用�
 
 **Thetis Fido U2F Security Key**
 
-![Thetis Fido U2F 安全密钥](https://github.com/ZecHub/zechub/assets/81990132/b83e42e5-bba6-4175-ad6c-d64972ef54ef)
+![Thetis Fido U2F 安全密钥](/content-images/b83e42e5-bba6-4175-ad6c-d64972ef54ef-a2ef17a10d.webp)
 
 如果你在寻找性价比最高的安全密钥，那么 Thetis 的这款型号应该列入你的清单。它没有内置蓝牙（更贵的型号中提供），并且只支持 FIDO U2F 标准，因此不兼容 UAF 或 OTP。不过，如果你在 Windows、macOS 或 Linux 上使用 Chrome 或 Opera 浏览器，它可以为你提供安全的网站访问。  
 方便的是，这款价格亲民的安全密钥采用紧凑的折叠式设计，带有可旋转的铝制外壳，可防止连接器在携带过程中暴露并受到潜在损坏。它有三种好看的颜色可选：黑色、金色和银色。  
@@ -58,7 +58,7 @@ YubiKey 5 NFC 由 Yubico 制造，而 Yubico 也是许多安全密钥所使用�
 
 **CryptoTrust OnlyKey**
 
-![CryptoTrust OnlyKey](https://github.com/ZecHub/zechub/assets/81990132/13be6ecc-227e-498c-8a36-6d52c023cd78)
+![CryptoTrust OnlyKey](/content-images/13be6ecc-227e-498c-8a36-6d52c023cd78-06e3e924dc.webp)
 
 顾名思义，OnlyKey 具备一些竞争对手所缺少的实用功能。得益于内置键盘，它可以绕过潜入电脑中的键盘记录器，因此即使电脑或网站受到入侵，它也能保障在线账户安全。它支持多种 2FA 方式，包括 FIDO 2 U2F、Yubico OTP 和 TOTP。  
 虽然它未必是最适合大众用途的密码管理器，但 OnlyKey 可以在一把密钥中存储 24 个 OTP 账户、24 个密码以及 24 个用户名/URL。如果你不想记住多个密码，并希望让密钥替你处理，这项功能会非常实用。  
@@ -71,22 +71,22 @@ YubiKey 5 NFC 由 Yubico 制造，而 Yubico 也是许多安全密钥所使用�
 **第 1 步**  
 登录你的 Gmail 账户，然后点击 **管理你的 Google 账户**
 
-![Google 账户 - 管理账户](https://github.com/ZecHub/zechub/assets/81990132/995fc955-791a-4456-9218-7e5964da48b5)
+![Google 账户 - 管理账户](/content-images/995fc955-791a-4456-9218-7e5964da48b5-31c64640b2.webp)
 
 **第 2 步**  
 点击 **安全性**
 
-![Google 安全设置](https://github.com/ZecHub/zechub/assets/81990132/246db235-6596-41ff-bd7a-f8ee4f80962b)
+![Google 安全设置](/content-images/246db235-6596-41ff-bd7a-f8ee4f80962b-340193c2c3.webp)
 
 **第 3 步**  
 点击 **两步验证**
 
-![两步验证界面](https://github.com/ZecHub/zechub/assets/81990132/19cd202a-1a70-47e6-a02a-aa24f6e199fa)
+![两步验证界面](/content-images/19cd202a-1a70-47e6-a02a-aa24f6e199fa-a9fcb911ce.webp)
 
 **第 4 步**  
 选择 **显示更多选项**
 
-![显示更多选项](https://github.com/ZecHub/zechub/assets/81990132/2ade9531-1cf6-48e8-b9a8-178d41a4cd30)
+![显示更多选项](/content-images/2ade9531-1cf6-48e8-b9a8-178d41a4cd30-b1e9ea1400.webp)
 
 **第 5 步**  
 现在选择 **安全密钥**，然后点击 **Advance**

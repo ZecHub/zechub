@@ -6,7 +6,7 @@
 - Zallet هي محفظة خفيفة صُممت للتكامل بسلاسة مع عقد Zebra التي طورتها Zodl
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![صورة ChatGPTOct12202508_15_20A](https://hackmd.io/_uploads/SJNBsSYTel.jpg)
+![صورة ChatGPTOct12202508_15_20A](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
 يرشدك هذا الدليل خلال عملية الترحيل من **Zcashd** إلى **Zebrad** و **Zallet**، بما في ذلك الإعداد، واستيراد المحفظة، واستكشاف مشكلات الترحيل الشائعة وإصلاحها.
@@ -37,7 +37,7 @@
 * انسخ احتياطيًا ملف wallet.dat (أو أي ملف محفظة / مخزن مفاتيح آخر) من عقدة zcashd الخاصة بك.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (1)](https://hackmd.io/_uploads/SJ_0mUtTxg.svg)
+![bash (1)](/content-images/SJ_0mUtTxg-1441185a72.svg)
 </div>
 
 * احفظ ملف zcash.conf وأي إعدادات مخصصة.
@@ -63,7 +63,7 @@
 على **Linux**/**macOS**:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (2)](https://hackmd.io/_uploads/HJhYu8Y6el.svg)
+![bash (2)](/content-images/HJhYu8Y6el-d2198f22c9.svg)
 </div>
 
 يؤدي هذا إلى تثبيت أحدث إصدار مستقر من zebrad.
@@ -71,20 +71,20 @@
 **الخيار B: البناء من الشيفرة المصدرية**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (3)](https://hackmd.io/_uploads/Syg8FUK6eg.svg)
+![bash (3)](/content-images/Syg8FUK6eg-b4557e52e0.svg)
 </div>
 
 بعد البناء، انقل الملف الثنائي إلى المسار الخاص بك:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![الترحيل 11](https://hackmd.io/_uploads/BJ0zjLY6ll.png)
+![الترحيل 11](/content-images/BJ0zjLY6ll-f77354d701.webp)
 </div>
 
 **4. الإعداد والتشغيل**  
 أنشئ إعدادًا افتراضيًا:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![migration2](https://hackmd.io/_uploads/HJV1C8tTxx.png)
+![migration2](/content-images/HJV1C8tTxx-5823395651.webp)
 </div>
 
 عدّل **zebrad.toml** وفق تفضيلاتك (عنوان الاستماع، والمنافذ، ودليل الحالة، والتخزين المؤقت).
@@ -92,7 +92,7 @@
 **ابدأ تشغيل العقدة:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![صورة](https://hackmd.io/_uploads/H1KPkvt6gl.png)
+![صورة](/content-images/H1KPkvt6gl-864c48ca40.webp)
 </div>
 
 ستبدأ العقدة في المزامنة من كتلة التكوين genesis - توقّع أن يستغرق ذلك عدة ساعات (أو أكثر) حسب العتاد والشبكة.
@@ -106,7 +106,7 @@
 **أو ابنِها من الشيفرة المصدرية:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![صورة](https://hackmd.io/_uploads/SyUFxvFTex.png)
+![صورة](/content-images/SyUFxvFTex-5bb10ee1d3.webp)
 </div>
 
 * شغّل واجهة GUI أو CLI (بحسب ما يوفره التثبيت لديك).
@@ -118,7 +118,7 @@
 على zcashd، صدّر مفاتيحك الخاصة:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (4)](https://hackmd.io/_uploads/rJzgzwFagx.svg)
+![bash (4)](/content-images/rJzgzwFagx-4a0874f250.svg)
 </div>
 
 * في Zallet، اختر استيراد المفاتيح أو خيارًا مشابهًا.
@@ -143,13 +143,13 @@
 يمكنك التحقق من حالة مزامنة عقدتك عبر تشغيل:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![صورة](https://hackmd.io/_uploads/SyIyVDY6xl.png)
+![صورة](/content-images/SyIyVDY6xl-10d6bed7b8.webp)
 </div>
 
 أو تحقّق من السجلات.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![صورة](https://hackmd.io/_uploads/r1HfVPF6gg.png)
+![صورة](/content-images/r1HfVPF6gg-b6b76e9907.webp)
 </div>
 
 **8. استكشاف المشكلات وإصلاحها**

@@ -6,7 +6,7 @@
 
 2019 में जारी, यह प्रोटोकॉल Zerocoin पर निर्मित है। **Firo** (पूर्ववर्ती Zcoin) मुद्रा में चेन पर गोपनीय लेन-देन सक्षम करने के लिए इसका उपयोग किया जाता है। Zcash के कुछ तरीकों में इसके समानता है, लेकिन अधिकांश पहलुओं में यह बिल्कुल अलग है।
 
-![Lelantus intro](https://pbs.twimg.com/media/Fsk18DgXsAEc0Ob.jpg)
+![Lelantus intro](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
 
 ---
 
@@ -15,7 +15,7 @@
 - **Zcash** - **Zerocash** प्रोटोकॉल पर निर्मित  
 - **Firo (Zcoin)** - **Zerocoin** प्रोटोकॉल पर निर्मित
 
-![Zerocash vs Zerocoin तुलना](https://pbs.twimg.com/media/Fsk2Fk7WcAA81ty.png)
+![Zerocash vs Zerocoin तुलना](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
 
 ---
 
@@ -28,7 +28,7 @@ Zcash के समान, Firo छिपे हुए पते का उप�
 - **Sigma** - धन के बराबर प्रणाली में सुधार
 - **Lelantus 1.0** - सही सुरक्षा साबित नहीं
 
-![प्रोटोकॉल के विकास](https://pbs.twimg.com/media/Fsk2NdaWAAAKVgH.png)
+![प्रोटोकॉल के विकास](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
 
 ---
 
@@ -38,7 +38,7 @@ Zcoin/Firo के पुराने संस्करण में इस्�
 
 इसने छोटे गोपनीय समुच्चय बनाए और मुद्रा लेन-देन और पुनः जारी करने के बीच समय हमलों के द्वार खोल दिया (साथ ही "दूषित अवशेष" समस्या)।
 
-![Sigma denominations](https://pbs.twimg.com/media/Fsk2fxfWcAMUBDo.png)
+![Sigma denominations](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
 
 ---
 
@@ -53,7 +53,7 @@ Zcoin/Firo के पुराने संस्करण में इस्�
 
 **सीमा**: वर्तमान में सेट आकार **65,000 सिक्के** पर सीमित है।
 
-![Lelantus advantages](https://pbs.twimg.com/media/Fsk2wK3X0AA6MEe.png)
+![Lelantus advantages](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
 
 ---
 
@@ -65,7 +65,7 @@ Zcoin/Firo के पुराने संस्करण में इस्�
 
 सिक्का आवेदन Mint या Spend लेन-देन के द्वारा बनाए जाते हैं, और लेखा पर अपनाया और संग्रहित किया जाता है।
 
-![Coin commitment diagram](https://pbs.twimg.com/media/Fsk3AWNX0AIHya8.png)
+![Coin commitment diagram](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
 
 ---
 
@@ -77,7 +77,7 @@ Lelantus **basecoin < - > zerocoin** के पारंपरिक मॉड�
 
 Zcash के समान, प्रकाशित लेन-देन को उपयोगकर्ता द्वारा विशेष रूप से चुना जाना होता है।
 
-![Lelantus flow](https://pbs.twimg.com/media/Fsk3HrjXgAMgqmX.png)
+![Lelantus flow](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
 
 ---
 
@@ -87,7 +87,7 @@ Lelantus **एक-से-अधिक साबित** का उपयोग �
 
 इन प्रमाणों का उपयोग **Triptych** में भी किया जाता है (हमारे CryptoNote धागे में उल्लेख किया गया)।
 
-![एक-से-अधिक साबित](https://pbs.twimg.com/media/Fsk3Z0nWIAAPD4k.jpg)
+![एक-से-अधिक साबित](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
 
 ---
 
@@ -103,7 +103,7 @@ Monero की तरह, Firo **Dandelion++** को लागू करता �
 
 यह नेटवर्क विश्लेषण के माध्यम से एक लेन-देन की उत्पत्ति को पीछा करना बहुत कठिन बना देता है।
 
-![Dandelion++ स्पष्टीकरण](https://pbs.twimg.com/media/Fsk4A8VWcAU84MR.png)
+![Dandelion++ स्पष्टीकरण](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
 
 ---
 
@@ -117,7 +117,7 @@ Monero की तरह, Firo **Dandelion++** को लागू करता �
 
 इन विशेषताओं Zcash Shielded Assets के समान है।
 
-![Lelantus-Spark घोषणा](https://pbs.twimg.com/media/Fsk4jXeXsAACQ3h.jpg)
+![Lelantus-Spark घोषणा](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
 
 ---
 

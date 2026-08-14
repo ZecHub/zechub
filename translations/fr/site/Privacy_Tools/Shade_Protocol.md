@@ -2,7 +2,7 @@
 
 # Shade Protocol
 
-![Logo de Shade Protocol](https://framerusercontent.com/images/Af8EzlNiwGr4FTFX7oqdBuE.png)
+![Logo de Shade Protocol](/content-images/Af8EzlNiwGr4FTFX7oqdBuE-71316827d0.webp)
 
 ## Qu'est-ce que Shade Protocol ?
 
@@ -14,7 +14,7 @@ Shade Protocol est un écosystème DeFi (finance décentralisée) préservant la
 
 Shade Protocol est construit sur Secret Network, une blockchain de couche 1 qui fournit des smart contracts préservant la vie privée. Secret Network utilise des entrées, sorties et états chiffrés pour garantir la confidentialité des transactions, protégeant ainsi les données des utilisateurs contre toute exposition sur le registre public.
 
-![Schéma de Secret Network](https://miro.medium.com/v2/resize:fit:828/format:webp/1*yyZ5hFOw6z8zXX_rgJn5iw.png)
+![Schéma de Secret Network](/content-images/1-yyZ5hFOw6z8zXX_rgJn5iw-9091067aa1.webp)
 
 Secret Network permet aux développeurs de créer des applications décentralisées avec des données chiffrées, à la fois nativement sur Secret et sur d'autres blockchains grâce à la communication inter-chaînes, ouvrant ainsi de puissants nouveaux cas d’usage pour le Web3.
 
@@ -23,7 +23,7 @@ Secret Network permet aux développeurs de créer des applications décentralis�
 Cosmos a été créé pour interconnecter des blockchains hétérogènes en définissant de meilleures méthodes, plus modernes, pour construire ces blockchains à l’aide de nouveaux outils comme Tendermint et le Cosmos SDK.  
 Le protocole utilise le Cosmos SDK, un cadre modulaire pour créer des applications blockchain évolutives et interopérables. Cela permet à Shade Protocol de bénéficier de la robustesse et de l’interopérabilité de l’écosystème Cosmos.
 
-![Schéma de Cosmos SDK et Tendermint Core](https://s3.ap-northeast-1.amazonaws.com/gimg.gateimg.com/learn/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e.jpg)
+![Schéma de Cosmos SDK et Tendermint Core](/content-images/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e-ed16bb7658.webp)
 
 Pour le consensus et la sécurité du réseau, Shade Protocol utilise Tendermint Core, qui fournit un consensus tolérant aux fautes byzantines (BFT), garantissant une haute sécurité et une finalité rapide.
 
@@ -37,9 +37,9 @@ La DeFi préservant la vie privée s’appuie sur des techniques cryptographique
 
 Shade Protocol utilise des viewing keys pour ses deux principaux tokens : Shade ($SHD) et Silk ($SILK). Shade ($SHD) remplit plusieurs rôles, servant de token de trésorerie, de gouvernance et de partage des revenus au sein de l’écosystème. Il est utilisé pour le staking, les propositions de gouvernance, l’apport de liquidité, les transactions et les obligations. Silk ($SILK), quant à lui, est le stablecoin du protocole axé sur la confidentialité, indexé sur un panier diversifié de devises mondiales et de matières premières telles que l’or, Bitcoin, le dollar américain, l’euro et le yen.
 
-![Tokens Shade et Silk - Partie 1](https://framerusercontent.com/images/9wTrxCdx8AoRcCwsGub13QXuY.png?scale-down-to=1024)
+![Tokens Shade et Silk - Partie 1](/content-images/9wTrxCdx8AoRcCwsGub13QXuY-807ed3b400.webp)
 
-![Tokens Shade et Silk - Partie 2](https://framerusercontent.com/images/IUC9YWfErTebCBsMkdbCnjSWGEY.png)
+![Tokens Shade et Silk - Partie 2](/content-images/IUC9YWfErTebCBsMkdbCnjSWGEY-4ed6d5cedf.webp)
 
 ### Confidentialité
 
@@ -57,7 +57,7 @@ En tant que plateforme DeFi, Shade Protocol fonctionne sans contrôle central, o
 
 Faire partie de l’écosystème Cosmos signifie que Shade Protocol peut facilement interagir avec d’autres blockchains, améliorant la liquidité et offrant davantage d’opportunités aux utilisateurs pour exploiter leurs actifs sur différents réseaux. En utilisant les technologies de préservation de la vie privée de Secret Network, Shade Protocol garantit que ces activités inter-chaînes conservent leur confidentialité et leur intégrité. Cette interopérabilité améliore non seulement la flexibilité et la fonctionnalité des applications décentralisées, mais favorise également un écosystème blockchain plus interconnecté et robuste, réduisant la dépendance aux réseaux isolés et encourageant une adoption plus large des solutions de finance décentralisée.
 
-![Schéma d’interopérabilité](https://framerusercontent.com/images/3zIwSJHEwP9tkn4aI0do0lhgFTE.png)
+![Schéma d’interopérabilité](/content-images/3zIwSJHEwP9tkn4aI0do0lhgFTE-2aed930de0.webp)
 
 ## Conclusion
 

@@ -9,7 +9,7 @@
 
 Halo, Electric Coin Co.'da Sean Bowe tarafından keşfedilen güven gerektirmeyen, özyinelemeli bir sıfır bilgi kanıtıdır (ZKP). Güvenilir kurulum gereksinimini ortadan kaldırır ve Zcash blokzincirinin daha büyük ölçekte ölçeklenmesini sağlar. Halo, hem verimli hem de özyinelemeli olan ilk sıfır bilgi kanıt sistemiydi ve bilimsel bir atılım olarak geniş çapta kabul görür.
 
-![halo](https://electriccoin.co/wp-content/uploads/2021/01/Halo-on-Z-1440x720.png "halo")
+![halo](/content-images/_unavailable.svg "halo")
 
 
 **Bileşenler**
@@ -47,13 +47,13 @@ Halo'dan önce, özyinelemeli kanıt bileşimini gerçekleştirmek büyük hesap
 Halo 2, Rust ile yazılmış yüksek performanslı bir zk-SNARK uygulamasıdır; güvenilir kurulum ihtiyacını ortadan kaldırırken Zcash'te ölçeklenebilirliğin de zeminini hazırlar. 
 
 <a href="">
-    <img src="https://electriccoin.co/wp-content/uploads/2020/09/Halo-puzzle-03-1024x517.jpg" alt="" width="500" height="300"/>
+    <img src="/content-images/Halo-puzzle-03-1024x517-e034023d10.webp" alt="" width="500" height="300"/>
 </a>
 
 Buna **accumulation scheme** adı verilen yaklaşımımızın bir genellemesi de dahildir. Bu yeni biçimselleştirme, nested amortization tekniğimizin gerçekte nasıl çalıştığını ortaya koyar; kanıtları **accumulator** adı verilen bir nesneye ekleyerek ve kanıtların accumulator'ün önceki durumu hakkında akıl yürütmesini sağlayarak, yalnızca accumulator'ün mevcut durumunu kontrol ederek önceki tüm kanıtların doğru olduğunu (tümevarım yoluyla) kontrol edebiliriz.
 
 <a href="">
-    <img src="https://i.imgur.com/l4HrYgE.png" alt="" width="500" height="300"/>
+    <img src="/content-images/l4HrYgE-1ea7bc32f7.webp" alt="" width="500" height="300"/>
 </a>
 
 

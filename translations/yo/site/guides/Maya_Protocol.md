@@ -19,7 +19,7 @@
 
 ## Kí ni Ìlànà Maya?
 
-Maya jẹ́ [ìpínwó tí a kò dá dúró]](https://nym.com/blog/what-is-dex) O le, fun apẹẹrẹ, paṣipaarọ Bitcoin (BTC) lori Bitcoin blockchain pẹlu Ethereum (ETH) lori Ethereum blockchain ni ọna ti o rọrun, laisi idaduro awọn ohun-ini tabi ṣiṣe eyikeyi awọn alaṣẹ aarin tabi Mọ Awọn ilana Onibara Rẹ (KYC).
+Maya jẹ́ [ìpínwó tí a kò dá dúró](https://nym.com/blog/what-is-dex) O le, fun apẹẹrẹ, paṣipaarọ Bitcoin (BTC) lori Bitcoin blockchain pẹlu Ethereum (ETH) lori Ethereum blockchain ni ọna ti o rọrun, laisi idaduro awọn ohun-ini tabi ṣiṣe eyikeyi awọn alaṣẹ aarin tabi Mọ Awọn ilana Onibara Rẹ (KYC).
 
 Maya Protocol was developed using the Cosmos Software Development Kit (Cosmos SDK) and operates on a Proof of Bond (PoB) consensus mechanism. The protocol is upheld by "Node Operators," who stake capital into the system and earn returns as a reward for their contribution and efforts. Essentially, nodes are computers running software that validates user swaps and oversees assets in designated addresses across different blockchains.
 
@@ -65,7 +65,7 @@ Pẹlupẹlu, ibi-afẹde Maya ni lati di * backend * fun awọn iṣẹ miiran 
 Ṣiṣẹ bi * backend *, Maya nilo lati ni atilẹyin nipasẹ awọn UI oriṣiriṣi ati awọn apamọwọ lati lo. 
 Eyi ni akojọ pẹlu diẹ ninu awọn iṣẹ ti o ṣe atilẹyin Maya tẹlẹ:
 
-[Thorwallet DEX] [Ìsọfúnni tó wà nínú ìwé pẹlẹbẹ]](https://www.thorwallet.org/): Ledger, XDEFI, Metamask, Keystore
+[Thorwallet DEX] [Ìsọfúnni tó wà nínú ìwé pẹlẹbẹ](https://www.thorwallet.org/): Ledger, XDEFI, Metamask, Keystore
 
 [El Dorado] Àwọn ohun tó ń ṣẹlẹ̀](https://www.eldorado.market/): XDEFI, Keystore
 
@@ -73,7 +73,7 @@ Eyi ni akojọ pẹlu diẹ ninu awọn iṣẹ ti o ṣe atilẹyin Maya tẹl�
 
 [Asgardex](https://www.asgardex.com/): Keystore, Ledger
 
-[Àmì ojúewé]](https://www.defispot.com/t): XDEFI, Metamask, Keplr, Phantom, Walletconnect, Leap Wallet, Argeentx, Braavos, Trustwallet, àti Rabby.
+[Àmì ojúewé](https://www.defispot.com/t): XDEFI, Metamask, Keplr, Phantom, Walletconnect, Leap Wallet, Argeentx, Braavos, Trustwallet, àti Rabby.
 
 [XDEFI](https://www.xdefi.io/): àpò-ìpamọ́-ara ẹni ti ó ní ọ̀pọ̀lọpọ̀ àyíká-ayé pẹ̀lú ìtìlẹ́yìn fún 30+ àwọn ẹ̀ka ìpamọ̀ abínibí, àti gbogbo EVM àti Cosmos chain, títí kan Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, àti púpọ̀ sí i.
 

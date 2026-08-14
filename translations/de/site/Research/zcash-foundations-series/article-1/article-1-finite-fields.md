@@ -1,7 +1,7 @@
 # Endliche Körper: Das Zahlensystem, in dem Kryptographie lebt
 ##### Originalforschung von [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![Alternativtext](image-5.png)
+![Alternativtext](/content-images/image-5-6e8a8950f8.webp)
 
 ### Warum „Wrap-around“ das geheime Fundament von Zcash ist
 
@@ -38,7 +38,7 @@ Sie verwenden jeden Tag bereits einen endlichen Körper. Es ist die Uhr an Ihrer
 
 Auf einer 12-Stunden-Uhr gibt es ein *Wrap-around* der Zahlen. Beginnen Sie bei 10 Uhr, addieren Sie 5 Stunden, und Sie landen nicht bei „15 Uhr“, sondern bei **3 Uhr**. Die Uhr hat nur zwölf Positionen, und wenn man über den Höchstwert hinauszählt, springt man einfach wieder zum Anfang zurück.
 
-![Alternativtext](image-9.png)
+![Alternativtext](/content-images/image-9-30b39f4cc5.webp)
 
 Gerade sind drei Dinge passiert, die den ganzen Kern dieses Artikels ausmachen:
 
@@ -107,7 +107,7 @@ Dieser zweite Satz ist eine Katastrophe für die Arithmetik. Zwei von null versc
 
 Eine Primzahl hat per Definition keine solchen Faktoren. Deshalb können mod einer Primzahl keine Nullteiler auftreten, jedes von null verschiedene Element bekommt ein sauberes Reziprokes, und die Struktur ist ein ordentlicher Körper.
 
-![Alternativtext](image-8.png)
+![Alternativtext](/content-images/image-8-573914db92.webp)
 
 > **Wiederverwendbarer Einzeiler für Ihre Artikel:** *Primzahl-Modulus hinein, saubere Division heraus.*
 
@@ -159,7 +159,7 @@ Sie müssen „Zcash verwendet endliche Körper“ nicht einfach glauben. Hier i
 - **Orchard** (das aktuelle Shielded-Design) verwendet ein Kurvenpaar namens **Pallas und Vesta** (die „Pasta“-Kurven), deren Körper Primzahlen mit ungefähr **255 Bits** verwenden.
 - Das **Note-Commitment**, der **Nullifier** und die Zahlen innerhalb eines **Zero-Knowledge-Proof** aus Artikel 0 sind im Grunde alles Elemente eines dieser endlichen Körper. Wenn das Protokoll sagt „Berechne dieses Commitment“, dann bedeutet das „Führe diese Arithmetik mod dieser Primzahl aus“.
 
-![Alternativtext](image-7.png)
+![Alternativtext](/content-images/image-7-c81fe982f0.webp)
 
 Die Antwort auf die offene Frage aus Artikel 0, *„Woher kommen die geheimen Rezepte?“*, beginnt also hier: **Alles beginnt als Arithmetik in einem endlichen Körper.** Im nächsten Artikel nehmen wir diesen Körper und bauen daraus die eigentlichen Objekte, Punkte auf einer elliptischen Kurve, die zu Schlüsseln und Commitments werden.
 

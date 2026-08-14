@@ -17,13 +17,13 @@ Zaino लाइट क्लाइंट्स, जैसे कि वॉले
 ## कुछ आरेख जो दिखाते हैं कि Zaino कैसे काम करता है
 
 ### Zaino आंतरिक वास्तुकला
-![Zaino आंतरिक वास्तुकला](https://i.ibb.co/mRTNtfy/image-2025-01-02-190143429.png)
+![Zaino आंतरिक वास्तुकला](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
 
 ### Zaino लाइव सेवा आर्किटेक्चर
-![Zebra लाइव सेवा आर्किटेक्चर](https://i.ibb.co/x7dbRY8/image-2025-01-02-190349017.png)
+![Zebra लाइव सेवा आर्किटेक्चर](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
 
 ### Zaino सिस्टम आर्किटेक्चर
-![Zaino सिस्टम आर्किटेक्चर](https://i.ibb.co/wwL0XZv/image-2025-01-02-190448037.png)
+![Zaino सिस्टम आर्किटेक्चर](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
 
 
 ## मैं कहाँ अधिक जान सकता हूँ?

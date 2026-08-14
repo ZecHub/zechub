@@ -14,7 +14,7 @@ Memos are primarily used for singing payments. Since shielded transactions encry
 
 #### Bí Wọ́n Ṣe Ń Fi Ìsọfúnni Ránṣẹ́
 
-Ọran lilo miiran fun akọsilẹ ti a fi pamọ ni lati firanṣẹ ifiranṣẹ si ẹnikan pẹlu adirẹsi z. Awọn ifọrọranṣẹ wọnyi le jẹ nipa ohunkohun, boya o jẹ [ṣe iranti si ọrẹ kan](https://twitter.com/iansagstette/status/1542142468505870336), tabi [ìsọfúnni tó ṣe kókó tó yẹ kó jẹ́ àṣírí tó bá ṣeé ṣe]](https://twitter.com/InsideZcash/status/1545800146352578560).
+Ọran lilo miiran fun akọsilẹ ti a fi pamọ ni lati firanṣẹ ifiranṣẹ si ẹnikan pẹlu adirẹsi z. Awọn ifọrọranṣẹ wọnyi le jẹ nipa ohunkohun, boya o jẹ [ṣe iranti si ọrẹ kan](https://twitter.com/iansagstette/status/1542142468505870336), tabi [ìsọfúnni tó ṣe kókó tó yẹ kó jẹ́ àṣírí tó bá ṣeé ṣe](https://twitter.com/InsideZcash/status/1545800146352578560).
 
 #### Àwọn Àkọsílẹ̀ Ìfẹ́ Lórí Àpótí Ìdánwò
 

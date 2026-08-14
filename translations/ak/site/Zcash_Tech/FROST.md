@@ -52,7 +52,7 @@ Nea edi kan no, n a wɔde wɔn ho hyɛɛ mu no yɛ distributed key generation (D
 Ɛno akyi no, t-out-of-n participants biara betumi ayɛ threshold signing protocol de ayɛ adwuma abom ayɛ Schnorr signature a ɛfata.
 
 <a href="">
-    <img src="https://static.cryptohopper.com/images/news/uploads/1634081807-frost-flexible-round-optimized-schnorr-threshold-signatures-1.jpg" alt="" width="400" height="300"/>
+    <img src="/content-images/1634081807-frost-flexible-round-optimize-3697a713d9.webp" alt="" width="400" height="300"/>
 </a>
 
 ## Aniwa so / Nsɛso
@@ -76,7 +76,7 @@ Saa fa yi gyina akwan a wonim a ɛde additive secret sharing ne share conversion
 Wɔ preprocessing stage no mu no, obiara a ɔde ne ho hyɛ mu no siesie Elliptic Curve (EC) nsɛntitiriw abien abien dodow bi a wɔahyɛ ato hɔ ma wɔde adi dwuma akyiri yi. Saa fã yi tu mmirika pɛnkoro wɔ threshold signing phases pii so.
 
 <a href="">
-    <img src="https://i.ibb.co/nQD1c3n/preprocess.png" alt="" width="400" height="300"/>
+    <img src="/content-images/preprocess-5cbb14f892.webp" alt="" width="400" height="300"/>
 </a>
 
 Signing Round 1: Obiara a ɔde ne ho hyɛ mu no Pᵢ fi ase denam kokoam nonce baanu biako (dᵢ, eᵢ) ne EC nsɛntitiriw abien a ɛne no hyia (Dᵢ, Eᵢ) a ɔde bɛma so, afei ɔde saa nsɛntitiriw abien yi kɔma wɔn a wɔde wɔn ho hyɛɛ mu afoforo nyinaa. Obiara a ɔde ne ho hyɛ mu no de EC nsɛntitiriw abien yi sie ma ɔde bedi dwuma akyiri yi. Signing rounds 2 ne 3 yɛ adwumayɛ ankasa a t-out-of-n a wɔde wɔn ho hyɛ mu no yɛ biako de yɛ Schnorr nsaano nkyerɛwee a ɛfata.
@@ -86,7 +86,7 @@ Signing Round 2: Wɔn a wɔbɛkɔ bi no bom yɛ adwuma de yɛ Schnorr nsaano nky
 Saa anammɔn yi siw atoro ntua ano efisɛ ntuafo ntumi nka nsaano nkyerɛwee kyɛfa nkabom wɔ nsaano nkyerɛwee dwumadi ahorow mu anaasɛ wɔnsakra wɔn a wɔde wɔn nsa hyɛɛ ase no nhyehyɛe anaa nsɛntitiriw a wɔatintim mma obiara a ɔde ne nsa hyɛɛ ase no.
 
 <a href="">
-    <img src="https://i.ibb.co/b5rJbXx/sign.png" alt="" width="400" height="300"/>
+    <img src="/content-images/sign-402794d36a.webp" alt="" width="400" height="300"/>
 </a>
 
 Bere a wabu asɛnnennen c no, obiara a ɔde ne ho hyɛɛ mu no betumi de nonces a wɔde di dwuma pɛnkoro ne kokoam kyɛfa a wɔde di dwuma bere tenten, a ɛyɛ t-out-of-n (degree t-1) Shamir kokoam kyɛfa a ɛwɔ kuw no safoa a ɛtra hɔ kyɛ no so abu mmuae zᵢ no ho akontaa. Wɔ nsaano nkyerɛwee round 2 awiei no, obiara a ɔde ne ho hyɛ mu no bɔ zᵢ kyerɛ wɔn a wɔde wɔn ho hyɛɛ mu afoforo.

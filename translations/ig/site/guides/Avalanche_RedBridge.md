@@ -25,7 +25,7 @@ Description: Ensures that Zcash privacy features are preserved throughout the br
 
 ## Ihe Ndị A Na-arụpụta na Akwụkwọ Ozi
 
-** Zcash Elastic Subnet Bridge on Avalanche **: [Ngwa onyinye onyinye]](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
+** Zcash Elastic Subnet Bridge on Avalanche **: [Ngwa onyinye onyinye](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
 N'okpuru ebe a bụ isi ihe na teknụzụ ndị e mepụtara maka ọrụ Zcash Avalanche RedBridge:
 
 Deliverable 1.1: Preliminary PoC that supports querying testnet Zcash transactions from a testnet Avalanche subnet with a CLI, published on Github and with a one node subnet on the Avalanche testnet. https://github.com/red-dev-inc/zavax-oracle
@@ -56,7 +56,7 @@ Were anya na [Github repo](https://github.com/red-dev-inc/zavax-bridge/tree/main
 Maka nkọwa ndị ọzọ gbasara teknụzụ, a na-agba ndị ọrụ ume ka ha nyochaa ebe nchekwa na akwụkwọ maka ọrụ RedBridge iji [nyochaa](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) nkọwa nke mwekota, usoro nyocha, na usoro nchekwa.
 
 
-! [img1](https://github.com/user-attachments/assets/b8c5d267-1711-458a-8a32-1df9d56fae8a)
+! [img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)
 
 
 * Ihe ndị a ga-ewepụta: 

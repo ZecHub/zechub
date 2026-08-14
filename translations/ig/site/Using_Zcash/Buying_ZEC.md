@@ -55,12 +55,12 @@ Imirikiti mgbanwe ndị isi na-akwado Zcash. Lee ebe a maka ndepụta zuru ezu: 
 These exchanges support transparent withdrawals. This means when you withdrawal ZEC to your wallet, you need to send it to your transparent address, your public ZEC address. 
 Pịa ebe a](https://zechub.wiki/using-zcash/non-custodial-exchanges) maka m nkọwa.
 
-![dex](https://github.com/user-attachments/assets/bfe2e9cf-2def-4593-b790-152e14b23da3)
+![dex](/content-images/bfe2e9cf-2def-4593-b790-152e14b23da3-f94f97c7e6.webp)
 
 
 Mgbe ị na-eme nke a, anyị na-atụ aro iji otu n'ime ndị na-esonụ [wallets](https://zechub.wiki/wallets). 
 
-[Mgbasa ozi](https://github.com/user-attachments/assets/8b7618f5-dec6-4e6b-9804-db75be5c1e2f)
+[Mgbasa ozi](/content-images/8b7618f5-dec6-4e6b-9804-db75be5c1e2f-14fa53d3bd.webp)
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -85,7 +85,7 @@ Mgbe ị na-eme nke a, anyị na-atụ aro iji otu n'ime ndị na-esonụ [walle
 ## Peeji ndị metụtara ya
 
 - [Akpa ego](/using-zcash/wallets)  Họrọ obere akpa ego tupu i wepụ ego n'ụlọ akụ
-- [Ọgbanwe Ndị Na-abụghị Nchebe]](/using-zcash/non-custodial-exchanges)  Ndepụta zuru ezu nke DEXes na-akwado ZEC
-- [Mgbanwe nke Ndị Mkpọrọ]](/using-zcash/custodial-exchanges)  Ndepụta zuru ezu nke CEXes na-akwado ZEC
+- [Ọgbanwe Ndị Na-abụghị Nchebe](/using-zcash/non-custodial-exchanges)  Ndepụta zuru ezu nke DEXes na-akwado ZEC
+- [Mgbanwe nke Ndị Mkpọrọ](/using-zcash/custodial-exchanges)  Ndepụta zuru ezu nke CEXes na-akwado ZEC
 - [Egwú Mmiri Ndị E Chebere](/using-zcash/shielded-pools)  Ihe mere ịdọrọ ego site n'aka ndị na-echekwa ego ji dị mkpa
-- [Ntuziaka Onye Ọrụ Ọhụrụ]](/start-here/new-user-guide)  Ndepụta nyocha zuru ezu maka ndị ọrụ Zcash ọhụrụ
+- [Ntuziaka Onye Ọrụ Ọhụrụ](/start-here/new-user-guide)  Ndepụta nyocha zuru ezu maka ndị ọrụ Zcash ọhụrụ

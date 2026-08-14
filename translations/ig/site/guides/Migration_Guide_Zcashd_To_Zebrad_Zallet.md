@@ -6,7 +6,7 @@ The Zcash ecosystem is evolving. The traditional Zcashd full node, maintained by
 - Zallet bụ obere akpa ego dị mfe e wuru iji jikọta ya na Zebra nodes nke Zodl mepụtara
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[ChatGPTImageOct12202508_15_20A](https://hackmd.io/_uploads/SJNBsSYTel.jpg)
+[ChatGPTImageOct12202508_15_20A](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
 This guide walks you through the migration from **Zcashd** to **Zebrad** and **Zallet**, including setup, wallet import, and troubleshooting common migration issues.
@@ -37,7 +37,7 @@ This guide walks you through the migration from **Zcashd** to **Zebrad** and **Z
 * Ndabere gị wallet.dat (ma ọ bụ ihe ọ bụla ọzọ wallet faịlụ / isi ụlọ ahịa) si gị zcashd ọnụ.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-! [bash (1)](https://hackmd.io/_uploads/SJ_0mUtTxg.svg)
+! [bash (1)](/content-images/SJ_0mUtTxg-1441185a72.svg)
 </div>
 
 * Chekwaa zcash.conf gị na ntọala omenala ọ bụla.
@@ -63,7 +63,7 @@ This guide walks you through the migration from **Zcashd** to **Zebrad** and **Z
 Na **Linux**/**macOS**:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (2)](https://hackmd.io/_uploads/HJhYu8Y6el.svg)
+![bash (2)](/content-images/HJhYu8Y6el-d2198f22c9.svg)
 </div>
 
 This installs the latest stable version of zebrad.
@@ -71,20 +71,20 @@ This installs the latest stable version of zebrad.
 ** Nhọrọ B: Mee site na isi mmalite **
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (3)](https://hackmd.io/_uploads/Syg8FUK6eg.svg)
+![bash (3)](/content-images/Syg8FUK6eg-b4557e52e0.svg)
 </div>
 
 Mgbe i wuchara ya, bugharịa binary ahụ n'ụzọ gị:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Migration 11]](https://hackmd.io/_uploads/BJ0zjLY6ll.png)
+[Migration 11](/content-images/BJ0zjLY6ll-f77354d701.webp)
 </div>
 
 **4. Nhazi & Mwepụta** 
 Mepụta nhazi ndabara:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![migration2](https://hackmd.io/_uploads/HJV1C8tTxx.png)
+![migration2](/content-images/HJV1C8tTxx-5823395651.webp)
 </div>
 
 Dezie **zebrad.toml** na mmasị gị (na-ege ntị na adreesị, ọdụ ụgbọ mmiri, ndekọ steeti, caching).
@@ -92,7 +92,7 @@ Dezie **zebrad.toml** na mmasị gị (na-ege ntị na adreesị, ọdụ ụgb�
 ** Malite ọnụ:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Ihe osise]](https://hackmd.io/_uploads/H1KPkvt6gl.png)
+[Ihe osise](/content-images/H1KPkvt6gl-864c48ca40.webp)
 </div>
 
 The node will begin syncing from genesis - expect several hours (or more) depending on hardware and network.
@@ -106,7 +106,7 @@ Lelee Zallet GitHub / wepụta peeji maka ọnụọgụ abụọ.
 ** Ma ọ bụ wuo site na isi iyi:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Ihe osise]](https://hackmd.io/_uploads/SyUFxvFTex.png)
+[Ihe osise](/content-images/SyUFxvFTex-5bb10ee1d3.webp)
 </div>
 
 * Bido GUI ma ọ bụ CLI (dị ka nrụnye gị nyere).
@@ -118,7 +118,7 @@ Site na Dump Key Dump
 Na zcashd, mbupụ igodo nzuzo gị:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (4)](https://hackmd.io/_uploads/rJzgzwFagx.svg)
+![bash (4)](/content-images/rJzgzwFagx-4a0874f250.svg)
 </div>
 
 * Na Zallet, họrọ Import Keys ma ọ bụ nhọrọ yiri ya.
@@ -143,13 +143,13 @@ Mgbe synchronization zuru ezu, nguzo gị na azụmahịa kwesịrị ịpụta 
 Ị nwere ike ịchọpụta ọnọdụ sync gị site na ịgba ọsọ:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Ihe osise]](https://hackmd.io/_uploads/SyIyVDY6xl.png)
+[Ihe osise](/content-images/SyIyVDY6xl-10d6bed7b8.webp)
 </div>
 
 Ma ọ bụ na-enyocha ihe ndekọ.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Ihe osise]](https://hackmd.io/_uploads/r1HfVPF6gg.png)
+[Ihe osise](/content-images/r1HfVPF6gg-b6b76e9907.webp)
 </div>
 
 **8. Nchọpụta nsogbu**
@@ -199,4 +199,4 @@ Migrating from zcashd to Zebrad and Zallet gives you a faster, safer, and more m
 With Rust-based security, modular design, and better tooling, this setup ensures your node and wallet remain future-ready as the Zcash ecosystem continues to evolve.
 
 Ndụmọdụ: Debe igodo obere akpa gị na-anọghị n'ịntanetị ma na-echekwa data Zallet gị mgbe niile.
-Gaa na [zebra.zfnd.org]](https://zebra.zfnd.org) na [zallet.zfnd.org](https://zallet.zfnd.org) maka mmelite na nkwado obodo.
+Gaa na [zebra.zfnd.org](https://zebra.zfnd.org) na [zallet.zfnd.org](https://zallet.zfnd.org) maka mmelite na nkwado obodo.

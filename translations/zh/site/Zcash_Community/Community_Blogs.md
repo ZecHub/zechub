@@ -8,6 +8,9 @@
 
 | 博客 / 作者              | 描述                                              | 链接 |
 |----------------------------|----------------------------------------------------------|------|
+| How Zcash works            | 构建一个可运行的 Zcash 模型                           | [访问 ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
+| Max Desalle                | 精通 Zcash                                          | [访问 ->](https://maxdesalle.com/mastering-zcash/) |
+| Mike Rosulek               | 密码学之乐                                  | [访问 ->](https://joyofcryptography.com/) |
 | James Katz                 | 关于 Zcash 和隐私的个人写作与思考      | [访问 ->](https://free2z.cash/James_Katz/) |
 | Thumbs' Update             | 定期发布生态更新与见解                   | [访问 ->](https://thumbsup.substack.com) |
 | roomatemusing              | 随想与社区内容                            | [访问 ->](https://free2z.cash/roommatemusing) |

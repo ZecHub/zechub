@@ -6,12 +6,13 @@
 
 ## TL;DR
 
-- Zcash mprempren wɔ **4 value pools**: Sprout (agyapade), Sapling, Orchard, ne Transparent.
-- **Orchard** yɛ mprempren titiriw shielded pool a Unified Addresses (u1...) de di dwuma.
+- Zcash mprempren wɔ **5 value pools**: Sprout (agyapade), Sapling, Orchard (wɔsɛe sika nkutoo), Ironwood, ne Transparent.
+- **Ironwood** yɛ mprempren ɔtare a wɔabɔ ho ban titiriw, ɛte ase fi bere a wɔyɛɛ NU6.3 foforo wɔ 28 July 2026.
+- **Orchard** seesei **spend-only**: boɔ foforɔ biara ntumi nkɔ mu, na sika a ɛwɔ hɔ dada no tu kɔ Ironwood.
 - **Sapling** (z-address ahorow a efi ase `zs`) da so ara boa kɛse na ɛkɔ so nya ZEC a wɔabɔ ho ban dodow a ɛho hia.
 - **Transparent** addresses (t...) mma atɔfoɔ kokoamsɛm biara na ɛyɛ adwuma te sɛ Bitcoin.
 - **Sprout** yɛ agyapadeɛ shielded pool a wɔakɔ pɛnhyen afiri dwumadie a ɛyɛ nnam mu.
-- Wɔahyɛ nyansa sɛ daakye ɔtare a wɔabɔ ho ban a wɔfrɛ no **Ironwood** bɛhyɛ ahotoso a wɔwɔ wɔ ZEC a wɔabɔ ho ban no mudi mu kura mu den bere a wɔkora kokoam nsɛm so.
+- Orchard to Ironwood atutra no **rekɔ so** na turnstile no na ɛhwɛ so wɔ baguam.
 - Sɛ wopɛ kokoam nsɛm ho bɔhyɛ a emu yɛ den a, ɛsɛ sɛ wɔn a wɔde di dwuma no kɔ so pɛ **shielded-to-shielded (z → z)** nkitahodi bere biara a ɛbɛyɛ yiye.
 
 
@@ -21,11 +22,12 @@
 
 Zcash kyekyɛ sika mu kɔ akontabuo nhyehyɛeɛ soronko a wɔfrɛ no value pools mu. Pool biara wɔ n’ankasa cryptographic mmara ne kokoam nsɛm, bere a protocol no di bo a ɛsom nyinaa a ɛkɔ wɔn ntam no akyi.
 
-Ɛnnɛ, netɛw no kura botae titiriw anan:
+Ɛnnɛ, netɛw no kura botae titiriw anum:
 
 - Transparent — Ɔmanfo na wotumi hu koraa wɔ nkɔnsɔnkɔnsɔn so.
-- Sapling — Nnɛyi ɔtare a wɔabɔ ho ban a edi kan a wogye tom kɛse.
-- Orchard — Mprempren titiriw shielded pool a wɔde Unified Addresses bae.
+- Sapling — Nnɛyi ɔtare a wɔabɔ ho ban a edi kan a wogye tom kɛse, a ɛda so ara yɛ adwuma.
+- Orchard — Kan no titiriw titiriw shielded pool, mprempren spend-only.
+- Ironwood — Mprempren ɔtare a wɔabɔ ho ban titiriw, a NU6.3 na ɛde bae.
 - Sprout — Mfitiaseɛ shielded pool a wɔde sii hɔ ne Zcash wɔ afe 2016 mu.
   
 
@@ -34,36 +36,48 @@ Bere a Zcash renya nkɔso no, wobetumi de atare foforo a wɔabɔ ho ban aba de a
 
 <br/>
 
-![img1](https://github.com/user-attachments/assets/4ba8cca2-cea5-42d2-8ec2-2122b26f5144)
-Mfonini 1: Nhyehyɛeɛ a ɛkyerɛ mprempren atare 4 a ɛwɔ October, 2025
+![img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
+Mfonini 1: Nhyehyɛeɛ a ɛkyerɛ mprempren atare 4 a ɛwɔ hɔ wɔ October, 2025
 
 <br/>
 
 ## Atare a Wɔabɔ Ho Ban no 
 
 
-1. <h3 id="orchard" class="text-3xl font-bold my-4">Orchard Pool</h3>
+1. <h3 id="ironwood" class="text-3xl font-bold my-4">Ironwood Pool</h3>
+
+Ironwood ne mprempren ɔtare titiriw a wɔabɔ ho ban. Ɛyɛɛ adwuma wɔ 28 July 2026 wɔ block 3,428,143 sɛ NU6.3 network upgrade no fã, na ɛhɔ na shielded value foforɔ te seesei.
+
+Ɛwɔ hɔ ɛfiri sɛ wɔhunuu mmerɛwyɛ bi wɔ Orchard’s proving system no mu wɔ May 2026. Adanse biara nni hɔ sɛ wɔde dii dwuma da, nanso mfomsoɔ no kyerɛ sɛ wɔantumi amfa adanseɛ no nko ara akyerɛ sɛ nneɛma a wɔabɔ ho ban no yɛ nokware. Sɛ́ anka wɔde patch bɛhyɛ baabi no, network no yɛɛ ɔtare foforo a ɛwɔ circuit a wɔateɛteɛ mu na ɛde bo a ɛsom no faa turnstile a ɛkan sika biara a ɛwɔ baguam no so. Saa akontaabu no ne nea ɛsan de ahotoso a ɛne sɛ wɔabɔ nneɛma a wɔabɔ ho ban no akyi koraa no ba.
+
+Ironwood san de Orchard’s Action model ne Halo 2 adanse ahorow di dwuma, enti ɛyɛ n’ade saa ara da biara da. Nneɛma abien yɛ foforo: nkitahodi de v6 format di dwuma, na Ironwood nsɛm a wɔakyerɛw no yɛ **quantum-recoverable** ase [ZIP 2005 na ɔkyerɛwee](https://zips.z.cash/zip-2005), a ɛkyerɛ sɛ sika kɔkɔɔ bi a ɛwɔ nkɔnsɔnkɔnsɔn mu no kɔ so yɛ nea wotumi san nya bio sɛ ​​daakye quantum kɔmputa bi bubu nnɛyi cryptography no a. Ɛno yɛ ɔkwan a wɔfa so san nya ahoɔden, ɛnyɛ quantum resistance, na ɛnyɛ nea ɛfa atare dedaw ho.
+
+Wonhia address foforo. Address ahorow a wɔaka abom no bom agyefo pii, na sika kotoku paw ɔtare a ɛfata ma wo.
+
+____
+
+2. <h3 id="orchard" class="text-3xl font-bold my-4">Orchard Pool</h3>
 
 
-![img2](https://github.com/user-attachments/assets/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72)
+![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
 Mfonini 2: Nhyehyɛeɛ a ɛkyerɛ Orchard pool no firi October, 2025
 
 <br/>
 
 Wɔde Orchard Shielded Pool no yɛɛ adwuma wɔ May 31, 2022 sɛ NU5 network upgrade no fã. Orchard de shielded protocol foforo a ɛmaa ɛho nhia sɛ wɔyɛ nhyehyɛe a wotumi de ho to so na ɛbɛyɛɛ shielded pool titiriw a Unified Addresses (UAs) de di dwuma.
 
-Orchard maa dwumadie, adwumayɛ yie, ne kokoamsɛm nyaa nkɔsoɔ kɛseɛ denam ayɔnkofa metadata a ɛtwetwe so a ɔtew so na ɛde atɔfoɔ nhwɛsoɔ a ɛyɛ mmerɛw a egyina Nneyɛeɛ so baeɛ sene atetesɛm mu nneɛma a wɔde ba ne nea wɔde ba a wɔabɔ ho ban.
+Orchard maa dwumadie, adwumayɛ yie, ne kokoamsɛm nyaa nkɔsoɔ kɛseɛ denam ayɔnkofa metadata a ɛtwetwe no so tew na ɛde atɔfoɔ nhwɛsoɔ a ɛyɛ mmerɛw a egyina Nneyɛeɛ so baeɛ sene atetesɛm mu nneɛma a wɔde ba ne nea wɔde ba a wɔabɔ ho ban.
 
-Ɛnnɛ, Orchard da so ara yɛ ɔtare titiriw a wɔabɔ ho ban ma Zcash. Nanso, mpɔtam hɔfoɔ rehwɛ daakye a wɔbɛtu akɔ ɔtare foforɔ a wɔabɔ ho ban a wɔfrɛ no Ironwood, a ɛbɛma wɔanya awerɛhyɛmu foforɔ a ɛfa ZEC a wɔabɔ ho ban no mudi mu kura ho berɛ a ɛkora Zcash kokoamsɛm ho bɔhyɛ so.
+Efi bere a Ironwood upgrade no yɛɛ adwuma wɔ 28 July 2026 no, **Orchard yɛ nea wɔsɛe no nkutoo**. Botae foforo biara ntumi nkɔ pool no mu. Sika a wɔde asie dedaw no da so ara tumi sɛe, na wɔretu akɔ Ironwood denam turnstile no so. Sika kotoku di eyi ho dwuma ma wo, ɛwom sɛ dodow no ara ma wunya ahoɔhare no so tumi kakra de.
 
-[Zcash Sika kotoku a wɔabɔ ho ban](/site/Using_Zcash/Wallets) mprempren boa Orchard. 
+Sɛ wokura Orchard sika a, hwɛ [Dade dua](/zcash-tech/ironwood) esiane nea atutra no kyerɛ wɔ nneyɛe mu nti.
 
 ____
 
-2. <h3 id="sapling" class="text-3xl font-bold my-4">Sapling Pool</h3>
+3. <h3 id="sapling" class="text-3xl font-bold my-4">Sapling Pool</h3>
 
 
-![img3](https://github.com/user-attachments/assets/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae)
+![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
 Mfonini 3: Nhyehyɛeɛ a ɛkyerɛ Sapling pool no firi October, 2025
 
 <br/>
@@ -74,31 +88,31 @@ Nkɔsoɔ no bi ne adwumayɛ a wɔatu mpɔn ama address a wɔabɔ ho ban, Nsakyer
 
 Zcash Sapling ma wɔn a wɔde di dwuma no tumi yɛ kokoam nnwuma wɔ sikani kakraa bi pɛ mu bere a wɔde toto bere tenten a egyee wɔ Sprout Series no ho no. 
 
-Nkitahodi ho banbɔ ma kokoamsɛm yɛ kɛse, na ɛmma ɛnyɛ yiye sɛ nnipa a wɔto so abiɛsa bɛka nkitahodi ahorow ho na wɔakyerɛ ZEC dodow a wɔde bɛkɔ baabi foforo. Sapling nso ma dwumadie tu mpɔn denam kɔmputa so ahwehwɛdeɛ a ɛma wɔyɛ kokoam nkitahodiɛ a ɛso tew denam ma a ɛma wɔn a wɔde di dwuma no tumi nya bi no so.
+Nkitahodi ho banbɔ ma kokoamsɛm yɛ kɛse, na ɛmma ɛnyɛ yiye sɛ nnipa a wɔto so abiɛsa bɛka nkitahodi ahorow ho na wɔakyerɛ ZEC dodow a wɔde bɛkɔ baabi foforo. Sapling nso ma dwumadie tu mpɔn denam kɔmputa so ahwehwɛdeɛ a ɛma wɔyɛ kokoam nkitahodiɛ a ɛtew so denam ma a ɛma wɔn a wɔde di dwuma no tumi nya bi no so.
 
 Sapling sika kotoku address fi ase "zs" na wobetumi ahu eyi wɔ Zcash Shielded Wallet (YWallet, Zingo Wallet Nighthawk ne nea ɛkeka ho) a wɔboa nyinaa a ɛwɔ Sapling address ahorow a wɔasisi mu. Zcash Sapling gyina hɔ ma nkɔso titiriw wɔ mfiridwuma mu bere a ɛfa kokoamsɛm ne nkitahodi a etu mpɔn ho a ɛma Zcash yɛ cryptocurrency a mfaso wɔ so na etu mpɔn ma wɔn a wɔde di dwuma a wobu kokoamsɛm ne ahobammɔ sɛ ɛsom bo.
 
 ____
 
-3. <h3 id="sprout" class="text-3xl font-bold my-4">Sprout Pool</h3>
+4. <h3 id="sprout" class="text-3xl font-bold my-4">Sprout Pool</h3>
 
 
-![img4 na ɛwɔ hɔ](https://github.com/user-attachments/assets/956eceed-f4d6-4087-99d0-32a770449dda)
+![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
 Mfonini 4: Nhyehyɛeɛ a ɛkyerɛ Sprout pool no firi October, 2025
 
 Sprout ne Zero Knowledge kokoam nsɛm ho nhyehyɛe a edi kan a wɔabue ano a wɔmma ho kwan a wɔde sii hɔ pɛn. Wɔde sii hɔ wɔ Ɔkɔtɔberɛ da a ɛtɔ so aduonu nwɔtwe, afe 2016.
 
-Wɔde wɔn nkyerɛwde abien a edi kan a ɛyɛ "zc" bere nyinaa na ɛkyerɛ sprout address ahorow. Wɔtoo din "Sprout" a atirimpɔw titiriw no ne sɛ wobesi so dua sɛ software no yɛ kumaa, blockchain a ɛrefifi a ɛwɔ tumi kɛse sɛ ebenyin na abue ama nkɔso. 
+Wɔde wɔn nkyerɛwde abien a edi kan a ɛyɛ "zc" bere nyinaa na ɛkyerɛ sprout address ahorow. Wɔtoo din "Sprout" a atirimpɔw titiriw ne sɛ wobesi so dua sɛ software no yɛ kumaa, blockchain a ɛrefifi a ɛwɔ tumi kɛse sɛ ebenyin na abue ama nkɔso. 
 
-Wɔde Sprout dii dwuma sɛ adwinnade a edi kan maa [Zcash slow start Mining](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) a ɛde ZEC ne Block akatua a wɔkyekyɛ maa Miners bae. 
+Wɔde Sprout dii dwuma sɛ adwinnade a edi kan ma [Zcash brɛoo fi ase Mining](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) a ɛde ZEC ne Block akatua a wɔkyekyɛ maa Miners bae. 
 
-Berɛ a Zcash abɔdeɛ a nkwa wom nhyehyɛeɛ no kɔɔ so trɛwee wɔ nkitahodiɛ a wɔabɔ ho ban dodoɔ a ɛrekɔ soro no, wɔhunuu sɛ Zcash Sprout Series no bɛyɛɛ nea anohyetoɔ wɔ mu na ɛnyɛ adwuma yie berɛ a ɛfa ɔdefoɔ kokoamsɛm, nkitahodiɛ a wɔtumi sesa ne dwumadie ho. Eyi maa wɔyɛɛ nsakrae wɔ network no ne Sapling Upgrade no mu. 
+Berɛ a Zcash abɔdeɛ a nkwa wom nhyehyɛeɛ no kɔɔ so trɛwee wɔ nnwuma a wɔabɔ ho ban dodoɔ a ɛrekɔ soro no, wɔhunuu sɛ Zcash Sprout Series no bɛyɛɛ nea anohyetoɔ wɔ mu na ɛnyɛ adwuma yie berɛ a ɛfa ɔdefoɔ kokoamsɛm, nkitahodiɛ a wɔtumi sesa ne dwumadie ho. Eyi maa wɔyɛɛ nsakrae wɔ network no ne Sapling Upgrade no mu. 
 
 ---
-4. <h3 id="transparent" class="text-3xl font-bold my-4">Transparent Pool</h3>
+5. <h3 id="transparent" class="text-3xl font-bold my-4">Transparent Pool</h3>
 <br/>
 
-![img5](https://github.com/user-attachments/assets/01de2907-b62d-4421-83d7-ea4908faa828)
+![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
 Mfonini 5: Nhyehyɛeɛ a ɛkyerɛ Transparent pool no firi October, 2025
 
 <br/>
@@ -107,9 +121,9 @@ Zcash Transparent pool no nni shielded na ɛnyɛ kokoam de. Transparent wallet a
 
 Transparent transactions wɔ Zcash mu no te sɛ Bitcoin transactions a ɛboa multi-signature transactions na ɛde standard public addresses di dwuma.
 
-Zcash Transparent no, centralized exchanges na wɔde di dwuma kɛse de hwɛ sɛ transparency ne network confirmation a ɛkorɔn wɔ hɔ bere a wɔde ZEC remena na wɔagye wɔ wɔn a wɔde di dwuma no ntam.
+Zcash Transparent no, centralized exchanges na wɔde di dwuma kɛse de hwɛ sɛ transparency ne network confirmation a ɛkorɔn wɔ hɔ bere a wɔde ZEC remena na wɔagye wɔ wɔn a wɔde di dwuma no ntam no.
 
-Ɛho hia nso sɛ yɛhyɛ no nsow sɛ ɛwom sɛ Zcash Shielded address ahorow ma kokoamsɛm a ɛkorɔn bere a wɔreyɛ nnwuma no, ɛsan nso hia kɔmputa so nneɛma pii na wɔde adi nkitahodi ho dwuma. Enti, ebinom a wɔde di dwuma no betumi agye Transparent address ahorow ama nnwuma a enhia kokoam nsɛm a ɛte saa ara.
+Ɛho hia nso sɛ yɛhyɛ no nsow sɛ ɛwom sɛ Zcash Shielded address ahorow ma kokoamsɛm a ɛkorɔn bere a wɔreyɛ nnwuma no, ɛsan nso hia kɔmputa so nneɛma pii na wɔde adi nkitahodi ho dwuma. Enti, ebinom a wɔde di dwuma no betumi agye Transparent addresses ama nnwuma a enhia kokoamsɛm a ɛte saa ara.
 
 <br/>
 
@@ -121,53 +135,54 @@ Nkitahodi a ɛkɔ so wɔ "z kosi z" sika kotoku ntam wɔ Zcash blockchain no mu 
 
 ---
 
-Sɛ wode ZEC fi "Z-address" kɔ "T-address" so a, ɛkyerɛ Deshielding asɛm bi kɛkɛ. Wɔ saa asɛm yi mu no, ɛnyɛ bere nyinaa na kokoamsɛm no kɔ soro efisɛ nsɛm bi bɛda adi wɔ blockchain no so esiane nkɛntɛnso a ɛwɔ ZEC a wɔde bɛmena wɔ Address a ɛda adi so nti. Ɛnyɛ bere nyinaa na wɔkamfo deshielding transaction kyerɛ bere a ɛho hia sɛ wɔde kokoam nsɛm a ɛkorɔn sie no. 
+Sɛ wode ZEC fi "Z-address" kɔ "T-address" so a, ɛkyerɛ Deshielding asɛm bi kɛkɛ. Wɔ saa asɛm yi mu no, ɛnyɛ bere nyinaa na kokoam nsɛm no kɔ soro efisɛ nsɛm bi bɛda adi wɔ blockchain no so esiane nkɛntɛnso a ɛwɔ ZEC a wɔde bɛmena wɔ Address a ɛda adi so nti. Ɛnyɛ bere nyinaa na wɔkamfo deshielding transaction kyerɛ bere a ɛho hia sɛ wɔde kokoam nsɛm a ɛkorɔn sie no. 
 
 ---
 
-ZEC a wɔde fi Transparent Address (T-address) mu kɔ Z-address so no, wɔfrɛ no Shielding kɛkɛ. Wɔ saa asɛm yi mu no, ɛnyɛ bere nyinaa na kokoamsɛm dodow no kɔ soro bere a wɔde toto z-z asɛm no ho nanso wɔkamfo kyerɛ nso bere a wɔhwehwɛ kokoamsɛm. 
+ZEC a wɔde fi Transparent Address (T-address) mu kɔ Z-address so no, wɔfrɛ no Shielding kɛkɛ. Wɔ saa ayɔnkofa yi mu no, ɛnyɛ bere nyinaa na kokoamsɛm dodow no kɔ soro bere a wɔde toto z-z asɛm no ho nanso wɔkamfo kyerɛ nso bere a wɔhwehwɛ kokoam nsɛm. 
 
 ---
 
-ZEC a wode firi Transparent Address (T-address) so kɔ Transparent Address (T-address) foforɔ so wɔ Zcash Network (T-T transaction) so no te sɛ Bitcoin transaction deɛ no ara pɛ na yei nti na wɔfrɛ T-T transactions wɔ Zcash so bere nyinaa Public transactions ɛfiri sɛ dender ne receiver transaction ho nsɛm nyinaa bɛda adi ama ɔmanfoɔ a ɛma Privacy level no ba fam koraa wɔ transaction a ɛte saa mu. 
+ZEC a wode firi Transparent Address (T-address) so kɔ Transparent Address (T-address) foforɔ so wɔ Zcash Network (T-T transaction) so no te sɛ Bitcoin transaction deɛ no ara pɛ na yei nti na wɔfrɛ T-T transactions wɔ Zcash so Public transactions bere nyinaa ɛfiri sɛ deɛ ɔde soma ne deɛ ogye no nyinaa transaction ho nsɛm bɛda adi ama ɔmanfoɔ a ɛma Privacy level no ba fam paa wɔ saa transaction mu. 
 
 Cryptocurrency Centralized exchanges dodow no ara de Transparent Address ("T-address) di dwuma bere a ɛfa nkitahodi wɔ Zcash blockchain no so nanso saa asɛm yi (T-T) rennya kokoam agyapade biara.
 
 <br/>
 
-## Daakye: Ironwood Pool
+## The Orchard to Ironwood Migration
 
-Mprempren Zcash mpɔtam hɔfo reyɛ nhwehwɛmu wɔ ɔtare a wɔahyɛ ho nyansa sɛ wɔbɛbɔ ho ban a wɔfrɛ no Ironwood ho.
+The migration is happening now. Orchard is sealed to new deposits, and the value still sitting there is moving into Ironwood a transaction at a time. You can watch the totals at [dade dua.nkwa](https://ironwood.live/).
 
-Wɔayɛ Ironwood sɛ ɛbɛdi mmerɛwyɛ bi a wɔahu nnansa yi na wɔasiesie no ho dwuma wɔ Orchard nhyehyɛe a wɔde di adanse no mu. Ɛwom sɛ adanse biara nni hɔ a ɛkyerɛ sɛ wɔde mmerɛwyɛ no dii dwuma da de, nanso Ironwood bɛma awerɛhyem foforo denam atutra a wɔahyɛ so a ɛbɛma wɔatumi afi Orchard akɔ ɔtare a wɔabɔ ho ban a wɔayɛ no foforo mu no so.
+Nea eyi kyerɛ no gyina baabi a wo sika wɔ so:
 
-Ɛnyɛ botae no ne sɛ wɔbɛsesa Zcash kokoamsɛm, na mmom sɛ wɔbɛhyɛ ahotoso a wɔwɔ wɔ ZEC a wɔabɔ ho ban no mudi mu kura mu den.
+1. **Adwuma foforo a wɔabɔ ho ban** kɔ Ironwood mu ara kwa. Biribiara nni hɔ a ɛsɛ sɛ wɔyɛ.
+2. **Orchard sika a ɛwɔ hɔ dedaw** hia sɛ wotu kɔ baabi foforo. Sika kotoku a wɔasiesie no yɛ eyi ma wo, mpɛn pii no wɔ akwan horow so sen sɛ wɔbɛyɛ ne nyinaa prɛko pɛ.
+3. **Sapling nnya nkɛntɛnsoɔ** na ɛda so ara gye sika. Orchard nkutoo na wɔsɔɔ ano.
+4. **Turnstile no kan biribiara** a ɛtwam wɔ atare ntam, a ɛno ne nea ɛkyerɛ sɛ wɔanyɛ sika biara wɔ kwan no so.
 
-## Wɔ nyansahyɛ no ase no:
+> **Kokoamsɛm ho kɔkɔbɔ biako a ɛfata sɛ wuhu.** Turnstile no tintim *dodow* a ɛtwam wɔ atare ntam, ne block no sorokɔ. Nea ɔde kɔma ne nea ogye no tra hɔ ahintaw sɛnea ɛte daa, nanso wobetumi de sika soronko bi asan abata wo ho. Eyi nti na sika kotoku tu kɔ mmeae foforo wɔ akwan horow so denam gyinapɛn ahorow a wɔde di dwuma so sen sɛ ɛbɛma wo sika a aka no akɔ baabiara wɔ akuwakuw biako a wotumi hu mu no. Ma wo sika kotoku no nkɔ ntɛmntɛm, na susuw ho sɛ wode Tor anaa VPN bedi dwuma sɛnea ɛbɛyɛ a wo IP no renkyekyere sika dodow a wode tu no.
 
-1. Ná dwumadi foforo a wɔabɔ ho ban bɛkɔ Ironwood nkakrankakra.
-2. Wobetumi de Orchard sika a ɛwɔ hɔ dedaw no akɔ baabi foforo wɔ kokoam.
-3. Ɔmanfo akontaabu a ɛfa turnstile ho bɛma wɔanya adanse a emu yɛ den a ɛkyerɛ sɛ sika a wɔabɔ ho ban nyinaa da so ara gyina akyi koraa.
-4. Anka wɔn a wɔde di dwuma no bɛkora kokoam ahobammɔ ahobammɔ koro no ara a wɔhwɛ kwan fi Zcash hɔ no so.
-
-<br/>
-Sɛ wɔde di dwuma denam daakye ntwamutam nkɔsoɔ so a, anka Ironwood bɛyɛ awoɔ ntoatoasoɔ a ɛdi hɔ a ɛwɔ Zcash abɔdeɛ a nkwa wom a wɔabɔ ho ban no mu berɛ a ɛkora nhyiamu a ɛne sika a wɔabɔ ho ban a ɛwɔ hɔ dada no so.
+Hwɛ [Dade dua](/zcash-tech/ironwood) ma upgrade no ankasa, na [Turnstile a ɛwɔ hɔ no](/zcash-tech/the-turnstile) sɛnea akontaabu no yɛ adwuma no ho.
 
 <br/>
 
 ## Mfomso a Wɔtaa Tu a Ɛsɛ sɛ Wɔkwati
 
 - **Sɛde fi t-address so kɔ t-address so** — baguam koraa, kokoamsɛm biara nni hɔ. Bere nyinaa di kan bɔ sika ho ban.
-- **Sapling ne Orchard address a ɛyɛ basaa** — Sapling address fi ase `zs`, Orchard/Unified address ahorow no fi ase `u1`
-- **Sika a wobegyaw wɔ Sprout pool no mu** — Sprout yɛ nea wɔagyae; tu sika kɔ Orchard
+- **Sɛ yɛfa no sɛ Orchard da so ara gye sika** — ɛyɛ spend-only fi 28 July 2026. Value betumi afi hɔ, nanso biribi foforo biara nkɔ mu
+- **Sapling ne Unified address ahorow a ɛyɛ basaa** — Sapling address ahorow no fi ase `zs`. Address ahorow a wɔaka abom fi ase `u1` na bundle receivers pii, enti pool a wo sikatua no besi mu no gyina receivers a saa address no de kɔ so
+- **Sika a wobegyaw wɔ Sprout pool no mu** — Wɔagyae Sprout mfe pii; fa saa sika no kɔ baabi foforo
+- **Wɔhwɛ kwan sɛ atutra bi bɛyɛ nea wontumi nhu koraa** — sika dodow a ɛtwa turnstile no yɛ ɔmanfo de, ɛwom mpo sɛ nea ɔde kɔma ne nea ogye no nyɛ saa de
 - **Sɛ yɛfa no sɛ t → z (kyɛm) yɛ kokoam koraa** — adeyɛ a ɛfa kyɛm ho no ankasa da adi wɔ nkɔnsɔnkɔnsɔn so; emu nsɛm no nyɛ saa
 
 ---
 
 ## Nkratafa a Ɛfa Ho
 
-- [Wɔde sika kotoku](/using-zcash/wallets) — Sika kotoku bɛn na ɛboa Orchard ne Sapling pools
+- [Dade dua](/zcash-tech/ironwood) — Upgrade a ɛyɛɛ mprempren pool no
+- [Turnstile a ɛwɔ hɔ no](/zcash-tech/the-turnstile) — Sɛnea wɔyɛ bo a ɛkɔ soro wɔ pool ahorow ntam no ho akontaabu
+- [Sika kotoku](/using-zcash/wallets) — Nea sika kotoku a wɔhwɛ so na Ironwood ayɛ krado
 - [Nkitahodi ahorow](/using-zcash/transactions) — Sɛnea wɔde shielded transactions mena
-- [Wɔretɔ ZEC](/using-zcash/buying-zec) — ZEC a wobenya ansa na wode adi dwuma wɔ atare mu
+- [ZEC a wobɛtɔ](/using-zcash/buying-zec) — ZEC a wobenya ansa na wode adi dwuma wɔ atare mu
 - [ZK-SNARKs na wɔkyerɛwee](/zcash-tech/zk-snarks) — Cryptographic fapem a ɛwɔ atare a wɔabɔ ho ban so
 - [Dɛn ne ZEC ne Zcash](/start-here/what-is-zec-and-zcash) — Akyisɛm a ɛfa Zcash kokoam nsɛm ho

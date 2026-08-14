@@ -11,7 +11,7 @@ Mwongozo huu utakuongoza kupitia mchakato wa kuhariri na kuchapisha video fupi k
 - [Zcon0 - Faragha: Kutoka A hadi Zcon (2018)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
 - [Zcon1: Zero kwa faragha Hero (2019)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
 - [Zcon2 Lite - Faragha njia yote chini (2021)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
-- [Zcon3: Code Alone Doesn't Cut It (2022) ]](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
+- [Zcon3: Code Alone Doesn't Cut It (2022) ](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
 - [Zcon4: Baadaye Haijaandikwa (2023)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)
 
 ** Zcon Highlights orodha ya kucheza: **

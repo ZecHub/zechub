@@ -8,6 +8,9 @@
 
 | Блог / Автор               | Опис                                                     | Посилання |
 |----------------------------|----------------------------------------------------------|------|
+| Як працює Zcash            | Створення робочої моделі Zcash                           | [Відвідати ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
+| Max Desalle                | Опанування Zcash                                         | [Відвідати ->](https://maxdesalle.com/mastering-zcash/) |
+| Mike Rosulek               | Радість криптографії                                     | [Відвідати ->](https://joyofcryptography.com/) |
 | James Katz                 | Особисті тексти та думки про Zcash і приватність         | [Відвідати ->](https://free2z.cash/James_Katz/) |
 | Thumbs' Update             | Регулярні оновлення екосистеми та аналітика              | [Відвідати ->](https://thumbsup.substack.com) |
 | roomatemusing              | Роздуми та контент спільноти                             | [Відвідати ->](https://free2z.cash/roommatemusing) |

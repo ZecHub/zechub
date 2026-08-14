@@ -11,32 +11,32 @@ Free2Z pụtara dị ka ikpo okwu na-elekwasị anya na nzuzo nke e wuru iji nye
 * Nke mbụ, mepụta akaụntụ na ebe nrụọrụ weebụ ha [https://free2z.cash](https://free2z.cash).
 * Chọta bọtịnụ nbanye na akuku aka nri nke ibe ahụ. Tinye nzere gị. I nwekwara ike ịmepụta akaụntụ site na adreesị ozi-e gị ma ọ bụ akaụntụ X.
 
-![](https://i.ibb.co/VWhmwy4s/IMG-9351.jpg)
+![](/content-images/IMG-9351-6cb6b07d52.webp)
 
 * Big congrats on becoming part of the community\! Now it's time to personalize your profile by uploading an avatar, a banner, and a description of who you are and what you do.
 
-![](https://i.ibb.co/yBFPnr17/IMG-9360.jpg)
+![](/content-images/IMG-9360-5deeba8c68.webp)
 
 * Jide n'aka na ị tinyekwara adreesị Zcash gị n'ọhịa akpa ego maka onyinye na ndụmọdụ sitere n'ọnụ ndị na-akwado ya.
 
-![](https://i.ibb.co/qLLKCr34/IMG-9361.jpg)
+![](/content-images/IMG-9361-5c9ce21046.webp)
 
 **ỤMỤAKA**
 
 **ZPages:** ZPages allows creators to share their written work with a wider community. One particularly interesting aspect of writing on this platform is that your audience can support your work through donations, which is a great way to show appreciation.
 
-![](https://i.ibb.co/BKyx1xc0/IMG-9365.jpg)
+![](/content-images/IMG-9365-e14bce4613.webp)
 
 ** Ịmata 2Zs **
 
 These are points worth $0.01 on the platform. With 2Zs, individuals can support their favorite creatives through donations and subscriptions. They can also participate in community activities such as voting, commenting on ZPages, content boosting, and livestream features.
 
-![](https://i.ibb.co/1G9YyMz7/IMG-9370.jpg)
+![](/content-images/IMG-9370-4264be0de0.webp)
 
 Site n'onyinye, ndebanye aha, na ịkwụ ụgwọ-kwa-ele ndụ iyi, ị nwere ike irite 2Zs. I nwekwara ike ịzụta ụfọdụ isi ihe na ZEC naanị site na inyocha koodu QR gị.
 
-![](https://i.ibb.co/JjpCHK9N/IMG-9381.jpg)
-![](https://i.ibb.co/HLJDbFwX/IMG-9379.jpg)
+![](/content-images/IMG-9381-2d8e6d7454.webp)
+![](/content-images/IMG-9379-6ca5049e12.webp)
 
 **Otu esi amalite Live Stream**
 
@@ -49,15 +49,15 @@ Click on your profile icon, and a drop-down list will appear. Select "Stream" an
 
 Nhọrọ a na-ekwe nkwa ịnye ngwụcha njedebe, nzukọ nzuzo, na njikọ nzukọ pụrụ iche nke enwere ike izigara ndị sonyere.
 
-![](https://i.ibb.co/zTnTHXLz/IMG-9374.jpg)
+![](/content-images/IMG-9374-c374bec27e.webp)
 
 Gịnị ọzọ ka ị ga-enweta site na ndụ?
 
 Free2Z livestream offers some unique perks, such as polls for decision making and plugins such as document sharing and whiteboard, which are perfect for presentations, screen sharing, chats, and much more!
 
-![](https://i.ibb.co/2m17ttc/IMG-9375.jpg)
-![](https://i.ibb.co/HfnTFFxs/IMG-9377.jpg) 
+![](/content-images/IMG-9375-00d4b67876.webp)
+![](/content-images/IMG-9377-58999b233c.webp) 
 
 Nke a bụ ihe nnọkọ ndụ na Free2Z dị ka
 
-![](https://i.ibb.co/SwzQ6wPw/Screenshot-2025-05-25-053026.png)
+![](/content-images/Screenshot-2025-05-25-053026-868bec29a2.webp)

@@ -3,7 +3,7 @@
 </a>
 
 # Ụlọ Ọrụ Nzuzo Ego (FPF)
-[FPF](https://i.ibb.co/BsZc8Qv/FPFgrants.webp)
+[FPF](/content-images/FPFgrants-226bdea4bb.webp)
 
 ## Banyere FPF
 The Financial Privacy Foundation (FPF) is a non-profit organization incorporated in the Cayman Islands. FPFs primary goal is to educate and empower individuals and communities to take control of their financial privacy and security. FPF is also committed to promoting a fair and equitable financial system that respects personal privacy. FPFs primary activity related to financial privacy is to provide individuals and communities with information, resources and support to protect and optimize their financial privacy. The Financial Privacy Fund (FPF) is currently creating a grant program titled FPF X FPF.
@@ -37,6 +37,6 @@ Enwere ike ịhụ ozi ndị ọzọ gbasara FPF X FPF na ebe nrụọrụ weeb�
 Ọ bụrụ na ị nwere mmasị ịghọ onye nyocha afọ ofufo maka usoro a nke FPF X FPF, biko gaa na nke a [njikọ](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)Maka ajụjụ ndị ọzọ gbasara FPF X FPF Grant Program, ị nwere ike ịjụ ozugbo site na izipu email [FPF](info@financialprivacyfoundation.org).
 
 ## Akụrụngwa 
-[Ego Nzuzo Ego]](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)
+[Ego Nzuzo Ego](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)
 
 

@@ -47,7 +47,7 @@ Dɛn nti na obi a ɔde di dwuma bɛpɛ sɛ ɔyɛ eyi da? Efi Electric Coin Co. b
 * Wɔ atifi nifa so no, paw "Account", klik "+" so wɔ ase nifa so na fa ka ho na fa wo hwɛ safoa no ka ho na fa wo 'read-only' akontaabu no ka ho.
 
 <a href="">
-    <img src="https://i.ibb.co/C0b002N/image-2024-01-13-175554676.png" alt="" width="200" height="280"/>
+    <img src="/content-images/image-2024-01-13-175554676-8cdf988797.webp" alt="" width="200" height="280"/>
 </a>
 
 

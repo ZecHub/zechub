@@ -5,6 +5,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard
 - Features: Address Book | CrossPay | Near Intents | Flexa Payments | MultiSignature | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | F-droid
+- Ironwood: Ready
 
 ---
 
@@ -15,6 +16,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard
 - Features: Address Book | Cold Storage | Diversified Address | Payment Request | Pool Transfer | Shielded Memo | TEX Address | Voting | WarpSync
+- Ironwood: Not Ready
 
 ---
 
@@ -35,6 +37,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Transparent | Sapling | Orchard
 - Features: Address Book | Financial Insights | Payment Request | PepperSync | Shielded Memo | Testnet Support
+- Ironwood: Ready
 
 ---
 
@@ -55,6 +58,7 @@
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling | Orchard
 - Features: DEX Swaps | Multi Coin | Spend before Sync
+- Ironwood: Ready
 
 ---
 
@@ -75,6 +79,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard
 - Features: Address Rotation | Broad Key Support | Encrypted Exports | FROST Multisig | Multi-Account Sync | Shielded Memo | Testnet Support
+- Ironwood: Ready
 
 ---
 
@@ -85,7 +90,8 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
 - Pools: Transparent | Sapling | Orchard
 - Features: Address Book | Address Rotation | Automatic Shielding | DEX Swaps | Multi Coin | Shielded Memo | Tor Support
-
+- Ironwood: Ready
+  
 ---
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
@@ -105,6 +111,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
 - Pools: Transparent | Sapling | Orchard
 - Features: Command Line Interface | PepperSync | Shielded Memo | Testnet Support 
+- Ironwood: In Progress
 
 ---
 
@@ -115,6 +122,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
 - Pools: Transparent | Sapling | Orchard
 - Features: Alpha Release | JSON-RPC Interface | Shielded Memo | Testnet Support
+- Ironwood: Ready
 
 ---
 
@@ -125,6 +133,7 @@
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
 - Pools: Transparent | Sapling | Orchard
 - Features: Command Line Interface | Diversified Address | Shielded Memo | Testnet Support
+- Ironwood: Not Ready
 
 ---
 
@@ -205,6 +214,7 @@
 - Wallet Support: Hardware | Unified Address
 - Pools: Transparent | Sapling | Orchard
 - Features: Multi Coin
+- Ironwood: Ready
 
 ---
 
@@ -215,6 +225,7 @@
 - Wallet Support: Hardware
 - Pools: Transparent 
 - Features: Multi Coin
+- Ironwood: In Progress
 
 ---
 
@@ -254,6 +265,7 @@
 - Wallet Support: Seed Phrase | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard
 - Features: Automatic Shielding | Shielded Memo | Testnet Support | FROST Multisig
+- Ironwood: Ready
 
 ---
 
@@ -263,6 +275,7 @@
 - Operating System: Browser
 - Pools: Shielded | Transparent
 - Features: Browser Extension | Shielded Transactions | Cross-chain Swaps | Lending & Borrowing | DApp Connections | Rhea
+- Ironwood: Ready
 
 ---
 
@@ -273,31 +286,34 @@
 - Wallet Support: Seed Phrase | External Wallet | Receive Address | QR Code | Hardware
 - Pools: Sapling | Transparent
 - Features: Multi Coin | Near Intents | Maya DEX | No KYC | Non-Custodial | Web App | Desktop App | Shielded ZEC | AnyPay
+- Ironwood: Ready
 
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
-![logo](/content-images/zapp-1-a6fa468edb.webp "Zapp")
+![logo](/content-images/zapp.webp "Zapp")
 - Devices: Mobile 
 - Operating System: Android 
 - Wallet Support: Unified Address 
 - Pools: Transparent | Sapling | Orchard
 - Features: End-to-end encrypted Messenger | NEAR Intents | P2P.me Offramp | Beta
-
+- Ironwood: Ready
+  
 ---
 
 ## [Zecd](https://zecd.org/quickstart.html)
-![logo](https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zecd.png?raw=true "Zecd")
+![logo](/content-images/zecd.webp "Zecd")
 - Devices: Desktop 
 - Operating System: Linux
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Private Key | Spending Key | Wallet Backup / Key Export | Full Node Wallet 
 - Pools: Transparent | Sapling | Orchard | Sprout
 - Features: Encrypted Memo | Wallet Backup (wallet data) | RPC Interface | Shielded Memo | Private Key Management
+- Ironwood: Ready
 
 ---
 
 ## [Zend:Zcash Wallet](https://justzend.com/)
-![logo](https://github.com/gorgagian123/Exchanges-Logo/blob/main/Zend.jpg?raw=true "Zend:Zcash Wallet")
+![logo](/content-images/zend.webp "Zend:Zcash Wallet")
 - Devices: Mobile | Desktop
 - Operating System: iOS | macOS
 - Wallet Support: Seed Phrase | Passkey | Unified Address | Private Key | Self-Custody Wallet 
@@ -307,20 +323,21 @@
 ---
 
 ## [Nozy Wallet](https://github.com/LEONINE-DAO/Nozy-wallet)
-![logo](https://github.com/gorgagian123/Exchanges-Logo/blob/main/Nozzy%20Wallet.jpg?raw=true "Nozy Wallet")
+![logo](/content-images/nozy.webp "Nozy Wallet")
 - Devices: Desktop | Browser
 - Operating System: Linux | iOS | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Spending Key | HD Wallet | Private Key Management 
 - Pools: Transparent | Sapling | Orchard 
 - Features: Address Book | Tor Support | I2P Support | Zebra/Zebrad Integration | Transaction History | Transaction Export | Local Witness Derivation | Dynamic Fee (ZIP-317) | NU6.2 Compatibility | NU6.3 Migration Support | Shielded Memo
+- Ironwood: Ready
 
 ---
 
 ## [Zipher](https://github.com/atmospherelabs-dev/zipher-app)
-![logo](https://github.com/atmospherelabs-dev/zipher-app/blob/main/assets/zipher_logo.png?raw=true "Zipher")
+![logo](/content-images/zipher.webp "Zipher")
 - Devices: Mobile | Desktop 
 - Operating System: Android | Windows | Linux (CLI and MCP Server) | iOS | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Multi Account Wallet | Self-Custody Wallet | Private Key Management | Agent Wallet Support
 - Pools: Transparent | Sapling | Orchard 
-- Features: NEAR Intents | Payment Requests | Shielded Memo | Shielded Transaction Default | Testnet Support | Cross-chain Swap | CipherPay Checkout | Viewing Key Export | AI Agent Integration | MCP Server | CLI Wallet | Human-in-the-loop Approval | FROST | Beta | TestFlight
-
+- Features: NEAR Intents | Payment Requests | Shielded Memo | Shielded Transaction Default | Testnet | Cross-chain Swap | CipherPay | Viewing Key | AI Agent | MCP Server | CLI Wallet | FROST | Beta 
+- Ironwood: In Progress

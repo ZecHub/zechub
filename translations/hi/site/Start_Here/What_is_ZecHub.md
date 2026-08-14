@@ -15,7 +15,7 @@ ZecHub, Zcash के लिए एक विकेंद्रीकृत श�
 
 ट्यूटोरियल्स, लघु-रूप ब्लॉग, और न्यूज़लेटर ओपन सोर्स हैं और GitHub पर होस्ट किए जाते हैं, जिसका अर्थ है कि समुदाय का कोई भी व्यक्ति इनमें योगदान दे सकता है। यह सुनिश्चित करने के लिए किया जाता है कि सामग्री सटीक हो और स्वयं यह चैनल किसी एकल विफलता बिंदु का शिकार न हो।
 
-यदि आप Zcash में नए हैं, तो [इस मार्गदर्शिका](/site/Start_Here/New_User_Guide) का उपयोग करें।****
+यदि आप Zcash में नए हैं, तो [इस मार्गदर्शिका](/start-here/new-user-guide) का उपयोग करें।****
 
 ## ZecHub में बदलाव कैसे करें
 
@@ -54,7 +54,7 @@ ZecHub के एकसमान रूप को बनाए रखने क�
 दान: [यहाँ](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
 <a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
-    <img src="https://i.ibb.co/pfBM1z9/image-2023-11-18-141228046.png" alt="" width="200" height="200"/>
+    <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
 </a>
 
 

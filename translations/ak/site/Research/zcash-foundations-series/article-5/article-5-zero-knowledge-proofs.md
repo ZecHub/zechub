@@ -1,7 +1,7 @@
 # Adanse a Nimdeɛ Nni Mu: Sɛ Wobɛkyerɛ sɛ Wo Teɛ a Worenka Nea Enti a Enti
 ##### Mfitiase Nhwehwɛmu a efi [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![alt nkyerɛwee](image-23.png)
+![alt nkyerɛwee](/content-images/image-23-71534bece9.webp)
 
 ### Ntama a ɛma wiase no di nea entumi nhu da no ho adanse
 
@@ -40,7 +40,7 @@ Saa ɔbodan mu asɛm no da **ahyɛde abiɛsa** a ɛsɛ sɛ adanse biara a wonni 
 
 ## 3. Ahyɛde abiɛsa no
 
-![alt nkyerɛwee](image-24.png)
+![alt nkyerɛwee](/content-images/image-24-b559d31849.webp)
 
 | Guarantee a wɔde ma | Wɔ ɔbodan mu asɛm | Wɔ Zcash mu |
 |---|---|---|
@@ -62,7 +62,7 @@ Bridge no yɛ adwene a ɛka saa nsɛm a ɛtoatoa so yi nyinaa bom:
 
 Fa no sɛ ɔmansin no sɛ akontaabu anohyeto ahorow a wɔahyehyɛ a *wɔn nyinaa di mu sɛ asɛm no yɛ nokware nkutoo a.* Wɔfrɛ kokoam nsɛm a wɔde hyɛ mu a ɛma biribiara hwɛ, wo nkyerɛwde, wo safoa, Merkle kwan no, **ɔdansefo.**
 
-![alt nkyerɛwee](image-25.png)
+![alt nkyerɛwee](/content-images/image-25-2479377e43.webp)
 
 Eyi nti na yɛde Ahyɛde 1 dii dwuma wɔ finite fields ne Ahyɛde 3 wɔ ZK-adamfofa hashes so: ɔmansin no ka field akontabuo, enti ɛsɛ sɛ wɔda dwumadie biara a ɛwɔ asɛm no mu (a hashing ne Merkle foro a ɛwɔ Ahyɛdeɛ 4 no ka ho) adi saa. Dodow a oprehyɛn biara bo yɛ mmerɛw sɛ wɔbɛda no adi no, dodow no ara na adanse no sua na ɛyɛ ntɛmntɛm.
 
@@ -90,7 +90,7 @@ Awia aduan biara nni hɔ a wontua hwee. SNARKs pii hia **setup** a ɛyɛ pɛnkor
 
 Wɔto saa ahintasɛm a aka yi din **nwura a awuduru wom.** Sɛnea ɛbɛyɛ a wɔbɛtow agu dwoodwoo no, Zcash yɛɛ **apontow ahorow pii guasodeyɛ ahorow** a ɛyɛ nwonwa a wɔn a wɔde wɔn ho pii a wɔde wɔn ho hyɛɛ mu no mu biara de randomness mae; bere tenten a *baako mpo* sɛee wɔn asinasin no nokwarem no, awuduru nwura no yɛ nea wontumi nnya bio.
 
-![alt nkyerɛwee](image-26.png)
+![alt nkyerɛwee](/content-images/image-26-cdad6625cd.webp)
 
 Nhyehyɛe foforo yi saa ahwehwɛde yi fi hɔ koraa, a ɛyɛ ade titiriw biako nti a Zcash danee ne adanse nhyehyɛe bere tenten.
 

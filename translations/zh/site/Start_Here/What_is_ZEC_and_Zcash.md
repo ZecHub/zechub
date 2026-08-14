@@ -43,7 +43,7 @@ Zcash 是 “Zerocash” 协议的一种实现。它是一个基于区块链的�
 Zcash 解决了 Bitcoin 最大的缺陷：数据的私有所有权与传输。在一个区块链应用和加密货币正被越来越广泛接受的世界里，假名化交易已不再是保护用户隐私的可行选择。用于分析区块链交易的监控应用正变得越来越普遍。
 
 <a href="">
-    <img src="https://i.ibb.co/NN3XxrG/Zcash-logo-1.png" alt="" width="60" height="60"/>
+    <img src="/content-images/Zcash-logo-1-26747e0dd3.webp" alt="" width="60" height="60"/>
 </a>
 
 #### 资源

@@ -1,4 +1,3 @@
----
 bipụtara: 2026-04-14
 ---
 
@@ -173,7 +172,7 @@ Most importantly, this integration signals that privacy in cryptocurrency is not
 ## Ịgụ Ihe Ọzọ
 
 - [Halo 2 akwụkwọ](https://zcash.github.io/halo2/)
-- [Zcash Orchard Crate (GitHub) ]](https://github.com/zcash/orchard)
+- [Zcash Orchard Crate (GitHub) ](https://github.com/zcash/orchard)
 - [Halo 2 GitHub Repository](https://github.com/zcash/halo2)
 - [Dash Evolution Platform Documentation](https://docs.dash.org/en/stable/)
 - [Cointelegraph: Dash na-ejikọta ọdọ mmiri nzuzo Zcash](https://cointelegraph.com/news/dash-integrates-z-cash-orchard-privacy)

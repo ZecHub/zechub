@@ -1,7 +1,7 @@
 # Awọn aaye ti o pari: Awọn nọmba Awọn eto Cryptography ngbe ni
 ##### Ìwádìí Àkọ́kọ́ láti [Annkkitaaa](https://github.com/Annkkitaaa)
 
-![ì í ì °ë¦¬í ë ¤]](image-5.png)
+![ì í ì °ë¦¬í ë ¤](/content-images/image-5-6e8a8950f8.webp)
 
 ### Ìdí tí "fífi nǹkan wé" fi jẹ́ ìpìlẹ̀ ìkọ̀kọ̀ Zcash
 
@@ -38,7 +38,7 @@ O ti ń lo pápá tó ní òpin lójoojúmọ́.
 
 On a 12-hour clock, numbers *wrap around*. Start at 10 o'clock, add 5 hours, and you don't land on "15 o'clock," you land on **3 o'clock**. The clock has only twelve positions, and counting past the top simply loops back to the start.
 
-![ì í ì °ë¦¬í ë ¤]](image-9.png)
+![ì í ì °ë¦¬í ë ¤](/content-images/image-9-30b39f4cc5.webp)
 
 Ohun mẹ́ta ló ṣẹlẹ̀ láìpẹ́ yìí tó jẹ́ kókó pàtàkì nínú àpilẹ̀kọ yìí:
 
@@ -107,7 +107,7 @@ That second sentence is a catastrophe for arithmetic. Two nonzero things multipl
 
 Àkọ́kọ́, nípasẹ̀ ìtumọ̀, kò ní irú àwọn èròjà bẹ́ẹ̀. Nítorí náà mod a prime, kò sí àwọn onímọ́ tí ó lè farahàn, gbogbo ohun tí kò jẹ́ nọ́ńbà kan máa ń ní àtúnṣe tó mọ́ tónítóní, àti pé ẹ̀ka náà jẹ́ pápá tó yẹ.
 
-![ì í ì °ë¦¬í ë ¤]](image-8.png)
+![ì í ì °ë¦¬í ë ¤](/content-images/image-8-573914db92.webp)
 
 > ** Ojúlówó ìlà kan tí a lè lò fún àwọn ohun èlò rẹ:** * Prime modulus in, clean division out.*
 
@@ -159,7 +159,7 @@ You don't have to take "Zcash uses finite fields" on faith. Here's the concrete 
 - **Orchard** (the current shielded design) uses a pair of curves called **Pallas and Vesta** (the "Pasta" curves), whose fields use primes roughly **255 bits** long.
 - The **note commitment**, the **nullifier**, and the numbers inside a **zero-knowledge proof** from Article 0 are all, at bottom, elements of one of these finite fields. When the protocol says "compute this commitment," it means "do this arithmetic mod that prime."
 
-![ì í ì °ë¦¬í ë ¤]](image-7.png)
+![ì í ì °ë¦¬í ë ¤](/content-images/image-7-c81fe982f0.webp)
 
 Nítorí náà ìdáhùn sí ìbéèrè tí Àpilẹ̀kọ 0 ń béèrè, *"níbo ni àwọn ìlànà àṣírí ti wá?"*, bẹ̀rẹ̀ níbí: **ohun gbogbo bẹ̀bẹ̀ gẹ́gẹ́ bí ìṣirò nínú pápá tí ó ní òpin.** Nínú àpilẹ̀lẹ̀ tó tẹ̀ lé e a ó gba pápà yẹn a ó sì kọ àwọn ohun gidi, àwọn àlàfo lórí ẹ̀ka yíyọ̀ kan, tí wọ́n di kókó àti àdéhùn.
 

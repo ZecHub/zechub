@@ -8,6 +8,9 @@
 
 | المدونة / الكاتب              | الوصف                                              | الرابط |
 |----------------------------|----------------------------------------------------------|------|
+| How Zcash works            | ابنِ نموذجًا عمليًا لـ Zcash                           | [زيارة ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
+| Max Desalle                | إتقان Zcash                                          | [زيارة ->](https://maxdesalle.com/mastering-zcash/) |
+| Mike Rosulek               | متعة علم التشفير                                  | [زيارة ->](https://joyofcryptography.com/) |
 | James Katz                 | كتابات وأفكار شخصية حول Zcash والخصوصية      | [زيارة ->](https://free2z.cash/James_Katz/) |
 | Thumbs' Update             | تحديثات منتظمة حول النظام البيئي ورؤى معمقة                   | [زيارة ->](https://thumbsup.substack.com) |
 | roomatemusing              | تأملات ومحتوى مجتمعي                            | [زيارة ->](https://free2z.cash/roommatemusing) |
