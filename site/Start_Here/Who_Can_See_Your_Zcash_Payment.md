@@ -64,7 +64,7 @@ The order matters. Give the narrowest key that does the job, not the widest one 
 
 ## Put it into practice
 
-- Use a wallet that shields by default, such as [Zashi](https://electriccoin.co/zashi/) or [Ywallet](https://ywallet.app/).
+- Use a wallet that shields by default, such as [Zodl](https://zodl.com) or [Ywallet](https://ywallet.app/).
 - Shield funds as soon as they arrive from an exchange, before spending.
 - Pay to shielded addresses whenever the receiver supports one.
 - Before sharing a viewing key, ask which key is the smallest one that answers the question being asked.
