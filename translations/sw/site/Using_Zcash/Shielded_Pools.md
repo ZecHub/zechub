@@ -6,12 +6,13 @@
 
 ## TL;DR
 
-- Zcash kwa sasa ina ** 4 thamani ya mabwawa**: Sprout (urithi), Sapling, Orchard na Uwazi.
-- ** Orchard** ni sasa msingi kulindwa bwawa kutumika kwa Unified anwani (u1...).
+- Zcash kwa sasa ina ** 5 thamani ya mabwawa**: Sprout (urithi), Sapling, Orchard (kutumia tu), Ironwood na Uwazi.
+- ** Ironwood** ni sasa msingi kulindwa pool, kuishi tangu NU6.3 kuboresha tarehe 28 Julai 2026.
+- **Orchard** sasa ni **tumia tu: hakuna thamani mpya inaweza kuingia ndani yake, na fedha zilizopo kuhamia nje katika Ironwood.
 - ** Sapling** (z-maadirisha kuanza na `zs`) bado inasaidiwa sana na inaendelea kupata kiasi kikubwa cha ZEC iliyohifadhiwa.
 - **Transparent** anwani (t...) kutoa hakuna shughuli faragha na kazi sawa na Bitcoin.
 - **Sprout** ni urithi kulindwa pool kwamba imekuwa kustaafu kutoka matumizi ya kazi.
-- Hifadhi ya baadaye iliyohifadhiwa inayojulikana kama ** Ironwood** imependekezwa kuimarisha uaminifu katika utimilifu wa usambazaji wa ZEC uliohifadhiwe wakati unalinda faragha.
+- Uhamiaji wa Orchard kwenda Ironwood unaendelea na unakaguliwa hadharani kwa njia ya turnstile.
 - Kwa dhamana nguvu faragha, watumiaji wanapaswa kuendelea kupendelea ** shielded-to-shielded (z → z)** shughuli wakati wowote iwezekanavyo.
 
 
@@ -21,11 +22,12 @@
 
 Zcash hutenganisha fedha katika mifumo tofauti ya uhasibu inayojulikana kama makundi thamani. kila kundi ina sheria zake mwenyewe cryptographic na mali faragha, wakati itifaki hufuatilia jumla ya thamani kusonga kati yao.
 
-Leo, mtandao ina nne msingi thamani mabwawa:
+Leo, mtandao ina tano msingi thamani mabwawa:
 
 - Uwazi  Umma na kuonekana kikamilifu kwenye mnyororo.
-- Sapling  Ni dimbwi la kwanza lililotumiwa sana na watu wengi.
-- Orchard  sasa msingi kulindwa bwawa kuletwa na Unified anwani.
+- Sapling  Kwanza sana kupitishwa kisasa kulindwa pool, bado kazi.
+- Orchard  awali msingi kulindwa pool, sasa kutumia tu.
+- Ironwood  sasa msingi kulindwa pool, kuletwa na NU6.3.
 - Sprout  Hifadhi ya asili iliyohifadhiwa ilizinduliwa na Zcash mnamo 2016.
   
 
@@ -42,7 +44,19 @@ Mchoro 1: Chati inayoonyesha hifadhi 4 za sasa kutoka Oktoba, 2025
 ## Vidimbwi Vilivyohifadhiwa kwa Kifaa cha Kuzuia Mlipuko 
 
 
-1. <h3 id="orchard" class="text-3xl font-bold my-4">Orchard Pool</h3>
+1. <h3 id="ironwood" class="text-3xl font-bold my-4">Ironwood Pool</h3>
+
+Ironwood ni sasa msingi kulindwa pool. Ni ulioamilishwa tarehe 28 Julai 2026 katika block 3,428,143 kama sehemu ya NU6.3 mtandao kuboresha, na ambapo mpya walinzi thamani sasa anaishi.
+
+Kuna sababu udhaifu ulipatikana katika mfumo wa kuthibitisha Orchard mnamo Mei 2026. Hakuna ushahidi kwamba umewahi kutumiwa, lakini kasoro hiyo ilimaanisha usambazaji uliohifadhiwa hauwezi kudhibitishwa kuwa mzuri na uthibitisho peke yake. Badala ya kurekebisha mahali pake, mtandao ulibuni dimbwi jipya lenye mzunguko uliosahihishwa na kuhamisha thamani kwenye turnstile ambayo inahesabu kila sarafu hadharani. Uhasibu huo ndio unarudisha dhamana kwamba usambaishaji unaohifadhiwe umerudiwa kikamilifu.
+
+Ironwood reuses Orchard ya Action mfano na Halo 2 uthibitisho, hivyo ni tabia njia sawa siku kwa siku. Mambo mawili mpya: shughuli kutumia v6 format, na noti Ironwood ni ** quantum-recoverable** chini [ZIP 2005 - Ujenzi wa Jengo la Makao Makuu ya Ulaya](https://zips.z.cash/zip-2005), maana yake sarafu ya on-chain rekodi anakaa recoverable kama baadaye quantum kompyuta kuvunja leo cryptography. Hiyo ni njia ahueni, si upinzani Quantum, na haina kuomba kwa mabwawa wakubwa zaidi.
+
+Huna haja ya anwani mpya. Unified anwani bundle wapokeaji kadhaa, na pochi kuchagua pool haki kwa ajili yenu.
+
+____
+
+2. <h3 id="orchard" class="text-3xl font-bold my-4">Orchard Pool</h3>
 
 
 ![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
@@ -54,13 +68,13 @@ Orchard Shielded Pool ilianzishwa mnamo Mei 31, 2022 kama sehemu ya uboreshaji w
 
 Orchard kwa kiasi kikubwa kuboreshwa usability, ufanisi na faragha kwa kupunguza shughuli metadata kuvuja na kuanzisha zaidi rahisi manunuzi mfano msingi Vitendo badala ya jadi ulinzi pembejeo na pato.
 
-Leo, Orchard bado ni msingi kulindwa pool kwa Zcash. Hata hivyo, jamii inachunguza uhamiaji wa baadaye na mpya kulinda bwawa aitwaye Ironwood, ambayo itatoa dhamana ya ziada kuhusu usahihi wa ulinzi ZEC ugavi wakati kuhifadhi usalama udhamini wa Zcash ya.
+Tangu Ironwood kuboresha kuanzishwa tarehe 28 Julai 2026, ** Orchard ni kutumia tu. Hakuna thamani mpya inaweza kuingia bwawa. Fedha tayari uliofanyika kuna bado unaweza kutumika, na ni wakihamia nje katika Ironwood kupitia turnstile ya. pochi kushughulikia hii kwa ajili yenu, ingawa wengi kukupa baadhi ya udhibiti juu ya kasi.
 
-[Zcash wallets Shielded] (Mifuko ya fedha iliyo na kinga)](/wallets) sasa msaada Orchard.
+Kama wewe kushikilia Orchard fedha, angalia [Mti wa chuma](/zcash-tech/ironwood) kwa maana ya uhamiaji katika mazoezi.
 
 ____
 
-2. <h3 id="sapling" class="text-3xl font-bold my-4">Sapling Pool</h3>
+3. <h3 id="sapling" class="text-3xl font-bold my-4">Sapling Pool</h3>
 
 
 ![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
@@ -68,7 +82,7 @@ Mchoro 3: Chati inayoonyesha bwawa la Sapling mnamo Oktoba, 2025
 
 <br/>
 
-[Zcash Sapling](https://z.cash/upgrade/sapling) ilikuwa ni upgrading ya Zcash protocol iliyotangazwa tarehe 28 Oktoba, 2018. Ni uboreshaji mkubwa juu ya toleo la awali linalojulikana kama Sprout ambalo lilikuwa na mapungufu kadhaa katika suala la faragha, ufanisi na matumizi. 
+[Zcash Sapling (Kichekesho cha Kijani)](https://z.cash/upgrade/sapling) ilikuwa ni upgrading ya Zcash protocol iliyotangazwa tarehe 28 Oktoba, 2018. Ni uboreshaji mkubwa juu ya toleo la awali linalojulikana kama Sprout ambalo lilikuwa na mapungufu kadhaa katika suala la faragha, ufanisi na matumizi. 
 
 Baadhi ya upgrades ni pamoja na utendaji bora kwa anwani ulinzi, Kuboreshwa kuona funguo kuwawezesha watumiaji kuangalia shughuli zinazoingia na zinazotoka bila kufichua mtumiaji siri muhimu na Independent Zero maarifa keys kwa ajili ya vifaa mkoba wakati wa usajili manunuzi. 
 
@@ -80,7 +94,7 @@ Sapling wallet addresses begin with "zs" and this can be observed in all support
 
 ____
 
-3. <h3 id="sprout" class="text-3xl font-bold my-4">Sprout Pool</h3>
+4. <h3 id="sprout" class="text-3xl font-bold my-4">Sprout Pool</h3>
 
 
 ![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
@@ -90,12 +104,12 @@ Sprout ilikuwa ya kwanza kabisa wazi ruhusa Zero maarifa faragha itifaki milele 
 
 Anwani za Sprout hutambuliwa na herufi zao mbili za kwanza ambazo daima ni "zc". Iliitwa "Sprout" kwa kusudi kuu la kusisitiza kuwa programu hiyo ilikuwa mpya, blockchain inayoibuka yenye uwezo mkubwa wa kukua na kufunguliwa kwa maendeleo. 
 
-Sprout ilitumika kama chombo mapema kwa [Zcash polepole kuanza Mining](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) ambayo imesababisha usambazaji wa ZEC na Block zawadi kwa wachimbaji. 
+Sprout ilitumiwa kama chombo mapema kwa ajili ya [Zcash polepole kuanza Mining](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) ambayo imesababisha usambazaji wa ZEC na Block zawadi kwa wachimbaji. 
 
 As the Zcash ecosystem continued  to expand with increasing number of shielded transactions, it was observed that the Zcash Sprout Series became limited and less efficient when it comes to user privacy, transaction scalability and processing. This led to the modification of the network and Sapling Upgrade. 
 
 ---
-4. <h3 id="transparent" class="text-3xl font-bold my-4">Transparent Pool</h3>
+5. <h3 id="transparent" class="text-3xl font-bold my-4">Transparent Pool</h3>
 <br/>
 
 ![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
@@ -135,39 +149,40 @@ Wengi Cryptocurrency kubadilishana Centralized kutumia Uwazi Anwani ("T-anwani")
 
 <br/>
 
-## Wakati Ujao: Dimbwi la Ironwood
+## The Orchard to Ironwood Migration
 
-Jumuiya ya Zcash kwa sasa inachunguza dimbwi lililopendekezwa lililohifadhiwa linaloitwa Ironwood.
+Uhamiaji ni kinachotokea sasa. Orchard imefungwa kwa amana mpya, na thamani bado kukaa huko ni kuhamishwa katika Ironwood shughuli moja kwa wakati mmoja. Unaweza kuangalia jumla ya saa [ironwood.live](https://ironwood.live/).
 
-Ironwood ni iliyoundwa kushughulikia hivi karibuni aligundua na patched udhaifu katika Orchard ya kuthibitisha mfumo. Ingawa hakuna ushahidi kwamba uhaba alikuwa milele alitumia, Ironwood kutoa safu nyongeza ya uhakika kwa kuwezesha kudhibitiwa kuhamia kutoka Orchard ndani mpya umba kulindwa bwawa.
+Nini hii ina maana inategemea ambapo fedha yako ni:
 
-Lengo si kuchukua nafasi ya faragha Zcash, lakini kuimarisha imani katika uadilifu wa shielded usambazaji ZEC.
+1. Shughuli mpya za ulinzi huingia Ironwood moja kwa moja. Hakuna cha kufanya.
+2. ** Fedha zilizopo za Orchard** zinahitaji kuhamia. Mkoba uliohifadhiwa hufanya hii kwa ajili yako, kawaida katika hatua badala ya wote mara moja.
+3. **Sapling haijaathiriwa** na bado inakubali fedha. Orchard pekee ndiyo iliyofungwa.
+4. ** turnstile mahesabu kila kitu** kuvuka kati ya mabwawa, ambayo ni nini inathibitisha hakuna sarafu alikuwa zuliwa njiani.
 
-## Chini ya pendekezo:
+> **One faragha tahadhari thamani ya kujua.** turnstile kuchapisha * kiasi cha kwamba kuvuka kati ya mabwawa, pamoja na block urefu. mtumaji na mpokeaji kubaki siri kama siku zote, lakini kipekee kiasi inaweza kuwa wanaohusishwa nyuma yenu. Hii ni kwa nini pochi kuhamia katika hatua kutumia majina standard badala ya kusonga mizani yako katika moja kutambulika lump. basi mkoba wako kasi yenyewe, na kufikiria kutumia Tor au VPN hivyo IP yako si amefungwa kwa kiasi wewe hoja.
 
-1. Shughuli mpya za kulinda zilikuwa zikielekea polepole kwenye Ironwood.
-2. Fedha zilizopo za Orchard zinaweza kuhamishwa kwa faragha.
-3. Uhasibu wa umma turntile itatoa ushahidi mkubwa kwamba fedha zote kulindwa kubaki kikamilifu mkono.
-4. Watumiaji wangehifadhi ulinzi wa faragha sawa wanatarajia kutoka Zcash.
-
-<br/>
-Kama kuanzishwa kwa njia ya upgrades mtandao baadaye, Ironwood itakuwa kizazi cha pili cha mazingira Zcash wa ulinzi wakati kuhifadhi utangamano na fedha zilizopo walinzi.
+Ona habari hii. [Mti wa chuma](/zcash-tech/ironwood) kwa ajili ya kuboresha yenyewe, na [Mzunguko wa Kioo cha Gari-Moshi](/zcash-tech/the-turnstile) kwa jinsi ya uhasibu kazi.
 
 <br/>
 
 ## Makosa ya Kawaida Yaepukwayo
 
 - ** Kutuma kutoka t-anwani ya T anwani**  umma kabisa, hakuna faragha. Daima kulinda fedha kwanza.
-- **Kusababisha utata katika anwani za Sapling na Orchard**  Anwani za sapling zinaanza kwa `zs`, Orchard/Unified anwani kuanza na `u1`
-- ** Kuondoka fedha katika shina pool**  Chipukizi ni deprecated; kuhamia fedha kwa Orchard
+- ** Kwa kudhani Orchard bado inakubali fedha**  ni matumizi tu tangu 28 Julai 2026. Thamani inaweza kuondoka, lakini hakuna kitu kipya kinachoingia.
+- **Kufanya kuchanganyikiwa kwa Sapling na Unified anwani**  Anwani za Sapling kuanza na `zs`. Unified anwani kuanza na `u1` na mfuko wapokeaji kadhaa, hivyo pool malipo yako ardhi katika inategemea ambayo mapokezi kwamba anwani hubeba
+- ** Kuondoka fedha katika shina pool**  Chipukizi imekuwa deprecated kwa miaka; hoja hizo fedha nje
+- ** Kutarajia uhamiaji kuwa kabisa asiyeonekana**  kiasi kuvuka turnstile ni umma, hata kama mtumaji na mpokeaji si wazi.
 - ** Kufikiria t → z (kuzuia) ni binafsi kabisa**  kitendo cha kuzuia yenyewe inaonekana kwenye mnyororo; yaliyomo si
 
 ---
 
 ## Kurasa Zinazohusiana
 
-- [Mifuko ya fedha](/using-zcash/wallets)  Ni pochi ambayo inasaidia Orchard na Sapling mabwawa
-- [Mashirika ya biashara](/using-zcash/transactions)  Jinsi ya kutuma shughuli shielded
+- [Mti wa chuma](/zcash-tech/ironwood)  Kuboresha kwamba umba pool sasa
+- [Mzunguko wa Kioo cha Gari-Moshi](/zcash-tech/the-turnstile)  Jinsi thamani kusonga kati ya makundi ni audited
+- [Mkoba](/using-zcash/wallets)  Ni pochi ni iimarishwe na Ironwood tayari
+- [Shughuli za biashara](/using-zcash/transactions)  Jinsi ya kutuma shughuli shielded
 - [Kununua ZEC](/using-zcash/buying-zec)  Kupata ZEC kabla ya kuitumia katika makundi
 - [ZK-SNARKs](/zcash-tech/zk-snarks)  msingi cryptographic ya mabwawa shielded
-- [Ni nini ZEC na Zcash](/start-here/what-is-zec-and-zcash)  Background juu ya faragha Zcash
+- [ZEC na Zcash ni nini?](/start-here/what-is-zec-and-zcash)  Background juu ya faragha Zcash
