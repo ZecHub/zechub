@@ -40,6 +40,8 @@ import { execFileSync } from "node:child_process";
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join, relative } from "node:path";
 
+import { buildEquivalence, formsFor } from "../translation/lib/term-forms.mjs";
+
 const root = new URL("../", import.meta.url).pathname;
 const config = JSON.parse(
   readFileSync(join(root, "translation/protected-terms.json"), "utf8"),
@@ -87,15 +89,40 @@ function sourceForTranslation(absTranslated) {
   return sourceRel;
 }
 
+const reCache = new Map();
 function termRegExp(term) {
+  const hit = reCache.get(term);
+  if (hit) return hit;
   // Word-boundary match so short terms don't false-positive inside other
   // words (e.g. "mining" must not match "deter*mining*"; "chain" is still
   // satisfied by "block*chain*" only via the standalone token's boundaries).
   const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  return new RegExp(`(?<![A-Za-z0-9])${escaped}(?![A-Za-z0-9])`);
+  const re = new RegExp(`(?<![A-Za-z0-9])${escaped}(?![A-Za-z0-9])`);
+  reCache.set(term, re);
+  return re;
 }
 
 const terms = config.preserveVerbatim ?? [];
+
+// Some protected terms are the same word in two shapes — a singular and its
+// plural — and a translation may satisfy the term with any form DECLARED
+// equivalent to it in translation/protected-terms.json. The pairing is never
+// inferred from spelling; see translation/lib/term-forms.mjs for why that
+// matters (`Argos` is not `Argo`). A malformed declaration is fatal rather
+// than ignored, since a silently dropped group would weaken this gate in the
+// way least likely to be noticed.
+let equivalence;
+try {
+  equivalence = buildEquivalence(terms, config.equivalentForms);
+} catch (e) {
+  die(`translation/protected-terms.json: ${e.message}`);
+}
+
+// The SOURCE side always tests the exact term — the English page really does
+// use that form. Only the TRANSLATION side accepts an equivalent.
+function satisfiedIn(translated, term, forms = equivalence) {
+  return formsFor(term, forms).some((f) => termRegExp(f).test(translated));
+}
 
 // ---- pass 1: every violation in the working tree ---------------------------
 
@@ -125,8 +152,7 @@ for (const translatedAbs of walk(translationsDir)) {
   checked += 1;
 
   for (const term of terms) {
-    const re = termRegExp(term);
-    if (re.test(source) && !re.test(translated)) {
+    if (termRegExp(term).test(source) && !satisfiedIn(translated, term)) {
       violations.push({ translatedRel, sourceRel, term });
     }
   }
@@ -234,6 +260,29 @@ function baseContentAt(basePath) {
   return content;
 }
 
+// Base content must be judged by the BASE declaration, not this change's.
+// The config comes from the working tree while base translations come from
+// git, so a change that removes an equivalence group would otherwise make the
+// base look as though it had already been violating — bucketing a genuine
+// regression as "pre-existing" and exiting 0. A base config that cannot be
+// read, parsed or validated is not this change's fault, so fall back to the
+// head declaration rather than failing the PR over history.
+let baseEquivalence = equivalence;
+if (mergeBase) {
+  const rawBaseConfig = baseContentAt("translation/protected-terms.json");
+  if (rawBaseConfig !== null) {
+    try {
+      const baseConfig = JSON.parse(rawBaseConfig);
+      baseEquivalence = buildEquivalence(
+        baseConfig.preserveVerbatim ?? [],
+        baseConfig.equivalentForms,
+      );
+    } catch {
+      baseEquivalence = equivalence;
+    }
+  }
+}
+
 function classify(v) {
   if (!mergeBase) return "introduced"; // no base requested → whole-tree audit
   // Judge pre-existence against the pairing that ACTUALLY existed at the base:
@@ -253,7 +302,7 @@ function classify(v) {
     baseTranslated !== null &&
     baseSource !== null &&
     termRegExp(v.term).test(baseSource) &&
-    !termRegExp(v.term).test(baseTranslated);
+    !satisfiedIn(baseTranslated, v.term, baseEquivalence);
   if (violatedAtBase) return "pre-existing";
   return changedTranslations.has(v.translatedRel) ? "introduced" : "stale-source";
 }

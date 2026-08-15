@@ -90,6 +90,9 @@
     "Zgo",
     "ZK-SNARK"
   ],
+  "equivalentForms": [
+    ["ZK-SNARK", "ZK-SNARKs"]
+  ],
   "glossaryOnly": [
     "token",
     "chain",
