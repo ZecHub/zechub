@@ -49,10 +49,10 @@ Zcash छिपे हुए लेनदेन छिपाता है:
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> आपको क्या चाहिए
 
-- छिपे हुए पता के समर्थन के साथ Zcash वॉलेट:
-  - Zashi
+- शील्डेड पतों का समर्थन करने वाला Zcash वॉलेट:
+  - Zodl
   - YWallet
-  - अन्य समर्थित वॉलेट  
+  - अन्य समर्थित वॉलेट
 
 <br/>
 

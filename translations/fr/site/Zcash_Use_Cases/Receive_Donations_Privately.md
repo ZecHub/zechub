@@ -51,7 +51,7 @@ Cela vous permet de recevoir des fonds **sans exposer votre graphe financier**.
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône boîte à outils"/> Ce dont vous avez besoin
 
 - Un portefeuille Zcash prenant en charge les adresses blindées :
-  - Zashi
+  - ZODL
   - YWallet
   - Autres portefeuilles compatibles
 

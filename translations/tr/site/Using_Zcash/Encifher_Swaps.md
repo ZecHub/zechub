@@ -50,8 +50,8 @@ Günümüz blockchain dünyasında gizlilik isteğe bağlı değil - zorunludur.
 
 ---
 
-###  Adım 3: Zashi Cüzdanınızı Hazırlayın  
-Electric Coin Co. tarafından geliştirilen resmi Zcash cüzdanı [**Zashi**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn) uygulamasını indirin. Receive sekmesinden **Unified Address** adresinizi kopyalayın - hem şeffaf hem de korumalı ZEC’i destekler. Devam etmeden önce seed phrase'inizi güvenli bir şekilde saklayın.  
+###  Adım 3: Zodl Cüzdanınızı Hazırlayın  
+Electric Coin Co. tarafından geliştirilen resmi Zcash cüzdanı [**Zodl**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn) uygulamasını indirin. Receive sekmesinden **Unified Address** adresinizi kopyalayın - hem şeffaf hem de korumalı ZEC’i destekler. Devam etmeden önce seed phrase'inizi güvenli bir şekilde saklayın.
 
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)
@@ -60,7 +60,7 @@ Electric Coin Co. tarafından geliştirilen resmi Zcash cüzdanı [**Zashi**](ht
 ---
 
 ###  Adım 4: Özel Olarak Takas Edin  
-Tekrar **encrypt.trade** sitesine dönün ve **Swap** bölümüne gidin. **eSOL/eUSDC -> ZEC** seçeneğini seçin, Zashi adresinizi yapıştırın, ayrıntıları gözden geçirin ve onaylayın.
+Tekrar **encrypt.trade** sitesine dönün ve **Swap** bölümüne gidin. **eSOL/eUSDC -> ZEC** seçeneğini seçin, Zodl adresinizi yapıştırın, ayrıntıları gözden geçirin ve onaylayın.
 
 
 
@@ -72,7 +72,7 @@ Tekrar **encrypt.trade** sitesine dönün ve **Swap** bölümüne gidin. **eSOL/
 ![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
-**NEAR Intents** altyapısı, zincirler arası yönlendirmeyi otomatik olarak gerçekleştirir - ve **ZEC**’i saniyeler içinde doğrudan Zashi cüzdanınıza teslim eder.  
+**NEAR Intents** altyapısı, zincirler arası yönlendirmeyi otomatik olarak gerçekleştirir - ve **ZEC**’i saniyeler içinde doğrudan Zodl cüzdanınıza teslim eder.
 
 
 
@@ -81,7 +81,7 @@ Tekrar **encrypt.trade** sitesine dönün ve **Swap** bölümüne gidin. **eSOL/
 ---
 
 ###  Adım 5: Shield Edin ve Gizli Kalın  
-Varlıklar elinize ulaştığında, maksimum gizlilik için ZEC’inizi korumalı havuza taşımak amacıyla Zashi’nin **Shield** seçeneğini kullanın. Bağlantıları her zaman doğrulayın, adresleri yeniden kullanmaktan kaçının ve önce küçük miktarlarla test yapın.  
+Varlıklar elinize ulaştığında, maksimum gizlilik için ZEC’inizi korumalı havuza taşımak amacıyla Zodl'un **Shield** seçeneğini kullanın. Bağlantıları her zaman doğrulayın, adresleri yeniden kullanmaktan kaçının ve önce küçük miktarlarla test yapın.
 
 ---
 

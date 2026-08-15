@@ -98,11 +98,11 @@ Mfiri a Wɔde Tua Ka Ho Nhyehyɛe (MPP) ma Zcash. Wɔayɛ ama AI agents ne mfiri
 [Sra](https://zimppy.xyz/)
 
 ### Dizzy Wallet a Ɛyɛ Fɛ
-Discord bot a ɛma kwan a ɛnyɛ den na ahobammɔ wom wɔ Zcash nkitahodi mu. 
+Discord bot a ɛma wonya kwan a ɛnyɛ den na ahobammɔ wom wɔ Zcash nnwuma mu. 
 [Sra](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 
 ### ZODL
-Zcash sika kotoku a ɛyɛ fɛ a efi Shielded Labs (kan no na wɔfrɛ no Zashi). Ɛwɔ iOS ne Android so. Ɛboa ZEC a wɔabɔ ho ban ne NU7 coinholder abatow. 
+Flagship Zcash sika kotoku a efi ZODL (kan no na wɔfrɛ no Zashi). Ɛwɔ iOS ne Android so. Ɛboa ZEC a wɔabɔ ho ban ne NU7 coinholder abatow. 
 [Sra](https://zodl.app/)
 
 ### Noir Sikakorabea

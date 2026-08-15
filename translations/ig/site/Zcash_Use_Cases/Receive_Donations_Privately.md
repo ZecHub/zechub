@@ -2,56 +2,56 @@
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  Onye mbido - 5 min
+  Onye mbido - 5 min.
 </span>
 
 
 ## TL;DR
 
-- Jiri adreesị ** shielded (z)
-- Enwela ike ịkekọrịta adreesị n'ihu ọha
-- Gbaa ndị na-enye onyinye ume ka ha si n'akpa ego e chebere
-- Zere ime ka ndị mmadụ mata gị n'ihi ihe ndị ị na - eme
+- Jiri **ngalaba echekwara (z)**
+- Enwela ike ịkekọrịta adreesị doro anya n'ihu ọha.
+- Gbaa ndị na-enye onyinye ume ka ha si n'akpa ego e chebere echebe zipụ.
+- Zere ime ka a mata gị n'ihe ndị i mere .
 
 <br/>
 
 ## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
-- Ndị na-emepụta ihe na-anabata onyinye
-- Ndị na-enye aka na-emeghe
-- Obodo ndị na-enweta ego
-- Onye ọ bụla chọrọ enyemaka ego nke onwe
+- Ndị na-emepụta ihe na-anabata onyinye.
+- Ndị na-enye onyinye n'efu
+- Ndị obodo na-enweta ego
+- Onye ọbụla chọrọ enyemaka ego nke onwe ya.
 
 <br/>
 
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
 
 Ọtụtụ cryptocurrencies na-ekpughe ihe niile:
-- Ihe fọdụrụ n'akpa gị
-- Onye zitere gị ego
-- Akụkọ azụmahịa gị niile
+- Ihe dị n'akpa gị.
+- Onye zitere gị ego?
+- Akụkọ azụmahịa gị niile.
 
-Nke a na-ebute nnukwu ihe ize ndụ:
-- Mfu nke ihe nzuzo ego
-- Ịchọta ma ọ bụ nlekota
-- Nkwupụta ihu ọha nke ndị na-enye onyinye
+Nke a na - eweta ihe ize ndụ ndị dị oké njọ:
+- Ịkwụsị inwe ego na nzuzo
+- Ịchụ ma ọ bụ nlekota oru
+- Nkwupụta ọha nke ndị na-enye onyinye
 
 <br/>
 
 ## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash?
 
-Azụmaahịa Zcash na-ekpuchi na-ezo:
-- Adreesị onye na-ezipụ
-- Adreesị onye nnata
-- Ọnụ ego azụmahịa
+Azụmahịa Zcash e chebere na-ezo:
+- Adreesị onye na-ezipụ ya
+- Adreesị onye nnata ya .
+- Ọnụ ego azụmahịa ahụ .
 
-Nke a na-enye gị ohere ịnata ego **na-enweghị ikpughe eserese ego gị**.
+Nke a na-enye gị ohere ịnata ego **na-enweghị ikpughe eserese akụnụba gị**.
 
 <br/>
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
 - Akpa ego Zcash nke na-akwado adreesị echedoro:
-  - Zashi
+  - Zodl .
   - YWallet
   - Akpa ego ndị ọzọ a kwadoro
 
@@ -64,49 +64,49 @@ Mepee obere akpa gị ma mepụta adreesị Z.
 Nke a na-amalitekarị site: `zs...`
 
 
-### Nzọụkwụ nke Abụọ: Naanị Gwa Adreesị Gị E Chebere
+### Nzọụkwụ 2: Naanị Kenye Adreesị Gị E Chebere
 
-- Kpọsa adreesị z gị na:
+- Kwusaanụ adreesị z-address gị na:
   - Ebe nrụọrụ weebụ
-  - Mgbasa mgbasa ozi
+  - Mgbasa mgbasa ozi ọha na eze
   - Ibe akwukwo onyinye
 
-**Ejila adreesị doro anya.**
+**Ejikọtala adreesị doro anya.**
 
 ### Nzọụkwụ 3: Nduzi Ndị Na-enye Ihe (Ọ bụghị iwu ma a na-atụ aro ya)
 
 Gbaa ndị na-enye onyinye ume ka ha:
 - Jiri obere akpa ego na-akwado azụmahịa echekwara
-- Na-ezipụ site na ọdọ mmiri ndị e chebere (ọ bụghị nke a na-ahụ anya)
+- Ziga site na ọdọ mmiri ndị e chebere (ọ bụghị nke a ga-ahụ anya)
 
-### Nzọụkwụ nke Anọ: Na-eme Ihe Ndị Ga-eme Ka Gị na Ndị Ọzọ Na-enwe Obi Ụtọ
+### Nzọụkwụ nke Anọ: Na-eme Ihe Ndị Ga-enyere Gị Aka Ịna-enwe Obi Ụtọ Mgbe Niile n'Ebe I Nọ
 
 - Zere iji otu adreesị n'ofe njirimara ndị na-enweghị njikọ
-- Ejila adreesị gị eme ka ndị mmadụ mata gị ma ọ bụrụ na ọ dịghị mkpa
+- Ejila adres gị eme ka ndị mmadụ mata onye ị bụ ọ gwụla ma ọ̀ dị mkpa ime otú ahụ .
 
 <br/>
 
 ## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
 
 - Ịkekọrịta adreesị doro anya (t) 
-- Ikwusa obere akpa gị n'akụkụ akwụkwọ njirimara gị 
-- Ịnakwere ego site na isi mmalite ndị doro anya na-enweghị mkpuchi 
-- Iji otu adreesị n'ọtụtụ ọnọdụ 
+- Ịkwusawa akwụkwọ gị n'akụkụ ihe e ji amata mmadụ 
+- Ịnabata ego site na isi mmalite ndị doro anya n'enweghị ihe mkpuchi. 
+- Ịgbanwe otu adreesị n'ọtụtụ ọnọdụ. 
 
 <br/>
 
 ## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
 
 I nwere ike:
-- Na-anata onyinye n'onwe gị
-- Chebe ndị nkwado gị
-- Zere ikpughe ọrụ ego gị
+- Na-anata onyinye n'onwe gị.
+- Chebe ndị na-akwado gị.
+- Zere ikpughe ihe ndị i ji ego eme .
 
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Nchekwa nzuzo - echekwara vs Transparent](/privacy/shielded-vs-transparent)
+- [Nzuzo - E Chebere Ya Ka Ọ̀ Bụ nke A Na-ahụ Anya?](/privacy/shielded-vs-transparent)
 - [Akpa ego](/wallets)
 
 <br/>
@@ -115,14 +115,14 @@ I nwere ike:
 
 **Nzọụkwụ 1 nke 6**
 
-Ị mụtawo otú e si enweta ego na nzuzo.
+Ị mụtawo otú e si enweta ego n'ụzọ nzuzo.
 
 <br/>
 
 ## Nzọụkwụ Ọzọ
 
-Gaa n'ihu na njem gị:
+Gaa n'ihu njem gị:
 
-- [Zipu ego n'ejighi njirimara](/zcash-use-cases/send-money-without-linking-identity)
+- [Ziga Ego n'Ejighị Ihe Ndị Na-egosi na Ị Bụ Onye A Chọpụtara Achọpụta](/zcash-use-cases/send-money-without-linking-identity)
   
 <br/>

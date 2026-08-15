@@ -64,8 +64,7 @@ Ecco un tutorial su come schermare il tuo ZEC da un indirizzo trasparente a un i
 </div>
 
 
----
-Ecco un tutorial su come acquistare ZEC su Coinbase e inviarlo a Zashi.
+Ecco un tutorial su come acquistare ZEC su Coinbase e inviarlo a ZODL.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

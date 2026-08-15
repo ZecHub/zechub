@@ -56,7 +56,7 @@ Zcash는 두 가지 주소 유형을 지원합니다:
 
 ### 통합 주소
 
-[Zashi](https://electriccoin.co/zashi/)와 같은 현대 Zcash 지갑은 **통합 주소**(Unified Addresses)를 사용합니다. 이는 투명 및 보호 수신자 주소를 하나의 주소에 결합하여 사용자 경험을 간단하게 하며, 기본적으로 최고 수준의 프라이버시를 제공합니다.
+[Zodl](https://zodl.com)과 같은 현대 Zcash 지갑은 **Unified Addresses**를 사용합니다. 이는 투명 및 차폐 수신자를 하나의 주소로 결합합니다. 이렇게 하면 사용자 경험이 단순해지면서, 기본적으로 사용 가능한 최고 수준의 프라이버시가 적용됩니다.
 
 ### 프라이버시가 왜 중요한가
 
@@ -82,7 +82,7 @@ ShapeShift 플랫폼은 사용자가 완전히 분산된 과정을 통해 ZEC를
 - **Keplr** (코스모스 기반 자산용)
 - **WalletConnect 호환 지갑**
 
-ZEC로 교환하거나 ZEC에서 다른 자산으로 교환하는 경우, Zcash 호환 지갑(예: Zashi)이 준비되어 있어야 합니다.
+ZEC로 교환하거나 ZEC에서 다른 자산으로 교환하는 경우, 자금을 수령할 수 있도록 Zcash 호환 지갑(예: Zodl)을 준비해 두어야 합니다.
 
 ### 단계 3: 교환 쌍 선택
 
@@ -98,7 +98,7 @@ ZEC로 교환하거나 ZEC에서 다른 자산으로 교환하는 경우, Zcash 
 
 ### 단계 6: ZEC 보호
 
-ZEC가 도착하면, Zcash 지갑의 **보호**(shield) 기능(예: Zashi에서 제공됨)을 사용하여 자금을 보호된 풀로 이동시킵니다. 이를 통해 잔액과 미래 거래가 완전히 비밀이 유지됩니다.
+ZEC가 도착하면, Zcash 지갑의 **shield** 기능(예: Zodl 같은 지갑에서 제공됨)을 사용하여 자금을 보호된 풀로 이동하세요. 이렇게 하면 잔액과 향후 거래가 완전히 비공개로 유지됩니다.
 
 ### 지원되는 크로스체인 쌍
 
@@ -165,7 +165,7 @@ ShapeShift와 Zcash 통합은 분산형 금융에서 프라이버시를 위한 �
 
 [Zcash 공식 웹사이트](https://z.cash/)
 
-[Zashi 지갑 (Electric Coin Co.에서 개발)](https://electriccoin.co/zashi/)
+[Zodl 지갑](https://zodl.com)
 
 [ShapeShift DAO 거버넌스 (FOX 토큰)](https://shapeshift.com/fox-token)
 

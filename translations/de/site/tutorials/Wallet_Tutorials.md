@@ -7,7 +7,7 @@
 Unten findest du eine Liste von Wallet-Tutorials, die dir beim Einstieg mit ZEC helfen können.
 
 
-- Zashi Wallet 
+- ZODL Wallet
 
 [![Video-Vorschaubild](/content-images/hqdefault-a4a2a5de7f.webp)](https://www.youtube.com/watch?v=G92zBIr-Wms)
 

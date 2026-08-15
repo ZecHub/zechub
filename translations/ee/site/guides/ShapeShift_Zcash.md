@@ -2,13 +2,13 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ShapeShift kple Zcash: Adzamenyawo-Gbãtɔ Decentralized Asitsatsa
+# ShapeShift kple Zcash: Adzamenyawo-Gbãtɔ ƒe Asitsatsa si Wode Asi na Amewo
 
 ---
 
 ## Kpɔkplɔyiɖeme
 
-Ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ kple ameɖokuidzikpɔkpɔ nye gɔmeɖose veviwo le cryptocurrency me, ke hã ezãla geɖe gakpɔtɔ ɖoa ​​ŋu ɖe asitɔtrɔ le teƒe ɖeka siwo hiã be woaɖo kpe ame ƒe amenyenye dzi eye woalé ezãlawo ƒe ga ɖe asi. ShapeShift kple Zcash ƒe ƒoƒo ɖekae ƒo asitɔtrɔ ƒe mɔnu si woɖe ɖe vovo bliboe kple cryptocurrencies deŋgɔ siwo kpɔa ame ŋutɔ ƒe nyatakakawo ta la dometɔ ɖeka nu ƒu, si naa mɔnu zãlawo be woatsɔ adzra ZEC evɔ womatsɔ adzamenyawo alo woƒe nunɔamesiwo dzi kpɔkpɔ asa vɔe o.
+Ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ kple ameɖokuidzikpɔkpɔ nye gɔmeɖose veviwo le cryptocurrency me, ke hã ezãla geɖe gakpɔtɔ ɖoa ​​ŋu ɖe asitɔtrɔ le teƒe ɖeka siwo hiã be woaɖo kpe ame ƒe amenyenye dzi eye woalé ezãlawo ƒe ga ɖe asi. ShapeShift kple Zcash ƒe ƒoƒo ɖekae na be asitsatsa ƒe mɔnu si woɖe ɖe vovo bliboe kple cryptocurrencies deŋgɔ siwo kpɔa ameŋunyatakakawo ta la dometɔ ɖeka ƒo ƒu, si naa mɔnu zãlawo be woatsɔ adzra ZEC evɔ womatsɔ adzamenyawo alo woƒe nunɔamesiwo dzi kpɔkpɔ asa vɔe o.
 
 Nyati sia ɖe nusi ShapeShift nye, alesi Zcash wɔa dɔe, alesi nàte ŋu aɖɔli ZEC le ShapeShift dzi, kple nusita hadomeɖoɖo sia le vevie na ame ŋutɔ ƒe ganyawo ƒe etsɔme, si woɖe ɖe vovo.
 
@@ -16,7 +16,7 @@ Nyati sia ɖe nusi ShapeShift nye, alesi Zcash wɔa dɔe, alesi nàte ŋu aɖɔl
 
 ## Nukae nye ShapeShift?
 
-[Nɔnɔme ƒe Tɔtrɔ](https://shapeshift.com/) nye cryptocurrency mɔnu si woɖe ɖe vovo, si woate ŋu azã faa, si naa ezãlawo te ŋu dzraa dijitaal nunɔamesiwo, léa ŋku ɖe wo ŋu, eye wokpɔa wo dzi le blockchain geɖewo me evɔ womewɔa akɔnta, tsɔa dzesidegbalẽviwo ɖona ɖa, alo tsɔa woƒe ga dzi kpɔkpɔ de asi na wo o.
+[Nɔnɔme ƒe Tɔtrɔ](https://shapeshift.com/) nye cryptocurrency mɔnu si woɖe ɖe vovo, si woate ŋu azã faa, si na be ezãlawo te ŋu dzraa dijitaal nunɔamesiwo, léa ŋku ɖe wo ŋu, eye wokpɔa wo dzi le blockchain geɖe me evɔ womewɔa akɔnta, tsɔa dzesidegbalẽviwo ɖona ɖa, alo tsɔa woƒe ga dzi kpɔkpɔ de asi na wo o.
 
 ### Ŋutinya Kpuie aɖe
 
@@ -27,11 +27,11 @@ Le ƒe 2021 me la, tɔtrɔ gã aɖe va le ShapeShift me. Dɔwɔƒea ɖe eƒe dɔ
 ### Nu Vevi Siwo Le Eme
 
 - **Non-Custodial**: Zãlawo dzraa nu tẽ tso woawo ŋutɔ ƒe gakotokuwo me. ShapeShift meléa wò ga ɖe asi gbeɖe o.
-- **Mehiã KYC o**: Womeɖo kpe ame ƒe amenyenye dzi o, womawɔ akɔnta o, eye womaƒo ame ŋutɔ ƒe nyatakakawo nu ƒu o.
+- **Mehiã KYC o**: Womeɖo kpe ame ƒe amenyenye dzi o, womewɔ akɔntabubu aɖeke o, eye womaƒo ame ŋutɔ ƒe nyatakakawo nu ƒu o.
 - **Multichain Kpekpeɖeŋu**: Mɔɖeɖe ɖe nunɔamesi siwo wu 10,000 ŋu le 15+ blockchains me, siwo dometɔ aɖewoe nye Bitcoin, Ethereum, Cosmos, kple Zcash.
 - **DEX Aggregation**: ShapeShift kplɔa asitsatsa to decentralized protocols abe THORChain, 0x, kple bubuwo dzi be yeakpɔ rate nyuitɔwo.
 - **Cross-Chain Swaps**: Trɔ nunɔamesiwo le dzɔdzɔme nu le blockchain vovovowo dome evɔ màzã dzesi siwo woxatsa alo tɔdzisasrã siwo le titina o.
-- **Fully Open-Source**: Mɔ̃a katã, si me asitelefon dzi dɔwɔɖoɖoa hã le, nye ʋuʋu-dzɔtsoƒe si me megbenya aɖeke mele si nye etɔ wu blockchain nyatakakawo o.
+- **Fully Open-Source**: Nuƒolanɔƒe bliboa, si me asitelefon dzi dɔwɔɖoɖoa hã le, nye ʋuʋu-dzɔtsoƒe si me megbenya aɖeke mele si nye etɔ wu blockchain nyatakakawo o.
 
 ---
 
@@ -39,24 +39,24 @@ Le ƒe 2021 me la, tɔtrɔ gã aɖe va le ShapeShift me. Dɔwɔƒea ɖe eƒe dɔ
 
 [Zcash ƒe ŋkɔ](https://z.cash/) (ZEC) nye cryptocurrency si wotu ɖe cryptographic gɔmeɖoanyi sesẽ siwo naa ŋutete ezãlawo be woawɔ asitsadɔ le wo ɖokui si. Wodze egɔme le ƒe 2016 me, Zcash nye Bitcoin ƒe fɔkpa si tsɔa ameŋunyatakakawo ŋuti mɔ̃ɖaŋununya deŋgɔ kpena ɖe eŋu esime wòlé Bitcoin ƒe gaku miliɔn 21 ƒe ɖoɖo si woɖo ɖi kple dɔwɔwɔ ƒe kpeɖodzi ƒe nukpɔsusu ɖeka me ɖe asi.
 
-### Asitsatsa Siwo Ŋu Wokpɔ Akpoxɔnu Le Kple Sidzedze Zero-Kpeɖodziwo
+### Asitsatsa Siwo Wokpɔ Ta Kpekpeɖeŋunana Kple Sidzedze Zero-Kpeɖodziwo
 
 Zcash ƒe nu yeye vevitɔe nye eƒe **sidzedze zero ƒe kpeɖodziwo** zazã (vevietɔ, nɔnɔme aɖe si woyɔna be **zk-SNARKs**). Nya ɣaɣla siawo ƒe kpeɖodziwo ɖea mɔ na akpa ɖeka be wòaɖo kpe edzi na ame bubu be nya aɖe nye nyateƒe evɔ yemaɖe nyatakaka aɖeke si gbɔ nya la ŋutɔ ƒe nyateƒenyenye ŋu afia o.
 
-Le nuwɔna me la, esia fia be woate ŋu **akpɔ Zcash ƒe adzɔnuwo ta bliboe**: woɣla ameɖola ƒe adrɛs, amesi xɔe ƒe adrɛs, kple asitsatsa ƒe ga home katã ɖe blockchain la dzi. Netwɔƒea ate ŋu akpɔe kokoko be asitsatsa la sɔ (gazazã zi gbɔ zi eve aɖeke mele eme o, ga si susɔ nyuie) evɔ yemakpɔ nyatakaka mawo gbeɖe o.
+Le nuwɔna me la, esia fia be woateŋu **akpɔ Zcash ƒe adzɔnuwo ta bliboe**: woɣla ameɖola ƒe adrɛs, amesi xɔe ƒe adrɛs, kple asitsatsa ƒe ga home katã ɖe blockchain la dzi. Netwɔƒea ate ŋu akpɔe kokoko be asitsatsa la sɔ (gazazã zi eve aɖeke mele eme o, ga si susɔ nyuie) evɔ yemakpɔ nyatakaka mawo gbeɖe o.
 
 ### Asitsatsa Ƒomeviwo
 
 Zcash doa alɔ adrɛs ƒomevi eve:
 
 - **Adrɛs siwo me kɔ** (t-adrɛswo): Esiawo wɔa dɔ abe Bitcoin adrɛswo ene, afisi asitsatsa ŋuti nyatakakawo dzena le dutoƒo le blockchain la dzi.
-- **Adrɛs siwo wokpɔ ta na** (z-adrɛswo): Esiawo zãa kpeɖodzi siwo si sidzedze zero le tsɔ naa asitsatsa ŋuti nyatakakawo nɔa ɣaɣla.
+- **Adrɛs siwo wokpɔ ta na** (z-adrɛswo): Esiawo zãa kpeɖodzi siwo me sidzedze aɖeke mele o tsɔ naa asitsatsa ŋuti nyatakakawo nɔa ɣaɣla.
 
-Zãlawo ate ŋu aɖo ZEC ɖe adrɛs siwo me kɔ kple esiwo ŋu wokpɔ ta na dome. Be woakpɔ ame ŋutɔ ƒe nyawo gbɔ nyuie wu la, asitsatsa tso adrɛs ɖeka si wokpɔ ta na dzi yi bubu dzi meɖea nyatakaka aɖeke fiana le dutoƒo o.
+Zãlawo ate ŋu aɖo ZEC ɖe adrɛs siwo me kɔ kple esiwo wokpɔ ta na dome. Be woakpɔ ame ŋutɔ ƒe nyawo gbɔ nyuie wu la, asitsatsa tso adrɛs ɖeka si wokpɔ ta na dzi yi bubu dzi meɖea nyatakaka aɖeke fiana le dutoƒo o.
 
 ### Adrɛs Siwo Wowɔ Ðeka
 
-Egbegbe Zcash gakotokuwo abe [Zashi](https://electriccoin.co/zashi/) zã **Adrɛs Siwo Wɔ Ðeka**, siwo ƒoa nuxɔla siwo me kɔ kple esiwo ŋu wokpɔ ta na siaa nu ƒu ɖe adrɛs ɖeka me. Esia naa zãla ƒe nuteƒekpɔkpɔ nɔa bɔbɔe esime wòle ɖoɖo wɔm ɖe adzamenyawo ƒe ɖoɖo kɔkɔtɔ kekeake si li ŋu.
+Egbegbe Zcash gakotokuwo abe [Zodl](https://zodl.com) zã **Adrɛs Siwo Wɔ Ðeka**, siwo ƒoa nuxɔla siwo me kɔ kple esiwo ŋu wokpɔ ta na siaa nu ƒu ɖe adrɛs ɖeka me. Esia naa zãla ƒe nuteƒekpɔkpɔ nɔa bɔbɔe esime wòle ɖoɖo wɔm ɖe adzamenyawo ƒe ɖoɖo kɔkɔtɔ kekeake si li ŋu.
 
 ### Nusita Ameŋunyatakakawo Ŋuti Nyatakaka Le Vevie
 
@@ -70,11 +70,11 @@ ShapeShift ƒe mɔ̃a ɖea mɔ na ezãlawo be woaxɔ ZEC ahadzrae to ɖoɖo si w
 
 ### Afɔɖeɖe 1: Yi ShapeShift dzi
 
-Yi [app.shapeshift.com dzi](https://app.shapeshift.com/) le wò nyatakakadzraɖoƒea alo nàwɔ ShapeShift asitelefon dzi dɔwɔnua ƒe kɔpi. Mehiã be woawɔ akɔntabubu alo amenyenye ƒe kpeɖodzi aɖeke o.
+Yi [app.nɔnɔme ƒe tɔtrɔ.com](https://app.shapeshift.com/) le wò nyatakakadzraɖoƒea alo nàwɔ ShapeShift asitelefon dzi dɔwɔnua ƒe kɔpi. Mehiã be woawɔ akɔntabubu alo amenyenye ƒe kpeɖodzi aɖeke o.
 
-### Afɔɖeɖe 2: Do Ka Kple Wò Gakotokua
+### Afɔɖeɖe 2: Do ka kple Wò Gakotokua
 
-Do ka kple gakotoku si sɔ na ɖokuiwò dzi kpɔkpɔ. ShapeShift doa alɔ gakotoku vovovowo siwo dometɔ aɖewoe nye:
+Do ka kple gakotoku si sɔ na ɖokuiwò. ShapeShift doa alɔ gakotoku vovovowo siwo dometɔ aɖewoe nye:
 
 - **KeepKey** (hardware gakotoku) .
 - **MetaMask** ƒe ƒuƒoƒo
@@ -82,7 +82,7 @@ Do ka kple gakotoku si sɔ na ɖokuiwò dzi kpɔkpɔ. ShapeShift doa alɔ gakoto
 - **Keplr** (na nunɔamesi siwo wotu ɖe Cosmos dzi)
 - **Gakotoku siwo sɔ kple WalletConnect**
 
-Esi wònye be èle tɔtrɔm yina alo tso ZEC gbɔ ta la, kpɔ egbɔ be gakotoku si sɔ kple Zcash (abe Zashi ene) le asiwò si le klalo be yeaxɔ yeƒe ga.
+Esi wònye be èle tɔtrɔm yina alo tso ZEC gbɔ ta la, kpɔ egbɔ be gakotoku si sɔ kple Zcash (abe Zodl ene) le asiwò si le klalo be yeaxɔ wò ga.
 
 ### Afɔɖeɖe 3: Tia Wò Swap Pair
 
@@ -98,13 +98,13 @@ Dzro asitsatsa ŋuti nyatakakawo me eye nàɖo kpe edzi. Wowɔa swap la le kɔs�
 
 ### Afɔɖeɖe 6: Kpɔ Wò ZEC ta
 
-Ne wò ZEC nya va ɖo ko la, zã wò Zcash gakotoku ƒe **akpoxɔnu** dɔwɔwɔ (si le gakotokuwo abe Zashi ene me) nàtsɔ atsɔ ga la ayi ta si me wokpɔa akpoxɔnu le la me. Esia wɔnɛ be wò ga si susɔ kple asitsatsa siwo nàwɔ le etsɔme la gakpɔtɔ nye ame ŋutɔ tɔ bliboe.
+Ne wò ZEC nya va ɖo ko la, zã wò Zcash gakotoku ƒe **akpoxɔnu** dɔwɔwɔ (si le gakotokuwo abe Zodl ene me) nàtsɔ atsɔ gaawo ayi ta si me wokpɔa akpoxɔnu le la me. Esia wɔnɛ be wò ga si susɔ kple asitsatsa siwo nàwɔ le etsɔme la gakpɔtɔ nye ame ŋutɔ tɔ bliboe.
 
 ### Atitsoga-kɔsɔkɔsɔ Atsu kple asi siwo wodo alɔe
 
 ShapeShift na ZEC ƒe asitɔtrɔ le blockchain lãwo ƒe agbenɔnɔ ƒe ɖoɖo geɖewo me te ŋu wɔa dɔ, siwo dometɔ aɖewoe nye:
 
-- **Bitcoin** (BTC) kple ame bubuwo ƒe xexlẽme. ZEC
+- **Bitcoin** (BTC) & lt;-&gt; ZEC
 - **Ethereum** (ETH) kple eƒe lãmesẽnyawo gbɔ kpɔkpɔ. ZEC
 - **Arbitrum** nunɔamesiwo &lt;-&gt; ZEC
 - **Cosmos** lãwo ƒe agbenɔnɔ ƒe dzesiwo &lt;-&gt; ZEC
@@ -123,22 +123,22 @@ Abe alesi Houston Morgan, ShapeShift ƒe dzidziɖedzi kple nutoa me dɔwɔwɔ ƒ
 
 Ŋutinya na be ɖekawɔwɔ sia gaɖe dzesi wu. Le ƒe 2020 me, esime ShapeShift gakpɔtɔ nye dɔwɔƒe si le titina la, e **ɖe ameŋunyatakakawo ƒe gakuwo ɖa** si me Zcash hã le le sewo ƒe nyaƒoɖeamenu te. Trɔtrɔ yi DAO ƒe ɖoɖo aɖe me na ShapeShift ablɔɖe tso mɔxenu mawo me. Fifia, abe ɖoɖowɔɖi si nutoa me tɔwo kpɔna ene la, menye ɖeko ShapeShift gbugbɔ Zcash ŋlɔ ŋkɔ o ke ena wòzu eƒe ameŋunyatakakawo takpɔkpɔ ƒe aɖaŋuɖoɖo ƒe akpa vevi aɖe.
 
-Esi woɖe **ShapeShift v4.0** ɖe go le December 2025 me la, Zcash va zu mɔ̃a ƒe **fexexe kple mɔzɔzɔ ƒe nunɔamesi vevitɔ si kpɔa ame ŋutɔ ƒe nyatakakawo ta**. Fifia woɖo adzamenyawo abe nɔnɔme si woɖo ɖi ene, ke menye kpeɖeŋutɔ si woate ŋu atia o, kple ZEC si wotsɔ de ShapeShift ƒe gakotoku kple mɔfiamewo ƒe ƒuƒoƒo me tẽ.
+Esi woɖe **ShapeShift v4.0** ɖe go le December 2025 me la, Zcash va zu mɔ̃a ƒe **fexexe kple mɔzɔzɔ ƒe nunɔamesi vevitɔ si kpɔa ame ŋutɔ ƒe nyatakakawo ta**. Fifia woɖo adzamenyawo abe nɔnɔme si woɖo ɖi ene, ke menye kpeɖeŋutɔ si woate ŋu atia o, eye wotsɔ ZEC de ShapeShift ƒe gakotoku kple mɔfiamewo ƒe ƒuƒoƒo me tẽ.
 
 ### Zcash Hadome Gakpekpeɖeŋunana Kpekpeɖeŋunana
 
-[Zcash Nutome ƒe Gakpekpeɖeŋunana](https://zcashcommunitygrants.org/) ɖoɖowɔɖia na **$50,000** be woatsɔ ado alɔ ShapeShift ƒe mɔ̃ɖaŋununya ƒe xɔtuɖoɖowo kple asitsatsa ƒe agbagbadzedzewo na Zcash ƒe ɖekawɔwɔ. Gakpekpeɖeŋu sia kpe ɖe ShapeShift ƒe ƒuƒoƒoa ŋu wòwɔ ɖeka kple **Liquify**, si nye Web3 ƒe xɔtuɖoɖowo nana si doa alɔ 90+ blockchains, be woakpɔ adzɔge ƒe ɖoɖowɔɖi yɔyɔ (RPC) ƒe nuwuƒewo gbɔ hena dɔwɔwɔ kabakaba kple network ƒe kakaɖedzi si nyo wu.
+The [Zcash Nutome ƒe Gakpekpeɖeŋunana](https://zcashcommunitygrants.org/) ɖoɖowɔɖia na **$50,000** be woatsɔ ado alɔ ShapeShift ƒe mɔ̃ɖaŋununya ƒe xɔtuɖoɖowo kple asitsatsa ƒe agbagbadzedzewo na Zcash ƒe ɖekawɔwɔ. Gakpekpeɖeŋu sia kpe ɖe ShapeShift ƒe ƒuƒoƒoa ŋu wòwɔ ɖeka kple **Liquify**, si nye Web3 ƒe xɔtuɖoɖowo nana si doa alɔ 90+ blockchains, be woakpɔ adzɔge ƒe ɖoɖowɔɖi yɔyɔ (RPC) ƒe nuwuƒewo gbɔ hena dɔwɔwɔ kabakaba kple network ƒe kakaɖedzi si nyo wu.
 
 ### Ganyawo ƒe Dodo Ðe Ŋgɔ
 
-Ðekawɔwɔ sia ɖee fia be ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ kple dziɖuɖu ƒe ɖoɖowɔwɔ ate ŋu awɔ dɔ ɖekae le DeFi me. Zãlawo ate ŋu:
+Ðekawɔwɔ sia ɖee fia be ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla kple dziɖuɖu ƒe ɖoɖowɔwɔ ate ŋu awɔ dɔ ɖekae le DeFi me. Zãlawo ate ŋu:
 
 - **Trɔ** nunɔamesiwo le kɔsɔkɔsɔwo me domenɔla siwo le titina manɔmee
 - **Milé wo ɖokui dzi kpɔkpɔ blibo me ɖe asi** le woƒe ga me le dɔa katã me
 - **Access shielded ZEC** KYC alo nyatakakawo nuƒoƒoƒu manɔmee
 - **Kpɔ gome le dziɖuɖu me** to FOX token dzi be nàtrɔ asi le nuƒolanɔƒea ƒe etsɔme ŋu
 
-Esi sedede ƒe nɔnɔmewo le sesẽm ɖe edzi le xexeame godoo, eye nutowo abe EU ene le mɔxexe ɖe mɔ̃ɖaŋununya siwo kpɔa ame ŋutɔ ƒe nyatakakawo ta me me dzrom la, mɔ̃wo abe ShapeShift ene naa xɔtuɖoɖo vevi bubu aɖe si woate ŋu azã ɖe ganyawo ŋuti nyatakakawo ta.
+Esi ɖoɖowɔwɔ ƒe nɔnɔmewo le sesẽm ɖe edzi le xexeame godoo, eye nuto siwo le abe EU ene le mɔxexe ɖe mɔ̃ɖaŋununya siwo kpɔa ame ŋutɔ ƒe nyatakakawo ta me me dzrom la, mɔ̃wo abe ShapeShift ene naa xɔtuɖoɖo vevi bubu aɖe si woate ŋu azã ɖe ganyawo ŋuti nyatakakawo ta.
 
 ---
 
@@ -146,16 +146,16 @@ Esi sedede ƒe nɔnɔmewo le sesẽm ɖe edzi le xexeame godoo, eye nutowo abe E
 
 | Feature | Nyatakakawo Tsitotsito |
 |---|---|
-| **Nuƒolanɔƒe** | ShapeShift DAO (si woɖe ɖe vovo, si woʋu ɖi) |
+| **Nuƒolanɔƒe** | ShapeShift DAO (si woɖe ɖe vovo, si le ʋuʋu ɖi) |
 | **Dziɖuɖu** | FOX dzesiwo xɔlawo |
-| **Zcash ƒe Kpekpeɖeŋu** | ZEC asitsatsa blibo kple akpoxɔnu asitsatsa ƒe kpekpeɖeŋu |
+| **Zcash ƒe Kpekpeɖeŋu** | ZEC asitsatsa blibo kple akpoxɔnu ƒe asitsatsa ƒe kpekpeɖeŋu |
 | **KYC hiã** | Ao |
 | **Vidzikpɔkpɔ** | Non-custodial (zãlawo dzraa woawo ŋutɔ ƒe safuiwo ɖo) |
 | **Atitsoga-kɔsɔkɔsɔwo ƒe Trɔtrɔ** | BTC, ETH, Arbitrum, Cosmos, kple bubuwo |
-| **Dɔwɔƒewo** | Wodo ŋusẽe to Liquify (90+ blockchain RPC kpekpeɖeŋu) |
+| **Dɔwɔƒewo** | Ŋusẽ tso Liquify (90+ blockchain RPC kpekpeɖeŋu) |
 | **Zcash Hadome Gakpekpeɖeŋunana ƒe Gakpekpeɖeŋu** | $50,000 na mɔ̃ɖaŋu kple asitsatsa ƒe kpekpeɖeŋu |
 
-ShapeShift kple Zcash ƒe ƒoƒo ɖekae tsi tre ɖi na afɔɖeɖe si ŋu gɔmesese le yi ŋgɔ na ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ le ganyawo ƒe ɖoɖo si woɖe ɖe vovo me. To ShapeShift ƒe asitsatsa ƒe ɖoɖo si menye nudzraɖoƒe o, si me kɔsɔkɔsɔ geɖe le kple Zcash ƒe sidzedze zero-sidzedze ƒe kpeɖodzi mɔ̃ɖaŋununya tsɔtsɔ ƒo ƒui me la, ezãlawo kpɔa mɔ na cryptocurrency asitsatsa si nye ame ŋutɔ tɔ vavã, si ŋu mɔɖeɖe mele o. Le amesiame si dea asixɔxɔ ganyawo ƒe adzamenyawo kple ɖokuisinɔnɔ ŋu gome la, ɖekawɔwɔ sia naa mɔ nyui aɖe si dzi woate ŋu ato azã ZEC si dzi womate ŋu awɔ naneke le o.
+ShapeShift kple Zcash ƒe ƒoƒo ɖekae tsi tre ɖi na afɔɖeɖe si ŋu gɔmesese le yi ŋgɔ na ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ le ganyawo ƒe ɖoɖo si wowɔ ɖe ɖoɖo nu me. To ShapeShift ƒe asitsatsa ƒe ɖoɖo si menye nudzraɖoƒe o, si me kɔsɔkɔsɔ geɖe le tsɔtsɔ ƒo ƒu kple Zcash ƒe sidzedze zero-sidzedze ƒe kpeɖodzi mɔ̃ɖaŋununya me la, ezãlawo kpɔa mɔ na cryptocurrency asitsatsa si nye ame ŋutɔ tɔ vavã, si ŋu mɔɖeɖe mele o. Le amesiame si dea asixɔxɔ ganyawo ƒe adzamenyawo kple ɖokuisinɔnɔ ŋu gome la, ɖekawɔwɔ sia naa mɔ nyui aɖe si dzi woate ŋu ato azã ZEC si dzi womate ŋu awɔ naneke le o.
 
 ---
 
@@ -163,16 +163,16 @@ ShapeShift kple Zcash ƒe ƒoƒo ɖekae tsi tre ɖi na afɔɖeɖe si ŋu gɔmese
 
 [ShapeShift ƒe Nuƒolanɔƒe](https://shapeshift.com/)
 
-[Zcash ƒe Nyatakakadzraɖoƒea](https://z.cash/)
+[Zcash Dziɖuɖua ƒe Nyatakakadzraɖoƒe](https://z.cash/)
 
-[Zashi Gakotoku (si Electric Coin Co. wɔ)](https://electriccoin.co/zashi/)
+[Zodl ƒe Gakotoku](https://zodl.com)
 
 [ShapeShift DAO Dziɖuɖu (FOX Token) .](https://shapeshift.com/fox-token)
 
 [Zcash Nutome ƒe Gakpekpeɖeŋunana](https://zcashcommunitygrants.org/)
 
-[ShapeShift ƒo Zcash nu ƒu be wòado ŋusẽ onchain ƒe adzamenyawo (crypto.news)](https://crypto.news/shapeshift-integrates-zcash-to-enable-true-onchain-privacy/)
+[ShapeShift ƒoa Zcash nu ƒu tsɔ doa ŋusẽ onchain ƒe adzamenyawo (crypto.news) .](https://crypto.news/shapeshift-integrates-zcash-to-enable-true-onchain-privacy/)
 
-[ShapeShift ɖe v4.0 ɖe go, si tsɔ ame ŋutɔ ƒe nyawo kple ameɖokuidzikpɔkpɔ ɖo nɔƒe gbãtɔ le DeFi (Invezz) me](https://invezz.com/news/2025/12/18/shapeshift-unveils-version-4-0-re-centering-privacy-and-self-custody-in-defi/)
+[ShapeShift ɖe v4.0 ɖe go, si gbugbɔ ɖo adzamenyawo kple ɖokuidzikpɔkpɔ le DeFi (Invezz) me.](https://invezz.com/news/2025/12/18/shapeshift-unveils-version-4-0-re-centering-privacy-and-self-custody-in-defi/)
 
-[ShapeShift ɖea kpekpeɖeŋu ɖe go na Zcash ƒe asitsatsa siwo wokpɔ ta na (CoinTelegraph)](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)
+[ShapeShift ɖea kpekpeɖeŋu ɖe go na Zcash ƒe asitsatsa siwo wokpɔ ta na (CoinTelegraph) .](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)

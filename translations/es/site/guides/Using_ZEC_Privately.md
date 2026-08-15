@@ -64,8 +64,7 @@ Aquí tienes un tutorial sobre cómo blindar tu ZEC desde una dirección transpa
 </div>
 
 
----
-Aquí tienes un tutorial sobre cómo comprar ZEC en Coinbase y enviarlo a Zashi.
+Aquí tienes un tutorial sobre cómo comprar ZEC en Coinbase y enviarlo a ZODL.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

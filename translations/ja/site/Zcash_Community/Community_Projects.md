@@ -103,7 +103,7 @@ Zcash取引へのシームレスで安全なアクセスを提供するDiscord�
 [訪問](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 
 ### ZODL
-Shielded LabsによるフラッグシップZcashウォレット（旧Zashi）。iOSとAndroidで利用可能。シールド済みZECとNU7 coinholder votingをサポートします。  
+ZODLによるフラッグシップZcashウォレット（旧Zashi）。iOSとAndroidで利用可能。シールド済みZECとNU7 coinholder votingをサポートします。  
 [訪問](https://zodl.app/)
 
 ### Noir Wallet

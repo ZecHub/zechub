@@ -103,7 +103,7 @@ Zcash işlemlerine sorunsuz ve güvenli erişim sağlayan Discord botu.
 [Ziyaret et](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 
 ### ZODL
-Shielded Labs’in amiral gemisi Zcash cüzdanı (eski adıyla Zashi). iOS ve Android’de kullanılabilir. Korumalı ZEC ve NU7 coinholder oylamasını destekler.  
+ZODL’nin amiral gemisi Zcash cüzdanı (eski adıyla Zashi). iOS ve Android’de kullanılabilir. Korumalı ZEC ve NU7 coinholder oylamasını destekler.  
 [Ziyaret et](https://zodl.app/)
 
 ### Noir Wallet

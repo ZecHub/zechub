@@ -50,8 +50,8 @@ Vá até a seção **Wrap**. Escolha **SOL** ou **USDC**, insira a quantia e con
 
 ---
 
-###  Etapa 3: Prepare sua carteira Zashi  
-Baixe [**Zashi**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn), a carteira oficial da Zcash da Electric Coin Co. Copie seu **Unified Address** na aba Receive - ela oferece suporte tanto a ZEC transparente quanto blindado. Salve sua frase-semente com segurança antes de prosseguir.  
+###  Etapa 3: Prepare a sua carteira ZODL  
+Descarregue a [**ZODL**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn), a carteira oficial da Zcash da Electric Coin Co. Copie o seu **Unified Address** no separador Receive - suporta tanto ZEC transparente como blindado. Guarde a sua frase-semente em segurança antes de prosseguir.
 
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)
@@ -60,7 +60,7 @@ Baixe [**Zashi**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&
 ---
 
 ###  Etapa 4: Faça a troca com privacidade  
-De volta ao **encrypt.trade**, vá para **Swap**. Selecione **eSOL/eUSDC -> ZEC**, cole seu endereço da Zashi, revise os detalhes e confirme.
+De volta ao **encrypt.trade**, vá para **Swap**. Selecione **eSOL/eUSDC -> ZEC**, cole o seu endereço Zodl, reveja os detalhes e confirme.
 
 
 
@@ -72,7 +72,7 @@ De volta ao **encrypt.trade**, vá para **Swap**. Selecione **eSOL/eUSDC -> ZEC*
 ![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
-O mecanismo **NEAR Intents** cuida automaticamente do roteamento entre blockchains - entregando **ZEC** diretamente à sua carteira Zashi em segundos.  
+O mecanismo **NEAR Intents** cuida automaticamente do roteamento entre blockchains - entregando **ZEC** diretamente à sua carteira Zodl em segundos.
 
 
 
@@ -81,7 +81,7 @@ O mecanismo **NEAR Intents** cuida automaticamente do roteamento entre blockchai
 ---
 
 ###  Etapa 5: Proteja e mantenha a privacidade  
-Assim que receber, use a opção **Shield** da Zashi para mover seu ZEC para o pool blindado e obter privacidade máxima. Sempre verifique os links, evite reutilizar endereços e teste primeiro com pequenas quantias.  
+Assim que receber, use a opção **Shield** da Zodl para mover o seu ZEC para o pool blindado e obter privacidade máxima. Verifique sempre os links, evite reutilizar endereços e teste primeiro com pequenas quantias.
 
 ---
 

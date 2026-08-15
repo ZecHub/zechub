@@ -50,8 +50,8 @@
 
 ---
 
-###  الخطوة 3: تجهيز محفظة Zashi الخاصة بك  
-قم بتنزيل [**Zashi**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn)، وهي محفظة Zcash الرسمية من Electric Coin Co. انسخ **Unified Address** الخاص بك من علامة تبويب الاستلام - فهو يدعم كلًا من ZEC الشفاف والمحمي. احفظ عبارة الاسترداد الخاصة بك بأمان قبل المتابعة.  
+###  الخطوة 3: تجهيز محفظة Zodl الخاصة بك  
+قم بتنزيل [**Zodl**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn)، وهي محفظة Zcash الرسمية من Electric Coin Co. انسخ **Unified Address** الخاص بك من علامة تبويب الاستلام - فهو يدعم كلًا من ZEC الشفاف والمحمي. احفظ عبارة الاسترداد الخاصة بك بأمان قبل المتابعة.
 
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)
@@ -60,7 +60,7 @@
 ---
 
 ###  الخطوة 4: المبادلة بشكل خاص  
-بالعودة إلى **encrypt.trade**، انتقل إلى **Swap**. اختر **eSOL/eUSDC -> ZEC**، ثم الصق عنوان Zashi الخاص بك، وراجع التفاصيل، ثم أكّد العملية.
+بالعودة إلى **encrypt.trade**، انتقل إلى **Swap**. اختر **eSOL/eUSDC -> ZEC**، ثم الصق عنوان Zodl الخاص بك، وراجع التفاصيل، ثم أكّد العملية.
 
 
 
@@ -72,7 +72,7 @@
 ![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
-يتولى محرك **NEAR Intents** تلقائيًا معالجة التوجيه عبر السلاسل - ويقوم بتسليم **ZEC** مباشرة إلى محفظة Zashi الخاصة بك خلال ثوانٍ.  
+يتولى محرك **NEAR Intents** تلقائيًا معالجة التوجيه عبر السلاسل - ويقوم بتسليم **ZEC** مباشرة إلى محفظة Zodl الخاصة بك خلال ثوانٍ.
 
 
 
@@ -81,7 +81,7 @@
 ---
 
 ###  الخطوة 5: قم بالحماية وحافظ على خصوصيتك  
-بمجرد الاستلام، استخدم خيار **Shield** في Zashi لنقل ZEC الخاص بك إلى التجمع المحمي لتحقيق أقصى قدر من الخصوصية. احرص دائمًا على التحقق من الروابط، وتجنب إعادة استخدام العناوين، وجرّب مبالغ صغيرة أولًا.  
+بمجرد الاستلام، استخدم خيار **Shield** في Zodl لنقل ZEC الخاص بك إلى التجمع المحمي لتحقيق أقصى قدر من الخصوصية. احرص دائمًا على التحقق من الروابط، وتجنب إعادة استخدام العناوين، وجرّب مبالغ صغيرة أولًا.
 
 ---
 

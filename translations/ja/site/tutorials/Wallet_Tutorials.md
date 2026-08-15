@@ -7,7 +7,7 @@
 以下は、ZECの使用を開始するのに役立つウォレットに関するチュートリアルの一覧です。
 
 
-- Zashi Wallet 
+- ZODL Wallet
 
 [![動画サムネイル](/content-images/hqdefault-a4a2a5de7f.webp)](https://www.youtube.com/watch?v=G92zBIr-Wms)
 

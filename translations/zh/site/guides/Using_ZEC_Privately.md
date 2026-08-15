@@ -64,8 +64,7 @@
 </div>
 
 
----
-下面是一个在 Coinbase 上购买 ZEC 并发送到 Zashi 的教程。
+下面是一个在 Coinbase 上购买 ZEC 并发送到 Zodl 的教程。
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

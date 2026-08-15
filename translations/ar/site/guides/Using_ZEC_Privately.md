@@ -64,8 +64,7 @@
 </div>
 
 
----
-إليك شرحًا لكيفية شراء ZEC على Coinbase وإرساله إلى Zashi.
+إليك شرحًا لكيفية شراء ZEC على Coinbase وإرساله إلى ZODL.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

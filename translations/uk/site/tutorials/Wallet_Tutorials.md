@@ -7,7 +7,7 @@
 Нижче наведено список посібників із гаманців, які допоможуть вам розпочати роботу з ZEC.
 
 
-- Гаманець Zashi
+- Гаманець Zodl
 
 [![Мініатюра відео](/content-images/hqdefault-a4a2a5de7f.webp)](https://www.youtube.com/watch?v=G92zBIr-Wms)
 

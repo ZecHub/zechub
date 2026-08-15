@@ -51,7 +51,7 @@
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Що вам потрібно
 
 - Гаманець Zcash, який підтримує екрановані адреси:
-  - Zashi
+  - ZODL
   - YWallet
   - Інші підтримувані гаманці
 

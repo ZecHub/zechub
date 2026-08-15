@@ -103,7 +103,7 @@ Zcash 收银工具，使供应商和商户能够接受 Zcash 支付。
 [访问](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 
 ### ZODL
-来自 Shielded Labs（原 Zashi）的旗舰 Zcash 钱包。提供 iOS 和 Android 版本。支持 shielded ZEC 和 NU7 持币人投票。  
+来自 ZODL（原 Zashi）的旗舰 Zcash 钱包。提供 iOS 和 Android 版本。支持 shielded ZEC 和 NU7 持币人投票。  
 [访问](https://zodl.app/)
 
 ### Noir Wallet

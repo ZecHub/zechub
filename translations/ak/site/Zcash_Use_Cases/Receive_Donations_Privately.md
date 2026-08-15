@@ -51,7 +51,7 @@ Wei ma wotumi nya sika **a worenda wo sikasɛm ho mfonini adi**.
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
 - Zcash sika kotoku a ɛboa address ahorow a wɔabɔ ho ban:
-  - Zashi na ɔkyerɛwee
+  - Zodl
   - YWallet na ɛyɛ adwuma
   - Sika kotoku afoforo a wɔboa
 
@@ -107,7 +107,7 @@ Wobɛtumi:
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
 - [Kokoamsɛm - Shielded vs Transparent](/privacy/shielded-vs-transparent)
-- [Wɔde sika kotoku](/wallets)
+- [Sika kotoku](/wallets)
 
 <br/>
 
@@ -123,6 +123,6 @@ Woasua sɛnea wubenya sika wɔ kokoam.
 
 Toa w’akwantu no so:
 
-- [Fa Sika Kɔma a Womfa Nkitahodi Nkitahodi](/zcash-use-cases/send-money-without-linking-identity)
+- [Fa Sika Mena a Womfa Nkitahodi Nkitahodi](/zcash-use-cases/send-money-without-linking-identity)
   
 <br/>

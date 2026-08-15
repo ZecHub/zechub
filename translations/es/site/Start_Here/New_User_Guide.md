@@ -7,7 +7,7 @@
 ## TL;DR
 
 - **Compra ZEC** en un exchange compatible (Gemini, BitcoinVN, etc.)
-- **Configura una wallet blindada** (se recomiendan Zashi, YWallet o ZODL)
+- **Configura una wallet blindada** (se recomiendan Zodl, Zingo o Zkool)
 - **Retira** tu ZEC del exchange a tu wallet blindada
 - **Envía una transacción blindada** — tu primer pago privado en Zcash
 - **Únete a la comunidad** en el foro o Discord

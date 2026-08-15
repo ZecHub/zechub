@@ -56,7 +56,7 @@ Zcash 支持两种地址类型：
 
 ### Unified Addresses
 
-像 [Zashi](https://electriccoin.co/zashi/) 这样的现代 Zcash 钱包使用 **Unified Addresses**，将透明接收器和屏蔽接收器组合到一个地址中。这简化了用户体验，同时默认采用可用的最高隐私级别。
+像 [Zodl](https://zodl.com) 这样的现代 Zcash 钱包使用 **Unified Addresses**，将透明接收器和屏蔽接收器组合到一个地址中。这简化了用户体验，同时默认采用可用的最高隐私级别。
 
 ### 为什么隐私很重要
 
@@ -82,7 +82,7 @@ ShapeShift 平台允许用户通过完全去中心化的流程获取和交易 ZE
 - **Keplr**（适用于基于 Cosmos 的资产）
 - **兼容 WalletConnect 的钱包**
 
-由于你要兑换到或从 ZEC 兑换，请确保你已准备好一个兼容 Zcash 的钱包（例如 Zashi）来接收资金。
+由于你要兑换到或从 ZEC 兑换，请确保你已准备好一个兼容 Zcash 的钱包（例如 ZODL）来接收资金。
 
 ### 第 3 步：选择你的兑换交易对
 
@@ -98,7 +98,7 @@ ShapeShift 平台允许用户通过完全去中心化的流程获取和交易 ZE
 
 ### 第 6 步：屏蔽你的 ZEC
 
-当你的 ZEC 到账后，使用你的 Zcash 钱包中的 **shield** 功能（可在 Zashi 等钱包中使用）将资金转入屏蔽池。这样可以确保你的余额和后续交易保持完全私密。
+当你的 ZEC 到账后，使用你的 Zcash 钱包中的 **shield** 功能（可在 ZODL 等钱包中使用）将资金转入屏蔽池。这样可以确保你的余额和后续交易保持完全私密。
 
 ### 支持的跨链交易对
 
@@ -165,7 +165,7 @@ ShapeShift 与 Zcash 的集成代表了去中心化金融隐私向前迈出的�
 
 [Zcash 官方网站](https://z.cash/)
 
-[Zashi 钱包（由 Electric Coin Co. 推出）](https://electriccoin.co/zashi/)
+[Zodl 钱包](https://zodl.com)
 
 [ShapeShift DAO 治理（FOX Token）](https://shapeshift.com/fox-token)
 

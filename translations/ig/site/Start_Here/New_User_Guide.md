@@ -2,43 +2,43 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ntuziaka Onye Ọrụ Ọhụrụ Zcash
+# Zcash Nduzi Onye Ọrụ Ọhụrụ
 
 ## TL;DR
 
 - **Zụta ZEC** na mgbanwe a kwadoro (Gemini, BitcoinVN, wdg.)
-- ** Mepụta obere akpa echedoro** (Zashi, YWallet, ma ọ bụ ZODL na-atụ aro ya)
-- **Wepụ** ZEC gị site na mgbanwe ahụ gaa na obere akpa gị echedoro
-- ** Ziga azụmahịa echedoro **  ịkwụ ụgwọ nkeonwe mbụ gị na Zcash
-- **Jikọọ na obodo** na forum ma ọ bụ Discord
+- ** Tinye obere akpa ego echedoro** (Zodl, Zingo ma ọ bụ Zkool na-atụ aro ya)
+- **Wepụ** ZEC gị site na mgbanwe ahụ gaa n'akpa ego echedoro gị.
+- **Zipu azụmahịa echekwara**  ịkwụ ụgwọ nkeonwe mbụ gị na Zcash
+- ** Jikọọ obodo** na forum ma ọ bụ Discord
 
 ---
 
-Ọhụrụ na Zcash? Ntuziaka a ga-eduzi gị site na ịbanye dị ka onye ọrụ Zcash na onye nwe * ZEC *.
+Ọhụrụ na Zcash? Ntuziaka a ga-eduzi gị site n'ịbanye dịka onye ọrụ Zcash yana *ZEC* nwere.
 
 ---
 
 **Zụta ZEC**
 
-Iji jiri netwọkụ Zcash, ị ga-azụrịrị ego ya, *ZEC*.
+Iji jiri netwọkụ Zcash, ị ga-azụrịrị ego ya bụ *ZEC*.
 
-Ụzọ kachasị mfe iji nweta ZEC bụ ịzụta ya na Gemini](https://www.gemini.com/prices/zcash) ma ọ bụ [ọ bụla n'ime mgbanwe ndị a](https://zechub.wiki/using-zcash/custodial-exchanges).
+Ụzọ kachasị mfe iji nweta ZEC bụ site na: [zụta ya na Gemini.](https://www.gemini.com/prices/zcash) or [nke ọ bụla n'ime mgbanwe ndị a.](https://zechub.wiki/using-zcash/custodial-exchanges).
 
-Otu ihe dị mkpa ị ga-eburu n'uche bụ na ọ dịghị mkpa ka ị zụta 1 *ZEC* zuru ezu.
+Ihe dị mkpa ị ga-eburu n'uche bụ na ọ dịghị gị mkpa ịzụta 1 *ZEC* zuru ezu.
 
-*ZEC* bụ nke a ga-ekewa ekewa, ma ị nwere ike ịmalite site n'ịzụta nanị akụkụ dị nta nke mkpụrụ ego ahụ.
+*ZEC* bụ nke a ga-ekewa ekewa, ị nwere ike ịmalite site n'ịzụta naanị obere akụkụ ego ahụ.
 
 ---
 
 ** Mepụta obere akpa**
 
-Mgbe ịzụrụ ụfọdụ *ZEC*, ị nwere ike ịchọrọ ịkwaga ya na obere akpa Zcash. 
+Mgbe ị zụrụ ụfọdụ *ZEC*, ikekwe ịchọrọ ibugharị ya na obere akpa Zcash. 
 
-[Isiokwu a kọwara](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) ihe mere iwere *ZEC* n'akpa ji dị mkpa. 
+Nke a . [isiokwu a kọwara ihe mere o ji dị otú ahụ .](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) ihe mere iwere *ZEC* n'akpa ji dị mkpa. 
 
-Anyị na-atụ aro iji [akpa ego echedoro](https://zechub.wiki/wallets) n'ihi na obere akpa ndị a na-enye atụmatụ nzuzo nke na-eme ka *ZEC* bụrụ ihe pụrụ iche. 
+Anyị na-atụ aro iji otu n'ime ihe ndị a: [obere akpa e chebere echebe.](https://zechub.wiki/wallets) n'ihi na obere akpa ndị a na-enye ihe nzuzo nke mere ka *ZEC* bụrụ ihe pụrụ iche. 
 
-Nke a bụ vidiyo na-enyocha obere akpa ego ọgbara ọhụrụ:
+Nke a bụ vidiyo na-enyocha obere akpa ego ndị dị ugbu a:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -57,7 +57,7 @@ Nke a bụ vidiyo na-enyocha obere akpa ego ọgbara ọhụrụ:
 
 **Wepụ ZEC**
 
-Mgbe ị mepụtara obere akpa gị, ị ga-achọ ịdọrọ ZEC gị n'ime obere akpa ahụ. 
+Mgbe i mepụtara obere akpa gị, ị ga-achọ iwepụ ZEC gị n'ime obere akpa ahụ. 
 
 Nke a bụ nkuzi maka etu esi eme nke ahụ.
 
@@ -75,9 +75,9 @@ Nke a bụ nkuzi maka etu esi eme nke ahụ.
 
 ---
 
-** Zipu azụmahịa echekwara **
+** Ziga azụmahịa echekwara**
 
-Mgbe ị debere ụfọdụ ZEC n'ime obere akpa gị, ị dịla njikere izipu azụmahịa zuru oke, nkeonwe. Mmekọrịta echekwara bụ mgbanwe nke ZEC nke na-echebe nzuzo nke onye ọ bụla so na ya. Lee ụfọdụ ndụmọdụ bara uru mgbe ị na-eji ZEC echekwara.
+Mgbe ị debere ụfọdụ ZEC n'ime obere akpa gị, i dị njikere izipu ihe echekwara kpamkpam, azụmahịa nkeonwe. Ihe ekpuchi bụ mgbanwe nke ZEC na-echebe nzuzo onye ọ bụla so na ya. Lee ndụmọdụ ndị bara uru mgbe ị na-eji ZEC echebe.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -94,11 +94,11 @@ Mgbe ị debere ụfọdụ ZEC n'ime obere akpa gị, ị dịla njikere izipu 
 
 ** Jikọọ na forum**
 
-Zcash Community Forum bụ ebe ndị otu obodo Zcash na-atụle ihe niile metụtara Zcash. Anyị nwekwara sava esemokwu.
+Nzukọ Zcash Community bụ ebe ndị otu obodo Zcash na-atụle ihe niile metụtara Zcash. Anyị nwekwara sava esemokwu.
 
-[Zcash Community Forum](https://forum.zcashcommunity.com/) [Zcash Global](https://discord.gg/zcash).
+[Nzukọ Obodo Zcash Forum](https://forum.zcashcommunity.com/) | [Zcash Global](https://discord.gg/zcash).
 
-Obodo a na-anụ ọkụ n'obi ma na-anabata ndị ọhụrụ. Mgbe ụfọdụ mkparịta ụka nwere ike ịbụ teknụzụ, mana echegbula! Ọ bụrụ na ị nwere ajụjụ, ị nwere ike ịjụ.
+Obodo a nwere obi uto ma nabata ndi ohuru. Mgbe ụfọdụ mkparịta ụka pụrụ ịbụ nke teknụzụ, mana echegbula! Ọ bụrụ na ị nwetụrụ ajụjụ ọ bụla, i nwere ike ịjụ ya.
 
 <a href="">
     <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="/content-images/c1d40441-4336-4754-b3bf-5a746b19a9d5-6d2eca6cbf.webp" />
@@ -108,8 +108,8 @@ Obodo a na-anụ ọkụ n'obi ma na-anabata ndị ọhụrụ. Mgbe ụfọdụ
 
 ## Peeji ndị metụtara ya
 
-- [Gịnị bụ ZEC na Zcash](/start-here/what-is-zec-and-zcash)  Ghọta ihe ndị bụ́ isi tupu ị malite
-- [Ịzụta ZEC](/using-zcash/buying-zec)  Ndepụta zuru ezu nke mgbanwe ndị na-akwado iwepụ ego echekwara
-- [Akpa ego](/using-zcash/wallets)  Tụlee obere akpa Zcash niile site na njirimara na ikpo okwu
-- [Egwú Mmiri Ndị E Chebere](/using-zcash/shielded-pools)  Mụta ihe mere azụmahịa ndị e chebere ji dị mkpa
-- [Mmekọrịta](/using-zcash/transactions)  Otu esi eziga ma nata ZEC na nzuzo
+- [Gịnị bụ ZEC na Zcash?](/start-here/what-is-zec-and-zcash)  Mara ihe ndị dị mkpa tupu gị amalite ịmụ Baịbụl.
+- [Ịzụta ZEC](/using-zcash/buying-zec)  Ndepụta zuru ezu nke mgbanwe na-akwado iwepụ echekwara.
+- [Akpa ego](/using-zcash/wallets)  Tụlee obere akpa Zcash niile site na njirimara na ikpo okwu.
+- [Ọdọ Mmiri Ndị E Chebere Echiche Ha Na Ya](/using-zcash/shielded-pools)  Mụta ihe mere azụmahịa ndị e chebere ji dị mkpa
+- [Ihe ndị e mere eme](/using-zcash/transactions)  Otu esi eziga ma nata ZEC na nzuzo

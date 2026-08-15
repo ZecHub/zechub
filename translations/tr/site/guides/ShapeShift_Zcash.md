@@ -56,7 +56,7 @@ Kullanıcılar ZEC’i transparent ve shielded adresler arasında gönderebilir.
 
 ### Unified Address
 
-[Zashi](https://electriccoin.co/zashi/) gibi modern Zcash cüzdanları, hem transparent hem de shielded alıcıları tek bir adreste birleştiren **Unified Address** kullanır. Bu, mümkün olan en yüksek gizlilik düzeyini varsayılan hâle getirirken kullanıcı deneyimini basitleştirir.
+[Zodl](https://zodl.com) gibi modern Zcash cüzdanları, hem transparent hem de shielded alıcıları tek bir adreste birleştiren **Unified Address** kullanır. Bu, mümkün olan en yüksek gizlilik düzeyini varsayılan hâle getirirken kullanıcı deneyimini basitleştirir.
 
 ### Gizlilik Neden Önemlidir?
 
@@ -82,7 +82,7 @@ Uyumlu bir kendi kendine saklama cüzdanı bağlayın. ShapeShift, aşağıdakil
 - **Keplr** (Cosmos tabanlı varlıklar için)
 - **WalletConnect uyumlu cüzdanlar**
 
-ZEC’e takas yapıyor ya da ZEC’ten çıkıyorsanız, fonlarınızı almak için Zcash uyumlu bir cüzdanın (örneğin Zashi) hazır olduğundan emin olun.
+ZEC’e takas yapıyor ya da ZEC’ten çıkıyorsanız, fonlarınızı almak için Zcash uyumlu bir cüzdanın (örneğin ZODL) hazır olduğundan emin olun.
 
 ### Adım 3: Takas Çiftinizi Seçin
 
@@ -98,7 +98,7 @@ Takas etmek istediğiniz tutarı girin. ShapeShift, işlemi mevcut en iyi merkez
 
 ### Adım 6: ZEC’inizi Shield Edin
 
-ZEC’iniz ulaştıktan sonra, fonları shielded havuza taşımak için Zcash cüzdanınızdaki **shield** işlevini (Zashi gibi cüzdanlarda mevcuttur) kullanın. Bu, bakiyenizin ve gelecekteki işlemlerinizin tamamen gizli kalmasını sağlar.
+ZEC’iniz ulaştıktan sonra, fonları shielded havuza taşımak için Zcash cüzdanınızdaki **shield** işlevini (Zodl gibi cüzdanlarda mevcuttur) kullanın. Bu, bakiyenizin ve gelecekteki işlemlerinizin tamamen gizli kalmasını sağlar.
 
 ### Desteklenen Zincirler Arası Çiftler
 
@@ -165,7 +165,7 @@ ShapeShift ve Zcash entegrasyonu, merkeziyetsiz finansta gizlilik açısından a
 
 [Zcash Resmî Web Sitesi](https://z.cash/)
 
-[Zashi Cüzdanı (Electric Coin Co. tarafından)](https://electriccoin.co/zashi/)
+[Zodl Cüzdanı](https://zodl.com)
 
 [ShapeShift DAO Yönetişimi (FOX Token)](https://shapeshift.com/fox-token)
 

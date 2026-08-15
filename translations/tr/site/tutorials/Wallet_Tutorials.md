@@ -7,7 +7,7 @@
 Aşağıda, ZEC kullanmaya başlamanıza yardımcı olabilecek cüzdan eğitimlerinin bir listesi bulunmaktadır.
 
 
-- Zashi Wallet 
+- Zodl Wallet
 
 [![Video Küçük Resmi](/content-images/hqdefault-a4a2a5de7f.webp)](https://www.youtube.com/watch?v=G92zBIr-Wms)
 

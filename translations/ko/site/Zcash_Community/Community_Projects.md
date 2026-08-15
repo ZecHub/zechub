@@ -102,7 +102,7 @@ Zcash 트랜잭션에 원활하고 안전하게 접근할 수 있게 해주는 D
 [포럼](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 
 ### ZODL
-Shielded Labs의 대표 Zcash 지갑입니다(이전 이름은 Zashi). iOS와 Android에서 사용할 수 있습니다. 실드 ZEC와 NU7 코인 보유자 투표를 지원합니다.  
+ZODL의 대표 Zcash 지갑입니다(이전 이름은 Zashi). iOS와 Android에서 사용할 수 있습니다. 실드 ZEC와 NU7 코인 보유자 투표를 지원합니다.  
 [방문하기](https://zodl.app/)
 
 ### Noir Wallet

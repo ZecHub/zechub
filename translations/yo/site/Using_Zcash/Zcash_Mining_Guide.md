@@ -25,9 +25,9 @@ This guide focuses on mining Zcash using personal hardware (e.g., a home PC with
   - Fun awọn GPU: lolMiner (o ṣe atilẹyin AMD / NVIDIA), GMiner, tabi miniZ (ti o ni idojukọ lori NVIDYA). Ṣe igbasilẹ lati ọdọ GitHub repositories osise (fun apẹẹrẹ, github.com/Lolliedieb/lolMiner-releases)
   - Fun ASICs: Lo awọn olupese ká itumọ ti o wa ni inu firmware / dasibodu (fun apẹẹrẹ, Bitmain ká ayelujara wiwo).
 - **Wọ́léètì:** Wọọlì Zcash láti gba owó. Àbájáde rẹ̀ ni pé:
-  - Ti a fi bo (ti ara ẹni): Zashi Wallet, Zingo (Mobile/Desktop) YWallet (mobile/desktop).
+  - Shielded (private): Zodl Wallet, Zingo (Mobile/Desktop) YWallet (mobile/desktop).
   - Àwòdì tí ó ṣe kedere (ó rọrùn jùlọ ṣùgbọ́n kò ní ìpamọ̀ tó pọ̀): Edge Wallet, Zecwallet Lite.
-  - Ṣe igbasilẹ lati [awọn apamọwọ](https://zechub.wiki/wallets). Ṣẹda adirẹsi ti o ni aabo (ti bẹrẹ pẹlu 'zs') fun asiri bi ikọkọ ba ṣe atilẹyin rẹ.
+  - Ṣe igbasilẹ lati: [àwọn àpò owó](https://zechub.wiki/wallets). Ṣẹda adirẹsi ti o ni aabo (ti bẹrẹ pẹlu 'zs') fun asiri bi ikọkọ ba ṣe atilẹyin rẹ.
 
 ### Àwọn mìíràn
 - Omi-ọmọ: Ṣiro awọn idiyele. Awọn GPU lo 150-300W fun kaadi kan; ASICs 1000W+.
@@ -36,7 +36,7 @@ This guide focuses on mining Zcash using personal hardware (e.g., a home PC with
 ## Àwọn Ohun Tó Lè Mú Kí O Di Òṣìṣẹ́ Iwakùsà Kan - Ìtọ́ni Nípa Bí Wọ́n Ṣe Ń Ṣiwọ́ Pọ̀ síbi tí wọ́n Ti Ń Wa Irin-Iṣẹ́
 
 ### Igbesẹ 1: Ṣeto Wọ́lìtì Zcash Rẹ
-1. Ṣe igbasilẹ ki o fi apamọwọ kan sori ẹrọ lati oju opo wẹẹbu osise Zcash [awọn apo-owo](https://zechub.wiki/wallets).
+1. Ṣe igbasilẹ ki o fi apamọwọ kan sori ẹrọ lati oju opo wẹẹbu osise Zcash [àwọn àpò owó](https://zechub.wiki/wallets).
 2. Ṣẹda apamọwọ tuntun ki o ṣe afẹyinti gbolohun ọrọ irugbin rẹ ni aabo.
 3. Ṣẹda adirẹsi gbigba (ti o dara julọ fun aabo aṣiri). Kọ ọ silẹ, gẹgẹbi: `zs1exampleaddress...`.
 4. Bí o bá lo adirẹsi tí ó ṣe kedere (tí yóò bẹ̀rẹ̀ pẹ̀lú 't'), èyí rọrùn jùlọ ṣùgbọ́n kò ní fúnni láyè ìpamọ́.
@@ -58,7 +58,7 @@ Awọn adagun iwakusa pin iṣẹ ati awọn ẹbun ipin ti o da lori hashrate r
 **Awọn apoti ti a ṣe iṣeduro (Da lori Hashrate, Awọn idiyele ati awọn atunyẹwo):**
 - **2Miners (zec.2miners.com)**: 1% owó, PPLNS ìsanwó, atilẹyin GPU/ASIC/NiceHash. High hashrate (~1.17 GSol/s), gbẹkẹle awọn olupin .
 - **F2Pool (zec.f2pool.com)**: 2% owó, PPS+ ìsanwó, atilẹyin owo-owo pupọ. Àgbá ńlá (~2.57 GSol/s).
-- **ViaBTC (zec.viabtc.com)**: 2% owó-ìdílé (PPS+), àtẹ tí ó rọrùn láti lò, àwọn séràfẹẹsù gbogbo ayé.
+- **ViaBTC (zec.viabtc.com)**: 2% owó-ìdílé (PPS+), àtẹ tí ó rọrùn láti lò, àwọn séràfẹẹsù kárí ayé.
 - **AntPool (zec.antpool.com)**: 1% owó, láti Bitmain, ó dára fún ASICs (~494 MSol/s).
 - **Sovright (mining.sovright.com)**: A Zcash pool built on Stratum V2, currently running as a public testnet. No live ZEC payouts yet, so treat it as a way to test your setup rather than an earnings source. Wo abala ti o wa ni isalẹ fun awọn alaye. O le lo Bitcoin lati ṣe idanwo rẹ ati ki o gba owo-owo nipasẹ lilo wọn bi ohun elo kan ninu iṣowo iṣura tabi iṣẹ ṣiṣe titaja.
 - Àwọn míràn: Kryptex Pool, Luxor (wo poolwatch.io/coin/zcash fún àwọn ìṣirò ojú-ọjọ́).
@@ -142,8 +142,8 @@ Eyi jẹ amayederun fun awọn oniṣẹ apapọ, kii ṣe olutọpa kọọkan.
 ## Àwọn Ìmọ̀ràn àti Ohun Tó Yẹ Kó O Máa Ṣe
 - **Owo-ori:** Lo awọn iṣiro bi whattomine.com/coins/166-zec-equihash Àpẹẹrẹ: RTX 3060 (~ 300 Sol / s) n gba ~ 0.001 ZEC fun ọjọ kan ni $ 50 / ZEC, din owo ina mọnamọna ti o to $ 0.50.
 - ** Ìpamọ́:** Lo àwọn ibi ìwẹ̀ tí a fi ààbò bo bí ó bá wà; yẹra fún lílo àdírésì padà.
-- ** Ààbò:** Lo àwọn ọ̀rọ̀-ìfipamọ́ tó lágbára; jẹ ki 2FA ṣiṣẹ lórí ìsopọ/awọn àpò. Má ṣe pínpín kókó ìdánimọ̀ rẹ.
+- ** Ààbò:** Lo àwọn ọ̀rọ̀-ìfipamọ́ tó lágbára; jẹ kí 2FA ṣiṣẹ lórí ìsopọ/àwọn àpò. Má ṣe pínpín kókó ìdánimọ̀ rẹ.
 - **Iṣakoso iṣoro:** Ti ko ba si awọn pinpin, ṣayẹwo firewall, antivirus, tabi ṣiṣi aṣiṣe. Darapọ mọ apejọ bi forum.zcashcommunity.com tabi Reddit r/zec .
 - **Ohun míì:** Bí kò bá lówó, ronú nípa ìwakùsà àwọsánmà tàbí gbígbé owó mìíràn.
-- **Àmì àyíká:** Iṣẹ́ ìwakùsà máa ń lo agbára; tó bá ṣeé ṣe, ẹ wá àwọn ohun àmúṣọrọ̀ tí a lè mú padà bọ̀ sípò lò.
+- **Àmì àyíká:** Iṣẹ́ ìwakùsà máa ń lo agbára; tó bá ṣeé ṣe, ẹ wá àwọn ohun àmúṣọrọ̀ tí a lè mú padà bọ̀ sípò.
 - ** Awọn imudojuiwọn:** Zcash le dagbasoke (fun apẹẹrẹ, iyipada PoS ti o ṣeeṣe); ṣayẹwo z.cash fun awọn iroyin.

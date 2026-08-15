@@ -1,83 +1,88 @@
+---
 <a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Tor_and_I2P.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="पेज संपादित करें"/>
 </a>
 
 
 # गोपनीयता क्यों महत्वपूर्ण है
 
-डिजिटल युग में, अपनी [privacy](https://www.privacyguides.org/en/) की सुरक्षा करना लगातार अधिक महत्वपूर्ण हो गया है। जबकि कुछ लोग गोपनीयता को एक खोया हुआ मामला मान सकते हैं, ऐसा नहीं है। आपकी गोपनीयता दांव पर है और यह चिंता का विषय होना चाहिए। गोपनीयता का महत्वपूर्ण मूल्य है क्योंकि इसका संबंध शक्ति से है, और यह सुनिश्चित करना अत्यंत आवश्यक है कि उस शक्ति का उपयोग जिम्मेदारी से किया जाए।
+डिजिटल युग में, अपनी [गोपनीयता](https://www.privacyguides.org/en/) की सुरक्षा करना लगातार अधिक महत्वपूर्ण हो गया है। जबकि कुछ लोग गोपनीयता को एक खोया हुआ उद्देश्य मान सकते हैं, ऐसा नहीं है। आपकी गोपनीयता दांव पर है और यह चिंता का विषय होना चाहिए। गोपनीयता का महत्वपूर्ण मूल्य है क्योंकि इसका संबंध शक्ति से है, और यह सुनिश्चित करना बेहद जरूरी है कि उस शक्ति का उपयोग जिम्मेदारी से किया जाए।
 
 ## Tor और I2P तकनीकें
 
 ## Tor
 
-[Tor](https://www.privacyguides.org/en/tor/?h=tor) एक proxy tool है जो applications के लिए connections स्थापित करने हेतु Tor network का उपयोग करता है। Torbot यह कार्य उनके traffic को Tor के माध्यम से route करके करता है, जिससे इन applications के लिए [privacy and anonymity](https://www.torproject.org/) बेहतर होती है।
+[Tor](https://www.privacyguides.org/en/tor/?h=tor) एक प्रॉक्सी टूल है जो अनुप्रयोगों के लिए कनेक्शन स्थापित करने हेतु Tor नेटवर्क का उपयोग करता है। Torbot यह काम उनके ट्रैफिक को Tor के माध्यम से रूट करके करता है, जिससे इन अनुप्रयोगों के लिए [गोपनीयता और गुमनामी](https://www.torproject.org/) बढ़ती है।
 
-## I2P Network
+## I2P नेटवर्क
 
-I2P network, जिसे [Invisible Internet Project](https://geti2p.net/en/about/intro) के नाम से भी जाना जाता है, एक पूर्णतः encrypted peer-to-peer overlay network है। यह सुनिश्चित करता है कि messages की सामग्री, स्रोत और गंतव्य पर्यवेक्षकों से छिपे रहें। दूसरे शब्दों में, कोई भी traffic की उत्पत्ति या गंतव्य, या प्रसारित किए जा रहे messages की वास्तविक सामग्री नहीं देख सकता। I2P में उपयोग किया गया encryption उसके उपयोगकर्ताओं के लिए privacy और anonymity का उच्च स्तर सुनिश्चित करता है।
+I2P नेटवर्क, जिसे [Invisible Internet Project](https://geti2p.net/en/about/intro) के नाम से भी जाना जाता है, एक पूरी तरह एन्क्रिप्टेड peer-to-peer ओवरले नेटवर्क है। यह सुनिश्चित करता है कि संदेशों की सामग्री, स्रोत और गंतव्य पर्यवेक्षकों से छिपे रहें। दूसरे शब्दों में, कोई भी ट्रैफिक की उत्पत्ति या गंतव्य, या प्रेषित किए जा रहे संदेशों की वास्तविक सामग्री नहीं देख सकता। I2P में उपयोग किया गया एन्क्रिप्शन अपने उपयोगकर्ताओं के लिए उच्च स्तर की गोपनीयता और गुमनामी सुनिश्चित करता है।
 
-## Tor और I2P में कुछ समान विशेषताएँ हैं, लेकिन महत्वपूर्ण अंतर भी हैं।
+### I2P स्थापित करना
 
-Tor और I2P दोनों decentralized और anonymous peer-to-peer networks हैं, लेकिन I2P, Tor की तुलना में अधिक उच्च स्तर की security प्रदान करता है। हालांकि, I2P मुख्य रूप से अपने network के भीतर email, chat, और torrenting जैसी सेवाओं तक पहुँचने के लिए बनाया गया है और इसका उपयोग सामान्य internet तक पहुँचने के लिए नहीं किया जा सकता। दूसरी ओर, Tor उपयोगकर्ताओं को I2P की तरह deep web तक पहुँचने की अनुमति देता है, लेकिन यह surface web पर websites तक पहुँचने के लिए एक सामान्य browser की तरह भी काम करता है।
+इसके दो इम्प्लीमेंटेशन हैं। मूल [Java I2P](https://geti2p.net/en/download) Windows, macOS, Linux और Android पर चलता है। C++ में लिखा गया [i2pd](https://i2pd.website/) अधिक हल्का है और सर्वर या कम-शक्ति वाली मशीन पर यही सामान्य विकल्प होता है।
 
-*नोट: Tor और I2P की समानताओं और भिन्नताओं के बारे में अधिक जानकारी के लिए [यहाँ](https://geti2p.net/en/comparison/tor) जाएँ*
+एक बार चलने के बाद, I2P `127.0.0.1:7657` पर एक लोकल कंसोल और `127.0.0.1:4444` (HTTP) तथा `127.0.0.1:4447` (SOCKS) पर प्रॉक्सी उपलब्ध कराता है। पहली बार शुरू होने पर इसे कई मिनट लग सकते हैं: I2P को कुछ भी काम करने से पहले नेटवर्क के माध्यम से टनल बनानी पड़ती हैं, और जितनी देर यह ऑनलाइन रहता है, उतनी ही तेजी से काम करने लगता है।
 
-## Smartphone पर Ywallet के साथ Tor को एकीकृत करना
+### Zcash के साथ I2P का उपयोग
 
-Orbot एक निःशुल्क virtual private network (VPN) है, जिसे smartphones के लिए डिज़ाइन किया गया है और जो आपके device की सभी applications के traffic को Tor network के माध्यम से भेजता है।
+ध्यान रखें कि **वर्तमान में कोई भी Zcash नोड मूल रूप से I2P नहीं बोलता।** Zebra में I2P समर्थन नहीं है, और zcashd में भी नहीं था। यदि आपको कोई मार्गदर्शिका यह दावा करती दिखे कि वह I2P पर Zcash नोड चलाती है, तो वह उस चीज़ का वर्णन कर रही है जो यह सॉफ़्टवेयर करता ही नहीं है।
 
-Tor को Zcash Wallet *(Ywallet)* से जोड़ने के लिए नीचे दिए गए निर्देशों का पालन करें:
+यहाँ I2P वास्तव में जिस काम के लिए उपयोगी है, वह wallet के आसपास की चीजें हैं: किसी साइट, फ़ोरम या सेवा तक अपनी पहचान उजागर किए बिना पहुँचना। wallet कनेक्शन को स्वयं गुमनाम बनाने के लिए आज Tor व्यावहारिक विकल्प है, और नीचे के अनुभाग इसी को कवर करते हैं।
 
-1.  App store से *Orbot* डाउनलोड और install करें।
+## Tor और I2P में कुछ समान विशेषताएँ हैं, लेकिन इनके बीच महत्वपूर्ण अंतर भी हैं। 
 
-2.  Installation के बाद, एक greetings message दिखाई देगा। *Orbot* के home page पर जाएँ और *'Tor Enabled Apps'* पर click करें।              
+Tor और I2P दोनों विकेंद्रीकृत और गुमनाम peer-to-peer नेटवर्क हैं, लेकिन Tor की तुलना में I2P अधिक उच्च स्तर की सुरक्षा प्रदान करता है। हालांकि, I2P मुख्य रूप से अपने नेटवर्क के भीतर email, chat और torrenting जैसी सेवाओं तक पहुँचने के लिए बनाया गया है और इसे सामान्य इंटरनेट तक पहुँचने के लिए उपयोग नहीं किया जा सकता। दूसरी ओर, Tor उपयोगकर्ताओं को I2P की तरह deep web तक पहुँचने देता है, लेकिन यह surface web की वेबसाइटों तक पहुँचने के लिए एक सामान्य ब्राउज़र की तरह भी काम करता है।
 
-3. इससे स्क्रीन पर एक page खुलेगा जिसमें Tor-compatible applications दिखाई जाएँगी। *Ywallet* App को खोजें और सुनिश्चित करें कि वह selected है।
+*नोट: Tor और I2P की समानताओं और अंतरों के बारे में अधिक जानकारी के लिए [यहाँ](https://geti2p.net/en/comparison/tor) जाएँ।*
 
-4. VPN सेट up करने के लिए एक connection request दिखाई देगी, जो *Orbot* को network traffic की निगरानी करने की अनुमति देगी। यह permission स्वीकृत होने के बाद *Orbot* initialize हो जाएगा।
+## Orbot के साथ मोबाइल wallet को Tor के माध्यम से रूट करना
 
-5. Taskbar या Orbot homepage पर जाँच करें कि Tor चल रहा है या नहीं; इसकी पुष्टि तब होती है जब आपको 'Connected to the Tor network' दिखाई देता है।
+Orbot स्मार्टफ़ोन के लिए एक बिना-शुल्क virtual private network (VPN) है, जो आपके डिवाइस की सभी applications के ट्रैफिक को Tor नेटवर्क के माध्यम से भेजता है।
 
-* Video tutorial के लिए [यहाँ](https://drive.google.com/file/d/12ODTLrjgSzYFeAOTrv-P9LvfBVOvrSXK/view?usp=sharing) देखें
+Zcash wallet को Tor के माध्यम से रूट करने के लिए इन निर्देशों का पालन करें। ध्यान दें कि Ywallet, जिसका उपयोग इस मार्गदर्शिका के पुराने संस्करणों में किया गया था, अब मेंटेन नहीं किया जाता और Ironwood के बाद नेटवर्क का अनुसरण नहीं करेगा, इसलिए [Wallets](/using-zcash/wallets) पेज से कोई मेंटेन किया गया wallet चुनें।
 
-*नोट: यदि आपके mobile network द्वारा Tor block किया गया है, तो आप connect करने के वैकल्पिक तरीके के रूप में Bridge Server का उपयोग कर सकते हैं।*
+1.  ऐप स्टोर से *Orbot* डाउनलोड करें और इंस्टॉल करें।
+
+2.  इंस्टॉलेशन के बाद, एक स्वागत संदेश दिखाई देगा। *Orbot* के होम पेज पर जाएँ और *'Tor Enabled Apps'* पर क्लिक करें।              
+
+3. इससे स्क्रीन पर एक पेज खुलेगा जिसमें Tor-संगत applications दिखाई देंगी। सूची में अपना Zcash wallet खोजें और सुनिश्चित करें कि वह चयनित है।
+
+4. VPN सेट अप करने के लिए एक कनेक्शन अनुरोध दिखाई देगा, जो *Orbot* को नेटवर्क ट्रैफिक की निगरानी करने की अनुमति देगा। यह अनुमति स्वीकृत होने के बाद *Orbot* प्रारंभ हो जाएगा। 
+
+5. यह सत्यापित करने के लिए कि Tor चल रहा है, taskbar या Orbot होमपेज देखें; इसकी पुष्टि तब होती है जब आपको 'Connected to the Tor network' दिखाई देता है।
+
+*नोट: यदि आपके मोबाइल नेटवर्क द्वारा Tor अवरुद्ध है, तो आप कनेक्ट करने के वैकल्पिक तरीके के रूप में Bridge Server का उपयोग कर सकते हैं।*
 
 
-## PC/Desktop पर Torbot के साथ Zcash wallet कैसे सेट up करें
+## PC या डेस्कटॉप पर Tor स्थापित करना
 
-## Zcash में Tor support?
+* Tor browser आधिकारिक वेबसाइट से डाउनलोड किया जा सकता है, आप [यहाँ](https://www.torproject.org/download/) लिंक खोल सकते हैं।
 
-* Tor browser को आधिकारिक website से डाउनलोड किया जा सकता है, आप [यहाँ](https://www.torproject.org/download/) लिंक देख सकते हैं।
-
- Tor install करने का सबसे सुविधाजनक तरीका Tor Browser Bundle के माध्यम से है। यदि आप headless installations को प्राथमिकता देते हैं, तो आप अलग से Tor daemon install कर सकते हैं। 
+ Tor स्थापित करने का सबसे सुविधाजनक तरीका Tor Browser Bundle के माध्यम से है। यदि आप headless इंस्टॉलेशन पसंद करते हैं, तो आप Tor daemon को अलग से इंस्टॉल कर सकते हैं। 
 
 *नोट: डिफ़ॉल्ट रूप से, Tor Browser bundle tcp/9150 पर एक SOCKS listener उपलब्ध कराता है और Tor daemon tcp/9050 पर SOCKS listener उपलब्ध कराता है।*
 
-* Tor Project द्वारा प्रदान किए गए अपने operating system के लिए विशिष्ट installation [instructions](https://support.torproject.org/apt/) देखें।
+* Tor Project द्वारा प्रदान किए गए अपने ऑपरेटिंग सिस्टम-विशिष्ट इंस्टॉलेशन [निर्देशों](https://support.torproject.org/apt/) को देखें।
 
-## Zcashd wallet install करें
+## Tor पर एक नोड चलाना
 
-Zcashd आधिकारिक linux-based full-node wallet है, जिसे Electric Coin Company के core developers द्वारा update और maintain किया जाता है। यह उन उपयोगकर्ताओं के लिए बनाया गया है जो Zcash transactions को mine और validate करना चाहते हैं, साथ ही Zcash भेजना और प्राप्त करना भी चाहते हैं।
+यह वह हिस्सा है जिसमें सबसे अधिक बदलाव आया है, और ईमानदार उत्तर यह है कि फिलहाल यह पहले की तुलना में अधिक कठिन है।
 
-* Zcashd Wallet डाउनलोड करने के लिए आधिकारिक website [यहाँ](https://electriccoin.co/zcashd/) उपलब्ध है। 
+**zcashd अब नहीं रहा।** इसका समर्थन समाप्त हो गया और यह 18 जुलाई 2026 को ब्लॉक 3,417,100 पर रुक गया। यह फिर शुरू नहीं होगा, इसका डाउनलोड पेज 404 लौटाता है, और apt repository अब उपलब्ध नहीं कराई जाती। कोई भी निर्देश जो आपको `zcashd -proxy=127.0.0.1:9050` चलाने को कहता है, अब किसी भी चीज़ पर लागू नहीं होता।
 
-* Wallet install करें: Zcash wallet developers द्वारा प्रदान किया गया Tutorial video [यहाँ](https://www.youtube.com/watch?v=hTKL0jPu7X0) उपलब्ध है।
+**Zebra भी अभी यह नहीं कर सकता।** Zebra ही मेंटेन किया जाने वाला नोड है, और उसके नेटवर्क crate में Tor के लिए isolated-connection code मौजूद है, लेकिन यह फीचर `zebra-network/Cargo.toml` में comment out किया गया है:
 
-##  Zcashd को Tor पर चलाएँ
+```
+# tor = ["arti-client", "tor-rtcompat"]
+```
 
-* Zcashd को Tor SOCKS proxy का उपयोग करने के लिए configure करने हेतु, आप daemon command में -proxy command line argument जोड़ सकते हैं।
+crate का documentation भी यही बात स्पष्ट रूप से कहता है: *"Tor connections are currently disabled until `arti-client`'s dependency `x25519-dalek v1.2.0` is updated."* `connect_isolated_tor` फ़ंक्शन भी इसके साथ comment out किया गया है। इसलिए आज Tor पर Zcash नोड चलाने का कोई समर्थित तरीका नहीं है।
 
- उदाहरण के लिए:
+यदि आपको अभी नोड-स्तरीय गुमनामी चाहिए, तो व्यवहार्य तरीका यह है कि पूरे मशीन को ऑपरेटिंग-सिस्टम स्तर पर Tor या VPN के पीछे रखा जाए, न कि स्वयं नोड को कॉन्फ़िगर किया जाए। इससे आपकी नेटवर्क लोकेशन सुरक्षित रहती है, बिना उन नोड सुविधाओं पर निर्भर हुए जो अभी बनी ही नहीं हैं।
 
-  $ zcashd -proxy=127.0.0.1:9050
-      
-वैकल्पिक रूप से, zcash.conf file में निम्नलिखित line जोड़ें:
+### आज भी आप क्या कर सकते हैं
 
-  proxy=127.0.0.1:9050
-
-Configuration changes को प्रभावी करने के लिए zcashd को restart करना उचित है।
-
-ध्यान दें कि यह मानकर चला गया है कि Tor daemon का उपयोग किया जा रहा है। यदि Tor Browser Bundle का उपयोग किया जा रहा है, तो 9050 को 9150 से बदलें।
-
-इसके अतिरिक्त, आप -listenonion command line argument भी जोड़ सकते हैं ताकि daemon एक .onion address उत्पन्न करे, जिस पर आपका node पहुँचा जा सके।
+- **मोबाइल पर Orbot के साथ अपने wallet को Tor के माध्यम से रूट करें**, जैसा ऊपर बताया गया है। अधिकांश लोगों के लिए यही व्यावहारिक विकल्प है, और यह उस lightwalletd सर्वर से आपका IP छिपाता है जिससे आपका wallet बात करता है
+- **Tor Browser का उपयोग करें** block explorers, forums और किसी भी अन्य चीज़ के लिए जहाँ आप अपने पते के आधार पर लिंक नहीं होना चाहेंगे
+- **याद रखें कि Tor क्या नहीं छिपाता।** यह आपकी नेटवर्क लोकेशन को गुमनाम बनाता है, आपकी on-chain गतिविधि को नहीं। किसी transparent address से भेजना अब भी सार्वजनिक है, और shielded pools के बीच value का आना-जाना अब भी राशि प्रकाशित करता है। क्या दिखाई देता रहता है, यह जानने के लिए [Shielded Pools](/using-zcash/shielded-pools) देखें

@@ -64,8 +64,7 @@
 </div>
 
 
----
-Ось навчальне відео про те, як купити ZEC на Coinbase і надіслати їх у Zashi.
+Ось інструкція про те, як купити ZEC на Coinbase і надіслати його до Zodl.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

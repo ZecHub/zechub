@@ -103,7 +103,7 @@ Discord-бот, що забезпечує безперешкодний і без
 [Відвідати](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 
 ### ZODL
-Флагманський гаманець Zcash від Shielded Labs (раніше Zashi). Доступний на iOS і Android. Підтримує shielded ZEC і голосування власників монет NU7.  
+Флагманський гаманець Zcash від ZODL (раніше Zashi). Доступний на iOS і Android. Підтримує shielded ZEC і голосування власників монет NU7.  
 [Відвідати](https://zodl.app/)
 
 ### Noir Wallet

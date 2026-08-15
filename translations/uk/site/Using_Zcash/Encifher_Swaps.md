@@ -50,8 +50,8 @@
 
 ---
 
-###  Крок 3: Підготуйте свій гаманець Zashi  
-Завантажте [**Zashi**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn), офіційний гаманець Zcash від Electric Coin Co. Скопіюйте свій **Unified Address** з вкладки Receive — він підтримує як прозорі, так і захищені ZEC. Перш ніж продовжити, надійно збережіть свою seed-фразу.  
+###  Крок 3: Підготуйте свій гаманець Zodl  
+Завантажте [**Zodl**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn), офіційний гаманець Zcash від Electric Coin Co. Скопіюйте свій **Unified Address** з вкладки Receive — він підтримує як прозорі, так і захищені ZEC. Перш ніж продовжити, надійно збережіть свою seed-фразу.
 
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)
@@ -60,7 +60,7 @@
 ---
 
 ###  Крок 4: Обміняйте приватно  
-Повернувшись до **encrypt.trade**, перейдіть до **Swap**. Виберіть **eSOL/eUSDC -> ZEC**, вставте свою адресу Zashi, перегляньте деталі та підтвердьте.
+Повернувшись до **encrypt.trade**, перейдіть до **Swap**. Виберіть **eSOL/eUSDC -> ZEC**, вставте свою адресу Zodl, перегляньте деталі та підтвердьте.
 
 
 
@@ -72,7 +72,7 @@
 ![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
-Механізм **NEAR Intents** автоматично виконує міжмережеву маршрутизацію — доставляючи **ZEC** безпосередньо до вашого гаманця Zashi за лічені секунди.  
+Механізм **NEAR Intents** автоматично виконує міжмережеву маршрутизацію — доставляючи **ZEC** безпосередньо до вашого гаманця Zodl за лічені секунди.
 
 
 
@@ -81,7 +81,7 @@
 ---
 
 ###  Крок 5: Екрануйте та зберігайте приватність  
-Після отримання скористайтеся опцією **Shield** у Zashi, щоб перемістити свої ZEC до захищеного пулу для максимальної приватності. Завжди перевіряйте посилання, уникайте повторного використання адрес і спочатку тестуйте невеликі суми.  
+Після отримання скористайтеся опцією **Shield** у ZODL, щоб перемістити свої ZEC до захищеного пулу для максимальної приватності. Завжди перевіряйте посилання, уникайте повторного використання адрес і спочатку тестуйте невеликі суми.
 
 ---
 

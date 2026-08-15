@@ -24,8 +24,8 @@ Zcash (ZEC) एक privacy-focused cryptocurrency है जो माइनि�
   - GPUs के लिए: lolMiner (AMD/NVIDIA को support करता है), GMiner, या miniZ (NVIDIA-focused)। आधिकारिक GitHub repos से download करें (जैसे github.com/Lolliedieb/lolMiner-releases)।
   - ASICs के लिए: निर्माता के built-in firmware/dashboard का उपयोग करें (जैसे Bitmain का web interface)।
 - **Wallet:** payouts प्राप्त करने के लिए एक Zcash wallet। अनुशंसित:
-  - Shielded (private): Zashi Wallet, Zingo (Mobile/Desktop) YWallet (mobile/desktop)।
-  - Transparent (आसान लेकिन कम private): Edge Wallet, Zecwallet Lite।
+  - Shielded (private): ZODL Wallet, Zingo (Mobile/Desktop) YWallet (mobile/desktop)।
+  - Transparent (आसान लेकिन कम private): Edge Wallet, ZecWallet Lite।
   - [wallets](https://zechub.wiki/wallets) से download करें। privacy के लिए यदि pool support करता हो तो एक shielded address (जो 'zs' से शुरू होता है) generate करें।
 
 ### अन्य

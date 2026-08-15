@@ -64,8 +64,7 @@
 </div>
 
 
----
-यहाँ Coinbase पर ZEC खरीदने और उसे Zashi पर भेजने का एक tutorial है।
+यहाँ Coinbase पर ZEC खरीदने और उसे Zodl पर भेजने का एक tutorial है।
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

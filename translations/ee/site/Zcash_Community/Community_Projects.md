@@ -102,7 +102,7 @@ Discord bot si naa mɔnukpɔkpɔ si me kuxi aɖeke mele o eye wòle dedie na Zca
 [Sasrã](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 
 ### ZODL
-Zcash gakotoku si nye alɔdzedɔwɔƒe si tso Shielded Labs (si woyɔna tsã be Zashi). Woate ŋu akpɔe le iOS kple Android dzi. Doa alɔ ZEC kple NU7 gakuxɔlawo ƒe akɔdada si wokpɔ ta na. 
+Zcash gakotoku si nye flagship tso ZODL (si woyɔna tsã be Zashi). Woate ŋu akpɔe le iOS kple Android dzi. Doa alɔ ZEC kple NU7 gakuxɔlawo ƒe akɔdada si wokpɔ ta na. 
 [Sasrã](https://zodl.app/)
 
 ### Noir ƒe Gakotoku
