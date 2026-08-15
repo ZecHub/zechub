@@ -11,7 +11,7 @@
   "Privacy_Tools/Penumbra.md": "Kivuli cha Nuru (penumbra)",
   "Privacy_Tools/Secure_Messengers.md": "Wajumbe Wenye Kutegemeka",
   "Privacy_Tools/Shade_Protocol.md": "Shade Itifaki",
-  "Privacy_Tools/Tor_and_I2P.md": "Kwa Nini Faragha Ni ya Maana",
+  "Privacy_Tools/Tor_and_I2P.md": "Kwa Nini Ni Muhimu Kuweka Faragha Yako Yenyewe Hasa?",
   "Privacy_Tools/VPN_and_DVPN.md": "VPN & dVPN",
   "Privacy_Tools/Web_Browsers.md": "Vivinjari vya Mtandao",
   "Research/Dash_Zcash_Orchard_Integration.md": "Dash Ushirikiano wa Zcash Orchard",
@@ -30,7 +30,7 @@
   "Start_Here/Developer_Resources.md": "Watengenezaji Resources",
   "Start_Here/Development_Fund.md": "Zcash Mfuko wa Maendeleo",
   "Start_Here/Network_Upgrades.md": "Zcash Network Upgrades (Ubadilishaji wa Mtandao)",
-  "Start_Here/New_User_Guide.md": "Zcash Mwongozo New User",
+  "Start_Here/New_User_Guide.md": "Zcash Mwongozo wa Mtumiaji Mpya",
   "Start_Here/Using_This_Wiki.md": "Kutumia Wiki hii",
   "Start_Here/What_is_ZEC_and_Zcash.md": "Zcash Msingi",
   "Start_Here/What_is_ZecHub.md": "ZecHub ni nini?",
@@ -194,7 +194,7 @@
   "tutorials/Exchanges.md": "Kubadilishana Zcash",
   "tutorials/Full_Node_Tutorials.md": "Full Node Mafunzo",
   "tutorials/Using_Zcash.md": "Tutorials kwa ajili ya kutumia Zcash",
-  "tutorials/Wallet_Tutorials.md": "Zcash Wallet Mafunzo",
+  "tutorials/Wallet_Tutorials.md": "Zcash Wallet Mafunzo ya mafunzo",
   "tutorials/shieldedNewsletter/readme.md": "Barua za Habari Zilizohifadhiwa",
   "tutorials/zenithserver/zenithBeta.md": "Zenith 0.10 Beta"
 }

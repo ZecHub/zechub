@@ -56,7 +56,7 @@ Jụọ data raw na onye ezipụ ozi ahụ echekwara ma nata ubi laghachi efu. O
 
 ## Mee ihe ị mụtara eme .
 
-- Jiri obere akpa ego nke na-eme ka adreesị echedoro, dịka: [Zashi (onye na-eme ihe nkiri)](https://electriccoin.co/zashi/) or [Akpa ego Ywallet](https://ywallet.app/).
+- Jiri obere akpa ego nke na-eme ka adreesị echedoro, dịka: [Zodl .](https://zodl.com) or [Akpa ego Ywallet](https://ywallet.app/).
 - Mgbe ị natara ZEC na adreesị doro anya, bugharịa ya n'adres ezoro ezo tupu i jiri ya.
 - Kwụọ ụgwọ na adreesị echekwara ebe ị nwere ike. Ịkwụ ụgwọ ọ bụla doro anya bụ nke ọha; a naghị ekpuchi ya.
 

@@ -32,10 +32,10 @@ ZECD는 Zcash용 shielded-first 월렛 서버로, [librustzcash](https://github.
 
 ZECD는 월렛 책임을 합의(consensus) 계층과 분리합니다. 애플리케이션과 Zebra 전체 노드 사이에 위치하는 **전용 월렛 레이어**로서 다음을 제공합니다:
 
-- librustzcash(Zashi와 Zodl을 구동하는 동일한 라이브러리)를 기반으로 한 깔끔하고 현대적인 Rust 구현
+- librustzcash(Zodl과 Zingo를 구동하는 동일한 라이브러리)를 기반으로 한 깔끔하고 현대적인 Rust 구현
 - 프라이버시 기본 설계(별도 설정이 없다면 Orchard 주소 사용)
 - Zcash 전용 도구를 따로 배울 필요를 없애는 Bitcoin 호환 RPC 인터페이스
-- 컨테이너 및 클라우드 배포에 적합한 stateless, 시드 복구 가능 아키텍처
+- 컨테이너 및 클라우드 배포에 적합한 무상태, 시드 복구 가능 아키텍처
 
 ---
 

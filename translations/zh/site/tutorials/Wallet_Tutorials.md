@@ -7,7 +7,7 @@
 以下是一些钱包教程，可帮助你开始使用 ZEC。
 
 
-- Zashi 钱包
+- Zodl 钱包
 
 [![视频缩略图](/content-images/hqdefault-a4a2a5de7f.webp)](https://www.youtube.com/watch?v=G92zBIr-Wms)
 

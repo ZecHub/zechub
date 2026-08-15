@@ -49,8 +49,8 @@
 
 ---
 
-### ステップ3: Zashiウォレットを準備  
-[**Zashi**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn)（Electric Coin Co.が提供する公式Zcashウォレット）をダウンロードしてください。**ReceiveタブからUnified Address** をコピーします - これは透明なZECとshielded ZECの両方に対応しています。次の手順に進む前に、シードフレーズを安全に保存してください。  
+###  ステップ3: Zodlウォレットを準備  
+[**Zodl**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn)（Electric Coin Co.が提供する公式Zcashウォレット）をダウンロードしてください。**ReceiveタブからUnified Address**をコピーします - これは透明およびシールドの両方のZECに対応しています。次の手順に進む前に、シードフレーズを安全に保存してください。
 
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)
@@ -58,8 +58,8 @@
 
 ---
 
-### ステップ4: プライバシーを重視したスワップ  
-**encrypt.trade** に戻り、**Swap** セクションに移動します。 **eSOL/eUSDC → ZEC** を選択し、Zashiのアドレスを貼り付け、詳細を確認して確認してください。
+### ステップ4: プライベートにスワップ  
+**encrypt.trade** に戻り、**Swap** に進みます。**eSOL/eUSDC -> ZEC** を選択し、Zodl のアドレスを貼り付け、詳細を確認して確定します。
 
 
 
@@ -71,7 +71,7 @@
 ![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
-**NEAR Intents** エンジンは自動的にクロスチェーンルーティングを処理します - 数秒以内に **ZEC** が直接あなたの Zashi ワレットに届きます。  
+**NEAR Intents** エンジンは自動的にクロスチェーンルーティングを処理します - 数秒以内に **ZEC** が直接あなたの Zodl ウォレットに届きます。
 
 
 
@@ -80,7 +80,7 @@
 ---
 
 ### ステップ5: シールドしてプライバシーを維持  
-受信後、Zashiの **Shield** オプションを使用して、ZECをシールドされたプールに移動し、最大限のプライバシーを確保してください。常にリンクを確認し、アドレスの再利用は避け、最初に小さな金額でテストすることをお勧めします。  
+受信後、Zodlの **Shield** オプションを使用して、ZECをシールドされたプールに移動し、最大限のプライバシーを確保してください。常にリンクを確認し、アドレスの再利用は避け、最初に小さな金額でテストすることをお勧めします。
 
 ---
 

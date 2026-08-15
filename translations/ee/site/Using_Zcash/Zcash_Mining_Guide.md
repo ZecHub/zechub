@@ -1,10 +1,10 @@
-# Zcash Mining Guide: Tomenukuƒe ƒe Ƒuƒoƒo kple Ame ŋutɔ ƒe Hardware
+# Zcash Tomenukuƒe Mɔfiame: Tomenukuƒe ƒe Ƒuƒoƒo kple Ame ŋutɔ ƒe Dɔwɔnuwo
 
 ## Kpɔkplɔyiɖeme
 
-Zcash (ZEC) nye cryptocurrency si léa ŋku ɖe adzamenyawo ŋu si zãa Equihash proof-of-work algorithm hena tomenukuƒe. Zcash tomenukuƒe bia be woazã akɔntabubu ƒe ŋusẽ atsɔ akpɔ akɔntabubu ƒe kuxi sesẽwo gbɔ, aɖo kpe asitsatsa dzi, eye woakpɔ network la ta ɖe ZEC ƒe teƒeɖoɖowo teƒe. Le network la ƒe sesẽ ta la, womekafu solo mining na ezãla akpa gãtɔ o. Tomenukuƒe aɖe me nɔnɔ nye mɔ nyuitɔ si dzi nàto akpɔ teƒeɖoɖo ɣesiaɣi to wò hash ŋusẽ tsɔtsɔ ƒo ƒu kple ame bubuwo me.
+Zcash (ZEC) nye cryptocurrency si léa ŋku ɖe adzamenyawo ŋu si zãa Equihash proof-of-work algorithm hena tomenukuƒe. Zcash tomenukuƒe bia be woazã akɔntabubu ƒe ŋusẽ atsɔ akpɔ akɔntabubu ƒe kuxi sesẽwo gbɔ, aɖo kpe asitsatsa dzi, eye woakpɔ network la ta ɖe ZEC ƒe teƒeɖoɖowo teƒe. Le network la ƒe sesẽ ta la, womekafu solo mining na ezãla akpa gãtɔ o. Tomenukuƒe aɖe me nɔnɔ nye mɔ nyuitɔ si dzi nàto akpɔ teƒeɖoɖo siwo nɔa anyi ɖaa to wò hash ŋusẽ tsɔtsɔ ƒo ƒu kple ame bubuwo me.
 
-Mɔfiame sia ku ɖe Zcash kuku ŋu to ame ŋutɔ ƒe xɔtunuwo zazã me (e.g., aƒeme PC si me GPUwo alo ASIC siwo le gɔmedzedzea me le). De dzesii be togbɔ be GPUwo ateŋu aku Zcash kokoko hã la, ASICwo wɔa dɔ nyuie wu eye wokpɔa viɖe le ƒe 2026 me le network ƒe sesẽ ta. Kpɔ viɖe si li fifia ɖa ɣesiaɣi to dɔwɔnuwo abe WhatToMine.com zazã me, elabena nusiwo abe elektrikŋusẽ ƒe asi, xɔtunuwo ƒe asiwo, kple ZEC ƒe asixɔxɔ kpɔa ŋusẽ ɖe alesi woate ŋu awɔ dɔe dzi. Ðewohĩ tomenukuƒewo maɖe vi na amesiame o; numekuku le nutoa me ƒe sededewo kple ŋusẽ ƒe agbɔsɔsɔme ŋu (ɖoe be yeaxɔ < $0.08/kWh).
+Mɔfiame sia ku ɖe Zcash kuku ŋu to ame ŋutɔ ƒe xɔtunuwo zazã me (e.g., aƒeme PC si me GPUwo alo ASIC siwo le gɔmedzedzea me le). De dzesii be togbɔ be GPUwo ateŋu aku Zcash kokoko hã la, ASICwo wɔa dɔ nyuie wu eye wokpɔa viɖe le ƒe 2026 me le network ƒe sesẽ ta. Kpɔ viɖe si li fifia ɖa ɣesiaɣi to dɔwɔnuwo abe WhatToMine.com zazã me, elabena nusiwo abe elektrikŋusẽ ƒe asi, xɔtunuwo ƒe asiwo, kple ZEC ƒe asixɔxɔ kpɔa ŋusẽ ɖe alesi woate ŋu awɔ dɔe dzi. Ðewohĩ tomenukuƒewo maɖe vi na amesiame o; numekuku le nutoa me ƒe sewo kple ŋusẽ ƒe agbɔsɔsɔme ŋu (ɖoe be yeaxɔ < $0.08/kWh).
 
 
 ## Nudidiwo
@@ -16,7 +16,7 @@ Mɔfiame sia ku ɖe Zcash kuku ŋu to ame ŋutɔ ƒe xɔtunuwo zazã me (e.g., a
   - Multi-GPU rigs bɔ na hash ƒe agbɔsɔsɔme nyuitɔ (e.g., 6x GPUs ateŋu aɖo 1-2 kSol/s gbɔ).
 - **ASIC Tomenukuƒe (Ewɔa dɔ nyuie wu gake eƒe asi lolo wu):**
   - ASIC siwo sɔ kple Equihash abe Bitmain Antminer Z15 (420 kSol/s) alo Innosilicon A9 (50 kSol/s) ene.
-  - Esiawo sesẽna wu, woxɔa dzo wu, eye woxɔa ŋusẽ geɖe wu (e.g., 1500W+); si sɔ na teƒe siwo woɖo ɖi koŋ. Ƒle nu tso teƒe siwo ŋu ŋkɔ le abe Bitmain.com alo nudzralawo (Blockware Mining).
+  - Esiawo sesẽna wu, woxɔa dzo wu, eye woxɔa ŋusẽ geɖe wu (e.g., 1500W+); si sɔ na teƒe siwo woɖo ɖi koŋ. Ƒle nu tso teƒe xɔŋkɔwo abe Bitmain.com alo nudzralawo (Blockware Mining).
 - **General:** Internet si li ke, kɔmpiuta si wotsɔ ɖoa ​​ɖoɖowɔwɔ/dzikpɔkpɔ. ASICs ɖua network la dzi (~13 GSol/s total hashrate le ƒe 2026 me), si wɔe be GPU tomenukuƒewo megaʋlia ho boo o gake egate ŋu dzɔna na modzakaɖelawo.
 
 ### Sɔƒtwɛ
@@ -25,7 +25,7 @@ Mɔfiame sia ku ɖe Zcash kuku ŋu to ame ŋutɔ ƒe xɔtunuwo zazã me (e.g., a
   - Le GPUwo gome la: lolMiner (doa alɔ AMD/NVIDIA), GMiner, alo miniZ (si ƒe susu nɔa NVIDIA ŋu). Wɔ kɔpi tso GitHub ƒe teƒe siwo dziɖuɖua ɖo (e.g., github.com/Lolliedieb/lolMiner-releases).
   - Le ASICwo gome: Zã adzɔnuwɔƒea ƒe firmware/dashboard si wotu ɖe eme (e.g., Bitmain ƒe web interface).
 - **Gakotoku:** Zcash gakotoku si woatsɔ axɔ fetu. Doe ɖa:
-  - Wokpɔ ta (ame ŋutɔ tɔ): Zashi Gakotoku, Zingo (Asitelefon/Dɔwɔƒe) YWallet (asitelefon/kplɔ̃).
+  - Wokpɔ ta (ame ŋutɔ tɔ): Zodl Gakotoku, Zingo (Asitelefon/Dɔwɔƒe) YWallet (asitelefon/kplɔ̃).
   - Nusi me kɔ (ele bɔbɔe wu gake menye ame ŋutɔ tɔ o): Edge Wallet, Zecwallet Lite.
   - Wɔ eƒe kɔpi tso [gakotokuwo](https://zechub.wiki/wallets). Wɔ adrɛs si wokpɔ ta na (edzea egɔme kple 'zs') hena adzamenyawo ne ta la do alɔe.
 
@@ -84,7 +84,7 @@ Tomenukuƒewo maa dɔwɔwɔ eye woama teƒeɖoɖowo ɖe wò hashrate si nèdzɔ 
   2. Yi Miner ƒe Ðoɖowɔɖi gbɔ.
   3. Tsɔ ta la ŋuti nyatakakawo kpee:
      - URL: stratum+tcp://zec.2miners.com:1010
-     - Zãla ƒe ŋkɔ: YOUR_WALLET_ADDRESS.WORKER_NAME
+     - Zãla ƒe ŋkɔ: YOUR_WALLET_ADDRESS.DƆWƆLA_ŊKƆ
      - Nyagbe ɣaɣla: x (alo ƒuƒlu).
   4. Dzra tomenukuƒea ɖo eye nàgbugbɔ adze egɔme.
 - Le kɔmpiutadziɖoɖo bubuwo gome (e.g., GMiner):
@@ -114,7 +114,7 @@ Sovright (sovright.com) wɔa Stratum V2 tomenukuƒe kple block relay network si 
 
 Sovright ƒe ta la zɔna le dutoƒo Zcash testnet (NU6, Stratum V2) dzi, ke menye mainnet dzi o. Testnet la mexea ZEC ŋutɔŋutɔ o. Zãe nàtsɔ ado wò tomenukulawo ƒe ɖoɖoa kpɔ, ke menye be nàkpɔ ga o.
 
-- Womehiã akɔntabubu aɖeke hafi woadze egɔme o. Fia asi CPU alo ASIC Equihash tomenukula aɖe le ta la gbɔ eye wò gomekpɔkpɔwo adze le dashboard si le agbe dzi.
+- Womehiã akɔntabubu aɖeke hafi woadze egɔme o. Fia asi CPU alo ASIC Equihash tomenukulawo le ta la gbɔ eye wò gomekpɔkpɔwo adze le live dashboard dzi.
 - Sovright ta Stratum V2 proxy si le ʋuʋu ɖi hã na tomenukulawo siwo di be yewoatia yewo ŋutɔ yewoƒe block templates tsɔ wu be yewoaxɔ ta la ƒe dɔwo ko:
   ```
   git clone https://github.com/sovright/mining-infra
@@ -127,7 +127,7 @@ Sovright ƒe ta la zɔna le dutoƒo Zcash testnet (NU6, Stratum V2) dzi, ke meny
   stratum+tcp://<your-proxy-ip>:3334
   ```
   dɔwɔla ƒe ŋkɔ zazã abe `yourname.rig1`.
-- Sovright ƒe gaglãgbe ƒe axa gblɔ "de wo katã eme" ƒe ɖoɖo aɖe na adzɔnuwɔna siwo wokpɔ ta na, to vovo na tadeaguƒe aɖewo siwo ɖea wo ɖa. Block ɖesiaɖe xɔa ɖaseɖiɖi si wode asi ale be woate ŋu alé ŋku ɖe ɖoɖoa ŋu le wo ɖokui si.
+- Sovright ƒe gaglãgbe ƒe axa gblɔ be "de wo katã eme" ƒe ɖoɖo aɖe na asitsatsa siwo wokpɔ ta na, to vovo na tadeaguƒe aɖewo siwo ɖea wo ɖa. Block ɖesiaɖe xɔa ɖaseɖiɖi si wode asi ale be woate ŋu alé ŋku ɖe ɖoɖoa ŋu le wo ɖokui si.
 - Wɔ akɔnta le mining.sovright.com (Google alo email ge ɖe eme) be nàlé ŋku ɖe wò ŋutɔ wò dɔwɔlawo ŋu ɖe kpɔɖeŋu dashboard nyatakakawo teƒe.
 
 ### Relay ƒe Nyatakakadzraɖoƒe (relay.sovright.com) .

@@ -103,7 +103,7 @@ Discord-Bot, der nahtlosen und sicheren Zugang zu Zcash-Transaktionen bietet.
 [Forum](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 
 ### ZODL
-Flaggschiff-Zcash-Wallet von Shielded Labs (früher Zashi). Verfügbar für iOS und Android. Unterstützt abgeschirmte ZEC und NU7-Coinholder-Abstimmungen.  
+Flaggschiff-Zcash-Wallet von ZODL (früher Zashi). Verfügbar für iOS und Android. Unterstützt abgeschirmte ZEC und NU7-Coinholder-Abstimmungen.  
 [Besuchen](https://zodl.app/)
 
 ### Noir Wallet

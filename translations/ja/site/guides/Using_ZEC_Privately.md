@@ -62,8 +62,7 @@ ZECをシールドするためには一般的に2つの方法があります。
 </div>
 
 
----
-CoinbaseでZECを購入し、Zashiに送金する方法のチュートリアルです。
+CoinbaseでZECを購入し、ZODLに送金する方法のチュートリアルです。
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

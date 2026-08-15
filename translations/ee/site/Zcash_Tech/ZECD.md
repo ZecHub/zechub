@@ -6,7 +6,7 @@
 
 > 🇧🇷 [Versão em Portugaltɔwo ƒe agbalẽwo](/zechubglobal/zcashbrasil/zcashtech/zecd)
 
-ZECD nye shielded-first wallet server na Zcash, si wotu ɖe edzi [librustzcash ƒe ŋkɔ](https://github.com/zcash/librustzcash) eye woɖee ɖe go to Bitcoin Core ƒe JSON-RPC gbetagbe dzi. Enaa dɔwɔlawo kple fexexe ƒe ƒuƒoƒowɔlawo API nyanyɛ, si sɔ kple Bitcoin hena nuwɔwɔ kple Zcash — esime wòle Orchard (si nye ame ŋutɔ tɔ wu) wɔm wònye nusi woɖo ɖi. Woto esia vɛ to [zec.kpewo](https://zec.rocks), wowɔ ZECD be wòaxɔ ɖe eteƒe `zcashd`’s gakotoku ƒe dɔwɔwɔ le egbegbe, alilikpo me tɔwo ƒe dɔwɔwɔwo me.
+ZECD nye shielded-first wallet server na Zcash, si wotu ɖe edzi [librustzcash ƒe ŋkɔ](https://github.com/zcash/librustzcash) eye woɖee ɖe go to Bitcoin Core ƒe JSON-RPC gbetagbe dzi. Enaa dɔwɔlawo kple fexexe ƒe ƒuƒoƒowɔlawo API nyanyɛ, si sɔ kple Bitcoin hena nuwɔwɔ kple Zcash — esime wòle Orchard (si nye ame ŋutɔ tɔ wu) wɔm wònye nusi woɖo ɖi. Woto esia vɛ to [zec.rocks](https://zec.rocks), wowɔ ZECD be wòaxɔ ɖe eteƒe `zcashd`’s gakotoku ƒe dɔwɔwɔ le egbegbe, alilikpo me tɔwo ƒe dɔwɔwɔwo me.
 
 **Fifia ƒe tɔtrɔ:** 0.5.0-rc3 (July 13, 2026) — kple Ironwood (NU6.3) ƒe kpekpeɖeŋu. Install via `cargo install zecd` alo nàzã Docker ƒe nɔnɔmetata si dziɖuɖua da asi ɖo.
 
@@ -31,7 +31,7 @@ ZECD nye shielded-first wallet server na Zcash, si wotu ɖe edzi [librustzcash �
 
 ZECD ɖea gakotoku ƒe agbanɔamedzi ɖa tso nusiwo dzi woda asi ɖo gbɔ. Enye **gakotoku ƒe ƒuƒoƒo si woɖo ɖi** si nɔa dɔwɔwɔwo kple Zebra full node dome, si naa:
 
-- Rust ƒe dɔwɔwɔ dzadzɛ, si sɔ ɖe egbegbe nu si wotu ɖe librustzcash (agbalẽdzraɖoƒe ma ke si naa ŋusẽ Zashi kple Zodl) dzi
+- Rust ƒe dɔwɔwɔ dzadzɛ, si sɔ ɖe egbegbe nu si wotu ɖe librustzcash (agbalẽdzraɖoƒe ma ke si naa ŋusẽ Zodl kple Zingo) dzi
 - Ameŋunyatakakawo ƒe ɖoɖowɔwɔ le ɖoɖo nu (Orchard adrɛswo negbe ɖe woɖoe bubui hafi)
 - RPC ƒe ŋgɔdonya si sɔ kple Bitcoin si ɖea alesi wòhiã be woasrɔ̃ Zcash-koŋ ƒe dɔwɔnuwo ɖa
 - Dukɔmevinyenye, nuku-gbugbɔgaxɔ xɔtuɖaŋu si sɔ na nugoewo me kple alilikpo me dɔwɔwɔ
@@ -311,7 +311,7 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 - [ZECD GitHub (zecrocks/zecd) ƒe xexlẽdzesiwo.](https://github.com/zecrocks/zecd)
 - [ZECD ƒe Dɔwɔnawo ƒe Dɔwɔgbalẽ](https://github.com/zecrocks/zecd/blob/main/docs/OPERATIONS.md)
-- [zec.kpewo](https://zec.rocks)
+- [zec.rocks](https://zec.rocks)
 - [librustzcash — core Zcash nya ɣaɣlawo ƒe agbalẽdzraɖoƒe](https://github.com/zcash/librustzcash)
 - [ZIP-317: Mɔnu si Woxena Ðe Amewo ƒe Fetu Siwo Woatsɔ Atsɔ Ayi Amewo Ŋu ƒe Mɔnu](https://zips.z.cash/zip-0317)
 - [ZIP-302: Nuŋlɔɖi Siwo Wotsɔ Akpoxɔnu Wɔe](https://zips.z.cash/zip-0302)

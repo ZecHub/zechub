@@ -56,7 +56,7 @@ Bia nyatakaka xoxoawo eye shielded sender and receiver fields trɔ gbɔ ƒuƒlu.
 
 ## Tsɔe de dɔwɔwɔ me
 
-- Zã gakotoku si nye adrɛs siwo wokpɔ ta na, abe [Zashi ƒe ŋkɔ](https://electriccoin.co/zashi/) or [Ywallet ƒe ŋkɔ](https://ywallet.app/).
+- Zã gakotoku si nye adrɛs siwo wokpɔ ta na, abe [Zodl](https://zodl.com) or [Ywallet ƒe ŋkɔ](https://ywallet.app/).
 - Ne èxɔ ZEC le adrɛs si me kɔ dzi la, tsɔe yi adrɛs si wokpɔ ta na hafi nàzãe.
 - Xe fe ɖe adrɛs siwo ŋu wokpɔ ta na le afisi nàte ŋui. Fexexe ɖesiaɖe si wowɔna le gaglãgbe nye dutoƒo bliboe; amesi ŋu wokpɔ akpoxɔnu le ya menye nenema o.
 

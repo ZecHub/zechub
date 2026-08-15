@@ -7,7 +7,7 @@
 Vous trouverez ci-dessous une liste de tutoriels sur les portefeuilles qui peuvent vous aider à démarrer avec ZEC.
 
 
-- Portefeuille Zashi 
+- Portefeuille Zodl
 
 [![Miniature vidéo](/content-images/hqdefault-a4a2a5de7f.webp)](https://www.youtube.com/watch?v=G92zBIr-Wms)
 

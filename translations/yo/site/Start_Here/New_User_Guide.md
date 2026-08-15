@@ -2,43 +2,43 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Itọsọna Olumulo Zcash Tuntun
+# Atọ́nà Olùṣàmúlò Tuntun Zcash
 
 ## TL;DR
 
-- **Ra ZEC** lórí àdàkọ tí a fọwọ́ sí (Gemini, BitcoinVN, bbl.)
-- ** Ṣeto apamọwọ ti o ni aabo** (A ṣe iṣeduro Zashi, YWallet, tabi ZODL)
-- **Wá** ZEC rẹ kúrò ní ibi pàṣípààrọ̀ lọ sí àpamọ́ rẹ
-- ** Fi ìnáwó ààbò ránṣẹ́**  Ìsanwó ìdánimọ̀ àkọ́kọ́ rẹ lórí Zcash
+- **Ra ZEC** lórí àdàkọ tí a fọwọ́ sí (Gemini, BitcoinVN, àti bẹ̀ẹ̀bẹ̀ lọ)
+- ** Ṣeto àpò-ìpamọ́ tí a fi ọ̀pá ìdì aláàbò ṣe** (A ṣeduro Zodl, Zingo tàbí Zkool)
+- **Sá** ZEC rẹ kúrò ní ibi ìnáwó lọ sí àpamọ́ owó ẹ̀rọ-ìwé tí ó wà lábẹ́ ìdánwò.
+- ** Fi ìnáwó tí a fi ààbò ṣe ránṣẹ́**  Ìsanwó ìdánimọ̀ àkọ́kọ́ rẹ lórí Zcash
 - **Ẹ darapọ̀ mọ́ àwùjọ** lórí ìkànnì tàbí Discord
 
 ---
 
-Tuntun si Zcash? Itọsọna yii yoo ṣe itọsọna fun ọ nipasẹ gbigba onboarded bi olumulo Zcash ati *ZEC* oniwun.
+Àkọlé yìí yóò tọ́ ọ sọ̀nà láti wọle gẹ́gẹ́ bí olùṣàmúlò Zcash àti oní-ZEC.
 
 ---
 
-**Rà ZEC**
+** Ra ZEC** Owó ìnájà tí ó tóbi jù lọ ní Nàìjíríà.
 
-Lati lo nẹtiwọọki Zcash, o nilo lati ra owo rẹ, *ZEC*.
+Láti lo ẹ̀rọ Zcash, o ní láti ra owó rẹ̀, *ZEC*.
 
-Ọna to rọọrun lati gba ZEC ni lati [ra o lori Gemini](https://www.gemini.com/prices/zcash) tàbí [ọ̀kan lára àwọn àdàkọ yìí](https://zechub.wiki/using-zcash/custodial-exchanges).
+Ọ̀nà tó rọrùn jùlọ láti gba ZEC ni pé kí o lọ sí ilé ìtajà kan. [ra á ní orí Gemini.](https://www.gemini.com/prices/zcash) or [èyíkéyìí nínú àwọn ìfọwọ́sí yìí](https://zechub.wiki/using-zcash/custodial-exchanges).
 
-Ohun pàtàkì kan tó yẹ kó o fi sọ́kàn ni pé kò pọn dandan kó o ra *ZEC* kan ní kíkún.
+Ohun pàtàkì kan tó yẹ kó o mọ̀ ni pé kò pọn dandan kí ìwọ náà ra gbogbo owó ZEC.
 
-*ZEC* jẹ divisible, ati pe o le bẹrẹ pẹlu rira nikan ida kan ti owo naa.
+*ZEC* jẹ divisible, o sì lè bẹ̀rẹ̀ nípa kíkópa díẹ̀ nínú owó náà.
 
 ---
 
-** Ṣẹ̀dá àpamọ́wọ́ kan **
+** Ṣẹ̀dá àpò owó**
 
-Lẹ́yìn tí o bá ra àwọn *ZEC*, o lè fẹ́ gbé e lọ sí àpò Zcash. 
+Lẹ́yìn tí o bá ra àwọn *ZEC*, ó lè wù ọ́ láti gbé e lọ sí àpò Zcash. 
 
-[Ìwé yìí ṣàlàyé](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) ìdí tó fi ṣe pàtàkì láti ní *ZEC* nínú pọ́ọ̀sì. 
+Èyí ni [àpilẹ̀kọ náà ṣàlàyé pé:](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) ìdí tí ó fi ṣe pàtàkì láti ní *ZEC* nínú àpamọ́. 
 
-A dábàá pé kí o lo àpò tí ó ní ààbò](https://zechub.wiki/wallets) nítorí pé àwọn àpamọ́ owó wọ̀nyí ń pèsè àwọn ohun ìní ìpamọ́ra tí ó sọ *ZEC* di àrà ọ̀tọ̀. 
+A dábàá pé kí o lo àwo pẹlẹbẹ kan. [àpò owó tí a fi ọ̀pá dì](https://zechub.wiki/wallets) nítorí pé àwọn àpò yìí ń pèsè ìpamọ́ra tí ó mú kí *ZEC* jẹ́ ìyàtọ̀. 
 
-Eyi ni fidio ti o ṣe atunyẹwo awọn apamọwọ aabo igbalode:
+Fidio kan tó ń ṣe àgbéyẹ̀wò àwọn pọ́ọ̀sì tí ó ní ọjà òde òní nìyí:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -46,7 +46,7 @@ Eyi ni fidio ti o ṣe atunyẹwo awọn apamọwọ aabo igbalode:
     src="https://www.youtube.com/embed/6IIRRZ17Q74"
     title="Zcash Shielded Wallets Explained"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    gba Àwòrán-ìwòyí ní kíkún (FullScreen)
     loading="lazy"
   />
 </div>
@@ -55,11 +55,11 @@ Eyi ni fidio ti o ṣe atunyẹwo awọn apamọwọ aabo igbalode:
 
 ---
 
-**Gba ZEC silẹ**
+**Sọ ZEC sẹhin**
 
-Lẹ́yìn tí ẹ bá ti dá àpò yín, ẹ máa fẹ́ láti yọ ZEC yín sínú àpò náà. 
+Lẹ́yìn tí ẹ bá ti dá àpò yín, ẹ ó fẹ́ láti yọ ZEC yín sínú àpò náà. 
 
-Àkọlé kan rèé nípa bí a ṣe lè ṣe é.
+Àkọ́lé tó wà nísàlẹ̀ yìí ni bó o ṣe lè ṣe é.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -67,7 +67,7 @@ Lẹ́yìn tí ẹ bá ti dá àpò yín, ẹ máa fẹ́ láti yọ ZEC yín s�
     src="https://www.youtube.com/embed/Avweu5V9QRc"
     title="Coinbase + Zashi: Buy Zcash & Shield Instantly"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    gba Àwòrán-ìwòyí ní kíkún (FullScreen)
     loading="lazy"
   />
 </div>
@@ -75,9 +75,9 @@ Lẹ́yìn tí ẹ bá ti dá àpò yín, ẹ máa fẹ́ láti yọ ZEC yín s�
 
 ---
 
-**Firanṣẹ ìnáwó tí a fi ààbò ṣe**
+** Fi ìnáwó tí a fi ààbò ṣe ránṣẹ́**
 
-After you've deposited some ZEC into your wallet, you're ready to send a fully shielded, private transaction. A shielded transaction is an exchange of ZEC that fully protects each participant's privacy. Here's some useful tips when using shielded ZEC.
+lẹ́yìn tí o bá ti fi ZEC díẹ̀ sínú àpò rẹ,o lè ránṣẹ́ ìnáwó tó ní ìdánilójú pátápátá.Ìdájọ́ onídínà ni pàṣípààrọ̀ àwọn ZEC èyí tí ó dáàbò bo àṣírí ẹnìkọ̀ọ̀kan nínú wọn dé ẹ̀kúnrẹ́rẹ́.Àwọn ìmọ̀ràn kan nìyí nígbàtí a ńlo ZEC aláriwo.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -85,7 +85,7 @@ After you've deposited some ZEC into your wallet, you're ready to send a fully s
     src="https://www.youtube.com/embed/tEfQaYPV0UE"
     title="Useful Tips when using Zcash 🔒"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    gba Àwòrán-ìwòyí ní kíkún (FullScreen)
     loading="lazy"
   />
 </div>
@@ -94,11 +94,11 @@ After you've deposited some ZEC into your wallet, you're ready to send a fully s
 
 **Ẹ darapọ̀ mọ́ àpéjọ yìí**
 
-Àjọ Ìjọ Zcash jẹ́ ibi tí àwọn ọmọ ẹgbẹ́ Ìjùmọ̀ Zcash ti máa ń jíròrò gbogbo nǹkan tó ní í ṣe pẹ̀lú Zcash. A tún ní ìkànnì discord.
+Àjọ Ìjùmọ̀ Zcash ni ibi tí àwọn ọmọ ẹgbẹ́ ìjùmọ̀ Zcash ti ń jíròrò gbogbo nǹkan tó ní í ṣe pẹlú Zcash. A tún ní ọ̀dọ́ oníṣe discord kan.
 
-[Ìjọ Ìjọ Zcash](https://forum.zcashcommunity.com/) [Ìgbìmọ̀ Zcash Global](https://discord.gg/zcash).
+[Àjọ Ìgbìmọ̀ Zcash Forum](https://forum.zcashcommunity.com/) | [Zcash Global (ì í ì ë°)](https://discord.gg/zcash).
 
-àwùjọ náà jẹ́ onífẹ̀ẹ́ àti ẹni tí ó máa ń tẹ́wọ́ gba àwọn ọmọ ẹgbẹ́ tuntun. nígbà míràn ìjíròrò lè jẹ́ ti ìmọ̀ ẹ̀rọ, ṣùgbọ́n má ṣàníyàn! bí o bá ní ìbéèrè, o lè béèrè.
+Ìjọ náà jẹ́ onífẹ̀ẹ́ àti olùgbádùn fún àwọn ọmọ ẹgbẹ tuntun. Nígbà míì ìjíròrò lè jẹ́ ti ìmọ̀ ẹ̀rọ, ṣùgbọ́n má ṣàníyàn! Bí o bá ní ìbéèrè kankan nígbàkigbà, ìwọ le béèrè lọ́wọ́ wọn.
 
 <a href="">
     <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="/content-images/c1d40441-4336-4754-b3bf-5a746b19a9d5-6d2eca6cbf.webp" />
@@ -106,10 +106,10 @@ After you've deposited some ZEC into your wallet, you're ready to send a fully s
 
 ---
 
-## Àwọn ojúewé tó tan mọ́ ọn
+## Àwọn ojúewé tó ní í ṣe pẹ̀lú rẹ̀
 
-- [Kí ni ZEC àti Zcash?](/start-here/what-is-zec-and-zcash)  Kọ́kọ́ mọ àwọn kókó tó ṣe pàtàkì kó o tó bẹ̀rẹ̀
-- [Ríra ZEC](/using-zcash/buying-zec)  Àkójọ kíkún àwọn ilé-ìtajà tí ó ń ṣe àtìlẹ́yìn fún àwọn ìmúkúrò tí a fi ààbò bo
-- [Àwọn pọ́ọ̀sì](/using-zcash/wallets)  Ṣe àfiwé gbogbo àwọn àpamọ́ Zcash nípasẹ̀ àwọn ànímọ́ àti pẹpẹ
-- [Àwọn Erékùṣù Tí Wọ́n Fi Ààbò Ṣe](/using-zcash/shielded-pools)  Mọ ìdí tí àwọn ìnáwó tí a fi ààbò bo fi ṣe pàtàkì
-- [Ìṣirò](/using-zcash/transactions)  Bii o ṣe le firanṣẹ ati gba ZEC ni ikọkọ
+- [Kí ni ZEC àti Zcash?](/start-here/what-is-zec-and-zcash)  Kọ́kọ́ mọ àwọn kókó pàtàkì tó wà nínú ìwé náà dáadáa kó o tó bẹ̀rẹ̀ sí í kà á.
+- [Rírà ZEC](/using-zcash/buying-zec)  Àkójọ àwọn ilé-ìtajà tí ó ń ṣe àtìlẹ́yìn fún ìsínwó lábẹ́ ìdènà.
+- [Àwọn àpamọ́ owó](/using-zcash/wallets)  Fi gbogbo àwọn àpamọ́ Zcash wé nípa ohun èlò àti pẹpẹ
+- [Àwọn Erékùṣù Tó Ń Wà Níbi Ààbò](/using-zcash/shielded-pools)  Mọ ìdí tí àwọn ìnáwó tó ní ààbò fi ṣe pàtàkì
+- [Àwọn Àdéhùn Ìṣirò](/using-zcash/transactions)  Bii o ṣe le firanṣẹ ati gba ZEC ni ikọkọ

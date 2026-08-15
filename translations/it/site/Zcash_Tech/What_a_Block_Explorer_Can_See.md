@@ -57,7 +57,7 @@ Se interroghi i dati grezzi, i campi del mittente e del destinatario schermati r
 
 ## Mettilo in pratica
 
-- Usa un wallet che utilizzi per default indirizzi schermati, come [Zashi](https://electriccoin.co/zashi/) o [Ywallet](https://ywallet.app/).
+- Usa un wallet che utilizzi per default indirizzi schermati, come [ZODL](https://zodl.com) o [Ywallet](https://ywallet.app/).
 - Quando ricevi ZEC su un indirizzo trasparente, spostali su un indirizzo schermato prima di spenderli.
 - Paga verso indirizzi schermati quando puoi. Ogni pagamento trasparente è completamente pubblico; uno schermato no.
 

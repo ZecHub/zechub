@@ -57,7 +57,7 @@ Zcash에는 두 종류의 주소가 있습니다.
 
 ## 실제로 활용하기
 
-- 기본적으로 실드 주소를 사용하는 지갑을 사용하세요. 예: [Zashi](https://electriccoin.co/zashi/) 또는 [Ywallet](https://ywallet.app/).
+- 기본적으로 실드 주소를 사용하는 지갑을 사용하세요. 예: [Zodl](https://zodl.com) 또는 [Ywallet](https://ywallet.app/).
 - 투명 주소로 ZEC를 받았다면, 사용하기 전에 실드 주소로 옮기세요.
 - 가능한 경우 실드 주소로 결제하세요. 모든 투명 결제는 완전히 공개되지만, 실드 결제는 그렇지 않습니다.
 

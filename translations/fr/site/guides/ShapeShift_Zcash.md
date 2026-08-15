@@ -56,7 +56,7 @@ Les utilisateurs peuvent envoyer du ZEC entre des adresses transparentes et blin
 
 ### Unified Address
 
-Les portefeuilles Zcash modernes comme [Zashi](https://electriccoin.co/zashi/) utilisent des **Unified Address**, qui combinent à la fois des récepteurs transparents et blindés dans une seule adresse. Cela simplifie l’expérience utilisateur tout en privilégiant par défaut le niveau de confidentialité le plus élevé disponible.
+Les portefeuilles Zcash modernes comme [Zodl](https://zodl.com) utilisent des **Unified Addresses**, qui combinent à la fois des récepteurs transparents et blindés dans une seule adresse. Cela simplifie l’expérience utilisateur tout en privilégiant par défaut le niveau de confidentialité le plus élevé disponible.
 
 ### Pourquoi la confidentialité est importante
 
@@ -82,7 +82,7 @@ Connectez un portefeuille compatible en auto-garde. ShapeShift prend en charge p
 - **Keplr** (pour les actifs basés sur Cosmos)
 - **Portefeuilles compatibles WalletConnect**
 
-Puisque vous échangez vers ou depuis du ZEC, assurez-vous d’avoir un portefeuille compatible Zcash (tel que Zashi) prêt à recevoir vos fonds.
+Puisque vous échangez vers ou depuis du ZEC, assurez-vous d’avoir un portefeuille compatible Zcash (tel que ZODL) prêt à recevoir vos fonds.
 
 ### Étape 3 : Sélectionnez votre paire d’échange
 
@@ -98,7 +98,7 @@ Vérifiez les détails de la transaction et confirmez. Le swap est exécuté on-
 
 ### Étape 6 : Blindez votre ZEC
 
-Une fois votre ZEC arrivé, utilisez la fonction **shield** de votre portefeuille Zcash (disponible dans des portefeuilles comme Zashi) pour déplacer les fonds dans le pool blindé. Cela garantit que votre solde et vos futures transactions restent entièrement privés.
+Une fois votre ZEC arrivé, utilisez la fonction **shield** de votre portefeuille Zcash (disponible dans des portefeuilles comme ZODL) pour déplacer les fonds dans le pool blindé. Cela garantit que votre solde et vos futures transactions restent entièrement privés.
 
 ### Paires inter-chaînes prises en charge
 
@@ -165,7 +165,7 @@ L’intégration entre ShapeShift et Zcash représente une avancée significativ
 
 [Site officiel de Zcash](https://z.cash/)
 
-[Portefeuille Zashi (par Electric Coin Co.)](https://electriccoin.co/zashi/)
+[Portefeuille Zodl](https://zodl.com)
 
 [Gouvernance de la DAO ShapeShift (token FOX)](https://shapeshift.com/fox-token)
 

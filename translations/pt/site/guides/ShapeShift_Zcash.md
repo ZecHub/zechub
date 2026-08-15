@@ -56,7 +56,7 @@ Os usuários podem enviar ZEC entre endereços transparentes e blindados. Para m
 
 ### Unified Addresses
 
-Carteiras modernas de Zcash, como a [Zashi](https://electriccoin.co/zashi/), usam **Unified Addresses**, que combinam destinatários transparentes e blindados em um único endereço. Isso simplifica a experiência do usuário, ao mesmo tempo em que adota por padrão o mais alto nível de privacidade disponível.
+Carteiras modernas de Zcash, como a [ZODL](https://zodl.com), usam **Unified Addresses**, que combinam destinatários transparentes e blindados num único endereço. Isto simplifica a experiência do utilizador, ao mesmo tempo que adota por predefinição o mais elevado nível de privacidade disponível.
 
 ### Por Que a Privacidade Importa
 
@@ -82,7 +82,7 @@ Conecte uma carteira de autocustódia compatível. A ShapeShift oferece suporte 
 - **Keplr** (para ativos baseados em Cosmos)
 - **Carteiras compatíveis com WalletConnect**
 
-Como você está fazendo swap para ou de ZEC, certifique-se de ter uma carteira compatível com Zcash (como a Zashi) pronta para receber seus fundos.
+Como está a fazer swap para ou de ZEC, certifique-se de ter uma carteira compatível com Zcash (como a ZODL) pronta para receber os seus fundos.
 
 ### Passo 3: Selecione Seu Par de Swap
 
@@ -98,7 +98,7 @@ Revise os detalhes da transação e confirme. O swap é executado on-chain por m
 
 ### Passo 6: Blinde Seu ZEC
 
-Assim que seu ZEC chegar, use a função **shield** da sua carteira Zcash (disponível em carteiras como a Zashi) para mover os fundos para o pool blindado. Isso garante que seu saldo e suas transações futuras permaneçam totalmente privados.
+Assim que o seu ZEC chegar, use a função **shield** da sua carteira Zcash (disponível em carteiras como a Zodl) para mover os fundos para o pool blindado. Isto garante que o seu saldo e as suas transações futuras permaneçam totalmente privados.
 
 ### Pares Cross-Chain Suportados
 
@@ -165,7 +165,7 @@ A integração entre ShapeShift e Zcash representa um avanço significativo para
 
 [Site Oficial do Zcash](https://z.cash/)
 
-[Carteira Zashi (da Electric Coin Co.)](https://electriccoin.co/zashi/)
+[Carteira ZODL](https://zodl.com)
 
 [Governança da ShapeShift DAO (Token FOX)](https://shapeshift.com/fox-token)
 

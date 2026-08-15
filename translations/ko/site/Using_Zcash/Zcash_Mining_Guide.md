@@ -25,7 +25,7 @@ Zcash (ZEC)는 채굴에 Equihash 작업증명 알고리즘을 사용하는 프�
   - GPU용: lolMiner (AMD/NVIDIA 지원), GMiner, 또는 miniZ (NVIDIA 중심). 공식 GitHub 저장소에서 다운로드하세요(예: github.com/Lolliedieb/lolMiner-releases).
   - ASIC용: 제조사의 내장 펌웨어/대시보드를 사용하세요(예: Bitmain의 웹 인터페이스).
 - **지갑:** 보상을 받을 Zcash 지갑. 권장:
-  - 실드형(비공개): Zashi Wallet, Zingo (모바일/데스크톱) YWallet (모바일/데스크톱).
+  - 실드형(비공개): Zodl Wallet, Zingo (모바일/데스크톱) YWallet (모바일/데스크톱).
   - 투명형(더 간단하지만 프라이버시는 낮음): Edge Wallet, Zecwallet Lite.
   - [wallets](https://zechub.wiki/wallets)에서 다운로드하세요. 풀이 지원한다면 프라이버시를 위해 실드형 주소('zs'로 시작)를 생성하세요.
 

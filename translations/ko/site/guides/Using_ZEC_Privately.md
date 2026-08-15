@@ -62,8 +62,7 @@
 </div>
 
 
----
-Coinbase에서 ZEC을 구매하고 Zashi로 보내는 방법에 대한 튜토리얼입니다.
+Coinbase에서 ZEC을 구매하고 Zodl로 보내는 방법에 대한 튜토리얼입니다.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

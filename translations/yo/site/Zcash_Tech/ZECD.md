@@ -6,7 +6,7 @@
 
 > 🇧🇷 [Ìtumọ̀ èdè Potogí](/zechubglobal/zcashbrasil/zcashtech/zecd)
 
-ZECD jẹ olupin apamọwọ akọkọ-alabo fun Zcash, ti a kọ lori [ìwé ìléwọ́](https://github.com/zcash/librustzcash) ati ki o farahan nipasẹ Bitcoin Core ká JSON-RPC ede. O fun awọn Difelopa ati owo integrators a mọ, Bitcoin-ibamu API fun ibaraẹnisọrọ pẹlu Zcash  nigba ti ṣiṣe Orchard (awọn julọ ikọkọ adagun) aiyipada. Ṣiṣẹda nipa [àwọn òkúta tí ó wà nínú àpáta](https://zec.rocks), A ṣe ZECD lati rọpo awọn ohun elo ti o ni agbara. `zcashd`'s wallet functionality ni igbalode, awọsanma-abinibi deployments.
+ZECD jẹ olupin apamọwọ akọkọ-alabo fun Zcash, ti a kọ lori [librustzcash](https://github.com/zcash/librustzcash) ati ki o farahan nipasẹ Bitcoin Core ká JSON-RPC ede. O fun awọn Difelopa ati owo integrators a mọ, Bitcoin-ibamu API fun ibaraẹnisọrọ pẹlu Zcash  nigba ti ṣiṣe Orchard (awọn julọ ikọkọ adagun) aiyipada. Ṣiṣẹda nipa [zec.rocks](https://zec.rocks), A ṣe ZECD lati rọpo awọn ohun elo ti o ni agbara. `zcashd`'s wallet functionality ni igbalode, awọsanma-abinibi deployments.
 
 ** Ẹya lọwọlọwọ:** 0.5.0-rc3 (Oṣù Keje 13, 2026)  pẹlu atilẹyin Ironwood (NU6.3). Fi sori ẹrọ nipasẹ `cargo install zecd` tàbí lo àwòrán Docker tí wọ́n ṣe lábẹ́ òfin.
 
@@ -31,7 +31,7 @@ ZECD jẹ olupin apamọwọ akọkọ-alabo fun Zcash, ti a kọ lori [ìwé ì
 
 ZECD ya ẹrù àpò-ìpamọ́ kúrò nínú ìfohùnṣòótọ́. Ó jẹ **òpópónà ti a yàtọ̀** tí ó wà láàrin àwọn ohun èlò àti Zebra full node, tó pèsè:
 
-- Àtúnṣe Rust tó mótó, tí ó sì jẹ́ òde òní ti a kọ sórí librustzcash (ìwé-ìmọ̀ kan náà tí ń lo Zashi àti Zodl)
+- Àtúnṣe Rust tó mótó, tí ó sì jẹ́ òde òní ti a kọ sórí librustzcash (ìwé-ìmọ̀ kan náà tí ń lo Zodl àti Zingo)
 - Àwòrán ìpamọ́-nípasẹ̀ àlẹmọ (Àwọn àdírésì Orchard bí kò bá ṣe pàtó)
 - A Bitcoin-agbekalẹ RPC ni wiwo ti o yọ awọn nilo lati ko eko Zcash pato irinṣẹ
 - Aṣayan-ara ti ko ni ipinle, irugbin-ti o le gba pada dara fun awọn gbigbe apo ati awọsanma.
@@ -311,8 +311,8 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 - [ZECD GitHub (zecrocks/zecd) Àwọn ojúewé wọ̀nyí jápọ̀ mọ́:](https://github.com/zecrocks/zecd)
 - [Ìwé Ìṣiṣẹ́ ZECD Runbook](https://github.com/zecrocks/zecd/blob/main/docs/OPERATIONS.md)
-- [àwọn òkúta tí ó wà nínú àpáta](https://zec.rocks)
+- [zec.rocks](https://zec.rocks)
 - [librustzcash  core Zcash ìkójọ ìwé àdàkọ-ìmọ̀ọ́rọ̀ (cryptography library)](https://github.com/zcash/librustzcash)
 - [ZIP-317: Ètò Owó-ìṣírò Ìpínlẹ̀ Tó Wà Níwọ̀ntúnwọ̀nsí.](https://zips.z.cash/zip-0317)
 - [ZIP-302: Àwọn Ìpínlẹ̀ Ààbò](https://zips.z.cash/zip-0302)
-- [Zodl wallet (tí ó bá líbrustzcash mu)](https://github.com/zodl-inc/zodl-ios)
+- [Zodl wallet (librustzcash-compatible)](https://github.com/zodl-inc/zodl-ios)

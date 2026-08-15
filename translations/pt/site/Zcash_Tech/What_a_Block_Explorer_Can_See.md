@@ -56,7 +56,7 @@ Se consultares os dados em bruto, os campos do remetente e do destinatário shie
 
 ## Põe isto em prática
 
-- Usa uma wallet que, por predefinição, utilize endereços shielded, como a [Zashi](https://electriccoin.co/zashi/) ou a [Ywallet](https://ywallet.app/).
+- Usa uma wallet que, por predefinição, utilize endereços shielded, como a [ZODL](https://zodl.com) ou a [Ywallet](https://ywallet.app/).
 - Quando receberes ZEC num endereço transparente, move-o para um endereço shielded antes de o gastares.
 - Paga para endereços shielded sempre que possível. Todos os pagamentos transparentes são totalmente públicos; um pagamento shielded não o é.
 

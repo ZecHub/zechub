@@ -6,7 +6,7 @@
 
 > 🇧🇷 [Versiọn na Portuguese](/zechubglobal/zcashbrasil/zcashtech/zecd)
 
-ZECD is a shielded-first wallet server for Zcash, built on [akwụkwọ ego](https://github.com/zcash/librustzcash) a na-ekpughere site n'asụsụ JSON-RPC nke Bitcoin Core. Ọ na - enye ndị mmepe na ndị ntinye ego ụgwọ ihe amaara, API dakọtara maka mmekọrịta Zcash  ma mee ka Orchard (olulu mmiri kachasị onwe ya) ndabara. Emepụtara site [zec. nkume](https://zec.rocks), ZECD ezubere iji dochie anya . `zcashd`bụ obere akpa arụ ọrụ na oge a, igwe ojii-nwa afọ deployments.
+ZECD is a shielded-first wallet server for Zcash, built on [librustzcash](https://github.com/zcash/librustzcash) a na-ekpughere site n'asụsụ JSON-RPC nke Bitcoin Core. Ọ na - enye ndị mmepe na ndị ntinye ego ụgwọ ihe amaara, API dakọtara maka mmekọrịta Zcash  ma mee ka Orchard (olulu mmiri kachasị onwe ya) ndabara. Emepụtara site [zec.rocks](https://zec.rocks), ZECD ezubere iji dochie anya . `zcashd`bụ obere akpa arụ ọrụ na oge a, igwe ojii-nwa afọ deployments.
 
 **Oge a:** 0.5.0-rc3 (July 13, 2026)  na Ironwood (NU6.3) nkwado. Wụnye site na `cargo install zecd` ma ọ bụ jiri onyinyo Docker.
 
@@ -31,7 +31,7 @@ ZECD is a shielded-first wallet server for Zcash, built on [akwụkwọ ego](htt
 
 ZECD na-ekewapụ ọrụ akpa ego site na nkwekọrịta. Ọ bụ ** akwa nchekwa echekwara nke** n'etiti ngwa yana Zebra zuru ọnụ, na -enye:
 
-- Nhazi Rust dị ọcha, nke oge a wuru na librustzcash (otu ọba akwụkwọ ahụ Zashi na Zodl)
+- Ntinye aka nke Rust dị ọcha, nke oge a wuru na librustzcash (otu ọba akwụkwọ ahụ Zodl na Zingo)
 - Nzuzo-site na ndabara (adreesị Orchard ma ọ bụrụ na ahaziri ya)
 - Otu interface RPC dakọtara na Bitcoin nke wepụrụ mkpa ịmụ ihe akụrụngwa Zcash akọwapụtara.
 - Ọdịnaya na-enweghị ala, nke nwere ike iweghachite mkpụrụ kwesịrị ekwesị maka nkwakọ ngwaahịa na igwe ojii.
@@ -311,7 +311,7 @@ Ihe ncheta echekwara. Ee (`z_sendmany`) N/A Ee (Bitcoin RPC elu)
 
 - [ZECD GitHub (zecrocks/zecd)](https://github.com/zecrocks/zecd)
 - [ZECD Operations Runbook (Akwụkwọ ndekọ ọrụ nke ụlọọrụ na-ahụ maka mmepe)](https://github.com/zecrocks/zecd/blob/main/docs/OPERATIONS.md)
-- [zec. nkume](https://zec.rocks)
+- [zec.rocks](https://zec.rocks)
 - [librustzcash  isi Zcash cryptography library](https://github.com/zcash/librustzcash)
 - [ZIP-317: Usoro Nkwụnye ego Ntugharị nke ruru eru.](https://zips.z.cash/zip-0317)
 - [ZIP-302: Nchekwa Memos echekwara](https://zips.z.cash/zip-0302)

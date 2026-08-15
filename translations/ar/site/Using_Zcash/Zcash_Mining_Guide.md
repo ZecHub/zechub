@@ -25,7 +25,7 @@ Zcash (ZEC) هي عملة مشفّرة تركّز على الخصوصية وتس
   - بالنسبة إلى GPUs: lolMiner (يدعم AMD/NVIDIA)، أو GMiner، أو miniZ (يركز على NVIDIA). نزّلها من مستودعات GitHub الرسمية (مثل github.com/Lolliedieb/lolMiner-releases).
   - بالنسبة إلى أجهزة ASIC: استخدم البرنامج الثابت/لوحة التحكم المدمجة من الشركة المصنّعة (مثل واجهة الويب الخاصة بـ Bitmain).
 - **المحفظة:** محفظة Zcash لتلقي الدفعات. الموصى به:
-  - محمية (خاصة): Zashi Wallet، Zingo (Mobile/Desktop) YWallet (mobile/desktop).
+  - محمية (خاصة): Zodl Wallet، Zingo (Mobile/Desktop) YWallet (mobile/desktop).
   - شفافة (أسهل لكن أقل خصوصية): Edge Wallet، Zecwallet Lite.
   - نزّلها من [المحافظ](https://zechub.wiki/wallets). أنشئ عنوانًا محميًا (يبدأ بـ 'zs') للخصوصية إذا كان المجمّع يدعمه.
 

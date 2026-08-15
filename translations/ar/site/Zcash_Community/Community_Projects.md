@@ -103,7 +103,7 @@
 [المنتدى](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 
 ### ZODL
-المحفظة الرئيسية لـ Zcash من Shielded Labs (المعروفة سابقًا باسم Zashi). متاحة على iOS وAndroid. تدعم ZEC المحمي وتصويت حاملي العملات في NU7.  
+المحفظة الرئيسية لـ Zcash من ZODL (المعروفة سابقًا باسم Zashi). متاحة على iOS وAndroid. تدعم ZEC المحمي وتصويت حاملي العملات في NU7.  
 [زيارة](https://zodl.app/)
 
 ### Noir Wallet

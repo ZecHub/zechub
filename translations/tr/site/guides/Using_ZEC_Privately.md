@@ -64,8 +64,7 @@ Shielded ZEC'ye ulaşmanın genel olarak iki yolu vardır.
 </div>
 
 
----
-İşte Coinbase üzerinden ZEC satın alıp Zashi'ye göndermenin nasıl yapılacağına dair bir eğitim.
+İşte Coinbase üzerinden ZEC satın alıp Zodl'a göndermenin nasıl yapılacağına dair bir eğitim.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

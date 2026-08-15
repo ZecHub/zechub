@@ -40,7 +40,7 @@ Ne tiaatwa mu no, wotumi hu ɔtare a wɔabɔ ho ban no anoano. Wubetumi ahwɛ s�
 Baguam nhwehwɛmufo ntumi nkenkan sɛ:
 
 - Nkitahodi a wɔabɔ ho ban koraa (z kosi z). Nea ɔde kɔmaa, nea ogye, ne sika dodow no tra hɔ ahintaw.
-- Nea ɔde kɔmaa anaa nea ogye no wɔ sikatua biara a wɔabɔ ho ban akyi.
+- Nea ɔde kɔmaa anaa nea ogyee wɔ sikatua biara a wɔabɔ ho ban akyi.
 - Address a wɔabɔ ho ban ankorankoro bi a ɛkari pɛ.
 - Nea ɛba sika so bere a wɔakɔ ɔtare no mu pɛn no.
 
@@ -56,7 +56,7 @@ Bisa raw data no na shielded sender ne receiver fields no san ba kwa. Ɛnyɛ nea
 
 ## Fa di dwuma
 
-- Fa sika kotoku a ɛyɛ default to address ahorow a wɔabɔ ho ban, te sɛ [Zashi na ɔkyerɛwee](https://electriccoin.co/zashi/) or [Ywallet na ɔkyerɛwee](https://ywallet.app/).
+- Fa sika kotoku a ɛyɛ default to address ahorow a wɔabɔ ho ban, te sɛ [Zodl](https://zodl.com) or [Ywallet na ɔkyerɛwee](https://ywallet.app/).
 - Sɛ wo nsa ka ZEC wɔ address a ɛda adi pefee so a, fa kɔ address a wɔabɔ ho ban mu ansa na wode adi dwuma.
 - Tua ka kɔ address ahorow a wɔabɔ ho ban so wɔ baabi a wubetumi. Tua biara a ɛda adi pefee no yɛ ɔmanfo de koraa; nea wɔabɔ no kyɛm no nyɛ saa.
 

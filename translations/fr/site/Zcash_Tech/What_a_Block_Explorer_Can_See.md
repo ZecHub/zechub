@@ -57,7 +57,7 @@ Si vous interrogez les données brutes, les champs de l’expéditeur et du dest
 
 ## Mettez-le en pratique
 
-- Utilisez un wallet qui utilise par défaut des adresses protégées, comme [Zashi](https://electriccoin.co/zashi/) ou [Ywallet](https://ywallet.app/).
+- Utilisez un wallet qui utilise par défaut des adresses protégées, comme [ZODL](https://zodl.com) ou [Ywallet](https://ywallet.app/).
 - Lorsque vous recevez des ZEC sur une adresse transparente, déplacez-les vers une adresse protégée avant de les dépenser.
 - Payez vers des adresses protégées lorsque c’est possible. Chaque paiement transparent est entièrement public ; un paiement protégé ne l’est pas.
 

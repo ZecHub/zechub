@@ -32,7 +32,7 @@ ZECD 是一个面向 Zcash、以屏蔽交易为优先的钱包服务器，基于
 
 ZECD 将钱包职责从共识层中分离出来。它是一个**专用钱包层**，位于应用程序和 Zebra 完整节点之间，提供：
 
-- 基于 librustzcash 的干净、现代 Rust 实现（与 Zashi 和 Zodl 使用同一底层库）
+- 基于 librustzcash 的干净、现代 Rust 实现（与 Zodl 和 Zingo 使用同一底层库）
 - 默认保护隐私的设计（除非另有配置，否则使用 Orchard 地址）
 - 兼容 Bitcoin 的 RPC 接口，无需学习 Zcash 专用工具
 - 适合容器化和云部署的无状态、可通过助记词恢复的架构

@@ -6,7 +6,7 @@
 
 > 🇧🇷 [Versão em Portugalfo na wɔwom](/zechubglobal/zcashbrasil/zcashtech/zecd)
 
-ZECD yɛ shielded-first wallet server ma Zcash, a wɔasi wɔ so [librustzcash a wɔde di dwuma](https://github.com/zcash/librustzcash) na wɔdaa no adi denam Bitcoin Core JSON-RPC kasa no so. Ɛma developers ne payment integrators API a wonim, a ɛne Bitcoin hyia a wɔde bɛdi nkitaho ne Zcash — bere a ɛma Orchard (private pool a ɛsen biara) yɛ default. Wɔyɛɛ no ​​denam [zec.abotan a wɔde yɛ nneɛma](https://zec.rocks), wɔayɛ ZECD sɛ wɔmfa nsi ananmu `zcashd`’s wallet dwumadie wɔ nnɛyi, cloud-native deployments mu.
+ZECD yɛ shielded-first wallet server ma Zcash, a wɔasi wɔ so [librustzcash a wɔde di dwuma](https://github.com/zcash/librustzcash) na wɔdaa no adi denam Bitcoin Core JSON-RPC kasa no so. Ɛma developers ne payment integrators API a wonim, a ɛne Bitcoin hyia a wɔde bɛdi nkitaho ne Zcash — bere a ɛma Orchard (private pool a ɛsen biara) yɛ default. Wɔyɛɛ no ​​denam [zec.rocks](https://zec.rocks), wɔayɛ ZECD sɛ wɔmfa nsi ananmu `zcashd`’s wallet dwumadie wɔ nnɛyi, cloud-native deployments mu.
 
 **Mprempren nkyerɛaseɛ:** 0.5.0-rc3 (July 13, 2026) — a Ironwood (NU6.3) mmoa ka ho. Install via `cargo install zecd` anaasɛ fa Docker mfonini a ɛyɛ aban de no di dwuma.
 
@@ -31,7 +31,7 @@ ZECD yɛ shielded-first wallet server ma Zcash, a wɔasi wɔ so [librustzcash a 
 
 ZECD tetew sika kotoku mu asɛyɛde ne adwene a wɔpene so. Ɛyɛ **wallet layer a wɔatu ho ama** a ɛte application ne Zebra full node ntam, ɛma:
 
-- Rust dwumadie a ɛho tew, nnɛyi de a wɔasi wɔ librustzcash (nwomakorabea korɔ no ara a ɛma Zashi ne Zodl ahoɔden) so .
+- Rust dwumadie a ɛho tew, nnɛyi de a wɔasi wɔ librustzcash (nwomakorabea korɔ no ara a ɛma Zodl ne Zingo ahoɔden) so .
 - Privacy-by-default design (Orchard address ahorow gye sɛ wɔahyehyɛ no ɔkwan foforo so) .
 - RPC interface a ɛne Bitcoin hyia a ɛyi hia a ɛhia sɛ wosua Zcash-specific tooling no fi hɔ
 - Stateless, aba-recoverable architecture a ɛfata ma containerized ne cloud deployments
@@ -311,7 +311,7 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 - [ZECD GitHub (zecrocks/zecd) a ɛyɛ nea ɛwɔ hɔ nnɛ.](https://github.com/zecrocks/zecd)
 - [ZECD Dwumadie Mmirikatu Nhoma](https://github.com/zecrocks/zecd/blob/main/docs/OPERATIONS.md)
-- [zec.abotan a wɔde yɛ nneɛma](https://zec.rocks)
+- [zec.rocks](https://zec.rocks)
 - [librustzcash — core Zcash cryptography nhomakorabea](https://github.com/zcash/librustzcash)
 - [ZIP-317: Ɔkwan a Wɔfa so Tua Nneɛma a Wɔde Kɔma Afoforo a Ɛfata](https://zips.z.cash/zip-0317)
 - [ZIP-302: Nkyerɛwde a Wɔabɔ ho ban](https://zips.z.cash/zip-0302)

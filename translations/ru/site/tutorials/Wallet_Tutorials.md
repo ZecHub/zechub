@@ -7,7 +7,7 @@
 Ниже приведён список руководств по кошелькам, которые помогут вам начать работу с ZEC.
 
 
-- Кошелёк Zashi 
+- Кошелёк Zodl
 
 [![Video Thumbnail](/content-images/hqdefault-a4a2a5de7f.webp)](https://www.youtube.com/watch?v=G92zBIr-Wms)
 

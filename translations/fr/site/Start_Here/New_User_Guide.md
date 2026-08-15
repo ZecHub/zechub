@@ -7,7 +7,7 @@
 ## TL;DR
 
 - **Achetez des ZEC** sur une plateforme d’échange prise en charge (Gemini, BitcoinVN, etc.)
-- **Configurez un portefeuille protégé** (Zashi, YWallet ou ZODL recommandés)
+- **Configurez un portefeuille protégé** (Zodl, Zingo ou Zkool recommandés)
 - **Retirez** vos ZEC de la plateforme d’échange vers votre portefeuille protégé
 - **Envoyez une transaction protégée** — votre premier paiement privé sur Zcash
 - **Rejoignez la communauté** sur le forum ou Discord

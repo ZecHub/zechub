@@ -7,7 +7,7 @@
 A continuación se muestra una lista de tutoriales de carteras que pueden ayudarte a comenzar con ZEC.
 
 
-- Cartera Zashi 
+- Cartera ZODL
 
 [![Miniatura del video](/content-images/hqdefault-a4a2a5de7f.webp)](https://www.youtube.com/watch?v=G92zBIr-Wms)
 

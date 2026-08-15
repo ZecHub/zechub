@@ -32,10 +32,10 @@ ZECD, [librustzcash](https://github.com/zcash/librustzcash) üzerine inşa edilm
 
 ZECD, cüzdan sorumluluğunu konsensüsten ayırır. Uygulamalar ile bir Zebra tam düğümü arasında duran **özel bir cüzdan katmanıdır** ve şunları sağlar:
 
-- librustzcash üzerine kurulu temiz, modern bir Rust uygulaması (Zashi ve Zodl'ı güçlendiren aynı kütüphane)
+- librustzcash üzerine kurulu temiz, modern bir Rust uygulaması (Zodl ve Zingo'yu güçlendiren aynı kütüphane)
 - Varsayılan olarak gizlilik odaklı tasarım (aksi yapılandırılmadıkça Orchard adresleri)
 - Zcash'e özgü araçları öğrenme ihtiyacını ortadan kaldıran Bitcoin uyumlu RPC arayüzü
-- Kapsayıcılı ve bulut dağıtımlarına uygun, durumsuz ve seed'den geri kazanılabilir mimari
+- Kapsayıcı ve bulut dağıtımlarına uygun, durumsuz ve seed'den geri kazanılabilir mimari
 
 ---
 

@@ -56,7 +56,7 @@ Nutzer können ZEC zwischen transparenten und shielded Adressen senden. Für max
 
 ### Unified Addresses
 
-Moderne Zcash-Wallets wie [Zashi](https://electriccoin.co/zashi/) verwenden **Unified Addresses**, die sowohl transparente als auch shielded Empfänger in einer einzigen Adresse kombinieren. Das vereinfacht die Benutzererfahrung und nutzt standardmäßig das höchstmögliche verfügbare Datenschutzniveau.
+Moderne Zcash-Wallets wie [Zodl](https://zodl.com) verwenden **Unified Addresses**, die sowohl transparente als auch shielded Empfänger in einer einzigen Adresse kombinieren. Das vereinfacht die Benutzererfahrung und nutzt standardmäßig das höchstmögliche verfügbare Datenschutzniveau.
 
 ### Warum Datenschutz wichtig ist
 
@@ -82,7 +82,7 @@ Verbinde eine kompatible Self-Custody-Wallet. ShapeShift unterstützt eine Reihe
 - **Keplr** (für Cosmos-basierte Vermögenswerte)
 - **WalletConnect-kompatible Wallets**
 
-Da du in oder aus ZEC tauschst, stelle sicher, dass du eine Zcash-kompatible Wallet (zum Beispiel Zashi) bereit hast, um deine Gelder zu empfangen.
+Da du in oder aus ZEC tauschst, stelle sicher, dass du eine Zcash-kompatible Wallet (zum Beispiel ZODL) bereit hast, um deine Gelder zu empfangen.
 
 ### Schritt 3: Dein Swap-Paar auswählen
 
@@ -98,7 +98,7 @@ Prüfe die Transaktionsdetails und bestätige sie. Der Swap wird on-chain über 
 
 ### Schritt 6: Dein ZEC shielden
 
-Sobald dein ZEC angekommen ist, verwende die **Shield**-Funktion deiner Zcash-Wallet (verfügbar in Wallets wie Zashi), um die Gelder in den shielded Pool zu verschieben. So wird sichergestellt, dass dein Guthaben und zukünftige Transaktionen vollständig privat bleiben.
+Sobald dein ZEC angekommen ist, verwende die **shield**-Funktion deiner Zcash-Wallet (verfügbar in Wallets wie ZODL), um die Gelder in den shielded Pool zu verschieben. So wird sichergestellt, dass dein Guthaben und zukünftige Transaktionen vollständig privat bleiben.
 
 ### Unterstützte Cross-Chain-Paare
 
@@ -165,7 +165,7 @@ Die Integration von ShapeShift und Zcash stellt einen bedeutenden Fortschritt f�
 
 [Offizielle Zcash-Website](https://z.cash/)
 
-[Zashi Wallet (von Electric Coin Co.)](https://electriccoin.co/zashi/)
+[Zodl Wallet](https://zodl.com)
 
 [ShapeShift DAO Governance (FOX-Token)](https://shapeshift.com/fox-token)
 

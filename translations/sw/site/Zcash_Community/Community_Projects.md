@@ -102,7 +102,7 @@ Discord bot kutoa seamless na salama upatikanaji wa shughuli Zcash.
 [Kutembelea](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 
 ### ZODL
-Flagship Zcash mkoba kutoka Shielded Labs (zamani Zashi). Inapatikana kwenye iOS na Android. Inasaidia walled ZEC na NU7 coinholder kupiga kura. 
+Flagship Zcash mkoba kutoka ZODL (zamani Zashi). Inapatikana kwenye iOS na Android. Inasaidia walled ZEC na NU7 coinholder kupiga kura. 
 [Kutembelea](https://zodl.app/)
 
 ### Mkoba Noir

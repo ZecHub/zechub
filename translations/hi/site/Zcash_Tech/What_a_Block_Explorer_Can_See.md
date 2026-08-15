@@ -57,7 +57,7 @@ Zcash में दो प्रकार के पते होते है�
 
 ## इसे व्यवहार में लागू करें
 
-- ऐसा wallet उपयोग करें जो default रूप से shielded addresses का इस्तेमाल करता हो, जैसे [Zashi](https://electriccoin.co/zashi/) या [Ywallet](https://ywallet.app/)।
+- ऐसा wallet उपयोग करें जो default रूप से shielded addresses का इस्तेमाल करता हो, जैसे [Zodl](https://zodl.com) या [Ywallet](https://ywallet.app/)।
 - जब आपको किसी transparent address पर ZEC प्राप्त हो, तो उसे खर्च करने से पहले एक shielded address में स्थानांतरित कर दें।
 - जहाँ संभव हो, shielded addresses पर भुगतान करें। हर transparent भुगतान पूरी तरह सार्वजनिक होता है; shielded भुगतान ऐसा नहीं होता।
 

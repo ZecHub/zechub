@@ -6,7 +6,7 @@
 
 > 🇧🇷 [Versión en Português Tafsiri ya Kihispania](/zechubglobal/zcashbrasil/zcashtech/zecd)
 
-ZECD ni wallet server-kinga ya kwanza kwa ajili ya Zcash, kujengwa juu ya [kitabu cha fedha za ziada](https://github.com/zcash/librustzcash) Ni inatoa watengenezaji na malipo integrators ya kawaida, Bitcoin-ambayo inaendana API kwa kuingiliana na Zcash  wakati kufanya Orchard (majivu zaidi binafsi) default. Iliyotengenezwa na [zec.miamba](https://zec.rocks), ZECD imeundwa kuchukua nafasi ya `zcashd`'s mfuko wa fedha utendaji katika kisasa, wingu-asili deployments.
+ZECD ni wallet server-kinga ya kwanza kwa ajili ya Zcash, kujengwa juu ya [librustzcash](https://github.com/zcash/librustzcash) Ni inatoa watengenezaji na malipo integrators ya kawaida, Bitcoin-ambayo inaendana API kwa kuingiliana na Zcash  wakati kufanya Orchard (majivu zaidi binafsi) default. Iliyotengenezwa na [zec.rocks](https://zec.rocks), ZECD imeundwa kuchukua nafasi ya `zcashd`'s mfuko wa fedha utendaji katika kisasa, wingu-asili deployments.
 
 ** Toleo la sasa:** 0.5.0-rc3 (Julai 13, 2026)  na msaada wa Ironwood (NU6.3). Weka kupitia `cargo install zecd` au kutumia picha rasmi Docker.
 
@@ -31,7 +31,7 @@ ZECD ni wallet server-kinga ya kwanza kwa ajili ya Zcash, kujengwa juu ya [kitab
 
 ZECD hutenganisha jukumu la mkoba kutoka makubaliano. Ni ** safu ya mfuko wa fedha maalum** ambayo inakaa kati ya maombi na node kamili ya Zebra, ikitoa:
 
-- safi, kisasa Rust utekelezaji kujengwa juu ya librustzcash (Biblioteca hiyo nguvu Zashi na Zodl)
+- safi, kisasa Rust utekelezaji kujengwa juu ya librustzcash (Biblioteca hiyo nguvu Zodl na Zingo)
 - Faragha-kwa default kubuni (Orchard anwani isipokuwa vinginevyo umeboreshwa)
 - Bitcoin-ambayo inaendana RPC interface kwamba kuondoa haja ya kujifunza Zcash maalum zana za kazi
 - Stateless, mbegu-kupatikana usanifu mzuri kwa ajili ya containerized na wingu deployments
@@ -311,7 +311,7 @@ Wingu-asili. Hapana. Sehemu ya kweli, ndiyo.
 
 - [ZECD GitHub (zecrocks/zecd)](https://github.com/zecrocks/zecd)
 - [ZECD Operations Runbook (Kitabu cha Uendeshaji wa Shughuli)](https://github.com/zecrocks/zecd/blob/main/docs/OPERATIONS.md)
-- [zec.miamba](https://zec.rocks)
+- [zec.rocks](https://zec.rocks)
 - [librustzcash  msingi Zcash maktaba ya cryptography](https://github.com/zcash/librustzcash)
 - [ZIP-317: Utaratibu wa Ada ya Kuhamisha Kiasi.](https://zips.z.cash/zip-0317)
 - [ZIP-302: Shielded Memos](https://zips.z.cash/zip-0302)

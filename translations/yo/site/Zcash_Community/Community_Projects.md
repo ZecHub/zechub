@@ -102,7 +102,7 @@ Discord bot tí ó ń pèsè ààyè àti ìwífún tó dáàbò bo sí àwọn 
 [Ìbẹ̀wò](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 
 ### ZODL (ì í ì ë ¤)
-Flagship Zcash wallet lati Shielded Labs (tẹlẹ Zashi). O wa lori iOS ati Android. Ṣe atilẹyin ibojuwo ti o ni aabo ZEC ati NU7. 
+Flagship Zcash wallet lati ọdọ ZODL (tẹlẹ Zashi). O wa lori iOS ati Android. Ṣe atilẹyin ibojuwo ti o ni aabo ZEC ati NU7. 
 [Ìbẹ̀wò](https://zodl.app/)
 
 ### Àpò-ìwé Noir

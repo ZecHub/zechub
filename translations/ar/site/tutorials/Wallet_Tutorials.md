@@ -7,7 +7,7 @@
 فيما يلي قائمة بالدروس التعليمية الخاصة بالمحافظ التي يمكن أن تساعدك على البدء باستخدام ZEC.
 
 
-- محفظة Zashi 
+- محفظة ZODL
 
 [![صورة مصغّرة للفيديو](/content-images/hqdefault-a4a2a5de7f.webp)](https://www.youtube.com/watch?v=G92zBIr-Wms)
 

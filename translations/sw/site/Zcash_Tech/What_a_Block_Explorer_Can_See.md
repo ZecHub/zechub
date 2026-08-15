@@ -56,7 +56,7 @@ Takwimu za kiwango cha ulinzi wa umma hazingatii faragha.* Watafiti wanaweza kup
 
 ## Tumia shauri hilo maishani mwako.
 
-- Tumia mkoba kwamba defaults kwa anwani ulinzi, kama vile [Zashi (mwanamke)](https://electriccoin.co/zashi/) or [Kipaji cha Ywallet](https://ywallet.app/).
+- Tumia mkoba kwamba defaults kwa anwani ulinzi, kama vile [Zodl](https://zodl.com) or [Kipaji cha Ywallet](https://ywallet.app/).
 - Wakati kupokea ZEC katika anwani ya uwazi, hoja ni kwa anwani ulinzi kabla ya kutumia.
 - Kulipa kwa anwani za ulinzi ambapo unaweza. Kila malipo ya uwazi ni wazi kabisa; moja iliyohifadhiwa sio.
 

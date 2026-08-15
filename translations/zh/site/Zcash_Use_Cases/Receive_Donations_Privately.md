@@ -51,7 +51,7 @@ Zcash 的屏蔽交易会隐藏：
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="工具箱图标"/> 你需要准备什么
 
 - 一个支持屏蔽地址的 Zcash 钱包：
-  - Zashi
+  - Zodl
   - YWallet
   - 其他受支持的钱包
 

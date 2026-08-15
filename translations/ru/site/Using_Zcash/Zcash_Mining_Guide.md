@@ -25,7 +25,7 @@ Zcash (ZEC) — это криптовалюта, ориентированная 
   - Для GPU: lolMiner (поддерживает AMD/NVIDIA), GMiner или miniZ (ориентирован на NVIDIA). Загружайте из официальных репозиториев GitHub (например, github.com/Lolliedieb/lolMiner-releases).
   - Для ASIC: используйте встроенную прошивку/панель управления производителя (например, веб-интерфейс Bitmain).
 - **Кошелёк:** Кошелёк Zcash для получения выплат. Рекомендуются:
-  - Shielded (приватные): Zashi Wallet, Zingo (Mobile/Desktop) YWallet (mobile/desktop).
+  - Shielded (приватные): Zodl Wallet, Zingo (Mobile/Desktop) YWallet (mobile/desktop).
   - Transparent (проще, но менее приватные): Edge Wallet, Zecwallet Lite.
   - Загружайте с [кошельки](https://zechub.wiki/wallets). Создайте shielded-адрес (начинается с 'zs') для приватности, если пул его поддерживает.
 

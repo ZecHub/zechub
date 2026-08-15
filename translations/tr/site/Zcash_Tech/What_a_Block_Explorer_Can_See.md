@@ -57,7 +57,7 @@ Ham veriyi sorguladığınızda, shielded gönderen ve alıcı alanları boş d�
 
 ## Bunu pratiğe dökün
 
-- Varsayılan olarak shielded adresleri kullanan bir cüzdan kullanın; örneğin [Zashi](https://electriccoin.co/zashi/) veya [Ywallet](https://ywallet.app/).
+- Varsayılan olarak shielded adresleri kullanan bir cüzdan kullanın; örneğin [ZODL](https://zodl.com) veya [Ywallet](https://ywallet.app/).
 - ZEC'i şeffaf bir adreste aldığınızda, harcamadan önce onu bir shielded adrese taşıyın.
 - Mümkün olan yerlerde shielded adreslere ödeme yapın. Her şeffaf ödeme tamamen herkese açıktır; shielded olan ise değildir.
 

@@ -56,7 +56,7 @@ Awon ti won n wa awon eniyan ko le ka:
 
 ## Máa fi ohun tó o kọ́ sílò.
 
-- Lo apamọwọ ti o ṣe deede si awọn adirẹsi aabo, gẹgẹbi: [Zashi (ìyẹn ọmọbìnrin)](https://electriccoin.co/zashi/) or [Ywallet](https://ywallet.app/).
+- Lo apamọwọ ti o ṣe deede si awọn adirẹsi aabo, gẹgẹbi: [Zodl (ì í ì)](https://zodl.com) or [Ywallet](https://ywallet.app/).
 - Nígbà tí o bá gba ZEC ní àdírẹ́sì tó ṣe kedere, kó ó lọ sí adirẹsi ààbò kí o to ná an.
 - Sanwo si adirẹsi ti a fi bo ibi tí o bá le ṣe é. Gbogbo ìsanwó tó jẹ́ àlàfo ni ó máa ń di gbangba; èyí tí a fi bò kì í rí bẹ́ẹ̀.
 

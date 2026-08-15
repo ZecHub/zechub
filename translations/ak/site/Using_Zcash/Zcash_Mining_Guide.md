@@ -25,7 +25,7 @@ Saa akwankyerɛ yi twe adwene si Zcash a wɔde ankorankoro hardware di dwuma so 
   - Wɔ GPU ahorow ho: lolMiner (ɛboa AMD/NVIDIA), GMiner, anaa miniZ (ɛde n’adwene si NVIDIA so). Twe fi GitHub repos a ɛyɛ aban de (e.g., github.com/Lolliedieb/lolMiner-releases).
   - Wɔ ASICs ho: Fa firmware/dashboard a wɔahyɛ no yɛfo no di dwuma (e.g., Bitmain wɛb interface).
 - **Wallet:** Zcash sika kotoku a wɔde gye sika a wotua. Susu ma:
-  - Wɔabɔ ho ban (ankorankoro): Zashi Wallet, Zingo (Mobile/Desktop) YWallet (mobile/desktop).
+  - Wɔabɔ ho ban (ankorankoro): Zodl Sikakorabea, Zingo (Mobile/Desktop) YWallet (mobile/desktop).
   - Ɛyɛ nea ɛda adi pefee (ɛyɛ mmerɛw nanso ɛnyɛ kokoam de): Edge Wallet, Zecwallet Lite.
   - Twe fi [sika kotoku](https://zechub.wiki/wallets). Yɛ address a wɔabɔ ho ban (ɛhyɛ aseɛ wɔ 'zs') ma kokoamsɛm sɛ pool no boa a.
 
@@ -44,7 +44,7 @@ Saa akwankyerɛ yi twe adwene si Zcash a wɔde ankorankoro hardware di dwuma so 
 ### Anamɔn 2: Siesie Wo Hardware no
 - Wɔ GPU ahorow ho no:
   1. Fa GPU ahorow hyɛ wo PC mu na fa draiver ahorow no foforo (NVIDIA: GeForce Experience; AMD: Radeon Software).
-  2. Overclock sɛ wowɔ osuahu a (fa MSI Afterburner di dwuma ma ɛyɛ den; fa si w’ani so sɛ +100-200 core clock, -500 memory ma efficiency).
+  2. Overclock sɛ wowɔ osuahu a (fa MSI Afterburner di dwuma ma ɛyɛ den; fa w’ani si so sɛ +100-200 core clock, -500 memory ma efficiency).
 - Wɔ ASIC ahorow ho no:
   1. Fa ASIC no bata tumi ne Ethernet ho.
   2. Hwehwɛ ne IP address denam adwinnade te sɛ Advanced IP Scanner anaa nea ɔyɛe no app so.
@@ -61,10 +61,10 @@ Mining pools kyekyɛ adwuma na wɔkyɛ akatua a egyina wo hashrate a wode ama no
 - **ViaBTC (zec.viabtc.com)**: 2% fee (PPS +), dashboard a ɛyɛ mmerɛw sɛ wode bedi dwuma, wiase nyinaa server ahorow.
 - **AntPool (zec.antpool.com)**: 1% fee, fi Bitmain, eye ma ASICs (~ 494 MSol / s).
 - **Sovright (mining.sovright.com)**: Zcash pool a wɔasi wɔ Stratum V2 so, mprempren ɛreyɛ adwuma sɛ ɔmanfo testnet. No live ZEC payouts yet, enti fa no sɛ ɔkwan a wobɛfa so asɔ wo nhyehyɛe ahwɛ sen sɛ ɛbɛyɛ sika a wonya fibea. Hwɛ ɔfã a wɔahyira so wɔ ase hɔ no na woanya nsɛm no mu nsɛm.
-- Afoforo: Kryptex Pool, Luxor (hwɛ poolwatch.io/coin/zcash ma bere ankasa mu akontaabu).
+- Afoforo: Kryptex Pool, Luxor (hwɛ poolwatch.io/coin/zcash na woanya bere ankasa mu akontaabu).
 
 1. Kɔ pool no wɛbsaet na yɛ akontaabu (email anaasɛ wonkyerɛw wɔn din mma ebinom te sɛ 2Miners).
-2. Fa wo Zcash sika kotoku address ka nhyehyɛe a wode tua ho ka no mu.
+2. Fa wo Zcash sika kotoku address ka nhyehyɛe a wode tua sika no ho.
 3. Hyɛ pool no stratum server (e.g., zec.2miners.com:1010) ne port no nsow.
 
 ### Anamɔn 4: Install na Hyehyɛ Mining Software
@@ -132,7 +132,7 @@ Sovright pool no tu mmirika wɔ ɔmanfo Zcash testnet (NU6, Stratum V2), ɛnyɛ 
 
 ### Relay Ntrɛwmu (relay.sovright.com) .
 
-Sovright soronko yɛ ɔmanfoɔ block relay network wɔ Zcash mainnet so. Sɛ ɔtare bi nya block bi a, sɛnea saa block no du ntɛmntɛm no na ɛkyerɛ mpɛn dodow a ɛbɛyɛ nyisaa, a ɛkyerɛ sɛ ɛhwere ntrɛwmu mmirikatu no na akatua a ɛwɔ ho no ayera. Relay no de blocks kɔ anim wɔ mpɔtam anan so denam compact block relay a ɛwɔ anim mfomso nteɛso so.
+Sovright soronko yɛ ɔmanfoɔ block relay network wɔ Zcash mainnet so. Sɛ ɔtare bi nya block bi a, sɛnea saa block no du ntɛmntɛm no na ɛkyerɛ mpɛn dodow a ɛbɛyɛ nyisaa, a ɛkyerɛ sɛ ɛhwere ntrɛwmu mmirikatu no na akatua a ɛwɔ ho no ayera. Relay no de blocks kɔ anim wɔ mpɔtam anan mu denam compact block relay a ɛwɔ anim mfomso nteɛso so.
 
 Ɔmanfoɔ dashboard no kyerɛ nkɛntɛnsoɔ no live: relay-connected regions hu blocks foforɔ wɔ berɛ a plain peer to peer gossip gye no nnu fã koraa, na dashboard no di network no live orphan rate akyi.
 

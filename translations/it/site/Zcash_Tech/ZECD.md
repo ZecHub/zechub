@@ -32,7 +32,7 @@ ZECD è un server wallet shielded-first per Zcash, costruito su [librustzcash](h
 
 ZECD separa la responsabilità del wallet dal consenso. È un **livello wallet dedicato** che si colloca tra le applicazioni e un nodo completo Zebra, offrendo:
 
-- Un'implementazione Rust pulita e moderna costruita su librustzcash (la stessa libreria che alimenta Zashi e Zodl)
+- Un'implementazione Rust pulita e moderna costruita su librustzcash (la stessa libreria che alimenta Zodl e Zingo)
 - Un design privacy-by-default (indirizzi Orchard salvo diversa configurazione)
 - Un'interfaccia RPC compatibile con Bitcoin che elimina la necessità di imparare strumenti specifici di Zcash
 - Un'architettura stateless, recuperabile da seed, adatta a deploy containerizzati e cloud

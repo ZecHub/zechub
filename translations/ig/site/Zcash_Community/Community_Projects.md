@@ -102,7 +102,7 @@ Discord bot na-enye ohere enweghị nsogbu ma nwee nchekwa maka azụmahịa Zca
 [Ịga leta ya .](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 
 ### ZODL (n'asụsụ Bekee)
-Flagship Zcash wallet from Shielded Labs (formerly Zashi). Available on iOS and Android. Supports shielded ZEC and NU7 coinholder voting.  
+Flagship Zcash wallet from ZODL (formerly Zashi). Available on iOS and Android. Supports shielded ZEC and NU7 coinholder voting.  
 [Ịga leta ya .](https://zodl.app/)
 
 ### Akpa ego ojii

@@ -57,7 +57,7 @@ Zcash 有两种地址。
 
 ## 付诸实践
 
-- 使用默认采用屏蔽地址的钱包，例如 [Zashi](https://electriccoin.co/zashi/) 或 [Ywallet](https://ywallet.app/)。
+- 使用默认采用屏蔽地址的钱包，例如 [Zodl](https://zodl.com) 或 [Ywallet](https://ywallet.app/)。
 - 当你在透明地址收到 ZEC 时，在花费之前先将其转入屏蔽地址。
 - 在可能的情况下，向屏蔽地址付款。每一笔透明支付都是完全公开的；而屏蔽支付则不是。
 

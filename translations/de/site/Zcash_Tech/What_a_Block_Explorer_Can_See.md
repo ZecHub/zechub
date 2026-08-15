@@ -57,7 +57,7 @@ Wenn man die Rohdaten abfragt, bleiben die Felder für shielded Sender und Empf�
 
 ## So setzt du es in die Praxis um
 
-- Nutze eine Wallet, die standardmäßig shielded Adressen verwendet, wie [Zashi](https://electriccoin.co/zashi/) oder [Ywallet](https://ywallet.app/).
+- Nutze eine Wallet, die standardmäßig shielded Adressen verwendet, wie [ZODL](https://zodl.com) oder [Ywallet](https://ywallet.app/).
 - Wenn du ZEC an einer transparenten Adresse empfängst, verschiebe es in eine shielded Adresse, bevor du es ausgibst.
 - Zahle, wo immer möglich, an shielded Adressen. Jede transparente Zahlung ist vollständig öffentlich; eine shielded Zahlung ist es nicht.
 
