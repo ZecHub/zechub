@@ -3741,10 +3741,10 @@
       "edited": false
     },
     "Using_Zcash/Zcash_Mining_Pools.md": {
-      "src": "sha256:bac3f385f45ef2020284984baf943b3d308c282a63594184bcadac2b04f1e296",
-      "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
+      "src": "sha256:def1f5800394626f7ffe7be767115fd172e0a2adcecb7a7316c828016e7c484e",
+      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "seed",
       "tool": "gpt-5.4",
       "edited": false
     },
@@ -10245,10 +10245,10 @@
       "edited": false
     },
     "Using_Zcash/Zcash_Mining_Pools.md": {
-      "src": "sha256:bac3f385f45ef2020284984baf943b3d308c282a63594184bcadac2b04f1e296",
-      "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
+      "src": "sha256:def1f5800394626f7ffe7be767115fd172e0a2adcecb7a7316c828016e7c484e",
+      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "seed",
       "tool": "gpt-5.4",
       "edited": false
     },
@@ -13497,10 +13497,10 @@
       "edited": false
     },
     "Using_Zcash/Zcash_Mining_Pools.md": {
-      "src": "sha256:bac3f385f45ef2020284984baf943b3d308c282a63594184bcadac2b04f1e296",
-      "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
+      "src": "sha256:def1f5800394626f7ffe7be767115fd172e0a2adcecb7a7316c828016e7c484e",
+      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "seed",
       "tool": "gpt-5.4",
       "edited": false
     },
@@ -15123,11 +15123,11 @@
       "edited": false
     },
     "Using_Zcash/Zcash_Mining_Pools.md": {
-      "src": "sha256:bac3f385f45ef2020284984baf943b3d308c282a63594184bcadac2b04f1e296",
-      "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
+      "src": "sha256:def1f5800394626f7ffe7be767115fd172e0a2adcecb7a7316c828016e7c484e",
+      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "gpt-5.4",
+      "mode": "seed",
+      "tool": "qwen3-14b",
       "edited": false
     },
     "Using_Zcash/Zecmap.md": {
@@ -20001,10 +20001,10 @@
       "edited": false
     },
     "Using_Zcash/Zcash_Mining_Pools.md": {
-      "src": "sha256:bac3f385f45ef2020284984baf943b3d308c282a63594184bcadac2b04f1e296",
-      "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
+      "src": "sha256:def1f5800394626f7ffe7be767115fd172e0a2adcecb7a7316c828016e7c484e",
+      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "seed",
       "tool": "gpt-5.4",
       "edited": false
     },
@@ -23253,10 +23253,10 @@
       "edited": false
     },
     "Using_Zcash/Zcash_Mining_Pools.md": {
-      "src": "sha256:bac3f385f45ef2020284984baf943b3d308c282a63594184bcadac2b04f1e296",
-      "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
+      "src": "sha256:def1f5800394626f7ffe7be767115fd172e0a2adcecb7a7316c828016e7c484e",
+      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "seed",
       "tool": "gpt-5.4",
       "edited": false
     },
@@ -24879,10 +24879,10 @@
       "edited": false
     },
     "Using_Zcash/Zcash_Mining_Pools.md": {
-      "src": "sha256:bac3f385f45ef2020284984baf943b3d308c282a63594184bcadac2b04f1e296",
-      "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
+      "src": "sha256:def1f5800394626f7ffe7be767115fd172e0a2adcecb7a7316c828016e7c484e",
+      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "seed",
       "tool": "gpt-5.4",
       "edited": false
     },
