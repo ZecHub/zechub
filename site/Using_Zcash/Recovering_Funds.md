@@ -63,5 +63,5 @@ Please check out the detailed Zkool documentation for another avenue for fund re
 
 ZExCavator is a tool that recovers (excavates!) possibly lost ZEC:
 
-- [ZExCavator](https://zexcavator.com/)
+- ZExCavator (site no longer active)
 - [Github](https://github.com/zingolabs/zexcavator)

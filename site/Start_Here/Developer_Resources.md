@@ -55,7 +55,7 @@ Building understanding of how dependencies are reviewed & maintained by the team
 
 [Zcash wallet Warp2-Sync by Hanh](https://github.com/hhanh00/warp2)
 
-[Zcash Testnet Explorer](https://testnet.zcashblockexplorer.com/)
+Zcash Testnet Explorer (site no longer active)
 
 
 This list was compiled from recommendations developers from the Zcash Foundation & ECC provided. 

@@ -37,7 +37,7 @@ Particularly, in Venezuela, there are a bunch of places (physical places and onl
 
 1.  **Sheila Vargas**  | Foodie | Blogger | Entrepreneur | Mentorship 
 
-[@SheEmprende_ on Social Media](https://www.sheemprende.com/enlaces-sheemprende/). She jumped into the stage thanks to her famous (and delicious) **[Galletas de la FeliZidad](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
+@SheEmprende_ on Social Media (link no longer active). She jumped into the stage thanks to her famous (and delicious) **[Galletas de la FeliZidad](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
 
 Besides her cookies, she offers other services and the best of all is this: you can pay with ZEC!
 
@@ -85,7 +85,7 @@ Rosa smiles proudly showing that she accepts **Zcash.**
 
 ![Screenshot_20230829-232755.png](/content-images/_unavailable.svg)
 
-**Website**: [https://somosdulceros.com/](https://somosdulceros.com/) 
+**Website**: somosdulceros.com (site no longer active) 
 
 **Social media:** [Instagram](https://www.instagram.com/somos_dulceros) | [X Platform](https://twitter.com/RosaMRangel) | [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
@@ -318,7 +318,7 @@ Delivery service | Take away | Reservations
 
 ![BackgroundEraser_20230901_114615839.png](/content-images/_unavailable.svg)
 
-**Website**: [www.alleginiristorante.com](http://www.alleginiristorante.com) (in construction)
+**Website**: www.alleginiristorante.com (domain no longer active)
 
 **Social media** 
 

@@ -11,8 +11,8 @@ published: 2024-01-12
 
 
 
-**[Firn Protocol](https://app.firn.cash/)**: Firn is the first-ever zero-knowledge privacy platform in the account-based model, and introduces pluggable, flexible privacy to Ethereum-based chains.Using zero-knowledge proofs, Firn delivers secure, efficient funds privacy for users of Ethereum and Ethereum-based L2s. **HOW IT WORKS?**
-To use Firn, deposit ETH into the protocol. Once you have a Firn balance, you can privately transfer funds to other Firn users, or engage with other protocols, like Uniswap. You can also privately withdraw funds back to the network. Firn charges a small fee, of 0.79%, on all ETH with drawals. These fees are disbursed proportionally to holders of FIRN Token - [Whitepaper](https://firn.cash/whitepaper.pdf) 
+**Firn Protocol (site no longer active)**: Firn is the first-ever zero-knowledge privacy platform in the account-based model, and introduces pluggable, flexible privacy to Ethereum-based chains.Using zero-knowledge proofs, Firn delivers secure, efficient funds privacy for users of Ethereum and Ethereum-based L2s. **HOW IT WORKS?**
+To use Firn, deposit ETH into the protocol. Once you have a Firn balance, you can privately transfer funds to other Firn users, or engage with other protocols, like Uniswap. You can also privately withdraw funds back to the network. Firn charges a small fee, of 0.79%, on all ETH with drawals. These fees are disbursed proportionally to holders of FIRN Token - Whitepaper (no longer available) 
 
 
 **[RAILGUN](https://railgun.org/):** As a layer-1 smart contract,Railgun exists to be a Private transfers and DeFi infrastructure owing its existence to Ethereum, Polygon, Binance Smart Chain, and Arbitrum.
