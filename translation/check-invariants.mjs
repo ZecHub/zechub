@@ -51,6 +51,14 @@ const root = fileURLToPath(new URL("../", import.meta.url));
 const VALID_ENGINES = new Set(["llm", "nllb", "gt"]);
 const VALID_MODES = new Set(["seed", "diff", "full"]);
 
+// Every git read below is sized for a corpus that grows. execFileSync defaults
+// maxBuffer to 1 MiB and throws ENOBUFS past it, which is not a size this data
+// will stay under: the manifest alone crossed 1 MiB in August 2026, and
+// `git ls-files translations/` is already 210 KB at 18 locales × 203 pages and
+// scales with their product. scripts/check-protected-terms.mjs uses the same
+// bound for the same reason.
+const MAX_GIT_OUTPUT = 64 * 1024 * 1024;
+
 const violations = [];
 const fail = (msg) => violations.push(msg);
 
@@ -80,7 +88,7 @@ const locales = Object.keys(manifest);
 function localeDirs() {
   let out;
   try {
-    out = execFileSync("git", ["ls-files", "translations/"], { cwd: root, encoding: "utf8" });
+    out = execFileSync("git", ["ls-files", "translations/"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
   } catch {
     return new Set();
   }
@@ -113,7 +121,7 @@ function localeFiles(loc) {
   let out;
   try {
     out = execFileSync("git", ["ls-files", `translations/${loc}/site/`], {
-      cwd: root, encoding: "utf8",
+      cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT,
     });
   } catch {
     return new Set();
@@ -179,19 +187,35 @@ for (const loc of locales) {
 
 // ---- change-tracking (git, optional) --------------------------------------
 
+// Set when --base was passed but carries no usable value. Distinct from "no
+// base requested", because ASKING for change-tracking and silently not getting
+// it is precisely the failure this block exists to prevent. CI invokes
+// `--base "$BASE_REF_OUT"`, so an empty variable arrives here as "".
+let baseArgInvalid = false;
+
 function resolveBase() {
-  const explicit = argOf("--base");
-  if (explicit) return explicit;
+  const i = process.argv.indexOf("--base");
+  if (i >= 0) {
+    const explicit = process.argv[i + 1];
+    if (!explicit || explicit.startsWith("--")) {
+      fail(
+        "--base was given without a ref value — refusing to skip change-tracking silently. " +
+        "Omit --base entirely to skip it deliberately.",
+      );
+      baseArgInvalid = true;
+      return null;
+    }
+    return explicit;
+  }
   if (process.env.GITHUB_BASE_REF) return `origin/${process.env.GITHUB_BASE_REF}`;
   return null;
 }
-function argOf(name) {
-  const i = process.argv.indexOf(name);
-  return i >= 0 ? process.argv[i + 1] : undefined;
-}
 
 const base = resolveBase();
-if (!base) {
+if (baseArgInvalid) {
+  // Already reported. Do not also print the notice below, which would read as
+  // a deliberate skip.
+} else if (!base) {
   console.log("notice: no base ref (--base / GITHUB_BASE_REF) — skipping change-tracking invariant.");
 } else {
   // Fail closed: a REQUESTED base that can't be resolved must NOT silently skip
@@ -199,7 +223,7 @@ if (!base) {
   // only history-dependent invariant while still exiting green).
   let baseSha = null;
   try {
-    baseSha = execFileSync("git", ["rev-parse", "--verify", "--quiet", `${base}^{commit}`], { cwd: root, encoding: "utf8" }).trim();
+    baseSha = execFileSync("git", ["rev-parse", "--verify", "--quiet", `${base}^{commit}`], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT }).trim();
   } catch {
     baseSha = null;
   }
@@ -208,27 +232,76 @@ if (!base) {
   } else {
     let mergeBase = baseSha;
     try {
-      mergeBase = execFileSync("git", ["merge-base", baseSha, "HEAD"], { cwd: root, encoding: "utf8" }).trim();
+      mergeBase = execFileSync("git", ["merge-base", baseSha, "HEAD"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT }).trim();
     } catch {
       mergeBase = baseSha; // divergent/unrelated history → direct diff against base
     }
 
-    // The base ref IS resolvable, so a failure to read the manifest at it means
-    // the file genuinely didn't exist there = first introduction (fine to skip).
+    // Whether the manifest existed at the base is a real distinction — absent
+    // means this PR introduces it and there is genuinely nothing to
+    // change-track. But absence has to be ESTABLISHED, never inferred from a
+    // failed command. Inferring it made every possible failure indistinguishable
+    // from a first introduction, and one such failure was already live: the
+    // manifest crossed execFileSync's 1 MiB default maxBuffer, so `git show`
+    // threw ENOBUFS and both directions below were skipped on every pull
+    // request while this job kept reporting green. The bijection checks above
+    // are unaffected by that, which is exactly why nothing looked wrong.
+    //
+    // `ls-tree` is the probe, not `cat-file -e`. Absence and presence are BOTH
+    // exit 0 and are told apart by the output, so a non-zero exit is
+    // unambiguously an error rather than an answer. `cat-file -e` cannot make
+    // that distinction: it exits non-zero for an absent path AND for a blob it
+    // could not obtain, so in a partial clone (`--filter=blob:none`, which is
+    // how this repo is commonly cloned) an unreachable promisor remote would
+    // read as "absent" and skip the gate again — a network trigger for the same
+    // silent skip. `ls-tree` is also cheaper: it answers from the tree objects
+    // and never needs the blob at all.
     let baseManifest = null;
     let firstIntroduction = false;
+    let baseUnreadable = false;
+    const baseManifestPath = `${mergeBase}:translation/sync-state.json`;
+    let listed = null;
     try {
-      baseManifest = JSON.parse(execFileSync("git", ["show", `${mergeBase}:translation/sync-state.json`], { cwd: root, encoding: "utf8" }));
-    } catch {
+      listed = execFileSync(
+        "git",
+        ["ls-tree", "--name-only", mergeBase, "--", "translation/sync-state.json"],
+        { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT },
+      );
+    } catch (e) {
+      baseUnreadable = true;
+      fail(
+        `could not determine whether the manifest exists at base ${mergeBase.slice(0, 12)} ` +
+        `(${e.code || e.message}) — refusing to skip change-tracking silently.`,
+      );
+    }
+    if (!baseUnreadable && listed.trim() === "") {
       firstIntroduction = true;
+    } else if (!baseUnreadable) {
+      try {
+        baseManifest = JSON.parse(execFileSync("git", ["show", baseManifestPath], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT }));
+      } catch (e) {
+        baseUnreadable = true;
+        fail(
+          `the manifest exists at base ${mergeBase.slice(0, 12)} but could not be read (${e.code || e.message}) — ` +
+          `refusing to skip change-tracking silently.`,
+        );
+      }
+      // Well-formed JSON is not yet a usable manifest: a base containing `null`,
+      // an array, or a string parses fine and then throws on the first
+      // `baseManifest[loc]` below. Reject the shape here so the reason is
+      // reported instead of a stack trace.
+      if (!baseUnreadable && (typeof baseManifest !== "object" || baseManifest === null || Array.isArray(baseManifest))) {
+        baseUnreadable = true;
+        fail(`the manifest at base ${mergeBase.slice(0, 12)} is not a JSON object — cannot change-track against it.`);
+      }
     }
 
     if (firstIntroduction) {
       console.log(`notice: base ${mergeBase.slice(0, 12)} has no manifest — first introduction, nothing to change-track.`);
-    } else {
+    } else if (!baseUnreadable) {
       let changed;
       try {
-        changed = execFileSync("git", ["diff", "--name-only", "-z", `${mergeBase}..HEAD`, "--", "translations/"], { cwd: root, encoding: "utf8" });
+        changed = execFileSync("git", ["diff", "--name-only", "-z", `${mergeBase}..HEAD`, "--", "translations/"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
       } catch (e) {
         // The base resolved but the diff failed — do not treat as "no changes".
         fail(`git diff against base ${mergeBase.slice(0, 12)} failed: ${e.message}`);
