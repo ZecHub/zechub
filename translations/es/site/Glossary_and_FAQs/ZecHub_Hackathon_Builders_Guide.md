@@ -1,4 +1,3 @@
----
 # Guía del constructor para hackatones de ZecHub
 
 ## TL;DR

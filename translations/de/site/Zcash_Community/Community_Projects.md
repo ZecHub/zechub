@@ -1,4 +1,3 @@
----
 # Community-Projekte
 
 Entdecke Werkzeuge, Wallets, Anwendungen, Bibliotheken und Ökosystem-Initiativen, die von der Zcash-Community und dem breiteren Zero-Knowledge-Ökosystem entwickelt wurden.

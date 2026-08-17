@@ -1,4 +1,3 @@
----
 # Topluluk Projeleri
 
 Zcash topluluğu ve daha geniş zero-knowledge ekosistemi tarafından geliştirilen araçları, cüzdanları, uygulamaları, kütüphaneleri ve ekosistem girişimlerini keşfedin.

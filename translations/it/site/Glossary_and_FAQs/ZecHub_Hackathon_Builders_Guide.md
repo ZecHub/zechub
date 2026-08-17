@@ -1,4 +1,3 @@
----
 # Guida del builder per l'hackathon di ZecHub
 
 ## TL;DR
