@@ -2,7 +2,7 @@
 
 # Àgbékalẹ̀ Namada
 
-[Àmì Àwòrán Namada]](/content-images/logo-2067e2533d.webp)
+[Àmì Àwòrán Namada](/content-images/logo-2067e2533d.webp)
 
 
 ## Kí ni Namada?
@@ -26,7 +26,7 @@ Namada prioritizes privacy by implementing an enhanced iteration of the Multi-As
 
 The integration of the Ethereum bridge into Namada eliminates the need for a separate protocol, as it becomes an integral part of the Namada ecosystem. Validators within Namada are entrusted with running the bridge alongside the core Namada protocol. These validators also serve as relayers when it comes to transferring assets to Namada, making the involvement of additional actors unnecessary. On the other hand, when transferring assets to Ethereum, external parties (known as relayers) are involved, although they bear no responsibility for validating or securing the bridge.
 
-[Àwòrán Afárá Ethereum]](/content-images/image-0fd8f754ba.webp)
+[Àwòrán Afárá Ethereum](/content-images/image-0fd8f754ba.webp)
 
 Namada Protocol also has the ability to seamlessly connect with any fast-finality chain that supports the Inter-Blockchain Communication (IBC) protocol. When it comes to interoperating with Ethereum, Namada implements a specialized and secure Ethereum bridge that operates in a trustless manner. This bridge is carefully designed to prioritize safety by enforcing flow controls for all bridge connections and treating any faulty Ethereum transfers as a serious offense that can result in slashing penalties.
 
@@ -40,7 +40,7 @@ In Namada, the shielded set is considered a non-exclusive and anti-rivalrous pub
 
 When it comes to shielded transfers, whether it involves an Ethereum non-fungible token (NFT), ATOM, or NAM, they are indistinguishable from one another. This means that the privacy-preserving features provided by the MASP (Modified Accumulator Sapling Protocol), an enhanced version of the Zcash Sapling circuit, apply uniformly to all types of assets. The MASP circuit enables all assets within the Namada ecosystem to share the same shielded set. This approach ensures that privacy guarantees are not fragmented among individual assets. Regardless of the transaction volume associated with a particular asset, the privacy protection remains consistent and independent.
 
-[Àkọsílẹ̀ Àdánwò Iṣowo Àwọn Ohun Ìní Ààbò]](/content-images/image-1-512c639d56.webp)
+[Àkọsílẹ̀ Àdánwò Iṣowo Àwọn Ohun Ìní Ààbò](/content-images/image-1-512c639d56.webp)
 
 By unifying the shielded set across different assets, Namada ensures that privacy is upheld uniformly, regardless of the specific asset type involved in a shielded transfer. This approach promotes a cohesive privacy framework within the protocol and enhances the confidentiality of transactions involving Ethereum NFTs, ATOM, NAM, and other supported assets. Namada also enables private transfer of fungible and non-fungible tokens using novel zk-SNARKs, ensuring confidentiality for native and non-native tokens just like it is done on Zcash.
 
@@ -54,13 +54,13 @@ Additionally, Namada utilizes modern BFT consensus algorithms, which ensure the 
 
 Gege bi iwe kan ti o jade laipe ti o le ri [Namada Protocol Blog](https://blog.namada.net/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/), ẹgbẹ ti o wa lẹhin Namada Protocol ni inudidun lati ṣafihan imọran ati ibeere-fun-akọsilẹ (RFC) fun isopọpọ iṣedede laarin awọn ohun-ini, awọn ẹwọn, ati awọn agbegbe Namada ati Zcash.
 
-[Àwòrán Àjọṣepọ̀ Námada-Zcash]](/content-images/image-2-68804c60f3.webp)
+[Àwòrán Àjọṣepọ̀ Námada-Zcash](/content-images/image-2-68804c60f3.webp)
 
 The proposed alliance encompasses three primary elements. Firstly, there is a grants pool that will be created to provide funding for projects that bring advantages to both Zcash and Namada. Secondly, an airdrop of NAM tokens will be allocated to ZEC holders. Lastly, a plan is in place to establish a trust-minimized bridge connecting Zcash and Namada. Once implemented, this bridge will enable ZEC holders, referred to as Zolders, to utilize their ZEC on Namada. Furthermore, Zolders will have the opportunity to access the wider Cosmos and Ethereum ecosystems through Namada. You can learn more about the strategic alliance on [Zcash Community Forum](https://forum.zcashcommunity.com/t/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/44372)
 
 ## Àwọn ìjápọ̀ ìsọfúnni
 
 - [Àkọsílẹ̀ Àgbékalẹ̀ Namada Fidio Òfísì](https://www.youtube.com/watch?v=Wg_WtPdBig0)
-- [Ojú-ìwé Ìkànnì Ìjọba Àpapọ̀ ti Àdéhùn Namada]](https://namada.net/)
-- [Àdàkọ:Namada Blog]](https://blog.namada.net/)
-- [Àwọn Àjọ tó ń rí sí Namada]](https://docs.namada.net/)
+- [Ojú-ìwé Ìkànnì Ìjọba Àpapọ̀ ti Àdéhùn Namada](https://namada.net/)
+- [Àdàkọ:Namada Blog](https://blog.namada.net/)
+- [Àwọn Àjọ tó ń rí sí Namada](https://docs.namada.net/)

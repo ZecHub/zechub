@@ -6,22 +6,22 @@
 # ZecHub ni nini?
 ---
 
-ZecHub ni kituo cha elimu cha kujitegemea kwa Zcash.](http://zechub.xyz) ni kutoa jukwaa la elimu ambapo wanajamii wanaweza kufanya kazi pamoja katika kujenga, kuthibitisha, na kukuza maudhui ambayo inasaidia mazingira Zcash. Tunafanya hili kupitia michakato michache.
+ZecHub ni kituo cha elimu ya madaraka kwa Zcash. Lengo la [ZecHub](http://zechub.xyz) ni kutoa jukwaa la elimu ambapo wanajamii wanaweza kufanya kazi pamoja katika kujenga, kuthibitisha na kukuza maudhui ambayo inasaidia mazingira Zcash. Tunafanya hili kupitia michakato chache.
 
 1. [Tutorials](https://www.youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O)
 2. [Wiki-docs](https://zechub.wiki/)
-3. [Podcast kuhojiana na wanajamii](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O).
+3. [Podcast kuhojiana na wanajamii wa jamii ya watu wenye ulemavu](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O).
 4. [A Weekly Zcash jarida.](https://zechub.substack.com/)
 
-Mafunzo, blogi fupi, na jarida ni chanzo wazi na zimehifadhiwa kwenye GitHub, ikimaanisha kuwa mtu yeyote kutoka kwa jamii anaweza kuchangia. Hii ni kuhakikisha kuwa yaliyomo ni sahihi na kwamba kituo chenyewe hakitateseka kutoka kwa hatua moja ya kutofaulu.
+Mafunzo, blogi fupi na jarida ni chanzo wazi na zimehifadhiwa kwenye GitHub, ikimaanisha kuwa mtu yeyote kutoka kwa jamii anaweza kuchangia. Hii ni kuhakikisha yaliyomo ni sahihi na kwamba kituo chenyewe hakina shida yoyote ya kutofaulu.
 
-Kama wewe ni mpya kwa Zcash, kutumia [mwongozo huu](/site/Start_Here/New_User_Guide).****
+Kama wewe ni mpya kwa Zcash, kutumia [mwongozo huu](/start-here/new-user-guide).****
 
 ## Jinsi ya kufanya mabadiliko kwa ZecHub
 
 ---
 
-1. Nenda kwa [ZecHub ya Github repo](https://github.com/ZecHub/zechub)
+1. Nenda kwa [ZecHub Github repo](https://github.com/ZecHub/zechub)
    
 2. Unda akaunti mpya ya Github au ingia na yako mwenyewe
    
@@ -43,7 +43,7 @@ Kama wewe ni mpya kwa Zcash, kutumia [mwongozo huu](/site/Start_Here/New_User_Gu
 
 ---
 
-Katika maslahi ya kudumisha kuangalia sare kwa ZecHub, kuna template ambayo unaweza kutumia wakati wa kuongeza kurasa kwa repo.
+Katika maslahi ya kudumisha kuangalia sare kwa ZecHub, kuna template ambayo unaweza kutumia wakati wa kuongeza kurasa repo.
 
 ```markdown
 1. All pages should have additional resources (ie. links to z.cash) to support content
@@ -51,7 +51,7 @@ Katika maslahi ya kudumisha kuangalia sare kwa ZecHub, kuna template ambayo unaw
 3. No inappropriate content.
 ```
 
-Michango: [hapa]](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
+Michango: [hapa](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm)
 
 <a href="https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9y87wyyqz4vqshn3yhch28q3ud3lr0etadl3flz4c9zdrtn9lwlf23vzmjnll97efxzg9h0rjzn9qvhvqr8p3394ysnfhg560xxxc66yxzh8r548myxn3l2qrc9pfrt8nrzhxvlpuuykv7czjsm">
     <img src="/content-images/image-2023-11-18-141228046-644b4c542d.webp" alt="" width="200" height="200"/>
@@ -59,7 +59,7 @@ Michango: [hapa]](https://explorer.zec.rocks/ua/u17sawf3pdh7z6tsy83vhjd2z7sztpy9
 
 
 
-** KUHUSU: ZecHub ni kabisa huru na wazi chanzo mpango ilianzishwa na wanachama wa jamii Zcash. Hakuna yaliyomo katika hifadhi hii Github inapaswa kuchukuliwa ushauri wa kifedha au uwekezaji - ni kwa ajili ya habari tu.**
+** UTAYA: ZecHub ni kabisa huru na wazi chanzo mpango ilianzishwa na Zcash wanachama wa jamii. Hakuna yaliyomo katika hifadhi hii Github inapaswa kuchukuliwa ushauri wa kifedha au uwekezaji - ni kwa ajili ya habari tu.**
 
 ---
 

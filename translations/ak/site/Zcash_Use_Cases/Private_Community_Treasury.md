@@ -122,7 +122,7 @@ Wo mpɔtam hɔfo betumi:
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
 - [Privacy - Nneyɛe a eye sen biara](/privacy/best-practices)
-- [Fa sika mena a womfa wo ho nhyɛ wo ho](/use-cases/send-money-without-linking-identity)
+- [Fa sika mena a womfa wo ho nhyɛ wo ho](/zcash-use-cases/send-money-without-linking-identity)
  
 
 <br/>
@@ -137,4 +137,4 @@ Wote sɛnea wɔhwɛ sika a wɔkyɛ so wɔ kokoam ase.
 
 ## Anamɔn a Edi Hɔ
 
-- [Nsɛm ho amanneɛbɔfo Kokoam Nsɛm Ho Nhyehyɛe](/use-cases/journalist-privacy-setup)
+- [Nsɛm ho amanneɛbɔfo Kokoam Nsɛm Ho Nhyehyɛe](/zcash-use-cases/journalist-privacy-setup)

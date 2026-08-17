@@ -9,7 +9,7 @@
 ---
 
 ###  Nnianimu 
-Wɔ nnɛyi blockchain wiase no mu no, kokoamsɛm nyɛ nea wobetumi apaw - ɛho hia. Na [**encrypt.trade** na ɛwɔ hɔ.](https://app.encifher.io/zec), wɔn a wɔde di dwuma no betumi asesa **SOL anaa USDC** wɔ Solana so a ɛnyɛ den akɔ **Zcash (ZEC)** mu bere a wɔde nkitahodi no sie kokoam koraa. Nsesaeɛ a ɛwɔ mfimfini biara nni hɔ, identity exposure biara nni hɔ - swapping a ɛyɛ mmerɛw, a wɔabɔ no encrypted kɛkɛ. 
+Wɔ nnɛyi blockchain wiase no mu no, kokoamsɛm nyɛ nea wobetumi apaw - ɛho hia. Ne [**encrypt.aguadi** .](https://app.encifher.io/zec), wɔn a wɔde di dwuma no betumi asesa **SOL anaa USDC** wɔ Solana so a ɛnyɛ den akɔ **Zcash (ZEC)** mu bere a wɔde nkitahodi no sie kokoam koraa. Nsesaeɛ a ɛwɔ mfimfini biara nni hɔ, identity exposure biara nni hɔ - swapping a ɛyɛ mmerɛw, a wɔabɔ no encrypted kɛkɛ. 
 
 
 ![img2](/content-images/ByQ2qpeRee-67fce2814c.webp)
@@ -17,7 +17,7 @@ Wɔ nnɛyi blockchain wiase no mu no, kokoamsɛm nyɛ nea wobetumi apaw - ɛho h
 ---
 
 ###  Anamɔn 1: Fa Wo Solana Sikakorabea no Bata Ho 
-Kɔ [encrypt.trade so](https://app.encifher.io/zec) de **Chrome anaa Firefox** di dwuma, na fa wo **Phantom**, **Solflare**, anaa **Slope** sika kotoku no bata ho. Hwɛ sɛ wo sika kotokuo no kura **SOL** a ɛdɔɔso ma gas ho ka ne tokens a wopɛ sɛ wodi gua. Sɛ wonya nkitahodi wie a, woasiesie wo ho sɛ wobɛkyekyere w’agyapade. 
+Sra [encrypt.aguadi](https://app.encifher.io/zec) de **Chrome anaa Firefox** di dwuma, na fa wo **Phantom**, **Solflare**, anaa **Slope** sika kotoku no bata ho. Hwɛ sɛ wo sika kotoku no kura **SOL** a ɛdɔɔso ma gas ho ka ne tokens a wopɛ sɛ wodi gua. Sɛ wonya nkitahodi wie a, woasiesie wo ho sɛ wobɛkyekyere w’agyapade. 
 
 
 ![img3](/content-images/SyVOs6lRxx-cbd8193e84.webp)
@@ -28,7 +28,7 @@ Kɔ [encrypt.trade so](https://app.encifher.io/zec) de **Chrome anaa Firefox** d
 
 ---
 
-![img4 na ɛwɔ hɔ](/content-images/Bkh_jTgCex-2fc8428592.webp)
+![img4](/content-images/Bkh_jTgCex-2fc8428592.webp)
 
 
 ---
@@ -50,8 +50,8 @@ Kɔ **Wrap** ɔfa no so. Paw **SOL** anaa **USDC**, kyerɛw sika dodow no, na si
 
 ---
 
-###  Anamɔn 3: Siesie Wo Zashi Sikakorabea 
-Twe [**Zashi** no na fa wo ho.](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn), the official Zcash wallet by Electric Coin Co. Kɔpi wo **Unified Address** fi Receive tab no so - ɛboa ZEC a ɛda adi ne nea wɔabɔ ho ban nyinaa. Fa wo aba kasasin no sie yiye ansa na woatoa so. 
+###  Anamɔn 3: Siesie Wo Zodl Sikakorabea 
+Twe [**Zodl** na ɔde ne nsa kyerɛɛ ne so.](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn), the official Zcash wallet by Electric Coin Co. Kɔpi wo **Unified Address** fi Receive tab no so - ɛboa ZEC a ɛda adi ne nea wɔabɔ ho ban nyinaa. Fa wo aba kasasin no sie yiye ansa na woatoa so. 
 
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)
@@ -60,7 +60,7 @@ Twe [**Zashi** no na fa wo ho.](https://www.google.com/url?sa=t&source=web&rct=j
 ---
 
 ###  Anamɔn 4: Swap Privately 
-San kɔ **encrypt.trade** so, kɔ **Swap**. Paw **eSOL/eUSDC -> ZEC**, fa wo Zashi address no hyɛ mu, hwɛ nsɛm no mu, na si so dua.
+San kɔ **encrypt.trade** so, kɔ **Swap**. Paw **eSOL/eUSDC -> ZEC**, fa wo Zodl address no hyɛ mu, hwɛ nsɛm no mu, na si so dua.
 
 
 
@@ -69,19 +69,19 @@ San kɔ **encrypt.trade** so, kɔ **Swap**. Paw **eSOL/eUSDC -> ZEC**, fa wo Zas
 ---
 
 
-![img9 na ɛwɔ hɔ](/content-images/S1yoapgRle-6d2031a62c.webp)
+![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
-**NEAR Intents** engine no di cross-chain routing ho dwuma ankasa - ɛde **ZEC** kɔ wo Zashi sika kotoku mu tẽẽ wɔ sikani kakraa bi mu. 
+**NEAR Intents** engine no di cross-chain routing ho dwuma ankasa - ɛde **ZEC** kɔ wo Zodl sika kotoku mu tẽẽ wɔ sikani kakraa bi mu. 
 
 
 
-![img10 na ɛwɔ hɔ](/content-images/S1h36Tg0xl-2d7dd0a495.webp)
+![img10](/content-images/S1h36Tg0xl-2d7dd0a495.webp)
 
 ---
 
 ###  Anamɔn 5: Kyɛm na Tra Kokoam 
-Sɛ wonya wie a, fa Zashi **Shield** option no di dwuma de wo ZEC no kɔ shielded pool no mu ma kokoamsɛm a ɛsen biara. Bere nyinaa hwɛ sɛ link ahorow no yɛ nokware, kwati sɛ wobɛsan de address ahorow adi dwuma bio, na di kan sɔ nneɛma nketenkete hwɛ. 
+Sɛ wo nsa ka wie a, fa Zodl **Shield** option no di dwuma de wo ZEC no kɔ shielded pool no mu ma kokoamsɛm a ɛsen biara. Bere nyinaa hwɛ sɛ link ahorow no yɛ nokware, kwati sɛ wobɛsan de address ahorow adi dwuma bio, na di kan sɔ nneɛma nketenkete hwɛ. 
 
 ---
 

@@ -31,6 +31,6 @@ Programu haijaandikwa na usalama katika akili. Hata hivyo ina affordances kama e
 ### Advanced (librustzcash mafunzo)
 
 
-[Angalia video hapa]](https://free2z.cash/uploadz/public/ZcashTutorial/librustzcash-a-rust-crates.mp4)
+[Angalia video hapa](https://free2z.cash/uploadz/public/ZcashTutorial/librustzcash-a-rust-crates.mp4)
 
 

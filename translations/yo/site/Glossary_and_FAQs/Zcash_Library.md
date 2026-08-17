@@ -1,757 +1,249 @@
 # Ìkówèésí Zcash
 
-A comprehensive glossary of key terms, concepts, and resources related to Zcash.
+Àkójọ àwọn ọ̀rọ̀ tó kún fún ìtumọ̀, èròjà àti ohun èlò tí ó ní í ṣe pẹlú Zcash.
 
-### Àwòrán ojú-ọ̀nà
+### Ìrìn-àjò Rírìndìn
 [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z)
 
 ---
 
 ## A
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Actions</td>
-        <td className="py-5 px-6 text-foreground">Instead of creating several individual proofs for each Spend and Output, Orchard protocol merges them into a single Action.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Addresses</td>
-        <td className="py-5 px-6 text-foreground">Zcash has Shielded (Z/zaddr) and Transparent (T/taddr) addresses. Unified addresses (UA) are phasing in to replace Z and T following the NU5 upgrade.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Arborist Call</td>
-        <td className="py-5 px-6 text-foreground">A bi-weekly call covering Zcash protocol and research development updates. Hosted on the Zcash Community Forum and Discord. [Meeting Notes](https://github.com/ZcashCommunityGrants/arboretum-notes) / [Forum Announcements](https://forum.zcashcommunity.com)</td>
-      </tr>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Auto-shielding</td>
-        <td className="py-5 px-6 text-foreground">Enables users (more specifically their wallets) to automatically move funds from a transparent address to the latest shielded ZEC pool.</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+Àwọn Ìṣe Dípò kí ó ṣe àwọn ẹ̀rí ọ̀tọ̀ọ̀tọ́ fún ìnáwó àti èso jáde, ìlànà Orchard so wọn pọ̀ di ìgbésẹ̀ kan ṣoṣo.
+Zcash ní àwọn àdírẹ́sì tí ó ni ààbò (Z/zaddr) àti èyí tó ṣe kedere (T/taddr). Àdíréṣì ti a ṣòpọ̀ (UA) ń rọpo Z ati T lẹ́yìn ìgbéga NU5.
+ Arborist Call. ìkésíni oníṣẹ́-ọ̀sẹ̀ méjì tí ó ń bo ìlànà Zcash àti àtúnṣe àwárí ìtẹ̀síwájú. A gbà á síbi Àjọ Ìjùmọ̀pọ̀ Zcash ati Discord. [Àwọn Àkọsílẹ̀ Ìpàdé Náà](https://github.com/ZcashCommunityGrants/arboretum-notes) / [Àwọn Ìkéde Àpérò](https://forum.zcashcommunity.com) |
+ Auto-shielding. Ó ń jẹ́ kí àwọn oníṣe (tó ṣe pàtàpàta pẹ̀lú àpò wọn) láti máa darí owó lọ síbi tí ó wà ní ìsàlẹ̀, látorí adirẹsi tó mọ́rán dé ibi ti ZEC bá fi ẹrù rẹ pamọ́ sí.
 
 ## B
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Benchmarking</td>
-        <td className="py-5 px-6 text-foreground">Miners are able to submit metrics on the efficiency of various hardware used to mine Zcash. [View here](https://zcashbenchmarks.info)</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Block</td>
-        <td className="py-5 px-6 text-foreground">A Block is a record in the Zcash blockchain that contains a set of transactions sent on the network. Roughly every 75 seconds, on average, a new block is appended to the blockchain.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Block Explorer</td>
-        <td className="py-5 px-6 text-foreground">An online tool to view all transactions, past and current, on the blockchain. [Zcash Block Explorer](https://zcashexplorer.app/)</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Blogs</td>
-        <td className="py-5 px-6 text-foreground">[ZODL Blog (formerly Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [ZecHub Blog](https://zechub.wiki/zechub-dao)</td>
-      </tr>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Blossom</td>
-        <td className="py-5 px-6 text-foreground">The 3rd Major Network Upgrade for Zcash. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom)</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+Àwọn oníṣẹ́-àwòrán lè fi àwọn ìsọfúnni nípa bí onírúurú ohun èlò tí wọ́n ń lò láti wa Zcash ṣe gbéṣẹ́ tó rán wọn. [Wo nibi](https://zcashbenchmarks.info) |
+| Block | A Block is a record in the Zcash blockchain that contains a set of transactions sent on the network. Roughly every 75 seconds, on average, a new block is appended to the blockchain. |
+ Block Explorer. Ohun èlò orí ayélujára láti wo gbogbo ìnáwó, ti ìgbà àtijọ́ àti tòní lórí ẹ̀rọ blockchain. [Zcash Block Explorer (ìwádìí ìdìpọ̀)](https://zcashexplorer.app/) |
+Àwọn ìwé ìròyìn. [ZODL Blog (tí ó jẹ́ Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Blog (Àjọ tí ó ń ṣe owó)](https://zfnd.org/blog/) / [Àkọlé àwòrán ZecHub Blog](https://zechub.wiki/zechub-dao) |
+Blossom: Ìmúgbòòrò Nẹtiwọọki Gíga Kẹta fún Zcash. [Àwọn Ìsọfúnni Míì Sí I](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Canopy</td>
-        <td className="py-5 px-6 text-foreground">The 5th Major Network Upgrade for Zcash. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy)</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Commitment Scheme</td>
-        <td className="py-5 px-6 text-foreground">Allows a committer to commit to a polynomial with a short string that can be used by a verifier to confirm claimed evaluations of the committed polynomial. Useful for reducing communication costs in the Zcash protocol.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Community</td>
-        <td className="py-5 px-6 text-foreground">[The Official Zcash Community Forum](https://forum.zcashcommunity.com) / [Zcash Community Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash)</td>
-      </tr>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Cypherpunk Zero</td>
-        <td className="py-5 px-6 text-foreground">A Creative Universe and collaborative effort between ECC, illustrator Stranger Wolf, Mighty Jaxx and select ecosystem partners. [Cypherpunk Zero Site](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Opensea Collection](https://opensea.io/collection/cypherpunk-zero)</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+Canopy. Ìyípadà Àgbà Ẹ̀rọ-ìpínlẹ̀ karùn fún Zcash. [Àwọn Ìsọfúnni Míì Sí I](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
+☐ Àtòjọ ìfẹnukò. O jẹ́ kí olùfọ̀rọ̀wánilẹ́nuwò kan ṣe àfihàn ọ̀pọ̀lọpọ̀ nípasẹ̀ òpó-ìpín tí ó kúrú èyí tí a lè lò láti fi fìdí àwọn ìdámọ̀ tó sọ nípa ẹyọ ọ̀tọ̀n náà múlẹ̀. Ó wúlò fún dín iye owó ìbáradé nínú ìlànà Zcash kù. ❑ Àwọn oníṣẹ́ abániṣiṣẹ́mọléṣe ti ń ṣiṣẹ́ lórí ètò àjọ yìí, bí àpẹẹrẹ: Microsoft Office Access àti Google Drive ni wọ́n máa ń lo
+Àwùjọ. [Àjọ Ìgbìmọ̀ Zcash tí ó jẹ́ ti Òfin](https://forum.zcashcommunity.com) / [Ìṣòro àwùjọ Zcash](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord ì í ë ¤ì 'ë¦¬í ¬ê° êμ¬ì§ .](https://discord.com/invite/6AK7keWFaK) / [Reddit (ìkànnì)](https://www.reddit.com/r/zec/) / [Ìsọfúnni orí tẹlifóònù](https://t.me/Zcash_Community) / [Twitter (ìkànnì)](https://x.com/zcash) |
+ Crosslink. A ṣe àbá fún ìmúdàgba èrò orí tí ó ń mú kí ẹ̀rí-iṣẹ́ dídá àwọn ohun tó wà nídìí èdìdí ṣiṣẹ́ àti fífi ìdánilójú ìdíyelé sí òkè, nítorí náà àwọn nǹkan òǹkà máa ń rí ojúlówó láì fi iṣẹ́ iwakùsà sílẹ̀. Ó ti dàgbà láti inú àwárí Ìlà Ìdíyelé Àkọsílẹ̀ (Trailing Finality Layer) a sì ń kọ ọ́ ni Shielded Labs, kò tíì kúrò nínú ìtẹ̀jáde testnet títí di ọdún 2026.
+CrossPay. Àṣejèrè nínú àpò Zodl tí ó jẹ́ kí o lo owó-ìpamọ̀ ti ZEC nígbàtí ẹni tó ń gbà á bá gba iye náà ní oríṣi ohun ìní àti ẹ̀ka tí wọ́n fẹ́, èyí ni a máa fi ránṣẹ́ sí NEAR Intents dípò ìdásílẹ̀ kan tí kò ṣe pàtàkì jùlọ.
+Cypherpunk Zero. A Creative Universe ati ki o ifowosowopo akitiyan laarin ECC, alafo Stranger Wolf, Mighty Jaxx ati yan awọn alabašepọ ilolupo eda abemi. [Ìkànnì Cypherpunk Zero Site](https://halo.electriccoin.co/?utm_source=ECC&utm_medium=Website&utm_campaign=None) / [Àkójọ Òkun Ìta gbangba](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">DeFi</td>
-        <td className="py-5 px-6 text-foreground">Projects integrating ZEC with DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZenRock](https://app.zenrocklabs.io/) / 
-[ShapeShift] Àtúnṣe ojúewé](https://app.shapeshift.com/) / [LeoDex ì í ì 'í ë ¤.](https://leodex.io/) / [ThorSwap] ì í ì ¤í ë ¤.](https://app.thorswap.finance/)
-</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Deshielding</td>
-        <td className="py-5 px-6 text-foreground">Refers to a transaction being sent from a zaddr (shielded address) to a taddr (transparent address). The origin of the transaction is not visible however the funds enter a publicly visible value pool.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Developer Resources</td>
-        <td className="py-5 px-6 text-foreground">[Developer Resources](https://www.zcashcommunity.com/developers/)</td>
-      </tr>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Documentation</td>
-        <td className="py-5 px-6 text-foreground">[Official Docs](https://zcash.readthedocs.io/en/latest/)</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+ DeFi. Àwọn iṣẹ́ tí ó ń so ZEC pọ̀ mọ́ DeFi: [Àgbékalẹ̀ Maya](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Àwọn Ìpinnu Tó Kù Síwájú](https://near-intents.org/) / [ZenRock (ì í ì)](https://app.zenrocklabs.io/) / [ShapeShift (ì í ì)](https://app.shapeshift.com/) / [LeoDex (ì í ì ë°)](https://leodex.io/) / [ThorSwap (ì í ì ë ¤)](https://app.thorswap.finance/) |
+☐ ìpamọ́. Ìtumò sí ìdánwò tí a rán láti zaddr (ìpín-àdírẹ̀sì) lọ si taddr (Ìpínlẹ̀ àlàfo). Oríṣun idánwò náà kò hàn ṣùgbọ́n owó wọ inú ìṣùpòpọ̀ iye tó wà ní gbangba.
+Àwọn Àgbàjáde Ìpèsè. [Àwọn Ìpèsè fún Oníṣètò](https://www.zcashcommunity.com/developers/) |
+Àkọsílẹ̀. [Àwọn Àkọsílẹ̀ Ìjọba](https://zcash.readthedocs.io/en/latest/) |
 
 ## E
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">ECC</td>
-        <td className="py-5 px-6 text-foreground">The Electric Coin Company, the team behind the Zcash protocol, previously known as the Zcash Company.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">ECDSA</td>
-        <td className="py-5 px-6 text-foreground">Elliptic Curve Digital Signature Algorithm is a cryptographically secure digital signature scheme. The ECDSA sign/verify algorithm relies on elliptic curve point multiplication.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Education</td>
-        <td className="py-5 px-6 text-foreground">Learning oriented videos explaining Zcash [here](https://www.zcashcommunity.com/zcash-education/)</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Encrypted Memos</td>
-        <td className="py-5 px-6 text-foreground">An additional field for transactions sent to shielded addresses that is visible to the recipient of a payment. The encrypted memo is visible only to the sender and recipient.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Equihash</td>
-        <td className="py-5 px-6 text-foreground">The memory-oriented proof-of-work mining algorithm that is used on Zcash.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Events</td>
-        <td className="py-5 px-6 text-foreground">The calendar of Zcash-related events can be viewed on [Luma](https://luma.com/zcash) and [Zcash Foundation](https://zfnd.org/zf-events/)</td>
-      </tr>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Exchanges</td>
-        <td className="py-5 px-6 text-foreground">[List of Exchanges supporting Zcash](https://z.cash/exchanges/)</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+ECC: The Electric Coin Company, ẹgbẹ́ tí ó ṣe ìfilọ̀ ìlànà Zcash, ti a mọ̀ tẹ́lẹ̀ gẹ́gẹ́ bí Ìgbìmọ̀ Zcash. Gbogbo àwọn ẹ̀ka onímọ̀-ẹ̀rọ rẹ̀ fiṣẹ sílẹ̀ ní January 2026 lẹ́yìn àríyànjiyàn ìṣàkóso pẹ̀lú ìgbìmò Bootstrap, wọ́n sì lọ dá ilé iṣẹ́ ZODL sílẹ̀.
+ECDSA Elliptic Curve Digital Signature Algorithm jẹ́ ètò ìdìbò tí ó ní ààbò dígítà. Àkọsílẹ̀/ìwádìí ìlànà-ọkàn ti ECDCA gbára lé ọpọ ìgbà tó bá ń ṣe àwọn ibi yíyẹ elliptical curves.
+Ètò Ẹ̀kọ́ Àwọn fídíò tí ó ń ṣàlàyé Zcash tó dá lórí ẹ̀kọ́ kíkà [níhìn-ín ni](https://www.zcashcommunity.com/zcash-education/) |
+| Encrypted Memos | An additional field for transactions sent to shielded addresses that is visible to the recipient of a payment. The encrypted memo is visible only to the sender and recipient. |
+Equihash: Àkọsílẹ̀-ìmọ́ra tí ó dá lórí ìmúdàgba iṣẹ́ (proof of work) èyí tí a lò ní Zcash.
+Àwọn ìṣẹ̀lẹ̀. O le wo kalẹnda àwọn ìṣẹ́jú tó ní í ṣe pẹ̀lú Zcash lórí: [Luma (ìyẹn)](https://luma.com/zcash) àti pé, [Zcash Foundation](https://zfnd.org/zf-events/) |
+Àwọn ìfọwọ́sowọ́pò. [Àtòjọ àwọn Ibi-pínràn tí ó ń ṣe àtìlẹyìn fún Zcash.](https://z.cash/exchanges/) |
 
 ## F
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Fiat-Shamir</td>
-        <td className="py-5 px-6 text-foreground">A technique for taking an interactive proof of knowledge and creating a digital signature based on it. This way, some fact (e.g. knowledge of a secret) can be publicly proven without revealing underlying information.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Founders Reward</td>
-        <td className="py-5 px-6 text-foreground">The Founder reward represents 20 percent of the total block reward and it is deducted from every block's value and transparently distributed to drive protocol development and growth.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Free2z</td>
-        <td className="py-5 px-6 text-foreground">A tool for anonymous content and private donations powered by Zcash [Free2z](https://free2z.com)</td>
-      </tr>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">FROST</td>
-        <td className="py-5 px-6 text-foreground">Flexible Round-Optimized Schnorr Threshold signature scheme. [Research Paper](https://eprint.iacr.org/2020/852)</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+ Fiat-Shamir. Ìmọ̀ ẹ̀rọ láti mú èrí ìdánilójú ìmọ̀ àti kíkọ àmì onídìgítáìlì tí ó dá lórí rẹ̀, ní ọ̀nà yìí, àwọn òtítọ́ kan (bíi mímọ àṣírí) lè jẹ́ àfihàn fún gbogbo ènìyàn láìfi ìsọfúnni tó wà nínú wọn hàn.
+☐ ìfọwọ́sí fún ìlànà (Formal Verification) ▪ fífi hàn nípa ìṣirò pé ètò kan ń hùwà gẹ́gẹ́ bí a ti sọ, dípò gbígbéjú lé àyẹ̀wò nìkan. Ẹgbẹ Ironwood Action circuit ni àwọn olùkópa láti zkSecurity àti ZODL fi ẹrí rẹ̀ múlẹ̀ ní ọ̀nà yìí pẹ̀lú lílo Lean theorem prover, kí wọ́n lè ṣe èsì wípé kò sí àìdáa nínú ọ̀ràn náà.
+ípò Àwọn Olùdásìkí. Ìsan àwọn olùdàsìlẹ̀ jẹ́ ìdá ogún nínú ọgọ́rùn-ún ti iye owó ìdìpọ̀ náà, a sì máa ń yọkuro rẹ̀ kúrò lára iye tí àlàfo kọ̀ọ̀kan ní àti pínpín rẹ̀ lọ́nà tó ṣe kedere láti mú kí ìlànà yìí gbèrú kó sì dàgbà sí i.
+Free2z Ọpa fun akoonu ti a ko mọ ati awọn ẹbun aladani ni agbara nipasẹ Zcash. [Free2z (ì ì í ë ¤)](https://free2z.com) |
+FROST: Àtòjọ ìdìbò Schnorr tí a ṣe àyíká-tí ó dára jùlọ. [Ìwé Ìwádìí](https://eprint.iacr.org/2020/852) |
 
 ## G
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Governance</td>
-        <td className="py-5 px-6 text-foreground">Decisions from the ZIP process are written into the Zcash specification, as well as the software that runs the network. The changes are ratified on-chain when the majority of the network adopts the upgrade and does not break consensus. [Full Protocol History](https://zfnd.org/protocol-governance/)</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+☐ Ìdarí: Àwọn ìpinnu láti inú ètò ZIP ni a kọ sínú àlàyé ìsọfúnni nípa Zcash, àti nínú ẹ̀rọ-ìmọ́ tí ó ń ṣiṣẹ́ ní nẹtiwọọki. Àtúnṣe náà ti di mímọ lórí ọjà nígbàtí èyí tó pọ̀ jùlọ lára àwọn onínàákúnàá bá gba ìtúbọ̀síwájú yìí kí wọ́n má sì fọwósowopo. [Ìtàn Àkọsílẹ̀ Pípéye](https://zfnd.org/protocol-governance/) |
 
 ## H
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Halo</td>
-        <td className="py-5 px-6 text-foreground">Enables circuit upgrades without the need for trusted setups, making the Zcash shielded protocol more agile for future improvements and extensions. [Technical Explainer](https://z.cash/learn/what-is-halo-for-zcash/)</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">HD Wallet</td>
-        <td className="py-5 px-6 text-foreground">Hierarchical deterministic wallets generate a series of key pairs from one seed, providing convenience and manageability as well as high-level security.</td>
-      </tr>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Heartwood</td>
-        <td className="py-5 px-6 text-foreground">The 4th Major Network Upgrade of Zcash. [More Info](https://z.cash/upgrade/heartwood/)</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+Halo: Ó ń jẹ́ kí àtúnṣe ìyípòsókè wà láìní láti ṣe àwọn ètò tí a gbẹ̀kẹ̀lé, ó sì mú kókóòwò Zcash dídán mọ́ra fún ìtẹsíwájú àti àfikún ọjọ́ iwájú. [Àwọn Àlàyé Onímọ̀ Ẹ̀rọ](https://z.cash/learn/what-is-halo-for-zcash/) |
+HD Wallet: Àwọn àpò ìpamọ́ tí ó wà ní ipò-ìlàkàṣe máa ń dá àwọn ọ̀pọ̀lọpọ̀ kókó paàrí láti inú irúgbìn kan, èyí sì jẹ kí wọ́n rọrùn àti láyè fún ìṣójútó pẹlúpẹrẹ bí ìdánilójú gíga.
+Heartwood. Ìyípadà Nẹtiwọọki Gíga kẹrin ti Zcash. [Àwọn Ìsọfúnni Míì Sí I](https://z.cash/upgrade/heartwood/) |
 
 ## I
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Index</td>
-        <td className="py-5 px-6 text-foreground">CoinDesk's ZCX Index represents a real-time, USD-equivalent spot rate for Zcash. [Price Index](https://www.coindesk.com/indices/zcx/)</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Integrations</td>
-        <td className="py-5 px-6 text-foreground">You can accept Zcash payments through a number of 3rd party providers. [Payment Processors](https://z.cash/zcash-for-business/)</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Interactive Proof System</td>
-        <td className="py-5 px-6 text-foreground">An abstract machine that models computation as the exchange of messages between two parties: a Prover and a Verifier.</td>
-      </tr>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Investment</td>
-        <td className="py-5 px-6 text-foreground">A number of Financial options are available for institutional investors or family offices who want to gain exposure to Zcash. [Full list](https://z.cash/investors/)</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+☐ Àmì ọ̀pá àṣẹ. © CoinDesk's ZCX Index dúró fún àkókò gidi, iye owó tí ó bá dọ́là dólar mu ní ojú ẹsẹ̀ fún Zcash. [Atọka iye owó](https://www.coindesk.com/indices/zcx/) |
+Àwọn ìfọwọ́sowọ́pọ̀. O lè gba owó Zcash láti ọ̀dọ̀ àwọn olùpèsè ẹyánà kẹta kan. [Àwọn Ẹ̀rọ Ìsanwó](https://z.cash/zcash-for-business/) |
+ Interactive Proof System. Ẹrọ tí kò ṣeé fojú rí tó ń ṣe àdàkọ ìsọfúnni bí ìpàrọ̀ àwọn ọ̀nà méjì: Prover àti Verifier.
+ípowó̩. Àwọn àyè ìnáwó kan wà fún àwọn olùkópa owó tàbí ilé-iṣẹ́ tí ó fẹ láti kógbá sí Zcash. [Àtòjọ tó kún rẹ́rẹ́](https://z.cash/investors/) |
+Ironwood. Àtúnṣe síra-ayé (NU6.3) tí ó ṣiṣẹ́ lórí ìkànnì pàtàkì ní 28 July 2026 ni block 3,428,143. Ó ṣètò àgbá tuntun kan, èyí tí a tún ń pè ní ironwood, àti ṣe kí Orchard pool máa lo owó nìkan nítorí náà iye tó wà lókè á ṣí kiri lágbárí ilé ìṣọ̀kan. [Àwọn ìsọfúnni síwájú sí i](/zcash-tech/ironwood) |
 
 ## J
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">JubJub</td>
-        <td className="py-5 px-6 text-foreground">An elliptic curve designed to be efficiently implementable in zk-SNARK circuits.</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+JubJub. A ṣe apẹrẹ igbi elliptic kan lati le ṣee lo daradara ninu awọn iyipo zk-SNARK.
 
 ## K
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Keystone Wallet</td>
-        <td className="py-5 px-6 text-foreground">An air-gapped hardware wallet with native Zcash (Orchard shielded) support, compatible with ZODL for cold signing. [Keystone](https://keyst.one)</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+Keystone Wallet: Wọ́léètì alágbèéká tí ó ní àyè nínú, tó sì ń ṣe atilẹyin Zcash (Orchard shielded), èyí ti o bá a mu pẹ̀lú ZODL fún ìforúkọsílẹ̀ láìsí ìdánwò. [Keystone](https://keyst.one) |
 
 ## L
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Layer-1</td>
-        <td className="py-5 px-6 text-foreground">Refers to a base network and its underlying infrastructure. Layer-1 blockchains can validate and finalize transactions without the need for another network. Zcash is an L1 blockchain.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">librustzcash</td>
-        <td className="py-5 px-6 text-foreground">A Rust workspace containing all crates and dependencies for working with Zcash. [repo](https://github.com/zcash/librustzcash)</td>
-      </tr>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Lightwalletd</td>
-        <td className="py-5 px-6 text-foreground">A stateless server that serves light clients with blockchain information. [Lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html)</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+ Layer-1: Ó tọ́ka sí nẹtiwọọki ìpilẹ̀ṣẹ̀ àti àwọn ohun-èlò tí ó wà ní abé. Àwọn àlàfo ti ipele 1 le ṣe ìdánimọ̀ kí wọn sì parí ìṣàdálá láìṣe pé wọ́n nílò ẹ̀rọ mìíràn. Zcash jẹ́ Àlàfo líle kan (L1 blockchain).
+ libustzcash  A Rust workspace ti o ni gbogbo awọn apoti ati awọn igbẹkẹle fun ṣiṣẹ pẹlu Zcash. [àtúnṣe owó-ìpamọ́](https://github.com/zcash/librustzcash) |
+Lightwalletd: Olùránṣẹ tí kò ní ìpínlẹ̀ tó ń pèsè àwọn oníṣe-ọkàn pẹlú ìsọfúnni blockchain. [Lightwalletd ì í ë ¤ì 'ë¦¬í ¬](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
 
 ## M
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Metrics</td>
-        <td className="py-5 px-6 text-foreground">Network metrics are available [here](https://tokenterminal.com/explorer/projects/zcash/metrics/all)</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Metadata</td>
-        <td className="py-5 px-6 text-foreground">Data that is generated alongside a user's Zcash transaction. This can include block height, transaction version or expiry height etc.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Mobile SDK</td>
-        <td className="py-5 px-6 text-foreground">A lightweight SDK that connects Android to Zcash, allowing third-party Android apps to send and receive shielded transactions. [Github](https://github.com/zcash/zcash-android-wallet-sdk)</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Mining</td>
-        <td className="py-5 px-6 text-foreground">The process where for each block, nodes in the Zcash network compete by doing complex mathematical calculations to find a solution based on a self-adjusting difficulty. [Guide](https://z.cash/mining-zcash/)</td>
-      </tr>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Multisignature</td>
-        <td className="py-5 px-6 text-foreground">An address which requires multiple private key signatures in order to spend funds. Currently, multisig functionality is only supported by transparent addresses.</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+Àwọn ìlànà. Àkọsílẹ̀ nípa ẹ̀rọ-ayárabíàṣá wà ní ìmúṣẹ [níhìn-ín ni](https://tokenterminal.com/explorer/projects/zcash/metrics/all) |
+DATA ìmúlò data tí a dá sílẹ̀ lẹ́gbẹ̀ẹ́ ìṣàmú Zcash ti oníṣe. èyí lè ní àlàfo blocks, ẹdà àwọn iṣẹ tàbí ìgbà tó máa dópin àti bẹ́ẹ̀bẹ́ẹ̀ lọ.
+ Mobile SDK  Ẹrọ ìmúrasílẹ̀ tí ó rọra tó ń so Android pọ̀ mọ́ Zcash, èyí ti o jẹ ki àwọn ohun èlò alágbèéká kẹta láti ránṣẹ́ kí wọ́n sì gba àdàkọ ìdánwò. [Github (ìkànnì)](https://github.com/zcash/zcash-android-wallet-sdk) |
+ Mining. Ìgbésẹ̀ tí fún àlàfo kòkòrò kọ̀ọ̀kan, àwọn ìkànnì inú ẹ̀rọ Zcash ń díje nípa ṣíṣe ìṣirò kàkàkí kí wọ́n lè rí ojútùú tó dá lórí ìṣòro kan tí ó máa ń ṣàtúnṣe fúnra rẹ̀. [Atọ́nà](https://z.cash/mining-zcash/) |
+ Multicircle Address (ìdásílẹ̀ ọpọ) Aago tí ó nílò ìdìbò kókó ìdánimọ̀ púpọ̀ láti lè ná owó. Lọwọlọwọ, iṣẹ́-ṣiṣe multisig ni a ṣe atilẹyin nipasẹ àwọn adiresi tó jẹ kedere nìkan.
 
 ## N
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Nighthawk</td>
-        <td className="py-5 px-6 text-foreground">A Mobile wallet for Zcash - [Website](https://nighthawkwallet.com)</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">NU5</td>
-        <td className="py-5 px-6 text-foreground">The 6th Major Network Upgrade for Zcash, introducing the Orchard shielded pool and Unified Addresses. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5)</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">NU6</td>
-        <td className="py-5 px-6 text-foreground">The 7th Major Network Upgrade for Zcash, adjusting the block subsidy to fund the Zcash Community Grants program and Shielded Labs. Activated in late 2024. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6)</td>
-      </tr>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">NU7</td>
-        <td className="py-5 px-6 text-foreground">The upcoming 8th Major Network Upgrade for Zcash. Community sentiment polling is open via ZODL in 2026. Expected to include further shielded pool improvements and governance updates. [Forum Discussion](https://forum.zcashcommunity.com/t/nu7-sentiment-polling-questions-for-community-review-coinholder-voting-via-zodl/55713)</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+ Network Sustainability Mechanism (NSM)  Àbá láti ilé-ìwádìí Shielded lati fi ìpín kan nínú owó ìsòwò pa mọ́ kí ètò ààbò pẹ̀lú àsà má ṣe sinmi ní gbogbo rẹ̀ lórí títẹ ìwé. Ó ti pàtó sí ZIP 234, tí a ń ṣàyípadà ni 2026. 
+Nighthawk. Àpò owó orí ẹ̀rọ alágbèéká fún Zcash. [Ìkànnì orí Íńtánẹ́è̀tì](https://nighthawkwallet.com) |
+ Noir Wallet. A Zcash browser extension wallet supported by Zcash Community Grants, tí a ṣe láti so ààbò ZEC ní tààràtà sí àwọn ohun èlò aṣàwákiri dípò gbígbé ìdúró lórí QR codes àti manual transfers. [ìkànnì zknoir.com](https://www.zknoir.com/) |
+ NU5  Ìyípadà Àwòrán-ìwòye Ọ̀nà ìkápá kẹfà fún Zcash, tí ó ń ṣètò Orchard dídìjú àti Adirẹsi Oníṣọpọ. [Àwọn Ìsọfúnni Míì Sí I](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
+NU6 Ìyípadà Àgbà Ẹ̀rọ-ìpínlẹ̀ 7 fún Zcash, tí ó ń ṣatunṣe owó ìtìlẹyìn láti fi ṣe àkànlò ètò àwọn Owó Ètò Agbegbe àti Àwọn Ilé Iṣẹ́ Aṣọ. Ti a ti mú ṣiṣẹ ní òpin ọdún 2024. [Àwọn Ìsọfúnni Míì Sí I](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
+ NU7  Àtúnṣe síra-ẹni tó kàn lẹ́yìn Ironwood. Àwọn ohun tí ó ṣeé ṣe kí wọ́n jẹ àfikún ni iṣẹ́ ìmúgbòòrò Project Tachyon, Zcash Shielded Assets àti Network Sustainability Mechanism.
 
 ## O
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Orchard Shielded Pool</td>
-        <td className="py-5 px-6 text-foreground">The third shielded pool for Zcash and represents the continued evolution of our zk-SNARK technology stack. [Full details](https://electriccoin.co/blog/explaining-halo-2/)</td>
-      </tr>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Overwinter</td>
-        <td className="py-5 px-6 text-foreground">The 1st Network Upgrade for Zcash. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter)</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+| Oblivious Synchronization | A method under development in Project Tachyon that lets a wallet request the data it needs from an untrusted server without revealing which notes it is asking about. The server never learns your nullifiers, because the protocol makes them evolve in an unlinkable way. [Ìkọsílẹ̀-sókè](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
+ Orchard Shielded Pool. Ìpínlẹ̀ ìpamọ́ kẹta fún Zcash ó sì dúró fún ìtẹsíwájú tí ń tẹ̀ síwájú ti òpó-ìmọ̀ ẹ̀rọ zk-SNARK wa. [Àwọn ìsọfúnni tó kún rẹ́rẹ́](https://electriccoin.co/blog/explaining-halo-2/) |
+| Overwinter | The 1st Network Upgrade for Zcash. [Àwọn Ìsọfúnni Míì Sí I](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
 ## P
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Payments</td>
-        <td className="py-5 px-6 text-foreground">It is possible to use Zcash for everyday purchases through a number of different payment providers. [Payment Apps](https://z.cash/pay-with-zcash/)</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Peer-to-Peer Network</td>
-        <td className="py-5 px-6 text-foreground">P2P networks are based on the concept of decentralization. The foundational architecture of blockchain technology.</td>
-      </tr>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Podcast</td>
-        <td className="py-5 px-6 text-foreground">[Radiolab (Zcash Ceremony)](https://archive.org/details/radiolab_podcast17crypto_zcash_ceremony) / [RealVisionFinance](https://www.youtube.com/watch?v=ibA_4kwd_YI) / [EthDenver](https://www.youtube.com/watch?v=t62isi58XcQ) / [UpOnlyPodcast](https://www.youtube.com/watch?v=AjC9T938o3Q) / [Zcast en Español](https://www.youtube.com/@ZcastEsp)</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+Àwọn ìsanwó O ṣeé ṣe láti lo Zcash fún àwọn ràjà ojoojúmọ́ nípasẹ̀ ọ̀pọ̀lọpọ̀ olùpèsè owó. [Àwọn Ohun Èlò Ìsanwó](https://z.cash/pay-with-zcash/) |
+PCD (Proof-Carrying Data) A primitive ibi ti data ajo lẹgbẹẹ kan ẹri ti awọn oniwe-ara tooto, ki apapo data tun darapọ mọ awọn proofs. Project Tachyon rebuilds ni aabo ilana yika PCD, gbigba kọọkan apamọwọ gbe a recursive ẹrí wipe o wa ara rẹ iwontunwonsi jẹ tọ dipo rescanning awọn pq. The Zcash imuse ni [Ragu (ìyẹn ìwúkàrà)](https://github.com/tachyon-zcash/ragu), tí ó ń tẹ̀lé Halo kò sì nílò ìmúrasílẹ̀ tó ṣeé gbára lé.
+| Peer-to-Peer Network | P2P networks are based on the concept of decentralization. The foundational architecture of blockchain technology. |
+ PIR (Privacy Information Retrieval)  Àwọn ọ̀nà tí ó jẹ́ kí o gba àkọsílẹ̀ láti inú sẹẹwèrì láìjẹ́ pé sẹwérì náà mọ èyí tóo béèrè fún. Ìwádìí ń lọ ní pẹrẹu lórí Zcash gẹ́gẹ́ bí ọ̀nà kan fáwọn àpò owó ríròye láti rí ohun ti wọ́n nílò gbà láìsí wípé wọn fẹ́ ṣe é jáde. 
+Àkọlé àwòrán: Podcast. [Àwòrán-ìṣirò (Ìṣe Ìsàsọ́tọ̀ Zcash)](https://archive.org/details/radiolab_podcast17crypto_zcash_ceremony) / [RealVisionFinance Ìpèsè owó orí](https://www.youtube.com/watch?v=ibA_4kwd_YI) / [Ètò Ìsọfúnni Nípa Àjọṣe](https://www.youtube.com/watch?v=t62isi58XcQ) / [UpOnlyPodcast ì í ë ¤ì 'ë¦¬í ¬](https://www.youtube.com/watch?v=AjC9T938o3Q) / [Zcast en Español ì í ë ¤ì 'ë¦¬í ¬](https://www.youtube.com/@ZcastEsp) |
 
 ## Q
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">QR Code</td>
-        <td className="py-5 px-6 text-foreground">A machine-readable code used to encode Zcash addresses for easy scanning. Unified Addresses (UAs) are typically shared via QR codes in modern Zcash wallets.</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+☐ QR Code. Kòdì tí a lè ka nípa ẹ̀rọ, èyí ti a máa ń lò láti fi kọ àwọn àdírésì Zcash sínú kódíò fún àyẹwò tó rọrùn. Àwọn Adirẹsi Àjọṣe (UA) ni wọ́n sábà máa n pín nípasẹ̀ kòdi QR nínú àwọn pópó Zcash òde òní.
+ Quantum Recoverability. A ohun ini ti Ironwood awọn akọsilẹ, pato ni [ZIP 2005 - Ìlú Àìníléèmọ̀.](https://zips.z.cash/zip-2005), èyí tí ó ń pa àkọsílẹ̀ owó orí ẹyọ kan mọ́ ní àlàfo láti rí i padà bí kọǹpútà kọnfúńtì ọjọ́ iwájú bá fọ ìpamọ́ tó dáàbò bò ọ lónìí. Ó jẹ́ ipa ònà ìgbàpadà dípò ìdènà kónfúńtù, àti pé o lò fún àwọn ìwé-ìwé Ironwood, kì í ṣe sí Sprout, Sapling tàbí Orchard funds ti wọ́n wà tẹ́lẹ̀. 
 
 ## R
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-<table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Recovery Phrase</td>
-        <td className="py-5 px-6 text-foreground">A sequence of 12 or 24 letters and numbers used to back up and restore a wallet. In Zcash, this phrase regenerates spending and viewing keys, making it critical for fund recovery and security.</td>
-      </tr>
-       </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+ Recovery Phrase. Ìtòlẹ́sẹẹsẹ lẹta àti nọ́ńbà méjìlá tàbí mẹ́rìnlélógún tí a máa ń lò láti ṣe àtìpamọ̀ kí á sì tún owó báṣubàṣu kan ṣe. Nínú Zcash, gbólóhùn yìí yóò dá àwọn kókó ìnáwó padà, èyí tó mú un jẹ pàtàkì fún gbígba owó pada àti ìdánilójú rẹ̀.
 
 ## S
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Sapling</td>
-        <td className="py-5 px-6 text-foreground">A major network upgrade that introduced significant efficiency improvements for shielded transactions and paved the way for mobile adoption. Activated at block 419200.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Selective Disclosure</td>
-        <td className="py-5 px-6 text-foreground">Allows the owner of a shielded address to selectively share viewing keys or payment disclosures with third parties while keeping data private from everyone else.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Shielded Address</td>
-        <td className="py-5 px-6 text-foreground">Also called zaddr. Starts with z. Hides sender, receiver, amount, and memo using zk-SNARKs.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Shielded Transaction</td>
-        <td className="py-5 px-6 text-foreground">A transaction exclusively between shielded addresses. Fully private on the blockchain.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Sol/s</td>
-        <td className="py-5 px-6 text-foreground">Solutions per second - measures Equihash mining performance.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Spending Key</td>
-        <td className="py-5 px-6 text-foreground">The private key that allows spending from a shielded address (also lets you view balance and history).</td>
-      </tr>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Sprout</td>
-        <td className="py-5 px-6 text-foreground">The original shielded protocol version of Zcash (launched 2016).</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+Sapling ìyípadà ńlá kan nínú ẹ̀rọ-ayárabíàṣá tí ó mú àwọn àtúnṣe tó ṣe pàtàkì dé inú ètò ìṣiṣẹ́ aláàbò àti ṣílẹ̀nà fún lílo tẹlifóònù alágbèéká. a ti ṣiṣẹ́ ní block 419200.
+ìfihan Àyànfẹ́. Ó jẹ kí onílé adirẹsi tí a fi ààbò bo lè pín kókó ìwòye tàbí àwọn àkọsílẹ̀ owó pẹlú ẹni kẹta láìsí pé ó ń pa data mọ́ fún ẹnikẹni mìíràn.
+Adirẹsi Aṣọ. O tun npe ni zaddr. Bẹrẹ pẹlu Z. Fi oluranlowo pamọ, olugba, iye ati memo nipa lilo awọn zk-SNARKs.
+Shielded Labs. Àjọ tí ó dá wà nílẹ̀-èdè kan tó ń ṣiṣẹ́ lórí ètò ọrọ̀ ajé àti ìfohùnmọ̀ nínú ìlànà Zcash, lókè yìí o jẹ olórí Crosslink ati Network Sustainability Mechanism. [GitHub (ìkànnì ìkápá)](https://github.com/ShieldedLabs) |
+| Shielded Transaction | A transaction exclusively between shielded addresses. Fully private on the blockchain. |
+Sol/s: Àwọn ìdáhùn ní ìṣẹ́jú àáyá - ó ń díwọ̀n iṣẹ́-ṣiṣe iwakusa Equihash.
+ Spending Key‬ Àkọlé ìkápá tí ó jẹ́ kí o lè náwó láti adirẹsi ààbò (ó tún ń jẹ́ kóo wo owó tó wà nílẹ̀ àti ìtàn).‬
+Sprout. Ẹ̀dà àkọ́kọ́ tí ó ní ààbò ti Zcash (tí a ṣe jáde lọ́dún 2016).
 
 ## T
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">TAZ</td>
-        <td className="py-5 px-6 text-foreground">Testnet Zcash (valueless test currency).</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Testnet</td>
-        <td className="py-5 px-6 text-foreground">A separate blockchain for testing upgrades and features before mainnet.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Transaction</td>
-        <td className="py-5 px-6 text-foreground">A payment between users, submitted to the network and eventually confirmed in a block.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Transaction Expiry</td>
-        <td className="py-5 px-6 text-foreground">Transactions expire after approximately 25 minutes (20 blocks) if unconfirmed; funds return automatically.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Transaction Fee</td>
-        <td className="py-5 px-6 text-foreground">Default fee is 0.0001 ZEC. Higher fees get priority; very low fees may cause delays or expiry.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Transparent Address</td>
-        <td className="py-5 px-6 text-foreground">Also called taddr. Starts with t. Fully public (like Bitcoin).</td>
-      </tr>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Transparent Transaction</td>
-        <td className="py-5 px-6 text-foreground">A transaction exclusively between transparent addresses - everything is publicly visible.</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+Tachyon. Eto igbelewọn Zcash, ti o fojusi NU7. O gbe awọn apamọwọ kuro lati inu iṣawari gbogbo bulọọki si ipo apo-iwọle ẹri-igbejade, isọdọkan aifọkanbalẹ ati ipinlẹ akopọ prunable, ni ifamọ fun gbigbe aabo ninu ẹgbẹrun awọn iṣowo fun keji. [Ibi tí wọ́n ti ń ṣe iṣẹ́ náà](https://tachyon.z.cash/overview/) |
+TAZ: Testnet Zcash (owó ìdánwò tí kò ní iye).
+Testnet: Àkọsílẹ̀ ìdánwò tó yàtọ̀ fún àtúnṣe àti àwọn ohun èlò dídánwò ṣáájú ìkànnì pàtàkì.
+ Trailing Finality Layer (TFL) ìwádìí láti fi àlẹ̀ tó pé sí ẹyìn ìdánilójú iṣẹ́ Zcash kí àwọn bulọọki tí ó ṣẹṣẹ ṣe lè di èyí tí a parí láì rọpo iwakusa. Crosslink ni ètò ti o jáde nínú rẹ̀.
+Àdánwò. Ìsanwó láàárín àwọn oníṣe, tí a fi ránṣẹ́ sí àgbélékọ̀ náà àti níkẹyìn ti ìdásílẹ̀ nínú ìdìpọ̀ kan.
+ìdánwò Ìmúṣẹ. Àwọn ìdàgbàsókè máa ń dópin lẹ́yìn nǹkan bíi ìṣẹ́jú 25 (àwọn àlàfo 20) tí wọn kò bá ti jẹrisi; owó náà á padà wá ní tààràtà.
+ígba owó ìnáwó. Owo tí a yàn ni 0.0001 ZEC. Àwọn iyebíye tó ga jùlọ ní àléébù; àwọn iyebíyi díẹ̀ lè fa ìdádúró tàbí kí ó péjú.
+☐ Adirẹsi tí ó ṣe kedere. O tún ń jẹ́ taddr. Ó bẹ̀rẹ̀ pẹ̀lú t. Gbogbo ènìyàn ló mọ (bíi Bitcoin).
+ìṣirò tí ó ṣe kedere. Ìṣiró kan tó wáyé láàárín àwọn adiresi tí kò fi hàn gbangba - gbogbo rẹ̀ ló wà nílẹ̀ fún ìjíròrò láwùjọ.
+Turnstile. Ìṣirò ìsàmì tí ó ń tọpinpin iye owó tó wọlé àti èyí tó jáde nínú àgbá kòkòrò olóró, kí a má baà lè túbọ̀ ju iye ti wọn fi sínú rẹ lọ. A lo ní gbogbo ìgbà tí àwọn ènìyàn bá yípò sí Zcash's ìtàn, ati pé lóòtọ́lóótó ni o n ṣọ́ ìrìn-àjò láti Orchard si Ironwood. [Àwọn ìsọfúnni síwájú sí i](/zcash-tech/the-turnstile) |
 
 ## U
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Unified Address</td>
-        <td className="py-5 px-6 text-foreground">Modern address format (introduced in NU5) that works for both transparent and shielded payments in one string.</td>
-      </tr>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Upgrade Activation</td>
-        <td className="py-5 px-6 text-foreground">The specific block height where a network upgrade (e.g. NU5, NU6) automatically activates.</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+ Unified Address. Àdàkọ adirẹsi òde òní (tí a mú wá nínú NU5) tí ó ṣiṣẹ́ fún ìsanwó tó ṣe kedere àti èyí tí kò hàn ní gbangba ni ẹ̀ka kan ṣoṣo.
+ Àtúnṣe Ìṣiṣẹ́. Gígùn ìdìpò àkànlò tí a fi ń ṣe ìtúmọ̀ sí ọ̀nà-ìpínlẹ̀ (bíi NU5, NU6) lóòtọ́láti máa ṣiṣẹ́.
 
 ## V
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Viewing Key</td>
-        <td className="py-5 px-6 text-foreground">A private key that lets you view the balance and transaction history of a shielded address without being able to spend the funds.</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+| Viewing Key | A private key that lets you view the balance and transaction history of a shielded address without being able to spend the funds. |
 
 ## W
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Wallet</td>
-        <td className="py-5 px-6 text-foreground">Software or hardware that stores private keys and lets you send/receive ZEC. Active wallets include ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android), YWallet, Zallet (upcoming), and Keystone (hardware). For a full list, see [Zcash Ecosystem Wallets](https://z.cash/ecosystem/?wallets=#tag-wallets)</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+ Wallet. Software tabi hardware ti o tọju awọn bọtini ikọkọ ati jẹ ki o firanṣẹ / gba ZEC. Awọn apamọwọ lọwọ pẹlu ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android), YWallet, Zallet (to n bọ) àti Keystone (ohun elo). Fun akojọ kikun wo: [Àwọn Wàléètì Ìlànà Zcash Ecosystem](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+WebZjs. SDK JavaScript àkọ́kọ́ fún Zcash, tí ChainSafe ṣe fún àwọn àyíká aṣàwákiri. Ó gbé ìmúlẹ̀sílẹ̀ sí ohun èlò Wọléètì Ààbò ti Zcash tó mú kí ZEC ní ìdènà dé MetaMask.
 
 ## X
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">XZC</td>
-        <td className="py-5 px-6 text-foreground">An older ticker symbol for Zcash used on some legacy exchanges. The official ticker is ZEC.</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+XZC Àmì ìdìpọ̀ títóbi fún Zcash ti a lò ní àwọn ilé-ìtajà àjogúnbá. Ìdìpò̀ oníṣe ni ZEC.
 
 ## Y
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">YWallet</td>
-        <td className="py-5 px-6 text-foreground">A high-performance, privacy-focused Zcash wallet supporting Orchard, Sapling, and transparent addresses. Known for fast sync speeds. Available for iOS and Android. [YWallet](https://ywallet.app)</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+YWallet. Wọ́léètì Zcash tí ó dá lórí ìpamọ́ra, tó ń ṣe àtìlẹyìn fún Orchard, Sapling àti àwọn àdírésì ìmọ̀lára, èyí tí a mọ sí sísínkórìíra rẹ̀ ní kíákíá. Kò tún wà láàyè mó: olùgbéejáde rèé ti jẹrisi pé kò ni di ojú-àtúnṣe fún Ironwood, nítorí náà kì í lè tẹ ẹ̀rí lílòpò ọ̀nà àjọṣepọ̀ yìí lọ́wọ́lọ́wọ̀n. Zkool, láti ọwọ́ oníṣẹ́ agbègbè kannáà, ló sì máa rójúmọ́ ọn.
 
 ## Z
 
-<div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-  <table className="w-full border-collapse rounded-2xl overflow-hidden">
-    <thead>
-      <tr className="border-b border-border bg-amber-100 dark:bg-zinc-800">
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Term</th>
-        <th className="py-6 px-6 text-left font-bold text-amber-800 dark:text-white">Definition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Zcash</td>
-        <td className="py-5 px-6 text-foreground">Privacy-focused cryptocurrency using zk-SNARKs. Bridges transparent (Bitcoin-style) and fully shielded payments.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Zcash Foundation</td>
-        <td className="py-5 px-6 text-foreground">Independent non-profit that supports the Zcash ecosystem, funds development, and promotes privacy.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Zcash Network</td>
-        <td className="py-5 px-6 text-foreground">Peer-to-peer network of nodes that validates transactions and maintains the blockchain.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">ZEC</td>
-        <td className="py-5 px-6 text-foreground">The official currency code for Zcash (some exchanges still show XZC).</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Zerocash</td>
-        <td className="py-5 px-6 text-foreground">The academic protocol (2014) that Zcash is based on.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Zaino</td>
-        <td className="py-5 px-6 text-foreground">The next-generation Zcash indexer replacing lightwalletd, built by the Zcash Foundation. Enables light clients to sync faster and more privately. Part of the Zcash Z3 infrastructure upgrade.</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Zallet</td>
-        <td className="py-5 px-6 text-foreground">The upcoming official Zcash wallet by the Electric Coin Co / ZODL team, built on Zaino. Zallet Alpha is in active development as of 2026. [Forum](https://forum.zcashcommunity.com/t/zcash-z3-updates-formerly-zcashd-deprecation/48965)</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">Zebra</td>
-        <td className="py-5 px-6 text-foreground">The Zcash Foundation's Rust-based full node implementation (alternative to zcashd). Production-ready and actively maintained. [GitHub](https://github.com/ZcashFoundation/zebra)</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">ZIP</td>
-        <td className="py-5 px-6 text-foreground">Zcash Improvement Proposal - the community governance process used to propose and ratify protocol changes. [ZIP Repository](https://github.com/zcash/zips)</td>
-      </tr>
-      <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">ZODL</td>
-        <td className="py-5 px-6 text-foreground">The rebranded name for the Electric Coin Company's consumer products, including the ZODL wallet app (formerly called ECC Wallet) and ZODL governance platform for Coinholder polling. [zodl.com](https://zodl.com)</td>
-      </tr>
-      <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
-        <td className="py-5 px-6 font-medium text-foreground">zk-SNARKs</td>
-        <td className="py-5 px-6 text-foreground">Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge — the cryptography powering Zcash shielded transactions. Allows proving a statement (e.g., valid spend) without revealing any secret information.</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Àkòrí. Ìtumọ̀.
+|------|-----------|
+Zcash. cryptocurrency tó dá lórí ìpamọ́láwí tí ó ńlo zk-SNARKs. àwọn òpó ìdásílẹ̀ (tí a ṣe bíi Bitcoin) àti owó ààbò pátápátá.
+Zcash Foundation: Ẹ̀ka tí kò ṣe èrè tó dá wàhálà sílẹ̀, èyí tó ń ṣètìlẹ́yìn fún ètò ìgbé ayé àti àyíká ti Zcash. Ó máa n fi owó ran àwọn èèyàn lọ́wọ́ láti mú kí ó di ohun àmúyẹ ní gbogbo ìgbà.
+| Zcash Network | Peer-to-peer network of nodes that validates transactions and maintains the blockchain. |
+ZEC: Kòdì owó osise fún Zcash (àwọn ilé-ìṣàmúlò kan ṣì ń fi XZC hàn).
+ Zerocash. Àlàkalẹ̀ ìdánilẹ́kọ̀ọ́ (2014) tí Zcash dá lé lórí.
+| Zaino | The next-generation Zcash indexer replacing lightwalletd, built by the Zcash Foundation. Enables light clients to sync faster and more privately. Part of the Zcash Z3 infrastructure upgrade. |
+ Zakura. Ìmúṣẹ Zcash tó kún fún ìsopọ̀ tí a ṣe ní July 2026, èyí ti a kọ gẹ́gẹ́ bí àdàkọ Zebra láti ọwọ́ Valar Group àti Project Tachyon. Ó ńfojú sí iye iṣẹ́ ati iyara ìṣiṣẹpọ, pẹlú fífi ojú-ìwòye ṣayẹwo ẹ̀rọ (Snapshot bootstrapping) àti ète kan táa sọ nípa òṣùwọ̀n káàdì-àjọṣepọ̀, nǹkan bíi 50,000 àwọn ìdánilẹnuwo ni ókànùkejì. [zakura.com (ìkànnì)](https://zakura.com) |
+Zallet. Ẹya apamọwọ ti o gba iṣẹ-ṣiṣe apamọ zcashd nigbati a ṣe ifẹhinti, itumọ lori Zaino gẹgẹbi apakan awọn iṣẹ amayederun Zcash Z3.
+Zebra. Ìmúṣẹ ìsopọ̀ tí ó kún fún Rust ti àjọ Zcash Foundation (ìyípadà sí zcashd). Ṣíṣe-ṣiṣẹ́ àti pípèsè rẹ ní pẹrẹu. [GitHub (ìkànnì ìkápá)](https://github.com/ZcashFoundation/zebra) |
+zcashd. ìpilẹ̀ṣẹ́ Zcash full node, tí a yà láti Bitcoin Core. ó kúrò ní July 2026 lẹ́yìn ìgbà dídi ẹni ògbólógbòó pẹ̀lú ipa rẹ̀ ti pín sí Zebra fún àdéhùn àti Zallet fún àwọn iṣẹ́ àpò owó.
+ZIP Àbá Ìmúṣiṣẹ́síwájú Zcash - ètò ìṣàkóso àwùjọ tí a lò láti dábàá àti fọwọ́ sí àwọn àtúnṣe ìlànà. [Àkójọ ZIP](https://github.com/zcash/zips) |
+ZODL: Ìwádìí ìdàgbàsókè àyè ṣíṣí ti Zcash. Ẹ̀ka-iṣẹ́ tí ó dá sílẹ̀ ní ọdún 2026 láti ọwọ́ Josh Swihart àti ẹgbẹ́ onímọ̀ ẹ̀rọ iléeṣẹ́ Electric Coin Company tẹ́lẹ̀ lẹ́yìn tí wọ́n fi iṣẹ́ sílẹ̀ nítorí awuyewuye ìṣàkóso pẹ̀lú Bootstrap. Ó kó owó tó lé ni mílíòndínlógójì dọlà jọ nínú oṣù kẹta, 2026, ó sì ń ṣètójútó apamọwọ́ Zodl, èyí tí a yí orúkọ rẹ̀ padà sí Zashi ní February 2026. [zodl.com (ìkànnì)](https://zodl.com) |
+zk-SNARKs  Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge  the cryptography powering Zcash shielded transactions. Ó ń jẹ́ kí a lè fi ẹ̀rí hàn (bíi, ìnáwó tó bágbà mu) láìfi àlàyé àṣírí kankan han.
+ZSA (Zcash Shielded Assets) Àwọn àmì tí àwọn oníṣe ṣe, èyí tó jogún ìpamọ́ ní ààbò ti Zcash, ó jẹ kí àwọn ohun-ìní mìíràn yàtò sí ZEC máa rìn lọ láìsí ẹni mọ̀ nínú nẹtiwọọki. [ZIP 226](https://zips.z.cash/zip-0226) ati ohun elo oludije fun NU7.
 
 ---
 
-** Àtúnyẹ̀wò ìkẹyìn:** May 2026 
-[Ṣàtúnṣe ojúewé yìí lórí GitHub](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/Zcash_Library.md)
+** Àtúnṣe ìkẹyìn:** July 2026
+**Ṣé o fẹ́ kópa?** [Ṣàtúnṣe ojúewé yìí lórí GitHub](https://github.com/ZecHub/zechub/edit/main/site/Glossary_and_FAQs/Zcash_Library.md)

@@ -129,7 +129,7 @@ Mapendekezo (ZIP 1016) 80% 0% 0% 8% 12% (Coinholder-Controlled) Hadi nusu ya tat
 - ZIP 1015 (NU6 fedha mabadiliko) -> [zips.z.cash/zip-1015](https://zips.z.cash/zip-1015)  
 - ZIP 1016 (mapendekezo coinholder mfano) -> [zips.z.cash/zip-1016](https://zips.z.cash/zip-1016)  
 - Mapendekezo ya Uboreshaji wa Zcash -> [zips.z.cash](https://zips.z.cash)  
-- Zcash Community Grants portal -> [grants.zcashcommunity.com]](https://grants.zcashcommunity.com) (au sasa FPF tovuti)
+- Zcash Community Grants portal -> [grants.zcashcommunity.com](https://grants.zcashcommunity.com) (au sasa FPF tovuti)
 
 ## 6. Lockbox Dashibodi
 

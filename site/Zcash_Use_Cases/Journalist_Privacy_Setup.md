@@ -114,7 +114,7 @@ You can:
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
 - [Privacy - Best practices](/privacy/best-practices)
-- [Send money without linking identity](/use-cases/send-money-without-linking-identity)
+- [Send money without linking identity](/zcash-use-cases/send-money-without-linking-identity)
 
  <br/>
 

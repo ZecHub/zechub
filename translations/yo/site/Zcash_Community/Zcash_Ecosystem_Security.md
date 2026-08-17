@@ -10,11 +10,11 @@ Iṣẹ́ Olóyè Ààbò Ìgbésí ayé Zcash ni a dá sílẹ̀ nípasẹ̀ ì
 
 - **20222023:** [ìdìde ilẹ̀](https://forum.zcashcommunity.com/t/zcash-ecosystem-security-lead/42090) lo bi akọkọ Ecosystem Aabo Lead. Mọ siwaju sii ni [zecsec.com](https://zecsec.com).
 - **20242025:** ZCG ti a yan [Aṣẹ ti o kere julọ](https://leastauthority.com) lati tẹsiwaju ipa nipasẹ titun kan [RFP](https://forum.zcashcommunity.com/t/rfp-zcash-ecosystem-security-lead-2023/45723)Àwọn àtúnṣe tuntun wà níbí](https://forum.zcashcommunity.com/t/grant-update-zcash-ecosystem-security-lead/47541).
-- 2026: Àwọn Ilé Iṣẹ́ Ààbò [Taylor Hornby tí wọ́n bá díje]](https://forum.zcashcommunity.com/t/shielded-labs-engages-taylor-hornby-as-security-consultant/55421) gẹ́gẹ́ bí olùgbani-nímọ̀ràn nípa ààbò láti mú kí agbára ààbò Zcash pọ̀ sí i.
+- 2026: Àwọn Ilé Iṣẹ́ Ààbò [Taylor Hornby tí wọ́n bá díje](https://forum.zcashcommunity.com/t/shielded-labs-engages-taylor-hornby-as-security-consultant/55421) gẹ́gẹ́ bí olùgbani-nímọ̀ràn nípa ààbò láti mú kí agbára ààbò Zcash pọ̀ sí i.
 
 ## Àjọ Ìpèsè fún Ìdáàbòbò àti Àìléwu ti ZCG
 
-[Ìpínlẹ̀ Ìfilọ́lẹ̀ Ààbò àti Àìléwu ZCG]](https://forum.zcashcommunity.com/t/zcg-security-vulnerability-disclosure-initiative/55545) ó pèsè àlàfo fún ìfihan ìṣọ̀kan àwọn àìlera ààbò jákèjádò àyíká-ìgbésí ayé Zcash.
+[Ìpínlẹ̀ Ìfilọ́lẹ̀ Ààbò àti Àìléwu ZCG](https://forum.zcashcommunity.com/t/zcg-security-vulnerability-disclosure-initiative/55545) ó pèsè àlàfo fún ìfihan ìṣọ̀kan àwọn àìlera ààbò jákèjádò àyíká-ìgbésí ayé Zcash.
 
 ## Àwọn Àtúnṣe Ààbò tó ṣẹ̀ṣẹ̀ dé (2026)
 

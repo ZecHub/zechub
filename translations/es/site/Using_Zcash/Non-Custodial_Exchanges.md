@@ -4,7 +4,7 @@
 
 # <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Texto alternativo" width="50"/>   Exchanges no custodiales
 
-[Exchanges no custodiales de Zcash](/site/Using_Zcash/DEX_List)
+[Exchanges no custodiales de Zcash](/dex)
 
 En el mundo en constante evolución del trading de criptomonedas, el auge de los exchanges no custodiales, también conocidos como Exchanges Descentralizados o DEXs, está redefiniendo la forma en que los usuarios interactúan con los activos digitales. Estas plataformas ofrecen un enfoque revolucionario para el trading al eliminar la necesidad de intermediarios o terceros y devolver el control a los usuarios.
 

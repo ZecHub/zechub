@@ -9,7 +9,7 @@
 
 Halo ist ein vertrauensloser, rekursiver Zero-Knowledge-Proof (ZKP), der von Sean Bowe bei Electric Coin Co. entdeckt wurde. Es beseitigt das Trusted Setup und ermöglicht eine größere Skalierbarkeit der Zcash-Blockchain. Halo war das erste Zero-Knowledge-Proof-System, das sowohl effizient als auch rekursiv ist und weithin als wissenschaftlicher Durchbruch gilt.
 
-![Halo](https://electriccoin.co/wp-content/uploads/2021/01/Halo-on-Z-1440x720.png "halo")
+![Halo](/content-images/_unavailable.svg "halo")
 
 
 **Komponenten**

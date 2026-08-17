@@ -33,15 +33,15 @@ Découvrez comment accepter des fonds sans exposer votre identité ni votre hist
 Évitez d’exposer votre portefeuille, votre identité ou le graphe de vos transactions lorsque vous envoyez des fonds.
 
 
-###  [Configuration de confidentialité pour les freelances](/zcash-use-cases/freelancer-privacy-setup)  
+###  [Configuration de confidentialité pour les freelances](/zcash-use-cases/freelance-privacy-setup)  
 Soyez payé en Zcash tout en gardant vos clients et vos revenus privés.
 
 
-###  [Accepter des paiements en tant que commerçant](/zcash-use-cases/accept-payment-as-a-merchant)  
+###  [Accepter des paiements en tant que commerçant](/zcash-use-cases/accept-payments-as-a-merchant)
 Acceptez des paiements à l’aide d’une adresse protégée et évitez d’exposer les données de transaction de vos clients
 
 
-###  [Gérer une trésorerie communautaire privée](/zcash-use-cases/run-a-private-community-treasury)
+###  [Gérer une trésorerie communautaire privée](/zcash-use-cases/private-community-treasury)
 Utilisez des adresses protégées pour détenir des fonds partagés et limiter la visibilité des soldes et des transactions
 
 ###  [Configuration de confidentialité pour les journalistes](/zcash-use-cases/journalist-privacy-setup)   

@@ -7,7 +7,7 @@
 ## In sintesi
 
 - **Acquista ZEC** su un exchange supportato (Gemini, BitcoinVN, ecc.)
-- **Configura un wallet Shielded** (consigliati: Zashi, YWallet o ZODL)
+- **Configura un wallet Shielded** (consigliati: Zodl, Zingo o Zkool)
 - **Preleva** il tuo ZEC dall'exchange al tuo wallet Shielded
 - **Invia una transazione Shielded** — il tuo primo pagamento privato su Zcash
 - **Unisciti alla comunità** sul forum o su Discord

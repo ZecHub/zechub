@@ -21,9 +21,15 @@
 //
 //   Change-tracking (only when a base ref is available)
 //     - If a translations/<locale>/…md file changed vs the base ref, its
-//       manifest entry must have changed too (src/mode/tool), or the change
-//       must declare edited: true. You cannot silently mutate a translation
-//       without recording why.
+//       manifest entry must have changed too. You cannot silently mutate a
+//       translation without recording why.
+//     - Normally you record the pass in `tool`, which is free-form
+//       (e.g. "gpt-5.4+linkrepair"). Reach for `edited: true` ONLY for a
+//       human-authored translation fix you want protected from machine
+//       re-translation: it takes the page out of automated sync permanently
+//       (sync.mjs holds edited:true pages forever), so using it for a
+//       mechanical pass silently freezes that page against every future
+//       re-sync. A bulk mechanical fix should never flip it.
 //
 //   Freshness declaration (always)
 //     - If an entry claims freshness (src == current normalized source hash),
@@ -249,7 +255,7 @@ if (!base) {
         const editFlipped = now.edited === true && was?.edited !== true;
         const provenanceChanged = !was || now.src !== was.src || now.mode !== was.mode || now.tool !== was.tool;
         if (!provenanceChanged && !editFlipped) {
-          fail(`${loc}/${page}: translation changed but manifest provenance did not (record the new src/mode/tool, or flip edited:true this PR for a deliberate hand-edit)`);
+          fail(`${loc}/${page}: translation changed but manifest provenance did not — record the pass in \`tool\` (free-form, e.g. "${now.tool || "gpt-5.4"}+linkrepair"). Only flip edited:true for a human-authored fix you want protected from machine re-translation: it removes the page from automated sync permanently.`);
         }
       }
 

@@ -3,38 +3,38 @@
 </a>
 
 # पॉडकास्ट
-Zcash एकोसिस्टम के बारे में अधिक सीखना चाहते हैं? यहाँ कुछ पॉडकास्ट हैं जिनका आप अनुसरण कर सकते हैं:
+Zcash ecosystem के बारे में और जानना चाहते हैं? यहाँ पॉडकास्ट की एक सूची है जिन्हें आप फ़ॉलो कर सकते हैं:
 
 <ul class="podcast-list grid grid-cols-1 imd:grid-cols-2 md:grid-cols-3 gap-6">
 <li>
-<a href="https://www.youtube.com/playlist?list=PL8avDn0zigvoWqj_f7MrO5mx8JhsLY4kT"><img class="podcast-img" src="https://zechub.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc5e5e7d2-f2f7-4db7-815c-adba35a6bb78%2Fzcast.jpg?table=block&amp;id=26031a2e-953b-4f73-ba47-5af17e5b9c20&amp;spaceId=38cc715a-cc23-4f85-9429-2b9e6dd2c3b9&amp;width=40&amp;userId=&amp;cache=v2" alt="" width="40" height="41" />Zcast पॉडकास्ट खेल सूची</a>
+<a href="https://www.youtube.com/playlist?list=PL8avDn0zigvoWqj_f7MrO5mx8JhsLY4kT"><img class="podcast-img" src="/content-images/_unavailable.svg" alt="" width="40" height="41" />Zcast पॉडकास्ट प्लेलिस्ट</a>
 <iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=vG5H6UhCHpS0r546&amp;list=PL8avDn0zigvoWqj_f7MrO5mx8JhsLY4kT" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </li>
 
 <li>
-<a href="https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O"><img class="podcast-img" src="https://zechub.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F21f78eb9-4be4-4aee-90ae-ea499c884b8b%2FScreenshot_2023-02-25_08-08-36.png?table=block&amp;id=b1b24e20-e4ba-47d4-b89e-49b513015d1c&amp;spaceId=38cc715a-cc23-4f85-9429-2b9e6dd2c3b9&amp;width=40&amp;userId=&amp;cache=v2" alt="" width="40" height="41" />The ZecHub पॉडकास्ट खेल सूची</a>
+<a href="https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O"><img class="podcast-img" src="/content-images/_unavailable.svg" alt="" width="40" height="41" />The ZecHub पॉडकास्ट प्लेलिस्ट</a>
 <iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=QE_B4lmB49YseOjy&amp;list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </li>
 
 <li>
-<a href="https://www.youtube.com/playlist?list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-44af5f0fcf.webp" alt="" width="40" height="41" />The Zcash पॉडकास्ट खेल सूची</a>
+<a href="https://www.youtube.com/playlist?list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-44af5f0fcf.webp" alt="" width="40" height="41" />The Zcash पॉडकास्ट प्लेलिस्ट</a>
 <iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=oNBNYZP0gkA96Iwl&amp;list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </li>
 
 <li>
-<a href="https://www.youtube.com/playlist?list=PLWmtTg-WFLv7ONEIgDk4E6POEvi8hKPhq"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-5ae3f48687.webp" alt="" width="40" height="41" />PGP* For Crypto</a>
+<a href="https://www.youtube.com/playlist?list=PLWmtTg-WFLv7ONEIgDk4E6POEvi8hKPhq"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-5ae3f48687.webp" alt="" width="40" height="41" />क्रिप्टो के लिए PGP*</a>
 <iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=5wgdhsq7sDxdosGt&amp;list=PLWmtTg-WFLv7ONEIgDk4E6POEvi8hKPhq" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </li>
 
 <li>
-<a href="https://www.youtube.com/playlist?list=PLH78wfbGI1x2Rj7tLp1RCG68wNvKqCT74"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-d965cb4785.webp" alt="" width="40" height="41" />Shielded Transactions Playlist</a>
+<a href="https://www.youtube.com/playlist?list=PLH78wfbGI1x2Rj7tLp1RCG68wNvKqCT74"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-d965cb4785.webp" alt="" width="40" height="41" />Shielded Transactions प्लेलिस्ट</a>
 <iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=MXbM7LrvNJBm9uM5&amp;list=PLH78wfbGI1x2Rj7tLp1RCG68wNvKqCT74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </li>
 
 <li>
-<a href="https://www.youtube.com/playlist?list=PLj80z0cJm8QEUVSlofe1Zd7wyaoZrixFM"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-4931488273.webp" alt="" width="40" height="41" />The ZK Podcast Playlist</a>
+<a href="https://www.youtube.com/playlist?list=PLj80z0cJm8QEUVSlofe1Zd7wyaoZrixFM"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-4931488273.webp" alt="" width="40" height="41" />The ZK पॉडकास्ट प्लेलिस्ट</a>
 <iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=TxOfv39hKdL4X7S3&amp;list=PLj80z0cJm8QEUVSlofe1Zd7wyaoZrixFM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </li>
 </ul>
 
-क्या हम कोई अच्छा पॉडकास्ट छोड़ गए हैं? [Discord](https://discord.gg/zcash) पर हमसे संपर्क करें और हम इसे सूची में जोड़ देंगे।
+क्या हमसे कोई अच्छा पॉडकास्ट छूट गया है? [Discord](https://discord.gg/zcash) पर हमसे संपर्क करें और हम उसे सूची में जोड़ देंगे।

@@ -41,7 +41,7 @@ MetaMask now supports **shielded Zcash (ZEC)** via the **ChainSafe-developed Zca
       Store data on your device
    ```
 
-[Zcash-snap-kuweka]](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
+[Zcash-snap-kuweka](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
 
 
 ---
@@ -59,7 +59,7 @@ Kwa **BNB SmartChain**;
 -  Block Explorer URL: https://bscscan.com
 ```
 Hii inawezesha mtandao habari na explorer viungo.
-[Ongeza-a-Custom-Net....]](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
+[Ongeza-a-Custom-Net....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
 
 Kwa ** Zcash Mainnet **;
 ```markdown
@@ -96,7 +96,7 @@ Kwa ** Zcash Mainnet **;
 > **Swap ETH -> ZEC** - Tumia huduma kama **LeoDex** na kutuma kwa anwani yako ulinzi. 
 > ** Kubadilishana Kuondoa ** - Kuondoa kununuliwa ZEC kwa anwani yako WebZjs kulindwa. 
 
-[LEODEX-SWAP]](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+[LEODEX-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
 > => Matumizi ya ulinzi (z) anwani kwa ** faragha kamili **.

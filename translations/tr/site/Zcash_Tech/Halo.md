@@ -9,7 +9,7 @@
 
 Halo, Electric Coin Co.'da Sean Bowe tarafından keşfedilen güven gerektirmeyen, özyinelemeli bir sıfır bilgi kanıtıdır (ZKP). Güvenilir kurulum gereksinimini ortadan kaldırır ve Zcash blokzincirinin daha büyük ölçekte ölçeklenmesini sağlar. Halo, hem verimli hem de özyinelemeli olan ilk sıfır bilgi kanıt sistemiydi ve bilimsel bir atılım olarak geniş çapta kabul görür.
 
-![halo](https://electriccoin.co/wp-content/uploads/2021/01/Halo-on-Z-1440x720.png "halo")
+![halo](/content-images/_unavailable.svg "halo")
 
 
 **Bileşenler**

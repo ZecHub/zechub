@@ -64,7 +64,7 @@ Zcash na:
 - Zã gakotoku na dɔ veviwo wɔwɔ ko
 - Mègatsaka kple ame ŋutɔ ƒe asitsatsa o
 
-### Afɔɖeɖe 2: Zã Adrɛs Siwo Wokpɔ Ta Kplɔla Ko
+### Afɔɖeɖe 2: Zã Adrɛs Siwo Wokpɔ Akpɔtɔ Ko
 
 - Zã z-adrɛswo nàtsɔ awɔ asitsatsa ɣesiaɣi
 - Ƒo asa na asitsatsa siwo me kɔ keŋkeŋ
@@ -88,7 +88,7 @@ Ne fexexetsoƒewo:
 
 - Ƒo asa na gakotokua tsɔtsɔ do ƒome kple wò dzesideŋkɔ
 - Mègaɖo kpe asitsatsa dzi le dutoƒo o
-- Zã mɔnu vovovowo hena kadodo
+- Zã mɔnu vovovowo nàtsɔ aɖo dze kple amewo
 
 
 <br/>
@@ -106,7 +106,7 @@ Ne fexexetsoƒewo:
 
 Ate ŋu:
 - Ta wò dzɔtsoƒewo ta
-- Ðe afɔku siwo le ŋkuléle ɖe ame ŋu me dzi kpɔtɔ
+- Ðe ŋkuléle ɖe ame ŋu ƒe afɔkuwo dzi kpɔtɔ
 - Lé ganyawo ŋuti nyatakakawo me ɖe asi le dɔ veviwo wɔwɔ me
 
 <br/>
@@ -114,7 +114,7 @@ Ate ŋu:
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
 - [Adzamenyawo - Nuwɔna nyuitɔwo kekeake](/privacy/best-practices)
-- [Ðo ga ɖa evɔ màtsɔ amenyenye aɖo kadodo me o](/use-cases/send-money-without-linking-identity)
+- [Ðo ga ɖa evɔ màtsɔ amenyenye aɖo kadodo me o](/zcash-use-cases/send-money-without-linking-identity)
 
  <br/>
 

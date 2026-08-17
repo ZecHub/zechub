@@ -7,6 +7,14 @@
 
 ZEC nye dijitaal nunɔamesi si wozãna le afisiafi hena fexexe, si naa ameŋunyatakakawo takpɔkpɔ ƒe mɔnu sesẽ siwo na wòsɔ na asitsatsa vovovowo abe xɔlɔ̃wo ƒe fexexe, nuƒle, alo nudzɔdzɔ ene. Be ame ŋutɔ ƒe nyatakakawo kple dedienɔnɔ nadzi ɖe edzi la, ele vevie be nàse alesi asitsatsa ƒomevi vovovowo wɔa dɔe le Zcash me gɔme.
 
+## TL;DR
+
+- Zcash doa alɔ asitsatsa ƒomevi eve: **shielded**, si naa nyatakakaawo nɔa ɣaɣla, kple **transparent**, si ŋlɔa wo ɖe dutoƒo.
+- Adrɛs siwo wokpɔ ta na la dzea egɔme kple `u` or `z`. Adrɛs siwo me kɔ la dzea egɔme kple `t` eye wowɔa nu abe Bitcoin adrɛs ene.
+- Tiatia la nye tɔwò le fe ɖesiaɖe si nàxe me. Ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla nye tiatia si Zcash naa wò, ke menye nɔnɔme si ame bubu atso nya me na wò o.
+- Asiɖeɖe le nudzraɖoƒe aɖe ŋue nye afisi amewo ƒe adzamenyawo buna le wu. Ne gaɖeɖe le gaglãgbe koe gaɖɔliƒea doa alɔe la, ke wò ŋutɔ kpɔ ga la ta ne wonya ɖo ko.
+- Fewo kplɔnɛ ɖo [ZIP 317 ƒe xexlẽdzesi](https://zips.z.cash/zip-0317) eye wòatsi kple asitsatsa la ƒe lolome. Gakotoku siwo gakpɔtɔ le flat fee xoxoa ɖom ɖa la ate ŋu akpɔe be woƒe asitsatsa tsi megbe.
+
 ## Asitsatsa Siwo Ŋu Wokpɔ Akpoxɔnu Le
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -22,9 +30,9 @@ ZEC nye dijitaal nunɔamesi si wozãna le afisiafi hena fexexe, si naa ameŋunya
 
 ---
 
-Asitsatsa siwo wokpɔ ta na la dzɔna ne ètsɔ ZEC yi wò gakotoku si wokpɔ ta na la me. Wò gakotoku ƒe adrɛs si wokpɔ ta na la dzea egɔme kple U alo Z. Ne èle adzɔnuwɔna siwo wokpɔ ta na la ɖom ɖa la, èle ekpɔm be ye, kple ame siwo nèle asitsadɔ wɔm kplii la, miele adzamenyawo gbɔ kpɔkpɔ ƒe ɖoɖo aɖe si mate ŋu adzɔ le P2P fexexe ƒe mɔnu bubuwo dzi o la me tom. Asitsatsa si wotsɔ akpoxɔnuwo ɖo ɖa le bɔbɔe ŋutɔ, ɖeko wòle be nàka ɖe nu eve dzi. Gbãtɔe nye be èle gakotoku ƒomevi nyuitɔ zãm. Mɔ bɔbɔetɔ si dzi nàto akpɔ egbɔ be yele gakotoku ƒomevi nyuitɔ zãm enye be nàɖe [gakotoku](https://zechub.wiki/wallets). Nu vevi eveliae nye ZEC ʋuʋu yi gakotoku si ŋu wokpɔ akpoxɔnu le me. Ne èle ZEC ɖem le asitɔtrɔ aɖe me la, ele be nànya nenye be asitɔtrɔa doa alɔ gaɖeɖe siwo ŋu wokpɔa akpoxɔnu le alo esiwo woɖena le gaglãgbe. Ne wodoa alɔ ga si woɖena le gaxɔ me si ŋu wokpɔa akpoxɔnu le la, ɖeko nàte ŋu aɖe ZEC ayi wò adrɛs si wotsɔ akpoxɔnu na la dzi. Ne asitɔtrɔa doa alɔ gaɖeɖe le gaglãgbe ko la, ekema ele be nàzã YWallet eye nàwɔ autoshield wò ZEC ne èxɔe ko. Asitsatsa siwo ŋu wokpɔ ta na ko zazã atsɔ aɖo ga ɖa ahaxɔe nye mɔ nyuitɔ si dzi woato alé ame ŋutɔ ƒe nyatakakawo ta eye woaɖe afɔku si le nyatakakawo dodo me dzi akpɔtɔ
+Asitsatsa siwo wokpɔ ta na la dzɔna ne ètsɔ ZEC yi wò gakotoku si wokpɔ ta na la me. Wò gakotoku ƒe adrɛs si wokpɔ ta na la dzea egɔme kple U alo Z. Ne èle adzɔnuwɔna siwo wokpɔ ta na la ɖom ɖa la, èle ekpɔm be ye, kple ame siwo nèle asitsadɔ wɔm kplii la, miele ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla ƒe ɖoɖo aɖe si manya wɔ le P2P fexexe ƒe mɔnu bubuwo dzi la lém ɖe te. Asitsatsa si wotsɔ akpoxɔnuwo ɖo ɖa le bɔbɔe ŋutɔ, ɖeko wòle be nàka ɖe nu eve dzi. Gbãtɔe nye be èle gakotoku ƒomevi nyuitɔ zãm. Mɔ bɔbɔetɔ si dzi nàto akpɔ egbɔ be yele gakotoku ƒomevi nyuitɔ zãm enye be nàɖe a [gakotoku](https://zechub.wiki/wallets). Nu vevi eveliae nye ZEC ʋuʋu yi gakotoku si ŋu wokpɔ akpoxɔnu le me. Ne èle ZEC ɖem le asitɔtrɔ aɖe me la, ele be nànya nenye be asitɔtrɔa doa alɔ gaɖeɖe siwo ŋu wokpɔa akpoxɔnu le alo esiwo woɖena le gaglãgbe. Ne wodoa alɔ ga si woɖena le gaxɔ me si ŋu wokpɔa akpoxɔnu le la, ɖeko nàte ŋu aɖe ZEC ayi wò adrɛs si wotsɔ akpoxɔnu na la dzi. Ne asitɔtrɔa doa alɔ gaɖeɖe le gaglãgbe ko la, ekema ele be nàzã YWallet eye nàwɔ autoshield wò ZEC ne èxɔe ko. Asitsatsa siwo ŋu wokpɔ ta na ɖeɖeko zazã atsɔ aɖo ga ɖa ahaxɔe nye mɔ nyuitɔ si dzi woato alé ame ŋutɔ ƒe nyatakakawo ta eye woaɖe afɔku si le nyatakakawo ƒe dodo me dzi akpɔtɔ
 
-## Asitsatsa Siwo Wowɔna le Gaglãgbe
+## Asitsatsa Siwo Le Gaglãgbe
 
 Asitsatsa siwo me kɔ la wɔa dɔ nenema ke gake ameŋunyatakakawo takpɔkpɔ mele wo ŋu o, si wɔnɛ be asitsatsa ŋuti nyatakakawo dzena le dutoƒo le blockchain la dzi. Ele be woaƒo asa na asitsatsa le gaglãgbe ne ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ nye nu vevitɔ. De dzesii: Gakotoku siwo me kɔ ate ŋu ado go kuxiwo le ZIP-317 ta, si bia be woaxe fe siwo sɔ ɖe asitsatsa ƒe sesẽ nu. Fe siwo woxena ɖe wo ta ate ŋu ana woagbe alo ahe ɖe megbe, si ana be fexexe ɖe ɖoɖo nu le vevie ŋutɔ.
 
@@ -39,25 +47,46 @@ Asitsatsa siwo me kɔ la wɔa dɔ nenema ke gake ameŋunyatakakawo takpɔkpɔ me
   />
 </div>
 
+## Mɔ Blɔɖe Si Si Nàto Akpɔe le Nɔnɔmetata Me
 
-### Fe siwo Woxena Ðe Asitsatsa Siwo Le Gaglãgbe Ta Dzikpɔkpɔ
+Asitsatsa si me kɔ nye posugbalẽvi. Posudɔwɔla la tsɔnɛ yina na amewo, gake amesiame si akpɔ egbɔ le mɔa dzi ate ŋu axlẽ gbedasi la, akpɔ amesi ɖoe ɖa eye wòakpɔ amesi axɔe.
+
+Asitsatsa si wotsɔ akpoxɔnu wɔe nye agbalẽkotoku si wotre nu na. Posudɔwɔƒea gakpɔtɔ ɖo kpe edzi be lɛta ŋutɔŋutɔ si me posufe ŋutɔŋutɔ le la to ɖoɖoa me, eye ame aɖeke mate ŋu awɔ ɖeka alo aɖo lɛta ɖeka ɖa zi eve o. Nusi le agbalẽkotokua me nɔa amesi ɖoe ɖa kple amesi xɔe dome.
+
+Akpa vevitɔe nye be Zcash na nètsoa nya me le esi nàɖo ɖa ŋu, fexexe to fexexe me.
+
+## Fe siwo Woxena Ðe Asitsatsa Siwo Le Gaglãgbe Ta Dzikpɔkpɔ
 
 ZIP-317 Mɔfiame: Fexexe ƒe ɖoɖoa dzidzena kple asitsatsa ƒe sesẽ, si bia be woawɔ asitɔtrɔ siwo wu 0.00001 ZEC fetu si woɖo ɖi.
-Kpɔɖeŋu Akɔntabubu: Gagbalẽ ɖeka ƒe asitsatsa bɔbɔe ate ŋu abia be woaxe fe si nye 0.0001 ZEC, si adzi ɖe edzi abe ZEC 0.00005 ene ɖe gagbalẽ bubu ɖesiaɖe ta.
+Kpɔɖeŋu Akɔntabubu: Gagbalẽ ɖeka ƒe asitsatsa bɔbɔe ate ŋu abia be woaxe fe si nye 0.0001 ZEC, si adzi ɖe edzi abe ZEC 0.00005 ene ɖe gagbalẽ bubu ɖesiaɖe dzi.
 
 Asitɔtrɔ ƒe Fewo le Gakotokuwo Me
 
 Trust Wallet: Kpɔ ɖoɖo deŋgɔwo to asiƒoƒo ɖe gear ƒe dzesi dzi esime nèle asitsadɔ aɖe wɔm. Trɔ asi le Miner Tip Gwei kple Max Fee Gwei agblewo ŋu nyuie be nàƒo asa na asitsatsa ƒe kpododonu. Network ƒe fewo koe Trust Wallet xɔa ga le.
 Coinomi Gakotoku: Enaa fe etɔ̃ siwo trɔna ƒe tiatia Low, Normal, High si wotu ɖe network ƒe nɔnɔmewo dzi. Ne èdi asitɔtrɔ le asi ŋu la, tia Custom on supported coins alo zã Change Fee le etame le ɖusime. Zãlawo ate ŋu aɖo fetu ɖe byte alo kilobyte ɖeka dzi, si akpɔ ŋusẽ ɖe kpeɖodzi ɣeyiɣiwo dzi. Eƒe aɖaŋuɖoɖo be woazã tiatia siwo trɔna ne kakaɖedzi mele eŋu o.
 
-Trɔtrɔ sia tsɔ fexexe ŋuti mɔfiamewo, fexexe ƒe tiatia siwo trɔna, kple tɔtrɔ ɖe nɔnɔmewo ŋu ƒe ɖoɖowo le Trust Wallet kple Coinomi katã me, si naa fetudzikpɔkpɔ ŋuti nyatakaka blibo zãlawo.
+## Vodada Siwo Wowɔna Zi geɖe
 
-#### Nunɔamesiwo
+- **Ne míetsɔe be gakotoku ɖesiaɖe si ŋlɔ ZEC ateŋu aɖoe ɖa le adzame.** Gakotoku geɖe siwo me gaku geɖe le doa alɔ Zcash ƒe akpa si me kɔ la ɖeɖeko. Kpɔ gakotokua ƒe tadeaguƒe siwo wodo alɔe ɖa hafi nàɖo ŋu ɖe eŋu be nànya ame ŋutɔ ƒe nyawo. The [Gakotokuwo](https://zechub.wiki/using-zcash/wallets) axaa yɔ esia na tiatia ɖesiaɖe.
+- **Gaɖeɖe yi adrɛs si me kɔ eye woagblẽ ga la ɖe afima.** Gaɖeɖea ŋutɔ nye dutoƒo, eye ʋuʋu ɖesiaɖe si ava emegbe tso adrɛs ma dzi hã nɔa dutoƒo. Kpɔ ga la ta ne wonya ɖo ko.
+- **Adzamenyawo wɔwɔ abe nane si nèʋuna zi ɖeka ene.** Asitsatsa ɖesiaɖe nye tiatia si to vovo. Shielded ɖoɖo ɖa egbea meɖea ga si nèxe le gaglãgbe si nèxe le kwasiɖa si va yi me la ɖa o.
+- **Adrɛs si me kɔ zazã ake na nusianu.** Esi wònye be dɔwɔna si me kɔ la dzena tegbee ta la, adrɛs ɖeka si wogazãna la doa ka kple fexexe siwo me susu aɖeke menɔ be woatsɔ aƒo ka na wo o vivivi.
+- **Eɖoɖo kple fetu si do xoxo.** Gakotoku siwo mexɔ ZIP 317 o ate ŋu aɖo flat fe xoxoa ɖa kokoko, si ate ŋu ana asitsatsa aɖe nanɔ anyi si dzi womeɖo kpee o.
 
-[ZIPS ƒe dɔwɔwɔ](https://zips.z.cash/)
+## Ɖo ŋku edzi
 
-#### Ɖo ŋku edzi
+Taflatse de dzesii be mɔ si le dedie wu si dzi nàto azã ZEC enye asitsatsa siwo wokpɔ ta na ko zazã. Wole gakotoku aɖewo dzi wɔm [adrɛs siwo wowɔ ɖekae](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) si na be zãlawo kple asitɔtrɔwo te ŋu ƒoa adrɛs siwo me kɔ kple esiwo wokpɔ ta na nu ƒu ɖekae.
 
-Taflatse de dzesii be mɔ si le dedie wu si dzi nàto azã ZEC enye asitsatsa siwo wokpɔ ta na ko zazã. Gakotoku aɖewo le [adrɛs siwo wowɔ ɖekae](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.) si na be zãlawo kple asitɔtrɔwo te ŋu ƒoa adrɛs siwo me kɔ kple esiwo wokpɔ ta na nu ƒu ɖekae. 
+## Nunɔamesiwo
+
+[ZIPS ƑE NUÐEÐEŊUTI](https://zips.z.cash/)
+
+## Axa Siwo Do Ƒome Kplii
+
+- [Gakotokuwo](/using-zcash/wallets) — gakotoku siwo doa alɔ shielded sending, eye esiwo me kɔ ko
+- [Ta Siwo Wotsɔ Akpoxɔnu Wɔe](/using-zcash/shielded-pools) — Sapling kple Orchard, ta siwo me wò ga si wokpɔ ta na la le
+- [Nuŋlɔɖiwo](/using-zcash/memos) — gbedasi siwo wotsɔ nya ɣaɣlawo ŋlɔe siwo ate ŋu azɔ mɔ kple asitsatsa si wokpɔ ta na
+- [Adrɛs Siwo Wotsɔna Ðoa Nui Siwo Me Kɔkɔe](/using-zcash/transparent-exchange-addresses) — TEX adrɛswo kple nusitae asitɔtrɔdɔwɔƒewo zãa wo
+- [Vidzikpɔkpɔ ƒe Asitɔtrɔ](/using-zcash/custodial-exchanges) — si exchanges doa alɔ shielded gaɖeɖe
 
 ## ZEC yi ZAT ƒe Trɔla

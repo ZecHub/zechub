@@ -118,5 +118,5 @@ Zcashを使用することで以下が可能です：
 
 ## 次のステップ
 
-- [商人として支払いを受け入れる](/use-cases/accept-payments-as-a-merchant)
+- [加盟店として支払いを受け入れる](/zcash-use-cases/accept-payments-as-a-merchant)
 <br/>

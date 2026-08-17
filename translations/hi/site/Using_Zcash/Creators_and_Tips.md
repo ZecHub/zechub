@@ -15,7 +15,7 @@
 
 ## Zcash.me
 
-![Zcash.me Logo](https://pbs.twimg.com/profile_images/1983177127806533632/LbLuoQjB_400x400.jpg)
+![Zcash.me लोगो](/content-images/_unavailable.svg)
 
 ### अवलोकन
 
@@ -59,7 +59,7 @@
 
 ## TipZ
 
-![TipZ Logo](/content-images/BbXM8cDV_400x400-e6071ba983.webp)
+![TipZ लोगो](/content-images/BbXM8cDV_400x400-e6071ba983.webp)
 
 ### अवलोकन
 

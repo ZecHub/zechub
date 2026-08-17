@@ -475,7 +475,7 @@ Pia husaidia ** kuepuka gharama ya kukodisha VPS **, ambayo ni bora kama malipo 
 
 ### Hatua ya 1: Kufunga Cloudflare Tunnel
 
-1. Unda akaunti katika [cloudflare.com]](https://www.cloudflare.com) na kuongeza kikoa chako.
+1. Unda akaunti katika [cloudflare.com](https://www.cloudflare.com) na kuongeza kikoa chako.
 2. Kwenye yako ** nyumbani server **, kufunga Cloudflare Tunnel:
 
 ```

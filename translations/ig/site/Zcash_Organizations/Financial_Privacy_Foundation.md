@@ -37,6 +37,6 @@ Enwere ike ịhụ ozi ndị ọzọ gbasara FPF X FPF na ebe nrụọrụ weeb�
 Ọ bụrụ na ị nwere mmasị ịghọ onye nyocha afọ ofufo maka usoro a nke FPF X FPF, biko gaa na nke a [njikọ](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)Maka ajụjụ ndị ọzọ gbasara FPF X FPF Grant Program, ị nwere ike ịjụ ozugbo site na izipu email [FPF](info@financialprivacyfoundation.org).
 
 ## Akụrụngwa 
-[Ego Nzuzo Ego]](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)
+[Ego Nzuzo Ego](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)
 
 

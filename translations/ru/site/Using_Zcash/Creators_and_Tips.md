@@ -15,7 +15,7 @@
 
 ## Zcash.me
 
-![Логотип Zcash.me](https://pbs.twimg.com/profile_images/1983177127806533632/LbLuoQjB_400x400.jpg)
+![Логотип Zcash.me](/content-images/_unavailable.svg)
 
 ### Обзор
 

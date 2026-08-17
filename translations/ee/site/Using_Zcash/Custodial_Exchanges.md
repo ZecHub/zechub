@@ -6,22 +6,22 @@
 
 ---
 
-### [Binance ƒe nyawo](https://binance.com)
+### [Binance ƒe nuwɔna](https://binance.com)
 
 <a href="https://binance.com">
-    <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png" alt="Binance Logo" width="200" height="100"/>
+    <img src="/content-images/_unavailable.svg" alt="Binance Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Binance](https://binance.com)
+- Nyatakakadzraɖoƒe: [Binance ƒe nuwɔna](https://binance.com)
 - Atsu kple asi: ALL/ZEC
 - Kpekpeɖeŋunana: Edzena le gaglãgbe (TEX Adrɛs Deposit) .
 - Ɣeyiɣi si Wotsɔ De Gadzraɖoƒe: Aɖabaƒoƒo 20
 ___
 
-### [BitcoinVN ƒe ŋkɔ](https://bitcoinvn.io)
+### [BitcoinVN](https://bitcoinvn.io)
 
 <a href="https://bitcoinvn.io">
-    <img src="https://bitcoinvn.io/img/bitcoinvn-logo.png" alt="BitcoinVN Logo" width="200" height="100"/>
+    <img src="/content-images/_unavailable.svg" alt="BitcoinVN Logo" width="200" height="100"/>
 </a>
 
 - Nyatakakadzraɖoƒe: [BitcoinVN](https://bitcoinvn.io)
@@ -30,25 +30,25 @@ ___
 - Ɣeyiɣi si Wotsɔ De Gadzraɖoƒe: Enumake (si menye gaxɔmenɔnɔ ƒe asitɔtrɔ o) .
 ___
 
-### [Bitfinex ƒe nya](https://bitfinex.com)
+### [Bitfinex ƒe nyawo](https://bitfinex.com)
 
 <a href="https://bitfinex.com">
     <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Bitfinex_Logo_light.svg" alt="Bitfinex Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Bitfinex](https://bitfinex.com)
+- Nyatakakadzraɖoƒe: [Bitfinex ƒe nyawo](https://bitfinex.com)
 - Atsu kple asi: ALL/ZEC
 - Kpekpeɖeŋunana: Edzena le gaglãgbe
 - Ɣeyiɣi si Woatsɔ Gade Asi: Aɖabaƒoƒo 25 
 ___
 
-### [Coinbase ƒe agbalẽ](https://coinbase.com)
+### [Coinbase ƒe ƒuƒoƒo](https://coinbase.com)
 
 <a href="https://coinbase.com">
     <img src="/content-images/coinbase-8643659341.webp" alt="" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Coinbase](https://coinbase.com)
+- Nyatakakadzraɖoƒe: [Coinbase ƒe ƒuƒoƒo](https://coinbase.com)
 - Atsu kple asi: ALL/ZEC
 - Kpekpeɖeŋunana: Edzena le gaglãgbe
 - Ɣeyiɣi si Wotsɔ De Gadzraɖoƒe: Aɖabaƒoƒo 150
@@ -60,10 +60,10 @@ ___
     <img src="/content-images/Gemini-Symbol-ddd31ee98b.webp" alt="Gemini Custodian Exchange Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Gemini](https://gemini.com)
+- Nyatakakadzraɖoƒe: [Gemini ƒe ɣletivimefakaka](https://gemini.com)
 - Atsu kple asi: ALL/ZEC
 - Kpekpeɖeŋunana: Transparent | Nusiwo Woɖena Le Ame Ŋu si Wotsɔ Akpoxɔnu Wɔe
-- Ɣeyiɣi si Woatsɔ Gade Asi: Aɖabaƒoƒo 50 
+- Ɣeyiɣi si Woatsɔ Ade Asie: Aɖabaƒoƒo 50 
 ___
 
 ### [Huobi ƒe ŋkɔ](https://huobi.com)
@@ -72,10 +72,10 @@ ___
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Huobi](https://huobi.com)
+- Nyatakakadzraɖoƒe: [Huobi ƒe ŋkɔ](https://huobi.com)
 - Atsu kple asi: ALL/ZEC
 - Kpekpeɖeŋunana: Edzena le gaglãgbe
-- Ɣeyiɣi si Woatsɔ Ade Gadzraɖoƒe: Aɖabaƒoƒo 35 
+- Ɣeyiɣi si Woatsɔ Gade Asi: Aɖabaƒoƒo 35 
 ___
 
 ### [Kraken ƒe ŋkɔ](https://kraken.com)
@@ -84,7 +84,7 @@ ___
     <img src="/content-images/kraken-logo-7407ab477f.webp" alt="Kraken Promotional" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [Kraken](https://kraken.com)
+- Nyatakakadzraɖoƒe: [Kraken ƒe ŋkɔ](https://kraken.com)
 - Atsu kple asi: ALL/ZEC
 - Kpekpeɖeŋunana: Edzena le gaglãgbe
 - Ɣeyiɣi si Wotsɔ De Gadzraɖoƒe: Aɖabaƒoƒo 60
@@ -96,7 +96,7 @@ ___
     <img src="/content-images/kucoin-ee0c21f9fd.svg" alt="KuCoin Logo" width="200" height="100"/>
 </a>
 
-- Nyatakakadzraɖoƒe: [KuCoin](https://kucoin.com)
+- Nyatakakadzraɖoƒe: [KuCoin ƒe ŋkɔ](https://kucoin.com)
 - Atsu kple asi: ALL/ZEC
 - Kpekpeɖeŋunana: Edzena le gaglãgbe
 - Ɣeyiɣi si Woatsɔ Ade Asie: Aɖabaƒoƒo 20 

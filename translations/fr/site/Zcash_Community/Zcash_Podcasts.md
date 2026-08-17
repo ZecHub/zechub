@@ -1,23 +1,23 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Zcash_Podcasts.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Podcasts
-Vous voulez en apprendre davantage sur l'écosystème Zcash ? Voici une liste de podcasts que vous pouvez suivre :
+Vous voulez en savoir plus sur l’écosystème Zcash ? Voici une liste de podcasts que vous pouvez suivre :
 
 <ul class="podcast-list grid grid-cols-1 imd:grid-cols-2 md:grid-cols-3 gap-6">
 <li>
-<a href="https://www.youtube.com/playlist?list=PL8avDn0zigvoWqj_f7MrO5mx8JhsLY4kT"><img class="podcast-img" src="https://zechub.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc5e5e7d2-f2f7-4db7-815c-adba35a6bb78%2Fzcast.jpg?table=block&amp;id=26031a2e-953b-4f73-ba47-5af17e5b9c20&amp;spaceId=38cc715a-cc23-4f85-9429-2b9e6dd2c3b9&amp;width=40&amp;userId=&amp;cache=v2" alt="" width="40" height="41" />Liste de lecture du podcast Zcast</a>
+<a href="https://www.youtube.com/playlist?list=PL8avDn0zigvoWqj_f7MrO5mx8JhsLY4kT"><img class="podcast-img" src="/content-images/_unavailable.svg" alt="" width="40" height="41" />Playlist du podcast Zcast</a>
 <iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=vG5H6UhCHpS0r546&amp;list=PL8avDn0zigvoWqj_f7MrO5mx8JhsLY4kT" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </li>
 
 <li>
-<a href="https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O"><img class="podcast-img" src="https://zechub.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F21f78eb9-4be4-4aee-90ae-ea499c884b8b%2FScreenshot_2023-02-25_08-08-36.png?table=block&amp;id=b1b24e20-e4ba-47d4-b89e-49b513015d1c&amp;spaceId=38cc715a-cc23-4f85-9429-2b9e6dd2c3b9&amp;width=40&amp;userId=&amp;cache=v2" alt="" width="40" height="41" />Liste de lecture du podcast ZecHub</a>
+<a href="https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O"><img class="podcast-img" src="/content-images/_unavailable.svg" alt="" width="40" height="41" />Playlist du podcast ZecHub</a>
 <iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=QE_B4lmB49YseOjy&amp;list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </li>
 
 <li>
-<a href="https://www.youtube.com/playlist?list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-44af5f0fcf.webp" alt="" width="40" height="41" />Liste de lecture du podcast Zcash</a>
+<a href="https://www.youtube.com/playlist?list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-44af5f0fcf.webp" alt="" width="40" height="41" />Playlist du podcast Zcash</a>
 <iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=oNBNYZP0gkA96Iwl&amp;list=PLBFOSRGoT80W5EAebpT9zwXu6OTS1mq8w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </li>
 
@@ -27,14 +27,14 @@ Vous voulez en apprendre davantage sur l'écosystème Zcash ? Voici une liste de
 </li>
 
 <li>
-<a href="https://www.youtube.com/playlist?list=PLH78wfbGI1x2Rj7tLp1RCG68wNvKqCT74"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-d965cb4785.webp" alt="" width="40" height="41" />Liste de lecture des transactions blindées</a>
+<a href="https://www.youtube.com/playlist?list=PLH78wfbGI1x2Rj7tLp1RCG68wNvKqCT74"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-d965cb4785.webp" alt="" width="40" height="41" />Playlist de transactions protégées</a>
 <iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=MXbM7LrvNJBm9uM5&amp;list=PLH78wfbGI1x2Rj7tLp1RCG68wNvKqCT74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </li>
 
 <li>
-<a href="https://www.youtube.com/playlist?list=PLj80z0cJm8QEUVSlofe1Zd7wyaoZrixFM"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-4931488273.webp" alt="" width="40" height="41" />Liste de lecture du podcast ZK</a>
+<a href="https://www.youtube.com/playlist?list=PLj80z0cJm8QEUVSlofe1Zd7wyaoZrixFM"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-4931488273.webp" alt="" width="40" height="41" />Playlist du podcast ZK</a>
 <iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=TxOfv39hKdL4X7S3&amp;list=PLj80z0cJm8QEUVSlofe1Zd7wyaoZrixFM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </li>
 </ul>
 
-Avons-nous oublié un bon podcast ? Contactez-nous sur [Discord](https://discord.gg/zcash) et nous l'ajouterons à la liste.
+Un bon podcast manque à la liste ? Contactez-nous sur [Discord](https://discord.gg/zcash) et nous l’ajouterons à la liste.

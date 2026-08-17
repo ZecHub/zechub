@@ -4,25 +4,25 @@
 
 ## TL;DR
 
-- Na-ezipụ mgbe niile site na adreesị echedoro
-- Zere azụmahịa t na t
+- Na-ezipụ mgbe niile site na **ngalaba echekwara**
+- Zere azụmahịa t na-aga n'ihu.
 - Kwụsị njikọ n'etiti njirimara
-- Na-echebara oge na ihe ndị ị na-eme echiche
+- Na-echebara oge na ihe ndị ị ga-eme echiche.
 
 <br/>
 
 ## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
 
-- Onye ọ bụla na-eziga ịkwụ ụgwọ dị nro
-- Ndị ọrụ na-eche banyere nzuzo
-- Ndị na-arụ ọrụ n'okpuru nlekota ihe ize ndụ
+- Onye ọ bụla na-eziga ịkwụ ụgwọ dị nro.
+- Ndị ọrụ na-echebara nzuzo anya
+- Ndị na-arụ ọrụ n'okpuru nchebe dị ize ndụ.
 
 <br/>
 
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
 
 Izipu crypto na-egosikarị:
-- Nkọwa nke obere akpa gị
+- Nkọwapụta akpa ego gị
 - Akụkọ azụmahịa gị
 - Ndị gị na ha na-emekọ ihe
 
@@ -33,81 +33,81 @@ Nke a na-emepụta **traceable ego eserese**.
 ## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash?
 
 
-Zcash na-eme ka **nzife nzuzo zuru oke** site na iji azụmahịa echedoro.
+Zcash na-enye ohere **nzife nzuzo zuru oke** site n'iji azụmahịa echekwara.
 
 Nke a na-agbaji:
-- Adreesị njikọ
-- Ịchọpụta azụmahịa ọha na eze
+- Adreesị njikọ njikọta
+- Nchịkọta azụmahịa ọha na eze
 
 <br/>
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
 - Akpa ego nke na-akwado azụmahịa echekwara
-- Nghọta nke adreesị z
+- Nghọta nke adreesị z-adreesị .
 
 <br/>
 
 ## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
 
-### Nzọụkwụ nke Mbụ: Jide n'aka na E Chebere Ego Gị
+### Nzọụkwụ 1: Jide n'aka na E Chebere Ego Ndị I Nwere
 
-Ọ bụrụ na ego gị dị na adreesị doro anya:
-- Bugharịa ha na adreesị echedoro mbụ
+Ọ bụrụ na ego gị dị n'adres a ga-ahụ ya anya:
+- Bugharịa ha n'ebe a na-eche nche mbụ.
 
 
-### Nzọụkwụ 2: Ziga site na Shielded ka Shielded
-Na-ahọrọ mgbe nile `z to z` azụmahịa
+### Nzọụkwụ 2: Ziga site na Shielded ka ọ bụrụ onye nchebe
+Na-ahọrọ mgbe nile. `z to z` azụmahịa
 
 Nke a na-eme ka e nwee nchebe dị ukwuu.
 
 
-### Nzọụkwụ nke Atọ: Zere Ịmata Onye Ị Bụ
+### Nke Atọ: Ejila Onye Ị Bụ Ama Gị Aka
 
 Emela:
-- Na-ekwupụta azụmahịa n'ihu ọha
-- Jiri otu adreesị ahụ n'ofe gburugburu
-- Njikọ adreesị na njirimara ndị a maara
+- Kpọsaa azụmahịa n'ihu ọha
+- Jiri otu adreesị ahụ n'ofe ọnọdụ niile
+- Jikọta adreesị na njirimara ndị a maara.
 
 ### Nke Anọ: Chebara Ihe Ị Ga-eme Echiche
 
-Ntụziaka dị elu:
-- Zere iziga ozugbo ị natara nnukwu ego
-- Kwụsị ihe ndị a na-atụ anya ha ma ọ bụrụ na o kwe mee
+Ihe na-eme ka mmadụ mara ihe:
+- Zere iziga ozugbo ị natara nnukwu ego .
+- Kwụsị ihe ndị a na-atụ anya ha ma ọ bụrụ na o kwe mee .
 
 <br/>
 
 ## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
 
-- Na-ezipụ kpọmkwem site na adreesị doro anya 
-- Iji adreesị gafee ọtụtụ ndị mmadụ 
+- Na-eziga kpọmkwem site na adreesị doro anya. 
+- Ịgbanwe adreesị n'ọtụtụ ndị mmadụ 
 - Ikwupụta azụmahịa n'ihu ọha 
-- Na-eleghara metadata anya (oge, ugboro)
+- Na-eleghara metadata (oge, ugboro) anya.
 
 <br/>
 
 ## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
 
 I nwere ike:
-- Na-ezipụ ego na nzuzo
-- Zere ijikọta njirimara gị
+- Ziga ego na nzuzo.
+- Zere ijikọta njirimara gị na ibe ya.
 - Belata traceability
 
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
-- [Nchekwa nzuzo - echekwara vs Transparent](/privacy/shielded-vs-transparent)
+- [Nzuzo - E Chebere Ya Ka Ọ̀ Bụ nke A Na-ahụ Anya?](/privacy/shielded-vs-transparent)
 
 <br/>
 
 ## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
 
-**Nzọụkwụ 2 nke 6**
+**Nzọụkwụ nke 2 n'ime 6**
 
-Ị nwere ike izipu ego ugbu a na nzuzo n'ekpugheghị njirimara gị.
+Ị nwere ike iziga ego ugbu a n'ụzọ nzuzo na-enweghị ikpughe njirimara gị.
 
 <br/>
 
 ## Nzọụkwụ Ọzọ
 
-- [Ntọala Nzuzo nke Freelancer](/use-cases/freelancer-privacy-setup)
+- [Ntọala Nzuzo nke Freelancer](/zcash-use-cases/freelance-privacy-setup)

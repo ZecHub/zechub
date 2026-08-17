@@ -4,64 +4,112 @@
 
 # Viewing Keys
 
-Shielded addresses enable users to transact while revealing as little information as possible on the Zcash blockchain. What happens when you need to disclose sensitive information around a shielded Zcash transaction to a specific party? Every shielded address includes a viewing key. Viewing keys were introduced in [ZIP 310](https://zips.z.cash/zip-0310) and added to the protocol in the Sapling network upgrade. Viewing keys are a crucial part of Zcash as they allow users to selectively disclose information about transactions.
+Shielded addresses let you transact while revealing as little as possible on the Zcash blockchain. So what happens when you *do* need to show a specific party what you hold, or what you sent? Every shielded address has a viewing key that grants read access without granting the ability to spend. Viewing keys were introduced in [ZIP 310](https://zips.z.cash/zip-0310) and added to the protocol in the Sapling network upgrade.
 
-### Why use a viewing key?
+A viewing key is the tool for selective disclosure: you choose who sees what, and you never hand over spend authority to do it.
 
-Why would a user ever want to do this? From Electric Coin Co.'s blog on the matter...
+## Why use a viewing key?
 
-*- An exchange wants to detect when a customer deposits ZEC to a shielded address, while keeping the **spend authority** keys on secure hardware. The exchange could generate an incoming viewing key and load it onto an Internet-connected **detection** node, while the spending key remains on the more secure system.*
+Electric Coin Company's writing on the subject sets out the situations that come up most often, and they are still the common ones today:
 
-*- A custodian needs to provide visibility of their Zcash holdings to auditors. The custodian may generate a full viewing key for each of their shielded addresses and share that key with their auditor. The auditor will be able to verify the balance of those addresses and review past transaction activity to and from those addresses.* 
+- **An exchange watching for deposits.** The exchange loads an incoming viewing key onto an internet-facing detection node so it can notice customer deposits to a shielded address, while the spending key stays on hardware that never touches the network.
+- **A custodian proving its holdings.** The custodian hands an auditor a full viewing key for each shielded address. The auditor can check those balances and review past activity to and from those addresses, and can do nothing else.
+- **Due diligence on a counterparty.** Where an exchange needs to review a customer's shielded history as part of enhanced due diligence, it can ask for the viewing key rather than for the funds.
 
-*- An exchange may need to conduct due diligence checks on a customer who makes deposits from a shielded address. The exchange could request the customers viewing key for their shielded address and use it to review the customers shielded transaction activity as part of these enhanced due diligence procedures.*
+## What a viewing key does and does not reveal
 
-### How to find your viewing key
+There is more than one kind of key, and the difference decides how much you give away.
 
-#### zcashd
+| Key | Prefix | Grants |
+|---|---|---|
+| Unified full viewing key (UFVK) | `uview…` | Sees incoming **and** outgoing transactions for every pool in the account |
+| Unified incoming viewing key (UIVK) | `uivk…` | Sees incoming transactions only, for every pool in the account |
+| Sapling extended full viewing key | `zxviews…` | Sees incoming and outgoing Sapling activity for the key's addresses |
 
-* List all known addresses using *./zcash-cli listaddresses*
+None of these can spend. All of them are permanent in the way that matters: a key you have handed out cannot be recalled, only outlived, by moving funds to an account whose keys the other party does not hold.
 
-* Then issue the following command for either UA's or Sapling shielded addresses
+Two disclosure traps are worth knowing before you share anything.
 
-  ```bash
-  ./zcash-cli z_exportviewingkey "<UA or Z address>"
-  ```
+**Incoming does not mean narrow.** A unified incoming viewing key is scoped to the whole account, not to the one address you were asked about. Exporting a UIVK for a single Sapling address still grants incoming visibility across every pool in that account, so it discloses more than the address it names. The [Zallet Book](https://zcash.github.io/zallet/zcashd/json_rpc.html) states this explicitly.
 
-#### Ywallet
+**A published address already exposes its incoming viewing key to a future adversary.** [ZIP 326](https://zips.z.cash/zip-0326) notes that an adversary with a quantum computer could recover the incoming viewing key from a published diversified address, which is feasible in a way that recovering the nullifier key is not. Publishing an address is not the same as publishing a viewing key today, but the two sit closer together over a long enough horizon.
 
-* On the top right corner select "Backup", Authenticate your phone, then simply copy your viewing key that is displayed.
+## Viewing keys after Ironwood
 
-### How to use your viewing key
+NU6.3 introduced the Ironwood shielded pool and made the Orchard pool spend-only, so funds migrate from one to the other over time. See [Ironwood](/zcash-tech/ironwood) and [The turnstile](/zcash-tech/the-turnstile) for the upgrade itself.
 
-#### zcashd
+**A viewing key issued before Ironwood keeps working after the migration.** ZIP 326 specifies that a receiver, and its corresponding incoming viewing key, is scoped to the Orchard *protocol* rather than to a pool: the same incoming viewing key trial-decrypts both Orchard-pool and Ironwood-pool note ciphertexts. Zallet implements it that way, describing Ironwood notes as Orchard-shaped and trial-decrypted with the account's Orchard viewing keys under the Ironwood note-encryption domain.
 
-* Use the following with any vkey or ukey: 
+Three consequences for anyone holding or issuing a key:
+
+1. **Balances move between pools, and the viewer sees it happen.** [ZIP 318](https://zips.z.cash/zip-0318) specifies migration as a series of small, deliberately uniform Orchard-to-Ironwood transactions broadcast on a randomised schedule, each spending one Orchard note and producing one Ironwood output of a canonical denomination. An auditor watching with a viewing key sees holdings shift from one pool to the other in steps over weeks, not in a single move. A wallet can reconstruct its own migration progress from chain data using its viewing keys.
+2. **Each migration step reveals the value it moves.** That is inherent to crossing a turnstile, and it is what makes the migration auditable. Splitting the balance into canonical denominations means no single transaction reveals the whole Orchard-pool balance.
+3. **Accounts created after Ironwood may derive their keys differently.** [ZIP 2005](https://zips.z.cash/zip-2005) adds a `use_qsk` flag for quantum-recoverable keys, and it changes how the incoming, outgoing and diversifier keys are derived, so `use_qsk = true` keys are genuinely different keys. ZIP 326 requires the flag to be uniform across an account and forbids generating `use_qsk = true` keys before NU6.3 activated on Mainnet. A key exported from an account that existed before Ironwood is therefore a `use_qsk = false` key, and stays correct for that account. Do not assume a key exported from one account describes another.
+
+## Exporting a viewing key
+
+### Zallet
+
+[Zallet](https://github.com/zcash/zallet) is the full-node wallet that replaced the wallet inside zcashd. Viewing-key export and import arrived in **v0.1.0-beta.2 (28 July 2026)**, so check your version first; earlier builds do not have these methods. Every argument after the method name must be valid JSON, which means string values keep their own double quotes. The [Zallet Quick Reference Guide](/using-zcash/zallet-quick-reference-guide) covers the general command style.
+
+List what the wallet holds:
 
 ```bash
-./zcash-cli z_importviewingkey "vkey/ukey" whenkeyisnew 30000
+zallet rpc listaddresses
 ```
 
-#### ywallet
+Export the account's unified full viewing key by passing a unified address:
 
-* In the top right corner, select "Account", click on "+" in the bottom right corner to add and import your viewing key to add your 'read-only' account.
+```bash
+zallet rpc z_exportviewingkey '"<unified address>"'
+```
 
-<a href="">
-    <img src="/content-images/image-2024-01-13-175554676-8cdf988797.webp" alt="" width="200" height="280"/>
-</a>
+Export the account's unified incoming viewing key instead, using the optional `ivk` argument:
 
+```bash
+zallet rpc z_exportviewingkey '"<unified address>"' true
+```
 
-#### zcashblockexplorer.com
+Passing a Sapling address returns that account's Sapling extended full viewing key (`zxviews…`), matching the old zcashd behaviour. Two documented limits: Sprout addresses are rejected, and a Sapling extended full viewing key cannot be exported from an account that was itself imported as view-only, because the wallet cannot reconstruct it. The `ivk` form does work for imported view-only accounts.
 
-* Simply point your browser to [here](https://zcashblockexplorer.com/vk) and wait for the results! note: this result is now on the zcashblockexplorer node and thus you're trusting this info with the owners of zcashblockexplorer.com
+### Wallets that export viewing keys from their own interface
 
-### Resources
+The [Wallets](/using-zcash/wallets) page tracks viewing-key support and Ironwood readiness for each wallet. At the time of writing, wallets listing both viewing-key support and **Ironwood: Ready** include ZODL, Zingo!, Zkool, Cake, Zallet, Zecd and Nozy. Check that page rather than this one before relying on any single wallet, because readiness changes.
 
-While a great technology, it's recommended that you use viewing keys on an as needed basis.
+## Importing a viewing key as a watch-only account
 
-Check out this tutorial on viewing keys. A list of resources on the subject is below if you want to dive deeper:
+### Zkool
 
+[Zkool](https://github.com/hhanh00/zkool2) is the most flexible option here, because it accepts unified keys as well as legacy ones. Its README documents view-only accounts created from a **unified viewing key** or a **Sapling extended viewing key**, alongside legacy shielded extended keys exported from zcashd. Add a new account, choose the view-only route, and paste the `uview…` or `zxviews…` key; the account then syncs and reports balances and history with no spend authority.
+
+Ironwood protocol support and the Orchard-to-Ironwood migration landed in Zkool 6.24.0 (20 July 2026), and 6.26.1 (2 August 2026) fixed Ironwood transaction detection in the mempool. Run 6.26.1 or later.
+
+### Zallet
+
+```bash
+zallet rpc z_importviewingkey '"<zxviews… key>"' '"whenkeyisnew"' 0
+```
+
+The second argument is the rescan policy: `"whenkeyisnew"` (the default), `"yes"` or `"no"`. The third is the block height to rescan from. Zallet imports the key as a view-only account and tracks incoming and outgoing transactions for its addresses without spending authority.
+
+**Zallet imports Sapling extended full viewing keys only.** It will not import a `uview…` unified full viewing key, even though it can export one. To hand over read access to a whole unified account, export the UFVK from Zallet and import it into a wallet that accepts unified keys, such as Zkool.
+
+## What changed, and what to stop looking for
+
+If you followed an older version of this page, or a translation of it, three routes no longer work.
+
+- **`zcash-cli z_exportviewingkey` and `z_importviewingkey`.** zcashd reached its end-of-support halt on 18 July 2026 and no longer runs. Zallet's identically named methods are the replacement; see the [migration guide](/guides/migration-guide-zcashd-to-zebrad-zallet).
+- **The Ywallet walkthrough.** The Wallets page marks Ywallet **Ironwood: Not Ready**, so it is not the wallet to point people at for Ironwood-era viewing keys. Zkool, from the same developer, accepts the same range of keys and is marked Ready.
+- **zcashblockexplorer.com/vk.** The service returns HTTP 503 with an invalid certificate, and it has been dropped rather than replaced. Pasting a viewing key into a website hands your whole transaction history to whoever runs that website, which was always the weakest of the three options on the old page. Import the key into a wallet you run instead.
+
+## Resources
+
+Use viewing keys on an as-needed basis, and prefer the narrowest key that answers the question being asked.
+
+- [ZIP 326: NU6.3 Consequences for Wallets](https://zips.z.cash/zip-0326) — how viewing keys behave across the Orchard and Ironwood pools
+- [ZIP 229: Version 6 Transaction Format](https://zips.z.cash/zip-0229) — defines the Orchard and Ironwood pools
+- [Zallet changelog](https://github.com/zcash/zallet/blob/main/CHANGELOG.md) — which release added which RPC method
+- [Zkool README](https://github.com/hhanh00/zkool2/blob/main/README.md) — supported account and key types
 - [ECC, Explaining Viewing Keys](https://electriccoin.co/blog/explaining-viewing-keys/)
 - [ECC, Selective Disclosure and Viewing Keys](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
 - [ECC, Zcash Viewing Key Video Presentation](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
-- [ZIP 310](https://zips.z.cash/zip-0310)

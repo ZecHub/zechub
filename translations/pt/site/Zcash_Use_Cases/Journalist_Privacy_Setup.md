@@ -114,7 +114,7 @@ Você pode:
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de links em cadeia"/> Relacionado
 
 - [Privacidade - Melhores práticas](/privacy/best-practices)
-- [Enviar dinheiro sem vincular identidade](/use-cases/send-money-without-linking-identity)
+- [Enviar dinheiro sem vincular identidade](/zcash-use-cases/send-money-without-linking-identity)
 
  <br/>
 

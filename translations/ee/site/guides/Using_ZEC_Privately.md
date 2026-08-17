@@ -10,7 +10,7 @@ Abe alesi wòle fifia ene la, adrɛs eve kple asitsatsa ƒomeviwo le Zcash me, s
 
 Ne amewo dze ZEC zazã gɔme zi gbãtɔ la, ɖewohĩ womanya adrɛs ƒomevi si zãm wole o. Esia le alea elabena menye asitɔtrɔwo katãe doa alɔ ZEC si wokpɔ ta na kple/alo ZEC si wokpɔ ta na ƒe gaɖeɖe o. 
 
-Eyata, le kpɔɖeŋu me, ne ame aɖe zã Coinbase eye woƒle ZEC la, aƒle ZEC si me kɔ eye ɖeko wòate ŋu aɖe ZEC ma ayi adrɛs si me kɔ le gakotoku me. Gakotokuwo abe [Zodl](https://zodl.com/) ate ŋu akpɔ ga siwo woɖo ɖe adrɛs si me kɔ be woatsɔ akpɔ esia gbɔe ta, gake menye amesiamee nyae o. Ame geɖe, ne míagblɔe kpuie ko la, zãa ZEC le mɔ si nu woƒe asitɔtrɔ alo gakotoku gbãtɔ ɖe mɔ na wo nu.
+Eyata, le kpɔɖeŋu me, ne ame aɖe zã Coinbase eye woƒle ZEC la, aƒle ZEC si me kɔ eye ɖeko wòate ŋu aɖe ZEC ma ayi adrɛs si me kɔ le gakotoku me. Gakotokuwo abe [Zodl](https://zodl.com/) ate ŋu akpɔ ga siwo woɖo ɖe adrɛs si me kɔ be woatsɔ akpɔ esia gbɔe ta, gake menye amesiamee nyae o. Ame geɖe, ne míagblɔe kpuie ko la, wozãa ZEC le mɔ si nu woƒe asitɔtrɔ alo gakotoku gbãtɔ ɖe mɔ na wo nu.
 
 #### Kpɔ egbɔ be yekpɔ yeƒe ZEC ta
 
@@ -23,7 +23,7 @@ Tso asitɔtrɔ si doa alɔ **shielded** ƒe gaɖeɖe me:
   1. Ƒle ZEC le asitɔtrɔ me
   2. Dze gaɖeɖe ƒe ɖoɖoa gɔme le asitɔtrɔa me
   3. Ʋu wò ZEC gakotoku si wokpɔ ta na eye nàkpɔ egbɔ be adrɛs si xɔe la dze egɔme kple "u1" alo "z".
-  4. Ƒu du le gaɖeɖe le wò asitɔtrɔ me
+  4. Du ga si woɖe le wò asitɔtrɔ me
 
 Tso asitɔtrɔ si doa alɔ **gaɖeɖe le gaglãgbe** me:
 
@@ -31,7 +31,7 @@ Tso asitɔtrɔ si doa alɔ **gaɖeɖe le gaglãgbe** me:
   1. Ƒle ZEC le asitɔtrɔ me
   2. Dze gaɖeɖe ƒe ɖoɖoa gɔme le asitɔtrɔa me
   3. Ʋu wò autoshielding ZEC gakotoku eye nàzã adrɛs si me kɔ si xɔa nyatakakawo
-  4. Ƒu du le gaɖeɖe le wò asitɔtrɔ me
+  4. Du ga si woɖe le wò asitɔtrɔ me
   5. Lala kpeɖodzi ewo, eye emegbe nàkpɔ ZEC la ta tso wò adrɛs si me kɔ la gbɔ va ɖo adrɛs si wokpɔ ta na la gbɔ
 
 
@@ -65,7 +65,7 @@ Nufiame aɖe si ku ɖe alesi nàkpɔ wò ZEC ta tso adrɛs si me kɔ dzi ayi adr
 
 
 ---
-Nufiame aɖee nye esi ku ɖe alesi woaƒle ZEC le Coinbase eye woaɖoe ɖe Zashi ŋu.
+Nufiame aɖee nye esi ku ɖe alesi woaƒle ZEC le Coinbase eye woaɖoe ɖe Zodl ŋu.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -89,7 +89,7 @@ Ne èkpɔ egbɔ be yeƒe ZEC le gakotoku si ŋu wokpɔ ta na si doa alɔ adrɛs 
 - Nana amewo edziedzi be woanya afisi nèzãa ga le ZEC si wokpɔ ta na
 
 
-Le nyateƒe me la, nu nyuitɔ si nàwɔ kple wò ZEC enye be nàlée ɖe gakotoku si ŋu wokpɔ ta na me, awɔ asitsadɔ le adrɛs siwo ŋu wokpɔ ta na dome, eye nàkpɔ nyuie le alesi nèzãa ZEC le dutoƒo (i.e. kɔfidzraƒe) ŋu. Ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ ƒe kakaɖedzi hea agbanɔamedzi ƒe seƒe aɖe vɛ. 
+Le nyateƒe me la, nu nyuitɔ si nàwɔ kple wò ZEC enye be nàlée ɖe gakotoku si ŋu wokpɔ ta na me, awɔ asitsadɔ le adrɛs siwo ŋu wokpɔ ta na dome, eye nàkpɔ nyuie le alesi nàzã ZEC le dutoƒo (i.e. kɔfidzraƒe) ŋu. Ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ ƒe kakaɖedzi hea agbanɔamedzi ƒe seƒe aɖe vɛ. 
 
 #### Nunɔamesiwo
 

@@ -2,7 +2,7 @@
 
 Nym is an evolving mix network (mixnet), a type of computer network infrastructure for privacy that masks user metadata, separating source and destination IP addresses. It anonymizes various types of communication, including messaging, files transfers, payments transactions, and web browsing on basic websites. The project is built on free and open-source software and is decentralized, maintained by a distributed set of independent nodes worldwide.Nym VPN & Mixnet accepts payment in shielded ZEC! 
 
-[Ìwé Àkọlé Nym]](https://nym.com/blog/nymvpn-with-zcash) [Àtúnṣe láti Nym VPN]](https://nym.com)
+[Ìwé Àkọlé Nym](https://nym.com/blog/nymvpn-with-zcash) [Àtúnṣe láti Nym VPN](https://nym.com)
 
 ## Ẹ̀kọ́ àkànṣe
 
@@ -67,5 +67,5 @@ Daabobo awọn iṣẹ cryptocurrency rẹ pẹlu awọn sisanwo ti ko le sopọ
 [Àwòrán Android](https://vimeo.com/1096218590?share=copy)
 
 
-Kọ ẹkọ nipa [Nym x Zcash integration]](https://nym.com/blog/zcash-ltgt-nym)
+Kọ ẹkọ nipa [Nym x Zcash integration](https://nym.com/blog/zcash-ltgt-nym)
  

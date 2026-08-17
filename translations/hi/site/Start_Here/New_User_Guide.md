@@ -7,7 +7,7 @@
 ## संक्षेप में
 
 - समर्थित exchange (Gemini, BitcoinVN, आदि) पर **ZEC खरीदें**
-- **एक shielded wallet सेट अप करें** (Zashi, YWallet, या ZODL की सिफारिश की जाती है)
+- **एक shielded wallet सेट अप करें** (Zodl, Zingo, या Zkool की सिफारिश की जाती है)
 - exchange से अपना **ZEC निकालकर** अपने shielded wallet में भेजें
 - **एक shielded transaction भेजें** — Zcash पर आपका पहला निजी भुगतान
 - forum या Discord पर **समुदाय से जुड़ें**

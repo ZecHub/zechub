@@ -1,34 +1,21 @@
-# Zcash Network Upgrades 
+# Zcash Network Upgrades (Ubadilishaji wa Mtandao)
 
-Kwa miaka mingi, Zcash imeanzisha mabadiliko makubwa na maboresho kwa itifaki, na leo, sisi kuchunguza kila moja ya upgrades haya:
+Zcash improves through network upgrades: coordinated changes to the rules every node agrees on, each activated at a set block height. Every upgrade below has its own page that explains, in plain language, what it changed and why. New to Zcash? Read them in order, from Sprout to Ironwood.
 
-[Wakati wa baridi kali:](https://bitzecbzc.github.io/blog/overwinter/index.html) Activated at block 347500, mined June 26, 2018. Overwinter was the first network upgrade for Zcash after the initial launch. Overwinter's primary goal was to strengthen the protocol for future network upgrades. At the core of Overwinter is replay protection for network upgrades, versioning, enhancing performance for transparent transactions, a new feature of transaction expiry.
+Kwa hadithi ya kuona jinsi faragha Zcash imebadilika katika upgrades haya, angalia [The Evolution of Privacy](https://zechub.wiki/zcash-evolution)Ukurasa huu ni index. Hiyo moja ni timeline.
 
+ Upgrade  Activation (UTC)  Block  Branch id  Nini imebadilika 
+|---|---|---|---|---|
+[Mchanga](../zcash-tech/sprout) Oktoba 28, 2016 genesis 00000000 uzinduzi: kwanza kulindwa pool na zk-SNARK shughuli binafsi.
+[Muda wa baridi kali](../zcash-tech/overwinter) Juni 26, 2018 347,500 5ba81b19 ulinzi wa kurudia, utaratibu wa kufuta na kumalizika muda wake kwa hivyo upgrades salama ziliwezekana.
+| [Sapling](../zcash-tech/sapling) Makala ya leo, Oktoba 29, 2018 419,200 76b809bb shughuli za ulinzi ufanisi wa kutosha kwa ajili ya simu na vifaa pochi.
+[Blossom](../zcash-tech/blossom) Disemba 11, 2019 653,600 2bb40e60 vitalu vya kasi, sekunde 75 na uwezo mkubwa zaidi.
+[Heartwood](../zcash-tech/heartwood) Julai 16, 2020 903,000 f5b9230b. Shielded madini zawadi na wateja nyepesi (FlyClient)
+[Kipande cha juu](../zcash-tech/canopy) Novemba 18, 2020 1,046,400 e9ff75a6 Mfuko wa Maendeleo, nusu ya kwanza na kumaliza mfuko wa Sprout.
+| [NU5](../zcash-tech/nu5) Mei 31, 2022 1,687,104 c2d6d0b4. Orchard pool juu ya Halo 2 (hakuna kuaminika setup), anwani umoja, na shughuli v5.
+| [NU6](../zcash-tech/nu6) Novemba 23, 2024 2,726,400 c8e71055 mfuko wa fedha za maendeleo ya muda uliopangwa na mgawanyiko mpya wa ufadhili wa maendeleo.
+| [NU6.1](../zcash-tech/nu6-1) Novemba 24, 2025 3,146,400 4dec4df0 Jumuiya na mtaji wa sarafu ya utawala wa fedha hizo.
+| [NU6.2](../zcash-tech/nu6-2) Juni 3, 2026 3.364.600 5437f330 kurekebisha dharura ambayo kusahihishwa Orchard mzunguko.
+[Ironwood (NU6.3) ](../zcash-tech/ironwood) Jumapili, Julai 28, 2026 3,428,143 37a5165b Ironwood pool na umma turnstile kwamba lets mtu yeyote kukagua usambazaji.
 
-[Sapling:](https://coinbureau.com/analysis/zcash-sapling-upgrade/) Activated at block 419200, mined October 29, 2018. This is the second major impressive upgrade for the Zcash network, primarily focusing on improving the efficiency of zk-SNARKs for shielded transactions. During the advent of sapling’s release, there were several looming challenges hovering around zk-SNARKs, from upgradability challenges to implementation complexities to trusted setup requirements. Thankfully, Sapling enhanced the efficiency of zk-SNARK proof creation to broaden the potential adoption of the cryptocurrency, which we are enjoying today! Another notable setup envisioned for Sapling was (a public parameter generation ceremony) which is also what the Zcash team was looking to improve upon. 
-
-
-[Zcash Blossom:](https://electriccoin.co/blog/blossom-upgrade-improves-speed-scalability-capacity/) Activated at block 653600, mined December 11, 2019. This crucial network upgrade was designed to improve scalability and user experience by cutting block times in half to about 75 seconds. Implications? Transaction confirmations became faster, network throughput was doubled and transaction fees were at low cost. The Blossom upgrade immediately demonstrates that the Zcash network can make pragmatic engineering decisions to increase the capacity of the network while maintaining our high standards for security and reliability. 
-
-
-[HeartWood:](https://electriccoin.co/blog/introducing-heartwood/) Activated at block 903000, mined July 16, 2020. The sole purpose of Heartwood is to enable more third-party integrations and enhanced privacy through a shielded Coinbase that allows miners to receive rewards in shielded addresses. Additionally, the Heartwood is backed by enhanced network decentralization and interoperability. The Heartwood upgrade also integrated Flyclient, which enables lightweight clients to verify transactions efficiently, improving scalability and third-party integration. It is also worth mentioning that the shielded Coinbase, known as ZIP 213, seeks to modify Zcash consensus rules so that Coinbase funds can be mined to shielded Sapling addresses. Before the Sapling upgrade,  shielded Coinbase was not feasible because shielded transactions required significant memory and CPU resources to create.
-
-
-[Canopy:](https://youtu.be/R8O1SZMfESM?si=qoBL1dBp4E_af-eM) Activated at block 1046400, mined November 18, 2020. This upgrade was backed by both Electric Coin Co (ECC) and the Zcash Foundation. Canopy marked the end of the founders reward, a new funding mechanism was introduced (Zcash development fund), and a new governance model supported the continued funding for the Zcash ecosystem. For Canopy, a new development fund will be established for the next four years. 80% of the mining reward will go to the miners. 20%, which is the remainder, will be divided between the new Major Grants Fund (8%), Electric Coin Co (7%), and the Zcash Foundation (5%). The name ‘canopy’ reflects Zcash’s mission to create a sustainable and thriving ecosystem while staying true to its principles of privacy and decentralization.
-
-
-[NU5:](https://electriccoin.co/blog/nu5-proposed-features/) Activated at block 1687104, mined May 31, 2022. It is worth mentioning that Zcash Network Upgrade 5 marks the dawn of an important milestone for the cryptocurrency since its inception in 2016. Being the sixth major for Zcash, NU5 featured the orchard shielded protocol, unified addresses, as well as the Halo proving system. The Zcash NU5 upgrade is a continued evolution of the zk-SNARK technology stack built to eliminate the trusted setup and upgrade the protocol’s underlying cryptography security. NU5 is also endorsed by ECC and the Zcash Foundation. 
-
-
-[NU6:](https://zips.z.cash/zip-0253) NU6 implemented a new Zcash development fund (Hybrid Deferred Dev Fund transitioning to a non-direct funding model) and then will set up a lockbox where a proportion of issuance will be reserved for any future decentralized grants funding. The release of these funds will be solely governed by a mechanism determined by the Zcash community in the future. NU6's mission is to reduce block subsidy and to establish a decentralized funding model via a lockbox mechanism for ensuring enhanced transparency while strengthening privacy.
-
-[NU6.2:](https://zips.z.cash/zip-0257) NU6.2 mtandao kuboresha reenables Orchard ulinzi itifaki, na mabadiliko mawili makubaliano kuhusiana na awali Orchard sheria:
-
-* Orchard Action circuit's variable-base scalar multiplication gadget is corrected, fixing the soundness vulnerability. This changes the Orchard verifying key. Pre-NU6.2 Action proofs verify only under the historical (insecure) verifying Key, and NU6.2-onward proofs only under that corrected one. Fix ilikuwa kuchapishwa katika halo2_gadgets v0.5.0 10 na orchard v0.14.0. 11
-
-* Kutoka uanzishaji wa NU6.2, Orchard Action ushahidi LAZIMA kuwa na urefu canonical kwa mzunguko kusahihishwa. Kabla ya NU6.2 urefu huu hakuwa kutekelezwa kama kanuni makubaliano. 8
-
-From the activation of NU6.2, the temporary mitigation no longer applies. Transactions containing Orchard Action descriptions MUST again be accepted, with proofs subject to verification under the corrected circuit and the canonical-length rule. NU6.2 was deployed in zcashd v6.20.0 and zebra v5.0.0.
-
-[NU6.3:](https://zips.z.cash/zip-0258) NU6.3 mtandao kuboresha utangulizi Ironwood kulindwa bwawa. mabadiliko makubaliano kwa ajili ya NU6,3 ni maalum katika toleo 6 shughuli muundo 5, Orchard Action mzunguko update 6, ZIP 2005 7, na ZIP hii, ambayo fixes parameter uanzishaji na makubaliana sheria kwamba mlango juu ya NU6 uanzishwaji bila kujali version shughuli.
-
+Tarehe zinaonyeshwa katika UTC. Baadhi ya dashibodi kuwaonyesha kwa muda wa ndani, ambayo ni block moja na wakati huo huo. tarehe Ironwood ni makadirio kutoka uanzishaji wake kuzuia urefu, ambao ni trigger fasta, hivyo siku halisi inaweza kubadilisha kidogo. upgrading baadaye, NU7, bado katika mipango na si sawa kama Ironwood.

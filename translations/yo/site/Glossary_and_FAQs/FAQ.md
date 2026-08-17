@@ -18,7 +18,7 @@ Awọn apamọwọ pupọ wa fun awọn sisanwo lẹsẹkẹsẹ, alagbeka, aile
 ## Báwo ni mo ṣe lè rí Zcash gbà?
 
 <div className="overflow-x-auto my-8 rounded-3xl border border-border bg-card p-6">
-O le ra ZEC lori cryptocurrency [ìpàdé]](https://z.cash/exchanges).  
+O le ra ZEC lori cryptocurrency [ìpàdé](https://z.cash/exchanges).  
 O tun le ra Zcash peer-to-peer tabi gba nipasẹ iwakusa.
 </div>
 
@@ -71,7 +71,7 @@ Zcash kì í ṣe:
 - Ààbò kúrò nínú ìfipábánilòpọ̀ pẹ̀lú àwọn ìdásílẹ̀ tí ó ṣe kedere
 - Fi àwọn àdírẹ́ẹ̀sì IP pamọ́
 
-[Àyíká Ayé Kan Tí Wọ́n Dáàbò Gbé]](https://electriccoin.co/blog/shielded-ecosystem)
+[Àyíká Ayé Kan Tí Wọ́n Dáàbò Gbé](https://electriccoin.co/blog/shielded-ecosystem)
 </div>
 
 ## Àwọn èrò òdì kan tó wọ́pọ̀

@@ -110,4 +110,4 @@ Artık kimliğinizi açığa çıkarmadan fonları özel şekilde gönderebilirs
 
 ## Sonraki Adım
 
-- [Serbest Çalışanlar için Gizlilik Kurulumu](/use-cases/freelancer-privacy-setup)
+- [Serbest Çalışanlar için Gizlilik Kurulumu](/zcash-use-cases/freelance-privacy-setup)

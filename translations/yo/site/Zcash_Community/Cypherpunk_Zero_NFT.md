@@ -7,7 +7,7 @@
 
 # Àkọlé àwòrán Cypherpunk Zero
 
-Cypherpunk Zero jẹ́ ìtàn tí ó ń sọ ìtàn nípa Zero, ọ̀dọ́ cypherpunk hacker àti olùjà fún òmìnira. Zero ń gbé nínú àlá òdì kan ní báyìí, ó sì ń lo kóòdì láti gbógun ti àwọn olùṣọ́ ẹnu ọ̀nà tí wọ́n fi okùn dè àwùjọ. Ìtàn náà ní ìmísí Zcash àti Halo cryptography. Iṣẹ́ ìṣèdá náà jẹ́ ìsapá àjọṣepọ̀ láàrin ECC, Stranger World, Might Jaxx àti àwọn alábàákẹ́gbẹ́ àyíká tí a yàn.](https://opensea.io/collection/cypherpunk-zero), ṣùgbọ́n [ìwé àfọwọ́kọ tó ń ṣàwàdà]](https://halo.electriccoin.co/#view-prologue) àti [ọ̀rọ̀ ìṣeré tí wọ́n lè kó jọ](https://mightyjaxx.com/products/cypherpunk-zero) Awon egbe NFT, ti won n sise lori Twitter, ti se agbekale egbe kan (DAO)](https://twitter.com/CypherpunkDAO) láti ṣètò àti parí àwọn iṣẹ́ tó ń ṣe àtìlẹyìn fún ìpolongo náà, àti àwùjọ Zcash lápapọ̀.
+Cypherpunk Zero jẹ́ ìtàn tí ó ń sọ ìtàn nípa Zero, ọ̀dọ́ cypherpunk hacker àti olùjà fún òmìnira. Zero ń gbé nínú àlá òdì kan ní báyìí, ó sì ń lo kóòdì láti gbógun ti àwọn olùṣọ́ ẹnu ọ̀nà tí wọ́n fi okùn dè àwùjọ. Ìtàn náà ní ìmísí Zcash àti Halo cryptography. Iṣẹ́ ìṣèdá náà jẹ́ ìsapá àjọṣepọ̀ láàrin ECC, Stranger World, Might Jaxx àti àwọn alábàákẹ́gbẹ́ àyíká tí a yàn.](https://opensea.io/collection/cypherpunk-zero), ṣùgbọ́n [ìwé àfọwọ́kọ tó ń ṣàwàdà](https://halo.electriccoin.co/#view-prologue) àti [ọ̀rọ̀ ìṣeré tí wọ́n lè kó jọ](https://mightyjaxx.com/products/cypherpunk-zero) Awon egbe NFT, ti won n sise lori Twitter, ti se agbekale egbe kan (DAO)](https://twitter.com/CypherpunkDAO) láti ṣètò àti parí àwọn iṣẹ́ tó ń ṣe àtìlẹyìn fún ìpolongo náà, àti àwùjọ Zcash lápapọ̀.
 
 ## Àwòrán ojú ọ̀nà tó lòdì sí ìwé ìrìnnà
 
@@ -37,7 +37,7 @@ We have seen too many projects over-promise and under deliver on their NFT roadm
 
 ## Orí ìkànnì wo ni NFT wà?
 
-[Ethereum]](https://etherscan.io/address/0x3e86d6cf041b719c575f57050697c115f0a53758)
+[Ethereum](https://etherscan.io/address/0x3e86d6cf041b719c575f57050697c115f0a53758)
 
 ## Kí ni àwọn ìpín ìdókòwò tó jẹ́ àmì?
 
@@ -55,7 +55,7 @@ Bẹ́ẹ̀ ni, wọ́n ti fọ́ ìsọfúnni tó wà nínú ìwé náà, kò s�
 
 ## Àwọn ohun àmúṣọrọ̀
 
-[Ìkànnì Cyberpunk Zero]](https://halo.electriccoin.co/)
+[Ìkànnì Cyberpunk Zero](https://halo.electriccoin.co/)
 
 [Cypherpunk Zero Twitter] Àkọlé àwòrán](https://twitter.com/cypherpunkZero)
 
@@ -65,4 +65,4 @@ Bẹ́ẹ̀ ni, wọ́n ti fọ́ ìsọfúnni tó wà nínú ìwé náà, kò s�
 
 [Cypherpunk Zero DAO Àríyànjiyàn](https://discord.com/invite/sjfgXys4Jf)
 
-[Cypherpunk Zero NFT Mega Thread] [Ìjàpá Ìjàpá Ọ̀rọ̀]](https://forum.zcashcommunity.com/t/cypherpunk-zero-nft-megathread/41502?u=dismad)
+[Cypherpunk Zero NFT Mega Thread] [Ìjàpá Ìjàpá Ọ̀rọ̀](https://forum.zcashcommunity.com/t/cypherpunk-zero-nft-megathread/41502?u=dismad)

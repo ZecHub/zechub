@@ -130,7 +130,7 @@ A **faucet** jẹ iṣẹ ti o funni ni awọn owó TAZ ọfẹ fun idanwo:
 - Yẹra fun iwulo lati mina TAZ ni ọwọ 
 
 Àpẹẹrẹ: 
-1. Ṣabẹwo si faucet Testnet kan (fun apẹẹrẹ, [testnet.zecfaucet.com](https://testnet.zecfaucet.com) [fauzec.com]](https://fauzec.com/))  
+1. Ṣabẹwo si faucet Testnet kan (fun apẹẹrẹ, [testnet.zecfaucet.com](https://testnet.zecfaucet.com) [fauzec.com](https://fauzec.com/))  
 2. Tẹ adirẹsi Ìdánwò rẹ 
 3. Ìbéèrè TAZ 
 4. Gba TAZ lẹsẹkẹsẹ lati bẹrẹ idanwo 

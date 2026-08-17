@@ -85,7 +85,7 @@ Mgbe ị na-eme nke a, anyị na-atụ aro iji otu n'ime ndị na-esonụ [walle
 ## Peeji ndị metụtara ya
 
 - [Akpa ego](/using-zcash/wallets)  Họrọ obere akpa ego tupu i wepụ ego n'ụlọ akụ
-- [Ọgbanwe Ndị Na-abụghị Nchebe]](/using-zcash/non-custodial-exchanges)  Ndepụta zuru ezu nke DEXes na-akwado ZEC
-- [Mgbanwe nke Ndị Mkpọrọ]](/using-zcash/custodial-exchanges)  Ndepụta zuru ezu nke CEXes na-akwado ZEC
+- [Ọgbanwe Ndị Na-abụghị Nchebe](/using-zcash/non-custodial-exchanges)  Ndepụta zuru ezu nke DEXes na-akwado ZEC
+- [Mgbanwe nke Ndị Mkpọrọ](/using-zcash/custodial-exchanges)  Ndepụta zuru ezu nke CEXes na-akwado ZEC
 - [Egwú Mmiri Ndị E Chebere](/using-zcash/shielded-pools)  Ihe mere ịdọrọ ego site n'aka ndị na-echekwa ego ji dị mkpa
-- [Ntuziaka Onye Ọrụ Ọhụrụ]](/start-here/new-user-guide)  Ndepụta nyocha zuru ezu maka ndị ọrụ Zcash ọhụrụ
+- [Ntuziaka Onye Ọrụ Ọhụrụ](/start-here/new-user-guide)  Ndepụta nyocha zuru ezu maka ndị ọrụ Zcash ọhụrụ

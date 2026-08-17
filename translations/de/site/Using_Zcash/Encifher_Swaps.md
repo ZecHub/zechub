@@ -50,8 +50,8 @@ Gehe zum Abschnitt **Wrap**. Wähle **SOL** oder **USDC**, gib den Betrag ein un
 
 ---
 
-###  Schritt 3: Bereite deine Zashi-Wallet vor  
-Lade [**Zashi**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn) herunter, die offizielle Zcash-Wallet von Electric Coin Co. Kopiere deine **Unified Address** aus dem Tab „Receive“ - sie unterstützt sowohl transparente als auch abgeschirmte ZEC. Speichere deine Seed-Phrase sicher, bevor du fortfährst.  
+###  Schritt 3: Bereite deine Zodl-Wallet vor  
+Lade [**Zodl**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn) herunter, die offizielle Zcash-Wallet von Electric Coin Co. Kopiere deine **Unified Address** aus dem Tab „Receive“ - sie unterstützt sowohl transparente als auch abgeschirmte ZEC. Speichere deine Seed-Phrase sicher, bevor du fortfährst.
 
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)
@@ -60,7 +60,7 @@ Lade [**Zashi**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&u
 ---
 
 ###  Schritt 4: Tausche privat  
-Gehe zurück zu **encrypt.trade** und öffne **Swap**. Wähle **eSOL/eUSDC -> ZEC**, füge deine Zashi-Adresse ein, prüfe die Details und bestätige.
+Gehe zurück zu **encrypt.trade** und öffne **Swap**. Wähle **eSOL/eUSDC -> ZEC**, füge deine Zodl-Adresse ein, prüfe die Details und bestätige.
 
 
 
@@ -72,7 +72,7 @@ Gehe zurück zu **encrypt.trade** und öffne **Swap**. Wähle **eSOL/eUSDC -> ZE
 ![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
-Die **NEAR Intents**-Engine übernimmt automatisch das kettenübergreifende Routing - und liefert **ZEC** innerhalb von Sekunden direkt an deine Zashi-Wallet.  
+Die **NEAR Intents**-Engine übernimmt automatisch das kettenübergreifende Routing - und liefert **ZEC** innerhalb von Sekunden direkt an deine ZODL-Wallet.
 
 
 
@@ -81,7 +81,7 @@ Die **NEAR Intents**-Engine übernimmt automatisch das kettenübergreifende Rout
 ---
 
 ###  Schritt 5: Schirme ab und bleibe privat  
-Sobald die Coins angekommen sind, nutze in Zashi die Option **Shield**, um deine ZEC für maximale Privatsphäre in den abgeschirmten Pool zu verschieben. Überprüfe Links immer sorgfältig, vermeide die Wiederverwendung von Adressen und teste zuerst kleine Beträge.  
+Sobald die Coins angekommen sind, nutze in Zodl die Option **Shield**, um deine ZEC für maximale Privatsphäre in den abgeschirmten Pool zu verschieben. Überprüfe Links immer sorgfältig, vermeide die Wiederverwendung von Adressen und teste zuerst kleine Beträge.
 
 ---
 

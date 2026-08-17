@@ -19,7 +19,7 @@
 - Nuwɔlawo le nudzɔdzɔwo xɔm
 - Nudzɔla siwo le ʋuʋu ɖi
 - Nutoa me tɔwo ƒe gadodo
-- Ame sia ame si di be woana gakpekpeɖeŋu ye ŋutɔ
+- Ame sia ame si di be ye ŋutɔ yeƒe gakpekpeɖeŋu
 
 <br/>
 
@@ -51,7 +51,7 @@ Esia na be nàte ŋu axɔ ga **evɔ màɖe wò ganyawo ƒe nɔnɔmetata ɖe go o
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
 - Zcash gakotoku si doa alɔ adrɛs siwo wokpɔ ta na:
-  - Zashi ƒe ŋkɔ
+  - Zodl
   - YWallet
   - Gakotoku bubu siwo wodo alɔe
 
@@ -77,7 +77,7 @@ Zi geɖe la, esia dzea egɔme tso: `zs...`
 
 De dzi ƒo na nunala be:
 - Zã gakotoku siwo doa alɔ asitsatsa siwo wokpɔ ta na
-- Ðoe ɖa tso ta siwo ŋu wokpɔ akpoxɔnuwo le (menye esiwo me kɔ o) .
+- Ðoe ɖa tso ta siwo ŋu wokpɔ ta na (menye esiwo me kɔ o) .
 
 ### Afɔɖeɖe 4: Lé Adzamenyawo Ŋuti Dzadzɛnyenye Veviwo Me Ðe Asi
 
@@ -106,7 +106,7 @@ Ate ŋu:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Adzamenyawo - Shielded vs Transparent](/privacy/shielded-vs-transparent)
+- [Ame ŋutɔ ƒe nyawo - Shielded vs Transparent](/privacy/shielded-vs-transparent)
 - [Gakotokuwo](/wallets)
 
 <br/>
@@ -123,6 +123,6 @@ Ate ŋu:
 
 Yi wò mɔzɔzɔa dzi:
 
-- [Ðo Ga Ðo Ðe Ame Ŋu Matsɔ Dzesidede Ame Ŋu O](/zcash-use-cases/send-money-without-linking-identity)
+- [Ðo Ga Ðo Ðe Ame Ŋu Matsɔ Kadodo Dzesidede Ame Ŋu O](/zcash-use-cases/send-money-without-linking-identity)
   
 <br/>

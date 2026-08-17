@@ -9,7 +9,7 @@
 
 Halo es una prueba de conocimiento cero (ZKP) recursiva y sin confianza descubierta por Sean Bowe en Electric Coin Co. Elimina la configuración de confianza y permite una mayor escalabilidad de la blockchain de Zcash. Halo fue el primer sistema de prueba de conocimiento cero que es a la vez eficiente y recursivo, ampliamente considerado como un avance científico.
 
-![halo](https://electriccoin.co/wp-content/uploads/2021/01/Halo-on-Z-1440x720.png "halo")
+![halo](/content-images/_unavailable.svg "halo")
 
 
 **Componentes**

@@ -27,7 +27,7 @@
 
 Freelancers a wɔde ɔmanfo crypto di dwuma no da:
 - Wɔn sika a wonya
-- Wɔn afɛfo
+- Wɔn a wɔkra nneɛma no
 - Wɔn sikasɛm ho abakɔsɛm
 
 Eyi betumi ama:
@@ -110,7 +110,7 @@ Wobɛtumi:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Wɔde sika kotoku](/wallets)
+- [Sika kotoku](/wallets)
 
 <br/>
 
@@ -124,5 +124,5 @@ Seesei wote sɛnea wubenya sika wɔ kokoam no ase.
 
 ## Anamɔn a Edi Hɔ
 
-- [Gye Katua tom sɛ Oguadifo](/use-cases/accept-payments-as-a-merchant)
+- [Gye Katua tom sɛ Oguadifo](/zcash-use-cases/accept-payments-as-a-merchant)
 <br/>

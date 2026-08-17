@@ -6,7 +6,7 @@
 
 아래는 ZEC 사용을 시작하는 데 도움이 되는 지갑 튜토리얼 목록입니다.
 
-- Zashi Wallet 
+- Zodl 지갑
 
 [![동영상 썸네일](/content-images/hqdefault-a4a2a5de7f.webp)](https://www.youtube.com/watch?v=G92zBIr-Wms)
 

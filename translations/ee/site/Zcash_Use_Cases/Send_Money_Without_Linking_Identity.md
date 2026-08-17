@@ -5,9 +5,9 @@
 ## TL;DR
 
 - Ðoe ɖa ɣesiaɣi tso **adrɛs si wokpɔ ta na** .
-- Ƒo asa na asitsatsa tẽ t to t
+- Ƒo asa na asitsatsa t to t tẽ
 - Gblẽ kadodo si le amenyenyewo dome la me
-- Lé ŋku ɖe ɣeyiɣi kple nɔnɔmewo ŋu
+- Lé ŋku ɖe ɣeyiɣi kple nɔnɔme siwo woawɔ ŋu
 
 <br/>
 
@@ -52,8 +52,8 @@ Esia gblẽa nu le:
 
 ### Afɔɖeɖe 1: Kpɔ egbɔ be Wokpɔ Gawo Ta
 
-Ne wò ga le adrɛs si me kɔ dzi la:
-- Tsɔ wo yi adrɛs si ŋu wokpɔ akpoxɔnu ɖo me gbã
+Ne wò ga le adrɛs si dzi woate ŋu akpɔ nu le la dzi:
+- Tsɔ wo yi adrɛs si ŋu wokpɔ akpoxɔnu le me gbã
 
 
 ### Afɔɖeɖe 2: Ðoe tso Shielded yi Shielded
@@ -72,7 +72,7 @@ MÈGAWƆ:
 ### Afɔɖeɖe 4: Bu Ɣeyiɣi ƒe Ðoɖowo Ŋu
 
 Aɖaŋuɖoɖo deŋgɔ:
-- Ƒo asa na eɖoɖo enumake ne èxɔ ga gbogbo aɖewo vɔ
+- Ƒo asa na dɔdɔ enumake ne èxɔ ga gbogbo aɖewo
 - Gblẽ nɔnɔme siwo woate ŋu agblɔ ɖi le afisi wòanya wɔ le
 
 <br/>
@@ -96,13 +96,13 @@ Ate ŋu:
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
-- [Adzamenyawo - Shielded vs Transparent](/privacy/shielded-vs-transparent)
+- [Ame ŋutɔ ƒe nyawo - Shielded vs Transparent](/privacy/shielded-vs-transparent)
 
 <br/>
 
 ## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
 
-**Afɔɖeɖe 2 le 6 me**
+**Afɔɖeɖe 2 lia le 6 me**
 
 Fifia àte ŋu aɖo ga ɖe ame ŋutɔ evɔ màɖe amenyenye afia o.
 
@@ -110,4 +110,4 @@ Fifia àte ŋu aɖo ga ɖe ame ŋutɔ evɔ màɖe amenyenye afia o.
 
 ## Afɔɖeɖe si kplɔe ɖo
 
-- [Freelancer ƒe Nyatakakawo Ŋuti Ðoɖowɔwɔ](/use-cases/freelancer-privacy-setup)
+- [Freelancer ƒe Nyatakakawo Ŋuti Ðoɖowɔwɔ](/zcash-use-cases/freelance-privacy-setup)

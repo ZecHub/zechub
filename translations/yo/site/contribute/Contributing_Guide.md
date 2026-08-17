@@ -30,7 +30,7 @@ ZecHub lo GitHub lati ṣakoso awọn ọrẹ agbegbe. Ti o ba jẹ tuntun si Gi
 
 ### Darapọ̀ mọ́ ìjíròrò náà
 
-Àkọ́kọ́, darapọ̀ mọ́ ìjíròrò náà nínú [àwọn ìjápọ̀ àwùjọ wa]](https://zechub.wiki/zcash-community/community-links).
+Àkọ́kọ́, darapọ̀ mọ́ ìjíròrò náà nínú [àwọn ìjápọ̀ àwùjọ wa](https://zechub.wiki/zcash-community/community-links).
 
 ### Àwọn Atọ́nà Ọ̀nà
 

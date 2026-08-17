@@ -1,490 +1,158 @@
-<a href="https://github.com/zechub/zechub/edit/main/site/guides/Raspberry_Pi_4_Full_Node.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
-</a>
+# Raspberry Pi 4でフルノードを運用する（Zebra + Zallet）
 
+*元のzcashdベースのガイドから移行しました。zcashdは2026年7月18日に自動的なサポート終了停止に達したため、このガイドでは現在**Zebra**（Zcash Foundationが保守する現行のフルノード）と**Zallet**（zcashdの内蔵ウォレットを置き換えるために作られたウォレット）を使用します。*
 
-# Raspberry Pi 4: *zcashd* フルノードガイド
+## ここで学べること
+- ヘッドレス運用向けに、Raspberry Pi 4へUbuntu Server 22.04+（64-bit）を書き込み、設定する方法
+- Dockerまたは事前ビルド済みバイナリを使ってZebraをインストールし、実行する方法
+- ウォレット暗号化のセットアップを含め、Zalletをインストール、設定、初期化する方法
+- 既存のzcashd設定/ウォレットを必要に応じてZalletへ移行する方法
 
-
-このガイドの目的は、低消費電力のRaspberry Pi 4上でフルノードを実行することに関心を持つZcashユーザーに教育を提供することです。
-
-<img src="/content-images/197372541-dcd886ab-a3d0-4614-b490-0294dd-d45b1cd4ba.webp" alt="zcashd" width="700" height="700"/>
-
-
-## ビデオ
-
-<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
-  <iframe
-    className="w-full h-full"
-    src="https://www.youtube.com/embed/SGYrzhs1l2k"
-    title="How to compile Zcash Node on Raspberry Pi!"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowFullScreen
-    loading="lazy"
-  />
-</div>
-
-## サポート
-
-このガイドが役に立つと感じたら、ZecHubをサポートするためにZECを寄付してください:
-
-`u1rl2zw85dmjc8m4dmqvtstcyvdjn23n0ad53u5533c97affg9jq208du0vf787vfx4vkd6cd0ma4pxkkuc6xe6ue4dlgjvn9dhzacgk9peejwxdn0ksw3v3yf0dy47znruqftfqgf6xpuelle29g2qxquudxsnnen3dvdx8az6w3tggalc4pla3n4jcs8vf4h29ach3zd8enxulush89`
-
-
-## 学ぶ内容
-
-```markdown
-* Ubuntu Server microSDカードを起動可能な状態にする方法
-* Raspberry Pi 4でインターネット接続を設定する方法
-* Raspberry Pi 4にリモートからアクセスする方法
-* zcashdをインストールする方法
-* zcashdを設定する方法
-* zcashdを使用する方法
-```
-
+## 旧ガイドから何が変わったか
+このガイドの旧バージョンでは、Pi 4上で**zcashd**をネイティブにコンパイルする手順を説明していました。Pi 4には並列（`-j$(nproc)`）ビルドに十分なメモリがないため、シングルスレッドのコンパイルに3～4時間かかっていました。現在はZebraとZalletの両方が**公式の事前ビルド済みARM64バイナリとDockerイメージ**を提供しているため、多くの場合、Pi自体でソースから何かをコンパイルする必要はもうありません。
 
 ## 前提条件
+- Raspberry Pi 4（4 GB RAM以上を推奨）
+- OS用のmicroSDカード（32 GB以上）
+- USB 3.0対応の外付けSSD/HDD — **ZebraはMainnetデータのキャッシュに約300 GBを必要とし**、時間とともに増加するため、microSDカード単体での運用は避けてください
+- microSDカードスロット付きのコンピューター（OSイメージ書き込み用）
+- 有線Ethernet接続またはWi-Fi
+- SSH経由でコマンドラインを使う基本的な慣れ
 
-> [8GB Raspberry Pi 4 Canakit](https://www.canakit.com/raspberry-pi-4-starter-max-kit.html)または同等のもの
+## ステップ1: Ubuntu Server 22.04+（64-bit）を書き込む
+ZebraとZalletの事前ビルド済みバイナリおよびDockerイメージには**glibc 2.34+**が必要です。つまり、**Ubuntu Server 22.04以降（64-bit/aarch64）**である必要があります。
 
-> microSDカードドライブ付きのコンピュータ
+1. メインのコンピューターにRaspberry Pi Imagerをインストールします。
+2. microSDカードを挿入します。
+3. **Other general-purpose OS → Ubuntu → Ubuntu Server 22.04 LTS (64-bit)**（またはそれ以降）を選択します。
+4. ヘッドレスで初回起動できるよう、Imagerの詳細オプション（歯車アイコン）でホスト名を事前設定し、SSHを有効化し、必要であればWi-Fi認証情報を設定します。
+5. イメージを書き込み、カードを挿入して、Piの電源を入れます。
+6. SSHで接続します: `ssh <username>@<pi-hostname-or-ip>`
 
-> Wi-Fiネットワークまたはインターネット接続があるイーサネットケーブル
+## ステップ2: 外部ストレージを接続してマウントする
+1. 外付けSSD/HDDをUSB 3.0経由で接続します。
+2. デバイスを確認します: `lsblk`
+3. （新しい場合は）フォーマットしてマウントします。たとえば `/mnt/zcash-data` に、標準的な `mkfs` / `fstab` 設定で再起動時に自動マウントされるよう構成します。
 
-> USB3サポート付きの外部SSD/HDD
-
-
-##### ノート: サーバーを安全に保つことは、このガイドで説明している以上の方法や推奨事項が存在するため、簡単ではありません。このガイドでは言及されていないすべてのヒント/推奨事項/ベストプラクティスについては、PRを作成し、このガイドを最新の状態に保つことをご協力ください。
-
-
-
-### SDカードの準備
-
-このステップでは、Raspberry Pi 4が起動できるようにするための*起動可能な*SDカードを作成します。microSDカードをコンピュータに挿入してください。Canakitに付属しているアダプタや同等のアダプタが必要になる場合があります。現在使用しているOS用のRaspberry Pi Imagerをインストールしてください。ダウンロードするには、以下のリンクを使用してください。
-     
-     > [Ubuntu](https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb)
-     
-     > [Windows](https://downloads.raspberrypi.org/imager/imager_latest.exe)
-     
-     > [macOS](https://downloads.raspberrypi.org/imager/imager_latest.dmg)
-
-Linuxを使用している場合、ダウンロード後には次のコマンドを入力します：
-
-`sudo dpkg -i imager_latest_amd64.deb`
-
-Raspberry Pi Imagerを開きます
-
-`rpi-imager`
-
-<img src="/content-images/197372069-fb9f7417-d320-42cf-ad65-38d630-7d85096e88.webp" alt="rpi imager" width="400" height="400"/>
-
-OSとストレージデバイスを選択します。Raspberry Pi 4は64ビットなので、"Other general-purpose OS" => Ubuntu => Ubuntu Server 24.04.3 LTS (64 bit)をおすすめします。ストレージを選択するために「Storage」をクリックし、SDカードを選択してください。SDカードに書き込む前に、右下の白い歯車アイコンをクリックしてAdvanced options（高度なオプション）を開きます。
-
-
-<img src="/content-images/197372159-1169c6f4-f6aa-4f44-9679-fe7aa5-fe6c968644.webp" alt="gear" width="200" height="200"/>
-
-
-
-ここでは以下を更新できます：
-
-```markdown
-* Raspberry Pi 4のホスト名
-* SSHを有効にする
-* ユーザー名とパスワードを作成する
-* 必要に応じてWi-Fiを有効にして構成する
-```
- 
-<img src="/content-images/197372149-8b85bfac-e473-4808-87cd-f27f15-269c28f6c3.webp" alt="advanced" width="400" height="400"/>
-
- 
-完了したら「Write」をクリックします。
-
-
-### Ubuntu Serverの起動
-
-余分なモニタとキーボードがある場合は、今すぐそれらを接続してください。注意: これらはオプションです。先ほどフォーマットしたSDカードをRaspberry Pi 4に挿入し、外部SSD/HDDもUSB3ポートに接続します。電源ケーブルを差し込み、電源を入れます。
-
-### Raspberry Pi 4にリモートで接続する
-
-今からRaspberry Pi 4に接続する必要があります。必要なものは以下の通りです：
-
-```markdown
-* ユーザー名とパスワード（前のステップで作成した）
-* IPアドレスを使用してSSH接続できるようにする
-* モニタ、キーボード（オプション）
-* Raspberry Piに直接モニタとキーボードを接続している場合は、このセクションの残りは飛ばしてください。
+## ステップ3: システムを更新する
+```bash
+sudo apt update && sudo apt full-upgrade -y
+sudo reboot
 ```
 
-IPアドレスを見つける方法には2通りあります。ルータの管理ページを使用するか、nmapを使用します。ルータを使用する場合、製造元によって異なりますので、Google検索で簡単に確認できます。nmapを使用する場合は、まずインストールされていることを確認してください：
+## ステップ4: Zebraをインストールして実行する
+### オプションA — Docker（推奨）
+```bash
+sudo apt install -y docker.io
+sudo usermod -aG docker $USER   # log out/in after this
+docker run -d \
+  --name zebra \
+  -p 8233:8233 \
+  -v /mnt/zcash-data/zebra:/home/zebra/.cache/zebra \
+  zfnd/zebra:latest
+```
+進行状況を確認: `docker logs -f zebra`
 
-     `sudo apt-get install nmap`
-     
-現在のコンピュータのIPアドレスを見つけ出し、最初の3つのセクションをメモしておきます。これは通常192.168.1.xxxまたは192.168.50.xxxです。これらの情報をnmapに以下のように入力します：
-          
-`sudo nmap -sn 192.168.50.0/24`
+### オプションB — cargo binstallによる事前ビルド済みバイナリ
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source "$HOME/.cargo/env"
+cargo install cargo-binstall
+cargo binstall zebrad
+zebrad start
+```
+これにより、事前ビルド済みの`aarch64`バイナリがインストールされます。コンパイルは不要です。
 
-or
+**同期時間について:** これにはしばらく時間がかかると考えてください。よく言及される初回同期時間（おおよそ2時間）は、Pi 4のCPUより高性能なリファレンスハードウェアに基づくものなので、実際のPi 4ハードウェアでの同期時間はそれより長くなる可能性が高いです。
 
-`sudo nmap -sn 192.168.1.0/24`
+## ステップ5: Zalletをインストールする
+Zalletは現在**alpha**段階です。破壊的変更が起こる可能性があるため、現時点では多額の資金を保管する本番運用向けとは見なさないでください。
 
-これにより、ホームネットワークに接続されているすべてのデバイスが表示され、Raspberry Pi 4のIPアドレス / MACアドレスが表示されます。ユーザー名、パスワード、およびIPアドレスを使用して今からSSHでログインできます。
+### オプションA — Docker（推奨）
+```bash
+docker pull zodlinc/zallet:latest
+```
+このイメージはARM64をサポートしており（Nixベースのビルド経由）、最小限のシェルなしファイルシステム上で動作します。設定とデータパスは `--datadir` とボリュームマウントを使って明示的に渡してください（ステップ6を参照）。
 
-```markdown
-* ssh <username>@<ip address of your pi> ノート: *あなたの*ユーザー名と*あなたの* IPアドレス、およびプロンプトされたときに*あなたの*パスワードを入力する必要があります。
-* 例: `ssh ubuntu@192.168.1.25` ここでユーザー名は *ubuntu*、IPアドレスは 192.168.1.25です。
+### オプションB — ソースからビルド
+```bash
+# Requires Rust 1.85+ (see Step 4B for rustup install)
+sudo apt install -y clang libclang-dev protobuf-compiler
+cargo install --locked --git https://github.com/zcash/wallet.git
+```
+Zalletのcrateはalpha段階のあいだ、まだcrates.ioには公開されていないため、gitリポジトリから直接インストールする方法が、Docker以外でサポートされている方法です。
+
+## ステップ6: Zalletを設定する
+選択したdatadir（例: `/mnt/zcash-data/zallet`）に `zallet.toml` を作成します:
+```toml
+[builder.limits]
+[consensus]
+network = "main"
+[database]
+[external]
+[features]
+as_of_version = "0.0.0"
+[features.deprecated]
+[features.experimental]
+[indexer]
+validator_address = "127.0.0.1:8232"   # Zebra's JSON-RPC endpoint
+[keystore]
+[note_management]
+[rpc]
+bind = ["127.0.0.1:SOMEPORT"]
+```
+Zebraが別のホスト/ポートで動作している場合は `validator_address` を調整し、`[indexer]` の下で `validator_cookie_auth` / `validator_user` / `validator_password` を設定して、ZebraのRPC認証設定に合わせてください。
+
+**zcashdから移行しますか？** まだ古い `zcash.conf` がある場合:
+```bash
+zallet migrate-zcash-conf --datadir /path/to/old/zcashd/datadir -o /mnt/zcash-data/zallet/zallet.toml
 ```
 
+## ステップ7: ウォレット暗号化をセットアップする
+Zalletは `age` / `rage` を使ってすべての鍵素材を暗号化します:
+```bash
+cargo install rage
+rage -p -o /mnt/zcash-data/zallet/encryption-identity.txt <(rage-keygen)
+```
+これにより公開鍵と自動生成されたパスフレーズが表示されます — **このパスフレーズは保存してください。これがないとidentityファイルを復元できません。**
 
-  <img src="/content-images/197372846-e1279388-eaaa-4fbb-8d5d-f9928c-caf89ea305.webp" alt="sshLogin" width="400" height="400"/>
-       
-
-Raspberry Piのバージョンが気になる場合は、このコマンドを試してください：
-
-     `cat /sys/firmware/devicetree/base/model ; echo`
-
-  <img src="/content-images/197689888-367c8eb3-2667-4c8c-85b3-44d46a-ef72475028.webp" alt="which" width="700" height="400"/>
-
-         
-
-### *zcashd*のインストール
-
-zcashdをインストールする方法には、事前にコンパイルされたバイナリをダウンロードするか、ソースからzcashdをコンパイルするという2つの方法があります。私は*強く推奨します*ソースからコンパイルすること。自分自身でコンパイルする場合は、クロスコンパイルすることを強くお勧めします。クロスコンパイルとは、1つのプラットフォーム上で動作するバイナリを別のプラットフォーム上で構築することです。その理由の一つは、Raspberry Pi 4が低消費電力であり、非常に高速ではないからです！メインコンピュータを利用してこの作業を補助してください。最新リリースはこちらから入手できます [here](https://github.com/zcash/zcash/releases)。クロスコンパイルするために必要なパッケージがあることを確認する必要があります。以下のものをインストールしてください：
+## ステップ8: ウォレットを初期化して起動する
+```bash
+zallet -d /mnt/zcash-data/zallet init-wallet-encryption
+zallet -d /mnt/zcash-data/zallet generate-mnemonic
+```
+**`generate-mnemonic` は、意図的に複数の独立した支出ルートを作りたい場合を除き、一度だけ実行してください。**
 
 ```bash
-sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python3 python3-zmq zlib1g-dev curl bsdmainutils automake libtinfo5
-sudo apt-get install gcc-aarch64-linux-gnu
+zallet -d /mnt/zcash-data/zallet start
 ```
 
-例えばLinuxでダウンロードした後、以下のコマンドを入力します：
-
-`sudo dpkg -i imager_latest_amd64.deb`
-
-Raspberry Pi Imagerを開きます
-
-`rpi-imager`
-
-<img src="/content-images/197372069-fb9f7417-d320-42cf-ad65-38d630-7d85096e88.webp" alt="rpi imager" width="400" height="400"/>
-
-OSとストレージデバイスを選択します。Raspberry Pi 4は64ビットなので、"Other general-purpose OS" => Ubuntu => Ubuntu Server 24.04.3 LTS (64 bit)を選ぶことをお勧めします。StorageをクリックしてSDカードを選択してください。SDカードに書き込む前に、右下の白い歯車アイコンをクリックしてAdvanced optionsをクリックしてください。
-
-
-<img src="/content-images/197372159-1169c6f4-f6aa-4f44-9679-fe7aa5-fe6c968644.webp" alt="gear" width="200" height="200"/>
-
-
-
-ここでは以下を更新できます：
-
-```markdown
-* Raspberry Pi 4のホスト名
-* SSHを有効にする
-* ユーザー名とパスワードを作成する
-* 必要に応じてWi-Fiを有効にして構成する
-```
- 
-<img src="/content-images/197372149-8b85bfac-e473-4808-87cd-f27f15-269c28f6c3.webp" alt="advanced" width="400" height="400"/>
-
- 
-完了したらWriteをクリックします。
-
-
-### Ubuntu Serverの起動
-
-余分なモニタとキーボードがある場合は今すぐそれらを接続してください。注意: これらはオプションです。先ほどフォーマットしたSDカードをRaspberry Pi 4に挿入し、外部SSD/HDDもUSB3ポートに接続します。電源ケーブルを差し込み、電源を入れます。
-
-### Raspberry Pi 4にリモートで接続する
-
-今からRaspberry Pi 4に接続する必要があります。必要なものは以下の通りです：
-
-```markdown
-* ユーザー名とパスワード（前のステップで作成した）
-* IPアドレスを使用してSSH接続できるようにする
-* モニタ、キーボード（オプション）
-* Raspberry Piに直接モニタとキーボードを接続している場合は、このセクションの残りは飛ばしてください。
-```
-
-IPアドレスを見つける方法には2通りあります。ルータ管理ページを使用するか、nmapを使用します。ルータを使用する場合、製造元によって異なりますので、Google検索で簡単に確認できます。nmapを使用する場合は、まずインストールされていることを確認してください：
-
-     `sudo apt-get install nmap`
-     
-現在のコンピュータのIPアドレスを見つけ出し、最初の3つのセクションをメモしておきます。これは通常192.168.1.xxxまたは192.168.50.xxxです。これらの情報をnmapに以下のように入力します：
-          
-`sudo nmap -sn 192.168.50.0/24`
-
-or
-
-`sudo nmap -sn 192.168.1.0/24`
-
-これにより、ホームネットワークに接続されているすべてのデバイスが表示され、Raspberry Pi 4のIPアドレス / MACアドレスが表示されます。ユーザー名、パスワード、およびIPアドレスを使用して今からSSHでログインできます。
-
-```markdown
-* ssh <username>@<ip address of your pi> ノート: *あなたの*ユーザー名と*あなたの* IPアドレス、およびプロンプトされたときに*あなたの*パスワードを入力する必要があります。
-* 例: `ssh ubuntu@192.168.1.25` ここでユーザー名は *ubuntu*、IPアドレスは 192.168.1.25です。
-```
-
-
-  <img src="/content-images/197372846-e1279388-eaaa-4fbb-8d5d-f9928c-caf89ea305.webp" alt="sshLogin" width="400" height="400"/>
-       
-
-Raspberry Piのバージョンが気になる場合は、このコマンドを試してください：
-
-     `cat /sys/firmware/devicetree/base/model ; echo`
-
-  <img src="/content-images/197689888-367c8eb3-2667-4c8c-85b3-44d46a-ef72475028.webp" alt="which" width="700" height="400"/>
-
-         
-
-### zcashdのインストール
-
-zcashdをインストールする方法は2つあります。事前にコンパイルされたバイナリをダウンロードするか、ソースからzcashdをコンパイルするかです。私はソースからコンパイルすることを強くお勧めします。自分でコンパイルする場合はクロスコンパイルすることを強くお勧めします。クロスコンパイルとは、1つのプラットフォームで動作するバイナリを別のプラットフォームで構築することです。その理由の一つは、Raspberry Pi 4が低消費電力であり、非常に高速ではないからです！メインコンピュータを活用してこの作業を支援してください。最新版はこちらから入手できます [here](https://github.com/zcash/zcash/releases)。クロスコンパイルを行うには必要なパッケージを確認する必要があります。以下のものをインストールしてください：
-
+## ステップ9: 既存のzcashdウォレットを移行する（任意）
 ```bash
-sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python3 python3-zmq zlib1g-dev curl bsdmainutils automake libtinfo5
-sudo apt-get install gcc-aarch64-linux-gnu
+zallet -d /mnt/zcash-data/zallet migrate-zcashd-wallet --zcashd-datadir /path/to/old/zcashd/datadir
 ```
+これには `db_dump` ユーティリティ（Berkeley DB 6.2.23向けにビルドされたもの）が必要です。システムにインストールされたもの、またはzcashdのローカルソースビルドのどちらでも構いません。すでにzcashdをインストールしていない場合、これが現時点でまだZalletだけでは完結していない唯一の移行ステップです。
 
-次に、最新リリースをダウンロードしたディレクトリに移動し、以下のコマンドを実行します：
+## ステップ10: すべてが動作することを確認する
+```bash
+zallet -d /mnt/zcash-data/zallet help
+```
+ウォレットが応答することを確認し、Zebraの同期完了後に残高やアドレスが想定どおりであることを確認してください。
 
-`HOST=aarch64-linux-gnu ./zcutil/build.sh`
-          
+## トラブルシューティング
+- **ARMでのZebraのビルド/実行時の問題:** ソースからビルドする場合は、RustのARMツールチェーンをインストールしてください。Zebra自身のドキュメントにもあるとおり、ARMハードウェア上でx86_64のビルドツールを動かすと、明らかに遅くなります。
+- **ストレージ容量不足:** Zebraの約300 GBという使用量は増え続けます — 余裕を見込んでください。
+- **Dockerの権限エラー:** ユーザーを `docker` グループに追加した後は、いったんログアウトしてから再ログインしてください。それまでのあいだは `sudo` を使ってください。
+- **Zalletコンテナにはシェルがない:** 公式の `zodlinc/zallet` イメージは設計上from-scratchです — 常に `--datadir` を明示的に渡し、データディレクトリをボリュームとしてマウントしてください。
 
-### zcashdの設定
+## 旧zcashdガイドと比べたハードウェア上の注意
+ZebraとZalletは、事前ビルド済みバイナリ/コンテナを実行するため、一般的にセットアップ時のCPU負荷はzcashdをコンパイルしていた頃より軽くなります。4 GB RAMは妥当な出発点です。`htop` で監視し、激しいスワップが見られる場合は8 GB版のPi 4も検討してください。
 
-<div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
-  <iframe
-    className="w-full h-full"
-    src="https://www.youtube.com/embed/9t2LX3HFldw"
-    title="Zcashd Wallet Tool - Generate & Import Private Key"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowFullScreen
-    loading="lazy"
-  />
-</div>
+## 追加リソース
+- [Zebra Book](https://zebra.zfnd.org) — 公式のZebraドキュメント
+- [Zallet Book](https://zcash.github.io/wallet) — 公式のZalletドキュメント
+- [zcashdサポート終了のお知らせ](https://z.cash/support/zcashd-deprecation)
 
 ---
 
-今からzcashdのバイナリファイルをRaspberry Pi 4に転送する必要があります。Zcashd v5.3では必要なファイルは以下の通りです：
-
-```markdown
-zcashd
-zcash-cli
-zcash-tx
-zcash-gtest
-zcash-inspect
-zcashd-wallet-tool
-fetch-params.sh
-```
-
-これらのファイルは、自分でコンパイルした場合は最新リリースのダウンロード場所の/srcディレクトリにあります。それ以外の場合は、事前にコンパイルされたファイルが保存されている場所です。転送を達成する方法は2つあり、SFTPを使用するか、外部ドライブを使用するかです。
-
-#### SFTP
-
-```bash
-sftp username@<ip of RaspberryPi4>
-put zcash*
-```
-   
-#### 外部コピー
-     
-単にファイルをRaspberry Pi 4に接続する前に外部ドライブにコピーします。すでにフルノードが同期しており時間を節約したい場合は、ブロックとchainstateデータもコピーできます。
-   
-` cd ~/.zcash/`
-     
-単に実行してください：
-
-```bash
-tar -zcvf blocks.tar.gz /blocks
-tar -zcvf chainstate.tar.gz /chainstate
-```
-     
-ブロックとchainstate .gzファイルを外部SSD/HDDにコピーします。次に、Mediaフォルダで外部SSD/HDDをマウントして表示できるようにしてください：
-
-```markdown
-lsblkは接続されたすべてのドライブを表示します。多くはsdaという形式です。
-idはユーザーとグループIDを表示します。
-```
-          
-<img src="/content-images/197372643-abef88fd-9177-4bf9-abda-3c2211-e354e8ff47.webp" alt="lsblk" width="400" height="400"/>
-
-
-          
-          `sudo mount -o umask=0077,gid=<groupid>,uid=<userid> /dev/sda1 /media/portableHD/`
-          
-所有者とファイルの権限に注意してください。
-
-```bash
-sudo chown -R <username>: portableHD
-sudo chmod -R 600 portableHD/
-```
-     
-他のコンピュータからブロックとchainstate .gzファイルをコピーした場合は、今すぐ解凍してください。それらが外部ドライブの.zcashフォルダ内にあることを確認してください。
-
-```bash
-tar - xvzf blocks.tar.gz
-tar - xvzf chainstate.tar.gz
-```
-
-
-Setup /media/portableHD/.zcash/zcash.conf
-
-<img src="/content-images/197373699-18cc2c9f-b47d-44e9-9e6b-4c5ccc-3dac42f3c0.webp" alt="zconf" width="700" height="400"/>
-
-
- 
-注意してください。datadirを外部SSD/HDDに移動しました。これは非常に多くの空き容量があります。デフォルトの.zcashフォルダの場所が変更されているため、zcashdにこれを伝えるためにシンボリックリンクを使用する必要があります：
-
-```markdown
-cp -rp ~/.zcash/* /new_dir         // Make copy of datadir or supply with an external HD
-rm -rf ~/.zcash                    // Remove default folder
-ln -s /media/portableHD/ ~/.zcash  // Symbolic link new data location to the default so zcashd is happy
-```
-   
-
-fetch-params.shスクリプトを実行して、zcashdに必要なデータをダウンロードします
-
-    `./fetch-params.sh`
-
-
-新しい 'screen' [ linuxのプログラム ] を起動します。-datadirを設定してzcashdを開きます：
-
-```bash
-screen -S zcashScreen`     
-./zcashd -datadir=/media/portableHD/.zcash/
-```
-     
-画面から離れます:
-
-`Ctrl+a , Ctrl+d`
-
-
-エイリアスを作成して、これらの追加データロケーションコマンドをすべてタイプする必要がないようにします
-
-     `alias zcash-cli="./zcash-cli -datadir=/media/portable汇/.zcash/"`
-
-
-準備ができました！
-
-    `zcash-cli getblockchaininfo`
-
-  <img src="/content-images/197373098-672aa228-d180-47ea-8a7c-c58dc3-bf85ac08fb.webp" alt="getblockchaininfo" width="400" height="400"/>
-
-
-
-### zcashdの使用
-
-<iframe class="w-full h-auto md:h-96" src="https://www.youtube.com/embed/KNhd1KC0Bqk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
-ノードの状態を確認するにはどうすればよいですか？
-
-     `tail -n 500 <path to>/.zcash/debug.log`
-
-  <img src="/content-images/197684416-9a083de4-4a62-4fe8-9cab-798781-c1755f3f91.webp" alt="status" width="700" height="400"/>
-
-
-  
-     
-ログから現在の高さを取得するには
-
-     `tail -n 10 <path to>/.zcash/debug.log | grep -o  'height=[^b]*'`
-
-  <img src="/content-images/199630447-6a6cd491-0cb3-47f8-95f0-45f6b6-dc7b671d5a.webp" alt="logHeight" width="500" height="400"/>
-
-
-     
-     `zcash-cli getinfo`
-  
-<img src="/content-images/199646508-132da0eb-899e-49a6-8b31-e9011e-839cbe5c04.webp" alt="getInfo" width="400" height="400"/>
-
-     
-     
-メモを送るにはどうすればよいですか？[ここ](https://zcash.readthedocs.io/en/latest/rtd_pages/memos.html)に記載されているように、*ascii2hex* と *hex2ascii* をダウンロードし、実行可能ファイルにしてください 
-
-`chmod +x ascii2hex hex2ascii`
-          
-メモを作成し、それを16進数に変換します。ASCIIに戻してテストすることもできます。
-          
-<img src="/content-images/199646812-782142d6-8846-443a-8dd9-4f332e-a552c26229.webp" alt="asciiGOOD" width="400" height="400"/>
-
-
-  
-上記のメモの16進数バージョンを使用してSaplingのz2zトランザクションを作成します
-
-`zcash-cli z_sendmany "ztestsapling1kg3u0y7szv6509732at34alct46cyn0g26kppgf2a7h5tpqxldtwm7cmhf8rqmhgt" "[{\"address\": \"ztestsapling2kg3u0y7szv6509732at34alct46cyn0g26kppgf2a7h5tpqxldtwm7cmhf8rqmhgtmpakcz5mdv\",\"amount\": 0.0001, \"memo\":\"5A656348756221\"}]"`
-
-画面から離れた後、zcashScreenを再開するにはどうすればよいですか？
-
-`screen -r zcashScreen`
-     
-zcashdを停止するにはどうすればよいですか？
-
-`zcash-cli stop`
-     
-UAを作成するにはどうすればよいですか？
-
-`zcash-cli z_getnewaccount`
-     
-  <img src="/content-images/202352436-04c17be2-e914-4b9b-95d1-00cf6f-2d1a6ea572.webp" alt="newAccount" width="400" height="400"/>
-
-
-
-あなたのニーズに応じてUAの受信者を作成します。これはOrchardのみ、Orchard + Sapling、および最後にOrchard + Sapling + Transparentです。注意してください、受信者の長さによって違いを確認できます。
-     
-<img src="/content-images/202354319-2da6be33-ca95-4b6b-b29c-14805d-f0c8acd281.webp" alt="chars" width="200" height="100"/>
-
-
-`zcash-cli z_getaddressforaccount 0 '["orchard"]'`
-     
-<img src="/content-images/202353642-c36b5fea-de8a-41f6-a27c-d9ff42-5231dccf56.webp" alt="uaOrchard" width="400" height="400"/>
-
-<img src="/content-images/202355586-eaeb36e7-b000-4b99-8192-81e500-de15c07940.webp" alt="OrchQR" width="400" height="400"/>
-
-`zcash-cli z_getaddressforaccount 0 '["orchard","sapling"]'`
-     
-<img src="/content-images/202353732-740828e3-77b8-4684-8cf8-fb1425-b1591ddd68.webp" alt="uaOrchardSapling" width="400" height="400"/>
-<img src="/content-images/202355596-c7b62854-9a9e-4627-ab5d-510913-e280eee165.webp" alt="OrchSapQR" width="300" height="200"/>
-
-
-`zcash-cli z_getaddressforaccount 0 '["orchard","sapling","p2pkh"]'`
-     
-<img src="/content-images/202353793-3331c593-5286-4b84-93a7-adc492-c7730e3b3e.webp" alt="uaFull" width="400" height="400"/>
-<img src="/content-images/202355607-75de0750-2a57-4e10-883b-e0a626-2600e9b182.webp" alt="FullQR" width="400" height="400"/>
-
-
-UAを使用してZECを送るにはどうすればよいですか？
-
-`zcash-cli z_sendmany "fromOaddress" "[{\"address\": \"dOrchardAddress\",\"amount\": 0.0001, \"memo\":\"yourMemoinHex\"}]" <minconf> <fee> <privacyPolicy>`
-
-<img src="/content-images/202365280-c184f622-eb7e-4095-bc38-907951-97c10ec6c2.webp" alt="UAsuccess" width="400" height="400"/>
-<img src="/content-images/202366758-40650460-aaeb-4e03-891f-b4bd08-31378cf6ff.webp" alt="pic" width="400" height="400"/>
-
-    
-##### また、*from* アドレスと *destination* アドレスの両方が透明、Sapling、またはOrchardアドレスであることに注意してください。ただし、トランザクションが有効になるようにprivacyPolicyフラグを調整する必要がある場合があります。(一部の組み合わせはprivacyPolicyが意味を持たない場合があります！)
-
-
-UAについてさらに情報を得るにはどこにいけばよいですか？
-
-> [Hanhの](https://medium.com/@hanh425/transaction-privacy-78f80f9f175e)トランザクションプライバシーに関する投稿を確認してください。また、[この](https://forum.zcashcommunity.com/t/unified-addresses-full-node-rpc-api/41980/2)投稿もzcashフォーラムから。
-
-> [この](https://github.com/zcash/zips/issues/470)
-
-     
-### 出典
-
-<div>
-
-- https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview
-- https://github.com/zcash/zcash
-- https://zcash.readthedocs.io/en/latest/rtd_pages/Debian-Ubuntu-build.html
-- https://zcash.readthedocs.io/en/latest/rtd_pages/memos.html
-- https://en.wikipedia.org/wiki/Secure_Shell
-- https://itsfoss.com/how-to-find-what-devices-are-connected-to-network-in-ubuntu/
-- https://youtu.be/YS5Zh7KExvE
-- https://twitter.com/BostonZcash/status/1531798627512877059
-- https://forum.zcashcommunity.com/t/unified-addresses-full-node-rpc-api/41980/2
-- https://medium.com/@hanh425/transaction-privacy-78f80f9f175e
-- https://znewsletter.netlify.app/
-- https://github.com/zcash/zips/issues/470
-- https://zips.z.cash/protocol/nu5.pdf#unifiedpaymentaddrencoding
-
-</div>
+*このガイドが役に立ったなら、ZecHubへの支援をご検討ください: [現在のZecHub寄付用シールドアドレスをzechub.wiki/donationから挿入 — ここでは、まだ最新であることを確認できなかったため含めていません]。*

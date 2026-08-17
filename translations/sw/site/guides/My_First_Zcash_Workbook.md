@@ -10,7 +10,7 @@ This guide provides an overview of the workbook's core learning arc, divided int
 
 Kitabu cha kazi inapatikana kwa uhuru kwa ajili ya kushusha kama PDF au kama flipbook maingiliano:
 
-[Kielelezo]](https://drive.google.com/file/d/1eYWLgvAAHzCpr2b7bZ494FTZAtHqmtRk/view)
+[Kielelezo](https://drive.google.com/file/d/1eYWLgvAAHzCpr2b7bZ494FTZAtHqmtRk/view)
 
 [Flipbook](https://midd.me/nbp2)
 

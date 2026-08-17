@@ -91,9 +91,9 @@ Zcash na-akwadokwa ** adreesị dị n'ime ** maka ọrụ obere akpa dịka Aut
 
 ## Akụrụngwa
 
-- [ZIP-32: Shielded Hierarchical Deterministic Wallets] [Akwụkwọ ego ndị a na-eji eme ihe n'ụzọ ziri ezi]](https://zips.z.cash/zip-0032)  
+- [ZIP-32: Shielded Hierarchical Deterministic Wallets] [Akwụkwọ ego ndị a na-eji eme ihe n'ụzọ ziri ezi](https://zips.z.cash/zip-0032)  
 - [Zcash Protocol nkọwapụta (NU5)](https://zips.z.cash/protocol/protocol.pdf)  
-- [Nchịkọta nke obere akpa ego echedoro site na ndabara]](https://zechub.wiki)
+- [Nchịkọta nke obere akpa ego echedoro site na ndabara](https://zechub.wiki)
 
 ---
 

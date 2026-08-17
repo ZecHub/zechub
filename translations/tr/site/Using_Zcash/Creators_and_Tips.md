@@ -15,7 +15,7 @@
 
 ## Zcash.me
 
-![Zcash.me Logo](https://pbs.twimg.com/profile_images/1983177127806533632/LbLuoQjB_400x400.jpg)
+![Zcash.me Logosu](/content-images/_unavailable.svg)
 
 ### Genel Bakış
 

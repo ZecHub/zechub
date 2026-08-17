@@ -4,10 +4,10 @@
 
 ## TL;DR
 
-- Daima kutuma kutoka anwani ** shielded **
-- Epuka moja kwa moja t kwa t shughuli
+- Daima kutuma kutoka ** anwani ya ulinzi**
+- Epuka moja kwa moja t na shughuli za t
 - Break linkkability kati ya vitambulisho
-- Uwe mwangalifu kuhusu wakati na utaratibu
+- Uwe mwangalifu kuhusu wakati na utaratibu wa kufanya mambo hayo
 
 <br/>
 
@@ -15,7 +15,7 @@
 
 - Mtu yeyote kutuma malipo nyeti
 - Watumiaji wanaojali faragha
-- Watu wanaofanya kazi chini ya hatari ya ufuatiliaji
+- Watu wanaofanya kazi chini ya hatari za ufuatiliaji
 
 <br/>
 
@@ -24,9 +24,9 @@
 Kutuma crypto mara nyingi hufunua:
 - Kitambulisho chako cha mkoba
 - Historia yako ya shughuli
-- Unawasiliana na nani
+- Unawasiliana na nani?
 
-Hii inajenga ** traceable fedha grafu **.
+Hii inajenga ** traceable grafu ya kifedha**.
 
 <br/>
 
@@ -43,8 +43,8 @@ Hii mapumziko:
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
-- Mkoba ambayo inasaidia shughuli shielded
-- Uelewa wa msingi wa anwani za z
+- Mkoba ambayo inasaidia shughuli ulinzi
+- Uelewa wa msingi wa anwani za z-anwani
 
 <br/>
 
@@ -62,27 +62,27 @@ Daima hupendelea `z to z` shughuli
 Hilo huhakikisha kwamba kuna faragha ya kadiri.
 
 
-### Hatua ya 3: Epuka Kujifananisha na Wengine
+### Hatua ya 3: Epuka Kujifananisha na Mtu Fulani wa Aina Hii
 
-Usifanye hivi:
+Usifanye:
 - Tangaza shughuli hadharani
-- Tumia tena anwani ile ile katika muktadha mbalimbali
-- Kiungo anwani kwa utambulisho inayojulikana
+- Tumia tena anwani ileile katika muktadha mbalimbali
+- Link anwani kwa utambulisho inayojulikana
 
-### Hatua ya 4: Fikiria Matumizi ya Wakati
+### Hatua ya 4: Fikiria Matumizi Yako ya Wakati
 
 Kidokezo cha juu:
-- Epuka kutuma mara moja baada ya kupokea kiasi kikubwa
-- Kuvunja mifumo ya kutabirika inapowezekana
+- Epuka kutuma mara moja baada ya kupokea kiasi kikubwa cha pesa.
+- Kuvunja mifumo ya kutabiri ambapo inawezekana
 
 <br/>
 
 ## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
 
 - Kutuma moja kwa moja kutoka anwani uwazi 
-- Reusing anwani katika watu wengi 
-- Umma kuthibitisha shughuli 
-- Kupuuza metadata (wakati, mzunguko)
+- Kutumia tena anwani katika watu wengi 
+- Kuonyesha waziwazi shughuli za biashara 
+- Kupuuza metadata (wakati, frequency)
 
 <br/>
 
@@ -90,19 +90,19 @@ Kidokezo cha juu:
 
 Unaweza:
 - Tuma fedha binafsi
-- Epuka kuunganisha utambulisho wako
+- Epuka kuunganisha utambulisho wako na mtu mwingine.
 - Kupunguza traceability
 
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
-- [Privacy - Shielded dhidi ya Transparent](/privacy/shielded-vs-transparent)
+- [Faragha - Kulindwa dhidi ya Uwazi](/privacy/shielded-vs-transparent)
 
 <br/>
 
 ## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
 
-** Hatua ya 2 ya 6**
+** Hatua ya 2 kati ya 6**
 
 Sasa unaweza kutuma fedha kwa siri bila kufichua utambulisho wako.
 
@@ -110,4 +110,4 @@ Sasa unaweza kutuma fedha kwa siri bila kufichua utambulisho wako.
 
 ## Hatua Inayofuata
 
-- [Freelancer Faragha Setup](/use-cases/freelancer-privacy-setup)
+- [Freelancer Faragha Setup](/zcash-use-cases/freelance-privacy-setup)

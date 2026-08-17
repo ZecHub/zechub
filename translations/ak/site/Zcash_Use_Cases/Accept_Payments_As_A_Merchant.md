@@ -17,7 +17,7 @@
 ## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
 
 - Intanɛt so aguadifo
-- Wɔn a wɔde nnwuma ma
+- Wɔn a wɔde ɔsom adwuma ma
 - Nnwuma nketewa
 - Sotɔɔ ahorow a wɔde crypto-adamfofa di dwuma
 
@@ -120,7 +120,7 @@ Wobɛtumi:
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
 
-- [Wɔde sika kotoku](/wallets)
+- [Sika kotoku](/wallets)
 - [Privacy - Nneyɛe a Ɛyɛ Paara](/privacy/best-practices)
 
 <br/>
@@ -135,5 +135,5 @@ Seesei wubetumi ayɛ ankorankoro sikatua nhyehyɛe ahorow ama adwumayɛ.
 
 ## Anamɔn a Edi Hɔ
 
-- [Di Private Community Sikakorabea bi so](/use-cases/private-community-treasury)
+- [Di Private Community Sikakorabea bi so](/zcash-use-cases/private-community-treasury)
 <br/>

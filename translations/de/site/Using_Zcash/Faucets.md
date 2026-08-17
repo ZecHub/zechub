@@ -7,10 +7,12 @@
 <img width="2138" height="878" alt="Screenshot_2025-10-30_10-36-45" src="/content-images/bba0da3b-7064-4680-9535-a0dfcf50cc00-1827fccf4b.webp" />
 
 
-Faucets sind Dienste, die kostenlos kleine Mengen an Kryptowährung ausgeben. Sie werden häufig von Entwicklern genutzt, um mit Kryptowährungen zu experimentieren, und von Nutzern, um kleine Mengen an Kryptowährung zu erhalten, ohne sie kaufen zu müssen. In der Regel begrenzen sie die Menge an Kryptowährung, die ein Nutzer innerhalb eines bestimmten Zeitraums erhalten kann.
+Faucets sind Dienste, die kostenlos kleine Mengen an Kryptowährung ausgeben. Sie werden oft von Entwicklern genutzt, um mit Kryptowährung zu experimentieren, und von Nutzern, um kleine Mengen an Kryptowährung zu erhalten, ohne sie kaufen zu müssen. In der Regel begrenzen sie die Menge an Kryptowährung, die ein Nutzer innerhalb eines bestimmten Zeitraums erhalten kann.
 
 Mainnet: <a href="https://zecfaucet.com">zecfaucet</a>
 
 Testnet: <a href="https://testnet.zecfaucet.com">testnet.zecaucet.com</a>
 
 Testnet: <a href="https://fauzec.com/">fauzec.com</a>
+
+Testnet: <a href="https://zcashfaucet.jinolabs.xyz/">zcashfaucet.jinolabs.xyz</a>

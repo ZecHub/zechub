@@ -1,67 +1,110 @@
-[![Seite bearbeiten](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Recovering_Funds.md)
+<a href="https://github.com/Zechub/zechub/edit/main/site/Using_Zcash/Recovering_Funds.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Seite bearbeiten"/>
+</a>
 
-# Wiederherstellung von Geldern in Zcash Wallets
+# Wiederherstellung von Guthaben in Zcash Wallets
 
-**Warum sollte man seinen privaten Schlüssel aufbewahren?** 
+**Warum deinen privaten Schlüssel aufbewahren?**
 
-Private Schlüssel sind das Geheimnis hinter der Sicherheit Ihrer digitalen Vermögenswerte. Es ist essenziell, sie sicher aufzubewahren und niemals an Dritte weiterzugeben. 
+Private Schlüssel sind das Geheimnis für die Sicherheit deiner digitalen Vermögenswerte. Es ist essenziell, sie sicher aufzubewahren und niemals mit Dritten zu teilen.
 
-> In diesem Zusammenhang kann eine **Seed Phrase** als das Äquivalent zu einem privaten Schlüssel betrachtet werden.
+> In diesem Zusammenhang kann eine **Seed Phrase** als das Äquivalent eines privaten Schlüssels betrachtet werden.
 
-Wenn Sie die Kontrolle über Ihre privaten Schlüssel behalten, ist der Wiederherstellungsprozess immer möglich. Es gibt 2 Arten von privaten Zcash Schlüsseln (transparent und shielded), die Sie ganz einfach in Ihre Wallet importieren können, entweder mit der Funktion Sweep Funds oder indem Sie sie als neues Konto importieren. Indem Sie die Kontrolle über Ihre privaten Schlüssel behalten, bewahren Sie die vollständige Kontrolle über Ihre Vermögenswerte und stellen Eigentum, Sicherheit und ein beruhigendes Gefühl sicher.
+Wenn du die Kontrolle über deine privaten Schlüssel behältst, ist eine Wiederherstellung jederzeit möglich. Es gibt 2 Arten von Zcash privaten Schlüsseln (transparent und abgeschirmt), und du kannst sie ganz einfach in deine Wallet importieren, entweder mit der Funktion Sweep Funds oder durch das Importieren als neues Konto. Indem du die Kontrolle über deine privaten Schlüssel behältst, bewahrst du die vollständige Kontrolle über deine Vermögenswerte und sorgst für Eigentum, Sicherheit und ein gutes Gefühl.
 
 # Sicherheit und Verantwortung
 
-Es ist entscheidend, dass Nutzer die Risiken im Umgang mit privaten Schlüsseln verstehen und diese Schlüssel vor unbefugtem Zugriff schützen. Die Sicherheit der Gelder hängt von der Verantwortung des Nutzers ab, seine privaten Schlüssel zu schützen.
+Es ist entscheidend, dass Nutzer die Risiken beim Umgang mit privaten Schlüsseln verstehen und diese Schlüssel vor unbefugtem Zugriff schützen. Die Sicherheit der Guthaben hängt von der Verantwortung des Nutzers ab, seine privaten Schlüssel zu schützen.
 
-## Wiederherstellung von Geldern mit YWallet
+> **Bevor du beginnst:** Wiederherstellungsanleitungen verwiesen früher auf Ywallet. Der Entwickler hat bestätigt, dass es nicht für das Ironwood-(NU6.3)-Netzwerkupgrade aktualisiert wird und der Chain daher nicht mehr folgen kann. Verwende stattdessen **Zkool**, das vom selben Entwickler stammt und der gepflegte Nachfolger ist. Siehe [Ywallet wird nicht mehr gepflegt](#ywallet-is-no-longer-maintained) am Ende dieser Seite.
 
-YWallet gilt als eine der besten Optionen zur Wiederherstellung unzugänglicher Gelder, sowohl aus *rein transparenten* als auch aus shielded privaten Schlüsseln.
+## Guthabenwiederherstellung mit Zkool
 
-### 1) Import des privaten Schlüssels 
+[Zkool](https://github.com/hhanh00/zkool2/releases) ist der Nachfolger von Ywallet vom selben Entwickler und unterstützt sowohl transparente als auch abgeschirmte Wiederherstellung.
 
-1. Laden Sie Ywallet[](https://ywallet.app) herunter
+Hier werden zwei Situationen behandelt:
 
-2. Klicken Sie nach dem Öffnen unten rechts auf 'More'
+1. **Wiederherstellen eines Kontos** aus einer Seed Phrase, einem privaten Schlüssel oder einem Viewing Key
+2. **Sweep Funds** aus einer Wallet, die nur jemals transparente Adressen unterstützt hat
 
-3. Wählen Sie 'Accounts'
+### 1) Ein Konto wiederherstellen
 
-4. Klicken Sie oben rechts auf das Pluszeichen 
+1. Installiere Zkool von der [Releases-Seite](https://github.com/hhanh00/zkool2/releases) und öffne es
+2. Tippe im **Account Manager** (der Hauptseite) auf die Schaltfläche **+**, um zum Bildschirm **New Account** zu gelangen
+3. Gib einen **Account Name** ein, um dieses Konto zu identifizieren
+4. Aktiviere **Restore Account?**. Dadurch werden die Felder für Schlüssel und Birth Height eingeblendet
+5. Füge deinen Schlüssel in **Key (Seed Phrase, Private Key, or Viewing Key)** ein. Zkool akzeptiert eine Seed Phrase, einen Sapling-Geheimschlüssel, einen transparenten erweiterten Schlüssel oder einen Viewing Key
+6. Gib eine **Birth Height** ein, wenn du ungefähr weißt, wann die Wallet erstmals verwendet wurde. Damit teilst du Zkool mit, wo mit dem Scannen begonnen werden soll, was viel Zeit spart
 
-![Schaltfläche mit Pluszeichen](/content-images/plus-3ca2c1649a.webp)
+![Zkool-Bildschirm „New Account“ mit aktiviertem Restore Account und aktivierten Advanced Options](/content-images/zkool-restore-account-60b1d2777e.webp)
 
-5. Aktivieren Sie 'Restore an account' 
+> **Keine Birth Height?** Lass das Feld leer und bestätige die Warnung. Zkool scannt dann ab dem Beginn der Chain, was langsamer ist, aber nichts übersieht. Wenn deine Guthaben vor dem Sapling-Upgrade vom Oktober 2018 liegen, lass das Feld lieber leer, anstatt eine spätere Höhe zu schätzen, da der Scan sonst deine Transaktionen vollständig überspringen kann.
 
-6. Geben Sie die Seed Phrase oder den privaten Schlüssel ein
+7. Speichere das Konto und synchronisiere es dann
 
-> **Hinweis**: Wenn Sie Gelder in einer Wallet hatten, die keine shielded Adressen unterstützt (Trust, Coinomi, Guarda usw.), müssen Sie die Funktion 'Sweep Funds' verwenden.
+### Eine Seed aus einer anderen Wallet wiederherstellen
 
-### 2) Sweep Funds
+Wenn die Seed aus einer anderen Wallet stammt und der Kontostand nach der Synchronisierung falsch aussieht, liegt das normalerweise an der Ableitung der Change-Adresse.
 
-1. Laden Sie Ywallet[](https://ywallet.app) herunter
+Aktiviere den Schalter **Advanced Options**, weiter unten auf demselben Bildschirm „New Account“, und aktiviere vor dem Speichern **Use Internal Change**.
 
-2. Klicken Sie nach dem Öffnen unten rechts auf 'More'
+Wallets leiten Change-Adressen nicht alle auf dieselbe Weise ab. Wenn du eine ZODL-Seed ohne diese Einstellung in Zkool wiederherstellst, kann ein Kontostand angezeigt werden, dem deine Change-Notes fehlen, was wie verlorene Guthaben aussieht, es aber nicht ist. Der Tooltip von Zkool für diesen Schalter verweist noch auf Zashi, so hieß ZODL früher.
 
-3. Scrollen Sie nach unten zum Abschnitt Tools und klicken Sie auf 'Sweep'
+Unter **Advanced Options** befinden sich noch zwei weitere Felder:
 
-4. Geben Sie Ihre Seed Phrase ein (Gap limit durchsucht zusätzliche durch die Seed generierte Adressen)
+- **Extra Passphrase (optional)**, nur wenn die ursprüngliche Wallet eine verwendet hat
+- **Account Index**, falls die ursprüngliche Wallet mehrere Konten unter einer Seed hatte. Die Guthaben könnten unter einem anderen Index liegen
 
-![Sweep-Funds-Bildschirm](/content-images/sweep-6c956553a9.webp)
+> **Diese beiden erscheinen nur, wenn sich eine gültige Seed Phrase im Feld Key befindet.** Ist das Feld leer oder enthält es einen privaten Schlüssel oder Viewing Key, zeigt Zkool nur **Use Internal Change** und **H/W Ledger** an. Füge zuerst die Seed ein und öffne dann Advanced Options.
 
-5. Geben Sie den Value Pool für das Ziel ein, das Sie verwenden möchten (Börsen verwenden Transparent)
+### 2) Sweep Funds aus einer Wallet nur mit transparenten Adressen
 
-6. Geben Sie die Zieladresse ein, an die Sie die Gelder einzahlen möchten. 
+Wenn sich deine Guthaben in einer Wallet befinden, die nie abgeschirmte Adressen unterstützt hat (Trust, Coinomi, Guarda und ähnliche), stelle zuerst das Konto wieder her und verschiebe die Guthaben dann in den abgeschirmten Pool.
 
-## Zkool
+1. Stelle das Konto mit den oben genannten Schritten wieder her
+2. Öffne das Konto und gehe zur Seite **Receive Funds**
+3. Tippe auf die Lupe in der oberen Leiste (**Find other transparent addresses**). Wallets, die Adressen rotieren lassen, wie Ledger und Exodus, erzeugen viele transparente Adressen aus einer Seed, und damit werden diejenigen gefunden, auf denen Guthaben liegen
+4. **Setze das Konto danach zurück und synchronisiere es.** Die neu gefundenen Adressen übernehmen ihre Guthaben erst beim nächsten Scan; wenn du das überspringst, sieht es so aus, als hätte der Sweep nichts gefunden
+5. Gehe zur Seite **Send**. In der Nähe des Kontostands findest du drei Symbolschaltflächen. Sie haben keine Textbeschriftung, also fahre mit der Maus darüber oder halte sie länger gedrückt, um ihre Namen zu sehen:
+   - **Shield One** (umrandeter Schild) verschiebt jeweils eine transparente Adresse
+   - **Shield All** (ausgefüllter Schild) verschiebt alles von allen transparenten Adressen auf einmal
+   - **Unshield All** (offenes Vorhängeschloss) macht das Gegenteil, in eine transparente Adresse
 
-Bitte sehen Sie sich die ausführliche Zkool-Dokumentation für einen weiteren Weg zur Wiederherstellung von Geldern an:
+> **Shield One ist die privatere Wahl.** Das Abschirmen mehrerer Adressen in einer einzigen Transaktion verknüpft sie öffentlich als zu derselben Person gehörend. Zkool selbst warnt davor, bevor Shield All ausgeführt wird.
 
-- [Zkool-Dokumentation](https://hhanh00.github.io/zkool2/guide/start.html)
-- [Github](https://github.com/hhanh00/zkool2/)
+6. Prüfe die Transaktion und sende sie
 
-## ZExCavator
+Unshield All ist nützlich, wenn du an eine Börse auszahlen willst, die nur transparente Adressen akzeptiert. Die Shielding-Schaltflächen erscheinen nur, wenn das Konto eine abgeschirmte Adresse hat, und Unshield All nur, wenn es eine transparente hat.
 
-ZExCavator ist ein Tool, das möglicherweise verlorene ZEC wiederherstellt (ausgräbt!):
+## Wiederhergestellte Guthaben und der Ironwood-Pool
 
-- [ZExCavator](https://zexcavator.com/)
-- [Github](https://github.com/zingolabs/zexcavator)
+Seit das Ironwood-(NU6.3)-Upgrade am 28. Juli 2026 aktiviert wurde, ist der Orchard-Pool nur noch für Ausgaben nutzbar. Es kann kein neuer Wert mehr in ihn hineingelangen, und bestehender Wert verlässt ihn über das Turnstile in Richtung Ironwood.
+
+Wenn sich deine wiederhergestellten Guthaben in Orchard befinden, müssen sie migrieren, bevor sie sich normal verhalten. Öffne das Kontomenü und wähle **Note Migration**. Die Option wird nur angezeigt, wenn tatsächlich etwas zu migrieren ist.
+
+Der Bildschirm trägt den Titel **Orchard to Ironwood Migration** und läuft in zwei Phasen ab. Zuerst werden nicht standardmäßige Notes in Standardstückelungen aufgeteilt, danach werden diese Notes einzeln verschoben. **Migration Speed** ist ein Schieberegler von Ultra Fast bis Slow, der die zufällige Verzögerung zwischen den Schritten festlegt. **Start Migration** führt den gestuften Prozess im Hintergrund aus, und du kannst die Seite schließen und später fortsetzen. **One Shot** erledigt es in einem einzigen Durchlauf.
+
+Jeder Schritt ist eine eigene Transaktion, also fällt bei jedem eine Gebühr an.
+
+> **Migrationsbeträge sind öffentlich.** Wenn Wert das Turnstile passiert, sind Betrag und Blockhöhe on-chain sichtbar, auch wenn Absender und Empfänger abgeschirmt bleiben. Auffällige Beträge können dich identifizieren, deshalb solltest du die gestufte Migration bei geringerer Geschwindigkeit gegenüber One Shot bevorzugen und erwägen, deine Verbindung vorher über Tor oder ein VPN zu leiten, damit deine IP-Adresse nicht mit dem von dir bewegten Betrag verknüpft wird.
+
+## Tiefgehende Wiederherstellung mit ZExCavator
+
+[ZExCavator](https://github.com/zingolabs/zexcavator) ist ein Wiederherstellungstool von Zingo Labs für Fälle, in denen eine normale Wiederherstellung nicht funktioniert, etwa bei einer beschädigten oder unvollständigen Wallet-Datei.
+
+> Sein letztes Update liegt vor den jüngsten Netzwerkupgrades, daher solltest du es als letzte Option betrachten und alle wiederhergestellten Schlüssel in einer gepflegten Wallet verifizieren, bevor du dich auf das Ergebnis verlässt.
+
+## Ywallet wird nicht mehr gepflegt
+
+Ywallet war lange Zeit das empfohlene Wiederherstellungstool auf dieser Seite, und viele ältere Anleitungen verweisen noch darauf.
+
+Sein Entwickler hat bestätigt, dass es nicht für Ironwood aktualisiert wird. Eine Wallet, die die aktuellen Konsensregeln nicht unterstützt, kann keine gültigen Transaktionen erstellen und kann daher nicht mehr verwendet werden, um wiederhergestellte Guthaben zu bewegen. **Zkool**, vom selben Entwickler, ist der gepflegte Nachfolger und wird nun auf dieser Seite verwendet.
+
+Wenn du bereits Guthaben in Ywallet liegen hast, stelle dieselbe Seed Phrase mit den oben genannten Schritten in Zkool wieder her.
+
+## Verwandte Seiten
+
+- [Wallets](/using-zcash/wallets) - welche Wallets gepflegt werden und wie weit sie für Ironwood bereit sind
+- [Ironwood](/zcash-tech/ironwood) - was das Upgrade geändert hat und warum Guthaben migrieren
+- [Memos](/using-zcash/memos) - wie verschlüsselte Memos funktionieren
+- [Viewing Keys](/zcash-tech/viewing-keys) - Nur-Lese-Zugriff ohne Ausgabemöglichkeit

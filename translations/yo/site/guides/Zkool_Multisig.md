@@ -22,12 +22,12 @@ This guide provides a step by step walkthrough on how to perform multisig transa
 1. Ṣii ohun elo Zkool ki o lọ si Akọọlẹ Tuntun.
 
 
-! [ì ì1 ]](/content-images/ee906e49-361a-49b6-9484-904897fe2e3f-074e400a9c.webp)
+! [ì ì1 ](/content-images/ee906e49-361a-49b6-9484-904897fe2e3f-074e400a9c.webp)
 
 3. Kọ orúkọ àkáǹtì rẹ sílẹ̀ (bíi Anabelle). 
    
 
-! [ì ì ì2 ]](/content-images/e9c325d3-8507-433a-a0c6-6e8c1ea2a254-a637810ed5.webp)
+! [ì ì ì2 ](/content-images/e9c325d3-8507-433a-a0c6-6e8c1ea2a254-a637810ed5.webp)
 
 
 4. O lè yípò **Láti Lo Àtúnṣe Àárínlé** tàbí **Tún Àkáǹtì ṣe** bí ó bá pọn dandan.
@@ -36,7 +36,7 @@ This guide provides a step by step walkthrough on how to perform multisig transa
 5. Lẹ́yìn tí o bá ti dá àkọọ́lẹ̀ náà sílẹ̀, ó máa fara hàn nínú ìtòlẹ́sẹẹsẹ ìkànnì rẹ. 
 
 
-! [ì ì ì3 ]](/content-images/c446cbca-fb3e-49b9-b1d4-fd727cd1b0fb-971cf76b33.webp)
+! [ì ì ì3 ](/content-images/c446cbca-fb3e-49b9-b1d4-fd727cd1b0fb-971cf76b33.webp)
 
 
 ## 2. Gbígba Owó
@@ -100,7 +100,7 @@ Yan ID Olùkópa rẹ.
 Yan Àkáǹtì Ìṣúnáwó **.
   
 
-![ì ì ì£1⁄4ì í ]](/content-images/8a90ca85-5439-4937-b16d-a570e69d55f0-1477202a57.webp)
+![ì ì ì£1⁄4ì í ](/content-images/8a90ca85-5439-4937-b16d-a570e69d55f0-1477202a57.webp)
 
 
 

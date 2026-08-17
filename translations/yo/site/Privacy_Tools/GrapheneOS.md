@@ -55,7 +55,7 @@ As stated in the best practice section it is recommended to make use of the reco
 
 Ṣayẹwo awọn fifi sori Guide nipasẹ awọn ọna asopọ ni isalẹ ati ki o tẹle awọn fifi ilana
 
-[GrapheneOS Web Installer Guide] [Ìtójútó fún Àtúnṣe]](https://grapheneos.org/install/web#prerequisites)
+[GrapheneOS Web Installer Guide] [Ìtójútó fún Àtúnṣe](https://grapheneos.org/install/web#prerequisites)
 
 **Ifi sori ẹrọ Laini Iṣẹ** A ko ṣe iṣeduro fifi sori ẹrọ laini aṣẹ fun awọn olumulo ti ko ni itọsọna imọ-ẹrọ ati awọn irinṣẹ ati awọn orisun ti o wa ni isalẹ nilo fun Fifi sori Laini Itọsọna;
 
@@ -100,7 +100,7 @@ As stated in the best practice section it is recommended to make use of the reco
 
 ** Ṣayẹwo Awọn Aṣayan Aifọwọyi** Fi pẹlẹpẹlẹ ṣayẹwo ati ṣatunṣe awọn eto aiyipada lati ṣe deede pẹlu awọn ayanfẹ aṣiri rẹ.
 
-** Ìrànlọ́wọ́ láti ọ̀dọ̀ àwùjọ** Ṣiṣẹ́pọ̀ pẹ̀lú àwùjọ GrapheneOS àti àwọn àpérò fún ìmọ̀ràn, àtúnṣe, àti ìtọ́sọ́nà ààbò. O lè kàn sí ẹgbẹ́ náà kí o sì máa wà ní mímọ̀ nípa wíwá [níbí]](https://grapheneos.org/contact) láti wá àwọn èèyàn míì kàn.
+** Ìrànlọ́wọ́ láti ọ̀dọ̀ àwùjọ** Ṣiṣẹ́pọ̀ pẹ̀lú àwùjọ GrapheneOS àti àwọn àpérò fún ìmọ̀ràn, àtúnṣe, àti ìtọ́sọ́nà ààbò. O lè kàn sí ẹgbẹ́ náà kí o sì máa wà ní mímọ̀ nípa wíwá [níbí](https://grapheneos.org/contact) láti wá àwọn èèyàn míì kàn.
 
 **Use Official Installation Method** GrapheneOS offers two officially supported installation methods. Users can opt for the WebUSB-based installer, which is recommended for most individuals, or they can follow the command-line installation guide, tailored to more technically inclined users.
 

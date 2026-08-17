@@ -50,8 +50,8 @@
 
 ---
 
-###  步骤 3：准备你的 Zashi 钱包  
-下载 [**Zashi**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn)，这是 Electric Coin Co. 推出的官方 Zcash 钱包。从接收标签页复制你的 **Unified Address**——它同时支持透明和屏蔽的 ZEC。继续之前，请先安全保存好你的助记词。  
+###  步骤 3：准备你的 Zodl 钱包  
+下载 [**Zodl**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn)，这是 Electric Coin Co. 推出的官方 Zcash 钱包。从接收标签页复制你的 **Unified Address**——它同时支持透明和屏蔽的 ZEC。继续之前，请先安全保存好你的助记词。
 
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)
@@ -60,7 +60,7 @@
 ---
 
 ###  步骤 4：私密兑换  
-回到 **encrypt.trade**，进入 **Swap**。选择 **eSOL/eUSDC -> ZEC**，粘贴你的 Zashi 地址，检查详情并确认。
+回到 **encrypt.trade**，进入 **Swap**。选择 **eSOL/eUSDC -> ZEC**，粘贴你的 Zodl 地址，检查详情并确认。
 
 
 
@@ -72,7 +72,7 @@
 ![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
-**NEAR Intents** 引擎会自动处理跨链路由——在几秒内将 **ZEC** 直接发送到你的 Zashi 钱包。  
+**NEAR Intents** 引擎会自动处理跨链路由——在几秒内将 **ZEC** 直接发送到你的 Zodl 钱包。
 
 
 
@@ -81,7 +81,7 @@
 ---
 
 ###  步骤 5：屏蔽并保持私密  
-收到后，使用 Zashi 的 **Shield** 选项将你的 ZEC 转入屏蔽池，以获得最大程度的隐私保护。务必始终验证链接，避免重复使用地址，并先用小额进行测试。  
+收到后，使用 ZODL 的 **Shield** 选项将你的 ZEC 转入屏蔽池，以获得最大程度的隐私保护。务必始终验证链接，避免重复使用地址，并先用小额进行测试。
 
 ---
 

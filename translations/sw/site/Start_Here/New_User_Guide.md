@@ -2,43 +2,43 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Mwongozo New User
+# Zcash Mwongozo wa Mtumiaji Mpya
 
 ## TL;DR
 
-- ** Kununua ZEC ** juu ya kubadilishana mkono (Gemini, BitcoinVN, nk)
-- ** Kuweka mkoba shielded ** (Zashi, YWallet, au ZODL ilipendekeza)
-- ** Kuondoa ** ZEC yako kutoka kubadilishana kwa mkoba wako ulinzi
-- **Tuma shughuli kulindwa**  malipo yako ya kwanza binafsi juu ya Zcash
+- ** Kununua ZEC** juu ya kubadilishana mkono (Gemini, BitcoinVN, nk)
+- ** Weka mkoba wa kulinda** (Zodl, Zingo au Zkool inapendekezwa)
+- ** Kuondoa** ZEC yako kutoka kubadilishana kwa mkoba wako ulinzi
+- **Tuma shughuli kulindwa**  malipo yako ya kwanza binafsi juu Zcash
 - ** Jiunge na jamii** kwenye jukwaa au Discord
 
 ---
 
-Mwongozo huu kutembea wewe kupitia kupata onboarded kama mtumiaji Zcash na * ZEC * mmiliki.
+Mwongozo huu kutembea wewe kupitia kupata onboarded kama mtumiaji Zcash na *ZEC* mmiliki.
 
 ---
 
-**Kununua ZEC**
+** Kununua ZEC**
 
-Ili kutumia mtandao wa Zcash, utahitaji kununua sarafu yake, *ZEC*.
+Kutumia mtandao wa Zcash, utahitaji kununua sarafu yake, *ZEC*.
 
-Njia rahisi ya kupata ZEC ni [kununua juu ya Gemini](https://www.gemini.com/prices/zcash) au [mojawapo ya masoko haya](https://zechub.wiki/using-zcash/custodial-exchanges).
+Njia rahisi ya kupata ZEC ni kwa: [kununua kwenye Gemini](https://www.gemini.com/prices/zcash) or [yoyote ya kubadilishana hizi](https://zechub.wiki/using-zcash/custodial-exchanges).
 
 Jambo moja muhimu ni kwamba si lazima ununue 1 *ZEC* kamili.
 
-*ZEC* ni divisible, na unaweza kuanza na kununua tu sehemu ya sarafu.
+*ZEC* ni divisible, na unaweza kuanza kwa kununua tu sehemu ya sarafu.
 
 ---
 
-** Kuanzisha mkoba **
+**Tengeneza mkoba**
 
-Baada ya kununua baadhi * ZEC *, unaweza kutaka kuhamisha kwa mkoba Zcash. 
+Baada ya kununua baadhi * ZEC, unaweza kutaka kuhamisha kwa mkoba wa Zcash. 
 
-[Makala hii inaeleza]](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) kwa nini kuweka *ZEC* katika mkoba ni muhimu. 
+Hii ni [makala inaeleza](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) kwa nini kuweka *ZEC* katika mkoba ni muhimu. 
 
-Tunapendekeza kutumia [wallet kulindwa](https://zechub.wiki/wallets) kwa sababu pochi hizi kutoa vipengele faragha kwamba kufanya * ZEC * kipekee. 
+Tunapendekeza kutumia a [mkoba kulindwa](https://zechub.wiki/wallets) kwa sababu hizi pochi kutoa vipengele faragha kwamba kufanya * ZEC * kipekee. 
 
-Hapa ni video ya kupitia mifuko ya kisasa ya ulinzi:
+Hapa ni video ya kupitia mifuko kisasa ulinzi:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -57,7 +57,7 @@ Hapa ni video ya kupitia mifuko ya kisasa ya ulinzi:
 
 ** Kuondoa ZEC**
 
-Baada ya kujenga mkoba wako, wewe ni kwenda wanataka kuondoa ZEC yako katika mkoba kwamba. 
+Baada ya kujenga mkoba wako, wewe ni kwenda wanataka kuondoa ZEC yako katika mfuko wa fedha kwamba. 
 
 Hapa ni mafunzo juu ya jinsi ya kufanya hivyo.
 
@@ -75,9 +75,9 @@ Hapa ni mafunzo juu ya jinsi ya kufanya hivyo.
 
 ---
 
-** Kutuma shughuli ulinzi **
+** Tuma shughuli ulinzi**
 
-Baada ya kuhifadhi baadhi ZEC katika mkoba wako, uko tayari kutuma kikamilifu ulinzi, shughuli binafsi. shughuli ulinzi ni kubadilishana ZEC kwamba kikamilifu inalinda faragha ya kila mshiriki. Hapa ni baadhi ya vidokezo muhimu wakati wa kutumia ulinzi ZEC.
+Baada ya kuweka baadhi ZEC katika mkoba wako, uko tayari kutuma kabisa ulinzi, shughuli binafsi. Ushirikiano kulindwa ni kubadilishana wa ZEC kwamba kikamilifu inalinda faragha kila mshiriki. Hapa kuna vidokezo muhimu wakati kutumia walled ZEC.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -92,13 +92,13 @@ Baada ya kuhifadhi baadhi ZEC katika mkoba wako, uko tayari kutuma kikamilifu ul
 
 ---
 
-** Kujiunga jukwaa **
+** Jiunge na jukwaa**
 
-Zcash Jamii Forum ni mahali ambapo wanachama wa jamii Zcash kujadili mambo yote yanayohusiana na Zcash. Pia tuna server discord.
+Zcash Jamii Forum ni mahali ambapo wanachama wa jamii ya Zcash kujadili mambo yote kuhusiana na Zcash. Pia tuna server discord.
 
-[Zcash Jamii Forum](https://forum.zcashcommunity.com/) [Zcash Global](https://discord.gg/zcash).
+[Zcash Jamii Forum](https://forum.zcashcommunity.com/) | [Zcash Global](https://discord.gg/zcash).
 
-Jumuiya ni shauku na kuwakaribisha sana ya wanachama wapya. Wakati mwingine mazungumzo inaweza kuwa kiufundi, lakini usijali! Kama milele una swali, unaweza kuuliza.
+Jumuiya ni shauku na kuwakaribisha sana wajumbe wapya. Wakati mwingine mazungumzo inaweza kuwa kiufundi, lakini usijali! Kama milele una swali, unaweza kuuliza.
 
 <a href="">
     <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="/content-images/c1d40441-4336-4754-b3bf-5a746b19a9d5-6d2eca6cbf.webp" />
@@ -108,8 +108,8 @@ Jumuiya ni shauku na kuwakaribisha sana ya wanachama wapya. Wakati mwingine mazu
 
 ## Kurasa Zinazohusiana
 
-- [Ni nini ZEC na Zcash](/start-here/what-is-zec-and-zcash)  Jifunze mambo ya msingi kabla ya kuanza
-- [Kununua ZEC](/using-zcash/buying-zec)  Orodha kamili ya masoko yanayounga mkono uondoaji wa ulinzi
-- [Mifuko ya fedha](/using-zcash/wallets)  Linganisha pochi zote za Zcash kwa vipengele na jukwaa
-- [Vidimbwi vya Kuhifadhiwa](/using-zcash/shielded-pools)  Jifunze kwa nini shughuli za ulinzi ni muhimu
-- [Mazungumzo](/using-zcash/transactions)  Jinsi ya kutuma na kupokea ZEC binafsi
+- [ZEC na Zcash ni nini?](/start-here/what-is-zec-and-zcash)  Uelewe mambo ya msingi kabla hujaanza kujifunza
+- [Kununua ZEC](/using-zcash/buying-zec)  Orodha kamili ya kubadilishana kusaidia kuondolewa kwa ulinzi
+- [Mkoba](/using-zcash/wallets)  Linganisha pochi zote za Zcash kwa vipengele na jukwaa
+- [Vidimbwi Vilivyohifadhiwa kwa Kifaa cha Kuzuia Mlipuko](/using-zcash/shielded-pools)  Jifunze kwa nini shughuli za ulinzi ni muhimu
+- [Shughuli za biashara](/using-zcash/transactions)  Jinsi ya kutuma na kupokea ZEC binafsi

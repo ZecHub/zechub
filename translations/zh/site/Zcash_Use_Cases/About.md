@@ -33,15 +33,15 @@ Zcash 不只是停留在理论层面的隐私——它关乎**实用的、日常
 在发送资金时，避免暴露你的钱包、身份或交易图谱。
 
 
-### [自由职业者隐私配置](/zcash-use-cases/freelancer-privacy-setup)  
+###  [自由职业者隐私配置](/zcash-use-cases/freelance-privacy-setup)
 以 Zcash 收款，同时保护你的客户信息和收入隐私。
 
 
-### [作为商家接受付款](/zcash-use-cases/accept-payment-as-a-merchant)  
+### [作为商家接受付款](/zcash-use-cases/accept-payments-as-a-merchant)  
 使用屏蔽地址接受付款，避免暴露客户交易数据
 
 
-### [运行私密的社区金库](/zcash-use-cases/run-a-private-community-treasury)
+###  [运行私密的社区金库](/zcash-use-cases/private-community-treasury)
 使用屏蔽地址持有共享资金，并限制余额和交易的可见性
 
 ### [记者隐私配置](/zcash-use-cases/journalist-privacy-setup)   

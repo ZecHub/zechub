@@ -5,7 +5,7 @@
 Ìmọ̀ Láti Nítòsí Nítòkè ti padà wá pẹ̀lú àkòrí tuntun! 
 Ni ọsẹ yii a ṣawari ** Awọn agbegbe Iṣẹ Igbẹkẹle (TEEs) ** - bi wọn ṣe lo ninu awọn owó aṣiri ati awọn ohun elo blockchain miiran.
 
-[Ìdánilẹ́kọ̀ọ́ Àwọn Àyíká Ìmúṣẹ Ìgbẹ́kẹ̀lé]](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
+[Ìdánilẹ́kọ̀ọ́ Àwọn Àyíká Ìmúṣẹ Ìgbẹ́kẹ̀lé](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)
 
 ---
 
@@ -31,7 +31,7 @@ Kọọkan validator node nṣiṣẹ Intel SGX awọn eerun. Awọn ifọkanbal
 
 This is different from Zcash, which uses **zero-knowledge proofs** for privacy. In Zcash, shielded transactions are broadcast and validated publicly with no additional data revealed to the network. Zcash Shielded Assets follow the same principle.
 
-[Àdàkọ Àkọsílẹ̀ TEE Ìkànnì Àṣírí]](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
+[Àdàkọ Àkọsílẹ̀ TEE Ìkànnì Àṣírí](/content-images/FqulPjNX0AEfjRp-c7085732a2.webp)
 
 Fún àlàyé tó kún rẹ́rẹ́ nípa bí àwọn TEE ṣe ń ṣiṣẹ́ lórí Secret Network, ka àpilẹ̀kọ dáradára yìí látọ̀dọ̀ @l_woetzel: 
 https://carter-woetzel.medium.com/secret-network-tees-lets-talk-fud-vulnerability-33ca94b6df38
@@ -69,7 +69,7 @@ Níwọ̀n bí àwọn àgbègbè tí kò ní ìpínlẹ̀, àwọn ìgbà míì
 
 ** Data Sealing** n ṣe àdàkọ ìsọfúnni inú ààlà náà nípa lílo kókó tí a mú jáde láti inú CPU. Àpáàdì tí a fi àdàkàdekè ṣe yìí nìkan ni a lè tú ní orí ètò kan náà.
 
-[Àkọsílẹ̀ Ìdìmọ̀ Àlàyé]](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
+[Àkọsílẹ̀ Ìdìmọ̀ Àlàyé](/content-images/FqunBwyWYAA-TR3-933c2b0e6f.webp)
 
 ---
 
@@ -94,7 +94,7 @@ Fun awọn validators PoS:
 
 **TEEs** jẹ apẹrẹ fun iṣelọpọ ati lilo awọn bọtini olutọtọ ni aabo.
 
-[Tendermint & Ààbò PoS]](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
+[Tendermint & Ààbò PoS](/content-images/Fqun0HEX0AAooxW-7f6163ae1e.webp)
 
 ---
 

@@ -56,7 +56,7 @@ Zcash दो प्रकार के addresses को support करता ह
 
 ### Unified Addresses
 
-आधुनिक Zcash wallets जैसे [Zashi](https://electriccoin.co/zashi/) **Unified Addresses** का उपयोग करते हैं, जो transparent और shielded receivers दोनों को एक ही address में संयोजित करती हैं। इससे user experience सरल होता है और उपलब्ध privacy के उच्चतम स्तर को default रूप से अपनाया जाता है।
+आधुनिक Zcash wallets जैसे [Zodl](https://zodl.com) **Unified Addresses** का उपयोग करते हैं, जो transparent और shielded receivers दोनों को एक ही address में संयोजित करते हैं। इससे user experience सरल हो जाता है और उपलब्ध privacy के उच्चतम स्तर को default रूप से अपनाया जाता है।
 
 ### गोपनीयता क्यों महत्वपूर्ण है
 
@@ -82,7 +82,7 @@ ShapeShift platform उपयोगकर्ताओं को एक पूर
 - **Keplr** (Cosmos-based assets के लिए)
 - **WalletConnect-compatible wallets**
 
-चूँकि आप ZEC में या ZEC से swap कर रहे हैं, सुनिश्चित करें कि आपके पास अपने फंड प्राप्त करने के लिए एक Zcash-compatible wallet (जैसे Zashi) तैयार हो।
+चूँकि आप ZEC में या ZEC से swap कर रहे हैं, सुनिश्चित करें कि आपके पास अपने फंड प्राप्त करने के लिए एक Zcash-compatible wallet (जैसे ZODL) तैयार हो।
 
 ### चरण 3: अपना Swap Pair चुनें
 
@@ -98,7 +98,7 @@ Transaction details की समीक्षा करें और पुष�
 
 ### चरण 6: अपने ZEC को Shield करें
 
-जब आपका ZEC आ जाए, तो अपने Zcash wallet के **shield** function (जो Zashi जैसे wallets में उपलब्ध है) का उपयोग करके funds को shielded pool में ले जाएँ। इससे सुनिश्चित होता है कि आपका balance और भविष्य के transactions पूरी तरह private रहें।
+जब आपका ZEC आ जाए, तो अपने Zcash wallet के **shield** function (जो ZODL जैसे wallets में उपलब्ध है) का उपयोग करके funds को shielded pool में ले जाएँ। इससे सुनिश्चित होता है कि आपका balance और भविष्य के transactions पूरी तरह private रहें।
 
 ### Supported Cross-Chain Pairs
 
@@ -165,7 +165,7 @@ ShapeShift और Zcash का integration decentralized finance में priva
 
 [Zcash की आधिकारिक वेबसाइट](https://z.cash/)
 
-[Zashi Wallet (Electric Coin Co. द्वारा)](https://electriccoin.co/zashi/)
+[Zodl वॉलेट](https://zodl.com)
 
 [ShapeShift DAO Governance (FOX Token)](https://shapeshift.com/fox-token)
 

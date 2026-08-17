@@ -14,7 +14,7 @@ Iwe iṣẹ naa wa ni ọfẹ fun gbigba lati ayelujara bi PDF tabi bi iwe flipb
 
 [Àkájọ ìwé](https://midd.me/nbp2)
 
-[GitHub Repo]](https://github.com/massadoptionorg/My-First-Zcash) 
+[GitHub Repo](https://github.com/massadoptionorg/My-First-Zcash) 
 
 
 
@@ -156,7 +156,7 @@ Abala kẹhin pe awọn onkawe lati di apakan ti ilolupo eda abemi Zcash. Awọn
 
 Ìsọfúnni náà ṣe kedere: ẹnikẹ́ni lè kópa, àwùjọ sì ń kí àwọn olùkópa káàbọ̀ láìka ibi tí wọ́n ti wá àti bí òye wọn ṣe tó.
 
-[Zcash Global Discord] [Ìpínlẹ̀ Àgbáyé]](https://discord.gg/F6DCkCDK)
+[Zcash Global Discord] [Ìpínlẹ̀ Àgbáyé](https://discord.gg/F6DCkCDK)
 
 ---
 

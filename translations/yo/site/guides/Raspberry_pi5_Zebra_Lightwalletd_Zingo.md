@@ -27,7 +27,7 @@ sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 
 ## Ṣàkójọ Zebra
 
-[Zebra Github]](https://github.com/ZcashFoundation/zebra)
+[Zebra Github](https://github.com/ZcashFoundation/zebra)
 
 * `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v3.1.0 zebrad`
 

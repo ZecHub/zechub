@@ -45,8 +45,8 @@ The broader team is composed of the original Zcash protocol creators and develop
 Zodl is a self-custodial mobile wallet designed for private Zcash transactions. It combines deep protocol-level knowledge with user-friendly design, hiding complexity while maintaining security.
 
 **Ebe ndị a na-anọ eme njem:**
-- [iOS (App Store) ]](https://apps.apple.com/app/zodl/id6444974742)
-- [Android (Ụlọ Ahịa Play) ]](https://play.google.com/store/apps/details?id=co.electriccoin.zcash)
+- [iOS (App Store) ](https://apps.apple.com/app/zodl/id6444974742)
+- [Android (Ụlọ Ahịa Play) ](https://play.google.com/store/apps/details?id=co.electriccoin.zcash)
 - [F-Droid](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
 - [GitHub](https://github.com/AgoraCyber)
 
@@ -89,7 +89,7 @@ ZODL's guiding philosophy is centered on the concept of "Guardian of the Soverei
 
 ## Akụnụba
 
-- [Weebụsaịtị ZODL]](https://zodl.com/)
+- [Weebụsaịtị ZODL](https://zodl.com/)
 - [ZODL Banyere Peeji](https://zodl.com/about/)
 - [X/Twitter](https://x.com/zodl_app)
 - [Josh Swihart na X](https://x.com/jswihart)

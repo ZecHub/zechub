@@ -4,7 +4,8 @@
 - 操作系统：Android | iOS
 - 钱包支持：助记词 | Viewing Key | Unified Address | 硬件
 - 资金池：Transparent | Sapling | Orchard
-- 功能：地址簿 | CrossPay | Near Intents | Flexa Payments | 多重签名 | 支付请求 | Shielded Memo | 同步前即可支付 | TEX 地址 | Tor 支持 | F-droid
+- 功能：地址簿 | CrossPay | Near Intents | Flexa Payments | 多重签名 | 支付请求 | Shielded Memo | 同步前可支付 | TEX 地址 | Tor 支持 | F-droid
+- Ironwood：已就绪
 
 ---
 
@@ -15,6 +16,7 @@
 - 钱包支持：助记词 | Viewing Key | Unified Address | 硬件
 - 资金池：Transparent | Sapling | Orchard
 - 功能：地址簿 | 冷存储 | 多样化地址 | 支付请求 | 资金池转账 | Shielded Memo | TEX 地址 | 投票 | WarpSync
+- Ironwood：未就绪
 
 ---
 
@@ -35,6 +37,7 @@
 - 钱包支持：助记词 | Viewing Key | Unified Address
 - 资金池：Transparent | Sapling | Orchard
 - 功能：地址簿 | 财务洞察 | 支付请求 | PepperSync | Shielded Memo | 测试网支持
+- Ironwood：已就绪
 
 ---
 
@@ -44,7 +47,7 @@
 - 操作系统：Android | iOS
 - 钱包支持：助记词 | Unified Address
 - 资金池：Transparent | Sapling
-- 功能：自动屏蔽化 | DEX 兑换 | 多币种 | Shielded Memo | 同步前即可支付
+- 功能：自动屏蔽化 | DEX 兑换 | 多币种 | Shielded Memo | 同步前可支付
 
 ---
 
@@ -54,7 +57,8 @@
 - 操作系统：Android | iOS
 - 钱包支持：助记词 | Unified Address
 - 资金池：Transparent | Sapling | Orchard
-- 功能：DEX 兑换 | 多币种 | 同步前即可支付
+- 功能：DEX 兑换 | 多币种 | 同步前可支付
+- Ironwood：已就绪
 
 ---
 
@@ -75,6 +79,7 @@
 - 钱包支持：助记词 | Viewing Key | Unified Address | 硬件
 - 资金池：Transparent | Sapling | Orchard
 - 功能：地址轮换 | 广泛密钥支持 | 加密导出 | FROST 多签 | 多账户同步 | Shielded Memo | 测试网支持
+- Ironwood：已就绪
 
 ---
 
@@ -85,7 +90,8 @@
 - 钱包支持：助记词 | Viewing Key | Unified Address
 - 资金池：Transparent | Sapling | Orchard
 - 功能：地址簿 | 地址轮换 | 自动屏蔽化 | DEX 兑换 | 多币种 | Shielded Memo | Tor 支持
-
+- Ironwood：已就绪
+  
 ---
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
@@ -105,6 +111,7 @@
 - 钱包支持：助记词 | Viewing Key | Unified Address | 全节点
 - 资金池：Transparent | Sapling | Orchard
 - 功能：命令行界面 | PepperSync | Shielded Memo | 测试网支持 
+- Ironwood：进行中
 
 ---
 
@@ -115,6 +122,7 @@
 - 钱包支持：助记词 | Viewing Key | Unified Address | 全节点
 - 资金池：Transparent | Sapling | Orchard
 - 功能：Alpha 版本 | JSON-RPC 接口 | Shielded Memo | 测试网支持
+- Ironwood：已就绪
 
 ---
 
@@ -125,6 +133,7 @@
 - 钱包支持：助记词 | Viewing Key | Unified Address | 全节点
 - 资金池：Transparent | Sapling | Orchard
 - 功能：命令行界面 | 多样化地址 | Shielded Memo | 测试网支持
+- Ironwood：未就绪
 
 ---
 
@@ -134,7 +143,7 @@
 - 操作系统：浏览器
 - 钱包支持：助记词 | Unified Address
 - 资金池：Transparent | Orchard
-- 功能：Shielded Memo | 同步前即可支付 | 测试网支持
+- 功能：Shielded Memo | 同步前可支付 | 测试网支持
 
 ---
 
@@ -205,6 +214,7 @@
 - 钱包支持：硬件 | Unified Address
 - 资金池：Transparent | Sapling | Orchard
 - 功能：多币种
+- Ironwood：已就绪
 
 ---
 
@@ -215,6 +225,7 @@
 - 钱包支持：硬件
 - 资金池：Transparent 
 - 功能：多币种
+- Ironwood：进行中
 
 ---
 
@@ -243,7 +254,7 @@
 - 设备：网页端 | 移动端 | 桌面端
 - 操作系统：Android | iOS | Windows | Linux | macOS | 浏览器
 - 资金池：Transparent
-- 功能：多币种 | Web 应用
+- 功能：多币种 | Web App
 
 ---
 
@@ -254,6 +265,7 @@
 - 钱包支持：助记词 | Unified Address | 硬件
 - 资金池：Transparent | Sapling | Orchard
 - 功能：自动屏蔽化 | Shielded Memo | 测试网支持 | FROST 多签
+- Ironwood：已就绪
 
 ---
 
@@ -263,6 +275,7 @@
 - 操作系统：浏览器
 - 资金池：Shielded | Transparent
 - 功能：浏览器扩展 | Shielded 交易 | 跨链兑换 | 借贷 | DApp 连接 | Rhea
+- Ironwood：已就绪
 
 ---
 
@@ -272,14 +285,59 @@
 - 操作系统：浏览器 | Windows | macOS
 - 钱包支持：助记词 | 外部钱包 | 接收地址 | 二维码 | 硬件
 - 资金池：Sapling | Transparent
-- 功能：多币种 | Near Intents | Maya DEX | 无 KYC | 非托管 | Web 应用 | 桌面应用 | Shielded ZEC | AnyPay
+- 功能：多币种 | Near Intents | Maya DEX | 无 KYC | 非托管 | Web App | Desktop App | Shielded ZEC | AnyPay
+- Ironwood：已就绪
 
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
-![logo](/content-images/zapp-1-a6fa468edb.webp "Zapp")
+![logo](/content-images/zapp.webp "Zapp")
 - 设备：移动端 
 - 操作系统：Android 
 - 钱包支持：Unified Address 
 - 资金池：Transparent | Sapling | Orchard
-- 功能：端到端加密即时通讯 | NEAR Intents | P2P.me Offramp | Beta
+- 功能：端到端加密即时通讯工具 | NEAR Intents | P2P.me 出金通道 | Beta
+- Ironwood：已就绪
+  
+---
+
+## [Zecd](https://zecd.org/quickstart.html)
+![logo](/content-images/zecd.webp "Zecd")
+- 设备：桌面端 
+- 操作系统：Linux
+- 钱包支持：助记词 | Viewing Key | Unified Address | 私钥 | Spending Key | 钱包备份 / 密钥导出 | 全节点钱包 
+- 资金池：Transparent | Sapling | Orchard | Sprout
+- 功能：加密 Memo | 钱包备份（钱包数据）| RPC 接口 | Shielded Memo | 私钥管理
+- Ironwood：已就绪
+
+---
+
+## [Zend:Zcash Wallet](https://justzend.com/)
+![logo](/content-images/zend.webp "Zend:Zcash Wallet")
+- 设备：移动端 | 桌面端
+- 操作系统：iOS | macOS
+- 钱包支持：助记词 | Passkey | Unified Address | 私钥 | 自托管钱包 
+- 资金池：Transparent | Sapling | Orchard 
+- 功能：自托管 | 私钥本地存储 | 无需 KYC | 钱包活动不依赖 Zend 服务器 | 加密的 Shielded 交易 | 助记词恢复 | Shielded Memo | Passkey 身份验证
+
+---
+
+## [Nozy Wallet](https://github.com/LEONINE-DAO/Nozy-wallet)
+![logo](/content-images/nozy.webp "Nozy Wallet")
+- 设备：桌面端 | 浏览器
+- 操作系统：Linux | iOS | macOS
+- 钱包支持：助记词 | Viewing Key | Unified Address | Spending Key | HD 钱包 | 私钥管理 
+- 资金池：Transparent | Sapling | Orchard 
+- 功能：地址簿 | Tor 支持 | I2P 支持 | Zebra/Zebrad 集成 | 交易历史 | 交易导出 | 本地见证派生 | 动态手续费（ZIP-317）| NU6.2 兼容性 | NU6.3 迁移支持 | Shielded Memo
+- Ironwood：已就绪
+
+---
+
+## [Zipher](https://github.com/atmospherelabs-dev/zipher-app)
+![logo](/content-images/zipher.webp "Zipher")
+- 设备：移动端 | 桌面端 
+- 操作系统：Android | Windows | Linux（CLI 和 MCP 服务器）| iOS | macOS
+- 钱包支持：助记词 | Viewing Key | Unified Address | 多账户钱包 | 自托管钱包 | 私钥管理 | Agent 钱包支持
+- 资金池：Transparent | Sapling | Orchard 
+- 功能：NEAR Intents | 支付请求 | Shielded Memo | 默认 Shielded 交易 | 测试网 | 跨链兑换 | CipherPay | Viewing Key | AI Agent | MCP 服务器 | CLI 钱包 | FROST | Beta 
+- Ironwood：进行中

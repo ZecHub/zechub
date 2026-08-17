@@ -26,7 +26,7 @@
 
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
 
-Nutoa me ga siwo le dukɔa ƒe blockchainwo me ɖea nu le:
+Nutoa me ga siwo le dukɔa ƒe blockchains me ɖea nu le:
 - Ga si susɔ ɖe gaxɔ me katã
 - Gazazã ŋutinya
 - Nudzɔla ƒe dzesideŋkɔwo
@@ -70,7 +70,7 @@ Agbanɔamedzi vovovowo:
 - Nudzɔlawo (bia gazazã) .
 - Totoɖemelawo (da asi ɖe edzi le ememe) .
 
-Ƒo asa na akpa siawo tsɔtsɔ do ƒome kple dutoƒodzesiwo.
+Ƒo asa na akpa siawo tsɔtsɔ do ƒome kple dutoƒo dzesideŋkɔwo.
 
 
 
@@ -122,7 +122,7 @@ Miaƒe nutoa me tɔwo ate ŋu:
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
 - [Adzamenyawo - Nuwɔna nyuitɔwo kekeake](/privacy/best-practices)
-- [Ðo ga ɖa evɔ màtsɔ amenyenye aɖo kadodo me o](/use-cases/send-money-without-linking-identity)
+- [Ðo ga ɖa evɔ màtsɔ amenyenye aɖo kadodo me o](/zcash-use-cases/send-money-without-linking-identity)
  
 
 <br/>
@@ -137,4 +137,4 @@ Miaƒe nutoa me tɔwo ate ŋu:
 
 ## Afɔɖeɖe si kplɔe ɖo
 
-- [Nyadzɔdzɔŋlɔlawo ƒe Nyatakakawo Ŋuti Ðoɖo](/use-cases/journalist-privacy-setup)
+- [Nyadzɔdzɔŋlɔlawo ƒe Nyatakakawo Ŋuti Ðoɖowɔwɔ](/zcash-use-cases/journalist-privacy-setup)

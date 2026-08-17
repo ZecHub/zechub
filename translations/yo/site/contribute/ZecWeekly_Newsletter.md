@@ -25,7 +25,7 @@ Kí o tó bẹ̀rẹ̀ sí kọ̀wé:
 
 Ti o ba jẹ tuntun si GitHub, lo iṣan iṣẹ yii:
 
-1. Ṣii ibi ipamọ [ZecHub]](https://github.com/ZecHub/zechub).
+1. Ṣii ibi ipamọ [ZecHub](https://github.com/ZecHub/zechub).
 2. Tẹ **Fork** ki o si ṣe àlẹmọ kan lábẹ́ àkọọ́lẹ̀ GitHub rẹ.
 3. Ninu forukọsilẹ rẹ, ṣẹda ẹka tuntun fun atẹjade naa. Orukọ ẹka ti o han gbangba jẹ iranlọwọ, gẹgẹbi `digest-may-30-2026`.
 4. Rii daju wipe rẹ fa ibeere yoo afojusun `ZecHub/zechub` gẹ́gẹ́ bí ibi ìpamọ́ ìsọfúnni, àti `main` gẹ́gẹ́ bí ẹ̀ka ìpilẹ̀ṣẹ̀.
@@ -40,7 +40,7 @@ git checkout -b digest-month-day-year
 
 ### 3. Ṣẹda awọn iwe iroyin faili
 
-Lo [àdàkọ ìwé ìròyìn]](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md) Awọn iwe iroyin ti o wa ninu awọn [`newsletter`](https://github.com/ZecHub/zechub/tree/main/newsletter) àpamọ́.
+Lo [àdàkọ ìwé ìròyìn](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md) Awọn iwe iroyin ti o wa ninu awọn [`newsletter`](https://github.com/ZecHub/zechub/tree/main/newsletter) àpamọ́.
 
 Nigbati o ba n ṣẹda faili naa:
 
@@ -122,4 +122,4 @@ Nigbati o ba ṣe afiwe iṣẹ rẹ pẹlu apẹẹrẹ kan, fojusi lori ipo fa
 
 ## Àwọn ìtẹ̀jáde tó ti kọjá
 
-[Ìpamọ́ Ìsọfúnni fún Ọsẹ]](https://zechub.substack.com/p/archive)
+[Ìpamọ́ Ìsọfúnni fún Ọsẹ](https://zechub.substack.com/p/archive)

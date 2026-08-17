@@ -20,7 +20,7 @@ Hash Functions na-ewere ntinye nke ogologo ọ bụla ma mepụta mmepụta nke 
 - ** Nsonaazụ mmepụta ** = Hash Value 
 
 
-[Ihe osise nke ọrụ hash]](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
+[Ihe osise nke ọrụ hash](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
 
 ### Gbalịa ya n'onwe gị!
 

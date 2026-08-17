@@ -5,7 +5,7 @@
 Ihe na-esote bụ nchịkọta nke ọtụtụ Zcon Vozes metụtara mgbasa ozi na ebe dị mfe ịchọta.
 
 # Zcon Ụda olu
-Zcon Vozes bụ nzukọ kwa afọ nke [Zcash Brazil](https://zcashbr.com/) [Zcashbrasil.com.br]](https://zcashbrasil.com.br/).
+Zcon Vozes bụ nzukọ kwa afọ nke [Zcash Brazil](https://zcashbr.com/) [Zcashbrasil.com.br](https://zcashbrasil.com.br/).
 
 ## Zcon Vozes Brasil
 

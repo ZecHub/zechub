@@ -41,7 +41,7 @@ O le ṣee lo bi boya a 2-ipo ilana, ibi ti awọn onisowo firanṣẹ ki o si g
 
 FROST ṣe aṣeyọri awọn ilọsiwaju ṣiṣe rẹ ni apakan nipasẹ gbigba ilana lati fagile niwaju olukopa ti ko tọ, ẹniti o jẹ idanimọ ati yọ kuro ninu awọn iṣẹ iwaju.
 
-Awọn ẹri aabo ti o fihan pe FROST ni aabo lodi si awọn ikọlu ifiranṣẹ ti o yan, ti o gba pe iṣoro logarithm iyatọ jẹ lile, ati pe alatako n ṣakoso awọn olukopa diẹ sii ju opin lọ, ni a pese [nibi]](https://eprint.iacr.org/2020/852.pdf#page=16).
+Awọn ẹri aabo ti o fihan pe FROST ni aabo lodi si awọn ikọlu ifiranṣẹ ti o yan, ti o gba pe iṣoro logarithm iyatọ jẹ lile, ati pe alatako n ṣakoso awọn olukopa diẹ sii ju opin lọ, ni a pese [nibi](https://eprint.iacr.org/2020/852.pdf#page=16).
 
 ### How does FROST work?
 
@@ -149,7 +149,7 @@ Nìkan nọmba ti o kere ju (t-out-of-n) ti awọn olukopa ti n ṣiṣẹ pap�
 
 [Shamir Ìjìnlẹ̀ pínpín - Explainer & Àpẹẹrẹ](https://www.geeksforgeeks.org/shamirs-secret-sharing-algorithm-cryptography/)
 
-[Àwòkẹ́kọ̀ọ́ Kúrú Nípa Àwọn Àmì Ọwọ́ Tí Wọ́n Fi Orí Íńtánẹ́ẹ̀tì Ṣe]](https://youtu.be/r9hJiDrtukI?t=19)
+[Àwòkẹ́kọ̀ọ́ Kúrú Nípa Àwọn Àmì Ọwọ́ Tí Wọ́n Fi Orí Íńtánẹ́ẹ̀tì Ṣe](https://youtu.be/r9hJiDrtukI?t=19)
 
 ___
 ___

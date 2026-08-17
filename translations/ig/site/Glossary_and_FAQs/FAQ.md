@@ -71,7 +71,7 @@ Zcash anaghị eme **not**:
 - Chebe megide correlations na uzo azụmahịa
 - Zoro adreesị IP
 
-[Ihe Ndị Dị n'Ebe E Chebere Ihe Ndị Dị Ndụ]](https://electriccoin.co/blog/shielded-ecosystem)
+[Ihe Ndị Dị n'Ebe E Chebere Ihe Ndị Dị Ndụ](https://electriccoin.co/blog/shielded-ecosystem)
 </div>
 
 ## Echiche ụfọdụ na-ezighị ezi ndị a na-enwekarị

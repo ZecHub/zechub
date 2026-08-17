@@ -122,7 +122,7 @@ Votre communauté peut :
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône liens de chaîne"/> Liens connexes
 
 - [Confidentialité - Bonnes pratiques](/privacy/best-practices)
-- [Envoyer de l’argent sans lier son identité](/use-cases/send-money-without-linking-identity)
+- [Envoyer de l’argent sans lier son identité](/zcash-use-cases/send-money-without-linking-identity)
  
 
 <br/>
@@ -137,4 +137,4 @@ Vous comprenez comment gérer des fonds partagés de manière privée.
 
 ## Prochaine étape
 
-- [Configuration de confidentialité pour journaliste](/use-cases/journalist-privacy-setup)
+- [Configuration de confidentialité pour journaliste](/zcash-use-cases/journalist-privacy-setup)

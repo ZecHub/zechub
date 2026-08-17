@@ -126,5 +126,5 @@ Zcashは以下を可能にする：
 
 ## 次のステップ
 
-- [プライベートコミュニティ財産を運用する](/use-cases/private-community-treasury)
+- [プライベートコミュニティ財産を運用する](/zcash-use-cases/private-community-treasury)
 <br/>

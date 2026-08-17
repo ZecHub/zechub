@@ -7,7 +7,7 @@
 Abaixo está uma lista de tutoriais de carteiras que podem ajudá-lo a começar com ZEC.
 
 
-- Carteira Zashi 
+- Carteira Zodl
 
 [![Miniatura do Vídeo](/content-images/hqdefault-a4a2a5de7f.webp)](https://www.youtube.com/watch?v=G92zBIr-Wms)
 

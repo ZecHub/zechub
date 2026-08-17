@@ -64,8 +64,7 @@ Voici un tutoriel expliquant comment blinder votre ZEC d’une adresse transpare
 </div>
 
 
----
-Voici un tutoriel expliquant comment acheter du ZEC sur Coinbase et l’envoyer vers Zashi.
+Voici un tutoriel expliquant comment acheter du ZEC sur Coinbase et l’envoyer vers ZODL.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

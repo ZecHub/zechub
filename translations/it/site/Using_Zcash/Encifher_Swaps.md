@@ -50,8 +50,8 @@ Vai alla sezione **Involucro**. Scegli **SOL** o **USDC**, inserisci l'importo e
 
 ---
 
-### Fase 3: Preparare il portafoglio Zashi
-Scarica [**Zashi**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn), il portafoglio Zcash ufficiale di Electric Coin Co. Copia il tuo **Unified Address** dalla scheda Receive: supporta sia lo ZEC trasparente che quello schermato. Salva la tua frase iniziale in modo sicuro prima di procedere.  
+### Fase 3: Preparare il portafoglio Zodl  
+Scarica [**Zodl**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn), il portafoglio Zcash ufficiale di Electric Coin Co. Copia il tuo **Unified Address** dalla scheda Receive - supporta sia ZEC trasparente che ZEC schermato. Salva la tua seed phrase in modo sicuro prima di procedere.
 
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)
@@ -60,7 +60,7 @@ Scarica [**Zashi**](https://www.google.com/url?sa=t&source=web&rct=j&opi=8997844
 ---
 
 ### Passo 4: Scambiare privatamente
-Torna su **encrypt.trade**, vai su **Swap**. Seleziona **eSOL/eUSDC -> ZEC**, incolla il tuo indirizzo ZEC, controlla i dettagli e conferma.
+Torna su **encrypt.trade**, vai su **Swap**. Seleziona **eSOL/eUSDC -> ZEC**, incolla il tuo indirizzo Zodl, controlla i dettagli e conferma.
 
 
 
@@ -72,7 +72,7 @@ Torna su **encrypt.trade**, vai su **Swap**. Seleziona **eSOL/eUSDC -> ZEC**, in
 ![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
-Il motore **NEAR Intents** gestisce automaticamente il routing cross-chain, consegnando **ZEC** direttamente al tuo portafoglio Zashi in pochi secondi.  
+Il motore **NEAR Intents** gestisce automaticamente il routing cross-chain, consegnando **ZEC** direttamente al tuo portafoglio Zodl in pochi secondi.
 
 
 
@@ -81,7 +81,7 @@ Il motore **NEAR Intents** gestisce automaticamente il routing cross-chain, cons
 ---
 
 ### Fase 5: Shielda e mantieni la tua privacy
-Una volta ricevuto, usa l'opzione **Shield** di Zashi per spostare il tuo ZEC in un pool schermato per ottenere la massima privacy. Verifica sempre i link, evita di riutilizzare gli indirizzi e testa prima piccole quantità.  
+Una volta ricevuto, usa l'opzione **Shield** di Zodl per spostare il tuo ZEC nel pool schermato per ottenere la massima privacy. Verifica sempre i link, evita di riutilizzare gli indirizzi e testa prima piccole quantità.
 
 ---
 

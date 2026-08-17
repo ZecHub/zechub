@@ -1,11 +1,11 @@
----
 ## [ZODL](https://zodl.com)
 ![logo](/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp "ZODL")
 - Устройства: Мобильные
 - Операционная система: Android | iOS
-- Поддержка кошелька: Seed Phrase | Viewing Key | Unified Address | Аппаратный
+- Поддержка кошелька: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Пулы: Прозрачный | Sapling | Orchard
-- Функции: Адресная книга | CrossPay | Near Intents | Платежи Flexa | Мультиподпись | Запрос платежа | Shielded Memo | Расходование до синхронизации | TEX Address | Поддержка Tor | F-droid
+- Функции: Адресная книга | CrossPay | Near Intents | Flexa Payments | Мультиподпись | Запрос платежа | Защищённое примечание | Трата до синхронизации | TEX-адрес | Поддержка Tor | F-droid
+- Ironwood: Готов
 
 ---
 
@@ -13,9 +13,10 @@
 ![logo](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
 - Устройства: Мобильные | Настольные
 - Операционная система: Android | iOS | Windows | Linux | macOS
-- Поддержка кошелька: Seed Phrase | Viewing Key | Unified Address | Аппаратный
+- Поддержка кошелька: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Пулы: Прозрачный | Sapling | Orchard
-- Функции: Адресная книга | Холодное хранение | Diversified Address | Запрос платежа | Перевод между пулами | Shielded Memo | TEX Address | Голосование | WarpSync
+- Функции: Адресная книга | Холодное хранение | Диверсифицированный адрес | Запрос платежа | Перевод между пулами | Защищённое примечание | TEX-адрес | Голосование | WarpSync
+- Ironwood: Не готов
 
 ---
 
@@ -25,7 +26,7 @@
 - Операционная система: Android | iOS | Windows | Linux | macOS
 - Поддержка кошелька: Seed Phrase | Viewing Key | Unified Address
 - Пулы: Sapling | Orchard
-- Функции: Бот Discord
+- Функции: Discord-бот
 
 ---
 
@@ -35,7 +36,8 @@
 - Операционная система: Android | iOS | Windows | Linux
 - Поддержка кошелька: Seed Phrase | Viewing Key | Unified Address
 - Пулы: Прозрачный | Sapling | Orchard
-- Функции: Адресная книга | Финансовая аналитика | Запрос платежа | PepperSync | Shielded Memo | Поддержка тестовой сети
+- Функции: Адресная книга | Финансовая аналитика | Запрос платежа | PepperSync | Защищённое примечание | Поддержка Testnet
+- Ironwood: Готов
 
 ---
 
@@ -45,7 +47,7 @@
 - Операционная система: Android | iOS
 - Поддержка кошелька: Seed Phrase | Unified Address
 - Пулы: Прозрачный | Sapling
-- Функции: Автоматическое экранирование | DEX-обмены | Мультивалютность | Shielded Memo | Расходование до синхронизации
+- Функции: Автоматическое экранирование | DEX-обмены | Мультивалютность | Защищённое примечание | Трата до синхронизации
 
 ---
 
@@ -55,7 +57,8 @@
 - Операционная система: Android | iOS
 - Поддержка кошелька: Seed Phrase | Unified Address
 - Пулы: Прозрачный | Sapling | Orchard
-- Функции: DEX-обмены | Мультивалютность | Расходование до синхронизации
+- Функции: DEX-обмены | Мультивалютность | Трата до синхронизации
+- Ironwood: Готов
 
 ---
 
@@ -65,7 +68,7 @@
 - Операционная система: Android | iOS | Windows
 - Поддержка кошелька: Seed Phrase | Viewing Key | Unified Address
 - Пулы: Прозрачный | Sapling | Orchard
-- Функции: Адресная книга | Проверка адреса | Автоматическое экранирование | Diversified Address | Запрос платежа | Shielded Memo | TEX Address | Поддержка тестовой сети
+- Функции: Адресная книга | Проверка адреса | Автоматическое экранирование | Диверсифицированный адрес | Запрос платежа | Защищённое примечание | TEX-адрес | Поддержка Testnet
 
 ---
 
@@ -73,9 +76,10 @@
 ![logo](/content-images/zkool-1-22ab388e65.webp "Zkool")
 - Устройства: Мобильные | Настольные
 - Операционная система: Android | iOS | Windows | Linux
-- Поддержка кошелька: Seed Phrase | Viewing Key | Unified Address | Аппаратный
+- Поддержка кошелька: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Пулы: Прозрачный | Sapling | Orchard
-- Функции: Ротация адресов | Широкая поддержка ключей | Зашифрованный экспорт | FROST Multisig | Синхронизация нескольких аккаунтов | Shielded Memo | Поддержка тестовой сети
+- Функции: Ротация адресов | Широкая поддержка ключей | Зашифрованный экспорт | FROST Multisig | Синхронизация нескольких аккаунтов | Защищённое примечание | Поддержка Testnet
+- Ironwood: Готов
 
 ---
 
@@ -85,8 +89,9 @@
 - Операционная система: Android | iOS | Windows | Linux | macOS
 - Поддержка кошелька: Seed Phrase | Viewing Key | Unified Address
 - Пулы: Прозрачный | Sapling | Orchard
-- Функции: Адресная книга | Ротация адресов | Автоматическое экранирование | DEX-обмены | Мультивалютность | Shielded Memo | Поддержка Tor
-
+- Функции: Адресная книга | Ротация адресов | Автоматическое экранирование | DEX-обмены | Мультивалютность | Защищённое примечание | Поддержка Tor
+- Ironwood: Готов
+  
 ---
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
@@ -95,7 +100,7 @@
 - Операционная система: Windows | Linux | macOS
 - Поддержка кошелька: Seed Phrase | Viewing Key | Unified Address | Полный узел
 - Пулы: Прозрачный | Sapling | Orchard
-- Функции: Адресная книга | Графический интерфейс | Shielded Memo | Поддержка тестовой сети
+- Функции: Адресная книга | Графический интерфейс | Защищённое примечание | Поддержка Testnet
 
 ---
 
@@ -105,7 +110,8 @@
 - Операционная система: Windows | Linux | macOS
 - Поддержка кошелька: Seed Phrase | Viewing Key | Unified Address | Полный узел
 - Пулы: Прозрачный | Sapling | Orchard
-- Функции: Интерфейс командной строки | PepperSync | Shielded Memo | Поддержка тестовой сети 
+- Функции: Интерфейс командной строки | PepperSync | Защищённое примечание | Поддержка Testnet 
+- Ironwood: В процессе
 
 ---
 
@@ -115,7 +121,8 @@
 - Операционная система: Windows | Linux | macOS
 - Поддержка кошелька: Seed Phrase | Viewing Key | Unified Address | Полный узел
 - Пулы: Прозрачный | Sapling | Orchard
-- Функции: Альфа-версия | Интерфейс JSON-RPC | Shielded Memo | Поддержка тестовой сети
+- Функции: Альфа-релиз | Интерфейс JSON-RPC | Защищённое примечание | Поддержка Testnet
+- Ironwood: Готов
 
 ---
 
@@ -125,7 +132,8 @@
 - Операционная система: Windows | Linux | macOS
 - Поддержка кошелька: Seed Phrase | Viewing Key | Unified Address | Полный узел
 - Пулы: Прозрачный | Sapling | Orchard
-- Функции: Интерфейс командной строки | Diversified Address | Shielded Memo | Поддержка тестовой сети
+- Функции: Интерфейс командной строки | Диверсифицированный адрес | Защищённое примечание | Поддержка Testnet
+- Ironwood: Не готов
 
 ---
 
@@ -135,7 +143,7 @@
 - Операционная система: Браузер
 - Поддержка кошелька: Seed Phrase | Unified Address
 - Пулы: Прозрачный | Orchard
-- Функции: Shielded Memo | Расходование до синхронизации | Поддержка тестовой сети
+- Функции: Защищённое примечание | Трата до синхронизации | Поддержка Testnet
 
 ---
 
@@ -203,9 +211,10 @@
 ![logo](/content-images/Keystone-1-8177a83308.webp "Keystone")
 - Устройства:
 - Операционная система:
-- Поддержка кошелька: Аппаратный | Unified Address
+- Поддержка кошелька: Hardware | Unified Address
 - Пулы: Прозрачный | Sapling | Orchard
 - Функции: Мультивалютность
+- Ironwood: Готов
 
 ---
 
@@ -213,9 +222,10 @@
 ![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
 - Устройства: 
 - Операционная система:
-- Поддержка кошелька: Аппаратный
+- Поддержка кошелька: Hardware
 - Пулы: Прозрачный 
 - Функции: Мультивалютность
+- Ironwood: В процессе
 
 ---
 
@@ -223,7 +233,7 @@
 ![logo](/content-images/safepalcard-176b24c751.webp "Safepal")
 - Устройства: Мобильные | Веб
 - Операционная система: Android | iOS | Браузер
-- Поддержка кошелька: Seed Phrase | Аппаратный
+- Поддержка кошелька: Seed Phrase | Hardware
 - Пулы: Прозрачный
 - Функции: Мультивалютность
 
@@ -233,7 +243,7 @@
 ![logo](/content-images/trezor1-5004075d27.webp "Trezor")
 - Устройства:
 - Операционная система:
-- Поддержка кошелька: Аппаратный
+- Поддержка кошелька: Hardware
 - Пулы: Прозрачный
 - Функции: Мультивалютность
 
@@ -252,9 +262,10 @@
 ![logo](/content-images/Vizorphoto-6ade2417a5.webp "Vizor")
 - Устройства: Настольные | Мобильные
 - Операционная система: macOS
-- Поддержка кошелька: Seed Phrase | Unified Address | Аппаратный
+- Поддержка кошелька: Seed Phrase | Unified Address | Hardware
 - Пулы: Прозрачный | Sapling | Orchard
-- Функции: Автоматическое экранирование | Shielded Memo | Поддержка тестовой сети | FROST Multisig
+- Функции: Автоматическое экранирование | Защищённое примечание | Поддержка Testnet | FROST Multisig
+- Ironwood: Готов
 
 ---
 
@@ -263,7 +274,8 @@
 - Устройства: Веб | Настольные
 - Операционная система: Браузер
 - Пулы: Shielded | Прозрачный
-- Функции: Расширение браузера | Shielded-транзакции | Кроссчейн-обмены | Кредитование и заимствование | Подключения к DApp | Rhea
+- Функции: Расширение браузера | Защищённые транзакции | Кроссчейн-обмены | Кредитование и заимствование | Подключения к DApp | Rhea
+- Ironwood: Готов
 
 ---
 
@@ -271,16 +283,61 @@
 ![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
 - Устройства: Веб | Настольные
 - Операционная система: Браузер | Windows | macOS
-- Поддержка кошелька: Seed Phrase | Внешний кошелёк | Адрес для получения | QR-код | Аппаратный
+- Поддержка кошелька: Seed Phrase | Внешний кошелёк | Адрес получения | QR-код | Hardware
 - Пулы: Sapling | Прозрачный
-- Функции: Мультивалютность | Near Intents | Maya DEX | Без KYC | Некастодиальный | Веб-приложение | Настольное приложение | Shielded ZEC | AnyPay
+- Функции: Мультивалютность | Near Intents | Maya DEX | Без KYC | Некастодиальный | Веб-приложение | Настольное приложение | Защищённый ZEC | AnyPay
+- Ironwood: Готов
 
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
-![logo](/content-images/zapp-1-a6fa468edb.webp "Zapp")
+![logo](/content-images/zapp.webp "Zapp")
 - Устройства: Мобильные 
 - Операционная система: Android 
 - Поддержка кошелька: Unified Address 
 - Пулы: Прозрачный | Sapling | Orchard
 - Функции: Мессенджер со сквозным шифрованием | NEAR Intents | P2P.me Offramp | Бета
+- Ironwood: Готов
+  
+---
+
+## [Zecd](https://zecd.org/quickstart.html)
+![logo](/content-images/zecd.webp "Zecd")
+- Устройства: Настольные 
+- Операционная система: Linux
+- Поддержка кошелька: Seed Phrase | Viewing Key | Unified Address | Private Key | Spending Key | Резервная копия кошелька / экспорт ключа | Кошелёк полного узла 
+- Пулы: Прозрачный | Sapling | Orchard | Sprout
+- Функции: Зашифрованное примечание | Резервная копия кошелька (данные кошелька) | RPC-интерфейс | Защищённое примечание | Управление приватными ключами
+- Ironwood: Готов
+
+---
+
+## [Zend:Zcash Wallet](https://justzend.com/)
+![logo](/content-images/zend.webp "Zend:Zcash Wallet")
+- Устройства: Мобильные | Настольные
+- Операционная система: iOS | macOS
+- Поддержка кошелька: Seed Phrase | Passkey | Unified Address | Private Key | Кошелёк самостоятельного хранения 
+- Пулы: Прозрачный | Sapling | Orchard 
+- Функции: Самостоятельное хранение | Приватный ключ хранится локально | KYC не требуется | Отсутствие зависимости от сервера Zend для активности кошелька | Зашифрованная защищённая транзакция | Восстановление seed-фразы | Защищённое примечание | Аутентификация Passkey
+
+---
+
+## [Nozy Wallet](https://github.com/LEONINE-DAO/Nozy-wallet)
+![logo](/content-images/nozy.webp "Nozy Wallet")
+- Устройства: Настольные | Браузер
+- Операционная система: Linux | iOS | macOS
+- Поддержка кошелька: Seed Phrase | Viewing Key | Unified Address | Spending Key | HD-кошелёк | Управление приватными ключами 
+- Пулы: Прозрачный | Sapling | Orchard 
+- Функции: Адресная книга | Поддержка Tor | Поддержка I2P | Интеграция Zebra/Zebrad | История транзакций | Экспорт транзакций | Локальное вычисление witness | Динамическая комиссия (ZIP-317) | Совместимость с NU6.2 | Поддержка миграции NU6.3 | Защищённое примечание
+- Ironwood: Готов
+
+---
+
+## [Zipher](https://github.com/atmospherelabs-dev/zipher-app)
+![logo](/content-images/zipher.webp "Zipher")
+- Устройства: Мобильные | Настольные 
+- Операционная система: Android | Windows | Linux (CLI и MCP Server) | iOS | macOS
+- Поддержка кошелька: Seed Phrase | Viewing Key | Unified Address | Кошелёк с несколькими аккаунтами | Кошелёк самостоятельного хранения | Управление приватными ключами | Поддержка агентского кошелька
+- Пулы: Прозрачный | Sapling | Orchard 
+- Функции: NEAR Intents | Запросы платежа | Защищённое примечание | Защищённые транзакции по умолчанию | Testnet | Кроссчейн-обмен | CipherPay | Viewing Key | AI-агент | MCP Server | CLI-кошелёк | FROST | Бета 
+- Ironwood: В процессе

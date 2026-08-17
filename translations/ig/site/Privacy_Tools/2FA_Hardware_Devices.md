@@ -58,7 +58,7 @@ Ihe mkpuchi plastik ahụ siri ike ma dịtụ ike, mana ị ga-achọ izere iti
 
 **CryptoTrust NaanịKey**
 
-[CryptoTrust OnlyKey]](/content-images/13be6ecc-227e-498c-8a36-6d52c023cd78-06e3e924dc.webp)
+[CryptoTrust OnlyKey](/content-images/13be6ecc-227e-498c-8a36-6d52c023cd78-06e3e924dc.webp)
 
 As its name suggests, OnlyKey has some nifty features its rivals lack. Thanks to an onboard keypad that can bypass keyloggers that find their way onto computers, it can keep online accounts safe if a computer or website is compromised. It supports multiple methods of 2FA, including FIDO 2 U2F, Yubico OTP, and TOTP.  
 While it is not the best password manager for mainstream purposes, OnlyKey can store 24 OTP accounts, 24 passwords, and 24 usernames/URLs, on a single key. This feature is pretty handy if you're not keen on memorizing multiple passwords and want the key to handle it for you.  

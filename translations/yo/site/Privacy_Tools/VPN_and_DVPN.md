@@ -41,7 +41,7 @@ Nigbati o ba yan iṣẹ VPN, o ṣe pataki lati ro awọn ifosiwewe aabo wọny
 
 Zcash (ZEC) is a cryptocurrency designed for enhanced privacy, making it a favored choice for individuals seeking anonymity in their financial transactions. While not all VPN services accept Zcash directly, some may accept cryptocurrency payments through intermediary services. However, it's essential to check with the VPN provider directly for the most up-to-date payment options. Here are a few VPN services known to accept cryptocurrency payments:
 
-1. [Mullvad VPN]](https://mullvad.net/en)
+1. [Mullvad VPN](https://mullvad.net/en)
    
    Mullvad VPN jẹ iṣẹ VPN ti o gbajumọ pupọ ti a mọ fun ifaramọ to lagbara si aṣiri olumulo ati aabo. O jẹ ọkan ninu awọn olupese VPN diẹ ti o ṣe itẹwọgba cryptocurrency, pẹlu 
    Zcash, bi ọna isanwo. Awọn ẹya ara ẹrọ pataki ti Mullvad pẹlu:
@@ -58,7 +58,7 @@ Zcash (ZEC) is a cryptocurrency designed for enhanced privacy, making it a favor
 
    __Zcash Payment__: Mullvad gba Zcash gẹgẹbi aṣayan isanwo, gbigba awọn olumulo laaye lati sanwo fun alabapin wọn pẹlu aṣiri ti o ni ilọsiwaju.Mullvad VPN.
 
-3. [__Nym VPN (dVPN) ]](https://nymtech.net/)
+3. [__Nym VPN (dVPN) ](https://nymtech.net/)
    
    Nym VPN jẹ VPN ti ko ni idojukọ (dVPN) ti o fojusi lori imudarasi aṣiri olumulo ati aabo nipasẹ nẹtiwọọki aṣiri-aarin. NymVPN ṣiṣẹ yatọ si awọn VPNs ibile nipasẹ 
    lilo a mixnet, ibi ti olumulo ijabọ ti wa ni routed nipasẹ a nẹtiwọki ti awọn nodes.

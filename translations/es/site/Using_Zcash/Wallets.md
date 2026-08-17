@@ -2,9 +2,10 @@
 ![logo](/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp "ZODL")
 - Dispositivos: Móvil
 - Sistema operativo: Android | iOS
-- Compatibilidad de wallet: Frase semilla | Viewing Key | Unified Address | Hardware
+- Soporte de billetera: Frase semilla | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard
-- Funciones: Libreta de direcciones | CrossPay | Near Intents | Pagos con Flexa | Multisignature | Solicitud de pago | Memo blindado | Gastar antes de sincronizar | Dirección TEX | Compatibilidad con Tor | F-droid
+- Funciones: Libreta de direcciones | CrossPay | Near Intents | Pagos Flexa | Multifirma | Solicitud de pago | Memo blindado | Gastar antes de sincronizar | Dirección TEX | Soporte de Tor | F-droid
+- Ironwood: Listo
 
 ---
 
@@ -12,9 +13,10 @@
 ![logo](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
 - Dispositivos: Móvil | Escritorio
 - Sistema operativo: Android | iOS | Windows | Linux | macOS
-- Compatibilidad de wallet: Frase semilla | Viewing Key | Unified Address | Hardware
+- Soporte de billetera: Frase semilla | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard
 - Funciones: Libreta de direcciones | Almacenamiento en frío | Dirección diversificada | Solicitud de pago | Transferencia entre pools | Memo blindado | Dirección TEX | Votación | WarpSync
+- Ironwood: No listo
 
 ---
 
@@ -22,7 +24,7 @@
 ![logo](/content-images/Dizzy-3-1a90249591.webp "Dizzy")
 - Dispositivos: Móvil | Escritorio
 - Sistema operativo: Android | iOS | Windows | Linux | macOS
-- Compatibilidad de wallet: Frase semilla | Viewing Key | Unified Address
+- Soporte de billetera: Frase semilla | Viewing Key | Unified Address
 - Pools: Sapling | Orchard
 - Funciones: Bot de Discord
 
@@ -32,9 +34,10 @@
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo!")
 - Dispositivos: Móvil | Escritorio
 - Sistema operativo: Android | iOS | Windows | Linux
-- Compatibilidad de wallet: Frase semilla | Viewing Key | Unified Address
+- Soporte de billetera: Frase semilla | Viewing Key | Unified Address
 - Pools: Transparent | Sapling | Orchard
-- Funciones: Libreta de direcciones | Información financiera | Solicitud de pago | PepperSync | Memo blindado | Compatibilidad con testnet
+- Funciones: Libreta de direcciones | Información financiera | Solicitud de pago | PepperSync | Memo blindado | Soporte de testnet
+- Ironwood: Listo
 
 ---
 
@@ -42,9 +45,9 @@
 ![logo](/content-images/image-2024-11-28-091312254-b2389ad332.webp "Edge")
 - Dispositivos: Móvil
 - Sistema operativo: Android | iOS
-- Compatibilidad de wallet: Frase semilla | Unified Address
+- Soporte de billetera: Frase semilla | Unified Address
 - Pools: Transparent | Sapling
-- Funciones: Blindaje automático | Swaps DEX | Multimoneda | Memo blindado | Gastar antes de sincronizar
+- Funciones: Blindaje automático | Intercambios DEX | Multimoneda | Memo blindado | Gastar antes de sincronizar
 
 ---
 
@@ -52,9 +55,10 @@
 ![logo](/content-images/image-2024-11-28-091200540-815817fda7.webp "Unstoppable")
 - Dispositivos: Móvil
 - Sistema operativo: Android | iOS
-- Compatibilidad de wallet: Frase semilla | Unified Address
+- Soporte de billetera: Frase semilla | Unified Address
 - Pools: Transparent | Sapling | Orchard
-- Funciones: Swaps DEX | Multimoneda | Gastar antes de sincronizar
+- Funciones: Intercambios DEX | Multimoneda | Gastar antes de sincronizar
+- Ironwood: Listo
 
 ---
 
@@ -62,9 +66,9 @@
 ![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
 - Dispositivos: Móvil | Escritorio
 - Sistema operativo: Android | iOS | Windows
-- Compatibilidad de wallet: Frase semilla | Viewing Key | Unified Address
+- Soporte de billetera: Frase semilla | Viewing Key | Unified Address
 - Pools: Transparent | Sapling | Orchard
-- Funciones: Libreta de direcciones | Verificación de dirección | Blindaje automático | Dirección diversificada | Solicitud de pago | Memo blindado | Dirección TEX | Compatibilidad con testnet
+- Funciones: Libreta de direcciones | Verificación de dirección | Blindaje automático | Dirección diversificada | Solicitud de pago | Memo blindado | Dirección TEX | Soporte de testnet
 
 ---
 
@@ -72,9 +76,10 @@
 ![logo](/content-images/zkool-1-22ab388e65.webp "Zkool")
 - Dispositivos: Móvil | Escritorio
 - Sistema operativo: Android | iOS | Windows | Linux
-- Compatibilidad de wallet: Frase semilla | Viewing Key | Unified Address | Hardware
+- Soporte de billetera: Frase semilla | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard
-- Funciones: Rotación de direcciones | Amplia compatibilidad de claves | Exportaciones cifradas | FROST Multisig | Sincronización de múltiples cuentas | Memo blindado | Compatibilidad con testnet
+- Funciones: Rotación de direcciones | Amplio soporte de claves | Exportaciones cifradas | FROST Multisig | Sincronización de múltiples cuentas | Memo blindado | Soporte de testnet
+- Ironwood: Listo
 
 ---
 
@@ -82,19 +87,20 @@
 ![logo](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
 - Dispositivos: Móvil | Escritorio 
 - Sistema operativo: Android | iOS | Windows | Linux | macOS
-- Compatibilidad de wallet: Frase semilla | Viewing Key | Unified Address
+- Soporte de billetera: Frase semilla | Viewing Key | Unified Address
 - Pools: Transparent | Sapling | Orchard
-- Funciones: Libreta de direcciones | Rotación de direcciones | Blindaje automático | Swaps DEX | Multimoneda | Memo blindado | Compatibilidad con Tor
-
+- Funciones: Libreta de direcciones | Rotación de direcciones | Blindaje automático | Intercambios DEX | Multimoneda | Memo blindado | Soporte de Tor
+- Ironwood: Listo
+  
 ---
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
 ![logo](/content-images/zenith-2-cea75a34fd.webp "Zenith")
 - Dispositivos: Escritorio
 - Sistema operativo: Windows | Linux | macOS
-- Compatibilidad de wallet: Frase semilla | Viewing Key | Unified Address | Full Node
+- Soporte de billetera: Frase semilla | Viewing Key | Unified Address | Nodo completo
 - Pools: Transparent | Sapling | Orchard
-- Funciones: Libreta de direcciones | Interfaz gráfica | Memo blindado | Compatibilidad con testnet
+- Funciones: Libreta de direcciones | Interfaz gráfica | Memo blindado | Soporte de testnet
 
 ---
 
@@ -102,9 +108,10 @@
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo-CLI")
 - Dispositivos: Escritorio
 - Sistema operativo: Windows | Linux | macOS
-- Compatibilidad de wallet: Frase semilla | Viewing Key | Unified Address | Full Node
+- Soporte de billetera: Frase semilla | Viewing Key | Unified Address | Nodo completo
 - Pools: Transparent | Sapling | Orchard
-- Funciones: Interfaz de línea de comandos | PepperSync | Memo blindado | Compatibilidad con testnet 
+- Funciones: Interfaz de línea de comandos | PepperSync | Memo blindado | Soporte de testnet 
+- Ironwood: En progreso
 
 ---
 
@@ -112,9 +119,10 @@
 ![logo](/content-images/Brandmark-Yellow-2eca7f6f68.webp "Zallet")
 - Dispositivos: Escritorio
 - Sistema operativo: Windows | Linux | macOS
-- Compatibilidad de wallet: Frase semilla | Viewing Key | Unified Address | Full Node
+- Soporte de billetera: Frase semilla | Viewing Key | Unified Address | Nodo completo
 - Pools: Transparent | Sapling | Orchard
-- Funciones: Versión alpha | Interfaz JSON-RPC | Memo blindado | Compatibilidad con testnet
+- Funciones: Versión alfa | Interfaz JSON-RPC | Memo blindado | Soporte de testnet
+- Ironwood: Listo
 
 ---
 
@@ -122,9 +130,10 @@
 ![logo](/content-images/zcashd-92df3291ad.webp "Zcashd")
 - Dispositivos: Escritorio
 - Sistema operativo: Windows | Linux | macOS
-- Compatibilidad de wallet: Frase semilla | Viewing Key | Unified Address | Full Node
+- Soporte de billetera: Frase semilla | Viewing Key | Unified Address | Nodo completo
 - Pools: Transparent | Sapling | Orchard
-- Funciones: Interfaz de línea de comandos | Dirección diversificada | Memo blindado | Compatibilidad con testnet
+- Funciones: Interfaz de línea de comandos | Dirección diversificada | Memo blindado | Soporte de testnet
+- Ironwood: No listo
 
 ---
 
@@ -132,9 +141,9 @@
 ![logo](/content-images/image-2024-01-13-170934865-733c5d91c6.webp "Brave")
 - Dispositivos: Web
 - Sistema operativo: Navegador
-- Compatibilidad de wallet: Frase semilla | Unified Address
+- Soporte de billetera: Frase semilla | Unified Address
 - Pools: Transparent | Orchard
-- Funciones: Memo blindado | Gastar antes de sincronizar | Compatibilidad con testnet
+- Funciones: Memo blindado | Gastar antes de sincronizar | Soporte de testnet
 
 ---
 
@@ -142,7 +151,7 @@
 ![logo](/content-images/metamask-25048569f6.webp  "Metamask")
 - Dispositivos: Web
 - Sistema operativo: Navegador
-- Compatibilidad de wallet: Frase semilla | Unified Address
+- Soporte de billetera: Frase semilla | Unified Address
 - Pools: Transparent | Sapling | Orchard
 - Funciones: Multimoneda
 
@@ -152,9 +161,9 @@
 ![logo](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
 - Dispositivos: Web 
 - Sistema operativo: Navegador
-- Compatibilidad de wallet: Frase semilla | Unified Address
+- Soporte de billetera: Frase semilla | Unified Address
 - Pools: Transparent | Sapling | Orchard
-- Funciones: Swaps DEX
+- Funciones: Intercambios DEX
 
 ---
 
@@ -162,7 +171,7 @@
 ![logo](/content-images/ssp-1-7d96e66117.webp "SSP Wallet")
 - Dispositivos: Móvil | Web
 - Sistema operativo: Android | iOS | Navegador
-- Compatibilidad de wallet: Frase semilla
+- Soporte de billetera: Frase semilla
 - Pools: Transparent
 - Funciones: Multimoneda
 
@@ -172,7 +181,7 @@
 ![logo](/content-images/trustwallet-bec43acb59.webp "Trust Wallet")
 - Dispositivos: Móvil | Web
 - Sistema operativo: Android | iOS | Navegador
-- Compatibilidad de wallet: Frase semilla
+- Soporte de billetera: Frase semilla
 - Pools: Transparent
 - Funciones: Multimoneda
 
@@ -182,7 +191,7 @@
 ![logo](/content-images/exoduscard-2f77769db0.webp "Exodus")
 - Dispositivos: Móvil | Escritorio | Web
 - Sistema operativo: Android | iOS | Windows | Linux | macOS | Navegador
-- Compatibilidad de wallet: Frase semilla
+- Soporte de billetera: Frase semilla
 - Pools: Transparent
 - Funciones: Multimoneda
 
@@ -192,7 +201,7 @@
 ![logo](/content-images/coinomicard-226bcbf876.webp "Coinomi")
 - Dispositivos: Móvil | Escritorio
 - Sistema operativo: Android | iOS | Windows
-- Compatibilidad de wallet: Frase semilla
+- Soporte de billetera: Frase semilla
 - Pools: Transparent
 - Funciones: Multimoneda
 
@@ -202,9 +211,10 @@
 ![logo](/content-images/Keystone-1-8177a83308.webp "Keystone")
 - Dispositivos:
 - Sistema operativo:
-- Compatibilidad de wallet: Hardware | Unified Address
+- Soporte de billetera: Hardware | Unified Address
 - Pools: Transparent | Sapling | Orchard
 - Funciones: Multimoneda
+- Ironwood: Listo
 
 ---
 
@@ -212,9 +222,10 @@
 ![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
 - Dispositivos: 
 - Sistema operativo:
-- Compatibilidad de wallet: Hardware
+- Soporte de billetera: Hardware
 - Pools: Transparent 
 - Funciones: Multimoneda
+- Ironwood: En progreso
 
 ---
 
@@ -222,7 +233,7 @@
 ![logo](/content-images/safepalcard-176b24c751.webp "Safepal")
 - Dispositivos: Móvil | Web
 - Sistema operativo: Android | iOS | Navegador
-- Compatibilidad de wallet: Frase semilla | Hardware
+- Soporte de billetera: Frase semilla | Hardware
 - Pools: Transparent
 - Funciones: Multimoneda
 
@@ -232,7 +243,7 @@
 ![logo](/content-images/trezor1-5004075d27.webp "Trezor")
 - Dispositivos:
 - Sistema operativo:
-- Compatibilidad de wallet: Hardware
+- Soporte de billetera: Hardware
 - Pools: Transparent
 - Funciones: Multimoneda
 
@@ -243,7 +254,7 @@
 - Dispositivos: Web | Móvil | Escritorio
 - Sistema operativo: Android | iOS | Windows | Linux | macOS | Navegador
 - Pools: Transparent
-- Funciones: Multimoneda | Aplicación web
+- Funciones: Multimoneda | App web
 
 ---
 
@@ -251,9 +262,10 @@
 ![logo](/content-images/Vizorphoto-6ade2417a5.webp "Vizor")
 - Dispositivos: Escritorio | Móvil
 - Sistema operativo: macOS
-- Compatibilidad de wallet: Frase semilla | Unified Address | Hardware
+- Soporte de billetera: Frase semilla | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard
-- Funciones: Blindaje automático | Memo blindado | Compatibilidad con testnet | FROST Multisig
+- Funciones: Blindaje automático | Memo blindado | Soporte de testnet | FROST Multisig
+- Ironwood: Listo
 
 ---
 
@@ -262,7 +274,8 @@
 - Dispositivos: Web | Escritorio
 - Sistema operativo: Navegador
 - Pools: Shielded | Transparent
-- Funciones: Extensión de navegador | Transacciones blindadas | Swaps cross-chain | Préstamos y préstamos de activos | Conexiones DApp | Rhea
+- Funciones: Extensión de navegador | Transacciones shielded | Intercambios cross-chain | Préstamos y empréstitos | Conexiones DApp | Rhea
+- Ironwood: Listo
 
 ---
 
@@ -270,16 +283,61 @@
 ![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
 - Dispositivos: Web | Escritorio
 - Sistema operativo: Navegador | Windows | macOS
-- Compatibilidad de wallet: Frase semilla | Wallet externa | Dirección de recepción | Código QR | Hardware
+- Soporte de billetera: Frase semilla | Wallet externa | Dirección de recepción | Código QR | Hardware
 - Pools: Sapling | Transparent
-- Funciones: Multimoneda | Near Intents | Maya DEX | Sin KYC | Sin custodia | Aplicación web | Aplicación de escritorio | ZEC blindado | AnyPay
+- Funciones: Multimoneda | Near Intents | Maya DEX | Sin KYC | Sin custodia | App web | App de escritorio | ZEC shielded | AnyPay
+- Ironwood: Listo
 
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
-![logo](/content-images/zapp-1-a6fa468edb.webp "Zapp")
+![logo](/content-images/zapp.webp "Zapp")
 - Dispositivos: Móvil 
 - Sistema operativo: Android 
-- Compatibilidad de wallet: Unified Address 
+- Soporte de billetera: Unified Address 
 - Pools: Transparent | Sapling | Orchard
-- Funciones: Messenger cifrado de extremo a extremo | NEAR Intents | P2P.me Offramp | Beta
+- Funciones: Mensajería cifrada de extremo a extremo | NEAR Intents | P2P.me Offramp | Beta
+- Ironwood: Listo
+  
+---
+
+## [Zecd](https://zecd.org/quickstart.html)
+![logo](/content-images/zecd.webp "Zecd")
+- Dispositivos: Escritorio 
+- Sistema operativo: Linux
+- Soporte de billetera: Frase semilla | Viewing Key | Unified Address | Clave privada | Spending Key | Respaldo de billetera / Exportación de claves | Billetera de nodo completo 
+- Pools: Transparent | Sapling | Orchard | Sprout
+- Funciones: Memo cifrado | Respaldo de billetera (datos de la billetera) | Interfaz RPC | Memo blindado | Gestión de claves privadas
+- Ironwood: Listo
+
+---
+
+## [Zend:Zcash Wallet](https://justzend.com/)
+![logo](/content-images/zend.webp "Zend:Zcash Wallet")
+- Dispositivos: Móvil | Escritorio
+- Sistema operativo: iOS | macOS
+- Soporte de billetera: Frase semilla | Passkey | Unified Address | Clave privada | Billetera de autocustodia 
+- Pools: Transparent | Sapling | Orchard 
+- Funciones: Autocustodia | Clave privada almacenada localmente | No requiere KYC | Sin dependencia del servidor de Zend para la actividad de la billetera | Transacción shielded cifrada | Recuperación de semilla | Memo blindado | Autenticación con Passkey
+
+---
+
+## [Nozy Wallet](https://github.com/LEONINE-DAO/Nozy-wallet)
+![logo](/content-images/nozy.webp "Nozy Wallet")
+- Dispositivos: Escritorio | Navegador
+- Sistema operativo: Linux | iOS | macOS
+- Soporte de billetera: Frase semilla | Viewing Key | Unified Address | Spending Key | Billetera HD | Gestión de claves privadas 
+- Pools: Transparent | Sapling | Orchard 
+- Funciones: Libreta de direcciones | Soporte de Tor | Soporte de I2P | Integración con Zebra/Zebrad | Historial de transacciones | Exportación de transacciones | Derivación local de witnesses | Comisión dinámica (ZIP-317) | Compatibilidad con NU6.2 | Soporte de migración a NU6.3 | Memo blindado
+- Ironwood: Listo
+
+---
+
+## [Zipher](https://github.com/atmospherelabs-dev/zipher-app)
+![logo](/content-images/zipher.webp "Zipher")
+- Dispositivos: Móvil | Escritorio 
+- Sistema operativo: Android | Windows | Linux (CLI and MCP Server) | iOS | macOS
+- Soporte de billetera: Frase semilla | Viewing Key | Unified Address | Billetera multicuenta | Billetera de autocustodia | Gestión de claves privadas | Soporte para Agent Wallet
+- Pools: Transparent | Sapling | Orchard 
+- Funciones: NEAR Intents | Solicitudes de pago | Memo blindado | Transacción shielded por defecto | Testnet | Intercambio cross-chain | CipherPay | Viewing Key | Agente de IA | Servidor MCP | CLI Wallet | FROST | Beta 
+- Ironwood: En progreso

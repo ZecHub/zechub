@@ -33,15 +33,15 @@ Kimliğinizi veya finansal geçmişinizi açığa çıkarmadan nasıl fon kabul 
 Fon gönderirken cüzdanınızı, kimliğinizi veya işlem grafiğinizi açığa çıkarmaktan kaçının.
 
 
-###  [Serbest Çalışanlar İçin Gizlilik Kurulumu](/zcash-use-cases/freelancer-privacy-setup)  
+###  [Serbest Çalışanlar İçin Gizlilik Kurulumu](/zcash-use-cases/freelance-privacy-setup)  
 Müşterilerinizi ve gelirinizi gizli tutarken Zcash ile ödeme alın.
 
 
-###  [Bir Satıcı Olarak Ödeme Kabul Edin](/zcash-use-cases/accept-payment-as-a-merchant)  
+###  [Bir Satıcı Olarak Ödeme Kabul Edin](/zcash-use-cases/accept-payments-as-a-merchant)  
 Shielded adres kullanarak ödeme kabul edin ve müşteri işlem verilerini açığa çıkarmaktan kaçının
 
 
-###  [Özel Bir Topluluk Hazinesi Yönetin](/zcash-use-cases/run-a-private-community-treasury)
+###  [Özel Bir Topluluk Hazinesi Yönetin](/zcash-use-cases/private-community-treasury)
 Ortak fonları tutmak için shielded adresler kullanın ve bakiyelerin ve işlemlerin görünürlüğünü sınırlayın
 
 ###  [Gazeteciler İçin Gizlilik Kurulumu](/zcash-use-cases/journalist-privacy-setup)   

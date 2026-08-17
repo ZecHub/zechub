@@ -135,5 +135,5 @@ Sie können jetzt private Zahlungsabläufe für Ihr Geschäft umsetzen.
 
 ## Nächster Schritt
 
-- [Eine private Community-Treasury betreiben](/use-cases/private-community-treasury)
+- [Eine private Community-Treasury betreiben](/zcash-use-cases/private-community-treasury)
 <br/>

@@ -122,7 +122,7 @@ Zcash дозволяє спільнотам:
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Пов’язане
 
 - [Приватність - Найкращі практики](/privacy/best-practices)
-- [Надсилайте гроші, не пов’язуючи особистість](/use-cases/send-money-without-linking-identity)
+- [Надсилайте гроші, не пов’язуючи особистість](/zcash-use-cases/send-money-without-linking-identity)
  
 
 <br/>
@@ -137,4 +137,4 @@ Zcash дозволяє спільнотам:
 
 ## Наступний крок
 
-- [Налаштування приватності для журналістів](/use-cases/journalist-privacy-setup)
+- [Налаштування приватності для журналістів](/zcash-use-cases/journalist-privacy-setup)

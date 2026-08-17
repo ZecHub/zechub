@@ -35,15 +35,15 @@
 
 ---
 
-### 단계 3: Zashi 지갑 준비  
-[**Zashi**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn)를 다운로드하세요. 이는 Electric Coin Co.에서 제공하는 공식 Zcash 지갑입니다. 수신 탭에서 **Unified Address**를 복사합니다. 이 주소는 투명하고 보호된 ZEC 모두 지원합니다. 계속하기 전에 시드 구문을 안전하게 저장하세요.  
+### 단계 3: Zodl 지갑 준비  
+[**Zodl**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn)를 다운로드하세요. 이는 Electric Coin Co.에서 제공하는 공식 Zcash 지갑입니다. 수신 탭에서 **Unified Address**를 복사합니다. 이 주소는 투명하고 보호된 ZEC 모두를 지원합니다. 계속하기 전에 시드 구문을 안전하게 저장하세요.
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)
 
 ---
 
-### 단계 4: 암호화된 스왑  
-다시 **encrypt.trade**로 돌아가 **Swap**으로 이동합니다. **eSOL/eUSDC -> ZEC**을 선택하고, Zashi 주소를 붙여넣고 세부 정보를 확인한 후 확인합니다.  
+### 단계 4: 비공개로 스왑하기  
+다시 **encrypt.trade**로 돌아가 **Swap**으로 이동합니다. **eSOL/eUSDC -> ZEC**을 선택하고, Zodl 주소를 붙여넣고 세부 정보를 확인한 후 확인합니다.
 
 ![img8](/content-images/SJkI6pl0ge-9f93d8f34c.webp)
 
@@ -51,14 +51,14 @@
 
 ![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
-**NEAR Intents** 엔진이 자동으로 크로스체인 라우팅을 처리합니다. 몇 초 안에 **ZEC**가 바로 Zashi 지갑으로 전송됩니다.  
+**NEAR Intents** 엔진이 자동으로 크로스체인 라우팅을 처리합니다. 몇 초 안에 **ZEC**가 바로 ZODL 지갑으로 전송됩니다.
 
 ![img10](/content-images/S1h36Tg0xl-2d7dd0a495.webp)
 
 ---
 
 ### 단계 5: 보호하고 프라이버시 유지  
-수신 후, Zashi의 **Shield** 옵션을 사용하여 ZEC를 보호된 풀로 이동하여 최대한의 프라이버시를 확보하세요. 항상 링크를 확인하고 주소 재사용을 피하며 작은 금액부터 테스트해 보세요.  
+수신 후, Zodl의 **Shield** 옵션을 사용하여 ZEC를 보호된 풀로 이동해 최대한의 프라이버시를 확보하세요. 항상 링크를 확인하고 주소 재사용을 피하며 작은 금액부터 먼저 테스트해 보세요.
 
 ---
 

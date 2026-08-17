@@ -5,7 +5,7 @@
 Ohun kan tó gbàfiyèsí gan-an lọ́jọ́ òní! 
 Àlàkalẹ̀ **CryptoNote** ń jẹ́ kí ìpamọ́ra tó lágbára wà nínú ẹ̀ka. Lónìí a kọ́ gbogbo àwọn ohun pàtàkì rẹ̀ àti bí ó ti ṣe àṣeyege ní ọ̀pọ̀lọpọ̀ àwọn iṣẹ́ ìpamọ́ra tó ṣe pàtàkì.
 
-[Ìfilọlẹ ti CryptoNote]](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
+[Ìfilọlẹ ti CryptoNote](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
 
 ---
 
@@ -35,7 +35,7 @@ Nígbà tó o bá ń fi owó ránṣẹ́, kókó tó wà fún gbogbo èèyàn ni
 
 **Iwọn oruka** ni ipa pataki lori eto ailorukọ. Awọn oruka ti o tobi julọ pese aṣiri ti o dara julọ.
 
-[Ìsọfúnni nípa àwọn àmì oríkì]](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
+[Ìsọfúnni nípa àwọn àmì oríkì](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
 
 **Ifiwewe pẹlu Zcash**: 
 Àkọsílẹ̀ tí a kò mọ orúkọ rẹ̀ ni Zcash jẹ́ iye ìnáwó tí a ti ṣe *lákòókò kan rí* nínú àgbá tí a fi ààbò ṣe (tó tóbi ju àwọn àgbá CryptoNote lọ).
@@ -74,7 +74,7 @@ O lo awọn ** CryptoNight ** alugoridimu (a iranti-ti o nira iṣẹ). Ko bi Bi
 2. Ṣe ọpọlọpọ ka / kọ awọn iṣẹ lori awọn scratchpad
 3. Hash gbogbo scratchpad lati gbe iye to lopin
 
-[Ìwakùsà CryptoNight]](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
+[Ìwakùsà CryptoNight](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
 
 (Àkíyèsí: Monero ti kúrò ní CryptoNight sí àwọn alugoridimu míràn.)
 

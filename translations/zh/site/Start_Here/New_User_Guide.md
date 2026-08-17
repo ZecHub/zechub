@@ -7,7 +7,7 @@
 ## TL;DR
 
 - 在支持的交易所购买 **ZEC**（Gemini、BitcoinVN 等）
-- **设置一个屏蔽钱包**（推荐 Zashi、YWallet 或 ZODL）
+- **设置一个屏蔽钱包**（推荐 ZODL、Zingo 或 Zkool）
 - 将你的 ZEC 从交易所**提取**到你的屏蔽钱包
 - **发送一笔屏蔽交易** —— 这是你在 Zcash 上的第一笔隐私支付
 - 在论坛或 Discord **加入社区**

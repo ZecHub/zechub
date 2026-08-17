@@ -135,5 +135,5 @@
 
 ## الخطوة التالية
 
-- [تشغيل خزينة مجتمعية خاصة](/use-cases/private-community-treasury)
+- [تشغيل خزينة مجتمعية خاصة](/zcash-use-cases/private-community-treasury)
 <br/>

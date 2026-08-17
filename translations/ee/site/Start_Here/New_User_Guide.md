@@ -7,9 +7,9 @@
 ## TL;DR
 
 - **Ƒle ZEC** le asitɔtrɔ si wodo alɔe (Gemini, BitcoinVN, kple bubuawo)
-- **Ðo gakotoku si ŋu akpoxɔnu le** (Zashi, YWallet, alo ZODL kafui)
+- **Ðo gakotoku si ŋu akpoxɔnu le** (Zodl, Zingo, alo Zkool kafui)
 - **Ðe** wò ZEC tso exchange la me yi wò gakotoku si wotsɔ akpoxɔnu wɔe la me
-- **Ðo adzɔnu si wotsɔ akpoxɔnu wɔe ɖa** — wò ame ŋutɔ ƒe fetu gbãtɔ le Zcash dzi
+- **Ðo adzɔnu si wokpɔ ta na** — wò ame ŋutɔ ƒe fetu gbãtɔ le Zcash dzi
 - **Wɔ ɖeka kple nutoa me tɔwo** le nyamedzroƒea alo Discord
 
 ---
@@ -22,7 +22,7 @@ Nu yeyee le Zcash mea? Mɔfiame sia akplɔ wò to gege ɖe ʋua me abe Zcash zã
 
 Be nàzã Zcash network la, ahiã be nàƒle eƒe ga, *ZEC*.
 
-Mɔ bɔbɔetɔ si dzi nàto axɔ ZEC enye be [wòaƒlee le Gemini dzi](https://www.gemini.com/prices/zcash) alo [nusiawo ɖɔliɖɔli siawo dometɔ ɖesiaɖe](https://zechub.wiki/using-zcash/custodial-exchanges).
+Mɔ bɔbɔetɔ si dzi woato axɔ ZEC enye be... [ƒlee le Gemini dzi](https://www.gemini.com/prices/zcash) or [ɖɔliɖɔli siawo dometɔ ɖesiaɖe](https://zechub.wiki/using-zcash/custodial-exchanges).
 
 Nu vevi ɖeka si nàde dzesii enye be mehiã be nàƒle *ZEC* blibo 1 o.
 
@@ -34,9 +34,9 @@ Nu vevi ɖeka si nàde dzesii enye be mehiã be nàƒle *ZEC* blibo 1 o.
 
 Ne èƒle *ZEC* aɖewo vɔ la, àte ŋu atsɔe ayi Zcash gakotoku me. 
 
-Esia [nyatia ɖe eme](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) nusitae *ZEC* léle ɖe gakotoku me le vevie. 
+Nu sia [nyatia ɖe eme](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) nusitae *ZEC* léle ɖe gakotoku me le vevie. 
 
-Míeɖo aɖaŋu be nàzã [gakotoku si ŋu akpoxɔnu le](https://zechub.wiki/wallets) elabena gakotoku siawo naa ameŋunyatakakawo ƒe nɔnɔme siwo na *ZEC* le etɔxɛ. 
+Míeɖo aɖaŋu be nàzã a [gakotoku si ŋu wokpɔa akpoxɔnu le](https://zechub.wiki/wallets) elabena gakotoku siawo naa ameŋunyatakakawo ƒe nɔnɔme siwo na *ZEC* le etɔxɛ. 
 
 Video aɖe si ƒo nu tso egbegbe gakotoku siwo ŋu wokpɔ akpoxɔnu le ŋue nye esi:
 
@@ -77,7 +77,7 @@ Nufiame aɖe si ku ɖe alesi woawɔ ema ŋue nye esi.
 
 **Ðo adzɔnu si wotsɔ akpoxɔnu wɔe ɖa**
 
-Ne ètsɔ ZEC aɖewo de wò gakotoku me vɔ la, èle klalo be yeaɖo asitsatsa si ŋu ame ŋutɔ ate ŋu akpɔ ta na bliboe, si nye ame ŋutɔ tɔ la ɖa. Asitsatsa si wokpɔ ta na nye ZEC ƒe asitɔtrɔ si kpɔa gomekpɔla ɖesiaɖe ƒe adzamenyawo ta bliboe. Aɖaŋuɖoɖo nyui aɖewo ne èle ZEC si wotsɔ akpoxɔnu wɔe zãm lae nye esi.
+Ne ètsɔ ZEC aɖewo de wò gakotoku me vɔ la, èle klalo be yeaɖo asitsatsa si ŋu wokpɔ ta na bliboe, si nye ame ŋutɔ tɔ la ɖa. Asitsatsa si wokpɔ ta na nye ZEC ƒe asitɔtrɔ si kpɔa gomekpɔla ɖesiaɖe ƒe adzamenyawo ta bliboe. Aɖaŋuɖoɖo nyui aɖewoe nye esi ne èle ZEC si wotsɔ akpoxɔnu wɔe zãm.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -94,9 +94,9 @@ Ne ètsɔ ZEC aɖewo de wò gakotoku me vɔ la, èle klalo be yeaɖo asitsatsa s
 
 **Wɔ ɖeka kple nyamedzroƒea**
 
-Zcash Habɔbɔa nye teƒe si Zcash habɔbɔa me tɔwo dzroa nusiwo katã ku ɖe Zcash ŋu me le. Discord server hã le mía si.
+Zcash Community Forum nye teƒe si Zcash habɔbɔa me tɔwo dzroa nusiwo katã ku ɖe Zcash ŋu me le. Discord server hã le mía si.
 
-[Zcash Nutome Takpekpe](https://forum.zcashcommunity.com/) | [Zcash Xexeame Katã ƒe](https://discord.gg/zcash).
+[Zcash Nutome Nyamedzroƒe](https://forum.zcashcommunity.com/) | [Zcash Xexeame Katã ƒe](https://discord.gg/zcash).
 
 Nutoa me tɔwo tsɔa dzo ɖe hamevi yeyewo ŋu eye woxɔa wo nyuie ŋutɔ. Ɣeaɖewoɣi la, dzeɖoɖowo ate ŋu anye mɔ̃ɖaŋununya, gake mègatsi dzi o! Ne nya aɖe le asiwò gbeɖeka la, àte ŋu abia.
 

@@ -7,7 +7,7 @@
 ## Kısaca
 
 - Desteklenen bir borsadan (Gemini, BitcoinVN vb.) **ZEC satın alın**
-- **Shielded bir cüzdan kurun** (Zashi, YWallet veya ZODL önerilir)
+- **Shielded bir cüzdan kurun** (ZODL, Zingo veya Zkool önerilir)
 - ZEC’inizi borsadan shielded cüzdanınıza **çekin**
 - **Shielded bir işlem gönderin** — Zcash üzerindeki ilk özel ödemeniz
 - Forumda veya Discord’da **topluluğa katılın**

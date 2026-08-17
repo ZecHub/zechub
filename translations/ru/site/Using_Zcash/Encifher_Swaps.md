@@ -50,8 +50,8 @@
 
 ---
 
-###  Шаг 3: Подготовьте ваш кошелёк Zashi  
-Скачайте [**Zashi**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn), официальный кошелёк Zcash от Electric Coin Co. Скопируйте ваш **Unified Address** на вкладке Receive — он поддерживает как прозрачные, так и защищённые ZEC. Перед продолжением обязательно надёжно сохраните вашу seed-фразу.  
+###  Шаг 3: Подготовьте ваш кошелёк Zodl  
+Скачайте [**Zodl**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn), официальный кошелёк Zcash от Electric Coin Co. Скопируйте ваш **Unified Address** на вкладке Receive — он поддерживает как прозрачные, так и защищённые ZEC. Перед продолжением обязательно надёжно сохраните вашу сид-фразу.
 
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)
@@ -60,7 +60,7 @@
 ---
 
 ###  Шаг 4: Выполните приватный обмен  
-Вернувшись на **encrypt.trade**, перейдите в раздел **Swap**. Выберите **eSOL/eUSDC -> ZEC**, вставьте ваш адрес Zashi, проверьте детали и подтвердите.
+Вернувшись на **encrypt.trade**, перейдите в раздел **Swap**. Выберите **eSOL/eUSDC -> ZEC**, вставьте ваш адрес Zodl, проверьте детали и подтвердите.
 
 
 
@@ -72,7 +72,7 @@
 ![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
-Механизм **NEAR Intents** автоматически выполняет кроссчейн-маршрутизацию и доставляет **ZEC** напрямую в ваш кошелёк Zashi в течение нескольких секунд.  
+Механизм **NEAR Intents** автоматически выполняет кроссчейн-маршрутизацию и доставляет **ZEC** напрямую в ваш кошелёк Zodl в течение нескольких секунд.
 
 
 
@@ -81,7 +81,7 @@
 ---
 
 ###  Шаг 5: Экранируйте средства и сохраняйте приватность  
-После получения используйте опцию **Shield** в Zashi, чтобы перевести ваши ZEC в защищённый пул для максимальной приватности. Всегда проверяйте ссылки, избегайте повторного использования адресов и сначала тестируйте небольшие суммы.  
+После получения используйте опцию **Shield** в Zodl, чтобы перевести ваши ZEC в защищённый пул для максимальной приватности. Всегда проверяйте ссылки, избегайте повторного использования адресов и сначала тестируйте небольшие суммы.
 
 ---
 

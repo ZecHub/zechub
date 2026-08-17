@@ -10,7 +10,7 @@ Sɛnea ɛte mprempren no, address ne nkitahodi ahorow abien na ɛwɔ Zcash mu, w
 
 Sɛ nkurɔfo di kan fi ase de ZEC di dwuma a, ebia wɔrenhu address ko a wɔde redi dwuma. Eyi te saa efisɛ ɛnyɛ exchanges nyinaa na ɛboa shielded ZEC ne/anaa shielded ZEC withdrawals. 
 
-Enti, sɛ nhwɛsoɔ no, sɛ obi de Coinbase di dwuma na wɔtɔ ZEC a, anka ɔbɛtɔ ZEC a ɛda adi pefee na ɔbɛtumi atwe saa ZEC no akɔ address a ɛda adi wɔ sika kotokuo mu nko ara. Sika kotoku te sɛ [Zodl](https://zodl.com/) betumi abɔ sika a wɔde kɔ address a ɛda adi pefee so de adi eyi ho dwuma no ho ban, nanso ɛnyɛ obiara na onim saa. Nnipa pii, sɛ yɛbɛka no tiawa a, wɔde ZEC di dwuma wɔ ɔkwan a wɔn exchange anaa primary wallet ma wɔn kwan so.
+Enti, sɛ nhwɛsoɔ no, sɛ obi de Coinbase di dwuma na wɔtɔ ZEC a, anka ɔbɛtɔ ZEC a ɛda adi pefee na ɔbɛtumi atwe saa ZEC no akɔ address a ɛda adi wɔ sika kotokuo mu nko ara. Walets te sɛ [Zodl](https://zodl.com/) betumi abɔ sika a wɔde kɔ address a ɛda adi pefee so de adi eyi ho dwuma no ho ban, nanso ɛnyɛ obiara na onim saa. Nnipa pii, sɛ yɛbɛka no tiawa a, wɔde ZEC di dwuma wɔ ɔkwan a wɔn exchange anaa primary wallet ma wɔn kwan so.
 
 #### Hwɛ sɛ wo ZEC no abɔ ho ban
 
@@ -30,7 +30,7 @@ Efi exchange a ɛboa **transparent** a wɔayi afi mu:
 
   1. Kɔtɔ ZEC wɔ exchange mu
   2. Fi ase yi sika a woyi no fi ase wɔ nsakrae no mu
-  3. Bue wo autoshielding ZEC sika kotoku no na fa address a wogye no a ɛda adi pefee no di dwuma
+  3. Bue wo autoshielding ZEC sika kotoku no na fa address a ɛda adi pefee a wogye no di dwuma
   4. Run withdrawal no fi wo exchange no mu
   5. Twɛn si so dua du, na afei bɔ ZEC no ho ban fi wo address a ɛda adi pefee no so kɔ address a wɔabɔ ho ban no so
 
@@ -65,7 +65,7 @@ Nkyerɛkyerɛ a ɛfa sɛnea wobɛbɔ wo ZEC ho ban afi address a ɛda adi so ak�
 
 
 ---
-Nkyerɛkyerɛ a ɛkyerɛ sɛnea wobɛtɔ ZEC wɔ Coinbase na wode akɔ Zashi ni.
+Nkyerɛkyerɛ a ɛkyerɛ sɛnea wobɛtɔ ZEC wɔ Coinbase na wode akɔ Zodl ni.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
