@@ -11,7 +11,7 @@
 
 또한 주간 뉴스레터를 작성하고 귀하의 기여에 대한 보상을 받을 수 있도록하고 ZecHub의 기고자가 될 수 있습니다. 
 
-[ZecWeekly 뉴스레터 만들기](https://wiki.zechub.xyz/ZecWeekly-newsletter) 
+[ZecWeekly 뉴스레터 만들기](https://zechub.wiki/contribute/zecweekly-newsletter) 
 
 ---
 

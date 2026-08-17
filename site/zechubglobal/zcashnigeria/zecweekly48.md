@@ -11,7 +11,7 @@ Abojuto lati Odo "Hardaeborla" [Hardaeborla](https://twitter.com/ayanlajaadebola
 ### EKaabo si ZecWeekly
 Ninu iwe iroyin ọsẹ yii a yoo ṣawari awọn iṣẹlẹ aipẹ ni ilolupo Zcash pẹlu Ajọdun Ọdun Akọkọ ti ZecHub, Awọn imudojuiwọn nipa Zebra ti a ṣe ifilọlẹ laipẹ ati awọn imọran to wulo nigba lilo Zcash.
 
-Ti o ba fẹ lati ni imọ siwaju sii nipa idasi ni ZecHub ṣabẹwo aaye [wa](https://wiki.zechub.xyz/contribute) 
+Ti o ba fẹ lati ni imọ siwaju sii nipa idasi ni ZecHub ṣabẹwo aaye [wa](https://zechub.wiki/contribute) 
 ---
 
 ## Nkan Ẹkọ ti Ọsẹ yii

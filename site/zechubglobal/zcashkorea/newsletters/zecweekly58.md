@@ -17,7 +17,7 @@ ZF 8월 뉴스레터, 소액 보조금 및 다가오는 Town hall 신청 가능!
 
 Zcash를 처음 접하는 분이라면 투명(TA)하고 차폐(ZA)된 두 가지 거래 유형을 발견하실 수 있을 것입니다. 최근 Zcash 개발을 따르는 분들의 경우, Zcash 네트워크의 통합 주소(UA)에 대해서도 잘 알고 계실 것입니다. 핵심 질문은 이 주소들이 Zcash 지갑에서 어떻게 작동하는지에 대한 것입니다.
 
-[Visualizing Zcash Addresses](https://wiki.zechub.xyz/visualizing-zcash-addresses) 
+[Visualizing Zcash Addresses](https://zechub.wiki/guides/visualizing-zcash-addresses) 
 
 
 

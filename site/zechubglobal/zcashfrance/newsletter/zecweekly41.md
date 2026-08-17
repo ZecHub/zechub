@@ -12,7 +12,7 @@ Bonjour ! Je suis ravi de faire partie de la communauté. Je suis enthousiaste �
 
 L'agenda de cette semaine comprend divers événements, notamment une discussion communautaire entre Decreed et Zcash. De plus, une proposition a été validée pour la construction d'un pont de sous-réseau Zcash sur Avalanche.
 
-Si vous souhaitez vous engager dans la conception de bulletins d'information futurs, rendez-vous sur notre [site](https://wiki.zechub.xyz/zecweekly-newsletter). Nous serons ravis de vous guider à travers le processus, c'est une opportunité exceptionnelle pour découvrir l'écosystème et gagner des ZEC.
+Si vous souhaitez vous engager dans la conception de bulletins d'information futurs, rendez-vous sur notre [site](https://zechub.wiki/contribute/zecweekly-newsletter). Nous serons ravis de vous guider à travers le processus, c'est une opportunité exceptionnelle pour découvrir l'écosystème et gagner des ZEC.
 
 
 

@@ -10,7 +10,7 @@ Sélectionné par "Hardaeborla" ([Hardaeborla](https://twitter.com/ayanlajaadebo
 
 ### Bienvenue sur ZecWeekly
 
-Bonjour à tous les fans de Zcash ! C'est une autre partie de la semaine où nous partageons des nouvelles et des mises à jour passionnantes de Zcash, y compris des nouvelles et des événements se produisant dans l'espace crypto. Vous pouvez également contribuer à ZecHub en visitant notre [site.](https://wiki.zechub.xyz/contribute)
+Bonjour à tous les fans de Zcash ! C'est une autre partie de la semaine où nous partageons des nouvelles et des mises à jour passionnantes de Zcash, y compris des nouvelles et des événements se produisant dans l'espace crypto. Vous pouvez également contribuer à ZecHub en visitant notre [site.](https://zechub.wiki/contribute)
 
 Nous allons nous plonger dans les mises à jour de ECC sur la nouvelle version de Zcashd 5.6.0 sans oublier le dernier développement de la Fondation Zcash (Zebra 1.0.0). De plus, nous partagerons des astuces et des tutoriels sur les cryptomonnaies via la section Education Piece.
 

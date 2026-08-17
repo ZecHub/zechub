@@ -17,7 +17,7 @@ Benvenuti a una settimana entusiasmante, in cui vi forniremo gli ultimi aggiorna
 
 Questa settimana vi presentiamo una guida di recente pubblicazione sull'utilizzo di Zcash con gli exchange non custodial, una descrizione completa dei motivi per cui sono importanti, compreso un elenco completo degli exchange non custoditi supportati da Zcash!
 
-Per saperne di più: [Scambi non custodial](https://wiki.zechub.xyz/non-custodial-exchanges)
+Per saperne di più: [Scambi non custodial](https://zechub.wiki/using-zcash/non-custodial-exchanges)
 
 
 ## Aggiornamenti su Zcash

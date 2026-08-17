@@ -13,7 +13,7 @@ Aku Asiko yii oooo! Inu mi dun lati ṣe alabapin si agbegbe Zcash.
 
 Ni ọsẹ yii Ṣe ẹya oludije idasilẹ fun zcasd 5.6.0, ẹbun Zcash Brazil Nano Ledger Plus, adarọ ese Zcast ti Isele ori keji, ati diẹ sii!
 
-Ti o ba fẹ ṣẹda iwe iroyin kan, lọ si aaye [wa](https://wiki.zechub.xyz/ZecWeekly-newsletter). Inu wa yoo dun lati dari ọ nipasẹ ilana naa, o jẹ ọna nla lati kọ ẹkọ nipa ilolupo eda ati jo'gun ZEC.
+Ti o ba fẹ ṣẹda iwe iroyin kan, lọ si aaye [wa](https://zechub.wiki/contribute/zecweekly-newsletter). Inu wa yoo dun lati dari ọ nipasẹ ilana naa, o jẹ ọna nla lati kọ ẹkọ nipa ilolupo eda ati jo'gun ZEC.
 ---
 
 ## Nkan Ẹkọ ti Ọsẹ yii
@@ -24,7 +24,7 @@ Wiki yii n pese alaye ti Tor ati awọn imọ-ẹrọ   I2P, ti n ṣe afihan aw
 Pẹlupẹlu, itọsọna kan wa lati ṣe afihan ilana ti iṣakojọpọ apamọwọ Zcash pẹlu Tor lori awọn foonu 📱 mejeeji ati 🖥️ PC.
 
 Ni ipari, da lori oju iṣẹlẹ ọran lilo kan pato, mejeeji Tor ati awọn imọ-ẹrọ I2P n pese aṣiri to lagbara ati awọn ẹya ailorukọ, ṣiṣe wọn ni awọn aṣayan ti o niyelori lati ronu nigbati o wọle si intanẹẹti lati le daabobo aṣiri rẹ.
-Ka oju-iwe [yii](https://wiki.zechub.xyz/privacy-tools/tor-i2p-technologies) 
+Ka oju-iwe [yii](https://zechub.wiki/privacy-tools/tor-and-i2p) 
 
 
 ## Awọn imudojuiwọn Zcash

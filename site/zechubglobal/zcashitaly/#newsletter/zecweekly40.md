@@ -18,7 +18,7 @@ Questa settimana eventi normativi come il MiCA e la testimonianza di Marta Belch
 
 Inoltre, ci occupiamo del divieto di Telegram in Brasile tra gli eventi e gli aggiornamenti di Zcash, come Free2z Noches, Zcash Bonfire, ZecHub Quests e anche il supporto inarrestabile della nuova release di Zcash.
 
-Se volete partecipare alla creazione di future newsletter, visitate il nostro [sito](https://wiki.zechub.xyz/zecweekly-newsletter). Saremo lieti di guidarvi attraverso il processo, è un ottimo modo per conoscere l'ecosistema e guadagnare ZEC.
+Se volete partecipare alla creazione di future newsletter, visitate il nostro [sito](https://zechub.wiki/contribute/zecweekly-newsletter). Saremo lieti di guidarvi attraverso il processo, è un ottimo modo per conoscere l'ecosistema e guadagnare ZEC.
 
 ---
 

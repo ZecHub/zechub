@@ -11,7 +11,7 @@ Kaabọ si ẹda moriwu miiran ti iwe iroyin ọsẹ wa. A yoo ma wo bii ECC ṣ
 
 O tun le jẹ oluranlọwọ lori ZecHub nipa riranlọwọ wa lọwọ lati ṣẹda Iwe irohin ọsẹ wa ati gba ere fun ilowosi rẹ. Kọ ẹkọ diẹ sii nipa titẹ ọna asopọ ni isalẹ 👇
 
-[Ṣẹda  Iwe iroyin Osese Zec](https://wiki.zechub.xyz/ZecWeekly-newsletter) 
+[Ṣẹda  Iwe iroyin Osese Zec](https://zechub.wiki/contribute/zecweekly-newsletter) 
 
 
 

@@ -14,7 +14,7 @@ Zcashd 5.6.0 출시 후보, Zcast Episode 002 & Zcash에 기여할 Anoma(Namada)
 
 이번 주에는 Zcashd 5.6.0 출시 후보, Zcash브라질에서 Nano Ledger Plus 경품, Zcast 스페인 Episode 002 등의 이벤트가 진행됩니다!
 
-향후 뉴스레터 제작에 참여하고 싶으시면 [site](https://wiki.zechub.xyz/zecweekly-newsletter)로 이동하십시오. 이 과정을 안내해 드리겠습니다. 생태계에 대해 배우고 ZEC를 획득할 수 있는 좋은 방법입니다.
+향후 뉴스레터 제작에 참여하고 싶으시면 [site](https://zechub.wiki/contribute/zecweekly-newsletter)로 이동하십시오. 이 과정을 안내해 드리겠습니다. 생태계에 대해 배우고 ZEC를 획득할 수 있는 좋은 방법입니다.
 
 ---
 
@@ -25,7 +25,7 @@ Tor & I2P 기술 - 개인 정보 보호가 중요한 이유
 이 Wiki는 Tor 및 I2P 기술에 대한 설명을 제공하며 기능 면에서 Tor와 I2P 기술의 유사성과 주요 차이점을 강조합니다.
 또한 스마트폰과 PC 모두에서 Z캐시 지갑을 Tor와 통합하는 과정을 보여주는 가이드가 포함되어 있습니다.
 
-결론적으로, 특정 사용 사례 시나리오에 따라 Tor 및 I2P 기술은 강력한 개인 정보 보호 및 익명성 기능을 제공하므로 개인 정보 보호를 위해 인터넷에 액세스할 때 고려할 수 있는 귀중한 옵션입니다. [thread!](https://wiki.zechub.xyz/privacy-tools/tor-i2p-technologies)
+결론적으로, 특정 사용 사례 시나리오에 따라 Tor 및 I2P 기술은 강력한 개인 정보 보호 및 익명성 기능을 제공하므로 개인 정보 보호를 위해 인터넷에 액세스할 때 고려할 수 있는 귀중한 옵션입니다. [thread!](https://zechub.wiki/privacy-tools/tor-and-i2p)
 
 
 ## Zcash Updates
@@ -38,7 +38,7 @@ Tor & I2P 기술 - 개인 정보 보호가 중요한 이유
 
 [Raspberry Pi에서 Zcashd 노드를 실행하는 방법에 대한 비디오 튜토리얼](https://www.youtube.com/watch?v=SGYrzhs1l2k)
 
-[Zcash With Tor] (https://wiki.zechub.xyz/privacy-tools)
+[Zcash With Tor] (https://zechub.wiki/privacy-tools)
 
 [다중 스칼라 곱셈으로 FROST 속도 향상](https://zfnd.org/speeding-up-frost-with-multi-scalar-multiplication/)(★)
 

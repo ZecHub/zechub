@@ -11,7 +11,7 @@ Rapport de transparence de ZF pour le T2, Propositions de subventions mineures e
 Salutations, amateurs de Zcash ! Bienvenue dans notre mise à jour hebdomadaire sur les derniers développements au sein de la communauté Zcash et du paysage des cryptomonnaies en général. Dans cette newsletter, nous examinerons la proposition de ZecHub pour le programme de subventions mineures et explorerons la conversation éclairante entre Vitalik et Zooko sur la confidentialité d'Ethereum, présentée dans le podcast PGP. De plus, nous fournirons des conseils précieux sur la manière de réaliser des transactions Zcash avec des échanges non dépositaires. Restez informés !
 
 Vous pouvez également créer une newsletter et ZecHub et gagner des récompenses pour votre contribution.
-[Créer une newsletter ZecWeekly](https://wiki.zechub.xyz/ZecWeekly-newsletter)
+[Créer une newsletter ZecWeekly](https://zechub.wiki/contribute/zecweekly-newsletter)
 
 ---
 

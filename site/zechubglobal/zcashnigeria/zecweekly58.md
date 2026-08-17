@@ -12,7 +12,7 @@ Kaabọ si ọsẹ igbadun kan nibiti a ti mu cryptocurrency tuntun ati awọn i
 ## Nkan Ẹkọ ti Ọsẹ yii
 Ti o ba jẹ tuntun si Zcash, iwọ yoo ṣawari awọn oriṣi iṣowo meji ti a mọ bi sihin ati aabo. Fun awọn ti o tẹle awọn idagbasoke Zcash aipẹ, o tun le faramọ pẹlu Adirẹsi Iṣọkan lori Nẹtiwọọki Zcash. Ibeere bọtini ni bawo ni awọn adirẹsi wọnyi ṣe n ṣiṣẹ ni awọn apamọwọ Zcash.
 
-Kọ ẹkọ diẹ sii: [Wiwo awọn adirẹsi Zcash](https://wiki.zechub.xyz/visualizing-zcash-addresses) 
+Kọ ẹkọ diẹ sii: [Wiwo awọn adirẹsi Zcash](https://zechub.wiki/guides/visualizing-zcash-addresses) 
 
 
 ## Awọn imudojuiwọn Zcash

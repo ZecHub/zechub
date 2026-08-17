@@ -10,7 +10,7 @@ Sélectionné par "Hardaeborla" ([Hardaeborla](https://twitter.com/ayanlajaadebo
 
 Dans la newsletter de cette semaine, nous explorerons les événements récents de l'écosystème Zcash, y compris le premier anniversaire de ZecHub, des mises à jour sur le Zebra récemment lancé et quelques astuces utiles pour utiliser Zcash.
 
-Si vous souhaitez en savoir plus sur la contribution à ZecHub, visitez notre [site](https://wiki.zechub.xyz/contribute).
+Si vous souhaitez en savoir plus sur la contribution à ZecHub, visitez notre [site](https://zechub.wiki/contribute).
 
 ---
 

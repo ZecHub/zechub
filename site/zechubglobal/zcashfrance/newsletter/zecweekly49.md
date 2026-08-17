@@ -8,7 +8,7 @@ Préparé par "Hardaeborla" ([Hardaeborla](https://twitter.com/ayanlajaadebola))
 
 ### Bienvenue à ZecWeekly
 
-Bienvenue dans une nouvelle édition passionnante de notre bulletin hebdomadaire où nous partageons les actualités récentes dans l'espace Crypto et les dernières informations concernant l'écosystème Zcash. Vous pouvez également être contributeur sur ZecHub en visitant notre [site](https://wiki.zechub.xyz/contribute). 
+Bienvenue dans une nouvelle édition passionnante de notre bulletin hebdomadaire où nous partageons les actualités récentes dans l'espace Crypto et les dernières informations concernant l'écosystème Zcash. Vous pouvez également être contributeur sur ZecHub en visitant notre [site](https://zechub.wiki/contribute). 
 
 Dans ce bulletin, nous explorerons les événements récents de l'écosystème Zcash, y compris le Rapport de Transparence ECC. Vous en apprendrez également davantage sur les différents modèles de transactions dans l'écosystème Zcash ainsi que sur les développements récents dans l'espace Crypto.
 ---

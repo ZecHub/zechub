@@ -9,7 +9,7 @@ Egbe Zcash Foundation ṣe ifilọlẹ Zebra 1.0.0, ECC ṣe idasilẹ Zcasd 5.6
 Abojuto lati Odo "Hardaeborla" [Hardaeborla](https://twitter.com/ayanlajaadebola) ati Itumọ si ede Yoruba nipasẹ "Hardaeborla" ([Hardaeborla](https://twitter.com/ayanlajaadebola))
 
 ### EKaabo si ZecWeekly
-Kaabo Zcashers! A pin awọn iroyin moriwu ati awọn imudojuiwọn lati Zcash pẹlu awọn iroyin ati awọn iṣẹlẹ ti n ṣẹlẹ ni aaye crypto. O tun le jẹ oluranlọwọ lori ZecHub nipa lilo si [Aaye ayelujara wa](https://wiki.zechub.xyz/contribute).
+Kaabo Zcashers! A pin awọn iroyin moriwu ati awọn imudojuiwọn lati Zcash pẹlu awọn iroyin ati awọn iṣẹlẹ ti n ṣẹlẹ ni aaye crypto. O tun le jẹ oluranlọwọ lori ZecHub nipa lilo si [Aaye ayelujara wa](https://zechub.wiki/contribute).
 
 A yoo ṣawari sinu awọn imudojuiwọn lati ECC nipa itusilẹ tuntun ti Zcasd 5.6.0 & idagbasoke tuntun nipasẹ Zcash Foundation (Zebra 1.0.0). Bakannaa a yoo ṣe alabapin diẹ ninu awọn imọran cryptocurrency & awọn olukọni
 ---

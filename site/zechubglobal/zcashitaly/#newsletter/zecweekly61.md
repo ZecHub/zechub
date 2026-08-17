@@ -17,7 +17,7 @@ Nell'episodio di questa settimana della newsletter settimanale di ZecHub, abbiam
 
 Nella rubrica didattica di questa settimana, approfondiremo Zgo, una soluzione di elaborazione dei pagamenti che offre sicurezza, riservatezza e autonomia sfruttando Zcash È molto facile da configurare sul proprio sito/negozio! Scoprite di più sulle funzionalità di ZGo:
 
-[Processore di pagamento ZGo](https://wiki.zechub.xyz/zgo-payment-processor)
+[Processore di pagamento ZGo](https://zechub.wiki/guides/zgo-payment-processor)
 
 ## Aggiornamenti su Zcash
 

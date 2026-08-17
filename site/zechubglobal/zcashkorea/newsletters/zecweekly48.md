@@ -10,7 +10,7 @@ Zebra Community Call, ZEC이 바이낸스에 다시 리스팅, ZecHub 1주년 �
 
 이번 주 뉴스레터에서는 ZecHub의 1주년 기념일, 최근 출시된 Zebra에 대한 업데이트 및 Zcash를 사용할 때 유용한 팁을 포함하여 Zcash 생태계에서 최근에 발생한 일들을 살펴볼 것입니다.
 
-ZecHub에 기여하는 방법에 대해 자세히 알고 싶다면 [site](https://wiki.zechub.xyz/contribute)를 방문하십시오.
+ZecHub에 기여하는 방법에 대해 자세히 알고 싶다면 [site](https://zechub.wiki/contribute)를 방문하십시오.
 
 ---
 

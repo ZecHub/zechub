@@ -13,7 +13,7 @@ A cura di "Hardaeborla" ([Hardaeborla](https://twitter.com/ayanlajaadebola)), tr
 
 Con l'inizio di un'altra settimana, siamo entusiasti di fornirvi gli ultimi aggiornamenti su Zcash e i recenti sviluppi nello spazio delle criptovalute. Mi sento onorato di contribuire alla comunità di Zcash con l'aiuto di ZecHub. 
 
-Potete anche diventare contributori su ZecHub visitando questa [guida](https://wiki.zechub.xyz/contribute).
+Potete anche diventare contributori su ZecHub visitando questa [guida](https://zechub.wiki/contribute).
 
 La newsletter di questa settimana approfondirà le ultime novità.
 
