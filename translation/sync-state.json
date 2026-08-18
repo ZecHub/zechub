@@ -133,7 +133,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+restore-frontmatter-key",
       "edited": false
     },
     "Research/Namada_Privacy_and_Best_Practices.md": {
@@ -141,7 +141,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+restore-frontmatter-key",
       "edited": false
     },
     "Research/Navigating_the_Central_Bank_Digital_Currency.md": {
@@ -149,7 +149,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+restore-frontmatter-key",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -157,7 +157,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+restore-frontmatter-key",
       "edited": false
     },
     "Research/Track_Early_Onchain_And_Social_Signals_for_Zcash.md": {
@@ -165,7 +165,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+restore-frontmatter-key",
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
@@ -173,7 +173,7 @@
       "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+restore-frontmatter-key",
       "edited": false
     },
     "Research/zcash-foundations-series/article-0/article-0-shielded-transaction.md": {
@@ -5011,7 +5011,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+restore-frontmatter-key",
       "edited": false
     },
     "Research/Namada_Privacy_and_Best_Practices.md": {
@@ -5019,7 +5019,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+restore-frontmatter-key",
       "edited": false
     },
     "Research/Navigating_the_Central_Bank_Digital_Currency.md": {
@@ -5027,7 +5027,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+restore-frontmatter-key",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -5035,7 +5035,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+restore-frontmatter-key",
       "edited": false
     },
     "Research/Track_Early_Onchain_And_Social_Signals_for_Zcash.md": {
@@ -5043,7 +5043,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+restore-frontmatter-key",
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
@@ -5051,7 +5051,7 @@
       "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+restore-frontmatter-key",
       "edited": false
     },
     "Research/zcash-foundations-series/article-0/article-0-shielded-transaction.md": {
@@ -8303,7 +8303,7 @@
       "src_commit": "7a2bd73fd47df7de2c47ccd6d105c3da6a9762b7",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+collapse-empty-frontmatter",
       "edited": false
     },
     "Research/zcash-foundations-series/article-0/article-0-shielded-transaction.md": {
@@ -9889,7 +9889,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+collapse-empty-frontmatter",
       "edited": false
     },
     "Research/Namada_Privacy_and_Best_Practices.md": {
@@ -9897,7 +9897,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+collapse-empty-frontmatter",
       "edited": false
     },
     "Research/Navigating_the_Central_Bank_Digital_Currency.md": {
@@ -9913,7 +9913,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+collapse-empty-frontmatter",
       "edited": false
     },
     "Research/Track_Early_Onchain_And_Social_Signals_for_Zcash.md": {
@@ -9921,7 +9921,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+collapse-empty-frontmatter",
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
@@ -14767,7 +14767,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+collapse-empty-frontmatter",
       "edited": false
     },
     "Research/Namada_Privacy_and_Best_Practices.md": {
@@ -14775,7 +14775,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+collapse-empty-frontmatter",
       "edited": false
     },
     "Research/Navigating_the_Central_Bank_Digital_Currency.md": {
@@ -14807,7 +14807,7 @@
       "src_commit": "3c548d8635c09a81e10fe805e0aacb4dc7521785",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+collapse-empty-frontmatter",
       "edited": false
     },
     "Research/zcash-foundations-series/article-0/article-0-shielded-transaction.md": {
@@ -16393,7 +16393,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+collapse-empty-frontmatter",
       "edited": false
     },
     "Research/Namada_Privacy_and_Best_Practices.md": {
@@ -16401,7 +16401,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+collapse-empty-frontmatter",
       "edited": false
     },
     "Research/Navigating_the_Central_Bank_Digital_Currency.md": {
@@ -19645,7 +19645,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+collapse-empty-frontmatter",
       "edited": false
     },
     "Research/Namada_Privacy_and_Best_Practices.md": {
@@ -19653,7 +19653,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+collapse-empty-frontmatter",
       "edited": false
     },
     "Research/Navigating_the_Central_Bank_Digital_Currency.md": {
@@ -19669,7 +19669,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+collapse-empty-frontmatter",
       "edited": false
     },
     "Research/Track_Early_Onchain_And_Social_Signals_for_Zcash.md": {
@@ -19677,7 +19677,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+collapse-empty-frontmatter",
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
@@ -21271,7 +21271,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+restore-frontmatter-key",
       "edited": false
     },
     "Research/Namada_Privacy_and_Best_Practices.md": {
@@ -21279,7 +21279,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+restore-frontmatter-key",
       "edited": false
     },
     "Research/Navigating_the_Central_Bank_Digital_Currency.md": {
@@ -21287,7 +21287,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+restore-frontmatter-key",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -21295,7 +21295,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+restore-frontmatter-key",
       "edited": false
     },
     "Research/Track_Early_Onchain_And_Social_Signals_for_Zcash.md": {
@@ -21303,7 +21303,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+restore-frontmatter-key",
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
@@ -21311,7 +21311,7 @@
       "src_commit": "86d3ecc894bdfa65c01a25387c7ffc18e04b5819",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+restore-frontmatter-key",
       "edited": false
     },
     "Research/zcash-foundations-series/article-0/article-0-shielded-transaction.md": {
@@ -22897,7 +22897,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+collapse-empty-frontmatter",
       "edited": false
     },
     "Research/Namada_Privacy_and_Best_Practices.md": {
@@ -22905,7 +22905,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+collapse-empty-frontmatter",
       "edited": false
     },
     "Research/Navigating_the_Central_Bank_Digital_Currency.md": {
@@ -22913,7 +22913,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+collapse-empty-frontmatter",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -22921,7 +22921,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+collapse-empty-frontmatter",
       "edited": false
     },
     "Research/Track_Early_Onchain_And_Social_Signals_for_Zcash.md": {
@@ -22929,7 +22929,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+collapse-empty-frontmatter",
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
@@ -24523,7 +24523,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+collapse-empty-frontmatter",
       "edited": false
     },
     "Research/Namada_Privacy_and_Best_Practices.md": {
@@ -24531,7 +24531,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+collapse-empty-frontmatter",
       "edited": false
     },
     "Research/Navigating_the_Central_Bank_Digital_Currency.md": {
@@ -24539,7 +24539,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+collapse-empty-frontmatter",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -24547,7 +24547,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+collapse-empty-frontmatter",
       "edited": false
     },
     "Research/Track_Early_Onchain_And_Social_Signals_for_Zcash.md": {
@@ -24555,7 +24555,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+collapse-empty-frontmatter",
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {

@@ -1,5 +1,5 @@
 ---
-wotae: 2025-08-19 
+published: 2025-08-19 
 ---
 
 # Tracking Gbãtɔ On-kɔsɔkɔsɔ & Hadome Dzesiwo na Zcash (ZEC) .

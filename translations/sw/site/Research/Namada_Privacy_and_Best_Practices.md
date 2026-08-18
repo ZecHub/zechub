@@ -1,5 +1,5 @@
 ---
-iliyochapishwa: 2025-08-02
+published: 2025-08-02
 ---
 
 <a href="https://github.com/Zechub/zechub/edit/main/site/Research/Namada_Best_Practices.md" target="_blank">
