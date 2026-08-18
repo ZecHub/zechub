@@ -61,7 +61,29 @@ const keysOf = (block) =>
   block
     .map((l) => l.trim())
     .filter(Boolean)
-    .map((l) => (l.match(/^([A-Za-z_][A-Za-z0-9_-]*):/) || [])[1] || l.split(":")[0].trim());
+    .map((l) => (l.match(/^([\p{L}_][\p{L}\p{N}_-]*):/u) || [])[1] || l.split(":")[0].trim());
+
+/**
+ * The slice of a file the rules above look at: its leading front-matter block,
+ * or the mangled remains of one. Two files with the same region carry the same
+ * front-matter damage, which is how a change that rewrites a broken block is
+ * told from one that merely leaves it alone.
+ * @returns {string} — empty when the file has no front matter of any shape.
+ */
+export function frontMatterRegion(text) {
+  const lines = stripBom(text).split("\n");
+  const fm = parseFrontMatter(text);
+  if (fm) return bare(lines.slice(0, fm.end)).join("\n");
+  const first = lines.findIndex((l) => l.trim());
+  if (first < 0) return "";
+  if (OPENER.test(lines[first])) return bare(lines.slice(0, first + 1)).join("\n");
+  // `key: value` with only the closing delimiter left under it
+  const next = lines.findIndex((l, i) => i > first && l.trim());
+  if (next > 0 && CLOSER.test(lines[next]) && lines[first].includes(":")) {
+    return bare(lines.slice(0, next + 1)).join("\n");
+  }
+  return "";
+}
 
 /**
  * @returns {{code: string, message: string} | null} — null when the translation
@@ -78,7 +100,7 @@ function unparseableLine(block) {
     .find((line) => {
       const l = line.trim();
       if (!l) return false;
-      const m = l.match(/^([A-Za-z_][A-Za-z0-9_-]*):(?:[ \t]+(.*))?$/);
+      const m = l.match(/^([\p{L}_][\p{L}\p{N}_-]*):(?:[ \t]+(.*))?$/u);
       if (!m) return true; // not `key: value` at all
       const value = (m[2] || "").trim();
       if (!value) return false; // an empty value is valid YAML (null)
@@ -88,7 +110,7 @@ function unparseableLine(block) {
       // Unquoted: a leading YAML indicator opens a structure this block is not
       // allowed to have, and a bare `: ` inside the value is the classic
       // "mapping values are not allowed here" build failure.
-      return /^[[\]{}&*!|>%@`#]/.test(value) || /:\s/.test(value);
+      return /^[[\]{}&*!|>%@`#?-]/.test(value) || /:\s/.test(value);
     });
 }
 
@@ -107,18 +129,29 @@ export function frontMatterViolation(srcText, transText) {
   const opens = transLines.length > 0 && OPENER.test(transLines[0]);
 
   if (!src) {
-    return opens
-      ? { code: "stray-opener", message: "opens with a '---' the English source does not have (breaks the Jekyll build)" }
-      : null;
+    if (!opens) return null;
+    // The source opens a block it never closes. Jekyll finds no front matter in
+    // either file and copies both through, so a translation that mirrors it is
+    // not the build hazard — the source is the thing to fix, and that is not
+    // this check's business. Only a translation that closes one is out of step.
+    if (OPENER.test(stripBom(srcText).split("\n")[0] || "")) {
+      return parseFrontMatter(transText)
+        ? { code: "mismatch", message: "declares front matter its English source only appears to have — the source's block is never closed" }
+        : null;
+    }
+    return { code: "stray-opener", message: "opens with a '---' the English source does not have (breaks the Jekyll build)" };
   }
   if (!opens) return { code: "dropped", message: "has no front matter, but its English source does" };
 
-  if (transLines.length > 1 && CLOSER.test(transLines[1])) {
-    return { code: "duplicated-opener", message: "opens with an empty front-matter block ahead of the real one" };
-  }
-
   const trans = parseFrontMatter(transText);
   if (!trans) return { code: "unterminated", message: "opens with '---' that never closes" };
+
+  // An empty block is valid front matter and Jekyll is happy with it — it is
+  // only a defect when the source declares something the page then repeats
+  // below, as body.
+  if (trans.block.every((l) => !l.trim()) && src.block.some((l) => l.trim())) {
+    return { code: "duplicated-opener", message: "opens with an empty front-matter block ahead of the real one" };
+  }
 
   const want = bare(src.block);
   const got = bare(trans.block);

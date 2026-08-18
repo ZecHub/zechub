@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { frontMatterViolation, parseFrontMatter } from "./frontmatter.mjs";
+import { frontMatterRegion, frontMatterViolation, parseFrontMatter } from "./frontmatter.mjs";
 
 const SRC = "---\npublished: 2025-08-19\n---\n\n# Title\n\nbody\n";
 const SRC_PLAIN = '<a href="x">Edit</a>\n\n# Title\n\nbody\n';
@@ -123,4 +123,49 @@ test("an indented lookalike in the body is body, not a stray opener", () => {
 
 test("a blank line above an indented lookalike is body too", () => {
   assert.equal(frontMatterViolation(SRC_PLAIN, `\n ---\n${SRC_PLAIN}`), null);
+});
+
+test("a non-ASCII key is valid YAML, so it reads as a mismatch and not as unparseable", () => {
+  const v = frontMatterViolation(SRC, "---\nbipụtara: 2025-08-19\n---\n\n# T\n");
+  assert.equal(v.code, "mismatch");
+  assert.match(v.message, /bipụtara/);
+});
+
+test("an empty block is valid front matter when the source has one too", () => {
+  assert.equal(frontMatterViolation("---\n---\nbody\n", "---\n---\nbody\n"), null);
+});
+
+test("a value opening a block sequence is caught — Psych rejects it", () => {
+  const broken = "---\npublished: - x\n---\n\n# T\n";
+  assert.equal(frontMatterViolation(broken, broken).code, "invalid");
+});
+
+test("an unterminated opener in the source is not front matter, so mirroring it is fine", () => {
+  const src = "---\npublished: 2025-08-19\n\n# T\n";
+  assert.equal(frontMatterViolation(src, src), null);
+});
+
+test("…but closing a block the source never closes is out of step", () => {
+  const src = "---\npublished: 2025-08-19\n\n# T\n";
+  assert.equal(frontMatterViolation(src, SRC).code, "mismatch");
+});
+
+test("frontMatterRegion isolates the block, so a body edit is not a block edit", () => {
+  assert.equal(frontMatterRegion(SRC), "---\npublished: 2025-08-19\n---");
+  assert.equal(frontMatterRegion(`${SRC}more body\n`), frontMatterRegion(SRC));
+});
+
+test("frontMatterRegion captures the mangled remains of a block", () => {
+  assert.equal(frontMatterRegion("bipụtara: 2025-08-19\n---\n\nbody\n"), "bipụtara: 2025-08-19\n---");
+});
+
+test("frontMatterRegion is empty for a page with no front matter of any shape", () => {
+  assert.equal(frontMatterRegion("# Title\n\nbody\n"), "");
+});
+
+test("frontMatterRegion distinguishes two different broken blocks of the same kind", () => {
+  const a = "---\nwotintimii: 2024-01-12\n---\n\n# T\n";
+  const b = "---\nwotintimii: 9999-99-99\n---\n\n# T\n";
+  assert.equal(frontMatterViolation(SRC, a).code, frontMatterViolation(SRC, b).code);
+  assert.notEqual(frontMatterRegion(a), frontMatterRegion(b));
 });

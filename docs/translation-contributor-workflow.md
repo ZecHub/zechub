@@ -151,7 +151,7 @@ Do not translate the key, do not translate the date, and do not add a block to a
 
 Three quieter shapes break nothing and are caught by the same job: an empty block ahead of the real one, a translated key such as `wotae:` or `bipụtara:`, and a lost opening `---` with the closing one still there. All three put the date into the page as visible text or lose it entirely.
 
-`--base` scopes this job the same way as the terminology gate; run it bare for a whole-tree sweep.
+`--base` scopes this job to the translations your change touched, and it fails only on damage your change actually did — a defect already on the page, left alone, is a notice. If you edit an English page that has front matter, its translations are not yours to answer for either; that drift is the sync pipeline's work. Run the check bare for a whole-tree sweep, which is also what a push to `main` runs.
 
 ## Adding a new language
 

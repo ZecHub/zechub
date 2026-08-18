@@ -19,7 +19,7 @@ import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { execFileSync } from "node:child_process";
-import { frontMatterViolation } from "../translation/lib/frontmatter.mjs";
+import { frontMatterRegion, frontMatterViolation } from "../translation/lib/frontmatter.mjs";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
 
@@ -87,7 +87,11 @@ if (base) {
     try { collect(args); } catch { /* non-fatal: scope stays range-only */ }
   }
 
-  inScope = (transPath, srcPath) => changed.has(transPath) || changed.has(srcPath);
+  // Only a change to the TRANSLATION is this author's to answer for. Adding
+  // front matter to an English page leaves 17 translations out of step, but
+  // that is the sync pipeline's work, reported by the staleness dashboard —
+  // the sibling terminology gate draws the same line.
+  inScope = (transPath) => changed.has(transPath);
 }
 
 // ---- check ----------------------------------------------------------------
@@ -109,16 +113,23 @@ const readAtBase = (p) => {
   try { return git(["show", `${mergeBase}:${p}`]); } catch { return null; }
 };
 
-// A violation this change did not create is not this change's to fix. Editing an
-// English page must not make every old defect in its 17 translations blocking —
-// that is the sibling terminology gate's rule too.
-function introduced(transPath, srcPath, violation) {
+// A violation this change did not create is not this change's to fix. But
+// "did not create" has to mean the damage is UNTOUCHED, not merely that it falls
+// in the same bucket: a resync that rewrites one broken block into a different
+// broken block of the same kind is exactly what happened on 2026-08-14, and
+// comparing only the violation code would wave it through. So the front-matter
+// region itself must be unchanged on both sides.
+function introduced(transPath, srcPath, transText, srcText, violation) {
   if (!mergeBase) return true;
   const wasSrc = readAtBase(srcPath);
   const wasTrans = readAtBase(transPath);
   if (wasSrc === null || wasTrans === null) return true; // new page: it is yours
   const was = frontMatterViolation(wasSrc, wasTrans);
-  return !was || was.code !== violation.code;
+  if (!was || was.code !== violation.code) return true;
+  return (
+    frontMatterRegion(wasTrans) !== frontMatterRegion(transText) ||
+    frontMatterRegion(wasSrc) !== frontMatterRegion(srcText)
+  );
 }
 
 const blocking = [];
@@ -140,7 +151,7 @@ for (const transPath of files) {
   const violation = frontMatterViolation(srcText, transText);
   if (!violation) continue;
   const line = `${transPath}: ${violation.message}`;
-  if ((!inScope || inScope(transPath, srcPath)) && introduced(transPath, srcPath, violation)) blocking.push(line);
+  if ((!inScope || inScope(transPath)) && introduced(transPath, srcPath, transText, srcText, violation)) blocking.push(line);
   else inherited.push(line);
 }
 
