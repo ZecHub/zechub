@@ -1,5 +1,13 @@
 # Deploying zcashd to Akash via Console
 
+> **Deprecated. Do not follow this guide to deploy a node you intend to use.**
+>
+> zcashd reached its automatic End-of-Support halt on July 18, 2026. A zcashd node deployed today will not sync to the chain tip, so the deployment costs money every month and produces nothing.
+>
+> Deploy **Zebra** instead: [How to run Zebra on Akash Network](/guides/akash-network-zebra), which covers the same Akash Console workflow and needs roughly a third of the disk. If you are moving an existing setup, see the [zcashd to Zebra and Zallet migration guide](/guides/migration-guide-zcashd-to-zebrad-zallet).
+>
+> This page is kept as a historical record of the zcashd deployment.
+
 Guide for deploying a zcashd Zcash full node (Electric Coin Co implementation) using [Akash Console](https://console.akash.network). Here is a video tutorial below. A more in-depth guide can be found below.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -30,13 +38,13 @@ A full zcashd node that will:
 
 **zcashd vs Zebra:**
 
--> zcashd is the original Zcash node implementation by Electric Coin Co
+-> zcashd was the original Zcash node implementation by Electric Coin Co, halted since July 18, 2026
 
--> Zebra is the Zcash Foundation's alternative implementation
+-> Zebra, from the Zcash Foundation, is the full node in use today
 
--> Both are compatible with the Zcash network
+-> Only Zebra follows the current chain; a zcashd node cannot reach the tip
 
--> zcashd has more features (mining, wallet, Insight Explorer API)
+-> zcashd's wallet has been replaced by [Zallet](/using-zcash/zallet-quick-reference-guide)
 
 -> Use zcashd if you need wallet functionality or specific RPC APIs
 
@@ -89,6 +97,8 @@ Your AKT balance should appear in the top right. If it's zero, go fund your wall
 -> Choose **"Build your template"** (or skip directly to uploading SDL)
 
 ### Option A: Upload SDL File (Recommended)
+
+> **This button deploys a halted node.** It bills against your AKT balance for a node that cannot sync. Use the [Zebra guide](/guides/akash-network-zebra) instead.
 
 [![Deploy on Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
 
@@ -442,7 +452,7 @@ The provider might be having issues. Close the deployment and try a different pr
 
 ### zcashd logs show "No peers connected"
 
-This is normal for the first few minutes. zcashd will discover peers automatically. If it persists after 10+ minutes, you might have a networking issue (unlikely on Akash).
+Since the End-of-Support halt on July 18, 2026, this is the expected permanent state rather than a startup delay, and no amount of waiting or redeployment will fix it. Deploy [Zebra](/guides/akash-network-zebra) instead.
 
 ### "Out of memory" errors in logs
 
