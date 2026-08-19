@@ -1,7 +1,5 @@
 ---
----
 published: 2026-04-14
-
 ---
 
 <a href="https://github.com/zechub/zechub/edit/main/site/Research/Dash_Zcash_Orchard_Integration.md" target="_blank">

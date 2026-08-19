@@ -1,5 +1,5 @@
 ---
-wotintimii: 2025-08-19 
+published: 2025-08-19 
 ---
 
 # Tracking Mfiase On-nkɔnsɔnkɔnsɔn & Social Nsɛnkyerɛnne ma Zcash (ZEC) .

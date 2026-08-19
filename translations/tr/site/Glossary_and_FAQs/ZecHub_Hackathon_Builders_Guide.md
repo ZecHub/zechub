@@ -1,4 +1,3 @@
----
 # ZecHub hackathon geliştirici rehberi
 
 ## Özet

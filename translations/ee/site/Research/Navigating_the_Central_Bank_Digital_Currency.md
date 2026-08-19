@@ -1,5 +1,5 @@
 ---
-wotae: 2023-12-07
+published: 2023-12-07
 ---
 
 ![CBDC ƒe](/content-images/cbdc-dfb8827faa.webp)

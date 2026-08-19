@@ -1,4 +1,3 @@
----
 # Guide du bâtisseur pour le hackathon ZecHub
 
 ## TL;DR

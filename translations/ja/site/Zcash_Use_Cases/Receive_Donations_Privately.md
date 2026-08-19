@@ -1,4 +1,3 @@
----
 # <img src="/content-images/money-business-and-finance-svgrepo-com-eac0e054bd.svg" width="24" height="24" alt="finance icon"/> Zcashで寄付をプライベートに受け取る
 
 <span className="inline-flex items-center gap-[6px]">

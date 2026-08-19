@@ -1,4 +1,3 @@
----
 # ZecHub Hackathon-Builder-Guide
 
 ## Kurzfassung

@@ -1,4 +1,3 @@
----
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Blossom.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="페이지 편집"/>
 </a>

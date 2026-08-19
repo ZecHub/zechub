@@ -1,4 +1,5 @@
-bipụtara: 2025-08-19 
+---
+published: 2025-08-19 
 ---
 
 # Ịchọpụta Early On-chain & Social Signals maka Zcash (ZEC)

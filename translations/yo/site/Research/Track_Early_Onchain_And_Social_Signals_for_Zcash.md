@@ -1,4 +1,5 @@
-ti a tẹjade: 2025-08-19 
+---
+published: 2025-08-19 
 ---
 
 # Ṣiṣayẹwo Awọn ifihan agbara Early On-chain & Social fun Zcash (ZEC)

@@ -1,4 +1,3 @@
----
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Zallet_Quick_Reference_Guide.md" target="_blank">
   <img src="https://img.shields.io/badge/Edit-blue" alt="Editar Página"/>
 </a>

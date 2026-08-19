@@ -1,5 +1,5 @@
 ---
-iliyochapishwa: 2025-08-19 
+published: 2025-08-19 
 ---
 
 # Kufuatilia mapema On-chain & Social Signals kwa Zcash (ZEC)

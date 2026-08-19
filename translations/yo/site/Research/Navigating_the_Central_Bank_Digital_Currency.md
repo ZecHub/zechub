@@ -1,4 +1,5 @@
-ti a tẹjade: 2023-12-07
+---
+published: 2023-12-07
 ---
 
 [CBDC](/content-images/cbdc-dfb8827faa.webp)
