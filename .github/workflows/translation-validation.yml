@@ -114,3 +114,52 @@ jobs:
         env:
           BASE_REF_OUT: ${{ steps.base.outputs.ref }}
         run: node translation/check-invariants.mjs --base "$BASE_REF_OUT"
+
+  frontmatter-parity:
+    # A translated page must declare the same leading YAML block as its English
+    # source. One of the shapes this catches — a `---` the source does not have —
+    # takes down the GitHub Pages build for the entire site, and did on
+    # 2026-08-14; the others corrupt the page silently. The Pages build only runs
+    # after a merge, so this is the only place a pull request can be stopped.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Full history so the check can tell what this change touched from
+          # damage it merely inherited.
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Determine base ref
+        id: base
+        # Only a pull request gets a base. A push to `main` is swept in full:
+        # scoping it to the last push would let damage introduced earlier — by a
+        # force-push, or by a merge whose own PR predated this job — sit on the
+        # branch that Pages builds from, reported by nothing.
+        #
+        # Pass the (attacker-influenceable) ref name through env, never inline
+        # into the shell, to avoid command injection via a crafted branch name.
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          if [ "$EVENT_NAME" = "pull_request" ]; then
+            git fetch --no-tags --quiet origin "$BASE_REF"
+            echo "ref=origin/$BASE_REF" >> "$GITHUB_OUTPUT"
+          else
+            echo "ref=" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Check front-matter parity
+        # On a pull request, blocking only on what this change introduced;
+        # anything already broken is printed as a notice. On a push, no --base,
+        # so every page is checked.
+        env:
+          BASE_REF_OUT: ${{ steps.base.outputs.ref }}
+        run: |
+          if [ -n "$BASE_REF_OUT" ]; then
+            node scripts/check-frontmatter.mjs --base "$BASE_REF_OUT"
+          else
+            node scripts/check-frontmatter.mjs
+          fi

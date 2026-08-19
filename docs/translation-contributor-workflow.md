@@ -115,7 +115,7 @@ The full rules — where not to gloss, RTL nesting, the per-category breakdown �
 
 ## Validation
 
-Four jobs run on **every** pull request, and on pushes to `main`. There is deliberately no path filter: `manifest-invariants` and `menu-titles-fresh` are required checks, and a required check that is skipped on unrelated pull requests leaves them stuck at "Expected — waiting for status". So expect these jobs on a pull request that touches no translation at all.
+Five jobs run on **every** pull request, and on pushes to `main`. There is deliberately no path filter: `manifest-invariants` and `menu-titles-fresh` are required checks, and a required check that is skipped on unrelated pull requests leaves them stuck at "Expected — waiting for status". So expect these jobs on a pull request that touches no translation at all.
 
 Each one is reproducible locally. CI resolves the base ref from the pull request; substitute your own:
 
@@ -125,6 +125,7 @@ Each one is reproducible locally. CI resolves the base ref from the pull request
 | `manifest-invariants` | `node translation/check-invariants.mjs --base origin/main` | manifest ⇔ files ⇔ curated list, plus the two provenance rules above |
 | `hash-lib-tests` | `node --test translation/lib/*.test.mjs` | the pure hash, title and term-form modules |
 | `menu-titles-fresh` | `node translation/gen-menu-titles.mjs --check` | generated menu-title manifests match the content |
+| `frontmatter-parity` | `node scripts/check-frontmatter.mjs --base origin/main` | a translation declares the same leading YAML block as its English source |
 
 `--base` scopes the terminology gate to what your change actually did. It fails only on a violation your change **introduced** — one that did not exist for that page and locale at the merge base. Two other kinds are reported as notices instead of failures: violations already present at the base, and violations that come from an English page edited after the translation was last synced, which are the sync pipeline's work rather than yours.
 
@@ -135,6 +136,22 @@ node scripts/check-protected-terms.mjs
 ```
 
 Do that as well whenever you change `translation/protected-terms.json`, since a scoped run judges a change to the term list partly by that change's own configuration.
+
+### Front matter
+
+If `site/<page>.md` starts with a YAML block, every translation of it must start with the same block, copied verbatim:
+
+```
+---
+published: 2025-08-19
+---
+```
+
+Do not translate the key, do not translate the date, and do not add a block to a page whose English source has none. A stray `---` is not cosmetic: Jekyll builds the GitHub Pages copy of this repo from `main`, reads a leading `---` as a front-matter opener, scans to the next `---` far down the page, and fails the build for the whole site. That happened on 2026-08-14 and the published site stayed frozen for four days — and because the Pages build only runs after a merge, `frontmatter-parity` is the only place a pull request can be stopped.
+
+Three quieter shapes break nothing and are caught by the same job: an empty block ahead of the real one, a translated key such as `wotae:` or `bipụtara:`, and a lost opening `---` with the closing one still there. All three put the date into the page as visible text or lose it entirely.
+
+`--base` scopes this job to the translations your change touched, and it fails only on damage your change actually did — a defect already on the page, left alone, is a notice. If you edit an English page that has front matter, its translations are not yours to answer for either; that drift is the sync pipeline's work. Run the check bare for a whole-tree sweep, which is also what a push to `main` runs.
 
 ## Adding a new language
 
