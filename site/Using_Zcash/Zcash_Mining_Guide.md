@@ -60,6 +60,7 @@ Mining pools distribute work and share rewards based on your contributed hashrat
 - **F2Pool (zec.f2pool.com)**: 2% fee, PPS+ payout, multi-coin support. Large pool (~2.57 GSol/s).
 - **ViaBTC (zec.viabtc.com)**: 2% fee (PPS+), user-friendly dashboard, global servers.
 - **AntPool (zec.antpool.com)**: 1% fee, from Bitmain, good for ASICs (~494 MSol/s).
+- **Foundry Zcash Pool (foundrydigital.com/foundry-zcash-pool/)**: Professional Zcash mining pool by Foundry Digital. Uses PPLNS payouts, offers transparent reward tracking and enterprise-grade support. Best suited for institutional and large-scale ASIC miners; requires account verification.
 - **Sovright (mining.sovright.com)**: A Zcash pool built on Stratum V2, currently running as a public testnet. No live ZEC payouts yet, so treat it as a way to test your setup rather than an earnings source. See the dedicated section below for details.
 - Others: Kryptex Pool, Luxor (check poolwatch.io/coin/zcash for real-time stats).
 
@@ -116,6 +117,25 @@ Sovright's pool runs on a public Zcash testnet (NU6, Stratum V2), not mainnet. T
 
 - No account is required to start. Point a CPU or ASIC Equihash miner at the pool and your shares show up on a live dashboard.
 - Sovright also publishes an open source Stratum V2 proxy for miners who want to choose their own block templates instead of just taking the pool's jobs:
+
+### Monitoring Foundry Zcash Pool
+
+For Foundry Zcash Pool users:
+
+- Monitor miner performance through the Foundry pool dashboard.
+- Check:
+  - Active workers
+  - Reported hashrate
+  - Accepted shares
+  - Estimated rewards
+  - Payout status
+
+Because Foundry uses a PPLNS reward model, mining rewards depend on contributed shares over the pool's reward window rather than instant hashrate alone.
+
+Recommended monitoring practices:
+- Compare ASIC dashboard hashrate with Foundry reported hashrate.
+- Investigate rejected shares, stale shares, or connection instability.
+- Maintain stable network connectivity because downtime reduces submitted shares and potential rewards.
   ```
   git clone https://github.com/sovright/mining-infra
   cd mining-infra
