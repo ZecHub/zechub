@@ -12,7 +12,7 @@ ZecWeekly의 또 다른 흥미진진한 에피소드에 오신 것을 환영합�
 
 이번 주에는 Non-Custodial 거래소에서 Zcash를 사용하는 방법에 대한 새로운 가이드를 제공할 것입니다. 여기에는 Zcash가 지원하는 Non-Custodial 거래소의 전체 목록을 포함한 포괄적인 내역이 포함되어 있습니다.
 
-[Non-Custodial Exchanges](https://wiki.zechub.xyz/non-custodial-exchanges)
+[Non-Custodial Exchanges](https://zechub.wiki/using-zcash/non-custodial-exchanges)
 
 
 ## ECC & Zcash 업데이트

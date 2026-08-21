@@ -12,7 +12,7 @@ Sélectionné par "fog254" ([@FOG1893](https://twitter.com/FOG1893))
 
 Bonjour! Cette semaine présente des événements tels que les mises à jour sur les propositions & plans pour la décentralisation de Zcash par le ECC, la sortie de Lightwalletd 0.4.14, et plus encore!
 
-Si vous souhaitez vous impliquer dans la création de futurs bulletins d'information, rendez-vous sur notre [site](https://wiki.zechub.xyz/zecweekly-newsletter). Nous serons ravis de vous guider tout au long du processus, c'est une excellente occasion d'apprendre à propos de l'écosystème et de gagner des ZEC.
+Si vous souhaitez vous impliquer dans la création de futurs bulletins d'information, rendez-vous sur notre [site](https://zechub.wiki/contribute/zecweekly-newsletter). Nous serons ravis de vous guider tout au long du processus, c'est une excellente occasion d'apprendre à propos de l'écosystème et de gagner des ZEC.
 
 ---
 

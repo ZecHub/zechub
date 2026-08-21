@@ -14,7 +14,7 @@ Bonjour ! Je suis ravi de contribuer à la communauté Zcash.
 
 Cette semaine nous notons des événements tels que la sortie de ZCashd V5.5.1 d'ECC, la discussion communautaire de PhononDAO X Zcash, les fonctionnalités Free2Z AI et plus encore !
 
-Si vous souhaitez vous impliquer dans la création de futures newsletters, rendez-vous sur notre [site](https://wiki.zechub.xyz/zecweekly-newsletter). Nous serons heureux de vous guider tout au long du processus, c'est un excellent moyen de découvrir l'écosystème et de gagner du ZEC.
+Si vous souhaitez vous impliquer dans la création de futures newsletters, rendez-vous sur notre [site](https://zechub.wiki/contribute/zecweekly-newsletter). Nous serons heureux de vous guider tout au long du processus, c'est un excellent moyen de découvrir l'écosystème et de gagner du ZEC.
 
 ---
 

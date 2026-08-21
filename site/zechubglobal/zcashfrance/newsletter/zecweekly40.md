@@ -16,7 +16,7 @@ Cette semaine développe des événements réglementaires tels que l'adoption de
 
 Nous couvrons également l'interdiction de Telegram au Brésil parmi les événements et les mises à jour Zcash tels que Free2Z Noches, Zcash Bonfire plus Zechub Quests et également le soutien de la nouvelle version de Zcash par Unstoppable.
 
-Si vous souhaitez vous impliquer dans la création de futures newsletters, rendez-vous sur notre [site](https://wiki.zechub.xyz/zecweekly-newsletter). Nous serons heureux de vous guider tout au long du processus, c'est un excellent moyen de découvrir l'écosystème et de gagner du ZEC.
+Si vous souhaitez vous impliquer dans la création de futures newsletters, rendez-vous sur notre [site](https://zechub.wiki/contribute/zecweekly-newsletter). Nous serons heureux de vous guider tout au long du processus, c'est un excellent moyen de découvrir l'écosystème et de gagner du ZEC.
 
 ---
 

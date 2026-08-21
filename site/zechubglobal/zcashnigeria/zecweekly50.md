@@ -8,7 +8,7 @@ Abojuto lati Odo "fog254"(@FOG1893) ati Itumọ si ede Yoruba nipasẹ "Hardaebo
 
 ### EKaabo si ZecWeekly
 Pẹlẹ o!
-Ni ọsẹ yii Awọn ẹya ara ẹrọ awọn iṣẹlẹ bii awọn imudojuiwọn lori awọn igbero & awọn ero fun decentralizing Zcash nipasẹ ECC, itusilẹ ti Lightwalletd 0.4.14, ati diẹ sii! Lati kopa & bẹrẹ ṣiṣẹda awọn iwe iroyin, lọ si aaye [wa](https://wiki.zechub.xyz/ZecWeekly-newsletter)A yoo dun lati dari ọ nipasẹ ilana naa, o jẹ ọna nla lati kọ ẹkọ nipa ilolupo eda ati jo'gun ZEC
+Ni ọsẹ yii Awọn ẹya ara ẹrọ awọn iṣẹlẹ bii awọn imudojuiwọn lori awọn igbero & awọn ero fun decentralizing Zcash nipasẹ ECC, itusilẹ ti Lightwalletd 0.4.14, ati diẹ sii! Lati kopa & bẹrẹ ṣiṣẹda awọn iwe iroyin, lọ si aaye [wa](https://zechub.wiki/contribute/zecweekly-newsletter)A yoo dun lati dari ọ nipasẹ ilana naa, o jẹ ọna nla lati kọ ẹkọ nipa ilolupo eda ati jo'gun ZEC
 
 
 

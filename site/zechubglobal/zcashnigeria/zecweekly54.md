@@ -10,7 +10,7 @@ Ninu atẹjade yii, a yoo ṣawari awọn idagbasoke aipẹ lati ọdọ ECC nip
 
 O tun le jẹ oluranlọwọ lori ZecHub nipa riranlọwọ wa lọwọ lati ṣẹda Iwe irohin ọsẹ wa ati gba ere fun ilowosi rẹ.
 
-[Ṣẹda Iwe iroyin ZecWeekly](https://wiki.zechub.xyz/ZecWeekly-newsletter) 
+[Ṣẹda Iwe iroyin ZecWeekly](https://zechub.wiki/contribute/zecweekly-newsletter) 
 ---
 
 ## Nkan Ẹkọ ti Ọsẹ yii

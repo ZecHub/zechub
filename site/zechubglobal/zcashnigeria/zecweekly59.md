@@ -13,7 +13,7 @@ Ekaabọ si ẹda moriwu miiran ti ZecWeekly bi a ṣe n ṣe afihan ọpọlọ
 ## Nkan Ẹkọ ti Ọsẹ yii
 Ni ọsẹ yii a mu itọsọna tuntun ti a tu silẹ fun ọ ni lilo Zcash pẹlu Awọn paṣipaarọ Aṣa ti kii ṣe Adani, didenukole ti idi ti wọn fi ṣe pataki, pẹlu atokọ kikun ti Zcash ṣe atilẹyin awọn paṣipaarọ!
 
-Kọ ẹkọ diẹ sii: [Awọn paṣipaarọ ti kii ṣe Adani](https://wiki.zechub.xyz/non-custodial-exchanges) 
+Kọ ẹkọ diẹ sii: [Awọn paṣipaarọ ti kii ṣe Adani](https://zechub.wiki/using-zcash/non-custodial-exchanges) 
 
 ## Awọn imudojuiwọn Zcash
 

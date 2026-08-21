@@ -15,7 +15,7 @@ A cura di "Hardaeborla" ([Hardaeborla](https://twitter.com/ayanlajaadebola)), tr
 Hey Zcashers!!! Benvenuti a un'altra entusiasmante edizione della nostra newsletter settimanale. Analizzeremo come l'ECC intende decentralizzare Zcash secondo la recente proposta condivisa. Scopriremo anche di più su Zcashd e su come potete utilizzarlo a vostro vantaggio. Infine, vi forniamo i migliori e più recenti aggiornamenti sul settore delle criptovalute. 
 
 Potete anche contribuire a ZecHub, aiutandoci a creare la nostra newsletter settimanale e ricevendo una ricompensa per il vostro contributo. Per saperne di più, cliccate sul link qui sotto 👇👇
-[Crea newsletter settimanale Zec](https://wiki.zechub.xyz/ZecWeekly-newsletter)
+[Crea newsletter settimanale Zec](https://zechub.wiki/contribute/zecweekly-newsletter)
 
 ---
 

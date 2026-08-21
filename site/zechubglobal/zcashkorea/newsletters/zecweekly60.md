@@ -11,7 +11,7 @@ Curated by "Hardaeborla" ([Hardaeborla](https://twitter.com/ayanlajaadebola)) / 
 Zcash 매니아 여러분, 안녕하세요! Zcash 커뮤니티 내의 최신 개발 상황과 광범위한 암호화폐 환경에 대한 주간 업데이트를 환영합니다. 이 뉴스레터에서는 소액 보조금 프로그램에 대한 ZecHub 제안을 자세히 살펴보고 PGP 팟캐스트에 등장하는 이더리움의 프라이버시와 관련하여 비탈릭과 주코의 통찰력 있는 대화를 살펴보도록 하겠습니다. 또한 non-custodial 거래소와 Zcash 거래에 참여하는 방법에 대한 소중한 팁을 제공하겠습니다. 계속해서 알려주세요!
 
 뉴스레터와 ZecHub을 만들어 기여에 대한 보상을 받을 수도 있습니다. 
-[Create ZecWeekly Newsletter](https://wiki.zechub.xyz/ZecWeekly-newsletter) 
+[Create ZecWeekly Newsletter](https://zechub.wiki/contribute/zecweekly-newsletter) 
 
 ---
 

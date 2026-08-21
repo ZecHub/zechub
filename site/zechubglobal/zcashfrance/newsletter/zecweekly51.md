@@ -13,7 +13,7 @@ Salut les Zcashers !! Bienvenue dans une autre édition passionnante de notre bu
 
 Vous pouvez également être un contributeur sur ZecHub en nous aidant à créer notre newsletter hebdomadaire et être récompensé pour votre contribution. En savoir plus en cliquant sur le lien ci-dessous 👇
 
-[Créez la newsletter ZecWeekly](https://wiki.zechub.xyz/ZecWeekly-newsletter) 
+[Créez la newsletter ZecWeekly](https://zechub.wiki/contribute/zecweekly-newsletter) 
 
 ---
 

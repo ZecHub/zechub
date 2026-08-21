@@ -11,7 +11,7 @@ Dans cette édition, nous explorerons les développements récents de l'ECC conc
 
 Vous pouvez également être un contributeur sur ZecHub en nous aidant à créer notre newsletter hebdomadaire et être récompensé pour votre contribution.
 
-[Créer la Newsletter ZecWeekly](https://wiki.zechub.xyz/ZecWeekly-newsletter)
+[Créer la Newsletter ZecWeekly](https://zechub.wiki/contribute/zecweekly-newsletter)
 
 ---
 

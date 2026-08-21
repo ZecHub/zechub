@@ -12,7 +12,7 @@ A cura di "Hardaeborla" ([Hardaeborla](https://twitter.com/ayanlajaadebola)), tr
 
 ### Benvenuti a ZecWeekly
 
-Benvenuti a un'altra entusiasmante edizione della nostra newsletter settimanale in cui condividiamo le recenti notizie che accadono nello spazio crittografico e le informazioni più recenti sull'ecosistema Zcash. Potete anche contribuire a ZecHub visitando il nostro [sito](https://wiki.zechub.xyz/contribute). 
+Benvenuti a un'altra entusiasmante edizione della nostra newsletter settimanale in cui condividiamo le recenti notizie che accadono nello spazio crittografico e le informazioni più recenti sull'ecosistema Zcash. Potete anche contribuire a ZecHub visitando il nostro [sito](https://zechub.wiki/contribute). 
 
 Nella newsletter di questa settimana esploreremo i recenti avvenimenti nell'ecosistema Zcash, tra cui il rapporto sulla trasparenza dell'ECC. Verranno inoltre illustrati i diversi modelli di transazione nell'ecosistema Zcash e i recenti sviluppi nello spazio crittografico.
 

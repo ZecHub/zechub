@@ -12,7 +12,7 @@ Bienvenue à un nouvel épisode passionnant de ZecWeekly où nous dévoilons de 
 
 Cette semaine, nous vous apportons un guide nouvellement publié sur l'utilisation de Zcash avec des échanges non dépositaires, une répartition complète incluant une liste complète des échanges non dépositaires prenant en charge Zcash.
 
-En savoir plus : [Échanges Non Dépositaires](https://wiki.zechub.xyz/non-custodial-exchanges)
+En savoir plus : [Échanges Non Dépositaires](https://zechub.wiki/using-zcash/non-custodial-exchanges)
 
 ## Mises à jour Zcash
 

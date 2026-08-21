@@ -10,7 +10,7 @@ Itumọ si ede Yoruba nipasẹ "Hardaeborla" ([Hardaeborla](https://twitter.com/
 ### EKaabo si ZecWeekly
 Bi a ṣe bẹrẹ ọsẹ miiran, a ni itara lati mu awọn imudojuiwọn tuntun wa lori Zcash, ati awọn idagbasoke aipẹ ni aaye cryptocurrency. Mo ni ọlá lati ṣe alabapin si agbegbe Zcash pẹlu iranlọwọ ti ZecHub.
 
-O tun le jẹ oluranlọwọ lori ZecHub nipa lilo si itọsọna [yii](https://wiki.zechub.xyz/contribute)
+O tun le jẹ oluranlọwọ lori ZecHub nipa lilo si itọsọna [yii](https://zechub.wiki/contribute)
 
 ---
 

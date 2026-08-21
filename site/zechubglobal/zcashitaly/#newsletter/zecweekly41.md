@@ -14,7 +14,7 @@ Ciao! Sono lieto di far parte della comunità ed entusiasta di partecipare e con
 
 Il programma di questa settimana comprende vari eventi, come la discussione tra Decreed e Zcash. Inoltre, è stata accolta una proposta per la costruzione di un subnet bridge Zcash su Avalanche. 
 
-Se volete partecipare alla creazione di future newsletter, visitate il nostro [sito](https://wiki.zechub.xyz/zecweekly-newsletter). Saremo lieti di guidarvi attraverso il processo, è un ottimo modo per conoscere l'ecosistema e guadagnare ZEC.
+Se volete partecipare alla creazione di future newsletter, visitate il nostro [sito](https://zechub.wiki/contribute/zecweekly-newsletter). Saremo lieti di guidarvi attraverso il processo, è un ottimo modo per conoscere l'ecosistema e guadagnare ZEC.
 
 ---
 

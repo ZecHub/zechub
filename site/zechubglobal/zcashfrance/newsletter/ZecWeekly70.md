@@ -12,7 +12,7 @@ Ecrit par "Ochuko" ([amochuko](https://github.com/amochuko))
 
 Bonjour et bienvenue à ZecWeekly !
 
-Si vous souhaitez vous impliquer dans la création de futures newsletters, rendez-vous sur notre [site](https://wiki.zechub.xyz/zecweekly-newsletter). Nous serons heureux de vous guider à travers le processus, c'est une excellente manière d'apprendre sur l'écosystème et de gagner du ZEC.
+Si vous souhaitez vous impliquer dans la création de futures newsletters, rendez-vous sur notre [site](https://zechub.wiki/contribute/zecweekly-newsletter). Nous serons heureux de vous guider à travers le processus, c'est une excellente manière d'apprendre sur l'écosystème et de gagner du ZEC.
 
 ---
 

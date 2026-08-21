@@ -3,7 +3,7 @@
 Ikiwa wewe ni mwanachama wa jamii ya Zcash, na unataka kuchangia katika ujenzi wa ZecHub, kuna mambo kadhaa ambayo ni muhimu sana.
 
 1. Hakiki viungo kwa ajili ya jarida na uviweke kwenye ukurasa wa Github wa jarida hilo. 
-Pata maelekezo ya jinsi ya kufanya hivyo kwenye [@ZecWeekly Newsletter](https://wiki.zechub.xyz/zecweekly-newsletter).
+Pata maelekezo ya jinsi ya kufanya hivyo kwenye [@ZecWeekly Newsletter](https://zechub.wiki/contribute/zecweekly-newsletter).
 2. Thibitisha ukweli wa hati za wiki, shauri uboreshaji, na pendekeza kurasa mpya kwenye Github (Tafadhali pendekeza kurasa chini ya sehemu zilizopo. Hatutaki kuzidisha ukurasa wa mwanzo wa wiki).
 3. Tengeneza video kuhusu kategoria zifuatazo:  Video za maelezo ya Zcash Mwongozo/mafunzo ya mkoba wa Zcash  Maonyesho ya programu ya mtu wa tatu (yaani Spedn).
 4. Tengeneza muundo kama vile mabango/makaratasi ya kielektroniki/animation kwa ajili ya Zcash na mazingira ya faragha. 

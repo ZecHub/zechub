@@ -4,7 +4,7 @@ Se você é um membro da comunidade Zcash e quer contribuir para a construção 
 
 Você pode:
 
-1. Selecionar as notícias (links) para as Newsletters semanais e adicioná-las à página do Github da Newsletter. Encontre as instruções sobre como fazer isso aqui: [Newsletter - Zcash Ecosystem Digest](https://wiki.zechub.xyz/zecweekly-newsletter).
+1. Selecionar as notícias (links) para as Newsletters semanais e adicioná-las à página do Github da Newsletter. Encontre as instruções sobre como fazer isso aqui: [Newsletter - Zcash Ecosystem Digest](https://zechub.wiki/contribute/zecweekly-newsletter).
 
 2. Verificar a precisão dos documentos da Wiki e sugerir edições e proponha novas páginas no [Github](https://github.com/zechub/zechub) (por favor, proponha páginas sob seções existentes. Não queremos sobrecarregar a página inicial da wiki).
 
@@ -34,6 +34,6 @@ Se houver maneiras alternativas pelas quais você gostaria de contribuir, envie 
 
 ## **Formulário de Colaborador da ZecHub**
 
-Para receber a recompensa por suas contribuições, exigimos que você [preencha este formulário de contribuidor](https://wiki.zechub.xyz/contribute).
+Para receber a recompensa por suas contribuições, exigimos que você [preencha este formulário de contribuidor](https://zechub.wiki/contribute).
 
 Caso você queira adicionar ou sugerir edições nesta página da Wiki, visite o repositório da ZecHub no Github e [envie uma solicitação na Pull](https://github.com/ZecHub/zechub/pulls) (Pull Request).

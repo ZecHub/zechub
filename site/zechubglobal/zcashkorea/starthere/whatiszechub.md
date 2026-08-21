@@ -4,7 +4,7 @@
 ZecHub는 Zcash를 위한 분산형 교육 허브입니다. ZecHub의 목표는 커뮤니티 구성원이 Zcash 생태계를 지원하는 콘텐츠를 생성, 검증 및 홍보하기 위해 함께 작업할 수 있는 플랫폼을 제공하는 것입니다. 몇 가지 메커니즘을 통해 이 작업을 수행할 수 있습니다.
 
 1. [가이드라인. ZEC UX에 대한 비디오](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA)
-2. [위키 문서. 초보자를 위한 짧은 형식의 ZEC 콘텐츠입니다.](https://wiki.zechub.xyz/)
+2. [위키 문서. 초보자를 위한 짧은 형식의 ZEC 콘텐츠입니다.](https://zechub.wiki)
 3. [커뮤니티 구성원을 인터뷰하는 팟캐스트](https://www.youtube.com/playlist?list=PL9eB_cR4oMej3vs1wMwhQL_Vz8WZBftF0).
 4. [주간 Zcash 뉴스레터.](https://zechub.substack.com/)
 

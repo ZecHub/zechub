@@ -14,7 +14,7 @@ Marta Belcher는 Gensler가 Zcash와 커뮤니티 이벤트를 지지한다고 �
 
 또한 브라질에서 텔레그램 금지, Unstopable Wallet의 지원, Free2z Noches, Zcash Bonfire 및 ZecHub Quests와 같은 새로운 Zcash 릴리즈에 대해서도 다룹니다.
 
-향후 뉴스레터 제작에 참여하고 싶으시면 [site](https://wiki.zechub.xyz/zecweekly-newsletter)로 이동하십시오. 이 과정을 안내해 드리겠습니다. 생태계에 대해 배우고 ZEC를 획득할 수 있는 좋은 방법입니다.
+향후 뉴스레터 제작에 참여하고 싶으시면 [site](https://zechub.wiki/contribute/zecweekly-newsletter)로 이동하십시오. 이 과정을 안내해 드리겠습니다. 생태계에 대해 배우고 ZEC를 획득할 수 있는 좋은 방법입니다.
 
 ---
 

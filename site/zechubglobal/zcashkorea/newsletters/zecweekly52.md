@@ -14,13 +14,13 @@ ZecHub은 ZecHub Extras의 출시를 발표하고, 영국 법원은 Craig Wright
 안녕하세요 Zcashers!! 크립토 스페이스 및 Zcash 에코시스템에서 최근에 발생한 업데이트를 공유하는 또 다른 흥미로운 부분입니다. ZecHub Extras로 알려진 ZecHub의 최초 NFT 마켓플레이스 출시에 대해 자세히 알아보겠습니다. 또한 ECC가 제안한 Trailing Finality Layer에 대해서도 살펴보겠습니다. 또한 귀중한 Zcash 팁 등을 확인할 준비를 하십시오!
 
 또한 주간 뉴스레터를 작성하고 기여에 대한 보상을 받을 수 있도록 도와줌으로써 ZecHub의 기고자가 될 수 있습니다. 아래 링크를 클릭하여 자세히 알아보기 👇👇
-[Zec Weekly 뉴스레터 만들기](https://wiki.zechub.xyz/ZecWeekly-newsletter)
+[Zec Weekly 뉴스레터 만들기](https://zechub.wiki/contribute/zecweekly-newsletter)
 
 ---
 
 ## 이번 주의 교육 기사 
 L1 지분 증명 프로토콜을 활용하여 사용자에게 체인 간 자산에 구애받지 않는 Privacy를 제공하는 체인 간 Privacy 프로토콜에 대해 자세히 알아보겠습니다. 이것은 Namada Protocol로 알려진 web3 프로젝트입니다. 이 위키는 Namada Protocol에 대해 알아야 할 모든 중요한 사항을 다루고 있으며, 가장 중요한 것은 Zcash와의 전략적 제휴입니다. 아래 링크를 통해 Namada Protocol에 대해 자세히 알아보십시오. 👇👇
-[나마다 프로토콜](https://wiki.zechub.xyz/namada-protocol)
+[나마다 프로토콜](https://zechub.wiki/privacy-tools/namada-protocol)
 
 
 
