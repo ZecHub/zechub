@@ -28,27 +28,46 @@ For every ZIP that comes in, it must undergo the review process. ZIP editors are
 * Sam and Mark, associated with SL.
 ```
 
-## Notable Current Draft ZIPs
+## Notable Current ZIPs
 
-> Draft: [Transarent Zcash Extensions](https://github.com/zcash/zips/blob/main/zip-0222)
+Statuses and titles below were checked against the ZIP index at [zips.z.cash](https://zips.z.cash/#index-of-zips) on 18 August 2026. A ZIP's status changes over time, so treat the index as the source of truth.
 
-> Draft: [Transfer and Burn of Zcash Shielded Assets](https://github.com/zcash/zips/blob/main/zip-0226)
+> Draft: [Transparent Zcash Extensions](https://zips.z.cash/zip-0222)
 
-> Draft: [Issuance of Zcash Shielded Assets](https://github.com/zcash/zips/blob/main/zip-0227)
+> Draft: [Transfer and Burn of Zcash Shielded Assets](https://zips.z.cash/zip-0226)
 
-> Draft: [Version 6 Transaction Format](https://github.com/zcash/zips/blob/main/zip-0230)
+> Draft: [Issuance of Zcash Shielded Assets](https://zips.z.cash/zip-0227)
 
-> Draft: [Transaction Identifier Digests & Signature Validation for Transparent Zcash Extensions](https://github.com/zcash/zips/blob/main/zip-0245)
+> Withdrawn: [Withdrawn Version 6 Transaction Format](https://zips.z.cash/zip-0230) — obsoleted by ZIP 229, which now defines transaction version 6. See the NU6.3 list below.
 
-> Draft: [Standardized Memo Field Format](https://github.com/zcash/zips/blob/main/zip-0302)
+> Draft: [Transaction Identifier Digests & Signature Validation for Transparent Zcash Extensions](https://zips.z.cash/zip-0245)
 
-> Draft: [Sapling Address Signatures](https://github.com/zcash/zips/blob/main/zip-0304)
+> Draft: [Standardized Memo Field Format](https://zips.z.cash/zip-0302)
 
-> Draft: [Light Client Protocol for Payment Detection](https://github.com/zcash/zips/blob/main/zip-0307.)
+> Draft: [Sapling Address Signatures](https://zips.z.cash/zip-0304)
 
-> Draft: [Security Properties of Sapling Viewing Keys](https://github.com/zcash/zips/blob/main/zip-0310)
+> Draft: [Light Client Protocol for Payment Detection](https://zips.z.cash/zip-0307)
 
-> Draft: [Defining an Address Type to which funds can only be sent from Transparent Addresses](https://github.com/zcash/zips/blob/main/zip-0320)
+> Draft: [Security Properties of Sapling Viewing Keys](https://zips.z.cash/zip-0310)
 
-> Draft: [Wallet.dat format](https://github.com/zcash/zips/blob/main/zip-0400)
+> Active: [Defining an Address Type to which funds can only be sent from Transparent Addresses](https://zips.z.cash/zip-0320)
 
+> Draft: [Wallet.dat format](https://zips.z.cash/zip-0400)
+
+## NU6.3 (Ironwood) ZIPs
+
+NU6.3 is described in ZIP 258, together with the additional ZIPs listed here. The full candidate set is published on the [ZIP index](https://zips.z.cash/#nu6-3-candidate-zips).
+
+> Draft: [Deployment of the NU6.3 Network Upgrade](https://zips.z.cash/zip-0258)
+
+> Draft: [Version 6 Transaction Format](https://zips.z.cash/zip-0229)
+
+> Draft: [Orchard to Ironwood Migration](https://zips.z.cash/zip-0318)
+
+> Draft: [NU6.3 Consequences for Wallets](https://zips.z.cash/zip-0326)
+
+> Proposed: [Ironwood Quantum Recoverability](https://zips.z.cash/zip-2005)
+
+> Reserved: [Restricting Transfers into the Orchard Pool](https://zips.z.cash/zip-2006)
+
+Three earlier ZIPs are also updated for NU6.3: [ZIP 209](https://zips.z.cash/zip-0209), [ZIP 213](https://zips.z.cash/zip-0213) and [ZIP 317](https://zips.z.cash/zip-0317).
