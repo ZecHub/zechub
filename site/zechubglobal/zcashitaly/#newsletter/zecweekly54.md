@@ -13,7 +13,7 @@ In questa edizione, esploreremo i recenti sviluppi dell'ECC relativi all'evento 
 
 Potete anche contribuire a ZecHub, aiutandoci a creare la nostra Newsletter settimanale e ricevendo una ricompensa per il vostro contributo. 
 
-[Crea newsletter ZecWeekly](https://wiki.zechub.xyz/ZecWeekly-newsletter) 
+[Crea newsletter ZecWeekly](https://zechub.wiki/contribute/zecweekly-newsletter) 
 
 ---
 

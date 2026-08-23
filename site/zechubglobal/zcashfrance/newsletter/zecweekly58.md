@@ -16,7 +16,7 @@ Bienvenue dans une semaine excitante où nous vous apportons les dernières nouv
 
 Si vous êtes nouveau sur Zcash, vous découvrirez deux types de transactions connus sous les noms de transparentes et protégées. Pour ceux qui suivent les récents développements de Zcash, vous pourriez également être assez familier avec les Adresses Unifiées sur le réseau Zcash. La question clé est de savoir comment ces adresses fonctionnent dans les portefeuilles Zcash.
 
-En savoir plus : [Visualiser les adresses Zcash](https://wiki.zechub.xyz/visualizing-zcash-addresses)
+En savoir plus : [Visualiser les adresses Zcash](https://zechub.wiki/guides/visualizing-zcash-addresses)
 
 ---
 

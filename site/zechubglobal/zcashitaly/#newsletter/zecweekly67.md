@@ -12,7 +12,7 @@ A cura di "Ochuko" ([amochuko](https://github.com/amochuko)), tradotto da [Olek]
 
 Questa settimana ci aggiorna sugli obiettivi di gennaio 2024 dell'ECC per l'UX, sui problemi di prestazioni dei portafogli risolti, sull'SDK di Zcash e sulle ultime notizie dal mondo delle criptovalute.
 
-Se volete partecipare alla creazione di future newsletter, visitate il nostro [sito](https://wiki.zechub.xyz/zecweekly-newsletter). Saremo lieti di guidarvi attraverso il processo, è un ottimo modo per conoscere l'ecosistema e guadagnare ZEC.
+Se volete partecipare alla creazione di future newsletter, visitate il nostro [sito](https://zechub.wiki/contribute/zecweekly-newsletter). Saremo lieti di guidarvi attraverso il processo, è un ottimo modo per conoscere l'ecosistema e guadagnare ZEC.
 
 ---
 

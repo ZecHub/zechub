@@ -12,7 +12,7 @@ Zcash 보조금 커뮤니티에서 미팅, Lightwalletd 0.4.14 릴리스, Zcon �
 
 안녕하세요! 이번 주에는 ECC의 Zcash 분산화 제안 및 계획 업데이트, Lightwalletd 0.4.14 출시 등의 이벤트가 진행됩니다!
 
-향후 뉴스레터 제작에 참여하고 싶으시면 [site](https://wiki.zechub.xyz/zecweekly-newsletter)로 이동하십시오. 이 과정을 안내해 드리겠습니다. 생태계에 대해 배우고 ZEC를 획득할 수 있는 좋은 방법입니다.
+향후 뉴스레터 제작에 참여하고 싶으시면 [site](https://zechub.wiki/contribute/zecweekly-newsletter)로 이동하십시오. 이 과정을 안내해 드리겠습니다. 생태계에 대해 배우고 ZEC를 획득할 수 있는 좋은 방법입니다.
 
 ---
 

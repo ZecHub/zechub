@@ -16,7 +16,7 @@ C'est excitant de partager une autre newsletter remplie de bonnes nouvelles et d
 
 Vous pouvez également contribuer à ZecHub en nous aidant à créer notre newsletter hebdomadaire et recevoir une récompense pour votre contribution. Pour en savoir plus, cliquez sur le lien ci-dessous 👇
 
-[Créez la newsletter hebdomadaire de Zec](https://wiki.zechub.xyz/zecweekly-newsletter)
+[Créez la newsletter hebdomadaire de Zec](https://zechub.wiki/contribute/zecweekly-newsletter)
 
 ---
 

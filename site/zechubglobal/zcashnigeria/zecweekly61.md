@@ -13,7 +13,7 @@ Nínú ìṣẹ̀lẹ̀ tí ọsẹ yìí tí Ìwé iroyin Ọsẹ-ọsẹ ZecHu
 ## Nkan Ẹkọ ti Ọsẹ yii
 Ninu ẹya eto ẹkọ ti ọsẹ yii, a yoo lọ sinu Zgo, ojutu sisẹ isanwo ti o funni ni aabo, aṣiri, ati idaṣeduro nipasẹ gbigbe Zcash mu O rọrun pupọ lati ṣeto lori aaye / ile itaja tirẹ! Ṣe afẹri diẹ sii nipa awọn agbara ZGo:
 
-[Isanwo isise Pẹ̀lú ZGo](https://wiki.zechub.xyz/zgo-payment-processor) 
+[Isanwo isise Pẹ̀lú ZGo](https://zechub.wiki/guides/zgo-payment-processor) 
 
 
 ## Awọn imudojuiwọn Zcash

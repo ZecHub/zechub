@@ -11,7 +11,7 @@ EU서 블록체인 프라이버시 위기, 위안화 스테이블코인 팀 체�
 
 또 한 주를 시작하면서 Zcash에 대한 최신 업데이트와 암호화폐 분야의 최근 발전을 알려드리게 되어 기쁩니다. ZecHub의 도움으로 Zcash 커뮤니티에 기여하게 되어 영광으로 생각합니다. 
 
-이 [guide](https://wiki.zechub.xyz/contribute)를 방문하여 ZecHub에 대한 기여자가 될 수도 있습니다.
+이 [guide](https://zechub.wiki/contribute)를 방문하여 ZecHub에 대한 기여자가 될 수도 있습니다.
 
 이번 주는 가장 최근의 뉴스레터를 파헤칠 것입니다 
 

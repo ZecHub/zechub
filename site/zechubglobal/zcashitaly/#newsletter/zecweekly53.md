@@ -16,7 +16,7 @@ A cura di "Hardaeborla" ([Papeles a Color](https://twitter.com/lexaleth)), trado
 
 Potete anche contribuire a ZecHub aiutandoci a creare la nostra Newsletter settimanale e ricevere una ricompensa per il vostro contributo. Per saperne di più, cliccate sul link qui sotto 👇
 
-[Crea la newsletter settimanale di Zec](https://wiki.zechub.xyz/zecweekly-newsletter)
+[Crea la newsletter settimanale di Zec](https://zechub.wiki/contribute/zecweekly-newsletter)
 
 ---
 

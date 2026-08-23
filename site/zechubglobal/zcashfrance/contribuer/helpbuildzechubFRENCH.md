@@ -3,7 +3,7 @@
 
 Si vous êtes membre de la communauté Zcash et que vous souhaitez contribuer à la construction de ZecHub, certaines choses sont très utiles.
 
-1. Organisez les liens pour la newsletter et ajoutez-les à la page github de la newsletter. Trouvez des instructions sur la façon de procéder sur [@ZecWeekly Newsletter](https://wiki.zechub.xyz/zecweekly-newsletter).
+1. Organisez les liens pour la newsletter et ajoutez-les à la page github de la newsletter. Trouvez des instructions sur la façon de procéder sur [@ZecWeekly Newsletter](https://zechub.wiki/contribute/zecweekly-newsletter).
 2. Vérifiez les documents du wiki, suggérez des modifications et proposez de nouvelles pages dans Github (veuillez proposer des pages sous des sections existantes. Nous ne voulons pas surcharger la page d'accueil du wiki)
 3. Créez du contenu vidéo dans les catégories suivantes 1) Vidéos explicatives Zcash 2) Guide/tutoriels sur le portefeuille Zcash 3) Démos d'applications tierces (c.-à-d. Spedn)
 4. Produire des conceptions telles que des affiches/graphiques/animations pour l'écosystème Zcash & Privacy

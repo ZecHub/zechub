@@ -16,7 +16,7 @@ Dans l'épisode de cette semaine de la Newsletter Hebdomadaire de ZecHub, nous a
 
 Dans la caractéristique éducative de cette semaine, nous plongerons dans une solution de traitement de paiement largement utilisée qui offre sécurité, confidentialité et autonomie en exploitant la technologie Zcash. Notre focus sera sur le processeur de paiement Zcash connu sous le nom de ZGo. Découvrez-en plus sur les capacités de ZGo :
 
-[ZGo Payment Processor](https://wiki.zechub.xyz/zgo-payment-processor) 
+[ZGo Payment Processor](https://zechub.wiki/guides/zgo-payment-processor) 
 
 ## Mises à jour Zcash
 

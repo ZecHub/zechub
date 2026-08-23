@@ -9,7 +9,7 @@ Abojuto lati Odo "Hardaeborla" [Hardaeborla](https://twitter.com/ayanlajaadebola
 ### EKaabo si ZecWeekly
 Kaabọ si ẹda moriwu miiran ti iwe iroyin ọsẹ wa nibiti a ti pin awọn iroyin aipẹ ni aaye crypto ati alaye nipa awọn iṣẹlẹ tuntun laarin ilolupo Zcash.
 
-Ti o ba fẹ lati ni imọ siwaju sii nipa idasi ni ZecHub ṣabẹwo aaye [wa](https://wiki.zechub.xyz/contribute) 
+Ti o ba fẹ lati ni imọ siwaju sii nipa idasi ni ZecHub ṣabẹwo aaye [wa](https://zechub.wiki/contribute) 
 ---
 
 ## Nkan Ẹkọ ti Ọsẹ yii

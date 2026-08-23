@@ -14,7 +14,7 @@ A cura di "Hardaeborla" ([Hardaeborla](https://twitter.com/ayanlajaadebola)), tr
 
 In questa newsletter esploreremo i recenti avvenimenti nell'ecosistema Zcash, tra cui l'anniversario del primo anno di ZecHub, gli aggiornamenti sul recente lancio di Zebra e alcuni consigli utili per l'utilizzo di Zcash. 
 
-Se volete saperne di più su come contribuire a ZecHub visitate il nostro [sito](https://wiki.zechub.xyz/contribute).
+Se volete saperne di più su come contribuire a ZecHub visitate il nostro [sito](https://zechub.wiki/contribute).
 
 ---
 

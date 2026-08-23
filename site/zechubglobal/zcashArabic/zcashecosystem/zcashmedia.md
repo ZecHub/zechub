@@ -5,7 +5,7 @@
 
 ## معلومات عامة
 
-تم الإنتاج من قبل  [37 LAINES](https://www.37laines.com/)من أجل الصالح العام ، تدور مقاطع الفيديو التعليمية لشركة Zcash Media حول Zcash والعملات المشفرة. يتم تمويله من قبل [Zcash Community Grants](https://wiki.zechub.xyz/zcash-community-grants) program, وأصبح لاعبًا مهمًا في نظام Zcash البيئي.
+تم الإنتاج من قبل  [37 LAINES](https://www.37laines.com/)من أجل الصالح العام ، تدور مقاطع الفيديو التعليمية لشركة Zcash Media حول Zcash والعملات المشفرة. يتم تمويله من قبل [Zcash Community Grants](https://zechub.wiki/zcash-organizations/zcash-community-grants) program, وأصبح لاعبًا مهمًا في نظام Zcash البيئي.
 
 ## Videos
 

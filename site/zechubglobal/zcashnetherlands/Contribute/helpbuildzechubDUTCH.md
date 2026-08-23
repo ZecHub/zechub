@@ -2,7 +2,7 @@
 
 Als je lid bent van de Zcash-gemeenschap en wilt bijdragen aan het bouwen van ZecHub, zijn er een paar dingen die super handig zijn.
 
-1. Beheer links voor de nieuwsbrief en voeg ze toe aan de github-pagina van de nieuwsbrief. Vind instructies over hoe dat te doen op [@ZecWeekly Newsletter](https://wiki.zechub.xyz/zecweekly-newsletter).
+1. Beheer links voor de nieuwsbrief en voeg ze toe aan de github-pagina van de nieuwsbrief. Vind instructies over hoe dat te doen op [@ZecWeekly Newsletter](https://zechub.wiki/contribute/zecweekly-newsletter).
 2. Factcheck de wiki-documenten, stel bewerkingen voor en stel nieuwe pagina's voor in Github (Stel pagina's voor onder bestaande secties. We willen de startpagina van de wiki niet overbelasten)
 3. Maak video-inhoud in de volgende categorieën 1) Zcash-uitlegvideo's 2) Zcash-portemonneegids / -tutorials 3) Applicatiedemo's van derden (bijv. Spedn)
 4. Maak ontwerpen zoals posters/afbeeldingen/animaties voor het Zcash & Privacy-ecosysteem

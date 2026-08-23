@@ -4,7 +4,7 @@
 ZecHub è una piattaforma educativa decentralizzata per Zcash. L'obiettivo di [ZecHub](http://zechub.xyz) è fornire una piattaforma educativa in cui i membri della comunità possano lavorare insieme alla creazione, convalida e promozione di contenuti che supportino l'ecosistema Zcash. Lo facciamo attraverso alcuni meccanismi.
 
 1. [Tutorial. Soprattutto video sull'esperienza utente di ZEC](https://www.youtube.com/channel/UC3-KM00kjCUheRzO5cq3PAA).
-2. [Wiki-docs. Contenuti ZEC a breve termine per principianti](https://wiki.zechub.xyz/).
+2. [Wiki-docs. Contenuti ZEC a breve termine per principianti](https://zechub.wiki).
 3. [Un podcast che intervista i membri della comunità](https://www.youtube.com/playlist?list=PL9eB_cR4oMej3vs1wMwhQL_Vz8WZBftF0).
 4. [Una newsletter settimanale su Zcash](https://zechub.substack.com/).
 

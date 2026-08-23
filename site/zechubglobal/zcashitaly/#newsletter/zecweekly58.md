@@ -15,7 +15,7 @@ Benvenuti a una settimana entusiasmante, in cui vi forniremo gli ultimi aggiorna
 
 Se siete nuovi su Zcash, scoprirete due tipi di transazioni, note come trasparenti e schermate. Chi ha seguito i recenti sviluppi di Zcash potrebbe anche avere una certa familiarità con gli indirizzi unificati della rete Zcash. La domanda chiave è come funzionano questi indirizzi nei portafogli Zcash.
 
-Per saperne di più: [Visualizzazione degli indirizzi Zcash](https://wiki.zechub.xyz/visualizing-zcash-addresses)
+Per saperne di più: [Visualizzazione degli indirizzi Zcash](https://zechub.wiki/guides/visualizing-zcash-addresses)
 **Aggiornamenti Zcash**
 
 

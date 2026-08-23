@@ -10,7 +10,7 @@ O jẹ apakan igbadun miiran ti ọsẹ nigbati a pin imudojuiwọn aipẹ ti n 
 
 O tun le jẹ oluranlọwọ lori ZecHub nipa riranlọwọ wa lọwọ lati ṣẹda Iwe irohin ọsẹ wa ati gba ere fun ilowosi rẹ. Kọ ẹkọ diẹ sii nipa titẹ ọna asopọ ni isalẹ 👇
 
-[Ṣẹda  Iwe iroyin Osese Zec!](https://wiki.zechub.xyz/ZecWeekly-newsletter) 
+[Ṣẹda  Iwe iroyin Osese Zec!](https://zechub.wiki/contribute/zecweekly-newsletter) 
 
 
 
@@ -19,7 +19,7 @@ O tun le jẹ oluranlọwọ lori ZecHub nipa riranlọwọ wa lọwọ lati ṣ
 ## Nkan Ẹkọ ti Ọsẹ yii
 A yoo kọ ẹkọ diẹ sii nipa Ilana ikọkọ kan eyiti o nlo Imudaniloju-ti-Stake Layer-1 lati pese ikọkọ dukia interchain-agnostic fun awọn olumulo. Wiki yii bo gbogbo awọn nkan pataki ti o nilo lati mọ nipa Ilana Namada ati pataki julọ, o jẹ ajọṣepọ ilana 🤝 pẹlu Zcash.
 
-[Kọ ẹkọ diẹ sii nipa Ilana Namada](https://wiki.zechub.xyz/namada-protocol) 
+[Kọ ẹkọ diẹ sii nipa Ilana Namada](https://zechub.wiki/privacy-tools/namada-protocol) 
 
 
 ## Awọn imudojuiwọn Zcash

@@ -14,7 +14,7 @@ Zcashd v5.5.1 업그레이드, 팟캐스트 에피소드 & 커뮤니티 이벤�
 
 이번 주에는 ECC의 Zcashd v5.5.1 출시, PhononDAO x Zcash 커뮤니티 토론, Free2Z AI 기능 등과 같은 이벤트가 있습니다!
 
-향후 뉴스레터 제작에 참여하고 싶으시면 [site](https://wiki.zechub.xyz/zecweekly-newsletter)로 이동하십시오. 이 과정을 안내해 드리겠습니다. 생태계에 대해 배우고 ZEC를 획득할 수 있는 좋은 방법입니다.
+향후 뉴스레터 제작에 참여하고 싶으시면 [site](https://zechub.wiki/contribute/zecweekly-newsletter)로 이동하십시오. 이 과정을 안내해 드리겠습니다. 생태계에 대해 배우고 ZEC를 획득할 수 있는 좋은 방법입니다.
 
 ---
 

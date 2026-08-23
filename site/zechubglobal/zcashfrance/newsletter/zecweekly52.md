@@ -12,7 +12,7 @@ C'est une autre partie passionnante de la semaine où nous partageons les récen
 
 Vous pouvez également être contributeur sur ZecHub en nous aidant à créer notre newsletter hebdomadaire et être récompensé pour votre contribution. Apprenez-en plus en cliquant sur le lien ci-dessous 👇
 
-[Créer la Newsletter ZecWeekly](https://wiki.zechub.xyz/zecweekly-newsletter) 
+[Créer la Newsletter ZecWeekly](https://zechub.wiki/contribute/zecweekly-newsletter) 
 
 ---
 
@@ -20,7 +20,7 @@ Vous pouvez également être contributeur sur ZecHub en nous aidant à créer no
 
 Nous en apprendrons plus sur un protocole de confidentialité interchaîne qui utilise le protocole de preuve d'enjeu de couche 1 pour fournir une confidentialité indépendante de l'actif interchaîne aux utilisateurs. Ce projet Web3 est connu sous le nom de Protocole Namada. Ce wiki couvre toutes les choses importantes que vous devez savoir sur le Protocole Namada et surtout, son alliance stratégique avec Zcash. Apprenez-en plus sur le Protocole Namada en lisant le lien ci-dessous 👇
 
-[Protocole Namada](https://wiki.zechub.xyz/namada-protocol) 
+[Protocole Namada](https://zechub.wiki/privacy-tools/namada-protocol) 
 
 ## Mises à jour de Zcash
 

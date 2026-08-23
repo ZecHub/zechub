@@ -16,7 +16,7 @@ A cura di "Hardaeborla" ([Hardaeborla](https://twitter.com/ayanlajaadebola)), tr
 
 Potete anche contribuire a ZecHub aiutandoci a creare la nostra Newsletter settimanale e ricevere una ricompensa per il vostro contributo. Per saperne di più, cliccate sul link qui sotto 👇
 
-[Crea la newsletter settimanale di Zec](https://wiki.zechub.xyz/zecweekly-newsletter)
+[Crea la newsletter settimanale di Zec](https://zechub.wiki/contribute/zecweekly-newsletter)
 
 ---
 
@@ -24,7 +24,7 @@ Potete anche contribuire a ZecHub aiutandoci a creare la nostra Newsletter setti
 
 Impareremo qualcosa di più su un protocollo di privacy intercatena che utilizza il protocollo Layer - 1 Proof-of-Stake per fornire agli utenti una privacy intercatena indipendente. Questo progetto Web3 è noto come Protocollo Namada. Questa wiki copre tutte le cose importanti da sapere sul protocollo Namada e, soprattutto, sulla sua alleanza strategica con Zcash. Per saperne di più sul Protocollo Namada, leggete il link qui sotto 👇
 
-[Protocollo Namada](https://wiki.zechub.xyz/namada-protocol)
+[Protocollo Namada](https://zechub.wiki/privacy-tools/namada-protocol)
 
 ## Aggiornamenti su Zcash
 

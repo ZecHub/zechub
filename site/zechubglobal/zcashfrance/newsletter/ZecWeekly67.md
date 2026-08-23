@@ -11,7 +11,7 @@ Zgo prend en charge les Adresses Unifiées, ECC sort du Mode d'Urgence & démo d
 
 Cette semaine nous informe sur les objectifs de ECC pour janvier 2024 concernant l'UX, la résolution des problèmes de performance des portefeuilles, la nouvelle version du SDK Zcash et zcashd, les nouvelles subventions communautaires, les dernières nouvelles du monde de la cryptomonnaie et bien plus encore.
 
-Si vous souhaitez vous impliquer dans la création de futures newsletters, rendez-vous sur notre [site](https://wiki.zechub.xyz/zecweekly-newsletter). Nous serons heureux de vous guider à travers le processus, c'est un excellent moyen d'en apprendre davantage sur l'écosystème et de gagner du ZEC.
+Si vous souhaitez vous impliquer dans la création de futures newsletters, rendez-vous sur notre [site](https://zechub.wiki/contribute/zecweekly-newsletter). Nous serons heureux de vous guider à travers le processus, c'est un excellent moyen d'en apprendre davantage sur l'écosystème et de gagner du ZEC.
 
 ---
 

@@ -16,7 +16,7 @@ Ciao a tutti! Sono lieto di contribuire alla comunità Zcash.
 
 Questa settimana sono in programma eventi come la release candidate di Zcashd 5.6.0, il giveaway di ZcashBrazil Nano Ledger Plus, l'episodio 002 di Zcast Esp e altro ancora!
 
-Se volete partecipare alla creazione di future newsletter, visitate il nostro [sito](https://wiki.zechub.xyz/zecweekly-newsletter). Saremo felici di guidarti attraverso il processo, è un ottimo modo per conoscere l'ecosistema e guadagnare ZEC.
+Se volete partecipare alla creazione di future newsletter, visitate il nostro [sito](https://zechub.wiki/contribute/zecweekly-newsletter). Saremo felici di guidarti attraverso il processo, è un ottimo modo per conoscere l'ecosistema e guadagnare ZEC.
 
 ---
 
@@ -27,7 +27,7 @@ Tecnologie Tor e I2P - Perché la privacy è importante
 Questo Wiki fornisce una spiegazione delle tecnologie Tor e I2P, evidenziandone le somiglianze e le principali differenze in termini di funzionalità. 
 Inoltre, è inclusa una guida per dimostrare il processo di integrazione di un portafoglio Zcash con Tor sia su smartphone che su PC.
 
-In conclusione, a seconda dello scenario d'uso specifico, sia le tecnologie Tor che I2P forniscono solide funzioni di privacy e anonimato, rendendole opzioni preziose da considerare quando si accede a Internet per proteggere la propria privacy. Leggi l'intero [thread!](https://wiki.zechub.xyz/privacy-tools/tor-i2p-technologies)
+In conclusione, a seconda dello scenario d'uso specifico, sia le tecnologie Tor che I2P forniscono solide funzioni di privacy e anonimato, rendendole opzioni preziose da considerare quando si accede a Internet per proteggere la propria privacy. Leggi l'intero [thread!](https://zechub.wiki/privacy-tools/tor-and-i2p)
 
 ## Aggiornamenti su Zcash
 
@@ -39,7 +39,7 @@ In conclusione, a seconda dello scenario d'uso specifico, sia le tecnologie Tor 
 
 [Video tutorial su come eseguire il nodo Zcashd su Raspberry Pi](https://www.youtube.com/watch?v=SGYrzhs1l2k)
 
-[Come usare Zcash con Tor](https://wiki.zechub.xyz/privacy-tools)
+[Come usare Zcash con Tor](https://zechub.wiki/privacy-tools)
 
 [Accelerazione di FROST con la moltiplicazione multi-scalare](https://zfnd.org/speeding-up-frost-with-multi-scalar-multiplication/) 
 
