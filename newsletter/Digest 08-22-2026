@@ -1,0 +1,86 @@
+# Zcash Ecosystem Digest | August 22nd 
+
+ZODL 3.10.0, Ironwood Migration, NU7 Polling Prep, Privacy & Security, ZCG Grants & Approvals, Zcon7 & Community Growth, Cypherpunk Mining Expansion, Zakura Optimizations, DeFi & Ecosystem Integrations, Grayscale/NYSE Attention, CFTC Spotlight & Rising $ZEC Activity
+
+# Zcash Updates ⓩ 
+
+## ZODL, Zcash Foundation & Shielded Labs 🛠️
+[Zodl 3.10.0 is here, bringing Coinholder Polling support for Ironwood-@zodl_app](https://x.com/i/status/2090819315356360903) 
+
+[Still haven’t moved to Ironwood? Here’s a simple way to migrate while keeping your privacy in mind-@zodl_app](https://support.zodl.com/article/42-moving-your-funds-to-ironwood)
+
+[A closer look at the Ironwood migration, ZIP-318, and how privacy shaped the wallet design-@zodl_app](https://x.com/zodl_app/status/2089730955435012243)
+
+[Zodl introduces PGPZ, a new policy framework built with Zcash in mind-@zodl_co](https://x.com/zodl_co/status/2090853005218259379)
+
+[Security stays at the heart of everything ZODL is building-@zodl_co](https://x.com/zodl_co/status/2090076846863896883)
+
+[If you want to take part in the upcoming poll, make sure your ZEC is migrated to Ironwood before the snapshot-@zodl_support](https://x.com/i/status/2089798895299682320)
+
+[New Zodl updates are out now: v3.9.5 on iOS and v3.9.3 on Android-@zodl_support](https://x.com/i/status/2089784622573896079)
+
+[Missed the latest Zcash Arborist Call? The recording is now available-@ZcashFoundation](https://x.com/i/status/2090734005809291601)
+
+[Zcon7 is officially underway, bringing the Zcash community together once again 🎉-@ZcashFoundation](https://x.com/i/status/2090474770445815989)
+
+ ## Zcash Community Grants 🏛️ 
+[The Open Light Nodes team shared a follow-up after ZCG’s August 17 decision on its light-client proposal for Asia-@jatinsahijwani](https://forum.zcashcommunity.com/t/grant-application-open-light-nodes-independent-zcash-light-client-infrastructure-for-asia/56847/4)
+
+[ZCG’s August 17 meeting notes are out, with the latest grant discussions and decisions-@ZCG](https://forum.zcashcommunity.com/t/zcash-community-grants-meeting-minutes-8-17-2026/57119)
+
+[A new grant proposal is looking to bring “Zcash Hack to Dark” to Devcon 8 in Mumbai-@webzero](https://forum.zcashcommunity.com/t/grant-application-zcash-hack-to-dark-during-devcon-8-mumbai/57135)
+
+[Pretty Good Policy for Zcash (PGPZ) is now in as a new ZCG grant proposal-@divijpandya](https://forum.zcashcommunity.com/t/grant-application-pretty-good-policy-for-zcash/57134)
+
+[A new proposal is exploring a post-quantum network layer to make Zcash tougher against censorship-@mori](https://forum.zcashcommunity.com/t/grant-application-shph-high-assurance-post-quantum-network-layer-for-censorship-resistance/57124)
+
+[Another proposal is focused on building reusable security testing tools for Halo2 verifiers-@skye_yayaya](https://forum.zcashcommunity.com/t/grant-application-reusable-halo2-verifier-security-testing-infrastructure-zkcg-reference-implementation/57115)
+
+[ZCG gave the green light to work on stronger timing security for Zcash Rust cryptography-@ZCG](https://forum.zcashcommunity.com/t/grant-application-constant-time-hardening-and-explicit-timing-semantics-for-zcash-rust-cryptography/56503/11)
+
+[ELLIPAL’s proposal to add Ironwood shielded transaction support has been approved by ZCG-@FPF](https://forum.zcashcommunity.com/t/grant-application-ellipal-zcash-ironwood-shielded-transaction-support/56856/2)
+
+## Community Projects 🌐 
+[ZecHub DAO Proposal A172 made it through, adding another community-backed proposal to the books 🎉-@ZecHub](https://x.com/i/status/2089315188583309471)
+
+[Cypherpunk is now mining ZEC too, launching what it calls the world’s largest Zcash mining fleet with around 4.2 GSol/s of live hashrate-@cypherpunk](https://x.com/i/status/2089692187864842252)
+
+[Valar Group’s coinholder voting chain is taking shape, with community validators coming online ahead of the upcoming Zcash voting process-@jenkin27](https://x.com/i/status/2089692893392810114)
+
+[zero-indexer is getting ready to add another layer of privacy by making it harder to connect Zcash transactions with a user’s IP address-@aquietinvestor](https://x.com/i/status/2089775932844495354)
+
+[0xramp is opening a non-custodial way for users in India to move between ZEC and INR through UPI using peer-to-peer rails-@Oxramplabs](https://x.com/i/status/2090063226478186975)
+
+[More than 3 million ZEC has already moved into the Ironwood pool — a pretty big milestone for the migration-@zcashbrazil](https://x.com/i/status/2090460258325995611)
+
+[ZecBuy is live, letting people spend shielded Ironwood ZEC on Mullvad VPN and eSIMs without creating an account-@zecbuy](https://x.com/i/status/2090123686195925083)
+
+[Crosslink’s incentivized Feature Net is back in focus as the community keeps testing what the next steps for Zcash consensus could look like-@ZcashTR](https://x.com/i/status/2090398329368629497)
+
+[Zcash India is back with Developer Workshop #03, keeping the builder-focused sessions going-@ZcashIND](https://x.com/i/status/2090422635079561500)
+
+[NEAR Legion and Zcash India teamed up for another builder workshop, this time in Ahmedabad 🦓-@ZcashIND](https://x.com/i/status/2090139303573868866)
+
+[ZecHub Wiki just added a new Use Cases section with practical guides for journalist privacy, record keeping, Zcash login, and paying for AI-@ZecHub](https://x.com/i/status/2090385887083340101)
+
+[Grayscale put out a new piece looking at why financial privacy matters even more as AI becomes a bigger part of everyday life-@Grayscale](https://x.com/i/status/2090467500009906281)
+
+[zkDragon, the founder behind Osmosis, shared why he went all-in on Zcash and why he thinks strong privacy needs to live at the base layer-@therollupco](https://x.com/i/status/2090159159505305696)
+
+[Zcash got a shoutout at the CFTC Innovation Advisory Committee meeting, with Tyler Winklevoss bringing it into the conversation-@zcashkorea](https://x.com/i/status/2090555743355514955)
+
+[Zcash Türkiye packed three days at Rlay Hub with 30 new users and a 48-hour hackathon-@ZcashTR](https://x.com/i/status/2090732479434932607)
+
+[ZEC climbed to the #4 spot among the most-traded assets on NEAR Intents-@zkMarketer](https://x.com/i/status/2090793766860832946)
+
+[Red·bridge is getting closer to connecting Zcash with the wider DeFi world, giving ZEC a decentralized path through Avalanche and beyond-@zcashesp](https://bsky.app/profile/zcashesp.bsky.social/post/3mtmoywjdxp2f)
+
+[The Zcash Developers Residency Programme is picking up momentum, bringing developers from Ghana, Nigeria, and across Africa into a focused building program-@ZcashGH](https://x.com/i/status/2090929744045068524)
+
+[Grayscale is aiming to move its Zcash Trust to NYSE Arca around August 25 under ZCSH, with a planned rebrand to “The Zcash ETF” if approvals come through-@zcashkorea](https://x.com/i/status/2090984023657173061)
+
+[ZEC pushed past $700 at the time of the post, with the Grayscale ETF story adding even more attention to the rally-@BSCNews](https://x.com/i/status/2090904523770610074)
+
+[A new community explainer looks at how Zcash nodes evolved from zcashd to Zebra and now Zakura-@ZcashTR](https://x.com/i/status/2091199980291690508)
+
+[Zakura is on an optimization streak — Sinsemilla is over 15× faster, Pasta-curve modular inversion got a 4.6× boost, and the team is also cutting unnecessary Montgomery reductions-@ZakuraZcash](https://x.com/i/status/2090596214802977012)
