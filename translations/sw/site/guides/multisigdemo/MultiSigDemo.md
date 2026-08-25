@@ -1,5 +1,15 @@
 # MultiSig Demo
 
+> **Kumbukumbu ya kihistoria. Mwongozo huu haufanyi kazi tena.**
+>
+> Hatua zote zilizo hapa chini zinategemea zcashd, ambayo ilifikia kusimama kwake kwa kiotomatiki kwa mwisho wa msaada tarehe 18 Julai 2026. Skripti saba zinazoambatana na ukurasa huu zinaiendesha kupitia `zcash-cli`, kwa hivyo hakuna hata moja inayoweza kufikia nodi inayofanya kazi leo.
+>
+> Skripti hizi haziwezi kuhamishwa kimitambo: zimejengwa juu ya RPC za miamala ghafi na za pochi ambazo zcashd iliziacha, na Zallet inazibadilisha kwa mbinu mpya zinazofanya kazi na PCZT badala ya hex ya muamala ghafi.
+>
+> Kwa uhifadhi wa pamoja katika Zcash leo, angalia [FROST na uhifadhi wa kizingiti](/zcash-tech/frost-threshold-custody) na [onyesho la FROST kwa Ywallet](/guides/frostdemo/ywallet-frost-demo). Ili kuhamisha nodi iliyopo kutoka zcashd, angalia [mwongozo wa uhamiaji kwenda Zebra na Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
+>
+> Ukurasa huu umehifadhiwa kama kumbukumbu ya kihistoria ya mtiririko wa multisig ya uwazi.
+
 Demo hii inahitaji zcashd 
 
 ## Kukusanya funguo za umma kutoka kwa watu wanaohitajika

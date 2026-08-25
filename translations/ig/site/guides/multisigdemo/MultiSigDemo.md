@@ -1,5 +1,15 @@
 # Ihe ngosi MultiSig
 
+> **Ndekọ akụkọ ihe mere eme. Ntuziaka a anaghịzi arụ ọrụ.**
+>
+> Nzọụkwụ niile dị n'okpuru dabere na zcashd, nke ruru nkwụsị akpaaka nke ọgwụgwụ nkwado na 18 July 2026. Edemede asaa ndị so na ibe a na-eji `zcash-cli` achịkwa ya, ya mere ọ dịghị nke ọ bụla n'ime ha nwere ike iru ọnụ ụzọ na-arụ ọrụ taa.
+>
+> Enweghị ike ibufe edemede ndị a n'ụzọ igwe: e wuru ha na RPC nke azụmahịa raw na nke obere akpa ego bụ nke zcashd kwụsịrị iji, Zallet ejirila ụzọ ọhụrụ na-arụ ọrụ na PCZT kama hex azụmahịa raw dochie ha.
+>
+> Maka nchekwa ndị ọtụtụ na Zcash taa, lee [FROST na nchekwa ókè](/zcash-tech/frost-threshold-custody) yana [ngosipụta FROST nke Ywallet](/guides/frostdemo/ywallet-frost-demo). Iji bufee ọnụ ụzọ dị adị site na zcashd, lee [ntuziaka mbufe gaa na Zebra na Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
+>
+> Edobere ibe a dị ka ndekọ akụkọ ihe mere eme nke usoro multisig doro anya.
+
 Ihe ngosi a chọrọ zcashd 
 
 ## Na-anakọta igodo ọha na eze site n'aka ndị dị mkpa

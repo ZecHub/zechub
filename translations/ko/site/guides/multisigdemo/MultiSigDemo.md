@@ -1,5 +1,15 @@
 # MultiSig 예제
 
+> **과거 기록입니다. 이 안내는 더 이상 동작하지 않습니다.**
+>
+> 아래의 모든 단계는 zcashd에 의존하지만, zcashd는 2026년 7월 18일에 자동 지원 종료 정지에 도달했습니다. 이 페이지와 함께 제공되는 일곱 개의 스크립트는 `zcash-cli`를 통해 zcashd를 제어하므로, 현재는 어느 것도 실행 중인 노드에 접근할 수 없습니다.
+>
+> 이 스크립트들은 기계적으로 이식할 수 없습니다. zcashd가 더 이상 사용하지 않기로 한 원시 트랜잭션 및 지갑 RPC에 기반하고 있으며, Zallet은 이를 원시 트랜잭션 hex 대신 PCZT를 다루는 새로운 메서드로 대체하기 때문입니다.
+>
+> 오늘날 Zcash의 다자간 수탁에 대해서는 [FROST와 임계값 수탁](/zcash-tech/frost-threshold-custody), 그리고 실제로 동작하는 [Ywallet FROST 데모](/guides/frostdemo/ywallet-frost-demo)를 참고하세요. 기존 노드를 zcashd에서 이전하려면 [Zebra 및 Zallet 마이그레이션 가이드](/guides/migration-guide-zcashd-to-zebrad-zallet)를 참고하세요.
+>
+> 이 페이지는 투명 multisig 워크플로의 역사적 기록으로 보존됩니다.
+
 이 예제는 zcashd가 필요합니다.
 
 ## 필요한 사람들의 공개 키를 수집하세요

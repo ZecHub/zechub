@@ -1,5 +1,15 @@
 # Àwòfiṣàpẹẹrẹ MultiSig
 
+> **Àkọsílẹ̀ ìtàn. Ìtọ́sọ́nà yìí kò ṣiṣẹ́ mọ́.**
+>
+> Gbogbo àwọn ìgbésẹ̀ tí ó wà nísàlẹ̀ dá lórí zcashd, tí ó dé ìdúró aládàáṣe ti òpin àtìlẹ́yìn ní ọjọ́ 18 July 2026. Àwọn ìwé àṣẹ méje tí ó bá ojú-ìwé yìí wá ń darí rẹ̀ láti inú `zcash-cli`, nítorí náà kò sí ọ̀kan nínú wọn tí ó lè dé ọ̀nà-àsopọ̀ tí ń ṣiṣẹ́ lónìí.
+>
+> A kò lè gbé àwọn ìwé àṣẹ wọ̀nyí lọ ní ọ̀nà ẹ̀rọ: wọ́n dá lórí RPC ti ìdúnàádúrà rọ̀ àti ti àpò owó tí zcashd ti sọ di àtijọ́, Zallet sì fi àwọn ọ̀nà tuntun tí ń ṣiṣẹ́ lórí PCZT dípò hex ìdúnàádúrà rọ̀ rọ́pò wọn.
+>
+> Fún ìtọ́jú onípìn-ọ̀pọ̀ lórí Zcash lónìí, wo [FROST àti ìtọ́jú ààlà](/zcash-tech/frost-threshold-custody) àti [àfihàn FROST pẹ̀lú Ywallet](/guides/frostdemo/ywallet-frost-demo). Láti gbé ọ̀nà-àsopọ̀ tí ó wà tẹ́lẹ̀ kúrò ní zcashd, wo [ìtọ́sọ́nà ìṣíkiri sí Zebra àti Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
+>
+> A pa ojú-ìwé yìí mọ́ gẹ́gẹ́ bí àkọsílẹ̀ ìtàn ti ìlànà multisig tí ó hàn gbangba.
+
 Àmì yìí nílò zcashd 
 
 ## Gba awọn bọtini gbangba lati ọdọ awọn ẹni-kọọkan ti o nilo

@@ -1,5 +1,15 @@
 # MultiSig ƒe wɔwɔfia
 
+> **Ŋutinya ŋlɔɖi. Mɔfiame sia megawɔa dɔ o.**
+>
+> Afɔɖeɖe siwo katã le ete la nɔa zcashd dzi, si tɔ le eɖokui si le July 18, 2026 esime eƒe kpekpeɖeŋu wu enu. Agbalẽ adre siwo kpe ɖe axa sia ŋu la zãa `zcash-cli` tsɔ kplɔe, eya ta wo dometɔ aɖeke mate ŋu aɖo node si le dɔ wɔm egbea o.
+>
+> Womate ŋu atsɔ agbalẽ siawo ayi teƒe bubu kpata o: wotu wo ɖe raw transaction kple gakotoku ƒe RPC siwo zcashd ɖe ɖa la dzi, eye Zallet tsɔ mɔnu yeyewo siwo wɔa dɔ le PCZT dzi le raw transaction hex teƒe la ɖo wo teƒe.
+>
+> Le Zcash dzi egbea la, hena ame geɖe ƒe dzikpɔkpɔ la, kpɔ [FROST kple threshold dzikpɔkpɔ](/zcash-tech/frost-threshold-custody) kple [Ywallet FROST demo](/guides/frostdemo/ywallet-frost-demo). Be nàʋu node si li xoxo tso zcashd dzi la, kpɔ [Zebra kple Zallet ŋuti mɔfiame](/guides/migration-guide-zcashd-to-zebrad-zallet).
+>
+> Wodzra axa sia ɖo abe ŋutinya ŋlɔɖi na transparent multisig dɔwɔwɔ ene.
+
 Demo sia bia be woawɔ zcashd 
 
 ## Ƒo dutoƒo safuiwo nu ƒu tso ame ɖekaɖeka siwo hiã gbɔ

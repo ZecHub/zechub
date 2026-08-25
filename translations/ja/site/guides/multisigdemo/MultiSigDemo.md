@@ -1,5 +1,15 @@
 # マルチシグデモ
 
+> **歴史的な記録です。この手順はもう動作しません。**
+>
+> 以下のすべての手順は zcashd に依存していますが、zcashd は 2026年7月18日に自動サポート終了停止に達しました。このページに付属する7つのスクリプトは `zcash-cli` を通じて zcashd を操作するため、現在はいずれも稼働中のノードに接続できません。
+>
+> これらのスクリプトを機械的に移植することはできません。zcashd が非推奨としたロートランザクションおよびウォレットの RPC に基づいており、Zallet はそれらを、ロートランザクションの hex ではなく PCZT を扱う新しいメソッドに置き換えているためです。
+>
+> 現在の Zcash におけるマルチパーティ管理については、[FROST としきい値管理](/zcash-tech/frost-threshold-custody) および動作する [Ywallet FROST デモ](/guides/frostdemo/ywallet-frost-demo) を参照してください。既存のノードを zcashd から移行するには、[Zebra と Zallet への移行ガイド](/guides/migration-guide-zcashd-to-zebrad-zallet) を参照してください。
+>
+> このページは透明な multisig ワークフローの歴史的記録として保存されています。
+
 このデモには zcashd が必要です。
 
 ## 必要な人物から公開鍵を収集する
