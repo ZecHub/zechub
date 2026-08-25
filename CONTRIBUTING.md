@@ -27,7 +27,7 @@ First, join the conversation in the [Zcash Global discord](https://discord.gg/zc
 
 ## Style guides
 
-Any contribution to ZecHub should follow the [ZecHub style guides](/styles/guide.md). This includes wikis, docs and social media contents.
+Any contribution to ZecHub should follow the [ZecHub style guide](site/contribute/Style_Guide.md). This includes wikis, docs and social media contents.
 
 ## Ways you can contribute
 
@@ -48,7 +48,7 @@ Our wiki-docs page provides Zcash education materials in an easy and digestible 
 - New user guides
 - Zcash community and ecosystem
 
-These are pretty broad areas, so there's a lot to work from. If you want some inspiration, check out our current [wiki-docs site](https://wiki.zechub.xyz/) and see what's missing. Once you determine what you want to write, [start to make your changes](#make-changes) and learn how to submit a PR to the ZecHub repo. All of our docs are created and maintained in this repo. Use the [docs template](https://github.com/ZecHub/zechub/blob/main/template.md) and follow the [ZecHub style](#style-guides) when writing a wiki page.
+These are pretty broad areas, so there's a lot to work from. If you want some inspiration, check out our current [wiki-docs site](https://wiki.zechub.xyz/) and see what's missing. Once you determine what you want to write, [start to make your changes](#make-changes) and learn how to submit a PR to the ZecHub repo. All of our docs are created and maintained in this repo. Follow the [ZecHub style](#style-guides) when writing a wiki page, and use an existing page in the same section as a structural reference.
 
 After you submit a PR, please message @dismad or @tokidoki in the #zecwiki section of the discord, and they will review your PR and merge if it is ready to be added to the site. If merged, they will add the doc to the ZecHub website. If the doc is not ready, they will suggest edits for you in the PR.
 
