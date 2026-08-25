@@ -59,6 +59,26 @@ const VALID_MODES = new Set(["seed", "diff", "full"]);
 // bound for the same reason.
 const MAX_GIT_OUTPUT = 64 * 1024 * 1024;
 
+// Declared HERE, beside the other module state, and not next to resolveBase()
+// where it is written. resolveBase() assigns it, and the curated-vs-site check
+// below calls resolveBase() during module evaluation — about 130 lines before
+// this used to be declared. Assigning into a `let` that has not initialised yet
+// is a TDZ ReferenceError, and it fired in the exact case the flag exists for
+// (`--base` with an empty value, which is how CI passes an unset base ref).
+// Worse than a crash: it threw before report(), so every other violation the run
+// had already collected was discarded and the check printed a stack trace
+// instead of its findings.
+let baseArgInvalid = false;
+
+// resolveBase() is NOT idempotent — it calls fail() on a malformed --base. It is
+// now needed both here and by the change-tracking section, so it must run
+// exactly once or an invalid --base would be reported twice.
+let _baseRefMemo;
+function baseRef() {
+  if (_baseRefMemo === undefined) _baseRefMemo = resolveBase();
+  return _baseRefMemo;
+}
+
 const violations = [];
 const fail = (msg) => violations.push(msg);
 
@@ -126,65 +146,96 @@ function localeDirs() {
 //   never existed — a phantom entry (typo, wrong case, wrong directory). A real
 //                   defect in the curated list, not a consequence of this PR.
 
-// Memoised: the change-tracking section below resolves the base too, and this
-// must not shell out twice per run.
-let _basePathSha;
-function baseShaForPaths() {
-  if (_basePathSha !== undefined) return _basePathSha;
-  const b = resolveBase();
-  if (!b) return (_basePathSha = null);
+// Resolve the comparison point ONCE. The MERGE-BASE, not the base tip: probing
+// the tip answers "is it on main right now", which is a different question and
+// gives the wrong answer on every PR after a deletion has landed. (Confirmed by
+// simulation: an unrelated PR branched after such a deletion was told the page
+// "never did" exist — for a page that had been there for years.)
+let _baseCmpSha;
+function baseCompareSha() {
+  if (_baseCmpSha !== undefined) return _baseCmpSha;
+  const b = baseRef();
+  if (!b) return (_baseCmpSha = null);
+  let sha = null;
   try {
-    _basePathSha = execFileSync("git", ["rev-parse", "--verify", "--quiet", `${b}^{commit}`],
+    sha = execFileSync("git", ["rev-parse", "--verify", "--quiet", `${b}^{commit}`],
       { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT }).trim() || null;
-  } catch {
-    _basePathSha = null;
-  }
-  return _basePathSha;
+  } catch { sha = null; }
+  if (!sha) return (_baseCmpSha = null);
+  try {
+    sha = execFileSync("git", ["merge-base", sha, "HEAD"],
+      { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT }).trim() || sha;
+  } catch { /* unrelated histories — compare against the base commit itself */ }
+  return (_baseCmpSha = sha);
 }
 
-// ASK whether the blob existed; never infer it from a failed read. `git cat-file
-// -e` answers exactly that and exits 0/1. Treating any read error as "absent" is
-// the inference that silently disabled change-tracking on every PR for two weeks
-// in August, so it is not repeated here. Returns true/false, or null when there
-// is no base to compare against (no CI base ref, shallow clone).
-function existedAtBase(relPath) {
-  const sha = baseShaForPaths();
-  if (!sha) return null;
+// `ls-tree` is the probe, NOT `cat-file -e` — the same reason this file already
+// documents further down for the manifest read. Absence and presence are BOTH
+// exit 0 and are told apart by the OUTPUT, so a non-zero exit is unambiguously
+// an error rather than an answer. `cat-file -e` cannot make that distinction: it
+// exits non-zero for an absent path and for a blob it could not obtain, so in a
+// partial clone (`--filter=blob:none` — and this repo IS cloned that way,
+// promisor=true) an unreachable promisor would read as "absent".
+//
+// The first version of this check used `cat-file -e` while its own comment
+// claimed that inference "is not repeated here". It was repeated; only the
+// command had changed. Hence also: a probe FAILURE is returned as "unknown" and
+// reported as a probe failure, never folded into "absent".
+//
+// Returns "present" | "absent" | "unknown" (no base, or the probe itself failed).
+function pathAtBase(relPath) {
+  const sha = baseCompareSha();
+  if (!sha) return "unknown";
   try {
-    execFileSync("git", ["cat-file", "-e", `${sha}:${relPath}`],
-      { cwd: root, stdio: "ignore", maxBuffer: MAX_GIT_OUTPUT });
-    return true;
+    const out = execFileSync("git", ["ls-tree", "-z", "--name-only", sha, "--", relPath],
+      { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
+    return out.replace(/\0+$/, "").length > 0 ? "present" : "absent";
   } catch {
-    return false;
+    return "unknown";
   }
 }
 
 {
-  const deletedHere = [], phantom = [], undetermined = [];
+  const deletedHere = [], preexisting = [], undetermined = [];
   for (const page of curated) {
     const abs = join(root, "site", page);
     if (existsSync(abs) && statSync(abs).isFile()) continue;
-    const was = existedAtBase(`site/${page}`);
-    if (was === true) deletedHere.push(page);
-    else if (was === false) phantom.push(page);
-    else undetermined.push(page);
+    switch (pathAtBase(`site/${page}`)) {
+      case "present": deletedHere.push(page); break;
+      case "absent":  preexisting.push(page); break;
+      default:        undetermined.push(page); break;
+    }
   }
 
   if (deletedHere.length) {
     fail(
-      `${deletedHere.length} curated page(s) had their English source deleted here, but are ` +
-      `still listed in translation/curated-pages.txt:\n` +
-      deletedHere.map((p) => `      - ${p}`).join("\n") +
-      `\n    Fix: delete those exact lines from translation/curated-pages.txt in this PR. ` +
-      `Leave the files under translations/<locale>/site/ alone — the next translation sync ` +
-      `detects them as orphans and removes them. Nothing else is needed.`
+      `${deletedHere.length} curated page(s) lost their English source in this change, ` +
+      `but are still listed in translation/curated-pages.txt:\n` +
+      deletedHere.map((q) => `      - ${q}`).join("\n") +
+      `\n    If you DELETED the page: remove those exact lines from ` +
+      `translation/curated-pages.txt here. Leave translations/<locale>/site/ alone — the ` +
+      `next translation sync detects them as orphans and removes them.` +
+      `\n    If you RENAMED or MOVED it: put the NEW path in curated-pages.txt instead of ` +
+      `deleting the line, or the page silently drops out of translation in all 18 locales.`
     );
   }
-  for (const page of phantom) {
-    fail(`curated page has no English source and never did: site/${page} — phantom entry in translation/curated-pages.txt (typo? wrong case? wrong directory?)`);
+  // Absent at the merge-base too, so this change did not cause it. Say exactly
+  // that and nothing more. The previous wording ("and never did … typo? wrong
+  // case?") was an over-claim a single-point probe cannot support, and it is the
+  // message that every PR after an unfixed deletion would have received.
+  for (const page of preexisting) {
+    fail(
+      `curated page has no English source, and had none at the base ref either: site/${page} ` +
+      `— NOT caused by this change. translation/curated-pages.txt needs the stale line removed ` +
+      `(most likely an earlier deletion that kept its curated entry; could also be a typo or wrong case).`
+    );
   }
   for (const page of undetermined) {
-    fail(`curated page has no English source: site/${page} (no base ref, so a deletion cannot be told from a typo — pass --base for a specific diagnosis)`);
+    fail(
+      `curated page has no English source: site/${page} — and its state at the base ref could ` +
+      `not be determined (no base ref, or the git probe failed). Re-run with --base and a full ` +
+      `enough clone for a specific diagnosis.`
+    );
   }
 }
 
@@ -264,7 +315,6 @@ for (const loc of locales) {
 // base requested", because ASKING for change-tracking and silently not getting
 // it is precisely the failure this block exists to prevent. CI invokes
 // `--base "$BASE_REF_OUT"`, so an empty variable arrives here as "".
-let baseArgInvalid = false;
 
 function resolveBase() {
   const i = process.argv.indexOf("--base");
@@ -284,7 +334,7 @@ function resolveBase() {
   return null;
 }
 
-const base = resolveBase();
+const base = baseRef();
 if (baseArgInvalid) {
   // Already reported. Do not also print the notice below, which would read as
   // a deliberate skip.
