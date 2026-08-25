@@ -107,11 +107,84 @@ function localeDirs() {
 }
 
 // ---- bijection: curated ⊆ site -------------------------------------------
+//
+// Still blocking, but the message now distinguishes two very different causes.
+// Both used to produce the same bare "curated page has no English source",
+// which is merely unhelpful for a typo and actively hostile for a deletion:
+// someone removing an outdated English page gets a red translation check they
+// have nothing to do with and no way to interpret.
+//
+// It also does not stay contained to their PR. This invariant runs on the merge
+// ref, so once a deletion lands with its curated line intact, EVERY subsequent
+// PR is red until a sync run de-curates the page. One unreadable failure becomes
+// everyone's failure — which is the argument for keeping this blocking rather
+// than softening it to a warning. The deletion PR is the cheap moment to catch it.
+//
+//   deleted here  — the source existed at the base ref and is gone now. A
+//                   legitimate editorial act; drop the curated line in the same
+//                   PR and the next sync removes the orphaned translations.
+//   never existed — a phantom entry (typo, wrong case, wrong directory). A real
+//                   defect in the curated list, not a consequence of this PR.
 
-for (const page of curated) {
-  const abs = join(root, "site", page);
-  if (!existsSync(abs) || !statSync(abs).isFile()) {
-    fail(`curated page has no English source: site/${page}`);
+// Memoised: the change-tracking section below resolves the base too, and this
+// must not shell out twice per run.
+let _basePathSha;
+function baseShaForPaths() {
+  if (_basePathSha !== undefined) return _basePathSha;
+  const b = resolveBase();
+  if (!b) return (_basePathSha = null);
+  try {
+    _basePathSha = execFileSync("git", ["rev-parse", "--verify", "--quiet", `${b}^{commit}`],
+      { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT }).trim() || null;
+  } catch {
+    _basePathSha = null;
+  }
+  return _basePathSha;
+}
+
+// ASK whether the blob existed; never infer it from a failed read. `git cat-file
+// -e` answers exactly that and exits 0/1. Treating any read error as "absent" is
+// the inference that silently disabled change-tracking on every PR for two weeks
+// in August, so it is not repeated here. Returns true/false, or null when there
+// is no base to compare against (no CI base ref, shallow clone).
+function existedAtBase(relPath) {
+  const sha = baseShaForPaths();
+  if (!sha) return null;
+  try {
+    execFileSync("git", ["cat-file", "-e", `${sha}:${relPath}`],
+      { cwd: root, stdio: "ignore", maxBuffer: MAX_GIT_OUTPUT });
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+{
+  const deletedHere = [], phantom = [], undetermined = [];
+  for (const page of curated) {
+    const abs = join(root, "site", page);
+    if (existsSync(abs) && statSync(abs).isFile()) continue;
+    const was = existedAtBase(`site/${page}`);
+    if (was === true) deletedHere.push(page);
+    else if (was === false) phantom.push(page);
+    else undetermined.push(page);
+  }
+
+  if (deletedHere.length) {
+    fail(
+      `${deletedHere.length} curated page(s) had their English source deleted here, but are ` +
+      `still listed in translation/curated-pages.txt:\n` +
+      deletedHere.map((p) => `      - ${p}`).join("\n") +
+      `\n    Fix: delete those exact lines from translation/curated-pages.txt in this PR. ` +
+      `Leave the files under translations/<locale>/site/ alone — the next translation sync ` +
+      `detects them as orphans and removes them. Nothing else is needed.`
+    );
+  }
+  for (const page of phantom) {
+    fail(`curated page has no English source and never did: site/${page} — phantom entry in translation/curated-pages.txt (typo? wrong case? wrong directory?)`);
+  }
+  for (const page of undetermined) {
+    fail(`curated page has no English source: site/${page} (no base ref, so a deletion cannot be told from a typo — pass --base for a specific diagnosis)`);
   }
 }
 
