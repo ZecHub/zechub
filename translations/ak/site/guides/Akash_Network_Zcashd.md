@@ -1,6 +1,14 @@
 # Wɔde zcashd rekɔ Akash denam Console so
 
-Akwankyerɛ a ɛfa zcashd Zcash full node a wode bedi dwuma (Electric Coin Co dwumadie) a wode [Akash Console](https://console.akash.network). Video nkyerɛkyerɛ bi a ɛwɔ aseɛ ha ni. Wobetumi ahu akwankyerɛ a emu dɔ kɛse wɔ ase ha.
+> **Wɔagyae. Mfa akwankyerɛ yi akyi mfa node a woabɔ wo tirim sɛ wode bedi dwuma no nkɔ.**
+>
+> zcashd reached its automatic End-of-Support halt on July 18, 2026. zcashd node a wɔde ahyɛ mu nnɛ no renhyia nkɔnsɔnkɔnsɔn tip no, enti dwumadie no gye sika bosome biara na ɛnyɛ hwee.
+>
+> Fa **Zebra** di dwuma mmom: [Sɛnea wɔyɛ Zebra wɔ Akash Network so](/guides/akash-network-zebra), a ɛkata Akash Console adwumayɛ nhyehyɛe koro no ara so na ehia bɛyɛ disk no nkyem abiɛsa mu biako. Sɛ woretu nhyehyɛe bi a ɛwɔ hɔ dedaw a, hwɛ [zcashd to Zebra ne Zallet atutra akwankyerɛ](/guides/migration-guide-zcashd-to-zebrad-zallet).
+>
+> Wɔde krataafa yi sie sɛ abakɔsɛm kyerɛwtohɔ a ɛfa zcashd dwumadie no ho.
+
+Akwankyerɛ a ɛfa sɛnea wode zcashd Zcash full node (Electric Coin Co dwumadie) bedi dwuma [Akash Console na ɛwɔ hɔ](https://console.akash.network). Video nkyerɛkyerɛ bi a ɛwɔ aseɛ ha ni. Wobetumi ahu akwankyerɛ a emu dɔ kɛse wɔ ase ha.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -24,19 +32,19 @@ zcashd node a edi mũ a ɛbɛma:
 
 -> Gye nnɔnhwerew pii kosi nna pii na ama ayɛ sync koraa
 
--> Fa vCPUs 4, RAM 16GB, 350GB akoraeɛ (mainnet) anaa vCPU 2, RAM 8GB, 50GB (testnet) di dwuma
+-> Fa vCPU 4, 16GB RAM, 350GB akoraeɛ (mainnet) anaa 2 vCPUs, 8GB RAM, 50GB (testnet) di dwuma
 
 -> Twe cryptographic parameters wɔ mmirikatu a edi kan (~ 2GB, pɛnkoro)
 
 **zcashd vs Zebra:**
 
--> zcashd yɛ mfitiaseɛ Zcash node dwumadie a Electric Coin Co yɛeɛ
+-> zcashd yɛ mfitiaseɛ Zcash node dwumadie a Electric Coin Co de dii dwuma, a wɔgyaee firi July 18, 2026
 
--> Zebra yɛ Zcash Foundation no dwumadie foforɔ
+-> Zebra, a efi Zcash Foundation, ne node a edi mũ a wɔde di dwuma nnɛ
 
--> Nnipa mmienu no nyinaa ne Zcash network no hyia
+-> Zebra nko ara na odi mprempren nkɔnsɔnkɔnsɔn no akyi; zcashd node bi ntumi nkɔ ano
 
--> zcashd wɔ nneɛma pii (mining, sika kotoku, Insight Explorer API) .
+-> zcashd sika kotokuo no na wɔasesa [Zallet na ɔkyerɛwee](/using-zcash/zallet-quick-reference-guide)
 
 -> Fa zcashd di dwuma sɛ wo hia sika kotoku dwumadie anaa RPC API pɔtee bi a
 
@@ -45,7 +53,7 @@ zcashd node a edi mũ a ɛbɛma:
 
 Sɛ woda port bi adi wɔ Akash so (e.g., port 8233 ma zcashd P2P) a, **ENNYƐ saa port pɔtee no** wɔ ɔdemafoɔ no baguam IP so. Mmom, ɔdemafoɔ no de random high port (te sɛ 31234 anaa 42567) ma na ɔde reverse-proxies kɔ wo container no port 8233.
 
-Eyi nam nhyehyɛe so - providers no tu deployments pii, na sɛ obiara bɔ mmɔden sɛ ɔde port 8233 bedi dwuma tẽẽ a, anka wobenya ntawntawdi.
+Eyi nam design so - providers run deployments pii, na sɛ obiara bɔ mmɔden sɛ ɔde port 8233 bedi dwuma tẽẽ a, anka wobenya ntawntawdi.
 
 **Nea eyi kyerɛ ma wo:**
 
@@ -53,7 +61,7 @@ Eyi nam nhyehyɛe so - providers no tu deployments pii, na sɛ obiara bɔ mmɔde
 
 -> Akash ma wo URI te sɛ *provider.com:31234* .
 
--> Zcash nodes afoforo kɔ wo nkyɛn wɔ *provider.com:31234*
+-> Zcash nodes afoforo ka wo ho wɔ *provider.com:31234*
 
 -> Wo container no mu no, zcashd da so ara tie wɔ 8233 so
 
@@ -77,7 +85,7 @@ Wɔdi eyi ho dwuma ara kwa. Fa URI a Akash de ma wo no di dwuma kɛkɛ.
 
 -> Paw **Keplr** (anaasɛ Cosmos sika kotoku a wopɛ) .
 
--> Gye nkitahodi no so bere a Keplr pue
+-> pene nkitahodi no so bere a Keplr pue
 
 
 Ɛsɛ sɛ wo AKT balance no pue wɔ soro nifa so. Sɛ ɛyɛ zero a, kɔ kan kɔ fund wo sika kotoku no.
@@ -90,7 +98,9 @@ Wɔdi eyi ho dwuma ara kwa. Fa URI a Akash de ma wo no di dwuma kɛkɛ.
 
 ### Ɔkwan A: Fa SDL Fael (Wɔkamfo kyerɛ) .
 
-[![Deploy wɔ Akash so](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
+> **Saa bɔtn yi de node a wɔagyae no di dwuma.** Ɛbɔ ka tia wo AKT balance ma node a entumi nyɛ sync. Fa no di dwuma [Zebra guide](/guides/akash-network-zebra) sɛ anka.
+
+[![Deploy on Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
 
 ### Ɔkwan B: Fa SDL Editor di dwuma
 
@@ -124,7 +134,7 @@ Klik **"Approve"** na fa wo nsa hyɛ asɛm no ase wɔ Keplr mu.
 
 -> **Ɔsram biara sika a wɔabu ho akontaa**
 
--> **Ɔdemafo ho nsɛm** (bere a wɔde yɛ adwuma, ɔmantam, ne nea ɛkeka ho)
+-> **Ɔdemafoɔ ho nsɛm** (bere a wɔde yɛ adwuma, ɔmantam, ne nea ɛkeka ho)
 
 
 **Npaw nea ne bo yɛ mmerɛw kɛkɛ.** Hwɛ:
@@ -294,7 +304,7 @@ RPC yɛ adwuma default so ma ahobammɔ. Sɛnea ɛbɛyɛ a ebetumi ayɛ adwuma no
 
 ### Ma Nkitahodi Index no nyɛ adwuma
 
-Transaction index ma wo kwan ma wo bisa asɛm biara denam ne ID so denam RPC so. Ɔde nneɛma pii a wɔkora so di dwuma (~ 20% nkɔanim).
+Transaction index ma wo kwan ma wobisa transaction biara denam ne ID so denam RPC so. Ɔde nneɛma pii a wɔkora so di dwuma (~ 20% nkɔanim).
 
 Uncomment wɔ *env* mu:
 
@@ -431,7 +441,7 @@ Sɛ anaa:
 
 -> Wo boɔ sua dodo (ma *dodoɔ* kɔ soro wɔ SDL mu)
 
--> Wo resource ahwehwɛdeɛ no dɔɔso dodo ma providers a ɛwɔ hɔ (tew CPU/memory/storage so) .
+-> Wo nneɛma a wohia no korɔn dodo ma wɔn a wɔde ma a ɛwɔ hɔ (tew CPU/memory/storage so) .
 
 -> Twɛn kyɛ (ɛtɔ da bi a egye sikani 60-90 ansa na bids apue)
 
@@ -442,7 +452,7 @@ Ebia nea ɔde mmoa ma no rehyia nsɛmnsɛm. To deployment no mu na sɔ provider 
 
 ### zcashd logs kyerɛ "Atipɛnfo biara nni nkitaho".
 
-Eyi yɛ ade a ɛfata wɔ simma kakraa a edi kan no mu. zcashd bɛhunu atipɛnfoɔ no ara. Sɛ ɛkɔ so wɔ simma 10+ akyi a, ebia wobɛnya nkitahodi ho asɛm (ɛnyɛ nea ɛbɛyɛ yiye wɔ Akash so).
+Efi bere a End-of-Support gyaee wɔ July 18, 2026 no, eyi ne tebea a wɔhwɛ kwan sɛ ɛbɛtra hɔ daa sen sɛ ɛbɛkyɛ wɔ mfiase, na twɛn anaasɛ wɔbɛsan de akɔ baabi foforo biara rensiesie. Bue [Zebra](/guides/akash-network-zebra) sɛ anka.
 
 ### "Out of memory" mfomso wɔ logs mu
 
@@ -498,11 +508,11 @@ Sɛ wo balance no sua a, Akash bɛ auto-close wo deployment no. **Top up wo wall
 
 ### Nneɛma Afoforo a Wɔde Yɛ Adwuma
 
-**Akash Console**: [https://console.akash.network](https://console.akash.network)
+**Akash Console**: Ɔde ne nsa kyerɛɛ ne so. [https://console.akash.network](https://console.akash.network)
 
-**Akash Nsɛmma Nhoma**: [https://akash.network/docs/](https://akash.network/docs/)
+**Akash Nsɛm a Wɔakyerɛw**: [https://akash.network/docs/](https://akash.network/docs/)
 
-**Zcash Nhwehwɛmufo**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Zcash Nhwehwɛmufoɔ**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
 
 **Akash Akasakasa**: [https://discord.akash.network](https://discord.akash.network) (ma nsɛm a ɛfa ɔdemafo ho) .
 
@@ -512,5 +522,5 @@ Sɛ wo balance no sua a, Akash bɛ auto-close wo deployment no. **Top up wo wall
 - **Mfiase sync no yɛ brɛoo.** Nya abotare. Eyi yɛ ade a ɛfata ma blockchain nodes.
 - **Ma wo sika kotoku no sie.** Deployments auto-close bere a AKT asa wo.
 - **Backups arent automatic.** Sɛ wo dwene data no ho a, fa no sɛ ebetumi ayera na yɛ nhyehyɛe sɛnea ɛfata.
-- **RPC ahobanbɔ ho hia.** Mfa RPC nkɔ intanɛt so a wonni ahobammɔ ho nhyehyɛe a ɛfata.
+- **RPC ahobanbɔ ho hia.** Mfa RPC nkɔ intanɛt so a wonni ahobanbɔ ho nhyehyɛe a ɛfata.
 - **zcash-params yɛ cached.** Di kan tu mmirika downloads ~2GB cryptographic parameters. Eyi yɛ ade a ɛfata na ɛba pɛnkoro pɛ.

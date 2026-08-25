@@ -35,16 +35,16 @@ Saa akwankyerɛ yi twe adwene si Zcash a wɔde ankorankoro hardware di dwuma so 
 
 ## Akwankyerɛ a Ɛfa Anamɔn biara Ho a Ɛfa Ho a Wobɛka Mining Pool Ho
 
-### Anamɔn 1: Siesie Wo Zcash Wallet
+### Anamɔn 1: Hyehyɛ Wo Zcash Wallet
 1. Twe na fa sika kotoku bi fi Zcash wɛbsaet a ɛyɛ aban de no so [sika kotoku](https://zechub.wiki/wallets).
 2. Yɛ sika kotoku foforo na fa wo aba kasasin no sie yiye.
 3. Yɛ address a wogye (ɛbɛyɛ papa sɛ wɔabɔ ho ban ama kokoamsɛm). Hyɛ no nsow, s.e., . `zs1exampleaddress...`.
-4. Sɛ wode address a ɛda adi pefee redi dwuma (ɛhyɛ aseɛ wɔ 't') a, ɛyɛ mmerɛ nanso ɛmma kokoamsɛm pii.
+4. Sɛ wode address a ɛda adi (fi ase wɔ 't') redi dwuma a, ɛyɛ mmerɛw nanso ɛmma kokoamsɛm pii.
 
 ### Anamɔn 2: Siesie Wo Hardware no
 - Wɔ GPU ahorow ho no:
   1. Fa GPU ahorow hyɛ wo PC mu na fa draiver ahorow no foforo (NVIDIA: GeForce Experience; AMD: Radeon Software).
-  2. Overclock sɛ wowɔ osuahu a (fa MSI Afterburner di dwuma ma ɛyɛ den; fa w’ani si so sɛ +100-200 core clock, -500 memory ma efficiency).
+  2. Overclock sɛ wowɔ osuahu a (fa MSI Afterburner di dwuma ma ɛyɛ den; fa si w’ani so sɛ +100-200 core clock, -500 memory ma efficiency).
 - Wɔ ASIC ahorow ho no:
   1. Fa ASIC no bata tumi ne Ethernet ho.
   2. Hwehwɛ ne IP address denam adwinnade te sɛ Advanced IP Scanner anaa nea ɔyɛe no app so.
@@ -60,11 +60,12 @@ Mining pools kyekyɛ adwuma na wɔkyɛ akatua a egyina wo hashrate a wode ama no
 - **F2Pool (zec.f2pool.com)**: 2% ka, PPS + akatua, sika pii mmoa. Ɔtare kɛse (~2.57 GSol/s).
 - **ViaBTC (zec.viabtc.com)**: 2% fee (PPS +), dashboard a ɛyɛ mmerɛw sɛ wode bedi dwuma, wiase nyinaa server ahorow.
 - **AntPool (zec.antpool.com)**: 1% fee, fi Bitmain, eye ma ASICs (~ 494 MSol / s).
+- **Foundry Zcash Pool (foundrydigital.com/foundry-zcash-pool/)**: Zcash a wotu fagude a wɔyɛ adwumaden a Foundry Digital yɛe. Ɔde PPLNS sikatua di dwuma, de akatua akyi di a ɛda adi pefee ne adwumayɛbea-grade mmoa ma. Ɛfata yiye ma ahyehyɛde ne akɛse ASIC a wotu fagude; hwehwɛ sɛ wɔyɛ akontaabu no mu nokware.
 - **Sovright (mining.sovright.com)**: Zcash pool a wɔasi wɔ Stratum V2 so, mprempren ɛreyɛ adwuma sɛ ɔmanfo testnet. No live ZEC payouts yet, enti fa no sɛ ɔkwan a wobɛfa so asɔ wo nhyehyɛe ahwɛ sen sɛ ɛbɛyɛ sika a wonya fibea. Hwɛ ɔfã a wɔahyira so wɔ ase hɔ no na woanya nsɛm no mu nsɛm.
 - Afoforo: Kryptex Pool, Luxor (hwɛ poolwatch.io/coin/zcash na woanya bere ankasa mu akontaabu).
 
 1. Kɔ pool no wɛbsaet na yɛ akontaabu (email anaasɛ wonkyerɛw wɔn din mma ebinom te sɛ 2Miners).
-2. Fa wo Zcash sika kotoku address ka nhyehyɛe a wode tua sika no ho.
+2. Fa wo Zcash sika kotoku address ka nhyehyɛe a wode tua ho ka no mu.
 3. Hyɛ pool no stratum server (e.g., zec.2miners.com:1010) ne port no nsow.
 
 ### Anamɔn 4: Install na Hyehyɛ Mining Software
@@ -83,7 +84,7 @@ Mining pools kyekyɛ adwuma na wɔkyɛ akatua a egyina wo hashrate a wode ama no
   1. Kɔ wɛb dashboard no mu.
   2. Kɔ Miner Nsiesiei no so.
   3. Fa pool ho nsɛm ka ho:
-     - URL: stratum + tcp://zec.2miners.com: 1010. Ɔde ne nsa kyerɛɛ ne so
+     - URL: stratum + tcp://zec.2miners.com:1010
      - Ɔdefoɔ din: YOUR_WALLET_ADDRESS.WORKER_NAME
      - Password: x (anaasɛ ɛnyɛ hwee).
   4. Sie na san boot miner no.
@@ -116,6 +117,25 @@ Sovright pool no tu mmirika wɔ ɔmanfo Zcash testnet (NU6, Stratum V2), ɛnyɛ 
 
 - Ɛho nhia sɛ wɔde akontaabu biara fi ase. Twe adwene si CPU anaa ASIC Equihash miner bi so wɔ pool no so na wo kyɛfa no bɛda adi wɔ live dashboard so.
 - Sovright nso tintim open source Stratum V2 proxy ma miners a wɔpɛ sɛ wɔpaw wɔn ankasa block templates sen sɛ wɔbɛfa pool no nnwuma kɛkɛ:
+
+### Nneɛma a Wɔde Hwɛ Foundry Zcash Pool so
+
+Wɔ Foundry Zcash Pool dwumadiefoɔ fam no:
+
+- Hwɛ miner adwumayɛ denam Foundry pool dashboard no so.
+- Hwɛ:
+  - Adwumayɛfo a wɔyɛ nnam
+  - Hashrate a wɔbɔɔ ho amanneɛ
+  - Kyɛfa a wogye tom
+  - Akatua a wɔabu akontaa
+  - Payout tebea
+
+Esiane sɛ Foundry de PPLNS akatua nhwɛsoɔ di dwuma nti, akatua a wɔde tu fagudeɛ no gyina kyɛfa a wɔde ma wɔ pool no akatua mfɛnsere no so sene sɛ ɛbɛyɛ hashrate ntɛm ara nko ara.
+
+Nneyɛe a wɔkamfo kyerɛ sɛ wɔmfa nhwɛ nneɛma so:
+- Fa ASIC dashboard hashrate toto Foundry amanneɛbɔ hashrate ho.
+- Hwehwɛ kyɛfa a wɔapow, kyɛfa a ayɛ dedaw, anaa nkitahodi a entumi nnyina mu.
+- Kura ntwamutam nkitahodi a ɛyɛ den mu efisɛ bere a wɔde yɛ adwuma no brɛ kyɛfa a wɔde amena ne akatua a ebetumi aba no ase.
   ```
   git clone https://github.com/sovright/mining-infra
   cd mining-infra
@@ -136,7 +156,7 @@ Sovright soronko yɛ ɔmanfoɔ block relay network wɔ Zcash mainnet so. Sɛ ɔt
 
 Ɔmanfoɔ dashboard no kyerɛ nkɛntɛnsoɔ no live: relay-connected regions hu blocks foforɔ wɔ berɛ a plain peer to peer gossip gye no nnu fã koraa, na dashboard no di network no live orphan rate akyi.
 
-Eyi yɛ nhyehyɛe a wɔde yɛ adwuma ma wɔn a wɔyɛ atare, na ɛnyɛ ankorankoro a wotu fagude. Sovright no yɛ obi a ɔde ne ho ahyɛ mu `mining-infra` akoraeɛ nkrataa a `submitblock` relay gateway ma fanning huu blocks kɔ mesh no mu ntɛmntɛm sen native P2P. Sɛ wopɛ sɛ wo ne Sovright di nkitaho tẽẽ (support@sovright.com) na woanya relay peer address ne auth key.
+Eyi yɛ nhyehyɛe ma wɔn a wɔyɛ pool operators, ɛnyɛ ankorankoro a wotu fagude. Sovright no yɛ obi a ɔde ne ho ahyɛ mu `mining-infra` akoraeɛ nkrataa a `submitblock` relay gateway ma fanning huu blocks kɔ mesh no mu ntɛmntɛm sen native P2P. Sɛ wopɛ sɛ wo ne Sovright di nkitaho tẽẽ (support@sovright.com) na woanya relay peer address ne auth key.
 
 
 ## Afotu ne Nneyɛe Pa
@@ -145,5 +165,5 @@ Eyi yɛ nhyehyɛe a wɔde yɛ adwuma ma wɔn a wɔyɛ atare, na ɛnyɛ ankoranko
 - **Ahobanbɔ:** Fa asɛmfua a ɛyɛ den di dwuma; ma 2FA nyɛ adwuma wɔ pools/wallets so. Mfa kokoam safe nkyɛ da.
 - **Ɔhaw ano aduru:** Sɛ kyɛfa biara nni hɔ a, hwɛ firewall, antivirus, anaa config a ɛnteɛ. Kɔka nhyiamu te sɛ forum.zcashcommunity.com anaa Reddit r/zec ho.
 - **Alternatives:** Sɛ mfaso nni so a, susuw cloud mining anaasɛ staking sika afoforo.
-- **Nneɛma a Atwa Yɛn Ho Ahyia Ho Nsɛm:** Tumi a wotu no gye ahoɔden; fa nneɛma a wɔyɛ no foforo di dwuma sɛ ɛbɛyɛ yiye a.
+- **Nneɛma a Atwa Yɛn Ho Ahyia Ho Nsɛm:** Tumi a wotu no gye ahoɔden; fa nneɛma a wɔde yɛ foforo di dwuma sɛ ɛbɛyɛ yiye a.
 - **Nsakraeɛ:** Zcash betumi adan (e.g., PoS nsakraeɛ a ɛbɛtumi aba); hwɛ z.cash mu na woanya nsɛm ho amanneɛbɔ.

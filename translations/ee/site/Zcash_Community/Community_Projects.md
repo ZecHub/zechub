@@ -1,6 +1,6 @@
 # Nutoa me Dɔwɔnawo
 
-Ke ɖe dɔwɔnuwo, gakotokuwo, dɔwɔɖoɖowo, agbalẽdzraɖoƒewo, kple lãwo ƒe agbenɔnɔ ŋuti ɖoɖo siwo Zcash habɔbɔa kple lãwo ƒe agbenɔnɔ ƒe ɖoɖo si me sidzedze zero mele o si keke ta wu tu ŋu.
+Ke ɖe dɔwɔnuwo, gakotokuwo, dɔwɔɖoɖowo, agbalẽdzraɖoƒewo, kple lãwo ƒe agbenɔnɔ ŋuti ɖoɖo siwo Zcash habɔbɔa kple lãwo ƒe agbenɔnɔ ƒe ɖoɖo si keke ta wu sidzedze zero tu la ŋu.
 
 ---
 
@@ -39,7 +39,7 @@ Adzamenyawo-gbãtɔ odio kple nukpɔkpɔ ƒe ƒuƒoƒo si naa hehe, wɔa ɖeka, 
 [Sasrã](https://zkav.club/)
 
 ### Zcash Network Suku ƒe suku
-Hehenana ƒe nyatakaka siwo woɖo na Zcash zãla yeyewo kple ewɔlawo. 
+Nufiame siwo woɖo ɖe ɖoɖo nu na Zcash zãla yeyewo kple ewɔlawo. 
 [Nyamedzroƒe](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
 
 ### Zectastic (Zectastic) ƒe ŋkɔ
@@ -47,20 +47,20 @@ Nyatakakadzraɖoƒe si me wowɔa nu aduadu le si me fefe siwo ku ɖe Zcash ŋu k
 [Sasrã](https://zectastic.com/)
 
 ### Zec ƒe Dɔwɔɖoɖo
-Asitelefon dzi dɔwɔnu si ƒoa Zcash nyadzɔdzɔwo, nutoa me dɔwɔnawo, network nyatakakawo, gakotokuwo, asitɔtrɔwo, kple lãwo ƒe agbenɔnɔ ƒe nunɔamesiwo nu ƒu ɖe teƒe ɖeka. 
-[Nyamedzroƒe](https://forum.zcashcommunity.com/t/zec-app-is-coming-soon/56605)
+Mobile application that aggregates Zcash news, community activity, network information, wallets, exchanges, and ecosystem resources in one place.  
+[Forum](https://forum.zcashcommunity.com/t/zec-app-is-coming-soon/56605)
 
 ### PGPZ Nutome
 Nutoa me ƒe teƒe si wowɔa Pretty Good Policy for Zcash (PGPZ), si nye Washington D.C. ƒe ɖoɖowo ƒe ɖoɖo si ku ɖe dijitaal ga si woatsɔ akpɔ ame ŋutɔ ƒe nyatakakawo ta, sedziwɔwɔ ŋutɔŋutɔ, kple akpa si Zcash wɔna le dukɔa ƒe nyonyo ta ŋu. 
 [Sasrã](https://community.pgpz.org/)
 
 ### Gleyo ƒe ŋkɔ 
-Nutoa me ƒe nuwɔwɔ kple teƒeɖoɖo ƒe mɔnu si wowɔ na Zcash nutoawo, Web3 dɔwo, kple Web2 habɔbɔwo. Ekpena ɖe nutoawo ŋu le ʋua me eye wòƒoa nu kple hameviwo to didi, dzeɖoɖo, kple teƒeɖoɖowo me, esime wòɖea mɔ na ezãlawo be woakpɔ ZEC si ŋu ame ŋutɔ ƒe akpoxɔnu le eye woaɖee ɖa.
+Community engagement and rewards platform designed for Zcash communities, Web3 projects, and Web2 organizations. It helps communities onboard and engage members through quests, chat, and rewards, while allowing users to earn and withdraw private shielded ZEC.
 
 [Sasrã](https://gleyo.app/)
 
 ### Zcash ƒe Gakpekpeɖeŋunana Dɔwɔƒe
-Nutoa me tɔwo ƒe kpekpeɖeŋunana ƒe dashboard si wowɔ be wòana alesi woake ɖe Zcash ƒe kpekpeɖeŋunana ŋu, akplɔ wo ɖo, ahalé ŋku ɖe wo ŋu bɔbɔe. Ehea kpekpeɖeŋunana ƒe dɔbiagbalẽviwo, nu veviwo, gazazãwo, numedzodzrowo, kple numekukuwo vaa teƒe ɖeka to nyatakaka siwo le agbe hehe tso Zcash Community Grants GitHub nudzraɖoƒe me. Nuƒolanɔƒea ƒe taɖodzinue nye be yeana nuteƒekpɔkpɔ si me kɔ wu eye wòle bɔbɔe wu nazãlawo, kɔmiti me tɔwo, kple nutoa me tɔwo ƒe ŋkuléleɖenuŋulawo.
+Nutoa me tɔwo ƒe kpekpeɖeŋunana ƒe dashboard si wowɔ be wòana alesi woake ɖe Zcash ƒe kpekpeɖeŋunana ŋu, akplɔ wo ɖo, ahalé ŋku ɖe wo ŋu bɔbɔe. Ehea kpekpeɖeŋunana ƒe dɔbiagbalẽviwo, nu veviwo, gazazãwo, numedzodzrowo, kple numekukuwo vaa teƒe ɖeka to nyatakaka siwo le agbe hehe tso Zcash Community Grants GitHub nudzraɖoƒe me. Nuƒolanɔƒea ƒe taɖodzinue nye be yeana nuteƒekpɔkpɔ si me kɔ wu eye wòanɔ bɔbɔe wu nasu ame siwo di be yewoaxɔ dɔa, kɔmitia me tɔwo, kple nutoa me tɔwo ƒe ŋkuléleɖenuŋulawo.
 
 [Sasrã](https://staging.zgrantshub.com/)
 
@@ -69,8 +69,8 @@ Nutoa me tɔwo ƒe kpekpeɖeŋunana ƒe dashboard si wowɔ be wòana alesi woake
 
 ## Gakotokuwo Kple Fexexe ƒe Dɔwɔnuwo
 
-### Cipherpay ƒe fetu
-Ame ŋutɔ ƒe fexexe ɖe internet dzi. Menye vidzikpɔkpɔ o, KYC aɖeke meli o. Asitsalawo xɔa ZEC tẽ ɖe adrɛs siwo wokpɔ ta na. 
+### Cipherpay ƒe agbalẽ
+Ame ŋutɔ ƒe fexexe ɖe internet dzi. Menye vidzikpɔkpɔ o, KYC aɖeke meli o. Asitsalawo xɔa ZEC tẽ ɖe adrɛs siwo ŋu wokpɔ ta na. 
 [Sasrã](https://www.cipherpay.app/en)
 
 ### Ezcash ƒe nya
@@ -90,7 +90,7 @@ Adzamegakotoku si woʋu ɖi na Zcash kple Penumbra. Browser kekeɖenudɔ kple as
 [Sasrã](https://chromewebstore.google.com/detail/zafu-wallet-beta/bhlogefpcebekhjpomlodifcelldoimn)
 
 ### ZGo
-Zcash Register si naa nudzralawo kple asitsalawo te ŋu xɔa Zcash ƒe fexexe. 
+Zcash Register si na be nudzralawo kple asitsalawo te ŋu xɔa Zcash ƒe fexexe. 
 [Sasrã](https://zgo.cash)
 
 ### Zimppy ƒe ŋkɔ
@@ -125,9 +125,19 @@ Dodokpɔ ƒe gakotoku si le bɔbɔe na Zcash si woŋlɔ ɖe Rust me.
 Gakotoku si me kɔsɔkɔsɔ geɖe le, si ƒe dzɔtsoƒe le ʋuʋu ɖi, si woate ŋu akpɔ eɖokui dzi le si doa alɔ ZEC ɖoɖoɖa, xɔxɔ, kple eɖɔliɖɔli. 
 [Sasrã](https://gemwallet.com/)
 
-### KPEKPEÐEŊU
+### TIPZ
 Live non-custodial tipping platform afisi tip ɖesiaɖe va ɖo abe shielded ZEC ene. Doa alɔ cross-chain on-ramps to NEAR Intents dzi. 
 [Sasrã](https://tipz.cash/)
+
+### CYZE ƒe nya
+Gakotoku kple ɖoɖowɔwɔ ƒe mɔnu si me wowɔa nu aduadu le si ɖea mɔ na ƒuƒoƒoa me tɔ geɖe be woakpɔ Zcash ga siwo wokpɔ ta na la ɖekae. Ezãa FROST ƒe dzidzenu ƒe asidede agbalẽ te, si wɔnɛ be ƒuƒoƒowo te ŋu ɖea mɔ ɖe Orchard ƒe asitsatsa ŋu le ƒuƒoƒo me evɔ menaa gomekpɔla ɖeka kpɔ ŋusẽ blibo ɖe gakotokua dzi o.
+
+[Sasrã](https://github.com/USCMig/Cyze)
+
+### Pendrake ƒe Gbetakpɔxɔ
+A watch-only desktop wallet designed for individuals and organizations that need to monitor shielded funds without having the ability to spend them. It supports transaction and balance monitoring, Orchard and Sapling notes, memo viewing, historical fiat valuation, transaction notifications, wallet encryption, and privacy-focused screen-sharing features.
+
+[Sasrã](https://github.com/auzum197/pendrake-watch)
 
 ---
 
@@ -142,12 +152,12 @@ Block explorer si wowɔ hena asitsatsa dodokpɔ le Zcash Testnet dzi.
 [Sasrã](https://testnet.exblo.app/)
 
 ### Ʋu Zcash ƒe ʋuʋu
-Dutoƒo gaglãgbe ƒe dashboard na Zcash Dev Fund, si me ZCG kple FPF ƒe kpekpeɖeŋunana ƒe akɔntabubu, Lockbox, dziɖuɖu, kple gazazãwo hã le. 
+Dutoƒonukpɔkpɔ ƒe mɔnu na Zcash Dev Fund, si me ZCG kple FPF ƒe kpekpeɖeŋunana ƒe akɔntabubu, Lockbox, dziɖuɖu, kple gazazãwo hã le. 
 [Sasrã](https://openzcash.org/)
 
 ### Zcash Block ƒe Ʋuʋudedi
 Zcash block explorer si me kɔ tso Nighthawk Apps gbɔ. 
-[Sasrã](https://mainnet.zcashexplorer.app/)
+[Visit](https://mainnet.zcashexplorer.app/)
 
 ### Zcash.Yamenutome
 Zcash Unified Address parser si wotu ɖe Browser dzi hena Adrɛs Ðekawo me dzodzro. 
@@ -179,11 +189,16 @@ Zcash ƒe lãwo ƒe agbenɔnɔ ƒe asitsaƒe si nye ame ŋutɔ ƒe nyawo gbã. F
 [Sasrã](https://zecmarket.org/)
 
 ### Zecsite ƒe ŋkɔ
-Nyatakakadzraɖoƒe si nɔa teƒe ɖeka si tsia dzi ɖe ameŋunyatakakawo ŋu si ƒoa Zcash nyadzɔdzɔwo, akɔntabubuwo, kple hehenana nyatakakawo nu ƒu JavaScript zazã manɔmee.
+Nyatakakadzraɖoƒe si nɔa teƒe ɖeka si tsia dzi ɖe ame ŋutɔ ƒe nyawo ŋu si ƒoa Zcash nyadzɔdzɔwo, akɔntabubuwo, kple hehenana nyatakakawo nu ƒu JavaScript zazã manɔmee.
 
 [Sasrã](https://zecsite/org)
 
 [Nyamedzroƒe](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
+
+### ZEC-OS ƒe dɔwɔwɔ
+Aretro-style desktop interface si ƒoa Zcash ecosystem dɔwɔnu vovovowo kple nyatakakawo nu ƒu ɖe dɔwɔwɔ ɖeka me. Elɔ blockchain explorer, mempool viewer, network ƒe akɔntabubuwo, ŋutinya me nɔnɔmetatawo, shielded pool information, tomenukudɔwɔnuwo, Unified Address decoder, akɔntabubumɔ̃, fefewo, terminal, kple dɔwɔnu bubuwo ɖe eme.
+
+[Sasrã](https://www.zec-os.com/)
 
 ---
 
@@ -198,7 +213,7 @@ Ameŋunyatakakawo-gbãtɔ si tsɔa ZEC dzeɖoɖowo doa ka kple xexeame ŋutɔŋu
 [Sasrã](https://www.justzappit.xyz/)
 
 ### Zentat ƒe nya
-Browser ƒe kekeɖenudɔwɔwɔ si trɔa fiat ga ƒe asiwo ɖe ZEC me le ɣeyiɣi ŋutɔŋutɔ me ne èle web la me dzrom. 
+Browser ƒe kekeɖenudɔ si trɔa fiat ga ƒe asiwo ɖe ZEC me le ɣeyiɣi ŋutɔŋutɔ me ne èle web la me dzrom. 
 [Sasrã](https://chromewebstore.google.com/detail/zentat/lpndbahladndclecodadoljlplfaldac)
 
 ### Gli si Wotsɔ Akpoxɔnu Kpɔ
@@ -219,6 +234,11 @@ Ganyawo yometiti kple akɔntabubu dɔwɔnu si kpɔa ame ŋutɔ ƒe nyatakakawo t
 
 [Sasrã](https://zecledger-web.vercel.app/)
 
+### Dzesidede kple ZcashMe
+Dzesideɖoɖo si léa ŋku ɖe ame ŋutɔ ƒe nyawo ŋu si zãa Zcash ƒe asitsatsa siwo wokpɔ ta na abe mɔnu si dzi woato age ɖe eme ene. Zãlawo skan QR-kɔda aɖe eye woɖoa kpeɖodzinya sue aɖe ɖe wo.
+
+[Sasrã](https://github.com/zcashme/zns-login)
+
 ---
 
 ## Dɔwɔla, Dodokpɔ, Kple Dɔwɔƒewo ƒe Dɔwɔɖoɖowo
@@ -231,16 +251,16 @@ Network dodokpɔ suite na zcashd kple Zebra dɔwɔlawo. Zcash crawler hã le eme
 Linux-gbãtɔ dɔwɔnu si hea Zebra regtest network si me faucet, Unified Address fixtures, kple lightwalletd alo Zaino, kpakple GitHub Actions siwo woateŋu azã ake na shielded end-to-end flows vɛ. 
 [Sasrã](https://github.com/zecdev)
 
-### Zebra ƒe Kpekpeɖeŋu-mɔfiame Fuzzing Dɔwɔƒe
+### Zebra Kpekpeɖeŋu-mɔfiame Fuzzing Dɔwɔƒe
 Zebra ƒe parsing, networking, kple cryptographic components dodokpɔ ɖe ɖoɖo nu ɖe ​​nyatakaka siwo womewɔ nyuie o ŋu. 
 [Nyamedzroƒe](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/234)
 
 ### Frost
-Threshold signature scheme (FROST) dɔ si wole dodom ɖe ŋgɔ hena wo zazã le mɔ si keke ta wu le Zcash ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa me. 
+Threshold signature scheme (FROST) dɔ si wole dodom ɖe ŋgɔ be woaxɔe ɖe enu wòakeke ta le Zcash ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa me. 
 [Pɛpa](https://eprint.iacr.org/2020/852)
 
 ### MonteZcret ƒe Dzesidede
-Open-source performance-testing project si daa mɔnu vovovo siwo dzi woato awɔ ɖeka kple Zcash blockchain nyatakakawo kpɔna. 
+Open-source dɔwɔwɔ-dodokpɔdɔ si daa mɔnu vovovo siwo dzi woato awɔ ɖeka kple Zcash blockchain nyatakakawo kpɔ. 
 [Sasrã](https://github.com/openkoder/benchmarks_zcash/)
 
 ---
@@ -252,14 +272,14 @@ Nuwɔwɔ aduadu, tso anyime yi dzi asitsahabɔbɔ ƒe kpɔɖeŋu si wotu ɖe Zca
 [Sasrã](https://aftok.com)
 
 ### ZK Xexeame Katã ƒe Gaxɔgbalẽvi
-Zcash-dukɔwo me gaxɔgbalẽvi kple akɔdada ƒe xɔtuɖoɖowo hena nyatakakawo ɖeɖefia tiatia, dzadzraɖo ɖe nyawo gbɔ kpɔkpɔ ŋu, ŋkɔ nyui xɔxɔ le dukɔwo dome, kple dziɖuɖu si wokpɔ ta na. 
+Zcash-dukɔwo me gaxɔgbalẽvi kple akɔdada ƒe xɔtuɖoɖowo hena nyatakakawo ɖeɖe ɖe go tiatia, dzadzraɖo ɖe nyawo gbɔ kpɔkpɔ ŋu, ŋkɔxɔxɔ le dukɔwo dome, kple dziɖuɖu si wokpɔ ta na. 
 [Sasrã](https://voting.zkglobalcredit.tech/)
 
 ### Free2z
 Dɔwɔnu si woatsɔ awɔ nyatakaka siwo womeyɔ o kple ame ŋutɔ ƒe nudzɔdzɔ siwo ŋu Zcash zãna. 
 [Sasrã](https://free2z.cash)
 
-### Rhea Ganyawo ƒe Dɔwɔƒe
+### Rhea Finance
 Zcash agbo si naa browser gakotoku kple cross-chain DeFi mɔɖeɖe. 
 [Nyamedzroƒe](https://forum.zcashcommunity.com/t/rhea-finance-zcash-gateway-browser-wallet-cross-chain-defi/55073)
 
@@ -267,9 +287,9 @@ Zcash agbo si naa browser gakotoku kple cross-chain DeFi mɔɖeɖe.
 Zcash-native DEX si tsɔa ZEC si wokpɔ ta na la vaa Web3 DeFi me to WalletConnect dzi. 
 [Nyamedzroƒe](https://forum.zcashcommunity.com/t/introducing-bazaarswap-bringing-zec-to-web3-defi/55479)
 
-### DCRDEX ƒe agbalẽ
+### DCRDEX ƒe nya
 Decred’s decentralized exchange si doa alɔ Zcash. 
-[Sasrã](https://dex.decred.org)
+[Visit](https://dex.decred.org)
 
 ### Gakotoku Dzinɔameƒotɔe
 Browser gakotoku si me Zcash ƒe kpekpeɖeŋu le. 
@@ -279,6 +299,11 @@ Browser gakotoku si me Zcash ƒe kpekpeɖeŋu le.
 AI ƒe mɔnu si naa mɔnukpɔkpɔ ame be wòakpɔ AI ƒe kpɔɖeŋu xɔŋkɔ geɖewo esime wòle kpekpem ɖe cryptocurrency fexexe ŋu, si me Zcash hã le.
 
 [Sasrã](https://nano-gpt.com/conversation/new)
+
+### zk.poker ƒe ƒuƒoƒo
+Hatiwo ƒe poker ƒe mɔnu si ƒoa nu ɣaɣla tso nuwuwu vaseɖe nuwuwu, susu me poker, kple Zcash ƒe ameŋunyatakakawo ŋuti mɔ̃ɖaŋununya nu ƒu. Wotrɔ asi le eŋu ale be mahiã be dɔwɔƒea nanya fefewɔlawo ƒe kaɖiwo alo alé tsatsadada ƒe ga la ɖe asi tẽ o.
+
+[Sasrã](https://zkbtc.org/)
 
 
 ---
