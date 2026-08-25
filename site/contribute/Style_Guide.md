@@ -41,7 +41,7 @@ ZecHub style is simple and approachable. We welcome everyone and focus on the Zc
 
 ## Tweets
 
-> This general style guide is for writing articles or user guides for ZecHub. For tweets or short statements, use the [tweets style guide](./tweets.md).
+> This general style guide is for writing articles or user guides for ZecHub. It also applies to tweets and other short statements: keep them brief, front-load the point, and skip end punctuation on short lines.
 
 ---
 
