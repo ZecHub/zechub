@@ -1549,7 +1549,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+zcashd-halt-notice",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -3175,7 +3175,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+zcashd-halt-notice",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -4801,7 +4801,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+zcashd-halt-notice",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -6427,7 +6427,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+zcashd-halt-notice",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -8053,7 +8053,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+zcashd-halt-notice",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -9679,7 +9679,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+zcashd-halt-notice",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -11305,7 +11305,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+zcashd-halt-notice",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -12931,7 +12931,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+zcashd-halt-notice",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -14557,7 +14557,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+zcashd-halt-notice",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -16183,7 +16183,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+zcashd-halt-notice",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -17809,7 +17809,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+zcashd-halt-notice",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -19435,7 +19435,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+zcashd-halt-notice",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -21061,7 +21061,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+zcashd-halt-notice",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -22687,7 +22687,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+zcashd-halt-notice",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -24313,7 +24313,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+zcashd-halt-notice",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -25939,7 +25939,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+zcashd-halt-notice",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -27565,7 +27565,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+zcashd-halt-notice",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -29191,7 +29191,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+zcashd-halt-notice",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
