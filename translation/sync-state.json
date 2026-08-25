@@ -5011,6 +5011,14 @@
       "mode": "full",
       "tool": "codex/gpt-5.4",
       "edited": false
+    },
+    "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
+      "src": "sha256:8232b95df5d6a5af7eb05ddf441ed135b932329c9480118fafe8840d29f6265a",
+      "src_commit": "c5f8f8fb2bd55fcea7eb25b92adab3572c5d8e91",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
     }
   },
   "ee": {
