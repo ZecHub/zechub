@@ -26,8 +26,11 @@ Ambassadors have creative freedom over the activities they plan, enabling them t
 | Brazil | [Zcash Brazil](https://x.com/zcashbrazil) | Workshops, meetups, Shielded Magazine |
 | Turkey | [Zcash Turkey](https://x.com/ZcashTR) | Educational content, Istanbul Blockchain Week participation |
 | Arabia | [Zcash Arabia](https://x.com/ZcashArabia) | Arabic educational content, AMAs |
+| Ukraine| [Zcask Ukraine](https://x.com/Zcash_ua) | Ukraine |
 | Nigeria | [Zcash Nigeria](https://x.com/ZcashNigeria) | Developer education, community onboarding |
-| East Africa | [Zcash East Africa](https://x.com/ZcashEastAfrica) | South Africa, Uganda community growth |
+| East Africa | [Zcash East Africa](https://x.com/ZcashEastAfrica) | East Africa, Uganda community growth |
+| South Africa | [Zcash South Africa](https://twitter.com/Zcash_SA) | South Africa |
+| Ghana | [Zcash Ghana](https://x.com/ZcashGH) | Ghana |
 | Mexico | [zcashqro](https://x.com/zcashqro) | University outreach and developer onboarding |
 | Russia | [ruZcash](https://x.com/ruZCASH) | Russian-language content and community |
 | India | [Zcash India](https://x.com/ZcashIND) | Developer education and community growth |
