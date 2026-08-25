@@ -51,7 +51,7 @@ Navigate to the **Wrap** section. Choose **SOL** or **USDC**, enter the amount, 
 ---
 
 ###  Step 3: Prepare Your Zodl Wallet  
-Download [**Zodl**](https://zodl.com), the official Zcash wallet by Electric Coin Co. Copy your **Unified Address** from the Receive tab - it supports both transparent and shielded ZEC. Save your seed phrase securely before proceeding.  
+Download [**Zodl**](https://zodl.com), the Zcash wallet maintained by ZODL. Copy your **Unified Address** from the Receive tab - it supports both transparent and shielded ZEC. Save your seed phrase securely before proceeding.  
 
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)
