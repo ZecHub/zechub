@@ -1623,6 +1623,54 @@
       "mode": "seed",
       "tool": "gt-static",
       "edited": false
+    },
+    "guides/Verifying_Zcash_Releases.md": {
+      "src": "sha256:54d4dfc5b679e03bebd26c3bdeb9d75ab1fa77dca75bb3ff1390e9210cd0a97d",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
+      "edited": false
+    },
+    "Research/confidentiality-compared.md": {
+      "src": "sha256:508158d2c3e8f532b0b5bdafc5bab30268c9befa474d40627b36d2554c747311",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
+      "edited": false
+    },
+    "Start_Here/How_Zcash_Is_Organized.md": {
+      "src": "sha256:672ff5fe61f10bf013e0c234c3bc7d2ae6cb615d33fa8a2c09d194ee5c1c54f3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
+      "edited": false
+    },
+    "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
+      "src": "sha256:8232b95df5d6a5af7eb05ddf441ed135b932329c9480118fafe8840d29f6265a",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
+      "edited": false
+    },
+    "Zcash_Tech/Private_Information_Retrieval.md": {
+      "src": "sha256:46adbceb98909457df39dd616c02232ba6670216b2c75e83179a0fe985bd8672",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Pay_For_Ai_With_Shielded_ZEC.md": {
+      "src": "sha256:1a6cfd1b316c31c780ff0b86d90cc3b86cedaa0a09cf6319c36935d3f9b91fa3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
+      "edited": false
     }
   },
   "ar": {
@@ -3248,6 +3296,54 @@
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4",
+      "edited": false
+    },
+    "guides/Verifying_Zcash_Releases.md": {
+      "src": "sha256:54d4dfc5b679e03bebd26c3bdeb9d75ab1fa77dca75bb3ff1390e9210cd0a97d",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Research/confidentiality-compared.md": {
+      "src": "sha256:508158d2c3e8f532b0b5bdafc5bab30268c9befa474d40627b36d2554c747311",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Start_Here/How_Zcash_Is_Organized.md": {
+      "src": "sha256:672ff5fe61f10bf013e0c234c3bc7d2ae6cb615d33fa8a2c09d194ee5c1c54f3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
+      "src": "sha256:8232b95df5d6a5af7eb05ddf441ed135b932329c9480118fafe8840d29f6265a",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Tech/Private_Information_Retrieval.md": {
+      "src": "sha256:46adbceb98909457df39dd616c02232ba6670216b2c75e83179a0fe985bd8672",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Pay_For_Ai_With_Shielded_ZEC.md": {
+      "src": "sha256:1a6cfd1b316c31c780ff0b86d90cc3b86cedaa0a09cf6319c36935d3f9b91fa3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
       "edited": false
     }
   },
@@ -4875,6 +4971,46 @@
       "mode": "seed",
       "tool": "gpt-5.4",
       "edited": false
+    },
+    "guides/Verifying_Zcash_Releases.md": {
+      "src": "sha256:54d4dfc5b679e03bebd26c3bdeb9d75ab1fa77dca75bb3ff1390e9210cd0a97d",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Research/confidentiality-compared.md": {
+      "src": "sha256:508158d2c3e8f532b0b5bdafc5bab30268c9befa474d40627b36d2554c747311",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Start_Here/How_Zcash_Is_Organized.md": {
+      "src": "sha256:672ff5fe61f10bf013e0c234c3bc7d2ae6cb615d33fa8a2c09d194ee5c1c54f3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Tech/Private_Information_Retrieval.md": {
+      "src": "sha256:46adbceb98909457df39dd616c02232ba6670216b2c75e83179a0fe985bd8672",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Pay_For_Ai_With_Shielded_ZEC.md": {
+      "src": "sha256:1a6cfd1b316c31c780ff0b86d90cc3b86cedaa0a09cf6319c36935d3f9b91fa3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
     }
   },
   "ee": {
@@ -6499,6 +6635,54 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
+      "tool": "gt-static",
+      "edited": false
+    },
+    "guides/Verifying_Zcash_Releases.md": {
+      "src": "sha256:54d4dfc5b679e03bebd26c3bdeb9d75ab1fa77dca75bb3ff1390e9210cd0a97d",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
+      "edited": false
+    },
+    "Research/confidentiality-compared.md": {
+      "src": "sha256:508158d2c3e8f532b0b5bdafc5bab30268c9befa474d40627b36d2554c747311",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
+      "edited": false
+    },
+    "Start_Here/How_Zcash_Is_Organized.md": {
+      "src": "sha256:672ff5fe61f10bf013e0c234c3bc7d2ae6cb615d33fa8a2c09d194ee5c1c54f3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
+      "edited": false
+    },
+    "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
+      "src": "sha256:8232b95df5d6a5af7eb05ddf441ed135b932329c9480118fafe8840d29f6265a",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
+      "edited": false
+    },
+    "Zcash_Tech/Private_Information_Retrieval.md": {
+      "src": "sha256:46adbceb98909457df39dd616c02232ba6670216b2c75e83179a0fe985bd8672",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "gt",
+      "mode": "full",
+      "tool": "gt-static",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Pay_For_Ai_With_Shielded_ZEC.md": {
+      "src": "sha256:1a6cfd1b316c31c780ff0b86d90cc3b86cedaa0a09cf6319c36935d3f9b91fa3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "gt",
+      "mode": "full",
       "tool": "gt-static",
       "edited": false
     }
@@ -8127,6 +8311,54 @@
       "mode": "seed",
       "tool": "gpt-5.4",
       "edited": false
+    },
+    "guides/Verifying_Zcash_Releases.md": {
+      "src": "sha256:54d4dfc5b679e03bebd26c3bdeb9d75ab1fa77dca75bb3ff1390e9210cd0a97d",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Research/confidentiality-compared.md": {
+      "src": "sha256:508158d2c3e8f532b0b5bdafc5bab30268c9befa474d40627b36d2554c747311",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Start_Here/How_Zcash_Is_Organized.md": {
+      "src": "sha256:672ff5fe61f10bf013e0c234c3bc7d2ae6cb615d33fa8a2c09d194ee5c1c54f3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
+      "src": "sha256:8232b95df5d6a5af7eb05ddf441ed135b932329c9480118fafe8840d29f6265a",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Tech/Private_Information_Retrieval.md": {
+      "src": "sha256:46adbceb98909457df39dd616c02232ba6670216b2c75e83179a0fe985bd8672",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Pay_For_Ai_With_Shielded_ZEC.md": {
+      "src": "sha256:1a6cfd1b316c31c780ff0b86d90cc3b86cedaa0a09cf6319c36935d3f9b91fa3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
     }
   },
   "fr": {
@@ -9752,6 +9984,54 @@
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4",
+      "edited": false
+    },
+    "guides/Verifying_Zcash_Releases.md": {
+      "src": "sha256:54d4dfc5b679e03bebd26c3bdeb9d75ab1fa77dca75bb3ff1390e9210cd0a97d",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Research/confidentiality-compared.md": {
+      "src": "sha256:508158d2c3e8f532b0b5bdafc5bab30268c9befa474d40627b36d2554c747311",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Start_Here/How_Zcash_Is_Organized.md": {
+      "src": "sha256:672ff5fe61f10bf013e0c234c3bc7d2ae6cb615d33fa8a2c09d194ee5c1c54f3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
+      "src": "sha256:8232b95df5d6a5af7eb05ddf441ed135b932329c9480118fafe8840d29f6265a",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Tech/Private_Information_Retrieval.md": {
+      "src": "sha256:46adbceb98909457df39dd616c02232ba6670216b2c75e83179a0fe985bd8672",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Pay_For_Ai_With_Shielded_ZEC.md": {
+      "src": "sha256:1a6cfd1b316c31c780ff0b86d90cc3b86cedaa0a09cf6319c36935d3f9b91fa3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
       "edited": false
     }
   },
@@ -11379,6 +11659,54 @@
       "mode": "seed",
       "tool": "gpt-5.4",
       "edited": false
+    },
+    "guides/Verifying_Zcash_Releases.md": {
+      "src": "sha256:54d4dfc5b679e03bebd26c3bdeb9d75ab1fa77dca75bb3ff1390e9210cd0a97d",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Research/confidentiality-compared.md": {
+      "src": "sha256:508158d2c3e8f532b0b5bdafc5bab30268c9befa474d40627b36d2554c747311",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Start_Here/How_Zcash_Is_Organized.md": {
+      "src": "sha256:672ff5fe61f10bf013e0c234c3bc7d2ae6cb615d33fa8a2c09d194ee5c1c54f3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
+      "src": "sha256:8232b95df5d6a5af7eb05ddf441ed135b932329c9480118fafe8840d29f6265a",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Tech/Private_Information_Retrieval.md": {
+      "src": "sha256:46adbceb98909457df39dd616c02232ba6670216b2c75e83179a0fe985bd8672",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Pay_For_Ai_With_Shielded_ZEC.md": {
+      "src": "sha256:1a6cfd1b316c31c780ff0b86d90cc3b86cedaa0a09cf6319c36935d3f9b91fa3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
     }
   },
   "ig": {
@@ -13003,6 +13331,54 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "guides/Verifying_Zcash_Releases.md": {
+      "src": "sha256:54d4dfc5b679e03bebd26c3bdeb9d75ab1fa77dca75bb3ff1390e9210cd0a97d",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Research/confidentiality-compared.md": {
+      "src": "sha256:508158d2c3e8f532b0b5bdafc5bab30268c9befa474d40627b36d2554c747311",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Start_Here/How_Zcash_Is_Organized.md": {
+      "src": "sha256:672ff5fe61f10bf013e0c234c3bc7d2ae6cb615d33fa8a2c09d194ee5c1c54f3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
+      "src": "sha256:8232b95df5d6a5af7eb05ddf441ed135b932329c9480118fafe8840d29f6265a",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Tech/Private_Information_Retrieval.md": {
+      "src": "sha256:46adbceb98909457df39dd616c02232ba6670216b2c75e83179a0fe985bd8672",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Pay_For_Ai_With_Shielded_ZEC.md": {
+      "src": "sha256:1a6cfd1b316c31c780ff0b86d90cc3b86cedaa0a09cf6319c36935d3f9b91fa3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "nllb",
+      "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     }
@@ -14631,6 +15007,54 @@
       "mode": "seed",
       "tool": "gpt-5.4",
       "edited": false
+    },
+    "guides/Verifying_Zcash_Releases.md": {
+      "src": "sha256:54d4dfc5b679e03bebd26c3bdeb9d75ab1fa77dca75bb3ff1390e9210cd0a97d",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Research/confidentiality-compared.md": {
+      "src": "sha256:508158d2c3e8f532b0b5bdafc5bab30268c9befa474d40627b36d2554c747311",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Start_Here/How_Zcash_Is_Organized.md": {
+      "src": "sha256:672ff5fe61f10bf013e0c234c3bc7d2ae6cb615d33fa8a2c09d194ee5c1c54f3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
+      "src": "sha256:8232b95df5d6a5af7eb05ddf441ed135b932329c9480118fafe8840d29f6265a",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Tech/Private_Information_Retrieval.md": {
+      "src": "sha256:46adbceb98909457df39dd616c02232ba6670216b2c75e83179a0fe985bd8672",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Pay_For_Ai_With_Shielded_ZEC.md": {
+      "src": "sha256:1a6cfd1b316c31c780ff0b86d90cc3b86cedaa0a09cf6319c36935d3f9b91fa3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
     }
   },
   "ja": {
@@ -16256,6 +16680,54 @@
       "engine": "llm",
       "mode": "seed",
       "tool": "qwen3-14b",
+      "edited": false
+    },
+    "guides/Verifying_Zcash_Releases.md": {
+      "src": "sha256:54d4dfc5b679e03bebd26c3bdeb9d75ab1fa77dca75bb3ff1390e9210cd0a97d",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Research/confidentiality-compared.md": {
+      "src": "sha256:508158d2c3e8f532b0b5bdafc5bab30268c9befa474d40627b36d2554c747311",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Start_Here/How_Zcash_Is_Organized.md": {
+      "src": "sha256:672ff5fe61f10bf013e0c234c3bc7d2ae6cb615d33fa8a2c09d194ee5c1c54f3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
+      "src": "sha256:8232b95df5d6a5af7eb05ddf441ed135b932329c9480118fafe8840d29f6265a",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Tech/Private_Information_Retrieval.md": {
+      "src": "sha256:46adbceb98909457df39dd616c02232ba6670216b2c75e83179a0fe985bd8672",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Pay_For_Ai_With_Shielded_ZEC.md": {
+      "src": "sha256:1a6cfd1b316c31c780ff0b86d90cc3b86cedaa0a09cf6319c36935d3f9b91fa3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
       "edited": false
     }
   },
@@ -17883,6 +18355,54 @@
       "mode": "seed",
       "tool": "qwen3-14b",
       "edited": false
+    },
+    "guides/Verifying_Zcash_Releases.md": {
+      "src": "sha256:54d4dfc5b679e03bebd26c3bdeb9d75ab1fa77dca75bb3ff1390e9210cd0a97d",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Research/confidentiality-compared.md": {
+      "src": "sha256:508158d2c3e8f532b0b5bdafc5bab30268c9befa474d40627b36d2554c747311",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Start_Here/How_Zcash_Is_Organized.md": {
+      "src": "sha256:672ff5fe61f10bf013e0c234c3bc7d2ae6cb615d33fa8a2c09d194ee5c1c54f3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
+      "src": "sha256:8232b95df5d6a5af7eb05ddf441ed135b932329c9480118fafe8840d29f6265a",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Tech/Private_Information_Retrieval.md": {
+      "src": "sha256:46adbceb98909457df39dd616c02232ba6670216b2c75e83179a0fe985bd8672",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Pay_For_Ai_With_Shielded_ZEC.md": {
+      "src": "sha256:1a6cfd1b316c31c780ff0b86d90cc3b86cedaa0a09cf6319c36935d3f9b91fa3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
     }
   },
   "pt": {
@@ -19508,6 +20028,54 @@
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4",
+      "edited": false
+    },
+    "guides/Verifying_Zcash_Releases.md": {
+      "src": "sha256:54d4dfc5b679e03bebd26c3bdeb9d75ab1fa77dca75bb3ff1390e9210cd0a97d",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Research/confidentiality-compared.md": {
+      "src": "sha256:508158d2c3e8f532b0b5bdafc5bab30268c9befa474d40627b36d2554c747311",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Start_Here/How_Zcash_Is_Organized.md": {
+      "src": "sha256:672ff5fe61f10bf013e0c234c3bc7d2ae6cb615d33fa8a2c09d194ee5c1c54f3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
+      "src": "sha256:8232b95df5d6a5af7eb05ddf441ed135b932329c9480118fafe8840d29f6265a",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Tech/Private_Information_Retrieval.md": {
+      "src": "sha256:46adbceb98909457df39dd616c02232ba6670216b2c75e83179a0fe985bd8672",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Pay_For_Ai_With_Shielded_ZEC.md": {
+      "src": "sha256:1a6cfd1b316c31c780ff0b86d90cc3b86cedaa0a09cf6319c36935d3f9b91fa3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
       "edited": false
     }
   },
@@ -21135,6 +21703,54 @@
       "mode": "seed",
       "tool": "gpt-5.4",
       "edited": false
+    },
+    "guides/Verifying_Zcash_Releases.md": {
+      "src": "sha256:54d4dfc5b679e03bebd26c3bdeb9d75ab1fa77dca75bb3ff1390e9210cd0a97d",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Research/confidentiality-compared.md": {
+      "src": "sha256:508158d2c3e8f532b0b5bdafc5bab30268c9befa474d40627b36d2554c747311",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Start_Here/How_Zcash_Is_Organized.md": {
+      "src": "sha256:672ff5fe61f10bf013e0c234c3bc7d2ae6cb615d33fa8a2c09d194ee5c1c54f3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
+      "src": "sha256:8232b95df5d6a5af7eb05ddf441ed135b932329c9480118fafe8840d29f6265a",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Tech/Private_Information_Retrieval.md": {
+      "src": "sha256:46adbceb98909457df39dd616c02232ba6670216b2c75e83179a0fe985bd8672",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Pay_For_Ai_With_Shielded_ZEC.md": {
+      "src": "sha256:1a6cfd1b316c31c780ff0b86d90cc3b86cedaa0a09cf6319c36935d3f9b91fa3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
     }
   },
   "sw": {
@@ -22759,6 +23375,54 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "guides/Verifying_Zcash_Releases.md": {
+      "src": "sha256:54d4dfc5b679e03bebd26c3bdeb9d75ab1fa77dca75bb3ff1390e9210cd0a97d",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Research/confidentiality-compared.md": {
+      "src": "sha256:508158d2c3e8f532b0b5bdafc5bab30268c9befa474d40627b36d2554c747311",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Start_Here/How_Zcash_Is_Organized.md": {
+      "src": "sha256:672ff5fe61f10bf013e0c234c3bc7d2ae6cb615d33fa8a2c09d194ee5c1c54f3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
+      "src": "sha256:8232b95df5d6a5af7eb05ddf441ed135b932329c9480118fafe8840d29f6265a",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Tech/Private_Information_Retrieval.md": {
+      "src": "sha256:46adbceb98909457df39dd616c02232ba6670216b2c75e83179a0fe985bd8672",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Pay_For_Ai_With_Shielded_ZEC.md": {
+      "src": "sha256:1a6cfd1b316c31c780ff0b86d90cc3b86cedaa0a09cf6319c36935d3f9b91fa3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "nllb",
+      "mode": "full",
       "tool": "nllb-200-3.3B",
       "edited": false
     }
@@ -24387,6 +25051,54 @@
       "mode": "seed",
       "tool": "gpt-5.4",
       "edited": false
+    },
+    "guides/Verifying_Zcash_Releases.md": {
+      "src": "sha256:54d4dfc5b679e03bebd26c3bdeb9d75ab1fa77dca75bb3ff1390e9210cd0a97d",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Research/confidentiality-compared.md": {
+      "src": "sha256:508158d2c3e8f532b0b5bdafc5bab30268c9befa474d40627b36d2554c747311",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Start_Here/How_Zcash_Is_Organized.md": {
+      "src": "sha256:672ff5fe61f10bf013e0c234c3bc7d2ae6cb615d33fa8a2c09d194ee5c1c54f3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
+      "src": "sha256:8232b95df5d6a5af7eb05ddf441ed135b932329c9480118fafe8840d29f6265a",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Tech/Private_Information_Retrieval.md": {
+      "src": "sha256:46adbceb98909457df39dd616c02232ba6670216b2c75e83179a0fe985bd8672",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Pay_For_Ai_With_Shielded_ZEC.md": {
+      "src": "sha256:1a6cfd1b316c31c780ff0b86d90cc3b86cedaa0a09cf6319c36935d3f9b91fa3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
     }
   },
   "uk": {
@@ -26012,6 +26724,54 @@
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4",
+      "edited": false
+    },
+    "guides/Verifying_Zcash_Releases.md": {
+      "src": "sha256:54d4dfc5b679e03bebd26c3bdeb9d75ab1fa77dca75bb3ff1390e9210cd0a97d",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Research/confidentiality-compared.md": {
+      "src": "sha256:508158d2c3e8f532b0b5bdafc5bab30268c9befa474d40627b36d2554c747311",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Start_Here/How_Zcash_Is_Organized.md": {
+      "src": "sha256:672ff5fe61f10bf013e0c234c3bc7d2ae6cb615d33fa8a2c09d194ee5c1c54f3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
+      "src": "sha256:8232b95df5d6a5af7eb05ddf441ed135b932329c9480118fafe8840d29f6265a",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Tech/Private_Information_Retrieval.md": {
+      "src": "sha256:46adbceb98909457df39dd616c02232ba6670216b2c75e83179a0fe985bd8672",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Pay_For_Ai_With_Shielded_ZEC.md": {
+      "src": "sha256:1a6cfd1b316c31c780ff0b86d90cc3b86cedaa0a09cf6319c36935d3f9b91fa3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
       "edited": false
     }
   },
@@ -27639,6 +28399,54 @@
       "mode": "seed",
       "tool": "nllb-200-3.3B",
       "edited": false
+    },
+    "guides/Verifying_Zcash_Releases.md": {
+      "src": "sha256:54d4dfc5b679e03bebd26c3bdeb9d75ab1fa77dca75bb3ff1390e9210cd0a97d",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Research/confidentiality-compared.md": {
+      "src": "sha256:508158d2c3e8f532b0b5bdafc5bab30268c9befa474d40627b36d2554c747311",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Start_Here/How_Zcash_Is_Organized.md": {
+      "src": "sha256:672ff5fe61f10bf013e0c234c3bc7d2ae6cb615d33fa8a2c09d194ee5c1c54f3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
+      "src": "sha256:8232b95df5d6a5af7eb05ddf441ed135b932329c9480118fafe8840d29f6265a",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Tech/Private_Information_Retrieval.md": {
+      "src": "sha256:46adbceb98909457df39dd616c02232ba6670216b2c75e83179a0fe985bd8672",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Pay_For_Ai_With_Shielded_ZEC.md": {
+      "src": "sha256:1a6cfd1b316c31c780ff0b86d90cc3b86cedaa0a09cf6319c36935d3f9b91fa3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "nllb",
+      "mode": "full",
+      "tool": "nllb-200-3.3B",
+      "edited": false
     }
   },
   "zh": {
@@ -29264,6 +30072,54 @@
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4",
+      "edited": false
+    },
+    "guides/Verifying_Zcash_Releases.md": {
+      "src": "sha256:54d4dfc5b679e03bebd26c3bdeb9d75ab1fa77dca75bb3ff1390e9210cd0a97d",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Research/confidentiality-compared.md": {
+      "src": "sha256:508158d2c3e8f532b0b5bdafc5bab30268c9befa474d40627b36d2554c747311",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Start_Here/How_Zcash_Is_Organized.md": {
+      "src": "sha256:672ff5fe61f10bf013e0c234c3bc7d2ae6cb615d33fa8a2c09d194ee5c1c54f3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
+      "src": "sha256:8232b95df5d6a5af7eb05ddf441ed135b932329c9480118fafe8840d29f6265a",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Tech/Private_Information_Retrieval.md": {
+      "src": "sha256:46adbceb98909457df39dd616c02232ba6670216b2c75e83179a0fe985bd8672",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Pay_For_Ai_With_Shielded_ZEC.md": {
+      "src": "sha256:1a6cfd1b316c31c780ff0b86d90cc3b86cedaa0a09cf6319c36935d3f9b91fa3",
+      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.4",
       "edited": false
     }
   }
