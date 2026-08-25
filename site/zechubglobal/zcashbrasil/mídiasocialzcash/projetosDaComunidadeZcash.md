@@ -70,9 +70,9 @@ DCRDEX é uma troca descentralizada construída pelo projeto Decred. Apenas clie
 
 SideShift.ai é uma troca de criptomoedas sem registro, suportando mais de cinquenta moedas e tokens em várias blockchains. Os usuários valorizam nosso foco na privacidade, facilidade de uso e minimização do risco de terceiros, todos difíceis de encontrar em trocas de criptomoedas tradicionais.
 
-[RenBridge](https://bridge.renproject.io/welcome)
+RenBridge (serviço encerrado)
 
-Usando o RenVM, um tradutor universal, ele converte ativos digitais para o formato necessário pela cadeia de destino. Por exemplo, o RenVM pega ZEC, o mantém e, em seguida, o converte em um ERC-20 com uma proporção de 1:1 para garantir que seu renZEC esteja sempre respaldado pela mesma quantidade de ZEC.
+O Ren Protocol foi descontinuado e o RenBridge não está mais disponível.
 
 [ZeroBridge](https://bridge.zerodao.com/#/transfer/ETH)
 
