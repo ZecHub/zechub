@@ -1,12 +1,20 @@
-# Implantando zcashd no Akash via Console
+# Implementar zcashd no Akash via Console
 
-Guia para implantar um nó completo zcashd de Zcash (implementação da Electric Coin Co) usando o [Akash Console](https://console.akash.network). Abaixo há um tutorial em vídeo. Um guia mais detalhado pode ser encontrado mais abaixo.
+> **Obsoleto. Não siga este guia para implementar um nó que pretenda utilizar.**
+>
+> zcashd atingiu a sua paragem automática de Fim de Suporte em 18 de julho de 2026. Um nó zcashd implementado hoje não sincronizará com o topo da cadeia, por isso a implementação custa dinheiro todos os meses e não produz nada.
+>
+> Implemente antes o **Zebra**: [Como executar Zebra na Akash Network](/guides/akash-network-zebra), que cobre o mesmo fluxo de trabalho da Akash Console e requer aproximadamente um terço do disco. Se estiver a migrar uma configuração existente, veja o [guia de migração de zcashd para Zebra e Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
+>
+> Esta página é mantida como registo histórico da implementação de zcashd.
+
+Guia para implementar um nó completo zcashd de Zcash (implementação da Electric Coin Co) usando a [Akash Console](https://console.akash.network). Aqui está abaixo um tutorial em vídeo. Pode encontrar abaixo um guia mais aprofundado.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/SVekeNU6_-g"
-    title="Configuração de nó completo Zcash na Akash Network"
+    title="Zcash Full Node setup on Akash Network"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -14,157 +22,159 @@ Guia para implantar um nó completo zcashd de Zcash (implementação da Electric
 </div>
 
 
-## O Que Você Está Implantando
+## O Que Está a Implementar
 
 Um nó completo zcashd que irá:
 
--> Sincronizar toda a blockchain Zcash (350GB+ para mainnet, ~ 40GB para testnet)
+-> Sincronizar toda a blockchain de Zcash (350GB+ para mainnet, ~ 40GB para testnet)
 
--> Custar aproximadamente $15/mês dependendo dos preços do token AKT
+-> Custar aproximadamente $15/mês, dependendo dos preços do token AKT
 
--> Levar de várias horas a dias para sincronizar completamente
+-> Demorar várias horas a dias para sincronizar completamente
 
 -> Usar 4 vCPUs, 16GB de RAM, 350GB de armazenamento (mainnet) ou 2 vCPUs, 8GB de RAM, 50GB (testnet)
 
--> Baixar parâmetros criptográficos na primeira execução (~ 2GB, uma única vez)
+-> Descarregar parâmetros criptográficos na primeira execução (~ 2GB, uma única vez)
 
 **zcashd vs Zebra:**
 
--> zcashd é a implementação original de nó Zcash pela Electric Coin Co
+-> zcashd foi a implementação original de nó de Zcash pela Electric Coin Co, interrompida desde 18 de julho de 2026
 
--> Zebra é a implementação alternativa da Zcash Foundation
+-> Zebra, da Zcash Foundation, é o nó completo utilizado atualmente
 
--> Ambos são compatíveis com a rede Zcash
+-> Apenas Zebra segue a cadeia atual; um nó zcashd não consegue alcançar o topo
 
--> zcashd tem mais recursos (mineração, carteira, API do Insight Explorer)
+-> A wallet do zcashd foi substituída por [Zallet](/using-zcash/zallet-quick-reference-guide)
 
--> Use zcashd se você precisar de funcionalidade de carteira ou APIs RPC específicas
+-> Use zcashd se precisar de funcionalidade de wallet ou de APIs RPC específicas
 
 
 ### **Importante: Mapeamento de Portas no Akash**
 
-Quando você expõe uma porta no Akash (por exemplo, a porta 8233 para o P2P do zcashd), ela **NÃO é vinculada a essa porta exata** no IP público do provedor. Em vez disso, o provedor atribui uma porta alta aleatória (como 31234 ou 42567) e faz proxy reverso dela para a porta 8233 do seu contêiner.
+Quando expõe uma porta no Akash (por exemplo, a porta 8233 para P2P do zcashd), ela **NÃO fica associada a essa porta exata** no IP público do fornecedor. Em vez disso, o fornecedor atribui uma porta alta aleatória (como 31234 ou 42567) e faz reverse proxy para a porta 8233 do seu contentor.
 
-Isso é intencional — os provedores executam múltiplas implantações, e haveria conflitos se todos tentassem usar a porta 8233 diretamente.
+Isto é intencional: os fornecedores executam várias implementações e haveria conflitos se todos tentassem usar diretamente a porta 8233.
 
-**O que isso significa para você:**
+**O que isto significa para si:**
 
--> Você configura a porta 8233 no SDL (a porta P2P padrão do zcashd)
+-> Configura a porta 8233 no SDL (a porta P2P padrão do zcashd)
 
--> O Akash fornece uma URI como *provider.com:31234*
+-> O Akash dá-lhe um URI como *provider.com:31234*
 
--> Outros nós Zcash se conectam a você em *provider.com:31234*
+-> Outros nós de Zcash ligam-se a si em *provider.com:31234*
 
--> Dentro do seu contêiner, o zcashd continua escutando na 8233
+-> Dentro do seu contentor, o zcashd continua a escutar na 8233
 
 
-Isso é tratado automaticamente. Basta usar a URI que o Akash fornecer.
+Isto é tratado automaticamente. Basta usar o URI que o Akash lhe fornece.
 
 ## Pré-requisitos
 
 -> Extensão de navegador **Keplr Wallet** instalada (Chrome/Brave/Firefox)
 
--> Tokens **AKT** - Obtenha 50-100 AKT em uma exchange (Coinbase, Kraken, Osmosis)
+-> Tokens **AKT** - Obtenha 50-100 AKT numa exchange (Coinbase, Kraken, Osmosis)
 
--> **5 minutos** para clicar pela interface do Console
+-> **5 minutos** para clicar na interface da Console
 
 
-## Etapa 1: Conecte Sua Carteira
+## Passo 1: Ligar a Sua Wallet
 
--> Vá para [https://console.akash.network](https://console.akash.network)
+-> Vá a [https://console.akash.network](https://console.akash.network)
 
 -> Clique em **"Connect Wallet"** no canto superior direito
 
--> Escolha **Keplr** (ou sua carteira Cosmos preferida)
+-> Escolha **Keplr** (ou a sua wallet Cosmos preferida)
 
--> Aprove a conexão quando o Keplr abrir
+-> Aprove a ligação quando o Keplr aparecer
 
 
-Seu saldo de AKT deve aparecer no canto superior direito. Se estiver zerado, primeiro adicione fundos à sua carteira.
+O seu saldo de AKT deverá aparecer no canto superior direito. Se estiver a zero, carregue primeiro a sua wallet.
 
-## Etapa 2: Criar Implantação
+## Passo 2: Criar a Implementação
 
--> Clique no botão **"Deploy"** (grande botão azul, no centro da página)
+-> Clique no botão **"Deploy"** (grande botão azul, ao centro da página)
 
--> Escolha **"Build your template"** (ou pule diretamente para o upload do SDL)
+-> Escolha **"Build your template"** (ou avance diretamente para carregar o SDL)
 
-### Opção A: Enviar Arquivo SDL (Recomendado)
+### Opção A: Carregar Ficheiro SDL (Recomendado)
 
-[![Implantar no Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
+> **Este botão implementa um nó interrompido.** Cobra ao seu saldo AKT por um nó que não consegue sincronizar. Use antes o [guia do Zebra](/guides/akash-network-zebra).
+
+[![Deploy on Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
 
 ### Opção B: Usar o Editor SDL
 
-Se você quiser colar manualmente o SDL:
+Se quiser colar manualmente o SDL:
 
 -> Copie o conteúdo de *zcashd-akash.yml*
 
 -> Cole no editor SDL
 
--> Modifique conforme necessário (veja a seção de configuração abaixo)
+-> Modifique conforme necessário (veja a secção de configuração abaixo)
 
 -> Clique em **"Create Deployment"**
 
 
-## Etapa 3: Revisar e Aprovar o Depósito
+## Passo 3: Rever e Aprovar o Depósito
 
-O Console mostrará a você:
+A Console irá mostrar-lhe:
 
--> **Depósito da implantação**: ~ 5 AKT (você recebe isso de volta quando fecha a implantação)
+-> **Depósito de implementação**: ~ 5 AKT (recebe isto de volta quando fechar a implementação)
 
--> **Custo estimado**: Com base no preço do seu SDL
+-> **Custo estimado**: Com base nos preços do seu SDL
 
 
 Clique em **"Approve"** e assine a transação no Keplr.
 
-## Etapa 4: Escolha um Provedor
+## Passo 4: Escolher um Fornecedor
 
-Após ~ 30 segundos, você verá lances de provedores. Cada lance mostra:
+Após ~ 30 segundos, verá propostas dos fornecedores. Cada proposta mostra:
 
 -> **Preço por bloco** (em AKT ou USDC)
 
 -> **Custo mensal estimado**
 
--> **Detalhes do provedor** (uptime, região, etc.)
+-> **Detalhes do fornecedor** (uptime, região, etc.)
 
 
 **Não escolha apenas o mais barato.** Verifique:
 
--> % de uptime (busque > 95%)
+-> % de uptime (aponte para > 95%)
 
--> Região (mais perto de você = melhor latência, mas isso não importa muito para nós de blockchain)
+-> Região (mais perto de si = melhor latência, mas não importa muito para nós de blockchain)
 
--> Status de auditoria (marca de verificação verde = mais confiável)
-
-
-Clique em **"Accept Bid"** no provedor escolhido e assine no Keplr.
-
-## Etapa 5: Aguarde a Implantação
-
-O Console irá:
-
--> Criar o lease com o provedor escolhido
-
--> Enviar o manifesto (informa ao provedor o que executar)
-
--> Iniciar seu contêiner
+-> Estado de auditoria (marca de verificação verde = mais fiável)
 
 
-Isso leva de 1 a 2 minutos. Você verá atualizações de status na interface.
+Clique em **"Accept Bid"** no fornecedor que escolheu e assine no Keplr.
 
-## Etapa 6: Verifique se Está em Execução
+## Passo 5: Aguardar a Implementação
 
-Depois da implantação, você verá:
+A Console irá:
 
--> Aba **Services**: Mostra seu serviço *zcashd* com status
+-> Criar o lease com o fornecedor escolhido
 
--> Aba **Logs**: Logs em tempo real do seu nó zcashd
+-> Enviar o manifesto (diz ao fornecedor o que executar)
 
--> Aba **Leases**: Detalhes sobre sua implantação (DSEQ, provedor, custo)
+-> Iniciar o seu contentor
 
 
-### Verifique os Logs
+Isto demora 1-2 minutos. Verá atualizações de estado na interface.
 
-Clique em **Logs** e você deverá ver o zcashd iniciando:
+## Passo 6: Verificar se Está em Execução
+
+Depois de implementado, verá:
+
+-> Separador **Services**: Mostra o seu serviço *zcashd* com estado
+
+-> Separador **Logs**: Registos em direto do seu nó zcashd
+
+-> Separador **Leases**: Detalhes sobre a sua implementação (DSEQ, fornecedor, custo)
+
+
+### Verificar os Registos
+
+Clique em **Logs** e deverá ver o zcashd a arrancar:
 
 ```bash
 [zcashd]: ZCASHD_NETWORK=mainnet
@@ -172,47 +182,47 @@ Clique em **Logs** e você deverá ver o zcashd iniciando:
 ...
 ```
 
-**A primeira execução baixará zcash-params (~2GB).** Esta é uma operação única e leva de 5 a 10 minutos dependendo da largura de banda do provedor. Reinicializações posteriores pularão esta etapa.
+**A primeira execução irá descarregar zcash-params (~2GB).** Esta é uma operação única e demora 5-10 minutos, dependendo da largura de banda do fornecedor. Reinícios posteriores irão ignorar este passo.
 
-A sincronização levará **horas a dias** dependendo da rede. Observe:
+A sincronização irá demorar **horas a dias**, dependendo da rede. Observe:
 
--> Alturas de bloco aumentando
+-> Alturas de bloco a aumentar
 
--> Conexões com pares (devem ser 10-30 peers)
+-> Ligações a pares (deverão ser 10-30 pares)
 
--> Nenhum erro repetido
+-> Ausência de erros repetidos
 
 
-## Etapa 7: Obtenha o Endereço do Seu Nó
+## Passo 7: Obter o Endereço do Seu Nó
 
-Clique na aba **Leases** e depois em **URIs**.
+Clique no separador **Leases** e depois em **URIs**.
 
-Você verá algo como:
+Verá algo como:
 
 ```
 zcashd-8233: provider-hostname.com:31234
 ```
 
-Este é o **endpoint P2P público** do seu nó. Outros nós Zcash se conectarão a você nesse endereço.
+Este é o **endpoint P2P público** do seu nó. Outros nós de Zcash irão ligar-se a si neste endereço.
 
-**Observe o mapeamento de portas:** Você configurou a porta 8233 no SDL, mas o Akash a atribuiu a uma porta pública diferente (31234 neste exemplo). Isso é normal — veja a seção "Mapeamento de Portas no Akash" no topo se isso causar confusão. Seu nó fica acessível na porta que o Akash mostrar aqui, não necessariamente na 8233.
+**Note o mapeamento de portas:** Configurou a porta 8233 no SDL, mas o Akash atribuiu-lhe uma porta pública diferente (31234 neste exemplo). Isto é normal - veja a secção "Mapeamento de Portas no Akash" no topo, se isto lhe causar confusão. O seu nó está acessível na porta que o Akash mostrar aqui, não necessariamente na 8233.
 
-Se você habilitou RPC (comentado por padrão no SDL), também verá aqui o endpoint RPC com sua própria porta mapeada.
+Se ativou RPC (comentado por omissão no SDL), também verá aqui o endpoint RPC com a sua própria porta mapeada.
 
 ## Opções de Configuração
 
-### Mudando para Testnet
+### Mudar para Testnet
 
-O SDL usa Mainnet por padrão. Para usar Testnet:
+O SDL usa Mainnet por omissão. Para usar Testnet:
 
--> **Altere a rede na seção *env*:**
+-> **Altere a rede na secção *env*:**
 
    ```yaml
    # - "ZCASHD_NETWORK=mainnet"
    - "ZCASHD_NETWORK=testnet"
    ```
 
--> **Atualize a porta exposta** na seção *expose*:
+-> **Atualize a porta exposta** na secção *expose*:
 
    ```yaml
    # Comment out Mainnet port:
@@ -249,13 +259,13 @@ O SDL usa Mainnet por padrão. Para usar Testnet:
 
 > note lowering prices may filter our providers form bidding. experiement with this value, or use the provider endpiont to check if they would bid. (review provider api documentation)
 
-### Habilitar Acesso RPC
+### Ativar Acesso RPC
 
-O RPC vem desativado por padrão por segurança. Para habilitá-lo:
+O RPC está desativado por omissão por razões de segurança. Para o ativar:
 
-**CRÍTICO: Defina credenciais fortes.** O RPC do zcashd transmite nome de usuário/senha via HTTP (não HTTPS). Só exponha o RPC se você entender as implicações de segurança.
+**CRÍTICO: Defina credenciais fortes.** O RPC do zcashd transmite nome de utilizador/palavra-passe por HTTP (não HTTPS). Exponha RPC apenas se compreender as implicações de segurança.
 
--> Descomente na seção *env*:
+-> Descomente na secção *env*:
 
    ```yaml
    - "ZCASHD_RPCUSER=yourusername"
@@ -288,13 +298,13 @@ O RPC vem desativado por padrão por segurança. Para habilitá-lo:
      proto: tcp
    ```
 
-**Aviso**: Se você definir *global: true* para RPC, estará expondo-o à internet com autenticação básica. Isso é uma má ideia. Use *global: false* e acesse o RPC pela rede interna do Akash ou configure um túnel seguro.
+**Aviso**: Se definir *global: true* para RPC, está a expô-lo à internet com autenticação básica. Isto é uma má ideia. Use *global: false* e aceda ao RPC através da rede interna do Akash ou configure um túnel seguro.
 
-**Lembrete sobre mapeamento de portas**: Mesmo que você exponha o RPC globalmente, o Akash o mapeará para uma porta alta aleatória (não 8232/18232). Verifique as URIs na sua implantação para ver o endpoint público real. Para *global: false* (recomendado), o endpoint RPC só fica acessível dentro da rede de implantação do Akash, não pela internet pública.
+**Lembrete sobre mapeamento de portas**: Mesmo que exponha RPC globalmente, o Akash irá mapeá-lo para uma porta alta aleatória (não 8232/18232). Verifique os URIs na sua implementação para ver o endpoint público real. Para *global: false* (recomendado), o endpoint RPC só está acessível dentro da rede de implementação do Akash, não a partir da internet pública.
 
-### Habilitar Índice de Transações
+### Ativar Índice de Transações
 
-O índice de transações permite consultar qualquer transação pelo seu ID via RPC. Usa mais armazenamento (~ 20% de aumento).
+O índice de transações permite consultar qualquer transação pelo seu ID via RPC. Usa mais armazenamento (~ aumento de 20%).
 
 Descomente em *env*:
 
@@ -302,9 +312,9 @@ Descomente em *env*:
 - "ZCASHD_TXINDEX=1"
 ```
 
-**Aviso**: Habilitar txindex em um nó já sincronizado exige reindexar toda a blockchain, o que leva horas.
+**Aviso**: Ativar txindex num nó já sincronizado requer reindexar toda a blockchain, o que demora horas.
 
-### Habilitar Insight Explorer
+### Ativar o Explorador Insight
 
 O Insight Explorer fornece endpoints adicionais de API REST para dados da blockchain (útil para exploradores de blocos).
 
@@ -314,11 +324,11 @@ Descomente em *env*:
 - "ZCASHD_INSIGHTEXPLORER=1"
 ```
 
-Isso habilita automaticamente txindex e adiciona métodos RPC extras.
+Isto ativa automaticamente txindex e acrescenta métodos RPC extra.
 
-### Habilitar Métricas Prometheus
+### Ativar Métricas Prometheus
 
-Para coletar métricas para monitoramento:
+Para recolher métricas para monitorização:
 
 -> Descomente em *env*:
 
@@ -337,37 +347,37 @@ Para coletar métricas para monitoramento:
      proto: tcp
    ```
    
-As métricas estarão disponíveis em http://yourendpoint:9969/metrics no formato Prometheus.
+As métricas estarão disponíveis em http://yourendpoint:9969/metrics em formato Prometheus.
 
 ### Ajustar Recursos/Preço
 
-Se você não está recebendo lances ou quer otimizar o custo:
+Se não está a receber propostas ou quer otimizar o custo:
 
-**Para provedores com especificações menores**, reduza na seção *profiles.compute.zcashd.resources*:
+**Para fornecedores com especificações mais baixas**, reduza na secção *profiles.compute.zcashd.resources*:
 
--> CPU: *units: 2* (mínimo para velocidade de sincronização razoável)
+-> CPU: *units: 2* (mínimo para uma velocidade de sincronização razoável)
 
 -> Memória: *size: 12Gi* (mínimo para estabilidade)
 
 -> Armazenamento: *size: 120Gi* (mínimo para mainnet)
 
 
-**Para atrair mais lances**, aumente em *profiles.placement.akash.pricing*:
+**Para atrair mais propostas**, aumente em *profiles.placement.akash.pricing*:
 
--> Mainnet: Tente *amount: 15000* uakt/bloco
+-> Mainnet: Experimente *amount: 15000* uakt/bloco
 
--> Testnet: Tente *amount: 7500* uakt/bloco
+-> Testnet: Experimente *amount: 7500* uakt/bloco
 
 
-Os valores do SDL estão configurados de forma conservadoramente alta. A maioria dos provedores dará lances mais baixos.
+Os valores do SDL estão definidos de forma conservadoramente alta. A maioria dos fornecedores irá propor menos.
 
-## Atualizando Sua Implantação
+## Atualizar a Sua Implementação
 
-Precisa alterar a configuração após implantar?
+Precisa de alterar a configuração depois de implementar?
 
--> Vá para **My Deployments** no Console
+-> Vá a **My Deployments** na Console
 
--> Encontre sua implantação zcashd
+-> Encontre a sua implementação zcashd
 
 -> Clique em **"Update Deployment"**
 
@@ -376,26 +386,26 @@ Precisa alterar a configuração após implantar?
 -> Clique em **"Update"** e aprove no Keplr
 
 
-**Nota**: Atualizar reiniciará seu contêiner. O nó continuará a partir do estado salvo (armazenamento persistente), mas espere de 1 a 2 minutos de indisponibilidade.
+**Nota**: Atualizar irá reiniciar o seu contentor. O nó retomará a partir do seu estado guardado (armazenamento persistente), mas conte com 1-2 minutos de indisponibilidade.
 
-## Monitoramento
+## Monitorização
 
 ### Via Console
 
--> Aba **Logs**: Logs do contêiner em tempo real
+-> Separador **Logs**: Registos do contentor em direto
 
--> Aba **Shell**: Obtenha um shell dentro do contêiner (útil para depuração)
+-> Separador **Shell**: Obtenha uma shell dentro do contentor (útil para depuração)
 
--> Aba **Events**: Eventos do Kubernetes (em geral inúteis, a menos que algo esteja quebrado)
+-> Separador **Events**: Eventos do Kubernetes (na maioria inúteis, a menos que algo esteja avariado)
 
 
-### Via RPC (se habilitado)
+### Via RPC (se ativado)
 
-Se você habilitou RPC, pode consultar seu nó como um nó completo zcashd normal (porque ele é!)
+Se ativou RPC, pode consultar o seu nó como um nó completo zcashd normal (porque é isso mesmo!)
 
-### Alternativa ao zcash-cli
+### Alternativa `zcash-cli`
 
-Se você tiver acesso ao shell via Console, pode usar *zcash-cli* diretamente:
+Se tiver acesso à shell via Console, pode usar *zcash-cli* diretamente:
 
 ```bash
 # From the Shell tab in Console
@@ -404,113 +414,113 @@ zcash-cli getpeerinfo
 zcash-cli getinfo
 ```
 
-## Encerrando Sua Implantação
+## Fechar a Sua Implementação
 
-Quando terminar ou quiser parar de pagar:
+Quando terminar ou quiser deixar de pagar:
 
--> Vá para **My Deployments**
+-> Vá a **My Deployments**
 
--> Encontre sua implantação zcashd
+-> Encontre a sua implementação zcashd
 
 -> Clique em **"Close Deployment"**
 
 -> Confirme e assine no Keplr
 
 
-Seu depósito de 5 AKT será reembolsado. O **armazenamento persistente** deve ser preservado pelo provedor, mas não conte com isso — trate-o como faria com qualquer outro provedor de nuvem.
+O seu depósito de 5 AKT será reembolsado. O **armazenamento persistente** deverá ser preservado pelo fornecedor, mas não conte com isso - trate-o como trataria qualquer outro fornecedor cloud.
 
-## Solução de Problemas
+## Resolução de Problemas
 
 ### Erro "Insufficient funds"
 
-Você precisa de mais AKT. Adicione fundos à sua carteira Keplr.
+Precisa de mais AKT. Carregue a sua wallet Keplr.
 
-### Nenhum lance aparecendo
+### Não aparecem propostas
 
 Ou:
 
--> Seu preço está muito baixo (aumente *amount* no SDL)
+-> O seu preço está demasiado baixo (aumente *amount* no SDL)
 
--> Seus requisitos de recursos estão muito altos para os provedores disponíveis (reduza CPU/memória/armazenamento)
+-> Os seus requisitos de recursos são demasiado elevados para os fornecedores disponíveis (reduza CPU/memória/armazenamento)
 
--> Espere mais tempo (às vezes leva de 60 a 90 segundos para os lances aparecerem)
+-> Espere mais tempo (por vezes demora 60-90 segundos até aparecerem propostas)
 
 
-### Implantação travada em "pending"
+### Implementação presa em "pending"
 
-O provedor pode estar com problemas. Feche a implantação e tente um provedor diferente.
+O fornecedor pode estar a ter problemas. Feche a implementação e tente um fornecedor diferente.
 
-### Logs do zcashd mostram "No peers connected"
+### Os registos do zcashd mostram "No peers connected"
 
-Isso é normal nos primeiros minutos. O zcashd descobrirá peers automaticamente. Se continuar após mais de 10 minutos, você pode ter um problema de rede (improvável no Akash).
+Desde a paragem de Fim de Suporte em 18 de julho de 2026, este é o estado permanente esperado e não um atraso de arranque, e nenhuma espera adicional ou nova implementação irá resolvê-lo. Implemente antes [Zebra](/guides/akash-network-zebra).
 
-### Erros de "Out of memory" nos logs
+### Erros "Out of memory" nos registos
 
-Você economizou demais na RAM. Feche a implantação e implante novamente com pelo menos 12Gi de memória (16Gi recomendado).
+Foi demasiado forreta na RAM. Feche a implementação e volte a implementar com pelo menos 12Gi de memória (16Gi recomendado).
 
-### A sincronização está demorando para sempre
+### A sincronização está a demorar uma eternidade
 
-Defina "para sempre":
+Defina "uma eternidade":
 
 -> **Horas**: Normal
 
--> **Dias**: Também normal para mainnet do zero
+-> **Dias**: Também normal para mainnet a partir do zero
 
--> **Semanas**: Algo está errado, verifique os logs em busca de erros
+-> **Semanas**: Há algo de errado, verifique os registos à procura de erros
 
 
 ### "Error fetching zcash-params"
 
-O provedor pode estar com problemas de rede ou largura de banda lenta. Isso normalmente se resolve sozinho. Se persistir por mais de 30 minutos, tente reimplantar em outro provedor.
+O fornecedor pode ter problemas de rede ou largura de banda lenta. Normalmente isto resolve-se sozinho. Se persistir durante mais de 30 minutos, tente voltar a implementar noutro fornecedor.
 
 ### Falhas de autenticação RPC
 
 -> Verifique se *ZCASHD_RPCUSER* e *ZCASHD_RPCPASSWORD* estão definidos corretamente
 
--> Verifique se você está usando a porta correta (8232 para mainnet, 18232 para testnet)
+-> Verifique se está a usar a porta correta (8232 para mainnet, 18232 para testnet)
 
--> Lembre-se de que as portas são mapeadas pelo Akash - use a URI da sua implantação, não 8232 diretamente
-
-
-## Gerenciamento de Custos
-
-Monitore seus gastos no Console:
-
--> **My Deployments** -> Sua implantação -> Mostra a estimativa de "Cost per month"
-
--> O saldo da sua carteira Keplr diminuirá com o tempo
+-> Lembre-se de que as portas são mapeadas pelo Akash - use o URI da sua implementação, não a 8232 diretamente
 
 
-Quando seu saldo ficar baixo, o Akash fechará automaticamente sua implantação. **Recarregue sua carteira periodicamente** ou configure alertas.
+## Gestão de Custos
 
-### Reduzindo Custos
+Monitorize os seus gastos na Console:
+
+-> **My Deployments** -> A sua implementação -> Mostra a estimativa de "Cost per month"
+
+-> O saldo da sua wallet Keplr irá diminuir ao longo do tempo
+
+
+Quando o seu saldo ficar baixo, o Akash irá fechar automaticamente a sua implementação. **Carregue a sua wallet periodicamente** ou configure alertas.
+
+### Reduzir Custos
 
 -> **Use Testnet** para testes não produtivos (50% mais barato)
 
--> **Reduza CPU/memória** se você não precisar de sincronização rápida
+-> **Reduza CPU/memória** se não precisar de sincronização rápida
 
--> **Escolha provedores mais baratos** (nem sempre é sensato - uptime importa)
+-> **Escolha fornecedores mais baratos** (nem sempre é sensato - o uptime importa)
 
--> **Use USDC em vez de AKT** se o preço do AKT estiver volátil (requer alteração no preço do SDL)
+-> **Use USDC em vez de AKT** se o preço do AKT for volátil (requer alteração do preço no SDL)
 
--> **Desative txindex** se você não precisar dele (economiza ~ 20% de armazenamento)
+-> **Desative txindex** se não precisar dele (poupa ~ 20% de armazenamento)
 
 
 ### Recursos Adicionais
 
 **Akash Console**: [https://console.akash.network](https://console.akash.network)
 
-**Documentação do Akash**: [https://akash.network/docs/](https://akash.network/docs/)
+**Documentação Akash**: [https://akash.network/docs/](https://akash.network/docs/)
 
-**Exploradores Zcash**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Exploradores de Zcash**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
 
-**Discord do Akash**: [https://discord.akash.network](https://discord.akash.network) (para problemas com provedores)
+**Discord do Akash**: [https://discord.akash.network](https://discord.akash.network) (para problemas com fornecedores)
 
 ## Notas Finais
 
 - **O armazenamento persistente importa.** Não ignore *persistent: true* nem use a classe *beta2*. Use *beta3*.
-- **A sincronização inicial é lenta.** Tenha paciência. Isso é normal para nós de blockchain.
-- **Mantenha sua carteira com fundos.** As implantações são fechadas automaticamente quando você fica sem AKT.
-- **Backups não são automáticos.** Se os dados são importantes para você, assuma que eles podem desaparecer e planeje adequadamente.
+- **A sincronização inicial é lenta.** Tenha paciência. Isto é normal para nós de blockchain.
+- **Mantenha a sua wallet com saldo.** As implementações fecham automaticamente quando fica sem AKT.
+- **As cópias de segurança não são automáticas.** Se se importa com os dados, assuma que podem desaparecer e planeie em conformidade.
 - **A segurança do RPC é crítica.** Não exponha o RPC à internet sem medidas de segurança adequadas.
-- **zcash-params são armazenados em cache.** A primeira execução baixa ~2GB de parâmetros criptográficos. Isso é normal e acontece apenas uma vez.
+- **zcash-params ficam em cache.** A primeira execução descarrega ~2GB de parâmetros criptográficos. Isto é normal e só acontece uma vez.

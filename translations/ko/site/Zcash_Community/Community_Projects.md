@@ -1,4 +1,4 @@
-# 커뮤니티 프로젝트
+# Community Projects
 
 Zcash 커뮤니티와 더 넓은 영지식 생태계가 구축한 도구, 지갑, 애플리케이션, 라이브러리, 생태계 이니셔티브를 살펴보세요.
 
@@ -15,7 +15,7 @@ Zcash 글로벌 커뮤니티가 만든 교육용 워크북입니다.
 [방문하기](https://www.zecpublish.com)
 
 ### ZK Radio
-Zcash 커뮤니티에 정보, 교육, मनोरंजन을 제공하는 온라인 라디오 방송국입니다. Zcash en Español과 ZKAV Club이 개발했습니다.  
+Zcash 커뮤니티에 정보를 제공하고, 교육하며, 즐거움을 주기 위한 온라인 라디오 방송국입니다. Zcash en Español과 ZKAV Club이 개발했습니다.  
 [방문하기](https://zcashesp.com/zk-radio/)
 
 ### ZShieldHer
@@ -23,11 +23,11 @@ Zcash 커뮤니티에 정보, 교육, मनोरंजन을 제공하는 온�
 [방문하기](https://zshieldher.com/)
 
 ### ZecForge
-온보딩, 크리에이터 육성, 콘텐츠 배포에 초점을 맞춘 Zcash 생태계용 크리에이터 포지입니다.  
+온보딩, 크리에이터 개발, 콘텐츠 배포에 초점을 맞춘 Zcash 생태계용 크리에이터 포지입니다.  
 [방문하기](https://x.com/zec_forge)
 
 ### Mastering Zcash Video Series
-Zcash 기술, 암호학, 경제학, 거버넌스를 다루는 종합 교육 시리즈입니다.  
+Zcash 기술, 암호학, 경제, 거버넌스를 다루는 종합 교육 시리즈입니다.  
 [방문하기](https://www.youtube.com/watch?v=YWUzh_VtrR8)
 
 ### Zcast
@@ -35,11 +35,11 @@ Zcash 기술, 암호학, 경제학, 거버넌스를 다루는 종합 교육 시�
 [방문하기](https://www.youtube.com/@ZcastEsp)
 
 ### Zero-knowledge Audiovisual Club (ZKAV)
-프라이버시 우선의 시청각 집단으로, 오픈소스 및 탈중앙화 기술 커뮤니티 행사에 자원봉사 AV 지원을 제공하며 교육, 공동 제작, 협업을 진행합니다.  
+프라이버시 우선의 시청각 집단으로, 오픈소스 및 탈중앙화 기술 커뮤니티 이벤트를 위해 교육, 공동 제작, 자원봉사 AV 지원을 제공합니다.  
 [방문하기](https://zkav.club/)
 
 ### Zcash Network School
-신규 Zcash 사용자와 개발자를 위한 구조화된 교육 콘텐츠입니다.  
+새로운 Zcash 사용자와 개발자를 위한 체계적인 교육 콘텐츠입니다.  
 [포럼](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
 
 ### Zectastic
@@ -51,11 +51,11 @@ Zcash 뉴스, 커뮤니티 활동, 네트워크 정보, 지갑, 거래소, 생�
 [포럼](https://forum.zcashcommunity.com/t/zec-app-is-coming-soon/56605)
 
 ### PGPZ Community
-프라이버시를 보존하는 디지털 현금, 실용적 컴플라이언스, 그리고 공익을 위한 Zcash의 역할에 초점을 맞춘 워싱턴 D.C. 정책 이니셔티브 Pretty Good Policy for Zcash (PGPZ)를 위한 커뮤니티 허브입니다.  
+Pretty Good Policy for Zcash (PGPZ)를 위한 커뮤니티 허브로, 프라이버시를 보존하는 디지털 현금, 실용적 컴플라이언스, 그리고 공익에서의 Zcash 역할에 초점을 둔 워싱턴 D.C. 정책 이니셔티브입니다.  
 [방문하기](https://community.pgpz.org/)
 
 ### Gleyo 
-Zcash 커뮤니티, Web3 프로젝트, Web2 조직을 위해 설계된 커뮤니티 참여 및 보상 플랫폼입니다. 퀘스트, 채팅, 보상을 통해 커뮤니티가 구성원을 온보딩하고 참여시키도록 돕는 한편, 사용자가 프라이빗한 실드 ZEC를 획득하고 출금할 수 있게 합니다.
+Zcash 커뮤니티, Web3 프로젝트, Web2 조직을 위해 설계된 커뮤니티 참여 및 보상 플랫폼입니다. 퀘스트, 채팅, 보상을 통해 커뮤니티가 구성원을 온보딩하고 참여시키도록 돕고, 사용자는 프라이빗한 실드 처리된 ZEC를 획득하고 출금할 수 있습니다.
 
 [방문하기](https://gleyo.app/)
 
@@ -69,28 +69,28 @@ Zcash 보조금이 어떻게 발견되고, 추적되며, 검토되는지를 단�
 
 ## 지갑 및 결제 도구
 
-### Cipherpay
-인터넷을 위한 프라이빗 결제. 비수탁형이며 KYC가 없습니다. 판매자는 ZEC를 실드 주소로 직접 받습니다.  
+### CipherPay
+인터넷을 위한 프라이빗 결제. 비수탁형이며 KYC가 없습니다. 판매자는 실드 주소로 직접 ZEC를 받습니다.  
 [방문하기](https://www.cipherpay.app/en)
 
-### Ezcash
-자동 실드 지원을 갖춘, 사용하기 쉬운 완전기능 멀티플랫폼 Zcash 지갑입니다.  
+### eZcash
+사용하기 쉬운, 모든 기능을 갖춘 멀티플랫폼 Zcash 지갑으로 autoshielding을 지원합니다.  
 [방문하기](https://blog.nerdbank.net/ezcash-app)
 
 ### Nozy Wallet
-Zebrad를 위해 구축된 Orchard 중심 Zcash 지갑으로, 완전 실드 트랜잭션과 안전한 키 관리를 지원합니다.  
+Zebrad용으로 구축된 Orchard 중심 Zcash 지갑으로, 완전 실드 트랜잭션과 안전한 키 관리를 지원합니다.  
 [방문하기](https://github.com/LEONINE-DAO/Nozy-wallet)
 
 ### Overpay.com
-사용자가 실드 ZEC로 현실 세계의 구매를 할 수 있게 해주는 결제 게이트웨이입니다(현재 알파 단계).  
+사용자가 실제 구매에 실드 처리된 ZEC를 사용할 수 있게 해주는 결제 게이트웨이입니다(현재 알파 단계).  
 [방문하기](https://overpay.com)
 
 ### Zafu Wallet
-Zcash와 Penumbra를 위한 오픈소스 프라이버시 지갑입니다. 클라이언트 측 proving, 검증된 라이트 클라이언트 아키텍처, 콜드 서명, FROST 멀티시그, 그리고 기기 밖으로 view key가 나가지 않는 브라우저 확장 프로그램입니다.  
+Zcash와 Penumbra를 위한 오픈소스 프라이버시 지갑입니다. 클라이언트 측 증명, 검증된 라이트 클라이언트 아키텍처, 콜드 서명, FROST 멀티시그, 그리고 뷰 키가 기기를 벗어나지 않는 브라우저 확장 프로그램입니다.  
 [방문하기](https://chromewebstore.google.com/detail/zafu-wallet-beta/bhlogefpcebekhjpomlodifcelldoimn)
 
 ### ZGo
-판매자와 상인이 Zcash 결제를 받을 수 있게 해주는 Zcash Register입니다.  
+판매자와 상점이 Zcash 결제를 받을 수 있게 해주는 Zcash Register입니다.  
 [방문하기](https://zgo.cash)
 
 ### Zimppy
@@ -102,11 +102,11 @@ Zcash 트랜잭션에 원활하고 안전하게 접근할 수 있게 해주는 D
 [포럼](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 
 ### ZODL
-ZODL의 대표 Zcash 지갑입니다(이전 이름은 Zashi). iOS와 Android에서 사용할 수 있습니다. 실드 ZEC와 NU7 코인 보유자 투표를 지원합니다.  
+ZODL(이전의 Zashi)의 대표 Zcash 지갑입니다. iOS와 Android에서 사용할 수 있습니다. 실드 처리된 ZEC와 NU7 코인 보유자 투표를 지원합니다.  
 [방문하기](https://zodl.app/)
 
 ### Noir Wallet
-간단하고 프라이빗한 ZEC 거래를 위해 설계된 프라이버시 중심 Zcash 지갑입니다.  
+간단하고 프라이빗한 ZEC 트랜잭션을 위해 설계된 프라이버시 중심 Zcash 지갑입니다.  
 [포럼](https://forum.zcashcommunity.com/t/first-look-at-noir-wallet/55667)
 
 ### ZecVault
@@ -122,31 +122,41 @@ Rust로 작성된 Zcash용 실험적 경량 데스크톱 지갑입니다.
 [포럼](https://forum.zcashcommunity.com/t/montezecret-a-desktop-wallet-for-zcash-in-rust-instead-of-tweets/56164)
 
 ### Gem Wallet
-ZEC 전송, 수신, 스왑을 지원하는 멀티체인, 오픈소스, 자기 수탁형 지갑입니다.  
+ZEC 송금, 수신, 스왑을 지원하는 멀티체인 오픈소스 자가수탁 지갑입니다.  
 [방문하기](https://gemwallet.com/)
 
 ### TIPZ
-모든 팁이 실드 ZEC로 도착하는 실시간 비수탁형 팁 플랫폼입니다. NEAR Intents를 통한 크로스체인 온램프를 지원합니다.  
+모든 팁이 실드 처리된 ZEC로 도착하는 실시간 비수탁 팁 플랫폼입니다. NEAR Intents를 통한 크로스체인 온램프를 지원합니다.  
 [방문하기](https://tipz.cash/)
+
+### CYZE
+여러 팀원이 실드 처리된 Zcash 자금을 함께 관리할 수 있도록 해주는 협업형 지갑 및 조정 플랫폼입니다. FROST 임계 서명을 사용하여, 단일 참여자에게 지갑의 완전한 통제권을 주지 않고도 그룹이 Orchard 트랜잭션을 공동 승인할 수 있게 합니다.
+
+[방문하기](https://github.com/USCMig/Cyze)
+
+### Pendrake Watch
+실드 자금을 모니터링해야 하지만 이를 지출할 수 있는 기능은 필요하지 않은 개인과 조직을 위해 설계된 보기 전용 데스크톱 지갑입니다. 트랜잭션 및 잔액 모니터링, Orchard 및 Sapling 노트, 메모 보기, 과거 법정화폐 가치 평가, 트랜잭션 알림, 지갑 암호화, 프라이버시 중심 화면 공유 기능을 지원합니다.
+
+[방문하기](https://github.com/auzum197/pendrake-watch)
 
 ---
 
-## 익스플로러, 데이터, 네트워크 대시보드
+## 탐색기, 데이터, 네트워크 대시보드
 
 ### CipherScan
-프라이버시 우선 Zcash 블록체인 익스플로러입니다. Next.js 15, TypeScript, Rust/WASM으로 구축되었습니다. 조회 시 쿼리 메타데이터가 노출되지 않습니다.  
+프라이버시 우선 Zcash 블록체인 탐색기입니다. Next.js 15, TypeScript, Rust/WASM으로 구축되었습니다. 조회 시 쿼리 메타데이터가 유출되지 않습니다.  
 [방문하기](https://cipherscan.app/)
 
 ### Exblo
-Zcash Testnet에서 트랜잭션 테스트를 위해 설계된 블록 익스플로러입니다.  
+Zcash Testnet에서 트랜잭션 테스트를 위해 설계된 블록 탐색기입니다.  
 [방문하기](https://testnet.exblo.app/)
 
 ### OpenZcash
-ZCG 및 FPF 보조금 회계, Lockbox, 거버넌스, 지급 내역을 포함하는 Zcash Dev Fund용 공개 투명성 대시보드입니다.  
+ZCG와 FPF 보조금 회계, Lockbox, 거버넌스, 지급 내역을 포함한 Zcash Dev Fund용 공개 투명성 대시보드입니다.  
 [방문하기](https://openzcash.org/)
 
 ### Zcash Block Explorer
-Nighthawk Apps가 제공하는 종합 Zcash 블록 익스플로러입니다.  
+Nighthawk Apps가 제공하는 종합 Zcash 블록 탐색기입니다.  
 [방문하기](https://mainnet.zcashexplorer.app/)
 
 ### Zcash.Space
@@ -154,7 +164,7 @@ Unified Address를 검사하기 위한 브라우저 기반 Zcash Unified Address
 [방문하기](https://zcash.space/)
 
 ### ZecMap
-Zcash를 받는 전 세계 비즈니스와 위치의 지도입니다.  
+Zcash를 받는 비즈니스와 장소의 글로벌 지도입니다.  
 [방문하기](https://zecmap.com/)
 
 ### ZECping
@@ -162,7 +172,7 @@ Zcash Lightwalletd 노드의 gRPC 응답 시간을 확인하는 도구입니다.
 [방문하기](https://github.com/emersonian/zecping)
 
 ### ZecStats
-실시간 Zcash 네트워크 통계와 실드 지표를 보여주는 대시보드입니다.  
+실시간 Zcash 네트워크 통계와 실드 지표를 위한 대시보드입니다.  
 [방문하기](https://zecstats.com)
 
 ### zecprice
@@ -185,12 +195,17 @@ JavaScript를 사용하지 않고 Zcash 뉴스, 통계, 교육 콘텐츠를 모�
 
 [포럼](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 
+### ZEC-OS
+다양한 Zcash 생태계 도구와 정보를 하나의 애플리케이션으로 결합한 레트로 스타일 데스크톱 인터페이스입니다. 블록체인 탐색기, mempool 뷰어, 네트워크 통계, 과거 차트, 실드 풀 정보, 채굴 도구, Unified Address 디코더, 계산기, 게임, 터미널 및 기타 유틸리티를 포함합니다.
+
+[방문하기](https://www.zec-os.com/)
+
 ---
 
-## 정체성, 이름, 사용자 경험
+## 신원, 이름, 사용자 경험
 
 ### ZcashNames
-Zcash 실드 주소를 위한 사람이 읽기 쉬운 이름입니다(예: `alice.zec`는 Unified Address로 확인됩니다).  
+Zcash 실드 주소를 위한 사람이 읽을 수 있는 이름입니다(예: `alice.zec`는 Unified Address로 확인됩니다).  
 [방문하기](https://www.zcashnames.com/)
 
 ### Zapp / JustZappIt
@@ -198,7 +213,7 @@ ZEC 채팅을 실제 결제와 연결하는 프라이버시 우선 메신저입�
 [방문하기](https://www.justzappit.xyz/)
 
 ### Zentat
-웹을 탐색하는 동안 법정화폐 가격을 실시간으로 ZEC로 변환해주는 브라우저 확장 프로그램입니다.  
+웹을 탐색하는 동안 법정화폐 가격을 실시간으로 ZEC로 변환해 주는 브라우저 확장 프로그램입니다.  
 [방문하기](https://chromewebstore.google.com/detail/zentat/lpndbahladndclecodadoljlplfaldac)
 
 ### Shielded Wall
@@ -206,41 +221,46 @@ Zcash 프라이버시로 구동되는 익명 고백 플랫폼입니다.
 [방문하기](https://shieldedwall.org/)
 
 ### Ztrash
-실드 ZEC로 결제하는 일회용 이메일 받은편지함입니다.  
+실드 처리된 ZEC로 비용을 지불하는 일회용 이메일 받은편지함입니다.  
 [방문하기](https://ztrash.com/)
 
 ### LiveZEC
-시청자가 스트리머의 자기 수탁형 지갑으로 실드 ZEC를 직접 보낼 수 있게 해주는, 스트리머를 위한 프라이버시 중심 팁 플랫폼입니다.
+시청자가 스트리머의 자가수탁 지갑으로 실드 처리된 ZEC를 직접 보낼 수 있게 해주는, 스트리머를 위한 프라이버시 중심 팁 플랫폼입니다.
 
 [방문하기](https://zec.live/)
 
 ### ZecLedger
-Zcash를 위한 프라이버시 보존형 재무 추적 및 회계 도구입니다. 투명한 네트워크 데이터를 위한 공개 대시보드와, 이를 노출하지 않고 viewing keys를 사용하는 로컬 프라이빗 회계를 결합하여 사용자가 자금의 보안과 프라이버시를 유지하면서 잔액, 거래 내역, 취득 원가를 추적하고, 장차 예산 관리와 세무 보고용 리포트까지 가능하도록 돕습니다.
+Zcash를 위한 프라이버시 보존형 재무 추적 및 회계 도구입니다. 투명한 네트워크 데이터를 위한 공개 대시보드와, Viewing Key를 노출하지 않고 사용하는 로컬 프라이빗 회계를 결합하여 사용자가 잔액, 트랜잭션 기록, 취득원가를 추적하고 향후에는 예산 관리와 세무 보고용 보고서까지 준비할 수 있도록 하면서도 자금을 안전하고 프라이빗하게 유지하도록 돕습니다.
 
 [방문하기](https://zecledger-web.vercel.app/)
+
+### Authentication with ZcashMe
+실드 처리된 Zcash 트랜잭션을 로그인 메커니즘으로 사용하는 프라이버시 중심 인증 시스템입니다. 사용자는 QR 코드를 스캔하고 소액의 인증 트랜잭션을 전송합니다.
+
+[방문하기](https://github.com/zcashme/zns-login)
 
 ---
 
 ## 개발자, 테스트, 인프라
 
 ### Ziggurat
-zcashd 및 Zebra 개발자를 위한 네트워크 테스트 스위트입니다. Zcash 크롤러도 포함합니다.  
+zcashd 및 Zebra 개발자를 위한 네트워크 테스트 스위트입니다. Zcash 크롤러가 포함되어 있습니다.  
 [방문하기](https://github.com/runziggurat/zcash)
 
 ### ZecDev
-faucet, Unified Address fixture, 그리고 lightwalletd 또는 Zaino를 갖춘 Zebra regtest 네트워크를 띄워 주며, 실드 엔드투엔드 흐름을 위한 재사용 가능한 GitHub Actions를 제공하는 Linux 우선 툴킷입니다.  
+faucet, Unified Address 픽스처, lightwalletd 또는 Zaino와 함께 Zebra regtest 네트워크를 구동하고, 실드 end-to-end 흐름을 위한 재사용 가능한 GitHub Actions를 제공하는 Linux 우선 툴킷입니다.  
 [방문하기](https://github.com/zecdev)
 
 ### Zebra Coverage-Guided Fuzzing Infrastructure
-비정상 입력에 대해 Zebra의 파싱, 네트워킹, 암호학 구성요소를 체계적으로 테스트합니다.  
+비정상 입력에 대해 Zebra의 파싱, 네트워킹, 암호화 구성 요소를 체계적으로 테스트합니다.  
 [포럼](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/234)
 
 ### Frost
-Zcash 생태계에서 더 넓은 채택을 위해 발전이 진행 중인 threshold signature scheme (FROST) 작업입니다.  
+Zcash 생태계 전반에서 더 폭넓은 채택을 위해 발전 중인 임계 서명 방식(FROST)입니다.  
 [논문](https://eprint.iacr.org/2020/852)
 
 ### MonteZcret Benchmark
-Zcash 블록체인 데이터를 동기화하는 다양한 방법을 평가하는 오픈소스 성능 테스트 프로젝트입니다.  
+Zcash 블록체인 데이터를 동기화하는 여러 방법을 평가하는 오픈소스 성능 테스트 프로젝트입니다.  
 [방문하기](https://github.com/openkoder/benchmarks_zcash/)
 
 ---
@@ -248,7 +268,7 @@ Zcash 블록체인 데이터를 동기화하는 다양한 방법을 평가하는
 ## Zcash를 활용하는 더 넓은 애플리케이션
 
 ### aftok
-Zcash 위에 구축된 협동적이고 상향식 비즈니스 조직 모델입니다.  
+Zcash 위에 구축된 협동적이고 상향식의 비즈니스 조직 모델입니다.  
 [방문하기](https://aftok.com)
 
 ### ZK Global Credit
@@ -264,7 +284,7 @@ Zcash로 구동되는 익명 콘텐츠 제작 및 프라이빗 기부 도구입�
 [포럼](https://forum.zcashcommunity.com/t/rhea-finance-zcash-gateway-browser-wallet-cross-chain-defi/55073)
 
 ### BazaarSwap
-WalletConnect를 통해 실드 ZEC를 Web3 DeFi로 가져오는 Zcash 네이티브 DEX입니다.  
+WalletConnect를 통해 실드 처리된 ZEC를 Web3 DeFi로 가져오는 Zcash 네이티브 DEX입니다.  
 [포럼](https://forum.zcashcommunity.com/t/introducing-bazaarswap-bringing-zec-to-web3-defi/55479)
 
 ### DCRDEX
@@ -276,17 +296,22 @@ Zcash를 지원하는 브라우저 지갑입니다.
 [방문하기](https://brave.com/wallet/)
 
 ### Nano-GPT
-Zcash를 포함한 암호화폐 결제를 지원하면서 여러 선도적인 AI 모델에 대한 접근을 제공하는 AI 플랫폼입니다.
+Zcash를 포함한 암호화폐 결제를 지원하면서 여러 주요 AI 모델에 대한 접근을 제공하는 AI 플랫폼입니다.
 
 [방문하기](https://nano-gpt.com/conversation/new)
+
+### zk.poker
+종단간 암호화, 멘털 포커, Zcash 프라이버시 기술을 결합한 피어투피어 포커 플랫폼입니다. 운영자가 플레이어의 카드를 알거나 베팅 자금을 직접 보관할 필요가 없도록 설계되었습니다.
+
+[방문하기](https://zkbtc.org/)
 
 
 ---
 
-## 조직 및 랩
+## 조직 및 연구소
 
 ### Shielded Labs
-스위스에 기반을 둔 독립적이고 기부금으로 운영되는 Zcash 지원 조직입니다. 생태계에서 Development Fund나 블록 보상 자금을 한 번도 받은 적 없는 최초의 조직입니다.  
+스위스에 기반을 둔 독립적이고 기부금으로 운영되는 Zcash 지원 조직입니다. 생태계에서 Development Fund나 블록 보상 자금을 받은 적이 없는 최초의 조직입니다.  
 [방문하기](https://shieldedlabs.net/)
 
 ### Cypherpunk
