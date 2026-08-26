@@ -1,170 +1,180 @@
-# zcashd'yi Akash Üzerinden Konsol ile Dağıtma
+# zcashd'yi Console üzerinden Akash'a dağıtma
 
-Guide for deploying a zcashd Zcash full node (Electric Coin Co implementation) using [Akash Console](https://console.akash.network). Here is a video tutorial below. A more in-depth guide can be found below.
+> **Kullanım amacıyla bir düğüm dağıtmak için bu kılavuzu izlemeyin. Kullanımdan kaldırılmıştır.**
+>
+> zcashd, 18 Temmuz 2026 tarihinde otomatik Destek Sonu durdurmasına ulaştı. Bugün dağıtılan bir zcashd düğümü zincirin en uç noktasına senkronize olmayacaktır; bu yüzden dağıtım her ay para harcar ve hiçbir çıktı üretmez.
+>
+> Bunun yerine **Zebra** dağıtın: [Akash Network üzerinde Zebra nasıl çalıştırılır](/guides/akash-network-zebra). Bu kılavuz aynı Akash Console iş akışını kapsar ve yaklaşık üçte bir disk alanına ihtiyaç duyar. Mevcut bir kurulumdan geçiş yapıyorsanız, [zcashd'den Zebra ve Zallet'e geçiş kılavuzuna](/guides/migration-guide-zcashd-to-zebrad-zallet) bakın.
+>
+> Bu sayfa, zcashd dağıtımının tarihsel kaydı olarak tutulmaktadır.
+
+[Akash Console](https://console.akash.network) kullanarak bir zcashd Zcash tam düğümünü (Electric Coin Co implementasyonu) dağıtma kılavuzu. Aşağıda bir video eğitim bulunmaktadır. Daha ayrıntılı bir kılavuzu da aşağıda bulabilirsiniz.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/SVekeNU6_-g"
-    title="Zcash Full Node setup on Akash Network"
+    title="Akash Network üzerinde Zcash Tam Düğüm kurulumu"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-allowFullScreen
+    allowFullScreen
     loading="lazy"
   />
 </div>
 
 
-## Ne Dağıtıyor Olacaksınız
+## Ne Dağıtıyorsunuz
 
-Sync edilecek tam zcashd düğümü:
+Şunları yapacak bir tam zcashd düğümü:
 
--> Tüm Zcash blockchain'ini (mainnet için 350GB+, testnet için ~40GB)
+-> Tüm Zcash blokzincirini senkronize edecek (mainnet için 350GB+, testnet için ~ 40GB)
 
--> AKT token fiyatlarına bağlı olarak ayda yaklaşık $15 maliyeti olacak
+-> AKT token fiyatlarına bağlı olarak yaklaşık aylık 15$ maliyeti olacak
 
--> Tamamen senkronize olmak birkaç saat ila günler sürebilir
+-> Tam senkronizasyonun tamamlanması birkaç saatten birkaç güne kadar sürecek
 
--> 4 vCPU, 16 GB RAM, 350 GB depolama (mainnet) veya 2 vCPU, 8 GB RAM, 50 GB (testnet)
+-> 4 vCPU, 16GB RAM, 350GB depolama (mainnet) veya 2 vCPU, 8GB RAM, 50GB (testnet) kullanacak
 
--> İlk çalıştırma sırasında kriptografik parametreleri indirme (~2 GB, tek seferlik)
+-> İlk çalıştırmada kriptografik parametreleri indirecek (~ 2GB, tek seferlik)
 
-**zcashd vs Zebra:**
+**zcashd ve Zebra karşılaştırması:**
 
--> zcashd, Electric Coin Co tarafından orijinal Zcash düğümü uygulamasıdır
+-> zcashd, Electric Coin Co tarafından geliştirilen özgün Zcash düğüm implementasyonuydu; 18 Temmuz 2026'dan beri durdurulmuştur
 
--> Zebra, Zcash Foundation'ün alternatif uygulamasıdır
+-> Zcash Foundation tarafından geliştirilen Zebra, bugün kullanılan tam düğümdür
 
--> Her ikisi de Zcash ağı ile uyumludur
+-> Yalnızca Zebra mevcut zinciri takip eder; bir zcashd düğümü en uç noktaya ulaşamaz
 
--> zcashd daha fazla özellik sunar (madencilik, cüzdan, Insight Explorer API)
+-> zcashd cüzdanının yerini [Zallet](/using-zcash/zallet-quick-reference-guide) almıştır
 
--> Cüzdan işlevi veya özel RPC API'leri gerekirse zcashd kullanın
-
-
-### **Önemli: Akash'ta Port Haritalama**
-
-Akash üzerinde bir portu açtığınızda (örneğin, zcashd P2P için 8233 portu), bu **sağlayıcının genel IP'sine tam olarak o portla bağlanmaz**. Bunun yerine sağlayıcı, rastgele yüksek bir port atar (örneğin 31234 veya 42567) ve bunu konteynerinizin 8233 portuna ters proxy yapar.
-
-Bu tasarımın amacı - sağlayıcılar birden fazla dağıtım çalıştırır ve herkes doğrudan 8233 portunu kullanmaya çalışırsa çakışmalar olurdu.
-
-**Bunun sizin için ne anlama geldiğini:**
-
--> SDL'de (zcashd'un standart P2P portu) port 8233 yapılandırırsınız
-
--> Akash, size *provider.com:31234* gibi bir URI verir
-
--> Diğer Zcash düğümleri sizinle *provider.com:31234* üzerinden bağlanır
-
--> Konteyneriniz içinde zcashd hâlâ 8233 portunu dinler
+-> Cüzdan işlevselliğine veya belirli RPC API'lerine ihtiyacınız varsa zcashd kullanın
 
 
-Bu, otomatik olarak işlenir. Sadece Akash'ın size verdiği URI'yi kullanın.
+### **Önemli: Akash'ta Port Eşleme**
+
+Akash'ta bir portu dışa açtığınızda (ör. zcashd P2P için 8233 portu), bu port sağlayıcının genel IP'sinde **aynı porta bağlanmaz**. Bunun yerine sağlayıcı rastgele yüksek bir port (örneğin 31234 veya 42567) atar ve bunu container'ınızdaki 8233 portuna reverse-proxy eder.
+
+Bu tasarım gereğidir; sağlayıcılar birden fazla dağıtım çalıştırır ve herkes doğrudan 8233 portunu kullanmaya çalışsaydı çakışmalar olurdu.
+
+**Bunun sizin için anlamı:**
+
+-> SDL içinde 8233 portunu yapılandırırsınız (zcashd'nin standart P2P portu)
+
+-> Akash size *provider.com:31234* gibi bir URI verir
+
+-> Diğer Zcash düğümleri size *provider.com:31234* adresinden bağlanır
+
+-> Container'ınızın içinde zcashd hâlâ 8233 portunu dinler
+
+
+Bu işlem otomatik olarak yönetilir. Sadece Akash'ın size verdiği URI'yi kullanın.
 
 ## Önkoşullar
 
--> **Keplr Cüzdanı** tarayıcı eklentisi kurulmuş olmalı (Chrome/Brave/Firefox)
+-> **Keplr Wallet** tarayıcı eklentisi kurulu olmalı (Chrome/Brave/Firefox)
 
--> **AKT tokenları** - 50-100 AKT'yi bir borsadan alın (Coinbase, Kraken, Osmosis)
+-> **AKT tokenları** - Bir borsadan (Coinbase, Kraken, Osmosis) 50-100 AKT alın
 
--> **5 dakika**, Console UI üzerinden tıklamak için
+-> Console arayüzünde tıklayarak ilerlemek için **5 dakika**
 
 
-## Adım 1: Cüzdanınızı Bağlayınız
+## 1. Adım: Cüzdanınızı Bağlayın
 
--> Go to [https://console.akash.network](https://console.akash.network)
+-> [https://console.akash.network](https://console.akash.network) adresine gidin
 
--> Üst sağ köşedeki **"Cüzdanı Bağla"**'ya tıklayın
+-> Sağ üstteki **"Connect Wallet"** düğmesine tıklayın
 
--> **Keplr** (veya tercih ettiğiniz Cosmos cüzdanı) seçin
+-> **Keplr**'ı seçin (veya tercih ettiğiniz Cosmos cüzdanını)
 
 -> Keplr açıldığında bağlantıyı onaylayın
 
 
-Cüzdanınızda AKT bakiyeniz üst sağ köşede görünmelidir. Eğer sıfır ise, önce cüzdanınızı doldurun.
+AKT bakiyeniz sağ üstte görünmelidir. Sıfır görünüyorsa önce cüzdanınıza bakiye aktarın.
 
-## Adım 2: Dağıtım Oluşturun
+## 2. Adım: Dağıtım Oluşturun
 
--> **"Dağıt"** butonuna tıklayın (sayfanın ortasında büyük mavi buton)
+-> **"Deploy"** düğmesine tıklayın (büyük mavi düğme, sayfanın ortasında)
 
--> **"Şablonunuzu oluşturun"** (veya SDL yükleme bölümüne doğrudan geçin)
+-> **"Build your template"** seçeneğini seçin (veya doğrudan SDL yüklemeye geçin)
 
-### Seçenek A: SDL Dosyasını Yükleme (Tavsiyelenir)
+### Seçenek A: SDL Dosyası Yükle (Önerilir)
 
-[![Akash üzerinde Dağıt](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
+> **Bu düğme durmuş bir düğüm dağıtır.** Senkronize olamayan bir düğüm için AKT bakiyenizden ücret keser. Bunun yerine [Zebra kılavuzunu](/guides/akash-network-zebra) kullanın.
 
-### Seçenek B: SDL Düzenleyici Kullanımı
+[![Akash üzerinde dağıt](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
 
-SDL'yi elle yapıştırmak istiyorsanız:
+### Seçenek B: SDL Editörünü Kullanın
 
--> *zcashd-akash.yml*'in içeriğini kopyalayın
+SDL'yi manuel olarak yapıştırmak istiyorsanız:
 
--> SDL düzenleyiciye yapıştırın
+-> *zcashd-akash.yml* içeriğini kopyalayın
 
--> Gerekirse yapılandırmayı değiştirin (aşağıdaki yapılandırma bölümüne bakın)
+-> SDL editörüne yapıştırın
 
--> **"Dağıtım Oluştur"**'a tıklayın
+-> Gerektiği gibi değiştirin (aşağıdaki yapılandırma bölümüne bakın)
 
-
-## Adım 3: Dağıtımı ve Hesaplamayı Onaylayınız
-
-Console şu bilgileri size gösterecektir:
-
--> **Dağıtım yatırımı**: ~5 AKT (dağıtımdan kapatıldığında bu paranı geri alacaksınız)
-
--> **Tahmini maliyet**: SDL fiyatlandırmasına göre
+-> **"Create Deployment"** düğmesine tıklayın
 
 
-**"Onayla"**'ya tıklayın ve Keplr'de işlemi imzalayın.
+## 3. Adım: Depozitoyu İnceleyin ve Onaylayın
 
-## Step 4: Choose a Provider
+Console size şunları gösterecek:
 
-After ~ 30 seconds, you'll see bids from providers. Each bid shows:
+-> **Dağıtım depozitosu**: ~ 5 AKT (dağıtımı kapattığınızda bunu geri alırsınız)
 
--> **Price per block** (in AKT or USDC)
-
--> **Monthly estimated cost**
-
--> **Provider details** (uptime, region, etc.)
+-> **Tahmini maliyet**: SDL fiyatlandırmanıza göre
 
 
-**Don't just pick the cheapest.** Check:
+**"Approve"** düğmesine tıklayın ve işlemi Keplr içinde imzalayın.
 
--> Uptime % (aim for > 95%)
+## 4. Adım: Bir Sağlayıcı Seçin
 
--> Region (closer to you = better latency, but doesn't matter much for blockchain nodes)
+Yaklaşık 30 saniye sonra sağlayıcılardan teklifler göreceksiniz. Her teklif şunları gösterir:
 
--> Audited status (green checkmark = more trustworthy)
+-> **Blok başına fiyat** (AKT veya USDC cinsinden)
 
+-> **Aylık tahmini maliyet**
 
-Click **"Accept Bid"** on your chosen provider and sign in Keplr.
-
-## Step 5: Wait for Deployment
-
-Console will:
-
--> Create the lease with your chosen provider
-
--> Send the manifest (tells the provider what to run)
-
--> Start your container
+-> **Sağlayıcı detayları** (çalışma süresi, bölge vb.)
 
 
-This takes 1-2 minutes. You'll see status updates in the UI.
+**Sadece en ucuzu seçmeyin.** Şunları kontrol edin:
 
-## Step 6: Verify It's Running
+-> Çalışma süresi %'si (hedef > %95)
 
-Once deployed, you'll see:
+-> Bölge (size daha yakın = daha iyi gecikme, ancak blokzinciri düğümleri için çok önemli değildir)
 
--> **Services** tab: Shows your *zcashd* service with status
-
--> **Logs** tab: Live logs from your zcashd node
-
--> **Leases** tab: Details about your deployment (DSEQ, provider, cost)
+-> Denetlenmiş durumu (yeşil onay işareti = daha güvenilir)
 
 
-### Check the Logs
+Seçtiğiniz sağlayıcıda **"Accept Bid"** düğmesine tıklayın ve Keplr'da imzalayın.
 
-Click on **Logs** and you should see zcashd starting up:
+## 5. Adım: Dağıtımın Tamamlanmasını Bekleyin
+
+Console şunları yapacak:
+
+-> Seçtiğiniz sağlayıcı ile lease oluşturacak
+
+-> Manifest'i gönderecek (sağlayıcıya ne çalıştıracağını söyler)
+
+-> Container'ınızı başlatacak
+
+
+Bu 1-2 dakika sürer. Arayüzde durum güncellemelerini göreceksiniz.
+
+## 6. Adım: Çalıştığını Doğrulayın
+
+Dağıtım tamamlandıktan sonra şunları göreceksiniz:
+
+-> **Services** sekmesi: *zcashd* servisinizin durumunu gösterir
+
+-> **Logs** sekmesi: zcashd düğümünüzden canlı loglar
+
+-> **Leases** sekmesi: Dağıtımınızla ilgili ayrıntılar (DSEQ, sağlayıcı, maliyet)
+
+
+### Logları Kontrol Edin
+
+**Logs** bölümüne tıklayın; zcashd'nin başladığını görmelisiniz:
 
 ```bash
 [zcashd]: ZCASHD_NETWORK=mainnet
@@ -172,129 +182,129 @@ Click on **Logs** and you should see zcashd starting up:
 ...
 ```
 
-**İlk çalıştırma, zcash-params (~2GB) indirecektir.** Bu işlem tek seferlik ve sağlayıcının bant genişliğine bağlı olarak 5-10 dakika sürebilir. Sonraki yeniden başlatmalar bu adımı atlar.
+**İlk çalıştırmada zcash-params indirilecektir (~2GB).** Bu tek seferlik bir işlemdir ve sağlayıcının bant genişliğine bağlı olarak 5-10 dakika sürer. Sonraki yeniden başlatmalarda bu adım atlanır.
 
-Senkronizasyon, **saatlerden günler** sürebilir; ağına bağlıdır. Dikkat etmen gerekenler:
+Senkronizasyon, ağa bağlı olarak **saatlerden günlere** kadar sürecektir. Şunları izleyin:
 
 -> Artan blok yükseklikleri
 
 -> Eş bağlantıları (10-30 eş olmalıdır)
 
--> Tekrarlayan hata yokluğu
+-> Tekrarlanan hata olmaması
 
 
-## Adım 7: Node'nun Adresini Alın
+## 7. Adım: Düğümünüzün Adresini Alın
 
-**Leases** sekmesine tıklayın, ardından **URIs**.
+**Leases** sekmesine, ardından **URIs** bölümüne tıklayın.
 
-Bir şey gibi görünecektir:
+Şuna benzer bir şey göreceksiniz:
 
 ```
 zcashd-8233: provider-hostname.com:31234
 ```
 
-Bu, node'nun **kamu P2P noktası**dır. Diğer Zcash düğümleri bu adrese bağlanacaktır.
+Bu, düğümünüzün **genel P2P uç noktasıdır**. Diğer Zcash düğümleri bu adresten size bağlanacaktır.
 
-**Port haritalama dikkat edin:** SDL'de port 8233 yapılandırıldığında, Akash farklı bir kamu portuna (örnekteki 31234) atadı. Bu normaldir - bunu karıştıranlar "Akash'ta Port Haritalaması" başlığındaki bölümü inceleyebilir. Node'nuz, Akash'ın burada gösterdiği porta erişilebilir; mutlaka 8233 olmayabilir.
+**Port eşlemeyi not edin:** SDL içinde 8233 portunu yapılandırdınız, ancak Akash bunu farklı bir genel porta atadı (bu örnekte 31234). Bu normaldir; kafanızı karıştırıyorsa üstteki "Akash'ta Port Eşleme" bölümüne bakın. Düğümünüze erişim mutlaka 8233'ten değil, Akash'ın burada gösterdiği porttan sağlanır.
 
-RPC etkinse (SDL'de varsayılan olarak yorum satırında), burada RPC noktası ve kendi haritalanmış portu da görünecektir.
+RPC'yi etkinleştirdiyseniz (SDL'de varsayılan olarak yorum satırıdır), burada kendi eşlenmiş portuyla birlikte RPC uç noktasını da göreceksiniz.
 
 ## Yapılandırma Seçenekleri
 
 ### Testnet'e Geçiş
 
-SDL varsayılan olarak Mainnet'tir. Bunun yerine Testnet kullanmak için:
+SDL varsayılan olarak Mainnet kullanır. Bunun yerine Testnet kullanmak için:
 
--> **Ağ ayarını *env* bölümünde değiştirin:**
+-> **Ağ değerini *env* bölümünde değiştirin:**
 
    ```yaml
-# - "ZCASHD_NETWORK=mainnet"
-- "ZCASHD_NETWORK=testnet"
+   # - "ZCASHD_NETWORK=mainnet"
+   - "ZCASHD_NETWORK=testnet"
    ```
 
--> **Açık portu** *expose* bölümünde güncelleyin:
+-> *expose* bölümünde **dışa açılan portu** güncelleyin:
 
    ```yaml
-# Mainnet portunu yorumlayın:
-# - port: 8233
+   # Mainnet portunu yorum satırı yapın:
+   # - port: 8233
    #   as: 8233
    #   to:
-#     - global: true
-#   proto: tcp
+   #     - global: true
+   #   proto: tcp
 
-# Testnet portunu açın:
-- port: 18233
+   # Testnet portunun yorumunu kaldırın:
+   - port: 18233
      as: 18233
      to:
-- global: true
-proto: tcp
+       - global: true
+     proto: tcp
    ```
 
--> **İsteğe Bağlı: Kaynakları Azalt** Testnet için *profiles.compute.zcashd.resources*:
+-> *profiles.compute.zcashd.resources* içinde **İsteğe bağlı: Testnet için kaynakları azaltın**:
 
    ```yaml
-cpu:
-units: 2  # 4'ten azaltıldı
-memory:
-size: 8Gi  # 16Gi'den azaltıldı
-storage:
-- size: 50Gi  # 150Gi'den azaltıldı
+   cpu:
+     units: 2  # 4'ten düşürüldü
+   memory:
+     size: 8Gi  # 16Gi'den düşürüldü
+   storage:
+     - size: 50Gi  # 150Gi'den düşürüldü
    ```
 
--> **İsteğe Bağlı: Fiyatları Düşür** *profiles.placement.akash.pricing* içinde:
+-> *profiles.placement.akash.pricing* içinde **İsteğe bağlı: fiyatı düşürün**:
 
    ```yaml
-amount: 5000  # 10000'den azaltıldı
+   amount: 5000  # 10000'den düşürüldü
    ```
 
-> not: fiyatların düşürülmesi sağlayıcılarımızın teklif vermesini engelleyebilir. bu değeri deneyin veya sağlayıcı uç noktasını kullanarak onların teklif vereceğini kontrol edin. (sağlayıcı api belgelerini inceleyin)
+> not fiyatları düşürmek, sağlayıcıların teklif vermesini filtreleyebilir. bu değeri deneyerek ayarlayın veya teklif verip vermeyeceklerini kontrol etmek için sağlayıcı uç noktasını kullanın. (sağlayıcı api dokümantasyonunu inceleyin)
 
-### RPC Erişimi Aktif Et
+### RPC Erişimini Etkinleştirme
 
-RPC varsayılan olarak güvenlik nedeniyle devre dışıdır. Aktif etmek için:
+Güvenlik nedeniyle RPC varsayılan olarak devre dışıdır. Etkinleştirmek için:
 
-**Kritik: Güçlü kimlik bilgileri ayarlayın.** zcashd RPC kullanıcı adı/parolayı HTTP üzerinden (HTTPS değil) iletir. RPC'yi sadece güvenlik sonuçlarını anladığınızda aktif edin.
+**KRİTİK: Güçlü kimlik bilgileri belirleyin.** zcashd RPC, kullanıcı adı/parolayı HTTP üzerinden iletir (HTTPS değil). Güvenlik etkilerini anlıyorsanız yalnızca RPC'yi dışa açın.
 
--> *env* bölümünde yorum satırını kaldırın:
+-> *env* bölümünde yorumları kaldırın:
 
    ```yaml
-- "ZCASHD_RPCUSER=yourusername"
-- "ZCASHD_RPCPASSWORD=your_very_strong_password_here"  # Gerçek bir parola kullanın
-- "ZCASHD_RPCBIND=0.0.0.0"
-- "ZCASHD_RPCPORT=8232"  # Mainnet
-# - "ZCASHD_RPCPORT=18232"  # Testnet
-- "ZCASHD_ALLOWIP=0.0.0.0/0"  # Her yerden izin ver (dikkatli kullanın)
+   - "ZCASHD_RPCUSER=yourusername"
+   - "ZCASHD_RPCPASSWORD=your_very_strong_password_here"  # Gerçek bir parola kullanın
+   - "ZCASHD_RPCBIND=0.0.0.0"
+   - "ZCASHD_RPCPORT=8232"  # Mainnet
+   # - "ZCASHD_RPCPORT=18232"  # Testnet
+   - "ZCASHD_ALLOWIP=0.0.0.0/0"  # Her yerden izin ver (dikkatli kullanın)
    ```
 
--> *expose* içinde RPC portunu yorum satırından kaldırın:
+-> *expose* içinde RPC portunun yorumunu kaldırın:
 
-**Mainnet için:**
+   **Mainnet için:**
 
    ```yaml
-- port: 8232
+   - port: 8232
      as: 8232
      to:
-- global: false  # Güvenlik için iç kullanın
-proto: tcp
+       - global: false  # Güvenlik için içeride tutun
+     proto: tcp
    ```
 
-**Testnet için:**
+   **Testnet için:**
 
    ```yaml
-- port: 18232
+   - port: 18232
      as: 18232
      to:
-- global: false
-proto: tcp
+       - global: false
+     proto: tcp
    ```
 
-**Uyarı**: RPC için *global: true* ayarladığınızda, temel kimlik doğrulamasıyla internete açık hale gelir. Bu iyi bir fikir değildir. *global: false* kullanın ve Akash iç ağı üzerinden RPC'ye erişin veya güvenli tünel kurun.
+**Uyarı**: RPC için *global: true* ayarlarsanız, onu basic auth ile internete açmış olursunuz. Bu kötü bir fikirdir. *global: false* kullanın ve RPC'ye Akash'ın iç ağı üzerinden erişin veya güvenli bir tünel kurun.
 
-**Port haritalama hatırlatması**: RPC'yi küresel olarak açsanız bile, Akash bunu rastgele yüksek bir port (8232/18232 değil) ile eşler. Dağıtımınızda URI'leri kontrol ederek gerçek halka açık uç noktayı görün. *global: false* (önerilen), RPC uç noktası yalnızca Akash dağıtım ağı içinde erişilebilir, halka açık internetten değil.
+**Port eşleme hatırlatması**: RPC'yi global olarak dışa açsanız bile Akash onu rastgele yüksek bir porta eşleyecektir (8232/18232 değil). Gerçek genel uç noktayı görmek için dağıtımınızdaki URI'leri kontrol edin. *global: false* için (önerilir) RPC uç noktası genel internetten değil, yalnızca Akash dağıtım ağı içinden erişilebilir olur.
 
-### İşlem İndeksi Aktif Et
+### İşlem İndeksini Etkinleştirme
 
-İşlem indeksi, RPC üzerinden işlem ID'siyle herhangi bir işlemi sorgulamanıza olanak tanır. Daha fazla depolama alanı kullanır (~%20 artış).
+İşlem indeksi, RPC üzerinden herhangi bir işlemi kimliğine göre sorgulamanıza imkân verir. Daha fazla depolama kullanır (~ %20 artış).
 
 *env* içinde yorumu kaldırın:
 
@@ -302,11 +312,11 @@ proto: tcp
 - "ZCASHD_TXINDEX=1"
 ```
 
-**Uyarı**: Mevcut senkronize edilmiş bir düğümde txindex etkinleştirmek, tam blockchain'in tekrar indekslenmesini gerektirir ve saatler sürebilir.
+**Uyarı**: Zaten senkronize olmuş bir düğümde txindex'i etkinleştirmek, tüm blokzincirinin yeniden indekslenmesini gerektirir; bu da saatler sürer.
 
-### Insight Explorer Aktif Et
+### Insight Explorer'ı Etkinleştirme
 
-Insight Explorer, blok zinciri verileri için ek REST API uç noktaları sağlar (blok tarayıcıları için faydalıdır).
+Insight Explorer, blokzinciri verileri için ek REST API uç noktaları sağlar (blok gezginleri için kullanışlıdır).
 
 *env* içinde yorumu kaldırın:
 
@@ -316,89 +326,89 @@ Insight Explorer, blok zinciri verileri için ek REST API uç noktaları sağlar
 
 Bu, txindex'i otomatik olarak etkinleştirir ve ek RPC yöntemleri ekler.
 
-### Prometheus Metrikleri Aktif Et
+### Prometheus Metriklerini Etkinleştirme
 
-Gözetim için metrikleri toplamak için:
+İzleme için metrikleri toplamak üzere:
 
--> *env* içinde yorumu kaldırın:
+-> *env* içinde yorumları kaldırın:
 
    ```bash
-- "ZCASHD_PROMETHEUSPORT=9969"
-- "ZCASHD_METRICSIP=0.0.0.0/0"
+   - "ZCASHD_PROMETHEUSPORT=9969"
+   - "ZCASHD_METRICSIP=0.0.0.0/0"
    ```
 
--> *expose* içinde metrik portunu yorumdan çıkarın:
+-> *expose* içinde metrik portunun yorumunu kaldırın:
 
    ```bash
-- port: 9969
+   - port: 9969
      as: 9969
      to:
-- global: false
-proto: tcp
+       - global: false
+     proto: tcp
    ```
    
-Metrikler, Prometheus formatında http://yourendpoint:9969/metrics adresinden kullanılabilir.
+Metrikler Prometheus formatında http://yourendpoint:9969/metrics adresinde उपलब्ध olacaktır.
 
-### Kaynaklar/Fiyatlandırma Ayarla
+### Kaynakları/Fiyatlandırmayı Ayarlama
 
-Eğer teklif alamıyorsanız veya maliyeti optimize etmek istiyorsanız:
+Teklif alamıyorsanız veya maliyeti optimize etmek istiyorsanız:
 
-**Düşük özellikli sağlayıcılar için**, *profiles.compute.zcashd.resources* bölümünde azaltın:
+**Daha düşük özellikli sağlayıcılar için**, *profiles.compute.zcashd.resources* bölümünde azaltın:
 
--> CPU: *units: 2* (uygun senkronizasyon hızı için minimum)
+-> CPU: *units: 2* (makul senkronizasyon hızı için minimum)
 
 -> Bellek: *size: 12Gi* (kararlılık için minimum)
 
 -> Depolama: *size: 120Gi* (mainnet için minimum)
 
 
-**Daha fazla teklif almak için**, *profiles.placement.akash.pricing* bölümünde artırın:
+**Daha fazla teklif çekmek için**, *profiles.placement.akash.pricing* içinde artırın:
 
 -> Mainnet: *amount: 15000* uakt/block deneyin
 
 -> Testnet: *amount: 7500* uakt/block deneyin
 
 
-SDL değerleri koruyucu olarak yüksek ayarlanmıştır. Çoğu sağlayıcı daha düşük teklifler sunacaktır.
+SDL değerleri temkinli şekilde yüksek ayarlanmıştır. Çoğu sağlayıcı daha düşük teklif verecektir.
 
-## Dağıtımınızı Güncellemek
+## Dağıtımınızı Güncelleme
 
-Dağıtımdan sonra yapılandırmayı değiştirmek istiyorsanız:
+Dağıtımdan sonra yapılandırmayı değiştirmeniz mi gerekiyor?
 
--> Konsol'daki **Benim Dağıtımlarım** bölümüne gidin
+-> Console içinde **My Deployments** bölümüne gidin
 
 -> zcashd dağıtımınızı bulun
 
--> **"Dağıtımı Güncelle"**'ye tıklayın
+-> **"Update Deployment"** düğmesine tıklayın
 
--> SDL'i düzenleyin
+-> SDL'yi düzenleyin
 
--> **"Güncelle"**'ye tıklayıp Keplr'de onaylayın
+-> **"Update"** düğmesine tıklayın ve Keplr'da onaylayın
 
 
-**Not**: Güncellemek, konteynerinizi yeniden başlatır. Düğüm, kaydedilmiş durumundan (kalıcı depolama) devam eder ama 1-2 dakika kesinti beklenmelidir.
+**Not**: Güncelleme container'ınızı yeniden başlatacaktır. Düğüm kaydedilmiş durumundan (kalıcı depolama) devam eder, ancak 1-2 dakikalık bir kesinti bekleyin.
 
 ## İzleme
 
-### Konsoldan
+### Console Üzerinden
 
--> **Günlükler sekmesi**: Aktif konteyner günlükleri
+-> **Logs sekmesi**: Canlı container logları
 
--> **Shell sekmesi**: Konteyner içine shell alın (hata ayıklama için faydalıdır)
+-> **Shell sekmesi**: Container içinde bir shell açın (hata ayıklama için kullanışlı)
 
--> **Etkinlikler sekmesi**: Kubernetes etkinlikleri (şeyler bozulmazsa genellikle faydalı değildir)
+-> **Events sekmesi**: Kubernetes olayları (bir şey bozulmadıkça çoğunlukla işe yaramaz)
 
 
-### RPC üzerinden (etkinse)
+### RPC Üzerinden (etkinleştirildiyse)
 
-Eğer RPC'yi etkinleştirdiyseniz, düğümünüzü normal bir zcashd tam düğümü olarak sorgulayabilirsiniz (çünkü budur!)
+RPC'yi etkinleştirdiyseniz, düğümünüzü normal bir zcashd tam düğümü gibi sorgulayabilirsiniz (çünkü zaten öyle!)
 
 ### zcash-cli Alternatifi
 
-Konsol üzerinden kabuk erişiminiz varsa, *zcash-cli*'yi doğrudan kullanabilirsiniz:
+Console üzerinden shell erişiminiz varsa, *zcash-cli*'yi doğrudan kullanabilirsiniz:
 
 ```bash
-# Konsoldaki **Shell sekmesinden**
+# Console içindeki Shell sekmesinden
 zcash-cli getblockchaininfo
 zcash-cli getpeerinfo
 zcash-cli getinfo
@@ -406,111 +416,111 @@ zcash-cli getinfo
 
 ## Dağıtımınızı Kapatma
 
-Dağınık oldunuz veya ödeme yapmamak istiyorsanız:
+İşiniz bittiğinde veya ücret ödemeyi durdurmak istediğinizde:
 
--> **Benim Dağıtımlarım**a git
+-> **My Deployments** bölümüne gidin
 
 -> zcashd dağıtımınızı bulun
 
--> **"Dağıtımı Kapat"**'a tıklayın
+-> **"Close Deployment"** düğmesine tıklayın
 
--> Keplr ile onaylayıp imzalayın
+-> Onaylayın ve Keplr'da imzalayın
 
 
-5 AKT yatırımlarınız geri ödenecektir. **Kalıcı depolama**, sağlayıcı tarafından korunmalıdır, ancak bunu bir garantisi olarak görmeyin - diğer bulut sağlayıcısına benzeyen şekilde davranın.
+5 AKT depozitonuz iade edilir. **Kalıcı depolama** sağlayıcı tarafından korunmalıdır, ancak buna güvenmeyin; bunu diğer tüm bulut sağlayıcıları gibi değerlendirin.
 
 ## Sorun Giderme
 
-### "Yetersiz bakiye" hatası
+### "Insufficient funds" hatası
 
-### Tekliflerin görünmemesi
+Daha fazla AKT'ye ihtiyacınız var. Keplr cüzdanınıza bakiye aktarın.
 
-Either:
+### Hiç teklif görünmüyor
 
--> Fiyatınız çok düşüktür (SDL'deki *miktarı* artırın)
+Şunlardan biri olabilir:
 
--> Kaynak gereksinimleriniz mevcut sağlayıcılar için çok yüksektir (CPU/hafıza/depolama azaltın)
+-> Fiyatlandırmanız çok düşük (SDL içinde *amount* değerini artırın)
+
+-> Kaynak gereksinimleriniz mevcut sağlayıcılar için çok yüksek (CPU/bellek/depolamayı azaltın)
 
 -> Daha uzun bekleyin (bazen tekliflerin görünmesi 60-90 saniye sürebilir)
 
-### Dağıtım "beklemede" takılı kalmış
 
+### Dağıtım "pending" durumunda takılı kalıyor
 
-Dağıtımınız "beklemede" durumunda takılı kalmışsa
+Sağlayıcı sorun yaşıyor olabilir. Dağıtımı kapatın ve farklı bir sağlayıcı deneyin.
 
-Sağlayıcıda bir sorun olabilir. Dağıtımını kapatıp farklı bir sağlayıcı deneyin.
+### zcashd loglarında "No peers connected" görünüyor
 
-### zcashd günlüklerinde "No peers connected" gösteriliyor
+18 Temmuz 2026 tarihindeki Destek Sonu durdurmasından beri bu, başlangıç gecikmesinden ziyade beklenen kalıcı durumdur ve ne kadar beklerseniz bekleyin ya da yeniden dağıtım yapın düzelmez. Bunun yerine [Zebra](/guides/akash-network-zebra) dağıtın.
 
-Bu, ilk birkaç dakika boyunca normaldir. zcashd zamanla eşlerini otomatik olarak keşfedecektir. 10+ dakika sonra hâlâ devam ederse ağ sorunu olabilir (Akash'ta muhtemelen değil).
+### Loglarda "Out of memory" hataları
 
-### Günlüklerde "Out of memory" hatası
-
-RAM'e tasarruf ettiniz. Dağıtımınızı kapatıp en az 12Gi RAM (16Gi önerilir) ile yeniden dağıtın.
+RAM'den fazla kısmışsınız. Dağıtımı kapatın ve en az 12Gi bellekle yeniden dağıtın (16Gi önerilir).
 
 ### Senkronizasyon çok uzun sürüyor
 
-"Forever" ne demek?
+"Çok uzun" derken neyi kastediyorsunuz:
 
 -> **Saatler**: Normal
 
--> **Günler**: Baştan başlayarak mainnet için de normaldir
+-> **Günler**: Sıfırdan mainnet için bu da normal
 
--> **Haftalar**: Bir şey yanlış, günlüklerdeki hataları kontrol edin
+-> **Haftalar**: Bir sorun var, hata olup olmadığını görmek için logları kontrol edin
 
 
-### "Error fetching zcash-params" hatası
+### "Error fetching zcash-params"
 
-Sağlayıcıda ağ sorunu veya yavaş bant genişliği olabilir. Genellikle kendiliğinden çözülür. 30 dakikadan uzun sürerse farklı bir sağlayıcıya yeniden dağıtmayı deneyin.
+Sağlayıcının ağ sorunları veya düşük bant genişliği olabilir. Bu genellikle kendiliğinden düzelir. 30 dakikadan uzun sürerse farklı bir sağlayıcıya yeniden dağıtmayı deneyin.
 
 ### RPC kimlik doğrulama hataları
 
--> *ZCASHD_RPCUSER* ve *ZCASHD_RPCPASSWORD*'in doğru ayarlandığını kontrol edin
+-> *ZCASHD_RPCUSER* ve *ZCASHD_RPCPASSWORD* değerlerinin doğru ayarlandığını kontrol edin
 
--> Doğru portun kullanıldığını kontrol edin (mainnet için 8232, testnet için 18232)
+-> Doğru portu kullandığınızı doğrulayın (mainnet için 8232, testnet için 18232)
 
--> Portlar Akash tarafından haritalanır - doğrudan 8232 yerine dağıtımınızdan elde ettiğiniz URI'yi kullanın
+-> Portların Akash tarafından eşlendiğini unutmayın; doğrudan 8232 yerine dağıtımınızdaki URI'yi kullanın
 
 
 ## Maliyet Yönetimi
 
-Konsol'da harcamalarınızı izleyin:
+Console içinde harcamalarınızı izleyin:
 
--> **My Deployments** -> Dağıtımınız -> "Ayda maliyet" tahmini gösterir
+-> **My Deployments** -> Dağıtımınız -> "Cost per month" tahminini gösterir
 
 -> Keplr cüzdan bakiyeniz zamanla azalacaktır
 
 
-Bakiyeniz düşük olduğunda Akash dağıtımınızı otomatik olarak kapatır. **Cüzdanınızı düzenli olarak tamamlayın** veya uyarılar kurun.
+Bakiyeniz azaldığında Akash dağıtımınızı otomatik olarak kapatacaktır. **Cüzdanınıza düzenli olarak bakiye ekleyin** veya uyarılar kurun.
 
-### Maliyeti Azaltma
+### Maliyetleri Azaltma
 
--> **Testnet kullanın** üretim dışı testler için (yaklaşık %50 daha ucuz)
+-> Üretim dışı testler için **Testnet kullanın** (%50 daha ucuz)
 
--> Hızlı senkronizasyon gerekmiyorsa **CPU/hafıza seviyesini düşürün**
+-> Hızlı senkronizasyona ihtiyacınız yoksa **CPU/belleği düşürün**
 
--> **Daha ucuza sahip sağlayıcılar** seçin (her zaman akıllıca olmayabilir - süreklilik önemlidir)
+-> **Daha ucuz sağlayıcıları seçin** (her zaman akıllıca değildir, çalışma süresi önemlidir)
 
--> **AKT yerine USDC kullanın** eğer AKT fiyatı dalgalansaydı (SDL fiyat değişikliği gerekir)
+-> AKT fiyatı dalgalıysa **AKT yerine USDC kullanın** (SDL fiyatlandırma değişikliği gerekir)
 
--> **txindex'i devre dışı bırakın** eğer ihtiyacınız yoksa (yaklaşık %20 depolama alanı tasarrufu sağlar)
+-> İhtiyacınız yoksa **txindex'i devre dışı bırakın** (~ %20 depolama tasarrufu sağlar)
 
 
 ### Ek Kaynaklar
 
-**Akash Konsolu**: [https://console.akash.network](https://console.akash.network)
+**Akash Console**: [https://console.akash.network](https://console.akash.network)
 
 **Akash Dokümantasyonu**: [https://akash.network/docs/](https://akash.network/docs/)
 
-**Zcash Keşifcileri**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Zcash Gezginleri**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
 
 **Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (sağlayıcı sorunları için)
 
-## Sonuç Notlar
+## Son Notlar
 
-- **Kalıcı depolama önemlidir.** *persistent: true* özelliğini atlamayın veya *beta2* sınıfını kullanmayın. *beta3* kullanın.
-- **İlk senkronizasyon yavaş olabilir.** Sabırlı olun. Bu, blockchain düğümleri için normaldir.
-- **Cüzdanınızı doldurun.** AKT'in bitmesi durumunda dağıtımlar otomatik olarak kapanır.
-- **Yedeklemeler otomatik değildir.** Verilerinize değer veriyorsanız, kaybolabileceğini varsayın ve bunu göreli planlama yapın.
-- **RPC güvenliği kritiktir.** Uygun güvenlik önlemleri alınmadığı sürece RPC'yi internete açık bırakmayın.
-- **zcash-params önbelleğe alınır.** İlk çalıştırma yaklaşık 2 GB şifreleme parametresi indirir. Bu normaldir ve sadece bir kez gerçekleşir.
+- **Kalıcı depolama önemlidir.** *persistent: true* ayarını atlamayın ve *beta2* sınıfını kullanmayın. *beta3* kullanın.
+- **İlk senkronizasyon yavaştır.** Sabırlı olun. Bu, blokzinciri düğümleri için normaldir.
+- **Cüzdanınızı bakiyeli tutun.** AKT'niz bittiğinde dağıtımlar otomatik kapanır.
+- **Yedeklemeler otomatik değildir.** Veriler sizin için önemliyse kaybolabileceğini varsayın ve buna göre plan yapın.
+- **RPC güvenliği kritiktir.** Uygun güvenlik önlemleri olmadan RPC'yi internete açmayın.
+- **zcash-params önbelleğe alınır.** İlk çalıştırma yaklaşık 2GB kriptografik parametre indirir. Bu normaldir ve yalnızca bir kez gerçekleşir.

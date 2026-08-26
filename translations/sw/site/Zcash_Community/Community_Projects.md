@@ -129,6 +129,16 @@ Multi-chain, wazi chanzo, binafsi custodial mkoba ambayo inasaidia kutuma, kupok
 Kuishi yasiyo ya kizuizini tipping jukwaa ambapo kila ncha hufika kama ZEC ulinzi. Inasaidia msalaba-mnyororo juu ramps kupitia NEAR Makusudi. 
 [Kutembelea](https://tipz.cash/)
 
+### CYZE
+Ushirikiano wa mkoba na uratibu jukwaa kwamba inaruhusu wanachama wengi timu kusimamia walled Zcash fedha pamoja. Inatumia FROST saini kizingiti, kuwezesha makundi ya kuidhinisha shughuli Orchard kwa pamoja bila kutoa moja washiriki udhibiti kamili juu ya mfuko wa pesa.
+
+[Kutembelea](https://github.com/USCMig/Cyze)
+
+### Pendrake Watch
+A watch-only desktop wallet designed for individuals and organizations that need to monitor shielded funds without having the ability to spend them. It supports transaction and balance monitoring, Orchard and Sapling notes, memo viewing, historical fiat valuation, transaction notifications, wallet encryption, and privacy-focused screen-sharing features.
+
+[Kutembelea](https://github.com/auzum197/pendrake-watch)
+
 ---
 
 ## Explorers, Data na Mtandao Dashboards
@@ -185,6 +195,11 @@ Tovuti ya kijiografia inayolenga faragha ambayo inakusanya habari za Zcash, takw
 
 [Mkutano wa Majadiliano](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 
+### ZEC-OS
+Aretro-style desktop interface that combines various Zcash ecosystem tools and information into one application. It includes a blockchain explorer, mempool viewer, network statistics, historical charts, shielded pool information, mining tools, a Unified Address decoder, calculator, games, terminal, and other utilities.
+
+[Kutembelea](https://www.zec-os.com/)
+
 ---
 
 ## Utambulisho, Majina na Uzoefu wa Mtumiaji
@@ -218,6 +233,11 @@ Jukwaa la kutoa kipande cha faragha kwa watangazaji ambao huwezesha watazamaji k
 A privacy-preserving financial tracking and accounting tool for Zcash. It combines a public dashboard for transparent network data with local private accounting that uses viewing keys without exposing them, helping users track balances, transaction history, cost basis, and eventually budgeting and tax-ready reports while keeping their funds secure and private.
 
 [Kutembelea](https://zecledger-web.vercel.app/)
+
+### Uthibitishaji na ZcashMe
+Mfumo wa uthibitishaji unaozingatia faragha ambao hutumia shughuli za Zcash zilizohifadhiwa kama utaratibu wa kuingia. Watumiaji huchanganua nambari ya QR na kutuma biashara ndogo ya uthibitisho.
+
+[Kutembelea](https://github.com/zcashme/zns-login)
 
 ---
 
@@ -279,6 +299,11 @@ Browser mkoba na msaada Zcash.
 AI jukwaa ambayo hutoa upatikanaji wa mifano ya kuongoza nyingi za AI wakati inasaidia malipo ya cryptocurrency, pamoja na Zcash.
 
 [Kutembelea](https://nano-gpt.com/conversation/new)
+
+### zk.poker
+Peer-to-peer poker jukwaa kwamba unachanganya mwisho na mwisho encryption, akili ya poker, na Zcash faragha teknolojia. Ni iliyoundwa ili operator hana haja ya kujua kadi wachezaji au moja kwa moja kushikilia betting fedha.
+
+[Kutembelea](https://zkbtc.org/)
 
 
 ---

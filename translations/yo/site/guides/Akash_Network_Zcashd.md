@@ -1,6 +1,14 @@
-# Gbigba zcashd si Akash nipasẹ Iṣakoso
+# Ṣíṣiṣẹ́pọ̀ zcashd sí Akash nípasẹ̀ Àpèsè-ìmọ̀ràn (Console)
 
-Guide for deploying a zcashd Zcash full node (Electric Coin Co implementation) using [Akash Console](https://console.akash.network). Eyi ni fidio ẹkọ ni isalẹ. A le rii itọsọna jinlẹ diẹ sii ni isalẹ
+> **Kò yẹ. Má ṣe tẹ̀lé ìtọ́ni yìí láti fi kókó tí o fẹ́ lò.**
+>
+> zcashd dé ìparí-ìtìlẹ́yìn rẹ̀ ní July 18, 2026. Ìpín kan tí a gbé kalẹ̀ lónìí kò ni bára mu pẹ̀lú òpin ẹ̀ka, nítorí náà fífi owó ránṣẹ́ lóṣooṣù kì í mú nǹkankan jáde.
+>
+> Ṣíṣètò Zebra dípò: [Bii o ṣe le ṣiṣẹ Zebra lori Akash Network](/guides/akash-network-zebra), eyi ti o bo kanna Akash Console workflow ati ki o nilo ni ayika kan kẹta ti awọn disk. Ti o ba wa gbigbe ohun tẹlẹ iṣeto, wo awọn [zcashd to Zebra and Zallet migration guide ìtójútán ìrìnàjò àwọn ẹyẹ zebra àti zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
+>
+> Ojúewé yìí ni a tọ́ sí gẹ́gẹ́ bí àkọsílẹ̀ ìtàn ìmúgbòòrò zcashd.
+
+Itọsọna fun deploying a zcashd Zcash kikun node (Electric Coin Co imuse) lilo awọn oniwe-ašẹ ti o ni agbara lati ṣe itọkasi ohun elo. [Àpótí Akash](https://console.akash.network). Eyi ni fidio ẹkọ ti o wa ni isalẹ. A le rii itọsọna jinlẹ diẹ sii ni isalẹ
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -8,7 +16,7 @@ Guide for deploying a zcashd Zcash full node (Electric Coin Co implementation) u
     src="https://www.youtube.com/embed/SVekeNU6_-g"
     title="Zcash Full Node setup on Akash Network"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    gba Àwòrán-ìwòyí ní kíkún (FullScreen)
     loading="lazy"
   />
 </div>
@@ -16,81 +24,83 @@ Guide for deploying a zcashd Zcash full node (Electric Coin Co implementation) u
 
 ## Ohun Tó O Ń Fi Sílò
 
-Oju opo zcashd kikun ti yoo:
+A ni kikun zcashd node ti yoo:
 
--> Ṣiṣẹpọ gbogbo blockchain Zcash (350GB+ fun mainnet, ~ 40GB fun testnet)
+-> Ṣiṣẹpọ gbogbo blockchain Zcash (350GB+ fun mainnet, ~ 40GB fún testnet)
 
--> Iye owo to to $15/osù ti o da lori iye owo AKT token
+-> Iye owo to $15/osù ti o da lori iye owó AKT token
 
--> Gba ọ̀pọ̀lọpọ̀ wákàtí sí ọjọ́ láti ṣe àpapọ̀
+-> Gba ọ̀pọ̀lọpọ̀ wákàtí sí ọjọ́ láti ṣe àpapọ̀ ìsopọ̀ pátápátá
 
--> Lo 4 vCPUs, 16GB RAM, 350GB ibi ipamọ (mainnet) tabi 2 vCPU, 8GB Ram, 50GB (testnet)
+-> Lo 4 vCPUs, 16GB RAM, 350GB ibi ipamọ (mainnet) tabi 2 vCPU, 8GB RAM , 50GB (testnet)
 
--> Ṣe igbasilẹ awọn paramita cryptographic lori ṣiṣe akọkọ (~ 2GB, akoko kan)
+-> Ṣe igbasilẹ awọn paramita cryptographic ni ṣiṣe akọkọ (~ 2GB, akoko kan)
 
-** zcashd àti Zebra:**
+**zcashd vs Zebra:**
 
--> zcashd ni awọn atilẹba Zcash node imuse nipa Electric Coin Co.
+-> zcashd ni àtúnyẹ̀wò ìpilèwe Zcash node tí Electric Coin Co ṣe, ti a dá dúró láti July 18, 2026
 
--> Zebra ni awọn Zcash Foundation ká yiyan imuse
+-> Zebra, lati ile-iṣẹ Zcash Foundation ni gbogbo node ti a lo loni.
 
--> Awọn mejeeji ni ibamu pẹlu awọn Zcash nẹtiwọki
+-> Zebra nìkan ló ń tẹ̀lé ìsínà tó wà nísinsìnyí; kò sí àpò zcashd tí ó lè dé orí ẹyọ náà.
 
--> zcashd ni awọn ẹya ara ẹrọ diẹ sii (mining, apamọwọ, Insight Explorer API)
+-> àpò owó zcashd ti di èyí tí a fi rọ́pò rẹ̀. [Zallet](/using-zcash/zallet-quick-reference-guide)
 
 -> Lo zcashd ti o ba nilo iṣẹ apamọwọ tabi awọn API RPC kan pato
 
 
-### **Ó ṣe pàtàkì: Ṣíṣe àwòrán àwọn èbúté ní Akash**
+### **Ohun pataki: Ṣíṣe àwòrán àwọn èbúté ní Akash**
 
-When you expose a port on Akash (e.g., port 8233 for zcashd P2P), it **does NOT bind to that exact port** on the provider's public IP. Instead, the provider assigns a random high port (like 31234 or 42567) and reverse-proxies it to your container's port 8233.
+Nigbati o ba ṣafihan ibudo kan lori Akash (fun apẹẹrẹ, ibudo 8233 fun zcashd P2P), ko ** ṣe adehun si ibudo gangan yẹn** lori IP gbangba ti olupese. Dipo, olupese naa fi aaye gba ipo giga laileto (bii 31234 tabi 42567) ati idakeji-agbara rẹ si ebute apoti ọkọ oju omi rẹ 8233.
 
-Eyi jẹ nipa apẹrẹ - awọn olupese ṣiṣe ọpọlọpọ awọn igbasilẹ, ati pe wọn yoo ni awọn rogbodiyan ti gbogbo eniyan ba gbiyanju lati lo ibudo 8233 taara.
+Eyi jẹ nipa apẹrẹ - awọn olupese ṣiṣe ọpọlọpọ ifisilẹ, ati pe wọn yoo ni ariyanjiyan ti gbogbo eniyan ba gbiyanju lati lo ibudo 8233 taara.
 
-** Ohun tí èyí túmọ̀ sí fún ọ:**
+** Ohun tí èyí túmọ̀ sí fún ọ:**
 
 -> You configure port 8233 in the SDL (zcashd's standard P2P port)
 
 -> Akash fún ọ ní URI bíi *provider.com:31234*
 
--> Àwọn ìkànnì Zcash míràn máa ń so mọ́ ọ ní *provider.com:31234*
+-> Àwọn ìkànnì Zcash mìíràn máa ń so mọ́ ọ ní *provider.com:31234*
 
--> Ninu apoowe rẹ, zcashd ṣi n tẹtisi lori 8233
+-> Ninu apo rẹ, zcashd ṣi n gbọ 8233
 
 
 Ojúlówó ni, lo URI tí Akash fún ọ.
 
-## Àwọn ohun tó pọn dandan
+## Àwọn ohun tó yẹ kó wà nípò àkọ́kọ́
 
--> **Keplr Wallet** àfikún aṣàwákiri ti a fi sori ẹrọ (Chrome/Brave/Firefox)
+-> **Keplr Wallet** ìmúgbòòrò aṣàwákiri ti a fi sori ẹrọ (Chrome/Brave/Firefox)
 
--> ** AKT tokens ** - Gba 50-100 AKT lati paṣipaarọ kan (Coinbase, Kraken, Osmosis)
+-> ** AKT tokens** - Gba 50-100 AKT lati ibi paṣipaarọ kan (Coinbase, Kraken, Osmosis)
 
--> **5 ìṣẹ́jú** láti tẹ nípasẹ̀ UI Console
+-> **ìṣẹ́jú 5** láti tẹ̀lé ìtọ́ka UI
 
 
-## Ìgbésẹ̀ 1: So Wọ́ọ́lì Rẹ pọ̀
+## Igbesẹ 1: So Àpò-ìpamọ́ Rẹ pọ̀ mọ́
 
 -> Go to [https://console.akash.network](https://console.akash.network)
 
--> Tẹ **"Sopọ apamọwọ"** ni apa ọtun oke
+-> Tẹ **"Sopọ apamọwọ "** ni apa ọtun oke
 
 -> Yan **Keplr** (tàbí àpò owó Cosmos tí o yàn)
 
--> Fọwọsi asopọ nigbati Keplr ba jade
+-> Gba asopọ naa nigbati Keplr ba jade soke
 
 
-Owó tó wà nínú àkáǹtì rẹ á fara hàn lókè lápá ọ̀tún.
+Àkáǹtì owó tó o ní nínú AKT á fara hàn lókè lápá ọ̀tún. Tó bá jẹ́ pé kò sí nǹkan kan, kọ́kọ́ lọ rawó sínú àpamọ̀ rẹ.
 
-## Ìgbésẹ̀ 2: Ṣẹ̀dá Ìmúgbòòrò
+## Igbese 2: Ṣẹda Ifisilẹ
 
--> Tẹ **"Deploy"** bọtini (ìgbò ńlá bulu bọtini, aarin ti ojúewé)
+-> Tẹ **"Deploy"** ìkànnì (ìwo bulu ńlá, àárín ojúewé)
 
--> Yan **"Ṣẹ́ àdàkọ rẹ"** (tàbí kó o lọ tààrà sí gbígbé SDL)
+-> Yan **"Ṣẹ̀dá àwòkọ́ṣe rẹ"** (tàbí kó o lọ tààrà sí gbígbé SDL)
 
-### Aṣayan A: Gbigba faili SDL (Ti a ṣe iṣeduro)
+### Aṣayan A: Gbigba faili SDL (A ṣe iṣeduro)
 
-[![Gbé jáde ní Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
+> **Bọtini yìí ń gbé ìkànnì tí a dá dúró jáde.** Ó máa sanwó sí àlàfo AKT rẹ fún ìkànlì kan tó kò lè ṣe ìṣọ̀kan. Lo àwọn ohun èlò náà: [Atọ́nà Zebra](/guides/akash-network-zebra) dípò ìyẹn.
+
+[![Deploy on Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
 
 ### Aṣayan B: Lo Àtúnṣe SDL
 
@@ -98,60 +108,60 @@ Ti o ba fẹ lati fi sori ẹrọ SDL pẹlu ọwọ:
 
 -> Ṣe àdàkọ àwọn ohun tó wà nínú *zcashd-akash.yml*
 
--> Fi sínú àtúnṣe SDL
+-> Fi sínú àtúnṣe SDL (SDL)
 
--> Ṣe àtúnṣe bí ó bá ṣe yẹ (wo abala ìtòlẹ́sẹẹsẹ nísàlẹ̀)
+-> Yíyí bí ó bá ṣe yẹ (wo abala ìtòlẹ́sẹẹsẹ nísàlè)
 
--> Tẹ **"Ṣẹda Àgbékalẹ̀"**
-
-
-## Ìgbésẹ̀ Kẹta: Ṣíṣàyẹ̀wò àti Yíyọ̀ǹda Ètò Ìdókòwò
-
-Àpótí náà yóò fi hàn ọ́ pé:
-
--> **Ipamọ idasilẹ**: ~ 5 AKT (o gba eyi pada nigbati o ba pa idasẹsẹ naa)
-
--> **Iye owo ti a ṣe iṣiro**: Da lori idiyele SDL rẹ
+-> Tẹ **"Ṣídá Ìmúgbòòrò"**
 
 
-Tẹ ** "Fọwọsi"** ki o si buwọlu awọn idunadura ni Keplr.
+## Ìgbésẹ̀ 3: Ṣíṣàyẹ̀wò àti Fọwọ́ sí Àkáǹtì Owó Náà
 
-## Ìgbésẹ̀ Kẹrin: Yan Ẹni Tó Máa Bójú Tó O
+Àpótí náà yóò fi hàn ọ́:
 
-Lẹ́yìn ~ 30 ìṣẹ́jú, ẹ óo rí owó tí àwọn olùpèsè ń tà.
+-> **Ipamọ́ ìmúṣẹ**: ~ 5 AKT (o gba èyí padà nígbà tí o bá parí iṣẹ náà)
+
+-> **Iye owo ti a ṣe iṣiro**: Da lori idiyele SDL rẹ.
+
+
+Tẹ "Fọwọsi" ki o si buwọlu awọn idunadura ni Keplr.
+
+## Ìgbésẹ̀ Kẹrin: Yan Ẹni Tó Máa Bójú Tó O Ní Nǹkan Rẹ
+
+Lẹ́yìn ~ 30 ìṣẹ̀lẹ̀, ẹ ó rí àwọn owó tí wọ́n fi ń ra ọjà. Ẹnìkan ní:
 
 -> **Iye owo fun bulọọki** (ni AKT tabi USDC)
 
--> **Owó tí a fojú díwọ̀n lóṣooṣù**
+-> **Owó tó ń náni lóṣooṣù tí a fojú bù**
 
 -> **Awọn alaye olupese** (akoko iṣẹ, agbegbe, ati bẹbẹ lọ)
 
 
-* Má kàn yan èyí tó bá tà jù lọ.* * Ṣayẹwo:
+** Má kàn yan èyí tó bá tà jù lọ.** Ṣayẹwo:
 
 -> % àkókò ìmúṣẹ (ìlépa fún > 95%)
 
--> Agbegbe (ti o sunmọ ọ = idaduro to dara julọ, ṣugbọn ko ṣe pataki pupọ fun awọn node blockchain)
+-> Agbegbe (ọ̀nà tó súnmọ́ ọ = ìdúró tí ó dára jùlọ, ṣùgbọ́n kò ṣe pàtàkì fún àwọn àpòòwò blockchain)
 
--> Àsìṣe tí a ṣàyẹ̀wò (àmì àyẹ̀wò aláwọ̀ ewé = tó ṣeé gbára lé jùlọ)
+-> Àmì àyẹ̀wò (àpáta aláwọ̀ ewé = ó ṣeé gbára lé jùlọ)
 
 
-Tẹ **"Gba Ipese"** lori olupese ti o yan ki o wọle si Keplr.
+Tẹ **"Gba Ipese naa "** lori olupese ti o yan ati wọle Keplr.
 
 ## Igbesẹ 5: Duro fun Ifilọlẹ
 
 Àpótí yóò:
 
--> Ṣẹda adehun yiyalo pẹlu olupese ti o yan
+-> Ṣẹda adehun yiyalo pẹlu olupese ti o yan rẹ
 
--> Firanṣẹ àkọsílẹ̀ (sọ fún olùpèsè ohun tí yóò fi ṣiṣẹ́)
+-> Fi àdàkọ ìsọfúnni ránṣẹ́ (ó sọ fún olùpèsè ohun tí yóò fi ṣiṣẹ́)
 
 -> Bẹrẹ apo rẹ
 
 
-Èyí yóò gba ìṣẹ́jú méjì sí márùn-ún. Ẹ óo rí àtúnṣe ipò nínú UI.
+Eyi gba iṣẹju 1-2. O yoo ri awọn imudojuiwọn ipo ni UI naa.
 
-## Ìgbésẹ̀ 6: Rí i dájú pé Ó Ń Ṣiṣẹ
+## Ìgbésẹ̀ 6: Rí i dájú pé Ó Ń Ṣiṣẹ́
 
 Nígbà tí a bá ti gbé e jáde, ẹ ó rí i pé:
 
@@ -159,12 +169,12 @@ Nígbà tí a bá ti gbé e jáde, ẹ ó rí i pé:
 
 -> **Logs** tab: Live logs láti inú zcashd node rẹ
 
--> Àkọsílẹ̀ ìgbafẹ́: Ìsọfúnni nípa ìmúgbòòrò rẹ (DSEQ, olùpèsè, iye owó)
+-> **Líìsì** ìlà: Àlàyé nípa fífi ẹ̀rọ rẹ ranṣẹ (DSEQ, olùpèsè iṣẹ́, iye owó)
 
 
-### Ṣayẹwo Àwọn Àkọsílẹ̀
+### Ṣayẹwo Àwọn Àkọsílẹ̀ Ìsọfúnni
 
-Tẹ lori **Logs** ki o si o yẹ ki o ri zcashd bẹrẹ soke:
+Tẹ lori **Logs** ki o si ti o yẹ ki o ri zcashd bẹrẹ soke:
 
 ```bash
 [zcashd]: ZCASHD_NETWORK=mainnet
@@ -172,20 +182,20 @@ Tẹ lori **Logs** ki o si o yẹ ki o ri zcashd bẹrẹ soke:
 ...
 ```
 
-**Igbesẹ akọkọ yoo ṣe igbasilẹ zcash-params (~ 2GB).** Eyi jẹ iṣẹ-ṣiṣe akoko kan ati gba iṣẹju 5-10 da lori bandwidth olupese. Awọn atunṣe atẹle yoo fo eyi.
+**Igbesẹ akọkọ yoo ṣe igbasilẹ zcash-params (~ 2GB).** Eyi jẹ iṣẹ kan ati pe o gba iṣẹju 5-10 da lori bandwidth olupese. Awọn atunṣe atẹle yoo fo eyi silẹ.
 
-Ìṣàmúlò náà yóò gba **wákàtí sí ọjọ** ní ìbámu pẹ̀lú nẹtiwọọki. Ṣójú fún:
+Àdánwò náà yóò gba **wákàtí sí ọjọ** ní ìbámu pẹ̀lú nẹ́tàkì. Ṣójú fún:
 
--> Àfikún àwọn gíga àlàfo
+-> Àfikún àwọn ìdìpò̀ gíga
 
--> Awọn asopọ ẹlẹgbẹ (o yẹ ki o jẹ 10-30 awọn ẹlẹgbẹ)
+-> Àwọn ìjápọ̀ ẹlẹgbẹ́ (ó yẹ kí ó jẹ 10-30 àwọn ẹbí)
 
--> Kò sí àṣìṣe tí ó tún ṣe
+-> Kò sí àṣìṣe tí ó tún ṣe lẹ́ẹ̀kan náà mọ́.
 
 
-## Igbesẹ 7: Gba Adirẹsi Nọ́ọ̀dù Rẹ
+## Ìgbésẹ̀ 7: Gba Àdírẹ́sì Nódù Rẹ
 
-Tẹ lori awọn ** Leases ** taabu, ki o si ** URI **.
+Tẹ lori ìkànnì **Leases**, lẹ́yìn náà ni ó tẹ lórí ìkànlì **URIs**.
 
 O ó rí nǹkan bíi:
 
@@ -193,26 +203,26 @@ O ó rí nǹkan bíi:
 zcashd-8233: provider-hostname.com:31234
 ```
 
-Eleyi jẹ rẹ node ká ** gbangba P2P opin ojuami **. miiran Zcash nodes yoo sopọ si o ni adirẹsi yi.
+Eyi ni ìparí P2P ti gbogbo ènìyàn. Àwọn ìparì Zcash mìíràn yóò so mọ́ ọ ní àdírésì yìí.
 
-**Mọ̀ nípa àwòrán ojú pópó:** O ṣe àdàkọ ibudo 8233 nínú SDL, ṣùgbọ́n Akash yàn án sí ibudo ìjápọ̀ mìíràn (31234 nínú àpẹrẹ yìí). Èyí jẹ́ ohun tí ó wọ́pọ̀ - wo abala "Àdàkọ ojú-pópópó lórí Akash" ní òkè bí èyí bá rú ọ lójú. Ìpín rẹ jẹ́ èyí tí a lè wọlé sí ní ibudo yòówù tí Akash fi hàn níbí, kìí ṣe dandan 8233.
+**Mọ̀ nípa àwòrán ojúlé:** O ṣe àdàkọ ibudo 8233 nínú SDL, ṣùgbọ́n Akash yàn án sí ibú gbangba mìíràn (31234 ní àpẹẹrẹ yìí). Èyí jẹ́ òòṣà - wo abala "Àwòrán ojúlé lórí Akash" ni òkè bí èyí bá ń dà yín rú. Ìpín rẹ lè dédé láti ibi tí port Akash ti fi hàn níbí, kì í ṣe dandan kí ó jẹ́ 8233.
 
-If you enabled RPC (commented out by default in the SDL), you'll also see the RPC endpoint here with its own mapped port.
+Ti o ba ti muu ṣiṣẹ RPC (ti a sọ jade ni aiyipada ninu SDL), iwọ yoo tun rii opin ipari RPC nibi pẹlu ibudo maapu tirẹ.
 
 ## Àwọn Àtúnṣe Ìṣètò
 
 ### Yíyípadà sí Àwòdì Ìdánwò
 
-SDL ṣe àfojúsùn sí Mainnet. Láti lo Testnet dípò:
+SDL jẹ àbínibí sí Mainnet. Lati lo Testnet dípò:
 
--> **Àtúnṣe nẹtiwọọki ní ẹ̀ka *env*:**
+-> **Àtúnṣe síra-ẹni ní ẹ̀ka *env*:**
 
    ```yaml
    # - "ZCASHD_NETWORK=mainnet"
    - "ZCASHD_NETWORK=testnet"
    ```
 
--> **Ṣàtúnṣe èbúté tí a fi hàn** ní apá *fi hàn*:
+-> **Ṣípò àwọn ìlé ojú-ìmọ̀ tí ó wà nílẹ̀** nínú abala *fi hàn*:
 
    ```yaml
    # Comment out Mainnet port:
@@ -241,19 +251,19 @@ SDL ṣe àfojúsùn sí Mainnet. Láti lo Testnet dípò:
      - size: 50Gi  # Down from 150Gi
    ```
 
--> **Ohun ti o fẹ: Iye owo kekere** ni *awọn profaili.ibi.akash.iye owo*:
+-> **Ohun ti o fẹ: Iye owo kekere** ni *awọn profaili.ibi-ipilẹ.akash.iye*:
 
    ```yaml
    amount: 5000  # Down from 10000
    ```
 
-> note lowering prices may filter our providers form bidding. experience with this value, or use the provider endpiont to check if they would bid. (review provider api documentation) kí wọ́n lè ṣàyẹ̀wò bí àwọn oníbàárà wa ṣe ń rajà.
+> note lowering prices le ṣe àyẹwò àwọn olùpèsè wa láti inú fọọmu títà. experience with this value, or use the provider endpiont to check if they would bid. (review provider api documentation)
 
-### Fún RPC Àwárí Àwòrán
+### Ṣiṣẹ́ Àwòrán-ìmọ̀ RPC Access
 
-RPC ti wa ni idiwọ nipasẹ aiyipada fun aabo. Lati jẹ ki o ṣiṣẹ:
+RPC ti wa ni idaduro nipasẹ aiyipada fun aabo. Lati jẹ ki o ṣiṣẹ:
 
-**Critical: Set strong credentials.** zcashd RPC máa ń fi orúkọ oníṣe/ọ̀rọ̀-ìfipamọ́ ránṣẹ́ lórí HTTP (kì í ṣe HTTPS).
+**KÍTÀN: Ṣeto àwọn ìforúkọsílẹ̀ tó lágbára.** zcashd RPC ń fi orúkọ oníṣe/ọ́rọ̀-ìfipamọ́ ránṣẹ́ lórí HTTP (kì í ṣe HTTPS). Nikan túmọ sí pé o mọ ohun tí ààbò ní nínú.
 
 -> Àkọlé nínú ẹ̀ka *env*:
 
@@ -266,7 +276,7 @@ RPC ti wa ni idiwọ nipasẹ aiyipada fun aabo. Lati jẹ ki o ṣiṣẹ:
    - "ZCASHD_ALLOWIP=0.0.0.0/0"  # Allow from anywhere (use with caution)
    ```
 
--> Uncomment èbúté RPC nínú *expose*:
+-> Uncomment ìlé RPC nínú *expose*:
 
    ** fún Mainnet:**
 
@@ -288,27 +298,27 @@ RPC ti wa ni idiwọ nipasẹ aiyipada fun aabo. Lati jẹ ki o ṣiṣẹ:
      proto: tcp
    ```
 
-**ìkìlọ̀**: bí o bá fi *global: true* sí RPC, o ń tú u sílẹ̀ fún ayélujára pẹ̀lú òfin ìkọ̀sílẹ̀. Èyí jẹ́ èrò tí kò dára. Lo *glonal: false* kí o sì wọlé sí RCC nípasẹ̀ ẹ̀rọ-ayárabíàṣá Akash tàbí ṣètò ọ̀nà ìkọjá tí ó ní ààbò.
+**ìkìlọ̀**: bí o bá fi *global: true* sí RPC, ìwọ ń tú u sílẹ̀ fún ayélujára pẹ̀lú ìkọsílẹ̀ pàtàkì. Èyí jẹ́ èrò tí kò dára. Lo *glonal: false* kí o sì wọlé sí RCC nípasẹ̀ àgbélékọjá inú Akash tàbí ṣètò ọ̀nà abójútó kan tó dáàbò bo ara rẹ.
 
-**ìrántí ìfiwéra èbúté**: Bí o bá fi RPC hàn lágbàáyé, Akash yóò fi í hàn sí èbútó gíga tí ó jẹ́ àbáwọlé (kì í ṣe 8232/18232). Ṣayẹwo àwọn URI nínú ìmúṣẹ rẹ láti rí ojúlówó ìparí èrò. fún *global: false* (a dábàá), ìparẹ̀ RPC jẹ́ èyí tí a lè wọlé sí lábẹ́ ẹ̀rọ-ìmúṣẹ Akash nìkan, kì í ṣe láti orí ayélujára.
+**ìrántí ìfipèsèpòsí èbúté**: Bí o bá fi RPC hàn lágbàáyé, Akash yóò ṣe àfihàn rẹ sí ẹ̀ka-òpó gíga tí ó jẹ́ ti kòṣeémánìí (kì í ṣe 8232/18232). Ṣayẹwo àwọn URI nínú ìpìnlẹ̀ láti rí ojúlówó òpin ìlú. fún *global: false* (a gbà á níyànjú), a lè wọlé sí apá ìparí RPC náà nìkan láàrin nẹtiwọọki ipínlẹ̀ Akash, kì í ṣe látàrí ayélujára gbogbo gbogbogbo.
 
-### Fún Àmì Ìṣirò Ìṣèlú
+### Ṣiṣẹ́ Àmì Ìṣirò Iṣẹ̀-ìpínlẹ̀ (Transaction Index)
 
-Atọka idunadura jẹ ki o beere eyikeyi idunwo nipasẹ ID rẹ nipasẹ RPC. Lo ibi ipamọ diẹ sii (~ 20% ilosoke).
+Àmì ìsòwò ń jẹ́ kí o lè béèrè fún àdéhùn èyíkéyìí nípa ID rẹ̀ nípasẹ̀ RPC. Ó n lo ibi-ipamọ púpọ (~ 20% àfikún).
 
-Àkọlé nínú *env*:
+Àlàyé nínú *env*:
 
 ```yaml
 - "ZCASHD_TXINDEX=1"
 ```
 
-**Ìkìlọ̀**: Fífún txindex láàyè lórí ìsopọ̀ tí ó wà tẹ́lẹ̀ gba àtúnyẹ̀wò gbogbo blockchain, èyí tó gba ọ̀pọ̀ wákàtí.
+**Ìkìlọ̀**: Fífún txindex láàyè lórí ìsopọ́ tí ó wà níṣojú ń béèrè àtúnṣe-àdàkọ gbogbo blockchain, èyí tó gba wákàtí.
 
-### Ṣiṣẹ́ Àwòrán-ìmọ̀
+### Ṣiṣẹ́ Àwòrán-ìmọ̀lẹ̀ (Insight Explorer)
 
-Insight Explorer n pese awọn ipari REST API afikun fun data blockchain (lori anfani fun awọn oluwadii bulọọki).
+Insight Explorer n pese awọn ipari REST API afikun fun data blockchain (lowo si awọn oluwadii bulọọki).
 
-Àkọlé nínú *env*:
+Àlàyé nínú *env*:
 
 ```yaml
 - "ZCASHD_INSIGHTEXPLORER=1"
@@ -316,7 +326,7 @@ Insight Explorer n pese awọn ipari REST API afikun fun data blockchain (lori a
 
 Eyi yoo mu txindex ṣiṣẹ laifọwọyi ati ṣafikun awọn ọna RPC afikun.
 
-### Fún Àwọn Ìsọfúnni Prometheus
+### Ṣiṣẹ́ àwọn Ìsọfúnni Prometheus Metrics
 
 Lati yọ awọn iṣiro fun ibojuwo:
 
@@ -327,7 +337,7 @@ Lati yọ awọn iṣiro fun ibojuwo:
    - "ZCASHD_METRICSIP=0.0.0.0/0"
    ```
 
--> Yọ̀ àwọn àlàfo tó wà nínú *expose* kúrò:
+-> Ṣípò àwọn ìsọfúnni nínú *expose*:
 
    ```bash
    - port: 9969
@@ -337,65 +347,65 @@ Lati yọ awọn iṣiro fun ibojuwo:
      proto: tcp
    ```
    
-Awọn iṣiro yoo wa ni: http://yourendpoint:9969/metrics nínú ìtòlẹ́sẹẹsẹ Prometheus.
+Àwọn ìsọfúnni yóò wà ní orí-ìkànnì: http://yourendpoint:9969/metrics ní ìmísí Prometheus.
 
-### Ṣíṣàtúnṣe Àwọn Ìpèsè/Ìlówó
+### Ṣíṣàtúnṣe Àwọn Owó-ìní/Ìlówó Ọjà
 
-Ti o ko ba gba awọn ipese tabi fẹ lati mu iye owo pọ si:
+Ti o ko ba gba awọn ifiranṣẹ tabi fẹ lati ṣe iṣapeye iye owo:
 
-** Fun awọn olupese ti o kere si-spec**, dinku ni *profiles.compute.zcashd.resources* apakan:
+** Fun awọn olupese ti o kere ju-spec**, dinku ni *profiles.compute.zcashd.resources* apakan:
 
--> CPU: *units: 2* (ìpínlẹ̀ fún iyara ìsopọ̀ tó yẹ)
+-> CPU: *units: 2* (ìpínlẹ̀ fún iyara ìsopọ́ tó yẹ)
 
--> Ìrántí: *ìyí: 12Gi* (ìpín-ìdín-ní-ìdí fún ìdúróṣinṣin)
+-> Ìrántí: *ìyí: 12Gi* (ò kéré jùlọ fún ìdúróṣinṣin)
 
--> Ìpamọ́: *ìtóbi: 120Gi* (ìwọ̀nba tó kéré jùlọ fún mainnet)
-
-
-** Lati fa awọn ipese diẹ sii **, alekun ni * profaili. ipo.akash. idiyele *:
-
--> Mainnet: Try *amount: 15000* uakt/block
-
--> Àwòṣe: Gbiyanju *iye: 7500* uakt/ìdìpò
+-> Àpamọ́: *ìyí: 120Gi* (ò kéré jùlọ fún ìkànnì pàtàkì)
 
 
-Àwọn iye SDL ni a gbé kalẹ̀ lọ́nà tí kò fi bẹ́ẹ̀ gbòòrò.
+** Lati fa awọn ipese diẹ sii**, mu *awọn profaili pọ si. ipo-ipilẹṣẹ.akash. idiyele*:
 
-## Mímú Ìtòlẹ́sẹẹsẹ Rẹ Tún Ṣe
+-> Mainnet: Gbiyanju * iye owó: 15000* uakt/ìdìpọ̀.
 
-Ṣe o nílò àtúnṣe ìtòlẹ́sẹẹsẹ lẹ́yìn tí o bá ti ṣíṣẹ́?
+-> Àwòṣe: Gbiyanju * iye: 7500* uakt/ìdìpọ̀.
 
--> Lọ sí **Àwọn Ìpínlẹ̀ mi** ní Console
 
--> Wá ìmúgbòòrò zcashd rẹ
+Àwọn iye SDL ti wà ní ipò gíga. Òpò àwọn olùpèsè yóò rajà láìsí owó tó pọ̀ jù bẹ́ẹ̀ lọ.
 
--> Tẹ **"Àtúnṣe Ìmúgbòòrò"**
+## Mímú Ìtòlẹ́sẹẹsẹ Rẹ Wà Lójú Òní
 
--> Ṣàtúnṣe SDL
+Ṣe o nílò láti yí àtòjọ padà lẹ́yìn tí a bá ti gbé e jáde?
+
+-> Lọ sí **Àwọn Ìmúgbòòrò Mi** nínú Àpèsè-ìṣàmúlò (Console)
+
+-> Wá ìmúṣẹ zcashd rẹ
+
+-> Tẹ **"Ìmúṣiṣẹ́ Àtúnṣe"**
+
+-> Ṣàtúnṣe SDL náà
 
 -> Tẹ **"Àtúnṣe"** ki o si fọwọsi ni Keplr
 
 
-**Àkíyèsí**: Àtúnṣe yóò tún àpòòwò rẹ ṣe. Àkó náà yóò tún padà bẹ̀rẹ̀ láti ipò tí ó ti fi pamọ́ (ìpamọ́ tí ó wà pẹ́ títí), ṣùgbọ́n retí ìṣẹ́jú 1-2 ti àkókò ìsinmi.
+**Àkíyèsí**: Àtúnṣe yóò tún ìgò rẹ ṣe. Ìkó náà á padà bẹ̀rẹ̀ láti ipò tí ó ti fi pamọ́ (ìpamọ́ tó wà títí), ṣùgbọ́n retí ìṣéjú 1-2 àkókò ìdákẹ́rọ́kọ́lẹ̀.
 
 ## Ìtójútó
 
-### Nípasẹ̀ Àpótí
+### Nípasẹ̀ Àpótí Ìṣiṣẹ́
 
--> ** Àwọn àkọọ́lẹ̀ ìpamọ́**: Àwọn àkọọ́lẹ̀ àpò-ìpèsè tí ó wà láàyè
+-> **Ìwé àkọsílẹ̀**: Ìwífún ìlépa tí ó wà láàyè
 
--> **Shell tab**: Gba shell kan ninu apoti naa (lori anfani fun atunṣe aṣiṣe)
+-> **Shell tab**: Gba shell kan ninu apoti (lori fun atunṣe aṣiṣe)
 
--> **Awọn iṣẹlẹ tab**: Awọn iṣẹlẹ Kubernetes (ọpọ julọ ti ko wulo ayafi ti nkan kan ba fọ)
+-> **Ere ti awọn iṣẹlẹ**: Awọn iṣẹlẹ Kubernetes (ọpọ julọ ko wulo ayafi bi nkan ba fọ)
 
 
 ### Nípasẹ̀ RPC (bí ó bá wà)
 
-Ti o ba ti muu ṣiṣẹ RPC, o le beere rẹ node bi a deede zcashd kikun node (nitori o jẹ!)
+Ti o ba ti muu ṣiṣẹ RPC, o le beere rẹ node bi a deede zcashd kikun akoso (nitori o jẹ!)
 
-### zcash-cli Àtúnṣe
+### zcash-cli Àtúnṣe síi
 
-Ti o ba ni iwọle shell nipasẹ Console, o le lo *zcash-cli* taara:
+Ti o ba ni iraye si apo nipasẹ Iṣakoso, o le lo * zcash-cli* taara:
 
 ```bash
 # From the Shell tab in Console
@@ -404,113 +414,113 @@ zcash-cli getpeerinfo
 zcash-cli getinfo
 ```
 
-## Ìparí Iṣẹ́-ìṣètò Rẹ
+## Ìparí Iṣẹ́-Ìsínà Rẹ
 
-Nígbà tí o bá ti parí tàbí tí o kò bá fẹ́ sanwó mọ́:
+Nígbà tí o bá ti parí tàbí tóo fẹ́ dáwọ́ lílọ san owó dúró:
 
 -> Lọ sí **Àwọn Ìpínlẹ̀ mi**
 
--> Wá ìmúgbòòrò zcashd rẹ
+-> Wá ìmúṣẹ zcashd rẹ
 
--> Tẹ **"Sún ìmúgbòòrò"**
+-> Tẹ **"Ṣípòsílẹ̀ dídánilẹ́nuwò"**
 
--> Fọwọsi ki o si buwolu wọle Keplr
+-> Fi ẹ̀rí ìdánilójú àti ìforúkọsílẹ̀ sínú Keplr
 
 
-A ó dá owó ìsúná 5 AKT rẹ padà. **Ìpamọ́ tí ó wà pẹ́ títí** yẹ kí olùpèsè náà pa á mọ́, ṣùgbọ́n má ṣe gbára lé e - fi ṣe bíi ti olùpènyàn àwọsánmà yòókù.
+A ó dá owó ìsúná 5 AKT rẹ padà. **Àpamọ́ tí kò lè yípadà** ni kí olùpèsè náà máa tọjú, ṣùgbọ́n má ṣe gbára lé e - fi ojú tó dáa wo ẹ̀ bíi ti àwọn oníṣẹ́ àwọsánmà yòókù.
 
-## Àtúnṣe àṣìṣe
+## Ìdáhùn àwọn ìṣòro náà
 
 ### Àṣìṣe "Àwọn owó tí kò tó"
 
-O nílò àpò AKT sí i, kó o sì fi kún owó Keplr rẹ.
+O nílò àpò AKT sí i. Ẹ fi owó kún ìwé Keplr yín.
 
-### Kò sí ìnáwó tó ń yọjú
+### Kò sí ìnáwó tí ó hàn gbangba.
 
 Yálà:
 
--> Owó tí ẹ ń san kò tó nǹkan rárá (ẹ fi *iye owó náà* kún un ní SDL)
+-> Iye tí o fi ń ra ọjà rẹ kò tó nǹkan (fi *iye owó* kún un ní SDL)
 
--> Awọn ibeere ohun elo rẹ ga ju fun awọn olupese ti o wa ( dinku CPU / iranti / ibi ipamọ)
+-> Awọn ibeere orisun rẹ ga ju fun awọn olupese ti o wa (dín CPU / iranti / ibi ipamọ)
 
--> Duro diẹ sii (nigbakan o gba 60-90 aaya fun awọn ifiranṣẹ lati han)
+-> Duro diẹ sii (nigbakan o gba 60-90 aaya fun awọn ipese lati han)
 
 
-### Ìmúgbòòrò tí ó dúró ní "ìdúró"
+### Ìmúṣẹ dídíjú nínú "ìdúró"
 
-Olùpèsè náà lè ní ìṣòro. Pa ìmúgbòòrò náà mọ́ kí o sì gbìyànjú olùpèsè mìíràn.
+Olùpèsè náà lè ní ìṣòro. Pa ìmúṣẹ yìí mọ́ kí o sì gbìyànjú olùpèsè mìíràn.
 
-### Àwọn àkọọ́lẹ̀ zcashd fi hàn "Kò sí àwọn ẹlẹgbẹ́ tí wọ́n so pọ̀"
+### Àwọn àkọọ́lẹ̀ zcashd fi hàn "Kò sí àwọn ẹlẹgbẹ tí ó so pọ̀"
 
-Eyi jẹ deede fun awọn iṣẹju diẹ akọkọ. zcashd yoo ṣe awari awọn ẹlẹgbẹ laifọwọyi. Ti o ba tẹsiwaju lẹhin iṣẹju 10+, o le ni iṣoro nẹtiwọọki (ko ṣee ṣe lori Akash).
+Níwọ̀n ìgbà tí Ìparí-ìtìlẹ́yìn dúró ní July 18, 2026, èyí ni ipò tó wà títí lọ dípò ìdádúró ìbẹ̀rẹ̀, àti pé kò sí iye àkókò àfojúsùn tàbí yípadà yóò tún un ṣe. Ṣiṣẹda [Zebra](/guides/akash-network-zebra) dípò ìyẹn.
 
-### Àwọn àṣìṣe "Láti inú ìrántí" nínú àwọn àkọọ́lẹ̀
+### Àwọn àṣìṣe "Láti inú ìrántí" nínú àwọn àkọọ́lẹ̀ ìsọfúnni
 
-O ti dín RAM kù. Pa ìmúgbòòrò náà mọ́ kí o sì tún un múlẹ̀ pẹ̀lú 12Gi memory ó kéré tán (16Gi recommended).
+O ti dín RAM kù. Pa ìmúṣẹ náà àti tún-ìmúṣe pẹ̀lú 12Gi memory (16Gi ni a ṣeduro).
 
-### Ṣíṣàtúnṣe ń gba àkókò gígùn
+### Ìṣètò náà ń gba àkókò gígùn.
 
-Ṣàlàyé ohun tó túmọ̀ sí láti wà láàyè títí láé:
+Ṣàlàyé ohun tí "láìnípẹ̀kun" túmọ̀ sí:
 
--> ** Wákàtí**: Ìwọ̀n
+-> ** Wákàtí**: Ìwọ̀n tó yẹ kó wà nínú rẹ̀.
 
 -> **Ọjọ**: O tun jẹ deede fun mainnet lati ibẹrẹ
 
--> **Weeks**: Nkankan ti ko tọ, ṣayẹwo awọn akọọlẹ fun awọn aṣiṣe
+-> **Weeks**: Ohun kan ti ko tọ, ṣayẹwo awọn iwe akọọlẹ fun aṣiṣe
 
 
-### "Àṣìṣe tí ó ń mú zcash-params wá"
+### "Ìṣòro tí ó ń mú àwọn àlàfo zcash-params"
 
-Olùpèsè náà lè ní àwọn ọ̀rọ̀ lórí ẹ̀rọ-ìpèsè tàbí ìsókè tí ó lọ́ra. Èyí sábà máa ń yanjú ara rẹ̀. Bí ó bá tẹ̀síwájú fún àkókò tó ju ọgbọ̀n ìṣẹ́jú lọ, gbìyànjú láti yí padà sí olùpèsè mìíràn.
+Olùpèsè náà lè ní àwọn ìṣòro nẹ́túwèrìkì tàbí ìsókè-àlàfo. Èyí sábà máa ń yanjú ara rẹ̀. Bí ó bá wà fún àkókò tó ju ọ̀ọ́dúnrún ìṣẹ́jú lọ, gbìyànjú láti tún pín sí olùpèsè mìíràn.
 
-### Àwọn àṣìṣe ìdánimọ RPC
+### Àìdáa nínú ìfọwọ́sí RPC
 
--> Ṣayẹwo pe *ZCASHD_RPCUSER* ati *Z CASHD_ RPCPASSWORD* ti wa ni ṣeto ni deede
+-> Ṣayẹwo pe *ZCASHD_RPCUSER* ati *Z CASHD_ RPCPASSWORD* ti wa ni ṣeto daradara.
 
 -> Ṣayẹwo pe o nlo ibudo ti o tọ (8232 fun mainnet, 18232 fún testnet)
 
--> Ranti ibudo ti wa ni maapu nipa Akash - lo awọn URI lati rẹ deployment, ko 8232 taara
+-> Ranti awọn ibudo ti wa ni maapu nipa Akash - lo URI lati rẹ deployment, ko 8232 taara
 
 
-## Iṣakoso Iye owo
+## Ìdarí Ètò Owó-Owo
 
-Ṣàkíyèsí ìnáwó rẹ nínú Ẹrọ-ìmọ̀ràn:
+Ṣàkíyèsí ìnáwó rẹ nínú Àpótí:
 
--> **My Deployments** -> Your deployment -> Fi "Owo fun osu kan" iṣiro han
+-> **Iṣẹ́ tí mo ṣe** -> Iṣé rẹ -> Ó fi "Owó oṣù" hàn.
 
--> Àdéhùn àpò Keplr rẹ yóò dín kù pẹ̀lú àkókò
+-> Àdéhùn owó Keplr rẹ yóò dínkù pẹ̀lú àkókò.
 
 
-When your balance runs low, Akash will auto-close your deployment. **Top up your wallet periodically** or set up alerts.
+Nígbà tí owó rẹ bá tán, Akash yóò pa ìmúṣẹ ọ̀rọ̀ náà tìkára ẹ. **Fi àpò-ìpamọ́ sílẹ̀ déédéé** tàbí ṣètò àwọn ìdánilójú.
 
-### Bá A Ṣe Lè Dín Owó Tó Ń Náni Kù
+### Dídín Iye Ìnáwó Kù
 
--> **Lọ́wọ́ Testnet** fún àyẹ̀wò tí kò ní í ṣe pẹ̀lú iṣẹ́ ìbílẹ̀ (50% ó dínwó kù)
+-> **Láti lo Àwòdì Ìdánwò** fún ìdánwò tí kò bá jẹ́ ti ìṣẹ̀dá (50% ó dínwó)
 
--> ** CPU/ìrántí ìsàlẹ̀** bí o kò bá nílò ìsọ̀kan tó yára
+-> **Igbesẹ CPU/iranti** ti o ba jẹ pe iwọ ko nilo isọdọkan iyara
 
--> **Yan awọn olupese ti o din owo** (ko jẹ ọlọgbọn nigbagbogbo - awọn ọrọ akoko)
+-> **Yan awọn olupese ti o din owo** (ko nigbagbogbo ọlọgbọn - ọrọ akoko)
 
--> **lo USDC dípò AKT** bí iye owó AKT bá ń yí padà (ó nílò ìyípadà iye owó SDL)
+-> **lo USDC dípò AKT** bí owó AKT bá ń yí padà (ó nílò ìyípadà iyebíye SDL)
 
--> **Disable txindex** ti o ba ti o ko ba nilo o (fi ~ 20% ibi ipamọ)
+-> **Disable txindex** ti o ba ti o ko nilo rẹ (fi ~ 20% ipamọ)
 
 
 ### Àwọn Owó Àfikún
 
-Àpótí Akash:https://console.akash.network](https://console.akash.network)
+Àpótí Akash: [https://console.akash.network](https://console.akash.network)
 
-**Akash Docs**: [https://akash.network/docs/](https://akash.network/docs/)
+Akash Docs: Ìtàn tí ó ṣe pàtàkì jùlọ nínú ìtàn náà. [https://akash.network/docs/](https://akash.network/docs/)
 
-Àwọn Olùwádìí Zcash:https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+Àwọn olùwádìí Zcash: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
 
-Akash Àríyànjiyàn:https://discord.akash.network](https://discord.akash.network) (fún àwọn ọ̀ràn olùpèsè)
+Akash Discord: Ìjàǹbá fún àwọn ọmọdé. [https://discord.akash.network](https://discord.akash.network) (nípa àwọn ọ̀ràn olùpèsè)
 
-## Àwọn Àkíyèsí Ìparí
+## Àwọn Àlàyé Ìparí
 
-- **Ìṣòro ìpamọ́ tí ó wà pẹ́ títí.** Má ṣe fi *ìṣòro tó wà pẹ̀lú: òtítọ́* sílẹ̀ tàbí lo *beta2* class. Lo *beta3*.
-- **ìmúṣiṣẹ́pọ̀ ìbẹ̀rẹ̀ lọ́ra.** Jẹ́ onísùúrù. Èyí jẹ́ ohun tí ó wọ́pò fún àwọn ìsọ̀rí blockchain.
-- **Máa kó owó sínú àpamọ́ rẹ.** Àwọn ohun èèlò tí wọ́n ń lò máa ń pa ara wọn nígbà tí kò bá sí AKT mọ́.
-- **Awọn afẹyinti kii ṣe laifọwọyi.** Ti o ba bikita nipa data naa, gba pe o le parẹ ki o si gbero ni ibamu.
+- **Ìṣòro ìpamọ́ tí kò dáwọ̀ dúró.** Má ṣe fo *ìdìbò: òótọ́* tàbí lo ẹ̀ka *beta2*. Lo *beta3*.
+- **Iṣọkanpọ akọkọ jẹ pẹ.** Jẹ onigbọwọ. Eyi ṣe deede fun awọn akopọ blockchain.
+- **Ẹ máa fi owó sí àpò yín.** Àwọn ìmúṣẹ-ìfipá pa ara wọn nígbà tí ẹ bá ní kòkòrò àrùn AKT.
+- **Awọn afẹyinti kii ṣe laifọwọyi.** Ti o ba bikita nipa data, gba pe o le parẹ ki o si gbero ni ibamu.
 - **Aabo RPC jẹ pataki.** Maṣe fi RPC han si intanẹẹti laisi awọn igbese aabo to yẹ.
-- ** zcash-params are cached.** First run downloads ~2GB of cryptographic parameters. Eyi jẹ deede ati pe o ṣẹlẹ lẹẹkan nikan.
+- ** zcash-params are cached.** First run downloads ~2GB of cryptographic parameters. Èyí jẹ́ òòṣà àti pé ó máa ń ṣẹlẹ̀ lẹ́ẹ̀kan ṣoṣo péré.

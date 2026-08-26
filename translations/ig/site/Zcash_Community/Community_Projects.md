@@ -129,6 +129,16 @@ Multi-chain, open source, ego nchekwa onwe onye nke na akwado izipu, ịnata, na
 Live non-custodial tipping platform ebe ọ bụla tip na-abata dị ka ZEC echekwara. Na-akwado cross-chain on-ramps site NEAR Intents. 
 [Ịga leta ya .](https://tipz.cash/)
 
+### CYZE (n'asụsụ Bekee)
+A collaborative wallet and coordination platform that allows multiple team members to manage shielded Zcash funds together. It uses FROST threshold signatures, enabling groups to authorize Orchard transactions collectively without giving a single participant complete control over the wallet.
+
+[Ịga leta ya .](https://github.com/USCMig/Cyze)
+
+### Pendrake Watch (Ogwe elekere)
+A watch-only desktop wallet designed for individuals and organizations that need to monitor shielded funds without having the ability to spend them. It supports transaction and balance monitoring, Orchard and Sapling notes, memo viewing, historical fiat valuation, transaction notifications, wallet encryption, and privacy-focused screen-sharing features.
+
+[Ịga leta ya .](https://github.com/auzum197/pendrake-watch)
+
 ---
 
 ## Ndị nchọpụta, Data na Dashboards Network
@@ -185,6 +195,11 @@ Ebe nrụọrụ weebụ na-elekwasị anya nzuzo nke nchịkọta akụkọ Zca
 
 [Ụlọ Nzukọ ahụ](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 
+### ZEC-OS
+Aretro-style desktọọpụ interface nke na -ejikọta ngwaọrụ dị iche iche Zcash ecosystem na ozi n'ime otu ngwa. Ọ gụnyere onye nchọpụta blockchain, mempool viewer, ọnụ ọgụgụ netwọkụ, eserese akụkọ ihe mere eme, mkpuchi mmiri echekwara, ngwá ọrụ Ngwuputa, Unified Address decoder, mgbako, egwuregwu, njedebe, yana ụlọ ọrụ ndị ọzọ.
+
+[Ịga leta ya .](https://www.zec-os.com/)
+
 ---
 
 ## Njirimara, Aha na Ahụmahụ Onye Ọrụ
@@ -218,6 +233,11 @@ A privacy-focused tipping platform for streamers that enables viewers to send sh
 A privacy-preserving financial tracking and accounting tool for Zcash. It combines a public dashboard for transparent network data with local private accounting that uses viewing keys without exposing them, helping users track balances, transaction history, cost basis, and eventually budgeting and tax-ready reports while keeping their funds secure and private.
 
 [Ịga leta ya .](https://zecledger-web.vercel.app/)
+
+### Nyocha site na ZcashMe
+Usoro nkwenye nke na-elekwasị anya nzuzo nke na -eji azụmahịa Zcash echekwara dị ka usoro nbanye. Ndị ọrụ nyochaa koodu QR ma zipụ obere njirimara nyocha.
+
+[Ịga leta ya .](https://github.com/zcashme/zns-login)
 
 ---
 
@@ -279,6 +299,11 @@ Akpa ego nchọgharị nwere nkwado Zcash.
 AI ikpo okwu nke na-enye ohere ịnweta ọtụtụ ụdị AI ndị isi ma na-akwado ịkwụ ụgwọ cryptocurrency, gụnyere Zcash.
 
 [Ịga leta ya .](https://nano-gpt.com/conversation/new)
+
+### zk.poker
+Ọ bụ usoro egwuregwu poker nke na-ejikọta njedebe, ntinye uche n'uche, na teknụzụ nzuzo Zcash. Ezubere ya ka onye ọrụ ahụ ghara ịma kaadị ndị ọkpụkpọ ma ọ bụ jide ego ịkụ nzọ ozugbo.
+
+[Ịga leta ya .](https://zkbtc.org/)
 
 
 ---

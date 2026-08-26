@@ -4,64 +4,112 @@
 
 # Igodo Nlele
 
-Shielded addresses enable users to transact while revealing as little information as possible on the Zcash blockchain. What happens when you need to disclose sensitive information around a shielded Zcash transaction to a specific party? Every shielded address includes a viewing key. Viewing keys were introduced in [ZIP 310](https://zips.z.cash/zip-0310) ma gbakwunyere na protocol na nkwalite netwọk Sapling. Igodo nlele bụ akụkụ dị mkpa nke Zcash ka ha na-enye ndị ọrụ ohere ịkọwapụta ozi gbasara azụmahịa.
+Shielded addresses let you transact while revealing as little as possible on the Zcash blockchain. So what happens when you *do* need to show a specific party what you hold, or what you sent? Every shielded address has a viewing key that grants read access without granting the ability to spend. Viewing keys were introduced in [ZIP 310 (mkpụrụ akwụkwọ)](https://zips.z.cash/zip-0310) ma gbakwunye na protocol n'ime nkwalite netwọk Sapling.
 
-### N'ihi gịnị ka o ji jiri mkpịsị ugodi e ji ahụ ihe mee ihe?
+Igodo nlele bụ ngwá ọrụ maka ikpughe nhọrọ: ị họrọ onye na-ahụ ihe, ma ọ dịghị mgbe i nyefere ikike imefu ego iji mee ya.
 
-Kedu ihe mere onye ọrụ ga-eji chọọ ime nke a? Site na blọọgụ Electric Coin Co. n'okwu a...
+## Gịnị mere ị ga-eji jiri igodo e ji ahụ ụzọ mee ihe?
 
-*- An exchange wants to detect when a customer deposits ZEC to a shielded address, while keeping the **spend authority** keys on secure hardware. The exchange could generate an incoming viewing key and load it onto an Internet-connected **detection** node, while the spending key remains on the more secure system.*
+Akwụkwọ nke Electric Coin Company dere n'isiokwu a na-akọwa ọnọdụ ndị kasị ebilite, ha ka bụkwa ihe ndị a na - ahụkarị taa:
 
-*- A custodian needs to provide visibility of their Zcash holdings to auditors. The custodian may generate a full viewing key for each of their shielded addresses and share that key with their auditor. The auditor will be able to verify the balance of those addresses and review past transaction activity to and from those addresses.* 
+- **A mgbanwe na-ekiri maka ego.** The exchange loads a inbound ikiri isi ihe n'elu internet ihu nchọpụta ọnụ otú ọ nwere ike achọpụta ahịa ego ka a kpuchie adreesị, mgbe mmefu igodo anọgide na ngwaike nke dịghị emetụ netwọk.
+- **A custodian proving its holdings.** The custodian hands an auditor a full viewing key for each shielded address. The auditor can check those balances and review past activity to and from those addresses, and can do nothing else.
+- ** Nlezianya kwesịrị ekwesị na onye ọzọ.** Mgbe mgbanwe chọrọ inyocha akụkọ ihe mere eme nke ndị ahịa dị ka akụkụ nke nlekọta zuru oke, ọ nwere ike ịrịọ maka igodo nlele kama ego.
 
-*- An exchange may need to conduct due diligence checks on a customer who makes deposits from a shielded address. The exchange could request the customers viewing key for their shielded address and use it to review the customers shielded transaction activity as part of these enhanced due diligence procedures.*
+## Ihe igodo nlele na-eme ma ghara ikpughe
 
-### Otu esi achọta igodo nlele gị
+E nwere ihe karịrị otu ụdị mkpịsị ugodi, ọdịiche dị na ha ga-ekpebikwa ego ole ị ga-enye.
 
-#### zcashd
+ Key  Prefix  Onyinye ego 
+|---|---|---|
+◯ Unified Full Viewing Key (UFVK) Mkpịsị ugodi nlele zuru oke nke dị otu `uview…` ◯ Na-ahụ azụmahịa na-abata **na** nke ọpụpụ maka ọdọ mmiri niile dị n'ime akaụntụ ahụ.
+◯ Unified Incoming Viewing Key (UIVK) Mkpịsị ugodi nlele na-abata dị iche `uivk…` ◯ Na-ahụ naanị azụmahịa ndị na-abata, maka ọdọ mmiri ọ bụla dị n'akaụntụ.
+◯ Sapling gbatịpụrụ igodo nlele zuru ezu. `zxviews…` ◯ Na-ahụ ọrụ Sapling na-abata ma na-apụ apụ maka adreesị igodo ahụ.
 
-* Depụta adreesị niile a maara site na iji *./zcash-cli listaddresses*
+Ọ dịghị nke ọ bụla n'ime ha pụrụ imefu. Ha nile na-adịgide adịgide n"ụzọ dị mkpa: a pụghị icheta igodo i nyefere, nanị ihe ị ga-eme bụ iwepụ ego ahụ gaa ná akaụntụ onye ọzọ ejighị mkpịsị ugodi ya.
 
-* Mgbe ahụ na-enye ndị na-esonụ iwu maka ma UA si ma ọ bụ Sapling echebe adreesị
+Ihe abụọ ị ga-ebu ụzọ mara tupu i kwuwe ihe ọ bụla bụ na e nwere ọtụtụ ndị a pụrụ iji maka ha mata.
 
-  ```bash
-  ./zcash-cli z_exportviewingkey "<UA or Z address>"
-  ```
+** Incoming adịghị apụta na ọ dị warara.** A jikọtara igodo nlele ntinye aka maka akaụntụ dum, ọ bụghị otu adreesị a jụrụ gị. Ịbupụ UIVK maka otu adres Sapling ka na-enye ọhụụ abata gafee ọdọ mmiri niile na akaụntụ ahụ, ya mere o gosipụtara karịa aha adreesì ndị ahụ. The [Akwụkwọ Zallet Book](https://zcash.github.io/zallet/zcashd/json_rpc.html) na-ekwu nke a n'ụzọ doro anya.
 
-#### Ywallet
+** Adreesị e bipụtara na-ekpughe igodo ya nke na-abata maka onye iro n'ọdịnihu.** [ZIP 326  Ihe e dere n'ala ala peeji](https://zips.z.cash/zip-0326) na-ekwu na onye iro nwere kọmputa quantum nwere ike weghachite igodo nlele nke si na adreesị dị iche, bụ nke a ga - emeli ka ọ ghara iweghachite isi ihe ahụ. Ịkwusa ozi ọma abụghị otu taa dịka ịdepụta mkpado nyocha, ma ha abụọ nọ nso karịa ogologo oge zuru ezu.
 
-* Na akuku aka nri elu họrọ "Nchekwa", Nyochaa ekwentị gị, wee detuo igodo nlele gị nke egosiri.
+## Igodo nlele mgbe Ironwood gasịrị
 
-### Otu esi eji igodo nlele gị
+NU6.3 webatara ọdọ mmiri Ironwood na-echebe ma mee ka ogige Orchard nọrọ naanị, yabụ ego si n'otu gaa na nke ọzọ oge. Lee [Osisi ígwè](/zcash-tech/ironwood) na nke a: [Ihe na-eme ka ọ dị mma.](/zcash-tech/the-turnstile) maka nkwalite ahụ n'onwe ya.
 
-#### zcashd
+**A viewing key issued before Ironwood keeps working after the migration.** ZIP 326 specifies that a receiver, and its corresponding incoming viewing key, is scoped to the Orchard *protocol* rather than to a pool: the same incoming viewing key trial-decrypts both Orchard-pool and Ironwood-pool note ciphertexts. Zallet implements it that way, describing Ironwood notes as Orchard-shaped and trial-decrypted with the account's Orchard viewing keys under the Ironwood note-encryption domain.
 
-* Jiri ihe ndị a na vkey ma ọ bụ ukey ọ bụla: 
+Ihe atọ ga-eme onye ọbụla ji maọbụ nye mkpịsị ugodi:
+
+1. ** Ihe ndị dị n'ime ya na-agagharị agagharị, onye kiriri ha ga-ahụkwa ka ihe ahụ mere.** [ZIP 318  Ihe e dere n'ala ala peeji](https://zips.z.cash/zip-0318) specifies migration as a series of small, deliberately uniform Orchard-to-Ironwood transactions broadcast on a randomised schedule, each spending one Orchard note and producing one Ironwood output of a canonical denomination. An auditor watching with a viewing key sees holdings shift from one pool to the other in steps over weeks, not in a single move. A wallet can reconstruct its own migration progress from chain data using its viewing keys.
+2. **Each migration step reveals the value it moves.** That is inherent to crossing a turnstile, and it is what makes the migration auditable. Splitting the balance into canonical denominations means no single transaction reveals the whole Orchard-pool balance.
+3. ** Akaụntụ e kere mgbe Ironwood nwere ike inweta igodo ha n'ụzọ dị iche.** [ZIP 2005 Ihe ndị dị na peeji nke 3](https://zips.z.cash/zip-2005) na-agbakwụnye a `use_qsk` flag for quantum-recoverable keys, and it changes how the incoming, outgoing and diversifier keys are derived, so `use_qsk = true` igodo bụ n'ezie dị iche iche igodo. ZIP 326 chọrọ ka ọkọlọtọ na-agbanwe agbanwe gafee akaụntụ ma machibidoro ịmepụta `use_qsk = true` igodo tupu NU6.3 arụ ọrụ na Mainnet. A isi exported si akaụntụ nke dị n'ihu Ironwood bụ ya mere a key that exists before Ironwood is therefore an active user of the network, and it can be used to access other networks in your system without any additional keys. `use_qsk = false` Echela na igodo a si n'otu akaụntụ pụta kọwaa onye ọzọ.
+
+## Ịbupụ igodo nlele
+
+### Zallet
+
+[Zallet](https://github.com/zcash/zallet) bụ obere akpa ego zuru oke nke dochie anya wallet n'ime zcashd. Nlele-mkpịsị ugodi mbupụ na ibubata rutere **v0.1.0-beta.2 (28 July 2026)**, yabụ lelee ụdị gị mbụ; ihe ndị gara aga anaghị enwe usoro ndị a. Ihe arụmụka ọ bụla mgbe aha usoro ahụ ga -abụrị JSON ziri ezi, nke pụtara uru eriri nwere akara abụọ ha. The [Akwụkwọ Ntuziaka Ọsọ Zallet](/using-zcash/zallet-quick-reference-guide) na-ekpuchi usoro iwu n'ozuzu.
+
+Depụta ihe dị n'ime ya:
 
 ```bash
-./zcash-cli z_importviewingkey "vkey/ukey" whenkeyisnew 30000
+zallet rpc listaddresses
 ```
 
-#### obere akpa
+Mbupụ akaụntụ ahụ zuru ezu na-ele anya site n'ịgafe adreesị dị iche:
 
-* N'elu aka nri, họrọ "Akaụntụ", pịa "+" na akuku aka nri ala iji tinye ma bubata igodo nlele gị iji tinye akaụntụ 'agụ naanị' gị.
+```bash
+zallet rpc z_exportviewingkey '"<unified address>"'
+```
 
-<a href="">
-    <img src="/content-images/image-2024-01-13-175554676-8cdf988797.webp" alt="" width="200" height="280"/>
-</a>
+Mbupụ akaụntụ ahụ si n'otu na-abata igodo ngosi kama, iji nhọrọ `ivk` arụmụka:
 
+```bash
+zallet rpc z_exportviewingkey '"<unified address>"' true
+```
 
-#### zcashblockexplorer.com
+Ịgafe adreesị Sapling na-eweghachi akaụntụ ahụ's Sapling extended full viewing key (`zxviews…`), na-adaba adaba ochie zcashd omume. abụọ akwụkwọ ókè: A jụrụ adreesị Sprout, a Sapling gbasaa zuru ezu nlele igodo nwere ike ghara exported si akaụntụ nke e onwe ya dị ka echiche naanị, n'ihi na obere akpa enweghị ike wughachi ya. The `ivk` ụdị ahụ na-arụ ọrụ maka akaụntụ ndị e webatara naanị.
 
-* Naanị tinye ihe nchọgharị gị na [ebe a](https://zcashblockexplorer.com/vk) and wait for the results! note: this result is now on the zcashblockexplorer node and thus you're trusting this info with the owners of zcashblockexplorer.com
+### Wallets nke na-ebupụ igodo nlele site na interface ha onwe ha
 
-### Akụrụngwa
+Ihe ahụ bụ: [Akpa ego](/using-zcash/wallets) page tracks viewing-key support and Ironwood readiness for each wallet. At the time of writing, wallets listing both viewing-key support and **Ironwood: Ready** include ZODL, Zingo!, Zkool, Cake, Zallet, Zecd and Nozy. Check that page rather than this one before relying on any single wallet, because readiness changes.
 
-Ọ bụ ezie na ọ bụ nnukwu teknụzụ, a na-atụ aro ka ị jiri igodo nlele na ntọala dị mkpa.
+## Ịbubata igodo nlele dị ka akaụntụ elekere naanị
 
-Lelee nkuzi a na igodo nlele. Ndepụta nke ihe onwunwe na isiokwu dị n'okpuru ma ọ bụrụ na ịchọrọ ịbanye n'ime omimi:
+### Zkool (ụlọ akwụkwọ)
 
-- [ECC, na-akọwa igodo nlele](https://electriccoin.co/blog/explaining-viewing-keys/)
-- [ECC, nhọrọ ngosi na igodo nlele](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
+[Zkool (ụlọ akwụkwọ)](https://github.com/hhanh00/zkool2) bụ nhọrọ kachasị mfe ebe a, n'ihi na ọ nabatara igodo ndị dị iche iche nakwa dịka ihe ochie. Ihe ndekọ ya nke README akwụkwọ-na-ahụ naanị e kere site ** unified viewing key** ma ọ bụ isi okwu mmeghe Sapling gbasaa , tinyere mkpịsị ugodi agbatiri agbapụla si zcashd . Tinye akaụntụ ọhụrụ, họrọ ụzọ ngosi ahụ nanị, wee tinye paswọọdụ gị maka ịlele faịlụ ọzọ iji nweta ohere ịnweta ozi ederede mgbe niile. `uview…` or `zxviews…` igodo; akaụntụ ahụ na-eme ka mmekọrịta ma kọọ akụkọ ihe mere eme na akụkọ ntolite n'enweghị ikike mmefu.
+
+Nkwado usoro Ironwood na mbata nke Orchard-to-Ironwood rutere Zkool 6.24.0 (20 July 2026), yana nchọpụta azụmahịa ironwood ziri ezi na mempool. Gbaa ọsọ 6.26.1 ma ọ bụ mgbe e mesịrị.
+
+### Zallet
+
+```bash
+zallet rpc z_importviewingkey '"<zxviews… key>"' '"whenkeyisnew"' 0
+```
+
+Arụmụka nke abụọ bụ iwu nyocha ọzọ: `"whenkeyisnew"` (n'ịghara imezu ya), `"yes"` or `"no"`Nke atọ bụ ogo nke mpempe akwụkwọ iji nyochaa. Zallet na-ebubata igodo ahụ dị ka akaụntụ naanị echiche ma soro azụmahịa ndị na-abata na ọpụpụ maka adreesị ya n'enweghị ikike mmefu ego.
+
+**Zallet na-ebubata Sapling gbasaa igodo nlele zuru oke naanị.** Ọ gaghị ebubata a. `uview…` iji nyefee ohere ịgụ na akaụntụ niile, wepụ UFVK site na Zallet ma bubata ya n'ime obere akpa nke nabatara igodo dị iche iche, dịka Zkool.
+
+## Ihe gbanwere, na ihe ị ga-akwụsị ịchọ.
+
+Ọ bụrụ na i sorola nsụgharị ochie nke ibe a, maọbụ ntụgharị ya, ụzọ atọ anaghịzi arụ ọrụ.
+
+- **`zcash-cli z_exportviewingkey` na nke a: `z_importviewingkey`.** zcashd reached its end-of-support halt on 18 July 2026 and no longer runs. Zallet's identically named methods are the replacement; see the [ntuziaka mbugharị](/guides/migration-guide-zcashd-to-zebrad-zallet).
+- ** The Ywallet walkthrough.** Wallets peeji akara Ywallets **Ironwood: Not Ready**, yabụ na ọ bụghị obere akpa iji tụọ ndị mmadụ aka maka igodo nlele Ironwood-era. Zkool, site n'otu onye mmepe ahụ, nabatara otu ụdị mkpịsị ugodi ma kpọọ Njikere.
+- **zcashblockexplorer.com/vk.** The service returns HTTP 503 with an invalid certificate, and it has been dropped rather than replaced. Pasting a viewing key into a website hands your whole transaction history to whoever runs that website, which was always the weakest of the three options on the old page. Import the key into a wallet you run instead.
+
+## Akụnụba
+
+Jiri igodo nlele na ndabere dị ka mkpa, ma họrọ igodo kacha nso nke zara ajụjụ a jụrụ.
+
+- [ZIP 326: NU6.3 Nsonaazụ maka Wallets](https://zips.z.cash/zip-0326)  etu igodo nlele si akpa agwa gafee ọdọ mmiri Orchard na Ironwood.
+- [ZIP 229: Ụdị 6 Transaction Format](https://zips.z.cash/zip-0229)  na-akọwa ọdọ mmiri Orchard na Ironwood.
+- [Zallet mgbanwe log](https://github.com/zcash/zallet/blob/main/CHANGELOG.md)  nke ntọhapụ kwukwara na RPC usoro
+- [Zkool README (Ụlọ akwụkwọ agụmakwụkwọ)](https://github.com/hhanh00/zkool2/blob/main/README.md)  ụdị akaụntụ na igodo ndị a kwadoro
+- [ECC, Nkọwa Igodo Ịhụ Ihe](https://electriccoin.co/blog/explaining-viewing-keys/)
+- [ECC, Nkwupụta Nhọrọ na Igodo Ngosipụta](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
 - [ECC, Zcash Viewing Key Video Presentation](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
-- [ZIP 310](https://zips.z.cash/zip-0310)

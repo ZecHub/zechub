@@ -8,19 +8,19 @@
 
 
 
-# ZIP ni nini
+# ZIP ni nini?
 A Zcash Improvement Proposal (ZIP) is a design document providing information to the Zcash community, or describing a new feature for Zcash or its processes or environment. The ZIP should provide a concise technical specification of the feature and a rationale for the feature.
 
 We intend ZIPs to be the primary mechanism for proposing new features, for collecting community input on an issue, and for documenting the design decisions that have gone into Zcash. The Owner(s) of the ZIP (usually the authors(s)) are responsible for building consensus within the community and documenting dissenting opinions.
 
 Kwa sababu ZIPs ni kudumishwa kama faili ya maandishi katika versioned hazina, historia yao marekebisho ni rekodi ya kihistoria ya pendekezo kipengele.
 
--> [zips.z.cash](https://zips.z.cash)
+-> [zip.z. fedha taslimu](https://zips.z.cash)
 
 
 ## ZIP Wahariri
 
-Kwa kila ZIP ambayo inakuja, lazima ipitie mchakato wa ukaguzi. Wahariri wa ZIP wana jukumu la kuhakikisha muundo na yaliyomo ya ZIP yoyote inaelezea vyema masharti, mantiki na mabadiliko ya kiufundi yaliyofanywa. 
+Kwa kila ZIP ambayo inakuja, ni lazima kupitia mchakato wa ukaguzi. Wahariri wa ZIP wana jukumu la kuhakikisha muundo na yaliyomo ya yoyote ZIP inaelezea vyema masharti, mantiki na mabadiliko ya kiufundi yaliyofanywa. 
 
 ```markdown
 * Jack Grigg, Kris Nuttycombe and Daira-Emma Hopwood associated with the ECC.
@@ -28,27 +28,46 @@ Kwa kila ZIP ambayo inakuja, lazima ipitie mchakato wa ukaguzi. Wahariri wa ZIP 
 * Sam and Mark, associated with SL.
 ```
 
-## ZIPs inayojulikana ya sasa ya kuchora
+## ZIPs za sasa zinazojulikana
 
-> Rasimu: [Transarent Zcash Upanuzi](https://github.com/zcash/zips/blob/main/zip-0222)
+Hali na vyeo chini walikuwa checked dhidi ya ZIP index saa: [zip.z. fedha taslimu](https://zips.z.cash/#index-of-zips) 18 Agosti 2026. hali ya ZIP mabadiliko kwa muda, hivyo kutibu index kama chanzo cha ukweli.
 
-> Rasimu: [Uhamisho na kuchoma ya Zcash Shielded Mali](https://github.com/zcash/zips/blob/main/zip-0226)
+> Mchoro: [Uwazi Zcash Extensions](https://zips.z.cash/zip-0222)
 
-> Mchoro: [Utoaji wa Zcash Shielded Mali](https://github.com/zcash/zips/blob/main/zip-0227)
+> Mchoro: [Uhamisho na Kuungua kwa Mali ya Zcash Shielded](https://zips.z.cash/zip-0226)
 
-> Rasimu: [Toleo la 6 Muundo wa Manunuzi](https://github.com/zcash/zips/blob/main/zip-0230)
+> Mchoro: [Utoaji wa Zcash Shielded Mali](https://zips.z.cash/zip-0227)
 
-> Rasimu: [Transaction Identifier Digests & Signature Validation for Transparent Zcash Extensions](https://github.com/zcash/zips/blob/main/zip-0245)
+> Imeondolewa: [Toleo 6 la Uondoaji wa Mpangilio wa Shughuli za Biashara](https://zips.z.cash/zip-0230)  imepitwa na ZIP 229, ambayo sasa inafafanua toleo la shughuli 6. Tazama orodha ya NU6.3 hapa chini.
 
-> Rasimu: [Standardized Memo Field Format](https://github.com/zcash/zips/blob/main/zip-0302)
+> Mchoro: [Transaction Identifier Digests & Signature Validation for Transparent Zcash Extensions (Uongezeo wa Ufafanuzi wa Mkataba na Uthibitisho wa Saini)](https://zips.z.cash/zip-0245)
 
-> Rasimu: [Sapling Anwani Saini](https://github.com/zcash/zips/blob/main/zip-0304)
+> Mchoro: [Kiwango cha Memo Field Format](https://zips.z.cash/zip-0302)
 
-> Rasimu: [Light Client Protocol kwa ajili ya malipo ya kugundua](https://github.com/zcash/zips/blob/main/zip-0307.)
+> Mchoro: [Sapling Anwani Signatures](https://zips.z.cash/zip-0304)
 
-> Rasimu: [Siri za Usalama wa Sapling Viewing Keys](https://github.com/zcash/zips/blob/main/zip-0310)
+> Mchoro: [Mwanga Client Itifaki kwa ajili ya malipo Kugundua](https://zips.z.cash/zip-0307)
 
-> Rasimu: [Kufafanua Aina ya Anwani ambayo fedha zinaweza kutumwa tu kutoka kwa Anwani za Uwazi](https://github.com/zcash/zips/blob/main/zip-0320)
+> Mchoro: [Sifa za Usalama wa Sapling Viewing funguo](https://zips.z.cash/zip-0310)
 
-> Rasimu: [Fomati ya Wallet.dat](https://github.com/zcash/zips/blob/main/zip-0400)
+> Kazi: [Kufafanua Aina ya Anwani ambayo fedha zinaweza tu kutumwa kutoka kwa anwani za Uwazi](https://zips.z.cash/zip-0320)
 
+> Mchoro: [Mkoba.dat format](https://zips.z.cash/zip-0400)
+
+## NU6.3 (Ironwood) ZIPs
+
+NU6.3 is described in ZIP 258, together with the additional ZIPs listed here. The full candidate set is published on the [Kiashiria cha ZIP](https://zips.z.cash/#nu6-3-candidate-zips).
+
+> Mchoro: [Utekelezaji wa NU6.3 Network Upgrade](https://zips.z.cash/zip-0258)
+
+> Mchoro: [Toleo 6 Transaction Format](https://zips.z.cash/zip-0229)
+
+> Mchoro: [Orchard to Ironwood Migration](https://zips.z.cash/zip-0318)
+
+> Mchoro: [NU6.3 Matokeo kwa Wallets](https://zips.z.cash/zip-0326)
+
+> Ilipendekezwa: [Ironwood Quantum Recoverability (Uwezo wa Kupatikana tena kwa Nguvu za Kiasi)](https://zips.z.cash/zip-2005)
+
+> Imehifadhiwa: [Kuzuia Uhamisho katika Bonde la Orchard](https://zips.z.cash/zip-2006)
+
+ZIP tatu za awali pia zinasasishwa kwa NU6.3: [ZIP 209 - Ujumbe wa posta.](https://zips.z.cash/zip-0209), [ZIP 213 (Kifungo cha posta)](https://zips.z.cash/zip-0213) na [ZIP 317 - Ujumbe wa posta.](https://zips.z.cash/zip-0317).
