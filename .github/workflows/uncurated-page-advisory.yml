@@ -1,0 +1,158 @@
+name: Uncurated page advisory
+
+# Advisory ONLY. Comments on a PR that adds English pages which are not in the
+# translation curated set, so the translation backlog it creates is visible while
+# someone is still looking at the PR — instead of surfacing weeks later on the
+# dashboard, or not at all.
+#
+# This deliberately does NOT fail the PR, and there is deliberately no rule that
+# every new page must be curated. Curation is an editorial commitment (ZecHub
+# then maintains that page in 18 languages, indefinitely) and it is not the
+# contributor's call. A blocking check would also be worse than useless: faced
+# with a red gate, the fix that makes CI pass is to add the line, which creates
+# 18 items of real work with nobody having decided the page deserves them. That
+# is how a backlog grows silently, which is the exact problem this is meant to
+# expose. `curated ⊆ site` is the invariant; `site ⊆ curated` is not, by design
+# (see translation/check-invariants.mjs).
+#
+# SECURITY — why pull_request_target, and why it is safe here:
+# Most PRs to this repo come from forks, and a plain `pull_request` trigger gets
+# a read-only token for those, so it cannot comment. pull_request_target runs
+# with the base repo's token, which is only safe if PR code never executes. This
+# workflow therefore:
+#   * checks out nothing from the PR (no `ref:` override, no PR checkout at all),
+#   * runs no build, no install, no script from the PR,
+#   * reads the PR only as DATA through the API — the file list, and the text of
+#     translation/curated-pages.txt at the head sha.
+# Do not add a checkout of the PR head or any step that runs PR-authored code.
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+    branches: [main]
+    paths:
+      - "site/**/*.md"
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: uncurated-advisory-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  advise:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const marker = '<!-- uncurated-page-advisory -->';
+            const pr = context.payload.pull_request;
+            const { owner, repo } = context.repo;
+
+            // 1. Which English pages does this PR ADD? Renames and edits do not
+            //    create translation debt; only new pages do.
+            const files = await github.paginate(github.rest.pulls.listFiles, {
+              owner, repo, pull_number: pr.number, per_page: 100,
+            });
+            // 'renamed' and 'copied' introduce a page at a NEW path just as much as
+            // 'added' does — a PR moving drafts/X.md to site/X.md creates exactly the
+            // same translation debt, and GitHub reports it as renamed, not added.
+            // Missing those meant the advisory stayed silent for the move case.
+            const added = files
+              .filter((f) => ['added', 'renamed', 'copied'].includes(f.status))
+              .map((f) => f.filename)
+              .filter((f) => f.startsWith('site/') && f.endsWith('.md'))
+              // zechubglobal/** is hand-maintained per-language content, not part
+              // of the curated English corpus — the detector excludes it too.
+              .filter((f) => !f.startsWith('site/zechubglobal/'))
+              .map((f) => f.slice('site/'.length));
+
+            // NOTE: no early return here. A later push can drop the added pages while
+            // still touching site/**, and returning at this point left the earlier
+            // warning standing on a PR that no longer adds anything. Fall through so
+            // the withdraw-the-warning branch below runs.
+            if (added.length === 0) core.info('no newly added English pages');
+
+            // 2. Read the curated list AT THE PR HEAD, not at base: if the PR
+            //    already curates the pages it adds, there is nothing to say. This
+            //    is a data read, not code execution.
+            let curated = new Set();
+            if (added.length) try {
+              const res = await github.rest.repos.getContent({
+                owner: pr.head.repo.owner.login,
+                repo: pr.head.repo.name,
+                path: 'translation/curated-pages.txt',
+                ref: pr.head.sha,
+              });
+              const text = Buffer.from(res.data.content, 'base64').toString('utf8');
+              curated = new Set(text.split('\n').map((l) => l.trim()).filter(Boolean));
+            } catch (e) {
+              // Fall back to the base copy. Worst case we advise about a page the
+              // PR already curated, which is noise — never a failure.
+              core.info(`could not read curated-pages.txt at head (${e.status || e.message}); using base`);
+              const res = await github.rest.repos.getContent({
+                owner, repo, path: 'translation/curated-pages.txt', ref: pr.base.sha,
+              });
+              const text = Buffer.from(res.data.content, 'base64').toString('utf8');
+              curated = new Set(text.split('\n').map((l) => l.trim()).filter(Boolean));
+            }
+
+            const uncurated = added.filter((p) => !curated.has(p)).sort();
+
+            // 3. Upsert one comment, so a synchronize event edits rather than piles on.
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner, repo, issue_number: pr.number, per_page: 100,
+            });
+            // Match on the marker AND on authorship. Marker-only matching let anyone
+            // pre-post a comment containing the marker and have this job try to edit
+            // it — at best the job fails instead of advising, at worst it rewrites
+            // someone else's comment.
+            const existing = comments.find((c) =>
+              c.body && c.body.includes(marker) &&
+              c.user && c.user.type === 'Bot' && c.user.login.startsWith('github-actions'));
+
+            if (uncurated.length === 0) {
+              // Everything added here is curated. If we advised earlier in this
+              // PR's life, say so rather than leaving a stale warning standing.
+              if (existing) {
+                await github.rest.issues.updateComment({
+                  owner, repo, comment_id: existing.id,
+                  body: `${marker}\n✅ All English pages added by this PR are in \`translation/curated-pages.txt\`. Nothing outstanding for translation.`,
+                });
+              }
+              core.info('all added pages are curated');
+              return;
+            }
+
+            // Backticks in a filename would close the code span and let the rest render
+            // as markdown (an @mention in a path would ping people). Strip them; these
+            // are attacker-controlled strings rendered into a comment.
+            const safe = (t) => String(t).replace(/`/g, '');
+            const list = uncurated.map((p) => `- \`${safe(p)}\``).join('\n');
+            const body = [
+              marker,
+              '### 🌐 Translation: no action required from you',
+              '',
+              `This PR adds ${uncurated.length} English page(s) that are **not** in the translation curated set:`,
+              '',
+              list,
+              '',
+              'That is a perfectly valid state — the wiki serves English for uncurated pages, and not every page is meant to exist in 18 languages. **This comment does not block merging and nothing is wrong with your PR.**',
+              '',
+              '<details><summary>For maintainers: how to translate these</summary>',
+              '',
+              'Add the path(s) to `translation/curated-pages.txt`. Each page then appears as `missing` × 18 locales on the [staleness dashboard](../issues/1889), and the next translation sync fills it.',
+              '',
+              'Curating is a lasting commitment — ZecHub maintains that page in every locale from then on — so it is a deliberate editorial choice, which is why it is not automated and not enforced.',
+              '</details>',
+            ].join('\n');
+
+            if (existing) {
+              await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body });
+            } else {
+              await github.rest.issues.createComment({ owner, repo, issue_number: pr.number, body });
+            }
+            core.info(`advised on ${uncurated.length} uncurated page(s)`);
