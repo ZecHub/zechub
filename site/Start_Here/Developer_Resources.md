@@ -19,6 +19,8 @@ Broad Overview of how Blockchains & Zcash works:
 
 [The Zebrad Book](https://zebra.zfnd.org/)
 
+[OpenChainBench Zcash RPC benchmark](https://openchainbench.com/benchmarks/zcash-rpc)
+
 [Light Client Protocol](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html)
 
 [Android Mobile SDK](https://github.com/zcash/zcash-android-wallet-sdk) / [iOS Mobile SDK](https://github.com/zcash/ZcashLightClientKit)
