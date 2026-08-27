@@ -22,7 +22,7 @@ Here are some of the active ones:
 | Sqribbles                  | Creative and community-driven Zcash content              | [Visit ->](https://free2z.cash/sqribbles) |
 | Str4d                      | Technical writings from Zcash core developer             | [Visit ->](https://words.str4d.xyz/) |
 | CipherScan Weekly          | Weekly blog posts covering Zcash blockchain analytics    | [Visit ->](https://cipherscan.app/) |
-| Zcash Shielded News        | Weekly privacy and ecosystem news digest                 | [Visit ->](https://zechub.wiki) |
+| Zcash Shielded News        | Weekly privacy and ecosystem news digest                 | [Visit ->](https://zechub.substack.com/) |
 | ZecHub DAO Blog            | Articles and educational content from the ZecHub DAO community | [Visit ->](https://zechub.wiki) |
 
 ---
