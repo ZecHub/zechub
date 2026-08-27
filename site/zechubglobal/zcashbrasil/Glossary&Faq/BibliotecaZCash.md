@@ -61,7 +61,7 @@ ___
 
 | | |
 |--------------|-----------|
-| **DeFi**: | Projetos integrando ZEC com DeFi: [RenBridge](https://bridge.renproject.io/mint) / [ZeroDAO](https://bridge.zerodao.com/#/transfer/ETH) |
+| **DeFi**: | Projetos integrando ZEC com DeFi: [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Near Intents](https://near-intents.org/) / [ZeroDAO](https://bridge.zerodao.com/#/transfer/ETH) |
 | **Desblindagem**: | Refere-se a uma transação sendo enviada de um zaddr (endereço blindado) para um taddr (endereço transparente). A origem da transação não é visível, no entanto, os fundos entram em um pool de valor visível publicamente. [Anatomia da transação](https://electriccoin.co/blog/anatomy-of-zcash/) |
 | **Developer Resources**: | [Recursos do desenvolvedor](https://www.zcashcommunity.com/developers/) |
 | **Documentação**: | [Documentos oficiais](https://zcash.readthedocs.io/en/latest/)|

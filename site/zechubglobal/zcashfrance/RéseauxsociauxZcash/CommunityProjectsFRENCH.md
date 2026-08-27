@@ -82,9 +82,9 @@ DCRDEX est un échange décentralisé construit par le projet Decred. Client de 
 SideShift.ai est un échange de crypto-monnaie sans inscription prenant en charge plus de cinquante pièces et jetons sur plusieurs chaînes de blocs. Les utilisateurs apprécient notre concentration sur la confidentialité, la facilité d'utilisation et la minimisation des risques de tiers, qui sont tous difficiles à trouver sur les échanges cryptographiques traditionnels.
 
 
-[RenBridge](https://bridge.renproject.io/welcome)
+RenBridge (service fermé)
 
-À l'aide de RenVM, un traducteur universel, il convertit les actifs numériques au format requis par sa chaîne de destination. Par exemple, RenVM prend ZEC, le conserve, puis le convertit en ERC-20 avec un rapport 1:1 pour garantir que votre renZEC est toujours soutenu par la même quantité de ZEC.
+Ren Protocol a été arrêté et RenBridge n'est plus disponible.
 
 
 [ZeroBridge](https://bridge.zerodao.com/#/transfer/ETH)

@@ -82,9 +82,9 @@ DCRDEX is een gedecentraliseerde centrale gebouwd door het Decred Project. Allee
 SideShift.ai is een cryptocurrency-uitwisseling zonder aanmelding die meer dan vijftig munten en tokens ondersteunt in meerdere blockchains. Gebruikers waarderen onze focus op privacy, gebruiksgemak en het minimaliseren van risico's van derden, die allemaal moeilijk te vinden zijn op traditionele crypto-uitwisselingen.
 
 
-[RenBridge](https://bridge.renproject.io/welcome)
+RenBridge (dienst gesloten)
 
-Met behulp van RenVM, een universele vertaler, converteert het digitale activa naar het formaat dat nodig is voor de bestemmingsketen. RenVM neemt bijvoorbeeld ZEC, houdt het vast en converteert het vervolgens naar een ERC-20 met een verhouding van 1:1 om ervoor te zorgen dat uw renZEC altijd wordt ondersteund door dezelfde hoeveelheid ZEC.
+Ren Protocol is stopgezet en RenBridge is niet meer beschikbaar.
 
 
 [ZeroBridge](https://bridge.zerodao.com/#/transfer/ETH)

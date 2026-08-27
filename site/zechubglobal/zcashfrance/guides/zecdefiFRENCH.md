@@ -7,9 +7,9 @@
 
 ** Si vous détenez renZEC, vous devez immédiatement relier l'actif à la ZEC native sur la blockchain Zcash. **
 
-**Veuillez comprendre que les étapes des sections RenBridge et ZeroBridge de ce guide ne doivent pas être suivies tant que le réseau Ren 2.0 n'est pas en ligne et que le support Zcash n'est pas activé. Veuillez consulter ce [thread](https://forum.zcashcommunity.com/t/ren-1-0-being-sunset-bridge-renzec-to-native-zec-as-soon-as-possible/43393) pour plus de détails.**
+**Ren 2.0 n'a jamais été lancé et le service RenBridge a fermé : les étapes correspondantes ont été retirées de ce guide. Veuillez consulter ce [thread](https://forum.zcashcommunity.com/t/ren-1-0-being-sunset-bridge-renzec-to-native-zec-as-soon-as-possible/43393) pour plus de détails.**
 
-Les utilisateurs de Zcash sont capables de tirer parti des contrats intelligents Ethereum et des applications DeFi plus larges tout en préservant leur vie privée via [@renprotocol](https://twitter.com/renprotocol) en utilisant ce processus en 4 étapes :
+Les utilisateurs de Zcash sont capables de tirer parti des contrats intelligents Ethereum et des applications DeFi plus larges tout en préservant leur vie privée, en utilisant ce processus en 4 étapes :
 
 
 ### Étape 1 : Acquérir une ZEC blindée
@@ -42,25 +42,20 @@ Maintenant que vous avez reçu l'ETH, vous êtes capable d'interagir avec la mul
 
 ___
 
-### Étape 4 : Reconvertir ETH en ZEC à l'aide de RenBridge
+### Étape 4 : Reconvertir ETH en ZEC
 
-Une fois que vous êtes prêt à encaisser, convertissez votre ETH en renZEC en utilisant :
+RenBridge a fermé : Ren Protocol a été arrêté et le domaine du service ne résout plus.
 
-   [Uniswap](https://app.uniswap.org/#/swap?chain=mainnet)
- 
-   [SushiSwap](https://app.sushi.com/swap)
+Une fois que vous êtes prêt à encaisser, reconvertissez votre ETH en ZEC en utilisant :
 
+- [NEAR Intents](https://app.near-intents.org)
 
-Rendez-vous maintenant sur [RenBridge](https://bridge.renproject.io/mint)
-
--Sélectionnez "Libérer"
-
--Collez votre adresse de destination et reconvertissez votre renZEC en ZEC transparente (seule adresse T actuellement disponible).
+- [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/)
 
 Dans votre portefeuille non dépositaire, convertissez automatiquement votre ZEC transparent en ZEC blindé.
 
 
-### Toutes nos félicitations!! vous avez utilisé avec succès votre Zcash pour intégrer et utiliser des applications DeFi de manière à préserver la confidentialité avec renZEC.
+### Toutes nos félicitations!! vous avez utilisé avec succès votre Zcash pour intégrer et utiliser des applications DeFi de manière à préserver la confidentialité.
 
 ___
 ___
