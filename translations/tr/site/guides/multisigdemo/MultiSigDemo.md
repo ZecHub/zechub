@@ -1,5 +1,15 @@
 # MultiSig Demosu
 
+> **Tarihsel kayıt. Bu rehber artık çalışmıyor.**
+>
+> Aşağıdaki tüm adımlar, 18 Temmuz 2026'da otomatik destek sonu durmasına ulaşan zcashd'ye bağlıdır. Bu sayfayla birlikte gelen yedi betik onu `zcash-cli` üzerinden çalıştırır; bu nedenle hiçbiri bugün çalışan bir düğüme erişemez.
+>
+> Bu betikler mekanik olarak taşınamaz: zcashd'nin kullanımdan kaldırdığı ham işlem ve cüzdan RPC'lerine dayanırlar ve Zallet bunların yerine, ham işlem hex'i yerine PCZT üzerinde çalışan yeni yöntemler getirir.
+>
+> Zcash'te çok taraflı saklama için bugün [FROST ve eşik saklama](/zcash-tech/frost-threshold-custody) sayfasına ve çalışan [Ywallet FROST demosuna](/guides/frostdemo/ywallet-frost-demo) bakın. Mevcut bir düğümü zcashd'den taşımak için [Zebra ve Zallet'e geçiş rehberine](/guides/migration-guide-zcashd-to-zebrad-zallet) bakın.
+>
+> Bu sayfa, şeffaf multisig iş akışının tarihsel kaydı olarak saklanmaktadır.
+
 Bu demo `zcashd` gerektirir
 
 ## Gerekli kişilerden açık anahtarları toplayın

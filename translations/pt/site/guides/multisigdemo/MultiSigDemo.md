@@ -1,5 +1,15 @@
 # Demonstração de MultiSig
 
+> **Histórico. Este tutorial não funciona mais.**
+>
+> Todas as etapas abaixo dependem do zcashd, que atingiu sua parada automática de fim de suporte em 18 de julho de 2026. Os sete scripts distribuídos junto com esta página o controlam através do `zcash-cli`, portanto nenhum deles consegue alcançar um nó em execução hoje.
+>
+> Esses scripts não podem ser portados mecanicamente: baseiam-se em RPCs de transação bruta e de carteira que o zcashd tornou obsoletas, e o Zallet as substitui por novos métodos que operam sobre PCZTs em vez de hex de transação bruta.
+>
+> Para custódia multipartes no Zcash hoje, veja [FROST e custódia por limiar](/zcash-tech/frost-threshold-custody) e a [demonstração FROST com Ywallet](/guides/frostdemo/ywallet-frost-demo). Para migrar um nó existente do zcashd, veja o [guia de migração para Zebra e Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
+>
+> Esta página é mantida como registro histórico do fluxo de multisig transparente.
+
 Esta demonstração requer `zcashd` 
 
 ## Reunir chaves públicas dos indivíduos necessários

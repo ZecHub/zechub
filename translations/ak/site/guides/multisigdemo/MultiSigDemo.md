@@ -1,5 +1,15 @@
 # MultiSig Demo a Wɔde Kyerɛkyerɛ
 
+> **Abakɔsɛm kyerɛwtohɔ. Saa akwankyerɛ yi nyɛ adwuma bio.**
+>
+> Anammɔn a ɛwɔ ase ha nyinaa gyina zcashd so, na zcashd gyinaa hɔ ankasa wɔ July 18, 2026, bere a ne mmoa baa awiei. Nkyerɛwee ason a ɛka saa krataafa yi ho no de `zcash-cli` na ɛdi dwuma, enti wɔn mu biara ntumi nnu node a ɛreyɛ adwuma so nnɛ.
+>
+> Wontumi mfa saa nkyerɛwee yi nkɔ baabi foforo tẽẽ: egyina RPC a ɛfa raw transaction ne sika kotokuo ho a zcashd agyae so, na Zallet de akwan foforo a ɛde PCZT di dwuma sen raw transaction hex asi wɔn ananmu.
+>
+> Sɛ wopɛ nnipa pii nsiakyi wɔ Zcash so nnɛ a, hwɛ [FROST ne threshold nsiakyi](/zcash-tech/frost-threshold-custody) ne [Ywallet FROST demo](/guides/frostdemo/ywallet-frost-demo). Sɛ wopɛ sɛ wotu node a ɛwɔ hɔ dedaw fi zcashd so a, hwɛ [Zebra ne Zallet akwankyerɛ](/guides/migration-guide-zcashd-to-zebrad-zallet).
+>
+> Yɛde saa krataafa yi asie sɛ abakɔsɛm kyerɛwtohɔ a ɛfa transparent multisig adwuma nhyehyɛe ho.
+
 Saa demo yi hwehwɛ sɛ wɔde zcashd 
 
 ## Boaboa ɔmanfo nsafe ano fi ankorankoro a wohia hɔ

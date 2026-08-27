@@ -1,6 +1,16 @@
 # MultiSig Demo
 
-This demo requires zcashd 
+> **Historical. This walkthrough no longer runs.**
+>
+> Every step below depends on zcashd, which reached its automatic End-of-Support halt on 18 July 2026. The seven scripts shipped alongside this page drive it through `zcash-cli`, so none of them can reach a running node today.
+>
+> These scripts cannot be ported mechanically. They are built on the raw-transaction and wallet RPCs (`createrawtransaction`, `signrawtransaction`, `createmultisig`, `dumpprivkey`) that zcashd deprecated before the halt; Zallet replaces those with new methods that operate on PCZTs rather than raw transaction hex, and is still in beta with many zcashd methods not yet ported.
+>
+> For multi-party custody on Zcash today, see [FROST & Threshold Custody](/zcash-tech/frost-threshold-custody), which includes a direct comparison with transparent multisig, and the working [Ywallet FROST demo](/guides/frostdemo/ywallet-frost-demo). To move an existing node off zcashd, see the [migration guide to Zebra and Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
+>
+> This page is kept as a historical record of the transparent multisig workflow.
+
+This demo requires zcashd, which halted on 18 July 2026 and no longer runs. Nothing below can be completed against the live chain.
 
 ## Gather public keys from needed individuals
 
@@ -79,6 +89,8 @@ To sign this tx, at least 2 out of the three private keys need to sign it. If th
 
 
 `zcash-cli dumpprivkey "t-addr"`
+
+This command halted with zcashd and returns nothing today; it is recorded here only to show how the demo obtained its keys.
 
 
 For this demo, I have used iancoleman's bip39 to quickly isolate the needed private keys.
