@@ -23,7 +23,7 @@ The equivalent amount in $ZEC will be provided, along with a transparent address
 ![Step 4 - ZEC payment details](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
 
 ### 5. Send the payment
-Copy and paste the amount and address carefully. In the memo field, add your YWallet address in case there will be a refund.
+Copy and paste the amount and address carefully. In the memo field, add your own shielded address in case there will be a refund.
 
 ![Step 5 - Sending ZEC](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
 
