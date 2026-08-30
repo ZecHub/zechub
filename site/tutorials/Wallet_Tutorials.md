@@ -20,6 +20,8 @@ ____
 
 ____ 
 
+> The three Ywallet videos below are kept for reference. Ywallet is no longer maintained and will not be updated for Ironwood, so it can no longer follow the chain. Pick a maintained wallet from the [Wallets](https://zechub.wiki/wallets) page.
+
 - Ywallet Cold Storage
 
 [![Video Thumbnail](/content-images/hqdefault-2811fac3b5.webp)](https://www.youtube.com/watch?v=hJaAccp-77k)

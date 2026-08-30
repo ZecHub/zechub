@@ -40,6 +40,8 @@ Aside from this step-skipping technique, YWallet can process multiple blocks sim
 
 Read More on [Warp Sync](https://ywallet.app/warp/)
 
+> Warp sync is described here as a syncing technique. Ywallet itself is no longer maintained and will not be updated for Ironwood, so it is not a wallet to install today.
+
 ### Spend-before-sync
 
 Spend-before-sync is a new feature in the Zcash Mobile Wallet SDK V2 that allows users to instantly spend funds upon opening their wallet, without waiting for full wallet synchronization. This feature speeds up the discovery of the wallet's spendable balance and improves the user experience.

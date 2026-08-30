@@ -6,7 +6,7 @@
 >
 > These scripts cannot be ported mechanically. They are built on the raw-transaction and wallet RPCs (`createrawtransaction`, `signrawtransaction`, `createmultisig`, `dumpprivkey`) that zcashd deprecated before the halt; Zallet replaces those with new methods that operate on PCZTs rather than raw transaction hex, and is still in beta with many zcashd methods not yet ported.
 >
-> For multi-party custody on Zcash today, see [FROST & Threshold Custody](/zcash-tech/frost-threshold-custody), which includes a direct comparison with transparent multisig, and the working [Ywallet FROST demo](/guides/frostdemo/ywallet-frost-demo). To move an existing node off zcashd, see the [migration guide to Zebra and Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
+> For multi-party custody on Zcash today, see [FROST & Threshold Custody](/zcash-tech/frost-threshold-custody), which includes a direct comparison with transparent multisig, and the [Ywallet FROST demo](/guides/frostdemo/ywallet-frost-demo). To move an existing node off zcashd, see the [migration guide to Zebra and Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
 >
 > This page is kept as a historical record of the transparent multisig workflow.
 
