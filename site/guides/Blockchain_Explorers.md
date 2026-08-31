@@ -74,7 +74,7 @@ Here are four good examples of different blockchain explorers:
 
 * [Mempool.space](https://mempool.space)
 * [Ethscan](https://etherscan.io/)
-* [Zcash Block Explorer](https://mainnet.zcashexplorer.com)
+* [Zcash Block Explorer](https://mainnet.zcashexplorer.app)
 * [Mintscan](https://hub.mintscan.io/chains/ibc-network)
 
 
