@@ -1,26 +1,26 @@
 # Migration Guide: From zcashd to Zebrad/Zallet
 
-The Zcash ecosystem is evolving. The traditional Zcashd full node, maintained by *Electric Coin Company (ECC)* / *Zodl*, is gradually being replaced by Zebra and Zallet.
+The traditional zcashd full node, maintained by *Electric Coin Company (ECC)* / *Zodl*, has been replaced by Zebra and Zallet. zcashd reached its end-of-support halt on 18 July 2026 and no longer runs.
 
 - Zebra is a modern Rust implementation of the Zcash protocol developed by the Zcash Foundation
 - Zallet is a lightweight wallet built to interface seamlessly with Zebra nodes developed by Zodl
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ChatGPTImageOct12202508_15_20A](/content-images/SJNBsSYTel-dfd19f34e4.webp)
+![Diagram: zcashd splitting into zebrad for node duties and Zallet for wallet duties](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
 This guide walks you through the migration from **Zcashd** to **Zebrad** and **Zallet**, including setup, wallet import, and troubleshooting common migration issues.
 
 ---
 
-## Zcash project has formally announced that zcashd will be deprecated in 2025.
+## zcashd stopped running on 18 July 2026
 
-**Deprecation Status & What It Means**
+**What this means**
 
-- The Zcash project has formally announced that zcashd will be deprecated in 2025.
-- Full nodes are being migrated to Zebrad, a Rust implementation, while Zallet is intended to succeed the wallet component of zcashd. 
-- In response, the Zebra project tracks a "Zcashd Deprecation" milestone to ensure compatibility, RPC migration, and ecosystem support.
-- For many RPC methods, Zebrad/Zallet will aim to be drop-in replacements (emulating or matching behavior). Others will change or may not be supported.
+- zcashd reached its end-of-support halt on 18 July 2026. It will not sync to the chain tip again, and it cannot send or receive funds. This is finished, not planned.
+- zcashd's two jobs are now split: **zebrad** is the full node, and **Zallet** is the wallet.
+- Zallet is in **beta**. Breaking changes can occur between releases, and some zcashd JSON-RPC methods are not implemented yet. Check the [method status matrix](https://zcash.github.io/zallet/) before you depend on a specific call.
+- If you still hold **Sprout** funds, read the warning in step 6 first. Zallet does not support the Sprout pool, and the usual way to move those funds required a running zcashd.
 
 **Why Migrate - Beyond Deprecation**
 
@@ -44,11 +44,11 @@ Even leaving deprecation aside, there are compelling reasons to move:
 * Export a copy of any RPC scripts or automation you use.
 * Verify that your backups are valid (e.g. in another environment, try to open or inspect them).
 * Review which JSON-RPC methods you're currently relying on.
-* Compare against the planned compatibility table maintained on the [Zcash support site](https://z.cash/support/zcashd-deprecation/?utm_source=chatgpt.com) 
+* Compare against the planned compatibility table maintained on the [Zcash support site](https://z.cash/support/zcashd-deprecation/) 
 * Prepare for changes or missing methods (some might need workaround or adaptation).
 
 **2. System Requirements & Disk Space**
-* Ensure you have sufficient disk space (Zcash chain is large). At least 10 GB of free disk space.
+* Disk space is the requirement people underestimate. The Zcash chain passed **270 GB** in August 2026, so allow at least **300 GB** of free space, on an SSD if you can.
 * Ensure your machine has stable network, CPU, RAM.
 * An internet connection 
 * If you plan to compile from source, have Rust & Cargo installed.
@@ -57,7 +57,7 @@ Even leaving deprecation aside, there are compelling reasons to move:
 You can either download a prebuilt binary or build from source.
 * The Zcash Foundation publishes releases and binaries for Zebra. E.g. you might use an install script or download the appropriate binary for your OS.
 
-* Note that in recent Zebra versions, [the RPC endpoint is no longer enabled by default in Docker.](https://zfnd.org/zebra-2-3-0-release/?utm_source=chatgpt.com)
+* Note that in recent Zebra versions, [the RPC endpoint is no longer enabled by default in Docker.](https://zfnd.org/zebra-2-3-0-release/)
 
 **Option A: Install via prebuilt binary**  
 On **Linux**/**macOS**:
@@ -112,23 +112,41 @@ Check the Zallet GitHub / release page for binaries.
 * Launch the GUI or CLI (as your installation provides).
 * Configure it to connect to your local Zebrad node via RPC or API endpoint.
 
-**6. Importing Your zcashd Wallet into Zallet**  
-Via Private Key Dump
+**6. Importing Your zcashd Wallet into Zallet**
 
-On zcashd, export your private keys:
+You do not need a running zcashd for this. Zallet reads the `wallet.dat` file directly, which matters because zcashd can no longer be started.
 
-<div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![bash (4)](/content-images/rJzgzwFagx-4a0874f250.svg)
-</div>
+> **Keep `wallet.dat`.** The migration reports anything it cannot represent in a Zallet wallet instead of importing it, and that key material then exists only in `wallet.dat`. Do not delete it after migrating.
 
-* In Zallet, choose Import Keys or similar option.
-* Point it to **zcashd_keys.txt**. 
-* Zallet should parse and import ZEC addresses and associated keys.
+Run `zallet init-wallet-encryption` first. Zallet encrypts key material to an age identity, and that identity has to exist before any keys are imported.
 
-**Via Seed Phrase** (if applicable)
+Then convert your config and your wallet:
 
-* If your wallet supports a seed backup, use Restore from Seed Phrase in Zallet.
-* This only works if your zcashd wallet was derived from a seed (or you have seed conversion).
+```bash
+# translate zcash.conf into zallet.toml
+zallet migrate-zcash-conf --zcashd-datadir /path/to/zcashd/datadir -o /path/to/zallet/datadir/zallet.toml
+
+# import wallet.dat into Zallet's wallet.db
+zallet migrate-zcashd-wallet --zcashd-datadir /path/to/zcashd/datadir
+```
+
+`migrate-zcashd-wallet` is only present in builds with the `zcashd-import` feature, and reading `wallet.dat` needs the `db_dump` utility from Berkeley DB 6.2, the version zcashd used. If you have more than one wallet file, run the command once per file and add `--allow-multiple-wallet-imports` on the later runs; each becomes its own set of accounts. Your `rpcuser` and `rpcpassword` are not carried over, because Zallet's JSON-RPC uses cookie authentication by default; add credentials with `zallet add-rpc-user` if you need them.
+
+**What comes across**
+
+* Mnemonic seeds and the keys derived from them, with accounts rebuilt to match the zcashd wallet
+* Standalone imported Sapling spending keys and transparent keys
+* Transparent watch-only entries that include their public key or redeem script
+* Account birthdays, so chain scanning starts at the right height
+
+**What does not come across.** These are reported with counts rather than imported:
+
+* **Sprout spending keys and funds.** Zallet does not support the Sprout pool. The documented route was to move Sprout funds out using zcashd before retiring it, and that is no longer possible. If this affects you, ask on the [Zcash R&D Discord](https://discord.gg/xpzPR53xtU) or the [community forum](https://forum.zcashcommunity.com/) before doing anything else.
+* Address book entries
+* Watch-only entries stored without a public key or redeem script, and entries with uncompressed public keys
+* Regtest wallets
+
+**Backing up afterwards.** A mnemonic on its own is not a complete backup, because imported keys exist only in the wallet database. Keep secure copies of `wallet.db`, the age encryption identity file named by the `keystore.encryption_identity` option, and your mnemonic phrase, and keep the original `wallet.dat`. Note that `wallet.db` is not itself encrypted: it holds your transaction history and viewing keys in the clear, so store the backup somewhere safe.
 
 **Wallet Rescan & Synchronization**
 
@@ -199,4 +217,4 @@ Migrating from zcashd to Zebrad and Zallet gives you a faster, safer, and more m
 With Rust-based security, modular design, and better tooling, this setup ensures your node and wallet remain future-ready as the Zcash ecosystem continues to evolve.
 
 Tip: Keep your wallet keys offline and regularly back up your Zallet data.
-Visit [zebra.zfnd.org](https://zebra.zfnd.org) and [zallet.zfnd.org](https://zallet.zfnd.org) for updates and community support.
+Visit [zebra.zfnd.org](https://zebra.zfnd.org) for Zebra, and [The Zallet Book](https://zcash.github.io/zallet/) or the [Zallet repository](https://github.com/zcash/zallet) for Zallet. The [Migrating from zcashd](https://zcash.github.io/zallet/) chapter of The Zallet Book is the authoritative reference for step 6.
