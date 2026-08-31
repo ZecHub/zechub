@@ -46,11 +46,10 @@ MetaMask now supports **shielded Zcash (ZEC)** via the **ChainSafe-developed Zca
 
 ---
 
-## **2. (Optional) Add Zcash Network**
+## **2. (Optional) Add BNB Smart Chain**
 
-In MetaMask, choose **Add Network** and enter:
+MetaMask's **Add Network** dialog only accepts EVM chains, so it cannot be used to add Zcash. Zcash support comes from the Snap you installed in step 1. If you want BNB Smart Chain available for swapping into ZEC, add it here:
 
-For **BNB SmartChain**;
 ```markdown
 -  Name: BNB Smart Chain
 -  RPC URL: https://bsc-dataseed.binance.org
@@ -61,18 +60,18 @@ For **BNB SmartChain**;
 This enables network info and explorer links.
 ![Add-a-custom-Net....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
 
-For **Zcash Mainnet**;
-```markdown
-- Name: Zcash Mainnet  
-- RPC URL: https://mainnet.lightwalletd.com:9067 
-- Symbol: ZEC
-```
+> **There is no Zcash network to add here.** An earlier version of this page listed a "Zcash Mainnet" entry with an RPC URL of `mainnet.lightwalletd.com:9067`. That host no longer resolves, and the entry could not have worked regardless: a lightwalletd server speaks gRPC, not the EVM JSON-RPC that MetaMask's Add Network expects.
+>
+> The Snap reaches Zcash through a lightwalletd gRPC-web proxy hosted by ChainSafe at `zcash-mainnet.chainsafe.dev`, which forwards to the [zec.rocks](https://zec.rocks) lightwalletd service, run by @emersonian and funded by Zcash Community Grants. You do not configure this yourself. Per the [WebZjs documentation](https://github.com/ChainSafe/WebZjs), an unproxied endpoint such as `https://zec.rocks` will not work from a browser, so substituting one by hand will not help.
 
 ---
 
 ## **3. Connect to ChainSafe WebZjs Wallet**
 
 1. Visit [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev).  
+
+> **Note:** this host was returning HTTP 503 when this page was last checked. The Snap itself is still maintained, so if the hosted wallet is unavailable you can run the WebZjs web wallet locally from the [ChainSafe/WebZjs](https://github.com/ChainSafe/WebZjs) repository.
+
 2. Click **Connect MetaMask Snap**.  
 
 ![Zcash-web-wallet](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
@@ -157,7 +156,7 @@ For **Zcash Mainnet**;
 > Shielded proofs may take time, WebAssembly handles computation in-browser.  
 > Recovery is simple,install MetaMask and the Snap, then import your existing seed.  
 > The Snap defaults to **shielded ZEC**, transparent addresses are **not the focus**.  
-> Use [zcashblockexplorer.com](https://zcashblockexplorer.com) for transaction confirmations.
+> Use [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) for transaction confirmations.
 
 
 
