@@ -3,63 +3,105 @@
 </a>
 
 
-# Nneɛma a Wɔde Yɛ Nneɛma 
+# Nneɛma a Wɔde Yɛ Nneɛma
 
-**A list a ɛkyerɛ nneɛma a wɔkamfo kyerɛ ma developers foforo kɔ Zcash**
+Nneɛma a ɛsɛ sɛ wode si Zcash so, a wɔahyehyɛ no akuwakuw sɛnea emu biara yɛ ma sen sɛ wɔbɛbobɔ din wɔ akuwakuw biako mu.
 
-Broad Overview a ɛfa sɛnea Blockchains & Zcash yɛ adwuma ho:
+The stack changed a great deal in 2026. zcashd, a ɛhwɛɛ network no so wɔ n’abakɔsɛm fã kɛse no ara mu no, duu n’asetra awiei wɔ 18 July 2026 wɔ block height 3417100, na node biara a wɔansakra no no too mu wɔ saa sorokɔ no mu na ɛbɛpow sɛ ɛbɛsan afi ase bio. Akwankyerɛ a wɔakyerɛw ama zcashd yɛ abakɔsɛm mprempren sen sɛ ɛbɛyɛ mfiase, enti wɔahyehyɛ krataafa yi atwa nea ɛde sii ananmu no ho ahyia.
 
-[Zcash Nsɛm a Wɔakyerɛw](https://zcash.readthedocs.io/en/latest/)
+## Stack no wɔ animtiaabu mu
 
-[Bitcoin a wotumi yɛ no yiye: Programming The Open Blockchain](https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4)
+| Layer | Nea wɔde bedi dwuma | Fi ase wɔ |
+|:--|:--|:--|
+| Full node | Zebra or Zakura | [The Zebra Book](https://zebra.zfnd.org/), [zakura.com na ɛwɔ hɔ](https://zakura.com/) |
+| Full node sika kotoku | Zallet, wɔ beta mu | [Zallet Nhoma no](https://zcash.github.io/zallet/) |
+| Hann sika kotoku server | Zaino anaasɛ lightwalletd | [Zaino na ɔkyerɛwee](https://github.com/zingolabs/zaino), [lightwalletd a wɔde ahyɛ mu](https://github.com/zcash/lightwalletd) |
+| Wallet nhomakorabea ahorow | Na librustzcash nnaka no | [librustzcash a wɔde di dwuma](https://github.com/zcash/librustzcash) |
+| Mobile so | Android ne iOS SDK ahorow | [Android](https://github.com/zcash/zcash-android-wallet-sdk), [iOS](https://github.com/zcash/zcash-swift-wallet-sdk) |
+| Nsɛm a Wɔakyerɛkyerɛ mu | Protocol spec ne ZIP ahorow | [zips.z.sika a wɔde yɛ adwuma](https://zips.z.cash) |
 
-[Zcashd RPC ahorow no](https://zcash.github.io/rpc/)
+## Nodes a ɛwɔ hɔ
 
-[Zcashd Nhoma no](https://zcash.github.io/zcash/)
+Node bi di adwene a ɛwɔ hɔ no ho adanse na ɛkura nkɔnsɔnkɔnsɔn no. Nneɛma abien na ɛwɔ hɔ a wɔde nsiyɛ ayɛ.
 
-[Ɔsebɔ Nhoma no](https://zebra.zfnd.org/)
+[Zebra](/zcash-tech/zebra-full-node) yɛ Zcash Foundation node, a wɔakyerɛw wɔ Rust mu, na ɛyɛ nea akwankyerɛfo dodow no ara susuw mprempren. [The Zebra Book](https://zebra.zfnd.org/) kata sɛnea wɔde besisi hɔ na wɔde ayɛ adwuma, ne [adekorabea](https://github.com/ZcashFoundation/zebra) ne baabi a nkɔso kɔ so.
 
-[Hann Client Protocol](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html)
+[Zakura na ɔkyerɛwee](/zcash-tech/zakura-node) yɛ node foforo, a n'akyerɛwfo kaa ho asɛm sɛ "consensus-compatible Zcash full node, built for scale", a ɛwɔ sync ntɛmntɛm, block pruning ne zcashd compatibility mode. Sean Bowe, a ɔne no hyehyɛɛ Zcash, ne Dev Ojha na wodi anim. Ɛyɛ open source wɔ Apache 2.0 ase wɔ [zakura-core/zakura a ɛwɔ hɔ no](https://github.com/zakura-core/zakura).
 
-[Android Mobile SDK na ɛyɛ adwuma](https://github.com/zcash/zcash-android-wallet-sdk) / [iOS Mobile SDK a wɔde di dwuma](https://github.com/zcash/ZcashLightClientKit)
+ZecHub wɔ a [Nodes a Ɛyɛ Pɛ](/zcash-tech/full-nodes) kratafa a ɛka aguadi a ɛda wɔn ntam no ho asɛm.
 
-Nteaseɛ a wɔbɛkyekyere wɔ sɛdeɛ wɔsan hwɛ & wɔhwɛ so wɔ dependencies a akuo ahodoɔ no yɛ ho:
+## Node sika kotoku a ɛyɛ ma no
 
-[ZIP Nsɛm a Wɔahyehyɛ](https://zips.z.cash)
+zcashd boaboaa sika kotoku bi ano ne node no. Saa sika kotoku no nni hɔ bio, na [Zallet na ɔkyerɛwee](https://github.com/zcash/zallet) ne nea wɔde besi ananmu. Zallet Nhoma no ka ho asɛm sɛ "Zcash sika kotoku a ɛwɔ node mũ a wɔakyerɛw wɔ Rust mu" a "wɔasi sɛ nea wɔde besi zcashd sika kotoku ananmu".
 
-[Address a Wɔde Di Dwuma](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys)
+Kenkan ahobammɔ ho kɔkɔbɔ no ansa na wode wo ho ato so. Zallet wɔ beta mu, "wɔnhwɛɛ mu koraa", nsakraeɛ a ɛbubu "betumi aba bere biara, a ɛhia sɛ wopopa na wosan yɛ wo Zallet sika kotokuo", na ɛnyɛ zcashd RPC kwan biara na wɔde akɔ baabiara.
 
-[Zebrad Adekorabea](https://github.com/ZcashFoundation/zebra) / [Zebrad Twe Abisadeɛ](https://github.com/ZcashFoundation/zebra/pulls)
+Sɛ woretu nhyehyɛe bi a ɛwɔ hɔ dedaw no akɔ a, ZecHub wɔ a [atutra ho akwankyerɛ fi zcashd kɔ Zebra ne Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) ne a [Zallet ntɛm a wɔde kyerɛw nsɛm](/using-zcash/zallet-quick-reference-guide).
 
-[Cryptographic Signature nhomakorabea ahorow](https://github.com/orgs/ZcashFoundation/repositories?type=all)
+## Hann sika kotoku servers
 
-[Halo 2 Nhoma no](https://zcash.github.io/halo2/index.html)
+Wallet dodow no ara ntumi nkɔ node biara so. Wɔne server bi a ɛkora nkɔnsɔnkɔnsɔn no so kasa na ɛsan de ne nsa kɔ akyi sɛnea ɛbɛyɛ a wobetumi ahu no ketewaa bi.
 
-[Nnuaba turo Nhoma no](https://zcash.github.io/orchard/)
+[lightwalletd a wɔde ahyɛ mu](https://github.com/zcash/lightwalletd) yɛ mfitiaseɛ dwumadie, a wɔkyerɛwee wɔ Go mu, a wɔaka ho asɛm sɛ "akyi dwumadie a ɛma bandwidth-efficient interface ma Zcash blockchain". [Zaino na ɔkyerɛwee](/zcash-tech/zaino) yɛ indexer foforo, a wɔde Rust akyerɛw, na ɛkenkan fi validator a edi mũ mu sen sɛ ɛbɛsoa n’ankasa nkɔnsɔnkɔnsɔn no bi.
 
-[Halo2 Krataa a wɔde hyɛ mu](https://docs.rs/halo2_proofs/latest/halo2_proofs/) / [Orchard Crate](https://docs.rs/orchard/latest/orchard/)
+No [Hann Adetɔfoɔ Protocol](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html) nkrataa a wɔde kyerɛw nsɛm no kata protocol no ankasa so. No [Lightwallet Nodes a Wɔde Di Dwuma](/zcash-tech/lightwallet-nodes) krataafa no ka nea saa server ahorow yi betumi ahu ne nea wontumi nhu wɔ obi a ɔde di dwuma ho, a ɛfata sɛ wote ase ansa na woapaw biako.
 
-[Zcash R&D Nkitahodi](https://discord.gg/6AK7keWFaK)
+## Sika kotoku a wɔreyɛ
 
-[Frost Nhoma no](https://frost.zfnd.org/)
+Sika kotoku adwuma dodow no ara kɔ so wɔ Rust crates ase [librustzcash a wɔde di dwuma](https://github.com/zcash/librustzcash), a mobile SDK ahorow ne desktop sika kotoku pii si so. Wɔakyerɛw adaka biara ho nsɛm wɔ so [docs.rs](https://docs.rs).
 
-[Zechub Hackathon 2024 mu aba](https://x.com/ZecHub/status/1845212469809033489)
+| Crate | Nea ɛyɛ ma |
+|:--|:--|
+| zcash_client_akyi asɛm | "APIs a wɔde yɛ Zcash hann afɛfo a wɔabɔ wɔn ho ban", a sync ne nkitahodi adansi ka ho |
+| zcash_afɛfoɔ_sqlite | "Zcash hann afɛfoɔ a egyina SQLite so", akoraeɛ layer ma atifi hɔ |
+| zcash_nsɛmfua | "Zcash safoa ne address sohwɛ" |
+| zcash_mfitiasefoɔ | "Rust implementations a ɛwɔ Zcash primitives no mu" |
+| zcash_protocol a wɔde yɛ adwuma | "Zcash protocol ntwamutam daa ne botae ahorow" |
+| nnuaba turo | "Orchard a wɔabɔ ho ban no ayɔnkofa protocol" |
+| nnuadewa-kripto | "Cryptographic nhomakorabea ma Zcash Sapling" |
+| pczt a wɔde yɛ adwuma | "Nnwinnade a wɔde yɛ adwuma ne Zcash nkitahodi a wɔabɔ no fã bi", wɔde di dwuma ma hardware ne mfiri pii nsaano nkyerɛwee |
+| zip321 na ɛwɔ hɔ | URI ahorow a wɔde tua ho ka, sɛnea wɔakyerɛ wɔ ZIP 321 |
 
-[Zechub Hackathon 2025 mu aba](https://x.com/ZecHub/status/1975565960661635283)
+Wɔ mobile ho no, na... [Android SDK na ɛyɛ adwuma](https://github.com/zcash/zcash-android-wallet-sdk) ne nea [iOS SDK na ɛyɛ adwuma](https://github.com/zcash/zcash-swift-wallet-sdk) kyekyere saa nhomakorabea ahorow no ho. Kan no na wɔfrɛ iOS akoraeɛ no ZcashLightClientKit, enti link ne nsɛm dedaw no de saa din no di dwuma.
 
-[Zypherpunk Hackathon 2025 mu aba](https://forum.zcashcommunity.com/t/zypherpunk-hackathon-winners/53985)
+## Nsɛm a wɔakyerɛkyerɛ mu ne cryptography
 
-[Arti ToR afɛfo wɔ Rust](https://docs.rs/arti/latest/arti/)
+No [protocol ho nkyerɛkyerɛmu](https://zips.z.cash/protocol/protocol.pdf) ne tumidi a ɛfa sɛnea Zcash yɛ adwuma ho, a nea ɛka ho ne [address ne key encodings](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys).
 
-[Nneɛma a wɔde yɛ dua](https://github.com/tailscale/tailscale)
+[ZIP ahorow a wɔde yɛ adwuma](https://zips.z.cash) yɛ baabi a wɔahyɛ nsakrae ho nyansa na wɔakyerɛ, na index no kyerɛ nea ɛyɛ nsɛm a wɔakyerɛw ne nea etwa to. Consensus nsakraeɛ hyɛn wɔ network upgrades mu, na ZecHub di wɔn a wɔwɔ [Network Nkɔsoɔ a Wɔayɛ](/start-here/network-upgrades) kratafa.
 
-[Zcash sika kotoku Warp2-Sync a Hanh yɛe](https://github.com/hhanh00/warp2)
+Sɛ wopɛ cryptography a ɛwɔ ase hɔ no a, kenkan [Halo2 Nhoma no](https://zcash.github.io/halo2/index.html) ne [The Orchard Book](https://zcash.github.io/orchard/), a ɛne [halo2](https://docs.rs/halo2_proofs/latest/halo2_proofs/) ne [nnuaba turo](https://docs.rs/orchard/latest/orchard/) crate docs wɔ nkyɛn. [FROST Nhoma no](https://frost.zfnd.org/) kata threshold signatures so, na ZecHub wɔ a [FROST](/zcash-tech/frost) kratafa.
 
-[Zcash Testnet Nhwehwɛmufoɔ](https://testnet.zcashblockexplorer.com/)
+## Testnet a wɔde sɔ hwɛ
 
+Testnet yɛ nkɔnsɔnkɔnsɔn a ɛyɛ soronko a sika a mfaso nni so wom, a wɔfrɛ no TAZ. Zebra ne Zakura nyinaa betumi atu mmirika atia no, na... [testnet akwankyerɛ](https://zcash.readthedocs.io/en/latest/rtd_pages/testnet_guide.html) kata node nhyehyɛe so.
 
-Wɔboaboaa saa din yi ano fii nyansahyɛ ahorow a developers a wofi Zcash Foundation & ECC de mae no mu. 
+[testnet.zcashexplorer.ap a wɔde yɛ nhwehwɛmu no](https://testnet.zcashexplorer.app/) yɛ testnet block explorer a ɛyɛ adwuma, a mainnet yɔnko wɔ [mainnet.zcashexplorer.ap a wɔde di dwuma wɔ ɔkwan a ɛyɛ nwonwa so](https://mainnet.zcashexplorer.app/).
 
-Sɛ wowɔ nneɛma foforo biara (links, nhoma, channels ne nea ɛkeka ho) a wode bɛ update list no a, ntwentwɛn wo nan ase sɛ wode bɛka ho!
+TAZ a wubenya no yɛ ɔfã a ɛyɛ fɛre ade. Ɔmanfo faucets pue na ɛyera, na na nea wɔde bata ho fi nkrataa dedaw mu no ntumi nyɛ ho hwee bere a wɔkyerɛw kratafa yi no. Ɔkwan a wotumi de ho to so ne sɛ wobɛbisa wɔ Zcash R&D Discord mu, a ɛno ne nea Zcash nkrataa no ankasa kyerɛ.
 
-*Teams nnyɛ bere nyinaa na wɔwɔ nneɛma a ɛbɛma biribiara ayɛ nea ɛyɛ foforo koraa nanso nsɛm a wobɛbue a wuhyia no bɛkyerɛ akwankyerɛfo & nneɛma a wode bɛkɔ*
+## Nwoma a wɔde kyerɛw nneɛma nyinaa
+
+[Zcash Nwoma a Wɔde Yɛ Adwuma](https://zcash.readthedocs.io/en/latest/) ɛda so ara yɛ fibea biako a ɛtrɛw sen biara, a ɛfa protocol adwene, nkabom ne mining ho. Fa ahwɛyiye bi kenkan. Wɔayɛ no versioned tia zcashd, enti n'afã bi kyerɛkyerɛ node a ɛnnyɛ adwuma bio, bere a protocol ne light client afã horow no da so ara yɛ mfaso. [Zcash Wallet App Ahunahuna Nhwɛso no](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html) a ɛte hɔ no fata sɛ wokenkan ansa na woayɛ biribiara a ɛka nea ɔde di dwuma no kokoam nsɛm.
+
+Sɛ woyɛ foforo wɔ blockchains mu mpɛn pii a, . [Bitcoin a wobɛyɛ no yiye](https://github.com/bitcoinbook/bitcoinbook) yɛ nyansahyɛ a wɔtaa de ma wɔ nnyinasosɛm ahorow a wɔkyɛ ho, na ɛwɔ ahofadi sɛ wobɛkenkan ne nyinaa. Ɛnka nnwuma a wɔabɔ ho ban ho asɛm.
+
+## Nnwinnade afoforo a wɔn a wɔyɛ no aka ho asɛm
+
+[Arti](https://docs.rs/arti/latest/arti/) yɛ Tor Rust dwumadie, a zcash_client_backend de di dwuma de fa sika kotokuo akwantuo kwan. [Dua a wɔde yɛ nneɛma](https://github.com/tailscale/tailscale) ba ma connecting to node a w'ankasa wo tu mmirika. [warp2](https://github.com/hhanh00/warp2) yɛ sync dwumadie a Hanh de di dwuma ntɛmntɛm, ɛwom sɛ wɔannyɛ no foforɔ firi afe 2023.
+
+## Mpɔtam hɔ ne nsɛm a esisi
+
+No [Zcash R&D Nkitahodi](https://discord.gg/6AK7keWFaK) ne baabi a wɔka protocol ne wallet nkɔso ho asɛm, na [Zcash Mpɔtam Hɔ Nhyiam](https://forum.zcashcommunity.com/) kura nsusuwii atenten ne nhama a wɔde boa.
+
+Nnansa yi hackathon aba no yɛ nea nkurɔfo rekyekye ho mfonini pa: [ZecHub 2024 na ɔkyerɛwee](https://x.com/ZecHub/status/1845212469809033489), [ZecHub 2025 na ɔkyerɛwee](https://x.com/ZecHub/status/1975565960661635283) ne nea [Zypherpunk Hackathon a wɔyɛe wɔ afe 2025 mu](https://forum.zcashcommunity.com/t/zypherpunk-hackathon-winners/53985).
+
+## Nneɛma a wɔakɔ pɛnhyen
+
+Wɔde sie efisɛ nsɛm dedaw no bata wɔn ho, na esiane sɛ wɔda so ara yɛ nea wɔde gyina hɔ ma sɛnea node a wɔakɔ pɛnhyen no yɛɛ n’ade nti. Mfi ase wɔ ha.
+
+[Zcashd Nhoma no](https://zcash.github.io/zcash/) ne nea [zcashd RPC nkyerɛkyerɛmu](https://zcash.github.io/rpc/) document software a ɛduruu [nkwa awiei](https://zcash.github.io/zcash/user/end-of-life.html) wɔ July 2026. Ɔde ne nsa kyerɛɛ ne so [zcash/zcash a wɔde di dwuma](https://github.com/zcash/zcash) wɔde nneɛma akorae no asie.
+
+Sɛ wowɔ resource bi a wode bɛka ho, anaasɛ wuhu biribi wɔ ha a ayɛ stale a, bue issue anaa pull request. Ɛnyɛ bere nyinaa na akuw ahorow wɔ tumi a wɔde bɛma biribiara akɔ so ayɛ nea ɛwɔ hɔ mprempren, na nea wutuu mmirika kɔɔ mu no frankaa a wode bɛhyɛ mu no boa ma wɔkyerɛ akwankyerɛfo no kwan.
+
+**Wɔyɛɛ no ​​foforo nea etwa to:** August 2026

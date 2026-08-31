@@ -16,6 +16,6 @@ Für die visuelle Geschichte, wie sich die Privatsphäre von Zcash im Verlauf di
 | [NU6](../zcash-tech/nu6) | 23. November 2024 | 2,726,400 | c8e71055 | Die Deferred Dev Fund Lockbox und eine neue Aufteilung der Entwicklungsfinanzierung |
 | [NU6.1](../zcash-tech/nu6-1) | 24. November 2025 | 3,146,400 | 4dec4df0 | Governance dieser Finanzierung durch die Community und Coin-Inhaber |
 | [NU6.2](../zcash-tech/nu6-2) | 3. Juni 2026 | 3,364,600 | 5437f330 | Eine Notfallkorrektur, die den Orchard-Circuit berichtigt hat |
-| [Ironwood (NU6.3)](../zcash-tech/ironwood) | ~28. Juli 2026 | 3,428,143 | 37a5165b | Der Ironwood-Pool und ein öffentlicher Turnstile, der es jedem ermöglicht, das Angebot zu prüfen |
+| [Ironwood (NU6.3)](../zcash-tech/ironwood) | 28. Juli 2026 | 3,428,143 | 37a5165b | Der Ironwood-Pool und ein öffentlicher Turnstile, der es jedem ermöglicht, das Angebot zu prüfen |
 
-Die Daten sind in UTC angegeben. Einige Dashboards zeigen sie in lokaler Zeit an, was derselbe Block und derselbe Zeitpunkt ist. Das Datum von Ironwood ist eine Schätzung auf Grundlage seiner Aktivierungs-Blockhöhe, die der feste Auslöser ist, daher kann sich der genaue Tag leicht verschieben. Ein künftiges Upgrade, NU7, befindet sich noch in Planung und ist nicht dasselbe wie Ironwood.
+Die Daten sind in UTC angegeben. Einige Dashboards zeigen sie in lokaler Zeit an, was derselbe Block und derselbe Zeitpunkt ist. Der feste Auslöser für jedes Upgrade ist seine Aktivierungs-Blockhöhe, nicht das Kalenderdatum: Ironwood wurde bei Block 3.428.143 aktiviert. Ein künftiges Upgrade, NU7, befindet sich noch in Planung und ist nicht dasselbe wie Ironwood.

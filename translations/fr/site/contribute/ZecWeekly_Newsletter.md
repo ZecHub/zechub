@@ -4,17 +4,17 @@
 
 # Newsletter ZecWeekly
 
-ZecWeekly est une newsletter envoyée chaque dimanche matin. Elle inclut toutes les actualités survenues pendant la semaine dans l’écosystème Zcash. Les actualités sont sélectionnées chaque semaine par des membres de la communauté, et tous les liens pertinents sont ajoutés à la newsletter. Veuillez vous abonner à la newsletter [ici](https://zechub.substack.com/).
+ZecWeekly est une newsletter envoyée chaque dimanche matin. Elle comprend toutes les actualités survenues pendant la semaine dans l’écosystème Zcash. Les actualités sont sélectionnées chaque semaine par des membres de la communauté et tous les liens pertinents sont ajoutés à la newsletter. Veuillez vous abonner à la newsletter [ici](https://zechub.substack.com/).
 
 ## Contribuer
 
-Les contributions à la newsletter fonctionnent mieux lorsqu’un contributeur prépare l’édition pour la bonne semaine, suit le fil actuel de prime ou de coordination, et soumet la pull request une fois que les liens hebdomadaires sont prêts. Veuillez ne pas soumettre une édition future avant que ZecHub n’ait publié ou confirmé la date de cette édition. Les pull requests envoyées trop tôt manquent souvent des mises à jour de fin de semaine, entrent en conflit avec un curateur déjà désigné ou utilisent la mauvaise échéance.
+Les contributions à la newsletter fonctionnent mieux lorsqu’un contributeur prépare l’édition pour la bonne semaine, suit le fil actuel de prime ou de coordination, et soumet la pull request une fois que les liens hebdomadaires sont prêts. Veuillez ne pas soumettre une édition future avant que ZecHub ait publié ou confirmé la date de cette édition. Les pull requests soumises trop tôt omettent souvent des mises à jour de fin de semaine, entrent en conflit avec un curateur assigné, ou utilisent la mauvaise échéance.
 
 ### 1. Confirmer l’édition en cours
 
 Avant de commencer à écrire :
 
-- Consultez [ZEC Bounties ](https://bounties.zechub.wiki/) pour la tâche actuelle de la newsletter.
+- Vérifiez [ZEC Bounties ](https://bounties.zechub.wiki/) pour la tâche actuelle de la newsletter.
 - Attendez d’être assigné
 
 ![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
@@ -23,7 +23,7 @@ Avant de commencer à écrire :
 
 ### 2. Forker le dépôt
 
-Si vous débutez sur GitHub, utilisez ce workflow :
+Si vous débutez avec GitHub, utilisez ce workflow :
 
 1. Ouvrez le [dépôt ZecHub](https://github.com/ZecHub/zechub).
 2. Cliquez sur **Fork** et créez un fork sous votre compte GitHub.
@@ -38,6 +38,8 @@ cd zechub
 git checkout -b digest-month-day-year
 ```
 
+Remplacez `YOUR-USERNAME` par votre propre nom d’utilisateur GitHub. L’URL ci-dessus est un exemple et ne fonctionnera pas telle qu’elle est écrite.
+
 ### 3. Créer le fichier de la newsletter
 
 Utilisez le [modèle de newsletter](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md) comme point de départ. Les éditions de la newsletter doivent être placées dans le dossier [`newsletter`](https://github.com/ZecHub/zechub/tree/main/newsletter).
@@ -45,7 +47,7 @@ Utilisez le [modèle de newsletter](https://github.com/ZecHub/zechub/blob/main/n
 Lors de la création du fichier :
 
 - Respectez le format de nom de fichier demandé par l’issue ou utilisé par les éditions récentes acceptées.
-- Conservez le même ordre des sections que dans le modèle, sauf si la tâche demande un format différent.
+- Conservez le même ordre de sections que dans le modèle, sauf si la tâche demande un format différent.
 - Ajoutez uniquement les liens de la semaine concernée.
 - Rédigez une description courte et claire pour chaque lien afin que les lecteurs comprennent pourquoi il est important.
 - Traduisez ou résumez en anglais les sources non anglophones si nécessaire.
@@ -55,21 +57,21 @@ Lors de la création du fichier :
 
 ZecWeekly couvre normalement l’activité de l’écosystème Zcash pour la semaine en cours et est publiée vers la fin de la semaine. Le moment le plus sûr est le suivant :
 
-- Commencez à collecter les liens après la publication de l’édition actuelle de la newsletter ou de la tâche correspondante.
+- Commencez à collecter les liens après la publication de la newsletter actuelle ou de la tâche correspondante.
 - Conservez un brouillon tant que la semaine est encore en cours.
 - Soumettez la pull request près de la date de soumission demandée, après avoir vérifié les mises à jour de fin de semaine.
-- Ne soumettez pas la newsletter d’une semaine future avant que la tâche pour cette date n’existe ou avant que ZecHub ne confirme que vous devez la préparer.
+- Ne soumettez pas la newsletter d’une semaine future avant que la tâche pour cette date n’existe ou avant que ZecHub confirme que vous devez la préparer.
 
-Si une issue indique de soumettre avant une date précise, suivez cette date. S’il y a un conflit entre cette page et une issue en cours, suivez l’issue en cours.
+Si une issue indique une date précise de soumission, suivez cette date. En cas de conflit entre cette page et une issue en cours, suivez l’issue en cours.
 
 ### 5. Ouvrir la pull request
 
 Lorsque votre fichier de newsletter est prêt :
 
-1. Committez vos modifications dans votre fork.
+1. Validez vos modifications dans votre fork.
 2. Ouvrez une pull request vers `ZecHub/zechub` sur la branche `main`.
 3. Utilisez un titre correspondant à l’édition, par exemple `Zcash Ecosystem Digest | May 30th`.
-4. Liez l’issue dans le corps de la pull request afin que les reviewers puissent relier le travail à la tâche.
+4. Liez l’issue dans le corps de la pull request afin que les reviewers puissent rattacher le travail à la tâche.
 
 Exemple de corps de pull request :
 
@@ -82,7 +84,7 @@ Summary:
 - Checks links and descriptions for the requested week.
 ```
 
-Après l’ouverture de la pull request, surveillez les commentaires de review. Si ZecHub demande des modifications, mettez à jour la même branche au lieu d’ouvrir une deuxième pull request pour la même édition.
+Une fois la pull request ouverte, surveillez les commentaires de review. Si ZecHub demande des modifications, mettez à jour la même branche au lieu d’ouvrir une deuxième pull request pour la même édition.
 
 ### Exemples réels
 
@@ -93,19 +95,19 @@ Utilisez ces pull requests de newsletter fusionnées comme exemples de soumissio
 - [Zcash Ecosystem Digest | 14 février](https://github.com/ZecHub/zechub/pull/1474)
 
 
-![Exemple de pull request de newsletter ZecWeekly fusionnée](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)
+![Merged ZecWeekly newsletter pull request example](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)
 
-Lorsque vous comparez votre travail à un exemple, concentrez-vous sur l’emplacement du fichier, le format du titre, l’ordre des sections, les descriptions des liens et sur le fait que la pull request renvoie bien à la bonne tâche.
+Lorsque vous comparez votre travail à un exemple, concentrez-vous sur l’emplacement du fichier, le format du titre, l’ordre des sections, les descriptions des liens, et sur le fait que la pull request renvoie bien à la bonne tâche.
 
 ### Erreurs courantes à éviter
 
 - Ouvrir une pull request avant que la date de l’édition ou la tâche ne soit confirmée.
 - Travailler sur une issue qui a déjà une pull request liée.
 - Soumettre la pull request vers votre propre fork au lieu de `ZecHub/zechub`.
-- Utiliser le mauvais nom de fichier ou placer le fichier en dehors du dossier `newsletter`.
+- Utiliser un mauvais nom de fichier ou placer le fichier en dehors du dossier `newsletter`.
 - Copier une ancienne édition sans mettre à jour chaque date, lien et description.
-- Ajouter des liens provenant de la mauvaise semaine.
-- Laisser des liens cassés, des liens en double ou du texte de remplissage provenant du modèle.
+- Ajouter des liens de la mauvaise semaine.
+- Laisser des liens cassés, des liens en double, ou du texte d’exemple provenant du modèle.
 - Ouvrir une nouvelle pull request après des commentaires de review au lieu de mettre à jour la branche d’origine.
 
 ### Checklist finale
@@ -122,4 +124,4 @@ Avant de demander une review, confirmez que :
 
 ## Éditions passées
 
-[Archives ZecWeekly](https://zechub.substack.com/p/archive)
+[Archives de ZecWeekly](https://zechub.substack.com/p/archive)

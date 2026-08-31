@@ -16,6 +16,6 @@ Zcash नेटवर्क अपग्रेड के माध्यम स�
 | [NU6](../zcash-tech/nu6) | 23 नवंबर, 2024 | 2,726,400 | c8e71055 | Deferred Dev Fund Lockbox और development funding का नया विभाजन |
 | [NU6.1](../zcash-tech/nu6-1) | 24 नवंबर, 2025 | 3,146,400 | 4dec4df0 | उस funding पर community और coin-holder governance |
 | [NU6.2](../zcash-tech/nu6-2) | 3 जून, 2026 | 3,364,600 | 5437f330 | एक आपातकालीन सुधार जिसने Orchard circuit को ठीक किया |
-| [Ironwood (NU6.3)](../zcash-tech/ironwood) | ~28 जुलाई, 2026 | 3,428,143 | 37a5165b | Ironwood pool और एक सार्वजनिक turnstile जो किसी को भी supply का audit करने देता है |
+| [Ironwood (NU6.3)](../zcash-tech/ironwood) | 28 जुलाई, 2026 | 3,428,143 | 37a5165b | Ironwood pool और एक सार्वजनिक turnstile जो किसी को भी supply का audit करने देता है |
 
-तिथियाँ UTC में दिखाई गई हैं। कुछ dashboards इन्हें स्थानीय समय में दिखाते हैं, लेकिन block और क्षण वही रहते हैं। Ironwood की तिथि उसके activation block height से अनुमानित है, जो निश्चित trigger है, इसलिए सटीक दिन थोड़ा बदल सकता है। एक भविष्य का अपग्रेड, NU7, अभी भी योजना चरण में है और वह Ironwood जैसा नहीं है।
+तिथियाँ UTC में दिखाई गई हैं। कुछ dashboards इन्हें स्थानीय समय में दिखाते हैं, लेकिन block और क्षण वही रहते हैं। हर upgrade के लिए निश्चित trigger उसकी activation block height होती है, कैलेंडर तिथि नहीं: Ironwood block 3,428,143 पर activate हुआ था। एक भविष्य का upgrade, NU7, अभी भी योजना चरण में है और वह Ironwood जैसा नहीं है।

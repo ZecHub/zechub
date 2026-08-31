@@ -41,7 +41,7 @@ ZecHub stili sade ve anlaşılırdır. Herkesi memnuniyetle karşılarız ve oda
 
 ## Tweetler
 
-> Bu genel stil rehberi, ZecHub için makale veya kullanıcı rehberi yazmak içindir. Tweetler veya kısa ifadeler için [tweet stil rehberini](./tweets.md) kullanın.
+> Bu genel stil rehberi, ZecHub için makale veya kullanıcı rehberi yazmak içindir. Ayrıca tweetler ve diğer kısa ifadeler için de geçerlidir: kısa tutun, ana noktayı en başta verin ve kısa satırlarda sonda noktalama işareti kullanmayın.
 
 ---
 

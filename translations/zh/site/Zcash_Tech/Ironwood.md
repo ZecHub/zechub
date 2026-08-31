@@ -4,7 +4,7 @@
 
 # Ironwood
 
-> Ironwood 将在 Zcash 主网上于区块 3,428,143 激活，预计时间约为 2026 年 7 月 28 日 UTC。
+> Ironwood 已于 2026 年 7 月 28 日 UTC 在 Zcash 主网上于区块 3,428,143 激活，并且自那时起一直处于上线状态。
 
 你将了解到：Ironwood 改变了什么、为什么隐藏资金中的漏洞很严重，以及 turnstile 如何让任何人都能确认没有 ZEC 被伪造出来。
 
@@ -34,7 +34,7 @@ Ironwood 是 Zcash 的一次[网络升级](../start-here/network-upgrades)，正
 
 Zcash 社区分阶段推出修复，而不是一次性全部完成。
 
-![Ironwood 响应时间线：Orchard 漏洞于 2026 年 5 月被发现，池子于 2026 年 6 月暂停，电路在 NU6.2 中被修复，而 Ironwood 于 2026 年 7 月 28 日左右激活](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Ironwood 响应时间线：Orchard 漏洞于 2026 年 5 月被发现，池子于 2026 年 6 月暂停，电路在 NU6.2 中被修复，而 Ironwood 于 2026 年 7 月 28 日在区块 3,428,143 激活](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
 
 1. 2026 年 6 月上旬，一项临时措施禁用了 Orchard 池，以便为完整修复争取时间。
 2. NU6.2 升级修正了 Orchard 电路本身，堵上了底层的可靠性漏洞。
@@ -46,7 +46,7 @@ Zcash 社区分阶段推出修复，而不是一次性全部完成。
 
 NU6.2 已为所有新交易保障了 Orchard 电路的安全，但在旧规则下创建的价值仍然留在 Orchard 池中。Ironwood 为这些价值提供了一个干净的新去处，以及一种在迁移过程中进行审计的方法。
 
-Ironwood 池是在 NU6.3 激活时创建的一个新屏蔽价值池。它构建于修正后的电路之上，并使用一种可量子恢复的 note 格式（这种设计使得如果[量子计算机](../zcash-tech/post-quantum-security)有朝一日攻破当今的密码学，资金仍可被恢复），其定义见 [ZIP 2005](https://zips.z.cash/zip-2005)。
+Ironwood 池是由 NU6.3 在区块 3,428,143 创建的屏蔽价值池。它构建于修正后的电路之上，并使用一种可量子恢复的 note 格式（这种设计使得如果[量子计算机](../zcash-tech/post-quantum-security)有朝一日攻破当今的密码学，资金仍可被恢复），其定义见 [ZIP 2005](https://zips.z.cash/zip-2005)。
 
 1. 激活后，旧的 Orchard 池将变为仅可支出，因此不能再有新的价值进入其中。
 2. 新进入屏蔽状态的价值将改为流入 Ironwood。

@@ -2,50 +2,57 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/Shielded-labs-shield-white-2-27aef199ae.webp" alt="Alt Text" width="50"/>    Shielded Labs
+# <img src="/content-images/Shielded-labs-shield-white-2-27aef199ae.webp" alt="Shielded Labs logo" width="50"/> Shielded Labs
 
+[Labs a Wɔabɔ ho Ban](https://shieldedlabs.net/) yɛ Zcash mmoa ahyehyɛde a ɛde ne ho, a wɔde ntoboa na ɛyɛ adwuma a ɛwɔ Switzerland. N’adwuma ne sɛ ɛbɛkyekye ankorankoro sika a wontumi nsiw ano a ɛma nnipa ahofadi ne wɔn ho tumidi tumi, a wɔde wɔn adwene besi adwuma a ɛma Zcash ntam nkitahodi no a ɛbɛkɔ so atra hɔ, ahobammɔ, ne nea ɛtumi sesa so.
 
-[Shielded Labs a wɔde wɔn ho ahyɛ mu](https://shieldedlabs.net) wɔhyehyɛɛ no ​​sɛ Switzerland Fekuo wɔ December 2022 mu, na ɔne Zcash Community Grants (ZCG) nni abusuabɔ biara na onni nhyehyɛeɛ biara sɛ ɔbɛbisa ZCG sika.
+Shielded Labs de mfiridwuma tumi a ɛde ne ho ka Zcash abɔdeɛ a nkwa wom nhyehyɛeɛ no ho. Ɛnyɛ Electric Coin Company, Zcash Foundation, anaa Zcash Community Grants no fã, na ɛka ne ho asɛm sɛ Zcash abɔdeɛ a nkwa wom ahyehyɛdeɛ a ɛdi kan a ɛnnyaa sika tẽẽ anaa ɛnnya sika mfii Development Fund anaasɛ block akatua.
 
-Mprempren Zcash yɛ nea U.S. ahyehyɛde ahorow 2, Electric Coin Company (ECC) ne Zcash Foundation, a wɔn nkutoo na wonya nkɔso sikakorabea no na wɔboa no. ZCG nyɛ ahyehyɛdeɛ, na mmom ɛyɛ mmoa boayikuo a ɛhyɛ Fapem no ase, a ɛhwɛ ne sika so na ɛhwɛ so. Ahyehyɛde ahorow a wɔde wɔn ho pii a wɔboa Zcash abɔde a nkwa wom nhyehyɛe no ho hia na ama wɔatrɛw tumi mu na wɔayɛ nea wɔde ahyɛ aman no nsa kɛse.
+## Asɛmpatrɛw ne Dwuma
 
-Zcash reyɛ sikasɛm nhyehyɛe a ɛho hia a ɛbɔ kokoam nsɛm ho ban, na asiane wɔ hɔ sɛ adwuma a wɔreyɛ no betumi asiw mmara kwan. Titiriw no, Zcash a wɔde bɛto U.S. no yɛ ade biako a ebetumi adi nkogu, na ɛsɛ sɛ yɛkyekye abɔde a nkwa wom nhyehyɛe a ɛko tia sɛ wɔbɛkyere no ntɛm ara. 
+Shielded Labs de n’adwene si protocol ne infrastructure adwuma a ebetumi ama Zcash atumi agyina ano kɛse wɔ bere tenten mu so. Ne baguam nneɛma si so dua sɛ:
 
-Shielded Labs wɔ Switzerland efisɛ ɛyɛ ɔman a ɛyɛ crypto-adamfofa na ɛwɔ abakɔsɛm tenten a ɛkora kokoam hokwan ahorow so.
+- Nnipa ahofadi ne sikasɛm mu kokoamsɛm
+- Sika a wɔde ma a ɛde ne ho a ɛwɔ Nkɔso Foto no akyi
+- Obu a wɔde ma ZEC kurafo ne coinholder input
+- Wɔn a wɔde di dwuma no ahofadi ne wɔn ankasa tumidi
+- Mfiridwuma mu nnoɔma foforɔ a wɔde bɛyɛ adwuma a ɛbɛtena hɔ daa, ahobanbɔ, ne scalability
+- Adwuma a wɔne Zcash mmoa afoforo yɛ
 
-## Anisoadehunu
+Ahyehyɛde no nam mfiridwuma tẽẽ, ɔmanfo nhwehwɛmu, nnwuma a wɔde boa, ne abɔde a nkwa wom nhyehyɛe so boa. Ɛsan nso hwɛ ɔmanfoɔ ahodeɛ so ma nnisoɔ abatoɔ ne sika a wɔde sika a wɔde di dwuma no kyerɛ kwan, na ɛboa Zcash mpɔtam hɔfoɔ ma wɔte berɛ ne sɛdeɛ wɔbɛtumi de wɔn ho ahyɛ nnisoɔ nsɛnkyerɛnneɛ mu ase.
 
-Shielded Labs botaeɛ ne sɛ ɛbɛma wɔn a wɔde di dwuma no agye atom akɔ soro, ayɛ dwumadie ho nsɛm foforɔ ama Zcash, na aboa ama protocol nkɔsoɔ. 
+## Mprempren Nnwuma a Wɔyɛ
 
-**Mmeae a wɔde wɔn adwene si so wɔ ɔkwan a wɔfa so yɛ adwuma no ho nsɛm a wɔaka abom:** 
+Shielded Labs bobɔ adwuma no mmeae pii a ɛyɛ nnam din wɔ baguam:
 
-### Ɔdefo a Wɔde Di Dwuma: 
+- [Network Sustainability Nneɛma a Wɔde Yɛ Adwuma](https://shieldedlabs.net/nsm/) - nsakraeɛ a wɔahyɛ ho nyansa a wɔabɔ wɔn tirim sɛ wɔbɛboa Zcash ahobanbɔ sikasɛm nhyehyɛeɛ a ɛbɛkyɛ berɛ a wɔkora ZEC nneɛma a wɔde ma ɔpepem 21 no so. NSM adwuma no bi ne ZEC hyew a wofi wɔn pɛ mu yɛ, sika a wɔde ma no smoothing, ne sika a wɔbɛhyew ho nyansahyɛ ahorow a wɔaka ho asɛm wɔ ZIP 233, 234, ne 235 mu.
+- [Crosslink a wɔde di dwuma](https://shieldedlabs.net/crosslink-faq/) - Hybrid consensus upgrade a wɔahyɛ ho nyansa a ɛbɛka Zcash proof-of-work block production ne proof-of-stake finality abom, sɛdeɛ ɛbɛyɛ a ZEC wuranom bɛtumi aboa ama wɔabɔ network no ho ban berɛ a miners kɔ so yɛ blocks.
+- [Dynamic Fees a Wɔbɔ](https://shieldedlabs.net/fees/) - Nhwehwɛmu ne nnwinnadeɛ a ɛbɛma wɔatumi ahyɛ nkɔm, ɛyɛ mmerɛw sɛ wɔde di dwuma, na ɛyɛ den sɛ wɔbɛbɔ Zcash ayɔnkofa ho ka bere a ntwamutam no rekɔ so no.
+- [Ohunu](https://shieldedlabs.net/zero/) - a woboa suite a open-source Zcash infrastructure software ma exchanges, mining pools, wallet providers, ne ahyehyɛdeɛ foforɔ a wɔde wɔn ho to Zcash infrastructure so.
+- [Dade a Wɔde Yɛ Nnua](https://shieldedlabs.net/ironwood/) - Zcash network upgrade ne shielded pool a wɔayɛ de abua Orchard atoro a ɛyɛ mmerɛw, a wɔayɛ sɛ wɔde bɛsan de ahofadi a wobetumi agye atom wɔ Zcash circulating supply no mu.
 
-Shielded Labs bɛyɛ adwuma de ama wɔn a wɔde di dwuma no agye atom akɔ soro denam Zcash a wɔbɛma wɔakyerɛw wɔn din wɔ exchanges pii so, wɔne nnwumakuw ayɛ adwuma wɔ sikatua a wɔde bɛka abom ho, ne Zcash a wɔbɛma akɔ soro wɔ DEXs ne Defi applications so. Ɛde nnwuma a ɛma Zcash dwumadie kɔ anim, te sɛ Zcash Shielded Assets, na ɛbɛboa ama wɔayɛ bridges, AMMs, ne fiat on/off-ramps.
+## Ironwood Ntoboa a Wɔde Ma
 
-### Hokwan a Nnipa Wɔ ne Ahofadi: 
+Wɔ afe 2026 mu no, Shielded Labs dii dwuma titire wɔ abɔdeɛ a nkwa wom a wɔyɛɛ wɔn ade wɔ Orchard atoro a ɛyɛ mmerɛw no ho. Shielded Labs ahobanbɔ nhwehwɛmufoɔ Taylor Hornby na ɔhunuu mmerɛwyɛ no na ɔdaa no adi kyerɛɛ Zcash Open Development Lab (ZODL), a ɛne Zcash mmoa foforɔ yɛɛ nhyehyɛeɛ a ɛfa ntɛmpɛ a wɔbɛsiesie ho.
 
-Shielded Labs ne nnipa hokwan ne ɔmanfo ahofadi ahyehyɛde ahorow bɛyɛ biako de Zcash akɔ wɔn a wohia no kɛse no nsam.
+Wɔ ntɛmpɛ a wosiesiee no akyi no, na mpɔtam hɔfo da so ara hia ɔkwan bi a wɔbɛfa so asan de ahotoso a ɛde ne ho aba Zcash nneɛma a ɛredi akɔneaba no mu. Ironwood dii saa asɛm no ho dwuma denam ɔtare foforo a wɔabɔ ho ban a wɔde Orchard ɔmansin a wɔateɛteɛ no bedi dwuma ne Orchard ɔtare a edi kan no a wɔbɛtoto mu sɛnea ɛbɛyɛ a sika betumi afi hɔ afa turnstile no nkutoo so. Shielded Labs ne Project Tachyon, Valar Group, ZODL, ne Zcash Foundation yɛɛ adwuma wɔ nhyehyɛɛ, nhwehwɛmu, ne abɔdeɛ a nkwa wom ahosiesie a wɔbɛyɛ ama Ironwood no ho.
 
-### Protocol Nkɔsoɔ: 
+Saa adwuma yi daa Shielded Labs dwumadie titire baako adi wɔ Zcash mu: ɛde ahofadiɛ protocol-nkɔsoɔ ne ahobanbɔ tumi kaa ho wɔ mfitiaseɛ Zcash nkɔsoɔ ahyehyɛdeɛ no akyi.
 
-Ɛde besi nnɛ no, ECC na ɛde network upgrades nyinaa adi dwuma. Resilience hwehwɛ sɛ wɔde decentralization, na Shielded Labs bɛboa Zcash decentralization denam mmoa a ɛbɛboa ama core protocol nkɔsoɔ so.
+## Aban Adwuma
 
-## Bue ano
+Shielded Labs nso tintim nnisoɔ ho nsɛm ma Zcash mpɔtam hɔfoɔ. Ne nniso krataafa no di protocol nniso abatow, ZCAP mu kyɛfa, sika a sika a wɔde di dwuma no kyerɛ kwan, ne abatow sika kotoku a wɔboa akyi. Eyi boa ma Zcash gyinaesi yɛ mmerɛw sɛ wobedi akyi ama wɔn a wɔwɔ sika, ZCAP mufo, ne mpɔtam hɔfo a wɔtrɛw mu.
 
-Shielded Labs bɛ fork Zcash GitHub akoraeɛ no, de source code foforɔ no adi dwuma, na ayɛ pull request ama nkabom. Sɛ yɛfa no sɛ ɛwɔ sika a ɛdɔɔso ne developer ahodeɛ a, Shielded Labs bɛyɛ asɛdeɛ sɛ ɔbɛboa a ɛkɔ so sɛ forked codebase akoraeɛ no sohwɛfoɔ.
+Zcash mfa automatic on-chain governance nni dwuma mma protocol nsakrae. Abatoɔ ne mpɔtam hɔfoɔ adwene yɛ afotuo nsɛnkyerɛnneɛ a ɛma aduane kɔ nhyehyɛeɛ a ɛtrɛ a ɛfa adwene a ɛwɔ adwene mu a ɛyɛ den no mu. Shielded Labs nniso adwuma no boa ma wotumi nya saa nsɛnkyerɛnne no yiye na ɛnyɛ den sɛ wobegye atom.
 
-Ɛbɛyɛ bere a edi kan a wɔde network upgrade bi a ɔde ne ho developer bi hyɛɛ aseɛ a ɛkyerɛ sɛ Zcash yɛ network a wɔmma ho kwan ampa.
+## Akadeɛ
 
-Mfiase no bere fã, mmoa a egyina adwuma so ho behia na aboa ma wɔato fapem ama ahyehyɛde no nkɔso.
-
-## Sika a wɔde ma
-
-Mfiase no, Shielded Labs yɛ sika nyinaa denam ntoboa so & botae ne sɛ wɔbɛboaboa sika ano de ayɛ bootstrap afe a edi kan a wɔde bɛyɛ adwuma no. 
-
-Ɛfa sika a wɔde bɛma bere tenten ho no, Shielded Labs akyerɛ nyansahyɛ bi a ɛne "Network Sustainability Fund" sɛ ɔbɛyɛ obi a ogye Zcash nkɔso sikakorabea denam block akatua so wɔ fã a edi hɔ no akyi wɔ Q4 2024 mu. 
-
-Eyi bɛhwehwɛ sɛ wɔbɛyɛ nhyehyɛe a wɔasesa a wɔde bɛma ne ɔkwan a wɔbɛfa so de sika akɔ Sustainability Fund & nhyehyɛe a wɔde bedi dwuma wɔ zcashd/zebrad so. 
-
-Wubetumi akenkan nyansahyɛ no nyinaa wɔ ha:
-https://shieldedlabs.net/nsm
+- [Shielded Labs wɛbsaet hɔ](https://shieldedlabs.net/)
+- [Shielded Labs nnwuma ahorow](https://shieldedlabs.net/projects/)
+- [Network Sustainability Nneɛma a Wɔde Yɛ Adwuma](https://shieldedlabs.net/nsm/)
+- [Crosslink Nsɛm a Wɔtaa bisa](https://shieldedlabs.net/crosslink-faq/)
+- [Dynamic Fees a Wɔbɔ](https://shieldedlabs.net/fees/)
+- [Ohunu](https://shieldedlabs.net/zero/)
+- [Dade a Wɔde Yɛ Nnua](https://shieldedlabs.net/ironwood/)
+- [Aban ne abatow a wɔtow](https://shieldedlabs.net/governance/)
+- [Labs a Wɔabɔ ho ban GitHub](https://github.com/ShieldedLabs)

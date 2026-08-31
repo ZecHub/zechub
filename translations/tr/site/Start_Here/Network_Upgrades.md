@@ -16,6 +16,6 @@ Zcash'in gizliliğinin bu yükseltmeler boyunca görsel olarak nasıl evrildiği
 | [NU6](../zcash-tech/nu6) | 23 Kasım 2024 | 2,726,400 | c8e71055 | Ertelenmiş Geliştirme Fonu Lockbox'ı ve geliştirme fonlaması için yeni bir bölüşüm |
 | [NU6.1](../zcash-tech/nu6-1) | 24 Kasım 2025 | 3,146,400 | 4dec4df0 | Bu fonlamanın topluluk ve coin sahipleri tarafından yönetişimi |
 | [NU6.2](../zcash-tech/nu6-2) | 3 Haziran 2026 | 3,364,600 | 5437f330 | Orchard devresini düzelten acil bir düzeltme |
-| [Ironwood (NU6.3)](../zcash-tech/ironwood) | ~28 Temmuz 2026 | 3,428,143 | 37a5165b | Ironwood havuzu ve herkesin arzı denetlemesine olanak tanıyan herkese açık bir turnike |
+| [Ironwood (NU6.3)](../zcash-tech/ironwood) | 28 Temmuz 2026 | 3,428,143 | 37a5165b | Ironwood havuzu ve herkesin arzı denetlemesine olanak tanıyan herkese açık bir turnike |
 
-Tarihler UTC olarak gösterilmiştir. Bazı panolar bunları yerel saatte gösterir; bu aynı blok ve aynı andır. Ironwood'un tarihi, sabit tetikleyici olan etkinleştirme blok yüksekliğinden yapılan bir tahmindir; bu yüzden tam gün biraz kayabilir. Gelecekteki bir yükseltme olan NU7 hâlâ planlama aşamasındadır ve Ironwood ile aynı şey değildir.
+Tarihler UTC olarak gösterilmiştir. Bazı panolar bunları yerel saatte gösterir; bu aynı blok ve aynı andır. Her yükseltme için sabit tetikleyici takvim tarihi değil, etkinleştirme blok yüksekliğidir: Ironwood 3,428,143 numaralı blokta etkinleştirildi. Gelecekteki bir yükseltme olan NU7 hâlâ planlama aşamasındadır ve Ironwood ile aynı şey değildir.

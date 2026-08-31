@@ -1,34 +1,34 @@
 # MultiSig Demo
 
-> **Kumbukumbu ya kihistoria. Mwongozo huu haufanyi kazi tena.**
+> ** Historia. hii kutembea kwa njia ya sasa haina kukimbia.**
 >
-> Hatua zote zilizo hapa chini zinategemea zcashd, ambayo ilifikia kusimama kwake kwa kiotomatiki kwa mwisho wa msaada tarehe 18 Julai 2026. Skripti saba zinazoambatana na ukurasa huu zinaiendesha kupitia `zcash-cli`, kwa hivyo hakuna hata moja inayoweza kufikia nodi inayofanya kazi leo.
+> Kila hatua chini inategemea zcashd, ambayo kufikiwa moja kwa moja Mwisho wa Support kusimamishwa juu ya 18 Julai 2026. maandishi saba kusafirishwa pamoja na ukurasa huu kuendesha ni kupitia `zcash-cli`, hivyo hakuna wao wanaweza kufikia node mbio leo.
 >
-> Skripti hizi haziwezi kuhamishwa kimitambo: zimejengwa juu ya RPC za miamala ghafi na za pochi ambazo zcashd iliziacha, na Zallet inazibadilisha kwa mbinu mpya zinazofanya kazi na PCZT badala ya hex ya muamala ghafi.
+> Hati hizi haziwezi ported mechanically. Wao ni kujengwa juu ya ghafi-transaction na mkoba RPCs (`createrawtransaction`, `signrawtransaction`, `createmultisig`, `dumpprivkey`Zallet badala ya wale na mbinu mpya ambayo kazi juu ya PCZTs badala ya ghafi shughuli hex, na bado ni katika beta kwa njia nyingi zcashd si ported.
 >
-> Kwa uhifadhi wa pamoja katika Zcash leo, angalia [FROST na uhifadhi wa kizingiti](/zcash-tech/frost-threshold-custody) na [onyesho la FROST kwa Ywallet](/guides/frostdemo/ywallet-frost-demo). Ili kuhamisha nodi iliyopo kutoka zcashd, angalia [mwongozo wa uhamiaji kwenda Zebra na Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
+> Kwa ajili ya ulinzi wa vyama vingi juu Zcash leo, angalia [FROST & Kiwango cha Kuweka Ulinzi](/zcash-tech/frost-threshold-custody), ambayo ni pamoja na kulinganisha moja kwa moja na uwazi multisig, na kazi ya kuongoza mfumo wa usimamizi. [Ywallet FROST demo](/guides/frostdemo/ywallet-frost-demo). Kuhamisha node zilizopo nje zcashd, angalia [mwongozo wa uhamiaji kwa Zebra na Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
 >
-> Ukurasa huu umehifadhiwa kama kumbukumbu ya kihistoria ya mtiririko wa multisig ya uwazi.
+> Ukurasa huu ni kuhifadhiwa kama rekodi ya kihistoria wa uwazi multisig kazi.
 
-Demo hii inahitaji zcashd 
+Demo hii inahitaji zcashd, ambayo kusimamishwa juu ya 18 Julai 2026 na tena anaendesha. Hakuna kitu chini inaweza kukamilika dhidi live mlolongo.
 
 ## Kukusanya funguo za umma kutoka kwa watu wanaohitajika
 
 * https://github.com/iancoleman/bip39
-* Kama kutumia zcashd, unaweza kuunda UA na kutumia mpokeaji wako uwazi pia. Kisha kutumia `getPubkey.sh` kuondoa ufunguo wako wa umma.
+* Kama kutumia zcashd, unaweza kuunda UA na matumizi yako mpokeaji uwazi pamoja. Kisha tumia `getPubkey.sh` kuondoa ufunguo wako wa umma.
 
 
-## Kujenga 2x Multisig (2 ya 3) t3 anwani
+## Kujenga 2x Multisig (2 ya 3) anwani t3
 
 kukimbia createMultiSig.sh kuzalisha anwani yako multisig na kuwakomboa script. Kinachohitajika ni 3 funguo za umma
 
 `./createMultiSig.sh pubk1 pubk2 pubk3`      # 1st t3
 
-`./createMultiSig.sh pubk4 pubk5 pubk6` # 2 t3 kwa ajili ya mabadiliko ya anwani. 
+`./createMultiSig.sh pubk4 pubk5 pubk6` # 2 t3 kwa ajili ya mabadiliko anwani. 
 
-#### KUMBUKA: katika mfano huu pubk1,pubk4 ni mtu yule yule, pubk2,pubk5 ni mtu mmoja na kadhalika ...
+#### KUMBUKA: katika mfano huu pubk1,pubk4 ni mtu yuleyule, pubk2,pubk5 ni mtu huyo na kadhalika ...
 
-#### KUMBUKA2: utaratibu wa pubkeys yako mambo! makini na hii!!!!
+#### NOTE2: utaratibu wa pubkeys yako mambo! makini na hii!!!!
 
 
 ## Anwani ya mfuko wa t3
@@ -53,7 +53,7 @@ redeemScript: The hex value of the redeemScript that was output when creating ou
 
 ```
 
-`./txDetails.sh txid` => itakusaidia kupata taarifa zinazohitajika
+`./txDetails.sh txid` => itakusaidia kupata habari zinazohitajika
 
 ```
 
@@ -71,27 +71,29 @@ scriptPubKey      : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed
 
 ## Ishara MultiSig TX
 
-Fungua signMultiSigTX.sh na kuongeza funguo yako binafsi katika pk1,pk2, ... vigezo.
+Fungua isharaMultiSigTX.sh na kuongeza funguo yako binafsi katika pk1,pk2, ... vigezo.
  
 
-*** Ningependa kupendekeza kuandika haya katika terminal yako. ***
+*** Mimi si kupendekeza kuandika haya katika terminal yako. ***
 
 
 Kama una upatikanaji wa funguo yako yote binafsi unaweza kuzitumia zote kwa mara moja ili kuokoa muda,
 lakini katika mifano ya ulimwengu wa kweli, kusaini utafanywa kupitia watu duniani kote hivyo kila mmoja wa washiriki required itahitaji saini,
-kisha kutuma nyuma updated raxTX "hex" pato ambayo wengine watatumia saini kukamilisha kusaini proceureure.
+kisha kutuma nyuma updated raxTX "hex" pato ambayo wengine watatumia saini kukamilisha kusainiwa proceureure.
 
 Nani milele inajenga tx kwanza, itakuwa saini na ufunguo wao binafsi na kutuma nje updated rawTX hex kwamba mahitaji ya kuwa saini kwa washiriki wengine.
 
 `./signMultiSigTX.sh rawTX txid voutIndex scriptPubKey redeemScript valueInitialTX`
 
-Ili saini hii tx, angalau 2 nje ya tatu funguo binafsi haja ya saini yake. Kama ufunguo wa umma wewe alitoa ilihamishwa kwa kutumia T-anwani kutoka zcashd, unaweza kupata ufunguzi binafsi wa anwani yako T na: 
+Ili saini hii tx, angalau 2 nje ya tatu funguo binafsi haja ya kusaini yake. Kama ufunguo wa umma ulitoa ilihamishwa kwa kutumia T-anwani kutoka zcashd, unaweza kupata muhimu binafsi ya anwani yako T na: 
 
 
 `zcash-cli dumpprivkey "t-addr"`
 
+Amri hii kusimamishwa na zcashd na anarudi kitu leo; ni kumbukumbu hapa tu kuonyesha jinsi demo got funguo zake.
 
-Kwa demo hii, mimi kutumika Iancoleman ya bip39 kwa haraka kutenganisha muhimu muhimu binafsi.
+
+Kwa demo hii, mimi kutumika Iancoleman ya bip39 kwa haraka kutenganisha muhimu required binafsi.
 
 
 ## Broadcast saini TX
@@ -100,7 +102,7 @@ Kwa demo hii, mimi kutumika Iancoleman ya bip39 kwa haraka kutenganisha muhimu m
 
 
 
-# Vyanzo
+# Vyanzo vya habari
 
 * https://learnmeabitcoin.com/technical/script/p2sh/
 * https://bitcoin.stackexchange.com/questions/6100/how-will-multisig-addresses-work

@@ -51,7 +51,7 @@ Pịgharịa gaa na ngalaba ** Wrap. Họrọ ** SOL** ma ọ bụ ** USDC, tiny
 ---
 
 ###  Nzọụkwụ 3: Kwadebe obere akpa Zodl gị 
-Nbudata ihe n'onwe ya [**Zodl** Ọ bụ onye na-eme ihe ike.](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn), akwụkwọ ego Zcash nke Electric Coin Co. Detuo ** Unified Address gị site na Nweta taabụ - ọ kwadoro ma uzo na mkpuchi ZEC. Chekwaa mkpụrụ okwu gị n'ụzọ dị mma tupu ịga n'ihu. 
+Nbudata ihe n'onwe ya [**Zodl** Ọ bụ onye na-eme ihe ike.](https://zodl.com), obere akpa Zcash nke ZODL na-elekọta. Detuo ** Unified Address gị site na Nweta taabụ - ọ kwadoro ma uzo na mkpuchi ZEC. Chekwaa mkpụrụ okwu gị n'ụzọ dị mma tupu ịga n'ihu. 
 
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)

@@ -1,63 +1,65 @@
-# マルチシグデモ
+# MultiSig デモ
 
-> **歴史的な記録です。この手順はもう動作しません。**
+> **歴史的資料です。この手順は現在は動作しません。**
 >
-> 以下のすべての手順は zcashd に依存していますが、zcashd は 2026年7月18日に自動サポート終了停止に達しました。このページに付属する7つのスクリプトは `zcash-cli` を通じて zcashd を操作するため、現在はいずれも稼働中のノードに接続できません。
+> 以下のすべての手順は zcashd に依存しており、zcashd は 2026年7月18日に自動的な End-of-Support 停止に達しました。このページに同梱されている 7 つのスクリプトは `zcash-cli` を通じてそれを操作するため、現在ではどれも稼働中のノードに到達できません。
 >
-> これらのスクリプトを機械的に移植することはできません。zcashd が非推奨としたロートランザクションおよびウォレットの RPC に基づいており、Zallet はそれらを、ロートランザクションの hex ではなく PCZT を扱う新しいメソッドに置き換えているためです。
+> これらのスクリプトは機械的に移植することはできません。これらは、生トランザクション hex ではなく PCZT を扱う新しいメソッドでそれらを置き換える Zallet に対し、停止前に zcashd が非推奨化した raw-transaction および wallet RPC（`createrawtransaction`, `signrawtransaction`, `createmultisig`, `dumpprivkey`）の上に構築されています。なお Zallet はまだベータ版であり、多くの zcashd メソッドはまだ移植されていません。
 >
-> 現在の Zcash におけるマルチパーティ管理については、[FROST としきい値管理](/zcash-tech/frost-threshold-custody) および動作する [Ywallet FROST デモ](/guides/frostdemo/ywallet-frost-demo) を参照してください。既存のノードを zcashd から移行するには、[Zebra と Zallet への移行ガイド](/guides/migration-guide-zcashd-to-zebrad-zallet) を参照してください。
+> 現在の Zcash における複数当事者カストディについては、透過的マルチシグとの直接比較を含む [FROST & Threshold Custody](/zcash-tech/frost-threshold-custody) と、動作する [Ywallet FROST demo](/guides/frostdemo/ywallet-frost-demo) を参照してください。既存のノードを zcashd から移行するには、[Zebra と Zallet への移行ガイド](/guides/migration-guide-zcashd-to-zebrad-zallet) を参照してください。
 >
-> このページは透明な multisig ワークフローの歴史的記録として保存されています。
+> このページは、透過的マルチシグのワークフローに関する歴史的記録として残されています。
 
-このデモには zcashd が必要です。
+このデモには zcashd が必要ですが、zcashd は 2026年7月18日に停止し、現在は動作しません。以下の内容はいずれもライブチェーンに対して完了できません。
 
-## 必要な人物から公開鍵を収集する
+## 必要な参加者から公開鍵を集める
 
 * https://github.com/iancoleman/bip39
-* zcashd を使用している場合、UAを作成し、透明受信アドレスも使用できます。その後 `getPubkey.sh` を使って公開鍵を抽出します。
+* zcashd を使っている場合は、UA を作成し、透過的な reciever も使えます。その後、`getPubkey.sh` を使って公開鍵を抽出してください。
 
-## 2xマルチシグ（3中の2）t3 アドレスの作成
 
-createMultiSig.sh を実行してマルチシグアドレスとリダムスクリプトを生成します。必要なのは3つの公開鍵です。
+## 2x マルチシグ（2 of 3）t3 アドレスを作成する
 
-`./createMultiSig.sh pubk1 pubk2 pubk3`      # 1つ目の t3
+マルチシグアドレスと redeem script を生成するには createMultiSig.sh を実行します。必要なのは 3 つの公開鍵です
 
-`./createMultiSig.sh pubk4 pubk5 pubk6`      # 変更アドレス用の2つ目の t3.
+`./createMultiSig.sh pubk1 pubk2 pubk3`      # 1 つ目の t3
 
-#### ノート: この例では、pubk1,pubk4 は同じ人物、pubk2,pubk5 も同じ人物であり、同様に続きます...
+`./createMultiSig.sh pubk4 pubk5 pubk6`      # おつりアドレス用の 2 つ目の t3。 
 
-#### ノート2: 公開鍵の順序が重要です！この点に注意してください!!!!
+#### 注: この例では pubk1 と pubk4 は同じ人物、pubk2 と pubk5 も同じ人物、以下同様です ...
 
-## t3 アドレスへの資金注入
+#### 注2: 公開鍵の ORDER は重要です! ここは必ず注意してください!!!!
 
-任意のウォレット/ファウエットを使ってアドレスを充填してください。
 
-## マルチシグトランザクションの作成
+## t3 アドレスに資金を送る
+
+任意のウォレット/facuet を使ってアドレスに資金を送ってください
+
+## MultiSig トランザクションを作成する
 
 `./createMultiSigTX.sh txid voutIndex scriptPubKey redeemScript oldAmount tAddy amount changeTaddy`
 
-ここで、
+各項目は次のとおりです。
 
 ```
-        txid: あなたの新しいt3に資金を送信したトランザクションのID
-   voutIndex: voutの中で最大値を持つ出力のインデックス
-scriptPubKey: P2SHロックスクリプトは、他のロックスクリプト（スクリプトハッシュ）のハッシュを含んでおり、HASH160とEQUALオペコードで囲まれています。これはhex形式で、getrawtransaction RPC経由で取得できます。scriptPubKeyを探してください。
-redeemScript: t3を作成時に出力されたリダムスクリプトのhex値。t3から資金を送るすべての人にとって必要です。
-   oldAmount: 上記txidからあなたの新しいt3に送られた金額
-       tAddy: 資金を送りたいアドレス
-      amount: 送信するZECの量
- changeTaddy: 変更アドレス（新しいリダムスクリプトを持つ新しいt3）
+        txid: あなたの新しい t3 に資金を送ったトランザクションの transaction ID
+   voutIndex: 最大の値を持つ vout 内の出力のインデックス
+scriptPubKey: P2SH ロッキングスクリプトは、HASH160 と EQUAL オペコードで囲まれた、別のロッキングスクリプトのハッシュ（Script Hash）を含みます。これは hex 形式で、getrawtransaction rpc で確認できます。scriptPubKey を探してください
+redeemScript: t3 を作成したときに出力された redeemScript の hex 値。t3 から支出したいすべての人にこれが必要です。
+   oldAmount: 上記の txid からあなたの新しい t3 に送られた金額
+       tAddy: 資金の送信先アドレス
+      amount: tAddy に送る ZEC の金額
+ changeTaddy: おつりアドレス（新しい redeemScript を持つ新しい t3）
 
 ```
 
-`./txDetails.sh txid`   => 必要な情報を取得するために役立ちます
+`./txDetails.sh txid`   => 必要な情報を見つけるのに役立ちます
 
 ```
 
 txid              : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed37e253de9869b549530 | jq .txid
 
-valueInitialTX    : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed37e253de9869b549530 | jq .vout[].value   ** 署名に必要です！**
+valueInitialTX    : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed37e253de9869b549530 | jq .vout[].value   ** これは署名に必要です! **
 
 voutIndex         : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed37e253de9869b549530 | jq .vout[].n
 
@@ -65,33 +67,42 @@ scriptPubKey      : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed
 
 ```
 
-## マルチシグトランザクションの署名
 
-signMultiSigTX.sh を開き、pk1, pk2,... 変数に自分の秘密鍵を追加してください。
 
-*** これらをターミナルにタイプすることをお勧めしません。***
+## MultiSig TX に署名する
 
-すべての秘密鍵にアクセスできる場合、時間を節約するために一度にすべてを使用できますが、実際のケースでは世界中の人々が署名を行うため、必要な参加者全員がそれぞれ署名し、更新されたraxTX "hex"出力を他の人に送り返す必要があります。
+signMultiSigTX.sh を開き、pk1、pk2、... 変数にあなたの秘密鍵を追加してください。
+ 
 
-最初のトランザクションを作成した人は、自分の秘密鍵で署名し、他の参加者が署名するために必要な更新されたrawTX hexを送信します。
+*** これらをターミナルに直接入力することはお勧めしません。 ***
+
+
+すべての秘密鍵にアクセスできる場合は、時間短縮のため一度にすべて使うこともできますが、
+実際の多くのケースでは、署名は世界中の人々によって行われるため、必要な各参加者が署名し、
+その後、署名手順を完了するために他の人が使う更新済みの raxTX "hex" 出力を送り返す必要があります。
+
+最初の tx を作成した人は、自分の秘密鍵で署名し、他の参加者が署名する必要のある更新済みの rawTX hex を送ります。
 
 `./signMultiSigTX.sh rawTX txid voutIndex scriptPubKey redeemScript valueInitialTX`
 
-このトランザクションに署名するには、3つの秘密鍵のうち少なくとも2つが必要です。もし公開鍵がzcashdからTアドレスでエクスポートされた場合、Tアドレスの秘密鍵は以下のように取得できます：
+この tx に署名するには、3 つの秘密鍵のうち少なくとも 2 つで署名する必要があります。渡した公開鍵が zcashd の T-address を使ってエクスポートされたものであれば、次の方法で T アドレスの秘密鍵を取得できます。 
 
 
 `zcash-cli dumpprivkey "t-addr"`
 
+このコマンドは zcashd とともに停止しており、現在は何も返しません。ここでは、このデモがどのように鍵を取得していたかを示すためにのみ記録しています。
 
-このデモでは、iancolemanのbip39を使用して必要な秘密鍵を迅速に抽出しました。
 
-## 署名済みトランザクションのブロードキャスト
+このデモでは、必要な秘密鍵をすばやく切り出すために iancoleman の bip39 を使用しました。
+
+
+## 署名済み TX をブロードキャストする
 
 `./sendMultiSignedTX.sh signedTXfromLastStep`
 
 
 
-# 参考資料
+# 出典
 
 * https://learnmeabitcoin.com/technical/script/p2sh/
 * https://bitcoin.stackexchange.com/questions/6100/how-will-multisig-addresses-work

@@ -4,41 +4,40 @@
 
 # Zcash Global Ambassadors
 
-Das Global Ambassador Program identifiziert Community-Mitglieder, die hochwertige Beiträge zum Zcash-Ökosystem leisten, und befähigt sie, Führungspersönlichkeiten zu werden. Botschafter vergrößern die Zcash-Community, fördern die Nutzeradoption und stärken das Bewusstsein für die datenschutzwahrende Technologie von Zcash.
+Das Global Ambassador Program identifiziert Community-Mitglieder, die hochwertige Beiträge zum Zcash-Ökosystem leisten, und befähigt sie, Führungspersönlichkeiten zu werden. Ambassadors vergrößern die Zcash-Community, fördern die Nutzerakzeptanz und steigern das Bewusstsein für die datenschutzwahrende Technologie von Zcash.
 
-## Was macht ein Botschafter?
+## Was macht ein Ambassador?
 
-- Veranstaltet physische oder virtuelle Meetups
-- Pflegt eine aktive Präsenz in den sozialen Medien und erstellt originelle Inhalte über Zcash
-- Übersetzt Zcash-Bildungsmaterialien in lokale Sprachen
-- Führt neue Nutzer und Entwickler in das Zcash-Ökosystem ein
-- Repräsentiert Zcash auf Krypto-Konferenzen und Community-Veranstaltungen
+- Physische oder virtuelle Meetup-Veranstaltungen organisieren
+- Eine aktive Präsenz in den sozialen Medien pflegen und originelle Inhalte über Zcash erstellen
+- Bildungsmaterialien zu Zcash in lokale Sprachen übersetzen
+- Neue Nutzer und Entwickler in das Zcash-Ökosystem einführen
+- Zcash auf Krypto-Konferenzen und Community-Veranstaltungen vertreten
 
-Botschafter haben kreative Freiheit bei den Aktivitäten, die sie planen, sodass sie ihre Outreach-Arbeit an ihren lokalen Kontext anpassen können.
+Ambassadors haben kreative Freiheit bei den Aktivitäten, die sie planen, sodass sie ihre Öffentlichkeitsarbeit an ihren lokalen Kontext anpassen können.
 
 ## [Website der Global Ambassadors](https://zcashambassadors.com)
 
-## Aktive Botschafter-Communities (2026)
+## Aktive Ambassador-Communitys (2026)
 
 | Region | Community | Hauptaktivität |
 |--------|-----------|-------------|
-| Lateinamerika | [Zcash en Español](https://zcashesp.com) | Spanische Inhalte, ZK AV Club, Zcast-Podcast |
+| Lateinamerika | [Zcash en Español](https://x.com/zcashesp1) | Spanische Inhalte, ZK AV Club, Zcast-Podcast |
 | Brasilien | [Zcash Brazil](https://x.com/zcashbrazil) | Workshops, Meetups, Shielded Magazine |
-| Türkei | [Zcash Turkey](https://x.com/ZcashTR) | Bildungsinhalte, Teilnahme an der Istanbul Blockchain Week |
-| Arabien | [Zcash Arabia](https://x.com/ZcashArabia) | Arabische Bildungsinhalte, AMAs |
-| Nigeria | [Zcash Nigeria](https://x.com/ZcashNigeria) | Entwicklerbildung, Einführung neuer Community-Mitglieder |
-| Ostafrika | [Zcash East Africa](https://forum.zcashcommunity.com/t/privacy-has-landed-in-south-africa-join-in/55706) | Wachstum der Community in Südafrika und Uganda |
-| Kenia | [KBCC 2026 Activation](https://forum.zcashcommunity.com/t/zcash-gold-sponsorship-kenya-kbcc-2026-activation-privacy-workshop/55520) | Sponsoring der Kenya Blockchain Conference + Privacy-Workshop |
-| Mexiko | [CodeRaiz Mexico](https://forum.zcashcommunity.com/t/zcash-university-outreach-initiative-mexico-2026-coderaiz-proposal/55506) | Hochschul-Outreach und Einführung von Entwicklern |
-| Tansania | [Pesa Ya Siri](https://forum.zcashcommunity.com/t/pesa-ya-siri-making-zcash-a-household-name-in-tanzania/55558) | Zcash in Tansania zu einem allgemein bekannten Namen machen |
+| Türkei | [Zcash Turkey](https://x.com/ZcashTR) | Bildungsmaterialien, Teilnahme an der Istanbul Blockchain Week |
+| Arabien | [Zcash Arabia](https://x.com/ZcashArabia) | Arabische Bildungsmaterialien, AMAs |
+| Ukraine| [Zcask Ukraine](https://x.com/Zcash_ua) | Ukraine |
+| Nigeria | [Zcash Nigeria](https://x.com/ZcashNigeria) | Entwicklerbildung, Aufnahme neuer Community-Mitglieder |
+| Ostafrika | [Zcash East Africa](https://x.com/ZcashEastAfrica) | Ostafrika, Wachstum der Community in Uganda |
+| Südafrika | [Zcash South Africa](https://twitter.com/Zcash_SA) | Südafrika |
+| Ghana | [Zcash Ghana](https://x.com/ZcashGH) | Ghana |
+| Mexiko | [zcashqro](https://x.com/zcashqro) | Hochschul-Outreach und Aufnahme neuer Entwickler |
 | Russland | [ruZcash](https://x.com/ruZCASH) | Russischsprachige Inhalte und Community |
-| Indien | [Zcash India](https://forum.zcashcommunity.com/t/zcash-india-2026/54762) | Entwicklerbildung und Wachstum der Community |
+| Indien | [Zcash India](https://x.com/ZcashIND) | Entwicklerbildung und Community-Wachstum |
+| Korea | [Zcash Korea](https://x.com/zcashkorea) | Koreanische Bildungsmaterialien |
 
-## Bewerbung als Botschafter
-
-Möchtest du Zcash in deiner Region vertreten? Besuche [zcashambassadors.com](https://zcashambassadors.com), um mehr über das Programm zu erfahren und dich zu bewerben.
+## Bewirb dich, um Ambassador zu werden
 
 Du kannst dich auch einbringen, indem du:
-- Zu [ZecHub DAO](https://app.dework.xyz/zechub-2424)-Bounties beiträgst
-- Dem [Zcash Global Discord](https://discord.gg/zcash) beitrittst
-- Am [ZODL Summit in Prag, 8.–10. Juli 2026](https://forum.zcashcommunity.com/t/zodl-summit-july-8-10-in-prague-czech-republic/55716) teilnimmst
+- zu [ZecHub DAO](https://app.dework.xyz/zechub-2424)-Bounties beiträgst
+- dem [Zcash Global Discord](https://discord.gg/zcash) beitrittst

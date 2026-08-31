@@ -4,7 +4,7 @@
 
 # Mti wa chuma
 
-> Ironwood inawashirikisha kwenye Zcash mainnet katika block 3,428,143, inayotarajiwa karibu Julai 28, 2026 UTC.
+> Ironwood ilianzishwa kwenye Zcash mainnet katika block 3,428,143 mnamo Julai 28, 2026 UTC, na imekuwa hai tangu wakati huo.
 
 Nini utachukua mbali: nini Ironwood mabadiliko, kwa nini mdudu katika fedha siri ni kubwa, na jinsi turnstile lets mtu yeyote kuthibitisha kwamba hakuna ZEC ilikuwa bandia.
 
@@ -34,7 +34,7 @@ Muhimu, hakuna ushahidi mdudu alikuwa milele kutumika, hakuna uthibitisho wa ath
 
 Jumuiya ya Zcash ilitoa marekebisho kwa hatua badala ya yote mara moja.
 
-![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activates around July 28, 2026](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activated at block 3,428,143 on July 28, 2026](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
 
 1. Mapema Juni 2026, hatua ya muda ililemaza bwawa la Orchard wakati marekebisho kamili yalikuwa yakiandaliwa.
 2. Upgrading ya NU6.2 ilirekebisha mzunguko wa Orchard yenyewe, ikifunga udhaifu uliokuwa msingi.
@@ -46,7 +46,7 @@ Jumuiya ya Zcash ilitoa marekebisho kwa hatua badala ya yote mara moja.
 
 NU6.2 kupata mzunguko Orchard kwa ajili ya shughuli zote mpya, lakini thamani kuundwa chini ya sheria za zamani bado anakaa katika bwawa orchard. Ironwood inatoa kwamba thamani marudio safi na njia ya kukagua kama ni kusonga.
 
-Ironwood pool ni mpya kulindwa thamani ya ziada kuundwa wakati NU6.3 activates. Ni kujengwa juu mzunguko kusahihishwa na inatumia quantum-recoverable noti format (muundo kwamba lets fedha kuwa kulipwa kama si kitu chochote) [kompyuta quantum](../zcash-tech/post-quantum-security) milele kuvunja cryptography leo), inaelezwa katika [ZIP 2005 - Ujenzi wa Jengo la Makao Makuu ya Ulaya](https://zips.z.cash/zip-2005).
+Ironwood pool ni kulindwa thamani ya kuhifadhi iliyoundwa na NU6.3 katika block 3,428,143. Ni kujengwa juu mzunguko kusahihishwa na inatumia quantum-recoverable noti format (muundo kwamba inaruhusu fedha kuwa kulipwa kama si kuokoa) [kompyuta quantum](../zcash-tech/post-quantum-security) milele kuvunja cryptography leo), inaelezwa katika [ZIP 2005 - Ujenzi wa Jengo la Makao Makuu ya Ulaya](https://zips.z.cash/zip-2005).
 
 1. Baada ya uanzishaji, zamani Orchard bwawa inakuwa matumizi tu, hivyo hakuna thamani mpya inaweza kuingia ndani yake.
 2. Thamani mpya iliyohifadhiwa inapita kwenye Ironwood badala yake.

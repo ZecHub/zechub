@@ -34,7 +34,7 @@ Primeiro, participe da conversa em nossos [links da comunidade](https://zechub.w
 
 ### Guias de estilo
 
-Qualquer contribuição para o ZecHub deve seguir os [guias de estilo do ZecHub](https://github.com/ZecHub/zechub/blob/main/styles/guide.md). Isso inclui wikis, documentação e conteúdo para redes sociais.
+Qualquer contribuição para o ZecHub deve seguir o [guia de estilo do ZecHub](https://zechub.wiki/contribute/style-guide). Isto inclui wikis, documentação e conteúdos para redes sociais.
 
 ### Formas de contribuir
 
@@ -76,7 +76,7 @@ Nosso site wiki fornece materiais educacionais sobre Zcash em um formato fácil 
 - Privacy Ecosystem & Tools
 ```
 
-Estas são áreas bastante amplas, então há muito a partir do que trabalhar. Se você quiser alguma inspiração, confira nosso atual [site de wiki-docs](https://zechub.wiki/) e veja o que está faltando. Depois de decidir sobre o que quer escrever, comece a fazer suas alterações e aprenda como enviar um PR para o repositório do ZecHub. Toda a nossa documentação é criada e mantida neste repositório. Use o [modelo de documentação](https://github.com/ZecHub/zechub/blob/main/template.md) e siga o [estilo do ZecHub](https://zechub.wiki/contribute/style-guide) ao escrever uma página da wiki. Depois de enviar um PR, envie uma mensagem para @dismad, @squirrel ou @vito na seção #zechub do Discord, e eles revisarão seu PR e farão o merge se ele estiver pronto para ser adicionado ao site. Se for feito o merge, eles adicionarão o documento ao site do ZecHub. Se o documento não estiver pronto, eles sugerirão edições para você no PR.
+Estas são áreas bastante amplas, por isso há muito por onde trabalhar. Se quiser alguma inspiração, consulte o nosso atual [site de wiki-docs](https://zechub.wiki/) e veja o que está em falta. Assim que decidir sobre o que quer escrever, comece a fazer as suas alterações e aprenda como submeter um PR para o repositório da ZecHub. Toda a nossa documentação é criada e mantida neste repositório. Siga o [guia de estilo da ZecHub](https://zechub.wiki/contribute/style-guide) ao escrever uma página da wiki e use uma página existente na mesma secção como referência estrutural. Depois de submeter um PR, envie uma mensagem a @dismad, @squirrel ou @vito na secção #zechub do Discord, e eles irão rever o seu PR e fazer merge se estiver pronto para ser adicionado ao site. Se for feito merge, irão adicionar o documento ao site da ZecHub. Se o documento não estiver pronto, irão sugerir-lhe edições no PR.
 
 #### Wiki do ZecHub - 0.015 ZEC por edição aceita na documentação
 

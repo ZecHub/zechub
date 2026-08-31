@@ -22,7 +22,7 @@
 | Sqribbles                  | محتوى إبداعي ومجتمعي موجّه لـ Zcash              | [زيارة ->](https://free2z.cash/sqribbles) |
 | Str4d                      | كتابات تقنية من مطور أساسي في Zcash             | [زيارة ->](https://words.str4d.xyz/) |
 | CipherScan Weekly          | تدوينات أسبوعية تغطي تحليلات بلوكتشين Zcash    | [زيارة ->](https://cipherscan.app/) |
-| Zcash Shielded News        | موجز أسبوعي لأخبار الخصوصية والنظام البيئي                 | [زيارة ->](https://zechub.wiki) |
+| Zcash Shielded News        | موجز أسبوعي لأخبار الخصوصية والنظام البيئي                 | [زيارة ->](https://zechub.substack.com/) |
 | ZecHub DAO Blog            | مقالات ومحتوى تعليمي من مجتمع ZecHub DAO | [زيارة ->](https://zechub.wiki) |
 
 ---

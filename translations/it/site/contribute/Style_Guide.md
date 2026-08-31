@@ -41,7 +41,7 @@ Lo stile di ZecHub è semplice e accessibile. Accogliamo tutti e ci concentriamo
 
 ## Tweet
 
-> Questa guida di stile generale serve per scrivere articoli o guide utente per ZecHub. Per i tweet o le affermazioni brevi, usa la [guida di stile per i tweet](./tweets.md).
+> Questa guida di stile generale serve per scrivere articoli o guide utente per ZecHub. Si applica anche ai tweet e ad altre affermazioni brevi: mantienili concisi, metti il punto principale all'inizio e ometti la punteggiatura finale nelle righe brevi.
 
 ---
 

@@ -22,7 +22,7 @@
 | Sqribbles                  | रचनात्मक और समुदाय-प्रेरित Zcash सामग्री              | [देखें ->](https://free2z.cash/sqribbles) |
 | Str4d                      | Zcash core developer के तकनीकी लेख             | [देखें ->](https://words.str4d.xyz/) |
 | CipherScan Weekly          | Zcash blockchain analytics को कवर करने वाले साप्ताहिक ब्लॉग पोस्ट    | [देखें ->](https://cipherscan.app/) |
-| Zcash Shielded News        | साप्ताहिक privacy और ecosystem समाचार सारांश                 | [देखें ->](https://zechub.wiki) |
+| Zcash Shielded News        | साप्ताहिक privacy और ecosystem समाचार सारांश                 | [देखें ->](https://zechub.substack.com/) |
 | ZecHub DAO Blog            | ZecHub DAO समुदाय के लेख और शैक्षिक सामग्री | [देखें ->](https://zechub.wiki) |
 
 ---

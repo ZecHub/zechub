@@ -4,16 +4,16 @@
 
 # Kuchangia ZecHub
 
-ZecHub husaidia watu kujifunza kuhusu Zcash. Kama wewe ni kusoma ukurasa huu, sisi ni kweli msisimko kwamba wewe ni kuzingatia kuchangia! mchango wowote kufanya itakuwa kutafakari juu ya [zechub.wiki](https://www.zechub.wiki/) na mitandao mingine ya kijamii ya ZecHub.
+ZecHub husaidia watu kujifunza kuhusu Zcash. Kama wewe ni kusoma ukurasa huu, sisi ni kweli msisimko kwamba una kuzingatia kuchangia! mchango wowote kufanya itakuwa kutafakari juu ya fedha taslimu na Bitcoin (ZC) katika siku zijazo za mwaka wa 2017. [zechub.wiki](https://www.zechub.wiki/) and other ZecHub social media.
 
-### Wachangiaji wapya
+### Washiriki wapya wa Tovuti
 
 Ili kupata maelezo ya jumla ya ZecHub, kusoma [README](https://github.com/ZecHub/zechub/blob/main/README.md).
 
 
-### Kuanza
+### Kuanza kuanza
 
-ZecHub uses GitHub to manage community contribution. If you are new to GitHub, not to worry! We are going to break down how you can get involved as a community contributor to ZecHub. We pay out tips in ZEC for accepted contribution. In this guide you will get an overview of the contribution workflow from opening an issue, creating a pull request (PR), reviewing, and merging the PR.
+ZecHub inatumia GitHub kusimamia mchango wa jamii. Kama wewe ni mpya kwa GitHub, usijali! Sisi ni kwenda kuvunja chini jinsi unaweza kushiriki kama mchangiaji jumuiya ya Zechub. Tunalipa nje tips katika ZEC kwa kuchangia kukubalika. Katika mwongozo huu utapata maelezo mafupi ya kazi michango kutoka kufungua suala la kuunda ombi kushinikiza (PR), kupitia upya na kuunganisha PR .
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -30,13 +30,13 @@ ZecHub uses GitHub to manage community contribution. If you are new to GitHub, n
 
 ### Jiunge na mazungumzo
 
-Kwanza, kujiunga na majadiliano katika yetu [viungo jamii](https://zechub.wiki/zcash-community/community-links).
+Kwanza, kujiunga na mazungumzo katika wetu [viungo vya jamii](https://zechub.wiki/zcash-community/community-links).
 
-### Miongozo ya Mtindo
+### Miongozo ya Mtindo wa Kuandika
 
-Yoyote mchango kwa ZecHub lazima kufuata [ZecHub style miongozo](https://github.com/ZecHub/zechub/blob/main/styles/guide.md)Hii inajumuisha wikis, docs na maudhui ya media ya kijamii.
+Michango yoyote kwa ZecHub lazima kufuata utaratibu wa: [ZecHub style mwongozo](https://zechub.wiki/contribute/style-guide)Hii ni pamoja na wikis, docs na vyombo vya habari kijamii.
 
-### Njia unazoweza kuchangia
+### Njia ambazo unaweza kuchangia
 
 ZecHub is a community driven project that aims to provide support and resources for Zcash users and developers. There are many ways to get involved with ZecHub, including writing for our weekly newsletter, contributing to our knowledge base, or helping out with development projects.
 
@@ -44,9 +44,9 @@ Hizi ni aina ya mchango kwamba ZecHub sasa kukubali:
 
 #### Dev Kazi - 0.12 hadi 0.5 ZEC kwa kila PR kupitishwa
 
-Kazi yoyote kupitishwa dev ambayo husaidia kujenga Zcash mazingira. Hii inaweza kujumuisha wiki yetu, pochi mpya, au maombi yoyote unaweza kufikiria.
+Kazi yoyote ya developer iliyokubaliwa ambayo inasaidia kujenga mfumo wa mazingira Zcash. Hii inaweza kujumuisha wiki yetu, pochi mpya au programu nyingine yoyote unayoweza kufikiria.
 
-#### Zcash Tutorials (video) - hadi 0.15 ZEC kwa mafunzo
+#### Zcash Tutorials (video) - hadi 0.15 ZEC kwa mafunzo ya kibinafsi.
 
 Hapa ni mfano wa mafunzo chini:
 
@@ -62,11 +62,11 @@ Hapa ni mfano wa mafunzo chini:
   />
 </div>
 
-Kujenga na kushiriki mafunzo juu ya Zcash programu na kupata tuzo. kuwasilisha PR kwa zechub / tutorials au kutuma video kwa #video-content channel katika Discord. Kama video hukutana vigezo yetu, sisi itakuwa post na ncha wewe.
+Kujenga na kushiriki mafunzo juu ya Zcash programu na kupata tuzo. kuwasilisha PR kwa zechub / tutorials au kutuma video #video-content channel katika Discord. Kama video hukutana vigezo yetu, sisi itakuwa post ni na ncha wewe.
 
 #### ZecHub Wiki - hadi 0.08 ZEC kwa ukurasa mpya wiki kuchapishwa
 
-Tovuti yetu ya wiki hutoa vifaa vya elimu Zcash katika muundo rahisi na digestible. Zcash ni teknolojia ya juu sana na jamii mahiri, hivyo bado kuna nyaraka zaidi tunahitaji kujenga. Lengo letu ni kujenga nyaraka juu ya:
+Tovuti yetu ya wiki hutoa vifaa vya elimu Zcash katika muundo rahisi na digestible. Zcash ni teknolojia ya juu sana kwa jamii mahiri, hivyo bado kuna nyaraka zaidi tunahitaji kujenga. Lengo letu ni kujenga nyaraka kwenye:
 
 ```
 - Zcash and its related technologies
@@ -76,38 +76,38 @@ Tovuti yetu ya wiki hutoa vifaa vya elimu Zcash katika muundo rahisi na digestib
 - Privacy Ecosystem & Tools
 ```
 
-Hizi ni maeneo pretty pana, hivyo kuna mengi ya kazi kutoka. Kama unataka baadhi ya msukumo, kuangalia nje ya sasa [wiki-docs tovuti](https://zechub.wiki/) na kuona nini ni kukosa. Mara baada ya kuamua nini unataka kuandika, kuanza kufanya mabadiliko yako na kujifunza jinsi ya kuwasilisha PR kwa ZecHub repo. docs yetu yote ni kuundwa na kudumishwa katika repo hii. Tumia [docs template](https://github.com/ZecHub/zechub/blob/main/template.md) na kufuata [ZecHub style](https://zechub.wiki/contribute/style-guide) Baada ya kuwasilisha PR, tafadhali ujumbe @dismad, @squirrel, au @vito katika #zechub sehemu ya kutoelewana, na wao kupitia PR yako na kuunganisha kama ni tayari kuongezwa kwenye tovuti. Kama kuunganishwa, wao kuongeza doc kwa tovuti ZecHub. Kama doc si tayari, wao kupendekeza mabadiliko kwa ajili yenu katika PR.
+Hizi ni maeneo pretty pana, hivyo kuna mengi ya kazi kutoka. Kama unataka baadhi msukumo, kuangalia wetu wa sasa makala juu ya jinsi gani unaweza kupata fedha kwa ajili ya kuendesha biashara yako mwenyewe na kufanya uwekezaji katika nchi nyingine za Ulaya. [tovuti ya wiki-docs](https://zechub.wiki/) Na kama wewe ni kuamua nini unataka kuandika, kuanza kufanya mabadiliko yako na kujifunza jinsi ya kuwasilisha PR kwa ZecHub repo. docs yetu yote ni iliyoundwa na kudumishwa katika hii repo. Kufuata maelekezo [ZecHub style mwongozo](https://zechub.wiki/contribute/style-guide) baada ya kuwasilisha PR, tafadhali ujumbe @dismad, @squirrel, au @vito katika #zechub sehemu ya kutoelewana na wao kupitia yako PR na kuunganisha kama ni tayari kwa kuwa aliongeza kwenye tovuti. Kama pamoja, wataongeza doc kwa ZecHub tovuti. Ikiwa document si tayari, watakuwa kupendekeza mabadiliko kwako katika PR.
 
-#### ZecHub Wiki - 0.015 ZEC per accepted edit to docs
+#### ZecHub Wiki - 0.015 ZEC kwa kila kuhariri kukubalika na docs
 
-Wakati mwingine taarifa zetu katika docs si doa juu ya. Hiyo ni sawa. Hiyo ndiyo sababu sisi wazi chanzo yao! Kama wewe kupata kitu ambacho inahitaji mabadiliko katika wiki-doc, tafadhali kwenda footer ya doc (ambayo inaunganisha kwa ukurasa wake Github) na kupendekeza mabadiliko kupitia PR.
+Wakati mwingine taarifa zetu katika docs si doa juu ya. Hiyo ni sawa. Ndiyo sababu sisi wazi chanzo yao! Kama wewe kupata kitu ambacho inahitaji mabadiliko katika wiki-doc, tafadhali kwenda footer wa doc (ambayo inaunganisha kwa ukurasa wake Github) na kupendekeza mabadiliko kupitia PR.
 
-#### ZecHub Wiki - 0.005 ZEC kwa uhusiano kuvunjwa fasta
+#### ZecHub Wiki - 0.005 ZEC kwa kiungo kuvunjwa fasta
 
-Kama unapata kwamba kiungo ni kuvunjwa, au kitu muhimu ni spelled vibaya, tafadhali kwenda footer ya hati (ambayo viungo kwa ukurasa wake Github) na kupendekeza mabadiliko kupitia PR.
+Kama unapata kwamba kiungo ni kuvunjwa, au kitu muhimu imeandikwa vibaya, tafadhali kwenda footer ya hati (ambayo viungo kwa ukurasa wake Github) na kupendekeza mabadiliko kupitia PR.
 
-#### Jarida - 0.05 ZEC kwa toleo
+#### Jarida - 0.05 ZEC kwa toleo moja
 
-Sisi kuzalisha mazingira ya kila wiki jarida. Hii ni super chini lift / njia rahisi ya kushiriki! jarida hutoka kila Ijumaa au Jumamosi. Kama unataka kuandika jarida, ujumbe @squirrel katika #zecweekly sehemu ya Discord kuwajulisha.
+Sisi kuzalisha mazingira ya kila wiki jarida. Hii ni super chini lift / njia rahisi kushiriki! Jarida hutoka kila Ijumaa au Jumamosi. Kama unataka kuandika jarida, ujumbe @squirrel katika #zecweekly sehemu ya Discord kuwajulisha wao.
 
-Baada ya kufanya hivyo, unaweza kwenda [newsletter sehemu ya hazina hii](/newsletter/newsletterbasics.md) na kuwasilisha ombi kuvuta kuunda toleo jipya la jarida. Tafadhali kufuata format kutumika katika hii [template](/newsletter/newslettertemplate.md).
+Baada ya kufanya hivyo, unaweza kwenda kwa [sehemu ya jarida la hifadhi hii](/newsletter/newsletterbasics.md) na kuwasilisha ombi kuvuta kujenga toleo jipya la jarida. Tafadhali fuata format kutumika katika hii [template (kiolezo)](/newsletter/newslettertemplate.md).
 
-Baada ya kufanya hivyo @squirrel au (katika Discord) utaona kwamba toleo lako jipya la jarida inapatikana, na wao itabidi kupitia na kisha kuunganisha kwa hazina. Baada ya kuwa ilijiunga, wao itagundua maudhui na baada yake kupitia Substack.
-
-
-#### Podcast - .25 ZEC kwa kila kipindi posted on ZecHub socials
-
-Je, una wazo kwa ajili ya habari show, podcast, mazungumzo Twitter, au nyingine video / sauti kitu? Tuambie katika Discord # video-yaliyomo na tutaweza kuzungumza.
-
-Rewards for this type of content are a bit larger, so a proposal would need to be submitted to ZecHub's DAO before approving the spend.
+Baada ya kufanya hivyo @squirrel au (katika Discord) utaona kwamba toleo lako jipya la jarida inapatikana, na wao itabidi kupitia upya kisha kuunganisha kwa hazina. baada ni pamoja, watachukua maudhui na post it via Substack .
 
 
-#### Mawazo mengine? Tujulishe!
+#### Podcast - .25 ZEC kwa kila kipindi posted juu ya ZecHub kijamii.
 
-Je, una pendekezo jingine? Tuambie katika #general on Discord. Tunaweza kulizungumzia na kuona ikiwa DAO ya ZecHub itaunga mkono.
+Je, una wazo la habari show, podcast, mazungumzo Twitter, au nyingine video / sauti kitu? Tuambie katika Discord #video-ya maudhui na tutaweza kuzungumza.
 
-### Kukamilisha
+Tuzo kwa aina hii ya maudhui ni kidogo kubwa, hivyo pendekezo ingekuwa haja ya kuwasilishwa na ZecHub DAO kabla ya kupitisha matumizi.
 
-Please do not hesitate to get started contributing to one of the industry's most respected protocols. This is a great way to get involved with Zcash. If you have any questions about contributing, please let us know on [Discord](#join-the-conversation).
+
+#### Je, kuna maoni mengine? Tuambie!
+
+Je, una pendekezo jingine? Tuambie katika #jumla kwenye Discord. Tunaweza kujadili na kuona kama DAO ya ZecHub itaunga mkono hilo.
+
+### Kukamilisha Kazi
+
+Tafadhali usisite kuanza kuchangia moja ya viwanda vya itifaki kuheshimiwa zaidi. Hii ni njia kubwa ya kushirikiana na Zcash. Kama una maswali yoyote kuhusu kuchangisha, tafadhali tujulishe juu ya [Uhasama](#join-the-conversation).
 
 Asanteni!

@@ -1,16 +1,16 @@
 # MultiSig Demo a Wɔde Kyerɛkyerɛ
 
-> **Abakɔsɛm kyerɛwtohɔ. Saa akwankyerɛ yi nyɛ adwuma bio.**
+> **Abakɔsɛm mu nsɛm. Saa nantew yi ntu mmirika bio.**
 >
-> Anammɔn a ɛwɔ ase ha nyinaa gyina zcashd so, na zcashd gyinaa hɔ ankasa wɔ July 18, 2026, bere a ne mmoa baa awiei. Nkyerɛwee ason a ɛka saa krataafa yi ho no de `zcash-cli` na ɛdi dwuma, enti wɔn mu biara ntumi nnu node a ɛreyɛ adwuma so nnɛ.
+> Anamɔn biara a ɛwɔ aseɛ ha no gyina zcashd so, a ɛduruu ne automatic End-of-Support halt wɔ 18 July 2026. Scripts nson a wɔde mena wɔ krataafa yi nkyɛn no ma ɛkɔ mu `zcash-cli`, enti wɔn mu biara ntumi nkɔ node a ɛretu mmirika nnɛ.
 >
-> Wontumi mfa saa nkyerɛwee yi nkɔ baabi foforo tẽẽ: egyina RPC a ɛfa raw transaction ne sika kotokuo ho a zcashd agyae so, na Zallet de akwan foforo a ɛde PCZT di dwuma sen raw transaction hex asi wɔn ananmu.
+> Wontumi mfa mfiri mfa saa script ahorow yi nkɔ baabi foforo. Wɔde asi raw-transaction ne wallet RPC ahorow (`createrawtransaction`, `signrawtransaction`, `createmultisig`, `dumpprivkey`) sɛ zcashd deprecated ansa na wɔregyae; Zallet de akwan foforɔ a ɛyɛ adwuma wɔ PCZTs so sene raw transaction hex si wɔn ananmu, na ɛda so ara wɔ beta mu a zcashd akwan pii a wonnya nkɔɔ hɔ.
 >
-> Sɛ wopɛ nnipa pii nsiakyi wɔ Zcash so nnɛ a, hwɛ [FROST ne threshold nsiakyi](/zcash-tech/frost-threshold-custody) ne [Ywallet FROST demo](/guides/frostdemo/ywallet-frost-demo). Sɛ wopɛ sɛ wotu node a ɛwɔ hɔ dedaw fi zcashd so a, hwɛ [Zebra ne Zallet akwankyerɛ](/guides/migration-guide-zcashd-to-zebrad-zallet).
+> Sɛ wopɛ multi-party custody wɔ Zcash nnɛ a, hwɛ [FROST & Threshold Nhwɛsode](/zcash-tech/frost-threshold-custody), a nea ɛka ho ne ntotoho tẽẽ a ɛne multisig a ɛda adi pefee, ne adwumayɛ [Ywallet FROST ho ɔyɛkyerɛ](/guides/frostdemo/ywallet-frost-demo). Sɛ wopɛ sɛ wode node a ɛwɔ hɔ dedaw no fi zcashd so a, hwɛ [atutra ho akwankyerɛ a ɛkɔ Zebra ne Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
 >
-> Yɛde saa krataafa yi asie sɛ abakɔsɛm kyerɛwtohɔ a ɛfa transparent multisig adwuma nhyehyɛe ho.
+> Wɔde krataafa yi sie sɛ abakɔsɛm kyerɛwtohɔ a ɛfa multisig adwumayɛ nhyehyɛe a ɛda adi pefee no ho.
 
-Saa demo yi hwehwɛ sɛ wɔde zcashd 
+Saa demo yi hwehwɛ zcashd, a ɛgyinaa wɔ 18 July 2026 na ɛnkɔ so bio. Biribiara nni ase hɔ a wobetumi awie atia nkɔnsɔnkɔnsɔn a ɛte ase no.
 
 ## Boaboa ɔmanfo nsafe ano fi ankorankoro a wohia hɔ
 
@@ -53,7 +53,7 @@ redeemScript: The hex value of the redeemScript that was output when creating ou
 
 ```
 
-`./txDetails.sh txid` => bɛboa wo ma woanya nsɛm a wohia
+`./txDetails.sh txid` => bɛboa wo ma woanya nsɛm a ehia
 
 ```
 
@@ -81,7 +81,7 @@ Sɛ wowɔ kwan kɔ wo kokoam safe nyinaa so a wubetumi de ne nyinaa adi dwuma pr
 nanso wɔ wiase ankasa nhwɛso dodow no ara mu no, wɔde wɔn nsa bɛhyɛ ase denam folks a wɔwɔ wiase nyinaa so enti ɛho behia sɛ wɔn a wɔhwehwɛ sɛ wɔde wɔn ho hyɛ mu no mu biara de ne nsa hyɛ ase, .
 afei fa raxTX "hex" output a wɔayɛ no foforo a afoforo no de bedi dwuma de ahyɛ wɔn nsa de awie nsaano nkyerɛwee no san kɔ.
 
-Obiara a ɔbɔ tx a edi kan no, ɔde wɔn kokoam safoa bɛhyɛ aseɛ na ɔde rawTX hex a wɔayɛ no foforɔ a ɛhia sɛ wɔn a wɔde wɔn ho hyɛɛ mu afoforɔ no de wɔn nsa hyɛ aseɛ no akɔ.
+Nea ɔbɔ tx a edi kan no, de wɔn kokoam safoa no bɛhyɛ aseɛ na ɔde rawTX hex a wɔayɛ no foforɔ a ɛhia sɛ wɔn a wɔde wɔn ho hyɛɛ mu afoforɔ no de wɔn nsa hyɛ aseɛ no akɔ.
 
 `./signMultiSigTX.sh rawTX txid voutIndex scriptPubKey redeemScript valueInitialTX`
 
@@ -90,8 +90,10 @@ Sɛ wode wo nsa hyɛ tx yi ase a, anyɛ yiye koraa no, ɛsɛ sɛ kokoam safe abi
 
 `zcash-cli dumpprivkey "t-addr"`
 
+Saa ahyɛdeɛ yi gyaee ne zcashd na ɛnsan mfa hwee mma ɛnnɛ; wɔakyere agu ha de akyerɛ sɛnea demo no nyaa ne nsafe no nkutoo.
 
-Wɔ saa demo yi mu no, mede iancoleman bip39 adi dwuma de atew kokoam nsafe a ehia no ho ntɛmntɛm.
+
+Wɔ saa demo yi mu no, mede iancoleman bip39 adi dwuma de atew kokoam safe a ehia no ho ntɛmntɛm.
 
 
 ## Broadcast de wɔn nsa hyɛɛ ase TX

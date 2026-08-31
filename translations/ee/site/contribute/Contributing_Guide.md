@@ -4,16 +4,16 @@
 
 # Nudzɔdzɔ na ZecHub
 
-ZecHub kpena ɖe amewo ŋu be woasrɔ̃ nu tso Zcash ŋu. Ne èle axa sia xlẽm la, dzi dzɔ mí ŋutɔ be èle nudzɔdzɔ ŋu bum! Nudzɔdzɔ ɖesiaɖe si nàwɔ la, woaɖee afia le [zechub.wiki](https://www.zechub.wiki/) kple ZecHub ƒe hadomenyatakakadzraɖoƒe bubuwo.
+ZecHub kpena ɖe amewo ŋu be woasrɔ̃ nu tso Zcash ŋu. Ne èle axa sia xlẽm la, dzi dzɔ mí ŋutɔ be èle nudzɔdzɔ ŋu bum! Woade ŋugble le nudzɔdzɔ ɖesiaɖe si nàwɔ ŋu [zechub.wiki dzi](https://www.zechub.wiki/) kple ZecHub ƒe hadomenyatakakadzraɖoƒe bubuwo.
 
 ### Nudzɔla yeyewo
 
-Ne èdi be yeakpɔ ZecHub ƒe nyatakaka kpui aɖe la, xlẽ [README](https://github.com/ZecHub/zechub/blob/main/README.md).
+Ne èdi be yeakpɔ ZecHub ƒe nyatakaka kpui aɖe la, xlẽ... [XLẼ ME](https://github.com/ZecHub/zechub/blob/main/README.md).
 
 
 ### Gɔmedzedze
 
-ZecHub zãa GitHub tsɔ kpɔa nutoa me ƒe nudzɔdzɔ dzi. Ne ènye ame yeye le GitHub la, mègatsi dzi o! Míele alesi nàte ŋu akpɔ gome le eme abe nutoa me tɔwo ƒe nudzɔla ene le ZecHub me la me tom. Míexea aɖaŋuɖoɖowo le ZEC me ɖe nudzɔdzɔ si dzi woda asi ɖo ta. Le mɔfiame sia me la, àkpɔ nudzɔdzɔ ƒe dɔwɔwɔ ƒe wɔwɔfia tso nya aɖe ʋuʋu, hehe biabia (PR) wɔwɔ, ŋkuléle ɖe eŋu, kple PR la ƒoƒo ƒu me.
+ZecHub zãa GitHub tsɔ kpɔa nutoa me ƒe nudzɔdzɔ dzi. Ne ènye ame yeye le GitHub la, mègatsi dzi o! Míele alesi nàte ŋu akpɔ gome le eme abe nutoa me tɔwo ƒe nudzɔla ene le ZecHub me la me tom. Míexea aɖaŋuɖoɖowo le ZEC me ɖe nudzɔdzɔ si dzi woda asi ɖo ta. Le mɔfiame sia me la, àkpɔ nudzɔdzɔ ƒe dɔwɔwɔ ƒe wɔwɔfia tso nya aɖe ʋuʋu, hehe ƒe biabiawo (PR) wɔwɔ, ŋkuléle ɖe eŋu, kple PR la ƒoƒo ƒu me.
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -30,11 +30,11 @@ ZecHub zãa GitHub tsɔ kpɔa nutoa me ƒe nudzɔdzɔ dzi. Ne ènye ame yeye le 
 
 ### Wɔ ɖeka kple dzeɖoɖoa
 
-Gbã la, wɔ ɖeka kple dzeɖoɖoa le míaƒe [nutoa me kadodowo me](https://zechub.wiki/zcash-community/community-links).
+Gbã la, wɔ ɖeka kple dzeɖoɖoa le míaƒe [nutoa me tɔwo ƒe kadodowo](https://zechub.wiki/zcash-community/community-links).
 
 ### Atsyã ƒe Mɔfiamewo
 
-Ele be nudzɔdzɔ ɖesiaɖe si woawɔ na ZecHub nawɔ ɖe [ZecHub ƒe atsyã ƒe mɔfiamewo dzi](https://github.com/ZecHub/zechub/blob/main/styles/guide.md). Esia lɔ wikiwo, nuŋlɔɖiwo kple hadomenyatakakadzraɖoƒewo ɖe eme.
+Ele be nudzɔdzɔ ɖesiaɖe si woawɔ na ZecHub nakplɔ... [ZecHub ƒe atsyã ƒe mɔfiame](https://zechub.wiki/contribute/style-guide). Esia lɔ wikiwo, nuŋlɔɖiwo kple hadomenyatakakadzraɖoƒewo ɖe eme.
 
 ### Mɔ siwo dzi nàto akpe asi ɖe eŋu
 
@@ -76,11 +76,11 @@ Míaƒe wiki nyatakakadzraɖoƒea naa Zcash ƒe hehenananuwo le nɔnɔme bɔbɔe
 - Privacy Ecosystem & Tools
 ```
 
-Esiawo nye teƒe siwo keke ŋutɔ, eyata nu geɖe li woawɔ dɔ tsoe. Ne èdi be yeakpɔ gbɔgbɔ aɖe la, kpɔ míaƒe [wiki-docs nyatakakadzraɖoƒe si li fifia](https://zechub.wiki/) eye nàkpɔ nusi bu. Ne ènya nya nusi nèdi be yeaŋlɔ ko la, dze wò tɔtrɔwo wɔwɔ gɔme eye nàsrɔ̃ alesi nàtsɔ PR aɖo ZecHub ƒe nudzraɖoƒea. Wowɔ míaƒe docs katã eye woléa be na wo le repo sia me. Zã [docs ƒe nɔnɔmetata](https://github.com/ZecHub/zechub/blob/main/template.md) eye nàwɔ ɖe [ZecHub ƒe atsyã dzi](https://zechub.wiki/contribute/style-guide) ne èle wiki ƒe axa aɖe ŋlɔm. Ne èɖo PR ɖa vɔ la, taflatse ŋlɔ gbedasi ɖe @dismad, @squirrel, alo @vito le #zechub ƒe akpa si le masɔmasɔa me, eye woalé ŋku ɖe wò PR ŋu eye woaƒo ƒu nenye be ele klalo be woatsɔe akpe ɖe nyatakakadzraɖoƒea ŋu. Ne wotsɔ wo ƒo ƒui la, woatsɔ doc la akpe ɖe ZecHub ƒe nyatakakadzraɖoƒea ŋu. Ne doc la mele klalo o la, woaɖo aɖaŋu na wò be nàtrɔ asi le eŋu le PR la me.
+Esiawo nye teƒe siwo keke ŋutɔ, eyata nu geɖe li woawɔ dɔ tsoe. Ne èdi be yeakpɔ gbɔgbɔmeʋaʋã aɖe la, ke kpɔ míaƒe fififi [wiki-docs ƒe nyatakakadzraɖoƒe](https://zechub.wiki/) eye nàkpɔ nusi bu. Ne ènya nya nusi nèdi be yeaŋlɔ ko la, dze wò tɔtrɔwo wɔwɔ gɔme eye nàsrɔ̃ alesi nàtsɔ PR aɖo ZecHub ƒe nudzraɖoƒea. Wowɔ míaƒe docs katã eye woléa be na wo le repo sia me. Dze ɖe... [ZecHub ƒe atsyã ƒe mɔfiame](https://zechub.wiki/contribute/style-guide) ne èle wiki ƒe axa ŋlɔm, eye nàzã axa si li xoxo le akpa ma ke me abe xɔtuɖoɖo ƒe nufiame ene. Ne èɖo PR ɖa vɔ la, taflatse ŋlɔ gbedasi ɖe @dismad, @squirrel, alo @vito le #zechub ƒe akpa si le masɔmasɔa me, eye woato wò PR me eye woaƒo ƒu nenye be ele klalo be woatsɔe akpe ɖe nyatakakadzraɖoƒea ŋu. Ne wotsɔ wo ƒo ƒui la, woatsɔ doc la akpe ɖe ZecHub ƒe nyatakakadzraɖoƒea ŋu. Ne doc la mele klalo o la, woaɖo aɖaŋu na wò be nàtrɔ asi le eŋu le PR la me.
 
 #### ZecHub Wiki - 0.015 ZEC ɖesiaɖe si woxɔ ɖɔɖɔɖo ɖe docs ŋu
 
-Ɣeaɖewoɣi la, míaƒe nyatakaka siwo le docs la me menɔa spot on o. Thats okay. Esia tae míeʋua woƒe dzɔtsoƒe nu! Ne èkpɔ nane si hiã tɔtrɔ le wiki-doc me la, taflatse yi doc ƒe afɔti (si do ƒome kple eƒe Github axa) eye nàdo susu ɖa be nàwɔ tɔtrɔ to PR dzi.
+Ɣeaɖewoɣi la, míaƒe nyatakaka siwo le docs me la medzena le teƒe ɖeka o. Thats okay. Esia tae míeʋua woƒe dzɔtsoƒe nu! Ne èkpɔ nane si hiã tɔtrɔ le wiki-doc me la, taflatse yi doc ƒe afɔti (si do ƒome kple eƒe Github axa) eye nàdo susu ɖa be nàwɔ tɔtrɔ to PR dzi.
 
 #### ZecHub Wiki - 0.005 ZEC ɖe kadodo si gblẽ ɖesiaɖe si woɖɔ ɖo
 
@@ -88,11 +88,11 @@ Ne èkpɔ be kadodo aɖe gblẽ, alo woŋlɔ nu vevi aɖe vodadatɔe la, taflats
 
 #### Nyadzɔdzɔgbalẽ - 0.05 ZEC le tata ɖesiaɖe me
 
-Míewɔa lãwo ƒe agbenɔnɔ ŋuti nyadzɔdzɔgbalẽ kwasiɖa sia kwasiɖa. Esia nye super low lift / mɔ bɔbɔe si dzi nàto akpɔ gome le eme! Nyadzɔdzɔgbalẽa dona le Dzoɖa alo Memleɖa ɖesiaɖe. Ne èdi be yeaŋlɔ nyadzɔdzɔgbalẽ la, ŋlɔ gbedasi na @squirrel le #zecweekly ƒe akpa si le Discord la me be nàna woanya.
+Míewɔa lãwo ƒe agbenɔnɔ ŋuti nyadzɔdzɔgbalẽ kwasiɖa sia kwasiɖa. Esia nye super low lift / mɔ bɔbɔe si dzi nàto akpɔ gome le eme! Nyadzɔdzɔgbalẽa dona le Dzoɖa alo Memleɖa ɖesiaɖe. Ne èdi be yeaŋlɔ nyadzɔdzɔgbalẽ la, ɖo gbedasi ɖe @squirrel ɖe #zecweekly ƒe akpa si le Discord la me be nàna woanya.
 
-Ne èwɔ ema vɔ la, àte ŋu ayi [nyadzɔdzɔgbalẽ ƒe akpa si le nudzraɖoƒe sia](/newsletter/newsletterbasics.md) eye nàtsɔ hehe ƒe biabiawo aɖo ɖa be woawɔ nyadzɔdzɔgbalẽa ƒe tata yeye. Taflatse wɔ ɖe ɖoɖo si wozã le [template” sia me dzi](/newsletter/newslettertemplate.md).
+Ne èwɔ ema vɔ la, àte ŋu ayi... [nyadzɔdzɔgbalẽwo ƒe akpa si le nudzraɖoƒe sia](/newsletter/newsletterbasics.md) eye nàtsɔ hehe ƒe biabiawo aɖo ɖa be woawɔ nyadzɔdzɔgbalẽa ƒe tata yeye. Taflatse wɔ ɖe ɖoɖo si wozã le esia me dzi [template ƒe nɔnɔmetata](/newsletter/newslettertemplate.md).
 
-Ne èwɔ esia vɔ la @squirrel alo (le Discord me) akpɔe be wò nyadzɔdzɔgbalẽ ƒe tata yeyea li, eye woalé ŋku ɖe eŋu eye emegbe woatsɔe aƒo ƒu ɖe nudzraɖoƒea. Ne wotsɔe ƒo ƒu vɔ la, woaxɔ emenyawo eye woatsɔe aɖo ɖe amewo to Substack dzi.
+Ne èwɔ esia vɔ la @squirrel alo (le Discord me) akpɔe be wò nyadzɔdzɔgbalẽa ƒe tata yeyea li, eye woalé ŋku ɖe eŋu eye emegbe woatsɔe aƒo ƒu ɖe nudzraɖoƒea. Ne wotsɔe ƒo ƒu vɔ la, woaxɔ emenyawo eye woatsɔe aɖo ɖe amewo to Substack dzi.
 
 
 #### Podcast - .25 ZEC le akpa ɖesiaɖe si woda ɖe ZecHub socials dzi
@@ -108,6 +108,6 @@ Aɖaŋuɖoɖo bubu aɖe le asiwòa? Gblɔe na mí le #general me le Discord dzi.
 
 ### Be Woawu Enu
 
-Taflatse mègahe ɖe megbe le nudzɔdzɔ wɔwɔ gɔme le dɔwɔƒea ƒe ɖoɖo siwo ŋu wodea bubui wu la dometɔ ɖeka ŋu o. Esia nye mɔ nyui aɖe si dzi nàto aƒo ɖokuiwò ɖe Zcash me. Ne nya aɖe le asiwò ku ɖe nudzɔdzɔ ŋu la, taflatse na míanya le [Discord](#join-the-conversation).
+Taflatse mègahe ɖe megbe le nudzɔdzɔ wɔwɔ gɔme le dɔwɔƒea ƒe ɖoɖowɔɖi siwo ŋu wodea bubui wu la dometɔ ɖeka ŋu o. Esia nye mɔ nyui aɖe si dzi nàto aƒo ɖokuiwò ɖe Zcash me. Ne nya aɖe le asiwò ku ɖe nudzɔdzɔ ŋu la, taflatse na míanya le edzi [Masɔmasɔ](#join-the-conversation).
 
 Akpe!

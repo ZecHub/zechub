@@ -1,39 +1,39 @@
 # MultiSig 演示
 
-> **历史存档。本教程已无法运行。**
+> **历史内容。此演练已无法再运行。**
 >
-> 以下所有步骤都依赖 zcashd，而 zcashd 已于 2026 年 7 月 18 日达到自动的支持终止停机。本页附带的七个脚本通过 `zcash-cli` 驱动它，因此今天它们都无法连接到正在运行的节点。
+> 下面的每一步都依赖 zcashd，而它已于 2026 年 7 月 18 日到达自动停止支持（End-of-Support）并停机。与本页一同提供的七个脚本通过 `zcash-cli` 驱动它，因此如今这些脚本都无法连接到正在运行的节点。
 >
-> 这些脚本无法机械地移植：它们建立在 zcashd 已弃用的原始交易和钱包 RPC 之上，而 Zallet 用基于 PCZT 而非原始交易 hex 的新方法取代了它们。
+> 这些脚本无法机械式移植。它们基于原始交易和钱包 RPC（`createrawtransaction`, `signrawtransaction`, `createmultisig`, `dumpprivkey`），而 zcashd 在停机前就已弃用这些接口；Zallet 则用新的方法替代了它们，这些方法操作的是 PCZT 而不是原始交易 hex，并且目前仍处于 beta 阶段，许多 zcashd 方法尚未移植过去。
 >
-> 关于当前 Zcash 上的多方托管，请参阅 [FROST 与门限托管](/zcash-tech/frost-threshold-custody) 以及可用的 [Ywallet FROST 演示](/guides/frostdemo/ywallet-frost-demo)。如需将现有节点从 zcashd 迁移，请参阅[迁移到 Zebra 和 Zallet 的指南](/guides/migration-guide-zcashd-to-zebrad-zallet)。
+> 如今若要在 Zcash 上进行多方托管，请参阅 [FROST 与阈值托管](/zcash-tech/frost-threshold-custody)，其中包含与透明 multisig 的直接对比，以及可运行的 [Ywallet FROST 演示](/guides/frostdemo/ywallet-frost-demo)。如果要将现有节点迁移出 zcashd，请参阅 [迁移到 Zebra 和 Zallet 的指南](/guides/migration-guide-zcashd-to-zebrad-zallet)。
 >
-> 本页作为透明 multisig 工作流程的历史记录予以保留。
+> 保留此页面是为了作为透明 multisig 工作流程的历史记录。
 
-此演示需要 `zcashd` 
+此演示需要 zcashd，而它已于 2026 年 7 月 18 日停机，现已无法运行。下面的任何内容都无法在真实链上完成。
 
 ## 收集所需参与者的公钥
 
 * https://github.com/iancoleman/bip39
-* 如果使用 zcashd，你也可以创建一个 UA，并同时使用你的 transparent reciever。然后使用 `getPubkey.sh` 提取你的公钥。
+* 如果使用 zcashd，你也可以创建一个 UA，并同样使用你的透明接收器。然后使用 `getPubkey.sh` 提取你的公钥。
 
 
-## 创建 2x Multisig（3 选 2）t3 地址
+## 创建 2 个 Multisig（3 选 2）t3 地址
 
-运行 createMultiSig.sh 以生成你的 multisig 地址和 redeem script。需要 3 个公钥
+运行 createMultiSig.sh 来生成你的 multisig 地址和赎回脚本。需要 3 个公钥
 
 `./createMultiSig.sh pubk1 pubk2 pubk3`      # 第 1 个 t3
 
-`./createMultiSig.sh pubk4 pubk5 pubk6`      # 第 2 个 t3，用于找零地址。 
+`./createMultiSig.sh pubk4 pubk5 pubk6`      # 用于找零地址的第 2 个 t3。 
 
-#### 注意：在此示例中，pubk1、pubk4 是同一个人，pubk2、pubk5 是同一个人，以此类推 ...
+#### 注意：在这个示例中，pubk1、pubk4 是同一个人，pubk2、pubk5 是同一个人，依此类推……
 
-#### 注意2：你的公钥顺序很重要！务必注意这一点！！！
+#### 注意 2：你的公钥顺序很重要！一定要注意这一点！！！
 
 
 ## 向 t3 地址注资
 
-使用任意钱包/facuet 向该地址注资
+使用任意钱包/水龙头向该地址注资
 
 ## 创建 MultiSig 交易
 
@@ -42,18 +42,18 @@
 其中，
 
 ```
-        txid: 向你的新 t3 转入资金的那笔交易的交易 ID
-   voutIndex: vout 中数值最大的输出索引
-scriptPubKey: P2SH 锁定脚本包含另一个锁定脚本的哈希值（Script Hash），并由 HASH160 和 EQUAL 操作码包围。这是十六进制格式，可通过 getrawtransaction rpc 获取，查找 scriptPubKey
-redeemScript: 创建 t3 时输出的 redeemScript 的十六进制值。所有想从该 t3 花费资金的人都需要它。
-   oldAmount: 从上面的 txid 转入你的新 t3 的金额
-       tAddy: 你想发送资金到的地址
-      amount: 要发送到 tAddy 的 ZEC 数量
- changeTaddy: 找零地址（新的 t3，带有新的 redeemScript！）
+        txid: a transaction ID of the transaction that sent money into your new t3
+   voutIndex: the index of the output in vout which has the largest value
+scriptPubKey: The P2SH locking script contains the hash of another locking script (Script Hash), surrounded by the HASH160 and EQUAL opcodes. This is in hex, and is found via getrawtransaction rpc, look for scriptPubKey
+redeemScript: The hex value of the redeemScript that was output when creating our t3. This is needed by all folks who want to spend from the t3.
+   oldAmount: Amount sent to your new t3 from the txid above
+       tAddy: The address you want to send funds to
+      amount: The amount of ZEC to send to tAddy
+ changeTaddy: Change address (new t3 with a new redeemScript!)
 
 ```
 
-`./txDetails.sh txid`   => 将帮助你找到所需信息
+`./txDetails.sh txid`   => 会帮助你找到所需信息
 
 ```
 
@@ -69,32 +69,34 @@ scriptPubKey      : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed
 
 
 
-## 对 MultiSig TX 进行签名
+## 签署 MultiSig 交易
 
-打开 signMultiSigTX.sh，并将你的私钥添加到 pk1、pk2、... 这些变量中。
+打开 signMultiSigTX.sh，并将你的私钥添加到 pk1、pk2、... 变量中。
  
 
-*** 我不建议你把这些内容直接输入到终端中。 ***
+*** 我不建议把这些内容输入到你的终端中。 ***
 
 
-如果你可以访问自己所有的私钥，可以一次性全部使用以节省时间，
-但在大多数现实场景中，签名会由分布在世界各地的参与者完成，因此每位所需参与者都需要签名，
-然后发回更新后的 raxTX “hex” 输出，供其他人继续签名以完成整个签名流程。
+如果你能访问自己所有的私钥，可以一次性全部使用以节省时间，
+但在大多数现实世界的示例中，签名会由世界各地的人分别完成，因此每位所需参与者都需要签名，
+然后把更新后的 raxTX “hex” 输出发回，供其他人继续签名，以完成整个签名流程。
 
-谁创建了第一笔交易，谁就会先用自己的私钥签名，然后把需要其他参与者签名的更新版 rawTX hex 发出去。
+创建第一笔交易的人会先用自己的私钥签名，然后把需要其他参与者签名的更新版 rawTX hex 发送出去。
 
 `./signMultiSigTX.sh rawTX txid voutIndex scriptPubKey redeemScript valueInitialTX`
 
-要签署这笔交易，三把私钥中至少需要两把进行签名。如果你提供的公钥是使用 zcashd 的 T-address 导出的，你可以通过以下方式获取你的 T 地址私钥： 
+要签署这笔交易，三把私钥中至少需要有两把进行签名。如果你提供的公钥是使用 zcashd 的 T-address 导出的，你可以通过以下方式获取你的 T 地址私钥： 
 
 
 `zcash-cli dumpprivkey "t-addr"`
+
+该命令已随 zcashd 一同停用，如今不会返回任何内容；这里记录它只是为了说明这个演示当时是如何获取密钥的。
 
 
 在这个演示中，我使用了 iancoleman 的 bip39 来快速分离出所需的私钥。
 
 
-## 广播已签名的 TX
+## 广播已签名交易
 
 `./sendMultiSignedTX.sh signedTXfromLastStep`
 

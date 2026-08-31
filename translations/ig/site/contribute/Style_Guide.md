@@ -1,47 +1,47 @@
 # Ntuziaka Ụdị ZecHub
 
-Ụdị ZecHub dị mfe ma na-abịaru nso. Anyị na-anabata onye ọ bụla ma lekwasị anya na obodo Zcash.
+Ụdị ZecHub dị mfe ma bụrụ onye a na-abịakwute. Anyị nabatara mmadụ niile ma lekwasị anya n'obodo Zcash.
 
-## Ụkpụrụ
+## Ụkpụrụ Ndị E Ji Eme Ihe
 
-1. ** Njikere inye aka ** - Gosi ndị ọrụ Zcash na anyị nọ n'akụkụ ha.
+1. ** Njikere inye aka** - Gosi ndị ọrụ Zcash na anyị nọ n'akụkụ ha.
 
-2. ** Na-ekwu okwu n'ụzọ dị nkenke ma doo anya:** Na-ezipụ ozi dị mfe o kwere mee. Malite na isi ihe kasị mkpa.
+2. ** Na-ekwu okwu nkenke ma kwuo kpọmkwem ihe ị chọrọ ikwu:** Gwa ya otú ọ ga-esi kọwaa gị. Malite n'ihe kacha mkpa i kwesịrị ịgwa ya.
 
-3. Onye ọrụ-centric: Anyị na-ede maka ndị ọrụ mbụ, ndị mmepe nke abụọ, na onye ọ bụla ọzọ nke atọ.
+3. ** Onye ọrụ-centric:** Anyị na ede maka ndị ọrụ mbụ, mmepe nke abụọ, na onye ọ bụla ọzọ atọ.
 
-## Ihe Ndị Bụ́ Isi
+## Ihe Ndị Bụ́ Isi E Kwesịrị Ịma
 
-- **Nweta isi okwu**. Malite na isi ihe kachasị mkpa. Okwu ndị dị n'ihu maka skimming. Mee ka nhọrọ onye ọrụ na nzọụkwụ ndị ọzọ doo anya.
+- **Nweta isi okwu**. Malite na ihe kachasị mkpa. Okwu ndị dị n'ihu maka skimming. Mee ka nhọrọ onye ọrụ ahụ doo anya yana usoro ọzọ.
 
-- **Dee ka ị na-ekwu okwu**. Ndị ọrụ anyị bụ ndị dị adị. Gwa ha okwu n'edemede.
+- **Dee ka ị na-ekwu okwu** Ndị ọrụ anyị bụ ndị mmadụ. Gwa ha okwu n'edemede.
 
-- Mee ka okwu gị dị nkenke. Nye ndị ọrụ ihe ọmụma zuru ezu iji dozie nsogbu ma ọ bụ mee nhọrọ.
+- **Kwuo okwu nkenke**. Nye ndị ọrụ ihe ọmụma zuru ezu ka ha wee dozie nsogbu ma ọ bụ mee nhọrọ.
 
 - **Skip periods in titles**. Remove the end punctuation on titles, headings, subheads, UI titles, and list items with three or fewer words. Periods are used in paragraphs and body copy.
 
-  - Ihe Nlereanya: Pịa bọtịnụ Ziga-> Pịa Send button
+  - Ihe Nlereanya: Pịa bọtịnụ Send->Pịa bọtịn Ziga.
 
-- ** Mgbe ị na-enwe obi abụọ, zere iji mkpụrụedemede mee ihe**. Naanị jiri mkpụrụokwu ma ọ bụ aha dị ka Zcash, yana okwu mbụ nke aha ma ọ bụkwanụ ahịrịokwu.
+- ** Mgbe ị na-enwe obi abụọ, zere iji mkpụrụedemede mee ihe. Naanị jiri isi okwu ma ọ bụ aha dị ka Zcash, yana okwu mbụ nke isiokwu ma ọ bụkwanụ ahịrịokwu.
 
-  - Ihe Nlereanya: Otu esi eziga ZEC na Unified Address. → Otu esi zipu ZEC site na adreesị dị n'otu
+  - Examples: How to Send ZEC with Unified Address. → How to send ZEC with unified address
 
-- **Detuo ederede na-adịghị ike**. Ọtụtụ oge, bido ahịrịokwu ọ bụla site na ngwaa. Ị nwere ike ma e nwere kwesịrị ka a degharịa ya.
+- **Detuo ederede na-adịghị ike**. Ọtụtụ oge, bido ahịrịokwu ọ bụla site n'ime ngwaa ị nwere ike ma e kwesịrị ka a degharịa ya.
 
-  - Ihe Nlereanya: Ị nwere ike izipu ma nata ZEC site na ekwentị mkpanaaka gị->Ziga ma nata zEC na ekwentị gị
+  - Ihe Nlereanya: Ị nwere ike izipu ma nata ZEC site na ekwentị mkpanaaka gị->Ziga ma nweta ZEC na ekwentị gị.
 
-- Ejila naanị otu oghere n'azụ oge na colon.
+- Ejila naanị otu oghere mgbe ị gachara oge na colon.
 
-- **Zere okwu ndị na-abụghị Bekee** dị ka de facto ma ọ bụ ad hoc. Zere mkpirisi Latin nke ahịrịokwu Bekee a na-ahụkarị.
+- **Zere okwu ndị na-abụghị Bekee** dịka de facto ma ọ bụ ad hoc. Zere mkpirisi Latin nke ahịrịokwu bekee a maara nke ọma.
 
-    Jiri nke a kama nke a.
+    Jiri nke a. Kama iji nkea.
     |-------------|-----------------|
-    Dịka ọmụmaatụ.
-    Nke ahụ bụ... i.e.
+    Dịka ọmụmaatụ. Dị ka ihe atụ:
+    Nke ahụ bụ... i.e..
 
-## Tweets
+## Tweets ndị ọzọ
 
-> Ntuziaka a bụ maka ide edemede ma ọ bụ ntuziaka onye ọrụ maka ZecHub. Maka tweets maọbụ okwu dị mkpirikpi, jiri [tweets style guide](./tweets.md).
+> Ntuziaka a na-edekarị maka ide edemede ma ọ bụ ntuziaka onye ọrụ nke ZecHub. Ọ dịkwa mma iji tweet na mkpirisi okwu ndị ọzọ: mee ka ha dị nkenke, buru ụzọ tinye isi ihe ahụ n'ihu, ma hapụ akara njedebe na obere ahịrị.
 
 ---
 
