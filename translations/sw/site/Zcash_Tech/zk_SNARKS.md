@@ -161,7 +161,7 @@ Uwazi Setup (No Trusted Setup) - preprocessing algorithm haina kutumia yoyote si
 
 [Groth16](https://www.youtube.com/watch?v=QDplVkyncYQ): Inahitaji Trusted Setup lakini ina uthibitisho mfupi sana ambayo inaweza kuthibitishwa haraka.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/ [Plonk](https://cryptocurrencywiki.org/PLONK): Universal Trusted Kuweka.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/ [Plonk](https://eprint.iacr.org/2019/953): Universal Trusted Kuweka.
 
 [MNYAMA](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Hakuna Trusted Setup lakini kuzalisha uthibitisho kidogo zaidi au inaweza kuchukua muda mrefu kwa ajili ya kuthibitisha kukimbia. 
 

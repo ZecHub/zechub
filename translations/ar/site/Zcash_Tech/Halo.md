@@ -102,11 +102,11 @@ Halo 2 هو تنفيذ عالي الأداء لـ zk-SNARK مكتوب بلغة R
 
 ## مشاريع أخرى تستخدم Halo
 
-+ [Anoma، بروتوكول مبادلة ذرية متعددة السلاسل يحافظ على الخصوصية](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
++ [Anoma، بروتوكول مبادلة ذرية متعددة السلاسل يحافظ على الخصوصية](https://anoma.net/blog/hash-functions-in-plonkup)
 
 + [Oribis، zkRollup من الطبقة الثانية على Cardano](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
-+ [Darkfi، سلسلة كتل zkEVM خاصة من الطبقة الأولى](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
++ [Darkfi، سلسلة كتل zkEVM خاصة من الطبقة الأولى](https://dark.fi/book/arch/arch.html)
 
 + [Scroll، zkRollup من الطبقة الثانية على Ethereum](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 
@@ -123,7 +123,7 @@ Halo 2 هو تنفيذ عالي الأداء لـ zk-SNARK مكتوب بلغة R
 
 **التوثيق**
 
-[موارد Halo 2](https://github.com/adria0/awesome-halo2)
+[موارد Halo 2](https://github.com/mhchia/awesome-halo2)
 
 [توثيق Halo 2](https://zcash.github.io/halo2/)
 

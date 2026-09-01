@@ -105,11 +105,11 @@ O [grupo de exploração de privacidade e escala](https://appliedzkp.org/) tamb�
 
 ## Outros projetos usando Halo
 
-+ [Anoma, um protocolo que preserva a privacidade](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
++ [Anoma, um protocolo que preserva a privacidade](https://anoma.net/blog/hash-functions-in-plonkup)
 
 + [Oribis, uma L2 zkRollup na Cardano](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
-+ [Darkfi, uma blockchain privada L1 zkEVM](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
++ [Darkfi, uma blockchain privada L1 zkEVM](https://dark.fi/book/arch/arch.html)
 
 + [Scroll, um L2 zkRollup na Ethereum](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 
@@ -129,7 +129,7 @@ O [grupo de exploração de privacidade e escala](https://appliedzkp.org/) tamb�
 
 **Documentação**
 
-- [Recursos do Halo 2](https://github.com/adria0/awesome-halo2)
+- [Recursos do Halo 2](https://github.com/mhchia/awesome-halo2)
 
 - [Documentos do Halo 2](https://zcash.github.io/halo2/)
 

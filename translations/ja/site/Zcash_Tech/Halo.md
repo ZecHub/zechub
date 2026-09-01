@@ -102,11 +102,11 @@ ECC、Filecoin Foundation、Protocol Labs、Ethereum Foundationはまた、ハ�
 
 ## Haloを使用しているその他のプロジェクト
 
-+ [Anoma、プライバシー保護型マルチチェーン原子的スワッププロトコル](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
++ [Anoma、プライバシー保護型マルチチェーン原子的スワッププロトコル](https://anoma.net/blog/hash-functions-in-plonkup)
 
 + [Oribis、Cardano上のL2 zkRollup](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
-+ [Darkfi、プライベートなL1 zkEVMブロックチェーン](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
++ [Darkfi、プライベートなL1 zkEVMブロックチェーン](https://dark.fi/book/arch/arch.html)
 
 + [Scroll、Ethereum上のL2 zkRollup](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 
@@ -123,7 +123,7 @@ ECC、Filecoin Foundation、Protocol Labs、Ethereum Foundationはまた、ハ�
 
 **ドキュメント**
 
-[Halo 2 リソース](https://github.com/adria0/awesome-halo2)
+[Halo 2 リソース](https://github.com/mhchia/awesome-halo2)
 
 [Halo 2 ドキュメント](https://zcash.github.io/halo2/)
 

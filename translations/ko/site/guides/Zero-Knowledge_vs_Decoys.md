@@ -46,14 +46,14 @@ Monero의 유인자 알고리즘(링 서명)은 프라이버시를 제공하지�
 2) **선택적 가시성**: Zcash는 사용자가 투명(비프라이버시) 트랜잭션과 암호화(프라이버시) 트랜잭션 사이에서 선택할 수 있다. 이는 Zcash가 사용자에게 금융 정보를 프라이버시 보호(암호화)하거나, 대부분의 다른 블록체인처럼 공개적으로 제공하는 것과 같은 유연성을 제공한다는 것을 의미한다 [Zcash 공식 웹사이트](https://z.cash/learn/what-is-the-difference-between-shielded-and-transparent-zcash/)에 설명되어 있다. 이 선택적 프라이버시는 더 많은 유연성과 비즈니스 및 조직 관련 사용 사례를 가능하게 하며, 일부 트랜잭션은 공개 검토를 위해 덜한 프라이버시가 필요할 수 있고, 다른 트랜잭션은 강화된 프라이버시에 이점을 얻을 수 있다.
 
 
-3) **익명 집합**: 제로 지식 암호화 풀의 [익명 집합](https://blog.wasabiwallet.io/what-is-the-difference-between-an-anonymity-set-and-an-anonymity-score/)은 *언제든지* 발생한 모든 트랜잭션을 포함한다. 이는 대부분의 다른 체인 상 기술과 비교하여 트랜잭션 비연결성을 달성하는 데 매우 유리하다. 참고로, 이는 동일한 암호화 풀 내부의 트랜잭션에만 적용된다.
+3) **익명 집합**: 제로 지식 암호화 풀의 [익명 집합](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-is-the-difference-between-anonymity-set-and-anonymity-score)은 *언제든지* 발생한 모든 트랜잭션을 포함한다. 이는 대부분의 다른 체인 상 기술과 비교하여 트랜잭션 비연결성을 달성하는 데 매우 유리하다. 참고로, 이는 동일한 암호화 풀 내부의 트랜잭션에만 적용된다.
 
 유인자의 사용은 익명 집합을 증가시킨다. 그러나 이러한 접근 방식은 네트워크 상의 *실제* 사용자 수에 완전히 의존한다.
 
 
 4) **신뢰 설정 없음**: Zcash의 Sprout 및 Sapling 설정은 "신뢰 설정 행사"라는 다 당사자 계산을 사용했다. 최근 NU5 업그레이드는 제로 지식 회로 설정의 무결성에 대한 신뢰가 필요하지 않았다 [ECC 블로그에서 NU5 읽기](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/).
 
-5) **데이터 프라이버시**: Zcash의 암호화 풀에서 사용되는 [zk-SNARK 기술](https://wiki.zechub.xyz/zcash-technology)은 사용자에게 크게 강화된 보안을 제공한다. 체인 상 메타데이터 누출 감소는 잠재적 해커나 억압적인 국가 기관과 같은 적대자로부터 사용자를 보호한다.
+5) **데이터 프라이버시**: Zcash의 암호화 풀에서 사용되는 [zk-SNARK 기술](https://zechub.wiki/zcash-technology)은 사용자에게 크게 강화된 보안을 제공한다. 체인 상 메타데이터 누출 감소는 잠재적 해커나 억압적인 국가 기관과 같은 적대자로부터 사용자를 보호한다.
 
 Monero의 유인자 선택 알고리즘에 결함이 발견된 사례가 여러 번 있었다. 이러한 결함은 [Coindesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero)에서 보고한 바와 같이 사용자 지출을 노출시킬 수 있는 잠재적 위험을 야기했다.
 
