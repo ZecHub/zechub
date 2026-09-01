@@ -60,9 +60,9 @@ Two caveats. Tor hides your IP from the server, but it does not change what the 
 
 ## Zaino, the Rust indexer
 
-[Zaino](/site/Zcash_Tech/Zaino) is an indexer written in Rust by the Zingo team, built to replace lightwalletd as part of the zcashd deprecation work. It serves light clients, full clients and block explorers, reading chain data held by "either a Zebra or Zcashd full validator".
+[Zaino](/zcash-tech/zaino) is an indexer written in Rust by the Zingo team, built to replace lightwalletd as part of the zcashd deprecation work. It serves light clients, full clients and block explorers, reading chain data held by "either a Zebra or Zcashd full validator". In practice that means Zebra now, since zcashd reached its end of life in July 2026 and those nodes no longer run.
 
-It is under active development, with version 0.7.0 released in August 2026. It aims to stay backward compatible with lightwalletd where possible, so wallets can point at it without being rewritten.
+It is under active development, with version 0.8.0 released in August 2026. It aims to stay backward compatible with lightwalletd where possible, so wallets can point at it without being rewritten.
 
 Zaino has its own page with architecture diagrams, so this page only covers its role as a light wallet server.
 
@@ -114,7 +114,7 @@ Those screenshots were taken in March 2025 and the apps have shipped releases si
 
 ## Running your own
 
-The strongest option is to be your own operator, which removes the trust question entirely. Both servers are open source: [lightwalletd](https://github.com/zcash/lightwalletd) in Go and [Zaino](https://github.com/zingolabs/zaino) in Rust. Both read from a full validator, so you will also want [Zebra](/site/Zcash_Tech/Zebra_Full_Node).
+The strongest option is to be your own operator, which removes the trust question entirely. Both servers are open source: [lightwalletd](https://github.com/zcash/lightwalletd) in Go and [Zaino](https://github.com/zingolabs/zaino) in Rust. Both read from a full validator, so you will also want [Zebra](/zcash-tech/zebra-full-node).
 
 ## Summary
 
