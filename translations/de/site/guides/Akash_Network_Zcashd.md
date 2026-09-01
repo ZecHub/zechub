@@ -512,7 +512,7 @@ Wenn Ihr Guthaben knapp wird, schließt Akash Ihre Bereitstellung automatisch. *
 
 **Akash-Dokumentation**: [https://akash.network/docs/](https://akash.network/docs/)
 
-**Zcash-Explorer**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Zcash-Explorer**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (bei Provider-Problemen)
 

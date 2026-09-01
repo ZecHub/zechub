@@ -6,7 +6,7 @@
 >
 > Estos scripts no pueden portarse de forma mecánica: se basan en RPC de transacción en bruto y de monedero que zcashd dejó obsoletas, y Zallet las sustituye por métodos nuevos que operan sobre PCZT en lugar de hex de transacción en bruto.
 >
-> Para custodia multiparte en Zcash hoy, consulta [FROST y custodia por umbral](/zcash-tech/frost-threshold-custody) y la [demostración FROST con Ywallet](/guides/frostdemo/ywallet-frost-demo). Para migrar un nodo existente fuera de zcashd, consulta la [guía de migración a Zebra y Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
+> Para custodia multiparte en Zcash hoy, consulta [FROST y custodia por umbral](/zcash-tech/frost-threshold-custody) y la [demostración FROST con Ywallet](/guides/ywallet-frost-demo). Para migrar un nodo existente fuera de zcashd, consulta la [guía de migración a Zebra y Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
 >
 > Esta página se conserva como registro histórico del flujo de trabajo de multisig transparente.
 

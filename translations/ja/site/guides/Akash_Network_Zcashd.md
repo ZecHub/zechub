@@ -512,7 +512,7 @@ Console で支出を監視してください:
 
 **Akash Docs**: [https://akash.network/docs/](https://akash.network/docs/)
 
-**Zcash エクスプローラ**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Zcash エクスプローラ**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Akash Discord**: [https://discord.akash.network](https://discord.akash.network)（プロバイダの問題向け）
 

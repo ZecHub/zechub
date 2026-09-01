@@ -512,7 +512,7 @@ Bakiyeniz azaldığında Akash dağıtımınızı otomatik olarak kapatacaktır.
 
 **Akash Dokümantasyonu**: [https://akash.network/docs/](https://akash.network/docs/)
 
-**Zcash Gezginleri**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Zcash Gezginleri**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (sağlayıcı sorunları için)
 

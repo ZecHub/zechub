@@ -1,6 +1,6 @@
 # Block Explorers
 
-[Zcash Block Explorer](https://zechub.wiki/using-zcash/blockchain-explorers) é uma fonte aberta com o objetivo de atender às necessidades dos usuários Zcash que precisam de uma fonte confiável de seus dados de transações Zcash e o status da rede. Isso significa que qualquer pessoa que executa um node Zcash pode executar seu próprio Block Explorer.
+[Zcash Block Explorer](https://zechub.wiki/guides/blockchain-explorers) é uma fonte aberta com o objetivo de atender às necessidades dos usuários Zcash que precisam de uma fonte confiável de seus dados de transações Zcash e o status da rede. Isso significa que qualquer pessoa que executa um node Zcash pode executar seu próprio Block Explorer.
 
 ## Introdução
 
@@ -69,7 +69,7 @@ Aqui estão quatro bons exemplos de diferentes Block Explorers:
 
 * [Mempool.space](https://mempool.space)
 * [Ethscan](https://etherscan.io/)
-* [Zcashblockexplorer](https://zechub.wiki/using-zcash/blockchain-explorers)
+* [Zcashblockexplorer](https://zechub.wiki/guides/blockchain-explorers)
 * [Mintscan](https://hub.mintscan.io/chains/ibc-network)
 
 

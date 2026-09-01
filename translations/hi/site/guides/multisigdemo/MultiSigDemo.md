@@ -6,7 +6,7 @@
 >
 > इन स्क्रिप्ट्स को यांत्रिक रूप से पोर्ट नहीं किया जा सकता: ये रॉ ट्रांज़ैक्शन और वॉलेट RPC पर आधारित हैं जिन्हें zcashd ने अप्रचलित कर दिया था, और Zallet उन्हें नए तरीकों से बदलता है जो रॉ ट्रांज़ैक्शन hex के बजाय PCZT पर काम करते हैं।
 >
-> Zcash पर आज बहु-पक्षीय कस्टडी के लिए [FROST और थ्रेशोल्ड कस्टडी](/zcash-tech/frost-threshold-custody) और कार्यशील [Ywallet FROST डेमो](/guides/frostdemo/ywallet-frost-demo) देखें। किसी मौजूदा नोड को zcashd से हटाने के लिए [Zebra और Zallet माइग्रेशन गाइड](/guides/migration-guide-zcashd-to-zebrad-zallet) देखें।
+> Zcash पर आज बहु-पक्षीय कस्टडी के लिए [FROST और थ्रेशोल्ड कस्टडी](/zcash-tech/frost-threshold-custody) और कार्यशील [Ywallet FROST डेमो](/guides/ywallet-frost-demo) देखें। किसी मौजूदा नोड को zcashd से हटाने के लिए [Zebra और Zallet माइग्रेशन गाइड](/guides/migration-guide-zcashd-to-zebrad-zallet) देखें।
 >
 > यह पेज पारदर्शी multisig वर्कफ़्लो के ऐतिहासिक रिकॉर्ड के रूप में रखा गया है।
 

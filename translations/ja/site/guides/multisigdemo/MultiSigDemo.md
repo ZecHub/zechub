@@ -6,7 +6,7 @@
 >
 > これらのスクリプトを機械的に移植することはできません。zcashd が非推奨としたロートランザクションおよびウォレットの RPC に基づいており、Zallet はそれらを、ロートランザクションの hex ではなく PCZT を扱う新しいメソッドに置き換えているためです。
 >
-> 現在の Zcash におけるマルチパーティ管理については、[FROST としきい値管理](/zcash-tech/frost-threshold-custody) および動作する [Ywallet FROST デモ](/guides/frostdemo/ywallet-frost-demo) を参照してください。既存のノードを zcashd から移行するには、[Zebra と Zallet への移行ガイド](/guides/migration-guide-zcashd-to-zebrad-zallet) を参照してください。
+> 現在の Zcash におけるマルチパーティ管理については、[FROST としきい値管理](/zcash-tech/frost-threshold-custody) および動作する [Ywallet FROST デモ](/guides/ywallet-frost-demo) を参照してください。既存のノードを zcashd から移行するには、[Zebra と Zallet への移行ガイド](/guides/migration-guide-zcashd-to-zebrad-zallet) を参照してください。
 >
 > このページは透明な multisig ワークフローの歴史的記録として保存されています。
 

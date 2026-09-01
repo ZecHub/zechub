@@ -512,7 +512,7 @@ Console에서 지출을 모니터링하세요:
 
 **Akash 문서**: [https://akash.network/docs/](https://akash.network/docs/)
 
-**Zcash 탐색기**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Zcash 탐색기**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (공급자 문제용)
 

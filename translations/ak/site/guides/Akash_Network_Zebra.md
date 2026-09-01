@@ -439,7 +439,7 @@ Fi ase wɔ Testnet sɛ woresɔ deployment nhyehyɛe no ahwɛ kɛkɛ a. Hwɛ "Swi
 
 **Zebra Nwoma**: [https://zebra.zfnd.org/](https://zebra.zfnd.org/)
 
-**Zcash Nhwehwɛmufo**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Zcash Nhwehwɛmufo**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Akash Akasakasa**: [https://discord.akash.network](https://discord.akash.network) (ma nsɛm a ɛfa ɔdemafo ho) .
 

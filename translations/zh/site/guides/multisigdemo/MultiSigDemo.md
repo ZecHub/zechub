@@ -6,7 +6,7 @@
 >
 > 这些脚本无法机械地移植：它们建立在 zcashd 已弃用的原始交易和钱包 RPC 之上，而 Zallet 用基于 PCZT 而非原始交易 hex 的新方法取代了它们。
 >
-> 关于当前 Zcash 上的多方托管，请参阅 [FROST 与门限托管](/zcash-tech/frost-threshold-custody) 以及可用的 [Ywallet FROST 演示](/guides/frostdemo/ywallet-frost-demo)。如需将现有节点从 zcashd 迁移，请参阅[迁移到 Zebra 和 Zallet 的指南](/guides/migration-guide-zcashd-to-zebrad-zallet)。
+> 关于当前 Zcash 上的多方托管，请参阅 [FROST 与门限托管](/zcash-tech/frost-threshold-custody) 以及可用的 [Ywallet FROST 演示](/guides/ywallet-frost-demo)。如需将现有节点从 zcashd 迁移，请参阅[迁移到 Zebra 和 Zallet 的指南](/guides/migration-guide-zcashd-to-zebrad-zallet)。
 >
 > 本页作为透明 multisig 工作流程的历史记录予以保留。
 

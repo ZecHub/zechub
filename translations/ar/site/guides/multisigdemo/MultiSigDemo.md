@@ -6,7 +6,7 @@
 >
 > لا يمكن نقل هذه النصوص البرمجية آليًا: فهي مبنية على واجهات RPC للمعاملات الخام والمحفظة التي أهملها zcashd، ويستبدلها Zallet بطرق جديدة تعمل على PCZT بدلًا من hex المعاملة الخام.
 >
-> للحفظ متعدد الأطراف على Zcash اليوم، راجع [FROST والحفظ العتبي](/zcash-tech/frost-threshold-custody) و[عرض FROST مع Ywallet](/guides/frostdemo/ywallet-frost-demo). لنقل عقدة قائمة من zcashd، راجع [دليل الانتقال إلى Zebra وZallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
+> للحفظ متعدد الأطراف على Zcash اليوم، راجع [FROST والحفظ العتبي](/zcash-tech/frost-threshold-custody) و[عرض FROST مع Ywallet](/guides/ywallet-frost-demo). لنقل عقدة قائمة من zcashd، راجع [دليل الانتقال إلى Zebra وZallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
 >
 > يتم الاحتفاظ بهذه الصفحة كسجل تاريخي لسير عمل multisig الشفاف.
 

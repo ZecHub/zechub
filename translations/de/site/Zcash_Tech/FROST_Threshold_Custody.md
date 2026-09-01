@@ -145,7 +145,7 @@ Ein praktischer Ausgangspunkt für die meisten Teams: **2-von-3** (robust, minim
 
 - [FROST — Technischer Deep Dive](FROST.md) — kryptografische Details des Protokolls (DKG, Signaturrunden, Sicherheitsbeweise)
 - [Anleitung zur YWallet FROST Demo](/guides/Ywallet_FROST_Demo) — praktische Schritt-für-Schritt-Demo
-- [FROST Demo (frostdemo)](/guides/frostdemo) — Durchgang durch die Zcash Foundation-Demo
+- [FROST Demo (frostdemo)](/guides/ywallet-frost-demo) — Durchgang durch die Zcash Foundation-Demo
 - [Viewing Keys](Viewing_Keys.md) — schreibgeschützter Zugriff auf shielded Adressen (ergänzend zu Threshold Custody)
 - [Zcash Shielded Assets](Zcash_Shielded_Assets.md) — FROST ist auch eine wichtige Infrastruktur für die Ausgabe von ZSA
 

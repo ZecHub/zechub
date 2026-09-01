@@ -439,6 +439,6 @@ Beginne mit Testnet, wenn du nur den Bereitstellungsprozess testen möchtest. Si
 
 **Zebra-Dokumentation**: [https://zebra.zfnd.org/](https://zebra.zfnd.org/)
 
-**Zcash-Explorer**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Zcash-Explorer**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (für Provider-Probleme)

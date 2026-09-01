@@ -6,7 +6,7 @@
 >
 > Skripti hizi haziwezi kuhamishwa kimitambo: zimejengwa juu ya RPC za miamala ghafi na za pochi ambazo zcashd iliziacha, na Zallet inazibadilisha kwa mbinu mpya zinazofanya kazi na PCZT badala ya hex ya muamala ghafi.
 >
-> Kwa uhifadhi wa pamoja katika Zcash leo, angalia [FROST na uhifadhi wa kizingiti](/zcash-tech/frost-threshold-custody) na [onyesho la FROST kwa Ywallet](/guides/frostdemo/ywallet-frost-demo). Ili kuhamisha nodi iliyopo kutoka zcashd, angalia [mwongozo wa uhamiaji kwenda Zebra na Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
+> Kwa uhifadhi wa pamoja katika Zcash leo, angalia [FROST na uhifadhi wa kizingiti](/zcash-tech/frost-threshold-custody) na [onyesho la FROST kwa Ywallet](/guides/ywallet-frost-demo). Ili kuhamisha nodi iliyopo kutoka zcashd, angalia [mwongozo wa uhamiaji kwenda Zebra na Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
 >
 > Ukurasa huu umehifadhiwa kama kumbukumbu ya kihistoria ya mtiririko wa multisig ya uwazi.
 

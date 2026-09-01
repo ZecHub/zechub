@@ -439,6 +439,6 @@ RPC за замовчуванням вимкнено з міркувань бе�
 
 **Zebra Docs**: [https://zebra.zfnd.org/](https://zebra.zfnd.org/)
 
-**Zcash Explorers**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Zcash Explorers**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (для проблем із провайдерами)

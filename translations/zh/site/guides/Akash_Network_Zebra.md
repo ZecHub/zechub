@@ -439,6 +439,6 @@ SDL 默认使用主网。若要使用测试网：
 
 **Zebra 文档**: [https://zebra.zfnd.org/](https://zebra.zfnd.org/)
 
-**Zcash 浏览器**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Zcash 浏览器**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Akash Discord**: [https://discord.akash.network](https://discord.akash.network)（用于提供商问题）

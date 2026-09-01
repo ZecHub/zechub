@@ -6,7 +6,7 @@
 >
 > Diese Skripte lassen sich nicht mechanisch portieren: Sie beruhen auf Raw-Transaction- und Wallet-RPCs, die zcashd als veraltet markiert hat, und Zallet ersetzt sie durch neue Methoden, die mit PCZTs statt mit Raw-Transaction-Hex arbeiten.
 >
-> Für Multi-Party-Verwahrung auf Zcash siehe heute [FROST und Threshold-Verwahrung](/zcash-tech/frost-threshold-custody) sowie die [FROST-Demo mit Ywallet](/guides/frostdemo/ywallet-frost-demo). Um einen bestehenden Node von zcashd zu migrieren, siehe den [Migrationsleitfaden zu Zebra und Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
+> Für Multi-Party-Verwahrung auf Zcash siehe heute [FROST und Threshold-Verwahrung](/zcash-tech/frost-threshold-custody) sowie die [FROST-Demo mit Ywallet](/guides/ywallet-frost-demo). Um einen bestehenden Node von zcashd zu migrieren, siehe den [Migrationsleitfaden zu Zebra und Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
 >
 > Diese Seite bleibt als historische Aufzeichnung des transparenten Multisig-Ablaufs erhalten.
 

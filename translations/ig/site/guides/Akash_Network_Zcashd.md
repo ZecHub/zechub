@@ -512,7 +512,7 @@ Mgbe ego gị gwụrụ, Akash ga-emechi nkenye gi. ** Tinye obere akpa gị oge
 
 ** Akash Docs**: Onye na-eme ihe nkiri a bụ onye isi. [https://akash.network/docs/](https://akash.network/docs/)
 
-** Ndị na-enyocha Zcash**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+** Ndị na-enyocha Zcash**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Akash Discord**: Onye na-agba egwu, onye na-egwu egwú. [https://discord.akash.network](https://discord.akash.network) (maka nsogbu ndị na-enye ọrụ)
 
