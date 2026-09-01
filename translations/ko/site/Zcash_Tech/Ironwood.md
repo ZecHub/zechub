@@ -4,7 +4,7 @@
 
 # Ironwood
 
-> Ironwood는 Zcash 메인넷의 블록 3,428,143에서 활성화되며, UTC 기준 2026년 7월 28일경으로 예상됩니다.
+> Ironwood는 UTC 기준 2026년 7월 28일 Zcash 메인넷의 블록 3,428,143에서 활성화되었으며, 이후로 계속 운영 중입니다.
 
 이 문서에서 알게 될 내용: Ironwood가 무엇을 바꾸는지, 숨겨진 돈에서 발생한 버그가 왜 심각한지, 그리고 턴스타일이 어떻게 누구나 ZEC가 위조되지 않았음을 확인할 수 있게 해주는지.
 
@@ -34,7 +34,7 @@ Zcash가 처음이신가요? 먼저 [ZEC와 Zcash란 무엇인가](../start-here
 
 Zcash 커뮤니티는 모든 것을 한 번에 처리하기보다 단계적으로 수정 사항을 배포했습니다.
 
-![Ironwood 대응 타임라인: Orchard 버그는 2026년 5월에 발견되고, 풀은 2026년 6월에 일시 중지되며, 회로는 NU6.2에서 수정되고, Ironwood는 2026년 7월 28일경 활성화됩니다](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Ironwood 대응 타임라인: Orchard 버그는 2026년 5월에 발견되고, 풀은 2026년 6월에 일시 중지되며, 회로는 NU6.2에서 수정되고, Ironwood는 2026년 7월 28일 블록 3,428,143에서 활성화되었습니다](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
 
 1. 2026년 6월 초, 전체 수정이 준비되는 동안 임시 조치로 Orchard 풀이 비활성화되었습니다.
 2. NU6.2 업그레이드는 Orchard 회로 자체를 수정하여, 근본적인 soundness 취약점을 막았습니다.
@@ -46,7 +46,7 @@ Zcash 커뮤니티는 모든 것을 한 번에 처리하기보다 단계적으�
 
 NU6.2는 모든 새로운 거래에 대해 Orchard 회로를 안전하게 만들었지만, 이전 규칙 아래에서 생성된 가치는 여전히 Orchard 풀 안에 남아 있습니다. Ironwood는 그 가치가 이동할 수 있는 깨끗한 목적지와, 이동 과정 자체를 감사할 수 있는 방법을 제공합니다.
 
-Ironwood 풀은 NU6.3가 활성화될 때 생성되는 새로운 shielded value 풀입니다. 이 풀은 수정된 회로 위에 구축되며, 양자 복구 가능 노트 형식(언젠가 [양자 컴퓨터](../zcash-tech/post-quantum-security)가 오늘날의 암호를 깨뜨리더라도 자금을 복구할 수 있게 하는 설계)을 사용합니다. 이는 [ZIP 2005](https://zips.z.cash/zip-2005)에 정의되어 있습니다.
+Ironwood 풀은 블록 3,428,143에서 NU6.3에 의해 생성된 shielded value 풀입니다. 이 풀은 수정된 회로 위에 구축되며, 양자 복구 가능 노트 형식(언젠가 [양자 컴퓨터](../zcash-tech/post-quantum-security)가 오늘날의 암호를 깨뜨리더라도 자금을 복구할 수 있게 하는 설계)을 사용합니다. 이는 [ZIP 2005](https://zips.z.cash/zip-2005)에 정의되어 있습니다.
 
 1. 활성화 이후 기존 Orchard 풀은 spend-only가 되어, 새로운 가치가 더 이상 그 안으로 들어갈 수 없습니다.
 2. 새로 shielded 처리되는 가치는 대신 Ironwood로 들어갑니다.

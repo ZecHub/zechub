@@ -1,16 +1,16 @@
 # MultiSig ƒe wɔwɔfia
 
-> **Ŋutinya ŋlɔɖi. Mɔfiame sia megawɔa dɔ o.**
+> **Ŋutinya me nyawo. Azɔlizɔzɔ sia megaƒua du o.**
 >
-> Afɔɖeɖe siwo katã le ete la nɔa zcashd dzi, si tɔ le eɖokui si le July 18, 2026 esime eƒe kpekpeɖeŋu wu enu. Agbalẽ adre siwo kpe ɖe axa sia ŋu la zãa `zcash-cli` tsɔ kplɔe, eya ta wo dometɔ aɖeke mate ŋu aɖo node si le dɔ wɔm egbea o.
+> Afɔɖeɖe ɖesiaɖe si le ete la nɔ te ɖe zcashd dzi, si ɖo eƒe Kpekpeɖeŋu ƒe Nuwuwu ƒe tɔtrɔ le eɖokui si le 18 July 2026. Nuŋɔŋlɔ adre siwo woɖo ɖe axa sia xa la ʋunɛ to eme `zcash-cli`, eyata wo dometɔ aɖeke mate ŋu aɖo node si le du dzi egbea o.
 >
-> Womate ŋu atsɔ agbalẽ siawo ayi teƒe bubu kpata o: wotu wo ɖe raw transaction kple gakotoku ƒe RPC siwo zcashd ɖe ɖa la dzi, eye Zallet tsɔ mɔnu yeyewo siwo wɔa dɔ le PCZT dzi le raw transaction hex teƒe la ɖo wo teƒe.
+> Womate ŋu atsɔ mɔ̃ɖaŋununya atsɔ ŋɔŋlɔdzesi siawo ayi teƒe bubuwo o. Wotu wo ɖe raw-transaction kple gakotoku RPC (`createrawtransaction`, `signrawtransaction`, `createmultisig`, `dumpprivkey`) be zcashd deprecated hafi wotɔ te; Zallet tsɔa mɔnu yeye siwo wɔa dɔ le PCZTwo dzi tsɔ wu raw transaction hex dzi ɖɔlia esiawo, eye wògakpɔtɔ le beta me kple zcashd mɔnu geɖe siwo wometsɔ yi haɖe o.
 >
-> Le Zcash dzi egbea la, hena ame geɖe ƒe dzikpɔkpɔ la, kpɔ [FROST kple threshold dzikpɔkpɔ](/zcash-tech/frost-threshold-custody) kple [Ywallet FROST demo](/guides/frostdemo/ywallet-frost-demo). Be nàʋu node si li xoxo tso zcashd dzi la, kpɔ [Zebra kple Zallet ŋuti mɔfiame](/guides/migration-guide-zcashd-to-zebrad-zallet).
+> Ne èdi akpa geɖe ƒe vidzikpɔkpɔ le Zcash egbea la, kpɔ [FROST & Dzɔdzɔmenuwo Dzikpɔkpɔ](/zcash-tech/frost-threshold-custody), si me wotsɔe sɔ kple multisig si me kɔ tẽ, kple dɔwɔwɔ [Ywallet FROST ƒe wɔwɔfia](/guides/frostdemo/ywallet-frost-demo). Ne èdi be yeaɖe node si li xoxo la ɖa le zcashd la, kpɔ [ʋuʋu yi Zebra kple Zallet ƒe mɔfiame](/guides/migration-guide-zcashd-to-zebrad-zallet).
 >
-> Wodzra axa sia ɖo abe ŋutinya ŋlɔɖi na transparent multisig dɔwɔwɔ ene.
+> Wodzraa axa sia ɖo abe ŋutinya me nuŋlɔɖi le multisig dɔwɔwɔ si me kɔ la ŋu.
 
-Demo sia bia be woawɔ zcashd 
+Demo sia bia zcashd, si tɔ le 18 July 2026 eye megale dɔ wɔm o. Womate ŋu awu naneke si le ete nu ɖe ​​kɔsɔkɔsɔ gbagbe la ŋu o.
 
 ## Ƒo dutoƒo safuiwo nu ƒu tso ame ɖekaɖeka siwo hiã gbɔ
 
@@ -79,9 +79,9 @@ scriptPubKey      : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed
 
 Ne èkpɔ mɔ akpɔ wò safui ɣaɣlawo katã la, àte ŋu azã wo katã zi ɖeka be nàɖe ɣeyiɣi dzi akpɔtɔ, .
 gake le xexeame ŋutɔŋutɔ ƒe kpɔɖeŋu akpa gãtɔ me la, woawɔ asidede agbalẽ te to amewo dzi le xexeame godoo eyata ahiã be gomekpɔla siwo wobia tso esi la dometɔ ɖesiaɖe nade asi ete, .
-emegbe nàgbugbɔ raxTX "hex" ƒe dodo yeye si ame mamlɛawo azã atsɔ ade asi ete atsɔ awu asidede agbalẽ te ƒe ɖoɖoa nu.
+emegbe nàgbugbɔ raxTX "hex" ƒe emetsonu yeye si ame mamlɛawo azã atsɔ ade asi ete atsɔ awu asidede agbalẽ te ƒe ɖoɖoa nu.
 
-Amekae wɔ tx gbãtɔ kpɔ, ade asi ete kple woƒe safui si nye ame ŋutɔ tɔ eye wòaɖo rawTX hex yeye si wòle be gomekpɔla bubuawo nade asi ete la ɖa.
+Amesi wɔ tx gbãtɔ kpɔ, ade asi ete kple woƒe safui si nye ame ŋutɔ tɔ eye wòaɖo rawTX hex yeye si wòle be gomekpɔla bubuawo nade asi ete la ɖa.
 
 `./signMultiSigTX.sh rawTX txid voutIndex scriptPubKey redeemScript valueInitialTX`
 
@@ -89,6 +89,8 @@ Be nàde asi tx sia te la, ele be ame ŋutɔ ƒe safui etɔ̃awo dometɔ 2 ya te
 
 
 `zcash-cli dumpprivkey "t-addr"`
+
+Sedede sia tɔ te kple zcashd eye metrɔa naneke egbea o; wolée ɖe afisia be woatsɔ aɖe alesi wɔwɔfiaa xɔ eƒe safuiwoe afia ko.
 
 
 Le wɔwɔfia sia ta la, mezã iancoleman ƒe bip39 tsɔ ɖe ame ŋutɔ ƒe safui siwo hiã la ɖe vovo kaba.

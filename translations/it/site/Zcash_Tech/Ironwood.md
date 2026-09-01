@@ -4,7 +4,7 @@
 
 # Ironwood
 
-> Ironwood si attiva sulla mainnet di Zcash al blocco 3,428,143, previsto intorno al 28 luglio 2026 UTC.
+> Ironwood si è attivato sulla mainnet di Zcash al blocco 3,428,143 il 28 luglio 2026 UTC, ed è operativo da allora.
 
 Cosa imparerai: che cosa cambia con Ironwood, perché un bug nel denaro nascosto è grave e come il turnstile permette a chiunque di confermare che non è stato creato alcun ZEC dal nulla.
 
@@ -34,7 +34,7 @@ I numeri sopra sono una rappresentazione semplificata. Il vero difetto si trovav
 
 La comunità Zcash ha distribuito le correzioni in più fasi invece che tutte in una volta.
 
-![Cronologia della risposta di Ironwood: il bug di Orchard viene trovato a maggio 2026, il pool viene messo in pausa a giugno 2026, il circuito viene corretto in NU6.2 e Ironwood si attiva intorno al 28 luglio 2026](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Cronologia della risposta di Ironwood: il bug di Orchard viene trovato a maggio 2026, il pool viene messo in pausa a giugno 2026, il circuito viene corretto in NU6.2 e Ironwood è stato attivato al blocco 3,428,143 il 28 luglio 2026](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
 
 1. All’inizio di giugno 2026, una misura temporanea ha disabilitato il pool Orchard mentre veniva preparata una correzione completa.
 2. L’aggiornamento NU6.2 ha corretto il circuito Orchard stesso, chiudendo la vulnerabilità di soundness alla radice.
@@ -46,7 +46,7 @@ La comunità Zcash ha distribuito le correzioni in più fasi invece che tutte in
 
 NU6.2 ha messo in sicurezza il circuito Orchard per tutte le nuove transazioni, ma il valore creato secondo le vecchie regole si trova ancora nel pool Orchard. Ironwood fornisce a quel valore una destinazione pulita e un modo per verificarlo mentre si sposta.
 
-Il pool Ironwood è un nuovo pool di valore shielded creato quando si attiva NU6.3. È costruito sul circuito corretto e utilizza un formato di nota recuperabile in ambito quantistico (un design che consente di recuperare i fondi se i [computer quantistici](../zcash-tech/post-quantum-security) dovessero un giorno rompere la crittografia di oggi), definito in [ZIP 2005](https://zips.z.cash/zip-2005).
+Il pool Ironwood è il pool di valore shielded creato da NU6.3 al blocco 3,428,143. È costruito sul circuito corretto e utilizza un formato di nota recuperabile in ambito quantistico (un design che consente di recuperare i fondi se i [computer quantistici](../zcash-tech/post-quantum-security) dovessero un giorno rompere la crittografia di oggi), definito in [ZIP 2005](https://zips.z.cash/zip-2005).
 
 1. Dopo l’attivazione, il vecchio pool Orchard diventa di sola spesa, quindi nessun nuovo valore può entrarvi.
 2. Il nuovo valore shielded confluisce invece in Ironwood.

@@ -4,7 +4,7 @@
 
 # Ironwood
 
-> Ironwood, Zcash mainnet'inde 3,428,143. blokta etkinleşir; bunun 28 Temmuz 2026 UTC civarında olması bekleniyor.
+> Ironwood, 28 Temmuz 2026 UTC'de 3,428,143. blokta Zcash mainnet'inde etkinleştirildi ve o tarihten bu yana canlı.
 
 Buradan çıkaracağınız ana fikirler: Ironwood'un neleri değiştirdiği, gizli paradaki bir hatanın neden ciddi olduğu ve turnikenin hiç ZEC üretilmediğini herkesin nasıl doğrulamasına izin verdiği.
 
@@ -34,7 +34,7 @@ Yukarıdaki sayılar basitleştirilmiş bir tablodur. Gerçek kusur, devrenin ma
 
 Zcash topluluğu tüm düzeltmeleri tek seferde yapmak yerine aşamalı olarak yayımladı.
 
-![Ironwood yanıt zaman çizelgesi: Orchard hatası Mayıs 2026'da bulunuyor, havuz Haziran 2026'da duraklatılıyor, devre NU6.2'de düzeltiliyor ve Ironwood yaklaşık 28 Temmuz 2026'da etkinleşiyor](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Ironwood yanıt zaman çizelgesi: Orchard hatası Mayıs 2026'da bulunuyor, havuz Haziran 2026'da duraklatılıyor, devre NU6.2'de düzeltiliyor ve Ironwood 28 Temmuz 2026'da 3.428.143. blokta etkinleşti](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
 
 1. Haziran 2026'nın başlarında, tam düzeltme hazırlanırken geçici bir önlem olarak Orchard havuzu devre dışı bırakıldı.
 2. NU6.2 yükseltmesi Orchard devresinin kendisini düzelterek alttaki soundness açığını kapattı.
@@ -46,7 +46,7 @@ Zcash topluluğu tüm düzeltmeleri tek seferde yapmak yerine aşamalı olarak y
 
 NU6.2, tüm yeni işlemler için Orchard devresini güvence altına aldı, ancak eski kurallar altında yaratılmış değer hâlâ Orchard havuzunda duruyor. Ironwood, bu değere temiz bir hedef ve hareket ederken denetlenmesini sağlayan bir yöntem sunar.
 
-Ironwood havuzu, NU6.3 etkinleştiğinde oluşturulan yeni bir shielded value pool'dur. Düzeltilmiş devre üzerine kuruludur ve kuantum kurtarılabilir bir not formatı kullanır (bugünün kriptografisi bir gün [kuantum bilgisayarlar](../zcash-tech/post-quantum-security) tarafından kırılırsa fonların kurtarılmasına izin veren bir tasarım); bu format [ZIP 2005](https://zips.z.cash/zip-2005) içinde tanımlanmıştır.
+Ironwood havuzu, NU6.3 tarafından 3,428,143. blokta oluşturulan shielded value pool'dur. Düzeltilmiş devre üzerine kuruludur ve kuantum kurtarılabilir bir not formatı kullanır (bugünün kriptografisi bir gün [kuantum bilgisayarlar](../zcash-tech/post-quantum-security) tarafından kırılırsa fonların kurtarılmasına izin veren bir tasarım); bu format [ZIP 2005](https://zips.z.cash/zip-2005) içinde tanımlanmıştır.
 
 1. Etkinleşmeden sonra eski Orchard havuzu yalnızca harcanabilir hâle gelir; dolayısıyla içine yeni değer giremez.
 2. Yeni shielded değer bunun yerine Ironwood'a akar.

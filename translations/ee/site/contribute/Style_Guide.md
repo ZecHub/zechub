@@ -41,7 +41,7 @@ ZecHub ƒe atsyã le bɔbɔe eye woate ŋu ate ɖe eŋu. Míexɔa amesiame nyuie
 
 ## Tweets ƒe nyawo
 
-> Atsyã ƒe mɔfiame gbadza sia nye nyatiwo alo zãla ƒe mɔfiamewo ŋɔŋlɔ na ZecHub. Ne èdi tweet alo nya kpuiwo la, zã [tweets style guide](./tweets.md).
+> Atsyã ƒe mɔfiame gbadza sia nye nyatiwo alo zãla ƒe mɔfiamewo ŋɔŋlɔ na ZecHub. Eku ɖe tweet kple nya kpui bubuwo hã ŋu: na woanɔ kpuie, tsɔ nya la de ŋgɔ, eye nàdzo le nuwuƒe ƒe nuŋɔŋlɔmedzesiwo dzi le fli kpuiwo dzi.
 
 ---
 

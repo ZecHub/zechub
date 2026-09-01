@@ -34,7 +34,7 @@ Sasrã [encrypt.asitsatsa ƒe nyawo](https://app.encifher.io/zec) zã **Chrome a
 ---
 
 ###  Afɔɖeɖe 2: Xatsa Wò Dzesiwo 
-Yi **Wrap** ƒe akpaa dzi. Tia **SOL** alo **USDC**, ŋlɔ ga homea, eye nàɖo kpe edzi. Dɔdamɔnua xea wò nunɔamesiwo eye wònaa **ncrypted versions (eSOL alo eUSDC)**. Be nàdzi adzamenyawo ɖe edzi la, xatsae vie wu alesi nèɖoe be yeaɖɔli - esia xea mɔ na ame ɖekaɖekawo ƒe kplɔkplɔ. 
+Yi **Wrap** ƒe akpaa dzi. Tia **SOL** alo **USDC**, ŋlɔ ga homea, eye nàɖo kpe edzi. Dɔdamɔnua xea wò nunɔamesiwo eye wòɖea **ncrypted versions (eSOL alo eUSDC)** ɖe go. Be nàdzi adzamenyawo ɖe edzi la, xatsae vie wu alesi nèɖoe be yeaɖɔli - esia xea mɔ na ame ɖekaɖekawo ƒe kplɔkplɔ. 
 
 
 
@@ -50,8 +50,8 @@ Yi **Wrap** ƒe akpaa dzi. Tia **SOL** alo **USDC**, ŋlɔ ga homea, eye nàɖo 
 
 ---
 
-###  Afɔɖeɖe 3: Dzra Wò Zodl Gakotokua Dzra ɖo 
-Hee ɖa anyi [**Zodl** ƒe ƒuƒoƒo.](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn), the official Zcash wallet by Electric Coin Co. Kpɔ wò **Unified Address** tso Xɔla ƒe tab la me - edoa alɔ ZEC si me kɔ kple esi wokpɔ ta na siaa. Dzra wò nuku ƒe nyagbea ɖo dedie hafi nàyi edzi. 
+###  Afɔɖeɖe 3: Dzra Wò Zodl Gakotokua Ðo 
+Hee ɖa anyi [**Zodl** ƒe ƒuƒoƒo.](https://zodl.com), the Zcash wallet maintained by ZODL. Copy your **Unified Address** from the Receive tab - it supports both transparent and shielded ZEC. Save your seed phrase securely before proceeding.  
 
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)
@@ -60,7 +60,7 @@ Hee ɖa anyi [**Zodl** ƒe ƒuƒoƒo.](https://www.google.com/url?sa=t&source=we
 ---
 
 ###  Afɔɖeɖe 4: Trɔ asi le nu ŋu le Adzame 
-Trɔ yi **encrypt.trade** dzi la, yi **Swap**. Tia **eSOL/eUSDC -> ZEC**, tsɔ wò Zodl adrɛs de eme, lé ŋku ɖe nyatakakawo ŋu, eye nàɖo kpe edzi.
+Trɔ yi **encrypt.trade**, yi **Swap**. Tia **eSOL/eUSDC -> ZEC**, tsɔ wò Zodl adrɛs de eme, lé ŋku ɖe nyatakakawo ŋu, eye nàɖo kpe edzi.
 
 
 
@@ -81,8 +81,8 @@ Trɔ yi **encrypt.trade** dzi la, yi **Swap**. Tia **eSOL/eUSDC -> ZEC**, tsɔ w
 ---
 
 ###  Afɔɖeɖe 5: Akpoxɔnu eye Nànɔ Adzame 
-Ne ènya xɔe ko la, zã Zodl ƒe **Shield** tiatia tsɔ tsɔ wò ZEC yi ɖe shielded pool la me hena adzamenyawo geɖe wu. Kpɔ kadodowo ɖa ɣesiaɣi, ƒo asa na adrɛswo gbugbɔgazã, eye nàdo ga suewo kpɔ gbã. 
+Ne ènya xɔe ko la, zã Zodl ƒe **Shield** tiatia tsɔ tsɔ wò ZEC yi ɖe shielded pool la me hena adzamenyawo si sɔ gbɔ wu. Kpɔ kadodowo ɖa ɣesiaɣi, ƒo asa na adrɛswo gbugbɔgazã, eye nàdo ga suewo kpɔ gbã. 
 
 ---
 
-To **Solana ƒe duƒuƒu**, **Zcash ƒe adzamenyawo**, kple **NEAR Intents ƒe automation** ƒoƒo ƒu me la, **encrypt.trade** gbugbɔ ɖe nusi ame ŋutɔ ƒe crypto swap ateŋu anye - kabakaba, si me kuxi aɖeke mele o, eye wònye nya ɣaɣla vavã.
+To **Solana ƒe duƒuƒu**, **Zcash ƒe adzamenyawo**, kple **NEAR Intents ƒe automation** tsɔtsɔ ƒo ƒui me la, **encrypt.trade** gbugbɔ ɖe nusi ame ŋutɔ ƒe crypto swap ateŋu anye - kabakaba, si me kuxi aɖeke mele o, eye wònye nya ɣaɣla vavã.

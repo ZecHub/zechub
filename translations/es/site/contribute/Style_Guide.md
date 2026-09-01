@@ -41,7 +41,7 @@ El estilo de ZecHub es simple y cercano. Damos la bienvenida a todo el mundo y n
 
 ## Tweets
 
-> Esta guía general de estilo es para escribir artículos o guías de usuario para ZecHub. Para tweets o declaraciones cortas, usa la [guía de estilo para tweets](./tweets.md).
+Esta guía general de estilo es para escribir artículos o guías de usuario para ZecHub. También se aplica a tweets y otras declaraciones cortas: mantenlos breves, presenta la idea principal al comienzo y omite la puntuación final en las líneas cortas.
 
 ---
 

@@ -4,7 +4,7 @@
 
 # Ironwood
 
-> Ironwood はブロック 3,428,143 で Zcash メインネット上で有効化され、UTC 2026年7月28日頃と見込まれています。
+> Ironwood は UTC 2026年7月28日にブロック 3,428,143 で Zcash メインネット上で有効化され、それ以来稼働しています。
 
 この記事でわかること: Ironwood によって何が変わるのか、なぜ見えない資金におけるバグが深刻なのか、そして turnstile によって誰でも ZEC が不正に生成されていないことをどのように確認できるのか。
 
@@ -34,7 +34,7 @@ Zcash が初めてですか？ まずは [ZEC と Zcash とは](../start-here/wh
 
 Zcash コミュニティは、すべてを一度に行うのではなく、段階的に修正を展開しました。
 
-![Ironwood 対応のタイムライン: Orchard のバグは 2026年5月に発見され、プールは 2026年6月に一時停止され、回路は NU6.2 で修正され、Ironwood は 2026年7月28日頃に有効化される](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Ironwood 対応のタイムライン: Orchard のバグは 2026年5月に発見され、プールは 2026年6月に一時停止され、回路は NU6.2 で修正され、Ironwood は 2026年7月28日にブロック 3,428,143 で有効化された](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
 
 1. 2026年6月初旬、完全な修正の準備が整うまでの暫定措置として Orchard プールが無効化されました。
 2. NU6.2 アップグレードにより Orchard 回路そのものが修正され、根本的な soundness 脆弱性が解消されました。
@@ -46,7 +46,7 @@ Zcash コミュニティは、すべてを一度に行うのではなく、段�
 
 NU6.2 によって、すべての新しいトランザクションに対して Orchard 回路は安全になりましたが、古いルールの下で作られた価値は依然として Orchard プール内に残っています。Ironwood は、その価値に対してクリーンな移行先と、移動時に監査する方法を提供します。
 
-Ironwood プールは、NU6.3 が有効化されると作成される新しいシールド価値プールです。これは修正済みの回路上に構築されており、量子回復可能なノート形式（もし[量子コンピューター](../zcash-tech/post-quantum-security)が将来現在の暗号技術を破った場合でも資金を回復できる設計）を使用します。これは [ZIP 2005](https://zips.z.cash/zip-2005) で定義されています。
+Ironwood プールは、ブロック 3,428,143 で NU6.3 によって作成されるシールド価値プールです。これは修正済みの回路上に構築されており、量子回復可能なノート形式（もし[量子コンピューター](../zcash-tech/post-quantum-security)が将来現在の暗号技術を破った場合でも資金を回復できる設計）を使用します。これは [ZIP 2005](https://zips.z.cash/zip-2005) で定義されています。
 
 1. 有効化後、古い Orchard プールは spend-only となり、新しい価値はそこに入れられなくなります。
 2. 新たにシールドされる価値は代わりに Ironwood に流れます。

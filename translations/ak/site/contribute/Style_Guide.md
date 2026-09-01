@@ -18,7 +18,7 @@ ZecHub kwan no yɛ mmerɛw na wotumi bɛn. Yɛma obiara akwaaba na yɛde yɛn ad
 
 - **Yɛ tiawa**. Ma wɔn a wɔde di dwuma no nsɛm a ɛdɔɔso a ɛbɛma wɔadi ɔhaw bi ho dwuma anaasɛ wɔbɛpaw.
 
-- **Skip periods wɔ asɛmti ahorow mu**. Yi awiei nkyerɛwde a ɛwɔ asɛmti, asɛmti, nsɛmti nketewa, UI asɛmti, na kyerɛw nneɛma a nsɛmfua abiɛsa anaa nea ennu saa wom. Wɔde bere ahorow di dwuma wɔ nkyekyem ne nipadua no mfonini mu.
+- **Skip periods wɔ asɛmti ahorow mu**. Yi awiei nkyerɛwde a ɛwɔ asɛmti, nsɛmti, nsɛmti nketewa, UI asɛmti, na kyerɛw nneɛma a nsɛmfua abiɛsa anaa nea ennu saa wom. Wɔde bere ahorow di dwuma wɔ nkyekyem ne nipadua no mfonini mu.
 
   - Nhwɛsoɔ: Mia Send button no so->Mia Send button no so
 
@@ -28,7 +28,7 @@ ZecHub kwan no yɛ mmerɛw na wotumi bɛn. Yɛma obiara akwaaba na yɛde yɛn ad
 
 - **San kyerɛw nkyerɛwee a ɛyɛ mmerɛw**. Mpɛn pii no, fa adeyɛ asɛm bi fi asɛm biara ase. Wubetumi na na ɛwɔ hɔ a ɛsɛ sɛ wɔsan hwɛ mu.
 
-  - Nhwɛsoɔ: Wubetumi de ZEC amena na woagye afiri wo fon so->Fa wo fon so de ZEC amena na wogye
+  - Nhwɛsoɔ: Wubetumi de ZEC amena na woagye afiri wo fon a wokura kyin so->Fa wo fon so de ZEC amena na wogye
 
 - **Nnyɛ spacey**. Fa baabi biako pɛ di dwuma wɔ periods ne colons akyi.
 
@@ -41,7 +41,7 @@ ZecHub kwan no yɛ mmerɛw na wotumi bɛn. Yɛma obiara akwaaba na yɛde yɛn ad
 
 ## Tweets a wɔde kyerɛw nsɛm
 
-> Saa kwankyerɛ a ɛfa ɔkwan a wɔfa so yɛ ade nyinaa ho yi yɛ nea wɔde kyerɛw nsɛm anaa akwankyerɛ a wɔde di dwuma ma ZecHub. Sɛ wopɛ tweets anaa nsɛm ntiantiaa a, fa [tweets style guide](./tweets.md).
+> Saa akwankyerɛ a ɛfa ɔkwan a wɔfa so yɛ ade nyinaa ho yi yɛ nea wɔde kyerɛw nsɛm anaa akwankyerɛ a wɔde di dwuma ma ZecHub. Ɛfa tweets ne nsɛm ntiantiaa afoforo nso ho: ma ɛnyɛ tiawa, fa asɛm no hyɛ anim, na twa awiei nkyerɛwde agyiraehyɛde wɔ nkyerɛwde ntiantiaa so.
 
 ---
 

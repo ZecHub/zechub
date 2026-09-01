@@ -2,50 +2,57 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/Shielded-labs-shield-white-2-27aef199ae.webp" alt="Alt Text" width="50"/>    Shielded Labs
+# <img src="/content-images/Shielded-labs-shield-white-2-27aef199ae.webp" alt="Shielded Labs logo" width="50"/> Shielded Labs
 
+[Shielded Labs](https://shieldedlabs.net/), İsviçre merkezli, bağışlarla finanse edilen bağımsız bir Zcash destek kuruluşudur. Misyonu, insan özgürlüğünü ve öz egemenliği güçlendiren durdurulamaz özel para inşa etmektir; bunu yaparken Zcash ağının sürdürülebilirliğini, güvenliğini ve ölçeklenebilirliğini ilerleten çalışmalara odaklanır.
 
-[Shielded Labs](https://shieldedlabs.net), Aralık 2022'de İsviçre'de bir Dernek olarak kurulmuştur ve Zcash Community Grants (ZCG) ile hiçbir bağlantısı yoktur; ayrıca ZCG fonlamasına başvurmayı planlamamaktadır.
+Shielded Labs, Zcash ekosistemine bağımsız mühendislik kapasitesi ekler. Electric Coin Company, Zcash Foundation veya Zcash Community Grants'ın bir parçası değildir ve kendisini, Development Fund veya blok ödüllerinden doğrudan ya da dolaylı fon almamış ilk Zcash ekosistem kuruluşu olarak tanımlar.
 
-Zcash şu anda geliştirme fonunun tek alıcıları olan 2 ABD kuruluşu, Electric Coin Company (ECC) ve Zcash Foundation tarafından desteklenmektedir. ZCG bir kuruluş değil, Foundation bünyesinde yer alan, fonlarını saklayan ve yöneten bir hibe komitesidir. Gücün dağıtılması ve daha merkeziyetsiz hale gelinmesi için Zcash ekosistemine katkıda bulunan daha fazla bağımsız kuruluşa ihtiyaç vardır.
+## Misyon ve Rol
 
-Zcash, gizliliği koruyan kritik bir finansal altyapı inşa etmektedir ve yapılan çalışmaların regülasyonlar tarafından engellenme riski bulunmaktadır. Özellikle, Zcash'in ABD'ye maruziyeti potansiyel bir tek hata noktasıdır ve acilen ele geçirilmeye karşı dirençli bir ekosistem inşa etmemiz gerekmektedir.  
+Shielded Labs, Zcash'i uzun vadede daha dayanıklı hale getirebilecek protokol ve altyapı çalışmalarına odaklanır. Kamusal materyallerinde şu başlıklar öne çıkar:
 
-Shielded Labs'in merkezi İsviçre'dedir; çünkü burası hem kripto dostu bir ülke hem de gizlilik haklarını koruma konusunda uzun bir geçmişe sahiptir.
+- İnsan özgürlüğü ve finansal gizlilik
+- Development Fund dışındaki bağımsız finansman
+- ZEC sahiplerine ve coin holder girdilerine saygı
+- Kullanıcı özerkliği ve öz egemenlik
+- Sürdürülebilirlik, güvenlik ve ölçeklenebilirlik için teknik inovasyon
+- Diğer Zcash katkıcılarıyla iş birliği
 
-## Vizyon
+Kuruluş; doğrudan mühendislik, kamusal araştırma, altyapı desteği ve ekosistem koordinasyonu yoluyla katkı sağlar. Ayrıca yönetişim yoklamaları ve coin holder yönlendirmeli fonlama için kamusal kaynaklar da sürdürür; böylece Zcash topluluğu üyelerinin yönetişim sinyallerine ne zaman ve nasıl katılabileceklerini anlamalarına yardımcı olur.
 
-Shielded Labs, kullanıcı benimsenmesini artırmayı, Zcash için yeni kullanım alanları geliştirmeyi ve protokol geliştirmeye katkıda bulunmayı amaçlamaktadır. 
+## Mevcut Projeler
 
-**Stratejik odak alanlarına genel bakış:** 
+Shielded Labs, kamuya açık olarak birkaç aktif proje alanı listeler:
 
-### Kullanıcı Benimsenmesi: 
+- [Network Sustainability Mechanism](https://shieldedlabs.net/nsm/) - Zcash'in uzun vadeli güvenlik bütçesini desteklemeyi amaçlayan ve 21 milyon ZEC arz sınırını koruyan bir dizi önerilen değişiklik. NSM çalışması, ZIP 233, 234 ve 235'te açıklanan gönüllü ZEC yakımları, ihraç düzleştirmesi ve ücret yakma önerilerini içerir.
+- [Crosslink](https://shieldedlabs.net/crosslink-faq/) - Zcash'in proof-of-work blok üretimini proof-of-stake kesinliğiyle birleştirecek önerilen hibrit bir konsensüs yükseltmesi; böylece ZEC sahipleri, madenciler blok üretmeye devam ederken ağı güvence altına almaya yardımcı olabilir.
+- [Dynamic Fees](https://shieldedlabs.net/fees/) - Ağ geliştikçe daha öngörülebilir, kullanıcı dostu ve dayanıklı Zcash işlem ücretleri için araştırma ve araçlar.
+- [Zero](https://shieldedlabs.net/zero/) - Borsalar, madencilik havuzları, cüzdan sağlayıcıları ve Zcash altyapısına dayanan diğer kuruluşlar için desteklenen açık kaynaklı bir Zcash altyapı yazılım paketi.
+- [Ironwood](https://shieldedlabs.net/ironwood/) - Orchard sahtecilik açığına yanıt olarak oluşturulan bir Zcash ağ yükseltmesi ve shielded havuz; Zcash'in dolaşımdaki arzının bağımsız olarak doğrulanabilir sağlamlığını yeniden tesis etmek için tasarlanmıştır.
 
-Shielded Labs, Zcash'in daha fazla borsada listelenmesini sağlayarak, şirketlerle ödeme entegrasyonu üzerinde çalışarak ve Zcash'in DEX'lerde ve Defi uygulamalarındaki erişilebilirliğini artırarak kullanıcı benimsenmesini artırmak için çalışacaktır. Zcash Shielded Assets gibi Zcash'in kullanılabilirliğini ileri taşıyan projelere öncelik verecek ve köprülerin, AMM'lerin ve itibari para giriş/çıkış rampalarının geliştirilmesini destekleyecektir.
+## Ironwood Katkısı
 
-### İnsan Hakları ve Özgürlük: 
+2026 yılında Shielded Labs, Orchard sahtecilik açığına verilen ekosistem yanıtında önemli bir rol oynadı. Açık, Shielded Labs güvenlik araştırmacısı Taylor Hornby tarafından keşfedildi ve diğer Zcash katkıcılarıyla acil bir düzeltme sürecini koordine eden Zcash Open Development Lab (ZODL)'e bildirildi.
 
-Shielded Labs, Zcash'i ona en çok ihtiyaç duyan insanların eline ulaştırmak için insan hakları ve sivil özgürlükler kuruluşlarıyla ortaklık kuracaktır.
+Acil düzeltmeden sonra topluluğun, Zcash'in dolaşımdaki arzına bağımsız güveni yeniden tesis edecek bir yönteme hâlâ ihtiyacı vardı. Ironwood bunu, düzeltilmiş Orchard devresini kullanarak yeni bir shielded havuz oluşturarak ve orijinal Orchard havuzunu, fonların yalnızca turnikeden çıkabileceği şekilde mühürleyerek sağladı. Shielded Labs, Ironwood'un tasarımı, incelemesi ve ekosistem hazırlığı konusunda Project Tachyon, Valar Group, ZODL ve Zcash Foundation ile birlikte çalıştı.
 
-### Protokol Geliştirme: 
+Bu çalışma, Shielded Labs'ın Zcash'teki temel rollerinden birini gösterdi: orijinal Zcash geliştirme kuruluşlarının dışında bağımsız protokol geliştirme ve güvenlik kapasitesi eklemek.
 
-Bugüne kadar tüm ağ yükseltmeleri ECC tarafından uygulanmıştır. Dayanıklılık merkeziyetsizleşmeyi gerektirir ve Shielded Labs, temel protokol geliştirmeye katkıda bulunarak Zcash'in merkeziyetsizleşmesine yardımcı olacaktır.
+## Yönetişim Çalışmaları
 
-## Başlangıç
+Shielded Labs ayrıca Zcash topluluğu üyeleri için yönetişim bilgileri de yayımlar. Yönetişim sayfası; protokol yönetişim yoklamalarını, ZCAP katılımını, coin holder yönlendirmeli fonlamayı ve desteklenen oylama cüzdanlarını takip eder. Bu, Zcash karar alma süreçlerini coin holder'lar, ZCAP üyeleri ve daha geniş topluluk katılımcıları için takip etmeyi kolaylaştırır.
 
-Shielded Labs, Zcash GitHub deposunu fork'layacak, yeni kaynak kodunu uygulayacak ve birleştirme için bir pull request oluşturacaktır. Yeterli fon ve geliştirici kaynağına sahip olduğu varsayılırsa, Shielded Labs fork'lanan kod tabanı deposunun bakımını üstlenen taraf olarak sürekli destekten sorumlu olacaktır.
+Zcash, protokol değişiklikleri için otomatik zincir üstü yönetişim kullanmaz. Yoklamalar ve topluluk girdileri, daha geniş kaba uzlaşı sürecine katkı sağlayan tavsiye niteliğinde sinyallerdir. Shielded Labs'ın yönetişim çalışmaları, bu sinyalleri daha erişilebilir ve doğrulanmasını daha kolay hale getirmeye yardımcı olur.
 
-Bu, bağımsız bir geliştirici tarafından başlatılan ilk ağ yükseltmesi olacak ve Zcash'in gerçekten izinsiz bir ağ olduğunu gösterecektir.
+## Kaynaklar
 
-Kuruluşun büyümesi için gerekli temellerin atılmasına yardımcı olmak amacıyla, başlangıçta yarı zamanlı, proje bazlı desteğe ihtiyaç duyulacaktır.
-
-## Fonlama
-
-Başlangıçta Shielded Labs tamamen bağışlarla finanse edilmektedir ve operasyonların ilk yılını başlatmak için fon toplamayı hedeflemektedir. 
-
-Uzun vadeli fonlamayla ilgili olarak, Shielded Labs, 2024'ün 4. çeyreğinde gerçekleşecek bir sonraki halving sonrasında blok ödülü aracılığıyla Zcash geliştirme fonunun bir alıcısı olmak üzere "Network Sustainability Fund" adlı bir öneri ortaya koymuştur. 
-
-Bu, değiştirilmiş bir ihraç takviminin geliştirilmesini ve fonların Sustainability Fund'a yönlendirilmesini sağlayacak mekanizmayı ve zcashd/zebrad üzerinde uygulanmasına yönelik planları içerecektir. 
-
-Önerinin tamamını burada okuyabilirsiniz:
-https://shieldedlabs.net/nsm
+- [Shielded Labs web sitesi](https://shieldedlabs.net/)
+- [Shielded Labs projeleri](https://shieldedlabs.net/projects/)
+- [Network Sustainability Mechanism](https://shieldedlabs.net/nsm/)
+- [Crosslink SSS](https://shieldedlabs.net/crosslink-faq/)
+- [Dynamic Fees](https://shieldedlabs.net/fees/)
+- [Zero](https://shieldedlabs.net/zero/)
+- [Ironwood](https://shieldedlabs.net/ironwood/)
+- [Yönetişim ve yoklamalar](https://shieldedlabs.net/governance/)
+- [Shielded Labs GitHub](https://github.com/ShieldedLabs)

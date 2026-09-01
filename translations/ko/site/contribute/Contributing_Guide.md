@@ -31,7 +31,7 @@ ZecHub는 GitHub을 사용하여 커뮤니티 기여를 관리합니다. GitHub�
 
 ### 스타일 가이드
 
-ZecHub에 기여하는 모든 내용은 [ZecHub 스타일 가이드](https://github.com/ZecHub/zechub/blob/main/styles/guide.md)를 따르어야 합니다. 이는 위키, 문서 및 소셜 미디어 콘텐츠 모두 포함됩니다.
+ZecHub에 대한 모든 기여는 [ZecHub 스타일 가이드](https://zechub.wiki/contribute/style-guide)를 따라야 합니다. 여기에는 위키, 문서, 소셜 미디어 콘텐츠가 포함됩니다.
 
 ### 기여할 수 있는 방법
 
@@ -72,7 +72,7 @@ Zcash 앱에 대한 튜토리얼을 만들고 공유하여 보상을 받으세�
 - 프라이버시 생태계 및 도구
 ```
 
-이 영역은 매우 광범위하므로, 작업할 수 있는 것이 많습니다. 영감을 얻고 싶다면 현재 [wiki-docs 사이트](https://zechub.wiki/)를 확인하고 빠진 부분을 살펴보세요. 작성하고자 하는 내용을 결정한 후 변경 사항을 만들고 PR을 제출하는 방법을 배우세요. 모든 문서는 이 저장소에서 생성되고 유지됩니다. 위키 페이지 작성을 할 때 [docs 템플릿](https://github.com/ZecHub/zechub/blob/main/template.md)을 사용하고 [ZecHub 스타일](https://zechub.wiki/contribute/style-guide)을 따르세요. PR을 제출한 후, Discord의 #zechub 섹션에서 @dismad, @squirrel 또는 @vito에게 메시지를 보내어 PR을 검토하고 병합할 준비가 되었는지 확인해 주세요. 병합되면 그들은 문서를 ZecHub 웹사이트에 추가합니다. 문서가 준비되지 않았다면, 그들은 PR에서 편집 제안을 제공합니다.
+이 영역은 매우 광범위하므로, 작업할 수 있는 것이 많습니다. 영감을 얻고 싶다면 현재 [wiki-docs 사이트](https://zechub.wiki/)를 확인하고 빠진 부분을 살펴보세요. 작성하고자 하는 내용을 결정한 후 변경 사항을 만들고 ZecHub 저장소에 PR을 제출하는 방법을 배우세요. 모든 문서는 이 저장소에서 생성되고 유지됩니다. 위키 페이지를 작성할 때는 [ZecHub 스타일 가이드](https://zechub.wiki/contribute/style-guide)를 따르고, 같은 섹션에 있는 기존 페이지를 구조적 참고 자료로 활용하세요. PR을 제출한 후에는 Discord의 #zechub 섹션에서 @dismad, @squirrel 또는 @vito에게 메시지를 보내 주세요. 그러면 그들이 여러분의 PR을 검토하고 사이트에 추가할 준비가 되었다면 병합할 것입니다. 병합되면 그들은 문서를 ZecHub 웹사이트에 추가합니다. 문서가 아직 준비되지 않았다면, 그들은 PR에서 수정 제안을 해줄 것입니다.
 
 #### ZecHub 위키 - 문서에 승인된 수정당 0.015 ZEC
 

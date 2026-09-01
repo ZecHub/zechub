@@ -34,7 +34,7 @@ ZecHub 使用 GitHub 来管理社区贡献。如果你是 GitHub 新手，也不
 
 ### 风格指南
 
-对 ZecHub 的任何贡献都应遵循 [ZecHub 风格指南](https://github.com/ZecHub/zechub/blob/main/styles/guide.md)。这包括 wiki、文档和社交媒体内容。
+对 ZecHub 的任何贡献都应遵循 [ZecHub 风格指南](https://zechub.wiki/contribute/style-guide)。这包括 wiki、文档和社交媒体内容。
 
 ### 你可以贡献的方式
 
@@ -76,7 +76,7 @@ ZecHub 是一个社区驱动的项目，旨在为 Zcash 用户和开发者提供
 - Privacy Ecosystem & Tools
 ```
 
-这些都是相当宽泛的领域，因此有很多内容可以着手。如果你想找些灵感，可以查看我们当前的 [wiki-docs 站点](https://zechub.wiki/)，看看还缺少什么内容。一旦你确定了想写的主题，就可以开始修改，并学习如何向 ZecHub 仓库提交 PR。我们的所有文档都在这个仓库中创建和维护。撰写 wiki 页面时，请使用[文档模板](https://github.com/ZecHub/zechub/blob/main/template.md)，并遵循 [ZecHub 风格](https://zechub.wiki/contribute/style-guide)。提交 PR 后，请在 discord 的 #zechub 分区联系 @dismad、@squirrel 或 @vito，他们会审查你的 PR，并在准备好后进行合并。如果合并成功，他们会将该文档添加到 ZecHub 网站。如果文档尚未准备好，他们会在 PR 中为你提出修改建议。
+这些都是相当宽泛的领域，因此有很多内容可以着手。如果你想找些灵感，可以查看我们当前的 [wiki-docs 站点](https://zechub.wiki/)，看看还缺少什么内容。一旦你确定了想写的主题，就可以开始修改，并学习如何向 ZecHub 仓库提交 PR。我们的所有文档都在这个仓库中创建和维护。撰写 wiki 页面时，请遵循 [ZecHub 风格指南](https://zechub.wiki/contribute/style-guide)，并使用同一分区中的现有页面作为结构参考。提交 PR 后，请在 discord 的 #zechub 分区联系 @dismad、@squirrel 或 @vito，他们会审查你的 PR，并在准备好后进行合并。如果合并成功，他们会将该文档添加到 ZecHub 网站。如果文档尚未准备好，他们会在 PR 中为你提出修改建议。
 
 #### ZecHub Wiki - 每次对文档的已接受编辑可获 0.015 ZEC
 

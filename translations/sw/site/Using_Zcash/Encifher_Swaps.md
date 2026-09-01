@@ -51,7 +51,7 @@ Kuzunguka kwa ** Wrap** sehemu. Chagua ** SOL ** au ** USDC, kuingia kiasi cha f
 ---
 
 ###  Hatua ya 3: Kuandaa yako Zodl Wallet 
-Kupakua [**Zodl**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn), the official Zcash wallet by Electric Coin Co. Copy your **Unified Address** from the Receive tab - it supports both transparent and shielded ZEC. Save your seed phrase securely before proceeding.  
+Kupakua [**Zodl**](https://zodl.com), the Zcash wallet maintained by ZODL. Copy your **Unified Address** from the Receive tab - it supports both transparent and shielded ZEC. Save your seed phrase securely before proceeding.  
 
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)

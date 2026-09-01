@@ -36,7 +36,7 @@
 ---
 
 ### 단계 3: Zodl 지갑 준비  
-[**Zodl**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn)를 다운로드하세요. 이는 Electric Coin Co.에서 제공하는 공식 Zcash 지갑입니다. 수신 탭에서 **Unified Address**를 복사합니다. 이 주소는 투명하고 보호된 ZEC 모두를 지원합니다. 계속하기 전에 시드 구문을 안전하게 저장하세요.
+[**Zodl**](https://zodl.com)를 다운로드하세요. 이는 ZODL이 유지 관리하는 Zcash 지갑입니다. 수신 탭에서 **Unified Address**를 복사합니다. 이 주소는 투명하고 보호된 ZEC 모두를 지원합니다. 계속하기 전에 시드 구문을 안전하게 저장하세요.
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)
 

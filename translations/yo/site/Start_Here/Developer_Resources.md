@@ -3,63 +3,105 @@
 </a>
 
 
-# Àwọn Ìpèsè fún Olùgbéejáde 
+# Àwọn Ìpèsè fún Oníṣètò
 
-**Àtòjọ àwọn ohun àmúṣọrọ̀ tí a dábàá fún àwọn olùdàgbà tuntun sí Zcash**
+Àwọn ohun àmúṣọrọ̀ tí o nílò láti kóra jọ lórí Zcash, ti a pín sí àwùjọ nípa ìdí tí ẹnìkọ̀ọ̀kan fi wà dípò kí ó máa ṣe àkọsílẹ̀ wọn ní ìdìpọ̀ kan.
 
-Àkópòsí gbòòrò nípa bí Blockchains & Zcash ṣe ń ṣiṣẹ́:
+The stack changed a great deal in 2026. zcashd, which ran the network for most of its history, reached its end of life on 18 July 2026 at block height 3417100, and every unmodified node shut down at that height and will refuse to restart. Guides written for zcashd are history now rather than a starting point, so this page is organised around what replaced it.
 
-[Àwọn Àkọsílẹ̀ Zcash](https://zcash.readthedocs.io/en/latest/)
+## Àwòrán ìdìpọ̀ náà ní ṣókí kan ṣoṣo
 
-[Mímú Bitcoin ṣe: Ìtòlẹ́sẹẹsẹ Àkọsílẹ̀ Ọ̀pá Ìdiwọle Tó Ṣílẹ̀](https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4)
+ Layer. Kí ni kí n lò? Bẹrẹ pẹ̀lú:
+|:--|:--|:--|
+nódù tó kún. Zebra tàbí Zakura. [Ìwé Zebra náà](https://zebra.zfnd.org/), [zakura.com (ìkànnì)](https://zakura.com/) |
+ípò owó gbogbo-nódì. Zallet, ní ìmúṣẹ ìdánwò (beta) [Ìwé Zallet](https://zcash.github.io/zallet/) |
+| Light wallet server | Zaino or lightwalletd | [Zaino (ìyẹn)](https://github.com/zingolabs/zaino), [lightwalletd ì í ë ¤ì 'ë¦¬í ¬](https://github.com/zcash/lightwalletd) |
+| Wallet libraries | The librustzcash crates | [librustzcash](https://github.com/zcash/librustzcash) |
+Mobile: Android àti iOS SDKs. [Androidì í ì ë ¤ë¥1⁄4](https://github.com/zcash/zcash-android-wallet-sdk), [iOS (ìkànnì)](https://github.com/zcash/zcash-swift-wallet-sdk) |
+Àkọsílẹ̀ Ìlànà àti àwọn ìdìpọ̀-ìpamọ́. [ìdìpọ̀ owó. z. cash](https://zips.z.cash) |
 
-[Zcashd RPCs](https://zcash.github.io/rpc/)
+## Àwọn ìsọ̀rí
 
-[Ìwé Zcashd náà](https://zcash.github.io/zcash/)
+A node validates ìfohùnṣòwò ati ki o mu awọn pq. Nibẹ ni o wa meji actively idagbasoke imuse.
 
-[Ìwé Zebrad](https://zebra.zfnd.org/)
+[Zebra](/zcash-tech/zebra-full-node) is the Zcash Foundation's node, written in Rust, and is the one most guides now assume. [Ìwé Zebra náà](https://zebra.zfnd.org/) ó kan gbígbé e kalẹ̀ àti lílò é, àti àwọn ohun èèlò tó ń mú kí ọpọlọ ṣiṣẹ́. [ibi ìpamọ́](https://github.com/ZcashFoundation/zebra) ibẹ̀ ni ìdàgbàsókè ti ń wáyé.
 
-[Ìlànà Ìránisọ̀rọ̀ Oníṣe-òwò Rọrun](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html)
+[Zakura](/zcash-tech/zakura-node) jẹ́ àpò tuntun, tí àwọn òǹkọ̀wé rẹ̀ ṣàpèjúwe gẹ́gẹ́ bí "àpójú Zcash tó kún fún ìfọwọ́sowọpọ, ti a ṣe fun iwọn", pẹlú ìṣọpo iyara, gige blọọki àti ipo ibaramu zcashd. O wa ni olori nipasẹ Sean Bowe, olùpilẹ-iṣẹlẹ Zcash kan ati Dev Ojha . Ó jé orísun ìmọ labẹ Apache 2.0 ní [zakura-core/zakura (ìyẹn ohun tí wọ́n fi ń ṣe ìrì)](https://github.com/zakura-core/zakura).
 
-[Android Mobile SDK] Àtúnṣe ojúewé](https://github.com/zcash/zcash-android-wallet-sdk) / [iOS Mobile SDK](https://github.com/zcash/ZcashLightClientKit)
+ZecHub ní àwo n ìkànnì kan tí ó ń jé [Àwọn Ìkànnì Pípéye](/zcash-tech/full-nodes) ojú ìwé tó ń sọ nípa àwọn ohun tí wọ́n fi ṣe pàṣípààrọ̀.
 
-Ṣiṣe oye ti bi awọn ẹgbẹ ṣe ṣe atunyẹwo & ṣetọju awọn igbẹkẹle:
+## Àpò-ìpamọ́ tó kún fún nóòdù náà.
 
-[ZIP List](https://zips.z.cash)
+zcashd ṣe àpò-ìpamọ́ kan pẹ̀lú ìsopọ. Àpó náà ti lọ, àti pé [Zallet](https://github.com/zcash/zallet) The Zallet Book ṣe apejuwe rẹ bi "aṣayan owo Zcash ti o ni kikun-node kọ ninu Rust" a nṣe "bi iyipada fun apamọwọ zcashd".
 
-[Àdúgbò tí a fi kọ̀ǹpútà sí](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys)
+Ka ìkìlọ̀ ààbò kí o tó gbára lé e. Zallet wà ní beta, "kò tíì ṣe àtúnyẹwò rẹ pátápátá", àwọn ayipada tí ó ń ba nǹkan jẹ́ "lè wáyé nígbàkigbà, èyí lè mú kóo pa àti tún ẹrù-ìpamọ́ Zallet yín dá" , kì í sìí ṣe gbogbo ọ̀nà zcashd RPC ni a ti gbé kiri títí di báyìí.
 
-[Ilé Ìpamọ́ Zebrad](https://github.com/ZcashFoundation/zebra) / [Ìbéèrè láti fa Zebrad](https://github.com/ZcashFoundation/zebra/pulls)
+Ti o ba ti wa ni gbigbe ohun tẹlẹ iṣeto kọja, ZecHub ní a [itọsọna gbigbe lati zcashd si Zebra ati Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) àti a. [Àlàyé kíákíá nípa Zallet.](/using-zcash/zallet-quick-reference-guide).
 
-[Ìwé Ìwé Aláṣẹ Ìkọ̀ǹkà](https://github.com/orgs/ZcashFoundation/repositories?type=all)
+## Àwọn àkáǹtì owó kékeré (light wallet servers)
 
-[Ìtàn Ìmọ́lẹ̀ 2 Ìwé](https://zcash.github.io/halo2/index.html)
+Ọpọlọpọ awọn apamọwọ ko ṣiṣe kan node. Wọn sọrọ si a olupin ti o tọju ni pq ati ọwọ pada kan iwapọ wiwo ti o.
 
-[Ìwé Ọgbà Èso](https://zcash.github.io/orchard/)
+[lightwalletd ì í ë ¤ì 'ë¦¬í ¬](https://github.com/zcash/lightwalletd) jẹ iṣẹ atilẹba, ti a kọ ni Go, apejuwe bi "iṣẹ afẹyinti kan ti o pese wiwo bandwidth-doko si blockchain Zcash". [Zaino (ìyẹn)](/zcash-tech/zaino) jẹ́ àtòjọ tuntun, tí a kọ ní Rust, ó sì ń ka láti inú olùṣe ìdánilójú tó kún dípò kí o máa gbé ẹ̀dà tirẹ̀ ti ìsín.
 
-[Àpótí Halo2](https://docs.rs/halo2_proofs/latest/halo2_proofs/) / [Orchard Crate](https://docs.rs/orchard/latest/orchard/)
+Àwọn ohun tó ń ṣẹlẹ̀: [Ìlànà Òǹdó-ìmọ̀lẹ́rọ̀ Rerun](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html) ìwé náà ni àkọsílẹ̀ àbájáde. [Àwọn Ìkànnì Lightwallet Nodes](/zcash-tech/lightwallet-nodes) ojúewé yìí ń bo ohun tí àwọn séràfítò lè rí àti èyí tí kò le rí nípa oníṣe, tó yẹ kí o lóye kóo to yan ọ̀kan.
 
-[Zcash R&D Àríyànjiyàn](https://discord.gg/6AK7keWFaK)
+## Ṣíṣe àpamọ́ owó kan
 
-[Ìwé Frost](https://frost.zfnd.org/)
+Pupọ ninu iṣẹ apamọwọ naa waye ni awọn apoti Rust labẹ [librustzcash](https://github.com/zcash/librustzcash), ti awọn SDK alagbeka ati ọpọlọpọ awọn apamọwọ tabili kọ lori. Kọọkan apoti ni a ṣe akọsilẹ lori [àwọn ìwé ìwádìí.rs](https://docs.rs).
 
-[Ìyọrísí Zechub Hackathon 2024](https://x.com/ZecHub/status/1845212469809033489)
+Àpótí. Kí ni ó wà fún?
+|:--|:--|
+zcash_client_backend "API fún ṣiṣẹ́da àwọn oníṣe Zcash tí ó ní ìpamọ̀", pẹlu ìṣàdákẹgbẹ àti ètò ìdánwò.
+zcash_client_sqlite "A SQLite-orisun Zcash ina onibara", awọn ibi ipamọ Layer fun loke.
+ zcash_keys "Ìdarí kókó àti àdírésì Zcash"
+ zcash_primitives "Ìmúṣẹ Rust ti àwọn àkójọ Zcash"
+| zcash_protocol | "Zcash protocol network constants and value types" |
+ orchard. "ìlànà ìsòwò tí a fi ààbò pa" Orchard".
+sapling-crypto "Ìwé ìkówèésí fún Zcash Sapling"
+☐ PCZT: "Àwọn irinṣẹ́ fún ṣiṣẹ́ pẹ̀lú àwọn ìnáwó Zcash tí a dá ní apá kan", èyí ti wọ́n ń lò láti ṣe ìdásílẹ̀ ohun èlò àti oríṣiríṣi ẹrọ.
+ zip321  Awọn URI ibeere isanwo, bi a ti ṣalaye ninu ZIP 321 
 
-[Ìyọrísí Zechub Hackathon 2025](https://x.com/ZecHub/status/1975565960661635283)
+Fun alagbeka, awọn ti o ni agbara. [Android SDK (ìpèsè ìmúṣẹ)](https://github.com/zcash/zcash-android-wallet-sdk) àti àwọn [iOS SDK (ì í ì ë°)](https://github.com/zcash/zcash-swift-wallet-sdk) wọ́n máa ń pe ibi ìpamọ̀ iOS ní ZcashLightClientKit, nítorí náà àwọn ojúewé àti àpilẹ̀kọ tí ó ti pẹ́ lo orúkọ yẹn.
 
-[Ìyọrísí Zypherpunk Hackathon 2025](https://forum.zcashcommunity.com/t/zypherpunk-hackathon-winners/53985)
+## Àkọsílẹ̀ àti ìdìwé-àṣáwọlé
 
-[Arti ToR oníbàárà ní Rust](https://docs.rs/arti/latest/arti/)
+Àwọn ohun tó ń ṣẹlẹ̀: [Àkọsílẹ̀ àbáwọlé](https://zips.z.cash/protocol/protocol.pdf) ni aláṣẹ lórí bí Zcash ṣe ń ṣiṣẹ́, títí kan: [adirẹsi ati awọn koodu bọtini](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys).
 
-[Àlàfo tó wà nídìí ìrù](https://github.com/tailscale/tailscale)
+[Àwọn ZIPs](https://zips.z.cash) are where changes are proposed and specified, and the index shows which are drafts and which are final. Consensus changes ship in network upgrades, and ZecHub tracks those on the [Àwọn Àtúnṣe sí Ìpínlẹ̀ Nẹ́tàkì](/start-here/network-upgrades) ojú ìwé.
 
-[Zcash wallet Warp2-Sync nipasẹ Hanh](https://github.com/hhanh00/warp2)
+Fun awọn cryptography labẹ, ka [Ìwé halo2 Book](https://zcash.github.io/halo2/index.html) àti pé, [The Orchard Book](https://zcash.github.io/orchard/), pẹlu awọn [halo2 (ìmọ̀lára)](https://docs.rs/halo2_proofs/latest/halo2_proofs/) àti pé, [ọgbà èso](https://docs.rs/orchard/latest/orchard/) Àwọn dókítà tó wà ní ẹ̀gbẹ́. [Ìwé FROST](https://frost.zfnd.org/) bo awọn ami-ami, ati ZecHub ni o ni a [FROST](/zcash-tech/frost) ojú ìwé.
 
-[Ìwádìí Ìdánwò Zcash](https://testnet.zcashblockexplorer.com/)
+## Àwòdì ìdánwò
 
+Testnet jẹ ẹwọn ti o yatọ pẹlu awọn owó-owo ti ko ni iye, ti a npe ni TAZ. Awọn mejeeji Zebra ati Zakura le ṣiṣe lodi si rẹ, ati pe [ìwé tó ń darí àwọ̀n ìdánwò.](https://zcash.readthedocs.io/en/latest/rtd_pages/testnet_guide.html) ó kan ìtòlẹ́sẹẹsẹ àwọn àpò.
 
-A ṣe akojọ yii lati awọn iṣeduro ti awọn olupilẹṣẹ lati Zcash Foundation & ECC pese. 
+[testnet.zcashexplorer.app ì í ë ¤ì ' ê° ì ¬ë¦¬í °ê ̧°](https://testnet.zcashexplorer.app/) jẹ iṣẹ-ṣiṣe testnet block explorer, pẹlu a mainnet counterpart ni awọn ti o wa ninu rẹ. [ì ë¦¬ì ¤í ¬ë¥1⁄4 í êμ°ê ̧°.zcashexplorer.app](https://mainnet.zcashexplorer.app/).
 
-If you have any additional resources (links, books, channels etc.) to update the list feel free to include them!
+Gbígba TAZ ni apá tí ó nira. àwọn ìlépa gbangba ń yọjú, wọ́n sì ti parẹ̀, àti èyí tó so mọ́ láti inú ìwé àlàyé ọjọ́ ogbó kò dáhùn nígbàtí a kọ ojúewé yìí. ọ̀nà tí o ṣeé gbára lé jùlọ ni kí á béèrè nínú Zcash R&D Discord, ìyẹn ohun tí àkọsílẹ̀ Zcash fúnra rẹ̀ dábàá.
 
-*Teams don't always have the resources to keep everything fully up to date but opening issues that you run into will instruct the direction of guides & resources*
+## Àwọn ìwé tó wà fún gbogbo èèyàn
+
+[Àkọsílẹ̀ Zcash](https://zcash.readthedocs.io/en/latest/) jẹ́ orísun kan ṣoṣo tó gbòòrò jùlọ, tí ó bo àwọn èròjà ìlànà ìṣàkóso, ìsowọ̀pọ̀ àti ìdásílẹ̀. ka rẹ pẹlú àfiyèsí díẹ̀. o ni ẹ̀dà lòdì sí zcashd, nítorí náà apá ibìkan nínú rèé ṣàpèjúwe kókó ti kò ṣiṣẹ mọ́, nígbàtí ètò ìṣàpẹẹrẹ ati abala oníṣe alágbára ṣì wúlò. [Àpẹẹrẹ Ìṣòro App Wallet Zcash](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html) tó ń gbé ibẹ̀ yẹ ká kà á kí a tó ṣe ohunkóhun tí yóò kan ìpamọ́ àwọn olùṣe.
+
+Ti o ba jẹ tuntun si awọn blockchains ni gbogbogbo, [Mímọ Bitcoin Lọ́nà Tó Dáa](https://github.com/bitcoinbook/bitcoinbook) ni awọn ti o wọpọ iṣeduro fun pín fundamentals, ati ki o jẹ free lati ka ninu kikun. O ko ba bo shielded owo-owo.
+
+## Àwọn irinṣẹ́ mìíràn tí àwọn olùdàgbà ti mẹnuba
+
+[Àwọn ẹ̀ka:](https://docs.rs/arti/latest/arti/) jẹ́ ìmúṣẹ Rust ti Tor, tí zcash_client_backend ń lò láti darí àpò owó. [Àlàfo ìrù](https://github.com/tailscale/tailscale) ó máa ń yọ láti so mọ́ ìkànnì kan tí ìwọ fúnra rẹ ti ṣètò. [ì2 í 'ì ¬í °ë¦¬](https://github.com/hhanh00/warp2) jẹ́ ìmúṣẹ àpapọ̀ yíyára kánkán tí Hanh ṣe, bí ó tilẹ̀ jẹ pé a kò tíì mú un ṣẹ láti ọdún 2023.
+
+## Ìjọ àti àwọn ìṣẹ̀lẹ̀
+
+Àwọn ohun tó ń ṣẹlẹ̀: [Zcash R&D Discord ì í ë ¤ì 'ë¦¬í ¬ê° êμ¬ì§ .](https://discord.gg/6AK7keWFaK) ni ibi ti a sọrọ nipa ilana ati idagbasoke apamọwọ, ati awọn [Àjọ Ìgbìmọ̀ Zcash Forum](https://forum.zcashcommunity.com/) ó ní àwọn àbá àti ìsọfúnni tó gùn ju èyí lọ.
+
+Àwọn àbájáde hackathon tó wáyé láìpẹ́ yìí jẹ àwòrán rere nípa ohun tí àwọn ènìyàn ń kọ: [ZecHub 2024 (ìmọ̀ràn)](https://x.com/ZecHub/status/1845212469809033489), [ZecHub 2025 - Àwọn ohun tó ń ṣẹlẹ̀ lákòókò yìí.](https://x.com/ZecHub/status/1975565960661635283) àti àwọn [Ìjàpá-ìbínú Zypherpunk 2025](https://forum.zcashcommunity.com/t/zypherpunk-hackathon-winners/53985).
+
+## Àwọn ohun èlò tí a ti yọ kúrò nínú iṣẹ́
+
+A pa wọn mọ́ nítorí pé àwọn àpilẹ̀kọ tí ó ti pẹ́ ní ìjápọ̀ sí i, àti wípé wọ́n ṣì jẹ́ àtúnyèwò fún bí nóò tó bá fẹsẹ̀ ara rẹ̀ sílẹ̀ ṣe hùwà. Ẹ má bẹ̀rẹ̀ láti ibí yìí o.
+
+[Ìwé Zcashd náà](https://zcash.github.io/zcash/) àti àwọn [zcashd RPC reference](https://zcash.github.io/rpc/) software àkọsílẹ̀ tí ó dé ọdọ [ìparí ayé.](https://zcash.github.io/zcash/user/end-of-life.html) ní July 2026. Àwọn ìsọfúnni tó wà nínú ìwé ìròyìn náà ni: [zcash/zcash ì í ë ¤ì 'ë¦¬í ¬ê°](https://github.com/zcash/zcash) ibi ìpamọ́ náà ti wà ní àkọsílẹ̀.
+
+If you have a resource to add, or you spot something here that has gone stale, open an issue or a pull request. Teams do not always have capacity to keep everything current, and flagging what you ran into helps direct the guides.
+
+** Àtúnṣe ìkẹyìn:** August 2026

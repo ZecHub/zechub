@@ -1,55 +1,55 @@
 # Demo MultiSig
 
-> **Storico. Questa guida non funziona più.**
+> **Storico. Questa procedura guidata non funziona più.**
 >
-> Tutti i passaggi seguenti dipendono da zcashd, che ha raggiunto il suo arresto automatico di fine supporto il 18 luglio 2026. I sette script forniti insieme a questa pagina lo pilotano tramite `zcash-cli`, quindi nessuno di essi può raggiungere oggi un nodo in esecuzione.
+> Ogni passaggio qui sotto dipende da zcashd, che ha raggiunto l'arresto automatico di Fine del Supporto il 18 luglio 2026. I sette script distribuiti insieme a questa pagina lo controllano tramite `zcash-cli`, quindi oggi nessuno di essi può raggiungere un nodo in esecuzione.
 >
-> Questi script non possono essere portati meccanicamente: si basano su RPC di transazione grezza e di portafoglio che zcashd ha reso obsolete, e Zallet le sostituisce con nuovi metodi che operano su PCZT anziché su hex di transazione grezza.
+> Questi script non possono essere convertiti meccanicamente. Si basano sulle RPC raw-transaction e wallet (`createrawtransaction`, `signrawtransaction`, `createmultisig`, `dumpprivkey`) che zcashd aveva deprecato prima dell'arresto; Zallet le sostituisce con nuovi metodi che operano sui PCZT anziché sull'hex della transazione raw, ed è ancora in beta con molti metodi di zcashd non ancora convertiti.
 >
-> Per la custodia multiparte su Zcash oggi, vedi [FROST e custodia a soglia](/zcash-tech/frost-threshold-custody) e la [demo FROST con Ywallet](/guides/frostdemo/ywallet-frost-demo). Per migrare un nodo esistente da zcashd, vedi la [guida alla migrazione verso Zebra e Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
+> Per la custodia multi-parte su Zcash oggi, vedi [FROST & Custodia Threshold](/zcash-tech/frost-threshold-custody), che include un confronto diretto con il multisig trasparente, e la [demo FROST di Ywallet](/guides/frostdemo/ywallet-frost-demo) funzionante. Per migrare un nodo esistente da zcashd, vedi la [guida alla migrazione verso Zebra e Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
 >
-> Questa pagina è conservata come documentazione storica del flusso multisig trasparente.
+> Questa pagina è conservata come documento storico del flusso di lavoro multisig trasparente.
 
-Questa demo richiede zcashd 
+Questa demo richiede zcashd, che si è arrestato il 18 luglio 2026 e non è più in esecuzione. Nulla di quanto segue può essere completato sulla chain live.
 
-## Raccogli le chiavi pubbliche dalle persone necessarie
+## Raccogli le chiavi pubbliche delle persone necessarie
 
 * https://github.com/iancoleman/bip39
-* Se usi zcashd, puoi creare un UA e usare anche il tuo ricevente trasparente. Poi usa `getPubkey.sh` per estrarre la tua chiave pubblica.
+* Se usi zcashd, puoi creare un UA e usare anche il tuo ricevitore trasparente. Poi usa `getPubkey.sh` per estrarre la tua chiave pubblica.
 
 
-## Crea due indirizzi multisig (2 su 3) t3
+## Crea indirizzi t3 MultiSig 2x (2 su 3)
 
-esegui createMultiSig.sh per generare il tuo indirizzo multisig e lo script di redenzione. Servono 3 chiavi pubbliche
+esegui createMultiSig.sh per generare il tuo indirizzo multisig e il redeem script. Servono 3 chiavi pubbliche
 
 `./createMultiSig.sh pubk1 pubk2 pubk3`      # 1° t3
 
 `./createMultiSig.sh pubk4 pubk5 pubk6`      # 2° t3 per l'indirizzo di resto. 
 
-#### NOTA: in questo esempio pubk1 e pubk4 sono la stessa persona, pubk2 e pubk5 sono la stessa persona e così via ...
+#### NOTA: in questo esempio pubk1,pubk4 sono la stessa persona, pubk2,pubk5 sono la stessa persona e così via ...
 
-#### NOTA2: l'ORDINE delle tue pubkey è importante! Fai attenzione a questo!!!!
+#### NOTA2: l'ORDINE delle tue chiavi pubbliche è importante! Fai attenzione a questo!!!!
 
 
 ## Finanzia l'indirizzo t3
 
 Usa qualsiasi wallet/faucet per finanziare l'indirizzo
 
-## Crea la transazione MultiSig
+## Crea una transazione MultiSig
 
 `./createMultiSigTX.sh txid voutIndex scriptPubKey redeemScript oldAmount tAddy amount changeTaddy`
 
 dove,
 
 ```
-        txid: un ID di transazione della transazione che ha inviato denaro al tuo nuovo t3
-   voutIndex: l'indice dell'output in vout che ha il valore più grande
-scriptPubKey: lo script di blocco P2SH contiene l'hash di un altro script di blocco (Script Hash), circondato dagli opcode HASH160 ed EQUAL. È in formato esadecimale e si trova tramite la rpc getrawtransaction, cerca scriptPubKey
-redeemScript: il valore esadecimale del redeemScript prodotto in output durante la creazione del nostro t3. È necessario a tutte le persone che vogliono spendere dal t3.
-   oldAmount: importo inviato al tuo nuovo t3 dal txid sopra
-       tAddy: l'indirizzo a cui vuoi inviare i fondi
-      amount: l'importo di ZEC da inviare a tAddy
- changeTaddy: indirizzo di resto (nuovo t3 con un nuovo redeemScript!)
+        txid: a transaction ID of the transaction that sent money into your new t3
+   voutIndex: the index of the output in vout which has the largest value
+scriptPubKey: The P2SH locking script contains the hash of another locking script (Script Hash), surrounded by the HASH160 and EQUAL opcodes. This is in hex, and is found via getrawtransaction rpc, look for scriptPubKey
+redeemScript: The hex value of the redeemScript that was output when creating our t3. This is needed by all folks who want to spend from the t3.
+   oldAmount: Amount sent to your new t3 from the txid above
+       tAddy: The address you want to send funds to
+      amount: The amount of ZEC to send to tAddy
+ changeTaddy: Change address (new t3 with a new redeemScript!)
 
 ```
 
@@ -59,7 +59,7 @@ redeemScript: il valore esadecimale del redeemScript prodotto in output durante 
 
 txid              : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed37e253de9869b549530 | jq .txid
 
-valueInitialTX    : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed37e253de9869b549530 | jq .vout[].value   ** questo è necessario per la firma! **
+valueInitialTX    : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed37e253de9869b549530 | jq .vout[].value   ** this is needed for signing! **
 
 voutIndex         : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed37e253de9869b549530 | jq .vout[].n
 
@@ -69,26 +69,28 @@ scriptPubKey      : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed
 
 
 
-## Firma la transazione MultiSig
+## Firma la TX MultiSig
 
-Apri signMultiSigTX.sh e aggiungi le tue chiavi private nelle variabili pk1, pk2, ...
+Apri signMultiSigTX.sh e aggiungi le tue chiavi private nelle variabili pk1,pk2, ...
  
 
 *** Non consiglierei di digitarle nel tuo terminale. ***
 
 
-Se hai accesso a tutte le tue chiavi private, puoi usarle tutte in una volta per risparmiare tempo,
-ma nella maggior parte degli esempi del mondo reale la firma sarà eseguita da persone in giro per il mondo, quindi ciascuno dei partecipanti richiesti dovrà firmare,
-poi rinviare l'output "hex" della rawTX aggiornata che gli altri useranno per firmare e completare la procedura di firma.
+Se hai accesso a tutte le tue chiavi private puoi usarle tutte insieme per risparmiare tempo,
+ma nella maggior parte degli esempi reali la firma verrà effettuata da persone in giro per il mondo, quindi ciascuno dei partecipanti richiesti dovrà firmare,
+poi rimandare l'output "hex" rawTX aggiornato che gli altri useranno per firmare e completare la procedura di firma.
 
-Chiunque crei la prima tx firmerà con la propria chiave privata e invierà l'hex della rawTX aggiornata che deve essere firmata dagli altri partecipanti.
+Chiunque crei la prima tx, firmerà con la propria chiave privata e invierà l'hex rawTX aggiornato che deve essere firmato dagli altri partecipanti.
 
 `./signMultiSigTX.sh rawTX txid voutIndex scriptPubKey redeemScript valueInitialTX`
 
-Per firmare questa tx, almeno 2 delle tre chiavi private devono firmarla. Se la chiave pubblica che hai fornito è stata esportata usando un indirizzo-T da zcashd, puoi ottenere la chiave privata del tuo indirizzo-T con: 
+Per firmare questa tx, devono firmarla almeno 2 delle tre chiavi private. Se la chiave pubblica che hai fornito è stata esportata usando un T-address da zcashd, puoi ottenere la chiave privata del tuo indirizzo T con: 
 
 
 `zcash-cli dumpprivkey "t-addr"`
+
+Questo comando si è arrestato con zcashd e oggi non restituisce nulla; è riportato qui solo per mostrare come la demo otteneva le sue chiavi.
 
 
 Per questa demo, ho usato il bip39 di iancoleman per isolare rapidamente le chiavi private necessarie.
@@ -105,7 +107,3 @@ Per questa demo, ho usato il bip39 di iancoleman per isolare rapidamente le chia
 * https://learnmeabitcoin.com/technical/script/p2sh/
 * https://bitcoin.stackexchange.com/questions/6100/how-will-multisig-addresses-work
 * https://zcash.github.io/rpc/
-
-
-
-

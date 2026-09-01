@@ -2,43 +2,42 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash वैश्विक संचारक
+# Zcash वैश्विक राजदूत
 
-वैश्विक संचारक कार्यक्रम उन समुदाय सदस्यों की पहचान करता है जो Zcash एकोसिस्टम में उच्च गुणवत्ता वाले योगदान करते हैं और उन्हें नेता बनने के लिए सशक्त बनाता है। संचारक Zcash समुदाय को विस्तारित करते हैं, उपयोगकर्ता अपनों की ग्रहणशीलता को बढ़ाते हैं और Zcash के गोपनीयता-संरक्षित प्रौद्योगिकी के बारे में जागरूकता को आगे बढ़ाते हैं।
+वैश्विक राजदूत कार्यक्रम उन समुदाय सदस्यों की पहचान करता है जो Zcash ecosystem में उच्च-गुणवत्ता वाले योगदान देते हैं और उन्हें नेतृत्वकर्ता बनने के लिए सशक्त बनाता है। राजदूत Zcash समुदाय का विस्तार करते हैं, उपयोगकर्ता अपनाने को बढ़ावा देते हैं, और Zcash की privacy-preserving तकनीक के बारे में जागरूकता आगे बढ़ाते हैं।
 
-## एक संचारक क्या करता है?
+## एक राजदूत क्या करता है?
 
-- भौतिक या वर्चुअल मीटअप घटनाओं की मेजबानी
-- सोशल मीडिया पर सक्रिय उपस्थिति बनाए रखें और Zcash के बारे में मूल विषयों बनाए
-- Zcash शैक्षणिक सामग्री को स्थानीय भाषाओं में अनुवाद करें
-- नए उपयोगकर्ता और विकासकर्ताओं को Zcash एकोसिस्टम में प्रवेश के लिए सहायता प्रदान करें
-- क्रिप्टो कॉन्फ़्रेंस और समुदाय घटनाओं में Zcash का प्रतिनिधित्व करें
+- प्रत्यक्ष या वर्चुअल meetup कार्यक्रम आयोजित करता है
+- सोशल मीडिया पर सक्रिय उपस्थिति बनाए रखता है और Zcash के बारे में मौलिक सामग्री बनाता है
+- Zcash की शैक्षिक सामग्रियों का स्थानीय भाषाओं में अनुवाद करता है
+- नए उपयोगकर्ताओं और developers को Zcash ecosystem से जोड़ता है
+- crypto सम्मेलनों और सामुदायिक कार्यक्रमों में Zcash का प्रतिनिधित्व करता है
 
-संचारक अपनी योजना के गतिविधियों के ऊपर नैयामतिक स्वतंत्रता रखते हैं, जिससे उन्हें अपने स्थानीय परिदृश्य के अनुकूल बाहरी संचार करने में सक्षम होता है।
+राजदूतों को अपनी योजनाबद्ध गतिविधियों पर रचनात्मक स्वतंत्रता होती है, जिससे वे अपने स्थानीय संदर्भ के अनुसार outreach को ढाल सकते हैं।
 
-## [वैश्विक संचारक वेबसाइट](https://zcashambassadors.com)
+## [वैश्विक राजदूत वेबसाइट](https://zcashambassadors.com)
 
-## सक्रिय संचारक समुदाय (2026)
+## सक्रिय राजदूत समुदाय (2026)
 
-| क्षेत्र | समुदाय | मुख्य गतिविधि |
+| क्षेत्र | समुदाय | प्रमुख गतिविधि |
 |--------|-----------|-------------|
-| लैटिन अमेरिका | [Zcash en Español](https://zcashesp.com) | स्पेनी सामग्री, ZK AV क्लब, Zcast पॉडकास्ट |
-| ब्राज़ील | [Zcash Brazil](https://x.com/zcashbrazil) | कार्यशाला, मीटअप, Shielded Magazine |
-| तुर्की | [Zcash Turkey](https://x.com/ZcashTR) | शैक्षणिक सामग्री, इस्तांबुल ब्लॉकचेन हफ्ता के भागीदार |
-| अरब | [Zcash Arabia](https://x.com/ZcashArabia) | अरबी शैक्षणिक सामग्री, AMAs |
-| नाइजीरिया | [Zcash Nigeria](https://x.com/ZcashNigeria) | विकासकर्ता शिक्षा, समुदाय प्रवेश |
-| पूर्व अफ्रीका | [Zcash East Africa](https://forum.zcashcommunity.com/t/privacy-has-landed-in-south-africa-join-in/55706) | दक्षिण अफ्रीका, उगांडा समुदाय विस्तार |
-| केन्या | [KBCC 2026 Activation](https://forum.zcashcommunity.com/t/zcash-gold-sponsorship-kenya-kbcc-2026-activation-privacy-workshop/55520) | केन्या ब्लॉकचेन सम्मेलन प्रायोजित + गोपनीयता कार्यशाला |
-| मैक्सिको | [CodeRaiz Mexico](https://forum.zcashcommunity.com/t/zcash-university-outreach-initiative-mexico-2026-coderaiz-proposal/55506) | विश्वविद्यालय पहुंच के साथ विकासकर्ता प्रवेश |
-| टंज़ानिया | [Pesa Ya Siri](https://forum.zcashcommunity.com/t/pesa-ya-siri-making-zcash-a-household-name-in-tanzania/55558) | टंज़ानिया में Zcash को घरेलू नाम बनाए रखे |
-| रूस | [ruZcash](https://x.com/ruZCASH) | रूसी भाषा सामग्री और समुदाय |
-| भारत | [Zcash India](https://forum.zcashcommunity.com/t/zcash-india-2026/54762) | विकासकर्ता शिक्षा और समुदाय विस्तार |
+| लैटिन अमेरिका | [Zcash en Español](https://x.com/zcashesp1) | स्पेनिश सामग्री, ZK AV Club, Zcast podcast |
+| ब्राज़ील | [Zcash Brazil](https://x.com/zcashbrazil) | कार्यशालाएं, meetups, Shielded Magazine |
+| तुर्की | [Zcash Turkey](https://x.com/ZcashTR) | शैक्षिक सामग्री, Istanbul Blockchain Week में भागीदारी |
+| अरबिया | [Zcash Arabia](https://x.com/ZcashArabia) | अरबी शैक्षिक सामग्री, AMA |
+| यूक्रेन | [Zcask Ukraine](https://x.com/Zcash_ua) | यूक्रेन |
+| नाइजीरिया | [Zcash Nigeria](https://x.com/ZcashNigeria) | developer शिक्षा, समुदाय onboarding |
+| पूर्वी अफ्रीका | [Zcash East Africa](https://x.com/ZcashEastAfrica) | पूर्वी अफ्रीका, युगांडा में समुदाय का विकास |
+| दक्षिण अफ्रीका | [Zcash South Africa](https://twitter.com/Zcash_SA) | दक्षिण अफ्रीका |
+| घाना | [Zcash Ghana](https://x.com/ZcashGH) | घाना |
+| मेक्सिको | [zcashqro](https://x.com/zcashqro) | विश्वविद्यालय outreach और developer onboarding |
+| रूस | [ruZcash](https://x.com/ruZCASH) | रूसी-भाषा सामग्री और समुदाय |
+| भारत | [Zcash India](https://x.com/ZcashIND) | developer शिक्षा और समुदाय का विकास |
+| कोरिया | [Zcash Korea](https://x.com/zcashkorea) | कोरियाई शैक्षिक सामग्री |
 
-## एक संचारक बने
+## राजदूत बनने के लिए आवेदन करें
 
-अपने क्षेत्र में Zcash का प्रतिनिधित्व करने में दिलचस्पी है? [zcashambassadors.com](https://zcashambassadors.com) जाएं और कार्यक्रम के बारे में सीखें और आवेदन करें।
-
-आप इस प्रकार भी शामिल हो सकते हैं:
-- [ZecHub DAO](https://app.dework.xyz/zechub-2424) में बाउंटी के लिए योगदान
-- [Zcash वैश्विक डिस्कॉर्ड](https://discord.gg/zcash) में शामिल होना
-- 2026 में प्राग में होने वाले [ZODL सम्मेलन (8–10 जुलाई)](https://forum.zcashcommunity.com/t/zodl-summit-july-8-10-in-prague-czech-republic/55716) में भाग ले रहे हैं
+आप इन तरीकों से भी शामिल हो सकते हैं:
+- [ZecHub DAO](https://app.dework.xyz/zechub-2424) bounties में योगदान देकर
+- [Zcash Global Discord](https://discord.gg/zcash) से जुड़कर

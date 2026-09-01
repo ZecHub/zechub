@@ -1,51 +1,58 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Organizations/Shielded_Labs.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/Shielded-labs-shield-white-2-27aef199ae.webp" alt="代替テキスト" width="50"/>    Shielded Labs
+# <img src="/content-images/Shielded-labs-shield-white-2-27aef199ae.webp" alt="Shielded Labs logo" width="50"/> Shielded Labs
 
+[Shielded Labs](https://shieldedlabs.net/) は、スイスを拠点とする、寄付によって資金提供される独立した Zcash 支援組織です。その使命は、人間の自由と自己主権を後押しする、止めることのできないプライベートマネーを構築することであり、Zcash ネットワークの持続可能性、セキュリティ、スケーラビリティを前進させる取り組みに重点を置いています。
 
-[Shielded Labs](https://shieldedlabs.net) は2022年12月にスイスの協会として設立され、Zcash Community Grants (ZCG) とは関係がなく、ZCGからの資金援助を申請する予定もありません。
+Shielded Labs は、Zcash エコシステムに独立したエンジニアリング能力を追加しています。Electric Coin Company、Zcash Foundation、Zcash Community Grants の一部ではなく、Development Fund やブロック報酬から直接的または間接的な資金提供を受けていない、最初の Zcash エコシステム組織であると自ら説明しています。
 
-現在、Zcashはアメリカ合衆国の2つの組織、Electric Coin Company（ECC）および Zcash Foundation によって支援されており、これらは開発基金の唯一の受給者です。ZCGは組織ではなく、Foundationの下にある助成委員会であり、資金を管理・運営しています。権力を分散し、より分権化するために、Zcashエコシステムに貢献する独立した組織が必要です。
+## ミッションと役割
 
-Zcashは重要なプライバシー保護金融インフラを構築しており、規制によってその作業が妨げられるリスクがあります。特に、Zcashの米国への依存は潜在的な単一障害点であり、捕獲に耐えるエコシステムを緊急に構築する必要があります。
+Shielded Labs は、長期的に Zcash をより強靭にできるプロトコルおよびインフラの取り組みに注力しています。公開資料では、次の点が強調されています。
 
-Shielded Labs はスイスに設立されているのは、暗号資産に親しみやすく、プライバシー権を長年保護してきた歴史を持つ国であるからです。
+- 人間の自由と金融プライバシー
+- Development Fund 外での独立した資金調達
+- ZEC 保有者と coinholder の意見の尊重
+- ユーザーの自律性と自己主権
+- 持続可能性、セキュリティ、スケーラビリティのための技術革新
+- 他の Zcash 貢献者との協力
 
-## 視野
+この組織は、直接的なエンジニアリング、公開研究、インフラ支援、エコシステムの調整を通じて貢献しています。また、ガバナンス投票や coinholder 主導の資金提供に関する公開リソースも維持しており、Zcash コミュニティのメンバーが、いつ、どのようにガバナンスのシグナルに参加できるかを理解するのに役立てています。
 
-Shielded Labs の目標は、ユーザーの採用率を高め、Zcashの新しいユースケースを開発し、プロトコル開発に貢献することです。
+## 現在のプロジェクト
 
-**戦略的な注目領域の概要:**
+Shielded Labs は、複数の進行中のプロジェクト分野を公開しています。
 
-### ユーザーの採用:
+- [Network Sustainability Mechanism](https://shieldedlabs.net/nsm/) - 2,100 万 ZEC の供給上限を維持しながら、Zcash の長期的なセキュリティ予算を支えることを目的とした一連の提案変更です。NSM の取り組みには、自発的な ZEC バーン、発行の平準化、ZIP 233、234、235 で説明されている手数料バーンの提案が含まれます。
+- [Crosslink](https://shieldedlabs.net/crosslink-faq/) - 提案されているハイブリッド・コンセンサスのアップグレードで、Zcash の proof-of-work によるブロック生成と proof-of-stake によるファイナリティを組み合わせるものです。これにより、マイナーが引き続きブロックを生成しながら、ZEC 保有者がネットワークの保護に参加できるようになります。
+- [Dynamic Fees](https://shieldedlabs.net/fees/) - ネットワークの進化に伴い、より予測しやすく、ユーザーフレンドリーで、強靭な Zcash 取引手数料を実現するための研究とツール群です。
+- [Zero](https://shieldedlabs.net/zero/) - 取引所、マイニングプール、ウォレットプロバイダー、および Zcash インフラに依存するその他の組織向けに支援されている、オープンソースの Zcash インフラソフトウェア群です。
+- [Ironwood](https://shieldedlabs.net/ironwood/) - Orchard の偽造脆弱性への対応として作成された Zcash ネットワークアップグレードおよびシールドプールで、Zcash の流通供給量の独立して検証可能な健全性を回復するよう設計されています。
 
-Shielded Labs は、Zcashをより多くの取引所に上場させることでユーザーの採用率を高め、企業との支払い統合に取り組み、DEXおよびDeFiアプリケーションでのZcash利用可能性を増やすことで取り組みます。Zcash Shielded Assets のようなZcashの使いやすさを進めるプロジェクトを優先し、ブリッジ、AMM、現金のオン/オフラムプをサポートします。
+## Ironwood への貢献
 
-### 人権と自由:
+2026 年、Shielded Labs は Orchard の偽造脆弱性に対するエコシステムの対応において重要な役割を果たしました。この脆弱性は、Shielded Labs のセキュリティ研究者である Taylor Hornby によって発見され、Zcash Open Development Lab (ZODL) に開示されました。ZODL は、他の Zcash 貢献者とともに緊急対応の修正を調整しました。
 
-Shielded Labs は、人権および市民的自由団体と提携して、最も必要な人々にZcashを届けることを目指します。
+緊急修正の後も、コミュニティには Zcash の流通供給量に対する独立した信頼を回復する方法が依然として必要でした。Ironwood は、修正済みの Orchard 回路を使用した新しいシールドプールを作成し、元の Orchard プールを封印して、資金が turnstile を通じてのみ外へ出られるようにすることで、この課題に対処しました。Shielded Labs は、Project Tachyon、Valar Group、ZODL、Zcash Foundation とともに、Ironwood の設計、レビュー、エコシステム準備に取り組みました。
 
-### プロトコル開発:
+この取り組みは、Shielded Labs の Zcash における中核的な役割の 1 つ、すなわち元来の Zcash 開発組織の外側で独立したプロトコル開発およびセキュリティ能力を加えることを示しました。
 
-これまでのネットワークアップグレードはすべてECCによって実装されてきました。耐性には分権化が必要であり、Shielded Labs はプロトコルの核心開発に貢献することでZcashを分権化する助けになります。
+## ガバナンスの取り組み
 
-## 起動
+Shielded Labs は、Zcash コミュニティのメンバー向けにガバナンス情報も公開しています。同組織のガバナンスページでは、プロトコルのガバナンス投票、ZCAP 参加、coinholder 主導の資金提供、対応している投票ウォレットが追跡されています。これにより、coinholder、ZCAP メンバー、そしてより広いコミュニティ参加者にとって、Zcash の意思決定を追いやすくなっています。
 
-Shielded Labs はZcashのGitHubリポジトリをフォークし、新しいソースコードを実装し、マージ用のプルリクエストを作成します。十分な資金と開発者リソースがあれば、Shielded Labs はフォークされたコードベースリポジトリのメンテナとして継続的なサポートを担当します。
+Zcash は、プロトコル変更のために自動的なオンチェーンガバナンスを採用していません。投票とコミュニティからの意見は、より広範なラフ・コンセンサスのプロセスに組み込まれる助言的なシグナルです。Shielded Labs のガバナンスの取り組みは、そうしたシグナルをよりアクセスしやすくし、検証しやすくするのに役立っています。
 
-これは、独立した開発者がネットワークアップグレードを開始する初めてのケースであり、Zcashが本当に権限なしに運用可能なネットワークであることを示しています。
+## リソース
 
-組織の成長のための基礎を築くために、初期にはパートタイムでプロジェクトベースの支援が必要になります。
-
-## 資金
-
-Shielded Labs は最初は寄付によって完全に資金提供されており、運営の最初の年を開始するために資金を集める予定です。
-
-長期的な資金に関しては、Shielded Labs は2024年第4四半期の次のハーフリング後、ブロック報酬を通じてZcash開発基金を受け取る「ネットワーク持続可能性基金」の提案を提示しています。
-
-これは、修正された発行スケジュールと、資金を持続可能性基金に導く仕組みの開発、およびzcashd/zebradへの実装計画を含みます。
-
-この提案の全文はここから読むことができます:
-https://shieldedlabs.net/nsm
+- [Shielded Labs のウェブサイト](https://shieldedlabs.net/)
+- [Shielded Labs のプロジェクト](https://shieldedlabs.net/projects/)
+- [Network Sustainability Mechanism](https://shieldedlabs.net/nsm/)
+- [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/)
+- [Dynamic Fees](https://shieldedlabs.net/fees/)
+- [Zero](https://shieldedlabs.net/zero/)
+- [Ironwood](https://shieldedlabs.net/ironwood/)
+- [ガバナンスと投票](https://shieldedlabs.net/governance/)
+- [Shielded Labs GitHub](https://github.com/ShieldedLabs)

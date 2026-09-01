@@ -1,51 +1,58 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Organizations/Shielded_Labs.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="编辑页面"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/Shielded-labs-shield-white-2-27aef199ae.webp" alt="替代文本" width="50"/>    Shielded Labs
+# <img src="/content-images/Shielded-labs-shield-white-2-27aef199ae.webp" alt="Shielded Labs logo" width="50"/> Shielded Labs
 
+[Shielded Labs](https://shieldedlabs.net/) 是一家总部位于瑞士、由捐款资助的独立 Zcash 支持组织。其使命是构建不可阻挡的私人货币，以增强人类自由与自我主权，重点推进有助于提升 Zcash 网络可持续性、安全性和可扩展性的工作。
 
-[Shielded Labs](https://shieldedlabs.net) 于 2022 年 12 月作为瑞士协会成立，与 Zcash Community Grants (ZCG) 没有任何关联，也无计划申请 ZCG 资助。
+Shielded Labs 为 Zcash 生态系统增加了独立的工程能力。它不属于 Electric Coin Company、Zcash Foundation 或 Zcash Community Grants，并将自己描述为首个未曾从开发基金或区块奖励中获得直接或间接资金支持的 Zcash 生态组织。
 
-目前，Zcash 由 2 家美国组织支持，即 Electric Coin Company (ECC) 和 Zcash Foundation，它们是开发基金的唯一接收方。ZCG 不是一个组织，而是 Foundation 旗下的资助委员会，负责托管和管理其资金。Zcash 生态系统需要更多独立组织参与贡献，以分散权力并实现更高程度的去中心化。
+## 使命与角色
 
-Zcash 正在构建关键的隐私保护型金融基础设施，而当前开展的工作存在受到监管阻碍的风险。尤其是，Zcash 对美国的依赖是一个潜在的单点故障，因此我们迫切需要构建一个能够抵御控制的生态系统。  
+Shielded Labs 专注于协议和基础设施工作，以提升 Zcash 的长期韧性。其公开资料强调：
 
-Shielded Labs 设立于瑞士，因为瑞士既对加密友好，又拥有长期保护隐私权的历史。
+- 人类自由与金融隐私
+- 开发基金之外的独立资金来源
+- 尊重 ZEC 持有者及持币者意见
+- 用户自主权与自我主权
+- 面向可持续性、安全性和可扩展性的技术创新
+- 与其他 Zcash 贡献者协作
 
-## 愿景
+该组织通过直接工程开发、公开研究、基础设施支持和生态协调来作出贡献。它还维护治理投票和持币者定向资助的公开资源，帮助 Zcash 社区成员了解他们可以在何时以及如何参与治理信号。
 
-Shielded Labs 的目标是提高用户采用率，为 Zcash 开发新的使用场景，并为协议开发作出贡献。 
+## 当前项目
 
-**战略重点领域概览：** 
+Shielded Labs 公开列出了多个活跃项目领域：
 
-### 用户采用： 
+- [网络可持续性机制](https://shieldedlabs.net/nsm/) - 一组拟议中的变更，旨在在保持 2100 万 ZEC 供应上限的同时，支持 Zcash 的长期安全预算。NSM 工作包括 ZIP 233、234 和 235 中描述的自愿销毁 ZEC、平滑发行和销毁手续费提案。
+- [Crosslink](https://shieldedlabs.net/crosslink-faq/) - 一项拟议中的混合共识升级，将把 Zcash 的工作量证明区块生产与权益证明终局性结合起来，使 ZEC 持有者能够帮助保护网络安全，同时矿工继续生产区块。
+- [动态手续费](https://shieldedlabs.net/fees/) - 随着网络演进，针对更可预测、更友好且更具韧性的 Zcash 交易手续费所开展的研究与工具开发。
+- [Zero](https://shieldedlabs.net/zero/) - 一套受支持的开源 Zcash 基础设施软件，面向交易所、矿池、钱包提供商及其他依赖 Zcash 基础设施的组织。
+- [Ironwood](https://shieldedlabs.net/ironwood/) - 为应对 Orchard 伪造漏洞而创建的 Zcash 网络升级和屏蔽池，旨在恢复对 Zcash 流通供应量可独立验证的可靠性。
 
-Shielded Labs 将通过推动 Zcash 在更多交易所上市、与企业合作集成支付功能，以及提升 Zcash 在 DEX 和 Defi 应用中的可用性来提高用户采用率。其将优先支持能够提升 Zcash 可用性的项目，例如 Zcash Shielded Assets，并支持桥接、AMM 以及法币出入金通道的发展。
+## 对 Ironwood 的贡献
 
-### 人权与自由： 
+在 2026 年，Shielded Labs 在生态系统应对 Orchard 伪造漏洞的过程中发挥了重要作用。该漏洞由 Shielded Labs 安全研究员 Taylor Hornby 发现，并披露给 Zcash Open Development Lab (ZODL)，后者协调其他 Zcash 贡献者进行了紧急修复。
 
-Shielded Labs 将与人权和公民自由组织合作，让最需要的人能够使用 Zcash。
+在紧急修复完成后，社区仍需要一种方式来恢复对 Zcash 流通供应量的独立信心。Ironwood 通过使用修正后的 Orchard 电路创建一个新的屏蔽池，并封存原始 Orchard 池，使资金只能通过 turnstile 流出，从而解决了这一问题。Shielded Labs 与 Project Tachyon、Valar Group、ZODL 和 Zcash Foundation 一起参与了 Ironwood 的设计、审查和生态准备工作。
 
-### 协议开发： 
+这项工作展示了 Shielded Labs 在 Zcash 中的一项核心角色：在原有 Zcash 开发组织之外，增加独立的协议开发与安全能力。
 
-迄今为止，所有网络升级都由 ECC 实施。韧性需要去中心化，Shielded Labs 将通过参与核心协议开发，帮助 Zcash 实现去中心化。
+## 治理工作
 
-## 启动
+Shielded Labs 还为 Zcash 社区成员发布治理信息。其治理页面跟踪协议治理投票、ZCAP 参与情况、持币者定向资助以及受支持的投票钱包。这有助于让持币者、ZCAP 成员以及更广泛的社区参与者更容易跟进 Zcash 的决策过程。
 
-Shielded Labs 将分叉 Zcash GitHub 仓库，实现新的源代码，并创建一个用于合并的拉取请求。假设其拥有充足的资金和开发者资源，Shielded Labs 将作为该分叉代码库仓库的维护者，负责持续支持。
+Zcash 并不使用自动化的链上治理来推动协议变更。投票和社区意见属于咨询性信号，会被纳入更广泛的粗略共识流程。Shielded Labs 的治理工作有助于让这些信号更易获取，也更容易验证。
 
-这将是首次由独立开发者发起网络升级，证明 Zcash 确实是一个无需许可的网络。
+## 资源
 
-初期将需要兼职、按项目计的支持，以帮助为组织发展奠定基础。
-
-## 资金
-
-最初，Shielded Labs 完全由捐赠资助，并致力于筹集资金以启动第一年的运营。 
-
-关于长期资金，Shielded Labs 已提出一项名为 “Network Sustainability Fund” 的提案，计划在 2024 年第四季度下一次减半之后，通过区块奖励成为 Zcash 开发基金的接收方。 
-
-这将涉及制定修改后的发行计划，以及将资金定向至 Sustainability Fund 的机制，并计划在 zcashd/zebrad 上实施。 
-
-你可以在这里阅读完整提案：
-https://shieldedlabs.net/nsm
+- [Shielded Labs 网站](https://shieldedlabs.net/)
+- [Shielded Labs 项目](https://shieldedlabs.net/projects/)
+- [网络可持续性机制](https://shieldedlabs.net/nsm/)
+- [Crosslink 常见问题](https://shieldedlabs.net/crosslink-faq/)
+- [动态手续费](https://shieldedlabs.net/fees/)
+- [Zero](https://shieldedlabs.net/zero/)
+- [Ironwood](https://shieldedlabs.net/ironwood/)
+- [治理与投票](https://shieldedlabs.net/governance/)
+- [Shielded Labs GitHub](https://github.com/ShieldedLabs)

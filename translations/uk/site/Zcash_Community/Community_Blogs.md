@@ -22,7 +22,7 @@
 | Sqribbles                  | Креативний контент про Zcash, створений спільнотою       | [Відвідати ->](https://free2z.cash/sqribbles) |
 | Str4d                      | Технічні тексти від основного розробника Zcash           | [Відвідати ->](https://words.str4d.xyz/) |
 | CipherScan Weekly          | Щотижневі публікації з аналітикою блокчейну Zcash        | [Відвідати ->](https://cipherscan.app/) |
-| Zcash Shielded News        | Щотижневий дайджест новин про приватність та екосистему  | [Відвідати ->](https://zechub.wiki) |
+| Zcash Shielded News        | Щотижневий дайджест новин про приватність та екосистему  | [Відвідати ->](https://zechub.substack.com/) |
 | ZecHub DAO Blog            | Статті та освітній контент від спільноти ZecHub DAO      | [Відвідати ->](https://zechub.wiki) |
 
 ---

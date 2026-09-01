@@ -50,7 +50,7 @@
 ---
 
 ###  ステップ3: Zodlウォレットを準備  
-[**Zodl**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn)（Electric Coin Co.が提供する公式Zcashウォレット）をダウンロードしてください。**ReceiveタブからUnified Address**をコピーします - これは透明およびシールドの両方のZECに対応しています。次の手順に進む前に、シードフレーズを安全に保存してください。
+ZODLが保守するZcashウォレット、[**Zodl**](https://zodl.com)をダウンロードしてください。**ReceiveタブからUnified Address**をコピーします - これは透明およびシールドの両方のZECに対応しています。次の手順に進む前に、シードフレーズを安全に保存してください。
 
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)
