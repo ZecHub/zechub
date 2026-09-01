@@ -14,7 +14,7 @@ For a full walkthrough and visual explanation, watch this [**YouTube guide**](ht
 </div>
      
 
-MetaMask now supports **shielded Zcash (ZEC)** via the **ChainSafe-developed Zcash Snap**, allowing you to send, receive, and manage private ZEC directly in your browser wallet. Audited by **Hacken** and listed in the **official MetaMask Snaps Directory**, it requires **no separate Zcash software** - only MetaMask and the Snap.
+MetaMask now supports **shielded Zcash (ZEC)** via the **ChainSafe-developed Zcash Snap**, allowing you to send, receive, and manage private ZEC directly in your browser wallet. Audited by **Hacken** and listed in the **official MetaMask Snaps Directory**, it requires **no separate Zcash software** - only MetaMask and the Snap. ChainSafe describes the design and its funding, from Zcash Community Grants and the MetaMask Grants DAO, in [Zcash in the browser: bringing shielded ZEC to MetaMask](https://blog.chainsafe.io/zcash-in-the-browser-bringing-shielded-zec-to-metamask/).
 
 ---
 
