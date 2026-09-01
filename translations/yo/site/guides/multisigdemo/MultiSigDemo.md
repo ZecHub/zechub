@@ -6,7 +6,7 @@
 >
 > A kò lè gbé àwọn ìwé àṣẹ wọ̀nyí lọ ní ọ̀nà ẹ̀rọ: wọ́n dá lórí RPC ti ìdúnàádúrà rọ̀ àti ti àpò owó tí zcashd ti sọ di àtijọ́, Zallet sì fi àwọn ọ̀nà tuntun tí ń ṣiṣẹ́ lórí PCZT dípò hex ìdúnàádúrà rọ̀ rọ́pò wọn.
 >
-> Fún ìtọ́jú onípìn-ọ̀pọ̀ lórí Zcash lónìí, wo [FROST àti ìtọ́jú ààlà](/zcash-tech/frost-threshold-custody) àti [àfihàn FROST pẹ̀lú Ywallet](/guides/frostdemo/ywallet-frost-demo). Láti gbé ọ̀nà-àsopọ̀ tí ó wà tẹ́lẹ̀ kúrò ní zcashd, wo [ìtọ́sọ́nà ìṣíkiri sí Zebra àti Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
+> Fún ìtọ́jú onípìn-ọ̀pọ̀ lórí Zcash lónìí, wo [FROST àti ìtọ́jú ààlà](/zcash-tech/frost-threshold-custody) àti [àfihàn FROST pẹ̀lú Ywallet](/guides/ywallet-frost-demo). Láti gbé ọ̀nà-àsopọ̀ tí ó wà tẹ́lẹ̀ kúrò ní zcashd, wo [ìtọ́sọ́nà ìṣíkiri sí Zebra àti Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
 >
 > A pa ojú-ìwé yìí mọ́ gẹ́gẹ́ bí àkọsílẹ̀ ìtàn ti ìlànà multisig tí ó hàn gbangba.
 

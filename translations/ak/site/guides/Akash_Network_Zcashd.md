@@ -512,7 +512,7 @@ Sɛ wo balance no sua a, Akash bɛ auto-close wo deployment no. **Top up wo wall
 
 **Akash Nsɛm a Wɔakyerɛw**: [https://akash.network/docs/](https://akash.network/docs/)
 
-**Zcash Nhwehwɛmufoɔ**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Zcash Nhwehwɛmufoɔ**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Akash Akasakasa**: [https://discord.akash.network](https://discord.akash.network) (ma nsɛm a ɛfa ɔdemafo ho) .
 

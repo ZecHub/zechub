@@ -145,7 +145,7 @@ Coinbase는 자사의 임계값 서명 시스템(비트코인용)을 위해 프�
 
 - [FROST — 기술 심층 해설](FROST.md) — 프로토콜의 암호학적 세부 사항(DKG, 서명 라운드, 보안 증명)
 - [YWallet FROST 데모 가이드](/guides/Ywallet_FROST_Demo) — 단계별 실습 데모
-- [FROST 데모 (frostdemo)](/guides/frostdemo) — Zcash Foundation 데모 안내
+- [FROST 데모 (frostdemo)](/guides/ywallet-frost-demo) — Zcash Foundation 데모 안내
 - [Viewing Keys](Viewing_Keys.md) — shielded 주소에 대한 읽기 전용 접근(임계값 커스터디와 상호보완적)
 - [Zcash Shielded Assets](Zcash_Shielded_Assets.md) — FROST는 ZSA 발행을 위한 핵심 인프라이기도 합니다
 

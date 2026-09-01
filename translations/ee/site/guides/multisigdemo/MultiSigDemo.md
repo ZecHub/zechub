@@ -6,7 +6,7 @@
 >
 > Womate ŋu atsɔ agbalẽ siawo ayi teƒe bubu kpata o: wotu wo ɖe raw transaction kple gakotoku ƒe RPC siwo zcashd ɖe ɖa la dzi, eye Zallet tsɔ mɔnu yeyewo siwo wɔa dɔ le PCZT dzi le raw transaction hex teƒe la ɖo wo teƒe.
 >
-> Le Zcash dzi egbea la, hena ame geɖe ƒe dzikpɔkpɔ la, kpɔ [FROST kple threshold dzikpɔkpɔ](/zcash-tech/frost-threshold-custody) kple [Ywallet FROST demo](/guides/frostdemo/ywallet-frost-demo). Be nàʋu node si li xoxo tso zcashd dzi la, kpɔ [Zebra kple Zallet ŋuti mɔfiame](/guides/migration-guide-zcashd-to-zebrad-zallet).
+> Le Zcash dzi egbea la, hena ame geɖe ƒe dzikpɔkpɔ la, kpɔ [FROST kple threshold dzikpɔkpɔ](/zcash-tech/frost-threshold-custody) kple [Ywallet FROST demo](/guides/ywallet-frost-demo). Be nàʋu node si li xoxo tso zcashd dzi la, kpɔ [Zebra kple Zallet ŋuti mɔfiame](/guides/migration-guide-zcashd-to-zebrad-zallet).
 >
 > Wodzra axa sia ɖo abe ŋutinya ŋlɔɖi na transparent multisig dɔwɔwɔ ene.
 

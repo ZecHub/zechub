@@ -145,7 +145,7 @@ Herhangi bir imzacı kötü bir kısmi imza gönderirse, protokol bunu tespit ed
 
 - [FROST — Teknik Derinlemesine İnceleme](FROST.md) — protokolün kriptografik ayrıntıları (DKG, imzalama turları, güvenlik ispatları)
 - [YWallet FROST Demo Rehberi](/guides/Ywallet_FROST_Demo) — adım adım uygulamalı demo
-- [FROST Demo (frostdemo)](/guides/frostdemo) — Zcash Foundation demo anlatımı
+- [FROST Demo (frostdemo)](/guides/ywallet-frost-demo) — Zcash Foundation demo anlatımı
 - [Viewing Keys](Viewing_Keys.md) — shielded adreslere salt okunur erişim (eşikli saklamayı tamamlayıcı)
 - [Zcash Shielded Assets](Zcash_Shielded_Assets.md) — FROST, ZSA ihracı için de temel altyapıdır
 

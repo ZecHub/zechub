@@ -512,7 +512,7 @@ zcash-cli getinfo
 
 **Akash 文档**：[https://akash.network/docs/](https://akash.network/docs/)
 
-**Zcash 浏览器**：[https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Zcash 浏览器**：[https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Akash Discord**：[https://discord.akash.network](https://discord.akash.network)（用于提供商相关问题）
 

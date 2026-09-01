@@ -439,7 +439,7 @@ Malite na Testnet ma ọ bụrụ na ị na-anwale usoro ntinye. Lee "Switching 
 
 ** Zebra Docs **:https://zebra.zfnd.org/](https://zebra.zfnd.org/)
 
-** Ndị na-enyocha Zcash **: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+** Ndị na-enyocha Zcash **: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Akash Agha**: [https://discord.akash.network](https://discord.akash.network) (maka nsogbu ndị na-eweta ọrụ)
 

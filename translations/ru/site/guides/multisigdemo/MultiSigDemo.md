@@ -6,7 +6,7 @@
 >
 > Эти скрипты нельзя перенести механически: они построены на RPC для сырых транзакций и кошелька, которые zcashd объявил устаревшими, а Zallet заменяет их новыми методами, работающими с PCZT вместо hex сырой транзакции.
 >
-> Для многостороннего хранения средств в Zcash сегодня см. [FROST и пороговое хранение](/zcash-tech/frost-threshold-custody) и рабочую [демонстрацию FROST с Ywallet](/guides/frostdemo/ywallet-frost-demo). Чтобы перенести существующий узел с zcashd, см. [руководство по миграции на Zebra и Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
+> Для многостороннего хранения средств в Zcash сегодня см. [FROST и пороговое хранение](/zcash-tech/frost-threshold-custody) и рабочую [демонстрацию FROST с Ywallet](/guides/ywallet-frost-demo). Чтобы перенести существующий узел с zcashd, см. [руководство по миграции на Zebra и Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
 >
 > Эта страница сохранена как исторический документ о процессе прозрачного multisig.
 

@@ -145,7 +145,7 @@ Un punto di partenza pratico per la maggior parte dei team: **2-su-3** (resilien
 
 - [FROST — Approfondimento tecnico](FROST.md) — dettagli crittografici del protocollo (DKG, round di firma, prove di sicurezza)
 - [Guida alla demo FROST di YWallet](/guides/Ywallet_FROST_Demo) — demo pratica passo passo
-- [Demo FROST (frostdemo)](/guides/frostdemo) — panoramica della demo della Zcash Foundation
+- [Demo FROST (frostdemo)](/guides/ywallet-frost-demo) — panoramica della demo della Zcash Foundation
 - [Viewing Keys](Viewing_Keys.md) — accesso in sola lettura agli indirizzi schermati (complementare alla custodia a soglia)
 - [Zcash Shielded Assets](Zcash_Shielded_Assets.md) — FROST è anche un'infrastruttura chiave per l'emissione di ZSA
 

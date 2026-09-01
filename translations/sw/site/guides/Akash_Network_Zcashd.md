@@ -512,7 +512,7 @@ Wakati usawa wako ni mdogo, Akash itafunga moja kwa moja kupelekwa kwako. ** Ong
 
 ** Akash Docs**: [https://akash.network/docs/](https://akash.network/docs/)
 
-** Zcash Explorers**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+** Zcash Explorers**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Akash Mzozo**: [https://discord.akash.network](https://discord.akash.network) (kwa masuala ya mtoa huduma)
 

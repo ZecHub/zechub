@@ -439,7 +439,7 @@ Dze egɔme kple Testnet nenye be ɖeko nèle dɔwɔwɔ ƒe ɖoɖoa dom kpɔ. Kp�
 
 **Zebra ƒe Nuŋlɔɖiwo**: [https://zebra.zfnd.org/](https://zebra.zfnd.org/)
 
-**Zcash Nukulawo**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Zcash Nukulawo**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Akash ƒe Masɔmasɔ**: [https://discord.akash.network](https://discord.akash.network) (na dɔwɔƒe si naa kpekpeɖeŋu ƒe nyawo)
 

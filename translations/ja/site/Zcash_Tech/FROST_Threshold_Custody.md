@@ -145,7 +145,7 @@ Coinbase は、自社のしきい値署名システム（Bitcoin 向け）のた
 
 - [FROST — 技術的詳細解説](FROST.md) — プロトコルの暗号学的詳細（DKG、署名ラウンド、セキュリティ証明）
 - [YWallet FROST Demo ガイド](/guides/Ywallet_FROST_Demo) — 手順を追った実践デモ
-- [FROST Demo (frostdemo)](/guides/frostdemo) — Zcash Foundation デモのウォークスルー
+- [FROST Demo (frostdemo)](/guides/ywallet-frost-demo) — Zcash Foundation デモのウォークスルー
 - [Viewing Keys](Viewing_Keys.md) — shielded アドレスへの読み取り専用アクセス（しきい値カストディを補完）
 - [Zcash Shielded Assets](Zcash_Shielded_Assets.md) — FROST は ZSA 発行のための重要な基盤でもある
 

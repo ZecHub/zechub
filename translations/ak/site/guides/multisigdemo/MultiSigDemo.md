@@ -6,7 +6,7 @@
 >
 > Wontumi mfa saa nkyerɛwee yi nkɔ baabi foforo tẽẽ: egyina RPC a ɛfa raw transaction ne sika kotokuo ho a zcashd agyae so, na Zallet de akwan foforo a ɛde PCZT di dwuma sen raw transaction hex asi wɔn ananmu.
 >
-> Sɛ wopɛ nnipa pii nsiakyi wɔ Zcash so nnɛ a, hwɛ [FROST ne threshold nsiakyi](/zcash-tech/frost-threshold-custody) ne [Ywallet FROST demo](/guides/frostdemo/ywallet-frost-demo). Sɛ wopɛ sɛ wotu node a ɛwɔ hɔ dedaw fi zcashd so a, hwɛ [Zebra ne Zallet akwankyerɛ](/guides/migration-guide-zcashd-to-zebrad-zallet).
+> Sɛ wopɛ nnipa pii nsiakyi wɔ Zcash so nnɛ a, hwɛ [FROST ne threshold nsiakyi](/zcash-tech/frost-threshold-custody) ne [Ywallet FROST demo](/guides/ywallet-frost-demo). Sɛ wopɛ sɛ wotu node a ɛwɔ hɔ dedaw fi zcashd so a, hwɛ [Zebra ne Zallet akwankyerɛ](/guides/migration-guide-zcashd-to-zebrad-zallet).
 >
 > Yɛde saa krataafa yi asie sɛ abakɔsɛm kyerɛwtohɔ a ɛfa transparent multisig adwuma nhyehyɛe ho.
 

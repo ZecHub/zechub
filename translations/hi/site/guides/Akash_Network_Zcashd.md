@@ -512,7 +512,7 @@ Console में अपने spending की निगरानी करे�
 
 **Akash Docs**: [https://akash.network/docs/](https://akash.network/docs/)
 
-**Zcash Explorers**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Zcash Explorers**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (provider issues के लिए)
 

@@ -145,7 +145,7 @@ Coinbase 为其门限签名系统（用于 Bitcoin）构建了一个生产级 FR
 
 - [FROST — 技术深度解析](FROST.md) — 协议的密码学细节（DKG、签名轮次、安全性证明）
 - [YWallet FROST Demo 指南](/guides/Ywallet_FROST_Demo) — 分步实操演示
-- [FROST Demo (frostdemo)](/guides/frostdemo) — Zcash Foundation 演示教程
+- [FROST Demo (frostdemo)](/guides/ywallet-frost-demo) — Zcash Foundation 演示教程
 - [Viewing Keys](Viewing_Keys.md) — 对 shielded 地址的只读访问（可与门限托管互补）
 - [Zcash Shielded Assets](Zcash_Shielded_Assets.md) — FROST 也是 ZSA 发行的关键基础设施
 

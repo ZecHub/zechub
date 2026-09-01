@@ -145,7 +145,7 @@ Ti eyikeyi onisowo ba firanṣẹ ibuwọlu idapọ, ilana naa ṣe idanimọ w�
 
 - [FROST — Technical Deep Dive](FROST.md)  àwọn ìsọfúnni nípa ìlànà sísọ nǹkan níkòó (DKG, yíyẹwọ̀n àtẹ́lẹwọ́, ẹrí ìdánilójú)
 - [YWallet FROST Àkọsílẹ̀ Ìdánwò](/guides/Ywallet_FROST_Demo)  ìtòlẹ́sẹẹsẹ ìdánrawò tó ń gbéni ró lẹ́ẹ̀kan-lóṣù kan
-- [Àwòfihan FROST (àwòrán àfihàn frost) ](/guides/frostdemo)  Ìtòlẹ́sẹẹsẹ ìfihàn ti àjọ Zcash Foundation
+- [Àwòfihan FROST (àwòrán àfihàn frost) ](/guides/ywallet-frost-demo)  Ìtòlẹ́sẹẹsẹ ìfihàn ti àjọ Zcash Foundation
 - [Àwọn Kọ́kọ́rọ́ Ìwòye](Viewing_Keys.md)  wíwọlé kíkà nìkan sí àwọn àdírésì tí a fi ààbò bo (tí ó ṣe afikun si ìpamọ́ òpin)
 - [Àwọn Nǹkan tí a fi ààbò ṣe ní Zcash](Zcash_Shielded_Assets.md)  FROST tun jẹ ipilẹ pataki fun iṣedede ZSA
 

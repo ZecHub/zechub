@@ -312,14 +312,6 @@
       "tool": "gt-static",
       "edited": false
     },
-    "Using_Zcash/Blockchain_Explorers.md": {
-      "src": "sha256:0e3dff7ffcdfe3af020ee368d86921a4f4954bda8e29599e247faad96adb5c15",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
-      "edited": false
-    },
     "Using_Zcash/Buying_ZEC.md": {
       "src": "sha256:f77328a3918e96d58b67f59b30c9664bc78dc948292aad7aef7123646d4c9b45",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -957,7 +949,7 @@
       "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+dedupe-linkrepair",
       "edited": false
     },
     "Zcash_Tech/Full_Nodes.md": {
@@ -1293,7 +1285,7 @@
       "src_commit": "89726296ed07ac0ff07ba6bfac0763bea5845c3d",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+dedupe-linkrepair",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -1301,7 +1293,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+dedupe-linkrepair",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -1536,20 +1528,12 @@
       "tool": "gt-static",
       "edited": false
     },
-    "guides/frostdemo/Ywallet_FROST_Demo.md": {
-      "src": "sha256:d1449d6d10d74db854622f35e5a4c376f76efc8ee1c6e95d8c60f5bfd3238696",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
-      "edited": false
-    },
     "guides/multisigdemo/MultiSigDemo.md": {
       "src": "sha256:85e4e655cf5c6e756222bde956ecc590cf3050b36fddd264b260dd8e53a56a4a",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+zcashd-halt-notice",
+      "tool": "gt-static+zcashd-halt-notice+dedupe-linkrepair",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -1986,14 +1970,6 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Using_Zcash/Blockchain_Explorers.md": {
-      "src": "sha256:0e3dff7ffcdfe3af020ee368d86921a4f4954bda8e29599e247faad96adb5c15",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
     "Using_Zcash/Buying_ZEC.md": {
       "src": "sha256:f77328a3918e96d58b67f59b30c9664bc78dc948292aad7aef7123646d4c9b45",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -2631,7 +2607,7 @@
       "src_commit": "30f859d7149e29bb448ebebf2979f667666b472a",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+frontmatter-strip",
+      "tool": "gpt-5.4+frontmatter-strip+dedupe-linkrepair",
       "edited": false
     },
     "Zcash_Tech/Full_Nodes.md": {
@@ -2967,7 +2943,7 @@
       "src_commit": "0490cf0b5afc8f45220d1f6f1311490740252e30",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4",
+      "tool": "codex/gpt-5.4+dedupe-linkrepair",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -2975,7 +2951,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+dedupe-linkrepair",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -3210,20 +3186,12 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "guides/frostdemo/Ywallet_FROST_Demo.md": {
-      "src": "sha256:d1449d6d10d74db854622f35e5a4c376f76efc8ee1c6e95d8c60f5bfd3238696",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
     "guides/multisigdemo/MultiSigDemo.md": {
       "src": "sha256:85e4e655cf5c6e756222bde956ecc590cf3050b36fddd264b260dd8e53a56a4a",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+zcashd-halt-notice",
+      "tool": "gpt-5.4+zcashd-halt-notice+dedupe-linkrepair",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -3660,14 +3628,6 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Using_Zcash/Blockchain_Explorers.md": {
-      "src": "sha256:0e3dff7ffcdfe3af020ee368d86921a4f4954bda8e29599e247faad96adb5c15",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
     "Using_Zcash/Buying_ZEC.md": {
       "src": "sha256:f77328a3918e96d58b67f59b30c9664bc78dc948292aad7aef7123646d4c9b45",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -4305,7 +4265,7 @@
       "src_commit": "704dfd4e3f730a5f70bb94815536fc7bacefe353",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+frontmatter-strip",
+      "tool": "gpt-5.4+frontmatter-strip+dedupe-linkrepair",
       "edited": false
     },
     "Zcash_Tech/Full_Nodes.md": {
@@ -4641,7 +4601,7 @@
       "src_commit": "0490cf0b5afc8f45220d1f6f1311490740252e30",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4",
+      "tool": "codex/gpt-5.4+dedupe-linkrepair",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -4649,7 +4609,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+dedupe-linkrepair",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -4884,20 +4844,12 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "guides/frostdemo/Ywallet_FROST_Demo.md": {
-      "src": "sha256:d1449d6d10d74db854622f35e5a4c376f76efc8ee1c6e95d8c60f5bfd3238696",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
     "guides/multisigdemo/MultiSigDemo.md": {
       "src": "sha256:85e4e655cf5c6e756222bde956ecc590cf3050b36fddd264b260dd8e53a56a4a",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+zcashd-halt-notice",
+      "tool": "gpt-5.4+zcashd-halt-notice+dedupe-linkrepair",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -5334,14 +5286,6 @@
       "tool": "gt-static",
       "edited": false
     },
-    "Using_Zcash/Blockchain_Explorers.md": {
-      "src": "sha256:0e3dff7ffcdfe3af020ee368d86921a4f4954bda8e29599e247faad96adb5c15",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
-      "edited": false
-    },
     "Using_Zcash/Buying_ZEC.md": {
       "src": "sha256:f77328a3918e96d58b67f59b30c9664bc78dc948292aad7aef7123646d4c9b45",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -5979,7 +5923,7 @@
       "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+dedupe-linkrepair",
       "edited": false
     },
     "Zcash_Tech/Full_Nodes.md": {
@@ -6315,7 +6259,7 @@
       "src_commit": "89726296ed07ac0ff07ba6bfac0763bea5845c3d",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+dedupe-linkrepair",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -6323,7 +6267,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+dedupe-linkrepair",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -6558,20 +6502,12 @@
       "tool": "gt-static",
       "edited": false
     },
-    "guides/frostdemo/Ywallet_FROST_Demo.md": {
-      "src": "sha256:d1449d6d10d74db854622f35e5a4c376f76efc8ee1c6e95d8c60f5bfd3238696",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "gt",
-      "mode": "seed",
-      "tool": "gt-static",
-      "edited": false
-    },
     "guides/multisigdemo/MultiSigDemo.md": {
       "src": "sha256:85e4e655cf5c6e756222bde956ecc590cf3050b36fddd264b260dd8e53a56a4a",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static+zcashd-halt-notice",
+      "tool": "gt-static+zcashd-halt-notice+dedupe-linkrepair",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -7008,14 +6944,6 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Using_Zcash/Blockchain_Explorers.md": {
-      "src": "sha256:0e3dff7ffcdfe3af020ee368d86921a4f4954bda8e29599e247faad96adb5c15",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
     "Using_Zcash/Buying_ZEC.md": {
       "src": "sha256:f77328a3918e96d58b67f59b30c9664bc78dc948292aad7aef7123646d4c9b45",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -7653,7 +7581,7 @@
       "src_commit": "704dfd4e3f730a5f70bb94815536fc7bacefe353",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+frontmatter-strip",
+      "tool": "gpt-5.4+frontmatter-strip+dedupe-linkrepair",
       "edited": false
     },
     "Zcash_Tech/Full_Nodes.md": {
@@ -7989,7 +7917,7 @@
       "src_commit": "0490cf0b5afc8f45220d1f6f1311490740252e30",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4",
+      "tool": "codex/gpt-5.4+dedupe-linkrepair",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -7997,7 +7925,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+dedupe-linkrepair",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -8232,20 +8160,12 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "guides/frostdemo/Ywallet_FROST_Demo.md": {
-      "src": "sha256:d1449d6d10d74db854622f35e5a4c376f76efc8ee1c6e95d8c60f5bfd3238696",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
     "guides/multisigdemo/MultiSigDemo.md": {
       "src": "sha256:85e4e655cf5c6e756222bde956ecc590cf3050b36fddd264b260dd8e53a56a4a",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+zcashd-halt-notice",
+      "tool": "gpt-5.4+zcashd-halt-notice+dedupe-linkrepair",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -8682,14 +8602,6 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Using_Zcash/Blockchain_Explorers.md": {
-      "src": "sha256:0e3dff7ffcdfe3af020ee368d86921a4f4954bda8e29599e247faad96adb5c15",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
     "Using_Zcash/Buying_ZEC.md": {
       "src": "sha256:f77328a3918e96d58b67f59b30c9664bc78dc948292aad7aef7123646d4c9b45",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -9327,7 +9239,7 @@
       "src_commit": "704dfd4e3f730a5f70bb94815536fc7bacefe353",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+frontmatter-strip",
+      "tool": "gpt-5.4+frontmatter-strip+dedupe-linkrepair",
       "edited": false
     },
     "Zcash_Tech/Full_Nodes.md": {
@@ -9663,7 +9575,7 @@
       "src_commit": "0490cf0b5afc8f45220d1f6f1311490740252e30",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4",
+      "tool": "codex/gpt-5.4+dedupe-linkrepair",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -9671,7 +9583,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+dedupe-linkrepair",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -9906,20 +9818,12 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "guides/frostdemo/Ywallet_FROST_Demo.md": {
-      "src": "sha256:d1449d6d10d74db854622f35e5a4c376f76efc8ee1c6e95d8c60f5bfd3238696",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
     "guides/multisigdemo/MultiSigDemo.md": {
       "src": "sha256:85e4e655cf5c6e756222bde956ecc590cf3050b36fddd264b260dd8e53a56a4a",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+zcashd-halt-notice",
+      "tool": "gpt-5.4+zcashd-halt-notice+dedupe-linkrepair",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -10356,14 +10260,6 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Using_Zcash/Blockchain_Explorers.md": {
-      "src": "sha256:0e3dff7ffcdfe3af020ee368d86921a4f4954bda8e29599e247faad96adb5c15",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
     "Using_Zcash/Buying_ZEC.md": {
       "src": "sha256:f77328a3918e96d58b67f59b30c9664bc78dc948292aad7aef7123646d4c9b45",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -11001,7 +10897,7 @@
       "src_commit": "30f859d7149e29bb448ebebf2979f667666b472a",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+frontmatter-strip",
+      "tool": "gpt-5.4+frontmatter-strip+dedupe-linkrepair",
       "edited": false
     },
     "Zcash_Tech/Full_Nodes.md": {
@@ -11337,7 +11233,7 @@
       "src_commit": "0490cf0b5afc8f45220d1f6f1311490740252e30",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4",
+      "tool": "codex/gpt-5.4+dedupe-linkrepair",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -11345,7 +11241,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+dedupe-linkrepair",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -11580,20 +11476,12 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "guides/frostdemo/Ywallet_FROST_Demo.md": {
-      "src": "sha256:d1449d6d10d74db854622f35e5a4c376f76efc8ee1c6e95d8c60f5bfd3238696",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
     "guides/multisigdemo/MultiSigDemo.md": {
       "src": "sha256:85e4e655cf5c6e756222bde956ecc590cf3050b36fddd264b260dd8e53a56a4a",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+zcashd-halt-notice",
+      "tool": "gpt-5.4+zcashd-halt-notice+dedupe-linkrepair",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -12030,14 +11918,6 @@
       "tool": "nllb-200-3.3B",
       "edited": false
     },
-    "Using_Zcash/Blockchain_Explorers.md": {
-      "src": "sha256:0e3dff7ffcdfe3af020ee368d86921a4f4954bda8e29599e247faad96adb5c15",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B",
-      "edited": false
-    },
     "Using_Zcash/Buying_ZEC.md": {
       "src": "sha256:f77328a3918e96d58b67f59b30c9664bc78dc948292aad7aef7123646d4c9b45",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -12675,7 +12555,7 @@
       "src_commit": "3a7237b8e9f1049fbf2f1ef7572c2490789aec5d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+dedupe-linkrepair",
       "edited": false
     },
     "Zcash_Tech/Full_Nodes.md": {
@@ -13011,7 +12891,7 @@
       "src_commit": "19052dfb9958dc8ce2e224ce9627ee9e01635c8b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+dedupe-linkrepair",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -13019,7 +12899,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+dedupe-linkrepair",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -13254,20 +13134,12 @@
       "tool": "nllb-200-3.3B",
       "edited": false
     },
-    "guides/frostdemo/Ywallet_FROST_Demo.md": {
-      "src": "sha256:d1449d6d10d74db854622f35e5a4c376f76efc8ee1c6e95d8c60f5bfd3238696",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B",
-      "edited": false
-    },
     "guides/multisigdemo/MultiSigDemo.md": {
       "src": "sha256:85e4e655cf5c6e756222bde956ecc590cf3050b36fddd264b260dd8e53a56a4a",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+zcashd-halt-notice",
+      "tool": "nllb-200-3.3B+zcashd-halt-notice+dedupe-linkrepair",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -13704,14 +13576,6 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Using_Zcash/Blockchain_Explorers.md": {
-      "src": "sha256:0e3dff7ffcdfe3af020ee368d86921a4f4954bda8e29599e247faad96adb5c15",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
     "Using_Zcash/Buying_ZEC.md": {
       "src": "sha256:f77328a3918e96d58b67f59b30c9664bc78dc948292aad7aef7123646d4c9b45",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -14349,7 +14213,7 @@
       "src_commit": "704dfd4e3f730a5f70bb94815536fc7bacefe353",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+frontmatter-strip",
+      "tool": "gpt-5.4+frontmatter-strip+dedupe-linkrepair",
       "edited": false
     },
     "Zcash_Tech/Full_Nodes.md": {
@@ -14685,7 +14549,7 @@
       "src_commit": "0490cf0b5afc8f45220d1f6f1311490740252e30",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4",
+      "tool": "codex/gpt-5.4+dedupe-linkrepair",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -14693,7 +14557,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+dedupe-linkrepair",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -14928,20 +14792,12 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "guides/frostdemo/Ywallet_FROST_Demo.md": {
-      "src": "sha256:d1449d6d10d74db854622f35e5a4c376f76efc8ee1c6e95d8c60f5bfd3238696",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
     "guides/multisigdemo/MultiSigDemo.md": {
       "src": "sha256:85e4e655cf5c6e756222bde956ecc590cf3050b36fddd264b260dd8e53a56a4a",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+zcashd-halt-notice",
+      "tool": "gpt-5.4+zcashd-halt-notice+dedupe-linkrepair",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -15378,14 +15234,6 @@
       "tool": "qwen3-14b",
       "edited": false
     },
-    "Using_Zcash/Blockchain_Explorers.md": {
-      "src": "sha256:0e3dff7ffcdfe3af020ee368d86921a4f4954bda8e29599e247faad96adb5c15",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "qwen3-14b",
-      "edited": false
-    },
     "Using_Zcash/Buying_ZEC.md": {
       "src": "sha256:f77328a3918e96d58b67f59b30c9664bc78dc948292aad7aef7123646d4c9b45",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -16023,7 +15871,7 @@
       "src_commit": "30f859d7149e29bb448ebebf2979f667666b472a",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+frontmatter-strip",
+      "tool": "gpt-5.4+frontmatter-strip+dedupe-linkrepair",
       "edited": false
     },
     "Zcash_Tech/Full_Nodes.md": {
@@ -16359,7 +16207,7 @@
       "src_commit": "0490cf0b5afc8f45220d1f6f1311490740252e30",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4",
+      "tool": "codex/gpt-5.4+dedupe-linkrepair",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -16367,7 +16215,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+dedupe-linkrepair",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -16602,20 +16450,12 @@
       "tool": "qwen3-14b",
       "edited": false
     },
-    "guides/frostdemo/Ywallet_FROST_Demo.md": {
-      "src": "sha256:d1449d6d10d74db854622f35e5a4c376f76efc8ee1c6e95d8c60f5bfd3238696",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "qwen3-14b",
-      "edited": false
-    },
     "guides/multisigdemo/MultiSigDemo.md": {
       "src": "sha256:85e4e655cf5c6e756222bde956ecc590cf3050b36fddd264b260dd8e53a56a4a",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b+zcashd-halt-notice",
+      "tool": "qwen3-14b+zcashd-halt-notice+dedupe-linkrepair",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -17052,14 +16892,6 @@
       "tool": "qwen3-14b",
       "edited": false
     },
-    "Using_Zcash/Blockchain_Explorers.md": {
-      "src": "sha256:0e3dff7ffcdfe3af020ee368d86921a4f4954bda8e29599e247faad96adb5c15",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "qwen3-14b",
-      "edited": false
-    },
     "Using_Zcash/Buying_ZEC.md": {
       "src": "sha256:f77328a3918e96d58b67f59b30c9664bc78dc948292aad7aef7123646d4c9b45",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -17697,7 +17529,7 @@
       "src_commit": "30f859d7149e29bb448ebebf2979f667666b472a",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+frontmatter-strip",
+      "tool": "gpt-5.4+frontmatter-strip+dedupe-linkrepair",
       "edited": false
     },
     "Zcash_Tech/Full_Nodes.md": {
@@ -18033,7 +17865,7 @@
       "src_commit": "0490cf0b5afc8f45220d1f6f1311490740252e30",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4",
+      "tool": "codex/gpt-5.4+dedupe-linkrepair",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -18041,7 +17873,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+dedupe-linkrepair",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -18276,20 +18108,12 @@
       "tool": "qwen3-14b",
       "edited": false
     },
-    "guides/frostdemo/Ywallet_FROST_Demo.md": {
-      "src": "sha256:d1449d6d10d74db854622f35e5a4c376f76efc8ee1c6e95d8c60f5bfd3238696",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "qwen3-14b",
-      "edited": false
-    },
     "guides/multisigdemo/MultiSigDemo.md": {
       "src": "sha256:85e4e655cf5c6e756222bde956ecc590cf3050b36fddd264b260dd8e53a56a4a",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b+zcashd-halt-notice",
+      "tool": "qwen3-14b+zcashd-halt-notice+dedupe-linkrepair",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -18720,14 +18544,6 @@
     },
     "Start_Here/Zcash_Resources.md": {
       "src": "sha256:34a337c78ed804976124cf31fc5ed118e9f43213d9397ca76c4ee0213e610b6a",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
-    "Using_Zcash/Blockchain_Explorers.md": {
-      "src": "sha256:0e3dff7ffcdfe3af020ee368d86921a4f4954bda8e29599e247faad96adb5c15",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
@@ -19371,7 +19187,7 @@
       "src_commit": "704dfd4e3f730a5f70bb94815536fc7bacefe353",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+frontmatter-strip",
+      "tool": "gpt-5.4+frontmatter-strip+dedupe-linkrepair",
       "edited": false
     },
     "Zcash_Tech/Full_Nodes.md": {
@@ -19707,7 +19523,7 @@
       "src_commit": "0490cf0b5afc8f45220d1f6f1311490740252e30",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4",
+      "tool": "codex/gpt-5.4+dedupe-linkrepair",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -19715,7 +19531,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+dedupe-linkrepair",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -19950,20 +19766,12 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "guides/frostdemo/Ywallet_FROST_Demo.md": {
-      "src": "sha256:d1449d6d10d74db854622f35e5a4c376f76efc8ee1c6e95d8c60f5bfd3238696",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
     "guides/multisigdemo/MultiSigDemo.md": {
       "src": "sha256:85e4e655cf5c6e756222bde956ecc590cf3050b36fddd264b260dd8e53a56a4a",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+zcashd-halt-notice",
+      "tool": "gpt-5.4+zcashd-halt-notice+dedupe-linkrepair",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -20400,14 +20208,6 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Using_Zcash/Blockchain_Explorers.md": {
-      "src": "sha256:0e3dff7ffcdfe3af020ee368d86921a4f4954bda8e29599e247faad96adb5c15",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
     "Using_Zcash/Buying_ZEC.md": {
       "src": "sha256:f77328a3918e96d58b67f59b30c9664bc78dc948292aad7aef7123646d4c9b45",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -21045,7 +20845,7 @@
       "src_commit": "704dfd4e3f730a5f70bb94815536fc7bacefe353",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+frontmatter-strip",
+      "tool": "gpt-5.4+frontmatter-strip+dedupe-linkrepair",
       "edited": false
     },
     "Zcash_Tech/Full_Nodes.md": {
@@ -21381,7 +21181,7 @@
       "src_commit": "0490cf0b5afc8f45220d1f6f1311490740252e30",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4",
+      "tool": "codex/gpt-5.4+dedupe-linkrepair",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -21389,7 +21189,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+dedupe-linkrepair",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -21624,20 +21424,12 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "guides/frostdemo/Ywallet_FROST_Demo.md": {
-      "src": "sha256:d1449d6d10d74db854622f35e5a4c376f76efc8ee1c6e95d8c60f5bfd3238696",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
     "guides/multisigdemo/MultiSigDemo.md": {
       "src": "sha256:85e4e655cf5c6e756222bde956ecc590cf3050b36fddd264b260dd8e53a56a4a",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+zcashd-halt-notice",
+      "tool": "gpt-5.4+zcashd-halt-notice+dedupe-linkrepair",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -22074,14 +21866,6 @@
       "tool": "nllb-200-3.3B",
       "edited": false
     },
-    "Using_Zcash/Blockchain_Explorers.md": {
-      "src": "sha256:0e3dff7ffcdfe3af020ee368d86921a4f4954bda8e29599e247faad96adb5c15",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B",
-      "edited": false
-    },
     "Using_Zcash/Buying_ZEC.md": {
       "src": "sha256:f77328a3918e96d58b67f59b30c9664bc78dc948292aad7aef7123646d4c9b45",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -22719,7 +22503,7 @@
       "src_commit": "3a7237b8e9f1049fbf2f1ef7572c2490789aec5d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+dedupe-linkrepair",
       "edited": false
     },
     "Zcash_Tech/Full_Nodes.md": {
@@ -23055,7 +22839,7 @@
       "src_commit": "19052dfb9958dc8ce2e224ce9627ee9e01635c8b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+dedupe-linkrepair",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -23063,7 +22847,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+dedupe-linkrepair",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -23298,20 +23082,12 @@
       "tool": "nllb-200-3.3B",
       "edited": false
     },
-    "guides/frostdemo/Ywallet_FROST_Demo.md": {
-      "src": "sha256:d1449d6d10d74db854622f35e5a4c376f76efc8ee1c6e95d8c60f5bfd3238696",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B",
-      "edited": false
-    },
     "guides/multisigdemo/MultiSigDemo.md": {
       "src": "sha256:85e4e655cf5c6e756222bde956ecc590cf3050b36fddd264b260dd8e53a56a4a",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+zcashd-halt-notice",
+      "tool": "nllb-200-3.3B+zcashd-halt-notice+dedupe-linkrepair",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -23748,14 +23524,6 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Using_Zcash/Blockchain_Explorers.md": {
-      "src": "sha256:0e3dff7ffcdfe3af020ee368d86921a4f4954bda8e29599e247faad96adb5c15",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
     "Using_Zcash/Buying_ZEC.md": {
       "src": "sha256:f77328a3918e96d58b67f59b30c9664bc78dc948292aad7aef7123646d4c9b45",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -24393,7 +24161,7 @@
       "src_commit": "704dfd4e3f730a5f70bb94815536fc7bacefe353",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+frontmatter-strip",
+      "tool": "gpt-5.4+frontmatter-strip+dedupe-linkrepair",
       "edited": false
     },
     "Zcash_Tech/Full_Nodes.md": {
@@ -24729,7 +24497,7 @@
       "src_commit": "0490cf0b5afc8f45220d1f6f1311490740252e30",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4",
+      "tool": "codex/gpt-5.4+dedupe-linkrepair",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -24737,7 +24505,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+dedupe-linkrepair",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -24972,20 +24740,12 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "guides/frostdemo/Ywallet_FROST_Demo.md": {
-      "src": "sha256:d1449d6d10d74db854622f35e5a4c376f76efc8ee1c6e95d8c60f5bfd3238696",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
     "guides/multisigdemo/MultiSigDemo.md": {
       "src": "sha256:85e4e655cf5c6e756222bde956ecc590cf3050b36fddd264b260dd8e53a56a4a",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+zcashd-halt-notice",
+      "tool": "gpt-5.4+zcashd-halt-notice+dedupe-linkrepair",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -25422,14 +25182,6 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Using_Zcash/Blockchain_Explorers.md": {
-      "src": "sha256:0e3dff7ffcdfe3af020ee368d86921a4f4954bda8e29599e247faad96adb5c15",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
     "Using_Zcash/Buying_ZEC.md": {
       "src": "sha256:f77328a3918e96d58b67f59b30c9664bc78dc948292aad7aef7123646d4c9b45",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -26067,7 +25819,7 @@
       "src_commit": "704dfd4e3f730a5f70bb94815536fc7bacefe353",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+frontmatter-strip",
+      "tool": "gpt-5.4+frontmatter-strip+dedupe-linkrepair",
       "edited": false
     },
     "Zcash_Tech/Full_Nodes.md": {
@@ -26403,7 +26155,7 @@
       "src_commit": "0490cf0b5afc8f45220d1f6f1311490740252e30",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4",
+      "tool": "codex/gpt-5.4+dedupe-linkrepair",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -26411,7 +26163,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+dedupe-linkrepair",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -26646,20 +26398,12 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "guides/frostdemo/Ywallet_FROST_Demo.md": {
-      "src": "sha256:d1449d6d10d74db854622f35e5a4c376f76efc8ee1c6e95d8c60f5bfd3238696",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
     "guides/multisigdemo/MultiSigDemo.md": {
       "src": "sha256:85e4e655cf5c6e756222bde956ecc590cf3050b36fddd264b260dd8e53a56a4a",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+zcashd-halt-notice",
+      "tool": "gpt-5.4+zcashd-halt-notice+dedupe-linkrepair",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -27096,14 +26840,6 @@
       "tool": "nllb-200-3.3B",
       "edited": false
     },
-    "Using_Zcash/Blockchain_Explorers.md": {
-      "src": "sha256:0e3dff7ffcdfe3af020ee368d86921a4f4954bda8e29599e247faad96adb5c15",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
-      "edited": false
-    },
     "Using_Zcash/Buying_ZEC.md": {
       "src": "sha256:f77328a3918e96d58b67f59b30c9664bc78dc948292aad7aef7123646d4c9b45",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -27741,7 +27477,7 @@
       "src_commit": "3a7237b8e9f1049fbf2f1ef7572c2490789aec5d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+dedupe-linkrepair",
       "edited": false
     },
     "Zcash_Tech/Full_Nodes.md": {
@@ -28077,7 +27813,7 @@
       "src_commit": "19052dfb9958dc8ce2e224ce9627ee9e01635c8b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+dedupe-linkrepair",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -28085,7 +27821,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+dedupe-linkrepair",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -28320,20 +28056,12 @@
       "tool": "nllb-200-3.3B",
       "edited": false
     },
-    "guides/frostdemo/Ywallet_FROST_Demo.md": {
-      "src": "sha256:d1449d6d10d74db854622f35e5a4c376f76efc8ee1c6e95d8c60f5bfd3238696",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "nllb",
-      "mode": "seed",
-      "tool": "nllb-200-3.3B",
-      "edited": false
-    },
     "guides/multisigdemo/MultiSigDemo.md": {
       "src": "sha256:85e4e655cf5c6e756222bde956ecc590cf3050b36fddd264b260dd8e53a56a4a",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+zcashd-halt-notice",
+      "tool": "nllb-200-3.3B+zcashd-halt-notice+dedupe-linkrepair",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {
@@ -28770,14 +28498,6 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "Using_Zcash/Blockchain_Explorers.md": {
-      "src": "sha256:0e3dff7ffcdfe3af020ee368d86921a4f4954bda8e29599e247faad96adb5c15",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
     "Using_Zcash/Buying_ZEC.md": {
       "src": "sha256:f77328a3918e96d58b67f59b30c9664bc78dc948292aad7aef7123646d4c9b45",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
@@ -29415,7 +29135,7 @@
       "src_commit": "30f859d7149e29bb448ebebf2979f667666b472a",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+frontmatter-strip",
+      "tool": "gpt-5.4+frontmatter-strip+dedupe-linkrepair",
       "edited": false
     },
     "Zcash_Tech/Full_Nodes.md": {
@@ -29751,7 +29471,7 @@
       "src_commit": "0490cf0b5afc8f45220d1f6f1311490740252e30",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4",
+      "tool": "codex/gpt-5.4+dedupe-linkrepair",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -29759,7 +29479,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+dedupe-linkrepair",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -29994,20 +29714,12 @@
       "tool": "gpt-5.4",
       "edited": false
     },
-    "guides/frostdemo/Ywallet_FROST_Demo.md": {
-      "src": "sha256:d1449d6d10d74db854622f35e5a4c376f76efc8ee1c6e95d8c60f5bfd3238696",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
-      "edited": false
-    },
     "guides/multisigdemo/MultiSigDemo.md": {
       "src": "sha256:85e4e655cf5c6e756222bde956ecc590cf3050b36fddd264b260dd8e53a56a4a",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+zcashd-halt-notice",
+      "tool": "gpt-5.4+zcashd-halt-notice+dedupe-linkrepair",
       "edited": false
     },
     "guides/workshops/zcashContributorWorkshopDay3.md": {

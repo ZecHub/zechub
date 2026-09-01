@@ -145,7 +145,7 @@ Mfiase a mfaso wɔ so ma akuw dodow no ara: **2-of-3** (a ɛyɛ den, ɛnyɛ den 
 
 - [FROST — Mfiridwuma mu Deep Dive](FROST.md) — cryptographic nsɛm a ɛfa protocol no ho (DKG, nsaano nkyerɛwee rounds, ahobammɔ adanse)
 - [YWallet FROST Demo Akwankyerɛ](/guides/Ywallet_FROST_Demo) — anammɔn anammɔn nsa-so demo
-- [FROST Demo (awɔw ho mfonini) .](/guides/frostdemo) — Zcash Foundation demo nantew mu
+- [FROST Demo (awɔw ho mfonini) .](/guides/ywallet-frost-demo) — Zcash Foundation demo nantew mu
 - [Nneɛma a Wɔde Hwɛ](Viewing_Keys.md) — akenkan nkutoo kwan a wɔfa so kɔ address ahorow a wɔabɔ ho ban so (ɛboa threshold custody) .
 - [Zcash Shielded Agyapadeɛ](Zcash_Shielded_Assets.md) — FROST nso yɛ nnwuma titiriw a wɔde bɛma ZSA
 
