@@ -102,11 +102,11 @@ ECC、Filecoin Foundation、Protocol Labs 和 Ethereum Foundation 还将与[Supr
 
 ## 其他使用 Halo 的项目
 
-+ [Anoma，一种保护隐私的多链原子交换协议](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
++ [Anoma，一种保护隐私的多链原子交换协议](https://anoma.net/blog/hash-functions-in-plonkup)
 
 + [Oribis，Cardano 上的 L2 zkRollup](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
-+ [Darkfi，一条私有的 L1 zkEVM 区块链](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
++ [Darkfi，一条私有的 L1 zkEVM 区块链](https://dark.fi/book/arch/arch.html)
 
 + [Scroll，Ethereum 上的 L2 zkRollup](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 
@@ -123,7 +123,7 @@ ECC、Filecoin Foundation、Protocol Labs 和 Ethereum Foundation 还将与[Supr
 
 **文档**
 
-[Halo 2 资源](https://github.com/adria0/awesome-halo2)
+[Halo 2 资源](https://github.com/mhchia/awesome-halo2)
 
 [Halo 2 文档](https://zcash.github.io/halo2/)
 

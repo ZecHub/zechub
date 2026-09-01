@@ -969,11 +969,11 @@
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
-      "src": "sha256:a584f4f434a97353d6f7177abada1b42b73d2c33626c2b53221a55969fe586ff",
+      "src": "sha256:fe3e9c8682f552f557cdb29afcbae22cee9583788e49bddfb53812d7ef968f45",
       "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+deadlink-repair",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -1153,11 +1153,11 @@
       "edited": false
     },
     "Zcash_Tech/zk_SNARKS.md": {
-      "src": "sha256:6a56396da6f49e9562847aad2b431d493e02c3052f24c95c7ee0b6a6be83b6b2",
+      "src": "sha256:b28ef9ac4521351bcbd8cf226ac8b895548ec040eb8b435522bf5b84b048b76a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+deadlink-repair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -1497,11 +1497,11 @@
       "edited": false
     },
     "guides/Zero-Knowledge_vs_Decoys.md": {
-      "src": "sha256:8a82c309da76198ae7a3d009bbdca5a9fe376ca15643d721fff07e137e4fb081",
+      "src": "sha256:07328e12f67501155ececc53103c95c332c697ec409931c677f2c7c733c0111a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+deadlink-repair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -2643,11 +2643,11 @@
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
-      "src": "sha256:a584f4f434a97353d6f7177abada1b42b73d2c33626c2b53221a55969fe586ff",
+      "src": "sha256:fe3e9c8682f552f557cdb29afcbae22cee9583788e49bddfb53812d7ef968f45",
       "src_commit": "30f859d7149e29bb448ebebf2979f667666b472a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -2827,11 +2827,11 @@
       "edited": false
     },
     "Zcash_Tech/zk_SNARKS.md": {
-      "src": "sha256:6a56396da6f49e9562847aad2b431d493e02c3052f24c95c7ee0b6a6be83b6b2",
+      "src": "sha256:b28ef9ac4521351bcbd8cf226ac8b895548ec040eb8b435522bf5b84b048b76a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -3171,11 +3171,11 @@
       "edited": false
     },
     "guides/Zero-Knowledge_vs_Decoys.md": {
-      "src": "sha256:8a82c309da76198ae7a3d009bbdca5a9fe376ca15643d721fff07e137e4fb081",
+      "src": "sha256:07328e12f67501155ececc53103c95c332c697ec409931c677f2c7c733c0111a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -4317,11 +4317,11 @@
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
-      "src": "sha256:a584f4f434a97353d6f7177abada1b42b73d2c33626c2b53221a55969fe586ff",
+      "src": "sha256:fe3e9c8682f552f557cdb29afcbae22cee9583788e49bddfb53812d7ef968f45",
       "src_commit": "704dfd4e3f730a5f70bb94815536fc7bacefe353",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -4501,11 +4501,11 @@
       "edited": false
     },
     "Zcash_Tech/zk_SNARKS.md": {
-      "src": "sha256:6a56396da6f49e9562847aad2b431d493e02c3052f24c95c7ee0b6a6be83b6b2",
+      "src": "sha256:b28ef9ac4521351bcbd8cf226ac8b895548ec040eb8b435522bf5b84b048b76a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -4845,11 +4845,11 @@
       "edited": false
     },
     "guides/Zero-Knowledge_vs_Decoys.md": {
-      "src": "sha256:8a82c309da76198ae7a3d009bbdca5a9fe376ca15643d721fff07e137e4fb081",
+      "src": "sha256:07328e12f67501155ececc53103c95c332c697ec409931c677f2c7c733c0111a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -5991,11 +5991,11 @@
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
-      "src": "sha256:a584f4f434a97353d6f7177abada1b42b73d2c33626c2b53221a55969fe586ff",
+      "src": "sha256:fe3e9c8682f552f557cdb29afcbae22cee9583788e49bddfb53812d7ef968f45",
       "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
       "engine": "gt",
       "mode": "full",
-      "tool": "gt-static",
+      "tool": "gt-static+deadlink-repair",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -6175,11 +6175,11 @@
       "edited": false
     },
     "Zcash_Tech/zk_SNARKS.md": {
-      "src": "sha256:6a56396da6f49e9562847aad2b431d493e02c3052f24c95c7ee0b6a6be83b6b2",
+      "src": "sha256:b28ef9ac4521351bcbd8cf226ac8b895548ec040eb8b435522bf5b84b048b76a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+deadlink-repair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -6519,11 +6519,11 @@
       "edited": false
     },
     "guides/Zero-Knowledge_vs_Decoys.md": {
-      "src": "sha256:8a82c309da76198ae7a3d009bbdca5a9fe376ca15643d721fff07e137e4fb081",
+      "src": "sha256:07328e12f67501155ececc53103c95c332c697ec409931c677f2c7c733c0111a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "gt",
       "mode": "seed",
-      "tool": "gt-static",
+      "tool": "gt-static+deadlink-repair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -7665,11 +7665,11 @@
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
-      "src": "sha256:a584f4f434a97353d6f7177abada1b42b73d2c33626c2b53221a55969fe586ff",
+      "src": "sha256:fe3e9c8682f552f557cdb29afcbae22cee9583788e49bddfb53812d7ef968f45",
       "src_commit": "704dfd4e3f730a5f70bb94815536fc7bacefe353",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -7849,11 +7849,11 @@
       "edited": false
     },
     "Zcash_Tech/zk_SNARKS.md": {
-      "src": "sha256:6a56396da6f49e9562847aad2b431d493e02c3052f24c95c7ee0b6a6be83b6b2",
+      "src": "sha256:b28ef9ac4521351bcbd8cf226ac8b895548ec040eb8b435522bf5b84b048b76a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -8193,11 +8193,11 @@
       "edited": false
     },
     "guides/Zero-Knowledge_vs_Decoys.md": {
-      "src": "sha256:8a82c309da76198ae7a3d009bbdca5a9fe376ca15643d721fff07e137e4fb081",
+      "src": "sha256:07328e12f67501155ececc53103c95c332c697ec409931c677f2c7c733c0111a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -9339,11 +9339,11 @@
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
-      "src": "sha256:a584f4f434a97353d6f7177abada1b42b73d2c33626c2b53221a55969fe586ff",
+      "src": "sha256:fe3e9c8682f552f557cdb29afcbae22cee9583788e49bddfb53812d7ef968f45",
       "src_commit": "704dfd4e3f730a5f70bb94815536fc7bacefe353",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -9523,11 +9523,11 @@
       "edited": false
     },
     "Zcash_Tech/zk_SNARKS.md": {
-      "src": "sha256:6a56396da6f49e9562847aad2b431d493e02c3052f24c95c7ee0b6a6be83b6b2",
+      "src": "sha256:b28ef9ac4521351bcbd8cf226ac8b895548ec040eb8b435522bf5b84b048b76a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -9867,11 +9867,11 @@
       "edited": false
     },
     "guides/Zero-Knowledge_vs_Decoys.md": {
-      "src": "sha256:8a82c309da76198ae7a3d009bbdca5a9fe376ca15643d721fff07e137e4fb081",
+      "src": "sha256:07328e12f67501155ececc53103c95c332c697ec409931c677f2c7c733c0111a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -11013,11 +11013,11 @@
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
-      "src": "sha256:a584f4f434a97353d6f7177abada1b42b73d2c33626c2b53221a55969fe586ff",
+      "src": "sha256:fe3e9c8682f552f557cdb29afcbae22cee9583788e49bddfb53812d7ef968f45",
       "src_commit": "30f859d7149e29bb448ebebf2979f667666b472a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -11197,11 +11197,11 @@
       "edited": false
     },
     "Zcash_Tech/zk_SNARKS.md": {
-      "src": "sha256:6a56396da6f49e9562847aad2b431d493e02c3052f24c95c7ee0b6a6be83b6b2",
+      "src": "sha256:b28ef9ac4521351bcbd8cf226ac8b895548ec040eb8b435522bf5b84b048b76a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -11541,11 +11541,11 @@
       "edited": false
     },
     "guides/Zero-Knowledge_vs_Decoys.md": {
-      "src": "sha256:8a82c309da76198ae7a3d009bbdca5a9fe376ca15643d721fff07e137e4fb081",
+      "src": "sha256:07328e12f67501155ececc53103c95c332c697ec409931c677f2c7c733c0111a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -12687,11 +12687,11 @@
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
-      "src": "sha256:a584f4f434a97353d6f7177abada1b42b73d2c33626c2b53221a55969fe586ff",
+      "src": "sha256:fe3e9c8682f552f557cdb29afcbae22cee9583788e49bddfb53812d7ef968f45",
       "src_commit": "3a7237b8e9f1049fbf2f1ef7572c2490789aec5d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+deadlink-repair",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -12871,11 +12871,11 @@
       "edited": false
     },
     "Zcash_Tech/zk_SNARKS.md": {
-      "src": "sha256:6a56396da6f49e9562847aad2b431d493e02c3052f24c95c7ee0b6a6be83b6b2",
+      "src": "sha256:b28ef9ac4521351bcbd8cf226ac8b895548ec040eb8b435522bf5b84b048b76a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -13215,11 +13215,11 @@
       "edited": false
     },
     "guides/Zero-Knowledge_vs_Decoys.md": {
-      "src": "sha256:8a82c309da76198ae7a3d009bbdca5a9fe376ca15643d721fff07e137e4fb081",
+      "src": "sha256:07328e12f67501155ececc53103c95c332c697ec409931c677f2c7c733c0111a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+deadlink-repair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -14361,11 +14361,11 @@
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
-      "src": "sha256:a584f4f434a97353d6f7177abada1b42b73d2c33626c2b53221a55969fe586ff",
+      "src": "sha256:fe3e9c8682f552f557cdb29afcbae22cee9583788e49bddfb53812d7ef968f45",
       "src_commit": "704dfd4e3f730a5f70bb94815536fc7bacefe353",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -14545,11 +14545,11 @@
       "edited": false
     },
     "Zcash_Tech/zk_SNARKS.md": {
-      "src": "sha256:6a56396da6f49e9562847aad2b431d493e02c3052f24c95c7ee0b6a6be83b6b2",
+      "src": "sha256:b28ef9ac4521351bcbd8cf226ac8b895548ec040eb8b435522bf5b84b048b76a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+linkrepair",
+      "tool": "gpt-5.4+linkrepair+deadlink-repair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -14889,11 +14889,11 @@
       "edited": false
     },
     "guides/Zero-Knowledge_vs_Decoys.md": {
-      "src": "sha256:8a82c309da76198ae7a3d009bbdca5a9fe376ca15643d721fff07e137e4fb081",
+      "src": "sha256:07328e12f67501155ececc53103c95c332c697ec409931c677f2c7c733c0111a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -16035,11 +16035,11 @@
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
-      "src": "sha256:a584f4f434a97353d6f7177abada1b42b73d2c33626c2b53221a55969fe586ff",
+      "src": "sha256:fe3e9c8682f552f557cdb29afcbae22cee9583788e49bddfb53812d7ef968f45",
       "src_commit": "30f859d7149e29bb448ebebf2979f667666b472a",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+frontmatter-strip",
+      "tool": "gpt-5.4+frontmatter-strip+deadlink-repair",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -16219,11 +16219,11 @@
       "edited": false
     },
     "Zcash_Tech/zk_SNARKS.md": {
-      "src": "sha256:6a56396da6f49e9562847aad2b431d493e02c3052f24c95c7ee0b6a6be83b6b2",
+      "src": "sha256:b28ef9ac4521351bcbd8cf226ac8b895548ec040eb8b435522bf5b84b048b76a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+deadlink-repair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -16563,11 +16563,11 @@
       "edited": false
     },
     "guides/Zero-Knowledge_vs_Decoys.md": {
-      "src": "sha256:8a82c309da76198ae7a3d009bbdca5a9fe376ca15643d721fff07e137e4fb081",
+      "src": "sha256:07328e12f67501155ececc53103c95c332c697ec409931c677f2c7c733c0111a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+deadlink-repair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -17709,11 +17709,11 @@
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
-      "src": "sha256:a584f4f434a97353d6f7177abada1b42b73d2c33626c2b53221a55969fe586ff",
+      "src": "sha256:fe3e9c8682f552f557cdb29afcbae22cee9583788e49bddfb53812d7ef968f45",
       "src_commit": "30f859d7149e29bb448ebebf2979f667666b472a",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+frontmatter-strip",
+      "tool": "gpt-5.4+frontmatter-strip+deadlink-repair",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -17893,11 +17893,11 @@
       "edited": false
     },
     "Zcash_Tech/zk_SNARKS.md": {
-      "src": "sha256:6a56396da6f49e9562847aad2b431d493e02c3052f24c95c7ee0b6a6be83b6b2",
+      "src": "sha256:b28ef9ac4521351bcbd8cf226ac8b895548ec040eb8b435522bf5b84b048b76a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+deadlink-repair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -18237,11 +18237,11 @@
       "edited": false
     },
     "guides/Zero-Knowledge_vs_Decoys.md": {
-      "src": "sha256:8a82c309da76198ae7a3d009bbdca5a9fe376ca15643d721fff07e137e4fb081",
+      "src": "sha256:07328e12f67501155ececc53103c95c332c697ec409931c677f2c7c733c0111a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "qwen3-14b",
+      "tool": "qwen3-14b+deadlink-repair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -19383,11 +19383,11 @@
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
-      "src": "sha256:a584f4f434a97353d6f7177abada1b42b73d2c33626c2b53221a55969fe586ff",
+      "src": "sha256:fe3e9c8682f552f557cdb29afcbae22cee9583788e49bddfb53812d7ef968f45",
       "src_commit": "704dfd4e3f730a5f70bb94815536fc7bacefe353",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -19567,11 +19567,11 @@
       "edited": false
     },
     "Zcash_Tech/zk_SNARKS.md": {
-      "src": "sha256:6a56396da6f49e9562847aad2b431d493e02c3052f24c95c7ee0b6a6be83b6b2",
+      "src": "sha256:b28ef9ac4521351bcbd8cf226ac8b895548ec040eb8b435522bf5b84b048b76a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -19911,11 +19911,11 @@
       "edited": false
     },
     "guides/Zero-Knowledge_vs_Decoys.md": {
-      "src": "sha256:8a82c309da76198ae7a3d009bbdca5a9fe376ca15643d721fff07e137e4fb081",
+      "src": "sha256:07328e12f67501155ececc53103c95c332c697ec409931c677f2c7c733c0111a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -21057,11 +21057,11 @@
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
-      "src": "sha256:a584f4f434a97353d6f7177abada1b42b73d2c33626c2b53221a55969fe586ff",
+      "src": "sha256:fe3e9c8682f552f557cdb29afcbae22cee9583788e49bddfb53812d7ef968f45",
       "src_commit": "704dfd4e3f730a5f70bb94815536fc7bacefe353",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -21241,11 +21241,11 @@
       "edited": false
     },
     "Zcash_Tech/zk_SNARKS.md": {
-      "src": "sha256:6a56396da6f49e9562847aad2b431d493e02c3052f24c95c7ee0b6a6be83b6b2",
+      "src": "sha256:b28ef9ac4521351bcbd8cf226ac8b895548ec040eb8b435522bf5b84b048b76a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -21585,11 +21585,11 @@
       "edited": false
     },
     "guides/Zero-Knowledge_vs_Decoys.md": {
-      "src": "sha256:8a82c309da76198ae7a3d009bbdca5a9fe376ca15643d721fff07e137e4fb081",
+      "src": "sha256:07328e12f67501155ececc53103c95c332c697ec409931c677f2c7c733c0111a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -22731,11 +22731,11 @@
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
-      "src": "sha256:a584f4f434a97353d6f7177abada1b42b73d2c33626c2b53221a55969fe586ff",
+      "src": "sha256:fe3e9c8682f552f557cdb29afcbae22cee9583788e49bddfb53812d7ef968f45",
       "src_commit": "3a7237b8e9f1049fbf2f1ef7572c2490789aec5d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+deadlink-repair",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -22915,11 +22915,11 @@
       "edited": false
     },
     "Zcash_Tech/zk_SNARKS.md": {
-      "src": "sha256:6a56396da6f49e9562847aad2b431d493e02c3052f24c95c7ee0b6a6be83b6b2",
+      "src": "sha256:b28ef9ac4521351bcbd8cf226ac8b895548ec040eb8b435522bf5b84b048b76a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -23259,11 +23259,11 @@
       "edited": false
     },
     "guides/Zero-Knowledge_vs_Decoys.md": {
-      "src": "sha256:8a82c309da76198ae7a3d009bbdca5a9fe376ca15643d721fff07e137e4fb081",
+      "src": "sha256:07328e12f67501155ececc53103c95c332c697ec409931c677f2c7c733c0111a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -24405,11 +24405,11 @@
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
-      "src": "sha256:a584f4f434a97353d6f7177abada1b42b73d2c33626c2b53221a55969fe586ff",
+      "src": "sha256:fe3e9c8682f552f557cdb29afcbae22cee9583788e49bddfb53812d7ef968f45",
       "src_commit": "704dfd4e3f730a5f70bb94815536fc7bacefe353",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -24589,11 +24589,11 @@
       "edited": false
     },
     "Zcash_Tech/zk_SNARKS.md": {
-      "src": "sha256:6a56396da6f49e9562847aad2b431d493e02c3052f24c95c7ee0b6a6be83b6b2",
+      "src": "sha256:b28ef9ac4521351bcbd8cf226ac8b895548ec040eb8b435522bf5b84b048b76a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -24933,11 +24933,11 @@
       "edited": false
     },
     "guides/Zero-Knowledge_vs_Decoys.md": {
-      "src": "sha256:8a82c309da76198ae7a3d009bbdca5a9fe376ca15643d721fff07e137e4fb081",
+      "src": "sha256:07328e12f67501155ececc53103c95c332c697ec409931c677f2c7c733c0111a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -26079,11 +26079,11 @@
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
-      "src": "sha256:a584f4f434a97353d6f7177abada1b42b73d2c33626c2b53221a55969fe586ff",
+      "src": "sha256:fe3e9c8682f552f557cdb29afcbae22cee9583788e49bddfb53812d7ef968f45",
       "src_commit": "704dfd4e3f730a5f70bb94815536fc7bacefe353",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -26263,11 +26263,11 @@
       "edited": false
     },
     "Zcash_Tech/zk_SNARKS.md": {
-      "src": "sha256:6a56396da6f49e9562847aad2b431d493e02c3052f24c95c7ee0b6a6be83b6b2",
+      "src": "sha256:b28ef9ac4521351bcbd8cf226ac8b895548ec040eb8b435522bf5b84b048b76a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -26607,11 +26607,11 @@
       "edited": false
     },
     "guides/Zero-Knowledge_vs_Decoys.md": {
-      "src": "sha256:8a82c309da76198ae7a3d009bbdca5a9fe376ca15643d721fff07e137e4fb081",
+      "src": "sha256:07328e12f67501155ececc53103c95c332c697ec409931c677f2c7c733c0111a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -27753,11 +27753,11 @@
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
-      "src": "sha256:a584f4f434a97353d6f7177abada1b42b73d2c33626c2b53221a55969fe586ff",
+      "src": "sha256:fe3e9c8682f552f557cdb29afcbae22cee9583788e49bddfb53812d7ef968f45",
       "src_commit": "3a7237b8e9f1049fbf2f1ef7572c2490789aec5d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+deadlink-repair",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -27937,11 +27937,11 @@
       "edited": false
     },
     "Zcash_Tech/zk_SNARKS.md": {
-      "src": "sha256:6a56396da6f49e9562847aad2b431d493e02c3052f24c95c7ee0b6a6be83b6b2",
+      "src": "sha256:b28ef9ac4521351bcbd8cf226ac8b895548ec040eb8b435522bf5b84b048b76a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -28281,11 +28281,11 @@
       "edited": false
     },
     "guides/Zero-Knowledge_vs_Decoys.md": {
-      "src": "sha256:8a82c309da76198ae7a3d009bbdca5a9fe376ca15643d721fff07e137e4fb081",
+      "src": "sha256:07328e12f67501155ececc53103c95c332c697ec409931c677f2c7c733c0111a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "nllb",
       "mode": "seed",
-      "tool": "nllb-200-3.3B+linkrepair",
+      "tool": "nllb-200-3.3B+linkrepair+deadlink-repair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
@@ -29427,11 +29427,11 @@
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
-      "src": "sha256:a584f4f434a97353d6f7177abada1b42b73d2c33626c2b53221a55969fe586ff",
+      "src": "sha256:fe3e9c8682f552f557cdb29afcbae22cee9583788e49bddfb53812d7ef968f45",
       "src_commit": "30f859d7149e29bb448ebebf2979f667666b472a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -29611,11 +29611,11 @@
       "edited": false
     },
     "Zcash_Tech/zk_SNARKS.md": {
-      "src": "sha256:6a56396da6f49e9562847aad2b431d493e02c3052f24c95c7ee0b6a6be83b6b2",
+      "src": "sha256:b28ef9ac4521351bcbd8cf226ac8b895548ec040eb8b435522bf5b84b048b76a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -29955,11 +29955,11 @@
       "edited": false
     },
     "guides/Zero-Knowledge_vs_Decoys.md": {
-      "src": "sha256:8a82c309da76198ae7a3d009bbdca5a9fe376ca15643d721fff07e137e4fb081",
+      "src": "sha256:07328e12f67501155ececc53103c95c332c697ec409931c677f2c7c733c0111a",
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4",
+      "tool": "gpt-5.4+deadlink-repair",
       "edited": false
     },
     "guides/Zgo_Payment_Processor.md": {
