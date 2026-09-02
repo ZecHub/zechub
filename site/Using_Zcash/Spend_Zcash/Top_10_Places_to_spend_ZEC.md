@@ -37,7 +37,7 @@ Particularly, in Venezuela, there are a bunch of places (physical places and onl
 
 1.  **Sheila Vargas**  | Foodie | Blogger | Entrepreneur | Mentorship 
 
-[@SheEmprende_ on Social Media](https://www.sheemprende.com/enlaces-sheemprende/). She jumped into the stage thanks to her famous (and delicious) **[Galletas de la FeliZidad](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
+[@SheEmprende_ on Social Media](https://twitter.com/SheEmprende_). She jumped into the stage thanks to her famous (and delicious) **[Galletas de la FeliZidad](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
 
 Besides her cookies, she offers other services and the best of all is this: you can pay with ZEC!
 
@@ -61,7 +61,7 @@ So, if you are a cookie monster..,
 
 now you know where to spend your ZEC!
 
-**Website**: [Sheemprende.com](http://Sheemprende.com) 
+**Website**: sheemprende.com has been retired and no longer resolves. Reach her on [Free2z](https://free2z.cash/SheEmprende) | [X Platform](https://twitter.com/SheEmprende_)
 
 **Zcash Unified Address:** 
 
@@ -85,7 +85,7 @@ Rosa smiles proudly showing that she accepts **Zcash.**
 
 ![Screenshot_20230829-232755.png](/content-images/_unavailable.svg)
 
-**Website**: [https://somosdulceros.com/](https://somosdulceros.com/) 
+**Website**: somosdulceros.com has been retired and no longer resolves. Use the social links below.
 
 **Social media:** [Instagram](https://www.instagram.com/somos_dulceros) | [X Platform](https://twitter.com/RosaMRangel) | [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
@@ -310,6 +310,54 @@ u10jd0tcj24p9rcju047lymtp9nx38h90j09rnr4ru6e8476822saywgn6phe373q78myrf2ew2j6kst
 
 ---
 
+**[Online | Global | Digital goods, marketplaces & VPNs]**
+
+Everything above is a person or a small business you can reach in Venezuela. These four are online, open to anyone with a wallet and a connection, and settle in ZEC directly.
+
+1. **ZecBuy** | Digital goods | eSIM data | VPN access
+
+ZecBuy sells private digital goods for ZEC: eSIM data plans for travel and Mullvad VPN accounts. There is no sign-up and no email address to hand over. You pick the product, pay in ZEC, and get the code.
+
+**Website**: [zecbuy.com](https://zecbuy.com/)
+
+🌐 Online | Worldwide
+
+---
+
+1. **ZEC Market** | Peer-to-peer marketplace
+
+A non-custodial marketplace where buyers and sellers deal with each other directly. Prices are shown in dollars and settled wallet to wallet in Zcash, shielded by default. The platform charges no fee and never holds anyone's funds, which makes it the place to look when what you want to buy is not on a list like this one.
+
+**Website**: [zecmarket.org](https://zecmarket.org/)
+
+More ecosystem projects like it: [Community Projects](/zcash-community/community-projects)
+
+🌐 Online | Worldwide
+
+---
+
+1. **NymVPN** | Decentralized VPN and mixnet
+
+NymVPN routes traffic through a decentralized network of nodes, with a mixnet mode that adds cover traffic so packet timing and size stop working as a fingerprint. Signing up asks for no personal information, and payment is accepted in privacy coins including Zcash, so paying for the service does not undo the privacy of using it.
+
+**Website**: [nym.com](https://nym.com/)
+
+Background reading: [VPNs and dVPNs](/privacy-tools/vpn-and-dvpn)
+
+🌐 Online | Worldwide
+
+---
+
+1. **Meile dVPN** | Decentralized VPN on the Sentinel network
+
+Meile is a dVPN client from the MathNodes team that runs on the Sentinel network, where the nodes are operated by community members rather than by a single company. Subscription plans are paid inside the app, and shielded ZEC payments are handled through BTCPay. Builds are available for Windows, macOS and Linux alongside the mobile client.
+
+**Website**: [Meile dVPN on MathNodes](https://mathnodes.com/index.php/meile-dvpn-client-linux-os-x/) (meile.app redirects here)
+
+🌐 Online | Worldwide
+
+---
+
 **[Fast food | Italian**]
 
 Bonus : **Allegrini Ristorante** 🇪🇸 | Pizza Place | Italian food | **Accepting Zcash soon.** 
@@ -318,7 +366,7 @@ Delivery service | Take away | Reservations
 
 ![BackgroundEraser_20230901_114615839.png](/content-images/_unavailable.svg)
 
-**Website**: [www.alleginiristorante.com](http://www.alleginiristorante.com) (in construction)
+**Website**: none. The announced site at alleginiristorante.com was never completed and the domain no longer resolves. Use the social links below.
 
 **Social media** 
 
