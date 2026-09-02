@@ -74,5 +74,5 @@ Zcash ni wiwa agbaye ti nṣiṣe lọwọ lori X. Awọn iroyin pataki lati t�
 - [Ìkànnì Ìjọ Zcash](https://www.zcashcommunity.com/)
 - [ZecHub Wiki](https://zechub.wiki)
 - [Ilé Ìpèsè Zcash](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
-- [Àwọn Aṣojú Àgbáyé Zcash](https://zcashambassadors.com)
+- [Àwọn Aṣojú Àgbáyé Zcash](https://zechub.wiki/zcash-community/zcash-global-ambassadors)
 - [ZecHub DAO on Dework](https://app.dework.xyz/zechub-2424)

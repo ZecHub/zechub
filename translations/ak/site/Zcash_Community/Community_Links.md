@@ -74,5 +74,5 @@ Zcash wɔ wiase nyinaa a ɛyɛ nnam wɔ X. Akontaabu atitiriw a ɛsɛ sɛ wudi a
 - [Zcash Mpɔtam Hɔ Wɛbsaet](https://www.zcashcommunity.com/)
 - [ZecHub Wiki a ɛwɔ hɔ](https://zechub.wiki)
 - [Zcash Mmoa a Wɔde Ma Hub](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
-- [Zcash Wiase Nyinaa Aban Nnanmusini](https://zcashambassadors.com)
+- [Zcash Wiase Nyinaa Aban Nnanmusini](https://zechub.wiki/zcash-community/zcash-global-ambassadors)
 - [ZecHub DAO wɔ Dework so](https://app.dework.xyz/zechub-2424)

@@ -15,7 +15,7 @@ Yɛahu sɛ nnwuma pii ahyɛ bɔ dodo na wɔmfa wɔn NFT akwan ho nhyehyɛe no mm
 
 ## Aban a wɔde di dwuma
 
-[Mfonini a wɔatwa no tiaa](https://vote.cypherpunkzero.com/)
+[Mfonini a wɔatwa no tiaa](https://snapshot.box/#/s:cypherpunkzerodao.eth)
 
 [Guild a wɔde wɔn ho hyɛ mu](https://guild.xyz/cypherpunkzerodao)
 

@@ -33,5 +33,5 @@ Electric Coin Company ve Zcash Foundation, aşağıdaki sapmayla birlikte bu Sor
 
 - [Zcash Güvenlik Danışmaları](https://github.com/zcash/zcash/security/advisories)
 - [Zebra Güvenlik Danışmaları](https://github.com/ZcashFoundation/zebra/security/advisories)
-- [ECC'ye Güvenlik Açığı Bildirin](https://electriccoin.co/blog/disclosure-of-a-major-bug-in-cryptonote-based-currencies/)
+- [ECC'ye Güvenlik Açığı Bildirin](https://github.com/zcash/zcash/security/policy)
 - [ZF'ye Güvenlik Açığı Bildirin](https://zfnd.org/contact/)

@@ -10,25 +10,27 @@ E nwere ọtụtụ ihe ndị na-enyere ndị ọrụ aka ịghọta Zcash.
 
 Zcash Media bụ ụlọ ọrụ nọọrọ onwe ha nke na-eme akwụkwọ akụkọ agụmakwụkwọ gbasara Zcash. Vidio mbụ ha, "E wuru iji dozie ntụpọ dị egwu nke Bitcoin, Gịnị bụ Zcash (ZEC)?", bụ nnukwu mmeghe na Zcash .
 
-**[Twitter](twitter.com)**
+**[Twitter](https://x.com)**
 
 Twitter bụ de facto nkwurịta okwu maka Zcash obodo, na wider cryptocurrency ohere dị ka nke ọma. Ọ bụ ebe dị mma iji nweta a usu ego na ihe niile Zcash, na-eso ama obodo òtù.](https://www.notion.so/zechub/Social-Media-Links-05b9df645af54de7a1989d9c4ccc4d05) nke na-edepụta ihe ndekọ kachasị elu ị ga-eso.
 
-**[Zcash Community](zcashcommunity.com)**
+**[Zcash Community](https://www.zcashcommunity.com/)**
 
 Zcash Community is a community run site that highlights community run projects supporting the Zcash ecosystem. It's a great way to get introduced to the Zcash community and its various applications as a currency.
 
-**[Zcash Forum](forum.zcashcommunity.com)**
+**[Zcash Forum](https://forum.zcashcommunity.com/)**
 
 Dịka e kwuru na ntuziaka onye ọrụ ọhụrụ, nzukọ Zcash bụ ebe dị mma iji nwee mkparịta ụka ogologo oge gbasara isiokwu Zcash yana echiche ndị a tụrụ aro.
 
-**[Z. ego nkịtị](z.cash)**
+**[Z. ego nkịtị](https://z.cash/)**
 
 Z.cash bụ ebe nrụọrụ weebụ Zcash. Ọ na-enye ọdịnaya na akwụkwọ nke Zcash maka ọtụtụ ndị ọrụ ma na-ekwe ka ndị ọrụ ọhụrụ banye n'ime omimi nkọwa nkọwa gbasara Zcash .
 
 **[Zcash Github](https://github.com/zcash/zcash)**
 
-Nweta koodu chops na chọrọ amaba miri n'ime oru n'akụkụ nke Zcash? The Zcash Github Repo bụ repository maka [zcashd](https://electriccoin.co/zcashd/), mmejuputa nke mbụ nke Zcash node.
+Nweta koodu chops na chọrọ amaba miri n'ime oru n'akụkụ nke Zcash? The Zcash Github Repo bụ repository maka [zcashd](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet), mmejuputa nke mbụ nke Zcash node.
+
+> zcashd → Zebra + Zallet — https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet
 
 **[Zcash Foundation Github](https://github.com/ZcashFoundation)**
 

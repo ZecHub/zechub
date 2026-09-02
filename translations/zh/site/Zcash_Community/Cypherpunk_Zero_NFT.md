@@ -15,7 +15,7 @@ Cypherpunk Zero 是一个以 Zero 为核心的故事系列。Zero 是一位年�
 
 ## 治理
 
-[Snapshot](https://vote.cypherpunkzero.com/)
+[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth)
 
 [Guild](https://guild.xyz/cypherpunkzerodao)
 

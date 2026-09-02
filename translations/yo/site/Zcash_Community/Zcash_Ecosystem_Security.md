@@ -33,5 +33,5 @@ The Electric Coin Company ati Zcash Foundation mejeeji ni ibamu pẹlu Ifihan Id
 
 - [Ìmọ̀ràn Ààbò Zcash](https://github.com/zcash/zcash/security/advisories)
 - [Ìmọ̀ràn Ìdáàbòbò Zebra](https://github.com/ZcashFoundation/zebra/security/advisories)
-- [Ṣàlàyé Àìlera fún ECC](https://electriccoin.co/blog/disclosure-of-a-major-bug-in-cryptonote-based-currencies/)
+- [Ṣàlàyé Àìlera fún ECC](https://github.com/zcash/zcash/security/policy)
 - [Ṣàkíyèsí Àìlera sí ZF](https://zfnd.org/contact/)

@@ -15,7 +15,7 @@ Míekpɔ dɔ geɖe akpa siwo do ŋugbe wògbɔ eme eye womewɔa woƒe NFT mɔfia
 
 ## Dziɖuɖu
 
-[Foto si woɖe le ɣeyiɣi kpui aɖe me](https://vote.cypherpunkzero.com/)
+[Foto si woɖe le ɣeyiɣi kpui aɖe me](https://snapshot.box/#/s:cypherpunkzerodao.eth)
 
 [Guild ƒe habɔbɔ](https://guild.xyz/cypherpunkzerodao)
 

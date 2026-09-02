@@ -74,5 +74,5 @@ Zcash le xexeame katã ƒe anyinɔnɔ vevie le X. Akɔntabubu vevi siwo akplɔe 
 - [Zcash Habɔbɔ ƒe Nyatakakadzraɖoƒe](https://www.zcashcommunity.com/)
 - [ZecHub ƒe Wiki](https://zechub.wiki)
 - [Zcash ƒe Gakpekpeɖeŋunana Dɔwɔƒe](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
-- [Zcash Xexeame Katã ƒe Dutanyanyuigblɔlawo](https://zcashambassadors.com)
+- [Zcash Xexeame Katã ƒe Dutanyanyuigblɔlawo](https://zechub.wiki/zcash-community/zcash-global-ambassadors)
 - [ZecHub DAO le Dework dzi](https://app.dework.xyz/zechub-2424)

@@ -10,25 +10,27 @@
 
 إعلام Zcash هي منظمة مستقلة تُنتج أفلامًا وثائقية تعليمية عن Zcash. ويُعد أول فيديو لهم، "Built to Fix Bitcoin's Fatal Flaw, What is Zcash (ZEC)?"، مقدمة رائعة إلى Zcash.
 
-**[تويتر](twitter.com)**
+**[تويتر](https://x.com)**
 
 يُعد تويتر مركز التواصل الفعلي لمجتمع Zcash، وكذلك لمجال العملات المشفرة الأوسع. وهو مكان ممتاز لأخذ فكرة سريعة عن كل ما يتعلق بـ Zcash، وكذلك لمتابعة أبرز أعضاء المجتمع. إليك [وثيقة](https://www.notion.so/zechub/Social-Media-Links-05b9df645af54de7a1989d9c4ccc4d05) تسرد أهم الحسابات التي يُنصح بمتابعتها.
 
-**[مجتمع Zcash](zcashcommunity.com)**
+**[مجتمع Zcash](https://www.zcashcommunity.com/)**
 
 مجتمع Zcash هو موقع يديره المجتمع ويسلط الضوء على المشاريع التي يديرها المجتمع لدعم منظومة Zcash. وهو وسيلة رائعة للتعرّف إلى مجتمع Zcash وتطبيقاته المختلفة كعملة.
 
-**[منتدى Zcash](forum.zcashcommunity.com)**
+**[منتدى Zcash](https://forum.zcashcommunity.com/)**
 
 كما ذُكر في دليل المستخدم الجديد، يُعد منتدى Zcash مكانًا رائعًا لإجراء مناقشات مطولة حول موضوعات Zcash وكذلك الأفكار المقترحة. وتصل المقترحات دائمًا إلى المنتدى حتى تتاح للمجتمع فرصة مناقشتها وتبادل الآراء بشأنها.
 
-**[Z.cash](z.cash)**
+**[Z.cash](https://z.cash/)**
 
 يُعد Z.cash الموقع الرئيسي لـ Zcash. فهو يوفّر محتوى ووثائق عن Zcash لشريحة واسعة من المستخدمين، ويتيح للمستخدمين الجدد التعمق أكثر في الشروحات التقنية المتعلقة بـ Zcash.
 
 **[GitHub الخاص بـ Zcash](https://github.com/zcash/zcash)**
 
-هل لديك مهارات برمجية وترغب في التعمق أكثر في الجانب التقني من Zcash؟ مستودع GitHub الخاص بـ Zcash هو المستودع الخاص بـ [zcashd](https://electriccoin.co/zcashd/)، وهو أول تطبيق لعقدة Zcash.
+هل لديك مهارات برمجية وترغب في التعمق أكثر في الجانب التقني من Zcash؟ مستودع GitHub الخاص بـ Zcash هو المستودع الخاص بـ [zcashd](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet)، وهو أول تطبيق لعقدة Zcash.
+
+> zcashd → Zebra + Zallet — https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet
 
 **[GitHub الخاص بـ Zcash Foundation](https://github.com/ZcashFoundation)**
 

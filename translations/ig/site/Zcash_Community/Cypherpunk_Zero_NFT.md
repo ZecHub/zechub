@@ -15,7 +15,7 @@ We have seen too many projects over-promise and under deliver on their NFT roadm
 
 ## Ọchịchị
 
-[Ihe osise](https://vote.cypherpunkzero.com/)
+[Ihe osise](https://snapshot.box/#/s:cypherpunkzerodao.eth)
 
 [Ụlọ ọrụ](https://guild.xyz/cypherpunkzerodao)
 

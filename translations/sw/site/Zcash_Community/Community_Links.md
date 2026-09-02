@@ -74,5 +74,5 @@ Akaunti maelezo
 - [Zcash Jumuiya ya Tovuti](https://www.zcashcommunity.com/)
 - [ZecHub Wiki](https://zechub.wiki)
 - [Zcash misaada Hub](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
-- [Zcash Global Balozi](https://zcashambassadors.com)
+- [Zcash Global Balozi](https://zechub.wiki/zcash-community/zcash-global-ambassadors)
 - [ZecHub DAO juu ya Dework](https://app.dework.xyz/zechub-2424)

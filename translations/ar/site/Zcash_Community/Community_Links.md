@@ -74,5 +74,5 @@
 - [موقع مجتمع Zcash](https://www.zcashcommunity.com/)
 - [ويكي ZecHub](https://zechub.wiki)
 - [مركز منح Zcash](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
-- [سفراء Zcash العالميون](https://zcashambassadors.com)
+- [سفراء Zcash العالميون](https://zechub.wiki/zcash-community/zcash-global-ambassadors)
 - [ZecHub DAO على Dework](https://app.dework.xyz/zechub-2424)

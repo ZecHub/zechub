@@ -74,5 +74,5 @@ Zcash, X üzerinde aktif bir küresel varlığa sahiptir. Takip edilebilecek ön
 - [Zcash Topluluk Web Sitesi](https://www.zcashcommunity.com/)
 - [ZecHub Wiki](https://zechub.wiki)
 - [Zcash Hibeler Merkezi](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
-- [Zcash Global Ambassadors](https://zcashambassadors.com)
+- [Zcash Global Ambassadors](https://zechub.wiki/zcash-community/zcash-global-ambassadors)
 - [Dework üzerinde ZecHub DAO](https://app.dework.xyz/zechub-2424)

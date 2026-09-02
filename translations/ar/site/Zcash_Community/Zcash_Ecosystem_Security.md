@@ -33,5 +33,5 @@
 
 - [تنبيهات Zcash الأمنية](https://github.com/zcash/zcash/security/advisories)
 - [تنبيهات Zebra الأمنية](https://github.com/ZcashFoundation/zebra/security/advisories)
-- [الإبلاغ عن ثغرة إلى ECC](https://electriccoin.co/blog/disclosure-of-a-major-bug-in-cryptonote-based-currencies/)
+- [الإبلاغ عن ثغرة إلى ECC](https://github.com/zcash/zcash/security/policy)
 - [الإبلاغ عن ثغرة إلى ZF](https://zfnd.org/contact/)

@@ -15,7 +15,7 @@ Vimos projetos demais prometerem em excesso e entregarem aquém em seus roadmaps
 
 ## Governança
 
-[Snapshot](https://vote.cypherpunkzero.com/)
+[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth)
 
 [Guild](https://guild.xyz/cypherpunkzerodao)
 

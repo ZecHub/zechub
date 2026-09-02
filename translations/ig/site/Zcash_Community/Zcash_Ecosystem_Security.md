@@ -33,5 +33,5 @@ The Electric Coin Company and Zcash Foundation both conform to this Responsible 
 
 - [Zcash Nchebe Ndụmọdụ](https://github.com/zcash/zcash/security/advisories)
 - [Atụmatụ Nchebe Zebra](https://github.com/ZcashFoundation/zebra/security/advisories)
-- [Kọọrọ ECC ihe ngwangwa](https://electriccoin.co/blog/disclosure-of-a-major-bug-in-cryptonote-based-currencies/)
+- [Kọọrọ ECC ihe ngwangwa](https://github.com/zcash/zcash/security/policy)
 - [Kọọrọ ZF banyere nsogbu](https://zfnd.org/contact/)
