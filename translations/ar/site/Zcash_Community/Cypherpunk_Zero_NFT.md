@@ -15,7 +15,7 @@ Cypherpunk Zero هي سلسلة قصصية تتمحور حول Zero، وهي ه�
 
 ## الحوكمة
 
-[Snapshot](https://vote.cypherpunkzero.com/)
+[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth)
 
 [Guild](https://guild.xyz/cypherpunkzerodao)
 

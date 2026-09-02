@@ -15,7 +15,7 @@ Cypherpunk Zero는 젤로라는 젊은 사이퍼펑크 해커이자 자유 전�
 
 ## 거버넌스
 
-[Snapshot](https://vote.cypherpunkzero.com/)
+[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth)
 
 [Guild](https://guild.xyz/cypherpunkzerodao)
 

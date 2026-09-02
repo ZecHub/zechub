@@ -15,7 +15,7 @@ We have seen too many projects over-promise and under deliver on their NFT roadm
 
 ## Utawala
 
-[Snapshot](https://vote.cypherpunkzero.com/)
+[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth)
 
 [Kikundi](https://guild.xyz/cypherpunkzerodao)
 

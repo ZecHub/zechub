@@ -33,5 +33,5 @@ Electric Coin Company ne Zcash Foundation nyinaa ne saa Asɛdeɛ a Wɔda no Adi 
 
 - [Zcash Ahobammɔ Ho Afotu](https://github.com/zcash/zcash/security/advisories)
 - [Zebra Ahobammɔ Ho Afotu](https://github.com/ZcashFoundation/zebra/security/advisories)
-- [Bɔ amanneɛ sɛ ɛyɛ mmerɛw sɛ ECC](https://electriccoin.co/blog/disclosure-of-a-major-bug-in-cryptonote-based-currencies/)
+- [Bɔ amanneɛ sɛ ɛyɛ mmerɛw sɛ ECC](https://github.com/zcash/zcash/security/policy)
 - [Bɔ amanneɛ sɛ Vulnerability bi wɔ ZF so](https://zfnd.org/contact/)

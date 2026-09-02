@@ -10,25 +10,27 @@ Es gibt eine Reihe von Ressourcen, die Nutzerinnen und Nutzern helfen, Zcash zu 
 
 Zcash Media ist eine unabhängige Organisation, die lehrreiche Dokumentationen über Zcash erstellt. Ihr erstes Video, "Built to Fix Bitcoin's Fatal Flaw, What is Zcash (ZEC)?", ist eine großartige Einführung in Zcash.
 
-**[Twitter](twitter.com)**
+**[Twitter](https://x.com)**
 
 Twitter ist der de-facto-Kommunikationsknotenpunkt für die Zcash-Community und den breiteren Kryptowährungsbereich insgesamt. Es ist ein großartiger Ort, um ein Stimmungsbild zu allem rund um Zcash zu bekommen und außerdem prominenten Community-Mitgliedern zu folgen. Hier ist ein [Dokument](https://www.notion.so/zechub/Social-Media-Links-05b9df645af54de7a1989d9c4ccc4d05), das die wichtigsten Accounts auflistet, denen man folgen sollte.
 
-**[Zcash Community](zcashcommunity.com)**
+**[Zcash Community](https://www.zcashcommunity.com/)**
 
 Zcash Community ist eine von der Community betriebene Website, die von der Community geführte Projekte hervorhebt, welche das Zcash-Ökosystem unterstützen. Sie ist eine großartige Möglichkeit, die Zcash-Community und ihre verschiedenen Anwendungen als Währung kennenzulernen.
 
-**[Das Zcash-Forum](forum.zcashcommunity.com)**
+**[Das Zcash-Forum](https://forum.zcashcommunity.com/)**
 
 Wie im Leitfaden für neue Nutzer bereits erwähnt, ist das Zcash-Forum ein großartiger Ort, um ausführliche Diskussionen über Zcash-Themen sowie über vorgeschlagene Ideen zu führen. Vorschläge landen immer im Forum, damit die Community die Möglichkeit hat, die vorgeschlagenen Ideen zu diskutieren und zu debattieren.
 
-**[Z.cash](z.cash)**
+**[Z.cash](https://z.cash/)**
 
 Z.cash ist die Hauptwebsite von Zcash. Sie bietet Inhalte und Dokumentation zu Zcash für eine breite Nutzerbasis und ermöglicht neuen Nutzerinnen und Nutzern, tiefer in die technischen Erklärungen rund um Zcash einzutauchen.
 
 **[Zcash-Github](https://github.com/zcash/zcash)**
 
-Du kannst programmieren und möchtest tiefer in die technische Seite von Zcash eintauchen? Das Zcash-Github-Repo ist das Repository für [zcashd](https://electriccoin.co/zcashd/), die erste Zcash-Node-Implementierung.
+Du kannst programmieren und möchtest tiefer in die technische Seite von Zcash eintauchen? Das Zcash-Github-Repo ist das Repository für [zcashd](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet), die erste Zcash-Node-Implementierung.
+
+> zcashd → Zebra + Zallet — https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet
 
 **[Zcash Foundation Github](https://github.com/ZcashFoundation)**
 

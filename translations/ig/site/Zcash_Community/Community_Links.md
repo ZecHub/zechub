@@ -74,5 +74,5 @@ Zcash nwere ọnụnọ zuru ụwa ọnụ na X. Ihe ndekọ isi iji soro:
 - [Zcash Community Web Site](https://www.zcashcommunity.com/)
 - [ZecHub Wiki](https://zechub.wiki)
 - [Zcash Enyemaka Hub](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
-- [Zcash Global Ambassadors](https://zcashambassadors.com)
+- [Zcash Global Ambassadors](https://zechub.wiki/zcash-community/zcash-global-ambassadors)
 - [ZecHub DAO na Dework](https://app.dework.xyz/zechub-2424)

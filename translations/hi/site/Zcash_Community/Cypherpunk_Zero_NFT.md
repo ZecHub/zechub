@@ -15,7 +15,7 @@ Cypherpunk Zero एक कहानी-वाचन श्रृंखला ह
 
 ## Governance
 
-[Snapshot](https://vote.cypherpunkzero.com/)
+[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth)
 
 [Guild](https://guild.xyz/cypherpunkzerodao)
 
