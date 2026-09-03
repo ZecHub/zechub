@@ -139,6 +139,14 @@ A watch-only desktop wallet designed for individuals and organizations that need
 
 [Visit](https://github.com/auzum197/pendrake-watch)
 
+### Konclave
+
+![Konclave Logo](https://raw.githubusercontent.com/gorgagian123/Exchanges-Logo/refs/heads/main/Konclave%20A%20group%20vault%20on%20Zcash%20%20FROST.png)
+
+A GUI-based web platform for creating and managing FROST threshold vaults on the Zcash network. Konclave enables organizations, communities, and collectives to manage shared funds privately without relying on a single party that holds full control.
+
+[Visit](https://www.konclave.xyz/)
+
 ---
 
 ## Explorers, Data, and Network Dashboards
