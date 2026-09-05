@@ -302,6 +302,13 @@ async function main() {
   }
   const allowed = (url) => allowlist.some((p) => url.includes(p));
 
+  // Guard: fail immediately if --root does not exist
+  if (!existsSync(ROOT)) {
+    console.error(`Error: content root does not exist: ${ROOT}`);
+    console.error("Create the directory or use --root to point at a valid content root.");
+    process.exit(1);
+  }
+
   const mdFiles = await walk(ROOT);
   const appRoutes = await loadAppRoutes(OFFLINE);
 
