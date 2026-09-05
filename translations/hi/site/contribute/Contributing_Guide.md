@@ -34,7 +34,7 @@ ZecHub सामुदायिक योगदान को प्रबंध�
 
 ### शैली मार्गदर्शिकाएँ
 
-ZecHub में कोई भी योगदान [ZecHub style guides](https://github.com/ZecHub/zechub/blob/main/styles/guide.md) का पालन करना चाहिए। इसमें wiki, docs और social media सामग्री शामिल हैं।
+ZecHub में कोई भी योगदान [ZecHub style guides](https://zechub.wiki/contribute/style-guide) का पालन करना चाहिए। इसमें wiki, docs और social media सामग्री शामिल हैं।
 
 ### आप किन-किन तरीकों से योगदान कर सकते हैं
 
@@ -76,7 +76,7 @@ Zcash apps पर tutorials बनाइए और साझा कीजिए 
 - Privacy Ecosystem & Tools
 ```
 
-ये काफी व्यापक क्षेत्र हैं, इसलिए काम करने के लिए बहुत कुछ है। यदि आपको कुछ प्रेरणा चाहिए, तो हमारी वर्तमान [wiki-docs site](https://zechub.wiki/) देखें और देखें कि क्या कमी है। जब आप तय कर लें कि आप क्या लिखना चाहते हैं, तो अपने बदलाव करना शुरू करें और सीखें कि ZecHub repo में PR कैसे submit करना है। हमारे सभी docs इसी repo में बनाए और संधारित किए जाते हैं। [docs template](https://github.com/ZecHub/zechub/blob/main/template.md) का उपयोग करें और wiki page लिखते समय [ZecHub style](https://zechub.wiki/contribute/style-guide) का पालन करें। PR submit करने के बाद, कृपया discord के #zechub section में @dismad, @squirrel, या @vito को संदेश भेजें, और वे आपके PR की समीक्षा करेंगे तथा यदि वह site में जोड़ने के लिए तैयार होगा तो उसे merge करेंगे। यदि merge हो जाता है, तो वे doc को ZecHub website में जोड़ देंगे। यदि doc तैयार नहीं है, तो वे PR में आपके लिए edits सुझाएँगे।
+ये काफी व्यापक क्षेत्र हैं, इसलिए काम करने के लिए बहुत कुछ है। यदि आपको कुछ प्रेरणा चाहिए, तो हमारी वर्तमान [wiki-docs site](https://zechub.wiki/) देखें और देखें कि क्या कमी है। जब आप तय कर लें कि आप क्या लिखना चाहते हैं, तो अपने बदलाव करना शुरू करें और सीखें कि ZecHub repo में PR कैसे submit करना है। हमारे सभी docs इसी repo में बनाए और संधारित किए जाते हैं। docs template का उपयोग करें और wiki page लिखते समय [ZecHub style](https://zechub.wiki/contribute/style-guide) का पालन करें। PR submit करने के बाद, कृपया discord के #zechub section में @dismad, @squirrel, या @vito को संदेश भेजें, और वे आपके PR की समीक्षा करेंगे तथा यदि वह site में जोड़ने के लिए तैयार होगा तो उसे merge करेंगे। यदि merge हो जाता है, तो वे doc को ZecHub website में जोड़ देंगे। यदि doc तैयार नहीं है, तो वे PR में आपके लिए edits सुझाएँगे।
 
 #### ZecHub Wiki - docs में प्रत्येक स्वीकृत edit के लिए 0.015 ZEC
 

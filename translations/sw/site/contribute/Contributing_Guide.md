@@ -34,7 +34,7 @@ Kwanza, kujiunga na majadiliano katika yetu [viungo jamii](https://zechub.wiki/z
 
 ### Miongozo ya Mtindo
 
-Yoyote mchango kwa ZecHub lazima kufuata [ZecHub style miongozo](https://github.com/ZecHub/zechub/blob/main/styles/guide.md)Hii inajumuisha wikis, docs na maudhui ya media ya kijamii.
+Yoyote mchango kwa ZecHub lazima kufuata [ZecHub style miongozo](https://zechub.wiki/contribute/style-guide)Hii inajumuisha wikis, docs na maudhui ya media ya kijamii.
 
 ### Njia unazoweza kuchangia
 
@@ -76,7 +76,7 @@ Tovuti yetu ya wiki hutoa vifaa vya elimu Zcash katika muundo rahisi na digestib
 - Privacy Ecosystem & Tools
 ```
 
-Hizi ni maeneo pretty pana, hivyo kuna mengi ya kazi kutoka. Kama unataka baadhi ya msukumo, kuangalia nje ya sasa [wiki-docs tovuti](https://zechub.wiki/) na kuona nini ni kukosa. Mara baada ya kuamua nini unataka kuandika, kuanza kufanya mabadiliko yako na kujifunza jinsi ya kuwasilisha PR kwa ZecHub repo. docs yetu yote ni kuundwa na kudumishwa katika repo hii. Tumia [docs template](https://github.com/ZecHub/zechub/blob/main/template.md) na kufuata [ZecHub style](https://zechub.wiki/contribute/style-guide) Baada ya kuwasilisha PR, tafadhali ujumbe @dismad, @squirrel, au @vito katika #zechub sehemu ya kutoelewana, na wao kupitia PR yako na kuunganisha kama ni tayari kuongezwa kwenye tovuti. Kama kuunganishwa, wao kuongeza doc kwa tovuti ZecHub. Kama doc si tayari, wao kupendekeza mabadiliko kwa ajili yenu katika PR.
+Hizi ni maeneo pretty pana, hivyo kuna mengi ya kazi kutoka. Kama unataka baadhi ya msukumo, kuangalia nje ya sasa [wiki-docs tovuti](https://zechub.wiki/) na kuona nini ni kukosa. Mara baada ya kuamua nini unataka kuandika, kuanza kufanya mabadiliko yako na kujifunza jinsi ya kuwasilisha PR kwa ZecHub repo. docs yetu yote ni kuundwa na kudumishwa katika repo hii. Tumia docs template na kufuata [ZecHub style](https://zechub.wiki/contribute/style-guide) Baada ya kuwasilisha PR, tafadhali ujumbe @dismad, @squirrel, au @vito katika #zechub sehemu ya kutoelewana, na wao kupitia PR yako na kuunganisha kama ni tayari kuongezwa kwenye tovuti. Kama kuunganishwa, wao kuongeza doc kwa tovuti ZecHub. Kama doc si tayari, wao kupendekeza mabadiliko kwa ajili yenu katika PR.
 
 #### ZecHub Wiki - 0.015 ZEC per accepted edit to docs
 

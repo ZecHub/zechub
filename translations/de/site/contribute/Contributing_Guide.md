@@ -34,7 +34,7 @@ Tritt zuerst über unsere [Community-Links](https://zechub.wiki/zcash-community/
 
 ### Stilrichtlinien
 
-Jeder Beitrag zu ZecHub sollte den [ZecHub-Stilrichtlinien](https://github.com/ZecHub/zechub/blob/main/styles/guide.md) folgen. Das gilt für Wikis, Dokumentationen und Inhalte für soziale Medien.
+Jeder Beitrag zu ZecHub sollte den [ZecHub-Stilrichtlinien](https://zechub.wiki/contribute/style-guide) folgen. Das gilt für Wikis, Dokumentationen und Inhalte für soziale Medien.
 
 ### Möglichkeiten, wie du beitragen kannst
 
@@ -76,7 +76,7 @@ Unsere Wiki-Seite stellt Bildungsinhalte zu Zcash in einem einfachen und leicht 
 - Privacy Ecosystem & Tools
 ```
 
-Das sind ziemlich breite Themenbereiche, daher gibt es viel, woran man arbeiten kann. Wenn du Inspiration suchst, schau dir unsere aktuelle [Wiki-Dokumentationsseite](https://zechub.wiki/) an und sieh nach, was noch fehlt. Sobald du entschieden hast, worüber du schreiben möchtest, beginne mit deinen Änderungen und lerne, wie du einen PR an das ZecHub-Repo einreichst. Alle unsere Dokumente werden in diesem Repo erstellt und gepflegt. Nutze die [Dokumentationsvorlage](https://github.com/ZecHub/zechub/blob/main/template.md) und befolge den [ZecHub-Stil](https://zechub.wiki/contribute/style-guide), wenn du eine Wiki-Seite schreibst. Nachdem du einen PR eingereicht hast, sende bitte eine Nachricht an @dismad, @squirrel oder @vito im Bereich #zechub auf Discord; sie werden deinen PR prüfen und mergen, wenn er bereit ist, zur Seite hinzugefügt zu werden. Wenn er gemergt wird, fügen sie das Dokument zur ZecHub-Website hinzu. Wenn das Dokument noch nicht bereit ist, schlagen sie dir im PR Änderungen vor.
+Das sind ziemlich breite Themenbereiche, daher gibt es viel, woran man arbeiten kann. Wenn du Inspiration suchst, schau dir unsere aktuelle [Wiki-Dokumentationsseite](https://zechub.wiki/) an und sieh nach, was noch fehlt. Sobald du entschieden hast, worüber du schreiben möchtest, beginne mit deinen Änderungen und lerne, wie du einen PR an das ZecHub-Repo einreichst. Alle unsere Dokumente werden in diesem Repo erstellt und gepflegt. Nutze die Dokumentationsvorlage und befolge den [ZecHub-Stil](https://zechub.wiki/contribute/style-guide), wenn du eine Wiki-Seite schreibst. Nachdem du einen PR eingereicht hast, sende bitte eine Nachricht an @dismad, @squirrel oder @vito im Bereich #zechub auf Discord; sie werden deinen PR prüfen und mergen, wenn er bereit ist, zur Seite hinzugefügt zu werden. Wenn er gemergt wird, fügen sie das Dokument zur ZecHub-Website hinzu. Wenn das Dokument noch nicht bereit ist, schlagen sie dir im PR Änderungen vor.
 
 #### ZecHub Wiki - 0.015 ZEC pro angenommener Bearbeitung der Dokumentation
 

@@ -34,7 +34,7 @@ ZecHub lo GitHub lati ṣakoso awọn ọrẹ agbegbe. Ti o ba jẹ tuntun si Gi
 
 ### Àwọn Atọ́nà Ọ̀nà
 
-Gbogbo ọrẹ si ZecHub yẹ ki o tẹle awọn [Awọn itọnisọna aṣa Zechub](https://github.com/ZecHub/zechub/blob/main/styles/guide.md)Eyi pẹlu awọn wikis, awọn iwe aṣẹ ati akoonu media media.
+Gbogbo ọrẹ si ZecHub yẹ ki o tẹle awọn [Awọn itọnisọna aṣa Zechub](https://zechub.wiki/contribute/style-guide)Eyi pẹlu awọn wikis, awọn iwe aṣẹ ati akoonu media media.
 
 ### Àwọn ọ̀nà tó o lè gbà ṣètìlẹyìn
 
@@ -76,7 +76,7 @@ Zcash jẹ imọ-ẹrọ ti o ni ilọsiwaju pupọ pẹlu agbegbe ti nṣiṣe 
 - Privacy Ecosystem & Tools
 ```
 
-Àwọn àgbègbè wọ̀nyí gbòòrò gan-an, nítorí náà ọ̀pọ̀lọpọ̀ nǹkan ló wà láti ṣiṣẹ́ lé lórí. Bí ẹ bá fẹ́ ìmísí, ẹ wo ojúlé wiki-docs wa](https://zechub.wiki/) and see what's missing. Once you determine what you want to write, start to make your changes and learn how to submit a PR to the ZecHub repo. All of our docs are created and maintained in this repo. Use the [docs template](https://github.com/ZecHub/zechub/blob/main/template.md) àti tẹ̀lé [àṣà ZecHub](https://zechub.wiki/contribute/style-guide) when writing a wiki page. After you submit a PR, please message @dismad, @squirrel, or @vito in the #zechub section of the discord, and they will review your PR and merge if it is ready to be added to the site. If merged, they will add the doc to the ZecHub website. If the doc is not ready, they will suggest edits for you in the PR.
+Àwọn àgbègbè wọ̀nyí gbòòrò gan-an, nítorí náà ọ̀pọ̀lọpọ̀ nǹkan ló wà láti ṣiṣẹ́ lé lórí. Bí ẹ bá fẹ́ ìmísí, ẹ wo ojúlé wiki-docs wa](https://zechub.wiki/) and see what's missing. Once you determine what you want to write, start to make your changes and learn how to submit a PR to the ZecHub repo. All of our docs are created and maintained in this repo. Use the docs template àti tẹ̀lé [àṣà ZecHub](https://zechub.wiki/contribute/style-guide) when writing a wiki page. After you submit a PR, please message @dismad, @squirrel, or @vito in the #zechub section of the discord, and they will review your PR and merge if it is ready to be added to the site. If merged, they will add the doc to the ZecHub website. If the doc is not ready, they will suggest edits for you in the PR.
 
 #### ZecHub Wiki - 0.015 ZEC fún àtúnṣe tí a gbà sí àwọn ìwé
 
