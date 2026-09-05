@@ -3,7 +3,7 @@
 </a>
 
 # <img src="/content-images/image-2024-02-03-164918723-f59419848a.webp" alt="Alt Text" width="50"/>    Electric Coin Company (Sunset)
-[Website](https://electriccoin.co) - [Github](https://github.com/zodl-inc) - [X/Twitter](https://x.com/ElectricCoinCo)
+[Website](https://zodl.com/) - [Github](https://github.com/zodl-inc) - [X/Twitter](https://x.com/ElectricCoinCo)
 
 > **About that GitHub link.** ECC's repositories are at `zodl-inc`. That is the same organization, renamed when the team moved to [ZODL](/zcash-organizations/zodl). The old `github.com/Electric-Coin-Company` name was registered by an unrelated party in May 2026 and has nothing to do with ECC or ZODL, so do not trust code published there.
 
@@ -21,19 +21,19 @@ It was designed to onboard friends and family into Zcash and private digital pay
 The wallet was renamed **Zodl** in February 2026 after the team moved to ZODL. Existing users did not have to do anything, as the app rebranded on its next update, which is why the store links above open Zodl. It is now maintained there rather than by ECC, so see the [ZODL page](/zcash-organizations/zodl) for current information.
 
 Integrations built during the ECC years:
-- [Coinbase:](https://electriccoin.co/blog/coinbase-zashi-1-2-release/) crypto newbies can buy ZEC directly within the wallet skipping the hassles of account registration, KYC, and withdrawing coins from exchanges.
+- [Coinbase:](https://web.archive.org/web/20260825/https://zodl.com//blog/coinbase-zashi-1-2-release/) crypto newbies can buy ZEC directly within the wallet skipping the hassles of account registration, KYC, and withdrawing coins from exchanges.
 
-- [Flexa:](https://electriccoin.co/blog/zashi-flexa-integration-is-here-spend-zec-at-thousands-of-retailers/) makes it simple to actually use ZEC, allowing new users to spend it at thousands of retail locations like Barnes & Noble, GameStop, and Chipotle.
+- [Flexa:](https://web.archive.org/web/20260825/https://zodl.com//blog/zashi-flexa-integration-is-here-spend-zec-at-thousands-of-retailers/) makes it simple to actually use ZEC, allowing new users to spend it at thousands of retail locations like Barnes & Noble, GameStop, and Chipotle.
 
-- [Keystone:](https://electriccoin.co/blog/drumroll-please-introducing-zashi-keystone-hardware-wallet-integration-for-shielded-zec/) a major breakthrough for the Zcash community that has been years in the making. This integration marks a significant evolution in Zcash usability by enabling cold storage of shielded ZEC.
+- [Keystone:](https://web.archive.org/web/20260825/https://zodl.com//blog/drumroll-please-introducing-zashi-keystone-hardware-wallet-integration-for-shielded-zec/) a major breakthrough for the Zcash community that has been years in the making. This integration marks a significant evolution in Zcash usability by enabling cold storage of shielded ZEC.
 
 ## Research and Development
 
-The team have led recognised breakthroughs on several occasions, the first being the [launch of Zcash](https://electriccoin.co/blog/zcash-begins/) as the worlds first commerical use of Zero-Knowledge Proofs.
+The team have led recognised breakthroughs on several occasions, the first being the [launch of Zcash](https://web.archive.org/web/20260825/https://zodl.com//blog/zcash-begins/) as the worlds first commerical use of Zero-Knowledge Proofs.
 
-Several more following such as the [Sapling network upgrade](https://electriccoin.co/blog/sapling-activation-complete/) allowing for lighter, shielded transactions with a time reduction of 90% for constructing transactions, and a memory reduction of over 97%, enabling for shielded transactions on a mobile device for the first time.
+Several more following such as the [Sapling network upgrade](https://web.archive.org/web/20260825/https://zodl.com//blog/sapling-activation-complete/) allowing for lighter, shielded transactions with a time reduction of 90% for constructing transactions, and a memory reduction of over 97%, enabling for shielded transactions on a mobile device for the first time.
 
-The most significant breakthrough being the most recent. [The creation and deployment](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/) of the halo2 trustless proving system in Network Upgrade 5 for Zcash. This eliminated the trusted setup and launched a new era for Zcash. Since 2022, this has been active on the Zcash Mainnet and allows users to leverage a more secure & easily upgradeable construction for their payment protocol. 
+The most significant breakthrough being the most recent. [The creation and deployment](https://web.archive.org/web/20260825/https://zodl.com//blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/) of the halo2 trustless proving system in Network Upgrade 5 for Zcash. This eliminated the trusted setup and launched a new era for Zcash. Since 2022, this has been active on the Zcash Mainnet and allows users to leverage a more secure & easily upgradeable construction for their payment protocol. 
 
 ## Collaboration & Partnerships 
 
@@ -55,4 +55,4 @@ The Electric Coin Company is wholly owned by the Bootstrap Project. The Bootstra
 
 ## Funding
 
-Funding, use of finances, & other related info can be found in the Transparency Reports on their [blog](https://electriccoin.co/blog/).
+Funding, use of finances, & other related info can be found in the Transparency Reports on their [blog](https://web.archive.org/web/20260825/https://zodl.com//blog/).

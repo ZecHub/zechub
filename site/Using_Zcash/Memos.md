@@ -37,6 +37,6 @@ Here is how to use Zcash Shielded Memos with the Magic-Wormhole CLI and zcashd t
 
 #### Resources
 
-[The Encrypted Memo Field](https://electriccoin.co/blog/encrypted-memo-field/)
+[The Encrypted Memo Field](https://web.archive.org/web/20260825/https://web.archive.org/web/20260825/https://zodl.com//blog/encrypted-memo-field/)
 
 

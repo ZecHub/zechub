@@ -68,7 +68,7 @@ Zcash Shielded Assets / User Defined Assets have been in development with the as
 
 [Ian Miers on ZSA's & Stablecoins](https://www.youtube.com/watch?v=hJMWE3zLIcs)
 
-[Proof-of-Stake Research](https://electriccoin.co/blog/proof-of-stake-research-overview-1/)
+[Proof-of-Stake Research](https://web.archive.org/web/20260825/https://zodl.com//blog/proof-of-stake-research-overview-1/)
 
 __
 

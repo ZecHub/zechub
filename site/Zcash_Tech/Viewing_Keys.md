@@ -110,6 +110,6 @@ Use viewing keys on an as-needed basis, and prefer the narrowest key that answer
 - [ZIP 229: Version 6 Transaction Format](https://zips.z.cash/zip-0229) — defines the Orchard and Ironwood pools
 - [Zallet changelog](https://github.com/zcash/zallet/blob/main/CHANGELOG.md) — which release added which RPC method
 - [Zkool README](https://github.com/hhanh00/zkool2/blob/main/README.md) — supported account and key types
-- [ECC, Explaining Viewing Keys](https://electriccoin.co/blog/explaining-viewing-keys/)
-- [ECC, Selective Disclosure and Viewing Keys](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
+- [ECC, Explaining Viewing Keys](https://web.archive.org/web/20260825/https://zodl.com//blog/explaining-viewing-keys/)
+- [ECC, Selective Disclosure and Viewing Keys](https://web.archive.org/web/20260825/https://zodl.com//blog/viewing-keys-selective-disclosure/)
 - [ECC, Zcash Viewing Key Video Presentation](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)

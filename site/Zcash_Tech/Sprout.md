@@ -69,9 +69,9 @@ Sprout is the original launch of Zcash, not a later upgrade. It has been active 
 
 [Zcash network upgrades](https://z.cash/upgrade/)
 
-[Electric Coin Company: Zcash Sprout launch](https://electriccoin.co/blog/zcash-sprout-launch/)
+[Electric Coin Company: Zcash Sprout launch](https://web.archive.org/web/20260825/https://zodl.com//blog/zcash-sprout-launch/)
 
-[Electric Coin Company: The Design of the Ceremony](https://electriccoin.co/blog/the-design-of-the-ceremony/)
+[Electric Coin Company: The Design of the Ceremony](https://web.archive.org/web/20260825/https://zodl.com//blog/the-design-of-the-ceremony/)
 
 ### See also
 

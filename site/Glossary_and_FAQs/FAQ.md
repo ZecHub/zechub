@@ -71,7 +71,7 @@ Zcash does **not**:
 - Protect against correlations with transparent transactions
 - Hide IP addresses
 
-Further reading: [A Shielded Ecosystem](https://electriccoin.co/blog/shielded-ecosystem)
+Further reading: [A Shielded Ecosystem](https://web.archive.org/web/20260825/https://zodl.com//blog/shielded-ecosystem)
 </div>
 
 ## A few common misconceptions
@@ -99,7 +99,7 @@ Further reading: [A Shielded Ecosystem](https://electriccoin.co/blog/shielded-ec
       </tr>
       <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
         <td className="py-5 px-6 font-medium text-foreground">Zcash has limited privacy compared to other privacy coins</td>
-        <td className="py-5 px-6 text-foreground">No. Monero/Grin-style privacy relies on decoys (which can be defeated). Zcash encrypts all shielded transaction data so every transaction in the pool is indistinguishable. See [Not Private Enough?](https://electriccoin.co/blog/not-private-enough-mixers-and-decoys-wont-protect-you-for-long/).</td>
+        <td className="py-5 px-6 text-foreground">No. Monero/Grin-style privacy relies on decoys (which can be defeated). Zcash encrypts all shielded transaction data so every transaction in the pool is indistinguishable. See [Not Private Enough?](https://web.archive.org/web/20260825/https://zodl.com//blog/not-private-enough-mixers-and-decoys-wont-protect-you-for-long/).</td>
       </tr>
     </tbody>
   </table>

@@ -73,8 +73,8 @@ The order matters. Give the narrowest key that does the job, not the widest one 
 
 ## Resources
 
-- [Explaining viewing keys (Electric Coin Company)](https://electriccoin.co/blog/explaining-viewing-keys/)
-- [Selective disclosure and viewing keys (Electric Coin Company)](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
+- [Explaining viewing keys (Electric Coin Company)](https://web.archive.org/web/20260825/https://zodl.com//blog/explaining-viewing-keys/)
+- [Selective disclosure and viewing keys (Electric Coin Company)](https://web.archive.org/web/20260825/https://zodl.com//blog/viewing-keys-selective-disclosure/)
 - [ZIP 310: Viewing keys](https://zips.z.cash/zip-0310)
 - [How Zcash technology works](https://z.cash/technology/)
 
