@@ -109,4 +109,4 @@ Download options, snapshots, and configuration documentation are available at:
 - [Zakura GitHub](https://github.com/zakura-core/zakura)
 - [Zakura Website](https://zakura.com/)
 - [Zakura on X/Twitter](https://x.com/ZakuraZcash)
-- [Project Tachyon](https://electriccoin.co/blog/)
+- [Project Tachyon](https://web.archive.org/web/20260825/https://zodl.com//blog/)

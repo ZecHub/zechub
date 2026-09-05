@@ -33,7 +33,7 @@ Both Zcash and Monero are privacy-focused cryptocurrencies, but they achieve pri
 
 Here are some advantages of Zcash's zero-knowledge proofs (ZK) over Monero's decoy system:
 
-1) **Selective Disclosure**: With Zcash ZK feature set, users have the option to reveal transaction details to specific parties [Read ECC Blog on Selective Disclosure](https://electriccoin.co/blog/viewing-keys-selective-disclosure/). In Zcash, shielded transactions' encrypted contents allow individuals to selectively reveal data from a particular transfer. Additionally, a viewing key can be provided to disclose all transactions associated with a specific shielded address. This feature allows for regulatory compliance and auditability without compromising the overall privacy of the network. 
+1) **Selective Disclosure**: With Zcash ZK feature set, users have the option to reveal transaction details to specific parties [Read ECC Blog on Selective Disclosure](https://web.archive.org/web/20260825/https://zodl.com//blog/viewing-keys-selective-disclosure/). In Zcash, shielded transactions' encrypted contents allow individuals to selectively reveal data from a particular transfer. Additionally, a viewing key can be provided to disclose all transactions associated with a specific shielded address. This feature allows for regulatory compliance and auditability without compromising the overall privacy of the network. 
 
 While Monero's decoy algorithm (ring signature) helps in providing privacy, it does not offer *selective* disclosure in the same way.
 
@@ -50,7 +50,7 @@ While Monero's decoy algorithm (ring signature) helps in providing privacy, it d
 
 The use of decoys does increase the anonymity set. However this approach is dependent entirely on the number of *real* users on the network. 
 
-4) **No Trusted Setup**: Zcash's Sprout & Sapling setup utilized a multi-party computation known as the "trusted setup ceremony". The recent NU5 upgrade did not require any Trust in the integrity of the zero knowledge circuit's setup. [Read ECC Blog on NU5](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/).
+4) **No Trusted Setup**: Zcash's Sprout & Sapling setup utilized a multi-party computation known as the "trusted setup ceremony". The recent NU5 upgrade did not require any Trust in the integrity of the zero knowledge circuit's setup. [Read ECC Blog on NU5](https://web.archive.org/web/20260825/https://zodl.com//blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/).
 
 5) **Data Privacy**: The [zk-SNARK technology](https://wiki.zechub.xyz/zcash-technology) used in Zcash's shielded pools allows for significantly enhanced security for users. The reduction of metadata leakage on-chain means that users are safe from adversaries such as potential hackers or oppressive state bodies. 
 
@@ -75,14 +75,14 @@ https://www.getmonero.org/get-started/what-is-monero/
 
 https://youtu.be/9s3EbSKDA3o
 
-https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/
+https://web.archive.org/web/20260825/https://zodl.com//blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/
 
 https://youtu.be/XpRzKqEfpP4
 
-https://electriccoin.co/blog/zcash-evolution/
+https://web.archive.org/web/20260825/https://zodl.com//blog/zcash-evolution/
 
-https://electriccoin.co/zcash-metrics/
-https://electriccoin.co/blog/viewing-keys-selective-disclosure/
+https://zodl.com//zcash-metrics/
+https://web.archive.org/web/20260825/https://zodl.com//blog/viewing-keys-selective-disclosure/
 
 
 
