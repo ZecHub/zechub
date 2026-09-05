@@ -34,7 +34,7 @@ Nea edi kan no, kɔka nkɔmmɔbɔ no ho wɔ yɛn [mpɔtam nkitahodi ahorow mu](h
 
 ### Style Akwankyerɛfo
 
-Ɛsɛ sɛ ntoboa biara a wɔde bɛma ZecHub no di [ZecHub style guides](https://github.com/ZecHub/zechub/blob/main/styles/guide.md). Eyi ka wiki, docs ne social media mu nsɛm ho.
+Ɛsɛ sɛ ntoboa biara a wɔde bɛma ZecHub no di [ZecHub style guides](https://zechub.wiki/contribute/style-guide). Eyi ka wiki, docs ne social media mu nsɛm ho.
 
 ### Akwan a wubetumi afa so aboa
 
@@ -76,7 +76,7 @@ Yɛn wiki wɛbsaet no de Zcash nkyerɛkyerɛ nneɛma ma wɔ ɔkwan a ɛyɛ mmer�
 - Privacy Ecosystem & Tools
 ```
 
-Eyinom yɛ mmeae a ɛtrɛw yiye, enti nneɛma pii wɔ hɔ a wobetumi afi mu ayɛ adwuma. Sɛ wopɛ nhyɛsoɔ bi a, hwɛ yɛn mprempren [wiki-docs site](https://zechub.wiki/) na hwɛ nea ɛyera. Sɛ wohu deɛ wopɛ sɛ wokyerɛw wie a, hyɛ aseɛ yɛ wo nsakraeɛ na sua sɛdeɛ wode PR bɛkɔ ZecHub repo no mu. Wɔabɔ yɛn docs nyinaa na wɔahwɛ so wɔ saa repo yi mu. Fa [docs nsusuwso no di dwuma](https://github.com/ZecHub/zechub/blob/main/template.md) na di [ZecHub kwan no akyi](https://zechub.wiki/contribute/style-guide) bere a worekyerɛw wiki krataafa bi. Sɛ wode PR kɔ wie a, yɛsrɛ wo kyerɛw @dismad, @squirrel, anaa @vito wɔ #zechub fã a ɛwɔ discord no mu, na wɔbɛhwɛ wo PR no mu na wɔaka abom sɛ ɛyɛ krado sɛ wɔde bɛka sait no ho a. Sɛ wɔka bom a, wɔde doc no bɛka ZecHub wɛbsaet no ho. Sɛ doc no nsiesiee ne ho a, wɔbɛhyɛ nyansa sɛ wɔmfa edits mma wo wɔ PR no mu.
+Eyinom yɛ mmeae a ɛtrɛw yiye, enti nneɛma pii wɔ hɔ a wobetumi afi mu ayɛ adwuma. Sɛ wopɛ nhyɛsoɔ bi a, hwɛ yɛn mprempren [wiki-docs site](https://zechub.wiki/) na hwɛ nea ɛyera. Sɛ wohu deɛ wopɛ sɛ wokyerɛw wie a, hyɛ aseɛ yɛ wo nsakraeɛ na sua sɛdeɛ wode PR bɛkɔ ZecHub repo no mu. Wɔabɔ yɛn docs nyinaa na wɔahwɛ so wɔ saa repo yi mu. Fa docs nsusuwso no di dwuma na di [ZecHub kwan no akyi](https://zechub.wiki/contribute/style-guide) bere a worekyerɛw wiki krataafa bi. Sɛ wode PR kɔ wie a, yɛsrɛ wo kyerɛw @dismad, @squirrel, anaa @vito wɔ #zechub fã a ɛwɔ discord no mu, na wɔbɛhwɛ wo PR no mu na wɔaka abom sɛ ɛyɛ krado sɛ wɔde bɛka sait no ho a. Sɛ wɔka bom a, wɔde doc no bɛka ZecHub wɛbsaet no ho. Sɛ doc no nsiesiee ne ho a, wɔbɛhyɛ nyansa sɛ wɔmfa edits mma wo wɔ PR no mu.
 
 #### ZecHub Wiki - 0.015 ZEC wɔ nsakraeɛ biara a wɔgye tom kɔ docs so
 
