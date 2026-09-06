@@ -3,9 +3,9 @@
 - デバイス: モバイル
 - オペレーティングシステム: Android | iOS
 - ウォレット対応: シードフレーズ | Viewing Key | Unified Address | ハードウェア
-- プール: 透明 | Sapling | Orchard
-- 機能: アドレス帳 | CrossPay | Near Intents | Flexa Payments | マルチシグネチャ | 支払いリクエスト | シールドメモ | 同期前送金 | TEX Address | Tor対応 | F-droid
-- Ironwood: 準備完了
+- プール: 透明 | Sapling | Ironwood
+- 機能: アドレス帳 | CrossPay | Near Intents | Flexa Payments | マルチシグネチャ | 支払いリクエスト | シールドメモ | 同期前の支出 | TEXアドレス | Tor対応 | F-droid
+- Ironwood: 対応済み
 
 ---
 
@@ -14,8 +14,8 @@
 - デバイス: モバイル | デスクトップ
 - オペレーティングシステム: Android | iOS | Windows | Linux | macOS
 - ウォレット対応: シードフレーズ | Viewing Key | Unified Address | ハードウェア
-- プール: 透明 | Sapling | Orchard
-- 機能: アドレス帳 | コールドストレージ | 分岐アドレス | 支払いリクエスト | プール間転送 | シールドメモ | TEX Address | 投票 | WarpSync
+- プール: 透明 | Sapling | Ironwood
+- 機能: アドレス帳 | コールドストレージ | 多様化アドレス | 支払いリクエスト | プール間転送 | シールドメモ | TEXアドレス | 投票 | WarpSync
 - Ironwood: 未対応
 
 ---
@@ -25,7 +25,7 @@
 - デバイス: モバイル | デスクトップ
 - オペレーティングシステム: Android | iOS | Windows | Linux | macOS
 - ウォレット対応: シードフレーズ | Viewing Key | Unified Address
-- プール: Sapling | Orchard
+- プール: Sapling | Ironwood
 - 機能: Discordボット
 
 ---
@@ -35,9 +35,9 @@
 - デバイス: モバイル | デスクトップ
 - オペレーティングシステム: Android | iOS | Windows | Linux
 - ウォレット対応: シードフレーズ | Viewing Key | Unified Address
-- プール: 透明 | Sapling | Orchard
+- プール: 透明 | Sapling | Ironwood
 - 機能: アドレス帳 | 財務インサイト | 支払いリクエスト | PepperSync | シールドメモ | テストネット対応
-- Ironwood: 準備完了
+- Ironwood: 対応済み
 
 ---
 
@@ -47,7 +47,7 @@
 - オペレーティングシステム: Android | iOS
 - ウォレット対応: シードフレーズ | Unified Address
 - プール: 透明 | Sapling
-- 機能: 自動シールド化 | DEXスワップ | マルチコイン | シールドメモ | 同期前送金
+- 機能: 自動シールド化 | DEXスワップ | マルチコイン | シールドメモ | 同期前の支出
 
 ---
 
@@ -56,9 +56,9 @@
 - デバイス: モバイル
 - オペレーティングシステム: Android | iOS
 - ウォレット対応: シードフレーズ | Unified Address
-- プール: 透明 | Sapling | Orchard
-- 機能: DEXスワップ | マルチコイン | 同期前送金
-- Ironwood: 準備完了
+- プール: 透明 | Sapling | Ironwood
+- 機能: DEXスワップ | マルチコイン | 同期前の支出
+- Ironwood: 対応済み
 
 ---
 
@@ -67,8 +67,8 @@
 - デバイス: モバイル | デスクトップ
 - オペレーティングシステム: Android | iOS | Windows
 - ウォレット対応: シードフレーズ | Viewing Key | Unified Address
-- プール: 透明 | Sapling | Orchard
-- 機能: アドレス帳 | アドレス確認 | 自動シールド化 | 分岐アドレス | 支払いリクエスト | シールドメモ | TEX Address | テストネット対応
+- プール: 透明 | Sapling | Ironwood
+- 機能: アドレス帳 | アドレス確認 | 自動シールド化 | 多様化アドレス | 支払いリクエスト | シールドメモ | TEXアドレス | テストネット対応
 
 ---
 
@@ -77,21 +77,21 @@
 - デバイス: モバイル | デスクトップ
 - オペレーティングシステム: Android | iOS | Windows | Linux
 - ウォレット対応: シードフレーズ | Viewing Key | Unified Address | ハードウェア
-- プール: 透明 | Sapling | Orchard
-- 機能: アドレスローテーション | 幅広い鍵対応 | 暗号化エクスポート | FROSTマルチシグ | マルチアカウント同期 | シールドメモ | テストネット対応
-- Ironwood: 準備完了
+- プール: 透明 | Sapling | Ironwood
+- 機能: アドレスローテーション | 幅広いキー対応 | 暗号化エクスポート | FROSTマルチシグ | マルチアカウント同期 | シールドメモ | テストネット対応
+- Ironwood: 対応済み
 
 ---
 
 ## [Cake](https://cakewallet.com/install/)
 ![logo](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
-- デバイス: モバイル | デスクトップ 
+- デバイス: モバイル | デスクトップ
 - オペレーティングシステム: Android | iOS | Windows | Linux | macOS
 - ウォレット対応: シードフレーズ | Viewing Key | Unified Address
-- プール: 透明 | Sapling | Orchard
+- プール: 透明 | Sapling | Ironwood
 - 機能: アドレス帳 | アドレスローテーション | 自動シールド化 | DEXスワップ | マルチコイン | シールドメモ | Tor対応
-- Ironwood: 準備完了
-  
+- Ironwood: 対応済み
+
 ---
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
@@ -99,7 +99,7 @@
 - デバイス: デスクトップ
 - オペレーティングシステム: Windows | Linux | macOS
 - ウォレット対応: シードフレーズ | Viewing Key | Unified Address | フルノード
-- プール: 透明 | Sapling | Orchard
+- プール: 透明 | Sapling | Ironwood
 - 機能: アドレス帳 | グラフィカルインターフェース | シールドメモ | テストネット対応
 
 ---
@@ -109,9 +109,9 @@
 - デバイス: デスクトップ
 - オペレーティングシステム: Windows | Linux | macOS
 - ウォレット対応: シードフレーズ | Viewing Key | Unified Address | フルノード
-- プール: 透明 | Sapling | Orchard
-- 機能: コマンドラインインターフェース | PepperSync | シールドメモ | テストネット対応 
-- Ironwood: 進行中
+- プール: 透明 | Sapling | Ironwood
+- 機能: コマンドラインインターフェース | PepperSync | シールドメモ | テストネット対応
+- Ironwood: 開発中
 
 ---
 
@@ -120,9 +120,9 @@
 - デバイス: デスクトップ
 - オペレーティングシステム: Windows | Linux | macOS
 - ウォレット対応: シードフレーズ | Viewing Key | Unified Address | フルノード
-- プール: 透明 | Sapling | Orchard
-- 機能: アルファ版 | JSON-RPCインターフェース | シールドメモ | テストネット対応
-- Ironwood: 準備完了
+- プール: 透明 | Sapling | Ironwood
+- 機能: アルファリリース | JSON-RPCインターフェース | シールドメモ | テストネット対応
+- Ironwood: 対応済み
 
 ---
 
@@ -131,8 +131,8 @@
 - デバイス: デスクトップ
 - オペレーティングシステム: Windows | Linux | macOS
 - ウォレット対応: シードフレーズ | Viewing Key | Unified Address | フルノード
-- プール: 透明 | Sapling | Orchard
-- 機能: コマンドラインインターフェース | 分岐アドレス | シールドメモ | テストネット対応
+- プール: 透明 | Sapling | Ironwood
+- 機能: コマンドラインインターフェース | 多様化アドレス | シールドメモ | テストネット対応
 - Ironwood: 未対応
 
 ---
@@ -142,27 +142,27 @@
 - デバイス: ウェブ
 - オペレーティングシステム: ブラウザ
 - ウォレット対応: シードフレーズ | Unified Address
-- プール: 透明 | Orchard
-- 機能: シールドメモ | 同期前送金 | テストネット対応
+- プール: 透明 | Ironwood
+- 機能: シールドメモ | 同期前の支出 | テストネット対応
 
 ---
 
 ## [Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
-![logo](/content-images/metamask-25048569f6.webp  "Metamask")
+![logo](/content-images/metamask-25048569f6.webp "Metamask")
 - デバイス: ウェブ
 - オペレーティングシステム: ブラウザ
 - ウォレット対応: シードフレーズ | Unified Address
-- プール: 透明 | Sapling | Orchard
+- プール: 透明 | Sapling | Ironwood
 - 機能: マルチコイン
 
 ---
 
 ## [Zucchini](https://zucchinifi.xyz/)
 ![logo](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
-- デバイス: ウェブ 
+- デバイス: ウェブ
 - オペレーティングシステム: ブラウザ
 - ウォレット対応: シードフレーズ | Unified Address
-- プール: 透明 | Sapling | Orchard
+- プール: 透明 | Sapling | Ironwood
 - 機能: DEXスワップ
 
 ---
@@ -212,20 +212,20 @@
 - デバイス:
 - オペレーティングシステム:
 - ウォレット対応: ハードウェア | Unified Address
-- プール: 透明 | Sapling | Orchard
+- プール: 透明 | Sapling | Ironwood
 - 機能: マルチコイン
-- Ironwood: 準備完了
+- Ironwood: 対応済み
 
 ---
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
-- デバイス: 
+- デバイス:
 - オペレーティングシステム:
 - ウォレット対応: ハードウェア
-- プール: 透明 
+- プール: 透明
 - 機能: マルチコイン
-- Ironwood: 進行中
+- Ironwood: 開発中
 
 ---
 
@@ -263,9 +263,9 @@
 - デバイス: デスクトップ | モバイル
 - オペレーティングシステム: macOS
 - ウォレット対応: シードフレーズ | Unified Address | ハードウェア
-- プール: 透明 | Sapling | Orchard
+- プール: 透明 | Sapling | Ironwood
 - 機能: 自動シールド化 | シールドメモ | テストネット対応 | FROSTマルチシグ
-- Ironwood: 準備完了
+- Ironwood: 対応済み
 
 ---
 
@@ -274,8 +274,8 @@
 - デバイス: ウェブ | デスクトップ
 - オペレーティングシステム: ブラウザ
 - プール: シールド | 透明
-- 機能: ブラウザ拡張機能 | シールドトランザクション | クロスチェーンスワップ | 貸付と借入 | DApp接続 | Rhea
-- Ironwood: 準備完了
+- 機能: ブラウザ拡張機能 | シールドトランザクション | クロスチェーンスワップ | 貸付・借入 | DApp接続 | Rhea
+- Ironwood: 対応済み
 
 ---
 
@@ -285,30 +285,30 @@
 - オペレーティングシステム: ブラウザ | Windows | macOS
 - ウォレット対応: シードフレーズ | 外部ウォレット | 受取アドレス | QRコード | ハードウェア
 - プール: Sapling | 透明
-- 機能: マルチコイン | Near Intents | Maya DEX | KYC不要 | ノンカストディアル | ウェブアプリ | デスクトップアプリ | Shielded ZEC | AnyPay
-- Ironwood: 準備完了
+- 機能: マルチコイン | Near Intents | Maya DEX | KYC不要 | 非カストディアル | ウェブアプリ | デスクトップアプリ | シールド ZEC | AnyPay
+- Ironwood: 対応済み
 
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
 ![logo](/content-images/zapp.webp "Zapp")
-- デバイス: モバイル 
-- オペレーティングシステム: Android 
-- ウォレット対応: Unified Address 
-- プール: 透明 | Sapling | Orchard
-- 機能: エンドツーエンド暗号化メッセンジャー | NEAR Intents | P2P.me Offramp | ベータ版
-- Ironwood: 準備完了
-  
+- デバイス: モバイル
+- オペレーティングシステム: Android
+- ウォレット対応: Unified Address
+- プール: 透明 | Sapling | Ironwood
+- 機能: エンドツーエンド暗号化メッセンジャー | NEAR Intents | P2P.me オフランプ | ベータ版
+- Ironwood: 対応済み
+
 ---
 
 ## [Zecd](https://zecd.org/quickstart.html)
 ![logo](/content-images/zecd.webp "Zecd")
-- デバイス: デスクトップ 
+- デバイス: デスクトップ
 - オペレーティングシステム: Linux
-- ウォレット対応: シードフレーズ | Viewing Key | Unified Address | 秘密鍵 | Spending Key | ウォレットバックアップ / 鍵エクスポート | フルノードウォレット 
-- プール: 透明 | Sapling | Orchard | Sprout
+- ウォレット対応: シードフレーズ | Viewing Key | Unified Address | 秘密鍵 | 支出キー | ウォレットバックアップ / キーエクスポート | フルノードウォレット
+- プール: 透明 | Sapling | Ironwood | Sprout
 - 機能: 暗号化メモ | ウォレットバックアップ（ウォレットデータ） | RPCインターフェース | シールドメモ | 秘密鍵管理
-- Ironwood: 準備完了
+- Ironwood: 対応済み
 
 ---
 
@@ -316,9 +316,9 @@
 ![logo](/content-images/zend.webp "Zend:Zcash Wallet")
 - デバイス: モバイル | デスクトップ
 - オペレーティングシステム: iOS | macOS
-- ウォレット対応: シードフレーズ | パスキー | Unified Address | 秘密鍵 | セルフカストディウォレット 
-- プール: 透明 | Sapling | Orchard 
-- 機能: セルフカストディ | 秘密鍵のローカル保存 | KYC不要 | ウォレット操作にZendサーバー依存なし | 暗号化シールドトランザクション | シード復元 | シールドメモ | パスキー認証
+- ウォレット対応: シードフレーズ | パスキー | Unified Address | 秘密鍵 | セルフカストディウォレット
+- プール: 透明 | Sapling | Ironwood
+- 機能: セルフカストディ | ローカル保存の秘密鍵 | KYC不要 | ウォレット活動にZendサーバーへの依存なし | 暗号化されたシールドトランザクション | シードリカバリー | シールドメモ | パスキー認証
 
 ---
 
@@ -326,18 +326,29 @@
 ![logo](/content-images/nozy.webp "Nozy Wallet")
 - デバイス: デスクトップ | ブラウザ
 - オペレーティングシステム: Linux | iOS | macOS
-- ウォレット対応: シードフレーズ | Viewing Key | Unified Address | Spending Key | HDウォレット | 秘密鍵管理 
-- プール: 透明 | Sapling | Orchard 
-- 機能: アドレス帳 | Tor対応 | I2P対応 | Zebra/zebrad統合 | 取引履歴 | 取引エクスポート | ローカルWitness導出 | 動的手数料（ZIP-317） | NU6.2互換 | NU6.3移行対応 | シールドメモ
-- Ironwood: 準備完了
+- ウォレット対応: シードフレーズ | Viewing Key | Unified Address | 支出キー | HDウォレット | 秘密鍵管理
+- プール: 透明 | Sapling | Ironwood
+- 機能: アドレス帳 | Tor対応 | I2P対応 | Zebra/zebrad統合 | トランザクション履歴 | トランザクションエクスポート | ローカル証人導出 | 動的手数料 (ZIP-317) | NU6.2互換性 | NU6.3移行対応 | シールドメモ
+- Ironwood: 対応済み
 
 ---
 
 ## [Zipher](https://github.com/atmospherelabs-dev/zipher-app)
 ![logo](/content-images/zipher.webp "Zipher")
-- デバイス: モバイル | デスクトップ 
-- オペレーティングシステム: Android | Windows | Linux (CLI and MCP Server) | iOS | macOS
+- デバイス: モバイル | デスクトップ
+- オペレーティングシステム: Android | Windows | Linux（CLIおよびMCPサーバー） | iOS | macOS
 - ウォレット対応: シードフレーズ | Viewing Key | Unified Address | マルチアカウントウォレット | セルフカストディウォレット | 秘密鍵管理 | エージェントウォレット対応
-- プール: 透明 | Sapling | Orchard 
-- 機能: NEAR Intents | 支払いリクエスト | シールドメモ | デフォルトでシールドトランザクション | テストネット | クロスチェーンスワップ | CipherPay | Viewing Key | AIエージェント | MCP Server | CLIウォレット | FROST | ベータ版 
-- Ironwood: 進行中
+- プール: 透明 | Sapling | Ironwood
+- 機能: NEAR Intents | 支払いリクエスト | シールドメモ | シールドトランザクションがデフォルト | テストネット | クロスチェーンスワップ | CipherPay | Viewing Key | AIエージェント | MCPサーバー | CLIウォレット | FROST | ベータ版
+- Ironwood: 開発中
+
+---
+
+## [Argos](https://argos.sovright.com/)
+![logo](/content-images/argos.webp "Argos")
+- デバイス: デスクトップ
+- オペレーティングシステム: Windows | Linux | macOS
+- ウォレット対応: シードフレーズ | 支出キー | 秘密鍵 | ウォレットバックアップ / キーエクスポート
+- プール: 透明 | Sapling | Ironwood | Sprout
+- 機能: ウォレット復元 | コマンドラインインターフェース | シールドメモ | テストネット対応
+- Ironwood: 対応済み

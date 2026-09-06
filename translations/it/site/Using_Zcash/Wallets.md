@@ -3,8 +3,8 @@
 - Dispositivi: Mobile
 - Sistema operativo: Android | iOS
 - Supporto wallet: Frase seed | Viewing Key | Unified Address | Hardware
-- Pool: Trasparente | Sapling | Orchard
-- Funzionalità: Rubrica | CrossPay | Near Intents | Flexa Payments | Multisignature | Richiesta di pagamento | Memo shielded | Spendi prima della sincronizzazione | Indirizzo TEX | Supporto Tor | F-droid
+- Pool: Trasparente | Sapling | Ironwood
+- Funzionalità: Rubrica | CrossPay | Near Intents | Pagamenti Flexa | MultiSignature | Richiesta di pagamento | Memo schermato | Spendi prima della sincronizzazione | Indirizzo TEX | Supporto Tor | F-droid
 - Ironwood: Pronto
 
 ---
@@ -14,8 +14,8 @@
 - Dispositivi: Mobile | Desktop
 - Sistema operativo: Android | iOS | Windows | Linux | macOS
 - Supporto wallet: Frase seed | Viewing Key | Unified Address | Hardware
-- Pool: Trasparente | Sapling | Orchard
-- Funzionalità: Rubrica | Cold storage | Indirizzo diversificato | Richiesta di pagamento | Trasferimento tra pool | Memo shielded | Indirizzo TEX | Voto | WarpSync
+- Pool: Trasparente | Sapling | Ironwood
+- Funzionalità: Rubrica | Archiviazione a freddo | Indirizzo diversificato | Richiesta di pagamento | Trasferimento tra pool | Memo schermato | Indirizzo TEX | Votazione | WarpSync
 - Ironwood: Non pronto
 
 ---
@@ -25,7 +25,7 @@
 - Dispositivi: Mobile | Desktop
 - Sistema operativo: Android | iOS | Windows | Linux | macOS
 - Supporto wallet: Frase seed | Viewing Key | Unified Address
-- Pool: Sapling | Orchard
+- Pool: Sapling | Ironwood
 - Funzionalità: Bot Discord
 
 ---
@@ -35,8 +35,8 @@
 - Dispositivi: Mobile | Desktop
 - Sistema operativo: Android | iOS | Windows | Linux
 - Supporto wallet: Frase seed | Viewing Key | Unified Address
-- Pool: Trasparente | Sapling | Orchard
-- Funzionalità: Rubrica | Analisi finanziarie | Richiesta di pagamento | PepperSync | Memo shielded | Supporto testnet
+- Pool: Trasparente | Sapling | Ironwood
+- Funzionalità: Rubrica | Analisi finanziarie | Richiesta di pagamento | PepperSync | Memo schermato | Supporto testnet
 - Ironwood: Pronto
 
 ---
@@ -47,7 +47,7 @@
 - Sistema operativo: Android | iOS
 - Supporto wallet: Frase seed | Unified Address
 - Pool: Trasparente | Sapling
-- Funzionalità: Shielding automatico | Swap DEX | Multi-coin | Memo shielded | Spendi prima della sincronizzazione
+- Funzionalità: Schermatura automatica | Swap DEX | Multi-moneta | Memo schermato | Spendi prima della sincronizzazione
 
 ---
 
@@ -56,8 +56,8 @@
 - Dispositivi: Mobile
 - Sistema operativo: Android | iOS
 - Supporto wallet: Frase seed | Unified Address
-- Pool: Trasparente | Sapling | Orchard
-- Funzionalità: Swap DEX | Multi-coin | Spendi prima della sincronizzazione
+- Pool: Trasparente | Sapling | Ironwood
+- Funzionalità: Swap DEX | Multi-moneta | Spendi prima della sincronizzazione
 - Ironwood: Pronto
 
 ---
@@ -67,8 +67,8 @@
 - Dispositivi: Mobile | Desktop
 - Sistema operativo: Android | iOS | Windows
 - Supporto wallet: Frase seed | Viewing Key | Unified Address
-- Pool: Trasparente | Sapling | Orchard
-- Funzionalità: Rubrica | Verifica indirizzo | Shielding automatico | Indirizzo diversificato | Richiesta di pagamento | Memo shielded | Indirizzo TEX | Supporto testnet
+- Pool: Trasparente | Sapling | Ironwood
+- Funzionalità: Rubrica | Verifica indirizzo | Schermatura automatica | Indirizzo diversificato | Richiesta di pagamento | Memo schermato | Indirizzo TEX | Supporto testnet
 
 ---
 
@@ -77,21 +77,21 @@
 - Dispositivi: Mobile | Desktop
 - Sistema operativo: Android | iOS | Windows | Linux
 - Supporto wallet: Frase seed | Viewing Key | Unified Address | Hardware
-- Pool: Trasparente | Sapling | Orchard
-- Funzionalità: Rotazione indirizzi | Ampio supporto chiavi | Esportazioni cifrate | FROST Multisig | Sincronizzazione multi-account | Memo shielded | Supporto testnet
+- Pool: Trasparente | Sapling | Ironwood
+- Funzionalità: Rotazione indirizzi | Ampio supporto per chiavi | Esportazioni crittografate | Multisig FROST | Sincronizzazione multi-account | Memo schermato | Supporto testnet
 - Ironwood: Pronto
 
 ---
 
 ## [Cake](https://cakewallet.com/install/)
 ![logo](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
-- Dispositivi: Mobile | Desktop 
+- Dispositivi: Mobile | Desktop
 - Sistema operativo: Android | iOS | Windows | Linux | macOS
 - Supporto wallet: Frase seed | Viewing Key | Unified Address
-- Pool: Trasparente | Sapling | Orchard
-- Funzionalità: Rubrica | Rotazione indirizzi | Shielding automatico | Swap DEX | Multi-coin | Memo shielded | Supporto Tor
+- Pool: Trasparente | Sapling | Ironwood
+- Funzionalità: Rubrica | Rotazione indirizzi | Schermatura automatica | Swap DEX | Multi-moneta | Memo schermato | Supporto Tor
 - Ironwood: Pronto
-  
+
 ---
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
@@ -99,8 +99,8 @@
 - Dispositivi: Desktop
 - Sistema operativo: Windows | Linux | macOS
 - Supporto wallet: Frase seed | Viewing Key | Unified Address | Nodo completo
-- Pool: Trasparente | Sapling | Orchard
-- Funzionalità: Rubrica | Interfaccia grafica | Memo shielded | Supporto testnet
+- Pool: Trasparente | Sapling | Ironwood
+- Funzionalità: Rubrica | Interfaccia grafica | Memo schermato | Supporto testnet
 
 ---
 
@@ -109,8 +109,8 @@
 - Dispositivi: Desktop
 - Sistema operativo: Windows | Linux | macOS
 - Supporto wallet: Frase seed | Viewing Key | Unified Address | Nodo completo
-- Pool: Trasparente | Sapling | Orchard
-- Funzionalità: Interfaccia a riga di comando | PepperSync | Memo shielded | Supporto testnet 
+- Pool: Trasparente | Sapling | Ironwood
+- Funzionalità: Interfaccia a riga di comando | PepperSync | Memo schermato | Supporto testnet
 - Ironwood: In corso
 
 ---
@@ -120,8 +120,8 @@
 - Dispositivi: Desktop
 - Sistema operativo: Windows | Linux | macOS
 - Supporto wallet: Frase seed | Viewing Key | Unified Address | Nodo completo
-- Pool: Trasparente | Sapling | Orchard
-- Funzionalità: Release alpha | Interfaccia JSON-RPC | Memo shielded | Supporto testnet
+- Pool: Trasparente | Sapling | Ironwood
+- Funzionalità: Versione alpha | Interfaccia JSON-RPC | Memo schermato | Supporto testnet
 - Ironwood: Pronto
 
 ---
@@ -131,8 +131,8 @@
 - Dispositivi: Desktop
 - Sistema operativo: Windows | Linux | macOS
 - Supporto wallet: Frase seed | Viewing Key | Unified Address | Nodo completo
-- Pool: Trasparente | Sapling | Orchard
-- Funzionalità: Interfaccia a riga di comando | Indirizzo diversificato | Memo shielded | Supporto testnet
+- Pool: Trasparente | Sapling | Ironwood
+- Funzionalità: Interfaccia a riga di comando | Indirizzo diversificato | Memo schermato | Supporto testnet
 - Ironwood: Non pronto
 
 ---
@@ -142,27 +142,27 @@
 - Dispositivi: Web
 - Sistema operativo: Browser
 - Supporto wallet: Frase seed | Unified Address
-- Pool: Trasparente | Orchard
-- Funzionalità: Memo shielded | Spendi prima della sincronizzazione | Supporto testnet
+- Pool: Trasparente | Ironwood
+- Funzionalità: Memo schermato | Spendi prima della sincronizzazione | Supporto testnet
 
 ---
 
 ## [Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
-![logo](/content-images/metamask-25048569f6.webp  "Metamask")
+![logo](/content-images/metamask-25048569f6.webp "Metamask")
 - Dispositivi: Web
 - Sistema operativo: Browser
 - Supporto wallet: Frase seed | Unified Address
-- Pool: Trasparente | Sapling | Orchard
-- Funzionalità: Multi-coin
+- Pool: Trasparente | Sapling | Ironwood
+- Funzionalità: Multi-moneta
 
 ---
 
 ## [Zucchini](https://zucchinifi.xyz/)
 ![logo](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
-- Dispositivi: Web 
+- Dispositivi: Web
 - Sistema operativo: Browser
 - Supporto wallet: Frase seed | Unified Address
-- Pool: Trasparente | Sapling | Orchard
+- Pool: Trasparente | Sapling | Ironwood
 - Funzionalità: Swap DEX
 
 ---
@@ -173,7 +173,7 @@
 - Sistema operativo: Android | iOS | Browser
 - Supporto wallet: Frase seed
 - Pool: Trasparente
-- Funzionalità: Multi-coin
+- Funzionalità: Multi-moneta
 
 ---
 
@@ -183,7 +183,7 @@
 - Sistema operativo: Android | iOS | Browser
 - Supporto wallet: Frase seed
 - Pool: Trasparente
-- Funzionalità: Multi-coin
+- Funzionalità: Multi-moneta
 
 ---
 
@@ -193,7 +193,7 @@
 - Sistema operativo: Android | iOS | Windows | Linux | macOS | Browser
 - Supporto wallet: Frase seed
 - Pool: Trasparente
-- Funzionalità: Multi-coin
+- Funzionalità: Multi-moneta
 
 ---
 
@@ -203,7 +203,7 @@
 - Sistema operativo: Android | iOS | Windows
 - Supporto wallet: Frase seed
 - Pool: Trasparente
-- Funzionalità: Multi-coin
+- Funzionalità: Multi-moneta
 
 ---
 
@@ -212,19 +212,19 @@
 - Dispositivi:
 - Sistema operativo:
 - Supporto wallet: Hardware | Unified Address
-- Pool: Trasparente | Sapling | Orchard
-- Funzionalità: Multi-coin
+- Pool: Trasparente | Sapling | Ironwood
+- Funzionalità: Multi-moneta
 - Ironwood: Pronto
 
 ---
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
-- Dispositivi: 
+- Dispositivi:
 - Sistema operativo:
 - Supporto wallet: Hardware
-- Pool: Trasparente 
-- Funzionalità: Multi-coin
+- Pool: Trasparente
+- Funzionalità: Multi-moneta
 - Ironwood: In corso
 
 ---
@@ -235,7 +235,7 @@
 - Sistema operativo: Android | iOS | Browser
 - Supporto wallet: Frase seed | Hardware
 - Pool: Trasparente
-- Funzionalità: Multi-coin
+- Funzionalità: Multi-moneta
 
 ---
 
@@ -245,7 +245,7 @@
 - Sistema operativo:
 - Supporto wallet: Hardware
 - Pool: Trasparente
-- Funzionalità: Multi-coin
+- Funzionalità: Multi-moneta
 
 ---
 
@@ -254,7 +254,7 @@
 - Dispositivi: Web | Mobile | Desktop
 - Sistema operativo: Android | iOS | Windows | Linux | macOS | Browser
 - Pool: Trasparente
-- Funzionalità: Multi-coin | App web
+- Funzionalità: Multi-moneta | App web
 
 ---
 
@@ -263,8 +263,8 @@
 - Dispositivi: Desktop | Mobile
 - Sistema operativo: macOS
 - Supporto wallet: Frase seed | Unified Address | Hardware
-- Pool: Trasparente | Sapling | Orchard
-- Funzionalità: Shielding automatico | Memo shielded | Supporto testnet | FROST Multisig
+- Pool: Trasparente | Sapling | Ironwood
+- Funzionalità: Schermatura automatica | Memo schermato | Supporto testnet | Multisig FROST
 - Ironwood: Pronto
 
 ---
@@ -273,8 +273,8 @@
 ![logo](/content-images/Noirwallet-8589fe34e4.webp "Noir")
 - Dispositivi: Web | Desktop
 - Sistema operativo: Browser
-- Pool: Shielded | Trasparente
-- Funzionalità: Estensione del browser | Transazioni shielded | Swap cross-chain | Lending & Borrowing | Connessioni DApp | Rhea
+- Pool: Schermato | Trasparente
+- Funzionalità: Estensione del browser | Transazioni schermate | Swap cross-chain | Prestiti e finanziamenti | Connessioni DApp | Rhea
 - Ironwood: Pronto
 
 ---
@@ -283,31 +283,31 @@
 ![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
 - Dispositivi: Web | Desktop
 - Sistema operativo: Browser | Windows | macOS
-- Supporto wallet: Frase seed | Wallet esterno | Indirizzo di ricezione | QR Code | Hardware
+- Supporto wallet: Frase seed | Wallet esterno | Indirizzo di ricezione | Codice QR | Hardware
 - Pool: Sapling | Trasparente
-- Funzionalità: Multi-coin | Near Intents | Maya DEX | Nessun KYC | Non-custodial | App web | App desktop | Shielded ZEC | AnyPay
+- Funzionalità: Multi-moneta | Near Intents | Maya DEX | Nessun KYC | Non custodial | App web | App desktop | ZEC schermato | AnyPay
 - Ironwood: Pronto
 
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
 ![logo](/content-images/zapp.webp "Zapp")
-- Dispositivi: Mobile 
-- Sistema operativo: Android 
-- Supporto wallet: Unified Address 
-- Pool: Trasparente | Sapling | Orchard
+- Dispositivi: Mobile
+- Sistema operativo: Android
+- Supporto wallet: Unified Address
+- Pool: Trasparente | Sapling | Ironwood
 - Funzionalità: Messenger crittografato end-to-end | NEAR Intents | P2P.me Offramp | Beta
 - Ironwood: Pronto
-  
+
 ---
 
 ## [Zecd](https://zecd.org/quickstart.html)
 ![logo](/content-images/zecd.webp "Zecd")
-- Dispositivi: Desktop 
+- Dispositivi: Desktop
 - Sistema operativo: Linux
-- Supporto wallet: Frase seed | Viewing Key | Unified Address | Chiave privata | Chiave di spesa | Backup del wallet / Esportazione chiavi | Wallet con nodo completo 
-- Pool: Trasparente | Sapling | Orchard | Sprout
-- Funzionalità: Memo cifrato | Backup del wallet (dati del wallet) | Interfaccia RPC | Memo shielded | Gestione chiavi private
+- Supporto wallet: Frase seed | Viewing Key | Unified Address | Chiave privata | Chiave di spesa | Backup del wallet / Esportazione chiavi | Wallet con nodo completo
+- Pool: Trasparente | Sapling | Ironwood | Sprout
+- Funzionalità: Memo crittografato | Backup del wallet (dati del wallet) | Interfaccia RPC | Memo schermato | Gestione chiavi private
 - Ironwood: Pronto
 
 ---
@@ -316,9 +316,9 @@
 ![logo](/content-images/zend.webp "Zend:Zcash Wallet")
 - Dispositivi: Mobile | Desktop
 - Sistema operativo: iOS | macOS
-- Supporto wallet: Frase seed | Passkey | Unified Address | Chiave privata | Wallet self-custody 
-- Pool: Trasparente | Sapling | Orchard 
-- Funzionalità: Self-custody | Chiave privata archiviata localmente | Nessun KYC richiesto | Nessuna dipendenza dal server Zend per l'attività del wallet | Transazione shielded cifrata | Recupero seed | Memo shielded | Autenticazione con passkey
+- Supporto wallet: Frase seed | Passkey | Unified Address | Chiave privata | Wallet non custodial
+- Pool: Trasparente | Sapling | Ironwood
+- Funzionalità: Autocustodia | Chiave privata archiviata localmente | Nessun KYC richiesto | Nessuna dipendenza dal server Zend per l'attività del wallet | Transazione schermata crittografata | Recupero della seed | Memo schermato | Autenticazione tramite passkey
 
 ---
 
@@ -326,18 +326,29 @@
 ![logo](/content-images/nozy.webp "Nozy Wallet")
 - Dispositivi: Desktop | Browser
 - Sistema operativo: Linux | iOS | macOS
-- Supporto wallet: Frase seed | Viewing Key | Unified Address | Chiave di spesa | HD Wallet | Gestione chiavi private 
-- Pool: Trasparente | Sapling | Orchard 
-- Funzionalità: Rubrica | Supporto Tor | Supporto I2P | Integrazione Zebra/Zebrad | Cronologia transazioni | Esportazione transazioni | Derivazione locale dei witness | Commissione dinamica (ZIP-317) | Compatibilità NU6.2 | Supporto migrazione NU6.3 | Memo shielded
+- Supporto wallet: Frase seed | Viewing Key | Unified Address | Chiave di spesa | Wallet HD | Gestione chiavi private
+- Pool: Trasparente | Sapling | Ironwood
+- Funzionalità: Rubrica | Supporto Tor | Supporto I2P | Integrazione Zebra/zebrad | Cronologia transazioni | Esportazione transazioni | Derivazione locale delle prove | Commissione dinamica (ZIP-317) | Compatibilità NU6.2 | Supporto alla migrazione NU6.3 | Memo schermato
 - Ironwood: Pronto
 
 ---
 
 ## [Zipher](https://github.com/atmospherelabs-dev/zipher-app)
 ![logo](/content-images/zipher.webp "Zipher")
-- Dispositivi: Mobile | Desktop 
+- Dispositivi: Mobile | Desktop
 - Sistema operativo: Android | Windows | Linux (CLI e server MCP) | iOS | macOS
-- Supporto wallet: Frase seed | Viewing Key | Unified Address | Wallet multi-account | Wallet self-custody | Gestione chiavi private | Supporto wallet per agenti
-- Pool: Trasparente | Sapling | Orchard 
-- Funzionalità: NEAR Intents | Richieste di pagamento | Memo shielded | Transazione shielded predefinita | Testnet | Swap cross-chain | CipherPay | Viewing Key | Agente AI | Wallet CLI | FROST | Beta 
+- Supporto wallet: Frase seed | Viewing Key | Unified Address | Wallet multi-account | Wallet non custodial | Gestione chiavi private | Supporto wallet per agenti
+- Pool: Trasparente | Sapling | Ironwood
+- Funzionalità: NEAR Intents | Richieste di pagamento | Memo schermato | Transazione schermata predefinita | Testnet | Swap cross-chain | CipherPay | Viewing Key | Agente AI | Server MCP | Wallet CLI | FROST | Beta
 - Ironwood: In corso
+
+---
+
+## [Argos](https://argos.sovright.com/)
+![logo](/content-images/argos.webp "Argos")
+- Dispositivi: Desktop
+- Sistema operativo: Windows | Linux | macOS
+- Supporto wallet: Frase seed | Chiave di spesa | Chiave privata | Backup del wallet / Esportazione chiavi
+- Pool: Trasparente | Sapling | Ironwood | Sprout
+- Funzionalità: Recupero wallet | Interfaccia a riga di comando | Memo schermato | Supporto testnet
+- Ironwood: Pronto

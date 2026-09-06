@@ -2,10 +2,10 @@
 ![logo](/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp "ZODL")
 - Пристрої: Мобільні
 - Операційна система: Android | iOS
-- Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address | Hardware
-- Пули: Transparent | Sapling | Orchard
-- Функції: Адресна книга | CrossPay | Near Intents | Flexa Payments | MultiSignature | Запит на платіж | Shielded Memo | Витрати до синхронізації | TEX Address | Підтримка Tor | F-droid
-- Ironwood: Готовий
+- Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address | Апаратний
+- Пули: Прозорий | Sapling | Ironwood
+- Функції: Адресна книга | CrossPay | Near Intents | Платежі Flexa | Мультипідпис | Запит платежу | Захищене повідомлення | Витрачання до синхронізації | TEX-адреса | Підтримка Tor | F-droid
+- Ironwood: Готово
 
 ---
 
@@ -13,10 +13,10 @@
 ![logo](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
 - Пристрої: Мобільні | Настільні
 - Операційна система: Android | iOS | Windows | Linux | macOS
-- Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address | Hardware
-- Пули: Transparent | Sapling | Orchard
-- Функції: Адресна книга | Холодне зберігання | Diversified Address | Запит на платіж | Переказ між пулами | Shielded Memo | TEX Address | Голосування | WarpSync
-- Ironwood: Не готовий
+- Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address | Апаратний
+- Пули: Прозорий | Sapling | Ironwood
+- Функції: Адресна книга | Холодне зберігання | Диверсифікована адреса | Запит платежу | Переказ між пулами | Захищене повідомлення | TEX-адреса | Голосування | WarpSync
+- Ironwood: Не готово
 
 ---
 
@@ -25,8 +25,8 @@
 - Пристрої: Мобільні | Настільні
 - Операційна система: Android | iOS | Windows | Linux | macOS
 - Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address
-- Пули: Sapling | Orchard
-- Функції: Discord-бот
+- Пули: Sapling | Ironwood
+- Функції: Бот Discord
 
 ---
 
@@ -35,9 +35,9 @@
 - Пристрої: Мобільні | Настільні
 - Операційна система: Android | iOS | Windows | Linux
 - Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address
-- Пули: Transparent | Sapling | Orchard
-- Функції: Адресна книга | Фінансова аналітика | Запит на платіж | PepperSync | Shielded Memo | Підтримка testnet
-- Ironwood: Готовий
+- Пули: Прозорий | Sapling | Ironwood
+- Функції: Адресна книга | Фінансова аналітика | Запит платежу | PepperSync | Захищене повідомлення | Підтримка тестової мережі
+- Ironwood: Готово
 
 ---
 
@@ -46,8 +46,8 @@
 - Пристрої: Мобільні
 - Операційна система: Android | iOS
 - Підтримка гаманця: Seed Phrase | Unified Address
-- Пули: Transparent | Sapling
-- Функції: Автоматичне екранування | DEX-обміни | Мультивалютність | Shielded Memo | Витрати до синхронізації
+- Пули: Прозорий | Sapling
+- Функції: Автоматичне екранування | DEX-обміни | Кілька монет | Захищене повідомлення | Витрачання до синхронізації
 
 ---
 
@@ -56,9 +56,9 @@
 - Пристрої: Мобільні
 - Операційна система: Android | iOS
 - Підтримка гаманця: Seed Phrase | Unified Address
-- Пули: Transparent | Sapling | Orchard
-- Функції: DEX-обміни | Мультивалютність | Витрати до синхронізації
-- Ironwood: Готовий
+- Пули: Прозорий | Sapling | Ironwood
+- Функції: DEX-обміни | Кілька монет | Витрачання до синхронізації
+- Ironwood: Готово
 
 ---
 
@@ -67,8 +67,8 @@
 - Пристрої: Мобільні | Настільні
 - Операційна система: Android | iOS | Windows
 - Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address
-- Пули: Transparent | Sapling | Orchard
-- Функції: Адресна книга | Перевірка адреси | Автоматичне екранування | Diversified Address | Запит на платіж | Shielded Memo | TEX Address | Підтримка testnet
+- Пули: Прозорий | Sapling | Ironwood
+- Функції: Адресна книга | Перевірка адреси | Автоматичне екранування | Диверсифікована адреса | Запит платежу | Захищене повідомлення | TEX-адреса | Підтримка тестової мережі
 
 ---
 
@@ -76,22 +76,22 @@
 ![logo](/content-images/zkool-1-22ab388e65.webp "Zkool")
 - Пристрої: Мобільні | Настільні
 - Операційна система: Android | iOS | Windows | Linux
-- Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address | Hardware
-- Пули: Transparent | Sapling | Orchard
-- Функції: Ротація адрес | Широка підтримка ключів | Зашифровані експорти | FROST Multisig | Синхронізація кількох облікових записів | Shielded Memo | Підтримка testnet
-- Ironwood: Готовий
+- Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address | Апаратний
+- Пули: Прозорий | Sapling | Ironwood
+- Функції: Ротація адрес | Широка підтримка ключів | Зашифровані експорти | Мультипідпис FROST | Синхронізація кількох облікових записів | Захищене повідомлення | Підтримка тестової мережі
+- Ironwood: Готово
 
 ---
 
 ## [Cake](https://cakewallet.com/install/)
 ![logo](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
-- Пристрої: Мобільні | Настільні 
+- Пристрої: Мобільні | Настільні
 - Операційна система: Android | iOS | Windows | Linux | macOS
 - Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address
-- Пули: Transparent | Sapling | Orchard
-- Функції: Адресна книга | Ротація адрес | Автоматичне екранування | DEX-обміни | Мультивалютність | Shielded Memo | Підтримка Tor
-- Ironwood: Готовий
-  
+- Пули: Прозорий | Sapling | Ironwood
+- Функції: Адресна книга | Ротація адрес | Автоматичне екранування | DEX-обміни | Кілька монет | Захищене повідомлення | Підтримка Tor
+- Ironwood: Готово
+
 ---
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
@@ -99,8 +99,8 @@
 - Пристрої: Настільні
 - Операційна система: Windows | Linux | macOS
 - Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address | Повний вузол
-- Пули: Transparent | Sapling | Orchard
-- Функції: Адресна книга | Графічний інтерфейс | Shielded Memo | Підтримка testnet
+- Пули: Прозорий | Sapling | Ironwood
+- Функції: Адресна книга | Графічний інтерфейс | Захищене повідомлення | Підтримка тестової мережі
 
 ---
 
@@ -109,8 +109,8 @@
 - Пристрої: Настільні
 - Операційна система: Windows | Linux | macOS
 - Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address | Повний вузол
-- Пули: Transparent | Sapling | Orchard
-- Функції: Інтерфейс командного рядка | PepperSync | Shielded Memo | Підтримка testnet 
+- Пули: Прозорий | Sapling | Ironwood
+- Функції: Інтерфейс командного рядка | PepperSync | Захищене повідомлення | Підтримка тестової мережі
 - Ironwood: У процесі
 
 ---
@@ -120,9 +120,9 @@
 - Пристрої: Настільні
 - Операційна система: Windows | Linux | macOS
 - Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address | Повний вузол
-- Пули: Transparent | Sapling | Orchard
-- Функції: Alpha-версія | Інтерфейс JSON-RPC | Shielded Memo | Підтримка testnet
-- Ironwood: Готовий
+- Пули: Прозорий | Sapling | Ironwood
+- Функції: Альфа-версія | Інтерфейс JSON-RPC | Захищене повідомлення | Підтримка тестової мережі
+- Ironwood: Готово
 
 ---
 
@@ -131,9 +131,9 @@
 - Пристрої: Настільні
 - Операційна система: Windows | Linux | macOS
 - Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address | Повний вузол
-- Пули: Transparent | Sapling | Orchard
-- Функції: Інтерфейс командного рядка | Diversified Address | Shielded Memo | Підтримка testnet
-- Ironwood: Не готовий
+- Пули: Прозорий | Sapling | Ironwood
+- Функції: Інтерфейс командного рядка | Диверсифікована адреса | Захищене повідомлення | Підтримка тестової мережі
+- Ironwood: Не готово
 
 ---
 
@@ -142,27 +142,27 @@
 - Пристрої: Веб
 - Операційна система: Браузер
 - Підтримка гаманця: Seed Phrase | Unified Address
-- Пули: Transparent | Orchard
-- Функції: Shielded Memo | Витрати до синхронізації | Підтримка testnet
+- Пули: Прозорий | Ironwood
+- Функції: Захищене повідомлення | Витрачання до синхронізації | Підтримка тестової мережі
 
 ---
 
-## [Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
-![logo](/content-images/metamask-25048569f6.webp  "Metamask")
+## [MetaMask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
+![logo](/content-images/metamask-25048569f6.webp "Metamask")
 - Пристрої: Веб
 - Операційна система: Браузер
 - Підтримка гаманця: Seed Phrase | Unified Address
-- Пули: Transparent | Sapling | Orchard
-- Функції: Мультивалютність
+- Пули: Прозорий | Sapling | Ironwood
+- Функції: Кілька монет
 
 ---
 
 ## [Zucchini](https://zucchinifi.xyz/)
 ![logo](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
-- Пристрої: Веб 
+- Пристрої: Веб
 - Операційна система: Браузер
 - Підтримка гаманця: Seed Phrase | Unified Address
-- Пули: Transparent | Sapling | Orchard
+- Пули: Прозорий | Sapling | Ironwood
 - Функції: DEX-обміни
 
 ---
@@ -172,8 +172,8 @@
 - Пристрої: Мобільні | Веб
 - Операційна система: Android | iOS | Браузер
 - Підтримка гаманця: Seed Phrase
-- Пули: Transparent
-- Функції: Мультивалютність
+- Пули: Прозорий
+- Функції: Кілька монет
 
 ---
 
@@ -182,8 +182,8 @@
 - Пристрої: Мобільні | Веб
 - Операційна система: Android | iOS | Браузер
 - Підтримка гаманця: Seed Phrase
-- Пули: Transparent
-- Функції: Мультивалютність
+- Пули: Прозорий
+- Функції: Кілька монет
 
 ---
 
@@ -192,8 +192,8 @@
 - Пристрої: Мобільні | Настільні | Веб
 - Операційна система: Android | iOS | Windows | Linux | macOS | Браузер
 - Підтримка гаманця: Seed Phrase
-- Пули: Transparent
-- Функції: Мультивалютність
+- Пули: Прозорий
+- Функції: Кілька монет
 
 ---
 
@@ -202,8 +202,8 @@
 - Пристрої: Мобільні | Настільні
 - Операційна система: Android | iOS | Windows
 - Підтримка гаманця: Seed Phrase
-- Пули: Transparent
-- Функції: Мультивалютність
+- Пули: Прозорий
+- Функції: Кілька монет
 
 ---
 
@@ -211,20 +211,20 @@
 ![logo](/content-images/Keystone-1-8177a83308.webp "Keystone")
 - Пристрої:
 - Операційна система:
-- Підтримка гаманця: Hardware | Unified Address
-- Пули: Transparent | Sapling | Orchard
-- Функції: Мультивалютність
-- Ironwood: Готовий
+- Підтримка гаманця: Апаратний | Unified Address
+- Пули: Прозорий | Sapling | Ironwood
+- Функції: Кілька монет
+- Ironwood: Готово
 
 ---
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
-- Пристрої: 
+- Пристрої:
 - Операційна система:
-- Підтримка гаманця: Hardware
-- Пули: Transparent 
-- Функції: Мультивалютність
+- Підтримка гаманця: Апаратний
+- Пули: Прозорий
+- Функції: Кілька монет
 - Ironwood: У процесі
 
 ---
@@ -233,9 +233,9 @@
 ![logo](/content-images/safepalcard-176b24c751.webp "Safepal")
 - Пристрої: Мобільні | Веб
 - Операційна система: Android | iOS | Браузер
-- Підтримка гаманця: Seed Phrase | Hardware
-- Пули: Transparent
-- Функції: Мультивалютність
+- Підтримка гаманця: Seed Phrase | Апаратний
+- Пули: Прозорий
+- Функції: Кілька монет
 
 ---
 
@@ -243,9 +243,9 @@
 ![logo](/content-images/trezor1-5004075d27.webp "Trezor")
 - Пристрої:
 - Операційна система:
-- Підтримка гаманця: Hardware
-- Пули: Transparent
-- Функції: Мультивалютність
+- Підтримка гаманця: Апаратний
+- Пули: Прозорий
+- Функції: Кілька монет
 
 ---
 
@@ -253,8 +253,8 @@
 ![logo](/content-images/vultisig-713626c5ba.webp "Vultisig")
 - Пристрої: Веб | Мобільні | Настільні
 - Операційна система: Android | iOS | Windows | Linux | macOS | Браузер
-- Пули: Transparent
-- Функції: Мультивалютність | Вебзастосунок
+- Пули: Прозорий
+- Функції: Кілька монет | Вебзастосунок
 
 ---
 
@@ -262,10 +262,10 @@
 ![logo](/content-images/Vizorphoto-6ade2417a5.webp "Vizor")
 - Пристрої: Настільні | Мобільні
 - Операційна система: macOS
-- Підтримка гаманця: Seed Phrase | Unified Address | Hardware
-- Пули: Transparent | Sapling | Orchard
-- Функції: Автоматичне екранування | Shielded Memo | Підтримка testnet | FROST Multisig
-- Ironwood: Готовий
+- Підтримка гаманця: Seed Phrase | Unified Address | Апаратний
+- Пули: Прозорий | Sapling | Ironwood
+- Функції: Автоматичне екранування | Захищене повідомлення | Підтримка тестової мережі | Мультипідпис FROST
+- Ironwood: Готово
 
 ---
 
@@ -273,9 +273,9 @@
 ![logo](/content-images/Noirwallet-8589fe34e4.webp "Noir")
 - Пристрої: Веб | Настільні
 - Операційна система: Браузер
-- Пули: Shielded | Transparent
-- Функції: Розширення для браузера | Shielded-транзакції | Cross-chain обміни | Кредитування та позики | Підключення до DApp | Rhea
-- Ironwood: Готовий
+- Пули: Захищений | Прозорий
+- Функції: Розширення браузера | Захищені транзакції | Міжланцюгові обміни | Кредитування та запозичення | Підключення DApp | Rhea
+- Ironwood: Готово
 
 ---
 
@@ -283,32 +283,32 @@
 ![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
 - Пристрої: Веб | Настільні
 - Операційна система: Браузер | Windows | macOS
-- Підтримка гаманця: Seed Phrase | Зовнішній гаманець | Адреса отримання | QR-код | Hardware
-- Пули: Sapling | Transparent
-- Функції: Мультивалютність | Near Intents | Maya DEX | Без KYC | Некастодіальний | Вебзастосунок | Настільний застосунок | Shielded ZEC | AnyPay
-- Ironwood: Готовий
+- Підтримка гаманця: Seed Phrase | Зовнішній гаманець | Адреса отримання | QR-код | Апаратний
+- Пули: Sapling | Прозорий
+- Функції: Кілька монет | Near Intents | Maya DEX | Без KYC | Некастодіальний | Вебзастосунок | Настільний застосунок | Захищений ZEC | AnyPay
+- Ironwood: Готово
 
 ---
 
 ## [Zapp](https://www.justzappit.xyz/app)
 ![logo](/content-images/zapp.webp "Zapp")
-- Пристрої: Мобільні 
-- Операційна система: Android 
-- Підтримка гаманця: Unified Address 
-- Пули: Transparent | Sapling | Orchard
-- Функції: Наскрізно зашифрований месенджер | NEAR Intents | P2P.me Offramp | Beta
-- Ironwood: Готовий
-  
+- Пристрої: Мобільні
+- Операційна система: Android
+- Підтримка гаманця: Unified Address
+- Пули: Прозорий | Sapling | Ironwood
+- Функції: Наскрізно зашифрований месенджер | NEAR Intents | P2P.me Offramp | Бета
+- Ironwood: Готово
+
 ---
 
 ## [Zecd](https://zecd.org/quickstart.html)
 ![logo](/content-images/zecd.webp "Zecd")
-- Пристрої: Настільні 
+- Пристрої: Настільні
 - Операційна система: Linux
-- Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address | Private Key | Spending Key | Резервна копія гаманця / Експорт ключа | Гаманець повного вузла 
-- Пули: Transparent | Sapling | Orchard | Sprout
-- Функції: Encrypted Memo | Резервна копія гаманця (дані гаманця) | RPC-інтерфейс | Shielded Memo | Керування приватними ключами
-- Ironwood: Готовий
+- Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address | Приватний ключ | Ключ витрачання | Резервна копія гаманця / експорт ключів | Гаманець повного вузла
+- Пули: Прозорий | Sapling | Ironwood | Sprout
+- Функції: Зашифроване повідомлення | Резервна копія гаманця (дані гаманця) | Інтерфейс RPC | Захищене повідомлення | Керування приватними ключами
+- Ironwood: Готово
 
 ---
 
@@ -316,9 +316,9 @@
 ![logo](/content-images/zend.webp "Zend:Zcash Wallet")
 - Пристрої: Мобільні | Настільні
 - Операційна система: iOS | macOS
-- Підтримка гаманця: Seed Phrase | Passkey | Unified Address | Private Key | Self-Custody Wallet 
-- Пули: Transparent | Sapling | Orchard 
-- Функції: Self-Custody | Private Key Stored Locally | No KYC Required | No Zend Server Dependency for Wallet Activity | Encrypted Shielded Transaction | Відновлення seed-фрази | Shielded Memo | Автентифікація через Passkey
+- Підтримка гаманця: Seed Phrase | Passkey | Unified Address | Приватний ключ | Некостодіальний гаманець
+- Пули: Прозорий | Sapling | Ironwood
+- Функції: Самостійне зберігання | Приватний ключ зберігається локально | KYC не потрібен | Відсутність залежності від сервера Zend для активності гаманця | Зашифрована захищена транзакція | Відновлення за seed-фразою | Захищене повідомлення | Автентифікація за Passkey
 
 ---
 
@@ -326,18 +326,29 @@
 ![logo](/content-images/nozy.webp "Nozy Wallet")
 - Пристрої: Настільні | Браузер
 - Операційна система: Linux | iOS | macOS
-- Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address | Spending Key | HD Wallet | Керування приватними ключами 
-- Пули: Transparent | Sapling | Orchard 
-- Функції: Адресна книга | Підтримка Tor | Підтримка I2P | Інтеграція Zebra/Zebrad | Історія транзакцій | Експорт транзакцій | Локальне виведення witness | Динамічна комісія (ZIP-317) | Сумісність із NU6.2 | Підтримка міграції NU6.3 | Shielded Memo
-- Ironwood: Готовий
+- Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address | Ключ витрачання | HD-гаманець | Керування приватними ключами
+- Пули: Прозорий | Sapling | Ironwood
+- Функції: Адресна книга | Підтримка Tor | Підтримка I2P | Інтеграція Zebra/zebrad | Історія транзакцій | Експорт транзакцій | Локальне виведення свідків | Динамічна комісія (ZIP-317) | Сумісність з NU6.2 | Підтримка міграції NU6.3 | Захищене повідомлення
+- Ironwood: Готово
 
 ---
 
 ## [Zipher](https://github.com/atmospherelabs-dev/zipher-app)
 ![logo](/content-images/zipher.webp "Zipher")
-- Пристрої: Мобільні | Настільні 
-- Операційна система: Android | Windows | Linux (CLI and MCP Server) | iOS | macOS
-- Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address | Гаманець із кількома обліковими записами | Self-Custody Wallet | Керування приватними ключами | Підтримка агентного гаманця
-- Пули: Transparent | Sapling | Orchard 
-- Функції: NEAR Intents | Запити на платіж | Shielded Memo | Shielded-транзакції за замовчуванням | Testnet | Cross-chain обмін | CipherPay | Viewing Key | AI-агент | MCP Server | CLI-гаманець | FROST | Beta 
+- Пристрої: Мобільні | Настільні
+- Операційна система: Android | Windows | Linux (CLI та MCP-сервер) | iOS | macOS
+- Підтримка гаманця: Seed Phrase | Viewing Key | Unified Address | Гаманець із кількома обліковими записами | Некостодіальний гаманець | Керування приватними ключами | Підтримка гаманця агента
+- Пули: Прозорий | Sapling | Ironwood
+- Функції: NEAR Intents | Запити платежів | Захищене повідомлення | Захищена транзакція за замовчуванням | Тестова мережа | Міжланцюговий обмін | CipherPay | Viewing Key | AI-агент | MCP-сервер | CLI-гаманець | FROST | Бета
 - Ironwood: У процесі
+
+---
+
+## [Argos](https://argos.sovright.com/)
+![logo](/content-images/argos.webp "Argos")
+- Пристрої: Настільні
+- Операційна система: Windows | Linux | macOS
+- Підтримка гаманця: Seed Phrase | Ключ витрачання | Приватний ключ | Резервна копія гаманця / експорт ключів
+- Пули: Прозорий | Sapling | Ironwood | Sprout
+- Функції: Відновлення гаманця | Інтерфейс командного рядка | Захищене повідомлення | Підтримка тестової мережі
+- Ironwood: Готово

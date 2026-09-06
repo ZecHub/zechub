@@ -1,55 +1,55 @@
 # عرض توضيحي لـ MultiSig
 
-> **سجل تاريخي. لم يعد هذا الدليل يعمل.**
+> **تاريخي. لم يعد هذا الدليل الإرشادي يعمل.**
 >
-> تعتمد جميع الخطوات أدناه على zcashd، الذي بلغ توقفه التلقائي لانتهاء الدعم في 18 يوليو 2026. تقوم النصوص البرمجية السبعة المرفقة بهذه الصفحة بتشغيله عبر `zcash-cli`، لذا لا يمكن لأي منها الوصول إلى عقدة عاملة اليوم.
+> تعتمد كل خطوة أدناه على zcashd، الذي وصل إلى إيقافه التلقائي عند نهاية الدعم في 18 يوليو 2026. تشغّل النصوص البرمجية السبعة المرفقة بهذه الصفحة عبر `zcash-cli`، لذا لا يمكن لأيٍّ منها الوصول إلى عقدة عاملة اليوم.
 >
-> لا يمكن نقل هذه النصوص البرمجية آليًا: فهي مبنية على واجهات RPC للمعاملات الخام والمحفظة التي أهملها zcashd، ويستبدلها Zallet بطرق جديدة تعمل على PCZT بدلًا من hex المعاملة الخام.
+> لا يمكن نقل هذه النصوص البرمجية آليًا. فهي مبنية على واجهات RPC للمعاملات الخام والمحفظة (`createrawtransaction`، `signrawtransaction`، `createmultisig`، `dumpprivkey`) التي أوقف zcashd دعمها قبل الإيقاف؛ يستبدل Zallet تلك الواجهات بأساليب جديدة تعمل على PCZTs بدلًا من hex المعاملات الخام، ولا يزال في مرحلة beta مع وجود العديد من أساليب zcashd التي لم تُنقل بعد.
 >
-> للحفظ متعدد الأطراف على Zcash اليوم، راجع [FROST والحفظ العتبي](/zcash-tech/frost-threshold-custody) و[عرض FROST مع Ywallet](/guides/frostdemo/ywallet-frost-demo). لنقل عقدة قائمة من zcashd، راجع [دليل الانتقال إلى Zebra وZallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
+> للحفظ متعدد الأطراف على Zcash اليوم، راجع [FROST والحفظ بالعتبة](/zcash-tech/frost-threshold-custody)، الذي يتضمن مقارنة مباشرة مع multisig الشفاف، و[العرض التوضيحي العامل لـ Ywallet FROST](/guides/frostdemo/ywallet-frost-demo). لنقل عقدة قائمة من zcashd، راجع [دليل الترحيل إلى Zebra وZallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
 >
-> يتم الاحتفاظ بهذه الصفحة كسجل تاريخي لسير عمل multisig الشفاف.
+> تُحفظ هذه الصفحة كسجل تاريخي لتدفق عمل multisig الشفاف.
 
-يتطلب هذا العرض التوضيحي `zcashd` 
+يتطلب هذا العرض التوضيحي zcashd، الذي توقف في 18 يوليو 2026 ولم يعد يعمل. لا يمكن إكمال أي مما يلي على السلسلة الحية.
 
-## جمع المفاتيح العامة من الأفراد المطلوبين
+## اجمع المفاتيح العامة من الأفراد المطلوبين
 
 * https://github.com/iancoleman/bip39
-* إذا كنت تستخدم `zcashd`، يمكنك إنشاء UA واستخدام المستقبِل الشفاف الخاص بك أيضًا. ثم استخدم `getPubkey.sh` لاستخراج مفتاحك العام.
+* عند استخدام zcashd، يمكنك إنشاء UA واستخدام المستلِم الشفاف كذلك. ثم استخدم `getPubkey.sh` لاستخراج مفتاحك العام.
 
 
-## إنشاء عناوين t3 متعددة التوقيع 2x (2 من 3)
+## أنشئ عناوين t3 لـ Multisig ‏2x (2 من 3)
 
-شغّل `createMultiSig.sh` لإنشاء عنوانك متعدد التوقيع ونص الاسترداد. المطلوب هو 3 مفاتيح عامة
+شغّل createMultiSig.sh لإنشاء عنوان multisig الخاص بك ونص الاسترداد البرمجي. المطلوب هو 3 مفاتيح عامة
 
-`./createMultiSig.sh pubk1 pubk2 pubk3`      # أول t3
+`./createMultiSig.sh pubk1 pubk2 pubk3`      # عنوان t3 الأول
 
-`./createMultiSig.sh pubk4 pubk5 pubk6`      # ثاني t3 لعنوان الباقي. 
+`./createMultiSig.sh pubk4 pubk5 pubk6`      # عنوان t3 الثاني لعنوان الباقي. 
 
-#### ملاحظة: في هذا المثال pubk1,pubk4 هما لنفس الشخص، و pubk2,pubk5 هما لنفس الشخص وهكذا ...
+#### ملاحظة: في هذا المثال، pubk1 وpubk4 للشخص نفسه، وpubk2 وpubk5 للشخص نفسه، وهكذا ...
 
-#### ملاحظة 2: ترتيب مفاتيحك العامة مهم! انتبه إلى هذا!!!!
+#### ملاحظة 2: ترتيب مفاتيحك العامة مهم! انتبه لهذا!!!!
 
 
-## تمويل عنوان t3
+## موّل عنوان t3
 
 استخدم أي محفظة/صنبور لتمويل العنوان
 
-## إنشاء معاملة MultiSig
+## أنشئ معاملة MultiSig
 
 `./createMultiSigTX.sh txid voutIndex scriptPubKey redeemScript oldAmount tAddy amount changeTaddy`
 
 حيث،
 
 ```
-        txid: معرّف المعاملة التي أرسلت أموالًا إلى عنوان t3 الجديد الخاص بك
-   voutIndex: فهرس المخرج في vout الذي يحتوي على أكبر قيمة
-scriptPubKey: يحتوي نص القفل P2SH على تجزئة نص قفل آخر (Script Hash)، محاطًا بأكواد التشغيل HASH160 و EQUAL. يكون هذا بالصيغة الست عشرية، ويمكن العثور عليه عبر rpc ‏getrawtransaction، ابحث عن scriptPubKey
-redeemScript: القيمة الست عشرية لـ redeemScript التي تم إخراجها عند إنشاء t3 الخاص بنا. يحتاج إليها جميع الأشخاص الذين يريدون الإنفاق من t3.
-   oldAmount: المبلغ المُرسَل إلى t3 الجديد الخاص بك من txid أعلاه
-       tAddy: العنوان الذي تريد إرسال الأموال إليه
-      amount: مقدار ZEC الذي سيتم إرساله إلى tAddy
- changeTaddy: عنوان الباقي (t3 جديد مع redeemScript جديد!)
+        txid: a transaction ID of the transaction that sent money into your new t3
+   voutIndex: the index of the output in vout which has the largest value
+scriptPubKey: The P2SH locking script contains the hash of another locking script (Script Hash), surrounded by the HASH160 and EQUAL opcodes. This is in hex, and is found via getrawtransaction rpc, look for scriptPubKey
+redeemScript: The hex value of the redeemScript that was output when creating our t3. This is needed by all folks who want to spend from the t3.
+   oldAmount: Amount sent to your new t3 from the txid above
+       tAddy: The address you want to send funds to
+      amount: The amount of ZEC to send to tAddy
+ changeTaddy: Change address (new t3 with a new redeemScript!)
 
 ```
 
@@ -69,26 +69,28 @@ scriptPubKey      : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed
 
 
 
-## توقيع معاملة MultiSig
+## وقّع معاملة MultiSig
 
-افتح `signMultiSigTX.sh` وأضف مفاتيحك الخاصة في المتغيرات `pk1,pk2, ...`.
+افتح signMultiSigTX.sh وأضف مفاتيحك الخاصة في المتغيرات pk1 وpk2، ...
  
 
-*** لا أوصي بكتابة هذه في الطرفية الخاصة بك. ***
+*** لا أوصي بإدخال هذه في الطرفية لديك. ***
 
 
 إذا كان لديك وصول إلى جميع مفاتيحك الخاصة، يمكنك استخدامها كلها دفعة واحدة لتوفير الوقت،
-لكن في معظم الأمثلة الواقعية، سيتم التوقيع بواسطة أشخاص من أنحاء العالم، لذا سيحتاج كل مشارك مطلوب إلى التوقيع،
-ثم إعادة إرسال مخرجات "hex" المحدّثة لـ raxTX التي سيستخدمها الآخرون للتوقيع من أجل إكمال إجراء التوقيع.
+لكن في معظم الأمثلة الواقعية، سيتم التوقيع من خلال أشخاص حول العالم، لذا سيحتاج كل مشارك مطلوب إلى التوقيع،
+ثم إعادة إرسال مخرجات hex المحدّثة لـ raxTX، والتي سيستخدمها الآخرون للتوقيع لإكمال عملية التوقيع.
 
-من ينشئ المعاملة الأولى سيوقّع بمفتاحه الخاص ويرسل قيمة rawTX hex المحدّثة التي تحتاج إلى أن يوقّعها المشاركون الآخرون.
+سيوقّع من ينشئ المعاملة الأولى بمفتاحه الخاص ويرسل hex المحدّث لـ rawTX الذي يحتاج إلى توقيعه المشاركون الآخرون.
 
 `./signMultiSigTX.sh rawTX txid voutIndex scriptPubKey redeemScript valueInitialTX`
 
-لتوقيع هذه المعاملة، يجب أن يوقّع عليها مفتاحان خاصان على الأقل من أصل ثلاثة. إذا كان المفتاح العام الذي قدمته قد تم تصديره باستخدام عنوان T من `zcashd`، فيمكنك الحصول على المفتاح الخاص لعنوان T الخاص بك عبر: 
+لتوقيع هذه المعاملة، يجب أن يوقّع عليها مفتاحان خاصان على الأقل من المفاتيح الثلاثة. إذا كان المفتاح العام الذي قدّمته قد صُدِّر باستخدام عنوان T من zcashd، يمكنك الحصول على المفتاح الخاص لعنوان T الخاص بك عبر: 
 
 
 `zcash-cli dumpprivkey "t-addr"`
+
+توقف هذا الأمر مع zcashd ولا يعيد شيئًا اليوم؛ وهو مسجل هنا فقط لإظهار كيفية حصول العرض التوضيحي على مفاتيحه.
 
 
 في هذا العرض التوضيحي، استخدمت bip39 الخاص بـ iancoleman لعزل المفاتيح الخاصة المطلوبة بسرعة.

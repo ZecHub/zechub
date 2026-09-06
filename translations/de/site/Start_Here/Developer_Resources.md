@@ -5,61 +5,103 @@
 
 # Entwicklerressourcen
 
-**Eine Liste der empfohlenen Ressourcen für neue Entwickler im Zcash-Ökosystem**
+Die Ressourcen, die du brauchst, um auf Zcash aufzubauen – nach ihrem jeweiligen Zweck gruppiert, statt alles auf einen Haufen zu werfen.
 
-Breiter Überblick darüber, wie Blockchains & Zcash funktionieren:
+Der Stack hat sich 2026 stark verändert. zcashd, das während des Großteils seiner Geschichte das Netzwerk betrieb, erreichte am 18. Juli 2026 bei Blockhöhe 3417100 sein Lebensende, und jeder unveränderte Knoten wurde bei dieser Höhe heruntergefahren und wird den Neustart verweigern. Anleitungen für zcashd sind nun Geschichte statt Ausgangspunkt; daher ist diese Seite nach den jeweiligen Nachfolgern organisiert.
 
-[Zcash-Dokumentation](https://zcash.readthedocs.io/en/latest/)
+## Der Stack auf einen Blick
 
-[Mastering Bitcoin: Programming The Open Blockchain](https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4)
+| Ebene | Was verwendet werden sollte | Einstieg |
+|:--|:--|:--|
+| Vollknoten | Zebra oder Zakura | [Das Zebra-Buch](https://zebra.zfnd.org/), [zakura.com](https://zakura.com/) |
+| Vollknoten-Wallet | Zallet, in Beta | [Das Zallet-Buch](https://zcash.github.io/zallet/) |
+| Light-Wallet-Server | Zaino oder lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
+| Wallet-Bibliotheken | Die librustzcash-Crates | [librustzcash](https://github.com/zcash/librustzcash) |
+| Mobilgeräte | Android- und iOS-SDKs | [Android](https://github.com/zcash/zcash-android-wallet-sdk), [iOS](https://github.com/zcash/zcash-swift-wallet-sdk) |
+| Spezifikation | Protokollspezifikation und ZIPs | [zips.z.cash](https://zips.z.cash) |
 
-[Zcashd RPCs](https://zcash.github.io/rpc/)
+## Knoten
 
-[Das Zcashd-Buch](https://zcash.github.io/zcash/)
+Ein Knoten validiert den Konsens und speichert die Chain. Es gibt zwei aktiv entwickelte Implementierungen.
 
-[Das Zebrad-Buch](https://zebra.zfnd.org/)
+[Zebra](/zcash-tech/zebra-full-node) ist der Knoten der Zcash Foundation, in Rust geschrieben, und derjenige, von dem die meisten Anleitungen inzwischen ausgehen. [Das Zebra-Buch](https://zebra.zfnd.org/) behandelt Installation und Betrieb, und im [Repository](https://github.com/ZcashFoundation/zebra) findet die Entwicklung statt.
 
-[Light-Client-Protokoll](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html)
+[Zakura](/zcash-tech/zakura-node) ist ein neuerer Knoten, den seine Autoren als „konsenskompatiblen Zcash-Vollknoten, der für Skalierung entwickelt wurde“ beschreiben, mit schnellerer Synchronisierung, Block-Pruning und einem zcashd-Kompatibilitätsmodus. Er wird von Sean Bowe, einem Zcash-Mitgründer, und Dev Ojha geleitet. Er ist unter Apache 2.0 als Open Source bei [zakura-core/zakura](https://github.com/zakura-core/zakura) verfügbar.
 
-[Android Mobile SDK](https://github.com/zcash/zcash-android-wallet-sdk) / [iOS Mobile SDK](https://github.com/zcash/ZcashLightClientKit)
+ZecHub hat eine Seite zu [Vollknoten](/zcash-tech/full-nodes), die die Abwägungen zwischen ihnen behandelt.
 
-Zum Aufbau eines Verständnisses dafür, wie Abhängigkeiten von den Teams geprüft und gepflegt werden:
+## Das Vollknoten-Wallet
 
-[ZIP-Liste](https://zips.z.cash)
+zcashd bündelte ein Wallet mit dem Knoten. Dieses Wallet gibt es nicht mehr, und [Zallet](https://github.com/zcash/zallet) ist der Ersatz. Das Zallet-Buch beschreibt es als „ein in Rust geschriebenes Zcash-Vollknoten-Wallet“, das „als Ersatz für das zcashd-Wallet entwickelt wird“.
 
-[Adresskodierung](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys)
+Lies die Sicherheitswarnung, bevor du dich darauf verlässt. Zallet befindet sich in der Beta, „wurde nicht vollständig geprüft“, grundlegende Änderungen „können jederzeit auftreten und erfordern möglicherweise, dass du dein Zallet-Wallet löschst und neu erstellst“, und noch ist nicht jede zcashd-RPC-Methode portiert.
 
-[Zebrad-Repository](https://github.com/ZcashFoundation/zebra) / [Zebrad Pull Requests](https://github.com/ZcashFoundation/zebra/pulls)
+Wenn du ein bestehendes Setup migrierst, hat ZecHub eine [Migrationsanleitung von zcashd zu Zebra und Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) sowie eine [Zallet-Kurzreferenz](/using-zcash/zallet-quick-reference-guide).
 
-[Bibliotheken für kryptografische Signaturen](https://github.com/orgs/ZcashFoundation/repositories?type=all)
+## Light-Wallet-Server
 
-[Das Halo 2-Buch](https://zcash.github.io/halo2/index.html)
+Die meisten Wallets betreiben keinen Knoten. Sie kommunizieren mit einem Server, der die Chain speichert und eine kompakte Ansicht davon zurückgibt.
 
-[Das Orchard-Buch](https://zcash.github.io/orchard/)
+[lightwalletd](https://github.com/zcash/lightwalletd) ist der ursprüngliche Dienst, in Go geschrieben und beschrieben als „ein Backend-Dienst, der eine bandbreiteneffiziente Schnittstelle zur Zcash-Blockchain bereitstellt“. [Zaino](/zcash-tech/zaino) ist der neuere Indexer, in Rust geschrieben, und liest von einem vollständigen Validator, statt eine eigene Kopie der Chain zu führen.
 
-[Halo2-Crate](https://docs.rs/halo2_proofs/latest/halo2_proofs/) / [Orchard-Crate](https://docs.rs/orchard/latest/orchard/)
+Die Dokumentation zum [Light-Client-Protokoll](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html) behandelt das Protokoll selbst. Die Seite [Lightwallet-Knoten](/zcash-tech/lightwallet-nodes) behandelt, was diese Server über einen Nutzer sehen können und was nicht – das solltest du verstehen, bevor du einen auswählst.
 
-[Zcash R&D Discord](https://discord.gg/6AK7keWFaK)
+## Ein Wallet entwickeln
 
-[Das FROST-Buch](https://frost.zfnd.org/)
+Die meiste Wallet-Arbeit findet in den Rust-Crates unter [librustzcash](https://github.com/zcash/librustzcash) statt, auf denen die mobilen SDKs und mehrere Desktop-Wallets aufbauen. Jede Crate ist auf [docs.rs](https://docs.rs) dokumentiert.
 
-[Ergebnisse des ZecHub Hackathons 2024](https://x.com/ZecHub/status/1845212469809033489)
+| Crate | Wofür sie gedacht ist |
+|:--|:--|
+| zcash_client_backend | „APIs zum Erstellen abgeschirmter Zcash-Light-Clients“, einschließlich Synchronisierung und Transaktionserstellung |
+| zcash_client_sqlite | „Ein SQLite-basierter Zcash-Light-Client“, die Speicherschicht für das Obige |
+| zcash_keys | „Zcash-Schlüssel- und Adressverwaltung“ |
+| zcash_primitives | „Rust-Implementierungen der Zcash-Primitiven“ |
+| zcash_protocol | „Zcash-Protokollnetzwerkkonstanten und Werttypen“ |
+| orchard | „Das Orchard-Protokoll für abgeschirmte Transaktionen“ |
+| sapling-crypto | „Kryptografische Bibliothek für Zcash Sapling“ |
+| pczt | „Werkzeuge zum Arbeiten mit teilweise erstellten Zcash-Transaktionen“, verwendet für Hardware- und geräteübergreifendes Signieren |
+| zip321 | Zahlungsanforderungs-URIs gemäß ZIP 321 |
 
-[Ergebnisse des ZecHub Hackathons 2025](https://x.com/ZecHub/status/1975565960661635283)
+Für Mobilgeräte umschließen das [Android SDK](https://github.com/zcash/zcash-android-wallet-sdk) und das [iOS SDK](https://github.com/zcash/zcash-swift-wallet-sdk) diese Bibliotheken. Das iOS-Repository hieß früher ZcashLightClientKit, daher verwenden ältere Links und Artikel diesen Namen.
 
-[Ergebnisse des Zypherpunk Hackathons 2025](https://forum.zcashcommunity.com/t/zypherpunk-hackathon-winners/53985)
+## Spezifikation und Kryptografie
 
-[Arti ToR-Client in Rust](https://docs.rs/arti/latest/arti/)
+Die [Protokollspezifikation](https://zips.z.cash/protocol/protocol.pdf) ist die maßgebliche Quelle dafür, wie Zcash funktioniert, einschließlich [Adress- und Schlüsselkodierungen](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys).
 
-[Tailscale](https://github.com/tailscale/tailscale)
+[ZIPs](https://zips.z.cash) sind der Ort, an dem Änderungen vorgeschlagen und spezifiziert werden; der Index zeigt, welche Entwürfe und welche final sind. Konsensänderungen werden in Netzwerk-Upgrades ausgeliefert, und ZecHub verfolgt diese auf der Seite [Netzwerk-Upgrades](/start-here/network-upgrades).
 
-[Zcash-Wallet Warp2-Sync von Hanh](https://github.com/hhanh00/warp2)
+Für die zugrunde liegende Kryptografie lies [Das halo2-Buch](https://zcash.github.io/halo2/index.html) und [Das Orchard-Buch](https://zcash.github.io/orchard/), zusammen mit den Crate-Dokumentationen zu [halo2](https://docs.rs/halo2_proofs/latest/halo2_proofs/) und [orchard](https://docs.rs/orchard/latest/orchard/). [Das FROST-Buch](https://frost.zfnd.org/) behandelt Schwellenwertsignaturen, und ZecHub hat eine Seite zu [FROST](/zcash-tech/frost).
 
-[Zcash Testnet Explorer](https://testnet.zcashblockexplorer.com/)
+## Testnet
 
+Das Testnet ist eine separate Chain mit wertlosen Coins namens TAZ. Sowohl Zebra als auch Zakura können damit betrieben werden, und die [Testnet-Anleitung](https://zcash.readthedocs.io/en/latest/rtd_pages/testnet_guide.html) behandelt die Knotenkonfiguration.
 
-Diese Liste wurde aus Empfehlungen zusammengestellt, die Entwickler der Zcash Foundation & ECC gegeben haben.
+[testnet.zcashexplorer.app](https://testnet.zcashexplorer.app/) ist ein funktionierender Testnet-Blockexplorer mit einem Mainnet-Gegenstück unter [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app/).
 
-Wenn du zusätzliche Ressourcen (Links, Bücher, Kanäle usw.) hast, um die Liste zu aktualisieren, kannst du sie gerne hinzufügen!
+TAZ zu erhalten, ist der schwierige Teil. Öffentliche Faucets kommen und gehen, und die in älterer Dokumentation verlinkten reagierten nicht, als diese Seite geschrieben wurde. Der verlässliche Weg ist, im Zcash R&D Discord zu fragen, was auch die Zcash-Dokumentation selbst vorschlägt.
 
-*Die Teams haben nicht immer die Ressourcen, alles vollständig aktuell zu halten, aber das Eröffnen von Issues, auf die du stößt, hilft dabei, die Richtung von Leitfäden & Ressourcen zu bestimmen*
+## Allgemeine Dokumentation
+
+[Zcash-Dokumentation](https://zcash.readthedocs.io/en/latest/) ist weiterhin die umfassendste einzelne Quelle und behandelt Protokollkonzepte, Integration und Mining. Lies sie mit etwas Vorsicht. Sie ist gegen zcashd versioniert, sodass Teile davon einen Knoten beschreiben, der nicht mehr läuft, während die Abschnitte zum Protokoll und zu Light-Clients weiterhin nützlich sind. Das dort verfügbare [Bedrohungsmodell der Zcash-Wallet-App](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html) ist lesenswert, bevor du etwas entwickelst, das die Privatsphäre von Nutzern berührt.
+
+Wenn du bei Blockchains allgemein neu bist, ist [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook) die übliche Empfehlung für die gemeinsamen Grundlagen und kann kostenlos vollständig gelesen werden. Abgeschirmte Transaktionen werden darin nicht behandelt.
+
+## Andere Tools, die Entwickler erwähnt haben
+
+[Arti](https://docs.rs/arti/latest/arti/) ist die Rust-Implementierung von Tor und wird von zcash_client_backend verwendet, um Wallet-Datenverkehr weiterzuleiten. [Tailscale](https://github.com/tailscale/tailscale) kommt auf, um sich mit einem selbst betriebenen Knoten zu verbinden. [warp2](https://github.com/hhanh00/warp2) ist eine schnelle Synchronisierungsimplementierung von Hanh, wurde allerdings seit 2023 nicht aktualisiert.
+
+## Community und Veranstaltungen
+
+Im [Zcash R&D Discord](https://discord.gg/6AK7keWFaK) werden Protokoll- und Wallet-Entwicklung diskutiert, und das [Zcash Community Forum](https://forum.zcashcommunity.com/) enthält ausführlichere Vorschläge und Support-Threads.
+
+Aktuelle Hackathon-Ergebnisse vermitteln ein gutes Bild davon, was Menschen entwickeln: [ZecHub 2024](https://x.com/ZecHub/status/1845212469809033489), [ZecHub 2025](https://x.com/ZecHub/status/1975565960661635283) und der [Zypherpunk Hackathon 2025](https://forum.zcashcommunity.com/t/zypherpunk-hackathon-winners/53985).
+
+## Eingestellte Ressourcen
+
+Sie bleiben erhalten, weil ältere Artikel auf sie verlinken und weil sie weiterhin die Referenz dafür sind, wie sich der eingestellte Knoten verhielt. Beginne nicht hier.
+
+[Das Zcashd-Buch](https://zcash.github.io/zcash/) und die [zcashd-RPC-Referenz](https://zcash.github.io/rpc/) dokumentieren Software, die im Juli 2026 ihr [Lebensende](https://zcash.github.io/zcash/user/end-of-life.html) erreichte. Das Repository [zcash/zcash](https://github.com/zcash/zcash) ist archiviert.
+
+Wenn du eine Ressource hinzufügen möchtest oder etwas findest, das hier veraltet ist, eröffne ein Issue oder einen Pull Request. Teams haben nicht immer die Kapazität, alles aktuell zu halten, und ein Hinweis darauf, worauf du gestoßen bist, hilft dabei, die Anleitungen gezielt weiterzuentwickeln.
+
+**Zuletzt aktualisiert:** August 2026

@@ -3,63 +3,105 @@
 </a>
 
 
-# Ресурсы для разработчиков 
+# Ресурсы для разработчиков
 
-**Список рекомендуемых ресурсов для новых разработчиков Zcash**
+Ресурсы, необходимые для разработки на Zcash, сгруппированные по назначению, а не собранные в одном списке.
 
-Общий обзор того, как работают блокчейны и Zcash:
+Стек существенно изменился в 2026 году. zcashd, который обеспечивал работу сети большую часть её истории, достиг окончания срока поддержки 18 июля 2026 года на высоте блока 3417100, и каждый немодифицированный узел остановился на этой высоте и откажется перезапускаться. Руководства, написанные для zcashd, теперь представляют историческую ценность, а не отправную точку, поэтому эта страница организована вокруг того, что пришло ему на смену.
 
-[Документация Zcash](https://zcash.readthedocs.io/en/latest/)
+## Краткий обзор стека
 
-[Осваивая Bitcoin: программирование открытого блокчейна](https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4)
+| Уровень | Что использовать | Начните с |
+|:--|:--|:--|
+| Полный узел | Zebra или Zakura | [Книга Zebra](https://zebra.zfnd.org/), [zakura.com](https://zakura.com/) |
+| Кошелёк полного узла | Zallet, в бета-версии | [Книга Zallet](https://zcash.github.io/zallet/) |
+| Сервер лёгкого кошелька | Zaino или lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
+| Библиотеки кошельков | Крейты librustzcash | [librustzcash](https://github.com/zcash/librustzcash) |
+| Мобильные устройства | Android- и iOS-SDK | [Android](https://github.com/zcash/zcash-android-wallet-sdk), [iOS](https://github.com/zcash/zcash-swift-wallet-sdk) |
+| Спецификация | Спецификация протокола и ZIP | [zips.z.cash](https://zips.z.cash) |
 
-[RPC-интерфейсы Zcashd](https://zcash.github.io/rpc/)
+## Узлы
 
-[Книга по Zcashd](https://zcash.github.io/zcash/)
+Узел проверяет консенсус и хранит цепочку блоков. Существуют две активно разрабатываемые реализации.
 
-[Книга по Zebrad](https://zebra.zfnd.org/)
+[Zebra](/zcash-tech/zebra-full-node) — узел Zcash Foundation, написанный на Rust; именно его предполагает большинство современных руководств. [Книга Zebra](https://zebra.zfnd.org/) рассказывает об его установке и запуске, а [репозиторий](https://github.com/ZcashFoundation/zebra) — место, где ведётся разработка.
 
-[Протокол легкого клиента](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html)
+[Zakura](/zcash-tech/zakura-node) — более новый узел, описываемый авторами как «совместимый с консенсусом полный узел Zcash, созданный для масштабирования», с более быстрой синхронизацией, отсечением блоков и режимом совместимости с zcashd. Его возглавляют Шон Боу, сооснователь Zcash, и Дев Оджха. Его исходный код открыт под лицензией Apache 2.0 в [zakura-core/zakura](https://github.com/zakura-core/zakura).
 
-[Мобильный SDK для Android](https://github.com/zcash/zcash-android-wallet-sdk) / [Мобильный SDK для iOS](https://github.com/zcash/ZcashLightClientKit)
+У ZecHub есть страница [Полные узлы](/zcash-tech/full-nodes), описывающая компромиссы между ними.
 
-Понимание того, как команды проверяют и поддерживают зависимости:
+## Кошелёк полного узла
 
-[Список ZIP](https://zips.z.cash)
+zcashd включал в себя кошелёк вместе с узлом. Этот кошелёк больше не существует, и ему на смену пришёл [Zallet](https://github.com/zcash/zallet). Книга Zallet описывает его как «полноузловой кошелёк Zcash, написанный на Rust», который «создаётся в качестве замены кошельку zcashd».
 
-[Кодирование адресов](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys)
+Прочтите предупреждение по безопасности, прежде чем полагаться на него. Zallet находится в бета-версии, «не прошёл полную проверку», критические изменения «могут произойти в любой момент и потребовать удалить и заново создать ваш кошелёк Zallet», и ещё не все методы RPC zcashd были перенесены.
 
-[Репозиторий Zebrad](https://github.com/ZcashFoundation/zebra) / [Pull Request’ы Zebrad](https://github.com/ZcashFoundation/zebra/pulls)
+Если вы переносите существующую конфигурацию, у ZecHub есть [руководство по миграции с zcashd на Zebra и Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) и [краткий справочник Zallet](/using-zcash/zallet-quick-reference-guide).
 
-[Библиотеки криптографических подписей](https://github.com/orgs/ZcashFoundation/repositories?type=all)
+## Серверы лёгких кошельков
 
-[Книга по halo 2](https://zcash.github.io/halo2/index.html)
+Большинство кошельков не запускают узел. Они обращаются к серверу, который хранит цепочку блоков и возвращает её компактное представление.
 
-[Книга по orchard](https://zcash.github.io/orchard/)
+[lightwalletd](https://github.com/zcash/lightwalletd) — исходный сервис, написанный на Go и описываемый как «бэкенд-сервис, предоставляющий интерфейс с эффективным использованием пропускной способности для блокчейна Zcash». [Zaino](/zcash-tech/zaino) — более новый индексатор, написанный на Rust, который считывает данные с полного валидатора вместо хранения собственной копии цепочки.
 
-[Крейт Halo2](https://docs.rs/halo2_proofs/latest/halo2_proofs/) / [Крейт Orchard](https://docs.rs/orchard/latest/orchard/)
+Документация [Протокола лёгкого клиента](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html) описывает сам протокол. Страница [Узлы лёгких кошельков](/zcash-tech/lightwallet-nodes) рассказывает, что эти серверы могут и не могут видеть о пользователе; это стоит понять до выбора сервера.
 
-[Discord Zcash R&D](https://discord.gg/6AK7keWFaK)
+## Создание кошелька
 
-[Книга по FROST](https://frost.zfnd.org/)
+Большая часть работы над кошельками происходит в Rust-крейтах [librustzcash](https://github.com/zcash/librustzcash), на которых построены мобильные SDK и несколько настольных кошельков. Каждый крейт документирован на [docs.rs](https://docs.rs).
 
-[Результаты хакатона Zechub 2024](https://x.com/ZecHub/status/1845212469809033489)
+| Крейт | Для чего он предназначен |
+|:--|:--|
+| zcash_client_backend | «API для создания экранированных лёгких клиентов Zcash», включая синхронизацию и создание транзакций |
+| zcash_client_sqlite | «Лёгкий клиент Zcash на основе SQLite», слой хранения для указанного выше |
+| zcash_keys | «Управление ключами и адресами Zcash» |
+| zcash_primitives | «Реализации примитивов Zcash на Rust» |
+| zcash_protocol | «Сетевые константы протокола Zcash и типы значений» |
+| orchard | «Протокол экранированных транзакций Orchard» |
+| sapling-crypto | «Криптографическая библиотека для Zcash Sapling» |
+| pczt | «Инструменты для работы с частично созданными транзакциями Zcash», используемые для аппаратного и многосистемного подписания |
+| zip321 | URI запросов на оплату, определённые в ZIP 321 |
 
-[Результаты хакатона Zechub 2025](https://x.com/ZecHub/status/1975565960661635283)
+Для мобильных устройств [Android SDK](https://github.com/zcash/zcash-android-wallet-sdk) и [iOS SDK](https://github.com/zcash/zcash-swift-wallet-sdk) обёртывают эти библиотеки. Репозиторий iOS ранее назывался ZcashLightClientKit, поэтому в старых ссылках и статьях используется это название.
 
-[Результаты хакатона Zypherpunk 2025](https://forum.zcashcommunity.com/t/zypherpunk-hackathon-winners/53985)
+## Спецификация и криптография
 
-[Клиент Arti ToR на Rust](https://docs.rs/arti/latest/arti/)
+[Спецификация протокола](https://zips.z.cash/protocol/protocol.pdf) является авторитетным источником о том, как работает Zcash, включая [кодировки адресов и ключей](https://zips.z.cash/protocol/protocol.pdf#5.6%20Encodings%20of%20Addresses%20and%20Keys).
 
-[Tailscale](https://github.com/tailscale/tailscale)
+[ZIP](https://zips.z.cash) — место, где предлагаются и специфицируются изменения; индекс показывает, какие из них являются черновиками, а какие окончательными. Изменения консенсуса выпускаются в сетевых обновлениях, а ZecHub отслеживает их на странице [Сетевые обновления](/start-here/network-upgrades).
 
-[Кошелек Zcash Warp2-Sync от Hanh](https://github.com/hhanh00/warp2)
+О лежащей в основе криптографии читайте в [Книге halo2](https://zcash.github.io/halo2/index.html) и [Книге Orchard](https://zcash.github.io/orchard/), а также в документации крейтов [halo2](https://docs.rs/halo2_proofs/latest/halo2_proofs/) и [orchard](https://docs.rs/orchard/latest/orchard/). [Книга FROST](https://frost.zfnd.org/) посвящена пороговым подписям, а у ZecHub есть страница [FROST](/zcash-tech/frost).
 
-[Обозреватель тестнета Zcash](https://testnet.zcashblockexplorer.com/)
+## Тестовая сеть
 
+Тестовая сеть — отдельная цепочка с не имеющими стоимости монетами, называемыми TAZ. И Zebra, и Zakura могут работать с ней, а [руководство по тестовой сети](https://zcash.readthedocs.io/en/latest/rtd_pages/testnet_guide.html) описывает настройку узла.
 
-Этот список был составлен на основе рекомендаций, предоставленных разработчиками из Zcash Foundation и ECC. 
+[testnet.zcashexplorer.app](https://testnet.zcashexplorer.app/) — работающий обозреватель блоков тестовой сети; его аналог для основной сети находится на [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app/).
 
-Если у вас есть дополнительные ресурсы (ссылки, книги, каналы и т. д.), которыми можно обновить список, смело добавляйте их!
+Получение TAZ — неудобная часть. Публичные краны появляются и исчезают, а те, на которые ссылалась старая документация, не отвечали на момент написания этой страницы. Надёжный путь — спросить в Discord Zcash R&D, что рекомендует и сама документация Zcash.
 
-*У команд не всегда есть ресурсы, чтобы поддерживать всё в полностью актуальном состоянии, но открытие issues, с которыми вы сталкиваетесь, поможет определить направление для руководств и ресурсов*
+## Общая документация
+
+[Документация Zcash](https://zcash.readthedocs.io/en/latest/) остаётся самым широким единым источником, охватывающим концепции протокола, интеграцию и майнинг. Читайте её с некоторой осторожностью. Она привязана к версии zcashd, поэтому некоторые её части описывают узел, который больше не работает, тогда как разделы о протоколе и лёгком клиенте остаются полезными. [Модель угроз приложения-кошелька Zcash](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html), размещённая там, заслуживает прочтения перед разработкой чего-либо, затрагивающего конфиденциальность пользователей.
+
+Если вы в целом новичок в блокчейнах, [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook) — обычная рекомендация для изучения общих основ; книгу можно прочитать полностью бесплатно. Она не охватывает экранированные транзакции.
+
+## Другие инструменты, упомянутые разработчиками
+
+[Arti](https://docs.rs/arti/latest/arti/) — реализация Tor на Rust, используемая zcash_client_backend для маршрутизации трафика кошелька. [Tailscale](https://github.com/tailscale/tailscale) часто упоминается для подключения к узлу, который вы запускаете самостоятельно. [warp2](https://github.com/hhanh00/warp2) — быстрая реализация синхронизации от Hanh, хотя она не обновлялась с 2023 года.
+
+## Сообщество и события
+
+В [Discord Zcash R&D](https://discord.gg/6AK7keWFaK) обсуждаются разработка протокола и кошельков, а на [Форуме сообщества Zcash](https://forum.zcashcommunity.com/) публикуются более развёрнутые предложения и ветки поддержки.
+
+Результаты недавних хакатонов хорошо показывают, что создают люди: [ZecHub 2024](https://x.com/ZecHub/status/1845212469809033489), [ZecHub 2025](https://x.com/ZecHub/status/1975565960661635283) и [Zypherpunk Hackathon 2025](https://forum.zcashcommunity.com/t/zypherpunk-hackathon-winners/53985).
+
+## Устаревшие ресурсы
+
+Сохранены, поскольку на них ссылаются старые статьи и потому что они всё ещё являются справочником о поведении выведенного из эксплуатации узла. Не начинайте отсюда.
+
+[Книга Zcashd](https://zcash.github.io/zcash/) и [справочник RPC zcashd](https://zcash.github.io/rpc/) документируют программное обеспечение, достигшее [окончания срока поддержки](https://zcash.github.io/zcash/user/end-of-life.html) в июле 2026 года. Репозиторий [zcash/zcash](https://github.com/zcash/zcash) архивирован.
+
+Если у вас есть ресурс, который следует добавить, или вы заметили здесь устаревшую информацию, создайте issue или pull request. У команд не всегда есть возможность поддерживать всё в актуальном состоянии, и сообщение о том, с чем вы столкнулись, помогает направлять работу над руководствами.
+
+**Последнее обновление:** август 2026
