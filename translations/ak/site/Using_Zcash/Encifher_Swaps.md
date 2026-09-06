@@ -51,7 +51,7 @@ Kɔ **Wrap** ɔfa no so. Paw **SOL** anaa **USDC**, kyerɛw sika dodow no, na si
 ---
 
 ###  Anamɔn 3: Siesie Wo Zodl Sikakorabea 
-Twe [**Zodl** na ɔde ne nsa kyerɛɛ ne so.](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dco.electriccoin.zcash%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Ddownload%2Bzashi%26pcampaignid%3DAPPU_1_BU7zaJ3oL8CEhbIP373a0Qs&ved=2ahUKEwjd_p7KqK2QAxVAQkEAHd-eNroQ5YQBegQIDRAC&usg=AOvVaw2x5eoefTu-3dkuC3ujc4cn), the official Zcash wallet by Electric Coin Co. Kɔpi wo **Unified Address** fi Receive tab no so - ɛboa ZEC a ɛda adi ne nea wɔabɔ ho ban nyinaa. Fa wo aba kasasin no sie yiye ansa na woatoa so. 
+Twe [**Zodl** na ɔde ne nsa kyerɛɛ ne so.](https://zodl.com), Zcash sika kotoku a ZODL hwɛ so. Kɔpi wo **Unified Address** fi Receive tab no so - ɛboa ZEC a ɛda adi ne nea wɔabɔ ho ban nyinaa. Fa wo aba kasasin no sie yiye ansa na woatoa so. 
 
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)

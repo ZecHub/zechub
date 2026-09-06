@@ -1,18 +1,18 @@
-# Àwòfiṣàpẹẹrẹ MultiSig
+# Àmì àfihàn MultiSig
 
-> **Àkọsílẹ̀ ìtàn. Ìtọ́sọ́nà yìí kò ṣiṣẹ́ mọ́.**
+> Ìtàn. Àlàyé yìí kò sí lórí ìkànnì wa mọ́.**
 >
-> Gbogbo àwọn ìgbésẹ̀ tí ó wà nísàlẹ̀ dá lórí zcashd, tí ó dé ìdúró aládàáṣe ti òpin àtìlẹ́yìn ní ọjọ́ 18 July 2026. Àwọn ìwé àṣẹ méje tí ó bá ojú-ìwé yìí wá ń darí rẹ̀ láti inú `zcash-cli`, nítorí náà kò sí ọ̀kan nínú wọn tí ó lè dé ọ̀nà-àsopọ̀ tí ń ṣiṣẹ́ lónìí.
+> Gbogbo igbesẹ ti o wa ni isalẹ da lori zcashd, eyi to de opin atilẹyin rẹ laifọwọyi ni 18 Keje 2026. Awọn iwe afọwọkọ meje ti a firanṣẹ lẹgbẹẹ oju-iwe yii ṣe awakọ nipasẹ `zcash-cli`, bẹ́ẹ̀ ni kò sí ọ̀kan nínú wọn tó lè dé ibi tí ó ń ṣiṣẹ́ lónìí.
 >
-> A kò lè gbé àwọn ìwé àṣẹ wọ̀nyí lọ ní ọ̀nà ẹ̀rọ: wọ́n dá lórí RPC ti ìdúnàádúrà rọ̀ àti ti àpò owó tí zcashd ti sọ di àtijọ́, Zallet sì fi àwọn ọ̀nà tuntun tí ń ṣiṣẹ́ lórí PCZT dípò hex ìdúnàádúrà rọ̀ rọ́pò wọn.
+> Awọn iwe afọwọkọ wọnyi ko le ṣe gbigbe ni ẹrọ. Wọn ti kọ lori awọn iṣowo-alálàá ati apamọwọ RPCs (`createrawtransaction`, `signrawtransaction`, `createmultisig`, `dumpprivkey`) ti zcashd ko ni anfani ṣaaju ki o to duro; Zallet rọpo awọn pẹlu awọn ọna tuntun ti n ṣiṣẹ lori PCZTs dipo ju hex iṣowo alailẹgbẹ, ati pe o tun wa ninu beta pẹlu ọpọlọpọ awọn ilana zcashD ti a ko tii gbe.
 >
-> Fún ìtọ́jú onípìn-ọ̀pọ̀ lórí Zcash lónìí, wo [FROST àti ìtọ́jú ààlà](/zcash-tech/frost-threshold-custody) àti [àfihàn FROST pẹ̀lú Ywallet](/guides/frostdemo/ywallet-frost-demo). Láti gbé ọ̀nà-àsopọ̀ tí ó wà tẹ́lẹ̀ kúrò ní zcashd, wo [ìtọ́sọ́nà ìṣíkiri sí Zebra àti Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet).
+> Fun ààbò ọ̀pọ̀-ẹgbẹ́ lórí Zcash lónìí, wo: [FROST & Threshold Custody](/zcash-tech/frost-threshold-custody), eyi ti o pẹlu kan taara afiwe pẹlu ṣiṣan multicast, ati awọn ṣiṣẹ ni a ṣe akiyesi bi daradara. [Àwòkẹ́kò́ó Ywallet FROST](/guides/frostdemo/ywallet-frost-demo). Lati gbe kan ti o wa node kuro zcashd, wo awọn [ìwé tó ń ṣàlàyé bí àwọn ẹranko Zebra àti Zallet ṣe máa ń ṣí lọ síbòmíì.](/guides/migration-guide-zcashd-to-zebrad-zallet).
 >
-> A pa ojú-ìwé yìí mọ́ gẹ́gẹ́ bí àkọsílẹ̀ ìtàn ti ìlànà multisig tí ó hàn gbangba.
+> Ojúewé yìí ni a tọ́ sí gẹ́gẹ́ bí àkọsílẹ̀ ìtàn ti ìtòlẹ́sẹẹsẹ iṣẹ tí ó ní àtẹwọlé alábala.
 
-Àmì yìí nílò zcashd 
+Àwòfiṣàpẹẹrẹ yìí nílò zcashd, tí ó dáwọ́ dúró ní 18 July 2026 kò sì ṣiṣẹ mọ. Kò sí nǹkankan lábẹ̀ tó lè parí lòdì sí ìsínlọ́nà gbígbé náà.
 
-## Gba awọn bọtini gbangba lati ọdọ awọn ẹni-kọọkan ti o nilo
+## Gba àwọn kókó ìjápọ̀ láti ọ̀dọ̀ àwọn ènìyàn tí a nílò.
 
 * https://github.com/iancoleman/bip39
 * If using zcashd, you can create a UA and use your transparent reciever as well. Then use `getPubkey.sh` láti yọ kókó ìkéde rẹ jáde.
@@ -26,14 +26,14 @@
 
 `./createMultiSig.sh pubk4 pubk5 pubk6` # 2nd t3 fún àdírẹ́sì ìyípadà. 
 
-#### ATIYẸ: ninu apẹẹrẹ yii pubk1,pubk4 jẹ eniyan kanna, pubk2,pubk5 jẹ eniyan kan naa ati bẹbẹ lọ ...
+#### ÀṢẸYÈÉ: nínú àpẹrẹ yìí, pubk1,pubk4 jẹ́ ẹnìkan náà ni, pubK2,pubK5 jẹ́ ènìyàn kan náà àti bẹbẹ lọ...
 
-#### Àkíyèsí 2: ÀLÀRÍ àwọn kókó ọtí rẹ ṣe pàtàkì! Ẹ fiyè sí èyí!!!!
+#### ÀṢÀ2: ÒFÍRÈ àwọn kókó ọtí rẹ ṣe pàtàkì! Ẹ fiyè sí èyí!!!!
 
 
-## Adirẹsi t3 ti Fund
+## Adirẹsi t3 ti owo-owo naa.
 
-Lo apamọwọ / facuet eyikeyi lati fi adirẹsi owo pamọ
+Lo apamọwọ/facuet kankan láti fi owó sí àdírésì rẹ.
 
 ## Ṣẹda ìsòwò MultiSig
 
@@ -53,7 +53,7 @@ redeemScript: The hex value of the redeemScript that was output when creating ou
 
 ```
 
-`./txDetails.sh txid` => yóò ràn ọ́ lọ́wọ́ láti rí ìsọfúnni tó o nílò
+`./txDetails.sh txid` => yóò ràn ọ́ lọ́wọ́ láti rí ìsọfúnni tó o nílò.
 
 ```
 
@@ -71,36 +71,38 @@ scriptPubKey      : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed
 
 ## Àmì MultiSig TX
 
-Ṣii signMultiSigTX.sh ki o si fi awọn bọtini ikọkọ rẹ sinu pk1,pk2, ... awọn oniyipada.
+Ṣii signMultiSigTX.sh ki o si fi awọn bọtini ikọkọ rẹ sinu pk1,pk2, ... iyipada.
  
 
-*** Èmi ò ní gbà yín níyànjú láti tẹ èyí sínú ẹ̀rọ rẹ. ***
+*** Èmi ò ní gbà yín láyè láti tẹ àwọn nǹkan wọ̀nyí sínú ẹ̀rọ rẹ. ***
 
 
-Ti o ba ni wiwọle si gbogbo awọn bọtini ikọkọ rẹ o le lo gbogbo wọn ni ẹẹkan lati fi akoko pamọ,
-ṣùgbọ́n nínú ọ̀pọ̀lọpọ̀ àwọn àpẹẹrẹ ayé gidi, ìforúkọsílẹ̀ náà yóò wáyé nípasẹ̀ àwọn ènìyàn káàkiri àgbáyé nítorí náà ẹnìkọ̀ọ̀kan lára àwọn olùkópa tí a nílò yóò ní láti fọwọ́ sí i,
-then send back the updated raxTX "hex" output which the others will use to sign to complete the signing proceedure.
+Bí o bá ní ààyè sí gbogbo kókó ìkọ̀ǹpútà rẹ, o lè lò wọ́n lẹ́ẹ̀kan ṣoṣo láti fi dín àkókò kù.
+ṣùgbọ́n nínú ọ̀pọ̀lọpọ̀ àwọn àpẹẹrẹ ayé gidi, ìforúkọsílẹ̀ náà yóò wáyé nípasẹ̀ ènìyàn káàkiri àgbáyé nítorí èyí olúkúlùkù lára àwọn olùkópa tí a nílò ni ó máa fẹ láti fọwọ́ sí i.
+Lẹhinna fi pada si imudojuiwọn raxTX "hex" ti o jade eyiti awọn miiran yoo lo lati fowo si ipari ilana iforukọsilẹ.
 
-Ẹnikẹni ti o ba kọkọ ṣẹda tx, yoo fi ami si pẹlu bọtini ikọkọ wọn ki o firanṣẹ awọn imudojuiwọn rawTX hex ti o nilo lati wa ni wole nipasẹ awọn olukopa miiran.
+Ẹnikẹni to ba kọkọ ṣe tx, yoo fi ọ̀rọ̀-ìfipamọ́ rẹ̀ buwọlu ki o si firanṣẹ rawTX hex ti a tunṣe silẹ eyi ti awọn olukopa miiran gbọdọ fọwọsi.
 
 `./signMultiSigTX.sh rawTX txid voutIndex scriptPubKey redeemScript valueInitialTX`
 
-To sign this tx, at least 2 out of the three private keys need to sign it. If the public key you gave was exported using a T-address from zcashd, you can get the private key of your T address with: 
+Lati buwọlu tx yii, o kere ju 2 ninu awọn bọtini ikọkọ mẹta nilo lati buwọle rẹ. Ti a ba gbe jade ni lilo adirẹsi T-ti zcashd ti sọkun gbangba rẹ, o le gba bọtini aladani fun adirẹẹsi T rẹ pẹlu: 
 
 
 `zcash-cli dumpprivkey "t-addr"`
 
+Àṣẹ yìí dáwọ́ dúró pẹ̀lú zcashd kò sì padà ní ohunkóhun lónìí; a ṣàkọsílẹ̀ rẹ̀ síbí láti fi hàn bí àwòfiṣàpẹẹrẹ ṣe gba àwọn kókó.
 
-Fún àfihàn yìí, mo lo bip39 ti iancoleman láti tètè ya àwọn kókó ìkọ̀kọ̀ tí a nílò.
+
+Fun àfihàn yìí, mo lo bip39 ti iancoleman láti tètè dá àwọn kókó ìkọ̀ǹpútà tí ó yẹ sílẹ̀.
 
 
-## Ìpolongo tí wọ́n fọwọ́ sí TX
+## Ìpolongo tí wọ́n fi TX ṣe aláṣẹ rẹ̀.
 
 `./sendMultiSignedTX.sh signedTXfromLastStep`
 
 
 
-# Àwọn orísun
+# Àwọn Orísun rèé:
 
 * https://learnmeabitcoin.com/technical/script/p2sh/
 * https://bitcoin.stackexchange.com/questions/6100/how-will-multisig-addresses-work
