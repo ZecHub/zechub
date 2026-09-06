@@ -4,7 +4,7 @@
 
 Zcash (ZEC) yɛ cryptocurrency a ɛtwe adwene si kokoamsɛm so a ɛde Equihash proof-of-work algorithm di dwuma ma mining. Mining Zcash hwehwɛ sɛ wɔde kɔmputa tumi di dwuma de di akontaabu mu haw ahorow a ɛyɛ den ho dwuma, wɔma nkitahodi ahorow no yɛ nokware, na wɔbɔ netɛw no ho ban de sesa ZEC akatua. Esiane sɛ network no yɛ den kɛse nti, wɔmfa solo mining nkamfo mma wɔn a wɔde di dwuma dodow no ara. Sɛ wode wo ho hyɛ mining pool mu a, ɛyɛ ɔkwan a eye sen biara a wobɛfa so anya akatua a ɛkɔ so daa denam wo hash tumi a wode bɛka afoforo ho no so.
 
-Saa akwankyerɛ yi twe adwene si Zcash a wɔde ankorankoro hardware di dwuma so (e.g., ofie PC a ɛwɔ GPUs anaa entry-level ASICs). Hyɛ no nsow sɛ bere a GPUs da so ara tumi tu Zcash no, ASICs yɛ adwuma yiye koraa na mfaso wɔ so wɔ afe 2026 mu esiane ntwamutam a ɛyɛ den nti. Bere nyinaa fa nnwinnade te sɛ WhatToMine.com hwɛ mfaso a ɛwɔ hɔ mprempren, efisɛ nneɛma te sɛ anyinam ahoɔden ho ka, hardware bo, ne ZEC bo ka sɛnea ɛbɛyɛ yiye. Ebia mfaso remma obiara a wotu fagude; nhwehwɛmu mpɔtam hɔ mmara ne ahoɔden dodow (bɔ mmɔden sɛ wubenya < $0.08/kWh).
+Saa akwankyerɛ yi twe adwene si Zcash a wɔde ankorankoro hardware di dwuma so (e.g., ofie PC a ɛwɔ GPUs anaa entry-level ASICs). Hyɛ no nsow sɛ bere a GPUs da so ara tumi tu Zcash no, ASICs yɛ adwuma yiye koraa na mfaso wɔ so wɔ afe 2026 mu esiane ntwamutam a ɛyɛ den nti. Bere nyinaa fa nnwinnade te sɛ WhatToMine.com hwɛ mfaso a ɛwɔ hɔ mprempren, efisɛ nneɛma te sɛ anyinam ahoɔden ho ka, hardware bo, ne ZEC bo ka sɛnea wobetumi ayɛ adwuma. Ebia mfaso remma obiara a wotu fagude; nhwehwɛmu mpɔtam hɔ mmara ne ahoɔden dodow (bɔ mmɔden sɛ wubenya < $0.08/kWh).
 
 
 ## Ahwehwɛde ahorow
@@ -25,7 +25,7 @@ Saa akwankyerɛ yi twe adwene si Zcash a wɔde ankorankoro hardware di dwuma so 
   - Wɔ GPU ahorow ho: lolMiner (ɛboa AMD/NVIDIA), GMiner, anaa miniZ (ɛde n’adwene si NVIDIA so). Twe fi GitHub repos a ɛyɛ aban de (e.g., github.com/Lolliedieb/lolMiner-releases).
   - Wɔ ASICs ho: Fa firmware/dashboard a wɔahyɛ no yɛfo no di dwuma (e.g., Bitmain wɛb interface).
 - **Wallet:** Zcash sika kotoku a wɔde gye sika a wotua. Susu ma:
-  - Wɔabɔ ho ban (ankorankoro): Zodl Sikakorabea, Zingo (Mobile/Desktop) YWallet (mobile/desktop).
+  - Wɔabɔ ho ban (ankorankoro): Zodl Sikakorabea, Zingo (Mobile/Desktop), Zkool (mobile/desktop).
   - Ɛyɛ nea ɛda adi pefee (ɛyɛ mmerɛw nanso ɛnyɛ kokoam de): Edge Wallet, Zecwallet Lite.
   - Twe fi [sika kotoku](https://zechub.wiki/wallets). Yɛ address a wɔabɔ ho ban (ɛhyɛ aseɛ wɔ 'zs') ma kokoamsɛm sɛ pool no boa a.
 
@@ -35,16 +35,16 @@ Saa akwankyerɛ yi twe adwene si Zcash a wɔde ankorankoro hardware di dwuma so 
 
 ## Akwankyerɛ a Ɛfa Anamɔn biara Ho a Ɛfa Ho a Wobɛka Mining Pool Ho
 
-### Anamɔn 1: Hyehyɛ Wo Zcash Wallet
+### Anamɔn 1: Siesie Wo Zcash Wallet
 1. Twe na fa sika kotoku bi fi Zcash wɛbsaet a ɛyɛ aban de no so [sika kotoku](https://zechub.wiki/wallets).
 2. Yɛ sika kotoku foforo na fa wo aba kasasin no sie yiye.
 3. Yɛ address a wogye (ɛbɛyɛ papa sɛ wɔabɔ ho ban ama kokoamsɛm). Hyɛ no nsow, s.e., . `zs1exampleaddress...`.
-4. Sɛ wode address a ɛda adi (fi ase wɔ 't') redi dwuma a, ɛyɛ mmerɛw nanso ɛmma kokoamsɛm pii.
+4. Sɛ wode address a ɛda adi (fi ase wɔ 't') redi dwuma a, ɛyɛ mmerɛw nanso ɛmma kokoam nsɛm pii.
 
 ### Anamɔn 2: Siesie Wo Hardware no
 - Wɔ GPU ahorow ho no:
   1. Fa GPU ahorow hyɛ wo PC mu na fa draiver ahorow no foforo (NVIDIA: GeForce Experience; AMD: Radeon Software).
-  2. Overclock sɛ wowɔ osuahu a (fa MSI Afterburner di dwuma ma ɛyɛ den; fa si w’ani so sɛ +100-200 core clock, -500 memory ma efficiency).
+  2. Overclock sɛ wowɔ osuahu a (fa MSI Afterburner di dwuma ma ɛyɛ den; fa w’ani si so sɛ +100-200 core clock, -500 memory ma efficiency).
 - Wɔ ASIC ahorow ho no:
   1. Fa ASIC no bata tumi ne Ethernet ho.
   2. Hwehwɛ ne IP address denam adwinnade te sɛ Advanced IP Scanner anaa nea ɔyɛe no app so.
@@ -53,7 +53,7 @@ Saa akwankyerɛ yi twe adwene si Zcash a wɔde ankorankoro hardware di dwuma so 
 **Kɔkɔbɔ:** Hwɛ sɛ mframa pa bɛkɔ mu; a wotu fagude no ma ɔhyew ba. Fi ase ketewaa bi sɔ hwɛ.
 
 ### Anamɔn 3: Paw na Kɔka Mining Pool bi ho
-Mining pools kyekyɛ adwuma na wɔkyɛ akatua a egyina wo hashrate a wode ama no so. Paw gyina sika a wotua (0-2%), sikatua a ɛba fam koraa (0.01-0.1 ZEC), beae (ping a ɛba fam), ne ahotoso so.
+Mining pools kyekyɛ adwuma na wɔkyɛ akatua a egyina wo hashrate a wode ama no so. Paw gyina sika a wɔbɔ (0-2%), sikatua a ɛba fam koraa (0.01-0.1 ZEC), beae (ping a ɛba fam), ne ahotoso so.
 
 **Atare a Wɔkamfo Kyerɛ (Egyina Hashrate, Fees, ne Nhwehwɛmu so):**
 - **2Miners (zec.2miners.com)**: 1% ka, PPLNS akatua, boa GPU / ASIC / NiceHash. Hashrate a ɛkorɔn (~1.17 GSol/s), server ahorow a wotumi de ho to so.
@@ -84,7 +84,7 @@ Mining pools kyekyɛ adwuma na wɔkyɛ akatua a egyina wo hashrate a wode ama no
   1. Kɔ wɛb dashboard no mu.
   2. Kɔ Miner Nsiesiei no so.
   3. Fa pool ho nsɛm ka ho:
-     - URL: stratum + tcp://zec.2miners.com:1010
+     - URL: stratum + tcp://zec.2miners.com: 1010. Ɔde ne nsa kyerɛɛ ne so
      - Ɔdefoɔ din: YOUR_WALLET_ADDRESS.WORKER_NAME
      - Password: x (anaasɛ ɛnyɛ hwee).
   4. Sie na san boot miner no.
@@ -101,7 +101,7 @@ Mining pools kyekyɛ adwuma na wɔkyɛ akatua a egyina wo hashrate a wode ama no
    - Pool dashboard: Hyehyɛ wo sika kotoku address na hwɛ hashrate, sika a wontuae, ne akontaabu.
    - Software console: Hwɛ mfomso, ɔhyew (ma < 80 degrees C).
    - Nnwinnade: Fa HiveOS anaa SimpleMining OS di dwuma ma akyirikyiri rig sohwɛ.
-3. Akatua: Pool dodow no ara tua ho ka ara kwa bere a woadu nea esua koraa (e.g., 0.05 ZEC). Hwɛ pool ho mmara.
+3. Akatua: Pool dodow no ara tua ankasa bere a woadu nea esua koraa (e.g., 0.05 ZEC). Hwɛ pool ho mmara.
 
    
 ![Zcash Mining Monitoring Setup](/content-images/zcashMining-5ca0019c17.webp)
@@ -165,5 +165,5 @@ Eyi yɛ nhyehyɛe ma wɔn a wɔyɛ pool operators, ɛnyɛ ankorankoro a wotu fag
 - **Ahobanbɔ:** Fa asɛmfua a ɛyɛ den di dwuma; ma 2FA nyɛ adwuma wɔ pools/wallets so. Mfa kokoam safe nkyɛ da.
 - **Ɔhaw ano aduru:** Sɛ kyɛfa biara nni hɔ a, hwɛ firewall, antivirus, anaa config a ɛnteɛ. Kɔka nhyiamu te sɛ forum.zcashcommunity.com anaa Reddit r/zec ho.
 - **Alternatives:** Sɛ mfaso nni so a, susuw cloud mining anaasɛ staking sika afoforo.
-- **Nneɛma a Atwa Yɛn Ho Ahyia Ho Nsɛm:** Tumi a wotu no gye ahoɔden; fa nneɛma a wɔde yɛ foforo di dwuma sɛ ɛbɛyɛ yiye a.
+- **Nneɛma a Atwa Yɛn Ho Ahyia Ho Nsɛm:** Tumi a wotu no gye ahoɔden; fa nneɛma a wɔyɛ no foforo di dwuma sɛ ɛbɛyɛ yiye a.
 - **Nsakraeɛ:** Zcash betumi adan (e.g., PoS nsakraeɛ a ɛbɛtumi aba); hwɛ z.cash mu na woanya nsɛm ho amanneɛbɔ.

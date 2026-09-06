@@ -23,7 +23,7 @@ Zebra node software no a wode di dwuma wɔ Raspberry Pi 4 so no ma wo kwan ma wo
 ## Installation a wɔde hyɛ mu
 
 1. __Yɛ Wo System no Foforo__ .
-   Bue terminal anaa SSH bi kɔ wo Raspberry Pi mu na hwɛ hu sɛ wo system no yɛ foforo denam run a wobɛma so:
+   Bue terminal anaa SSH bi kɔ wo Raspberry Pi mu na hwɛ hu sɛ wo system no yɛ foforo denam mmirikatu a wobɛma so:
 
    __sudo apt update__ .
 
@@ -71,10 +71,10 @@ Zebra node software no a wode di dwuma wɔ Raspberry Pi 4 so no ma wo kwan ma wo
 
 ## Ɔhaw ahorow a wodi ho dwuma
 
-Sɛ wuhyia nsɛm biara wɔ Zebra a wobɛkyekye anaa wode reyɛ adwuma no ho a, hwɛ [Zebra nkrataa](https://doc.zebra.zfnd.org/docs/intro.html) sɛ wopɛ ɔhaw ahorow ho afotu ne nsɛm foforo.
+Sɛ wuhyia nsɛm biara wɔ Zebra a wobɛkyekye anaa wode tu mmirika ho a, hwɛ [Zebra documentation](https://zebra.zfnd.org/user/troubleshooting.html) sɛ wopɛ ɔhaw ahorow ho afotu ne nsɛm foforo.
 
 Hwɛ sɛ wobɛma wo Raspberry Pi no ayɛ nwini, efisɛ sɛ wode node tu mmirika a, ebetumi ama ɔhyew aba. Ebia wobɛpɛ sɛ wode aduru a ɛma onwini te sɛ fan anaa ɔhyew afiri di dwuma.
 
 ## Awie
 
-Sɛ wodi akwankyerɛ yi akyi a, anka ɛsɛ sɛ wo hyehyɛ Zebra na wode di dwuma yie wɔ wo Raspberry Pi 4. Seesei woreboa Zcash ntwamutam no sɛ node a ɛde ne ho, a ɛboa ma Zcash nkitahodiɛ no kokoamsɛm bɔ ho ban.
+Sɛ wodi akwankyerɛ yi akyi a, anka ɛsɛ sɛ wo hyehyɛ Zebra na wode di dwuma yiye wɔ wo Raspberry Pi 4. Seesei woreboa Zcash ntwamutam no sɛ node a ɛde ne ho, a ɛboa ma Zcash nkitahodi ahorow no kokoamsɛm bɔ ho ban.

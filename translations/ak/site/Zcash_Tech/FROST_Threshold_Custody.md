@@ -6,17 +6,17 @@
 
 > Sɛ wopɛ FROST protocol no ho nsɛm a ɛfa cryptographic ho nyinaa a, hwɛ [FROST mfiridwuma ho kratafa](FROST.md).
 
-FROST threshold custody kɔ so ba wɔ Zcash nkɔmmɔbɔ mu — na ɛyɛ track a ɛwɔ soro wɔ ZecHub Hackathon 2026 — nanso ɛnyɛ bere nyinaa na wɔkyerɛkyerɛ adwene no mu wɔ kasa a emu da hɔ mu. Kratafa yi ka nea ɛkyerɛ, bere a wuhia ankasa, aguadi a wɔde di gua, ne nnwinnade a ɛboa no nnɛ ho asɛm.
+FROST threshold custody kɔ so ba wɔ Zcash nkɔmmɔbɔ mu — na ɛyɛ top track wɔ ZecHub Hackathon 2026 — nanso ɛnyɛ bere nyinaa na wɔkyerɛkyerɛ adwene no mu wɔ kasa a emu da hɔ mu. Kratafa yi ka nea ɛkyerɛ, bere a wuhia ankasa, aguadi a wɔde di gua, ne nnwinnade a ɛboa no nnɛ ho asɛm.
 
 ---
 
 ## TL;DR
 
 - **FROST** ma kuw bi a wɔwɔ safoa bom di Zcash address a wɔabɔ ho ban so a obiara nni hɔ a okura kokoam safoa no nyinaa.
-- **t-of-n** aboboano kyerɛ sɛ: ɛsɛ sɛ t nkurɔfo bom de wɔn nsa hyɛ ase sɛ wɔbɛsɛe sika; t-1 biara anaa nea ennu saa no nkutoo ntumi mfa sika no nkɔ baabiara.
+- **t-of-n** threshold kyerɛ sɛ: ɛsɛ sɛ t nkurɔfo bom de wɔn nsa hyɛ ase na wɔabɔ ka; t-1 biara anaa nea ennu saa no nkutoo ntumi mfa sika no nkɔ baabiara.
 - Nkitahodi te sɛ asɛm foforo biara a wɔabɔ ho ban — on-chain footprint biara nni hɔ a ɛda no adi sɛ wɔde threshold signing dii dwuma.
-- Eyi yɛ soronko koraa wɔ multisig a ɛda adi (a ɛyɛ ɔmanfo on-chain na Zcash aboa bere tenten) — FROST yɛ adwuma wɔ shielded pool no mu.
-- Ɛyɛ mfasoɔ ma DAOs, exchanges, custody services, joint savings, ne team treasuries — baabiara a asɛm baako a ɛdi nkoguo titire no nnye ntom.
+- Eyi yɛ soronko koraa wɔ multisig a ɛda adi pefee (a ɛyɛ ɔmanfo on-chain na Zcash aboa bere tenten) — FROST yɛ adwuma wɔ shielded pool no mu.
+- Ɛyɛ mfasoɔ ma DAOs, exchanges, custody services, joint savings, ne team treasuries — baabiara a asɛm baako a ɛyɛ huammɔdi titire no nnye ntom.
 
 ---
 
@@ -54,9 +54,9 @@ Ebia **nhia** threshold custody ma ankorankoro sika kotoku a wo nkutoo wohwɛ so
 
 ## Ɔkwan bɛn so na ɛsono no wɔ multisig a ɛda adi pefee ho?
 
-Zcash fi bere tenten aboa transparent multisig — safoa pii a ɛho hia sɛ wɔsɛe sika fi t-address so. Nanso multisig a ɛda adi pefee wɔ kokoamsɛm ho ka kɛse: **multisig nhyehyɛe no, ɔmanfo safe nyinaa, ne wɔn a wɔde wɔn nsa hyɛ ase nyinaa da adi wɔ blockchain no so**.
+Zcash fi bere tenten aboa transparent multisig — safoa pii a ɛho hia sɛ wɔsɛe sika fi t-address so. Nanso multisig a ɛda adi pefee no wɔ kokoamsɛm ho ka kɛse: **multisig nhyehyɛe no, ɔmanfo safe nyinaa, ne wɔn a wɔde wɔn nsa hyɛ ase nyinaa da adi wɔ blockchain no so**.
 
-FROST siesie eyi denam adwuma a ɛyɛ wɔ ɔtare a wɔabɔ ho ban no mu no so:
+FROST di eyi ho dwuma denam adwuma a ɛyɛ wɔ ɔtare a wɔabɔ ho ban no mu no so:
 
 | | Multisign a ɛda adi pefee | FROST aboboano (a wɔabɔ ho ban) |
 |--|---------------------|--------------------------|
@@ -76,16 +76,16 @@ FROST wɔ tumi, nanso ɛde aguadi ankasa a ɛsɛ sɛ wote ase ansa na wode adi d
 Ɛsɛ sɛ wɔn a wɔde wɔn nsa hyɛ ase no wɔ intanɛt so bere koro mu (anaasɛ ɛkame ayɛ sɛ ɛte saa) na wɔatumi awie wɔn a wɔde wɔn nsa hyɛ ase no. Sɛ wo t signers no atrɛw wɔ bere nhyehyɛe anaa nkitahodi a wontumi mfa ho nto so a, sika a wɔsɛe no hwehwɛ sɛ wɔyɛ biako a solo wallet nnyɛ.
 
 ### Sɛ quorum nni hɔ a, wɔmfa wɔn nsa nhyɛ ase
-Sɛ keyholders a ɛdɔɔso nni hɔ (yarefo, wɔretu kwan, wontumi nyɛ hwee) a, sika no yɛ nea wontumi nsɛe no bere tiaa bi. Paw wo threshold na kyɛfa count yiye — 2-of-3 yɛ resilient sen 2-of-2.
+Sɛ keyholders a ɛdɔɔso nni hɔ (yarefo, wotu kwan, wontumi nyɛ hwee) a, sika no yɛ nea wontumi nsɛe no bere tiaa bi. Paw wo threshold na kyɛfa count yiye — 2-of-3 yɛ resilient sen 2-of-2.
 
 ### Awo ntoatoaso titiriw guasodeyɛ
 FROST a wɔde besi hɔ no hwehwɛ sɛ wɔyɛ distributed key generation (DKG) guasodeyɛ a wɔn a wɔde wɔn ho hyɛɛ mu n nyinaa bom wɔ intanɛt so. Eyi yɛ adeyɛ a ɛkɔ so pɛnkoro, nanso ɛsɛ sɛ wɔyɛ no yiye — sɛ wɔde wɔn a wɔde wɔn ho hyɛ mu no to asiane mu wɔ DKG bere mu a, ahobammɔ sɛe.
 
 ### Nnwinnade da so ara renyin
-FROST ma shielded Zcash yɛ foforo koraa. IETF gyinapɛn (draft-irtf-cfrg-frost) no anyin, nanso sika kotoku a wɔde bom no sua. Hwɛ kwan sɛ anoano bi a ɛyɛ den bɛba bere a wode toto sika kotoku a ɛwɔ safe biako a wɔtaa de di dwuma ho no.
+FROST ma shielded Zcash yɛ foforo koraa. IETF gyinapɛn (draft-irtf-cfrg-frost) no anyin, nanso sika kotoku a wɔde bom no sua. Hwɛ kwan sɛ anoano bi a ɛyɛ den bɛba bere a wɔde toto sika kotoku a wɔde safe biako na ɛyɛ daa ho no.
 
 ### Nneɛma a ɛyɛ den a ɛma obi ho tɔ no
-Shard a wobɛhwere no nyɛ wiase awiei (ɛno ne asɛm a ɛwɔ aboboano no so), nanso ɛsɛ sɛ wodi kan kyerɛw nhyehyɛe ahorow a wɔde bɛsan agye no ho nkrataa. Hena na okura backups? Sɛ asinasin abien yera bere koro mu a, dɛn na ɛba?
+Shard a wobɛhwere no nyɛ wiase awiei (ɛno ne asɛm a ɛwɔ aboboano no mu), nanso ɛsɛ sɛ wodi kan kyerɛw nhyehyɛe ahorow a wɔde bɛsan agye no ho asɛm. Hena na okura backups? Sɛ asinasin abien yera bere koro mu a, dɛn na ɛba?
 
 ---
 
@@ -94,8 +94,8 @@ Shard a wobɛhwere no nyɛ wiase awiei (ɛno ne asɛm a ɛwɔ aboboano no so), n
 ### Zcash Foundation — frost.zfnd.org
 Zcash Foundation no de FROST dwumadie a ɛyɛ adwuma ne demo site akɔma. Eyi ne reference implementation a wɔde di dwuma de sɔ hwɛ ne nkɔso.
 
-### YWallet FROST Nkyerɛkyerɛmu
-YWallet (Zcash sika kotoku a ɛyɛ adwuma yiye) wɔ FROST demo nkabom a edi kan. Hwɛ sɛnea [YWallet FROST Demo akwankyerɛ](/guides/Ywallet_FROST_Demo) ama akwankyerɛ a wɔde ma anammɔn anammɔn.
+### Ywallet FROST Nkyerɛkyerɛmu
+Ywallet nyaa FROST demo nkabom a edi kan, nantew faa mu wɔ [Ywallet FROST Demo akwankyerɛ](/guides/Ywallet_FROST_Demo). Wɔnhwɛ Ywallet so bio na wɔrennyɛ no foforo mma Ironwood, enti kenkan akwankyerɛ no sɛ akyigyina sen sɛ wobɛkenkan biribi a wobɛtu mmirika nnɛ. Zkool, a ofi developer koro no ara mu, ne nea wɔhwɛ so no na ɔkyerɛw FROST multisig ka ne nneɛma ho.
 
 ### ZecHub Hackathon 2026 — FROST Akwankyerɛ Nnwuma
 
@@ -105,19 +105,19 @@ FROST track no na ɛyɛɛ akansi kɛseɛ wɔ ZecHub Hackathon 2026. Nnwuma a ɛd
 - **Steward** — threshold custody ma shielded Zcash a ɛwɔ UX a ɛtwe adwene si sanba so
 
 ### Coinbase a wɔde yɛ adwuma
-Coinbase kyekyee production FROST dwumadie maa wɔn threshold signing systems (ma Bitcoin), a nsakraeɛ a ɛyi preprocessing stage na ɛkyekyɛ aggregator dwumadie no mu wɔ wɔn a wɔde wɔn ho hyɛɛ mu nyinaa mu. Wɔn suahu no si FROST ahobammɔ nhyehyɛe no so dua wɔ nneɛma a wɔyɛ no nsenia so.
+Coinbase kyekyee production FROST dwumadie maa wɔn threshold signing systems (ma Bitcoin), a nsakraeɛ a ɛyi preprocessing stage no na ɛkyekyɛ aggregator dwumadie no mu wɔ wɔn a wɔde wɔn ho hyɛɛ mu nyinaa mu. Wɔn suahu no si FROST ahobammɔ nhyehyɛe no so dua wɔ nneɛma a wɔyɛ no nsenia so.
 
 ---
 
 ## Sɛnea signing session yɛ adwuma (wɔayɛ no mmerɛw) .
 
-1. **Setup (pɛnkoro):** N a wɔde wɔn ho hyɛɛ mu nyinaa yɛ distributed key generation (DKG) guasodeyɛ. Wɔn mu biara nya kokoam shard; wonya ɔmanfo safoa a wɔkyɛ. Party biara nni hɔ a wonim kokoam safe no nyinaa.
+1. **Setup (pɛnkoro):** N a wɔde wɔn ho hyɛɛ mu no nyinaa yɛ distributed key generation (DKG) guasodeyɛ. Obiara nya kokoam shard; wonya ɔmanfo safoa a wɔkyɛ. Party biara nnim kokoam safe a edi mũ.
 
 2. **Coordinate signers:** Sɛ ɛho hia sɛ wɔsɛe sika a, coordinator (a obetumi ayɛ wɔn a wɔde wɔn nsa ahyɛ ase no mu biako) boaboa bɔhyɛ ahorow ano fi t participants a wɔwɔ ɔpɛ sɛ wɔde wɔn nsa bɛhyɛ ase no hɔ.
 
-3. **Round 1:** Obiara a ɔde ne ho hyɛ mu a ɔde ne nsa bɛhyɛ aseɛ no ma nonce na ɔbɔ bɔhyɛ bi (ɔmanfoɔ, ɛnyɛ nkateɛ).
+3. **Round 1:** Obiara a ɔde ne ho hyɛ mu a ɔde ne nsa hyɛ aseɛ no ma nonce na ɔbɔ bɔhyɛ bi (ɔmanfoɔ, ɛnyɛ nea ɛyɛ nkateɛ).
 
-4. **Round 2:** Obiara a ɔde ne nsa hyɛ aseɛ no de wɔn kokoam shard no bu wɔn nsaano nkyerɛwee fã bi ho akontaa na ɔbɔ amanneɛ.
+4. **Round 2:** Obiara a ɔde ne nsa hyɛ ase no de wɔn kokoam shard no bu wɔn nsaano nkyerɛwee fã bi ho akontaa na ɔbɔ amanneɛ.
 
 5. **Aggregation:** Ntamgyinafoɔ no ka t nsaano nkyerɛwee no fã bi bom yɛ no Schnorr nsaano nkyerɛwee baako a ɛtwa toɔ — a wontumi nyi nsonsonoeɛ mu wɔ nkɔnsɔnkɔnsɔn so firi nsaano nkyerɛwee a ɛyɛ ɔfa baako ho.
 
@@ -132,21 +132,21 @@ Sɛ obiara a ɔde ne nsa hyɛ aseɛ no de nsaano nkyerɛwee fã bi a enye kɔ a,
 | Nsiesiei | Nneɛma a wɔde gyina ano | Asiane a Ɛwɔ Hɔ |
 |-------|-----------|------|
 | 1-of-1 | No resilience — ade biako a ɛyɛ huammɔdi | Key loss = adehwere a ɛtra hɔ daa |
-| 2-of-2 | Ɛsɛ sɛ wonya wɔn baanu nyinaa a wɔde wɔn nsa hyɛɛ ase — mfomso biara nni ho abodwokyɛre | One unavailable = sika a wɔahyɛ no nwini |
+| 2-of-2 | Ɛsɛ sɛ wonya abien no nyinaa signers — mfomso biara nni ho abotare | One unavailable = sika a wɔahyɛ no nwini |
 | 2-of-3 | Shard biako betumi ayera anaasɛ entumi nyɛ adwuma | Ahobammɔ a ɛba fam sen 3-of-5 |
 | 3-of-5 | Wobetumi ayera asinasin abien; ahobammɔ a emu yɛ den | Nkitahodi pii a ɛwɔ soro |
 | 3-wɔ-7 | Asoɛe-grade; gyina huammɔdi abien ano | Nkitahodi ho ka a ɛkorɔn |
 
-Mfiase a mfaso wɔ so ma akuw dodow no ara: **2-of-3** (a ɛyɛ den, ɛnyɛ den koraa) anaa **3-of-5** (ahyehyɛde, ahobammɔ a ɛkorɔn).
+Mfiase a mfaso wɔ so ma akuw dodow no ara: **2-of-3** (ɛtumi gyina ano, ɛnyɛ den koraa) anaa **3-of-5** (ahyehyɛde, ahobammɔ a ɛkorɔn).
 
 ---
 
 ## Nkratafa a Ɛfa Ho
 
 - [FROST — Mfiridwuma mu Deep Dive](FROST.md) — cryptographic nsɛm a ɛfa protocol no ho (DKG, nsaano nkyerɛwee rounds, ahobammɔ adanse)
-- [YWallet FROST Demo Akwankyerɛ](/guides/Ywallet_FROST_Demo) — anammɔn anammɔn nsa-so demo
+- [Ywallet FROST Demo Akwankyerɛ](/guides/Ywallet_FROST_Demo) — akyi, Ywallet no nhwɛ so bio
 - [FROST Demo (awɔw ho mfonini) .](/guides/frostdemo) — Zcash Foundation demo nantew mu
-- [Nneɛma a Wɔde Hwɛ](Viewing_Keys.md) — akenkan nkutoo kwan a wɔfa so kɔ address ahorow a wɔabɔ ho ban so (ɛboa threshold custody) .
+- [Nneɛma a Wɔde Hwɛ Nneɛma](Viewing_Keys.md) — akenkan nkutoo kwan a wɔfa so kɔ address ahorow a wɔabɔ ho ban so (ɛboa threshold custody) .
 - [Zcash Shielded Agyapadeɛ](Zcash_Shielded_Assets.md) — FROST nso yɛ nnwuma titiriw a wɔde bɛma ZSA
 
 ## Akadeɛ

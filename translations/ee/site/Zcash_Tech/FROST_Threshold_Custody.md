@@ -6,13 +6,13 @@
 
 > Ne èdi FROST ƒe ɖoɖowɔɖia ƒe nya ɣaɣlawo ŋuti nyatakaka bliboa la, kpɔ... [FROST mɔ̃ɖaŋununya ƒe axa](FROST.md).
 
-FROST threshold custody yi edzi le vavam le Zcash dzeɖoɖowo me — enye track top le ZecHub Hackathon 2026 — gake womeɖea susua me ɣesiaɣi le gbegbɔgblɔ bɔbɔe me o. Axa sia ƒo nu tso nusi wòfia, ɣeyiɣi si nèhiãe ŋutɔŋutɔ, asitsatsa, kple dɔwɔnu siwo doa alɔe egbea ŋu.
+FROST threshold custody yi edzi le vavam le Zcash dzeɖoɖowo me — enye track kɔkɔtɔ le ZecHub Hackathon 2026 — gake womeɖea susua me ɣesiaɣi le gbegbɔgblɔ bɔbɔe me o. Axa sia ƒo nu tso nusi wòfia, ɣeyiɣi si me nèhiãe ŋutɔŋutɔ, asitsatsa, kple dɔwɔnu siwo doa alɔe egbea ŋu.
 
 ---
 
 ## TL;DR
 
-- **FROST** na be safuitɔwo ƒe ƒuƒoƒo aɖe kpɔa ŋusẽ ɖe Zcash adrɛs si wokpɔ ta na dzi le ƒuƒoƒo me evɔ ame ɖeka aɖeke melé ame ŋutɔ ƒe safui bliboa ɖe asi o.
+- **FROST** na be safuixɔlawo ƒe ƒuƒoƒo aɖe kpɔa ŋusẽ ɖe Zcash adrɛs si wokpɔ ta na dzi le ƒuƒoƒo me evɔ ame ɖeka aɖeke melé ame ŋutɔ ƒe safui bliboa ɖe asi o.
 - **t-of-n** ƒe dzidzenu fia be: ele be t amewo nade asi ete be woazã ga; t-1 ɖesiaɖe alo esi mede nenema o mate ŋu aʋuʋu ga la ɖeɖeko o.
 - Adzɔnuwo le abe asitsatsa bubu ɖesiaɖe si wokpɔ ta na ene — afɔti aɖeke si le kɔsɔkɔsɔ dzi si ɖee fia be wozã dzidzenu ƒe asidede agbalẽ te o.
 - Esia to vovo kura tso multisig si me kɔ (si nye dutoƒo on-chain eye Zcash do alɔe ɣeyiɣi didi aɖee nye sia) — FROST wɔa dɔ le shielded pool la me.
@@ -37,9 +37,9 @@ Nɔnɔme vevi siwo le eme:
 
 ## Ɣekaɣie wòle be nàzã threshold custody?
 
-Susu le threshold custody me ne **mele be safui ɖeka alo ame ɖeka bu nafia be ga la bu o** o.
+Susu le threshold custody me ne **mele be safui ɖeka alo ame ɖeka ƒe bu nafia be ga la bu o** o.
 
-| Nɔnɔme | Nusita threshold custody kpena ɖe |
+| Nɔnɔme | Nukatae threshold custody kpena ɖe |
 |-----------|----------------------------|
 | **DAO alo ƒuƒoƒo ƒe gaxɔ** | Admin ɖeka aɖeke mate ŋu aɖe ga le akpa ɖeka o; bia be woalɔ̃ ɖe edzi |
 | **Xɔɖɔli alo nudzrala** | Ma afɔku veviwo ɖe dedienɔnɔ ƒe teƒewo alo dɔwɔlawo |
@@ -48,7 +48,7 @@ Susu le threshold custody me ne **mele be safui ɖeka alo ame ɖeka bu nafia be 
 | **Gakpekpeɖeŋunana si ƒe asixɔxɔ lolo** | ZCG-style: bia be woade asi agbalẽ te le wo ɖokui si geɖe hafi axe fe |
 | **Developer safuiwo dzikpɔkpɔ** | Xɔ mɔ ɖe ŋɔdzidoname si tso ememe nu — mɔ̃ɖaŋudɔwɔla ɖeka aɖeke mate ŋu aɖe protocol fund |
 
-Anɔ eme be **mehiã** be nàlé be na ame ŋutɔ ƒe gakotoku si dzi wò ɖeka nèkpɔ ŋusẽ ɖo o, ga suewo, alo nɔnɔme siwo me ɖoɖowɔwɔ ƒe gazazã si wotsɔ kpe ɖe eŋu la lolo wu afɔku dzi ɖeɖe kpɔtɔ.
+Anɔ eme be **mehiã** be **mehiã na dzidzenu ƒe dzikpɔkpɔ na wò ŋutɔ wò gakotoku si dzi wò ɖeka nèkpɔ ŋusẽ ɖo o, ga suewo, alo nɔnɔme siwo me ɖoɖowɔwɔ ƒe gazazã si wotsɔ kpe ɖe eŋu la lolo wu afɔku dzi ɖeɖe kpɔtɔ.
 
 ---
 
@@ -61,7 +61,7 @@ FROST kpɔa esia gbɔ to dɔwɔwɔ le ta si wokpɔ ta na la me me:
 | | Multisign si me kɔ | FROST ƒe dzidzenu (si wotsɔ akpoxɔnu wɔe) |
 |--|---------------------|--------------------------|
 | Pool | Transparent (public) | Orchard (shielded) |
-| Amesiwo de asi ete siwo wokpɔna le kɔsɔkɔsɔ me | Ẽ — dutoƒo safuiwo katã ɖe go | Ao — womate ŋu ade vovototo wo kple asidede agbalẽ te ɖeka ƒe gazazã |
+| Amesiwo de asi ete siwo wokpɔna le kɔsɔkɔsɔ me | Ẽ — dutoƒo safuiwo katã ɖe go | Ao — womate ŋu ade vovototo wo dome tso ame ɖeka ƒe asidede agbalẽ te ƒe gazazã |
 | Ga home siwo wokpɔna | Ẽ | Ao |
 | Nuwɔwɔ aduadu hiã | On-kɔsɔkɔsɔ ŋɔŋlɔdzesiwo | Off-kɔsɔkɔsɔ ƒoƒo ƒe kadodo |
 | Adzamenyawo | Ðeke meli o | Adzamenyawo si wokpɔ ta na bliboe |
@@ -73,19 +73,19 @@ FROST kpɔa esia gbɔ to dɔwɔwɔ le ta si wokpɔ ta na la me me:
 Ŋusẽ le FROST ŋu, gake etsɔ asitsatsa ŋutɔŋutɔ siwo gɔme wòle be nàse hafi azãe la vɛ:
 
 ### Nuwɔwɔ aduadu ƒe gazazã dzi
-Ele be amesiwo de asi ete la nanɔ Internet dzi le ɣeyiɣi ɖeka me (alo nenema kloe) hafi woate ŋu awu asidede agbalẽ te ƒe ɣeyiɣi aɖe nu. Ne wò t signers kaka ɖe ɣeyiɣi ƒe didimewo alo kadodo siwo dzi womate ŋu aka ɖo o me la, gazazã bia be woawɔ ɖeka si solo wallet mewɔna o.
+Ele be amesiwo de asi ete nanɔ Internet dzi le ɣeyiɣi ɖeka me (alo nenema kloe) hafi woate ŋu awu asidede agbalẽ te ƒe ɣeyiɣi aɖe nu. Ne wò t signers kaka ɖe ɣeyiɣi ƒe didimewo alo kadodo siwo dzi womate ŋu aka ɖo o me la, gazazã bia be woawɔ ɖeka si solo wallet mewɔna o.
 
 ### Asidede agbalẽ te aɖeke manɔmee ne quorum meli o
-Ne safuixɔla siwo sɔ gbɔ meli o (dɔnɔ, mɔzɔla, womeɖoa nya ŋu o) la, womate ŋu azã ga hena ɣeyiɣi aɖe o. Tia wò dzidzenu kple gomekpɔkpɔ ƒe xexlẽme nyuie — 2-of-3 te ŋu nɔa te ɖe nɔnɔme sesẽwo nu wu 2-of-2.
+Ne safuixɔla siwo sɔ gbɔ meli o (dɔnɔ, mɔzɔlawo, womeɖoa nya ŋu o) la, womate ŋu azã ga hena ɣeyiɣi aɖe o. Tia wò dzidzenu kple gomekpɔkpɔ ƒe xexlẽme nyuie — 2-of-3 te ŋu nɔa te ɖe nɔnɔme sesẽwo nu wu 2-of-2.
 
 ### Dzidzime veviwo ƒe kɔnu
 FROST ɖoɖo bia be woawɔ distributed key generation (DKG) ƒe wɔna si me n gomekpɔlawo katã le internet dzi ɖekae. Esia nye nudzɔdzɔ si wowɔna zi ɖeka, gake ele be woawɔe nyuie — ne wogblẽ gomekpɔlawo me le DKG wɔɣi la, dedienɔnɔ me gblẽna.
 
 ### Dɔwɔnuwo gakpɔtɔ le tsitsim
-FROST na Zcash si wotsɔ akpoxɔnu wɔe nye nu yeye vie. IETF ƒe dzidzenu (draft-irtf-cfrg-frost) tsi, gake gakotoku ƒe ƒoƒo ɖekae se ɖe afi aɖe. Kpɔ mɔ na nugbɔ aɖewo siwo me mekɔ o ne wotsɔe sɔ kple gakotoku si me safui ɖeka le si wozãna ɖaa.
+FROST na Zcash si wotsɔ akpoxɔnu wɔe nye nu yeye aɖe. IETF ƒe dzidzenu (draft-irtf-cfrg-frost) tsi, gake gakotoku ƒe ƒoƒo ɖekae se ɖe afi aɖe. Kpɔ mɔ na nugbɔ aɖewo siwo me mekɔ o ne wotsɔe sɔ kple gakotoku si me safui ɖeka le si wozãna ɖaa.
 
 ### Nusiwo me kɔ nyuie le hayahaya ŋu
-Shard ƒe bu menye xexeame ƒe nuwuwu o (emae nye afisi woɖoe ɖo), gake ele be woaŋlɔ ɖoɖo siwo wowɔ be woagbugbɔ axɔ la ɖi do ŋgɔ. Amekae léa backups ɖe asi? Nukae dzɔna ne kakɛ eve bu le ɣeyiɣi ɖeka me?
+Shard ƒe bu menye xexeame ƒe nuwuwu o (emae nye afisi woɖoe ɖo), gake ele be woaŋlɔ ɖoɖo siwo wowɔ ɖe hayahaya ŋu la ɖi do ŋgɔ. Amekae léa backups ɖe asi? Nukae dzɔna ne kakɛ eve bu le ɣeyiɣi ɖeka me?
 
 ---
 
@@ -94,12 +94,12 @@ Shard ƒe bu menye xexeame ƒe nuwuwu o (emae nye afisi woɖoe ɖo), gake ele be
 ### Zcash Foundation — frost.zfnd.org
 Zcash Foundation ɖo FROST ƒe dɔwɔwɔ si le dɔ wɔm kple demo site. Esia nye nufiame dɔwɔwɔ si wozãna hena dodokpɔ kple ŋgɔyiyi.
 
-### YWallet FROST ƒe wɔwɔfia
-YWallet (Zcash gakotoku si wɔa dɔ nyuie) ƒe FROST demo ƒe ɖekawɔwɔ gbãtɔ le esi. Kpɔ nya si [YWallet FROST Demo ƒe mɔfiame](/guides/Ywallet_FROST_Demo) hena mɔfiame siwo woana afɔɖeɖe ɖesiaɖe.
+### Ywallet FROST ƒe wɔwɔfia
+Ywallet si FROST demo integration gbãtɔ, zɔ to le [Ywallet FROST Demo ƒe mɔfiame](/guides/Ywallet_FROST_Demo). Womegaléa be na Ywallet o eye womawɔe yeyee na Ironwood o, eyata xlẽ mɔfiamegbalẽa abe megbenya ene tsɔ wu be nànye nane si nàwɔ egbea. Zkool, tso developer ma ke gbɔ, ye nye esi wolé be na ɖe eteƒe eye wòŋlɔ FROST multisig ɖe eƒe nɔnɔmewo dome.
 
 ### ZecHub Hackathon 2026 — FROST Mɔzɔzɔ Dɔwɔnawo
 
-FROST track lae nye esi hoʋiʋli le wu le ZecHub Hackathon 2026. Dɔ ɖedzesiwo:
+FROST track lae nye esi me hoʋiʋli nɔ wu le ZecHub Hackathon 2026. Dɔ ɖedzesiwo:
 
 - **ZecVault** — 2-of-3 akpoxɔnu escrow si woɖo ɖe mainnet (FROST dzidzenu)
 - **Steward** — threshold custody na shielded Zcash kple UX si léa fɔ ɖe hayahaya ŋu
@@ -119,7 +119,7 @@ Coinbase tu ewɔwɔ FROST dɔwɔwɔ na woƒe threshold signing systems (na Bitco
 
 4. **Round 2:** Amesiame si de asi ete si kpɔ gome le eme la bua woƒe asidede agbalẽ te ƒe akpa aɖe to woƒe private shard zazã me eye wòkakanɛ.
 
-5. **Aggregation:** Ðoɖowɔla la ƒoa t ƒe asidede agbalẽ te ƒe akpa aɖe nu ƒu ɖe Schnorr ƒe asidede agbalẽ te mamlɛtɔ ɖeka me — womate ŋu ade vovototo wo dome le kɔsɔkɔsɔ me tso akpa ɖeka ƒe asidede agbalẽ te o.
+5. **Aggregation:** Ðoɖowɔla la ƒoa t ƒe akpa aɖe ƒe asidede agbalẽ te nu ƒu ɖe Schnorr ƒe asidede agbalẽ te mamlɛtɔ ɖeka me — womate ŋu ade vovototo wo dome le kɔsɔkɔsɔ me tso akpa ɖeka ƒe asidede agbalẽ te o.
 
 6. **Broadcast:** Woɖea asitsatsa la ɖe Zcash network la dzi abe alesi wòle dzɔdzɔmee ene.
 
@@ -127,11 +127,11 @@ Ne ame aɖe si de asi ete ɖo asidede agbalẽ te ƒe akpa aɖe ɖa la, ɖoɖow�
 
 ---
 
-## Wò threshold parameters tiatia
+## Tiatia wò threshold parameters
 
 | Ðoɖowɔwɔ | Tenɔnɔ ɖe nɔnɔme sesẽwo nu | Afɔku |
 |-------|-----------|------|
-| 1-ɖe-1 me | No resilience — teƒe ɖeka si kpododonu le | Key loss = nusi bu tegbee |
+| 1-le-1 me | No resilience — teƒe ɖeka si kpododonu le | Key loss = nusi bu tegbee |
 | 2-ɖe-2 | Ele be asidede agbalẽ te eveawo siaa nanɔ esi — vodada dzi ɖeɖe kpɔtɔ aɖeke meli o | One unavailable = ga si wotu ɖe tsikpe me |
 | 2-le-3 me | Shard ɖeka ateŋu abu alo makpɔe o | Dedienɔnɔ ƒe vovototo si bɔbɔ wu 3-of-5 |
 | 3-le-5 me | Woate ŋu abu kakɛ eve; dedienɔnɔ sesẽ | Nuwɔwɔ aduadu geɖe wu le gazazã dzi |
@@ -144,9 +144,9 @@ Gɔmedzedze nyui aɖe na ƒuƒoƒo akpa gãtɔ: **2-le-3** (si te ŋu nɔa te ɖ
 ## Axa Siwo Do Ƒome Kplii
 
 - [FROST — Mɔ̃ɖaŋununya ƒe Deep Dive](FROST.md) — ɖoɖowɔɖia ŋuti nyatakaka ɣaɣlawo (DKG, asidede agbalẽ te, dedienɔnɔ ƒe kpeɖodziwo)
-- [YWallet FROST Demo Mɔfiame](/guides/Ywallet_FROST_Demo) — afɔɖeɖe ɖesiaɖe ƒe asi-ɖe-ɖefia
+- [Ywallet FROST Demo Mɔfiame](/guides/Ywallet_FROST_Demo) — megbenyawo, womegaléa be na Ywallet o
 - [FROST ƒe wɔwɔfia (frostdemo) .](/guides/frostdemo) — Zcash Foundation ƒe wɔwɔfia ƒe azɔlizɔzɔ
-- [Safuiwo Kpɔkpɔ](Viewing_Keys.md) — nuxexlẽ ɖeɖeko ƒe mɔɖeɖe ɖe adrɛs siwo ŋu wokpɔ ta na ŋu (etsɔ kpe ɖe threshold custody ŋu)
+- [Safuiwo Kpɔkpɔ](Viewing_Keys.md) — nuxexlẽ ɖeɖeko ƒe mɔɖeɖe ɖe adrɛs siwo wokpɔ ta na ŋu (etsɔ kpe ɖe threshold custody ŋu)
 - [Zcash ƒe Nunɔamesi Siwo Wokpɔna](Zcash_Shielded_Assets.md) — FROST hã nye xɔtuɖoɖo veviwo na ZSA ƒe tata
 
 ## Nunɔamesiwo
@@ -154,6 +154,6 @@ Gɔmedzedze nyui aɖe na ƒuƒoƒo akpa gãtɔ: **2-le-3** (si te ŋu nɔa te ɖ
 - [FROST ƒe numekuku gbalẽ (Komlo & Goldberg, 2020)](https://eprint.iacr.org/2020/852.pdf)
 - [IETF FROST ƒe ɖoɖowɔɖi ƒe dzidzenu (draft-irtf-cfrg-frost) .](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/)
 - [Zcash Foundation FROST ƒe dɔwɔwɔ](https://frost.zfnd.org)
-- [Chelsea Komlo — Nukae nye Dzesidede Asi? (Zcon3) (Zcon3) .](https://youtu.be/cAfTTfblzoU?t=110)
+- [Chelsea Komlo — Nukae nye Dzesidede Asi? (Zcon3) ƒe xexlẽme.](https://youtu.be/cAfTTfblzoU?t=110)
 - [Coinbase — Dzidzenu Digitál Dede Asi](https://www.coinbase.com/blog/threshold-digital-signatures)
 - [ROAST — Async Schnorr ƒe Dzidzenu ƒe Asidede Asi Sesẽ (Blockstream) .](https://eprint.iacr.org/2022/550.pdf)

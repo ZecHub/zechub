@@ -10,7 +10,7 @@
 - Dodow dodow a ɔmanfo hu no gyina ahorow a wo sikatua no kɔ ntam so.
 - **shielded to shielded** sikatua nkutoo na ɛde nea ɔde kɔmaa, nea ogye, ne sika dodow no sie.
 - Address a wɔabɔ ho ban nyɛ safe biako. Ɛyɛ safoa ketewa bi, na wobɛtumi akyekyɛ **akenkan nko ara kwan a woremma tumi a wode bɛsɛe sika**.
-- Viewing key **worentumi nsan mfa** bere a woakyɛ no pɛnkoro no.
+- Viewing key **worentumi nsan mfa** bere a woakyɛ no.
 
 ---
 
@@ -46,7 +46,7 @@ Kokoamsɛm a wuntumi mma so da no ho nni mfaso. Ɛtɔ mmere bi a, ɛsɛ sɛ woky
 
 **Full viewing key.** Akenkan nkutoo. Kyerɛ dwumadi a ɛba ne nea ɛkɔ ne nea ɛkari pɛ, nanso entumi nsɛe zatoshi biako mpo. Eyi ne nea wode ma akontaabufo anaa akontaabufo.
 
-**Incoming viewing key.** Narrower still: ɛkyerɛ sikatua a ɛreba nkutoo. Exchange anaa aguadifoɔ bi bɛtumi ayɛ eyi de ahyɛ wo deposit no asase so dua, berɛ a spending key no tra hardware a ɛnka intanɛt da so.
+**Incoming viewing key.** Narrower still: ɛkyerɛ sikatua a ɛreba nkutoo. Exchange anaa aguadifoɔ bi bɛtumi ayɛ yei de ahyɛ wo sika a wode asie no asi fam, berɛ a sika a wɔsɛe no safoa no tra hardware a ɛnka intanɛt da so.
 
 Nhyehyɛe no ho hia. Fa safe a ɛyɛ teateaa sen biara a ɛyɛ adwuma no ma, na ɛnyɛ nea ɛtrɛw sen biara a ɛba sɛ wowɔ no.
 
@@ -56,7 +56,7 @@ Nhyehyɛe no ho hia. Fa safe a ɛyɛ teateaa sen biara a ɛyɛ adwuma no ma, na 
 
 **Wɔrentumi ntwa safoa a wɔde hwɛ ade mu.** "Undo share" bɔtn biara nni hɔ. Sɛ obi nya bi pɛ a, obetumi akenkan saa address no bere tenten a ɛwɔ hɔ no. Sɛ ɛho hia sɛ wutwa kwan a wobɛfa so akɔ hɔ no mu a, wode wo sika kɔ address foforo so.
 
-**Wɔde sika a wɔbɔ no yɛ baguam mpo wɔ sikatua a wɔabɔ ho ban koraa mu.** Wɔde sika no asie; sika a wotua no nyɛ saa.
+**Wɔde sika a wɔbɔ no yɛ baguam mpo wɔ sikatua a wɔabɔ ho ban koraa mu.** Wɔde sika no asie; sika a wɔbɔ no nyɛ saa.
 
 **Public is permanent.** Biribiara a nkɔnsɔnkɔnsɔn no kyerɛ nnɛ no, ɛkyerɛ wɔ mfeɛ aduonu mu. Gyinae a wobɛsi sɛ wobɛbɔ sikatua bi ho ban *akyi* a wode amena no nyɛ adeɛ a wobɛtumi ayɛ.
 
@@ -64,7 +64,7 @@ Nhyehyɛe no ho hia. Fa safe a ɛyɛ teateaa sen biara a ɛyɛ adwuma no ma, na 
 
 ## Fa di dwuma
 
-- Fa sika kotoku a ɛbɔ ho ban default, te sɛ [Zodl](https://zodl.com) or [Ywallet na ɔkyerɛwee](https://ywallet.app/).
+- Fa sika kotoku a ɛbɔ ho ban default, te sɛ [Zodl](https://zodl.com) or [Zingo!](https://www.zingolabs.org/).
 - Shield sika bere a efi exchange bi ba ara pɛ, ansa na woasɛe sika.
 - Tua address ahorow a wɔabɔ ho ban bere biara a nea ogye no bɛboa bi no.
 - Ansa na wobɛkyɛ safoa a wode hwɛ ade no, bisa safoa bɛn na ɛyɛ ketewaa a ɛbua asɛmmisa a wɔrebisa no.
@@ -74,7 +74,7 @@ Nhyehyɛe no ho hia. Fa safe a ɛyɛ teateaa sen biara a ɛyɛ adwuma no ma, na 
 ## Akadeɛ
 
 - [Nsafe a wɔde hwɛ nneɛma mu a wɔrekyerɛkyerɛ mu (Electric Coin Company) .](https://electriccoin.co/blog/explaining-viewing-keys/)
-- [Nneɛma a wɔpaw a wɔde da no adi ne nea wɔde hwɛ (Electric Coin Company) .](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
+- [Nneɛma a wɔpaw a wɔda no adi ne nea wɔde hwɛ (Electric Coin Company) .](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
 - [ZIP 310: Nsafe a wɔhwɛ](https://zips.z.cash/zip-0310)
 - [Sɛnea Zcash mfiridwuma yɛ adwuma](https://z.cash/technology/)
 

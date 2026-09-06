@@ -22,25 +22,25 @@ Zcash wɔ address ahorow abien.
 
 **address a wɔabɔ ho ban** fi ase `z` na wɔde adanse a nimdeɛ nnim na ɛbɔ ho ban. Netwɛk no betumi asi so dua sɛ sikatua a wɔabɔ ho ban no yɛ adwuma a ɛnkyerɛ nea ɔde kɔmaa no, nea ogyee, anaa sika dodow no.
 
-Esiane sɛ ɛsono abien nti, bo betumi akɔ akwan anan so: nea ɛda adi kɔ nea ɛda adi (t kosi t), nea ɛda adi kɔ nea ɛbɔ ho ban (t kosi z, a wɔfrɛ no kyɛm), nea ɛbɔ ho ban kosi nea ɛda adi (z kosi t, wɔfrɛ no deshielding), ne nea ɛbɔ ho ban kɔ nea ɛbɔ ho ban (z kosi z, kokoam koraa).
+Esiane sɛ ɛsom bo abien nti, bo betumi akɔ akwan anan so: nea ɛda adi kɔ nea ɛda adi (t kosi t), nea ɛda adi kɔ nea ɛbɔ ho ban (t kosi z, a wɔfrɛ no kyɛm), nea ɛbɔ ho ban kosi nea ɛda adi (z kosi t, a wɔfrɛ no deshielding), ne nea ɛbɔ ho ban kɔ nea ɛbɔ ho ban (z kosi z, kokoam koraa).
 
 ## Nea obi a ɔhwehwɛ nneɛma mu betumi ahu
 
 Ɔmanfo nhwehwɛmufo te sɛ [Blockchair a wɔde si dan mu](https://blockchair.com/zcash) betumi akenkan pefee sɛ:
 
-- Tutua biara a ɛda adi koraa (t kosi t), awiei kosi awiei.
+- Ka biara a ɛda adi koraa (t kosi t) a wotua, awiei kosi awiei.
 - Sika a ɛhyɛn ɔtare a wɔabɔ ho ban no mu (ɔfã a ɛda adi pefee ne sika dodow no).
 - Sika a efi ɔtare a wɔabɔ ho ban no mu (ɔfã a ɛda adi pefee ne sika dodow no).
-- ZEC nyinaa a wɔkura wɔ shielded pool biara mu, a ɛyɛ ɔmanfoɔ enti network no bɛtumi akyerɛ sɛ wɔammɔ sika biara amfiri hwee mu.
+- ZEC nyinaa a wɔkura wɔ shielded pool biara mu, a ɛyɛ ɔmanfoɔ sɛdeɛ ɛbɛyɛ a network no bɛtumi akyerɛ sɛ wɔammɔ sika biara amfiri hwee mu.
 
 Ne tiaatwa mu no, wotumi hu ɔtare a wɔabɔ ho ban no anoano. Wubetumi ahwɛ sɛnea bo a ɛsom no trɛw kɔ mu na efi mu ba.
 
-## Nea obi a ɔhwehwɛ nneɛma mu ntumi nhu
+## Nea ɔkwantufo ntumi nhu
 
-Baguam nhwehwɛmufo ntumi nkenkan sɛ:
+Ɔmanfo nhwehwɛmufo ntumi nkenkan sɛ:
 
 - Nkitahodi a wɔabɔ ho ban koraa (z kosi z). Nea ɔde kɔmaa, nea ogye, ne sika dodow no tra hɔ ahintaw.
-- Nea ɔde kɔmaa anaa nea ogyee wɔ sikatua biara a wɔabɔ ho ban akyi.
+- Nea ɔde kɔmaa anaa nea ogye no wɔ sika biara a wɔabɔ ho ban akyi.
 - Address a wɔabɔ ho ban ankorankoro bi a ɛkari pɛ.
 - Nea ɛba sika so bere a wɔakɔ ɔtare no mu pɛn no.
 
@@ -48,15 +48,15 @@ Bisa raw data no na shielded sender ne receiver fields no san ba kwa. Ɛnyɛ nea
 
 ## Nea enti a ɛho hia
 
-**Wo kokoam nsɛm no firi cryptography no mu, ɛnyɛ adwumakuo bi mu ahotosoɔ mu.** Data provider ntumi nhwɛ shielded transaction mu sɛ ɔpɛ mpo a.
+**Wo kokoamsɛm firi cryptography no mu, ɛnyɛ adwumakuo bi mu ahotosoɔ.** Data provider ntumi nhwɛ shielded transaction mu sɛ ɔpɛ mpo a.
 
-**Public shield-rate numbers undercount privacy.** Nhwehwɛmufoɔ tumi susu deɛ ɛtwa ɔmanfoɔ hyeɛ nko ara, enti anyɛ yie koraa no, ankorankoro dwumadiɛ dodoɔ ankasa ne deɛ wɔbɔ ho amanneɛ, na mpɛn pii no ɛboro saa.
+**Public shield-rate numbers undercount privacy.** Nhwehwɛmufo betumi asusuw nea ɛtwa ɔmanfo hye nkutoo, enti anyɛ yiye koraa no, ankorankoro dwumadi dodow ankasa ne nea wɔbɔ ho amanneɛ, na mpɛn pii no ɛboro saa.
 
-**Otare kɛseɛ a wɔabɔ ho ban bɔ obiara ho ban.** Dodow a nnipa dodoɔ a wɔde address a wɔabɔ ho ban di dwuma no, dodoɔ no ara na nnipadɔm a ankorankoro sikatua baako biara de wɔn ho sie mu no yɛ kɛseɛ Address a wɔabɔ ho ban a wode bedi dwuma no boa ma wo ne obiara a ɔwɔ ɔtare no mu bɔ ho ban.
+**Otare kɛseɛ a wɔabɔ ho ban bɔ obiara ho ban.** Dodow a nnipa dodoɔ a wɔde address a wɔabɔ ho ban di dwuma no, dodoɔ no ara na nnipadɔm a ankorankoro sikatua baako biara de wɔn ho sie mu no dɔɔso Address a wɔabɔ ho ban a wode bedi dwuma no boa ma wo ne obiara a ɔwɔ ɔtare no mu bɔ ho ban.
 
 ## Fa di dwuma
 
-- Fa sika kotoku a ɛyɛ default to address ahorow a wɔabɔ ho ban, te sɛ [Zodl](https://zodl.com) or [Ywallet na ɔkyerɛwee](https://ywallet.app/).
+- Fa sika kotoku a ɛyɛ default to address ahorow a wɔabɔ ho ban, te sɛ [Zodl](https://zodl.com) or [Zingo!](https://www.zingolabs.org/).
 - Sɛ wo nsa ka ZEC wɔ address a ɛda adi pefee so a, fa kɔ address a wɔabɔ ho ban mu ansa na wode adi dwuma.
 - Tua ka kɔ address ahorow a wɔabɔ ho ban so wɔ baabi a wubetumi. Tua biara a ɛda adi pefee no yɛ ɔmanfo de koraa; nea wɔabɔ no kyɛm no nyɛ saa.
 
@@ -76,4 +76,4 @@ Bisa raw data no na shielded sender ne receiver fields no san ba kwa. Ɛnyɛ nea
 
 ---
 
-*Sɛ wopɛ sɛ wode bi ka ho anaasɛ wohyɛ nyansa sɛ wɔnyɛ nsakrae wɔ wiki krataafa yi mu a, yɛsrɛ wo fa w'ani kyerɛ... [ZecHub GitHub ho nsɛm a wɔakyerɛw](https://github.com/ZecHub/zechub) na fa twetwe adesrɛ bɛmena.*
+*Sɛ wopɛ sɛ wode ka ho anaa wohyɛ nyansa sɛ wɔnyɛ nsakrae wɔ wiki krataafa yi mu a, yɛsrɛ wo fa w'ani kyerɛ... [ZecHub GitHub ho nsɛm a wɔakyerɛw](https://github.com/ZecHub/zechub) na fa twetwe adesrɛ bɛmena.*

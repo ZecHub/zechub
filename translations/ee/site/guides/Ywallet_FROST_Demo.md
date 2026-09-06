@@ -1,5 +1,7 @@
 # Ywallet FROST ƒe wɔwɔfia
 
+> **Womegale Ywallet dzi kpɔm o.** Eƒe dɔwɔƒe ɖo kpe edzi be womawɔ yeyee na Ironwood (NU6.3), eyata megate ŋu zɔna ɖe kɔsɔkɔsɔa dzi o eye afɔɖeɖe siwo le ete la mateŋu awu enu le mainnet dzi o. Wodzra axa sia ɖo be woate ŋu akpɔe. Zkool, tso developer ma ke gbɔ, nye beléle na eteƒe eye wòdoa alɔ FROST multisig.
+
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
@@ -46,7 +48,7 @@ Kpe ɖe UA ɖesiaɖe me eye nàɖo tx ɖa. Dzra faɛl la ɖo.
 `./signFROST_tx.sh rawtxs/mytx signedtxs/mysignedtx`
 
 gbãtɔ si wotsɔ de emee nye afisi tx xoxoa le tso afɔɖeɖe si le etame
-evelia ƒe nyawo tsɔtsɔ de emee nye teƒe kple ŋkɔ si wode asi na tx si nèdi be yeaɖe gbeƒãe
+evelia ƒe nyawo tsɔtsɔ de eme nye teƒe kple ŋkɔ na tx si wode asi si nèdi be yeaɖe gbeƒãe
 Esia nye akpa aɖe si nègblɔa asitsatsa si nèdi be amesiame nade asi na FROST
 
 ## Dze egɔme ƒe Ðoɖowɔla

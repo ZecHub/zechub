@@ -1,5 +1,7 @@
 # Ywallet FROST ho ɔyɛkyerɛ
 
+> **Wɔhwɛ Ywallet so bio.** Nea ɔyɛɛ no ​​no asi so dua sɛ wɔrennyɛ no foforo mma Ironwood (NU6.3), enti entumi nni nkɔnsɔnkɔnsɔn no akyi bio na anammɔn a ɛwɔ ase ha no ntumi nwie wɔ mainnet so. Wɔde kratafa yi asie sɛnea ɛbɛyɛ a wobetumi ahwɛ mu. Zkool, a efi developer koro no ara mu, ne nea wɔhwɛ so no na ɛboa FROST multisig.
+
 ## Boaboa FROST bin ahorow ano
 
 https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign

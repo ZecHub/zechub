@@ -2,12 +2,12 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-![asɛmti](/content-images/205220798-c8e51db6-ddad-46ff-b760-401756-c9ba937b4e.webp)
+![header](/content-images/205220798-c8e51db6-ddad-46ff-b760-401756-c9ba937b4e.webp)
 
 
 # Cypherpunk a ɛyɛ Zero a ɛyɛ Zero
 
-Cypherpunk Zero yɛ abakɔsɛm a ɛtoatoa so a ɛfa Zero, aberante bi a ɔyɛ cypherpunk hacker ne ahofadi ho ɔkofo ho. Mprempren Zero te dystopian dae bɔne mu na ɔde mmara di dwuma de ko tia apon ano ahwɛfo a wɔwɔ mfinimfini a wɔde nkɔnsɔnkɔnsɔn abɔ ɔmanfo no. Zcash ne Halo cryptography na ɛkanyan asɛm no. Adebɔ adwuma no yɛ mmɔdenbɔ a ECC, Stranger World, Might Jaxx ne abɔdeɛ a nkwa wom ho ahokafoɔ a wɔapaw wɔn bom yɛ. Adebɔ adwuma no atwe adwene asi [NFT series](https://opensea.io/collection/cypherpunk-zero), nanso ɛyɛ [asɛmfua a wɔde di dwuma wɔ nnianim asɛm](https://halo.electriccoin.co/#view-prologue) ne [agode a wotumi boaboa ano](https://mightyjaxx.com/products/cypherpunk-zero) wɔayi wɔn nso adi. NFT mpɔtam hɔfo a wɔn mu dodow no ara yɛ nnam wɔ Twitter so no mpo ayɛ [ahyehyɛde a wɔde ahyɛ mmeae ahorow (DAO) .](https://twitter.com/CypherpunkDAO) sɛ wɔbɛhyehyɛ na wɔawie nnwuma a ɛboa ɔsatuo no, ne Zcash mpɔtam hɔfoɔ a wɔtrɛ no.
+Cypherpunk Zero yɛ abakɔsɛm a ɛtoatoa so a ɛfa Zero, aberante bi a ɔyɛ cypherpunk hacker ne ahofadi ho ɔkofo ho. Mprempren Zero te dystopian dae bɔne mu na ɔde mmara di dwuma de ko tia apon ano ahwɛfo a wɔwɔ mfinimfini a wɔde nkɔnsɔnkɔnsɔn abɔ ɔmanfo no. Zcash ne Halo cryptography na ɛkanyan asɛm no. Adebɔ adwuma no yɛ mmɔdenbɔ a ECC, Stranger World, Might Jaxx ne abɔdeɛ a nkwa wom ho ahokafoɔ a wɔapaw wɔn bom yɛ. Adebɔ adwuma no atwe adwene asi an [NFT nsɛm a ɛtoatoa so](https://opensea.io/collection/cypherpunk-zero), nanso a [nnianim asɛm aseresɛm](https://halo.electriccoin.co/#view-prologue) ne [agode a wotumi boaboa ano](https://mightyjaxx.com/products/cypherpunk-zero) wɔayi wɔn nso adi. NFT mpɔtam hɔfo a wɔn mu dodow no ara yɛ nnam wɔ Twitter so no mpo ayɛ a [ahyehyɛde a wɔde ama (DAO) .](https://twitter.com/CypherpunkDAO) sɛ wɔbɛhyehyɛ na wɔawie nnwuma a ɛboa ɔsatuo no, ne Zcash mpɔtam hɔfoɔ a wɔtrɛ no.
 
 ## Anti-roadmap Ɔkwankyerɛ
 
@@ -15,11 +15,11 @@ Yɛahu sɛ nnwuma pii ahyɛ bɔ dodo na wɔmfa wɔn NFT akwan ho nhyehyɛe no mm
 
 ## Aban a wɔde di dwuma
 
-[Mfonini a wɔatwa no tiaa](https://snapshot.box/#/s:cypherpunkzerodao.eth)
+[Mfonini a wɔatwa no ntɛm](https://snapshot.box/#/s:cypherpunkzerodao.eth) — DAO no amanne kwan so portal a ɛwɔ vote.cypherpunkzero.com no akɔ pɛnhyen na ne domain no nsiesie bio; eyi ne Snapshot ahunmu a ɛda so ara wɔ hɔ.
 
-[Guild a wɔde wɔn ho hyɛ mu](https://guild.xyz/cypherpunkzerodao)
+[Guild a wɔde yɛ adwuma](https://guild.xyz/cypherpunkzerodao)
 
-[Aman Nkabom Kuw](https://commonwealth.im/cypherpunk-zero)
+[Amanaman Nkabom Kuw](https://commonwealth.im/cypherpunk-zero)
 
 ## Hena ne Ɔhɔho Ɔkraman?
 
@@ -37,7 +37,7 @@ Yɛahu sɛ nnwuma pii ahyɛ bɔ dodo na wɔmfa wɔn NFT akwan ho nhyehyɛe no mm
 
 ## Nkɔnsɔnkɔnsɔn bɛn na NFT no wɔ?
 
-[Ethereum a wɔde kyerɛw nsɛm](https://etherscan.io/address/0x3e86d6cf041b719c575f57050697c115f0a53758)
+[Ethereum a wɔde yɛ adwuma](https://etherscan.io/address/0x3e86d6cf041b719c575f57050697c115f0a53758)
 
 ## Dɛn ne token a wɔkyekyɛ no?
 
@@ -55,14 +55,14 @@ Yiw mfitiase collection no nyaa hacked, daakye no yɛ nea wɔankyerɛw.
 
 ## Akadeɛ
 
-[Cypherpunk Zero Wɛbsaet](https://halo.electriccoin.co/)
+[Cypherpunk Zero Wɛbsaet no](https://halo.electriccoin.co/)
 
-[Cypherpunk Zero Twitter so na ɛyɛ nokware](https://twitter.com/cypherpunkZero)
+[Cypherpunk Zero wɔ Twitter so](https://twitter.com/cypherpunkZero)
 
 [Cypherpunk Zero Opensea Nneɛma a Wɔaboaboa Ano](https://opensea.io/collection/cypherpunk-zero)
 
-[Cypherpunk Zero DAO Twitter so na ɛyɛ adwuma wɔ ɔkwan a ɛyɛ nwonwa so](https://twitter.com/CypherpunkDAO)
+[Cypherpunk Zero DAO na ɛyɛ adwuma wɔ Twitter so](https://twitter.com/CypherpunkDAO)
 
 [Cypherpunk Zero DAO Nkitahodi](https://discord.com/invite/sjfgXys4Jf)
 
-[Cypherpunk Zero NFT Mega Nhama a Wɔde Di Dwuma](https://forum.zcashcommunity.com/t/cypherpunk-zero-nft-megathread/41502?u=dismad)
+[Cypherpunk Zero NFT Mega Nhama a Wɔde Yɛ Adwuma](https://forum.zcashcommunity.com/t/cypherpunk-zero-nft-megathread/41502?u=dismad)
