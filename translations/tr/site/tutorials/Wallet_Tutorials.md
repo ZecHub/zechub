@@ -1,13 +1,13 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/tutorials/Wallet_Tutorials.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Zcash Cüzdan Eğitimleri
 
-Aşağıda, ZEC kullanmaya başlamanıza yardımcı olabilecek cüzdan eğitimlerinin bir listesi bulunmaktadır.
+Aşağıda, ZEC ile başlamanıza yardımcı olabilecek cüzdan eğitimlerinin bir listesi bulunmaktadır.
 
 
-- Zodl Wallet
+- Zodl Cüzdanı
 
 [![Video Küçük Resmi](/content-images/hqdefault-a4a2a5de7f.webp)](https://www.youtube.com/watch?v=G92zBIr-Wms)
 
@@ -19,6 +19,8 @@ ____
 [![Video Küçük Resmi](/content-images/hqdefault-02389a1b67.webp)](https://www.youtube.com/watch?v=ao4ORC_VNcY)
 
 ____ 
+
+> Aşağıdaki üç Ywallet videosu referans amacıyla tutulmaktadır. Ywallet artık sürdürülmemektedir ve Ironwood için güncellenmeyecektir; bu nedenle artık zinciri takip edemez. [Cüzdanlar](https://zechub.wiki/wallets) sayfasından sürdürülen bir cüzdan seçin.
 
 - Ywallet Soğuk Depolama
 
@@ -40,7 +42,7 @@ ____
 
 ____
 
-- Unstoppable Wallet Eğitimi 
+- Unstoppable Wallet Eğitimi
 
 [![Video Küçük Resmi](/content-images/hqdefault-8ecdd85617.webp)](https://www.youtube.com/watch?v=B9tpkgVRsq4)
 

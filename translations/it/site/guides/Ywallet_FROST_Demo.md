@@ -1,5 +1,7 @@
 # Demo FROST con Ywallet
 
+> **Ywallet non è più mantenuto.** Il suo sviluppatore ha confermato che non verrà aggiornato per Ironwood (NU6.3), quindi non può più seguire la chain e i passaggi seguenti non possono essere completati su mainnet. Questa pagina è conservata a scopo di riferimento. Zkool, dello stesso sviluppatore, è il successore mantenuto e supporta il multisig FROST.
+
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
@@ -12,11 +14,11 @@
 </div>
 
 
-## Compila i binari FROST
+## Compilare i binari FROST
 
 [Link GitHub](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
 
-Usa il repo qui sopra e segui le indicazioni sulla compilazione: 
+Usa il repository qui sopra e segui le istruzioni per la compilazione: 
 
 ```bash
 cargo build --bin trusted-dealer
@@ -25,51 +27,51 @@ cargo build --bin coordinator
 cargo build --bin participants
 ```
 
-I binari si troveranno nella cartella target.
+I binari saranno nella cartella target.
 
-## Crea una UA FROST
+## Creare un UA FROST
 
 `./generateFROST_UA.sh`
 
 
 
-## Importa la UFVK in Ywallet
+## Importare UFVK in Ywallet
 
-Accounts -> Clicca + e incolla la ufvk dal passo precedente
+Account -> Clicca + e incolla l'ufvk del passaggio precedente
 
-## Crea una transazione con Ywallet
+## Creare una transazione con Ywallet
 
-Incolla una qualsiasi UA e invia una tx. Salva il file.
+Incolla un qualsiasi UA e invia una transazione. Salva il file.
 
-## Avvia la procedura di firma FROST 
+## Avviare la procedura di firma FROST
 
 `./signFROST_tx.sh rawtxs/mytx signedtxs/mysignedtx`
 
-il primo input è la posizione della tx grezza ottenuta dal passo precedente
-il secondo input è la posizione e il nome della tx firmata che vuoi trasmettere
+il primo input è la posizione della transazione grezza del passaggio precedente  
+il secondo input è la posizione e il nome della transazione firmata che vuoi trasmettere  
 Questa è la parte in cui indichi a FROST quale transazione vuoi che tutti firmino
 
-## Avvia il Coordinator
+## Avviare il coordinatore
 
 `./runCoordinator.sh`
 
 Questo coordina la firma di ciascun partecipante e crea una firma di gruppo
 
-## Fai firmare a ciascun Partecipante questa transazione
+## Far firmare questa transazione a ciascun partecipante
 
 ```bash
 ./participantSign.sh key-package-1.json
 ./participantSign.sh key-package-2.json
 ```
 
-## Finalizza la transazione firmata
+## Finalizzare la transazione firmata
 
-Nella finestra del coordinator, copia la firma di gruppo che viene mostrata in output e incollala nella finestra di firma FROST.
+Nella finestra del coordinatore, copia la firma di gruppo prodotta e incollala nella finestra di firma FROST.
 Questo completerà la firma FROST e produrrà 'mysingedtx'
 
 
-## Trasmetti la tua transazione con Ywallet
+## Trasmettere la transazione con Ywallet
 
-Clicca su 'More' nella parte in basso a destra di Ywallet e trova 'Broadcast'. Trova 'mysignedtx' e clicca ok.
+Clicca su 'More' in basso a destra in Ywallet e trova 'Broadcast'. Trova 'mysignedtx' e clicca ok.
 
-Se tutto funziona otterrai un ID della transazione :)
+Se tutto funziona, otterrai un ID transazione :)

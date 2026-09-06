@@ -1,10 +1,11 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/tutorials/Wallet_Tutorials.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="페이지 편집"/>
 </a>
 
 # Zcash 지갑 튜토리얼
 
-아래는 ZEC 사용을 시작하는 데 도움이 되는 지갑 튜토리얼 목록입니다.
+아래는 ZEC를 시작하는 데 도움이 되는 지갑 튜토리얼 목록입니다.
+
 
 - Zodl 지갑
 
@@ -19,7 +20,9 @@ ____
 
 ____ 
 
-- Ywallet 냉장고 저장소
+> 아래의 세 Ywallet 동영상은 참고용으로 유지됩니다. Ywallet은 더 이상 유지 관리되지 않으며 Ironwood에 맞춰 업데이트되지 않으므로 더 이상 체인을 따라갈 수 없습니다. 유지 관리되는 지갑은 [지갑](https://zechub.wiki/wallets) 페이지에서 선택하세요.
+
+- Ywallet 콜드 스토리지
 
 [![동영상 썸네일](/content-images/hqdefault-2811fac3b5.webp)](https://www.youtube.com/watch?v=hJaAccp-77k)
 
@@ -32,14 +35,14 @@ ____
 
 ____
 
-- Ywallet Multipay 기능
+- Ywallet 다중 결제 기능
 
 [![동영상 썸네일](/content-images/hqdefault-789c84a8e4.webp)](https://www.youtube.com/watch?v=ovlNktpxURI)
 
 
 ____
 
-- Unstoppable Wallet 튜토리얼 
+- Unstoppable Wallet 튜토리얼
 
 [![동영상 썸네일](/content-images/hqdefault-8ecdd85617.webp)](https://www.youtube.com/watch?v=B9tpkgVRsq4)
 

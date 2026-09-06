@@ -4,10 +4,10 @@
 
 # Tutorial sui wallet Zcash
 
-Di seguito trovi un elenco di tutorial sui wallet che possono aiutarti a iniziare con ZEC.
+Di seguito è riportato un elenco di tutorial sui wallet che possono aiutarti a iniziare a usare ZEC.
 
 
-- ZODL Wallet
+- Zodl Wallet 
 
 [![Video Thumbnail](/content-images/hqdefault-a4a2a5de7f.webp)](https://www.youtube.com/watch?v=G92zBIr-Wms)
 
@@ -20,13 +20,15 @@ ____
 
 ____ 
 
-- Ywallet Cold Storage
+> I tre video su Ywallet qui sotto sono mantenuti come riferimento. Ywallet non è più gestito e non verrà aggiornato per Ironwood, quindi non può più seguire la blockchain. Scegli un wallet gestito dalla pagina [Wallet](https://zechub.wiki/wallets).
+
+- Conservazione a freddo con Ywallet
 
 [![Video Thumbnail](/content-images/hqdefault-2811fac3b5.webp)](https://www.youtube.com/watch?v=hJaAccp-77k)
 
 ____
 
-- Ywallet Batch Backup
+- Backup batch di Ywallet
 
 [![Video Thumbnail](/content-images/hqdefault-a374a413ed.webp)](https://www.youtube.com/watch?v=0skM-RziBv8)
 
@@ -45,7 +47,3 @@ ____
 [![Video Thumbnail](/content-images/hqdefault-8ecdd85617.webp)](https://www.youtube.com/watch?v=B9tpkgVRsq4)
 
 ____
-
-
-
-

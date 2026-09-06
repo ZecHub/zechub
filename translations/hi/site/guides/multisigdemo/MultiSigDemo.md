@@ -1,41 +1,41 @@
 # MultiSig डेमो
 
-> **ऐतिहासिक अभिलेख। यह गाइड अब काम नहीं करती।**
+> **ऐतिहासिक। यह walkthrough अब नहीं चलता है।**
 >
-> नीचे दिए गए सभी चरण zcashd पर निर्भर हैं, जो 18 जुलाई 2026 को अपने स्वचालित एंड-ऑफ-सपोर्ट हॉल्ट पर पहुँच गया। इस पेज के साथ दी गई सात स्क्रिप्ट्स इसे `zcash-cli` के माध्यम से चलाती हैं, इसलिए इनमें से कोई भी आज किसी चालू नोड तक नहीं पहुँच सकती।
+> नीचे दिया गया हर चरण zcashd पर निर्भर है, जो 18 जुलाई 2026 को अपने स्वचालित End-of-Support ठहराव पर पहुँच गया। इस पृष्ठ के साथ दिए गए सात scripts इसे `zcash-cli` के माध्यम से चलाते हैं, इसलिए इनमें से कोई भी आज चालू नोड तक नहीं पहुँच सकता।
 >
-> इन स्क्रिप्ट्स को यांत्रिक रूप से पोर्ट नहीं किया जा सकता: ये रॉ ट्रांज़ैक्शन और वॉलेट RPC पर आधारित हैं जिन्हें zcashd ने अप्रचलित कर दिया था, और Zallet उन्हें नए तरीकों से बदलता है जो रॉ ट्रांज़ैक्शन hex के बजाय PCZT पर काम करते हैं।
+> इन scripts को यांत्रिक रूप से port नहीं किया जा सकता। ये raw-transaction और wallet RPCs (`createrawtransaction`, `signrawtransaction`, `createmultisig`, `dumpprivkey`) पर बने हैं, जिन्हें zcashd ने ठहराव से पहले deprecated कर दिया था; Zallet इनकी जगह नए methods देता है जो raw transaction hex के बजाय PCZTs पर काम करते हैं, और अभी beta में है तथा कई zcashd methods अभी port नहीं हुए हैं।
 >
-> Zcash पर आज बहु-पक्षीय कस्टडी के लिए [FROST और थ्रेशोल्ड कस्टडी](/zcash-tech/frost-threshold-custody) और कार्यशील [Ywallet FROST डेमो](/guides/frostdemo/ywallet-frost-demo) देखें। किसी मौजूदा नोड को zcashd से हटाने के लिए [Zebra और Zallet माइग्रेशन गाइड](/guides/migration-guide-zcashd-to-zebrad-zallet) देखें।
+> आज Zcash पर multi-party custody के लिए [FROST & Threshold Custody](/zcash-tech/frost-threshold-custody) देखें, जिसमें transparent multisig के साथ सीधी तुलना शामिल है, और [Ywallet FROST डेमो](/guides/frostdemo/ywallet-frost-demo) देखें। किसी मौजूदा नोड को zcashd से हटाने के लिए, [Zebra और Zallet पर migration guide](/guides/migration-guide-zcashd-to-zebrad-zallet) देखें।
 >
-> यह पेज पारदर्शी multisig वर्कफ़्लो के ऐतिहासिक रिकॉर्ड के रूप में रखा गया है।
+> यह पृष्ठ transparent multisig workflow के ऐतिहासिक रिकॉर्ड के रूप में रखा गया है।
 
-इस डेमो के लिए zcashd आवश्यक है 
+इस डेमो के लिए zcashd आवश्यक है, जो 18 जुलाई 2026 को रुक गया और अब नहीं चलता। नीचे दी गई कोई भी चीज़ live chain पर पूरी नहीं की जा सकती।
 
 ## आवश्यक व्यक्तियों से public keys एकत्र करें
 
 * https://github.com/iancoleman/bip39
-* यदि zcashd का उपयोग कर रहे हैं, तो आप एक UA बना सकते हैं और अपने transparent reciever का भी उपयोग कर सकते हैं। फिर अपनी public key निकालने के लिए `getPubkey.sh` का उपयोग करें।
+* यदि zcashd का उपयोग कर रहे हैं, तो आप एक UA बना सकते हैं और अपना transparent receiver भी उपयोग कर सकते हैं। फिर अपनी public key निकालने के लिए `getPubkey.sh` का उपयोग करें।
 
 
-## 2x Multisig (2 of 3) t3 addresses बनाएं
+## 2x Multisig (3 में से 2) t3 addresses बनाएँ
 
-अपना multisig address और redeem script जनरेट करने के लिए createMultiSig.sh चलाएँ। इसके लिए 3 public keys की आवश्यकता होती है
+अपना multisig address और redeem script बनाने के लिए createMultiSig.sh चलाएँ। 3 public keys चाहिए
 
 `./createMultiSig.sh pubk1 pubk2 pubk3`      # पहला t3
 
-`./createMultiSig.sh pubk4 pubk5 pubk6`      # change address के लिए दूसरा t3. 
+`./createMultiSig.sh pubk4 pubk5 pubk6`      # change address के लिए दूसरा t3। 
 
-#### नोट: इस उदाहरण में pubk1,pubk4 एक ही व्यक्ति हैं, pubk2,pubk5 एक ही व्यक्ति हैं और इसी तरह आगे भी ...
+#### ध्यान दें: इस उदाहरण में pubk1,pubk4 एक ही व्यक्ति हैं, pubk2,pubk5 एक ही व्यक्ति हैं और इसी तरह आगे भी ...
 
-#### नोट2: आपकी pubkeys का ORDER महत्वपूर्ण है! इस पर ध्यान दें!!!!
+#### ध्यान दें2: आपकी pubkeys का ORDER मायने रखता है! इस पर ध्यान दें!!!!
 
 
-## t3 address को फंड करें
+## t3 address में धन भेजें
 
-address को फंड करने के लिए किसी भी wallet/facuet का उपयोग करें
+address में धन भेजने के लिए किसी भी wallet/facuet का उपयोग करें
 
-## MultiSig transaction बनाएं
+## MultiSig transaction बनाएँ
 
 `./createMultiSigTX.sh txid voutIndex scriptPubKey redeemScript oldAmount tAddy amount changeTaddy`
 
@@ -43,23 +43,23 @@ address को फंड करने के लिए किसी भी walle
 
 ```
         txid: उस transaction की transaction ID जिसने आपके नए t3 में धन भेजा
-   voutIndex: vout में उस output का index जिसकी value सबसे अधिक है
-scriptPubKey: P2SH locking script में एक अन्य locking script (Script Hash) का hash होता है, जो HASH160 और EQUAL opcodes से घिरा होता है। यह hex में होता है, और getrawtransaction rpc के माध्यम से मिलता है, scriptPubKey को देखें
-redeemScript: redeemScript की hex value जो हमारा t3 बनाते समय output हुई थी। यह उन सभी लोगों के लिए आवश्यक है जो t3 से spend करना चाहते हैं।
-   oldAmount: ऊपर दिए गए txid से आपके नए t3 में भेजी गई राशि
-       tAddy: वह address जिस पर आप funds भेजना चाहते हैं
-      amount: tAddy पर भेजी जाने वाली ZEC की राशि
- changeTaddy: Change address (नया t3 एक नए redeemScript के साथ!)
+   voutIndex: vout में उस output का index जिसका मान सबसे अधिक है
+scriptPubKey: P2SH locking script में दूसरे locking script (Script Hash) का hash होता है, जो HASH160 और EQUAL opcodes से घिरा होता है। यह hex में है, और getrawtransaction rpc के माध्यम से मिलता है; scriptPubKey देखें
+redeemScript: उस redeemScript का hex मान जो हमारा t3 बनाते समय output हुआ था। यह उन सभी लोगों के लिए आवश्यक है जो t3 से खर्च करना चाहते हैं।
+   oldAmount: ऊपर दिए गए txid से आपके नए t3 को भेजी गई राशि
+       tAddy: वह address जहाँ आप धन भेजना चाहते हैं
+      amount: tAddy को भेजी जाने वाली ZEC की राशि
+ changeTaddy: Change address (नए redeemScript के साथ नया t3!)
 
 ```
 
-`./txDetails.sh txid`   => आवश्यक जानकारी खोजने में आपकी मदद करेगा
+`./txDetails.sh txid`   => आवश्यक जानकारी खोजने में आपकी सहायता करेगा
 
 ```
 
 txid              : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed37e253de9869b549530 | jq .txid
 
-valueInitialTX    : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed37e253de9869b549530 | jq .vout[].value   ** signing के लिए यह आवश्यक है! **
+valueInitialTX    : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed37e253de9869b549530 | jq .vout[].value   ** this is needed for signing! **
 
 voutIndex         : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed37e253de9869b549530 | jq .vout[].n
 
@@ -69,32 +69,34 @@ scriptPubKey      : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed
 
 
 
-## MultiSig TX पर sign करें
+## MultiSig TX पर हस्ताक्षर करें
 
-signMultiSigTX.sh खोलें और `pk1`,`pk2`, ... variables में अपनी private keys जोड़ें।
+signMultiSigTX.sh खोलें और pk1,pk2, ... variables में अपनी private keys जोड़ें।
  
 
-*** मैं इन्हें आपके terminal में टाइप करने की सिफारिश नहीं करूँगा। ***
+*** मैं इन्हें अपने terminal में टाइप करने की अनुशंसा नहीं करूँगा। ***
 
 
-यदि आपके पास अपनी सभी private keys की पहुँच है, तो समय बचाने के लिए आप उन सबका एक साथ उपयोग कर सकते हैं,
-लेकिन वास्तविक दुनिया के अधिकांश उदाहरणों में signing दुनिया भर में मौजूद लोगों द्वारा की जाएगी, इसलिए आवश्यक प्रतिभागियों में से प्रत्येक को sign करना होगा,
-फिर अद्यतन raxTX "hex" output वापस भेजना होगा, जिसे अन्य लोग signing प्रक्रिया पूरी करने के लिए sign करने में उपयोग करेंगे।
+यदि आपकी सभी private keys तक पहुँच है, तो समय बचाने के लिए आप उन सभी का एक साथ उपयोग कर सकते हैं,
+लेकिन वास्तविक दुनिया के अधिकांश उदाहरणों में, हस्ताक्षर दुनिया भर के लोगों द्वारा किए जाएँगे, इसलिए प्रत्येक आवश्यक प्रतिभागी को हस्ताक्षर करना होगा,
+फिर अद्यतन raxTX "hex" output वापस भेजना होगा, जिसका उपयोग अन्य लोग हस्ताक्षर करके signing प्रक्रिया पूरी करने के लिए करेंगे।
 
-जो भी व्यक्ति पहला tx बनाता है, वह अपनी private key से sign करेगा और फिर अद्यतन rawTX hex भेजेगा, जिस पर अन्य प्रतिभागियों को sign करना होगा।
+जो भी व्यक्ति पहला tx बनाता है, वह अपनी private key से हस्ताक्षर करेगा और अद्यतन rawTX hex भेजेगा, जिस पर अन्य प्रतिभागियों को हस्ताक्षर करने होंगे।
 
 `./signMultiSigTX.sh rawTX txid voutIndex scriptPubKey redeemScript valueInitialTX`
 
-इस tx पर sign करने के लिए, तीन private keys में से कम-से-कम 2 को इस पर sign करना होगा। यदि आपने जो public key दी थी वह zcashd के T-address का उपयोग करके export की गई थी, तो आप अपने T address की private key इस प्रकार प्राप्त कर सकते हैं: 
+इस tx पर हस्ताक्षर करने के लिए, तीन private keys में से कम-से-कम दो को उस पर हस्ताक्षर करने होंगे। यदि आपके द्वारा दी गई public key को zcashd के T-address का उपयोग करके export किया गया था, तो आप अपने T address की private key इस तरह प्राप्त कर सकते हैं: 
 
 
 `zcash-cli dumpprivkey "t-addr"`
 
+यह command zcashd के साथ रुक गया था और आज कुछ भी return नहीं करता; इसे यहाँ केवल यह दिखाने के लिए दर्ज किया गया है कि डेमो ने अपनी keys कैसे प्राप्त कीं।
 
-इस डेमो के लिए, मैंने आवश्यक private keys को जल्दी से अलग करने के लिए iancoleman के bip39 का उपयोग किया है।
+
+इस डेमो के लिए, मैंने आवश्यक private keys को जल्दी अलग करने के लिए iancoleman's bip39 का उपयोग किया है।
 
 
-## signed TX को broadcast करें
+## हस्ताक्षरित TX broadcast करें
 
 `./sendMultiSignedTX.sh signedTXfromLastStep`
 

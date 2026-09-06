@@ -2,46 +2,44 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Risorse su Zcash
+# Risorse Zcash
 
-Ci sono diverse risorse che aiutano gli utenti a comprendere Zcash.
+Esistono diverse risorse che aiutano gli utenti a comprendere Zcash.
 
 **[Zcash Media](https://www.youtube.com/c/ZcashMedia)**
 
-Zcash Media è un'organizzazione indipendente che realizza documentari educativi su Zcash. Il loro primo video, "Built to Fix Bitcoin's Fatal Flaw, What is Zcash (ZEC)?", è un'ottima introduzione a Zcash.
+Zcash Media è un'organizzazione indipendente che realizza documentari educativi su Zcash. Il suo primo video, "Built to Fix Bitcoin's Fatal Flaw, What is Zcash (ZEC)?", è un'ottima introduzione a Zcash.
 
-**[Twitter](https://x.com)**
+**[X (precedentemente Twitter)](https://x.com)**
 
-Twitter è l'hub di comunicazione de facto per la comunità di Zcash e per l'intero spazio delle criptovalute. È un ottimo posto per prendere il polso su tutto ciò che riguarda Zcash e anche per seguire i membri di spicco della comunità. Ecco un [documento](https://www.notion.so/zechub/Social-Media-Links-05b9df645af54de7a1989d9c4ccc4d05) che elenca i principali account da seguire.
+Twitter è l'hub di comunicazione de facto per la comunità Zcash e per il più ampio settore delle criptovalute. È un ottimo posto per avere il polso di tutto ciò che riguarda Zcash e seguire anche membri di spicco della comunità. Ecco un [documento](https://www.notion.so/zechub/Social-Media-Links-05b9df645af54de7a1989d9c4ccc4d05) che elenca gli account principali da seguire.
 
-**[Zcash Community](https://www.zcashcommunity.com/)**
+**[Comunità Zcash](https://www.zcashcommunity.com/)**
 
-Zcash Community è un sito gestito dalla comunità che mette in luce i progetti gestiti dalla stessa comunità a supporto dell'ecosistema Zcash. È un modo eccellente per iniziare a conoscere la comunità di Zcash e le sue varie applicazioni come valuta.
+Zcash Community è un sito gestito dalla comunità che mette in evidenza progetti gestiti dalla comunità a sostegno dell'ecosistema Zcash. È un ottimo modo per conoscere la comunità Zcash e le sue varie applicazioni come valuta.
 
-**[The Zcash Forum](https://forum.zcashcommunity.com/)**
+**[Il forum Zcash](https://forum.zcashcommunity.com/)**
 
-Come accennato nella guida per i nuovi utenti, il forum di Zcash è un ottimo luogo per discussioni approfondite su argomenti relativi a Zcash e sulle idee proposte. Le proposte arrivano sempre sul forum in modo che la comunità abbia la possibilità di discutere e dibattere le idee proposte.
+Come menzionato nella guida per i nuovi utenti, il forum Zcash è un ottimo luogo per discutere in modo approfondito di argomenti relativi a Zcash e di idee proposte. Le proposte arrivano sempre sul forum, affinché la comunità abbia l'opportunità di discutere e dibattere le idee proposte.
 
 **[Z.cash](https://z.cash/)**
 
-Z.cash è il sito principale di Zcash. Fornisce contenuti e documentazione su Zcash per un'ampia gamma di utenti e consente ai nuovi utenti di approfondire le spiegazioni tecniche su Zcash.
+Z.cash è il sito web principale di Zcash. Fornisce contenuti e documentazione su Zcash per un'ampia gamma di utenti e consente ai nuovi utenti di approfondire le spiegazioni tecniche relative a Zcash.
 
-**[Zcash Github](https://github.com/zcash/zcash)**
+**[GitHub di Zcash](https://github.com/zcash/zcash)**
 
-Hai competenze di programmazione e vuoi approfondire il lato tecnico di Zcash? Il repository Github Zcash è il repository di [zcashd](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet), la prima implementazione di un nodo Zcash.
+Hai competenze di programmazione e vuoi approfondire il lato tecnico di Zcash? Il repository GitHub di Zcash è il repository di zcashd, la prima implementazione di nodo Zcash. zcashd ha raggiunto la sua sospensione automatica del supporto il 18 luglio 2026 e non è più mantenuto; inoltre, la pagina di download a cui questa voce rimandava non è più disponibile. Lo stack mantenuto è [Zebra](https://github.com/ZcashFoundation/zebra) per il nodo e [Zallet](https://github.com/zcash/zallet) per il wallet — consulta la [guida alla migrazione da zcashd a Zebra e Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
-> zcashd → Zebra + Zallet — https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet
+**[GitHub della Zcash Foundation](https://github.com/ZcashFoundation)**
 
-**[Zcash Foundation Github](https://github.com/ZcashFoundation)**
-
-Un altro repository GitHub che ospita i progetti della Zcash Foundation, incluso [zebra](https://github.com/ZcashFoundation/zebra), un'implementazione di un nodo Zcash in Rust.
+Un altro repository GitHub che ospita progetti della Zcash Foundation, tra cui [zebra](https://github.com/ZcashFoundation/zebra), un'implementazione di nodo Zcash in Rust.
 
 **[Halo2](https://zcash.github.io/halo2/index.html)**
 
-I concetti alla base dei sistemi di prova a conoscenza zero.
+I concetti alla base dei sistemi di prove a conoscenza zero.
 
-**[Zcash RPC Docs](https://zcash.github.io/rpc/)**
+**[Documentazione RPC di Zcash](https://zcash.github.io/rpc/)**
 
-Elenco di tutti i comandi attuali per zcashd.
+Elenco dei comandi RPC esposti da zcashd. Per l'interfaccia RPC del wallet mantenuta, consulta il [Libro di Zallet](https://zcash.github.io/zallet/).
 
-_Questo documento non è completo_
+_Questo documento è incompleto_

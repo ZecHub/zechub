@@ -1,13 +1,13 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/tutorials/Wallet_Tutorials.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Tutoriels de portefeuilles Zcash
+# Tutoriels sur les portefeuilles Zcash
 
-Vous trouverez ci-dessous une liste de tutoriels sur les portefeuilles qui peuvent vous aider à démarrer avec ZEC.
+Vous trouverez ci-dessous une liste de tutoriels sur les portefeuilles qui peuvent vous aider à débuter avec ZEC.
 
 
-- Portefeuille Zodl
+- Portefeuille Zodl 
 
 [![Miniature vidéo](/content-images/hqdefault-a4a2a5de7f.webp)](https://www.youtube.com/watch?v=G92zBIr-Wms)
 
@@ -19,6 +19,8 @@ ____
 [![Miniature vidéo](/content-images/hqdefault-02389a1b67.webp)](https://www.youtube.com/watch?v=ao4ORC_VNcY)
 
 ____ 
+
+> Les trois vidéos Ywallet ci-dessous sont conservées à titre de référence. Ywallet n'est plus maintenu et ne sera pas mis à jour pour Ironwood ; il ne peut donc plus suivre la chaîne. Choisissez un portefeuille maintenu depuis la page [Portefeuilles](https://zechub.wiki/wallets).
 
 - Stockage à froid Ywallet
 
@@ -33,14 +35,14 @@ ____
 
 ____
 
-- Fonction Multipay de Ywallet
+- Fonctionnalité de paiements multiples Ywallet
 
 [![Miniature vidéo](/content-images/hqdefault-789c84a8e4.webp)](https://www.youtube.com/watch?v=ovlNktpxURI)
 
 
 ____
 
-- Tutoriel du portefeuille Unstoppable 
+- Tutoriel Unstoppable Wallet 
 
 [![Miniature vidéo](/content-images/hqdefault-8ecdd85617.webp)](https://www.youtube.com/watch?v=B9tpkgVRsq4)
 

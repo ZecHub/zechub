@@ -1,6 +1,8 @@
 # Démo FROST de Ywallet
 
-## Compiler les bins FROST
+> **Ywallet n’est plus maintenu.** Son développeur a confirmé qu’il ne serait pas mis à jour pour Ironwood (NU6.3), il ne peut donc plus suivre la chaîne et les étapes ci-dessous ne peuvent pas être réalisées sur le réseau principal. Cette page est conservée à titre de référence. Zkool, du même développeur, est son successeur maintenu et prend en charge le multisig FROST.
+
+## Compiler les binaires FROST
 
 https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign
 
@@ -14,10 +16,10 @@ Utilisez le dépôt ci-dessus et suivez les instructions de compilation :
 
 `cargo build --bin participants`
 
-Les bins seront dans le dossier target.
+Les binaires se trouveront dans le dossier target.
 
 
-## Créer une FROST UA
+## Créer une UA FROST
 
 `./generateFROST_UA.sh`
 
@@ -29,23 +31,23 @@ Comptes -> Cliquez sur + et collez l’ufvk de l’étape ci-dessus
 
 ## Créer une transaction avec Ywallet
 
-Collez n’importe quelle UA et envoyez une tx. Enregistrez le fichier.
+Collez n’importe quelle UA et envoyez une transaction. Enregistrez le fichier.
 
 ## Démarrer la procédure de signature FROST 
 
 `./signFROST_tx.sh rawtxs/mytx signedtxs/mysignedtx`
 
-la première entrée est l’emplacement de la tx brute de l’étape ci-dessus
-la deuxième entrée est l’emplacement et le nom de la tx signée que vous voulez diffuser
-C’est la partie où vous indiquez à FROST quelle transaction vous voulez que tout le monde signe
+la première entrée est l’emplacement de la transaction brute de l’étape ci-dessus
+la deuxième entrée est l’emplacement et le nom de la transaction signée que vous souhaitez diffuser
+C’est l’étape où vous indiquez à FROST quelle transaction vous voulez que tout le monde signe
 
-## Démarrer le Coordinator
+## Démarrer le coordinateur
 
 `./runCoordinator.sh`
 
 Cela coordonne la signature de chaque participant et crée une signature de groupe
 
-## Faire signer cette transaction par chaque Participant
+## Faire signer chaque participant pour cette transaction
 
 `./participantSign.sh key-package-1.json`
 
@@ -54,12 +56,12 @@ Cela coordonne la signature de chaque participant et crée une signature de grou
 
 ## Finaliser la transaction signée
 
-Dans la fenêtre du coordinator, copiez la signature de groupe qui est affichée et collez-la dans la fenêtre de signature FROST.
-Cela terminera la signature FROST et produira `mysingedtx`
+Dans la fenêtre du coordinateur, copiez la signature de groupe affichée et collez-la dans la fenêtre de signature FROST.
+Cela terminera la signature FROST et générera « mysingedtx »
 
 
 ## Diffuser votre transaction avec Ywallet
 
-Cliquez sur 'More' en bas à droite de Ywallet et trouvez 'Broadcast'. Trouvez 'mysignedtx' et cliquez sur ok.
+Cliquez sur « More » en bas à droite de Ywallet et trouvez « Broadcast ». Trouvez « mysignedtx » et cliquez sur ok.
 
-Si tout fonctionne, vous obtiendrez un ID de transaction :)
+Si tout fonctionne, vous obtiendrez un identifiant de transaction :)

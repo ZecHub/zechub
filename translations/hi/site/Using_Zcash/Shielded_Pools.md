@@ -90,7 +90,7 @@ Zcash Sapling उपयोगकर्ताओं को Sprout Series की �
 
 Transaction shielding privacy को बढ़ाता है, जिससे third-parties के लिए transactions को आपस में जोड़ना और transfer किए जा रहे ZEC की मात्रा निर्धारित करना असंभव हो जाता है। Sapling private transactions उत्पन्न करने के लिए computational requirements को कम करके usability में भी सुधार करता है, जिससे यह उपयोगकर्ताओं के लिए अधिक सुलभ बनता है।
 
-Sapling wallet addresses "zs" से शुरू होते हैं और यह सभी supported Zcash Shielded Wallets (YWallet, Zingo Wallet, Nighthawk आदि) में देखा जा सकता है, जिनमें built-in Sapling addresses होते हैं। Zcash Sapling privacy और transaction efficiency के संदर्भ में technology में एक महत्वपूर्ण विकास का प्रतिनिधित्व करता है, जो Zcash को उन उपयोगकर्ताओं के लिए एक practical और effective cryptocurrency बनाता है जो privacy और security को महत्व देते हैं।
+Sapling wallet पते "zs" से शुरू होते हैं और यह सभी समर्थित Zcash Shielded Wallet (Zkool, Zingo Wallet, Nighthawk आदि) में देखा जा सकता है, जिनमें अंतर्निहित Sapling पते होते हैं। Zcash Sapling गोपनीयता और लेनदेन की दक्षता के संदर्भ में प्रौद्योगिकी में एक महत्वपूर्ण विकास का प्रतिनिधित्व करता है, जो Zcash को उन उपयोगकर्ताओं के लिए एक व्यावहारिक और प्रभावी cryptocurrency बनाता है जो गोपनीयता और सुरक्षा को महत्व देते हैं।
 
 ____
 

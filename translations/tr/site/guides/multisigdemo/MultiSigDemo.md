@@ -1,26 +1,26 @@
 # MultiSig Demosu
 
-> **Tarihsel kayıt. Bu rehber artık çalışmıyor.**
+> **Tarihsel. Bu kılavuz artık çalışmıyor.**
 >
-> Aşağıdaki tüm adımlar, 18 Temmuz 2026'da otomatik destek sonu durmasına ulaşan zcashd'ye bağlıdır. Bu sayfayla birlikte gelen yedi betik onu `zcash-cli` üzerinden çalıştırır; bu nedenle hiçbiri bugün çalışan bir düğüme erişemez.
+> Aşağıdaki her adım, 18 Temmuz 2026'da otomatik Destek Sonu durmasına ulaşan zcashd'ye bağlıdır. Bu sayfayla birlikte sunulan yedi betik, onu `zcash-cli` aracılığıyla çalıştırır; dolayısıyla bugün hiçbirisi çalışan bir düğüme erişemez.
 >
-> Bu betikler mekanik olarak taşınamaz: zcashd'nin kullanımdan kaldırdığı ham işlem ve cüzdan RPC'lerine dayanırlar ve Zallet bunların yerine, ham işlem hex'i yerine PCZT üzerinde çalışan yeni yöntemler getirir.
+> Bu betikler mekanik olarak taşınamaz. Bunlar, zcashd'nin durmadan önce kullanımdan kaldırdığı ham işlem ve cüzdan RPC'leri (`createrawtransaction`, `signrawtransaction`, `createmultisig`, `dumpprivkey) üzerine kuruludur; Zallet bunların yerine ham işlem hex'i yerine PCZT'ler üzerinde çalışan yeni yöntemler kullanır ve birçok zcashd yöntemi henüz taşınmamış halde hâlâ beta sürümündedir.
 >
-> Zcash'te çok taraflı saklama için bugün [FROST ve eşik saklama](/zcash-tech/frost-threshold-custody) sayfasına ve çalışan [Ywallet FROST demosuna](/guides/frostdemo/ywallet-frost-demo) bakın. Mevcut bir düğümü zcashd'den taşımak için [Zebra ve Zallet'e geçiş rehberine](/guides/migration-guide-zcashd-to-zebrad-zallet) bakın.
+> Zcash üzerinde bugün çok taraflı saklama için, şeffaf multisig ile doğrudan bir karşılaştırma içeren [FROST & Eşik Saklama](/zcash-tech/frost-threshold-custody) sayfasına ve [Ywallet FROST demosuna](/guides/frostdemo/ywallet-frost-demo) bakın. Mevcut bir düğümü zcashd'den taşımak için [Zebra ve Zallet'e geçiş kılavuzuna](/guides/migration-guide-zcashd-to-zebrad-zallet) bakın.
 >
-> Bu sayfa, şeffaf multisig iş akışının tarihsel kaydı olarak saklanmaktadır.
+> Bu sayfa, şeffaf multisig iş akışının tarihsel kaydı olarak tutulmaktadır.
 
-Bu demo `zcashd` gerektirir
+Bu demo, 18 Temmuz 2026'da duran ve artık çalışmayan zcashd'yi gerektirir. Aşağıdaki hiçbir şey canlı zincire karşı tamamlanamaz.
 
 ## Gerekli kişilerden açık anahtarları toplayın
 
 * https://github.com/iancoleman/bip39
-* Eğer `zcashd` kullanıyorsanız, bir UA oluşturabilir ve transparent alıcınızı da kullanabilirsiniz. Ardından açık anahtarınızı çıkarmak için `getPubkey.sh` kullanın.
+* zcashd kullanıyorsanız bir UA oluşturabilir ve şeffaf alıcınızı da kullanabilirsiniz. Ardından açık anahtarınızı çıkarmak için `getPubkey.sh` kullanın.
 
 
-## 2x Multisig (3 üzerinden 2) t3 adresi oluşturun
+## 2x Multisig (3'ten 2) t3 adresi oluşturun
 
-Multisig adresinizi ve redeem script'inizi oluşturmak için createMultiSig.sh çalıştırın. Gerekli olan şey 3 açık anahtardır
+multisig adresinizi ve redeem script'inizi oluşturmak için createMultiSig.sh çalıştırın. Gereken şey 3 açık anahtardır
 
 `./createMultiSig.sh pubk1 pubk2 pubk3`      # 1. t3
 
@@ -28,7 +28,7 @@ Multisig adresinizi ve redeem script'inizi oluşturmak için createMultiSig.sh �
 
 #### NOT: bu örnekte pubk1,pubk4 aynı kişidir, pubk2,pubk5 aynı kişidir ve bu şekilde devam eder ...
 
-#### NOT2: açık anahtarlarınızın SIRASI önemlidir! Buna dikkat edin!!!!
+#### NOT2: pubkey'lerinizin SIRASI önemlidir! Buna dikkat edin!!!!
 
 
 ## t3 adresini fonlayın
@@ -43,23 +43,23 @@ burada,
 
 ```
         txid: yeni t3'ünüze para gönderen işlemin işlem kimliği
-   voutIndex: en büyük değere sahip olan vout çıktısının indeksi
-scriptPubKey: P2SH kilitleme script'i, HASH160 ve EQUAL opcode'larıyla çevrili başka bir kilitleme script'inin hash'ini (Script Hash) içerir. Bu hex biçimindedir ve getrawtransaction rpc ile bulunur; scriptPubKey alanına bakın
-redeemScript: t3'ümüzü oluştururken çıktı olarak verilen redeemScript'in hex değeri. Bu, t3'ten harcama yapmak isteyen herkes için gereklidir.
-   oldAmount: yukarıdaki txid'den yeni t3'ünüze gönderilen miktar
-       tAddy: fon göndermek istediğiniz adres
+   voutIndex: en yüksek değere sahip olan vout içindeki çıktının indeksi
+scriptPubKey: P2SH kilitleme betiği, HASH160 ve EQUAL işlem kodlarıyla çevrelenmiş başka bir kilitleme betiğinin hash'ini (Script Hash) içerir. Bu hex biçimindedir ve getrawtransaction rpc aracılığıyla bulunur; scriptPubKey'i arayın
+redeemScript: t3'ümüzü oluştururken çıktı olarak alınan redeemScript'in hex değeri. Bu, t3'ten harcama yapmak isteyen herkes için gereklidir.
+   oldAmount: Yukarıdaki txid'den yeni t3'ünüze gönderilen miktar
+       tAddy: Fon göndermek istediğiniz adres
       amount: tAddy'ye gönderilecek ZEC miktarı
- changeTaddy: değişiklik adresi (yeni bir redeemScript ile yeni t3!)
+ changeTaddy: Değişiklik adresi (yeni bir redeemScript ile yeni t3!)
 
 ```
 
-`./txDetails.sh txid`   => gerekli bilgileri bulmanıza yardımcı olur
+`./txDetails.sh txid`   => gerekli bilgileri bulmanıza yardımcı olacaktır
 
 ```
 
 txid              : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed37e253de9869b549530 | jq .txid
 
-valueInitialTX    : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed37e253de9869b549530 | jq .vout[].value   ** bu imzalama için gereklidir! **
+valueInitialTX    : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed37e253de9869b549530 | jq .vout[].value   ** bu, imzalama için gereklidir! **
 
 voutIndex         : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed37e253de9869b549530 | jq .vout[].n
 
@@ -71,27 +71,29 @@ scriptPubKey      : ./txDetails.sh 6742b37b4db10ee177a3551e69b3726705bb0178483ed
 
 ## MultiSig TX'i imzalayın
 
-signMultiSigTX.sh dosyasını açın ve özel anahtarlarınızı pk1,pk2, ... değişkenlerine ekleyin.
+signMultiSigTX.sh dosyasını açın ve pk1,pk2, ... değişkenlerine özel anahtarlarınızı ekleyin.
  
 
 *** Bunları terminalinize yazmanızı tavsiye etmem. ***
 
 
-Tüm özel anahtarlarınıza erişiminiz varsa, zamandan tasarruf etmek için hepsini aynı anda kullanabilirsiniz,
-ancak gerçek dünyadaki örneklerin çoğunda imzalama dünyanın dört bir yanındaki kişiler tarafından yapılacağından, gerekli katılımcıların her birinin imzalaması,
-ardından imzalama prosedürünü tamamlamak için diğerlerinin kullanacağı güncellenmiş raxTX "hex" çıktısını geri göndermesi gerekecektir.
+Tüm özel anahtarlarınıza erişiminiz varsa zaman kazanmak için hepsini aynı anda kullanabilirsiniz,
+ancak çoğu gerçek dünya örneğinde imzalama dünyanın farklı yerlerindeki kişiler aracılığıyla yapılacaktır; bu nedenle gerekli katılımcıların her biri imzalamalı,
+ardından diğerlerinin imzalama işlemini tamamlamak için kullanacağı güncellenmiş raxTX "hex" çıktısını geri göndermelidir.
 
-İlk işlemi oluşturan kişi, özel anahtarıyla imzalayacak ve diğer katılımcılar tarafından imzalanması gereken güncellenmiş rawTX hex çıktısını gönderecektir.
+İlk tx'i oluşturan kişi, özel anahtarıyla imzalayacak ve diğer katılımcılar tarafından imzalanması gereken güncellenmiş rawTX hex'ini gönderecektir.
 
 `./signMultiSigTX.sh rawTX txid voutIndex scriptPubKey redeemScript valueInitialTX`
 
-Bu işlemi imzalamak için, üç özel anahtardan en az 2'sinin bunu imzalaması gerekir. Verdiğiniz açık anahtar `zcashd` içinden bir T-adresi kullanılarak dışa aktarıldıysa, T adresinizin özel anahtarını şu şekilde alabilirsiniz: 
+Bu tx'i imzalamak için üç özel anahtardan en az ikisinin imzalaması gerekir. Verdiğiniz açık anahtar zcashd'den bir T-adresi kullanılarak dışa aktarıldıysa, T adresinizin özel anahtarını şu şekilde alabilirsiniz: 
 
 
 `zcash-cli dumpprivkey "t-addr"`
 
+Bu komut zcashd ile durdu ve bugün hiçbir şey döndürmüyor; burada yalnızca demonun anahtarlarını nasıl aldığını göstermek için kaydedilmiştir.
 
-Bu demo için, gerekli özel anahtarları hızlıca ayırmak amacıyla iancoleman'ın bip39 aracını kullandım.
+
+Bu demo için, gerekli özel anahtarları hızlıca ayırmak üzere iancoleman'ın bip39'unu kullandım.
 
 
 ## İmzalanmış TX'i yayınlayın

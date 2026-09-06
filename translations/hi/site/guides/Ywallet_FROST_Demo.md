@@ -1,5 +1,7 @@
 # Ywallet FROST डेमो
 
+> **Ywallet अब रखरखाव में नहीं है।** इसके डेवलपर ने पुष्टि की है कि इसे Ironwood (NU6.3) के लिए अपडेट नहीं किया जाएगा, इसलिए यह अब चेन का अनुसरण नहीं कर सकता और नीचे दिए गए चरण mainnet पर पूरे नहीं किए जा सकते। यह पेज संदर्भ के लिए रखा गया है। उसी डेवलपर का Zkool, इसका रखरखाव किया जा रहा उत्तराधिकारी है और FROST multisig का समर्थन करता है।
+
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
@@ -12,11 +14,11 @@
 </div>
 
 
-## FROST bins कंपाइल करें
+## FROST बाइनरी संकलित करें
 
 [Github लिंक](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
 
-ऊपर दिए गए repo का उपयोग करें और कंपाइल करने के निर्देशों का पालन करें: 
+ऊपर दिए गए repo का उपयोग करें और संकलन के निर्देशों का पालन करें: 
 
 ```bash
 cargo build --bin trusted-dealer
@@ -25,7 +27,7 @@ cargo build --bin coordinator
 cargo build --bin participants
 ```
 
-Bins `target` फ़ोल्डर में होंगे।
+बाइनरी target फ़ोल्डर में होंगी।
 
 ## FROST UA बनाएँ
 
@@ -33,43 +35,43 @@ Bins `target` फ़ोल्डर में होंगे।
 
 
 
-## UFVK को Ywallet में इम्पोर्ट करें
+## UFVK को Ywallet में आयात करें
 
-Accounts -> + पर क्लिक करें और ऊपर वाले चरण से ufvk पेस्ट करें
+Accounts -> + पर क्लिक करें और ऊपर दिए गए चरण से ufvk पेस्ट करें
 
-## Ywallet के साथ एक transaction बनाएँ
+## Ywallet से एक लेनदेन बनाएँ
 
-किसी भी UA को पेस्ट करें और एक tx भेजें। फ़ाइल सहेज लें।
+कोई भी UA पेस्ट करें और एक tx भेजें। फ़ाइल सहेजें।
 
-## FROST signing प्रक्रिया शुरू करें
+## FROST हस्ताक्षर प्रक्रिया शुरू करें 
 
 `./signFROST_tx.sh rawtxs/mytx signedtxs/mysignedtx`
 
-पहला इनपुट ऊपर वाले चरण से raw tx का स्थान है
-दूसरा इनपुट उस signed tx का स्थान और नाम है जिसे आप broadcast करना चाहते हैं
-यह वह हिस्सा है जहाँ आप FROST को बताते हैं कि आप कौन-सा transaction सभी से sign करवाना चाहते हैं
+पहला इनपुट ऊपर दिए गए चरण से raw tx का स्थान है
+दूसरा इनपुट उस हस्ताक्षरित tx का स्थान और नाम है जिसे आप प्रसारित करना चाहते हैं
+यह वह भाग है जहाँ आप FROST को बताते हैं कि आप किस लेनदेन पर सभी से हस्ताक्षर करवाना चाहते हैं
 
 ## Coordinator शुरू करें
 
 `./runCoordinator.sh`
 
-यह प्रत्येक participant के signature का समन्वय करता है और एक group signature बनाता है
+यह प्रत्येक प्रतिभागी के हस्ताक्षर का समन्वय करता है और एक समूह हस्ताक्षर बनाता है
 
-## हर Participant से इस transaction पर sign करवाएँ
+## प्रत्येक Participant से इस लेनदेन पर हस्ताक्षर करवाएँ
 
 ```bash
 ./participantSign.sh key-package-1.json
 ./participantSign.sh key-package-2.json
 ```
 
-## Signed Transaction को अंतिम रूप दें
+## हस्ताक्षरित Transaction को अंतिम रूप दें
 
-Coordinator विंडो में, आउटपुट हुए group signature को कॉपी करें और उसे FROST signing विंडो में पेस्ट करें।
-इससे FROST signing पूरी हो जाएगी और `mysingedtx` आउटपुट होगा
+coordinator विंडो में, आउटपुट किए गए समूह हस्ताक्षर को कॉपी करें और उसे FROST हस्ताक्षर विंडो में पेस्ट करें।
+इससे FROST हस्ताक्षर पूरा हो जाएगा और 'mysingedtx' आउटपुट होगा
 
 
-## Ywallet के साथ अपना Transaction broadcast करें
+## अपना Transaction Ywallet से प्रसारित करें
 
-Ywallet के नीचे दाईं ओर 'More' पर क्लिक करें और 'Broadcast' ढूँढें। `mysignedtx` ढूँढें और ok पर क्लिक करें।
+Ywallet के नीचे-दाएँ भाग में 'More' पर क्लिक करें और 'Broadcast' ढूँढें। 'mysignedtx' ढूँढें और ok पर क्लिक करें।
 
-यदि सब कुछ सही से काम करता है, तो आपको एक transaction ID मिलेगी :)
+यदि सब कुछ काम करता है, तो आपको एक transaction ID मिलेगी :)
