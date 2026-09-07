@@ -15,7 +15,6 @@
 //   --concurrency <n>   parallel external requests (default 12)
 
 import { readFile, writeFile, readdir, stat } from "node:fs/promises";
-import { existsSync } from "node:fs";
 import { join, dirname, basename, relative } from "node:path";
 
 // ── args ─────────────────────────────────────────────────────────────────────
@@ -202,7 +201,8 @@ function routeExists(route, mdFiles, appRoutes) {
   }
 
   const target = `site${transformUri(clean)}.md`;
-  if (existsSync(target)) return { ok: true, how: "exact" };
+  // GitHub content paths are case-sensitive even when this checkout is not.
+  if (mdFiles.includes(target)) return { ok: true, how: "exact" };
 
   // The app falls back to a loose match inside the same folder, so a report that
   // ignored this would flag links that actually resolve in production.
@@ -303,6 +303,8 @@ async function main() {
   const allowed = (url) => allowlist.some((p) => url.includes(p));
 
   const mdFiles = await walk(ROOT);
+  // --root limits which pages are scanned, not which site pages can be linked.
+  const routeFiles = ROOT === "site" ? mdFiles : await walk("site");
   const appRoutes = await loadAppRoutes(OFFLINE);
 
   // Assets live in the wiki app repo, so confirm them over the API when we can.
@@ -357,7 +359,7 @@ async function main() {
       }
 
       if (kind === "route") {
-        const r = routeExists(link.url, mdFiles, appRoutes);
+        const r = routeExists(link.url, routeFiles, appRoutes);
         if (!r.ok) findings.push({ kind: "route", url: link.url, file: link.file, line: link.line, detail: r.how });
         continue;
       }
