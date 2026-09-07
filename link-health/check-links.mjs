@@ -289,6 +289,19 @@ const ACTIONS = {
 // ── main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
+  // === ADDED CHECK: verify that the root path exists and is a directory ===
+  try {
+    const rootStat = await stat(ROOT);
+    if (!rootStat.isDirectory()) {
+      console.error(`Error: The provided --root path "${ROOT}" is a file, not a directory.`);
+      process.exit(1);
+    }
+  } catch (err) {
+    console.error(`Error: The provided --root directory "${ROOT}" does not exist or cannot be accessed.`);
+    process.exit(1);
+  }
+  // ========================================================================
+
   const startedAt = new Date().toISOString();
 
   let allowlist = [];
