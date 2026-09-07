@@ -4,11 +4,11 @@
 
 # Ironwood ƒe ati
 
-> Ironwood wɔa dɔ le Zcash mainnet dzi le block 3,428,143, si wole mɔ kpɔm na le July 28, 2026 UTC lɔƒo.
+> Ironwood wɔ dɔ le Zcash mainnet dzi le block 3,428,143 le July 28, 2026 UTC, eye wòle agbe tso ɣemaɣi.
 
-Nusi nàtsɔ adzoe: nusi Ironwood trɔna, nusita nudzodzoe aɖe si le ga ɣaɣla me nye nu sesẽ, kple alesi turnstile nana ame aɖeke ɖoa kpe edzi be womewɔ ZEC aɖeke o.
+Nusi nàtsɔ adzoe: nusi Ironwood trɔna, nusita nudzodzoe aɖe si le ga ɣaɣla me nye nu sesẽ, kple alesi turnstile la nana ame aɖeke ɖoa kpe edzi be womewɔ ZEC aɖeke o.
 
-Ironwood is a Zcash [network ƒe ŋgɔyiyi](../start-here/network-upgrades), si woyɔna le se nu be NU6.3, si to ta yeye si wotsɔ akpoxɔnu wɔe si xɔ ŋkɔ ma ke vɛ. A. A [ta si ŋu wokpɔ akpoxɔnu le](../using-zcash/shielded-pools) nye ga gbogbo siwo ƒe ga homewo kple wo tɔ nɔa ɣaɣla ɖe [zero-sidzedze nya ɣaɣlawo ƒe nuŋɔŋlɔ](../zcash-tech/zk-snarks). Ironwood li be woatsɔ axe mɔ ɖe gbeɖiɖi ƒe nugbagbevi aɖe si wokpɔ le Orchard shielded pool si li fifia me nu ahalé ŋku ɖe eŋu, eye wòana mɔnu sesẽtɔ nasu nutoa me tɔwo si be woakpɔe ɖa be ZEC ƒe agbɔsɔsɔ bliboa nye anukwareɖiɖi hã. Wogblɔ eƒe se siwo dzi woda asi ɖo le [ZIP 258 ƒe xexlẽdzesi](https://zips.z.cash/zip-0258).
+Ironwood is a Zcash [network ƒe ŋgɔyiyi](../start-here/network-upgrades), si woyɔna le se nu be NU6.3, si to ta yeye si wotsɔ akpoxɔnu wɔe si xɔ ŋkɔ ma ke vɛ. A [ta si ŋu wokpɔ akpoxɔnu le](../using-zcash/shielded-pools) nye ga gbogbo siwo ƒe ga homewo kple wo tɔ nɔa ɣaɣla ɖe [zero-sidzedze nya ɣaɣlawo ƒe nuŋɔŋlɔ](../zcash-tech/zk-snarks). Ironwood li be woatsɔ axe mɔ ɖe gbeɖiɖi ƒe nugbagbevi aɖe si wokpɔ le Orchard shielded pool si li fifia me nu ahalé ŋku ɖe eŋu, eye wòana mɔnu sesẽtɔ nasu nutoa me tɔwo si be woakpɔe ɖa be ZEC ƒe agbɔsɔsɔ bliboa nye anukwareɖiɖi hã. Wogblɔ eƒe se siwo dzi woda asi ɖo le [ZIP 258 ƒe xexlẽdzesi](https://zips.z.cash/zip-0258).
 
 Nusitae esia le vevie ɖo. Ne ga si le gaglãgbe abe Bitcoin ene ta la, amesiame ate ŋu akpɔe ɖa be womewɔ aʋatso gaku aɖeke o to dutoƒo agbalẽ gã la xexlẽ me. Ga si wokpɔ ta na la ɣlaa ga homeawo, eyata màte ŋu akpɔe ko o. Ke boŋ ele be nya ɣaɣlawo ŋutɔ naka ɖe edzi be ame aɖeke mate ŋu awɔ ga le adzame o. Ironwood le vevie elabena wokpɔ nudzodzoe aɖe le kakaɖedzinya ma me na Orchard ta la. Dodoɖeŋgɔa xea vovototoa eye wònaa mɔnu amesiame si dzi wòato aɖo kpe edzi be ZEC ƒe agbɔsɔsɔ bliboa gakpɔtɔ nye anukwareɖiɖi.
 
@@ -22,19 +22,19 @@ Le May 2026 ƒe nuwuwu la, dedienɔnɔ ŋuti numekula si le eɖokui si Taylor Ho
 
 1. Gbeɖiɖi ƒe vodada fia be akɔntabubu si ɖo kpe edzi be asitsatsa aɖe sɔ la meka ɖe edzi bliboe o.
 2. Le susu me la, amedzidzela ate ŋu azã vodadaa atsɔ awɔ asixɔxɔ si mesɔ o le Orchard-ta la me eye wòazã ga si menye wo tɔ ŋutɔŋutɔ o, eye wòagblẽ dzesi aɖeke ɖi si node dzɔdzɔe aɖe alé o.
-3. Zcash ƒe turnstile la gakpɔtɔ ɖo asixɔxɔ agbɔsɔsɔme si ate ŋu ado le Orchard me gbeɖe o, eyata womate ŋu adzi gakuawo katã ɖe dzi o, gake ta la ŋutɔ ƒe nya ɣaɣlawo megaka ɖe edzi be gaku ɖesiaɖe si woɣla ɖe eme la nye nu ŋutɔŋutɔ o.
+3. Zcash ƒe turnstile gakpɔtɔ ɖo asixɔxɔ agbɔsɔsɔme si ate ŋu ado le Orchard me gbeɖe o, eyata womate ŋu adzi ga si woatsɔ anae katã ɖe dzi o, gake ta la ŋutɔ ƒe nya ɣaɣlawo megaka ɖe edzi be gaku ɖesiaɖe si woɣla ɖe eme la nye nu ŋutɔŋutɔ o.
 
 ![The bug explained: a transaction puts in 5 ZEC, but the flawed proof still passes when 7 ZEC come out, creating 2 ZEC from nothing](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-bug.png)
 
 Xexlẽdzesi siwo le etame la nye nɔnɔmetata si wowɔ bɔbɔe. Gblẽƒe ŋutɔŋutɔe nye nutome suea ƒe akɔntabubu ƒe akpa aɖe koŋ, ke menye gaku siwo gena ɖe eme kple esiwo dona le eme ƒe xexlẽme ŋutɔŋutɔ o. Nya si wòle be woaɖe ɖa koe nye be gbeɖiɖi ƒe vodada ate ŋu ana woawɔ asixɔxɔ le ta la me evɔ womakpɔe o.
 
-Vevietɔ la, kpeɖodzi aɖeke meli be wowɔ nudzodzoea ŋudɔ kpɔ o, kpeɖodzi aɖeke meli be ekpɔ ŋusẽ ɖe ezãlawo ƒe ga dzi o, eye kpeɖodzi aɖeke meli be ZEC ƒe agbɔsɔsɔ bliboa trɔ o. Woke ɖe eŋu to dedienɔnɔ ŋuti numekuku me eye woɖɔe ɖo hafi nuveviwɔame ɖesiaɖe si wonya.
+Vevietɔ la, kpeɖodzi aɖeke meli be wozã nudzodzoea kpɔ o, kpeɖodzi aɖeke meli be ekpɔ ŋusẽ ɖe ezãlawo ƒe ga dzi o, eye kpeɖodzi aɖeke meli be ZEC ƒe agbɔsɔsɔ bliboa trɔ o. Woke ɖe eŋu to dedienɔnɔ ŋuti numekuku me eye woɖɔe ɖo hafi nuveviwɔame ɖesiaɖe si wonya.
 
 ## Alesi amewo ɖo eŋui
 
 Zcash nutoa me tɔwo ɖoa ɖɔɖɔɖowo ɖe afɔɖeɖe vovovowo tsɔ wu be woaɖo wo katã zi ɖeka.
 
-![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activates around July 28, 2026](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activated at block 3,428,143 on July 28, 2026](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
 
 1. Le June 2026 ƒe gɔmedzedze la, ɣeyiɣi kpui aɖe ƒe afɔɖeɖe aɖe na Orchard-ta la megawɔ dɔ o esime wonɔ dzadzram ɖo ɖe eŋu bliboe.
 2. NU6.2 ƒe tɔtrɔa ɖɔ Orchard nutome suea ŋutɔ ɖo, si xe mɔ na gbeɖiɖi ƒe afɔku si le ete la.
@@ -46,7 +46,7 @@ Zcash nutoa me tɔwo ɖoa ɖɔɖɔɖowo ɖe afɔɖeɖe vovovowo tsɔ wu be woaɖ
 
 NU6.2 kpɔ Orchard nutome ta na asitsatsa yeyewo katã, gake asixɔxɔ si wowɔ le se xoxoawo te gakpɔtɔ le Orchard ƒe ta la me. Ironwood naa asixɔxɔ ma nyea teƒe si le dzadzɛ eye wònaa mɔnu si dzi woato adzro eme ne ele ʋuʋum.
 
-Ironwood ta la nye asixɔxɔ ƒe ta yeye si wokpɔ ta na si wowɔ ne NU6.3 wɔ dɔ. Wotue ɖe nutome sue si woɖɔ ɖo dzi eye wozãa quantum-recoverable note format (aɖaŋu si na woate ŋu axɔ ga ne... [quantum kɔmpiutawo](../zcash-tech/post-quantum-security) ever break today’s cryptography), si gɔme woɖe le [ZIP ƒe 2005](https://zips.z.cash/zip-2005).
+Ironwood ta la nye asixɔxɔ ƒe ta si wokpɔ ta na si NU6.3 wɔ le block 3,428,143. Wotue ɖe nutome sue si woɖɔ ɖo dzi eye wozãa quantum-recoverable note format (aɖaŋu si na woate ŋu axɔ ga ne... [quantum kɔmpiutawo](../zcash-tech/post-quantum-security) ever break today’s cryptography), si gɔme woɖe le [ZIP ƒe 2005](https://zips.z.cash/zip-2005).
 
 1. Le dɔwɔwɔ vɔ megbe la, Orchard-ta xoxoa va zua gazazã ɖeɖeko, eyata asixɔxɔ yeye aɖeke mate ŋu age ɖe eme o.
 2. Asixɔxɔ yeye si wokpɔ ta na la sina yia Ironwood me boŋ.
@@ -59,7 +59,7 @@ Susu vevitɔ si le Ironwood enye mɔ si dzi woatrɔ asi le, si nye akɔntabubu �
 > Nusi ahuhɔ̃eʋɔtru wɔna na gadzraɖoƒe ƒe nudzraɖoƒe na ga ɣaɣla. Màte ŋu akpɔ ememe kokoko o, gake àte ŋu axlẽ nusi tututu gena ɖe eme kple nusi dona.
 
 1. Woxlẽa ga siwo dona le Orchard le dutoƒo kpeɖodziƒe hafi gena ɖe Ironwood.
-2. Esia na amesiame léa ŋku ɖe alesi gbegbe ZEC ʋunae ŋu, si doa ŋusẽ kakaɖedzi le nusiwo wotsɔna naa amewo ŋutɔŋutɔ si le tsatsam ŋu.
+2. Esia wɔnɛ be amesiame léa ŋku ɖe alesi gbegbe ZEC ʋunae ŋu, si doa ŋusẽ kakaɖedzi le nu ŋutɔŋutɔ si le tsatsam ŋu.
 3. Ne ɖe wowɔ ZEC aʋatso aɖe to vodada si do ŋgɔ dzi la, ʋuʋu ƒe akɔntabubu siae wòadze le.
 
 Turnstiles menye nu yeye na Zcash o. Netwɔƒea zã wo do ŋgɔ, le liƒo siwo le Sprout, Sapling, kple Orchard tadeaguƒewo dome, ale be asixɔxɔ si le ʋuʋum le tadeaguƒewo dome la nɔa anyi si woate ŋu adzro eye ta aɖeke mate ŋu aɖe asi le nusi wu esi wòge ɖe eme le se nu o.
@@ -68,7 +68,7 @@ Se siwo dzi woda asi ɖo la nana asixɔxɔ ƒe ƒuƒoƒo ɖesiaɖe, si me Ironwo
 
 ## Nusi wòle be ezãlawo nawɔ
 
-Gakotokuwo kple node kɔmpiuta dɔwɔɖoɖowo kpɔa esia ƒe akpa gãtɔ gbɔ le wo ɖokui si, gake tɔtrɔ ŋutɔŋutɔa le bɔbɔe: le ɣeyiɣi aɖe megbe la, tsɔ nusiwo wotsɔ akpoxɔnu lé ɖe asi la tso Orchard-ta xoxoa me to ʋuƒoa me yi Ironwood-ta la me. Wɔ ɖe mɔfiame si tso wò gakotokua nana gbɔ dzi, eye nàtrɔ asi le eŋu ɣesiaɣi ɖe asiɖeɖe le eŋu si ŋu wodo alɔe ŋu hafi nàxe mɔ ɖe dɔwɔwɔ nu.
+Gakotokuwo kple node kɔmpiutadziɖoɖowo kpɔa esia ƒe akpa gãtɔ gbɔ le wo ɖokui si, gake tɔtrɔ ŋutɔŋutɔa le bɔbɔe: le ɣeyiɣi aɖe megbe la, tsɔ nusiwo wotsɔ akpoxɔnu lé ɖe asi la tso Orchard-ta xoxoa me to ʋuƒoa me yi Ironwood-ta la me. Wɔ ɖe mɔfiame si tso wò gakotokua nana gbɔ dzi, eye nàwɔ yeye ɣesiaɣi ɖe asiɖeɖe le eŋu si ŋu wodo alɔe ŋu hafi nàxe mɔ ɖe dɔwɔwɔ nu.
 
 ## Nyagɔmeɖegbalẽ
 
@@ -85,11 +85,11 @@ Gakotokuwo kple node kɔmpiuta dɔwɔɖoɖowo kpɔa esia ƒe akpa gãtɔ gbɔ le
 
 Ðe wògblẽ nu le nye ZEC ŋua? Ao, kpeɖodzi aɖeke meli be wozã nudzodzoea kpɔ o, mekpɔ ŋusẽ aɖeke ɖe ezãlawo ƒe ga dzi o, eye tɔtrɔ aɖeke meli le nusiwo katã wotsɔ vɛ ŋu o.
 
-Ðe wòhiã be mawɔ nanea? Na wò gakotoku kple node ƒe kɔmpiutadziɖoɖoa nawɔ yeye ɖe asiɖeɖe le eŋu si wodo alɔe ŋu hafi nàxe mɔ ɖe dɔwɔwɔ nu. Wò gakotokua tsɔa ga yia Ironwood le ɣeyiɣi aɖe megbe ne èle ga zãm, eyata naneke meli si woatsɔ asi awɔ kaba o. Wɔ ɖe wò gakotoku dɔwɔƒea ƒe mɔfiamewo dzi.
+Ðe wòhiã be mawɔ nanea? Na wò gakotoku kple node ƒe kɔmpiutadziɖoɖoa nawɔ yeye ɖe asiɖeɖe le eŋu si wodo alɔe ŋu hafi nàxe mɔ ɖe dɔwɔwɔ nu. Wò gakotokua tsɔa ga yia Ironwood le ɣeyiɣi aɖe megbe ne èle ga zãm, eyata naneke meli si nàtsɔ asi awɔ kaba o. Wɔ ɖe wò gakotoku dɔwɔƒea ƒe mɔfiamewo dzi.
 
 Ðe Zcash gakpɔtɔ nye ame ŋutɔ tɔa? Ɛ̃. Ironwood léa ameŋunyatakaka siwo wokpɔ ta na si ɣlaa ame si ɖoe ɖa, amesi xɔe, kple ga home ma ke ɖe asi. Dodoɖeŋgɔ sia ku ɖe nuzazãwo ƒe fɔmaɖimaɖi ŋu, ke menye ame ŋutɔ ƒe nyawo ŋu o.
 
-Ðe wowɔ nudzodzoea ŋudɔ kpɔa? Kpeɖodzi aɖeke meli si fia be nenemae wònɔ o. Woke ɖe eŋu to dedienɔnɔ ŋuti numekuku me, woɖee ɖe go le agbanɔamedzi me, eye woɖɔe ɖo hafi nuveviwɔame ɖesiaɖe si wonya.
+Ðe wowɔ nudzodzoea ŋudɔ kpɔa? Kpeɖodzi aɖeke meli si fia be nenemae wònɔ o. Woke ɖe eŋu to dedienɔnɔ ŋuti numekuku me, woɖee fia le agbanɔamedzi me, eye woɖɔe ɖo hafi nuveviwɔame ɖesiaɖe si wonya.
 
 Nukae dzɔna ɖe Orchard ta xoxoa dzi? Eva zua gazazã ɖeɖeko. Asixɔxɔ yeye aɖeke mate ŋu age ɖe eme o, eye asixɔxɔ si li xoxo la ʋuna yia Ironwood to ʋuƒoa dzi, afisi wowɔa ʋuʋua ƒe agbalẽ le dutoƒo.
 
@@ -100,7 +100,7 @@ Ne woɣla ZEC si le ta siwo ŋu wokpɔ ta na me la, aleke ame aɖe ate ŋu aɖo 
 <details>
 <summary>Answer</summary>
 
-To ʋuƒoa dzi. Woxlẽa gaku ɖesiaɖe si dona le Orchard-ta xoxoa me le dutoƒoʋudzeƒe aɖe ne ele gegem ɖe Ironwood. Ne asixɔxɔ geɖe dze agbagba be yeadzo wu esi woge ɖe eme le se nu la, akɔntabubua mada asɔ o, eyata aʋatsonu ɖesiaɖe si nugbagbevi la ate ŋu ahe vɛ hafi la ado ɖe agbo ma dzi.
+To ʋuƒoa dzi. Woxlẽa gaku ɖesiaɖe si dona le Orchard-ta xoxoa me le dutoƒokpɔƒe aɖe ne ele gegem ɖe Ironwood. Ne asixɔxɔ geɖe dze agbagba be yeadzo wu esi woge ɖe eme le se nu la, akɔntabubua mada asɔ o, eyata aʋatsonu ɖesiaɖe si nugbagbevi la ate ŋu ahe vɛ hafi la ado ɖe agbo ma dzi.
 </details>
 
 ### Nunɔamesiwo

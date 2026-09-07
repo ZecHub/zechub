@@ -4,14 +4,14 @@
 
 # Inye aka na ZecHub
 
-ZecHub helps people learn about Zcash. If you are reading this page, we are really excited that you're considering contributing! Any contribution you make will be reflected on [zechub.wiki](https://www.zechub.wiki/) na netwọkụ mmekọrịta ZecHub ndị ọzọ.
+ZecHub na enyere ndi mmadu aka imuta banyere Zcash. Ọ bụrụ n'ịgụ peeji a, anyị nwere obi ụtọ nke ukwuu maka ị tụlere inye onyinye! Ihe ọ bụla i nyere ga-apụta ìhè na ihe niile gbasara ego gị ma mee ka ndị ahịa mara otu esi enweta ya site na iji usoro ahụ dị mma. [zechub.wiki (n'asụsụ Igbo)](https://www.zechub.wiki/) na ndị ọzọ ZecHub mgbasa ozi mmekọrịta.
 
-### Ndị na-enye onyinye ọhụrụ
+### Ndị ọhụrụ na-enye onyinye
 
-Iji nweta nkọwa nke ZecHub, gụọ [GỤKWUO](https://github.com/ZecHub/zechub/blob/main/README.md).
+Iji nweta ihe nlele nke ZecHub, gụọ akwụkwọ akụkọ ahụ. [Gụọ m .](https://github.com/ZecHub/zechub/blob/main/README.md).
 
 
-### Ịmalite
+### Ịmalite amalite .
 
 ZecHub uses GitHub to manage community contribution. If you are new to GitHub, not to worry! We are going to break down how you can get involved as a community contributor to ZecHub. We pay out tips in ZEC for accepted contribution. In this guide you will get an overview of the contribution workflow from opening an issue, creating a pull request (PR), reviewing, and merging the PR.
 
@@ -28,13 +28,13 @@ ZecHub uses GitHub to manage community contribution. If you are new to GitHub, n
 </div>
 
 
-### Soro na mkparịta ụka
+### Soro na mkparịta ụka ahụ .
 
-Nke mbụ, sonye na mkparịta ụka na [njikọ obodo anyị](https://zechub.wiki/zcash-community/community-links).
+Nke mbụ, sonyere mkparịta ụka ahụ na nke anyị. [njikọ obodo](https://zechub.wiki/zcash-community/community-links).
 
-### Akwụkwọ Ntuziaka
+### Akwụkwọ Ntuziaka Ụdị
 
-Ọ bụla ntinye aka na ZecHub kwesịrị ịgbaso [ZecHub style guides](https://github.com/ZecHub/zechub/blob/main/styles/guide.md)Nke a gụnyere wikis, docs na ọdịnaya mgbasa ozi.
+Onyinye ọ bụla nye ZecHub kwesịrị ịgbaso usoro a: [Ntuziaka ụdị ZecHub](https://zechub.wiki/contribute/style-guide)Nke a gụnyere wikis, akwụkwọ na ọdịnaya mgbasa ozi.
 
 ### Ụzọ ndị i nwere ike isi nye aka
 
@@ -42,11 +42,11 @@ ZecHub is a community driven project that aims to provide support and resources 
 
 Ndị a bụ ụdị onyinye nke ZecHub na-anabata ugbu a:
 
-#### Ọrụ mmepe - 0.12 ruo 0.5 ZEC kwa PR a kwadoro
+#### Ọrụ mmepe - 0.12 ruo 0.5 ZEC kwa PR a kwadoro.
 
-Ọrụ mmepe ọ bụla akwadoro nke na-enyere aka iwulite usoro okike Zcash. Nke a nwere ike ịgụnye wiki anyị, obere akpa ọhụrụ, ma ọ bụ ngwa ọ bụla ị nwere ike iche.
+Ọrụ mmepe ọ bụla a kwadoro nke na-enyere aka iwulite usoro okike Zcash. Nke a nwere ike ịgụnye wiki anyị, obere akpa ọhụrụ maọbụ ngwa ọbụla ị ga - eche n'echiche gị.
 
-#### Nkuzi Zcash (vidiyo) - ruo 0.15 ZEC kwa nkuzi
+#### Zcash Tutorials (video) - ruo 0.15 ZEC kwa nkuzi.
 
 Nke a bụ ihe atụ nkuzi n'okpuru:
 
@@ -62,11 +62,11 @@ Nke a bụ ihe atụ nkuzi n'okpuru:
   />
 </div>
 
-Create and share tutorials on Zcash apps and get rewarded. Submit PR to zechub/tutorials or send video to #video-content channel in Discord. If video meets our criteria, we will post it and tip you.
+Mepụta ma kesaa nkuzi na ngwa Zcash wee nweta ụgwọ ọrụ. Nyefee PR ka zechub / tutorials ma ọ bụ zipu vidiyo gaa #video-content channel in Discord. Ọ bụrụ na vidio ahụ ruru ihe anyị chọrọ, anyị ga-eziga ya ma nye gị ego.
 
-#### ZecHub Wiki - ihe ruru 0.08 ZEC kwa peeji wiki ọhụrụ e bipụtara
+#### ZecHub Wiki - ruo 0.08 ZEC kwa peeji wiki ọhụrụ e bipụtara
 
-Our wiki site provides Zcash education materials in an easy and digestible format. Zcash is a very advanced technology with a vibrant community, so there's still more documentation we need to build. Our goal is to build documentation on:
+Ebe nrụọrụ wiki anyị na-enye ihe mmụta Zcash n'ụdị dị mfe ma nwee ike ịba uru. Zcash bụ teknụzụ kachasị elu nke nwere obodo siri ike, yabụ enwere akwụkwọ ndị ọzọ ka anyị kwesịrị iwulite. Ihe mgbaru ọsọ anyị bụ ịmepụta akwụkwọ gbasara:
 
 ```
 - Zcash and its related technologies
@@ -76,38 +76,38 @@ Our wiki site provides Zcash education materials in an easy and digestible forma
 - Privacy Ecosystem & Tools
 ```
 
-Ndị a bụ ebe sara mbara, yabụ enwere ọtụtụ ihe ị ga-arụ ọrụ site na ya. Ọ bụrụ na ịchọrọ ụfọdụ mmụọ nsọ, lelee [saịtị wiki-docs] anyị ugbu a](https://zechub.wiki/) and see what's missing. Once you determine what you want to write, start to make your changes and learn how to submit a PR to the ZecHub repo. All of our docs are created and maintained in this repo. Use the [docs template](https://github.com/ZecHub/zechub/blob/main/template.md) ma soro [ZecHub style](https://zechub.wiki/contribute/style-guide) when writing a wiki page. After you submit a PR, please message @dismad, @squirrel, or @vito in the #zechub section of the discord, and they will review your PR and merge if it is ready to be added to the site. If merged, they will add the doc to the ZecHub website. If the doc is not ready, they will suggest edits for you in the PR.
+Ndị a bụ ebe sara mbara, yabụ enwere ọtụtụ ihe ị ga-arụ ọrụ. Ọ bụrụ na ịchọrọ ụfọdụ mmụọ nsọ, lelee akwụkwọ akụkọ anyị ugbu a nke ụlọ akụ maka ndị ahịa azụmaahịa dị n'okpuru: [ebe nrụọrụ wiki-docs](https://zechub.wiki/) na-ahụ ihe efu. Ozugbo ị chọpụtala ihe ịchọrọ ide, malite ime mgbanwe gị ma mụta otu esi edobe PR n'ụlọ nkwakọba ZecHub. A na -emepụta akwụkwọ anyị niile ma debe ya na ụlọ ahịa a. Soro ntuziaka ndị ahụ [Ntuziaka ụdị ZecHub](https://zechub.wiki/contribute/style-guide) when writing a wiki page, and use an existing page in the same section as a structural reference. After you submit a PR, please message @dismad, @squirrel, or @vito in the #zechub section of the discord, and they will review your PR and merge if it is ready to be added to the site. If merged, they will add the doc to the ZecHub website. If the doc is not ready, they will suggest edits for you in the PR.
 
-#### ZecHub Wiki - 0.015 ZEC kwa edit na-anabata ka docs
+#### ZecHub Wiki - 0.015 ZEC kwa edetu e ji akwado docs
 
 Sometimes our information in the docs is not spot on. Thats okay. That is why we open-source them! If you find something that needs a change in a wiki-doc, please go to the footer of the doc (which links to its Github page) and suggest a change via a PR.
 
 #### ZecHub Wiki - 0.005 ZEC kwa njikọ agbajiri edozi
 
-If you find that a link is broken, or something important is mispelled, please go to the footer of the doc (which links to its Github page) and suggest the change via a PR.
+Ọ bụrụ na ịchọta njikọ agbajiri, ma ọ bụ ihe dị mkpa edehieghị ya nke ọma, biko gaa n'okpuru akwụkwọ ahụ (nke jikọtara ibe Github) wee tụọ mgbanwe site na PR.
 
 #### Akwụkwọ akụkọ - 0.05 ZEC kwa mbipụta
 
-We produce the ecosystems weekly newsletter. This is a super low lift / easy way to get involved! The newsletter goes out every Friday or Saturday. If you want to write a newsletter, message @squirrel in the #zecweekly section of the Discord to let them know.
+Anyị na-ewepụta akwụkwọ akụkọ kwa izu nke usoro okike. Nke a bụ ụzọ dị oke ala / mfe iji tinye aka! Akwụkwọ akụkọ ahụ na -apụ ụbọchị Fraịde ma ọ bụ Satọdee ọ bụla. Ọ bụrụ n'ịchọrọ ide akwụkwọ ozi, ziga @squirrel na ngalaba #zecweekly nke Discord ka ha mara.
 
-Mgbe ị na-eme nke ahụ, ị nwere ike ịga na [newsletter ngalaba nke a repository](/newsletter/newsletterbasics.md) ma tinye arịrịọ ịdọrọ iji mepụta mbipụta ọhụrụ nke akwụkwọ akụkọ. Biko soro usoro eji eme ihe na [template](/newsletter/newslettertemplate.md).
+Mgbe i mechara nke ahụ, ị nwere ike ịga na- [ngalaba akwụkwọ akụkọ nke ebe nchekwa a.](/newsletter/newsletterbasics.md) ma nyefee arịrịọ ịdọrọ iji mepụta mbipụta ọhụrụ nke akwụkwọ akụkọ. Biko soro usoro eji eme ihe na a [ụdị template](/newsletter/newslettertemplate.md).
 
 After you do this @squirrel or (in Discord) will see that your new edition of the newsletter available, and they'll review and then merge it to the repository. After it's been merged, they'll take the content and post it via Substack.
 
 
-#### Podcast - .25 ZEC kwa ihe omume a na-etinye na ZecHub socials
+#### Podcast - .25 ZEC kwa ihe omume a na-etinye n'ime ZecHub socials
 
-Ị nwere echiche maka ihe ngosi akụkọ, Podcast, mkparịta ụka Twitter, ma ọ bụ ihe vidiyo / ọdịyo ọzọ? Gwa anyị na Discord #video-content na anyị ga-ekwu okwu.
+Ị nwere echiche maka ihe ngosi akụkọ, Podcast, okwu Twitter ma ọ bụ vidiyo / ọdịyo ọzọ? Gwa anyị na Discord #video-content ka anyị kwuo.
 
-Ihe nrite maka ụdị ọdịnaya a dị ntakịrị karịa, yabụ a ga-ebu ụzọ nyefee ya na ZecHub's DAO tupu akwado mmefu ahụ.
+Ihe nrite maka ụdị ọdịnaya a dị ntakịrị, yabụ ọ ga-adị mkpa itinye akwụkwọ na ZecHub's DAO tupu ịnakwere mmefu ahụ.
 
 
 #### Echiche ndị ọzọ? Mee ka anyị mara!
 
 Ị nwere aro ọzọ? Gwa anyị na #general on Discord. Anyị nwere ike ikwurita ya ma hụ ma DAO nke ZecHub ga-akwado ya.
 
-### Ịrụcha Ya
+### Ịrụcha Ihe A Mụrụla
 
-Please do not hesitate to get started contributing to one of the industry's most respected protocols. This is a great way to get involved with Zcash. If you have any questions about contributing, please let us know on [Discord](#join-the-conversation).
+Please do not hesitate to get started contributing to one of the industry's most respected protocols. This is a great way to get involved with Zcash. If you have any questions about contributing, please let us know on [Agha na-aga n'ihu.](#join-the-conversation).
 
 Ekele dịrị gị!

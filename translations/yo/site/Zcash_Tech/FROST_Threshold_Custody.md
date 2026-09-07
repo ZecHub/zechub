@@ -4,7 +4,7 @@
 
 # FROST & Ìkáwọ́ Àlàfo fún ZEC tí a fi ààbò bo
 
-> Fun awọn alaye kikọkọ kikun ti ilana FROST, wo [Oju-iwe imọ ẹrọ Frost](FROST.md).
+> Fun awọn alaye kikọkọ kikun ti ilana FROST, wo iwe-aṣẹ. [Ojúewé ìmọ̀-ẹ̀rọ FROST](FROST.md).
 
 Àjọ FROST ń bá a lọ láti máa wá nínú ìjíròrò Zcash  ó jẹ́ orin tó ga jùlọ ní ZecHub Hackathon 2026  ṣùgbọ́n èrò náà kò sí nígbà gbogbo tí wọ́n ṣàlàyé rẹ̀ lóòrèkóórè. Ojúewé yìí bo ohun ti o túmọ̀, ìgbà tí ìwọ nílò rẹ gan-an ni, àwọn àdéhùn àdàkàdekẹ àti irú irinṣẹ́ wo lo ṣe atilẹyin fún un lónìí.
 
@@ -94,8 +94,8 @@ FROST fun Zcash ti a fi bo jẹ tuntun. Igbesẹ IETF (draf-irtf-cfrg-frost) ni 
 ### Zcash Foundation — frost.zfnd.org
 The Zcash Foundation has shipped a working FROST implementation and a demo site. This is the reference implementation used for testing and development.
 
-### Àwòṣe YWallet FROST
-YWallet (a ga-ṣiṣe Zcash apamọwọ) ni o ni a tete Frost demo iṣọpọ. Wo awọn [YWallet FROST Demo guide](/guides/Ywallet_FROST_Demo) fún àwọn ìtọ́ni tó ṣe tààràtà.
+### Àwòkẹ́kò́ó Ywallet FROST
+Ywallet had an early FROST demo integration, walked through in the [Itọsọna ifihan ti Ywallet FROST](/guides/Ywallet_FROST_Demo). Ywallet ti wa ni ko si siwaju sii ntọju ati ki o yoo ko ba updated fun Ironwood, ki ka awọn itọnisọna bi abẹlẹ dipo ju nkankan lati ṣiṣe loni. Zkool, lati kanna Olùgbéejáde, jẹ awọn n ṣetọju arọpo ati akojọ FROST multisig laarin awọn oniwe-ara ẹya ara ẹrọ.
 
 ### ZecHub Hackathon 2026  Awọn iṣẹ orin FROST
 
@@ -143,17 +143,16 @@ Ti eyikeyi onisowo ba firanṣẹ ibuwọlu idapọ, ilana naa ṣe idanimọ w�
 
 ## Àwọn ojúewé tó ní í ṣe pẹ̀lú rẹ̀
 
-- [FROST — Technical Deep Dive](FROST.md)  àwọn ìsọfúnni nípa ìlànà sísọ nǹkan níkòó (DKG, yíyẹwọ̀n àtẹ́lẹwọ́, ẹrí ìdánilójú)
-- [YWallet FROST Àkọsílẹ̀ Ìdánwò](/guides/Ywallet_FROST_Demo)  ìtòlẹ́sẹẹsẹ ìdánrawò tó ń gbéni ró lẹ́ẹ̀kan-lóṣù kan
-- [Àwòfihan FROST (àwòrán àfihàn frost) ](/guides/ywallet-frost-demo)  Ìtòlẹ́sẹẹsẹ ìfihàn ti àjọ Zcash Foundation
-- [Àwọn Kọ́kọ́rọ́ Ìwòye](Viewing_Keys.md)  wíwọlé kíkà nìkan sí àwọn àdírésì tí a fi ààbò bo (tí ó ṣe afikun si ìpamọ́ òpin)
-- [Àwọn Nǹkan tí a fi ààbò ṣe ní Zcash](Zcash_Shielded_Assets.md)  FROST tun jẹ ipilẹ pataki fun iṣedede ZSA
+- [FROST  Ìdánwò ìbúgbàù tó jinlẹ̀](FROST.md)  àwọn ìsọfúnni nípa ìlànà sísọ nǹkan níkòó (DKG, yíyẹwọ̀n àtẹ́lẹwọ́, ẹrí ìdánilójú)
+- [Ywallet FROST Àtẹ̀wò Ìtọ́sọ́nà](/guides/Ywallet_FROST_Demo)  ìsàlẹ̀, Ywallet kò tún níí ṣe àbójútó mọ́.
+- [Àwọn Kókó Ìwòran](Viewing_Keys.md)  wíwọlé kíkà nìkan sí àwọn àdírésì tí a fi ààbò bo (tí ó ṣe afikun si ìpamọ́ òpin)
+- [Awọn ohun-ini ti a fi aabo Zcash pamọ](Zcash_Shielded_Assets.md)  FROST tun jẹ ipilẹ pataki fun iṣedede ZSA
 
 ## Àwọn Owó-ìṣúnná owó
 
-- [Iwé ìwádìí FROST (Komlo & Goldberg, 2020) ](https://eprint.iacr.org/2020/852.pdf)
-- [IETF FROST àtòjọ ìlànà (àtòjọ-irtf-cfrg-frost) ](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/)
-- [Zcash Foundation FROST implementation](https://frost.zfnd.org)
-- [Chelsea Komlo  Kí ni Àwọn Àmì Ìlàjú? (Zcon3) ](https://youtu.be/cAfTTfblzoU?t=110)
-- [Coinbase  Awọn Ibuwọlu Digital Iwọn-ọna](https://www.coinbase.com/blog/threshold-digital-signatures)
-- [ROAST  Robust Async Schnorr Ìlà ìforúkọsílẹ (Blockstream) ](https://eprint.iacr.org/2022/550.pdf)
+- [Ìwé ìwádìí FROST (Komlo & Goldberg, 2020)](https://eprint.iacr.org/2020/852.pdf)
+- [Àkọlé ìlànà IETF FROST (àkójọ-irtf-cfrg-frost)](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/)
+- [Ìmúṣẹ FROST ti àjọ Zcash Foundation](https://frost.zfnd.org)
+- [Chelsea Komlo  Kí ni àwọn Àmì Ìdìbò? (Zcon3)](https://youtu.be/cAfTTfblzoU?t=110)
+- [Coinbase  Àwọn Àmì-ìdìwọ̀ Oníṣàmúlò tí ó pọ́n sí i](https://www.coinbase.com/blog/threshold-digital-signatures)
+- [ROAST  Awọn Ibuwọlu Iwọn-ipele Async Schnorr ti o lagbara (Blockstream)](https://eprint.iacr.org/2022/550.pdf)

@@ -1,6 +1,6 @@
 # Alesi woawɔ Zebra le Akash Network dzi
 
-Afɔɖeɖe ɖesiaɖe ƒe mɔfiame na Zebra Zcash full node ƒe dɔwɔwɔ to [Akash Console](https://console.akash.network).
+Afɔɖeɖe ɖesiaɖe ƒe mɔfiame na Zebra Zcash full node zazã zazã [Akash ƒe Aɖaŋuɖotakpekpe](https://console.akash.network).
 
 ### Nusi Nèle Dɔ wɔm
 
@@ -12,14 +12,14 @@ Zebra node blibo aɖe si awɔe be:
 
 -> Xɔ gaƒoƒo geɖe va ɖo ŋkeke geɖe hafi wòawɔ ɖeka bliboe
 
--> Zã vCPU 4, 16GB RAM, 350GB nudzraɖoƒe (mainnet) alo 2 vCPUs, 8GB RAM, 50GB (testnet)
+-> Zã vCPU 4, 16GB RAM, 350GB nudzraɖoƒe (mainnet) alo 2 vCPU, 8GB RAM, 50GB (testnet)
 
 
 ### Vevietɔ: Melidzeƒea ƒe Nɔnɔmetatawo wɔwɔ le Akash
 
-Ne èɖe ʋɔtru aɖe ɖe go le Akash dzi (e.g., ʋɔtru 8233 na Zebra P2P), **mebla ɖe ʋɔtru ma tututu ŋu** le dɔwɔƒea ƒe dutoƒo IP dzi o. Ke boŋ, dɔwɔƒea dea ʋɔtru kɔkɔ si wowɔ le vome (abe 31234 alo 42567 ene) eye wòtrɔa asi le eŋu yia wò nugoe ƒe ʋɔtru 8233 dzi.
+Ne èɖe ʋɔtru aɖe ɖe go le Akash dzi (e.g., ʋɔtru 8233 na Zebra P2P), **mebla ɖe ʋɔtru ma tututu ŋu** le dɔwɔƒea ƒe dutoƒo IP dzi o. Ke boŋ, dɔwɔƒea dea ʋɔtru kɔkɔ si wowɔ le vome (abe 31234 alo 42567 ene) eye wòtrɔa eƒe teƒenɔla ɖe wò nugoe ƒe ʋɔtru 8233 dzi.
 
-Esia nye to aɖaŋuwɔwɔ me - dɔwɔƒewo wɔa dɔ geɖewo, eye masɔmasɔwo anɔ wo dome ne amesiame dze agbagba be yeazã ʋudzeƒe 8233 tẽ.
+Esia nye to ɖoɖowɔwɔ me - dɔwɔƒewo wɔa dɔ geɖewo, eye masɔmasɔwo anɔ wo dome ne amesiame dze agbagba be yeazã ʋudzeƒe 8233 tẽ.
 
 **Nusi esia fia na wò:**
 
@@ -62,11 +62,11 @@ Ele be wò AKT ƒe dadasɔ nadze le ɖusime le etame. Ne zero ye la, yi ɖadzɔ 
 
 ##### Tiatia A: Tsɔ SDL Faɛl (Wokafui) .
 
-[![Deploy le Akash dzi](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
+[![Deploy on Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
 
 ##### Tiatia B: Zã SDL Editor
 
-Ne èdi be yeatsɔ asi atsɔ [SDL la](https://github.com/akash-network/awesome-akash/blob/master/zcash-zebra/deploy.yaml):
+Ne èdi be yeatsɔ asi atsɔ ablae [si nye SDL la](https://github.com/akash-network/awesome-akash/blob/master/zcash-zebra/deploy.yaml):
 
 -> Kpɔ *zebra-akash.yml* me nyawo ɖa.
 
@@ -89,13 +89,13 @@ Zi **"Approve"** dzi eye nàde asi asitsatsa la te le Keplr me.
 
 #### Afɔɖeɖe 4: Tia Dɔwɔƒe si Naa Dɔa
 
-Le ~ sɛkɛnd 30 megbe la, àkpɔ adzɔnuwo tso dɔwɔƒe siwo naa kpekpeɖeŋu gbɔ. Dodoɖeŋgɔ ɖesiaɖe ɖee fia be:
+Le ~ sɛkɛnd 30 megbe la, àkpɔ adzɔnuwo tso dɔwɔƒe siwo naa kpekpeɖeŋu gbɔ. Dodo ɖesiaɖe ɖee fia be:
 
 -> **Asi si woaxe ɖe block ɖeka ta** (le AKT alo USDC me)
 
 -> **Ɣleti sia ɣleti ƒe gazazã si wobu**
 
--> **Dɔwɔƒea ŋuti nyatakakawo** (ɣeyiɣi si woatsɔ awɔ dɔe, nuto, kple bubuawo)
+-> **Nunana ƒe nyatakakawo** (dɔwɔwɔ ƒe ɣeyiɣi, nuto, kple bubuawo)
 
 
 **Mègatia esiwo ƒe asi bɔbɔ wu ko o.** Kpɔe ɖa be:
@@ -164,9 +164,9 @@ zebra-8233: provider-hostname.com:31234
 
 Esia nye wò node ƒe **dutoƒo P2P nuwuƒe**. Zcash node bubuwo aƒo ka na wò le adrɛs sia dzi.
 
-**De dzesi ʋudzeƒe ƒe nɔnɔmetata:** Èɖo ʋudzeƒe 8233 le SDL me, gake Akash tsɔe de dutoƒo ʋɔtru bubu (31234 le kpɔɖeŋu sia me). Esia sɔ - kpɔ "Port Mapping on Akash" ƒe akpa si le etame ne esia tɔtɔ wò. Wò node la ateŋu aɖo ʋudzeƒe ɖesiaɖe si Akash ɖe fia le afisia, menye 8233 kokoko o.
+**De dzesi ʋudzeƒe ƒe nɔnɔmetata:** Èɖo ʋudzeƒe 8233 le SDL me, gake Akash tsɔe de dutoƒo ʋɔtru bubu (31234 le kpɔɖeŋu sia me). Esia sɔ - kpɔ "Port Mapping on Akash" ƒe akpa si le etame ne esia tɔtɔ wò. Wò node la ateŋu aɖo ʋɔtru ɖesiaɖe si Akash ɖe fia le afisia, menye 8233 kokoko o.
 
-Ne èwɔ RPC ŋudɔ (wogblɔe tso gɔmedzedzea me le SDL me) la, àkpɔ RPC ƒe nuwuƒe hã le afisia kple eya ŋutɔ ƒe ʋudzeƒe si wowɔ nɔnɔmetata na.
+Ne èwɔ RPC ŋudɔ (wogblɔ nya tso eŋu le gɔmedzedzea me le SDL me) la, àkpɔ RPC ƒe nuwuƒe hã le afisia kple eya ŋutɔ ƒe ʋudzeƒe si wowɔ nɔnɔmetata na.
 
 ### Ðoɖowɔwɔ ƒe Tiatiawɔblɔɖe
 
@@ -267,7 +267,7 @@ RPC nye nuwɔametɔ le gɔmedzedzea me hena dedienɔnɔ. Be wòana wòawɔ dɔ l
 
 **Nuxlɔ̃ame**: Ne èɖo *global: true* na RPC la, ke èle eɖem ɖe go ɖe internet dzi. Zebra zãa cookie auth le gɔmedzedzea me, gake kokoko - mègawɔ esia o negbe ɖe nènya nusi wɔm nèle hafi.
 
-**Melidzeƒe ƒe nɔnɔmetata ƒe ŋkuɖodzinya**: Ne èɖe RPC ɖe go le xexeame katã hã la, Akash awɔ nɔnɔmetata nɛ ɖe melidzeƒe kɔkɔ si woɖo le vome (menye 8232/18232 o). Kpɔ URI siwo le wò dɔwɔwɔ me be nàkpɔ dutoƒonuwuƒe ŋutɔŋutɔ. Le *global: false* (wokafui) gome la, Akash ƒe dɔwɔwɔ ƒe kadodoa me koe woateŋu akpɔ RPC ƒe nuwuƒea, ke menye tso dutoƒo internet dzi o.
+**Melidzeƒe ƒe nɔnɔmetata ƒe ŋkuɖodzinya**: Ne èɖe RPC ɖe go le xexeame katã hã la, Akash awɔ nɔnɔmetata nɛ ɖe melidzeƒe kɔkɔ si woɖo le vome (menye 8232/18232 o). Kpɔ URI siwo le wò dɔwɔwɔ me be nàkpɔ dutoƒonuwuƒe ŋutɔŋutɔ. Le *global: false* (wokafui) gome la, Akash ƒe dɔwɔwɔ ƒe network me koe woateŋu akpɔ RPC ƒe nuwuƒe, ke menye tso dutoƒo internet dzi o.
 
 #### Na Metrix (Prometheus) nawɔ dɔ .
 
@@ -279,7 +279,7 @@ Be nàɖe metriks hena ŋkuléle ɖe nu ŋu:
    - "ZEBRA_METRICS__ENDPOINT_ADDR=0.0.0.0:9999"
    ```
 
--> Ðe nyawo ɖa le metrics ʋɔtrua ŋu le *expose* me:
+-> Ðe nyawo ɖa le metrics port ŋu le *expose* me:
 
    ```yaml
    - port: 9999
@@ -321,7 +321,7 @@ Ehiã be nàtrɔ ɖoɖowɔwɔ le eɖoɖo vɔ megbea?
 
 -> Zi **"Update"** dzi eye nàda asi ɖe edzi le Keplr me
 
-**De dzesii**: Trɔtrɔ agbugbɔ adze wò nugoe gɔme. Node la agadze egɔme tso eƒe nɔnɔme si wodzra ɖo (nudzraɖoƒe si nɔa anyi ɖaa), gake kpɔ mɔ be miniti 1-2 natsi anyi.
+**De dzesii**: Trɔtrɔ agbugbɔ adze wò nugoe gɔme. Node la agadze egɔme tso eƒe nɔnɔme si wodzra ɖo (nudzraɖoƒe si nɔa anyi ɖaa), gake kpɔ mɔ na miniti 1-2 ƒe dɔmawɔmawɔ.
 
 ### Kpɔkpɔ le ŋkuléle ɖe nu ŋu
 
@@ -329,9 +329,9 @@ Ehiã be nàtrɔ ɖoɖowɔwɔ le eɖoɖo vɔ megbea?
 
 -> **Nuŋlɔɖiwo ƒe tab**: Nugoe me nuŋlɔɖi siwo le agbe
 
--> **Shell tab**: Na shell aɖe le nugoe la me (eɖea vi na vodadawo ɖeɖeɖa)
+-> **Shell tab**: Na shell le nugoe la me (eɖea vi na vodadawo ɖeɖeɖa)
 
--> **Nudzɔdzɔwo ƒe tab**: Kubernetes nudzɔdzɔwo (wo dometɔ akpa gãtɔ meɖea vi o negbe ɖe nane gblẽ ko)
+-> **Nudzɔdzɔwo ƒe tab**: Kubernetes nudzɔdzɔwo (wo dometɔ akpa gãtɔ meɖea vi o negbe ɖe nane gblẽ hafi)
 
 
 #### To RPC dzi (ne wowɔe) .
@@ -379,7 +379,7 @@ Esia sɔ le aɖabaƒoƒo ʋɛ gbãtɔawo me. Zebra ake ɖe ehatiwo ŋu le eɖoku
 
 #### "Out of memory" vodadawo le nuŋlɔɖiwo me
 
-Èxɔ asi le RAM ŋu. Do dɔwɔwɔa eye nàgbugbɔe aɖoe kple ŋkuɖodzinu 12Gi ya teti (wokafu 16Gi).
+Èƒle RAM ƒe asi bɔbɔe. Do dɔwɔwɔa eye nàgbugbɔe aɖoe kple ŋkuɖodzinu 12Gi ya teti (wokafu 16Gi).
 
 #### Sync le xɔm tegbee
 
@@ -389,7 +389,7 @@ Esia sɔ le aɖabaƒoƒo ʋɛ gbãtɔawo me. Zebra ake ɖe ehatiwo ŋu le eɖoku
 
 -> **Ŋkekewo**: Azɔ hã esɔ na mainnet tso gɔmedzedzea me
 
--> **Kwasiɖa**: Nane gblẽ, kpɔ nuŋlɔɖiwo ɖa be vodadawo le eme hã
+-> **Kwasiɖa**: Nane gblẽ, lé ŋku ɖe nuŋlɔɖiwo ŋu be vodadawo le eme hã
 
 
 ### Gazazãwo Dzikpɔkpɔ

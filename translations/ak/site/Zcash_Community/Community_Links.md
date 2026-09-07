@@ -32,7 +32,7 @@ The Zcash community is very active in its community <span translate="no" class="
 
 ### Zcash Mpɔtam Hɔ Nhyiam
 
-[Zcash Mpɔtam Hɔ Nhyiam](https://forum.zcashcommunity.com/) yɛ beaeɛ a wɔbɔ nkɔmmɔ a ɛkɔ akyiri wɔ Zcash - nnisoɔ, mmoa ho nsusuiɛ, mfiridwuma ho akyinnyegyeɛ, ne abɔdeɛ a nkwa wom ho amanneɛbɔ. Seesei ofiehwɛ adwuma no akɔ Zcash Foundation wɔ ECC nsakraeɛ a ɛkɔɔ ZODL mu no akyi.
+No [Zcash Mpɔtam Hɔ Nhyiam](https://forum.zcashcommunity.com/) yɛ beaeɛ a wɔbɔ nkɔmmɔ a ɛkɔ akyiri wɔ Zcash - nnisoɔ, mmoa ho nsusuiɛ, mfiridwuma ho akyinnyegyeɛ, ne abɔdeɛ a nkwa wom ho amanneɛbɔ. Seesei ofiehwɛ adwuma no akɔ Zcash Foundation wɔ ECC nsakraeɛ a ɛkɔɔ ZODL mu no akyi.
 
 ### <img src="/content-images/image-2024-02-03-174240928-7a8f751301.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
 
@@ -41,31 +41,31 @@ Zcash wɔ wiase nyinaa a ɛyɛ nnam wɔ X. Akontaabu atitiriw a ɛsɛ sɛ wudi a
 | Akontaabu | Nkyerɛkyerɛmu |
 |---------|-------------|
 | [@Zcash na ɔkyerɛwee](https://x.com/zcash) | Zcash akontaabu a ɛyɛ aban de |
-| [@ZecHub, na ɔde ne nsa kyerɛɛ ne so](https://x.com/zechub) | ZecHub DAO - mpɔtam hɔ nkyerɛkyerɛ ne bounties |
+| [@ZecHub na ɔkyerɛwee](https://x.com/zechub) | ZecHub DAO - mpɔtam hɔ nkyerɛkyerɛ ne bounties |
 | [@zodl_app na ɛwɔ hɔ](https://x.com/zodl_app) | ZODL sika kotoku (kan no na wɔfrɛ no Zashi) |
-| [@ZcashFahyɛde no](https://x.com/zcashfoundation) | Zcash Foundation nsɛm foforo |
+| [@ZcashFahyɛde a ɛwɔ hɔ](https://x.com/zcashfoundation) | Zcash Foundation nsɛm foforo |
 | [@zcashbrazil na ɔkyerɛwee](https://x.com/zcashbrazil) | Zcash Brazil mpɔtam hɔfo |
-| [@ZcashTR so na ɔkyerɛwee](https://x.com/ZcashTR) | Zcash Turkeyfoɔ |
-| [@ZcashArabia a ɛwɔ hɔ no](https://x.com/ZcashArabia) | Zcash Arabiafoɔ |
+| [@ZcashTR na ɔkyerɛwee](https://x.com/ZcashTR) | Zcash Turkeyfoɔ |
+| [@ZcashArabia a ɛwɔ hɔ](https://x.com/ZcashArabia) | Zcash Arabiafoɔ |
 | [@ZcashNigeria na ɛwɔ hɔ](https://x.com/ZcashNigeria) | Zcash Nigeria |
-| [@ZcastEsp na ɛyɛ adwuma wɔ hɔ](https://x.com/ZcastEsp) | Zcast - Spania kasa Zcash podcast |
-| [@ZkAv_Kuw no mu](https://x.com/ZkAv_Club) | ZK Audiovisual Club |
-| [@cipherscan_adwuma no mu](https://x.com/cipherscan_app) | CipherScan blockchain nhwehwɛmufo |
-| [@zerodartz, na ɔde ne nsa kyerɛɛ ne so](https://x.com/Zerodartz) | Community memes ne nkyerɛkyerɛmu |
+| [@ZcastEsp na ɔkyerɛwee](https://x.com/ZcastEsp) | Zcast - Spania kasa Zcash podcast |
+| [@ZkAv_Club na ɛwɔ hɔ](https://x.com/ZkAv_Club) | ZK Audiovisual Club |
+| [@cipherscan_app no ​​so na ɛyɛ adwuma](https://x.com/cipherscan_app) | CipherScan blockchain nhwehwɛmufo |
+| [@zerodartz na ɔkyerɛwee](https://x.com/Zerodartz) | Community memes ne nkyerɛkyerɛmu |
 
 ----
 
 ## Mpɔtam Hɔ Mpɔtam Hɔ
 
-- [Zcash en Espanol nhoma a wɔde kyerɛw nsɛm](https://zcashesp.com) - a woka Spania kasa (a wosan nso wo Bluesky so wo X suspension akyi)
-- [Zcash Brazil na ɔkyerɛwee](https://x.com/zcashbrazil) - Brazilfoɔ mpɔtam hɔfoɔ
-- [Zcash Turkey na ɔkyerɛwee](https://x.com/ZcashTR) - Turkeyfoɔ mpɔtam hɔfoɔ
+- [Zcash ne Espanol na ɛyɛ adwuma](https://zcashesp.com) - a woka Spania kasa (a wosan nso wo Bluesky so wo X suspension akyi)
+- [Zcash Brazil na ɛwɔ hɔ](https://x.com/zcashbrazil) - Brazilfoɔ mpɔtam hɔfoɔ
+- [Zcash Turkey na ɛwɔ hɔ](https://x.com/ZcashTR) - Turkeyfoɔ mpɔtam hɔfoɔ
 - [Zcash Arabia na ɛwɔ hɔ](https://x.com/ZcashArabia) - a woka Arabic kasa
-- [Zcash Nigeria, na ɔde ne nsa kyerɛɛ ne so](https://x.com/ZcashNigeria) - Nigeriafoɔ mpɔtam hɔfoɔ
+- [Zcash Nigeria na ɔkyerɛwee](https://x.com/ZcashNigeria) - Nigeriafoɔ mpɔtam hɔfoɔ
 - [ruZcash na ɛyɛ](https://x.com/ruZCASH) - a wɔka Russia kasa Zcash mpɔtam hɔfo
-- [Zcash Korea, na ɔde ne nsa kyerɛɛ ne so](https://x.com/zcash_korea) - Koreafoɔ mpɔtam hɔfoɔ
+- [Zcash Korea na ɛwɔ hɔ](https://x.com/zcash_korea) - Koreafoɔ mpɔtam hɔfoɔ
 - [Zcash Afrika Apuei Fam](https://forum.zcashcommunity.com/t/privacy-has-landed-in-south-africa-join-in/55706) - South Africa ne Afrika Apuei fam
-- [genzcash a wɔde di dwuma](https://x.com/genzcash) - a wode w'adwene si mmabun so Zcash mpɔtam
+- [genzcash a wɔde yɛ adwuma](https://x.com/genzcash) - a wode w'adwene si mmabun so Zcash mpɔtam
 
 ----
 
@@ -74,5 +74,5 @@ Zcash wɔ wiase nyinaa a ɛyɛ nnam wɔ X. Akontaabu atitiriw a ɛsɛ sɛ wudi a
 - [Zcash Mpɔtam Hɔ Wɛbsaet](https://www.zcashcommunity.com/)
 - [ZecHub Wiki a ɛwɔ hɔ](https://zechub.wiki)
 - [Zcash Mmoa a Wɔde Ma Hub](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
-- [Zcash Wiase Nyinaa Aban Nnanmusini](https://zechub.wiki/zcash-community/zcash-global-ambassadors)
+- [Zcash Wiase Nyinaa Aban Nnanmusini](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - dwumadie no ho nsusuiɛ wɔ wiki yi so (zcashambassadors.com yɛ offline)
 - [ZecHub DAO wɔ Dework so](https://app.dework.xyz/zechub-2424)

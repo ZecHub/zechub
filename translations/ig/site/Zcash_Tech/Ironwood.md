@@ -4,7 +4,7 @@
 
 # Osisi ígwè
 
-> Ironwood na-arụ ọrụ na Zcash mainnet na ngọngọ 3,428,143, nke a tụrụ anya gburugburu July 28, 2026 UTC.
+> Ironwood arụ ọrụ na Zcash mainnet na ngọngọ 3,428,143 na July 28, 2026 UTC, ọ nọkwa ndụ kemgbe.
 
 Ihe ị ga-ewepụ: ihe Ironwood gbanwere, gịnị mere ahụhụ dị na ego zoro ezo ji bụrụ nke siri ike, nakwa etu turnstile si eme ka onye ọ bụla kwenye na e meghị ZEC.
 
@@ -34,7 +34,7 @@ Importantly, there is no evidence the bug was ever exploited, no evidence of imp
 
 Ndị obodo Zcash zigara ndozi na nkebi kama ịbụ otu oge.
 
-![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activates around July 28, 2026](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activated at block 3,428,143 on July 28, 2026](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
 
 1. Na mbido June 2026, ihe na-adịru nwa oge gbanyụrụ ọdọ mmiri Orchard ka a kwadebere idozi ya.
 2. Nwelite NU6.2 doziri usoro Orchard n'onwe ya, na-emechi nsogbu ahụ dị mkpa.
@@ -46,7 +46,7 @@ Ndị obodo Zcash zigara ndozi na nkebi kama ịbụ otu oge.
 
 NU6.2 nwetara usoro Orchard maka azụmahịa ọhụrụ niile, mana uru e mepụtara n'okpuru iwu ochie ka na-anọdụ na ọdọ mmiri nke Orchard. Ironwood nyere uru ahụ ebe dị ọcha yana ụzọ iji nyochaa ya mgbe ọ na-agagharị.
 
-The Ironwood pool is a new shielded value pool created when NU6.3 activates. It is built on the corrected circuit and uses a quantum-recoverable note format (a design that lets funds be recovered if [kọmputa quantum](../zcash-tech/post-quantum-security) mgbe ọ bụla mebie cryptography nke taa), akọwapụtara na [ZIP 2005 Ihe ndị dị na peeji nke 3](https://zips.z.cash/zip-2005).
+Ogwe Ironwood bụ oghere ego echekwara nke NU6.3 mepụtara na ngọngọ 3,428,143. Ọ wuru n'elu usoro a gbaziri agbazi ma jiri ụdị mpempe akwụkwọ nwere ike weghachite (atụmatụ nke ga-eme ka eweghachi ego ọ bụrụhaala na ị nweta ya) [kọmputa quantum](../zcash-tech/post-quantum-security) mgbe ọ bụla mebie cryptography nke taa), akọwapụtara na [ZIP 2005 Ihe ndị dị na peeji nke 3](https://zips.z.cash/zip-2005).
 
 1. Mgbe arụ ọrụ, ọdọ mmiri ochie Orchard na-aghọ naanị mmefu ego, yabụ enweghị uru ọhụụ nwere ike ịbanye n'ime ya.
 2. Uru ọhụrụ a na-echebe gafere n'ime Ironwood kama.

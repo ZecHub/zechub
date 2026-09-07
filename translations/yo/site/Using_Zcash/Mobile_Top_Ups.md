@@ -1,48 +1,48 @@
-# Àtúnṣe orí ẹ̀rọ alágbèéká nípasẹ̀ Zcash
+# Ìmúpòsílẹ̀ orí ẹ̀rọ alágbèéká Lórí lílo Zcash
 
-Nínú ìwé yìí, ẹ̀yin yóò kọ́ bí ẹ ṣe lè ra àkókò tẹlifíṣọ̀n pẹ̀lú ZEC.
+Nínú ìwé yìí, ẹ ó kọ́ bí a ṣe ń ra àkókò ìgbóhùnsáfẹ́sọ̀rọ̀ pẹ̀lú ZEC.
 
-## Ṣe àwọn nǹkan yìí:
+## Àwọn nǹkan tá a máa ṣe rèé:
 
 ### 1. Ṣẹda àkọọlẹ kan
-Lọ sí [Coinsbee.com](https://www.coinsbee.com/en/shop/mobile-top-ups/) kí o sì ṣe àkọọ́lẹ̀.
+Ìbẹ̀wò [Coinsbee.com (ì í ì ë ¤)](https://www.coinsbee.com/en/shop/mobile-top-ups/) kí o sì ṣe àkọọ́lẹ̀.
 
-### 2. Yan orilẹ-ede rẹ ati nẹtiwọọki rẹ
-Tẹ lọ si igun apa osi oke ki o yan orilẹ-ede rẹ; lẹhinna yan kirẹditi foonu alagbeka ati yan nẹtiwọọki ti o fẹ lati fi sii (apẹrẹ: MTN).
+### 2. Yan orilẹ-ede rẹ ati nẹtiwọọki
+Tẹ̀lé sí igun òkè òsì kí o sì yan orílẹ-èdè rẹ; lẹ́yìn náà, yàn owó orí fóònù alágbèéká ki o si yan nẹtiwọọki tí ìwọ fẹ́ láti fi kún (àpẹẹrẹ: MTN).
 
-[Igbesẹ 2 - Yiyan orilẹ-ede ati nẹtiwọọki](/content-images/0-qvB7ZCWaVWa-C2d8-db0d4ea372.webp)
+![Step 2 - Selecting country and network](/content-images/0-qvB7ZCWaVWa-C2d8-db0d4ea372.webp)
 
-### 3. Kọ àwọn kúlẹ̀kúlẹ̀ nípa rẹ̀ sínú ìwé náà kó o sì rà á
-Fill in the correct details and hit the "Buy Now" button. Open the cart to view your order, click continue, and confirm the purchase with $ZEC.
+### 3. Kọ gbogbo ohun tó o fẹ́ rà sínú ìwé náà kó o sì lọ ra á.
+Tẹ ìsọfúnni tó tọ sínú rẹ, tẹ "Ra Bayi" ṣí àgbá láti wo ohun tí o bá ra, tẹ síwájú kóo sì fi $ZEC fọwọ́ sí i pé o ti rà á.
 
-[Ìgbésẹ̀ 3 - Àwòrán ìrajà](/content-images/0-ikF-ooBc9W7olfNt-7a4584edda.webp)
+![Step 3 - Purchase screen](/content-images/0-ikF-ooBc9W7olfNt-7a4584edda.webp)
 
-### 4. Àwọn ìsọfúnni nípa owó ọ̀yà
-Wọ́n á fúnni ní iye tó bá a dọ́là ZEC mu, àti àdírẹ́sì tí wọ́n ti máa fi owó náà ránṣẹ́.
+### 4. Àwọn ìsọfúnni nípa owó ọ̀yà.
+A ó fúnni ní iye tó bá a dọ́là ZEC, àti àdírẹ́sì tí wọ́n á fi ránṣẹ́ sí.
 
-[Igbesẹ 4 - Awọn alaye sisanwo ZEC](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
+![Step 4 - ZEC payment details](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
 
-### 5. Fi owó náà ránṣẹ́
-Ṣe àdàkọ àti lẹ́tà owó àti adirẹsi náà pẹ̀lú ìtọ́jú. Nínú pápá àkọsílẹ̀, fi àdírésì YWallet rẹ kún un bí ó bá jẹ́ pé owó náà yóò padà wá.
+### 5. Fi owó náà ránṣẹ́.
+Kọ ati lẹ iye naa ki o si fi adirẹsi silẹ ni iṣọra. Ninu aaye akọsilẹ, ṣafikun adirẹẹsi rẹ ti a ṣe aabo fun ọ ninu iṣẹlẹ pe yoo wa owo-pada kan.
 
-[Igbesẹ 5 - Fifiranṣẹ ZEC](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
+![Step 5 - Sending ZEC](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
 
-### 6. Ṣíṣe Àtúnṣe
-Nígbà tí owó náà bá ti dé, a ó ṣe àtúnyẹ̀wò ohun tó o béèrè nínú ìṣẹ́jú díẹ̀.
+### 6. Ìṣelọ́wọ́
+Tí owó náà bá ti dé, a ó ṣe àtúnyẹ̀wò ẹ̀bẹ́ rẹ láàárín ìṣẹ́jú díẹ̀.
 
-[Ìgbésẹ̀ 6 - Ṣíṣe ojúewé](/content-images/0-LgXuUVLVecqrUW5G-a894c7b2dd.webp)
+![Step 6 - Processing screen](/content-images/0-LgXuUVLVecqrUW5G-a894c7b2dd.webp)
 
-### 7. Ìmúṣẹ
-Hey... ìlà mi ti gba owó! O tún lè fìdí imeeli rẹ múlẹ̀ lásìkò ìsanwó kí o lè rí ìsọfúnni nípa imeeli nígbà tí ìnájà bá parí.
+### 7. Ìmúṣẹ Àsọtẹ́lẹ̀ Náà
+Hey... a ti fi owó kún ìlà mi! O tún lè fìdí imeeli rẹ múlẹ̀ nígbà tí o bá ń sanwó kí ó tó di pé wọ́n á sọ fún ọ nípa imeeli lẹ́yìn tí ìṣòwò náà bá parí.
 
-[Igbesẹ 7 - Ìmúṣẹ àṣeyọrí!](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
+![Step 7 - Successful top-up](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
 
 ---
 
-[Àfikún àwòrán ojúewé](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)
+![Additional screenshot](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)
 
-### Àwọn Ibi Mìíràn Tí O Lè Fi ZEC Ṣòfò
+### Àwọn Ibi Míì Tí O Lè Fi ZEC Ṣòfò Sí
 
-Recently, Zcash has witnessed several new application areas, making it even more practical for everyday use. Many online stores and merchants accept ZEC as a payment method for goods and services, especially those prioritizing privacy-friendly transactions.  
+Lẹ́nu àìpẹ́ yìí, Zcash ti rí àwọn àdúgbò ìmúṣẹ tuntun bíi mélòó kan tí ó mú kí o jẹ́ èyí tó wúlò fún lílò ojoojúmọ. Ọ̀pọ̀lọpọ̀ ilé-ìtajà orí ayélujára àti oníṣòwò gba ZEC gẹ́gẹ́ bí ọ̀nà owó sanwó fun ẹrù ati iṣẹ́, pàápàá jù lọ wọ́n ń fi ipò iwájú nínú ètò ìṣúnáṣe aláfẹ̀tọ́jú àṣírí. 
 
-Ti o ba ni iṣowo kan ati pe o fẹ bẹrẹ gbigba awọn sisanwo ZEC? Pẹlu [PayWithZash](https://paywithz.cash/), a lè fi ilé-iṣẹ́ rẹ kún orúkọ àwọn ilé-iṣé́ tó gba ZEC fún iṣẹ́ tí wọ́n ń ṣe.
+Bí o bá ní ilé-iṣẹ́ kan tí o sì fẹ́ bẹ̀rẹ̀ sí gba owó ZEC? [Fi Owó sanwo pẹ̀lú Zash](https://paywithz.cash/), a lè fi ilé-iṣẹ́ rẹ kún orúkọ àwọn iléeṣẹ́ tó gba ZEC fún iṣẹ́ tí wọ́n ń ṣe.

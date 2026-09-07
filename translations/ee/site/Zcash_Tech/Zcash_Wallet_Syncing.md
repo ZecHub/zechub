@@ -30,7 +30,7 @@ Bu blockchain la be enye posuxɔ gã aɖe si me aɖaka siwo wotu yɔ fũu. Ne ga
 
 ### Warp Sync ƒe wɔwɔme
 
-Warp sync nye YWallet ƒe nɔnɔme si doa kpo afɔɖeɖe siwo le domedome siwo nye decrypting kple dɔwɔwɔ le compact block ɖesiaɖe me, ti kpo yia emetsonu mamlɛtɔ gbɔ tẽ.
+Warp sync nye YWallet ƒe nɔnɔme si doa kpo afɔɖeɖe siwo le domedome siwo nye decrypting kple dɔwɔwɔ le compact block ɖesiaɖe me, ti kpo tẽe yi emetsonu mamlɛtɔ gbɔ.
 
 Be wòate ŋu awɔ esia la, ezãa akɔntabubu kple nya ɣaɣlawo tsɔ bua akɔnta le emetsonu mamlɛtɔ ŋu evɔ metoa afɔɖeɖe ɖesiaɖe me o.
 
@@ -38,13 +38,15 @@ Warp sync ate ​​ŋu awɔ dɔ tso block akpe geɖe ŋu le sɛkɛnd ɖeka me, 
 
 Le afɔɖeɖe-ti-ti-mɔnu sia ɖeɖeko megbe la, YWallet ate ŋu awɔ dɔ tso blɔka geɖe ŋu le ɣeyiɣi ɖeka me, ama agbaa ɖe wò xɔtunu siwo li la dzi be wòana dɔwɔwɔa nawɔ kabakaba wu.
 
-Xlẽ Nu Geɖe le [Warp Sync](https://ywallet.app/warp/)
+Xlẽ Nu Geɖe tso eŋu [Warp Sync ƒe wɔwɔme](https://ywallet.app/warp/)
+
+> Woɖɔ warp sync le afisia be enye syncing mɔnu. Ywallet ŋutɔ hã megakpɔa edzi o eye womawɔe yeyee na Ironwood o, eyata menye gakotoku si woatsɔ ade eme egbea o.
 
 ### Zã-hafi-wɔ ɖekawɔwɔ
 
 Spend-before-sync nye nu yeye aɖe le Zcash Mobile Wallet SDK V2 me si na be ezãlawo te ŋu zãa ga enumake ne woʋu woƒe gakotoku, evɔ womalala gakotokua ƒe ɖekawɔwɔ blibo o. Nɔnɔme sia nana woke ɖe gakotokua ƒe ga si woate ŋu azã ŋu kabakaba eye wònaa ezãla ƒe nuteƒekpɔkpɔ nyona ɖe edzi.
 
-Spend-before-sync wɔa dɔ to compact-blocks synchronization algorithm zazã me si wɔa blocks tso lightwalletd server la gbɔ le ɖoɖo si menye linear o nu. Esia fia be le esi teƒe be gakotokuwo nalala be woawɔ dɔ tso block ɖeka ŋu bliboe hafi ayi edzi la, woate ŋu azã ŋkuɖodzinu kple dɔwɔwɔ ƒe ŋusẽ si sɔ gbɔ vie atsɔ akpɔ blockchain la ƒe akpa vovovowo. Zi geɖe la, ewɔa scan ɖe range vovovowo dzi, dia asitsatsa yeyewo esime wole block xoxoawo ƒe kɔpi wɔm hele dɔ wɔm tso wo ŋu. Ne woke ɖe gagbalẽ aɖe si womezã nyitsɔ laa o ŋu la, woana wòanɔ anyi enumake.
+Spend-before-sync wɔa dɔ to compact-blocks synchronization algorithm zazã me si wɔa blocks tso lightwalletd server la gbɔ le ɖoɖo si menye linear o nu. Esia fia be le esi teƒe be gakotokuwo nalala be woawɔ dɔ tso block ɖeka ŋu bliboe hafi ayi edzi la, woate ŋu azã ŋkuɖodzinu kple dɔwɔwɔ ƒe ŋusẽ si sɔ gbɔ vie wu atsɔ adzro blockchain la ƒe akpa vovovowo me. Zi geɖe la, ewɔa scan ɖe range vovovowo dzi, dia asitsatsa yeyewo esime wole block xoxoawo ƒe kɔpi wɔm hele dɔ wɔm tso wo ŋu. Ne woke ɖe gagbalẽ aɖe si womezã nyitsɔ laa o ŋu la, woana wòanɔ anyi enumake.
 
 <a href="">
     <img src="/content-images/363d08df-b7b7-461b-a386-251d9ad702ca-a857cd8385.webp" alt="" width="140" height="150"/>
@@ -54,15 +56,15 @@ Spend-before-sync wɔa dɔ to compact-blocks synchronization algorithm zazã me 
 
 Zecwallet ƒe ƒuƒoƒoae to Blaze sync vɛ, eye wònye synchronization algorithm na kekeli gakotoku siwo léa ŋku ɖe blockchain la ŋu yi megbe, dzea egɔme tso block kɔkɔtɔ, yeyetɔ kekeake dzi eye wòwɔa dɔ yi megbe.
 
-Esia wɔnɛ be gakotokua te ŋu dia nuŋlɔɖi siwo wozã hafi xɔ wo, evɔ wònaa nuŋlɔɖi siwo womezã tsã o la nɔa anyi evɔ malala be woawɔ ɖekawɔwɔ bliboa ƒe ɖoɖoa nawu enu o.
+Esia wɔnɛ be gakotokua te ŋu dia nuŋlɔɖi siwo wozã hafi xɔ wo, evɔ wònaa nuŋlɔɖi siwo womezã tsã o la nɔa anyi evɔ melala be woawɔ ɖekawɔwɔ bliboa ƒe ɖoɖoa nawu enu o.
 
 Gakpe ɖe eŋu la, ezãa Out-of-Order Sync to sync la ƒe akpawo ɖeɖeɖa tso wo nɔewo gbɔ me — blocks ƒe kɔpi wɔwɔ, trial decryptions wɔwɔ, kple ɖasefowo ƒe asitɔtrɔ — kple wo ŋudɔwɔwɔ le ɣeyiɣi ɖeka me. Esia xɔa ŋkuɖodzinu kple CPU nunɔamesi geɖe gake edzia sync ƒe duƒuƒu ɖe edzi X5.
 
 ### DAGSync ƒe dɔwɔwɔ
 
-DAGSync nye ɖoɖowɔwɔ ƒe mɔnu si wodo ɖa si ƒe taɖodzinue nye be yeana Zcash ƒe gakotoku siwo ŋu wokpɔ ta na ƒe zãla ƒe nuteƒekpɔkpɔ nanyo ɖe edzi to wɔwɔ ɖekae kabakaba me.
+DAGSync nye ɖoɖowɔwɔ ƒe mɔnu si wodo ɖa si ƒe taɖodzinue nye be yeana Zcash ƒe gakotoku siwo ŋu wokpɔ ta na ƒe zãla ƒe nuteƒekpɔkpɔ nanyo ɖe edzi to ɖoɖowɔwɔ kabakaba me.
 
-Ezãa [Directed Acyclic Graph (DAG) .](https://words.str4d.xyz/dagsync-graph-aware-zcash-wallets/) be woatsɔ atsi tre ɖi na nusiwo dzi woanɔ te ɖo le nuŋlɔɖiwo, ɖasefowo, kple nullifiers dome le Zcash gakotoku me.
+Ezãa a [Acyclic Graph si Wofia Mɔe (DAG) .](https://words.str4d.xyz/dagsync-graph-aware-zcash-wallets/) be woatsɔ atsi tre ɖi na nusiwo dzi woanɔ te ɖo le nuŋlɔɖiwo, ɖasefowo, kple nullifiers dome le Zcash gakotoku me.
 
 DAG nye nyatakaka ƒe ɖoɖo si me nugbɔ kple nugbɔ le, afisi nugbɔ ɖesiaɖe ƒe mɔfiame le si fia ƒomedodo si le nugbɔ eve dome. DAG mekpɔa tsatsam o, si fia be mɔ aɖeke meli si dzi woato adze egɔme tso node aɖe dzi eye woakplɔ goawo ɖo atrɔ ayi node ma ke gbɔ o.
 
@@ -72,22 +74,22 @@ DAG nye nyatakaka ƒe ɖoɖo si me nugbɔ kple nugbɔ le, afisi nugbɔ ɖesiaɖe
 
 ## Nusiwo wòfia ŋutɔŋutɔ
 
-Enyo be míade dzesii be mɔnu siawo katã ƒe taɖodzinue nye be yewoakpɔ nyabiase siwo Zcash Security fɔ ɖe te le eƒe nyatakaka si wòŋlɔ ɖe [Scalable Private Messaging](https://zecsec.com/posts/scalable-private-money-needs-scalable-private-messaging/) kple eƒe ƒomedodo kple ame ŋutɔ ƒe fexexe ƒe ɖoɖowo. Ame aɖewo gɔ̃ hã ɖea afɔ bubu si nye be woaɖe memo nyatakakawo katã tso serverwo dzi, negbe nyatakaka siwo ku ɖe adrɛs aɖe ko ŋu koe mele eme o, si wɔnɛ be ame ŋutɔ ƒe nyatakakawo dzina ɖe edzi eye wògblẽa nunɔamesi bubu vi aɖe ɖe edzi.
+Enyo be míade dzesii be mɔnu siawo katã ƒe taɖodzinue nye be yewoakpɔ nyabiase siwo Zcash Security fɔ ɖe te le eƒe nyatakaka si wòŋlɔ ɖe [Gbedasɛ Siwo Woate Ŋu Akeke Ðe Edzi](https://zecsec.com/posts/scalable-private-money-needs-scalable-private-messaging/) kple eƒe ƒomedodo kple ame ŋutɔ ƒe fexexe ƒe ɖoɖowo. Ame aɖewo gɔ̃ hã ɖea afɔ bubu si nye be woaɖe memo nyatakakawo katã tso serverwo dzi, negbe nyatakaka siwo ku ɖe adrɛs aɖe ko ŋu koe mele eme o, si wɔnɛ be ame ŋutɔ ƒe nyatakakawo dzina ɖe edzi eye wògblẽa nunɔamesi bubu vi aɖe ɖe edzi.
 
-Azɔ hã, Zcash Foundation nɔ ŋku lém ɖe mɔnu bubuwo ŋu be woatsɔ ana gakotoku siwo me kɔ ƒe dɔwɔwɔ nanyo ɖe edzi. Aleae wòle le [Oblivious Message Retrieval (OMR) .](https://zfnd.org/oblivious-message-retrieval/), xɔtuɖoɖo aɖe si ŋu gɔmeɖoanyia nɔ nu srɔ̃m tsoe “be yeakpɔe ɖa be ena egbɔkpɔnu aɖe si ate ŋu akpɔ dɔwɔwɔ ƒe kuxi siwo do mo ɖa nyitsɔ laa siwo gblẽ nu le Zcash gakotoku zãlawo ŋu hã.”
+Azɔ hã, Zcash Foundation nɔ ŋku lém ɖe mɔnu bubuwo ŋu be woatsɔ ana gakotoku siwo me kɔ ƒe dɔwɔwɔ nanyo ɖe edzi. Aleae wòle le [Gbedasɛwo Xɔxɔ (OMR) .](https://zfnd.org/oblivious-message-retrieval/), xɔtuɖoɖo aɖe si ŋu gɔmeɖoanyia nɔ nu srɔ̃m tsoe “be yeakpɔe ɖa be ate ŋu akpɔ dɔwɔwɔ ƒe kuxi siwo do mo ɖa nyitsɔ laa siwo gblẽ nu le Zcash gakotoku zãlawo ŋu gbɔ hã.”
 
-## Vodada Siwo Wowɔna Zi geɖe
+## Vodada Siwo Bɔ
 
-**Ne míetsɔe be lightwalletd server la nya wò balance.** Compact blocks koe server la naa; wò gakotokua tsɔa wò ŋutɔ wò safuiwo ɖea wo gɔme heɖea wo gɔme le mia gbɔ.
+**Ne míetsɔe be lightwalletd server la nya wò balance.** Compact blocks koe server la naa; wò gakotokua ɖea wo gɔme heɖea wo gɔme le mia gbɔ kple wò ŋutɔ wò safuiwo.
 
-**Stopping sync too early.** Mɔnu aɖewo naa ga si woate ŋu azã nyitsɔ laa la nɔa anyi hafi sync bliboa wu enu, gake ŋutinya xoxowo kple nuŋlɔɖiwo ate ŋu anɔ edzi yim kokoko.
+**Stopping sync too early.** Mɔnu aɖewo naa ga si woate ŋu azã nyitsɔ laa la li hafi sync bliboa wu enu, gake ŋutinya xoxowo kple nuŋlɔɖiwo ate ŋu anɔ edzi yim kokoko.
 
-**Zcash sync tsɔtsɔ sɔ kple transparent-chain sync tẽ.** Mɔ si le blewu ateŋu anye ga si woatsɔ akpɔ ame ŋutɔ ƒe nyawo ta, ke menye vodadae o — gakotokua le dɔ wɔm si dutoƒo-gakui ƒe dɔwɔƒe awɔ ne menye nenema o la, wò akɔnta xexlẽ gaglãa.
+**Zcash sync tsɔtsɔ sɔ kple transparent-chain sync tẽ.** Mɔ si le blewu ate ŋu anye ga si woatsɔ akpɔ ame ŋutɔ ƒe nyawo ta, ke menye vodadae o — gakotokua le dɔ si dutoƒo-gakui dɔwɔƒe awɔ ne menye nenema o la, wò akɔnta xexlẽ gaglãa la wɔm.
 
 
 ## Axa Siwo Do Ƒome Kplii
 
-- [Kekeli ƒe Nodes](/zcash-tech/lightwallet-nodes) — lightwalletd infrastructure si dzi kekeli gakotokuwo ɖoa ŋu ɖo.
-- [Nukpɔkpɔ ƒe Safuiwo](/zcash-tech/viewing-keys) — safui siwo gakotokuwo zãna tsɔ dea dzesi woawo ŋutɔ ƒe nuŋlɔɖiwo heɖea wo gɔme.
+- [Lightwallet ƒe Nutowo](/zcash-tech/lightwallet-nodes) — lightwalletd infrastructure si dzi kekeli gakotokuwo ɖoa ŋu ɖo.
+- [Safuiwo Kpɔkpɔ](/zcash-tech/viewing-keys) — safui siwo gakotokuwo zãna tsɔ dea dzesi woawo ŋutɔ ƒe nuŋlɔɖiwo heɖea wo gɔme.
 - [Atadi ƒe Sync](/zcash-tech/pepper-sync) — mɔnu bubu si dzi woato awɔ Zcash gakotoku ƒe wɔwɔ ɖekae.
-- [FROST](/zcash-tech/frost) — woma asidede agbalẽ te ƒe ŋusẽ na ZEC si wokpɔ ta na.
+- [FROST ƑE NUÐEÐEŊUTI](/zcash-tech/frost) — woma asidede agbalẽ te ƒe ŋusẽ na ZEC si wokpɔ ta na.

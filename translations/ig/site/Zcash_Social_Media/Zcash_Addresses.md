@@ -1,80 +1,80 @@
-# Ihe Ọmụma Na-enweghị Ihe Ọ Bụla: Mmekọrịta Transparent vs Shielded & Unified Addresses
+# Ihe Ọmụma Na-adịghị Eke: Mmekọrịta Transparent vs Shielded & Adreesị Unified
 
-**Series:** Zero to Zero Knowledge
+** Usoro:** Ọmụma efu ruo na Zero.
 
-If you are learning about Zcash for the first time you will find there are two types of transactions available: **Transparent** and **Shielded**.  
+Ọ bụrụ na ị bụ onye mbụ mụta banyere Zcash, ị ga-ahụ ụdị azụmahịa abụọ dị: ** Transparent** and ** Shielded. 
 
-Taa, anyị ga-amụta maka ha & kpuchie otu n'ime atụmatụ ọhụrụ na #Zcash ecosystem, **Unified Addresses**.
+Taa, anyị ga-amụta maka ha ma kpuchie otu n'ime ihe ọhụrụ dị na #Zcash ecosystem, **Unified Addresses**.
 
 ---
 
-## Transparent vs. Shielded Azụmahịa
+## Transparent vs. Shielded azụmahịa
 
-- **Transparent Transactions** na-eji **t-adreesị** (Base58 encoded). Ihe niile na-ahụ anya n'ihu ọha - dị ka Bitcoin. 
-- **Shielded Transactions** use addresses encoded for the **Sapling** or **Orchard** pools. These hide sender, receiver, and amount using zero-knowledge proofs.
+- **Transparent Transactions** na-eji **t adreesị (Base58 encoded). Ihe niile bụ ihe ọha mmadụ nwere ike ịhụ - dị ka Bitcoin. 
+- **Shielded Transactions** na-eji adreesị ezoro ezo maka ọdọ mmiri Sapling ma ọ bụ Orchard. Ndị a zoro onye zitere, nnata, yana ego site na iji ihe akaebe efu.
 
-**Shielded Transaction** na-ezo aka na azụmahịa ọ bụla nwere adreesị ezoro ezo maka ọdọ mmiri Sapling/Orchard.
+**Shielded Transaction** na-ezo aka n'ihe ọ bụla azụmahịa nwere adreesị ezoro ezo maka Sapling / Orchard ọdọ mmiri.
 
-[Nkọwapụta Transparent vs Shielded](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
+![Transparent vs Shielded intro](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
 
-A haziri Unified Addresses (UA) iji mee ka azụmahịa ndị e chebere ma ọ bụ ndị doro anya banye n'otu adreesị.
+**Aha Unified Addresses (UA)** e mere iji mee ka azụmahịa ndị a na-ekpuchi ma ọ bụ nke doro anya banye n'otu adreesị.
 
 ---
 
 ## Ụdị Adreesị na Zcash
 
-E nwere ụdị adreesị atọ eji eme ihe:
+E nwere ụdị adreesị atọ a na-eji eme ihe:
 
-1. **(T) N'ụzọ doro anya**  Base58 
+1. **(T) Ihe na-acha ọcha**  Base58 
 2. **(Z) Sapling**  Bech32 
 3. **(UA) Unified Address**  Bech32m 
 
-Ọnụ ọgụgụ nke ihe odide (na ya mere ogo QR code) na-abawanye na ụdị ọ bụla.
+Ọnụ ọgụgụ nke ihe odide (na ya mere ogo QR code) na-abawanye site n'ụdị ọ bụla.
 
-[Nkọwa ụdị adreesị](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
+![Address types comparison](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
 
-![Nkọwapụta nha QR](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
+![QR code size comparison](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
 
 ---
 
-## Otú Adreesị Ndị Dị n'Otu Si Arụ Ọrụ
+## Otú Adreesị Ndị E Jikọtara Ọnụ Si Arụ Ọrụ
 
-Adreesị na igodo na-ekpuchi dị ka usoro byte (** Raw Encoding**). 
-A **Receiver Encoding** na-agụnye ozi niile dị mkpa iji nyefee ihe onwunwe site na iji otu protocol.
+Adreesị na igodo bụ encoded dị ka a byte usoro (** Raw Encoding **). 
+A **Receiver Encoding** na-agụnye ozi niile dị mkpa iji nyefee ihe onwunwe site n'iji usoro iwu akọwapụtara.
 
-Nkọwapụta nke Unified Address bụ ngwakọta nke encodings (typecode, ogologo, addr) nke ndị nnata:
+Ihe ntinye nke Unified Address bụ ngwakọta nke encodings (typecode, ogologo, addr) nke ndị na-anata:
 
 - UA: `0x03`  
 - Sapling: `0x02`  
 - Ihe na-ekpuchi: `0x01`  
 
-**Dị mkpa**: A ga-enwerịrị **ọ dịkarịa ala otu adreesị akwụ ụgwọ echedoro** na UA ọ bụla. (A naghị akwado adreesì akwụkwọ ntuziaka ọzọ mgbe nkwalite Canopy.)
+**Mkpa**: A ga-enwerịrị ma ọ dịkarịa ala otu adreesị akwụ ụgwọ echekwara na UA niile. (A naghị akwadozi adreesì ndị a kụrụ n'elu mgbe nkwalite Canopy.)
 
-![Ọdịdị koodu UA](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
+![UA encoding structure](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
 
-Nkọwa zuru ezu: **[ZIP-316: Unified Addresses](https://zips.z.cash/zip-0316)**
+Nkọwa zuru ezu: **[ZIP-316: Adreesị Unified](https://zips.z.cash/zip-0316)**
 
 ---
 
-## Uru Ndị Dị n'Inwe Adreesị Ndị E Jikọtara Ọnụ
+## Uru Ndị Dị n'Inwe Adreesị Ịnọgide Na-enwe
 
-- ** Mfe maka mgbanwe ** - Ha nwere ike ugbu a na-akwado echebe ego / withdrawals ọzọ n'ụzọ dị nchebe. 
-- ** Ọdịnihu-àmà ** - Enwere ike ịgbakwunye ọdọ mmiri ọhụrụ echekwara na-enweghị imebi obere akpa. 
-- **Shielded-by-Default** - Onye ọ bụla UA nwere ma ọ dịkarịa ala otu adreesị ezoro ezo, yabụ na nzuzo dị mgbe niile.
+- **Mfe maka mgbanwe** - Ha nwere ike ugbu a na-akwado echebe ego / withdrawals ọzọ n'ụzọ dị nchebe. 
+- ** Ọdịnihu-àmà** - Enwere ike ịgbakwunye ọdọ mmiri ọhụrụ echekwara na enweghị agbaji wallets. 
+- **Shielded-by-Default** - Onye ọ bụla UA nwere ma ọ dịkarịa ala otu adreesị echekwara, yabụ na nzuzo dị mgbe niile.
 
 Nke a bụ mgbanwe dị mkpa nke na-enyere ọtụtụ ZEC aka ịkwaga n'ime ọdọ mmiri ahụ.
 
 ---
 
-## Mmekọrịta & Ọrụ Orchard
+## Mgbasa Ozi & Ọrụ nke Orchard
 
 Orchard webatara echiche ọhụrụ a kpọrọ **Actions**:
 
-- Ha na-ebelata leakage nke metadata site na iji ** otu arịlịka ** maka niile Actions na a azụmahịa. 
-- Ha jikọtara ubi nke (V4) mmefu + mmepụta n'ime otu nkwa uru. 
-- Nke a na-enyere arụmọrụ optimizations nke Halo2 àmà usoro.
+- Ha na-ebelata leakage nke metadata site n'iji ** otu arịlịka ** maka niile Actions ke a azụmahịa. 
+- Ha jikọtara ubi nke (V4) mmefu + Mmepụta n'ime otu nkwa uru. 
+- Nke a na-enye ohere arụmọrụ optimizations nke Halo2 àmà usoro.
 
-Daira kọwara ọnọdụ Anchor (zcon3):
+Daira na-akọwa ọnọdụ Anchor (zcon3):
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -89,32 +89,31 @@ Daira kọwara ọnọdụ Anchor (zcon3):
 
 ---
 
-## Ịkwanyere Ihe Ndị Dị Oké Ọnụ Ahịa Ùgwù na Inwe Nzuzo
+## Ịdị Nwayọọ n'Ihe Banyere Ụkpụrụ na Nzuzo nke Onwe Onye
 
-N'ọnọdụ ụfọdụ (dịka azụmahịa cross-pool) ego nwere ike ịhụ onye na-ekiri n'èzí. Otú ọ dị, `valueBalanceSapling` na `valueBalanceOrchard` jiri ** homomorphic nkwa ** iji gosi ngụkọta ZEC na echekwara ọdọ mmiri na gbochie counterfeiting.
+N'ọnọdụ ụfọdụ (dịka azụmahịa cross-pool) ego nwere ike ịhụ onye na - ekiri ihe n'èzí. Otú ọ dị, `valueBalanceSapling` na nke a: `valueBalanceOrchard` jiri ** homomorphic nkwa** iji gosi ngụkọta ZEC na echekwara ọdọ mmiri ma gbochie counterfeiting.
 
-Gụkwuo: [Nchebe megide counterfeiting na Shielded ọdọ mmiri](https://electriccoin.co/blog/defense-against-counterfeiting-in-shielded-pools/)
-
----
-
-## Mmezi Ndị A Ga-eme n'Ọdịnihu
-
-Ndị otu ECC na-arụ ọrụ na usoro RPC ọhụrụ na `zcashd` (na-anọchi `z_sendmany`) nke ga-eme ka ndị ọrụ hụchalụ ma nabata / jụ azụmahịa a tụrụ aro dabere na njirimara nzuzo ya.
+Gụkwuo: [Nchebe Megide Ịghọ Agha Ụgha n'Ebe Ndị E Chebere Maka Ọdachi](https://electriccoin.co/blog/defense-against-counterfeiting-in-shielded-pools/)
 
 ---
 
-## Ntụziaka
+## Ihe Ndị A Ga-eme Ka Ha Dịkwuo Mma n'Ọdịnihu
 
-Gbalịa ụdị ọhụrụ nke YWallet! 
-Ọ na-egosi "Atụmatụ azụmahịa" na ihuenyo tupu ị pịa zipu, na-enyere gị aka ime nhọrọ ndị ọzọ nkeonwe.
+Ndị otu ECC na-arụ ọrụ n'usoro RPC ọhụrụ. `zcashd` (na-anọchi anya ya) `z_sendmany`) nke ga-eme ka ndị ọrụ hụchalụ ma nabata / jụ azụmahịa a tụrụ aro dabere na njirimara nzuzo ya.
+
+---
+
+## Nkwado
+
+This thread originally pointed at **Ywallet**, for the transaction plan it showed before you hit send. Ywallet is no longer maintained and will not be updated for Ironwood, so it can no longer follow the chain. Pick a maintained wallet from the [Akpa ego](https://zechub.wiki/wallets) peeji kama, na-ahọrọ otu nke gwara gị ihe a azụmahịa ga-ekpughe tupu ọ pụọ.
 
 Akụkọ magburu onwe ya banyere nzuzo azụmahịa: https://medium.com/@hanh.huynh/
 
 ---
 
-**Original Thread by ZecHub (@ZecHub) ** 
+**Original Thread nke ZecHub (@ZecHub) dere** 
 https://x.com/ZecHub/status/1628498645627666432
 
 ---
 
-*A chịkọtara peeji a site na isi mmalite Zero to Zero Knowledge maka wiki ZecHub.*
+*Edepụtara peeji a site na isi mmalite Zero to Zero Knowledge maka wiki ZecHub.*

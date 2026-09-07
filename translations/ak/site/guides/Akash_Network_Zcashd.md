@@ -51,7 +51,7 @@ zcashd node a edi mũ a ɛbɛma:
 
 ### **Nea ɛho hia: Port Mapping wɔ Akash**
 
-Sɛ woda port bi adi wɔ Akash so (e.g., port 8233 ma zcashd P2P) a, **ENNYƐ saa port pɔtee no** wɔ ɔdemafoɔ no baguam IP so. Mmom, ɔdemafoɔ no de random high port (te sɛ 31234 anaa 42567) ma na ɔde reverse-proxies kɔ wo container no port 8233.
+Sɛ woda port bi adi wɔ Akash so (e.g., port 8233 ma zcashd P2P) a, **ƐNYƐ saa port pɔtee no** wɔ ɔdemafoɔ no baguam IP so. Mmom, ɔdemafoɔ no de random high port (te sɛ 31234 anaa 42567) ma na ɔde reverse-proxies kɔ wo container no port 8233.
 
 Eyi nam design so - providers run deployments pii, na sɛ obiara bɔ mmɔden sɛ ɔde port 8233 bedi dwuma tẽẽ a, anka wobenya ntawntawdi.
 
@@ -61,7 +61,7 @@ Eyi nam design so - providers run deployments pii, na sɛ obiara bɔ mmɔden sɛ
 
 -> Akash ma wo URI te sɛ *provider.com:31234* .
 
--> Zcash nodes afoforo ka wo ho wɔ *provider.com:31234*
+-> Zcash nodes afoforo kɔ wo nkyɛn wɔ *provider.com:31234*
 
 -> Wo container no mu no, zcashd da so ara tie wɔ 8233 so
 
@@ -134,7 +134,7 @@ Klik **"Approve"** na fa wo nsa hyɛ asɛm no ase wɔ Keplr mu.
 
 -> **Ɔsram biara sika a wɔabu ho akontaa**
 
--> **Ɔdemafoɔ ho nsɛm** (bere a wɔde yɛ adwuma, ɔmantam, ne nea ɛkeka ho)
+-> **Ɔdemafo ho nsɛm** (bere a wɔde yɛ adwuma, ɔmantam, ne nea ɛkeka ho)
 
 
 **Npaw nea ne bo yɛ mmerɛw kɛkɛ.** Hwɛ:
@@ -263,7 +263,7 @@ SDL no default yɛ Mainnet. Sɛ wode Testnet bedi dwuma mmom a:
 
 RPC yɛ adwuma default so ma ahobammɔ. Sɛnea ɛbɛyɛ a ebetumi ayɛ adwuma no:
 
-**CRITICAL: Set credentials a ɛyɛ den.** zcashd RPC de ɔdefoɔ din/asɛmfua fa HTTP so (ɛnyɛ HTTPS). Sɛ wote ahobanbɔ ho nkyerɛkyerɛmu ase nkutoo a, da RPC adi.
+**CRITICAL: Set credentials a ɛyɛ den.** zcashd RPC de ɔdefoɔ din/asɛmfua fa HTTP so (ɛnyɛ HTTPS). Sɛ wote ahobammɔ ho nkyerɛkyerɛmu no ase nkutoo a, da RPC adi.
 
 -> Uncomment wɔ *env* ɔfa no mu:
 
@@ -304,7 +304,7 @@ RPC yɛ adwuma default so ma ahobammɔ. Sɛnea ɛbɛyɛ a ebetumi ayɛ adwuma no
 
 ### Ma Nkitahodi Index no nyɛ adwuma
 
-Transaction index ma wo kwan ma wobisa transaction biara denam ne ID so denam RPC so. Ɔde nneɛma pii a wɔkora so di dwuma (~ 20% nkɔanim).
+Transaction index ma wo kwan ma wo bisa asɛm biara denam ne ID so denam RPC so. Ɔde nneɛma pii a wɔkora so di dwuma (~ 20% nkɔanim).
 
 Uncomment wɔ *env* mu:
 
@@ -479,7 +479,7 @@ Ebia nea ɔde ma no wɔ network ho nsɛm anaasɛ bandwidth a ɛyɛ brɛoo. Mpɛn
 
 -> Hwɛ sɛ wode port a ɛfata redi dwuma (8232 ma mainnet, 18232 ma testnet)
 
--> Kae sɛ ports na Akash na ɛyɛ map - fa URI no di dwuma fi wo deployment no mu, ɛnyɛ 8232 tẽẽ
+-> Kae sɛ Akash na ɛyɛ ports map - fa URI no di dwuma fi wo deployment no mu, ɛnyɛ 8232 tẽẽ
 
 
 ## Ka a Wɔbɔ ho Nhwɛso
@@ -499,7 +499,7 @@ Sɛ wo balance no sua a, Akash bɛ auto-close wo deployment no. **Top up wo wall
 
 -> **Lower CPU/memory** sɛ wo nhia fast sync a
 
--> **Paw wɔn a wɔde ma a ne bo yɛ mmerɛw** (ɛnyɛ nyansa bere nyinaa - bere a wɔde yɛ adwuma ho hia)
+-> **Paw wɔn a wɔde ma a ne bo yɛ mmerɛw** (ɛnyɛ bere nyinaa na nyansa wom - bere a wɔde yɛ adwuma ho hia)
 
 -> **Fa USDC di dwuma mmom sen AKT** sɛ AKT bo yɛ nea ɛsakra (ɛhwehwɛ sɛ SDL bo sesa)
 
@@ -518,9 +518,9 @@ Sɛ wo balance no sua a, Akash bɛ auto-close wo deployment no. **Top up wo wall
 
 ## Nsɛm a Etwa To
 
-- **Persistent storage matters.** Mma ntwa *persistent: nokware* anaa fa *beta2* adesua no nni dwuma. Fa *beta3* di dwuma.
+- **Persistent storage ho hia.** Mfa *persistent: nokware* anaa fa *beta2* adesua no nni dwuma. Fa *beta3* di dwuma.
 - **Mfiase sync no yɛ brɛoo.** Nya abotare. Eyi yɛ ade a ɛfata ma blockchain nodes.
 - **Ma wo sika kotoku no sie.** Deployments auto-close bere a AKT asa wo.
 - **Backups arent automatic.** Sɛ wo dwene data no ho a, fa no sɛ ebetumi ayera na yɛ nhyehyɛe sɛnea ɛfata.
-- **RPC ahobanbɔ ho hia.** Mfa RPC nkɔ intanɛt so a wonni ahobanbɔ ho nhyehyɛe a ɛfata.
+- **RPC ahobanbɔ ho hia.** Mfa RPC nkɔ intanɛt so a wonni ahobammɔ ho nhyehyɛe a ɛfata.
 - **zcash-params yɛ cached.** Di kan tu mmirika downloads ~2GB cryptographic parameters. Eyi yɛ ade a ɛfata na ɛba pɛnkoro pɛ.

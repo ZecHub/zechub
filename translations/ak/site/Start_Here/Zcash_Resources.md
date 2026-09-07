@@ -10,9 +10,9 @@ Nneɛma bi wɔ hɔ a ɛboa wɔn a wɔde di dwuma no ma wɔte Zcash ase.
 
 Zcash Media yɛ ahyehyɛdeɛ a ɛde ne ho a ɛyɛ nkyerɛkyerɛ ho nsɛm a ɛfa Zcash ho. Wɔn video a edi kan, "Wɔasi sɛ wɔde besiesie Bitcoin's Fatal Flaw, Dɛn ne Zcash (ZEC)?", yɛ nnianim asɛm kɛse ma Zcash.
 
-**[Twitter so na ɔkyerɛwee](https://x.com)**
+**[X (kan no na wɔfrɛ no Twitter) .](https://x.com)**
 
-Twitter yɛ de facto nkitahodi beae ma Zcash mpɔtam hɔfo, ne cryptocurrency ahunmu a ɛtrɛw nso. Ɛyɛ beae pa a wobɛnya pulse check wɔ nneɛma nyinaa Zcash, na nso di mpɔtam hɔfoɔ a wɔagye din akyi. [Nwoma bi a wɔakyerɛw](https://www.notion.so/zechub/Social-Media-Links-05b9df645af54de7a1989d9c4ccc4d05) a ɛkyerɛ akontaabu ahorow a ɛwɔ soro a ɛsɛ sɛ wodi akyi.
+Twitter yɛ de facto nkitahodi beae ma Zcash mpɔtam hɔfo, ne cryptocurrency ahunmu a ɛtrɛw nso. Ɛyɛ beae pa a wobɛnya pulse check wɔ nneɛma nyinaa Zcash, na nso di mpɔtam hɔfoɔ a wɔagye din akyi. Ɛha na a [nwoma](https://www.notion.so/zechub/Social-Media-Links-05b9df645af54de7a1989d9c4ccc4d05) a ɛkyerɛ akontaabu ahorow a ɛwɔ soro a ɛsɛ sɛ wodi akyi.
 
 **[Zcash Mpɔtam hɔ](https://www.zcashcommunity.com/)**
 
@@ -24,24 +24,22 @@ Sɛnea yɛaka wɔ ɔdefoɔ akwankyerɛ foforɔ no mu no, Zcash forum yɛ beaeɛ 
 
 **[Z.sika a wɔde yɛ adwuma](https://z.cash/)**
 
-Z.cash is Zcash's main website. Ɛde Zcash mu nsɛm ne nkrataa ma wɔn a wɔde di dwuma ahorow pii na ɛma wɔn a wɔde di dwuma foforo no kwan ma wɔde wɔn ho hyɛ mfiridwuma mu nkyerɛkyerɛmu a atwa Zcash ho ahyia no mu kɔ akyiri.
+Z.cash yɛ Zcash wɛbsaet titiriw. Ɛde Zcash mu nsɛm ne nkrataa ma wɔn a wɔde di dwuma ahorow pii na ɛma wɔn a wɔde di dwuma foforo no kwan ma wɔde wɔn ho hyɛ mfiridwuma mu nkyerɛkyerɛmu a atwa Zcash ho ahyia no mu kɔ akyiri.
 
 **[Zcash Github na ɛyɛ adwuma](https://github.com/zcash/zcash)**
 
-Got coding chops na wopɛ sɛ wode wo ho hyɛ mu kɔ akyiri wɔ technical fã a Zcash? Zcash Github Repo no yɛ adekorabea ma [zcashd](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet), Zcash node a edi kan a wɔde di dwuma.
-
-> zcashd → Zebra + Zallet — https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet
+Got coding chops na wopɛ sɛ wode wo ho hyɛ mu kɔ akyiri wɔ technical fã a Zcash? Zcash Github Repo no yɛ akoraeɛ ma zcashd, Zcash node dwumadie a ɛdi kan. zcashd duu ne automatic end-of-support halt wɔ 18 July 2026 na wɔnhwɛ so bio, na download krataafa a saa nsɛm yi de link kɔ no no, wɔmfa nni dwuma bio. Stack a wɔhwɛ so no yɛ [Zebra](https://github.com/ZcashFoundation/zebra) ma node no ne [Zallet na ɔkyerɛwee](https://github.com/zcash/zallet) ma sika kotoku no — hwɛ [zcashd to Zebra ne Zallet atutra akwankyerɛ](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 **[Zcash Foundation Github](https://github.com/ZcashFoundation)**
 
-GitHub akoraeɛ foforɔ a ɛgye Zcash Foundation nnwuma, a [zebra](https://github.com/ZcashFoundation/zebra), Zcash node a wɔde di dwuma wɔ Rust mu.
+GitHub akoraeɛ foforɔ a ɛgye Zcash Foundation no nnwuma, a nea ɛka ho ne [ɔsebɔ](https://github.com/ZcashFoundation/zebra), Zcash node a wɔde di dwuma wɔ Rust mu.
 
-**[Halo2 na ɔkyerɛwee](https://zcash.github.io/halo2/index.html)**
+**[Halo2](https://zcash.github.io/halo2/index.html)**
 
 Nsusuwii ahorow a ɛwɔ nimdeɛ a enni adanse nhyehyɛe ahorow akyi.
 
 **[Zcash RPC Nsɛm a Wɔakyerɛw](https://zcash.github.io/rpc/)**
 
-Kyerɛw ahyɛde ahorow a ɛwɔ hɔ mprempren nyinaa ma zcashd.
+RPC ahyɛdeɛ zcashd a wɔada no adi no din. Sɛ wopɛ sika kotoku RPC ani a wɔahwɛ so yiye a, hwɛ [Zallet Nhoma no](https://zcash.github.io/zallet/).
 
 _Eyi yɛ krataa a wonwiei_ .

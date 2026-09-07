@@ -4,7 +4,7 @@
 
 # FROST & Kiwango cha Kuweka kwa ZEC Shielded
 
-> Kwa maelezo kamili ya cryptographic wa itifaki FROST, angalia [FROST ukurasa kiufundi](FROST.md).
+> Kwa maelezo kamili ya cryptographic wa itifaki FROST, angalia makala. [Ukurasa wa kiufundi FROST](FROST.md).
 
 Ulinzi wa kizingiti cha FROST unaendelea kuja katika mazungumzo ya Zcash  ilikuwa wimbo bora kwenye ZecHub Hackathon 2026  lakini dhana hiyo haijaelezewa kila wakati kwa lugha rahisi. Ukurasa huu unashughulikia inamaanisha nini, unapohitaji kweli, biashara-offs, na ni zana zipi zinaunga mkono leo.
 
@@ -94,8 +94,8 @@ Kupoteza shard si mwisho wa dunia (hiyo ni hatua ya kizingiti), lakini mipango a
 ### Zcash Foundation  frost.zfnd.org
 Zcash Foundation imewasilisha uanzishaji wa kazi ya FROST na tovuti ya onyesho. Hii ni utekelezaji wa kumbukumbu uliotumiwa kwa upimaji na maendeleo.
 
-### YWallet FROST Demo
-YWallet (high-utendaji Zcash mkoba) ina mapema FROST demo ushirikiano. Angalia [YWallet Frost Demo mwongozo](/guides/Ywallet_FROST_Demo) kwa ajili ya hatua-kwa-hatua maelekezo.
+### Ywallet FROST Demo
+Ywallet alikuwa mapema FROST demo ushirikiano, kutembea kwa njia ya katika [Ywallet FROST Demo mwongozo](/guides/Ywallet_FROST_Demo). Ywallet ni tena iimarishwe na haitakuwa updated kwa Ironwood, hivyo kusoma mwongozo kama background badala ya kitu cha kukimbia leo. Zkool, kutoka developer huo, ni mrithi kudumishwa na orodha FROST multisig kati ya makala yake.
 
 ### ZecHub Hackathon 2026  Miradi ya Barabara za FROST
 
@@ -143,17 +143,16 @@ hatua ya kuanzia vitendo kwa timu zaidi: ** 2-ya-3** (kuweza kukabiliana, ushiri
 
 ## Kurasa Zinazohusiana
 
-- [FROST — Technical Deep Dive](FROST.md)  maelezo ya usiri wa itifaki (DKG, saini raundi, uthibitisho usalama)
-- [YWallet FROST Demo Mwongozo](/guides/Ywallet_FROST_Demo)  hatua kwa hatua mikono-juu demo
-- [FROST Demo (frostdemo)](/guides/ywallet-frost-demo)  Zcash Foundation demo kutembea kwa njia ya
-- [Kuona funguo za](Viewing_Keys.md)  kusoma tu kupata anwani za ulinzi (mchanganyiko wa kuhifadhi kizingiti)
-- [Zcash Shielded Mali ya](Zcash_Shielded_Assets.md)  FROST pia ni muhimu miundombinu kwa ajili ya ZSA utoaji
+- [FROST  Ufundi wa Kuzama kwa Kina](FROST.md)  maelezo ya usiri wa itifaki (DKG, saini raundi, uthibitisho usalama)
+- [Ywallet FROST Demo Mwongozo](/guides/Ywallet_FROST_Demo)  background, Ywallet ni tena iimarishwe
+- [Kuangalia funguo za kuvinjari](Viewing_Keys.md)  kusoma tu kupata anwani za ulinzi (mchanganyiko wa kuhifadhi kizingiti)
+- [Zcash Shielded Mali za fedha](Zcash_Shielded_Assets.md)  FROST pia ni muhimu miundombinu kwa ajili ya ZSA utoaji
 
 ## Rasilimali
 
-- [Karatasi ya utafiti wa FROST (Komlo & Goldberg, 2020) ](https://eprint.iacr.org/2020/852.pdf)
-- [IETF FROST rasimu ya kiwango (rasimu-irtf-cfrg-frozen) ](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/)
+- [Karatasi ya utafiti wa FROST (Komlo & Goldberg, 2020)](https://eprint.iacr.org/2020/852.pdf)
+- [IETF FROST rasimu ya kiwango (rasimu-irtf-cfrg-frozen)](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/)
 - [Zcash Foundation FROST utekelezaji](https://frost.zfnd.org)
-- [Chelsea Komlo  Nini ni Saini ya Kiwango cha Threshold? (Zcon3) ](https://youtu.be/cAfTTfblzoU?t=110)
-- [Coinbase  Threshold Digital Signatures] (Mfumo wa sarafu ya msingi)](https://www.coinbase.com/blog/threshold-digital-signatures)
-- [ROST  imara Async Schnorr Threshold Signatures (Blockstream) ](https://eprint.iacr.org/2022/550.pdf)
+- [Chelsea Komlo  Nini ni Saini ya Kiwango cha Threshold? (Zcon3)](https://youtu.be/cAfTTfblzoU?t=110)
+- [Coinbase  Threshold Digital Signatures (Signature za Kijitabu cha Simu ya Mlango)](https://www.coinbase.com/blog/threshold-digital-signatures)
+- [ROAST  imara Async Schnorr Threshold Signatures (Blockstream)](https://eprint.iacr.org/2022/550.pdf)

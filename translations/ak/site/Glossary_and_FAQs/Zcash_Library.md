@@ -11,7 +11,7 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 
 | Asɛmfua | Nkyerɛaseɛ |
 |------|-----------|
-| Nneyɛe | Sɛ anka wɔbɛbɔ ankorankoro adanseɛ dodoɔ bi ama Spend ne Output biara no, Orchard protocol ka bom yɛ Action baako. |
+| Nneyɛe | Sɛ anka wɔbɛbɔ ankorankoro adanseɛ dodoɔ bi ama Spend ne Output biara no, Orchard protocol ka bom yɛ Adeyɛ baako. |
 | Address ahorow | Zcash wɔ Shielded (Z/zaddr) ne Transparent (T/taddr) address ahorow. Address a wɔaka abom (UA) reyɛ adwuma nkakrankakra de asi Z ne T ananmu wɔ NU5 nkɔsoɔ no akyi. |
 | Arborist Frɛ | Nnawɔtwe mmienu frɛ a ɛfa Zcash protocol ne nhwehwɛmu nkɔsoɔ foforɔ ho. Wɔyɛɛ no ​​wɔ Zcash Community Forum ne Discord so. [Nhyiam Ho Nsɛm a Wɔakyerɛw](https://github.com/ZcashCommunityGrants/arboretum-notes) / [Forum Nsɛm a Wɔde To gua](https://forum.zcashcommunity.com) |
 | Auto-shielding a wɔde bɔ wɔn ho ban | Ɛma wɔn a wɔde di dwuma (titiriw wɔn sika kotoku) tumi de sika fi address a ɛda adi pefee so kɔ ZEC pool a wɔabɔ ho ban a aba foforo no so. |
@@ -21,8 +21,8 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 | Asɛmfua | Nkyerɛaseɛ |
 |------|-----------|
 | Nsusuwii a wɔde toto ho | Wɔn a wotu fam no tumi de metrics a ɛfa sɛnea hardware ahorow a wɔde tu Zcash tu no yɛ adwuma yiye ho mena. [Hwɛ wɔ ha](https://zcashbenchmarks.info) |
-| Block | Block yɛ kyerɛwtohɔ a ɛwɔ Zcash blockchain no mu a ɛwɔ nkitahodi ahorow a wɔde amena wɔ ntwamutam no so. Bɛyɛ sɛ wɔ sikɔne 75 biara mu no, sɛ wɔkyekyem pɛpɛɛpɛ a, wɔde block foforo bi ka blockchain no ho. |
-| Block Explorer | Intanɛt so adwinnade a wode hwɛ nnwuma nyinaa, bere a atwam ne mprempren, wɔ blockchain no so. [Zcash Block Nhwehwɛmufoɔ](https://zcashexplorer.app/) |
+| Block | Block yɛ kyerɛwtohɔ a ɛwɔ Zcash blockchain mu a ɛwɔ nkitahodi ahorow a wɔde amena wɔ ntwamutam no so. Bɛyɛ sɛ wɔ sikɔne 75 biara mu no, sɛ wɔkyekyem pɛpɛɛpɛ a, wɔde block foforo bi ka blockchain no ho. |
+| Block Explorer | Intanɛt so adwinnade a wode hwɛ nnwuma nyinaa, bere a atwam ne nea ɛwɔ hɔ mprempren, wɔ blockchain no so. [Zcash Block Nhwehwɛmufoɔ](https://zcashexplorer.app/) |
 | Blog ahorow | [ZODL Blog (kan no na wɔfrɛ no Electric Coin Co) .](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [ZecHub Blog a ɛwɔ hɔ](https://zechub.wiki/zechub-dao) |
 | Nhwiren | 3rd Major Network Upgrade a ɛwɔ hɔ ma Zcash. [Nsɛm pii](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
@@ -42,7 +42,7 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 | Asɛmfua | Nkyerɛaseɛ |
 |------|-----------|
 | DeFi | Nnwuma a ɛde ZEC ne DeFi bɛka abom: [Mayafo Mmarahyɛ Bagua](https://www.mayaprotocol.com/ecosystem#user-interfaces/) / [Nea Ɛbɛn Intents](https://near-intents.org/) / [ZenRock na ɔkyerɛwee](https://app.zenrocklabs.io/) / [ShapeShift a Wɔde Yɛ Nneɛma](https://app.shapeshift.com/) / [LeoDex na ɔkyerɛwee](https://leodex.io/) / [ThorSwap na ɔkyerɛwee](https://app.thorswap.finance/) |
-| Deshielding a wɔde yiyi | Ɛkyerɛ asɛm bi a wɔde fi zaddr (address a wɔabɔ ho ban) so kɔ taddr (address a ɛda adi pefee) so. Mfiase a asɛm no fi ase no ntumi nhu nanso sika no hyɛn bo a ɛsom a ɔmanfo hu mu. |
+| Deshielding a wɔde hyɛ | Ɛkyerɛ asɛm bi a wɔde fi zaddr (address a wɔabɔ ho ban) so kɔ taddr (address a ɛda adi pefee) so. Mfiase a asɛm no fi ase no ntumi nhu nanso sika no hyɛn bo a ɛsom a ɔmanfo hu mu. |
 | Developer Nneɛma a Wɔde Yɛ Adwuma | [Nneɛma a Wɔde Yɛ Nneɛma](https://www.zcashcommunity.com/developers/) |
 | Nwoma a Wɔakyerɛw | [Ɔmanfoɔ Nwoma](https://zcash.readthedocs.io/en/latest/) |
 
@@ -53,7 +53,7 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 | ECC | Electric Coin Company, kuw a wɔde Zcash protocol no sii hɔ, a kan no na wɔfrɛ no Zcash Company. Ne mfiridwuma kuo no nyinaa gyaee adwuma wɔ Ɔpɛpɔn 2026 mu wɔ nnisoɔ ho akasakasa bi a wɔne Bootstrap board no diiɛ akyi, na wɔkɔɔ so hyehyɛɛ ZODL. |
 | ECDSA | Elliptic Curve Digital Signature Algorithm yɛ dijitaal nsaano nkyerɛwee nhyehyɛe a ahobammɔ wom wɔ cryptographic mu. ECDSA sign/verify algorithm no de ne ho to elliptic curve point multiplication so. |
 | Nhomasua | Video ahorow a ɛfa adesua ho a ɛkyerɛkyerɛ Zcash mu [ha](https://www.zcashcommunity.com/zcash-education/) |
-| Memos a Wɔabɔ no Encrypt | Field foforo a ɛfa nnwuma a wɔde kɔ address ahorow a wɔabɔ ho ban so a nea ogye sika no betumi ahu. Memo a wɔabɔ no kokoam no, nea ɔde kɔmaa ne nea ogye nkutoo na obehu. |
+| Memos a Wɔabɔ no Encrypt | Field foforo a wɔde di nkitaho a wɔde kɔ address ahorow a wɔabɔ ho ban so a nea ogye sika no betumi ahu. Memo a wɔabɔ no kokoam no, nea ɔde kɔmaa ne nea ogye nkutoo na obehu. |
 | Ɛkwihash | Memory-oriented proof-of-work mining algorithm a wɔde di dwuma wɔ Zcash so. |
 | Nsɛm a esisii | Wobetumi ahwɛ nsɛm a ɛfa Zcash ho no kalenda so [Luma](https://luma.com/zcash) ne [Zcash Foundation](https://zfnd.org/zf-events/) |
 | Nsesaeɛ | [Exchanges a ɛboa Zcash no din](https://z.cash/exchanges/) |
@@ -63,7 +63,7 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 | Asɛmfua | Nkyerɛaseɛ |
 |------|-----------|
 | Fiat-Shamir a ɛwɔ hɔ no | Ɔkwan a wɔfa so fa nimdeɛ ho adanseɛ a ɛfa nkitahodiɛ ho na wɔyɛ digyital nsaano nkyerɛwee a egyina so. Saa kwan yi so no, wobetumi adi nokwasɛm bi (sɛ nhwɛso no, ahintasɛm bi ho nimdeɛ) adi wɔ baguam a wɔrenna nsɛm a ɛwɔ ase adi. |
-| Formal Verification | Proving mathematically that a system behaves exactly as specified, rather than relying on testing alone. The Ironwood Action circuit was verified this way by contributors from zkSecurity and ZODL using the Lean theorem prover, to demonstrate the absence of soundness bugs. |
+| Nhwehwɛmu a Wɔyɛ no Mmara kwan so | Nkontaabu mu a wɔbɛkyerɛ sɛ nhyehyɛe bi yɛ n’ade sɛnea wɔakyerɛ no pɛpɛɛpɛ, sen sɛ wɔde wɔn ho bɛto sɔhwɛ nkutoo so. Wɔnam saa kwan yi so dii Ironwood Action circuit no ho adanseɛ denam mmoa a wɔfiri zkSecurity ne ZODL a wɔde Lean theorem prover dii dwuma so, de kyerɛɛ sɛ soundness bugs nni hɔ. |
 | Founders Akatua | Founder akatua no gyina hɔ ma block akatua nyinaa mu ɔha biara mu nkyem 20 na wɔtwe fi block biara bo mu na wɔkyekyɛ no pefee de ma protocol nkɔso ne nkɔso ba. |
 | Free2z | Adwinnade a wɔde yɛ nneɛma a wɔmmɔ din ne kokoam ntoboa a Zcash na ɛma ahoɔden. [Free2z](https://free2z.com) |
 | FROST | Flexible Round-Optimized Schnorr Threshold nsaano nkyerɛwee nhyehyɛe. [Nhwehwɛmu Krataa](https://eprint.iacr.org/2020/852) |
@@ -78,7 +78,7 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 
 | Asɛmfua | Nkyerɛaseɛ |
 |------|-----------|
-| Halo | Ɛma circuit upgrades tumi yɛ adwuma a enhia sɛ wɔyɛ nhyehyɛe a wogye di, na ɛma Zcash shielded protocol no yɛ ntɛmntɛm ma daakye nkɔso ne ntrɛwmu. [Mfiridwuma Ho Nkyerɛkyerɛmu](https://z.cash/learn/what-is-halo-for-zcash/) |
+| Halo | Ɛma circuit upgrades tumi yɛ adwuma a enhia sɛ wɔyɛ nhyehyɛe a wotumi de ho to so, na ɛma Zcash shielded protocol no yɛ ntɛmntɛm ma daakye nkɔso ne ntrɛwmu. [Mfiridwuma Ho Nkyerɛkyerɛmu](https://z.cash/learn/what-is-halo-for-zcash/) |
 | HD Sikakorabea | Hierarchical deterministic wallets ma key pairs a ɛtoatoa so fi aba biako mu, na ɛma ɛyɛ mmerɛw na wotumi di ho dwuma ne ahobammɔ a ɛkorɔn nso. |
 | Koma Nnua | 4th Major Network Upgrade a ɛwɔ Zcash mu. [Nsɛm pii](https://z.cash/upgrade/heartwood/) |
 
@@ -108,7 +108,7 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 
 | Asɛmfua | Nkyerɛaseɛ |
 |------|-----------|
-| Layer-1 a ɛwɔ hɔ | Ɛkyerɛ base network ne nea ɛhyɛ ase. Layer-1 blockchains betumi agye atom na wɔawie nnwuma a enhia sɛ wɔyɛ ntwamutam foforo. Zcash yɛ L1 blockchain a ɛyɛ adwuma. |
+| Layer-1 a ɛwɔ hɔ no | Ɛkyerɛ base network ne nea ɛhyɛ ase. Layer-1 blockchains betumi agye atom na wɔawie nnwuma a enhia sɛ wɔyɛ ntwamutam foforo. Zcash yɛ L1 blockchain a ɛyɛ adwuma. |
 | librustzcash a wɔde di dwuma | Rust adwumayɛbea a crates ne dependencies nyinaa wom a wɔde bɛyɛ adwuma ne Zcash. [repo](https://github.com/zcash/librustzcash) |
 | Lightwalletd a wɔde ayɛ | A stateless server a ɛsom hann clients ne blockchain nsɛm. [Lightwalletd a wɔde ahyɛ mu](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
 
@@ -126,7 +126,7 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 
 | Asɛmfua | Nkyerɛaseɛ |
 |------|-----------|
-| Network Sustainability Mechanism (NSM) a Wɔde Yɛ Nneɛma a Ɛkɔ So Daa (NSM) | Nsusuwii bi a efi Shielded Labs hɔ sɛ wɔbɛhyew kyɛfa bi wɔ nkitahodi ho ka mu sɛnea ɛbɛyɛ a protocol no bere tenten ahobammɔ sikasɛm nhyehyɛe no nnyina nea wɔde ma so koraa. Wɔakyerɛ wɔ ZIP 234, a wɔrehwɛ mu wɔ afe 2026. |
+| Network Sustainability Mechanism (NSM) a Wɔde Yɛ Nneɛma a Ɛkɔ So Daa (NSM) | Nsusuwii a efi Shielded Labs hɔ sɛ wɔbɛhyew kyɛfa bi wɔ nkitahodi ho ka mu sɛnea ɛbɛyɛ a protocol no bere tenten ahobammɔ sikasɛm nhyehyɛe no nnyina nea wɔde ma so koraa. Wɔakyerɛ wɔ ZIP 234, a wɔrehwɛ mu wɔ afe 2026. |
 | Nighthawk a ɛyɛ fɛ | Mobile sika kotoku bi a wɔde ma Zcash. [Wɛbsaet no](https://nighthawkwallet.com) |
 | Noir Sikakorabea | Zcash browser ntrɛwmu sika kotoku a Zcash Community Grants boa, a wɔasi sɛ ɛde ZEC a wɔabɔ ho ban no bɛka browser application ahorow ho tẽẽ sen sɛ wɔde wɔn ho bɛto QR koodu ne nsaanodwuma so. [zknoir.com na ɛwɔ hɔ](https://www.zknoir.com/) |
 | NU5 | 6th Major Network Upgrade ma Zcash, a ɛde Orchard shielded pool ne Unified Addresses ba. [Nsɛm pii](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
@@ -149,7 +149,7 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 | PCD (Adanse a Wɔde Kɔma Nsɛm) | Primitive a data tu kwan ka adanse a ɛkyerɛ sɛ n’ankasa teɛ ho, enti data a wɔde bom nso ka adanse ahorow no bom. Project Tachyon san kyekye shielded protocol no twa PCD ho hyia, ma sika kotoku biara kura adanse a ɛsan ba bio a ɛkyerɛ sɛ n’ankasa kari pɛ teɛ sen sɛ ɛbɛsan ahwehwɛ nkɔnsɔnkɔnsɔn no mu. Zcash dwumadie no yɛ [Ragu](https://github.com/tachyon-zcash/ragu), a edi Halo akyi na enhia nhyehyɛe biara a wotumi de ho to so. |
 | Atipɛnfo-ne-Atipɛnfo Nkitahodi | P2P nkitahodi ahorow no gyina adwene a ɛne sɛ wɔbɛkyekyɛ nneɛma mu no so. Fapem nhyehyɛe a ɛfa blockchain mfiridwuma ho. |
 | PIR (Kokoam Nsɛm a Wɔgye) | Akwan a ɛma wotumi nya kyerɛwtohɔ bi fi server bi so a server no nsua kyerɛwtohɔ a wobisae. Wɔ nhwehwɛmu a ɛyɛ nnam ase ma Zcash sɛ ɔkwan a sika kotoku a emu yɛ hare bɛfa so anya nea wohia a ɛnyɛ nea ɛretu nea wɔrehwehwɛ no. |
-| Podcast a wɔde too gua | [Radiolab (Zcash Afahyɛ) .](https://archive.org/details/radiolab_podcast17crypto_zcash_ceremony) / [RealVisionSikasɛm a Wɔde Di Dwuma](https://www.youtube.com/watch?v=ibA_4kwd_YI) / [EthDenver na ɔkyerɛwee](https://www.youtube.com/watch?v=t62isi58XcQ) / [UpOnlyPodcast na ɛwɔ hɔ](https://www.youtube.com/watch?v=AjC9T938o3Q) / [Zcast en Español na ɛwɔ hɔ](https://www.youtube.com/@ZcastEsp) |
+| Podcast a wɔde di dwuma | [Radiolab (Zcash Afahyɛ) .](https://archive.org/details/radiolab_podcast17crypto_zcash_ceremony) / [RealVisionSikasɛm a Wɔde Di Dwuma](https://www.youtube.com/watch?v=ibA_4kwd_YI) / [EthDenver na ɔkyerɛwee](https://www.youtube.com/watch?v=t62isi58XcQ) / [UpOnlyPodcast na ɛwɔ hɔ](https://www.youtube.com/watch?v=AjC9T938o3Q) / [Zcast en Español na ɛwɔ hɔ](https://www.youtube.com/@ZcastEsp) |
 
 ## Q
 
@@ -162,7 +162,7 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 
 | Asɛmfua | Nkyerɛaseɛ |
 |------|-----------|
-| Nsɛmfua a Wɔde Yɛ Adwuma | Nkyerɛwde ne nɔma 12 anaa 24 a ɛtoatoa so a wɔde yɛ sika kotoku bi a wɔde sie na wɔsan de ba. Wɔ Zcash mu no, saa kasasin yi san ma sika a wɔsɛe no ne hwɛbea safoa no yɛ foforo, na ɛma ɛho hia ma sikakorabea a wɔsan nya ne ahobammɔ. |
+| Nsɛmfua a Wɔde Yɛ Adwuma | Nkyerɛwde ne nɔma 12 anaa 24 a ɛtoatoa so a wɔde yɛ sika kotoku bi a wɔde sie na wɔsan de ba. Wɔ Zcash mu no, saa kasasin yi san ma sika a wɔsɛe no ne hwɛbea safoa ahorow no yɛ foforo, na ɛma ɛho hia kɛse ma sikakorabea a wɔsan nya ne ahobammɔ. |
 
 ## S
 
@@ -181,7 +181,7 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 
 | Asɛmfua | Nkyerɛaseɛ |
 |------|-----------|
-| Tachyon | Zcash scaling nhyehyɛe, a wɔde asi NU7 so. Ɛde sika kotoku fi scanning block biara so kɔ adanse-kura sika kotoku tebea, oblivious synchronization ne prunable node tebea, botae ne shielded throughput wɔ mpempem pii nkitahodi wɔ sekan biara mu. [Dwumadie no beaeɛ](https://tachyon.z.cash/overview/) |
+| Tachyon | Zcash scaling nhyehyɛe, a wɔde wɔn ani asi NU7 so. Ɛde sika kotoku fi scanning block biara so kɔ adanse-kura sika kotoku tebea, oblivious synchronization ne prunable node tebea, botae ne shielded throughput wɔ mpempem pii nkitahodi wɔ sekan biara mu. [Dwumadie no beaeɛ](https://tachyon.z.cash/overview/) |
 | TAZ | Testnet Zcash (sɔhwɛ sika a ɛsom bo). |
 | Testnet | Blockchain a ɛyɛ soronko a wɔde sɔ nkɔsoɔ ne nneɛma a ɛwɔ mu hwɛ ansa na mainnet aba. |
 | Akyi Awiei Layer (TFL) | Nhwehwɛmu a ɛfa finality layer a wɔde bɛka Zcash proof-of-work chain no akyi sɛnea ɛbɛyɛ a wobetumi awie nnansa yi blocks a wɔrensi mining ananmu. Crosslink ne adwini a ɛfiri mu baeɛ. |
@@ -209,7 +209,7 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 
 | Asɛmfua | Nkyerɛaseɛ |
 |------|-----------|
-| Sikakorabea | Software anaa hardware a ɛkora kokoam safoa so na ɛma wotumi de ZEC mena/gye. Sika kotoku a ɛyɛ nnam no bi ne ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android), YWallet, Zallet (a ɛreba), ne Keystone (hardware). Sɛ wopɛ nsɛm a wɔahyehyɛ no nyinaa a, hwɛ [Zcash Abɔde a Nkwa Wom Ho Sikakorabea](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Sikakorabea | Software anaa hardware a ɛkora kokoam safoa so na ɛma wotumi de ZEC mena/gye. Sika kotoku a ɛyɛ nnam no bi ne ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android), Zkool (mobile/desktop), Zallet (a ɛreba), ne Keystone (hardware). Sɛ wopɛ nsɛm a wɔahyehyɛ no nyinaa a, hwɛ [Zcash Abɔde a Nkwa Wom Ho Sikakorabea](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WɛbZjs | JavaScript SDK a edi kan ma Zcash, a ChainSafe na ɛyɛ maa browser mpɔtam. Ɛhyɛ Zcash Shielded Wallet snap a ɛde shielded ZEC baa MetaMask no ase. |
 
 ## X
@@ -231,17 +231,17 @@ Nsɛmfua nkyerɛaseɛ a ɛkɔ akyiri a ɛfa nsɛmfua titire, nsusuiɛ, ne nneɛm
 | Zcash | Cryptocurrency a ɛtwe adwene si kokoamsɛm so a wɔde zk-SNARKs di dwuma. Bridges transparent (Bitcoin-style) ne sikatua a wɔabɔ ho ban koraa. |
 | Zcash Foundation | Independent non-profit that supports the Zcash ecosystem, funds development, and promotes privacy. |
 | Zcash Nkitahodi | Peer-to-peer network of nodes a ɛma nkitahodi ahorow no yɛ nokware na ɛhwɛ blockchain no so. |
-| ZEC | Sika koodu a ɛyɛ aban de ma Zcash (nsesae ahorow bi da so ara kyerɛ XZC). |
+| ZEC | Sika mmara a ɛyɛ aban de ma Zcash (nsesa bi da so ara kyerɛ XZC). |
 | Zerocash a ɛyɛ fɛ | Adesua nhyehyɛe (2014) a Zcash gyina so. |
 | Zaino | Awo ntoatoaso a edi hɔ Zcash indexer a ɛsesa lightwalletd, a Zcash Foundation na ɛkyekyee. Ɛma hann akrafo tumi yɛ sync ntɛmntɛm na ɛyɛ kokoam. Zcash Z3 infrastructure upgrade no fã bi. |
 | Zakura | Zcash full node dwumadie a wɔyii no adi wɔ July 2026 mu, a Valar Kuo ne Project Tachyon sii sɛ Zebra fork. Ɛde n’ani si throughput ne sync ahoɔhare so, a snapshot bootstrapping ne botae a wɔaka a ɛne card-network scale, bɛyɛ 50,000 nkitahodi wɔ sekan biara mu. [zakura.com na ɛwɔ hɔ](https://zakura.com) |
 | Zallet | Wallet fã a ɛgyee zcashd sika kotoku dwumadie berɛ a ɛkɔɔ pɛnhyen, wɔsii wɔ Zaino so sɛ Zcash Z3 infrastructure adwuma no fã. |
 | Zebra | The Zcash Foundation's Rust-based full node implementation (alternative to zcashd). Production-ready and actively maintained. [GitHub na ɛwɔ hɔ](https://github.com/ZcashFoundation/zebra) |
 | zcashd a wɔde yɛ adwuma | Mfitiaseɛ Zcash node a ɛyɛ ma, forked fi Bitcoin Core. Ɔkɔɔ pɛnhyen wɔ July 2026 mu wɔ bere tenten a ɔde ne ho too so akyi, na ne dwumadi ahorow no mu apaapae wɔ Zebra ma adwene a ɛwɔ mu ne Zallet ma sika kotoku dwumadi ahorow ntam. |
-| ZIP | Zcash Nkɔsoɔ Ho Nsusuiɛ - mpɔtam nnisoɔ nhyehyɛeɛ a wɔde di dwuma de hyɛ nyansa na wɔgye tom sɛ wɔbɛyɛ nsakraeɛ wɔ protocol mu. [ZIP Adekorabea](https://github.com/zcash/zips) |
+| ZIP | Zcash Improvement Proposal - mpɔtam hɔ nnisoɔ nhyehyɛeɛ a wɔde di dwuma de hyɛ nyansa na wɔgye tom sɛ wɔbɛyɛ nsakraeɛ wɔ protocol mu. [ZIP Adekorabea](https://github.com/zcash/zips) |
 | ZODL | Zcash Open Nkɔso Lab. Ahyehyɛde a ɛde ne ho a Josh Swihart ne kan Electric Coin Company mfiridwuma kuw no de sii hɔ wɔ afe 2026 mfiase bere a wogyaee adwuma esiane nniso ho akasakasa bi a wɔne Bootstrap wɔ nti. Ɛboaboaa bɛboro dɔla ɔpepem 25 ano wɔ aba sika mu wɔ Oforisuo 2026 mu na ɛhwɛ Zodl sika kotokuo a wɔsesaa ne din fii Zashi wɔ Ɔpɛpɔn 2026 mu no so. [zodl.com na ɛwɔ hɔ](https://zodl.com) |
 | zk-SNARKs a wɔyɛ | Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge — cryptography a ɛma Zcash ahoɔden a ɛbɔ ho ban. Ɛma kwan ma wodi asɛm bi ho adanse (e.g., sika a wɔsɛe no a ɛfata) a ɛnna kokoam nsɛm biara adi. |
-| ZSA (Zcash Shielded Agyapadeɛ) | Tokens a ɔdefoɔ de ama a ɛdi Zcash kokoamsɛm a wɔabɔ ho ban no agyapadeɛ, a ɛma agyapadeɛ a ɛnyɛ ZEC kɔ kokoam wɔ ntwamutam no so. Wɔakyerɛ wɔ [ZIP 226 na ɛwɔ hɔ](https://zips.z.cash/zip-0226) ne candidate feature bi a ɛfa NU7 ho. |
+| ZSA (Zcash Shielded Agyapadeɛ) | Tokens a ɔdefoɔ de ama a ɛdi Zcash kokoamsɛm a wɔabɔ ho ban no agyapadeɛ, a ɛma agyapadeɛ a ɛnyɛ ZEC kɔ kokoam wɔ ntwamutam no so. Wɔakyerɛ wɔ [ZIP 226 na ɛwɔ hɔ](https://zips.z.cash/zip-0226) ne candidate feature ma NU7. |
 
 ---
 

@@ -4,7 +4,7 @@
 
 # <img src="/content-images/image-2024-02-03-174147713-63a42e536c.webp" alt="Alt Text" width="400"/> Zcash Community Links
 
-Zcash habɔbɔa nye amewo ƒe ƒuƒoƒo si me dzo le si le dɔ wɔm be yewoana ZEC nanye cryptocurrencies siwo wozãna wu siwo kpɔa ame ŋutɔ ƒe nyatakakawo ta la dometɔ ɖeka le xexeame. Nutoa me tɔwo nye ame vovovo siwo tso xexeame ƒe akpa vovovowo - xɔtulawo, nufialawo, taʋlilawo, kple xɔtulawo - siwo wɔ ɖeka to dzixɔse ɖeka si le ganyawo ƒe adzamenyawo ŋu me.
+Zcash habɔbɔa nye amewo ƒe ƒuƒoƒo si me dzo le si le dɔ wɔm be yeana ZEC nanye cryptocurrencies siwo wozãna wu siwo kpɔa ame ŋutɔ ƒe nyatakakawo ta la dometɔ ɖeka le xexeame. Nutoa me tɔwo nye ame vovovo siwo tso xexeame ƒe akpa vovovowo - xɔtulawo, nufialawo, taʋlilawo, kple xɔtulawo - siwo wɔ ɖeka to dzixɔse ɖeka si le ganyawo ƒe adzamenyawo ŋu me.
 
 ----
 
@@ -17,7 +17,7 @@ The Zcash community is very active in its community <span translate="no" class="
 ### <img src="/content-images/image-2024-02-03-174056252-8a6a76eabf.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Discord</span>
 
 - [Zcash Xexeame Katã ƒe](https://discord.gg/zcash) - Nutoa me ƒe dɔwɔƒe vevitɔ
-- [Zcash ƒe Numekuku Kple Dɔwɔnawo](https://discord.gg/xpzPR53xtU) - Protocol kple developer ƒe numedzodzrowo
+- [Zcash Numekuku Kple Dɔwɔnawo](https://discord.gg/xpzPR53xtU) - Protocol kple developer ƒe numedzodzrowo
 - [Zcash Foundation](https://discord.gg/na6QZNd) - Gɔmeɖoanyi ƒe yeyewo kple dziɖuɖu
 - [ZecHub DAO ƒe amegã](https://discord.gg/zcash) - Nutoa me DAO ƒe nudzɔlawo
 
@@ -32,7 +32,7 @@ The Zcash community is very active in its community <span translate="no" class="
 
 ### Zcash Nutome Takpekpe
 
-[Zcash Nutome Takpekpe](https://forum.zcashcommunity.com/) nye teƒe si wowɔa numedzodzro didiwo tso Zcash ŋu - dziɖuɖu, kpekpeɖeŋunana ƒe aɖaŋuɖoɖowo, mɔ̃ɖaŋu ŋuti nyaʋiʋli, kple lãwo ƒe agbenɔnɔ ŋuti gbeƒãɖeɖewo. Fifia xɔdzikpɔkpɔ trɔ yi Zcash Foundation gbɔ le ECC ƒe tɔtrɔ yi ZODL megbe.
+The [Zcash Nutome Takpekpe](https://forum.zcashcommunity.com/) nye teƒe si wowɔa numedzodzro didiwo tso Zcash ŋu - dziɖuɖu, kpekpeɖeŋunana ƒe aɖaŋuɖoɖowo, mɔ̃ɖaŋu ŋuti nyaʋiʋli, kple lãwo ƒe agbenɔnɔ ŋuti gbeƒãɖeɖewo. Fifia xɔdzikpɔkpɔ trɔ yi Zcash Foundation gbɔ le ECC ƒe tɔtrɔ yi ZODL megbe.
 
 ### <img src="/content-images/image-2024-02-03-174240928-7a8f751301.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
 
@@ -41,28 +41,28 @@ Zcash le xexeame katã ƒe anyinɔnɔ vevie le X. Akɔntabubu vevi siwo akplɔe 
 | Akɔntabubu | Numeɖeɖe |
 |---------|-------------|
 | [@Zcash ƒe nyawo](https://x.com/zcash) | Zcash ƒe akɔntabubu si dziɖuɖua ɖo |
-| [@ZecHub ƒe nyatakakadzraɖoƒea](https://x.com/zechub) | ZecHub DAO - nutoa me hehenana kple nunanawo |
-| [@zodl_dɔdamɔnu](https://x.com/zodl_app) | ZODL gakotoku (si woyɔna tsã be Zashi) |
-| [@ZcashGɔmeɖoanyiha](https://x.com/zcashfoundation) | Zcash Foundation ƒe nyatakaka yeyewo |
-| [@zcashbrazil ƒe nyatakakadzraɖoƒea](https://x.com/zcashbrazil) | Zcash Brazil nutoa me tɔwo |
-| [@ZcashTR ƒe nyatakakadzraɖoƒea](https://x.com/ZcashTR) | Zcash Turkeytɔwo ƒe |
-| [@ZcashArabia ƒe nyatakakadzraɖoƒea](https://x.com/ZcashArabia) | Zcash Arabiatɔwo ƒe |
-| [@ZcashNigeria ƒe nyatakakadzraɖoƒea](https://x.com/ZcashNigeria) | Zcash Nigeria |
-| [@ZcastEsp ƒe nyatakakadzraɖoƒea](https://x.com/ZcastEsp) | Zcast - Spaingbe me Zcash podcast |
-| [@ZkAv_Klub_ƒe](https://x.com/ZkAv_Club) | ZK Odio kple nukpɔkpɔ ƒe Habɔbɔ |
-| [@@cipherscan_dɔwɔwɔ ƒe mɔnu](https://x.com/cipherscan_app) | CipherScan blockchain ƒe numekula |
-| [@zerodartz ƒe nyatakakadzraɖoƒea](https://x.com/Zerodartz) | Nutoa me memes kple numeɖeɖe |
+| [@ZecHub ƒe nyawo](https://x.com/zechub) | ZecHub DAO - nutoa me hehenana kple nunanawo |
+| [@zodl_app dzi](https://x.com/zodl_app) | ZODL gakotoku (si woyɔna tsã be Zashi) |
+| [@ZcashGɔmeɖoanyi](https://x.com/zcashfoundation) | Zcash Foundation ƒe nyatakaka yeyewo |
+| [@zcashbrazil ƒe nyawo](https://x.com/zcashbrazil) | Zcash Brazil nutoa me tɔwo |
+| [@ZcashTR ye nye esia](https://x.com/ZcashTR) | Zcash Turkeytɔwo ƒe |
+| [@ZcashArabia ƒe nyawo](https://x.com/ZcashArabia) | Zcash Arabiatɔwo ƒe |
+| [@ZcashNigeria ƒe nyawo](https://x.com/ZcashNigeria) | Zcash Nigeria |
+| [@ZcastEsp ƒe nyawo](https://x.com/ZcastEsp) | Zcast - Spaingbe me Zcash podcast |
+| [@ZkAv_Klub ƒe ƒuƒoƒo](https://x.com/ZkAv_Club) | ZK Odio kple nukpɔkpɔ ƒe Habɔbɔ |
+| [@cipherscan_dɔdamɔnu](https://x.com/cipherscan_app) | CipherScan blockchain ƒe numekula |
+| [@zerodartz ye nye esia](https://x.com/Zerodartz) | Nutoa me memes kple numeɖeɖe |
 
 ----
 
 ## Nutome Nutome Dɔwɔƒewo
 
 - [Zcash kple Espanol ƒe agbalẽ](https://zcashesp.com) - Spaingbedolawo ƒe nuto (si hã le Bluesky dzi le X ƒe mɔxexeɖedɔa nu megbe)
-- [Zcash Brazil ƒe ŋkɔ](https://x.com/zcashbrazil) - Braziltɔwo ƒe nutoa me tɔwo
-- [Zcash Turkey ƒe ŋkɔ](https://x.com/ZcashTR) - Turkeytɔwo ƒe nutoa me tɔwo
-- [Zcash Arabia ƒe ŋkɔ](https://x.com/ZcashArabia) - Arabgbe dolawo ƒe nuto
-- [Zcash Nigeria ƒe ŋkɔ](https://x.com/ZcashNigeria) - Nigeriatɔwo ƒe nuto
-- [ruZcash ƒe ŋkɔ](https://x.com/ruZCASH) - Russiagbedolawo ƒe Zcash nuto
+- [Zcash Brazil ƒe agbalẽ](https://x.com/zcashbrazil) - Braziltɔwo ƒe nutoa me tɔwo
+- [Zcash Turkey ƒe agbalẽ](https://x.com/ZcashTR) - Turkeytɔwo ƒe nutoa me tɔwo
+- [Zcash Arabiatɔwo ƒe ŋkɔ](https://x.com/ZcashArabia) - Arabgbe dolawo ƒe nuto
+- [Zcash Nigeria ƒe nyawo](https://x.com/ZcashNigeria) - Nigeriatɔwo ƒe nuto
+- [ruZcash ƒe ga](https://x.com/ruZCASH) - Russiagbedolawo ƒe Zcash nuto
 - [Zcash Korea ƒe ŋkɔ](https://x.com/zcash_korea) - Koreatɔwo ƒe nutoa me tɔwo
 - [Zcash Ɣedzeƒe Afrika](https://forum.zcashcommunity.com/t/privacy-has-landed-in-south-africa-join-in/55706) - South Africa kple Ɣedzeƒe Afrika
 - [genzcash ƒe ŋkɔ](https://x.com/genzcash) - Zcash nuto si me sɔhɛwo ƒe susu le
@@ -74,5 +74,5 @@ Zcash le xexeame katã ƒe anyinɔnɔ vevie le X. Akɔntabubu vevi siwo akplɔe 
 - [Zcash Habɔbɔ ƒe Nyatakakadzraɖoƒe](https://www.zcashcommunity.com/)
 - [ZecHub ƒe Wiki](https://zechub.wiki)
 - [Zcash ƒe Gakpekpeɖeŋunana Dɔwɔƒe](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
-- [Zcash Xexeame Katã ƒe Dutanyanyuigblɔlawo](https://zechub.wiki/zcash-community/zcash-global-ambassadors)
+- [Zcash Xexeame Katã ƒe Dutanyanyuigblɔlawo](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - ɖoɖowɔɖi ƒe wɔwɔfia le wiki sia dzi (zcashambassadors.com mele internet dzi o)
 - [ZecHub DAO le Dework dzi](https://app.dework.xyz/zechub-2424)

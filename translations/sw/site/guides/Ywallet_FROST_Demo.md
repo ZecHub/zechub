@@ -1,5 +1,7 @@
 # Ywallet FROST demo
 
+> **Ywallet ni tena iimarishwe.** developer wake imethibitisha itakuwa si updated kwa Ironwood (NU6.3), hivyo inaweza tena kufuata mlolongo na hatua chini haiwezi kukamilika juu ya mainnet. ukurasa huu imehifadhiwa kwa ajili ya kumbukumbu. Zkool, kutoka developer huo, ni kudumishwa mrithi na inasaidia FROST multisig.
+
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
@@ -12,11 +14,11 @@
 </div>
 
 
-## Kukusanya FROST mitungi
+## Kuweka pamoja FROST mitungi
 
-[Github kiungo](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+[Kiungo Github](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
 
-Tumia repo hapo juu na kufuata maelekezo juu ya kuandaa: 
+Tumia repo juu na kufuata maelekezo ya kuandaa: 
 
 ```bash
 cargo build --bin trusted-dealer
@@ -33,11 +35,11 @@ Bins itakuwa folda lengo.
 
 
 
-## Ingiza UFVK katika Ywallet
+## Kuingiza UFVK katika Ywallet
 
 Akaunti -> Bonyeza + na kuweka ufvk kutoka hatua juu
 
-## Unda shughuli na Ywallet
+## Kuunda shughuli na Ywallet
 
 Kuweka katika UA yoyote na kutuma tx. Hifadhi faili.
 
@@ -45,15 +47,15 @@ Kuweka katika UA yoyote na kutuma tx. Hifadhi faili.
 
 `./signFROST_tx.sh rawtxs/mytx signedtxs/mysignedtx`
 
-kwanza pembejeo ni eneo la tx ghafi kutoka hatua juu
-kuingia pili ni eneo na jina la saini tx unataka matangazo
-Hii ni sehemu ambapo unaweza kuwaambia FROST ambayo transction unataka kila mtu saini
+kwanza pembejeo ni eneo la tx ghafi kutoka hatua ya juu
+pili ya kuingia ni eneo na jina la saini tx unataka matangazo
+This is part where you tell FROST which transction you want everyone to sign
 
 ## Kuanza Coordinator
 
 `./runCoordinator.sh`
 
-Hii kuratibu kila mshiriki saini na inajenga saini kundi
+Hii kuratibu kila mshiriki saini na inajenga kundi la sahihi
 
 ## Kuwa kila mshiriki saini kwa ajili ya shughuli hii
 
@@ -64,12 +66,12 @@ Hii kuratibu kila mshiriki saini na inajenga saini kundi
 
 ## Kukamilisha Imesainiwa Transaction
 
-Katika dirisha mratibu, nakala ya saini kundi kwamba ni pato na kuweka ndani ya FROST kusaini dirisha.
+Katika dirisha la uratibu, nakala saini ya kikundi ambayo ni pato na kuweka ndani ya FROST kusainiwa dirisha.
 Hii kukamilisha FROST kusaini na pato 'mysingedtx'
 
 
-## Kutangaza Transaction yako na Ywallet
+## Kutangaza shughuli yako na Ywallet
 
-Bonyeza 'Zaidi' upande wa chini kulia wa Ywallet na tafuta 'Broadcast'. Tafuta 'mysignedtx' na bonyeza ok.
+Bonyeza 'Zaidi' chini kulia upande wa Ywallet na kupata 'Broadcast'. Kupata 'mysignedtx' na bonyeza ok.
 
 Kama kila kitu kazi utapata shughuli ID :)

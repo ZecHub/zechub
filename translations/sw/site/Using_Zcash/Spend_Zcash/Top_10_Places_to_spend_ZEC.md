@@ -33,11 +33,11 @@ Hasa, nchini Venezuela kuna maeneo mengi (maeneo ya kimwili na sehemu za mtandao
 
 </aside>
 
-[** Gastronomy - Bakery & Chocolaterie **] 
+[** Gastronomy - Bakery & Chocolaterie**] 
 
 1.  **Sheila Vargas** Foodie Blogger Mjasiriamali Uongozi 
 
-[@SheEmprende_ kwenye Mitandao ya Kijamii](https://www.sheemprende.com/enlaces-sheemprende/)Yeye aliruka katika hatua shukrani kwa wake maarufu (na ladha) **[Galletas de la FeliZidad](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
+[@SheEmprende_ kwenye Mitandao ya Kijamii](https://twitter.com/SheEmprende_)Yeye aliruka katika hatua shukrani kwa wake maarufu (na ladha) **[Galletas de la FeliZidad (Kikombe cha furaha)](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
 
 Mbali na cookies yake, yeye inatoa huduma nyingine zote na bora ya yote ni hii: unaweza kulipa kwa ZEC!
 
@@ -61,7 +61,7 @@ Hivyo, kama wewe ni biskuti monster ..!
 
 sasa unajua wapi kutumia ZEC yako!
 
-**Website**: [Sheemprende.com](http://Sheemprende.com) 
+**Website**: sheemprende.com imekuwa kustaafu na tena si kutatua. Kufikia yake juu ya [Free2z](https://free2z.cash/SheEmprende) | [X Jukwaa la Mbele](https://twitter.com/SheEmprende_)
 
 **Zcash Unified Address:** 
 
@@ -85,9 +85,9 @@ Rosa anatabasamu kwa fahari akionyesha kwamba anakubali **Zcash.**
 
 ![Screenshot_20230829-232755.png](/content-images/_unavailable.svg)
 
-** Tovuti**: [https://somosdulceros.com/](https://somosdulceros.com/) 
+**Website**: somosdulceros.com imekataliwa na haiwezi kutatua tena Tumia viungo vya kijamii hapa chini.
 
-** Mitandao ya kijamii:** [Instagram](https://www.instagram.com/somos_dulceros) [X Jukwaa la](https://twitter.com/RosaMRangel) [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+** Mitandao ya kijamii:** [Instagram ya Mtandao](https://www.instagram.com/somos_dulceros) | [X Jukwaa la Mbele](https://twitter.com/RosaMRangel) | [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:** 
 
@@ -97,7 +97,7 @@ u12vp85edmrkqy9uvall4wqqn2s9fx8nm5phsxu2nyme5yh8hn5xh8mv3qgunynskjy3t0w89234a83r
 
 ---
 
-[** Ufundi wa mikono. Ubunifu. Waandaaji wa sherehe]*
+[** Ufundi. Design. chama waandaaji]**
 
 1. ** Papeles rangi ya** By Elizabeth B. *
 
@@ -125,9 +125,9 @@ Baadhi ya vitu vingine nzuri Papeles a rangi handcrafts.
 
 ** Mitandao ya kijamii** 
 
-[Instagram](https://instagram.com/papelesacolor) [Free2z](https://free2z.cash/PapelesaColor) 
+[Instagram ya Mtandao](https://instagram.com/papelesacolor) | [Free2z](https://free2z.cash/PapelesaColor) 
 
-[Linktree](https://linktr.ee/Papelesacolor)
+[Mti wa Linktree](https://linktr.ee/Papelesacolor)
 
 **Zcash Unified Address** 
 
@@ -137,7 +137,7 @@ mwa4jg2wa4jga4jgag4jgaw4jgwa4jgw4jgow4jgbw5jgkqm0wa4jw7ajwg4zfmw6a4jgu4jgs3wa4jj
 
 ---
 
-**[Kujenga Jumuiya  Uuzaji wa Dijiti  Ubunifu wa Mtandao Video]**
+**[Kujenga Jumuiya. Masoko ya Digital. Ubunifu wa Mtandao. Video]**
 
 1. ** Emprendedoras Digitales de Venezuela** Msaada wa Kijamii kwa Wananchi na Uhamiaji.
 
@@ -155,7 +155,7 @@ Je, unataka kujisikia *uwezo?* **Emprendedoras Digitales de Venezuela** ni mahal
 
 ** Mitandao ya kijamii:** 
 
-[Instagram](https://instagram.com/emprendedorasdigitalesve) [Jukwaa la](https://twitter.com/EmpreDigiVE) [Telegramu](https://t.me/emprendedorasdigitalesve) [LinkedIn](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
+[Instagram ya Mtandao](https://instagram.com/emprendedorasdigitalesve) |  [Jukwaa la kuendesha gari](https://twitter.com/EmpreDigiVE) | [Telegram ya simu](https://t.me/emprendedorasdigitalesve) | [LinkedIn](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
 
 **Unified Address:** 
 
@@ -180,7 +180,7 @@ Mahali hapa, linalodhibitiwa na **Roosevelt Gordones and Aura Brito** hutoa hudu
 
 ** Mitandao ya Kijamii**
 
-[Telegramu ya](https://t.me/gorbritsm) [Instagram](https://www.instagram.com/gorbritsm/) [X Jukwaa la](https://twitter.com/GorBritSM) | 
+[Telegram ya simu](https://t.me/gorbritsm) | [Instagram ya Mtandao](https://www.instagram.com/gorbritsm/) |  [X Jukwaa la jukwaa](https://twitter.com/GorBritSM) | 
 
 GorBrit inakubali mbinu mbalimbali za malipo, ikiwa ni pamoja na Cryptocurrencies, kati ya ambayo, ni ** Zcash. *
 
@@ -210,11 +210,11 @@ Kazi yake inajulikana katika mazingira ya Zcash shukrani kwa mchango wake kwenye
 
 ** Mitandao ya kijamii:**
 
-[Telegramu ya](https://t.me/Robmarn) [X Jukwaa la](https://twitter.com/robmarn) [Free2z](https://free2z.cash/robmarn)
+[Telegram ya simu](https://t.me/Robmarn) | [X Jukwaa la Mbele](https://twitter.com/robmarn) | [Free2z](https://free2z.cash/robmarn)
 
  Barquisimeto - Venezuela 
 
-**[Uzuri  Manikuru  Huduma ya mikono na kucha  Vifaa]** 
+**[Uzuri. Manikuru. Utunzaji wa mikono na kucha. Vifaa]** 
 
 1. **Karin Beauty Studio. Na Karin Gordones**
 
@@ -224,7 +224,7 @@ Misumari nzuri, mikono mizuri shukrani kwa Karin Beauty Studio.
 
 ** Mitandao ya kijamii:** 
 
-[Instagram](https://instagram.com/karinbeautystudio) 
+[Instagram ya Mtandao](https://instagram.com/karinbeautystudio) 
 
 **Unified Address:** 
 
@@ -250,7 +250,7 @@ Nice kifahari kuwasilisha kwa ajili ya scrunchies Corona de brilllitos
 
 ** Mitandao ya Kijamii**
 
-[Instagram](https://instagram.com/coronadebrillitos) 
+[Instagram ya Mtandao](https://instagram.com/coronadebrillitos) 
 
 **Zcash Unified Address** 
 
@@ -260,7 +260,7 @@ u154h5wxyqf5lr4hdraqzc2n8x8398x6u95km2z7ryx8k5tdpjym59xqvlz54kq6pd96q5xrsxrmtcpl
 
 ---
 
-** [Huduma za kompyuta]**
+**[Huduma za kompyuta]**
 
 1. ** Teknopapapi** 
 
@@ -282,7 +282,7 @@ Tecnopapapi ndiye mtu sahihi wa kuwasiliana naye!
 
 ** Mitandao ya kijamii** 
 
-Free2z. [Telegramu](https://t.me/Lexihel) [YouTube](https://youtube.com/@tecnopapapi) [X Jukwaa la](https://twitter.com/tecnopapapi) [TikTok](https://www.tiktok.com/@lexihel) [Instagram](https://www.instagram.com/tecnopapapi/) [Facebook](https://www.facebook.com/tecnopapapi) 
+Free2z. [Telegram ya simu](https://t.me/Lexihel) | [YouTube ya Kiingereza](https://youtube.com/@tecnopapapi) | [X Jukwaa la Mbele](https://twitter.com/tecnopapapi) | [TikTok](https://www.tiktok.com/@lexihel) | [Instagram ya Mtandao](https://www.instagram.com/tecnopapapi/) |  [Facebook ya kijamii](https://www.facebook.com/tecnopapapi) 
 
 Tecnopapapi inakubali cryptocurrencies (ikiwa ni pamoja na 3ZEC) na mbinu nyingine za malipo. 
 
@@ -302,7 +302,7 @@ Yeye anapokea cryptocurrencies, ikiwa ni pamoja ** Zcash**
 
 ![IMG_20230831_172209_058.jpg](/content-images/_unavailable.svg)
 
- Mheshimiwa Mendoza akionyesha mkoba wake wa Zongo. Picha ya Edickson Gonzalez kutoka kwa Shirika la Fedha za Marekani (FED) ilipokuwa ikipiga kura, aliona picha hiyo ikiwa na alama mbili kwenye mkono wake wa kulia. 
+ Mheshimiwa Mendoza akionyesha mkoba wake wa Zongo. Picha ya Edickson Gonzalez kutoka kwa Shirika la Fedha za Marekani (FED) iliyotumwa na Benchmark International, imewasilishwa leo kwenye mtandao wa Twitter. 
 
 **Zcash Unified Address:**
 
@@ -310,7 +310,55 @@ u10jd0tcj24p9rcju047lymtp9nx38h90j09rnr4ru6e8476822saywgn6phe373q78myrf2ew2j6kst
 
 ---
 
-** [Chakula cha haraka. Kiitaliano**]
+**[Mtandaoni. Global Digital bidhaa, masoko & VPNs]**
+
+Kila kitu hapo juu ni mtu au biashara ndogo unaweza kufikia katika Venezuela. Hizi nne ni online, wazi kwa yeyote na mkoba na uhusiano, na kukaa katika ZEC moja kwa moja.
+
+1. **ZecBuy** Bidhaa za digital. data eSIM VPN upatikanaji wa
+
+ZecBuy anauza bidhaa binafsi digital kwa ZEC: eSIM data mipango ya kusafiri na akaunti Mullvad VPN. Hakuna kujisajili au hakuna anwani email kutoa juu. Wewe kuchagua bidhaa, kulipa katika ZEC, na kupata code.
+
+** Tovuti**: [zecbuy.com](https://zecbuy.com/)
+
+ Mtandaoni. Ulimwenguni Pote
+
+---
+
+1. **ZEC Market**. Peer-to-peer soko la biashara
+
+Soko la bure ambapo wanunuzi na wauzaji hufanya biashara moja kwa moja. Bei zinaonyeshwa katika dola na kufadhiliwa mkoba hadi mkoba kwenye Zcash, iliyohifadhiwa kwa chaguo-msingi. Jukwaa haitoi ada yoyote na kamwe haina fedha za mtu yeyote, ambayo inafanya kuwa mahali pa kuangalia wakati kile unachotaka kununua hakipo kwenye orodha kama hii.
+
+** Tovuti**: [zecmarket.org](https://zecmarket.org/)
+
+Miradi mingine ya mazingira kama hiyo: [Miradi ya Jumuiya](/zcash-community/community-projects)
+
+ Mtandaoni. Ulimwenguni Pote
+
+---
+
+1. **NymVPN**  Decentralized VPN na mixnet
+
+NymVPN njia trafiki kupitia mtandao madaraka ya nodes, na hali mixnet kwamba anaongeza kufunika trafiki hivyo pakiti muda na ukubwa kuacha kazi kama alama za vidole. kusainiwa si kuuliza kwa ajili ya taarifa binafsi, na malipo ni kukubalika katika sarafu faragha ikiwa ni pamoja Zcash, ili kulipa kwa huduma haina undo usiri wa kutumia hiyo.
+
+** Tovuti**: [nym.com](https://nym.com/)
+
+Kusoma background: [VPNs na dVPNs](/privacy-tools/vpn-and-dvpn)
+
+ Mtandaoni. Ulimwenguni Pote
+
+---
+
+1. **Meile dVPN**  Decentralized VPN juu ya mtandao Sentinel
+
+Meile is a dVPN client from the MathNodes team that runs on the Sentinel network, where the nodes are operated by community members rather than by a single company. Subscription plans are paid inside the app, and shielded ZEC payments are handled through BTCPay. Builds are available for Windows, macOS and Linux alongside the mobile client.
+
+** Tovuti**: [Meile dVPN juu ya MathNodes](https://mathnodes.com/index.php/meile-dvpn-client-linux-os-x/) (mail.app inaelekeza hapa)
+
+ Mtandaoni. Ulimwenguni Pote
+
+---
+
+**[Chakula cha haraka. Kiitaliano**]
 
 Bonus: ** Allegrini Ristorante** 🇪. Pizza Place. Chakula Kiitaliano. ** Kukubali Zcash hivi karibuni.** 
 
@@ -318,13 +366,13 @@ Huduma ya utoaji. Kuchukua mbali. Uhifadhi
 
 ![BackgroundEraser_20230901_114615839.png](/content-images/_unavailable.svg)
 
-** Tovuti**: [www.alleginiristorante.com](http://www.alleginiristorante.com) (katika ujenzi)
+**Website**: hakuna. tovuti alitangaza katika alleginiristorante.com kamwe kukamilika na uwanja tena kutatua. Tumia viungo kijamii chini.
 
 ** Mitandao ya kijamii** 
 
-[Instagram](https://instagram.com/allegriniristorante) [X Jukwaa la](https://twitter.com/AllegriniRisto) [Telegramu](https://t.me/AllegriniRistorante) [Pinterest](https://pin.it/6z8hq6F)
+[Instagram ya Mtandao](https://instagram.com/allegriniristorante) | [X Jukwaa la Mbele](https://twitter.com/AllegriniRisto) | [Telegram ya simu](https://t.me/AllegriniRistorante) | [Pinterest](https://pin.it/6z8hq6F)
 
-(Karibuni katika [free2z.cash](http://free2z.cash). )
+(Karibuni katika [free2z.cash (kiasi cha fedha)](http://free2z.cash). )
 
 ![20230901_121633_0000.png](/content-images/_unavailable.svg)
 

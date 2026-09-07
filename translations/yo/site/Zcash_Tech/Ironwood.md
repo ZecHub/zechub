@@ -4,7 +4,7 @@
 
 # Igi irin-igi
 
-> Ironwood n ṣiṣẹ lori Zcash mainnet ni bulọọki 3,428,143, ti a nireti ni ayika Oṣu Keje 28, 2026 UTC.
+> Ironwood ti ṣiṣẹ lori Zcash mainnet ni bulọọki 3,428,143 ni Oṣu Keje 28, 2026 UTC, ati pe o wa laaye lati igba naa.
 
 Ohun tí ẹ ó mú lọ: ohun ti Ironwood yí padà, ìdí tí àbùkù owó tó wà nípamọ́ fi le koko jùlọ àti bí ìyípadà náà ṣe jẹ́ kí ẹnikẹ́ni lè fìdí rẹ̀ múlẹ̀ pé kò sí ZEC kan táa forí.
 
@@ -34,7 +34,7 @@ O ṣe pataki, ko si ẹri pe a lo bug naa lailai, ko ni ẹri ti ipa lori awọ
 
 Àwọn aráàlú Zcash fi àwọn àtúnṣe ránṣẹ́ ní ìpele dípò gbogbo wọn lẹ̀ẹ̀kan.
 
-![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activates around July 28, 2026](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activated at block 3,428,143 on July 28, 2026](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
 
 1. Ní ìbẹ̀rẹ̀ oṣù June 2026, ètò àbòjúṣe kan dá omi-ìmọ́ Orchard dúró nígbà tí wọ́n ń múra bí wọn yóò ṣe tún un mọ.
 2. Àtúnṣe NU6.2 ṣe àtúnse sí ẹ̀ka Orchard fúnra rẹ̀, tí ó sì pa ibi ìjìnlẹ̀ tó wà nídìí.
@@ -46,7 +46,7 @@ O ṣe pataki, ko si ẹri pe a lo bug naa lailai, ko ni ẹri ti ipa lori awọ
 
 NU6.2 ṣe idaniloju Circuit Orchard fun gbogbo awọn iṣowo tuntun, ṣugbọn iye ti a ṣẹda labẹ awọn ofin atijọ ṣi wa ni adagun-odo Orchard. Ironwood nfunni ni iye yẹn ibi iduro mimọ kan ati ọna lati ṣayẹwo bi o ṣe nrakò.
 
-The Ironwood pool is a new shielded value pool created when NU6.3 activates. It is built on the corrected circuit and uses a quantum-recoverable note format (a design that lets funds be recovered if [àwọn kọ̀ǹpútà kọntátì](../zcash-tech/post-quantum-security) ti o ba wa ni eyikeyi akoko lati ya awọn oniwe-cryptography), a ṣalaye ninu [ZIP 2005 - Ìlú Àìníléèmọ̀.](https://zips.z.cash/zip-2005).
+The Ironwood pool is the shielded value pool created by NU6.3 at block 3,428,143. It is built on the corrected circuit and uses a quantum-recoverable note format (a design that lets funds be recovered if [àwọn kọ̀ǹpútà kọntátì](../zcash-tech/post-quantum-security) ti o ba wa ni eyikeyi akoko lati ya awọn oniwe-cryptography), a ṣalaye ninu [ZIP 2005 - Ìlú Àìníléèmọ̀.](https://zips.z.cash/zip-2005).
 
 1. Lẹ́yìn tí wọ́n bá ti fi í síṣẹ́, àgbájọ owó Orchard tó wà tẹ́lẹ̀ á di èyí téèyàn lè lò lásán-làsàn. Nítorí náà kò ní ṣeé ṣe fún iye tuntun kankan láti wọnú rẹ̀.
 2. Dípò ìyẹn, àwọn ohun iyebíye tó ṣẹ̀ṣẹ̀ di ààbò á wá máa ṣàn lọ sí Ironwood.

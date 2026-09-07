@@ -109,7 +109,7 @@ Keystone Wallet: Wọ́léètì alágbèéká tí ó ní àyè nínú, tó sì �
 Àkòrí. Ìtumọ̀.
 |------|-----------|
  Layer-1: Ó tọ́ka sí nẹtiwọọki ìpilẹ̀ṣẹ̀ àti àwọn ohun-èlò tí ó wà ní abé. Àwọn àlàfo ti ipele 1 le ṣe ìdánimọ̀ kí wọn sì parí ìṣàdálá láìṣe pé wọ́n nílò ẹ̀rọ mìíràn. Zcash jẹ́ Àlàfo líle kan (L1 blockchain).
- libustzcash  A Rust workspace ti o ni gbogbo awọn apoti ati awọn igbẹkẹle fun ṣiṣẹ pẹlu Zcash. [àtúnṣe owó-ìpamọ́](https://github.com/zcash/librustzcash) |
+| librustzcash | A Rust workspace containing all crates and dependencies for working with Zcash. [àtúnṣe owó-ìpamọ́](https://github.com/zcash/librustzcash) |
 Lightwalletd: Olùránṣẹ tí kò ní ìpínlẹ̀ tó ń pèsè àwọn oníṣe-ọkàn pẹlú ìsọfúnni blockchain. [Lightwalletd ì í ë ¤ì 'ë¦¬í ¬](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
 
 ## M
@@ -209,7 +209,7 @@ Turnstile. Ìṣirò ìsàmì tí ó ń tọpinpin iye owó tó wọlé àti èy
 
 Àkòrí. Ìtumọ̀.
 |------|-----------|
- Wallet. Software tabi hardware ti o tọju awọn bọtini ikọkọ ati jẹ ki o firanṣẹ / gba ZEC. Awọn apamọwọ lọwọ pẹlu ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android), YWallet, Zallet (to n bọ) àti Keystone (ohun elo). Fun akojọ kikun wo: [Àwọn Wàléètì Ìlànà Zcash Ecosystem](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Wallet | Software or hardware that stores private keys and lets you send/receive ZEC. Active wallets include ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android), Zkool (mobile/desktop), Zallet (upcoming), and Keystone (hardware). For a full list, see [Àwọn Wàléètì Ìlànà Zcash Ecosystem](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 WebZjs. SDK JavaScript àkọ́kọ́ fún Zcash, tí ChainSafe ṣe fún àwọn àyíká aṣàwákiri. Ó gbé ìmúlẹ̀sílẹ̀ sí ohun èlò Wọléètì Ààbò ti Zcash tó mú kí ZEC ní ìdènà dé MetaMask.
 
 ## X
@@ -222,7 +222,7 @@ XZC Àmì ìdìpọ̀ títóbi fún Zcash ti a lò ní àwọn ilé-ìtajà àjog
 
 Àkòrí. Ìtumọ̀.
 |------|-----------|
-YWallet. Wọ́léètì Zcash tí ó dá lórí ìpamọ́ra, tó ń ṣe àtìlẹyìn fún Orchard, Sapling àti àwọn àdírésì ìmọ̀lára, èyí tí a mọ sí sísínkórìíra rẹ̀ ní kíákíá. Kò tún wà láàyè mó: olùgbéejáde rèé ti jẹrisi pé kò ni di ojú-àtúnṣe fún Ironwood, nítorí náà kì í lè tẹ ẹ̀rí lílòpò ọ̀nà àjọṣepọ̀ yìí lọ́wọ́lọ́wọ̀n. Zkool, láti ọwọ́ oníṣẹ́ agbègbè kannáà, ló sì máa rójúmọ́ ọn.
+| YWallet | A privacy-focused Zcash wallet supporting Orchard, Sapling and transparent addresses, known for fast sync. No longer maintained: its developer has confirmed it will not be updated for Ironwood, so it can no longer follow the network. Zkool, by the same developer, is the maintained successor. |
 
 ## Z
 

@@ -20,6 +20,8 @@ ____
 
 ____ 
 
+> Awọn fidio Ywallet mẹta ti o wa ni isalẹ jẹ fun itọkasi. A ko tun ṣetọju Ywallett ati pe a kii yoo ṣe imudojuiwọn fun Ironwood, nitorinaa ko le tẹle pq mọ. Yan apamọwọ ti o tọju lati inu awọn ohun elo iṣakoso owo-owo rẹ: [Àwọn àpamọ́ owó](https://zechub.wiki/wallets) ojú ìwé.
+
 - Ìpamọ̀ Ojú-oòrùn Ywallet
 
 [![Video Thumbnail](/content-images/hqdefault-2811fac3b5.webp)](https://www.youtube.com/watch?v=hJaAccp-77k)

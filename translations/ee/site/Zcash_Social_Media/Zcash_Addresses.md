@@ -1,4 +1,4 @@
-# Zero vaseɖe Zero Sidzedze: Transparent vs Shielded Transactions & Adrɛs Siwo Wowɔ Ðeka
+# Zero va ɖo Zero Sidzedze: Transparent vs Shielded Transactions & Adrɛs Siwo Wowɔ Ðeka
 
 **Series:** Zero vaseɖe Zero Sidzedze
 
@@ -15,9 +15,9 @@ Egbea míesrɔ̃ nu tso wo ŋu & ƒo nu tso nu yeye siwo le #Zcash ecosystem me 
 
 **Shielded Transaction** fia asitsatsa ɖesiaɖe si ƒe adrɛswo woŋlɔ na Sapling/Orchard pools.
 
-![Gbeɖiɖi vs Akpoxɔnu ƒe ŋgɔdonya](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
+![Transparent vs Shielded intro](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
 
-Wotrɔ asi le **Unified Addresses (UAs)** be woatsɔ **awɔ ɖeka** le asitsatsa siwo ŋu wokpɔ ta na alo esiwo me kɔ la me ɖe adrɛs ɖeka me.
+Wotrɔ asi le **Unified Addresses (UAs)** be woatsɔ **awɔ ɖeka** adzɔnu siwo wokpɔ ta na alo esiwo me kɔ nyuie la ɖe adrɛs ɖeka me.
 
 ---
 
@@ -31,13 +31,13 @@ Adrɛs ƒomevi 3 ye wozãna:
 
 Ŋɔŋlɔdzesiwo ƒe xexlẽme (eye le esia ta QR-kɔda ƒe lolome) dzina ɖe edzi le ƒomevi ɖesiaɖe me.
 
-![Adrɛs ƒomeviwo tsɔtsɔ sɔ kple wo nɔewo](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
+![Address types comparison](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
 
-![QR code ƒe lolome tsɔtsɔ sɔ kple wo nɔewo](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
+![QR code size comparison](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
 
 ---
 
-## Alesi Adrɛs Siwo Wɔ Ðeka Wɔa Dɔe
+## Alesi Adrɛs Siwo Wowɔ Ðeka Wɔa Dɔe
 
 Woŋlɔa adrɛswo kple safuiwo ɖe kɔpi me abe byte ƒe ɖoɖo ene (**Raw Encoding**). 
 **Receiver Encoding** lɔ nyatakaka siwo katã hiã be woatsɔ atsɔ nunɔamesi aɖe ayi teƒe bubu to ɖoɖo tɔxɛ aɖe zazã me.
@@ -50,7 +50,7 @@ The raw encoding of a Unified Address is a combination of encodings (typecode, l
 
 **Vevietɔ**: Ele be **fexexe ƒe adrɛs ɖeka ya teti si wokpɔ ta na** nanɔ UA ɖesiaɖe me. (Womegale asi kpem ɖe Sprout adrɛswo ŋu le Canopy ƒe dodoɖeŋgɔ megbe o.)
 
-![UA ƒe nuŋɔŋlɔ ƒe ɖoɖo](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
+![UA encoding structure](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
 
 Nyatakaka bliboa: **[ZIP-316: Adrɛs Siwo Wowɔ Ðeka](https://zips.z.cash/zip-0316)**
 
@@ -93,7 +93,7 @@ Daira ɖe Anchor ƒe nɔƒewo me (zcon3):
 
 Le go aɖewo me (e.g. cross-pool transactions) ga homewo ateŋu adze na gotagome ŋkuléla. Gake la, `valueBalanceSapling` kple `valueBalanceOrchard` zã **homomorphic commitments** tsɔ ɖo kpe ZEC bliboa dzi le tadeaguƒe siwo wokpɔ ta na me eye nàxe mɔ ɖe aʋatsokaka nu.
 
-Xlẽ nu geɖe: [Ametakpɔnu Tsi Aʋatsonuwo Wɔwɔ Le Ta Siwo Wotsɔ Akpoxɔnu Wɔe Me](https://electriccoin.co/blog/defense-against-counterfeiting-in-shielded-pools/)
+Xlẽ nu geɖe: [Ametakpɔkpɔ Tsi Aʋatsonyawo Gbɔkpɔkpɔ Le Ta Siwo Wotsɔ Akpoxɔnu Wɔe Me](https://electriccoin.co/blog/defense-against-counterfeiting-in-shielded-pools/)
 
 ---
 
@@ -105,8 +105,7 @@ ECC ƒe ƒuƒoƒoa le dɔ wɔm tso RPC mɔnu yeyewo ŋu le... `zcashd` (si le et
 
 ## Kafukafunya
 
-Te **YWallet** ƒe tata yeyetɔ kpɔ! 
-Eɖea "Adzɔnuwɔwɔ ƒe Ðoɖo" fiana xoxo le screen dzi hafi nàzi send dzi, si kpena ɖe ŋuwò be nàwɔ tiatia geɖe wu le ɖokuiwò si.
+Thread sia fia asi **Ywallet** gbã, na asitsatsa ƒe ɖoɖo si wòɖe fia hafi nèƒo send. Womegaléa be na Ywallet o eye womawɔe yeyee na Ironwood o, eyata magate ŋu adze kɔsɔkɔsɔa yome o. Tia gakotoku si dzi wodzra ɖo tso... [Gakotokuwo](https://zechub.wiki/wallets) axaa boŋ, eye nàdi esi gblɔ nusi asitsatsa aɖe aɖe afia na wò hafi wòado.
 
 Nyati gã aɖe si ku ɖe asitsatsa ƒe adzamenyawo ŋu: https://medium.com/@hanh.huynh/
 

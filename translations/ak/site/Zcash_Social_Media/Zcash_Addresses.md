@@ -15,7 +15,7 @@ Sɛ woresua Zcash ho ade nea edi kan a wubehu sɛ nnwuma ahorow abien na ɛwɔ h
 
 **Shielded Transaction** kyerɛ asɛm biara a ɛwɔ address a wɔde encoded ama Sapling/Orchard pools.
 
-![Transparent vs Shielded nnianim asɛm](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
+![Transparent vs Shielded intro](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
 
 **Wɔayɛ Unified Addresses (UAs)** sɛ **wɔbɛka** nnwuma a wɔabɔ ho ban anaa ɛda adi pefee ayɛ no address baako.
 
@@ -31,9 +31,9 @@ Address ahorow 3 na wɔde di dwuma:
 
 Nkyerɛwde dodow (na ɛno nti QR koodu kɛse) kɔ soro bere biara a wɔakyerɛw no.
 
-![Address ahorow a wɔde toto ho](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
+![Address types comparison](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
 
-![QR koodu kɛseɛ ntotoho](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
+![QR code size comparison](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
 
 ---
 
@@ -50,7 +50,7 @@ Unified Address no raw encoding yɛ encodings (typecode, tenten, addr) a wɔaka 
 
 **Nea ɛho hia**: Ɛsɛ sɛ **anyɛ yiye koraa no, address biako a wɔde tua sika a wɔabɔ ho ban** wɔ UA biara mu. (Wɔmmoa Sprout address ahorow bio wɔ Canopy upgrade no akyi.)
 
-![UA encoding nhyehyɛe](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
+![UA encoding structure](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
 
 Nkyerɛkyerɛmu a edi mũ: **[ZIP-316: Address ahorow a Wɔaka abom](https://zips.z.cash/zip-0316)**
 
@@ -59,7 +59,7 @@ Nkyerɛkyerɛmu a edi mũ: **[ZIP-316: Address ahorow a Wɔaka abom](https://zip
 ## Mfaso a Ɛwɔ Address ahorow a Wɔaka abom So
 
 - **Ɛyɛ mmerɛw ma exchanges** - Seesei wobetumi aboa shielded deposits/withdrawals a ahobammɔ wom. 
-- **Future-proof** - Wobetumi de atare foforo a wɔabɔ ho ban aka ho a wɔrenbubu sika kotoku. 
+- **Future-proof** - Wobetumi de atare foforo a wɔabɔ ho ban aka ho a wɔremmu sika kotoku. 
 - **Shielded-by-Default** - Anyɛ yiye koraa no, UA biara kura address biako a wɔabɔ ho ban, enti kokoamsɛm wɔ hɔ bere nyinaa.
 
 Eyi yɛ nsakrae titiriw a ɛreboa ZEC pii dedaw ma wɔatu akɔ ɔtare a wɔabɔ ho ban no mu.
@@ -93,7 +93,7 @@ Daira kyerɛkyerɛ Anchor gyinabea ahorow mu (zcon3):
 
 Wɔ tebea horow bi mu (e.g. cross-pool transactions) sika dodow betumi ayɛ nea obi a ofi abɔnten a ɔhwɛ no ahu. Mmom, `valueBalanceSapling` ne `valueBalanceOrchard` fa **homomorphic commitments** di dwuma de kyerɛ sɛ ZEC nyinaa wɔ atare a wɔabɔ ho ban mu na wɔasiw atoro a wɔyɛ no ano.
 
-Kenkan pii: [Ahobammɔ a Wɔde Tia Atoro a Wɔyɛ wɔ Atare a Wɔabɔ Ho Ban Mu](https://electriccoin.co/blog/defense-against-counterfeiting-in-shielded-pools/)
+Kenkan pii: [Ahobammɔ a Wɔde Tia Atoro Nneɛma a Wɔyɛ wɔ Atare a Wɔabɔ Ho Ban Mu](https://electriccoin.co/blog/defense-against-counterfeiting-in-shielded-pools/)
 
 ---
 
@@ -105,8 +105,7 @@ ECC kuw no reyɛ adwuma wɔ RPC akwan foforo so wɔ `zcashd` (a wɔde besi ananm
 
 ## Nyansahyɛ a wɔde ma
 
-Sɔ **YWallet** a aba foforo no hwɛ! 
-Ɛkyerɛ "Transaction Plan" dedaw wɔ screen so ansa na woabɔ send, a ɛboa wo ma wopaw kokoam nneɛma pii.
+Saa thread yi mfitiaseɛ no na ɛkyerɛ **Ywallet**, ma transaction plan a ɛkyerɛɛ ansa na woabɔ send. Wɔnhwɛ Ywallet so bio na wɔrennyɛ no foforo mma Ironwood, enti entumi nni nkɔnsɔnkɔnsɔn no akyi bio. Paw sika kotoku a wɔahwɛ so yiye fi... [Sika kotoku](https://zechub.wiki/wallets) kratafa mmom, na pɛ nea ɛkyerɛ wo nea asɛm bi bɛda adi ansa na akɔ.
 
 Asɛm kɛse a ɛfa asɛmdi ho kokoamsɛm ho: https://medium.com/@hanh.huynh/
 

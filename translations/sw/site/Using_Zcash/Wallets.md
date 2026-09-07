@@ -3,18 +3,18 @@
 - Vifaa: Simu ya Mkononi
 - Mfumo wa Uendeshaji: Android  iOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
-- Pools: Transparent | Sapling | Orchard
+- Mabwawa: Uwazi. Sapling. Ironwood
 - Makala: Kitabu cha Anwani. CrossPay. Karibu na Nia Flexa Malipo MultiSignature. Ombi la malipo Shielded memo Tumia kabla ya Sync. TEX Address Tor Support F-droid
 - Mti wa Ironwood: Tayari
 
 ---
 
-## [Ywallet](https://ywallet.app/installation/)
+## [Kipaji cha Ywallet](https://ywallet.app/installation/)
 ![logo](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
 - Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa uendeshaji: Android  iOS Windows Linux macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
-- Pools: Transparent | Sapling | Orchard
+- Mabwawa: Uwazi. Sapling. Ironwood
 - Sifa: Kitabu cha Anwani Hifadhi ya Baridi anwani tofauti ombi la malipo uhamisho wa pool Memo iliyohifadhiwa TEX Anwani kupiga kura WarpSync Usimamizi wa barua pepe na mfumo wa mawasiliano (WMS) Mawasiliano ya simu za mkononi.
 - Mti wa Ironwood: Hauko Tayari
 
@@ -25,23 +25,23 @@
 - Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa uendeshaji: Android  iOS Windows Linux macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
-- Pools: Sapling | Orchard
+- Mabwawa: Sapling. Ironwood
 - Sifa: Bot ya kutoelewana
 
 ---
 
-## [Zingo!](https://www.zingolabs.org/)
+## [Zingo (mnyama)!](https://www.zingolabs.org/)
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo!")
 - Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa uendeshaji: Android  iOS Windows Linux
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
-- Pools: Transparent | Sapling | Orchard
+- Mabwawa: Uwazi. Sapling. Ironwood
 - Sifa: Kitabu cha Anwani  Ufahamu wa Kifedha  Ombi la Malipo PepperSync Memo Shielded Testnet Support
 - Mti wa Ironwood: Tayari
 
 ---
 
-## [Mpaka](https://edge.app)
+## [Mlango wa mbele](https://edge.app)
 ![logo](/content-images/image-2024-11-28-091312254-b2389ad332.webp "Edge")
 - Vifaa: Simu ya Mkononi
 - Mfumo wa Uendeshaji: Android  iOS
@@ -51,12 +51,12 @@
 
 ---
 
-## [Usioshindwa kusimamishwa](https://unstoppable.money)
+## [Haiwezi kusimamishwa](https://unstoppable.money)
 ![logo](/content-images/image-2024-11-28-091200540-815817fda7.webp "Unstoppable")
 - Vifaa: Simu ya Mkononi
 - Mfumo wa Uendeshaji: Android  iOS
 - Wallet Support: Seed Phrase | Unified Address
-- Pools: Transparent | Sapling | Orchard
+- Mabwawa: Uwazi. Sapling. Ironwood
 - Sifa: DEX Swaps  Multi Coin  Matumizi kabla ya Sync
 - Mti wa Ironwood: Tayari
 
@@ -67,31 +67,31 @@
 - Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa uendeshaji: Android  iOS Windows
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
-- Pools: Transparent | Sapling | Orchard
+- Mabwawa: Uwazi. Sapling. Ironwood
 - Sifa: Kitabu cha Anwani  Checks za anwani Automatic Shielding Diversified Address Payment Request Memo Protected TEX Address Testnet Support
 
 ---
 
-## [Zkool](https://github.com/hhanh00/zkool2/)
+## [Shule ya Zkool](https://github.com/hhanh00/zkool2/)
 ![logo](/content-images/zkool-1-22ab388e65.webp "Zkool")
 - Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa uendeshaji: Android  iOS Windows Linux
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
-- Pools: Transparent | Sapling | Orchard
+- Mabwawa: Uwazi. Sapling. Ironwood
 - Sifa: Anwani ya mzunguko. Broad muhimu msaada. Encrypted Exports. FROST Multisig. Multi-Akaunti Sync. Shielded Memo. Testnet Support
 - Mti wa Ironwood: Tayari
 
 ---
 
-## [Keki ya mkate](https://cakewallet.com/install/)
+## [Keki](https://cakewallet.com/install/)
 ![logo](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
-- Vifaa: Simu ya mkononi  Desktop 
+- Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa uendeshaji: Android  iOS Windows Linux macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
-- Pools: Transparent | Sapling | Orchard
+- Mabwawa: Uwazi. Sapling. Ironwood
 - Makala: Kitabu cha Anwani  Uzunguko wa anwani  Kuzuia kiotomatiki DEX Swaps Multi Coin Shielded Memo Tor Support
 - Mti wa Ironwood: Tayari
-  
+
 ---
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
@@ -99,7 +99,7 @@
 - Vifaa: Desktop
 - Mfumo wa uendeshaji: Windows Linux MacOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
-- Pools: Transparent | Sapling | Orchard
+- Mabwawa: Uwazi. Sapling. Ironwood
 - Sifa: Kitabu cha anwani Interface Graphical Shielded Memo Testnet Support
 
 ---
@@ -109,18 +109,18 @@
 - Vifaa: Desktop
 - Mfumo wa uendeshaji: Windows Linux MacOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
-- Pools: Transparent | Sapling | Orchard
-- Sifa: amri Line Interface  PepperSync  Shielded Memo Testnet Support 
+- Mabwawa: Uwazi. Sapling. Ironwood
+- Sifa: amri Line Interface  PepperSync  Shielded Memo Testnet Support
 - Mti wa Ironwood: Unaendelea Kuongezeka
 
 ---
 
-## [Zallet](https://github.com/zcash/wallet)
+## [Zallet (Kifungu cha kulia)](https://github.com/zcash/wallet)
 ![logo](/content-images/Brandmark-Yellow-2eca7f6f68.webp "Zallet")
 - Vifaa: Desktop
 - Mfumo wa uendeshaji: Windows Linux MacOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
-- Pools: Transparent | Sapling | Orchard
+- Mabwawa: Uwazi. Sapling. Ironwood
 - Sifa: Alpha Release JSON-RPC Interface Shielded Memo Testnet Support Maelezo ya awali na maelezo zaidi kuhusu programu za Google, pamoja na habari muhimu.
 - Mti wa Ironwood: Tayari
 
@@ -131,7 +131,7 @@
 - Vifaa: Desktop
 - Mfumo wa uendeshaji: Windows Linux MacOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
-- Pools: Transparent | Sapling | Orchard
+- Mabwawa: Uwazi. Sapling. Ironwood
 - Sifa: amri Line Interface  Diversified Anwani  Shielded Memo Testnet Support
 - Mti wa Ironwood: Hauko Tayari
 
@@ -142,27 +142,27 @@
 - Vifaa: Mtandao
 - Mfumo wa Uendeshaji: Browser
 - Wallet Support: Seed Phrase | Unified Address
-- Mabwawa: Uwazi. Orchard
+- Mabwawa: Uwazi. Ironwood
 - Sifa: Shielded Memo  Spend kabla ya Sync Testnet Support
 
 ---
 
 ## [Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
-![logo](/content-images/metamask-25048569f6.webp  "Metamask")
+![logo](/content-images/metamask-25048569f6.webp "Metamask")
 - Vifaa: Mtandao
 - Mfumo wa Uendeshaji: Browser
 - Wallet Support: Seed Phrase | Unified Address
-- Pools: Transparent | Sapling | Orchard
+- Mabwawa: Uwazi. Sapling. Ironwood
 - Sifa: Multi sarafu
 
 ---
 
 ## [Zucchini](https://zucchinifi.xyz/)
 ![logo](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
-- Vifaa: Mtandao 
+- Vifaa: Mtandao
 - Mfumo wa Uendeshaji: Browser
 - Wallet Support: Seed Phrase | Unified Address
-- Pools: Transparent | Sapling | Orchard
+- Mabwawa: Uwazi. Sapling. Ironwood
 - Sifa: DEX Swaps
 
 ---
@@ -177,7 +177,7 @@
 
 ---
 
-## [Uaminifu Wallet](https://trustwallet.com/download)
+## [Trust Wallet (Mkoba wa Uaminifu)](https://trustwallet.com/download)
 ![logo](/content-images/trustwallet-bec43acb59.webp "Trust Wallet")
 - Vifaa: Simu ya mkononi  Web
 - Mfumo wa uendeshaji: Android  iOS Browser
@@ -187,7 +187,7 @@
 
 ---
 
-## [Kutoka](https://www.exodus.com/zcash-wallet-zec)
+## [Kutoka kwa Waisraeli](https://www.exodus.com/zcash-wallet-zec)
 ![logo](/content-images/exoduscard-2f77769db0.webp "Exodus")
 - Vifaa: Simu ya mkononi  Desktop  Mtandao
 - Mfumo wa uendeshaji: Android  iOS Windows Linux MacOS Browser
@@ -207,23 +207,23 @@
 
 ---
 
-## [Keystone] (Kiini cha msingi)](https://shop.keyst.one)
+## [Keystone](https://shop.keyst.one)
 ![logo](/content-images/Keystone-1-8177a83308.webp "Keystone")
 - Vifaa:
 - Mfumo wa Uendeshaji:
 - Wallet Support: Hardware | Unified Address
-- Pools: Transparent | Sapling | Orchard
+- Mabwawa: Uwazi. Sapling. Ironwood
 - Sifa: Multi sarafu
 - Mti wa Ironwood: Tayari
 
 ---
 
-## [Ledger] (Kitabu cha hesabu)](https://www.ledger.com/coin/wallet/zcash)
+## [Ledger (Kitabu cha hesabu)](https://www.ledger.com/coin/wallet/zcash)
 ![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
-- Vifaa: 
+- Vifaa:
 - Mfumo wa Uendeshaji:
 - Msaada wa Pochi: Vifaa vya umeme (Hardware)
-- Mabwawa: Ni wazi 
+- Mabwawa: Ni wazi
 - Sifa: Multi sarafu
 - Mti wa Ironwood: Unaendelea Kuongezeka
 
@@ -239,7 +239,7 @@
 
 ---
 
-## [Hazina ya](https://trezor.io/learn/a/zcash-zec)
+## [Hazina ya hazina](https://trezor.io/learn/a/zcash-zec)
 ![logo](/content-images/trezor1-5004075d27.webp "Trezor")
 - Vifaa:
 - Mfumo wa Uendeshaji:
@@ -258,18 +258,18 @@
 
 ---
 
-## [Vizor ya macho](https://vizor.cash/)
+## [Kioo cha macho](https://vizor.cash/)
 ![logo](/content-images/Vizorphoto-6ade2417a5.webp "Vizor")
 - Vifaa: Desktop  Mobiles
 - Mfumo wa Uendeshaji: macOS
 - Wallet Support: Seed Phrase | Unified Address | Hardware
-- Pools: Transparent | Sapling | Orchard
+- Mabwawa: Uwazi. Sapling. Ironwood
 - Sifa: Automatic Shielding  Memo ya kulindwa Testnet Support FROST Multisig
 - Mti wa Ironwood: Tayari
 
 ---
 
-## [Black mkoba](https://www.zknoir.com/)
+## [Mkoba mweusi](https://www.zknoir.com/)
 ![logo](/content-images/Noirwallet-8589fe34e4.webp "Noir")
 - Vifaa: Mtandao  Desktop
 - Mfumo wa Uendeshaji: Browser
@@ -292,52 +292,63 @@
 
 ## [Zapp](https://www.justzappit.xyz/app)
 ![logo](/content-images/zapp.webp "Zapp")
-- Vifaa: Simu ya Mkononi 
-- Mfumo wa Uendeshaji: Android 
-- Wallet Support: Unified Address 
-- Pools: Transparent | Sapling | Orchard
+- Vifaa: Simu ya Mkononi
+- Mfumo wa Uendeshaji: Android
+- Wallet Support: Unified Address
+- Mabwawa: Uwazi. Sapling. Ironwood
 - Sifa: Mwisho-to-mwisho encrypted Messenger  karibu Makusudi P2P.me Offramp Beta
 - Mti wa Ironwood: Tayari
-  
+
 ---
 
 ## [Zecd](https://zecd.org/quickstart.html)
 ![logo](/content-images/zecd.webp "Zecd")
-- Vifaa: Desktop 
+- Vifaa: Desktop
 - Mfumo wa Uendeshaji: Linux
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Private Key | Spending Key | Wallet Backup / Key Export | Full Node Wallet 
-- Pools: Transparent | Sapling | Orchard | Sprout
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Private Key | Spending Key | Wallet Backup / Key Export | Full Node Wallet
+- Mabwawa: Uwazi. Sapling. Ironwood. Sprout
 - Sifa: Memo Encrypted  Wallet Backup (wallet data) RPC Interface Shielded Memo Usimamizi wa Ufunguo Binafsi
 - Mti wa Ironwood: Tayari
 
 ---
 
-## [Zend: Zcash Wallet](https://justzend.com/)
+## [Zend:Zcash Wallet](https://justzend.com/)
 ![logo](/content-images/zend.webp "Zend:Zcash Wallet")
 - Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa Uendeshaji: iOS  MacOS
-- Wallet Support: Seed Phrase | Passkey | Unified Address | Private Key | Self-Custody Wallet 
-- Pools: Transparent | Sapling | Orchard 
+- Wallet Support: Seed Phrase | Passkey | Unified Address | Private Key | Self-Custody Wallet
+- Mabwawa: Uwazi. Sapling. Ironwood
 - Sifa: Self-Custody  Private Key Stored Locally  Hakuna KYC Inahitajika  No Zend Server Dependency for Wallet Activity  Encrypted Shielded Transaction  Seed Recovery  Memo iliyohifadhiwa Passkey Authentication
 
 ---
 
-## [Nozy Wallet] Ni kweli.](https://github.com/LEONINE-DAO/Nozy-wallet)
+## [Kipaji Nozy](https://github.com/LEONINE-DAO/Nozy-wallet)
 ![logo](/content-images/nozy.webp "Nozy Wallet")
 - Vifaa: Desktop  Browser
 - Mfumo wa uendeshaji: Linux  iOS macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Spending Key | HD Wallet | Private Key Management 
-- Pools: Transparent | Sapling | Orchard 
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Spending Key | HD Wallet | Private Key Management
+- Mabwawa: Uwazi. Sapling. Ironwood
 - Sifa: Kitabu cha Anwani  Msaada wa Tor  I2P Support  Ushirikiano Zebra/Zebrad  Historia ya Transaction  Usafirishaji wa Transactions  Kupata Ushahidi Wenyewe Local Witness Derivation Fee Dynamic (ZIP-317) NU6.2 Compatibility  NU6.3 Migration Support Shielded Memo
 - Mti wa Ironwood: Tayari
 
 ---
 
-## [Zipher](https://github.com/atmospherelabs-dev/zipher-app)
+## [Zipher (Kifungo)](https://github.com/atmospherelabs-dev/zipher-app)
 ![logo](/content-images/zipher.webp "Zipher")
-- Vifaa: Simu ya mkononi  Desktop 
+- Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa uendeshaji: Android  Windows Linux (CLI na MCP Server) iOS macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Multi Account Wallet | Self-Custody Wallet | Private Key Management | Agent Wallet Support
-- Pools: Transparent | Sapling | Orchard 
-- Features: NEAR Intents | Payment Requests | Shielded Memo | Shielded Transaction Default | Testnet | Cross-chain Swap | CipherPay | Viewing Key | AI Agent | MCP Server | CLI Wallet | FROST | Beta 
+- Mabwawa: Uwazi. Sapling. Ironwood
+- Features: NEAR Intents | Payment Requests | Shielded Memo | Shielded Transaction Default | Testnet | Cross-chain Swap | CipherPay | Viewing Key | AI Agent | MCP Server | CLI Wallet | FROST | Beta
 - Mti wa Ironwood: Unaendelea Kuongezeka
+
+---
+
+## [Argos](https://argos.sovright.com/)
+![logo](/content-images/argos.webp "Argos")
+- Vifaa: Desktop
+- Mfumo wa uendeshaji: Windows Linux MacOS
+- Msaada wa Pochi: Kiambishi cha Mwanzo  Ufunguo wa Matumizi  Funguo la Kibinafsi  Hifadhi ya Pochi / Uhamisho muhimu
+- Mabwawa: Uwazi. Sapling. Ironwood. Sprout
+- Sifa: Kifurushi cha Ufufuzi wa Wallet Interface Line ya amri Memo iliyohifadhiwa Usaidizi wa Testnet
+- Mti wa Ironwood: Tayari
