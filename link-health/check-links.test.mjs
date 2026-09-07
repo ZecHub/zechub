@@ -39,7 +39,7 @@ test("exact routes and fuzzy filenames in the correct folder remain valid", asyn
   const report = await scan({
     "site/Index.md": "[Exact](/zcash-tech/zaino)\n[Fuzzy](/zcash-tech/zecd)",
     "site/Zcash_Tech/Zaino.md": "# Zaino",
-    "site/Zcash_Tech/ZECD_Server.md": "# ZECD",
+    "site/Zcash_Tech/Z_ECD.md": "# ZECD",
   });
   assert.equal(report.totals.route, 0);
 });
@@ -48,7 +48,7 @@ test("a narrowed scan can resolve exact and fuzzy routes elsewhere in site", asy
   const report = await scan({
     "site/guides/Guide.md": "[Exact](/zcash-tech/zaino)\n[Fuzzy](/zcash-tech/zecd)",
     "site/Zcash_Tech/Zaino.md": "# Zaino",
-    "site/Zcash_Tech/ZECD_Server.md": "# ZECD",
+    "site/Zcash_Tech/Z_ECD.md": "# ZECD",
   }, "site/guides");
   assert.equal(report.filesScanned, 1);
   assert.equal(report.totals.route, 0);

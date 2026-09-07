@@ -200,7 +200,7 @@ function routeExists(route, mdFiles, appRoutes) {
     return { ok: true, how: "app route" };
   }
 
-  const target = `site${transformUri(clean)}.md`;
+  const target = join("site", `${transformUri(clean)}.md`);
   // GitHub content paths are case-sensitive even when this checkout is not.
   if (mdFiles.includes(target)) return { ok: true, how: "exact" };
 
