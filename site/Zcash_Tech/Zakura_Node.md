@@ -4,7 +4,7 @@
 
 # Zakura Node
 
-> 🇧🇷 [Versão em Português](/zechubglobal/zcashbrasil/zcashtech/zakura)
+> 🇧🇷 [Versão em Português](https://github.com/ZecHub/zechub/blob/main/site/zechubglobal/zcashbrasil/zcashtech/zakura.md)
 
 Zakura is a free, open-source full node implementation for Zcash, built for scale. Forked from [Zebra](Zebra_Full_Node.md) and developed through a collaboration between **Valar Group** and **Project Tachyon**, Zakura delivers dramatically faster synchronization, native block pruning, and a compatibility layer for legacy `zcashd` tooling. Version 1.0.0 was released on July 15, 2026.
 
