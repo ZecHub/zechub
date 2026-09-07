@@ -56,7 +56,7 @@
   "Using_Zcash/Solswap.md": "Phantom Wallet में ZEC के लिए Swap कैसे करें",
   "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": "ZEC खर्च करने की जगहें",
   "Using_Zcash/Testnet.md": "Zcash Testnet",
-  "Using_Zcash/Transactions.md": "लेनदेन",
+  "Using_Zcash/Transactions.md": "लेन-देन",
   "Using_Zcash/Transparent_Exchange_Addresses.md": "Zcash TEX पते क्या हैं?",
   "Using_Zcash/Wallets.md": "ZODL",
   "Using_Zcash/Zallet_Quick_Reference_Guide.md": "Zallet त्वरित संदर्भ मार्गदर्शिका",
@@ -199,7 +199,7 @@
   "tutorials/Exchanges.md": "Zcash एक्सचेंज",
   "tutorials/Full_Node_Tutorials.md": "Full Node ट्यूटोरियल",
   "tutorials/Using_Zcash.md": "Zcash उपयोग करने के लिए ट्यूटोरियल्स",
-  "tutorials/Wallet_Tutorials.md": "Zcash Wallet ट्यूटोरियल्स",
+  "tutorials/Wallet_Tutorials.md": "Zcash Wallet ट्यूटोरियल",
   "tutorials/shieldedNewsletter/readme.md": "Shielded न्यूज़लेटर",
   "tutorials/zenithserver/zenithBeta.md": "Zenith 0.10 बीटा"
 }

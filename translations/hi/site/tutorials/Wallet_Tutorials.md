@@ -2,12 +2,12 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Wallet ट्यूटोरियल्स
+# Zcash Wallet ट्यूटोरियल
 
-नीचे wallet ट्यूटोरियल्स की एक सूची दी गई है, जो आपको ZEC के साथ शुरुआत करने में मदद कर सकती है।
+नीचे wallet ट्यूटोरियल की एक सूची है, जो आपको ZEC के साथ शुरुआत करने में मदद कर सकती है।
 
 
-- ZODL Wallet
+- Zodl Wallet 
 
 [![वीडियो थंबनेल](/content-images/hqdefault-a4a2a5de7f.webp)](https://www.youtube.com/watch?v=G92zBIr-Wms)
 
@@ -19,6 +19,8 @@ ____
 [![वीडियो थंबनेल](/content-images/hqdefault-02389a1b67.webp)](https://www.youtube.com/watch?v=ao4ORC_VNcY)
 
 ____ 
+
+> नीचे दिए गए तीन Ywallet वीडियो संदर्भ के लिए रखे गए हैं। Ywallet का अब रखरखाव नहीं किया जाता और इसे Ironwood के लिए अपडेट नहीं किया जाएगा, इसलिए यह अब chain का अनुसरण नहीं कर सकता। [Wallets](https://zechub.wiki/wallets) पेज से कोई रखरखाव किया जा रहा wallet चुनें।
 
 - Ywallet कोल्ड स्टोरेज
 
@@ -33,7 +35,7 @@ ____
 
 ____
 
-- Ywallet मल्टीपे फीचर
+- Ywallet मल्टीपे सुविधा
 
 [![वीडियो थंबनेल](/content-images/hqdefault-789c84a8e4.webp)](https://www.youtube.com/watch?v=ovlNktpxURI)
 

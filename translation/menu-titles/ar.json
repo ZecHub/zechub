@@ -185,7 +185,7 @@
   "guides/Verifying_Zcash_Releases.md": "التحقق من إصدارات Zcash",
   "guides/Visualizing_Zcash_Addresses.md": "تصوّر عناوين Zcash",
   "guides/Visualizing_the_Zcash_Network.md": "تصوّر شبكة Zcash",
-  "guides/Ywallet_FROST_Demo.md": "عرض توضيحي لـ Ywallet وFROST",
+  "guides/Ywallet_FROST_Demo.md": "عرض توضيحي لـ Ywallet FROST",
   "guides/Zcash_Devtool.md": "أداة Zcash Devtool",
   "guides/Zcash_Improvement_Proposals.md": "مقترحات تحسين Zcash",
   "guides/Zenith_Installation.md": "تثبيت محفظة Zenith GUI ذات العقدة الكاملة",
@@ -199,7 +199,7 @@
   "tutorials/Exchanges.md": "منصات تداول Zcash",
   "tutorials/Full_Node_Tutorials.md": "شروحات Full Node",
   "tutorials/Using_Zcash.md": "دروس تعليمية لاستخدام Zcash",
-  "tutorials/Wallet_Tutorials.md": "دروس تعليمية لمحافظ Zcash",
+  "tutorials/Wallet_Tutorials.md": "دروس محافظ Zcash",
   "tutorials/shieldedNewsletter/readme.md": "النشرات الإخبارية المحمية",
   "tutorials/zenithserver/zenithBeta.md": "Zenith 0.10 Beta"
 }
