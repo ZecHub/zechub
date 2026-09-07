@@ -12887,11 +12887,11 @@
       "edited": false
     },
     "guides/Akash_Network_Zcashd.md": {
-      "src": "sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
+      "src": "sha256:f178e31448be3990d9fb6673450e836e199a1c0af8db6c4ce279b7c75cb0c471",
+      "src_commit": "19052dfb9958dc8ce2e224ce9627ee9e01635c8b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+dedupe-linkrepair",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -22835,11 +22835,11 @@
       "edited": false
     },
     "guides/Akash_Network_Zcashd.md": {
-      "src": "sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
+      "src": "sha256:f178e31448be3990d9fb6673450e836e199a1c0af8db6c4ce279b7c75cb0c471",
+      "src_commit": "19052dfb9958dc8ce2e224ce9627ee9e01635c8b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+dedupe-linkrepair",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -27809,11 +27809,11 @@
       "edited": false
     },
     "guides/Akash_Network_Zcashd.md": {
-      "src": "sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c",
-      "src_commit": "4278910bf8dd3f4ccc522204674bebe2839d960b",
+      "src": "sha256:f178e31448be3990d9fb6673450e836e199a1c0af8db6c4ce279b7c75cb0c471",
+      "src_commit": "19052dfb9958dc8ce2e224ce9627ee9e01635c8b",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B",
+      "tool": "nllb-200-3.3B+dedupe-linkrepair",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
