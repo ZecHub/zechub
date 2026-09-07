@@ -34,7 +34,7 @@ Ka oju-iwe [yii](https://zechub.wiki/privacy-tools/tor-and-i2p)
 
 [Ifiweranṣẹ Buloogi - FROST Awọn ilọsiwaju isodipupo olona asakale](https://zfnd.org/speeding-up-frost-with-multi-scalar-multiplication/) 
 
-[Itusilẹ ZF 🦓 Zebra 1.0.0-rc.9 fun idanwo!](https://github.com/ZcashFoundation/zebra/releases/tag/1.0.0-rc.9) 
+[Itusilẹ ZF 🦓 Zebra 1.0.0-rc.9 fun idanwo!](https://github.com/ZcashFoundation/zebra/releases/tag/v1.0.0-rc.9)
 
 [IPade osososu egbe ZF A/V ti wa ninu fidio](https://free2z.com/ZFAVClub/zpage/podcasting-for-privacy-insights-from-zcash-foundation-audiovisual-club-april-2023) 
 
