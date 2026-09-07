@@ -173,7 +173,7 @@
   "guides/Hardened_Zebrad.md": "ハードニングされたZebraフルノード",
   "guides/Keystone_Zashi.md": "ケーストーン Zashi ユーザー・ガイド",
   "guides/Maya_Protocol.md": "マヤ分散型取引所",
-  "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": "マイグレーションガイド: zcashd から Zebrad/Zallet へ",
+  "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": "移行ガイド：zcashd から Zebrad/Zallet へ",
   "guides/My_First_Zcash_Workbook.md": "はじめてのZcashワークブック",
   "guides/Nym_VPN.md": "Nym VPN",
   "guides/Raspberry_Pi_4_Full_Node.md": "Raspberry Pi 4でフルノードを運用する（Zebra + Zallet）",
@@ -199,7 +199,7 @@
   "tutorials/Exchanges.md": "Zcash取引所",
   "tutorials/Full_Node_Tutorials.md": "フルノードのチュートリアル",
   "tutorials/Using_Zcash.md": "Zcashの使用に関するチュートリアル",
-  "tutorials/Wallet_Tutorials.md": "Zcashウォレットチュートリアル",
+  "tutorials/Wallet_Tutorials.md": "Zcash ウォレットチュートリアル",
   "tutorials/shieldedNewsletter/readme.md": "シールドされたニュースレター",
   "tutorials/zenithserver/zenithBeta.md": "Zenith 0.10 ベータ版"
 }

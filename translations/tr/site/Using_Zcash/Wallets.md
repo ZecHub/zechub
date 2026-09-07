@@ -2,9 +2,9 @@
 ![logo](/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp "ZODL")
 - Cihazlar: Mobil
 - İşletim Sistemi: Android | iOS
-- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Hardware
-- Havuzlar: Şeffaf | Sapling | Orchard
-- Özellikler: Adres Defteri | CrossPay | Near Intents | Flexa Payments | MultiSignature | Ödeme Talebi | Korumalı Memo | Eşitlemeden önce harcama | TEX Adresi | Tor Desteği | F-droid
+- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Donanım
+- Havuzlar: Şeffaf | Sapling | Ironwood
+- Özellikler: Adres Defteri | CrossPay | Near Intents | Flexa Ödemeleri | Çoklu İmza | Ödeme Talebi | Korumalı Not | Senkronizasyondan Önce Harcama | TEX Adresi | Tor Desteği | F-droid
 - Ironwood: Hazır
 
 ---
@@ -13,9 +13,9 @@
 ![logo](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
 - Cihazlar: Mobil | Masaüstü
 - İşletim Sistemi: Android | iOS | Windows | Linux | macOS
-- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Hardware
-- Havuzlar: Şeffaf | Sapling | Orchard
-- Özellikler: Adres Defteri | Soğuk Depolama | Çeşitlendirilmiş Adres | Ödeme Talebi | Havuz Transferi | Korumalı Memo | TEX Adresi | Oylama | WarpSync
+- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Donanım
+- Havuzlar: Şeffaf | Sapling | Ironwood
+- Özellikler: Adres Defteri | Soğuk Depolama | Çeşitlendirilmiş Adres | Ödeme Talebi | Havuz Transferi | Korumalı Not | TEX Adresi | Oylama | WarpSync
 - Ironwood: Hazır Değil
 
 ---
@@ -25,7 +25,7 @@
 - Cihazlar: Mobil | Masaüstü
 - İşletim Sistemi: Android | iOS | Windows | Linux | macOS
 - Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address
-- Havuzlar: Sapling | Orchard
+- Havuzlar: Sapling | Ironwood
 - Özellikler: Discord Botu
 
 ---
@@ -35,8 +35,8 @@
 - Cihazlar: Mobil | Masaüstü
 - İşletim Sistemi: Android | iOS | Windows | Linux
 - Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address
-- Havuzlar: Şeffaf | Sapling | Orchard
-- Özellikler: Adres Defteri | Finansal İçgörüler | Ödeme Talebi | PepperSync | Korumalı Memo | Testnet Desteği
+- Havuzlar: Şeffaf | Sapling | Ironwood
+- Özellikler: Adres Defteri | Finansal İçgörüler | Ödeme Talebi | PepperSync | Korumalı Not | Testnet Desteği
 - Ironwood: Hazır
 
 ---
@@ -47,7 +47,7 @@
 - İşletim Sistemi: Android | iOS
 - Cüzdan Desteği: Seed Phrase | Unified Address
 - Havuzlar: Şeffaf | Sapling
-- Özellikler: Otomatik Koruma | DEX Takasları | Çoklu Coin | Korumalı Memo | Eşitlemeden önce harcama
+- Özellikler: Otomatik Koruma | DEX Takasları | Çoklu Coin | Korumalı Not | Senkronizasyondan Önce Harcama
 
 ---
 
@@ -56,8 +56,8 @@
 - Cihazlar: Mobil
 - İşletim Sistemi: Android | iOS
 - Cüzdan Desteği: Seed Phrase | Unified Address
-- Havuzlar: Şeffaf | Sapling | Orchard
-- Özellikler: DEX Takasları | Çoklu Coin | Eşitlemeden önce harcama
+- Havuzlar: Şeffaf | Sapling | Ironwood
+- Özellikler: DEX Takasları | Çoklu Coin | Senkronizasyondan Önce Harcama
 - Ironwood: Hazır
 
 ---
@@ -67,8 +67,8 @@
 - Cihazlar: Mobil | Masaüstü
 - İşletim Sistemi: Android | iOS | Windows
 - Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address
-- Havuzlar: Şeffaf | Sapling | Orchard
-- Özellikler: Adres Defteri | Adres Kontrolü | Otomatik Koruma | Çeşitlendirilmiş Adres | Ödeme Talebi | Korumalı Memo | TEX Adresi | Testnet Desteği
+- Havuzlar: Şeffaf | Sapling | Ironwood
+- Özellikler: Adres Defteri | Adres Kontrolü | Otomatik Koruma | Çeşitlendirilmiş Adres | Ödeme Talebi | Korumalı Not | TEX Adresi | Testnet Desteği
 
 ---
 
@@ -76,22 +76,22 @@
 ![logo](/content-images/zkool-1-22ab388e65.webp "Zkool")
 - Cihazlar: Mobil | Masaüstü
 - İşletim Sistemi: Android | iOS | Windows | Linux
-- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Hardware
-- Havuzlar: Şeffaf | Sapling | Orchard
-- Özellikler: Adres Rotasyonu | Geniş Anahtar Desteği | Şifreli Dışa Aktarmalar | FROST Multisig | Çoklu Hesap Eşitleme | Korumalı Memo | Testnet Desteği
+- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Donanım
+- Havuzlar: Şeffaf | Sapling | Ironwood
+- Özellikler: Adres Rotasyonu | Geniş Anahtar Desteği | Şifreli Dışa Aktarımlar | FROST Multisig | Çoklu Hesap Senkronizasyonu | Korumalı Not | Testnet Desteği
 - Ironwood: Hazır
 
 ---
 
 ## [Cake](https://cakewallet.com/install/)
 ![logo](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
-- Cihazlar: Mobil | Masaüstü 
+- Cihazlar: Mobil | Masaüstü
 - İşletim Sistemi: Android | iOS | Windows | Linux | macOS
 - Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address
-- Havuzlar: Şeffaf | Sapling | Orchard
-- Özellikler: Adres Defteri | Adres Rotasyonu | Otomatik Koruma | DEX Takasları | Çoklu Coin | Korumalı Memo | Tor Desteği
+- Havuzlar: Şeffaf | Sapling | Ironwood
+- Özellikler: Adres Defteri | Adres Rotasyonu | Otomatik Koruma | DEX Takasları | Çoklu Coin | Korumalı Not | Tor Desteği
 - Ironwood: Hazır
-  
+
 ---
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
@@ -99,8 +99,8 @@
 - Cihazlar: Masaüstü
 - İşletim Sistemi: Windows | Linux | macOS
 - Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Tam Düğüm
-- Havuzlar: Şeffaf | Sapling | Orchard
-- Özellikler: Adres Defteri | Grafik Arayüz | Korumalı Memo | Testnet Desteği
+- Havuzlar: Şeffaf | Sapling | Ironwood
+- Özellikler: Adres Defteri | Grafiksel Arayüz | Korumalı Not | Testnet Desteği
 
 ---
 
@@ -109,8 +109,8 @@
 - Cihazlar: Masaüstü
 - İşletim Sistemi: Windows | Linux | macOS
 - Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Tam Düğüm
-- Havuzlar: Şeffaf | Sapling | Orchard
-- Özellikler: Komut Satırı Arayüzü | PepperSync | Korumalı Memo | Testnet Desteği 
+- Havuzlar: Şeffaf | Sapling | Ironwood
+- Özellikler: Komut Satırı Arayüzü | PepperSync | Korumalı Not | Testnet Desteği
 - Ironwood: Devam Ediyor
 
 ---
@@ -120,8 +120,8 @@
 - Cihazlar: Masaüstü
 - İşletim Sistemi: Windows | Linux | macOS
 - Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Tam Düğüm
-- Havuzlar: Şeffaf | Sapling | Orchard
-- Özellikler: Alfa Sürümü | JSON-RPC Arayüzü | Korumalı Memo | Testnet Desteği
+- Havuzlar: Şeffaf | Sapling | Ironwood
+- Özellikler: Alfa Sürümü | JSON-RPC Arayüzü | Korumalı Not | Testnet Desteği
 - Ironwood: Hazır
 
 ---
@@ -131,8 +131,8 @@
 - Cihazlar: Masaüstü
 - İşletim Sistemi: Windows | Linux | macOS
 - Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Tam Düğüm
-- Havuzlar: Şeffaf | Sapling | Orchard
-- Özellikler: Komut Satırı Arayüzü | Çeşitlendirilmiş Adres | Korumalı Memo | Testnet Desteği
+- Havuzlar: Şeffaf | Sapling | Ironwood
+- Özellikler: Komut Satırı Arayüzü | Çeşitlendirilmiş Adres | Korumalı Not | Testnet Desteği
 - Ironwood: Hazır Değil
 
 ---
@@ -142,27 +142,27 @@
 - Cihazlar: Web
 - İşletim Sistemi: Tarayıcı
 - Cüzdan Desteği: Seed Phrase | Unified Address
-- Havuzlar: Şeffaf | Orchard
-- Özellikler: Korumalı Memo | Eşitlemeden önce harcama | Testnet Desteği
+- Havuzlar: Şeffaf | Ironwood
+- Özellikler: Korumalı Not | Senkronizasyondan Önce Harcama | Testnet Desteği
 
 ---
 
 ## [Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
-![logo](/content-images/metamask-25048569f6.webp  "Metamask")
+![logo](/content-images/metamask-25048569f6.webp "Metamask")
 - Cihazlar: Web
 - İşletim Sistemi: Tarayıcı
 - Cüzdan Desteği: Seed Phrase | Unified Address
-- Havuzlar: Şeffaf | Sapling | Orchard
+- Havuzlar: Şeffaf | Sapling | Ironwood
 - Özellikler: Çoklu Coin
 
 ---
 
 ## [Zucchini](https://zucchinifi.xyz/)
 ![logo](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
-- Cihazlar: Web 
+- Cihazlar: Web
 - İşletim Sistemi: Tarayıcı
 - Cüzdan Desteği: Seed Phrase | Unified Address
-- Havuzlar: Şeffaf | Sapling | Orchard
+- Havuzlar: Şeffaf | Sapling | Ironwood
 - Özellikler: DEX Takasları
 
 ---
@@ -211,8 +211,8 @@
 ![logo](/content-images/Keystone-1-8177a83308.webp "Keystone")
 - Cihazlar:
 - İşletim Sistemi:
-- Cüzdan Desteği: Hardware | Unified Address
-- Havuzlar: Şeffaf | Sapling | Orchard
+- Cüzdan Desteği: Donanım | Unified Address
+- Havuzlar: Şeffaf | Sapling | Ironwood
 - Özellikler: Çoklu Coin
 - Ironwood: Hazır
 
@@ -220,10 +220,10 @@
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
-- Cihazlar: 
+- Cihazlar:
 - İşletim Sistemi:
-- Cüzdan Desteği: Hardware
-- Havuzlar: Şeffaf 
+- Cüzdan Desteği: Donanım
+- Havuzlar: Şeffaf
 - Özellikler: Çoklu Coin
 - Ironwood: Devam Ediyor
 
@@ -233,7 +233,7 @@
 ![logo](/content-images/safepalcard-176b24c751.webp "Safepal")
 - Cihazlar: Mobil | Web
 - İşletim Sistemi: Android | iOS | Tarayıcı
-- Cüzdan Desteği: Seed Phrase | Hardware
+- Cüzdan Desteği: Seed Phrase | Donanım
 - Havuzlar: Şeffaf
 - Özellikler: Çoklu Coin
 
@@ -243,7 +243,7 @@
 ![logo](/content-images/trezor1-5004075d27.webp "Trezor")
 - Cihazlar:
 - İşletim Sistemi:
-- Cüzdan Desteği: Hardware
+- Cüzdan Desteği: Donanım
 - Havuzlar: Şeffaf
 - Özellikler: Çoklu Coin
 
@@ -262,9 +262,9 @@
 ![logo](/content-images/Vizorphoto-6ade2417a5.webp "Vizor")
 - Cihazlar: Masaüstü | Mobil
 - İşletim Sistemi: macOS
-- Cüzdan Desteği: Seed Phrase | Unified Address | Hardware
-- Havuzlar: Şeffaf | Sapling | Orchard
-- Özellikler: Otomatik Koruma | Korumalı Memo | Testnet Desteği | FROST Multisig
+- Cüzdan Desteği: Seed Phrase | Unified Address | Donanım
+- Havuzlar: Şeffaf | Sapling | Ironwood
+- Özellikler: Otomatik Koruma | Korumalı Not | Testnet Desteği | FROST Multisig
 - Ironwood: Hazır
 
 ---
@@ -274,7 +274,7 @@
 - Cihazlar: Web | Masaüstü
 - İşletim Sistemi: Tarayıcı
 - Havuzlar: Korumalı | Şeffaf
-- Özellikler: Tarayıcı Uzantısı | Korumalı İşlemler | Zincirler arası Takaslar | Borç Verme ve Borç Alma | DApp Bağlantıları | Rhea
+- Özellikler: Tarayıcı Eklentisi | Korumalı İşlemler | Zincirler Arası Takaslar | Borç Verme ve Alma | DApp Bağlantıları | Rhea
 - Ironwood: Hazır
 
 ---
@@ -283,7 +283,7 @@
 ![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
 - Cihazlar: Web | Masaüstü
 - İşletim Sistemi: Tarayıcı | Windows | macOS
-- Cüzdan Desteği: Seed Phrase | Harici Cüzdan | Alım Adresi | QR Kodu | Hardware
+- Cüzdan Desteği: Seed Phrase | Harici Cüzdan | Alım Adresi | QR Kodu | Donanım
 - Havuzlar: Sapling | Şeffaf
 - Özellikler: Çoklu Coin | Near Intents | Maya DEX | KYC Yok | Saklamasız | Web Uygulaması | Masaüstü Uygulaması | Korumalı ZEC | AnyPay
 - Ironwood: Hazır
@@ -292,22 +292,22 @@
 
 ## [Zapp](https://www.justzappit.xyz/app)
 ![logo](/content-images/zapp.webp "Zapp")
-- Cihazlar: Mobil 
-- İşletim Sistemi: Android 
-- Cüzdan Desteği: Unified Address 
-- Havuzlar: Şeffaf | Sapling | Orchard
-- Özellikler: Uçtan uca şifreli Mesajlaşma | NEAR Intents | P2P.me Offramp | Beta
+- Cihazlar: Mobil
+- İşletim Sistemi: Android
+- Cüzdan Desteği: Unified Address
+- Havuzlar: Şeffaf | Sapling | Ironwood
+- Özellikler: Uçtan Uca Şifreli Mesajlaşma Uygulaması | NEAR Intents | P2P.me Offramp | Beta
 - Ironwood: Hazır
-  
+
 ---
 
 ## [Zecd](https://zecd.org/quickstart.html)
 ![logo](/content-images/zecd.webp "Zecd")
-- Cihazlar: Masaüstü 
+- Cihazlar: Masaüstü
 - İşletim Sistemi: Linux
-- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Private Key | Spending Key | Cüzdan Yedeği / Anahtar Dışa Aktarma | Tam Düğüm Cüzdanı 
-- Havuzlar: Şeffaf | Sapling | Orchard | Sprout
-- Özellikler: Şifreli Memo | Cüzdan Yedeği (cüzdan verileri) | RPC Arayüzü | Korumalı Memo | Özel Anahtar Yönetimi
+- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Özel Anahtar | Harcama Anahtarı | Cüzdan Yedekleme / Anahtar Dışa Aktarma | Tam Düğüm Cüzdanı
+- Havuzlar: Şeffaf | Sapling | Ironwood | Sprout
+- Özellikler: Şifreli Not | Cüzdan Yedekleme (cüzdan verileri) | RPC Arayüzü | Korumalı Not | Özel Anahtar Yönetimi
 - Ironwood: Hazır
 
 ---
@@ -316,9 +316,9 @@
 ![logo](/content-images/zend.webp "Zend:Zcash Wallet")
 - Cihazlar: Mobil | Masaüstü
 - İşletim Sistemi: iOS | macOS
-- Cüzdan Desteği: Seed Phrase | Passkey | Unified Address | Private Key | Self-Custody Wallet 
-- Havuzlar: Şeffaf | Sapling | Orchard 
-- Özellikler: Self-Custody | Özel Anahtar Yerel Olarak Saklanır | KYC Gerektirmez | Cüzdan etkinliği için Zend sunucusuna bağımlılık yok | Şifreli Korumalı İşlem | Seed Kurtarma | Korumalı Memo | Passkey Kimlik Doğrulaması
+- Cüzdan Desteği: Seed Phrase | Passkey | Unified Address | Özel Anahtar | Kendi Saklamalı Cüzdan
+- Havuzlar: Şeffaf | Sapling | Ironwood
+- Özellikler: Kendi Saklama | Özel Anahtar Yerel Olarak Saklanır | KYC Gerekmez | Cüzdan Faaliyeti için Zend Sunucusu Bağımlılığı Yok | Şifreli Korumalı İşlem | Seed Kurtarma | Korumalı Not | Passkey Kimlik Doğrulaması
 
 ---
 
@@ -326,18 +326,29 @@
 ![logo](/content-images/nozy.webp "Nozy Wallet")
 - Cihazlar: Masaüstü | Tarayıcı
 - İşletim Sistemi: Linux | iOS | macOS
-- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Spending Key | HD Cüzdan | Özel Anahtar Yönetimi 
-- Havuzlar: Şeffaf | Sapling | Orchard 
-- Özellikler: Adres Defteri | Tor Desteği | I2P Desteği | Zebra/Zebrad Entegrasyonu | İşlem Geçmişi | İşlem Dışa Aktarma | Yerel Witness Türetme | Dinamik Ücret (ZIP-317) | NU6.2 Uyumluluğu | NU6.3 Geçiş Desteği | Korumalı Memo
+- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Harcama Anahtarı | HD Cüzdan | Özel Anahtar Yönetimi
+- Havuzlar: Şeffaf | Sapling | Ironwood
+- Özellikler: Adres Defteri | Tor Desteği | I2P Desteği | Zebra/zebrad Entegrasyonu | İşlem Geçmişi | İşlem Dışa Aktarma | Yerel Tanık Türetme | Dinamik Ücret (ZIP-317) | NU6.2 Uyumluluğu | NU6.3 Geçiş Desteği | Korumalı Not
 - Ironwood: Hazır
 
 ---
 
 ## [Zipher](https://github.com/atmospherelabs-dev/zipher-app)
 ![logo](/content-images/zipher.webp "Zipher")
-- Cihazlar: Mobil | Masaüstü 
+- Cihazlar: Mobil | Masaüstü
 - İşletim Sistemi: Android | Windows | Linux (CLI ve MCP Sunucusu) | iOS | macOS
-- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Çok Hesaplı Cüzdan | Self-Custody Wallet | Özel Anahtar Yönetimi | Ajan Cüzdan Desteği
-- Havuzlar: Şeffaf | Sapling | Orchard 
-- Özellikler: NEAR Intents | Ödeme Talepleri | Korumalı Memo | Varsayılan Korumalı İşlem | Testnet | Zincirler arası Takas | CipherPay | Viewing Key | AI Ajanı | MCP Sunucusu | CLI Cüzdanı | FROST | Beta 
+- Cüzdan Desteği: Seed Phrase | Viewing Key | Unified Address | Çoklu Hesap Cüzdanı | Kendi Saklamalı Cüzdan | Özel Anahtar Yönetimi | Agent Cüzdan Desteği
+- Havuzlar: Şeffaf | Sapling | Ironwood
+- Özellikler: NEAR Intents | Ödeme Talepleri | Korumalı Not | Varsayılan Korumalı İşlem | Testnet | Zincirler Arası Takas | CipherPay | Viewing Key | AI Agent | MCP Sunucusu | CLI Cüzdanı | FROST | Beta
 - Ironwood: Devam Ediyor
+
+---
+
+## [Argos](https://argos.sovright.com/)
+![logo](/content-images/argos.webp "Argos")
+- Cihazlar: Masaüstü
+- İşletim Sistemi: Windows | Linux | macOS
+- Cüzdan Desteği: Seed Phrase | Harcama Anahtarı | Özel Anahtar | Cüzdan Yedekleme / Anahtar Dışa Aktarma
+- Havuzlar: Şeffaf | Sapling | Ironwood | Sprout
+- Özellikler: Cüzdan Kurtarma | Komut Satırı Arayüzü | Korumalı Not | Testnet Desteği
+- Ironwood: Hazır

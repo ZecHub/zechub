@@ -1,47 +1,45 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/Zcash_Resources.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Zcash リソース
 
-Zcash を理解するのに役立つリソースがいくつかあります。
+ユーザーがZcashを理解するのに役立つリソースが数多くあります。
 
 **[Zcash Media](https://www.youtube.com/c/ZcashMedia)**
 
-Zcash Media は、Zcash に関する教育的なドキュメンタリーを作成する独立した組織です。彼らの最初の動画「Built to Fix Bitcoin's Fatal Flaw, What is Zcash (ZEC)?」は、Zcash の概要を理解するのに最適なものです。
+Zcash Mediaは、Zcashに関する教育的なドキュメンタリーを制作する独立組織です。最初の動画である「Built to Fix Bitcoin's Fatal Flaw, What is Zcash (ZEC)?」は、Zcashの優れた入門になります。
 
-**[Twitter](https://x.com)**
+**[X（旧Twitter）](https://x.com)**
 
-Twitter は、Zcash コミュニティおよびより広い暗号資産界隈のデファクトスタンダードのコミュニケーションハブです。Zcash 関連の最新情報や著名なコミュニティメンバーをフォローするのに最適な場所です。トップアカウントをフォローするための [ドキュメント](https://www.notion.so/zechub/Social-Media-Links-05b9df645af54de7a1989d9c4ccc4d05) があります。
+Twitterは、Zcashコミュニティおよびより広い暗号資産業界における事実上のコミュニケーション拠点です。Zcashに関する最新の動向を把握したり、著名なコミュニティメンバーをフォローしたりするのに最適な場所です。フォローすべき主要アカウントをまとめた[ドキュメント](https://www.notion.so/zechub/Social-Media-Links-05b9df645af54de7a1989d9c4ccc4d05)はこちらです。
 
 **[Zcash Community](https://www.zcashcommunity.com/)**
 
-Zcash Community は、コミュニティが運営するサイトで、Zcash エコシステムをサポートするコミュニティ主導のプロジェクトを紹介しています。Zcash コミュニティおよびそのさまざまな通貨としての応用に触れるのに最適な方法です。
+Zcash Communityは、Zcashエコシステムを支援するコミュニティ主導のプロジェクトを紹介する、コミュニティ運営のサイトです。Zcashコミュニティと、通貨としてのさまざまな活用方法を知るのに最適です。
 
-**[The Zcash Forum](https://forum.zcashcommunity.com/)**
+**[Zcash Forum](https://forum.zcashcommunity.com/)**
 
-新規ユーザー向けガイドにも記載されているように、Zcash フォーラムは、Zcash 関連のトピックや提案されたアイデアについて長文での議論を行うのに最適な場所です。すべての提案はフォーラムに掲載され、コミュニティが提案されたアイデアを検討・議論できるようにしています。
+新規ユーザーガイドで触れたように、ZcashフォーラムはZcashに関する話題や提案されたアイデアについて、長文で議論するのに最適な場所です。提案は常にフォーラムに掲載されるため、コミュニティは提案されたアイデアについて議論し、検討する機会を得られます。
 
 **[Z.cash](https://z.cash/)**
 
-Z.cash は Zcash の公式ウェブサイトです。幅広いユーザー向けに Zcash のコンテンツやドキュメントを提供し、新規ユーザーが Zcash に関する技術的な説明を深く理解できるようにしています。
+Z.cashはZcashのメインウェブサイトです。幅広いユーザー向けにZcashのコンテンツとドキュメントを提供し、新規ユーザーがZcashに関する技術的な説明をさらに深く学べるようにしています。
 
 **[Zcash Github](https://github.com/zcash/zcash)**
 
-プログラミングスキルがあり、Zcash の技術面についてさらに詳しく知りたいですか？Zcash GitHub リポジトリは [zcashd](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet)、最初の Zcash ノード実装のリポジトリです。
-
-> zcashd → Zebra + Zallet — https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet
+コーディングのスキルがあり、Zcashの技術面をより深く掘り下げたいですか？Zcash Github Repoは、最初のZcashノード実装であるzcashdのリポジトリです。zcashdは2026年7月18日に自動サポート終了停止に達し、現在は保守されていません。また、この項目が以前リンクしていたダウンロードページも提供されなくなっています。保守されているスタックは、ノード用の[Zebra](https://github.com/ZcashFoundation/zebra)とウォレット用の[Zallet](https://github.com/zcash/zallet)です。詳細は[zcashdからZebraおよびZalletへの移行ガイド](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet)を参照してください。
 
 **[Zcash Foundation Github](https://github.com/ZcashFoundation)**
 
-Zcash Foundation がホストしているもう一つの GitHub リポジトリで、[zebra](https://github.com/ZcashFoundation/zebra)（Rust 言語で実装された Zcash ノード）を含むプロジェクトがあります。
+Zcash Foundationのプロジェクトをホストするもう一つのGitHubリポジトリです。Rustで書かれたZcashノード実装である[zebra](https://github.com/ZcashFoundation/zebra)などが含まれます。
 
 **[Halo2](https://zcash.github.io/halo2/index.html)**
 
-ゼロ知識証明システムの背後にある概念について説明しています。
+ゼロ知識証明システムの背後にある概念。
 
 **[Zcash RPC Docs](https://zcash.github.io/rpc/)**
 
-zcashd に現在利用可能なすべてのコマンドの一覧です。
+zcashdが公開していたRPCコマンドの一覧です。保守されているウォレットのRPC機能については、[Zallet Book](https://zcash.github.io/zallet/)を参照してください。
 
-_この文書は未完成です_
+_これは未完成のドキュメントです_
