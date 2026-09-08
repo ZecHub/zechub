@@ -60,6 +60,7 @@ Igwe mmiri na-ekesa ọrụ ma kesaa ụgwọ ọrụ dabere na hashrate gị. H
 - **F2Pool (zec.f2pool.com)**: 2% ụgwọ, PPS + ịkwụ ụgwọ, nkwado ọtụtụ mkpụrụ ego. Nnukwu ọdọ mmiri (~2.57 GSol / s).
 - **ViaBTC (zec.viabtc.com)**: 2% ụgwọ (PPS +), onye ọrụ enyi na enyi dashboard, sava ụwa niile.
 - **AntPool (zec.antpool.com)**: 1% ụgwọ, site Bitmain, dị mma maka ASICs (~ 494 MSol / s).
+- ** Foundry Zcash Pool (foundrydigital.com/foundry-zcash-pool)**: Professional Zcash mining pool by Foundry Digital . Na -eji PPLNS ịkwụ ụgwọ, na -enye nsuso mmeghachi omume nke ọma yana nkwado ụlọ ọrụ. Ezigbo mma maka ndị ọrụ ASIC na nnukwu igwe; chọrọ nyocha akaụntụ.
 - **Sovright (mining.sovright.com)**: A Zcash ọdọ mmiri wuru na Stratum V2, ugbu a na-agba ọsọ dị ka ọha testnet. Ọ dịghị ndụ ZEC payouts ma, otú emeso ya dị ka ụzọ nwalee gị ntọlite kama ego isi iyi. Lee raara onwe ngalaba n'okpuru maka nkọwa.
 - Ndị ọzọ: Kryptex Pool, Luxor (lelee poolwatch.io/coin/zcash maka ọnụ ọgụgụ oge).
 
@@ -116,6 +117,25 @@ Ebe Sovright na-agba ọsọ n'elu Zcash testnet (NU6, Stratum V2), ọ bụgh�
 
 - Enweghị akaụntụ achọrọ ịmalite. Gosi CPU ma ọ bụ ASIC Equihash miner na ọdọ mmiri ahụ, òkè gị ga-apụta n'elu dashboard dị ndụ.
 - Sovright na-ebipụtakwa ihe nnọchiteanya Stratum V2 mepere emepe maka ndị ọrụ mọnk chọrọ ịhọrọ ndebiri nke ha kama ịnara naanị ebe a:
+
+### Nlekota Foundry Zcash Pool
+
+Maka ndị ọrụ Zcash Pool nke Foundry:
+
+- Nyochaa arụmọrụ ndị na-egwu ala site n'igbe mmiri nke Foundry.
+- Lelee:
+  - Ndị ọrụ na-arụsi ọrụ ike
+  - Akuko hashrate a kọrọ akụkọ ya
+  - Eke ndị a nabatara
+  - Ihe a na-atụ anya inweta n'aka ha
+  - Ọnọdụ ịkwụ ụgwọ
+
+N'ihi na Foundry jiri ihe nlele ụgwọ ọrụ PPLNS, ụgwọ ọrụ igwupụta akụ dabere na mbak enyere aka karịa windo onyinye ọdọ mmiri kama ịbụ naanị hashrate ozugbo.
+
+Usoro nlekota oru akwadoro:
+- Tụlee ASIC dashboard hashrate na Foundry kọrọ hashrate.
+- Nyochaa òkè ndị a jụrụ ajụ, nke ochie ma ọ bụ njikọ ejighị n'aka.
+- Debe njikọ netwọkụ kwụsiri ike n'ihi na nkwụsị oge belata òkè ndị a tụrụ aro yana ụgwọ ọrụ nwere ike.
   ```
   git clone https://github.com/sovright/mining-infra
   cd mining-infra

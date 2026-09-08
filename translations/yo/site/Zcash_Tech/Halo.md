@@ -102,11 +102,11 @@ ECC, Ile-iṣẹ Filecoin Foundation, Awọn ile-iṣelọpọ Protocol Labs ati
 
 ## Àwọn iṣẹ́ míì tí wọ́n ń lo Halo
 
-+ [Anoma, Àdéhùn ìyípadà atomiki tí ó ní ẹ̀rọ-ìmọ́lẹ̀ tó pọ̀ lọ́nà púpọ̀ ti ń dáàbò bo àṣírí](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
++ [Anoma, Àdéhùn ìyípadà atomiki tí ó ní ẹ̀rọ-ìmọ́lẹ̀ tó pọ̀ lọ́nà púpọ̀ ti ń dáàbò bo àṣírí](https://anoma.net/blog/hash-functions-in-plonkup)
 
 + [Oribis, ohun L2 zkRollup lori Cardano](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
-+ [Darkfi, a ikọkọ L1 zkEVM blockchain](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
++ [Darkfi, a ikọkọ L1 zkEVM blockchain](https://dark.fi/book/arch/arch.html)
 
 + [Iyípadà, a L2 zkRollup on Ethereum](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 
@@ -123,7 +123,7 @@ ECC, Ile-iṣẹ Filecoin Foundation, Awọn ile-iṣelọpọ Protocol Labs ati
 
 **Ìwé-ìfiweranṣẹ**
 
-[Àwọn ohun àmúṣọrọ̀ Halo 2](https://github.com/adria0/awesome-halo2)
+[Àwọn ohun àmúṣọrọ̀ Halo 2](https://github.com/mhchia/awesome-halo2)
 
 [Àwọn ìwé ìròyìn Halo 2](https://zcash.github.io/halo2/)
 

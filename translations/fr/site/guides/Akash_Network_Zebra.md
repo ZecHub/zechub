@@ -436,6 +436,6 @@ Commencez par le Testnet si vous testez simplement le processus de déploiement.
 
 **Documentation Zebra** : [https://zebra.zfnd.org/](https://zebra.zfnd.org/)
 
-**Explorateurs Zcash** : [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Explorateurs Zcash** : [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Discord Akash** : [https://discord.akash.network](https://discord.akash.network) (pour les problèmes liés aux fournisseurs)

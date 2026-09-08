@@ -129,6 +129,16 @@ Oludasile si Ywallet ti o ṣe atilẹyin awọn ẹya Zcash protocol tuntun p�
 Àwòrán tí kò ní ìdìbò ti ń gbé àwọn ohun èlò tó wà nínú rẹ̀ jáde, níbi tí gbogbo nǹkan wọ́n fi máa ń dé bí ZEC. Ó ṣe àtìlẹyìn fún oríṣiríṣi ọjà-ìpínlẹ̀ lórí pẹpẹ nípa NEAR Intents. 
 [Ìbẹ̀wò](https://tipz.cash/)
 
+### CYZE (ì í ì ë ¤)
+Àpò owó àti ètò àjọṣepọ̀ tí ó jẹ́ kí àwọn ọmọ ẹgbẹ́ pọ̀ láti ṣakoso ìpamọ Zcash papọ. Ó ńlo àlééfà aláṣẹ FROST, èyí tó fún àwùjọ láàyè láti fọwọsi ìṣòwò Orchard nípapọ̀ láì fi ẹnìkan ṣoṣo ṣe àkóso gbogbo ohun ti wọ́n bá lò lórí àpò náà.
+
+[Ìbẹ̀wò](https://github.com/USCMig/Cyze)
+
+### Ojú-ọ̀nà Pendrake
+Aago-oorun apamọwọ ti a ṣe apẹrẹ fun awọn ẹni kọọkan ati awọn ajo ti o nilo lati ṣetọju owo aabo laisi nini agbara lati lo wọn. O ṣe atilẹyin iṣowo ati iṣakoso iwontunwonsi, Orchard and Sapling notes, wiwo memo, itan ifowopamọ fiat, ifitonileti idoko-owo, fifipamọ apoti, ati awọn ẹya pinpin iboju aṣiri-aaye.
+
+[Ìbẹ̀wò](https://github.com/auzum197/pendrake-watch)
+
 ---
 
 ## Àwọn Àkọsílẹ̀, Ìsọfúnni àti àwọn Ètò-ìdarí Oríkàn (Dashboards)
@@ -185,6 +195,11 @@ A privacy-focused static website that aggregates Zcash news, statistics, and edu
 
 [Àjọ Ìjùmọ̀sọ́nà](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 
+### ZEC-OS (ìyẹn Ìpínlẹ̀ Ọsirélíà)
+Aretro-style desktop interface ti o darapọ orisirisi Zcash ilolupo eda abemi irinṣẹ ati alaye sinu ọkan ohun elo. O ni a blockchain explorer, mempool oluwo, nẹtiwọki iṣiro, itan awọn shatti, shielded pool info, iwakusa irinše, kan Unified Address decoder, calculator, ere, ebute, ati miiran utilities.
+
+[Ìbẹ̀wò](https://www.zec-os.com/)
+
 ---
 
 ## Àmì, Orúkọ àti Ìrírí Olùṣàmúlò
@@ -198,7 +213,7 @@ Awọn orukọ ti eniyan le ka fun awọn adirẹsi Zcash ni aabo (fun apẹẹr
 [Ìbẹ̀wò](https://www.justzappit.xyz/)
 
 ### Zentat (ìmọ̀ràn)
-Àfikún aṣàwákiri tí ó ń yí iye owó ẹyọ owo sí ZEC ní àkókò gidi bí o ṣe n ṣàmúlò ayélujára. 
+Àfikún aṣàwákiri tí ó ń yí iye owó ẹyọ owo sí ZEC ní ojúlówó àkókò bí o ṣe n ṣàmúlò ayélujára. 
 [Ìbẹ̀wò](https://chromewebstore.google.com/detail/zentat/lpndbahladndclecodadoljlplfaldac)
 
 ### Odi Tí Wọ́n Fi Ń Dáàbò Bo Ara Wọn
@@ -218,6 +233,11 @@ Awọn orukọ ti eniyan le ka fun awọn adirẹsi Zcash ni aabo (fun apẹẹr
 A privacy-preserving financial tracking and accounting tool for Zcash. It combines a public dashboard for transparent network data with local private accounting that uses viewing keys without exposing them, helping users track balances, transaction history, cost basis, and eventually budgeting and tax-ready reports while keeping their funds secure and private.
 
 [Ìbẹ̀wò](https://zecledger-web.vercel.app/)
+
+### Ìfọwọ́sí pẹ̀lú ZcashMe
+Eto idanimọ ti o ni idojukọ asiri eyiti o lo awọn iṣowo Zcash aabo bi ilana iwọle kan. Awọn olumulo ṣayẹwo koodu QR ati firanṣẹ idunadura idaniloju kekere kan.
+
+[Ìbẹ̀wò](https://github.com/zcashme/zns-login)
 
 ---
 
@@ -267,7 +287,7 @@ Awọn ohun elo ti o ni ẹtọ fun awọn owo-owo ati eto idibo Zcash, lati ṣ
 Zcash-abinibi DEX ti o mu awọn aabo ZEC sinu Web3 DeFi nipasẹ WalletConnect. 
 [Àjọ Ìjùmọ̀sọ́nà](https://forum.zcashcommunity.com/t/introducing-bazaarswap-bringing-zec-to-web3-defi/55479)
 
-### DCRDEX ì ¬ì§ ë ¤ë¥1⁄4 í 'ê3
+### DCRDEX ì ¬ì§ ë ¤ë¥1⁄4 í ' ê°
 Decreds decentralized exchange tí ó ń ṣe àtìlẹ́yìn fún Zcash. 
 [Ìbẹ̀wò](https://dex.decred.org)
 
@@ -279,6 +299,11 @@ Decreds decentralized exchange tí ó ń ṣe àtìlẹ́yìn fún Zcash.
 Àpérò AI tí ó pèsè ìwífún sí ọ̀pọ̀lọpọ̀ àwọn àwòṣe AI tó ń darí nígbàtí a sì n ṣe atilẹyin fún owó-ìsanwó cryptocurrency, títí kan Zcash.
 
 [Ìbẹ̀wò](https://nano-gpt.com/conversation/new)
+
+### zk.poker (ìdánwò)
+Àwòrán-ìṣirò pókítà tí ó jẹ́ ojúgba sí ojúgbà tó so ìdìbò láti òpin dé òpin, èrò orí pòkìtì àti ẹ̀rọ ìṣójútó Zcash. A ṣe é kí oníṣẹ́ kò nílò lati mọ àwọn káàdì ti olùdíje tàbí kó tọwọ́ bọ owó tẹtẹ ní tààràtà.
+
+[Ìbẹ̀wò](https://zkbtc.org/)
 
 
 ---

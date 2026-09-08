@@ -133,7 +133,7 @@ Transparante setup (geen vertrouwde setup) - Het voorverwerkingsalgoritme gebrui
 
 [Groth16](https://www.youtube.com/watch?v=QDplVkyncYQ): Vereist vertrouwde installatie, maar heeft zeer korte bewijzen die snel kunnen worden geverifieerd.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://cryptocurrencywiki.org/PLONK): Universeel vertrouwde setup.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Universeel vertrouwde setup.
 
 [DONKER](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK]( https://www.youtube.com/watch?v=wFZ_YIetK1o): Geen vertrouwde installatie, maar maak iets langere proefdrukken of het kan langer duren voordat de proef wordt uitgevoerd.
 

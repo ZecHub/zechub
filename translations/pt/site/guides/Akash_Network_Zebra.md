@@ -439,6 +439,6 @@ Comece com Testnet se você estiver apenas testando o processo de implantação.
 
 **Documentação do Zebra**: [https://zebra.zfnd.org/](https://zebra.zfnd.org/)
 
-**Exploradores de Zcash**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Exploradores de Zcash**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Discord da Akash**: [https://discord.akash.network](https://discord.akash.network) (para problemas com provedores)

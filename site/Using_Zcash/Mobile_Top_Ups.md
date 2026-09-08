@@ -23,7 +23,7 @@ The equivalent amount in $ZEC will be provided, along with a transparent address
 ![Step 4 - ZEC payment details](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
 
 ### 5. Send the payment
-Copy and paste the amount and address carefully. In the memo field, add your YWallet address in case there will be a refund.
+Copy and paste the amount and address carefully. In the memo field, add your own shielded address in case there will be a refund.
 
 ![Step 5 - Sending ZEC](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
 
@@ -36,6 +36,27 @@ Once the funds have been sent, your request will be processed within a few minut
 Hey… My line has been credited! You could also confirm your email during the payment process so you'll get notified via email once the transaction is completed.
 
 ![Step 7 - Successful top-up](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
+
+## Buying a top-up without an account
+
+The method above requires creating a Coinsbee account. If you would rather not, CardsRelay sells mobile top-ups for ZEC without registration.
+
+### 1. Choose your country and operator
+Visit [CardsRelay](https://cardsrelay.com) and open the Mobile Top Ups section. Over 750 operators are supported globally.
+
+### 2. Enter the number and amount
+Fill in the mobile number to be credited and choose the top-up value. The price shown is a single all-in total, with no separate exchange-rate markup added later.
+
+### 3. Enter your email
+An email address is required so the confirmation can be delivered, and it is verified before the order is placed. No account is created and no identity documents are requested.
+
+### 4. Pay with ZEC
+Select Zcash at checkout. ZEC is accepted directly rather than converted by a third party. A payment address and the exact amount are shown.
+
+### 5. Confirmation
+The top-up is processed and confirmation arrives by email, usually within seconds.
+
+CardsRelay also sells gift cards for around 2,500 brands, and accepts Monero and Zano alongside Zcash. It is operated by Payzy ME FZ Ltd.
 
 ---
 

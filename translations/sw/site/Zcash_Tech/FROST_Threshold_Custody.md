@@ -145,7 +145,7 @@ hatua ya kuanzia vitendo kwa timu zaidi: ** 2-ya-3** (kuweza kukabiliana, ushiri
 
 - [FROST — Technical Deep Dive](FROST.md)  maelezo ya usiri wa itifaki (DKG, saini raundi, uthibitisho usalama)
 - [YWallet FROST Demo Mwongozo](/guides/Ywallet_FROST_Demo)  hatua kwa hatua mikono-juu demo
-- [FROST Demo (frostdemo)](/guides/frostdemo)  Zcash Foundation demo kutembea kwa njia ya
+- [FROST Demo (frostdemo)](/guides/ywallet-frost-demo)  Zcash Foundation demo kutembea kwa njia ya
 - [Kuona funguo za](Viewing_Keys.md)  kusoma tu kupata anwani za ulinzi (mchanganyiko wa kuhifadhi kizingiti)
 - [Zcash Shielded Mali ya](Zcash_Shielded_Assets.md)  FROST pia ni muhimu miundombinu kwa ajili ya ZSA utoaji
 

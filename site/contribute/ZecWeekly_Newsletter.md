@@ -38,6 +38,8 @@ cd zechub
 git checkout -b digest-month-day-year
 ```
 
+Replace `YOUR-USERNAME` with your own GitHub username. The URL above is a placeholder and will not resolve as written.
+
 ### 3. Create the newsletter file
 
 Use the [newsletter template](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md) as your starting point. Newsletter editions belong in the [`newsletter`](https://github.com/ZecHub/zechub/tree/main/newsletter) folder.

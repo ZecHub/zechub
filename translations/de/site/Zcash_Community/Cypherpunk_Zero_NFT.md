@@ -15,7 +15,7 @@ Wir haben zu viele Projekte gesehen, die auf ihren NFT-Roadmaps zu viel versprec
 
 ## Governance
 
-[Snapshot](https://vote.cypherpunkzero.com/)
+[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth)
 
 [Guild](https://guild.xyz/cypherpunkzerodao)
 

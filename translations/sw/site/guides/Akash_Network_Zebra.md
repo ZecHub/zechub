@@ -439,7 +439,7 @@ Anza na Testnet kama wewe ni tu kupima mchakato wa kupelekwa. Angalia "Kubadilis
 
 ** Zebra Docs **: [https://zebra.zfnd.org/](https://zebra.zfnd.org/)
 
-** Zcash Explorers **: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+** Zcash Explorers **: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Akash Mzozo**: [https://discord.akash.network](https://discord.akash.network) (kwa masuala ya mtoa huduma)
 

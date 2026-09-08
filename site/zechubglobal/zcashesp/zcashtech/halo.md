@@ -92,11 +92,11 @@ ECC, la Filecoin Foundation, Protocol Labs y la Ethereum Foundation también tra
 
 ## Otros proyectos que utilizan Halo
 
-+ [Anoma, un protocolo de intercambio atómico multicanal que preserva la privacidad](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
++ [Anoma, un protocolo de intercambio atómico multicanal que preserva la privacidad](https://anoma.net/blog/hash-functions-in-plonkup)
 
 + [Oribis, un zkRollup L2 en Cardano](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
-+ [Darkfi, una cadena privada L1 zkEVM](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
++ [Darkfi, una cadena privada L1 zkEVM](https://dark.fi/book/arch/arch.html)
 
 + [Scroll, un zkRollup L2 en Ethereum](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 
@@ -113,7 +113,7 @@ ECC, la Filecoin Foundation, Protocol Labs y la Ethereum Foundation también tra
 
 **Documentación**
 
-[Recursos de Halo 2](https://github.com/adria0/awesome-halo2)
+[Recursos de Halo 2](https://github.com/mhchia/awesome-halo2)
 
 [Documentación de Halo 2](https://zcash.github.io/halo2/)
 

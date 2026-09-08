@@ -60,6 +60,7 @@ Awọn adagun iwakusa pin iṣẹ ati awọn ẹbun ipin ti o da lori hashrate r
 - **F2Pool (zec.f2pool.com)**: 2% owó, PPS+ ìsanwó, atilẹyin owo-owo pupọ. Àgbá ńlá (~2.57 GSol/s).
 - **ViaBTC (zec.viabtc.com)**: 2% owó-ìdílé (PPS+), àtẹ tí ó rọrùn láti lò, àwọn séràfẹẹsù kárí ayé.
 - **AntPool (zec.antpool.com)**: 1% owó, láti Bitmain, ó dára fún ASICs (~494 MSol/s).
+- **Foundry Zcash Pool (foundrydigital.com/foundry-zcash-pool/)**: Professional Zcash mining pool by Foundry Digital. Uses PPLNS payouts, offers transparent reward tracking and enterprise-grade support. Best suited for institutional and large-scale ASIC miners; requires account verification.
 - **Sovright (mining.sovright.com)**: A Zcash pool built on Stratum V2, currently running as a public testnet. No live ZEC payouts yet, so treat it as a way to test your setup rather than an earnings source. Wo abala ti o wa ni isalẹ fun awọn alaye. O le lo Bitcoin lati ṣe idanwo rẹ ati ki o gba owo-owo nipasẹ lilo wọn bi ohun elo kan ninu iṣowo iṣura tabi iṣẹ ṣiṣe titaja.
 - Àwọn míràn: Kryptex Pool, Luxor (wo poolwatch.io/coin/zcash fún àwọn ìṣirò ojú-ọjọ́).
 
@@ -116,6 +117,25 @@ Sovright (sovright.com) n ṣiṣẹ Stratum V2 mining pool ati a lọtọ block
 
 - Kò sí ìkànnì tí ó pọn dandan láti bẹ̀rẹ̀. Fi CPU tàbí ASIC Equihash miner hàn ní ibi ìṣùpọ̀ náà àti àwọn ìpín rẹ yóò farahan lórí àtẹ́lẹwọ́ kan tó wà láàyè.
 - Sovright tun ṣe atẹjade orisun ṣiṣi Stratum V2 aṣoju fun awọn oniwakiri ti o fẹ lati yan awọn awoṣe bulọọki tirẹ dipo ki wọn gba iṣẹ adagun:
+
+### Àkọlé àwòrán Ìtójútó ìsọ̀rí Zcash Pool
+
+Fun awọn olumulo Zcash Pool Foundry:
+
+- Ṣíṣe àyẹ̀wò iṣẹ́ àwọn tó ń wa ìrẹlẹ̀ nípasẹ̀ pápá ìṣàkóso ibi tí a ti máa ṣe ìdánrawò.
+- Ṣayẹwo:
+  - Àwọn òṣìṣẹ́ tó ń ṣiṣẹ́ kára
+  - Ìròyìn hashrate
+  - Àwọn ìpín tí wọ́n gbà
+  - Àwọn èrè tí a fojú díwọ̀n rèé
+  - Ìṣirò lórí ìsanwó ọjà
+
+Nitori Foundry lo awoṣe ere PPLNS, awọn ẹbun iwakusa da lori awọn ipin ti a ṣe alabapin ju window ere pool lọ dipo hashrate lẹsẹkẹsẹ nikan.
+
+Àwọn ìlànà àbáwò tí a dábàá:
+- Ṣe àfiwé ASIC dashboard hashrate pẹ̀lú Foundry tí wọ́n ròyìn.
+- Ṣe iwadii awọn ipin ti a kọ silẹ, awọn pinpin arugbo, tabi aiṣedede asopọ.
+- Ṣetọju asopọ nẹtiwọọki iduroṣinṣin nitori akoko isakurolewon dinku awọn ipin ti a fi silẹ ati ẹsan to ṣee ṣe.
   ```
   git clone https://github.com/sovright/mining-infra
   cd mining-infra

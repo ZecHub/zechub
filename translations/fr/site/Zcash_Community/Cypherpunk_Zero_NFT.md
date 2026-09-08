@@ -15,7 +15,7 @@ Nous avons vu trop de projets faire trop de promesses et pas assez de livraisons
 
 ## Gouvernance
 
-[Snapshot](https://vote.cypherpunkzero.com/)
+[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth)
 
 [Guild](https://guild.xyz/cypherpunkzerodao)
 

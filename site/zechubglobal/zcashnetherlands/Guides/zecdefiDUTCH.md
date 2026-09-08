@@ -7,9 +7,9 @@
 
 **Als u renZEC bezit, moet u het activum onmiddellijk overbruggen naar native ZEC op de Zcash-blockchain.**
 
-**Begrijp alsjeblieft dat de stappen in de RenBridge- en ZeroBridge-secties van deze handleiding niet moeten worden gevolgd totdat het Ren 2.0-netwerk live is en Zcash-ondersteuning is ingeschakeld. Zie deze [thread](https://forum.zcashcommunity.com/t/ren-1-0-being-sunset-bridge-renzec-to-native-zec-as-soon-as-possible/43393) voor meer details.**
+**Ren 2.0 is nooit gelanceerd en de RenBridge-dienst is gesloten: de bijbehorende stappen zijn uit deze handleiding verwijderd. Zie deze [thread](https://forum.zcashcommunity.com/t/ren-1-0-being-sunset-bridge-renzec-to-native-zec-as-soon-as-possible/43393) voor meer details.**
 
-Zcash-gebruikers zijn in staat om slimme Ethereum-contracten en bredere DeFi-applicaties te gebruiken met behoud van hun privacy via [@renprotocol](https://twitter.com/renprotocol) met behulp van dit 4-stappenproces:
+Zcash-gebruikers zijn in staat om slimme Ethereum-contracten en bredere DeFi-applicaties te gebruiken met behoud van hun privacy, met behulp van dit 4-stappenproces:
 
 
 ### Stap 1: Koop afgeschermde ZEC
@@ -42,25 +42,20 @@ Nu je ETH hebt ontvangen, ben je in staat om te communiceren met de veelheid aan
 
 ___
 
-### Stap 4: converteer ETH terug naar ZEC met behulp van RenBridge
+### Stap 4: converteer ETH terug naar ZEC
 
-Zodra u klaar bent om uit te betalen, converteert u uw ETH naar renZEC met behulp van:
+RenBridge is gesloten: Ren Protocol is stopgezet en het domein van de dienst bestaat niet meer.
 
-   [Uniswap](https://app.uniswap.org/#/swap?chain=mainnet)
- 
-   [SushiSwap](https://app.sushi.com/swap)
+Zodra u klaar bent om uit te betalen, converteert u uw ETH terug naar ZEC met behulp van:
 
+- [NEAR Intents](https://app.near-intents.org)
 
-Ga nu naar [RenBridge](https://bridge.renproject.io/mint)
-
--Selecteer "Vrijgeven"
-
--Plak uw bestemmingsadres en converteer uw renZEC terug naar Transparante ZEC (momenteel alleen T-adres beschikbaar).
+- [Maya Protocol](https://www.mayaprotocol.com/ecosystem#user-interfaces/)
 
 Binnen uw niet-bewarende portemonnee converteert u uw transparante ZEC automatisch naar afgeschermde ZEC.
 
 
-### Gefeliciteerd!! je hebt met succes je Zcash gebruikt om DeFi-applicaties aan boord te krijgen en te gebruiken op een privacybeschermende manier met renZEC.
+### Gefeliciteerd!! je hebt met succes je Zcash gebruikt om DeFi-applicaties aan boord te krijgen en te gebruiken op een privacybeschermende manier.
 
 ___
 ___

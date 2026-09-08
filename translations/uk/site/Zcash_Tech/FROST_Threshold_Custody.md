@@ -145,7 +145,7 @@ Coinbase створила промислову реалізацію FROST для
 
 - [FROST — технічний глибокий огляд](FROST.md) — криптографічні деталі протоколу (DKG, раунди підписання, докази безпеки)
 - [Посібник YWallet FROST Demo](/guides/Ywallet_FROST_Demo) — покрокова практична демонстрація
-- [FROST Demo (frostdemo)](/guides/frostdemo) — покроковий огляд демо від Zcash Foundation
+- [FROST Demo (frostdemo)](/guides/ywallet-frost-demo) — покроковий огляд демо від Zcash Foundation
 - [Viewing Keys](Viewing_Keys.md) — доступ лише для читання до екранованих адрес (доповнення до порогового зберігання)
 - [Екрановані активи Zcash](Zcash_Shielded_Assets.md) — FROST також є ключовою інфраструктурою для випуску ZSA
 

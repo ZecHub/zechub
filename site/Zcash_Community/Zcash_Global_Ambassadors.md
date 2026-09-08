@@ -22,23 +22,23 @@ Ambassadors have creative freedom over the activities they plan, enabling them t
 
 | Region | Community | Key Activity |
 |--------|-----------|-------------|
-| Latin America | [Zcash en Español](https://zcashesp.com) | Spanish content, ZK AV Club, Zcast podcast |
+| Latin America | [Zcash en Español](https://x.com/zcashesp1) | Spanish content, ZK AV Club, Zcast podcast |
 | Brazil | [Zcash Brazil](https://x.com/zcashbrazil) | Workshops, meetups, Shielded Magazine |
 | Turkey | [Zcash Turkey](https://x.com/ZcashTR) | Educational content, Istanbul Blockchain Week participation |
 | Arabia | [Zcash Arabia](https://x.com/ZcashArabia) | Arabic educational content, AMAs |
+| Ukraine| [Zcask Ukraine](https://x.com/Zcash_ua) | Ukraine |
 | Nigeria | [Zcash Nigeria](https://x.com/ZcashNigeria) | Developer education, community onboarding |
-| East Africa | [Zcash East Africa](https://forum.zcashcommunity.com/t/privacy-has-landed-in-south-africa-join-in/55706) | South Africa, Uganda community growth |
-| Kenya | [KBCC 2026 Activation](https://forum.zcashcommunity.com/t/zcash-gold-sponsorship-kenya-kbcc-2026-activation-privacy-workshop/55520) | Kenya Blockchain Conference sponsorship + privacy workshop |
-| Mexico | [CodeRaiz Mexico](https://forum.zcashcommunity.com/t/zcash-university-outreach-initiative-mexico-2026-coderaiz-proposal/55506) | University outreach and developer onboarding |
-| Tanzania | [Pesa Ya Siri](https://forum.zcashcommunity.com/t/pesa-ya-siri-making-zcash-a-household-name-in-tanzania/55558) | Making Zcash a household name in Tanzania |
+| East Africa | [Zcash East Africa](https://x.com/ZcashEastAfrica) | East Africa, Uganda community growth |
+| South Africa | [Zcash South Africa](https://twitter.com/Zcash_SA) | South Africa |
+| Ghana | [Zcash Ghana](https://x.com/ZcashGH) | Ghana |
+| Mexico | [zcashqro](https://x.com/zcashqro) | University outreach and developer onboarding |
 | Russia | [ruZcash](https://x.com/ruZCASH) | Russian-language content and community |
-| India | [Zcash India](https://forum.zcashcommunity.com/t/zcash-india-2026/54762) | Developer education and community growth |
+| India | [Zcash India](https://x.com/ZcashIND) | Developer education and community growth |
+| Korea | [Zcash Korea](https://x.com/zcashkorea) | Korean educational content |
 
 ## Apply to Become an Ambassador
-
-Interested in representing Zcash in your region? Visit [zcashambassadors.com](https://zcashambassadors.com) to learn about the program and apply.
 
 You can also get involved by:
 - Contributing to [ZecHub DAO](https://app.dework.xyz/zechub-2424) bounties
 - Joining the [Zcash Global Discord](https://discord.gg/zcash)
-- Attending the [ZODL Summit in Prague, July 8–10 2026](https://forum.zcashcommunity.com/t/zodl-summit-july-8-10-in-prague-czech-republic/55716)
+

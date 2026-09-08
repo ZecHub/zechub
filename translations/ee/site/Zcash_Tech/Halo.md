@@ -102,11 +102,11 @@ The [Ame ŋutɔ ƒe nyawo kple Scaling Exploration ƒuƒoƒo](https://appliedzkp
 
 ## Dɔ bubu siwo wowɔ to Halo zazã me
 
-+ [Anoma, si nye atɔmik ɖɔliɖɔli ƒe ɖoɖo si me kɔsɔkɔsɔ geɖe le si kpɔa ame ŋutɔ ƒe nyawo ta](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
++ [Anoma, si nye atɔmik ɖɔliɖɔli ƒe ɖoɖo si me kɔsɔkɔsɔ geɖe le si kpɔa ame ŋutɔ ƒe nyawo ta](https://anoma.net/blog/hash-functions-in-plonkup)
 
 + [Oribis, si nye L2 zkRollup si le Cardano dzi](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
-+ [Darkfi, si nye ame ŋutɔ ƒe L1 zkEVM blockchain](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
++ [Darkfi, si nye ame ŋutɔ ƒe L1 zkEVM blockchain](https://dark.fi/book/arch/arch.html)
 
 + [Scroll, si nye L2 zkRollup le Ethereum dzi](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 
@@ -123,7 +123,7 @@ The [Ame ŋutɔ ƒe nyawo kple Scaling Exploration ƒuƒoƒo](https://appliedzkp
 
 **Nuŋlɔɖiwo**
 
-[Halo 2 ƒe nunɔamesiwo](https://github.com/adria0/awesome-halo2)
+[Halo 2 ƒe nunɔamesiwo](https://github.com/mhchia/awesome-halo2)
 
 [Halo 2 ƒe nuŋlɔɖiwo](https://zcash.github.io/halo2/)
 

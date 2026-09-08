@@ -2,23 +2,25 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
 </a>
 
-# Tutoriales de carteras de Zcash
+# Tutoriales de wallets de Zcash
 
-A continuación se muestra una lista de tutoriales de carteras que pueden ayudarte a comenzar con ZEC.
+A continuación encontrarás una lista de tutoriales de wallets que pueden ayudarte a empezar con ZEC.
 
 
-- Cartera ZODL
+- Wallet Zodl 
 
 [![Miniatura del video](/content-images/hqdefault-a4a2a5de7f.webp)](https://www.youtube.com/watch?v=G92zBIr-Wms)
 
 ____
 
 
-- Comparación de carteras de Zcash
+- Comparación de wallets de Zcash
 
 [![Miniatura del video](/content-images/hqdefault-02389a1b67.webp)](https://www.youtube.com/watch?v=ao4ORC_VNcY)
 
 ____ 
+
+> Los tres videos de Ywallet a continuación se conservan como referencia. Ywallet ya no recibe mantenimiento y no se actualizará para Ironwood, por lo que ya no puede seguir la cadena. Elige una wallet con mantenimiento en la página de [Wallets](https://zechub.wiki/wallets).
 
 - Almacenamiento en frío de Ywallet
 
@@ -26,14 +28,14 @@ ____
 
 ____
 
-- Copia de seguridad por lotes de Ywallet
+- Respaldo por lotes de Ywallet
 
 [![Miniatura del video](/content-images/hqdefault-a374a413ed.webp)](https://www.youtube.com/watch?v=0skM-RziBv8)
 
 
 ____
 
-- Función Multipay de Ywallet
+- Función de pagos múltiples de Ywallet
 
 [![Miniatura del video](/content-images/hqdefault-789c84a8e4.webp)](https://www.youtube.com/watch?v=ovlNktpxURI)
 

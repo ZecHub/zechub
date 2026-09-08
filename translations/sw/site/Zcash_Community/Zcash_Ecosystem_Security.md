@@ -33,5 +33,5 @@ The Electric Coin Company na Zcash Foundation wote wanatii hii Ufafanuzi wa Waji
 
 - [Zcash Ushauri wa Usalama](https://github.com/zcash/zcash/security/advisories)
 - [Zebra Ushauri wa Usalama](https://github.com/ZcashFoundation/zebra/security/advisories)
-- [Ripoti udhaifu kwa ECC](https://electriccoin.co/blog/disclosure-of-a-major-bug-in-cryptonote-based-currencies/)
+- [Ripoti udhaifu kwa ECC](https://github.com/zcash/zcash/security/policy)
 - [Ripoti udhaifu kwa ZF](https://zfnd.org/contact/)

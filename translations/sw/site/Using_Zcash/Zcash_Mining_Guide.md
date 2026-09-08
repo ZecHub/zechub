@@ -60,6 +60,7 @@ Madini ya kuchimba madini hugawanya kazi na kushiriki thawabu kulingana na kiwan
 - **F2Pool (zec.f2pool.com)**: 2% ada, PPS + malipo, msaada wa sarafu nyingi. Hifadhi kubwa (~2.57 GSol / s).
 - ** ViaBTC (zec.viabtc.com)**: 2% ada (PPS +), dashboard ya urafiki wa mtumiaji, seva za ulimwengu.
 - ** AntPool (zec.antpool.com)**: 1% ada, kutoka Bitmain, nzuri kwa ASICs (~ 494 MSol / s).
+- ** Foundry Zcash Pool (foundrydigital.com/foundry-zcash-pool)**: Professional Zcash madini pool na Foundry Digital. Matumizi PPLNS payouts, inatoa uwazi malipo kufuatilia na biashara daraja la msaada. Bora inafaa kwa ajili ya taasisi na kubwa ASIC wachimbaji; inahitaji akaunti uthibitisho.
 - **Sovright (mining.sovright.com)**: Zcash pool kujengwa juu ya Stratum V2, sasa mbio kama testnet umma. Hakuna kuishi ZEC payouts bado, hivyo kutibu ni njia ya mtihani kuanzisha yako badala ya chanzo mapato. Angalia sehemu maalum chini kwa maelezo zaidi.
 - Wengine: Kryptex Pool, Luxor (angalia poolwatch.io/coin/zcash kwa takwimu za wakati halisi).
 
@@ -116,6 +117,25 @@ Hifadhi ya Sovright inaendesha kwenye mtandao wa jaribio la umma Zcash (NU6, Str
 
 - Hakuna akaunti inahitajika kuanza. Point CPU au ASIC Equihash mchimbaji katika bwawa na hisa yako kuonekana juu ya dashibodi kuishi.
 - Sovright pia kuchapisha chanzo wazi Stratum V2 wakala kwa wachimbaji ambao wanataka kuchagua violezo yao wenyewe kuzuia badala ya kuchukua tu kazi bwawa:
+
+### Ufuatiliaji Foundry Zcash Pool
+
+Kwa watumiaji Foundry Zcash Pool:
+
+- Monitor madini utendaji kupitia Foundry dashibodi pool.
+- Angalia:
+  - Wafanyakazi wa kazi ya nje
+  - Imearifiwa hashrate
+  - Hisa zilizokubaliwa
+  - Matokeo ya makadirio
+  - Hali ya malipo
+
+Kwa sababu Foundry anatumia PPLNS malipo mfano, madini zawadi hutegemea hisa kuchangia juu ya daraja la tuzo dirisha badala hashrate papo peke yake.
+
+Mapendekezo ya ufuatiliaji:
+- Linganisha ASIC dashibodi hashrate na Foundry taarifa hashrate.
+- Kuchunguza kukataliwa hisa, hisa stale, au uhusiano ukosefu wa utulivu.
+- Kudumisha uhusiano wa mtandao imara kwa sababu downtime hupunguza hisa zilizowasilishwa na tuzo zinazowezekana.
   ```
   git clone https://github.com/sovright/mining-infra
   cd mining-infra

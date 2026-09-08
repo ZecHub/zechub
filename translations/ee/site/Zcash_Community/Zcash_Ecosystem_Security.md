@@ -33,5 +33,5 @@ Electric Coin Company kple Zcash Foundation siaa wɔ ɖeka kple Agbanɔamedzi Ŋ
 
 - [Zcash Dedienɔnɔ Ŋuti Aɖaŋuɖolawo](https://github.com/zcash/zcash/security/advisories)
 - [Zebra Dedienɔnɔ Ŋuti Aɖaŋuɖolawo](https://github.com/ZcashFoundation/zebra/security/advisories)
-- [Ka nya ta tso Afɔku aɖe ŋu na ECC](https://electriccoin.co/blog/disclosure-of-a-major-bug-in-cryptonote-based-currencies/)
+- [Ka nya ta tso Afɔku aɖe ŋu na ECC](https://github.com/zcash/zcash/security/policy)
 - [Ka nya ta tso Afɔku aɖe si le ZF ŋu](https://zfnd.org/contact/)

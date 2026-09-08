@@ -145,7 +145,7 @@ Ebe mmalite dị irè maka ọtụtụ ìgwè: **2-nke-3** (na-eguzogide, nhazi 
 
 - [FROST — Technical Deep Dive](FROST.md)  nkọwapụta nke usoro (DKG, agba akaebe, ihe nchedo)
 - [YWallet FROST Ntuziaka ngosi](/guides/Ywallet_FROST_Demo)  nzọụkwụ site na-nzọụkwụ aka on ngosi
-- [Ihe ngosi FROST (ihe ngosipụta nke oyi) ](/guides/frostdemo)  Nnyocha ngosi nke Zcash Foundation
+- [Ihe ngosi FROST (ihe ngosipụta nke oyi) ](/guides/ywallet-frost-demo)  Nnyocha ngosi nke Zcash Foundation
 - [Ịhụ Igodo](Viewing_Keys.md)  naanị-agụ ohere na ezoro ezo adreesị (complementary ka ịgba njide)
 - [Zcash Shielded Assets] (Nke a bụ ihe ndị ọzọ)](Zcash_Shielded_Assets.md)  FROST bụkwa isi ihe eji emepụta ZSA
 

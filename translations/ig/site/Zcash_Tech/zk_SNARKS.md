@@ -161,7 +161,7 @@ Ntọala Transparent (Enweghị Ntọalụ Tụkwasịrị Obi) - Usoro nhazi nk
 
 [Groth16](https://www.youtube.com/watch?v=QDplVkyncYQ): Na-achọ Ntọala tụkwasịrị obi ma nwee ihe akaebe dị mkpirikpi nke enwere ike nyochaa ngwa ngwa.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://cryptocurrencywiki.org/PLONK): Ntọala a tụkwasịrị obi n'ụwa niile.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Ntọala a tụkwasịrị obi n'ụwa niile.
 
 [Ọchịchịrị](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[ỤRỤ](https://www.youtube.com/watch?v=wFZ_YIetK1o): Enweghị Ntọala tụkwasịrị obi ma mepụta ihe akaebe dịtụ ogologo ma ọ bụ nwere ike iwe ogologo oge maka ịgba ọsọ. 
 

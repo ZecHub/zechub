@@ -2,25 +2,25 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Improvement Proposals
+# Proposte di Miglioramento di Zcash
 
 <img width="672" height="378" alt="1" src="/content-images/fbce4a28-585b-4caa-b306-4cf06bcb5977-0b61791008.webp" />
 
 
 
 # Cos'è una ZIP
-Una Zcash Improvement Proposal (ZIP) è un documento di progettazione che fornisce informazioni alla community di Zcash, oppure che descrive una nuova funzionalità per Zcash o per i suoi processi o il suo ambiente. La ZIP dovrebbe fornire una specifica tecnica concisa della funzionalità e una motivazione per la stessa.
+Una Zcash Improvement Proposal (ZIP) è un documento di progettazione che fornisce informazioni alla comunità di Zcash oppure descrive una nuova funzionalità per Zcash, i suoi processi o il suo ambiente. La ZIP deve fornire una specifica tecnica concisa della funzionalità e una motivazione per essa.
 
-Intendiamo le ZIP come il meccanismo principale per proporre nuove funzionalità, per raccogliere il contributo della community su una questione e per documentare le decisioni di progettazione che sono confluite in Zcash. Gli Owner della ZIP (di solito gli autori) sono responsabili di costruire il consenso all'interno della community e di documentare le opinioni dissenzienti.
+Intendiamo le ZIP come il principale meccanismo per proporre nuove funzionalità, raccogliere il contributo della comunità su un problema e documentare le decisioni progettuali che hanno plasmato Zcash. Il/i proprietario/i della ZIP (di solito l'autore o gli autori) è/sono responsabile/i di costruire consenso all'interno della comunità e di documentare le opinioni dissenzienti.
 
-Poiché le ZIP sono mantenute come file di testo in un repository versionato, la loro cronologia delle revisioni è il registro storico della proposta della funzionalità.
+Poiché le ZIP sono mantenute come file di testo in un repository versionato, la loro cronologia delle revisioni costituisce il registro storico della proposta di funzionalità.
 
 -> [zips.z.cash](https://zips.z.cash)
 
 
 ## Editor delle ZIP
 
-Per ogni ZIP che arriva, essa deve sottoporsi al processo di review. Gli editor delle ZIP hanno il compito di garantire che il formato e il contenuto di qualsiasi ZIP descrivano adeguatamente termini, motivazione e modifiche tecniche apportate. 
+Per ogni ZIP che arriva, deve essere sottoposta al processo di revisione. Gli editor delle ZIP hanno il compito di garantire che il formato e il contenuto di qualsiasi ZIP descrivano adeguatamente termini, motivazioni e modifiche tecniche apportate. 
 
 ```markdown
 * Jack Grigg, Kris Nuttycombe and Daira-Emma Hopwood associated with the ECC.
@@ -28,26 +28,46 @@ Per ogni ZIP che arriva, essa deve sottoporsi al processo di review. Gli editor 
 * Sam and Mark, associated with SL.
 ```
 
-## ZIP in bozza attuali degne di nota
+## ZIP attuali degne di nota
 
-> Bozza: [Transarent Zcash Extensions](https://github.com/zcash/zips/blob/main/zip-0222)
+Gli stati e i titoli qui sotto sono stati verificati rispetto all'indice delle ZIP su [zips.z.cash](https://zips.z.cash/#index-of-zips) il 18 agosto 2026. Lo stato di una ZIP cambia nel tempo, quindi considera l'indice come fonte di verità.
 
-> Bozza: [Transfer and Burn of Zcash Shielded Assets](https://github.com/zcash/zips/blob/main/zip-0226)
+> Bozza: [Estensioni Trasparenti di Zcash](https://zips.z.cash/zip-0222)
 
-> Bozza: [Issuance of Zcash Shielded Assets](https://github.com/zcash/zips/blob/main/zip-0227)
+> Bozza: [Trasferimento e Burn degli Shielded Assets di Zcash](https://zips.z.cash/zip-0226)
 
-> Bozza: [Version 6 Transaction Format](https://github.com/zcash/zips/blob/main/zip-0230)
+> Bozza: [Emissione di Shielded Assets di Zcash](https://zips.z.cash/zip-0227)
 
-> Bozza: [Transaction Identifier Digests & Signature Validation for Transparent Zcash Extensions](https://github.com/zcash/zips/blob/main/zip-0245)
+> Ritirata: [Formato di Transazione Versione 6 Ritirato](https://zips.z.cash/zip-0230) — resa obsoleta da ZIP 229, che ora definisce la versione 6 della transazione. Vedi l'elenco di NU6.3 qui sotto.
 
-> Bozza: [Standardized Memo Field Format](https://github.com/zcash/zips/blob/main/zip-0302)
+> Bozza: [Digest dell'Identificatore di Transazione e Validazione delle Firme per le Estensioni Trasparenti di Zcash](https://zips.z.cash/zip-0245)
 
-> Bozza: [Sapling Address Signatures](https://github.com/zcash/zips/blob/main/zip-0304)
+> Bozza: [Formato Standardizzato del Campo Memo](https://zips.z.cash/zip-0302)
 
-> Bozza: [Light Client Protocol for Payment Detection](https://github.com/zcash/zips/blob/main/zip-0307.)
+> Bozza: [Firme degli Indirizzi Sapling](https://zips.z.cash/zip-0304)
 
-> Bozza: [Security Properties of Sapling Viewing Keys](https://github.com/zcash/zips/blob/main/zip-0310)
+> Bozza: [Protocollo Light Client per il Rilevamento dei Pagamenti](https://zips.z.cash/zip-0307)
 
-> Bozza: [Defining an Address Type to which funds can only be sent from Transparent Addresses](https://github.com/zcash/zips/blob/main/zip-0320)
+> Bozza: [Proprietà di Sicurezza delle Viewing Key Sapling](https://zips.z.cash/zip-0310)
 
-> Bozza: [Wallet.dat format](https://github.com/zcash/zips/blob/main/zip-0400)
+> Attiva: [Definizione di un Tipo di Indirizzo al quale i fondi possono essere inviati solo da Indirizzi Trasparenti](https://zips.z.cash/zip-0320)
+
+> Bozza: [Formato Wallet.dat](https://zips.z.cash/zip-0400)
+
+## ZIP di NU6.3 (Ironwood)
+
+NU6.3 è descritta nella ZIP 258, insieme alle ZIP aggiuntive elencate qui. L'insieme completo dei candidati è pubblicato nell'[indice delle ZIP](https://zips.z.cash/#nu6-3-candidate-zips).
+
+> Bozza: [Deployment del Network Upgrade NU6.3](https://zips.z.cash/zip-0258)
+
+> Bozza: [Formato di Transazione Versione 6](https://zips.z.cash/zip-0229)
+
+> Bozza: [Migrazione da Orchard a Ironwood](https://zips.z.cash/zip-0318)
+
+> Bozza: [Conseguenze di NU6.3 per i wallet](https://zips.z.cash/zip-0326)
+
+> Proposta: [Recuperabilità Quantistica di Ironwood](https://zips.z.cash/zip-2005)
+
+> Riservata: [Restrizione dei Trasferimenti nel Pool Orchard](https://zips.z.cash/zip-2006)
+
+Anche tre ZIP precedenti vengono aggiornate per NU6.3: [ZIP 209](https://zips.z.cash/zip-0209), [ZIP 213](https://zips.z.cash/zip-0213) e [ZIP 317](https://zips.z.cash/zip-0317).

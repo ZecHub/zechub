@@ -33,5 +33,5 @@ Electric Coin Company और Zcash Foundation दोनों इस [जिम�
 
 - [Zcash सुरक्षा सलाह](https://github.com/zcash/zcash/security/advisories)
 - [Zebra सुरक्षा सलाह](https://github.com/ZcashFoundation/zebra/security/advisories)
-- [ECC को एक दुर्बलता रिपोर्ट करें](https://electriccoin.co/blog/disclosure-of-a-major-bug-in-cryptonote-based-currencies/)
+- [ECC को एक दुर्बलता रिपोर्ट करें](https://github.com/zcash/zcash/security/policy)
 - [ZF को एक दुर्बलता रिपोर्ट करें](https://zfnd.org/contact/)

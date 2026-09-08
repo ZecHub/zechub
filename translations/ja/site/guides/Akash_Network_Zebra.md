@@ -439,6 +439,6 @@ RAMを節約しました。展開を終了し、少なくとも12Giのメモリ�
 
 **Zebra Docs**: [https://zebra.zfnd.org/](https://zebra.zfnd.org/)
 
-**Zcashエクスプローラー**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Zcashエクスプローラー**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Akash Discord**: [https://discord.akash.network](https://discord.akash.network)（提供者問題のため）

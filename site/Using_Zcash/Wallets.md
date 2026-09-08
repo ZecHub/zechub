@@ -3,7 +3,7 @@
 - Devices: Mobile
 - Operating System: Android | iOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
-- Pools: Transparent | Sapling | Orchard
+- Pools: Transparent | Sapling | Ironwood
 - Features: Address Book | CrossPay | Near Intents | Flexa Payments | MultiSignature | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | F-droid
 - Ironwood: Ready
 
@@ -14,7 +14,7 @@
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
-- Pools: Transparent | Sapling | Orchard
+- Pools: Transparent | Sapling | Ironwood
 - Features: Address Book | Cold Storage | Diversified Address | Payment Request | Pool Transfer | Shielded Memo | TEX Address | Voting | WarpSync
 - Ironwood: Not Ready
 
@@ -25,7 +25,7 @@
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
-- Pools: Sapling | Orchard
+- Pools: Sapling | Ironwood
 - Features: Discord Bot
 
 ---
@@ -35,7 +35,7 @@
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
-- Pools: Transparent | Sapling | Orchard
+- Pools: Transparent | Sapling | Ironwood
 - Features: Address Book | Financial Insights | Payment Request | PepperSync | Shielded Memo | Testnet Support
 - Ironwood: Ready
 
@@ -56,7 +56,7 @@
 - Devices: Mobile
 - Operating System: Android | iOS
 - Wallet Support: Seed Phrase | Unified Address
-- Pools: Transparent | Sapling | Orchard
+- Pools: Transparent | Sapling | Ironwood
 - Features: DEX Swaps | Multi Coin | Spend before Sync
 - Ironwood: Ready
 
@@ -67,7 +67,7 @@
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
-- Pools: Transparent | Sapling | Orchard
+- Pools: Transparent | Sapling | Ironwood
 - Features: Address Book | Address Check | Automatic Shielding | Diversified Address | Payment Request | Shielded Memo | TEX Address | Testnet Support
 
 ---
@@ -77,7 +77,7 @@
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
-- Pools: Transparent | Sapling | Orchard
+- Pools: Transparent | Sapling | Ironwood
 - Features: Address Rotation | Broad Key Support | Encrypted Exports | FROST Multisig | Multi-Account Sync | Shielded Memo | Testnet Support
 - Ironwood: Ready
 
@@ -85,13 +85,13 @@
 
 ## [Cake](https://cakewallet.com/install/)
 ![logo](/content-images/a8234c70-3714-4e80-b918-8739d45aea00-590b566e74.webp "Cake")
-- Devices: Mobile | Desktop 
+- Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address
-- Pools: Transparent | Sapling | Orchard
+- Pools: Transparent | Sapling | Ironwood
 - Features: Address Book | Address Rotation | Automatic Shielding | DEX Swaps | Multi Coin | Shielded Memo | Tor Support
 - Ironwood: Ready
-  
+
 ---
 
 ## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
@@ -99,7 +99,7 @@
 - Devices: Desktop
 - Operating System: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
-- Pools: Transparent | Sapling | Orchard
+- Pools: Transparent | Sapling | Ironwood
 - Features: Address Book | Graphical Interface | Shielded Memo | Testnet Support
 
 ---
@@ -109,8 +109,8 @@
 - Devices: Desktop
 - Operating System: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
-- Pools: Transparent | Sapling | Orchard
-- Features: Command Line Interface | PepperSync | Shielded Memo | Testnet Support 
+- Pools: Transparent | Sapling | Ironwood
+- Features: Command Line Interface | PepperSync | Shielded Memo | Testnet Support
 - Ironwood: In Progress
 
 ---
@@ -120,7 +120,7 @@
 - Devices: Desktop
 - Operating System: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
-- Pools: Transparent | Sapling | Orchard
+- Pools: Transparent | Sapling | Ironwood
 - Features: Alpha Release | JSON-RPC Interface | Shielded Memo | Testnet Support
 - Ironwood: Ready
 
@@ -131,7 +131,7 @@
 - Devices: Desktop
 - Operating System: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
-- Pools: Transparent | Sapling | Orchard
+- Pools: Transparent | Sapling | Ironwood
 - Features: Command Line Interface | Diversified Address | Shielded Memo | Testnet Support
 - Ironwood: Not Ready
 
@@ -142,27 +142,27 @@
 - Devices: Web
 - Operating System: Browser
 - Wallet Support: Seed Phrase | Unified Address
-- Pools: Transparent | Orchard
+- Pools: Transparent | Ironwood
 - Features: Shielded Memo | Spend before Sync | Testnet Support
 
 ---
 
 ## [Metamask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
-![logo](/content-images/metamask-25048569f6.webp  "Metamask")
+![logo](/content-images/metamask-25048569f6.webp "Metamask")
 - Devices: Web
 - Operating System: Browser
 - Wallet Support: Seed Phrase | Unified Address
-- Pools: Transparent | Sapling | Orchard
+- Pools: Transparent | Sapling | Ironwood
 - Features: Multi Coin
 
 ---
 
 ## [Zucchini](https://zucchinifi.xyz/)
 ![logo](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
-- Devices: Web 
+- Devices: Web
 - Operating System: Browser
 - Wallet Support: Seed Phrase | Unified Address
-- Pools: Transparent | Sapling | Orchard
+- Pools: Transparent | Sapling | Ironwood
 - Features: DEX Swaps
 
 ---
@@ -212,7 +212,7 @@
 - Devices:
 - Operating System:
 - Wallet Support: Hardware | Unified Address
-- Pools: Transparent | Sapling | Orchard
+- Pools: Transparent | Sapling | Ironwood
 - Features: Multi Coin
 - Ironwood: Ready
 
@@ -220,10 +220,10 @@
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
-- Devices: 
+- Devices:
 - Operating System:
 - Wallet Support: Hardware
-- Pools: Transparent 
+- Pools: Transparent
 - Features: Multi Coin
 - Ironwood: In Progress
 
@@ -263,7 +263,7 @@
 - Devices: Desktop | Mobile
 - Operating System: macOS
 - Wallet Support: Seed Phrase | Unified Address | Hardware
-- Pools: Transparent | Sapling | Orchard
+- Pools: Transparent | Sapling | Ironwood
 - Features: Automatic Shielding | Shielded Memo | Testnet Support | FROST Multisig
 - Ironwood: Ready
 
@@ -292,21 +292,21 @@
 
 ## [Zapp](https://www.justzappit.xyz/app)
 ![logo](/content-images/zapp.webp "Zapp")
-- Devices: Mobile 
-- Operating System: Android 
-- Wallet Support: Unified Address 
-- Pools: Transparent | Sapling | Orchard
+- Devices: Mobile
+- Operating System: Android
+- Wallet Support: Unified Address
+- Pools: Transparent | Sapling | Ironwood
 - Features: End-to-end encrypted Messenger | NEAR Intents | P2P.me Offramp | Beta
 - Ironwood: Ready
-  
+
 ---
 
 ## [Zecd](https://zecd.org/quickstart.html)
 ![logo](/content-images/zecd.webp "Zecd")
-- Devices: Desktop 
+- Devices: Desktop
 - Operating System: Linux
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Private Key | Spending Key | Wallet Backup / Key Export | Full Node Wallet 
-- Pools: Transparent | Sapling | Orchard | Sprout
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Private Key | Spending Key | Wallet Backup / Key Export | Full Node Wallet
+- Pools: Transparent | Sapling | Ironwood | Sprout
 - Features: Encrypted Memo | Wallet Backup (wallet data) | RPC Interface | Shielded Memo | Private Key Management
 - Ironwood: Ready
 
@@ -316,8 +316,8 @@
 ![logo](/content-images/zend.webp "Zend:Zcash Wallet")
 - Devices: Mobile | Desktop
 - Operating System: iOS | macOS
-- Wallet Support: Seed Phrase | Passkey | Unified Address | Private Key | Self-Custody Wallet 
-- Pools: Transparent | Sapling | Orchard 
+- Wallet Support: Seed Phrase | Passkey | Unified Address | Private Key | Self-Custody Wallet
+- Pools: Transparent | Sapling | Ironwood
 - Features: Self-Custody | Private Key Stored Locally | No KYC Required | No Zend Server Dependency for Wallet Activity | Encrypted Shielded Transaction | Seed Recovery | Shielded Memo | Passkey Authentication
 
 ---
@@ -326,8 +326,8 @@
 ![logo](/content-images/nozy.webp "Nozy Wallet")
 - Devices: Desktop | Browser
 - Operating System: Linux | iOS | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Spending Key | HD Wallet | Private Key Management 
-- Pools: Transparent | Sapling | Orchard 
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Spending Key | HD Wallet | Private Key Management
+- Pools: Transparent | Sapling | Ironwood
 - Features: Address Book | Tor Support | I2P Support | Zebra/Zebrad Integration | Transaction History | Transaction Export | Local Witness Derivation | Dynamic Fee (ZIP-317) | NU6.2 Compatibility | NU6.3 Migration Support | Shielded Memo
 - Ironwood: Ready
 
@@ -335,9 +335,20 @@
 
 ## [Zipher](https://github.com/atmospherelabs-dev/zipher-app)
 ![logo](/content-images/zipher.webp "Zipher")
-- Devices: Mobile | Desktop 
+- Devices: Mobile | Desktop
 - Operating System: Android | Windows | Linux (CLI and MCP Server) | iOS | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Multi Account Wallet | Self-Custody Wallet | Private Key Management | Agent Wallet Support
-- Pools: Transparent | Sapling | Orchard 
-- Features: NEAR Intents | Payment Requests | Shielded Memo | Shielded Transaction Default | Testnet | Cross-chain Swap | CipherPay | Viewing Key | AI Agent | MCP Server | CLI Wallet | FROST | Beta 
+- Pools: Transparent | Sapling | Ironwood
+- Features: NEAR Intents | Payment Requests | Shielded Memo | Shielded Transaction Default | Testnet | Cross-chain Swap | CipherPay | Viewing Key | AI Agent | MCP Server | CLI Wallet | FROST | Beta
 - Ironwood: In Progress
+
+---
+
+## [Argos](https://argos.sovright.com/)
+![logo](/content-images/argos.webp "Argos")
+- Devices: Desktop
+- Operating System: Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Spending Key | Private Key | Wallet Backup / Key Export
+- Pools: Transparent | Sapling | Ironwood | Sprout
+- Features: Wallet Recovery | Command Line Interface | Shielded Memo | Testnet Support
+- Ironwood: Ready

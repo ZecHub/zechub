@@ -9,9 +9,9 @@
 
 
 # Dɛn ne ZIP
-Zcash Nkɔsoɔ Nsusuiɛ (ZIP) yɛ nhyehyɛɛ nwoma a ɛde nsɛm ma Zcash mpɔtam hɔfoɔ, anaa ɛkyerɛkyerɛ ade foforɔ bi a ɛwɔ Zcash anaa ne nhyehyɛeɛ anaa ne mpɔtam. Ɛsɛ sɛ ZIP no de mfiridwuma ho nkyerɛkyerɛmu tiawa a ɛfa ade no ho ne ntease a ɛwɔ afã no ho ma.
+Zcash Nkɔsoɔ Nsusuiɛ (ZIP) yɛ nhyehyɛɛ nwoma a ɛde nsɛm ma Zcash mpɔtam hɔfoɔ, anaa ɛkyerɛkyerɛ adeɛ foforɔ bi a ɛwɔ Zcash anaa ne nhyehyɛeɛ anaa nneɛma a atwa yɛn ho ahyia mu. Ɛsɛ sɛ ZIP no de mfiridwuma ho nkyerɛkyerɛmu tiawa a ɛfa ade no ho ne ntease a ɛwɔ afã no ho ma.
 
-Yɛabɔ yɛn tirim sɛ ZIPs bɛyɛ ɔkwan titiriw a yɛbɛfa so ahyɛ nneɛma foforo ho nyansa, aboaboa mpɔtam hɔfo adwene ano wɔ asɛm bi ho, na yɛakyerɛw nhyehyɛe ho gyinaesi ahorow a akɔ Zcash mu no. ZIP (Wɔwura) (mpɛn pii no akyerɛwfo (akyerɛwfo)) no na ɛyɛ wɔn asɛyɛde sɛ wɔma adwene hyia wɔ mpɔtam hɔ na wɔkyerɛw adwene a ɛne wɔn ho nhyia.
+Yɛabɔ yɛn tirim sɛ ZIPs bɛyɛ ɔkwan titiriw a yɛbɛfa so ahyɛ nneɛma foforo ho nyansa, de aboaboa mpɔtam hɔfo adwene ano wɔ asɛm bi ho, na yɛakyerɛw nhyehyɛe ho gyinaesi ahorow a akɔ Zcash mu no. ZIP (Wɔwura) (mpɛn pii no akyerɛwfo (akyerɛwfo)) no na ɛyɛ wɔn asɛyɛde sɛ wɔma adwene koro wɔ mpɔtam hɔ na wɔkyerɛw adwene a ɛne wɔn ho nhyia.
 
 Esiane sɛ wɔhwɛ ZIP ahorow no so sɛ nsɛm fael wɔ versioned repository mu nti, wɔn nsakrae abakɔsɛm yɛ abakɔsɛm kyerɛwtohɔ a ɛfa feature proposal no ho.
 
@@ -28,27 +28,46 @@ ZIP biara a ɛbɛba no, ɛsɛ sɛ ɛfa nhwehwɛmu nhyehyɛe no mu. Wɔde adwuma 
 * Sam and Mark, associated with SL.
 ```
 
-## Mprempren Draft ZIP ahorow a ɛda nsow
+## Mprempren ZIP ahorow a ɛda nsow
 
-> Draft: [Transarent Zcash Ntrɛwmu](https://github.com/zcash/zips/blob/main/zip-0222)
+Wɔhwɛɛ tebea ne asɛmti ahorow a ɛwɔ ase ha no de totoo ZIP index no ho wɔ [zips.z.sika a wɔde yɛ adwuma](https://zips.z.cash/#index-of-zips) on 18 August 2026. ZIP tebea sesa bere a bere kɔ so no, enti fa index no sɛ nokware fibea.
 
-> Draft: [Zcash Shielded Assets a wɔde kɔ baabi foforo ne nea wɔhyew](https://github.com/zcash/zips/blob/main/zip-0226)
+> Atwerɛkan: [Zcash Ntrɛwmu a ɛda adi pefee](https://zips.z.cash/zip-0222)
 
-> Draft: [Zcash Shielded Assets a Wɔde Ma](https://github.com/zcash/zips/blob/main/zip-0227)
+> Atwerɛkan: [Zcash Shielded Assets a wɔde kɔ baabi foforo ne nea wɔhyew](https://zips.z.cash/zip-0226)
 
-> Draft: [Version 6 Nkitahodi Nhyehyɛe](https://github.com/zcash/zips/blob/main/zip-0230)
+> Atwerɛkan: [Zcash Shielded Assets a Wɔde Ma](https://zips.z.cash/zip-0227)
 
-> Draft: [Aguadi Identifier Digests & Nsaano Nkyerɛwee Validation ma Transparent Zcash Ntrɛwmu](https://github.com/zcash/zips/blob/main/zip-0245)
+> Wɔatwe wɔn ho afi ho: [Wɔatwe Version 6 Nkitahodi Nhyehyɛe](https://zips.z.cash/zip-0230) — ZIP 229 a seesei ɛkyerɛkyerɛ asɛmdi version 6. Hwɛ NU6.3 list a ɛwɔ aseɛ ha no ayɛ dedaw.
 
-> Nsɛm a Wɔakyerɛw: [Memo Field Format a Wɔayɛ no Gyinapɛn](https://github.com/zcash/zips/blob/main/zip-0302)
+> Atwerɛkan: [Nkitahodi Identifier Digests & Nsaano Nkyerɛwee Validation ma Transparent Zcash Ntrɛwmu](https://zips.z.cash/zip-0245)
 
-> Draft: [Sapling Address Nsaano Nkyerɛwee](https://github.com/zcash/zips/blob/main/zip-0304)
+> Atwerɛkan: [Standardized Memo Field Format a Wɔde Di Dwuma](https://zips.z.cash/zip-0302)
 
-> Draft: [Light Client Protocol a Wɔde Hu Katua](https://github.com/zcash/zips/blob/main/zip-0307.)
+> Atwerɛkan: [Sapling Address Nsaano Nkyerɛwee](https://zips.z.cash/zip-0304)
 
-> Draft: [Ahobammɔ Su a ɛwɔ Sapling Viewing Keys mu](https://github.com/zcash/zips/blob/main/zip-0310)
+> Atwerɛkan: [Light Client Protocol a Wɔde Hu Katua](https://zips.z.cash/zip-0307)
 
-> Draft: [Address Type a wobetumi de sika afi Transparent Addresses nkutoo mu akɔ hɔ a wɔbɛkyerɛkyerɛ mu](https://github.com/zcash/zips/blob/main/zip-0320)
+> Atwerɛkan: [Ahobammɔ Su ahorow a ɛwɔ Sapling Viewing Keys mu](https://zips.z.cash/zip-0310)
 
-> Nsɛm a Wɔakyerɛw: [Wallet.dat nhyehyɛe](https://github.com/zcash/zips/blob/main/zip-0400)
+> Asɔ: [Address Type a wobetumi de sika afi Transparent Addresses nkutoo mu akɔ hɔ a wɔbɛkyerɛkyerɛ mu](https://zips.z.cash/zip-0320)
 
+> Atwerɛkan: [Wallet.dat kwan a wɔfa so yɛ no](https://zips.z.cash/zip-0400)
+
+## NU6.3 (Dade) ZIP ahorow
+
+Wɔakyerɛkyerɛ NU6.3 mu wɔ ZIP 258 mu, ne ZIP afoforo a wɔabobɔ din wɔ ha no. Wotintim candidate set a edi mũ no wɔ... [ZIP nkyerɛkyerɛmu](https://zips.z.cash/#nu6-3-candidate-zips).
+
+> Atwerɛkan: [NU6.3 Network Upgrade no a wɔde bedi dwuma](https://zips.z.cash/zip-0258)
+
+> Atwerɛkan: [Version 6 Nkitahodi Nhyehyɛe](https://zips.z.cash/zip-0229)
+
+> Atwerɛkan: [Orchard to Ironwood Migration](https://zips.z.cash/zip-0318)
+
+> Atwerɛkan: [NU6.3 Nea efi mu ba ma Walets](https://zips.z.cash/zip-0326)
+
+> Wɔahyɛ nyansa sɛ: [Ironwood Quantum a Wɔde Yɛ Nneɛma a Wɔde Yɛ Adwuma](https://zips.z.cash/zip-2005)
+
+> Wɔakora so: [Anohyeto a Wɔde Bɛma Wɔde Wɔn Kɔ Orchard Pool no mu](https://zips.z.cash/zip-2006)
+
+Wɔayɛ ZIP abiɛsa a atwam nso foforo ama NU6.3: [ZIP 209 na ɛwɔ hɔ](https://zips.z.cash/zip-0209), [ZIP 213 na ɛwɔ hɔ](https://zips.z.cash/zip-0213) ne [ZIP 317 na ɛwɔ hɔ](https://zips.z.cash/zip-0317).

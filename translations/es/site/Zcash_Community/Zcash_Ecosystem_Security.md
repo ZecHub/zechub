@@ -33,5 +33,5 @@ Electric Coin Company y Zcash Foundation se ajustan a este [estándar](https://g
 
 - [Avisos de seguridad de Zcash](https://github.com/zcash/zcash/security/advisories)
 - [Avisos de seguridad de Zebra](https://github.com/ZcashFoundation/zebra/security/advisories)
-- [Reportar una vulnerabilidad a ECC](https://electriccoin.co/blog/disclosure-of-a-major-bug-in-cryptonote-based-currencies/)
+- [Reportar una vulnerabilidad a ECC](https://github.com/zcash/zcash/security/policy)
 - [Reportar una vulnerabilidad a ZF](https://zfnd.org/contact/)

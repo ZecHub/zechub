@@ -1,5 +1,7 @@
 # Ywallet FROST demo
 
+> **Ywallet is no longer maintained.** Its developer has confirmed it will not be updated for Ironwood (NU6.3), so it can no longer follow the chain and the steps below cannot be completed on mainnet. This page is kept for reference. Zkool, from the same developer, is the maintained successor and supports FROST multisig.
+
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"

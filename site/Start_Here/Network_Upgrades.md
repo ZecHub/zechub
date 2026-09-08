@@ -16,6 +16,6 @@ For the visual story of how Zcash's privacy has evolved across these upgrades, s
 | [NU6](../zcash-tech/nu6) | November 23, 2024 | 2,726,400 | c8e71055 | The Deferred Dev Fund Lockbox and a new development funding split |
 | [NU6.1](../zcash-tech/nu6-1) | November 24, 2025 | 3,146,400 | 4dec4df0 | Community and coin-holder governance of that funding |
 | [NU6.2](../zcash-tech/nu6-2) | June 3, 2026 | 3,364,600 | 5437f330 | An emergency fix that corrected the Orchard circuit |
-| [Ironwood (NU6.3)](../zcash-tech/ironwood) | ~July 28, 2026 | 3,428,143 | 37a5165b | The Ironwood pool and a public turnstile that lets anyone audit the supply |
+| [Ironwood (NU6.3)](../zcash-tech/ironwood) | July 28, 2026 | 3,428,143 | 37a5165b | The Ironwood pool and a public turnstile that lets anyone audit the supply |
 
-Dates are shown in UTC. Some dashboards show them in local time, which is the same block and the same moment. Ironwood's date is an estimate from its activation block height, which is the fixed trigger, so the exact day may shift slightly. A future upgrade, NU7, is still in planning and is not the same as Ironwood.
+Dates are shown in UTC. Some dashboards show them in local time, which is the same block and the same moment. The fixed trigger for every upgrade is its activation block height, not the calendar date: Ironwood activated at block 3,428,143. A future upgrade, NU7, is still in planning and is not the same as Ironwood.

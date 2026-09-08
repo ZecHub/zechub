@@ -145,7 +145,7 @@
 
 - [FROST — شرح تقني متعمق](FROST.md) — التفاصيل التشفيرية للبروتوكول (DKG، جولات التوقيع، براهين الأمان)
 - [دليل العرض التجريبي لـ YWallet FROST](/guides/Ywallet_FROST_Demo) — عرض عملي خطوة بخطوة
-- [العرض التجريبي لـ FROST (frostdemo)](/guides/frostdemo) — شرح تجريبي من Zcash Foundation
+- [العرض التجريبي لـ FROST (frostdemo)](/guides/ywallet-frost-demo) — شرح تجريبي من Zcash Foundation
 - [Viewing Keys](Viewing_Keys.md) — وصول للقراءة فقط إلى العناوين المحمية (مكمل للحفظ الحدّي)
 - [أصول Zcash المحمية](Zcash_Shielded_Assets.md) — يُعد FROST أيضًا بنية تحتية أساسية لإصدار ZSA
 

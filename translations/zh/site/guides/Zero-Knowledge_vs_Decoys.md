@@ -46,13 +46,13 @@ Zcash 和 Monero 都是以隐私为重点的加密货币，但它们实现隐私
 2) **可选可见性**：Zcash 允许用户在透明（非隐私）交易和屏蔽（隐私）交易之间进行选择。这意味着 Zcash 为用户提供了灵活性：他们既可以像 [Zcash 官网](https://z.cash/learn/what-is-the-difference-between-shielded-and-transparent-zcash/) 所解释的那样，将自己的财务信息保持私密（屏蔽），也可以像大多数其他区块链那样使其透明并公开可见。这种可选择加入的隐私机制带来了更大的灵活性以及与业务/组织相关的使用场景，因为某些交易可能为了接受公众审查而需要较少隐私，而另一些交易则受益于更强的隐私保护。
 
 
-3) **匿名集**：[匿名集](https://blog.wasabiwallet.io/what-is-the-difference-between-an-anonymity-set-and-an-anonymity-score/) 是指零知识屏蔽池中*曾经*发生过的所有交易。这一规模明显大于大多数其他用于实现交易不可关联性的链上技术。注意：这仅适用于同一屏蔽池内的交易。
+3) **匿名集**：[匿名集](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-is-the-difference-between-anonymity-set-and-anonymity-score) 是指零知识屏蔽池中*曾经*发生过的所有交易。这一规模明显大于大多数其他用于实现交易不可关联性的链上技术。注意：这仅适用于同一屏蔽池内的交易。
 
 诱饵的使用确实会扩大匿名集。然而，这种方法完全依赖于网络中*真实*用户的数量。
 
 4) **无需可信设置**：Zcash 的 Sprout 和 Sapling 设置使用了一种称为“可信设置仪式”的多方计算。近期的 NU5 升级不再需要对零知识电路设置完整性的信任。[阅读 ECC 关于 NU5 的博客](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/)。
 
-5) **数据隐私**：Zcash 屏蔽池中使用的 [zk-SNARK technology](https://wiki.zechub.xyz/zcash-technology) 可为用户带来显著增强的安全性。链上元数据泄露的减少意味着用户能够免受潜在黑客或压迫性国家机构等对手的威胁。
+5) **数据隐私**：Zcash 屏蔽池中使用的 [zk-SNARK technology](https://zechub.wiki/zcash-technology) 可为用户带来显著增强的安全性。链上元数据泄露的减少意味着用户能够免受潜在黑客或压迫性国家机构等对手的威胁。
 
 Monero 的诱饵选择算法曾多次被发现存在漏洞。根据 [Coindesk](https://coindesk.com/markets/2021/07/27/bug-found-in-decoy-algorithm-for-privacy-coin-monero) 的报道，这些漏洞有可能暴露用户的支出行为。
 

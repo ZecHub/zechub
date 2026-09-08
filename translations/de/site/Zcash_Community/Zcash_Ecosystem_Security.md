@@ -33,5 +33,5 @@ Die Electric Coin Company und Zcash Foundation entsprechen beide diesem Standard
 
 - [Sicherheitshinweise für Zcash](https://github.com/zcash/zcash/security/advisories)
 - [Sicherheitshinweise für Zebra](https://github.com/ZcashFoundation/zebra/security/advisories)
-- [Eine Schwachstelle an ECC melden](https://electriccoin.co/blog/disclosure-of-a-major-bug-in-cryptonote-based-currencies/)
+- [Eine Schwachstelle in zcash/zcash melden](https://github.com/zcash/zcash/security/policy) — ersetzt die Electric Coin Company-Adresse, auf die dieser Eintrag verwies und die nicht mehr erreichbar ist.
 - [Eine Schwachstelle an ZF melden](https://zfnd.org/contact/)

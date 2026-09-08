@@ -4,7 +4,7 @@
 
 # Ironwood
 
-> Ironwood activates on Zcash mainnet at block 3,428,143, expected around July 28, 2026 UTC.
+> Ironwood activated on Zcash mainnet at block 3,428,143 on July 28, 2026 UTC, and has been live since.
 
 What you'll take away: what Ironwood changes, why a bug in hidden money is serious, and how the turnstile lets anyone confirm that no ZEC was forged.
 
@@ -34,7 +34,7 @@ Importantly, there is no evidence the bug was ever exploited, no evidence of imp
 
 The Zcash community shipped fixes in stages rather than all at once.
 
-![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activates around July 28, 2026](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
+![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activated at block 3,428,143 on July 28, 2026](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/ironwood-timeline.png)
 
 1. In early June 2026, a temporary measure disabled the Orchard pool while a full fix was prepared.
 2. The NU6.2 upgrade corrected the Orchard circuit itself, closing the underlying soundness vulnerability.
@@ -46,7 +46,7 @@ The Zcash community shipped fixes in stages rather than all at once.
 
 NU6.2 secured the Orchard circuit for all new transactions, but value created under the old rules still sits in the Orchard pool. Ironwood gives that value a clean destination and a way to audit it as it moves.
 
-The Ironwood pool is a new shielded value pool created when NU6.3 activates. It is built on the corrected circuit and uses a quantum-recoverable note format (a design that lets funds be recovered if [quantum computers](../zcash-tech/post-quantum-security) ever break today's cryptography), defined in [ZIP 2005](https://zips.z.cash/zip-2005).
+The Ironwood pool is the shielded value pool created by NU6.3 at block 3,428,143. It is built on the corrected circuit and uses a quantum-recoverable note format (a design that lets funds be recovered if [quantum computers](../zcash-tech/post-quantum-security) ever break today's cryptography), defined in [ZIP 2005](https://zips.z.cash/zip-2005).
 
 1. After activation, the old Orchard pool becomes spend-only, so no new value may enter it.
 2. Newly shielded value flows into Ironwood instead.
