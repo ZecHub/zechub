@@ -132,7 +132,7 @@ Configuración Transparente (Configuración no confiable) – El procesamiento d
 
 [Groth16](https://www.youtube.com/watch?v=QDplVkyncYQ): Requiere configuración confiable, pero tiene muy pocas pruebas que puedan ser verificadas rápidamente.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://cryptocurrencywiki.org/PLONK): Universalmente Confiable.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Universalmente Confiable.
 
 [DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Configuración no confiable, pero produce ligeramente pruebas más largas o puede tomar más tiempo al probador ejecutarla.
 

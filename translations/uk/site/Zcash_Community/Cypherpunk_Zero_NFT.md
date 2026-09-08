@@ -15,7 +15,7 @@ Cypherpunk Zero — це серія оповідей, у центрі яких Z
 
 ## Управління
 
-[Snapshot](https://vote.cypherpunkzero.com/)
+[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth)
 
 [Guild](https://guild.xyz/cypherpunkzerodao)
 

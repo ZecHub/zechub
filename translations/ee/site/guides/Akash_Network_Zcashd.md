@@ -512,7 +512,7 @@ When your balance runs low, Akash will auto-close your deployment. **Top up your
 
 **Akash ƒe Nuŋlɔɖiwo**: [https://akash.network/docs/](https://akash.network/docs/)
 
-**Zcash Nukulawo**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Zcash Nukulawo**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Akash ƒe Masɔmasɔ**: [https://discord.akash.network](https://discord.akash.network) (na dɔwɔƒe si naa kpekpeɖeŋu ƒe nyawo)
 

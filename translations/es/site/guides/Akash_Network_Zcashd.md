@@ -512,7 +512,7 @@ Cuando tu saldo sea bajo, Akash cerrará automáticamente tu despliegue. **Recar
 
 **Documentación de Akash**: [https://akash.network/docs/](https://akash.network/docs/)
 
-**Exploradores de Zcash**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Exploradores de Zcash**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Discord de Akash**: [https://discord.akash.network](https://discord.akash.network) (para problemas con proveedores)
 

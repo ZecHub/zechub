@@ -33,5 +33,5 @@ Electric Coin Company와 Zcash Foundation 모두 이 [책임 있는 공개](http
 
 - [Zcash 보안 공지](https://github.com/zcash/zcash/security/advisories)
 - [Zebra 보안 공지](https://github.com/ZcashFoundation/zebra/security/advisories)
-- [ECC에 취약점 보고](https://electriccoin.co/blog/disclosure-of-a-major-bug-in-cryptonote-based-currencies/)
+- [ECC에 취약점 보고](https://github.com/zcash/zcash/security/policy)
 - [ZF에 취약점 보고](https://zfnd.org/contact/)

@@ -102,11 +102,11 @@ ECC, Filecoin Foundation, Protocol Labs ve Ethereum Foundation ayrıca GPU ve AS
 
 ## Halo kullanan diğer projeler
 
-+ [Anoma, gizliliği koruyan çok zincirli bir atomik takas protokolü](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
++ [Anoma, gizliliği koruyan çok zincirli bir atomik takas protokolü](https://anoma.net/blog/hash-functions-in-plonkup)
 
 + [Oribis, Cardano üzerinde bir L2 zkRollup](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
-+ [Darkfi, özel bir L1 zkEVM blokzinciri](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
++ [Darkfi, özel bir L1 zkEVM blokzinciri](https://dark.fi/book/arch/arch.html)
 
 + [Scroll, Ethereum üzerinde bir L2 zkRollup](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 
@@ -123,7 +123,7 @@ ECC, Filecoin Foundation, Protocol Labs ve Ethereum Foundation ayrıca GPU ve AS
 
 **Dokümantasyon**
 
-[Halo 2 kaynakları](https://github.com/adria0/awesome-halo2)
+[Halo 2 kaynakları](https://github.com/mhchia/awesome-halo2)
 
 [Halo 2 dokümanları](https://zcash.github.io/halo2/)
 

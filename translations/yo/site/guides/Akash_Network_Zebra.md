@@ -439,7 +439,7 @@ Bẹrẹ pẹlu Testnet ti o ba jẹ pe o n ṣe idanwo ilana igbekale. Wo abala
 
 Àwọn ìwé Zebra:https://zebra.zfnd.org/](https://zebra.zfnd.org/)
 
-Àwọn Olùwádìí Zcash:https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+Àwọn Olùwádìí Zcash:https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 Akash Àríyànjiyàn:https://discord.akash.network](https://discord.akash.network) (fún àwọn ọ̀ràn olùpèsè)
 

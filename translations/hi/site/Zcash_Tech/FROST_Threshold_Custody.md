@@ -145,7 +145,7 @@ Coinbase ने अपनी threshold signing systems (Bitcoin के लिए
 
 - [FROST — तकनीकी गहन विश्लेषण](FROST.md) — protocol के cryptographic विवरण (DKG, signing rounds, security proofs)
 - [YWallet FROST Demo Guide](/guides/Ywallet_FROST_Demo) — चरण-दर-चरण hands-on demo
-- [FROST Demo (frostdemo)](/guides/frostdemo) — Zcash Foundation demo walkthrough
+- [FROST Demo (frostdemo)](/guides/ywallet-frost-demo) — Zcash Foundation demo walkthrough
 - [Viewing Keys](Viewing_Keys.md) — shielded addresses के लिए read-only access (threshold custody के पूरक)
 - [Zcash Shielded Assets](Zcash_Shielded_Assets.md) — FROST, ZSA issuance के लिए भी प्रमुख infrastructure है
 

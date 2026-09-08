@@ -15,7 +15,7 @@ Cypherpunk Zero, genç bir cypherpunk hacker ve özgürlük savaşçısı olan Z
 
 ## Yönetişim
 
-[Snapshot](https://vote.cypherpunkzero.com/)
+[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth)
 
 [Guild](https://guild.xyz/cypherpunkzerodao)
 

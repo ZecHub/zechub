@@ -90,7 +90,7 @@ ____
 
 交易屏蔽增强了隐私，使第三方无法关联交易，也无法确定所转移的 ZEC 数量。Sapling 还通过降低生成私密交易所需的计算资源，提高了可用性，让更多用户能够使用它。
 
-Sapling 钱包地址以 “zs” 开头，这一点可以在所有受支持的 Zcash 屏蔽钱包（YWallet、Zingo Wallet、Nighthawk 等）中看到，它们都内置了 Sapling 地址。就交易隐私和效率而言，Zcash Sapling 代表了一项重要的技术进展，使 Zcash 对重视隐私与安全的用户来说成为一种实用而高效的加密货币。
+Sapling 钱包地址以 “zs” 开头，这一点可以在所有受支持的 Zcash 屏蔽钱包（Zkool、Zingo Wallet、Nighthawk 等）中看到，它们都内置了 Sapling 地址。就交易隐私和效率而言，Zcash Sapling 代表了一项重要的技术进展，使 Zcash 对重视隐私与安全的用户来说成为一种实用而高效的加密货币。
 
 ____
 

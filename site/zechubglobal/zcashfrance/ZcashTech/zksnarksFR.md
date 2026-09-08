@@ -133,7 +133,7 @@ Configuration transparente (pas de configuration de confiance) - L'algorithme de
 
 [Groth16](https://www.youtube.com/watch?v=QDplVkyncYQ) : Nécessite une configuration sécurisée, mais contient des preuves très courtes qui peuvent être vérifiées rapidement.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://cryptocurrencywiki.org/PLONK) : Configuration universellement approuvée.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953) : Configuration universellement approuvée.
 
 [DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o) : Pas de configuration de confiance, mais produit des épreuves légèrement plus longues ou peut prendre plus de temps pour que l'épreuve s'exécute.
 

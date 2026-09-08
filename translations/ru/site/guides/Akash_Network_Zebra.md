@@ -439,6 +439,6 @@ RPC по умолчанию отключен из соображений без�
 
 **Документация Zebra**: [https://zebra.zfnd.org/](https://zebra.zfnd.org/)
 
-**Обозреватели блокчейна Zcash**: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+**Обозреватели блокчейна Zcash**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Discord Akash**: [https://discord.akash.network](https://discord.akash.network) (по вопросам, связанным с провайдерами)

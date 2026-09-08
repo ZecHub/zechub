@@ -102,11 +102,11 @@ No [Kokoamsɛm ne Scaling Nhwehwɛmu kuw](https://appliedzkp.org/) nso reyɛ nhw
 
 ## Nnwuma afoforo a wɔde Halo di dwuma
 
-+ [Anoma, kokoam nsɛm a wɔkora so multichain atom swap protocol](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
++ [Anoma, kokoam nsɛm a wɔkora so multichain atom swap protocol](https://anoma.net/blog/hash-functions-in-plonkup)
 
 + [Oribis, a ɛyɛ L2 zkRollup a ɛwɔ Cardano so](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
-+ [Darkfi, a ɛyɛ kokoam L1 zkEVM blockchain](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
++ [Darkfi, a ɛyɛ kokoam L1 zkEVM blockchain](https://dark.fi/book/arch/arch.html)
 
 + [Scroll, L2 zkRollup a ɛwɔ Ethereum so](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 
@@ -123,7 +123,7 @@ No [Kokoamsɛm ne Scaling Nhwehwɛmu kuw](https://appliedzkp.org/) nso reyɛ nhw
 
 **Nwoma a wɔakyerɛw**
 
-[Halo 2 nneɛma a wɔde yɛ adwuma](https://github.com/adria0/awesome-halo2)
+[Halo 2 nneɛma a wɔde yɛ adwuma](https://github.com/mhchia/awesome-halo2)
 
 [Halo 2 ho nsɛm a wɔakyerɛw](https://zcash.github.io/halo2/)
 

@@ -512,7 +512,7 @@ Nígbà tí owó rẹ bá tán, Akash yóò pa ìmúṣẹ ọ̀rọ̀ náà tì
 
 Akash Docs: Ìtàn tí ó ṣe pàtàkì jùlọ nínú ìtàn náà. [https://akash.network/docs/](https://akash.network/docs/)
 
-Àwọn olùwádìí Zcash: [https://zechub.wiki/using-zcash/blockchain-explorers](https://zechub.wiki/using-zcash/blockchain-explorers)
+Àwọn olùwádìí Zcash: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 Akash Discord: Ìjàǹbá fún àwọn ọmọdé. [https://discord.akash.network](https://discord.akash.network) (nípa àwọn ọ̀ràn olùpèsè)
 

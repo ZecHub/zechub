@@ -161,7 +161,7 @@ Transparent Setup (No Trusted Setup)- لا تستخدم خوارزمية الم�
 
 [Groth16](https://www.youtube.com/watch?v=QDplVkyncYQ): يتطلب Trusted Setup لكنه يوفّر إثباتات قصيرة جدًا يمكن التحقق منها بسرعة.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://cryptocurrencywiki.org/PLONK): Trusted Setup عام.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[Plonk](https://eprint.iacr.org/2019/953): Trusted Setup عام.
 
 [DARK](https://www.youtube.com/watch?v=_ZDM7NwSxEY)/[HALO](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): لا تتطلب Trusted Setup لكنها تنتج إثباتات أطول قليلًا أو قد تستغرق وقتًا أطول لدى المُثبِت. 
 

@@ -40,7 +40,6 @@ Start_Here/Who_Can_See_Your_Zcash_Payment.md
 Start_Here/ZEC_Use_Cases.md
 Start_Here/Zcash_Monetary_Policy.md
 Start_Here/Zcash_Resources.md
-Using_Zcash/Blockchain_Explorers.md
 Using_Zcash/Buying_ZEC.md
 Using_Zcash/Creators_and_Tips.md
 Using_Zcash/Custodial_Exchanges.md
@@ -196,7 +195,6 @@ guides/Zgo_Payment_Processor.md
 guides/Zingolib_and_Zaino_Tutorial.md
 guides/Zkool_Multisig.md
 guides/coinholder_log_parser/help.md
-guides/frostdemo/Ywallet_FROST_Demo.md
 guides/multisigdemo/MultiSigDemo.md
 guides/workshops/zcashContributorWorkshopDay3.md
 tutorials/Exchanges.md

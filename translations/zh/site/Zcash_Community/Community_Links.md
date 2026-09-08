@@ -74,5 +74,5 @@ Zcash 在 X 上拥有活跃的全球影响力。值得关注的主要账号包�
 - [Zcash 社区网站](https://www.zcashcommunity.com/)
 - [ZecHub Wiki](https://zechub.wiki)
 - [Zcash Grants Hub](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
-- [Zcash 全球大使](https://zcashambassadors.com)
+- [Zcash 全球大使](https://zechub.wiki/zcash-community/zcash-global-ambassadors)
 - [Dework 上的 ZecHub DAO](https://app.dework.xyz/zechub-2424)

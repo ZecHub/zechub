@@ -145,7 +145,7 @@ Gɔmedzedze nyui aɖe na ƒuƒoƒo akpa gãtɔ: **2-le-3** (si te ŋu nɔa te ɖ
 
 - [FROST — Mɔ̃ɖaŋununya ƒe Deep Dive](FROST.md) — ɖoɖowɔɖia ŋuti nyatakaka ɣaɣlawo (DKG, asidede agbalẽ te, dedienɔnɔ ƒe kpeɖodziwo)
 - [YWallet FROST Demo Mɔfiame](/guides/Ywallet_FROST_Demo) — afɔɖeɖe ɖesiaɖe ƒe asi-ɖe-ɖefia
-- [FROST ƒe wɔwɔfia (frostdemo) .](/guides/frostdemo) — Zcash Foundation ƒe wɔwɔfia ƒe azɔlizɔzɔ
+- [FROST ƒe wɔwɔfia (frostdemo) .](/guides/ywallet-frost-demo) — Zcash Foundation ƒe wɔwɔfia ƒe azɔlizɔzɔ
 - [Safuiwo Kpɔkpɔ](Viewing_Keys.md) — nuxexlẽ ɖeɖeko ƒe mɔɖeɖe ɖe adrɛs siwo ŋu wokpɔ ta na ŋu (etsɔ kpe ɖe threshold custody ŋu)
 - [Zcash ƒe Nunɔamesi Siwo Wokpɔna](Zcash_Shielded_Assets.md) — FROST hã nye xɔtuɖoɖo veviwo na ZSA ƒe tata
 

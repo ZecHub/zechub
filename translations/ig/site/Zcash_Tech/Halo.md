@@ -102,11 +102,11 @@ ECC, Filecoin Foundation, Protocol Labs na Ethereum Foundation ga-arụkwa ọr�
 
 ## Ihe oru ndi ozo eji Halo eme ihe
 
-+ [Anoma, a nzuzo ichebe multichain atomic swap protocol](https://anoma.net/blog/an-introduction-to-zk-snark-plonkup)
++ [Anoma, a nzuzo ichebe multichain atomic swap protocol](https://anoma.net/blog/hash-functions-in-plonkup)
 
 + [Oribis, ihe L2 zkRollup na Cardano](https://docs.orbisprotocol.com/orbis/technology/halo-2)
 
-+ [Darkfi, a onwe L1 zkEVM blockchain](https://darkrenaissance.github.io/darkfi/architecture/architecture.html)
++ [Darkfi, a onwe L1 zkEVM blockchain](https://dark.fi/book/arch/arch.html)
 
 + [Mgbanwe, L2 zkRollup na Ethereum](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k)
 
@@ -123,7 +123,7 @@ ECC, Filecoin Foundation, Protocol Labs na Ethereum Foundation ga-arụkwa ọr�
 
 ** Akwụkwọ**
 
-[Halo 2 ego](https://github.com/adria0/awesome-halo2)
+[Halo 2 ego](https://github.com/mhchia/awesome-halo2)
 
 [Ihe nkiri Halo 2](https://zcash.github.io/halo2/)
 

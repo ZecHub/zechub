@@ -105,8 +105,7 @@ The ECC team is working on new RPC methods in `zcashd` (replacing `z_sendmany`) 
 
 ## Recommendation
 
-Try the latest version of **YWallet**!  
-It already shows a "Transaction Plan" on screen before you hit send, helping you make more private choices.
+This thread originally pointed at **Ywallet**, for the transaction plan it showed before you hit send. Ywallet is no longer maintained and will not be updated for Ironwood, so it can no longer follow the chain. Pick a maintained wallet from the [Wallets](https://zechub.wiki/wallets) page instead, and prefer one that tells you what a transaction will reveal before it goes out.
 
 Great article on transaction privacy: https://medium.com/@hanh.huynh/
 
