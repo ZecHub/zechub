@@ -33,5 +33,5 @@ Electric Coin Company и Zcash Foundation обе придерживаются э
 
 - [Рекомендации по безопасности Zcash](https://github.com/zcash/zcash/security/advisories)
 - [Рекомендации по безопасности Zebra](https://github.com/ZcashFoundation/zebra/security/advisories)
-- [Сообщить об уязвимости в ECC](https://github.com/zcash/zcash/security/policy)
+- [Сообщить об уязвимости в zcash/zcash](https://github.com/zcash/zcash/security/policy) — заменяет адрес Electric Coin Company, на который ранее указывал этот пункт и который больше недоступен.
 - [Сообщить об уязвимости в ZF](https://zfnd.org/contact/)

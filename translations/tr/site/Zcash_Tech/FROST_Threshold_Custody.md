@@ -94,8 +94,8 @@ Bir parçanın kaybolması dünyanın sonu değildir (zaten eşik mantığının
 ### Zcash Foundation — frost.zfnd.org
 Zcash Foundation çalışan bir FROST uygulaması ve bir demo sitesi yayınladı. Bu, test ve geliştirme için kullanılan referans uygulamadır.
 
-### YWallet FROST Demo
-YWallet (yüksek performanslı bir Zcash cüzdanı), erken aşamada bir FROST demo entegrasyonuna sahiptir. Adım adım talimatlar için [YWallet FROST Demo rehberine](/guides/Ywallet_FROST_Demo) bakın.
+### Ywallet FROST Demo
+Ywallet, [Ywallet FROST Demo rehberinde](/guides/Ywallet_FROST_Demo) adım adım anlatılan erken aşamada bir FROST demo entegrasyonuna sahipti. Ywallet artık sürdürülmüyor ve Ironwood için güncellenmeyecek; bu nedenle rehberi bugün çalıştırılacak bir şey olarak değil, arka plan bilgisi olarak okuyun. Aynı geliştiricinin ürünü olan Zkool, sürdürülen halefidir ve özellikleri arasında FROST çoklu imzayı listeler.
 
 ### ZecHub Hackathon 2026 — FROST Kategori Projeleri
 
@@ -144,8 +144,7 @@ Herhangi bir imzacı kötü bir kısmi imza gönderirse, protokol bunu tespit ed
 ## İlgili Sayfalar
 
 - [FROST — Teknik Derinlemesine İnceleme](FROST.md) — protokolün kriptografik ayrıntıları (DKG, imzalama turları, güvenlik ispatları)
-- [YWallet FROST Demo Rehberi](/guides/Ywallet_FROST_Demo) — adım adım uygulamalı demo
-- [FROST Demo (frostdemo)](/guides/ywallet-frost-demo) — Zcash Foundation demo anlatımı
+- [Ywallet FROST Demo Rehberi](/guides/Ywallet_FROST_Demo) — arka plan; Ywallet artık bakım görmemektedir
 - [Viewing Keys](Viewing_Keys.md) — shielded adreslere salt okunur erişim (eşikli saklamayı tamamlayıcı)
 - [Zcash Shielded Assets](Zcash_Shielded_Assets.md) — FROST, ZSA ihracı için de temel altyapıdır
 

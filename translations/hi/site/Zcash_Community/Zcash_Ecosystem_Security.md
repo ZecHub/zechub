@@ -33,5 +33,5 @@ Electric Coin Company और Zcash Foundation दोनों इस [जिम�
 
 - [Zcash सुरक्षा सलाह](https://github.com/zcash/zcash/security/advisories)
 - [Zebra सुरक्षा सलाह](https://github.com/ZcashFoundation/zebra/security/advisories)
-- [ECC को एक दुर्बलता रिपोर्ट करें](https://github.com/zcash/zcash/security/policy)
+- [zcash/zcash में एक दुर्बलता रिपोर्ट करें](https://github.com/zcash/zcash/security/policy) — यह उस Electric Coin Company पते का स्थान लेता है जिस पर यह प्रविष्टि इंगित करती थी, जो अब उपलब्ध नहीं है।
 - [ZF को एक दुर्बलता रिपोर्ट करें](https://zfnd.org/contact/)

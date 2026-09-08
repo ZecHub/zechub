@@ -23,7 +23,7 @@ O valor equivalente em $ZEC será fornecido, junto com um endereço transparente
 ![Passo 4 - Detalhes do pagamento em ZEC](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
 
 ### 5. Envie o pagamento
-Copie e cole o valor e o endereço com cuidado. No campo de memo, adicione seu endereço YWallet caso haja um reembolso.
+Copie e cole o valor e o endereço com cuidado. No campo de memo, adicione o seu próprio endereço blindado caso haja um reembolso.
 
 ![Passo 5 - Enviando ZEC](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
 

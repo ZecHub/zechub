@@ -33,5 +33,5 @@ Electric Coin Company 和 Zcash Foundation 均遵循这一负责任披露[标准
 
 - [Zcash 安全公告](https://github.com/zcash/zcash/security/advisories)
 - [Zebra 安全公告](https://github.com/ZcashFoundation/zebra/security/advisories)
-- [向 ECC 报告漏洞](https://github.com/zcash/zcash/security/policy)
+- [报告 zcash/zcash 中的漏洞](https://github.com/zcash/zcash/security/policy) — 替代此条目原先指向的、现已无法访问的 Electric Coin Company 地址。
 - [向 ZF 报告漏洞](https://zfnd.org/contact/)

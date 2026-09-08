@@ -64,7 +64,7 @@ Die Reihenfolge ist wichtig. Gib den engstmöglichen Schlüssel weiter, der die 
 
 ## Setze es in die Praxis um
 
-- Verwende ein Wallet, das standardmäßig abschirmt, wie [Zodl](https://zodl.com) oder [Ywallet](https://ywallet.app/).
+- Verwende ein Wallet, das standardmäßig abschirmt, wie [Zodl](https://zodl.com) oder [Zingo!](https://www.zingolabs.org/).
 - Schirme Mittel ab, sobald sie von einer Börse eintreffen, bevor du sie ausgibst.
 - Bezahle an abgeschirmte Adressen, wann immer der Empfänger eine unterstützt.
 - Bevor du einen Viewing Key teilst, frage dich, welcher Schlüssel der kleinste ist, der die gestellte Frage beantwortet.

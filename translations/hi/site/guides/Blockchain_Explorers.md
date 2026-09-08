@@ -2,11 +2,11 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Blockchain Explorers
+# Blockchain Explorer
 
 ## परिचय
 
-पारंपरिक व्यावसायिक दुनिया में हर लेनदेन के साथ खरीद के प्रमाण के रूप में एक रसीद शामिल होती है। इसी तरह, blockchain की दुनिया में हर पूर्ण लेनदेन के लिए उपयोगकर्ता को transaction id के रूप में एक डिजिटल रसीद मिलती है। अधिकांश wallet आपको यह प्रदान करते हैं। Blockchain explorer बस ऐसे tools हैं जो किसी blockchain पर पहले से क्या हो चुका है, उसे देखने योग्य बनाते हैं। ये इनपुट के रूप में transaction id, address, या block hash लेते हैं, और दृश्य रूप में दिखाते हैं कि क्या हुआ।
+पारंपरिक व्यावसायिक दुनिया में हर लेन-देन में खरीद के प्रमाण के लिए एक रसीद शामिल होती है। इसी प्रकार, blockchain की दुनिया में उपयोगकर्ता को पूर्ण किए गए प्रत्येक लेन-देन के लिए transaction id के रूप में एक डिजिटल रसीद मिलती है। अधिकांश wallet यह आपके लिए प्रदान करेंगे। Blockchain explorer बस ऐसे उपकरण हैं जो किसी blockchain पर पहले से हो चुकी गतिविधि को देखने की सुविधा देते हैं। वे इनपुट के रूप में transaction id, पते या block hash लेते हैं और दृश्य रूप में बताते हैं कि क्या हुआ।
 
 ## उदाहरण
 <div>
@@ -24,24 +24,23 @@
 </div>
 
 
-#### Zcash में ध्यान दें कि दूसरी transaction में सभी महत्वपूर्ण विवरण छिपे हुए हैं; यह महत्वपूर्ण है और डिजिटल दुनिया में इसके बड़े निहितार्थ हैं।
+#### ध्यान दें कि Zcash में दूसरे लेन-देन की सभी महत्वपूर्ण जानकारी छिपी हुई है; यह महत्वपूर्ण है और डिजिटल दुनिया में इसके बड़े प्रभाव हैं।
 
 
 ## Blockchain मानचित्र
 
-तो हमारे पास डिजिटल रसीद के रूप में अक्षरों की यह लंबी श्रृंखला है, अब क्या? यहीं पर हम [blockchain explorer](https://nym.com/blog/using-blockchain-privately), या मानचित्र, का उपयोग करते हैं ताकि blockchain पर क्या हुआ, इसे बेहतर समझ सकें। ध्यान दें कि ऊपर हर chain का अपना अलग [blockchain explorer](https://nym.com/blog/using-blockchain-privately) है। यह समझना महत्वपूर्ण है कि ये सभी blockchain प्रोजेक्ट open source software के उदाहरण हैं। अर्थात, कोई भी व्यक्ति इसमें योगदान दे सकता है और/या अपनी पसंद के अनुसार code को fork कर सकता है। इस समझ के साथ, हर प्रोजेक्ट अलग-अलग क्षेत्रों में विशेषज्ञता रखता है और उस प्रोजेक्ट की आवश्यकताओं के अनुसार blockchain explorer को अनुकूलित करता है।
+तो हमारे पास डिजिटल रसीद के रूप में अक्षरों की यह लंबी श्रृंखला है, अब क्या? यहीं पर हम blockchain पर हुई गतिविधि को समझने में मदद के लिए एक [blockchain explorer](https://nym.com/blog/using-blockchain-privately), या मानचित्र, का उपयोग करते हैं। ऊपर देखें कि प्रत्येक chain का अपना [blockchain explorer](https://nym.com/blog/using-blockchain-privately) संस्करण है। यह समझना महत्वपूर्ण है कि ये सभी blockchain परियोजनाएँ open source software के उदाहरण हैं। अर्थात, कोई भी व्यक्ति अपनी पसंद के अनुसार code में योगदान दे सकता है या उसे fork कर सकता है। इस समझ के साथ, प्रत्येक परियोजना अलग-अलग क्षेत्रों में विशेषज्ञता रखती है और उस परियोजना की जरूरतों के अनुसार blockchain explorer को अनुकूलित करती है।
 
 ### Blocks
-Transactions को *blocks* में रखा जाता है। जब कोई block mine/validate होता है, तो उस block के भीतर की हर transaction confirm हो जाती है और एक block hash बनाया जाता है। बनाया गया कोई भी hash block explorer में डाला जा सकता है। आपने देखा होगा कि CEX आपके funds जारी करने से पहले कुछ *confirmations* मांगते हैं; यही वह मानक है जिसका उपयोग वे यह सुनिश्चित करने के लिए करते हैं कि आपकी transaction 
-पर्याप्त रूप से finalized हो चुकी है। Blockchain यह कैसे निर्धारित करता है कि अगली block में कौन-सी transactions जाएँगी? यह शोध का जटिल विषय है, लेकिन अधिकांश आधुनिक chains *fees* के विचार का उपयोग करती हैं यह तय करने के लिए कि लाइन में आगे कौन आएगा। जितनी अधिक fee, उतनी अधिक संभावना कि आप queue के आगे पहुँच जाएँ।
+लेन-देन को *blocks* में रखा जाता है। जब किसी block को mine/validate किया जाता है, तो उस block के भीतर का प्रत्येक लेन-देन पुष्टि हो जाता है और एक block hash बनता है। बनाया गया कोई भी hash किसी block explorer में इनपुट किया जा सकता है। आपने देखा होगा कि CEX आपके funds जारी करने से पहले कई *confirmations* मांगते हैं; यह वही मानक है जिसका उपयोग वे यह सुनिश्चित करने के लिए करते हैं कि आपका लेन-देन पर्याप्त रूप से अंतिम हो चुका है। Blockchain यह कैसे तय करती है कि कौन-से लेन-देन अगले block में जाएंगे? यह शोध का जटिल विषय है, लेकिन अधिकांश आधुनिक chains यह तय करने के लिए *fees* की अवधारणा का उपयोग करती हैं कि पंक्ति में आगे कौन जाएगा। fee जितनी अधिक होगी, queue में आगे बढ़ने की संभावना उतनी ही अधिक होगी।
 
-### Addresses
+### पते
 
-[blockchain explorers](https://nym.com/blog/using-blockchain-privately) को दृश्य रूप में समझने का एक रोचक तरीका है किसी भी random transaction का address इनपुट करना। फिर आप समय में पीछे जा सकते हैं और देख सकते हैं कि funds की उत्पत्ति कहाँ से हुई! हर transaction में input और output address दोनों होते हैं।  इस जानकारी के साथ, कोई भी व्यक्ति खर्च की जा चुकी किसी भी transaction से आगे और पीछे, दोनों दिशाओं में आसानी से बढ़ सकता है। जिन लोगों को puzzles पसंद हैं, उनके लिए यह एक विशाल वित्तीय puzzle का डिजिटल समकक्ष है, और इसका उपयोग transparency के उद्देश्यों के लिए किया जा सकता है। Blockchain explorer का उपयोग न केवल इसे देखना बहुत आसान बनाता है, बल्कि यह *यह भी उजागर करता है* कि transaction privacy की आवश्यकता क्यों है। जब तक आप shielded Zcash का उपयोग नहीं कर रहे, आप यह *किसी भी* transparent blockchain के साथ कर सकते हैं: BTC, ETH, ATOM, DOGE, VTC, आदि ... . यह बिंदु उन सभी लोगों के लिए अत्यंत महत्वपूर्ण है जो सुरक्षित रूप से blockchain का उपयोग करते हुए पूरी तरह डिजिटल भविष्य की ओर बढ़ रहे हैं।
+[blockchain explorers](https://nym.com/blog/using-blockchain-privately) को दृश्य रूप से सीखने का एक मज़ेदार तरीका है किसी भी यादृच्छिक लेन-देन का पता इनपुट करना। फिर आप समय में पीछे जा सकते हैं और देख सकते हैं कि funds कहाँ से आए थे! प्रत्येक लेन-देन में input और output, दोनों पते होते हैं। इस जानकारी के साथ, कोई भी व्यक्ति खर्च हो चुके किसी भी लेन-देन से आसानी से आगे और पीछे, दोनों दिशाओं में जा सकता है। पहेलियाँ पसंद करने वालों के लिए, यह एक विशाल वित्तीय पहेली का डिजिटल समकक्ष है और पारदर्शिता के उद्देश्यों के लिए उपयोग किया जा सकता है। Blockchain explorer का उपयोग इसे न केवल देखने में बहुत आसान बनाता है, बल्कि यह लेन-देन की गोपनीयता की आवश्यकता को *भी उजागर करता है*। जब तक आप shielded Zcash का उपयोग नहीं कर रहे हैं, आप किसी भी पारदर्शी blockchain के साथ यह कर सकते हैं: BTC, ETH, ATOM, DOGE, VTC, आदि ... । केवल डिजिटल भविष्य की ओर सुरक्षित रूप से बढ़ते हुए blockchain का उपयोग करने वाले हर व्यक्ति के लिए यह बात महत्वपूर्ण है।
 
-### Amounts
+### राशियाँ
 
-ऊपर दिए गए addresses की तरह, किसी भी public blockchain पर हर transaction की राशि सार्वजनिक रूप से दिखाई देती है। इसमें किसी भी transaction के input और output addresses पर मौजूद amounts शामिल हैं। इसका एक अपवाद तब है जब आप Shielded Zcash का उपयोग करना चुनते हैं -- तब सभी amounts छिपे रहते हैं। छोटे व्यवसाय मालिकों के लिए, जिन्हें *fair trade* के लिए स्वाभाविक रूप से privacy की आवश्यकता होती है, यह एक बहुत बड़ा लाभ है!
+ऊपर बताए गए पतों की तरह, किसी सार्वजनिक blockchain पर हर लेन-देन की राशियाँ सार्वजनिक रूप से उपलब्ध होती हैं। इसमें किसी भी लेन-देन के input और output, दोनों पतों की राशियाँ शामिल हैं। इसका एक अपवाद तब है जब आप Shielded Zcash का उपयोग चुनते हैं -- तब सभी राशियाँ छिपी होती हैं। छोटे व्यवसाय मालिकों के लिए, जिन्हें *निष्पक्ष व्यापार* हेतु गोपनीयता की आवश्यकता होती है, यह एक बड़ा लाभ है!
 
 ![amounts](/content-images/206312357-e9504151-830f-4fa1-81cb-f23619-210f51493c.webp)
 
@@ -49,32 +48,43 @@ Transactions को *blocks* में रखा जाता है। जब �
 ### Zcash पर explorer क्या देख सकता है और क्या नहीं
 
 #### संक्षेप में
-- Transparent (`t`) addresses explorer पर पूरी तरह दिखाई देते हैं, बिल्कुल Bitcoin की तरह
-- पूरी तरह shielded (z to z) transactions में राशि, addresses, और memo छिपे रहते हैं
-- fee फिर भी दिखाई देती है, पूरी तरह shielded transaction में भी
-- Shielding (`t` से shielded में ले जाना) और deshielding (shielded से वापस `t` में) आंशिक रूप से दिखाई देते हैं, क्योंकि एक पक्ष transparent होता है
-- Privacy केवल तब तक बनी रहती है जब तक funds shielded pools के भीतर रहते हैं
+- पारदर्शी (`t`) पते explorer पर पूरी तरह दिखाई देते हैं, बिल्कुल Bitcoin की तरह
+- पूरी तरह shielded (z से z) लेन-देन राशि, पते और memo छिपाते हैं
+- पूरी तरह shielded लेन-देन में भी fee दिखाई देती है
+- Shielding (`t` से shielded में ले जाना) और deshielding (shielded से वापस `t` में) आंशिक रूप से दिखाई देते हैं, क्योंकि एक पक्ष पारदर्शी होता है
+- गोपनीयता केवल तब तक बनी रहती है जब तक funds shielded pools के भीतर रहते हैं
 
-Zcash में एक से अधिक प्रकार के address होते हैं, और explorer उनके साथ बहुत अलग व्यवहार करता है।
+Zcash में एक से अधिक प्रकार के पते हैं, और explorer उनके साथ बहुत अलग ढंग से व्यवहार करता है।
 
-Transparent addresses, जो `t` से शुरू होते हैं, Bitcoin की तरह काम करते हैं। Explorer sender, receiver, amount, और वह trail दिखाता है जिससे पता चलता है कि funds कहाँ से आए।
+`t` से शुरू होने वाले पारदर्शी पते Bitcoin की तरह काम करते हैं। Explorer भेजने वाले, पाने वाले, राशि और funds कहाँ से आए, वहाँ तक का रास्ता दिखाता है।
 
-Shielded addresses निजी पक्ष हैं। Sapling या Orchard [shielded pools](https://zechub.wiki/using-zcash/shielded-pools#content) में मौजूद funds zero knowledge proofs द्वारा सुरक्षित होते हैं। किसी पूरी तरह shielded transaction को देखें, तो explorer amount, addresses, या memo नहीं दिखा सकता। वह केवल इतना पुष्टि कर सकता है कि एक वैध transaction हुई और उसे एक block में दर्ज किया गया। यही वह छिपा हुआ निजी उदाहरण है जो इस पेज के ऊपर की ओर दिखाया गया है।
+Shielded पते निजी पक्ष हैं। Sapling या Orchard [shielded pools](https://zechub.wiki/using-zcash/shielded-pools#content) में मौजूद funds zero knowledge proofs द्वारा संरक्षित होते हैं। पूरी तरह shielded लेन-देन देखें और explorer राशि, पते या memo नहीं दिखा सकता। वह केवल यह पुष्टि कर सकता है कि एक वैध लेन-देन हुआ और वह किसी block में दर्ज हुआ। यह इस पृष्ठ के शीर्ष के पास दिखाया गया छिपा हुआ निजी उदाहरण है।
 
-एक विवरण पूरी तरह shielded transactions में भी दिखाई देता है: fee। Zcash consensus rules के अनुसार transparent fee को स्पष्ट रूप से बताया जाना आवश्यक है, इसलिए explorer इसे हमेशा दिखा सकता है, भले ही amounts छिपे हों। इसी कारण standard wallet fee का उपयोग करना अच्छा अभ्यास है, ताकि आपकी transaction किसी असामान्य राशि का भुगतान करके अलग न दिखे।
+पूरी तरह shielded लेन-देन में भी एक विवरण दिखाई देता है: fee। Zcash consensus नियमों के अनुसार पारदर्शी fee को स्पष्ट रूप से बताना आवश्यक है, इसलिए explorer इसे हमेशा दिखा सकता है, भले ही राशियाँ छिपी हों। इस कारण standard wallet fee का उपयोग करना अच्छा अभ्यास है, ताकि असामान्य राशि का भुगतान करके आपका लेन-देन अलग न दिखे।
 
-Explorer यह भी देख सकता है कि funds transparent और shielded पक्षों के बीच कब जाते हैं। `t` funds को किसी pool में ले जाना shielding है, और उन्हें वापस बाहर लाना deshielding है। ये crossings आंशिक रूप से दिखाई देती हैं क्योंकि एक पक्ष transparent होता है। केवल पूरी तरह निजी z to z activity, जो कभी भी किसी `t` address को नहीं छूती, fee को छोड़कर बाकी सब कुछ छिपाए रखती है।
+Explorer यह भी देख सकता है कि funds पारदर्शी और shielded पक्षों के बीच कब जाते हैं। `t` funds को किसी pool में ले जाना shielding है, और उन्हें वापस बाहर लाना deshielding है। ये पारगमन आंशिक रूप से दिखाई देते हैं क्योंकि एक पक्ष पारदर्शी है। केवल पूरी तरह निजी z से z गतिविधि, जो कभी `t` पते को नहीं छूती, fee को छोड़कर सब कुछ छिपाए रखती है।
 
-मुख्य बात यह है: privacy shielded pools के भीतर बने रहने पर निर्भर करती है। जैसे ही funds किसी `t` address को छूते हैं, उनके इतिहास का वह हिस्सा Bitcoin जितना ही सार्वजनिक हो जाता है। अपनी स्वयं की shielded activity को किसी चुने हुए व्यक्ति, जैसे accountant, को सिद्ध करने के लिए, उसे सार्वजनिक करने के बजाय viewing key साझा करें। [Viewing Keys](https://zechub.wiki/zcash-tech/viewing-keys#content) पेज देखें।
+मुख्य बात: गोपनीयता shielded pools के भीतर रहने पर निर्भर करती है। जब funds किसी `t` पते को छूते हैं, तो उनके इतिहास का वह भाग Bitcoin जितना ही सार्वजनिक हो जाता है। अपनी shielded गतिविधि को अपनी पसंद के किसी व्यक्ति, जैसे accountant, को प्रमाणित करने के लिए उसे सार्वजनिक करने के बजाय Viewing Key साझा करें। [Viewing Keys](https://zechub.wiki/zcash-tech/viewing-keys#content) पृष्ठ देखें।
+
+
+### Zcash Block Explorer की सूची
+
+- [Zcash Block Explorer](https://mainnet.zcashexplorer.app/)
+
+- [Blockchair](https://blockchair.com)
+
+- [3xpl](https://3xpl.com/zcash)
+
+- [Bitquery](https://explorer.bitquery.io/zcash)
 
 
 ### दृश्य मार्गदर्शिका
 
-यहाँ अलग-अलग blockchain explorers के चार अच्छे उदाहरण दिए गए हैं:
+यहाँ अलग-अलग blockchain explorer के चार अच्छे उदाहरण हैं:
 
 * [Mempool.space](https://mempool.space)
 * [Ethscan](https://etherscan.io/)
-* [Zcash Block Explorer](https://mainnet.zcashexplorer.com)
+* [Zcash Block Explorer](https://mainnet.zcashexplorer.app)
 * [Mintscan](https://hub.mintscan.io/chains/ibc-network)
 
 

@@ -64,7 +64,7 @@ El orden importa. Entrega la clave más limitada que haga el trabajo, no la más
 
 ## Ponlo en práctica
 
-- Usa una wallet que blinde por defecto, como [Zodl](https://zodl.com) o [Ywallet](https://ywallet.app/).
+- Usa una wallet que blinde por defecto, como [Zodl](https://zodl.com) o [Zingo!](https://www.zingolabs.org/).
 - Blinda los fondos en cuanto lleguen desde un exchange, antes de gastarlos.
 - Paga a direcciones blindadas siempre que el receptor admita una.
 - Antes de compartir una viewing key, pregunta cuál es la clave más pequeña que responde a la pregunta que se está haciendo.

@@ -94,8 +94,8 @@ FROST для екранованого Zcash є відносно новим. Ст
 ### Zcash Foundation — frost.zfnd.org
 Zcash Foundation вже випустила робочу реалізацію FROST і демонстраційний сайт. Це еталонна реалізація, яка використовується для тестування та розробки.
 
-### YWallet FROST Demo
-YWallet (високопродуктивний гаманець Zcash) має ранню демо-інтеграцію FROST. Покрокові інструкції дивіться в [посібнику YWallet FROST Demo](/guides/Ywallet_FROST_Demo).
+### Ywallet FROST Demo
+Ywallet мав ранню демо-інтеграцію FROST, описану в [посібнику Ywallet FROST Demo](/guides/Ywallet_FROST_Demo). Ywallet більше не підтримується й не оновлюватиметься для Ironwood, тож читайте цей посібник як довідковий матеріал, а не як інструкцію для запуску сьогодні. Zkool від того самого розробника є підтримуваним наступником і зазначає мультипідпис FROST серед своїх можливостей.
 
 ### ZecHub Hackathon 2026 — проєкти напряму FROST
 
@@ -144,8 +144,7 @@ Coinbase створила промислову реалізацію FROST для
 ## Пов’язані сторінки
 
 - [FROST — технічний глибокий огляд](FROST.md) — криптографічні деталі протоколу (DKG, раунди підписання, докази безпеки)
-- [Посібник YWallet FROST Demo](/guides/Ywallet_FROST_Demo) — покрокова практична демонстрація
-- [FROST Demo (frostdemo)](/guides/ywallet-frost-demo) — покроковий огляд демо від Zcash Foundation
+- [Посібник Ywallet FROST Demo](/guides/Ywallet_FROST_Demo) — довідкова інформація, Ywallet більше не підтримується
 - [Viewing Keys](Viewing_Keys.md) — доступ лише для читання до екранованих адрес (доповнення до порогового зберігання)
 - [Екрановані активи Zcash](Zcash_Shielded_Assets.md) — FROST також є ключовою інфраструктурою для випуску ZSA
 

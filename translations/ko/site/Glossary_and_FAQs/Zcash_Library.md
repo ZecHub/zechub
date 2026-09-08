@@ -207,9 +207,9 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 
 ## W
 
-| Term | Definition |
+| 용어 | 정의 |
 |------|-----------|
-| Wallet | 개인 키를 저장하고 ZEC를 송수신할 수 있게 해주는 소프트웨어 또는 하드웨어입니다. 현재 활성 지갑에는 ZODL (iOS/Android), Zingo! (모바일/데스크톱), Nighthawk (Android), YWallet, Zallet (출시 예정), Keystone (하드웨어)가 포함됩니다. 전체 목록은 [Zcash 생태계 지갑](https://z.cash/ecosystem/?wallets=#tag-wallets)에서 확인하세요 |
+| 지갑 | 개인 키를 저장하고 ZEC를 송수신할 수 있게 해주는 소프트웨어 또는 하드웨어입니다. 현재 활성 지갑에는 ZODL (iOS/Android), Zingo! (모바일/데스크톱), Nighthawk (Android), Zkool (모바일/데스크톱), Zallet (출시 예정), Keystone (하드웨어)가 포함됩니다. 전체 목록은 [Zcash 생태계 지갑](https://z.cash/ecosystem/?wallets=#tag-wallets)에서 확인하세요 |
 | WebZjs | 브라우저 환경을 위해 ChainSafe가 구축한 Zcash용 최초의 JavaScript SDK입니다. 이 SDK는 MetaMask에 shielded ZEC를 도입한 Zcash Shielded Wallet 스냅의 기반이 됩니다. |
 
 ## X

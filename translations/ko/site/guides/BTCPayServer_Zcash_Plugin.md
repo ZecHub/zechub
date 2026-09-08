@@ -124,7 +124,7 @@ BTCPay Server는 **지갑이 아니며** **개인 키를 요구하지도 않습�
 ### 작동 방식
 
 - **지갑은 미리 생성됩니다.**  
-  판매자는 [YWallet](https://ywallet.app/installation) 또는 [Zingo! Wallet](https://zingolabs.org/)처럼 viewing key를 지원하는 Zcash 지갑을 사용합니다.  
+  판매자는 [Zkool](https://github.com/hhanh00/zkool2/) 또는 [Zingo! Wallet](https://zingolabs.org/)처럼 viewing key를 지원하는 Zcash 지갑을 사용합니다.  
   전체 목록은 [ZecHub.wiki](https://zechub.wiki/wallets)에서 확인할 수 있습니다.
 
 - **BTCPay Server는 viewing key를 통해 연결됩니다.**  
@@ -660,7 +660,7 @@ BTCPay Server 인스턴스를 성공적으로 배포한 후에는 관리자 웹 
 
 > 아직 모든 지갑이 **Unified Full Viewing Key (UFVK)** 내보내기를 지원하는 것은 아닙니다.  
 > 권장 옵션:  
-> – [**YWallet**](https://ywallet.app/installation)  
+> – [**Zkool**](https://github.com/hhanh00/zkool2/)  
 > – [**Zingo! Wallet (PC 버전)**](https://zingolabs.org/)  
 > 두 앱 모두 백업/내보내기 섹션에서 UFVK 내보내기 옵션을 찾을 수 있습니다.
 

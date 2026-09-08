@@ -23,7 +23,7 @@ $ZEC में समतुल्य राशि प्रदान की ज�
 ![Step 4 - ZEC payment details](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
 
 ### 5. भुगतान भेजें
-राशि और address को सावधानीपूर्वक कॉपी और पेस्ट करें। memo फ़ील्ड में, अपना YWallet address जोड़ें ताकि यदि refund हो, तो वह प्राप्त किया जा सके।
+राशि और address को सावधानीपूर्वक कॉपी और पेस्ट करें। memo फ़ील्ड में, अपना स्वयं का shielded address जोड़ें ताकि यदि refund हो, तो वह प्राप्त किया जा सके।
 
 ![Step 5 - Sending ZEC](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
 

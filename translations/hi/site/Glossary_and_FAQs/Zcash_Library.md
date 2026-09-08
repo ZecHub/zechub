@@ -207,9 +207,9 @@ Zcash से संबंधित प्रमुख शब्दों, अव
 
 ## W
 
-| Term | Definition |
+| शब्द | परिभाषा |
 |------|-----------|
-| Wallet | software या hardware जो private keys store करता है और आपको ZEC भेजने/प्राप्त करने देता है। सक्रिय wallets में ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android), YWallet, Zallet (आगामी), और Keystone (hardware) शामिल हैं। पूरी सूची के लिए, [Zcash Ecosystem Wallets](https://z.cash/ecosystem/?wallets=#tag-wallets) देखें |
+| Wallet | ऐसा सॉफ़्टवेयर या हार्डवेयर जो private keys संग्रहीत करता है और आपको ZEC भेजने/प्राप्त करने देता है। सक्रिय wallets में ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android), Zkool (mobile/desktop), Zallet (आगामी), और Keystone (hardware) शामिल हैं। पूरी सूची के लिए, [Zcash Ecosystem Wallets](https://z.cash/ecosystem/?wallets=#tag-wallets) देखें |
 | WebZjs | Zcash के लिए पहला JavaScript SDK, जिसे browser environments के लिए ChainSafe ने बनाया है। यही Zcash Shielded Wallet snap की आधारशिला है, जिसने MetaMask में shielded ZEC उपलब्ध कराया। |
 
 ## X

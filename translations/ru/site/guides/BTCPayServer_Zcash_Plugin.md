@@ -124,7 +124,7 @@ BTCPay Server **не** является кошельком и **не требу�
 ### Как это работает
 
 - **Кошелёк создаётся заранее.**  
-  Продавец использует Zcash-кошелёк, поддерживающий viewing key, — например, [YWallet](https://ywallet.app/installation) или [Zingo! Wallet](https://zingolabs.org/).  
+  Продавец использует Zcash-кошелёк, поддерживающий viewing keys, — например, [Zkool](https://github.com/hhanh00/zkool2/) или [Zingo! Wallet](https://zingolabs.org/).  
   Полный список доступен на [ZecHub.wiki](https://zechub.wiki/wallets).
 
 - **BTCPay Server подключается через viewing key.**  
@@ -660,7 +660,7 @@ cd ~/BTCPayServer/btcpayserver-docker
 
 > Пока ещё не все кошельки поддерживают экспорт **Unified Full Viewing Key (UFVK)**.  
 > Рекомендуемые варианты:  
-> – [**YWallet**](https://ywallet.app/installation)  
+> – [**Zkool**](https://github.com/hhanh00/zkool2/)  
 > – [**Zingo! Wallet (версия для ПК)**](https://zingolabs.org/)  
 > В обоих приложениях ищите экспорт UFVK в разделе резервного копирования/экспорта.
 
