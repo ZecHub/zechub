@@ -100,7 +100,7 @@ Financial inclusion, once a beacon of hope, faces the shadows of potential discr
 ## Resources: A Map for the Digital Explorer
 
 For those venturing into the uncharted territory of CBDCs, resources become your compass.
-1. The Bank for International Settlements ([BIS](https://www.bis.org/search/index.htm?globalset_q=cbdc))
+1. The Bank for International Settlements ([BIS](https://www.bis.org/search?keywords=cbdc))
 2. the International Monetary Fund ([IMF](https://www.imf.org/en/About))
 3. Research papers ([paper](https://deliverypdf.ssrn.com/delivery.php?ID=998105006000066124067099122099097121053040051018055094125101013098095097071065120123041031008002042043044095080119019124023085025010021006031087083026113098095102030064008046091121005002106021127103088122029021016098108064080120068125070088112093101069&EXT=pdf&INDEX=TRUE))
 4. Academic Journals ([journal](https://www.bis.org/publ/work976.pdf))
