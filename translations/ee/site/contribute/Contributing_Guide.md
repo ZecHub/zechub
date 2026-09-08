@@ -34,7 +34,7 @@ Gbã la, wɔ ɖeka kple dzeɖoɖoa le míaƒe [nutoa me kadodowo me](https://zec
 
 ### Atsyã ƒe Mɔfiamewo
 
-Ele be nudzɔdzɔ ɖesiaɖe si woawɔ na ZecHub nawɔ ɖe [ZecHub ƒe atsyã ƒe mɔfiamewo dzi](https://github.com/ZecHub/zechub/blob/main/styles/guide.md). Esia lɔ wikiwo, nuŋlɔɖiwo kple hadomenyatakakadzraɖoƒewo ɖe eme.
+Ele be nudzɔdzɔ ɖesiaɖe si woawɔ na ZecHub nawɔ ɖe [ZecHub ƒe atsyã ƒe mɔfiamewo dzi](https://zechub.wiki/contribute/style-guide). Esia lɔ wikiwo, nuŋlɔɖiwo kple hadomenyatakakadzraɖoƒewo ɖe eme.
 
 ### Mɔ siwo dzi nàto akpe asi ɖe eŋu
 
@@ -76,7 +76,7 @@ Míaƒe wiki nyatakakadzraɖoƒea naa Zcash ƒe hehenananuwo le nɔnɔme bɔbɔe
 - Privacy Ecosystem & Tools
 ```
 
-Esiawo nye teƒe siwo keke ŋutɔ, eyata nu geɖe li woawɔ dɔ tsoe. Ne èdi be yeakpɔ gbɔgbɔ aɖe la, kpɔ míaƒe [wiki-docs nyatakakadzraɖoƒe si li fifia](https://zechub.wiki/) eye nàkpɔ nusi bu. Ne ènya nya nusi nèdi be yeaŋlɔ ko la, dze wò tɔtrɔwo wɔwɔ gɔme eye nàsrɔ̃ alesi nàtsɔ PR aɖo ZecHub ƒe nudzraɖoƒea. Wowɔ míaƒe docs katã eye woléa be na wo le repo sia me. Zã [docs ƒe nɔnɔmetata](https://github.com/ZecHub/zechub/blob/main/template.md) eye nàwɔ ɖe [ZecHub ƒe atsyã dzi](https://zechub.wiki/contribute/style-guide) ne èle wiki ƒe axa aɖe ŋlɔm. Ne èɖo PR ɖa vɔ la, taflatse ŋlɔ gbedasi ɖe @dismad, @squirrel, alo @vito le #zechub ƒe akpa si le masɔmasɔa me, eye woalé ŋku ɖe wò PR ŋu eye woaƒo ƒu nenye be ele klalo be woatsɔe akpe ɖe nyatakakadzraɖoƒea ŋu. Ne wotsɔ wo ƒo ƒui la, woatsɔ doc la akpe ɖe ZecHub ƒe nyatakakadzraɖoƒea ŋu. Ne doc la mele klalo o la, woaɖo aɖaŋu na wò be nàtrɔ asi le eŋu le PR la me.
+Esiawo nye teƒe siwo keke ŋutɔ, eyata nu geɖe li woawɔ dɔ tsoe. Ne èdi be yeakpɔ gbɔgbɔ aɖe la, kpɔ míaƒe [wiki-docs nyatakakadzraɖoƒe si li fifia](https://zechub.wiki/) eye nàkpɔ nusi bu. Ne ènya nya nusi nèdi be yeaŋlɔ ko la, dze wò tɔtrɔwo wɔwɔ gɔme eye nàsrɔ̃ alesi nàtsɔ PR aɖo ZecHub ƒe nudzraɖoƒea. Wowɔ míaƒe docs katã eye woléa be na wo le repo sia me. Zã docs ƒe nɔnɔmetata eye nàwɔ ɖe [ZecHub ƒe atsyã dzi](https://zechub.wiki/contribute/style-guide) ne èle wiki ƒe axa aɖe ŋlɔm. Ne èɖo PR ɖa vɔ la, taflatse ŋlɔ gbedasi ɖe @dismad, @squirrel, alo @vito le #zechub ƒe akpa si le masɔmasɔa me, eye woalé ŋku ɖe wò PR ŋu eye woaƒo ƒu nenye be ele klalo be woatsɔe akpe ɖe nyatakakadzraɖoƒea ŋu. Ne wotsɔ wo ƒo ƒui la, woatsɔ doc la akpe ɖe ZecHub ƒe nyatakakadzraɖoƒea ŋu. Ne doc la mele klalo o la, woaɖo aɖaŋu na wò be nàtrɔ asi le eŋu le PR la me.
 
 #### ZecHub Wiki - 0.015 ZEC ɖesiaɖe si woxɔ ɖɔɖɔɖo ɖe docs ŋu
 

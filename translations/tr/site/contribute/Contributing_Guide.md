@@ -34,7 +34,7 @@ ZecHub, topluluk katkılarını yönetmek için GitHub kullanır. GitHub’a yen
 
 ### Stil Rehberleri
 
-ZecHub’a yapılan her katkı [ZecHub stil rehberlerine](https://github.com/ZecHub/zechub/blob/main/styles/guide.md) uymalıdır. Buna wiki’ler, belgeler ve sosyal medya içerikleri dahildir.
+ZecHub’a yapılan her katkı [ZecHub stil rehberlerine](https://zechub.wiki/contribute/style-guide) uymalıdır. Buna wiki’ler, belgeler ve sosyal medya içerikleri dahildir.
 
 ### Katkıda bulunabileceğiniz yollar
 
@@ -76,7 +76,7 @@ Wiki sitemiz, Zcash eğitim materyallerini kolay ve anlaşılır bir formatta su
 - Privacy Ecosystem & Tools
 ```
 
-Bunlar oldukça geniş alanlardır, dolayısıyla üzerinde çalışılacak çok şey vardır. İlham almak isterseniz mevcut [wiki-belgeleri sitemize](https://zechub.wiki/) göz atın ve nelerin eksik olduğuna bakın. Ne yazmak istediğinize karar verdikten sonra değişikliklerinizi yapmaya başlayın ve ZecHub deposuna nasıl PR göndereceğinizi öğrenin. Belgelerimizin tamamı bu depoda oluşturulur ve sürdürülür. Bir wiki sayfası yazarken [belge şablonunu](https://github.com/ZecHub/zechub/blob/main/template.md) kullanın ve [ZecHub stilini](https://zechub.wiki/contribute/style-guide) takip edin. Bir PR gönderdikten sonra lütfen Discord’daki #zechub bölümünde @dismad, @squirrel veya @vito’ya mesaj atın; PR’nizi inceleyip siteye eklenmeye hazırsa birleştireceklerdir. Birleştirilirse belgeyi ZecHub web sitesine eklerler. Belge henüz hazır değilse, PR içinde size düzenleme önerileri sunarlar.
+Bunlar oldukça geniş alanlardır, dolayısıyla üzerinde çalışılacak çok şey vardır. İlham almak isterseniz mevcut [wiki-belgeleri sitemize](https://zechub.wiki/) göz atın ve nelerin eksik olduğuna bakın. Ne yazmak istediğinize karar verdikten sonra değişikliklerinizi yapmaya başlayın ve ZecHub deposuna nasıl PR göndereceğinizi öğrenin. Belgelerimizin tamamı bu depoda oluşturulur ve sürdürülür. Bir wiki sayfası yazarken belge şablonunu kullanın ve [ZecHub stilini](https://zechub.wiki/contribute/style-guide) takip edin. Bir PR gönderdikten sonra lütfen Discord’daki #zechub bölümünde @dismad, @squirrel veya @vito’ya mesaj atın; PR’nizi inceleyip siteye eklenmeye hazırsa birleştireceklerdir. Birleştirilirse belgeyi ZecHub web sitesine eklerler. Belge henüz hazır değilse, PR içinde size düzenleme önerileri sunarlar.
 
 #### ZecHub Wiki - belgelerde kabul edilen her düzenleme için 0.015 ZEC
 
