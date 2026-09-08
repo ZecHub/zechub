@@ -37,6 +37,27 @@ Hey… My line has been credited! You could also confirm your email during the p
 
 ![Step 7 - Successful top-up](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
 
+## Buying a top-up without an account
+
+The method above requires creating a Coinsbee account. If you would rather not, CardsRelay sells mobile top-ups for ZEC without registration.
+
+### 1. Choose your country and operator
+Visit [CardsRelay](https://cardsrelay.com) and open the Mobile Top Ups section. Over 750 operators are supported globally.
+
+### 2. Enter the number and amount
+Fill in the mobile number to be credited and choose the top-up value. The price shown is a single all-in total, with no separate exchange-rate markup added later.
+
+### 3. Enter your email
+An email address is required so the confirmation can be delivered, and it is verified before the order is placed. No account is created and no identity documents are requested.
+
+### 4. Pay with ZEC
+Select Zcash at checkout. ZEC is accepted directly rather than converted by a third party. A payment address and the exact amount are shown.
+
+### 5. Confirmation
+The top-up is processed and confirmation arrives by email, usually within seconds.
+
+CardsRelay also sells gift cards for around 2,500 brands, and accepts Monero and Zano alongside Zcash. It is operated by Payzy ME FZ Ltd.
+
 ---
 
 ![Additional screenshot](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)
