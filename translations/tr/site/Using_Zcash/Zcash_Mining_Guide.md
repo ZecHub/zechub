@@ -25,7 +25,7 @@ Bu rehber, Zcash madenciliğine kişisel donanım kullanarak (örneğin GPU'lu b
   - GPU'lar için: lolMiner (AMD/NVIDIA destekler), GMiner veya miniZ (NVIDIA odaklı). Resmî GitHub depolarından indirin (ör. github.com/Lolliedieb/lolMiner-releases).
   - ASIC'ler için: Üreticinin yerleşik firmware/panelini kullanın (ör. Bitmain'in web arayüzü).
 - **Cüzdan:** Ödemeleri almak için bir Zcash cüzdanı. Önerilenler:
-  - Shielded (özel): Zodl Wallet, Zingo (Mobil/Masaüstü) YWallet (mobil/masaüstü).
+  - Shielded (özel): Zodl Wallet, Zingo (Mobil/Masaüstü), Zkool (mobil/masaüstü).
   - Transparent (daha kolay ama daha az özel): Edge Wallet, Zecwallet Lite.
   - [wallets](https://zechub.wiki/wallets) adresinden indirin. Havuz destekliyorsa gizlilik için shielded bir adres (`zs` ile başlar) oluşturun.
 

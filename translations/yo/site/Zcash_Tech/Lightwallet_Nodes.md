@@ -5,13 +5,22 @@
 
 # Àwọn Nódù Zcash Lightwallet
 
-## Ìfilọ́lẹ̀
+## TL;DR
 
-Most people use Zcash through a light wallet, which does not download the whole blockchain. Instead it talks to a server that has already done that work. This page explains what those servers are, what they can and cannot see about you, how to route your connection over Tor, and how to change the server your wallet uses.
+* Ọpọlọpọ eniyan lo Zcash nipasẹ apamọwọ ina, eyi ti ko ṣe igbasilẹ gbogbo blockchain. Dipo, o ba olupin kan sọrọ ti o ti ṣe iṣẹ yẹn tẹlẹ.
+* Awọn ẹya sọfitiwia meji lo awọn apamọwọ ina loni: ** lightwalletd, iṣẹ atilẹba ti a kọ ni Go, ati Zaino**, itọka tuntun kan ti a ṣe ni Rust.
+* Àwọn kókó rẹ kò ní kúrò nínú ẹ̀rọ, àti pé àwọn sàràkò ò lè ná owó tàbí ka iye tí ó wà lábẹ́ ìsòwò tó ni ààbò.
+* Ohun tí àwọn server ń rí kókó rẹ̀ nínú ni IP address àti àkókò ìgbòkègbodò ẹ  Àwọn ìnáwó tó ní ààbò máa n dáàbò bo ohun tó wà lórí blockchain, kì í ṣe asopọ yín sí servers.
+* Tor yọ idamo IP kuro; o wa ninu awọn apamọwọ ti a ṣe lori rẹ. `zcash_client_backend`, ati ni ZODL o jẹ iṣeto ninu Awọn eto to ti ni ilọsiwaju.
+* O le yi serveri ti apamọwọ rẹ nlo pada, tabi ṣiṣe tirẹ  lightwalletd ati Zaino jẹ orisun ṣiṣi.
+
+## Àlàyé Ìpilẹ̀ṣẹ̀
+
+Most people use Zcash through a light wallet, which does not download the whole blockchain. Instead, it talks to a server that has already done that work. This page explains what those servers are, what they can and cannot see about you, how to route your connection over Tor, and how to change the server your wallet uses.
 
 Two pieces of software serve light wallets today. **lightwalletd** is the original service, written in Go. **Zaino** is a newer indexer written in Rust, built as part of the zcashd deprecation work.
 
-## Ohun tí àwọn olùpèsè àpamọ́ owó kékeré ń ṣe
+### Ohun tí àpamọ́ owó kékeré ń ṣe
 
 Olùpèsè àpò owó tí ó rọ̀rọ̀ ńgbé láàrin àpò rẹ àti Zcash blockchain, tó sì fún un ní ìran ti kò gba agbára láti lo òpó-ìkànnì náà. Ó ṣe nǹkan mẹ́ta fún ọ.
 
@@ -23,7 +32,7 @@ Dípò kí ó máa fi gbogbo àlàfo ránṣẹ́, ńṣe ló ń fi ìwé kéker�
 
 Àpò rẹ ṣì ń ṣe iṣẹ́ ìkọ̀ǹkò-ara ẹni ní àdúgbò. Ó máa ń gbé kókó ọ, ó máa ń tú àwọn ìwé kíkà láti wá àkọsílẹ̀ ẹ wò, àti pé yóò kọ ìṣòwò sí orí ẹrọ yín tí á sì fọwọ́ sí i lórí rèé.
 
-## Ohun tí olùpèsè lè rí àti ohun tí kò le rí
+### Ohun tí olùpèsè lè rí àti ohun tí kò le rí
 
 Eyi ni apa ti o rọrun lati ṣe aṣiṣe. Awọn bọtini rẹ ko fi ẹrọ rẹ silẹ, ṣugbọn iyẹn kii ṣe kanna bi olupin naa ko kọ nkankan nipa rẹ.
 
@@ -36,9 +45,9 @@ Start with what is protected. Against every adversary in the model, including on
 Àìlera. Báwo ni?
 |:--|:--|
 "Ẹni tó ń ṣe àtakò náà mọ àdírẹ́sì IP tí oníṣe rẹ̀, èyí lè mú kí wọ́n rí ẹni gidi onítọ̀hún".
-Ó máa ń sọ ibi tí o wà, ó sì tún lè wo IP rẹ nínú ìpamọ́ àdúgbò láti mọ̀ bóyá ibì kan ni wọ́n.
+Ó ń sọ ibi tí o wà ní ìlàlóye, ó sì ń wo IP rẹ nínú àpamọ́ ìṣàmúlò láti mọ ibì tó ti wá.
 í sọ èyí àti ìgbà tí o rán tàbí gbà ìsòwò ààbò kan. "ìránṣẹ́ ńlo àmúṣọrán púpọ̀, tó hàn bí ó tilẹ̀ jẹ pé a ti fi àkọọ́lẹ̀ dídá asopọ náà". Àpẹẹrẹ yìí ṣàkíyèsí wípé ìgbésẹ̀ rírán àti gbígba ni ìránṣẹ́ fúnra rẹ̀ rí.
-ìṣírò iye àwọn ìnáwó tí ẹ ti ṣe ní àkókò kan. Ìwọ̀n àyè náà, a rí i fún ìgbà pípẹ́ síi.
+ìṣírò iye àwọn ìnáwó tí o ti ṣe ní àkókò kan. Ìwàláàyè àyè bákan náà, a rí i fún ìgbà pípẹ́ síi.
 ◯ Ṣíṣàmúlò àwọn ìlànà ìsanwó tó ń wáyé léraléra. ▪ Kíyè sí ìgbà tí ìgbésẹ̀ kan bá ṣẹlẹ̀.
 ◯ Ṣíṣayẹwo bóyá adirẹsi kan jẹ́ tìrẹ. Ẹnìkan tó bá mọ àdírẹsì náà "lè fi owó ránṣẹ́ sí i kó sì máa wò ó láti ríi bí àyè ìsọfúnni rẹ ṣe ń pọ̀ sí i" látinú pọ́ọ̀lù ẹ tí yóò mú un wá.
 
@@ -46,11 +55,21 @@ Awoṣe naa tun ṣe akiyesi pe ọran ti o wọpọ gba "ibasepo igbẹkẹle l
 
 nítorí náà, àlàyé tí ó ṣe kedere ni pé. àwọn ohun èlò ìpamọ́ owó kò lè náwó rẹ àti kó ka iye tàbí àkọsílẹ̀ nínú ètò ìdánwò ìṣójútó ẹ. èyí tó dára láti mọ ní íńtánẹ́ẹ̀tì yín (IP address) àti àkókò ìgbòkègbodò yín, nǹkan méjì yìí pa pọ̀ sì le sọ púpọ̀ nípa ẹnì kan. ìlànà ìdánwọlé ń dáàbò bo gbogbo ohun tó wà lórí kọǹpútà alágbèéká. wọn kì í fi ìbátan yín sí ìránṣẹ́ pamọ́ fúnra wọn. bí o bá rí i pé òótọ́ lohun táwọn èèyàn ti máa ń sọ fún ọ nígbà míì, kí ló dé? a tún wá gbé e yẹ wò báyìí: ṣé wàá fẹ́ káwọn oníṣòwò wọ̀nyí gba irú ìwé ìròyìn bẹ́ẹ̣ jáde láìjẹ́ pé ìwọ gan-an lòun
 
-## Ṣíṣe ìyípòsókè lórí Tor
+## Ìran / Àfiwé
+
+Think of a public library that holds every newspaper ever printed. A full node is a reader who takes home the entire archive. A light wallet is a reader who asks the librarian for a daily digest instead — a thin sheet carrying just enough to spot whether anything concerns them.
+
+Àkójọ náà ti di títì: olùtọ́jú ìwé á kó o jọ láì lè ka àwọn ohun tó ṣe pàtàkì sí ọ, ìwọ yóò sì ṣí i nílé pẹ̀lú kọǹpútà rẹ. Èyí ni àpamọ́ ìdìpọ̀ tí a fi ń ṣii rèé, àti wípé ìṣípayá-ẹ̀rọ lórí ẹ̀rọ rẹ ló wà fún ìdánwò.
+
+ṣùgbọ́n olùkọ́ ìwé ṣì rí ẹni tó wọlé, ìgbà wo ni ó dé àti bí ìdìpọ̀ náà ṣe díjú tó. ìyẹn ni àdírésì IP àti àkókò tí a lè fi wò ọ láti orí àtẹ láìka bó ti dì dáadáa sí. tor dàbí kí o rán oníṣẹ́ kan lọ láìsí orúkọ: òṣìṣẹ́ ilé-ìwé ń fúnni ní ìdìpọ̀ kan náà, àmọ́ kò mọ ibi tí yóò máa tọ́ sí mó.
+
+## Wọlé Lọ Jìnnà
+
+### Ṣíṣe ìyípòsókè lórí Tor
 
 Tor máa ń tú ìjápọ̀ tó wà láàárín IP address rẹ àti àpòòwò ẹrù, èyí tí ó mú ìdánimọ́ lílágbára jùlọ kúrò nínú tábìlì lókè.
 
-Atilẹyin wa ninu awọn ile-ikawe Rust ti ọpọlọpọ awọn apamọwọ Zcash kọ lori. zcash_client_backend pẹlu modulu Tor kan ti a ṣe sori rẹ [Àwọn ẹ̀ka:](https://tpo.pages.torproject.net/core/arti/), ìmúṣẹ Rust ti Tor, kí apamọwọ lè darí àpapọ̀-ìṣiṣẹ́pọ̀, igbohunsafefe àti àwọn àwárí owó nípasẹ̀ Tor láì fi oníṣe Tor tó yàtọ̀ ránṣẹ́.
+Atilẹyin wa ninu awọn ile-ikawe Rust ti ọpọlọpọ awọn apamọwọ Zcash kọ lori. zcash_client_backend pẹlu modulu Tor kan ti a ṣe sori rẹ [Àwọn ẹ̀ka:](https://tpo.pages.torproject.net/core/arti/), ìmúṣẹ Rust ti Tor, kí apamọwọ lè darí àpapọ̀-ìṣàmúlò àti wíwo iye owó nípasẹ̀ Tor láì fi oníṣe Tor tó yàtọ̀ ránṣé́.
 
 The Zaino developers make the same argument, citing the threat model directly: there is "a need to use anonymous transport protocols (such as Nym or Tor) to obfuscate clients' identities from Zcash's indexing servers".
 
@@ -58,15 +77,21 @@ Ni **ZODL**, Tor jẹ eto ninu Awọn Eto to ti ni ilọsiwaju. awọn apamọw�
 
 Awọn ifitonileti meji. Tor fi IP rẹ pamọ lati ọdọ olupin, ṣugbọn ko yi ohun ti olupin naa kọ ẹkọ lati awọn ibeere ti o ṣe pada. Ati fifiranṣẹ alubosa n ṣafikun akoko idaduro, nitorinaa isọdọkan gba to gun ju bẹ lọ. Ṣiṣiṣẹ olupin tirẹ yago fun ibeere igbẹkẹle ni ọna miiran, nitori lẹhinna oniṣẹ jẹ iwọ.
 
-## Zaino, olùṣàmúlò Ìdàrọ́jẹ̀
+### Zaino, olùṣàmúlò Ìdàrọ́jẹ̀
 
-[Zaino (ìyẹn)](/site/Zcash_Tech/Zaino) jẹ́ àtòjọ tí a kọ ní Rust láti ọwọ̀ ẹgbẹ Zingo, ti a ṣe lati rọpo lightwalletd gẹ́gẹ́ bí apá kan iṣẹ́ ìparun zcashd. Ó ń ṣiṣẹ́ fún àwọn oníṣe-òwò kékeré, àwọn oníṣẹ́-ọjà tó kún àti àwárí blọọki, kíkà data ẹ̀ka tí "yálà Zebra tàbí olùṣàmúlò ojúlówó Zcashd" bá mú lọ síbi rẹ̀.
+[Zaino (ìyẹn)](/zcash-tech/zaino) jẹ́ àtòjọ tí a kọ ní Rust láti ọwọ̀ ẹgbẹ Zingo, ti a ṣe lati rọpo lightwalletd gẹ́gẹ́ bí apá kan iṣẹ́ ìmúdi zcashd. Ó ń ṣiṣẹ́ fún àwọn oníṣe-òwò kékeré, àti olùwádìí àwárí ìdínà (block explorer), kíkà data ẹ̀ka tó wà lábẹ́ "yálà Zebra tàbí aláyẹsẹ Zcashd".
 
-O ti wa ni labẹ idagbasoke lọwọlọwọ, pẹlu ẹya 0.7.0 tu silẹ ni Oṣu Kẹjọ ọdun 2026. o n ṣe ifọkansi lati duro pada ibaramu pẹlu lightwalletd nibiti o ba ṣeeṣe, nitorinaa awọn apamọwọ le tọka si rẹ laisi kikọ lẹẹkansii.
+O ti wa ni labẹ idagbasoke lọwọlọwọ, pẹlu ẹya 0.8.0 tu silẹ ni Oṣu Kẹjọ ọdun 2026. o n ṣe ifọkansi lati duro pada ibaramu pẹlu lightwalletd nibiti o ba ṣeeṣe, nitorinaa awọn apamọwọ le tọka si rẹ laisi kikọ lẹẹkansii.
 
 Zaino ní ojúewé tirẹ̀ pẹlú àwọn àwòrán ìṣẹ́ ọnà, nítorí náà ojúewè yìí nìkan ni ó bo ipa rẹ gẹ́gẹ́ bí olùpèsè àpò owó tí kò lágbára.
 
-## Àtòjọ àwọn sẹẹfù
+### Wàá máa dá bójú tó ara rẹ.
+
+Aṣayan ti o lagbara julọ ni lati jẹ oniṣẹ tirẹ, eyiti o yọ ibeere igbẹkẹle kuro patapata. Awọn olupin mejeeji wa orisun ṣiṣi: [lightwalletd ì í ë ¤ì 'ë¦¬í ¬](https://github.com/zcash/lightwalletd) ní Go àti [Zaino (ìyẹn)](https://github.com/zingolabs/zaino) Ni Rust. Mejeeji ka lati kan ni kikun validator, ki o yoo tun fẹ [Zebra](/zcash-tech/zebra-full-node).
+
+## Àwọn Ohun Tó Lè Yọrí sí Lóòótọ́
+
+### Àtòjọ àwọn sẹẹfù
 
 Àwọn ohun tó ń ṣẹlẹ̀: [hosh.zec.rocks (ìyẹn àwọn òkúta)](https://hosh.zec.rocks/zec) dashboard ń tọpinpin àwọn ààrò gbogbo ènìyàn àti ìlera wọn, ó sì jẹ́ ibi láti ṣayẹwo ohun tí o wà nídìí rẹ̀. [status.zec.rocks (ì í ì ë§)](https://status.zec.rocks/) ó fi ipò iṣẹ́ hàn.
 
@@ -82,7 +107,7 @@ testnet.zec.rocks:443 Testnet, pẹlu ohun ti Zaino testnet ṣe akojọ ni zain
 
 Ṣayẹwo ibi ìsọfúnni dípò kí o fọkàn tán ìwé àkọsílẹ̀ yìí. Àwọn oníṣẹ́ ń wá, àwọn sì máa lọ, ojúewé bíi èyí á sì di arúgbó.
 
-## Yíyípòsò sí àwọn ààrọ̀ nínú apamọwọ rẹ
+### Yíyípòsò sí àwọn ààrọ̀ nínú apamọwọ rẹ
 
 Worth doing if you want to pick an operator you trust, spread activity across operators, or point at your own.
 
@@ -110,14 +135,28 @@ ZODL tun nfunni ni ọna asopọ olupin Switch nigbati ikuna isọdọkan ba ṣ
 
 ![eZcash server settings](/content-images/655c0172-61a0-4322-b8cf-4eee4bb53b51-0b93df2e71.webp)
 
-Àwọn àwòrán ojú-ìwo wọ̀nyìí ni a ya ní March 2025 àti pé àwọn ohun èlò náà ti fi àtúnṣe ránṣẹ́ láti ìgbà yẹn, nítorí náà ìpéèdì lè ti yí padà.
+Àwọn àwòrán náà ni wọ́n ya ní March 2025, àwọn ohun èlò sì ti fi àtúnṣe ránṣẹ́ látìgbà yẹn, nítorí náà ìpéè lè yí padà.
 
-## Wàá máa dá bójú tó ara rẹ.
+## Àwọn Àṣìṣe Tó Máa Ń Ṣẹlẹ̀ Lóde Òní
 
-Aṣayan ti o lagbara julọ ni lati jẹ oniṣẹ tirẹ, eyiti o yọ ibeere igbẹkẹle kuro patapata. Awọn olupin mejeeji wa orisun ṣiṣi: [lightwalletd ì í ë ¤ì 'ë¦¬í ¬](https://github.com/zcash/lightwalletd) ní Go àti [Zaino (ìyẹn)](https://github.com/zingolabs/zaino) Ni Rust. Mejeeji ka lati kan ni kikun validator, ki o yoo tun fẹ [Zebra](/site/Zcash_Tech/Zebra_Full_Node).
+**rírò pé àwọn ààrán lè ka ìsàmúlò rẹ**. Kò le ṣe bẹ́ẹ̀ o. Àwọn kókó ọ̀rọ̀ yín wà lórí ẹ̀rọ, àti iye owó àtàwọn ìwé ìrántí inú ètò ìdásílẹ̀ tí ó ní dídíjú pátápátá ń jẹ́ kí wọ́n pa mọ́  kódà lòdì sí alátakò tó ti fi ohun èlò náà pamọ́.
+
+**Ka "ìpamọ́" gẹ́gẹ́ bíi "isopọ̀ tí a kò mọ orúkọ rẹ**. àwọn ìnáwó ààbò ń dáàbò bo ohun tó wà nínú ẹyọ-àkọsílẹ̀ náà IP adirẹsi yín àti àkókò ìgbésè yín jẹ́ òdìkejì, ète yìí gan an ni sàrù rí.
+
+**Ti o ba ro pe Tor yọ gbogbo ami**. Tor fi IP rẹ pamọ lati ọdọ olupin, ṣugbọn ko yi ohun ti olupin naa kọ ẹkọ lati awọn ibeere ti o ṣe pada, ati pe o ṣafikun akoko idaduro si isopọmọ.
+
+**Gbígbé orúkọ àwọn sàrù lórí ojúewé wiki kan kalẹ̀** Àwọn oníṣẹ́ ń wá, wọ́n sì ń lọ. Ṣayẹwo [hosh.zec.rocks (ìyẹn àwọn òkúta)](https://hosh.zec.rocks/zec) fún ohun tó ń lọ ní tòótọ́ kí o to fi àpò rẹ sí ohunkóhun.
 
 ## Àkópọ̀ rèé:
 
 Light wallets give you the shielded pool without the disk space, which is a good trade. Just be clear about what you are trading. The server cannot take your funds or read your shielded amounts, but it is well placed to see your IP address and when you transact. Route over Tor, choose your operator deliberately, or run your own.
+
+## Àwọn ojúewé tó ní í ṣe pẹ̀lú rẹ̀
+
+- [Àwọn wo ló lè rí owó tí o bá san lórí Zcash?](/start-here/who-can-see-your-zcash-payment)  ojú ìwòye tí àwọn tó ṣẹ̀ṣẹ̀ ń kópa nínú ìdánwò náà fi wo ìbéèrè kan náà.
+- [Ohun Tí Ẹni Tó Ń Ṣàyẹ̀wò Àlàfo Lè Rí](/zcash-tech/what-a-block-explorer-can-see)  ohun ti o han lori-agbelebu, bi idakeji si ni olupin.
+- [Zaino (ìyẹn)](/zcash-tech/zaino)  awọn aworan apẹrẹ ati ipa ti o gbooro sii ti olutọpa Rust.
+- [Zebra Ìkànnì Pípéye](/zcash-tech/zebra-full-node)  Olùmúṣẹ tí àwọn àkáǹtì owó-ìpamọ́ ń kà láti inú rẹ̀.
+- [Ìṣètò Ọ̀rọ̀-ìpamọ́ Zcash Wallet](/zcash-tech/zcash-wallet-syncing)  bí àwọn ìdìpọ̀ tí a ṣe ní àpapọ̀ ti séréfò ránṣẹ́ ni wó n gbà láti inú pópó rẹ.
 
 ** Àtúnṣe ìkẹyìn:** August 2026

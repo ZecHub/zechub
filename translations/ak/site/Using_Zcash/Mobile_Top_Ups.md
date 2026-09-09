@@ -37,6 +37,27 @@ Hey... Me line no na wɔde credit ama! Wubetumi nso asi wo email no so dua bere 
 
 ![Step 7 - Successful top-up](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
 
+## Top-up a wobɛtɔ a wunni akontaabu
+
+Ɔkwan a ɛwɔ atifi hɔ no hwehwɛ sɛ wobɔ Coinsbee akontaabu. Sɛ wopɛ sɛ wonyɛ a, CardsRelay tɔn mobile top-ups ma ZEC a wonkyerɛw wo din.
+
+### 1. Paw wo man ne nea ɔyɛ adwuma no
+Sra [Kaad a Wɔde Di Dwuma](https://cardsrelay.com) na bue Mobile Top Ups ɔfã no. Wɔboa adwumayɛfo bɛboro 750 wɔ wiase nyinaa.
+
+### 2. Kyerɛw nɔma ne sika dodow no
+Hyɛ mobile nɔma a wopɛ sɛ wode credit no hyɛ mu na paw bo a wode bɛka ho. Bo a wɔada no adi no yɛ ne nyinaa biako pɛ, a wɔmfa sika a wɔde sesa nneɛma a ɛsono emu biara nka ho akyiri yi.
+
+### 3. Hyehyɛ wo email no
+Ɛsɛ sɛ wonya email address sɛnea ɛbɛyɛ a wobetumi de confirmation no amena, na wɔagye atom ansa na wɔayɛ order no. Wɔnnyɛ akontaabu biara na wɔmmisa nkrataa biara a ɛkyerɛ sɛ obi yɛ onipa.
+
+### 4. Fa ZEC tua ka
+Paw Zcash wɔ bere a worekɔtotɔ nneɛma no. ZEC yɛ nea wogye tom tẽẽ sen sɛ obi foforo bɛsakra no. Wɔakyerɛ address a wɔde tua sika ne sika pɔtee a wɔde betua.
+
+### 5. Nsɛm a wɔde si so dua
+Wɔyɛ top-up no ho adwuma na wɔde email ba confirmation so, mpɛn pii no wɔ sikɔne kakraa bi mu.
+
+CardsRelay nso tɔn akyɛdeɛ nkrataa ma bɛyɛ 2,500 brands, na wɔgye Monero ne Zano ka Zcash ho. Payzy ME FZ Ltd na ɛhwɛ so.
+
 ---
 
 ![Additional screenshot](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)

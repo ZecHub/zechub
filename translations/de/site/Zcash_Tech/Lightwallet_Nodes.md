@@ -1,123 +1,162 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Lightwallet_Nodes.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Seite bearbeiten"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 
-# Zcash Lightwallet-Knoten
+# Zcash-Lightwallet-Knoten
 
-## Einführung
+## TL;DR
 
-Die meisten Menschen nutzen Zcash über eine Light Wallet, die nicht die gesamte blockchain herunterlädt. Stattdessen kommuniziert sie mit einem Server, der diese Arbeit bereits erledigt hat. Diese Seite erklärt, was diese Server sind, was sie über dich sehen können und was nicht, wie du deine Verbindung über Tor leitest und wie du den Server wechselst, den deine Wallet verwendet.
+* Die meisten Menschen nutzen Zcash über eine Light Wallet, die nicht die gesamte blockchain herunterlädt. Stattdessen kommuniziert sie mit einem Server, der diese Arbeit bereits erledigt hat.
+* Heute bedienen zwei Softwareprogramme Light Wallets: **lightwalletd**, der ursprüngliche Dienst, der in Go geschrieben wurde, und **Zaino**, ein neuerer Indexer, der in Rust geschrieben wurde.
+* Ihre Schlüssel verlassen niemals Ihr Gerät, und der Server kann weder Ihre Mittel ausgeben noch die Beträge und Memos in vollständig abgeschirmten Transaktionen lesen.
+* Was der Server gut ermitteln kann, sind Ihre IP-Adresse und der Zeitpunkt Ihrer Aktivitäten — abgeschirmte Transaktionen schützen, was auf der blockchain geschieht, nicht Ihre Verbindung zum Server.
+* Tor entfernt den IP-Identifier; es ist in Wallets verfügbar, die auf `zcash_client_backend` basieren, und in ZODL ist es eine Einstellung unter Erweiterte Einstellungen.
+* Sie können den Server wechseln, den Ihre Wallet verwendet, oder einen eigenen betreiben — sowohl lightwalletd als auch Zaino sind Open Source.
 
-Heute bedienen zwei Software-Komponenten Light Wallets. **lightwalletd** ist der ursprüngliche Dienst, geschrieben in Go. **Zaino** ist ein neuerer Indexer, geschrieben in Rust und entwickelt als Teil der Arbeiten zur Ablösung von zcashd.
+## Grundlegende Erklärung
 
-## Was ein Light-Wallet-Server tut
+Die meisten Menschen nutzen Zcash über eine Light Wallet, die nicht die gesamte blockchain herunterlädt. Stattdessen kommuniziert sie mit einem Server, der diese Arbeit bereits erledigt hat. Diese Seite erklärt, was diese Server sind, was sie über Sie sehen können und was nicht, wie Sie Ihre Verbindung über Tor leiten und wie Sie den von Ihrer Wallet verwendeten Server wechseln.
 
-Ein Light-Wallet-Server sitzt zwischen deiner Wallet und der Zcash-blockchain und gibt ihr eine bandbreiteneffiziente Sicht auf die chain. Er übernimmt drei Aufgaben für dich.
+Heute bedienen zwei Softwareprogramme Light Wallets. **lightwalletd** ist der ursprüngliche Dienst, geschrieben in Go. **Zaino** ist ein neuerer Indexer, geschrieben in Rust und entwickelt im Rahmen der Arbeiten zur Ablösung von zcashd.
 
-Er stellt kompakte Blöcke bereit. Anstatt ganzer Blöcke sendet er eine kompakte Form, die nur das enthält, was eine Wallet benötigt, um eine Zahlung an ihre Shielded-Adresse zu erkennen, eine Ausgabe ihrer Notes zu erkennen und ihre Witnesses zu aktualisieren.
+### Was ein Light-Wallet-Server tut
 
-Er leitet deine Transaktionen weiter. Wenn du sendest, übergibt deine Wallet die fertige Transaktion an den Server, der sie ins Netzwerk überträgt.
+Ein Light-Wallet-Server sitzt zwischen Ihrer Wallet und der Zcash-blockchain und bietet ihr eine bandbreiteneffiziente Sicht auf die Chain. Er übernimmt drei Aufgaben für Sie.
 
-Er beantwortet chain-Abfragen, etwa zur aktuellen Höhe und zu den Gebühreninformationen, die deine Wallet benötigt.
+Er stellt kompakte Blöcke bereit. Anstelle ganzer Blöcke sendet er eine kompakte Form, die nur das enthält, was eine Wallet benötigt, um eine Zahlung an ihre abgeschirmte Adresse zu erkennen, eine Ausgabe ihrer Notes zu erkennen und ihre Witnesses zu aktualisieren.
 
-Deine Wallet erledigt die privaten Aufgaben weiterhin lokal. Sie verwahrt deine Schlüssel, entschlüsselt Blöcke probeweise, um deine Notes zu finden, und erstellt und signiert Transaktionen auf deinem Gerät.
+Er leitet Ihre Transaktionen weiter. Wenn Sie senden, übergibt Ihre Wallet die fertige Transaktion an den Server, der sie an das Netzwerk überträgt.
 
-## Was der Server sehen kann und was nicht
+Er beantwortet Chain-Abfragen, etwa zur aktuellen Höhe und zu den Gebühreninformationen, die Ihre Wallet benötigt.
 
-Das ist der Teil, bei dem man sich leicht irren kann. Deine Schlüssel verlassen niemals dein Gerät, aber das ist nicht dasselbe wie die Aussage, dass der Server nichts über dich erfährt.
+Ihre Wallet erledigt die privaten Aufgaben weiterhin lokal. Sie verwahrt Ihre Schlüssel, entschlüsselt Blöcke probeweise, um Ihre Notes zu finden, und erstellt und signiert Transaktionen auf Ihrem Gerät.
 
-Die Referenz hierfür ist das [Bedrohungsmodell der Zcash-Wallet-App](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html), das du vollständig lesen solltest, wenn dir das wichtig ist. Es beschreibt mehrere Arten von Angreifern. Für diese Seite relevant ist ein Angreifer, der den Datenverkehr zwischen deiner Wallet und dem Internet sowie zwischen dem Server und dem Internet beobachten kann. Wer den Server betreibt, befindet sich naturgemäß teilweise in genau dieser Position, weil deine Wallet sich direkt mit ihm verbindet.
+### Was der Server sehen kann und was nicht
 
-Beginnen wir mit dem, was geschützt ist. Gegen jeden Angreifer im Modell, einschließlich eines Angreifers, der den Server kompromittiert hat, kann er "can't learn any of the user's cryptographic key material (spending keys, viewing keys, seed phrase, etc.)", deine Gelder nicht stehlen und dich nicht dazu bringen, Gelder zu senden, die du nicht senden wolltest. Die Beträge und Memos in vollständig abgeschirmten Transaktionen bleiben verschlüsselt.
+Dieser Teil wird leicht missverstanden. Ihre Schlüssel verlassen niemals Ihr Gerät, aber das bedeutet nicht, dass der Server nichts über Sie erfährt.
 
-Dann gibt es noch das, was nicht geschützt ist. Das Bedrohungsmodell listet dies als bekannte Schwächen gegenüber einem verkehrsbeobachtenden Angreifer auf:
+Die Referenz hierfür ist das [Bedrohungsmodell der Zcash-Wallet-App](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html), das Sie vollständig lesen sollten, wenn Ihnen dieses Thema wichtig ist. Es beschreibt verschiedene Arten von Angreifern. Für diese Seite relevant ist ein Angreifer, der den Datenverkehr zwischen Ihrer Wallet und dem Internet sowie zwischen dem Server und dem Internet beobachten kann. Wer den Server betreibt, befindet sich zwangsläufig teilweise in dieser Position, weil Ihre Wallet sich direkt mit ihm verbindet.
+
+Beginnen wir mit dem, was geschützt ist. Gegen jeden Angreifer im Modell, einschließlich eines Angreifers, der den Server kompromittiert hat, kann dieser "keines der kryptografischen Schlüsselmaterialien des Nutzers erfahren (Ausgabeschlüssel, Viewing Keys, Seed Phrase usw.)", Ihre Mittel nicht stehlen und Sie nicht dazu bringen, Mittel zu senden, die Sie nicht senden wollten. Die Beträge und Memos in vollständig abgeschirmten Transaktionen bleiben verschlüsselt.
+
+Dann gibt es, was nicht geschützt ist. Das Bedrohungsmodell führt diese bekannten Schwächen gegenüber einem datenverkehrsbeobachtenden Angreifer auf:
 
 | Schwäche | Wie |
 |:--|:--|
-| Erkennen, wer du bist | "The adversary knows the user's IP address, which could lead them to the user's real identity" |
-| Ungefähr erkennen, wo du bist | Nachschlagen deiner IP "in a geolocation database to approximate their location" |
-| Erkennen, dass und wann du eine Shielded-Transaktion gesendet oder empfangen hast | Beim Senden wird "uses more bandwidth, which is visible even though the connection is encrypted". Das Modell weist darauf hin, dass der Vorgang des Sendens und Empfangens für den Server selbst sichtbar ist |
-| Zählen, wie viele Transaktionen du im Laufe der Zeit gemacht hast | Dieselben Bandbreitenmuster, über einen längeren Zeitraum beobachtet |
-| Wiederkehrende Zahlungsmuster erkennen | Beobachten, wann Aktivität stattfindet |
-| Herausfinden, ob eine Adresse dir gehört | Ein Angreifer, der eine Adresse bereits kennt, "could send funds to that address and watch to see if there are bandwidth spikes" von deiner Wallet beim Abrufen |
+| Herausfinden, wer Sie sind | "Der Angreifer kennt die IP-Adresse des Nutzers, was zu dessen echter Identität führen könnte" |
+| Ungefähr herausfinden, wo Sie sind | Ihre IP-Adresse "in einer Geolokalisierungsdatenbank nachschlagen, um ihren Standort anzunähern" |
+| Feststellen, dass und wann Sie eine abgeschirmte Transaktion gesendet oder erhalten haben | Beim Senden wird "mehr Bandbreite verwendet, was sichtbar ist, obwohl die Verbindung verschlüsselt ist". Das Modell weist darauf hin, dass das Senden und Empfangen selbst für den Server sichtbar ist |
+| Zählen, wie viele Transaktionen Sie im Laufe der Zeit durchgeführt haben | Dieselben Bandbreitenmuster, über einen längeren Zeitraum beobachtet |
+| Wiederkehrende Zahlungsmuster erkennen | Beobachten, wann Aktivitäten stattfinden |
+| Herausfinden, ob eine Adresse Ihnen gehört | Ein Angreifer, der eine Adresse bereits kennt, "könnte Mittel an diese Adresse senden und beobachten, ob es Bandbreitenspitzen gibt", weil Ihre Wallet sie abruft |
 
-Das Modell weist außerdem darauf hin, dass der Normalfall "a trust relationship between the user and the lightwalletd server operator" voraussetzt.
+Das Modell weist außerdem darauf hin, dass der Normalfall "eine Vertrauensbeziehung zwischen dem Nutzer und dem Betreiber des lightwalletd-Servers" voraussetzt.
 
-Die ehrliche Zusammenfassung lautet also: Ein Light-Wallet-Server kann dein Geld nicht ausgeben, und er kann die Beträge oder Memos in deinen Shielded-Transaktionen nicht lesen. Was er sehr gut herausfinden kann, ist deine IP-Adresse und der Zeitpunkt deiner Aktivität, und diese beiden Dinge zusammen können viel über eine Person aussagen. Shielded-Transaktionen schützen das, was auf der blockchain geschieht. Sie verbergen nicht von selbst deine Verbindung zum Server.
+Die ehrliche Zusammenfassung lautet also: Ein Light-Wallet-Server kann Ihr Geld nicht ausgeben und weder die Beträge noch die Memos in Ihren abgeschirmten Transaktionen lesen. Was er gut ermitteln kann, sind Ihre IP-Adresse und der Zeitpunkt Ihrer Aktivitäten, und diese beiden Informationen zusammen können viel über eine Person verraten. Abgeschirmte Transaktionen schützen, was auf der blockchain geschieht. Sie verbergen nicht automatisch Ihre Verbindung zum Server.
 
-## Routing über Tor
+## Visualisierung / Analogie
 
-Tor trennt die Verbindung zwischen deiner IP-Adresse und dem Datenverkehr deiner Wallet, wodurch der stärkste Identifikator aus der obigen Tabelle entfällt.
+Stellen Sie sich eine öffentliche Bibliothek vor, die jede jemals gedruckte Zeitung aufbewahrt. Ein vollständiger Knoten ist ein Leser, der das gesamte Archiv mit nach Hause nimmt. Eine Light Wallet ist ein Leser, der die Bibliothekarin stattdessen um eine tägliche Zusammenfassung bittet — ein dünnes Blatt, das gerade genug enthält, um zu erkennen, ob etwas davon ihn betrifft.
 
-Unterstützung dafür existiert in den Rust-Bibliotheken, auf denen viele Zcash-Wallets aufbauen. zcash_client_backend enthält ein Tor-Modul auf Basis von [Arti](https://tpo.pages.torproject.net/core/arti/), der Rust-Implementierung von Tor, sodass eine Wallet Synchronisierung, Transaktionsübertragung und Preisabfragen über Tor leiten kann, ohne einen separaten Tor-Client mitzuliefern.
+Die Zusammenfassung ist versiegelt: Die Bibliothekarin stellt sie zusammen, ohne lesen zu können, welche Artikel für Sie wichtig sind, und Sie öffnen sie zu Hause mit Ihrem eigenen Schlüssel. Das ist der kompakte Block, und das Öffnen entspricht der probeweisen Entschlüsselung auf Ihrem Gerät.
 
-Die Zaino-Entwickler argumentieren ähnlich und zitieren das Bedrohungsmodell direkt: Es gebe "a need to use anonymous transport protocols (such as Nym or Tor) to obfuscate clients' identities from Zcash's indexing servers".
+Aber die Bibliothekarin sieht weiterhin, welcher Leser hereinkam, zu welcher Zeit und wie dick das Bündel war, das er mitnahm. Das sind die IP-Adresse und der Zeitpunkt — vom Schreibtisch aus sichtbar, ganz gleich, wie gut der Umschlag versiegelt ist. Tor entspricht dem Versand durch einen anonymen Kurier: Die Bibliothekarin übergibt weiterhin dasselbe Bündel, weiß aber nicht mehr, zu wessen Haus es geht.
 
-In **ZODL** ist Tor eine Einstellung unter Advanced Settings. Die Release Notes der Wallet verweisen Nutzer auf den manuellen Verbindungsmodus "plus enabling Tor in Advanced Settings", wenn sie "prefer to reduce metadata exposure", und die App bietet an, Tor einzuschalten, bevor du eine Wallet wiederherstellst – also genau in dem Moment, in dem eine neue IP sonst mit der gesamten Wallet-Historie verknüpft würde.
+## Vertiefung
 
-Zwei Einschränkungen. Tor verbirgt deine IP vor dem Server, verändert aber nicht, was der Server aus den Anfragen lernen kann, die du stellst. Und Onion Routing erhöht die Latenz, sodass die Synchronisierung länger dauert. Ein eigener Server umgeht die Vertrauensfrage auf andere Weise, denn dann bist du selbst der Betreiber.
+### Routing über Tor
 
-## Zaino, der Rust-Indexer
+Tor trennt die Verbindung zwischen Ihrer IP-Adresse und dem Datenverkehr Ihrer Wallet, wodurch der stärkste Identifier in der obigen Tabelle entfernt wird.
 
-[Zaino](/site/Zcash_Tech/Zaino) ist ein in Rust geschriebener Indexer des Zingo-Teams, der als Ersatz für lightwalletd im Rahmen der Ablösung von zcashd entwickelt wurde. Er bedient Light Clients, Full Clients und Block-Explorer und liest chain-Daten, die von "either a Zebra or Zcashd full validator" gehalten werden.
+Unterstützung besteht in den Rust-Bibliotheken, auf denen viele Zcash-Wallets aufbauen. zcash_client_backend enthält ein Tor-Modul auf Basis von [Arti](https://tpo.pages.torproject.net/core/arti/), der Rust-Implementierung von Tor, sodass eine Wallet Synchronisierung, Transaktionsübertragung und Preisabfragen über Tor leiten kann, ohne einen separaten Tor-Client mitzuliefern.
 
-Er befindet sich in aktiver Entwicklung; Version 0.7.0 wurde im August 2026 veröffentlicht. Wo immer möglich, soll er zu lightwalletd abwärtskompatibel bleiben, sodass Wallets auf ihn zeigen können, ohne neu geschrieben werden zu müssen.
+Die Zaino-Entwickler vertreten dieselbe Auffassung und zitieren das Bedrohungsmodell direkt: Es bestehe "die Notwendigkeit, anonyme Transportprotokolle (wie Nym oder Tor) zu verwenden, um die Identitäten von Clients gegenüber den Indexierungsservern von Zcash zu verschleiern".
 
-Zaino hat eine eigene Seite mit Architekturdiagrammen, daher behandelt diese Seite nur seine Rolle als Light-Wallet-Server.
+In **ZODL** ist Tor eine Einstellung unter Erweiterte Einstellungen. Die Release Notes der Wallet verweisen Nutzer auf den manuellen Verbindungsmodus "plus Aktivierung von Tor in den Erweiterten Einstellungen", falls sie "die Offenlegung von Metadaten verringern möchten"; außerdem bietet die App an, Tor einzuschalten, bevor Sie eine Wallet wiederherstellen. Das ist der Moment, in dem eine neue IP-Adresse ansonsten mit einer gesamten Wallet-Historie verknüpft würde.
 
-## Serverliste
+Zwei Vorbehalte: Tor verbirgt Ihre IP-Adresse vor dem Server, ändert aber nicht, was der Server aus Ihren Anfragen erfährt. Und Onion Routing erhöht die Latenz, sodass die Synchronisierung länger dauert. Das Betreiben eines eigenen Servers vermeidet die Vertrauensfrage auf andere Weise, da Sie dann selbst der Betreiber sind.
 
-Das Dashboard [hosh.zec.rocks](https://hosh.zec.rocks/zec) verfolgt öffentliche Server und ihren Zustand und ist der richtige Ort, um zu prüfen, was tatsächlich verfügbar ist. [status.zec.rocks](https://status.zec.rocks/) zeigt den Servicestatus.
+### Zaino, der Rust-Indexer
 
-Server, die zum Zeitpunkt des Schreibens auf diesem Dashboard gelistet waren:
+[Zaino](/zcash-tech/zaino) ist ein vom Zingo-Team geschriebener Indexer in Rust, der als Ersatz für lightwalletd im Rahmen der Arbeiten zur Ablösung von zcashd entwickelt wurde. Er bedient Light Clients, vollständige Clients und Block Explorer und liest Chain-Daten, die von "entweder einem vollständigen Zebra- oder Zcashd-Validator" gehalten werden.
+
+Er befindet sich in aktiver Entwicklung; Version 0.8.0 wurde im August 2026 veröffentlicht. Er soll, wo möglich, abwärtskompatibel mit lightwalletd bleiben, sodass Wallets auf ihn verweisen können, ohne neu geschrieben werden zu müssen.
+
+Zaino verfügt über eine eigene Seite mit Architekturdiagrammen, daher behandelt diese Seite nur seine Rolle als Light-Wallet-Server.
+
+### Eigenen Server betreiben
+
+Die stärkste Option besteht darin, selbst Betreiber zu sein, wodurch die Vertrauensfrage vollständig entfällt. Beide Server sind Open Source: [lightwalletd](https://github.com/zcash/lightwalletd) in Go und [Zaino](https://github.com/zingolabs/zaino) in Rust. Beide lesen von einem vollständigen Validator, daher benötigen Sie außerdem [Zebra](/zcash-tech/zebra-full-node).
+
+## Praktische Auswirkungen
+
+### Serverliste
+
+Das Dashboard [hosh.zec.rocks](https://hosh.zec.rocks/zec) verfolgt öffentliche Server und ihren Zustand und ist der richtige Ort, um zu prüfen, was tatsächlich verfügbar ist. [status.zec.rocks](https://status.zec.rocks/) zeigt den Dienststatus.
+
+Zum Zeitpunkt der Erstellung auf diesem Dashboard aufgeführte Server:
 
 | Server | Hinweise |
 |:--|:--|
-| zec.rocks:443 | Regionale Endpunkte sind daneben unter na.zec.rocks, eu.zec.rocks, ap.zec.rocks und sa.zec.rocks aufgeführt |
+| zec.rocks:443 | Regionale Endpunkte werden daneben unter na.zec.rocks, eu.zec.rocks, ap.zec.rocks und sa.zec.rocks aufgeführt |
 | zec-node.cakewallet.com:443 | Auf der Domain von Cake Wallet |
-| zec.0xrpc.io:443 | Betrieben von 0xRPC, das kostenlose öffentliche Endpunkte für mehrere chains anbietet und um Spenden bittet, um die Kapazität zu decken |
-| zaino.unsafe.zec.rocks:443 | Eine Zaino-Instanz. Beachte den Hostnamen und behandle sie als experimentell |
-| testnet.zec.rocks:443 | Testnet, mit einer Zaino-Testnet-Instanz unter zaino.testnet.unsafe.zec.rocks |
+| zec.0xrpc.io:443 | Betrieben von 0xRPC, das kostenlose öffentliche Endpunkte für mehrere Chains anbietet und um Spenden zur Deckung der Kapazität bittet |
+| zaino.unsafe.zec.rocks:443 | Eine Zaino-Instanz. Beachten Sie den Hostnamen und behandeln Sie sie als experimentell |
+| testnet.zec.rocks:443 | Testnet, mit einer aufgeführten Zaino-Testnet-Instanz unter zaino.testnet.unsafe.zec.rocks |
 
-Prüfe das Dashboard, statt dieser Liste zu vertrauen. Betreiber kommen und gehen, und eine Seite wie diese altert.
+Prüfen Sie das Dashboard, statt dieser Liste zu vertrauen. Betreiber kommen und gehen, und eine Seite wie diese altert.
 
-## Den Server in deiner Wallet ändern
+### Server in Ihrer Wallet wechseln
 
-Das lohnt sich, wenn du einen Betreiber auswählen möchtest, dem du vertraust, Aktivität auf mehrere Betreiber verteilen willst oder auf deinen eigenen Server zeigen möchtest.
+Das lohnt sich, wenn Sie einen Betreiber auswählen möchten, dem Sie vertrauen, Aktivitäten auf verschiedene Betreiber verteilen oder auf Ihren eigenen Server verweisen möchten.
 
-Die untenstehenden Menüpfade waren korrekt, als diese Seite aktualisiert wurde, aber Wallet-Oberflächen ändern sich, also verstehe sie eher als Hinweis denn als exakten Pfad. Suche nach Advanced Settings oder einer Server-Option.
+Die untenstehenden Menüpfade waren bei der Aktualisierung dieser Seite korrekt, aber Wallet-Oberflächen ändern sich; verstehen Sie sie daher als Hinweis und nicht als exakten Weg. Suchen Sie nach Erweiterte Einstellungen oder einer Serveroption.
 
 #### ZODL
 
-Früher Zashi. Das Zahnrad oben rechts, dann Advanced Settings. Tor befindet sich auf demselben Bildschirm. ZODL bietet außerdem eine Verknüpfung zum Serverwechsel, wenn ein Synchronisierungsfehler dadurch verursacht wird, dass der Server veraltet ist.
+Früher Zashi. Tippen Sie auf das Zahnrad oben rechts und dann auf Erweiterte Einstellungen. Tor befindet sich im selben Bildschirm. ZODL bietet außerdem die Verknüpfung Server wechseln, wenn ein Synchronisierungsfehler dadurch verursacht wird, dass der Server nicht aktuell ist.
 
 #### Ywallet
 
-Das Zahnrad oben rechts, dann der Reiter Zcash.
+Tippen Sie auf das Zahnrad oben rechts und dann auf den Tab Zcash.
 
-![Ywallet-Servereinstellungen](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
+![Ywallet server settings](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
 
 #### Zingo
 
-Das Hamburger-Menü oben links, dann Settings, dann nach unten scrollen.
+Öffnen Sie das Hamburger-Menü oben links, dann Einstellungen, und scrollen Sie nach unten.
 
-![Zingo-Servereinstellungen](/content-images/ea8f7672-e644-41a5-a422-db131740404a-2626f5fa79.webp)
+![Zingo server settings](/content-images/ea8f7672-e644-41a5-a422-db131740404a-2626f5fa79.webp)
 
 #### eZcash
 
-Das Hamburger-Menü oben links, dann Settings, dann Advanced.
+Öffnen Sie das Hamburger-Menü oben links, dann Einstellungen und anschließend Erweitert.
 
-![eZcash-Servereinstellungen](/content-images/655c0172-61a0-4322-b8cf-4eee4bb53b51-0b93df2e71.webp)
+![eZcash server settings](/content-images/655c0172-61a0-4322-b8cf-4eee4bb53b51-0b93df2e71.webp)
 
-Diese Screenshots wurden im März 2025 aufgenommen, und die Apps haben seitdem neue Versionen veröffentlicht, daher könnten sich Schaltflächen verschoben haben.
+Diese Screenshots wurden im März 2025 aufgenommen. Die Apps haben seitdem neue Versionen veröffentlicht, daher könnten Schaltflächen verschoben worden sein.
 
-## Deinen eigenen betreiben
+## Häufige Fehler
 
-Die stärkste Option ist, selbst der eigene Betreiber zu sein, wodurch die Vertrauensfrage vollständig entfällt. Beide Server sind Open Source: [lightwalletd](https://github.com/zcash/lightwalletd) in Go und [Zaino](https://github.com/zingolabs/zaino) in Rust. Beide lesen von einem vollständigen Validator, daher wirst du auch [Zebra](/site/Zcash_Tech/Zebra_Full_Node) benötigen.
+**Zu denken, dass der Server Ihre Transaktionen lesen kann**. Das kann er nicht. Ihre Schlüssel bleiben auf Ihrem Gerät, und die Beträge und Memos in vollständig abgeschirmten Transaktionen bleiben verschlüsselt — selbst gegenüber einem Angreifer, der den Server kompromittiert hat.
+
+**„Abgeschirmt“ als „anonyme Verbindung“ zu verstehen**. Abgeschirmte Transaktionen schützen, was auf der blockchain geschieht. Ihre IP-Adresse und der Zeitpunkt Ihrer Aktivitäten sind eine separate Ebene, und genau diese Ebene sieht der Server.
+
+**Anzunehmen, Tor entferne jede Spur**. Tor verbirgt Ihre IP-Adresse vor dem Server, ändert aber nicht, was der Server aus Ihren Anfragen erfährt, und erhöht die Latenz bei der Synchronisierung.
+
+**Einer Serverliste auf einer Wiki-Seite zu vertrauen**. Betreiber kommen und gehen. Prüfen Sie [hosh.zec.rocks](https://hosh.zec.rocks/zec), um zu sehen, was tatsächlich läuft, bevor Sie Ihre Wallet auf irgendetwas verweisen.
 
 ## Zusammenfassung
 
-Light Wallets geben dir den Shielded Pool ohne den Speicherplatzbedarf, und das ist ein guter Tausch. Sei dir nur darüber im Klaren, was du eintauschst. Der Server kann deine Gelder nicht nehmen oder deine Shielded-Beträge lesen, aber er ist sehr gut positioniert, um deine IP-Adresse und den Zeitpunkt deiner Transaktionen zu sehen. Leite über Tor, wähle deinen Betreiber bewusst oder betreibe deinen eigenen.
+Light Wallets ermöglichen Ihnen den abgeschirmten Pool ohne den Speicherplatzbedarf, was ein guter Tausch ist. Seien Sie sich nur darüber im Klaren, was Sie eintauschen. Der Server kann Ihre Mittel nicht nehmen und Ihre abgeschirmten Beträge nicht lesen, kann aber gut erkennen, welche IP-Adresse Sie haben und wann Sie Transaktionen durchführen. Leiten Sie Ihre Verbindung über Tor, wählen Sie Ihren Betreiber bewusst oder betreiben Sie einen eigenen.
+
+## Verwandte Seiten
+
+- [Wer kann Ihre Zcash-Zahlung sehen?](/start-here/who-can-see-your-zcash-payment) — die Einsteigerperspektive auf dieselbe Frage.
+- [Was ein Block Explorer sehen kann](/zcash-tech/what-a-block-explorer-can-see) — was on-chain sichtbar ist, im Gegensatz zu dem, was am Server sichtbar ist.
+- [Zaino](/zcash-tech/zaino) — Architekturdiagramme und die weitergehende Rolle des Rust-Indexers.
+- [Zebra-Vollknoten](/zcash-tech/zebra-full-node) — der Validator, von dem ein Light-Wallet-Server liest.
+- [Synchronisierung von Zcash-Wallets](/zcash-tech/zcash-wallet-syncing) — wie die kompakten Blöcke, die ein Server sendet, von Ihrer Wallet verarbeitet werden.
 
 **Zuletzt aktualisiert:** August 2026

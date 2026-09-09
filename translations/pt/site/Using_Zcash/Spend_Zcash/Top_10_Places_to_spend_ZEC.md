@@ -1,69 +1,69 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar Página"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Lugares para Gastar ZEC
+# Locais para Gastar ZEC
 
-Hoje em dia, quando a vigilância (encoberta pela palavra *transparência*) está sendo a ordem do dia principalmente para governos e para o mundo financeiro, a privacidade, como um direito humano, parece ser subestimada.
+Hoje em dia, quando a vigilância (encoberta pela palavra *transparência*) está na ordem do dia, sobretudo para os governos e o mundo financeiro, a privacidade, enquanto direito humano, parece ser subvalorizada.
 
-No entanto, em relação às novas formas de finanças, há pessoas -como o Zcash- trabalhando para cuidar da sua segurança e privacidade, simplesmente porque elas importam-.
+No entanto, no que diz respeito às novas formas de finanças, há pessoas — como as da Zcash — que trabalham para proteger a sua segurança e privacidade, simplesmente porque elas importam.
 
-O Zcash com ZEC oferece recursos aprimorados tanto de privacidade quanto de segurança. Mas, como um primeiro passo para a adoção e o uso, tudo começa com o fato de que mais empresas (reais), lojas e pessoas que oferecem serviços estão aceitando **ZEC** como opção de pagamento., 
+A Zcash com ZEC oferece funcionalidades de privacidade e segurança melhoradas. Mas, como primeiro passo para a adoção e utilização, é necessário que mais empresas (reais), lojas e pessoas que oferecem serviços aceitem **ZEC** como opção de pagamento.
 
-# Por que uma empresa / serviço pode querer aceitar $ZEC?
+# Porque é que uma empresa / serviço pode querer aceitar $ZEC?
 
-Se você tem uma empresa ou vende qualquer produto ou serviço, talvez queira receber Zcash. Por quê? Aqui estão algumas dessas múltiplas razões e benefícios pelos quais você pode considerá-lo como seu método de pagamento. 
+Se tem uma empresa ou vende qualquer produto ou serviço, pode querer receber Zcash. Porquê? Aqui estão algumas das várias razões e benefícios para considerar este método de pagamento. 
 
-- **Aumente a privacidade. |** Diferentemente dos métodos de pagamento bem conhecidos e tradicionais, o Zcash, graças aos zk-SNARKs, mantém suas transações seguras e privadas ao serem blindadas (não visíveis publicamente) na blockchain, e os dados envolvidos nas transações são relevantes (e visíveis) apenas para o remetente e o destinatário.
-- **Método de pagamento mais rápido e econômico. |** As transações em ZEC são diretas e não precisam de terceiros (como bancos), tornando o tempo de processamento menor e as taxas mais baixas do que nos métodos de pagamento tradicionais, então você pode esquecer o Paypal. Agora você sabe que essa não é uma opção *adequada*.
-- **Aumente sua base de clientes.** | Ao aceitar ZEC, sua empresa / produto ou serviço pode atrair um público mais amplo de pessoas que preferem usar criptomoedas.
-- **Promova e aumente a fidelidade do cliente. |** Ao entrar nesse segmento de mercado e deixar as pessoas saberem que o seu estabelecimento aceita ZEC, isso pode lhe dar uma vantagem e preferência entre clientes habituais e potenciais, que recorrerão a você sempre que precisarem gastar seu ZEC.
-- **Faça a diferença como *inovador*. |** Ao decidir aceitar ZEC em sua loja, negócio, ou até mesmo ao oferecer um serviço como motorista de táxi, você pode se posicionar entre aqueles que apoiam diferentes formas de finanças, pagamentos e aproveitamento.
+- **Privacidade reforçada. |** Ao contrário dos métodos de pagamento tradicionais e bem conhecidos, a Zcash, graças aos zk-SNARKs, mantém as suas transações seguras e privadas ao serem protegidas (não visíveis publicamente) na blockchain, e os dados envolvidos nas transações são relevantes (e visíveis) apenas para o remetente e o destinatário.
+- **Método de pagamento mais rápido e económico. |** As transações ZEC são diretas e não necessitam de terceiros (como bancos), tornando o tempo de processamento mais curto e as taxas mais baixas do que nos métodos de pagamento tradicionais, pelo que pode esquecer o Paypal. Agora sabe que não é uma opção *adequada*.
+- **Aumentar a sua base de clientes.** | Ao aceitar ZEC, a sua empresa / produto ou serviço pode atrair um público mais amplo de pessoas que preferem utilizar criptomoedas.
+- **Promover e reforçar a fidelidade dos clientes. |** Ao entrar neste segmento de mercado e informar as pessoas de que o seu estabelecimento aceita ZEC, pode ganhar uma vantagem e preferência entre clientes habituais e potenciais, que recorrerão a si sempre que precisarem de gastar os seus ZEC.
+- **Fazer a diferença como *inovador*. |** Ao decidir aceitar ZEC na sua loja, negócio, ou até ao oferecer um serviço como motorista de táxi, pode posicionar-se entre aqueles que defendem formas diferentes de finanças, pagamentos e usufruto.
 
-Considerando todos os itens acima, há muitos lugares onde você pode gastar ZEC. Vamos explorar o que chamamos de:
+Considerando todos os pontos acima, existem muitos locais onde pode gastar ZEC. Vamos explorar o que chamámos de: 
 
-# #Top10 lugares que aceitam ZEC (e você realmente vai querer gastar)
+# #Top10 Locais que Aceitam ZEC (e onde vai querer gastar)
 
  ****
 
-Particularmente, na Venezuela, há vários lugares (locais físicos e espaços online) onde você pode obter produtos ou serviços e pagar com Zcash… Vamos começar!
+Particularmente, na Venezuela, há vários locais (espaços físicos e online) onde pode adquirir produtos ou serviços e pagar com Zcash… Vamos começar!
 
 <aside>
-📌 Isto está listado aleatoriamente, apenas para que as pessoas saibam aonde podem ir e pagar com conforto tendo apenas um dispositivo portátil (telefone, laptop ou ledger), uma carteira Zcash e uma boa conexão de internet ou de dados
+📌 Esta lista está apresentada aleatoriamente, apenas para informar as pessoas sobre onde podem ir e pagar confortavelmente tendo apenas um dispositivo portátil (telefone, portátil ou ledger), uma wallet Zcash e uma boa ligação à internet ou dados móveis
 
 </aside>
 
-[**Gastronomia - Padaria & Chocolateria**] 
+[**Gastronomia - Padaria & Chocolataria**] 
 
-1.  **Sheila Vargas**  | Foodie | Blogueira | Empreendedora | Mentoria 
+1.  **Sheila Vargas**  | Gastrónoma | Blogger | Empreendedora | Mentoria 
 
-[@SheEmprende_ nas redes sociais](https://www.sheemprende.com/enlaces-sheemprende/). Ela ganhou destaque graças às suas famosas (e deliciosas) **[Galletas de la FeliZidad](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
+[@SheEmprende_ nas redes sociais](https://twitter.com/SheEmprende_). Ganhou destaque graças às suas famosas (e deliciosas) **[Galletas de la FeliZidad](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
 
-Além dos seus cookies, ela oferece outros serviços e o melhor de tudo é isto: você pode pagar com ZEC!
+Além das suas bolachas, oferece outros serviços e o melhor de tudo é isto: pode pagar com ZEC!
 
 ![1_20230829_214024_0000.png](/content-images/_unavailable.svg)
 
- Cookies de chocolate crocante | Crédito: Sheila Vargas Rojas
+ Bolachas de chocolate crackle | Crédito: Sheila Vargas Rojas
 
 ![2_20230829_214024_0001.png](/content-images/_unavailable.svg)
 
-Cookies de aveia em flocos e passas | Crédito: Sheila Vargas Rojas
+Bolachas de flocos de aveia & passas | Crédito: Sheila Vargas Rojas
 
 ![Untitled design_20230829_215327_0000.png](/content-images/_unavailable.svg)
 
-Rosquinhas com frutas cristalizadas | Crédito: Sheila Vargas Rojas | 
+Donuts com frutas cristalizadas | Crédito: Sheila Vargas Rojas | 
 
 [https://twitter.com/Edicksonjga/status/1656458011278204929?t=oRSUKXQ71IsTv0tcqY10tA&s=19](https://twitter.com/Edicksonjga/status/1656458011278204929?t=oRSUKXQ71IsTv0tcqY10tA&s=19)
 
-Então, se você é um amante de cookies..,
+Portanto, se é um monstro das bolachas..,
 
 ![https://media.tenor.com/Px4lboKQYbYAAAAC/champagne-barbie-cookie-monster.gif](/content-images/champagne-barbie-cookie-monster-ded97640a2.webp)
 
-agora você sabe onde gastar seu ZEC!
+agora já sabe onde gastar os seus ZEC!
 
-**Site**: [Sheemprende.com](http://Sheemprende.com) 
+**Website**: sheemprende.com foi descontinuado e deixou de estar disponível. Contacte-a no [Free2z](https://free2z.cash/SheEmprende) | [Plataforma X](https://twitter.com/SheEmprende_)
 
-**Endereço Unificado Zcash:** 
+**Zcash Unified Address:** 
 
 u1pu63k8tfcf0v06qr6f9qn3qpfh2hj8wjnc3wchguaqy2jc9xxmf4f424jns282qfwzvs6qq3tcd9erv3udraj435hl7r6pz3q5ehdjnha2ve9c4ley9l0wh8um9s0zlvqungxexjerfkp8gjvemgtp6pgm694txw5p0mw4at49jzwcxygy7c72gceph340zscg7kscqhqw2yzg3alkh
 
@@ -71,21 +71,21 @@ u1pu63k8tfcf0v06qr6f9qn3qpfh2hj8wjnc3wchguaqy2jc9xxmf4f424jns282qfwzvs6qq3tcd9er
 
 ---
 
-1. **Somos Dulceros |  Por Rosa Rangel**
+1. **Somos Dulceros |  Por Rosa Rangel** 
 
-Rosa Ma. Rangel, engenheira da computação de profissão, mas *chocolatière* por convicção, amante declarada de chocolate e apaixonada por panificação e confeitaria, oferece uma ampla variedade de produtos artesanais de chocolate, doces tradicionais venezuelanos e panificados. 
+Rosa Ma. Rangel, engenheira informática de profissão mas *chocolatière* por vocação, assumida amante de chocolate e apaixonada por padaria e pastelaria, oferece uma ampla variedade de produtos artesanais de chocolate, doces tradicionais venezuelanos e produtos de padaria. 
 
-![Sem título](/content-images/_unavailable.svg)
+![Untitled](/content-images/_unavailable.svg)
 
-Chocolate com frutas secas e morango 
+Chocolate com frutas secas & morango 
 
 ![20230829_232246.jpg](/content-images/_unavailable.svg)
 
-Rosa sorri orgulhosa mostrando que aceita **Zcash.**
+Rosa sorri orgulhosamente ao mostrar que aceita **Zcash.**
 
 ![Screenshot_20230829-232755.png](/content-images/_unavailable.svg)
 
-**Website**: [https://somosdulceros.com/](https://somosdulceros.com/) 
+**Website**: somosdulceros.com foi descontinuado e deixou de estar disponível. Utilize as ligações sociais abaixo.
 
 **Redes sociais:** [Instagram](https://www.instagram.com/somos_dulceros) | [Plataforma X](https://twitter.com/RosaMRangel) | [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
@@ -97,11 +97,11 @@ u12vp85edmrkqy9uvall4wqqn2s9fx8nm5phsxu2nyme5yh8hn5xh8mv3qgunynskjy3t0w89234a83r
 
 ---
 
-[**Artesanato | Design | Organizadores de festas]**
+[**Artesanato | Design | Organização de festas]**
 
 1. **Papeles a Color** | Por **Elizabeth** **B.**
 
-Elizabeth é uma jovem mãe apaixonada que adora fazer artesanato e design. Ela tem a motivação mais importante para se dedicar em tudo o que faz: sua família*.💙*
+Elizabeth é uma jovem mãe apaixonada que adora artesanato e design. Tem a motivação mais importante para se dedicar a tudo o que faz: a sua família*.💙*
 
 ![BackgroundEraser_20230830_134315142.png](/content-images/_unavailable.svg)
 
@@ -111,15 +111,15 @@ Elizabeth é uma jovem mãe apaixonada que adora fazer artesanato e design. Ela 
 
 ![2_20230830_152443_0001~2.png](/content-images/_unavailable.svg)
 
-Seus filhos estão sendo promovidos? A **Papeles a color** pode ajudar você a celebrar as conquistas deles.
+Os seus filhos estão a terminar uma etapa escolar? **Papeles a color** pode ajudá-lo a celebrar as suas conquistas.
 
 ![3_20230830_152443_0002~2.png](/content-images/_unavailable.svg)
 
-Algo diferente e único? Uma base carregadora de celular da **Zcash**!
+Algo diferente e único? Uma base de carregamento para telemóvel **Zcash**!
 
 ![1_20230830_152443_0000.png](/content-images/_unavailable.svg)
 
-Algumas das outras belas coisas que a Papeles a Color faz à mão.
+Algumas das outras coisas bonitas que Papeles a Color cria artesanalmente.
 
 ---
 
@@ -129,7 +129,7 @@ Algumas das outras belas coisas que a Papeles a Color faz à mão.
 
 [Linktree](https://linktr.ee/Papelesacolor)
 
-**Endereço Unificado Zcash** 
+**Zcash Unified Address** 
 
 u1u7unmxgr6efh0l94hz0ag6zku4rjeuuarhql5xsnt744e2lu0dsmhrye5a6mlahw067atgh6x0ykaxrsdraepu08qhu5f6e3udmpl72a8vtsclwwvx9ux2mmk5jyy83asu5957pwac07jhmpgn7unz96dljetqylp34l5mvj3grjwqm7wmdxgcyehhnntafrl5r727klaklt29lykvg
 
@@ -137,17 +137,17 @@ u1u7unmxgr6efh0l94hz0ag6zku4rjeuuarhql5xsnt744e2lu0dsmhrye5a6mlahw067atgh6x0ykax
 
 ---
 
-**[Construção de Comunidade | Marketing Digital | Design Web | Vídeo]**
+**[Construção de comunidade | Marketing Digital | Design Web | Vídeo]**
 
 1. **Emprendedoras Digitales de Venezuela**
 
-Você quer se sentir *empoderada?*  **Emprendedoras Digitales de Venezuela** é um ótimo lugar para começar**.** É formada por um grupo de lindas e incríveis mulheres empreendedoras com propósitos, lideradas por Aura Brito. 
+Quer sentir-se *empoderada?* **Emprendedoras Digitales de Venezuela** é um ótimo lugar para começar**.** É formada por um grupo de mulheres empreendedoras maravilhosas e incríveis, com propósitos, lideradas por Aura Brito. 
 
-**EDVE,** focada em mulheres empreendedoras**,** oferece vários serviços relacionados a:
+**EDVE,** focada em empreendedoras**,** oferece vários serviços relacionados com:
 
 • desenvolvimento de ideias de negócio 
 
-• construção de branding..,  entre outros. Sempre pensando em cada mulher na Venezuela que quer comandar o seu próprio negócio. 
+• construção de marca.., entre outros. Sempre a pensar em cada mulher na Venezuela que quer gerir o seu próprio negócio. 
 
 ![https://i0.wp.com/emprendedorasdigitales.org/wp-content/uploads/2020/07/cropped-logo-nuevo_Mesa-de-trabajo-1-scaled-1.jpg?resize=300%2C208&ssl=1](/content-images/cropped-logo-nuevo_Mesa-de-trabajo-1-sca-ba7d9d40e8.webp)
 
@@ -157,7 +157,7 @@ Você quer se sentir *empoderada?*  **Emprendedoras Digitales de Venezuela** é 
 
 [Instagram](https://instagram.com/emprendedorasdigitalesve) |  [Plataforma](https://twitter.com/EmpreDigiVE) | [Telegram](https://t.me/emprendedorasdigitalesve) | [LinkedIn](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
 
-**Endereço Unificado:** 
+**Unified Address:** 
 
 u14g5wzyan35s5fq4glf7hsf0wteuskr3dgfs25wkr2tk5dq6sqrfpq8pqmme5yp7c3eq42tlssgv5hw7def5anezwzgyp857uw2gjjk7zwxdz9p6m8uxg05mhsgwxnxndn42k4mxmxftuqpmvet4vl7uf8a0m5q2e65lwyl8fq0425ys6ny8un6g5j07t0vxlwauhps605zypydl9h44
 
@@ -167,24 +167,24 @@ u14g5wzyan35s5fq4glf7hsf0wteuskr3dgfs25wkr2tk5dq6sqrfpq8pqmme5yp7c3eq42tlssgv5hw
 
 1. **GorBrit Social Media**
 
-![Sem título](/content-images/_unavailable.svg)
+![Untitled](/content-images/_unavailable.svg)
 
-Este lugar administrado por **Roosevelt Gordones e Aura Brito** oferece serviços relacionados a:
+Este espaço gerido por **Roosevelt Gordones e Aura Brito** oferece serviços relacionados com:
 
 - Páginas web / Design web
-- Hospedagem
-- Branding /Consultoria de negócios
+- Hosting
+- Branding / Consultoria empresarial
 - Estratégias de redes sociais
 
 **Website**: [https://gorbrit.com/](https://gorbrit.com/) 
 
-**Redes Sociais**
+**Redes sociais**
 
 [Telegram](https://t.me/gorbritsm) | [Instagram](https://www.instagram.com/gorbritsm/) |  [Plataforma X](https://twitter.com/GorBritSM) | 
 
 A GorBrit aceita diferentes métodos de pagamento, incluindo criptomoedas, entre as quais está a **Zcash.**
 
-**Endereço unificado**
+**Unified Address** 
 
 u1l2lxdx2en962h3utm24fthm0r9q5cxc4705jeatq4lckm92k06htdk8jear9tsay7w8xz4najnv0mpnngalctdtqnh9dv3d4fsr3lqxk0jhgfukujzca752eqj4pyeklgymk0j72lfs85r3vnpx48jkgk5v0zk5zl7nx4mlyaxq7xm0k7wfjnt9h86d4wxvrm45w358qkd60cdckp4h
 
@@ -196,17 +196,17 @@ Serviços presenciais e online.
 
 1. **RobmarEscool** 
 
-Além de ser designer digital, Robmar é fotógrafo e também dedica parte do seu tempo a ministrar **workshops** sobre **fotografia e ferramentas relacionadas**, e ao mesmo tempo também divulga a Zcash 
+Além de ser designer digital, Robmar é fotógrafo e também dedica algum tempo a ensinar **workshops** sobre **fotografia e ferramentas relacionadas**, ao mesmo tempo que divulga a zcash. 
 
-Seu trabalho é bem conhecido no ecossistema Zcash graças à sua contribuição para o clube ZFAV.
+O seu trabalho é bem conhecido no ecossistema Zcash graças à sua contribuição para o clube ZFAV.
 
 ![Screenshot_20230830-163829-271~2.png](/content-images/_unavailable.svg)
 
 • Produção / edição de vídeo
 
-• Criação de logotipo e animação
+• Criação de logótipos & Animação
 
-•  Edição de áudio/vídeo de podcast 
+• Edição de áudio/vídeo de podcast 
 
 **Redes sociais:**
 
@@ -214,13 +214,13 @@ Seu trabalho é bem conhecido no ecossistema Zcash graças à sua contribuição
 
 📍Barquisimeto - Venezuela 
 
-**[Beleza | Manicure | Cuidados com mãos e unhas | Acessórios]** 
+**[Beleza | Manicure | Cuidados de mãos & unhas | Acessórios]** 
 
 1. **Karin Beauty Studio | Por Karin Gordones**
 
 ![Screenshot_20230830-131043-768~2.png](/content-images/_unavailable.svg)
 
-Unhas lindas, mãos lindas graças ao Karin Beauty Studio.
+Unhas bonitas, mãos bonitas graças ao Karin Beauty Studio.
 
 **Redes sociais:** 
 
@@ -232,9 +232,9 @@ u1nvhfur5lruk4lzy7v5j4wqs65rvslk7tvgxvcjpe7f8u08vjs98rsg9sralpnwgzzkevtr6k2flh7g
 
 📍 El Valle - Caracas - Venezuela 
 
-Atendimento a domicílio (Caracas | San Antonio de los Altos)
+Serviço ao domicílio (Caracas | San Antonio de los Altos)
 
-Agende um horário 
+Marque uma consulta 
 
 ---
 
@@ -242,17 +242,17 @@ Agende um horário
 
 1. **Corona de Brillitos.** | Por **Gissell** **B**. 
 
-Você sabe o que é incrível sobre a Zcash? Ter pessoas como Gissell, uma garota de 16 anos que ama artesanato, fazer lindos acessórios femininos e saber que, na sua idade, ela usa Zcash em seu negócio em pleno crescimento
+Sabe o que é incrível na Zcash? Ter pessoas como a Gissell, uma rapariga de 16 anos que adora artesanato, criar bonitos acessórios femininos e saber que, na sua idade, utiliza Zcash no seu próspero negócio.
 
 ![20230830_235143_0000.png](/content-images/_unavailable.svg)
 
-Apresentação bonita e elegante para scrunchies | Corona de brillitos 
+Apresentação elegante para scrunchies | Corona de brillitos 
 
 **Redes sociais**
 
 [Instagram](https://instagram.com/coronadebrillitos) 
 
-**Zcash Unified Address**
+**Zcash Unified Address** 
 
 u154h5wxyqf5lr4hdraqzc2n8x8398x6u95km2z7ryx8k5tdpjym59xqvlz54kq6pd96q5xrsxrmtcpl886s3kayxzfy4lhhdegr2a9ahghtuv9gwgc74wc6xf7p48gktq065nxzgvyvt7ka3jm0nzm8skydyjp8n2s47wu769j87f9vk84gz6mxzvrfjzm09m2zew80msv7efueeltfx
 
@@ -260,23 +260,23 @@ u154h5wxyqf5lr4hdraqzc2n8x8398x6u95km2z7ryx8k5tdpjym59xqvlz54kq6pd96q5xrsxrmtcpl
 
 ---
 
-**[Serviços de informática]**
+**[Serviços informáticos]**
 
 1. **Tecnopapapi** 
 
-Esse é @Lexihel - Alexis López Abreu.
+Este é @Lexihel - Alexis López Abreu.
 
-Você tem algum problema com o seu PC ou telefone Android? 
+Tem algum problema com o seu PC ou telemóvel Android? 
 
-Tecnopapapi é a pessoa certa para entrar em contato! 
+Tecnopapapi é a pessoa certa com quem entrar em contacto! 
 
-• Serviços de informática (Windows) 
+• Serviços informáticos (Windows) 
 
-• Sistema Operacional Android (telefones)
+• Sistema Operativo Android (telemóveis)
 
 ![IMG_20230901_093618_042.jpg](/content-images/_unavailable.svg)
 
-**Site** 
+**Website** 
 
 [https://tecnopapapi.com](https://tecnopapapi.com/)
 
@@ -294,15 +294,15 @@ u1sa0tnr9ac7ul8ad3ftdk4pgcxuq8j9vagjwz7apf8lylryhhklu4j68745trlga62a68qtfaqllmmd
 
 1. **Jossy Mendoza - Motorista.**
 
-**Serviços de transporte** de e para Caracas e outras zonas, como: 
+**Serviços de transporte** de e para Caracas e outras zonas como: 
 
 Altos Mirandinos, Valles. del Tuy, Guarenas, Guatire, La Guaira, Aeroporto Internacional Simón Bolívar.
 
-Ele aceita criptomoedas, incluindo **Zcash**
+Aceita criptomoedas, incluindo **Zcash**
 
 ![IMG_20230831_172209_058.jpg](/content-images/_unavailable.svg)
 
- Sr. Mendoza mostrando sua carteira Zingo. | Crédito da imagem: Edickson Gonzalez 
+ Sr. Mendoza a mostrar a sua wallet Zingo. | Crédito da imagem: Edickson Gonzalez 
 
 **Zcash Unified Address:**
 
@@ -310,17 +310,65 @@ u10jd0tcj24p9rcju047lymtp9nx38h90j09rnr4ru6e8476822saywgn6phe373q78myrf2ew2j6kst
 
 ---
 
-**[Fast food | Italiano**]
+**[Online | Global | Bens digitais, marketplaces & VPNs]**
 
-Bônus : **Allegrini Ristorante** 🇪🇸 | Pizzaria | Comida italiana | **Em breve aceitará Zcash.** 
+Tudo o que foi referido acima é uma pessoa ou uma pequena empresa que pode contactar na Venezuela. Estes quatro são online, abertos a qualquer pessoa com uma wallet e uma ligação, e realizam pagamentos diretamente em ZEC.
 
-Serviço de entrega | Retirada | Reservas
+1. **ZecBuy** | Bens digitais | Dados eSIM | Acesso VPN
+
+A ZecBuy vende bens digitais privados por ZEC: planos de dados eSIM para viagens e contas Mullvad VPN. Não é necessário registo nem fornecer um endereço de e-mail. Escolhe o produto, paga em ZEC e recebe o código.
+
+**Website**: [zecbuy.com](https://zecbuy.com/)
+
+🌐 Online | Mundial
+
+---
+
+1. **ZEC Market** | Marketplace peer-to-peer
+
+Um marketplace não custodial onde compradores e vendedores negociam diretamente entre si. Os preços são apresentados em dólares e pagos de wallet para wallet em Zcash, protegidos por predefinição. A plataforma não cobra qualquer taxa e nunca detém os fundos de ninguém, o que faz deste o local a procurar quando aquilo que deseja comprar não está numa lista como esta.
+
+**Website**: [zecmarket.org](https://zecmarket.org/)
+
+Mais projetos do ecossistema semelhantes: [Projetos da Comunidade](/zcash-community/community-projects)
+
+🌐 Online | Mundial
+
+---
+
+1. **NymVPN** | VPN descentralizada e mixnet
+
+A NymVPN encaminha o tráfego através de uma rede descentralizada de nós, com um modo mixnet que adiciona tráfego de cobertura para que o tempo e o tamanho dos pacotes deixem de funcionar como uma impressão digital. O registo não pede informações pessoais, e o pagamento é aceite em moedas de privacidade, incluindo Zcash, pelo que pagar pelo serviço não anula a privacidade da sua utilização.
+
+**Website**: [nym.com](https://nym.com/)
+
+Leitura de contexto: [VPNs e dVPNs](/privacy-tools/vpn-and-dvpn)
+
+🌐 Online | Mundial
+
+---
+
+1. **Meile dVPN** | VPN descentralizada na rede Sentinel
+
+Meile é um cliente dVPN da equipa MathNodes que funciona na rede Sentinel, onde os nós são operados por membros da comunidade em vez de uma única empresa. Os planos de subscrição são pagos dentro da aplicação, e os pagamentos ZEC protegidos são processados através de BTCPay. Estão disponíveis versões para Windows, macOS e Linux, juntamente com o cliente móvel.
+
+**Website**: [Meile dVPN no MathNodes](https://mathnodes.com/index.php/meile-dvpn-client-linux-os-x/) (meile.app redireciona para aqui)
+
+🌐 Online | Mundial
+
+---
+
+**[Fast food | Italiana**]
+
+Bónus : **Allegrini Ristorante** 🇪🇸 | Pizzaria | Comida italiana | **Aceitará Zcash em breve.** 
+
+Serviço de entrega | Take away | Reservas
 
 ![BackgroundEraser_20230901_114615839.png](/content-images/_unavailable.svg)
 
-**Site**: [www.alleginiristorante.com](http://www.alleginiristorante.com) (em construção)
+**Website**: nenhum. O site anunciado em alleginiristorante.com nunca foi concluído e o domínio deixou de estar disponível. Utilize as ligações sociais abaixo.
 
-**Redes sociais**
+**Redes sociais** 
 
 [Instagram](https://instagram.com/allegriniristorante) | [Plataforma X](https://twitter.com/AllegriniRisto) | [Telegram](https://t.me/AllegriniRistorante) | [Pinterest](https://pin.it/6z8hq6F)
 
@@ -332,6 +380,6 @@ Serviço de entrega | Retirada | Reservas
 
 u10wuf4pauet00u3n4sp7l0jjer28stp5l8q3peq4ffrpvhfm0zn8up3xwewy64fyeps6r6ctv3yfmwvrrnrsseet3ety9aj48kqk52el0m0xee87t87fu86wtxq357gxz2j978rgyy799pex3amwhtc3mt2yz544tn6dcqcq48sy2lvsfp2vqjhe9skchgpgsqzjnhcnflhe2w2l465s
 
-Serviço de entrega | Retirada | Reservas.
+Serviço de entrega | Take away | Reservas.
 
 📍 Madrid - Espanha

@@ -37,6 +37,27 @@ Hey... a ti fi owó kún ìlà mi! O tún lè fìdí imeeli rẹ múlẹ̀ nígb
 
 ![Step 7 - Successful top-up](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
 
+## Rírà owó kún un láì ní àkọọ́lẹ̀ ìnáwó kankan
+
+Ọna ti o wa loke nilo lati ṣẹda akọọlẹ Coinsbee. Ti o ba fẹ ko ṣe, CardsRelay n ta awọn afikun alagbeka fun ZEC laisi iforukọsilẹ.
+
+### 1. Yan orilẹ-ede rẹ ati oniṣẹ rẹ.
+Ìbẹ̀wò [Àwọn KádàRelé](https://cardsrelay.com) ó ju àádọ́rin dín nírínwó (750) àwọn oníṣẹ̀ tó ń gbà á káàkiri ayé.
+
+### 2. Kọ iye àti bí owó náà ṣe pọ̀ tó sínú ìwé.
+Tẹ nọmba foonu alagbeka ti o fẹ lati ni ifowopamọ ati yan iye afikun. Iye owo ti a fihan jẹ gbogbo-gbogbo lapapọ, laisi iyasọtọ paṣipaarọ iyipada pataki kan nigbamii.
+
+### 3. Fi imeeli rẹ sínú àlàfo.
+A nílò àdírẹ́sì e-mail kí a lè fi ìmúdájú ránṣẹ́, tí wọ́n sì ṣètẹ̀rí rẹ̀ kó tó di pé wọn pàtẹ. Kò sí àkọọ́lẹ̀ kankan tá à ń dá tàbí ìwé ìdánimọ̀ kan táa béèrè fún.
+
+### 4. Fi ZEC sanwó náa.
+Yan Zcash ni iṣayẹwo. A gba ZEC taara dipo iyipada nipasẹ ẹni kẹta kan. Adirẹsi isanwo ati iye gangan ti han.
+
+### 5. Ìmúṣẹ Àsọtẹ́lẹ̀ Náà
+A ṣe àtúnṣe ìmúṣẹ náà, a sì gba ìdánilójú nípa imeeli. Èyí sábà máa ń wáyé láàárín ìṣẹ́jú mélòó kan péré.
+
+CardsRelay tun ta awọn kaadi ẹbun fun to 2,500 brands, ati gba Monero ati Zano lẹgbẹẹ Zcash. O jẹ iṣẹ nipasẹ Payzy ME FZ Ltd .
+
 ---
 
 ![Additional screenshot](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)

@@ -37,6 +37,27 @@ Hey... Nye fli la xɔ kafukafu! Àte ŋu aɖo kpe wò e-mail hã dzi le fexexe �
 
 ![Step 7 - Successful top-up](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
 
+## Top-up ƒle akɔnta manɔmee
+
+Mɔnu si le etame bia be nàwɔ Coinsbee ƒe akɔnta. Ne èdi be yemawɔe o la, CardsRelay dzraa asitelefon dzi gadodo na ZEC ŋkɔ ŋɔŋlɔ manɔmee.
+
+### 1. Tia dukɔ si me nèle kple dɔwɔƒe si nèwɔa dɔ le
+Sasrã [KpekpeɖeŋugbalẽviwoRelay](https://cardsrelay.com) eye nàʋu Mobile Top Ups ƒe akpaa. Wodoa alɔ dɔwɔƒe siwo wu 750 le xexeame katã.
+
+### 2. Ŋlɔ xexlẽdzesia kple ga homea
+Kpe asitelefon xexlẽdzesi si woatsɔ axɔe la ɖo eye nàtia asixɔxɔ si woatsɔ akpe ɖe eŋu. Ga home si woɖe fia la nye ga home ɖeka si wotsɔ ƒo ƒui, eye wometsɔ ga si woatsɔ aɖɔli gae ƒe dzeside bubu aɖeke kpee emegbe o.
+
+### 3. Ŋlɔ wò e-mail la ɖe eme
+Ele be woaɖo e-mail adrɛs ale be woate ŋu atsɔ kpeɖodzinya la ayi na ame, eye woɖoa kpe edzi hafi wowɔa nudɔdɔa. Womewɔa akɔnta aɖeke o eye womebiaa amenyenyegbalẽ aɖeke o.
+
+### 4. Xe fe kple ZEC
+Tia Zcash le nuƒleƒe. Woxɔa ZEC tẽ tsɔ wu be ame etɔ̃lia natrɔe. Woɖea fexexe ƒe adrɛs kple ga home si tututu woaxe la fiana.
+
+### 5. Kpeɖodzinya
+Wowɔa dɔ tso ga si wotsɔ kpe ɖe eŋu la ŋu eye woɖoa kpe edzi to e-mail dzi, zi geɖe le sɛkɛnd ʋɛ aɖewo ko me.
+
+CardsRelay hã dzraa nunana gbalẽviwo na adzɔha siwo ade 2,500, eye woxɔa Monero kple Zano kpe ɖe Zcash ŋu. Payzy ME FZ Ltd ye kpɔa edzi.
+
 ---
 
 ![Additional screenshot](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)

@@ -20,13 +20,13 @@ Zcash (ZEC) は、マイニングに Equihash プルーフ・オブ・ワーク�
 - **一般:** 安定したインターネット接続、セットアップと監視用のコンピューター。ネットワークは ASIC が支配的です（2026 年の総ハッシュレートは約 13 GSol/s）ので、GPU マイニングの競争力は低めですが、趣味としては依然可能です。
 
 ### ソフトウェア
-- **オペレーティングシステム:** Windows 10/11、Linux（安定性の観点から Ubuntu 推奨）。
+- **オペレーティングシステム:** Windows 10/11、Linux（安定性のため Ubuntu 推奨）。
 - **マイニングソフトウェア:**
   - GPU 向け: lolMiner（AMD/NVIDIA 対応）、GMiner、または miniZ（NVIDIA 重視）。公式 GitHub リポジトリ（例: github.com/Lolliedieb/lolMiner-releases）からダウンロードしてください。
   - ASIC 向け: メーカー内蔵のファームウェア/ダッシュボードを使用します（例: Bitmain の Web インターフェース）。
 - **ウォレット:** 支払いを受け取るための Zcash ウォレット。推奨:
-  - Shielded（プライベート）: Zodl Wallet、Zingo (Mobile/Desktop) YWallet (mobile/desktop)。
-  - Transparent（簡単だがプライバシーは低い）: Edge Wallet、Zecwallet Lite。
+  - Shielded（プライベート）: Zodl Wallet、Zingo (Mobile/Desktop)、Zkool (mobile/desktop)。
+  - Transparent（簡単だがプライバシーは低い）: Edge Wallet、ZecWallet Lite。
   - [wallets](https://zechub.wiki/wallets) からダウンロードしてください。プールが対応している場合は、プライバシー保護のため shielded アドレス（`zs` で始まる）を生成してください。
 
 ### その他

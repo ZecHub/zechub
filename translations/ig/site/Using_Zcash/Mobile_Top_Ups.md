@@ -37,6 +37,27 @@ Hey... e tinyela ego na akara m! I nwekwara ike ikwenye email gị n'oge usoro �
 
 ![Step 7 - Successful top-up](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
 
+## Ịzụta ihe n'enweghị akaụntụ.
+
+Usoro a dị n'elu chọrọ ịmepụta akaụntụ Coinsbee. Ọ bụrụ na ịchọrọ ka ọ bụghị, CardsRelay na-ere mobile top ups maka ZEC enweghị ndebanye aha.
+
+### 1. Họrọ mba gị na onye ọrụ ya.
+Ịga leta ya . [KaadịRelay](https://cardsrelay.com) na-emeghe Mobile Top Ups ngalaba. Ihe karịrị ndị ọrụ 750 kwadoro n'ụwa niile.
+
+### 2. Tinye nọmba na ego ole i ji ya.
+Tinye nọmba ekwentị a ga-akwụ ụgwọ ma họrọ uru mgbakwunye. Ọnụahịa egosiri bụ otu ngụkọta niile, na enweghị akara mgbanwe ọnụego dị iche agbakwunyere mgbe e mesịrị.
+
+### 3. Tinye email gị
+Adreesị ozi-e dị mkpa ka e wee nwee ike iziga nkwenye ahụ, a na-enyocha ya tupu etinye iwu. Enweghị akaụntụ ma ọ bụ akwụkwọ njirimara achọrọ.
+
+### 4. Jiri ZEC kwụọ ụgwọ.
+Họrọ Zcash na ndenye ọpụpụ. A nabatara ZEC ozugbo kama ịbụ onye atọ gbanwere ya. Adreesị ịkwụ ụgwọ yana ego ahụ akọwapụtara.
+
+### 5. Nkwenye
+A na-edozi ihe ndị ahụ ma gosi gị site n'ozi email, nke a na-abụkarị n'ime sekọnd ole na ole.
+
+CardsRelay na-erekwa kaadị onyinye maka ihe dị ka akara 2,500, ma nabata Monero na Zano n'akụkụ Zcash. Ọ bụ Payzy ME FZ Ltd na-arụ ọrụ ya.
+
 ---
 
 ![Additional screenshot](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)
