@@ -70,7 +70,7 @@ Orchard ṣe ilọsiwaju lilo, ṣiṣe ati asiri ni pataki nipa idinku idasil�
 
 Lati igba ti igbesoke Ironwood ṣiṣẹ ni 28 Keje 2026, ** Orchard jẹ lilo-nikan. Ko si iye tuntun le wọ inu adagun naa. Awọn owo ti o wa tẹlẹ nibẹ tun le lo, ati pe wọn nlọ kiri sinu Ironwood nipasẹ awọn ọna iyipada. Wallets ṣe itọju eyi fun ọ, botilẹjẹpe ọpọlọpọ fi diẹ ninu iṣakoso lori iyara.
 
-Bí o bá ní owó Orchard, wo: [Igi irin-igi](/zcash-tech/ironwood) nítorí ohun tí ṣíṣí lọ síbòmíràn túmọ̀ sí nínú ìwàláàyè.
+Bí o bá ní owó Orchard, wo: [Igi irin-igi](/zcash-tech/ironwood) nítorí ohun tí ṣíṣí lọ síbòmíràn túmọ̀ sí nínú ìwà hù.
 
 ____
 
@@ -88,9 +88,9 @@ Some of the upgrades include improved performance for shielded addresses, Improv
 
 Zcash Sapling gba awọn olumulo laaye lati ṣe iṣowo ti ara ẹni ni iṣẹju diẹ nigbati a ba fiwe si iye akoko to gun julọ ninu Sprout Series. 
 
-Ààbò ìsòwò ń mú kí àṣírí túbọ̀ jẹ́ àdáni, tí ó sì sọ ọ di aláìṣeé ṣe fún àwọn ẹgbẹ́ kẹta láti so ìṣàdálẹ̀ pọ̀ àti dípinnu iye ZEC ti a n gbe. Sapling tún mu ki ìlúlò sunwọ̀n sí i nípa yíyẹnu ohun-èlò tó nílò nípasẹ̀ kímọ òye ìdánimọ̀ fun ṣíṣe ètò ìbániṣiṣẹ́kọlẹ̀ láìsí ẹni to mọ̀ ọ́n dá lóhùn nípa jíjẹ́ kó rọrùn fáwọn onílò láti lòó.
+Ààbò ìsòwò ń mú kí àṣírí túbọ̀ jẹ́ àdáni, tí ó sì sọ ọ di aláìṣeé ṣe fún àwọn ẹgbẹ́ kẹta láti so ìṣàdálẹ̀ pọ̀ àti dípinnu iye ZEC ti a n gbe. Sapling tún mu ki ìlúlò sunwọ̀n sí i nípa yíyẹnu ohun àmúṣọrọ̀ kọnputa fun gbígbéṣẹ́ ìdánilẹ́kọ̀ọ́ onípamọ́ nípa sísọ rẹ̀ di èyí tó ṣeé wọlé dé lójú olùlohun-ìwífún.
 
-Sapling wallet addresses begin with "zs" and this can be observed in all supported Zcash Shielded Wallet (YWallet, Zingo Wallet Nighthawk etc.) which has built-in Sapling addresses. Zcash Sapling represents a significant development in technology when it comes to privacy and efficiency of transactions which makes Zcash a practical and effective cryptocurrency for users who value privacy and security.
+Sapling wallet addresses begin with "zs" and this can be observed in all supported Zcash Shielded Wallet (Zkool, Zingo Wallet, Nighthawk etc.) which has built-in Sapling addresses. Zcash Sapling represents a significant development in technology when it comes to privacy and efficiency of transactions which makes Zcash a practical and effective cryptocurrency for users who value privacy and security.
 
 ____
 

@@ -1,6 +1,6 @@
 # Sɛnea wɔyɛ Zebra wɔ Akash Network so
 
-Anamɔn-anammɔn akwankyerɛ a wɔde bedi dwuma wɔ Zebra Zcash full node a wode [Akash Console](https://console.akash.network).
+Anamɔn-anamɔn akwankyerɛ a wɔde bedi dwuma a wɔde Zebra Zcash full node bedi dwuma [Akash Console na ɛwɔ hɔ](https://console.akash.network).
 
 ### Nea Woreyɛ Deploying
 
@@ -12,18 +12,18 @@ Zebra node a edi mũ a ɛbɛma:
 
 -> Gye nnɔnhwerew pii kosi nna pii na ama ayɛ sync koraa
 
--> Fa vCPUs 4, RAM 16GB, 350GB akoraeɛ (mainnet) anaa vCPU 2, RAM 8GB, 50GB (testnet) di dwuma
+-> Fa vCPU 4, 16GB RAM, 350GB akoraeɛ (mainnet) anaa 2 vCPUs, 8GB RAM, 50GB (testnet) di dwuma
 
 
 ### Nea ɛho hia: Hyɛn Gyinabea Ho Mfoniniyɛ wɔ Akash
 
 Sɛ woda port bi adi wɔ Akash so (e.g., port 8233 ma Zebra P2P) a, **ENNYƐ saa port pɔtee no** wɔ ɔdemafoɔ no baguam IP so. Mmom, ɔdemafoɔ no de random high port (te sɛ 31234 anaa 42567) ma na ɔde reverse-proxies kɔ wo container no port 8233.
 
-Eyi nam nhyehyɛe so - providers no tu deployments pii, na sɛ obiara bɔ mmɔden sɛ ɔde port 8233 bedi dwuma tẽẽ a, anka wobenya ntawntawdi.
+Eyi nam design so - providers run deployments pii, na sɛ obiara bɔ mmɔden sɛ ɔde port 8233 bedi dwuma tẽẽ a, anka wobenya ntawntawdi.
 
 **Nea eyi kyerɛ ma wo:**
 
--> Wo hyehyɛ port 8233 wɔ SDL (Zebra gyinapɛn P2P port) no mu .
+-> Wo hyehyɛ port 8233 wɔ SDL (Zebra gyinapɛn P2P hyɛn gyinabea) .
 
 -> Akash ma wo URI te sɛ *provider.com:31234* .
 
@@ -48,7 +48,7 @@ Wɔdi eyi ho dwuma ara kwa. Fa URI a Akash de ma wo no di dwuma kɛkɛ.
 
 -> Paw **Keplr** (anaasɛ Cosmos sika kotoku a wopɛ) .
 
--> Gye nkitahodi no so bere a Keplr pue
+-> pene nkitahodi no so bere a Keplr pue
 
 
 Ɛsɛ sɛ wo AKT balance no pue wɔ soro nifa so. Sɛ ɛyɛ zero a, kɔ kan kɔ fund wo sika kotoku no.
@@ -62,11 +62,11 @@ Wɔdi eyi ho dwuma ara kwa. Fa URI a Akash de ma wo no di dwuma kɛkɛ.
 
 ##### Ɔkwan A: Fa SDL Fael (Wɔkamfo kyerɛ) .
 
-[![Deploy wɔ Akash so](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
+[![Deploy on Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
 
 ##### Ɔkwan B: Fa SDL Editor di dwuma
 
-Sɛ wopɛ sɛ wode nsa hyɛ [SDL no mu a](https://github.com/akash-network/awesome-akash/blob/master/zcash-zebra/deploy.yaml):
+Sɛ wopɛ sɛ wode nsa hyɛ mu a [SDL no](https://github.com/akash-network/awesome-akash/blob/master/zcash-zebra/deploy.yaml):
 
 -> Kɔpi *zebra-akash.yml* mu nsɛm no.
 
@@ -181,7 +181,7 @@ SDL no default yɛ Mainnet. Sɛ wode Testnet bedi dwuma mmom a:
    # - "ZEBRA_NETWORK__LISTEN_ADDR=[::]:8233"
    ```
 
--> **Nyi Testnet nhyehyɛe no fi mu**:
+-> **Nyi Testnet nhyehyeɛ no fi hɔ**:
 
    ```yaml
    - "ZEBRA_NETWORK__NETWORK=Testnet"
@@ -206,7 +206,7 @@ SDL no default yɛ Mainnet. Sɛ wode Testnet bedi dwuma mmom a:
      proto: tcp
    ```
 
--> **Wɔpɛ: Tew nneɛma a wɔde yɛ adwuma** so ma Testnet wɔ *profiles.compute.zebra.resources*:
+-> **Wɔpɛ: Tew nneɛma** so ma Testnet wɔ *profiles.compute.zebra.resources*:
 
    ```yaml
    cpu:
@@ -293,7 +293,7 @@ Sɛ wopɛ sɛ wo scrape metrics ma monitoring a:
 
 Sɛ wo nnya bids anaasɛ wopɛ sɛ wo optimize cost:
 
-**Wɔ lower-spec providers** ho no, tew so wɔ *profiles.compute.zebra.resources* ɔfa no mu:
+**Wɔ lower-spec providers**, tew so wɔ *profiles.compute.zebra.resources* ɔfa no mu:
 
 -> CPU: *units: 2 * (asua koraa ma sync ahoɔhare a ntease wom)
 
@@ -364,7 +364,7 @@ Sɛ anaa:
 
 -> Wo boɔ sua dodo (ma *dodoɔ* kɔ soro wɔ SDL mu)
 
--> Wo resource ahwehwɛdeɛ no dɔɔso dodo ma providers a ɛwɔ hɔ (tew CPU/memory/storage so) .
+-> Wo nneɛma a wohia no korɔn dodo ma wɔn a wɔde ma a ɛwɔ hɔ (tew CPU/memory/storage so) .
 
 -> Twɛn kyɛ (ɛtɔ da bi a egye sikani 60-90 ansa na bids apue)
 
@@ -409,7 +409,7 @@ Sɛ wo balance no sua a, Akash bɛ auto-close wo deployment no. **Top up wo wall
 
 -> **Lower CPU/memory** sɛ wo nhia fast sync a
 
--> **Paw wɔn a wɔde ma a ne bo yɛ mmerɛw** (ɛnyɛ nyansa bere nyinaa - bere a wɔde yɛ adwuma ho hia)
+-> **Paw wɔn a wɔde ma a ne bo yɛ mmerɛw** (ɛnyɛ bere nyinaa na nyansa wom - bere a wɔde yɛ adwuma ho hia)
 
 
 ### Mainnet ne Testnet ntam
@@ -433,13 +433,13 @@ Fi ase wɔ Testnet sɛ woresɔ deployment nhyehyɛe no ahwɛ kɛkɛ a. Hwɛ "Swi
 
 ### Nneɛma Afoforo a Wɔde Yɛ Adwuma
 
-**Akash Console**: [https://console.akash.network](https://console.akash.network)
+**Akash Console**: Ɔde ne nsa kyerɛɛ ne so. [https://console.akash.network](https://console.akash.network)
 
-**Akash Nsɛmma Nhoma**: [https://akash.network/docs/](https://akash.network/docs/)
+**Akash Nsɛm a Wɔakyerɛw**: [https://akash.network/docs/](https://akash.network/docs/)
 
-**Zebra Nwoma**: [https://zebra.zfnd.org/](https://zebra.zfnd.org/)
+**Zebra Nsɛm a Wɔakyerɛw**: [https://zebra.zfnd.org/](https://zebra.zfnd.org/)
 
-**Zcash Nhwehwɛmufo**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
+**Zcash Nhwehwɛmufoɔ**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Akash Akasakasa**: [https://discord.akash.network](https://discord.akash.network) (ma nsɛm a ɛfa ɔdemafo ho) .
 

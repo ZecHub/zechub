@@ -22,7 +22,7 @@ Wo dometɔ aɖewoe nye esiwo doa vevie nu:
 | Sqribbles ƒe nyawo | Nuwɔwɔ kple nutoa me tɔwo ƒe Zcash me nyawo | [Tsa le -> dzi](https://free2z.cash/sqribbles) |
 | Str4d ƒe ƒuƒoƒo | Mɔ̃ɖaŋu nuŋɔŋlɔwo tso Zcash core developer gbɔ | [Tsa le -> dzi](https://words.str4d.xyz/) |
 | CipherScan Kwasiɖa sia Kwasiɖa | Kwasiɖa sia kwasiɖa ƒe blog me nya siwo ƒo nu tso Zcash blockchain analytics | [Tsa le -> dzi](https://cipherscan.app/) |
-| Zcash Shielded Nyadzɔdzɔwo | Kwasiɖa sia kwasiɖa ƒe adzamenyawo kple lãwo ƒe agbenɔnɔ ŋuti nyadzɔdzɔwo digest | [Tsa le -> dzi](https://zechub.wiki) |
+| Zcash Shielded Nyadzɔdzɔwo | Kwasiɖa sia kwasiɖa ƒe adzamenyawo kple lãwo ƒe agbenɔnɔ ŋuti nyadzɔdzɔwo digest | [Tsa le -> dzi](https://zechub.substack.com/) |
 | ZecHub DAO ƒe Blog | Nyatiwo kple nufiamenyawo tso ZecHub DAO habɔbɔa gbɔ | [Tsa le -> dzi](https://zechub.wiki) |
 
 ---

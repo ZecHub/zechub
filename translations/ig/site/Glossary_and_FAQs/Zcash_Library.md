@@ -209,7 +209,7 @@ Okwu. Nkọwa okwu.
 
 Okwu. Nkọwa okwu.
 |------|-----------|
- Wallet. Software ma ọ bụ ngwaike nke na-echekwa igodo nzuzo wee nye gị ohere izipu / nata ZEC. Akpa ego ndị dị irè gụnyere ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android), YWallet, Zallet (na-abịa n'ihu) na Keystone (ngwaọrụ). Maka ndepụta zuru ezu, lee [Zcash Ecosystem Wallets (akpa ego nke usoro ndụ)](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+ Wallet. Software ma ọ bụ ngwaike nke na-echekwa igodo nzuzo wee nye gị ohere izipu / nata ZEC. Akpa ego ndị dị irè gụnyere ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android),Zkool (moble/desctop), Zallet (na-abịa n'ihu) na Keystone (ngwaọrụ). Maka ndepụta zuru ezu, lee [Zcash Ecosystem Wallets (akpa ego nke usoro ndụ)](https://z.cash/ecosystem/?wallets=#tag-wallets) |
  WebZjs  Ihe mbụ JavaScript SDK maka Zcash, nke ChainSafe wuru maka ihe nchọgharị. Ọ na-akwado snap Zcash Shielded Wallet nke wetara ZEC echekwara na MetaMask. 
 
 ## X

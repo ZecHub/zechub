@@ -14,11 +14,11 @@ Zcash a ɛwɔ ZEC no de kokoamsɛm ne ahobammɔ ho nneɛma a ɛkɔ anim nyinaa m
 
 Sɛ wowɔ adwumakuw bi anaa wotɔn ade anaa dwumadie biara a, ebia wobɛpɛ sɛ wo nsa ka Zcash. Adɛn? Ɛha yi, saa nteaseɛ ne mfasoɔ ahodoɔ no bi a wobɛtumi abu no sɛ ɛyɛ wo kwan a wobɛfa so tua ka. 
 
-- **Ma kokoam nsɛm nkɔ anim. |** Nea ɛnte sɛ akwan a wonim no yiye na ɛyɛ atetesɛm a wɔfa so tua ka no, Zcash, esiane zk-SNARKs nti, ɛma wo nnwuma yɛ nea ahobammɔ wom na ɛyɛ kokoam denam ahobammɔ a wɔbɔ (ɛnyɛ nea ɔmanfo nhu) wɔ blockchain no so na data a wɔkyerɛ wɔ nkitahodi mu no fa wɔn nyinaa ho (na wotumi hu) ma wɔn baanu nyinaa, nea ɔde kɔma ne nea ogye nkutoo.
-- **Ɔkwan a wɔfa so tua ka ntɛmntɛm na ɛho ka sua. |** ZEC nkitahodi yɛ tẽẽ na enhia nnipa foforo biara (te sɛ sikakorabea ahorow), na ɛma bere a wɔde di dwuma no yɛ tiaa na ɛka a wɔbɔ no sua sen akwan a wɔfa so tua sika a wɔde di dwuma wɔ amanne kwan so no, enti wo werɛ betumi afi Paypal. Seesei wunim sɛ ɛno nyɛ *ɛfata* option.
+- **Ma kokoam nsɛm nkɔ anim. |** Nea ɛnte sɛ akwan a wonim no yiye na ɛyɛ atetesɛm a wɔfa so tua ka no, Zcash, esiane zk-SNARKs nti, ɛma wo nnwuma yɛ nea ahobammɔ wom na ɛyɛ kokoam denam ahobammɔ a wɔbɔ (ɛnyɛ nea ɔmanfo nhu) wɔ blockchain no so na data a wɔkyerɛ wɔ nkitahodi mu no fa (na wohu) ma wɔn baanu nyinaa, nea ɔde kɔma ne nea ogye nkutoo.
+- **Ɔkwan a wɔfa so tua ka ntɛmntɛm na ɛho ka sua. |** ZEC nkitahodi yɛ tẽẽ na enhia sɛ nnipa foforo biara (te sɛ sikakorabea ahorow), na ɛma bere a wɔde di dwuma no yɛ tiaa na ɛka a wɔbɔ no sua sen akwan a wɔfa so tua sika a wɔtaa fa so no, enti wo werɛ betumi afi Paypal. Seesei wunim sɛ ɛno nyɛ *ɛfata* option.
 - **Ma wo adetɔfoɔ dodoɔ nkɔ soro.** | Ɛdenam ZEC a wubegye so no, wo adwumakuw / ade anaa adwuma no betumi atwetwe nnipa a wɔpɛ sɛ wɔde crytocurrencies di dwuma no botae a ɛtrɛw.
 - **Hyɛ nkuran na ma adetɔfo nokwaredi nkɔ anim. |** Ɛdenam tapping wɔ gua so fã yi mu na woma nkurɔfo hu sɛ wo beae no regye ZEC atom so no, eyi betumi ama woanya mfaso ne nea wopɛ wɔ wɔn a wɔtaa yɛ ne wɔn a wobetumi atɔ no mu, a wɔbɛdan akɔ wo nkyɛn bere biara a ɛsɛ sɛ wɔde wɔn ZEC di dwuma.
-- **Ma nsonsonoeɛ no yɛ *innovative*. |** Sɛ wosi gyinae sɛ wobɛgye ZEC wɔ wo sotɔɔ mu, adwuma mu, anaa mpo wode ɔsom bi bɛma sɛ taksikafoɔ a, wobɛtumi de wo ho ahyɛ wɔn a wɔyɛ ma sikasɛm, sikatua ne anigyeɛ ahodoɔ no mu.
+- **Ma nsonsonoe no yɛ *innovative*. |** Sɛ wosi gyinae sɛ wobɛgye ZEC wɔ wo sotɔɔ mu, adwuma mu, anaa mpo wode ɔsom bi bɛma sɛ taksikafoɔ a, wobɛtumi de wo ho ahyɛ wɔn a wɔyɛ ma sikasɛm, sikatua ne anigyeɛ ahodoɔ no mu.
 
 Sɛ wususuw nneɛma a ɛwɔ atifi hɔ no nyinaa ho a, mmeae pii wɔ hɔ a wubetumi asɛe ZEC. Momma yɛnhwehwɛ nea yɛafrɛ no mu: 
 
@@ -26,7 +26,7 @@ Sɛ wususuw nneɛma a ɛwɔ atifi hɔ no nyinaa ho a, mmeae pii wɔ hɔ a wubetu
 
  ****
 
-Titiriw no, wɔ Venezuela no, mmeae ahorow bi wɔ hɔ (honam fam mmeae ne intanɛt so mmeae) a wubetumi anya nneɛma anaa nnwuma na wode Zcash atua ka... Momma yenfi ase!
+Titiriw no, wɔ Venezuela no, mmeae ahorow bi wɔ hɔ (honam fam mmeae ne intanɛt so mmeae) a wubetumi anya nneɛma anaa nnwuma na wode Zcash atua ka... Momma yɛnhyɛ ase!
 
 <aside>
 📌 Wɔabobɔ eyi din random, sɛnea ɛbɛyɛ a nkurɔfo behu baabi a wobetumi akɔ na wɔde ahotɔ atua ka a wɔwɔ afiri a wotumi fa so (telefon, laptop anaa ledger), Zcash sika kotoku ne intanɛt anaa data nkitahodi pa ara kwa
@@ -37,9 +37,9 @@ Titiriw no, wɔ Venezuela no, mmeae ahorow bi wɔ hɔ (honam fam mmeae ne intan�
 
 1.  **Sheila Vargas** a ɔyɛ ɔbarima a ɔyɛ ɔdefoɔ | Aduan a wɔpɛ | Blogger | Adwumayɛfoɔ | Afotu a wɔde ma 
 
-[@SheEmprende_ wɔ Social Media so](https://www.sheemprende.com/enlaces-sheemprende/). Ohuruw kɔɔ asɛnka agua no so esiane ne ** a agye din (na ɛyɛ dɛ) no nti.[Galletas de la FeliZidad na ɔkyerɛwee](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
+[@SheEmprende_ wɔ Social Media so](https://twitter.com/SheEmprende_). Ohuruw kɔɔ asɛnka agua no so esiane ne ** a agye din (na ɛyɛ dɛ) no nti.[Galletas de la FeliZidad na ɔkyerɛwee](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
 
-Sɛ ne kukisi da nkyɛn a, ɔde nnwuma afoforo ma na nea eye sen biara ne eyi: wubetumi de ZEC atua ka!
+Sɛ ne cookies da nkyɛn a, ɔde nnwuma afoforo ma na nea eye sen biara ne eyi: wubetumi de ZEC atua ka!
 
 ![1_20230829_214024_0000.png](/content-images/_unavailable.svg)
 
@@ -61,7 +61,7 @@ Enti, sɛ woyɛ kukisi monster a..,
 
 afei deɛ woanim baabi a wode wo ZEC bedi dwuma!
 
-**Wɛbsite**: [Sheemprende.com na ɛwɔ hɔ](http://Sheemprende.com) 
+**Website**: sheemprende.com akɔ pɛnhyen na ɛnsiesie bio. Du ne nkyɛn kɔ so [Free2z](https://free2z.cash/SheEmprende) | [X Asɛnka agua so](https://twitter.com/SheEmprende_)
 
 **Zcash Unified Address:** 
 
@@ -81,11 +81,11 @@ Nnuaba a ayow & strawberry chocolate
 
 ![20230829_232246.jpg](/content-images/_unavailable.svg)
 
-Rosa serew de ahantan kyerɛ sɛ ogye **Zcash.** tom.
+Rosa serew ahantan de kyerɛ sɛ ogye **Zcash.** tom.
 
 ![Screenshot_20230829-232755.png](/content-images/_unavailable.svg)
 
-**Wɛbsite**: [https://somosdulceros.com/](https://somosdulceros.com/) 
+**Website**: somosdulceros.com akɔ pɛnhyen na ensiesie bio. Fa social links a ɛwɔ aseɛ ha no di dwuma.
 
 **Social media:** [Instagram](https://www.instagram.com/somos_dulceros) | [X Asɛnka agua so](https://twitter.com/RosaMRangel) | [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
@@ -141,7 +141,7 @@ u1u7unmxgr6efh0l94hz0ag6zku4rjeuuarhql5xsnt744e2lu0dsmhrye5a6mlahw067atgh6x0ykax
 
 1. **Emprendedoras Digitals a ɛwɔ Venezuela no**
 
-So wopɛ sɛ wote nka sɛ *wɔama wo tumi?* **Emprendedoras Digitales de Venezuela** yɛ beae pa a wubetumi afi ase**.** Eyi yɛ nea mmea a wɔyɛ adwuma a wɔn ho yɛ fɛ na wɔn ho yɛ nwonwa a wɔwɔ atirimpɔw ahorow a Aura Brito di wɔn anim na wɔahyehyɛ. 
+So wopɛ sɛ wote nka sɛ *wɔama wo tumi?* **Emprendedoras Digitales de Venezuela** yɛ beae pa a wubetumi afi ase**.** Eyi yɛ mmea a wɔyɛ adwuma a wɔn ho yɛ fɛ na wɔn ho yɛ nwonwa kuw bi a wɔwɔ atirimpɔw ahorow a Aura Brito di wɔn anim na wɔahyehyɛ. 
 
 **EDVE,** a ɛtwe adwene si mmea adwumayɛfo so**,** de nnwuma pii a ɛfa:
 
@@ -196,7 +196,7 @@ Wɔ ankasa ne intanɛt so nnwuma.
 
 1. **RobmarEscool** Ɔde ne nsa kyerɛɛ ne so. 
 
-Sɛ yɛde digyital designer to nkyɛn a, Robmar yɛ mfoninitwafoɔ a ɔsan nso gye bere bi de kyerɛkyerɛ **adwumayɛbea** fa **mfonini ne nnwinnadeɛ a ɛfa ho** ho, na saa berɛ yi nso ɔtrɛw zcash ho asɛm mu 
+Sɛ yɛde digyital adwumfo to nkyɛn a, Robmar yɛ mfoninitwafo a ɔsan nso gye bere bi de kyerɛkyerɛ **adwumayɛbea ahorow** fa **mfonini ne nnwinnade a ɛfa ho** ho, na saa bere yi mu no ɔtrɛw zcash ho asɛm nso mu 
 
 N’adwuma no yɛ nea wonim no yiye wɔ Zcash ecosystem mu esiane ne mmoa a ɔde maa ZFAV kuw no nti.
 
@@ -220,7 +220,7 @@ N’adwuma no yɛ nea wonim no yiye wɔ Zcash ecosystem mu esiane ne mmoa a ɔde
 
 ![Screenshot_20230830-131043-768~2.png](/content-images/_unavailable.svg)
 
-Nnadewa a ɛyɛ fɛ, nsa fɛfɛ esiane Karin Beauty Studio nti.
+Nnadewa fɛfɛ, nsa fɛfɛ esiane Karin Beauty Studio nti.
 
 **Social media:** 
 
@@ -288,7 +288,7 @@ Tecnopapapi gye cryptocurrecies (a 3ZEC ka ho) ne akwan foforo a wɔfa so tua si
 
 **Unified Address**
 
-u1sa0tnr9ac7ul8ad3ftdk4pgcxuq8j9vagjwz7apf8lylryhhklu4j68745trlga62a68qtfaqllmmdpv6zghw560qgzgughejre4ekmq vzf6agtu82a8qx2s3nj3gu50ye6r06rce595rvp0k4t28ecn5kzqu53q99guuzmrej94hr4u6l34rctvwsyzdhtq2ap070qrnvcwg4tgj
+u1sa0tnr9ac7ul8ad3ftdk4pgcxuq8j9vagjwz7apf8lylryhhklu4j68745trlga62a68qtfaqllmmdpv6zghw560qgzgughejre4ekmq vzf6agtu82a8qx2s3nj3gu50ye6r06rce595rvp0k4t28ecn5kzqu53q99guuzmrej94hr4u6l34rctvwsyzdhtq2ap070qrnvcwg4tgj66
 
 📍 San Juan de los Morros - Ɔman a ɛwɔ ɔman no mu 
 
@@ -310,6 +310,54 @@ u10jd0tcj24p9rcju047lymtp9nx38h90j09rnr4ru6e8476822ka sɛ wgn6phe373q78myrf2ew2j
 
 ---
 
+**[Intanɛt so | Wiase nyinaa | Digitals nneɛma, gua so & VPNs]**
+
+Biribiara a ɛwɔ atifi hɔ no yɛ onipa anaa adwuma ketewa bi a wubetumi adu ne nkyɛn wɔ Venezuela. Saa baanan yi wɔ intanɛt so, obiara a ɔwɔ sika kotoku ne nkitahodi betumi akɔ mu, na wɔtra ZEC mu tẽẽ.
+
+1. **ZecKɔtɔ** | Digitals nneɛma | eSIM data | VPN a wɔde kɔ hɔ
+
+ZecBuy tɔn ankorankoro dijitaal nneɛma ma ZEC: eSIM data nhyehyɛe ma akwantu ne Mullvad VPN akontaabu. Wɔnkyerɛw wɔn din na email address biara nni hɔ a wɔde bɛma. Wopaw ade no, tua wɔ ZEC mu, na wunya code no.
+
+**Wɛbsite**: [zecbuy.com na ɛwɔ hɔ](https://zecbuy.com/)
+
+🌐 Intanɛt so | Wiase nyinaa
+
+---
+
+1. **ZEC Guadidan** | Atipɛnfo gua so
+
+Guadidan a ɛnyɛ sikakorabea a adetɔfo ne adetɔnfo ne wɔn ho wɔn ho di nkitaho tẽẽ. Wɔakyerɛ boɔ wɔ dɔla mu na wɔasiesie sika kotokuo akɔ sika kotokuo mu wɔ Zcash mu, a wɔabɔ ho ban denam default so. Asɛnka agua no nnye sika biara na enkura obiara sika da, na ɛma ɛyɛ beae a wobɛhwɛ bere a nea wopɛ sɛ wotɔ no nni nsɛm a wɔahyehyɛ te sɛ eyi mu no.
+
+**Wɛbsite**: [zecmarket.org na ɛwɔ hɔ](https://zecmarket.org/)
+
+Abɔde a nkwa wom ho nnwuma pii te sɛ ɛno: [Mpɔtam Hɔ Nnwuma](/zcash-community/community-projects)
+
+🌐 Intanɛt so | Wiase nyinaa
+
+---
+
+1. **NymVPN** na ɛyɛ adwuma | VPN ne mixnet a wɔde ahyɛ aman nsa
+
+NymVPN de traffic fa decentralized network of nodes so, a mixnet mode a ɛde cover traffic ka ho ma enti packet timing ne size gyae adwumayɛ sɛ nsateaa nkyerɛwee. Sɛ wokyerɛw wo din a, ɛnsɛ sɛ wɔmma wo ankorankoro ho nsɛm biara, na wogye sikatua tom wɔ kokoam sika a Zcash ka ho mu, enti sɛ wotua ɔsom no ho ka a, ɛnsɛe kokoamsɛm a ɛwɔ sɛ wode bedi dwuma no.
+
+**Wɛbsite**: [nym.com so na ɛwɔ hɔ](https://nym.com/)
+
+Akyi akenkan: [VPN ahorow ne dVPN ahorow](/privacy-tools/vpn-and-dvpn)
+
+🌐 Intanɛt so | Wiase nyinaa
+
+---
+
+1. **Meile dVPN** | VPN a wɔde ahyɛ Sentinel ntam
+
+Meile yɛ dVPN afɛfoɔ a ɔfiri MathNodes kuo a ɛyɛ adwuma wɔ Sentinel ntwamutam no so, baabi a mpɔtam hɔfoɔ na wɔyɛ nodes no ho adwuma sene sɛ adwumakuo baako na ɛyɛ adwuma. Wɔtua nhyehyeɛ a ɛfa nkrataahyɛ ho wɔ app no ​​mu, na wɔfa BTCPay so di ZEC sikatua a wɔabɔ ho ban no ho dwuma. Builds wɔ hɔ ma Windows, macOS ne Linux ka mobile client no ho.
+
+**Wɛbsite**: [Meile dVPN wɔ MathNodes so](https://mathnodes.com/index.php/meile-dvpn-client-linux-os-x/) (meile.app dan kɔ ha)
+
+🌐 Intanɛt so | Wiase nyinaa
+
+---
+
 **[Aduan a wɔde di ntɛmntɛm | Italia kasa**].
 
 Bonus : **Allegrini Ristorante** 🇪🇸 | Pizza Beae a Ɛwɔ | Italiafo nnuan | **Wɔregye Zcash atom nnansa yi ara.** 
@@ -318,7 +366,7 @@ Nneɛma a wɔde kɔma nkurɔfo | Fa kɔ | Nneɛma a wɔde besie
 
 ![BackgroundEraser_20230901_114615839.png](/content-images/_unavailable.svg)
 
-**Wɛbsite**: [www.alleginiristorante.com na ɛwɔ hɔ](http://www.alleginiristorante.com) (wɔ adansi mu) .
+**Website**: obiara nni hɔ. Wɔanwie site a wɔde too gua wɔ alleginiristorante.com no da na domain no nsiesie bio. Fa social links a ɛwɔ aseɛ ha no di dwuma.
 
 **Social media** 
 

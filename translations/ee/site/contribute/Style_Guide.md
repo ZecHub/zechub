@@ -1,6 +1,6 @@
 # ZecHub ƒe Atsyã Mɔfiame
 
-ZecHub ƒe atsyã le bɔbɔe eye woate ŋu ate ɖe eŋu. Míexɔa amesiame nyuie eye míetsɔa míaƒe susu ɖoa Zcash nutoa ŋu.
+ZecHub ƒe atsyã le bɔbɔe eye woate ŋu ate ɖe eŋu. Míexɔa amesiame nyuie eye míetsɔa míaƒe susu ɖoa Zcash nutoa me tɔwo ŋu.
 
 ## Gɔmeɖosewo
 
@@ -8,7 +8,7 @@ ZecHub ƒe atsyã le bɔbɔe eye woate ŋu ate ɖe eŋu. Míexɔa amesiame nyuie
 
 2. **Kpuie eye wòɖo nya la gbɔ:** Gblɔ gbedasi bɔbɔetɔ kekeake si nàte ŋui. Dze egɔme kple nya vevitɔ kekeake.
 
-3. **Zãla-tsia dzi:** Míeŋlɔa nu na zãlawo gbã, dɔwɔlawo evelia, eye ame bubu ɖesiaɖe etɔ̃lia.
+3. **Zãla-tsi dzi:** Míeŋlɔa nu na zãlawo gbã, dɔwɔlawo evelia, eye ame bubu ɖesiaɖe etɔ̃lia.
 
 ## Gɔmeɖosewo
 
@@ -41,7 +41,7 @@ ZecHub ƒe atsyã le bɔbɔe eye woate ŋu ate ɖe eŋu. Míexɔa amesiame nyuie
 
 ## Tweets ƒe nyawo
 
-> Atsyã ƒe mɔfiame gbadza sia nye nyatiwo alo zãla ƒe mɔfiamewo ŋɔŋlɔ na ZecHub. Ne èdi tweet alo nya kpuiwo la, zã [tweets style guide](./tweets.md).
+> Atsyã ƒe mɔfiame gbadza sia nye nyatiwo alo zãla ƒe mɔfiamewo ŋɔŋlɔ na ZecHub. Eku ɖe tweet kple nya kpui bubuwo hã ŋu: na woanɔ kpuie, tsɔ nya la de ŋgɔ, eye nàdzo le nuwuƒe ƒe nuŋɔŋlɔmedzesiwo dzi le fli kpuiwo dzi.
 
 ---
 

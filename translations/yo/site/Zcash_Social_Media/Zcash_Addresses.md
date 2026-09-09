@@ -1,80 +1,80 @@
-# Imọ-ara-ara: Awọn Iṣowo Transparent vs Shielded & Awọn adirẹsi Ajọpọ
+# Imọ-ara si Iṣiro: Awọn iṣowo Alaye vs Shielded & Adirẹsi Ajọpọ
 
-**Series:** Ìmọ̀ Láti Nítòkè-títí-Nítòkò
+**Sẹ́ríì:** Ìmòye láti orí òǹkà dé ìkórè
 
-Bí o bá kọ́ nípa Zcash fún ìgbà àkọ́kọ́, o ó ríi pé oríṣi ìnáwó méjì ló wà: **Transparent** àti **Shielded**. 
+Bí o bá kọ́ nípa Zcash fún ìgbà àkọ́kọ́, ìwọ yóò rí i pé oríṣi ìnáwó méjì wà: **Transparent** àti **Shielded**. 
 
-Loni a kọ nipa wọn & bo ọkan ninu awọn ẹya tuntun ninu ilolupo eda abemi #Zcash, **Awọn Adirẹsi Ajọpọ**.
-
----
-
-## Awọn Iṣowo Alaye vs Awọn iṣowo Ti a Ṣafipamọ
-
-- **Transparent Transactions** lo **t-addresses** (Base58 encoded). Ohun gbogbo ni o wa ni gbangba - gẹgẹ bi Bitcoin. 
-- **Shielded Transactions** use addresses encoded for the **Sapling** or **Orchard** pools. These hide sender, receiver, and amount using zero-knowledge proofs.
-
-**Shielded Transaction** tọka si eyikeyi idunadura pẹlu awọn adirẹsi ti a ṣe akojọ fun awọn adagun Sapling/Orchard.
-
-[Ìfilọlẹ tí ó ṣe kedere lòdì sí ìfilọ́lẹ̀ tí ó ní ààbò](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
-
-**Awọn Adirẹsi Iṣọkan (UA) ** ni a ṣe lati **ṣọkan** awọn iṣowo ti o ni aabo tabi ṣiṣan sinu adirẹti kan.
+Lónìí a máa kọ́ nípa wọn & ká sì jíròrò ọ̀kan lára àwọn ohun tuntun nínú ètò ìgbé ayé #Zcash, **Unified Addresses**.
 
 ---
 
-## Awọn oriṣi Adirẹsi ni Zcash
+## Àwọn Àdéhùn tí ó Wà ní Òfin àti Ìṣèlú.
+
+- **Transparent Transactions** lo àwọn àdúgbò tí ó ní ìtumọ̀ t (Base58 encoded). Gbogbo nǹkan ni gbogbo ènìyàn lè rí - bíi Bitcoin. 
+- Àwọn ìnáwó tí a fi ààbò bo** lo àwọn àdírésì ti ó wà ní àkọsílẹ̀ fún àwọn pólò Sapling tàbí Orchard. Èyí ńfi ẹni tó ránni, olùgbà á sì iye owó náà pamọ́ nípa lílo ẹrí ìmọ-gídíìkan (zero knowledge proofs).
+
+**Iṣowo Iboju** tọka si eyikeyi iṣowo pẹlu awọn adirẹsi ti a fi koodu fun Sapling / Orchard pools.
+
+![Transparent vs Shielded intro](/content-images/FpmW00HWIAIZpQD-a244cfd85d.webp)
+
+**Awọn Adirẹsi Aṣọkan (UA)** ni a ṣe lati ṣajọ awọn iṣowo ti o bo ati ṣiṣi silẹ sinu adiresi kan.
+
+---
+
+## Àwọn oríṣi àdírésì nínú Zcash
 
 Awọn oriṣi adirẹsi mẹta lo wa:
 
-1. **(T) Àìmọye**  Base58 
+1. **(T) Òójúmó**  Ìsù 58 
 2. **(Z) Sapling** – Bech32  
 3. **(UA) Unified Address** – Bech32m  
 
-Nọmba awọn ohun kikọ (ati nitorinaa iwọn koodu QR) n pọ si pẹlu iru kọọkan.
+Iye àwọn ohun tí a kọ (tí ó sì ń jẹ́ kí ìlà tó wà nínú kóòdì QR náà pọ̀ sí i) máa ń pọ̀ sí i nígbàkigbà téèyàn bá ti tẹ oríṣi kòkòrò kan.
 
-![Ìfiwéra àwọn oríṣi àdírẹ́sì](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
+![Address types comparison](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
 
-![Ìfiwéra iwọn kóòdì QR](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
+![QR code size comparison](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
 
 ---
 
-## Bí Àwọn Adirẹsi Tó Wà Níṣọ̀kan Ṣe Ń Ṣiṣẹ
+## Bí Àwọn Àdírẹ́sì Tó Wà Níṣọ̀kan Ṣe Ń Ṣiṣẹ́
 
-Adirẹsi ati awọn bọtini ti wa ni koodu bi a byte itẹlera (**Raw Encoding**). 
-A **Receiver Encoding** pẹlu gbogbo alaye pataki lati gbe ohun ini kan nipa lilo kan pato ilana.
+Adirẹsi ati awọn bọtini ti wa ni koodu bi a byte itọsọna (**Raw Encoding **). 
+A **Receiver Encoding** pẹlu gbogbo alaye ti o nilo lati gbe ohun ini kan nipa lilo a pato ilana.
 
 The raw encoding of a Unified Address is a combination of encodings (typecode, length, addr) of receivers:
 
 - UA: `0x03`  
 - Sapling: `0x02`  
-- Òróró: `0x01`  
+- Àmọ́ tí ó ṣe kedere: `0x01`  
 
-**Ó ṣe pàtàkì**: Ó gbọdọ jẹ **ó kéré tán adirẹsi ìsanwó kan tí a fi ààbò pamọ́** ní gbogbo UA. (A kò tún gba àwọn adírẹsi ẹ̀ka mọ́ lẹ́yìn àtúnṣe Canopy.)
+**O ṣe pataki**: Ó gbọdọ jẹ pe ó kéré tán adirẹsi ìsanwó kan ti a fi ààbò pamọ́ wà nínú gbogbo UA. (A kò tún gba àwọn àdírẹsì Sprout mọ́ lẹ́yìn tí wọn bá gbé Canopy ga.)
 
-![Àkójọ Àkọsílẹ̀ UA](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
+![UA encoding structure](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
 
-Àkọsílẹ̀ kíkún: **[ZIP-316: Àwọn Adirẹsi Tí ó Ṣọ̀kan](https://zips.z.cash/zip-0316)**
-
----
-
-## Àwọn Àǹfààní Tó Wà Nínú Lílo Àwọn Adirẹsi Tí Wọ́n Ṣọ̀kan
-
-- **Rọrun fun awọn paṣipaarọ** - Wọn le ṣe atilẹyin awọn idogo ti o ni aabo / awọn yiyọ kuro ni aabo diẹ sii. 
-- **Awọn ohun ti o ni idaniloju ọjọ iwaju** - Awọn adagun tuntun ti a le fi sii laisi fifọ awọn apamọwọ. 
-- **Shielded-by-Default** - Gbogbo UA ni o kere ju adirẹsi iboju kan, nitorinaa aṣiri wa nigbagbogbo.
-
-Ìyípadà pàtàkì nìyí tó ti ń ran àwọn ZEC lọ́wọ́ láti kó sínú àgbá tí a fi ọ̀pá ìdáàbòbò ṣe.
+Àkọsílẹ̀ tó kún rẹ́rẹ́: **[ZIP-316: Àwọn Adirẹsi Tí ó Ṣọ̀kan-án](https://zips.z.cash/zip-0316)**
 
 ---
 
-## Awọn Iṣowo & Awọn iṣe Orchard
+## Àǹfààní Tó Wà Nínú Lílo Àwọn Adirẹsi Tí Wọ́n Ṣètò Kan Náà
 
-Orchard ṣafihan ero tuntun kan ti a pe ni **Awọn iṣe**:
+- **Rọrun fun awọn paṣipaarọ** - Wọn le ṣe atilẹyin bayi idogo ti o ni aabo / yiyọ kuro pẹlu ailewu diẹ sii. 
+- **Awọn ohun elo ti o ni idaniloju ọjọ iwaju** - Awọn adagun-odo tuntun le fi kun laisi fifọ awọn apamọwọ. 
+- **Shielded-by-Default** - Gbogbo UA ni ó kéré tán adirẹsi kan tí a fi ààbò pa, nítorí náà ìpamọ́ wà lárọ̀ọ́wọ́tó nígbà gbogbo.
 
-- Wọ́n máa ń dín ìsunmọ̀ metadata kù nípa lílo ìsọ̀rí kan ṣoṣo fún gbogbo Ìgbésẹ̀ nínú ìṣòwò kan. 
-- Wọn darapọ awọn aaye ti (V4) Awọn inawo + Ijade sinu adehun iye kan. 
+Ìyípadà pàtàkì yìí ti ń ran àwọn ZEC tó pọ̀ sí i lọ́wọ́ láti wọ inú àgbá tí a fi ọjà ṣe.
+
+---
+
+## Awọn Iṣowo & Aṣe Orchard
+
+Orchard ṣafihan ero tuntun ti a pe ni ** Awọn iṣe**:
+
+- Wọn dinku titọsi ti metadata nipa lilo ** single anchor** fun gbogbo Awọn iṣe ni iṣowo kan. 
+- Wọn darapọ awọn aaye ti (V4) Isanwo + Ijade sinu adehun iye kan. 
 - Eyi jẹ ki awọn iṣapeye iṣẹ ṣiṣe ti eto ẹri Halo2.
 
-Daira ṣalaye awọn ipo Anchor (zcon3):
+Daira ṣàlàyé àwọn ipò Àpótí (zcon3):
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -82,39 +82,38 @@ Daira ṣalaye awọn ipo Anchor (zcon3):
     src="https://www.youtube.com/embed/f6UToqiIdeY"
     title="Zcon3"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    jẹ́ kíFullScreen
+    gba Àwòrán-ìwòyí ní kíkún (FullScreen)
     loading="lazy"
   />
 </div>
 
 ---
 
-## Ìṣírò Ìlànà àti Ìpamọ́ra
+## Ìṣòro Àìní Ọ̀rọ̀ Nípa Ètò àti Ìdáàbòbò Ara Ẹni
 
-Nínú àwọn ọ̀ràn kan (bí àpẹẹrẹ, àwọn àdéhùn àgbélébùú) iye owó náà lè fara hàn fún ẹni tí kò sí láyìíká. `valueBalanceSapling` àti `valueBalanceOrchard` lo ** homomorphic commitments** láti fi ẹ̀rí ZEC lapapọ hàn nínú àwọn pool tí a fi ààbò bo àti láti dènà àdàkọ.
+Ní àwọn ìgbà kan (bíi ti ìdánwò àgbélébùú) iye owó lè hàn sí ẹni tí ń wò ó láti ìta. `valueBalanceSapling` àti pé, `valueBalanceOrchard` lo ** homomorphic commitments** láti fi ẹ̀rí ZEC lapapọ hàn nínú àwọn pool tí a yà sókè àti dídènà àdàkọ.
 
-Ka síwájú sí i: [Ìdáàbòbò Kúrò Lórí Àdàkàdekè Nínú Àwọn Ìkùdu Tí Wọ́n Ń Dáàbò Bò](https://electriccoin.co/blog/defense-against-counterfeiting-in-shielded-pools/)
+Ka siwaju: [Ààbò Lọ́wọ́ Àwọn Aráàlú Níbi Tí Wọ́n Ti Ń Ṣọ́ Ọkọ̀ Ìdánwò Náà](https://electriccoin.co/blog/defense-against-counterfeiting-in-shielded-pools/)
 
 ---
 
-## Àwọn Àtúnṣe Tó Máa Wáyé Lọ́jọ́ Iwájú
+## Àwọn Ìtẹ̀síwájú Tó Máa Wáyé Lọ́jọ́ Iwájú
 
-Ẹgbẹ́ ECC ń ṣiṣẹ́ lórí àwọn ọ̀nà RPC tuntun ní `zcashd` (tó rọ́pò `z_sendmany`) èyí tí yóò jẹ́ kí àwọn olùṣàmúlò wo àtẹ̀wò kí wọ́n sì gbà/kọ ìsòwò tí a dábàá ní ìbámu pẹ̀lú àwọn ànímọ́ ìpamọ́ra rẹ̀.
+Ẹgbẹ́ ECC ń ṣiṣẹ́ lórí àwọn ọ̀nà RPC tuntun ní Ìpínlẹ̀ Ọsirélíà. `zcashd` (tó ń rọ́pò ìwé ìròyìn yìí) `z_sendmany`) èyí tí yóò jẹ́ kí àwọn olùṣàmúlò wo àtẹ̀wò àti gbà/kọ ìsopọ̀ kan táa fẹ́ ṣe ní ìbámu pẹ̀lú ìwàláàyè ara ẹni rẹ.
 
 ---
 
 ## Ìmọ̀ràn
 
-Gbìyànjú àtúnṣe tuntun ti YWallet! 
-Ó ti ń fi "Ìpinnu Ìṣirò" hàn ní ojú-ewé kí o tó tẹ ránṣẹ́, tí ó ń ràn ọ́ lọ́wọ́ láti ṣe àwọn yíyàn tó jẹ́ àdáni.
+Yi okun akọkọ ntokasi si **Ywallet**, fun awọn idunadura eto ti o han ṣaaju ki o to tẹ fi. Ywallet ni ko siwaju sii itọju ati yoo wa ni imudojuiwọn fun Ironwood, nitorina o le mọ tẹle awọn pq. Yan a ṣetọju apamọwọ lati awọn ipese pipin ninu rẹ ìfilọlẹ. [Àwọn àpamọ́ owó](https://zechub.wiki/wallets) ojúewé dípò, ki o si fẹ ọkan ti o sọ fun ọ ohun tí a idunadura yoo fi han ṣaaju ki o to lọ jade.
 
-Àpilẹ̀kọ tó dára lórí ìpamọ́ ìṣirò: https://medium.com/@hanh.huynh/
+Àkọlé tó dára lórí ìpamọ́ ìṣirò: https://medium.com/@hanh.huynh/
 
 ---
 
-** Oríṣun àwòrán, ZecHub (@ZecHub) ** 
+**Orílówó Àkòrí látọ̀dọ̀ ZecHub (@ZecHub)** 
 https://x.com/ZecHub/status/1628498645627666432
 
 ---
 
-*Ojúewé yìí ni a kó jọ láti inú àkọsílẹ̀ Zero to Zero Knowledge fún wiki ZecHub.*
+*Ojúewé yìí ni a ṣe láti inú ìkápá Ìmọ̀ Nọ́lọ́wọ́ sí Òkú fún wiki ZecHub.*

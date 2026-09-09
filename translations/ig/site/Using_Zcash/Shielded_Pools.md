@@ -90,7 +90,7 @@ Zcash Sapling na-enyere ndị ọrụ aka ịme azụmahịa nkeonwe n'ime sek�
 
 Nchedo azụmahịa na-eme ka nzuzo dịkwuo elu, nke mere na ọ gaghị ekwe omume maka ndị ọzọ ijikọ azụmahịa ma chọpụta ego ZEC a ga-ebufe. Sapling na-emekwa ka ojiji rụọ ọrụ site n'ibelata ihe nchọpụta kọmputa iji mepụta azụmahịa onwe onye site n"ịme ya ka ọ dịrị ndị ọrụ mfe ịnweta.
 
-Sapling wallet addresses begin with "zs" and this can be observed in all supported Zcash Shielded Wallet (YWallet, Zingo Wallet Nighthawk etc.) which has built-in Sapling addresses. Zcash Sapling represents a significant development in technology when it comes to privacy and efficiency of transactions which makes Zcash a practical and effective cryptocurrency for users who value privacy and security.
+Sapling wallet addresses begin with "zs" and this can be observed in all supported Zcash Shielded Wallet (Zkool, Zingo Wallet, Nighthawk etc.) which has built-in Sapling addresses. Zcash Sapling represents a significant development in technology when it comes to privacy and efficiency of transactions which makes Zcash a practical and effective cryptocurrency for users who value privacy and security.
 
 ____
 

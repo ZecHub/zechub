@@ -1,158 +1,176 @@
-# Itọsọna Iṣilọ: Lati zcashd si Zebrad/Zallet
+# Atọ́nà Ìlọsípò: Láti zcashd sí Zebrad/Zallet
 
-Eto ilolupo Zcash n dagbasoke. Nodu kikun Zcashd ti aṣa, ti o ṣetọju nipasẹ *Electric Coin Company (ECC) * / *Zodl*, ni rọpo rọpo nipasẹ Zebra ati Zallet.
+A ti rọpo gbogbo awọn nodes zcashd, eyiti o jẹ *Electric Coin Company (ECC) * / *Zodl*, nipasẹ Zebra ati Zallet. Zcashd de opin atilẹyin rẹ ni 18 Keje 2026 ko si ṣiṣẹ mọ.
 
 - Zebra is a modern Rust implementation of the Zcash protocol developed by the Zcash Foundation
-- Zallet jẹ apo apamọwọ ti o ni irọrun ti a ṣe lati ṣepọ laisiyonu pẹlu awọn akopọ Zebra ti o dagbasoke nipasẹ Zodl
+- Zallet jẹ apo apamọwọ ti o ni irọrun kan ti a ṣe lati sopọ laisiyonu pẹlu awọn akopọ Zebra ti Zodl dagbasoke
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Àwòrán ìjíròrò GPTIOct12202508_15_20A](/content-images/SJNBsSYTel-dfd19f34e4.webp)
+![Diagram: zcashd splitting into zebrad for node duties and Zallet for wallet duties](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
-Itọsọna yii n tọ ọ lọ nipasẹ gbigbe lati **Zcashd** si **Zebrad** ati **Zallet**, pẹlu iṣeto, gbigbe apamọwọ wọle, ati yanju awọn iṣoro gbigbe wọpọ.
+Atọ́nà yìí yóò tọ̀ ọ lọ nípasẹ̀ ìyípadà láti **Zcashd** sí **Zebrad** àti **Zallet**, títí kan ètò ìṣètò, àtúntò owó pópó, àti dídájú àwọn ìṣòro tí ó wọpọ nínú ṣíṣípò.
 
 ---
 
-## Ise agbese Zcash ti kede ni ifowosi pe zcashd yoo di ohun ti ko wulo ni ọdun 2025.
+## zcashd dáwọ́ lílo ní 18 July 2026 dúró.
 
-**Ipò Ìkórìíra àti Ohun Tí Ó Túmọ̀ Sí**
+** Kí ni èyí túmọ̀ sí**
 
-- Ise agbese Zcash ti kede ni ifowosi pe zcashd yoo di ohun ti ko wulo ni ọdun 2025.
-- A ti n gbe awọn akopọ kikun lọ si Zebrad, imuse Rust kan, lakoko ti a pinnu Zallet lati ṣe aṣeyọri paati apamọwọ ti zcashd. 
-- Ni idahun, iṣẹ akanṣe Zebra tọpinpin ami-ami "Zcashd Deprecation" lati rii daju ibaramu, gbigbe RPC, ati atilẹyin ilolupo.
-- Fun ọpọlọpọ awọn ọna RPC, Zebrad/Zallet yoo ni ifọkansi lati jẹ awọn rirọpo ti o ṣubu-ni (ti n ṣe apẹẹrẹ tabi ibaamu ihuwasi). Awọn miiran yoo yipada tabi ko le ni atilẹyin.
+- zcashd dé ìparí àtìlẹ́yìn rẹ̀ ní 18 July 2026. Kò tún lè ṣe ìṣọ̀kan sí òpin ẹ̀ka mọ, kò sì le fi ránṣẹ́ tàbí gba owó. Èyí ti parí, a kò gbèrò láti ṣe é.
+- zcashd's two jobs are now split: **zebrad** is the full node, and **Zallet** is the wallet.
+- Zallet wà ní **beta**. Breaking àwọn àtúnṣe le ṣẹlẹ laarin awọn idasilẹ, ati diẹ ninu awọn zcashd JSON-RPC ọna ti wa ni ko ṣe sibẹsibẹ. Ṣayẹwo awọn [matrix ipo ọna ṣiṣe](https://zcash.github.io/zallet/) kó o tó di ẹni tí ò ń retí pé kí ẹnì kan pè é.
+- Ti o ba tun ni awọn owo **Sprout**, ka ikilọ ninu igbesẹ 6 akọkọ. Zallet ko ṣe atilẹyin fun iṣupọ Sprout, ati ọna ti a lo nigbagbogbo lati gbe awọn owo wọnyẹn nilo zcashd ṣiṣe.
 
-Kí Nìdí Tó Fi Yẹ Kó O Ṣí Lọ sí Ọ̀pọ̀ Ilẹ̀?
+** Kí Nìdí Tó Fi Yẹ Ká Ṣí Lọ sí Ọ̀pọ̀ Ètò Ìlú - Kò Ní Jẹ́ Kéèyàn Máa Kùnà Rẹ̀**
 
-Kódà, tá a bá fi ọ̀rọ̀ pé àwọn èèyàn ò kà wá sí mọ́, àwọn ìdí pàtàkì kan wà tó fi yẹ kéèyàn ṣí lọ síbòmíì:
-- Ààbò àti ìdúróṣinṣin: Ìpamọ́-ààbò Rust àti ọ̀nà ìgbàlódé ń dín ewu àwọn àléébù kù.
-- Iṣe & Idagbasoke: A ṣe apẹrẹ Zebrad fun ibajọra, lilo awọn orisun ti o munadoko diẹ sii, ati isọdọkan iyara.
-- Modular Architecture: Yiyọ loji node (Zebrad) lati inu apamọwọ UI (Zallet) nfunni ni awọn aala ti o mọ ati awọn ọna igbesoke ti o dara julọ.
-- Ajọṣepọ Eto Ilẹ-aye Ọla: Awọn irinṣẹ, awọn ilọsiwaju, ati iyokù ti eto ilolupo Zcash yoo ṣe ifojusi Zebrad / Zallet siwaju ati siwaju sii.
-- Ìbàlẹ̀ Ọkàn: Yẹra fún dídi ẹni tó ń lo ohun èlò tí kò wúlò mọ́, tí kò sì ní ìtìlẹyìn.
+Kódà, tá a bá fi ìtìjú sílẹ̀, àwọn ìdí pàtàkì wà tó yẹ kéèyàn máa ṣí lọ:
+- Ààbò àti ìdúróṣinṣin: Ìpamọ́-ààbò Rust ati irinṣẹ ìgbàlódé dín ewu àwọn àléébù kù.
+- Iṣẹ & Idagbasoke: A ṣe apẹrẹ Zebrad fun ibajọra, lilo awọn orisun daradara diẹ sii, ati isopọmọ iyara.
+- Ẹrọ-iṣẹ Modular: Yiyọ loji node (Zebrad) lati inu apamọwọ UI (Zallet) nfunni ni awọn aala ti o mọ ati ọna igbesoke to dara julọ.
+- Ifarada Eto Ilẹ-aye Ọla: Awọn irinṣẹ, awọn ilọsiwaju ati iyoku eto ilolupo Zcash yoo ṣe ifojusi Zebrad / Zallet siwaju sii.
+- Ìbàlẹ̀ ọkàn: Yẹra fún dídi ẹni tí ó ń lo ohun èlò kan tó ti di àwáwí, èyí tí kò ní ìtìlẹ́yìn.
 
-### Ní báyìí ẹ jẹ́ kí á lọ wo ìwé tó ń sọ nípa ṣíṣí lọ síbòmíì
+### Ẹ jẹ́ ká wá wo ìwé tó ń sọ nípa ṣíṣí lọ síbòmíì.
 
-Ìrànlọ́wọ́ fún Ohun Gbogbo
+**1. Ṣe àtúnṣe sí Gbogbo nǹkan**
 * Ṣe afẹyinti wallet.dat rẹ (tabi eyikeyi faili apamọwọ / ibi ipamọ bọtini miiran) lati oju opo zcashd rẹ.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ì1⁄2 ì ¤í ì '](/content-images/SJ_0mUtTxg-1441185a72.svg)
+![bash (1)](/content-images/SJ_0mUtTxg-1441185a72.svg)
 </div>
 
-* Fi zcash.conf rẹ pamọ ati eyikeyi awọn eto aṣa.
-* Ṣe èsì ẹ̀dà ti gbogbo àwọn àdàkọ RPC tàbí ẹ̀rọ-ìmúṣiṣẹ́ tí o lò.
-* Rii daju pe awọn afẹyinti rẹ jẹ wulo (fun apẹẹrẹ ni ayika miiran, gbiyanju lati ṣii tabi ṣayẹwo wọn).
-* Ṣe àtúnyẹ̀wò àwọn ọ̀nà JSON-RPC tí o ń gbára lé lásìkò yìí.
-* Ṣe afiwe pẹlu tabili ibaramu ti a gbero ti o ṣetọju lori aaye atilẹyin Zcash](https://z.cash/support/zcashd-deprecation/?utm_source=chatgpt.com) 
-* Múra sílẹ̀ fún àwọn àyípadà tàbí àwọn ọ̀nà tí kò sí (àwọn kan lè nílò àtúnṣe tàbí àtúntò).
+* Fi zcash.conf rẹ pamọ ati awọn eto aṣa eyikeyi.
+* Ṣàtúnṣe ẹ̀dà ti gbogbo àwọn àkọsílẹ̀ RPC tàbí ohun-èlò tí o lò.
+* Ṣayẹwo pe awọn afẹyinti rẹ jẹ to wulo (fun apẹẹrẹ ni ayika miiran, gbiyanju lati ṣii tabi ṣe ayẹwo wọn).
+* Ṣe àtúnyẹ̀wò àwọn ìlànà JSON-RPC tí o ń gbára lé nísinsìnyí.
+* Fi wé pẹlú tábìlì ìmúṣẹ tí a gbero ti o wà ní orí ìwé àkọsílẹ̀. [Àwòrán ìtìlẹyìn Zcash](https://z.cash/support/zcashd-deprecation/) 
+* Múra sílẹ̀ fún àwọn àyípadà tàbí ìlànà tí kò sí (àwọn kan lè nílò ìmúṣẹ tàbí yíyẹ wọn padà).
 
-**2. Awọn ibeere Eto & Aaye Disk**
-* Rii daju pe o ni aaye disiki ti o to (iyika Zcash tobi). O kere ju 10 GB ti aaye disk ọfẹ.
+**2. Àwọn Ohun Tí Ó Pọn Dọ́rọ̀ àti Àyè Onírìísí**
+* Àyè disk jẹ ohun tí àwọn ènìyàn kò kà sí. Ìpínlẹ̀ Zcash kọjá 270 GB ní August 2026, nítorí náà fi ààyè sílẹ̀ fún ó kéré tán 300GB, lórí SSD bí o bá lè ṣe é.
 * Rii daju pe ẹrọ rẹ ni nẹtiwọọki iduroṣinṣin, CPU, RAM.
-* Asopọ intanẹẹti 
+* Ìsopọ̀ ayélujára kan. 
 * Ti o ba gbero lati ṣajọ lati orisun, ni Rust & Cargo ti fi sori ẹrọ.
 
 **3. Fi sori ẹrọ / Ṣeto Zebrad**
-O le ṣe igbasilẹ kan ti a ti kọ tẹlẹ tabi kọ lati orisun.
-* Zcash Foundation n tẹjade awọn itusilẹ ati awọn alakomeji fun Zebra. Fun apẹẹrẹ, o le lo iwe afọwọkọ fifi sori ẹrọ tabi ṣe igbasilẹ alakomeje ti o yẹ fun OS rẹ.
+O le ṣe igbasilẹ faili ti a kọ tẹlẹ tabi kó o lati orisun.
+* Zcash Foundation ń tẹ̀wé jáde àti àwọn ìdìpọ̀ méjì fún Zebra. Àpẹẹrẹ, o lè lo àdàkọ-ìfiwọlé tàbí gba ẹrù ìdìpọ̀ tó bá yẹ fún OS rẹ.
 
-* Akiyesi pe ninu awọn ẹya Zebra ti o ṣẹṣẹ, [a ko tun gba aaye ipari RPC ni aiyipada ni Docker.](https://zfnd.org/zebra-2-3-0-release/?utm_source=chatgpt.com)
+* Kíyè síi pé nínú àwọn ẹ̀dà Zebra tí ó ṣẹṣẹ, [a kò tún gba ìparí RPC láàyè mọ́ nípasẹ̀ àfojúsùn nínú Docker.](https://zfnd.org/zebra-2-3-0-release/)
 
-**Aṣayan A: Fi sori ẹrọ nipasẹ iṣaaju ti a ti kọ* 
-Lori ** Linux **/** macOS**:
+**Ohun A: Fi sori ẹrọ nipasẹ awọn prebuilt alakomeji** 
+Lori ** Linux**/** macOS**:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ì ¬í ì2 ](/content-images/HJhYu8Y6el-d2198f22c9.svg)
+![bash (2)](/content-images/HJhYu8Y6el-d2198f22c9.svg)
 </div>
 
 This installs the latest stable version of zebrad.
 
-**Aṣayan B: Kọ lati orisun**
+**Ohun tí o lè ṣe B: Ṣẹ̀dá láti orísun**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ì ¤í ì (3)](/content-images/Syg8FUK6eg-b4557e52e0.svg)
+![bash (3)](/content-images/Syg8FUK6eg-b4557e52e0.svg)
 </div>
 
-Lẹ́yìn tí ẹ bá ti kọ́ ilé, ẹ gbé ìsọ̀rí náà sínú ọ̀nà yín:
+Lẹ́yìn tí ẹ bá ti kọ ilé, gbé ìsọ̀rí náà síbi tóo fẹ́ kó dé:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Ìṣilọ 11](/content-images/BJ0zjLY6ll-f77354d701.webp)
+![migration 11](/content-images/BJ0zjLY6ll-f77354d701.webp)
 </div>
 
-**4. Ìṣètò àti Ìfilọ́lẹ̀** 
+**4. Ìṣètò & Igbesẹ** 
 Ṣẹda ìtòlẹ́sẹẹsẹ àbínibí:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ìyípadà2](/content-images/HJV1C8tTxx-5823395651.webp)
+![migration2](/content-images/HJV1C8tTxx-5823395651.webp)
 </div>
 
-Ṣatunkọ **zebrad.toml** si awọn ayanfẹ rẹ (gbigbọ adirẹsi, awọn ibudo, itọsọna ipinlẹ, caching).
+Ṣatunkọ **zebrad.toml** si awọn ayanfẹ rẹ (gbiyanju adirẹsi, ibudo, itọsọna ipinlẹ, caching).
 
 **Bẹrẹ ìsopọ̀:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Àwòrán](/content-images/H1KPkvt6gl-864c48ca40.webp)
+![image](/content-images/H1KPkvt6gl-864c48ca40.webp)
 </div>
 
-Nọ́ọ̀dù náà yóò bẹ̀rẹ̀ sí ṣe àdàkọ láti ìpilẹ̀ṣẹ̀ - retí wákàtí bíi mélòó kan (tàbí jù bẹ́ẹ̀ lọ) ní ìbámu pẹ̀lú ohun èlò àti ẹ̀rọ-ìpèsè.
+Àkó náà yóò bẹ̀rẹ̀ sí ṣe àdàkọ láti ìpilẹ̀ṣẹ̀ - retí wákàtí mélòó kan (tàbí jù bẹẹ lọ) ní ìbámu pẹ̀lú ohun èlò àti ẹ̀rọ-ìpèsè.
 
-**5. Fi sori ẹrọ / Ṣiṣeto Zallet (Wallet) **
+**5. Ṣíṣètò/Ṣiṣẹ́pò Zallet (Wolẹti)**
 
 Zallet ni a ṣe lati rọpo apakan apamọwọ ti zcashd.
 
 Ṣayẹwo oju-iwe GitHub / igbasilẹ Zallet fun awọn alakomeji.
 
-**Àbí kókó láti orísun:**
+** Tabi kókó láti orísun:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Àwòrán](/content-images/SyUFxvFTex-5bb10ee1d3.webp)
+![image](/content-images/SyUFxvFTex-5bb10ee1d3.webp)
 </div>
 
 * Ṣii GUI tabi CLI (bi fifi sori ẹrọ rẹ ṣe pese).
-* Ṣeto rẹ lati sopọ si oju-ọna Zebrad agbegbe rẹ nipasẹ RPC tabi opin API.
+* Ṣeto rẹ lati sopọ si oju-ọna Zebrad agbegbe rẹ nipasẹ RPC tabi API opin.
 
-**6. Gbigba Iwe apamọwọ zcashd rẹ wọle sinu Zallet** 
-Nípasẹ̀ Ibi ìkóhunsílẹ̀ Àkọ́kọ́
+**6. Gbigbe Iwe-owo zcashd rẹ sinu Zallet**
 
-Lori zcashd, kó àwọn kókó ìpamọ́ rẹ jáde:
+O kò nílò zcashd tí ó ń ṣiṣẹ́ fún èyí. Zallet ka àwọn ìsọfúnni náà `wallet.dat` faili taara, eyi ti o ṣe pataki nitori zcashd ko le bẹrẹ mọ.
 
-<div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![ì ¤ë¥1⁄4 ì 1⁄4ì ì '](/content-images/rJzgzwFagx-4a0874f250.svg)
-</div>
+> **Tún un ṣe. `wallet.dat`.** Awọn gbigbe iroyin ohunkohun ti o ko le ṣe afihan ni a Zallet apamọwọ dipo importing o, ati awọn pataki ohun elo ki o si wa nikan ninu `wallet.dat`. Má ṣe pa á lẹ́yìn tí o bá ti ṣípò padà.
 
-* Ni Zallet, yan Awọn bọtini Gbigbe tabi aṣayan ti o jọra.
-* Fi hàn án sí ìkànnì zcashd_keys.txt. 
-* Zallet yẹ ki o ṣawari ati gbe awọn adirẹsi ZEC ati awọn bọtini ti o jọmọ wọle.
+Ẹ sá lọ! `zallet init-wallet-encryption` Zallet n ṣe àdàkọ ìkóhun-ìmọ̀ kókó sí ìdánimọ́ ọjọ́ orí, àti pé idadíyẹ̀wò náà ní láti wà kí wọ́n tó gbé àwọn kọǹpútà kan wá.
 
-** Nípasẹ̀ gbólóhùn ìkékúrú** (bí ó bá yẹ)
+Lẹhinna yi iṣeto rẹ pada ati apamọwọ rẹ:
 
-* Ti apamọwọ rẹ ba ṣe atilẹyin fun afẹyinti irugbin, lo Tunṣe lati Ọrọ-ọrọ Irugbin ni Zallet.
-* This only works if your zcashd wallet was derived from a seed (or you have seed conversion).
+```bash
+# translate zcash.conf into zallet.toml
+zallet migrate-zcash-conf --zcashd-datadir /path/to/zcashd/datadir -o /path/to/zallet/datadir/zallet.toml
 
-**Ìṣàtúnṣe àpamọ́ àti Ìṣàmúlò Àpapọ̀**
+# import wallet.dat into Zallet's wallet.db
+zallet migrate-zcashd-wallet --zcashd-datadir /path/to/zcashd/datadir
+```
 
-* Gbàrà tí wọ́n bá ti kó àwọn kókó wọlé, Zallet yóò tún àtúnyẹ̀wò ẹ̀rọ náà ṣe nípasẹ̀ Zebrad.
-* Fún Zallet ní àkókò díẹ̀ láti ṣàtúnṣe àròpọ̀ àti ìtàn ìnáwó rẹ.
+`migrate-zcashd-wallet` jẹ nikan ni o wa ninu kọ pẹlu awọn `zcashd-import` àwọn ohun tó wà nínú ìwé náà àti kíkàwé. `wallet.dat` nílò àwọn ohun tí wọ́n ń lò. `db_dump` utility lati Berkeley DB 6.2, awọn ti ikede zcashd lo. Ti o ba ni diẹ ẹ sii ju ọkan apamọwọ faili, ṣiṣe awọn aṣẹ lẹẹkan fun kọọkan faili ki o si fi kun `--allow-multiple-wallet-imports` lori awọn nigbamii nṣiṣẹ; kọọkan di ara rẹ ṣeto ti iroyin. `rpcuser` àti pé, `rpcpassword` a kò gbé wọn lọ, nítorí pé JSON-RPC ti Zallet ń lo ìfọwọ́sí kuki ní àdàkọ; fi àwọn àkọọ́lẹ̀ ìdánilójú kún un pẹlú: `zallet add-rpc-user` tó o bá nílò wọn.
+
+* Ohun tó bá dé*
+
+* Àwọn ìkókó tí ó jẹ́ kí n mọ̀ nípa wọn àti àwọn kókó tó jáde láti inú wọn, pẹlú àkọọlẹ̀-ìpamọ́ ti a tún ṣe padà fún àpò zcashd náà.
+* Awọn bọtini ti o nlo Sapling ati awọn bọtini ṣiṣan gbangba ti a gbe wọle lọtọ.
+* Awọn titẹsi iṣọwo nikan ti o ni awọn bọtini gbangba wọn tabi iwe afọwọkọ igbasilẹ
+* Ṣàkójọ ọjọ́ ìbí, kí àyẹ̀wò ẹyínrẹ̀ẹ̀rọ náà lè bẹ̀rẹ̀ ní ibi tí ó yẹ.
+
+**Àwọn nǹkan tí kò bára dé.** Àwọn wọ̀nyí ni a ròyìn pẹlú iye dípò àwọn ti wọn kó wá:
+
+* **Sprout ìnáwó kókó ati owo.** Zallet ko ni atilẹyin fun awọn Sprout pool. Awọn iwe ọna wà lati gbe gbóògì owo jade lilo zcashd ṣaaju ki o to retiring ti o, ati pe jẹ bayi ṣee ṣe. Ti yi ba kan si ọ, beere lori awọn [Zcash R&D Discord ì í ë ¤ì 'ë¦¬í ¬ê° êμ¬ì§ .](https://discord.gg/xpzPR53xtU) tàbí àwọn tó wà nínú [àpéjọ àwùjọ](https://forum.zcashcommunity.com/) kí o tó ṣe ohunkóhun mìíràn.
+* Àwọn àkọsílẹ̀ ìwé àdírẹ́sì
+* Àwọn àkọsílẹ̀ tí a fi àwòdì nìkan sí, ti wọn kò ní kókó ìta gbangba tàbí kíkọ́wé láti rà padà àti àwọn àkọsílẹ̀ pẹlú àwọn kọ̀ǹpútà tó jẹ́ pé kì í ṣe kókó-ìta gbangba ni wọ́n ń lò.
+* Àwọn àpamọ́ ìforúkọsílẹ̀
+
+** Ṣiṣakoso lẹhin.** A mnemonic lori ara rẹ ni ko kan pipe afẹyinti, nitori ti wọle bọtini wa nikan ninu awọn apamọwọ database. Pa ailewu daakọ ti `wallet.db`, awọn ọjọ ori encryption idanimọ faili ti a npè nipasẹ awọn `keystore.encryption_identity` àtúnṣe, àti ọ̀rọ̀-ìfipamọ́ rẹ, kí o sì pa ìpilẹ̀ṣẹ̀ náà mọ́. `wallet.dat`Kíyè sí i pé: `wallet.db` kò ní ìdìkọ̀rọ́: ó ń tọjú ìtàn ìṣirò rẹ àti wíwo kókó nínú àyè, nítorí náà fi ẹ̀dà afẹyinti pamọ síbi tí o wà láìséwu.
+
+**Ìṣàtúnṣe àpòòwé & Àjọsopọ**
+
+* Nígbà tí a bá ti kó àwọn kọ́kó wọlé, Zallet yóò tún àtúnyẹ̀wò ẹrù náà ṣe nípasẹ̀ Zebrad.
+* Fún Zallet ní àkókò díẹ̀ láti tún àkáǹtì rẹ àti ìtàn ìṣirò rẹ̀ ṣe.
 
 **7. Ṣayẹwo Awọn Balance ati Sync**
 
-Nígbà tí wọ́n bá ti kó o wọlé, Zallet yóò so mọ́ Zebrad node rẹ, yóò sì tún àdàkọ ìsọ̀rí náà ṣe.
-Nígbà tí ìfọwọ́sowọ́pọ̀ bá parí, àlàfo rẹ àti àwọn ìnáwó rẹ yóò farahàn gẹ́gẹ́ bí ti ìṣáájú.
+Nígbà tí wọ́n bá ti kó wọn wá, Zallet yóò so mọ̀ sí Zebrad node rẹ ó sì tún ṣàyẹwò ìsọ̀rí náà.
+Nígbà tí ìṣàmúlò bá parí, àlàfo àti ìnáwó rẹ yóò fara hàn bí ó ti rí tẹ́lẹ̀.
 
 O le ṣayẹwo ipo isọdọkan ti node rẹ nipa ṣiṣe:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Àwòrán](/content-images/SyIyVDY6xl-10d6bed7b8.webp)
+![image](/content-images/SyIyVDY6xl-10d6bed7b8.webp)
 </div>
 
 Tàbí kí wọ́n ṣàyẹ̀wò àkọsílẹ̀.
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-[Àwòrán](/content-images/r1HfVPF6gg-b6b76e9907.webp)
+![image](/content-images/r1HfVPF6gg-b6b76e9907.webp)
 </div>
 
-**8. Ìtọjú ìṣòro**
+**8. Ìṣòro dídájú**
 
 <div className="overflow-x-auto my-8 rounded-2xl border border-slate-200 dark:border-slate-700">
   <table className="w-full min-w-full border-collapse text-sm">
@@ -193,10 +211,10 @@ Tàbí kí wọ́n ṣàyẹ̀wò àkọsílẹ̀.
   </table>
 </div>
 
-**9. Ìparí**
+Ìparí ìwádìí**
 
-Ṣíṣípò láti zcashd sí Zebrad àti Zallet fún ọ ní ìrírí Zcash tó yá jù, tó dáàbò bò, tó sì jẹ́ òde òní.
-Pẹlu aabo ti o da lori Rust, apẹrẹ modulu, ati irinṣẹ ti o dara julọ, iṣeto yii rii daju pe node ati apamọwọ rẹ wa ni ọjọ iwaju-ṣetan bi ilolupo eda abemi Zcash tẹsiwaju lati dagbasoke.
+Ṣíṣípò láti zcashd sí Zebrad àti Zallet fún ọ ní ìrírí Zcash tó yá jù, tí ó dáàbò bò, tí o sì jẹ́ òde òní.
+Pẹlu aabo ti o da lori Rust, apẹrẹ modulu ati irinṣẹ to dara julọ, iṣeto yii ṣe idaniloju pe node rẹ ati apamọwọ wa ni ọjọ iwaju-ṣetan bi ilolupo eda abemi Zcash tẹsiwaju lati dagbasoke.
 
-Ìmọ̀ràn: Pa àwọn kókó àpamọ́ rẹ mọ́, kí o sì máa ṣe àtìlẹyìn àwọn ìsọfúnni Zallet rẹ déédéé.
-Lọ sí [zebra.zfnd.org](https://zebra.zfnd.org) àti [zallet.zfnd.org](https://zallet.zfnd.org) fún àtúnṣe àti ìtìlẹyìn àwùjọ.
+Ìmọ̀ràn: Pa àwọn kókó àpò rẹ mọ́ àti ṣe afẹyinti gbogbo ìsọfúnni Zallet.
+Ìbẹ̀wò [zebra.zfnd.org (ìkànnì)](https://zebra.zfnd.org) fún Zebra, àti [Ìwé Zallet](https://zcash.github.io/zallet/) tàbí àwọn tó wà nínú [Àkójọ àwọn ìsọfúnni nípa Zallet](https://github.com/zcash/zallet) fún Zallet. [Migrate from zcashd (ì í ì ë§ ê°)](https://zcash.github.io/zallet/) orí The Zallet Book ni ìwé tí a fi ń ṣe àlàyé fún ìgbésẹ̀ kẹfà.

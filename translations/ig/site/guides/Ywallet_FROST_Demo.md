@@ -1,4 +1,6 @@
-# Ihe ngosi Ywallet FROST
+# Ywallet FROST ngosi
+
+> **Ywallet is no longer maintained.** Its developer has confirmed it will not be updated for Ironwood (NU6.3), so it can no longer follow the chain and the steps below cannot be completed on mainnet. This page is kept for reference. Zkool, from the same developer, is the maintained successor and supports FROST multisig.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -12,9 +14,9 @@
 </div>
 
 
-## Nchịkọta FROST bins
+## Na-achịkọta igbe FROST .
 
-[Github njikọ](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+[Njikọ Github](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
 
 Jiri ụlọ nkwakọba ihe dị n'elu ma soro ntuziaka na nchịkọta: 
 
@@ -35,41 +37,41 @@ Bins ga-abụ folda a na-achọ.
 
 ## Tinye UFVK n'ime Ywallet
 
-Akaụntụ -> Pịa + na mado ufvk site na nzọụkwụ n'elu
+Akaụntụ -> Pịa + na mado ufvk site n'elu nzọụkwụ
 
 ## Mepụta azụmahịa na Ywallet
 
 Tinye UA ọ bụla ma zipụ tx. Chekwaa faịlụ ahụ.
 
-## Malite usoro ịbịanye aka FROST 
+## Malite usoro ịbịanye aka FROST . 
 
 `./signFROST_tx.sh rawtxs/mytx signedtxs/mysignedtx`
 
 mbụ input bụ ọnọdụ nke raw tx si nzọụkwụ n'elu
-ntinye nke abuo bu ebe na aha nke TX a bịanyere aka na ịchọrọ ịgbasa
-Nke a bụ ebe ị na-agwa FROST nke nkwekọrịta ị chọrọ ka mmadụ niile bịanye aka na ya
+ntinye nke abuo bu ebe na aha tx aka gi choro igbasa ozi n'igwe.
+Nke a bụ ebe ị na-agwa FROST nke nkwekọrịta ịchọrọ ka onye ọ bụla bịanye aka n'akwụkwọ ya.
 
 ## Malite Onye Nchịkọta
 
 `./runCoordinator.sh`
 
-Nke a na-ahazi mbinye aka nke onye ọ bụla so na ya ma mepụta akara ngosi otu
+Nke a na-ahazi mbinye aka nke onye ọ bụla so ma mepụta akara ngosi otu.
 
-## Mee ka onye ọ bụla sonyere banye maka azụmahịa a
+## Mee ka onye ọ bụla sonyere banye maka azụmahịa a.
 
 ```bash
 ./participantSign.sh key-package-1.json
 ./participantSign.sh key-package-2.json
 ```
 
-## Mezue azụmahịa a bịanyere aka na ya
+## Mezue azụmahịa e debanyere aha ya na- emechi .
 
-Na windo onye nhazi, detuo mbinye aka nke otu a na-ewepụta ma tinye ya n'ime windo mbinye FROST.
+Na windo onye nhazi, detuo mbinye aka nke otu a na-emepụta ma tinye ya n'ime window ntinye akwụkwọ FROST.
 Nke a ga-emecha akara FROST na mmepụta 'mysingedtx'
 
 
-## Zipu azụmahịa gị na Ywallet
+## Gosi azụmahịa gị na Ywallet
 
-Pịa 'More' n'akụkụ aka nri nke Ywallet wee chọta 'Broadcast'. Chọta 'mysignedtx' wee pịa ok.
+Pịa 'More' n'akụkụ aka nri ala nke Ywallet wee chọta 'Broadcast'. Chọọ 'mysignedtx' ma pịa ok.
 
-Ọ bụrụ na ihe niile na-arụ ọrụ ị ga-enweta ID azụmahịa :)
+Ọ bụrụ na ihe niile arụ ọrụ ị ga-enweta ID azụmahịa :)

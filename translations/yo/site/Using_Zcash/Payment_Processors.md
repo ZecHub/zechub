@@ -12,13 +12,13 @@ Atilẹyin fun awọn ohun-ini aṣiri yipada nigbagbogbo, nitorina ila kọọk
 
 | Processor | Custody | Shielded ZEC | Self-host | Merchant fee | Regions / KYC | Verified |
 |:--|:--|:--|:--|:--|:--|:--|
-[Ìdánilójú owó ẹyọ](https://www.cipherpay.app)  Kò sí ìpamọ́. Bẹẹni, Orchard nipasẹ Adirẹsi Aṣọpọ̀ Bẹẹ ni, orisun ṣiṣi 1% fun owo sisan kan, ọfẹ ti o ba jẹ pe ara ẹni gbalejo rẹ Ko si KYC, awọn agbegbe ko sọ 2026-07-29
-[Àgbàlá Bitcoin Pay](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)  Kò sí ìpamọ́, wíwo kókó nìkan. Bẹẹni, ààbò nikan (Sapling, Orchard, UA) Bẹ̀ ni, orísun ìmọ̀-ìmọ̀. Rárá o, ẹ san owó nẹtiwọki nìkan. Àgbáyé, kò ní KYC 2026-07-29
-[Máa lọ.](https://zgo.cash/) | Non-custodial | Yes, Sapling and Orchard | No, hosted service | Prepaid session, price not published | No KYC stated, regions not stated | 2026-07-29 |
-[Àtúnṣe ojú ìwé](https://flexa.co/) ☐ Owó tí àwọn oníbàárà fi sí àkáǹtì, owó ti òwò náà sì ń san ní ẹ̀rọ fiat. Àwọn oníbààrọ́ máa ń ná nǹkan láìsí ìdìbò kankan lórí rẹ̀, ẹni tó bá gbà á kò rí ìwé-ìwé kan nínú rẹ̀. Kò sí 1% fún gbogbo iye tí wọ́n bá ta. Orílẹ̀ èdè Amẹrika àti 37 lára àwọn orílẹ̀-èdè SEPA, ZEC ni EU a kò fìdí múlẹ̀ 2026-07-29
-[ÌFÍN Ìpèsè](https://nowpayments.io/supported-coins/zcash-payments)  Kò sí ìpamọ́ ní àṣeparí. Rárá, àdírẹ́sì tí ó ṣe kedere nìkan ni o wà. Ko si 0.5%, tabi 1% pẹ̀lú iyipada. Gbogbogbo ayafi ibi ti a fi òfin dè é, kò sí KYC láti bẹ̀rẹ̀ 2026-07-29
-[Plisio] Èmi náà ń ṣe é.](https://plisio.net/accept-zcash) | Custodial, despite marketing | Not documented | No | 0.5% API, 1.5% white label | No KYC to receive | 2026-07-29 |
-[Binance Pay] Ẹ jẹ́ kí á máa bá a lọ.](https://pay.binance.com/en) | Custodial, off-chain | No, shielded deposits rejected | No | Free wallet to wallet, 0.8% payouts | Geo-restricted, ZEC delisted in FR, ES, IT, PL | 2026-07-29 |
+| [CipherPay (ìdásílẹ̀)](https://www.cipherpay.app)  Kò sí ìpamọ́. Bẹẹni, Orchard nipasẹ Adirẹsi Aṣọpọ̀ Bẹẹ ni, orisun ṣiṣi 1% fun owo sisan kan, ọfẹ ti o ba jẹ pe ara ẹni gbalejo rẹ Ko si KYC, awọn agbegbe ko sọ 2026-07-29
+| [BTCPay Olùpèsè](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)  Kò sí ìpamọ́, wíwo kókó nìkan. Bẹẹni, ààbò nikan (Sapling, Orchard, UA) Bẹ̀ ni, orísun ìmọ̀-ìmọ̀. Rárá o, ẹ san owó nẹtiwọki nìkan. Àgbáyé, kò ní KYC 2026-07-29
+| [ZGo (ì í ì)](https://zgo.cash/) | Non-custodial | Yes, Sapling and Orchard | No, hosted service | Prepaid session, price not published | No KYC stated, regions not stated | 2026-07-29 |
+| [Flexa](https://flexa.co/) ☐ Owó tí àwọn oníbàárà fi sí àkáǹtì, owó ti òwò náà sì ń san ní ẹ̀rọ fiat. Àwọn oníbààrọ́ máa ń ná nǹkan láìsí ìdìbò kankan lórí rẹ̀, ẹni tó bá gbà á kò rí ìwé-ìwé kan nínú rẹ̀. Kò sí 1% fún gbogbo iye tí wọ́n bá ta. Orílẹ̀ èdè Amẹrika àti 37 lára àwọn orílẹ̀-èdè SEPA, ZEC ni EU a kò fìdí múlẹ̀ 2026-07-29
+| [Àwọn ìsanwó NOW Payments](https://nowpayments.io/supported-coins/zcash-payments)  Kò sí ìpamọ́ ní àṣeparí. Rárá, àdírẹ́sì tí ó ṣe kedere nìkan ni o wà. Ko si 0.5%, tabi 1% pẹ̀lú iyipada. Gbogbogbo ayafi ibi ti a fi òfin dè é, kò sí KYC láti bẹ̀rẹ̀ 2026-07-29
+| [Plisio (ìlú)](https://plisio.net/accept-zcash) | Custodial, despite marketing | Not documented | No | 0.5% API, 1.5% white label | No KYC to receive | 2026-07-29 |
+| [Owó Binance Pay](https://pay.binance.com/en) | Custodial, off-chain | No, shielded deposits rejected | No | Free wallet to wallet, 0.8% payouts | Geo-restricted, ZEC delisted in FR, ES, IT, PL | 2026-07-29 |
 
 </div>
 
@@ -55,7 +55,7 @@ Fun ẹnu-ọna ti o gbalejo nibiti awọn sisanwo ṣiṣanwọle ṣe itẹl�
 ## [CipherPay](https://www.cipherpay.app) <img src="/content-images/cipherpay-mark.png" alt="CipherPay logo" class="processor-logo" />
 - **Irú ìtìlẹyìn**: Aṣọ́ (Orchard, nípasẹ̀ Adirẹsi Àjọṣe)
 - Àpèjúwe: Gbígba Zcash ní ìṣẹ́jú, Kò sí ààbò, kò si oníbàárà kankan tí ó mọ̀ nípa rẹ̀, kò sì sí alákọ̀wé.
-- ** URL**: [CipherPay] (ì í ì ë¡ ê°)](https://www.cipherpay.app)
+- ** URL**: ì í ë ¤ì 'ë¦¬í ̧ê° [CipherPay (ìdásílẹ̀)](https://www.cipherpay.app)
 <img src="/content-images/cipherpay-mark.png" alt="CipherPay logo" width="200" hidden />
 
 O fún CipherPay ní kókó tí o lè rí nìkan, kí owó náà sì lọ sí àpamọ́ rẹ kò fi gba àwọn ìnáwó kankan. Ó máa ń lo àdírésì tuntun fún gbogbo ìwé-ìwé ọ̀fẹ́.
@@ -75,18 +75,18 @@ ohun méjì láti gbé yẹ̀ wò. ó ti jáde ní oṣù kejì ọdún 2026 kò
 ## [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) <img src="/content-images/btcpay-mark.png" alt="BTCPay Server logo" class="processor-logo" />
 - **Irú ìtìlẹyìn**: Aṣọ́ nìkan (Sapling, Orchard, Unified Address)
 - **Àpèjúwe**: BTCPay Server jẹ àlẹmọ̀ ìmọ, ti ara-gbalejo cryptocurrency owo isise.
-- ** URL**: [Oríṣiṣẹ́ BTCPay](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
+- ** URL**: ì í ë ¤ì 'ë¦¬í ̧ê° [BTCPay Olùpèsè](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
 <img src="/content-images/btcpay-mark.png" alt="BTCPay Server logo" width="200" hidden />
 
 Àṣàyàn tó lágbára jùlọ lórí ìpamọ́. Ìsọ̀rí àpò-ìwé rẹ jẹ wíwo nìkan, kò sì ní irúgbìn tàbí kókó àṣírí kankan, nítorí náà kódà àwọn olùgbàrá tí wọ́n ti ṣe jàǹbá ò lè ná owó yín.
 
 Aṣọ́ nìkan, tó bo Sapling, Orchard àti Adirẹsi Àjọpọ̀. Kò sí ààbò tí ó ṣe kedere, nítorí náà má ṣètò ní ìtòsí ẹyọ kan.
 
-Lati fi sori ẹrọ o nilo btcpay-zcash Docker forklift lori feat/zec ẹka, pẹlu bọtini wiwo ti a gbe jade lati apamọwọ kan bii Ywallet tabi Zingo. Nipa aiyipada o ba sọrọ si lightwalletd latọna jijin, tabi o le ṣiṣe Zebra ati lightwallettd funrararẹ .
+Lati fi sori ẹrọ o nilo btcpay-zcash Docker forklift lori feat/zec ẹka, pẹlu a wiwo bọtini okeere lati apamọwọ bi Zkool tabi Zingo. Nipa aiyipada ti o sọrọ si lightwalletd latọna jijin, tabi o le ṣiṣe Zebra ati lightwallettd ara rẹ.
 
 Ìdánwò kan láti mọ̀ nípa: àfikún náà ńlo apamọwọ Zcash kan fún gbogbo ilé ìtajà lórí ẹyọ, nítorí náà má ṣe fi ṣiṣẹ́ ní orí àwọn ohun-èlò tí a pín. Àwòrán owó onílé-ìjàtà ni wọ́n ti n ṣiṣẹ́ lé e lọ́wọ́ báyìí.
 
-Kò sí owó fún ẹ̀rọ náà fúnra rẹ. O sanwó ìsopọ́ Zcash àti ohunkóhun tí ó jẹ mọ́ àtìlégbé yín.
+Kò sí owó fún ẹ̀rọ náà fúnra rẹ. O sanwó ìsopọ́ Zcash àti ohunkóhun tí ó jẹ mọ́ àtìléyìn ilé-ìtura yín.
 
 ** Àtúnyẹ̀wò ìkẹyìn:** 2026-07-29
 
@@ -95,7 +95,7 @@ Kò sí owó fún ẹ̀rọ náà fúnra rẹ. O sanwó ìsopọ́ Zcash àti oh
 ## [ZGo](https://zgo.cash/) <img src="/content-images/zgo-prp2-497679039b.webp" alt="ZGo logo" class="processor-logo" />
 - **Support Type**: Shielded (Sapling and Orchard)
 - **Àpèjúwe**: ZGo jẹ́ ètò ìsanwó orí ẹ̀rọ tí ó ń lọ tààrà láti ọ̀dọ̀ oníbàárà rẹ sí ìwọ, láìsí ẹnikẹta tó wà nídìí.
-- ** URL**: [ZGo](https://zgo.cash/)
+- ** URL**: ì í ë ¤ì 'ë¦¬í ̧ê° [ZGo (ì í ì)](https://zgo.cash/)
 <img src="/content-images/zgo-prp2-497679039b.webp" alt="ZGo logo" width="200" hidden />
 
 A till o ṣiṣe ni a aṣàwákiri, ki kan laptop, tabulẹti tabi foonu di awọn owo. nibẹ jẹ tun ohun WooCommerce afikun ati REST API. ti wa ni itumọ nipasẹ Vergara Technologies ati fifun nipa Zcash Community Grants, pẹlu awọn gbigbe lati zcashd to Zebra .
@@ -115,12 +115,12 @@ Kò sí ìnáwó kankan. ZGo ń ta àwọn ìpàdé tí wọ́n ti san owó fún
 ## [Flexa](https://flexa.co/) <img src="/content-images/flexa-mark.png" alt="Flexa logo" class="processor-logo" />
 - **Irú ìtìlẹyìn**: Àwọn oníbàárà ń náwó láìsí ààbò, àwọn tó gba owó náà kò ní ìwé-ìwé kankan.
 - **Àpèjúwe**: Flexa jẹ́ àkànṣe ìsanwó tí ó ń jé kí àwọn oníbàárà ná owó orí, títí kan Zcash ní ilé-ìtajà láti inú apamọwọ ti ara ẹni.
-- ** URL**: [Flexa ì í ë ¤ì 'í ̧ë¦¬ê° êμ¬](https://flexa.co/)
+- ** URL**: ì í ë ¤ì 'ë¦¬í ̧ê° [Flexa](https://flexa.co/)
 <img src="/content-images/flexa-mark.png" alt="Flexa logo" width="200" hidden />
 
 Flexa kìí ṣe àyè ìsanwó, nítorí náà kì í se pàṣípààrọ̀ fún àwọn yòókù níbí. Olówò ṣí apamọwọ tí ó jẹ́ kí Flexa ṣiṣẹ bí Zodl, fi kóòdì ìgbà kan hàn, ilé-ìtajà sì ṣàyẹ̀wò rẹ̀. Kò sí ìwé owó ZEC àti kò sí ohun èlò e-commerce kankan.
 
-àwọn oníbàárà máa ń ní owó ẹyọ wọn títí tí wọ́n á fi sanwó. ìwọ gẹ́gẹ́ bí oníṣòwò kò rí ZEC gbà rárá. flexa yóò bá ọ yan owó náà, nítorí náà ọwọ́ rẹ ni a ó sì gbé apá ti crypto sí.
+The customer keeps their own coins until the moment they pay. You as the merchant never receive ZEC. Flexa settles with you in the currency you choose, so the crypto side is handled by them.
 
 Flexa's own announcement describes the Zcash integration as paying with shielded ZEC. Ohun ti adirẹsi iru gba to Flexa ni ko si ibi kan wa atejade.
 
@@ -135,7 +135,7 @@ O ṣiṣẹ ni Amẹrika ati, lati Oṣu Keje ọdun 2026, ni awọn orilẹ-ed
 ## [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) <img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments logo" class="processor-logo processor-logo-wide" />
 - **Irú ìtìlẹyìn**: Ìríjú nìkan ni.
 - **Àpèjúwe**: NOWPayments jẹ́ ẹnu ọ̀nà ìsanwó crypto tí ó fún àwọn oníṣòwò láàyè láti gba owó Zcash àti ọrẹ ni rọọrun.
-- **URL**: [NÍGBÀYínà àwọn ìsanwó](https://nowpayments.io/supported-coins/zcash-payments)
+- ** URL**: ì í ë ¤ì 'ë¦¬í ̧ê° [Àwọn ìsanwó NOW Payments](https://nowpayments.io/supported-coins/zcash-payments)
 <img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments logo" width="200" hidden />
 
 Ko si atilẹyin aabo. iwe aṣẹ wọn sọ fun ọ lati ṣeto adirẹsi ṣiṣanwọle kan fun Zcash, ati pe ZEC nikan ni owo ti wọn yan ọna yẹn. gbogbo isanwo ti o gba jẹ gbangba lori blockchain.
@@ -153,7 +153,7 @@ O ko nilo KYC lati bẹrẹ gbigba crypto, nikan lati yọ owo fiat.
 ## [Plisio](https://plisio.net/accept-zcash) <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" class="processor-logo processor-logo-wide" />
 - **Irú ìtìlẹyìn**: Òróró (kò sí àkọsílẹ̀)
 - **Àpèjúwe**: Plisio jẹ́ ìlẹ̀kùn owó-ìṣírò tí ó ń fún àwọn ilé iṣẹ́ láyè láti gba owo Zcash.
-- ** URL**: [Plisio] Ìpínlẹ̀ Òkun Àríwá.](https://plisio.net/accept-zcash)
+- ** URL**: ì í ë ¤ì 'ë¦¬í ̧ê° [Plisio (ìlú)](https://plisio.net/accept-zcash)
 <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" width="200" hidden />
 
 Ṣe itọju rẹ bi iṣọra. Titaja Plisio pe ni kii ṣe idaduro, ṣugbọn awọn oju-iwe iranlọwọ tirẹ ṣalaye awọn iwontunwonsi ti o wa lori pẹpẹ, ibi ipamọ tutu ati ilana yiyọ kuro kan. Ibeere naa ko le jẹrisi.
@@ -171,7 +171,7 @@ O kò nílò KYC láti gba owó, a ò sì tẹ àkọsílẹ̀ àwọn orílẹ�
 ## [Binance Pay](https://pay.binance.com/en) <img src="/content-images/binancepay-mark.png" alt="Binance Pay logo" class="processor-logo" />
 - **Irú ìtìlẹyìn**: Àwọn àpò tí ó ní òó-òun nìkan ni a kọ sílẹ̀, àwọn àpò tó wà lábẹ́ ìdènà.
 - **Àpèjúwe**: Binance Pay jẹ́ ìkànnì tí ó ń sanwó owó-ìpamọ̀ tó n ṣe àtìlẹyìn fún àwọn sisan Zcash.
-- ** URL**: [Isanwo Binance] (ìyẹn owó ìtanràn)](https://pay.binance.com/en)
+- ** URL**: ì í ë ¤ì 'ë¦¬í ̧ê° [Owó Binance Pay](https://pay.binance.com/en)
 <img src="/content-images/binancepay-mark.png" alt="Binance Pay logo" width="200" hidden />
 
 Binance kọ ZEC ti a firanṣẹ lati awọn adirẹsi aabo. Idaduro yẹn ni idi ti wọn fi ṣẹda awọn adiresi TEX.

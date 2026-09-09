@@ -8,22 +8,22 @@ Díẹ̀ lára àwọn tó ń ṣiṣẹ́ lókè yìí rèé:
 
 Blog / Author  Àlàyé ìjápọ̀ 
 |----------------------------|----------------------------------------------------------|------|
- Bawo ni Zcash ṣe n ṣiṣẹ. Ṣẹda awoṣe iṣẹ ti Zcash [Lọ si ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
-Max Desalle: Mímọ Zcash. [Láti ṣàbẹwò ->](https://maxdesalle.com/mastering-zcash/) |
-Mike Rosulek: Ìdùnnú nínú ẹ̀kọ́ nípa ìdìwé-ìmọ̀ [Lọ sí ->](https://joyofcryptography.com/) |
-James Katz Àwọn ìwé àti èrò ti ara ẹni lórí Zcash àti ìpamọ́ [Wá -> Àwòrán ojúewé](https://free2z.cash/James_Katz/) |
- Ìpínlẹ̀ ìka. Àwọn àtúnṣe àti àwọn òye tí ó wà nípamọ́ nípa ètò-ayé [Láti ṣàbẹwò ->](https://thumbsup.substack.com) |
-[Wá sí -> Àwòrán-ìpínlẹ̀](https://free2z.cash/roommatemusing) |
- NerdBank Blog. Technical blog focused on Zcash development and tools [Wá sí -> Àtúnṣe ojúewé](https://blog.nerdbank.net/) |
-Thor fẹ́ràn Ìròyìn, èrò àti àlàyé lórí Zcash [Lọ sí ->](https://www.thorlikes.com/) |
- ZecMec Zcash-focused articles on Medium [Wá sí -> Àwọn ojúewé tó jápọ̀ mọ́ "Z" àti "Cash"](https://zecmec21.medium.com/) |
-Ian Sagstetter Àwọn àpilẹ̀kọ tó jinlẹ̀ àti ìwé ìròyìn [Lọ́wọ́ ->](https://iansagstetter.substack.com/) |
-Naomi Brockwell (NBTV) Àwọn ìfòhùnwérò tó gbajúmọ̀ àti àwọn ohun tí ó ní í ṣe pẹlú àṣírí [Lọ́ ->](https://naomibrockwell.com/highprofileinterviews) |
-Sqribbles ìmúdàgba àti àwùjọ-ìdarí Zcash àkójọpọ̀ [Wá ->](https://free2z.cash/sqribbles) |
- Str4d  Àwọn ìwé tí ó jẹ́ ti ẹ̀rọ láti ọ̀dọ̀ olùdàgbà Zcash core [Wá ->](https://words.str4d.xyz/) |
- CipherScan Weekly. Àwọn ìlépa ọ̀sẹ̀ lórí àtúnyẹ́wò blockchain Zcash [Wá ->](https://cipherscan.app/) |
-Zcash Shielded News Ìròyìn ọ̀sọ̀ọ̀sẹ̀ nípa ìpamójú àti ètò àyíká [Láti wo -> Àwòrán tó wà nísàlẹ̀](https://zechub.wiki) |
- ZecHub DAO Blog. Àwọn àpilẹ̀kọ àti ìsọfúnni láti inú àwùjọ àwọn olùṣàmúlò fún ẹ̀ka-ìmọ́ nípa ètò ìṣiṣẹ́ tí a ṣe ní Zechub [Lọ sí ->](https://zechub.wiki) |
+ Bawo ni Zcash ṣe n ṣiṣẹ. Ṣẹda awoṣe ti o nṣiṣẹ ti Zcash. [Ìbẹ̀wò ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
+Max Desalle: Mímọ Zcash dáadáa. [Ìbẹ̀wò ->](https://maxdesalle.com/mastering-zcash/) |
+Mike Rosulek: Ayọ̀ nínú ẹ̀kọ́ ìkọ̀wé-ìmọ̀ràn. [Ìbẹ̀wò ->](https://joyofcryptography.com/) |
+James Katz: Àwọn ìwé àti èrò ti ara ẹni lórí Zcash àti ìpamọ́. [Ìbẹ̀wò ->](https://free2z.cash/James_Katz/) |
+| Thumbs' Update             | Regular ecosystem updates and insights                   | [Ìbẹ̀wò ->](https://thumbsup.substack.com) |
+| roomatemusing              | Musings and community content                            | [Ìbẹ̀wò ->](https://free2z.cash/roommatemusing) |
+ NerdBank Blog. Ìwé-ìmọ̀ ẹ̀rọ tí ó dá lórí ìdàgbàsókè àti àwọn irinṣẹ́ Zcash [Ìbẹ̀wò ->](https://blog.nerdbank.net/) |
+Thor fẹ́ràn Ìròyìn, èrò àti àlàyé lórí Zcash. [Ìbẹ̀wò ->](https://www.thorlikes.com/) |
+ZecMec Àwọn àpilẹ̀kọ tó dá lórí Zcash ní Medium. [Ìbẹ̀wò ->](https://zecmec21.medium.com/) |
+Ian Sagstetter: Àwọn àpilẹ̀kọ tó jinlẹ̀ àti ìwé ìròyìn. [Ìbẹ̀wò ->](https://iansagstetter.substack.com/) |
+Naomi Brockwell (NBTV) Àwọn ìfòhùnwánilẹ́nuwò tó gbajúmọ̀ àti àwọn ohun tí ó wà nínú rẹ̀ nípa àṣírí ara ẹni. [Ìbẹ̀wò ->](https://naomibrockwell.com/highprofileinterviews) |
+| Sqribbles                  | Creative and community-driven Zcash content              | [Ìbẹ̀wò ->](https://free2z.cash/sqribbles) |
+ Str4d: Àwọn ìwé tí olùdàkọ Zcash kọ nípa ẹ̀rọ-ìmọ́. [Ìbẹ̀wò ->](https://words.str4d.xyz/) |
+ CipherScan Weekly. Àwọn ìlépa ọ̀sẹ̀ lórí àtúnyẹ́wò blockchain Zcash [Ìbẹ̀wò ->](https://cipherscan.app/) |
+Zcash Shielded News Ìròyìn nípa ìpamọ́ àti ètò àyíká lọ́sòṣù. [Ìbẹ̀wò ->](https://zechub.substack.com/) |
+ ZecHub DAO Blog. Àwọn àpilẹ̀kọ àti ìsọfúnni láti inú àwùjọ àwọn olùṣàmúlò fún ètò ìdániléèwé tí ó wà nílẹ̀-èdè wa, Zechub DAO community. [Ìbẹ̀wò ->](https://zechub.wiki) |
 
 ---
 

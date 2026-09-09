@@ -4,7 +4,7 @@
 
 # FROST & Nchebe nke Threshold maka ZEC Shielded
 
-> Maka nkọwa zuru ezu nke usoro nzuzo FROST, lee [peeji teknụzụ Frost](FROST.md).
+> Maka nkọwa zuru ezu nke usoro nzuzo FROST, lee akwụkwọ ozi ahụ. [Ibe akwukwo nke FROST](FROST.md).
 
 FROST na-echekwa ihe n'elu mkparịta ụka Zcash  ọ bụ ụzọ kachasị elu na ZecHub Hackathon 2026  mana a naghị akọwa echiche ahụ mgbe niile. Peeji a kpuchitere ihe ọ pụtara, mgbe ịchọrọ ya n'ezie, azụmahịa azụmaahịa, yana ngwaọrụ ndị kwadoro ya taa.
 
@@ -94,8 +94,8 @@ FROST maka Zcash echedoro bụ ihe ọhụrụ. IETF ọkọlọtọ (draft-irtf
 ### Zcash Foundation — frost.zfnd.org
 Zcash Foundation ebuputara mmejuputa FROST na ebe ngosi. Nke a bụ ntinye aka eji eme ihe maka ule na mmepe.
 
-### YWallet FROST Ihe ngosi
-YWallet (akpa ego Zcash dị elu) nwere ntinye ngosi FROST n'oge. Lee [YWallet Frost Demo Guide](/guides/Ywallet_FROST_Demo) maka ntuziaka nzọụkwụ site na nkwụsị.
+### Ywallet FROST Ihe ngosi
+Ywallet nwere mmalite FROST demo mwekota, na-aga site n'ime ihe ndị dị ka afọ iri abụọ gara aga. [Ywallet FROST Ntuziaka ngosi](/guides/Ywallet_FROST_Demo). Ywallet anaghịzi edobe ya ma agaghị emelite maka Ironwood, n'ihi ya gụọ ntuziaka ahụ dị ka ndabere kama ịbụ ihe ị ga-agba ọsọ taa. Zkool, site na otu onye mmepe ahụ, bụ onye nọchiri anya echekwara yana depụtara FROST multisig n'etiti atụmatụ ya.
 
 ### ZecHub Hackathon 2026 — FROST Track Projects
 
@@ -143,17 +143,16 @@ Ebe mmalite dị irè maka ọtụtụ ìgwè: **2-nke-3** (na-eguzogide, nhazi 
 
 ## Peeji ndị metụtara ya
 
-- [FROST — Technical Deep Dive](FROST.md)  nkọwapụta nke usoro (DKG, agba akaebe, ihe nchedo)
-- [YWallet FROST Ntuziaka ngosi](/guides/Ywallet_FROST_Demo)  nzọụkwụ site na-nzọụkwụ aka on ngosi
-- [Ihe ngosi FROST (ihe ngosipụta nke oyi) ](/guides/ywallet-frost-demo)  Nnyocha ngosi nke Zcash Foundation
-- [Ịhụ Igodo](Viewing_Keys.md)  naanị-agụ ohere na ezoro ezo adreesị (complementary ka ịgba njide)
-- [Zcash Shielded Assets] (Nke a bụ ihe ndị ọzọ)](Zcash_Shielded_Assets.md)  FROST bụkwa isi ihe eji emepụta ZSA
+- [FROST  Ntinye miri emi nke teknụzụ.](FROST.md)  nkọwapụta nke usoro (DKG, agba akaebe, ihe nchedo)
+- [Ywallet FROST Ntuziaka Nlele](/guides/Ywallet_FROST_Demo)  ndabere, Ywallet anaghịzi edobe ya.
+- [Igodo Nlele](Viewing_Keys.md)  naanị-agụ ohere na ezoro ezo adreesị (complementary ka ịgba njide)
+- [Akụ Zcash Echebe](Zcash_Shielded_Assets.md)  FROST bụkwa isi ihe eji emepụta ZSA
 
 ## Akụnụba
 
-- [Nchọpụta FROST (Komlo & Goldberg, 2020) ](https://eprint.iacr.org/2020/852.pdf)
-- [IETF FROST ọkọlọtọ draft (draft-irtf-cfrg-frost) ](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/)
-- [Zcash Foundation FROST mmejuputa iwu](https://frost.zfnd.org)
-- [Chelsea Komlo  Gịnị bụ Nkwekọrịta Mgbapụta? (Zcon3) ](https://youtu.be/cAfTTfblzoU?t=110)
-- [Coinbase  Ọnụ ọgụgụ dị elu nke Digital Signatures](https://www.coinbase.com/blog/threshold-digital-signatures)
-- [ROAST  Ike Async Schnorr Nkwekọrịta Signatures (Blockstream) ](https://eprint.iacr.org/2022/550.pdf)
+- [Akwụkwọ nyocha FROST (Komlo & Goldberg, 2020)](https://eprint.iacr.org/2020/852.pdf)
+- [IETF FROST ọkọlọtọ draft (draft-irtf-cfrg-frost)](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/)
+- [Zcash Foundation mmejuputa FROST](https://frost.zfnd.org)
+- [Chelsea Komlo  Gịnị bụ Nkwekọrịta? (Zcon3)](https://youtu.be/cAfTTfblzoU?t=110)
+- [Coinbase  Ntinye aka dijitalụ nke threshold](https://www.coinbase.com/blog/threshold-digital-signatures)
+- [ROAST  Async Schnorr Threshold Signatures siri ike (Blockstream)](https://eprint.iacr.org/2022/550.pdf)

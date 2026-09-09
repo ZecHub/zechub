@@ -25,7 +25,7 @@ This guide focuses on mining Zcash using personal hardware (e.g., a home PC with
   - Maka GPUs: lolMiner (na-akwado AMD/NVIDIA), GMiner, ma ọ bụ miniZ (n'ilekwasị anya na NVIDIA). Download site n'aka ndị ọrụ GitHub repositories (dịka ọmụmaatụ, github.com/Lolliedieb/lolMiner-releases)
   - Maka ASICs: Jiri onye nrụpụta wuru na firmware / dashboard (dịka ọmụmaatụ, Bitmain si web interface).
 - ** Wallet:** Akpa ego Zcash iji nata ịkwụ ụgwọ. Na-atụ aro ya:
-  - Echebe (nkeonwe): Zodl Wallet, Zingo (Mobile/Desktop) YWallet (mobile/desktop).
+  - Echebe (nkeonwe): Zodl Wallet, Zingo (Mobile/Desktop), Zkool (mobile/desktop).
   - Ihe na-enweghị ihe ọ bụla (dị mfe ma obere nzuzo): Edge Wallet, Zecwallet Lite.
   - Nbudata site na ebe a: [obere akpa ego](https://zechub.wiki/wallets). Mepụta adreesị echedoro (na-amalite na 'zs') maka nzuzo ma ọ bụrụ na ọdọ mmiri ahụ kwadoro ya.
 

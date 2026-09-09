@@ -209,7 +209,7 @@ Neno. Ufafanuzi.
 
 Neno. Ufafanuzi.
 |------|-----------|
-| Wallet | Software or hardware that stores private keys and lets you send/receive ZEC. Active wallets include ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android), YWallet, Zallet (upcoming), and Keystone (hardware). For a full list, see [Zcash Ecosystem Wallets (Mifuko ya Fedha)](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+Duka la fedha. Programu au vifaa ambavyo huhifadhi funguo za kibinafsi na hukuruhusu kutuma/kupokea ZEC. Pochi zenye kazi ni pamoja na ZODL (iOS / Android), Zingo! (simu ya mkononi / desktop), Nighthawk (Android), Zkool (samu ya mkondoni / kompyuta), Zallet (inayofuata) na Keystone (vifaa). Kwa orodha kamili, angalia: [Zcash Ecosystem Wallets (Mifuko ya Fedha)](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 WebZjs. kwanza JavaScript SDK kwa Zcash, kujengwa na ChainSafe kwa mazingira ya kivinjari. Ni underpins Zcash Shielded Wallet snap kwamba alileta shielded ZEC MetaMask.
 
 ## X

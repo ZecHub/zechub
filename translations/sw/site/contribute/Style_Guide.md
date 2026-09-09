@@ -1,47 +1,47 @@
 # ZecHub Mwongozo Style
 
-Mtindo wa ZecHub ni rahisi na inapatikana. Tunakaribisha kila mtu na kuzingatia jamii ya Zcash.
+Mtindo wa ZecHub ni rahisi na inapatikana. Tunakaribisha kila mtu na kuzingatia jamii ya Zcash .
 
-## Kanuni
+## Kanuni za Kufuata
 
-1. ** Tayari kusaidia ** - Onyesha watumiaji wa Zcash kwamba tuko upande wao.
+1. ** Tayari kusaidia** - Onyesha watumiaji wa Zcash kwamba tuko upande wao.
 
-2. Fupi na kwa uhakika: Toa ujumbe rahisi iwezekanavyo. Anza na jambo muhimu zaidi.
+2. ** Kwa ufupi na kwa uhakika:** Toa ujumbe rahisi iwezekanavyo. Anza na jambo muhimu zaidi.
 
-3. ** User-centered:** Sisi kuandika kwa ajili ya watumiaji wa kwanza, watengenezaji pili, na kila mtu mwingine wa tatu.
+3. ** User-centered:** Sisi kuandika kwa watumiaji wa kwanza, watengenezaji pili, na kila mtu mwingine tatu.
 
 ## Mambo ya Msingi
 
-- **Kupata kwa uhakika**. Kuanza na hatua muhimu zaidi. Front-load maneno kwa ajili ya skimming. Kufanya chaguzi za mtumiaji na hatua zifuatazo wazi.
+- **Kupata kwa uhakika**. Kuanza na hatua muhimu zaidi. Front-load maneno kuu ya skimming. kufanya chaguzi za mtumiaji na hatua zifuatazo wazi.
 
-- Watumiaji wetu ni watu halisi. Kuzungumza nao kwa maandishi.
+- **Andika kama wewe kuzungumza** Watumiaji wetu ni watu halisi. Kuzungumza nao kwa maandishi.
 
-- ** Kuwa mfupi **. Kutoa watumiaji habari ya kutosha kwa ajili yao ili kutatua tatizo au kufanya uchaguzi.
+- ** Kuwa mfupi**. Kutoa watumiaji habari ya kutosha kwa ajili yao ili kutatua tatizo au kufanya uchaguzi.
 
-- **Skip periods in titles**. Remove the end punctuation on titles, headings, subheads, UI titles, and list items with three or fewer words. Periods are used in paragraphs and body copy.
+- ** Punguza vipindi katika majina**. Ondoa alama ya mwisho kwenye vichwa, kichwa cha habari, vifungu vidogo vya makala, na orodha za vitu vyenye maneno matatu au chini yake. Kipindi hutumiwa kwa aya na nakala ya mwili.
 
-  - Mifano: Bonyeza kitufe cha kutuma-> Bonyeza kifungo cha Kutuma
+  - Mifano: Bonyeza kitufe cha Tuma->Bonyeza Kitufe cha Tuma
 
-- **Wakati wa shaka, epuka capitalization**. Tu capitalize majina binafsi au majina kama Zcash, pamoja na neno la kwanza la kichwa au kifungu.
+- ** Wakati wa shaka, epuka capitalization**. Tu mtaji majina au majina kama Zcash, pamoja na neno la kwanza ya kichwa cha habari au kifungu.
 
   - Examples: How to Send ZEC with Unified Address. → How to send ZEC with unified address
 
-- ** Rewrite kuandika dhaifu **. Wakati mwingi, kuanza kila taarifa na kitenzi. Unaweza na kulikuwa lazima marekebisho.
+- ** Rewrite kuandika dhaifu**. Wakati mwingi, kuanza kila taarifa na kitenzi. Unaweza na kulikuwa lazima marekebisho.
 
-  - Mifano: Unaweza kutuma na kupokea ZEC kutoka simu yako ya mkononi-> Kutuma na kupata ZEC na simu yako
+  - Mifano: Unaweza kutuma na kupokea ZEC kutoka simu yako ya mkononi-> Kutuma na kupata ZEC kwa njia ya simu yako
 
 - Tumia nafasi moja tu baada ya vipindi na colon.
 
-- ** Epuka maneno yasiyo ya Kiingereza ** kama vile de facto au ad hoc. Epuka vifupisho vya Kilatini vya misemo ya kawaida ya Kifaransa.
+- ** Epuka maneno yasiyo ya Kiingereza** kama vile de facto au ad hoc. epuka vifupisho vya Kilatini vya misemo ya kawaida ya Kifaransa.
 
     Tumia hii badala ya hii.
     |-------------|-----------------|
-    Kwa mfano.
-    Hiyo ni... yaani...
+    Kwa mfano. kwa mfano.
+    Hiyo ni... yaani.
 
-## Tweets
+## Tweets za Twitter
 
-> Mwongozo huu wa mtindo wa jumla ni kwa ajili ya kuandika makala au mwongozo wa mtumiaji kwa ZecHub. Kwa tweets au taarifa fupi, kutumia [tweets style guide](./tweets.md).
+> Mwongozo huu wa kawaida ni kwa ajili ya kuandika makala au mwongozo user kwa ZecHub. Pia inatumika kwa tweets na taarifa nyingine fupi: kuwaweka mfupi, mbele-kupakia uhakika, na ruka mwisho alama za kuashiria juu ya mistari mafupi.
 
 ---
 

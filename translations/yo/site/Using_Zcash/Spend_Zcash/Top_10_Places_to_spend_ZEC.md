@@ -33,11 +33,11 @@ Ní pàtàkì, ní Venezuela, àwọn ibi kan wà (àwọn ibìkan tí ó ṣeé
 
 </aside>
 
-[**Iṣẹ́ oúnjẹ - Iṣẹ́ búrẹ́dì àti Ṣókóláìtì*] 
+[**Oúnjẹ - Ìpèsè àti Ṣókólá**] 
 
 1.  **Sheila Vargas** Foodie Blogger Oníṣòwò Olùdarí Àgbàṣe Ìdánilẹ́kọ̀ọ́ Ẹgbẹ́ àwọn òṣìṣẹ́ tó ń ṣe àkànlò èdè, ẹgbẹ́ olùkópa àti àjọ-ẹlẹsẹ. 
 
-[@SheEmprende_ lórí Ìkànnì Àjọṣe](https://www.sheemprende.com/enlaces-sheemprende/)O gun ori igbesẹ ọpẹ si olokiki rẹ (ati ti o dun) **[Galletas de la FeliZidad](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
+[@SheEmprende_ lórí Ìkànnì Àjọṣe Orí-Èdè.](https://twitter.com/SheEmprende_)O gun si ipele ọpẹ si olokiki rẹ (ati ti o dun) **[Galletas de la FeliZidad (ìyẹn àwọn oúnjẹ tí inú wọn dùn)](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
 
 Yàtọ̀ sí àwọn búrẹ́dì rẹ, ó tún ní àwọn iṣẹ́ mìíràn tó ń ṣe àti èyí tí o dára jùlọ nínú gbogbo wọn ni: O lè fi ZEC sanwó!
 
@@ -61,7 +61,7 @@ Nítorí náà, bí o bá jẹ́ ẹ̀dá búrẹ́dì..,
 
 ní báyìí o mọ ibi tó yẹ kóo ná ZEC rẹ sí!
 
-Ìkànnì: Sheemprende.com](http://Sheemprende.com) 
+Ojú-ìkànnì sheemprende.com ti di èyí tí kò lè ṣe àtúnṣe sí, ẹ kàn án lórí ìkànnì rẹ̀: [Free2z (ì ì í ë ¤)](https://free2z.cash/SheEmprende) | [Àtẹ X](https://twitter.com/SheEmprende_)
 
 **Zcash Unified Address:** 
 
@@ -85,9 +85,9 @@ Rosa rẹ́rìn-ín músẹ́, ó sì fi hàn pé òun gbà láti gba owó Zcash. 
 
 ![Screenshot_20230829-232755.png](/content-images/_unavailable.svg)
 
-Ìkànnì: [https://somosdulceros.com/](https://somosdulceros.com/) 
+**Ojú-ìkànnì**: somosdulceros.com ti fẹ̀yìn tì, kò sì tún ní ìtumọ̀ mọ́. Lo àwọn ìjápọ̀ àjọlò tó wà lókè yìí.
 
-Àwọn ìkànnì àjọlò: Instagram [Instagram](https://www.instagram.com/somos_dulceros) [Àpótí X](https://twitter.com/RosaMRangel) [ì§ ì í ©í2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
+Àwọn ìkànnì àjọlò orí ayélujára:** [Instagram: Àwọn ojúewé wọ̀nyí wà nínú ìkànnì yìí:](https://www.instagram.com/somos_dulceros) | [Àtẹ X](https://twitter.com/RosaMRangel) | [Free2z (ì ì í ë ¤)](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
 **Zcash Unified Address:** 
 
@@ -97,7 +97,7 @@ u12vp85edmrkqy9uvall4wqqn2s9fx8nm5phsxu2nyme5yh8hn5xh8mv3qgunynskjy3t0w89234a83r
 
 ---
 
-[Ìdánilẹ́kọ̀ọ́] Àṣà: Ẹgbẹ́ Òṣèré Ìpínlẹ̀ Ọyọ.
+[Àwòrán ìṣẹ̀dá, àwọn olùṣètò ayẹyẹ.
 
 1. Àwọn ìwé tí a fi àwọ̀ ṣe, látọ̀dọ̀ Elizabeth B.
 
@@ -125,9 +125,9 @@ Ohun kan tó yàtọ̀, tí kò sì láfiwé? Àpótí ìléwọ́ tẹlifóònù
 
 Àwọn ìkànnì àjọlò orí ayélujára (Social media) 
 
-[Ìkànnì Instagram](https://instagram.com/papelesacolor) [ì§ ì í ©í2z](https://free2z.cash/PapelesaColor) 
+[Instagram: Àwọn ojúewé wọ̀nyí wà nínú ìkànnì yìí:](https://instagram.com/papelesacolor) | [Free2z (ì ì í ë ¤)](https://free2z.cash/PapelesaColor) 
 
-[Àpótí ìjápọ̀](https://linktr.ee/Papelesacolor)
+[Igi ìsopọ̀ (linktree)](https://linktr.ee/Papelesacolor)
 
 **Zcash Unified Address** 
 
@@ -137,7 +137,7 @@ u1u7unmxgr6efh0l94hz0ag6zku4rjeuuarhql5xsnt744e2lu0dsmhrye5a6mlahw067atgh6x0ykax
 
 ---
 
-[Ìkópa Ìjọ  Òwò orí Íńtánẹ́è̀tì  Àwòrán-ayárabíàṣá]**
+**[Ìkọ́lé àwùjọ  Òwò orí ẹ̀rọ  Àwòrán ìkànnì ayélujára [Video]**
 
 1. ** Àwọn Òṣìṣẹ́ Àkọsílẹ̀ Oríṣun àwòrán, Venezuela**
 
@@ -155,7 +155,7 @@ u1u7unmxgr6efh0l94hz0ag6zku4rjeuuarhql5xsnt744e2lu0dsmhrye5a6mlahw067atgh6x0ykax
 
 Àwọn ìkànnì àjọlò orí ayélujára:** 
 
-[Ìkànnì Instagram](https://instagram.com/emprendedorasdigitalesve) [Àtẹ ìjókòó](https://twitter.com/EmpreDigiVE) [Ìsọfúnni nípa tẹlifíṣọ̀n](https://t.me/emprendedorasdigitalesve) [Àjọ LinkedIn](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
+[Instagram: Àwọn ojúewé wọ̀nyí wà nínú ìkànnì yìí:](https://instagram.com/emprendedorasdigitalesve) |  [Ètò ìsọ̀rí](https://twitter.com/EmpreDigiVE) | [Ìsọfúnni orí tẹlifóònù](https://t.me/emprendedorasdigitalesve) | [Àjọ LinkedIn](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
 
 **Unified Address:** 
 
@@ -180,7 +180,7 @@ Ibi tí Roosevelt Gordones àti Aura Brito ń darí yìí, ó ní àwọn iṣ�
 
 Àwọn Ìkànnì Àjọṣe Ọmọnìyàn (Social Media)
 
-[Ìsọfúnni nípa tẹlifíṣọ̀n](https://t.me/gorbritsm) [Ìkànnì Instagram](https://www.instagram.com/gorbritsm/) [Àpótí X](https://twitter.com/GorBritSM) | 
+[Ìsọfúnni orí tẹlifóònù](https://t.me/gorbritsm) | [Instagram: Àwọn ojúewé wọ̀nyí wà nínú ìkànnì yìí:](https://www.instagram.com/gorbritsm/) |  [X Àtẹ̀gùn](https://twitter.com/GorBritSM) | 
 
 GorBrit gba awọn ọna isanwo oriṣiriṣi, pẹlu Awọn Cryptocurrencies, laarin eyiti o jẹ ** Zcash. **
 
@@ -210,11 +210,11 @@ Iṣẹ rẹ jẹ olokiki ni agbegbe Zcash ọpẹ si ilowosi rẹ fun ẹgbẹ-
 
 Àwọn ìkànnì àjọlò orí ayélujára:**
 
-[Ìsọfúnni nípa tẹlifíṣọ̀n](https://t.me/Robmarn) [Àpótí X](https://twitter.com/robmarn) [ì§ ì í ©í2z](https://free2z.cash/robmarn)
+[Ìsọfúnni orí tẹlifóònù](https://t.me/Robmarn) | [Àtẹ X](https://twitter.com/robmarn) | [Free2z (ì ì í ë ¤)](https://free2z.cash/robmarn)
 
 Barquisimeto - Venezuela (ìlú yìí wà ní ìlà oòrùn) 
 
-**[Ẹwà  Manikúù  Ìtọ́jú Ọwọ & Àwọn Ẹ̀kúnrẹ́rẹ́]** 
+**[Ẹwà  Manikùr  Ìtọjú ọwọ àti ìkọ̀nàkọnà [Aṣọ]** 
 
 1. **Karin Beauty Studio. By Karin Gordones** Àwọn ojúewé wọ̀nyí jápọ̀ mọ́ "Bíbélì" nínú ìkànnì wa:
 
@@ -224,7 +224,7 @@ Barquisimeto - Venezuela (ìlú yìí wà ní ìlà oòrùn)
 
 Àwọn ìkànnì àjọlò orí ayélujára:** 
 
-[Ìkànnì Instagram](https://instagram.com/karinbeautystudio) 
+[Instagram: Àwọn ojúewé wọ̀nyí wà nínú ìkànnì yìí:](https://instagram.com/karinbeautystudio) 
 
 **Unified Address:** 
 
@@ -250,7 +250,7 @@ Do you know what’s amazing about Zcash? Having people like Gissell, a 16-yr ol
 
 Àwọn Ìkànnì Àjọṣe Ọmọnìyàn (Social Media)
 
-[Ìkànnì Instagram](https://instagram.com/coronadebrillitos) 
+[Instagram: Àwọn ojúewé wọ̀nyí wà nínú ìkànnì yìí:](https://instagram.com/coronadebrillitos) 
 
 **Zcash Unified Address** 
 
@@ -260,7 +260,7 @@ u154h5wxyqf5lr4hdraqzc2n8x8398x6u95km2z7ryx8k5tdpjym59xqvlz54kq6pd96q5xrsxrmtcpl
 
 ---
 
-[Iṣẹ́-iṣẹ̀ Kọmputa]**
+**[Àwọn iṣẹ́ kọ̀ǹpútà]**
 
 1. Ìtàn ìṣẹ̀dá. 
 
@@ -282,7 +282,7 @@ Tecnopapapi ni ẹni tó yẹ kó o kàn sí!
 
 Àwọn ìkànnì àjọlò orí ayélujára (Social media) 
 
-Free2z [ì¢ ì í ê° ](https://t.me/Lexihel) [YouTube] Àwọn ojúewé wọ̀nyí jápọ̀ mọ́:](https://youtube.com/@tecnopapapi) [Àpótí X](https://twitter.com/tecnopapapi) [TikTok] Àkọlé àwòrán](https://www.tiktok.com/@lexihel) [Ìkànnì Instagram](https://www.instagram.com/tecnopapapi/) [Facebook] Ètò àjọ Facebook.](https://www.facebook.com/tecnopapapi) 
+Free2z ì í ë ¤. [Ìsọfúnni orí tẹlifóònù](https://t.me/Lexihel) | [YouTube (ìkànnì)](https://youtube.com/@tecnopapapi) | [Àtẹ X](https://twitter.com/tecnopapapi) | [TikTok (ìkànnì)](https://www.tiktok.com/@lexihel) | [Instagram: Àwọn ojúewé wọ̀nyí wà nínú ìkànnì yìí:](https://www.instagram.com/tecnopapapi/) |  [Facebook (ìkànnì)](https://www.facebook.com/tecnopapapi) 
 
 Tecnopapapi gba awọn owo-iworo (pẹlu 3ZEC) ati awọn ọna isanwo miiran. 
 
@@ -310,7 +310,55 @@ u10jd0tcj24p9rcju047lymtp9nx38h90j09rnr4ru6e8476822saywgn6phe373q78myrf2ew2j6kst
 
 ---
 
-**[Oúnjẹ kíákíá. Italian**]
+**[Online  Global  Àwọn ẹrù dígítà, àwọn ọjà & VPNs]**
+
+Gbogbo àwọn tí ó wà lókè yìí jẹ́ ènìyàn tàbí ilé-iṣẹ́ kékeré kan tóo lè dé ní Venezuela. Àwọn mẹrin wọ̀nyí ni orí ayélujára, wọn ṣí sílẹ̀ fún ẹnikẹ́ni pẹlú àpò owó àti ìsopọ̀, kí o sì yanjú ọjà ZEC tààràtà.
+
+1. Àwọn ẹrù dígí-dígìtì, àwọn ìpamọ́ eSIM, àyè VPN.
+
+ZecBuy n ta awọn ẹru oni-nọmba fun ZEC: Awọn eto data eSIM fun irin ajo ati Mullvad VPN iroyin. Ko si iforukọsilẹ tabi adirẹsi imeeli lati fi silẹ. O yan ọja naa, sanwo ni ZEC, ki o gba koodu naa .
+
+Ìkànnì: [ìkànnì zecbuy.com](https://zecbuy.com/)
+
+ Orí-ayé-òpó. Kárí ayé
+
+---
+
+1. Ọjà ZEC. Àjọ-àgbárí ọjà kan náà
+
+Àjà tí kò ní ìpamọ́ níbi ti àwọn oníbàárà àti olùtajà ń bá ara wọn lò tààrà. Iye owó ni a fi hàn nínú dọlá, wọ́n sì máa ń ṣe àdábọ̀ láti pọ́ọ̀sì sí pọ́ọ́sì nínú Zcash, èyí tó wà lábéko òdìkejì. Òpópóná náà kì í gba iye kankan tàbí kó gbé owó ẹnikẹ́ni lọ fún ìgbà kan rí, ìyẹn ló mú kí ó jẹ ibi téèyàn lè wò nígbàtí ohun tí o fẹ́ rà kò bá sí lára àkọsílẹ̀ bíi eléyìí.
+
+Ìkànnì: [Zecmarket.org (ìkànnì)](https://zecmarket.org/)
+
+Àwọn iṣẹ́ àdáni bíi rẹ̀: [Àwọn Ìpèsè Àjọṣe](/zcash-community/community-projects)
+
+ Orí-ayé-òpó. Kárí ayé
+
+---
+
+1. **NymVPN**  VPN tí kò dá síbi-ìdílé àti àdàpọ̀ ìkànnì
+
+NymVPN routes traffic nipasẹ a decentralized nẹtiwọki ti awọn nodes, pẹlu kan mixnet mode eyi ti o fi ideri ijabọ ki packet akoko ati iwọn da ṣiṣẹ bi ohun ika. wíwé soke beere fun ko si alaye ara ẹni, ati owo-owo ni gba ninu ìpamọ owó pẹlu Zcash, nitorina sanwo fun iṣẹ naa ko ṣe atunṣe asiri lilo rẹ.
+
+Ìkànnì: [nym.com (ìkànnì)](https://nym.com/)
+
+Àwọn ohun tí wọ́n kà ní ìsàlẹ̀: [Awọn VPN ati dVPNs](/privacy-tools/vpn-and-dvpn)
+
+ Orí-ayé-òpó. Kárí ayé
+
+---
+
+1. **Meile dVPN** | Decentralized VPN on the Sentinel network
+
+Meile is a dVPN client from the MathNodes team that runs on the Sentinel network, where the nodes are operated by community members rather than by a single company. Subscription plans are paid inside the app, and shielded ZEC payments are handled through BTCPay. Builds are available for Windows, macOS and Linux alongside the mobile client.
+
+Ìkànnì: [Meile dVPN lórí MathNodes](https://mathnodes.com/index.php/meile-dvpn-client-linux-os-x/) (meile.app yí àtúnjúwe síbí)
+
+ Orí-ayé-òpó. Kárí ayé
+
+---
+
+**[Oúnjẹ àjẹsára. Italian **]
 
 Àṣeyọrí: **Allegrini Ristorante** 🇪. Ibi Pizza. Oúnjẹ Itali. **Gba Zcash láìpẹ.** 
 
@@ -318,13 +366,13 @@ Iṣẹ́ ìkórè. Gbé àwọn ìwé náà lọ. Àkọsílẹ̀ àtìléyìn
 
 ![BackgroundEraser_20230901_114615839.png](/content-images/_unavailable.svg)
 
-Ojú-ìkànnì: [www.alleginiristorante.com](http://www.alleginiristorante.com) (ní ìkọ́lé)
+**Ojú-ìkànnì**: kò sí. Oju ìkànnì tí a kéde ní alleginiristorante.com ni wọn ò parí àti pé àdúgbò náà kì í yanjú mọ́. Lo àwọn ìjápọ̀ àjọlò tó wà lókè yìí.
 
 Àwọn ìkànnì àjọlò orí ayélujára (Social media) 
 
-[Ìkànnì Instagram](https://instagram.com/allegriniristorante) [Àpótí X](https://twitter.com/AllegriniRisto) [Ìsọfúnni nípa tẹlifíṣọ̀n](https://t.me/AllegriniRistorante) [Pinterest] Ètò ìkápá alágbèéká:](https://pin.it/6z8hq6F)
+[Instagram: Àwọn ojúewé wọ̀nyí wà nínú ìkànnì yìí:](https://instagram.com/allegriniristorante) | [Àtẹ X](https://twitter.com/AllegriniRisto) | [Ìsọfúnni orí tẹlifóònù](https://t.me/AllegriniRistorante) | [Pinterest (ìkànnì)](https://pin.it/6z8hq6F)
 
-(Ní kíákíá ní [free2z.cash](http://free2z.cash). )
+(Ní kété ní [free2z.cash (ì í ì ë°©)](http://free2z.cash). )
 
 ![20230901_121633_0000.png](/content-images/_unavailable.svg)
 
@@ -334,4 +382,4 @@ u10wuf4pauet00u3n4sp7l0jjer28stp5l8q3peq4ffrpvhfm0zn8up3xwewy64fyeps6r6ctv3yfmwv
 
 Iṣẹ́ ìkórè. Gbé àwọn nǹkan lọ. Àkọsílẹ̀.
 
- Madrid - Spain [Àwọn Àlàyé ìsàlẹ̀ ìwé]
+Madrid - Spain Àwọn Àlàyé ìsàlẹ̀ ìwé

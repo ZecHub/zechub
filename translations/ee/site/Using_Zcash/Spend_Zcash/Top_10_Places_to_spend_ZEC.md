@@ -12,13 +12,13 @@ Zcash kple ZEC naa adzamenyawo kple dedienɔnɔ ƒe nɔnɔme siwo wodo ɖe ŋgɔ
 
 # Nukatae dɔwɔƒe / dɔwɔƒe aɖe adi be yeaxɔ $ZEC?
 
-Ne dɔwɔƒe aɖe le asiwò alo nèdzraa nu alo dɔwɔnu aɖe la, àte ŋu axɔ Zcash. Nu ka ta? Le afisia la, susu gbogbo mawo dometɔ aɖewo kple viɖe siwo nàte ŋu abu be enye wò fexexemɔnu. 
+Ne dɔwɔƒe aɖe le asiwò alo nèdzraa adzɔnu alo dɔwɔnu aɖe la, àte ŋu axɔ Zcash. Nu ka ta? Le afisia la, susu gbogbo mawo dometɔ aɖewo kple viɖe siwo nàte ŋu abu be enye wò fexexemɔnu. 
 
-- **Do adzamenyawo ɖe ŋgɔ. |** To vovo na fexexemɔnu nyanyɛwo kple esiwo wozãna tsã la, Zcash, akpe na zk-SNARKs, naa wò asitsatsa nɔa dedie eye wòzua ame ŋutɔ tɔ to wo takpɔkpɔ (menye dutoƒonukpɔkpɔ o) le blockchain dzi eye nyatakaka siwo wogblɔ le asitsatsa me la sɔ (eye wodzena) na wo ame evea siaa, ame si ɖoe ɖa kple amesi xɔe ɖeɖeko.
-- **Fexexemɔnu si le kabakaba wu eye wòxɔa ga geɖe wu. |** ZEC ƒe asitsatsa nyea tẽ eye ame etɔ̃lia aɖeke mehiã o (abe gadzraɖoƒewo ene), si wɔnɛ be dɔwɔwɔ ƒe ɣeyiɣi nɔa kpuie eye fe siwo woxena la bɔbɔ wu fexexemɔnu xoxowo, eyata àte ŋu aŋlɔ Paypal be. Fifia ènya be menye tiatia *si sɔ*e nye ema o.
+- **Do adzamenyawo ɖe ŋgɔ. |** To vovo na fexexemɔnu nyanyɛwo kple esiwo wozãna tsã la, Zcash, akpe na zk-SNARKs, naa wò asitsatsa nɔa dedie eye wòzua ame ŋutɔ tɔ to wo takpɔkpɔ (menye dutoƒonukpɔkpɔ o) le blockchain dzi eye nyatakaka siwo wogblɔ le asitsatsa me la sɔ (eye wokpɔna) na wo ame evea siaa, ame si ɖoe ɖa kple amesi xɔe ɖeɖeko.
+- **Fexexemɔnu si le kabakaba wu eye wòxɔa ga geɖe wu. |** ZEC ƒe asitsatsa nyea tẽ eye ame etɔ̃lia aɖeke mehiã o (abe gadzraɖoƒewo ene), si wɔnɛ be dɔwɔwɔ ƒe ɣeyiɣi nɔa kpuie eye fetuwo bɔbɔna wu fexexemɔnu xoxowo, eyata àte ŋu aŋlɔ Paypal be. Fifia ènya be menye tiatia *si sɔ*e nye ema o.
 - **Dzi wò asisiwo ƒe xexlẽme ɖe edzi.** | To ZEC xɔxɔ me la, wò dɔwɔƒe / adzɔnu alo dɔwɔna ate ŋu ahe ame siwo lɔ̃a crytocurrencies zazã ƒe taɖodzinu si keke ta wu.
 - **Do asisiwo ƒe nuteƒewɔwɔ ɖe ŋgɔ eye nàdoe ɖe ŋgɔ. |** To asiƒoƒo ɖe asi ƒe akpa sia dzi eye nàna amewo nanya be wò teƒe le ZEC xɔm la, esia ate ŋu ana nàkpɔ viɖe kple nusi nàlɔ̃ le asisi siwo wozãna ɖaa kple esiwo ate ŋu ava zu asisiwo dome, amesiwo atrɔ ɖe ŋuwò ɣesiaɣi si wòahiã be woazã woƒe ZEC.
-- **Na vovototoa abe *nu yeye* ene. |** Ne ètso nya me be yeaxɔ ZEC le wò fiase me, dɔwɔƒe, alo le subɔsubɔdɔ aɖe nam gɔ̃ hã abe taksikula ene la, àte ŋu aɖo nɔƒe le amesiwo le ganyawo, fexexe kple vivisese ƒomevi vovovowo ta dome.
+- **Na vovototoa abe *nu yeye* ene. |** Ne ètso nya me be yeaxɔ ZEC le wò fiase me, dɔwɔƒe, alo le subɔsubɔdɔ aɖe nam gɔ̃ hã abe taksi ʋukula ene la, àte ŋu aɖo nɔƒe le amesiwo le ganyawo, fexexe kple vivisese ƒomevi vovovowo ta dome.
 
 Ne míebu nusiwo katã le etame ŋu la, teƒe geɖe li siwo nàte ŋu azã ZEC le. Mina míadzro nusi míeyɔ be: 
 
@@ -26,18 +26,18 @@ Ne míebu nusiwo katã le etame ŋu la, teƒe geɖe li siwo nàte ŋu azã ZEC l
 
  ****
 
-Vevietɔ le Venezuela la, teƒe gbogbo aɖewo li (teƒe ŋutɔŋutɔwo kple teƒe siwo le Internet dzi) afisi nàte ŋu akpɔ adzɔnuwo alo dɔwɔnawo le eye nàxe fe kple Zcash... Mina míadze egɔme!
+Vevietɔ, le Venezuela la, teƒe gbogbo aɖewo li (teƒe ŋutɔŋutɔwo kple teƒe siwo le Internet dzi) afisi nàte ŋu akpɔ adzɔnuwo alo dɔwɔnawo le eye nàxe fe kple Zcash... Mina míadze egɔme!
 
 <aside>
-📌 Woŋlɔ esia ɖe vome, be woana amewo nanya afisi woateŋu ayi axe fe kple akɔfafa esi mɔ̃ si wotsɔna ɖe asi (telefon, laptop alo ledger), Zcash gakotoku kple internet alo data kadodo nyui aɖe ko le wo si
+📌 Woŋlɔ esia ɖe ɖoɖo nu, be woana amewo nanya afisi woateŋu ayi axe fe kple akɔfafa ne mɔ̃ si woateŋu atsɔ (telefon, laptop alo ledger), Zcash gakotoku kple internet alo data kadodo nyui aɖe ko le wo si
 
 </aside>
 
 [**Nuɖuɖu - Abolomeƒe & Tsokoletdzraƒe**]. 
 
-1.  **Sheila Vargas** ƒe agbalẽ si nye | Nuɖuɖulɔ̃la | Blog-ŋlɔla | Dɔwɔla | Mɔfiame nana 
+1.  **Sheila Vargas** ƒe agbalẽ si nye | Nuɖuɖulɔ̃la | Blog-ŋlɔla | Asitsala | Mɔfiame nana 
 
-[@SheEmprende_ le Hadomegbenɔnɔ ƒe Nyatakakadzraɖoƒe](https://www.sheemprende.com/enlaces-sheemprende/). Eti kpo yi fefewɔƒea le eƒe ** xɔŋkɔ (eye wòvivina) ta.[Galletas de la FeliZidad ƒe ŋkɔ](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
+[@SheEmprende_ le Hadomegbenɔnɔ ƒe Nyatakakadzraɖoƒe](https://twitter.com/SheEmprende_). Eti kpo yi fefewɔƒea le eƒe ** xɔŋkɔ (eye wòvivina) ta.[Galletas de la FeliZidad ƒe ŋkɔ](https://free2z.cash/SheEmprende/zpage/galletas-zcash)**
 
 Tsɔ kpe ɖe eƒe kukiwo ŋu la, ewɔa dɔ bubuwo eye nyuitɔ kekeakee nye esi: àte ŋu axe fe kple ZEC!
 
@@ -47,7 +47,7 @@ Tsɔ kpe ɖe eƒe kukiwo ŋu la, ewɔa dɔ bubuwo eye nyuitɔ kekeakee nye esi: 
 
 ![2_20230829_214024_0001.png](/content-images/_unavailable.svg)
 
-Oat flakes & waintsetse kukiwo | Ame si tso Sheila Vargas Rojas gbɔ
+Oat flakes & waintsetse ƒuƒu kukiwo | Ame si tso Sheila Vargas Rojas gbɔ
 
 ![Untitled design_20230829_215327_0000.png](/content-images/_unavailable.svg)
 
@@ -61,7 +61,7 @@ Eyata, ne ènye kuki lã wɔadã aɖe..,
 
 fifia ènya afisi nàzã wò ZEC le!
 
-**Nyatakakadzraɖoƒe**: [Sheemprende.com ƒe nyatakakadzraɖoƒea](http://Sheemprende.com) 
+**Nyatakakadzraɖoƒe**: sheemprende.com xɔ dzudzɔ le dɔme eye megakpɔa egbɔ o. Do asi ɖe egbɔ le [Free2z](https://free2z.cash/SheEmprende) | [X Nuƒolanɔƒe](https://twitter.com/SheEmprende_)
 
 **Zcash Unified Address:** 
 
@@ -85,7 +85,7 @@ Rosa ko alɔgbɔnu dadatɔe tsɔ ɖee fia be yexɔ **Zcash.**
 
 ![Screenshot_20230829-232755.png](/content-images/_unavailable.svg)
 
-**Nyatakakadzraɖoƒe**: [https://somosdulceros.com/](https://somosdulceros.com/) 
+**Nyatakakadzraɖoƒe**: somosdulceros.com xɔ dzudzɔ le dɔme eye megakpɔa egbɔ o. Zã hadome kadodo siwo le ete.
 
 **Hadomegbenɔnɔ ƒe nyatakakadzraɖoƒe:** [Instagram dzi](https://www.instagram.com/somos_dulceros) | [X Nuƒolanɔƒe](https://twitter.com/RosaMRangel) | [Free2z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
@@ -242,7 +242,7 @@ Wɔ ɖoɖo ɖe ɣeyiɣi si nàɖoe ŋu
 
 1. **Corona de Brillitos ƒe dɔléle.** | **Gissell** **B** ye ŋlɔe. 
 
-Ènya nusi wɔ nuku le Zcash ŋua? Amewo abe Gissell, nyɔnuvi si xɔ ƒe 16 si lɔ̃a asinudɔwɔwɔ, nyɔnuvi ƒe accesories dzeaniwo wɔwɔ eye wònya be le yeƒe ƒexɔxɔ me la, ezãa Zcash le eƒe asitsatsa si le ŋgɔ yim me
+Ènya nusi wɔ nuku le Zcash ŋua? Amewo abe Gissell, nyɔnuvi si xɔ ƒe 16 si lɔ̃a asinudɔwɔwɔ, nyɔnuvi ƒe accesories dzeaniwo wɔwɔ eye wònya be le yeƒe ƒexɔxɔ me la, ezãa Zcash le eƒe asitsatsa si le dzidzedze kpɔm la ƒe amesinɔnɔ
 
 ![20230830_235143_0000.png](/content-images/_unavailable.svg)
 
@@ -254,7 +254,7 @@ Nice elegant ɖeɖefia na scrunchies | Corona de brillitos ƒe dɔléle
 
 **Zcash Unified Address** 
 
-u154h5wxyqf5lr4hdraqzc2n8x8398x6u95km2z7ryx8k5tdpjym59xqvlz54kq6pd96q5xrsxrmtcpl886s3kayxzfy4lhhdegr2a9ahg htuv9gwgc74wc6xf7p48gktq065nxzgvyvt7ka3jm0nzm8dziŋgɔlijp8n2s47wu769j87f9vk84gz6mxzvrfjzm09m2zew80msv7efueltfx
+u154h5wxyqf5lr4hdraqzc2n8x8398x6u95km2z7ryx8k5tdpjym59xqvlz54kq6pd96q5xrsxrmtcpl886s3kayxzfy4lhhdegr2a9ahg htuv9gwgc74wc6xf7p48gktq065nxzgvyvt7ka3jm0nzm8dziŋgɔlidyjp8n2s47wu769j87f9vk84gz6mxzvrfjzm09m2zew80msv7efueltfx
 
 📍 San Juan de los Morros - Venezuela ƒe ƒuƒoƒo 
 
@@ -310,15 +310,63 @@ u10jd0tcj24p9rcju047lymtp9nx38h90j09rnr4ru6e8476822gblɔ be wgn6phe373q78myrf2ew
 
 ---
 
+**[Internet dzi | Xexeame katã ƒe | Digitál adzɔnuwo, asitsaƒewo & VPNwo]**
+
+Nusianu si le etame la nye ame alo asitsaha sue aɖe si gbɔ nàte ŋu aɖo le Venezuela. Ame ene siawo le Internet dzi, woʋua mɔ na amesiame si si gakotoku kple kadodo le, eye wova nɔa ZEC me tẽ.
+
+1. **ZecƑle** | Digitál adzɔnuwo | eSIM nyatakakawo | VPN ƒe mɔɖeɖe
+
+ZecBuy dzraa ame ŋutɔ ƒe dijitaal adzɔnuwo na ZEC: eSIM nyatakakawo ƒe ɖoɖowo na mɔzɔzɔ kple Mullvad VPN akɔntabubuwo. Ame aɖeke meli si ade asi agbalẽ te o eye e-mail adrɛs aɖeke meli woatsɔ ade asi na ame o. Ètia nusi wowɔ, xea fe le ZEC me, eye nèxɔa kɔda la.
+
+**Nyatakakadzraɖoƒe**: [zecbuy.com dzi](https://zecbuy.com/)
+
+🌐 Le Internet dzi | Le xexeame katã
+
+---
+
+1. **ZEC ƒe Asi** | Hatiwo ƒe asitsaƒe
+
+Asi si me womekpɔa ame dzi le o si me nuƒlelawo kple nudzralawo wɔa nu kple wo nɔewo tẽ. Woɖea asiwo fiana le dɔlar me eye woxea gakotoku ɖe gakotoku me le Zcash me, si wokpɔ ta na le gɔmedzedzea me. Nuƒolanɔƒea mexɔa fe aɖeke o eye meléa ame aɖeke ƒe ga ɖe asi gbeɖe o, si wɔe be wònye teƒe si nàdi ne nusi nèdi be yeaƒle mele xexlẽdzesi sia tɔgbe me o.
+
+**Nyatakakadzraɖoƒe**: [zecmarket.org dzi](https://zecmarket.org/)
+
+Nu gbagbewo ƒe agbenɔnɔ ŋuti dɔ bubuwo abe esia ene: [Nutoa me Dɔwɔnawo](/zcash-community/community-projects)
+
+🌐 Le Internet dzi | Le xexeame katã
+
+---
+
+1. **NymVPN** ƒe ƒuƒoƒo | VPN kple mixnet si woɖe ɖe vovo
+
+NymVPN ɖoa mɔ ʋuwo to nodes ƒe network si woɖe ɖe vovo me, kple mixnet mode si tsɔa cover traffic kpena ɖe eŋu ale be packet ƒe ɣeyiɣi kple lolome dzudzɔ dɔwɔwɔ abe asibidɛ ƒe dzesi ene. Ne ède asi agbalẽ te la, mebiaa ame ŋutɔ ƒe nyatakaka aɖeke o, eye woxɔa fexexe le ameŋunyatakakawo ƒe gaku siwo dome Zcash hã le me, eyata fexexe ɖe subɔsubɔdɔa ta meɖea ameŋunyatakaka si le eŋudɔwɔwɔ me ɖa o.
+
+**Nyatakakadzraɖoƒe**: [nym.com dzi](https://nym.com/)
+
+Nuxexlẽ le megbenyawo me: [VPNwo kple dVPNwo](/privacy-tools/vpn-and-dvpn)
+
+🌐 Le Internet dzi | Le xexeame katã
+
+---
+
+1. **Meile ƒe dVPN** | VPN si woɖe ɖe vovo le Sentinel ƒe network dzi
+
+Meile nye dVPN asitsala tso MathNodes ƒuƒoƒo si zɔna le Sentinel network dzi, afisi nutoa me tɔwoe wɔa nodeawo tsɔ wu be dɔwɔƒe ɖeka nawɔ dɔ le. Woxea nudɔdɔ ƒe ɖoɖowo le dɔwɔnua me, eye wokpɔa ZEC ƒe fexexe siwo wokpɔ ta na la gbɔ to BTCPay dzi. Builds li na Windows, macOS kple Linux kpe ɖe asitelefon ƒe asitsaha ŋu.
+
+**Nyatakakadzraɖoƒe**: [Meile dVPN le MathNodes dzi](https://mathnodes.com/index.php/meile-dvpn-client-linux-os-x/) (meile.app trɔa mɔ ɖe afisia)
+
+🌐 Le Internet dzi | Le xexeame katã
+
+---
+
 **[Nuɖuɖu kabakaba | Italygbe**].
 
 Bonus : **Allegrini Ristorante** 🇪🇸 | Pizza Teƒe | Italytɔwo ƒe nuɖuɖu | **Axɔ Zcash kpuie.** 
 
-Dɔwɔƒe si tsɔa nuawo yinae | Tsɔe ƒu gbe | Ðoɖowɔwɔ ɖe teƒea ŋu
+Dɔwɔƒe si tsɔa nuawo yina na amewo | Tsɔe dzoe | Ðoɖowɔwɔ ɖe teƒea ŋu
 
 ![BackgroundEraser_20230901_114615839.png](/content-images/_unavailable.svg)
 
-**Nyatakakadzraɖoƒe**: [www.alleginiristorante.com ƒe xexlẽdzesiwo](http://www.alleginiristorante.com) (le xɔtutu me) .
+**Nyatakakadzraɖoƒe**: ɖeke meli o. Womewu nyatakakadzraɖoƒe si woɖe gbeƒãe le alleginiristorante.com nu gbeɖe o eye domenyiŋusẽfianu la megakpɔa egbɔ o. Zã hadome kadodo siwo le ete.
 
 **Hadomegbenɔnɔ ƒe nyatakakadzraɖoƒe** 
 
@@ -332,6 +380,6 @@ Dɔwɔƒe si tsɔa nuawo yinae | Tsɔe ƒu gbe | Ðoɖowɔwɔ ɖe teƒea ŋu
 
 u10wuf4pauet00u3n4sp7l0jjer28stp5l8q3peq4ffrpvhfm0zn8up3xwewy64fyeps6r6ctv3yfmwvrrnrsseet3ety9aj48kqk52el0 m0xee87t87fu86wtxq357gxz2j978rgyy799pex3amwhtc3mt2yz544tn6dcqcq48sy2lvsfp2vqjhe9skchgpgsqzjnhcnflhe2w2l465s
 
-Dɔwɔƒe si tsɔa nuawo yinae | Tsɔe ƒu gbe | Ðoɖowɔwɔ ɖe teƒea ŋu.
+Dɔwɔƒe si tsɔa nuawo yina na amewo | Tsɔe dzoe | Ðoɖowɔwɔ ɖe teƒea ŋu.
 
 📍 Madrid - Spain - Ƒe 1999 me

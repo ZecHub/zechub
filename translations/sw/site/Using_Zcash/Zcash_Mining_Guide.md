@@ -25,7 +25,7 @@ This guide focuses on mining Zcash using personal hardware (e.g., a home PC with
   - Kwa GPU: lolMiner (inasaidia AMD / NVIDIA), GMiner, au miniZ (NVIDIA-ililenga). Pakua kutoka kwa repos rasmi ya GitHub (kwa mfano, github.com/Lolliedieb/lolMiner-releases).
   - Kwa ASICs: Tumia firmware kujengwa katika / dashibodi ya mtengenezaji (kwa mfano, Bitmain wa mtandao interface).
 - ** Wallet:** Zcash mkoba kupokea payouts. Ilipendekeza:
-  - Shielded (binafsi): Zodl Wallet, Zingo (Simu ya Mkono / Desktop) YWallet (simu za mkononi / desktop).
+  - Shielded (binafsi): Zodl Wallet, Zingo (Simu ya Mkono / Desktop), Zkool (simu za mkononi / desktop).
   - Uwazi (rahisi lakini chini ya faragha): Edge Wallet, Zecwallet Lite.
   - Pakua kutoka kwa: [pochi za fedha](https://zechub.wiki/wallets). Kuzalisha anwani ulinzi (huanza na 'zs') kwa faragha kama bwawa inasaidia yake.
 
