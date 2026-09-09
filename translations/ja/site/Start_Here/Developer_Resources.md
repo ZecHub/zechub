@@ -78,7 +78,7 @@ zcashdにはノードとともにウォレットが組み込まれていまし�
 
 [testnet.zcashexplorer.app](https://testnet.zcashexplorer.app/)は稼働中のテストネットブロックエクスプローラーで、メインネット版は[mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app/)にあります。
 
-TAZを入手することが難しい部分です。公開ファウセットは現れたり消えたりし、古いドキュメントからリンクされているものは、このページの執筆時点では応答していませんでした。確実な方法はZcash R&D Discordで尋ねることであり、Zcashのドキュメント自体もそう勧めています。
+TAZを入手することが難しい部分です。これは、古いドキュメントからリンクされているファウセットが応答しなくなったためです。[zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz)はコミュニティ運営のファウセットで、「独自のノード、ウォレット、マイナー」を運用し、「シールドされたz2zの少額送金」を支払い、「captchaベンダーの代わりにブラウザ上のプルーフ・オブ・ワーク」で請求を制限します。MITライセンスのオープンソースです。利用できない場合は、Zcash R&D Discordで尋ねてください。Zcashのドキュメント自体もそう勧めています。
 
 ## 一般ドキュメント
 

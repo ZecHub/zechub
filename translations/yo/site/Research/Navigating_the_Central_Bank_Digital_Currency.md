@@ -2,116 +2,116 @@
 published: 2023-12-07
 ---
 
-[CBDC](/content-images/cbdc-dfb8827faa.webp)
-# Ṣíṣí Ìhòòhò Ìhà Òkùnkùn: Ṣíṣàmúlò Owó-ìpamọ́ Oníṣòwò (CBDC) Láàárín Àwọn Òjìji Ìnáwó
-Àkọlé àwòrán: [Abhishek Tiwari]
+![CBDC](/content-images/cbdc-dfb8827faa.webp)
+# Ṣíṣí Ìhòòhò Ojú Òkùnkùn: Lílo owó orí ti Central Bank Digital Currency (CBDC) Láàárín àwọn òjìji tó jẹ́ nípa ìṣúnná owó.
+By : [**Abhishek Tiwari**]
 
 In the ever-shifting landscape of global finance, a new chapter is unfolding—one that raises more than a few eyebrows. Central Bank Digital Currencies (CBDCs) emerge not just as protagonists but as potential agents of financial upheaval, casting shadows on the traditional understanding of money and triggering concerns about privacy, surveillance, and governmental interference.
 
-Picture a world where financial transactions leave an indelible trace in the digital realm, a world ushered in by CBDCs—innovations that promise a revolution but also signal a potential financial dystopia.
+Fojú inú wo ayé kan tí àwọn ìnáwó owó á fi àmì tó máa wà títí lọ sínú ẹ̀rọ alágbèéká sílẹ̀, ìyẹn ni àgbáyé táwọn ohun tuntun ti CBDCs® mú wá. Àwọn nǹkan wọ̀nyí ń ṣèlérí pé ìṣẹ̀dá ńláǹlà yóò wáyé àmọ́ ó tún lè jẹ́ ká mọ bí ipò òṣì àti ọ̀ràn-ìṣòro ṣe le burú sí nínú ètò ìṣúnàádúrà yìí.
 
-## Àdììtú ti CBDCs: Ojú wo ẹ̀yìn aṣọ-àwòrán oni-nọmba
+## Ìṣòro ti CBDCs: Àwòran kan Lẹ́yìn Ojú-àwòrán Onífọnti Orílẹ̀èdè Nàìjíríà
 
 At the heart of this digital metamorphosis lies the concept of CBDCs, a concept that, while intriguing, raises red flags. Imagine your nation's currency transformed into the binary code of the digital realm, where the central bank takes center stage in an unprecedented symphony of financial control. No longer confined to the physicality of bills and coins, CBDCs become dynamic forces, shaping a future marred by concerns of governmental overreach.
 
-But this journey is not without its skeptics. As CBDCs strive to break barriers, the question arises: Are they inclusive havens or trojan horses that compromise financial privacy? The promise of inclusivity becomes a double-edged sword as the shadows of traceable transactions loom large, leaving individuals exposed in the digital spotlight.
+ṣùgbọ́n ìrìn àjò yìí kò ní àwọn tí wọn ò gbà pé ó ṣeé ṣe. bí CBDCs ti ń sapá láti fọ ìdíwọ̀, ìbéèrè náà dìde: ṣé wọ́n jẹ́ ibi ìsádi tó kún fún gbogbo ènìyàn ni tàbí ẹṣin trojan tó máa ń ba àṣírí ìṣúnná owó jẹ́? ìlérí ìdásílẹ̀ di idà olójú méjì nígbàtí ojiji ètò-òwò tí a lè tọpinpin sí bá pọ̀ gan an, èyí sì mú kí ẹnì kọ̀ọ̀kan wà lábẹ́ ìmọtara ẹni lórí lílo èroǹbáyé orí ayélujára.
 
-As we traverse this digital terrain, some CBDCs showcase not just intelligence but a potential Pandora's box. They can execute contracts, automate financial transactions, and dance to the tune of programmable money. The question arises: Is this a beacon of progress or a dangerous leap into uncharted financial territory?
+Bi a ṣe n rin irin-ajo lori ilẹ oni nọmba yii, diẹ ninu awọn CBDCs kii ṣe afihan oye nikan ṣugbọn apoti Pandora ti o ni agbara. Wọn le ṣaṣe adehun, adaṣiṣẹ iṣowo owo, ati ijó si orin ti owo siseto. Ibeere naa dide: Ṣe eyi jẹ itọlẹ ilọsiwaju tabi fifa ailewu sinu agbegbe iṣuna ajeji?
 
-## Àwọn Ìṣòro Tó Wà: Bí Wọ́n Ṣe Lè Borí Àìlẹ́tọ̀ọ́ Láwọn Ọ̀ràn Ìnáwó
+## Àwọn Ìṣòro: Bí Wọ́n Ṣe Lè Borí Àìlera Tó Wà Nínú Ọ̀ràn Owó Náà
 
-Yet, as with any grand voyage, challenges abound, and the shadows cast by CBDCs become more pronounced. The transparency of transactions threatens the very essence of privacy. As transactions become traceable, a new era of financial surveillance emerges, leaving individuals vulnerable to unwarranted scrutiny.
+bó tilẹ̀ jẹ́ pé, bíi ti ìrìn àjò ńlá èyíkéyìí, àwọn ìpèníjà pọ̀ rẹpẹtẹ, àti òjìji tí CBDCs ń gbé jáde túbọ̀ wá hàn gbangba. ìfòyemọ̀ nínú ìṣòwò máa ń halẹ̀ mọ ohun tó ṣe pàtàkì jù lọ nípa àṣírí ẹni. bí owó ìdánrawó bá sì di èyí téèyàn lè tọpinpin rẹ̀, ìgbà tuntun kan yóò dé fún ètò ṣíṣọ́ra-ààbò lórí ọrọ̀ ajé, kí ó mú káwọn èèyàn wà ní ipò pàtó láti fara da àìdáa ṣíṣe yẹyẹwo nǹkan wò.
 
-In the realm of cybersecurity, an unsung hero becomes a reluctant protagonist. The vulnerability of CBDCs to cyber threats becomes a subplot in our narrative. As we embark on this digital odyssey, the stakes are high, and the guardianship of personal data becomes paramount.
+nínú ayé ààbò orí ẹ̀rọ, akọni tí a kò fi bẹ́ẹ̀ mọ ní ń di òṣèré tó jẹ́ pé ó máa ń kọjú ìjà sí i. àìlera àwọn CBDCs fún ìpalára lórí ọ̀nà ìgbàlódé ti wá di ohun kan lára ìtàn wa. bí a ṣe n wọ inú ìrìnàjò dígítáìlì yìí ni ìpèníjà náà pọ̀ gan-an, àti wípé ìṣọ́ra data ara ẹni sì gba ipò àkọ́kọ́.
 
 And what of traditional banking structures? The stability we've known for decades faces potential disruptions, and the foundations of traditional banks tremble in the wake of CBDCs. As Central Banks become direct competitors to payment service providers, banks might lose income. Likewise, a new form of investment opportunity may reduce consumer deposit demand. In return, this could reduce bank lending to overall economy and hence, economic growth. It's a delicate dance between innovation and the fear of financial instability, where the outcome remains uncertain.
 
-The HRF’s just-launched Central Bank Digital Currency Tracker profiles each country taking steps toward a CBDC, and links these moves on a web page with information on that country’s record on human rights and corruption. In compiling the tracker, HRF found that “dictatorships are leading the charge in CBDC deployment.” HRF estimates that 3.7 billion people – 46% of the world population – live under dictatorships experimenting with CBDCs.
+Àkọsílẹ̀ tí HRF ṣe nípa owó orí ti Central Bank Digital Currency Tracker, èyí tó ṣẹṣẹ́ dá sílẹ̀ ní pẹrẹu sọ àwọn ìgbésẹ̀ orílẹ̀-èdè kọ̀ọ̀kan láti mú kí wọ́n rí CBDC kan. Ó sì so ìyípadà wọn pọ̀ mọ́ ojúewé ayélujára kan níbi tí a ti lè rí àlàyé lórí àkọsílẹ̣ ẹtọ ọmọ ènìyàn àti ìwà jẹgúdújẹrá nínú orílè-èdè náà. Nígbàtí ó ń ṣètò ìwé ìròyìn yìí, HRF ri wípé "àwọn ìjọba aláṣẹ ló wà láàrín" fún lílo CBDCs. Ẹgbẹ́ Human Rights Fund fojú díwọ̀ pé èèyàn bílíọ̀nù mẹ́ta dín lọ́nà ọgọ́rùn ún méje (3.7 billion people) - ìyẹn ìdá ogójì lára gbogbo aráàlú ilẹ̀ ayé ni  n gbé lábẹ́ àwọn alákòóso tí wọ́n ń dáná wò sí ọ̀ràn owó orí kóńkòrò (CBDC).
 
-Awọn CBDC jẹ ipalara si awọn idaduro itanna ati asopọ intanẹẹti ti ko to 
+Awọn CBDC jẹ ipalara si awọn idaduro ina ati asopọ intanẹẹti ti ko to 
 
-Gbigba awọn CBDCs di wiwa akikanju wa, irin-ajo ti o kun fun awọn imọ-ẹrọ, ilana, ati awọn italaya. Ipe lati ṣẹda owo oni-nọmba kii ṣe imotuntun nikan ṣugbọn ipe ti o ni agbara fun ilowosi ijọba ati iṣiro laarin eto inawo.
+Ṣiṣẹda CBDCs di wiwa akọni wa, irin-ajo ti o kun fun awọn imọ ẹrọ, ilana ati awọn italaya. ipe lati ṣẹda owo oni nọmba kii ṣe imotuntun nikan ṣugbọn ifilọlẹ agbara kan fun ilowosi ijọba ati ṣiṣakoso laarin eto inawo naa.
 
-## Rírìnrìn-àjò Láàárín Àwọn Orílẹ̀-èdè: Ìtàn CBDC
+## Rírìnrìn-àjò Láti Orílẹ̀-èdè Kan Sí Òmíì: Ìtàn CBDC Tí A Fi Hàn
 
-__China: Owo oni-nọmba Owo Iṣowo Iṣeduro (DCEP)__
+__China: Owo oni-nọmba Iṣowo Ẹrọ itanna (DCEP)__
 
 
-[DCEP] Èmi náà ò lè ṣe bẹ́ẹ̀!](/content-images/dcep-featured-c278cf0ef6.webp)
+![DCEP](/content-images/dcep-featured-c278cf0ef6.webp)
 
 In the dystopian streets of China, the Digital Currency Electronic Payment (DCEP) unfolds not as a marvel, but as a harbinger of societal control with its own set of ominous financial shadows. Everyday transactions pulse with life, courtesy of programmable money and the allure of offline capabilities.
 
-Àwọn Ànímọ́:
-DCEP goes beyond being a digital surrogate, designed to seamlessly facilitate everyday transactions. However, the shadows of increased surveillance raise concerns about privacy. The delicate balance between technological progress and individual rights becomes a cause for scrutiny, foreshadowing a future where personal freedoms are sacrificed.
+Àwọn Ànímọ́:**
+DCEP kọjá dídi ààyè orí ẹ̀rọ-ìmọ́, tí a ṣe láti mú kí àwọn ìnáwó ojoojúmó. Àkọsílẹ̀ yìí ń gbé ìgbésẹ̀ lórí bí ìdánwò kòṣeémáàní àti òmìnira ẹni yóò ti di ohun tó yẹ kó wà nípamọ́ fún àwùjọ láìsí ìpínyà ọkàn kankan.
 
-**Ìwé Àkọsílẹ̀ Àtẹ̀yìnwá:**
-Ìtàn China nípa ìsókè owó àti ìyọ̀ǹda ìjọba nínú iṣẹ́ báńkì jẹ́ àyíká òkùnkùn fún ìtàn tí ó ń túbọ̀ yọjú. Agbára DCEP láti mú kí ìjọba wọlé sí àwọn ètò ìṣúnná owó ti ara ẹni fi àlàfo ìbànújẹ́ kún un, níwọ̀n ìgbà tí àkọsílẹ̀ orílẹ̀-èdè náà nípa fífi ìkórìíra hàn àti fífi ẹ̀tọ́ ọmọnìyàn dù.
+**Ìtàn Àtẹ̀yìnwá:**
+Ìtàn China nípa ìsókè owó àti ìdàrúdàpò ìjọba nínú ètò báǹkì jẹ́ àyíká òkùnkùn fún ìtàn tí ó ń túbọ̀ wáyé. Agbára DCEP láti mú kí agbára ìṣèlú wọ àwọn iṣẹ́-òwò ti ara ẹni fi kún ẹrù, níwọ̀n ìgbà tó jé pé àkọsílẹ̀ orílẹ̀ èdè náà ni fífipá pa èrò ọ̀tọ̀ọ̀tọ̣ ati títẹ òfin lójú lórí òmìnira ẹnìkọ̀ọ́.
 
 
-Orílẹ̀-èdè Amẹ́ríkà: Digital Dollar Project
+__United States: Àkànṣe owó dọ́là orí ẹ̀rọ__
 
-[Dọ́là orí ẹ̀rọ](/content-images/digital-dollar-CBDC-8e8120f52f.webp)
+![Digital Dollar](/content-images/digital-dollar-CBDC-8e8120f52f.webp)
 
 In the vast, despondent landscapes of the United States, the Digital Dollar Project emerges not as a beacon of progress but as a testament to efficiency and inclusivity, albeit with its share of uncertainties. A private-sector initiative, it aims to reshape the financial landscape in a narrative tinged with shades of corporate control.
 
-Àwọn Ànímọ́:
-Iṣẹ́-ọnà àti ìfọwọ́sowọ́pọ̀ ni ó gba ipò pàtàkì nínú ìtàn yìí, ṣùgbọ́n àwọn òjìji àwọn ìpèníjà ètò ìṣàkóso àti ààbò ìwífún-ni-mọ̀nà-má-ṣe-lẹ̀ pọ̀, tí ó ń mú iyèméjì wá lórí ipa tí iṣẹ́ náà lè ní lórí òmìnira ẹnìkọ̀ọ̀kan.
+Àwọn Ànímọ́:**
+Iṣẹ́-ọnà àti ìkópa nínú gbogbo ènìyàn ló gba ipò pàtàkì ní ìtàn yìí, ṣùgbọ́n àwọn òjìji ti ìpèníjà ètò ìṣètò àti ààbò data ń yọjú gan an, tí ó sì fi iyèméjì sílẹ̀ lórí ipa tó ṣeé ṣe kí iṣẹ́ náà kó sí òmìnira ẹnìkọọkan. Ìjíròrò nípa òfin lọ́wọ́lọ́wọ̣ ni wọ́n kọ àkọsílẹ̀ ọ̀hún, àmọ́ àṣeyọrí rẹ̀ kò dájú rárá nínú ìròyìn kan tí àìmọye nǹkan dídì mú gbòòrò.
 
-**Ìwé Àkọsílẹ̀ Àtẹ̀yìnwá:**
+**Ìtàn Àtẹ̀yìnwá:**
 The U.S. has a complex history of financial regulation, with frequent debates on privacy and government intervention. The Digital Dollar Project's success depends on clear boundaries defined by a well-defined regulatory framework, an aspiration that seems increasingly elusive in a world dominated by corporate interests.
 
-__Sweden: E-Krona__
+_Sweden: E-Krona__ Àwọn ojúewé wọ̀nyí jápọ̀ mọ́ Àdàkọ:Category_name:Nominee:
 
-[E-Krona] Èmi náà ò lè ṣe é!](/content-images/ekrona_logo-4596e38b72.webp)
+![E-Krona](/content-images/ekrona_logo-4596e38b72.webp)
 
-As we traverse the desolate landscapes of Sweden, the E-Krona unfolds as a narrative of adaptability, but not without its financial pitfalls. It's a digital evolution focused on maintaining access to currency in a cashless society, portraying a society devoid of the familiar comforts of physical cash.
+bí a ṣe ń rìnrìn àjò gba inú àwọn ibi tí kò sí nǹkan kan ní sweden, e-krona náà túbọ̀ wá di ìtàn nípa báwọn èèyàn ṣe lè yíjú padà sáwọn ipò tó wà láwùjọ wọn. àmọ́ kì í ṣe pé ó ti já mọ́ ìṣòro owó o. ẹfolúṣọ̀n orí kọǹpútà ni èyí táá máa mú kí wọ́n rí i dájú pé gbogbo ènìyàn ló láǹfààní láti lo owó nínú ayé táwọn èèyàn ò fi bẹ́ẹ̀ lówó lọ́wọ́ mọ́ yìí, á sì tún jẹ́ ká mọ irú àwùjọ téèyàn ò tíì fìgbà kankan rí lò bíi tàwa lónìí.
 
-Àwọn Ànímọ́:
-E-Krona's focus is on accessibility, aspiring to be a resilient alternative to physical cash in a world where anonymity is scarce. Àmọ́, àwọn ìpèníjà ń yọjú, pàápàá ní àwọn ìgbèríko, àti ìbẹ̀rù ìpamọ́sílẹ̀ ń bá a lọ, tí ó ń mú kí òkùnkùn bo àwọn òmìnira ti ara ẹni.
+Àwọn Ànímọ́:**
+E-Krona's focus is on accessibility, aspiring to be a resilient alternative to physical cash in a world where anonymity is scarce. Àmọ́ àwọn ìpèníjà ń yọjú, pàápàá ní ìgbèríko, àti ìbẹ̀rù ààbò òdìkàn tí ó wà títí di òní olónìí, èyí tó fi hàn pé kò sí ìdásẹ̀lé fún òmìnira ẹni láwùjọ.
 
-**Ìwé Àkọsílẹ̀ Àtẹ̀yìnwá:**
-Sweden's past record of financial innovation is overshadowed by the potential challenges of integrating a digital currency into existing structures. The balancing act between progress and protection becomes increasingly precarious in a narrative steeped in shadows.
+**Ìtàn Àtẹ̀yìnwá:**
+Àkọsílẹ̀ tí Sweden ti ṣe nípa ètò ìṣúná owó ni ó ń di ìbòjú nítorí àwọn ìpèníjà tó ṣeéṣe láti dáwọ́ lílo ẹyọ owó díjítalọ́ǹtì wọlé sí inú ilé-iṣẹ́. Ìṣirò àárín ìtẹ̀síwájú àti ààbò yóò máa le koko nínú ìtàn kan tí kò ní òye kankan lórí rẹ̀.
 
-__European Union: Eurozone CBDC__ Àwọn àkànṣe owó ìdókòwò
+__European Union: Eurozone CBDC__ Àwọn àkànṣe owó ìdókòwò tí ó wà ní ìsọ̀rí-ìsàlẹ̀.
 
-[Àdúgbò Euro](https://upload.wikimedia.org/wikipedia/commons/c/cb/Logo_European_Central_Bank.svg)
+![Eurozone](https://upload.wikimedia.org/wikipedia/commons/c/cb/Logo_European_Central_Bank.svg)
 
-Ìrìn àjò wa parí nínú àwọn orílẹ̀-èdè tí wọ́n ń ṣe àjọ European Union, níbi tí CBDC ti Eurozone kò ti ń wá bí yóò ṣe ṣàfikún owó gidi, ṣùgbọ́n láti ṣe ipa ọ̀nà àkóso àti ìmúṣẹ nínú àyíká ìṣúnná owó tí kò dára.
+Ìrìn àjò wa parí nínú àwọn orílẹ̀-èdè tó ń dá àjọ European Union, níbi tí CBDC ti Eurozone kò wá láti ṣe àfikún owó gidi, ṣùgbọ́n láti fi ipa ọ̀nà ìkáwọ́ àti ìṣòfin sí ipò òṣì nídìí ètò ọrọ̀ ajé.
 
-Àwọn Ànímọ́:
+Àwọn Ànímọ́:**
 The Eurozone CBDC narrative revolves around complementing physical cash, enhancing cross-border payments, and fostering financial innovation—ideals that mask a darker intent of centralized control. Regulatory harmonization becomes a focal point, ensuring a consistent and safe user experience, but at the cost of individual financial autonomy.
 
-**Ìwé Àkọsílẹ̀ Àtẹ̀yìnwá:**
-The diverse regulatory landscapes among EU member states pose challenges for seamless integration, painting a picture of a fragmented financial dystopia. Navigating these challenges becomes crucial for a secure and consistent user experience, though the shadow of centralized control looms large.
+**Ìtàn Àtẹ̀yìnwá:**
+Awọn orisirisi ilana ala-ilẹ laarin awọn EU omo egbe ipinle gbe ipenija fun seamless isopọmọ, painting a aworan ti kan pinpin owo dystopia. lilọ kiri wọnyi italaya di pataki fun ohun ailewu ati ki o deede olumulo iriri, biotilejepe awọn òjìji ti centralized iṣakoso looms tobi.
 
-** Àwọn ohun tó jẹ mọ́ ààbò:**
-Aabo ti Eurozone CBDC wa ni aṣeyọri lilọ kiri awọn ipenija ilana. Ti o ba ṣaṣeyọri iṣedede laarin awọn orilẹ-ede ọmọ ẹgbẹ EU, o le ṣe alabapin si iriri olumulo ti o ni aabo ati ibamu ni iwoye owo oni-nọmba
+** Àwọn Ààbò:**
+Aabo ti Eurozone CBDC wa ni aṣeyọri lilọ kiri awọn ipenija ilana. Ti o ba ṣaṣeyọri iṣedede laarin awọn orilẹ-ede ọmọ ẹgbẹ EU, o le ṣe alabapin si iriri olumulo ailewu ati deede ninu iwoye owo oni -nọmba.
 
-## Ẹ̀ka Ènìyàn nínú Àkọsílẹ̀ Oníṣèlú: Àwọn Ewu àti Ètò tó wà ní Òjìji
+## Ẹ̀ka Ènìyàn nínú Àkọsílẹ̀ Oníṣèlú: Àwọn Ewu àti Ìdájọ́ ní Òjìji
 
-As our critical exploration of the digital odyssey unfolds, a parallel narrative emerges—the human side of the digital saga. Privacy, once a sacred right, becomes a character in our story, facing erosion in the face of traceable transactions and the fear of unwarranted surveillance.
+Bi a ṣe n ṣawari awọn ohun elo ti o ni imọran nipa oni-nọmba, itan kan wa - ẹgbẹ eniyan ti saga oni. Asiri, lẹẹkan ẹtọ mimọ, di oniruuru ninu itan wa, dojuko iparun ni oju iṣowo iṣakoso ati iberu ti ibojuwo alailẹgbẹ.
 
-Government surveillance, once a distant concept, becomes a potential antagonist. The misuse of CBDC technology could grant unprecedented access to citizens' financial transactions, a narrative reminiscent of Orwellian nightmares threatening the right to financial privacy.
+Ìwojú ìjọba, tí ó jẹ́ èrò tó jìnnà nígbà kan rí di ọ̀tá. Lílò èlò CBDC lọ́nà àìtọ́ lè fúnni ní ààyè ìwífún láìrí irú rẹ̀ sí àwọn ètò ìṣúnná owó aráàlú, ìtàn yìí ń rán wa létí bí Orwellian ṣe máa ń fi ẹ̀mí òkùnkùn bo ẹni nípa ti ìdákọkọ lórí ọrọ-aje.
 
-Financial inclusion, once a beacon of hope, faces the shadows of potential discrimination. The misuse of CBDCs could lead to selective access, violating principles of equal treatment and inclusivity. It's a subplot that challenges the very essence of financial freedom.
+ìkórajọ owó, nígbà kan tí ó jẹ́ òkìkí ìrètí, dojú kọ àwọn àwọ̀n ìyàtọ̀ tó ṣeé ṣe kí wọ́n máa fi hàn. lílo CBDCs lọ́nà àìtóòṣe lè yọrí sí wíwá-lé yíyan ẹni láti lòó, ní títẹríba ìlànà ìṣesí dọgbadọgba àti ìdásókè gbogbo ènìyàn. Ìtàn abẹ́lẹ̀ ni èyí tí ń da ète òmìnira ètò ọròjà rú gan an.
 
-[Ìṣàn](/content-images/futureofCBDC-2-45075d2d9c.webp)
+![Flow](/content-images/futureofCBDC-2-45075d2d9c.webp)
 
-## Àwọn Ohun Tó Wúlò: Àwòrán Ayé fún Àwọn Tó Ń Lo Íńtánẹ́ẹ̀tì
+## Àwọn Àlàfo: Ìwòrán Ayé fún Olùwádìí Oníṣiríṣi (Digital Explorer)
 
-Fún àwọn tí ó ń lọ sí ìpínlẹ̀ tí wọn kò mọ̀ nípa CBDCs, àwọn ohun àmúṣọrọ̀ di kámúsà yín.
-1. Bank for International Settlements (BIS) [BIS] ni ilé-ìfowópamọ́ tí ó wà fún ìsanwó.](https://www.bis.org/search/index.htm?globalset_q=cbdc))
-2. àjọ àgbáyé tí ń rí sí owó ([IMF](https://www.imf.org/en/About))
-3. Àwọn ìwé ìwádìí ([ìwé ìwádìí](https://deliverypdf.ssrn.com/delivery.php?ID=998105006000066124067099122099097121053040051018055094125101013098095097071065120123041031008002042043044095080119019124023085025010021006031087083026113098095102030064008046091121005002106021127103088122029021016098108064080120068125070088112093101069&EXT=pdf&INDEX=TRUE))
-4. Àwọn ìwé ìròyìn ẹ̀kọ́-ìmọ̀ ([journal](https://www.bis.org/publ/work976.pdf))
-5. C.E.I Àpilẹ̀kọ ([Àpilẹ̀kọ](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))
+Fún àwọn tí ó ń lọ sí àgbègbè CBDCs, ohun àmúṣọrọ̀ ni kókó ìlà-oòrùn wọn.
+1. Ilé Ìfowópamọ́ fún Àwọn Àkájọ Owo ([BIS (ìyẹn ilé ìfowópamọ́)](https://www.bis.org/search?keywords=cbdc))
+2. àjọ àgbáyé tó ń rí sí owó (i.e., international monetary fund)[IMF (ìyẹn Àjọ Náà)](https://www.imf.org/en/About))
+3. Àwọn ìwé ìwádìí ([ìwé àfọwọ́kọ](https://deliverypdf.ssrn.com/delivery.php?ID=998105006000066124067099122099097121053040051018055094125101013098095097071065120123041031008002042043044095080119019124023085025010021006031087083026113098095102030064008046091121005002106021127103088122029021016098108064080120068125070088112093101069&EXT=pdf&INDEX=TRUE))
+4. Àwọn Ìwé Ìròyìn Ẹ̀kọ́ Òye ([ìwé ìròyìn](https://www.bis.org/publ/work976.pdf))
+5. C.E.I Àpilẹ̀kọ ([Àpilẹ̀kọ náà:](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))
 
-Àwọn ohun àmúṣọrọ̀ wọ̀nyí ń fúnni ní ìjìnlẹ̀ òye nípa àyípadà tó ń ṣẹlẹ̀, tí ó ń pèsè ìlàlóye, ìwádìí, àti àtúnyẹ̀wò lórí ìrìn-àjò orí ẹ̀rọ ayélujára.
+Àwọn ohun àmúṣọrọ̀ wọ̀nyí ń fúnni ní ìjìnlẹ̀ àyè sí ibi tí nǹkan ti n yí padà, ó sì tún pèsè àwọn òye, àwárí àti ìròyìn tuntun lórí ìrìnàjò orí ẹ̀rọ ayélujára.
 
-## Ìparí Ọ̀rọ̀: Bá A Ṣe Lè Fi Ọgbọ́n Lo Òkun Tí A Kò Mọ Àmì Rẹ̀
+## Ìparí Ọ̀rọ̀: Bá A Ṣe Lè Lo Ọgbọ́n Láti Mọ Ibi Tí Kò Sí Àwòrán Yìí
 
 As we sail through the uncharted waters tainted by past financial flaws and government interference, our narrative takes unexpected turns. From the bustling streets of China to the serene landscapes of Sweden, the legislative battlegrounds of the United States, and the coordinated efforts of the European Union, the digital odyssey is a tapestry woven with innovation, challenges, and human narratives.
 
-Privacy, cybersecurity, and financial stability become characters in our dystopian story, each playing a crucial role in shaping the narrative of CBDCs amidst the haunting specters of past financial flaws and potential government interference. It's not just a journey of digital evolution; it's a quest for balance, where progress meets protection, and the shadows of past financial flaws and government intrusion loom large.
+Àkọsílẹ̀, ààbò orí ayélujára àti ìmúrasílẹ̀ ìṣúnná owó di àwọn ohun tí ó wà nínú ìtàn wa tó jẹ́ ti ìgbàlódé. Olúkúlùkù wọn ló ń kó ipa pàtàkì láti ṣe àkójọpọ̀ CBDCs láàrín ẹ̀mí àìmọye èèwọ̀ ètò-òfin àti ìdènà ìjọba. Kì í kàn án ṣe ìrìnnà ìtúndá dígítì; o jé wíwá òṣùpá kan lọ́dọ̀ ara ẹni níbi tí ìtẹ̀síwájú bá pàdé ìdáàbòbò, ati ibi tí òjìji ìwà àìtọ́ iṣúnná ọjà àti ìgbóguntàn ìjọba ti kọjá máa n yọjú sí i.
 
 In this dystopian odyssey, let's stay informed, ask probing questions, and navigate with wisdom. As we explore the uncharted waters of CBDCs tainted by past financial flaws and potential government interference, let our rights, privacy, and financial landscape remain secure and resilient. The future is digital—let's embark on this journey with open minds, wise hearts, and a critical eye on the shadows of past financial flaws and governmental interference that may threaten our financial freedom.

@@ -2,11 +2,11 @@
 published: 2023-12-07
 ---
 
-![CBDC ƒe](/content-images/cbdc-dfb8827faa.webp)
+![CBDC](/content-images/cbdc-dfb8827faa.webp)
 # Viviti ƒe Akpa la Ðeɖe Ðe Go: Mɔzɔzɔ le Central Bank Digital Currency (CBDC) Odyssey me le Ganyawo ƒe Vɔvɔliwo Me
-Nya sia tso : [**Abhishek Tiwari**] gbɔ.
+By : [**Abhishek Tiwari** ƒe amegãwo.
 
-Le xexeame katã ƒe ganyawo ƒe nɔnɔme si le tɔtrɔm ɣesiaɣi me la, ta yeye aɖe le ŋgɔ yim—ta si kɔ ŋkume wu ame ʋɛ aɖewo ko. Menye ɖeko Central Bank Digital Currencies (CBDCs) dona abe amesiwo ƒe nya wogblɔna ene ko o, ke boŋ abe amesiwo ate ŋu ahe ganyawo ƒe tɔtɔ vɛ ene, si doa vɔvɔli ɖe ga gɔmesese si nɔ anyi tsã dzi eye wòhea dzitsitsi ɖe ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ, ŋkuléle ɖe nu ŋu, kple dziɖuɖu ƒe nudede nyawo me vɛ.
+In the ever-shifting landscape of global finance, a new chapter is unfolding—one that raises more than a few eyebrows. Menye ɖeko Central Bank Digital Currencies (CBDCs) dona abe amesiwo ƒe nya wogblɔna ene ko o, ke boŋ abe amesiwo ate ŋu ahe ganyawo ƒe tɔtɔ vɛ ene, si doa vɔvɔli ɖe ga gɔmesese si nɔ anyi tsã dzi eye wòhea dzitsitsi ɖe ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ, ŋkuléle ɖe ame ŋu, kple dziɖuɖu ƒe nudede nyawo me ŋu vɛ.
 
 Kpɔ xexe aɖe si me ganyawo ƒe asitsatsa gblẽa dzesi si womate ŋu atutu o ɖi le dijitaal-nutoa me, xexe si CBDC-habɔbɔwo he vɛ—si nye nu yeye siwo do ŋugbe be tɔtrɔ gã aɖe ava gake woɖee fia hã be ganyawo ƒe gbegblẽ ate ŋu adzɔ hã.
 
@@ -30,14 +30,14 @@ HRF ƒe Central Bank Digital Currency Tracker si wodo ɖe ŋgɔ teti koe nye ema
 
 CBDC-wo le bɔbɔe be elektrikŋusẽ ƒe nutsotso kple internet ƒe kadodo si mesɔ o 
 
-CBDCwo dzi wɔwɔ va zua míaƒe kalẽtɔ ƒe didi, mɔzɔzɔ si me mɔ̃ɖaŋu, ɖoɖowɔwɔ, kple ɖoɖowɔwɔ ƒe kuxiwo yɔ fũ. Yɔyɔ be woawɔ dijitaal ga menye nu yeye aɖe ko o ke boŋ enye amekpekpe si ate ŋu anye dziɖuɖu ƒe nudede nyawo me kple asitɔtrɔ le ganyawo ƒe ɖoɖoa me.
+CBDCwo dzi wɔwɔ va zua míaƒe kalẽtɔ ƒe didi, mɔzɔzɔ si me mɔ̃ɖaŋununya, ɖoɖowɔwɔ, kple ɖoɖowɔwɔ ƒe kuxiwo yɔ fũ. Yɔyɔ be woawɔ dijitaal ga menye nu yeye aɖe ko o ke boŋ enye amekpekpe si ate ŋu anye dziɖuɖu ƒe nudede nyawo me kple asitɔtrɔ le ganyawo ƒe ɖoɖoa me.
 
 ## Mɔzɔzɔ To Dukɔwo Me: Woɖe CBDC Ŋutinyawo Ðe Go
 
 __China: Digitál Ga Elektrɔnik Fexexe (DCEP)__
 
 
-![DCEP ƒe dɔwɔwɔ](/content-images/dcep-featured-c278cf0ef6.webp)
+![DCEP](/content-images/dcep-featured-c278cf0ef6.webp)
 
 Le China ƒe ablɔ siwo dzi dystopian le la, Digital Currency Electronic Payment (DCEP) meʋuna abe nukunu ene o, ke boŋ abe hadomegbenɔnɔ ƒe dziɖuɖu ƒe nyagblɔɖila si si eya ŋutɔ ƒe ganyawo ƒe vɔvɔli vɔ̃ɖiwo le ene. Gbesiagbe asitsatsa ʋãna kple agbe, le ga si woate ŋu awɔ ɖoɖo ɖe eŋu kple ŋutete siwo mele Internet dzi o ƒe nu lédziname ta.
 
@@ -45,7 +45,7 @@ Le China ƒe ablɔ siwo dzi dystopian le la, Digital Currency Electronic Payment
 DCEP yi ŋgɔ wu dijitaal teƒenɔla nyenye, si wowɔ be wòana gbesiagbe asitsatsa nanɔ bɔbɔe. Gake ŋkuléle ɖe amewo ŋu geɖe wu ƒe vɔvɔliwo na amewo tsi dzi ɖe ame ŋutɔ ƒe nyawo ŋu. Mɔ̃ɖaŋununya ƒe ŋgɔyiyi kple ame ɖekaɖekawo ƒe gomenɔamesiwo ƒe dadasɔ nyuie va zua nusi ŋu wòle be woalé ŋku ɖo, si nye vɔvɔli na etsɔme si me woatsɔ ame ŋutɔ ƒe ablɔɖewo asa vɔe.
 
 **Nuŋlɔɖi si va yi:**
-China ƒe ŋutinya si ku ɖe ganyawo ƒe vovototodedeameme kple dziɖuɖu ƒe nudede gadzraɖoƒewo me nye ŋutinya doviviti aɖe na ŋutinya si le edzi yim. DCEP ƒe ŋutete be wòakeke dziɖuɖua ƒe asi ɖe enu ɖe ​​ame ŋutɔ ƒe ganyawo me la gadea dzitsitsi ƒe akpa aɖe ɖe edzi, ne míebu alesi dukɔa te tsitretsiɖeŋunyawo ɖe to eye wòda le ame ɖekaɖekawo ƒe ablɔɖewo dzi ta.
+China ƒe ŋutinya si ku ɖe ganyawo ƒe vovototodedeameme kple dziɖuɖu ƒe nudede gadzraɖoƒewo me nye ŋutinya doviviti aɖe na ŋutinya si le edzi yim. DCEP ƒe ŋutete be wòakeke dziɖuɖua ƒe asi ɖe enu ɖe ​​ame ŋutɔ ƒe ganyawo me la gatsi dzi ɖe eŋu, ne míebu alesi dukɔa te tsitretsiɖeŋunyawo ɖe to eye wòda ame ɖekaɖekawo ƒe ablɔɖe dzi.
 
 
 __United States: Digitál Dollar Dɔwɔna__
@@ -55,56 +55,56 @@ __United States: Digitál Dollar Dɔwɔna__
 Le United States ƒe nɔnɔme gã siwo me mɔkpɔkpɔbuɖeame le me la, Digitál Dollar Dɔwɔɖoɖoa medona abe ŋgɔyiyi ƒe akaɖi ene o, ke boŋ abe ɖaseɖiɖi le dɔwɔwɔ nyuie kple amewo katã ƒe gomekpɔkpɔ le eme ŋu ene, togbɔ be kakaɖedzimanɔamesi ƒe akpa aɖe le eme hã. Enye dɔwɔƒe siwo menye dziɖuɖua tɔ o ƒe ɖoɖo, eye eƒe taɖodzinue nye be yeatrɔ asi le ganyawo ŋu le ŋutinya si me dɔwɔƒewo ƒe dziɖuɖu ƒe vɔvɔliwo le me.
 
 **Ŋutinuwo:**
-Dɔwɔwɔ nyuie kple amewo katã ƒe gomekpɔkpɔ le emee nye nu vevitɔ le ŋutinya sia me, gake ɖoɖowɔwɔ ƒe kuxiwo kple nyatakakawo ƒe dedienɔnɔ ƒe vɔvɔliwo lolo ŋutɔ, si na ɖikeke va le ŋusẽ si dɔa ate ŋu akpɔ ɖe ame ɖekaɖekawo ƒe ablɔɖe dzi ŋu. Senyawo ŋuti numedzodzro siwo yi edzi de dzesi nuŋlɔɖia, gake kakaɖedzi mele emetsonua ŋu le ŋutinya si me nyawo me mekɔ o tsyɔ edzi me o.
+Dɔwɔwɔ nyuie kple amewo katã ƒe gomekpɔkpɔ le emee nye nu vevitɔ le ŋutinya sia me, gake ɖoɖowɔwɔ ƒe kuxiwo kple nyatakakawo ƒe dedienɔnɔ ƒe vɔvɔliwo lolo ŋutɔ, si na ɖikeke va le ŋusẽ si dɔa ate ŋu akpɔ ɖe ame ɖekaɖekawo ƒe ablɔɖe dzi ŋu. Sewɔtakpekpe me numedzodzro siwo yi edzi de dzesi nuŋlɔɖia, gake kakaɖedzi mele emetsonua ŋu le ŋutinya si me nyawo me mekɔ o tsyɔ edzi me o.
 
 **Nuŋlɔɖi si va yi:**
 Ganyawo ŋuti ɖoɖowɔwɔ ƒe ŋutinya sesẽ aɖe le U.S., eye woʋlia nya enuenu le ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ kple dziɖuɖu ƒe nudede nyawo me ŋu. Digitál Dollar Dɔwɔɖoɖoa ƒe dzidzedzekpɔkpɔ nɔ te ɖe liƒo siwo me kɔ siwo woɖo to sedede ƒe ɖoɖo si me kɔ nyuie dzi, didi si dze abe ɖe wòle bɔbɔe wu le xexe si me dɔwɔƒewo ƒe didiwo xɔ aƒe ɖo me ene.
 
 __Sweden: E-Krona__ ƒe xexlẽme.
 
-![E-Krona ƒe nya](/content-images/ekrona_logo-4596e38b72.webp)
+![E-Krona](/content-images/ekrona_logo-4596e38b72.webp)
 
-Esi míele Sweden ƒe anyigba xɔdzowo dzi tom la, E-Krona la ʋuna abe alesi woate ŋu atrɔ ɖe nɔnɔmewo ŋui ŋuti nuŋlɔɖi ene, gake menye gakuxiwo manɔmee o. Enye dijitaal tɔtrɔ si ƒe taɖodzinue nye be woalé ga ƒe mɔnukpɔkpɔ me ɖe asi le habɔbɔ si me ga mele o me, si ɖe hadomegbenɔnɔ si me ga ŋutɔŋutɔ ƒe akɔfafa nyanyɛwo mele o la fia.
+Esi míele Sweden ƒe nuto siwo me ame aɖeke mele o me tom la, E-Krona la ʋuna abe tɔtrɔ ɖe nɔnɔmewo ŋu ƒe ŋutinya ene, gake menye gakuxiwo manɔmee o. Enye dijitaal tɔtrɔ si ƒe taɖodzinue nye be woalé ga ƒe mɔnukpɔkpɔ me ɖe asi le habɔbɔ si me ga mele o me, si ɖe hadomegbenɔnɔ si me ga ŋutɔŋutɔ ƒe akɔfafa nyanyɛwo mele o la fia.
 
 **Ŋutinuwo:**
-E-Krona ƒe susu le nusiwo woate ŋu akpɔ ŋu, eye wòle didim be yeanye mɔnu si te ŋu nɔa te ɖe nɔnɔme sesẽwo nu ɖe ​​ga ŋutɔŋutɔ teƒe le xexe si me ameŋkɔmaɖemaɖe mebɔ o me. Gake kuxiwo doa mo ɖa, vevietɔ le kɔƒenutowo me, eye ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ ƒe dzitsitsi gakpɔtɔ li, si na be ame ŋutɔ ƒe ablɔɖe siwo ate ŋu agblẽ la doa viviti.
+E-Krona ƒe susu le nusiwo woate ŋu akpɔ ŋu, eye wòle didim be yeanye mɔnu si te ŋu nɔa te ɖe nɔnɔme sesẽwo nu ɖe ​​ga ŋutɔŋutɔ teƒe le xexe si me ameŋkɔwo ƒe ŋkɔmaɖemaɖe mebɔ o me. Gake kuxiwo doa mo ɖa, vevietɔ le kɔƒenutowo me, eye ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ ƒe dzitsitsi gakpɔtɔ li, si na be ame ŋutɔ ƒe ablɔɖe siwo ate ŋu agblẽ la doa viviti.
 
 **Nuŋlɔɖi si va yi:**
 Sweden ƒe ganyawo ŋuti nu yeyewo dodo ɖe ŋgɔ ƒe nuŋlɔɖi si nɔ anyi va yi la do vɔvɔli ɖe kuxi siwo ate ŋu ado mo ɖa le dijitaal ga tsɔtsɔ de xɔtuɖoɖo siwo li fifia me. Nuwɔna si da sɔ le ŋgɔyiyi kple ametakpɔkpɔ dome va zua nusi me kakaɖedzi mele o geɖe wu le ŋutinya si me vɔvɔliwo yɔ fũu me.
 
-__Europa Dukɔwo ƒe Habɔbɔ: Euro-dukɔwo ƒe CBDC__
+__Europa Dukɔwo ƒe Habɔbɔ: Euro-dukɔwo ƒe CBDC__ .
 
-![Euro-nutowo me](https://upload.wikimedia.org/wikipedia/commons/c/cb/Logo_European_Central_Bank.svg)
+![Eurozone](https://upload.wikimedia.org/wikipedia/commons/c/cb/Logo_European_Central_Bank.svg)
 
-Míaƒe mɔzɔzɔa wu enu le dukɔ siwo ɖo Europa Dukɔwo ƒe Habɔbɔ ƒe mosaic me, afisi Euro-dukɔwo ƒe CBDC dina be yeatsɔ akpe ɖe ga ŋutɔŋutɔ ŋu o, ke boŋ yeato mɔ aɖe si dzi yeaɖu dzi ahawɔ ɖeka le le ganyawo ƒe nɔnɔme doviviti me.
+Míaƒe mɔzɔzɔa wu enu le dukɔ siwo ɖo Europa Dukɔwo ƒe Habɔbɔ ƒe mosaic me, afisi Euro-dukɔwo ƒe CBDC dina be yemakpe ɖe ga ŋutɔŋutɔ ŋu o, ke boŋ yeato mɔ aɖe si dzi yeaɖu dzi ahawɔ ɖeka le le ganyawo ƒe nɔnɔme doviviti me.
 
 **Ŋutinuwo:**
-Euro-dukɔwo ƒe CBDC ƒe ŋutinyaa ƒo xlã ga ŋutɔŋutɔ ƒe kpeɖeŋutɔ, liƒowo dzi fexexe ƒe nyonyome, kple ganyawo ŋuti nu yeyewo dodo ɖe ŋgɔ—si nye susu nyui siwo tsyɔa tameɖoɖo si do viviti wu dzi be woakpɔ ŋusẽ ɖe teƒe ɖeka dzi. Sededewo ƒe ɖekawɔwɔ va zua nusi ŋu wotsia dzi ɖo, si naa ezãlawo ƒe nuteƒekpɔkpɔ si mewɔa tɔtrɔ o eye wòle dedie, gake esia gblẽa nu le ame ɖekaɖekawo ƒe ganyawo ƒe ɖokuisinɔnɔ ŋu.
+Euro-dukɔwo ƒe CBDC ƒe ŋutinyaa ƒo xlã ga ŋutɔŋutɔ ƒe kpeɖeŋutɔ, liƒowo dzi fexexe ƒe nyonyome, kple ganyawo ŋuti nu yeyewo dodo ɖe ŋgɔ—nu nyui siwo tsyɔa tameɖoɖo si do viviti wu dzi be woakpɔ ŋusẽ ɖe teƒe ɖeka dzi. Sededewo ƒe ɖekawɔwɔ va zua nusi ŋu wotsia dzi ɖo, si naa ezãlawo ƒe nuteƒekpɔkpɔ si mewɔa tɔtrɔ o eye wòle dedie, gake esia gblẽa nu le ame ɖekaɖekawo ƒe ganyawo ƒe ɖokuisinɔnɔ ŋu.
 
 **Nuŋlɔɖi si va yi:**
-Sedede vovovo siwo le EU-dukɔwo dome nye kuxiwo na ɖekawɔwɔ si me kuxi aɖeke mele o, si na ganyawo ƒe gbegblẽ si me mama le ƒe nɔnɔmetata dze. Kuxi siawo me toto va zua nu vevi aɖe na ezãla ƒe nuteƒekpɔkpɔ si le dedie eye wònɔa anyi ɖaa, togbɔ be dziɖuɖu si le teƒe ɖeka ƒe vɔvɔli lolo ŋutɔ hã.
+Sedede vovovo siwo le EU-dukɔwo dome la nye kuxiwo na ɖekawɔwɔ si me kuxi aɖeke mele o, si na ganyawo ƒe gbegblẽ si me mama le ƒe nɔnɔmetata dze. Kuxi siawo me toto va zua nu vevi aɖe na ezãla ƒe nuteƒekpɔkpɔ si le dedie eye wònɔa anyi ɖaa, togbɔ be dziɖuɖu si le teƒe ɖeka ƒe vɔvɔli lolo ŋutɔ hã.
 
 **Akpa Siwo Le Dedie:**
-Euro-dukɔwo ƒe CBDC ƒe dedienɔnɔ le sedede ƒe kuxiwo gbɔ kpɔkpɔ dzidzedzetɔe me. Ne ewɔ ɖeka le EU-dukɔwo dome la, ate ŋu akpe ɖe eŋu be woakpɔ ezãlawo ƒe nuteƒekpɔkpɔ si le dedie eye wòanɔ anyi ɖaa le dijitaal ganyawo ƒe nɔnɔme me
+Euro-dukɔwo ƒe CBDC ƒe dedienɔnɔ le sedede ƒe kuxiwo gbɔ kpɔkpɔ dzidzedzetɔe me. Ne ewɔ ɖeka le EU-dukɔwo dome la, ate ŋu akpe asi ɖe eŋu be woakpɔ ezãlawo ƒe nuteƒekpɔkpɔ si le dedie eye wòanɔ anyi ɖaa le dijitaal ganyawo ƒe nɔnɔme me
 
 ## Digitál Saga ƒe Amegbetɔ ƒe Akpa: Afɔkuwo Kple Gomenɔamesiwo le Vɔvɔliwo Me
 
-Esi míaƒe numekuku vevie le dijitaal odyssey ŋu le edzi yim la, ŋutinya si sɔ kple esia dona—si nye amegbetɔ ƒe akpa si le dijitaal ŋutinya me. Ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ, si nye gomenɔamesi kɔkɔe tsã la, va zua ame aɖe le míaƒe ŋutinya me, eye wòdzea ŋgɔ tsɔtsrɔ̃ le asitsatsa siwo ŋu woate ŋu ake ɖo kple vɔvɔ̃ be woalé ŋku ɖe ye ŋu madzemadzee ta.
+Esi míaƒe numekuku vevie le dijitaal odyssey ŋu le edzi yim la, ŋutinya si sɔ kple esia dona—si nye amegbetɔ ƒe akpa si le dijitaal saga la me. Ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ, si nye gomenɔamesi kɔkɔe tsã la, va zua ame aɖe le míaƒe ŋutinyaa me, eye wòdzea ŋgɔ tsɔtsrɔ̃ le asitsatsa siwo ŋu woate ŋu ake ɖo kple vɔvɔ̃ be woalé ŋku ɖe ye ŋu madzemadzee ta.
 
-Dziɖuɖua ƒe ŋkuléle ɖe nu ŋu, si nye nukpɔsusu si nɔ didiƒe tsã la va zua nusi ate ŋu anye tsitretsiɖeŋula. CBDC ƒe mɔ̃ɖaŋununya zazã le mɔ gbegblẽ nu ate ŋu ana mɔnukpɔkpɔ si tɔgbe medzɔ kpɔ o na dumeviwo ƒe ganyawo, si nye ŋutinya si ɖoa ŋku Orwell ƒe drɔ̃e baɖa siwo do ŋɔdzi na gomenɔamesi si le ame si be wòanye ganyawo ƒe adzamenyawo ɖe afɔku me dzi.
+Dziɖuɖua ƒe ŋkuléle ɖe nu ŋu, si nye nukpɔsusu si nɔ didiƒe tsã la va zua nusi ate ŋu anye tsitretsiɖeŋula. CBDC ƒe mɔ̃ɖaŋununya zazã le mɔ gbegblẽ nu ate ŋu ana mɔnukpɔkpɔ si tɔgbe medzɔ kpɔ o be woakpɔ dukɔmeviwo ƒe ganyawo gbɔ, si nye ŋutinya si ɖoa ŋku Orwell ƒe drɔ̃e baɖa siwo do ŋɔdzi na gomenɔamesi si le ame si be wòanye ganyawo ƒe adzamenyawo dzi.
 
-Ganyawo ƒe gomekpɔkpɔ le eme, si nye mɔkpɔkpɔ ƒe akaɖi tsã la, dze ŋgɔ vovototodedeameme si ate ŋu adzɔ ƒe vɔvɔli. CBDCwo zazã le mɔ gbegblẽ nu ate ŋu ana woakpɔ mɔ tiatia aɖe, si ada le gɔmeɖose siwo nye be woawɔ nu ɖe ​​amewo ŋu sɔsɔe kple amewo katã ƒe gomekpɔkpɔ le eme dzi. Enye nya sue aɖe si tsi tre ɖe ganyawo ƒe ablɔɖe ƒe nu vevitɔ ŋu.
+Ganyawo ƒe gomekpɔkpɔ le eme, si nye mɔkpɔkpɔ ƒe akaɖi tsã la, dze ŋgɔ vovototodedeameme si ate ŋu adzɔ ƒe vɔvɔli. CBDCwo zazã ɖe mɔ gbegblẽ nu ate ŋu ana woakpɔ mɔ tiatia aɖe, si ada le gɔmeɖose siwo nye be woawɔ nu ɖe ​​wo ŋu sɔsɔe kple amewo katã ƒe gomekpɔkpɔ le eme dzi. Enye nya sue aɖe si tsi tre ɖe ganyawo ƒe ablɔɖe ƒe nu vevitɔ ŋu.
 
-![Si](/content-images/futureofCBDC-2-45075d2d9c.webp)
+![Flow](/content-images/futureofCBDC-2-45075d2d9c.webp)
 
 ## Nusiwo Woazã: Anyigbatata na Digital Explorer
 
 Le amesiwo le afɔ tsɔm yi CBDC-wo ƒe anyigbamama si womekpɔ kpɔ o gome la, nunɔamesiwo va zua wò kɔmpasi.
-1. Dukɔwo Dome Nyawo Gbɔkpɔkpɔ ƒe Gadzraɖoƒe ([BIS](https://www.bis.org/search/index.htm?globalset_q=cbdc))
-2. Dukɔwo Dome Ganyawo Gbɔkpɔha ([IMF](https://www.imf.org/en/About))
-3. Numekuku gbalẽwo ([paper](https://deliverypdf.ssrn.com/delivery.php?ID=998105006000066124067099122099097121053040051018055094125101013098095097071065120123041031008002042043044095080119019124023085025010021006031087083026113098095102030064008046091121005002106021127103088122029021016098108064080120068125070088112093101069&EXT=pdf&INDEX=TRUE))
-4. Sukudede Ŋuti Nyadzɔdzɔgbalẽwo ([journal](https://www.bis.org/publ/work976.pdf))
-5. C.E.I Nyati ([Nyati](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))
+1. Dukɔwo Dome Nyawo Gbɔkpɔkpɔ ƒe Gadzraɖoƒe ([BIS](https://www.bis.org/search?keywords=cbdc))
+2. Dukɔwo Dome Ganyawo Gbɔkpɔha ([IMF ƒe nyawo](https://www.imf.org/en/About))
+3. Numekuku gbalẽwo ([pɛpa](https://deliverypdf.ssrn.com/delivery.php?ID=998105006000066124067099122099097121053040051018055094125101013098095097071065120123041031008002042043044095080119019124023085025010021006031087083026113098095102030064008046091121005002106021127103088122029021016098108064080120068125070088112093101069&EXT=pdf&INDEX=TRUE))
+4. Sukudede Ŋuti Nyadzɔdzɔgbalẽwo ([magazine](https://www.bis.org/publ/work976.pdf))
+5. C.E.I Nyati ([Nu](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))
 
 Dɔwɔnu siawo naa wokpɔa nɔnɔme si le tɔtrɔm la vie, eye wonaa gɔmesese, numekuku, kple nyatakaka yeyewo tso dijitaal odyssey ŋu.
 
@@ -112,6 +112,6 @@ Dɔwɔnu siawo naa wokpɔa nɔnɔme si le tɔtrɔm la vie, eye wonaa gɔmesese, 
 
 Esi míele tɔdziʋu kum to tsi siwo womekpɔ o siwo ŋu ganyawo ƒe gbɔdzɔgbɔdzɔ siwo va yi kple dziɖuɖu ƒe nudede nyawo me ƒo ɖii me la, míaƒe ŋutinyaa trɔna le mɔ si míele mɔ kpɔm na o nu. Tso China ƒe ablɔ siwo dzi amewo sɔ gbɔ ɖo dzi va ɖo Sweden ƒe anyigba si dzi tomefafa le, United States ƒe sewɔtakpekpewo, kple Europa Dukɔwo ƒe Habɔbɔ ƒe agbagbadzedze siwo wowɔ ɖekae dzi la, dijitaal odyssey nye avɔ si wotsɔ nu yeyewo, kuxiwo, kple amegbetɔwo ƒe ŋutinyawo lɔ̃.
 
-Ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ, Internet dzi dedienɔnɔ, kple ganyawo ƒe kelili va zua amewo le míaƒe ŋutinya si me nyawo me mekɔ o me, eye wo dometɔ ɖesiaɖe wɔa akpa vevi aɖe le CBDC-wo ƒe ŋutinya ƒe nɔnɔme wɔwɔ me le ganyawo ƒe gbɔdzɔgbɔdzɔ siwo va yi kple dziɖuɖu ƒe nudede nyawo me si ate ŋu ado mo ɖa ƒe gbɔgbɔ vɔ̃wo dome. Menye dijitaal nɔnɔmetɔtrɔ ƒe mɔzɔzɔ koe wònye o; enye dadasɔ didi, afisi ŋgɔyiyi doa go ametakpɔkpɔ le, eye ganyawo ƒe gbɔdzɔgbɔdzɔ siwo va yi kple dziɖuɖu ƒe nudede nyawo me ƒe vɔvɔliwo lolo ŋutɔ.
+Ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ, Internet dzi dedienɔnɔ, kple ganyawo ƒe kelili va zua amewo le míaƒe ŋutinya si me nyawo me mekɔ o me, eye wo dometɔ ɖesiaɖe wɔa akpa vevi aɖe le CBDC-habɔbɔwo ƒe ŋutinya ƒe nɔnɔme wɔwɔ me le ganyawo ƒe gbɔdzɔgbɔdzɔ siwo va yi kple dziɖuɖu ƒe nudede nyawo me si ate ŋu adzɔ ƒe gbɔgbɔ vɔ̃wo dome. Menye dijitaal nɔnɔmetɔtrɔ ƒe mɔzɔzɔ koe wònye o; enye dadasɔ didi, afisi ŋgɔyiyi doa go ametakpɔkpɔ le, eye ganyawo ƒe gbɔdzɔgbɔdzɔ siwo va yi kple dziɖuɖu ƒe nudede nyawo me ƒe vɔvɔliwo lolo ŋutɔ.
 
-Le dystopian odyssey sia me la, mina míanɔ nyatakakawo xɔm, abia nya siwo me woaku nu me le, eye míazɔ mɔ kple nunya. Esi míele CBDC-dukɔwo ƒe tsi siwo womekpɔ kpɔ o siwo ŋu ganyawo ƒe vodada siwo nɔ anyi va yi kple dziɖuɖu ƒe nudede nyawo me ate ŋu aƒo ɖii la me dzrom la, mina míaƒe gomenɔamesiwo, ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ, kple ganyawo nanɔ dedie eye woanɔ te ɖe nɔnɔme sesẽwo nu. Etsɔme nye dijitaal—mina míadze mɔzɔzɔ sia gɔme kple susu ʋuʋu, dzi nunyalawo, kple ŋkuléle ɖe ganyawo ƒe vodada siwo va yi kple dziɖuɖu ƒe nudede nyawo me siwo ate ŋu ade míaƒe ganyawo ƒe ablɔɖe afɔku me ƒe vɔvɔliwo ŋu vevie.
+Le dystopian odyssey sia me la, mina míanɔ nyatakakawo xɔm, abia nya siwo me woaku nu me le, eye míazɔ mɔ kple nunya. Esi míele CBDC-dukɔwo ƒe tsi siwo womekpɔ kpɔ o siwo ŋu ganyawo ƒe gbɔdzɔgbɔdzɔ siwo va yi kple dziɖuɖu ƒe nudede nyawo me si ate ŋu aƒo ɖi la me dzrom la, mina míaƒe gomenɔamesiwo, ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ, kple ganyawo nanɔ dedie eye woanɔ te ɖe nɔnɔme sesẽwo nu. Etsɔme nye dijitaal—mina míadze mɔzɔzɔ sia gɔme kple susu ʋuʋu, dzi nunyalawo, kple ŋkuléle ɖe ganyawo ƒe gbɔdzɔgbɔdzɔ siwo va yi kple dziɖuɖu ƒe nudede nyawo me siwo ate ŋu ade míaƒe ganyawo ƒe ablɔɖe afɔku me ƒe vɔvɔliwo ŋu vevie.

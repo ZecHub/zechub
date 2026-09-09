@@ -72,13 +72,13 @@ Makala ya kwanza. [maelezo ya itifaki](https://zips.z.cash/protocol/protocol.pdf
 
 Kwa cryptography chini, kusoma [Kitabu cha Halo2](https://zcash.github.io/halo2/index.html) na [The Orchard Book](https://zcash.github.io/orchard/), pamoja na [halo2 (mwanga)](https://docs.rs/halo2_proofs/latest/halo2_proofs/) na [shamba la matunda](https://docs.rs/orchard/latest/orchard/) crate docs kando. [Kitabu cha FROST](https://frost.zfnd.org/) inashughulikia saini kizingiti, na ZecHub ina [FROST](/zcash-tech/frost) ukurasa.
 
-## Mtihani wa kuchuja
+## Mtihani wa Wavu
 
 Testnet ni mlolongo tofauti na sarafu thamani, aitwaye TAZ. Wote Zebra na Zakura wanaweza kukimbia dhidi yake, na mzunguko wa fedha za kigeni kwa ajili ya biashara yao katika nchi nyingine pia inaonekana kuwa muhimu zaidi kuliko hata kabla. [mwongozo wa jaribio la ukumbi](https://zcash.readthedocs.io/en/latest/rtd_pages/testnet_guide.html) inashughulikia node Configuration.
 
 [testnet.zcashexplorer.app](https://testnet.zcashexplorer.app/) ni kazi testnet block Explorer, na mainnet mwenzake katika [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app/).
 
-Kupata TAZ ni sehemu awkward. faucets umma kuonekana na kutoweka, na wale wanaohusishwa kutoka hati ya zamani walikuwa si kujibu wakati ukurasa huu iliandikwa. njia ya kuaminika ni kuomba katika Zcash R & D Discord, ambayo ni nini nyaraka za Zcash yenyewe inapendekeza.
+Kupata TAZ ni sehemu ya awkward, kwa sababu bomba zilizounganishwa kutoka hati za zamani wameacha kujibu. [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz) ni bomba la jamii linalotumiwa ambalo linaendesha "node yake mwenyewe, mkoba na mchimbaji", hulipa "drip z2z zilizohifadhiwa" , na milango ya madai na "uthibitisho wa kazi badala ya muuzaji wa captcha". Ni chanzo wazi chini ya MIT. Ikiwa haipatikani, uliza katika Zcash R & D Discord, ambayo ndio hati za Zcash zenyewe zinaonyesha.
 
 ## Nyaraka za jumla
 

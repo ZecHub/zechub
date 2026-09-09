@@ -78,7 +78,7 @@ Testnet é uma cadeia separada com moedas sem valor, chamadas TAZ. Tanto Zebra c
 
 [testnet.zcashexplorer.app](https://testnet.zcashexplorer.app/) é um explorador de blocos testnet funcional, com uma contraparte mainnet em [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app/).
 
-Obter TAZ é a parte incómoda. As faucets públicas aparecem e desaparecem, e as que constavam da documentação mais antiga não respondiam quando esta página foi escrita. A via fiável é perguntar no Discord de I&D de Zcash, que é o que a própria documentação de Zcash sugere.
+Obter TAZ é a parte incómoda, porque as faucets associadas a partir da documentação mais antiga deixaram de responder. [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz) é uma faucet gerida pela comunidade que executa "o seu próprio nó, wallet e miner", paga "pequenas quantias blindadas z2z" e restringe os pedidos com "proof of work no navegador em vez de um fornecedor de captcha". É open source sob a licença MIT. Se estiver indisponível, pergunte no Discord de I&D de Zcash, que é o que a própria documentação de Zcash sugere.
 
 ## Documentação geral
 

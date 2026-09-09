@@ -78,13 +78,13 @@ Testnet jẹ ẹwọn ti o yatọ pẹlu awọn owó-owo ti ko ni iye, ti a npe 
 
 [testnet.zcashexplorer.app ì í ë ¤ì ' ê° ì ¬ë¦¬í °ê ̧°](https://testnet.zcashexplorer.app/) jẹ iṣẹ-ṣiṣe testnet block explorer, pẹlu a mainnet counterpart ni awọn ti o wa ninu rẹ. [ì ë¦¬ì ¤í ¬ë¥1⁄4 í êμ°ê ̧°.zcashexplorer.app](https://mainnet.zcashexplorer.app/).
 
-Gbígba TAZ ni apá tí ó nira. àwọn ìlépa gbangba ń yọjú, wọ́n sì ti parẹ̀, àti èyí tó so mọ́ láti inú ìwé àlàyé ọjọ́ ogbó kò dáhùn nígbàtí a kọ ojúewé yìí. ọ̀nà tí o ṣeé gbára lé jùlọ ni kí á béèrè nínú Zcash R&D Discord, ìyẹn ohun tí àkọsílẹ̀ Zcash fúnra rẹ̀ dábàá.
+Gbígba TAZ ni apá tí ó nira, nítorí pé àwọn ìsọ̀rí tó so mọ́ láti inú ìwé-ìwé àtijọ́ ti dáwọ̀n ìdáhùn. [ìkànnì zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz) jẹ́ àgbékalẹ̀ tí àwùjọ ń darí tó n ṣiṣẹ "nódù tirẹ, wallet àti miner", ó sanwó fún àwọn z2z drips ti a fi ọṣọ bojú" ati ẹtọ ìlépa pẹlú "ìrí iṣẹ aṣàwákiri dípò olùtajà captcha". O jé orísun ìmọ lábẹ MIT. Bí kò bá sí nílè̩, béèrè nínú Zcash R&D Discord, èyí ni ohun tí ìwé-ẹ̀dà Zcash fúnra rẹ sọ pé o yẹ kí wọ́n ṣe.
 
 ## Àwọn ìwé tó wà fún gbogbo èèyàn
 
 [Àkọsílẹ̀ Zcash](https://zcash.readthedocs.io/en/latest/) jẹ́ orísun kan ṣoṣo tó gbòòrò jùlọ, tí ó bo àwọn èròjà ìlànà ìṣàkóso, ìsowọ̀pọ̀ àti ìdásílẹ̀. ka rẹ pẹlú àfiyèsí díẹ̀. o ni ẹ̀dà lòdì sí zcashd, nítorí náà apá ibìkan nínú rèé ṣàpèjúwe kókó ti kò ṣiṣẹ mọ́, nígbàtí ètò ìṣàpẹẹrẹ ati abala oníṣe alágbára ṣì wúlò. [Àpẹẹrẹ Ìṣòro App Wallet Zcash](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html) tó ń gbé ibẹ̀ yẹ ká kà á kí a tó ṣe ohunkóhun tí yóò kan ìpamọ́ àwọn olùṣe.
 
-Ti o ba jẹ tuntun si awọn blockchains ni gbogbogbo, [Mímọ Bitcoin Lọ́nà Tó Dáa](https://github.com/bitcoinbook/bitcoinbook) ni awọn ti o wọpọ iṣeduro fun pín fundamentals, ati ki o jẹ free lati ka ninu kikun. O ko ba bo shielded owo-owo.
+Ti o ba jẹ tuntun si awọn blockchains ni gbogbogbo, [Mímọ Bitcoin Lọ́nà Tó Dára Jù Lọ](https://github.com/bitcoinbook/bitcoinbook) ni awọn ti o wọpọ iṣeduro fun pín fundamentals, ati ki o jẹ free lati ka ninu kikun. O ko ba bo shielded owo-owo.
 
 ## Àwọn irinṣẹ́ mìíràn tí àwọn olùdàgbà ti mẹnuba
 

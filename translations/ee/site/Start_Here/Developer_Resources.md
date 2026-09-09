@@ -32,7 +32,7 @@ ZecHub ƒe a [Nodes Blibowo](/zcash-tech/full-nodes) axa si ƒo nu tso asitsatsa
 
 ## Node ƒe gakotoku bliboa
 
-zcashd bla gakotoku aɖe kple node la. Gakotoku ma megali o, eye... [Zallet ƒe ŋkɔ](https://github.com/zcash/zallet) ye nye esi woatsɔ aɖo eteƒe. Zallet Agbalẽa ɖɔe be "Zcash gakotoku si ƒe node blibo si woŋlɔ ɖe Rust me" si "wotu abe zcashd gakotokua teƒe ene".
+zcashd bla gakotoku aɖe kple node la. Gakotoku ma megali o, eye... [Zallet ƒe ŋkɔ](https://github.com/zcash/zallet) ye nye esi woatsɔ aɖo eteƒe. Zallet Agbalẽa ɖɔe be enye "Zcash gakotoku si ƒe node blibo si woŋlɔ ɖe Rust me" si "wotu abe zcashd gakotokua teƒe ene".
 
 Xlẽ dedienɔnɔ ŋuti nuxlɔ̃amea hafi nànɔ te ɖe edzi. Zallet le beta me, "womelé ŋku ɖe eŋu bliboe o", tɔtrɔ siwo gblẽ "ate ŋu adzɔ ɣesiaɣi, si abia be nàtutu wò Zallet gakotokua eye nàgbugbɔ awɔe", eye menye zcashd RPC mɔnu ɖesiaɖee wotsɔ yi haɖe o.
 
@@ -40,7 +40,7 @@ Ne èle ɖoɖo si li xoxo ʋum ɖe edzi la, ZecHub ƒe a [ʋuʋu ƒe mɔfiame ts
 
 ## Kekeli gakotoku ƒe dɔwɔƒewo
 
-Gakotoku akpa gãtɔ mewɔa node aɖeke o. Woƒoa nu kple server aɖe si léa kɔsɔkɔsɔa ɖe te eye wòtsɔa asi naa eƒe nukpɔkpɔ sue aɖe.
+Gakotoku akpa gãtɔ mewɔa node aɖeke o. Woƒoa nu kple server aɖe si léa kɔsɔkɔsɔa ɖe te eye wòtsɔa eƒe nukpɔkpɔ sue aɖe dea megbe.
 
 [lightwalletd](https://github.com/zcash/lightwalletd) nye subɔsubɔdɔ gbãtɔ, si woŋlɔ ɖe Go me, si woɖɔ be "megbedɔwɔwɔ si naa kadodomɔnu si zãa bandwidth nyuie na Zcash blockchain". [Zaino](/zcash-tech/zaino) nye indexer yeyetɔ, si woŋlɔ kple Rust, eye wòxlẽa nu tso validator blibo gbɔ tsɔ wu be wòatsɔ eya ŋutɔ ƒe kɔsɔkɔsɔa ƒe kɔpi ɖe asi.
 
@@ -55,14 +55,14 @@ Gakotokudɔ akpa gãtɔ dzɔna le Rust crates te [librustzcash ƒe ŋkɔ](https:
 | zcash_client_megbenyawo | "APIwo hena Zcash kekeli ƒe asisiwo si wokpɔ ta na wɔwɔ", si me sync kple asitsatsa tutu hã le |
 | zcash_asitsala_sqlite | "Zcash kekeli ƒe asitsaha si wotu ɖe SQLite dzi", nudzraɖoƒe ƒe ƒuƒoƒo na |
 | zcash_safuiwo | "Zcash safui kple adrɛs dzikpɔkpɔ" |
-| zcash_gbãtɔwo | "Rust ƒe dɔwɔwɔwo le Zcash gbãtɔwo me" |
+| zcash_primitives ƒe gɔmedzenuwo | "Rust ƒe dɔwɔwɔwo le Zcash gbãtɔwo me" |
 | zcash_ɖoɖowɔɖi | "Zcash protocol network ƒe nɔnɔme madzudzɔmadzudzɔe kple asixɔxɔ ƒomeviwo" |
-| atikutsetsebɔ | "Orchard si wokpɔ ta na asitsatsa ƒe ɖoɖowɔɖi" |
+| atikutsetsebɔ | "Orchard ƒe asitsatsa ƒe ɖoɖowɔɖi si wokpɔ ta na" |
 | atikutsetse-kplu-kplu | "Cryptographic agbalẽdzraɖoƒe na Zcash Sapling" |
 | pczt ƒe ƒuƒoƒo | "Dɔwɔnu siwo woatsɔ awɔ dɔ kple Zcash ƒe asitsatsa siwo wowɔ ƒe akpa aɖe", wozãna na xɔtunuwo kple mɔ̃ geɖe ƒe asidede |
-| zip321 ƒe xexlẽme | Fexexe ƒe biabiawo ƒe URIwo, abe alesi wogblɔe le ZIP 321 |
+| zip321 | Fexexe ƒe biabiawo ƒe URIwo, abe alesi wogblɔe le ZIP 321 |
 
-Le asitelefon gome la,... [Android SDK ƒe dɔwɔwɔ](https://github.com/zcash/zcash-android-wallet-sdk) kple... [iOS SDK ƒe dɔwɔwɔ](https://github.com/zcash/zcash-swift-wallet-sdk) xatsa agbalẽdzraɖoƒe mawo. Tsã la, woyɔa iOS ƒe nudzraɖoƒea be ZcashLightClientKit, eyata kadodo kple nyati xoxowo zãa ŋkɔ ma.
+Le asitelefon gome la,... [Android SDK ƒe dɔwɔwɔ](https://github.com/zcash/zcash-android-wallet-sdk) kple... [iOS SDK ƒe dɔwɔwɔ](https://github.com/zcash/zcash-swift-wallet-sdk) xatsa agbalẽdzraɖoƒe mawo. Tsã la, woyɔa iOS nudzraɖoƒea be ZcashLightClientKit, eyata kadodo kple nyati xoxowo zãa ŋkɔ ma.
 
 ## Nusiwo wogblɔ tẽ kple nya ɣaɣlawo
 
@@ -76,23 +76,23 @@ Ne èdi nya ɣaɣla siwo le ete la, xlẽe [Halo2 Agbalẽa](https://zcash.githu
 
 Testnet nye kɔsɔkɔsɔ si to vovo si me gaku siwo ŋu asixɔxɔ mele o le, si woyɔna be TAZ. Zebra kple Zakura siaa ate ŋu aƒu du atsi tre ɖe eŋu, eye... [testnet ƒe mɔfiame](https://zcash.readthedocs.io/en/latest/rtd_pages/testnet_guide.html) ƒo nu tso node ƒe ɖoɖowɔwɔ ŋu.
 
-[testnet.zcashexplorer.dɔwɔwɔ ƒe mɔnu](https://testnet.zcashexplorer.app/) nye testnet block explorer si le dɔ wɔm, kple mainnet ƒe kpeɖeŋutɔ le [mainnet.zcashexplorer.dɔwɔwɔ ƒe mɔnu](https://mainnet.zcashexplorer.app/).
+[testnet.zcashexplorer.dɔwɔwɔ ƒe mɔnu](https://testnet.zcashexplorer.app/) nye testnet block explorer si le dɔ wɔm, kple mainnet hati le [mainnet.zcashexplorer.dɔwɔwɔ ƒe mɔnu](https://mainnet.zcashexplorer.app/).
 
-TAZ xɔxɔ nye akpa si mebɔbɔ o. Dutoƒo pɔmpiwo dona eye wobuna, eye esiwo wotsɔ ka ɖe wo ŋu tso nuŋlɔɖi xoxowo me la menɔ ŋu ɖom esime woŋlɔ axa sia o. Mɔ si ŋu kakaɖedzi le enye be nàbia le Zcash R&D Discord me, si nye nusi Zcash ƒe nuŋlɔɖiwo ŋutɔ do ɖa.
+TAZ xɔxɔ nye akpa si mebɔbɔ o, elabena pɔmpi siwo do ƒome tso nuŋlɔɖi xoxowo me la dzudzɔ dɔwɔwɔ. [zcashfaucet.jinolabs.xyz ƒe nɔnɔmetatawo](https://zcashfaucet.jinolabs.xyz) nye nutoa me ƒe faucet si zɔna "eya ŋutɔ ƒe node, gakotoku kple tomenukulawo", xea fe na "shielded z2z drips", eye agbo nubiagbalẽviwo kple "browser proof of work instead of a captcha vendor". Enye dzɔtsoƒe si woʋu ɖi le MIT te. Ne meli o la, bia le Zcash R&D Discord me, si nye nusi Zcash ƒe nuŋlɔɖiwo ŋutɔ do ɖa.
 
 ## Nuŋlɔɖi siwo wowɔna le mɔ gbadza nu
 
-[Zcash ƒe Nuŋlɔɖiwo](https://zcash.readthedocs.io/en/latest/) gakpɔtɔ nye dzɔtsoƒe ɖeka si keke ta wu, si ƒo nu tso ɖoɖowɔɖi ƒe susuwo, ɖekawɔwɔ kple tomenukuƒewo ŋu. Xlẽe kple ŋuɖɔɖɔɖo aɖe. Wotrɔ asi le eŋu ɖe zcashd ŋu, eyata eƒe akpa aɖewo ɖɔa node si megawɔa dɔ o, esime protocol kple light client ƒe akpawo gakpɔtɔ nye viɖenu. [Zcash Wallet App ƒe Afɔku ƒe Kpɔɖeŋu](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html) si nɔa afima la sɔ be woaxlẽ hafi awɔ nusianu si awɔ dɔ ɖe ezãla ƒe adzamenyawo dzi.
+[Zcash ƒe Nuŋlɔɖiwo](https://zcash.readthedocs.io/en/latest/) gakpɔtɔ nye dzɔtsoƒe ɖeka si keke ta wu, si ƒo nu tso ɖoɖowɔɖi ƒe susuwo, ƒoƒo ɖekae kple tomenukuƒewo ŋu. Xlẽe kple ŋuɖɔɖɔɖo aɖe. Wotrɔ asi le eŋu ɖe zcashd ŋu, eyata eƒe akpa aɖewo ɖɔa node si megawɔa dɔ o, esime protocol kple light client ƒe akpawo gakpɔtɔ nye viɖenu. [Zcash Wallet App ƒe Afɔku ƒe Kpɔɖeŋu](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html) si nɔa afima la sɔ be woaxlẽ hafi awɔ nusianu si aka asi zãla ƒe adzamenyawo ŋu.
 
 Ne ènye ame yeye le blockchains me le goawo katã me la, . [Bitcoin ƒe aɖaŋudzedze](https://github.com/bitcoinbook/bitcoinbook) nye kafukafu si wozãna zi geɖe na gɔmeɖose siwo woama, eye woate ŋu axlẽe bliboe faa. Meƒoa nu tso asitsatsa siwo ŋu wokpɔa akpoxɔnuwo le ŋu o.
 
 ## Dɔwɔnu bubu siwo dɔwɔlawo ƒo nu tsoe
 
-[Arti](https://docs.rs/arti/latest/arti/) nye Tor ƒe Rust dɔwɔwɔ, si zcash_client_backend zãna tsɔ ɖoa ​​mɔ gakotoku ƒe ʋuɖoɖo. [Tailscale ƒe ʋuʋudedi](https://github.com/tailscale/tailscale) va doa ka kple node si wò ŋutɔ nèwɔna. [warp2](https://github.com/hhanh00/warp2) nye fast sync implementation si Hanh wɔ, togbɔ be womewɔe yeyee tso ƒe 2023 me o hã.
+[Arti](https://docs.rs/arti/latest/arti/) nye Tor ƒe Rust dɔwɔwɔ, si zcash_client_backend zãna tsɔ ɖoa ​​mɔ gakotoku ƒe ʋuɖoɖo. [Tailscale ƒe ʋuʋudedi](https://github.com/tailscale/tailscale) va doa go hena kadodo kple node si wò ŋutɔ nèwɔna. [warp2](https://github.com/hhanh00/warp2) nye fast sync implementation si Hanh wɔ, togbɔ be womewɔe yeyee tso ƒe 2023 me o hã.
 
 ## Nutoa me kple wɔnawo
 
-The [Zcash Numekuku Kple Dɔwɔnawo ƒe Masɔmasɔ](https://discord.gg/6AK7keWFaK) nye afisi woƒo nu tso protocol kple gakotoku ƒe ŋgɔyiyi ŋu le, eye [Zcash Nutome Takpekpe](https://forum.zcashcommunity.com/) tsɔa aɖaŋuɖoɖo didiwo kple kpekpeɖeŋu kawo.
+The [Zcash Numekuku Kple Dɔwɔnawo ƒe Masɔmasɔ](https://discord.gg/6AK7keWFaK) nye afisi woƒo nu tso protocol kple gakotoku ƒe ŋgɔyiyi ŋu le, eye [Zcash Nutome Nyamedzroƒe](https://forum.zcashcommunity.com/) tsɔa aɖaŋuɖoɖo didiwo kple kpekpeɖeŋu kawo.
 
 Hackathon me tsonu siwo wowɔ nyitsɔ laa nye nusiwo amewo le tutum ƒe nɔnɔmetata nyui aɖe: [ZecHub ƒe 2024](https://x.com/ZecHub/status/1845212469809033489), [ZecHub ƒe 2025](https://x.com/ZecHub/status/1975565960661635283) kple... [Zypherpunk ƒe Hackathon ƒe 2025](https://forum.zcashcommunity.com/t/zypherpunk-hackathon-winners/53985).
 
@@ -100,7 +100,7 @@ Hackathon me tsonu siwo wowɔ nyitsɔ laa nye nusiwo amewo le tutum ƒe nɔnɔme
 
 Wodzrae ɖo elabena nyati xoxowo do ƒome kpli wo, eye elabena wogakpɔtɔ nye nufiame na alesi node si xɔ dzudzɔ le dɔme la wɔ nui. Mègadze egɔme tso afisia o.
 
-[Zcashd ƒe Agbalẽa](https://zcash.github.io/zcash/) kple... [zcashd RPC ƒe nufiame](https://zcash.github.io/rpc/) nuŋlɔɖi kɔmpiuta dɔwɔɖoɖo si ɖo [agbe ƒe nuwuwu](https://zcash.github.io/zcash/user/end-of-life.html) le July 2026. Eƒe [zcash/zcash ƒe ga](https://github.com/zcash/zcash) nudzraɖoƒea le nudzraɖoƒe.
+[Zcashd ƒe Agbalẽa](https://zcash.github.io/zcash/) kple... [zcashd RPC ƒe nufiame](https://zcash.github.io/rpc/) nuŋlɔɖi kɔmpiutadziɖoɖo si ɖo [agbe ƒe nuwuwu](https://zcash.github.io/zcash/user/end-of-life.html) le July 2026. Eƒe [zcash/zcash ƒe ga](https://github.com/zcash/zcash) nudzraɖoƒea le nudzraɖoƒe.
 
 Ne dɔwɔnu aɖe le asiwò nàtsɔ akpe ɖe eŋu, alo nèkpɔ nane le afisia si gblẽ la, ʋu nya aɖe alo hehe ƒe biabiawo. Menye ɣesiaɣie ŋutete nɔa ƒuƒoƒowo si be woana nusianu nanɔ yeye o, eye aflaga tsɔtsɔ de nusi nèdo goe kpena ɖe mɔfialawo ŋu wòfiaa mɔ wo.
 

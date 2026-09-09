@@ -78,7 +78,7 @@ Testnet est une chaîne distincte avec des pièces sans valeur, appelées TAZ. Z
 
 [testnet.zcashexplorer.app](https://testnet.zcashexplorer.app/) est un explorateur de blocs testnet fonctionnel, avec son équivalent mainnet sur [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app/).
 
-Obtenir des TAZ est la partie délicate. Les faucets publics apparaissent et disparaissent, et ceux référencés dans l'ancienne documentation ne répondaient pas au moment de la rédaction de cette page. La voie fiable consiste à demander sur le Discord R&D de Zcash, ce que suggère d'ailleurs la documentation Zcash elle-même.
+Obtenir des TAZ est la partie délicate, car les faucets référencés dans l'ancienne documentation ont cessé de répondre. [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz) est un faucet géré par la communauté qui utilise « son propre nœud, wallet et mineur », verse des « gouttes z2z blindées » et protège les demandes par une « preuve de travail dans le navigateur plutôt que par un fournisseur de captcha ». Il est open source sous licence MIT. S'il est indisponible, demandez sur le Discord R&D de Zcash, ce que suggère d'ailleurs la documentation Zcash elle-même.
 
 ## Documentation générale
 

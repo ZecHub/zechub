@@ -78,7 +78,7 @@ Testnet, बिना मूल्य वाले coins वाली एक अ
 
 [testnet.zcashexplorer.app](https://testnet.zcashexplorer.app/) एक कार्यशील testnet block explorer है, जिसका mainnet समकक्ष [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app/) पर है।
 
-TAZ पाना कठिन हिस्सा है। सार्वजनिक faucets आते-जाते रहते हैं, और पुराने दस्तावेज़ों से लिंक किए गए faucets इस पृष्ठ के लिखे जाने के समय प्रतिक्रिया नहीं दे रहे थे। विश्वसनीय मार्ग Zcash R&D Discord में पूछना है, जिसकी सलाह Zcash दस्तावेज़ स्वयं देते हैं।
+TAZ पाना कठिन हिस्सा है, क्योंकि पुराने दस्तावेज़ों से लिंक किए गए faucets ने प्रतिक्रिया देना बंद कर दिया है। [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz) समुदाय द्वारा संचालित एक faucet है, जो "अपना नोड, वॉलेट और माइनर" चलाता है, "शील्डेड z2z ड्रिप्स" देता है, और दावों को "captcha विक्रेता के बजाय ब्राउज़र प्रूफ ऑफ वर्क" के साथ सीमित करता है। यह MIT के अंतर्गत ओपन सोर्स है। यदि यह उपलब्ध न हो, तो Zcash R&D Discord में पूछें, जिसकी सलाह Zcash दस्तावेज़ स्वयं देते हैं।
 
 ## सामान्य दस्तावेज़ीकरण
 
