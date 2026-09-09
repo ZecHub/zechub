@@ -5,13 +5,22 @@
 
 # Zcash Nodes Lightwallet
 
-## Utangulizi wa Kitabu cha Mwanzo
+## TL;DR
 
-Watu wengi kutumia Zcash kupitia mkoba mwanga, ambayo haina download blockchain nzima. Badala yake anaongea na server kwamba tayari amefanya kazi hiyo. Ukurasa huu inaelezea nini wale servers ni, kile wanaweza kuona na hawawezi kuhusu wewe, jinsi ya kuelekeza uhusiano wako juu Tor, na jinsi ya kubadilisha seva yako mfuko hutumia.
+* Watu wengi kutumia Zcash kupitia mkoba mwanga, ambayo haina kushusha blockchain nzima. Badala yake, anaongea na server kwamba tayari amefanya kazi hiyo.
+* vipande mbili za programu kutumika mwanga pochi leo: ** lightwalletd, huduma ya awali iliyoandikwa katika Go, na Zaino**, mpya indexer imeandikwa katika kutu.
+* Funguo zako kamwe kuondoka kifaa yako, na server hawezi kutumia fedha yako au kusoma kiasi cha pesa na memos ndani ya shughuli kamili ulinzi.
+* Nini server ni vizuri kuwekwa kujifunza anwani yako ya IP na muda wa shughuli zako  ulinzi manunuzi kulinda nini huenda juu blockchain, si uhusiano wako kwa seva.
+* Tor huondoa kitambulisho cha IP; inapatikana katika pochi zilizojengwa kwenye `zcash_client_backend`, na katika ZODL ni kuweka katika Advanced Settings.
+* Unaweza kubadilisha ambayo server mkoba wako anatumia, au kukimbia yako mwenyewe  wote lightwalletd na Zaino ni wazi chanzo.
+
+## Maelezo ya msingi
+
+Watu wengi kutumia Zcash kupitia mkoba mwanga, ambayo haina download blockchain nzima. Badala yake, anaongea na server kwamba tayari amefanya kazi hiyo. Ukurasa huu inaelezea nini wale servers ni, kile wanaweza kuona na hawawezi kuhusu wewe, jinsi ya kuelekeza uhusiano wako juu Tor, na jinsi ya kubadilisha seva yako mfuko hutumia.
 
 vipande mbili vya programu kutumika mwanga pochi leo. ** lightwalletd** ni huduma ya awali, imeandikwa katika Go. ** Zaino ** ni mpya indexer iliyoandikwa katika kutu, kujengwa kama sehemu ya kazi zcashd deprecation.
 
-## Nini mwanga mkoba server gani
+### Nini mwanga mkoba server gani
 
 Mwanga mkoba server anakaa kati ya mfuko wako na blockchain Zcash na inatoa bandwidth-ufanisi mtazamo wa mlolongo. Ni anafanya mambo matatu kwa ajili yenu.
 
@@ -23,7 +32,7 @@ Inajibu maswali ya mnyororo, kama vile urefu wa sasa na habari za ada ambayo mko
 
 Pochi yako bado inafanya kazi ya kibinafsi ndani. Inaweka funguo zako, jaribio-kufuta vitalu kupata maelezo yako na kujenga na kusaini shughuli kwenye kifaa chako.
 
-## Nini server unaweza na hawezi kuona
+### Nini server unaweza na hawezi kuona
 
 Hii ni sehemu ambayo ni rahisi kupata makosa. funguo yako kamwe kuondoka kifaa chako, lakini hiyo si sawa kama server kujifunza chochote kuhusu wewe.
 
@@ -46,7 +55,17 @@ Mfano pia anabainisha kuwa kesi ya kawaida inachukua "uhusiano wa uaminifu kati 
 
 Kwa hiyo muhtasari wa uaminifu ni huu. Seva nyepesi ya mkoba haiwezi kutumia pesa zako, na haiwezi kusoma kiasi au kumbukumbu katika shughuli zako za ulinzi. Kinachowekwa vizuri kujifunza ni anwani yako ya IP na wakati wa shughuli yako, na hizo mbili pamoja zinaweza kusema mengi juu ya mtu. Shughuli zilizohifadhiwa zinalinda kile kinachoendelea kwenye blockchain. Hazifichi peke yake unganisho lako kwa seva.
 
-## Kuelekeza juu ya Tor
+## Visual / Ulinganisho
+
+Fikiria maktaba ya umma ambayo ana kila gazeti milele kuchapishwa. node kamili ni msomaji ambaye inachukua nyumbani archive nzima. mkoba mwanga ni msomi ambao aliuliza mwandishi wa vitabu kwa ajili ya digest siku badala  karatasi nyembamba kubeba tu kutosha kutambua kama kitu chochote wasiwasi yao.
+
+Digest imefungwa: Mkurugenzi wa maktaba anaikusanya bila kuwa na uwezo wa kusoma vitu ambavyo ni muhimu kwako, nawe unaifungua nyumbani kwa ufunguo wako mwenyewe. Hiyo ndiyo block ya compact, na kufungua ni jaribio la kutenganisha kwenye kifaa chako.
+
+Lakini maktaba bado anaona ambayo msomaji kutembea katika, wakati gani, na jinsi nene kifungu wao uliofanywa nje. Hiyo ni anwani ya IP na timing  inayoonekana kutoka dawati, bila kujali vizuri muhuri bahasha ni. Tor ni sawa na kupeleka mjumbe asiyejulikana: maktaba inaendelea mikono juu ya mfuko huo, lakini tena anajua ambaye nyumba huenda kwa.
+
+## Kuzama kwa Kina Chini ya Maji
+
+### Kuelekeza juu ya Tor
 
 Tor breaks kiungo kati ya anwani yako IP na mkoba wako trafiki, ambayo huondoa nguvu zaidi kitambulisho katika meza hapo juu.
 
@@ -56,19 +75,25 @@ Watengenezaji wa Zaino kufanya hoja hiyo, akitoa mfano tishio moja kwa moja: kun
 
 Katika ** ZODL**, Tor ni kuweka katika Advanced Settings. kuchapishwa noti mkoba wa pointi watumiaji kwa mode mwongozo uhusiano "pamoja kuwezesha Tor katika Mipangilio ya juu" kama wao "kupendelea kupunguza yatokanayo metadata", na programu inatoa kugeuka kwenye Tor kabla kurejesha mfuko wa fedha, ambayo ni wakati mpya IP ingekuwa vinginevyo amefungwa historia nzima mkoba.
 
-Tor huficha IP yako kutoka kwa seva, lakini haina kubadilisha kile server anajifunza kutokana na maombi unayofanya. Na routing ya vitunguu inaongeza latency, hivyo kusawazisha inachukua muda mrefu zaidi. Kuendesha seva yako mwenyewe huepuka swali la uaminifu kwa njia tofauti, kwani basi mwendeshaji ni wewe.
+Tor huficha IP yako kutoka kwa seva, lakini haibadilishi kile ambacho server inafundisha kutokana na maombi unayofanya. Na njia ya vitunguu inaongeza latency, hivyo usawazishaji unachukua muda mrefu zaidi. Kuendesha seva yako mwenyewe huepuka swali la uaminifu tofauti, kwani basi mwendeshaji ni wewe.
 
-## Zaino, indexer Rust
+### Zaino, indexer Rust
 
-[Zaino](/site/Zcash_Tech/Zaino) ni indexer iliyoandikwa katika kutu na timu Zingo, kujengwa kuchukua nafasi ya lightwalletd kama sehemu ya kazi zcashd deprecation. Ni mtumishi mwanga wateja, wateja kamili na block explorers, kusoma data mlolongo uliofanyika kwa "ama Zebra au Zcashd full validator".
+[Zaino](/zcash-tech/zaino) ni indexer iliyoandikwa katika kutu na timu Zingo, kujengwa kuchukua nafasi ya lightwalletd kama sehemu ya kazi zcashd deprecation. Ni mtumishi mwanga wateja, wateja kamili, na block explorers, kusoma data mlolongo uliofanyika kwa "ama Zebra au Zcashd full validator".
 
-Ni chini ya maendeleo hai, na toleo 0.7.0 iliyotolewa katika Agosti 2026. ni inalenga kukaa nyuma sambamba na lightwalletd ambapo inawezekana, hivyo pochi unaweza kuashiria bila kuwa rewritten.
+Ni chini ya maendeleo hai, na toleo 0.8.0 iliyotolewa katika Agosti 2026. ni inalenga kukaa nyuma sambamba na lightwalletd ambapo inawezekana, hivyo pochi unaweza kuashiria bila kuwa rewritten.
 
 Zaino ina ukurasa wake mwenyewe na michoro usanifu, hivyo ukurasa huu inashughulikia tu jukumu lake kama mwanga mkoba server.
 
-## Orodha ya seva
+### Kuendesha biashara yako mwenyewe
 
-Makala ya kwanza. [hosh.zec.rocks (mawe ya mawe)](https://hosh.zec.rocks/zec) Dashibodi hufuatilia seva za umma na afya zao, na ni mahali pa kuangalia kile ambacho kwa kweli kinaendelea. [hali.zec.miamba](https://status.zec.rocks/) inaonyesha hali ya huduma.
+Chaguo nguvu ni kuwa operator yako mwenyewe, ambayo huondoa swali uaminifu kabisa. Watumishi wote wawili ni wazi chanzo: [lightwalletd](https://github.com/zcash/lightwalletd) katika Go na [Zaino](https://github.com/zingolabs/zaino) Wote kusoma kutoka validator kamili, hivyo wewe pia wanataka [Zebra](/zcash-tech/zebra-full-node).
+
+## Matokeo ya Kimatendo
+
+### Orodha ya seva
+
+Makala ya kwanza. [hosh.zec.rocks (mawe ya mawe)](https://hosh.zec.rocks/zec) Dashibodi hufuatilia seva za umma na afya zao, na ni mahali pa kuangalia kile ambacho kwa kweli kinaendelea. [status.zec.rocks](https://status.zec.rocks/) inaonyesha hali ya huduma.
 
 Seva zilizoorodheshwa kwenye dashibodi wakati wa kuandika:
 
@@ -82,7 +107,7 @@ Msimamizi. Maelezo.
 
 Angalia dashibodi badala ya kuamini orodha hii. Waendeshaji huja na kwenda, na ukurasa kama huu umri.
 
-## Kubadilisha seva katika mkoba wako
+### Kubadilisha seva katika mkoba wako
 
 Worth kufanya kama unataka kuchagua operator unaowaamini, kuenea shughuli katika waendeshaji mbalimbali, au uhakika juu yako mwenyewe.
 
@@ -110,14 +135,28 @@ Burger orodha katika kona ya juu kushoto, kisha Mipangilio, basi Advanced.
 
 ![eZcash server settings](/content-images/655c0172-61a0-4322-b8cf-4eee4bb53b51-0b93df2e71.webp)
 
-Picha hizo zilichukuliwa Machi 2025 na programu zimetuma matoleo tangu wakati huo, kwa hivyo vifungo vinaweza kuwa vimehama.
+Picha hizo zilipigwa mwezi Machi 2025, na programu zimekuwa zikiwasilisha matoleo tangu wakati huo, kwa hivyo vifungo vinaweza kuwa vimehamishwa.
 
-## Kuendesha biashara yako mwenyewe
+## Makosa ya Kawaida
 
-Chaguo nguvu ni kuwa operator yako mwenyewe, ambayo huondoa swali uaminifu kabisa. Watumishi wote wawili ni wazi chanzo: [lightwalletd](https://github.com/zcash/lightwalletd) katika Go na [Zaino](https://github.com/zingolabs/zaino) Wote kusoma kutoka validator kamili, hivyo wewe pia wanataka [Zebra](/site/Zcash_Tech/Zebra_Full_Node).
+** Kufikiri server unaweza kusoma shughuli yako** Haiwezi. funguo zako kukaa kwenye kifaa chako, na kiasi cha fedha na memos ndani ya mikataba kikamilifu ulinzi kubaki encrypted hata dhidi adui ambaye ina compromised seva.
+
+** Kusoma "kuhifadhiwa" kama "unganisho bila majina".** shughuli Shielded kulinda nini huenda juu ya blockchain. anwani yako IP na muda wa shughuli zako ni safu tofauti, na kwamba safu ni hasa kile server anaona.
+
+** Kufikiria Tor huondoa kila kufuatilia**. Tor anaficha IP yako kutoka server, lakini haina kubadilisha nini seva kujifunza kutokana na maombi ya kufanya wewe, na ni kuongeza latency kwa syncing.
+
+** Kuamini orodha ya seva kwenye ukurasa wa wiki**. Waendeshaji kuja na kwenda. Angalia [hosh.zec.rocks (mawe ya mawe)](https://hosh.zec.rocks/zec) kwa nini ni kweli inaendesha kabla ya lengo mkoba wako katika kitu chochote.
 
 ## Muhtasari
 
 Wallets mwanga kukupa hifadhi kulindwa bila nafasi disk, ambayo ni biashara nzuri. Tu kuwa wazi kuhusu nini wewe ni biashara. server haiwezi kuchukua fedha yako au kusoma kiasi wako shielded, lakini vizuri kuwekwa kuona anwani yako ya IP na wakati transact. Njia juu Tor, kuchagua operator yako makusudi, au kukimbia mwenyewe.
+
+## Kurasa Zinazohusiana
+
+- [Nani anaweza kuona malipo yako ya Zcash?](/start-here/who-can-see-your-zcash-payment)  mtazamo wa kiwango cha mwanzoni kwa swali moja.
+- [Kile Ambacho Mtafutaji wa Majengo ya Kijumba Aweza Kuona](/zcash-tech/what-a-block-explorer-can-see)  nini ni inayoonekana kwenye mnyororo, kinyume na katika seva.
+- [Zaino](/zcash-tech/zaino)  usanifu michoro na jukumu pana ya indexer Rust.
+- [Zebra Full Node (Njia ya Kuunganisha)](/zcash-tech/zebra-full-node)  validator mwanga mkoba server anasoma kutoka.
+- [Zcash Wallet Syncing (Usawazishaji wa Pochi za Kifedha)](/zcash-tech/zcash-wallet-syncing)  jinsi ya vitalu compact server hutuma ni kusindika na mkoba wako.
 
 ** Mwisho updated:** Agosti 2026

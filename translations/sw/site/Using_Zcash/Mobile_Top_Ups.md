@@ -37,6 +37,27 @@ Hey... line yangu imekuwa sifa! Unaweza pia kuthibitisha barua pepe yako wakati 
 
 ![Step 7 - Successful top-up](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
 
+## Kununua top-up bila akaunti
+
+Njia hapo juu inahitaji kuunda akaunti ya Coinsbee. Kama wewe badala yake si, CardsRelay anauza simu za mkononi top-ups kwa ZEC bila usajili.
+
+### 1. Chagua nchi yako na operator
+Kutembelea [KadiRelay](https://cardsrelay.com) na kufungua sehemu ya simu za juu Ups. Zaidi ya 750 waendeshaji ni mkono duniani kote.
+
+### 2. Ingiza idadi na kiasi cha fedha.
+Jaza namba ya simu ambayo itakuwa sifa na kuchagua juu-up thamani. bei iliyoonyeshwa ni moja yote katika jumla, bila tofauti kubadilishana kiwango cha markup aliongeza baadaye.
+
+### 3. Ingiza barua pepe yako
+Anwani ya barua pepe inahitajika ili uthibitisho unaweza kutolewa, na ni kuthibitishwa kabla utaratibu imewekwa. Hakuna akaunti kuundwa na hakuna hati za kitambulisho zinazotakiwa.
+
+### 4. Kulipa na ZEC
+Chagua Zcash wakati wa malipo. ZEC inakubaliwa moja kwa moja badala ya kubadilishwa na mtu wa tatu. Anwani ya kulipa na kiasi halisi kinaonyeshwa.
+
+### 5. Uthibitisho
+Kuongeza ni kusindika na uthibitisho fika kwa barua pepe, kawaida ndani ya sekunde.
+
+CardsRelay also sells gift cards for around 2,500 brands, and accepts Monero and Zano alongside Zcash. It is operated by Payzy ME FZ Ltd.
+
 ---
 
 ![Additional screenshot](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)
