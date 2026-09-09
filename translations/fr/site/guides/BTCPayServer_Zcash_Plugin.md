@@ -124,7 +124,7 @@ Tous les fonds vont **directement** vers le portefeuille du commerçant. La séc
 ### Comment cela fonctionne
 
 - **Le portefeuille est créé à l’avance.**  
-  Le commerçant utilise un portefeuille Zcash qui prend en charge les Viewing Key - comme [YWallet](https://ywallet.app/installation) ou [Zingo! Wallet](https://zingolabs.org/).  
+  Le commerçant utilise un portefeuille Zcash qui prend en charge les Viewing Key - comme [Zkool](https://github.com/hhanh00/zkool2/) ou [Zingo! Wallet](https://zingolabs.org/).  
   Une liste complète est disponible sur [ZecHub.wiki](https://zechub.wiki/wallets).
 
 - **BTCPay Server se connecte via une Viewing Key.**  
@@ -660,7 +660,7 @@ Après avoir installé le plugin, une nouvelle section **Zcash** apparaîtra dan
 
 > Tous les portefeuilles ne prennent pas encore en charge l’export de **Unified Full Viewing Key (UFVK)**.  
 > Options recommandées :  
-> – [**YWallet**](https://ywallet.app/installation)  
+> – [**Zkool**](https://github.com/hhanh00/zkool2/)  
 > – [**Zingo! Wallet (version pour PC)**](https://zingolabs.org/)  
 > Dans les deux applications, recherchez l’export UFVK dans la section sauvegarde/export.
 

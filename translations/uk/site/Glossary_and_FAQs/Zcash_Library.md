@@ -207,9 +207,9 @@
 
 ## W
 
-| Term | Definition |
+| Термін | Визначення |
 |------|-----------|
-| Wallet | Програмне або апаратне забезпечення, яке зберігає приватні ключі та дозволяє надсилати/отримувати ZEC. До активних гаманців належать ZODL (iOS/Android), Zingo! (мобільний/десктопний), Nighthawk (Android), YWallet, Zallet (незабаром) і Keystone (апаратний). Повний список дивіться у [Гаманці екосистеми Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Гаманець | Програмне або апаратне забезпечення, яке зберігає приватні ключі та дозволяє надсилати/отримувати ZEC. До активних гаманців належать ZODL (iOS/Android), Zingo! (мобільний/десктопний), Nighthawk (Android), Zkool (мобільний/десктопний), Zallet (незабаром) і Keystone (апаратний). Повний список дивіться у [Гаманці екосистеми Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | Перший JavaScript SDK для Zcash, створений ChainSafe для браузерних середовищ. Він лежить в основі снапу Zcash Shielded Wallet, який приніс shielded ZEC до MetaMask. |
 
 ## X

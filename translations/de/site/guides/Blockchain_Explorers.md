@@ -6,7 +6,7 @@
 
 ## Einführung
 
-In der traditionellen Geschäftswelt enthält jede Transaktion einen Beleg als Kaufnachweis. Ebenso erhält ein Nutzer in der Blockchain-Welt für jede abgeschlossene Transaktion einen digitalen Beleg in Form einer Transaktions-ID. Die meisten Wallets stellen dir diese zur Verfügung. Blockchain-Explorer sind einfach Werkzeuge, mit denen man sichtbar machen kann, was bereits auf einer Blockchain passiert ist. Als Eingaben verwenden sie: Transaktions-IDs, Adressen oder Block-Hashes, und geben visuell aus, was stattgefunden hat.
+In der traditionellen Geschäftswelt enthält jede Transaktion einen Kaufbeleg als Nachweis des Erwerbs. Ebenso erhält ein Nutzer in der Blockchain-Welt für jede abgeschlossene Transaktion einen digitalen Beleg in Form einer Transaktions-ID. Die meisten Wallets stellen diesen für dich bereit. Blockchain-Explorer sind einfach Werkzeuge, die es ermöglichen, darzustellen, was bereits auf einer Blockchain geschehen ist. Sie nehmen Transaktions-IDs, Adressen oder Block-Hashes als Eingabe entgegen und zeigen visuell an, was stattgefunden hat.
 
 ## Beispiele
 <div>
@@ -24,26 +24,25 @@ In der traditionellen Geschäftswelt enthält jede Transaktion einen Beleg als K
 </div>
 
 
-#### Beachte bei Zcash, dass die zweite Transaktion alle wichtigen Details verbirgt; das ist wichtig und hat große Auswirkungen in einer digitalen Welt.
+#### Beachte bei Zcash, dass bei der zweiten Transaktion alle wichtigen Details verborgen sind. Das ist wichtig und hat große Auswirkungen in einer digitalen Welt.
 
 
 ## Blockchain-Karten
 
-Wir haben also diese lange Zeichenfolge als digitalen Beleg, und jetzt? Hier verwenden wir einen [Blockchain-Explorer](https://nym.com/blog/using-blockchain-privately), oder eine Karte, um besser zu verstehen, was auf der Blockchain passiert ist. Beachte, dass jede Chain oben ihre eigene Version eines [Blockchain-Explorers](https://nym.com/blog/using-blockchain-privately) hat. Es ist wichtig zu verstehen, dass all diese Blockchain-Projekte Beispiele für Open-Source-Software sind. Das bedeutet, dass jeder zum Code beitragen und/oder ihn nach eigenen Wünschen forken kann. Mit diesem Verständnis wird klar, dass sich jedes Projekt auf unterschiedliche Bereiche spezialisiert und den Blockchain-Explorer an die Anforderungen des jeweiligen Projekts anpasst.
+Wir haben also diese lange Zeichenfolge als digitalen Beleg – und nun? Hier verwenden wir einen [Blockchain-Explorer](https://nym.com/blog/using-blockchain-privately) oder eine Karte, um besser zu verstehen, was auf der Blockchain passiert ist. Beachte oben, dass jede Chain ihre eigene Version eines [Blockchain-Explorers](https://nym.com/blog/using-blockchain-privately) hat. Es ist wichtig zu verstehen, dass all diese Blockchain-Projekte Beispiele für Open-Source-Software sind. Das heißt, jeder kann zum Code beitragen und/oder ihn nach eigenen Vorstellungen forken. Mit diesem Verständnis spezialisiert sich jedes Projekt auf unterschiedliche Bereiche und passt den Blockchain-Explorer an die Bedürfnisse des jeweiligen Projekts an.
 
 ### Blöcke
-Transaktionen werden in *Blöcke* eingeordnet. Wenn ein Block gemined/validiert wird, wird jede Transaktion in diesem Block bestätigt und ein Block-Hash erstellt. Jeder erzeugte Hash kann in einen Block-Explorer eingegeben werden. Vielleicht hast du gesehen, dass CEXs eine bestimmte Anzahl an *Bestätigungen* benötigen, bevor sie deine Gelder freigeben; das ist die Kennzahl, die sie verwenden, um sicherzustellen, dass deine Transaktion 
-ausreichend finalisiert ist. Wie bestimmt die Blockchain, welche Transaktionen in den nächsten Block gelangen? Ein komplexes Forschungsthema, aber die meisten modernen Chains nutzen das Konzept von *Gebühren*, um zu bestimmen, wer in der Warteschlange nach vorne rückt. Je höher die Gebühr, desto größer die Chance, weiter nach vorne in der Schlange zu kommen.
+Transaktionen werden in *Blöcke* aufgenommen. Wenn ein Block geschürft/validiert wird, wird jede Transaktion innerhalb dieses Blocks bestätigt und ein Block-Hash erstellt. Jeder erzeugte Hash kann in einen Block-Explorer eingegeben werden. Vielleicht hast du gesehen, dass CEXs eine bestimmte Anzahl an *Bestätigungen* benötigen, bevor sie deine Gelder freigeben; anhand dieser Kennzahl stellen sie sicher, dass deine Transaktion ausreichend finalisiert ist. Wie bestimmt die Blockchain, welche Transaktionen in den nächsten Block gelangen? Das ist ein komplexes Forschungsthema, aber die meisten modernen Chains nutzen *Gebühren*, um zu bestimmen, wer an den Anfang der Warteschlange kommt. Je höher die Gebühr, desto höher die Chance, weiter nach vorne in der Warteschlange zu rücken.
 
 ### Adressen
 
-Eine unterhaltsame Möglichkeit, [Blockchain-Explorer](https://nym.com/blog/using-blockchain-privately) visuell zu verstehen, besteht darin, die Adresse einer beliebigen zufälligen Transaktion einzugeben. Dann kannst du in der Zeit zurückgehen und sehen, woher die Gelder ursprünglich kamen! Jede Transaktion hat sowohl eine Eingabe- als auch eine Ausgabeadresse. Mit diesen Informationen kann man sich leicht sowohl vorwärts als auch rückwärts von jeder bereits ausgegebenen Transaktion bewegen. Für alle, die Rätsel mögen, ist dies das digitale Äquivalent eines riesigen finanziellen Puzzles und kann für Transparenzzwecke genutzt werden. Die Verwendung eines Blockchain-Explorers macht dies nicht nur viel leichter sichtbar, sie *verdeutlicht auch* die Notwendigkeit von Transaktions-Privatsphäre. Solange du nicht abgeschirmtes Zcash verwendest, kannst du das mit *jeder* transparenten Blockchain tun: BTC, ETH, ATOM, DOGE, VTC usw. Dieser Punkt ist entscheidend für alle, die die Blockchain sicher nutzen, während wir uns in eine rein digitale Zukunft bewegen.
+Eine unterhaltsame Art, [Blockchain-Explorer](https://nym.com/blog/using-blockchain-privately) visuell kennenzulernen, ist die Eingabe der Adresse einer beliebigen zufälligen Transaktion. Dann kannst du zeitlich zurückgehen und sehen, woher die Gelder stammen! Jede Transaktion besitzt sowohl eine Eingabe- als auch eine Ausgabeadresse. Mit dieser Information kann man sich von jeder ausgegebenen Transaktion aus sowohl vorwärts als auch rückwärts bewegen. Für Rätselfreunde ist dies das digitale Äquivalent eines riesigen Finanzpuzzles und könnte für Transparenzzwecke genutzt werden. Ein Blockchain-Explorer macht dies nicht nur deutlich leichter sichtbar, sondern *verdeutlicht auch* die Notwendigkeit von Transaktionsprivatsphäre. Sofern du kein abgeschirmtes Zcash verwendest, kannst du dies bei *jeder* transparenten Blockchain tun: BTC, ETH, ATOM, DOGE, VTC usw. ... . Dieser Punkt ist entscheidend für alle, die die Blockchain auf dem Weg in eine ausschließlich digitale Zukunft sicher nutzen möchten.
 
 ### Beträge
 
-Ähnlich wie bei den oben genannten Adressen sind bei jeder Transaktion auf einer öffentlichen Blockchain auch die Beträge öffentlich sichtbar. Das umfasst die Beträge sowohl der Eingabe- als auch der Ausgabeadressen jeder Transaktion. Eine Ausnahme ist, wenn du dich dafür entscheidest, Shielded Zcash zu verwenden -- dann sind alle Beträge verborgen. Für Kleinunternehmer, die für *fairen Handel* zwingend Privatsphäre benötigen, ist das ein großer Vorteil!
+Ähnlich wie bei den oben genannten Adressen sind bei jeder Transaktion auf einer öffentlichen Blockchain die Beträge öffentlich und für alle sichtbar. Dies umfasst die Beträge sowohl der Eingabe- als auch der Ausgabeadressen jeder Transaktion. Eine Ausnahme besteht, wenn du dich für Shielded Zcash entscheidest – dann sind alle Beträge verborgen. Für Kleinunternehmer, die für *fairen Handel* unbedingt Privatsphäre benötigen, ist dies ein großer Vorteil!
 
-![Beträge](/content-images/206312357-e9504151-830f-4fa1-81cb-f23619-210f51493c.webp)
+![amounts](/content-images/206312357-e9504151-830f-4fa1-81cb-f23619-210f51493c.webp)
 
 
 ### Was ein Explorer bei Zcash sehen kann und was nicht
@@ -51,30 +50,41 @@ Eine unterhaltsame Möglichkeit, [Blockchain-Explorer](https://nym.com/blog/usin
 #### TL;DR
 - Transparente (`t`) Adressen sind in einem Explorer vollständig sichtbar, genau wie bei Bitcoin
 - Vollständig abgeschirmte (z zu z) Transaktionen verbergen den Betrag, die Adressen und das Memo
-- Die Gebühr bleibt weiterhin sichtbar, selbst bei einer vollständig abgeschirmten Transaktion
-- Shielding (das Verschieben von `t` in abgeschirmt) und Deshielding (abgeschirmt zurück zu `t`) sind teilweise sichtbar, weil eine Seite transparent ist
-- Privatsphäre bleibt nur erhalten, solange die Gelder innerhalb der abgeschirmten Pools bleiben
+- Die Gebühr bleibt selbst bei einer vollständig abgeschirmten Transaktion sichtbar
+- Shielding (Verschieben von `t` zu abgeschirmt) und Deshielding (abgeschirmt zurück zu `t`) sind teilweise sichtbar, weil eine Seite transparent ist
+- Privatsphäre bleibt nur erhalten, solange sich die Gelder innerhalb der abgeschirmten Pools befinden
 
 Zcash hat mehr als eine Art von Adresse, und ein Explorer behandelt sie sehr unterschiedlich.
 
-Transparente Adressen, die mit `t` beginnen, funktionieren wie bei Bitcoin. Ein Explorer zeigt den Absender, den Empfänger, den Betrag und die Spur zurück zu dem Punkt, von dem die Gelder kamen.
+Transparente Adressen, die mit `t` beginnen, funktionieren wie bei Bitcoin. Ein Explorer zeigt den Absender, den Empfänger, den Betrag und die Spur zurück zu dem Ort, von dem die Gelder stammen.
 
-Abgeschirmte Adressen sind die private Seite. Gelder in den Sapling- oder Orchard-[shielded pools](https://zechub.wiki/using-zcash/shielded-pools#content) sind durch Zero-Knowledge-Beweise geschützt. Wenn du eine vollständig abgeschirmte Transaktion nachschlägst, kann der Explorer weder den Betrag noch die Adressen oder das Memo anzeigen. Er kann nur bestätigen, dass eine gültige Transaktion stattgefunden hat und in einem Block aufgezeichnet wurde. Dies ist das verborgene private Beispiel, das oben auf dieser Seite gezeigt wird.
+Abgeschirmte Adressen sind die private Seite. Gelder in den Sapling- oder Orchard-[abgeschirmten Pools](https://zechub.wiki/using-zcash/shielded-pools#content) werden durch Zero-Knowledge-Proofs geschützt. Suche eine vollständig abgeschirmte Transaktion, und der Explorer kann weder den Betrag noch die Adressen oder das Memo anzeigen. Er kann nur bestätigen, dass eine gültige Transaktion stattgefunden hat und in einem Block aufgezeichnet wurde. Dies ist das versteckte private Beispiel, das oben auf dieser Seite gezeigt wird.
 
-Ein Detail bleibt selbst bei vollständig abgeschirmten Transaktionen sichtbar: die Gebühr. Die Konsensregeln von Zcash verlangen, dass die transparente Gebühr ausdrücklich angegeben wird, daher kann ein Explorer sie immer anzeigen, auch wenn die Beträge verschleiert sind. Aus diesem Grund ist es gute Praxis, die Standardgebühr der Wallet zu verwenden, damit deine Transaktion nicht durch einen ungewöhnlichen Betrag auffällt.
+Ein Detail bleibt selbst bei vollständig abgeschirmten Transaktionen sichtbar: die Gebühr. Die Zcash-Konsensregeln verlangen, dass die transparente Gebühr ausdrücklich angegeben wird. Daher kann ein Explorer sie immer anzeigen, selbst wenn die Beträge verschleiert sind. Deshalb ist es sinnvoll, die Standard-Wallet-Gebühr zu verwenden, damit deine Transaktion nicht durch die Zahlung eines ungewöhnlichen Betrags auffällt.
 
-Der Explorer kann auch erkennen, wenn Gelder zwischen der transparenten und der abgeschirmten Seite wechseln. Das Verschieben von `t`-Geldern in einen Pool ist Shielding, das Zurückholen ist Deshielding. Diese Übergänge sind teilweise sichtbar, weil eine Seite transparent ist. Nur vollständig private z-zu-z-Aktivität, die niemals eine `t`-Adresse berührt, hält alles außer der Gebühr verborgen.
+Der Explorer kann auch sehen, wenn Gelder zwischen der transparenten und der abgeschirmten Seite wechseln. Das Verschieben von `t`-Geldern in einen Pool wird Shielding genannt, das Zurückverschieben Deshielding. Diese Übergänge sind teilweise sichtbar, weil eine Seite transparent ist. Nur vollständig private z-zu-z-Aktivitäten, die niemals eine `t`-Adresse berühren, halten alles außer der Gebühr verborgen.
 
-Die wichtigste Erkenntnis: Privatsphäre hängt davon ab, innerhalb der abgeschirmten Pools zu bleiben. Sobald Gelder eine `t`-Adresse berühren, ist dieser Teil ihrer Historie so öffentlich wie bei Bitcoin. Um deine eigene abgeschirmte Aktivität gegenüber jemandem deiner Wahl nachzuweisen, etwa einem Buchhalter, teile einen Viewing Key, anstatt sie öffentlich zu machen. Siehe die Seite [Viewing Keys](https://zechub.wiki/zcash-tech/viewing-keys#content).
+Die wichtigste Erkenntnis: Privatsphäre hängt davon ab, innerhalb der abgeschirmten Pools zu bleiben. Sobald Gelder eine `t`-Adresse berühren, ist dieser Teil ihrer Historie so öffentlich wie bei Bitcoin. Um deine eigene abgeschirmte Aktivität einer Person deiner Wahl nachzuweisen, beispielsweise einem Buchhalter, teile einen Viewing Key, statt sie öffentlich zu machen. Siehe die Seite [Viewing Keys](https://zechub.wiki/zcash-tech/viewing-keys#content).
 
 
-### Visueller Leitfaden
+### Liste der Zcash Block Explorer
+
+- [Zcash Block Explorer](https://mainnet.zcashexplorer.app/)
+
+- [Blockchair](https://blockchair.com)
+
+- [3xpl](https://3xpl.com/zcash)
+
+- [Bitquery](https://explorer.bitquery.io/zcash)
+
+
+### Visuelle Anleitung
 
 Hier sind vier gute Beispiele für verschiedene Blockchain-Explorer:
 
 * [Mempool.space](https://mempool.space)
 * [Ethscan](https://etherscan.io/)
-* [Zcash-Block-Explorer](https://mainnet.zcashexplorer.com)
+* [Zcash Block Explorer](https://mainnet.zcashexplorer.app)
 * [Mintscan](https://hub.mintscan.io/chains/ibc-network)
 
 

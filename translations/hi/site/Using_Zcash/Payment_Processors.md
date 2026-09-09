@@ -82,7 +82,7 @@ Custody के मामले में यह सबसे मजबूत व
 
 केवल shielded, जिसमें Sapling, Orchard और Unified Addresses शामिल हैं। कोई transparent fallback नहीं है, इसलिए उसके आधार पर योजना न बनाएं।
 
-इसे install करने के लिए आपको feat/zec branch पर btcpay-zcash Docker fork चाहिए, साथ ही Ywallet या Zingo जैसे wallet से export की गई viewing key। डिफ़ॉल्ट रूप से यह remote lightwalletd से बात करता है, या आप Zebra और lightwalletd स्वयं चला सकते हैं।
+इसे install करने के लिए आपको feat/zec branch पर btcpay-zcash Docker fork चाहिए, साथ ही Zkool या Zingo जैसे wallet से export की गई viewing key। डिफ़ॉल्ट रूप से यह remote lightwalletd से बात करता है, या आप Zebra और lightwalletd स्वयं चला सकते हैं।
 
 एक सीमा जानना जरूरी है: plugin एक instance पर हर store के लिए एक ही Zcash wallet का उपयोग करता है, इसलिए इसे shared server पर न चलाएँ। Per-store wallets पर काम चल रहा है।
 

@@ -94,8 +94,8 @@ Shielded Zcash के लिए FROST अपेक्षाकृत नया �
 ### Zcash Foundation — frost.zfnd.org
 Zcash Foundation ने एक कार्यशील FROST implementation और demo site जारी की है। testing और development के लिए यही reference implementation है।
 
-### YWallet FROST Demo
-YWallet (एक high-performance Zcash wallet) में शुरुआती FROST demo integration है। चरण-दर-चरण निर्देशों के लिए [YWallet FROST Demo guide](/guides/Ywallet_FROST_Demo) देखें।
+### Ywallet FROST Demo
+Ywallet में शुरुआती FROST demo integration था, जिसकी जानकारी [Ywallet FROST Demo guide](/guides/Ywallet_FROST_Demo) में दी गई है। Ywallet का रखरखाव अब नहीं किया जाता और इसे Ironwood के लिए अपडेट नहीं किया जाएगा, इसलिए इस गाइड को आज चलाने योग्य चीज़ के बजाय पृष्ठभूमि जानकारी के रूप में पढ़ें। उसी डेवलपर का Zkool इसका रखरखाव किया जाने वाला उत्तराधिकारी है और अपनी विशेषताओं में FROST multisig को सूचीबद्ध करता है।
 
 ### ZecHub Hackathon 2026 — FROST Track Projects
 
@@ -144,8 +144,7 @@ Coinbase ने अपनी threshold signing systems (Bitcoin के लिए
 ## संबंधित पृष्ठ
 
 - [FROST — तकनीकी गहन विश्लेषण](FROST.md) — protocol के cryptographic विवरण (DKG, signing rounds, security proofs)
-- [YWallet FROST Demo Guide](/guides/Ywallet_FROST_Demo) — चरण-दर-चरण hands-on demo
-- [FROST Demo (frostdemo)](/guides/ywallet-frost-demo) — Zcash Foundation demo walkthrough
+- [Ywallet FROST Demo Guide](/guides/Ywallet_FROST_Demo) — पृष्ठभूमि; Ywallet का अब रखरखाव नहीं किया जाता
 - [Viewing Keys](Viewing_Keys.md) — shielded addresses के लिए read-only access (threshold custody के पूरक)
 - [Zcash Shielded Assets](Zcash_Shielded_Assets.md) — FROST, ZSA issuance के लिए भी प्रमुख infrastructure है
 

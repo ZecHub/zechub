@@ -209,7 +209,7 @@
 
 | 术语 | 定义 |
 |------|-----------|
-| Wallet | 用于存储私钥并让你发送/接收 ZEC 的软件或硬件。当前活跃的钱包包括 ZODL（iOS/Android）、Zingo!（移动端/桌面端）、Nighthawk（Android）、YWallet、Zallet（即将推出）和 Keystone（硬件）。完整列表见 [Zcash 生态钱包](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Wallet | 用于存储私钥并让你发送/接收 ZEC 的软件或硬件。当前活跃的钱包包括 ZODL（iOS/Android）、Zingo!（移动端/桌面端）、Nighthawk（Android）、Zkool（移动端/桌面端）、Zallet（即将推出）和 Keystone（硬件）。完整列表见 [Zcash 生态钱包](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | 首个面向 Zcash 的 JavaScript SDK，由 ChainSafe 为浏览器环境构建。它是将 shielded ZEC 引入 MetaMask 的 Zcash Shielded Wallet snap 的底层基础。 |
 
 ## X

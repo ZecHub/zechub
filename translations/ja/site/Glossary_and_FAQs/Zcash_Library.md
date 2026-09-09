@@ -207,9 +207,9 @@ Zcash に関連する主要な用語、概念、リソースを網羅した包�
 
 ## W
 
-| Term | Definition |
+| 用語 | 定義 |
 |------|-----------|
-| Wallet | 秘密鍵を保存し、ZEC の送受信を可能にするソフトウェアまたはハードウェアです。アクティブなウォレットには、ZODL（iOS/Android）、Zingo!（モバイル/デスクトップ）、Nighthawk（Android）、YWallet、Zallet（今後登場予定）、Keystone（ハードウェア）があります。完全な一覧は [Zcash Ecosystem Wallets](https://z.cash/ecosystem/?wallets=#tag-wallets) を参照してください |
+| ウォレット | 秘密鍵を保存し、ZEC の送受信を可能にするソフトウェアまたはハードウェアです。アクティブなウォレットには、ZODL（iOS/Android）、Zingo!（モバイル/デスクトップ）、Nighthawk（Android）、Zkool（モバイル/デスクトップ）、Zallet（今後登場予定）、Keystone（ハードウェア）があります。完全な一覧は [Zcash Ecosystem Wallets](https://z.cash/ecosystem/?wallets=#tag-wallets) を参照してください |
 | WebZjs | ブラウザ環境向けにChainSafeが構築した、Zcash 初のJavaScript SDKです。これは、シールド化された ZEC を MetaMask にもたらした Zcash Shielded Wallet snap の基盤となっています。 |
 
 ## X

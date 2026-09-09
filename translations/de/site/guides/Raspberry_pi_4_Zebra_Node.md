@@ -71,7 +71,7 @@ Das Ausführen der Zebra-Node-Software auf einem Raspberry Pi 4 ermöglicht es d
 
 ## Fehlerbehebung
 
-Wenn du beim Bauen oder Ausführen von Zebra auf Probleme stößt, sieh in der [Zebra-Dokumentation](https://doc.zebra.zfnd.org/docs/intro.html) nach, um Tipps zur Fehlerbehebung und zusätzliche Informationen zu erhalten.
+Wenn du beim Bauen oder Ausführen von Zebra auf Probleme stößt, sieh in der [Zebra-Dokumentation](https://zebra.zfnd.org/user/troubleshooting.html) nach, um Tipps zur Fehlerbehebung und zusätzliche Informationen zu erhalten.
 
 Achte darauf, deinen Raspberry Pi kühl zu halten, da das Ausführen eines Nodes Hitze erzeugen kann. Du solltest eine Kühllösung verwenden, zum Beispiel einen Lüfter oder einen Kühlkörper.
 

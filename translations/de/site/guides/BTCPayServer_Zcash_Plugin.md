@@ -125,7 +125,7 @@ Alle Gelder gehen **direkt** an das Wallet des Händlers. Die Sicherheit wird du
 ### So funktioniert es
 
 - **Das Wallet wird im Voraus erstellt.**  
-  Der Händler verwendet ein Zcash-Wallet, das Viewing Keys unterstützt – wie [YWallet](https://ywallet.app/installation) oder [Zingo! Wallet](https://zingolabs.org/).  
+  Der Händler verwendet ein Zcash-Wallet, das Viewing Keys unterstützt – wie [Zkool](https://github.com/hhanh00/zkool2/) oder [Zingo! Wallet](https://zingolabs.org/).  
   Eine vollständige Liste ist auf [ZecHub.wiki](https://zechub.wiki/wallets) verfügbar.
 
 - **BTCPay Server verbindet sich über einen Viewing Key.**  
@@ -661,8 +661,8 @@ Nach der Installation des Plugins erscheint im Einstellungsmenü ein neuer Berei
 
 > Noch nicht alle Wallets unterstützen den Export von **Unified Full Viewing Key (UFVK)**.  
 > Empfohlene Optionen:  
-> – [**YWallet**](https://ywallet.app/installation)  
-> – [**Zingo! Wallet (version for PC)**](https://zingolabs.org/)  
+> – [**Zkool**](https://github.com/hhanh00/zkool2/)  
+> – [**Zingo! Wallet (Version für PC)**](https://zingolabs.org/)  
 > In beiden Apps findest du den UFVK-Export im Bereich Backup/Export.
 
 Diese Schlüssel unterstützen **automatische Adressrotation**, was bedeutet:

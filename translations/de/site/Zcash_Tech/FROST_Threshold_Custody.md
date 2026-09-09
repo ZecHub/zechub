@@ -94,8 +94,8 @@ Der Verlust eines Shards ist nicht das Ende der Welt (genau das ist der Sinn des
 ### Zcash Foundation — frost.zfnd.org
 Die Zcash Foundation hat eine funktionierende FROST-Implementierung und eine Demo-Seite veröffentlicht. Dies ist die Referenzimplementierung, die für Tests und Entwicklung verwendet wird.
 
-### YWallet FROST Demo
-YWallet (ein leistungsstarkes Zcash-Wallet) hat eine frühe FROST-Demo-Integration. Siehe die [Anleitung zur YWallet FROST Demo](/guides/Ywallet_FROST_Demo) für Schritt-für-Schritt-Anweisungen.
+### Ywallet FROST Demo
+Ywallet hatte eine frühe FROST-Demo-Integration, die in der [Anleitung zur Ywallet FROST Demo](/guides/Ywallet_FROST_Demo) erläutert wird. Ywallet wird nicht mehr gepflegt und nicht für Ironwood aktualisiert; lies die Anleitung daher als Hintergrundinformation und nicht als etwas, das du heute ausführen solltest. Zkool stammt vom selben Entwickler, ist der gepflegte Nachfolger und führt FROST-Multisig als eine seiner Funktionen auf.
 
 ### ZecHub Hackathon 2026 — FROST-Track-Projekte
 
@@ -144,8 +144,7 @@ Ein praktischer Ausgangspunkt für die meisten Teams: **2-von-3** (robust, minim
 ## Verwandte Seiten
 
 - [FROST — Technischer Deep Dive](FROST.md) — kryptografische Details des Protokolls (DKG, Signaturrunden, Sicherheitsbeweise)
-- [Anleitung zur YWallet FROST Demo](/guides/Ywallet_FROST_Demo) — praktische Schritt-für-Schritt-Demo
-- [FROST Demo (frostdemo)](/guides/ywallet-frost-demo) — Durchgang durch die Zcash Foundation-Demo
+- [Anleitung zur Ywallet FROST Demo](/guides/Ywallet_FROST_Demo) — Hintergrund: Ywallet wird nicht mehr gepflegt
 - [Viewing Keys](Viewing_Keys.md) — schreibgeschützter Zugriff auf shielded Adressen (ergänzend zu Threshold Custody)
 - [Zcash Shielded Assets](Zcash_Shielded_Assets.md) — FROST ist auch eine wichtige Infrastruktur für die Ausgabe von ZSA
 

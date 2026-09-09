@@ -33,5 +33,5 @@ Electric Coin Company ve Zcash Foundation, aşağıdaki sapmayla birlikte bu Sor
 
 - [Zcash Güvenlik Danışmaları](https://github.com/zcash/zcash/security/advisories)
 - [Zebra Güvenlik Danışmaları](https://github.com/ZcashFoundation/zebra/security/advisories)
-- [ECC'ye Güvenlik Açığı Bildirin](https://github.com/zcash/zcash/security/policy)
+- [zcash/zcash'te Bir Güvenlik Açığı Bildirin](https://github.com/zcash/zcash/security/policy) — artık erişilemeyen, bu girdinin işaret ettiği Electric Coin Company adresinin yerine geçer.
 - [ZF'ye Güvenlik Açığı Bildirin](https://zfnd.org/contact/)

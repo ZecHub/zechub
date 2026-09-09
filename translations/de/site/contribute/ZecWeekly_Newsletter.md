@@ -2,20 +2,20 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZecWeekly-Newsletter
+# ZecWeekly Newsletter
 
-ZecWeekly ist ein Newsletter, der jeden Sonntagmorgen erscheint. Er enthält alle Neuigkeiten, die während der Woche im Zcash-Ökosystem passiert sind. Die Nachrichten werden jede Woche von Community-Mitgliedern kuratiert, und alle relevanten Links werden dem Newsletter hinzugefügt. Bitte abonnieren Sie den Newsletter [hier](https://zechub.substack.com/).
+ZecWeekly ist ein Newsletter, der jeden Sonntagmorgen erscheint. Er enthält alle Nachrichten, die sich während der Woche im Zcash-Ökosystem ereignet haben. Die Nachrichten werden wöchentlich von Community-Mitgliedern kuratiert und alle relevanten Links werden dem Newsletter hinzugefügt. Bitte abonniere den Newsletter [hier](https://zechub.substack.com/).
 
 ## Mitwirken
 
-Beiträge zum Newsletter funktionieren am besten, wenn ein Mitwirkender die Ausgabe für die richtige Woche vorbereitet, dem aktuellen Bounty- oder Koordinationsthread folgt und den Pull Request einreicht, nachdem die wöchentlichen Links fertig sind. Bitte reichen Sie keine zukünftige Ausgabe ein, bevor ZecHub das Datum für diese Ausgabe veröffentlicht oder bestätigt hat. Früh eingereichte Pull Requests verpassen oft späte Updates der Woche, geraten mit einem zugewiesenen Kurator in Konflikt oder verwenden die falsche Frist.
+Beiträge zum Newsletter funktionieren am besten, wenn ein Mitwirkender die Ausgabe für die richtige Woche vorbereitet, dem aktuellen Bounty- oder Koordinationsthread folgt und den Pull Request einreicht, nachdem die wöchentlichen Links bereit sind. Bitte reiche keine zukünftige Ausgabe ein, bevor ZecHub das Datum für diese Ausgabe veröffentlicht oder bestätigt hat. Frühe Pull Requests übersehen häufig Aktualisierungen zum Ende der Woche, kollidieren mit einem zugewiesenen Kurator oder verwenden die falsche Frist.
 
 ### 1. Die aktuelle Ausgabe bestätigen
 
-Bevor Sie mit dem Schreiben beginnen:
+Bevor du mit dem Schreiben beginnst:
 
-- Prüfen Sie [ZEC Bounties ](https://bounties.zechub.wiki/) auf die aktuelle Newsletter-Aufgabe.
-- Warten Sie, bis Ihnen die Aufgabe zugewiesen wird
+- Prüfe [ZEC Bounties ](https://bounties.zechub.wiki/) auf die aktuelle Newsletter-Aufgabe.
+- Warte auf deine Zuweisung
 
 ![ss](/content-images/149a802c-b64f-4969-ad89-e83ffecf568e-d5d8387145.webp)
 
@@ -23,14 +23,14 @@ Bevor Sie mit dem Schreiben beginnen:
 
 ### 2. Das Repository forken
 
-Wenn Sie neu bei GitHub sind, verwenden Sie diesen Workflow:
+Wenn du neu bei GitHub bist, verwende diesen Ablauf:
 
-1. Öffnen Sie das [ZecHub-Repository](https://github.com/ZecHub/zechub).
-2. Klicken Sie auf **Fork** und erstellen Sie einen Fork unter Ihrem GitHub-Konto.
-3. Erstellen Sie in Ihrem Fork einen neuen Branch für die Ausgabe. Ein klarer Branch-Name ist hilfreich, zum Beispiel `digest-may-30-2026`.
-4. Stellen Sie sicher, dass Ihr Pull Request `ZecHub/zechub` als Basis-Repository und `main` als Basis-Branch verwendet.
+1. Öffne das [ZecHub-Repository](https://github.com/ZecHub/zechub).
+2. Klicke auf **Fork** und erstelle einen Fork unter deinem GitHub-Konto.
+3. Erstelle in deinem Fork einen neuen Branch für die Ausgabe. Ein eindeutiger Branch-Name ist hilfreich, zum Beispiel `digest-may-30-2026`.
+4. Stelle sicher, dass dein Pull Request `ZecHub/zechub` als Basis-Repository und `main` als Basis-Branch verwendet.
 
-Wenn Sie die Kommandozeile verwenden, sieht derselbe Workflow so aus:
+Wenn du die Kommandozeile verwendest, sieht derselbe Ablauf so aus:
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/zechub.git
@@ -38,40 +38,42 @@ cd zechub
 git checkout -b digest-month-day-year
 ```
 
+Ersetze `YOUR-USERNAME` durch deinen eigenen GitHub-Benutzernamen. Die obige URL ist ein Platzhalter und wird in dieser Form nicht aufgelöst.
+
 ### 3. Die Newsletter-Datei erstellen
 
-Verwenden Sie die [Newsletter-Vorlage](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md) als Ausgangspunkt. Newsletter-Ausgaben gehören in den Ordner [`newsletter`](https://github.com/ZecHub/zechub/tree/main/newsletter).
+Verwende die [Newsletter-Vorlage](https://github.com/ZecHub/zechub/blob/main/newsletter/newslettertemplate.md) als Ausgangspunkt. Newsletter-Ausgaben gehören in den Ordner [`newsletter`](https://github.com/ZecHub/zechub/tree/main/newsletter).
 
 Beim Erstellen der Datei:
 
-- Verwenden Sie das Dateinamenformat, das im Issue angefordert wird oder in kürzlich akzeptierten Ausgaben verwendet wurde.
-- Behalten Sie dieselbe Reihenfolge der Abschnitte wie in der Vorlage bei, sofern die Aufgabe kein anderes Format verlangt.
-- Fügen Sie nur Links aus der relevanten Woche hinzu.
-- Schreiben Sie für jeden Link eine kurze, klare Beschreibung, damit die Leser verstehen, warum er wichtig ist.
-- Übersetzen oder fassen Sie nicht englischsprachige Quellen bei Bedarf auf Englisch zusammen.
-- Prüfen Sie jeden Link, bevor Sie den Pull Request eröffnen.
+- Halte dich an das vom Issue verlangte oder von kürzlich akzeptierten Ausgaben verwendete Dateinamenformat.
+- Behalte dieselbe Abschnittsreihenfolge wie in der Vorlage bei, sofern die Aufgabe kein anderes Format verlangt.
+- Füge nur Links aus der relevanten Woche hinzu.
+- Schreibe für jeden Link eine kurze, klare Beschreibung, damit Leser verstehen, warum er wichtig ist.
+- Übersetze oder fasse nicht englischsprachige Quellen bei Bedarf auf Englisch zusammen.
+- Prüfe jeden Link, bevor du den Pull Request eröffnest.
 
 ### 4. Links zum richtigen Zeitpunkt sammeln
 
-ZecWeekly deckt normalerweise die Aktivitäten im Zcash-Ökosystem der aktuellen Woche ab und wird gegen Ende der Woche veröffentlicht. Der sicherste Zeitpunkt ist:
+ZecWeekly deckt normalerweise die Aktivitäten des Zcash-Ökosystems der aktuellen Woche ab und wird gegen Ende der Woche veröffentlicht. Der sicherste Zeitpunkt ist:
 
-- Beginnen Sie mit dem Sammeln von Links, nachdem die aktuelle Newsletter-Ausgabe oder Aufgabe veröffentlicht wurde.
-- Führen Sie einen Entwurf, während die Woche noch läuft.
-- Reichen Sie den Pull Request kurz vor dem gewünschten Einreichungsdatum ein, nachdem Sie auf späte Updates der Woche geprüft haben.
-- Reichen Sie den Newsletter einer zukünftigen Woche nicht ein, bevor die Aufgabe für dieses Datum existiert oder bevor ZecHub bestätigt, dass Sie ihn vorbereiten sollen.
+- Beginne mit dem Sammeln von Links, nachdem das aktuelle Newsletter-Issue oder die Aufgabe veröffentlicht wurde.
+- Führe einen Entwurf, während die Woche noch läuft.
+- Reiche den Pull Request nahe dem gewünschten Einreichungsdatum ein, nachdem du auf Aktualisierungen zum Ende der Woche geprüft hast.
+- Reiche keinen Newsletter für eine zukünftige Woche ein, bevor die Aufgabe für dieses Datum existiert oder ZecHub bestätigt, dass du ihn vorbereiten sollst.
 
-Wenn in einem Issue steht, dass bis zu einem bestimmten Datum eingereicht werden soll, halten Sie sich an dieses Datum. Wenn es einen Konflikt zwischen dieser Seite und einem aktuellen Issue gibt, folgen Sie dem aktuellen Issue.
+Wenn ein Issue die Einreichung bis zu einem bestimmten Datum verlangt, halte dich an dieses Datum. Falls es einen Konflikt zwischen dieser Seite und einem aktuellen Issue gibt, folge dem aktuellen Issue.
 
 ### 5. Den Pull Request eröffnen
 
-Wenn Ihre Newsletter-Datei fertig ist:
+Wenn deine Newsletter-Datei fertig ist:
 
-1. Committen Sie Ihre Änderungen in Ihren Fork.
-2. Eröffnen Sie einen Pull Request in `ZecHub/zechub` auf dem `main`-Branch.
-3. Verwenden Sie einen Titel, der zur Ausgabe passt, zum Beispiel `Zcash Ecosystem Digest | May 30th`.
-4. Verlinken Sie das Issue im Text des Pull Requests, damit die Reviewer die Arbeit der Aufgabe zuordnen können.
+1. Committe deine Änderungen in deinen Fork.
+2. Eröffne einen Pull Request in `ZecHub/zechub` auf dem `main`-Branch.
+3. Verwende einen Titel, der zur Ausgabe passt, zum Beispiel `Zcash Ecosystem Digest | May 30th`.
+4. Verlinke das Issue im Textkörper des Pull Requests, damit Reviewer die Arbeit mit der Aufgabe verbinden können.
 
-Beispiel für den Pull-Request-Text:
+Beispiel für den Textkörper eines Pull Requests:
 
 ```md
 Closes #ISSUE_NUMBER
@@ -82,43 +84,43 @@ Summary:
 - Checks links and descriptions for the requested week.
 ```
 
-Nachdem der Pull Request eröffnet wurde, achten Sie auf Review-Kommentare. Wenn ZecHub um Änderungen bittet, aktualisieren Sie denselben Branch, anstatt einen zweiten Pull Request für dieselbe Ausgabe zu eröffnen.
+Nachdem der Pull Request eröffnet ist, achte auf Review-Kommentare. Wenn ZecHub Änderungen anfordert, aktualisiere denselben Branch, statt einen zweiten Pull Request für dieselbe Ausgabe zu eröffnen.
 
 ### Reale Beispiele
 
-Verwenden Sie diese zusammengeführten Newsletter-Pull-Requests als Beispiele für akzeptierte Einreichungen:
+Verwende diese gemergten Newsletter-Pull-Requests als Beispiele für akzeptierte Einreichungen:
 
-- [Zcash Ecosystem Digest | 11. April](https://github.com/ZecHub/zechub/pull/1551)
-- [Zcash Ecosystem Digest | 28. März](https://github.com/ZecHub/zechub/pull/1544)
-- [Zcash Ecosystem Digest | 14. Februar](https://github.com/ZecHub/zechub/pull/1474)
+- [Zcash Ecosystem Digest | April 11th](https://github.com/ZecHub/zechub/pull/1551)
+- [Zcash Ecosystem Digest | March 28th](https://github.com/ZecHub/zechub/pull/1544)
+- [Zcash Ecosystem Digest | February 14th](https://github.com/ZecHub/zechub/pull/1474)
 
 
-![Beispiel für einen zusammengeführten ZecWeekly-Newsletter-Pull-Request](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)
+![Beispiel eines gemergten ZecWeekly-Newsletter-Pull-Requests](/content-images/9230d68d-6406-4c8a-992c-df84e0d318d8-8893d2de55.webp)
 
-Wenn Sie Ihre Arbeit mit einem Beispiel vergleichen, achten Sie auf den Speicherort der Datei, das Titelformat, die Reihenfolge der Abschnitte, die Link-Beschreibungen und darauf, ob der Pull Request auf die richtige Aufgabe zurückverweist.
+Wenn du deine Arbeit mit einem Beispiel vergleichst, konzentriere dich auf den Speicherort der Datei, das Titelformat, die Abschnittsreihenfolge, die Linkbeschreibungen und darauf, ob der Pull Request auf die richtige Aufgabe zurückverweist.
 
-### Häufige Fehler, die Sie vermeiden sollten
+### Häufige Fehler, die du vermeiden solltest
 
-- Einen Pull Request zu eröffnen, bevor das Ausgabedatum oder die Aufgabe bestätigt ist.
-- An einem Issue zu arbeiten, das bereits einen verknüpften Pull Request hat.
-- Den Pull Request in Ihren eigenen Fork statt in `ZecHub/zechub` einzureichen.
-- Den falschen Dateinamen zu verwenden oder die Datei außerhalb des Ordners `newsletter` abzulegen.
-- Eine alte Ausgabe zu kopieren, ohne jedes Datum, jeden Link und jede Beschreibung zu aktualisieren.
-- Links aus der falschen Woche hinzuzufügen.
-- Defekte Links, doppelte Links oder Platzhaltertext aus der Vorlage stehen zu lassen.
-- Nach Review-Kommentaren einen neuen Pull Request zu eröffnen, anstatt den ursprünglichen Branch zu aktualisieren.
+- Einen Pull Request eröffnen, bevor das Ausgabedatum oder die Aufgabe bestätigt ist.
+- An einem Issue arbeiten, das bereits einen verlinkten Pull Request hat.
+- Den Pull Request in deinen eigenen Fork statt in `ZecHub/zechub` einreichen.
+- Den falschen Dateinamen verwenden oder die Datei außerhalb des Ordners `newsletter` ablegen.
+- Eine alte Ausgabe kopieren, ohne jedes Datum, jeden Link und jede Beschreibung zu aktualisieren.
+- Links aus der falschen Woche hinzufügen.
+- Defekte Links, doppelte Links oder Platzhaltertext aus der Vorlage stehen lassen.
+- Nach Review-Kommentaren einen neuen Pull Request eröffnen, statt den ursprünglichen Branch zu aktualisieren.
 
 ### Abschließende Checkliste
 
-Bevor Sie ein Review anfordern, bestätigen Sie Folgendes:
+Bestätige vor der Anforderung eines Reviews Folgendes:
 
-- Das Datum des Issues oder der Aufgabe stimmt mit Ihrer Newsletter-Datei überein.
+- Das Datum des Issues oder der Aufgabe stimmt mit deiner Newsletter-Datei überein.
 - Kein anderer offener Pull Request deckt bereits dasselbe Issue oder dieselbe Ausgabe ab.
 - Die Datei befindet sich im Ordner `newsletter`.
 - Die Abschnitte der Vorlage sind vollständig.
 - Jeder Link funktioniert und hat eine nützliche Beschreibung.
-- Der Text des Pull Requests verlinkt das richtige Issue.
-- Sie sind verfügbar, um Änderungen vorzunehmen, falls Reviewer Änderungen anfordern.
+- Der Textkörper des Pull Requests verlinkt das richtige Issue.
+- Du bist verfügbar, um Änderungen vorzunehmen, falls Reviewer diese anfordern.
 
 ## Frühere Ausgaben
 

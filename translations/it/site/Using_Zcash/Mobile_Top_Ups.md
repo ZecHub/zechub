@@ -23,7 +23,7 @@ Verrà fornito l'importo equivalente in ZEC e un indirizzo trasparente a cui inv
 ![Passo 4 - Pagamento in ZEC details](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
 
 ### 5. Invia il pagamento
-Copia e incolla con cura l'importo e l'indirizzo. Nel campo memo, aggiungi il tuo indirizzo YWallet nel caso in cui ci sia un rimborso.
+Copia e incolla con cura l'importo e l'indirizzo. Nel campo memo, aggiungi il tuo indirizzo schermato nel caso in cui ci sia un rimborso.
 
 ![Passo 5 - Invio di ZEC](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
 

@@ -209,7 +209,7 @@
 
 | Термин | Определение |
 |------|-----------|
-| Кошелёк | Программное или аппаратное средство, которое хранит приватные ключи и позволяет отправлять/получать ZEC. Активные кошельки включают ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android), YWallet, Zallet (в разработке) и Keystone (аппаратный). Полный список см. в [Кошельки экосистемы Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Кошелёк | Программное или аппаратное средство, которое хранит приватные ключи и позволяет отправлять/получать ZEC. Активные кошельки включают ZODL (iOS/Android), Zingo! (мобильный/настольный), Nighthawk (Android), Zkool (мобильный/настольный), Zallet (в разработке) и Keystone (аппаратный). Полный список см. в [Кошельки экосистемы Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | Первый JavaScript SDK для Zcash, созданный ChainSafe для браузерных сред. Он лежит в основе snap-а Zcash Shielded Wallet, который привнёс экранированный ZEC в MetaMask. |
 
 ## X

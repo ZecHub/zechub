@@ -23,7 +23,7 @@ ZEC의 해당 금액과, 자금을 보내야 할 투명한 주소가 제공됩�
 ![단계 4 - ZEC 결제 정보](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
 
 ### 5. 결제 보내기
-금액과 주소를 신중하게 복사하여 붙여넣습니다. 메모 필드에 경우 환불이 필요한 경우 YWallet 주소를 추가합니다.
+금액과 주소를 신중하게 복사하여 붙여넣습니다. 환불이 필요한 경우를 대비해 메모 필드에 본인의 shielded 주소를 추가합니다.
 
 ![단계 5 - ZEC 보내기](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
 

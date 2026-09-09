@@ -82,7 +82,7 @@ Orchard のみです。リポジトリの README には Sapling への言及が�
 
 shielded のみ対応で、Sapling、Orchard、Unified Addresses をカバーします。transparent へのフォールバックはないので、それを前提にしないでください。
 
-インストールには、feat/zec ブランチ上の btcpay-zcash Docker fork と、Ywallet や Zingo のようなウォレットからエクスポートした Viewing Key が必要です。デフォルトではリモートの lightwalletd と通信しますが、自分で Zebra と lightwalletd を動かすこともできます。
+インストールには、feat/zec ブランチ上の btcpay-zcash Docker fork と、Zkool や Zingo のようなウォレットからエクスポートした Viewing Key が必要です。デフォルトではリモートの lightwalletd と通信しますが、自分で Zebra と lightwalletd を動かすこともできます。
 
 知っておくべき制限がひとつあります。このプラグインは 1 つのインスタンス上のすべてのストアで単一の Zcash ウォレットを使うため、共有サーバー上では運用しないでください。ストアごとのウォレットは現在開発中です。
 

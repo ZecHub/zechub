@@ -94,8 +94,8 @@ shielded Zcash용 FROST는 비교적 새로운 기술입니다. IETF 표준(draf
 ### Zcash Foundation — frost.zfnd.org
 Zcash Foundation은 작동하는 FROST 구현체와 데모 사이트를 이미 배포했습니다. 이것은 테스트와 개발에 사용되는 레퍼런스 구현입니다.
 
-### YWallet FROST 데모
-YWallet(고성능 Zcash 지갑)은 초기 FROST 데모 통합을 제공하고 있습니다. 단계별 안내는 [YWallet FROST 데모 가이드](/guides/Ywallet_FROST_Demo)를 참조하세요.
+### Ywallet FROST 데모
+Ywallet에는 초기 FROST 데모 통합이 있었으며, [Ywallet FROST 데모 가이드](/guides/Ywallet_FROST_Demo)에서 이를 단계별로 안내합니다. Ywallet은 더 이상 유지 관리되지 않으며 Ironwood에 맞춰 업데이트되지 않을 예정이므로, 이 가이드는 오늘 실행할 내용이 아니라 배경 자료로 읽으세요. 같은 개발자가 만든 Zkool은 현재 유지 관리되는 후속 제품이며, 기능 중 하나로 FROST 멀티시그를 제공합니다.
 
 ### ZecHub Hackathon 2026 — FROST 트랙 프로젝트
 
@@ -144,8 +144,7 @@ Coinbase는 자사의 임계값 서명 시스템(비트코인용)을 위해 프�
 ## 관련 페이지
 
 - [FROST — 기술 심층 해설](FROST.md) — 프로토콜의 암호학적 세부 사항(DKG, 서명 라운드, 보안 증명)
-- [YWallet FROST 데모 가이드](/guides/Ywallet_FROST_Demo) — 단계별 실습 데모
-- [FROST 데모 (frostdemo)](/guides/ywallet-frost-demo) — Zcash Foundation 데모 안내
+- [Ywallet FROST 데모 가이드](/guides/Ywallet_FROST_Demo) — 참고: Ywallet는 더 이상 유지 관리되지 않습니다
 - [Viewing Keys](Viewing_Keys.md) — shielded 주소에 대한 읽기 전용 접근(임계값 커스터디와 상호보완적)
 - [Zcash Shielded Assets](Zcash_Shielded_Assets.md) — FROST는 ZSA 발행을 위한 핵심 인프라이기도 합니다
 

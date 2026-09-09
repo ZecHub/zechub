@@ -124,7 +124,7 @@ BTCPay Server は**ウォレットではなく**、**秘密鍵も必要としま
 ### 仕組み
 
 - **ウォレットは事前に作成されます。**  
-  事業者は Viewing Key をサポートする Zcash ウォレットを使用します。たとえば [YWallet](https://ywallet.app/installation) や [Zingo! Wallet](https://zingolabs.org/) です。  
+  事業者は Viewing Key をサポートする Zcash ウォレットを使用します。たとえば [Zkool](https://github.com/hhanh00/zkool2/) や [Zingo! Wallet](https://zingolabs.org/) です。  
   完全な一覧は [ZecHub.wiki](https://zechub.wiki/wallets) で確認できます。
 
 - **BTCPay Server は Viewing Key を使って接続します。**  
@@ -660,8 +660,8 @@ BTCPay Server インスタンスのデプロイに成功したら、管理用 We
 
 > まだすべてのウォレットが **Unified Full Viewing Key (UFVK)** のエクスポートをサポートしているわけではありません。  
 > 推奨オプション:  
-> – [**YWallet**](https://ywallet.app/installation)  
-> – [**Zingo! Wallet (version for PC)**](https://zingolabs.org/)  
+> – [**Zkool**](https://github.com/hhanh00/zkool2/)  
+> – [**Zingo! Wallet (PC版)**](https://zingolabs.org/)  
 > どちらのアプリでも、バックアップ/エクスポートのセクションで UFVK エクスポートを探してください。
 
 これらのキーは**自動アドレスローテーション**をサポートしており、つまり:

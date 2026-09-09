@@ -94,8 +94,8 @@ FROST 很强大，但在使用之前，你应该了解它也伴随着真实的�
 ### Zcash Foundation — frost.zfnd.org
 Zcash Foundation 已经发布了一个可用的 FROST 实现和一个演示网站。这是用于测试和开发的参考实现。
 
-### YWallet FROST Demo
-YWallet（一个高性能 Zcash 钱包）已经有了早期的 FROST 演示集成。请参阅 [YWallet FROST Demo 指南](/guides/Ywallet_FROST_Demo) 获取分步说明。
+### Ywallet FROST Demo
+Ywallet 曾集成过早期的 FROST 演示，相关步骤见 [Ywallet FROST Demo 指南](/guides/Ywallet_FROST_Demo)。Ywallet 已不再维护，也不会针对 Ironwood 进行更新，因此请将该指南作为背景资料阅读，而非当作如今可运行的内容。由同一位开发者推出的 Zkool 是仍在维护的继任者，并将 FROST 多重签名列为其功能之一。
 
 ### ZecHub Hackathon 2026 — FROST 赛道项目
 
@@ -144,8 +144,7 @@ Coinbase 为其门限签名系统（用于 Bitcoin）构建了一个生产级 FR
 ## 相关页面
 
 - [FROST — 技术深度解析](FROST.md) — 协议的密码学细节（DKG、签名轮次、安全性证明）
-- [YWallet FROST Demo 指南](/guides/Ywallet_FROST_Demo) — 分步实操演示
-- [FROST Demo (frostdemo)](/guides/ywallet-frost-demo) — Zcash Foundation 演示教程
+- [Ywallet FROST Demo 指南](/guides/Ywallet_FROST_Demo) — 背景说明：Ywallet 已不再维护
 - [Viewing Keys](Viewing_Keys.md) — 对 shielded 地址的只读访问（可与门限托管互补）
 - [Zcash Shielded Assets](Zcash_Shielded_Assets.md) — FROST 也是 ZSA 发行的关键基础设施
 

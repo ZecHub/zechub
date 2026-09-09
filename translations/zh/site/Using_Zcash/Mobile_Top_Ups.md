@@ -23,7 +23,7 @@
 ![步骤 4 - ZEC 支付详情](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
 
 ### 5. 发送付款
-请仔细复制并粘贴金额和地址。在 memo 栏中，添加你的 YWallet 地址，以防需要退款。
+请仔细复制并粘贴金额和地址。在 memo 栏中，添加你自己的屏蔽地址，以防需要退款。
 
 ![步骤 5 - 发送 ZEC](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
 

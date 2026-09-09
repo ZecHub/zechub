@@ -23,7 +23,7 @@ $ZEC cinsinden eşdeğer tutar ve fonların gönderilmesi gereken şeffaf bir ad
 ![Adım 4 - ZEC ödeme bilgileri](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
 
 ### 5. Ödemeyi gönderin
-Tutarı ve adresi dikkatlice kopyalayıp yapıştırın. Geri ödeme gerekmesi ihtimaline karşı, memo alanına YWallet adresinizi ekleyin.
+Tutarı ve adresi dikkatlice kopyalayıp yapıştırın. Geri ödeme gerekmesi ihtimaline karşı, memo alanına kendi korumalı adresinizi ekleyin.
 
 ![Adım 5 - ZEC gönderimi](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
 

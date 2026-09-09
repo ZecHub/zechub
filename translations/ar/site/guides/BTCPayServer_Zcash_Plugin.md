@@ -124,7 +124,7 @@ BTCPay Server **ليس** محفظة ولا **يتطلب مفاتيح خاصة**.
 ### كيف يعمل ذلك
 
 - **يتم إنشاء المحفظة مسبقاً.**  
-  يستخدم التاجر محفظة Zcash تدعم مفاتيح العرض - مثل [YWallet](https://ywallet.app/installation) أو [Zingo! Wallet](https://zingolabs.org/).  
+  يستخدم التاجر محفظة Zcash تدعم مفاتيح العرض - مثل [Zkool](https://github.com/hhanh00/zkool2/) أو [Zingo! Wallet](https://zingolabs.org/).  
   وتتوفر قائمة كاملة على [ZecHub.wiki](https://zechub.wiki/wallets).
 
 - **يتصل BTCPay Server عبر مفتاح عرض.**  
@@ -660,7 +660,7 @@ cd ~/BTCPayServer/btcpayserver-docker
 
 > لا تدعم جميع المحافظ بعد تصدير **Unified Full Viewing Key (UFVK)**.  
 > الخيارات الموصى بها:  
-> – [**YWallet**](https://ywallet.app/installation)  
+> – [**Zkool**](https://github.com/hhanh00/zkool2/)  
 > – [**Zingo! Wallet (إصدار الحاسوب)**](https://zingolabs.org/)  
 > في كلا التطبيقين، ابحث عن تصدير UFVK في قسم النسخ الاحتياطي/التصدير.
 

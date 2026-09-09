@@ -209,7 +209,7 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 
 | Termine | Definizione |
 |------|-----------|
-| Wallet | Software o hardware che conserva le chiavi private e consente di inviare/ricevere ZEC. I wallet attivi includono ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android), YWallet, Zallet (in arrivo) e Keystone (hardware). Per un elenco completo, vedi [Wallet dell'ecosistema Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Wallet | Software o hardware che conserva le chiavi private e consente di inviare/ricevere ZEC. I wallet attivi includono ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android), Zkool (mobile/desktop), Zallet (in arrivo) e Keystone (hardware). Per un elenco completo, vedi [Wallet dell'ecosistema Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | Il primo SDK JavaScript per Zcash, sviluppato da ChainSafe per ambienti browser. È alla base dello snap Zcash Shielded Wallet che ha portato gli ZEC schermati su MetaMask. |
 
 ## X

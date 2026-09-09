@@ -94,8 +94,8 @@ Perder una participación no es el fin del mundo (ese es justamente el objetivo 
 ### Zcash Foundation — frost.zfnd.org
 La Zcash Foundation ha lanzado una implementación funcional de FROST y un sitio de demostración. Esta es la implementación de referencia utilizada para pruebas y desarrollo.
 
-### Demo FROST de YWallet
-YWallet (una wallet de Zcash de alto rendimiento) tiene una integración temprana de demo FROST. Consulta la [guía de la Demo FROST de YWallet](/guides/Ywallet_FROST_Demo) para obtener instrucciones paso a paso.
+### Demo FROST de Ywallet
+Ywallet tuvo una integración temprana de demo FROST, explicada en la [guía de la Demo FROST de Ywallet](/guides/Ywallet_FROST_Demo). Ywallet ya no recibe mantenimiento y no se actualizará para Ironwood, así que lee la guía como referencia y no como algo que se pueda ejecutar hoy. Zkool, del mismo desarrollador, es el sucesor que recibe mantenimiento e incluye multisig FROST entre sus funciones.
 
 ### ZecHub Hackathon 2026 — Proyectos de la categoría FROST
 
@@ -144,8 +144,7 @@ Un punto de partida práctico para la mayoría de los equipos: **2-de-3** (resil
 ## Páginas relacionadas
 
 - [FROST — Análisis técnico en profundidad](FROST.md) — detalles criptográficos del protocolo (DKG, rondas de firma, pruebas de seguridad)
-- [Guía de la Demo FROST de YWallet](/guides/Ywallet_FROST_Demo) — demostración práctica paso a paso
-- [Demo FROST (frostdemo)](/guides/ywallet-frost-demo) — recorrido de la demo de Zcash Foundation
+- [Guía de la Demo FROST de Ywallet](/guides/Ywallet_FROST_Demo) — información de contexto; Ywallet ya no recibe mantenimiento
 - [Viewing Keys](Viewing_Keys.md) — acceso de solo lectura a direcciones blindadas (complementario a la custodia con umbral)
 - [Activos blindados de Zcash](Zcash_Shielded_Assets.md) — FROST también es una infraestructura clave para la emisión de ZSA
 

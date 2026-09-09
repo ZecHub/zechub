@@ -94,8 +94,8 @@
 ### Zcash Foundation — frost.zfnd.org
 أطلقت Zcash Foundation تنفيذًا عمليًا لـ FROST وموقعًا تجريبيًا. وهذا هو التنفيذ المرجعي المستخدم للاختبار والتطوير.
 
-### عرض YWallet FROST التجريبي
-يحتوي YWallet (وهو محفظة Zcash عالية الأداء) على تكامل تجريبي مبكر مع FROST. راجع [دليل العرض التجريبي لـ YWallet FROST](/guides/Ywallet_FROST_Demo) للحصول على تعليمات خطوة بخطوة.
+### عرض Ywallet FROST التجريبي
+كان لدى Ywallet تكامل تجريبي مبكر مع FROST، مشروح بالتفصيل في [دليل العرض التجريبي لـ Ywallet FROST](/guides/Ywallet_FROST_Demo). لم يعد Ywallet يخضع للصيانة ولن يتم تحديثه لـ Ironwood، لذا اقرأ الدليل كخلفية معرفية بدلًا من اعتباره شيئًا يمكن تشغيله اليوم. يُعد Zkool، من المطوّر نفسه، الخليفة الذي يخضع للصيانة ويُدرج التوقيع متعدد الأطراف FROST ضمن ميزاته.
 
 ### ZecHub Hackathon 2026 — مشاريع مسار FROST
 
@@ -144,8 +144,7 @@
 ## صفحات ذات صلة
 
 - [FROST — شرح تقني متعمق](FROST.md) — التفاصيل التشفيرية للبروتوكول (DKG، جولات التوقيع، براهين الأمان)
-- [دليل العرض التجريبي لـ YWallet FROST](/guides/Ywallet_FROST_Demo) — عرض عملي خطوة بخطوة
-- [العرض التجريبي لـ FROST (frostdemo)](/guides/ywallet-frost-demo) — شرح تجريبي من Zcash Foundation
+- [دليل العرض التجريبي لـ Ywallet FROST](/guides/Ywallet_FROST_Demo) — معلومات خلفية، لم يعد Ywallet قيد الصيانة
 - [Viewing Keys](Viewing_Keys.md) — وصول للقراءة فقط إلى العناوين المحمية (مكمل للحفظ الحدّي)
 - [أصول Zcash المحمية](Zcash_Shielded_Assets.md) — يُعد FROST أيضًا بنية تحتية أساسية لإصدار ZSA
 

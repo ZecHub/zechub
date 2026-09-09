@@ -23,7 +23,7 @@ Der entsprechende Betrag in $ZEC wird angezeigt, zusammen mit einer transparente
 ![Schritt 4 - ZEC-Zahlungsdetails](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
 
 ### 5. Zahlung senden
-Kopiere Betrag und Adresse sorgfältig und füge sie ein. Füge im Memo-Feld deine YWallet-Adresse hinzu, falls es zu einer Rückerstattung kommt.
+Kopiere Betrag und Adresse sorgfältig und füge sie ein. Füge im Memo-Feld deine eigene geschützte Adresse hinzu, falls es zu einer Rückerstattung kommt.
 
 ![Schritt 5 - ZEC senden](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
 

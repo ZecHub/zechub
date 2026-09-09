@@ -64,7 +64,7 @@ explorer वास्तव में क्या पढ़ता है, इ�
 
 ## इसे व्यवहार में लागू करें
 
-- ऐसा wallet उपयोग करें जो default रूप से shield करे, जैसे [Zodl](https://zodl.com) या [Ywallet](https://ywallet.app/)।
+- ऐसा wallet उपयोग करें जो default रूप से shield करे, जैसे [Zodl](https://zodl.com) या [Zingo!](https://www.zingolabs.org/)।
 - exchange से funds आते ही, उन्हें खर्च करने से पहले shield करें।
 - जब भी प्राप्तकर्ता support करता हो, shielded addresses पर भुगतान करें।
 - viewing key साझा करने से पहले, पूछें कि कौन सी key सबसे छोटी है जो पूछे गए प्रश्न का उत्तर दे सकती है।

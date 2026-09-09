@@ -33,5 +33,5 @@ Electric Coin CompanyおよびZcash Foundationは、以下の逸脱点を除い�
 
 - [Zcashセキュリティアドバイザリー](https://github.com/zcash/zcash/security/advisories)
 - [Zebraセキュリティアドバイザリー](https://github.com/ZcashFoundation/zebra/security/advisories)
-- [ECCへの脆弱性の報告](https://github.com/zcash/zcash/security/policy)
+- [zcash/zcashで脆弱性を報告する](https://github.com/zcash/zcash/security/policy) — この項目が指していた、現在はアクセスできないElectric Coin Companyのアドレスに代わるものです。
 - [ZFへの脆弱性の報告](https://zfnd.org/contact/)

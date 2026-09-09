@@ -124,7 +124,7 @@ Tutti i fondi vanno **direttamente** al wallet del commerciante. La sicurezza è
 ### Come funziona
 
 - **Il wallet viene creato in anticipo.**  
-  Il commerciante utilizza un wallet Zcash che supporta le viewing key - come [YWallet](https://ywallet.app/installation) o [Zingo! Wallet](https://zingolabs.org/).  
+  Il commerciante utilizza un wallet Zcash che supporta le viewing key - come [Zkool](https://github.com/hhanh00/zkool2/) o [Zingo! Wallet](https://zingolabs.org/).  
   Un elenco completo è disponibile su [ZecHub.wiki](https://zechub.wiki/wallets).
 
 - **BTCPay Server si connette tramite una viewing key.**  
@@ -660,7 +660,7 @@ Dopo aver installato il plugin, apparirà una nuova sezione **Zcash** nel menu d
 
 > Non tutti i wallet supportano ancora l'esportazione della **Unified Full Viewing Key (UFVK)**.  
 > Opzioni consigliate:  
-> – [**YWallet**](https://ywallet.app/installation)  
+> – [**Zkool**](https://github.com/hhanh00/zkool2/)  
 > – [**Zingo! Wallet (versione per PC)**](https://zingolabs.org/)  
 > In entrambe le app, cerca l'esportazione UFVK nella sezione di backup/esportazione.
 

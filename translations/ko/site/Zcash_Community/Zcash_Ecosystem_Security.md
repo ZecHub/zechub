@@ -33,5 +33,5 @@ Electric Coin Company와 Zcash Foundation 모두 이 [책임 있는 공개](http
 
 - [Zcash 보안 공지](https://github.com/zcash/zcash/security/advisories)
 - [Zebra 보안 공지](https://github.com/ZcashFoundation/zebra/security/advisories)
-- [ECC에 취약점 보고](https://github.com/zcash/zcash/security/policy)
+- [zcash/zcash에서 취약점 보고](https://github.com/zcash/zcash/security/policy) — 더 이상 연결할 수 없는 Electric Coin Company 주소를 대체합니다.
 - [ZF에 취약점 보고](https://zfnd.org/contact/)
