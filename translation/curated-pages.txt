@@ -96,6 +96,7 @@ Zcash_Organizations/Financial_Privacy_Foundation.md
 Zcash_Organizations/Obscura_Labs.md
 Zcash_Organizations/Shielded_Labs.md
 Zcash_Organizations/Sovright.md
+Zcash_Organizations/Valar_Group.md
 Zcash_Organizations/ZKAV.md
 Zcash_Organizations/ZODL.md
 Zcash_Organizations/Zcash_Community_Grants.md
@@ -133,6 +134,7 @@ Zcash_Tech/Overwinter.md
 Zcash_Tech/Pepper_Sync.md
 Zcash_Tech/Post_Quantum_Security.md
 Zcash_Tech/Private_Information_Retrieval.md
+Zcash_Tech/Project_Tachyon.md
 Zcash_Tech/Sapling.md
 Zcash_Tech/Sprout.md
 Zcash_Tech/The_Turnstile.md
