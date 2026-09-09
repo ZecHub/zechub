@@ -191,7 +191,7 @@ Discord-бот, обеспечивающий удобный и безопасн�
 ### Zecsite
 Ориентированный на приватность статический сайт, который агрегирует новости Zcash, статистику и образовательный контент без использования JavaScript.
 
-[Посетить](https://zecsite/org)
+[Посетить](https://zecsite.org/netscape/en/index.html)
 
 [Форум](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 

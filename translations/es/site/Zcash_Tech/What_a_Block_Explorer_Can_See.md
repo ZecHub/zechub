@@ -56,7 +56,7 @@ Si consultas los datos sin procesar, los campos de remitente y receptor blindado
 
 ## Ponlo en práctica
 
-- Usa una wallet que utilice direcciones blindadas por defecto, como [ZODL](https://zodl.com) o [Ywallet](https://ywallet.app/).
+- Usa una wallet que utilice direcciones blindadas por defecto, como [ZODL](https://zodl.com) o [Zingo!](https://www.zingolabs.org/).
 - Cuando recibas ZEC en una dirección transparente, muévelo a una dirección blindada antes de gastarlo.
 - Paga a direcciones blindadas cuando puedas. Cada pago transparente es completamente público; uno blindado no lo es.
 

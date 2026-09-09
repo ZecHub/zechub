@@ -191,7 +191,7 @@ Ahịa nzuzo nke mbụ na gburugburu ebe obibi Zcash. A na-akwụ ụgwọ ozugb
 ### Zecsite
 Ebe nrụọrụ weebụ na-elekwasị anya nzuzo nke nchịkọta akụkọ Zcash, ọnụ ọgụgụ, na ọdịnaya agụmakwụkwọ n'ejighị JavaScript.
 
-[Ịga leta ya .](https://zecsite/org)
+[Ịga leta ya .](https://zecsite.org/netscape/en/index.html)
 
 [Ụlọ Nzukọ ahụ](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 

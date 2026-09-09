@@ -15,7 +15,7 @@ Vimos projetos demais prometerem em excesso e entregarem aquém em seus roadmaps
 
 ## Governança
 
-[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth)
+[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth) — o portal personalizado da DAO em vote.cypherpunkzero.com foi desativado e o seu domínio deixou de resolver; este é o espaço Snapshot que permanece.
 
 [Guild](https://guild.xyz/cypherpunkzerodao)
 

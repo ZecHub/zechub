@@ -1,20 +1,20 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Zcash_Global_Ambassadors.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Zcash Küresel Elçileri
 
-Küresel Elçi Programı, Zcash ekosistemine yüksek kaliteli katkılar sunan topluluk üyelerini belirler ve onların lider olmalarını destekler. Elçiler, Zcash topluluğunu büyütür, kullanıcı benimsenmesini artırır ve Zcash'in gizliliği koruyan teknolojisine dair farkındalığı ilerletir.
+Küresel Elçi Programı, Zcash ekosistemine yüksek kaliteli katkılarda bulunan topluluk üyelerini belirler ve lider olmalarını destekler. Elçiler Zcash topluluğunu büyütür, kullanıcıların benimsemesini teşvik eder ve Zcash'in gizliliği koruyan teknolojisine dair farkındalığı artırır.
 
 ## Bir Elçi ne yapar?
 
 - Fiziksel veya sanal buluşma etkinlikleri düzenler
-- Sosyal medyada aktif bir varlık sürdürür ve Zcash hakkında özgün içerikler üretir
+- Sosyal medyada aktif bir varlık sürdürür ve Zcash hakkında özgün içerik oluşturur
 - Zcash eğitim materyallerini yerel dillere çevirir
-- Yeni kullanıcıları ve geliştiricileri Zcash ekosistemine dahil eder
+- Yeni kullanıcıları ve geliştiricileri Zcash ekosistemine kazandırır
 - Kripto konferanslarında ve topluluk etkinliklerinde Zcash'i temsil eder
 
-Elçiler, planladıkları faaliyetler üzerinde yaratıcı özgürlüğe sahiptir; bu da erişim çalışmalarını kendi yerel bağlamlarına göre uyarlamalarını sağlar.
+Elçiler, planladıkları faaliyetler üzerinde yaratıcı özgürlüğe sahiptir; bu da erişim çalışmalarını yerel bağlamlarına uyarlamalarını sağlar.
 
 ## [Küresel Elçi Web Sitesi](https://zcashambassadors.com)
 
@@ -22,23 +22,22 @@ Elçiler, planladıkları faaliyetler üzerinde yaratıcı özgürlüğe sahipti
 
 | Bölge | Topluluk | Temel Faaliyet |
 |--------|-----------|-------------|
-| Latin Amerika | [Zcash en Español](https://zcashesp.com) | İspanyolca içerik, ZK AV Club, Zcast podcast |
+| Latin Amerika | [Zcash en Español](https://x.com/zcashesp1) | İspanyolca içerik, ZK AV Club, Zcast podcast'i |
 | Brezilya | [Zcash Brazil](https://x.com/zcashbrazil) | Atölyeler, buluşmalar, Shielded Magazine |
-| Türkiye | [Zcash Turkey](https://x.com/ZcashTR) | Eğitsel içerik, Istanbul Blockchain Week katılımı |
-| Arabistan | [Zcash Arabia](https://x.com/ZcashArabia) | Arapça eğitsel içerik, AMA'ler |
-| Nijerya | [Zcash Nigeria](https://x.com/ZcashNigeria) | Geliştirici eğitimi, topluluğa katılım desteği |
-| Doğu Afrika | [Zcash East Africa](https://forum.zcashcommunity.com/t/privacy-has-landed-in-south-africa-join-in/55706) | Güney Afrika ve Uganda'da topluluk büyümesi |
-| Kenya | [KBCC 2026 Activation](https://forum.zcashcommunity.com/t/zcash-gold-sponsorship-kenya-kbcc-2026-activation-privacy-workshop/55520) | Kenya Blockchain Conference sponsorluğu + gizlilik atölyesi |
-| Meksika | [CodeRaiz Mexico](https://forum.zcashcommunity.com/t/zcash-university-outreach-initiative-mexico-2026-coderaiz-proposal/55506) | Üniversite erişimi ve geliştirici katılımı |
-| Tanzanya | [Pesa Ya Siri](https://forum.zcashcommunity.com/t/pesa-ya-siri-making-zcash-a-household-name-in-tanzania/55558) | Zcash'i Tanzanya'da herkesin bildiği bir isim haline getirmek |
+| Türkiye | [Zcash Turkey](https://x.com/ZcashTR) | Eğitim içeriği, Istanbul Blockchain Week katılımı |
+| Arabistan | [Zcash Arabia](https://x.com/ZcashArabia) | Arapça eğitim içeriği, AMA'lar |
+| Ukrayna| [Zcask Ukraine](https://x.com/Zcash_ua) | Ukrayna |
+| Nijerya | [Zcash Nigeria](https://x.com/ZcashNigeria) | Geliştirici eğitimi, topluluğa katılım |
+| Doğu Afrika | [Zcash East Africa](https://x.com/ZcashEastAfrica) | Doğu Afrika, Uganda topluluğunun büyümesi |
+| Güney Afrika | [Zcash South Africa](https://twitter.com/Zcash_SA) | Güney Afrika |
+| Gana | [Zcash Ghana](https://x.com/ZcashGH) | Gana |
+| Meksika | [zcashqro](https://x.com/zcashqro) | Üniversitelere erişim ve geliştiricileri ekosisteme kazandırma |
 | Rusya | [ruZcash](https://x.com/ruZCASH) | Rusça içerik ve topluluk |
-| Hindistan | [Zcash India](https://forum.zcashcommunity.com/t/zcash-india-2026/54762) | Geliştirici eğitimi ve topluluk büyümesi |
+| Hindistan | [Zcash India](https://x.com/ZcashIND) | Geliştirici eğitimi ve topluluğun büyümesi |
+| Kore | [Zcash Korea](https://x.com/zcashkorea) | Korece eğitim içeriği |
 
 ## Elçi Olmak İçin Başvurun
 
-Bölgenizde Zcash'i temsil etmekle ilgileniyor musunuz? Program hakkında bilgi edinmek ve başvurmak için [zcashambassadors.com](https://zcashambassadors.com) adresini ziyaret edin.
-
-Şunları yaparak da dahil olabilirsiniz:
-- [ZecHub DAO](https://app.dework.xyz/zechub-2424) ödüllü görevlerine katkıda bulunarak
-- [Zcash Global Discord](https://discord.gg/zcash) topluluğuna katılarak
-- [8–10 Temmuz 2026'da Prag'daki ZODL Summit'e](https://forum.zcashcommunity.com/t/zodl-summit-july-8-10-in-prague-czech-republic/55716) katılarak
+Şunları yaparak da katkıda bulunabilirsiniz:
+- [ZecHub DAO](https://app.dework.xyz/zechub-2424) ödüllerine katkıda bulunmak
+- [Zcash Global Discord](https://discord.gg/zcash)'a katılmak

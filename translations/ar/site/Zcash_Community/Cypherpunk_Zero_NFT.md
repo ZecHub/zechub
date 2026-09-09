@@ -15,7 +15,7 @@ Cypherpunk Zero هي سلسلة قصصية تتمحور حول Zero، وهي ه�
 
 ## الحوكمة
 
-[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth)
+[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth) — تم إيقاف البوابة المخصصة للـ DAO على vote.cypherpunkzero.com ولم يعد نطاقها يعمل؛ هذه هي مساحة Snapshot المتبقية.
 
 [Guild](https://guild.xyz/cypherpunkzerodao)
 

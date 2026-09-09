@@ -191,7 +191,7 @@ Zcash ekosisteminin gizlilik öncelikli pazaryeri. Ödemeler doğrudan sonuçlan
 ### Zecsite
 JavaScript kullanmadan Zcash haberlerini, istatistiklerini ve eğitim içeriklerini bir araya getiren gizlilik odaklı statik web sitesi.
 
-[Ziyaret et](https://zecsite/org)
+[Ziyaret et](https://zecsite.org/netscape/en/index.html)
 
 [Forum](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 

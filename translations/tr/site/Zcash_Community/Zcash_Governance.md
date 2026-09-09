@@ -129,7 +129,7 @@ Zcash yönetişimi, "zincir üstü protokol kuralları" ile "zincir dışı sosy
 - ZIP 1015 (NU6 fonlama değişikliği) -> [zips.z.cash/zip-1015](https://zips.z.cash/zip-1015)  
 - ZIP 1016 (önerilen coin sahibi modeli) -> [zips.z.cash/zip-1016](https://zips.z.cash/zip-1016)  
 - Zcash Improvement Proposals -> [zips.z.cash](https://zips.z.cash)  
-- Zcash Community Grants portalı -> [grants.zcashcommunity.com](https://grants.zcashcommunity.com) (veya güncel FPF sitesi)
+- Zcash Community Grants portalı -> [zcashcommunitygrants.org](https://zcashcommunitygrants.org)
 
 ## 6. Lockbox Panosu
 

@@ -15,7 +15,7 @@ Cypherpunk Zero 是一个以 Zero 为核心的故事系列。Zero 是一位年�
 
 ## 治理
 
-[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth)
+[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth) — DAO 的自定义门户 vote.cypherpunkzero.com 已停用，其域名不再解析；这是仍保留的 Snapshot 空间。
 
 [Guild](https://guild.xyz/cypherpunkzerodao)
 

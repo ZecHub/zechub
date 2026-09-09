@@ -74,5 +74,5 @@ X पर Zcash की वैश्विक उपस्थिति सक्�
 - [Zcash Community Website](https://www.zcashcommunity.com/)
 - [ZecHub Wiki](https://zechub.wiki)
 - [Zcash Grants Hub](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
-- [Zcash Global Ambassadors](https://zechub.wiki/zcash-community/zcash-global-ambassadors)
+- [Zcash Global Ambassadors](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - इस wiki पर कार्यक्रम का अवलोकन (zcashambassadors.com ऑफ़लाइन है)
 - [Dework पर ZecHub DAO](https://app.dework.xyz/zechub-2424)

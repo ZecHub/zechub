@@ -22,7 +22,7 @@
 | Sqribbles                  | 창의적이고 커뮤니티 주도의 Zcash 콘텐츠              | [방문 ->](https://free2z.cash/sqribbles) |
 | Str4d                      | Zcash 핵심 개발자의 기술 관련 글             | [방문 ->](https://words.str4d.xyz/) |
 | CipherScan Weekly          | Zcash 블록체인 분석을 다루는 주간 블로그 게시물    | [방문 ->](https://cipherscan.app/) |
-| Zcash Shielded News        | 프라이버시 및 생태계 관련 주간 뉴스 다이제스트                 | [방문 ->](https://zechub.wiki) |
+| Zcash Shielded News        | 프라이버시 및 생태계 관련 주간 뉴스 다이제스트                 | [방문 ->](https://zechub.substack.com/) |
 | ZecHub DAO Blog            | ZecHub DAO 커뮤니티의 기사와 교육 콘텐츠 | [방문 ->](https://zechub.wiki) |
 
 ---

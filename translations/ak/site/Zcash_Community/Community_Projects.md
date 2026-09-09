@@ -1,6 +1,6 @@
 # Mpɔtam Hɔ Nnwuma
 
-Hwehwɛ nnwinnade, sika kotoku, dwumadie, nwomakorabea, ne abɔdeɛ a nkwa wom ho nhyehyɛeɛ a Zcash mpɔtam hɔfoɔ ne abɔdeɛ a nkwa wom a nimdeɛ nnim a ɛtrɛ no asi.
+Hwehwɛ nnwinnade, sika kotoku, dwumadie, nwomakorabea, ne abɔdeɛ a nkwa wom nhyehyɛeɛ a Zcash mpɔtam hɔfoɔ ne abɔdeɛ a nkwa wom nhyehyɛeɛ a ɛtrɛ a nimdeɛ nnim no asi.
 
 ---
 
@@ -31,15 +31,15 @@ Nhomasua a ɛkɔ akyiri a ɛfa Zcash mfiridwuma, cryptography, sikasɛm, ne nnis
 [Sra](https://www.youtube.com/watch?v=YWUzh_VtrR8)
 
 ### Zcast na ɛwɔ hɔ
-Spania kasa mu Zcash podcast a ɛwɔ abɔde a nkwa wom ho nsɛm a aba foforo. 
+Spania kasa mu Zcash podcast a ɛwɔ abɔdeɛ a nkwa wom ho nsɛm a aba foforɔ. 
 [Sra](https://www.youtube.com/@ZcastEsp)
 
-### Nimdeɛ a enni Audiovisual Club (ZKAV) .
-Privacy-first audiovisual collective a ɛtete, bom bɔ, na ɛde atuhoamafoɔ AV mmoa ma ma open-source ne decentralized tech mpɔtam hɔ nhyiamu. 
+### Nimdeɛ a wonnim Audiovisual Club (ZKAV) .
+Privacy-first audiovisual collective a ɛtete, bom bɔ, na ɛma atuhoamafo AV mmoa ma open-source ne decentralized tech mpɔtam hɔ nhyiam ahorow. 
 [Sra](https://zkav.club/)
 
 ### Zcash Network Sukuu a ɛwɔ hɔ
-Nhomasua mu nsɛm a wɔahyehyɛ ama Zcash dwumadiefoɔ ne wɔn a wɔyɛ no foforɔ. 
+Nhomasua mu nsɛm a wɔahyehyɛ ama Zcash dwumadiefoɔ foforɔ ne wɔn a wɔyɛ. 
 [Nhyiamu](https://forum.zcashcommunity.com/t/zcash-network-school/55269)
 
 ### Zectastic a ɛyɛ nea ɛwɔ hɔ
@@ -51,7 +51,7 @@ Mobile application a ɛka Zcash amanneɛbɔ, mpɔtam hɔ dwumadi, ntwamutam ho n
 [Nhyiamu](https://forum.zcashcommunity.com/t/zec-app-is-coming-soon/56605)
 
 ### PGPZ Mpɔtam Hɔ
-Community hub for Pretty Good Policy for Zcash (PGPZ), Washington D.C. nhyehyeɛ nhyehyɛeɛ a ɛtwe adwene si digyital sika a wɔkora kokoam nsɛm so, mmara sodie a mfasoɔ wɔ so, ne ɔmanfoɔ yiedie dwumadie a Zcash di. 
+Community hub for Pretty Good Policy for Zcash (PGPZ), Washington D.C. nhyehyeɛ nhyehyɛeɛ a ɛtwe adwene si digyital sika a wɔkora kokoamsɛm so, mmara sodiɛ a mfasoɔ wɔ so, ne ɔmanfoɔ yiedie dwumadie a Zcash di. 
 [Sra](https://community.pgpz.org/)
 
 ### Gleyo na ɔkyerɛwee 
@@ -86,7 +86,7 @@ Katua apon a ɛma wɔn a wɔde di dwuma no sɛe ZEC a wɔabɔ ho ban wɔ wiase a
 [Sra](https://overpay.com)
 
 ### Zafu Sikakorabea
-Open-source kokoam sika kotoku ma Zcash ne Penumbra. Browser ntrɛwmu a ɛwɔ client-side proving, verified light-client architecture, cold signing, FROST multisig, ne view key biara nni hɔ a efi afiri no mu. 
+Open-source kokoam sika kotoku ma Zcash ne Penumbra. Browser ntrɛwmu a ɛwɔ client-side proving, verified light-client architecture, awɔw mu signing, FROST multisig, ne view key biara nni hɔ a efi afiri no mu. 
 [Sra](https://chromewebstore.google.com/detail/zafu-wallet-beta/bhlogefpcebekhjpomlodifcelldoimn)
 
 ### ZGo
@@ -98,7 +98,7 @@ Mfiri a Wɔde Tua Ka Ho Nhyehyɛe (MPP) ma Zcash. Wɔayɛ ama AI agents ne mfiri
 [Sra](https://zimppy.xyz/)
 
 ### Dizzy Wallet a Ɛyɛ Fɛ
-Discord bot a ɛma wonya kwan a ɛnyɛ den na ahobammɔ wom wɔ Zcash nnwuma mu. 
+Discord bot a ɛma kwan a ɛnyɛ den na ahobammɔ wom wɔ Zcash nkitahodi mu. 
 [Sra](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 
 ### ZODL
@@ -106,7 +106,7 @@ Flagship Zcash sika kotoku a efi ZODL (kan no na wɔfrɛ no Zashi). Ɛwɔ iOS ne
 [Sra](https://zodl.app/)
 
 ### Noir Sikakorabea
-Zcash sika kotoku a wɔde wɔn adwene si kokoam nsɛm so a wɔayɛ ama ZEC nnwuma a ɛnyɛ den na ɛyɛ kokoam nsɛm. 
+Zcash sika kotoku a wɔde wɔn adwene si kokoamsɛm so a wɔayɛ ama ZEC nnwuma a ɛnyɛ den na ɛyɛ kokoam nsɛm. 
 [Nhyiamu](https://forum.zcashcommunity.com/t/first-look-at-noir-wallet/55667)
 
 ### ZecVault na ɔkyerɛwee
@@ -135,7 +135,7 @@ Sika kotoku ne nkitahodi nhyehyɛe a wɔbom yɛ a ɛma kuw no mufo pii tumi bom 
 [Sra](https://github.com/USCMig/Cyze)
 
 ### Pendrake Ɔwɛn-Aban
-Desktop sika kotoku a wɔde hwɛ nneɛma nkutoo a wɔayɛ ama ankorankoro ne ahyehyɛde ahorow a ɛsɛ sɛ wɔhwɛ sika a wɔabɔ ho ban a wonni tumi a wɔde bedi dwuma. Ɛboa atɔfoɔ ne sika a ɛkari pɛ a wɔhwɛ so, Orchard ne Sapling nsɛm a wɔakyerɛw, memo hwɛ, abakɔsɛm mu fiat boɔ a wɔbu, ayɔnkofa ho amanneɛbɔ, sika kotokuo a wɔde sie, ne screen-sharing features a ɛtwe adwene si kokoamsɛm so.
+Desktop sika kotoku a wɔde hwɛ nneɛma nkutoo a wɔayɛ ama ankorankoro ne ahyehyɛde ahorow a ɛsɛ sɛ wɔhwɛ sika a wɔabɔ ho ban a wonni tumi a wɔde bedi dwuma. Ɛboa ayɔnkofa ne sika a ɛkari pɛ a wɔhwɛ so, Orchard ne Sapling nsɛm a wɔakyerɛw, memo hwɛ, abakɔsɛm mu fiat bo a wɔbɔ, asɛm ho amanneɛbɔ, sika kotoku a wɔde sie, ne screen-sharing a ɛtwe adwene si kokoamsɛm so.
 
 [Sra](https://github.com/auzum197/pendrake-watch)
 
@@ -184,19 +184,19 @@ Directory a wɔde hwehwɛ links, nnwinnade, ne nsɛm a ɛfa Zcash ecosystem ho.
 [Sra](https://zlink.click)
 
 ### Zecmarket na ɔkyerɛwee
-Zcash abɔde a nkwa wom nhyehyɛe no gua a edi kan a ɛfa kokoam nsɛm ho. Katua no siesie tẽẽ na asɛnka agua no nkura wo sika da.
+Zcash abɔde a nkwa wom nhyehyɛe no gua a edi kan wɔ kokoam nsɛm so. Katua no siesie tẽẽ na asɛnka agua no nkura wo sika da.
 
 [Sra](https://zecmarket.org/)
 
 ### Zecsite na ɔkyerɛwee
 Wɛbsaet a ɛgyina hɔ pintinn a ɛtwe adwene si kokoamsɛm so a ɛboaboa Zcash amanneɛbɔ, akontabuo, ne nkyerɛkyerɛ nsɛm ano a wɔmfa JavaScript nni dwuma.
 
-[Sra](https://zecsite/org)
+[Sra](https://zecsite.org/netscape/en/index.html)
 
 [Nhyiamu](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 
 ### ZEC-OS na ɛwɔ hɔ
-Aretro-style desktop interface a ɛka Zcash ecosystem nnwinnade ahorow ne nsɛm bom yɛ no application biako. Ɛka blockchain explorer, mempool viewer, network akontaabu, abakɔsɛm charts, shielded pool ho nsɛm, mining nnwinnade, Unified Address decoder, calculator, agodie, terminal, ne utilities afoforo.
+Aretro-style desktop interface a ɛka Zcash ecosystem nnwinnade ahorow ne nsɛm bom yɛ no application biako. Ɛka ho ne blockchain explorer, mempool viewer, network akontaabu, abakɔsɛm charts, shielded pool ho nsɛm, mining nnwinnade, Unified Address decoder, calculator, agodie, terminal, ne utilities afoforo.
 
 [Sra](https://www.zec-os.com/)
 
@@ -230,7 +230,7 @@ Tipping platform a ɛtwe adwene si kokoamsɛm so ma streamers a ɛma wɔn a wɔh
 [Sra](https://zec.live/)
 
 ### ZecLedger na ɔkyerɛwee
-Sikasɛm akyidi ne akontaabu adwinnade a ɛkora kokoamsɛm so ma Zcash. Ɛka ɔmanfoɔ dashboard a ɛfa ntwamutam data a ɛda adi pefee ne mpɔtam hɔ kokoam akontabuo a ɛde hwɛ safe di dwuma a ɛnda no adi bom, ɛboa wɔn a wɔde di dwuma no ma wɔdi sika a aka, asɛm a wɔde di dwuma ho abakɔsɛm, ɛka a wɔgyina so, na awieeɛ koraa no sikasɛm nhyehyɛeɛ ne amanneɛbɔ a wɔasiesie toɔ toɔ so berɛ a wɔkora wɔn sika so na ɛyɛ kokoam.
+Sikasɛm akyidi ne akontaabu adwinnade a ɛkora kokoamsɛm so ma Zcash. Ɛka ɔmanfoɔ dashboard a ɛfa ntwamutam data a ɛda adi pefee ne mpɔtam hɔ kokoam akontabuo a ɛde hwɛ safe di dwuma a ɛnda ho adi bom, boa wɔn a wɔde di dwuma no ma wɔdi sika a aka, asɛm a wɔde di dwuma ho abakɔsɛm, ɛka a wɔgyina so, na awieeɛ koraa no sikasɛm nhyehyɛeɛ ne amanneɛbɔ a wɔasiesie toɔ toɔ berɛ a wɔde wɔn sika sie ahobanbɔ ne kokoam.
 
 [Sra](https://zecledger-web.vercel.app/)
 
@@ -259,7 +259,7 @@ Nhyehyɛeɛ a wɔde sɔ Zebra’s parsing, networking, ne cryptographic componen
 Threshold signature scheme (FROST) adwuma a wɔrenya nkɔsoɔ ama wɔagye atom kɛseɛ wɔ Zcash abɔdeɛ a nkwa wom nhyehyɛeɛ mu. 
 [Krataa](https://eprint.iacr.org/2020/852)
 
-### MonteZcret Nhwehwɛmu
+### MonteZcret Nsusuwii a Wɔde Di Dwuma
 Open-source adwumayɛ-sɔhwɛ adwuma a ɛhwehwɛ akwan horow a wɔfa so yɛ Zcash blockchain data a ɛne ne ho hyia. 
 [Sra](https://github.com/openkoder/benchmarks_zcash/)
 
@@ -272,7 +272,7 @@ Cooperative, bottom-up adwumayɛ nhyehyɛe nhwɛso a wɔasi wɔ Zcash so.
 [Sra](https://aftok.com)
 
 ### ZK Wiase Nyinaa Boa a Wɔde Ma
-Zcash-native credit ne abatow nhyehyɛe a wɔde bɛda nneɛma adi a wɔpaw, ahoboa a wɔde besiesie, din a wɔbɛfa wɔ ahye so, ne nniso a wɔabɔ ho ban. 
+Zcash-kuromfoɔ boseabɔ ne abatoɔ nhyehyɛeɛ a wɔde bɛda nneɛma adi a wɔpaw, ahoboa a wɔde bɛsiesie, din a wɔbɛfa wɔ ahyeɛ so, ne nnisoɔ a wɔabɔ ho ban. 
 [Sra](https://voting.zkglobalcredit.tech/)
 
 ### Free2z
@@ -295,7 +295,7 @@ Decred’s decentralized exchange a ɛboa Zcash.
 Browser sika kotoku a Zcash mmoa wom. 
 [Sra](https://brave.com/wallet/)
 
-### Nano-GPT a wɔde yɛ adwuma
+### Nano-GPT na ɛyɛ adwuma
 AI platform a ɛma kwan kɔ AI nhwɛso ahorow pii a edi kan bere a ɛboa cryptocurrency sikatua, a Zcash ka ho.
 
 [Sra](https://nano-gpt.com/conversation/new)

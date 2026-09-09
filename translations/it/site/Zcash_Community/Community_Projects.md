@@ -191,7 +191,7 @@ Il marketplace privacy-first dell'ecosistema Zcash. I pagamenti vengono regolati
 ### Zecsite
 Un sito statico focalizzato sulla privacy che aggrega notizie, statistiche e contenuti educativi su Zcash senza usare JavaScript.
 
-[Visita](https://zecsite/org)
+[Visita](https://zecsite.org/netscape/en/index.html)
 
 [Forum](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 

@@ -15,7 +15,7 @@ Wir haben zu viele Projekte gesehen, die auf ihren NFT-Roadmaps zu viel versprec
 
 ## Governance
 
-[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth)
+[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth) — das benutzerdefinierte Portal der DAO unter vote.cypherpunkzero.com wurde eingestellt und seine Domain wird nicht mehr aufgelöst; dies ist der verbleibende Snapshot-Bereich.
 
 [Guild](https://guild.xyz/cypherpunkzerodao)
 

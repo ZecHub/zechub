@@ -1,44 +1,43 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Zcash_Global_Ambassadors.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Zcash グローバルアンバサダー
 
-グローバルアンバサダープログラムは、Zcashエコシステムに対して高品質な貢献を行っているコミュニティメンバーを特定し、リーダーとしての地位を与えます。アンバサダーたちは、Zcashコミュニティを拡大し、ユーザーの採用を推進し、Zcashのプライバシー保護技術に関する認識を高めます。
+グローバルアンバサダープログラムは、Zcashエコシステムに質の高い貢献を行うコミュニティメンバーを特定し、リーダーとなるための支援を行います。アンバサダーはZcashコミュニティを成長させ、ユーザーの採用を促進し、Zcashのプライバシー保護技術に対する認知を高めます。
 
-## アンバサダーの役割
+## アンバサダーは何をしますか？
 
-- 物理的または仮想的なミートアップイベントを開催
-- SNSで活発な活動を行い、Zcashに関するオリジナルコンテンツを作成
-- Zcash教育資料を現地語に翻訳
-- 新規ユーザーおよび開発者をZcashエコシステムへ導入
-- クリプトカンファレンスやコミュニティイベントでのZcash代表
+- 対面またはバーチャルのミートアップイベントを開催する
+- ソーシャルメディアで積極的に活動し、Zcashに関するオリジナルコンテンツを作成する
+- Zcashの教育資料を現地の言語へ翻訳する
+- 新規ユーザーと開発者をZcashエコシステムへ迎え入れる
+- 暗号資産カンファレンスやコミュニティイベントでZcashを代表する
 
-アンバサダーは、計画する活動に対して創造的な自由があり、地域の状況に合わせたアプローチが可能になります。
+アンバサダーは、計画する活動について創造的な自由を持ち、地域の状況に合わせたアウトリーチを行えます。
 
-## [グローバルアンバサダーホームページ](https://zcashambassadors.com)
+## [グローバルアンバサダーウェブサイト](https://zcashambassadors.com)
 
 ## 活動中のアンバサダーコミュニティ（2026年）
 
 | 地域 | コミュニティ | 主な活動 |
-|------|--------------|----------|
-| ラテンアメリカ | [Zcash en Español](https://zcashesp.com) | スペイン語コンテンツ、ZK AVクラブ、Zcastポッドキャスト |
-| ブラジル | [Zcash Brazil](https://x.com/zcashbrazil) | ウォークショップ、ミートアップ、Shielded Magazine |
-| トルコ | [Zcash Turkey](https://x.com/ZcashTR) | 教育コンテンツ、イスタンブールブロックチェーンウィーク参加 |
-| アラビア地域 | [Zcash Arabia](https://x.com/ZcashArabia) | アラビア語教育コンテンツ、AMAs（質疑応答セッション） |
-| ニジェリア | [Zcash Nigeria](https://x.com/ZcashNigeria) | 開発者教育、コミュニティオンボーディング |
-| 東アフリカ | [Zcash East Africa](https://forum.zcashcommunity.com/t/privacy-has-landed-in-south-africa-join-in/55706) | 南アフリカ、ウガンダのコミュニティ拡大 |
-| ケニア | [KBCC 2026 Activation](https://forum.zcashcommunity.com/t/zcash-gold-sponsorship-kenya-kbcc-2026-activation-privacy-workshop/55520) | ケニアブロックチェーンカンファレンスのスポンサーシップ＋プライバシーワークショップ |
-| メキシコ | [CodeRaiz Mexico](https://forum.zcashcommunity.com/t/zcash-university-outreach-initiative-mexico-2026-coderaiz-proposal/55506) | 大学向けのアウトリーチおよび開発者オンボーディング |
-| タンザニア | [Pesa Ya Siri](https://forum.zcashcommunity.com/t/pesa-ya-siri-making-zcash-a-household-name-in-tanzania/55558) | タンザニアでZcashを家庭の名前のように広める |
-| ロシア | [ruZcash](https://x.com/ruZCASH) | ロシア語コンテンツおよびコミュニティ活動 |
-| インド | [Zcash India](https://forum.zcashcommunity.com/t/zcash-india-2026/54762) | 開発者教育およびコミュニティ拡大 |
+|--------|-----------|-------------|
+| ラテンアメリカ | [Zcash en Español](https://x.com/zcashesp1) | スペイン語コンテンツ、ZK AV Club、Zcastポッドキャスト |
+| ブラジル | [Zcash Brazil](https://x.com/zcashbrazil) | ワークショップ、ミートアップ、Shielded Magazine |
+| トルコ | [Zcash Turkey](https://x.com/ZcashTR) | 教育コンテンツ、Istanbul Blockchain Weekへの参加 |
+| アラビア | [Zcash Arabia](https://x.com/ZcashArabia) | アラビア語の教育コンテンツ、AMA |
+| ウクライナ| [Zcask Ukraine](https://x.com/Zcash_ua) | ウクライナ |
+| ナイジェリア | [Zcash Nigeria](https://x.com/ZcashNigeria) | 開発者教育、コミュニティへのオンボーディング |
+| 東アフリカ | [Zcash East Africa](https://x.com/ZcashEastAfrica) | 東アフリカ、ウガンダでのコミュニティ成長 |
+| 南アフリカ | [Zcash South Africa](https://twitter.com/Zcash_SA) | 南アフリカ |
+| ガーナ | [Zcash Ghana](https://x.com/ZcashGH) | ガーナ |
+| メキシコ | [zcashqro](https://x.com/zcashqro) | 大学へのアウトリーチと開発者のオンボーディング |
+| ロシア | [ruZcash](https://x.com/ruZCASH) | ロシア語コンテンツとコミュニティ |
+| インド | [Zcash India](https://x.com/ZcashIND) | 開発者教育とコミュニティ成長 |
+| 韓国 | [Zcash Korea](https://x.com/zcashkorea) | 韓国語の教育コンテンツ |
 
-## アンバサダーになる応募
+## アンバサダーへの応募
 
-あなたの地域でZcashを代表してみたいですか？[zcashambassadors.com](https://zcashambassadors.com)にアクセスして、プログラムについて学び、応募してください。
-
-他にも参加できる方法は以下の通りです：
-- [ZecHub DAO](https://app.dework.xyz/zechub-2424)のバウンティに貢献
-- [ZcashグローバルDiscord](https://discord.gg/zcash)に参加
-- 2026年7月8日～10日にプラハで開催される[ZODLサミット](https://forum.zcashcommunity.com/t/zodl-summit-july-8-10-in-prague-czech-republic/55716)に出席
+以下の方法でも参加できます：
+- [ZecHub DAO](https://app.dework.xyz/zechub-2424)の報奨金に貢献する
+- [Zcash Global Discord](https://discord.gg/zcash)に参加する

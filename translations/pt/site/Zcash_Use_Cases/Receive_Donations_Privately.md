@@ -52,7 +52,7 @@ Isso permite que você receba fundos **sem expor seu grafo financeiro**.
 
 - Uma carteira Zcash que ofereça suporte a endereços blindados:
   - Zodl
-  - YWallet
+  - Zingo!
   - Outras carteiras compatíveis
 
 <br/>

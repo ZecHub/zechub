@@ -191,7 +191,7 @@ Atọ́ka fún wíwá àwọn ìjápọ, irinṣẹ́ àti àlàyé nípa ètò �
 ### Ìkókó tí ó wà nínú ìwé yìí
 A privacy-focused static website that aggregates Zcash news, statistics, and educational content without using JavaScript.
 
-[Ìbẹ̀wò](https://zecsite/org)
+[Ìbẹ̀wò](https://zecsite.org/netscape/en/index.html)
 
 [Àjọ Ìjùmọ̀sọ́nà](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 

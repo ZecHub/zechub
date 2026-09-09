@@ -191,7 +191,7 @@ Zcashエコシステムのプライバシー最優先マーケットプレイス
 ### Zecsite
 JavaScriptを使用せずにZcashのニュース、統計、教育コンテンツを集約する、プライバシー重視の静的ウェブサイト。
 
-[訪問](https://zecsite/org)
+[訪問](https://zecsite.org/netscape/en/index.html)
 
 [フォーラム](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 

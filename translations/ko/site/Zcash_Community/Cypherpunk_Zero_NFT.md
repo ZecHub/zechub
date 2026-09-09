@@ -15,7 +15,7 @@ Cypherpunk Zero는 젤로라는 젊은 사이퍼펑크 해커이자 자유 전�
 
 ## 거버넌스
 
-[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth)
+[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth) — DAO의 맞춤형 포털인 vote.cypherpunkzero.com은 종료되었고 해당 도메인은 더 이상 연결되지 않습니다. 이것이 남아 있는 Snapshot 공간입니다.
 
 [Guild](https://guild.xyz/cypherpunkzerodao)
 

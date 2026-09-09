@@ -191,7 +191,7 @@
 ### Zecsite
 موقع ثابت يركز على الخصوصية ويجمع أخبار Zcash، والإحصاءات، والمحتوى التعليمي من دون استخدام JavaScript.
 
-[زيارة](https://zecsite/org)
+[زيارة](https://zecsite.org/netscape/en/index.html)
 
 [المنتدى](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 

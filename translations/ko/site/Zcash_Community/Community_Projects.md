@@ -191,7 +191,7 @@ Zcash 생태계의 프라이버시 우선 마켓플레이스입니다. 결제는
 ### Zecsite
 JavaScript를 사용하지 않고 Zcash 뉴스, 통계, 교육 콘텐츠를 모아 제공하는 프라이버시 중심 정적 웹사이트입니다.
 
-[방문하기](https://zecsite/org)
+[방문하기](https://zecsite.org/netscape/en/index.html)
 
 [포럼](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 
