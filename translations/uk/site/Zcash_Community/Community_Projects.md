@@ -191,7 +191,7 @@ Discord-бот, що забезпечує безперешкодний і без
 ### Zecsite
 Статичний сайт, орієнтований на приватність, який збирає новини, статистику та освітній контент про Zcash без використання JavaScript.
 
-[Відвідати](https://zecsite/org)
+[Відвідати](https://zecsite.org/netscape/en/index.html)
 
 [Форум](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 

@@ -191,7 +191,7 @@ Der datenschutzorientierte Marktplatz des Zcash-Ökosystems. Zahlungen werden di
 ### Zecsite
 Eine datenschutzorientierte statische Website, die Zcash-Nachrichten, Statistiken und Bildungsinhalte ohne die Verwendung von JavaScript bündelt.
 
-[Besuchen](https://zecsite/org)
+[Besuchen](https://zecsite.org/netscape/en/index.html)
 
 [Forum](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 

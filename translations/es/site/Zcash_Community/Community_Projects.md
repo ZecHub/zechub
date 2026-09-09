@@ -191,7 +191,7 @@ El marketplace con enfoque en la privacidad del ecosistema de Zcash. Los pagos s
 ### Zecsite
 Un sitio web estático centrado en la privacidad que reúne noticias, estadísticas y contenido educativo de Zcash sin usar JavaScript.
 
-[Visitar](https://zecsite/org)
+[Visitar](https://zecsite.org/netscape/en/index.html)
 
 [Foro](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 

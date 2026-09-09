@@ -15,7 +15,7 @@ Cypherpunk Zero, genç bir cypherpunk hacker ve özgürlük savaşçısı olan Z
 
 ## Yönetişim
 
-[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth)
+[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth) — DAO'nun vote.cypherpunkzero.com adresindeki özel portalı kullanımdan kaldırıldı ve alan adı artık çözümlenmiyor; bu, ayakta kalan Snapshot alanıdır.
 
 [Guild](https://guild.xyz/cypherpunkzerodao)
 

@@ -15,7 +15,7 @@ Cypherpunk Zero एक कहानी-वाचन श्रृंखला ह
 
 ## Governance
 
-[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth)
+[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth) — DAO का vote.cypherpunkzero.com पर स्थित कस्टम पोर्टल बंद कर दिया गया है और उसका डोमेन अब रीज़ॉल्व नहीं होता; यही बचा हुआ Snapshot स्पेस है।
 
 [Guild](https://guild.xyz/cypherpunkzerodao)
 

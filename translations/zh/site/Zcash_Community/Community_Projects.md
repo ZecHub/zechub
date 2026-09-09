@@ -191,7 +191,7 @@ Zcash 生态系统中以隐私优先的市场。支付直接结算，平台绝�
 ### Zecsite
 一个以隐私为重点的静态网站，在不使用 JavaScript 的情况下聚合 Zcash 新闻、统计数据和教育内容。
 
-[访问](https://zecsite/org)
+[访问](https://zecsite.org/netscape/en/index.html)
 
 [论坛](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 

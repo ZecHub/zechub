@@ -15,7 +15,7 @@ Cypherpunk Zero は、ゼロという若きサイファーパンクハッカー�
 
 ## ゲッコウ
 
-[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth)
+[Snapshot](https://snapshot.box/#/s:cypherpunkzerodao.eth) — vote.cypherpunkzero.com のDAO専用ポータルは廃止され、ドメインも解決されなくなりました。こちらが現存するSnapshotスペースです。
 
 [Guild](https://guild.xyz/cypherpunkzerodao)
 

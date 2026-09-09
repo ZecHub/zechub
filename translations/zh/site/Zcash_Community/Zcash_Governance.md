@@ -128,8 +128,8 @@ Zcash 的治理是“链上协议规则”与“链下社会共识”的混合�
 - 官方资金说明 -> [z.cash/network 资金部分](https://z.cash/network/?funding=#funding)  
 - ZIP 1015（NU6 资金变更） -> [zips.z.cash/zip-1015](https://zips.z.cash/zip-1015)  
 - ZIP 1016（拟议中的持币者模型） -> [zips.z.cash/zip-1016](https://zips.z.cash/zip-1016)  
-- Zcash Improvement Proposals -> [zips.z.cash](https://zips.z.cash)  
-- Zcash Community Grants 门户 -> [grants.zcashcommunity.com](https://grants.zcashcommunity.com)（或当前 FPF 网站）
+- Zcash 改进提案 -> [zips.z.cash](https://zips.z.cash)  
+- Zcash Community Grants 门户 -> [zcashcommunitygrants.org](https://zcashcommunitygrants.org)
 
 ## 6. Lockbox 仪表板
 

@@ -191,7 +191,7 @@ La marketplace axée sur la confidentialité de l’écosystème Zcash. Les paie
 ### Zecsite
 Site statique axé sur la confidentialité qui regroupe les actualités, statistiques et contenus éducatifs Zcash sans utiliser JavaScript.
 
-[Visiter](https://zecsite/org)
+[Visiter](https://zecsite.org/netscape/en/index.html)
 
 [Forum](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 

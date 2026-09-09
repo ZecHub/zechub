@@ -50,9 +50,9 @@ Bu, **mali ilişkinizi açığa çıkarmadan** para almanızı sağlar.
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> İhtiyacınız Olanlar
 
-- Shielded adresleri destekleyen bir Zcash cüzdanı:
+- Korumalı adresleri destekleyen bir Zcash cüzdanı:
   - ZODL
-  - YWallet
+  - Zingo!
   - Desteklenen diğer cüzdanlar
 
 <br/>

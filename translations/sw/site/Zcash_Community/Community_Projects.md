@@ -191,7 +191,7 @@ Ulinzi wa faragha kwanza soko la mazingira Zcash. Malipo ya kukaa moja kwa moja 
 ### Zecsite
 Tovuti ya kijiografia inayolenga faragha ambayo inakusanya habari za Zcash, takwimu na yaliyomo kwenye elimu bila kutumia JavaScript.
 
-[Kutembelea](https://zecsite/org)
+[Kutembelea](https://zecsite.org/netscape/en/index.html)
 
 [Mkutano wa Majadiliano](https://free2z.cash/zCat/zpage/zecsite-static-javascript-free-website-generator-in-java-for-zcash-news)
 
