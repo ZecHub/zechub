@@ -101,7 +101,7 @@ Related work is already visible. [Zakura](https://zechub.wiki/zcash-tech/zakura-
 | Oblivious synchronization | Fetching the chain data a wallet needs without revealing which data was requested |
 | Proof-carrying data (PCD) | Data that travels with a proof of its own correctness, so proofs can be combined and compressed |
 | Shielded transaction aggregate | Tachyon's way of bundling shielded state changes, changing how they are communicated and signed |
-| Ledger indistinguishability | The property that shielded transactions cannot be told apart from one another |
+| ledger indistinguishability | The property that shielded transactions cannot be told apart from one another |
 
 <br/>
 
