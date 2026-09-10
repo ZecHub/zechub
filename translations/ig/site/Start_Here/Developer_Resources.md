@@ -78,11 +78,11 @@ Testnet bụ usoro dị iche na mkpụrụ ego enweghị uru, akpọrọ TAZ. Ma
 
 [testnet.zcashexplorer.app (n'asụsụ Igbo)](https://testnet.zcashexplorer.app/) bụ a na-arụ ọrụ testnet ngọngọ explorer, na a mainnet counterpart n'oge [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app/).
 
-Getting TAZ is the awkward part. Public faucets appear and disappear, and the ones linked from older documentation were not responding when this page was written. The reliable route is to ask in the Zcash R&D Discord, which is what the Zcash documentation itself suggests.
+Inweta TAZ bụ akụkụ na-adịghị mma, n'ihi na ọkpọkọ ndị jikọtara site na akwụkwọ ochie akwụsịla ịzaghachi. [zcashfaucet.jinolabs.xyz ụlọọrụ na-ahụ maka ihe ndị dị ndụ](https://zcashfaucet.jinolabs.xyz) is a community-run faucet that runs "its own node, wallet and miner", pays "shielded z2z drips", and gates claims with "browser proof of work instead of a captcha vendor". It is open source under MIT. If it is unavailable, ask in the Zcash R&D Discord, which is what the Zcash documentation itself suggests.
 
 ## Akwụkwọ ndekọ ahụ dum
 
-[Akwụkwọ Zcash](https://zcash.readthedocs.io/en/latest/) bụ ka ọ bụrụ isi mmalite kachasị, na-ekpuchi echiche nke usoro iwu, njikọta na igwupụta. Gụọ ya nlezianya ụfọdụ. Ọ dị iche megide zcashd, yabụ akụkụ ya kọwara otu ọnụ nke anaghịzi agba ọsọ, ebe ngalaba protocol na ndị ahịa ọkụ nọgidere bara uru. [Ihe Egwu Ngwa Zcash Wallet App Model](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html) nke bi n'ebe ahụ kwesịrị ịgụ tupu emebe ihe ọ bụla na-emetụ nzuzo onye ọrụ.
+[Akwụkwọ Zcash](https://zcash.readthedocs.io/en/latest/) bụ ka ọ bụrụ isi mmalite kachasị, na-ekpuchi echiche nke usoro iwu, njikọta na igwupụta. Gụọ ya nlezianya ụfọdụ. Ọ dị iche megide zcashd, yabụ akụkụ ya kọwara ọnụ ahụ anaghịzi agba ọsọ, ebe ngalaba protocol na ọkụ ndị ahịa nọgidere bara uru. [Ihe Egwu Ngwa Zcash Wallet App Model](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html) nke bi n'ebe ahụ kwesịrị ịgụ tupu emebe ihe ọ bụla na-emetụ nzuzo onye ọrụ.
 
 Ọ bụrụ na ị bụ ọhụrụ ka blockchains n'ozuzu, [Ịmụta Bitcoin nke Ọma](https://github.com/bitcoinbook/bitcoinbook) bụ ihe a na-emekarị maka isi ihe ndị ahụ, ọ dịkwa n'efu ịgụ ya kpamkpam. Ọ naghị ekpuchi azụmahịa echekwara.
 

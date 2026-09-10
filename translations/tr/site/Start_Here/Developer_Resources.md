@@ -78,7 +78,7 @@ Testnet, TAZ adı verilen değersiz coin'lere sahip ayrı bir zincirdir. Hem Zeb
 
 [testnet.zcashexplorer.app](https://testnet.zcashexplorer.app/), çalışan bir testnet blok gezginidir; ana ağ karşılığı [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app/) adresindedir.
 
-TAZ edinmek zor kısımdır. Herkese açık musluklar ortaya çıkar ve kaybolur; eski belgelerde bağlantısı verilenler bu sayfa yazıldığında yanıt vermiyordu. Güvenilir yol, Zcash belgelerinin de önerdiği gibi Zcash R&D Discord'da sormaktır.
+TAZ edinmek zor kısımdır, çünkü eski belgelerde bağlantısı verilen musluklar yanıt vermeyi bıraktı. [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz), “kendi düğümünü, cüzdanını ve madencisini” çalıştıran, “korumalı z2z damlaları” ödeyen ve talepleri “captcha sağlayıcısı yerine tarayıcı iş kanıtı” ile sınırlayan, topluluk tarafından işletilen bir musluktur. MIT lisansı altında açık kaynaklıdır. Kullanılamıyorsa, Zcash belgelerinin de önerdiği gibi Zcash R&D Discord'da sorun.
 
 ## Genel belgeler
 

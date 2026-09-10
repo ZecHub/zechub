@@ -78,7 +78,7 @@ zcashd는 노드에 지갑을 포함했습니다. 그 지갑은 사라졌으며,
 
 [testnet.zcashexplorer.app](https://testnet.zcashexplorer.app/)은 작동 중인 테스트넷 블록 탐색기이며, 메인넷 대응 서비스는 [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app/)에 있습니다.
 
-TAZ를 얻는 것이 까다로운 부분입니다. 공개 파우싯은 생겼다 사라지며, 이 페이지 작성 당시 오래된 문서에서 연결한 파우싯들은 응답하지 않았습니다. 신뢰할 수 있는 방법은 Zcash R&D Discord에서 요청하는 것이며, Zcash 문서 자체도 이를 제안합니다.
+TAZ를 얻는 것이 까다로운 부분입니다. 오래된 문서에서 연결한 파우싯들이 응답을 멈췄기 때문입니다. [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz)는 커뮤니티에서 운영하는 파우싯으로, “자체 노드, 지갑 및 채굴기”를 운영하며, “보호된 z2z 소액 지급”을 제공하고, “캡차 제공업체 대신 브라우저 작업 증명”으로 요청을 제한합니다. MIT 라이선스의 오픈 소스입니다. 이용할 수 없다면 Zcash R&D Discord에서 요청하세요. Zcash 문서 자체도 이를 제안합니다.
 
 ## 일반 문서
 

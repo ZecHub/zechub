@@ -26,7 +26,7 @@ Node bi di adwene a ɛwɔ hɔ no ho adanse na ɛkura nkɔnsɔnkɔnsɔn no. Nneɛ
 
 [Zebra](/zcash-tech/zebra-full-node) yɛ Zcash Foundation node, a wɔakyerɛw wɔ Rust mu, na ɛyɛ nea akwankyerɛfo dodow no ara susuw mprempren. [The Zebra Book](https://zebra.zfnd.org/) kata sɛnea wɔde besisi hɔ na wɔde ayɛ adwuma, ne [adekorabea](https://github.com/ZcashFoundation/zebra) ne baabi a nkɔso kɔ so.
 
-[Zakura na ɔkyerɛwee](/zcash-tech/zakura-node) yɛ node foforo, a n'akyerɛwfo kyerɛkyerɛɛ mu sɛ "consensus-compatible Zcash full node, built for scale", a ɛwɔ sync ntɛmntɛm, block pruning ne zcashd compatibility mode. Sean Bowe a ɔne no hyehyɛɛ Zcash, ne Dev Ojha na wodi anim. Ɛyɛ open source wɔ Apache 2.0 ase wɔ [zakura-core/zakura a ɛwɔ hɔ](https://github.com/zakura-core/zakura).
+[Zakura na ɔkyerɛwee](/zcash-tech/zakura-node) yɛ node foforo, a n'akyerɛwfo kaa ho asɛm sɛ "consensus-compatible Zcash full node, built for scale", a ɛwɔ sync ntɛmntɛm, block pruning ne zcashd compatibility mode. Sean Bowe, a ɔne no hyehyɛɛ Zcash, ne Dev Ojha na wodi anim. Ɛyɛ open source wɔ Apache 2.0 ase wɔ [zakura-core/zakura a ɛwɔ hɔ](https://github.com/zakura-core/zakura).
 
 ZecHub wɔ a [Nodes a Ɛyɛ Pɛ](/zcash-tech/full-nodes) kratafa a ɛka aguadi a ɛda wɔn ntam no ho asɛm.
 
@@ -40,7 +40,7 @@ Sɛ woretu nhyehyɛe bi a ɛwɔ hɔ dedaw no akɔ a, ZecHub wɔ a [atutra ho akw
 
 ## Hann sika kotoku servers
 
-Wallet dodow no ara ntumi nkɔ node biara so. Wɔne server bi a ɛkora nkɔnsɔnkɔnsɔn no so kasa na ɛsan de ne nsa kɔ akyi sɛnea ɛbɛyɛ a wobetumi ahu no ketewaa bi.
+Wallet dodow no ara ntumi nkɔ node biara so. Wɔne server bi a ɛkora nkɔnsɔnkɔnsɔn no so kasa na ɛsan de ne nsa kɔ akyi sɛnea ɛbɛyɛ a obehu no ketewaa bi.
 
 [lightwalletd a wɔde ahyɛ mu](https://github.com/zcash/lightwalletd) yɛ mfitiaseɛ dwumadie, a wɔkyerɛwee wɔ Go mu, a wɔaka ho asɛm sɛ "akyi dwumadie a ɛma bandwidth-efficient interface ma Zcash blockchain". [Zaino na ɔkyerɛwee](/zcash-tech/zaino) yɛ indexer foforo, a wɔde Rust akyerɛw, na ɛkenkan fi validator a edi mũ mu sen sɛ ɛbɛsoa n’ankasa nkɔnsɔnkɔnsɔn no bi.
 
@@ -48,7 +48,7 @@ No [Hann Adetɔfoɔ Protocol](https://zcash.readthedocs.io/en/latest/lightwallet
 
 ## Sika kotoku a wɔreyɛ
 
-Sika kotoku adwuma dodow no ara kɔ so wɔ Rust crates ase [librustzcash a wɔde di dwuma](https://github.com/zcash/librustzcash), a mobile SDK ahorow ne desktop sika kotoku pii si so. Wɔakyerɛw adaka biara ho nsɛm wɔ so [docs.rs](https://docs.rs).
+Wallet adwuma dodow no ara kɔ so wɔ Rust crates ase [librustzcash a wɔde di dwuma](https://github.com/zcash/librustzcash), a mobile SDK ahorow ne desktop sika kotoku pii si so. Wɔakyerɛw adaka biara ho nsɛm wɔ so [docs.rs](https://docs.rs).
 
 | Crate | Nea ɛyɛ ma |
 |:--|:--|
@@ -76,13 +76,13 @@ Sɛ wopɛ cryptography a ɛwɔ ase hɔ no a, kenkan [Halo2 Nhoma no](https://zca
 
 Testnet yɛ nkɔnsɔnkɔnsɔn a ɛyɛ soronko a sika a mfaso nni so wom, a wɔfrɛ no TAZ. Zebra ne Zakura nyinaa betumi atu mmirika atia no, na... [testnet akwankyerɛ](https://zcash.readthedocs.io/en/latest/rtd_pages/testnet_guide.html) kata node nhyehyɛe so.
 
-[testnet.zcashexplorer.ap a wɔde yɛ nhwehwɛmu no](https://testnet.zcashexplorer.app/) yɛ testnet block explorer a ɛyɛ adwuma, a mainnet yɔnko wɔ [mainnet.zcashexplorer.ap a wɔde di dwuma wɔ ɔkwan a ɛyɛ nwonwa so](https://mainnet.zcashexplorer.app/).
+[testnet.zcashexplorer.ap a wɔde yɛ nhwehwɛmu](https://testnet.zcashexplorer.app/) yɛ testnet block explorer a ɛyɛ adwuma, a mainnet yɔnko wɔ [mainnet.zcashexplorer.ap a wɔde di dwuma wɔ ɔkwan a ɛyɛ nwonwa so](https://mainnet.zcashexplorer.app/).
 
-TAZ a wubenya no yɛ ɔfã a ɛyɛ fɛre ade. Ɔmanfo faucets pue na ɛyera, na na nea wɔde bata ho fi nkrataa dedaw mu no ntumi nyɛ ho hwee bere a wɔkyerɛw kratafa yi no. Ɔkwan a wotumi de ho to so ne sɛ wobɛbisa wɔ Zcash R&D Discord mu, a ɛno ne nea Zcash nkrataa no ankasa kyerɛ.
+TAZ a wobenya no yɛ ɔfã a ɛyɛ fɛre ade, efisɛ faucets a wɔde abɔ mu afi nkrataa dedaw mu no agyae mmuae. [zcashfaucet.jinolabs.xyz na ɛyɛ adwuma wɔ ɔkwan a ɛyɛ nwonwa so](https://zcashfaucet.jinolabs.xyz) yɛ faucet a mpɔtam hɔfo di so a ɛyɛ adwuma "n'ankasa node, wallet ne miner", tua "shielded z2z drips", na gates claims ne "browser adanse a ɛkyerɛ sɛ ɛyɛ adwuma sen sɛ ɛbɛyɛ captcha vendor". Ɛyɛ open source wɔ MIT ase. Sɛ enni hɔ a, bisa wɔ Zcash R&D Discord mu, a ɛno ne nea Zcash nkrataa no ankasa kyerɛ.
 
 ## Nwoma a wɔde kyerɛw nneɛma nyinaa
 
-[Zcash Nwoma a Wɔde Yɛ Adwuma](https://zcash.readthedocs.io/en/latest/) ɛda so ara yɛ fibea biako a ɛtrɛw sen biara, a ɛfa protocol adwene, nkabom ne mining ho. Fa ahwɛyiye bi kenkan. Wɔayɛ no versioned tia zcashd, enti n'afã bi kyerɛkyerɛ node a ɛnnyɛ adwuma bio, bere a protocol ne light client afã horow no da so ara yɛ mfaso. [Zcash Wallet App Ahunahuna Nhwɛso no](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html) a ɛte hɔ no fata sɛ wokenkan ansa na woayɛ biribiara a ɛka nea ɔde di dwuma no kokoam nsɛm ho nhyehyɛe.
+[Zcash Nwoma a Wɔakyerɛw](https://zcash.readthedocs.io/en/latest/) ɛda so ara yɛ fibea biako a ɛtrɛw sen biara, a ɛfa protocol adwene, nkabom ne mining ho. Fa ahwɛyiye bi kenkan. Wɔayɛ no versioned atia zcashd, enti n'afã bi kyerɛkyerɛ node a ɛnnyɛ adwuma bio mu, bere a protocol ne light client afã horow no da so ara yɛ mfaso. [Zcash Wallet App Ahunahuna Nhwɛso no](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html) a ɛte hɔ no fata sɛ wokenkan ansa na woayɛ biribiara a ɛka nea ɔde di dwuma no kokoam nsɛm.
 
 Sɛ woyɛ foforo wɔ blockchains mu mpɛn pii a, . [Bitcoin a wobɛyɛ no yiye](https://github.com/bitcoinbook/bitcoinbook) yɛ nyansahyɛ a wɔtaa de ma wɔ nnyinasosɛm ahorow a wɔkyɛ ho, na ɛwɔ ahofadi sɛ wobɛkenkan ne nyinaa. Ɛnka nnwuma a wɔabɔ ho ban ho asɛm.
 

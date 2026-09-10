@@ -78,7 +78,7 @@ Testnet è una catena separata con monete prive di valore, chiamate TAZ. Sia Zeb
 
 [testnet.zcashexplorer.app](https://testnet.zcashexplorer.app/) è un block explorer testnet funzionante, con una controparte mainnet su [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app/).
 
-Ottenere TAZ è la parte più complicata. I faucet pubblici appaiono e scompaiono, e quelli collegati dalla documentazione più vecchia non rispondevano quando questa pagina è stata scritta. Il percorso affidabile consiste nel chiedere nel Discord Zcash R&D, come suggerisce la stessa documentazione Zcash.
+Ottenere TAZ è la parte più complicata, perché i faucet collegati dalla documentazione più vecchia hanno smesso di rispondere. [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz) è un faucet gestito dalla comunità che esegue "il proprio nodo, wallet e miner", paga "piccole erogazioni z2z schermate" e limita le richieste con una "proof of work del browser anziché un fornitore di captcha". È open source sotto licenza MIT. Se non è disponibile, chiedi nel Discord Zcash R&D, come suggerisce la stessa documentazione Zcash.
 
 ## Documentazione generale
 

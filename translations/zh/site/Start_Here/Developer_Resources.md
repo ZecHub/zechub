@@ -78,7 +78,7 @@ zcashd 将钱包与节点捆绑在一起。该钱包已不复存在，而 [Zalle
 
 [testnet.zcashexplorer.app](https://testnet.zcashexplorer.app/) 是一个可用的测试网区块浏览器，其主网对应版本位于 [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app/)。
 
-获取 TAZ 是较为棘手的部分。公共水龙头时有时无，且本页面撰写时，旧文档中链接的水龙头没有响应。可靠的途径是在 Zcash R&D Discord 中询问，这也是 Zcash 文档本身所建议的方式。
+获取 TAZ 是较为棘手的部分，因为旧文档中链接的水龙头已停止响应。[zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz) 是一个由社区运营的水龙头，运行“自己的节点、钱包和矿工”，发放“屏蔽的 z2z 小额滴灌”，并通过“浏览器工作量证明而非验证码供应商”来限制领取。它以 MIT 许可证开源。如果该水龙头不可用，请在 Zcash R&D Discord 中询问，这也是 Zcash 文档本身所建议的方式。
 
 ## 通用文档
 
