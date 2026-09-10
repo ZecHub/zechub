@@ -9,7 +9,7 @@
 
 ---
 
-## [Ywallet na ɔkyerɛwee](https://ywallet.app/installation/)
+## [Ywallet](https://ywallet.app/installation/)
 ![logo](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
 - Mfiri a Wɔde Yɛ Adwuma: Mobile | Desktop so na ɛyɛ adwuma
 - Dwumadie Nhyehyɛeɛ: Android | iOS | Mfɛnsere | Linux | macOS
@@ -62,7 +62,7 @@
 
 ---
 
-## [eZcash na ɛyɛ](https://blog.nerdbank.net/ezcash-app)
+## [eZcash](https://blog.nerdbank.net/ezcash-app)
 ![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
 - Mfiri a Wɔde Yɛ Adwuma: Mobile | Desktop so na ɛyɛ adwuma
 - Dwumadie Nhyehyɛeɛ: Android | iOS | Windows
@@ -72,7 +72,7 @@
 
 ---
 
-## [Zkool na ɔkyerɛwee](https://github.com/hhanh00/zkool2/)
+## [Zkool](https://github.com/hhanh00/zkool2/)
 ![logo](/content-images/zkool-1-22ab388e65.webp "Zkool")
 - Mfiri a Wɔde Yɛ Adwuma: Mobile | Desktop so na ɛyɛ adwuma
 - Dwumadie Nhyehyɛeɛ: Android | iOS | Mfɛnsere | Linux
@@ -94,7 +94,7 @@
 
 ---
 
-## [Zenith na ɔkyerɛwee](https://code.vergara.tech/Vergara_Tech/zenith)
+## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
 ![logo](/content-images/zenith-2-cea75a34fd.webp "Zenith")
 - Mfiri a Wɔde Yɛ: Desktop
 - Dwumadie Nhyehyɛeɛ: Windows | Linux | macOS
@@ -104,7 +104,7 @@
 
 ---
 
-## [Zingo-CLI na ɛwɔ hɔ](https://github.com/zingolabs/zingolib)
+## [Zingo-CLI](https://github.com/zingolabs/zingolib)
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo-CLI")
 - Mfiri a Wɔde Yɛ: Desktop
 - Dwumadie Nhyehyɛeɛ: Windows | Linux | macOS
@@ -115,7 +115,7 @@
 
 ---
 
-## [Zallet na ɔkyerɛwee](https://github.com/zcash/wallet)
+## [Zallet](https://github.com/zcash/wallet)
 ![logo](/content-images/Brandmark-Yellow-2eca7f6f68.webp "Zallet")
 - Mfiri a Wɔde Yɛ: Desktop
 - Dwumadie Nhyehyɛeɛ: Windows | Linux | macOS
@@ -126,7 +126,7 @@
 
 ---
 
-## [Zcashd na ɛyɛ adwuma](https://github.com/zcash/zcash)
+## [Zcashd](https://github.com/zcash/zcash)
 ![logo](/content-images/zcashd-92df3291ad.webp "Zcashd")
 - Mfiri a Wɔde Yɛ: Desktop
 - Dwumadie Nhyehyɛeɛ: Windows | Linux | macOS
@@ -157,7 +157,7 @@
 
 ---
 
-## [Zucchini a wɔde yɛ aduan](https://zucchinifi.xyz/)
+## [Zucchini](https://zucchinifi.xyz/)
 ![logo](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
 - Mfiri a Wɔde Yɛ: Wɛbsaet
 - Dwumadi Nhyehyɛe: Browser
@@ -197,7 +197,7 @@
 
 ---
 
-## [Coinomi na ɛyɛ adwuma](https://www.coinomi.com/en/downloads)
+## [Coinomi](https://www.coinomi.com/en/downloads)
 ![logo](/content-images/coinomicard-226bcbf876.webp "Coinomi")
 - Mfiri a Wɔde Yɛ Adwuma: Mobile | Desktop so na ɛyɛ adwuma
 - Dwumadie Nhyehyɛeɛ: Android | iOS | Windows
@@ -207,7 +207,7 @@
 
 ---
 
-## [Keystone a wɔde yɛ nneɛma](https://shop.keyst.one)
+## [Keystone](https://shop.keyst.one)
 ![logo](/content-images/Keystone-1-8177a83308.webp "Keystone")
 - Mfiri a Wɔde Yɛ:
 - Dwumadi Nhyehyɛe:
@@ -218,7 +218,7 @@
 
 ---
 
-## [Ledger a wɔde kyerɛw nsɛm](https://www.ledger.com/coin/wallet/zcash)
+## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
 - Mfiri a Wɔde Yɛ:
 - Dwumadi Nhyehyɛe:
@@ -229,7 +229,7 @@
 
 ---
 
-## [Safepal a ɛwɔ hɔ](https://safepal.com)
+## [Safepal](https://safepal.com)
 ![logo](/content-images/safepalcard-176b24c751.webp "Safepal")
 - Mfiri a Wɔde Yɛ Adwuma: Mobile | Wɛbsaet so
 - Dwumadie Nhyehyɛeɛ: Android | iOS | Browser a wɔde di dwuma
@@ -249,7 +249,7 @@
 
 ---
 
-## [Vultisig na ɔkyerɛwee](https://vultisig.com)
+## [Vultisig](https://vultisig.com)
 ![logo](/content-images/vultisig-713626c5ba.webp "Vultisig")
 - Mfiri: Wɛbsaet | Mobile so | Desktop so na ɛyɛ adwuma
 - Dwumadie Nhyehyɛeɛ: Android | iOS | Mfɛnsere | Linux | macOS | Browser a wɔde di dwuma
@@ -279,7 +279,7 @@
 
 ---
 
-## [LeoDex na ɔkyerɛwee](https://leodex.io/)
+## [LeoDex](https://leodex.io/)
 ![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
 - Mfiri: Wɛbsaet | Desktop so na ɛyɛ adwuma
 - Dwumadie Nhyehyɛe: Browser | Mfɛnsere | macOS
@@ -290,7 +290,7 @@
 
 ---
 
-## [Zapp na ɔkyerɛwee](https://www.justzappit.xyz/app)
+## [Zapp](https://www.justzappit.xyz/app)
 ![logo](/content-images/zapp.webp "Zapp")
 - Mfiri a Wɔde Yɛ: Mobile
 - Dwumadi Nhyehyɛe: Android
@@ -344,7 +344,7 @@
 
 ---
 
-## [Argos na ɔkyerɛwee](https://argos.sovright.com/)
+## [Argos](https://argos.sovright.com/)
 ![logo](/content-images/argos.webp "Argos")
 - Mfiri a Wɔde Yɛ: Desktop
 - Dwumadie Nhyehyɛeɛ: Windows | Linux | macOS

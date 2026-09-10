@@ -1,4 +1,4 @@
-## [ZODL (ì í ì ë ¤)](https://zodl.com)
+## [ZODL](https://zodl.com)
 ![logo](/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp "ZODL")
 - Àwọn Ẹrọ: Ètò alágbèéká
 - Àwọn ètò ìṣiṣẹ: Android; iOS
@@ -62,7 +62,7 @@
 
 ---
 
-## [Èdè ìbílẹ̀: eZcash](https://blog.nerdbank.net/ezcash-app)
+## [eZcash](https://blog.nerdbank.net/ezcash-app)
 ![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
 - Àwọn ohun èlò: Mobile  Desktop
 - Àwọn ètò ìṣiṣẹ: Android  iOS Windows
@@ -94,7 +94,7 @@
 
 ---
 
-## [Zenith (ìmọ̀lára)](https://code.vergara.tech/Vergara_Tech/zenith)
+## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
 ![logo](/content-images/zenith-2-cea75a34fd.webp "Zenith")
 - Àwọn Ẹrọ: Àpótí Ìsọfúnni
 - Àwọn Ẹ̀rọ: Windows Linux macOS
@@ -104,7 +104,7 @@
 
 ---
 
-## [Zingo-CLI (ìmọ̀ ìjìnlẹ̀)](https://github.com/zingolabs/zingolib)
+## [Zingo-CLI](https://github.com/zingolabs/zingolib)
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo-CLI")
 - Àwọn Ẹrọ: Àpótí Ìránṣẹ́
 - Àwọn Ẹ̀rọ: Windows Linux macOS
@@ -126,7 +126,7 @@
 
 ---
 
-## [Zcashd (ì í ì)](https://github.com/zcash/zcash)
+## [Zcashd](https://github.com/zcash/zcash)
 ![logo](/content-images/zcashd-92df3291ad.webp "Zcashd")
 - Àwọn Ẹrọ: Àpótí Ìsọfúnni
 - Àwọn Ẹ̀rọ: Windows Linux macOS
@@ -197,7 +197,7 @@
 
 ---
 
-## [Coinomi (ìyẹn owó)](https://www.coinomi.com/en/downloads)
+## [Coinomi](https://www.coinomi.com/en/downloads)
 ![logo](/content-images/coinomicard-226bcbf876.webp "Coinomi")
 - Àwọn ohun èlò: Mobile  Desktop
 - Àwọn ètò ìṣiṣẹ: Android  iOS Windows
@@ -249,7 +249,7 @@
 
 ---
 
-## [Àmì ojúewé Vultisig](https://vultisig.com)
+## [Vultisig](https://vultisig.com)
 ![logo](/content-images/vultisig-713626c5ba.webp "Vultisig")
 - Àwọn ohun èlò: Wẹ́bútà  Òpó alágbèéká  Àkọlé orí kọ̀ǹpútà
 - Ẹrọ isẹ: Android  iOS Windows Linux macOS Àwòrán aṣàwákiri
@@ -279,7 +279,7 @@
 
 ---
 
-## [LeoDex (ì í ì ë°)](https://leodex.io/)
+## [LeoDex](https://leodex.io/)
 ![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
 - Àwọn ohun èlò: Wẹ́busaiti  Dísíkòpópù
 - Ẹrọ isẹ: Àwòrán Windows  MacOS
@@ -344,7 +344,7 @@
 
 ---
 
-## [Argos (ìlú)](https://argos.sovright.com/)
+## [Argos](https://argos.sovright.com/)
 ![logo](/content-images/argos.webp "Argos")
 - Àwọn Ẹrọ: Àpótí Ìránṣẹ́
 - Àwọn Ẹ̀rọ: Windows Linux macOS

@@ -9,7 +9,7 @@
 
 ---
 
-## [Ywallet ƒe ŋkɔ](https://ywallet.app/installation/)
+## [Ywallet](https://ywallet.app/installation/)
 ![logo](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
 - Mɔ̃wo: Asitelefon dzi | Desktop dzi
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo | Linux | macOS ƒe nyawo
@@ -30,7 +30,7 @@
 
 ---
 
-## [Zingo ƒe nya!](https://www.zingolabs.org/)
+## [Zingo!](https://www.zingolabs.org/)
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo!")
 - Mɔ̃wo: Asitelefon dzi | Desktop dzi
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo | Linux
@@ -62,7 +62,7 @@
 
 ---
 
-## [eZcash ƒe nyawo](https://blog.nerdbank.net/ezcash-app)
+## [eZcash](https://blog.nerdbank.net/ezcash-app)
 ![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
 - Mɔ̃wo: Asitelefon dzi | Desktop dzi
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo
@@ -72,7 +72,7 @@
 
 ---
 
-## [Zkool ƒe ŋkɔ](https://github.com/hhanh00/zkool2/)
+## [Zkool](https://github.com/hhanh00/zkool2/)
 ![logo](/content-images/zkool-1-22ab388e65.webp "Zkool")
 - Mɔ̃wo: Asitelefon dzi | Desktop dzi
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo | Linux
@@ -94,7 +94,7 @@
 
 ---
 
-## [Zenith ƒe ŋkɔ](https://code.vergara.tech/Vergara_Tech/zenith)
+## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
 ![logo](/content-images/zenith-2-cea75a34fd.webp "Zenith")
 - Mɔ̃wo: Dɔwɔnu siwo wozãna le kɔmpiuta dzi
 - Dɔwɔɖoɖo: Windows | Linux | macOS ƒe nyawo
@@ -104,7 +104,7 @@
 
 ---
 
-## [Zingo-CLI ƒe dɔwɔwɔ](https://github.com/zingolabs/zingolib)
+## [Zingo-CLI](https://github.com/zingolabs/zingolib)
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo-CLI")
 - Mɔ̃wo: Dɔwɔnu siwo wozãna le kɔmpiuta dzi
 - Dɔwɔɖoɖo: Windows | Linux | macOS ƒe nyawo
@@ -115,7 +115,7 @@
 
 ---
 
-## [Zallet ƒe ŋkɔ](https://github.com/zcash/wallet)
+## [Zallet](https://github.com/zcash/wallet)
 ![logo](/content-images/Brandmark-Yellow-2eca7f6f68.webp "Zallet")
 - Mɔ̃wo: Dɔwɔnu siwo wozãna le kɔmpiuta dzi
 - Dɔwɔɖoɖo: Windows | Linux | macOS ƒe nyawo
@@ -126,7 +126,7 @@
 
 ---
 
-## [Zcashd ƒe ŋkɔ](https://github.com/zcash/zcash)
+## [Zcashd](https://github.com/zcash/zcash)
 ![logo](/content-images/zcashd-92df3291ad.webp "Zcashd")
 - Mɔ̃wo: Dɔwɔnu siwo wozãna le kɔmpiuta dzi
 - Dɔwɔɖoɖo: Windows | Linux | macOS ƒe nyawo
@@ -157,7 +157,7 @@
 
 ---
 
-## [Zucchini ƒe nuɖuɖu](https://zucchinifi.xyz/)
+## [Zucchini](https://zucchinifi.xyz/)
 ![logo](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
 - Mɔ̃wo: Nyatakakadzraɖoƒe
 - Dɔwɔɖoɖo: Browser
@@ -197,7 +197,7 @@
 
 ---
 
-## [Coinomi ƒe ŋkɔ](https://www.coinomi.com/en/downloads)
+## [Coinomi](https://www.coinomi.com/en/downloads)
 ![logo](/content-images/coinomicard-226bcbf876.webp "Coinomi")
 - Mɔ̃wo: Asitelefon dzi | Desktop dzi
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo
@@ -207,7 +207,7 @@
 
 ---
 
-## [Keystone ƒe kpe](https://shop.keyst.one)
+## [Keystone](https://shop.keyst.one)
 ![logo](/content-images/Keystone-1-8177a83308.webp "Keystone")
 - Mɔ̃wo:
 - Dɔwɔɖoɖo:
@@ -218,7 +218,7 @@
 
 ---
 
-## [Agbalẽ si nye Ledger](https://www.ledger.com/coin/wallet/zcash)
+## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
 - Mɔ̃wo:
 - Dɔwɔɖoɖo:
@@ -229,7 +229,7 @@
 
 ---
 
-## [Safepal ƒe nyawo](https://safepal.com)
+## [Safepal](https://safepal.com)
 ![logo](/content-images/safepalcard-176b24c751.webp "Safepal")
 - Mɔ̃wo: Asitelefon dzi | Nyatakakadzraɖoƒe
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Browser ƒe dɔwɔnu
@@ -249,7 +249,7 @@
 
 ---
 
-## [Vultisig ƒe agbalẽ](https://vultisig.com)
+## [Vultisig](https://vultisig.com)
 ![logo](/content-images/vultisig-713626c5ba.webp "Vultisig")
 - Mɔ̃wo: Nyatakakadzraɖoƒe | Asitelefon dzi | Desktop dzi
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo | Linux | macOS ƒe nyawo | Browser ƒe dɔwɔnu
@@ -279,7 +279,7 @@
 
 ---
 
-## [LeoDex ƒe agbalẽ](https://leodex.io/)
+## [LeoDex](https://leodex.io/)
 ![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
 - Mɔ̃wo: Nyatakakadzraɖoƒe | Desktop dzi
 - Dɔwɔɖoɖo: Browser | Fesrewo | macOS ƒe nyawo
@@ -333,7 +333,7 @@
 
 ---
 
-## [Zipher ƒe dɔwɔwɔ](https://github.com/atmospherelabs-dev/zipher-app)
+## [Zipher](https://github.com/atmospherelabs-dev/zipher-app)
 ![logo](/content-images/zipher.webp "Zipher")
 - Mɔ̃wo: Asitelefon dzi | Desktop dzi
 - Dɔwɔɖoɖo: Android | Fesrewo | Linux (CLI kple MCP Dɔwɔƒe) | iOS ƒe iOS | macOS ƒe nyawo
@@ -344,7 +344,7 @@
 
 ---
 
-## [Argos ƒe ŋkɔ](https://argos.sovright.com/)
+## [Argos](https://argos.sovright.com/)
 ![logo](/content-images/argos.webp "Argos")
 - Mɔ̃wo: Dɔwɔnu siwo wozãna le kɔmpiuta dzi
 - Dɔwɔɖoɖo: Windows | Linux | macOS ƒe nyawo
