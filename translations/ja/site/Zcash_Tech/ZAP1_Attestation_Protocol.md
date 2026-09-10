@@ -45,4 +45,4 @@ ZAP1 は、Zcash 用のオープンソース認証プロトコルです。構造
 - プロトコル仕様: [ONCHAIN_PROTOCOL.md](https://github.com/Frontier-Compute/zap1/blob/main/ONCHAIN_PROTOCOL.md)
 - ZIP 草案: [PR #1243](https://github.com/zcash/zips/pull/1243)
 - ライブ API: [pay.frontiercompute.io/protocol/info](https://pay.frontiercompute.io/protocol/info)
-- 運用者ガイド: [frontiercompute.io/operators.html](https://frontiercompute.io/operators.html)
+- 運用者ガイド: [OPERATOR_GUIDE.md](https://github.com/Frontier-Compute/zap1/blob/main/OPERATOR_GUIDE.md)

@@ -150,7 +150,7 @@ ZebraとZalletは、事前ビルド済みバイナリ/コンテナを実行す�
 
 ## 追加リソース
 - [Zebra Book](https://zebra.zfnd.org) — 公式のZebraドキュメント
-- [Zallet Book](https://zcash.github.io/wallet) — 公式のZalletドキュメント
+- [Zallet Book](https://zcash.github.io/zallet/) — 公式のZalletドキュメント
 - [zcashdサポート終了のお知らせ](https://z.cash/support/zcashd-deprecation)
 
 ---

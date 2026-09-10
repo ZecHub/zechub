@@ -16,7 +16,7 @@ Obwohl TEX-Adressen noch nicht breit angenommen sind, könnten Zcash-Nutzer sie 
 ## Wann benötige ich eine TEX-Adresse?
 
 ### Du **benötigst** eine TEX-Adresse, wenn du Mittel an eine Transparent-Adresse sendest und dabei eine Wallet verwendest, die das direkte Senden an eine Transparent-Adresse nicht unterstützt.
-Bestimmte Wallets erlauben das direkte Senden an eine Transparent-Adresse einfach nicht, und **der Empfänger stellt möglicherweise kein TEX-Äquivalent bereit**. Daher kann es gelegentlich erforderlich sein, **von einer Transparent-Adresse in eine TEX-Adresse zu konvertieren**. Das kann manuell erreicht werden, indem die in zip-320 beschriebene Referenzimplementierung ausgeführt wird. Eine gehostete Instanz eines **Transparent-to-TEX-Converters** findest du [HIER](https://690e9524c66a3ecac5d54eff--jade-brioche-873777.netlify.app/).
+Bestimmte Wallets erlauben das direkte Senden an eine Transparent-Adresse einfach nicht, und **der Empfänger stellt möglicherweise kein TEX-Äquivalent bereit**. Daher kann es gelegentlich erforderlich sein, **von einer Transparent-Adresse in eine TEX-Adresse zu konvertieren**. Das kann manuell erreicht werden, indem die in [zip-320](https://zips.z.cash/zip-0320#reference-implementation) beschriebene Referenzimplementierung ausgeführt wird.
 
 ### Du benötigst eine TEX-Adresse, wenn du Mittel an eine zentralisierte Börse sendest, die **VERLANGT, dass diese Mittel aus einer Transparent-Quelle stammen**.
 Derzeit ist [Binance](https://www.binance.com/) die einzige zentralisierte Börse, die TEX-Adressen verwendet (und sie sind der Hauptgrund für die Erstellung von TEX).

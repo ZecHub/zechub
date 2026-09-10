@@ -62,7 +62,7 @@
 
 ---
 
-## [eZcash](https://blog.nerdbank.net/ezcash-app)
+## [eZcash](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 ![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
 - Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa uendeshaji: Android  iOS Windows
@@ -239,7 +239,7 @@
 
 ---
 
-## [Hazina ya hazina](https://trezor.io/learn/a/zcash-zec)
+## [Hazina ya hazina](https://trezor.io/learn/supported-assets/other-cryptocurrencies/zcash-what-it-is-and-how-it-works-with-trezor)
 ![logo](/content-images/trezor1-5004075d27.webp "Trezor")
 - Vifaa:
 - Mfumo wa Uendeshaji:

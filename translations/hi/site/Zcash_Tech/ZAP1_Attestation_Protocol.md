@@ -45,4 +45,4 @@ ZAP1 एक ओपन सोर्स प्रमाणन प्रोटो�
 - प्रोटोकॉल स्पेक: [ONCHAIN_PROTOCOL.md](https://github.com/Frontier-Compute/zap1/blob/main/ONCHAIN_PROTOCOL.md)
 - ZIP प्रस्ताव: [PR #1243](https://github.com/zcash/zips/pull/1243)
 - लाइव API: [pay.frontiercompute.io/protocol/info](https://pay.frontiercompute.io/protocol/info)
-- ऑपरेटर्स के मार्गदर्शक: [frontiercompute.io/operators.html](https://frontiercompute.io/operators.html)
+- ऑपरेटर्स के मार्गदर्शक: [OPERATOR_GUIDE.md](https://github.com/Frontier-Compute/zap1/blob/main/OPERATOR_GUIDE.md)

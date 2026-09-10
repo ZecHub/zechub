@@ -75,7 +75,7 @@ Ankorankoro sikatua a wɔde tua intanɛt so. Ɛnyɛ afiase, KYC biara nni hɔ. A
 
 ### Ezcash na ɔkyerɛwee
 Ɛnyɛ den sɛ wode bedi dwuma, a ɛwɔ nneɛma nyinaa multiplatform Zcash sika kotoku a autoshielding mmoa. 
-[Sra](https://blog.nerdbank.net/ezcash-app)
+[Sra](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Sikakorabea
 Zcash sika kotoku a wɔde wɔn adwene si Orchard so a wɔasi ama Zebrad, a ɛboa nnwuma a wɔabɔ ho ban koraa ne safoa sohwɛ a ahobammɔ wom. 

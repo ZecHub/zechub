@@ -75,7 +75,7 @@ internet के लिए private payments। non-custodial, बिना KYC।
 
 ### Ezcash
 आसान-से-उपयोग वाला, पूर्ण-विशेषताओं से युक्त multiplatform Zcash wallet, जिसमें autoshielding support है।  
-[देखें](https://blog.nerdbank.net/ezcash-app)
+[देखें](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Nozy Wallet
 Orchard-केंद्रित Zcash wallet, जो Zebrad के लिए बनाया गया है, और fully shielded transactions तथा secure key management को support करता है।  

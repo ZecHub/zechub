@@ -150,7 +150,7 @@ O Zebra e o Zallet são geralmente mais leves em CPU durante a configuração do
 
 ## Recursos adicionais
 - [Livro do Zebra](https://zebra.zfnd.org) — documentação oficial do Zebra
-- [Livro do Zallet](https://zcash.github.io/wallet) — documentação oficial do Zallet
+- [Livro do Zallet](https://zcash.github.io/zallet/) — documentação oficial do Zallet
 - [Aviso de Fim de Suporte do zcashd](https://z.cash/support/zcashd-deprecation)
 
 ---

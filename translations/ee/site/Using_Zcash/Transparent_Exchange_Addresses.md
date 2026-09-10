@@ -16,7 +16,7 @@ Togbɔ be woxɔa TEX adrɛs siwo menye le afisiafi o hã la, woate ŋu abia tso 
 ## Ɣekaɣie Mehiã TEX Adrɛs
 
 ### **Èhiã** TEX adrɛs ne èle ga ɖom ɖe Transparent adrɛs to gakotoku si mewɔa dɔ le eɖoɖo ɖe Transparent adrɛs tẽ o zazã me. 
-Ðeko gakotoku aɖewo meɖea mɔ be woaɖoe ɖe Transparent adrɛs tẽ o eye **ate ŋu adzɔ be amesi xɔe la matsɔ TEX si sɔ kplii o**. Eyata, **Trɔtrɔ** tso Transparent dzi yi TEX adrɛs dzi ate ŋu abia ɣeaɖewoɣi. Woateŋu awɔ esia kple asi to nufiame ƒe dɔwɔwɔ si wogblɔ le zip-320 me la wɔwɔ me. Woateŋu akpɔ **Transparent-to-TEX-Converter** ƒe kpɔɖeŋu si woxɔ [AFI SIA](https://690e9524c66a3ecac5d54eff--jade-brioche-873777.netlify.app/).
+Ðeko gakotoku aɖewo meɖea mɔ be woaɖoe ɖe Transparent adrɛs tẽ o eye **ate ŋu adzɔ be amesi xɔe la matsɔ TEX si sɔ kplii o**. Eyata, **Trɔtrɔ** tso Transparent dzi yi TEX adrɛs dzi ate ŋu abia ɣeaɖewoɣi. Woateŋu awɔ esia kple asi to nufiame ƒe dɔwɔwɔ si wogblɔ le [zip-320](https://zips.z.cash/zip-0320#reference-implementation) me la wɔwɔ me.
 
 ### Èhiã TEX adrɛs ne èle ga ɖom ɖe centralized exchange si **BIA be ga mawo natso Transparent dzɔtsoƒe**. 
 Fifia la, [Binance](https://www.binance.com/) nye Centralized Exchange ɖeka kolia si zãa TEX adrɛswo (eye woawoe nye susu vevitɔ si ta wowɔ TEX ɖo). 

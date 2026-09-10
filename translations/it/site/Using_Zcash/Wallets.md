@@ -62,7 +62,7 @@
 
 ---
 
-## [eZcash](https://blog.nerdbank.net/ezcash-app)
+## [eZcash](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 ![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
 - Dispositivi: Mobile | Desktop
 - Sistema operativo: Android | iOS | Windows
@@ -239,7 +239,7 @@
 
 ---
 
-## [Trezor](https://trezor.io/learn/a/zcash-zec)
+## [Trezor](https://trezor.io/learn/supported-assets/other-cryptocurrencies/zcash-what-it-is-and-how-it-works-with-trezor)
 ![logo](/content-images/trezor1-5004075d27.webp "Trezor")
 - Dispositivi:
 - Sistema operativo:

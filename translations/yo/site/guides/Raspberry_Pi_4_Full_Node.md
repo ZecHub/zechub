@@ -150,7 +150,7 @@ Zebra ati Zallet ni o wa lapapọ fẹẹrẹfẹ lori CPU nigba iṣeto ju comp
 
 ## Àwọn ohun èlò àfikún
 - [Ìwé Zebra](https://zebra.zfnd.org)  ìwé àṣẹ Zebra tí ó wà nípamọ́
-- [Ìwé Zallet](https://zcash.github.io/wallet)  ìwé àṣẹ Zallet tí ó wà nílẹ̀-èdè rẹ.
+- [Ìwé Zallet](https://zcash.github.io/zallet/)  ìwé àṣẹ Zallet tí ó wà nílẹ̀-èdè rẹ.
 - [zcashd End-of-Support notice](https://z.cash/support/zcashd-deprecation)
 
 ---

@@ -45,4 +45,4 @@ Operator biara de wɔn ankasa ZAP1 instance di dwuma a wɔn ankasa keys, Merkle 
 - Protocol no ho nkyerɛkyerɛmu: [ONCHAIN_PROTOCOL.md](https://github.com/Frontier-Compute/zap1/blob/main/ONCHAIN_PROTOCOL.md)
 - ZIP a wɔde kyerɛw nsɛm: [PR #1243](https://github.com/zcash/zips/pull/1243)
 - API a ɛte ase: [pay.frontiercompute.io/protocol/info](https://pay.frontiercompute.io/protocol/info)
-- Ɔdefoɔ akwankyerɛ: [frontiercompute.io/operators.html](https://frontiercompute.io/operators.html)
+- Ɔdefoɔ akwankyerɛ: [OPERATOR_GUIDE.md](https://github.com/Frontier-Compute/zap1/blob/main/OPERATOR_GUIDE.md)
