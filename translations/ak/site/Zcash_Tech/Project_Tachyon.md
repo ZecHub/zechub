@@ -101,7 +101,7 @@ Adwuma a ɛfa ho no da adi dedaw. [Zakura na ɔkyerɛwee](https://zechub.wiki/zc
 | Oblivious synchronization | Fetching chain data a wallet hia a wonkyerɛ data a wɔbisae |
 | Adanse a wɔde kura data (PCD) | Data a ɛde adanse a ɛkyerɛ sɛ ɛyɛ nokware tu kwan, enti wobetumi aka adanse ahorow abom na wɔabɔ |
 | Shielded ayɔnkofa aggregate | Tachyon kwan a ɔfa so bundling shielded state sesa, ɛsakra sɛnea wɔde di nkitaho na wɔde wɔn nsa hyɛ ase |
-| Ledger a wontumi nkyerɛ nsonsonoe a ɛda ntam | Agyapadeɛ a ɛbɔɔ nnwuma ho ban no, wɔrentumi nka no ntetew mu mfi wɔn ho wɔn ho |
+| ledger a wontumi nkyerɛ nsonsonoe a ɛda ntam | Agyapadeɛ a ɛbɔɔ nnwuma ho ban no, wɔrentumi nka no ntetew mu mfi wɔn ho wɔn ho |
 
 <br/>
 

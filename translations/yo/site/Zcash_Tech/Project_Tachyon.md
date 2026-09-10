@@ -101,7 +101,7 @@ Tachyon jẹ **awuye, kii ṣe ẹya ti a firanṣẹ**. O tẹjade ni Oṣu K�
 ìmúṣiṣẹ́pọ̀ tí kò ṣe é rántí. Gbígba ìsọfúnni ẹ̀ka ti àpamọ́ kan nílò láìfi hàn àwọn ìsọfa tó béèrè fún wọn.
 DATA tí ó ń gbé ẹ̀rí (PCD) Data tó máa ń rìnrìn àjò pẹlú èsì ti wípé òun tọ, nítorí náà àwọn ẹ̀jẹ́ lè di papọ̀ kí a sì kó wọn jọ.
 ìkójọpọ ìsòwò tí a fi ààbò ṣe. Ọ̀nà Tachyon láti kó àwọn ìyípadà ipò ti ó ní ààbò jọ, yí bí wọ́n ṣe ń bára wọn sọ̀rọ̀ àti wípé wọ́n fọwọsi padà.
-| Ledger indistinguishability | The property that shielded transactions cannot be told apart from one another |
+àwọn ohun ìní tí ó fi ààbò bo ìṣòwò kò lè ṣe ìdánimọ̀ láìsí ọ̀kan nínú wọn.
 
 <br/>
 

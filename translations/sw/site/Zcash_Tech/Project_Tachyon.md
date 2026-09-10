@@ -101,7 +101,7 @@ Jaribio la kutatua ujumbe wa siri. Kujaribu kufuta maandishi ya shughuli moja kw
 ◯ Usanifu wa usahau. Kuleta data ya mlolongo ambayo mkoba unahitaji bila kuonyesha ni data gani iliyoombwa.
 DATA-CAREING PROOF (PCD) Data ambayo husafiri na uthibitisho wa usahihi wake, hivyo ushahidi unaweza kuunganishwa na kufungwa.
 ❖ Kuhifadhiwa shughuli jumla. njia Tachyon ya bundling hali kulindwa mabadiliko, kubadilisha jinsi wao ni kuwasiliana na saini;
- Ledger indistinguishability. mali ambayo ulinzi shughuli haiwezi kuwa alisema mbali kutoka kwa kila mmoja.
+Uhasibu wa kitabu cha hesabu. mali ambayo ulinzi shughuli haiwezi kuwa alisema mbali kutoka kwa kila mmoja.
 
 <br/>
 

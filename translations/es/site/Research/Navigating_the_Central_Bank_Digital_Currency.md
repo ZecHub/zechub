@@ -100,7 +100,7 @@ La inclusión financiera, antes un faro de esperanza, enfrenta las sombras de un
 ## Recursos: un mapa para el explorador digital
 
 Para quienes se aventuran en el territorio desconocido de las CBDC, los recursos se convierten en su brújula.
-1. El Banco de Pagos Internacionales ([BIS](https://www.bis.org/search/index.htm?globalset_q=cbdc))
+1. El Banco de Pagos Internacionales ([BIS](https://www.bis.org/search?keywords=cbdc))
 2. el Fondo Monetario Internacional ([IMF](https://www.imf.org/en/About))
 3. Artículos de investigación ([artículo](https://deliverypdf.ssrn.com/delivery.php?ID=998105006000066124067099122099097121053040051018055094125101013098095097071065120123041031008002042043044095080119019124023085025010021006031087083026113098095102030064008046091121005002106021127103088122029021016098108064080120068125070088112093101069&EXT=pdf&INDEX=TRUE))
 4. Revistas académicas ([revista](https://www.bis.org/publ/work976.pdf))

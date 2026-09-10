@@ -101,7 +101,7 @@ Okwu. Ihe ọ pụtara.
 ◯ Oblivious synchronization. Ịnweta data nke usoro ihe eji eme ego na-achọ n'ekwughị ozi a rịọrọ ya.
 DATA nke na-ebu ihe akaebe (PCD) Data nke na -agagharị n'ihe akaebe maka izi ezi ya, ka enwere ike ijikọ ma jikọta ihe aka ebe a.
 ◯ Nchịkọta azụmahịa echekwara echebe. Ụzọ Tachyon si ejikọta mgbanwe ọnọdụ e chebere, na-agbanwe ụzọ ha si ekwurịta okwu ma bịanye aka n'akwụkwọ.
- Ledger indistinguishability. The onwunwe na shielded azụmahịa-apụghị gwara iche n'ebe onye ọzọ.
+◯ akwụkwọ ndekọ enweghị ike ịmata ọdịiche. Ihe onwunwe nke kpuchiri azụmahịa apụghị ịkọwa n'etiti ibe ya.
 
 <br/>
 

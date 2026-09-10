@@ -101,7 +101,7 @@ Dɔ siwo do ƒome kplii la dzena xoxo. [Zakura](https://zechub.wiki/zcash-tech/z
 | Oblivious synchronization | Kɔsɔkɔsɔ ŋuti nyatakaka siwo gakotoku hiã la xɔxɔ evɔ womaɖe nyatakaka siwo wobia la afia o |
 | Kpeɖodzi-siwo tsɔa nyatakakawo (PCD) | Nyatakaka siwo zɔa mɔ kple kpeɖodzi si ɖee fia be eya ŋutɔ ƒe dzɔdzɔenyenye, ale be woate ŋu aƒo kpeɖodziwo nu ƒu ahaƒo wo nu ƒu |
 | Shielded asitsatsa ƒe ƒuƒoƒo | Tachyon ƒe mɔ si dzi wòtona blaa shielded state trɔna, trɔa alesi woɖoa dze kple woe eye wodea asi ete |
-| Ledger vovototodedeameme ƒe ŋutete | Womate ŋu agblɔ nunɔamesi siwo kpɔ asitsatsa ta la ɖe vovo tso wo nɔewo gbɔ o |
+| ledger vovototodedeameme ƒe ŋutete | Womate ŋu agblɔ nunɔamesi siwo kpɔ asitsatsa ta la ɖe vovo tso wo nɔewo gbɔ o |
 
 <br/>
 
