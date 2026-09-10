@@ -9,7 +9,7 @@
 
 ---
 
-## [Kipaji cha Ywallet](https://ywallet.app/installation/)
+## [Ywallet](https://ywallet.app/installation/)
 ![logo](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
 - Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa uendeshaji: Android  iOS Windows Linux macOS
@@ -30,7 +30,7 @@
 
 ---
 
-## [Zingo (mnyama)!](https://www.zingolabs.org/)
+## [Zingo!](https://www.zingolabs.org/)
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo!")
 - Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa uendeshaji: Android  iOS Windows Linux
@@ -62,7 +62,7 @@
 
 ---
 
-## [eZcash](https://blog.nerdbank.net/ezcash-app)
+## [eZcash](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 ![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
 - Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa uendeshaji: Android  iOS Windows
@@ -72,7 +72,7 @@
 
 ---
 
-## [Shule ya Zkool](https://github.com/hhanh00/zkool2/)
+## [Zkool](https://github.com/hhanh00/zkool2/)
 ![logo](/content-images/zkool-1-22ab388e65.webp "Zkool")
 - Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa uendeshaji: Android  iOS Windows Linux
@@ -115,7 +115,7 @@
 
 ---
 
-## [Zallet (Kifungu cha kulia)](https://github.com/zcash/wallet)
+## [Zallet](https://github.com/zcash/wallet)
 ![logo](/content-images/Brandmark-Yellow-2eca7f6f68.webp "Zallet")
 - Vifaa: Desktop
 - Mfumo wa uendeshaji: Windows Linux MacOS
@@ -171,7 +171,7 @@
 ![logo](/content-images/ssp-1-7d96e66117.webp "SSP Wallet")
 - Vifaa: Simu ya mkononi  Web
 - Mfumo wa uendeshaji: Android  iOS Browser
-- Mkoba Support: Mbegu Maneno
+- Mkoba Support: Mbegu Phrase
 - Mabwawa: Ni wazi
 - Sifa: Multi sarafu
 
@@ -201,7 +201,7 @@
 ![logo](/content-images/coinomicard-226bcbf876.webp "Coinomi")
 - Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa uendeshaji: Android  iOS Windows
-- Mkoba Support: Mbegu Phrase
+- Mkoba Support: Mbegu Maneno
 - Mabwawa: Ni wazi
 - Sifa: Multi sarafu
 
@@ -218,7 +218,7 @@
 
 ---
 
-## [Ledger (Kitabu cha hesabu)](https://www.ledger.com/coin/wallet/zcash)
+## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
 - Vifaa:
 - Mfumo wa Uendeshaji:
@@ -239,7 +239,7 @@
 
 ---
 
-## [Hazina ya hazina](https://trezor.io/learn/a/zcash-zec)
+## [Hazina ya hazina](https://trezor.io/learn/supported-assets/other-cryptocurrencies/zcash-what-it-is-and-how-it-works-with-trezor)
 ![logo](/content-images/trezor1-5004075d27.webp "Trezor")
 - Vifaa:
 - Mfumo wa Uendeshaji:

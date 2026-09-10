@@ -150,7 +150,7 @@ Zebra ne Zallet taa yɛ hare wɔ CPU so bere a wɔreyɛ nhyehyɛe sen sɛnea na 
 
 ## Nneɛma foforo a wɔde bɛyɛ adwuma
 - [Zebra Book](https://zebra.zfnd.org) — Zebra nkrataa a ɛyɛ aban de
-- [Zallet Nhoma no](https://zcash.github.io/wallet) — Zallet ho nkrataa a ɛyɛ aban de
+- [Zallet Nhoma no](https://zcash.github.io/zallet/) — Zallet ho nkrataa a ɛyɛ aban de
 - [zcashd Mmoa Awieeɛ ho amanneɛbɔ](https://z.cash/support/zcashd-deprecation)
 
 ---

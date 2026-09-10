@@ -45,4 +45,4 @@ Dɔwɔla ɖesiaɖe wɔa eya ŋutɔ ƒe ZAP1 kpɔɖeŋu kple woawo ŋutɔ ƒe saf
 - Ðoɖowɔɖi ƒe nɔnɔmetata: [ONCHAIN_PROTOCOL.md](https://github.com/Frontier-Compute/zap1/blob/main/ONCHAIN_PROTOCOL.md)
 - ZIP ƒe nuŋɔŋlɔ: [PR #1243](https://github.com/zcash/zips/pull/1243)
 - API si le agbe: [fe.frontiercompute.io/ɖoɖowɔɖi/nyatakaka](https://pay.frontiercompute.io/protocol/info)
-- Dɔdzikpɔla ƒe mɔfiame: [frontiercompute.io/operators.html](https://frontiercompute.io/operators.html)
+- Dɔdzikpɔla ƒe mɔfiame: [OPERATOR_GUIDE.md](https://github.com/Frontier-Compute/zap1/blob/main/OPERATOR_GUIDE.md)

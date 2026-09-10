@@ -75,7 +75,7 @@ Malipo binafsi kwa ajili ya mtandao. Non-matayarisho, hakuna KYC wafanyabiashara
 
 ### Ezcash
 Rahisi kutumia, kikamilifu featured multiplatform Zcash mkoba na msaada autoshielding. 
-[Kutembelea](https://blog.nerdbank.net/ezcash-app)
+[Kutembelea](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Kipaji Nozy
 Orchard-ililenga Zcash mkoba kujengwa kwa Zebrad, kusaidia shughuli kikamilifu ulinzi na usimamizi wa usalama muhimu. 

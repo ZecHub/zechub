@@ -15,7 +15,7 @@ TEX 地址的技术提案详见 Zcash [ZIP 320](https://zips.z.cash/zip-0320)，
 ## 我什么时候需要 TEX 地址
 
 ### 当你使用一个不支持直接发送到 Transparent 地址的钱包，向 Transparent 地址发送资金时，你**需要**一个 TEX 地址。
-某些钱包根本不允许直接向 Transparent 地址发送资金，且**接收方可能不会提供对应的 TEX 地址**。因此，有时可能需要将 Transparent 地址**转换**为 TEX 地址。你可以通过运行 zip-320 中概述的参考实现来手动完成这一点。一个托管的 **Transparent-to-TEX-Converter** 实例可在[这里](https://690e9524c66a3ecac5d54eff--jade-brioche-873777.netlify.app/)找到。
+某些钱包根本不允许直接向 Transparent 地址发送资金，且**接收方可能不会提供对应的 TEX 地址**。因此，有时可能需要将 Transparent 地址**转换**为 TEX 地址。你可以通过运行 [zip-320](https://zips.z.cash/zip-0320#reference-implementation) 中概述的参考实现来手动完成这一点。
 
 ### 当你向一个**要求这些资金必须来自 Transparent 来源**的中心化交易所发送资金时，你需要一个 TEX 地址。
 目前，[Binance](https://www.binance.com/) 是唯一使用 TEX 地址的中心化交易所（而且这也是创建 TEX 的主要原因）。

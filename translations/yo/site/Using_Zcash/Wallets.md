@@ -62,7 +62,7 @@
 
 ---
 
-## [Èdè ìbílẹ̀: eZcash](https://blog.nerdbank.net/ezcash-app)
+## [Èdè ìbílẹ̀: eZcash](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 ![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
 - Àwọn ohun èlò: Mobile  Desktop
 - Àwọn ètò ìṣiṣẹ: Android  iOS Windows
@@ -239,7 +239,7 @@
 
 ---
 
-## [Ìkóhun-ìní](https://trezor.io/learn/a/zcash-zec)
+## [Ìkóhun-ìní](https://trezor.io/learn/supported-assets/other-cryptocurrencies/zcash-what-it-is-and-how-it-works-with-trezor)
 ![logo](/content-images/trezor1-5004075d27.webp "Trezor")
 - Àwọn ohun èlò:
 - Ètò Ṣiṣẹ́:

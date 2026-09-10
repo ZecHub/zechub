@@ -62,7 +62,7 @@
 
 ---
 
-## [eZcash na ɛyɛ](https://blog.nerdbank.net/ezcash-app)
+## [eZcash na ɛyɛ](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 ![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
 - Mfiri a Wɔde Yɛ Adwuma: Mobile | Desktop so na ɛyɛ adwuma
 - Dwumadie Nhyehyɛeɛ: Android | iOS | Windows
@@ -239,7 +239,7 @@
 
 ---
 
-## [Trezor na ɔkyerɛwee](https://trezor.io/learn/a/zcash-zec)
+## [Trezor na ɔkyerɛwee](https://trezor.io/learn/supported-assets/other-cryptocurrencies/zcash-what-it-is-and-how-it-works-with-trezor)
 ![logo](/content-images/trezor1-5004075d27.webp "Trezor")
 - Mfiri a Wɔde Yɛ:
 - Dwumadi Nhyehyɛe:

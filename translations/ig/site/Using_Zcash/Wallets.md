@@ -1,4 +1,4 @@
-## [ZODL (n'asụsụ Bekee)](https://zodl.com)
+## [ZODL](https://zodl.com)
 ![logo](/content-images/198608b2-9059-4cb7-aeb8-9354971376fd-d67c2d46f5.webp "ZODL")
 - Ngwaọrụ: Mobile
 - Sistemụ arụmọrụ: Android; iOS
@@ -9,7 +9,7 @@
 
 ---
 
-## [Akpa ego Ywallet](https://ywallet.app/installation/)
+## [Ywallet](https://ywallet.app/installation/)
 ![logo](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
 - Ngwaọrụ: Mobile  Desktọpụ
 - Sistemụ arụmọrụ: Android  iOS Windows Linux macOS
@@ -30,7 +30,7 @@
 
 ---
 
-## [Zingo (nwa anụmanụ)!](https://www.zingolabs.org/)
+## [Zingo!](https://www.zingolabs.org/)
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo!")
 - Ngwaọrụ: Mobile  Desktọpụ
 - Sistemụ arụmọrụ: Android  iOS Windows Linux
@@ -62,7 +62,7 @@
 
 ---
 
-## [eZcash](https://blog.nerdbank.net/ezcash-app)
+## [eZcash](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 ![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
 - Ngwaọrụ: Mobile  Desktọpụ
 - Sistemụ arụmọrụ: Android  iOS Windows
@@ -72,7 +72,7 @@
 
 ---
 
-## [Zkool (ụlọ akwụkwọ)](https://github.com/hhanh00/zkool2/)
+## [Zkool](https://github.com/hhanh00/zkool2/)
 ![logo](/content-images/zkool-1-22ab388e65.webp "Zkool")
 - Ngwaọrụ: Mobile  Desktọpụ
 - Sistemụ arụmọrụ: Android  iOS Windows Linux
@@ -94,7 +94,7 @@
 
 ---
 
-## [Zenith (ihe nkiri)](https://code.vergara.tech/Vergara_Tech/zenith)
+## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
 ![logo](/content-images/zenith-2-cea75a34fd.webp "Zenith")
 - Ngwaọrụ: Desktọpụ
 - Sistemụ arụmọrụ: Windows  Linux  macOS
@@ -132,7 +132,7 @@
 - Sistemụ arụmọrụ: Windows  Linux  macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
 - Mmiri: Ihe na-acha ọcha. Osisi osisi (Sapling) Osisi ígwè (Ironwood).
-- Njirimara: Usoro iwu akara  Adreesị Diversified  Nchekwa Memo Testnet Nkwado
+- Atụmatụ: Njikọ Line Line  Diversified Address  Shielded Memo Testnet Nkwado
 - Osisi Ironwood: Ọ Dịghị Njikere Maka Ya
 
 ---
@@ -218,7 +218,7 @@
 
 ---
 
-## [Ledger (akwụkwọ ndekọ ego)](https://www.ledger.com/coin/wallet/zcash)
+## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
 - Ngwaọrụ:
 - Sistemụ arụmọrụ:
@@ -239,7 +239,7 @@
 
 ---
 
-## [Onye na-echekwa ego.](https://trezor.io/learn/a/zcash-zec)
+## [Onye na-echekwa ego.](https://trezor.io/learn/supported-assets/other-cryptocurrencies/zcash-what-it-is-and-how-it-works-with-trezor)
 ![logo](/content-images/trezor1-5004075d27.webp "Trezor")
 - Ngwaọrụ:
 - Sistemụ arụmọrụ:
@@ -249,7 +249,7 @@
 
 ---
 
-## [Vultisig (ụmụ nwanyị)](https://vultisig.com)
+## [Vultisig](https://vultisig.com)
 ![logo](/content-images/vultisig-713626c5ba.webp "Vultisig")
 - Ngwaọrụ: Web  Mobile  Desktọpụ
 - Sistemụ arụmọrụ: Android  iOS Windows Linux macOS Nchọgharị
@@ -279,7 +279,7 @@
 
 ---
 
-## [LeoDex (Ụmụ nwoke)](https://leodex.io/)
+## [LeoDex](https://leodex.io/)
 ![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
 - Ngwaọrụ: Web  Desktọpụ
 - Sistemụ arụmọrụ: Nchọgharị Windows  MacOS
@@ -344,7 +344,7 @@
 
 ---
 
-## [Argos (ụgbọ mmiri)](https://argos.sovright.com/)
+## [Argos](https://argos.sovright.com/)
 ![logo](/content-images/argos.webp "Argos")
 - Ngwaọrụ: Desktọpụ
 - Sistemụ arụmọrụ: Windows  Linux  macOS

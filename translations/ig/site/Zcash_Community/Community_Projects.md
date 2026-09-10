@@ -75,7 +75,7 @@ Community-focused grants dashboard designed to simplify how Zcash grants are dis
 
 ### Ezcash
 Mfe iji, zuru ezu-apụta multiplatform Zcash wallet na autoshielding support. 
-[Ịga leta ya .](https://blog.nerdbank.net/ezcash-app)
+[Ịga leta ya .](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
 
 ### Obere obere akpa ego Nozy Wallet
 Orchard-focused Zcash wallet built for Zebrad, supporting fully shielded transactions and secure key management.  

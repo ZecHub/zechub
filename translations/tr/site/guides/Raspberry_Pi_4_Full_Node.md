@@ -150,7 +150,7 @@ Cüzdanın yanıt verdiğini ve Zebra senkronizasyonu tamamladıktan sonra bakiy
 
 ## Ek kaynaklar
 - [Zebra Kitabı](https://zebra.zfnd.org) — resmi Zebra belgeleri
-- [Zallet Kitabı](https://zcash.github.io/wallet) — resmi Zallet belgeleri
+- [Zallet Kitabı](https://zcash.github.io/zallet/) — resmi Zallet belgeleri
 - [zcashd Destek Sonu bildirimi](https://z.cash/support/zcashd-deprecation)
 
 ---

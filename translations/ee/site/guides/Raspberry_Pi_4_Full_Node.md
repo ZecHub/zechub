@@ -150,7 +150,7 @@ Zebra kple Zallet le bɔbɔe wu le CPU dzi le ɖoɖowɔwɔ me wu alesi zcashd nu
 
 ## Dɔwɔnu bubuwo
 - [Zebra ƒe Agbalẽ](https://zebra.zfnd.org) — Zebra ƒe nuŋlɔɖi siwo dziɖuɖua da asi ɖo
-- [Zallet ƒe Agbalẽ](https://zcash.github.io/wallet) — Zallet ƒe nuŋlɔɖi siwo dziɖuɖua da asi ɖo
+- [Zallet ƒe Agbalẽ](https://zcash.github.io/zallet/) — Zallet ƒe nuŋlɔɖi siwo dziɖuɖua da asi ɖo
 - [zcashd Kpekpeɖeŋunana ƒe Nuwuwu ƒe gbeƒãɖeɖe](https://z.cash/support/zcashd-deprecation)
 
 ---

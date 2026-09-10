@@ -16,7 +16,7 @@ Embora os endereços TEX ainda não sejam amplamente adotados, os usuários de Z
 ## Quando preciso de um endereço TEX
 
 ### Você **precisa** de um endereço TEX ao enviar fundos para um endereço Transparente usando uma carteira que não oferece suporte para envio direto a um endereço Transparente.
-Algumas carteiras simplesmente não permitem enviar diretamente para um endereço Transparente e **o destinatário pode não fornecer um equivalente TEX**. Portanto, **converter** de um endereço Transparente para um endereço TEX pode ser necessário às vezes. Isso pode ser feito manualmente executando a implementação de referência descrita na zip-320. Uma instância hospedada de um **conversor de Transparente para TEX** pode ser encontrada [AQUI](https://690e9524c66a3ecac5d54eff--jade-brioche-873777.netlify.app/).
+Algumas carteiras simplesmente não permitem enviar diretamente para um endereço Transparente e **o destinatário pode não fornecer um equivalente TEX**. Portanto, **converter** de um endereço Transparente para um endereço TEX pode ser necessário às vezes. Isso pode ser feito manualmente executando a implementação de referência descrita na [zip-320](https://zips.z.cash/zip-0320#reference-implementation).
 
 ### Você precisa de um endereço TEX ao enviar fundos para uma exchange centralizada que **EXIGE que esses fundos venham de uma origem Transparente**.
 Atualmente, a [Binance](https://www.binance.com/) é a única exchange centralizada que usa endereços TEX (e eles são a principal razão para a criação do TEX).
