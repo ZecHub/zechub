@@ -9,7 +9,7 @@
 
 ---
 
-## [Ywallet ƒe ŋkɔ](https://ywallet.app/installation/)
+## [Ywallet](https://ywallet.app/installation/)
 ![logo](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
 - Mɔ̃wo: Asitelefon dzi | Desktop dzi
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo | Linux | macOS ƒe nyawo
@@ -30,7 +30,7 @@
 
 ---
 
-## [Zingo ƒe nya!](https://www.zingolabs.org/)
+## [Zingo!](https://www.zingolabs.org/)
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo!")
 - Mɔ̃wo: Asitelefon dzi | Desktop dzi
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo | Linux
@@ -62,7 +62,7 @@
 
 ---
 
-## [eZcash ƒe nyawo](https://blog.nerdbank.net/ezcash-app)
+## [eZcash](https://blog.nerdbank.net/ezcash-app)
 ![logo](/content-images/e-Zcash-1-41c8447b78.webp "eZcash")
 - Mɔ̃wo: Asitelefon dzi | Desktop dzi
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo
@@ -72,13 +72,13 @@
 
 ---
 
-## [Zkool ƒe ŋkɔ](https://github.com/hhanh00/zkool2/)
+## [Zkool](https://github.com/hhanh00/zkool2/)
 ![logo](/content-images/zkool-1-22ab388e65.webp "Zkool")
 - Mɔ̃wo: Asitelefon dzi | Desktop dzi
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo | Linux
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
-- Features: Adrɛs ƒe Tɔtrɔ | Broad Key Kpekpeɖeŋunana | Nusiwo Woɖo Ðe Duta Siwo Wotsɔ Nya Ɣla Ðo | FROST Multisig | Akɔntabubu Geɖewo ƒe Ðekawɔwɔ | Memo si Wotsɔ Akpoxɔnu Wɔe | Testnet Kpekpeɖeŋunana
+- Features: Adrɛs ƒe Tɔtrɔ | Broad Key Kpekpeɖeŋu | Nusiwo Woɖo Ðe Duta Siwo Wotsɔ Nya Ɣla Ðo | FROST Multisig | Akɔntabubu Geɖewo ƒe Ðekawɔwɔ | Memo si Wotsɔ Akpoxɔnu Wɔe | Testnet Kpekpeɖeŋunana
 - Ironwood: Dzra ɖo
 
 ---
@@ -94,7 +94,7 @@
 
 ---
 
-## [Zenith ƒe ŋkɔ](https://code.vergara.tech/Vergara_Tech/zenith)
+## [Zenith](https://code.vergara.tech/Vergara_Tech/zenith)
 ![logo](/content-images/zenith-2-cea75a34fd.webp "Zenith")
 - Mɔ̃wo: Dɔwɔnu siwo wozãna le kɔmpiuta dzi
 - Dɔwɔɖoɖo: Windows | Linux | macOS ƒe nyawo
@@ -104,7 +104,7 @@
 
 ---
 
-## [Zingo-CLI ƒe dɔwɔwɔ](https://github.com/zingolabs/zingolib)
+## [Zingo-CLI](https://github.com/zingolabs/zingolib)
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo-CLI")
 - Mɔ̃wo: Dɔwɔnu siwo wozãna le kɔmpiuta dzi
 - Dɔwɔɖoɖo: Windows | Linux | macOS ƒe nyawo
@@ -115,7 +115,7 @@
 
 ---
 
-## [Zallet ƒe ŋkɔ](https://github.com/zcash/wallet)
+## [Zallet](https://github.com/zcash/wallet)
 ![logo](/content-images/Brandmark-Yellow-2eca7f6f68.webp "Zallet")
 - Mɔ̃wo: Dɔwɔnu siwo wozãna le kɔmpiuta dzi
 - Dɔwɔɖoɖo: Windows | Linux | macOS ƒe nyawo
@@ -126,7 +126,7 @@
 
 ---
 
-## [Zcashd ƒe ŋkɔ](https://github.com/zcash/zcash)
+## [Zcashd](https://github.com/zcash/zcash)
 ![logo](/content-images/zcashd-92df3291ad.webp "Zcashd")
 - Mɔ̃wo: Dɔwɔnu siwo wozãna le kɔmpiuta dzi
 - Dɔwɔɖoɖo: Windows | Linux | macOS ƒe nyawo
@@ -157,7 +157,7 @@
 
 ---
 
-## [Zucchini ƒe nuɖuɖu](https://zucchinifi.xyz/)
+## [Zucchini](https://zucchinifi.xyz/)
 ![logo](/content-images/91a1005a-3daf-4747-9442-c178cbe50e49-9f5514d217.webp "Zucchini")
 - Mɔ̃wo: Nyatakakadzraɖoƒe
 - Dɔwɔɖoɖo: Browser
@@ -197,7 +197,7 @@
 
 ---
 
-## [Coinomi ƒe ŋkɔ](https://www.coinomi.com/en/downloads)
+## [Coinomi](https://www.coinomi.com/en/downloads)
 ![logo](/content-images/coinomicard-226bcbf876.webp "Coinomi")
 - Mɔ̃wo: Asitelefon dzi | Desktop dzi
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo
@@ -207,7 +207,7 @@
 
 ---
 
-## [Keystone ƒe kpe](https://shop.keyst.one)
+## [Keystone](https://shop.keyst.one)
 ![logo](/content-images/Keystone-1-8177a83308.webp "Keystone")
 - Mɔ̃wo:
 - Dɔwɔɖoɖo:
@@ -218,18 +218,18 @@
 
 ---
 
-## [Agbalẽ si nye Ledger](https://www.ledger.com/coin/wallet/zcash)
+## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
 - Mɔ̃wo:
 - Dɔwɔɖoɖo:
 - Gakotoku ƒe Kpekpeɖeŋu: Hardware
 - Tawo: Woate ŋu akpɔe le gaglãgbe
 - Nusiwo le eme: Multi Coin
-- Ironwood: Ele Edzim
+- Ironwood: Ele Ŋgɔyiyi Me
 
 ---
 
-## [Safepal ƒe nyawo](https://safepal.com)
+## [Safepal](https://safepal.com)
 ![logo](/content-images/safepalcard-176b24c751.webp "Safepal")
 - Mɔ̃wo: Asitelefon dzi | Nyatakakadzraɖoƒe
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Browser ƒe dɔwɔnu
@@ -249,7 +249,7 @@
 
 ---
 
-## [Vultisig ƒe agbalẽ](https://vultisig.com)
+## [Vultisig](https://vultisig.com)
 ![logo](/content-images/vultisig-713626c5ba.webp "Vultisig")
 - Mɔ̃wo: Nyatakakadzraɖoƒe | Asitelefon dzi | Desktop dzi
 - Dɔwɔɖoɖo: Android | iOS ƒe iOS | Fesrewo | Linux | macOS ƒe nyawo | Browser ƒe dɔwɔnu
@@ -279,11 +279,11 @@
 
 ---
 
-## [LeoDex ƒe agbalẽ](https://leodex.io/)
+## [LeoDex](https://leodex.io/)
 ![logo](/content-images/Leo-Dexwallet-96b65ffe1b.webp "LeoDex")
 - Mɔ̃wo: Nyatakakadzraɖoƒe | Desktop dzi
 - Dɔwɔɖoɖo: Browser | Fesrewo | macOS ƒe nyawo
-- Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbe | Gakotoku si le egodo | Xɔ Adrɛs | QR-dzesi | Hardware ƒe dɔwɔnuwo
+- Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbe | Gakotoku si le egodo | Xɔ Adrɛs | QR-Kɔdasi | Hardware ƒe dɔwɔnuwo
 - Pools: Sapling | Transparent
 - Nusiwo le eme: Multi Coin | Near Intents | Maya ƒe DEX | KYC aɖeke meli o | Nusiwo Menye Vidzikpɔkpɔ o | Nyatakakadzraɖoƒe ƒe Dɔwɔɖoɖo | Desktop Dɔwɔɖoɖo | Akpoxɔnu ZEC | AnyPay ƒe fetu
 - Ironwood: Dzra ɖo
@@ -318,7 +318,7 @@
 - Dɔwɔɖoɖo: iOS | macOS ƒe nyawo
 - Wallet Support: Seed Phrase | Passkey | Unified Address | Private Key | Self-Custody Wallet
 - Pools: Transparent | Sapling | Ironwood
-- Features: Ðokuisidzikpɔkpɔ | Private Key si Wodzra Ðo Ðe Nutoa Me | KYC aɖeke Mehiã o | Zend Server ƒe Dzidzedzekpɔkpɔ aɖeke meli na Gakotoku ƒe Dɔwɔna o | Encrypted Shielded Asitsatsa | Nukuwo Gbugbɔgaxɔ | Memo si Wotsɔ Akpoxɔnu Wɔe | Passkey ƒe Dzesidede
+- Features: Ðokuisidzikpɔkpɔ | Private Key si Wodzra Ðo Ðe Nutoa Me | KYC aɖeke Mehiã o | Zend Server ƒe Ŋuɖoɖo ɖe Gakotoku ƒe Dɔwɔwɔ ŋu aɖeke meli o | Encrypted Shielded Asitsatsa | Nukuwo Gbugbɔgaxɔ | Memo si Wotsɔ Akpoxɔnu Wɔe | Passkey ƒe Dzesidede
 
 ---
 
@@ -333,22 +333,22 @@
 
 ---
 
-## [Zipher ƒe dɔwɔwɔ](https://github.com/atmospherelabs-dev/zipher-app)
+## [Zipher](https://github.com/atmospherelabs-dev/zipher-app)
 ![logo](/content-images/zipher.webp "Zipher")
 - Mɔ̃wo: Asitelefon dzi | Desktop dzi
 - Dɔwɔɖoɖo: Android | Fesrewo | Linux (CLI kple MCP Dɔwɔƒe) | iOS ƒe iOS | macOS ƒe nyawo
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Multi Account Wallet | Self-Custody Wallet | Private Key Management | Agent Wallet Support
 - Pools: Transparent | Sapling | Ironwood
 - Features: NEAR Intents | Payment Requests | Shielded Memo | Shielded Transaction Default | Testnet | Cross-chain Swap | CipherPay | Viewing Key | AI Agent | MCP Server | CLI Wallet | FROST | Beta
-- Ironwood: Ele Edzim
+- Ironwood: Ele Ŋgɔyiyi Me
 
 ---
 
-## [Argos ƒe ŋkɔ](https://argos.sovright.com/)
+## [Argos](https://argos.sovright.com/)
 ![logo](/content-images/argos.webp "Argos")
 - Mɔ̃wo: Dɔwɔnu siwo wozãna le kɔmpiuta dzi
 - Dɔwɔɖoɖo: Windows | Linux | macOS ƒe nyawo
-- Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbe | Gazazã ƒe Safui | Ame ŋutɔ ƒe Safui | Gakotoku ƒe Kpekpeɖeŋu / Safuiwo ƒe Ðoɖowɔwɔ Ðe Duta
+- Gakotoku ƒe Kpekpeɖeŋu: Nuku ƒe Nyagbe | Gazazã ƒe Safui | Ame ŋutɔ ƒe Safui | Gakotoku ƒe Kpekpeɖeŋu / Safuiwo ƒe Dɔdɔ
 - Pools: Transparent | Sapling | Ironwood | Sprout
 - Features: Gakotoku Gbugbɔgaxɔ | Sedede ƒe Fli ƒe Dɔwɔƒe | Memo si Wotsɔ Akpoxɔnu Wɔe | Testnet Kpekpeɖeŋunana
 - Ironwood: Dzra ɖo
