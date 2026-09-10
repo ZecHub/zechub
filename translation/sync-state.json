@@ -1665,8 +1665,8 @@
       "edited": false
     },
     "Zcash_Tech/Project_Tachyon.md": {
-      "src": "sha256:ea66314731bb18ba0fa6dede9deb2ef78cb452716415ae7ffaf840c0ae1c23a3",
-      "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
+      "src": "sha256:541144670d5328ca3252ad9b52f3dcd6c9ba708a5752347219f745211c4d6bc4",
+      "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -3337,6 +3337,14 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "Zcash_Tech/Project_Tachyon.md": {
+      "src": "sha256:541144670d5328ca3252ad9b52f3dcd6c9ba708a5752347219f745211c4d6bc4",
+      "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "de": {
@@ -3485,11 +3493,11 @@
       "edited": false
     },
     "Research/Navigating_the_Central_Bank_Digital_Currency.md": {
-      "src": "sha256:bca33fdd7a9df813262dda25ba0586fac33ea8d50c03c02ecb9c27a327d0997d",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:385e47505dc99687363367ac3a7c5a9de06efc16e35dd711daea23284d62c9e1",
+      "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -4999,6 +5007,14 @@
     "Zcash_Organizations/Valar_Group.md": {
       "src": "sha256:f53c01c9fd940189d2dfb75967a7a3f9a96a0313ce030d7c38234eebd8e7d135",
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Tech/Project_Tachyon.md": {
+      "src": "sha256:541144670d5328ca3252ad9b52f3dcd6c9ba708a5752347219f745211c4d6bc4",
+      "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -6671,8 +6687,8 @@
       "edited": false
     },
     "Zcash_Tech/Project_Tachyon.md": {
-      "src": "sha256:ea66314731bb18ba0fa6dede9deb2ef78cb452716415ae7ffaf840c0ae1c23a3",
-      "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
+      "src": "sha256:541144670d5328ca3252ad9b52f3dcd6c9ba708a5752347219f745211c4d6bc4",
+      "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -6825,11 +6841,11 @@
       "edited": false
     },
     "Research/Navigating_the_Central_Bank_Digital_Currency.md": {
-      "src": "sha256:bca33fdd7a9df813262dda25ba0586fac33ea8d50c03c02ecb9c27a327d0997d",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:385e47505dc99687363367ac3a7c5a9de06efc16e35dd711daea23284d62c9e1",
+      "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -8339,6 +8355,14 @@
     "Zcash_Organizations/Valar_Group.md": {
       "src": "sha256:f53c01c9fd940189d2dfb75967a7a3f9a96a0313ce030d7c38234eebd8e7d135",
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Tech/Project_Tachyon.md": {
+      "src": "sha256:541144670d5328ca3252ad9b52f3dcd6c9ba708a5752347219f745211c4d6bc4",
+      "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -10009,6 +10033,14 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "Zcash_Tech/Project_Tachyon.md": {
+      "src": "sha256:541144670d5328ca3252ad9b52f3dcd6c9ba708a5752347219f745211c4d6bc4",
+      "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "hi": {
@@ -10157,11 +10189,11 @@
       "edited": false
     },
     "Research/Navigating_the_Central_Bank_Digital_Currency.md": {
-      "src": "sha256:bca33fdd7a9df813262dda25ba0586fac33ea8d50c03c02ecb9c27a327d0997d",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src": "sha256:385e47505dc99687363367ac3a7c5a9de06efc16e35dd711daea23284d62c9e1",
+      "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Research/Social_Media_Data_Collection.md": {
@@ -11677,10 +11709,10 @@
       "edited": false
     },
     "Zcash_Tech/Project_Tachyon.md": {
-      "src": "sha256:ea66314731bb18ba0fa6dede9deb2ef78cb452716415ae7ffaf840c0ae1c23a3",
-      "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
+      "src": "sha256:541144670d5328ca3252ad9b52f3dcd6c9ba708a5752347219f745211c4d6bc4",
+      "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
@@ -13351,8 +13383,8 @@
       "edited": false
     },
     "Zcash_Tech/Project_Tachyon.md": {
-      "src": "sha256:ea66314731bb18ba0fa6dede9deb2ef78cb452716415ae7ffaf840c0ae1c23a3",
-      "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
+      "src": "sha256:541144670d5328ca3252ad9b52f3dcd6c9ba708a5752347219f745211c4d6bc4",
+      "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "nllb",
       "mode": "full",
       "tool": "nllb-200-3.3B",
@@ -15023,6 +15055,14 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "Zcash_Tech/Project_Tachyon.md": {
+      "src": "sha256:541144670d5328ca3252ad9b52f3dcd6c9ba708a5752347219f745211c4d6bc4",
+      "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "ja": {
@@ -16685,6 +16725,14 @@
     "Zcash_Organizations/Valar_Group.md": {
       "src": "sha256:f53c01c9fd940189d2dfb75967a7a3f9a96a0313ce030d7c38234eebd8e7d135",
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Tech/Project_Tachyon.md": {
+      "src": "sha256:541144670d5328ca3252ad9b52f3dcd6c9ba708a5752347219f745211c4d6bc4",
+      "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -18355,6 +18403,14 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "Zcash_Tech/Project_Tachyon.md": {
+      "src": "sha256:541144670d5328ca3252ad9b52f3dcd6c9ba708a5752347219f745211c4d6bc4",
+      "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "pt": {
@@ -20021,6 +20077,14 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "Zcash_Tech/Project_Tachyon.md": {
+      "src": "sha256:541144670d5328ca3252ad9b52f3dcd6c9ba708a5752347219f745211c4d6bc4",
+      "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "ru": {
@@ -21683,6 +21747,14 @@
     "Zcash_Organizations/Valar_Group.md": {
       "src": "sha256:f53c01c9fd940189d2dfb75967a7a3f9a96a0313ce030d7c38234eebd8e7d135",
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Tech/Project_Tachyon.md": {
+      "src": "sha256:541144670d5328ca3252ad9b52f3dcd6c9ba708a5752347219f745211c4d6bc4",
+      "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -23355,8 +23427,8 @@
       "edited": false
     },
     "Zcash_Tech/Project_Tachyon.md": {
-      "src": "sha256:ea66314731bb18ba0fa6dede9deb2ef78cb452716415ae7ffaf840c0ae1c23a3",
-      "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
+      "src": "sha256:541144670d5328ca3252ad9b52f3dcd6c9ba708a5752347219f745211c4d6bc4",
+      "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "nllb",
       "mode": "full",
       "tool": "nllb-200-3.3B",
@@ -25027,6 +25099,14 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "Zcash_Tech/Project_Tachyon.md": {
+      "src": "sha256:541144670d5328ca3252ad9b52f3dcd6c9ba708a5752347219f745211c4d6bc4",
+      "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "uk": {
@@ -26689,6 +26769,14 @@
     "Zcash_Organizations/Valar_Group.md": {
       "src": "sha256:f53c01c9fd940189d2dfb75967a7a3f9a96a0313ce030d7c38234eebd8e7d135",
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Tech/Project_Tachyon.md": {
+      "src": "sha256:541144670d5328ca3252ad9b52f3dcd6c9ba708a5752347219f745211c4d6bc4",
+      "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -28361,8 +28449,8 @@
       "edited": false
     },
     "Zcash_Tech/Project_Tachyon.md": {
-      "src": "sha256:ea66314731bb18ba0fa6dede9deb2ef78cb452716415ae7ffaf840c0ae1c23a3",
-      "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
+      "src": "sha256:541144670d5328ca3252ad9b52f3dcd6c9ba708a5752347219f745211c4d6bc4",
+      "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "nllb",
       "mode": "full",
       "tool": "nllb-200-3.3B",
@@ -30029,6 +30117,14 @@
     "Zcash_Organizations/Valar_Group.md": {
       "src": "sha256:f53c01c9fd940189d2dfb75967a7a3f9a96a0313ce030d7c38234eebd8e7d135",
       "src_commit": "e0299c1a434bf007274433ee81ce3034d4dbf6d4",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Tech/Project_Tachyon.md": {
+      "src": "sha256:541144670d5328ca3252ad9b52f3dcd6c9ba708a5752347219f745211c4d6bc4",
+      "src_commit": "04e717c74f72acfabb8b0589be32e89eaa1bb211",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",

@@ -101,7 +101,7 @@ Tachyon एक **प्रस्ताव है, जारी की गई स
 | Oblivious synchronization | wallet को आवश्यक chain data प्राप्त करना, बिना यह उजागर किए कि किस data का अनुरोध किया गया था |
 | Proof-carrying data (PCD) | ऐसा data जो अपनी सही होने के proof के साथ चलता है, ताकि proofs को जोड़ा और compress किया जा सके |
 | Shielded transaction aggregate | Shielded state changes को bundle करने का Tachyon का तरीका, जो उनके संप्रेषण और signing का तरीका बदलता है |
-| Ledger indistinguishability | वह गुण कि shielded transactions को एक-दूसरे से अलग नहीं पहचाना जा सकता |
+| लेजर अविभेद्यता | वह गुण कि shielded transactions को एक-दूसरे से अलग नहीं पहचाना जा सकता |
 
 <br/>
 

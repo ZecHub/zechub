@@ -100,7 +100,7 @@ Finanzielle Inklusion, einst ein Leuchtfeuer der Hoffnung, steht nun im Schatten
 ## Ressourcen: Eine Karte für den digitalen Entdecker
 
 Für diejenigen, die sich in das unerforschte Gebiet der CBDCs wagen, werden Ressourcen zu Ihrem Kompass.
-1. Die Bank für Internationalen Zahlungsausgleich ([BIS](https://www.bis.org/search/index.htm?globalset_q=cbdc))
+1. Die Bank für Internationalen Zahlungsausgleich ([BIS](https://www.bis.org/search?keywords=cbdc))
 2. der Internationale Währungsfonds ([IMF](https://www.imf.org/en/About))
 3. Forschungsarbeiten ([paper](https://deliverypdf.ssrn.com/delivery.php?ID=998105006000066124067099122099097121053040051018055094125101013098095097071065120123041031008002042043044095080119019124023085025010021006031087083026113098095102030064008046091121005002106021127103088122029021016098108064080120068125070088112093101069&EXT=pdf&INDEX=TRUE))
 4. Wissenschaftliche Fachzeitschriften ([journal](https://www.bis.org/publ/work976.pdf))
