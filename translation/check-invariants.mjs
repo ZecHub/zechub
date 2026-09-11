@@ -345,8 +345,12 @@ for (const loc of locales) {
   }
 }
 
-// The committed translation, hashed the same way as the English so a line can
-// pin both sides of what a person actually looked at.
+// The translation ON DISK, hashed the same way as the English so a line can pin
+// both sides of what a person actually looked at. Note "on disk": this reads the
+// working tree, while the change-tracking below reads the two commits. In CI they
+// are the same thing — the checkout is clean — but a local run against a dirty
+// tree is answering a slightly different question, and a `src` bump you have not
+// committed yet will read as unchanged here.
 const transHashCache = new Map();
 function translationHash(loc, page) {
   const k = `${loc}/${page}`;
@@ -547,10 +551,21 @@ if (baseArgInvalid) {
           if (rawFields[i] !== "") fail(`could not parse git raw diff record "${rawFields[i].slice(0, 80)}" — refusing to guess which translations changed.`);
           continue;
         }
-        const [, , , srcOid, dstOid] = meta;
+        const [, srcMode, dstMode, srcOid, dstOid] = meta;
         const path = rawFields[i + 1];
         if (srcOid === dstOid) continue;                       // mode-only, incl. `-diff` paths
         if (!/^translations\/[^/]+\/site\/.+\.md$/.test(path)) { changedPaths.push(path); continue; }
+        // A translation must be an ordinary file. A symlink's blob holds its TARGET
+        // PATH, so swapping a page for a link to an identical copy changes the blob
+        // while readFileSync — which follows the link — still sees the same stale
+        // text: the two halves of this check would disagree, and the page would be
+        // settled without a byte of it being retranslated. Verified, so refuse the
+        // shape outright rather than trying to resolve it.
+        for (const [mode, side] of [[srcMode, "was"], [dstMode, "is"]]) {
+          if (mode !== "000000" && mode !== "100644" && mode !== "100755") {
+            fail(`${path} ${side} not a regular file (mode ${mode}) — translations must be ordinary files, not symlinks or submodules.`);
+          }
+        }
         if (NULL_OID.test(srcOid) || NULL_OID.test(dstOid)) { changedPaths.push(path); continue; } // added or deleted
         const before = blobText(srcOid);
         const after = blobText(dstOid);
@@ -593,8 +608,9 @@ if (baseArgInvalid) {
             // Unless a human has listed this exact page against this exact
             // source in translation/verified-noops.txt, confirming the committed
             // translation is already correct for it. The pipeline writes the
-            // manifest and cannot write that file, so the exception needs two
-            // parties to agree — see lib/verified-noops.mjs.
+            // manifest; nothing in it writes that file, so in practice the claim
+            // and the thing it claims about come from different hands — see
+            // lib/verified-noops.mjs for how far that does and does not go.
             const key = `${loc}/${page}`;
             if (noopAllowed({
               entry: now,

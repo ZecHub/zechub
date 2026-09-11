@@ -34,7 +34,7 @@
 # same thing as enforcement.
 #
 # HOW TO ADD A LINE
-#   <locale>/<page>  sha256:<the English it is about>  sha256:<the translation you checked>
+#   <locale>/<page>  sha256:<the English>  sha256:<the translation you checked>
 # Two hashes, and both of them matter. The first says which English version you
 # read. The second pins the translated file you looked at. The check prints the
 # whole line for you when it refuses a page, so you can copy it verbatim. Add one
@@ -45,8 +45,9 @@
 # hashes are taken after normalising line endings, trailing blank lines, stray
 # end-of-line spaces and tabs, volatile front matter, and Unicode to NFC. (A
 # Markdown hard break — two or more trailing spaces — is deliberately NOT
-# normalised away, because losing one changes how the page renders.) So two canonically-equivalent spellings of the
-# same text are one file as far as this gate is concerned. That is deliberate and
+# normalised away, because losing one changes how the page renders.) So two
+# canonically-equivalent spellings of the same text are one file as far as this
+# gate is concerned. That is deliberate and
 # it should stay that way — hashing raw bytes here while the rest of the pipeline
 # hashes normalised text would let a page count as "changed" for the exception
 # and "unchanged" for the translator at the same moment, which is precisely the
@@ -59,10 +60,11 @@
 # has moved on is inert — it cannot mature into "ignore this page forever", which
 # is the failure this file exists to avoid.
 #
-# That is also why the order of the commits does not matter. You can add the line
-# before the automation settles the page or after it: the check compares the line
-# against what is actually on disk, never against what an earlier version of this
-# file used to say.
+# That is also why the check never asks WHEN the line was written. The approval
+# may land before the bump or arrive alongside it; what is checked is the state
+# of the tree under review. Note what that does not say: a bump submitted on its
+# own, without the approval present, is still refused. "Either order" is about
+# authoring, not about landing a bump unapproved and legitimising it later.
 #
 # HOW A LINE GOES AWAY
 # Nothing deletes lines automatically, and nothing needs to: an entry that no

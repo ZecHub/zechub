@@ -2996,7 +2996,7 @@
     },
     "guides/Akash_Network_Zcashd.md": {
       "src": "sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c",
-      "src_commit": "9dcac0e4",
+      "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.4+dedupe-linkrepair",
@@ -3004,7 +3004,7 @@
     },
     "guides/Akash_Network_Zebra.md": {
       "src": "sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809",
-      "src_commit": "9dcac0e4",
+      "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4+dedupe-linkrepair",
@@ -4670,7 +4670,7 @@
     },
     "guides/Akash_Network_Zcashd.md": {
       "src": "sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c",
-      "src_commit": "9dcac0e4",
+      "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.4+dedupe-linkrepair",
@@ -4678,7 +4678,7 @@
     },
     "guides/Akash_Network_Zebra.md": {
       "src": "sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809",
-      "src_commit": "9dcac0e4",
+      "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4+dedupe-linkrepair",
@@ -8018,7 +8018,7 @@
     },
     "guides/Akash_Network_Zcashd.md": {
       "src": "sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c",
-      "src_commit": "9dcac0e4",
+      "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.4+dedupe-linkrepair",
@@ -8026,7 +8026,7 @@
     },
     "guides/Akash_Network_Zebra.md": {
       "src": "sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809",
-      "src_commit": "9dcac0e4",
+      "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4+dedupe-linkrepair",
@@ -9692,7 +9692,7 @@
     },
     "guides/Akash_Network_Zcashd.md": {
       "src": "sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c",
-      "src_commit": "9dcac0e4",
+      "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.4+dedupe-linkrepair",
@@ -14714,7 +14714,7 @@
     },
     "guides/Akash_Network_Zcashd.md": {
       "src": "sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c",
-      "src_commit": "9dcac0e4",
+      "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.4+dedupe-linkrepair",
@@ -14722,7 +14722,7 @@
     },
     "guides/Akash_Network_Zebra.md": {
       "src": "sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809",
-      "src_commit": "9dcac0e4",
+      "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4+dedupe-linkrepair",
@@ -16396,7 +16396,7 @@
     },
     "guides/Akash_Network_Zebra.md": {
       "src": "sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809",
-      "src_commit": "9dcac0e4",
+      "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "seed",
       "tool": "qwen3-14b+dedupe-linkrepair",
@@ -18062,7 +18062,7 @@
     },
     "guides/Akash_Network_Zcashd.md": {
       "src": "sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c",
-      "src_commit": "9dcac0e4",
+      "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.4+dedupe-linkrepair",
@@ -18070,7 +18070,7 @@
     },
     "guides/Akash_Network_Zebra.md": {
       "src": "sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809",
-      "src_commit": "9dcac0e4",
+      "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "seed",
       "tool": "qwen3-14b+dedupe-linkrepair",
@@ -19736,7 +19736,7 @@
     },
     "guides/Akash_Network_Zcashd.md": {
       "src": "sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c",
-      "src_commit": "9dcac0e4",
+      "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.4+dedupe-linkrepair",
@@ -19744,7 +19744,7 @@
     },
     "guides/Akash_Network_Zebra.md": {
       "src": "sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809",
-      "src_commit": "9dcac0e4",
+      "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4+dedupe-linkrepair",
@@ -21410,7 +21410,7 @@
     },
     "guides/Akash_Network_Zcashd.md": {
       "src": "sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c",
-      "src_commit": "9dcac0e4",
+      "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.4+dedupe-linkrepair",
@@ -21418,7 +21418,7 @@
     },
     "guides/Akash_Network_Zebra.md": {
       "src": "sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809",
-      "src_commit": "9dcac0e4",
+      "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4+dedupe-linkrepair",
@@ -24758,7 +24758,7 @@
     },
     "guides/Akash_Network_Zcashd.md": {
       "src": "sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c",
-      "src_commit": "9dcac0e4",
+      "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.4+dedupe-linkrepair",
@@ -24766,7 +24766,7 @@
     },
     "guides/Akash_Network_Zebra.md": {
       "src": "sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809",
-      "src_commit": "9dcac0e4",
+      "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4+dedupe-linkrepair",
@@ -26432,7 +26432,7 @@
     },
     "guides/Akash_Network_Zcashd.md": {
       "src": "sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c",
-      "src_commit": "9dcac0e4",
+      "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.4+dedupe-linkrepair",
@@ -29788,7 +29788,7 @@
     },
     "guides/Akash_Network_Zebra.md": {
       "src": "sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809",
-      "src_commit": "9dcac0e4",
+      "src_commit": "9dcac0e4acbfdd3c1c63aaf40c8cd062d2f30d86",
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4+dedupe-linkrepair",

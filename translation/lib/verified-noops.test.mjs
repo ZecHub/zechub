@@ -117,3 +117,15 @@ test("a page with no base entry is not blocked by the base-edited rule", () => {
     currentSourceHash: EN, currentTranslationHash: TR,
   }), true);
 });
+
+test("a key that is not <locale>/<page> is an error, not a silent entry", () => {
+  // Without this, a garbage key parses fine and simply never matches anything —
+  // an authorisation that looks present and grants nothing, which is the worst
+  // of both. Deleting the check passed every other test.
+  for (const bad of ["justapage.md", "/leading/slash.md", "it/trailing/"]) {
+    const { entries, errors } = parseVerifiedNoops(`${bad}  ${EN}  ${TR}\n`);
+    assert.equal(entries.size, 0, `"${bad}" must not become an entry`);
+    assert.equal(errors.length, 1, `"${bad}" must be reported`);
+    assert.match(errors[0], /is not a <locale>\/<page> key/);
+  }
+});

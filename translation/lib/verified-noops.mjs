@@ -22,7 +22,11 @@
 // writes both halves and the check waves it through. The point of an exception
 // is that somebody else agrees. So the exception lives here, in a file a human
 // edits by hand, and Direction 2 requires the manifest and this file to agree.
-// A pipeline defect cannot add itself to this list.
+//
+// Be exact about the strength of that: no sync pass has any reason to touch this
+// file, so a pipeline defect does not add itself to the list by accident. It is
+// not PREVENTED from doing so — that would take a CODEOWNERS rule, which does not
+// exist yet. This buys a deliberate, reviewable statement, not enforcement.
 //
 // Each line names the EXACT English version it is about, so it expires on its
 // own: when that page's English changes again the hash no longer matches, the
@@ -109,9 +113,17 @@ export function noopAllowed({ entry, baseEntry, listed, currentSourceHash, curre
   // Both sides of the statement must still be true. Pinning the TRANSLATION is
   // what makes a stale line harmless without needing to know whether it is new:
   // if the translation has moved on since a person looked at it, the line stops
-  // describing anything real. That closes the replay — let the source wander away
-  // and later return to a listed value and the translation will have changed in
-  // the meantime — while still letting an approval be granted ahead of time.
+  // describing anything real — while still letting an approval be granted ahead
+  // of time.
+  //
+  // Be exact about what that does and does not rule out. A line grants whenever
+  // the tree matches BOTH hashes again, whenever that happens. If the English
+  // wanders away and comes back, and the translation is also back to the text
+  // that was approved for it, the line applies again — and it should, because the
+  // statement a person made ("this translation is right for that English") is
+  // true of exactly those bytes. What is excluded is the source returning to a
+  // listed value while the translation has moved on, which is the replay that
+  // mattered.
   if (listed.src !== entry.src) return false;
   if (entry.src !== currentSourceHash) return false;
   return listed.translation === currentTranslationHash;

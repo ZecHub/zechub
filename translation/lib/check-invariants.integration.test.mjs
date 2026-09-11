@@ -16,7 +16,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { execFileSync } from "node:child_process";
-import { mkdtempSync, mkdirSync, writeFileSync, rmSync, cpSync, readFileSync, chmodSync } from "node:fs";
+import { mkdtempSync, mkdirSync, writeFileSync, rmSync, cpSync, readFileSync, chmodSync, symlinkSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -421,5 +421,150 @@ test("a base entry with no `edited` field is refused, not admitted", () => {
     r.commit("authorise and bump");
 
     assert.equal(r.run(base), 1, "an unknown base `edited` state must not be treated as false");
+  } finally { r.cleanup(); }
+});
+
+test("DIRECTION 1: an edited translation with no recorded provenance is REFUSED", () => {
+  // The whole first invariant had no negative case: every test that edited a
+  // translation also recorded the pass, so deleting the Direction 1 enforcement
+  // outright passed the entire suite. This is the case that makes it real —
+  // somebody changes a translated page and the manifest says nothing happened.
+  const r = makeRepo();
+  try {
+    r.write(`translations/${LOC}/site/${EN_PAGE}`, TR_BODY.replace("Vedi", "Guarda bene"));
+    r.commit("edit a translation and record nothing");
+    assert.equal(r.run(), 1, "an unexplained translation edit must not pass");
+  } finally { r.cleanup(); }
+});
+
+test("DIRECTION 1: `edited:true` already at base is not a standing licence", () => {
+  // Flipping the flag is a reason; having flipped it once is not. Otherwise one
+  // hand-edit buys permanent freedom to change the file with no manifest trace.
+  const r = makeRepo();
+  try {
+    const m0 = r.manifest();
+    m0[LOC][EN_PAGE].edited = true;
+    r.setManifest(m0);
+    r.commit("mark the page hand-edited");
+    const base = git(r.dir, "rev-parse", "HEAD").trim();
+
+    r.write(`translations/${LOC}/site/${EN_PAGE}`, TR_BODY.replace("Vedi", "Guarda bene"));
+    r.commit("edit it again, recording nothing");
+    assert.equal(r.run(base), 1, "edited:true at base must not license further silent edits");
+  } finally { r.cleanup(); }
+});
+
+test("DIRECTION 1: flipping edited:true in THIS change is an accepted reason", () => {
+  const r = makeRepo();
+  try {
+    r.write(`translations/${LOC}/site/${EN_PAGE}`, TR_BODY.replace("Vedi", "Guarda bene"));
+    const m = r.manifest();
+    m[LOC][EN_PAGE].edited = true;
+    r.setManifest(m);
+    r.commit("a human fix, declared as one");
+    assert.equal(r.run(), 0, "declaring a hand-edit must remain a valid reason");
+  } finally { r.cleanup(); }
+});
+
+// Front matter is where "changed" gets subtle: some keys are churn the pipeline
+// deliberately ignores, the rest are real content. The wiring must honour that
+// distinction, and a mutation that flattened it passed every test before these.
+
+const FM = (date, title) => `---\ntitle: ${title}\ndate: ${date}\n---\n`;
+const EN_FM = FM("2026-01-01", "Demo") + EN_BODY;
+const TR_FM = FM("2026-01-01", "Demo") + TR_BODY;
+
+/** base repo whose pages carry front matter, then advance the English */
+function fmRepo() {
+  const r = makeRepo();
+  r.write(`site/${EN_PAGE}`, EN_FM);
+  r.write(`translations/${LOC}/site/${EN_PAGE}`, TR_FM);
+  const m0 = r.manifest();
+  m0[LOC][EN_PAGE].src = hashPage(EN_FM);
+  r.setManifest(m0);
+  r.commit("give the pages front matter");
+  const base = git(r.dir, "rev-parse", "HEAD").trim();
+  const EN2 = FM("2026-01-01", "Demo") + EN_BODY.replace("blockchain-explorers", "block-explorers");
+  return {
+    ...r, base,
+    advance(newTranslation) {
+      r.write(`site/${EN_PAGE}`, EN2);
+      r.write(`translations/${LOC}/site/${EN_PAGE}`, newTranslation);
+      const m = r.manifest();
+      m[LOC][EN_PAGE].src = hashPage(EN2);
+      m[LOC][EN_PAGE].tool = "t+pass2";
+      r.setManifest(m);
+      r.commit("advance");
+      return r.run(base);
+    },
+  };
+}
+
+test("bumping only a volatile front-matter key does NOT settle a stale page", () => {
+  // `date:` is churn by design — the pipeline hashes as though it were not there.
+  // So touching only that is not a translation edit, however much the blob moved.
+  const r = fmRepo();
+  try {
+    assert.equal(r.advance(FM("2026-09-11", "Demo") + TR_BODY), 1);
+  } finally { r.cleanup(); }
+});
+
+test("changing a NON-volatile front-matter key is a real translation change", () => {
+  // The title is content: a translated title that changed really did change, and
+  // treating it as churn would refuse honest work.
+  const r = fmRepo();
+  try {
+    assert.equal(r.advance(FM("2026-01-01", "Dimostrazione") + TR_BODY), 0);
+  } finally { r.cleanup(); }
+});
+
+test("a translation must be an ordinary file, not a symlink", () => {
+  // A symlink's blob holds its TARGET PATH, so pointing a page at an identical
+  // copy moves the blob while the text a reader sees never changes — the diff
+  // said "changed" and readFileSync said "same", and a stale page settled.
+  const r = makeRepo();
+  try {
+    r.write("attic/copy.md", TR_BODY);          // identical stale content, tracked
+    r.commit("add a copy elsewhere in the tree");
+    const base = git(r.dir, "rev-parse", "HEAD").trim();
+
+    const EN2 = EN_BODY.replace("blockchain-explorers", "block-explorers");
+    r.write(`site/${EN_PAGE}`, EN2);
+    rmSync(join(r.dir, `translations/${LOC}/site/${EN_PAGE}`));
+    symlinkSync("../../../../attic/copy.md", join(r.dir, `translations/${LOC}/site/${EN_PAGE}`));
+    const m = r.manifest();
+    m[LOC][EN_PAGE].src = hashPage(EN2);
+    m[LOC][EN_PAGE].tool = "t+pass2";
+    r.setManifest(m);
+    r.commit("swap the translation for a symlink");
+
+    assert.equal(r.run(base), 1, "a symlinked translation must be refused outright");
+  } finally { r.cleanup(); }
+});
+
+test("DIRECTION 1: a tool-only provenance change is a valid reason", () => {
+  // `tool` alone is exactly what the refusal message tells people to write, and
+  // it is the shape commit 9dcac0e4 used on 36 entries. Nothing tested it, so
+  // dropping `tool` from the provenance comparison passed the whole suite.
+  const r = makeRepo();
+  try {
+    r.write(`translations/${LOC}/site/${EN_PAGE}`, TR_BODY.replace("Vedi", "Guarda"));
+    const m = r.manifest();
+    m[LOC][EN_PAGE].tool = "t+linkrepair";      // ONLY tool moves
+    r.setManifest(m);
+    r.commit("repair a link in the translation and say so in `tool`");
+    assert.equal(r.run(), 0, "recording the pass in `tool` must be accepted");
+  } finally { r.cleanup(); }
+});
+
+test("DIRECTION 1: a mode-only provenance change is a valid reason", () => {
+  const r = makeRepo();
+  try {
+    r.write(`translations/${LOC}/site/${EN_PAGE}`, TR_BODY.replace("Vedi", "Guarda"));
+    const m = r.manifest();
+    m[LOC][EN_PAGE].mode = "full";              // ONLY mode moves
+    r.setManifest(m);
+    r.commit("retranslate the whole page rather than diffing it");
+    assert.equal(r.run(), 0, "recording the pass in `mode` must be accepted");
   } finally { r.cleanup(); }
 });
