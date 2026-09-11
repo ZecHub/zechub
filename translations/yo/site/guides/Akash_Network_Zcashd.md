@@ -128,7 +128,7 @@ Tẹ "Fọwọsi" ki o si buwọlu awọn idunadura ni Keplr.
 
 ## Ìgbésẹ̀ Kẹrin: Yan Ẹni Tó Máa Bójú Tó O Ní Nǹkan Rẹ
 
-Lẹ́yìn ~ 30 ìṣẹ̀lẹ̀, ẹ ó rí àwọn owó tí wọ́n fi ń ra ọjà. Ẹnìkan ní:
+Lẹ́yìn ~ 30 ìṣẹ̀lẹ̀, ẹ óo rí àwọn owó tí wọ́n fi ń ra ọjà. Ẹnìkan ní:
 
 -> **Iye owo fun bulọọki** (ni AKT tabi USDC)
 

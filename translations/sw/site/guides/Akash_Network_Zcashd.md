@@ -44,7 +44,7 @@ full zcashd node ambayo itakuwa:
 
 -> Zebra tu ifuatavyo mlolongo wa sasa; node zcashd hawezi kufikia ncha
 
--> mkoba zcashd ya imekuwa kubadilishwa na [Zallet (Kifungu cha kulia)](/using-zcash/zallet-quick-reference-guide)
+-> mkoba zcashd ya imekuwa kubadilishwa na [Zallet](/using-zcash/zallet-quick-reference-guide)
 
 -> Tumia zcashd kama unahitaji mfuko wa fedha utendaji au maalum RPC APIs
 
@@ -312,7 +312,7 @@ Uncomment katika *env*:
 - "ZCASHD_TXINDEX=1"
 ```
 
-** Onyo**: kuwezesha txindex kwenye node iliyopo ya usawazishaji inahitaji re-kuorodhesha blockchain nzima, ambayo inachukua masaa.
+** Onyo**: kuwezesha txindex kwenye node iliyopo ya usawazishaji inahitaji upya indexing blockchain nzima, ambayo inachukua masaa.
 
 ### Kuwezesha Insight Explorer
 

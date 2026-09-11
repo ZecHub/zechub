@@ -5327,8 +5327,8 @@
       "edited": false
     },
     "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
-      "src": "sha256:8232b95df5d6a5af7eb05ddf441ed135b932329c9480118fafe8840d29f6265a",
-      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "src": "sha256:70f868d687a1bff26628ae1b0f19b4f4db9a701c27e318460487c5cd6d454c8e",
+      "src_commit": "05d68d9e540dcdab848870aed8ab4a28f4aa3ac2",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -6135,8 +6135,8 @@
       "edited": false
     },
     "Zcash_Tech/What_a_Block_Explorer_Can_See.md": {
-      "src": "sha256:3a7ee6b549897d1df44b6f5910938caf25bac827f86c0e5ff3868aba79b7cfc3",
-      "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
+      "src": "sha256:227640845a3b820c8d65a38fef99d48ab611965a70d5324306b0a7b37df9fc64",
+      "src_commit": "05d68d9e540dcdab848870aed8ab4a28f4aa3ac2",
       "engine": "gt",
       "mode": "full",
       "tool": "gt-static",
@@ -12023,8 +12023,8 @@
       "edited": false
     },
     "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
-      "src": "sha256:8232b95df5d6a5af7eb05ddf441ed135b932329c9480118fafe8840d29f6265a",
-      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "src": "sha256:70f868d687a1bff26628ae1b0f19b4f4db9a701c27e318460487c5cd6d454c8e",
+      "src_commit": "05d68d9e540dcdab848870aed8ab4a28f4aa3ac2",
       "engine": "nllb",
       "mode": "full",
       "tool": "nllb-200-3.3B",
@@ -12831,8 +12831,8 @@
       "edited": false
     },
     "Zcash_Tech/What_a_Block_Explorer_Can_See.md": {
-      "src": "sha256:3a7ee6b549897d1df44b6f5910938caf25bac827f86c0e5ff3868aba79b7cfc3",
-      "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
+      "src": "sha256:227640845a3b820c8d65a38fef99d48ab611965a70d5324306b0a7b37df9fc64",
+      "src_commit": "05d68d9e540dcdab848870aed8ab4a28f4aa3ac2",
       "engine": "nllb",
       "mode": "full",
       "tool": "nllb-200-3.3B",
@@ -13039,11 +13039,11 @@
       "edited": false
     },
     "guides/Akash_Network_Zcashd.md": {
-      "src": "sha256:f178e31448be3990d9fb6673450e836e199a1c0af8db6c4ce279b7c75cb0c471",
-      "src_commit": "19052dfb9958dc8ce2e224ce9627ee9e01635c8b",
+      "src": "sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c",
+      "src_commit": "05d68d9e540dcdab848870aed8ab4a28f4aa3ac2",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+dedupe-linkrepair",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -22067,8 +22067,8 @@
       "edited": false
     },
     "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
-      "src": "sha256:8232b95df5d6a5af7eb05ddf441ed135b932329c9480118fafe8840d29f6265a",
-      "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
+      "src": "sha256:70f868d687a1bff26628ae1b0f19b4f4db9a701c27e318460487c5cd6d454c8e",
+      "src_commit": "05d68d9e540dcdab848870aed8ab4a28f4aa3ac2",
       "engine": "nllb",
       "mode": "full",
       "tool": "nllb-200-3.3B",
@@ -22875,8 +22875,8 @@
       "edited": false
     },
     "Zcash_Tech/What_a_Block_Explorer_Can_See.md": {
-      "src": "sha256:3a7ee6b549897d1df44b6f5910938caf25bac827f86c0e5ff3868aba79b7cfc3",
-      "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
+      "src": "sha256:227640845a3b820c8d65a38fef99d48ab611965a70d5324306b0a7b37df9fc64",
+      "src_commit": "05d68d9e540dcdab848870aed8ab4a28f4aa3ac2",
       "engine": "nllb",
       "mode": "full",
       "tool": "nllb-200-3.3B",
@@ -23083,11 +23083,11 @@
       "edited": false
     },
     "guides/Akash_Network_Zcashd.md": {
-      "src": "sha256:f178e31448be3990d9fb6673450e836e199a1c0af8db6c4ce279b7c75cb0c471",
-      "src_commit": "19052dfb9958dc8ce2e224ce9627ee9e01635c8b",
+      "src": "sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c",
+      "src_commit": "05d68d9e540dcdab848870aed8ab4a28f4aa3ac2",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+dedupe-linkrepair",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
@@ -28105,11 +28105,11 @@
       "edited": false
     },
     "guides/Akash_Network_Zcashd.md": {
-      "src": "sha256:f178e31448be3990d9fb6673450e836e199a1c0af8db6c4ce279b7c75cb0c471",
-      "src_commit": "19052dfb9958dc8ce2e224ce9627ee9e01635c8b",
+      "src": "sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c",
+      "src_commit": "05d68d9e540dcdab848870aed8ab4a28f4aa3ac2",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+dedupe-linkrepair",
+      "tool": "nllb-200-3.3B",
       "edited": false
     },
     "guides/Akash_Network_Zebra.md": {
