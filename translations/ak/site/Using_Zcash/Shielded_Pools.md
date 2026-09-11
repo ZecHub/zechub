@@ -184,5 +184,5 @@ Hwɛ [Dade dua](/zcash-tech/ironwood) ma upgrade no ankasa, na [Turnstile a ɛw�
 - [Sika kotoku](/using-zcash/wallets) — Nea sika kotoku a wɔhwɛ so na Ironwood ayɛ krado
 - [Nkitahodi ahorow](/using-zcash/transactions) — Sɛnea wɔde shielded transactions mena
 - [ZEC a wobɛtɔ](/using-zcash/buying-zec) — ZEC a wobenya ansa na wode adi dwuma wɔ atare mu
-- [ZK-SNARKs na wɔkyerɛwee](/zcash-tech/zk-snarks) — Cryptographic fapem a ɛwɔ atare a wɔabɔ ho ban so
+- [ZK-SNARKs](/zcash-tech/zk-snarks) — Cryptographic fapem a ɛwɔ atare a wɔabɔ ho ban so
 - [Dɛn ne ZEC ne Zcash](/start-here/what-is-zec-and-zcash) — Akyisɛm a ɛfa Zcash kokoam nsɛm ho

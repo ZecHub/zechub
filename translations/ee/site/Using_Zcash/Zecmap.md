@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZecMap ƒe agbalẽ
+# ZecMap
 
 ZecMap nye xexeame katã ƒe nyatakakadzraɖoƒe si nutoa me tɔwo kplɔna hena asitsahawo kple dɔwɔƒe siwo xɔa Zcash (ZEC) didi. Wotue ɖe anyigbatata ƒe ŋgɔdonya si me wowɔa nu aduadu le dzi, eye wòkpena ɖe ZEC xɔlawo ŋu woɖoa nyabiase nyui aɖe ŋu: **"Afikae mate ŋu azã nye ZEC le?"**
 
@@ -16,7 +16,7 @@ Nyatakakadzraɖoƒe: [zecmap.com dzi](https://zecmap.com/)
 - Di **interactive map** be nàkpɔ asitsala siwo lɔ̃a ZEC siwo te ɖe ŋuwò alo le xexeame ƒe teƒe ɖesiaɖe.
 - **Amesiame ate ŋu atsɔ asitsadɔ aɖe aɖo ɖa**; xexlẽdzesiwo toa nutoa me ƒe ŋkuléle ɖe wo ŋu me hafi dona le dutoƒo.
 - **Nudzɔlawo ƒe Teƒeɖoɖo ƒe Ðoɖo** dea dzi ƒo na asitsalawo ƒe nyatakakawo tsɔtsɔ kpee kple wo dzi dada.
-- ZecMap wɔ ɖeka kple nyitsɔ laa [CipherPay ƒe fetu](https://x.com/ZecMap/status/2059622324958093616) be woakeke asitsalawo ƒe ɖekawɔwɔ ɖe enu.
+- ZecMap wɔ ɖeka kple nyitsɔ laa [CipherPay](https://x.com/ZecMap/status/2059622324958093616) be woakeke asitsalawo ƒe ɖekawɔwɔ ɖe enu.
 
 ---
 
@@ -109,7 +109,7 @@ Ne èdi fetu ŋuti se siwo li fifia kple alesi woabiae la, yi ɖasrãe kpɔ [zec
 
 ZecMap xɔa asitsala siwo xɔa Zcash ƒe fexexe to **Flexa**, si nye fexexe ƒe mɔnu si asitsaƒe siwo le dzidzim ɖe edzi zãna dzi. Esia kekea xexeame ŋutɔŋutɔ ƒe asitsala siwo ƒe ŋkɔ woŋlɔ ɖe anyigbatataa dzi ƒe xexlẽme ɖe enu wu esiwo xɔa Zcash le wo de me.
 
-ZecMap hã ɖe gbeƒãe be yewowɔ ɖeka kple... [CipherPay ƒe fetu](https://cipherpay.app) be woade to ɖe fexexe ƒe xɔtuɖoɖowo ƒe ƒoƒo ɖekae na asitsala siwo le agbalẽdzraɖoƒea.
+ZecMap hã ɖe gbeƒãe be yewowɔ ɖeka kple... [CipherPay](https://cipherpay.app) be woade to ɖe fexexe ƒe xɔtuɖoɖowo ƒe ƒoƒo ɖekae na asitsala siwo le agbalẽdzraɖoƒea.
 
 ---
 
@@ -145,7 +145,7 @@ Dɔwɔwɔ ɖe ŋgɔ siwo ŋu wowɔ ɖoɖo ɖo dometɔ aɖewoe nye:
 
 ## Nunɔamesiwo
 
-- [ZecMap ƒe agbalẽ](https://zecmap.com/)
+- [ZecMap](https://zecmap.com/)
 - [ZecMap le X/Twitter dzi](https://x.com/ZecMap)
 - [ZecMap × CipherPay ƒe hadomeɖoɖo ƒe gbeƒãɖeɖe](https://x.com/ZecMap/status/2059622324958093616)
 - [ZecMap Flexa asitsalawo ƒe gomekpɔkpɔ le eme ƒe gbeƒãɖeɖe](https://x.com/ZecMap/status/2060453501063594002)

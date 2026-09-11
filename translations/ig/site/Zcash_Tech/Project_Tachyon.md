@@ -77,7 +77,7 @@ Tachyon is a **proposal, not a shipped feature**. It was published in April 2025
 
 Onye dere akwụkwọ ahụ kwuru na nke a bụ atụmatụ nwere ike ime ihe kama ịbụ nyocha, mana ọ chọrọ mbọ injinịa yiri Sapling. A ga-ahapụ ajụjụ ụfọdụ siri ike maka mgbe e mesịrị.
 
-A na-ahụ ọrụ ndị metụtara ya. [Zakura (n'asụsụ Igbo)](https://zechub.wiki/zcash-tech/zakura-node), bụ ọnụ zuru ezu nke ewepụtara na July 2026, bụ mgbalị jikọtara n'etiti Project Tachyon na Valar Group ma hụ ụfọdụ mgbanwe ndị a dị na ntanetị. [Nweta ozi nkeonwe](https://zechub.wiki/zcash-tech/private-information-retrieval) nchọpụta na-elekwasị anya n'otu nkwụsịtụ nyocha site n'akụkụ dị iche.
+A na-ahụ ọrụ ndị metụtara ya. [Zakura](https://zechub.wiki/zcash-tech/zakura-node), bụ ọnụ zuru ezu nke ewepụtara na July 2026, bụ mgbalị jikọtara n'etiti Project Tachyon na Valar Group ma hụ ụfọdụ mgbanwe ndị a dị na ntanetị. [Nweta ozi nkeonwe](https://zechub.wiki/zcash-tech/private-information-retrieval) nchọpụta na-elekwasị anya n'otu nkwụsịtụ nyocha site n'akụkụ dị iche.
 
 <br/>
 

@@ -48,9 +48,9 @@ Matokeo matatu kwa mtu yeyote mwenye au anayeweka ufunguo:
 
 ## Exporting kuangalia muhimu
 
-### Zallet (Kifungu cha kulia)
+### Zallet
 
-[Zallet (Kifungu cha kulia)](https://github.com/zcash/zallet) ni mkoba kamili-node ambayo badala ya mfuko wa ndani zcashd. Viewing-key kuuza nje na uagizaji aliwasili katika **v0.1.0-beta.2 (28 Julai 2026)**, hivyo kuangalia toleo lako kwanza; awali kujenga hawana mbinu hizi. Kila hoja baada ya jina la njia lazima halali JSON, ambayo ina maana maadili string kuweka quotes yao wenyewe mara mbili. [Mwongozo wa Marejeo ya Haraka wa Zallet](/using-zcash/zallet-quick-reference-guide) inashughulikia style ya jumla amri.
+[Zallet](https://github.com/zcash/zallet) ni mkoba kamili-node ambayo badala ya mfuko wa ndani zcashd. Viewing-key kuuza nje na uagizaji aliwasili katika **v0.1.0-beta.2 (28 Julai 2026)**, hivyo kuangalia toleo lako kwanza; awali kujenga hawana mbinu hizi. Kila hoja baada ya jina la njia lazima halali JSON, ambayo ina maana maadili string kuweka quotes yao wenyewe mara mbili. [Mwongozo wa Marejeo ya Haraka wa Zallet](/using-zcash/zallet-quick-reference-guide) inashughulikia style ya jumla amri.
 
 Andika vitu vilivyo katika kibeti hicho:
 
@@ -78,13 +78,13 @@ Makala ya kwanza. [Mkoba](/using-zcash/wallets) ukurasa hufuatilia msaada wa kuo
 
 ## Kuingiza ufunguo wa kutazama kama akaunti ya kuangalia tu
 
-### Shule ya Zkool
+### Zkool
 
-[Shule ya Zkool](https://github.com/hhanh00/zkool2) ni chaguo rahisi zaidi hapa, kwa sababu inakubali funguo umoja kama vile wale urithi. README yake nyaraka view-tu akaunti kuundwa kutoka ** unified kuangalia muhimu** au ** Sapling Extended viewing ufunguo wa **, pamoja na urithi ulinzi extended funguo nje ya zcashd. Kuongeza akaunti mpya, kuchagua njia mtazamo tu, na kuweka faili katika kivinjari yako mwenyewe ili kupata maelezo kamili juu ya jinsi gani unaweza kutumia programu hii. `uview…` or `zxviews…` muhimu; akaunti kisha syncs na ripoti mizani na historia bila kutumia mamlaka.
+[Zkool](https://github.com/hhanh00/zkool2) ni chaguo rahisi zaidi hapa, kwa sababu inakubali funguo umoja kama vile wale urithi. README yake nyaraka view-tu akaunti kuundwa kutoka ** unified kuangalia muhimu** au ** Sapling Extended viewing ufunguo wa **, pamoja na urithi ulinzi extended funguo nje ya zcashd. Kuongeza akaunti mpya, kuchagua njia mtazamo tu, na kuweka faili katika kivinjari yako mwenyewe ili kupata maelezo kamili juu ya jinsi gani unaweza kutumia programu hii. `uview…` or `zxviews…` muhimu; akaunti kisha syncs na ripoti mizani na historia bila kutumia mamlaka.
 
 Ironwood itifaki msaada na Orchard-kwa-Ironwood uhamiaji alitua katika Zkool 6.24.0 (20 Julai 2026), na 6.26.1 (2 Agosti 2026) fasta Ironwood manunuzi kugundua katika mempool. Run 6.26,1 au baadaye.
 
-### Zallet (Kifungu cha kulia)
+### Zallet
 
 ```bash
 zallet rpc z_importviewingkey '"<zxviews… key>"' '"whenkeyisnew"' 0

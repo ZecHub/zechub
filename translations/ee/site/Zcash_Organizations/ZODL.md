@@ -98,5 +98,5 @@ ZODL ƒe xexemenunya si fiaa mɔe la ku ɖe "Dziɖula ƒe Dzɔla" ƒe nukpɔsusu
 
 - [Electric Coin Company](Electric_Coin_Company.md)
 - [Zcash Foundation](Zcash_Foundation.md)
-- [Zingo ƒe Dɔwɔƒegã](Zingo_Labs.md)
+- [Zingo Labs](Zingo_Labs.md)
 - [Shielded Labs](Shielded_Labs.md)

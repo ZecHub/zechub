@@ -28,7 +28,7 @@ Z.cash ni tovuti kuu ya Zcash, ambayo hutoa maudhui na nyaraka za Zcash kwa watu
 
 **[Zcash Github](https://github.com/zcash/zcash)**
 
-Zcash Github Repo ni ghala kwa ajili ya zcashd, kwanza Zcash node utekelezaji. zcashD kufikiwa moja kwa moja mwisho wa msaada kusimamishwa juu 18 Julai 2026 na si tena kudumishwa, na ukurasa download hii kuingia kutumika kuunganisha na haitumiki tena. stack iimarishwe ni: [Zebra](https://github.com/ZcashFoundation/zebra) kwa node na [Zallet (Kifungu cha kulia)](https://github.com/zcash/zallet) kwa ajili ya mkoba  kuona [zcashd kwa Zebra na Zallet uhamiaji mwongozo](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
+Zcash Github Repo ni ghala kwa ajili ya zcashd, kwanza Zcash node utekelezaji. zcashD kufikiwa moja kwa moja mwisho wa msaada kusimamishwa juu 18 Julai 2026 na si tena kudumishwa, na ukurasa download hii kuingia kutumika kuunganisha na haitumiki tena. stack iimarishwe ni: [Zebra](https://github.com/ZcashFoundation/zebra) kwa node na [Zallet](https://github.com/zcash/zallet) kwa ajili ya mkoba  kuona [zcashd kwa Zebra na Zallet uhamiaji mwongozo](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 **[Zcash Foundation Github](https://github.com/ZcashFoundation)**
 

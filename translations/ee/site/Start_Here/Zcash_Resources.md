@@ -28,7 +28,7 @@ Z.cash nye Zcash ƒe nyatakakadzraɖoƒe vevitɔ. Enaa Zcash ƒe nyatakakawo kpl
 
 **[Zcash Github ƒe mɔnu](https://github.com/zcash/zcash)**
 
-Got coding chops eye nèdi be yeaƒu tsi ayi goglo wu le mɔ̃ɖaŋununya ƒe akpa si le Zcash mea? Zcash Github Repo nye nudzraɖoƒe na zcashd, Zcash node ƒe dɔwɔwɔ gbãtɔ. zcashd ɖo eƒe kpekpeɖeŋunana ƒe nuwuwu le eɖokui si le July 18, 2026 dzi eye womegakpɔa edzi o, eye womegawɔa kɔpi ƒe axa si dzi nya sia zã tsɔ doa ka kplii o. Stack si wodzra ɖo lae nye [Zebra](https://github.com/ZcashFoundation/zebra) na node la kple [Zallet ƒe ŋkɔ](https://github.com/zcash/zallet) na gakotokua — kpɔ [zcashd na Zebra kple Zallet ʋuʋu ƒe mɔfiame](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
+Got coding chops eye nèdi be yeaƒu tsi ayi goglo wu le mɔ̃ɖaŋununya ƒe akpa si le Zcash mea? Zcash Github Repo nye nudzraɖoƒe na zcashd, Zcash node ƒe dɔwɔwɔ gbãtɔ. zcashd ɖo eƒe kpekpeɖeŋunana ƒe nuwuwu le eɖokui si le July 18, 2026 dzi eye womegakpɔa edzi o, eye womegawɔa kɔpi ƒe axa si dzi nya sia zã tsɔ doa ka kplii o. Stack si wodzra ɖo lae nye [Zebra](https://github.com/ZcashFoundation/zebra) na node la kple [Zallet](https://github.com/zcash/zallet) na gakotokua — kpɔ [zcashd na Zebra kple Zallet ʋuʋu ƒe mɔfiame](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 **[Zcash Foundation Github](https://github.com/ZcashFoundation)**
 

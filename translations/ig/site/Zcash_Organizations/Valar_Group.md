@@ -106,7 +106,7 @@ Ndị na-ahụ maka ọha na eze na ndị nyocha ụlọ ọrụ gụnyere:
 - [Ntọala ihe nkesa PIR](https://setup-pir.valargroup.org)
 - [Ihe odide Ntuli Aka Ekpuchi](https://valargroup.gitbook.io/shielded-vote-docs)
 
-### Zakura (n'asụsụ Igbo)
+### Zakura
 
 Zakura bụ Zcash zuru ọnụ mepụtara dị ka mmekorita n'etiti Valar Group na Project Tachyon. Ọ sitere na Zebra ma gbakwunye ngwa sync, mkpụbelata ala, snapshot bootstrapping, `zcashd` ụzọ nkwekọ, na ọrụ P2P dị elu.
 
@@ -183,7 +183,7 @@ The same team’s node and sync work is intended to support the other half of th
 - [Nhazi usoro ịtụ vootu](https://setup.valargroup.org)
 - [Onye nyocha ihe ndekọ ego](https://tally.valargroup.org)
 - [Onye nhazi UI](https://svote.valargroup.org/)
-- [Zakura (n'asụsụ Igbo)](https://zakura.com/)
+- [Zakura](https://zakura.com/)
 - [Zakura banyere / otu egwuregwu](https://zakura.com/about/)
 - [NU7 onye nwe ego na-eme ntuliaka forum thread](https://forum.zcashcommunity.com/t/nu7-token-holder-vote/56912)
 - [Onye na-ejide mkpụrụ ego Voting Chain forum thread](https://forum.zcashcommunity.com/t/the-coinholder-voting-chain/56925)

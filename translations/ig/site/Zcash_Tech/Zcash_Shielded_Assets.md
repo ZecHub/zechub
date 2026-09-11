@@ -26,7 +26,7 @@ Zcash Shielded Assets (ZSA) bụ nkwalite a na-atụ aro maka usoro iwu Zcash nk
 
 Ọ bụrụ na ị maara nke ọma [ERC-20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) akara ngosi na Ethereum blockchain, ZSAs bụ maka Zcash dị ka ERC-20 tokens bụ maka Ethereum.
 
-Zcash Shielded Assets ga-eme ka e nwee ike ịmepụta akara ngosi omenala na blockchain nke Zcash, si otú ahụ kwe ka ndị ọzọ karịa [ZEC] tokens.](/guides/using-zec-privately) iji rite uru site na amaghị aha na nzuzo nke azụmahịa echekwara na Zcash blockchain.
+Zcash Shielded Assets ga-eme ka e nwee ike ịmepụta akara ngosi omenala na blockchain nke Zcash, si otú ahụ kwe ka ndị ọzọ karịa [ZEC](/guides/using-zec-privately) iji rite uru site na amaghị aha na nzuzo nke azụmahịa echekwara na Zcash blockchain.
 
 Otu ihe dị mkpa nke ZSA ga-abụ inyefe stablecoins na protocol Zcash. Stablecoin bụ cryptocurrencies ndị jikọtara ọnụ ahịa ha na ego fiat, dịka US Dollar ma ọ bụ Euro. Ugbu a, ụfọdụ n'ime ụdị nkwụsịtụ kachasị agbasa ozi ọma bụ ERC-20 tokens dị ka [USDC] (USD)](https://www.circle.com/en/usdc) na [Dai](https://docs.makerdao.com/).
 
@@ -97,7 +97,7 @@ ZIP 226 defines the OrchardZSA protocol — an extension of the Orchard protocol
 
 The ZSA aro maka echebe Àgwà (ZSA / UDA) e gosiri site [QEDIT] na-ekwu okwu nke a bụ: "The proposal for shielded assets" ("the proposed zsa/uda") was presented by the [Qedit].](https://qed-it.com/) otu iji wuo akụ na-echebe ihe niile n'elu Zcash blockchain. A na -akpọkarị ndị a dị ka Akụrụngwa akọwapụtara onye ọrụ (UDA) ma ọ bụ dịka Ihe onwunwe echedoro nke Zcash (ZSA).
 
-Site na atụmatụ a, ndị otu nọ [QEDIT] ga-enye aka mee ka usoro ihe omume ahụ dị mfe.](https://qed-it.com/) plans to bring DeFi to the Zcash ecosystem and, at the same time, enable the use of the best privacy technology within the existing DeFi ecosystem. In a poll survey, the team asked, and the community answered that [generic shielded assets (ZSA/UDA) are the most requested feature at the moment](https://twitter.com/BenarrochDaniel/status/1428327864034791429).
+Site na atụmatụ a, ndị otu nọ [QEDIT](https://qed-it.com/) plans to bring DeFi to the Zcash ecosystem and, at the same time, enable the use of the best privacy technology within the existing DeFi ecosystem. In a poll survey, the team asked, and the community answered that [generic shielded assets (ZSA/UDA) are the most requested feature at the moment](https://twitter.com/BenarrochDaniel/status/1428327864034791429).
 
 Ndị a na-atụ aro bụ n'ụzọ nkà kwekọrọ [Zcash Improvement Proposal (ZIP) ](https://zips.z.cash/zip-0000) nkọwapụta ma kọwaa ya na ZIP 226 & ZIP227.
 

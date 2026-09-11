@@ -96,4 +96,4 @@ N'ihi na Blossom belatara ụgwọ ọrụ a kwụrụ maka otu ngọngọ ma me
 
 ---
 
-Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Osisi osisi Sapling](../zcash-tech/sapling) · Nke ọzọ: [Osisi nkwụ](../zcash-tech/heartwood)
+Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Sapling](../zcash-tech/sapling) · Nke ọzọ: [Osisi nkwụ](../zcash-tech/heartwood)

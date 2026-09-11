@@ -52,7 +52,7 @@ Eyi jẹ ki o gba owo **laisi fi aworan iṣowo rẹ han**.
 
 - Iwe apamọwọ Zcash ti o ṣe atilẹyin awọn adirẹsi ipamọ:
   - Zodl (ì í ì)
-  - Zingo! Ìwọ náà rí i.
+  - Zingo!
   - Àwọn àpò owó mìíràn tí a gbà níyànjú
 
 <br/>

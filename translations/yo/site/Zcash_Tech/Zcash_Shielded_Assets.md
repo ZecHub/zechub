@@ -26,7 +26,7 @@ Awọn ohun-ini Zcash Shielded (ZSA) jẹ ilọsiwaju ti a dabaa si ilana Zcash 
 
 Tó o bá mọ̀ nípa [ERC-20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) Àmì ìdìpọ̀ lórí ẹ̀ka Ethereum, ZSAs jẹ́ fún Zcash bí ERC-20 ṣe wà fún Ethereum.
 
-Awọn ohun-ini Zcash Shielded yoo jẹ ki ẹda ti awọn ami aṣa lori blockchain Zcash, nitorinaa gbigba awọn aami miiran ju [ZEC] lọ.](/guides/using-zec-privately) láti jàǹfààní nínú àìdánimọ̀ àti ìpamọ́ àwọn ìṣòwò tí a fi ààbò bo lórí ẹ̀rọ-ìpínlẹ̀ Zcash.
+Awọn ohun-ini Zcash Shielded yoo jẹ ki ẹda ti awọn ami aṣa lori blockchain Zcash, nitorinaa gbigba awọn aami miiran ju [ZEC](/guides/using-zec-privately) láti jàǹfààní nínú àìdánimọ̀ àti ìpamọ́ àwọn ìṣòwò tí a fi ààbò bo lórí ẹ̀rọ-ìpínlẹ̀ Zcash.
 
 A major potential use of ZSAs would be to issue stablecoins on the Zcash protocol. Stablecoins are cryptocurrencies that peg their value to a fiat currency, such as the US Dollar or Euro. Currently, some of the most widely circulated stablecoins are ERC-20 tokens such as [USDC](https://www.circle.com/en/usdc) àti [Dai](https://docs.makerdao.com/).
 
@@ -95,9 +95,9 @@ ZIP 226 defines the OrchardZSA protocol — an extension of the Orchard protocol
 
 ### Àbá fún Ìrànwọ́ ZSA
 
-Atilẹba ZSA fun Awọn ohun-ini ti a fi oju pa (ZSA/UDA) ni [QEDIT] gbekalẹ.](https://qed-it.com/) ẹgbẹ lati kọ awọn ohun-ini aabo jeneriki lori blockchain Zcash. Awọn wọnyi ni a maa n tọka si bi Ohun-ini Ti A Ṣe Itumọ Olumulo (UDA) tabi gẹgẹbi Awọn Owo Idaabobo Zcash (ZSA).
+Atilẹba ZSA fun Awọn ohun-ini ti a fi oju pa (ZSA/UDA) ni [QEDIT](https://qed-it.com/) ẹgbẹ lati kọ awọn ohun-ini aabo jeneriki lori blockchain Zcash. Awọn wọnyi ni a maa n tọka si bi Ohun-ini Ti A Ṣe Itumọ Olumulo (UDA) tabi gẹgẹbi Awọn Owo Idaabobo Zcash (ZSA).
 
-Pẹlu yi imọran, awọn egbe ni [QEDIT] ti a npe ni "Awọn alagbata" lati ṣe awari rẹ.](https://qed-it.com/) awọn ero lati mu DeFi si ilolupo eda abemi Zcash ati, ni akoko kanna, jẹ ki lilo ti imọ-ẹrọ aṣiri to dara julọ laarin eto iseda ayika DeFi tẹlẹ. ninu iwadii iwariwo kan, ẹgbẹ naa beere, ati pe agbegbe dahun pe [awọn ohun elo aabo apapọ (ZSA / UDA) ni ẹya ti o nilo pupọ julọ lọwọlọwọ](https://twitter.com/BenarrochDaniel/status/1428327864034791429).
+Pẹlu yi imọran, awọn egbe ni [QEDIT](https://qed-it.com/) awọn ero lati mu DeFi si ilolupo eda abemi Zcash ati, ni akoko kanna, jẹ ki lilo ti imọ-ẹrọ aṣiri to dara julọ laarin eto iseda ayika DeFi tẹlẹ. ninu iwadii iwariwo kan, ẹgbẹ naa beere, ati pe agbegbe dahun pe [awọn ohun elo aabo apapọ (ZSA / UDA) ni ẹya ti o nilo pupọ julọ lọwọlọwọ](https://twitter.com/BenarrochDaniel/status/1428327864034791429).
 
 Àwọn àbá wọ̀nyí bá Àpinnu Ìmúṣe [Zcash Improvement Proposal (ZIP) ] mu ní ti ìmọ̀ ẹ̀rọ.](https://zips.z.cash/zip-0000) Àkọsílẹ̀ àti a ṣe àlàyé wọn nínú ZIP 226 & ZIP227.
 

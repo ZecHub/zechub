@@ -98,5 +98,5 @@ ZODL n ṣe ipa meji ninu ilolupo eda abemi Zcash:
 
 - [Electric Coin Company](Electric_Coin_Company.md)
 - [Zcash Foundation](Zcash_Foundation.md)
-- [Àwọn Ilé Iṣẹ́ Zingo](Zingo_Labs.md)
+- [Zingo Labs](Zingo_Labs.md)
 - [Àwọn Ilé Iṣẹ́ Ààbò](Shielded_Labs.md)

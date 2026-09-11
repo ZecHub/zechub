@@ -150,7 +150,7 @@ A **faucet** jẹ iṣẹ ti o funni ni awọn owó TAZ ọfẹ fun idanwo:
 - Atilẹyin fun awọn gbolohun ọrọ irugbin, awọn bọtini wiwo, awọn adirẹsi ti o ni imọlẹ ati ti a bo 
 - O le sopọ si Mainnet, Testnet, tabi Regtest nipasẹ awọn akopọ kikun tabi awọn olupin lightwallet
 
-### Zingo! Èmi náà ni!
+### Zingo!
 
 - Wọ́ọ̀lì alágbèéká tó dá lórí ìpamọ́ra àti ìmúrasílẹ̀ 
 - Atilẹyin fun awọn adirẹsi ti o ni aabo ati ti iṣọkan 

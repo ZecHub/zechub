@@ -8,7 +8,7 @@
 
 Ihe ị ga-ewepụ: otu Heartwood si eme ka ndị na-egwu akụ nweta ụgwọ ọrụ ha ozugbo n'ime adreesị echedoro, yana etu o siri mee ka ihe akaebe nke Zcash rụọ ọrụ site na ndị ahịa dị mfe.
 
-Heartwood bụ Zcash. [nkwalite netwọkụ.](../start-here/network-upgrades), a nkwekọrịta-iwu ike ndụdụ onye deployment na-kọwaa n'ime [ZIP 250 Ụlọ ọrụ](https://zips.z.cash/zip-0250)Ọ na-agbakọta mgbanwe abụọ: [ZIP 213 (mkpọka)](https://zips.z.cash/zip-0213) (Shielded Coinbase) na [ZIP 221 (mkpọka)](https://zips.z.cash/zip-0221) (FlyClient). Heartwood bụ nke anọ Zcash isi netwọk nweta nkwalite, na ọ e jikotara aka wee kwadoo site n'aka ndị ọrụ. [Ụlọ ọrụ Electric Coin Company](../zcash-organizations/electric-coin-company) na ndị ọzọ. [Ụlọ ọrụ Zcash Foundation](../zcash-organizations/zcash-foundation)Dị ka mmelite Zcash ọ bụla, o setịpụrụ ngalaba nkwekọrịta ọhụrụ nke otu ụdị ahụ, mkpado na-enye nchebe abụọ maka ịmegharị ihe n'ụzọ dị otú a enweghị ike ịme azụmahịa e wuru n'okpuru iwu ndị ọhụrụ na agbụ ochie.
+Heartwood bụ Zcash. [nkwalite netwọkụ.](../start-here/network-upgrades), a nkwekọrịta-iwu ike ndụdụ onye deployment na-kọwaa n'ime [ZIP 250 Ụlọ ọrụ](https://zips.z.cash/zip-0250)Ọ na-agbakọta mgbanwe abụọ: [ZIP 213 (mkpọka)](https://zips.z.cash/zip-0213) (Shielded Coinbase) na [ZIP 221 (mkpọka)](https://zips.z.cash/zip-0221) (FlyClient). Heartwood bụ nke anọ Zcash isi netwọk nweta nkwalite, na ọ e jikotara aka wee kwadoo site n'aka ndị ọrụ. [Electric Coin Company](../zcash-organizations/electric-coin-company) na ndị ọzọ. [Zcash Foundation](../zcash-organizations/zcash-foundation)Dị ka mmelite Zcash ọ bụla, o setịpụrụ ngalaba nkwekọrịta ọhụrụ nke otu ụdị ahụ, mkpado na-enye nchebe abụọ maka ịmegharị ihe n'ụzọ dị otú a enweghị ike ịme azụmahịa e wuru n'okpuru iwu ndị ọhụrụ na agbụ ochie.
 
 Heartwood na-arụ ọrụ n'ebe e debere ya (903,000), ọ bụghị mgbe a kara aka, nke mere ka nkeji ị hụrụ kpọmkwem ná bọọdụ ụgbọala nwere ike ịdịtụ iche site n'otu ebe gaa n'ọzọ. Ebe ahụ dị otú o kwesịrị ịbụ.
 
@@ -90,9 +90,9 @@ Mgbasa ozi Coinbase ga-abụ ihe na-enweghị ntụpọ, yabụ ụgwọ ọrụ
 
 [zk-SNARKS](../zcash-tech/zk-snarks)
 
-[Ụlọ ọrụ Electric Coin Company](../zcash-organizations/electric-coin-company)
+[Electric Coin Company](../zcash-organizations/electric-coin-company)
 
-[Ụlọ ọrụ Zcash Foundation](../zcash-organizations/zcash-foundation)
+[Zcash Foundation](../zcash-organizations/zcash-foundation)
 
 ---
 

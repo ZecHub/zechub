@@ -77,7 +77,7 @@ Tachyon ni ** pendekezo, si kipengele cha kusafirishwa**. Ilichapishwa Aprili 20
 
 Muandishi mwenyewe framing ni kwamba hii ni mpango actionable badala ya utafiti uvumi, lakini moja ambayo inahitaji uhandisi juhudi kulinganishwa na Sapling, pamoja na baadhi maswali magumu makusudi kushoto kwa ajili baadaye.
 
-Kazi inayohusiana na hiyo tayari inaonekana. [Zakura (mnyama)](https://zechub.wiki/zcash-tech/zakura-node), node kamili iliyotolewa mnamo Julai 2026, ni juhudi ya pamoja kati ya Mradi Tachyon na Kikundi cha Valar na inaonyesha baadhi ya mabadiliko haya katika kiwango cha mtandao. [Kufufua habari binafsi](https://zechub.wiki/zcash-tech/private-information-retrieval) utafiti inalenga sawa scanning bottleneck kutoka angle tofauti.
+Kazi inayohusiana na hiyo tayari inaonekana. [Zakura](https://zechub.wiki/zcash-tech/zakura-node), node kamili iliyotolewa mnamo Julai 2026, ni juhudi ya pamoja kati ya Mradi Tachyon na Kikundi cha Valar na inaonyesha baadhi ya mabadiliko haya katika kiwango cha mtandao. [Kufufua habari binafsi](https://zechub.wiki/zcash-tech/private-information-retrieval) utafiti inalenga sawa scanning bottleneck kutoka angle tofauti.
 
 <br/>
 

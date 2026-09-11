@@ -14,7 +14,7 @@ Processor. Custody. Shielded ZEC. Self-host. Merchant ada. Mikoa / KYC. kuthibit
 |:--|:--|:--|:--|:--|:--|:--|
 | [CipherPay](https://www.cipherpay.app) ☐ Hakuna ulinzi. ❑ Ndiyo, Orchard kupitia Unified Addresses. ▸ Ndio, chanzo wazi 1% kwa malipo, bure ikiwa mwenyeji binafsi. ❖ Hapana KYC, mikoa haijaonyeshwa 2026-07-29
 | [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)  Hakuna uhifadhi, angalia tu ufunguo. Ndiyo, kulindwa (Sapling, Orchard, UA) Tu. Ndio, chanzo wazi. Hapana, unalipa ada ya mtandao tu. Global, hakuna KYC 2026-07-29
-| [ZGo (Kipindi cha Kiangazi)](https://zgo.cash/) ☐ Hakuna dhamana ya kifungo cha muda. ❑ Ndiyo, Sapling na Orchard. ▸ Hapana, huduma iliyohifadhiwa. ❖ Kipindi kilicholipwa mapema, bei haijachapishwa.  KYC haikutolewa, mikoa haikutajwa. 2026-07-29
+| [ZGo](https://zgo.cash/) ☐ Hakuna dhamana ya kifungo cha muda. ❑ Ndiyo, Sapling na Orchard. ▸ Hapana, huduma iliyohifadhiwa. ❖ Kipindi kilicholipwa mapema, bei haijachapishwa.  KYC haikutolewa, mikoa haikutajwa. 2026-07-29
 | [Flexa](https://flexa.co/) 客户自保,商家以法币结算.客户花费保护,收款方未经记录.没有1% per payment.美国和37SEPA国家,欧盟ZEC未确认2026-07-29
 | [Sasa Malipo ya malipo](https://nowpayments.io/supported-coins/zcash-payments) Hakuna utunzaji kwa default. Hapana, anwani ya uwazi tu. Sio 0.5%, au 1% na ubadilishaji wa kimataifa isipokuwa ambapo marufuku, hakuna KYC kuanza 2026-07-29
 | [Plisio](https://plisio.net/accept-zcash)  Weka, licha ya uuzaji. Si kumbukumbu No 0.5% API 1.5% nyeupe lebo Hakuna KYC kupokea 2026-07-29
@@ -95,7 +95,7 @@ Hakuna ada kwa programu yenyewe. Unalipa Zcash mtandao na gharama yoyote ya mwen
 ## [ZGo](https://zgo.cash/) <img src="/content-images/zgo-prp2-497679039b.webp" alt="ZGo logo" class="processor-logo" />
 - ** Aina ya msaada**: Shielded (Sapling na Orchard)
 - **Maelezo**: ZGo ni malipo ya elektroniki jukwaa kwamba huenda moja kwa moja kutoka mteja wako na wewe, bila vyama vya tatu kushiriki.
-- ** URL**: [ZGo (Kipindi cha Kiangazi)](https://zgo.cash/)
+- ** URL**: [ZGo](https://zgo.cash/)
 <img src="/content-images/zgo-prp2-497679039b.webp" alt="ZGo logo" width="200" hidden />
 
 A hadi kukimbia katika browser, hivyo mbali ya kompyuta ndogo, kibao au simu inakuwa checkout. Pia kuna WooCommerce Plugin na REST API. Ilikuwa kujengwa kwa Vergara Technologies na unafadhiliwa Zcash Community Grants, ikiwa ni pamoja na hoja kutoka zcashd Zebra.

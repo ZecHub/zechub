@@ -8,7 +8,7 @@
 
 Ihe ị ga-ewepụ: otu Zcash si mụta ịgbanwe iwu nke ya n'enweghị nsogbu, na ihe kpatara ntọala ahụ ji mee ka mmelite ọ bụla mechara, malite na Sapling, nwee ike.
 
-Oge oyi bụ Zcash. [nkwalite netwọkụ.](../start-here/network-upgrades), nke mbụ mgbe netwọkụ ahụ bidoro. A kọwapụtara ya n'ọtụtụ Zcash Improvement Proposals: [ZIP 200 Ụlọ ọrụ](https://zips.z.cash/zip-0200), [ZIP 201 (mkpụrụ ego)](https://zips.z.cash/zip-0201), [ZIP 202 (mkpọchi)](https://zips.z.cash/zip-0202), [ZIP 203 Ụlọ ọrụ](https://zips.z.cash/zip-0203), na [ZIP 143  Ihe e dere n'ala ala peeji](https://zips.z.cash/zip-0143)Overwinter agbakwunyeghị ihe ọ bụla ọhụrụ echekwara. Kama nke ahụ, o mere ka usoro iwu ahụ sie ike ka e wee nwee ike ịnyefe nkwalite n'ọdịnihu na nchekwa. Nkwalite a bụ akwụkwọ site na ndị ọrụ nchịkwa . [Ụlọ ọrụ Electric Coin Company](../zcash-organizations/electric-coin-company) na peeji nke mmelite Zcash.
+Oge oyi bụ Zcash. [nkwalite netwọkụ.](../start-here/network-upgrades), nke mbụ mgbe netwọkụ ahụ bidoro. A kọwapụtara ya n'ọtụtụ Zcash Improvement Proposals: [ZIP 200 Ụlọ ọrụ](https://zips.z.cash/zip-0200), [ZIP 201 (mkpụrụ ego)](https://zips.z.cash/zip-0201), [ZIP 202 (mkpọchi)](https://zips.z.cash/zip-0202), [ZIP 203 Ụlọ ọrụ](https://zips.z.cash/zip-0203), na [ZIP 143  Ihe e dere n'ala ala peeji](https://zips.z.cash/zip-0143)Overwinter agbakwunyeghị ihe ọ bụla ọhụrụ echekwara. Kama nke ahụ, o mere ka usoro iwu ahụ sie ike ka e wee nwee ike ịnyefe nkwalite n'ọdịnihu na nchekwa. Nkwalite a bụ akwụkwọ site na ndị ọrụ nchịkwa . [Electric Coin Company](../zcash-organizations/electric-coin-company) na peeji nke mmelite Zcash.
 
 Why this matters. Changing the rules of a live blockchain is dangerous. Get it wrong and two versions of the network can disagree, or a transaction meant for one chain can be copied onto another. Before Overwinter, Zcash had no standard, replay-safe way to coordinate a rule change. Overwinter fixed that. It gave Zcash a formal process for upgrades and, just as important, two-way replay protection, so a transaction that is valid under one set of rules cannot be replayed under another. That groundwork is what made Sapling, and every upgrade after it, possible to activate cleanly.
 
@@ -99,10 +99,10 @@ Because it built the machinery that every later upgrade depends on. Overwinter i
 
 [NU6.1](../zcash-tech/nu6-1)
 
-[Ụlọ ọrụ Electric Coin Company](../zcash-organizations/electric-coin-company)
+[Electric Coin Company](../zcash-organizations/electric-coin-company)
 
 [Gịnị bụ ZEC na Zcash?](../start-here/what-is-zec-and-zcash)
 
 ---
 
-Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Mkpụrụ osisi na-eto eto](../zcash-tech/sprout) · Nke ọzọ: [Osisi osisi Sapling](../zcash-tech/sapling)
+Usoro: [Nhazi nke netwọkụ na-emelite.](../start-here/network-upgrades) · Nke gara aga: [Mkpụrụ osisi na-eto eto](../zcash-tech/sprout) · Nke ọzọ: [Sapling](../zcash-tech/sapling)

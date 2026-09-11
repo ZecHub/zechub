@@ -6,14 +6,14 @@
 
 ## Nsɛm a Wɔahyehyɛ
 
-1. [Zcash.me na ɛwɔ hɔ](#zcashme)
+1. [Zcash.me](#zcashme)
 2. [TipZ a ɛyɛ fɛ](#tipz)
 3. [Nea Enti a Kokoam Nsɛm Ho Hia Ma Adebɔfo](#why-privacy-matters-for-creators)
 4. [Nneɛma Afoforo a Wɔde Yɛ Adwuma](#additional-resources)
 
 ---
 
-## Zcash.me na ɛwɔ hɔ
+## Zcash.me
 
 ![Zcash.me Logo](/content-images/_unavailable.svg)
 

@@ -144,7 +144,7 @@ Susuw TAZ ho sɛ **"agoru sika" ma Zcash Testnet**.
 
 ## Zkool ne Zingo! Sika kotoku
 
-### Zkool na ɔkyerɛwee
+### Zkool
 
 - Multi-account wallet ma Zcash dwumadiefoɔ a wɔakɔ anim 
 - Ɛboa aba kasasin, hwɛ safe, address a ɛda adi na wɔabɔ ho ban 

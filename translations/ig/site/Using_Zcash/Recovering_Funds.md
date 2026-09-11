@@ -20,7 +20,7 @@ By maintaining control over your private keys, the recovery process is always po
 
 ## Nchịkọta ego na Zkool
 
-[Zkool] Ọ bụ ihe na-atọ ụtọ.](https://github.com/hhanh00/zkool2/releases) bụ onye nọchiri Ywallet, site n'otu mmepe ahụ ma na-akwado mgbake nke ọma.
+[Zkool](https://github.com/hhanh00/zkool2/releases) bụ onye nọchiri Ywallet, site n'otu mmepe ahụ ma na-akwado mgbake nke ọma.
 
 E nwere ọnọdụ abụọ a na-ekwu okwu ha ebe a:
 

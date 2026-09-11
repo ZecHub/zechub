@@ -124,7 +124,7 @@ Ego niile na-aga ** ozugbo** n'akpa onye ahịa ahụ. Ejiri nchekwa site na iji
 ### Otú O Si Arụ Ọrụ
 
 - ** A na-emepụta obere akpa ahụ tupu oge eruo.** 
-  Onye ahịa ahụ na-eji obere akpa Zcash nke kwadoro igodo nlele - dịka [Zkool (ụlọ akwụkwọ)](https://github.com/hhanh00/zkool2/) or [Zingo! Wallet](https://zingolabs.org/).  
+  Onye ahịa ahụ na-eji obere akpa Zcash nke kwadoro igodo nlele - dịka [Zkool](https://github.com/hhanh00/zkool2/) or [Zingo! Wallet](https://zingolabs.org/).  
   E nwere ndepụta zuru ezu na: [ZecHub.wiki](https://zechub.wiki/wallets).
 
 - ** BTCPay Server jikọọ site na igodo nlele.** 

@@ -141,7 +141,7 @@ Zingo 2.0 na Pepper Sync abụghị naanị nkwalite; ọ bụ ihe dị elu maka
 
 - [Zcash Wallet Syncing] (Nke a bụ ihe dị mkpa)](/zcash-tech/zcash-wallet-syncing)  etu akpa ego si arụ ọrụ n'ime usoro okike Zcash.
 - [Nọmba Lightwallet Nodes](/zcash-tech/lightwallet-nodes)  ihe owuwu a na-eji obere akpa ego dị ka Zingo eme.
-- [Zaino] Ọ bụ onye na-eme ihe nkiri.](/zcash-tech/zaino)  indexer mepụtara site na Zingo otu.
+- [Zaino](/zcash-tech/zaino)  indexer mepụtara site na Zingo otu.
 - [Ebe ego ndị dị na ya](/wallets)  akwụkwọ ndekọ aha zuru ezu nke obere akpa Zcash na atụmatụ ha.
 
 ## Ịmụtakwu Ihe

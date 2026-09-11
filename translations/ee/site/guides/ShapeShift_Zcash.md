@@ -37,7 +37,7 @@ Le ƒe 2021 me la, tɔtrɔ gã aɖe va le ShapeShift me. Dɔwɔƒea ɖe eƒe dɔ
 
 ## Alesi Zcash Wɔa Dɔe
 
-[Zcash ƒe ŋkɔ](https://z.cash/) (ZEC) nye cryptocurrency si wotu ɖe cryptographic gɔmeɖoanyi sesẽ siwo naa ŋutete ezãlawo be woawɔ asitsadɔ le wo ɖokui si. Wodze egɔme le ƒe 2016 me, Zcash nye Bitcoin ƒe fɔkpa si tsɔa ameŋunyatakakawo ŋuti mɔ̃ɖaŋununya deŋgɔ kpena ɖe eŋu esime wòlé Bitcoin ƒe gaku miliɔn 21 ƒe ɖoɖo si woɖo ɖi kple dɔwɔwɔ ƒe kpeɖodzi ƒe nukpɔsusu ɖeka me ɖe asi.
+[Zcash](https://z.cash/) (ZEC) nye cryptocurrency si wotu ɖe cryptographic gɔmeɖoanyi sesẽ siwo naa ŋutete ezãlawo be woawɔ asitsadɔ le wo ɖokui si. Wodze egɔme le ƒe 2016 me, Zcash nye Bitcoin ƒe fɔkpa si tsɔa ameŋunyatakakawo ŋuti mɔ̃ɖaŋununya deŋgɔ kpena ɖe eŋu esime wòlé Bitcoin ƒe gaku miliɔn 21 ƒe ɖoɖo si woɖo ɖi kple dɔwɔwɔ ƒe kpeɖodzi ƒe nukpɔsusu ɖeka me ɖe asi.
 
 ### Asitsatsa Siwo Wokpɔ Ta Kpekpeɖeŋunana Kple Sidzedze Zero-Kpeɖodziwo
 

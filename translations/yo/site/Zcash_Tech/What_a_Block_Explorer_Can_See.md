@@ -72,7 +72,7 @@ Awon ti won n wa awon eniyan ko le ka:
 - [Àwọn ohun tí ó ṣe pàtàkì nípa Zcash](/start-here/what-is-zec-and-zcash)
 - [Àwọn àpamọ́ owó](/using-zcash/wallets)
 - [Àwọn adágún tí wọ́n fi ààbò ṣe](/using-zcash/shielded-pools)
-- [ZK-SNARKs (ì í ì ë°©í °)](/zcash-tech/zk-snarks)
+- [ZK-SNARKs](/zcash-tech/zk-snarks)
 
 ---
 

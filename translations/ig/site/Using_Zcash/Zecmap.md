@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZecMap (n'asụsụ Bekee)
+# ZecMap
 
 ZecMap bụ akwụkwọ ndekọ aha zuru ụwa ọnụ, nke obodo na-eme maka ịchọpụta azụmahịa na ọrụ ndị nabatara Zcash (ZEC). E wuru gburugburu interface map mmekọrịta, ọ na - enyere ndị nwere ZEC aka ịza ajụjụ bara uru: ** "Ebee ka m ga - eji zụọ ego ZEC?"**
 
@@ -145,7 +145,7 @@ Mmezi ndị a na-eme atụmatụ gụnyere:
 
 ## Akụnụba
 
-- [ZecMap (n'asụsụ Bekee)](https://zecmap.com/)
+- [ZecMap](https://zecmap.com/)
 - [ZecMap na X/Twitter](https://x.com/ZecMap)
 - [Nkwupụta mmekọrịta nke ZecMap × CipherPay](https://x.com/ZecMap/status/2059622324958093616)
 - [ZecMap Flexa na-ere ahịa gụnyere ọkwa.](https://x.com/ZecMap/status/2060453501063594002)

@@ -15,7 +15,7 @@ Zcashd, nke na-agba ọsọ netwọkụ maka ọtụtụ akụkọ ihe mere eme 
 |:--|:--|:--|
  Full node: Zebra ma ọ bụ Zakura. [Akwụkwọ Zebra ahụ](https://zebra.zfnd.org/), [zakura.com (n'asụsụ Igbo)](https://zakura.com/) |
  Full node wallet. Zallet, na beta. [Akwụkwọ Zallet ahụ .](https://zcash.github.io/zallet/) |
-Ihe nkesa obere akpa ọkụ. Zaino ma ọ bụ lightwalletd. [Zaino (nwa nwanyị)](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
+Ihe nkesa obere akpa ọkụ. Zaino ma ọ bụ lightwalletd. [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
 | Wallet libraries | The librustzcash crates | [librustzcash](https://github.com/zcash/librustzcash) |
 Ngwaọrụ mkpanaka. Android na iOS SDKs. [Android](https://github.com/zcash/zcash-android-wallet-sdk), [iOS (n'asụsụ Bekee)](https://github.com/zcash/zcash-swift-wallet-sdk) |
 Nkọwapụta: Usoro nhazi usoro na ZIPs. [zip.z.cash (ego)](https://zips.z.cash) |
@@ -26,7 +26,7 @@ Otu ọnụ na-akwado nkwekọrịta ma jide agbụ. E nwere mmejuputa abụọ 
 
 [Zebra](/zcash-tech/zebra-full-node) bụ Zcash Foundation's node, nke e dere na Rust, ọ bụkwa ya ka ọtụtụ ndị nduzi ugbu a chere. [Akwụkwọ Zebra ahụ](https://zebra.zfnd.org/) na-ekpuchi wụnye ya ma rụọ ọrụ, nakwa ndị ọzọ. [ebe nchekwa data](https://github.com/ZcashFoundation/zebra) bụ ebe mmepe na-eme.
 
-[Zakura (n'asụsụ Igbo)](/zcash-tech/zakura-node) is a newer node, described by its authors as a "consensus-compatible Zcash full node, built for scale", with faster sync, block pruning and a zcashd compatibility mode. It is led by Sean Bowe, a Zcash cofounder, and Dev Ojha. It is open source under Apache 2.0 at [zakura-core/zakura (nke a na-akpọ 'Zakura' n'asụsụ Igbo)](https://github.com/zakura-core/zakura).
+[Zakura](/zcash-tech/zakura-node) is a newer node, described by its authors as a "consensus-compatible Zcash full node, built for scale", with faster sync, block pruning and a zcashd compatibility mode. It is led by Sean Bowe, a Zcash cofounder, and Dev Ojha. It is open source under Apache 2.0 at [zakura-core/zakura (nke a na-akpọ 'Zakura' n'asụsụ Igbo)](https://github.com/zakura-core/zakura).
 
 ZecHub nwere a [Nọmba zuru ezu](/zcash-tech/full-nodes) peeji nke na-ekpuchi ahia n'etiti ha.
 
@@ -42,7 +42,7 @@ Gụọ ịdọ aka ná ntị nche tupu ịdabere na ya. Zallet nọ na beta, "a
 
 Ọtụtụ obere akpa anaghị agba ọsọ. Ha na-agwa onye nkesa nke na-ejide agbụ ma nyeghachi ya echiche kọmpat banyere ya.
 
-[lightwalletd](https://github.com/zcash/lightwalletd) bụ ọrụ mbụ, nke e dere na Go, akọwapụtara dị ka "ọrụ azụ-azụ nke na-enye interface bandwidth arụmọrụ maka Zcash blockchain". [Zaino (nwa nwanyị)](/zcash-tech/zaino) bụ ihe ọhụrụ indexer, e dere na Rust, ma gụọ site na onye nyocha zuru ezu kama ibute akwụkwọ nke ya.
+[lightwalletd](https://github.com/zcash/lightwalletd) bụ ọrụ mbụ, nke e dere na Go, akọwapụtara dị ka "ọrụ azụ-azụ nke na-enye interface bandwidth arụmọrụ maka Zcash blockchain". [Zaino](/zcash-tech/zaino) bụ ihe ọhụrụ indexer, e dere na Rust, ma gụọ site na onye nyocha zuru ezu kama ibute akwụkwọ nke ya.
 
 Ihe ahụ bụ: [Usoro Nkwado Ndị Ahịa Dị Mfe](https://zcash.readthedocs.io/en/latest/lightwalletd/index.html) akwụkwọ na-ekpuchi protocol onwe ya. The [Lightwallet Nodes (Nọmba nke obere akpa ego)](/zcash-tech/lightwallet-nodes) peeji na-ekpuchi ihe ndị a sava nwere ike ma ghara ịhụ banyere onye ọrụ, nke bara uru ịghọta tupu ị họrọ otu.
 
@@ -70,7 +70,7 @@ Ihe ahụ bụ: [nkọwapụta protocol](https://zips.z.cash/protocol/protocol.p
 
 [ZIPs (nkwado ndị na-eme ihe)](https://zips.z.cash) na-egosi ihe ndị e mere atụmatụ ha ga-eme ma ọ bụ nke a kagburu. Mgbanwe dị iche iche a na-enwe n'otu oge ahụ, nakwa mgbanwe ndị ọzọ a chọrọ ime ná ngwụsị afọ gara aga, socha ebe niile ZecHub nọ mee nchọpụta maka ya. [Nwelite netwọkụ](/start-here/network-upgrades) peeji nke.
 
-Maka ihe nzuzo dị n'okpuru, gụọ [Akwụkwọ Halo2 Book](https://zcash.github.io/halo2/index.html) na nke a: [Akwụkwọ Bekee a na-akpọ The Orchard Book.](https://zcash.github.io/orchard/), na ndị a: [halo2 (ihe na-acha anụnụ anụnụ)](https://docs.rs/halo2_proofs/latest/halo2_proofs/) na nke a: [ubi mkpụrụ osisi](https://docs.rs/orchard/latest/orchard/) igbe dọkụmentị n'akụkụ. [The FROST Book](https://frost.zfnd.org/) na-ekpuchi ihe nkesa, ZecHub nwere a [FROST (nke a na-akpọ)](/zcash-tech/frost) peeji nke.
+Maka ihe nzuzo dị n'okpuru, gụọ [Akwụkwọ Halo2 Book](https://zcash.github.io/halo2/index.html) na nke a: [Akwụkwọ Bekee a na-akpọ The Orchard Book.](https://zcash.github.io/orchard/), na ndị a: [halo2 (ihe na-acha anụnụ anụnụ)](https://docs.rs/halo2_proofs/latest/halo2_proofs/) na nke a: [ubi mkpụrụ osisi](https://docs.rs/orchard/latest/orchard/) igbe dọkụmentị n'akụkụ. [The FROST Book](https://frost.zfnd.org/) na-ekpuchi ihe nkesa, ZecHub nwere a [FROST](/zcash-tech/frost) peeji nke.
 
 ## Nnyocha nyocha
 

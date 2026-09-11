@@ -89,7 +89,7 @@ Malipo gateway kwamba lets watumiaji kutumia shielded ZEC juu ya kununua halisi 
 Open-chanzo faragha mkoba kwa Zcash na Penumbra. Browser ugani pamoja na upande wa wateja kuthibitisha, alithibitisha mwanga-mteja usanifu, baridi kusaini, FROST multisig, na hakuna kuona ufunguo kuondoka kifaa. 
 [Kutembelea](https://chromewebstore.google.com/detail/zafu-wallet-beta/bhlogefpcebekhjpomlodifcelldoimn)
 
-### ZGo (Kipindi cha Kiangazi)
+### ZGo
 Zcash Register ambayo inawezesha wauzaji na wafanyabiashara kukubali malipo ya Zcash. 
 [Kutembelea](https://zgo.cash)
 
@@ -113,7 +113,7 @@ faragha-umakini Zcash mkoba iliyoundwa kwa ajili ya shughuli rahisi na binafsi Z
 Lengo makao akiba mkoba kujengwa juu ya Zcash ulinzi shughuli. 
 [Mkutano wa Majadiliano](https://forum.zcashcommunity.com/t/zecvault-a-goal-based-savings-wallet-built-on-zcash-shielded-transactions/55464)
 
-### Shule ya Zkool
+### Zkool
 Mrithi wa Ywallet kusaidia karibuni Zcash itifaki makala ikiwa ni pamoja na Orchard. 
 [Mkutano wa Majadiliano](https://forum.zcashcommunity.com/t/zkool-the-successor-to-ywallet/51139)
 

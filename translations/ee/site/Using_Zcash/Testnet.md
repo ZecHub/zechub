@@ -144,7 +144,7 @@ Bu TAZ be enye **"fefe ga" na Zcash Testnet**.
 
 ## Zkool kple Zingo! Gakotokuwo
 
-### Zkool ƒe ŋkɔ
+### Zkool
 
 - Gakotoku si me akɔntabubu geɖe le na Zcash zãla deŋgɔwo 
 - Doa alɔ nuku ƒe nyagbewo, nukpɔkpɔ ƒe safuiwo, adrɛs siwo me kɔ eye wokpɔ ta na 

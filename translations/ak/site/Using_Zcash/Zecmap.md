@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZecMap na ɛwɔ hɔ
+# ZecMap
 
 ZecMap yɛ wiase nyinaa, mpɔtam hɔfoɔ a wɔde wɔn ho hyɛ mu a wɔde hwehwɛ nnwuma ne nnwuma a wɔgye Zcash (ZEC) tom. Wɔakyekye atwa nkitahodi map interface ho ahyia, ɛboa ZEC kurafo ma wobua asɛmmisa bi a mfaso wɔ so: **"Ɛhe na metumi de me ZEC adi dwuma?"**
 
@@ -16,7 +16,7 @@ Wɛbsaet: [zecmap.com so na ɛwɔ hɔ](https://zecmap.com/)
 - Hwehwɛ **interactive map** no mu na hwehwɛ aguadifo a wɔpɛ ZEC a wɔbɛn wo anaa wiase baabiara.
 - **Obiara betumi de adwuma bi akɔma**; listings fa mpɔtam hɔ nhwehwɛmu mu ansa na wɔapue wɔ baguam.
 - **Contributor Rewards Program** bi kanyan ma wɔde aguadifoɔ data bɛka ho na wɔadi ho adanseɛ.
-- ZecMap ne no yɛɛ adwuma nnansa yi ara [CipherPay a wɔde tua ho ka](https://x.com/ZecMap/status/2059622324958093616) sɛ wɔbɛtrɛw aguadifo nkabom mu.
+- ZecMap ne no yɛɛ adwuma nnansa yi ara [CipherPay](https://x.com/ZecMap/status/2059622324958093616) sɛ wɔbɛtrɛw aguadifo nkabom mu.
 
 ---
 
@@ -109,7 +109,7 @@ Sɛ wopɛ mprempren akatua ho mmara ne sɛnea wobɛhwehwɛ a, kɔ hɔ [zecmap.co
 
 ZecMap gye aguadifo a wogye Zcash sikatua denam **Flexa**, sikatua nhyehyɛe a mmeae a wɔtɔn nneɛma a ɛrenya nkɔanim de di dwuma so. Eyi trɛw wiase ankasa mu aguadifo dodow a wɔakyerɛw wɔn din wɔ asase mfonini no so no mu kɔ akyiri sen wɔn a wogye Zcash wɔ hɔ ankasa no.
 
-ZecMap nso abɔ amanneɛ sɛ wɔne... [CipherPay a wɔde tua ho ka](https://cipherpay.app) sɛnea ɛbɛyɛ a wɔbɛma sikatua nhyehyɛe a wɔde ka bom ama aguadifo a wɔwɔ nkyerɛwde no mu no mu dɔ.
+ZecMap nso abɔ amanneɛ sɛ wɔne... [CipherPay](https://cipherpay.app) sɛnea ɛbɛyɛ a wɔbɛma sikatua nhyehyɛe a wɔde ka bom ama aguadifo a wɔwɔ nkyerɛwde no mu no mu dɔ.
 
 ---
 
@@ -145,7 +145,7 @@ Nkɔso a wɔayɛ ho nhyehyɛe no bi ne:
 
 ## Akadeɛ
 
-- [ZecMap na ɛwɔ hɔ](https://zecmap.com/)
+- [ZecMap](https://zecmap.com/)
 - [ZecMap wɔ X/Twitter so](https://x.com/ZecMap)
 - [ZecMap × CipherPay ayɔnkofa ho amanneɛbɔ](https://x.com/ZecMap/status/2059622324958093616)
 - [ZecMap Flexa aguadifoɔ a wɔde wɔn bɛka ho ho amanneɛbɔ](https://x.com/ZecMap/status/2060453501063594002)

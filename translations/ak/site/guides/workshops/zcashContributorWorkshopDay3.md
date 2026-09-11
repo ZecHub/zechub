@@ -20,7 +20,7 @@
 
 
 
-## Zcash na ɛyɛ 
+## Zcash 
 
 * Ɛlektrɔnik sika a wɔabɔ no kokoam. Cryptocurrency a edi kan a ɛyɛ zero-knowledge encryption a wɔde tua kokoam atipɛnfo ne atipɛnfo sikatua.
 
