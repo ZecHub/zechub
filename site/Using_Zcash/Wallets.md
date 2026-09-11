@@ -10,13 +10,15 @@
 ---
 
 ## [Ywallet](https://ywallet.app/installation/)
+> ⚠️ **Deprecated — do not use:** Ywallet is no longer maintained and will not be updated for Ironwood (NU6.3). It cannot follow current consensus rules on mainnet. For a maintained alternative from the same developer with FROST multisig support, see [Zkool](#zkool).
+
 ![logo](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
 - Features: Address Book | Cold Storage | Diversified Address | Payment Request | Pool Transfer | Shielded Memo | TEX Address | Voting | WarpSync
-- Ironwood: Not Ready
+- Ironwood: Not Ready (Deprecated)
 
 ---
 
@@ -127,13 +129,15 @@
 ---
 
 ## [Zcashd](https://github.com/zcash/zcash)
+> ⚠️ **Deprecated — do not use:** zcashd has reached End-of-Life (EOL as of July 18, 2026). Its node role has transitioned to [Zebra](https://github.com/ZcashFoundation/zebra) and wallet role to [Zallet](https://github.com/zcash/zallet). Do not use zcashd for new deployments.
+
 ![logo](/content-images/zcashd-92df3291ad.webp "Zcashd")
 - Devices: Desktop
 - Operating System: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
 - Pools: Transparent | Sapling | Ironwood
 - Features: Command Line Interface | Diversified Address | Shielded Memo | Testnet Support
-- Ironwood: Not Ready
+- Ironwood: Not Ready (EOL / Deprecated)
 
 ---
 
@@ -209,8 +213,8 @@
 
 ## [Keystone](https://shop.keyst.one)
 ![logo](/content-images/Keystone-1-8177a83308.webp "Keystone")
-- Devices:
-- Operating System:
+- Devices: Hardware Wallet
+- Operating System: Hardware
 - Wallet Support: Hardware | Unified Address
 - Pools: Transparent | Sapling | Ironwood
 - Features: Multi Coin
@@ -220,8 +224,8 @@
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
-- Devices:
-- Operating System:
+- Devices: Hardware Wallet
+- Operating System: Hardware
 - Wallet Support: Hardware
 - Pools: Transparent
 - Features: Multi Coin
@@ -241,8 +245,8 @@
 
 ## [Trezor](https://trezor.io/learn/a/zcash-zec)
 ![logo](/content-images/trezor1-5004075d27.webp "Trezor")
-- Devices:
-- Operating System:
+- Devices: Hardware Wallet
+- Operating System: Hardware
 - Wallet Support: Hardware
 - Pools: Transparent
 - Features: Multi Coin
