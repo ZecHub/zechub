@@ -16,7 +16,7 @@
 
 ## Compile FROST bins
 
-[Github link](https://github.com/ZcashFoundation/frost-zcash-demo/tree/update-zcash-sign)
+[Github link](https://github.com/ZcashFoundation/frost-tools)
 
 Use the above repo and follow directions on compiling: 
 

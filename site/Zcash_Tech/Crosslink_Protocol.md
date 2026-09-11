@@ -90,7 +90,7 @@ The Crosslink Protocol is being actively developed and deployed by Shielded Labs
 * Activation Logic: The introduction of Crosslink requires changes to the Zcash consensus rules, including defining the stake distribution process and updating network protocol rules to support hybrid consensus.
 * Phased Deployment: The protocol will roll out in stages to ensure network stability and community adaptation. Initial phases focus on technical implementation, followed by governance integration for selecting notaries.
 
-You can explore the technical details and track its progress via the [Crosslink Deployment Repository on GitHub](https://github.com/ShieldedLabs/crosslink-deployment).
+You can explore the technical details and track its progress via the [Crosslink Monorepo on GitHub](https://github.com/ShieldedLabs/crosslink_monolith).
 
 ## Practical Implications
 
