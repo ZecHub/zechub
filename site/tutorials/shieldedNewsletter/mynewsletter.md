@@ -8,13 +8,13 @@ Zebra 1.8.0 Latest Release, FROST is Published, Zooko Starts New Zcash Project &
 
 [ECC Update: Onward a Legacy in Motion](https://x.com/jswihart/status/1809385692512022710)
 
-[ECC Transparency Report for Q4 '23'](https://electriccoin.co/blog/ecc-transparency-report-for-q4-2023/)
+[ECC Transparency Report for Q4 '23'](https://web.archive.org/web/20260825/https://zodl.com//blog/ecc-transparency-report-for-q4-2023/)
 
 [Zcash Foundation's Engineering update for Sprint 13](https://forum.zcashcommunity.com/t/zf-engineering-update-2024-sprint-13-june-18th-july-1st/48210)
 
 [ECC Endorsements & ZIP withdrawn](https://forum.zcashcommunity.com/t/ecc-endorsements-its-zip-withdrawn/48200)
 
-[Zooko leaves Bootstrap to start New Project](https://electriccoin.co/blog/zooko-and-a-new-focus-for-zcash-resilience/)
+[Zooko leaves Bootstrap to start New Project](https://web.archive.org/web/20260825/https://zodl.com//blog/zooko-and-a-new-focus-for-zcash-resilience/)
 
 [FROST Protocol is Publised](https://x.com/conradoplg/status/1808612054200373757)
 

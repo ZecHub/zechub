@@ -167,7 +167,7 @@ Support teams do not need your seed phrase, spending key, private key, or full v
 
 ## Note
 
-Please note that the safest way to use ZEC is using shielded transactions whenever the sender, recipient, wallet, and service all support them. Some wallets and exchanges support [unified addresses](https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.), which can combine multiple Zcash receiver types into one address.
+Please note that the safest way to use ZEC is using shielded transactions whenever the sender, recipient, wallet, and service all support them. Some wallets and exchanges support [unified addresses](https://web.archive.org/web/20260825/https://zodl.com//blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.), which can combine multiple Zcash receiver types into one address.
 
 ## Resources
 

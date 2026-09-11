@@ -20,7 +20,7 @@ People can use the memo field in a shielded Z-Z transaction to send fully encryp
 
 #### Resources
 
-[The Encrypted Memo Field](https://electriccoin.co/blog/encrypted-memo-field/)
+[The Encrypted Memo Field](https://web.archive.org/web/20260825/https://web.archive.org/web/20260825/https://zodl.com//blog/encrypted-memo-field/)
 
 [Pay With Zcash](https://z.cash/pay-with-zcash/)
 

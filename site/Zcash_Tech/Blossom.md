@@ -80,7 +80,7 @@ Because Blossom also halved the reward paid per block and doubled the halving in
 
 [Blossom Network Upgrade](https://z.cash/upgrade/blossom/)
 
-[Blossom Upgrade Improves Speed, Scalability, Capacity (Electric Coin Company)](https://electriccoin.co/blog/blossom-upgrade-improves-speed-scalability-capacity/)
+[Blossom Upgrade Improves Speed, Scalability, Capacity (Electric Coin Company)](https://web.archive.org/web/20260825/https://zodl.com//blog/blossom-upgrade-improves-speed-scalability-capacity/)
 
 ### See also
 

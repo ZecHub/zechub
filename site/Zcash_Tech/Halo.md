@@ -88,7 +88,7 @@ Since its deployment, the halo2 library has been adopted in projects like the zk
 
 Additionally, it would be highly beneficial to both the Filecoin and Zcash ecosystems if Filecoin storage payments could be made in ZEC, affording the same level of privacy for storage purchases that exists in Zcash shielded transfers. This support would add the ability to encrypt files in Filecoin storage and add support to mobile clients so that they could **attach** media or files to a Zcash encrypted memo. 
 
-[ECC x Filecoin Blog Post](https://electriccoin.co/blog/ethereum-zcash-filecoin-collab/)
+[ECC x Filecoin Blog Post](https://web.archive.org/web/20260825/https://zodl.com//blog/ethereum-zcash-filecoin-collab/)
 
 ### Ethereum
 
@@ -117,7 +117,7 @@ The [Privacy and Scaling Exploration group](https://appliedzkp.org/) is also res
 
 [Halo 2 with Daira & Str4d - ZKPodcast](https://www.youtube.com/watch?v=-lZH8T5i-K4)
 
-[Technical Explainer Blog](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)
+[Technical Explainer Blog](https://web.archive.org/web/20260825/https://zodl.com//blog/technical-explainer-halo-on-zcash/)
 
 [Halo 2 Community Showcase - Ying Tong @Zcon3](https://www.youtube.com/watch?v=JJi2TT2Ahp0)
 

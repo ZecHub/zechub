@@ -129,7 +129,7 @@ This dual-consensus mechanism reinforces Zcash's commitment to privacy, sustaina
 ## Additional Resources
 
 - Community insights: [Zcash Community Forum - Crosslink Discussions](https://forum.zcashcommunity.com)
-- Official updates: [Electric Coin Company Blog](https://electriccoin.co)
+- Official updates: [Electric Coin Company Blog](https://zodl.com/)
 - Sustainability focus: [Why Hybrid PoS Matters for Zcash](https://forum.zcashcommunity.com)
 
   Reference:

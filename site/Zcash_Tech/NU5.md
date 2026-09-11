@@ -92,7 +92,7 @@ Orchard is built on the Halo 2 proving system, which needs no trusted setup and 
 
 [Network Upgrade 5](https://z.cash/upgrade/nu5/)
 
-[Electric Coin Company: zcashd 5.0.0 release](https://electriccoin.co/blog/new-release-5-0-0/)
+[Electric Coin Company: zcashd 5.0.0 release](https://web.archive.org/web/20260825/https://zodl.com//blog/new-release-5-0-0/)
 
 ### See also
 
