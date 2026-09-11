@@ -6,14 +6,14 @@
 
 ## Emenyawo ƒe Tabla
 
-1. [Zcash.me ƒe nyatakakadzraɖoƒea](#zcashme)
+1. [Zcash.me](#zcashme)
 2. [AɖaŋuɖoɖoZ](#tipz)
 3. [Nusita Ameŋunyatakakawo Ŋuti Nyatakaka Le Vevie Na Wɔlawo](#why-privacy-matters-for-creators)
 4. [Dɔwɔnu Bubuwo](#additional-resources)
 
 ---
 
-## Zcash.me ƒe nyatakakadzraɖoƒea
+## Zcash.me
 
 ![Zcash.me Logo](/content-images/_unavailable.svg)
 

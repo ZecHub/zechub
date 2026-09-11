@@ -166,7 +166,7 @@ O lè:
 - [Igi irin-igi](/zcash-tech/ironwood) - ìdí tí àpò owó rẹ fi yí padà.
 - [Òpó Ìrísí Iṣẹ́ Ọwọ́ Náà](/zcash-tech/the-turnstile) - ohun tó di ti gbogbo ènìyàn nígbà tí iye bá kọjá àwọn ìsọ̀rí-ìpínlẹ̀ (pool)
 - [Àwọn àpamọ́ owó](/using-zcash/wallets) - àwọn pọ́ọ̀sì wo ni wọ́n ń lò?
-- [ZODL (ì í ì ë ¤)](/zcash-organizations/zodl) - àpò owó tó wà lẹ́yìn CrossPay.
+- [ZODL](/zcash-organizations/zodl) - àpò owó tó wà lẹ́yìn CrossPay.
 
 <br/>
 

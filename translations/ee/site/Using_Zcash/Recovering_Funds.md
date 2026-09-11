@@ -20,7 +20,7 @@ Ele vevie ŋutɔ be ezãlawo nase afɔku siwo le ame ŋutɔ ƒe safuiwo gbɔ kp�
 
 ## Ga Gbugbɔgadzɔ kple Zkool
 
-[Zkool ƒe ŋkɔ](https://github.com/hhanh00/zkool2/releases) nye Ywallet teƒenɔla, tso dɔwɔƒe ma ke gbɔ, eye wòdoa alɔ gagbugbɔgaxɔ si me kɔ kple esi wotsɔ akpoxɔnu wɔe siaa.
+[Zkool](https://github.com/hhanh00/zkool2/releases) nye Ywallet teƒenɔla, tso dɔwɔƒe ma ke gbɔ, eye wòdoa alɔ gagbugbɔgaxɔ si me kɔ kple esi wotsɔ akpoxɔnu wɔe siaa.
 
 Woƒo nu tso nɔnɔme eve ŋu le afisia:
 

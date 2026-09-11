@@ -18,7 +18,7 @@ Why this matters. With transparent money like Bitcoin, anyone can check that no 
 
 ## Ihe Mere Osisi Ironwood Ji Dị Mkpa
 
-Na ngwụcha ọnwa Mee 2026, onye nyocha nchekwa onwe ya Taylor Hornby, n'oge nyochaa usoro maka [Ụlọ nyocha echekwara](../zcash-organizations/shielded-labs), responsibly disclosed a soundness bug in the Orchard shielded pool. Orchard was Zcash's newest shielded pool at the time, and the flaw sat in an elliptic-curve part of its zero-knowledge circuit, which uses the [Halo (ụtụtụ ọma)](../zcash-tech/halo) 2 na-egosi usoro.
+Na ngwụcha ọnwa Mee 2026, onye nyocha nchekwa onwe ya Taylor Hornby, n'oge nyochaa usoro maka [Ụlọ nyocha echekwara](../zcash-organizations/shielded-labs), responsibly disclosed a soundness bug in the Orchard shielded pool. Orchard was Zcash's newest shielded pool at the time, and the flaw sat in an elliptic-curve part of its zero-knowledge circuit, which uses the [Halo](../zcash-tech/halo) 2 na-egosi usoro.
 
 1. Ihe na-egosi na azụmahịa bụ nke ziri ezi abụghị ihe ga-eme ka o doo anya.
 2. Na usoro iwu, onye na-awakpo nwere ike iji ntụpọ ahụ mepụta uru adịghị mma n'ime ọdọ mmiri Orchard ma jiri ego ndị na - abụghị nke ha mee ihe, hapụ enweghị akara ọ bụla node nkịtị ga - ejide.
@@ -119,7 +119,7 @@ Site na turnstile. A na-agụta mkpụrụ ego ọ bụla nke si n'ọdọ mmiri
 
 [Ọdọ Mmiri Ndị E Chebere Echiche Ha Na Ya](../using-zcash/shielded-pools)
 
-[Halo (ụtụtụ ọma)](../zcash-tech/halo)
+[Halo](../zcash-tech/halo)
 
 [zk-SNARKS](../zcash-tech/zk-snarks)
 

@@ -4,7 +4,7 @@
 
 Nchịkọta nke ndekọ Zcash Engineering Office Hours.
 
-# Oge Ọfịs Zcash Engineering Office
+# Zcash Engineering Office Hours
 
 Oge ọmụmụ ihe na-ekpuchi usoro Zcash, nyocha nke enweghị ihe ọmụma, mmepe ngwa, ZIPs, yana isiokwu injinịa gburugburu ebe obibi. Onye isi ya bụ Mark Henderson [](https://x.com/shieldedmark) with participation from Shielded Labs, ZcashMe, Edge, and other contributors. Live sessions are typically held on Zcash Discord stages (often via Luma); recordings are published by [Zcash Brazil](https://www.youtube.com/@zcashbrasil).
 

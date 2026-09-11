@@ -4,7 +4,7 @@
 
 Zcash Engineering Office Hours ƒe nuŋlɔɖiwo nuƒoƒoƒu.
 
-# Zcash Engineering Dɔwɔƒe ƒe Gaƒoƒowo
+# Zcash Engineering Office Hours
 
 Mɔ̃ɖaŋununya ƒe ɣeyiɣi siwo wowɔna edziedzi siwo ƒo nu tso Zcash ƒe ɖoɖowɔɖi, sidzedze zero ƒe kpeɖodziwo, dɔwɔwɔ ƒe ŋgɔyiyi, ZIPwo, kple lãwo ƒe agbenɔnɔ ŋuti mɔ̃ɖaŋununya ƒe nyatiwo ŋu. Mark Henderson koŋue nye amedzroxɔla [](https://x.com/shieldedmark) kple gomekpɔkpɔ tso Shielded Labs, ZcashMe, Edge, kple nudzɔla bubuwo gbɔ. Zi geɖe la, wowɔa live sessions le Zcash Discord ƒe fefewɔƒewo (zi geɖe to Luma dzi); wotaa nya siwo wolé ɖe mɔ̃ dzi to [Zcash Brasil ye nye esia](https://www.youtube.com/@zcashbrasil).
 

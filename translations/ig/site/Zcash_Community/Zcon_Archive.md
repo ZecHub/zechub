@@ -5,7 +5,7 @@
 Ihe na-esote bụ nchịkọta nke ọtụtụ mgbasa ozi metụtara Zcon na ebe dị mfe ịchọta.
 
 # Zcon
-Zcon bụ ogbako kwa afọ nke [Zcash Foundation] haziri](https://zfnd.org/).
+Zcon bụ ogbako kwa afọ nke [Zcash Foundation](https://zfnd.org/).
 
 ## Zcon0: Nzuzo site na A ruo Zcon
 

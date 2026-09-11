@@ -6,7 +6,7 @@
 # Dɛn ne ZecHub?
 ---
 
-ZecHub yɛ nwomasua beaeɛ a wɔde ama Zcash. Botae a ɛwɔ [ZecHub na ɔkyerɛwee](http://zechub.xyz) ne sɛ ɛbɛma nkyerɛkyerɛ atenaeɛ a mpɔtam hɔfoɔ bɛtumi abom ayɛ adwuma de abɔ, ahyɛ mu den, na wɔahyɛ nneɛma a ɛboa Zcash abɔdeɛ a nkwa wom nhyehyɛeɛ no ho nkuran. Yɛfa akwan kakraa bi so na ɛyɛ eyi.
+ZecHub yɛ nwomasua beaeɛ a wɔde ama Zcash. Botae a ɛwɔ [ZecHub](http://zechub.xyz) ne sɛ ɛbɛma nkyerɛkyerɛ atenaeɛ a mpɔtam hɔfoɔ bɛtumi abom ayɛ adwuma de abɔ, ahyɛ mu den, na wɔahyɛ nneɛma a ɛboa Zcash abɔdeɛ a nkwa wom nhyehyɛeɛ no ho nkuran. Yɛfa akwan kakraa bi so na ɛyɛ eyi.
 
 1. [Nkyerɛkyerɛ a wɔde ma](https://www.youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O)
 2. [Wiki-docs a wɔde kyerɛw nsɛm](https://zechub.wiki/)

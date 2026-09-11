@@ -12,10 +12,10 @@ Kpekpeɖeŋunana ameŋunyatakakawo ƒe nunɔamesiwo trɔna zi geɖe, eyata fli �
 
 | Dɔwɔnu si wɔa dɔ | Vidzikpɔkpɔ | Akpoxɔnu ZEC | Ame ŋutɔ ƒe amedzrowɔwɔ | Asitsalawo ƒe fetu | Nutowo / KYC | Woɖo kpe edzi be |
 |:--|:--|:--|:--|:--|:--|:--|
-| [CipherPay ƒe fetu](https://www.cipherpay.app) | Nusiwo menye gaxɔmenɔnɔ o | Ẽ, Orchard to Adrɛs Siwo Wowɔ Ðeka dzi | Ẽ, ʋuʋu dzɔtsoƒe | 1% le fetu ɖesiaɖe me, femaxee ne ame ŋutɔe xɔe | KYC aɖeke meli o, nuto siwo womegblɔ o | Ƒe 2026-07-29 |
+| [CipherPay](https://www.cipherpay.app) | Nusiwo menye gaxɔmenɔnɔ o | Ẽ, Orchard to Adrɛs Siwo Wowɔ Ðeka dzi | Ẽ, ʋuʋu dzɔtsoƒe | 1% le fetu ɖesiaɖe me, femaxee ne ame ŋutɔe xɔe | KYC aɖeke meli o, nuto siwo womegblɔ o | Ƒe 2026-07-29 |
 | [BTCPay Dɔwɔƒe si Kpɔa Dɔwɔnyawo Gbɔ](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | Non-custodial, view key ɖeɖeko | Ẽ, wokpɔ akpoxɔnu ko (Sapling, Orchard, UA) | Ẽ, ʋuʋu dzɔtsoƒe | Ðeke meli o, èxea network fees ko | Xexeame katã, KYC aɖeke meli o | Ƒe 2026-07-29 |
 | [ZGo](https://zgo.cash/) | Non-custodial | Yes, Sapling and Orchard | No, hosted service | Prepaid session, price not published | No KYC stated, regions not stated | 2026-07-29 |
-| [Flexa ƒe nyawo](https://flexa.co/) | Asitsalawo ƒe ɖokuidzikpɔkpɔ, asitsala ɖoa anyi le fiat | Asitsalawo zãa akpoxɔnu, xɔxɔ akpa si womeŋlɔ ɖi o | Ao | 1% le fexexe ɖesiaɖe me | US kple SEPA dukɔ 37, ZEC le EU meɖo kpe edzi o | Ƒe 2026-07-29 |
+| [Flexa](https://flexa.co/) | Asitsalawo ƒe ɖokuidzikpɔkpɔ, asitsala ɖoa anyi le fiat | Asitsalawo zãa akpoxɔnu, xɔxɔ akpa si womeŋlɔ ɖi o | Ao | 1% le fexexe ɖesiaɖe me | US kple SEPA dukɔ 37, ZEC le EU meɖo kpe edzi o | Ƒe 2026-07-29 |
 | [FIFIA Fexexewo](https://nowpayments.io/supported-coins/zcash-payments) | Menye vidzikpɔkpɔ o le gɔmedzedzea me | Ao, adrɛs si me kɔ koe | Ao | 0.5%, alo 1% kple tɔtrɔ | Xexeame katã negbe afisi wode se ɖo ko, KYC aɖeke meli be woadze egɔme | Ƒe 2026-07-29 |
 | [Plisio ƒe ŋkɔ](https://plisio.net/accept-zcash) | Custodial, togbɔ be asitsatsa | Womeŋlɔe ɖi o | Ao | 0.5% API, 1.5% yevu ƒe dzeside | KYC aɖeke meli si woaxɔ | Ƒe 2026-07-29 |
 | [Binance Fetu](https://pay.binance.com/en) | Custodial, off-kɔsɔkɔsɔ | Ao, wogbe ga si wotsɔ de akpoxɔnu me | Ao | Gakotoku femaxee yi gakotoku me, 0.8% ƒe fexexe | Woxe mɔ ɖe anyigba nu, woɖe ZEC ɖa le FR, ES, IT, PL | Ƒe 2026-07-29 |
@@ -55,7 +55,7 @@ Nuxlɔ̃ame ɖeka si sɔ be míagbugbɔ agblɔ: dɔwɔnu si wɔa dɔ le gaglãgb
 ## [CipherPay](https://www.cipherpay.app) <img src="/content-images/cipherpay-mark.png" alt="CipherPay logo" class="processor-logo" />
 - **Support Type**: Shielded (Orchard, via Unified Addresses)
 - **Numeɖeɖe**: Lɔ̃ ɖe Zcash dzi le minitiwo me, Non-custodial, Zero nuƒlela ƒe nyatakakawo, Domeɖela aɖeke meli o.
-- **URL**: [CipherPay ƒe fetu](https://www.cipherpay.app)
+- **URL**: [CipherPay](https://www.cipherpay.app)
 <img src="/content-images/cipherpay-mark.png" alt="CipherPay logo" width="200" hidden />
 
 Èna CipherPay safui si woate ŋu akpɔ ko, eyata fexexe yia wò ŋutɔ wò gakotoku me tẽ eye meléa ga ɖe asi gbeɖe o. Ezãa adrɛs yeye na gaxɔgbalẽvi ɖesiaɖe.
@@ -115,7 +115,7 @@ Menye femaxee hã o. ZGo dzraa ɣeyiɣi siwo woxea fe do ŋgɔ eye wòhiã na Pr
 ## [Flexa](https://flexa.co/) <img src="/content-images/flexa-mark.png" alt="Flexa logo" class="processor-logo" />
 - **Kpekpeɖeŋu Ƒomevi**: Asitsalawo zãa akpoxɔnu, xɔxɔ ƒe akpa si womeŋlɔ ɖi o
 - **Numeɖeɖe**: Flexa nye fexexe ƒe ɖoɖo si na asisiwo zãa dijitaal nunɔamesiwo, siwo dome Zcash hã le, le asitsaƒewo tso gakotoku si me wokpɔa wo ɖokui dzi le.
-- **URL**: [Flexa ƒe nyawo](https://flexa.co/)
+- **URL**: [Flexa](https://flexa.co/)
 <img src="/content-images/flexa-mark.png" alt="Flexa logo" width="200" hidden />
 
 Flexa menye gateway o, eyata menye swap na bubu siwo le afisia o. Asisi la ʋua gakotoku si me Flexa le abe Zodl ene, ɖea kɔpi si wozãna zi ɖeka fiana, eye fiasea léa ŋku ɖe eŋu. ZEC ƒe adzɔxegbalẽvi aɖeke meli o eye e-commerce plugin aɖeke hã meli o.

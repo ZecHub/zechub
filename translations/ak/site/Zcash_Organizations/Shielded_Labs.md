@@ -26,7 +26,7 @@ Ahyehyɛde no nam mfiridwuma tẽẽ, ɔmanfo nhwehwɛmu, nnwuma a wɔde boa, ne
 Shielded Labs bobɔ adwuma no mmeae pii a ɛyɛ nnam din wɔ baguam:
 
 - [Network Sustainability Nneɛma a Wɔde Yɛ Adwuma](https://shieldedlabs.net/nsm/) - nsakraeɛ a wɔahyɛ ho nyansa a wɔabɔ wɔn tirim sɛ wɔbɛboa Zcash ahobanbɔ sikasɛm nhyehyɛeɛ a ɛbɛkyɛ berɛ a wɔkora ZEC nneɛma a wɔde ma ɔpepem 21 no so. NSM adwuma no bi ne ZEC hyew a wofi wɔn pɛ mu yɛ, sika a wɔde ma no smoothing, ne sika a wɔbɛhyew ho nyansahyɛ ahorow a wɔaka ho asɛm wɔ ZIP 233, 234, ne 235 mu.
-- [Crosslink a wɔde di dwuma](https://shieldedlabs.net/crosslink-faq/) - Hybrid consensus upgrade a wɔahyɛ ho nyansa a ɛbɛka Zcash proof-of-work block production ne proof-of-stake finality abom, sɛdeɛ ɛbɛyɛ a ZEC wuranom bɛtumi aboa ama wɔabɔ network no ho ban berɛ a miners kɔ so yɛ blocks.
+- [Crosslink](https://shieldedlabs.net/crosslink-faq/) - Hybrid consensus upgrade a wɔahyɛ ho nyansa a ɛbɛka Zcash proof-of-work block production ne proof-of-stake finality abom, sɛdeɛ ɛbɛyɛ a ZEC wuranom bɛtumi aboa ama wɔabɔ network no ho ban berɛ a miners kɔ so yɛ blocks.
 - [Dynamic Fees a Wɔbɔ](https://shieldedlabs.net/fees/) - nhwehwɛmu ne nnwinnade a ɛbɛma wɔatumi ahyɛ nkɔm, ɛyɛ mmerɛw sɛ wɔde bedi dwuma, na ɛyɛ den sɛ wobetua Zcash asɛmdi ho ka bere a ntwamutam no renya nkɔso no.
 - [Ohunu](https://shieldedlabs.net/zero/) - a woboa suite a open-source Zcash infrastructure software ma exchanges, mining pools, wallet providers, ne ahyehyɛdeɛ foforɔ a wɔde wɔn ho to Zcash infrastructure so.
 - [Dade a Wɔde Yɛ Nnua](https://shieldedlabs.net/ironwood/) - Zcash network upgrade ne shielded pool a wɔayɛ de abua Orchard atoro a ɛyɛ mmerɛw, a wɔayɛ sɛ wɔde bɛsan de ahofadi a wobetumi agye atom wɔ Zcash circulating supply no mu.

@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Àwòrán ZecMap
+# ZecMap
 
 ZecMap jẹ́ àgbáyé, ìwé-ìmọ̀ràn tí àwùjọ ń darí fún wíwá àwọn ilé iṣẹ́ àti ètò tó gba Zcash (ZEC). Ó dá lórí ìjápọ̀ àwòrán ojú òpó kan. O ṣe iranlọwọ fun awọn onímòye ti wọn ní ZEC láti dáhùn ìbéèrè: **"Ibo ni mo le lo owó mi?"**
 
@@ -16,7 +16,7 @@ Ojú-ìwé: [ojúewé zecmap.com](https://zecmap.com/)
 - Ṣàwákiri àwòrán ojú-ọ̀nà ìjápọ́ láti rí àwọn oníṣòwò tó bá ZEC lò nítòsí rẹ tàbí níbikíbi lágbàáyé.
 - Ẹnikẹni le fi** ile-iṣẹ kan silẹ; awọn akojọ n lọ nipasẹ atunyẹwo agbegbe ṣaaju ki o to han gbangba.
 - Àtòjọ àsanfún àwọn olùkópa** ń fúnni níṣìírí láti fi kún àti ṣàyẹ̀wò ìsọfúnni oníṣòwò.
-- ZecMap ṣe ajọṣepọ pẹ̀lú àwọn olùdásílẹ̀-èdè. [CipherPay (ìdásílẹ̀)](https://x.com/ZecMap/status/2059622324958093616) láti mú kí àwọn oníṣòwò pọ̀ sí i.
+- ZecMap ṣe ajọṣepọ pẹ̀lú àwọn olùdásílẹ̀-èdè. [CipherPay](https://x.com/ZecMap/status/2059622324958093616) láti mú kí àwọn oníṣòwò pọ̀ sí i.
 
 ---
 
@@ -109,7 +109,7 @@ Fun awọn ofin ẹbun lọwọlọwọ ati bi o ṣe le beere, lọ si ibẹ. [
 
 ZecMap accepts merchants that accept Zcash payments via **Flexa**, a payment network used by a growing number of retail locations. This expands the number of real-world merchants listed on the map beyond those that accept Zcash natively.
 
-ZecMap tún ti kéde àjọṣepọ̀ pẹlú àwọn olùdásílẹ̀-ìmọ́lé. [CipherPay (ìdásílẹ̀)](https://cipherpay.app) láti túbọ̀ mú àwọn ètò ìsopọmọ-ìpèsè owó sisan fún àwọn oníṣòwò nínú ìwé atọ́ka náà jinlẹ.
+ZecMap tún ti kéde àjọṣepọ̀ pẹlú àwọn olùdásílẹ̀-ìmọ́lé. [CipherPay](https://cipherpay.app) láti túbọ̀ mú àwọn ètò ìsopọmọ-ìpèsè owó sisan fún àwọn oníṣòwò nínú ìwé atọ́ka náà jinlẹ.
 
 ---
 
@@ -145,7 +145,7 @@ Lára àwọn àtúnṣe tí wọ́n ń gbèrò rèé:
 
 ## Àwọn Owó-ìṣúnná owó
 
-- [Àwòrán ZecMap](https://zecmap.com/)
+- [ZecMap](https://zecmap.com/)
 - [ZecMap lórí X/Twitter](https://x.com/ZecMap)
 - [Ìkéde àjọṣepọ̀ ZecMap × CipherPay](https://x.com/ZecMap/status/2059622324958093616)
 - [Ìkéde nípa gbígbé àwọn oníṣòwò ZecMap Flexa sínú ètò náà.](https://x.com/ZecMap/status/2060453501063594002)

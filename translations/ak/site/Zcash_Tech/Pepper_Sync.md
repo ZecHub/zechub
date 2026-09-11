@@ -141,7 +141,7 @@ Zingo 2.0 a ɛwɔ Pepper Sync no nyɛ nkɔsoɔ kɛkɛ; ɛyɛ ahurututu a ɛkɔ a
 
 - [Zcash Sikakorabea Syncing](/zcash-tech/zcash-wallet-syncing) — sɛnea wallet synchronization yɛ adwuma wɔ Zcash ecosystem no nyinaa mu.
 - [Lightwallet Nodes a Wɔde Di Dwuma](/zcash-tech/lightwallet-nodes) — infrastructure a hann sika kotoku te sɛ Zingo syncs tia.
-- [Zaino na ɔkyerɛwee](/zcash-tech/zaino) — indexer a Zingo kuw no na ɛyɛe.
+- [Zaino](/zcash-tech/zaino) — indexer a Zingo kuw no na ɛyɛe.
 - [Sika kotoku](/wallets) — Zcash sika kotoku ne ne nneɛma ho kyerɛwtohɔ a edi mũ.
 
 ## Adesua a Ɛkɔ Akyiri

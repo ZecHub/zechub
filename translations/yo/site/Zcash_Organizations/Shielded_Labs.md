@@ -26,7 +26,7 @@ The organization contributes through direct engineering, public research, infras
 Shielded Labs ṣe àkọsílẹ̀ àwọn iṣẹ́ tí ó wà nídìí:
 
 - [Ètò Ìdánilójú Nẹtiwọọki](https://shieldedlabs.net/nsm/) - A ṣeto ti a dabaa ayipada pinnu lati se atileyin Zcash ká gun-igba aabo isuna nigba mimu awọn 21 million ZEC ipese to. Awọn NSM ise pẹlu ikọkọ ZEC burns, idasilẹ smoothing, ati owo-ẹru sisun igbero apejuwe ni 233, 234, ati 235 zips.
-- [Àjọṣe àgbélébùú (Crosslink)](https://shieldedlabs.net/crosslink-faq/) - Àtúnṣe ìfọwọ́sowọ́pọ̀ tí a dábàá èyí tó máa pa iṣelọpọ ẹri-iṣẹ Zcash pọ̀ pẹlú èrí ìdínà, kí àwọn olùkópa nínú ZEC lè ṣèrànlọ́wọ́ láti ṣe ààbò nẹtiwù náà nígbàtí àwọn awakùsà ń bá iṣẹ́ ṣíṣe lọ.
+- [Crosslink](https://shieldedlabs.net/crosslink-faq/) - Àtúnṣe ìfọwọ́sowọ́pọ̀ tí a dábàá èyí tó máa pa iṣelọpọ ẹri-iṣẹ Zcash pọ̀ pẹlú èrí ìdínà, kí àwọn olùkópa nínú ZEC lè ṣèrànlọ́wọ́ láti ṣe ààbò nẹtiwù náà nígbàtí àwọn awakùsà ń bá iṣẹ́ ṣíṣe lọ.
 - [Àwọn Owó-ìṣúná tí ó wà ní ìmúṣẹ](https://shieldedlabs.net/fees/) - Iwadii ati irinṣẹ fun awọn idiyele iṣowo Zcash ti o ni asọtẹlẹ diẹ sii, ore-olumulo, ati resilient bi nẹtiwọọki ṣe dagbasoke.
 - [Kò sí nǹkan kan.](https://shieldedlabs.net/zero/) - A supported suite of open-source Zcash infrastructure software for exchanges, mining pools, wallet providers, and other organizations that rely on Zcash infrastructure.
 - [Igi irin-igi](https://shieldedlabs.net/ironwood/) - Àtúnṣe sí ẹ̀rọ Zcash àti ìsọ̀rí tí a dá ní ìdáhùn si àléébù òdì-dídi ti Orchard, èyí tí wọ́n ṣe láti mú kí àwọn ohun èlò tó ń tà káàkiri nínú Zcash padà wà bó ṣe yẹ.

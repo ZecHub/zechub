@@ -150,7 +150,7 @@ A **faucet** bụ ọrụ na-enye mkpụrụ ego TAZ n'efu maka ule:
 - Na-akwado mkpụrụ okwu, igodo nlele, adreesị na-enweghị ihe ọ bụla 
 - Nwere ike ijikọ na Mainnet, Testnet, ma ọ bụ Regtest site na nodes zuru ezu ma ọ̄ bụ sava lightwallet
 
-### Zingo! (Ụda olu)
+### Zingo!
 
 - Akpa ego mkpanaka lekwasịrị anya na nzuzo na ịdị mfe 
 - Na-akwado adreesị echedoro na nke dị n'otu 

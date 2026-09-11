@@ -13,7 +13,7 @@
 Zcash Shielded Assets (ZSA) yɛ protocol ntrɛwmu a wɔahyɛ ho nyansa a ɛbɛma agyapade **a ɛnyɛ ZEC** — stablecoins, governance tokens, anaa amanne agyapade biara — atra Zcash shielded pool no mu, a nea ɔde kɔmaa, nea ogye, ne sika dodow no bɛkora kokoam.
 
 - **Nea ɛyɛ:** ERC-20-style amanne agyapade, nanso wɔabɔ ho ban denam default so.
-- **Hena na ɔresi no:** [QEDIT NKYERƐKYERƐMU](https://qed-it.com/), wɔ mmoa a efi Zcash Foundation hɔ ase, a wɔne Electric Coin Company ayɛ biako.
+- **Hena na ɔresi no:** [QEDIT](https://qed-it.com/), wɔ mmoa a efi Zcash Foundation hɔ ase, a wɔne Electric Coin Company ayɛ biako.
 - **Sɛnea wɔakyerɛ:** [ZIP 226 na ɛwɔ hɔ](https://zips.z.cash/zip-0226) (transfer na hyew) bom ne [ZIP 227 na ɛwɔ hɔ](https://zips.z.cash/zip-0227) (a wɔde ma).
 - **Status:** ɛntena mainnet so. Wɔayɛ nhyehyɛe sɛ wɔde ZSA protocol no bedi dwuma wɔ Network Upgrade 7 (NU7) mu.
 - **Fees:** bere nyinaa wotua wɔ ZEC mu, a agyapade a wɔretu no mfa ho.
@@ -32,7 +32,7 @@ Ade titiriw a wobetumi de ZSA ahorow adi dwuma bɛyɛ sɛ wɔde stablecoins bɛm
 
 Ade foforo a wobetumi de ZSA ahorow adi dwuma ne sɛ wɔde nniso token bɛma. Sɛ nhwɛsoɔ no, Zechub (wiki yi tintimfoɔ) yɛ Decentralized Autonomous Organization (DAO) na ɔbɛtumi ayɛ na ɔde ZSA ama ne mufoɔ ama wɔato aba wɔ nsusuiɛ ne nnisoɔ ho gyinaesie ho.
 
-Wɔreyɛ ZSA ahorow no denam... [QEDIT NKYERƐKYERƐMU](https://qed-it.com/), wɔ mmoa kɛse bi a efi [Zcash Foundation](/zcash-organizations/zcash-foundation) wɔ biakoyɛ mu ne [Electric Coin Company](/zcash-organizations/electric-coin-company). Bere a wɔda so ara reyɛ adwuma yi denneennen no, wɔde nsɛm foforo gu so [saa asaawa yi](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153) a ɛwɔ Zcash forum no mu. No [ZSA mmoa akwammisa krataa](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/) denam QEDIT so no, wobetumi anya afi Zcash Foundation mmoa wɛbsaet hɔ.
+Wɔreyɛ ZSA ahorow no denam... [QEDIT](https://qed-it.com/), wɔ mmoa kɛse bi a efi [Zcash Foundation](/zcash-organizations/zcash-foundation) wɔ biakoyɛ mu ne [Electric Coin Company](/zcash-organizations/electric-coin-company). Bere a wɔda so ara reyɛ adwuma yi denneennen no, wɔde nsɛm foforo gu so [saa asaawa yi](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153) a ɛwɔ Zcash forum no mu. No [ZSA mmoa akwammisa krataa](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/) denam QEDIT so no, wobetumi anya afi Zcash Foundation mmoa wɛbsaet hɔ.
 
 ---
 
@@ -95,9 +95,9 @@ ZIP 226 kyerɛkyerɛ OrchardZSA protocol — Orchard protocol no ntrɛwmu a ɛde
 
 ### ZSA Mmoa Ho Nsusuwii
 
-ZSA nyansahyɛ a ɛfa Shielded Assets (ZSA/UDA) ho no,... [QEDIT NKYERƐKYERƐMU](https://qed-it.com/) kuw a wɔbɛkyekyere generic shielded agyapade wɔ Zcash blockchain no so. Wɔtaa frɛ eyinom sɛ User Defined Assets (UDA) anaa Zcash Shielded Assets (ZSA).
+ZSA nyansahyɛ a ɛfa Shielded Assets (ZSA/UDA) ho no,... [QEDIT](https://qed-it.com/) kuw a wɔbɛkyekyere generic shielded agyapade wɔ Zcash blockchain no so. Wɔtaa frɛ eyinom sɛ User Defined Assets (UDA) anaa Zcash Shielded Assets (ZSA).
 
-Wɔde saa nyansahyɛ yi mae no, kuw a ɛwɔ... [QEDIT NKYERƐKYERƐMU](https://qed-it.com/) nhyehyɛe sɛ wɔde DeFi bɛba Zcash abɔdeɛ a nkwa wom nhyehyɛeɛ no mu na, berɛ korɔ no ara mu no, wɔama wɔatumi de kokoamsɛm mfiridwuma a ɛyɛ papa adi dwuma wɔ DeFi abɔdeɛ a nkwa wom nhyehyɛeɛ a ɛwɔ hɔ dada no mu. Wɔ nhwehwɛmu bi a wɔyɛe wɔ nhwehwɛmu bi mu no, kuw no bisae, na mpɔtam hɔfo buae saa [generic shielded assets (ZSA/UDA) ne ade a wɔhwehwɛ sen biara mprempren](https://twitter.com/BenarrochDaniel/status/1428327864034791429).
+Wɔde saa nyansahyɛ yi mae no, kuw a ɛwɔ... [QEDIT](https://qed-it.com/) nhyehyɛe sɛ wɔde DeFi bɛba Zcash abɔdeɛ a nkwa wom nhyehyɛeɛ no mu na, berɛ korɔ no ara mu no, wɔama wɔatumi de kokoamsɛm mfiridwuma a ɛyɛ papa adi dwuma wɔ DeFi abɔdeɛ a nkwa wom nhyehyɛeɛ a ɛwɔ hɔ dada no mu. Wɔ nhwehwɛmu bi a wɔyɛe wɔ nhwehwɛmu bi mu no, kuw no bisae, na mpɔtam hɔfo buae saa [generic shielded assets (ZSA/UDA) ne ade a wɔhwehwɛ sen biara mprempren](https://twitter.com/BenarrochDaniel/status/1428327864034791429).
 
 Saa nsusuwii ahorow yi yɛ nea wɔbata ho wɔ mfiridwuma mu [Zcash Nkɔsoɔ Ho Nsusuiɛ (ZIP) .](https://zips.z.cash/zip-0000) nkyerɛkyerɛmu na wɔakyerɛkyerɛ mu wɔ ZIP 226 & ZIP 227 mu.
 

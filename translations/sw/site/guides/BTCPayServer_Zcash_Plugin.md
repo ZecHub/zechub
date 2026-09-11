@@ -124,7 +124,7 @@ Fedha zote kwenda ** moja kwa moja** mfuko wa fedha ya muuzaji. Usalama ni kuhak
 ### Jinsi Inavyofanya Kazi
 
 - **Mkoba ni kuundwa mapema.** 
-  mfanyabiashara anatumia mkoba Zcash ambayo inasaidia kuangalia funguo - kama vile [Shule ya Zkool](https://github.com/hhanh00/zkool2/) or [Zingo! Wallet](https://zingolabs.org/).  
+  mfanyabiashara anatumia mkoba Zcash ambayo inasaidia kuangalia funguo - kama vile [Zkool](https://github.com/hhanh00/zkool2/) or [Zingo! Wallet](https://zingolabs.org/).  
   Orodha kamili inapatikana katika: [ZecHub.wiki](https://zechub.wiki/wallets).
 
 - ** Seva ya BTCPay inaunganisha kupitia ufunguo wa kutazama.** 

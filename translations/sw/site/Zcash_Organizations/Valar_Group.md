@@ -106,7 +106,7 @@ Opereta umma na mkurugenzi wa ukaguzi nyuso ni pamoja na:
 - [PIR server kuanzisha](https://setup-pir.valargroup.org)
 - [Shielded Kura ya nyaraka](https://valargroup.gitbook.io/shielded-vote-docs)
 
-### Zakura (mnyama)
+### Zakura
 
 Zakura ni Zcash full node maendeleo kama ushirikiano kati ya Valar Group na Mradi Tachyon. Ni inayotokana kutoka Zebra na anaongeza kasi sync, asili kupogoa, snapshot bootstrapping, `zcashd` njia utangamano, na majaribio ya juu-utendaji P2P kazi.
 
@@ -183,7 +183,7 @@ Timu hiyohiyo ya node na kazi sync ni nia ya kusaidia nusu nyingine ya picha kwa
 - [Usanidi wa mlolongo wa kupiga kura](https://setup.valargroup.org)
 - [Tally mkaguzi wa fedha za umma](https://tally.valargroup.org)
 - [UI mratibu](https://svote.valargroup.org/)
-- [Zakura (mnyama)](https://zakura.com/)
+- [Zakura](https://zakura.com/)
 - [Zakura kuhusu / timu ya](https://zakura.com/about/)
 - [NU7 mtoaji wa sarafu kura ya jukwaa thread](https://forum.zcashcommunity.com/t/nu7-token-holder-vote/56912)
 - [Coinholder Chain kura ya maoni thread forum](https://forum.zcashcommunity.com/t/the-coinholder-voting-chain/56925)

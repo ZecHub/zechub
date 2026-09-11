@@ -100,7 +100,7 @@ Orchard imejengwa kwenye mfumo wa kuthibitisha Halo 2, ambayo haihitaji usanidi 
 
 [Vidimbwi Vilivyohifadhiwa kwa Kifaa cha Kuzuia Mlipuko](../using-zcash/shielded-pools)
 
-[Halo (Habari Njema)](../zcash-tech/halo)
+[Halo](../zcash-tech/halo)
 
 [zk-SNARKS](../zcash-tech/zk-snarks)
 

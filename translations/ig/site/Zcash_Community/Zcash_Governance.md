@@ -43,14 +43,14 @@ Ebumnuche a bụ ịkwaga site na njikwa nke nzukọ gaa n'ịchị achị ndị
 - Na Jenụwarị 2026, ndị isi injinia na otu ngwaahịa gbara arụkwaghịm site na Bootstrap / ECC n'ihi esemokwu ọchịchị wee guzobe Zcash Open Development Lab (ZODL). 
 - ECC/Bootstrap anaghịzi enweta ego protocol na-akwụ ụgwọ ma gharazie iji ndị ọrụ mmepe mbụ. Ọ dabere na onyinye, nkwado, yana akụ nke ya. 
 - Na-ejide ihe akụkọ mere eme ma ọ bụghịzi nzukọ mmepe usoro iwu na-arụ ọrụ. 
--> Lee profaịlụ zuru ezu: [Ụlọ ọrụ Electric Coin Company](https://zechub.wiki/zcash-organizations/electric-coin-company)
+-> Lee profaịlụ zuru ezu: [Electric Coin Company](https://zechub.wiki/zcash-organizations/electric-coin-company)
 
 **Zcash Open Development Lab (ZODL)** Ọ bụ onye na-arụ ọrụ n'ụlọ akụ. 
 - E guzobere ya na Jenụwarị 2026 site n'aka ndị mmepe mbụ nke usoro Zcash (isi ECC engineering and product team) mgbe ha hapụsịrị Bootstrap / ECC. 
 - Nweta ihe karịrị $25 nde na ego mbido site n'aka ndị isi ọchụnta ego gụnyere a16z Crypto and Coinbase Ventures. 
 - Ndị otu, nke ndị mbụ mepụtara na mmepe nke usoro Zcash, gara n'ihu na-eme ka isi ihe dị mkpa, onyinye ZIP, yana ngwaọrụ nzuzo gụnyere obere akpa ego mkpanaka Zodl (nke a gbanwere site na Zashi). 
 - Enweghị ego na-akwụ ụgwọ n'elu usoro iwu; arụ ọrụ dị ka ụlọ nyocha nke onwe ya VC kwadoro lekwasịrị anya n'ịkwalite akụrụngwa nzuzo Zcash. 
--> Lee profaịlụ zuru ezu: [ZODL (n'asụsụ Bekee)](https://zechub.wiki/zcash-organizations/ZODL)  
+-> Lee profaịlụ zuru ezu: [ZODL](https://zechub.wiki/zcash-organizations/ZODL)  
 -> Ebe nrụọrụ weebụ: [zodl.com](https://zodl.com/)
   
 **Zcash Foundation (ZF) ** 
@@ -60,7 +60,7 @@ Ebumnuche a bụ ịkwaga site na njikwa nke nzukọ gaa n'ịchị achị ndị
 - Nwe akara ahia Zcash (nke ECC nyere na 2019) ma rụọ ọrụ dị mkpa n'ịchịkwa. 
 - Na-agba ndị Zcash Community Advisory Panel (ZCAP) ma na enyere aka n'ịkwado ntuliaka obodo. 
 - Na-arụ ọrụ dị ka Key Holder Organization n'okpuru atụmatụ ZIP 1016. 
--> Lee profaịlụ zuru ezu: [Ụlọ ọrụ Zcash Foundation](https://zechub.wiki/zcash-organizations/zcash-foundation)  
+-> Lee profaịlụ zuru ezu: [Zcash Foundation](https://zechub.wiki/zcash-organizations/zcash-foundation)  
 -> Ebe nrụọrụ weebụ: [zfnd.org](https://zfnd.org/)
 
 **Zcash Community Grants (ZCG)** Ndị na-enye ego n'ụlọ ọrụ ndị a. 

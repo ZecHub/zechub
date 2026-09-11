@@ -117,19 +117,19 @@ Menu ƒe mɔ siwo le ete la sɔ esime wowɔ axa sia yeyee, gake gakotoku ƒe ŋg
 
 Tsã la, enye Zashi. Cog si le ɖusime le etame, emegbe Advanced Settings. Tor hã nɔa screen ɖeka ma ke dzi. ZODL hã naa Switch server ƒe mɔ kpui aɖe ne sync ƒe kpododonu tso server la ƒe ɣeyiɣi si do xoxo gbɔ.
 
-#### Ywallet ƒe ŋkɔ
+#### Ywallet
 
 Cog si le etame le ɖusime, emegbe Zcash tab.
 
 ![Ywallet server settings](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
 
-#### Zingo ƒe nya
+#### Zingo
 
 Hamburger ƒe nuɖuɖu si le miame ƒe dzogoe si le etame, emegbe Settings, emegbe nàʋu ayi anyime.
 
 ![Zingo server settings](/content-images/ea8f7672-e644-41a5-a422-db131740404a-2626f5fa79.webp)
 
-#### eZcash ƒe nyawo
+#### eZcash
 
 Hamburger ƒe nuɖuɖu si le miame ƒe dzogoe si le etame, emegbe Settings, emegbe Advanced.
 

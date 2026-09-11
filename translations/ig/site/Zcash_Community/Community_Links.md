@@ -18,7 +18,7 @@ The Zcash community is very active in its community <span translate="no" class="
 
 - [Zcash Global](https://discord.gg/zcash) - Isi ihe nkesa obodo
 - [Zcash R&D](https://discord.gg/xpzPR53xtU) - Protocol na ndị mmepe mkparịta ụka
-- [Ụlọ ọrụ Zcash Foundation](https://discord.gg/na6QZNd) - Mmelite ntọala na ọchịchị ya.
+- [Zcash Foundation](https://discord.gg/na6QZNd) - Mmelite ntọala na ọchịchị ya.
 - [ZecHub DAO](https://discord.gg/zcash) - Ndị na-enye onyinye DAO Community
 
 ### <span translate="no" class="notranslate">Mastodon / Decentralized Social</span>

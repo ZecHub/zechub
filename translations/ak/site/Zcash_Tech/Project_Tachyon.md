@@ -77,7 +77,7 @@ Tachyon yɛ **nsusuwii, ɛnyɛ ade a wɔde mena**. Wɔtintim no wɔ Ayɛwohomum�
 
 Ɔkyerɛwfo no ankasa nhyehyɛe ne sɛ eyi yɛ nhyehyɛe a wobetumi de adi dwuma mmom sen nhwehwɛmu a wɔde nsusuwii hunu ayɛ, nanso ehia mfiridwuma mu mmɔdenbɔ a wɔde toto Sapling ho, a wɔahyɛ da agyaw nsɛmmisa bi a emu yɛ den ama akyiri yi.
 
-Adwuma a ɛfa ho no da adi dedaw. [Zakura na ɔkyerɛwee](https://zechub.wiki/zcash-tech/zakura-node), node a ɛyɛ pɛpɛɛpɛ a wɔyii no adi wɔ July 2026 mu no, yɛ mmɔdenbɔ a wɔaka abom a ɛda Project Tachyon ne Valar Kuo no ntam na ɛdi kan hwɛ nsakraeɛ a ɛba wɔ network-level yi bi. [Kokoam nsɛm a wogye](https://zechub.wiki/zcash-tech/private-information-retrieval) nhwehwɛmu de wɔn ani asi scanning bottleneck koro no ara so fi ɔkwan foforo so.
+Adwuma a ɛfa ho no da adi dedaw. [Zakura](https://zechub.wiki/zcash-tech/zakura-node), node a ɛyɛ pɛpɛɛpɛ a wɔyii no adi wɔ July 2026 mu no, yɛ mmɔdenbɔ a wɔaka abom a ɛda Project Tachyon ne Valar Kuo no ntam na ɛdi kan hwɛ nsakraeɛ a ɛba wɔ network-level yi bi. [Kokoam nsɛm a wogye](https://zechub.wiki/zcash-tech/private-information-retrieval) nhwehwɛmu de wɔn ani asi scanning bottleneck koro no ara so fi ɔkwan foforo so.
 
 <br/>
 

@@ -6,7 +6,7 @@
 # Nukae nye ZecHub?
 ---
 
-ZecHub nye sukudede ƒe dɔwɔƒe si woɖe ɖe vovo na Zcash. Taɖodzinu si le... [ZecHub ƒe ŋkɔ](http://zechub.xyz) nye be woana hehenana ƒe mɔnu si me nutoa me tɔwo ateŋu awɔ dɔ aduadu le le nyatakaka siwo doa alɔ Zcash ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa wɔwɔ, wo dzi dada, kple wo dodo ɖe ŋgɔ me. Míewɔa esia to mɔnu ʋɛ aɖewo dzi.
+ZecHub nye sukudede ƒe dɔwɔƒe si woɖe ɖe vovo na Zcash. Taɖodzinu si le... [ZecHub](http://zechub.xyz) nye be woana hehenana ƒe mɔnu si me nutoa me tɔwo ateŋu awɔ dɔ aduadu le le nyatakaka siwo doa alɔ Zcash ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖoa wɔwɔ, wo dzi dada, kple wo dodo ɖe ŋgɔ me. Míewɔa esia to mɔnu ʋɛ aɖewo dzi.
 
 1. [Nufiamewo](https://www.youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O)
 2. [Wiki-nuŋlɔɖiwo](https://zechub.wiki/)

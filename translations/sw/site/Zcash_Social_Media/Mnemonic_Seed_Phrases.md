@@ -78,7 +78,7 @@ Katika Zcash, ** mamlaka ya kutazama ** au ** kutumia mamlaka ** inaweza kuhamis
 
 Kutoka ** Expanded matumizi Key ** sisi kupata:
 - Full Viewing Key
-- Incoming Viewing Key (Funguo ya Kuona Inayoingia)
+- Incoming Viewing Key
 - Seti ya anwani za malipo
 
 Mifumo tofauti ya derivation kuzalisha nje anwani yanafaa kwa ajili ya kutoa nje kwa watumaji katika mabwawa shielded (Sapling & Orchard).

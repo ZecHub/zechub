@@ -97,7 +97,7 @@ ZIP 226 defines the OrchardZSA protocol — an extension of the Orchard protocol
 
 pendekezo ZSA kwa ajili ya kulindwa Mali (ZSA / UDA) iliwasilishwa na [QEDIT](https://qed-it.com/) Timu ya kujenga mali generic ulinzi juu Zcash blockchain. Hizi ni kawaida inajulikana kama User Defined Mali (UDA) au kama Zcash Shielded Mali, (ZSA).
 
-Kwa pendekezo hili, timu katika [QEDIT] iliamua kuanzisha programu ya utafiti wa hali ya juu.](https://qed-it.com/) mipango ya kuleta DeFi kwa mazingira Zcash na, wakati huo huo kuwezesha matumizi ya teknolojia bora faragha ndani ya mfumo wa ikolojia zilizopo za DeFi. Katika utafiti uchaguzi, timu aliuliza, na jamii akajibu kwamba [generic walinzi mali (ZSA / UDA) ni kipengele zaidi ombi katika sasa](https://twitter.com/BenarrochDaniel/status/1428327864034791429).
+Kwa pendekezo hili, timu katika [QEDIT](https://qed-it.com/) mipango ya kuleta DeFi kwa mazingira Zcash na, wakati huo huo kuwezesha matumizi ya teknolojia bora faragha ndani ya mfumo wa ikolojia zilizopo za DeFi. Katika utafiti uchaguzi, timu aliuliza, na jamii akajibu kwamba [generic walinzi mali (ZSA / UDA) ni kipengele zaidi ombi katika sasa](https://twitter.com/BenarrochDaniel/status/1428327864034791429).
 
 Mapendekezo haya ni kiufundi wanaambatana na [Zcash Uboreshaji Pendekezo (ZIP) ](https://zips.z.cash/zip-0000) vipimo na ni ilivyoelezwa katika ZIP 226 & ZIP227.
 

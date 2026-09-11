@@ -16,7 +16,7 @@ The stack changed a great deal in 2026. zcashd, si nɔ network la dzi kpɔm le e
 | Node blibo | Zebra alo Zakura | [Zebra ƒe Agbalẽa](https://zebra.zfnd.org/), [zakura.com dzi](https://zakura.com/) |
 | Blibo node gakotoku | Zallet, le beta me | [Zallet ƒe Agbalẽa](https://zcash.github.io/zallet/) |
 | Light wallet server | Zaino or lightwalletd | [Zaino](https://github.com/zingolabs/zaino), [lightwalletd](https://github.com/zcash/lightwalletd) |
-| Gakotoku ƒe agbalẽdzraɖoƒewo | librustzcash ƒe aɖakawo | [librustzcash ƒe ŋkɔ](https://github.com/zcash/librustzcash) |
+| Gakotoku ƒe agbalẽdzraɖoƒewo | librustzcash ƒe aɖakawo | [librustzcash](https://github.com/zcash/librustzcash) |
 | Asitelefon dzi | Android kple iOS SDKwo | [Android dzi](https://github.com/zcash/zcash-android-wallet-sdk), [iOS](https://github.com/zcash/zcash-swift-wallet-sdk) |
 | Nusiwo wogblɔ tso eŋu | Protocol spec kple ZIPwo | [zips.z.ga si wotsɔna xɔa gae](https://zips.z.cash) |
 
@@ -32,7 +32,7 @@ ZecHub ƒe a [Nodes Blibowo](/zcash-tech/full-nodes) axa si ƒo nu tso asitsatsa
 
 ## Node ƒe gakotoku bliboa
 
-zcashd bla gakotoku aɖe kple node la. Gakotoku ma megali o, eye... [Zallet ƒe ŋkɔ](https://github.com/zcash/zallet) ye nye esi woatsɔ aɖo eteƒe. Zallet Agbalẽa ɖɔe be enye "Zcash gakotoku si ƒe node blibo si woŋlɔ ɖe Rust me" si "wotu abe zcashd gakotokua teƒe ene".
+zcashd bla gakotoku aɖe kple node la. Gakotoku ma megali o, eye... [Zallet](https://github.com/zcash/zallet) ye nye esi woatsɔ aɖo eteƒe. Zallet Agbalẽa ɖɔe be enye "Zcash gakotoku si ƒe node blibo si woŋlɔ ɖe Rust me" si "wotu abe zcashd gakotokua teƒe ene".
 
 Xlẽ dedienɔnɔ ŋuti nuxlɔ̃amea hafi nànɔ te ɖe edzi. Zallet le beta me, "womelé ŋku ɖe eŋu bliboe o", tɔtrɔ siwo gblẽ "ate ŋu adzɔ ɣesiaɣi, si abia be nàtutu wò Zallet gakotokua eye nàgbugbɔ awɔe", eye menye zcashd RPC mɔnu ɖesiaɖee wotsɔ yi haɖe o.
 
@@ -48,7 +48,7 @@ The [Kekeli ƒe Asitsaha ƒe Ðoɖowɔɖi](https://zcash.readthedocs.io/en/lates
 
 ## Gakotoku tutu
 
-Gakotokudɔ akpa gãtɔ dzɔna le Rust crates te [librustzcash ƒe ŋkɔ](https://github.com/zcash/librustzcash), si dzi asitelefon dzi SDK-wo kple kɔmpiutadzigakotoku geɖe tua ɖo. Woŋlɔa agbalẽ ɖe aɖaka ɖesiaɖe dzi [docs.rs](https://docs.rs).
+Gakotokudɔ akpa gãtɔ dzɔna le Rust crates te [librustzcash](https://github.com/zcash/librustzcash), si dzi asitelefon dzi SDK-wo kple kɔmpiutadzigakotoku geɖe tua ɖo. Woŋlɔa agbalẽ ɖe aɖaka ɖesiaɖe dzi [docs.rs](https://docs.rs).
 
 | Crate | Nusi wònye na |
 |:--|:--|
@@ -70,7 +70,7 @@ The [protocol ƒe nɔnɔmetatawo](https://zips.z.cash/protocol/protocol.pdf) nye
 
 [ZIP-wo](https://zips.z.cash) nye afisi wodo tɔtrɔwo ƒe susu ɖa le eye wogblɔ wo le, eye index la ɖea esiwo nye nuŋlɔɖiwo kple esiwo nye mamlɛtɔ fiana. Consensus ƒe tɔtrɔwo meli le network upgrades me, eye ZecHub léa ŋku ɖe amesiwo le... [Netwɔƒea ƒe Ðɔɖɔɖowo](/start-here/network-upgrades) axa 10.
 
-Ne èdi nya ɣaɣla siwo le ete la, xlẽe [Halo2 Agbalẽa](https://zcash.github.io/halo2/index.html) kple [The Orchard Book](https://zcash.github.io/orchard/), kple [halo2](https://docs.rs/halo2_proofs/latest/halo2_proofs/) kple [atikutsetsebɔ](https://docs.rs/orchard/latest/orchard/) crate docs le axadzi. [FROST ƒe Agbalẽa](https://frost.zfnd.org/) ƒoa nu tso threshold signatures ŋu, eye ZecHub ƒe a [FROST ƑE NUÐEÐEŊUTI](/zcash-tech/frost) axa 10.
+Ne èdi nya ɣaɣla siwo le ete la, xlẽe [Halo2 Agbalẽa](https://zcash.github.io/halo2/index.html) kple [The Orchard Book](https://zcash.github.io/orchard/), kple [halo2](https://docs.rs/halo2_proofs/latest/halo2_proofs/) kple [atikutsetsebɔ](https://docs.rs/orchard/latest/orchard/) crate docs le axadzi. [FROST ƒe Agbalẽa](https://frost.zfnd.org/) ƒoa nu tso threshold signatures ŋu, eye ZecHub ƒe a [FROST](/zcash-tech/frost) axa 10.
 
 ## Dodokpɔ ƒe mɔ̃
 

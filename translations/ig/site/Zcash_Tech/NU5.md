@@ -100,7 +100,7 @@ Orchard is built on the Halo 2 proving system, which needs no trusted setup and 
 
 [Ọdọ Mmiri Ndị E Chebere Echiche Ha Na Ya](../using-zcash/shielded-pools)
 
-[Halo (ụtụtụ ọma)](../zcash-tech/halo)
+[Halo](../zcash-tech/halo)
 
 [zk-SNARKS](../zcash-tech/zk-snarks)
 

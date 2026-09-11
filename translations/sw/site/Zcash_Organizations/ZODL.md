@@ -98,5 +98,5 @@ ZODL's guiding philosophy is centered on the concept of "Guardian of the Soverei
 
 - [Electric Coin Company](Electric_Coin_Company.md)
 - [Zcash Foundation](Zcash_Foundation.md)
-- [Zingo Maabara](Zingo_Labs.md)
+- [Zingo Labs](Zingo_Labs.md)
 - [Labs Shielded](Shielded_Labs.md)

@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Osisi osisi Sapling
+# Sapling
 
 > Sapling gara ndụ na Zcash mainnet na ngọngọ 419,200 (Ọktoba 29, 2018, 02:15 UTC).
 
@@ -85,7 +85,7 @@ Under Sprout, building a shielded transaction took minutes and used gigabytes of
 - [zk-SNARKS](../zcash-tech/zk-snarks)
 - [Nwelite netwọk Zcash](../start-here/network-upgrades)
 - [Akpa ego](../using-zcash/wallets)
-- [Ụlọ ọrụ Electric Coin Company](../zcash-organizations/electric-coin-company)
+- [Electric Coin Company](../zcash-organizations/electric-coin-company)
 
 ---
 

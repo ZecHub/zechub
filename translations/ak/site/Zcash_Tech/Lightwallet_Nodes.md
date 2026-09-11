@@ -79,7 +79,7 @@ Kɔkɔbɔ abien. Tor de wo IP sie server no, nanso ɛnsesa nea server no sua fi 
 
 ### Zaino, Rust indexer no
 
-[Zaino na ɔkyerɛwee](/zcash-tech/zaino) yɛ indexer a Zingo kuw no kyerɛwee wɔ Rust mu, a wɔasi sɛ wɔde besi lightwalletd ananmu sɛ zcashd deprecation adwuma no fã. Ɛsom hann afɛfoɔ, afɛfoɔ a wɔyɛ pɛ, ne block explorers, kenkan nkɔnsɔnkɔnsɔn data a "Zebra anaa Zcashd full validator" kura mu.
+[Zaino](/zcash-tech/zaino) yɛ indexer a Zingo kuw no kyerɛwee wɔ Rust mu, a wɔasi sɛ wɔde besi lightwalletd ananmu sɛ zcashd deprecation adwuma no fã. Ɛsom hann afɛfoɔ, afɛfoɔ a wɔyɛ pɛ, ne block explorers, kenkan nkɔnsɔnkɔnsɔn data a "Zebra anaa Zcashd full validator" kura mu.
 
 Ɛwɔ nkɔsoɔ a ɛyɛ nnam ase, a version 0.8.0 a wɔayi no adi wɔ Oforisuo 2026. Ɛde asi n’ani so sɛ ɛbɛtena akyi a ɛne lightwalletd hyia wɔ baabi a ɛbɛyɛ yie, enti sika kotokuo bɛtumi atwe adwene asi so a wɔrensan nkyerɛw bio.
 
@@ -87,7 +87,7 @@ Zaino wɔ n’ankasa krataafa a ɛwɔ architecture diagrams, enti saa krataafa y
 
 ### W’ankasa wo de a wotu mmirika
 
-Ɔkwan a emu yɛ den sen biara ne sɛ wobɛyɛ w’ankasa adwumayɛfo, na eyi ahotoso ho asɛmmisa no fi hɔ koraa. Server abien no nyinaa yɛ open source: [lightwalletd a wɔde ahyɛ mu](https://github.com/zcash/lightwalletd) wɔ Kɔ na [Zaino na ɔkyerɛwee](https://github.com/zingolabs/zaino) wɔ Rust mu. Wɔn baanu nyinaa kenkan fi validator a edi mũ mu, enti wo nso wobɛpɛ [Zebra](/zcash-tech/zebra-full-node).
+Ɔkwan a emu yɛ den sen biara ne sɛ wobɛyɛ w’ankasa adwumayɛfo, na eyi ahotoso ho asɛmmisa no fi hɔ koraa. Server abien no nyinaa yɛ open source: [lightwalletd](https://github.com/zcash/lightwalletd) wɔ Kɔ na [Zaino](https://github.com/zingolabs/zaino) wɔ Rust mu. Wɔn baanu nyinaa kenkan fi validator a edi mũ mu, enti wo nso wobɛpɛ [Zebra](/zcash-tech/zebra-full-node).
 
 ## Nkyerɛkyerɛmu a mfaso wɔ so
 
@@ -117,7 +117,7 @@ Menu akwan a ɛwɔ aseɛ ha no teɛ berɛ a wɔyɛɛ krataafa yi foforɔ, nanso 
 
 Kan no na wɔfrɛ no Zashi. Cog a ɛwɔ soro nifa so, afei Advanced Settings. Tor te screen koro no ara mu. ZODL nso de Switch server shortcut ma bere a sync huammɔdi bi aba esiane sɛ server no bere atwam nti.
 
-#### Ywallet na ɔkyerɛwee
+#### Ywallet
 
 Cog a ɛwɔ soro nifa so, afei Zcash tab no.
 
@@ -129,7 +129,7 @@ Hamburger menu a ɛwɔ soro benkum so, afei Settings, afei twe kɔ fam.
 
 ![Zingo server settings](/content-images/ea8f7672-e644-41a5-a422-db131740404a-2626f5fa79.webp)
 
-#### eZcash na ɛyɛ
+#### eZcash
 
 Hamburger menu a ɛwɔ soro benkum so, afei Settings, afei Advanced.
 
@@ -155,7 +155,7 @@ Sika kotoku a emu yɛ hare ma wo shielded pool a enni disk space, a ɛyɛ aguadi
 
 - [Hena na Obetumi Ahu Wo Zcash Katua](/start-here/who-can-see-your-zcash-payment) — adwene a wofi ase de wo asemmisa koro no ara ho.
 - [Nea Block Explorer Betumi Ahu](/zcash-tech/what-a-block-explorer-can-see) — nea wohu wɔ nkɔnsɔnkɔnsɔn so, a ɛne wɔ server no bɔ abira.
-- [Zaino na ɔkyerɛwee](/zcash-tech/zaino) — architecture diagrams ne dwuma a ɛtrɛw a Rust indexer no di.
+- [Zaino](/zcash-tech/zaino) — architecture diagrams ne dwuma a ɛtrɛw a Rust indexer no di.
 - [Zebra Full Node a Ɛyɛ Fɛ](/zcash-tech/zebra-full-node) — validator a hann sika kotoku server kenkan fi mu.
 - [Zcash Sikakorabea Syncing](/zcash-tech/zcash-wallet-syncing) — sɛnea compact blocks a server de mena no, wo sika kotoku no di ho dwuma.
 

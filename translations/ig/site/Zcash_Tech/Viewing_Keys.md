@@ -78,9 +78,9 @@ Ihe ahụ bụ: [Akpa ego](/using-zcash/wallets) page tracks viewing-key support
 
 ## Ịbubata igodo nlele dị ka akaụntụ elekere naanị
 
-### Zkool (ụlọ akwụkwọ)
+### Zkool
 
-[Zkool (ụlọ akwụkwọ)](https://github.com/hhanh00/zkool2) bụ nhọrọ kachasị mfe ebe a, n'ihi na ọ nabatara igodo ndị dị iche iche nakwa dịka ihe ochie. Ihe ndekọ ya nke README akwụkwọ-na-ahụ naanị e kere site ** unified viewing key** ma ọ bụ isi okwu mmeghe Sapling gbasaa , tinyere mkpịsị ugodi agbatiri agbapụla si zcashd . Tinye akaụntụ ọhụrụ, họrọ ụzọ ngosi ahụ nanị, wee tinye paswọọdụ gị maka ịlele faịlụ ọzọ iji nweta ohere ịnweta ozi ederede mgbe niile. `uview…` or `zxviews…` igodo; akaụntụ ahụ na-eme ka mmekọrịta ma kọọ akụkọ ihe mere eme na akụkọ ntolite n'enweghị ikike mmefu.
+[Zkool](https://github.com/hhanh00/zkool2) bụ nhọrọ kachasị mfe ebe a, n'ihi na ọ nabatara igodo ndị dị iche iche nakwa dịka ihe ochie. Ihe ndekọ ya nke README akwụkwọ-na-ahụ naanị e kere site ** unified viewing key** ma ọ bụ isi okwu mmeghe Sapling gbasaa , tinyere mkpịsị ugodi agbatiri agbapụla si zcashd . Tinye akaụntụ ọhụrụ, họrọ ụzọ ngosi ahụ nanị, wee tinye paswọọdụ gị maka ịlele faịlụ ọzọ iji nweta ohere ịnweta ozi ederede mgbe niile. `uview…` or `zxviews…` igodo; akaụntụ ahụ na-eme ka mmekọrịta ma kọọ akụkọ ihe mere eme na akụkọ ntolite n'enweghị ikike mmefu.
 
 Nkwado usoro Ironwood na mbata nke Orchard-to-Ironwood rutere Zkool 6.24.0 (20 July 2026), yana nchọpụta azụmahịa ironwood ziri ezi na mempool. Gbaa ọsọ 6.26.1 ma ọ bụ mgbe e mesịrị.
 
