@@ -22,4 +22,4 @@ Use este [modelo](https://github.com/ZecHub/zechub/blob/main/newsletter/newslet
 - https://zechubrazil.substack.com/
 
 
-*Se você gostaria de adicionar ou sugerir edições a esta página wiki, vá para o [ZecHub github repo](https://github.com/ZecHub/zechub/blob/main/notionsiteonly/zcashsocialmedia/zecweeklynewsletter.md ) e envie uma solicitação pull.*
+*Se você gostaria de adicionar ou sugerir edições a esta página wiki, vá para o [ZecHub github repo](https://github.com/ZecHub/zechub/blob/main/site/zechubglobal/zcashbrasil/m%C3%ADdiasocialzcash/boletinsinformativos.md ) e envie uma solicitação pull.*

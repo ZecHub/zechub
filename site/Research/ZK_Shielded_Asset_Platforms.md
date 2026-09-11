@@ -85,7 +85,7 @@ For example, consider an NFT listing on Solana; its public state (e.g., price) i
 
 
 
-**[Dark.fi](https://dark.fi/)**: DarkFi is an anonymous L1 based on zero-knowledge, multi-party computation, and homomorphic encryption. Anonymous proof-of-stake ensures validators are hidden. DarkFi offers an anti-fragile environment to create and run anonymous apps - **Asset Swap**: Yes - [Whitepaper](https://darkrenaissance.github.io/darkfi/) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
+**[Dark.fi](https://dark.fi/)**: DarkFi is an anonymous L1 based on zero-knowledge, multi-party computation, and homomorphic encryption. Anonymous proof-of-stake ensures validators are hidden. DarkFi offers an anti-fragile environment to create and run anonymous apps - **Asset Swap**: Yes - [Documentation](https://dark.fi/book/) - ![Darkfi.png](/content-images/0-auQOzkLMfYdoXlRy-b10ed91da5.webp)
 ***
 
 

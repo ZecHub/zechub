@@ -38,5 +38,5 @@ Alguém descobriu que seu parceiro havia enviado um arquivo por meio de um memor
 
 - https://youtu.be/vSLmoOd_s_8
 
-Se você gostaria de adicionar ou sugerir edições a esta página wiki, vá para o [ZecHub](https://github.com/ZecHub/zechub/blob/main/site/usingzec/memos.md) [repositório github](https://github.com/ZecHub/zechub/blob/main/site/usingzec/memos.md) e enviar uma Pull Request.
+Se você gostaria de adicionar ou sugerir edições a esta página wiki, vá para o [ZecHub](https://github.com/ZecHub/zechub/blob/main/site/zechubglobal/zcashbrasil/zec/Memos.Trad.Pt.md) [repositório github](https://github.com/ZecHub/zechub/blob/main/site/zechubglobal/zcashbrasil/zec/Memos.Trad.Pt.md) e enviar uma Pull Request.
 

@@ -19,7 +19,7 @@ La newsletter de cette semaine nous plongera dans les derniers événements de l
 
 Cette semaine, nous verrons un système décentralisé qui peut être utilisé pour stocker et partager des fichiers sur Internet via un outil connu sous le nom de système de fichiers interplanétaires (IPF).Dans ce didacticiel, vous apprendrez également comment publier votre site Web sur IPFS pour activer un processus décentralisé complet sur votre site Web.
 
-Learn more about IPFS [here](https://wiki.zechub.xyz/zfav/guides/publish-a-site-on-ipfs) 
+Learn more about IPFS [here](https://github.com/ZecHub/zechub/blob/main/site/ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md) 
 
 
 
