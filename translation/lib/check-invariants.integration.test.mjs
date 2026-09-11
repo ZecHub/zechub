@@ -1,0 +1,296 @@
+// Integration tests for check-invariants.mjs, run against REAL git repositories.
+//
+// Why these exist, and why here. The unit tests next door cover the predicates.
+// They do not cover the wiring, and the wiring is where the defects have been:
+// a review demonstrated that severing the call site — passing a constant instead
+// of the real value — restored a laundering bypass with every unit test still
+// green. Two earlier regressions in this file lived in the same layer.
+//
+// They sit in translation/lib/ because the repo's CI runs
+// `node --test translation/lib/*.test.mjs`; a test elsewhere would not run at
+// all, which is the failure mode this is meant to prevent.
+//
+// Each case builds a throwaway repo, commits a base, commits a change on top,
+// and asserts the checker's EXIT CODE. Exit code is the whole contract: a gate
+// that returns 0 has admitted whatever it was shown.
+import { test } from "node:test";
+import assert from "node:assert/strict";
+import { execFileSync } from "node:child_process";
+import { mkdtempSync, mkdirSync, writeFileSync, rmSync, cpSync, readFileSync, chmodSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
+import { hashPage } from "./normalize-hash.mjs";
+
+const HERE = dirname(fileURLToPath(import.meta.url));
+const REPO = join(HERE, "..", "..");
+const CHECKER = join("translation", "check-invariants.mjs");
+
+const EN_PAGE = "guides/Demo.md";
+const EN_BODY = "# Demo\n\nSee [explorers](https://zechub.wiki/guides/blockchain-explorers).\n";
+const TR_BODY = "# Demo\n\nVedi [explorers](https://zechub.wiki/guides/blockchain-explorers).\n";
+const LOC = "it";
+
+function git(cwd, ...args) {
+  return execFileSync("git", args, { cwd, encoding: "utf8" });
+}
+
+/** A minimal but REAL repo the checker can run against. */
+function makeRepo() {
+  const dir = mkdtempSync(join(tmpdir(), "inv-"));
+  git(dir, "init", "-q", "-b", "main");
+  git(dir, "config", "user.email", "t@t");
+  git(dir, "config", "user.name", "t");
+  const write = (rel, text) => {
+    mkdirSync(join(dir, dirname(rel)), { recursive: true });
+    writeFileSync(join(dir, rel), text);
+  };
+  // the checker and the libs it imports, copied from the repo under test
+  mkdirSync(join(dir, "translation", "lib"), { recursive: true });
+  cpSync(join(REPO, CHECKER), join(dir, CHECKER));
+  for (const lib of ["normalize-hash.mjs", "verified-noops.mjs", "extract-title.mjs", "frontmatter.mjs", "term-forms.mjs"]) {
+    try { cpSync(join(REPO, "translation", "lib", lib), join(dir, "translation", "lib", lib)); } catch { /* optional */ }
+  }
+  write(`site/${EN_PAGE}`, EN_BODY);
+  write(`translations/${LOC}/site/${EN_PAGE}`, TR_BODY);
+  write("translation/curated-pages.txt", `${EN_PAGE}\n`);
+  const entry = {
+    src: hashPage(EN_BODY), src_commit: "0".repeat(40), engine: "llm",
+    mode: "diff", tool: "t", edited: false,
+  };
+  write("translation/sync-state.json", JSON.stringify({ [LOC]: { [EN_PAGE]: entry } }, null, 2) + "\n");
+  git(dir, "add", "-A");
+  git(dir, "commit", "-qm", "base");
+  return {
+    dir, write,
+    base: git(dir, "rev-parse", "HEAD").trim(),
+    manifest: () => JSON.parse(readFileSync(join(dir, "translation/sync-state.json"), "utf8")),
+    setManifest: (m) => write("translation/sync-state.json", JSON.stringify(m, null, 2) + "\n"),
+    commit: (msg) => { git(dir, "add", "-A"); git(dir, "commit", "-qm", msg); },
+    /** the checker's exit code against the base */
+    run(base) {
+      return this.runOut(base).code;
+    },
+    /** exit code AND stdout — notices are part of the contract, not just the code */
+    runOut(base) {
+      try {
+        const out = execFileSync("node", [CHECKER, "--base", base || this.base], { cwd: dir, encoding: "utf8", stdio: "pipe" });
+        return { code: 0, out };
+      } catch (e) { return { code: e.status ?? 1, out: `${e.stdout || ""}${e.stderr || ""}` }; }
+    },
+    cleanup: () => rmSync(dir, { recursive: true, force: true }),
+  };
+}
+
+const EN_HASH = hashPage(EN_BODY);
+const TR_HASH = hashPage(TR_BODY);
+const NEW_EN = EN_BODY.replace("blockchain-explorers", "block-explorers");
+
+function bumpSrcTo(r, hash) {
+  const m = r.manifest();
+  m[LOC][EN_PAGE].src = hash;
+  r.setManifest(m);
+}
+
+test("a clean repo passes", () => {
+  const r = makeRepo();
+  try { assert.equal(r.run(), 0); } finally { r.cleanup(); }
+});
+
+test("a bare source bump with no translation change is REFUSED", () => {
+  // The invariant this gate exists for.
+  const r = makeRepo();
+  try {
+    r.write(`site/${EN_PAGE}`, NEW_EN);
+    bumpSrcTo(r, hashPage(NEW_EN));
+    r.commit("bump only");
+    assert.equal(r.run(), 1);
+  } finally { r.cleanup(); }
+});
+
+test("a listed page whose English and translation both still match is ALLOWED", () => {
+  const r = makeRepo();
+  try {
+    r.write(`site/${EN_PAGE}`, NEW_EN);
+    bumpSrcTo(r, hashPage(NEW_EN));
+    r.write("translation/verified-noops.txt", `${LOC}/${EN_PAGE}  ${hashPage(NEW_EN)}  ${TR_HASH}\n`);
+    r.commit("bump + authorisation");
+    assert.equal(r.run(), 0);
+  } finally { r.cleanup(); }
+});
+
+test("APPROVE-FIRST: an authorisation landed before the bump still applies", () => {
+  // The natural order when the pipeline opens its own pull requests: a person
+  // grants the exception, and the automation's NEXT run advances the record. An
+  // earlier design required the line to be new in the same change, which made
+  // this permanently impossible while telling the operator to add a line that
+  // was already in the file.
+  const r = makeRepo();
+  try {
+    // step 1 — the human: new English, and the authorisation. No bump yet.
+    r.write(`site/${EN_PAGE}`, NEW_EN);
+    r.write("translation/verified-noops.txt", `${LOC}/${EN_PAGE}  ${hashPage(NEW_EN)}  ${TR_HASH}\n`);
+    r.commit("human approves ahead of time");
+    const approved = git(r.dir, "rev-parse", "HEAD").trim();
+
+    // step 2 — the automation: advance the record, touching nothing else.
+    bumpSrcTo(r, hashPage(NEW_EN));
+    r.commit("automation settles the page");
+
+    assert.equal(r.run(approved), 0);
+  } finally { r.cleanup(); }
+});
+
+test("REPLAY: a line stops applying once the translation has moved on", () => {
+  const r = makeRepo();
+  try {
+    const TR2 = TR_BODY + "\nnuova riga\n";
+    r.write(`translations/${LOC}/site/${EN_PAGE}`, TR2);
+    r.write("translation/verified-noops.txt", `${LOC}/${EN_PAGE}  ${hashPage(NEW_EN)}  ${TR_HASH}\n`);
+    const m = r.manifest(); m[LOC][EN_PAGE].tool = "t+edit"; r.setManifest(m);
+    r.commit("translation moves on; stale line left behind");
+    const mid = git(r.dir, "rev-parse", "HEAD").trim();
+    r.write(`site/${EN_PAGE}`, NEW_EN);
+    bumpSrcTo(r, hashPage(NEW_EN));
+    r.commit("try to use the stale line");
+    assert.equal(r.run(mid), 1);
+  } finally { r.cleanup(); }
+});
+
+test("a listed English hash that is not the file on disk is REFUSED", () => {
+  const r = makeRepo();
+  try {
+    const ghost = "sha256:" + "e".repeat(64);
+    bumpSrcTo(r, ghost);
+    r.write("translation/verified-noops.txt", `${LOC}/${EN_PAGE}  ${ghost}  ${TR_HASH}\n`);
+    r.commit("bless a source that never existed");
+    assert.equal(r.run(), 1);
+  } finally { r.cleanup(); }
+});
+
+test("an edited:true page cannot be settled by an authorisation", () => {
+  const r = makeRepo();
+  try {
+    const m0 = r.manifest(); m0[LOC][EN_PAGE].edited = true; r.setManifest(m0);
+    r.commit("hold the page");
+    const held = git(r.dir, "rev-parse", "HEAD").trim();
+    r.write(`site/${EN_PAGE}`, NEW_EN);
+    const m = r.manifest(); m[LOC][EN_PAGE].edited = false; m[LOC][EN_PAGE].src = hashPage(NEW_EN); r.setManifest(m);
+    r.write("translation/verified-noops.txt", `${LOC}/${EN_PAGE}  ${hashPage(NEW_EN)}  ${TR_HASH}\n`);
+    r.commit("unhold and settle in one change");
+    assert.equal(r.run(held), 1);
+  } finally { r.cleanup(); }
+});
+
+test("a mode-only change does NOT count as a translation edit", () => {
+  // chmod +x leaves the bytes identical. Counting it as a change satisfied both
+  // directions at once and settled a stale page with no authorisation at all.
+  const r = makeRepo();
+  try {
+    r.write(`site/${EN_PAGE}`, NEW_EN);
+    bumpSrcTo(r, hashPage(NEW_EN));
+    chmodSync(join(r.dir, `translations/${LOC}/site/${EN_PAGE}`), 0o755);
+    r.commit("mode-only + bump");
+    assert.equal(r.run(), 1);
+  } finally { r.cleanup(); }
+});
+
+test("a real translation edit with recorded provenance passes", () => {
+  const r = makeRepo();
+  try {
+    r.write(`site/${EN_PAGE}`, NEW_EN);
+    r.write(`translations/${LOC}/site/${EN_PAGE}`, TR_BODY.replace("blockchain-explorers", "block-explorers"));
+    const m = r.manifest(); m[LOC][EN_PAGE].src = hashPage(NEW_EN); m[LOC][EN_PAGE].tool = "t+pass"; r.setManifest(m);
+    r.commit("real re-translation");
+    assert.equal(r.run(), 0);
+  } finally { r.cleanup(); }
+});
+
+test("an inert line naming a page that is not curated does not fail the build", () => {
+  // Retiring a page must not be blocked by a leftover authorisation.
+  const r = makeRepo();
+  try {
+    r.write("translation/verified-noops.txt", `${LOC}/guides/Gone.md  ${EN_HASH}  ${TR_HASH}\n`);
+    r.commit("leftover line for a page that no longer exists");
+    assert.equal(r.run(), 0);
+  } finally { r.cleanup(); }
+});
+
+// ---------------------------------------------------------------------------
+// Regressions found in round-3 review. Each of these passed the whole suite
+// before it was written, which is the reason it is written.
+
+test("a mode-only change on a `-diff` path does NOT count as a translation edit", () => {
+  // `--numstat` prints "-\t-" for a path marked `-diff` even when the blob is
+  // untouched, so a line-count reading called an untouched file "changed" and
+  // let a bare source bump through. Blob identity is what actually settles it.
+  const r = makeRepo();
+  try {
+    r.write(".gitattributes", `translations/${LOC}/site/${EN_PAGE} -diff\n`);
+    r.commit("mark the translation path -diff");
+    const base = git(r.dir, "rev-parse", "HEAD").trim();
+
+    const EN2 = EN_BODY.replace("explorers", "block explorers");
+    r.write(`site/${EN_PAGE}`, EN2);
+    chmodSync(join(r.dir, `translations/${LOC}/site/${EN_PAGE}`), 0o755);
+    const m = r.manifest();
+    m[LOC][EN_PAGE].src = hashPage(EN2);
+    r.setManifest(m);
+    r.commit("bump src, chmod the translation, change nothing inside it");
+
+    assert.equal(r.run(base), 1, "a chmod on a -diff path must not satisfy Direction 2");
+  } finally { r.cleanup(); }
+});
+
+test("an expired line actually PRINTS its notice (English moved on)", () => {
+  // The notice loop was dead for its whole life: it called translationHash()
+  // above that cache's `const`, and the ReferenceError was swallowed by the
+  // try/catch meant to stop housekeeping ending the run. Exit code alone could
+  // never see it, so this asserts on the output.
+  const r = makeRepo();
+  try {
+    const stale = "sha256:" + "0".repeat(64);
+    r.write("translation/verified-noops.txt", `${LOC}/${EN_PAGE}  ${stale}  ${hashPage(TR_BODY)}\n`);
+    r.commit("list a page against an English that is not on disk");
+    const { code, out } = r.runOut(git(r.dir, "rev-parse", "HEAD").trim());
+    assert.equal(code, 0, "an expired line is housekeeping, never a failure");
+    assert.match(out, /no longer applies — the English it names has changed/);
+  } finally { r.cleanup(); }
+});
+
+test("an expired line actually PRINTS its notice (translation moved on)", () => {
+  const r = makeRepo();
+  try {
+    const stale = "sha256:" + "1".repeat(64);
+    r.write("translation/verified-noops.txt", `${LOC}/${EN_PAGE}  ${hashPage(EN_BODY)}  ${stale}\n`);
+    r.commit("list a page against a translation that is not on disk");
+    const { code, out } = r.runOut(git(r.dir, "rev-parse", "HEAD").trim());
+    assert.equal(code, 0);
+    assert.match(out, /no longer applies — the translation it names has changed/);
+  } finally { r.cleanup(); }
+});
+
+test("a renamed-and-edited translation is still seen as changed", () => {
+  // `--numstat -z` reports a rename as "added\tdeleted\t\0old\0new\0" — the
+  // path field is EMPTY and two more fields follow — so a record-per-line
+  // reading dropped the record entirely. `--no-renames` keeps one path per
+  // record: the rename arrives as a delete plus an add.
+  const r = makeRepo();
+  try {
+    const NEW = "guides/Renamed.md";
+    r.write("translation/curated-pages.txt", `${NEW}\n`);
+    git(r.dir, "mv", `site/${EN_PAGE}`, `site/${NEW}`);
+    git(r.dir, "mv", `translations/${LOC}/site/${EN_PAGE}`, `translations/${LOC}/site/${NEW}`);
+    r.write(`translations/${LOC}/site/${NEW}`, TR_BODY.replace("Vedi", "Guarda"));
+    const m = r.manifest();
+    m[LOC][NEW] = m[LOC][EN_PAGE];
+    delete m[LOC][EN_PAGE];
+    r.setManifest(m);
+    r.commit("move the page and edit the translation in the same commit");
+
+    // The destination is a NEW manifest key, so neither direction can fire on
+    // it — but the run must stay parseable and green rather than erroring on a
+    // record shape it did not expect.
+    assert.equal(r.run(), 0);
+  } finally { r.cleanup(); }
+});

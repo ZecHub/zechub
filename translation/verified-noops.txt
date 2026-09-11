@@ -22,23 +22,39 @@
 # takes two parties who agree.
 #
 # HOW TO ADD A LINE
-#   <locale>/<page>  <the sha256 of the English it is about>
-# The check prints the exact line to add when it refuses a page, so you can copy
-# it. Add one only when you have looked and are satisfied the committed
-# translation really is correct for that English.
+#   <locale>/<page>  sha256:<the English it is about>  sha256:<the translation you checked>
+# Two hashes, and both of them matter. The first says which English version you
+# read. The second pins the translated file you looked at. The check prints the
+# whole line for you when it refuses a page, so you can copy it verbatim. Add one
+# only when you have read the committed translation and are satisfied it really
+# is correct for that English.
 #
-# A LINE IS USED ONCE
-# An authorisation is spent by the pull request that introduces it. Once a line is
-# on main it no longer grants anything, so a forgotten line cannot become a
-# standing permit — if that page later needs the exception again, it needs a new
-# line naming the new English.
+# "Pins" means the same thing here as everywhere else in this pipeline: both
+# hashes are taken after normalising line endings, trailing whitespace, volatile
+# front matter and Unicode to NFC. So two canonically-equivalent spellings of the
+# same text are one file as far as this gate is concerned. That is deliberate and
+# it should stay that way — hashing raw bytes here while the rest of the pipeline
+# hashes normalised text would let a page count as "changed" for the exception
+# and "unchanged" for the translator at the same moment, which is precisely the
+# unsettleable state this file exists to get out of.
+#
+# A LINE GRANTS NOTHING ON ITS OWN
+# Because a line names both sides, it stops granting the moment either side
+# moves. Change the English and the first hash no longer matches; change the
+# translation and the second no longer does. A line left behind after the page
+# has moved on is inert — it cannot mature into "ignore this page forever", which
+# is the failure this file exists to avoid.
+#
+# That is also why the order of the commits does not matter. You can add the line
+# before the automation settles the page or after it: the check compares the line
+# against what is actually on disk, never against what an earlier version of this
+# file used to say.
 #
 # HOW A LINE GOES AWAY
-# Nothing deletes lines automatically, and nothing needs to: they are inert once
-# merged, and each names the exact English version it was about. The check prints
-# a `note:` when a line has expired or has been spent, so you can tidy at your
-# convenience. Those notes never fail the check — housekeeping should not turn a
-# build red.
+# Nothing deletes lines automatically, and nothing needs to: an entry that no
+# longer matches the files grants nothing. The check prints a `note:` for lines
+# that have stopped matching, so you can tidy at your convenience. Those notes
+# never fail the check — housekeeping should not turn a build red.
 #
 # ---------------------------------------------------------------------------
 # The entries below, and how they got stuck — worth reading, because the same
@@ -56,23 +72,23 @@
 # The cheap prevention is upstream: a change that edits translations to match an
 # English edit should advance `src` in the same commit, not only `tool`.
 
-ar/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c
-de/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c
-es/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c
-fr/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c
-it/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c
-ko/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c
-pt/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c
-ru/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c
-tr/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c
-uk/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c
-ar/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809
-de/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809
-es/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809
-it/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809
-ja/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809
-ko/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809
-pt/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809
-ru/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809
-tr/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809
-zh/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809
+ar/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c  sha256:793454a46bbc939c86f24065776ec4f4b0f61bf23ecbdac9ceb49f848e57c383
+de/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c  sha256:333b5c475189088b067e66c9eb559e8689f8b2d38cbe60e20769fb912386f33e
+es/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c  sha256:b1007b1186b68de4e5f893687fa3ba077e58d02045816139e3ff2a2815fc5185
+fr/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c  sha256:2c763c2a6c46239e5d32224bb03575966e7f0861f394691c75070bfbdac1d6e6
+it/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c  sha256:3f6cb43847a2a2179d0d2821f234eaba43752e2f0e56d516c6fdbd7bd32205b6
+ko/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c  sha256:7b21589be81f8487a8376d954394aa5a38e7fb1e86106c265f40a4d2664b48a2
+pt/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c  sha256:bcdcea4497fdb7d95d00155d7e9c468be08545de16e7bf666b1d2e6daaf8f603
+ru/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c  sha256:f7708cc437f48499f00c2adf7ed849903ab045ceed7a86737a1854d31bd046ef
+tr/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c  sha256:6de2d5e7fae72094411eb7a2c14fe0b4917045b878a8d74b1e176a0ebc89133a
+uk/guides/Akash_Network_Zcashd.md  sha256:d425b917d3958a079d4cdf5f63aeb68c73d2eec58fa7c23c08639c249f065f1c  sha256:7d5748dafb7b949ed681c1e9e81b2c952df3a18d64ac8329a4d00bb1a6c42a01
+ar/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809  sha256:9da0b24e88665c9772865c95cedf5fea09adce46e2662037e4835fbaca6f08b5
+de/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809  sha256:ea2e08453200b213fdda895e4c97a526b4af3a6bbe685e3590c1b8359a5b724f
+es/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809  sha256:5f29bf5f56a692e0bf4def64ac4fc4b7ecac44a6e81897073ce17cb7bb316288
+it/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809  sha256:c9ca8937aa9a6e1d41bf22d6c82c70e6b2ab19f168ada3aef06121af9682fa34
+ja/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809  sha256:5c41f89f51a4b884c27d1c4cb7231f986d1a30ebe2cde7b22f511c196f77d88a
+ko/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809  sha256:a404d7cfb7f6acffe22c73f8133c54153fe6250f2d4516c65a4f5e5df3ab9652
+pt/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809  sha256:4755c792c1fe7f79dd14df2a49582e1a444109e18b04329e195cf9a79375cb3c
+ru/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809  sha256:a6581f70f472ffd9762523ada250c0b551f1f771f6817a3ab80558c7b52bbe75
+tr/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809  sha256:ef91971ac3ef3b9469aa7a4623cf6fd32a386f8c848e45c5e98e87283caa0632
+zh/guides/Akash_Network_Zebra.md  sha256:ec1a4f782c1adbb5696d7b867c6135c93193f334d9bfe92947b0dc268cab9809  sha256:0a3f50d5a902f52cef782599b093dd97d2186387f3c252e8524cf57a9f785cc8

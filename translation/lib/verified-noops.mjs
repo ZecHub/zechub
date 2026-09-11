@@ -28,7 +28,15 @@
 // become a standing "ignore this page".
 //
 //     # comments and blank lines are allowed
-//     it/guides/Akash_Network_Zcashd.md  sha256:<64 hex>
+//     it/guides/Akash_Network_Zcashd.md  sha256:<english>  sha256:<translation>
+//
+// A line names BOTH sides of what was checked: the English it was verified
+// against, and the translation that was found already correct for it. That is
+// what makes the statement self-contained — and it is what lets a person approve
+// a page BEFORE the automation gets to it, which is the natural order when the
+// pipeline opens its own pull requests. The authorisation holds exactly while the
+// state it describes holds: change either side and it stops applying, because it
+// no longer describes anything that exists.
 //
 // Absent file, or empty, means no exceptions — exactly today's behaviour.
 
@@ -48,13 +56,17 @@ export function parseVerifiedNoops(text) {
     const line = raw.replace(/#.*$/, "").trim();
     if (!line) continue;
     const parts = line.split(/\s+/);
-    if (parts.length !== 2) {
-      errors.push(`line ${i + 1}: expected "<locale>/<page> <sha256:...>", got "${line}"`);
+    if (parts.length !== 3) {
+      errors.push(`line ${i + 1}: expected "<locale>/<page> <english sha256> <translation sha256>", got "${line}"`);
       continue;
     }
-    const [key, sha] = parts;
+    const [key, sha, trans] = parts;
     if (!SHA.test(sha)) {
-      errors.push(`line ${i + 1}: "${sha}" is not a sha256:<64 hex> hash`);
+      errors.push(`line ${i + 1}: english hash "${sha}" is not a sha256:<64 hex> hash`);
+      continue;
+    }
+    if (!SHA.test(trans)) {
+      errors.push(`line ${i + 1}: translation hash "${trans}" is not a sha256:<64 hex> hash`);
       continue;
     }
     if (!key.includes("/") || key.startsWith("/") || key.endsWith("/")) {
@@ -67,7 +79,7 @@ export function parseVerifiedNoops(text) {
       errors.push(`line ${i + 1}: duplicate entry for "${key}"`);
       continue;
     }
-    entries.set(key, sha);
+    entries.set(key, { src: sha, translation: trans });
   }
   return { entries, errors };
 }
@@ -79,19 +91,12 @@ export function parseVerifiedNoops(text) {
  *   - a human listed this exact page,
  *   - against this exact source hash,
  *   - which is genuinely the English on disk right now (not a hash of nothing),
- *   - the line is NEW in this change, so each authorisation is used once,
+ *   - the translation is still exactly the one that was looked at,
  *   - and the page is open to automated sync now AND at base, so nothing that
  *     was being deliberately held can be settled by the same change.
  */
-export function noopAllowed({ entry, baseEntry, listed, listedInBase, currentSourceHash }) {
+export function noopAllowed({ entry, baseEntry, listed, currentSourceHash, currentTranslationHash }) {
   if (!entry || !listed) return false;
-  // SINGLE USE. The authorisation is consumed by the pull request that introduces
-  // it. A line already present in the base has done its work and must never
-  // authorise a second, different transition — otherwise a leftover line is a
-  // standing permit: let the source move away and later return to the listed
-  // value (a revert is enough, no hash collision required) and the old line would
-  // bless a translation made for something else.
-  if (listedInBase === listed) return false;
   // `edited:true` holds a page out of automated sync, so nothing ever re-ran on
   // it. Required BOTH now and at base: otherwise one change can flip the flag to
   // false, bump the source and take the exception in the same breath, settling a
@@ -99,5 +104,13 @@ export function noopAllowed({ entry, baseEntry, listed, listedInBase, currentSou
   if (entry.edited !== false) return false;
   if (baseEntry && baseEntry.edited !== false) return false;
   if (typeof entry.src !== "string") return false;
-  return listed === entry.src && entry.src === currentSourceHash;
+  // Both sides of the statement must still be true. Pinning the TRANSLATION is
+  // what makes a stale line harmless without needing to know whether it is new:
+  // if the translation has moved on since a person looked at it, the line stops
+  // describing anything real. That closes the replay — let the source wander away
+  // and later return to a listed value and the translation will have changed in
+  // the meantime — while still letting an approval be granted ahead of time.
+  if (listed.src !== entry.src) return false;
+  if (entry.src !== currentSourceHash) return false;
+  return listed.translation === currentTranslationHash;
 }
