@@ -420,7 +420,7 @@ Mgbe ị kwụsịrị maọbụ chọọ ịkwụsị akwụ ụgwọ:
 
 -> Gaa na ** My Deployments**
 
--> Chọta gị zcashd nkenye ọnọdụ
+-> Chọta gị zcashd nkesa
 
 -> Pịa **"Mechie Ntinye aka"**
 
@@ -518,7 +518,7 @@ Mgbe ego gị gwụrụ, Akash ga-emechi nkenye gi. ** Tinye obere akpa gị oge
 
 ## Ihe Ndị E Kwuru ná Ngwụcha
 
-- ** Ihe nchekwa na-adịgide adịgide.** Emela ka * nọgidere: ezi ma ọ bụ jiri klas beta2 mee ihe. Jiri * beta3*.
+- ** Ihe nchekwa na-adịgide adịgide.** Emela * persistent: true ma ọ bụ jiri klas beta2. Jiri beta3.
 - **Mmemme mbụ na-adị nwayọ.** Nwee ndidi. Nke a bụ ihe dị mma maka ọnụ ọgụgụ blockchain.
 - **Jide ego gị.** Ntinye aka na-emechi onwe ya mgbe AKT gwụrụ.
 - ** Ndabere abụghị akpaka.** Ọ bụrụ na ị hụrụ data n'anya, chee na ọ nwere ike ikpochapụ ma mee atụmatụ dịka.
