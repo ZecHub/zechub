@@ -42,8 +42,9 @@
 # is correct for that English.
 #
 # "Pins" means the same thing here as everywhere else in this pipeline: both
-# hashes are taken after normalising line endings, trailing blank lines, stray
-# end-of-line spaces and tabs, volatile front matter, and Unicode to NFC. (A
+# hashes are taken after stripping a leading byte-order mark and normalising line
+# endings, trailing blank lines, stray end-of-line spaces and tabs, volatile
+# front matter, and Unicode to NFC. (A
 # Markdown hard break — two or more trailing spaces — is deliberately NOT
 # normalised away, because losing one changes how the page renders.) So two
 # canonically-equivalent spellings of the same text are one file as far as this
@@ -85,11 +86,17 @@
 # translations.
 #
 # It recorded that pass by changing `tool` on every entry, which satisfies the
-# "a changed translation must record why" rule, but it never advanced `src`. So
-# all 36 became out of date against an English change their own translations
-# already contained. 16 were settled by later sync runs that happened to produce
-# some other difference; these 20 had nothing left to differ, so they could never
-# be settled and were re-offered in every run.
+# "a changed translation must record why" rule, but it never advanced `src`.
+#
+# Note the size of that, because the shape is the point and it is easy to
+# understate. The commit did this to 72 entries across FOUR pages — 18 locales
+# each of Akash_Network_Zcashd, Akash_Network_Zebra, FROST_Threshold_Custody and
+# multisigdemo/MultiSigDemo — all of which became out of date against an English
+# change their own translations already contained. Two of those pages drifted
+# into a later sync run that produced some other difference, which settled them.
+# Of the 36 on the two Akash pages, 16 settled the same way; these 20 had nothing
+# left to differ, so they could never be settled and were re-offered in every
+# run.
 #
 # The cheap prevention is upstream: a change that edits translations to match an
 # English edit should advance `src` in the same commit, not only `tool`.

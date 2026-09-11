@@ -505,7 +505,7 @@ if (baseArgInvalid) {
     } else if (!baseUnreadable) {
       let changed;
       try {
-        changed = execFileSync("git", ["diff", "--raw", "-z", "--no-abbrev", "--no-renames", `${mergeBase}..HEAD`, "--", "translations/"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
+        changed = execFileSync("git", ["diff", "--raw", "-z", "--no-abbrev", "--no-renames", mergeBase, "--", "translations/"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
       } catch (e) {
         // The base resolved but the diff failed — do not treat as "no changes".
         fail(`git diff against base ${mergeBase.slice(0, 12)} failed: ${e.message}`);
@@ -541,6 +541,27 @@ if (baseArgInvalid) {
           return null;
         }
       };
+      // Everything here reads the working tree — the diff is base-vs-disk, and
+      // currentHash/translationHash read disk too, so the answer is coherent. But
+      // it is an answer ABOUT DISK, and CI will be asking about your commit. Say
+      // so when the two can differ, or a contributor reads "invariants hold" as a
+      // promise about what they are pushing.
+      try {
+        const dirty = execFileSync("git", ["status", "--porcelain", "-z", "--", "site/", "translations/", "translation/"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
+        const n = dirty.split("\0").filter((x) => x.trim() !== "").length;
+        if (n > 0) {
+          note(`${n} uncommitted change(s) under site/, translations/ or translation/ — this run describes your WORKING TREE, not the commit CI will check. Commit before trusting a green result.`);
+        }
+      } catch { /* status is advisory; never let it end the run */ }
+
+      const worktreeText = (rel) => {
+        try {
+          return readFileSync(join(root, rel), "utf8");
+        } catch (e) {
+          fail(`could not read ${rel} from the working tree: ${e.message}`);
+          return null;
+        }
+      };
       const rawFields = changed.split("\0");
       const changedPaths = [];
       for (let i = 0; i + 1 < rawFields.length; i += 2) {
@@ -566,10 +587,23 @@ if (baseArgInvalid) {
             fail(`${path} ${side} not a regular file (mode ${mode}) — translations must be ordinary files, not symlinks or submodules.`);
           }
         }
-        if (NULL_OID.test(srcOid) || NULL_OID.test(dstOid)) { changedPaths.push(path); continue; } // added or deleted
+        // A mode of 000000 is a real addition or deletion; that is a change.
+        if (srcMode === "000000" || dstMode === "000000") { changedPaths.push(path); continue; }
         const before = blobText(srcOid);
-        const after = blobText(dstOid);
-        if (before === null || after === null) { changedPaths.push(path); continue; }
+        // Diffing a commit against the working tree, git reports a null oid for
+        // anything not staged — it has no object to name yet. The content still
+        // exists, on disk, which is where the rest of this checker looks, so read
+        // it there. Calling a null oid "changed" without looking would undo the
+        // whole point of comparing normalised text.
+        const after = NULL_OID.test(dstOid) ? worktreeText(path) : blobText(dstOid);
+        if (before === null || after === null) {
+          // Unreadable blob. `fail()` above has already made the run red, but do
+          // NOT also call this path "changed": that classification is what
+          // SATISFIES Direction 2, so an unreadable object would be arguing that
+          // a source bump is fine. Fail-closedness has to live in the decision
+          // itself, not in a separate accumulator that a later edit might soften.
+          continue;
+        }
         if (hashPage(before) !== hashPage(after)) changedPaths.push(path);
       }
       const changedSet = new Set(
@@ -623,7 +657,15 @@ if (baseArgInvalid) {
             // name. With no file on disk the hash is null, and printing that
             // would hand the operator a line the parser rejects.
             const th = translationHash(loc, page);
-            const suggestion = th === null
+            // The file is whitespace-separated and treats `#` as a comment, so a
+            // page path containing either cannot be written as a line at all.
+            // None are curated today, but 39 such files exist under site/, and
+            // printing a line that cannot parse would send someone to a build
+            // that is permanently red for a reason the message does not mention.
+            const inexpressible = /[\s#]/.test(`${loc}/${page}`);
+            const suggestion = inexpressible
+              ? `this page cannot be authorised: its path contains whitespace or "#", which ${VERIFIED_NOOPS_PATH} has no way to express — rename the page, or settle it with a real translation change`
+              : th === null
               ? `there is no translation file at translations/${loc}/site/${page} to name, so the exception cannot apply — the missing file is the thing to fix`
               : `a human can record that in ${VERIFIED_NOOPS_PATH} as "${loc}/${page} ${now.src} ${th}" — naming both the English checked and the translation found already correct for it`;
             fail(`${loc}/${page}: manifest src changed but the translation file did not — a hash bump alone would mark a stale translation "fresh". If the committed translation is genuinely already correct for this source, ${suggestion}.`);

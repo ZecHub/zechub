@@ -568,3 +568,94 @@ test("DIRECTION 1: a mode-only provenance change is a valid reason", () => {
     assert.equal(r.run(), 0, "recording the pass in `mode` must be accepted");
   } finally { r.cleanup(); }
 });
+
+test("an unreadable blob cannot satisfy Direction 2", () => {
+  // The run is red anyway because reading the blob fails. What this pins is the
+  // CLASSIFICATION: an unreadable object must not be counted as "the translation
+  // changed", or it would be arguing the source bump is fine. Softening the
+  // `fail()` to a notice used to admit a stale page; now the decision itself
+  // refuses.
+  const r = staleRepo();
+  try {
+    const base = r.base;
+    // remember the base blob of the translation, then advance leaving it stale
+    const oid = git(r.dir, "rev-parse", `${base}:translations/${LOC}/site/${EN_PAGE}`).trim();
+    r.advance((write) => write(`translations/${LOC}/site/${EN_PAGE}`, TR_BODY + "\nuna riga in piu\n"));
+    // make that object unreadable: loose objects live at .git/objects/ab/cdef...
+    const loose = join(r.dir, ".git", "objects", oid.slice(0, 2), oid.slice(2));
+    rmSync(loose, { force: true });
+    assert.equal(r.run(base), 1, "an unreadable blob must never license a source bump");
+  } finally { r.cleanup(); }
+});
+
+test("`--no-renames` is load-bearing: a PURE rename stays parseable", () => {
+  // The earlier rename test renamed AND edited a tiny file, so git reported a
+  // delete plus an add and no rename record was ever produced — it pinned
+  // nothing. A pure rename is what actually makes git emit `R`, whose -z record
+  // carries TWO path fields and breaks a one-path-per-record reading.
+  const r = makeRepo();
+  try {
+    const NEW = "guides/Renamed.md";
+    r.write("translation/curated-pages.txt", `${NEW}\n`);
+    git(r.dir, "mv", `site/${EN_PAGE}`, `site/${NEW}`);
+    git(r.dir, "mv", `translations/${LOC}/site/${EN_PAGE}`, `translations/${LOC}/site/${NEW}`);
+    const m = r.manifest();
+    m[LOC][NEW] = m[LOC][EN_PAGE];
+    delete m[LOC][EN_PAGE];
+    r.setManifest(m);
+    r.commit("move the page, touching not one byte of it");
+
+    // git with rename detection on would report R100 here; the checker must not
+    // trip over it. Force detection on to be sure we are exercising that shape.
+    git(r.dir, "config", "diff.renames", "true");
+    const { code, out } = r.runOut();
+    assert.equal(code, 0, out);
+    assert.doesNotMatch(out, /could not parse git raw diff record/,
+      "a rename record must never reach the parser");
+  } finally { r.cleanup(); }
+});
+
+test("a page whose path cannot be expressed says so, instead of printing a bad line", () => {
+  // The allowlist is whitespace-separated and `#` starts a comment, so a path
+  // containing either cannot be written as a line. Printing the usual "copy this"
+  // suggestion would hand someone a line that fails to parse — a permanently red
+  // build whose message never mentions the real reason.
+  const PAGE = "guides/Zcash #1 Guide.md";
+  const r = makeRepo();
+  try {
+    r.write(`site/${PAGE}`, EN_BODY);
+    r.write(`translations/${LOC}/site/${PAGE}`, TR_BODY);
+    r.write("translation/curated-pages.txt", `${EN_PAGE}\n${PAGE}\n`);
+    const m0 = r.manifest();
+    m0[LOC][PAGE] = { src: hashPage(EN_BODY), src_commit: "0".repeat(40), engine: "llm", mode: "diff", tool: "t", edited: false };
+    r.setManifest(m0);
+    r.commit("curate a page whose name has a space and a hash");
+    const base = git(r.dir, "rev-parse", "HEAD").trim();
+
+    const EN2 = EN_BODY.replace("blockchain-explorers", "block-explorers");
+    r.write(`site/${PAGE}`, EN2);
+    const m = r.manifest();
+    m[LOC][PAGE].src = hashPage(EN2);
+    r.setManifest(m);
+    r.commit("bump its source without touching the translation");
+
+    const { code, out } = r.runOut(base);
+    assert.equal(code, 1);
+    assert.match(out, /cannot be authorised: its path contains whitespace or "#"/);
+    assert.doesNotMatch(out, /a human can record that in/,
+      "it must not offer a line that cannot parse");
+  } finally { r.cleanup(); }
+});
+
+test("a dirty working tree is called out, because CI asks about the commit", () => {
+  // The whole check reads disk, so a dirty tree gets a coherent answer — about
+  // disk. That is not the question CI asks, and "invariants hold" must not be
+  // read as a promise about what is being pushed.
+  const r = makeRepo();
+  try {
+    writeFileSync(join(r.dir, `translations/${LOC}/site/${EN_PAGE}`), TR_BODY + "\nnon commesso\n");
+    const { out } = r.runOut();
+    assert.match(out, /uncommitted change\(s\) under site\/, translations\/ or translation\//);
+    assert.match(out, /describes your WORKING TREE/);
+  } finally { r.cleanup(); }
+});
