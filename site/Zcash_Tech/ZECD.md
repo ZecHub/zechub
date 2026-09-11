@@ -4,7 +4,7 @@
 
 # ZECD — Shielded-First Wallet Server
 
-> 🇧🇷 [Versão em Português](/zechubglobal/zcashbrasil/zcashtech/zecd)
+> 🇧🇷 [Versão em Português](https://github.com/ZecHub/zechub/blob/main/site/zechubglobal/zcashbrasil/zcashtech/zecd.md)
 
 ZECD is a shielded-first wallet server for Zcash, built on [librustzcash](https://github.com/zcash/librustzcash) and exposed through Bitcoin Core's JSON-RPC dialect. It gives developers and payment integrators a familiar, Bitcoin-compatible API for interacting with Zcash — while making Orchard (the most private pool) the default. Developed by [zec.rocks](https://zec.rocks), ZECD is designed to replace `zcashd`'s wallet functionality in modern, cloud-native deployments.
 
