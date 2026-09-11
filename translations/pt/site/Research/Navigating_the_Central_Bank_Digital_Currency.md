@@ -102,7 +102,7 @@ A inclusão financeira, antes um farol de esperança, enfrenta as sombras da pot
 Para aqueles que se aventuram no território inexplorado das CBDCs, os recursos tornam-se a sua bússola.
 1. O Banco de Compensações Internacionais ([BIS](https://www.bis.org/search?keywords=cbdc))
 2. o Fundo Monetário Internacional ([FMI](https://www.imf.org/en/About))
-3. Artigos de investigação ([artigo](https://deliverypdf.ssrn.com/delivery.php?ID=998105006000066124067099122099097121053040051018055094125101013098095097071065120123041031008002042043044095080119019124023085025010021006031087083026113098095102030064008046091121005002106021127103088122029021016098108064080120068125070088112093101069&EXT=pdf&INDEX=TRUE))
+3. Artigos de investigação ([artigo](https://papers.ssrn.com/searchresults.cfm?term=CBDC))
 4. Revistas académicas ([revista](https://www.bis.org/publ/work976.pdf))
 5. Artigo do C.E.I ([Artigo](https://cei.org/blog/central-banks-are-watching-lets-watch-them-back/))
 
