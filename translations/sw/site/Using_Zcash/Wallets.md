@@ -9,7 +9,7 @@
 
 ---
 
-## [Kipaji cha Ywallet](https://ywallet.app/installation/)
+## [Ywallet](https://ywallet.app/installation/)
 ![logo](/content-images/ywalletcard-0cd7232810.webp "Ywallet")
 - Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa uendeshaji: Android  iOS Windows Linux macOS
@@ -30,7 +30,7 @@
 
 ---
 
-## [Zingo (mnyama)!](https://www.zingolabs.org/)
+## [Zingo!](https://www.zingolabs.org/)
 ![logo](/content-images/zingocard-9a2546668d.webp "Zingo!")
 - Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa uendeshaji: Android  iOS Windows Linux
@@ -72,7 +72,7 @@
 
 ---
 
-## [Shule ya Zkool](https://github.com/hhanh00/zkool2/)
+## [Zkool](https://github.com/hhanh00/zkool2/)
 ![logo](/content-images/zkool-1-22ab388e65.webp "Zkool")
 - Vifaa: Simu ya mkononi  Desktop
 - Mfumo wa uendeshaji: Android  iOS Windows Linux
@@ -115,7 +115,7 @@
 
 ---
 
-## [Zallet (Kifungu cha kulia)](https://github.com/zcash/wallet)
+## [Zallet](https://github.com/zcash/wallet)
 ![logo](/content-images/Brandmark-Yellow-2eca7f6f68.webp "Zallet")
 - Vifaa: Desktop
 - Mfumo wa uendeshaji: Windows Linux MacOS
@@ -218,7 +218,7 @@
 
 ---
 
-## [Ledger (Kitabu cha hesabu)](https://www.ledger.com/coin/wallet/zcash)
+## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](/content-images/Desktop-Wallets-6e89fff408.webp "Ledger")
 - Vifaa:
 - Mfumo wa Uendeshaji:
