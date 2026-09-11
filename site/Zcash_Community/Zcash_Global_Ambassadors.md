@@ -39,6 +39,6 @@ Ambassadors have creative freedom over the activities they plan, enabling them t
 ## Apply to Become an Ambassador
 
 You can also get involved by:
-- Contributing to [ZecHub DAO](https://app.dework.xyz/zechub-2424) bounties
+- Contributing to [ZecHub](https://bounties.zechub.wiki/) bounties
 - Joining the [Zcash Global Discord](https://discord.gg/zcash)
 
