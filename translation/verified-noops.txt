@@ -17,9 +17,21 @@
 # WHY THE EXCEPTION LIVES HERE, AND NOT IN THE MANIFEST
 # The automation writes the manifest. If it could also write "I checked, this one
 # is fine", it would be marking its own homework: a single fault writes the claim
-# and the thing it claims about, and the check waves both through. This file is
-# edited BY HAND, and the automation cannot write it — so granting the exception
-# takes two parties who agree.
+# and the thing it claims about, and the check waves both through. Nothing in the
+# pipeline writes this file — it is edited by hand, so the claim and the thing it
+# claims about come from different places.
+#
+# Be precise about how far that goes, because the file used to overstate it.
+# Nothing PREVENTS the automation's credential from editing this file; there is
+# no CODEOWNERS rule on it yet, and adding one is the thing that would turn this
+# from a convention into a control. Nor does the check compare the list against
+# its previous version, so a single commit can add a line and take the exception
+# it grants in the same breath — the integration suite asserts exactly that,
+# because it is what makes an authorisation usable before the run it authorises.
+# What the file buys today is that the exception is a deliberate, reviewable,
+# hand-written statement that a person can be asked about, sitting somewhere no
+# automated pass has any reason to touch. That is worth having and it is not the
+# same thing as enforcement.
 #
 # HOW TO ADD A LINE
 #   <locale>/<page>  sha256:<the English it is about>  sha256:<the translation you checked>
@@ -30,8 +42,10 @@
 # is correct for that English.
 #
 # "Pins" means the same thing here as everywhere else in this pipeline: both
-# hashes are taken after normalising line endings, trailing whitespace, volatile
-# front matter and Unicode to NFC. So two canonically-equivalent spellings of the
+# hashes are taken after normalising line endings, trailing blank lines, stray
+# end-of-line spaces and tabs, volatile front matter, and Unicode to NFC. (A
+# Markdown hard break — two or more trailing spaces — is deliberately NOT
+# normalised away, because losing one changes how the page renders.) So two canonically-equivalent spellings of the
 # same text are one file as far as this gate is concerned. That is deliberate and
 # it should stay that way — hashing raw bytes here while the rest of the pipeline
 # hashes normalised text would let a page count as "changed" for the exception
@@ -60,9 +74,15 @@
 # The entries below, and how they got stuck — worth reading, because the same
 # shape will recur:
 #
-# Commit 9dcac0e4 (2026-09-01) moved two pages to new routes and, in the same
-# commit, rewrote the English AND all 36 translations to the new link. It
-# recorded that pass by changing `tool` on every entry, which satisfies the
+# Commit 9dcac0e4 (2026-09-01) deduplicated two pages that existed under two
+# routes each, deleting Using_Zcash/Blockchain_Explorers.md and
+# guides/frostdemo/Ywallet_FROST_Demo.md. The stuck pages are NOT those two.
+# They are guides/Akash_Network_Zcashd.md and guides/Akash_Network_Zebra.md,
+# which that same commit merely repointed at the surviving routes — one line
+# changed in each English page, and the matching line changed in all 36 of their
+# translations.
+#
+# It recorded that pass by changing `tool` on every entry, which satisfies the
 # "a changed translation must record why" rule, but it never advanced `src`. So
 # all 36 became out of date against an English change their own translations
 # already contained. 16 were settled by later sync runs that happened to produce

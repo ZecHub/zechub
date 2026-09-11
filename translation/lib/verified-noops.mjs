@@ -11,8 +11,10 @@
 // now out of date against a change its own translation already contains. A later
 // run re-translates, finds nothing to alter, and the record can never be
 // settled, so the page is offered again in every window, forever, producing
-// nothing. 9dcac0e4 did exactly that to 36 entries on two pages; 20 of them are
-// still stuck.
+// nothing. 9dcac0e4 did exactly that to 36 entries on two pages. Later runs
+// happened to produce some other difference on 16 of them, which settled those;
+// the remaining 20 had nothing left to differ and are the lines in
+// translation/verified-noops.txt.
 //
 // WHY A SEPARATE FILE, AND NOT A FIELD IN THE MANIFEST.
 // The pipeline writes the manifest. If the same pipeline could also write "I

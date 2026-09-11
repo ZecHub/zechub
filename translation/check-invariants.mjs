@@ -501,26 +501,42 @@ if (baseArgInvalid) {
     } else if (!baseUnreadable) {
       let changed;
       try {
-        changed = execFileSync("git", ["diff", "--raw", "-z", "--no-renames", `${mergeBase}..HEAD`, "--", "translations/"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
+        changed = execFileSync("git", ["diff", "--raw", "-z", "--no-abbrev", "--no-renames", `${mergeBase}..HEAD`, "--", "translations/"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
       } catch (e) {
         // The base resolved but the diff failed — do not treat as "no changes".
         fail(`git diff against base ${mergeBase.slice(0, 12)} failed: ${e.message}`);
         changed = "";
       }
-      // Whether a translation's BYTES changed is decided by blob identity, not by
-      // a line count. Two shapes fooled a line-count reading, and each one let a
-      // stale translation be marked current with nothing edited:
-      //   - a pure mode change (100644 -> 100755) reports 0 added / 0 deleted, and
-      //     a path marked `-diff` reports "-\t-" even when the blob is untouched;
-      //   - a renamed-and-edited file reports its paths in SEPARATE NUL fields,
-      //     so a record-per-line reading dropped it and missed a real edit.
-      // `--raw` gives the source and destination object ids directly, so the test
-      // is simply "did the content id move". `--no-renames` keeps every record to
-      // one path: a rename arrives as a delete plus an add, which is the honest
-      // reading — the file at that path really did appear or disappear.
+      // Whether a translation changed is decided by the SAME notion of "changed"
+      // that the rest of this pipeline uses — hashPage, which ignores line
+      // endings, trailing blank lines, volatile front matter and Unicode form.
+      //
+      // Raw blob identity is not that notion, and the gap was a hole you could
+      // drive a stale page through: append two blank lines to an out-of-date
+      // translation, advance `src` and `tool`, and Direction 1 saw recorded
+      // provenance while Direction 2 saw a changed blob. No exception, no human,
+      // and a translation still carrying the old text was marked current. Line
+      // counts had the same hole; a pure mode change and a `-diff` path were the
+      // narrow, zero-byte corner of it.
+      //
+      // So: cheap blob check first (identical oid cannot be a content change, and
+      // that alone disposes of chmod and of `-diff` paths), then compare the
+      // NORMALISED text of the two blobs. Direction 2 and the exception's
+      // translation pin now answer the same question.
       // Raw -z alternates a metadata field and a path field:
-      //   :<srcmode> <dstmode> <srcsha> <dstsha> <status>\0<path>\0
-      const RAW_META = /^:(\d{6}) (\d{6}) ([0-9a-f]+) ([0-9a-f]+) ([A-Z])/;
+      //   :<srcmode> <dstmode> <srcoid> <dstoid> <status>\0<path>\0
+      const RAW_META = /^:(\d{6}) (\d{6}) ([0-9a-f]{40,}) ([0-9a-f]{40,}) ([A-Z])/;
+      const NULL_OID = /^0+$/;
+      const blobText = (oid) => {
+        try {
+          return execFileSync("git", ["cat-file", "blob", oid], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
+        } catch (e) {
+          // Unreadable blob: we cannot say the file is unchanged, and guessing is
+          // how a stale translation gets waved through. Refuse the run.
+          fail(`could not read git blob ${oid.slice(0, 12)}: ${e.message}`);
+          return null;
+        }
+      };
       const rawFields = changed.split("\0");
       const changedPaths = [];
       for (let i = 0; i + 1 < rawFields.length; i += 2) {
@@ -531,8 +547,15 @@ if (baseArgInvalid) {
           if (rawFields[i] !== "") fail(`could not parse git raw diff record "${rawFields[i].slice(0, 80)}" — refusing to guess which translations changed.`);
           continue;
         }
-        const [, , , srcSha, dstSha] = meta;
-        if (srcSha !== dstSha) changedPaths.push(rawFields[i + 1]);
+        const [, , , srcOid, dstOid] = meta;
+        const path = rawFields[i + 1];
+        if (srcOid === dstOid) continue;                       // mode-only, incl. `-diff` paths
+        if (!/^translations\/[^/]+\/site\/.+\.md$/.test(path)) { changedPaths.push(path); continue; }
+        if (NULL_OID.test(srcOid) || NULL_OID.test(dstOid)) { changedPaths.push(path); continue; } // added or deleted
+        const before = blobText(srcOid);
+        const after = blobText(dstOid);
+        if (before === null || after === null) { changedPaths.push(path); continue; }
+        if (hashPage(before) !== hashPage(after)) changedPaths.push(path);
       }
       const changedSet = new Set(
         changedPaths

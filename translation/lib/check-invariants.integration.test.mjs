@@ -72,11 +72,26 @@ function makeRepo() {
       return this.runOut(base).code;
     },
     /** exit code AND stdout — notices are part of the contract, not just the code */
-    runOut(base) {
+    runOut(base, env) {
       try {
-        const out = execFileSync("node", [CHECKER, "--base", base || this.base], { cwd: dir, encoding: "utf8", stdio: "pipe" });
+        // process.execPath, not "node": these runs may strip PATH on purpose.
+        const out = execFileSync(process.execPath, [CHECKER, "--base", base || this.base], {
+          cwd: dir, encoding: "utf8", stdio: "pipe",
+          env: { ...process.env, ...(env || {}) },
+        });
         return { code: 0, out };
       } catch (e) { return { code: e.status ?? 1, out: `${e.stdout || ""}${e.stderr || ""}` }; }
+    },
+    /** run with `git ls-files` failing but the rest of git working */
+    runWithBrokenLsFiles() {
+      const shim = mkdtempSync(join(tmpdir(), "shim-"));
+      const real = execFileSync("sh", ["-c", "command -v git"], { encoding: "utf8" }).trim();
+      writeFileSync(join(shim, "git"),
+        `#!/bin/sh\nfor a in "$@"; do\n  if [ "$a" = "ls-files" ]; then echo "fatal: simulated ls-files failure" >&2; exit 128; fi\ndone\nexec ${real} "$@"\n`);
+      chmodSync(join(shim, "git"), 0o755);
+      try {
+        return this.runOut(this.base, { PATH: `${shim}:${process.env.PATH}` });
+      } finally { rmSync(shim, { recursive: true, force: true }); }
     },
     cleanup: () => rmSync(dir, { recursive: true, force: true }),
   };
@@ -212,7 +227,10 @@ test("an inert line naming a page that is not curated does not fail the build", 
   try {
     r.write("translation/verified-noops.txt", `${LOC}/guides/Gone.md  ${EN_HASH}  ${TR_HASH}\n`);
     r.commit("leftover line for a page that no longer exists");
-    assert.equal(r.run(), 0);
+    const { code, out } = r.runOut();
+    assert.equal(code, 0, "retiring a page must not be blocked by a leftover line");
+    assert.match(out, /names a page that is not curated/,
+      "and the leftover must still be pointed at, or it is invisible rather than inert");
   } finally { r.cleanup(); }
 });
 
@@ -292,5 +310,116 @@ test("a renamed-and-edited translation is still seen as changed", () => {
     // it — but the run must stay parseable and green rather than erroring on a
     // record shape it did not expect.
     assert.equal(r.run(), 0);
+  } finally { r.cleanup(); }
+});
+
+// ---------------------------------------------------------------------------
+// Round-3, second pass. The first four came from reviewers; these come from the
+// one finding that outranked them all, plus the mutations that still survived.
+
+/** A repo whose translation is GENUINELY stale: it still carries the old link. */
+function staleRepo() {
+  const r = makeRepo();
+  const EN2 = EN_BODY.replace("blockchain-explorers", "block-explorers");
+  return {
+    ...r,
+    /** advance the English and the manifest, leaving the translation stale */
+    advance(mutateTranslation) {
+      r.write(`site/${EN_PAGE}`, EN2);
+      if (mutateTranslation) mutateTranslation(r.write);
+      const m = r.manifest();
+      m[LOC][EN_PAGE].src = hashPage(EN2);
+      m[LOC][EN_PAGE].tool = "t+pass2";   // satisfies Direction 1
+      r.setManifest(m);
+      r.commit("advance the English, record a pass, leave the translation stale");
+    },
+  };
+}
+
+test("a stale translation cannot be settled by appending blank lines", () => {
+  // THE hole this round found. hashPage ignores trailing blank lines, so this is
+  // an edit the pipeline itself calls "no edit" — but it moves the git blob. When
+  // Direction 2 asked git "did the blob change" instead of "did the page change",
+  // a translation still carrying the old link was marked current with no
+  // exception and no human anywhere near it.
+  const r = staleRepo();
+  try {
+    r.advance((write) => write(`translations/${LOC}/site/${EN_PAGE}`, TR_BODY + "\n\n"));
+    assert.equal(r.run(), 1, "trailing blank lines are not a translation edit");
+  } finally { r.cleanup(); }
+});
+
+test("a stale translation cannot be settled by switching to CRLF", () => {
+  const r = staleRepo();
+  try {
+    r.advance((write) => write(`translations/${LOC}/site/${EN_PAGE}`, TR_BODY.replace(/\n/g, "\r\n")));
+    assert.equal(r.run(), 1, "line endings are not a translation edit");
+  } finally { r.cleanup(); }
+});
+
+test("a real translation edit is still accepted (control for the two above)", () => {
+  const r = staleRepo();
+  try {
+    r.advance((write) => write(`translations/${LOC}/site/${EN_PAGE}`, TR_BODY.replace("blockchain-explorers", "block-explorers")));
+    assert.equal(r.run(), 0, "a genuine retranslation must still pass");
+  } finally { r.cleanup(); }
+});
+
+test("a failed git listing is reported as a failed listing", () => {
+  // When `git ls-files` threw, the catch returned an empty Set. That does NOT go
+  // vacuously green — `locales` comes from the manifest, so every declared locale
+  // then reports "no translations directory" and the build is red either way.
+  // What it costs is the diagnosis: one accurate line becomes an avalanche of
+  // violations blaming the corpus for a broken listing. So the contract worth
+  // pinning is the MESSAGE, which an exit code alone cannot see.
+  const r = makeRepo();
+  try {
+    const { code, out } = r.runWithBrokenLsFiles();
+    assert.equal(code, 1, "an unreadable listing must never pass");
+    assert.match(out, /could not list translations\//,
+      "the run must say the listing failed, not blame the corpus for being absent");
+  } finally { r.cleanup(); }
+});
+
+test("a malformed allowlist line fails the build", () => {
+  const r = makeRepo();
+  try {
+    r.write("translation/verified-noops.txt", `${LOC}/${EN_PAGE}  ${hashPage(EN_BODY)}\n`); // one hash short
+    r.commit("half a line");
+    assert.equal(r.run(), 1, "an unparseable authorisation must not be shrugged off as a notice");
+  } finally { r.cleanup(); }
+});
+
+test("a duplicate allowlist key fails the build", () => {
+  const r = makeRepo();
+  try {
+    const line = `${LOC}/${EN_PAGE}  ${hashPage(EN_BODY)}  ${hashPage(TR_BODY)}`;
+    r.write("translation/verified-noops.txt", `${line}\n${line}\n`);
+    r.commit("the same page authorised twice");
+    assert.equal(r.run(), 1);
+  } finally { r.cleanup(); }
+});
+
+test("a base entry with no `edited` field is refused, not admitted", () => {
+  // The predicate is fail-closed on both sides (`!== false`). Pin that, because
+  // the looser reading (`!== true`) passes every other test in this suite.
+  const r = makeRepo();
+  try {
+    const m0 = r.manifest();
+    delete m0[LOC][EN_PAGE].edited;          // base entry lacks the flag entirely
+    r.setManifest(m0);
+    r.commit("base entry without an edited flag");
+    const base = git(r.dir, "rev-parse", "HEAD").trim();
+
+    const EN2 = EN_BODY.replace("blockchain-explorers", "block-explorers");
+    r.write(`site/${EN_PAGE}`, EN2);
+    r.write("translation/verified-noops.txt", `${LOC}/${EN_PAGE}  ${hashPage(EN2)}  ${hashPage(TR_BODY)}\n`);
+    const m = r.manifest();
+    m[LOC][EN_PAGE].src = hashPage(EN2);
+    m[LOC][EN_PAGE].edited = false;
+    r.setManifest(m);
+    r.commit("authorise and bump");
+
+    assert.equal(r.run(base), 1, "an unknown base `edited` state must not be treated as false");
   } finally { r.cleanup(); }
 });
