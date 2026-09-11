@@ -46,6 +46,7 @@ import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { execFileSync } from "node:child_process";
 import { hashPage } from "./lib/normalize-hash.mjs";
+import { parseVerifiedNoops, noopAllowed } from "./lib/verified-noops.mjs";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
 const VALID_ENGINES = new Set(["llm", "nllb", "gt"]);
@@ -81,6 +82,11 @@ function baseRef() {
 
 const violations = [];
 const fail = (msg) => violations.push(msg);
+// Non-fatal. A notice is for something a human should tidy but that is not wrong:
+// it must never change the exit code, or an ordinary edit elsewhere would turn
+// this check red for housekeeping.
+const notices = [];
+const note = (msg) => notices.push(msg);
 
 // ---- load data ------------------------------------------------------------
 
@@ -99,6 +105,25 @@ try {
   report();
 }
 const locales = Object.keys(manifest);
+
+// ---- the human-authored Direction 2 exception list ------------------------
+// Absent means no exceptions, which is exactly the behaviour before it existed.
+const VERIFIED_NOOPS_PATH = "translation/verified-noops.txt";
+const verifiedNoops = (() => {
+  const abs = join(root, VERIFIED_NOOPS_PATH);
+  if (!existsSync(abs)) return new Map();
+  const { entries, errors } = parseVerifiedNoops(readFileSync(abs, "utf8"));
+  for (const e of errors) fail(`${VERIFIED_NOOPS_PATH}: ${e}`);
+  for (const key of entries.keys()) {
+    const [loc, ...rest] = key.split("/");
+    const page = rest.join("/");
+    // A line naming a page or locale that does not exist is a typo, and a typo
+    // here silently grants nothing while looking like it grants something.
+    if (!manifest[loc]) fail(`${VERIFIED_NOOPS_PATH}: unknown locale "${loc}" in "${key}"`);
+    else if (!curatedSet.has(page)) fail(`${VERIFIED_NOOPS_PATH}: "${page}" is not a curated page (in "${key}")`);
+  }
+  return entries;
+})();
 
 // ---- locale universe: manifest keys ⇔ translations/<loc> directories ------
 // The manifest defines the locale universe for detection, so it must not be
@@ -309,6 +334,25 @@ for (const loc of locales) {
   }
 }
 
+// ---- expired exception lines ----------------------------------------------
+// A line in verified-noops.txt names the English version it is about, so it stops
+// applying by itself once that page's English moves on. Expiry is the design
+// working, not a fault — so this is a notice, never a failure. Without it the
+// file would silently accumulate lines nobody can tell are dead.
+//
+// The other way a line dies — its PR having merged — needs the base manifest to
+// tell apart "already settled" from "settling right now", so it is reported
+// further down, inside the change-tracking block.
+for (const [key, sha] of verifiedNoops) {
+  const [loc, ...rest] = key.split("/");
+  const page = rest.join("/");
+  if (!manifest[loc] || !curatedSet.has(page)) continue;   // already failed above
+  const current = currentHash(page);
+  if (current !== null && current !== sha) {
+    note(`${VERIFIED_NOOPS_PATH}: "${key}" no longer applies — it names ${sha.slice(0, 19)}… but that page's English is now ${current.slice(0, 19)}…, so the line can be removed`);
+  }
+}
+
 // ---- change-tracking (git, optional) --------------------------------------
 
 // Set when --base was passed but carries no usable value. Distinct from "no
@@ -380,6 +424,7 @@ if (baseArgInvalid) {
     // silent skip. `ls-tree` is also cheaper: it answers from the tree objects
     // and never needs the blob at all.
     let baseManifest = null;
+    let baseVerifiedNoops = new Map();
     let firstIntroduction = false;
     let baseUnreadable = false;
     const baseManifestPath = `${mergeBase}:translation/sync-state.json`;
@@ -402,6 +447,40 @@ if (baseArgInvalid) {
     } else if (!baseUnreadable) {
       try {
         baseManifest = JSON.parse(execFileSync("git", ["show", baseManifestPath], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT }));
+        // The allowlist as it stood at the base, so an authorisation can be spent
+        // exactly once.
+        //
+        // Absence and failure must not look alike here. An empty base list makes
+        // every line look NEW, which silently removes the single-use guard and
+        // reopens laundering — with a green exit and no message. That is the same
+        // inference this file already warns about twice, and it is worse on this
+        // repo: it is cloned --filter=blob:none, so an unreachable promisor turns
+        // a network hiccup into a disabled safeguard. So probe with ls-tree,
+        // where absence and presence are both exit 0 and distinguished by output,
+        // and treat a non-zero exit as a failure rather than as "no file".
+        let noopsAtBase = null;
+        try {
+          noopsAtBase = execFileSync(
+            "git",
+            ["ls-tree", "--name-only", mergeBase, "--", VERIFIED_NOOPS_PATH],
+            { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT },
+          );
+        } catch (e) {
+          fail(
+            `could not determine whether ${VERIFIED_NOOPS_PATH} exists at base ${mergeBase.slice(0, 12)} ` +
+            `(${e.code || e.message}) — refusing to treat that as "no exceptions were spent", ` +
+            `which would let a spent line authorise again.`,
+          );
+        }
+        if (noopsAtBase !== null && noopsAtBase.trim() !== "") {
+          try {
+            baseVerifiedNoops = parseVerifiedNoops(
+              execFileSync("git", ["show", `${mergeBase}:${VERIFIED_NOOPS_PATH}`], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT }),
+            ).entries;
+          } catch (e) {
+            fail(`could not read ${VERIFIED_NOOPS_PATH} at base ${mergeBase.slice(0, 12)} (${e.code || e.message}) — refusing to guess that it was empty.`);
+          }
+        }
       } catch (e) {
         baseUnreadable = true;
         fail(
@@ -455,6 +534,17 @@ if (baseArgInvalid) {
         }
       }
 
+      // A line whose entry was ALREADY at this source before the change is spent:
+      // Direction 2 only consults the list when a change advances `src`, so such
+      // a line cannot be doing anything for this PR or any later one. Reported
+      // only against the base, so the very PR that settles an entry is not told
+      // its own lines are useless.
+      for (const [key, sha] of verifiedNoops) {
+        if (baseVerifiedNoops.get(key) === sha) {
+          note(`${VERIFIED_NOOPS_PATH}: "${key}" has done its job — an authorisation is spent by the change that introduces it, so this line no longer grants anything and can be removed`);
+        }
+      }
+
       // Direction 2 — manifest src changed ⇒ the translation must have changed
       // too. Otherwise a one-commit hash bump marks a genuinely-stale translation
       // "fresh" forever — the exact lie this gate exists to prevent.
@@ -463,7 +553,20 @@ if (baseArgInvalid) {
           const was = baseManifest[loc]?.[page];
           if (!was) continue; // new entry — bijection ensures a matching file
           if (now.src !== was.src && !changedSet.has(`${loc}/${page}`)) {
-            fail(`${loc}/${page}: manifest src changed but the translation file did not — a hash bump alone would mark a stale translation "fresh"`);
+            // Unless a human has listed this exact page against this exact
+            // source in translation/verified-noops.txt, confirming the committed
+            // translation is already correct for it. The pipeline writes the
+            // manifest and cannot write that file, so the exception needs two
+            // parties to agree — see lib/verified-noops.mjs.
+            const key = `${loc}/${page}`;
+            if (noopAllowed({
+              entry: now,
+              baseEntry: was,
+              listed: verifiedNoops.get(key),
+              listedInBase: baseVerifiedNoops.get(key),
+              currentSourceHash: currentHash(page),
+            })) continue;
+            fail(`${loc}/${page}: manifest src changed but the translation file did not — a hash bump alone would mark a stale translation "fresh". If the committed translation is genuinely already correct for this source, a human can record that in ${VERIFIED_NOOPS_PATH} as "${loc}/${page} ${now.src}".`);
           }
         }
       }
@@ -474,6 +577,7 @@ if (baseArgInvalid) {
 report();
 
 function report() {
+  for (const n of notices) console.log(`  note: ${n}`);
   if (violations.length === 0) {
     console.log(`Manifest invariants hold: ${curated.length} curated pages, ${locales.length} locales.`);
     process.exit(0);
