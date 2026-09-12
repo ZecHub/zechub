@@ -419,14 +419,11 @@ for (const [key, listed] of verifiedNoops) {
   const [loc, ...rest] = key.split("/");
   const page = rest.join("/");
   if (!manifest[loc] || !curatedSet.has(page)) continue;   // noted above; inert
-  // Housekeeping must never be able to end the run. currentHash reads the working
-  // tree, and this loop reaches pages no other loop does, so an unreadable source
-  // here could take down an otherwise-green check for the sake of a notice.
-  let current, currentTrans;
-  try {
-    current = currentHash(page);
-    currentTrans = translationHash(loc, page);
-  } catch { continue; }
+  // Both helpers report an unreadable file and return null, so neither throws and
+  // this loop cannot end the run. A file nothing else reaches still gets reported
+  // once, by the helper, rather than silently skipped here.
+  const current = currentHash(page);
+  const currentTrans = translationHash(loc, page);
   if (current !== null && current !== listed.src) {
     note(`${VERIFIED_NOOPS_PATH}: "${key}" no longer applies — the English it names has changed, so the line can be removed`);
   } else if (currentTrans !== null && currentTrans !== listed.translation) {
@@ -622,7 +619,7 @@ if (baseArgInvalid) {
         const baseBlock = baseManifest[loc];
         if (!baseBlock) return undefined;
         for (const [oldPage, oldEntry] of Object.entries(baseBlock)) {
-          if (manifest[loc][oldPage]) continue;     // that key still exists; not a move
+          if (manifest[loc]?.[oldPage]) continue;   // that key still exists; not a move
           const rel = `translations/${loc}/site/${oldPage}`;
           let text;
           try {

@@ -50,7 +50,8 @@
 const SHA = /^sha256:[0-9a-f]{64}$/;
 
 /**
- * Parse the allowlist. Returns { entries: Map<"loc/page", sha>, errors: [...] }.
+ * Parse the allowlist. Returns { entries: Map<"loc/page", {src, translation}>,
+ *  errors: [...] }.
  * Errors are formatting problems a human should fix; the caller decides how loud
  * to be about them. Parsing never throws on bad input.
  */
