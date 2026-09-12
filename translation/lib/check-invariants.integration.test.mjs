@@ -88,15 +88,16 @@ function makeRepo() {
         return { code: 0, out };
       } catch (e) { return { code: e.status ?? 1, out: `${e.stdout || ""}${e.stderr || ""}` }; }
     },
-    /** run with `git ls-files` failing but the rest of git working */
-    runWithBrokenLsFiles() {
+    /** run with the named git subcommands failing and the rest of git working */
+    runWithBrokenGit(subcommands, base) {
       const shim = mkdtempSync(join(tmpdir(), "shim-"));
       const real = execFileSync("sh", ["-c", "command -v git"], { encoding: "utf8" }).trim();
+      const cases = subcommands.map((s) => `"${s}"`).join("|");
       writeFileSync(join(shim, "git"),
-        `#!/bin/sh\nfor a in "$@"; do\n  if [ "$a" = "ls-files" ]; then echo "fatal: simulated ls-files failure" >&2; exit 128; fi\ndone\nexec ${real} "$@"\n`);
+        `#!/bin/sh\nfor a in "$@"; do\n  case "$a" in\n    ${cases}) echo "fatal: simulated $a failure" >&2; exit 128;;\n  esac\ndone\nexec ${real} "$@"\n`);
       chmodSync(join(shim, "git"), 0o755);
       try {
-        return this.runOut(this.base, { PATH: `${shim}:${process.env.PATH}` });
+        return this.runOut(base || this.base, { PATH: `${shim}:${process.env.PATH}` });
       } finally { rmSync(shim, { recursive: true, force: true }); }
     },
     cleanup: () => rmSync(dir, { recursive: true, force: true }),
@@ -380,7 +381,7 @@ test("a failed git listing is reported as a failed listing", () => {
   // pinning is the MESSAGE, which an exit code alone cannot see.
   const r = makeRepo();
   try {
-    const { code, out } = r.runWithBrokenLsFiles();
+    const { code, out } = r.runWithBrokenGit(["ls-files"]);
     assert.equal(code, 1, "an unreadable listing must never pass");
     assert.match(out, /could not list translations\//,
       "the run must say the listing failed, not blame the corpus for being absent");
@@ -851,10 +852,12 @@ test("an unreadable ENGLISH page is a finding, not a crash", { skip: ROOT && "ru
 });
 
 test("an AMBIGUOUS move is refused rather than guessed", () => {
-  // Two removed pages can hold identical translations, and then content cannot
-  // say which one a moved file came from. A record that cannot be identified
-  // cannot be checked, so the gate refuses and asks for a human line rather than
-  // silently inheriting whichever it happened to find first.
+  // Two pages can hold identical translations, and then content cannot say which
+  // one a moved file came from. That only matters when the two records DISAGREE
+  // about the source they were translated against — then the page's verdict
+  // depends on a guess, so the gate refuses instead of guessing. (The companion
+  // test below pins the other half: candidates that agree are not ambiguous in
+  // any way this check can act on, and refusing there would block honest work.)
   const r = makeRepo();
   try {
     const TWIN = "guides/Twin.md";
@@ -862,7 +865,8 @@ test("an AMBIGUOUS move is refused rather than guessed", () => {
     r.write(`translations/${LOC}/site/${TWIN}`, TR_BODY);   // IDENTICAL translation
     r.write("translation/curated-pages.txt", `${EN_PAGE}\n${TWIN}\n`);
     const m0 = r.manifest();
-    m0[LOC][TWIN] = { ...m0[LOC][EN_PAGE] };
+    // ...but a DIFFERENT recorded source. Identical text, two stories about it.
+    m0[LOC][TWIN] = { ...m0[LOC][EN_PAGE], src: hashPage("# Other\n\nsomething else entirely\n") };
     r.setManifest(m0);
     r.commit("two curated pages whose translations are identical");
     const base = git(r.dir, "rev-parse", "HEAD").trim();
@@ -883,8 +887,171 @@ test("an AMBIGUOUS move is refused rather than guessed", () => {
 
     const { code, out } = r.runOut(base);
     assert.equal(code, 1);
-    assert.ok(hasViolation(out, /identical to 2 entries removed in this change/),
+    assert.ok(hasViolation(out, /identical to 2 entries at the base/),
       `expected an ambiguity refusal, got:\n${out}`);
+  } finally { r.cleanup(); }
+});
+
+test("a diff that failed is a finding, and does not become one per pair", () => {
+  // The only thing that says which paths stand still is the diff. Without it no
+  // base hash comes free, and a predecessor index over every base entry would ask
+  // git once per pair — on the real corpus 3762 reads, most of which would fail
+  // the same way the diff just did and each of which would print. One fault, one
+  // finding. This branch had no test at all; deleting the guard must be visible.
+  const r = makeRepo();
+  try {
+    // cat-file breaks with it: a repo that cannot answer one git read usually
+    // cannot answer the others either, and that is the case where an index over
+    // every base entry turns one fault into one finding per pair.
+    const { code, out } = r.runWithBrokenGit(["diff", "cat-file"]);
+    assert.equal(code, 1);
+    assert.ok(hasViolation(out, /git diff against base .* failed/), `expected the diff failure to be reported, got:\n${out}`);
+    assert.equal(violations(out).length, 1, `one fault must produce one finding, got:\n${out}`);
+  } finally { r.cleanup(); }
+});
+
+test("an unreadable base file is reported once, not once per reader", () => {
+  // Two readers ask for the same base hash — the predecessor index and the
+  // per-entry comparison. Only paths the diff listed are read from git, so this
+  // needs a translation that actually changed; then the read fails and must
+  // still produce a single finding.
+  const r = makeRepo();
+  try {
+    r.write(`translations/${LOC}/site/${EN_PAGE}`, TR_BODY.replace("Vedi", "Guarda"));
+    const m = r.manifest();
+    m[LOC][EN_PAGE].tool = "t+repair";
+    r.setManifest(m);
+    r.commit("retranslate");
+    const { code, out } = r.runWithBrokenGit(["cat-file"]);
+    assert.equal(code, 1);
+    const reads = violations(out).filter((l) => /could not read .* at base/.test(l));
+    assert.equal(reads.length, 1, `one unreadable file must produce one finding, got:\n${out}`);
+  } finally { r.cleanup(); }
+});
+
+test("predecessors that disagree about `edited` are ambiguous too", () => {
+  // `edited` is read from the predecessor as well as `src`: noopAllowed refuses
+  // outright when the base record was held as hand-edited. Two candidates that
+  // agree on the source but not on that flag decide the page's verdict between
+  // them, so picking whichever came first would be a guess with an exception
+  // line riding on it.
+  const r = makeRepo();
+  try {
+    const TWIN = "guides/Twin.md";
+    r.write(`site/${TWIN}`, EN_BODY);
+    r.write(`translations/${LOC}/site/${TWIN}`, TR_BODY);      // identical translation
+    r.write("translation/curated-pages.txt", `${EN_PAGE}\n${TWIN}\n`);
+    const m0 = r.manifest();
+    m0[LOC][TWIN] = { ...m0[LOC][EN_PAGE], edited: true };     // same src, held by hand
+    r.setManifest(m0);
+    r.commit("two pages, one translation, one of them held");
+    const base = git(r.dir, "rev-parse", "HEAD").trim();
+
+    const MERGED = "guides/Merged.md";
+    r.write("translation/curated-pages.txt", `${MERGED}\n`);
+    git(r.dir, "rm", "-q", `site/${EN_PAGE}`, `site/${TWIN}`,
+      `translations/${LOC}/site/${EN_PAGE}`, `translations/${LOC}/site/${TWIN}`);
+    r.write(`site/${MERGED}`, NEW_EN);
+    r.write(`translations/${LOC}/site/${MERGED}`, TR_BODY);
+    const m = r.manifest();
+    m[LOC][MERGED] = { ...m[LOC][EN_PAGE], src: hashPage(NEW_EN) };
+    delete m[LOC][EN_PAGE];
+    delete m[LOC][TWIN];
+    r.setManifest(m);
+    r.commit("collapse both into one route");
+
+    const { code, out } = r.runOut(base);
+    assert.equal(code, 1);
+    assert.ok(hasViolation(out, /identical to 2 entries at the base/),
+      `expected an ambiguity refusal, got:\n${out}`);
+  } finally { r.cleanup(); }
+});
+
+test("predecessors that agree are not ambiguous — seeding a locale is not blocked", () => {
+  // The corpus this runs on carries one page's translation across 17 locales
+  // untranslated (English passed through), and two more across 5 and 2. Every
+  // such group agrees on the source it was translated against. Refusing on the
+  // COUNT of candidates rather than on their disagreement would make seeding any
+  // new locale red on those pages, with a remedy ("give them distinct
+  // translations") the operator cannot apply to a passthrough. A gate that blocks
+  // honest work gets switched off.
+  const r = makeRepo();
+  try {
+    const SHARED = "guides/Shared.md";
+    const PASS = "# Shared\n\nIdentical in every locale.\n";
+    r.write(`site/${SHARED}`, PASS);
+    r.write("translation/curated-pages.txt", `${EN_PAGE}\n${SHARED}\n`);
+    const m0 = r.manifest();
+    const shared = { src: hashPage(PASS), src_commit: "0".repeat(40), engine: "gt", mode: "seed", tool: "t", edited: false };
+    for (const loc of [LOC, "es", "de"]) {
+      r.write(`translations/${loc}/site/${SHARED}`, PASS);
+      m0[loc] = { ...(m0[loc] || {}), [SHARED]: { ...shared } };
+    }
+    r.setManifest(m0);
+    r.commit("three locales sharing one passthrough translation");
+    const base = git(r.dir, "rev-parse", "HEAD").trim();
+
+    // seed a fourth locale: same text, same recorded source, nothing stale
+    r.write(`translations/sw/site/${SHARED}`, PASS);
+    const m = r.manifest();
+    m.sw = { [SHARED]: { ...shared } };
+    r.setManifest(m);
+    r.commit("seed sw");
+
+    const { code, out } = r.runOut(base);
+    assert.equal(code, 0, `seeding a locale must not be refused, got:\n${out}`);
+  } finally { r.cleanup(); }
+});
+
+test("a COPY that claims a source its translation was never made against is refused", () => {
+  // Q5. A page move split across two pull requests: the first copies the page to
+  // its new key and leaves the old one in place, the second retires the old key.
+  // Each is checked on its own, and in the copying half the new key's record is
+  // whatever it says it is — unless a page that still exists can also be a
+  // predecessor. This is the half that carries the lie, so this is the half that
+  // has to refuse; the retiring half is an ordinary deletion.
+  const r = makeRepo();
+  try {
+    const NEW = "guides/Moved.md";
+    const NEW_BODY = "# Moved\n\nA different English page about transparent addresses.\n";
+    r.write(`site/${NEW}`, NEW_BODY);
+    r.write("translation/curated-pages.txt", `${EN_PAGE}\n${NEW}\n`);
+    r.write(`translations/${LOC}/site/${NEW}`, TR_BODY);     // the COPY, unchanged text
+    const m = r.manifest();
+    m[LOC][NEW] = { ...m[LOC][EN_PAGE], src: hashPage(NEW_BODY) };  // claims the new English
+    r.setManifest(m);
+    r.commit("PR1: copy the page to its new key, keep the old one");
+
+    const { code, out } = r.runOut();
+    assert.equal(code, 1, `the copying half must refuse, got:\n${out}`);
+    assert.ok(hasViolation(out, new RegExp(`${LOC}/${NEW}: manifest src changed but the translation file did not`)),
+      `expected Direction 2 to fire on the copy, got:\n${out}`);
+  } finally { r.cleanup(); }
+});
+
+test("a whole-locale COPY cannot re-date a stale locale under a new code", () => {
+  // The same split move at locale scale: copy translations/it to translations/xx,
+  // keep it, and let the new block record today's English for text translated
+  // against something older. 18 locales' worth of stale pages marked current in
+  // one pull request, with the second half — deleting `it` — entirely innocent.
+  const r = makeRepo();
+  try {
+    const m0 = r.manifest();
+    m0[LOC][EN_PAGE].src = hashPage("# Demo\n\nan older English\n");   // `it` is stale
+    r.setManifest(m0);
+    r.commit("it falls behind");
+    const base = git(r.dir, "rev-parse", "HEAD").trim();
+
+    r.write(`translations/it-IT/site/${EN_PAGE}`, TR_BODY);            // byte-for-byte copy
+    const m = r.manifest();
+    m["it-IT"] = { [EN_PAGE]: { ...m0[LOC][EN_PAGE], src: EN_HASH } }; // but claims today's
+    r.setManifest(m);
+    r.commit("PR1: copy the locale under its new code");
+
+    const { code, out } = r.runOut(base);
+    assert.equal(code, 1, `the copying half must refuse, got:\n${out}`);
+    assert.ok(hasViolation(out, /it-IT\/guides\/Demo\.md: manifest src changed but the translation file did not/),
+      `expected Direction 2 to fire on the copied locale, got:\n${out}`);
   } finally { r.cleanup(); }
 });
 

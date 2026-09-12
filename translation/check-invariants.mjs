@@ -586,10 +586,31 @@ if (baseArgInvalid) {
         touched = null;
       }
 
-      // Asked for exactly once per path: a manifest key is either still current or
-      // removed, never both, so there is nothing to memoise.
+      // Two readers now ask for the same path — the predecessor index below and
+      // the per-entry comparison after it — so the answer is kept. Not for speed:
+      // an unreadable base file is a violation, and asking twice would report it
+      // twice for one fault. Third instance of the cache already used for the
+      // English and the translated side.
+      const baseHashCache = new Map();
       const baseHash = (loc, page) => {
+        const k = `${loc}/${page}`;
+        if (!baseHashCache.has(k)) baseHashCache.set(k, readBaseHash(loc, page));
+        return baseHashCache.get(k);
+      };
+      function readBaseHash(loc, page) {
         const rel = `translations/${loc}/site/${page}`;
+        // A path git did not list has identical bytes at both ends, so the hash
+        // already read from the working tree IS the hash at the base. That is the
+        // same inference the narrowing above rests on, used here to source an
+        // answer instead of to skip one. It is what keeps a predecessor index
+        // over every base entry from costing one git invocation per pair:
+        // measured on this corpus, 3762 of them take the run from 0.6s to 27.7s.
+        // Only when the file is actually there — an absent one is a finding the
+        // read below reports, not a hash of nothing.
+        if (touched !== null && !touched.has(rel)) {
+          const wt = translationHash(loc, page);
+          if (wt !== null) return wt;
+        }
         try {
           // `cat-file --filters`, not `show`: `show` hands back the raw blob, while
           // the other side of this comparison reads the working tree. Where a
@@ -606,24 +627,35 @@ if (baseArgInvalid) {
           fail(`could not read ${rel} at base ${mergeBase.slice(0, 12)}: ${e.message}`);
           return null;
         }
-      };
+      }
 
       // key -> { was, changed }
       //
       // A page that moved is still the page it was, and its record should move
-      // with it. Its predecessor is a manifest key that disappeared in this same
-      // change and whose translation is the one now sitting at the new key.
+      // with it. Its predecessor is a base manifest key whose translation is the
+      // one now sitting at the new key.
       // Keys, not paths, and across ALL locales: renaming `translations/it` to
       // `translations/it-IT` moves every page at once, and searching only within
       // a locale made all 18 of them look brand new — which is how a locale-code
       // migration could mark stale translations current.
-      const removed = new Map();
+      // And across all base keys, INCLUDING ones that still exist. A move split
+      // across two pull requests copies the page in the first and retires the old
+      // key in the second; if only keys that disappeared here could be a
+      // predecessor, the copying half has nothing to compare against, so the new
+      // key's `src` is checked against no record at all and can claim an English
+      // its translation was never made against. Both halves go green.
+      const predecessors = new Map();
       for (const loc of Object.keys(baseManifest)) {
         for (const page of Object.keys(baseManifest[loc])) {
-          if (manifest[loc]?.[page]) continue;      // that key still exists; not a move
+          // A key that still exists earns its place in this index only when its
+          // hash comes free from the working tree. With no diff to say which
+          // paths stand still, nothing comes free, and asking git for each of
+          // them is one invocation per pair. That run has already failed on the
+          // diff; it does not also need to take 27 seconds about it.
+          if (touched === null && manifest[loc]?.[page]) continue;
           const h = baseHash(loc, page);
           if (h === null) continue;
-          removed.set(h, [...(removed.get(h) || []), { loc, page, entry: baseManifest[loc][page] }]);
+          predecessors.set(h, [...(predecessors.get(h) || []), { loc, page, entry: baseManifest[loc][page] }]);
         }
       }
 
@@ -640,9 +672,20 @@ if (baseArgInvalid) {
             const before = touched !== null && touched.has(rel) ? baseHash(loc, page) : null;
             changed = before !== null && before !== translationHash(loc, page);
           } else {
-            const candidates = removed.get(translationHash(loc, page)) || [];
-            if (candidates.length > 1) {
-              fail(`${loc}/${page}: this translation is identical to ${candidates.length} entries removed in this change (${candidates.map((c) => `${c.loc}/${c.page}`).join(", ")}), so which one it continues cannot be told and its record cannot be checked. Move one page at a time, or give them distinct translations.`);
+            const candidates = predecessors.get(translationHash(loc, page)) || [];
+            // Several predecessors only matter when they would answer
+            // differently. What is read from `was` on this path is the source it
+            // was translated against and whether it is held as hand-edited —
+            // Direction 2 below, and noopAllowed's refusal on `edited`. Direction
+            // 1 never sees it, because a page that continues a record did not
+            // change. Candidates agreeing on those two give the same verdict
+            // whichever one this page continues, so refusing would only block
+            // honest work: three pages in this corpus carry one translation
+            // across up to 17 locales (the English, passed through untranslated),
+            // and seeding any new locale lands on them.
+            const disagree = new Set(candidates.map((c) => `${c.entry.src} ${c.entry.edited}`));
+            if (disagree.size > 1) {
+              fail(`${loc}/${page}: this translation is identical to ${candidates.length} entries at the base (${candidates.map((c) => `${c.loc}/${c.page}`).join(", ")}), and they do not agree on the source they were translated against, so which record this page continues cannot be told. Give this page a translation distinct from theirs — re-translating it is the only thing that separates them, and moving one page at a time does not, because a page that is still there counts too.`);
             }
             was = candidates[0]?.entry;
             changed = !was;   // a move changed nothing; a genuinely new page is new
