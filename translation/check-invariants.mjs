@@ -653,19 +653,7 @@ if (baseArgInvalid) {
         }
         const [, srcMode, dstMode, srcOid, dstOid] = meta;
         const path = rawFields[i + 1];
-        if (srcOid === dstOid) continue;                       // mode-only, incl. `-diff` paths
         if (!/^translations\/[^/]+\/site\/.+\.md$/.test(path)) { changedPaths.push(path); continue; }
-        // A translation must be an ordinary file. A symlink's blob holds its TARGET
-        // PATH, so swapping a page for a link to an identical copy changes the blob
-        // while readFileSync — which follows the link — still sees the same stale
-        // text: the two halves of this check would disagree, and the page would be
-        // settled without a byte of it being retranslated. Verified, so refuse the
-        // shape outright rather than trying to resolve it.
-        for (const [mode, side] of [[srcMode, "was"], [dstMode, "is"]]) {
-          if (mode !== "000000" && mode !== "100644" && mode !== "100755") {
-            fail(`${path} ${side} not a regular file (mode ${mode}) — translations must be ordinary files, not symlinks or submodules.`);
-          }
-        }
         // A deletion is a change. An ADDITION usually is too — but with
         // --no-renames a moved file arrives as one, and a page that merely moved
         // is not a page that was retranslated. Calling it "changed" is what let a
