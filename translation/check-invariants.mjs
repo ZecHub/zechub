@@ -567,42 +567,46 @@ if (baseArgInvalid) {
         touched = null;
       }
 
-      const baseHashes = new Map();
+      // Asked for exactly once per path: a manifest key is either still current or
+      // removed, never both, so there is nothing to memoise.
       const baseHash = (loc, page) => {
         const rel = `translations/${loc}/site/${page}`;
-        if (!baseHashes.has(rel)) {
-          let hash = null;
-          try {
-            hash = hashPage(execFileSync("git", ["show", `${mergeBase}:${rel}`], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT }));
-          } catch (e) {
-            // Only ever asked for a path the BASE manifest names, so the file was
-            // there. Failing to read it is a finding, not an absence — and it must
-            // not read as "changed", because that is the answer that satisfies
-            // Direction 2 and would license the very bump we cannot verify.
-            fail(`could not read ${rel} at base ${mergeBase.slice(0, 12)}: ${e.message}`);
-          }
-          baseHashes.set(rel, hash);
+        try {
+          return hashPage(execFileSync("git", ["show", `${mergeBase}:${rel}`], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT }));
+        } catch (e) {
+          // Only ever asked for a path the BASE manifest names, so the file was
+          // there. Failing to read it is a finding, not an absence — and it must
+          // not read as "changed", because that is the answer that satisfies
+          // Direction 2 and would license the very bump we cannot verify.
+          fail(`could not read ${rel} at base ${mergeBase.slice(0, 12)}: ${e.message}`);
+          return null;
         }
-        return baseHashes.get(rel);
       };
 
       // key -> { was, changed }
+      //
+      // A page that moved is still the page it was, and its record should move
+      // with it. Its predecessor is a manifest key that disappeared in this same
+      // change and whose translation is the one now sitting at the new key.
+      // Keys, not paths, and across ALL locales: renaming `translations/it` to
+      // `translations/it-IT` moves every page at once, and searching only within
+      // a locale made all 18 of them look brand new — which is how a locale-code
+      // migration could mark stale translations current.
+      const removed = new Map();
+      for (const loc of Object.keys(baseManifest)) {
+        for (const page of Object.keys(baseManifest[loc])) {
+          if (manifest[loc]?.[page]) continue;      // that key still exists; not a move
+          const h = baseHash(loc, page);
+          if (h === null) continue;
+          removed.set(h, [...(removed.get(h) || []), { loc, page, entry: baseManifest[loc][page] }]);
+        }
+      }
+
       const comparisons = new Map();
       for (const loc of locales) {
-        const baseBlock = baseManifest[loc] || {};
-        // Pages whose manifest key disappeared: a moved page's translation came
-        // from one of these. Identical content in two of them means the move
-        // cannot be identified, and a claim that cannot be checked is refused.
-        const removed = new Map();
-        for (const [oldPage, oldEntry] of Object.entries(baseBlock)) {
-          if (manifest[loc][oldPage]) continue;
-          const h = baseHash(loc, oldPage);
-          if (h === null) continue;
-          removed.set(h, [...(removed.get(h) || []), { oldPage, oldEntry }]);
-        }
         for (const page of Object.keys(manifest[loc])) {
           const rel = `translations/${loc}/site/${page}`;
-          let was = baseBlock[page];
+          let was = baseManifest[loc]?.[page];
           let changed;
           if (was) {
             // Unlisted by git ⇒ the bytes are identical ⇒ nothing changed. A side
@@ -613,15 +617,14 @@ if (baseArgInvalid) {
           } else {
             const candidates = removed.get(translationHash(loc, page)) || [];
             if (candidates.length > 1) {
-              fail(`${loc}/${page}: this translation is identical to ${candidates.length} pages removed in this change (${candidates.map((c) => c.oldPage).join(", ")}) — which one it came from cannot be told, so its record cannot be checked. Settle it with a line in ${VERIFIED_NOOPS_PATH}, or make the move one page at a time.`);
+              fail(`${loc}/${page}: this translation is identical to ${candidates.length} entries removed in this change (${candidates.map((c) => `${c.loc}/${c.page}`).join(", ")}), so which one it continues cannot be told and its record cannot be checked. Move one page at a time, or give them distinct translations.`);
             }
-            was = candidates[0]?.oldEntry;
+            was = candidates[0]?.entry;
             changed = !was;   // a move changed nothing; a genuinely new page is new
           }
           comparisons.set(`${loc}/${page}`, { was, changed });
         }
       }
-      const changedSet = new Set([...comparisons].filter(([, c]) => c.changed).map(([k]) => k));
 
       try {
         const dirty = execFileSync("git", ["status", "--porcelain", "-z", "--", "site/", "translations/", "translation/"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
@@ -639,12 +642,11 @@ if (baseArgInvalid) {
       } catch { /* status is advisory; never let it end the run */ }
 
       // Direction 1 — translation changed ⇒ manifest must record why.
-      for (const key of changedSet) {
+      for (const [key, { was, changed }] of comparisons) {
+        if (!changed) continue;
         const [loc, ...rest] = key.split("/");
         const page = rest.join("/");
-        const now = manifest[loc]?.[page];
-        if (!now) continue; // deletion — bijection handles the file/entry pairing
-        const was = comparisons.get(key)?.was;
+        const now = manifest[loc][page];
         // A hand-edit is a valid reason ONLY when the edited flag FLIPS in this
         // PR (false/absent → true). `edited:true` already at base is not a
         // standing licence to mutate the file forever with no manifest trace.
@@ -662,7 +664,7 @@ if (baseArgInvalid) {
         for (const [page, now] of Object.entries(manifest[loc])) {
           const was = comparisons.get(`${loc}/${page}`)?.was;
           if (!was) continue; // genuinely new — bijection ensures a matching file
-          if (now.src !== was.src && !changedSet.has(`${loc}/${page}`)) {
+          if (now.src !== was.src && !comparisons.get(`${loc}/${page}`).changed) {
             // Unless a human has listed this exact page against this exact
             // source in translation/verified-noops.txt, confirming the committed
             // translation is already correct for it. The pipeline writes the

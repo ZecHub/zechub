@@ -883,7 +883,7 @@ test("an AMBIGUOUS move is refused rather than guessed", () => {
 
     const { code, out } = r.runOut(base);
     assert.equal(code, 1);
-    assert.ok(hasViolation(out, /identical to 2 pages removed in this change/),
+    assert.ok(hasViolation(out, /identical to 2 entries removed in this change/),
       `expected an ambiguity refusal, got:\n${out}`);
   } finally { r.cleanup(); }
 });
@@ -924,5 +924,25 @@ test("...but the same edit WITHOUT a rename is refused", () => {
     r.write(`translations/${LOC}/site/${EN_PAGE}`, TR_BODY.replace("Vedi", "Guarda"));
     r.commit("edit the translation, recording nothing");
     assert.equal(r.run(), 1);
+  } finally { r.cleanup(); }
+});
+
+test("a LOCALE rename cannot settle stale translations", () => {
+  // The page-rename route one level up: move translations/it to translations/it-IT,
+  // rename the manifest's locale key, bump src, touch no translation. Searching for
+  // a predecessor only inside the same locale made every page look brand new, so
+  // Direction 2 skipped all of them — a locale-code migration marking the whole
+  // locale current in one commit.
+  const r = staleRepo();
+  try {
+    const EN2 = EN_BODY.replace("blockchain-explorers", "block-explorers");
+    r.write(`site/${EN_PAGE}`, EN2);
+    git(r.dir, "mv", `translations/${LOC}`, "translations/it-IT");
+    const m = r.manifest();
+    m["it-IT"] = { [EN_PAGE]: { ...m[LOC][EN_PAGE], src: hashPage(EN2) } };
+    delete m[LOC];
+    r.setManifest(m);
+    r.commit("migrate the locale code, leaving the translations untouched");
+    assert.equal(r.run(), 1, "a locale rename must not launder stale translations");
   } finally { r.cleanup(); }
 });
