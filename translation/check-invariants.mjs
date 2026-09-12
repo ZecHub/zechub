@@ -104,7 +104,18 @@ try {
   fail(`sync-state.json is not valid JSON: ${e.message}`);
   report();
 }
+const isBlock = (v) => typeof v === "object" && v !== null && !Array.isArray(v);
 const locales = Object.keys(manifest);
+// Every level of the manifest gets its shape checked before anything reads it.
+// The top level was checked and the entries were checked; the locale blocks in
+// between were not, and Object.keys(null) is a TypeError — which loses every
+// violation collected so far and prints a stack trace instead of the report.
+for (const loc of locales) {
+  if (!isBlock(manifest[loc])) {
+    fail(`manifest locale "${loc}" is not an object — cannot read its entries.`);
+    report();
+  }
+}
 
 // ---- the human-authored Direction 2 exception list ------------------------
 // Absent means no exceptions, which is exactly the behaviour before it existed.
@@ -535,9 +546,17 @@ if (baseArgInvalid) {
       // an array, or a string parses fine and then throws on the first
       // `baseManifest[loc]` below. Reject the shape here so the reason is
       // reported instead of a stack trace.
-      if (!baseUnreadable && (typeof baseManifest !== "object" || baseManifest === null || Array.isArray(baseManifest))) {
+      if (!baseUnreadable && !isBlock(baseManifest)) {
         baseUnreadable = true;
         fail(`the manifest at base ${mergeBase.slice(0, 12)} is not a JSON object — cannot change-track against it.`);
+      }
+      if (!baseUnreadable) {
+        for (const loc of Object.keys(baseManifest)) {
+          if (!isBlock(baseManifest[loc])) {
+            baseUnreadable = true;
+            fail(`locale "${loc}" in the manifest at base ${mergeBase.slice(0, 12)} is not an object — cannot change-track against it.`);
+          }
+        }
       }
     }
 
@@ -572,7 +591,13 @@ if (baseArgInvalid) {
       const baseHash = (loc, page) => {
         const rel = `translations/${loc}/site/${page}`;
         try {
-          return hashPage(execFileSync("git", ["show", `${mergeBase}:${rel}`], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT }));
+          // `cat-file --filters`, not `show`: `show` hands back the raw blob, while
+          // the other side of this comparison reads the working tree. Where a
+          // .gitattributes filter applies those are different representations of
+          // the same page, and every listed path then compares unequal forever —
+          // which is the answer that skips Direction 2. Both sides must be read in
+          // the form a reader sees.
+          return hashPage(execFileSync("git", ["cat-file", "--filters", `${mergeBase}:${rel}`], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT }));
         } catch (e) {
           // Only ever asked for a path the BASE manifest names, so the file was
           // there. Failing to read it is a finding, not an absence — and it must

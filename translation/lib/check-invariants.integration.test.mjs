@@ -946,3 +946,52 @@ test("a LOCALE rename cannot settle stale translations", () => {
     assert.equal(r.run(), 1, "a locale rename must not launder stale translations");
   } finally { r.cleanup(); }
 });
+
+test("a .gitattributes filter cannot make every page look changed", () => {
+  // The base side was read with `git show`, which hands back the RAW BLOB, while
+  // the other side reads the working tree. Declaring an encoding makes those two
+  // different representations of the same page: the blob is re-canonicalised, the
+  // working tree is not. Every listed path then compares unequal forever — and
+  // "changed" is the answer that skips Direction 2, so a stale page settles with
+  // no authorisation. Both sides must be read in the form a reader sees.
+  const r = makeRepo();
+  try {
+    // UTF-16LE needs an even byte count, and a single trailing space is stripped
+    // by hashPage, so padding to even length changes nothing the gate can see.
+    const even = (t) => (Buffer.byteLength(t) % 2 ? t.replace(/\n$/, " \n") : t);
+    r.write(`translations/${LOC}/site/${EN_PAGE}`, even(TR_BODY));
+    r.write(".gitattributes", "translations/** working-tree-encoding=UTF-16LE\n");
+    git(r.dir, "add", "-A");
+    git(r.dir, "add", "--renormalize", "-A");    // re-canonicalises the blobs
+    git(r.dir, "commit", "-qm", "declare an encoding for translated pages");
+    const v1 = git(r.dir, "rev-parse", "HEAD").trim();
+
+    // English moves on; the translation is touched only cosmetically (trailing
+    // blank lines, which hashPage normalises away) so the path is a candidate
+    // without the page having changed.
+    const EN2 = EN_BODY.replace("blockchain-explorers", "block-explorers");
+    r.write(`site/${EN_PAGE}`, EN2);
+    r.write(`translations/${LOC}/site/${EN_PAGE}`, even(TR_BODY) + "\n\n");
+    const m = r.manifest();
+    m[LOC][EN_PAGE].src = hashPage(EN2);
+    m[LOC][EN_PAGE].tool = "cosmetic";
+    r.setManifest(m);
+    r.commit("advance the English and the record, touching the translation cosmetically");
+
+    assert.equal(r.run(v1), 1, "an encoding attribute must not settle a stale page");
+  } finally { r.cleanup(); }
+});
+test("a malformed locale block is reported, not a stack trace", () => {
+  // Object.keys(null) discards every violation collected so far.
+  const r = makeRepo();
+  try {
+    const m = r.manifest();
+    m.fr = null;
+    r.setManifest(m);
+    r.commit("a locale block that is not an object");
+    const { code, out } = r.runOut();
+    assert.equal(code, 1);
+    assert.ok(hasViolation(out, /locale "fr" is not an object/), `got:\n${out}`);
+    assert.doesNotMatch(out, /at ModuleJob\.run/, "must not surface a stack trace");
+  } finally { r.cleanup(); }
+});
