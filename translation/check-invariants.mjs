@@ -122,6 +122,16 @@ for (const loc of locales) {
     fail(`manifest locale "${loc}" is not an object — cannot read its entries.`);
     report();
   }
+  // And each record. Everything downstream reads fields off these; a value that
+  // is not a record makes that a TypeError, which throws away the report and
+  // every finding already in it. The checks further down test what a record
+  // SAYS; this one establishes that there is a record to ask.
+  for (const [page, entry] of Object.entries(manifest[loc])) {
+    if (!isBlock(entry)) {
+      fail(`${loc}/${page}: manifest entry is not an object — there is nothing to check.`);
+      report();
+    }
+  }
 }
 
 // ---- the human-authored Direction 2 exception list ------------------------
@@ -653,6 +663,7 @@ if (baseArgInvalid) {
           // them is one invocation per pair. That run has already failed on the
           // diff; it does not also need to take 27 seconds about it.
           if (touched === null && manifest[loc]?.[page]) continue;
+          if (!isBlock(baseManifest[loc][page])) continue;   // malformed: not a record
           const h = baseHash(loc, page);
           if (h === null) continue;
           predecessors.set(h, [...(predecessors.get(h) || []), { loc, page, entry: baseManifest[loc][page] }]);
@@ -683,7 +694,14 @@ if (baseArgInvalid) {
             // honest work: three pages in this corpus carry one translation
             // across up to 17 locales (the English, passed through untranslated),
             // and seeding any new locale lands on them.
-            const disagree = new Set(candidates.map((c) => `${c.entry.src} ${c.entry.edited}`));
+            // Compare the two fields as VALUES, not as text. `false` and the
+            // string "false" print the same and are not the same: noopAllowed
+            // admits one and refuses the other, so a key that conflates them
+            // would call two candidates equivalent when they decide the page
+            // differently. `edited` is keyed as "is it exactly false", because
+            // that is the only distinction anything downstream makes of it.
+            const disagree = new Set(candidates.map((c) =>
+              JSON.stringify([c.entry.src ?? null, c.entry.edited === false])));
             if (disagree.size > 1) {
               fail(`${loc}/${page}: this translation is identical to ${candidates.length} entries at the base (${candidates.map((c) => `${c.loc}/${c.page}`).join(", ")}), and they do not agree on the source they were translated against, so which record this page continues cannot be told. Give this page a translation distinct from theirs — re-translating it is the only thing that separates them, and moving one page at a time does not, because a page that is still there counts too.`);
             }

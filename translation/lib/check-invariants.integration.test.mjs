@@ -1225,3 +1225,59 @@ test("a manifest that is not an object is reported, not a stack trace", () => {
     } finally { r.cleanup(); }
   }
 });
+
+test("predecessors whose `edited` differs only by TYPE are ambiguous", () => {
+  // false and "false" print identically. noopAllowed admits one and refuses the
+  // other, so a disagreement key built by string interpolation called them
+  // equivalent — and the gate then picked whichever came first, deciding the
+  // page's verdict by array order.
+  const r = makeRepo();
+  try {
+    const TWIN = "guides/Twin.md";
+    r.write(`site/${TWIN}`, EN_BODY);
+    r.write(`translations/${LOC}/site/${TWIN}`, TR_BODY);     // identical text
+    r.write("translation/curated-pages.txt", `${EN_PAGE}\n${TWIN}\n`);
+    const m0 = r.manifest();
+    m0[LOC][EN_PAGE].edited = false;
+    m0[LOC][TWIN] = { ...m0[LOC][EN_PAGE], edited: "false" };  // same text, other TYPE
+    r.setManifest(m0);
+    r.commit("two pages with identical translations, edited differing by type");
+    const base = git(r.dir, "rev-parse", "HEAD").trim();
+
+    const NEW = "guides/Copy.md";
+    r.write(`site/${NEW}`, EN_BODY);
+    r.write(`translations/${LOC}/site/${NEW}`, TR_BODY);       // continues... which one?
+    r.write("translation/curated-pages.txt", `${EN_PAGE}\n${TWIN}\n${NEW}\n`);
+    const m = r.manifest();
+    m[LOC][NEW] = { ...m[LOC][EN_PAGE] };
+    r.setManifest(m);
+    r.commit("add a page whose translation matches both");
+
+    const { code, out } = r.runOut(base);
+    assert.equal(code, 1, "candidates that decide the page differently must be refused");
+    assert.ok(hasViolation(out, /do not agree/), `expected an ambiguity refusal, got:\n${out}`);
+  } finally { r.cleanup(); }
+});
+
+test("a malformed base entry cannot be a predecessor", () => {
+  // Reading .src off a null entry is a TypeError, and a throw here discards the
+  // report along with every finding in it.
+  const r = makeRepo();
+  try {
+    const m0 = r.manifest();
+    m0[LOC]["guides/Ghost.md"] = null;
+    r.setManifest(m0);
+    r.commit("a base entry that is not a record");
+    const base = git(r.dir, "rev-parse", "HEAD").trim();
+
+    r.write(`translations/${LOC}/site/${EN_PAGE}`, TR_BODY.replace("Vedi", "Guarda"));
+    const m = r.manifest();
+    m[LOC][EN_PAGE].tool = "t+pass2";
+    r.setManifest(m);
+    r.commit("edit a translation and record it");
+
+    const { code, out } = r.runOut(base);
+    assert.doesNotMatch(out, /at ModuleJob\.run/, "must not surface a stack trace");
+    assert.equal(typeof code, "number");
+  } finally { r.cleanup(); }
+});
