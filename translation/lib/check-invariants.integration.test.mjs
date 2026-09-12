@@ -887,3 +887,42 @@ test("an AMBIGUOUS move is refused rather than guessed", () => {
       `expected an ambiguity refusal, got:\n${out}`);
   } finally { r.cleanup(); }
 });
+
+test("KNOWN LIMIT: a rename that also edits escapes rule 1", () => {
+  // Not a bug report — a boundary, pinned so it cannot drift unnoticed.
+  //
+  // A move is identified by its content, so when the translation changes too there
+  // is nothing to match and the page reads as new. Rule 1 asks whether provenance
+  // moved SINCE the base record, and a page with no base record has nothing to
+  // compare, so it passes. The same edit without the rename is refused.
+  //
+  // Accepted deliberately: nothing stale is being marked current — the file really
+  // did change — so the failure this gate exists to prevent still cannot happen.
+  // What is lost is the record of WHY it changed. Closing it needs the predecessor
+  // identified some other way (matching the English side, or git's rename
+  // detection), which is a second matcher; the cost was judged higher than the gap.
+  const r = makeRepo();
+  try {
+    const NEW = "guides/Demo_v2.md";
+    r.write("translation/curated-pages.txt", `${NEW}\n`);
+    git(r.dir, "mv", `site/${EN_PAGE}`, `site/${NEW}`);
+    git(r.dir, "mv", `translations/${LOC}/site/${EN_PAGE}`, `translations/${LOC}/site/${NEW}`);
+    r.write(`translations/${LOC}/site/${NEW}`, TR_BODY.replace("Vedi", "Guarda"));
+    const m = r.manifest();
+    m[LOC][NEW] = { ...m[LOC][EN_PAGE] };       // provenance copied verbatim
+    delete m[LOC][EN_PAGE];
+    r.setManifest(m);
+    r.commit("move the page and edit its translation, recording nothing");
+    assert.equal(r.run(), 0, "documented limit: a renamed+edited page reads as new");
+  } finally { r.cleanup(); }
+});
+
+test("...but the same edit WITHOUT a rename is refused", () => {
+  // The control that gives the limit above its exact shape.
+  const r = makeRepo();
+  try {
+    r.write(`translations/${LOC}/site/${EN_PAGE}`, TR_BODY.replace("Vedi", "Guarda"));
+    r.commit("edit the translation, recording nothing");
+    assert.equal(r.run(), 1);
+  } finally { r.cleanup(); }
+});
