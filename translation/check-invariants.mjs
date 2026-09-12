@@ -477,21 +477,14 @@ if (baseArgInvalid) {
   // Fail closed: a REQUESTED base that can't be resolved must NOT silently skip
   // the gate (force-push, shallow clone, or a typo would otherwise disable the
   // only history-dependent invariant while still exiting green).
-  let baseSha = null;
-  try {
-    baseSha = execFileSync("git", ["rev-parse", "--verify", "--quiet", `${base}^{commit}`], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT }).trim();
-  } catch {
-    baseSha = null;
-  }
-  if (!baseSha) {
+  // baseCompareSha() already answers "which commit do we compare against" — it
+  // resolves the ref and walks back to the merge base, with the same fallback for
+  // unrelated histories. Asking it twice, two different ways, is how the two
+  // answers drift apart.
+  const mergeBase = baseCompareSha();
+  if (!mergeBase) {
     fail(`base ref "${base}" could not be resolved — refusing to skip change-tracking silently (shallow clone? force-push? run CI with fetch-depth: 0).`);
   } else {
-    let mergeBase = baseSha;
-    try {
-      mergeBase = execFileSync("git", ["merge-base", baseSha, "HEAD"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT }).trim();
-    } catch {
-      mergeBase = baseSha; // divergent/unrelated history → direct diff against base
-    }
 
     // Whether the manifest existed at the base is a real distinction — absent
     // means this PR introduces it and there is genuinely nothing to
@@ -653,14 +646,7 @@ if (baseArgInvalid) {
 
       try {
         const dirty = execFileSync("git", ["status", "--porcelain", "-z", "--", "site/", "translations/", "translation/"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
-        // Each entry is "XY path"; a rename or copy adds a SECOND field for the
-        // old path, so counting fields reports one change as two.
-        const fields = dirty.split("\0").filter((x) => x !== "");
-        let n = 0;
-        for (let i = 0; i < fields.length; i++) {
-          n++;
-          if (/^[RC]/.test(fields[i]) || /^.[RC]/.test(fields[i])) i++;
-        }
+        const n = dirty.split("\0").filter((x) => x !== "").length;
         if (n > 0) {
           note(`${n} uncommitted change(s) under site/, translations/ or translation/ — this run describes your WORKING TREE, not the commit CI will check. Commit before trusting a green result.`);
         }
@@ -718,9 +704,15 @@ if (baseArgInvalid) {
             // it ever looks at a line. Offering one anyway is the same loop as
             // above: the operator adds exactly what was printed and the identical
             // refusal comes back.
-            const heldByHand = now.edited !== false || (was && was.edited !== false);
-            const suggestion = heldByHand
-              ? `but this page is held as hand-edited (edited:true), which takes it out of automated sync — no exception applies while that is set, so either clear the flag or retranslate the page`
+            const heldNow = now.edited !== false;
+            const heldAtBase = Boolean(was) && was.edited !== false;
+            const suggestion = heldNow
+              ? `but this page is held as hand-edited, which takes it out of automated sync — no exception applies while that is set, so either clear the flag or retranslate the page`
+              : heldAtBase
+              // The flag is already clear here; it was set at the base. Telling the
+              // operator to clear it describes what they have just done, and the
+              // refusal comes from history they cannot edit in this change.
+              ? `but this page was held as hand-edited at the base, and an exception cannot reach back past that — land the cleared flag on its own first, or retranslate the page`
               : !srcMatchesDisk
               ? `but note the manifest records src ${String(now.src).slice(0, 20)}… while site/${page} hashes to ${String(currentHash(page)).slice(0, 20)}… — no exception can bridge that, because a line pins the manifest to the English actually on disk. Fix the recorded src first`
               : th === null

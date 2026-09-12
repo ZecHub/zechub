@@ -995,3 +995,51 @@ test("a malformed locale block is reported, not a stack trace", () => {
     assert.doesNotMatch(out, /at ModuleJob\.run/, "must not surface a stack trace");
   } finally { r.cleanup(); }
 });
+
+test("deleting a locale's manifest block while its files stay is refused", () => {
+  // The only thing catching this is two lines of locale-universe bijection, and
+  // nothing tested them: deleting both lines passed the whole suite. Without it a
+  // locale silently vanishes from sync selection while its pages sit on disk —
+  // the same permanent, invisible staleness as a single page, at locale scale.
+  const r = makeRepo();
+  try {
+    const m = r.manifest();
+    delete m[LOC];                      // block gone, files kept
+    r.setManifest(m);
+    r.commit("drop the locale from the manifest, leave its files");
+    const { code, out } = r.runOut();
+    assert.equal(code, 1);
+    assert.ok(hasViolation(out, /locale "it" has translations but no manifest block/),
+      `expected a locale-universe violation, got:\n${out}`);
+  } finally { r.cleanup(); }
+});
+
+test("a page held at BASE is not offered an exception either", () => {
+  // heldByHand has two clauses. Every existing test leaves edited:true set on both
+  // sides, so the first clause alone satisfied them and the base clause was never
+  // exercised — dropping it passed the suite while restoring the R7 loop, because
+  // noopAllowed refuses on the BASE entry's edited flag too.
+  const r = makeRepo();
+  try {
+    const m0 = r.manifest();
+    m0[LOC][EN_PAGE].edited = true;
+    r.setManifest(m0);
+    r.commit("hold the page as hand-edited");
+    const base = git(r.dir, "rev-parse", "HEAD").trim();
+
+    const EN2 = EN_BODY.replace("blockchain-explorers", "block-explorers");
+    r.write(`site/${EN_PAGE}`, EN2);
+    const m = r.manifest();
+    m[LOC][EN_PAGE].edited = false;     // cleared HERE; still held at base
+    m[LOC][EN_PAGE].src = hashPage(EN2);
+    r.setManifest(m);
+    r.commit("clear the flag and advance the record");
+
+    const { code, out } = r.runOut(base);
+    assert.equal(code, 1);
+    assert.ok(!hasViolation(out, /a human can record that in/),
+      `must not offer a line noopAllowed will refuse on the base entry:\n${out}`);
+    assert.ok(hasViolation(out, /held as hand-edited at the base/),
+      `and must say which side holds it:\n${out}`);
+  } finally { r.cleanup(); }
+});
