@@ -544,49 +544,85 @@ if (baseArgInvalid) {
     if (firstIntroduction) {
       console.log(`notice: base ${mergeBase.slice(0, 12)} has no manifest — first introduction, nothing to change-track.`);
     } else if (!baseUnreadable) {
-      let changed;
+      // ONE comparison per manifest entry, shared by both rules: did this
+      // translation change, and what record did this page have before?
+      //
+      // "Changed" means what it means everywhere else in this pipeline — the
+      // normalised text differs (hashPage: line endings, trailing blank lines,
+      // BOM, volatile front matter, Unicode form). Asking git a different
+      // question and treating its answer as this one is what produced the worst
+      // defect this check has had.
+      //
+      // git's byte-level diff is used only to NARROW the work. A difference in
+      // normalised text implies a difference in bytes, so a path git calls
+      // identical cannot have changed; the reverse does not hold, which is why
+      // the paths git does list are then compared properly.
+      let touched;
       try {
-        changed = execFileSync("git", ["diff", "--raw", "-z", "--no-abbrev", "--no-renames", mergeBase, "--", "translations/"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
+        const listing = execFileSync("git", ["diff", "--name-only", "-z", "--no-renames", mergeBase, "--", "translations/"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
+        touched = new Set(listing.split("\0").filter(Boolean));
       } catch (e) {
         // The base resolved but the diff failed — do not treat as "no changes".
         fail(`git diff against base ${mergeBase.slice(0, 12)} failed: ${e.message}`);
-        changed = "";
+        touched = null;
       }
-      // Whether a translation changed is decided by the SAME notion of "changed"
-      // that the rest of this pipeline uses — hashPage, which ignores line
-      // endings, trailing blank lines, volatile front matter and Unicode form.
-      //
-      // Raw blob identity is not that notion, and the gap was a hole you could
-      // drive a stale page through: append two blank lines to an out-of-date
-      // translation, advance `src` and `tool`, and Direction 1 saw recorded
-      // provenance while Direction 2 saw a changed blob. No exception, no human,
-      // and a translation still carrying the old text was marked current. Line
-      // counts had the same hole; a pure mode change and a `-diff` path were the
-      // narrow, zero-byte corner of it.
-      //
-      // So: cheap blob check first (identical oid cannot be a content change, and
-      // that alone disposes of chmod and of `-diff` paths), then compare the
-      // NORMALISED text of the two blobs. Direction 2 and the exception's
-      // translation pin now answer the same question.
-      // Raw -z alternates a metadata field and a path field:
-      //   :<srcmode> <dstmode> <srcoid> <dstoid> <status>\0<path>\0
-      const RAW_META = /^:(\d{6}) (\d{6}) ([0-9a-f]{40,}) ([0-9a-f]{40,}) ([A-Z])/;
-      const NULL_OID = /^0+$/;
-      const blobText = (oid) => {
-        try {
-          return execFileSync("git", ["cat-file", "blob", oid], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
-        } catch (e) {
-          // Unreadable blob: we cannot say the file is unchanged, and guessing is
-          // how a stale translation gets waved through. Refuse the run.
-          fail(`could not read git blob ${oid.slice(0, 12)}: ${e.message}`);
-          return null;
+
+      const baseHashes = new Map();
+      const baseHash = (loc, page) => {
+        const rel = `translations/${loc}/site/${page}`;
+        if (!baseHashes.has(rel)) {
+          let hash = null;
+          try {
+            hash = hashPage(execFileSync("git", ["show", `${mergeBase}:${rel}`], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT }));
+          } catch (e) {
+            // Only ever asked for a path the BASE manifest names, so the file was
+            // there. Failing to read it is a finding, not an absence — and it must
+            // not read as "changed", because that is the answer that satisfies
+            // Direction 2 and would license the very bump we cannot verify.
+            fail(`could not read ${rel} at base ${mergeBase.slice(0, 12)}: ${e.message}`);
+          }
+          baseHashes.set(rel, hash);
         }
+        return baseHashes.get(rel);
       };
-      // Everything here reads the working tree — the diff is base-vs-disk, and
-      // currentHash/translationHash read disk too, so the answer is coherent. But
-      // it is an answer ABOUT DISK, and CI will be asking about your commit. Say
-      // so when the two can differ, or a contributor reads "invariants hold" as a
-      // promise about what they are pushing.
+
+      // key -> { was, changed }
+      const comparisons = new Map();
+      for (const loc of locales) {
+        const baseBlock = baseManifest[loc] || {};
+        // Pages whose manifest key disappeared: a moved page's translation came
+        // from one of these. Identical content in two of them means the move
+        // cannot be identified, and a claim that cannot be checked is refused.
+        const removed = new Map();
+        for (const [oldPage, oldEntry] of Object.entries(baseBlock)) {
+          if (manifest[loc][oldPage]) continue;
+          const h = baseHash(loc, oldPage);
+          if (h === null) continue;
+          removed.set(h, [...(removed.get(h) || []), { oldPage, oldEntry }]);
+        }
+        for (const page of Object.keys(manifest[loc])) {
+          const rel = `translations/${loc}/site/${page}`;
+          let was = baseBlock[page];
+          let changed;
+          if (was) {
+            // Unlisted by git ⇒ the bytes are identical ⇒ nothing changed. A side
+            // we could not read is not "changed" either: unknown must never be the
+            // answer that lets a source bump through.
+            const before = touched !== null && touched.has(rel) ? baseHash(loc, page) : null;
+            changed = before !== null && before !== translationHash(loc, page);
+          } else {
+            const candidates = removed.get(translationHash(loc, page)) || [];
+            if (candidates.length > 1) {
+              fail(`${loc}/${page}: this translation is identical to ${candidates.length} pages removed in this change (${candidates.map((c) => c.oldPage).join(", ")}) — which one it came from cannot be told, so its record cannot be checked. Settle it with a line in ${VERIFIED_NOOPS_PATH}, or make the move one page at a time.`);
+            }
+            was = candidates[0]?.oldEntry;
+            changed = !was;   // a move changed nothing; a genuinely new page is new
+          }
+          comparisons.set(`${loc}/${page}`, { was, changed });
+        }
+      }
+      const changedSet = new Set([...comparisons].filter(([, c]) => c.changed).map(([k]) => k));
+
       try {
         const dirty = execFileSync("git", ["status", "--porcelain", "-z", "--", "site/", "translations/", "translation/"], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
         // Each entry is "XY path"; a rename or copy adds a SECOND field for the
@@ -595,106 +631,20 @@ if (baseArgInvalid) {
         let n = 0;
         for (let i = 0; i < fields.length; i++) {
           n++;
-          if (/^[RC]/.test(fields[i]) || /^.[RC]/.test(fields[i])) i++;   // skip the old-path field
+          if (/^[RC]/.test(fields[i]) || /^.[RC]/.test(fields[i])) i++;
         }
         if (n > 0) {
           note(`${n} uncommitted change(s) under site/, translations/ or translation/ — this run describes your WORKING TREE, not the commit CI will check. Commit before trusting a green result.`);
         }
       } catch { /* status is advisory; never let it end the run */ }
 
-      // A manifest key that did not exist at base has no `src` to compare against,
-      // so it used to be skipped outright. That made a RENAME a way to settle a
-      // stale page: move the English, move its stale translation verbatim, move
-      // the manifest key, set `src` to the new English, and the entry is new so
-      // nothing looks at it. Not a corner case — the gate's own advice about a
-      // moved page says to put the new path in curated-pages.txt, and 9dcac0e4,
-      // the commit this whole exception exists for, was itself a route change.
-      //
-      // A moved page is not a new page: the translation came from somewhere, and
-      // that somewhere is a base entry whose key has since disappeared. Follow the
-      // CONTENT to find it, and the moved page keeps the record it always had.
-      const inheritedBase = (loc, page) => {
-        const th = translationHash(loc, page);
-        if (th === null) return undefined;
-        const baseBlock = baseManifest[loc];
-        if (!baseBlock) return undefined;
-        for (const [oldPage, oldEntry] of Object.entries(baseBlock)) {
-          if (manifest[loc]?.[oldPage]) continue;   // that key still exists; not a move
-          const rel = `translations/${loc}/site/${oldPage}`;
-          let text;
-          try {
-            text = execFileSync("git", ["show", `${mergeBase}:${rel}`], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT });
-          } catch { continue; }                     // no such file at base
-          if (hashPage(text) === th) return oldEntry;
-        }
-        return undefined;
-      };
-
-      const worktreeText = (rel) => {
-        try {
-          return readFileSync(join(root, rel), "utf8");
-        } catch (e) {
-          fail(`could not read ${rel} from the working tree: ${e.message}`);
-          return null;
-        }
-      };
-      const rawFields = changed.split("\0");
-      const changedPaths = [];
-      for (let i = 0; i + 1 < rawFields.length; i += 2) {
-        const meta = rawFields[i].match(RAW_META);
-        if (!meta) {
-          // An unrecognised record means we are not reading what we think we are.
-          // Staying silent here is how a fail-open starts, so refuse the run.
-          if (rawFields[i] !== "") fail(`could not parse git raw diff record "${rawFields[i].slice(0, 80)}" — refusing to guess which translations changed.`);
-          continue;
-        }
-        const [, srcMode, dstMode, srcOid, dstOid] = meta;
-        const path = rawFields[i + 1];
-        if (!/^translations\/[^/]+\/site\/.+\.md$/.test(path)) { changedPaths.push(path); continue; }
-        // A deletion is a change. An ADDITION usually is too — but with
-        // --no-renames a moved file arrives as one, and a page that merely moved
-        // is not a page that was retranslated. Calling it "changed" is what let a
-        // route rename settle a stale translation, so follow the content: if this
-        // file is the one that used to live under a manifest key that has since
-        // disappeared, it moved, and nothing about it changed.
-        if (dstMode === "000000") { changedPaths.push(path); continue; }
-        if (srcMode === "000000") {
-          const mm = path.match(/^translations\/([^/]+)\/site\/(.+)$/);
-          if (!(mm && inheritedBase(mm[1], mm[2]))) changedPaths.push(path);
-          continue;
-        }
-        const before = blobText(srcOid);
-        // Diffing a commit against the working tree, git reports a null oid for
-        // anything not staged — it has no object to name yet. The content still
-        // exists, on disk, which is where the rest of this checker looks, so read
-        // it there. Calling a null oid "changed" without looking would undo the
-        // whole point of comparing normalised text.
-        const after = NULL_OID.test(dstOid) ? worktreeText(path) : blobText(dstOid);
-        if (before === null || after === null) {
-          // Unreadable blob. `fail()` above has already made the run red, but do
-          // NOT also call this path "changed": that classification is what
-          // SATISFIES Direction 2, so an unreadable object would be arguing that
-          // a source bump is fine. Fail-closedness has to live in the decision
-          // itself, not in a separate accumulator that a later edit might soften.
-          continue;
-        }
-        if (hashPage(before) !== hashPage(after)) changedPaths.push(path);
-      }
-      const changedSet = new Set(
-        changedPaths
-          .filter((p) => p.endsWith(".md"))
-          .map((p) => p.match(/^translations\/([^/]+)\/site\/(.+)$/))
-          .filter(Boolean)
-          .map((m) => `${m[1]}/${m[2]}`),
-      );
-
       // Direction 1 — translation changed ⇒ manifest must record why.
       for (const key of changedSet) {
         const [loc, ...rest] = key.split("/");
         const page = rest.join("/");
         const now = manifest[loc]?.[page];
-        const was = baseManifest[loc]?.[page];
         if (!now) continue; // deletion — bijection handles the file/entry pairing
+        const was = comparisons.get(key)?.was;
         // A hand-edit is a valid reason ONLY when the edited flag FLIPS in this
         // PR (false/absent → true). `edited:true` already at base is not a
         // standing licence to mutate the file forever with no manifest trace.
@@ -710,7 +660,7 @@ if (baseArgInvalid) {
       // "fresh" forever — the exact lie this gate exists to prevent.
       for (const loc of locales) {
         for (const [page, now] of Object.entries(manifest[loc])) {
-          const was = baseManifest[loc]?.[page] ?? inheritedBase(loc, page);
+          const was = comparisons.get(`${loc}/${page}`)?.was;
           if (!was) continue; // genuinely new — bijection ensures a matching file
           if (now.src !== was.src && !changedSet.has(`${loc}/${page}`)) {
             // Unless a human has listed this exact page against this exact
@@ -731,12 +681,6 @@ if (baseArgInvalid) {
             // name. With no file on disk the hash is null, and printing that
             // would hand the operator a line the parser rejects.
             const th = translationHash(loc, page);
-            // The file is whitespace-separated and treats `#` as a comment, so a
-            // page path containing either cannot be written as a line at all.
-            // None are curated today, but 39 such files exist under site/, and
-            // printing a line that cannot parse would send someone to a build
-            // that is permanently red for a reason the message does not mention.
-            const inexpressible = /[\s#]/.test(`${loc}/${page}`);
             // An exception pins the manifest's src to the English ON DISK. If the
             // manifest records some other hash, no line can satisfy that, and
             // printing one anyway sends the operator round a loop: they add
@@ -752,8 +696,6 @@ if (baseArgInvalid) {
               ? `but this page is held as hand-edited (edited:true), which takes it out of automated sync — no exception applies while that is set, so either clear the flag or retranslate the page`
               : !srcMatchesDisk
               ? `but note the manifest records src ${String(now.src).slice(0, 20)}… while site/${page} hashes to ${String(currentHash(page)).slice(0, 20)}… — no exception can bridge that, because a line pins the manifest to the English actually on disk. Fix the recorded src first`
-              : inexpressible
-              ? `this page cannot be authorised: its path contains whitespace or "#", which ${VERIFIED_NOOPS_PATH} has no way to express — rename the page, or settle it with a real translation change`
               : th === null
               ? `there is no translation file at translations/${loc}/site/${page} to name, so the exception cannot apply — the missing file is the thing to fix`
               : `a human can record that in ${VERIFIED_NOOPS_PATH} as "${loc}/${page} ${now.src} ${th}" — naming both the English checked and the translation found already correct for it${verifiedNoops.has(key) ? `. REPLACE the existing line for this page: a second line for the same key is a duplicate and fails the check` : ""}`;

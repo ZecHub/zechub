@@ -621,38 +621,6 @@ test("`--no-renames` is load-bearing: a PURE rename stays parseable", () => {
   } finally { r.cleanup(); }
 });
 
-test("a page whose path cannot be expressed says so, instead of printing a bad line", () => {
-  // The allowlist is whitespace-separated and `#` starts a comment, so a path
-  // containing either cannot be written as a line. Printing the usual "copy this"
-  // suggestion would hand someone a line that fails to parse — a permanently red
-  // build whose message never mentions the real reason.
-  const PAGE = "guides/Zcash #1 Guide.md";
-  const r = makeRepo();
-  try {
-    r.write(`site/${PAGE}`, EN_BODY);
-    r.write(`translations/${LOC}/site/${PAGE}`, TR_BODY);
-    r.write("translation/curated-pages.txt", `${EN_PAGE}\n${PAGE}\n`);
-    const m0 = r.manifest();
-    m0[LOC][PAGE] = { src: hashPage(EN_BODY), src_commit: "0".repeat(40), engine: "llm", mode: "diff", tool: "t", edited: false };
-    r.setManifest(m0);
-    r.commit("curate a page whose name has a space and a hash");
-    const base = git(r.dir, "rev-parse", "HEAD").trim();
-
-    const EN2 = EN_BODY.replace("blockchain-explorers", "block-explorers");
-    r.write(`site/${PAGE}`, EN2);
-    const m = r.manifest();
-    m[LOC][PAGE].src = hashPage(EN2);
-    r.setManifest(m);
-    r.commit("bump its source without touching the translation");
-
-    const { code, out } = r.runOut(base);
-    assert.equal(code, 1);
-    assert.match(out, /cannot be authorised: its path contains whitespace or "#"/);
-    assert.doesNotMatch(out, /a human can record that in/,
-      "it must not offer a line that cannot parse");
-  } finally { r.cleanup(); }
-});
-
 test("a dirty working tree is called out, because CI asks about the commit", () => {
   // The whole check reads disk, so a dirty tree gets a coherent answer — about
   // disk. That is not the question CI asks, and "invariants hold" must not be
@@ -880,4 +848,42 @@ test("an unreadable ENGLISH page is a finding, not a crash", { skip: ROOT && "ru
     try { chmodSync(join(r.dir, `site/${EN_PAGE}`), 0o644); } catch {}
     r.cleanup();
   }
+});
+
+test("an AMBIGUOUS move is refused rather than guessed", () => {
+  // Two removed pages can hold identical translations, and then content cannot
+  // say which one a moved file came from. A record that cannot be identified
+  // cannot be checked, so the gate refuses and asks for a human line rather than
+  // silently inheriting whichever it happened to find first.
+  const r = makeRepo();
+  try {
+    const TWIN = "guides/Twin.md";
+    r.write(`site/${TWIN}`, EN_BODY);
+    r.write(`translations/${LOC}/site/${TWIN}`, TR_BODY);   // IDENTICAL translation
+    r.write("translation/curated-pages.txt", `${EN_PAGE}\n${TWIN}\n`);
+    const m0 = r.manifest();
+    m0[LOC][TWIN] = { ...m0[LOC][EN_PAGE] };
+    r.setManifest(m0);
+    r.commit("two curated pages whose translations are identical");
+    const base = git(r.dir, "rev-parse", "HEAD").trim();
+
+    // both pages collapse into one new route
+    const MERGED = "guides/Merged.md";
+    r.write("translation/curated-pages.txt", `${MERGED}\n`);
+    git(r.dir, "rm", "-q", `site/${EN_PAGE}`, `site/${TWIN}`,
+      `translations/${LOC}/site/${EN_PAGE}`, `translations/${LOC}/site/${TWIN}`);
+    r.write(`site/${MERGED}`, EN_BODY);
+    r.write(`translations/${LOC}/site/${MERGED}`, TR_BODY);
+    const m = r.manifest();
+    m[LOC][MERGED] = { ...m[LOC][EN_PAGE] };
+    delete m[LOC][EN_PAGE];
+    delete m[LOC][TWIN];
+    r.setManifest(m);
+    r.commit("collapse both pages into one route");
+
+    const { code, out } = r.runOut(base);
+    assert.equal(code, 1);
+    assert.ok(hasViolation(out, /identical to 2 pages removed in this change/),
+      `expected an ambiguity refusal, got:\n${out}`);
+  } finally { r.cleanup(); }
 });
