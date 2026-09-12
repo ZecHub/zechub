@@ -1324,3 +1324,32 @@ test("a non-ASCII translation filename is still seen by the bijection", () => {
       `expected the orphan to be named, got:\n${out}`);
   } finally { r.cleanup(); }
 });
+
+test("the deletion remedy, followed exactly, produces a green run", () => {
+  // R7: a refusal must not name a remedy that cannot work. This one told people to
+  // remove the curated line and "leave translations/<locale>/site/ alone", which
+  // leaves a manifest entry for a non-curated page — refused. Removing the entries
+  // too leaves the files orphaned — also refused. Only all three together pass,
+  // and the message now says so.
+  const r = makeRepo();
+  try {
+    const KEEP = "guides/Keep.md";
+    r.write(`site/${KEEP}`, "# Keep\n\nstays.\n");
+    r.write(`translations/${LOC}/site/${KEEP}`, "# Keep\n\nresta.\n");
+    r.write("translation/curated-pages.txt", `${EN_PAGE}\n${KEEP}\n`);
+    const m0 = r.manifest();
+    m0[LOC][KEEP] = { ...m0[LOC][EN_PAGE], src: hashPage("# Keep\n\nstays.\n") };
+    r.setManifest(m0);
+    r.commit("two curated pages");
+
+    // exactly what the refusal now prescribes: curated line, entries, files
+    git(r.dir, "rm", "-q", `site/${EN_PAGE}`, `translations/${LOC}/site/${EN_PAGE}`);
+    r.write("translation/curated-pages.txt", `${KEEP}\n`);
+    const m = r.manifest();
+    delete m[LOC][EN_PAGE];
+    r.setManifest(m);
+    r.commit("retire the page the way the message says to");
+
+    assert.equal(r.run(), 0, "the prescribed remedy must actually go green");
+  } finally { r.cleanup(); }
+});

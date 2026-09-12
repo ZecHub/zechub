@@ -302,8 +302,10 @@ function pathAtBase(relPath) {
       `but are still listed in translation/curated-pages.txt:\n` +
       deletedHere.map((q) => `      - ${q}`).join("\n") +
       `\n    If you DELETED the page: remove those exact lines from ` +
-      `translation/curated-pages.txt here. Leave translations/<locale>/site/ alone — the ` +
-      `next translation sync detects them as orphans and removes them.` +
+      `translation/curated-pages.txt, AND the page's entry from every locale block in ` +
+      `translation/sync-state.json, AND the translated files themselves. All three: a ` +
+      `curated line without a page, an entry without a curated line, and a file without an ` +
+      `entry are each refused, so removing only some of them cannot go green.` +
       `\n    If you RENAMED or MOVED it: put the NEW path in curated-pages.txt instead of ` +
       `deleting the line, or the page silently drops out of translation in all 18 locales.`
     );
@@ -366,7 +368,6 @@ for (const loc of locales) {
   }
   // provenance well-formedness
   for (const [page, e] of Object.entries(entries)) {
-    if (typeof e !== "object" || e === null) { fail(`${loc}/${page}: entry is not an object`); continue; }
     if (typeof e.src !== "string" || !/^sha256:[0-9a-f]{64}$/.test(e.src)) fail(`${loc}/${page}: invalid src hash`);
     if (!VALID_ENGINES.has(e.engine)) fail(`${loc}/${page}: invalid engine "${e.engine}"`);
     if (!VALID_MODES.has(e.mode)) fail(`${loc}/${page}: invalid mode "${e.mode}"`);
@@ -630,7 +631,16 @@ if (baseArgInvalid) {
           // the same page, and every listed path then compares unequal forever —
           // which is the answer that skips Direction 2. Both sides must be read in
           // the form a reader sees.
-          return hashPage(execFileSync("git", ["cat-file", "--filters", `${mergeBase}:${rel}`], { cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT }));
+          //
+          // GIT_ATTR_SOURCE pins WHOSE attributes: without it `--filters` reads the
+          // base blob through the attributes in the tree being checked, so adding a
+          // .gitattributes line changes what the BASE is taken to have said. The
+          // base must be read as the base, or a change to the rules is mistaken for
+          // a change to the page.
+          return hashPage(execFileSync("git", ["cat-file", "--filters", `${mergeBase}:${rel}`], {
+            cwd: root, encoding: "utf8", maxBuffer: MAX_GIT_OUTPUT,
+            env: { ...process.env, GIT_ATTR_SOURCE: mergeBase },
+          }));
         } catch (e) {
           // Only ever asked for a path the BASE manifest names, so the file was
           // there. Failing to read it is a finding, not an absence — and it must
@@ -705,7 +715,7 @@ if (baseArgInvalid) {
             const disagree = new Set(candidates.map((c) =>
               JSON.stringify([c.entry.src ?? null, c.entry.edited === false])));
             if (disagree.size > 1) {
-              fail(`${loc}/${page}: this translation is identical to ${candidates.length} entries at the base (${candidates.map((c) => `${c.loc}/${c.page}`).join(", ")}), and they do not agree on the source they were translated against, so which record this page continues cannot be told. Give this page a translation distinct from theirs — re-translating it is the only thing that separates them, and moving one page at a time does not, because a page that is still there counts too.`);
+              fail(`${loc}/${page}: this translation is identical to ${candidates.length} entries at the base (${candidates.map((c) => `${c.loc}/${c.page}`).join(", ")}), and they do not agree on the record they carry — the source they were translated against, or whether they are held as hand-edited — so which one this page continues cannot be told. Give this page a translation distinct from theirs — re-translating it is the only thing that separates them, and moving one page at a time does not, because a page that is still there counts too.`);
             }
             was = candidates[0]?.entry;
             changed = !was;   // a move changed nothing; a genuinely new page is new
